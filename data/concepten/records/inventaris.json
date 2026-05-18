@@ -2,7 +2,7 @@
   "id": "inventaris",
   "naam": "Inventaris",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -225,5 +225,6 @@
       "target": "waarderingsregels",
       "redenering": "Posten worden niet alleen geteld maar ook gewaardeerd volgens de geldende waarderingsregels."
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

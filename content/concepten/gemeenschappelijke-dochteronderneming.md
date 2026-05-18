@@ -2,7 +2,7 @@
 title: Gemeenschappelijke dochteronderneming
 tags:
 - concept
-- actor
+- autoriteit
 - po-1-4
 linked_anchors:
 - 1.4.I.C
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: actor
+node_type: autoriteit
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/gemeenschappelijke-dochteronderneming.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -60,6 +60,9 @@ _Bron: CBN 2017/02 — Gezamenlijke controle_
 
 - **Getriggerd door**: [[gezamenlijke-controle]]
 - **Getriggerd door**: [[evenredige-consolidatie]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

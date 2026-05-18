@@ -1,8 +1,8 @@
 {
   "id": "risico-inschatting-organisatie",
   "naam": "Risico-inschatting binnen de organisatie (COSO-component 2)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.F",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle.",
   "bouwstenen": [
     {
       "titel": "Drie stappen",
@@ -70,5 +69,12 @@
       "target": "auditrisicomodel",
       "redenering": "Risicomodel van auditor (IR × CR × DR) is verwant maar specifiek voor audit; risico-inschatting van management dekt veel breder."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "wetboek-vennootschappen-verenigingen",
   "naam": "Wetboek van Vennootschappen en Verenigingen (WVV)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.C",
@@ -64,7 +64,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV moet als grote NV haar jaarrekening in volledig schema neerleggen — verplichting uit WVV Boek 3, uitgewerkt in KB-WVV.",
   "bouwstenen": [
     {
       "titel": "Eén wetboek voor vennootschappen én verenigingen",
@@ -200,5 +199,12 @@
       "redenering": "WVV Boek 3 onderscheidt volledig, verkort en microschema.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV moet als grote NV haar jaarrekening in volledig schema neerleggen — verplichting uit WVV Boek 3, uitgewerkt in KB-WVV."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "gedeelde-wettelijk-voorbehouden-opdracht",
   "naam": "Gedeelde wettelijk voorbehouden opdracht",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV wil omzetten van BV naar NV. Aangezien er geen commissaris is, vraagt de zaakvoerder Sofie Janssens (gecertificeerd accountant) om het wettelijk verplicht verslag op te stellen — een typische gedeelde wettelijk voorbehouden opdracht.",
   "bouwstenen": [
     {
       "titel": "Gedeeld monopolie",
@@ -102,5 +101,12 @@
       "target": "ontbinding-vereffening-opdracht",
       "redenering": "Ontbinding-vereffening is een typisch voorbeeld."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV wil omzetten van BV naar NV. Aangezien er geen commissaris is, vraagt de zaakvoerder Sofie Janssens (gecertificeerd accountant) om het wettelijk verplicht verslag op te stellen — een typische gedeelde wettelijk voorbehouden opdracht."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

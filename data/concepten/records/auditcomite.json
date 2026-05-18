@@ -1,8 +1,8 @@
 {
   "id": "auditcomite",
   "naam": "Auditcomité",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.V.D",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV (beursgenoteerd) telt het auditcomité 3 niet-uitvoerende bestuurders, waaronder Robert Vandenberghe (ex-CFO van een bank, onafhankelijk + financiële expertise). Het comité vergadert 4x per jaar, ontvangt het IA-rapport van Sofie Janssens, bespreekt management letter van commissaris Wolters & Partners CVBA, valideert de jaarrekening vóór ze naar de RvB gaat.",
   "in_praktijk": [
     {
       "aspect": "Vier kerntaken",
@@ -57,5 +56,12 @@
       "target": "interne-audit",
       "redenering": "IA rapporteert idealiter aan auditcomité voor maximale onafhankelijkheid."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV (beursgenoteerd) telt het auditcomité 3 niet-uitvoerende bestuurders, waaronder Robert Vandenberghe (ex-CFO van een bank, onafhankelijk + financiële expertise). Het comité vergadert 4x per jaar, ontvangt het IA-rapport van Sofie Janssens, bespreekt management letter van commissaris Wolters & Partners CVBA, valideert de jaarrekening vóór ze naar de RvB gaat."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "beroepsgeheim-accountant",
   "naam": "Beroepsgeheim van de accountant",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.B",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Een politieambtenaar contacteert Sofie Janssens en vraagt naar de boekhouding van Meubelzaak Mertens BV in het kader van een fiscaal onderzoek. Sofie weigert vrijwillig te antwoorden — beroepsgeheim. Pas wanneer een onderzoeksrechter haar oproept, mag zij — en moet zij zelfs — verschijnen en de eed afleggen.",
   "voorwaarden": [
     {
       "text": "Uitzondering 1 — getuigenis in rechte: voor een rechter (onderzoeksrechter, strafrechter, burgerlijke rechter) mag de accountant onthullen, mits de rechter beoordeelt of de informatie effectief onder het beroepsgeheim valt.",
@@ -130,5 +129,12 @@
       "target": "plichtenleer-accountant",
       "redenering": "Pijler van de deontologie."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Een politieambtenaar contacteert Sofie Janssens en vraagt naar de boekhouding van Meubelzaak Mertens BV in het kader van een fiscaal onderzoek. Sofie weigert vrijwillig te antwoorden — beroepsgeheim. Pas wanneer een onderzoeksrechter haar oproept, mag zij — en moet zij zelfs — verschijnen en de eed afleggen."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

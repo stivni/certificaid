@@ -1,8 +1,8 @@
 {
   "id": "dochteronderneming",
   "naam": "Dochteronderneming",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -101,7 +101,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV (industriële activiteit). Aurelia kan via die meerderheid de meeste bestuurders aanstellen → onweerlegbaar controle in rechte (WVV art. 1:14, § 2) → Brugse Brouwerij BV is dochteronderneming van Aurelia Holding NV. Aurelia consolideert Brugse integraal; 10 % van het eigen vermogen en het resultaat van Brugse staat apart als belangen van derden (KB WVV art. 3:137).",
   "in_praktijk": [
     {
       "aspect": "Soorten dochterondernemingen voor consolidatiedoeleinden",
@@ -280,5 +279,12 @@
       "redenering": "Een dochteronderneming onder exclusieve controle wordt integraal geconsolideerd (KB WVV art. 3:124, 1°).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV (industriële activiteit). Aurelia kan via die meerderheid de meeste bestuurders aanstellen → onweerlegbaar controle in rechte (WVV art. 1:14, § 2) → Brugse Brouwerij BV is dochteronderneming van Aurelia Holding NV. Aurelia consolideert Brugse integraal; 10 % van het eigen vermogen en het resultaat van Brugse staat apart als belangen van derden (KB WVV art. 3:137)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

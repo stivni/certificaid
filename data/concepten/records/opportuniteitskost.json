@@ -2,7 +2,7 @@
   "id": "opportuniteitskost",
   "naam": "Opportuniteitskost",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.E",
@@ -29,7 +29,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV krijgt een spoedorder voor 1.000 tapijten van klant Brugse Boutique. Acceptatie verdringt een lopend order voor klant Kappers Köln (margebijdrage € 35.000). Opportuniteitskost van Brugse-order = € 35.000 (verloren marge Köln). Pas als margebijdrage Brugse > € 35.000 + variabele kost is het order aantrekkelijk.",
   "in_praktijk": [
     {
       "aspect": "Wanneer toepassen",
@@ -47,5 +46,12 @@
       "redenering": "Onderdeel van beslissingsraamwerk.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV krijgt een spoedorder voor 1.000 tapijten van klant Brugse Boutique. Acceptatie verdringt een lopend order voor klant Kappers Köln (margebijdrage € 35.000). Opportuniteitskost van Brugse-order = € 35.000 (verloren marge Köln). Pas als margebijdrage Brugse > € 35.000 + variabele kost is het order aantrekkelijk."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "niet-in-balans-opgenomen-rechten-verplichtingen",
   "naam": "Niet in de balans opgenomen rechten en verplichtingen",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.3.II.D",
@@ -227,5 +227,6 @@
       "redenering": "Boekhoudkundige tegenhanger in klasse-0-rekeningen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

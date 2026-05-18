@@ -1,8 +1,8 @@
 {
   "id": "bijzondere-waardevermindering-ias-36",
   "naam": "Bijzondere waardevermindering (impairment) onder IAS 36",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.A",
@@ -283,5 +283,6 @@
       "redenering": "Onbepaalde-gebruiksduur-immateriële activa worden jaarlijks getest onder IAS 36.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

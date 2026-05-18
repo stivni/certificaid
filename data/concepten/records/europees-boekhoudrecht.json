@@ -2,7 +2,7 @@
   "id": "europees-boekhoudrecht",
   "naam": "Europees boekhoudrecht",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.A",
@@ -58,7 +58,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV is beursgenoteerd → moet IFRS toepassen op haar geconsolideerde jaarrekening (rechtstreekse werking IAS-verordening 1606/2002). Voor haar enkelvoudige jaarrekening blijft Belgisch GAAP gelden (geïmplementeerde Richtlijn 2013/34/EU).",
   "bouwstenen": [
     {
       "titel": "Verordening: rechtstreekse werking",
@@ -198,5 +197,12 @@
       "redenering": "Verordening 1606/2002 verplicht IFRS voor beursgenoteerde geconsolideerde jaarrekeningen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV is beursgenoteerd → moet IFRS toepassen op haar geconsolideerde jaarrekening (rechtstreekse werking IAS-verordening 1606/2002). Voor haar enkelvoudige jaarrekening blijft Belgisch GAAP gelden (geïmplementeerde Richtlijn 2013/34/EU)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

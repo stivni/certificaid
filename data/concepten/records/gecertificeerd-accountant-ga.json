@@ -1,8 +1,8 @@
 {
   "id": "gecertificeerd-accountant-ga",
   "naam": "Gecertificeerd accountant (GA)",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.B",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens is gecertificeerd accountant bij Wolters & Partners. Zij organiseert de boekhouding van Meubelzaak Mertens BV, stelt de fiscale aangifte op en voert vrijwillig een contractuele controle uit op de jaarrekening 2025 — geen commissariaat (dat is voorbehouden aan de bedrijfsrevisor).",
   "bouwstenen": [
     {
       "titel": "Twaalf hoofd-beroepsactiviteiten",
@@ -89,5 +88,12 @@
       "target": "bedrijfsrevisor",
       "redenering": "Twee verwante beroepen met deels overlappende, deels gescheiden bevoegdheden."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens is gecertificeerd accountant bij Wolters & Partners. Zij organiseert de boekhouding van Meubelzaak Mertens BV, stelt de fiscale aangifte op en voert vrijwillig een contractuele controle uit op de jaarrekening 2025 — geen commissariaat (dat is voorbehouden aan de bedrijfsrevisor)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

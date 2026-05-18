@@ -1,8 +1,8 @@
 {
   "id": "sale-and-leaseback-ifrs-16",
   "naam": "Sale-and-leaseback onder IFRS 16",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.C",
@@ -74,7 +74,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV bezit haar productiehal in Antwerpen (boekwaarde € 4.000.000, reële waarde € 6.000.000). Op 1 januari 2026 verkoopt zij de hal aan Aurelia Holding NV voor € 6.000.000 én sluit gelijktijdig een 10-jarige lease aan € 480.000/jaar (marginale rentevoet 4%, contante waarde betalingen ≈ € 3.894.000). De overdracht voldoet aan IFRS 15: Aurelia heeft de zeggenschap verworven. Onder IFRS 16 alinea 100 boekt Zelena: (1) actief wegboeken voor boekwaarde € 4.000.000; (2) ROU opnemen voor het *behouden* gebruiksrecht = € 4.000.000 × (€ 3.894.000 / € 6.000.000) = € 2.596.000; (3) leaseverplichting € 3.894.000; (4) winst op verkoop alleen op het *overgedragen* deel = (€ 6.000.000 − € 4.000.000) × ((€ 6.000.000 − € 3.894.000) / € 6.000.000) = € 2.000.000 × 0,351 ≈ € 702.000. Geen volledige winstrealisatie van € 2.000.000.",
   "bouwstenen": [
     {
       "titel": "Tweestappentest — eerst is het een verkoop?",
@@ -339,5 +338,12 @@
       "redenering": "Belgisch GAAP (art. 63 KB W.Venn.) verwerkt sale-and-leaseback fundamenteel anders — uitgestelde meerwaarde via overlopende rekening i.p.v. evenredige onmiddellijke winst.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV bezit haar productiehal in Antwerpen (boekwaarde € 4.000.000, reële waarde € 6.000.000). Op 1 januari 2026 verkoopt zij de hal aan Aurelia Holding NV voor € 6.000.000 én sluit gelijktijdig een 10-jarige lease aan € 480.000/jaar (marginale rentevoet 4%, contante waarde betalingen ≈ € 3.894.000). De overdracht voldoet aan IFRS 15: Aurelia heeft de zeggenschap verworven. Onder IFRS 16 alinea 100 boekt Zelena: (1) actief wegboeken voor boekwaarde € 4.000.000; (2) ROU opnemen voor het *behouden* gebruiksrecht = € 4.000.000 × (€ 3.894.000 / € 6.000.000) = € 2.596.000; (3) leaseverplichting € 3.894.000; (4) winst op verkoop alleen op het *overgedragen* deel = (€ 6.000.000 − € 4.000.000) × ((€ 6.000.000 − € 3.894.000) / € 6.000.000) = € 2.000.000 × 0,351 ≈ € 702.000. Geen volledige winstrealisatie van € 2.000.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/opvolging-voorganger-accountant.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -70,6 +70,9 @@ Verstuur kopie van de opdrachtbrief of een korte mededeling — bij voorkeur sch
 > _Bron: KB plichtenleer art. 25_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

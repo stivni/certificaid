@@ -2,7 +2,7 @@
   "id": "bewaring-boekhoudstukken",
   "naam": "Bewaring van boekhoudkundige stukken",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.taak.1",
@@ -40,7 +40,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV moet de aankoopfacturen, verkoopfacturen, dagboeken en jaarrekening van boekjaar 20X1 (1/1 — 31/12/20X1) bewaren tot 31/12/20X8 (7 jaar vanaf 1/1/20X2). De BV kiest voor digitale archivering op een cloud-server in Frankrijk; vanuit de zetel te Ninove blijven alle documenten on-line consulteerbaar.",
   "bouwstenen": [
     {
       "titel": "7 jaar voor boekhoudkundige stukken",
@@ -152,5 +151,12 @@
       "target": "regelmatige-boekhouding",
       "redenering": "Bewaring is een uitvloeisel van het onveranderlijkheids- en controleerbaarheidsbeginsel."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV moet de aankoopfacturen, verkoopfacturen, dagboeken en jaarrekening van boekjaar 20X1 (1/1 — 31/12/20X1) bewaren tot 31/12/20X8 (7 jaar vanaf 1/1/20X2). De BV kiest voor digitale archivering op een cloud-server in Frankrijk; vanuit de zetel te Ninove blijven alle documenten on-line consulteerbaar."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

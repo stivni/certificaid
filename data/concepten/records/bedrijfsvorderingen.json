@@ -2,7 +2,7 @@
   "id": "bedrijfsvorderingen",
   "naam": "Bedrijfsvorderingen",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.F",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV verkoopt voor € 8.500 + BTW € 1.785 = € 10.285 op factuur aan klant X (30 dagen krediet). Boeking: Debet 400 Handelsdebiteuren € 10.285 / Credit 700 Verkopen € 8.500 + Credit 451 BTW € 1.785. Bij niet-betaling na 6 maanden + aanmaningen: waardevermindering op rekening 409 voor 70 % = € 7.200.",
   "bouwstenen": [
     {
       "titel": "Onderscheid op meer dan / hoogstens één jaar",
@@ -207,5 +206,12 @@
       "target": "voorzichtigheidsbeginsel",
       "redenering": "Waardevermindering bij onzekere inbaarheid is voorzichtigheid in actie."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV verkoopt voor € 8.500 + BTW € 1.785 = € 10.285 op factuur aan klant X (30 dagen krediet). Boeking: Debet 400 Handelsdebiteuren € 10.285 / Credit 700 Verkopen € 8.500 + Credit 451 BTW € 1.785. Bij niet-betaling na 6 maanden + aanmaningen: waardevermindering op rekening 409 voor 70 % = € 7.200."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

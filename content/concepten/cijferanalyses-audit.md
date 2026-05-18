@@ -2,7 +2,7 @@
 title: Cijferanalyses bij een audit
 tags:
 - concept
-- methode
+- cluster
 - po-1-6
 linked_anchors:
 - 1.6.II.C
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/cijferanalyses-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -49,6 +49,9 @@ Tendensanalyse over meerdere boekjaren, ratio-analyse (current ratio, debt/equit
 
 _Grondslag: ITAA Algemene controlenorm §4 (analyse van belangrijke tendensen en ratio's)_
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

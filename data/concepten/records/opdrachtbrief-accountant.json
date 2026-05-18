@@ -2,7 +2,7 @@
   "id": "opdrachtbrief-accountant",
   "naam": "Opdrachtbrief van de accountant",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -46,7 +46,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Wolters & Partners CVBA stelt voor Meubelzaak Mertens BV een opdrachtbrief op vóór de start van de jaarlijkse boekhoudkundige opdracht: scope (organisatie boekhouding + jaarrekening + fiscale aangifte), termijnen (jaarrekening klaar tegen 30 april), ereloon (€ 8.500 forfait + uurtarief boven scope), aansprakelijkheidsplafond (drie keer ereloon, niet bij bedrog).",
   "stappen": [
     {
       "nr": 1,
@@ -131,5 +130,12 @@
       "target": "antiwitwas-meldingsplicht",
       "redenering": "Antiwitwasverplichtingen worden via de opdrachtbrief geïnformeerd."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Wolters & Partners CVBA stelt voor Meubelzaak Mertens BV een opdrachtbrief op vóór de start van de jaarlijkse boekhoudkundige opdracht: scope (organisatie boekhouding + jaarrekening + fiscale aangifte), termijnen (jaarrekening klaar tegen 30 april), ereloon (€ 8.500 forfait + uurtarief boven scope), aansprakelijkheidsplafond (drie keer ereloon, niet bij bedrog)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

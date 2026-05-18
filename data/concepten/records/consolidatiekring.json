@@ -2,7 +2,7 @@
   "id": "consolidatiekring",
   "naam": "Consolidatiekring",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -122,7 +122,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV controleert Brugse Brouwerij BV (100 %) en Drukkerij Dendermonde BV (25 %, invloed van betekenis). Consolidatiekring = Aurelia + Brugse; Drukkerij Dendermonde komt erbij via vermogensmutatie.",
   "bouwstenen": [
     {
       "titel": "Hoofdregel — moeder plus alle dochters",
@@ -431,5 +430,12 @@
       "redenering": "Een dochter in de kring wordt integraal geconsolideerd, behalve als zij op een uitsluitingsgrond valt (art. 3:97 of art. 3:98) en via vermogensmutatie wordt opgenomen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV controleert Brugse Brouwerij BV (100 %) en Drukkerij Dendermonde BV (25 %, invloed van betekenis). Consolidatiekring = Aurelia + Brugse; Drukkerij Dendermonde komt erbij via vermogensmutatie."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

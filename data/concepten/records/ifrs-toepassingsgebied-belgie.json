@@ -2,7 +2,7 @@
   "id": "ifrs-toepassingsgebied-belgie",
   "naam": "IFRS-toepassingsgebied in België — wie moet en wie mag?",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.III",
@@ -67,7 +67,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV (beursgenoteerd op Euronext Brussel, € 350.000.000 omzet groep) is verplicht IFRS toe te passen op haar **geconsolideerde** jaarrekening. Voor haar **enkelvoudige** jaarrekening blijft KB WVV (Belgisch GAAP) van toepassing. Rotex Roeselare NV (grote NV, niet beursgenoteerd, € 80.000.000 omzet) past op beide niveaus Belgisch GAAP toe — geen IFRS, niet verplicht en niet toegestaan voor haar enkelvoudige rekening.",
   "bouwstenen": [
     {
       "titel": "Geconsolideerd niveau: vier scenario's",
@@ -246,5 +245,12 @@
       "redenering": "De consortium-uitzondering (CBN 2016/19) raakt de consortium-figuur uit het WVV.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV (beursgenoteerd op Euronext Brussel, € 350.000.000 omzet groep) is verplicht IFRS toe te passen op haar **geconsolideerde** jaarrekening. Voor haar **enkelvoudige** jaarrekening blijft KB WVV (Belgisch GAAP) van toepassing. Rotex Roeselare NV (grote NV, niet beursgenoteerd, € 80.000.000 omzet) past op beide niveaus Belgisch GAAP toe — geen IFRS, niet verplicht en niet toegestaan voor haar enkelvoudige rekening."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "paragraaf-overige-aangelegenheden",
   "naam": "Paragraaf inzake overige aangelegenheden",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV.C"
@@ -30,12 +30,18 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens audit de jaarrekening 2025 van Rotex maar treedt voor het eerst op (vorige jaar werd door een andere auditor gecertificeerd). Zij neemt een paragraaf 'overige aangelegenheden' op die de gebruiker informeert dat de vergelijkende cijfers 2024 door een collega-auditor werden gecontroleerd.",
   "edges": [
     {
       "type": "vergelijkt-met",
       "target": "paragraaf-ter-benadrukking",
       "redenering": "Twee paragraaf-types die niet door elkaar mogen gehaspeld worden."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens audit de jaarrekening 2025 van Rotex maar treedt voor het eerst op (vorige jaar werd door een andere auditor gecertificeerd). Zij neemt een paragraaf 'overige aangelegenheden' op die de gebruiker informeert dat de vergelijkende cijfers 2024 door een collega-auditor werden gecontroleerd."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

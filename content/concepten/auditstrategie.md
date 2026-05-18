@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/auditstrategie.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -35,6 +35,9 @@ _Bron: ITAA KMO-controlenorm §71-§72_
 > [!tip]- Vier afwegingen volgens §72
 > (1) Kenmerken van de opdracht die de reikwijdte bepalen (bv. versterkte controle bij eerstejaars-opdracht). (2) Doelstellingen voor het uit te brengen verslag (timing + aard van communicaties). (3) Professionele oordeelsfactoren om het team te sturen. (4) Resultaten van eerder werk en relevante ervaring met de cliënt. (5) Aard, timing en omvang van benodigde middelen. ⚖️
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

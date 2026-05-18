@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/informatie-kwaliteit-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -25,4 +25,7 @@ gegenereerd_op: '2026-05-18'
 
 Informatie in IC-context is verwerkte data die geschikt is voor besluitvorming en rapportering. Voor bruikbaarheid moet ze voldoen aan kwaliteitseisen: (1) relevant — raakt de te nemen beslissing; (2) betrouwbaar — accuraat, neutraal, verifieerbaar; (3) tijdig — beschikbaar wanneer nodig; (4) volledig — geen kritieke ontbrekende elementen; (5) begrijpelijk — formaat past bij gebruiker.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

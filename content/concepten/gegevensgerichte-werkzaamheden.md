@@ -2,7 +2,7 @@
 title: Gegevensgerichte werkzaamheden (substantive procedures)
 tags:
 - concept
-- methode
+- cluster
 - po-1-6
 linked_anchors:
 - 1.6.II.C
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/gegevensgerichte-werkzaamheden.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -54,6 +54,9 @@ _Grondslag: ITAA KMO-controlenorm §94_
 >
 > _Trigger_: Hoog inherent risico en/of geen vertrouwen in IC → vooral gegevensgericht. Goede IC + intentie tot steunen → mix met toetsing IC.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/itaa-algemene-controlenorm.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -53,6 +53,9 @@ _Grondslag: ITAA-norm-algemene-controlenorm (structuur)_
 >
 > _Trigger_: Examenvraag: 'welke norm regelt een contractuele audit bij een KMO?' → KMO-controlenorm. 'Welke norm regelt de algemene plichten van de accountant bij elke controle?' → Algemene controlenorm.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -2,7 +2,7 @@
 title: Auditrisicomodel (controlerisico)
 tags:
 - concept
-- methode
+- cluster
 - po-1-6
 - po-1-7
 linked_anchors:
@@ -14,9 +14,9 @@ programmaonderdelen:
 - '1.6'
 - '1.7'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/auditrisicomodel.json
 gegenereerd_op: '2026-05-18'
 ---

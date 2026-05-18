@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/informatiesysteem-onderneming.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -51,4 +51,7 @@ Het informatiesysteem is het geheel van procedures, mensen, software en hardware
 ## Zie ook
 
 - **Vereist kennis van**: [[geinformatiseerde-omgeving-ic]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

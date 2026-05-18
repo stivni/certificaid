@@ -1,8 +1,8 @@
 {
   "id": "moedervennootschap",
   "naam": "Moedervennootschap",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -102,7 +102,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → controle in rechte → Aurelia is moeder van Brugse, Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken.",
   "voorwaarden_toepassing": [
     {
       "text": "Heeft rechtspersoonlijkheid. De consolidatieplicht (WVV art. 3:22) zit onder Titel 1 'Jaarrekeningen van vennootschappen met rechtspersoonlijkheid' — natuurlijke personen, maatschappen zonder rechtspersoonlijkheid en private stichtingen kunnen géén moeder zijn.",
@@ -278,5 +277,12 @@
       "redenering": "Het begrip moeder bouwt op het begrip controle — zonder controle is er geen moeder.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → controle in rechte → Aurelia is moeder van Brugse, Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

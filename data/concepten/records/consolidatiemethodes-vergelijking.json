@@ -2,7 +2,7 @@
   "id": "consolidatiemethodes-vergelijking",
   "naam": "De vier consolidatiemethodes vergeleken",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -132,5 +132,6 @@
   "tags_pilot": [
     "pilot-synthese-record",
     "schema-1.4-eerste-toepassing"
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

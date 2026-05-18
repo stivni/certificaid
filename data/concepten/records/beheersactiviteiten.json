@@ -2,7 +2,7 @@
   "id": "beheersactiviteiten",
   "naam": "Beheersactiviteiten (COSO-component 3)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VIII.D",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV: (preventief) facturen > € 25.000 vereisen handtekening van CFO David; (detectief) maandelijkse afstemming bank-grootboek door iemand anders dan de boeker; (geautomatiseerd) ERP weigert input van prijs > 20% afwijking van laatste aankoopprijs zonder override.",
   "bouwstenen": [
     {
       "titel": "Vier hoofdcategorieën",
@@ -62,5 +61,12 @@
       "target": "functiescheiding",
       "redenering": "Functiescheiding is de prototypische beheersactiviteit."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV: (preventief) facturen > € 25.000 vereisen handtekening van CFO David; (detectief) maandelijkse afstemming bank-grootboek door iemand anders dan de boeker; (geautomatiseerd) ERP weigert input van prijs > 20% afwijking van laatste aankoopprijs zonder override."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

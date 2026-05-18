@@ -2,16 +2,16 @@
 title: Financiële verrichtingen (kosten + opbrengsten)
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-1
 linked_anchors:
 - 1.1.II.O
 programmaonderdelen:
 - '1.1'
 confidence: grounded
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/financiele-verrichtingen.json
 gegenereerd_op: '2026-05-18'
 ---

@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/schriftelijke-bevestiging-management.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -35,6 +35,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 > [!tip]- Niet vervangbaar door audit-werk
 > Een management representation letter is GEEN substantive audit evidence — het is een aanvulling, geen vervanging. Een bevestiging dat 'voorraden correct gewaardeerd zijn' compenseert geen ontbrekende inventarisatie. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

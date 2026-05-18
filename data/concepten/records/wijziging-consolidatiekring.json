@@ -1,8 +1,8 @@
 {
   "id": "wijziging-consolidatiekring",
   "naam": "Wijziging van de consolidatiekring",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.G",
@@ -105,7 +105,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV consolideerde in 20X0 enkel Brugse Brouwerij BV. In 20X1 koopt ze 100 % van Bouwwerf Beerse BV → eerste consolidatie van Bouwwerf Beerse → wijziging consolidatiekring → toelichting bevat vergelijkende cijfers waarin Bouwwerf Beerse niet meedeed in 20X0.",
   "bouwstenen": [
     {
       "titel": "Eerste consolidatie van een nieuwe dochter",
@@ -365,5 +364,12 @@
       "redenering": "Een wijziging veronderstelt een gedefinieerde consolidatiekring — zonder dat begrip kan je geen wijziging begrijpen of boeken.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV consolideerde in 20X0 enkel Brugse Brouwerij BV. In 20X1 koopt ze 100 % van Bouwwerf Beerse BV → eerste consolidatie van Bouwwerf Beerse → wijziging consolidatiekring → toelichting bevat vergelijkende cijfers waarin Bouwwerf Beerse niet meedeed in 20X0."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

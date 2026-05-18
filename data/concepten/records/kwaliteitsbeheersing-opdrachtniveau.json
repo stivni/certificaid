@@ -2,7 +2,7 @@
   "id": "kwaliteitsbeheersing-opdrachtniveau",
   "naam": "Kwaliteitsbeheersing op opdrachtniveau",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.III.D"
@@ -30,7 +30,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens is opdrachtpartner voor de audit van Rotex Roeselare NV. Zij leidt het team van 5, controleert de werkpapieren van elke junior, bespreekt elke significante professionele oordeelsvorming en laat een onafhankelijke kwaliteitsreviewer (collega-partner Pieter Vermeulen) het dossier herlezen vóór ondertekening van het verslag.",
   "in_praktijk": [
     {
       "aspect": "Eindverantwoordelijkheid bij één persoon",
@@ -80,5 +79,12 @@
       "target": "opvolging-voorganger-accountant",
       "redenering": "Specifieke kwaliteitsregel bij opvolging."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens is opdrachtpartner voor de audit van Rotex Roeselare NV. Zij leidt het team van 5, controleert de werkpapieren van elke junior, bespreekt elke significante professionele oordeelsvorming en laat een onafhankelijke kwaliteitsreviewer (collega-partner Pieter Vermeulen) het dossier herlezen vóór ondertekening van het verslag."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

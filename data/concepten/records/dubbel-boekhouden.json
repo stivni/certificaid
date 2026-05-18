@@ -1,8 +1,8 @@
 {
   "id": "dubbel-boekhouden",
   "naam": "Dubbel boekhouden",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -53,7 +53,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV koopt voor € 1.250 (incl. BTW € 217) hout op factuur. Boeking: Debet 600 Aankopen € 1.033 + Debet 411 Terug te vorderen BTW € 217 / Credit 440 Leveranciers € 1.250. Debet totaal € 1.250 = Credit totaal € 1.250 ✓.",
   "bouwstenen": [
     {
       "titel": "Elke boeking heeft twee zijden",
@@ -325,5 +324,12 @@
       "target": "dagboek",
       "redenering": "Boekingen worden ingeschreven in dagboeken én methodisch in rekeningen — dagboek is de chronologische pijler."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV koopt voor € 1.250 (incl. BTW € 217) hout op factuur. Boeking: Debet 600 Aankopen € 1.033 + Debet 411 Terug te vorderen BTW € 217 / Credit 440 Leveranciers € 1.250. Debet totaal € 1.250 = Credit totaal € 1.250 ✓."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

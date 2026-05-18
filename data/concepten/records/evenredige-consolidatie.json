@@ -1,8 +1,8 @@
 {
   "id": "evenredige-consolidatie",
   "naam": "Evenredige consolidatie (proportionele consolidatie)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -117,7 +117,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'.",
   "voorwaarden_toepassing": [
     {
       "text": "Er moet gezamenlijke controle bestaan over de gemeenschappelijke dochter: een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen.",
@@ -693,5 +692,12 @@
         ]
       }
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/externe-auditor-relatie-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -44,6 +44,9 @@ _Bron: ITAA-norm-kmo-controlenorm §97-§98 + ITAA-algemene-controlenorm §6_
 
 - **Vereist kennis van**: [[toetsing-interne-beheersing]]
 - **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

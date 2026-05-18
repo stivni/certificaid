@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/klokkenluiderregeling.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -50,4 +50,7 @@ _Bron: Wet 28 november 2022 betreffende de bescherming van melders van inbreuken
 ## Zie ook
 
 - **Vereist kennis van**: [[fraude]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

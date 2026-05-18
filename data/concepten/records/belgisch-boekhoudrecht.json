@@ -2,7 +2,7 @@
   "id": "belgisch-boekhoudrecht",
   "naam": "Belgisch boekhoudrecht",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.I",
@@ -62,7 +62,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV (Belgische grote NV) past het Belgisch boekhoudrecht toe: WER + WVV als wetsbasis, KB-WVV voor schema's, CBN-adviezen voor interpretatie, en de Europese jaarrekening-richtlijn (2013/34/EU) als bovenlaag.",
   "bouwstenen": [
     {
       "titel": "Vier rechtsbron-lagen",
@@ -255,5 +254,12 @@
       "redenering": "CBN-adviezen zijn de interpretatieve laag.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV (Belgische grote NV) past het Belgisch boekhoudrecht toe: WER + WVV als wetsbasis, KB-WVV voor schema's, CBN-adviezen voor interpretatie, en de Europese jaarrekening-richtlijn (2013/34/EU) als bovenlaag."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

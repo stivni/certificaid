@@ -1,8 +1,8 @@
 {
   "id": "consolidatieverschil",
   "naam": "Consolidatieverschil",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -161,7 +161,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) van Brugse op aankoopdatum = € 1.500.000. Pro-rata aandeel = 80 % × € 1.500.000 = € 1.200.000. Bruto-verschil = € 1.600.000 − € 1.200.000 = € 400.000. Vastgoed van Brugse is € 250.000 ondergewaardeerd → € 250.000 toegerekend aan terreinen; residu € 150.000 wordt geboekt als 'Consolidatieverschillen' (actiefzijde).",
   "bouwstenen": [
     {
       "titel": "Positief consolidatieverschil = goodwill",
@@ -880,5 +879,12 @@
         ]
       }
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) van Brugse op aankoopdatum = € 1.500.000. Pro-rata aandeel = 80 % × € 1.500.000 = € 1.200.000. Bruto-verschil = € 1.600.000 − € 1.200.000 = € 400.000. Vastgoed van Brugse is € 250.000 ondergewaardeerd → € 250.000 toegerekend aan terreinen; residu € 150.000 wordt geboekt als 'Consolidatieverschillen' (actiefzijde)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

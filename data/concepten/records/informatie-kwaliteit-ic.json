@@ -2,7 +2,7 @@
   "id": "informatie-kwaliteit-ic",
   "naam": "Informatie en haar kwaliteitseisen",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.D",
@@ -25,12 +25,18 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV is een maandrapport drie weken te laat = niet tijdig → kan beslissingen niet sturen → niet bruikbaar voor IC. Als de gebruikte omzetgegevens steekproefachtig zijn en niet 100% van het boekjaar = niet volledig → vertekend beeld. Een rapport in technische jargon voor directie zonder financiële achtergrond = niet begrijpelijk → genegeerd.",
   "edges": [
     {
       "type": "onderdeel-van",
       "target": "informatie-en-communicatie-ic",
       "redenering": "Kwaliteit van informatie is voorwaarde voor zinvolle COSO-component 4."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV is een maandrapport drie weken te laat = niet tijdig → kan beslissingen niet sturen → niet bruikbaar voor IC. Als de gebruikte omzetgegevens steekproefachtig zijn en niet 100% van het boekjaar = niet volledig → vertekend beeld. Een rapport in technische jargon voor directie zonder financiële achtergrond = niet begrijpelijk → genegeerd."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -11,7 +11,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/kwaliteitsbeheersing-opdrachtniveau.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -41,6 +41,9 @@ _Bron: ITAA KMO-controlenorm §29-§31_
 ## Zie ook
 
 - **Vereist kennis van**: [[opvolging-voorganger-accountant]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

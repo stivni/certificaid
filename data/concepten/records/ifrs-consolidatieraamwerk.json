@@ -2,7 +2,7 @@
   "id": "ifrs-consolidatieraamwerk",
   "naam": "IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.II",
@@ -110,7 +110,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV is beursgenoteerd op Euronext Brussels → verplicht IFRS-consolidatie (Verordening 1606/2002 art. 4). In de toelichting van de geconsolideerde jaarrekening verwijst Aurelia naar de gebruikte IFRS-standaarden (IFRS 3, 10, 11, 12).",
   "bouwstenen": [
     {
       "titel": "Verplichte IFRS voor genoteerde groepen",
@@ -274,5 +273,12 @@
       "redenering": "De keuze (of plicht) om onder IFRS te consolideren wordt pas relevant zodra er een consolidatieverplichting bestaat — anders is er geen geconsolideerde jaarrekening om standaarden op toe te passen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV is beursgenoteerd op Euronext Brussels → verplicht IFRS-consolidatie (Verordening 1606/2002 art. 4). In de toelichting van de geconsolideerde jaarrekening verwijst Aurelia naar de gebruikte IFRS-standaarden (IFRS 3, 10, 11, 12)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

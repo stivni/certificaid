@@ -2,7 +2,7 @@
   "id": "actoren-interne-controle",
   "naam": "Actoren van interne controle",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.IV",
@@ -34,5 +34,11 @@
   ],
   "vergelijkingstabel": "| Actor | Rol in IC | Onafhankelijk van? | Voorbeeld bij Rotex Roeselare NV |\n|---|---|---|---|\n| Raad van bestuur | Stelt risk appetite, keurt IC-kader goed, oversight | Operationeel management | Pieter Vermeulen, voorzitter |\n| Auditcomité | Reviewed IC-werking + IA-rapporten + externe-audit-uitkomsten | Operationeel management | 3 niet-uitvoerende leden RvB |\n| Operationeel management | Eerste verdedigingslijn — voert IC dagelijks uit | Eigen processen niet | Aankoopdirecteur, productiedirecteur |\n| Risk-/compliance-functie | Tweede verdedigingslijn — beleid, methodologie, monitoring | Operationeel proces | Risk Officer Marleen De Cock |\n| Interne audit | Derde verdedigingslijn — onafhankelijke assurance | Hele uitvoeringslijn | Sofie Janssens, IA-directeur |\n| Externe auditor / commissaris | Externe assurance voor derden | Hele onderneming | Wolters & Partners CVBA |\n| Personeel (alle medewerkers) | Past procedures dagelijks toe | — | Magazijnier, boekhouder, ... |",
   "beslisboom": "1. **Wie zet het kader op?** → Raad van bestuur / directie / risk-functie.\n2. **Wie voert dagelijks uit?** → Operationeel management + alle medewerkers (1e lijn).\n3. **Wie monitort beleidsmatig?** → Risk + compliance (2e lijn).\n4. **Wie geeft onafhankelijke assurance intern?** → Interne audit (3e lijn).\n5. **Wie geeft assurance aan externen?** → Commissaris / externe accountant.\n6. **Wie oversight totaal?** → Auditcomité + raad van bestuur.",
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV (KMO, geen IA, geen auditcomité): de drie lijnen worden gecondenseerd — zaakvoerder Pieter Vermeulen vervult deels lijn 1 (operationeel) en lijn 2 (toezicht); externe accountant Xenon Expertise BV vervult deels lijn 3 + externe controle. ITAA-norm-kmo-controlenorm erkent dit KMO-profiel."
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV (KMO, geen IA, geen auditcomité): de drie lijnen worden gecondenseerd — zaakvoerder Pieter Vermeulen vervult deels lijn 1 (operationeel) en lijn 2 (toezicht); externe accountant Xenon Expertise BV vervult deels lijn 3 + externe controle. ITAA-norm-kmo-controlenorm erkent dit KMO-profiel."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

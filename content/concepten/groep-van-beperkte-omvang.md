@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/groep-van-beperkte-omvang.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -70,6 +70,9 @@ _Bron: WVV art. 1:26, § 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[groottecriteria-consolidatie]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -1,8 +1,8 @@
 {
   "id": "gegevensgerichte-werkzaamheden",
   "naam": "Gegevensgerichte werkzaamheden (substantive procedures)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.C",
@@ -39,7 +39,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens test de waardering van de top-20 voorraadposten van Rotex Roeselare NV: zij gaat naar de opslagplaats, telt zelf de stuks (€ 850.000 totaal), vergelijkt met de aankoopfacturen, en checkt de toepassing van FIFO. Dat is een detailcontrole. Daarnaast voert zij een gegevensgerichte cijferanalyse uit op de bruto-marge per productlijn.",
   "bouwstenen": [
     {
       "titel": "Twee subtypes",
@@ -109,5 +108,12 @@
       "target": "cijferanalyses-audit",
       "redenering": "Subtype 2: gegevensgerichte cijferanalyses."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens test de waardering van de top-20 voorraadposten van Rotex Roeselare NV: zij gaat naar de opslagplaats, telt zelf de stuks (€ 850.000 totaal), vergelijkt met de aankoopfacturen, en checkt de toepassing van FIFO. Dat is een detailcontrole. Daarnaast voert zij een gegevensgerichte cijferanalyse uit op de bruto-marge per productlijn."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

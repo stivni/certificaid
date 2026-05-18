@@ -2,7 +2,7 @@
   "id": "hulpdagboeken",
   "naam": "Hulpdagboeken",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.III.C",
@@ -49,7 +49,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV houdt 5 hulpdagboeken bij: aankopen, verkopen, financieel (ING bank), financieel (KBC bank), diversen. Eind maand: centralisatie naar centraal boek.",
   "bouwstenen": [
     {
       "titel": "Vier klassieke hulpdagboeken",
@@ -107,5 +106,12 @@
       "redenering": "Een hulpdagboek is een gespecialiseerde dagboek.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV houdt 5 hulpdagboeken bij: aankopen, verkopen, financieel (ING bank), financieel (KBC bank), diversen. Eind maand: centralisatie naar centraal boek."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

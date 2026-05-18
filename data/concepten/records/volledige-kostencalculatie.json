@@ -1,8 +1,8 @@
 {
   "id": "volledige-kostencalculatie",
   "naam": "Volledige kostencalculatie (full costing)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.A",
@@ -160,5 +160,6 @@
       "redenering": "Een van de hoofdmethodes.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

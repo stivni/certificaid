@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/beperkte-mate-van-zekerheid.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -38,6 +38,9 @@ _Bron: ITAA KMO-controlenorm §2_
 ## Zie ook
 
 - **Getriggerd door**: [[contractuele-beoordelingsopdracht]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

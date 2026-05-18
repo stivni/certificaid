@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/materieel-belang-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -58,6 +58,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §117_
 
 - **Vereist kennis van**: [[afwijking-van-materieel-belang]]
 - **Vereist kennis van**: [[auditrisicomodel]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

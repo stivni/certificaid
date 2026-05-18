@@ -2,7 +2,7 @@
   "id": "kb-wvv-uitvoering",
   "naam": "KB tot uitvoering van het WVV (KB-WVV)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.D",
@@ -77,7 +77,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Hoe moet Meubelzaak Mertens BV haar voorraad waarderen? → KB-WVV art. 3:35 e.v. (waarderingsregels) + KB-WVV art. 3:44 (voorraad-waardering).",
   "bouwstenen": [
     {
       "titel": "Vier blokken in KB-WVV Boek 3",
@@ -229,5 +228,12 @@
       "redenering": "De waarderingsregels staan in KB-WVV art. 3:35 e.v.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Hoe moet Meubelzaak Mertens BV haar voorraad waarderen? → KB-WVV art. 3:35 e.v. (waarderingsregels) + KB-WVV art. 3:44 (voorraad-waardering)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

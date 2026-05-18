@@ -2,7 +2,7 @@
   "id": "ifrs-eerste-toepassing",
   "naam": "Eerste toepassing van IFRS (IFRS 1)",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.IV.A",
@@ -352,5 +352,6 @@
       "redenering": "IFRS 1 dekt eerste IFRS-toepassing; CBN 2022/08 dekt de algemene wisseling-procedure (incl. terugkeer naar BE-GAAP).",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

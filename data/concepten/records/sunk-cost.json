@@ -2,7 +2,7 @@
   "id": "sunk-cost",
   "naam": "Sunk cost (reeds gemaakte kost)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.E",
@@ -29,7 +29,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV heeft 3 jaar geleden een naaimachine gekocht voor € 280.000 (sunk). Boekwaarde nu € 196.000. Wanneer de directie nu kiest tussen 'opdracht uitvoeren' en 'opdracht weigeren', telt deze € 196.000 niet mee in de keuze — alleen de toekomstige extra kost (variabele kost, eventuele extra arbeidsuren).",
   "in_praktijk": [
     {
       "aspect": "Verschil met vaste kost",
@@ -62,5 +61,12 @@
       "redenering": "Sunk-cost-uitsluiting is regel in make-or-buy.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV heeft 3 jaar geleden een naaimachine gekocht voor € 280.000 (sunk). Boekwaarde nu € 196.000. Wanneer de directie nu kiest tussen 'opdracht uitvoeren' en 'opdracht weigeren', telt deze € 196.000 niet mee in de keuze — alleen de toekomstige extra kost (variabele kost, eventuele extra arbeidsuren)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

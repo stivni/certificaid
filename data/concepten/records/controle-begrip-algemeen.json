@@ -2,7 +2,7 @@
   "id": "controle-begrip-algemeen",
   "naam": "Controle — begrip algemeen",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.E",
@@ -35,7 +35,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV: 'Sofie Janssens controleert de aankoopfacturen' = betekenis (1), zij verifieert. 'Aurelia Holding NV oefent controle uit op Brugse Brouwerij BV' = betekenis (2), zij beheert beslissend (WVV art. 1:14). Beide gebruiken het woord 'controle' — verschillende juridische ladingen.",
   "vergelijkingsparen": [
     {
       "vergelijking_met": "controle",
@@ -52,5 +51,12 @@
       "target": "controle",
       "redenering": "Verwarring-risico tussen IC-controle en WVV-controle moet expliciet."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV: 'Sofie Janssens controleert de aankoopfacturen' = betekenis (1), zij verifieert. 'Aurelia Holding NV oefent controle uit op Brugse Brouwerij BV' = betekenis (2), zij beheert beslissend (WVV art. 1:14). Beide gebruiken het woord 'controle' — verschillende juridische ladingen."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

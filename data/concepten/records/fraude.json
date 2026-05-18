@@ -1,8 +1,8 @@
 {
   "id": "fraude",
   "naam": "Fraude",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VI.B",
@@ -40,7 +40,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV manipuleert een aankoper systematisch leveranciersfacturen: hij richt een schaduwfirma op, factureert fictieve consultancy en boekt de betaling op zijn rekening. Strafrechtelijk: oplichting (art. 479) + valsheid in geschriften + misbruik van vertrouwen. Detectie pas na bezoek nieuwe externe auditor Sofie Janssens (cijferanalyse + leveranciers-due-diligence).",
   "bouwstenen": [
     {
       "titel": "Drie elementen van de fraude-driehoek",
@@ -108,5 +107,12 @@
       "target": "functiescheiding",
       "redenering": "Functiescheiding beperkt de 'gelegenheid' uit fraude-driehoek."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV manipuleert een aankoper systematisch leveranciersfacturen: hij richt een schaduwfirma op, factureert fictieve consultancy en boekt de betaling op zijn rekening. Strafrechtelijk: oplichting (art. 479) + valsheid in geschriften + misbruik van vertrouwen. Detectie pas na bezoek nieuwe externe auditor Sofie Janssens (cijferanalyse + leveranciers-due-diligence)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

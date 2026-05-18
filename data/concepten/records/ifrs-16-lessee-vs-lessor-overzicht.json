@@ -2,7 +2,7 @@
   "id": "ifrs-16-lessee-vs-lessor-overzicht",
   "naam": "IFRS 16 — lessee versus lessor: overzicht en asymmetrie",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.C",
@@ -99,5 +99,6 @@
       "redenering": "Sale-and-leaseback is een speciale IFRS 16-transactie die zowel lessee- als lessor-zijde raakt — apart record met IFRS 15-zeggenschap-toets en evenredige winstrealisatie.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

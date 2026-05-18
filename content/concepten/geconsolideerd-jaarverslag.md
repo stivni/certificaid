@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/geconsolideerd-jaarverslag.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -75,6 +75,9 @@ _Bron: WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)_
 
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[geconsolideerde-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

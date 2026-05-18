@@ -1,8 +1,8 @@
 {
   "id": "drie-lijnen-model",
   "naam": "Drie-lijnen-model (Three Lines of Defense)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.IV",
@@ -29,7 +29,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV: lijn 1 = aankoopdirecteur (eigenaar aankooprisico's + uitvoert IC), lijn 2 = compliance officer (test of policy nageleefd wordt + adviseert), lijn 3 = Sofie Janssens als interne auditor (jaarlijks audit van de hele cyclus, onafhankelijk verslag aan auditcomité).",
   "bouwstenen": [
     {
       "titel": "Lijn 1 — operationeel management",
@@ -94,5 +93,12 @@
       "target": "interne-audit",
       "redenering": "Lijn 3 IS interne audit."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV: lijn 1 = aankoopdirecteur (eigenaar aankooprisico's + uitvoert IC), lijn 2 = compliance officer (test of policy nageleefd wordt + adviseert), lijn 3 = Sofie Janssens als interne auditor (jaarlijks audit van de hele cyclus, onafhankelijk verslag aan auditcomité)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

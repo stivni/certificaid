@@ -2,7 +2,7 @@
   "id": "boekhoudbeginselen-overzicht",
   "naam": "Boekhoudbeginselen &mdash; overzicht",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -175,5 +175,6 @@
       "target": "jaarrekening",
       "type": "vereist-kennis-van"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

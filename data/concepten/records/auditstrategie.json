@@ -2,7 +2,7 @@
   "id": "auditstrategie",
   "naam": "Auditstrategie (algehele strategie van de opdracht)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.III",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Voor Rotex Roeselare NV 2025 legt Sofie Janssens de auditstrategie vast in oktober: scope volledige jaarrekening + jaarverslag-consistentie + IFRS-toelichtingen, twee fases (interim december + eindfase februari), team van 5 personen (1 senior + 3 juniors + zijzelf), externe valuator voor goodwill-impairment, deadline verslag = 15 maart 2026.",
   "in_praktijk": [
     {
       "aspect": "Vier afwegingen volgens §72",
@@ -66,5 +65,12 @@
       "target": "auditplanning",
       "redenering": "Auditstrategie is de output van de planningsfase op overall niveau."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Voor Rotex Roeselare NV 2025 legt Sofie Janssens de auditstrategie vast in oktober: scope volledige jaarrekening + jaarverslag-consistentie + IFRS-toelichtingen, twee fases (interim december + eindfase februari), team van 5 personen (1 senior + 3 juniors + zijzelf), externe valuator voor goodwill-impairment, deadline verslag = 15 maart 2026."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

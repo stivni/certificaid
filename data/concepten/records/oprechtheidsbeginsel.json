@@ -1,8 +1,8 @@
 {
   "id": "oprechtheidsbeginsel",
   "naam": "Oprechtheidsbeginsel (boekhouding)",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.V.A",
@@ -55,7 +55,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Aurelia Holding NV mag een verkoop met terugkoopplicht niet boeken als gewone verkoop — economisch gaat het om een financieringsoperatie, dus substance over form: boek als 'verkoop met clausule' of leningstructuur.",
   "bouwstenen": [
     {
       "titel": "Substance over form",
@@ -129,5 +128,12 @@
       "redenering": "Beide beginselen kunnen in spanning komen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV mag een verkoop met terugkoopplicht niet boeken als gewone verkoop — economisch gaat het om een financieringsoperatie, dus substance over form: boek als 'verkoop met clausule' of leningstructuur."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

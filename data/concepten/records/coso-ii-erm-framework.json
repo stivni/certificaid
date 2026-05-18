@@ -1,8 +1,8 @@
 {
   "id": "coso-ii-erm-framework",
   "naam": "COSO II — Enterprise Risk Management",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.E",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV (groot, beursgenoteerd): COSO II ondersteunt het risicobeheer op enterprise-niveau. Strategie 'expansie naar Duitse markt' krijgt risico-assessment (regelgeving, valuta, concurrentie, reputatie) en wordt afgewogen tegen risk appetite vastgesteld door RvB.",
   "bouwstenen": [
     {
       "titel": "Vijf samenstellende delen (2017)",
@@ -62,5 +61,12 @@
       "target": "iso-31000-risicobeheer",
       "redenering": "ISO 31000 is generiekere risicostandaard; COSO is gerichter op US-audit-context."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV (groot, beursgenoteerd): COSO II ondersteunt het risicobeheer op enterprise-niveau. Strategie 'expansie naar Duitse markt' krijgt risico-assessment (regelgeving, valuta, concurrentie, reputatie) en wordt afgewogen tegen risk appetite vastgesteld door RvB."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

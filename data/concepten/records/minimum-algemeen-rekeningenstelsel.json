@@ -2,7 +2,7 @@
   "id": "minimum-algemeen-rekeningenstelsel",
   "naam": "Minimum Algemeen Rekeningenstelsel (MAR)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.III.C",
@@ -48,7 +48,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Aankoop koopwaren € 5.000 bij Meubelzaak Mertens BV → rekening 604000 'Aankopen koopwaren' (klasse 6, kosten). Klantbetaling op bank → rekening 550000 'Bank — zichtrekening' (klasse 5).",
   "bouwstenen": [
     {
       "titel": "Zeven klassen (1 tot 7)",
@@ -146,5 +145,12 @@
       "redenering": "Dubbele boekhouding wordt op het MAR-rekeningenstelsel gevoerd.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aankoop koopwaren € 5.000 bij Meubelzaak Mertens BV → rekening 604000 'Aankopen koopwaren' (klasse 6, kosten). Klantbetaling op bank → rekening 550000 'Bank — zichtrekening' (klasse 5)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

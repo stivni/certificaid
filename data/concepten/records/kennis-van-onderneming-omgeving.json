@@ -2,7 +2,7 @@
   "id": "kennis-van-onderneming-omgeving",
   "naam": "Kennis van de onderneming en haar omgeving",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.A",
@@ -39,7 +39,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Vooraleer Sofie Janssens de audit van Rotex Roeselare NV start, verwerft zij inzicht: textielsector + Europese concurrentie, eigendomsstructuur (familieaandeelhouders), financiering (€ 12M bankkrediet + obligatielening), KPI's (omzet per m² + bezetting), interne beheersing (ERP + 3-handtekening-procuratie). Daaruit blijkt: voorraad + valuta-risico + continuïteit zijn focusgebieden.",
   "bouwstenen": [
     {
       "titel": "Zes te documenteren domeinen",
@@ -88,5 +87,12 @@
       "target": "risico-inschatting-audit",
       "redenering": "Kennisverwerving is de fundament-stap voor risico-inschatting."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Vooraleer Sofie Janssens de audit van Rotex Roeselare NV start, verwerft zij inzicht: textielsector + Europese concurrentie, eigendomsstructuur (familieaandeelhouders), financiering (€ 12M bankkrediet + obligatielening), KPI's (omzet per m² + bezetting), interne beheersing (ERP + 3-handtekening-procuratie). Daaruit blijkt: voorraad + valuta-risico + continuïteit zijn focusgebieden."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

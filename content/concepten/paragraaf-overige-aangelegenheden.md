@@ -11,7 +11,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/paragraaf-overige-aangelegenheden.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -24,6 +24,9 @@ Een paragraaf inzake overige aangelegenheden (other matter) is een paragraaf in 
 
 _Bron: ITAA KMO-controlenorm Bijlage 1_
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

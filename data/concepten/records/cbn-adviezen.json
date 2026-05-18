@@ -2,7 +2,7 @@
   "id": "cbn-adviezen",
   "naam": "CBN-adviezen",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.E",
@@ -55,7 +55,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Moet Solaris Sint-Truiden BV haar effectenportefeuille als financiële vaste activa of als geldbelegging boeken? → CBN-advies 2020/16 verduidelijkt het onderscheid voor effecten met houdintentie.",
   "bouwstenen": [
     {
       "titel": "Niet bindend, wel gezaghebbend",
@@ -232,5 +231,12 @@
       "redenering": "Hoewel laag in de hiërarchie, hebben CBN-adviezen in praktijk vaak doorslaggevend gewicht.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Moet Solaris Sint-Truiden BV haar effectenportefeuille als financiële vaste activa of als geldbelegging boeken? → CBN-advies 2020/16 verduidelijkt het onderscheid voor effecten met houdintentie."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

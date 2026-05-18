@@ -1,8 +1,8 @@
 {
   "id": "minderheidsbelangen",
   "naam": "Belangen van derden (minderheidsbelangen)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -105,7 +105,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; eigen vermogen (EV) Brugse op afsluitingsdatum = € 2.000.000 (resultaat boekjaar = € 500.000). 'Belangen van derden' = 20 % × € 2.000.000 = € 400.000 (passiefzijde balans). 'Aandeel van derden in het resultaat' = 20 % × € 500.000 = € 100.000.",
   "berekeningsmethode": [
     {
       "naam": "Aandeel van derden — balans en resultatenrekening",
@@ -481,5 +480,12 @@
         ]
       }
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; eigen vermogen (EV) Brugse op afsluitingsdatum = € 2.000.000 (resultaat boekjaar = € 500.000). 'Belangen van derden' = 20 % × € 2.000.000 = € 400.000 (passiefzijde balans). 'Aandeel van derden in het resultaat' = 20 % × € 500.000 = € 100.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

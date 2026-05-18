@@ -2,7 +2,7 @@
 title: Auditcomité
 tags:
 - concept
-- actor
+- autoriteit
 - po-1-7
 linked_anchors:
 - 1.7.V.D
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: inferred
-node_type: actor
+node_type: autoriteit
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/auditcomite.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -43,4 +43,7 @@ Een auditcomité is een gespecialiseerd comité binnen de raad van bestuur, same
 ## Zie ook
 
 - **Vereist kennis van**: [[interne-audit]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -2,7 +2,7 @@
   "id": "voorraden-ifrs",
   "naam": "Voorraden onder IFRS (IAS 2)",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.E",
@@ -73,7 +73,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV's voorraden grondstoffen op 31 december 2026: ingrediënt X — 50.000 kg, kostprijs gewogen gemiddelde € 12,50/kg = € 625.000. Vervangingskostprijs op balansdatum € 11,80/kg (markt prijs gedaald). Maar verwacht gereed product blijft boven kostprijs verkoopbaar → géén afschrijving van grondstof tot NRV (alinea 32). Boekwaarde voorraad ingrediënt X = € 625.000.",
   "bouwstenen": [
     {
       "titel": "Kostprijscomponenten",
@@ -306,5 +305,12 @@
       "redenering": "Voorraden + onderhanden werk grenzen aan elkaar; onderhanden projecten in opdracht van derden vallen onder IFRS 15.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV's voorraden grondstoffen op 31 december 2026: ingrediënt X — 50.000 kg, kostprijs gewogen gemiddelde € 12,50/kg = € 625.000. Vervangingskostprijs op balansdatum € 11,80/kg (markt prijs gedaald). Maar verwacht gereed product blijft boven kostprijs verkoopbaar → géén afschrijving van grondstof tot NRV (alinea 32). Boekwaarde voorraad ingrediënt X = € 625.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

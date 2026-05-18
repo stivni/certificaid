@@ -2,7 +2,7 @@
   "id": "flexibel-budget",
   "naam": "Flexibel budget",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.VI.B",
@@ -29,7 +29,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV start met statisch budget Confectie: 7.500 tapijten, € 950.000 (€ 800.000 vast + € 150.000 variabel = € 20/stuk variabel). Realisatie: 9.000 tapijten, € 1.025.000. Flexibel budget bij 9.000 stuks = € 800.000 vast + 9.000 × € 20 = € 980.000. Werkelijk vs. flexibel: € 1.025.000 − € 980.000 = € 45.000 ongunstig. Werkelijk vs. statisch: € 1.025.000 − € 950.000 = € 75.000 ongunstig — waarvan € 30.000 'volume-effect' (logisch, want meer geproduceerd) en € 45.000 'echt' ongunstig.",
   "vergelijkingsparen": [
     {
       "vergelijking_met": "statisch-budget",
@@ -60,5 +59,12 @@
       "redenering": "Flexibel budget is input voor zuivere verschillenanalyse.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV start met statisch budget Confectie: 7.500 tapijten, € 950.000 (€ 800.000 vast + € 150.000 variabel = € 20/stuk variabel). Realisatie: 9.000 tapijten, € 1.025.000. Flexibel budget bij 9.000 stuks = € 800.000 vast + 9.000 × € 20 = € 980.000. Werkelijk vs. flexibel: € 1.025.000 − € 980.000 = € 45.000 ongunstig. Werkelijk vs. statisch: € 1.025.000 − € 950.000 = € 75.000 ongunstig — waarvan € 30.000 'volume-effect' (logisch, want meer geproduceerd) en € 45.000 'echt' ongunstig."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

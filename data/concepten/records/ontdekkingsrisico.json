@@ -2,7 +2,7 @@
   "id": "ontdekkingsrisico",
   "naam": "Ontdekkingsrisico",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.B"
@@ -35,7 +35,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens wil het controlerisico op € 5 % houden. Het inherent en intern beheersingsrisico op voorraden van Rotex Roeselare NV samen schat zij in op 18 %. Het ontdekkingsrisico mag dus maximaal 5 % / 18 % ≈ 28 % bedragen → ze plant uitgebreide voorraadtellingen + cut-off-testen + analytical procedures.",
   "in_praktijk": [
     {
       "aspect": "Steekproefrisico als sub-component",
@@ -62,5 +61,12 @@
       "target": "auditrisicomodel",
       "redenering": "Eén van de drie componenten — de enige door auditor stuurbaar."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens wil het controlerisico op € 5 % houden. Het inherent en intern beheersingsrisico op voorraden van Rotex Roeselare NV samen schat zij in op 18 %. Het ontdekkingsrisico mag dus maximaal 5 % / 18 % ≈ 28 % bedragen → ze plant uitgebreide voorraadtellingen + cut-off-testen + analytical procedures."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "rekeningenstelsel-analytisch",
   "naam": "Rekeningenstelsel voor analytische boekhouding (klasse 9)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.IV.A",
@@ -79,5 +79,6 @@
       "redenering": "Klasse 9 organiseert per kostencentrum.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

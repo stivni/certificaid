@@ -2,7 +2,7 @@
   "id": "klokkenluiderregeling",
   "naam": "Klokkenluiderregeling (interne meldkanaal)",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.A",
@@ -30,7 +30,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV (1.200 werknemers) is een intern meldkanaal verplicht. Praktijk: een onafhankelijk online platform + telefoonlijn, beheerd door externe firma; meldingen worden geëscaleerd naar een onafhankelijke meldingsverantwoordelijke; sanctiebescherming voor melder gegarandeerd. Bij Yperse Werkplaats BV (45 werknemers): valt onder de drempel — geen wettelijke verplichting maar mag vrijwillig.",
   "in_praktijk": [
     {
       "aspect": "Toepassingsdrempels",
@@ -76,5 +75,12 @@
       "target": "fraude",
       "redenering": "Klokkenluiderskanaal is een primair fraude-detectie-mechanisme."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV (1.200 werknemers) is een intern meldkanaal verplicht. Praktijk: een onafhankelijk online platform + telefoonlijn, beheerd door externe firma; meldingen worden geëscaleerd naar een onafhankelijke meldingsverantwoordelijke; sanctiebescherming voor melder gegarandeerd. Bij Yperse Werkplaats BV (45 werknemers): valt onder de drempel — geen wettelijke verplichting maar mag vrijwillig."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

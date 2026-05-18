@@ -1,8 +1,8 @@
 {
   "id": "groottecriteria-jaarrekening",
   "naam": "Groottecriteria (jaarrekening-context)",
-  "node_type": "drempel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.B",
@@ -64,7 +64,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV heeft op 31/12/2024: 12 werknemers, € 4.500.000 omzet, € 2.100.000 balanstotaal → onder kleine-vennootschap-drempels op alle 3 criteria → kleine vennootschap → mag verkort schema gebruiken.",
   "drempelwaarden": [
     {
       "naam": "Drempels kleine vennootschap (na update 2024)",
@@ -290,5 +289,12 @@
       "redenering": "Andere set drempels voor consolidatie-vrijstelling.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV heeft op 31/12/2024: 12 werknemers, € 4.500.000 omzet, € 2.100.000 balanstotaal → onder kleine-vennootschap-drempels op alle 3 criteria → kleine vennootschap → mag verkort schema gebruiken."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

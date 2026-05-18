@@ -2,7 +2,7 @@
   "id": "sociale-balans",
   "naam": "Sociale balans",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.C",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV's sociale balans 2024: gemiddelde personeelsbezetting 550 VTE, € 22M loonkosten, 4.500 opleidingsuren, 12% deeltijds, 88% voltijds.",
   "bouwstenen": [
     {
       "titel": "Drie hoofdsecties",
@@ -117,5 +116,12 @@
       "redenering": "Sociale balans is component van volledig en verkort schema (niet micro).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV's sociale balans 2024: gemiddelde personeelsbezetting 550 VTE, € 22M loonkosten, 4.500 opleidingsuren, 12% deeltijds, 88% voltijds."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

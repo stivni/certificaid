@@ -11,7 +11,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/inherent-risico.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -40,6 +40,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 >
 > _Trigger_: Examen: praat de opgave over de complexiteit van de transacties zelf → inherent risico. Praat ze over zwakheden in de interne controleprocessen → intern beheersingsrisico.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

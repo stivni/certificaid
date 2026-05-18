@@ -2,16 +2,16 @@
 title: ABC-methode (Activity Based Costing)
 tags:
 - concept
-- methode
+- cluster
 - po-1-8
 linked_anchors:
 - 1.8.III.F
 programmaonderdelen:
 - '1.8'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/abc-methode.json
 gegenereerd_op: '2026-05-18'
 ---

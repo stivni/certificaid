@@ -11,7 +11,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/externe-bevestiging-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -59,6 +59,9 @@ Reconciliatiewerkblad in dossier; explicit benoemen welke discrepanties zijn opg
 
 **Grondslag**: ITAA KMO-controlenorm §92
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

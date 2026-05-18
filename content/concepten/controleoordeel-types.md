@@ -2,7 +2,7 @@
 title: Types van controleoordeel
 tags:
 - concept
-- afwegingskader
+- cluster
 - po-1-6
 linked_anchors:
 - 1.6.IV
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: afwegingskader
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/controleoordeel-types.json
 gegenereerd_op: '2026-05-18'
 ---

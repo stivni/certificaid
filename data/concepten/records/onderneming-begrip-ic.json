@@ -2,7 +2,7 @@
   "id": "onderneming-begrip-ic",
   "naam": "Onderneming (begrip in IC-context)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.A",
@@ -24,7 +24,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Voor IC-doeleinden hebben Yperse Werkplaats BV (productie, 45 medewerkers), VZW Quelle de Vie (sociaal restaurant, 12 medewerkers) en Praktijk Persenaire (eenmanszaak vrij beroep) elk een eigen IC-noden-profiel — gebaseerd op hun risico's, niet hun rechtsvorm. De principes blijven dezelfde; de toepassing schaalt mee.",
   "in_praktijk": [
     {
       "aspect": "IC schaalt mee met grootte en complexiteit",
@@ -51,5 +50,12 @@
       "target": "interne-controle",
       "redenering": "Het ondernemingsbegrip is context voor IC-toepassing."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Voor IC-doeleinden hebben Yperse Werkplaats BV (productie, 45 medewerkers), VZW Quelle de Vie (sociaal restaurant, 12 medewerkers) en Praktijk Persenaire (eenmanszaak vrij beroep) elk een eigen IC-noden-profiel — gebaseerd op hun risico's, niet hun rechtsvorm. De principes blijven dezelfde; de toepassing schaalt mee."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

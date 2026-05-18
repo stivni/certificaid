@@ -2,7 +2,7 @@
   "id": "fouten-en-fraude",
   "naam": "Fouten en fraude — onderscheid in IC",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VI",
@@ -40,5 +40,11 @@
   ],
   "vergelijkingstabel": "| Aspect | Fouten | Fraude |\n|---|---|---|\n| Opzet | Onopzettelijk | Opzettelijk |\n| Bron | Vergissing, onkunde, slordigheid | Bewuste manipulatie of verduistering |\n| Detectie | Cijferanalyse, controles, verificaties | Vereist gerichte alertheid, tips, audit-werk |\n| Voorbeelden | Verkeerde boeking, optelfout, verkeerd kostencentrum | Verduistering van kas, fictieve werknemers, valse facturen |\n| Sanctie | Correctie + opleiding | Disciplinair, civiel, strafrechtelijk (Strafwetboek art. 479, 488 e.v.) |\n| Auditreactie | Toetsing IC, substantieve werkzaamheden | Verhoogde professional skepticism, specifieke fraudeprocedures |",
   "beslisboom": "1. **Was er opzet?** → Nee = fout. Ja = fraude.\n2. **Wie heeft profijt?** → Iemand binnen onderneming = vermoedelijk verduistering. Externen via samenspanning = oplichting.\n3. **Type fraude?** → (a) Fraudulente financiële verslaggeving (cijfers vervalsen om beeld te verbeteren). (b) Misappropriation of assets (verduistering — geld, voorraad, immateriële goederen). (c) Corruption (omkoping, belangenconflict).\n4. **Welke maatregel?** → Fout: betere procedure, training, automatisering. Fraude: functiescheiding, klokkenluiderskanaal, achtergrond-checks, surprise-controles.",
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV ontdekt boekhouder Cindy een afwijking van € 8.000 in de kassa. Onderzoek wijst op: (a) als afronding/verkeerde boeking → fout, correctie + procedure aanpassen. (b) als systematische verdwijning over maanden → fraude, intern onderzoek + eventueel aangifte (oplichting, Strafwetboek art. 479)."
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV ontdekt boekhouder Cindy een afwijking van € 8.000 in de kassa. Onderzoek wijst op: (a) als afronding/verkeerde boeking → fout, correctie + procedure aanpassen. (b) als systematische verdwijning over maanden → fraude, intern onderzoek + eventueel aangifte (oplichting, Strafwetboek art. 479)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

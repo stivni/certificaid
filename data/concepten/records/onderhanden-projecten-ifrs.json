@@ -2,7 +2,7 @@
   "id": "onderhanden-projecten-ifrs",
   "naam": "Onderhanden projecten in opdracht van derden — onder IFRS 15",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.E",
@@ -59,7 +59,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Constructies Cattoir BV bouwt een specifiek geïnstalleerde productie-eenheid voor Zelena Bio NV (contract € 4.500.000, looptijd 18 maanden). De productie-eenheid is volledig op maat (geen alternatieve gebruiksmogelijkheid voor Cattoir — criterium c) en Cattoir heeft contractueel afdwingbaar recht op betaling van reeds verrichte prestaties bij eventuele beëindiging. → Opbrengstopname over periode via inputmethode: 'kosten gemaakt tot dusver / totaal verwachte kosten × transactieprijs'.",
   "bouwstenen": [
     {
       "titel": "Outputmethode versus inputmethode",
@@ -295,5 +294,12 @@
       "redenering": "IFRS 15 vervangt IAS 11 sinds 2018.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Constructies Cattoir BV bouwt een specifiek geïnstalleerde productie-eenheid voor Zelena Bio NV (contract € 4.500.000, looptijd 18 maanden). De productie-eenheid is volledig op maat (geen alternatieve gebruiksmogelijkheid voor Cattoir — criterium c) en Cattoir heeft contractueel afdwingbaar recht op betaling van reeds verrichte prestaties bij eventuele beëindiging. → Opbrengstopname over periode via inputmethode: 'kosten gemaakt tot dusver / totaal verwachte kosten × transactieprijs'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

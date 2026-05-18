@@ -1,8 +1,8 @@
 {
   "id": "consortium",
   "naam": "Consortium (horizontale groep)",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -109,7 +109,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV hebben geen onderlinge moeder-dochter-relatie, maar dezelfde meerderheid van bestuurders en dezelfde feitelijke leider (Pieter Vermeulen). → onweerlegbaar consortium → samen consolidatieplichtig.",
   "voorwaarden": [
     {
       "text": "De vennootschappen staan onder centrale leiding: ze worden beleidsmatig samen aangestuurd, meestal omdat ze dezelfde bestuurders delen of omdat één persoon (geen vennootschap die zelf moeder kan zijn) de meerderheid van de stemrechten houdt.",
@@ -358,5 +357,12 @@
       "redenering": "Om te begrijpen wat een consortium is, moet je weten wat controle (en het ontbreken ervan tussen de leden) betekent.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV hebben geen onderlinge moeder-dochter-relatie, maar dezelfde meerderheid van bestuurders en dezelfde feitelijke leider (Pieter Vermeulen). → onweerlegbaar consortium → samen consolidatieplichtig."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

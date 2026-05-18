@@ -2,16 +2,16 @@
 title: Regelmatigheid van de jaarrekening (audit-perspectief)
 tags:
 - concept
-- beginsel
+- regel
 - po-1-6
 linked_anchors:
 - 1.6.IV.A
 programmaonderdelen:
 - '1.6'
 confidence: inferred-from-aggregation
-node_type: beginsel
+node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/regelmatigheid-jaarrekening-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -30,6 +30,9 @@ _Bron: KB WVV art. 3:1 + ITAA-norm-algemene-controlenorm §2_
 >
 > _Trigger_: Examen-zin: 'overeenstemming met KB WVV-schema' → regelmatigheid. 'Vermogen, financiële toestand en resultaat correct weergegeven' → getrouw beeld.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

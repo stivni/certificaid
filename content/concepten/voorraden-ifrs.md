@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/voorraden-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---

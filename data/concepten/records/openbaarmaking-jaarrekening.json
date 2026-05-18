@@ -2,7 +2,7 @@
   "id": "openbaarmaking-jaarrekening",
   "naam": "Openbaarmaking van de jaarrekening",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.F",
@@ -226,5 +226,6 @@
       "redenering": "WVV art. 3:10 stelt de openbaarmaking verplicht.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

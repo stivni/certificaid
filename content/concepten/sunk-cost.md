@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/sunk-cost.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -44,4 +44,7 @@ _Bron: Management accounting — bron-gap_
 ## Zie ook
 
 - **Vereist kennis van**: [[kostenanalyse-make-or-buy]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

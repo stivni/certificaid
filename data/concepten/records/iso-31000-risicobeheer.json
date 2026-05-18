@@ -1,8 +1,8 @@
 {
   "id": "iso-31000-risicobeheer",
   "naam": "ISO 31000 — Risk Management Guidelines",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.F",
@@ -25,7 +25,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij een overheidsinstantie of grote infrastructure-onderneming wordt ISO 31000 vaak gebruikt naast of in plaats van COSO. Voor private Belgische ondernemingen is COSO doorgaans dominanter omwille van audit-relatie.",
   "edges": [
     {
       "type": "vergelijkt-met",
@@ -37,5 +36,12 @@
       "target": "coso-ii-erm-framework",
       "redenering": "Beide bestrijken enterprise risk management vanuit ander perspectief."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij een overheidsinstantie of grote infrastructure-onderneming wordt ISO 31000 vaak gebruikt naast of in plaats van COSO. Voor private Belgische ondernemingen is COSO doorgaans dominanter omwille van audit-relatie."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -1,8 +1,8 @@
 {
   "id": "onveranderlijkheid-boekingen",
   "naam": "Onveranderlijkheid van de boekingen",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -50,7 +50,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Boekhouder van Meubelzaak Mertens BV ontdekt dat een aankoopboeking van 12 maart per ongeluk € 8.500 in plaats van € 5.800 vermeldt. Hij mag NIET het bedrag overschrijven. Wel: een correctieboeking op huidige datum waarin de fout wordt teruggedraaid en de juiste boeking opnieuw wordt gemaakt, met expliciete verwijzing naar de oorspronkelijke fouttenboeking.",
   "bouwstenen": [
     {
       "titel": "Geen verborgen wijziging",
@@ -185,5 +184,12 @@
       "target": "regelmatige-boekhouding",
       "redenering": "Materiële continuïteit en onveranderlijkheid zijn vereisten voor regelmatigheid."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Boekhouder van Meubelzaak Mertens BV ontdekt dat een aankoopboeking van 12 maart per ongeluk € 8.500 in plaats van € 5.800 vermeldt. Hij mag NIET het bedrag overschrijven. Wel: een correctieboeking op huidige datum waarin de fout wordt teruggedraaid en de juiste boeking opnieuw wordt gemaakt, met expliciete verwijzing naar de oorspronkelijke fouttenboeking."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

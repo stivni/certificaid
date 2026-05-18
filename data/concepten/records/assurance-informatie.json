@@ -2,7 +2,7 @@
   "id": "assurance-informatie",
   "naam": "Assurance-informatie (controle-informatie)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.C",
@@ -36,7 +36,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Voor de bevestiging van handelsvorderingen van Rotex Roeselare NV vraagt Sofie Janssens externe bevestigingen aan de top 20 klanten (€ 4.500.000 op € 6.200.000 saldo). De ontvangen confirmaties + overige analytische procedures geven haar voldoende en geschikte assurance-informatie over het 'bestaan'-assertion.",
   "bouwstenen": [
     {
       "titel": "Voldoende vs. geschikt",
@@ -152,5 +151,12 @@
       "target": "externe-bevestiging",
       "redenering": "Specifieke bron van hoge betrouwbaarheid."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Voor de bevestiging van handelsvorderingen van Rotex Roeselare NV vraagt Sofie Janssens externe bevestigingen aan de top 20 klanten (€ 4.500.000 op € 6.200.000 saldo). De ontvangen confirmaties + overige analytische procedures geven haar voldoende en geschikte assurance-informatie over het 'bestaan'-assertion."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

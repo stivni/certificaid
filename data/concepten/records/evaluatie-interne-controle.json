@@ -2,7 +2,7 @@
   "id": "evaluatie-interne-controle",
   "naam": "Evaluatie van de interne controle",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VIII.F",
@@ -66,5 +66,6 @@
       "target": "toetsing-interne-beheersing",
       "redenering": "Toetsing door externe auditor is gerelateerd maar specifieker (binnen ISA-kader)."
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

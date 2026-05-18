@@ -2,7 +2,7 @@
   "id": "dagboek",
   "naam": "Dagboek",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -55,7 +55,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV voert vier hulpdagboeken: aankoopdagboek (alle leveranciersfacturen, gemiddeld 40 per maand), verkoopdagboek (klantenfacturen, ~250/maand), financieel dagboek (bankuittreksels en kasstukken) en diversendagboek (afschrijvingen, herwaarderingen). Eind elke maand wordt elk dagboek gecentraliseerd in het centraal boek met één samenvattende boeking.",
   "bouwstenen": [
     {
       "titel": "Ongesplitst dagboek vs hulpdagboeken",
@@ -194,5 +193,12 @@
       "target": "verantwoordingsstuk",
       "redenering": "Elke dagboekinschrijving verwijst verplicht naar een verantwoordingsstuk."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV voert vier hulpdagboeken: aankoopdagboek (alle leveranciersfacturen, gemiddeld 40 per maand), verkoopdagboek (klantenfacturen, ~250/maand), financieel dagboek (bankuittreksels en kasstukken) en diversendagboek (afschrijvingen, herwaarderingen). Eind elke maand wordt elk dagboek gecentraliseerd in het centraal boek met één samenvattende boeking."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
 title: Groottecriteria voor de consolidatievrijstelling
 tags:
 - concept
-- drempel
+- regel
 - po-1-4
 linked_anchors:
 - 1.4.I.C
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: drempel
+node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/groottecriteria-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -81,6 +81,9 @@ _Bron: WVV art. 1:26 jo. art. 1:24_
 
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[groep-van-beperkte-omvang]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

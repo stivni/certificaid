@@ -2,7 +2,7 @@
   "id": "redelijke-mate-van-zekerheid",
   "naam": "Redelijke mate van zekerheid",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -43,7 +43,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens controleert de jaarrekening 2025 van Rotex Roeselare NV. Na 8 weken werk (planning, risicoanalyse, testen, conclusie) kan zij met redelijke zekerheid stellen: 'naar ons oordeel geeft de jaarrekening een getrouw beeld van het vermogen, de financiële toestand en het resultaat van Rotex Roeselare NV per 31 december 2025'.",
   "in_praktijk": [
     {
       "aspect": "Geen absolute zekerheid",
@@ -110,5 +109,12 @@
       "target": "contractuele-controleopdracht",
       "redenering": "Bij een controleopdracht wordt redelijke zekerheid verschaft."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens controleert de jaarrekening 2025 van Rotex Roeselare NV. Na 8 weken werk (planning, risicoanalyse, testen, conclusie) kan zij met redelijke zekerheid stellen: 'naar ons oordeel geeft de jaarrekening een getrouw beeld van het vermogen, de financiële toestand en het resultaat van Rotex Roeselare NV per 31 december 2025'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

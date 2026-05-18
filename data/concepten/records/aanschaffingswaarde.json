@@ -2,7 +2,7 @@
   "id": "aanschaffingswaarde",
   "naam": "Aanschaffingswaarde",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.B",
@@ -50,7 +50,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV koopt een snij-installatie voor € 28.500 excl. BTW; bijkomende installatiekosten € 1.250 en transport € 750. Aanschaffingswaarde = € 28.500 + € 1.250 + € 750 = € 30.500 — dat is de basis waarop afschrijvingen worden berekend en die op de balans verschijnt onder rubriek 23 'Installaties, machines en uitrusting'.",
   "bouwstenen": [
     {
       "titel": "Aanschaffingsprijs bij externe aankoop",
@@ -194,5 +193,12 @@
       "target": "herwaarderingsmeerwaarden",
       "redenering": "Herwaardering is de uitzondering: aanpassing van de basiswaarde boven de aanschaffingswaarde onder strikte voorwaarden."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV koopt een snij-installatie voor € 28.500 excl. BTW; bijkomende installatiekosten € 1.250 en transport € 750. Aanschaffingswaarde = € 28.500 + € 1.250 + € 750 = € 30.500 — dat is de basis waarop afschrijvingen worden berekend en die op de balans verschijnt onder rubriek 23 'Installaties, machines en uitrusting'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

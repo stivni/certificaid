@@ -2,7 +2,7 @@
   "id": "informatiesysteem-onderneming",
   "naam": "Informatiesysteem van de onderneming",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.B",
@@ -29,7 +29,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV omvat het informatiesysteem: ERP-pakket (Odoo) voor aankopen-voorraad-verkoop, payroll-software, MS Office voor rapportering. Stromen: aankoopfactuur → boekhouding → kostencentrum-toewijzing → maandrapport voor directie. Een fout in één schakel (bv. verkeerd kostencentrum) breekt de hele rapportering.",
   "in_praktijk": [
     {
       "aspect": "Drie soorten stromen (1.7.II.C)",
@@ -68,5 +67,12 @@
       "target": "geinformatiseerde-omgeving-ic",
       "redenering": "Moderne IS draaien op IT-systemen — IT-general-controls zijn een eigen IC-domein."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV omvat het informatiesysteem: ERP-pakket (Odoo) voor aankopen-voorraad-verkoop, payroll-software, MS Office voor rapportering. Stromen: aankoopfactuur → boekhouding → kostencentrum-toewijzing → maandrapport voor directie. Een fout in één schakel (bv. verkeerd kostencentrum) breekt de hele rapportering."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

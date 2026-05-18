@@ -2,7 +2,7 @@
   "id": "cyclus-analyse-ic",
   "naam": "Cyclusanalyse bij IC — synthese",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.IX",
@@ -43,5 +43,11 @@
   ],
   "vergelijkingstabel": "| Cyclus | Hoofdrisico's | Kritische IC-maatregelen |\n|---|---|---|\n| Aankoop | Fictieve facturen, kickbacks, ongeautoriseerde uitgaven | 3-way match + autorisatie-drempels + functiescheiding inkoper/ontvanger/boeker/betaler |\n| Verkoop | Fictieve omzet, oninbare vorderingen, cut-off | Krediettoetsing + delivery-order match + DSO-monitoring |\n| Productie | Verkeerde kostprijs, voorraadafwijking, afval-fraude | BOM-tracking + yield-analyse + standaard vs actual variance |\n| HR | Ghost employees, loonmanipulatie | Functiescheiding HR/payroll/betaling + jaarlijkse werknemerslijst-review + Dimona-cross-check |\n| Voorraad | Diefstal, verkeerde waardering, telmiss | Fysieke beveiliging + permanent voorraad + onafhankelijke inventaris |",
   "beslisboom": "Voor elke cyclus, doorloop de IC-evaluatie in 3 stappen:\n1. **Identificeer kerngerichten** (welke beweringen worden geraakt: bestaan, volledigheid, juistheid, cut-off, waardering, presentatie).\n2. **Map de proces-stappen** (van trigger tot eindboeking).\n3. **Test functiescheiding + autorisaties + verificaties + monitoring** per stap.",
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV doet Sofie Janssens als externe auditor een walkthrough per cyclus: één transactie per cyclus volledig doorlopen, IC-zwakkere punten identificeren, dan substantieve werkzaamheden waar nodig."
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV doet Sofie Janssens als externe auditor een walkthrough per cyclus: één transactie per cyclus volledig doorlopen, IC-zwakkere punten identificeren, dan substantieve werkzaamheden waar nodig."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

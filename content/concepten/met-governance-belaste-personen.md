@@ -2,7 +2,7 @@
 title: Met governance belaste personen
 tags:
 - concept
-- actor
+- autoriteit
 - po-1-6
 linked_anchors:
 - 1.6.III.E
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: actor
+node_type: autoriteit
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/met-governance-belaste-personen.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -42,6 +42,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[communicatie-met-management-governance]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

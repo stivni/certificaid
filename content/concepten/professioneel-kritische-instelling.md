@@ -2,7 +2,7 @@
 title: Professioneel-kritische instelling
 tags:
 - concept
-- beginsel
+- regel
 - po-1-6
 linked_anchors:
 - 1.6.II
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: beginsel
+node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/professioneel-kritische-instelling.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -39,6 +39,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §42_
 > [!tip]- Doorlopend tijdens de hele opdracht
 > Niet enkel bij planning of bij specifieke risicogebieden — bij elke stap. Vooral bij schattingen, fraude-vermoedens en transacties met verbonden partijen. ⚖️
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

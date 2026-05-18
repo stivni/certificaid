@@ -2,7 +2,7 @@
   "id": "wijziging-boekhoudkundig-referentiestelsel",
   "naam": "Wijziging van boekhoudkundig referentiestelsel (CBN 2022/08)",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.IV.C",
@@ -173,5 +173,6 @@
       "redenering": "Bij overgang naar IFRS volgt de procedure van IFRS 1.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

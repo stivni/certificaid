@@ -2,7 +2,7 @@
   "id": "ias-1-toelichtingsvereisten",
   "naam": "Toelichtingsvereisten onder IAS 1 — structuur en inhoud",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.IV.B",
@@ -66,7 +66,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV toelichting 2026 bevat: noot 1 'Algemene informatie' (statutaire zetel, hoofdactiviteit), noot 2 'Grondslagen voor financiële verslaggeving' (12 subnoten over MVA, voorraden, leasing, opbrengsten, etc.), noot 3 'Significante schattingen' (impairment-test goodwill, levensduur productielijn), noten 4-25 toelichting per balanspost, noten 26-40 toelichting per W&V-post, noten 41-45 verbonden partijen, gebeurtenissen na balansdatum, etc. Totaal 45 toelichtingsnoten over ongeveer 70 pagina's.",
   "bouwstenen": [
     {
       "titel": "Significante oordeelsvorming + schattingsonzekerheid",
@@ -195,5 +194,12 @@
       "redenering": "Toelichting is component 5 van een IFRS-jaarrekening.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV toelichting 2026 bevat: noot 1 'Algemene informatie' (statutaire zetel, hoofdactiviteit), noot 2 'Grondslagen voor financiële verslaggeving' (12 subnoten over MVA, voorraden, leasing, opbrengsten, etc.), noot 3 'Significante schattingen' (impairment-test goodwill, levensduur productielijn), noten 4-25 toelichting per balanspost, noten 26-40 toelichting per W&V-post, noten 41-45 verbonden partijen, gebeurtenissen na balansdatum, etc. Totaal 45 toelichtingsnoten over ongeveer 70 pagina's."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

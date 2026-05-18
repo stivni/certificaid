@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/informatie-en-communicatie-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -30,4 +30,7 @@ Informatie en communicatie als COSO-component betekent dat relevante, betrouwbar
 ## Zie ook
 
 - **Vereist kennis van**: [[informatiesysteem-onderneming]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

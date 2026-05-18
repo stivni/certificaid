@@ -2,7 +2,7 @@
   "id": "beroepsaansprakelijkheid-accountant",
   "naam": "Beroepsaansprakelijkheid van de accountant",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.B",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Wolters & Partners CVBA voert een contractuele controle uit bij Meubelzaak Mertens BV. De opdrachtbrief beperkt de aansprakelijkheid tot drie keer het ereloon. Geldig — maar enkel voor gewone fouten, niet voor bedrog. Bij een wettelijk voorbehouden opdracht (bv. inbreng in natura) zou zo'n beperkingsclausule nietig zijn.",
   "voorwaarden": [
     {
       "text": "De aansprakelijkheidsbeperking mag enkel via een schriftelijke opdrachtbrief. Geen geldige beperking zonder akkoord vooraf.",
@@ -129,5 +128,12 @@
       "target": "opdrachtbrief-accountant",
       "redenering": "De opdrachtbrief is de plaats waar geldige aansprakelijkheidsbeperkingen worden afgesproken."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Wolters & Partners CVBA voert een contractuele controle uit bij Meubelzaak Mertens BV. De opdrachtbrief beperkt de aansprakelijkheid tot drie keer het ereloon. Geldig — maar enkel voor gewone fouten, niet voor bedrog. Bij een wettelijk voorbehouden opdracht (bv. inbreng in natura) zou zo'n beperkingsclausule nietig zijn."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

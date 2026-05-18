@@ -2,7 +2,7 @@
 title: Belangen van derden (minderheidsbelangen)
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-4
 linked_anchors:
 - 1.4.I.D
@@ -12,9 +12,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/minderheidsbelangen.json
 gegenereerd_op: '2026-05-18'
 ---

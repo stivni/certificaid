@@ -1,8 +1,8 @@
 {
   "id": "getrouw-beeld-controle",
   "naam": "Getrouw beeld als controlecriterium",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV.A",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens controleert of de balans van Rotex Roeselare NV per 31 december 2025 een getrouw beeld geeft: zijn alle activa correct gewaardeerd, alle schulden volledig opgenomen, alle verbintenissen toegelicht, alle waarderingsregels consistent toegepast? Bij positief antwoord → goedkeurend oordeel.",
   "in_praktijk": [
     {
       "aspect": "Toets op 'alle van materieel belang zijnde opzichten'",
@@ -96,5 +95,12 @@
       "target": "regelmatig-jaarrekening",
       "redenering": "Audit toetst zowel getrouw beeld als regelmatigheid (twee verschillende dimensies)."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens controleert of de balans van Rotex Roeselare NV per 31 december 2025 een getrouw beeld geeft: zijn alle activa correct gewaardeerd, alle schulden volledig opgenomen, alle verbintenissen toegelicht, alle waarderingsregels consistent toegepast? Bij positief antwoord → goedkeurend oordeel."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "boekhoudkundige-schattingen-audit",
   "naam": "Boekhoudkundige schattingen (audit-perspectief)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.D",
@@ -39,7 +39,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV vormt een voorziening van € 350.000 voor een aanhangig rechtsgeding. Sofie Janssens evalueert: (1) heeft het management de geschillen geïnventariseerd? (2) is de schatting redelijk gezien de juridische adviezen + analoge zaken? (3) is de toelichting in de jaarrekening adequaat?",
   "verplichting": {
     "text": "De beroepsbeoefenaar moet voldoende en geschikte assurance-informatie verkrijgen over (a) of de in de financiële overzichten opgenomen of toegelichte boekhoudkundige schattingen redelijk zijn, en (b) of de daarop betrekking hebbende toelichtingen adequaat zijn binnen het van toepassing zijnde stelsel inzake financiële verslaggeving.",
     "confidence": "grounded",
@@ -82,5 +81,12 @@
       "target": "professioneel-kritische-instelling",
       "redenering": "Schattingen vragen om actieve uitdaging van de management-veronderstellingen."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV vormt een voorziening van € 350.000 voor een aanhangig rechtsgeding. Sofie Janssens evalueert: (1) heeft het management de geschillen geïnventariseerd? (2) is de schatting redelijk gezien de juridische adviezen + analoge zaken? (3) is de toelichting in de jaarrekening adequaat?"
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

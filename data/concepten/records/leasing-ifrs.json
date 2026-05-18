@@ -2,7 +2,7 @@
   "id": "leasing-ifrs",
   "naam": "Leasing onder IFRS (IFRS 16) — lessee-perspectief",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.C",
@@ -88,7 +88,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV least een nieuwe productielocatie in Antwerpen: huurperiode 10 jaar, vaste jaarlijkse betaling € 480.000 (€ 40.000/maand), marginale rentevoet van Zelena 4%. Contante waarde betalingen ≈ € 3.894.000. Op aanvangsdatum 1 januari 2026 boekt Zelena: ROU-actief € 3.894.000 + leaseverplichting € 3.894.000. Latere jaren: afschrijving ROU + rentelast op leaseverplichting in winst of verlies.",
   "bouwstenen": [
     {
       "titel": "On-balance voor ALLE leases (lessee)",
@@ -327,5 +326,12 @@
       "redenering": "Sale-and-leaseback is een gespecialiseerde IFRS 16-transactie (alinea 98-103) die de standaard ROU + leaseverplichting-mechanica combineert met een IFRS 15-verkooptoets.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV least een nieuwe productielocatie in Antwerpen: huurperiode 10 jaar, vaste jaarlijkse betaling € 480.000 (€ 40.000/maand), marginale rentevoet van Zelena 4%. Contante waarde betalingen ≈ € 3.894.000. Op aanvangsdatum 1 januari 2026 boekt Zelena: ROU-actief € 3.894.000 + leaseverplichting € 3.894.000. Latere jaren: afschrijving ROU + rentelast op leaseverplichting in winst of verlies."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

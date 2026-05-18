@@ -2,7 +2,7 @@
   "id": "uniforme-waarderingsregels-consolidatie",
   "naam": "Uniforme waarderingsregels in de consolidatie",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -100,7 +100,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Brugse Brouwerij BV (dochter van Aurelia Holding NV) schreef haar gebouwen fiscaal versneld af (15 jaar). Voor de geconsolideerde jaarrekening werkt Aurelia die afschrijvingen om naar economisch verantwoorde duur (30 jaar), zodat alle gebouwen van de groep volgens dezelfde regels in de geconsolideerde balans staan.",
   "voorwaarden": [
     {
       "text": "De moeder past in principe dezelfde waarderingsregels toe op de geconsolideerde jaarrekening als op haar enkelvoudige jaarrekening (KB WVV art. 3:116, lid 1).",
@@ -308,5 +307,12 @@
       "redenering": "Art. 3:118 KB WVV (fiscale distorsies) is een uitzondering die dwingt om af te wijken van de individuele jaarrekening — dat is op zich een uitzondering op de hoofdregel dat dezelfde regels worden toegepast.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Brugse Brouwerij BV (dochter van Aurelia Holding NV) schreef haar gebouwen fiscaal versneld af (15 jaar). Voor de geconsolideerde jaarrekening werkt Aurelia die afschrijvingen om naar economisch verantwoorde duur (30 jaar), zodat alle gebouwen van de groep volgens dezelfde regels in de geconsolideerde balans staan."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

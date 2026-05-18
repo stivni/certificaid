@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/auditplanning.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -71,6 +71,9 @@ Documenteer significante wijzigingen + redenen in het controledossier (zie §45 
 ## Zie ook
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

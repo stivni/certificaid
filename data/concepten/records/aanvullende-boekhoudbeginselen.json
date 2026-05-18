@@ -2,7 +2,7 @@
   "id": "aanvullende-boekhoudbeginselen",
   "naam": "Aanvullende boekhoudbeginselen (voorzichtigheid, oprechtheid, continuïteit, consistentie)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.V.A",
@@ -48,7 +48,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV moet bij elke jaarafsluiting toetsen aan alle vier beginselen: voorraad waarderen volgens FIFO (consistent met vorige jaren), bij dalende grondstofprijzen voorzichtig waardevermindering boeken, balans presenteren onder going-concern-veronderstelling, en de cijfers oprecht weergeven zonder vertekening.",
   "bouwstenen": [
     {
       "titel": "Voorzichtigheid (prudence)",
@@ -187,5 +186,12 @@
       "redenering": "Alle vier dienen het getrouw beeld.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV moet bij elke jaarafsluiting toetsen aan alle vier beginselen: voorraad waarderen volgens FIFO (consistent met vorige jaren), bij dalende grondstofprijzen voorzichtig waardevermindering boeken, balans presenteren onder going-concern-veronderstelling, en de cijfers oprecht weergeven zonder vertekening."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

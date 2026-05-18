@@ -2,7 +2,7 @@
   "id": "kleine-vennootschap",
   "naam": "Kleine vennootschap (WVV art. 1:24)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.B",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV — 12 werknemers (≤50), € 4,5M omzet (≤€11,25M), € 2,1M balanstotaal (≤€6M) → onder alle drie drempels → kleine vennootschap.",
   "bouwstenen": [
     {
       "titel": "Vier voordelen ten opzichte van groot",
@@ -133,5 +132,12 @@
       "redenering": "Een klassiek instantie van de drie-categorieën-classificatie.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV — 12 werknemers (≤50), € 4,5M omzet (≤€11,25M), € 2,1M balanstotaal (≤€6M) → onder alle drie drempels → kleine vennootschap."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/beroepsaansprakelijkheid-accountant.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -49,6 +49,9 @@ _Bron: Wet ITAA 2019 art. 44_
 ## Zie ook
 
 - **Vereist kennis van**: [[opdrachtbrief-accountant]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

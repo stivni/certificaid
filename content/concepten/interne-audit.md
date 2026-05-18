@@ -2,7 +2,7 @@
 title: Interne audit
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-7
 linked_anchors:
 - 1.7.I.D
@@ -13,9 +13,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: inferred
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/interne-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -72,4 +72,7 @@ Interne audit is een onafhankelijke, objectieve evaluatie- en adviesactiviteit b
 ## Zie ook
 
 - **Vereist kennis van**: [[auditcomite]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -2,7 +2,7 @@
   "id": "marginale-kostprijs",
   "naam": "Marginale kostprijs",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.E"
@@ -26,7 +26,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV produceert 20.000 tapijten/jaar bij normale productie. De marginale kostprijs voor het 20.001ste tapijt = variabele kost € 13. Maar boven 22.000 stuks moet overuren gedraaid worden (€ 35/uur i.p.v. € 25); de marginale kostprijs stijgt dan tot € 17/stuk.",
   "in_praktijk": [
     {
       "aspect": "Beslissingsrelevant getal",
@@ -70,5 +69,12 @@
       "redenering": "Marginale kost ≈ variabele kost in lineair model.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV produceert 20.000 tapijten/jaar bij normale productie. De marginale kostprijs voor het 20.001ste tapijt = variabele kost € 13. Maar boven 22.000 stuks moet overuren gedraaid worden (€ 35/uur i.p.v. € 25); de marginale kostprijs stijgt dan tot € 17/stuk."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

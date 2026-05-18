@@ -2,7 +2,7 @@
   "id": "liquiditeitsratio",
   "naam": "Liquiditeitsratio (begrip)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.A",
@@ -145,5 +145,6 @@
       "redenering": "Liquiditeit is één van de vier analyse-doelstellingen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

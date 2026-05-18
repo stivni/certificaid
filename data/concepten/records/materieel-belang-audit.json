@@ -2,7 +2,7 @@
   "id": "materieel-belang-audit",
   "naam": "Materieel belang (materialiteit) in een audit",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.B",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens bepaalt voor Rotex Roeselare NV een materialiteit van 5 % op het resultaat vóór belasting (€ 2.000.000 × 5 % = € 100.000). Afwijkingen ≥ € 100.000 zijn 'materieel'; daaronder maar > € 5.000 (=5 % van materialiteit) worden gerapporteerd op een misstatement-log. Onder € 5.000 niet getest.",
   "in_praktijk": [
     {
       "aspect": "Twee dimensies: kwantitatief én kwalitatief",
@@ -128,5 +127,12 @@
       "target": "auditrisicomodel",
       "redenering": "Materialiteit is een input voor het auditrisicomodel."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens bepaalt voor Rotex Roeselare NV een materialiteit van 5 % op het resultaat vóór belasting (€ 2.000.000 × 5 % = € 100.000). Afwijkingen ≥ € 100.000 zijn 'materieel'; daaronder maar > € 5.000 (=5 % van materialiteit) worden gerapporteerd op een misstatement-log. Onder € 5.000 niet getest."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

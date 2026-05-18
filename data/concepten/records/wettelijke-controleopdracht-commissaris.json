@@ -2,7 +2,7 @@
   "id": "wettelijke-controleopdracht-commissaris",
   "naam": "Wettelijke controleopdracht (commissaris-mandaat)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -53,7 +53,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV is een grote NV (omzet € 35M, balanstotaal € 18M, 120 werknemers). De algemene vergadering benoemt Wolters & Partners CVBA als commissaris voor 3 boekjaren; Sofie Janssens (bedrijfsrevisor + IBR-lid) tekent als vaste vertegenwoordiger het commissarisverslag.",
   "voorwaarden_toepassing": [
     {
       "text": "De vennootschap overschrijdt meer dan één van de groottecriteria (50 werknemers / € 11.250.000 omzet / € 6.000.000 balanstotaal) gedurende twee opeenvolgende boekjaren, of is een Public Interest Entity (genoteerd, financiële instelling).",
@@ -119,5 +118,12 @@
       "target": "contractuele-controleopdracht",
       "redenering": "Verwarringsrisico — beide leveren redelijke zekerheid, maar verschillende grondslag en actor."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV is een grote NV (omzet € 35M, balanstotaal € 18M, 120 werknemers). De algemene vergadering benoemt Wolters & Partners CVBA als commissaris voor 3 boekjaren; Sofie Janssens (bedrijfsrevisor + IBR-lid) tekent als vaste vertegenwoordiger het commissarisverslag."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

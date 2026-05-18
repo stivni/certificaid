@@ -2,7 +2,7 @@
 title: Consortium (horizontale groep)
 tags:
 - concept
-- actor
+- autoriteit
 - po-1-4
 linked_anchors:
 - 1.4.I.C
@@ -12,9 +12,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: actor
+node_type: autoriteit
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/consortium.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -72,6 +72,9 @@ _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 
 - **Getriggerd door**: [[horizontale-consolidatie]]
 - **Vereist kennis van**: [[controle]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

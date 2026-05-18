@@ -2,7 +2,7 @@
 title: Herwaarderingsmodel onder IAS 16
 tags:
 - concept
-- methode
+- cluster
 - po-1-5
 linked_anchors:
 - 1.5.V.A
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.5'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/herwaarderingsmodel-ias-16.json
 gegenereerd_op: '2026-05-18'
 ---

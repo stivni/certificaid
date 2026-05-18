@@ -1,8 +1,8 @@
 {
   "id": "opbrengsten-ifrs",
   "naam": "Opbrengsten onder IFRS (IFRS 15) — 5-stappen-model",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.D",
@@ -299,5 +299,6 @@
       "redenering": "IFRS 15 vervangt IAS 18 en IAS 11 vanaf 1 januari 2018 — anchor van PO 1.5 is historisch.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

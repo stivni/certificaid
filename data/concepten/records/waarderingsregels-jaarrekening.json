@@ -2,7 +2,7 @@
   "id": "waarderingsregels-jaarrekening",
   "naam": "Waarderingsregels (algemeen)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.V.B",
@@ -63,7 +63,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV koopt op 1 maart 2024 een machine voor € 80.000 → boekwaarde initieel = aanschaffingswaarde € 80.000. Lineair afschrijven over 10 jaar = € 8.000 per jaar. Na 5 jaar: boekwaarde € 40.000.",
   "bouwstenen": [
     {
       "titel": "Aanschaffingswaarde als startpunt",
@@ -212,5 +211,12 @@
       "redenering": "Bestendigheid van waarderingsregels = consistentie.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV koopt op 1 maart 2024 een machine voor € 80.000 → boekwaarde initieel = aanschaffingswaarde € 80.000. Lineair afschrijven over 10 jaar = € 8.000 per jaar. Na 5 jaar: boekwaarde € 40.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

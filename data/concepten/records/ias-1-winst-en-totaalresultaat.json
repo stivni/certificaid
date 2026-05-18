@@ -2,7 +2,7 @@
   "id": "ias-1-winst-en-totaalresultaat",
   "naam": "Winst of verlies en overige onderdelen van het totaalresultaat (IAS 1)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.IV.B",
@@ -65,7 +65,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV totaalresultaat 2026: winst € 35.000.000 + OCI: herwaardering terreinen +€ 4.500.000 (na uitgestelde belasting) + wisselkoersverschillen Argentijnse dochter −€ 800.000 + actuariële winsten pensioenplan +€ 320.000 = totaalresultaat **€ 39.020.000**.",
   "bouwstenen": [
     {
       "titel": "Reclassificeren van OCI naar winst of verlies — niet altijd",
@@ -174,5 +173,12 @@
       "redenering": "Totaalresultaat is component 2 van een IFRS-jaarrekening.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV totaalresultaat 2026: winst € 35.000.000 + OCI: herwaardering terreinen +€ 4.500.000 (na uitgestelde belasting) + wisselkoersverschillen Argentijnse dochter −€ 800.000 + actuariële winsten pensioenplan +€ 320.000 = totaalresultaat **€ 39.020.000**."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

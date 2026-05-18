@@ -1,8 +1,8 @@
 {
   "id": "financiele-verrichtingen",
   "naam": "Financiële verrichtingen (kosten + opbrengsten)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.O"
@@ -42,7 +42,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Uitgeverij Ukkel NV 20X1: intrestlast hypothecaire lening € 28.500 (rekening 650 Intrestkosten), bankkosten en commissies € 1.250 (657 Diverse financiële kosten), wisselkoersverlies € 850 (654). Tegenover: rente op termijndeposito's € 4.500 (751), dividend op participatie € 18.000 (752 — financiële opbrengsten van FVA). Financieel resultaat = (€ 4.500 + € 18.000) − (€ 28.500 + € 1.250 + € 850) = −€ 7.100.",
   "bouwstenen": [
     {
       "titel": "Klasse 65 — Financiële kosten",
@@ -177,5 +176,12 @@
       "target": "bedrijfsresultaat",
       "redenering": "Twee strikt gescheiden segmenten van het resultaat."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Uitgeverij Ukkel NV 20X1: intrestlast hypothecaire lening € 28.500 (rekening 650 Intrestkosten), bankkosten en commissies € 1.250 (657 Diverse financiële kosten), wisselkoersverlies € 850 (654). Tegenover: rente op termijndeposito's € 4.500 (751), dividend op participatie € 18.000 (752 — financiële opbrengsten van FVA). Financieel resultaat = (€ 4.500 + € 18.000) − (€ 28.500 + € 1.250 + € 850) = −€ 7.100."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

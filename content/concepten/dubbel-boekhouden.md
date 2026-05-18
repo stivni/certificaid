@@ -2,7 +2,7 @@
 title: Dubbel boekhouden
 tags:
 - concept
-- methode
+- cluster
 - po-1-1
 - po-1-2
 linked_anchors:
@@ -15,9 +15,9 @@ programmaonderdelen:
 - '1.1'
 - '1.2'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/dubbel-boekhouden.json
 gegenereerd_op: '2026-05-18'
 ---

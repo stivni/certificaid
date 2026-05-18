@@ -2,7 +2,7 @@
   "id": "vennootschapsgrootte-cascade",
   "naam": "Vennootschapsgrootte-cascade: micro &mdash; klein &mdash; groot",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.B",
@@ -129,5 +129,6 @@
     "klasseren-vennootschap-naar-grootte",
     "bepalen-schema-jaarrekening",
     "afleiden-cascade-verplichtingen-uit-grootte"
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

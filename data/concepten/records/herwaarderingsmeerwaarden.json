@@ -1,8 +1,8 @@
 {
   "id": "herwaarderingsmeerwaarden",
   "naam": "Herwaarderingsmeerwaarden",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.B",
@@ -52,7 +52,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV heeft een productiehal aangeschaft in 2005 voor € 320.000 (terrein) — werkelijke waarde nu € 580.000 door bestemmingswijziging tot bouwgrond. Bestuur beslist herwaardering toe te passen: Debet 220 Terreinen € 260.000 / Credit 12 Herwaarderingsmeerwaarden € 260.000. Niet-uitkeerbaar; bij latere verkoop wordt de meerwaarde gerealiseerd en kan ze deels naar reserves.",
   "bouwstenen": [
     {
       "titel": "Strikte voorwaarden: zeker, duurzaam, onontbeerlijk",
@@ -214,5 +213,12 @@
       "target": "eigen-middelen",
       "redenering": "Herwaarderingsmeerwaarde verschijnt onder eigen middelen (rubriek III), niet als resultaat."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV heeft een productiehal aangeschaft in 2005 voor € 320.000 (terrein) — werkelijke waarde nu € 580.000 door bestemmingswijziging tot bouwgrond. Bestuur beslist herwaardering toe te passen: Debet 220 Terreinen € 260.000 / Credit 12 Herwaarderingsmeerwaarden € 260.000. Niet-uitkeerbaar; bij latere verkoop wordt de meerwaarde gerealiseerd en kan ze deels naar reserves."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

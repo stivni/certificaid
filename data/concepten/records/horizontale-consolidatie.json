@@ -2,7 +2,7 @@
   "id": "horizontale-consolidatie",
   "naam": "Horizontale consolidatie",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -108,7 +108,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV staan onder gemeenschappelijke leiding van Pieter Vermeulen, zonder dat één van beide vennootschap de andere controleert → horizontale consolidatie: hun balansen, resultatenrekeningen en eigen-vermogensposten worden integraal samengevoegd in één geconsolideerde jaarrekening; de reserves van elk lid blijven afzonderlijk zichtbaar.",
   "stappen": [
     {
       "nr": 1,
@@ -426,5 +425,12 @@
       "redenering": "Horizontale consolidatie hergebruikt de techniek van integrale consolidatie. Zonder die techniek te beheersen kan je geen horizontale consolidatie uitvoeren.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV staan onder gemeenschappelijke leiding van Pieter Vermeulen, zonder dat één van beide vennootschap de andere controleert → horizontale consolidatie: hun balansen, resultatenrekeningen en eigen-vermogensposten worden integraal samengevoegd in één geconsolideerde jaarrekening; de reserves van elk lid blijven afzonderlijk zichtbaar."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

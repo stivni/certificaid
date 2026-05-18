@@ -2,7 +2,7 @@
   "id": "paragraaf-ter-benadrukking",
   "naam": "Paragraaf ter benadrukking van bepaalde aangelegenheden",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV.C",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV heeft een materiële onzekerheid rond de continuïteit, maar deze is correct toegelicht in toelichting 12. Sofie Janssens neemt een paragraaf ter benadrukking op die naar toelichting 12 verwijst — zonder haar oordeel aan te passen.",
   "vergelijkingsparen": [
     {
       "vergelijking_met": "paragraaf-overige-aangelegenheden",
@@ -71,5 +70,12 @@
       "target": "paragraaf-overige-aangelegenheden",
       "redenering": "Verwarringsrisico: examen-favoriet."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV heeft een materiële onzekerheid rond de continuïteit, maar deze is correct toegelicht in toelichting 12. Sofie Janssens neemt een paragraaf ter benadrukking op die naar toelichting 12 verwijst — zonder haar oordeel aan te passen."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

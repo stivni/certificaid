@@ -2,7 +2,7 @@
   "id": "contributiemarge",
   "naam": "Contributiemarge",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.B",
@@ -31,7 +31,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV verkoopt een tapijt voor € 60 met variabele kost € 13 per stuk. Eenheidscontributie = € 60 − € 13 = € 47. Bij 10.000 stuks: totale contributiemarge € 470.000.",
   "berekeningsmethode": [
     {
       "naam": "Eenheidscontributie en contributiemarge-ratio",
@@ -172,5 +171,12 @@
       "redenering": "Contributiemarge is hoofd-output van direct costing.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV verkoopt een tapijt voor € 60 met variabele kost € 13 per stuk. Eenheidscontributie = € 60 − € 13 = € 47. Bij 10.000 stuks: totale contributiemarge € 470.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

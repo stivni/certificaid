@@ -2,7 +2,7 @@
 title: Moedervennootschap
 tags:
 - concept
-- actor
+- autoriteit
 - po-1-4
 linked_anchors:
 - 1.4.I.C
@@ -14,9 +14,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: actor
+node_type: autoriteit
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/moedervennootschap.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -66,6 +66,9 @@ _Bron: WVV art. 1:15, 1° jo. art. 3:22_
 
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[controle]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

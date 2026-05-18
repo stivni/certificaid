@@ -2,7 +2,7 @@
   "id": "contractuele-beoordelingsopdracht",
   "naam": "Contractuele beoordelingsopdracht",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -36,7 +36,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'.",
   "bouwstenen": [
     {
       "titel": "Beperkte mate van zekerheid",
@@ -141,5 +140,12 @@
       "target": "beperkte-mate-van-zekerheid",
       "redenering": "Het kernverschil met controle zit in het lagere zekerheidsniveau."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -1,8 +1,8 @@
 {
   "id": "groottecriteria-consolidatie",
   "naam": "Groottecriteria voor de consolidatievrijstelling",
-  "node_type": "drempel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -95,7 +95,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV met dochter Gent Garantie BV: geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR, 180 personeelsleden. Slechts één drempel (personeel) overschreden → vrijstelling consolidatieplicht (groep van beperkte omvang).",
   "drempelwaarden": [
     {
       "naam": "Kleine vennootschap (WVV art. 1:24) — referentie",
@@ -294,5 +293,12 @@
       "redenering": "Groottecriteria zijn de kwantitatieve toets; 'groep van beperkte omvang' is de juridische kwalificatie die uit de toets volgt. Wie de criteria toepast, krijgt als output de kwalificatie.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV met dochter Gent Garantie BV: geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR, 180 personeelsleden. Slechts één drempel (personeel) overschreden → vrijstelling consolidatieplicht (groep van beperkte omvang)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -1,8 +1,8 @@
 {
   "id": "afschrijvingen",
   "naam": "Afschrijvingen",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.A",
@@ -56,7 +56,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV koopt een snij-installatie voor € 30.500 met geschatte gebruiksduur van 5 jaar. Lineaire afschrijving = € 30.500 / 5 = € 6.100 per jaar. Eind jaar 1: Debet 6302 Afschrijvingen materiële vaste activa € 6.100 / Credit 2309 Afschrijvingen op installaties € 6.100. Op de balans staat de netto-boekwaarde aan eind jaar 1 op € 30.500 − € 6.100 = € 24.400.",
   "bouwstenen": [
     {
       "titel": "Drie elementen om de afschrijving te bepalen",
@@ -363,5 +362,12 @@
       "target": "voorzichtigheidsbeginsel",
       "redenering": "Afschrijving is een toepassing van het voorzichtigheidsbeginsel op duurzame activa."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV koopt een snij-installatie voor € 30.500 met geschatte gebruiksduur van 5 jaar. Lineaire afschrijving = € 30.500 / 5 = € 6.100 per jaar. Eind jaar 1: Debet 6302 Afschrijvingen materiële vaste activa € 6.100 / Credit 2309 Afschrijvingen op installaties € 6.100. Op de balans staat de netto-boekwaarde aan eind jaar 1 op € 30.500 − € 6.100 = € 24.400."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

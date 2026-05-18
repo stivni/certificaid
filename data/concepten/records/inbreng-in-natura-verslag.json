@@ -2,7 +2,7 @@
   "id": "inbreng-in-natura-verslag",
   "naam": "Verslag bij inbreng in natura",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.taak.1"
@@ -69,5 +69,6 @@
       "target": "onafhankelijkheid-externe-accountant",
       "redenering": "Onafhankelijkheid is voorwaarde voor wettelijke verslagen."
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

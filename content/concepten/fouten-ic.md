@@ -2,7 +2,7 @@
 title: Fouten in IC-context
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-7
 linked_anchors:
 - 1.7.VI.A
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: inferred
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/fouten-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -38,4 +38,7 @@ Een fout is een onopzettelijke afwijking in de boekhouding, rapportering of bedr
 > [!tip]- Preventie vs detectie
 > Preventie: automatische plausibility checks in ERP (bedrag binnen range), drempelwaardes met manuele review, vier-ogen-principe op kritische posten. Detectie: maandelijkse afstemming bank/grootboek, cijferanalyses (trend, ratio's), spotcheck-samples door supervisor. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

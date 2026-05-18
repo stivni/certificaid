@@ -1,8 +1,8 @@
 {
   "id": "materieel-belang-jaarrekening",
   "naam": "Materieel belang (materiality)",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.A",
@@ -133,5 +133,6 @@
       "redenering": "Vermelding in toelichting is verplicht zodra rechten/verplichtingen 'aanmerkelijk' (materieel) kunnen beïnvloeden.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
 title: Opbrengsten onder IFRS (IFRS 15) — 5-stappen-model
 tags:
 - concept
-- methode
+- cluster
 - po-1-5
 linked_anchors:
 - 1.5.V.D
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.5'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/opbrengsten-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---

@@ -2,7 +2,7 @@
   "id": "geinformatiseerde-omgeving-ic",
   "naam": "Interne controle in geïnformatiseerde omgeving",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VIII.E",
@@ -31,7 +31,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV draait alles op ERP (Odoo). IT general controls: serverroom op slot (fysieke beveiliging), userprofielen met rol-gebaseerde rechten (toegangsbeheer), nightly backup naar externe site (continuïteit), test/productie-scheiding bij upgrades (change management). Application controls binnen Odoo: dubbele invoer-validatie op IBAN, automatische BTW-berekening, drempel-autorisaties.",
   "in_praktijk": [
     {
       "aspect": "Vijf risico-categorieën in IT-omgeving (1.7.X.A)",
@@ -90,5 +89,12 @@
       "target": "avg-interne-controle",
       "redenering": "Privacy-aspecten van data zijn dwingend in geïnformatiseerde omgeving."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV draait alles op ERP (Odoo). IT general controls: serverroom op slot (fysieke beveiliging), userprofielen met rol-gebaseerde rechten (toegangsbeheer), nightly backup naar externe site (continuïteit), test/productie-scheiding bij upgrades (change management). Application controls binnen Odoo: dubbele invoer-validatie op IBAN, automatische BTW-berekening, drempel-autorisaties."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

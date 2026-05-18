@@ -2,7 +2,7 @@
   "id": "indirecte-kosten",
   "naam": "Indirecte kosten",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.A",
@@ -38,7 +38,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV betaalt huur € 80.000/jaar voor het volledige weverij-gebouw waarin drie productlijnen draaien. De huur is een indirecte kost: ze ondersteunt alle drie producten gezamenlijk en moet via een sleutel (bv. m² of machine-uren) verdeeld worden.",
   "bouwstenen": [
     {
       "titel": "Wettelijk verplicht in vervaardigingsprijs",
@@ -161,5 +160,12 @@
       "redenering": "ABC is de geavanceerde aanpak voor indirecte kosten.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV betaalt huur € 80.000/jaar voor het volledige weverij-gebouw waarin drie productlijnen draaien. De huur is een indirecte kost: ze ondersteunt alle drie producten gezamenlijk en moet via een sleutel (bv. m² of machine-uren) verdeeld worden."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

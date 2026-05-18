@@ -2,7 +2,7 @@
   "id": "opdrachttypes-zekerheidsniveaus-synthese",
   "naam": "Opdrachttypes en zekerheidsniveaus vergeleken",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -33,5 +33,6 @@
     "beperkte-mate-van-zekerheid"
   ],
   "vergelijkingstabel": "| Opdrachttype | Zekerheidsniveau | Oordeel/Conclusie-vorm | Toepasselijke norm | Wie kan uitvoeren? | Typische triggerwoorden in wet/contract |\n|---|---|---|---|---|---|\n| Wettelijke controle (commissaris) | Redelijke zekerheid | Positief oordeel ('getrouw beeld') | ISA + Wet 7 december 2016 | Bedrijfsrevisor (commissaris) | 'wettelijke controle jaarrekening', 'commissaris' |\n| Contractuele controle | Redelijke zekerheid | Positief oordeel | ITAA KMO-controlenorm hoofdstuk 3 | GA of bedrijfsrevisor | 'controle van de jaarrekening', 'getrouw beeld' |\n| Contractuele beoordeling (review) | Beperkte zekerheid | Negatieve conclusie ('geen aanwijzingen') | ITAA KMO-controlenorm hoofdstuk 4 | GA of bedrijfsrevisor | 'beperkte controle', 'beperkt nazicht', 'review' |\n| Samenstellingsopdracht | GEEN zekerheid | Geen oordeel/conclusie | ITAA-norm Samenstellingsopdrachten (ISRS 4410) | GA of bedrijfsrevisor | 'opmaken jaarrekening', 'samenstelling' |\n| Gedeelde wettelijk voorbehouden opdracht | Variabel (specifiek per opdracht) | Specifiek (bv. inbreng-verslag) | Bijzondere norm + KMO-controlenorm als suppletief | GA of bedrijfsrevisor (geen commissaris) | 'inbreng in natura', 'omzetting', 'ontbinding' |",
-  "beslisboom": "```mermaid\nflowchart TD\n    A[Welk opdrachttype?] --> B{Wettelijk opgelegd?}\n    B -->|Ja, jaarrekening-audit| C[Wettelijke controle — bedrijfsrevisor]\n    B -->|Ja, specifiek WVV-event| D{Commissaris benoemd?}\n    D -->|Ja| E[Commissaris voert uit]\n    D -->|Nee| F[Gedeelde wettelijk voorbehouden opdracht]\n    B -->|Nee, vrijwillig| G{Welk zekerheidsniveau wil de cliënt?}\n    G -->|Redelijk + positief oordeel| H[Contractuele controle — KMO-controlenorm h.3]\n    G -->|Beperkt + negatieve conclusie| I[Contractuele beoordeling — KMO-controlenorm h.4]\n    G -->|Geen zekerheid, gewoon opstellen| J[Samenstellingsopdracht — ISRS 4410]\n```"
+  "beslisboom": "```mermaid\nflowchart TD\n    A[Welk opdrachttype?] --> B{Wettelijk opgelegd?}\n    B -->|Ja, jaarrekening-audit| C[Wettelijke controle — bedrijfsrevisor]\n    B -->|Ja, specifiek WVV-event| D{Commissaris benoemd?}\n    D -->|Ja| E[Commissaris voert uit]\n    D -->|Nee| F[Gedeelde wettelijk voorbehouden opdracht]\n    B -->|Nee, vrijwillig| G{Welk zekerheidsniveau wil de cliënt?}\n    G -->|Redelijk + positief oordeel| H[Contractuele controle — KMO-controlenorm h.3]\n    G -->|Beperkt + negatieve conclusie| I[Contractuele beoordeling — KMO-controlenorm h.4]\n    G -->|Geen zekerheid, gewoon opstellen| J[Samenstellingsopdracht — ISRS 4410]\n```",
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

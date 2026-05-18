@@ -1,8 +1,8 @@
 {
   "id": "obligatielening",
   "naam": "Obligatielening",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.V",
@@ -49,7 +49,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar).",
   "bouwstenen": [
     {
       "titel": "Drie hoofdelementen: nominaal, coupon, looptijd",
@@ -186,5 +185,12 @@
       "target": "oprichtingskosten",
       "redenering": "Uitgiftekosten activeren onder oprichtingskosten 201."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

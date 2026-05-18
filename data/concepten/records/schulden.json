@@ -1,8 +1,8 @@
 {
   "id": "schulden",
   "naam": "Schulden (LT en KT)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.J",
@@ -45,7 +45,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Uitgeverij Ukkel NV heeft op 31/12: hypothecaire lening 10 jaar — beginsaldo € 850.000, eindsaldo € 765.000 waarvan € 85.000 binnen het jaar vervalt. Boekhoudkundige presentatie: € 680.000 op rubriek VIII 'Schulden op meer dan één jaar' (rekening 173) en € 85.000 op rubriek IX 'Schulden op ten hoogste één jaar' (rekening 42). Daarnaast leveranciersschulden € 145.000 (44), BTW-schuld € 18.500 (4514), bezoldigingen € 32.000 (455).",
   "bouwstenen": [
     {
       "titel": "Splitsing op meer / hoogstens één jaar",
@@ -201,5 +200,12 @@
       "target": "overlopende-rekeningen",
       "redenering": "Bij cut-off-verrichtingen worden te ontvangen facturen vs overlopende kosten correct gescheiden."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Uitgeverij Ukkel NV heeft op 31/12: hypothecaire lening 10 jaar — beginsaldo € 850.000, eindsaldo € 765.000 waarvan € 85.000 binnen het jaar vervalt. Boekhoudkundige presentatie: € 680.000 op rubriek VIII 'Schulden op meer dan één jaar' (rekening 173) en € 85.000 op rubriek IX 'Schulden op ten hoogste één jaar' (rekening 42). Daarnaast leveranciersschulden € 145.000 (44), BTW-schuld € 18.500 (4514), bezoldigingen € 32.000 (455)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

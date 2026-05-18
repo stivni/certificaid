@@ -2,7 +2,7 @@
   "id": "geconsolideerd-jaarverslag",
   "naam": "Geconsolideerd jaarverslag",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.F",
@@ -101,7 +101,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV is consolidatieplichtig en maakt jaarlijks zowel een geconsolideerde jaarrekening op als een geconsolideerd jaarverslag dat de evolutie van de groep (Aurelia + Brugse Brouwerij BV + Bouwwerf Beerse BV) bespreekt, met groepsbrede risico's en eigen-aandelen-overzicht.",
   "in_praktijk": [
     {
       "aspect": "Altijd samen met de jaarrekening",
@@ -249,5 +248,12 @@
       "redenering": "Om het jaarverslag te begrijpen moet je weten wat de geconsolideerde jaarrekening inhoudt — het verslag becommentarieert die cijfers.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV is consolidatieplichtig en maakt jaarlijks zowel een geconsolideerde jaarrekening op als een geconsolideerd jaarverslag dat de evolutie van de groep (Aurelia + Brugse Brouwerij BV + Bouwwerf Beerse BV) bespreekt, met groepsbrede risico's en eigen-aandelen-overzicht."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

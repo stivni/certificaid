@@ -2,7 +2,7 @@
   "id": "vrijstelling-subconsolidatie",
   "naam": "Vrijstelling van subconsolidatie",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -98,7 +98,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Kappers Köln GmbH (Duitse top-moeder) bezit 95 % van Aurelia Holding NV; Aurelia bezit 80 % van Brugse Brouwerij BV. Kappers Köln consolideert hogerop alle drie samen onder een gelijkwaardige standaard. Aurelia en Brugse zijn niet genoteerd → Aurelia is vrijgesteld van subconsolidatie en hoeft géén eigen geconsolideerde jaarrekening op te stellen.",
   "voorwaarden": [
     {
       "text": "De submoeder is zelf dochter van een hogere moeder.",
@@ -310,5 +309,12 @@
       "redenering": "Om te beoordelen of een submoeder van de vrijstelling kan genieten, moet je de consolidatiekring van die submoeder kennen (om de notering-test te doen op haar en haar dochters).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Kappers Köln GmbH (Duitse top-moeder) bezit 95 % van Aurelia Holding NV; Aurelia bezit 80 % van Brugse Brouwerij BV. Kappers Köln consolideert hogerop alle drie samen onder een gelijkwaardige standaard. Aurelia en Brugse zijn niet genoteerd → Aurelia is vrijgesteld van subconsolidatie en hoeft géén eigen geconsolideerde jaarrekening op te stellen."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

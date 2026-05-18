@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/controlemiddelen-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -34,4 +34,7 @@ Controlemiddelen zijn de concrete instrumenten waarmee beheersactiviteiten worde
 > [!tip]- Vier categorieën controlemiddelen
 > (1) Documenten + formulieren: gestandaardiseerd format, doorlopende nummering, verplichte velden. (2) Fysieke beveiliging: sleutels, badges, kluizen, kassa's, camera's. (3) IT-systemen: rollenbeheer, audit trail, validaties, geautomatiseerde controles. (4) Procedurele instrumenten: checklists, walkthroughs, observations. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

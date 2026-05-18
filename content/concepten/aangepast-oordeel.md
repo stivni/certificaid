@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/aangepast-oordeel.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -35,6 +35,9 @@ _Bron: ITAA KMO-controlenorm §118_
 > [!tip]- Basis voor het oordeel apart vermelden
 > Bij elk aangepast oordeel komt een paragraaf 'Basis voor het oordeel met voorbehoud / afkeurend oordeel / onthouding van oordeel' VÓÓR de oordeelsparagraaf, met uitleg over de aard en het bedrag (waar mogelijk) van de afwijking of scope-beperking. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

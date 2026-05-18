@@ -2,7 +2,7 @@
 title: Werkelijke kostencalculatie (vastgestelde kosten)
 tags:
 - concept
-- methode
+- cluster
 - po-1-8
 linked_anchors:
 - 1.8.III.A
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.8'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/werkelijke-kostencalculatie.json
 gegenereerd_op: '2026-05-18'
 ---

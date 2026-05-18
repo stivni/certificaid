@@ -1,8 +1,8 @@
 {
   "id": "componentenbenadering-ias-16",
   "naam": "Componentenbenadering (IAS 16) — afschrijving per onderdeel",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.A",
@@ -273,5 +273,6 @@
       "redenering": "BE-GAAP-afschrijvingen kennen componentenbenadering als optie, IFRS verplicht ze bij substantiële kostprijs.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

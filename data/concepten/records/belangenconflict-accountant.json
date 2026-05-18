@@ -2,7 +2,7 @@
   "id": "belangenconflict-accountant",
   "naam": "Belangenconflict van de externe accountant",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.III.E",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens controleert Meubelzaak Mertens BV. Halfweg de opdracht vraagt de zaakvoerder haar ook om een verkoop te bemiddelen tussen zijn vennootschap en een koper waarvoor zij ook fiscaal advies geeft. Belangenconflict → opdracht weigeren of zich terugtrekken uit één van beide rollen.",
   "in_praktijk": [
     {
       "aspect": "Triggers voor belangenconflict",
@@ -79,5 +78,12 @@
       "target": "onafhankelijkheid-externe-accountant",
       "redenering": "Belangenconflict is de operationele kant van het onafhankelijkheidsbeginsel."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens controleert Meubelzaak Mertens BV. Halfweg de opdracht vraagt de zaakvoerder haar ook om een verkoop te bemiddelen tussen zijn vennootschap en een koper waarvoor zij ook fiscaal advies geeft. Belangenconflict → opdracht weigeren of zich terugtrekken uit één van beide rollen."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

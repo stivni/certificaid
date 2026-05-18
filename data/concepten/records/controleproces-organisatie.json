@@ -2,7 +2,7 @@
   "id": "controleproces-organisatie",
   "naam": "Controleproces in de organisatie",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.F",
@@ -74,5 +74,6 @@
       "target": "managementcontrole",
       "redenering": "Controleproces is operationele vertaling van managementcontrole."
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

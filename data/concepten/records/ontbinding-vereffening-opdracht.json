@@ -2,7 +2,7 @@
   "id": "ontbinding-vereffening-opdracht",
   "naam": "Ontbinding-vereffening opdracht van de gecertificeerd accountant",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.B",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Verffabriek Veurne BV wil zich ontbinden. De aandeelhouders besluiten tot vrijwillige vereffening. Geen commissaris → Sofie Janssens (gecertificeerd accountant) krijgt de opdracht. Zij toetst de staat van actief en passief, beoordeelt de continuïteit van de waardering, controleert of de waarderingsregels zijn aangepast aan stopzetting (going concern → going-out-of-business), en levert haar verslag af aan de buitengewone algemene vergadering.",
   "in_praktijk": [
     {
       "aspect": "Verslag aan de buitengewone algemene vergadering",
@@ -86,5 +85,12 @@
       "target": "gedeelde-wettelijk-voorbehouden-opdracht",
       "redenering": "Typisch voorbeeld van gedeelde wettelijk voorbehouden opdracht."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Verffabriek Veurne BV wil zich ontbinden. De aandeelhouders besluiten tot vrijwillige vereffening. Geen commissaris → Sofie Janssens (gecertificeerd accountant) krijgt de opdracht. Zij toetst de staat van actief en passief, beoordeelt de continuïteit van de waardering, controleert of de waarderingsregels zijn aangepast aan stopzetting (going concern → going-out-of-business), en levert haar verslag af aan de buitengewone algemene vergadering."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

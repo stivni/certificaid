@@ -2,7 +2,7 @@
   "id": "ias-1-mutatieoverzicht-eigen-vermogen",
   "naam": "Mutatieoverzicht eigen vermogen (IAS 1)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.IV.B",
@@ -56,7 +56,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV mutatieoverzicht 2026 (vereenvoudigd, in € miljoenen): kapitaal € 50M + agio € 18M + herwaarderingsreserve € 8M (begin) + winst 2026 € 35M − dividend € 15M + herwaardering terreinen +€ 4,5M (OCI) − wisselkoers Argentinië −€ 0,8M = totaal eigen vermogen einde 2026 € 99,7M.",
   "bouwstenen": [
     {
       "titel": "Drie soorten mutaties — onderscheid bewaren",
@@ -164,5 +163,12 @@
       "redenering": "Mutatieoverzicht is component 3 van een IFRS-jaarrekening.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV mutatieoverzicht 2026 (vereenvoudigd, in € miljoenen): kapitaal € 50M + agio € 18M + herwaarderingsreserve € 8M (begin) + winst 2026 € 35M − dividend € 15M + herwaardering terreinen +€ 4,5M (OCI) − wisselkoers Argentinië −€ 0,8M = totaal eigen vermogen einde 2026 € 99,7M."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

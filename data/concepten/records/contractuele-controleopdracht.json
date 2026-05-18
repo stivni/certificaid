@@ -2,7 +2,7 @@
   "id": "contractuele-controleopdracht",
   "naam": "Contractuele controleopdracht",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -36,7 +36,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV (KMO onder de drempels) wil bij een bankaanvraag van € 750.000 extra geloofwaardigheid. De zaakvoerder vraagt Wolters & Partners CVBA om een contractuele controle uit te voeren over boekjaar 2025. Sofie Janssens voert een volledige audit uit volgens de KMO-controlenorm en levert een verslag af met een positief oordeel.",
   "bouwstenen": [
     {
       "titel": "Vrijwillig, geen wettelijke verplichting",
@@ -166,5 +165,12 @@
       "target": "opdrachtbrief",
       "redenering": "Elke contractuele opdracht start met een opdrachtbrief die de scope vastlegt."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV (KMO onder de drempels) wil bij een bankaanvraag van € 750.000 extra geloofwaardigheid. De zaakvoerder vraagt Wolters & Partners CVBA om een contractuele controle uit te voeren over boekjaar 2025. Sofie Janssens voert een volledige audit uit volgens de KMO-controlenorm en levert een verslag af met een positief oordeel."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

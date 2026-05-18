@@ -11,7 +11,7 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/specifieke-kwesties-automatisering-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -39,6 +39,9 @@ _Bron: ITAA KMO-controlenorm §77 + ITAA Algemene controlenorm §4_
 > [!tip]- Audit-trail risk
 > In moderne ERP's verdwijnt soms de papieren audit-trail. De auditor moet zich vergewissen dat de elektronische trail volledig en onaantastbaar is — anders kan hij geen voldoende assurance-informatie ontlenen aan systeem-output. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

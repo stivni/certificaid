@@ -1,8 +1,8 @@
 {
   "id": "nationale-bank-belgie",
   "naam": "Nationale Bank van België (NBB)",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.II",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV moet binnen 30 dagen na de algemene vergadering haar jaarrekening (volledig schema) elektronisch neerleggen bij de NBB-Balanscentrale.",
   "bouwstenen": [
     {
       "titel": "Centrale neerlegging via Balanscentrale",
@@ -138,5 +137,12 @@
       "redenering": "De NBB is de instantie waarbij neergelegd wordt.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV moet binnen 30 dagen na de algemene vergadering haar jaarrekening (volledig schema) elektronisch neerleggen bij de NBB-Balanscentrale."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

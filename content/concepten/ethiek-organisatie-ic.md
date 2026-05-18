@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ethiek-organisatie-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -39,6 +39,9 @@ Ethiek in een onderneming is het geheel van waarden en gedragsregels dat bepaalt
 > [!tip]- Beroepsplichtenleer accountants
 > Voor accountants en bedrijfsrevisoren is ethiek geregeld in het KB van 1 maart 1998 (plichtenleer) — onafhankelijkheid, geheimhouding, professionele zorgvuldigheid. Bij een externe controleopdracht is dit niet 'zacht' maar afdwingbaar. ⚖️
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

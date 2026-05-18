@@ -2,7 +2,7 @@
 title: Monitoring (COSO-component 5)
 tags:
 - concept
-- methode
+- cluster
 - po-1-7
 linked_anchors:
 - 1.7.VIII.F
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/monitoring-interne-controle.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -39,4 +39,7 @@ Monitoring is het continu en periodiek evalueren of het IC-systeem nog werkt zoa
 > [!tip]- Verband met interne audit
 > Interne audit is de meest geformaliseerde vorm van afzonderlijke monitoring — onafhankelijk, gestructureerd, gerapporteerd aan auditcomité. Niet elke onderneming heeft IA — bij KMO's overneemt de zaakvoerder of de externe accountant deze rol gedeeltelijk. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

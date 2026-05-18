@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/wettelijke-controleopdracht-commissaris.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -49,6 +49,9 @@ _Bron: WVV art. 3:72 jo. Wet 7 december 2016 (revisorenwet)_
 ## Zie ook
 
 - **Vereist kennis van**: [[commissaris]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

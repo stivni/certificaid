@@ -1,8 +1,8 @@
 {
   "id": "falen-van-de-onderneming",
   "naam": "Falen van de onderneming (financiële diagnose)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.9.VI.A",
@@ -138,5 +138,6 @@
       "redenering": "Bestuursverslag-risicoparagraaf is bron van management-signalen over toekomstig falen.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

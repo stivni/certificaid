@@ -2,7 +2,7 @@
   "id": "intern-beheersingsrisico",
   "naam": "Intern beheersingsrisico",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.B",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Meubelzaak Mertens BV doet één persoon zowel kasontvangsten, boekhouding als bankreconciliatie — geen functiescheiding. Het intern beheersingsrisico op kasontvangsten is hoog. Sofie Janssens zal extra substantive testing op de kasstromen moeten doen.",
   "in_praktijk": [
     {
       "aspect": "Onmogelijk volledig nul",
@@ -94,5 +93,12 @@
       "target": "toetsing-interne-beheersing",
       "redenering": "Bij lage inschatting verplicht testen."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Meubelzaak Mertens BV doet één persoon zowel kasontvangsten, boekhouding als bankreconciliatie — geen functiescheiding. Het intern beheersingsrisico op kasontvangsten is hoog. Sofie Janssens zal extra substantive testing op de kasstromen moeten doen."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

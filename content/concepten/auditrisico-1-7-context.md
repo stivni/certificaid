@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/auditrisico-1-7-context.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -31,6 +31,9 @@ _Bron: ITAA-norm-kmo-controlenorm Bijlage 1 + §97-§98_
 ## Zie ook
 
 - **Vereist kennis van**: [[toetsing-interne-beheersing]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

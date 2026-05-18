@@ -1,8 +1,8 @@
 {
   "id": "controleoordeel-types",
   "naam": "Types van controleoordeel",
-  "node_type": "afwegingskader",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV",
@@ -144,5 +144,6 @@
       "target": "aangepast-oordeel",
       "redenering": "Drie van de vier types zijn 'aangepaste' oordelen."
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

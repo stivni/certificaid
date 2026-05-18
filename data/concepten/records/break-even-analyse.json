@@ -1,8 +1,8 @@
 {
   "id": "break-even-analyse",
   "naam": "Break-even-analyse",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.D",
@@ -275,5 +275,6 @@
       "redenering": "Break-even is klassieke toepassing van direct costing.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

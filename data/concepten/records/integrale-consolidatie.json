@@ -1,8 +1,8 @@
 {
   "id": "integrale-consolidatie",
   "naam": "Integrale consolidatie",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -819,5 +819,6 @@
       "redenering": "Aandeel van derden wordt apart gepresenteerd bij integrale consolidatie.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

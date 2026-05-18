@@ -1,8 +1,8 @@
 {
   "id": "jaarrekening",
   "naam": "Jaarrekening (synthesedocumenten)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.S",
@@ -45,7 +45,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV (omzet € 1.250.000, balanstotaal € 1.850.000, 18 werknemers) overschrijdt de drempel voor 'kleine vennootschap' op één criterium → moet jaarrekening in **verkort schema** opstellen. Balans + RR + toelichting + (geen sociale balans want < 20 VTE). Indiening bij NBB binnen 30 dagen na goedkeuring AV.",
   "bouwstenen": [
     {
       "titel": "Drie schema's: volledig / verkort / micro",
@@ -242,5 +241,12 @@
       "target": "jaarafsluiting",
       "redenering": "Jaarrekening wordt opgesteld na jaarafsluiting + inventaris."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV (omzet € 1.250.000, balanstotaal € 1.850.000, 18 werknemers) overschrijdt de drempel voor 'kleine vennootschap' op één criterium → moet jaarrekening in **verkort schema** opstellen. Balans + RR + toelichting + (geen sociale balans want < 20 VTE). Indiening bij NBB binnen 30 dagen na goedkeuring AV."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "analytische-boekhouding",
   "naam": "Analytische boekhouding",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.I",
@@ -137,5 +137,6 @@
       "redenering": "Hoe je het MAR (klasse 9) inricht.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

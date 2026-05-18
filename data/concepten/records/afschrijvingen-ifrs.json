@@ -1,8 +1,8 @@
 {
   "id": "afschrijvingen-ifrs",
   "naam": "Afschrijvingen onder IFRS (IAS 16 + IAS 38)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.B",
@@ -339,5 +339,6 @@
       "redenering": "Afschrijvingen zijn onderdeel van IAS 16-waardering.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

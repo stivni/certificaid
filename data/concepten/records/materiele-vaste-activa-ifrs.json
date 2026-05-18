@@ -2,7 +2,7 @@
   "id": "materiele-vaste-activa-ifrs",
   "naam": "Materiële vaste activa onder IFRS (IAS 16)",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.A",
@@ -78,7 +78,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV verwerft een productie-installatie voor € 12.500.000 (aankoopprijs) + € 350.000 transport + € 750.000 installatie + € 200.000 ontmantelingsverplichting (verdisconteerd). Kostprijs IAS 16 = € 13.800.000. De installatie bestaat uit drie componenten met verschillende gebruiksduur: motor (€ 4.000.000, 8 jaar), reactor (€ 7.000.000, 20 jaar), bedieningssoftware (€ 2.800.000, 5 jaar) — elk afzonderlijk afgeschreven volgens IAS 16 alinea 43.",
   "bouwstenen": [
     {
       "titel": "Kostprijsmodel — standaard keuze",
@@ -293,5 +292,12 @@
       "redenering": "Het herwaarderingsmodel is een bouwsteen die als apart concept verder uitgewerkt is.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV verwerft een productie-installatie voor € 12.500.000 (aankoopprijs) + € 350.000 transport + € 750.000 installatie + € 200.000 ontmantelingsverplichting (verdisconteerd). Kostprijs IAS 16 = € 13.800.000. De installatie bestaat uit drie componenten met verschillende gebruiksduur: motor (€ 4.000.000, 8 jaar), reactor (€ 7.000.000, 20 jaar), bedieningssoftware (€ 2.800.000, 5 jaar) — elk afzonderlijk afgeschreven volgens IAS 16 alinea 43."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

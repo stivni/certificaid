@@ -1,8 +1,8 @@
 {
   "id": "verspilling",
   "naam": "Verspilling (rationeel gebruik van middelen)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VI.C",
@@ -25,7 +25,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV staat een productiemachine 30% van de tijd stil door slechte planning. Geen fraude, geen fout in de boekhouding — maar significant verspild kapitaal en arbeid. Een IC-evaluatie door Sofie Janssens (interne auditor) kan dit signaleren via capaciteitsanalyse en operatie-KPI's. Aanbeveling: planningsmodule in ERP, betere productieplanning.",
   "in_praktijk": [
     {
       "aspect": "Typische bronnen van verspilling",
@@ -55,5 +54,12 @@
       "target": "managementcontrole",
       "redenering": "Verspilling-detectie ligt op snijpunt van IC en managementcontrole."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV staat een productiemachine 30% van de tijd stil door slechte planning. Geen fraude, geen fout in de boekhouding — maar significant verspild kapitaal en arbeid. Een IC-evaluatie door Sofie Janssens (interne auditor) kan dit signaleren via capaciteitsanalyse en operatie-KPI's. Aanbeveling: planningsmodule in ERP, betere productieplanning."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

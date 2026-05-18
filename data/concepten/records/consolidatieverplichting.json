@@ -2,7 +2,7 @@
   "id": "consolidatieverplichting",
   "naam": "Consolidatieverplichting",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -109,7 +109,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV controleert Brugse Brouwerij BV (90 %) en Bouwwerf Beerse BV (70 %); samen 380 personeelsleden, 50 mln EUR omzet, 35 mln EUR balans → drempels overschreden → Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken, laten controleren en neerleggen bij de NBB.",
   "uitzonderingen": [
     {
       "text": "Vrijstelling 'groep van beperkte omvang' — als de groep van Aurelia Holding NV (moeder + dochters samen, op geconsolideerde of geaggregeerde basis) niet meer dan één van de criteria van WVV art. 1:26, § 1 overschrijdt, vervalt de consolidatieplicht.",
@@ -387,5 +386,12 @@
       "redenering": "De plicht ontstaat door controle — zonder controle geen moeder, zonder moeder geen plicht.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV controleert Brugse Brouwerij BV (90 %) en Bouwwerf Beerse BV (70 %); samen 380 personeelsleden, 50 mln EUR omzet, 35 mln EUR balans → drempels overschreden → Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken, laten controleren en neerleggen bij de NBB."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

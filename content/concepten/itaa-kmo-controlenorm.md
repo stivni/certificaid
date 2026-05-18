@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/itaa-kmo-controlenorm.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -55,6 +55,9 @@ _Grondslag: ITAA KMO-controlenorm Bijlage 1_
 
 - Geldt voor: contractuele controle- en beoordelingsopdrachten (assurance), én voor gedeelde wettelijk voorbehouden opdrachten — voor zover er geen specifieke bijzondere norm bestaat en er geen commissaris is. ⚖️
 - Geldt NIET voor: wettelijke controleopdrachten van de commissaris (art. 16/1 W. Venn. / WVV art. 3:72), niet voor opdrachten exclusief voorbehouden aan de bedrijfsrevisor, en niet voor opdrachten op andere dan historische financiële informatie. ⚖️
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+
 ## Bronnen
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae`

@@ -11,7 +11,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/statisch-budget.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -32,4 +32,7 @@ _Bron: Management accounting — bron-gap_
 >
 > _Trigger_: Vraag op afwijkingsanalyse: gebruik flexibel budget om volume-effect af te splitsen.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

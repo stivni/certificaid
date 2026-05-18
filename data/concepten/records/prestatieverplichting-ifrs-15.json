@@ -2,7 +2,7 @@
   "id": "prestatieverplichting-ifrs-15",
   "naam": "Prestatieverplichting (performance obligation) onder IFRS 15",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.D",
@@ -56,7 +56,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV verkoopt aan een ziekenhuis (Brusselse Klinieken) een productie-installatie + 24 maanden onderhoud + 3 trainingssessies, totaalprijs € 850.000. Drie PO's identificeerbaar: (1) installatie (overgedragen op tijdstip, opzichzelfstaande prijs € 720.000); (2) onderhoud (over periode, opzichzelfstaande prijs € 100.000); (3) trainingssessies (op drie tijdstippen, opzichzelfstaande prijs € 30.000). Toewijzing transactieprijs: 720/850 × € 850.000 = € 720.000, etc.",
   "bouwstenen": [
     {
       "titel": "Onderscheiden — twee voorwaarden",
@@ -204,5 +203,12 @@
       "redenering": "Prestatieverplichting is stap 2 van het 5-stappen-model van IFRS 15.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV verkoopt aan een ziekenhuis (Brusselse Klinieken) een productie-installatie + 24 maanden onderhoud + 3 trainingssessies, totaalprijs € 850.000. Drie PO's identificeerbaar: (1) installatie (overgedragen op tijdstip, opzichzelfstaande prijs € 720.000); (2) onderhoud (over periode, opzichzelfstaande prijs € 100.000); (3) trainingssessies (op drie tijdstippen, opzichzelfstaande prijs € 30.000). Toewijzing transactieprijs: 720/850 × € 850.000 = € 720.000, etc."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

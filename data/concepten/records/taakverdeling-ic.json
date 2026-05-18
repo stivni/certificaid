@@ -2,7 +2,7 @@
   "id": "taakverdeling-ic",
   "naam": "Taakverdeling binnen interne controle",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VIII.B",
@@ -24,7 +24,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV documenteert HR per functie: taken (5-10 bullets), verantwoordelijkheden (autoriseren wat tot welk bedrag), rapporteringslijn, vereiste competenties. Bij personeelswissel: nieuwe medewerker leest functiebeschrijving en weet exact wat van hem verwacht wordt — minder gat in IC tijdens overdracht.",
   "in_praktijk": [
     {
       "aspect": "Drie instrumenten",
@@ -41,5 +40,12 @@
       "target": "functiescheiding",
       "redenering": "Functiescheiding is het belangrijkste principe achter taakverdeling."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV documenteert HR per functie: taken (5-10 bullets), verantwoordelijkheden (autoriseren wat tot welk bedrag), rapporteringslijn, vereiste competenties. Bij personeelswissel: nieuwe medewerker leest functiebeschrijving en weet exact wat van hem verwacht wordt — minder gat in IC tijdens overdracht."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

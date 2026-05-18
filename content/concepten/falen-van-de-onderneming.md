@@ -2,7 +2,7 @@
 title: Falen van de onderneming (financiële diagnose)
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-9
 linked_anchors:
 - 1.9.VI.A
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.9'
 confidence: inferred
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/falen-van-de-onderneming.json
 gegenereerd_op: '2026-05-18'
 ---

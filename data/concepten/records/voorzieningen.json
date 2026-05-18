@@ -1,8 +1,8 @@
 {
   "id": "voorzieningen",
   "naam": "Voorzieningen voor risico's en kosten",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.I",
@@ -50,7 +50,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Uitgeverij Ukkel NV heeft op 31/12 een lopend rechtsgeding waar een schadevergoeding van € 75.000 dreigt; juridisch advies wijst op verlies-waarschijnlijkheid > 50 %. Voorziening voor andere risico's en kosten van € 75.000 wordt geboekt: Debet 6371 Voorzieningen voor andere risico's en kosten — toevoeging € 75.000 / Credit 163 Voorzieningen voor overige risico's en kosten € 75.000.",
   "bouwstenen": [
     {
       "titel": "Drie criteria voor een voorziening",
@@ -243,5 +242,12 @@
       "target": "voorzichtigheidsbeginsel",
       "redenering": "Voorziening is voorzichtigheid: kosten/risico's al boeken bij waarschijnlijkheid."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Uitgeverij Ukkel NV heeft op 31/12 een lopend rechtsgeding waar een schadevergoeding van € 75.000 dreigt; juridisch advies wijst op verlies-waarschijnlijkheid > 50 %. Voorziening voor andere risico's en kosten van € 75.000 wordt geboekt: Debet 6371 Voorzieningen voor andere risico's en kosten — toevoeging € 75.000 / Credit 163 Voorzieningen voor overige risico's en kosten € 75.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

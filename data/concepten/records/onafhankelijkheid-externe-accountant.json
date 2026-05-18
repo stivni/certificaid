@@ -1,8 +1,8 @@
 {
   "id": "onafhankelijkheid-externe-accountant",
   "naam": "Onafhankelijkheid van de externe accountant",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.B",
@@ -36,7 +36,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens treedt op als externe accountant van Meubelzaak Mertens BV. Halverwege het boekjaar stelt de zaakvoerder haar voor als bestuurder van een dochteronderneming. Conform KB plichtenleer art. 9 moet zij dit weigeren of de controleopdracht teruggeven — anders verliest zij haar onafhankelijkheid.",
   "voorwaarden": [
     {
       "text": "Geen functie van bestuurder of zaakvoerder uitgeoefend in de gecontroleerde onderneming of een verbonden onderneming in de laatste 2 jaar (cooling-off-periode).",
@@ -142,5 +141,12 @@
       "target": "plichtenleer-accountant",
       "redenering": "Eén van de pijlers van de deontologie."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens treedt op als externe accountant van Meubelzaak Mertens BV. Halverwege het boekjaar stelt de zaakvoerder haar voor als bestuurder van een dochteronderneming. Conform KB plichtenleer art. 9 moet zij dit weigeren of de controleopdracht teruggeven — anders verliest zij haar onafhankelijkheid."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

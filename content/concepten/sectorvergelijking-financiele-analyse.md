@@ -2,7 +2,7 @@
 title: Sectorvergelijking (benchmarking)
 tags:
 - concept
-- methode
+- cluster
 - po-1-3
 - po-1-9
 linked_anchors:
@@ -15,9 +15,9 @@ programmaonderdelen:
 - '1.3'
 - '1.9'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/sectorvergelijking-financiele-analyse.json
 gegenereerd_op: '2026-05-18'
 ---

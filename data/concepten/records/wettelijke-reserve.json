@@ -2,7 +2,7 @@
   "id": "wettelijke-reserve",
   "naam": "Wettelijke reserve",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.H",
@@ -40,7 +40,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV heeft kapitaal/eigen vermogensinbreng € 50.000 → wettelijk minimum wettelijke reserve = 10 % × € 50.000 = € 5.000. Wettelijke reserve op 1/1 = € 3.500. Winst 20X1 = € 42.000. Verplichte afhouding = 5 % × € 42.000 = € 2.100. Boeking: Debet 6921 Toevoeging aan wettelijke reserve € 2.100 / Credit 130 Wettelijke reserve € 2.100. Saldo eind 20X1: € 5.600 — boven minimum, dus volgend jaar geen verplichte afhouding meer.",
   "drempelwaarden": [
     {
       "naam": "Verplichte afhouding van de nettowinst",
@@ -336,5 +335,12 @@
       "target": "resultaatverwerking",
       "redenering": "Toevoeging aan wettelijke reserve gebeurt bij winstbestemming."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV heeft kapitaal/eigen vermogensinbreng € 50.000 → wettelijk minimum wettelijke reserve = 10 % × € 50.000 = € 5.000. Wettelijke reserve op 1/1 = € 3.500. Winst 20X1 = € 42.000. Verplichte afhouding = 5 % × € 42.000 = € 2.100. Boeking: Debet 6921 Toevoeging aan wettelijke reserve € 2.100 / Credit 130 Wettelijke reserve € 2.100. Saldo eind 20X1: € 5.600 — boven minimum, dus volgend jaar geen verplichte afhouding meer."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

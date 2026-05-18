@@ -1,8 +1,8 @@
 {
   "id": "functiescheiding",
   "naam": "Functiescheiding (segregation of duties)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VII",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV is een aankoop verdeeld over vier personen: (1) inkoper Anna autoriseert de bestelling, (2) magazijnier Bart neemt goederen in ontvangst, (3) boekhouder Cindy registreert de factuur, (4) financieel verantwoordelijke David tekent de betaling. Als één van hen iets verdraait, ontdekt iemand anders het in zijn kruiscontrole. Fraude vereist samenspanning van minstens twee — exponentieel moeilijker.",
   "bouwstenen": [
     {
       "titel": "Vier kritische functies",
@@ -114,5 +113,12 @@
       "target": "vier-functies-segregatie",
       "redenering": "Vier-functies-model is de operationele uitwerking van functiescheiding."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV is een aankoop verdeeld over vier personen: (1) inkoper Anna autoriseert de bestelling, (2) magazijnier Bart neemt goederen in ontvangst, (3) boekhouder Cindy registreert de factuur, (4) financieel verantwoordelijke David tekent de betaling. Als één van hen iets verdraait, ontdekt iemand anders het in zijn kruiscontrole. Fraude vereist samenspanning van minstens twee — exponentieel moeilijker."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

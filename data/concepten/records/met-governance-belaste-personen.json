@@ -1,8 +1,8 @@
 {
   "id": "met-governance-belaste-personen",
   "naam": "Met governance belaste personen",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.III.E",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV: de bestuurders Marleen De Cock, Pieter Vermeulen en Robert Vandenberghe samen vormen 'de met governance belaste personen'. Bij Meubelzaak Mertens BV (eenpersoons-BV): de zaakvoerder is tegelijk eigenaar-bestuurder.",
   "in_praktijk": [
     {
       "aspect": "Onderscheid 'management' vs. 'governance'",
@@ -79,5 +78,12 @@
       "target": "communicatie-met-management-governance",
       "redenering": "Communicatie is een verplichte interactie."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV: de bestuurders Marleen De Cock, Pieter Vermeulen en Robert Vandenberghe samen vormen 'de met governance belaste personen'. Bij Meubelzaak Mertens BV (eenpersoons-BV): de zaakvoerder is tegelijk eigenaar-bestuurder."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/evaluatie-interne-controle.json
 gegenereerd_op: '2026-05-18'
 ---

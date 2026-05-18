@@ -2,7 +2,7 @@
   "id": "immateriele-vaste-activa",
   "naam": "Immateriële vaste activa",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.B"
@@ -46,7 +46,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV koopt het exclusieve licentierecht op een patroontekening voor € 35.000 voor 7 jaar. Boeking: Debet 211 Concessies/licenties € 35.000 / Credit 440 Leveranciers € 35.000. Afschrijving over 7 jaar = € 5.000/jaar. Op balans rubriek II 'Immateriële vaste activa': aanschaffingswaarde € 35.000 − afschrijvingen.",
   "bouwstenen": [
     {
       "titel": "Kosten van onderzoek en ontwikkeling (rekening 210)",
@@ -196,5 +195,12 @@
       "target": "oprichtingskosten",
       "redenering": "Beide bovenaan in klasse 2; verschillende aard en afschrijfregime."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV koopt het exclusieve licentierecht op een patroontekening voor € 35.000 voor 7 jaar. Boeking: Debet 211 Concessies/licenties € 35.000 / Credit 440 Leveranciers € 35.000. Afschrijving over 7 jaar = € 5.000/jaar. Op balans rubriek II 'Immateriële vaste activa': aanschaffingswaarde € 35.000 − afschrijvingen."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

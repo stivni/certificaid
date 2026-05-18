@@ -1,8 +1,8 @@
 {
   "id": "oprichtingskosten",
   "naam": "Oprichtingskosten",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.A",
@@ -64,7 +64,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Oprichtingen Oostende BV wordt opgericht met notariskosten € 3.200, advieskosten € 1.800, registratierechten € 600 → totaal € 5.600 oprichtingskosten. De BV kiest om te activeren op rekening 200 'Kosten van oprichting en kapitaalverhoging' aan de actiefzijde. Afschrijvingsplan: 20 % per jaar = € 1.120/jaar gedurende 5 jaar. Eerste jaar: Debet 6300 Afschrijvingen oprichtingskosten € 1.120 / Credit 2009 Afschrijvingen op oprichtingskosten € 1.120.",
   "bouwstenen": [
     {
       "titel": "Keuze: kost of activeren",
@@ -377,5 +376,12 @@
       "target": "obligatielening",
       "redenering": "Uitgifte van een obligatielening genereert uitgiftekosten die onder rubriek 201 vallen."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Oprichtingen Oostende BV wordt opgericht met notariskosten € 3.200, advieskosten € 1.800, registratierechten € 600 → totaal € 5.600 oprichtingskosten. De BV kiest om te activeren op rekening 200 'Kosten van oprichting en kapitaalverhoging' aan de actiefzijde. Afschrijvingsplan: 20 % per jaar = € 1.120/jaar gedurende 5 jaar. Eerste jaar: Debet 6300 Afschrijvingen oprichtingskosten € 1.120 / Credit 2009 Afschrijvingen op oprichtingskosten € 1.120."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

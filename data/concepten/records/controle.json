@@ -2,7 +2,7 @@
   "id": "controle",
   "naam": "Controle",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -112,7 +112,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → onweerlegbaar controle in rechte → Brugse is dochter van Aurelia, Aurelia is consolidatieplichtig.",
   "bouwstenen": [
     {
       "titel": "Controle in rechte",
@@ -352,5 +351,12 @@
       "redenering": "Gezamenlijke controle is de andere soort controle: een beperkt aantal vennoten samen, op basis van een overeenkomst dat beleidsbeslissingen alleen gemeenschappelijk worden genomen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → onweerlegbaar controle in rechte → Brugse is dochter van Aurelia, Aurelia is consolidatieplichtig."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

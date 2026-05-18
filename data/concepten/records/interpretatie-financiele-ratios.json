@@ -1,8 +1,8 @@
 {
   "id": "interpretatie-financiele-ratios",
   "naam": "Interpretatie en evaluatie van financiële ratio's (bekwaamheid)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.9.V.E",
@@ -170,5 +170,6 @@
       "redenering": "Diagnose-uitkomst is de toepassing van triangulair lezen.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

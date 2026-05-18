@@ -2,7 +2,7 @@
   "id": "jaarrekening-schema",
   "naam": "Jaarrekening-schema (volledig, verkort, micro)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.C",
@@ -55,7 +55,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV (grote) → volledig schema. Meubelzaak Mertens BV (klein) → verkort schema. Oprichtingen Oostende BV (micro, geen dochter) → microschema.",
   "bouwstenen": [
     {
       "titel": "Volledig schema (bijlage 1)",
@@ -195,5 +194,12 @@
       "redenering": "De schema's staan in de bijlagen van het KB-WVV.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV (grote) → volledig schema. Meubelzaak Mertens BV (klein) → verkort schema. Oprichtingen Oostende BV (micro, geen dochter) → microschema."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
 title: Ohlson O-score (faillissement-predictiemodel via logit)
 tags:
 - concept
-- methode
+- cluster
 - po-1-9
 linked_anchors:
 - 1.9.VI.B
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.9'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ohlson-o-score.json
 gegenereerd_op: '2026-05-18'
 ---

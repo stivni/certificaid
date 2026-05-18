@@ -1,8 +1,8 @@
 {
   "id": "interne-audit",
   "naam": "Interne audit",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.I.D",
@@ -31,7 +31,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor. Ze rapporteert aan het auditcomité van de raad van bestuur. In 2026 voert ze een review uit van de aankoopcyclus: ze test of de procedure 'drie handtekeningen + leverancier-due-diligence' systematisch wordt nageleefd. Ze rapporteert haar bevindingen aan het auditcomité, niet aan de aankoopdirecteur.",
   "in_praktijk": [
     {
       "aspect": "Vier kerntaken interne auditor",
@@ -108,5 +107,12 @@
       "target": "auditcomite",
       "redenering": "Interne audit rapporteert idealiter aan het auditcomité voor maximale onafhankelijkheid."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor. Ze rapporteert aan het auditcomité van de raad van bestuur. In 2026 voert ze een review uit van de aankoopcyclus: ze test of de procedure 'drie handtekeningen + leverancier-due-diligence' systematisch wordt nageleefd. Ze rapporteert haar bevindingen aan het auditcomité, niet aan de aankoopdirecteur."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "geconsolideerde-jaarrekening",
   "naam": "Geconsolideerde jaarrekening",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.F",
@@ -152,7 +152,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV stelt op 31 december 20X1 één geconsolideerde jaarrekening op die de cijfers van Aurelia + Brugse Brouwerij BV (80 %) + Bouwwerf Beerse BV (100 %) samenvoegt — alsof alledrie samen één bedrijf zijn. Onderlinge vorderingen tussen Aurelia en Brugse verdwijnen; 20 % van het eigen vermogen van Brugse staat apart als belangen van derden.",
   "bouwstenen": [
     {
       "titel": "Eén economische entiteit",
@@ -465,5 +464,12 @@
       "redenering": "Belangen van derden (minderheidsbelangen) worden expliciet apart vermeld in balans en resultatenrekening van de geconsolideerde jaarrekening (KB WVV art. 3:107).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV stelt op 31 december 20X1 één geconsolideerde jaarrekening op die de cijfers van Aurelia + Brugse Brouwerij BV (80 %) + Bouwwerf Beerse BV (100 %) samenvoegt — alsof alledrie samen één bedrijf zijn. Onderlinge vorderingen tussen Aurelia en Brugse verdwijnen; 20 % van het eigen vermogen van Brugse staat apart als belangen van derden."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

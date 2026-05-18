@@ -2,7 +2,7 @@
   "id": "statisch-budget",
   "naam": "Statisch budget",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.VI.B"
@@ -26,7 +26,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV statisch budget Confectie 20X2: 7.500 tapijten, totaal € 950.000. Aan jaareinde wordt dit niet aangepast aan het werkelijke productievolume (9.000 stuks) — dat zou een flexibel budget zijn.",
   "vergelijkingsparen": [
     {
       "vergelijking_met": "flexibel-budget",
@@ -51,5 +50,12 @@
       "redenering": "Standaardvorm van budget.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV statisch budget Confectie 20X2: 7.500 tapijten, totaal € 950.000. Aan jaareinde wordt dit niet aangepast aan het werkelijke productievolume (9.000 stuks) — dat zou een flexibel budget zijn."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

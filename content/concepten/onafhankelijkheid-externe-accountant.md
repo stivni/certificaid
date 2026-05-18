@@ -2,7 +2,7 @@
 title: Onafhankelijkheid van de externe accountant
 tags:
 - concept
-- beginsel
+- regel
 - po-1-6
 linked_anchors:
 - 1.6.I.B
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: beginsel
+node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/onafhankelijkheid-externe-accountant.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -52,6 +52,9 @@ _Bron: KB plichtenleer art. 9_
 ## Zie ook
 
 - **Vereist kennis van**: [[belangenconflict-accountant]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

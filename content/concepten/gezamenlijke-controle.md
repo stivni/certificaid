@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/gezamenlijke-controle.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -69,6 +69,9 @@ _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
 
 - **Getriggerd door**: [[gemeenschappelijke-dochteronderneming]]
 - **Getriggerd door**: [[evenredige-consolidatie]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

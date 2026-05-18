@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/avg-interne-controle.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -51,6 +51,9 @@ _Bron: AVG art. 32 + Wet 30 juli 2018 art. 239_
 ## Zie ook
 
 - **Vereist kennis van**: [[geinformatiseerde-omgeving-ic]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

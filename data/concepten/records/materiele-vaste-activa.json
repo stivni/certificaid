@@ -2,7 +2,7 @@
   "id": "materiele-vaste-activa",
   "naam": "Materiële vaste activa",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.B",
@@ -49,7 +49,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV bezit: terrein € 320.000 (rubriek 220), gebouw € 480.000 (221), snij-installaties € 145.000 (230), machines en gereedschap € 218.000 (231), kantoormeubilair € 22.000 (240) en bedrijfswagens € 65.000 (242). Totaal bruto-aanschaffingswaarde € 1.250.000; netto-boekwaarde na cumul. afschrijvingen € 815.000 op de balans onder rubriek III 'Materiële vaste activa'.",
   "bouwstenen": [
     {
       "titel": "Terreinen en gebouwen (rubriek 22)",
@@ -199,5 +198,12 @@
       "target": "leasing",
       "redenering": "Geleasde activa onder rubriek 25 vergen onderscheid financiële vs operationele leasing."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV bezit: terrein € 320.000 (rubriek 220), gebouw € 480.000 (221), snij-installaties € 145.000 (230), machines en gereedschap € 218.000 (231), kantoormeubilair € 22.000 (240) en bedrijfswagens € 65.000 (242). Totaal bruto-aanschaffingswaarde € 1.250.000; netto-boekwaarde na cumul. afschrijvingen € 815.000 op de balans onder rubriek III 'Materiële vaste activa'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

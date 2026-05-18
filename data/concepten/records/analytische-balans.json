@@ -1,8 +1,8 @@
 {
   "id": "analytische-balans",
   "naam": "Analytische balans (herstructureringsschema)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.C",
@@ -159,5 +159,6 @@
       "redenering": "Evolutie wordt op de geherstructureerde reeks gevolgd.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

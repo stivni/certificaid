@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/belangenconflict-accountant.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -40,6 +40,9 @@ _Bron: KB plichtenleer art. 11_
 > [!tip]- Geldt voor vennoten en medewerkers
 > Het belangenconflict van een vennoot of vaste medewerker besmet de hele accountantsvennootschap. Toets dus altijd ook de positie van vennoten en medewerkers, niet alleen die van de opdrachtpartner. ⚖️
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -2,7 +2,7 @@
 title: Rentabiliteit van het totaal der activa (ROA)
 tags:
 - concept
-- methode
+- cluster
 - po-1-3
 - po-1-9
 linked_anchors:
@@ -16,9 +16,9 @@ programmaonderdelen:
 - '1.3'
 - '1.9'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/rentabiliteit-totaal-activa-roa.json
 gegenereerd_op: '2026-05-18'
 ---

@@ -2,7 +2,7 @@
 title: Eenvoudige integratie (registratiesysteem)
 tags:
 - concept
-- methode
+- cluster
 - po-1-8
 linked_anchors:
 - 1.8.IV.C
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.8'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/registratiesysteem-eenvoudige-integratie.json
 gegenereerd_op: '2026-05-18'
 ---

@@ -1,8 +1,8 @@
 {
   "id": "sectorvergelijking-financiele-analyse",
   "naam": "Sectorvergelijking (benchmarking)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.3.II.A",
@@ -130,5 +130,6 @@
       "redenering": "Sector + historiek samen geven context.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

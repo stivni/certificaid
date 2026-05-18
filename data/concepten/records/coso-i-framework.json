@@ -1,8 +1,8 @@
 {
   "id": "coso-i-framework",
   "naam": "COSO I — Internal Control Integrated Framework",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.D",
@@ -25,7 +25,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV gebruikt het auditcomité COSO 2013 als referentie voor self-assessment: jaarlijks scoort elke afdeling de 17 principes (volledig / deels / niet aanwezig). Resultaat: gap-analyse en actieplan voor 2026.",
   "bouwstenen": [
     {
       "titel": "Drie doelstellingen × vijf componenten × drie niveaus",
@@ -64,5 +63,12 @@
       "target": "interne-controle",
       "redenering": "COSO concretiseert het abstracte IC-begrip."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV gebruikt het auditcomité COSO 2013 als referentie voor self-assessment: jaarlijks scoort elke afdeling de 17 principes (volledig / deels / niet aanwezig). Resultaat: gap-analyse en actieplan voor 2026."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

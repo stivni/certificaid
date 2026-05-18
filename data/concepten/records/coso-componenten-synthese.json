@@ -2,7 +2,7 @@
   "id": "coso-componenten-synthese",
   "naam": "COSO-componenten — synthese-overzicht",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.III",
@@ -39,5 +39,11 @@
   ],
   "vergelijkingstabel": "| Component | Wat | Kern-vraag | Voorbeeld bij Yperse Werkplaats BV |\n|---|---|---|---|\n| 1. Controle-omgeving | Cultuur, integriteit, tone at the top | Wat is de fundamentele houding tegenover regels en risico's? | Gedragscode + voorbeeldgedrag directeur Pieter Vermeulen |\n| 2. Risico-inschatting | Identificatie + analyse risico's | Wat kan fout gaan? | Risicomatrix uitgewerkt door Xenon Expertise BV |\n| 3. Beheersactiviteiten | Procedures, controles | Welke maatregelen tegen welk risico? | Dubbele handtekening op betalingen > € 25.000 |\n| 4. Informatie & communicatie | Relevante info bij juiste mensen | Welke info, naar wie, wanneer? | Maandelijks KPI-dashboard + wekelijkse productiemeeting |\n| 5. Monitoring | Continu + periodiek IC opvolgen | Werkt het systeem nog? | Maandelijkse review CFO + jaarlijkse IA-review |",
   "beslisboom": "Bij elke IC-vraag, doorloop de vijf componenten:\n1. **Cultuur OK?** (omgeving) → Zo nee: training, sancties, voorbeeldgedrag herzien.\n2. **Risico's geïdentificeerd?** (inschatting) → Zo nee: risicomatrix opmaken.\n3. **Controles aanwezig per risico?** (activiteiten) → Zo nee: ontwerpen, functiescheiding toepassen.\n4. **Info bereikt juiste mensen?** (info & com) → Zo nee: rapportering aanpassen.\n5. **Wordt systeem opgevolgd?** (monitoring) → Zo nee: KPI's + interne audit installeren.",
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV: alle vijf componenten zijn nodig — als één wegvalt, valt het hele systeem. Sterke procedures (3) zonder cultuur (1) worden genegeerd; sterke cultuur zonder controles werkt op vertrouwen alleen — niet schaalbaar."
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV: alle vijf componenten zijn nodig — als één wegvalt, valt het hele systeem. Sterke procedures (3) zonder cultuur (1) worden genegeerd; sterke cultuur zonder controles werkt op vertrouwen alleen — niet schaalbaar."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

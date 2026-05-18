@@ -2,7 +2,7 @@
   "id": "verdeelsleutel",
   "naam": "Verdeelsleutel",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.IV.A",
@@ -33,7 +33,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV verdeelt de jaarhuur van € 240.000 over de drie productie-afdelingen volgens vloeroppervlakte: Spinnerij 1.500 m² (37,5 %), Weverij 1.800 m² (45 %), Confectie 700 m² (17,5 %). Spinnerij krijgt € 90.000, Weverij € 108.000, Confectie € 42.000.",
   "bouwstenen": [
     {
       "titel": "Klassieke sleutels",
@@ -79,5 +78,12 @@
       "redenering": "ABC vervangt één sleutel door meerdere cost drivers.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV verdeelt de jaarhuur van € 240.000 over de drie productie-afdelingen volgens vloeroppervlakte: Spinnerij 1.500 m² (37,5 %), Weverij 1.800 m² (45 %), Confectie 700 m² (17,5 %). Spinnerij krijgt € 90.000, Weverij € 108.000, Confectie € 42.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

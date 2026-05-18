@@ -2,7 +2,7 @@
 title: Cyberrisico in IC-context
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-7
 linked_anchors:
 - 1.7.X.A
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: inferred
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/cyberrisico-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -48,4 +48,7 @@ Cyberrisico is het risico van financiële, operationele of reputationele schade 
 ## Zie ook
 
 - **Vereist kennis van**: [[avg-interne-controle]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

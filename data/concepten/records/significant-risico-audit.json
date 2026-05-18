@@ -2,7 +2,7 @@
   "id": "significant-risico-audit",
   "naam": "Significant risico (audit)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.B",
@@ -39,7 +39,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV markeert Sofie Janssens de waardering van een grote impairment-test (€ 4.500.000 goodwill) als significant risico: hoge schattingsonzekerheid + management-bias mogelijk. Gevolg: uitgebreide substantive procedures + onafhankelijke valuator + extra dossierdiepte.",
   "in_praktijk": [
     {
       "aspect": "Klassieke significante risico's",
@@ -66,5 +65,12 @@
       "target": "risico-inschatting-audit",
       "redenering": "Uitkomst van de risico-inschatting."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV markeert Sofie Janssens de waardering van een grote impairment-test (€ 4.500.000 goodwill) als significant risico: hoge schattingsonzekerheid + management-bias mogelijk. Gevolg: uitgebreide substantive procedures + onafhankelijke valuator + extra dossierdiepte."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
 title: Instituut van de Bedrijfsrevisoren (IBR)
 tags:
 - concept
-- actor
+- autoriteit
 - po-1-2
 linked_anchors:
 - 1.2.II
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.2'
 confidence: grounded
-node_type: actor
+node_type: autoriteit
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ibr.json
 gegenereerd_op: '2026-05-18'
 ---

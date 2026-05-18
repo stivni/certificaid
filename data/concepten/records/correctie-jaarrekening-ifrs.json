@@ -2,7 +2,7 @@
   "id": "correctie-jaarrekening-ifrs",
   "naam": "Correctie van de jaarrekening — IAS 8 versus CBN 2020/12",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.IV.C",
@@ -251,5 +251,6 @@
       "redenering": "Retroactieve correctie raakt het beginsaldo ingehouden winsten — apart getoond in mutatieoverzicht.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

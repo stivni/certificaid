@@ -1,8 +1,8 @@
 {
   "id": "eigen-middelen",
   "naam": "Eigen middelen (eigen vermogen)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.H",
@@ -46,7 +46,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV per 31/12: kapitaal € 50.000 (rubriek 100), uitgiftepremie € 20.000 (rubriek 11), wettelijke reserve € 5.000 (rubriek 130), beschikbare reserves € 80.000 (rubriek 133), overgedragen winst € 145.000 (rubriek 140). Totaal eigen middelen = € 300.000. Op de passiefzijde rubriek I-VI.",
   "bouwstenen": [
     {
       "titel": "Kapitaal en eigen vermogensinbreng (rubriek 10)",
@@ -230,5 +229,12 @@
       "target": "alarmprocedure",
       "redenering": "Een te laag eigen vermogen activeert alarmprocedure WVV."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV per 31/12: kapitaal € 50.000 (rubriek 100), uitgiftepremie € 20.000 (rubriek 11), wettelijke reserve € 5.000 (rubriek 130), beschikbare reserves € 80.000 (rubriek 133), overgedragen winst € 145.000 (rubriek 140). Totaal eigen middelen = € 300.000. Op de passiefzijde rubriek I-VI."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

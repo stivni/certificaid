@@ -2,7 +2,7 @@
   "id": "controleverslag-elementen",
   "naam": "Elementen van het controleverslag (revisieverslag)",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV.C",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Het controleverslag van Sofie Janssens over Rotex Roeselare NV bevat: titel ('Controleverslag van de externe accountant'), geadresseerde (de algemene vergadering), identificatie jaarrekening 2025, beschrijving van de opdracht uit de opdrachtbrief, paragraaf 'Verantwoordelijkheid van het management', paragraaf 'Verantwoordelijkheid van de accountant', oordeelsparagraaf, paragraaf ter benadrukking (continuïteit), datum, plaats van ondertekening, handtekening en hoedanigheid.",
   "stappen": [
     {
       "nr": 1,
@@ -102,5 +101,12 @@
       "target": "paragraaf-ter-benadrukking",
       "redenering": "Standaardparagraaf voor relevante aangelegenheden."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Het controleverslag van Sofie Janssens over Rotex Roeselare NV bevat: titel ('Controleverslag van de externe accountant'), geadresseerde (de algemene vergadering), identificatie jaarrekening 2025, beschrijving van de opdracht uit de opdrachtbrief, paragraaf 'Verantwoordelijkheid van het management', paragraaf 'Verantwoordelijkheid van de accountant', oordeelsparagraaf, paragraaf ter benadrukking (continuïteit), datum, plaats van ondertekening, handtekening en hoedanigheid."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/taakverdeling-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -35,4 +35,7 @@ Taakverdeling is het bewust opdelen van werk over verschillende personen zodat (
 ## Zie ook
 
 - **Vereist kennis van**: [[functiescheiding]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

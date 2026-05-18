@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/controle-omgeving.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -39,4 +39,7 @@ De controle-omgeving is het geheel van waarden, integriteit, ethiek en cultuur d
 ## Zie ook
 
 - **Vereist kennis van**: [[ethiek-organisatie-ic]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

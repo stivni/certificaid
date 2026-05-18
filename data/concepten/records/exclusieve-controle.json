@@ -2,7 +2,7 @@
   "id": "exclusieve-controle",
   "naam": "Exclusieve controle",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -108,7 +108,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV bezit 80 % van de stemrechten in Brugse Brouwerij BV. → onweerlegbaar exclusieve controle in rechte (WVV art. 1:14, § 2) → integrale consolidatie van Brugse in de geconsolideerde jaarrekening van Aurelia.",
   "in_praktijk": [
     {
       "aspect": "Gevolg voor consolidatiemethode",
@@ -383,5 +382,12 @@
       "redenering": "Exclusieve controle is de trigger voor integrale consolidatie (KB WVV art. 3:124, 1°).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV bezit 80 % van de stemrechten in Brugse Brouwerij BV. → onweerlegbaar exclusieve controle in rechte (WVV art. 1:14, § 2) → integrale consolidatie van Brugse in de geconsolideerde jaarrekening van Aurelia."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

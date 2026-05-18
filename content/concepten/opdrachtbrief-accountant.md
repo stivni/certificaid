@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/opdrachtbrief-accountant.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -99,6 +99,9 @@ Splits standaardwerk (forfait) van bijkomend werk (uurtarief); zo geen discussie
 
 - **Vereist kennis van**: [[beroepsaansprakelijkheid-accountant]]
 - **Vereist kennis van**: [[antiwitwas-meldingsplicht]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

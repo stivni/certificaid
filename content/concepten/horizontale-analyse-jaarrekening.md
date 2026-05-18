@@ -2,7 +2,7 @@
 title: Horizontale analyse (evolutie-analyse)
 tags:
 - concept
-- methode
+- cluster
 - po-1-3
 - po-1-9
 linked_anchors:
@@ -17,11 +17,11 @@ programmaonderdelen:
 - '1.3'
 - '1.9'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/horizontale-analyse-jaarrekening.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Horizontale analyse (evolutie-analyse) 🤖
 

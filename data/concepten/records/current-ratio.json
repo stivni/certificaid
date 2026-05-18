@@ -1,8 +1,8 @@
 {
   "id": "current-ratio",
   "naam": "Current ratio (liquiditeit in ruime zin)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.3.II.C",
@@ -288,5 +288,6 @@
       "redenering": "Werkkapitaal = (vlottende activa − korte schulden) is de absolute tegenhanger van current ratio (verhouding).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

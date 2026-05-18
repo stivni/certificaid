@@ -2,7 +2,7 @@
   "id": "jaarrekening-vzw-stichting",
   "naam": "Jaarrekening van VZW, IVZW en stichtingen",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.A",
@@ -50,7 +50,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "VZW Quelle de Vie (kleine VZW met economische activiteit, € 250.000 omzet, 3 werknemers) → verkort VZW-schema; balans toont 'Fondsen van de vereniging' i.p.v. 'Kapitaal'.",
   "bouwstenen": [
     {
       "titel": "Drempels voor verenigingen",
@@ -169,5 +168,12 @@
       "redenering": "VZW/IVZW/stichting zijn rechtsvormen uit WVV Boek 9.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "VZW Quelle de Vie (kleine VZW met economische activiteit, € 250.000 omzet, 3 werknemers) → verkort VZW-schema; balans toont 'Fondsen van de vereniging' i.p.v. 'Kapitaal'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

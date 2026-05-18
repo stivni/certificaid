@@ -2,7 +2,7 @@
   "id": "externe-auditor-relatie-ic",
   "naam": "Externe auditor en interne controle — relatie",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.V.C",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV doet commissaris Sofie Janssens (Wolters & Partners CVBA) in planningsfase een walkthrough per cyclus. Aankoopcyclus: IC sterk → ze toetst 25 facturen op functiescheiding-naleving → 0 fouten → CR laag → minder substantief werk. Verkoopcyclus: IC zwak (geen krediettoetsing nieuwe klanten) → CR hoog → volledige substantieve testen van vorderingen. Management letter wijst op verkoop-IC-zwakte met aanbevelingen.",
   "in_praktijk": [
     {
       "aspect": "Vier momenten van interactie",
@@ -96,5 +95,12 @@
       "target": "interne-audit",
       "redenering": "Externe auditor mag op IA-werk steunen onder ISA 610-voorwaarden."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV doet commissaris Sofie Janssens (Wolters & Partners CVBA) in planningsfase een walkthrough per cyclus. Aankoopcyclus: IC sterk → ze toetst 25 facturen op functiescheiding-naleving → 0 fouten → CR laag → minder substantief werk. Verkoopcyclus: IC zwak (geen krediettoetsing nieuwe klanten) → CR hoog → volledige substantieve testen van vorderingen. Management letter wijst op verkoop-IC-zwakte met aanbevelingen."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

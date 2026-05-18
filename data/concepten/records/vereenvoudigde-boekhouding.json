@@ -2,7 +2,7 @@
   "id": "vereenvoudigde-boekhouding",
   "naam": "Vereenvoudigde boekhouding",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -51,7 +51,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000 in 20X1) voert een vereenvoudigde boekhouding: financieel dagboek (alle bankuittreksels en kasontvangsten/uitgaven), aankoopdagboek (huur praktijk, software-licentie, kantoorbenodigdheden), verkoopdagboek (consultatie-erelonen). Geen klantenrekeningen, geen 'klasse 6' — wel een opgave van het vermogen per 31/12.",
   "drempelwaarden": [
     {
       "naam": "Omzetdrempel voor vereenvoudigde boekhouding",
@@ -210,5 +209,12 @@
       "target": "regelmatige-boekhouding",
       "redenering": "Vereenvoudigde boekhouding is een toegelaten variant van een regelmatige boekhouding voor kleine ondernemingen."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000 in 20X1) voert een vereenvoudigde boekhouding: financieel dagboek (alle bankuittreksels en kasontvangsten/uitgaven), aankoopdagboek (huur praktijk, software-licentie, kantoorbenodigdheden), verkoopdagboek (consultatie-erelonen). Geen klantenrekeningen, geen 'klasse 6' — wel een opgave van het vermogen per 31/12."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

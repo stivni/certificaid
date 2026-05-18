@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/vrijstelling-subconsolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -80,6 +80,9 @@ _Bron: CBN 2012/12_
 ## Zie ook
 
 - **Vereist kennis van**: [[consolidatiekring]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

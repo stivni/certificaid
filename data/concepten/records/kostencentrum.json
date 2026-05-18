@@ -2,7 +2,7 @@
   "id": "kostencentrum",
   "naam": "Kostencentrum",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.IV.A",
@@ -33,7 +33,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV organiseert drie hoofdkostencentra: Spinnerij (jaarbudget € 1.450.000), Weverij (€ 1.200.000) en Confectie (€ 950.000). Daarnaast hulpkostencentra: Onderhoud, Kwaliteitscontrole, Algemene leiding. De Spinnerij draagt haar kosten uiteindelijk over op het kostendrager 'partij ruwwol-garen 50 kg'.",
   "bouwstenen": [
     {
       "titel": "Hoofdkostencentra vs. hulpkostencentra",
@@ -101,5 +100,12 @@
       "redenering": "Budget per centrum.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV organiseert drie hoofdkostencentra: Spinnerij (jaarbudget € 1.450.000), Weverij (€ 1.200.000) en Confectie (€ 950.000). Daarnaast hulpkostencentra: Onderhoud, Kwaliteitscontrole, Algemene leiding. De Spinnerij draagt haar kosten uiteindelijk over op het kostendrager 'partij ruwwol-garen 50 kg'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

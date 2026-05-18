@@ -1,8 +1,8 @@
 {
   "id": "eerste-consolidatie",
   "naam": "Eerste consolidatie",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.G",
@@ -124,7 +124,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op die datum = € 1.500.000. Pro-rata aandeel = € 1.200.000; bruto-verschil = € 400.000, na toerekening € 250.000 aan ondergewaardeerde terreinen blijft € 150.000 als positief consolidatieverschil aan actiefzijde.",
   "tijdlijn": [
     {
       "stap": "Aankoop van de aandelen",
@@ -365,5 +364,12 @@
       "redenering": "De eerste consolidatie is de instapfase van zowel integrale consolidatie als evenredige consolidatie en vermogensmutatie. Bij integrale consolidatie produceert ze het consolidatieverschil en de allocatie aan stille meer-/minderwaarden.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op die datum = € 1.500.000. Pro-rata aandeel = € 1.200.000; bruto-verschil = € 400.000, na toerekening € 250.000 aan ondergewaardeerde terreinen blijft € 150.000 als positief consolidatieverschil aan actiefzijde."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

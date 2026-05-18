@@ -1,8 +1,8 @@
 {
   "id": "voorraden",
   "naam": "Voorraden",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.E"
@@ -46,7 +46,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV heeft op 31/12: grondstoffen (textiel, garen) € 28.500 (rekening 30), goederen in bewerking € 14.200 (31), gereed product (afgewerkte kledingstukken) € 87.300 (32). Markwaarde van een gedeelte gereed product (30 stuks oude collectie) ligt onder aanschaffingswaarde → waardevermindering € 4.500. Op de balans rubriek IV.Voorraden: € 28.500 + € 14.200 + (€ 87.300 − € 4.500) = € 125.500.",
   "bouwstenen": [
     {
       "titel": "Voorraad vs vaste activa: gebruik vs verbruik",
@@ -241,5 +240,12 @@
       "target": "waardeverminderingen",
       "redenering": "Voorraadcorrecties worden geboekt als waardeverminderingen (rekening 34X9)."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV heeft op 31/12: grondstoffen (textiel, garen) € 28.500 (rekening 30), goederen in bewerking € 14.200 (31), gereed product (afgewerkte kledingstukken) € 87.300 (32). Markwaarde van een gedeelte gereed product (30 stuks oude collectie) ligt onder aanschaffingswaarde → waardevermindering € 4.500. Op de balans rubriek IV.Voorraden: € 28.500 + € 14.200 + (€ 87.300 − € 4.500) = € 125.500."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/directe-kosten.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -59,6 +59,9 @@ _Bron: CBN 132/7 §2.1 — 'productiekosten die rechtstreeks aan het individueel
 > ⚠️ Bij subcontracting: de factuur van de onderaannemer voor een specifiek order is direct (gefactureerd voor dit project), niet indirect — ook al gaat het om een diensten-aankoop. Toewijsbaarheid telt, niet de kostensoort-rekening (61, 62, ...). 🤖
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

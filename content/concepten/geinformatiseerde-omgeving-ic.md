@@ -15,7 +15,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/geinformatiseerde-omgeving-ic.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -62,4 +62,7 @@ Interne controle in een geïnformatiseerde omgeving omvat alle maatregelen om de
 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Vereist kennis van**: [[avg-interne-controle]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

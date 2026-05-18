@@ -2,7 +2,7 @@
 title: Getrouw beeld als controlecriterium
 tags:
 - concept
-- beginsel
+- regel
 - po-1-6
 linked_anchors:
 - 1.6.IV.A
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: beginsel
+node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/getrouw-beeld-controle.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -43,6 +43,9 @@ _Bron: KB WVV art. 3:1 + ITAA KMO-controlenorm §117_
 ## Zie ook
 
 - **Vereist kennis van**: [[materieel-belang-audit]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

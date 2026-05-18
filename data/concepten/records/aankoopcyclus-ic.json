@@ -2,7 +2,7 @@
   "id": "aankoopcyclus-ic",
   "naam": "Aankoopcyclus — interne controle",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.IX.A",
@@ -99,5 +99,6 @@
       "target": "functiescheiding",
       "redenering": "Functiescheiding is de ruggengraat van aankoop-IC."
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

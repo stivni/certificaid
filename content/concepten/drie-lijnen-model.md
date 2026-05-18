@@ -2,7 +2,7 @@
 title: Drie-lijnen-model (Three Lines of Defense)
 tags:
 - concept
-- methode
+- cluster
 - po-1-7
 linked_anchors:
 - 1.7.IV
@@ -12,9 +12,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/drie-lijnen-model.json
 gegenereerd_op: '2026-05-18'
 ---

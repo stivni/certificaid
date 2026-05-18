@@ -2,7 +2,7 @@
   "id": "leaseverplichting-ifrs",
   "naam": "Leaseverplichting onder IFRS 16",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.C",
@@ -56,7 +56,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV op aanvangsdatum 1 januari 2026: 10 jaar huurperiode Antwerpse locatie, vaste betaling € 480.000 jaarlijks, marginale rentevoet 4%. Leaseverplichting bij eerste opname = € 480.000 × annuïteitfactor(10 jaar, 4%) = € 480.000 × 8,1109 = **€ 3.893.232**, afgerond € 3.894.000. Jaar 1: rentelast 4% × € 3.894.000 = € 155.760; betaling € 480.000; aflossing hoofdsom € 480.000 − € 155.760 = € 324.240. Boekwaarde einde jaar 1 = € 3.894.000 − € 324.240 = € 3.569.760.",
   "bouwstenen": [
     {
       "titel": "Welke betalingen tellen mee",
@@ -176,5 +175,12 @@
       "redenering": "ROU en leaseverplichting komen samen op de balans; symmetrische verwerking bij herwaardering.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV op aanvangsdatum 1 januari 2026: 10 jaar huurperiode Antwerpse locatie, vaste betaling € 480.000 jaarlijks, marginale rentevoet 4%. Leaseverplichting bij eerste opname = € 480.000 × annuïteitfactor(10 jaar, 4%) = € 480.000 × 8,1109 = **€ 3.893.232**, afgerond € 3.894.000. Jaar 1: rentelast 4% × € 3.894.000 = € 155.760; betaling € 480.000; aflossing hoofdsom € 480.000 − € 155.760 = € 324.240. Boekwaarde einde jaar 1 = € 3.894.000 − € 324.240 = € 3.569.760."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

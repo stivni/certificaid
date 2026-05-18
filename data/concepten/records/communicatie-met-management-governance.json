@@ -2,7 +2,7 @@
   "id": "communicatie-met-management-governance",
   "naam": "Communicatie met management en met governance belaste personen",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.III.E",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Aan het einde van de audit van Rotex Roeselare NV stuurt Sofie Janssens een management letter aan de raad van bestuur: drie significante IC-tekortkomingen rond aankooporders (geen functiescheiding) + één aanbeveling rond de continuïteitsanalyse. Schriftelijk, gedateerd, in het controledossier.",
   "stappen": [
     {
       "nr": 1,
@@ -64,5 +63,12 @@
       "target": "met-governance-belaste-personen",
       "redenering": "Het bestuursorgaan is de tegenhanger in de communicatie."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aan het einde van de audit van Rotex Roeselare NV stuurt Sofie Janssens een management letter aan de raad van bestuur: drie significante IC-tekortkomingen rond aankooporders (geen functiescheiding) + één aanbeveling rond de continuïteitsanalyse. Schriftelijk, gedateerd, in het controledossier."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

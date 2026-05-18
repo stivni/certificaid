@@ -2,7 +2,7 @@
   "id": "opvolging-verrichtingen-ic",
   "naam": "Opvolging van verrichtingen",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VIII.C",
@@ -24,7 +24,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV doet boekhouder Cindy elke maand: (1) bank ↔ grootboek-afstemming (saldo's gelijk?), (2) debiteurenlijst per leeftijd (welke vorderingen > 60 dagen?), (3) voorraad spot-check (10 willekeurige artikelen), (4) cijferanalyse omzet/marge per kostencentrum. Afwijkingen meldt ze aan CFO David.",
   "edges": [
     {
       "type": "onderdeel-van",
@@ -36,5 +35,12 @@
       "target": "cijferanalyses-audit",
       "redenering": "Cijferanalyses zijn één van de technieken voor opvolging."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV doet boekhouder Cindy elke maand: (1) bank ↔ grootboek-afstemming (saldo's gelijk?), (2) debiteurenlijst per leeftijd (welke vorderingen > 60 dagen?), (3) voorraad spot-check (10 willekeurige artikelen), (4) cijferanalyse omzet/marge per kostencentrum. Afwijkingen meldt ze aan CFO David."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

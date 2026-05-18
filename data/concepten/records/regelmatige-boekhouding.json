@@ -1,8 +1,8 @@
 {
   "id": "regelmatige-boekhouding",
   "naam": "Regelmatige boekhouding",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -64,7 +64,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV boekt elke aankoopfactuur, verkoopfactuur en bankverrichting van € 1.250, € 3.400 of € 18.000 dagelijks in haar dagboeken; eind december 20X1 maakt zij een inventaris op (voorraad meubelen, vorderingen op klanten, schulden aan leveranciers) en stelt op die basis de jaarrekening op. Zonder dagboek-inschrijvingen of zonder inventaris is haar boekhouding niet regelmatig.",
   "bouwstenen": [
     {
       "titel": "Passend bij aard en omvang",
@@ -285,5 +284,12 @@
       "target": "vereenvoudigde-boekhouding",
       "redenering": "Vereenvoudigde boekhouding is een toegelaten vorm voor kleine ondernemingen onder de drempel — een variant binnen het regelmatige-boekhouding-kader."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV boekt elke aankoopfactuur, verkoopfactuur en bankverrichting van € 1.250, € 3.400 of € 18.000 dagelijks in haar dagboeken; eind december 20X1 maakt zij een inventaris op (voorraad meubelen, vorderingen op klanten, schulden aan leveranciers) en stelt op die basis de jaarrekening op. Zonder dagboek-inschrijvingen of zonder inventaris is haar boekhouding niet regelmatig."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

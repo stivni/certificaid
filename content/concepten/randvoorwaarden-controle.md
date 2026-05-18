@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: voorgesteld:randvoorwaarden
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/randvoorwaarden-controle.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -42,6 +42,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[opdrachtbrief-accountant]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

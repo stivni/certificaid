@@ -2,7 +2,7 @@
   "id": "budgetprocedure",
   "naam": "Budgetprocedure",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.VI.C",
@@ -137,5 +137,6 @@
       "redenering": "Stap 5 gebruikt verschillenanalyse.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

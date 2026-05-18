@@ -11,7 +11,7 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ontdekkingsrisico.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -34,6 +34,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Controlerisico) + §96_
 > [!tip]- Steekproefrisico als sub-component
 > Ontdekkingsrisico bevat onder meer steekproefrisico (de conclusie op basis van een steekproef kan verschillen van die op de hele populatie). Dat is onvermijdelijk wanneer niet 100 % wordt getest. ⚖️
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

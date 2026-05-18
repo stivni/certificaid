@@ -1,8 +1,8 @@
 {
   "id": "commissie-boekhoudkundige-normen",
   "naam": "Commissie voor Boekhoudkundige Normen (CBN)",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.II",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Een accountant met een twijfelgeval over de boeking van een overnametransactie kan een vraag stellen aan de CBN — antwoord komt als formeel advies of als individuele consultatie.",
   "bouwstenen": [
     {
       "titel": "Drie taken",
@@ -117,5 +116,12 @@
       "redenering": "Het outputproduct van de CBN zijn haar adviezen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Een accountant met een twijfelgeval over de boeking van een overnametransactie kan een vraag stellen aan de CBN — antwoord komt als formeel advies of als individuele consultatie."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

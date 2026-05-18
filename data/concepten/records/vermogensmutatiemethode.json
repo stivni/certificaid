@@ -1,8 +1,8 @@
 {
   "id": "vermogensmutatiemethode",
   "naam": "Vermogensmutatiemethode (equity method)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.E",
@@ -150,7 +150,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata aandeel = 25 % × € 1.250.000 = € 312.500; positief consolidatieverschil = € 37.500. In jaar 1 maakt Drukkerij € 200.000 winst → pro-rata € 50.000 → boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000.",
   "voorwaarden_toepassing": [
     {
       "text": "Geassocieerde onderneming: een deelneming waar je invloed van betekenis hebt, maar geen controle (WVV art. 1:22). Weerlegbaar vermoeden vanaf 20 % stemrechten.",
@@ -1171,5 +1170,12 @@
       "redenering": "Een van de vier consolidatiemethodes (synthese-record vergelijkt ze).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata aandeel = 25 % × € 1.250.000 = € 312.500; positief consolidatieverschil = € 37.500. In jaar 1 maakt Drukkerij € 200.000 winst → pro-rata € 50.000 → boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

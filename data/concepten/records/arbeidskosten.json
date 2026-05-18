@@ -2,7 +2,7 @@
   "id": "arbeidskosten",
   "naam": "Arbeidskosten",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.C",
@@ -39,7 +39,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26.",
   "bouwstenen": [
     {
       "titel": "Componenten van de arbeidskost",
@@ -140,5 +139,12 @@
       "redenering": "Indirecte arbeid is een indirecte kost.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

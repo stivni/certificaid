@@ -1,8 +1,8 @@
 {
   "id": "ias-1-presentatie-beginselen",
   "naam": "Algemene presentatie-beginselen (IAS 1)",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.IV.B",
@@ -65,7 +65,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio NV signaleert in haar toelichting expliciet: 'De jaarrekening is opgesteld in overeenstemming met de IFRSs zoals goedgekeurd door de Europese Unie, op basis van het toerekeningsbeginsel en in de veronderstelling van continuïteit van de bedrijfsuitoefening' — daarmee dekt zij beginselen 1, 2 en 3 in één zin.",
   "bouwstenen": [
     {
       "titel": "Getrouw beeld vereist soms afwijking",
@@ -242,5 +241,12 @@
       "redenering": "IAS 1-beginselen zijn IFRS-tegenhangers van de tien Belgische boekhoudbeginselen (Richtlijn 2013/34 art. 6).",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio NV signaleert in haar toelichting expliciet: 'De jaarrekening is opgesteld in overeenstemming met de IFRSs zoals goedgekeurd door de Europese Unie, op basis van het toerekeningsbeginsel en in de veronderstelling van continuïteit van de bedrijfsuitoefening' — daarmee dekt zij beginselen 1, 2 en 3 in één zin."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

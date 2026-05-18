@@ -2,7 +2,7 @@
   "id": "interne-controle",
   "naam": "Interne controle",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.I.A",
@@ -60,7 +60,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV (productie-onderneming, omzet € 8.000.000) zet een intern-controle-systeem op met hulp van Xenon Expertise BV: aankoopfacturen moeten drie handtekeningen krijgen (besteller, magazijnier, financieel verantwoordelijke); voorraadtellingen worden 2x per jaar gedaan door iemand anders dan de magazijnier; loonberekening wordt opgemaakt door HR maar betaald door financieel verantwoordelijke. Doel: redelijke zekerheid dat de cijfers kloppen, dat er niet wordt gestolen, en dat de wet wordt nageleefd.",
   "bouwstenen": [
     {
       "titel": "Drie doelstellingen van interne controle",
@@ -271,5 +270,12 @@
       "target": "coso-i-erm-framework",
       "redenering": "COSO I is het meest gebruikte referentiekader voor IC; nationaal of sectorspecifiek aangevuld."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV (productie-onderneming, omzet € 8.000.000) zet een intern-controle-systeem op met hulp van Xenon Expertise BV: aankoopfacturen moeten drie handtekeningen krijgen (besteller, magazijnier, financieel verantwoordelijke); voorraadtellingen worden 2x per jaar gedaan door iemand anders dan de magazijnier; loonberekening wordt opgemaakt door HR maar betaald door financieel verantwoordelijke. Doel: redelijke zekerheid dat de cijfers kloppen, dat er niet wordt gestolen, en dat de wet wordt nageleefd."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

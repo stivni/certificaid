@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/kennis-van-onderneming-omgeving.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -50,6 +50,9 @@ _Grondslag: ITAA KMO-controlenorm §76_
 ## Zie ook
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

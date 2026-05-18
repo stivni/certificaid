@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ontbinding-vereffening-opdracht.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -41,6 +41,9 @@ _Bron: ITAA-norm Ontbinding-vereffening §2 + IV_
 > [!tip]- Werkdocumenten + bewaring
 > Specifieke documentatieverplichting: alle gegevens en oordelen die het verslag onderbouwen worden bewaard in een controledossier dat valt onder beroepsgeheim en bewaarplicht van de Algemene Controlenorm. ⚖️
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

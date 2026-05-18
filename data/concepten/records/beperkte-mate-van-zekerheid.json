@@ -2,7 +2,7 @@
   "id": "beperkte-mate-van-zekerheid",
   "naam": "Beperkte mate van zekerheid",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -36,7 +36,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens beoordeelt de tussentijdse cijfers van Naaiatelier Ninove BV per 30 juni 2025. Beperkte werkzaamheden (vooral cijferanalyses en bevragingen). Haar conclusie: 'op basis van onze beoordeling zijn ons geen feiten gebleken die ons doen geloven dat de tussentijdse cijfers geen getrouw beeld geven'.",
   "in_praktijk": [
     {
       "aspect": "Werkzaamheden vs. controle",
@@ -68,5 +67,12 @@
       "target": "contractuele-beoordelingsopdracht",
       "redenering": "Beoordelingsopdrachten leveren beperkte zekerheid."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens beoordeelt de tussentijdse cijfers van Naaiatelier Ninove BV per 30 juni 2025. Beperkte werkzaamheden (vooral cijferanalyses en bevragingen). Haar conclusie: 'op basis van onze beoordeling zijn ons geen feiten gebleken die ons doen geloven dat de tussentijdse cijfers geen getrouw beeld geven'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

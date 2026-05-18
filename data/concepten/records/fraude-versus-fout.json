@@ -2,7 +2,7 @@
   "id": "fraude-versus-fout",
   "naam": "Fraude versus fout in een audit",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.B",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Meubelzaak Mertens BV stelt Sofie Janssens vast dat de zaakvoerder bewust voorraden heeft overgewaardeerd met € 75.000 om de bank een mooi rapport te tonen → FRAUDE (opzettelijke misleiding). In een andere klantdossier was eenzelfde fout het gevolg van een verkeerd ingegeven Excel-formule → FOUT (onopzettelijk).",
   "vergelijkingsparen": [
     {
       "vergelijking_met": "afwijking-van-materieel-belang",
@@ -95,5 +94,12 @@
       "target": "materieel-belang-audit",
       "redenering": "Materialiteit bepaalt of een fraude of fout ertoe doet."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Meubelzaak Mertens BV stelt Sofie Janssens vast dat de zaakvoerder bewust voorraden heeft overgewaardeerd met € 75.000 om de bank een mooi rapport te tonen → FRAUDE (opzettelijke misleiding). In een andere klantdossier was eenzelfde fout het gevolg van een verkeerd ingegeven Excel-formule → FOUT (onopzettelijk)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

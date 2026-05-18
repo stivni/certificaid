@@ -2,7 +2,7 @@
   "id": "externe-controle",
   "naam": "Externe controle",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.I.B",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV (grote NV, omzet € 95.000.000) voert Wolters & Partners CVBA jaarlijks de wettelijke commissaris-controle uit. Sofie Janssens (bedrijfsrevisor) test de IC, doet substantieve werkzaamheden en levert een controleverklaring af voor de aandeelhouders en derden.",
   "in_praktijk": [
     {
       "aspect": "Verhouding met interne controle",
@@ -114,5 +113,12 @@
       "target": "wettelijke-controleopdracht-commissaris",
       "redenering": "Voor grote vennootschappen is externe controle wettelijk verplicht via de commissaris."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV (grote NV, omzet € 95.000.000) voert Wolters & Partners CVBA jaarlijks de wettelijke commissaris-controle uit. Sofie Janssens (bedrijfsrevisor) test de IC, doet substantieve werkzaamheden en levert een controleverklaring af voor de aandeelhouders en derden."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

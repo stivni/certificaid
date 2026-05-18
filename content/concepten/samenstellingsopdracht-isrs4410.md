@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/samenstellingsopdracht-isrs4410.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -86,6 +86,9 @@ Volg de modelverslagen in de norm. Cruciaal: vermeld dat noch audit noch beoorde
 > _Bron: ITAA-norm Samenstellingsopdrachten (ISRS 4410)_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

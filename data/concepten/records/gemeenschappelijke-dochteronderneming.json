@@ -1,8 +1,8 @@
 {
   "id": "gemeenschappelijke-dochteronderneming",
   "naam": "Gemeenschappelijke dochteronderneming",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -90,7 +90,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio Florence is een gemeenschappelijke dochter → bij Cardinal en bij Energiehuis Evergem wordt Filmstudio voor 50 % evenredig geconsolideerd.",
   "voorwaarden": [
     {
       "text": "Een beperkt aantal vennoten (typisch 2 of 3) bepalen samen het beleid.",
@@ -291,5 +290,12 @@
       "redenering": "De aanwezigheid van een gemeenschappelijke dochter is de trigger voor evenredige consolidatie (KB WVV art. 3:124, 2°).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio Florence is een gemeenschappelijke dochter → bij Cardinal en bij Energiehuis Evergem wordt Filmstudio voor 50 % evenredig geconsolideerd."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

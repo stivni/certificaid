@@ -2,7 +2,7 @@
   "id": "uitgiftepremie",
   "naam": "Uitgiftepremie",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.H",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Oprichtingen Oostende BV heeft kapitaal € 50.000 verdeeld over 500 aandelen (fractiewaarde € 100). De BV gaat door een kapitaalverhoging via uitgifte van 200 nieuwe aandelen aan € 250 per stuk. Inbreng = 200 × € 250 = € 50.000. Hiervan: 200 × € 100 = € 20.000 naar kapitaal (rekening 100), en 200 × € 150 = € 30.000 naar uitgiftepremie (rekening 11). Nieuw eigen vermogen: kapitaal € 70.000 + uitgiftepremie € 30.000.",
   "bouwstenen": [
     {
       "titel": "Wanneer ontstaat een uitgiftepremie",
@@ -167,5 +166,12 @@
       "target": "wettelijke-reserve",
       "redenering": "Beide niet vrij uitkeerbaar, maar verschillende rechtsgrondslag en aanwendingsregels."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Oprichtingen Oostende BV heeft kapitaal € 50.000 verdeeld over 500 aandelen (fractiewaarde € 100). De BV gaat door een kapitaalverhoging via uitgifte van 200 nieuwe aandelen aan € 250 per stuk. Inbreng = 200 × € 250 = € 50.000. Hiervan: 200 × € 100 = € 20.000 naar kapitaal (rekening 100), en 200 × € 150 = € 30.000 naar uitgiftepremie (rekening 11). Nieuw eigen vermogen: kapitaal € 70.000 + uitgiftepremie € 30.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

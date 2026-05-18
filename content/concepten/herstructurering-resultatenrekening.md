@@ -2,7 +2,7 @@
 title: Herstructurering van de resultatenrekening
 tags:
 - concept
-- methode
+- cluster
 - po-1-9
 linked_anchors:
 - 1.9.III.B
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.9'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/herstructurering-resultatenrekening.json
 gegenereerd_op: '2026-05-18'
 ---

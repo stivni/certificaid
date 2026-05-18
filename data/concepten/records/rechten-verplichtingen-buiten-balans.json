@@ -1,8 +1,8 @@
 {
   "id": "rechten-verplichtingen-buiten-balans",
   "naam": "Rechten en verplichtingen buiten balans",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.R",
@@ -45,7 +45,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Aurelia Holding NV heeft op 31/12 een persoonlijke borgstelling gegeven voor een bankkrediet van € 850.000 verleend aan dochter Brugse Brouwerij BV. Geen balanspost — dochter blijft hoofdschuldenaar — MAAR opname op rekening 010 'Persoonlijke zekerheden gesteld voor rekening van derden' € 850.000. In toelichting: aard, ontvanger, bedrag, looptijd. Bij niet-betaling door dochter: omzetting in werkelijke verplichting en boeking op rekening 49 + klasse 65.",
   "bouwstenen": [
     {
       "titel": "Klasse 0 — Categorieën",
@@ -207,5 +206,12 @@
       "target": "voorzieningen",
       "redenering": "Frequente examen-verwarring tussen klasse 0 en klasse 16."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV heeft op 31/12 een persoonlijke borgstelling gegeven voor een bankkrediet van € 850.000 verleend aan dochter Brugse Brouwerij BV. Geen balanspost — dochter blijft hoofdschuldenaar — MAAR opname op rekening 010 'Persoonlijke zekerheden gesteld voor rekening van derden' € 850.000. In toelichting: aard, ontvanger, bedrag, looptijd. Bij niet-betaling door dochter: omzetting in werkelijke verplichting en boeking op rekening 49 + klasse 65."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

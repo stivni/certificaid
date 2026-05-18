@@ -2,7 +2,7 @@
   "id": "liquiditeitstoets-beslisboom",
   "naam": "Welke liquiditeitstoets gebruik ik? — Beslisboom",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.A",
@@ -101,5 +101,6 @@
       "rationale": "Cash ratio wordt aangehaald in `liquiditeitsratio.bouwstenen[0]` maar zonder eigen record (gelogd als gap)."
     }
   ],
-  "verwante_competenties": []
+  "verwante_competenties": [],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

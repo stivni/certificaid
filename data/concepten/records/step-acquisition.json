@@ -1,8 +1,8 @@
 {
   "id": "step-acquisition",
   "naam": "Step acquisition (trapsgewijze verwerving)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.G",
@@ -104,7 +104,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV (aanschaffingswaarde € 350.000) → invloed van betekenis → vermogensmutatie. In 20X3 koopt Antwerpse 35 % bij (aanschaffingswaarde € 700.000) → totaal 60 % → kantelpunt naar exclusieve controle → vanaf dan integrale consolidatie van Drukkerij Dendermonde in de geconsolideerde jaarrekening van Antwerpse.",
   "kantelpunten": [
     {
       "van_situatie": "Geen participatie",
@@ -344,5 +343,12 @@
       "redenering": "Bij elke trap moet je het consolidatieverschil correct berekenen — zonder dat concept te beheersen kan je een step acquisition niet boekhoudkundig verwerken.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV (aanschaffingswaarde € 350.000) → invloed van betekenis → vermogensmutatie. In 20X3 koopt Antwerpse 35 % bij (aanschaffingswaarde € 700.000) → totaal 60 % → kantelpunt naar exclusieve controle → vanaf dan integrale consolidatie van Drukkerij Dendermonde in de geconsolideerde jaarrekening van Antwerpse."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

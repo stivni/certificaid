@@ -2,7 +2,7 @@
   "id": "opvolging-voorganger-accountant",
   "naam": "Opvolging van een collega-accountant",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.III.E",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Wolters & Partners CVBA wordt benoemd als nieuwe controleaccountant van Naaiatelier Ninove BV, na ontslag van de vorige accountant. Sofie Janssens contacteert haar voorganger schriftelijk, vraagt inzage in zijn werkdocumenten (vooral risico-evaluatie en eindbevindingen), en informeert ook de externe accountant die in de laatste 12 maanden samenstellingsopdrachten heeft uitgevoerd.",
   "stappen": [
     {
       "nr": 1,
@@ -90,5 +89,12 @@
       "target": "plichtenleer-accountant",
       "redenering": "Confraterniteitsregel onder het KB plichtenleer."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Wolters & Partners CVBA wordt benoemd als nieuwe controleaccountant van Naaiatelier Ninove BV, na ontslag van de vorige accountant. Sofie Janssens contacteert haar voorganger schriftelijk, vraagt inzage in zijn werkdocumenten (vooral risico-evaluatie en eindbevindingen), en informeert ook de externe accountant die in de laatste 12 maanden samenstellingsopdrachten heeft uitgevoerd."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

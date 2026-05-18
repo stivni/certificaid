@@ -2,7 +2,7 @@
 title: Professionele oordeelsvorming
 tags:
 - concept
-- beginsel
+- regel
 - po-1-6
 linked_anchors:
 - 1.6.II
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: beginsel
+node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/professionele-oordeelsvorming.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -34,6 +34,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 > [!tip]- Te documenteren
 > Significante professionele oordeelsvormingen worden in het controledossier vastgelegd: welke alternatieven zijn afgewogen, welke argumenten doorslag gaven, welke conclusies werden getrokken. Een ervaren confrater moet later de redenering kunnen reconstrueren. ⚖️
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -2,7 +2,7 @@
 title: Commissaris (extern toezicht op jaarrekening)
 tags:
 - concept
-- actor
+- autoriteit
 - po-1-3
 linked_anchors:
 - 1.3.I.D
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.3'
 confidence: inferred-from-aggregation
-node_type: actor
+node_type: autoriteit
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/commissaris-toezicht-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---

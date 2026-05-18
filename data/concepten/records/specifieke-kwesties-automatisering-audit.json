@@ -2,7 +2,7 @@
   "id": "specifieke-kwesties-automatisering-audit",
   "naam": "Specifieke kwesties bij automatisering (audit-perspectief)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.D"
@@ -35,7 +35,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV werkt met een ERP (SAP) met sterk geïntegreerde modules. Sofie Janssens onderzoekt: toegangsbeheer (wie kan boeken/wijzigen), application controls (drie-handtekeningen-procuratie in inkoopmodule), interfaces tussen verkoop en boekhouding, change management. Zij overweegt om een IT-auditor in te schakelen voor de ERP-omgeving.",
   "in_praktijk": [
     {
       "aspect": "Verschuiving naar test of controls",
@@ -80,5 +79,12 @@
       "target": "kennis-van-onderneming-omgeving",
       "redenering": "Inzicht in het IT-systeem is onderdeel van inzicht in IC."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV werkt met een ERP (SAP) met sterk geïntegreerde modules. Sofie Janssens onderzoekt: toegangsbeheer (wie kan boeken/wijzigen), application controls (drie-handtekeningen-procuratie in inkoopmodule), interfaces tussen verkoop en boekhouding, change management. Zij overweegt om een IT-auditor in te schakelen voor de ERP-omgeving."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

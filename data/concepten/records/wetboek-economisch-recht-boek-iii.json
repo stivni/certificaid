@@ -2,7 +2,7 @@
   "id": "wetboek-economisch-recht-boek-iii",
   "naam": "Wetboek van Economisch Recht — Boek III (boekhouding)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.C",
@@ -69,7 +69,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV (handels-BV) is een 'onderneming' in de zin van WER art. III.82 → moet een dubbele boekhouding voeren volgens WER art. III.83.",
   "bouwstenen": [
     {
       "titel": "Definitie 'onderneming'",
@@ -216,5 +215,12 @@
       "redenering": "WER art. III.83 verplicht dubbel boekhouden voor de meeste ondernemingen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV (handels-BV) is een 'onderneming' in de zin van WER art. III.82 → moet een dubbele boekhouding voeren volgens WER art. III.83."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

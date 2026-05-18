@@ -2,7 +2,7 @@
   "id": "jaarrekening-als-studieobject",
   "naam": "Jaarrekening als studieobject van financiële analyse",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV",
@@ -137,5 +137,6 @@
       "redenering": "Object voldoet aan getrouw-beeld-eis.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

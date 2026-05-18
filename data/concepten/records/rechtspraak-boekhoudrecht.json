@@ -2,7 +2,7 @@
   "id": "rechtspraak-boekhoudrecht",
   "naam": "Rechtspraak inzake boekhoudrecht",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.F",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Het Hof van Cassatie heeft meermaals geoordeeld dat een bestuurder die wist of moest weten van een dreigend faillissement én bleef boekhouden alsof er continuïteit was, aansprakelijk kan gesteld worden voor wrongful trading (continuïteitsbeginsel).",
   "bouwstenen": [
     {
       "titel": "Twee rollen: interpreteren + sanctioneren",
@@ -174,5 +173,12 @@
       "redenering": "Rechtspraak vormt de toepasselijke laag — interpreteert wet, KB en advies.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Het Hof van Cassatie heeft meermaals geoordeeld dat een bestuurder die wist of moest weten van een dreigend faillissement én bleef boekhouden alsof er continuïteit was, aansprakelijk kan gesteld worden voor wrongful trading (continuïteitsbeginsel)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

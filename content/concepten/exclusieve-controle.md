@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/exclusieve-controle.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -98,6 +98,9 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 ## Zie ook
 
 - **Getriggerd door**: [[integrale-consolidatie]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

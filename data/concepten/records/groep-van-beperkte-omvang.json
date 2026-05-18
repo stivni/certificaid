@@ -2,7 +2,7 @@
   "id": "groep-van-beperkte-omvang",
   "naam": "Groep van beperkte omvang",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -99,7 +99,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV (moeder) + Gent Garantie BV (dochter) hebben samen geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR en 180 personeelsleden. Slechts één drempel (personeel) overschreden → groep van beperkte omvang → Aurelia is vrijgesteld van geconsolideerde jaarrekening + jaarverslag.",
   "in_praktijk": [
     {
       "aspect": "Twee berekeningsmethoden",
@@ -260,5 +259,12 @@
         ]
       }
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV (moeder) + Gent Garantie BV (dochter) hebben samen geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR en 180 personeelsleden. Slechts één drempel (personeel) overschreden → groep van beperkte omvang → Aurelia is vrijgesteld van geconsolideerde jaarrekening + jaarverslag."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

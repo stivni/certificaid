@@ -1,8 +1,8 @@
 {
   "id": "monitoring-interne-controle",
   "naam": "Monitoring (COSO-component 5)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VIII.F",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV doet (1) elke afdelingschef maandelijks een 'control self-assessment' (continu), (2) Sofie Janssens als interne auditor jaarlijks 4 cycli volledig auditeert (afzonderlijk), (3) bevindingen worden in kwartaalrapport aan auditcomité voorgelegd met actieplan + opvolgtermijn.",
   "in_praktijk": [
     {
       "aspect": "Twee soorten monitoring",
@@ -57,5 +56,12 @@
       "target": "interne-audit",
       "redenering": "Interne audit is de meest geformaliseerde monitoring-vorm."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV doet (1) elke afdelingschef maandelijks een 'control self-assessment' (continu), (2) Sofie Janssens als interne auditor jaarlijks 4 cycli volledig auditeert (afzonderlijk), (3) bevindingen worden in kwartaalrapport aan auditcomité voorgelegd met actieplan + opvolgtermijn."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

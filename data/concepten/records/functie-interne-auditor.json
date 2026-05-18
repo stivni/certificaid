@@ -1,8 +1,8 @@
 {
   "id": "functie-interne-auditor",
   "naam": "Functie van de interne auditor",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.V.B",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor (Director Internal Audit). Rapporteert aan het auditcomité (vergadert 4x/jaar). Stelt jaarlijks risk-based audit plan op (40-50 audits per jaar). Eigen team van 5 senior auditors. Mag geen operationele taken hebben in de afdelingen die zij audit.",
   "in_praktijk": [
     {
       "aspect": "Drie typen activiteiten",
@@ -57,5 +56,12 @@
       "target": "auditcomite",
       "redenering": "Idealiter rapporteert IA aan auditcomité."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor (Director Internal Audit). Rapporteert aan het auditcomité (vergadert 4x/jaar). Stelt jaarlijks risk-based audit plan op (40-50 audits per jaar). Eigen team van 5 senior auditors. Mag geen operationele taken hebben in de afdelingen die zij audit."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "richtlijn-2013-34-eu",
   "naam": "Richtlijn 2013/34/EU — Europese jaarrekeningenrichtlijn",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.I",
@@ -67,7 +67,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV (grote NV) maakt jaarrekening op volgens het volledig schema in KB WVV. Dat schema is de Belgische omzetting van Richtlijn 2013/34/EU: balans + winst-en-verliesrekening + toelichting (art. 4 lid 1), opgesteld volgens continuïteits-, voorzichtigheids- en toerekeningsbeginsel (art. 6).",
   "bouwstenen": [
     {
       "titel": "Minimuminhoud jaarrekening",
@@ -294,5 +293,12 @@
       "redenering": "De richtlijn bepaalt wat een jaarrekening minstens moet bevatten en hoe ze opgesteld wordt.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV (grote NV) maakt jaarrekening op volgens het volledig schema in KB WVV. Dat schema is de Belgische omzetting van Richtlijn 2013/34/EU: balans + winst-en-verliesrekening + toelichting (art. 4 lid 1), opgesteld volgens continuïteits-, voorzichtigheids- en toerekeningsbeginsel (art. 6)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -1,8 +1,8 @@
 {
   "id": "kostenanalyse-make-or-buy",
   "naam": "Make-or-buy-analyse",
-  "node_type": "afwegingskader",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.taak.1",
@@ -74,5 +74,6 @@
       "redenering": "Variabele kosten zijn typisch vermijdbaar.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "kapitaalwijziging",
   "naam": "Kapitaalwijziging (verhoging en vermindering)",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.T",
@@ -41,7 +41,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Oprichtingen Oostende BV (kapitaal € 50.000) verhoogt door uitgifte van 200 nieuwe aandelen aan € 250 — totaal inbreng € 50.000 (200 × € 100 naar kapitaal, 200 × € 150 naar uitgiftepremie). Boekingen: Debet 550 Bank € 50.000 / Credit 100 Eigen vermogensinbreng € 20.000 + Credit 11 Uitgiftepremies € 30.000.",
   "stappen": [
     {
       "nr": 1,
@@ -142,5 +141,12 @@
       "target": "eigen-middelen",
       "redenering": "Kapitaalwijziging muteert rekening 100 binnen eigen middelen."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Oprichtingen Oostende BV (kapitaal € 50.000) verhoogt door uitgifte van 200 nieuwe aandelen aan € 250 — totaal inbreng € 50.000 (200 × € 100 naar kapitaal, 200 × € 150 naar uitgiftepremie). Boekingen: Debet 550 Bank € 50.000 / Credit 100 Eigen vermogensinbreng € 20.000 + Credit 11 Uitgiftepremies € 30.000."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

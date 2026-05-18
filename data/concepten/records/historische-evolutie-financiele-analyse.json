@@ -1,8 +1,8 @@
 {
   "id": "historische-evolutie-financiele-analyse",
   "naam": "Historische evolutie in financiële analyse",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.3.II.A",
@@ -117,5 +117,6 @@
       "redenering": "Horizontale analyse is de techniek die historiek meet.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

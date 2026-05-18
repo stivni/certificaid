@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/beroepsgeheim-accountant.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -47,6 +47,9 @@ _Bron: ITAA-deontologie-beroepsgeheim + art. 458 Strafwetboek_
 > _Bron: ITAA Algemene controlenorm §4_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

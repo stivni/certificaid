@@ -2,7 +2,7 @@
 title: Eerste consolidatie
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-4
 linked_anchors:
 - 1.4.I.G
@@ -13,9 +13,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/eerste-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -62,6 +62,9 @@ _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
 > _Bron: KB WVV art. 3:129 + art. 3:131_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

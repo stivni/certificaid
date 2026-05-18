@@ -2,7 +2,7 @@
   "id": "right-of-use-actief",
   "naam": "Right-of-use-actief (gebruiksrecht-actief) onder IFRS 16",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.5.V.C",
@@ -69,7 +69,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Zelena Bio's ROU-actief voor Antwerpse productielocatie op 1 januari 2026: € 4.049.000 (= leaseverplichting € 3.894.000 + sleutelgeld € 50.000 + advocatenkosten € 25.000 + ontmantelingskosten € 80.000). In de IFRS-balans presentatie: ofwel apart als 'Met een gebruiksrecht overeenstemmende activa' ofwel binnen 'Materiële vaste activa' (met vermelding in toelichting in welke post).",
   "bouwstenen": [
     {
       "titel": "Afschrijving over de korste van leaseperiode of gebruiksduur",
@@ -186,5 +185,12 @@
       "redenering": "ROU en leaseverplichting komen samen op de balans; symmetrische verwerking.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Zelena Bio's ROU-actief voor Antwerpse productielocatie op 1 januari 2026: € 4.049.000 (= leaseverplichting € 3.894.000 + sleutelgeld € 50.000 + advocatenkosten € 25.000 + ontmantelingskosten € 80.000). In de IFRS-balans presentatie: ofwel apart als 'Met een gebruiksrecht overeenstemmende activa' ofwel binnen 'Materiële vaste activa' (met vermelding in toelichting in welke post)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

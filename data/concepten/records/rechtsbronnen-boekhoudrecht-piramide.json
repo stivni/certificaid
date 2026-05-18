@@ -2,7 +2,7 @@
   "id": "rechtsbronnen-boekhoudrecht-piramide",
   "naam": "Rechtsbronnen-piramide van het Belgisch boekhoudrecht",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.I",
@@ -108,5 +108,6 @@
     "navigeren-rechtsbronnen-boekhoudrecht",
     "afdalen-piramide-bij-onzekere-verwerking",
     "onderscheiden-bindende-kracht-per-bron"
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

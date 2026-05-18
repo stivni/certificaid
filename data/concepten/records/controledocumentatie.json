@@ -2,7 +2,7 @@
   "id": "controledocumentatie",
   "naam": "Controledocumentatie / controledossier",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.III.C",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie + risico-evaluatie, werkprogramma per cyclus, alle steekproeven (met testresultaten en evaluatie), correspondentie met derden, management-letters, vergaderingsverslagen met de directie, en het ondertekende controleverslag. Sofie Janssens bewaart het dossier 10 jaar.",
   "bouwstenen": [
     {
       "titel": "Verplichte inhoud (algemene norm)",
@@ -180,5 +179,12 @@
       "target": "auditcyclus",
       "redenering": "Documenteren is een continu-lopende cyclusstap."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie + risico-evaluatie, werkprogramma per cyclus, alle steekproeven (met testresultaten en evaluatie), correspondentie met derden, management-letters, vergaderingsverslagen met de directie, en het ondertekende controleverslag. Sofie Janssens bewaart het dossier 10 jaar."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

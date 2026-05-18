@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/richtlijn-2013-34-eu.json
 gegenereerd_op: '2026-05-18'
 ---

@@ -1,8 +1,8 @@
 {
   "id": "commissaris",
   "naam": "Commissaris",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.E",
@@ -53,7 +53,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders.",
   "bouwstenen": [
     {
       "titel": "Wanneer is een commissaris verplicht?",
@@ -209,5 +208,12 @@
       "redenering": "Groottecriteria bepalen of een commissaris verplicht is.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

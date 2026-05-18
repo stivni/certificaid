@@ -1,8 +1,8 @@
 {
   "id": "cyberrisico-ic",
   "naam": "Cyberrisico in IC-context",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.X.A",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV trof in 2025 een ransomware-aanval het ERP-systeem; productie lag 4 dagen stil, dataverlies € 35.000 herstel + omzetderving € 280.000. Post-incident: investering in EDR-systeem, 2FA voor alle externe toegang, maandelijkse phishing-trainingen, off-line backup off-site.",
   "in_praktijk": [
     {
       "aspect": "Vier hoofdtypen cyberdreigingen",
@@ -65,5 +64,12 @@
       "target": "avg-interne-controle",
       "redenering": "Datalek-implicaties van cyberincident."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV trof in 2025 een ransomware-aanval het ERP-systeem; productie lag 4 dagen stil, dataverlies € 35.000 herstel + omzetderving € 280.000. Post-incident: investering in EDR-systeem, 2FA voor alle externe toegang, maandelijkse phishing-trainingen, off-line backup off-site."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

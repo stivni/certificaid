@@ -2,7 +2,7 @@
   "id": "randvoorwaarden-controle",
   "naam": "Randvoorwaarden voor een controle (preconditions)",
   "node_type": "voorgesteld:randvoorwaarden",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.A",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Vooraleer Wolters & Partners CVBA de audit van Meubelzaak Mertens BV aanvaardt, vergewist Sofie Janssens zich ervan dat (1) de jaarrekening volgens Belgisch jaarrekeningenrecht / KB WVV wordt opgesteld (aanvaardbaar stelsel) en (2) de zaakvoerder erkent zijn verantwoordelijkheden voor de jaarrekening, de IC, en het verschaffen van toegang/informatie.",
   "in_praktijk": [
     {
       "aspect": "Drie management-verantwoordelijkheden",
@@ -79,5 +78,12 @@
       "target": "opdrachtbrief-accountant",
       "redenering": "Randvoorwaarden worden in de opdrachtbrief geverifieerd en bevestigd."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Vooraleer Wolters & Partners CVBA de audit van Meubelzaak Mertens BV aanvaardt, vergewist Sofie Janssens zich ervan dat (1) de jaarrekening volgens Belgisch jaarrekeningenrecht / KB WVV wordt opgesteld (aanvaardbaar stelsel) en (2) de zaakvoerder erkent zijn verantwoordelijkheden voor de jaarrekening, de IC, en het verschaffen van toegang/informatie."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

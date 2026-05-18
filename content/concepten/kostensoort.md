@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/kostensoort.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -41,6 +41,9 @@ _Bron: KB 21.10.2018 Bijlage 1 (MAR) — klasse 6_
 >
 > _Trigger_: Examen-vraag op rekeningenstelsel-organisatie: identificeer of de indeling per soort, per centrum of per drager gebeurt.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

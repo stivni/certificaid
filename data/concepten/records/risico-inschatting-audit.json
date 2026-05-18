@@ -2,7 +2,7 @@
   "id": "risico-inschatting-audit",
   "naam": "Risico-inschatting (audit)",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.B",
@@ -36,7 +36,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Rotex Roeselare NV verwerft Sofie Janssens inzicht door bevragingen bij de CFO + de productieleider, doorlezen van het beleid, cijferanalyses op de afgelopen drie boekjaren, en een rondgang op de werkvloer. Daaruit identificeert ze drie risicogebieden: voorraadwaardering, een aanhangig fiscaal geschil, en het hoge ondernemingskrediet.",
   "stappen": [
     {
       "nr": 1,
@@ -97,5 +96,12 @@
       "target": "auditplanning",
       "redenering": "Risico-inschatting is een planningsstap."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Rotex Roeselare NV verwerft Sofie Janssens inzicht door bevragingen bij de CFO + de productieleider, doorlezen van het beleid, cijferanalyses op de afgelopen drie boekjaren, en een rondgang op de werkvloer. Daaruit identificeert ze drie risicogebieden: voorraadwaardering, een aanhangig fiscaal geschil, en het hoge ondernemingskrediet."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

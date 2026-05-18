@@ -2,7 +2,7 @@
   "id": "gezamenlijke-controle",
   "naam": "Gezamenlijke controle",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -93,7 +93,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio is gemeenschappelijke dochter → evenredige consolidatie 50/50.",
   "voorwaarden": [
     {
       "text": "Een beperkt aantal vennoten (typisch 2 of 3) die samen het beleid bepalen.",
@@ -306,5 +305,12 @@
       "redenering": "Standaard-gevolg van gezamenlijke controle is evenredige consolidatie (KB WVV art. 3:124, 2°).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio is gemeenschappelijke dochter → evenredige consolidatie 50/50."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

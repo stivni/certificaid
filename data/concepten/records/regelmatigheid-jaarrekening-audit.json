@@ -1,8 +1,8 @@
 {
   "id": "regelmatigheid-jaarrekening-audit",
   "naam": "Regelmatigheid van de jaarrekening (audit-perspectief)",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV.A"
@@ -35,7 +35,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Sofie Janssens stelt vast dat de jaarrekening van Meubelzaak Mertens BV een getrouw beeld geeft, maar dat de wettelijk verplichte toelichting over erfdienstbaarheden ontbreekt → onregelmatigheid, op te nemen als observatie in het controleverslag.",
   "vergelijkingsparen": [
     {
       "vergelijking_met": "getrouw-beeld-controle",
@@ -58,5 +57,12 @@
       "target": "getrouw-beeld-controle",
       "redenering": "Twee aparte dimensies van het oordeel — examen-favoriet om uit elkaar te halen."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Sofie Janssens stelt vast dat de jaarrekening van Meubelzaak Mertens BV een getrouw beeld geeft, maar dat de wettelijk verplichte toelichting over erfdienstbaarheden ontbreekt → onregelmatigheid, op te nemen als observatie in het controleverslag."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

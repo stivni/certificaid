@@ -1,8 +1,8 @@
 {
   "id": "getrouw-beeld-jaarrekening",
   "naam": "Getrouw beeld van de jaarrekening",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV",
@@ -233,5 +233,6 @@
       "redenering": "Het getrouwe beeld is de centrale doelstelling waar alle analyse-objectieven onder hangen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

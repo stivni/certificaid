@@ -2,7 +2,7 @@
 title: Interpretatie en evaluatie van financiële ratio's (bekwaamheid)
 tags:
 - concept
-- methode
+- cluster
 - po-1-9
 linked_anchors:
 - 1.9.V.E
@@ -11,9 +11,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.9'
 confidence: inferred
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/interpretatie-financiele-ratios.json
 gegenereerd_op: '2026-05-18'
 ---

@@ -2,7 +2,7 @@
   "id": "kostprijs-per-eenheid",
   "naam": "Kostprijs per eenheid",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.A",
@@ -29,7 +29,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV tapijt — drie kostprijsbegrippen: vervaardigingsprijs € 18 (materiaal + directe arbeid + productie-overhead), volledige bedrijfskostprijs € 22 (+ commercieel + administratief), variabele kostprijs € 13 (alleen variabele kosten). Verkoopprijs € 60. Welke kostprijs gebruiken? Hangt af van vraag.",
   "in_praktijk": [
     {
       "aspect": "Drie gebruiksdoelen, drie cijfers",
@@ -59,5 +58,12 @@
       "redenering": "Hoofduitkomst van analytische boekhouding.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV tapijt — drie kostprijsbegrippen: vervaardigingsprijs € 18 (materiaal + directe arbeid + productie-overhead), volledige bedrijfskostprijs € 22 (+ commercieel + administratief), variabele kostprijs € 13 (alleen variabele kosten). Verkoopprijs € 60. Welke kostprijs gebruiken? Hangt af van vraag."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "ethiek-organisatie-ic",
   "naam": "Ethiek in de organisatie (IC-context)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.G",
@@ -26,7 +26,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV ondertekent elke nieuwe medewerker een gedragscode (integriteit, geheimhouding, geen privé-gebruik bedrijfsmiddelen). Directeur Pieter Vermeulen bespreekt op de jaarlijkse personeelsmeeting twee concrete cases ('wat doe je als een leverancier een geschenk aanbiedt?'). Dit is geen procedure maar cultuur — en zonder die cultuur slijt elke procedure in zes maanden.",
   "in_praktijk": [
     {
       "aspect": "Concrete instrumenten",
@@ -66,5 +65,12 @@
       "target": "klokkenluiderregeling",
       "redenering": "Klokkenluiders zijn een concrete uitwerking van ethische cultuur — kanaal voor melding zonder represailles."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV ondertekent elke nieuwe medewerker een gedragscode (integriteit, geheimhouding, geen privé-gebruik bedrijfsmiddelen). Directeur Pieter Vermeulen bespreekt op de jaarlijkse personeelsmeeting twee concrete cases ('wat doe je als een leverancier een geschenk aanbiedt?'). Dit is geen procedure maar cultuur — en zonder die cultuur slijt elke procedure in zes maanden."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

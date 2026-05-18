@@ -2,7 +2,7 @@
   "id": "stromen-onderneming",
   "naam": "Stromen in de onderneming",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.C",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV bij aankoop grondstoffen: (a) fysieke stroom = grondstoffen komen binnen, magazijnier neemt in ontvangst; (b) informatiestroom = leveringsbon → bestelbon → factuur → boeking; (c) financiële stroom = leveranciersbetaling 30 dagen later. Als de informatiestroom faalt (factuur kwijt), worden de twee andere stromen ontkoppeld: betaling zonder boeking, of boeking zonder betaling.",
   "in_praktijk": [
     {
       "aspect": "Cycli mappen op stromen",
@@ -49,5 +48,12 @@
       "target": "cyclus-analyse-ic",
       "redenering": "Cyclus-analyse vereist begrip van onderliggende stromen."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV bij aankoop grondstoffen: (a) fysieke stroom = grondstoffen komen binnen, magazijnier neemt in ontvangst; (b) informatiestroom = leveringsbon → bestelbon → factuur → boeking; (c) financiële stroom = leveranciersbetaling 30 dagen later. Als de informatiestroom faalt (factuur kwijt), worden de twee andere stromen ontkoppeld: betaling zonder boeking, of boeking zonder betaling."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

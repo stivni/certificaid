@@ -2,7 +2,7 @@
   "id": "gemiddelde-kostprijs",
   "naam": "Gemiddelde kostprijs",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.E"
@@ -26,7 +26,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV: totale kosten € 1.060.000/jaar (€ 800.000 vast + € 260.000 variabel bij 20.000 tapijten). Gemiddelde kostprijs = € 1.060.000 / 20.000 = € 53/tapijt. Bij 25.000 tapijten: € 1.125.000 / 25.000 = € 45/tapijt (vaste kost-aandeel per stuk daalt).",
   "in_praktijk": [
     {
       "aspect": "Lange-termijn richtprijs",
@@ -55,5 +54,12 @@
       "redenering": "Tegenpool.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV: totale kosten € 1.060.000/jaar (€ 800.000 vast + € 260.000 variabel bij 20.000 tapijten). Gemiddelde kostprijs = € 1.060.000 / 20.000 = € 53/tapijt. Bij 25.000 tapijten: € 1.125.000 / 25.000 = € 45/tapijt (vaste kost-aandeel per stuk daalt)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "auditrisico-1-7-context",
   "naam": "Auditrisico's in IC-context",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.V.E",
@@ -40,7 +40,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV inschat Sofie Janssens het inherente risico op voorraadwaardering als 'middel-hoog' (productie-WIP, schatting nodig). Intern beheersingsrisico = 'laag' want maandelijkse stockcount + ERP met audit trail. Dus IR×CR = middel → detectierisico mag iets hoger → minder substantieve testwerk nodig.",
   "edges": [
     {
       "type": "specialisatie-van",
@@ -52,5 +51,12 @@
       "target": "toetsing-interne-beheersing",
       "redenering": "Een lage CR-inschatting moet ondersteund worden door toetsing-van-controls (test of controls)."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV inschat Sofie Janssens het inherente risico op voorraadwaardering als 'middel-hoog' (productie-WIP, schatting nodig). Intern beheersingsrisico = 'laag' want maandelijkse stockcount + ERP met audit trail. Dus IR×CR = middel → detectierisico mag iets hoger → minder substantieve testwerk nodig."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -2,7 +2,7 @@
   "id": "aangepast-oordeel",
   "naam": "Aangepast oordeel (modified opinion)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Bij Naaiatelier Ninove BV ontdekt Sofie Janssens dat de continuïteitsveronderstelling materieel onzeker is én onvoldoende toegelicht. Eén stevige afwijking → oordeel met voorbehoud (aangepast oordeel).",
   "in_praktijk": [
     {
       "aspect": "Basis voor het oordeel apart vermelden",
@@ -61,5 +60,12 @@
       "target": "controleoordeel-types",
       "redenering": "Drie van de vier types vallen onder 'aangepast'."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Naaiatelier Ninove BV ontdekt Sofie Janssens dat de continuïteitsveronderstelling materieel onzeker is én onvoldoende toegelicht. Eén stevige afwijking → oordeel met voorbehoud (aangepast oordeel)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

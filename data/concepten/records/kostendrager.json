@@ -2,7 +2,7 @@
   "id": "kostendrager",
   "naam": "Kostendrager",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.IV.A",
@@ -29,7 +29,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV definieert kostendragers per productlijn: 'ruwwol-garen 50 kg' (kostprijs € 38/eenheid), 'gewoven stoffenrol 100 m' (€ 145/eenheid), 'tapijt standaardmaat' (€ 18/stuk). Voor projectwerk: 'order Brugse Boutique mei 20X1' als afzonderlijke kostendrager.",
   "in_praktijk": [
     {
       "aspect": "Granulariteit kiezen",
@@ -64,5 +63,12 @@
       "redenering": "Tegenpool.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV definieert kostendragers per productlijn: 'ruwwol-garen 50 kg' (kostprijs € 38/eenheid), 'gewoven stoffenrol 100 m' (€ 145/eenheid), 'tapijt standaardmaat' (€ 18/stuk). Voor projectwerk: 'order Brugse Boutique mei 20X1' als afzonderlijke kostendrager."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

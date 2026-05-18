@@ -2,7 +2,7 @@
   "id": "managementcontrole",
   "naam": "Managementcontrole",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.I.C",
@@ -25,7 +25,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV stelt directeur Pieter Vermeulen jaarlijks een budget op per kostencentrum (Spinnerij, Weverij, Confectie). Elke maand vergelijkt hij werkelijke met begrote cijfers, bespreekt afwijkingen > 5% met de afdelingschefs en stuurt bij. Dit is managementcontrole — geen boekhouding, geen audit.",
   "in_praktijk": [
     {
       "aspect": "Drie samenhangende fasen",
@@ -65,5 +64,12 @@
       "target": "interne-controle",
       "redenering": "Betrouwbare cijfers (via IC) zijn voorwaarde voor zinvolle managementcontrole."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV stelt directeur Pieter Vermeulen jaarlijks een budget op per kostencentrum (Spinnerij, Weverij, Confectie). Elke maand vergelijkt hij werkelijke met begrote cijfers, bespreekt afwijkingen > 5% met de afdelingschefs en stuurt bij. Dit is managementcontrole — geen boekhouding, geen audit."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

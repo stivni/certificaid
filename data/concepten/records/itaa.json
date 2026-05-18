@@ -1,8 +1,8 @@
 {
   "id": "itaa",
   "naam": "Instituut van de Belastingadviseurs en Accountants (ITAA)",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.II"
@@ -46,7 +46,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "De gecertificeerd accountant die het bekwaamheidsexamen van het ITAA aflegt, krijgt na slagen het recht de beroepstitel te dragen — een wettelijk gereglementeerd beroep.",
   "bouwstenen": [
     {
       "titel": "Twee titels: accountant + gecertificeerd accountant",
@@ -114,5 +113,12 @@
       "redenering": "ITAA publiceert beroepsnormen die aan de leden gelden.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "De gecertificeerd accountant die het bekwaamheidsexamen van het ITAA aflegt, krijgt na slagen het recht de beroepstitel te dragen — een wettelijk gereglementeerd beroep."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

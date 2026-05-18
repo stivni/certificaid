@@ -2,7 +2,7 @@
   "id": "intragroep-eliminaties",
   "naam": "Intragroep-eliminaties",
   "node_type": "procedure",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -136,7 +136,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV verkoopt voor € 500.000 goederen aan Brugse Brouwerij BV met 30 % marge; Brugse heeft op balansdatum nog 40 % in voorraad → schrap omzet € 500.000 en kostprijs € 500.000 uit de geconsolideerde resultatenrekening (RR), en schrap € 200.000 × 30 % = € 60.000 uit de voorraad en de reserves van de geconsolideerde balans.",
   "stappen": [
     {
       "nr": 1,
@@ -839,5 +838,12 @@
         ]
       }
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV verkoopt voor € 500.000 goederen aan Brugse Brouwerij BV met 30 % marge; Brugse heeft op balansdatum nog 40 % in voorraad → schrap omzet € 500.000 en kostprijs € 500.000 uit de geconsolideerde resultatenrekening (RR), en schrap € 200.000 × 30 % = € 60.000 uit de voorraad en de reserves van de geconsolideerde balans."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

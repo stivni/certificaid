@@ -2,7 +2,7 @@
   "id": "boekhoudplichtige-onderneming",
   "naam": "Boekhoudplichtige onderneming",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.III",
@@ -58,7 +58,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming.",
   "bouwstenen": [
     {
       "titel": "Drie categorieën boekhoudplichtigen",
@@ -163,5 +162,12 @@
       "redenering": "Een boekhoudplichtige onderneming voert ofwel dubbele ofwel vereenvoudigde boekhouding.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

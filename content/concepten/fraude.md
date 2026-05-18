@@ -2,7 +2,7 @@
 title: Fraude
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-7
 linked_anchors:
 - 1.7.VI.B
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: grounded
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/fraude.json
 gegenereerd_op: '2026-05-18'
 ---

@@ -1,8 +1,8 @@
 {
   "id": "fouten-ic",
   "naam": "Fouten in IC-context",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VI.A",
@@ -24,7 +24,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV boekt een nieuwe boekhouder een factuur van € 12.000 onder verkeerd kostencentrum (Spinnerij i.p.v. Weverij). Geen opzet — gewoon vergissing. IC-respons: maandelijkse review per kostencentrum door afdelingschef pikt afwijking op; correctie + verduidelijking in instructie.",
   "in_praktijk": [
     {
       "aspect": "Typische foutsoorten",
@@ -54,5 +53,12 @@
       "target": "fouten-en-fraude",
       "redenering": "Onderdeel van het synthese-overzicht."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV boekt een nieuwe boekhouder een factuur van € 12.000 onder verkeerd kostencentrum (Spinnerij i.p.v. Weverij). Geen opzet — gewoon vergissing. IC-respons: maandelijkse review per kostencentrum door afdelingschef pikt afwijking op; correctie + verduidelijking in instructie."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

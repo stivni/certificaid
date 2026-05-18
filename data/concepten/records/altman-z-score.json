@@ -1,8 +1,8 @@
 {
   "id": "altman-z-score",
   "naam": "Altman Z-score (faillissement-predictiemodel)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.9.VI.B",
@@ -270,5 +270,6 @@
       "redenering": "MVE/VV is variabele 4 (solvabiliteit-equivalent).",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

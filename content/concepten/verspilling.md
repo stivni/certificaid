@@ -2,7 +2,7 @@
 title: Verspilling (rationeel gebruik van middelen)
 tags:
 - concept
-- fenomeen
+- cluster
 - po-1-7
 linked_anchors:
 - 1.7.VI.C
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: inferred
-node_type: fenomeen
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/verspilling.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -38,4 +38,7 @@ Verspilling is het niet-optimaal inzetten van middelen — geen fraude (geen opz
 > [!tip]- IC-respons
 > Periodieke evaluatie van KPI's (capaciteitsbezetting, voorraadrotatie, kost per eenheid), benchmarking, beslissingsdrempels bij grote aankopen, periodieke review abonnementen + licenties. Niet primair een boekhoudkundige controle maar managementcontrole-uitwerking. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

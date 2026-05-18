@@ -1,8 +1,8 @@
 {
   "id": "budgetbeheer",
   "naam": "Budgetbeheer",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.V",
@@ -96,5 +96,6 @@
       "redenering": "Budgetten worden meestal opgehangen aan kostencentra uit de analytische boekhouding.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

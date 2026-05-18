@@ -1,8 +1,8 @@
 {
   "id": "continuiteitsbeginsel",
   "naam": "Boekhoudkundig continuïteitsbeginsel (going concern)",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -63,7 +63,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV koopt een naaimachine voor € 24.000 met geschatte gebruiksduur van 6 jaar. Onder going concern: afschrijving € 4.000/jaar, restwaarde aan eind van jaar 3 op de balans = € 12.000. Bij stopzetting in jaar 3 (uitzondering): waardering naar liquidatiewaarde, bv. tweedehandsmarkt € 7.500 → bijkomende afschrijving € 4.500 in jaar 3.",
   "bouwstenen": [
     {
       "titel": "Standaardregel: voortzetting verondersteld",
@@ -186,5 +185,12 @@
       "target": "vereffening",
       "redenering": "Bij start vereffening kantelt de waardering naar discontinuïteit (CBN 2018/18)."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV koopt een naaimachine voor € 24.000 met geschatte gebruiksduur van 6 jaar. Onder going concern: afschrijving € 4.000/jaar, restwaarde aan eind van jaar 3 op de balans = € 12.000. Bij stopzetting in jaar 3 (uitzondering): waardering naar liquidatiewaarde, bv. tweedehandsmarkt € 7.500 → bijkomende afschrijving € 4.500 in jaar 3."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

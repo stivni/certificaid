@@ -1,8 +1,8 @@
 {
   "id": "consistentiebeginsel",
   "naam": "Consistentiebeginsel",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.V.A",
@@ -44,7 +44,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV waardeert haar grondstoffen sinds altijd via FIFO. In 2024 wil zij overstappen naar gewogen gemiddelde → moet motiveren in toelichting + impact (bv. 'voorraad-waardering daalt met € 45.000, resultaat met € 32.000 na belasting').",
   "bouwstenen": [
     {
       "titel": "Vier velden waarop consistentie geldt",
@@ -136,5 +135,12 @@
       "redenering": "Consistentie waarborgt vergelijkbaarheid in functie van getrouw beeld.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV waardeert haar grondstoffen sinds altijd via FIFO. In 2024 wil zij overstappen naar gewogen gemiddelde → moet motiveren in toelichting + impact (bv. 'voorraad-waardering daalt met € 45.000, resultaat met € 32.000 na belasting')."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

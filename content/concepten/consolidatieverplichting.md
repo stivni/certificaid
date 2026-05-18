@@ -15,7 +15,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/consolidatieverplichting.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -72,6 +72,9 @@ _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 ## Zie ook
 
 - **Vereist kennis van**: [[controle]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -2,7 +2,7 @@
   "id": "directe-kosten",
   "naam": "Directe kosten",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.A",
@@ -36,7 +36,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Yperse Werkplaats BV produceert een order van 500 tapijten voor klant Brugse Boutique. De gebruikte wol (€ 12.000 op factuur, volledig in dit order verwerkt) en de loonkost van naaisters die op de werkbon voor dit order € 4.500 uren registreerden, zijn directe kosten.",
   "in_praktijk": [
     {
       "aspect": "Economisch verantwoord traceren",
@@ -97,5 +96,12 @@
       "redenering": "Tegenpool — examen-valkuil.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV produceert een order van 500 tapijten voor klant Brugse Boutique. De gebruikte wol (€ 12.000 op factuur, volledig in dit order verwerkt) en de loonkost van naaisters die op de werkbon voor dit order € 4.500 uren registreerden, zijn directe kosten."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

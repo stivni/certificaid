@@ -2,16 +2,16 @@
 title: Steekproef bij een audit (audit sampling)
 tags:
 - concept
-- methode
+- cluster
 - po-1-6
 linked_anchors:
 - 1.6.II.C
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: methode
+node_type: cluster
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/steekproef-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -34,6 +34,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Steekproef)_
 > [!tip]- Steekproefrisico — twee soorten foutieve conclusies
 > (a) Conclude dat de IC effectief werkt of dat er geen materiële afwijking is, terwijl dit niet zo is — gevaarlijke fout, beïnvloedt effectiviteit van de audit en de kans op een verkeerd oordeel. (b) Conclude dat de IC niet werkt of dat er een afwijking is, terwijl dit niet zo is — minder gevaarlijk maar verhoogt audit-kost (extra werk om de eerste conclusie te corrigeren). ⚖️
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

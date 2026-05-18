@@ -1,8 +1,8 @@
 {
   "id": "steekproef-audit",
   "naam": "Steekproef bij een audit (audit sampling)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.C"
@@ -30,7 +30,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV heeft 4.500 aankoopfacturen 2025. Sofie Janssens kan onmogelijk alle 4.500 testen. Zij selecteert een statistische steekproef van 60 facturen — gestratificeerd naar bedrag — en toetst per factuur of de IC-controles werden uitgevoerd. Steekproefrisico: 0 fouten in steekproef garandeert niet dat er 0 fouten in de populatie zitten.",
   "in_praktijk": [
     {
       "aspect": "Steekproefrisico — twee soorten foutieve conclusies",
@@ -57,5 +56,12 @@
       "target": "ontdekkingsrisico",
       "redenering": "Steekproefrisico is een component van ontdekkingsrisico."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV heeft 4.500 aankoopfacturen 2025. Sofie Janssens kan onmogelijk alle 4.500 testen. Zij selecteert een statistische steekproef van 60 facturen — gestratificeerd naar bedrag — en toetst per factuur of de IC-controles werden uitgevoerd. Steekproefrisico: 0 fouten in steekproef garandeert niet dat er 0 fouten in de populatie zitten."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

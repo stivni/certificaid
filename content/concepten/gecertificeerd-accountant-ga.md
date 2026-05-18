@@ -2,7 +2,7 @@
 title: Gecertificeerd accountant (GA)
 tags:
 - concept
-- actor
+- autoriteit
 - po-1-6
 linked_anchors:
 - 1.6.I.B
@@ -10,9 +10,9 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: actor
+node_type: autoriteit
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/gecertificeerd-accountant-ga.json
 gegenereerd_op: '2026-05-18'
 ---

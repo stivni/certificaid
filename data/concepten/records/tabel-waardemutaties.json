@@ -1,8 +1,8 @@
 {
   "id": "tabel-waardemutaties",
   "naam": "Tabel van waardemutaties (mutatietabel vaste activa)",
-  "node_type": "methode",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.9.IV.B",
@@ -113,5 +113,6 @@
       "redenering": "Mutatietabel is verplicht onderdeel van toelichting bij volledig schema.",
       "confidence": "grounded"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

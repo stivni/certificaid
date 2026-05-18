@@ -2,7 +2,7 @@
   "id": "resultaat-categorisatie-beslisboom",
   "naam": "Bedrijfs- · financieel · niet-recurrent &mdash; in welke categorie hoort deze verrichting?",
   "node_type": "synthese",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.M",
@@ -137,5 +137,6 @@
       "target": "resultaatverwerking",
       "type": "getriggerd-door"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

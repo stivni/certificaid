@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/uniforme-waarderingsregels-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -72,6 +72,9 @@ _Bron: KB WVV art. 3:116 jo. art. 3:117_
 ## Zie ook
 
 - **Vereist kennis van**: [[consolidatieverplichting]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -1,8 +1,8 @@
 {
   "id": "geassocieerde-onderneming",
   "naam": "Geassocieerde onderneming",
-  "node_type": "actor",
-  "schema_version": "1.4",
+  "node_type": "autoriteit",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.E",
@@ -101,7 +101,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV; geen controle in feite, geen stemovereenkomst. → weerlegbaar invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → opname via vermogensmutatie in de geconsolideerde jaarrekening van Antwerpse.",
   "in_praktijk": [
     {
       "aspect": "Opname in de geconsolideerde jaarrekening",
@@ -323,5 +322,12 @@
       "redenering": "Een geassocieerde onderneming is per definitie een onderneming met invloed van betekenis. Zonder dat begrip vast te hebben kan je geen geassocieerde herkennen.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV; geen controle in feite, geen stemovereenkomst. → weerlegbaar invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → opname via vermogensmutatie in de geconsolideerde jaarrekening van Antwerpse."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

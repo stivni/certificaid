@@ -2,7 +2,7 @@
   "id": "evaluatiecriteria-ic",
   "naam": "Evaluatiecriteria voor interne controle",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.XI",
@@ -25,7 +25,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV evalueert Sofie Janssens de aankoopautorisatie: opzet OK (drempels gedefinieerd, functiescheiding voorzien), maar werking zwak (10 op 25 facturen ontbreekt CFO-handtekening — drempel werd in praktijk genegeerd). Conclusie: design effective, operation NOT effective → aanbeveling aanscherping + maandelijkse exception-review.",
   "in_praktijk": [
     {
       "aspect": "Opzet vs werking",
@@ -55,5 +54,12 @@
       "target": "toetsing-interne-beheersing",
       "redenering": "Externe auditor gebruikt vergelijkbare criteria bij toetsing van controls."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV evalueert Sofie Janssens de aankoopautorisatie: opzet OK (drempels gedefinieerd, functiescheiding voorzien), maar werking zwak (10 op 25 facturen ontbreekt CFO-handtekening — drempel werd in praktijk genegeerd). Conclusie: design effective, operation NOT effective → aanbeveling aanscherping + maandelijkse exception-review."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

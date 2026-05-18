@@ -2,7 +2,7 @@
   "id": "financiering-met-derdenkapitaal",
   "naam": "Financiering met derdenkapitaal (vreemd vermogen)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.9.IV.E",
@@ -114,5 +114,6 @@
       "redenering": "Nieuwe leningen en aflossingen verschijnen in het financierings-segment (CFF).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

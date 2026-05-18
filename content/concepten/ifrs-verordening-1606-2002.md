@@ -13,9 +13,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ifrs-verordening-1606-2002.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # IFRS-verordening 1606/2002 — verplichte toepassing IFRS ⚖️
 

@@ -2,7 +2,7 @@
   "id": "vervaardigingsprijs",
   "naam": "Vervaardigingsprijs",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.A",
@@ -279,5 +279,6 @@
       "redenering": "Vervaardigingsprijs is kern van volledige-kosten-aanpak.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

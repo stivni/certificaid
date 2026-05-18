@@ -2,7 +2,7 @@
   "id": "invloed-van-betekenis",
   "naam": "Invloed van betekenis",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -91,7 +91,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV en heeft een vertegenwoordiger in het bestuur. Geen controle (geen meerderheid, geen stemovereenkomst) → weerlegbaar vermoeden van invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → vermogensmutatie.",
   "drempelwaarden": [
     {
       "naam": "Weerlegbaar vermoeden van invloed van betekenis",
@@ -279,5 +278,12 @@
       "redenering": "Invloed van betekenis is de trigger voor de vermogensmutatiemethode (KB WVV art. 3:142).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV en heeft een vertegenwoordiger in het bestuur. Geen controle (geen meerderheid, geen stemovereenkomst) → weerlegbaar vermoeden van invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → vermogensmutatie."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

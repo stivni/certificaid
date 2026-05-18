@@ -2,7 +2,7 @@
   "id": "controlemiddelen-ic",
   "naam": "Controlemiddelen — concrete instrumenten",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.VIII.D",
@@ -26,7 +26,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV behoren tot de controlemiddelen: ERP-systeem met rollenbeheer + audit trail (digitaal), bestelbon-formulier (papier + digitaal), magazijnbadge (fysiek), digitale handtekening in bank-platform (digitaal), camerabewaking magazijn (fysiek). Elk middel realiseert één of meer beheersactiviteiten.",
   "in_praktijk": [
     {
       "aspect": "Vier categorieën controlemiddelen",
@@ -43,5 +42,12 @@
       "target": "beheersactiviteiten",
       "redenering": "Controlemiddelen zijn instrumenten om beheersactiviteiten uit te voeren."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV behoren tot de controlemiddelen: ERP-systeem met rollenbeheer + audit trail (digitaal), bestelbon-formulier (papier + digitaal), magazijnbadge (fysiek), digitale handtekening in bank-platform (digitaal), camerabewaking magazijn (fysiek). Elk middel realiseert één of meer beheersactiviteiten."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/managementcontrole.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -46,4 +46,7 @@ Managementcontrole is het proces waarmee het management van een onderneming zorg
 ## Zie ook
 
 - **Vereist kennis van**: [[interne-controle]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -2,7 +2,7 @@
   "id": "proef-en-saldibalans",
   "naam": "Proef- en saldibalans",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.III.D",
@@ -51,7 +51,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Meubelzaak Mertens BV maakt eind 2024 een proef- en saldibalans op: rekening 604 Aankopen toont debet € 230.000, credit € 0, saldo € 230.000 debet. Som debet alle rekeningen = som credit alle rekeningen → balans in evenwicht.",
   "bouwstenen": [
     {
       "titel": "Vier kolommen per rekening",
@@ -151,5 +150,12 @@
       "redenering": "Enkel zinvol in dubbele boekhouding (debet/credit-structuur).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Meubelzaak Mertens BV maakt eind 2024 een proef- en saldibalans op: rekening 604 Aankopen toont debet € 230.000, credit € 0, saldo € 230.000 debet. Som debet alle rekeningen = som credit alle rekeningen → balans in evenwicht."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

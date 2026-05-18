@@ -2,7 +2,7 @@
   "id": "informatie-en-communicatie-ic",
   "naam": "Informatie en communicatie (COSO-component 4)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.B",
@@ -27,7 +27,6 @@
       "inputs": []
     }
   },
-  "voorbeeld_inline": "Bij Yperse Werkplaats BV: maandelijkse KPI-dashboard naar directie (omhoog), wekelijkse productie-targets naar voormannen (omlaag), dagelijkse aankoop-productie-afstemming (horizontaal), kwartaalrapport naar bank en aandeelhouders (extern).",
   "edges": [
     {
       "type": "onderdeel-van",
@@ -39,5 +38,12 @@
       "target": "informatiesysteem-onderneming",
       "redenering": "Het informatiesysteem is de drager van informatie & communicatie."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV: maandelijkse KPI-dashboard naar directie (omhoog), wekelijkse productie-targets naar voormannen (omlaag), dagelijkse aankoop-productie-afstemming (horizontaal), kwartaalrapport naar bank en aandeelhouders (extern)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

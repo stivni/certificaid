@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/controleverslag-elementen.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -83,6 +83,9 @@ Schriftelijke handtekening; geen delegatie bij voorbehouden opdrachten. Verzend 
 
 - **Vereist kennis van**: [[controleoordeel-types]]
 - **Vereist kennis van**: [[paragraaf-ter-benadrukking]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

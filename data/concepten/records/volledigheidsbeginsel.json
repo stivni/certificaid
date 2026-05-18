@@ -1,8 +1,8 @@
 {
   "id": "volledigheidsbeginsel",
   "naam": "Volledigheidsbeginsel (boekhouding)",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.III.B",
@@ -55,7 +55,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV heeft een hypotheek toegekend op een pand ten gunste van haar bank → wordt vermeld in de toelichting onder 'Niet in de balans opgenomen rechten en verplichtingen' (rubriek 9, klasse 0), ook al staat het niet op de balans zelf.",
   "bouwstenen": [
     {
       "titel": "Drie types informatie",
@@ -153,5 +152,12 @@
       "redenering": "Inventarisatie is het mechanisme om volledigheid jaarlijks te checken.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV heeft een hypotheek toegekend op een pand ten gunste van haar bank → wordt vermeld in de toelichting onder 'Niet in de balans opgenomen rechten en verplichtingen' (rubriek 9, klasse 0), ook al staat het niet op de balans zelf."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

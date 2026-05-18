@@ -1,8 +1,8 @@
 {
   "id": "continuiteitsveronderstelling-audit",
   "naam": "Continuïteitsveronderstelling (audit-perspectief)",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV.A",
@@ -39,7 +39,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV heeft twee jaar op rij verlies en een negatief eigen vermogen. Sofie Janssens vraagt aan het management een liquiditeitsbegroting op 18 maanden + onderbouwing van de geplande herfinanciering. Resultaat: redelijk plan met krediettoezegging van de bank → continuïteit blijft als veronderstelling aanvaardbaar, maar Sofie neemt een paragraaf ter benadrukking op in haar verslag over de materiële onzekerheid.",
   "in_praktijk": [
     {
       "aspect": "Bij twijfel: extra werk",
@@ -84,5 +83,12 @@
       "target": "paragraaf-ter-benadrukking",
       "redenering": "Standaardgereedschap om materiële continuïteitsonzekerheid te signaleren."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV heeft twee jaar op rij verlies en een negatief eigen vermogen. Sofie Janssens vraagt aan het management een liquiditeitsbegroting op 18 maanden + onderbouwing van de geplande herfinanciering. Resultaat: redelijk plan met krediettoezegging van de bank → continuïteit blijft als veronderstelling aanvaardbaar, maar Sofie neemt een paragraaf ter benadrukking op in haar verslag over de materiële onzekerheid."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

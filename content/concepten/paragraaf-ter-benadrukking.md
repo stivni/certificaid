@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/paragraaf-ter-benadrukking.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -36,6 +36,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 >
 > _Trigger_: Is er een materiële afwijking of scope-beperking? Ja → aangepast oordeel. Nee, maar wel belangrijk gevolg dat correct in jaarrekening staat → paragraaf ter benadrukking.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -2,7 +2,7 @@
   "id": "microvennootschap",
   "naam": "Microvennootschap (WVV art. 1:25)",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.B",
@@ -48,7 +48,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Oprichtingen Oostende BV — 4 werknemers, € 380.000 omzet, € 380.000 balanstotaal, geen dochters, geen moeder → microvennootschap → mag microschema gebruiken.",
   "bouwstenen": [
     {
       "titel": "Twee voorwaarden",
@@ -141,5 +140,12 @@
       "redenering": "Micro-drempels zijn vastgelegd in WVV art. 1:25.",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Oprichtingen Oostende BV — 4 werknemers, € 380.000 omzet, € 380.000 balanstotaal, geen dochters, geen moeder → microvennootschap → mag microschema gebruiken."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

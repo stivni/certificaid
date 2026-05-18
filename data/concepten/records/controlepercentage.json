@@ -2,7 +2,7 @@
   "id": "controlepercentage",
   "naam": "Controlepercentage",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -93,7 +93,6 @@
       }
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV; Brugse bezit op haar beurt 60 % stemrechten in Drukkerij Dendermonde BV → controlepercentage van Aurelia in Drukkerij Dendermonde = 60 % (niet 48 %; vermenigvuldigen geldt enkel voor belang).",
   "in_praktijk": [
     {
       "aspect": "Onderscheid met belangenpercentage",
@@ -369,5 +368,12 @@
       "redenering": "Een controlepercentage > 50 % stemrechten triggert in beginsel integrale consolidatie (KB WVV art. 3:124, 1°).",
       "confidence": "inferred"
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV; Brugse bezit op haar beurt 60 % stemrechten in Drukkerij Dendermonde BV → controlepercentage van Aurelia in Drukkerij Dendermonde = 60 % (niet 48 %; vermenigvuldigen geldt enkel voor belang)."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

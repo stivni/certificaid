@@ -1,8 +1,8 @@
 {
   "id": "getrouw-beeld",
   "naam": "Getrouw beeld",
-  "node_type": "beginsel",
-  "schema_version": "1.4",
+  "node_type": "regel",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.I.B",
@@ -43,7 +43,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Rotex Roeselare NV bezit een grond met aanschaffingswaarde € 1.200.000. Na een rampschade is de werkelijke waarde gezakt tot € 650.000. Het strikt volgen van 'aanschaffingswaarde − afschrijving' geeft geen getrouw beeld → uitzonderlijke waardevermindering van € 550.000 wordt geboekt, met motivering in de toelichting.",
   "bouwstenen": [
     {
       "titel": "Drievoudige toets: vermogen, positie, resultaat",
@@ -161,5 +160,12 @@
       "target": "voorzichtigheidsbeginsel",
       "redenering": "Getrouw beeld bouwt voort op voorzichtigheid, oprechtheid en goede trouw."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Rotex Roeselare NV bezit een grond met aanschaffingswaarde € 1.200.000. Na een rampschade is de werkelijke waarde gezakt tot € 650.000. Het strikt volgen van 'aanschaffingswaarde − afschrijving' geeft geen getrouw beeld → uitzonderlijke waardevermindering van € 550.000 wordt geboekt, met motivering in de toelichting."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

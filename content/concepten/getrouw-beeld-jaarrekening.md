@@ -2,7 +2,7 @@
 title: Getrouw beeld van de jaarrekening
 tags:
 - concept
-- beginsel
+- regel
 - po-1-2
 - po-1-3
 - po-1-9
@@ -22,9 +22,9 @@ programmaonderdelen:
 - '1.3'
 - '1.9'
 confidence: grounded
-node_type: beginsel
+node_type: regel
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/getrouw-beeld-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---

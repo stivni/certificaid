@@ -2,7 +2,7 @@
   "id": "verbonden-partijen-audit",
   "naam": "Verbonden partijen (audit-perspectief)",
   "node_type": "regel",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.A",
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "De zaakvoerder van Meubelzaak Mertens BV verhuurt een loods aan zijn eigen vennootschap voor € 4.500/maand. Verbonden-partij-transactie. Sofie Janssens vraagt het huurcontract, vergelijkt met marktconforme huurprijzen, en checkt of de transactie correct werd toegelicht in de jaarrekening. Risico-indicator voor fraude indien niet at-arms-length.",
   "in_praktijk": [
     {
       "aspect": "Fraude-indicatoren bij verbonden partijen",
@@ -66,5 +65,12 @@
       "target": "fraude-versus-fout",
       "redenering": "Verbonden-partij-transacties zijn klassieke fraude-vectoren."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "De zaakvoerder van Meubelzaak Mertens BV verhuurt een loods aan zijn eigen vennootschap voor € 4.500/maand. Verbonden-partij-transactie. Sofie Janssens vraagt het huurcontract, vergelijkt met marktconforme huurprijzen, en checkt of de transactie correct werd toegelicht in de jaarrekening. Risico-indicator voor fraude indien niet at-arms-length."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

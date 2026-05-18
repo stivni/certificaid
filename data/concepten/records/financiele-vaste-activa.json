@@ -2,7 +2,7 @@
   "id": "financiele-vaste-activa",
   "naam": "Financiële vaste activa",
   "node_type": "begrip",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.C"
@@ -46,7 +46,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000 met de bedoeling de brouwerij duurzaam te ondersteunen. Boeking: Debet 280 Deelnemingen in verbonden ondernemingen € 1.600.000 / Credit 550 Bank € 1.600.000. Waardering blijft op aanschaffingswaarde; pas bij duurzame minderwaarde (bv. structurele verliezen brouwerij) wordt waardevermindering geboekt op rekening 280/289.",
   "bouwstenen": [
     {
       "titel": "Duurzaam ondersteuningsoogmerk",
@@ -191,5 +190,12 @@
       "target": "geldbelegging",
       "redenering": "Klassieke examenkeuze: vast vs vlottend op basis van oogmerk."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000 met de bedoeling de brouwerij duurzaam te ondersteunen. Boeking: Debet 280 Deelnemingen in verbonden ondernemingen € 1.600.000 / Credit 550 Bank € 1.600.000. Waardering blijft op aanschaffingswaarde; pas bij duurzame minderwaarde (bv. structurele verliezen brouwerij) wordt waardevermindering geboekt op rekening 280/289."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }

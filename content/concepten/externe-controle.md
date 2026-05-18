@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.4'
+schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/externe-controle.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -55,6 +55,9 @@ _Bron: KB 1 maart 1998 plichtenleer art. 13, 17, 18_
 
 - **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
 - **Getriggerd door**: [[wettelijke-controleopdracht-commissaris]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

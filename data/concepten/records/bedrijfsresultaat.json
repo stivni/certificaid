@@ -1,8 +1,8 @@
 {
   "id": "bedrijfsresultaat",
   "naam": "Bedrijfsresultaat (bedrijfskosten en bedrijfsopbrengsten)",
-  "node_type": "fenomeen",
-  "schema_version": "1.4",
+  "node_type": "cluster",
+  "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.M",
@@ -47,7 +47,6 @@
       ]
     }
   },
-  "voorbeeld_inline": "Naaiatelier Ninove BV 20X1: omzet € 1.250.000 (rekening 70), voorraadwijziging gereed product +€ 22.300 (71), totaal bedrijfsopbrengsten € 1.272.300. Bedrijfskosten: aankopen grondstoffen € 450.000 (60), diensten en diverse goederen € 185.000 (61), bezoldigingen + sociale lasten € 380.000 (62), afschrijvingen € 95.000 (630), waardeverminderingen € 8.500 (634), andere bedrijfskosten € 18.000 (64) → totaal € 1.136.500. Bedrijfsresultaat = € 1.272.300 − € 1.136.500 = € 135.800.",
   "bouwstenen": [
     {
       "titel": "Klasse 70 — Omzet",
@@ -209,5 +208,12 @@
       "target": "voorraden",
       "redenering": "Voorraadwijziging is een directe component van bedrijfsresultaat."
     }
-  ]
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV 20X1: omzet € 1.250.000 (rekening 70), voorraadwijziging gereed product +€ 22.300 (71), totaal bedrijfsopbrengsten € 1.272.300. Bedrijfskosten: aankopen grondstoffen € 450.000 (60), diensten en diverse goederen € 185.000 (61), bezoldigingen + sociale lasten € 380.000 (62), afschrijvingen € 95.000 (630), waardeverminderingen € 8.500 (634), andere bedrijfskosten € 18.000 (64) → totaal € 1.136.500. Bedrijfsresultaat = € 1.272.300 − € 1.136.500 = € 135.800."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
 }
