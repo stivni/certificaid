@@ -27,14 +27,36 @@ EXAMEN_VRAGEN_DIR = ROOT / "data" / "programma" / "examen_vragen"
 TIER_VOLGORDE = {"A": 0, "B": 1, "C": 2}
 
 
+class SubVraag(TypedDict):
+    """Eén sub-vraag uit een vraagblok.
+
+    type-waardes:
+    - "j_f_set": een set van juist/fout-stellingen onder één context (één
+      voorbeeldvraag, meerdere stellingen)
+    - "mc": multiple-choice met opties
+    - "open": open vraag of onbekende structuur
+    """
+    sub_id: str
+    type: str  # "j_f_set" | "mc" | "open"
+    stem: str
+    context: str
+    opties: list[str]
+    stellingen: list[str]
+
+
 class ExamenfocusVraag(TypedDict):
-    """Eén voorbeeldvraag binnen een examenfocus-groep."""
+    """Eén voorbeeldvraag binnen een examenfocus-groep.
+
+    sub_vragen[] is gevuld als de PDF-extract atomaire sub-vragen heeft
+    geïdentificeerd; anders leeg en render gebruikt vraag_tekst direct.
+    """
     examen_id: str
     vraag_id: str
     vraag_nr: str
     tier: str
     vraag_tekst: str
     antwoord_motivering: str | None
+    sub_vragen: list[SubVraag]
 
 
 class ExamenfocusGroep(TypedDict):
@@ -114,6 +136,7 @@ def laad_examenfocus_groepen(records_van_po: set[str]) -> list[ExamenfocusGroep]
                 tier=vv.get("tier", "C"),
                 vraag_tekst=(vraag_detail or {}).get("vraagtekst", ""),
                 antwoord_motivering=(vraag_detail or {}).get("antwoord_motivering"),
+                sub_vragen=(vraag_detail or {}).get("sub_vragen", []) or [],
             ))
         vragen.sort(key=lambda v: (TIER_VOLGORDE.get(v["tier"], 9), v["examen_id"], v["vraag_id"]))
 

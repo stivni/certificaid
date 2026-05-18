@@ -11,6 +11,7 @@ import pdfplumber
 from datetime import datetime
 from pathlib import Path
 
+from tools.examen._sub_vragen_splitter import splits_in_sub_vragen
 from tools.examen._vraagtekst_normalisatie import normaliseer as normaliseer_vraagtekst
 
 TOOL_ID = "vragen-extractie-v1"
@@ -420,6 +421,7 @@ def extract_vragen_uit_sectie(
             "vak_naam_in_pdf": vak_naam,
             "vraagtype": vraagtype,
             "vraagtekst": vraagtekst,
+            "sub_vragen": splits_in_sub_vragen(vraagtekst),
             "correct_antwoord": None,
             "antwoord_motivering": None,
             "themas": themas,
@@ -531,6 +533,7 @@ def parse_2024_1(pages: list[str]) -> list[dict]:
         wets_refs = extract_wetsrefs(blok)
 
         vr_counter += 1
+        norm_vraagtekst = normaliseer_vraagtekst(blok[:2000])
         vraag: dict = {
             "id": f"{examen_id}-vr{vr_counter}",
             "vraag_nr": nr,
@@ -539,7 +542,8 @@ def parse_2024_1(pages: list[str]) -> list[dict]:
             "vak_code_in_pdf": vak_code,
             "vak_naam_in_pdf": vak_naam,
             "vraagtype": vraagtype,
-            "vraagtekst": normaliseer_vraagtekst(blok[:2000]),
+            "vraagtekst": norm_vraagtekst,
+            "sub_vragen": splits_in_sub_vragen(norm_vraagtekst),
             "correct_antwoord": None,
             "antwoord_motivering": None,
             "themas": themas,

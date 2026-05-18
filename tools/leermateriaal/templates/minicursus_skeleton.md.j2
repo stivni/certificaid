@@ -210,6 +210,26 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {% endif %}
 {% for v in groep.vragen %}
+{% if v.sub_vragen %}
+{% for sv in v.sub_vragen %}
+{% set type_label = {'j_f_set': 'juist/fout', 'mc': 'meerkeuze', 'open': 'open'}.get(sv.type, sv.type) %}
+> [!question]- ITAA {{ v.examen_id }} vraag {{ v.vraag_nr }}.{{ sv.sub_id }} · {{ type_label }} (tier {{ v.tier }})
+> {{ sv.stem | replace('\n', '\n> ') }}
+{% if sv.stellingen %}
+>
+{% for st in sv.stellingen %}
+> - {{ st | replace('\n', '\n>   ') }}
+{% endfor %}
+{% endif %}
+{% if sv.opties %}
+>
+{% for opt in sv.opties %}
+> - {{ opt | replace('\n', '\n>   ') }}
+{% endfor %}
+{% endif %}
+
+{% endfor %}
+{% else %}
 > [!question]- ITAA {{ v.examen_id }} vraag {{ v.vraag_nr }} (tier {{ v.tier }})
 > {{ v.vraag_tekst | replace('\n', '\n> ') }}
 {% if v.antwoord_motivering %}
@@ -218,6 +238,7 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 > > {{ v.antwoord_motivering | replace('\n', '\n> > ') }}
 {% endif %}
 
+{% endif %}
 {% endfor %}
 
 {% endfor %}

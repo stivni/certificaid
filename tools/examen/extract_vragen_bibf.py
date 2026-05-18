@@ -24,6 +24,7 @@ from typing import Optional
 
 import pdfplumber
 
+from tools.examen._sub_vragen_splitter import splits_in_sub_vragen
 from tools.examen._vraagtekst_normalisatie import normaliseer as normaliseer_vraagtekst
 
 TOOL_ID = "vragen-extractie-v1-bibf"
@@ -346,6 +347,7 @@ def build_vraag_record(
         "vak_naam_in_pdf": SECTION_HEADERS[vak_code],
         "vraagtype": vraagtype,
         "vraagtekst": vraagtekst,
+        "sub_vragen": splits_in_sub_vragen(vraagtekst),
         "correct_antwoord": correct_antwoord,
         "antwoord_motivering": antwoord_motivering,
         "themas": themas,
