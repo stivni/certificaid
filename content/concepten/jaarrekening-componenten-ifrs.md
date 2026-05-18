@@ -1,5 +1,5 @@
 ---
-title: Componenten van een IFRS-jaarrekening (IAS 1)
+title: Componenten van een IFRS-jaarrekening
 tags:
 - concept
 - begrip
@@ -14,10 +14,10 @@ confidence: grounded
 node_type: begrip
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/ias-1-jaarrekening-componenten.json
+gegenereerd_uit: data/concepten/records/jaarrekening-componenten-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Componenten van een IFRS-jaarrekening (IAS 1) ⚖️
+# Componenten van een IFRS-jaarrekening ⚖️
 
 > [!summary] Korte inhoud
 > Onder IAS 1 — Presentatie van de jaarrekening bestaat een volledige IFRS-jaarrekening uit **vijf vaste componenten**: (1) een overzicht van de financiële positie aan het eind van de periode (de 'IFRS-balans'); (2) een overzicht van het totaalresultaat over de periode (winst of ve….

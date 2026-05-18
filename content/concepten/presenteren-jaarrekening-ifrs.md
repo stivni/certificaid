@@ -1,5 +1,5 @@
 ---
-title: Presenteren van een IFRS-jaarrekening volgens IAS 1 (5 componenten en presentatiebeginselen)
+title: Presenteren van een IFRS-jaarrekening (vijf componenten en presentatiebeginselen)
 tags:
 - concept
 - competentie
@@ -15,10 +15,10 @@ confidence: inferred
 node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/presenteren-ifrs-jaarrekening-volgens-ias-1.json
+gegenereerd_uit: data/concepten/records/presenteren-jaarrekening-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Presenteren van een IFRS-jaarrekening volgens IAS 1 (5 componenten en presentatiebeginselen) 🤖
+# Presenteren van een IFRS-jaarrekening (vijf componenten en presentatiebeginselen) 🤖
 
 
 ## Stappen

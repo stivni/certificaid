@@ -28,6 +28,13 @@ gegenereerd_op: '2026-05-18'
 
 
 
+## Kerninzichten
+
+-  🤖
+-  ⚖️
+-  🤖
+-  ⚖️
+
 ## Bronnen
 
 [^1]: `EU-IFRS-verordening-1606-2002__art_4`

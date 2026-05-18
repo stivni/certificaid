@@ -1,5 +1,5 @@
 ---
-title: Algemene presentatie-beginselen (IAS 1)
+title: Algemene presentatiebeginselen IFRS-jaarrekening
 tags:
 - concept
 - regel
@@ -13,15 +13,15 @@ confidence: grounded
 node_type: regel
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/ias-1-presentatie-beginselen.json
+gegenereerd_uit: data/concepten/records/presentatiebeginselen-jaarrekening-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Algemene presentatie-beginselen (IAS 1) ⚖️
+# Algemene presentatiebeginselen IFRS-jaarrekening ⚖️
 
 > [!summary] Korte inhoud
 > IAS 1 legt zes algemene presentatie-beginselen op die altijd gelden bij het opstellen van een IFRS-jaarrekening: (1) **getrouw beeld + naleving van IFRSs** — een getrouw beeld wordt verkregen door naleving van de toepasselijke standaarden; (2) **continuïteit (going concern)** — d….
 
-> [!info] Behoort tot: [[ias-1-jaarrekening-componenten]]
+> [!info] Behoort tot: [[jaarrekening-componenten-ifrs]]
 
 IAS 1 legt zes algemene presentatie-beginselen op die altijd gelden bij het opstellen van een IFRS-jaarrekening: (1) **getrouw beeld + naleving van IFRSs** — een getrouw beeld wordt verkregen door naleving van de toepasselijke standaarden; (2) **continuïteit (going concern)** — de jaarrekening wordt opgesteld in de veronderstelling dat de entiteit haar continuïteit waarborgt, tenzij vereffening of stopzetting voorzien is; (3) **toerekeningsbeginsel (accrual basis)** — alle componenten behalve het kasstroomoverzicht worden opgesteld volgens toerekening, niet kasbasis; (4) **materialiteit en aggregatie** — materiële categorieën soortgelijke posten worden afzonderlijk gepresenteerd; (5) **saldering verboden** — activa/verplichtingen of baten/lasten mogen niet gesaldeerd worden tenzij een IFRS dat expliciet toestaat; (6) **consistentie van presentatie** — dezelfde presentatie en classificatie van boekjaar tot boekjaar handhaven, tenzij wijziging noodzakelijk is. Daarnaast geldt frequentie minstens jaarlijks en verplichte vergelijkende informatie.
 

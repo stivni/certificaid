@@ -1,5 +1,5 @@
 ---
-title: Mutatieoverzicht eigen vermogen (IAS 1)
+title: Mutatieoverzicht eigen vermogen (IFRS)
 tags:
 - concept
 - begrip
@@ -13,15 +13,15 @@ confidence: grounded
 node_type: begrip
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/ias-1-mutatieoverzicht-eigen-vermogen.json
+gegenereerd_uit: data/concepten/records/mutatieoverzicht-eigen-vermogen-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Mutatieoverzicht eigen vermogen (IAS 1) ⚖️
+# Mutatieoverzicht eigen vermogen (IFRS) ⚖️
 
 > [!summary] Korte inhoud
 > Het **mutatieoverzicht eigen vermogen** (Statement of Changes in Equity, SOCIE) is de derde verplichte component van een IFRS-jaarrekening (IAS 1 alinea 10c).
 
-> [!info] Behoort tot: [[ias-1-jaarrekening-componenten]]
+> [!info] Behoort tot: [[jaarrekening-componenten-ifrs]]
 
 Het **mutatieoverzicht eigen vermogen** (Statement of Changes in Equity, SOCIE) is de derde verplichte component van een IFRS-jaarrekening (IAS 1 alinea 10c). Het toont de **verzoening tussen begin- en eindsaldo van elke component van het eigen vermogen** over de verslagperiode: geplaatst kapitaal, agio (uitgiftepremies), herwaarderingsreserve, hedge-reserve, omrekeningsverschillen, ingehouden winsten, eigen aandelen, belangen zonder zeggenschap, etc. Voor elke component (alinea 106): begin-saldo + totaalresultaat van de periode (winst of verlies + OCI relevant voor die component) + transacties met eigenaars (dividenduitkeringen, kapitaalverhogingen, terugkoop eigen aandelen, op-aandelen-gebaseerde betalingen) + correcties voor schattingswijzigingen of fouten = eind-saldo. Wijzigingen in grondslagen voor financiële verslaggeving en correctie van materiële fouten worden retroactief verwerkt en separaat getoond (alinea 106A).
 

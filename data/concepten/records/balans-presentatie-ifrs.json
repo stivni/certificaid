@@ -1,6 +1,6 @@
 {
-  "id": "ias-1-balans-presentatie",
-  "naam": "IFRS-balanspresentatie — vlottend versus niet-vlottend (IAS 1)",
+  "id": "balans-presentatie-ifrs",
+  "naam": "IFRS-balanspresentatie — vlottend versus niet-vlottend",
   "node_type": "regel",
   "schema_version": "1.5",
   "status": "seed",
@@ -192,7 +192,7 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "ias-1-jaarrekening-componenten",
+      "target": "jaarrekening-componenten-ifrs",
       "redenering": "Balanspresentatie is component 1 van de IFRS-jaarrekening.",
       "confidence": "grounded"
     }
@@ -203,5 +203,13 @@
       "omschrijving": "In de IFRS-balans van Zelena Bio NV per 31 december 2026: niet-vlottende activa: materiële vaste activa € 145.000.000, immateriële activa € 25.000.000, vastgoedbeleggingen € 18.000.000; vlottende activa: voorraden € 32.000.000, handelsvorderingen € 28.000.000, geldmiddelen € 15.000.000. Niet-vlottende passiva: langlopende obligatielening € 60.000.000 (vervalt 2031); vlottende passiva: handelsschulden € 18.000.000, kortlopende bankleningen € 12.000.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "rename_history": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
+      "old_id": "ias-1-balans-presentatie",
+      "reden": "v4 §17 regel 11 naming-conventie: <concept>-<specialisatie>, niet <specialisatie>-<concept>. ias-1- prefix = bron-prefix; bron-relatie staat al in source.short."
+    }
+  ]
 }

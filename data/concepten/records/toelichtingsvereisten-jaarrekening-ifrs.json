@@ -1,6 +1,6 @@
 {
-  "id": "ias-1-toelichtingsvereisten",
-  "naam": "Toelichtingsvereisten onder IAS 1 — structuur en inhoud",
+  "id": "toelichtingsvereisten-jaarrekening-ifrs",
+  "naam": "Toelichtingsvereisten IFRS-jaarrekening — structuur en inhoud",
   "node_type": "regel",
   "schema_version": "1.5",
   "status": "seed",
@@ -205,7 +205,7 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "ias-1-jaarrekening-componenten",
+      "target": "jaarrekening-componenten-ifrs",
       "redenering": "Toelichting is component 5 van een IFRS-jaarrekening.",
       "confidence": "grounded"
     }
@@ -216,5 +216,14 @@
       "omschrijving": "Zelena Bio NV toelichting 2026 bevat: noot 1 'Algemene informatie' (statutaire zetel, hoofdactiviteit), noot 2 'Grondslagen voor financiële verslaggeving' (12 subnoten over MVA, voorraden, leasing, opbrengsten, etc.), noot 3 'Significante schattingen' (impairment-test goodwill, levensduur productielijn), noten 4-25 toelichting per balanspost, noten 26-40 toelichting per W&V-post, noten 41-45 verbonden partijen, gebeurtenissen na balansdatum, etc. Totaal 45 toelichtingsnoten over ongeveer 70 pagina's."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "vergelijkingsparen": [],
+  "rename_history": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
+      "old_id": "ias-1-toelichtingsvereisten",
+      "reden": "v4 §17 regel 11 naming-conventie: <concept>-<specialisatie>, niet <specialisatie>-<concept>. ias-1- prefix = bron-prefix; bron-relatie staat al in source.short."
+    }
+  ]
 }

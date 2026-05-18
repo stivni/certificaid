@@ -2,7 +2,7 @@
 title: Eerste toepassing van IFRS (IFRS 1)
 tags:
 - concept
-- procedure
+- cluster
 - po-1-5
 linked_anchors:
 - 1.5.IV.A
@@ -10,7 +10,7 @@ linked_anchors:
 programmaonderdelen:
 - '1.5'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ifrs-eerste-toepassing.json
@@ -26,15 +26,9 @@ IFRS 1 — Eerste toepassing van International Financial Reporting Standards (IF
 _Bron: IFRS 1 alinea's 1-12_
 
 
-## Tijdlijn
+## Berekening
 
-| Stap | Termijn | Actor | Actie |
-|---|---|---|---|
-| Datum van overgang naar IFRS — IFRS-openingsbalans opstellen | Begindatum vergelijkende periode (typisch 1 januari Y−1) | Onderneming + IFRS-team | Volledige IFRS-openingsbalans opstellen, aanpassingen in ingehouden winsten |
-| Vergelijkende verslagperiode — registreer alle transacties parallel onder IFRS | Eerste vergelijkende boekjaar (Y−1) | Onderneming | Schaduw-rapportering onder IFRS naast de wettelijke BE-GAAP-rapportering |
-| Eerste IFRS-verslagperiode — publicatie eerste IFRS-jaarrekening | Eerste IFRS-boekjaar (Y) | Onderneming + commissaris | Publicatie eerste IFRS-jaarrekening met aansluitingstabellen + IAS 1 minimum drie balansen (Y, Y−1, openingsbalans Y−1) |
-
-## Stappen
+### Procedure eerste toepassing IFRS — vijf stappen
 
 ### 1. Bepaal de datum van overgang naar IFRS
 
@@ -164,6 +158,14 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 **Grondslag**: IFRS 1 alinea's 23-25 (toelichting en aansluitingen)
 
 
+## Tijdlijn
+
+| Stap | Termijn | Actor | Actie |
+|---|---|---|---|
+| Datum van overgang naar IFRS — IFRS-openingsbalans opstellen | Begindatum vergelijkende periode (typisch 1 januari Y−1) | Onderneming + IFRS-team | Volledige IFRS-openingsbalans opstellen, aanpassingen in ingehouden winsten |
+| Vergelijkende verslagperiode — registreer alle transacties parallel onder IFRS | Eerste vergelijkende boekjaar (Y−1) | Onderneming | Schaduw-rapportering onder IFRS naast de wettelijke BE-GAAP-rapportering |
+| Eerste IFRS-verslagperiode — publicatie eerste IFRS-jaarrekening | Eerste IFRS-boekjaar (Y) | Onderneming + commissaris | Publicatie eerste IFRS-jaarrekening met aansluitingstabellen + IAS 1 minimum drie balansen (Y, Y−1, openingsbalans Y−1) |
+
 ## Valkuilen
 
 > [!warning]- Het aanpassingsverschil bij eerste toepassing gaat **niet** via winst of verlies maar rechtstreeks naar ingehouden winsten
@@ -188,11 +190,14 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 ## Zie ook
 
 - **Getriggerd door**: [[ifrs-verordening-1606-2002]]
-- **Vereist kennis van**: [[ias-1-jaarrekening-componenten]]
+- **Vereist kennis van**: [[jaarrekening-componenten-ifrs]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 
-[^1]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_doel`
-[^2]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering`
-[^3]: `EU-IFRS-verordening-1606-2002__art_1`
-[^4]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_presentatie-en-informatieverschaffing`
+[^1]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering`
+[^2]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_presentatie-en-informatieverschaffing`
+[^3]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_doel`
+[^4]: `EU-IFRS-verordening-1606-2002__art_1`

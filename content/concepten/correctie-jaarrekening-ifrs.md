@@ -2,7 +2,7 @@
 title: Correctie van de jaarrekening — IAS 8 versus CBN 2020/12
 tags:
 - concept
-- procedure
+- cluster
 - po-1-5
 linked_anchors:
 - 1.5.IV.C
@@ -10,7 +10,7 @@ linked_anchors:
 programmaonderdelen:
 - '1.5'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/correctie-jaarrekening-ifrs.json
@@ -47,7 +47,9 @@ Indien retroactieve toepassing voor een eerdere periode **praktisch onhaalbaar**
 _Grondslag: IAS 8 alinea 23-25 + 43_
 
 
-## Stappen
+## Berekening
+
+### Procedure correctie jaarrekening — classificatie en behandeling
 
 ### 1. Classificeer de aanpassing
 
@@ -140,7 +142,7 @@ Bij schattingswijziging: GEEN aanpassing van vergelijkende periodes. De wijzigin
 
 ## Zie ook
 
-- **Vereist kennis van**: [[ias-1-mutatieoverzicht-eigen-vermogen]]
+- **Vereist kennis van**: [[mutatieoverzicht-eigen-vermogen-ifrs]]
 
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.

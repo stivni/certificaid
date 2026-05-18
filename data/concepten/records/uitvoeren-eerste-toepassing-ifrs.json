@@ -21,7 +21,7 @@
   "gebaseerd_op_concepten": [
     "ifrs-eerste-toepassing",
     "wijziging-boekhoudkundig-referentiestelsel",
-    "ias-1-jaarrekening-componenten",
+    "jaarrekening-componenten-ifrs",
     "be-gaap-vs-ifrs-overzicht"
   ],
   "procedure_grondslag": {
@@ -212,5 +212,12 @@
     "1.5.IV",
     "1.5.IV.C"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "rename_propagation_log": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
+      "reden": "gebaseerd_op_concepten[] na rename-pass §17 regel 11"
+    }
+  ]
 }

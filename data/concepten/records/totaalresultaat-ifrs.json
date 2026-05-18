@@ -1,6 +1,6 @@
 {
-  "id": "ias-1-winst-en-totaalresultaat",
-  "naam": "Winst of verlies en overige onderdelen van het totaalresultaat (IAS 1)",
+  "id": "totaalresultaat-ifrs",
+  "naam": "Winst of verlies en overige onderdelen van het totaalresultaat (IFRS)",
   "node_type": "begrip",
   "schema_version": "1.5",
   "status": "seed",
@@ -184,7 +184,7 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "ias-1-jaarrekening-componenten",
+      "target": "jaarrekening-componenten-ifrs",
       "redenering": "Totaalresultaat is component 2 van een IFRS-jaarrekening.",
       "confidence": "grounded"
     }
@@ -195,5 +195,14 @@
       "omschrijving": "Zelena Bio NV totaalresultaat 2026: winst € 35.000.000 + OCI: herwaardering terreinen +€ 4.500.000 (na uitgestelde belasting) + wisselkoersverschillen Argentijnse dochter −€ 800.000 + actuariële winsten pensioenplan +€ 320.000 = totaalresultaat **€ 39.020.000**."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "vergelijkingsparen": [],
+  "rename_history": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
+      "old_id": "ias-1-winst-en-totaalresultaat",
+      "reden": "v4 §17 regel 11 naming-conventie: <concept>-<specialisatie>, niet <specialisatie>-<concept>. ias-1- prefix = bron-prefix; bron-relatie staat al in source.short."
+    }
+  ]
 }

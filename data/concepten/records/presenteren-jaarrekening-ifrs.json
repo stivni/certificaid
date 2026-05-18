@@ -1,6 +1,6 @@
 {
-  "id": "presenteren-ifrs-jaarrekening-volgens-ias-1",
-  "naam": "Presenteren van een IFRS-jaarrekening volgens IAS 1 (5 componenten en presentatiebeginselen)",
+  "id": "presenteren-jaarrekening-ifrs",
+  "naam": "Presenteren van een IFRS-jaarrekening (vijf componenten en presentatiebeginselen)",
   "node_type": "competentie",
   "schema_version": "1.5",
   "titel": "Presenteren van een IFRS-jaarrekening volgens IAS 1 (5 componenten en presentatiebeginselen)",
@@ -198,5 +198,13 @@
     "1.5.IV",
     "1.5.IV.C"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "rename_history": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
+      "old_id": "presenteren-ifrs-jaarrekening-volgens-ias-1",
+      "reden": "v4 §17 regel 11 naming-conventie: <concept>-<specialisatie>, niet <specialisatie>-<concept>. ias-1- prefix = bron-prefix; bron-relatie staat al in source.short."
+    }
+  ]
 }

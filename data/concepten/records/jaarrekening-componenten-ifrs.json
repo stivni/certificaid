@@ -1,6 +1,6 @@
 {
-  "id": "ias-1-jaarrekening-componenten",
-  "naam": "Componenten van een IFRS-jaarrekening (IAS 1)",
+  "id": "jaarrekening-componenten-ifrs",
+  "naam": "Componenten van een IFRS-jaarrekening",
   "node_type": "begrip",
   "schema_version": "1.5",
   "status": "seed",
@@ -301,5 +301,13 @@
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
-  "edges_cleanup_at": "2026-05-18T02:28:50Z"
+  "edges_cleanup_at": "2026-05-18T02:28:50Z",
+  "rename_history": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
+      "old_id": "ias-1-jaarrekening-componenten",
+      "reden": "v4 §17 regel 11 naming-conventie: <concept>-<specialisatie>, niet <specialisatie>-<concept>. ias-1- prefix = bron-prefix; bron-relatie staat al in source.short."
+    }
+  ]
 }

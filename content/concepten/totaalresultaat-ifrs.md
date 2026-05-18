@@ -1,5 +1,5 @@
 ---
-title: Winst of verlies en overige onderdelen van het totaalresultaat (IAS 1)
+title: Winst of verlies en overige onderdelen van het totaalresultaat (IFRS)
 tags:
 - concept
 - begrip
@@ -13,15 +13,15 @@ confidence: grounded
 node_type: begrip
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/ias-1-winst-en-totaalresultaat.json
+gegenereerd_uit: data/concepten/records/totaalresultaat-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Winst of verlies en overige onderdelen van het totaalresultaat (IAS 1) ⚖️
+# Winst of verlies en overige onderdelen van het totaalresultaat (IFRS) ⚖️
 
 > [!summary] Korte inhoud
 > Onder IAS 1 omvat het **totaalresultaat** twee onderdelen: (1) **winst of verlies** (profit or loss) — de klassieke W&V-componenten zoals opbrengsten, kostprijs van omzet, financieringskosten, belastingen; en (2) **overige onderdelen van het totaalresultaat** (Other Comprehensive….
 
-> [!info] Behoort tot: [[ias-1-jaarrekening-componenten]]
+> [!info] Behoort tot: [[jaarrekening-componenten-ifrs]]
 
 Onder IAS 1 omvat het **totaalresultaat** twee onderdelen: (1) **winst of verlies** (profit or loss) — de klassieke W&V-componenten zoals opbrengsten, kostprijs van omzet, financieringskosten, belastingen; en (2) **overige onderdelen van het totaalresultaat** (Other Comprehensive Income, OCI) — baten en lasten die door specifieke IFRS-en bewust BUITEN winst of verlies worden opgenomen. OCI omvat onder meer: wijzigingen in herwaarderingsreserves (IAS 16, IAS 38), herwaarderingen van toegezegdpensioenregelingen (IAS 19), wisselkoersverschillen uit omrekening buitenlandse activiteit (IAS 21), reële-waardewijzigingen op specifieke financiële activa (IFRS 9), effectieve deel van kasstroom-hedge-instrumenten (IFRS 9), kredietrisico-component bij FVTPL-verplichtingen, tijdswaarde-componenten van optie-hedges. Een entiteit mag het totaalresultaat presenteren in één enkel overzicht (winst of verlies + OCI samen) of in twee afzonderlijke overzichten (eerst W&V, dan totaalresultaat).
 
