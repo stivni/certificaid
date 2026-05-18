@@ -93,6 +93,16 @@ Status 2026-05-18: `_programmaonderdeel_classificatie.json` bevat **70 vragen** 
 
 Blokkerend voor: échte v1.0-validatie van PO 1.5+ records.
 
+### 3.6 — Feedback-loop consolidatie + prompt-aanpassingen (review-sessie 2026-05-18)
+
+Bij review van `data/concepten/quality_checks/` (nu verwijderd) kwamen drie verbeteringen naar boven die de feedback-loop op records harmoniseren:
+
+1. ✅ **Gaps-feedback consolideren naar één formaat + locatie** (uitgevoerd 2026-05-18). Vandaag (vóór deze pass) schreef EXTRACT v4 naar twee plekken (`quality_checks/<po>/dangling-references-<run_id>.json` apart + `data/extractie/gaps.json`), plus een legacy examen-eval-format. Nu: alle gestructureerde feedback op records (`dangling-reference`, `records.ontbreekt`, `bron-gap`, `granulariteit.beslissing-nodig`, `context-edge-ontbreekt`, examen-evaluatie-aspecten) gaat naar `data/extractie/gaps.json` append-only. Aangepast: `prompts/concept-extractie-v4.md` §Gaps.json (was: Dangling-references + Gaps.json apart), `prompts/concept-verify-v1.md` aspect-vocabulaire (twee nieuwe waarden), [docs/adr/ADR-008-concept-extractie.md](docs/adr/ADR-008-concept-extractie.md) §166-170 + §13.5 (globale artefacten-tabel), [CLAUDE.md](CLAUDE.md) mappenstructuur (`quality_checks/` verwijderd). Narratieve patroon-rapporten horen in `v4-extraction-rapport.md` / VERIFY-rapport, niet in gaps.json.
+
+2. **Schema 1.6 — `oorzaken[]` / `componenten[]` enumeratie-veld.** Vandaag heeft schema 1.5 wel `bouwstenen[]` (structureel-decompositioneel, "uit welke onderdelen bestaat X") en `voorbeelden[]` (illustratief), maar geen gestructureerde causale lijst ("waarom ontstaat X"). Historische examenvragen vragen herhaaldelijk "geef de N voornaamste oorzaken" (positief consolidatieverschil: 4 oorzaken — examen 2013-2-vr8 én 2015-1-vr11 identiek). Voorstel: optioneel veld `oorzaken[]` (of `componenten[]` — naam-keuze) op `begrip`/`regel`-records, sub-shape `{label, text, confidence, source, _provenance}`. Wanneer de wet geen lijst geeft maar doctrine wel: `confidence: inferred` of `doctrine-grounded` mits bron-passage gedocumenteerd. Additive, geen breaking change. Sluit aan bij andere schema 1.6-werk in §6.0 (situering-paragraph).
+
+3. **EXTRACT-prompt — context-via-edges proactief.** Schema 1.5 heeft 7 edge-types waarvan `specialisatie-van` (met `regime`-facet), `onderdeel-van` en `vereist-kennis-van` exact bedoeld zijn voor scope/regime/context. Probleem: de v4-prompt noemt dit alleen reactief, als regime-conflict-fix (regel 11 §510-525). Voorstel: aparte regel "Context-via-edges-verplichting" — élk record onder een specifiek regime, niveau of overkoepelend fenomeen moet expliciet een edge naar dat overkoepelende concept hebben (`right-of-use-actief` → `specialisatie-van: ifrs-16`, `consolidatieverschil` → `onderdeel-van: geconsolideerde-jaarrekening`, etc.). VERIFY-bevinding `context-edge-ontbreekt` als aspect in gaps.json voor records die deze edge missen. Voorkomt scope-verwarring (statutaire vs. geconsolideerde goodwill) zonder dat een dedicated `toepassingsniveau`/`regime`-veld nodig is.
+
 ### 3.5 — Touch-up PO 1.1-1.4
 
 Delta-rapport toont 135 HIGH-stale records in 1.1-1.4 (vooral 1.3 ratio-records met IFRS-9-bronnen). Lichter werk dan 1.5-1.9 omdat records al schema 1.4 deep-rewriten hadden, maar v4-prompt-bevindingen (bron-prefix, multi-concept-smell) moeten toegepast.
@@ -171,6 +181,14 @@ Omkerings-labels per edge-type (ADR-010 §bidirectionele-edge-render). 6/7 edges
 ### 6.6 — Pilot-render PO 1.5 end-to-end
 Na 6.0–6.5: render PO 1.5 (waar centrale concept-laag-pass net op draait) volledig end-to-end. Validatie: kloppen wikilinks, klopt situering, kloppen bidirectionele edges, klopt taak-binding (oriëntatie + markers + dashboard), klopt examen-rubriek? Eventuele blocking issues terug naar betreffende sub-taak.
 
+### 6.7 — Diff-changelog vanaf v1.0 (ADR-010 §versionering-vervangen)
+- `tools/leermateriaal/build_changelog.py`: git-diff vs laatste publieke tag, filter content/concepten + competenties + studiemateriaal, classificeer inhoudelijk vs render-only, aggregeer per minicursus.
+- `content/changelog/index.md` + `content/changelog/<id>.md` per record. Chronologisch nieuwste eerst.
+- `render_*.py`: badge `> [!update] Bijgewerkt sinds v<tag>` op elke gewijzigde fiche, link naar `/changelog/<id>`.
+- User-triggered tagging — geen automatische tag bij commit. Zet v1.0-tag pas bij eerste publieke release.
+- Hangt aan: na §6.6 pilot (eerst content op orde, dan changelog erop bouwen). Niet blokkerend voor v1.0 — kan ook ná v1.0 als post-release feature.
+- Vervangt: `content/snapshots/<v>/`-append-only-pad uit ADR-010 §2 (gesuperseded).
+
 ---
 
 ## Doorlopend — Onderhoud
@@ -204,7 +222,8 @@ Plus nieuwe: `backup/pre-schema-1.5-migration-2026-05-18`. Bij geen issue gedure
 
 - **ADR-008 §13.2**: content-pattern-based VERIFY-checks (open punt sinds 2026-05-15)
 - **ADR-008 §18.7** open punten: coordinator-pattern, sub-agent eigenaarschap voor verwijderingen, loop-limiet bij gap-events
-- **ADR-010**: revisie pending — concept-fiches als reference, minicursus als primair
+- ~~**ADR-010**: revisie pending — concept-fiches als reference, minicursus als primair~~ ✅ Vastgelegd 2026-05-18 (§interpretatieve-laag + 5 implicaties)
+- **ADR-010 — tutor + synthese-records**: tutor retrievet via concepten-RAG ook synthese-records, maar §implicatie-2 verwijderde de losse fiche. Open: stuurt tutor ruwe record-JSON als context, of mini-render-on-the-fly (vergelijkingstabel + mermaid als markdown)? Niet urgent — geen synthese-records in productie tot §6.3 minicursus-render hen inbedt.
 - **ADR-019**: `anchor_propagation_log` veld dat een 1.5.I-agent introduceerde — niet in schema 1.5 gedocumenteerd, te normaliseren
 
 ---

@@ -343,6 +343,69 @@ Templates lezen zowel `record["edges"]` (uitgaand) als `inverse_edges[record["id
 
 **Niet** in scope van §6.1: edges naar non-existent records (dangling). Die worden al gevangen door bestaande `_dangling`-flag (ADR-007). Render skip-rendert dangling-edges met een TODO-callout voor de curator.
 
+### Versionering vervangen door diff-changelog (2026-05-18)
+
+§2 van dit ADR ("Leermateriaal = release-snapshot" met `content/snapshots/<v>/`-append-only-pad) is **gesuperseded** door deze sectie. Achtergrond: het snapshot-model nam aan dat leermateriaal één-op-één een gerenderd record was en dus stabiel gevroren kon worden. De interpretatieve laag (§implicatie-1 t/m 5) maakt dat duurder dan nuttig — een minicursus is een net van wikilinks over levende records, en de hele dependency-tree bevriezen is overhead die niemand vraagt.
+
+**Wat de student écht nodig heeft**: niet "de leerstof verandert niet meer", maar *"als hij verandert tussen mijn voorbereidingsruns, wil ik weten **wát** veranderd is zodat ik gericht kan terugkijken."*
+
+#### Model — git-tag + diff-changelog
+
+```
+v1.0-tag (eerste publieke release; user-triggered "dit is v1.0")
+  ↓
+continu evoluerende content/  (records-API + render-pipeline blijven gewoon doorwerken)
+  ↓
+bij elke deploy: changelog-generator
+  ↓
+Quartz-site:
+  - /changelog/ pagina  (chronologisch, alle wijzigingen sinds v1.0 of vorige tag)
+  - per-fiche badge   ("Bijgewerkt sinds v1.0" indien recent gewijzigd)
+```
+
+**Geen** `content/snapshots/<v>/`-directory. **Geen** kopieën van content per release. Git-history *is* het snapshot-mechanisme; changelog-pagina is de leesvorm voor de student.
+
+#### Changelog-generator (te bouwen — §6.7)
+
+Een script `tools/leermateriaal/build_changelog.py` dat:
+1. Git-diff vergelijkt tussen huidige HEAD en laatste publieke tag (default `v1.0`, overrideable)
+2. Wijzigingen filtert tot `content/concepten/`, `content/competenties/`, `content/studiemateriaal/`
+3. Wijzigingen classificeert per type:
+   - **Inhoudelijk** — record-field-wijzigingen (definitie, bouwstenen, valkuilen, voorbeelden, ...). Hoog-signaal voor student.
+   - **Render-only** — template- of styling-wijzigingen die de markdown vernieuwen zonder semantische verandering. Laag-signaal, gegroepeerd of weggelaten in changelog.
+   - **Structureel** — nieuw record, verwijderd record, hernoemd record. Hoog-signaal.
+4. Per minicursus aggregeert: welke onderliggende records (via wikilinks + leerpad-binding) zijn gewijzigd? Toont "minicursus X.Y: §3 raakt aan 2 gewijzigde concepten".
+5. Renderet als `content/changelog/index.md` (chronologisch, nieuwste eerst) + `content/changelog/<concept-id>.md` voor diep-link per record.
+
+**Classificatie inhoudelijk vs render-only**: heuristisch op gewijzigde regels. Een commit met enkel template-aanpassingen in `tools/leermateriaal/templates/*.j2` produceert render-only wijzigingen ondanks dat alle fiches verschillen. Een commit met record-mutaties (via records-API) produceert inhoudelijke wijzigingen. Bij twijfel: inhoudelijk (false positive is goedaardig — laag-signaal-noise; false negative = student mist een echte wijziging).
+
+#### Per-fiche "Bijgewerkt"-badge
+
+Render-laag voegt aan elke concept-, competentie- en minicursus-fiche een badge toe wanneer:
+- De onderliggende record-JSON gewijzigd is sinds vorige publieke tag, **én**
+- De wijziging als "inhoudelijk" classificeert (niet render-only)
+
+Badge-vorm: callout `> [!update] Bijgewerkt sinds v1.0` met link naar `/changelog/<id>` voor detail.
+
+Vervalt automatisch bij volgende tag (v1.1) — badge toont alleen wijzigingen sinds de **laatste** publieke release de student gezien kan hebben.
+
+#### User-triggered tagging
+
+Tags worden **niet** automatisch gezet. De curator (jij) zegt expliciet *"dit is v1.0"* of *"dit wordt v1.1"* via `git tag`. Reden: changelogs moeten betekenisvolle releases markeren (na verwerken van examen-feedback, na een PO-uitrol-batch, ...) — niet elke push.
+
+Gevolg: tussen v1.0 en v1.1 kan de site veel commits ver liggen — changelog accumuleert alle wijzigingen. Pas bij v1.1-tag wordt de teller gereset voor de "sinds vorige release"-vergelijking; absolute changelog (sinds v1.0) blijft chronologisch op `/changelog/`.
+
+#### Wat hiermee vervalt
+
+- `content/snapshots/<v>/`-directory — was nooit gemaakt, blijft afwezig
+- Append-only-release-pad uit §2 — vervalt
+- "Tussentijdse wijzigingen verschijnen niet tot nieuwe snapshot" — vervalt; alle wijzigingen verschijnen direct op de live site, met badge + changelog als context
+
+#### Wat blijft uit §2
+
+- **Confidence-labeling overal** (§3, ⚖️/🤖) — onveranderd, doorgaande discipline
+- **Kenniselement-dekkingscheck als release-gate** (§6) — verschuift naar v1.0-tag-criterium in plaats van snapshot-criterium. Vóór je de v1.0-tag zet, moet de dekkingscheck groen zijn voor de PO's in scope. Na v1.0 mag de check ook geel staan op nieuwe PO's-in-uitrol — die tonen als "in ontwikkeling" op de site.
+
 ### Studiemateriaal-schrijfregels (§6.3, placeholder, 2026-05-18)
 
 Een apart document `docs/studiemateriaal-schrijfregels.md` (te schrijven) is nodig — analoog aan `docs/concept-schrijfregels.md` voor de data-laag. Scope:
