@@ -3,6 +3,11 @@ Vragen-extractie-v1: Extraheer examenvragen uit ITAA voorbeeldexamen-PDFs.
 
 Deterministisch script — geen LLM-calls. Gebruikt pdfplumber voor PDF-extractie.
 Themas worden op basis van trefwoorden toegewezen (niet gegenereerd).
+
+DEPRECATED (ADR-021): Vervangen door `tools.examen.extract_vragen_v2` met
+gestructureerde vraagtekst_blokken[]. v1 wordt nog gebruikt door v2 als
+helper-laag voor 2024-1 + gedeelde helpers (detect_vraagtype, parse_opties,
+extract_themas, ...). Run directe v1-extractie alleen als regressie-test.
 """
 
 import json
@@ -599,4 +604,10 @@ def run_extractie():
 
 
 if __name__ == "__main__":
+    print(
+        "DEPRECATED: gebruik tools.examen.extract_vragen_v2 (ADR-021) voor "
+        "examenvragen-extractie. v1 wordt alleen behouden als regressie-net "
+        "tot v2 stabiel is.",
+        file=__import__("sys").stderr,
+    )
     run_extractie()

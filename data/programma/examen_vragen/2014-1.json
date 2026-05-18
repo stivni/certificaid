@@ -121,14 +121,18 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "MC-casus over herwaarderingsmeerwaarde op octrooi (1980), volledig afgeschreven, verkocht 2013. Zie subvragen a)-d).",
+      "antwoord_motivering": "Casus die KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde) toepast op een volledig afgeschreven octrooi dat wordt vervreemd.",
       "themas": [
         "herwaarderingsmeerwaarden",
         "afschrijvingen",
         "herwaarderingsmeerwaarden"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:35",
+        "KB WVV art. 3:30",
+        "KB WVV art. 3:48"
+      ],
       "opties": [
         {
           "label": "A",
@@ -151,24 +155,143 @@
         {
           "label": "a)",
           "tekst": "Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?",
-          "punten": null
+          "punten": null,
+          "antwoord_type": "kwalificatie",
+          "correct_antwoord": "De meerwaarde moet geïncorporeerd worden in het kapitaal (of overgeboekt naar de uitkeerbare reserves). Bij vervreemding van het geherwaardeerde actief mag de niet-uitkeerbare herwaarderingsmeerwaarde niet langer op rekening 12 blijven staan.",
+          "antwoord_motivering": "Bij vervreemding van een geherwaardeerd actief wordt de **niet-uitkeerbare herwaarderingsmeerwaarde gerealiseerd** en moet ze van rekening 12 ('Herwaarderingsmeerwaarden') af. ⚖️ Twee toegelaten bestemmingen onder KB WVV art. 3:35: (1) overboeking naar de uitkeerbare reserves, OF (2) inlijving in het kapitaal (kapitaalverhoging door incorporatie van reserves).\n\nVan de vier MC-opties is **optie 3 \"moet geïncorporeerd worden in het kapitaal\"** een van de twee toegelaten bestemmingen — strikt genomen geen verplichting (de andere optie is ook valide), maar de meest specifieke optie die past binnen de wettelijke ruimte. **Optie 1** (\"op het passief van de balans behouden\") is fout: de meerwaarde wordt bij vervreemding gerealiseerd. **Optie 2** (\"mag niet op de balans worden behouden\") is feitelijk juist als algemene stelling maar niet als bestemming-aanduiding. **Optie 4** (\"gespreid over 5 jaar in resultaat\") is fout: KB WVV art. 3:35 voorziet géén gespreide opname in resultaat bij vervreemding.\n\n_Grondslag: KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde bij vervreemding); [[herwaarderingsmeerwaarden]] §Vervreemding._",
+          "antwoord_bron": [
+            {
+              "record": "content/concepten/herwaarderingsmeerwaarden.md",
+              "sectie": "Bouwstenen — Vervreemding: realisatie van de meerwaarde",
+              "ondersteunt": "twee bestemmingen bij vervreemding"
+            }
+          ],
+          "antwoord_provenance": {
+            "generator": "claude-opus-4-7",
+            "datum": "2026-05-19",
+            "antwoord_type": "kwalificatie",
+            "checklist_versie": "1.0",
+            "verify_passed": true,
+            "policy_versie_wet": "huidig",
+            "gates_gepasseerd": [
+              "claim_coverage",
+              "geen_externe_kennis"
+            ]
+          },
+          "antwoord_confidence": "grounded",
+          "record_gap_report": null
         },
         {
           "label": "b)",
           "tekst": "Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?",
-          "punten": null
+          "punten": null,
+          "antwoord_type": "opsomming",
+          "correct_antwoord": "De middelste optie: ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel bij latere minderwaarden uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde.",
+          "antwoord_motivering": "KB WVV art. 3:35 voorziet drie toegelaten bestemmingen voor een herwaarderingsmeerwaarde:\n\n1. **Overboeking naar de uitkeerbare reserves** tot beloop van het bedrag van de op de meerwaarde **reeds geboekte afschrijvingen** (dus parallel met de gespreide realisatie via afschrijvingen op de geherwaardeerde boekwaarde). ⚖️\n2. **Inlijving in het kapitaal** (kapitaalverhoging door incorporatie van reserves) — voor het volledige bedrag. ⚖️\n3. **Bij latere minderwaarden** op het geherwaardeerde actief: **uitboeking** van de meerwaarde tot beloop van het **nog niet afgeschreven** bedrag (om de minderwaarde tegen de meerwaarde te compenseren in plaats van als verlies te boeken). ⚖️\n\nDe **middelste MC-optie** verwoordt deze drie bestemmingen correct (overboeking tot beloop van afschrijvingen, inlijving, of uitboeking bij minderwaarden). De **eerste optie** zegt foutief \"overboeking naar reserves tot beloop van het nog niet afgeschreven bedrag\" — dat is omgekeerd. De **derde optie** koppelt foutief inlijving in kapitaal aan de \"afschrijvingen geboekt op de meerwaarde\" als limiet — wat niet klopt: inlijving in kapitaal geldt voor het volledige saldo van rek 12.\n\n_Grondslag: KB WVV art. 3:35; [[herwaarderingsmeerwaarden]] §Bouwstenen._",
+          "antwoord_bron": [
+            {
+              "record": "content/concepten/herwaarderingsmeerwaarden.md",
+              "sectie": "Bouwstenen — Strikte voorwaarden + Vervreemding",
+              "ondersteunt": "drie bestemmingen + grondslag KB WVV 3:35"
+            }
+          ],
+          "antwoord_provenance": {
+            "generator": "claude-opus-4-7",
+            "datum": "2026-05-19",
+            "antwoord_type": "opsomming",
+            "checklist_versie": "1.0",
+            "verify_passed": true,
+            "policy_versie_wet": "huidig",
+            "gates_gepasseerd": [
+              "claim_coverage",
+              "geen_externe_kennis"
+            ]
+          },
+          "antwoord_confidence": "grounded",
+          "record_gap_report": null
         },
         {
           "label": "c)",
           "tekst": "Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag\nworden overgeboekt?",
-          "punten": null
+          "punten": null,
+          "antwoord_type": "berekening",
+          "correct_antwoord": "25.000 EUR — het volledige bedrag van de oorspronkelijk geboekte herwaarderingsmeerwaarde, als de meerwaarde op rekening 12 stond tot moment van vervreemding (geen gespreide realisatie via afschrijvingen). Bij gespreide realisatie via afschrijvingen zou het bedrag al 0 zijn want octrooi volledig afgeschreven.",
+          "antwoord_motivering": "**Twee scenarios** (KB WVV art. 3:35 staat beide toe):\n\n**Scenario A — Meerwaarde gespreid gerealiseerd via afschrijvingen** (de \"schone\" boekhoudkundige praktijk):\nBij elke afschrijving op de geherwaardeerde boekwaarde wordt een evenredig deel van de meerwaarde overgeboekt van rek 12 naar uitkeerbare reserves (KB WVV art. 3:35: \"overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen\"). Bij volledige afschrijving van het octrooi → rek 12 saldo = **0 EUR**. Niets meer over te boeken bij vervreemding. 🤖\n\n**Scenario B — Meerwaarde bleef integraal op rek 12 staan** (geen gespreide realisatie): \nDe vraag zegt dat het octrooi \"thans volledig afgeschreven\" is maar specificeert niet dat de meerwaarde ook is doorgeboekt. Veel bedrijven (vooral oudere dossiers — boeking in 1980) houden de meerwaarde op rek 12 tot vervreemding. In dat geval: **25.000 EUR** kan op moment van verkoop worden overgeboekt naar uitkeerbare reserves (of geïncorporeerd in kapitaal). 🤖\n\n**Wat verwacht ITAA?** De vraag stelt impliciet dat rek 12 nog 25.000 EUR draagt (anders zou de subvraag overbodig zijn). Dus **antwoord = 25.000 EUR**.\n\n⚠️ Belangrijk: dit is alleen de **bestemming** van de herwaarderingsmeerwaarde op rek 12 — niet de winst op de verkoop. Het verkochte octrooi (boekwaarde 0) wordt voor 100.000 EUR verkocht → 100.000 EUR komt als opbrengst in W&V (uitzonderlijk resultaat / niet-recurrent), apart van de bestemming van rek 12. ⚖️\n\n_Grondslag: KB WVV art. 3:35; [[herwaarderingsmeerwaarden]]._",
+          "antwoord_bron": [
+            {
+              "record": "content/concepten/herwaarderingsmeerwaarden.md",
+              "sectie": "Bouwstenen — Vervreemding",
+              "ondersteunt": "realisatie bij vervreemding"
+            }
+          ],
+          "antwoord_provenance": {
+            "generator": "claude-opus-4-7",
+            "datum": "2026-05-19",
+            "antwoord_type": "berekening",
+            "checklist_versie": "1.0",
+            "verify_passed": true,
+            "policy_versie_wet": "huidig",
+            "gates_gepasseerd": [
+              "claim_coverage",
+              "geen_externe_kennis"
+            ],
+            "opmerking": "Vraagtekst is dubbelzinnig over scenario A vs B; meest gangbare ITAA-verwachting is 25.000 EUR (scenario B)."
+          },
+          "antwoord_confidence": "inferred",
+          "record_gap_report": null
         },
         {
           "label": "d)",
           "tekst": "Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had\nen in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een\nherwaardering van 100.000 EUR te boeken?",
-          "punten": null
+          "punten": null,
+          "antwoord_type": "kwalificatie",
+          "correct_antwoord": "Een nieuwe herwaardering op een volledig afgeschreven actief is uitzonderlijk en alleen toegelaten als de meerwaarde zeker, duurzaam en onontbeerlijk is voor de bedrijfsuitoefening (KB WVV art. 3:35). De 100.000 EUR zou dan worden geboekt: Debet 21x Octrooi 100.000 / Credit 12 Herwaarderingsmeerwaarden 100.000. Verantwoording in toelichting is vereist.",
+          "antwoord_motivering": "Bij een volledig afgeschreven actief (boekwaarde 0) staat onder BE GAAP **geen nieuwe herwaardering** zonder strikte voorwaarden. Twee mogelijke wegen:\n\n1. **Nieuwe herwaardering** onder de drie cumulatieve voorwaarden van KB WVV art. 3:35 (zie [[herwaarderingsmeerwaarden]] §Strikte voorwaarden):\n   - **Zeker** (de meerwaarde is geen vermoeden)\n   - **Duurzaam** (geen tijdelijke marktopstoot)\n   - **Onontbeerlijk** voor de continuïteit van de bedrijfsactiviteit (de boekhoudkundige waarde geeft anders een misleidend beeld)\n   \n   Bij voldoening: Debet rek 21x Octrooi 100.000 EUR / Credit rek 12 Herwaarderingsmeerwaarden 100.000 EUR. Verantwoording in toelichting verplicht. ⚖️\n\n2. **Terugname van afschrijvingen** (KB WVV art. 3:48) — als bewezen kan worden dat de oorspronkelijke afschrijvingen overdreven waren (te snelle afschrijfduur, foute schatting). Dit is een correctie van het verleden, geen nieuwe herwaardering. Beperkte toepassing.\n\n**Risico's** bij herwaardering op afgeschreven IVA: octrooien hebben typisch een beperkte juridische beschermingsperiode (max. 20 jaar Belgisch recht). Een octrooi uit 1980 zou normaal vervallen zijn → de \"duurzaamheid\" van de meerwaarde is moeilijk te onderbouwen. 🤖 De auditor zou hier kritisch staan tegenover de herwaardering.\n\n⚠️ De meerwaarde is **niet-uitkeerbaar** zolang ze niet gerealiseerd is (door afschrijving of vervreemding) — KB WVV art. 3:35.\n\n_Grondslag: KB WVV art. 3:35 (herwaardering + voorwaarden); KB WVV art. 3:48 (terugname afschrijvingen)._",
+          "antwoord_bron": [
+            {
+              "record": "content/concepten/herwaarderingsmeerwaarden.md",
+              "sectie": "Bouwstenen — Strikte voorwaarden: zeker, duurzaam, onontbeerlijk",
+              "ondersteunt": "voorwaarden nieuwe herwaardering"
+            },
+            {
+              "record": "content/concepten/herwaarderingsmeerwaarden.md",
+              "sectie": "Toepassingsgebied: ook immateriële vaste activa",
+              "ondersteunt": "herwaardering geldt voor IVA inclusief octrooien"
+            }
+          ],
+          "antwoord_provenance": {
+            "generator": "claude-opus-4-7",
+            "datum": "2026-05-19",
+            "antwoord_type": "kwalificatie",
+            "checklist_versie": "1.0",
+            "verify_passed": true,
+            "policy_versie_wet": "huidig",
+            "gates_gepasseerd": [
+              "claim_coverage",
+              "geen_externe_kennis"
+            ]
+          },
+          "antwoord_confidence": "inferred",
+          "record_gap_report": null
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr4",
@@ -439,12 +562,66 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "M in A: 70 % controle, 70 % belang, integrale consolidatie. M in B: 30 % controle, 30 % belang, vermogensmutatie. M in C (via A → 60 %, B-keten gebroken wegens geen exclusieve controle): 60 % controle, 48 % belang (= 70 %×60 % + 30 %×20 %), integrale consolidatie.",
+      "antwoord_motivering": "Op basis van de structuur in de vraagtekst (gestructureerde tabel + diagram):\n\n**Aandeelhoudersketen** (interpretatie van het diagram \"M / 70% 30% / 60% 20% / A B C\"):\n- M heeft directe deelnemingen: **70 % in A** en **30 % in B**\n- A heeft een deelneming van **60 % in C**\n- B heeft een deelneming van **20 % in C**\n\n**Toepassing van de regels** (zie [[berekenen-controle-en-belangenpercentage]] + [[kiezen-consolidatiemethode]] + [[kwalificeren-relatie-deelneming]]):\n\n### M in A\n- **Controlepercentage**: 70 % directe stemrechten > 50 % → **exclusieve controle in rechte** ⚖️\n- **Belangenpercentage**: 70 % (direct) ⚖️\n- **Consolidatiemethode**: **integrale consolidatie** (dochter onder exclusieve controle). Belangen van derden = 30 %. ⚖️\n\n### M in B\n- **Controlepercentage**: 30 % directe stemrechten — geen exclusieve controle (< 50 %), maar ≥ 20 % → **vermoeden van invloed van betekenis** (geassocieerde onderneming) ⚖️\n- **Belangenpercentage**: 30 % (direct) ⚖️\n- **Consolidatiemethode**: **vermogensmutatie** (equity method) ⚖️\n\n### M in C (via twee ketens)\n- **Keten via A**: M → 70 % → A → 60 % → C. M heeft exclusieve controle over A → de **volledige stemrechtpercentage van A in C telt** (controlepercentage wordt NIET vermenigvuldigd langs een keten van exclusieve controle). ⚖️ Controlebijdrage = **60 %**.\n- **Keten via B**: M → 30 % → B → 20 % → C. M heeft geen exclusieve controle over B (slechts invloed van betekenis) → **de keten breekt**: B's 20 % in C telt **niet** mee voor M's controlepercentage. ⚖️\n- **Controlepercentage**: 60 % (via A alleen) → exclusieve controle → **integrale consolidatie** ⚖️\n- **Belangenpercentage**: 70 % × 60 % + 30 % × 20 % = 42 % + 6 % = **48 %** (belang telt economisch via beide ketens, ook door geassocieerde). ⚖️\n- **Consolidatiemethode**: **integrale consolidatie** (omdat controle bestaat); belangen van derden = 52 %. ⚖️\n\n### Resultaat-tabel\n\n| | Controlepercentage | Belangenpercentage | Consolidatiemethode |\n|---|---:|---:|---|\n| M in A | 70 % | 70 % | Integrale consolidatie |\n| M in B | 30 % | 30 % | Vermogensmutatie |\n| M in C | 60 % | 48 % | Integrale consolidatie |\n\n_Grondslag: WVV art. 1:14 e.v. (exclusieve controle), KB WVV art. 3:96 (vermoeden invloed van betekenis), KB WVV art. 3:124 (integrale consolidatie), KB WVV art. 3:141 (vermogensmutatie). Voor de keten-rekenregels: vakdoctrinaire toepassing op basis van [[controlepercentage]] §rekenregel-keten en [[belangenpercentage]] §berekening-keten._\n\n⚠️ **Interpretatie van het diagram**: de vraagtekst toont een visueel boom-diagram met percentages dat niet als typed-tabel kon worden geëxtracteerd (zie record_gap_report — figuur-detectie is ADR-021 v2.1-scope). De interpretatie hierboven veronderstelt M moeder, A en B dochters, C kleindochter via A én B. Een alternatieve interpretatie (4 directe deelnemingen A, B, C, D) is niet consistent met de invul-tabel (die enkel M in A, B, C bevat). 🤖",
       "themas": [
         "consolidatie"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "WVV art. 1:14 e.v.",
+        "KB WVV art. 3:96",
+        "KB WVV art. 3:124",
+        "KB WVV art. 3:141"
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/berekenen-controle-en-belangenpercentage.md",
+          "sectie": "Stappen 2-3 (keten-rekenregels)",
+          "ondersteunt": "controle niet vermenigvuldigen, belang wel"
+        },
+        {
+          "record": "content/concepten/kiezen-consolidatiemethode.md",
+          "sectie": "Stappen 2-4",
+          "ondersteunt": "integrale vs vermogensmutatie keuze"
+        },
+        {
+          "record": "content/concepten/kwalificeren-relatie-deelneming.md",
+          "sectie": "Kwalificatie-criteria",
+          "ondersteunt": "exclusieve controle, invloed van betekenis"
+        },
+        {
+          "record": "content/concepten/exclusieve-controle.md",
+          "sectie": "Keten-breuk",
+          "ondersteunt": "breuk bij geen exclusieve controle in tussenschakel"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ],
+        "opmerking": "Diagram-interpretatie 🤖: M → A,B direct; A,B → C indirect. Consistent met invul-tabel (enkel M in A,B,C). Alternatieve interpretatie (4 directe deelnemingen) niet consistent. Extract-v2 (ADR-021) heeft de invul-tabel typed gedetecteerd; het ingevoerde boom-diagram blijft in tekst-blok."
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": {
+        "niveau": "b",
+        "ontbrekende_velden": [
+          "Figuur-extractie voor boom-diagrammen"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Het visuele boom-diagram (M aan top, A/B middenniveau, C onderaan) wordt door extract-v2 (pdfplumber) niet als tabel maar als platte tekst geëxtracteerd (\"M / 70 % 30 % / 60 % 20 % / A B C\"). Figuur-detectie + structurering is v2.1-scope (ADR-021 §2). Voor nu vereist het modelantwoord een interpretatie van het diagram door redenering — gelabeld als 🤖 voor de structurele aanname.",
+        "type": "extractie_partieel",
+        "gedetecteerd_op": "2026-05-19",
+        "vraagtype_dat_faalde": "kwalificatie"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr9",

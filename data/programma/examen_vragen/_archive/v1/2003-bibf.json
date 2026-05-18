@@ -5,13 +5,11 @@
   "bron_pdf": "resources/raw/voorbeeldexamens/2003-bibf.pdf",
   "totaal_punten": 100,
   "extractie": {
-    "tool": "vragen-extractie-v2",
+    "tool": "vragen-extractie-v1-bibf",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-18T23:35:29.100786+00:00",
+    "extracted_at": "2026-05-18T10:26:50.848646+00:00",
     "n_vragen": 28,
-    "n_pages": 8,
-    "n_tabellen_geaccepteerd": 0,
-    "n_tabellen_verworpen": 0
+    "n_pages": 8
   },
   "vragen": [
     {
@@ -23,7 +21,6 @@
       "vak_naam_in_pdf": "A. Algemene boekhouding",
       "vraagtype": "berekening",
       "vraagtekst": "A.1. Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag : geef de afsluitingsboekingen voor de boekjaren 2002 en 2003. 5 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -33,12 +30,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "A.1. Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag : geef de afsluitingsboekingen voor de boekjaren 2002 en 2003. 5 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrA2",
@@ -49,7 +42,6 @@
       "vak_naam_in_pdf": "A. Algemene boekhouding",
       "vraagtype": "berekening",
       "vraagtekst": "Op de proef- en saldibalans staan volgende bedragen: 32 Goederen in bewerking D 500,00 euro 34 Handelsgoederen D 7.000,00 euro De inventaris per einde boekjaar geeft - goederen in bewerking 400,00 - handelsgoederen 8.500,00 De marktprijs van de handelsgoederen bedraagt 8.250,00 euro. Er werd ook vastgesteld dat bepaalde goederen moeten afgeprijsd worden voor een totaal bedrag van 75,00 euro. Vraag : geef de afsluitingsboekingen. 5 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -60,12 +52,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "Op de proef- en saldibalans staan volgende bedragen: 32 Goederen in bewerking D 500,00 euro 34 Handelsgoederen D 7.000,00 euro De inventaris per einde boekjaar geeft - goederen in bewerking 400,00 - handelsgoederen 8.500,00 De marktprijs van de handelsgoederen bedraagt 8.250,00 euro. Er werd ook vastgesteld dat bepaalde goederen moeten afgeprijsd worden voor een totaal bedrag van 75,00 euro. Vraag : geef de afsluitingsboekingen. 5 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrB1",
@@ -76,7 +64,6 @@
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
       "vraagtekst": "B.1. Vraag: Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze? 3 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -85,12 +72,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "B.1. Vraag: Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze? 3 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrB2",
@@ -101,7 +84,6 @@
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
       "vraagtekst": "B.2. Vraag: Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie? 2 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -110,12 +92,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "B.2. Vraag: Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie? 2 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrB3",
@@ -126,7 +104,6 @@
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
       "vraagtekst": "B.3. Vraag: Welke activa mogen geherwaardeerd worden en onder welke voorwaarden? 5 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -135,12 +112,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "B.3. Vraag: Welke activa mogen geherwaardeerd worden en onder welke voorwaarden? 5 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrB4",
@@ -151,7 +124,6 @@
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
       "vraagtekst": "B.4. Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt? 2 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -160,12 +132,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "B.4. Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt? 2 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrB5",
@@ -176,7 +144,6 @@
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
       "vraagtekst": "B.5. Vraag: Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.1 hierboven? 3 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -186,12 +153,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "B.5. Vraag: Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.1 hierboven? 3 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrC1",
@@ -202,7 +165,6 @@
       "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
       "vraagtype": "berekening",
       "vraagtekst": "C.1. Op de balans staan volgende bedragen: … 4 PUNTEN ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag: Bereken uit deze cijfers\n\na. het netto bedrijfskapitaal\n\nb. de ruime liquiditeitsratio (current ratio)\n\nc. de beperkte liquiditeitsratio (acid test)\n\nd. de solvabiliteitsratio.",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -213,12 +175,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "C.1. Op de balans staan volgende bedragen: … 4 PUNTEN ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag: Bereken uit deze cijfers\n\na. het netto bedrijfskapitaal\n\nb. de ruime liquiditeitsratio (current ratio)\n\nc. de beperkte liquiditeitsratio (acid test)\n\nd. de solvabiliteitsratio."
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrC2",
@@ -229,7 +187,6 @@
       "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
       "vraagtype": "berekening",
       "vraagtekst": "C.2. Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT - winst van het boekjaar 2.750,00 - afschrijvingen 12.100,00 - toevoegingen aan voorzieningen 6.300,00 - bestedingen van voorzieningen 1.650,00 - toevoegingen aan waardeverminderingen 780,00 Vraag: Bereken de operationele cash-flow.",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -238,12 +195,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "C.2. Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT - winst van het boekjaar 2.750,00 - afschrijvingen 12.100,00 - toevoegingen aan voorzieningen 6.300,00 - bestedingen van voorzieningen 1.650,00 - toevoegingen aan waardeverminderingen 780,00 Vraag: Bereken de operationele cash-flow."
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrD1",
@@ -254,7 +207,6 @@
       "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
       "vraagtype": "open",
       "vraagtekst": "D.1 Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Vraag: Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen. 3 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -264,12 +216,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "D.1 Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Vraag: Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen. 3 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrD2",
@@ -280,7 +228,6 @@
       "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
       "vraagtype": "open",
       "vraagtekst": "D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Vraag: Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? 2 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -290,12 +237,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Vraag: Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? 2 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrE1",
@@ -306,7 +249,6 @@
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "MC",
       "vraagtekst": "E.1 Gelieve een kruisje te plaatsen voor de economische activiteiten die geen recht geven op een BTW aftrek . 2 PUNTEN (cid:137) Een natuurlijke persoon “zaakvoerder” van een BVBA (cid:137) Een natuurlijke persoon “bestuurder” van een NV (cid:137) Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming (cid:137) Een natuurlijk persoon “vereffenaar” van een CVBA",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -316,12 +258,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "E.1 Gelieve een kruisje te plaatsen voor de economische activiteiten die geen recht geven op een BTW aftrek . 2 PUNTEN (cid:137) Een natuurlijke persoon “zaakvoerder” van een BVBA (cid:137) Een natuurlijke persoon “bestuurder” van een NV (cid:137) Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming (cid:137) Een natuurlijk persoon “vereffenaar” van een CVBA"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrE2",
@@ -332,7 +270,6 @@
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "berekening",
       "vraagtekst": "E.2 Welk is de aftrekbare BTW in de volgende gevallen (antwoord dient in cijfers uitgedrukt te worden !!) 2 PUNTEN * 100,00 EUR BTW op een factuur van brandstof voor een auto die voor 25 % voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75 % privé) * 514, 50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf. Er is geen logo van de firma terug te vinden op de pennen. * Factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit “bouwpromotor” (overdracht van betaling met correcte toepassing van de regeling inzake de medecontractant – KB nr 1 , artikel 20) * Intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn, aan 18,00 EUR per fles, van een wijnboer gevestigd in Frankrijk. Totaal van de factuur 2.700,00 EUR). Daarenboven zijn de Belgische accijnzen verschuldigd van 4,00 EUR per fles, hetzij 600,00 EUR in totaal. De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt.",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -343,12 +280,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "E.2 Welk is de aftrekbare BTW in de volgende gevallen (antwoord dient in cijfers uitgedrukt te worden !!) 2 PUNTEN * 100,00 EUR BTW op een factuur van brandstof voor een auto die voor 25 % voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75 % privé) * 514, 50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf. Er is geen logo van de firma terug te vinden op de pennen. * Factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit “bouwpromotor” (overdracht van betaling met correcte toepassing van de regeling inzake de medecontractant – KB nr 1 , artikel 20) * Intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn, aan 18,00 EUR per fles, van een wijnboer gevestigd in Frankrijk. Totaal van de factuur 2.700,00 EUR). Daarenboven zijn de Belgische accijnzen verschuldigd van 4,00 EUR per fles, hetzij 600,00 EUR in totaal. De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt."
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrE3",
@@ -359,7 +292,6 @@
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "J/F",
       "vraagtekst": "E.3 Is er BTW verschuldigd op de volgende verrichtingen, die verricht worden in de loop van het jaar 2003, in hoofde van een BTW belastingplichtige, ontvanger van BTW met recht op aftrek? 2 PUNTEN Gelieve uw keuze te omcirkelen. Indien U “JA” antwoordt, dient U het bedrag van de verschuldigde belasting te vermelden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrage te komen. JA NEEN * Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper) JA NEEN * Voordeel van alle aard van 1.500, 00 EUR voor het gebruik van een auto door een personeelslid JA NEEN * Overschakeling van het normale regime naar het franchisesysteem. Bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR, exclusief 21 % BTW (belasting die geheel werd afgetrokken) JA NEEN * Verkoop van goederen voor 10.000 € met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat. JA NEEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -370,12 +302,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "E.3 Is er BTW verschuldigd op de volgende verrichtingen, die verricht worden in de loop van het jaar 2003, in hoofde van een BTW belastingplichtige, ontvanger van BTW met recht op aftrek? 2 PUNTEN Gelieve uw keuze te omcirkelen. Indien U “JA” antwoordt, dient U het bedrag van de verschuldigde belasting te vermelden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrage te komen. JA NEEN * Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper) JA NEEN * Voordeel van alle aard van 1.500, 00 EUR voor het gebruik van een auto door een personeelslid JA NEEN * Overschakeling van het normale regime naar het franchisesysteem. Bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR, exclusief 21 % BTW (belasting die geheel werd afgetrokken) JA NEEN * Verkoop van goederen voor 10.000 € met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat. JA NEEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrE4",
@@ -386,7 +314,6 @@
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "open",
       "vraagtekst": "E.4 Welk is het wettelijk tijdstip of de uiterste datum voor de punctuele uitvoering van de volgende BTW verplichtingen? 2 PUNTEN * Neerlegging van de jaarlijkse klantenlistings onderworpen en geïdentificeerd bij de BTW DATUM/MOMENT : * Betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW aangiftes doet. DATUM/MOMENT : * Afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) – Wijziging van effectief domicilie op 1 april 2003 DATUM/MOMENT : * Afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) – Definitieve stopzetting op 31 maart 2003. DATUM/MOMENT :",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -397,12 +324,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "E.4 Welk is het wettelijk tijdstip of de uiterste datum voor de punctuele uitvoering van de volgende BTW verplichtingen? 2 PUNTEN * Neerlegging van de jaarlijkse klantenlistings onderworpen en geïdentificeerd bij de BTW DATUM/MOMENT : * Betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW aangiftes doet. DATUM/MOMENT : * Afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) – Wijziging van effectief domicilie op 1 april 2003 DATUM/MOMENT : * Afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) – Definitieve stopzetting op 31 maart 2003. DATUM/MOMENT :"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrE5",
@@ -413,7 +336,6 @@
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "J/F",
       "vraagtekst": "E.5 Gelieve de juiste keuze te omcirkelen betreffende volgende stellingen: 2 PUNTEN * Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden JUIST FOUT * Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert. JUIST FOUT * Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek JUIST FOUT * Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW aangifte op te stellen. JUIST FOUT",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -423,12 +345,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "E.5 Gelieve de juiste keuze te omcirkelen betreffende volgende stellingen: 2 PUNTEN * Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden JUIST FOUT * Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert. JUIST FOUT * Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek JUIST FOUT * Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW aangifte op te stellen. JUIST FOUT"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrF1",
@@ -439,7 +357,6 @@
       "vak_naam_in_pdf": "F. Personenbelasting",
       "vraagtype": "berekening",
       "vraagtekst": "F. PERSONENBELASTING 10 PUNTEN De Heer en Mevrouw Janssens zijn eigenaar van twee onroerende goederen: onroerend goed A, gelegen buiten de stad en onroerend goed B, gelegen in het centrum van de stad. Zij hebben 4 kinderen van respectievelijk 12, 9,7 en 4 jaar.en wonen allen samen in het huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt het onroerend goed B van de familie Janssens voor een huurprijs van 15.000 € per jaar verhoogd met de onroerende voorheffing. Woonhuis A KI 1.050 € Woonhuis B KI 1.202 € Revalorisatiecoëfficient 3,35 (Art. 1 KBWIB 92) F.1 Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van volgende gegevens: 10 PUNTEN - Jaarlijkse bruto bezoldiging : 30.000 € - Sociale bijdrage voor rekening van de Heer Janssens betaald door de NV, per trimester: 1.200 € - Netto bedrag van de mutualiteitbijdrage 887 € - Ingehouden en doorgestorte bedrijfsvoorheffing 4.636 € - Voordelen van alle aard (auto) 1.500 € - forfaitaire beroepskosten : UIT TE REKENEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -451,12 +368,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "F. PERSONENBELASTING 10 PUNTEN De Heer en Mevrouw Janssens zijn eigenaar van twee onroerende goederen: onroerend goed A, gelegen buiten de stad en onroerend goed B, gelegen in het centrum van de stad. Zij hebben 4 kinderen van respectievelijk 12, 9,7 en 4 jaar.en wonen allen samen in het huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt het onroerend goed B van de familie Janssens voor een huurprijs van 15.000 € per jaar verhoogd met de onroerende voorheffing. Woonhuis A KI 1.050 € Woonhuis B KI 1.202 € Revalorisatiecoëfficient 3,35 (Art. 1 KBWIB 92) F.1 Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van volgende gegevens: 10 PUNTEN - Jaarlijkse bruto bezoldiging : 30.000 € - Sociale bijdrage voor rekening van de Heer Janssens betaald door de NV, per trimester: 1.200 € - Netto bedrag van de mutualiteitbijdrage 887 € - Ingehouden en doorgestorte bedrijfsvoorheffing 4.636 € - Voordelen van alle aard (auto) 1.500 € - forfaitaire beroepskosten : UIT TE REKENEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrG1",
@@ -467,7 +380,6 @@
       "vak_naam_in_pdf": "G. Vennootschapsbelasting",
       "vraagtype": "berekening",
       "vraagtekst": "G. VENNOOTSCHAPSBELASTING 10 PUNTEN G.1 Situatie: De BVBA Albert legt volgende balans, afgesloten op 31/12/2002, voorafgaand aan de bestemming van het resultaat, ter goedkeuring voor aan de algemene vergadering. Vaste Activa 79.260 Onderschreven kapitaal 18.600 Herwaarderingsmeerwaarden 600 Financiële Activa 30.000 Wettelijke reserve 1.860 Vrijgestelde reserve 200 Vlottende Activa 20.000 Beschikbare reserve 16.000 Te bestemmen winst van het boekj 62.000 Schulden op minder dan één jaar 30.000 ---------- ---------\n\n129. 260 129.260 De algemene vergadering van 17 mei 2003 beslist om het resultaat van het boekjaar als volgt te bestemmen: - Wettelijke reserve – nihil (de 10 % werd reeds bereikt) -- - Uitkering van dividenden voor een totaal van 40.000 - Toekenning aan de beschikbare reserve 18.000 - Overgedragen winst 4.000 62.000 Bijkomende Gegevens:\n\na) De opbrengsten bevatten de inning van dividenden , toegekend door een NV waarvan men 80 % van het maatschappelijk kapitaal bezit voor een bedrag van : 1.200 € , roerende voorheffing 400 €.\n\nb) In de kosten noteert men: rekening: 67 belastingen op de inkomsten en voorafbetalingen 20.000 67 Roerende voorheffing 400 61 Autokosten 1.500 63 Afschrijvingen auto 3.800 61 Representatiekosten, restaurants enz.. 2.000\n\n63. Afschrijvingen van de genoteerde meerwaarde op vaste activa ( 1ste boekjaar) 60 61 Liberaliteiten toegekend voor een totaal van: 160 waarvan liberaliteiten verantwoord door een attest ( 80 €) 64 Onroerende voorheffing 100 Opgave: Vul vak per vak de aangifte in de vennootschapsbelasting in (zie hierna) op basis van bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen. 10 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -479,12 +391,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "G. VENNOOTSCHAPSBELASTING 10 PUNTEN G.1 Situatie: De BVBA Albert legt volgende balans, afgesloten op 31/12/2002, voorafgaand aan de bestemming van het resultaat, ter goedkeuring voor aan de algemene vergadering. Vaste Activa 79.260 Onderschreven kapitaal 18.600 Herwaarderingsmeerwaarden 600 Financiële Activa 30.000 Wettelijke reserve 1.860 Vrijgestelde reserve 200 Vlottende Activa 20.000 Beschikbare reserve 16.000 Te bestemmen winst van het boekj 62.000 Schulden op minder dan één jaar 30.000 ---------- ---------\n\n129. 260 129.260 De algemene vergadering van 17 mei 2003 beslist om het resultaat van het boekjaar als volgt te bestemmen: - Wettelijke reserve – nihil (de 10 % werd reeds bereikt) -- - Uitkering van dividenden voor een totaal van 40.000 - Toekenning aan de beschikbare reserve 18.000 - Overgedragen winst 4.000 62.000 Bijkomende Gegevens:\n\na) De opbrengsten bevatten de inning van dividenden , toegekend door een NV waarvan men 80 % van het maatschappelijk kapitaal bezit voor een bedrag van : 1.200 € , roerende voorheffing 400 €.\n\nb) In de kosten noteert men: rekening: 67 belastingen op de inkomsten en voorafbetalingen 20.000 67 Roerende voorheffing 400 61 Autokosten 1.500 63 Afschrijvingen auto 3.800 61 Representatiekosten, restaurants enz.. 2.000\n\n63. Afschrijvingen van de genoteerde meerwaarde op vaste activa ( 1ste boekjaar) 60 61 Liberaliteiten toegekend voor een totaal van: 160 waarvan liberaliteiten verantwoord door een attest ( 80 €) 64 Onroerende voorheffing 100 Opgave: Vul vak per vak de aangifte in de vennootschapsbelasting in (zie hierna) op basis van bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen. 10 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrH1",
@@ -495,7 +403,6 @@
       "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
       "vraagtype": "MC",
       "vraagtekst": "H.1. Binnen welke termijn dient een BTW inregelstelling ingediend te worden? 1 PUNT Gelieve het juiste antwoord aan te kruisen. (cid:137) Er is geen enkele termijn voor zover de wettelijke verjaringstermijn niet verstreken is (cid:137) Op straffe van verval binnen de 3 kalendermaanden vanaf de invorderingstermijn. (cid:137) Ten laatste aan het einde van de derde burgerlijke maand die volgt op de betekening van het dwangbevel. (cid:137) Binnen de 30 dagen vanaf de datum van het overzicht van de regularisaties",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -505,12 +412,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "H.1. Binnen welke termijn dient een BTW inregelstelling ingediend te worden? 1 PUNT Gelieve het juiste antwoord aan te kruisen. (cid:137) Er is geen enkele termijn voor zover de wettelijke verjaringstermijn niet verstreken is (cid:137) Op straffe van verval binnen de 3 kalendermaanden vanaf de invorderingstermijn. (cid:137) Ten laatste aan het einde van de derde burgerlijke maand die volgt op de betekening van het dwangbevel. (cid:137) Binnen de 30 dagen vanaf de datum van het overzicht van de regularisaties"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrH2",
@@ -521,7 +424,6 @@
       "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
       "vraagtype": "open",
       "vraagtekst": "H.2. De belastingplichtige heeft geen verzoek ingediend (en dus ook niet gekregen) teneinde een bijkomende termijn voor het indienen van de aangifte te bekomen. Hij doet zijn aangifte in de personenbelasting laattijdig. Welk zijn de gevolgen van het laattijdig toekomen van zijn aangifte bij de belastingadministratie? 4 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -531,12 +433,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "H.2. De belastingplichtige heeft geen verzoek ingediend (en dus ook niet gekregen) teneinde een bijkomende termijn voor het indienen van de aangifte te bekomen. Hij doet zijn aangifte in de personenbelasting laattijdig. Welk zijn de gevolgen van het laattijdig toekomen van zijn aangifte bij de belastingadministratie? 4 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrI1",
@@ -547,7 +445,6 @@
       "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
       "vraagtype": "J/F",
       "vraagtekst": "I. 1 Worden er in België accijnzen geheven op de aankoop van volgende producten door een restaurateur die in ons land is gevestigd? Het betreft hier intracommunautaire verwervingen in hoofde van de restaurateur. 2 PUNTEN Gelieve uw keuze te omcirkelen: * Aankoop van sigaren bij een winkel gevestigd in Nederland JA NEEN * Champagne die gekocht werd bij een Franse producent in Frankrijk JA NEEN * Stookolie afkomstig van Duitsland voor de verwarming van het restaurant JA NEEN * Hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk. JA NEEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -557,12 +454,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "I. 1 Worden er in België accijnzen geheven op de aankoop van volgende producten door een restaurateur die in ons land is gevestigd? Het betreft hier intracommunautaire verwervingen in hoofde van de restaurateur. 2 PUNTEN Gelieve uw keuze te omcirkelen: * Aankoop van sigaren bij een winkel gevestigd in Nederland JA NEEN * Champagne die gekocht werd bij een Franse producent in Frankrijk JA NEEN * Stookolie afkomstig van Duitsland voor de verwarming van het restaurant JA NEEN * Hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk. JA NEEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrI2",
@@ -573,7 +466,6 @@
       "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
       "vraagtype": "open",
       "vraagtekst": "I.2. Een handelaar wenst zijn eenmanszaak om te zetten in een vennootschap, nl. een BVBA. Hij brengt het volgende in zijn vennootschap: - het gebouw waarin hij zijn activiteit uitbaat dat hem ook dient als woonhuis: waarde 200.000,00 euro. - materieel, apparatuur, meubilair = waarde 5.000,00 euro. - Bestelwagen: waarde 10.000,00 euro. - gereed geld ter waarde van 10.000,00 euro.\n\na. Geef de diverse formaliteiten (vennootschapsrechterlijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte 8 PUNTEN\n\nb. Geef aan hoeveel registratierechten hij zal betalen wetende dat zijn inbreng als volgt zal vergoed worden: 3 PUNTEN - met kapitaalaandelen voor 200.000,00 euro - op rekening-courant: 25.000,00 euro.",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -584,12 +476,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "I.2. Een handelaar wenst zijn eenmanszaak om te zetten in een vennootschap, nl. een BVBA. Hij brengt het volgende in zijn vennootschap: - het gebouw waarin hij zijn activiteit uitbaat dat hem ook dient als woonhuis: waarde 200.000,00 euro. - materieel, apparatuur, meubilair = waarde 5.000,00 euro. - Bestelwagen: waarde 10.000,00 euro. - gereed geld ter waarde van 10.000,00 euro.\n\na. Geef de diverse formaliteiten (vennootschapsrechterlijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte 8 PUNTEN\n\nb. Geef aan hoeveel registratierechten hij zal betalen wetende dat zijn inbreng als volgt zal vergoed worden: 3 PUNTEN - met kapitaalaandelen voor 200.000,00 euro - op rekening-courant: 25.000,00 euro."
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrI3",
@@ -600,7 +488,6 @@
       "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
       "vraagtype": "open",
       "vraagtekst": "I.3. Wat zijn de verplichtingen van een vennootschap ingeval uit de balans een overgedragen verlies blijkt of uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt? 4 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -610,12 +497,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "I.3. Wat zijn de verplichtingen van een vennootschap ingeval uit de balans een overgedragen verlies blijkt of uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt? 4 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrI4",
@@ -626,7 +509,6 @@
       "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
       "vraagtype": "open",
       "vraagtekst": "I.4. Wat zijn de mogelijke gevolgen voor een vennootschap die gedurende drie opeenvolgende boekjaren haar jaarrekening niet heeft neergelegd bij de N.B.B.? 3 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -636,12 +518,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "I.4. Wat zijn de mogelijke gevolgen voor een vennootschap die gedurende drie opeenvolgende boekjaren haar jaarrekening niet heeft neergelegd bij de N.B.B.? 3 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrJ1",
@@ -652,7 +530,6 @@
       "vak_naam_in_pdf": "J. Beginselen van het arbeids- en sociaal zekerheidsrecht",
       "vraagtype": "open",
       "vraagtekst": "J.1. Ten gevolge van het verlies van een grote klant, kent een vennootschap grote financiële problemen. De bedrijfsleiders beslissen om hun bezoldigingen fors te verminderen gedurende een bepaalde periode. De bedrijfsleider in kwestie betaalt zelf zijn trimestriële sociale bijdragen. Deze werden berekend op basis van de ontvangen bezoldigingen in 2000. De bedrijfsleider zal grote problemen ondervinden om deze te betalen in 2003. Inderdaad, zijn bezoldiging is fors verminderd in 2003 in verhouding tot hetgeen hij ontving in 2000. Welk advies zal U geven aan deze cliënt ? 2,5 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -662,12 +539,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "J.1. Ten gevolge van het verlies van een grote klant, kent een vennootschap grote financiële problemen. De bedrijfsleiders beslissen om hun bezoldigingen fors te verminderen gedurende een bepaalde periode. De bedrijfsleider in kwestie betaalt zelf zijn trimestriële sociale bijdragen. Deze werden berekend op basis van de ontvangen bezoldigingen in 2000. De bedrijfsleider zal grote problemen ondervinden om deze te betalen in 2003. Inderdaad, zijn bezoldiging is fors verminderd in 2003 in verhouding tot hetgeen hij ontving in 2000. Welk advies zal U geven aan deze cliënt ? 2,5 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrJ2",
@@ -678,7 +551,6 @@
       "vak_naam_in_pdf": "J. Beginselen van het arbeids- en sociaal zekerheidsrecht",
       "vraagtype": "open",
       "vraagtekst": "J.2 Een werkgever wenst één van zijn werknemers te ontslaan. Welk is de procedure om deze bediende te ontslaan en een opzegtermijn te geven ? . 2,5 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -688,12 +560,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "J.2 Een werkgever wenst één van zijn werknemers te ontslaan. Welk is de procedure om deze bediende te ontslaan en een opzegtermijn te geven ? . 2,5 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrK1",
@@ -704,7 +572,6 @@
       "vak_naam_in_pdf": "K. Plichtenleer",
       "vraagtype": "open",
       "vraagtekst": "K.1 : Beschrijf de deontologische regels en verplichtingen inzake overdracht van een dossier tussen twee confraters BIBF en dit zowel vanuit het perspectief van de overlater als vanuit het oogpunt van de overnemer van het dossier. 4 PUNTEN",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -714,12 +581,8 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "K.1 : Beschrijf de deontologische regels en verplichtingen inzake overdracht van een dossier tussen twee confraters BIBF en dit zowel vanuit het perspectief van de overlater als vanuit het oogpunt van de overnemer van het dossier. 4 PUNTEN"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2003-bibf-vrK2",
@@ -730,7 +593,6 @@
       "vak_naam_in_pdf": "K. Plichtenleer",
       "vraagtype": "open",
       "vraagtekst": "K.2 : Gelden diezelfde regels, zoals geformuleerd in uw antwoord op vraag K.1 tevens wanneer een dossier wordt overgenomen of overgedragen t.a.v. een accountant IAB of een bedrijfsrevisor IBR ? Zo nodig, geef meer toelichting. 1 PUNT",
-      "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [
@@ -740,18 +602,9 @@
       "wets_verwijzingen": [],
       "opties": [],
       "subvragen": [],
-      "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "K.2 : Gelden diezelfde regels, zoals geformuleerd in uw antwoord op vraag K.1 tevens wanneer een dossier wordt overgenomen of overgedragen t.a.v. een accountant IAB of een bedrijfsrevisor IBR ? Zo nodig, geef meer toelichting. 1 PUNT"
-        }
-      ]
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     }
   ],
-  "schema_versie": "2.0",
-  "migratie": {
-    "uitgevoerd_op": "2026-05-18T23:35:29.100973+00:00",
-    "v1_backup": "data/programma/examen_vragen/_archive/v1/2003-bibf.json",
-    "behouden_antwoorden": 0
-  }
+  "representativiteit_tier": "C"
 }
