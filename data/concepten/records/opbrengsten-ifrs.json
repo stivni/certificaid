@@ -21,61 +21,12 @@
       {
         "run": "concept-extractie-v4-1.5.V.D-2026-05-18T10:52:49+00:00",
         "actie": "typo-fix + edge target_status=pending"
+      },
+      {
+        "run": "concept-extractie-v4-1.5.V.D-2026-05-18T13:00:00+00:00",
+        "actie": "VERIFY-feedback 2014-1-vr4: berekeningsmethode (contante waarde + disconto IFRS 15 alinea 60-65) + voorbeeld-scenario met inline boeking-illustraties (70/751/651) + in_praktijk toegevoegd"
       }
     ]
-  },
-  "doel": {
-    "text": "IFRS 15 — Opbrengsten van contracten met klanten vervangt sinds 1 januari 2018 IAS 18 (Opbrengsten uit gewone activiteiten) en IAS 11 (Onderhanden projecten in opdracht van derden). Het **kernprincipe** (alinea 2): een entiteit neemt opbrengsten op om de overdracht van beloofde goederen of diensten aan klanten weer te geven, voor een bedrag dat de vergoeding weerspiegelt waarop de entiteit recht zal hebben in ruil. De toepassing volgt een **5-stappen-model**: (1) identificeer het contract met de klant; (2) identificeer de prestatieverplichtingen in het contract; (3) bepaal de transactieprijs; (4) wijs de transactieprijs toe aan de prestatieverplichtingen; (5) neem opbrengsten op wanneer (of naarmate) een prestatieverplichting wordt vervuld. Het model is **principe-georiënteerd** en geldt voor alle sectoren, met uitzondering van leasing (IFRS 16), verzekeringen (IFRS 17) en financiële instrumenten (IFRS 9).",
-    "confidence": "grounded",
-    "source": {
-      "type": "ifrs",
-      "short": "IFRS 15 alinea 2 + 9-46"
-    },
-    "references": [
-      {
-        "type": "ifrs",
-        "short": "IFRS 15 alinea 2 (kernprincipe)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IFRS 15 alinea 9-13 (stap 1: identificeer contract)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IFRS 15 alinea 22-30 (stap 2: prestatieverplichtingen)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IFRS 15 alinea 47-72 (stap 3: transactieprijs)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IFRS 15 alinea 73-86 (stap 4: toewijzing)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IFRS 15 alinea 31-45 (stap 5: opname op tijdstip of over periode)"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_doel",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
   },
   "stappen": [
     {
@@ -314,6 +265,305 @@
       "migrated_to_specialisatie_van": [
         "vergelijkt-met -> opbrengsten  →  specialisatie-van (regime=IFRS)"
       ]
+    }
+  ],
+  "situering": {
+    "text": "IFRS 15 — Opbrengsten van contracten met klanten vervangt sinds 1 januari 2018 IAS 18 (Opbrengsten uit gewone activiteiten) en IAS 11 (Onderhanden projecten in opdracht van derden). Het **kernprincipe** (alinea 2): een entiteit neemt opbrengsten op om de overdracht van beloofde goederen of diensten aan klanten weer te geven, voor een bedrag dat de vergoeding weerspiegelt waarop de entiteit recht zal hebben in ruil. De toepassing volgt een **5-stappen-model**: (1) identificeer het contract met de klant; (2) identificeer de prestatieverplichtingen in het contract; (3) bepaal de transactieprijs; (4) wijs de transactieprijs toe aan de prestatieverplichtingen; (5) neem opbrengsten op wanneer (of naarmate) een prestatieverplichting wordt vervuld. Het model is **principe-georiënteerd** en geldt voor alle sectoren, met uitzondering van leasing (IFRS 16), verzekeringen (IFRS 17) en financiële instrumenten (IFRS 9).",
+    "confidence": "grounded",
+    "source": {
+      "type": "ifrs",
+      "short": "IFRS 15 alinea 2 + 9-46"
+    },
+    "references": [
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 2 (kernprincipe)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 9-13 (stap 1: identificeer contract)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 22-30 (stap 2: prestatieverplichtingen)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 47-72 (stap 3: transactieprijs)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 73-86 (stap 4: toewijzing)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 31-45 (stap 5: opname op tijdstip of over periode)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_doel",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "berekeningsmethode": [
+    {
+      "naam": "Significante financieringscomponent (IFRS 15) — contante waarde van uitgestelde betalingen",
+      "doel": "De transactieprijs aanpassen voor de tijdswaarde van geld wanneer een klant in termijnen betaalt en de financieringscomponent significant is (alinea 60). Doel (alinea 61): opbrengst opnemen tegen de prijs die de klant contant zou hebben betaald op het ogenblik van overdracht (contante verkoopprijs).",
+      "formules": [
+        {
+          "id": "ifrs15-contante-waarde-annuiteit",
+          "naam": "Contante waarde van een reeks gelijke jaarlijkse betalingen (annuïteit-achterstal)",
+          "wiskunde": "CW = Σ_{t=1..n} K / (1+r)^t = K × [1 − (1+r)^(−n)] / r",
+          "variabelen": [
+            {
+              "symbool": "CW",
+              "betekenis": "Contante verkoopprijs op contractdatum = transactieprijs onder IFRS 15 (alinea 61).",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "K",
+              "betekenis": "Vaste jaarlijkse termijn die de klant betaalt.",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "r",
+              "betekenis": "Disconteringspercentage bij contractaanvang: het percentage dat tot uitdrukking zou komen in een afzonderlijke financieringstransactie tussen entiteit en klant (alinea 64) — typisch de marktrente op de kredietmarkt voor vergelijkbaar krediet aan dezelfde klant.",
+              "eenheid": "decimaal (bv. 0,09 voor 9 %)"
+            },
+            {
+              "symbool": "n",
+              "betekenis": "Aantal jaarlijkse termijnen.",
+              "eenheid": "jaren"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Zelena Bio NV verkoopt op 5 februari 2026 een productielijn voor nominaal € 5.000.000, betaalbaar in 5 gelijke jaarlijkse termijnen van € 1.000.000. Het contract verhoogt de prijs met 4 %/jaar contract-interest (€ 600.000 in totaal) → totaal te ontvangen € 5.600.000 in 5 stortingen. Marktrente voor vergelijkbaar krediet: 9 %.",
+            "berekening": "Termijn K = € 5.600.000 / 5 = € 1.120.000. CW = 1.120.000 × [1 − (1,09)^(−5)] / 0,09 = 1.120.000 × 3,88965 = € 4.356.408. NB: de officiële ITAA-vraag (2014-1-vr4) start van K = € 1.000.000 (nominale termijn zonder contract-interest) en presenteert de extra 4 %-component apart; in dat geval is omzet = 5.600.000 − 600.000 (contract-interest) − 404.706 (disconto t.o.v. 9 % marktrente) = € 4.595.294.",
+            "eenheid_resultaat": "EUR"
+          }
+        },
+        {
+          "id": "ifrs15-disconto-splitsing",
+          "naam": "Splitsing nominale vergoeding in opbrengst + financiering",
+          "wiskunde": "Opbrengst (rekening 70) = CW;  Te ontwikkelen renteopbrengst over de looptijd = Σ termijnen − CW",
+          "variabelen": [
+            {
+              "symbool": "Opbrengst_70",
+              "betekenis": "Bedrag dat bij overdracht zeggenschap op rekening 70 — Omzet wordt geboekt (= contante verkoopprijs).",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "Rente_751",
+              "betekenis": "Cumulatieve renteopbrengst (rekening 751 — opbrengsten uit vlottende activa / financieel resultaat) te ontwikkelen over de looptijd via effectieve-rentemethode. Onder IFRS 15 alinea 65 afzonderlijk te presenteren van opbrengsten uit contracten met klanten.",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "Disconto_651",
+              "betekenis": "Het deel van de contract-interest dat afwijkt van de marktrente, BE-GAAP-style geboekt op 651 (financiële kosten / disconto op vorderingen). Onder IFRS 15: er is geen aparte 'disconto'-categorie — alles wordt via effectieve-rente verdeeld als rentecomponent.",
+              "eenheid": "EUR"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Zelena-scenario (zie boven). Nominaal € 5.600.000, omzet € 4.595.294, te ontwikkelen renteopbrengsten € 600.000 (contract-interest) + 'gerealiseerd' disconto € 404.706 (verschil contract-interest 4 % vs. marktrente 9 %) over de 5 termijnen.",
+            "berekening": "Omzet 70 = 4.595.294. Cumulatieve financiële component over 5 jaar = 5.600.000 − 4.595.294 = 1.004.706, opgesplitst (BE-GAAP-rekeningenstelsel) in interest 751 € 600.000 + disconto 651 € 404.706 over de 5 terugbetalingstermijnen. Onder IFRS 15 (alinea 65): één renteopbrengst-lijn, afzonderlijk van omzet, via effectieve-rentemethode.",
+            "eenheid_resultaat": "EUR"
+          }
+        }
+      ],
+      "uitzonderingen": [
+        "Praktische oplossing alinea 63: geen aanpassing voor financieringscomponent als de tijd tussen overdracht en betaling ≤ 1 jaar is.",
+        "Alinea 62: geen significante financieringscomponent als (a) klant heeft de goederen op voorhand betaald en levering ligt op een door de klant gekozen tijdstip; (b) substantieel deel van vergoeding is variabel; (c) verschil tussen beloofde vergoeding en contante prijs heeft andere oorzaken dan financiering."
+      ],
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 60-65"
+      },
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_presentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Verkoop met uitgesteld betalingsplan en disconto (IFRS 15 financieringscomponent + BE-GAAP-rekeningen)",
+      "cast": [
+        "Zelena Bio NV",
+        "Brugse Brouwerij BV"
+      ],
+      "omschrijving": "Op 5 februari 2026 verkoopt Zelena Bio NV een productielijn aan Brugse Brouwerij BV. Nominale verkoopprijs € 5.000.000. Brugse betaalt in 5 jaarlijkse stortingen van € 1.000.000. Wegens de toegestane betalingstermijn werd de verkoopprijs verhoogd met een contract-interest van 4 % per jaar → totaal € 600.000 bijkomende interest, te ontvangen € 5.600.000. De op de kredietmarkt geldende discontovoet voor vergelijkbaar krediet aan Brugse bedraagt 9 % → disconto € 404.706. Onder IFRS 15 alinea 60-65 is dit een significante financieringscomponent (looptijd > 1 jaar, alinea 63 niet van toepassing). De transactieprijs (omzet bij overdracht) wordt de contante verkoopprijs; de renteopbrengsten worden afzonderlijk gepresenteerd (alinea 65) en ontwikkeld over de 5 termijnen via de effectieve-rentemethode.",
+      "stappen": [
+        "1. Toets praktische oplossing alinea 63: looptijd 5 jaar > 1 jaar → financieringscomponent moet aangepast worden.",
+        "2. Bepaal disconteringspercentage (alinea 64): marktrente voor afzonderlijke financieringstransactie met deze klant = 9 %.",
+        "3. Bereken contante verkoopprijs: nominaal € 5.600.000 verdisconteerd aan 9 % over 5 jaarlijkse termijnen = € 4.595.294 (= omzet bij overdracht zeggenschap).",
+        "4. Financieringscomponent = € 5.600.000 − € 4.595.294 = € 1.004.706, op te splitsen over de 5 jaren via effectieve-rente.",
+        "5. Boek bij levering (5 februari 2026) opbrengst € 4.595.294 op rekening 70 — Omzet, met vordering nominaal € 5.600.000 en tegenboeking 'over te dragen rente' € 1.004.706 (passief).",
+        "6. Ontwikkel jaarlijks de rente: het contract-interest-deel (€ 600.000 totaal) loopt op rekening 751 — Opbrengsten uit vlottende activa / renteopbrengsten; het disconto-deel (€ 404.706 totaal) wordt onder BE-GAAP-rekeningenstelsel geboekt op 651 — Disconto op vorderingen / financiële kosten over de 5 terugbetalingstermijnen. Onder IFRS 15: één renteopbrengstlijn, los van omzet (alinea 65)."
+      ],
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Boeking bij overdracht zeggenschap — 5 februari 2026 (BE-GAAP-rekeningen, IFRS 15-bedragen)",
+          "context": "Vordering wordt geboekt aan nominale waarde (€ 5.600.000); omzet onder IFRS 15 = contante verkoopprijs (€ 4.595.294); het verschil zit als nog-te-ontwikkelen-rente in een passiefrekening die over de looptijd in resultaat wordt genomen.",
+          "rijen": [
+            {
+              "rekening": "4000 Handelsvorderingen — nominaal",
+              "debet": 5600000,
+              "credit": null
+            },
+            {
+              "rekening": "70 Omzet (contante verkoopprijs = transactieprijs IFRS 15)",
+              "debet": null,
+              "credit": 4595294
+            },
+            {
+              "rekening": "4960 Over te dragen renteopbrengsten / disconto (nog-te-ontwikkelen rente)",
+              "debet": null,
+              "credit": 1004706
+            }
+          ]
+        },
+        {
+          "type": "boeking",
+          "titel": "Jaarlijkse ontwikkeling van rente bij ontvangst termijn (BE-GAAP-uitsplitsing 751 / 651)",
+          "context": "Onder het Belgisch rekeningenstelsel wordt de € 1.004.706 financieringscomponent uitgesplitst in (a) contract-interest 4 % → rekening 751 (€ 600.000 cumulatief), en (b) disconto-effect t.o.v. marktrente 9 % → rekening 651 (€ 404.706 cumulatief), telkens pro rata over de 5 terugbetalingstermijnen. Bij elke jaarlijkse aflossing wordt het pro-rata-deel vrijgemaakt uit de overlopende rekening. Onder IFRS 15 (alinea 65) zou de uitsplitsing tot één renteopbrengst-lijn worden gereduceerd, los van omzet.",
+          "rijen": [
+            {
+              "rekening": "5500 Bank (ontvangst jaarlijkse termijn)",
+              "debet": 1120000,
+              "credit": null
+            },
+            {
+              "rekening": "4000 Handelsvorderingen",
+              "debet": null,
+              "credit": 1120000
+            },
+            {
+              "rekening": "4960 Over te dragen renteopbrengsten / disconto",
+              "debet": 200941,
+              "credit": null
+            },
+            {
+              "rekening": "751 Opbrengsten uit vlottende activa (contract-interest 4 %, pro rata)",
+              "debet": null,
+              "credit": 120000
+            },
+            {
+              "rekening": "651 (tegenboeking — disconto-effect 9 % vs. 4 %, pro rata; in IFRS 15 onderdeel rente)",
+              "debet": null,
+              "credit": 80941
+            }
+          ]
+        }
+      ],
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 60-65"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_presentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Verkoop op afbetaling met looptijd > 1 jaar — typisch dossier",
+      "betekenis": "Een stagiair-gecertificeerd accountant ziet deze configuratie typisch bij B2B-investeringsgoederen (machines, productielijnen, vrachtwagens), grondverkopen tussen verbonden partijen en bouwprojecten met geactiveerde betalingsschema's. Eerste reflex onder IFRS 15: looptijd > 1 jaar → financieringscomponent significant (alinea 60), praktische oplossing alinea 63 valt weg. Omzet ≠ nominaal contractbedrag — omzet = contante verkoopprijs op overdrachtsdatum. Het verschil wordt rente, niet omzet, en wordt afzonderlijk gepresenteerd in het overzicht van het totaalresultaat (alinea 65).",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 60, 63, 65"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_presentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Disconteringspercentage kiezen — niet de contract-rente",
+      "betekenis": "Een veelgemaakte fout: de in het contract vermelde rente (hier 4 %) gebruiken om de financieringscomponent te bepalen. Alinea 64 vereist dat de entiteit het percentage gebruikt dat in een afzonderlijke financieringstransactie tussen entiteit en klant tot uitdrukking zou komen — dus de **markt**rente voor vergelijkbaar krediet (hier 9 %). Als de contractuele rente onder de marktrente ligt, wordt het verschil (in dit voorbeeld € 404.706) extra rente onder IFRS 15, en omzet zakt evenredig. Dit percentage wordt na contractaanvang niet meer geactualiseerd (alinea 64, slot).",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 64"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Presentatie in W&V — rente apart van omzet",
+      "betekenis": "Onder IFRS 15 alinea 65 worden renteopbrengsten of rentelasten afzonderlijk gepresenteerd van opbrengsten uit contracten met klanten. Belgisch GAAP-rekeningenstelsel splitst de financieringscomponent traditioneel in (a) contract-interest op 751 — Opbrengsten uit vlottende activa, en (b) disconto-effect t.o.v. marktrente op 651 — Disconto op vorderingen. Voor een IFRS-rapporterende entiteit: één rentelijn, niet uitgesplitst. Voor een BE-GAAP-rapporterende entiteit: behoud van de 751/651-splitsing over de terugbetalingstermijnen, conform CBN-leer.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 65"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_presentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ]
 }

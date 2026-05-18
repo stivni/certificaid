@@ -23,6 +23,66 @@ IFRS 15 — Opbrengsten van contracten met klanten vervangt sinds 1 januari 2018
 > [!info] Specialisatie van: [[opbrengsten]]
 
 
+## Berekening
+
+### Significante financieringscomponent (IFRS 15) — contante waarde van uitgestelde betalingen
+
+**Contante waarde van een reeks gelijke jaarlijkse betalingen (annuïteit-achterstal)** 
+```
+CW = Σ_{t=1..n} K / (1+r)^t = K × [1 − (1+r)^(−n)] / r
+```
+
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+| `CW` | Contante verkoopprijs op contractdatum = transactieprijs onder IFRS 15 (alinea 61). | EUR |
+| `K` | Vaste jaarlijkse termijn die de klant betaalt. | EUR |
+| `r` | Disconteringspercentage bij contractaanvang: het percentage dat tot uitdrukking zou komen in een afzonderlijke financieringstransactie tussen entiteit en klant (alinea 64) — typisch de marktrente op de kredietmarkt voor vergelijkbaar krediet aan dezelfde klant. | decimaal (bv. 0,09 voor 9 %) |
+| `n` | Aantal jaarlijkse termijnen. | jaren |
+
+**Voorbeeld-invulling**: Zelena Bio NV verkoopt op 5 februari 2026 een productielijn voor nominaal € 5.000.000, betaalbaar in 5 gelijke jaarlijkse termijnen van € 1.000.000. Het contract verhoogt de prijs met 4 %/jaar contract-interest (€ 600.000 in totaal) → totaal te ontvangen € 5.600.000 in 5 stortingen. Marktrente voor vergelijkbaar krediet: 9 %.
+
+```
+Termijn K = € 5.600.000 / 5 = € 1.120.000. CW = 1.120.000 × [1 − (1,09)^(−5)] / 0,09 = 1.120.000 × 3,88965 = € 4.356.408. NB: de officiële ITAA-vraag (2014-1-vr4) start van K = € 1.000.000 (nominale termijn zonder contract-interest) en presenteert de extra 4 %-component apart; in dat geval is omzet = 5.600.000 − 600.000 (contract-interest) − 404.706 (disconto t.o.v. 9 % marktrente) = € 4.595.294.
+```
+
+_Resultaat in EUR_
+**Splitsing nominale vergoeding in opbrengst + financiering** 
+```
+Opbrengst (rekening 70) = CW;  Te ontwikkelen renteopbrengst over de looptijd = Σ termijnen − CW
+```
+
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+| `Opbrengst_70` | Bedrag dat bij overdracht zeggenschap op rekening 70 — Omzet wordt geboekt (= contante verkoopprijs). | EUR |
+| `Rente_751` | Cumulatieve renteopbrengst (rekening 751 — opbrengsten uit vlottende activa / financieel resultaat) te ontwikkelen over de looptijd via effectieve-rentemethode. Onder IFRS 15 alinea 65 afzonderlijk te presenteren van opbrengsten uit contracten met klanten. | EUR |
+| `Disconto_651` | Het deel van de contract-interest dat afwijkt van de marktrente, BE-GAAP-style geboekt op 651 (financiële kosten / disconto op vorderingen). Onder IFRS 15: er is geen aparte 'disconto'-categorie — alles wordt via effectieve-rente verdeeld als rentecomponent. | EUR |
+
+**Voorbeeld-invulling**: Zelena-scenario (zie boven). Nominaal € 5.600.000, omzet € 4.595.294, te ontwikkelen renteopbrengsten € 600.000 (contract-interest) + 'gerealiseerd' disconto € 404.706 (verschil contract-interest 4 % vs. marktrente 9 %) over de 5 termijnen.
+
+```
+Omzet 70 = 4.595.294. Cumulatieve financiële component over 5 jaar = 5.600.000 − 4.595.294 = 1.004.706, opgesplitst (BE-GAAP-rekeningenstelsel) in interest 751 € 600.000 + disconto 651 € 404.706 over de 5 terugbetalingstermijnen. Onder IFRS 15 (alinea 65): één renteopbrengst-lijn, afzonderlijk van omzet, via effectieve-rentemethode.
+```
+
+_Resultaat in EUR_
+
+## In de praktijk
+
+<h3 id="verkoop-op-afbetaling-met-looptijd-1-jaar-typisch-dossier">Verkoop op afbetaling met looptijd > 1 jaar — typisch dossier</h3>
+
+> [!tip]- Verkoop op afbetaling met looptijd > 1 jaar — typisch dossier
+> Een stagiair-gecertificeerd accountant ziet deze configuratie typisch bij B2B-investeringsgoederen (machines, productielijnen, vrachtwagens), grondverkopen tussen verbonden partijen en bouwprojecten met geactiveerde betalingsschema's. Eerste reflex onder IFRS 15: looptijd > 1 jaar → financieringscomponent significant (alinea 60), praktische oplossing alinea 63 valt weg. Omzet ≠ nominaal contractbedrag — omzet = contante verkoopprijs op overdrachtsdatum. Het verschil wordt rente, niet omzet, en wordt afzonderlijk gepresenteerd in het overzicht van het totaalresultaat (alinea 65). ⚖️
+
+<h3 id="disconteringspercentage-kiezen-niet-de-contract-rente">Disconteringspercentage kiezen — niet de contract-rente</h3>
+
+> [!tip]- Disconteringspercentage kiezen — niet de contract-rente
+> Een veelgemaakte fout: de in het contract vermelde rente (hier 4 %) gebruiken om de financieringscomponent te bepalen. Alinea 64 vereist dat de entiteit het percentage gebruikt dat in een afzonderlijke financieringstransactie tussen entiteit en klant tot uitdrukking zou komen — dus de **markt**rente voor vergelijkbaar krediet (hier 9 %). Als de contractuele rente onder de marktrente ligt, wordt het verschil (in dit voorbeeld € 404.706) extra rente onder IFRS 15, en omzet zakt evenredig. Dit percentage wordt na contractaanvang niet meer geactualiseerd (alinea 64, slot). ⚖️
+
+<h3 id="presentatie-in-w-v-rente-apart-van-omzet">Presentatie in W&V — rente apart van omzet</h3>
+
+> [!tip]- Presentatie in W&V — rente apart van omzet
+> Onder IFRS 15 alinea 65 worden renteopbrengsten of rentelasten afzonderlijk gepresenteerd van opbrengsten uit contracten met klanten. Belgisch GAAP-rekeningenstelsel splitst de financieringscomponent traditioneel in (a) contract-interest op 751 — Opbrengsten uit vlottende activa, en (b) disconto-effect t.o.v. marktrente op 651 — Disconto op vorderingen. Voor een IFRS-rapporterende entiteit: één rentelijn, niet uitgesplitst. Voor een BE-GAAP-rapporterende entiteit: behoud van de 751/651-splitsing over de terugbetalingstermijnen, conform CBN-leer. ⚖️
+
+
 ## Stappen
 
 ### 1. Identificeer het contract met de klant
@@ -181,6 +241,43 @@ Opname is **over een periode** (over time) of **op een tijdstip** (point in time
 ## Zie ook
 
 - **Vereist kennis van**: [[prestatieverplichting]]
+
+## Voorbeelden
+
+### Verkoop met uitgesteld betalingsplan en disconto (IFRS 15 financieringscomponent + BE-GAAP-rekeningen)
+
+_Personages: Zelena Bio NV, Brugse Brouwerij BV_
+
+Op 5 februari 2026 verkoopt Zelena Bio NV een productielijn aan Brugse Brouwerij BV. Nominale verkoopprijs € 5.000.000. Brugse betaalt in 5 jaarlijkse stortingen van € 1.000.000. Wegens de toegestane betalingstermijn werd de verkoopprijs verhoogd met een contract-interest van 4 % per jaar → totaal € 600.000 bijkomende interest, te ontvangen € 5.600.000. De op de kredietmarkt geldende discontovoet voor vergelijkbaar krediet aan Brugse bedraagt 9 % → disconto € 404.706. Onder IFRS 15 alinea 60-65 is dit een significante financieringscomponent (looptijd > 1 jaar, alinea 63 niet van toepassing). De transactieprijs (omzet bij overdracht) wordt de contante verkoopprijs; de renteopbrengsten worden afzonderlijk gepresenteerd (alinea 65) en ontwikkeld over de 5 termijnen via de effectieve-rentemethode.
+
+1. Toets praktische oplossing alinea 63: looptijd 5 jaar > 1 jaar → financieringscomponent moet aangepast worden.
+2. Bepaal disconteringspercentage (alinea 64): marktrente voor afzonderlijke financieringstransactie met deze klant = 9 %.
+3. Bereken contante verkoopprijs: nominaal € 5.600.000 verdisconteerd aan 9 % over 5 jaarlijkse termijnen = € 4.595.294 (= omzet bij overdracht zeggenschap).
+4. Financieringscomponent = € 5.600.000 − € 4.595.294 = € 1.004.706, op te splitsen over de 5 jaren via effectieve-rente.
+5. Boek bij levering (5 februari 2026) opbrengst € 4.595.294 op rekening 70 — Omzet, met vordering nominaal € 5.600.000 en tegenboeking 'over te dragen rente' € 1.004.706 (passief).
+6. Ontwikkel jaarlijks de rente: het contract-interest-deel (€ 600.000 totaal) loopt op rekening 751 — Opbrengsten uit vlottende activa / renteopbrengsten; het disconto-deel (€ 404.706 totaal) wordt onder BE-GAAP-rekeningenstelsel geboekt op 651 — Disconto op vorderingen / financiële kosten over de 5 terugbetalingstermijnen. Onder IFRS 15: één renteopbrengstlijn, los van omzet (alinea 65).
+#### Boeking bij overdracht zeggenschap — 5 februari 2026 (BE-GAAP-rekeningen, IFRS 15-bedragen)
+_Vordering wordt geboekt aan nominale waarde (€ 5.600.000); omzet onder IFRS 15 = contante verkoopprijs (€ 4.595.294); het verschil zit als nog-te-ontwikkelen-rente in een passiefrekening die over de looptijd in resultaat wordt genomen._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| 4000 Handelsvorderingen — nominaal | 5600000 |  |
+| 70 Omzet (contante verkoopprijs = transactieprijs IFRS 15) |  | 4595294 |
+| 4960 Over te dragen renteopbrengsten / disconto (nog-te-ontwikkelen rente) |  | 1004706 |
+
+#### Jaarlijkse ontwikkeling van rente bij ontvangst termijn (BE-GAAP-uitsplitsing 751 / 651)
+_Onder het Belgisch rekeningenstelsel wordt de € 1.004.706 financieringscomponent uitgesplitst in (a) contract-interest 4 % → rekening 751 (€ 600.000 cumulatief), en (b) disconto-effect t.o.v. marktrente 9 % → rekening 651 (€ 404.706 cumulatief), telkens pro rata over de 5 terugbetalingstermijnen. Bij elke jaarlijkse aflossing wordt het pro-rata-deel vrijgemaakt uit de overlopende rekening. Onder IFRS 15 (alinea 65) zou de uitsplitsing tot één renteopbrengst-lijn worden gereduceerd, los van omzet._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| 5500 Bank (ontvangst jaarlijkse termijn) | 1120000 |  |
+| 4000 Handelsvorderingen |  | 1120000 |
+| 4960 Over te dragen renteopbrengsten / disconto | 200941 |  |
+| 751 Opbrengsten uit vlottende activa (contract-interest 4 %, pro rata) |  | 120000 |
+| 651 (tegenboeking — disconto-effect 9 % vs. 4 %, pro rata; in IFRS 15 onderdeel rente) |  | 80941 |
+
+_Bron: IFRS 15 alinea 60-65_ ⚖️
+
 
 ## Bronnen
 
