@@ -74,7 +74,7 @@ Onder IFRS 16 verschijnen TWEE lasten in winst of verlies: (a) **afschrijving RO
 
 
 
-Zelena Bio jaar 1 (2026): afschrijving ROU € 480.000 (lineair € 4.800.000 / 10) + rentelast € 155.760 (4% × € 3.894.000) = € 635.760 totaal in W&V. Onder IAS 17 zou dit € 480.000 huur zijn. Verschil van € 155.760 reduceert na verloop van tijd. ⚖️
+Zelena Bio jaar 1 (2026) — basis-scenario (ROU € 3.894.000 zonder bijkomende kosten): afschrijving ROU € 389.400 (lineair € 3.894.000 / 10) + rentelast € 155.760 (4% × € 3.894.000) = € 545.160 totaal in W&V. Onder IAS 17 zou dit € 480.000 huur zijn. Verschil van € 65.160 in jaar 1 (front-loading) reduceert over de leaseperiode en compenseert in latere jaren. ⚖️
 
 _Grondslag: IFRS 16 alinea 31, 38, 49_
 

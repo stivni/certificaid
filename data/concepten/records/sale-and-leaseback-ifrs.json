@@ -16,6 +16,7 @@
       "1.5.V"
     ],
     "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-1.5.V.C-revisit-2026-05-18T",
     "historische_noot": "PO 1.5-anchor verwijst formeel naar IAS 17. Dit record dekt sale-and-leaseback onder IFRS 16 (alinea 98-103, sinds 1 januari 2019), met BE-GAAP-vergelijking (art. 63 KB W.Venn. / CBN 2015/04)."
   },
   "definitie": {
@@ -368,6 +369,69 @@
     {
       "vorm": "eenvoudig",
       "omschrijving": "Zelena Bio NV bezit haar productiehal in Antwerpen (boekwaarde € 4.000.000, reële waarde € 6.000.000). Op 1 januari 2026 verkoopt zij de hal aan Aurelia Holding NV voor € 6.000.000 én sluit gelijktijdig een 10-jarige lease aan € 480.000/jaar (marginale rentevoet 4%, contante waarde betalingen ≈ € 3.894.000). De overdracht voldoet aan IFRS 15: Aurelia heeft de zeggenschap verworven. Onder IFRS 16 alinea 100 boekt Zelena: (1) actief wegboeken voor boekwaarde € 4.000.000; (2) ROU opnemen voor het *behouden* gebruiksrecht = € 4.000.000 × (€ 3.894.000 / € 6.000.000) = € 2.596.000; (3) leaseverplichting € 3.894.000; (4) winst op verkoop alleen op het *overgedragen* deel = (€ 6.000.000 − € 4.000.000) × ((€ 6.000.000 − € 3.894.000) / € 6.000.000) = € 2.000.000 × 0,351 ≈ € 702.000. Geen volledige winstrealisatie van € 2.000.000."
+    },
+    {
+      "vorm": "scenario",
+      "titel": "Sale-and-leaseback Pad A — Zelena Bio NV verkoopt productiehal aan Aurelia Holding NV",
+      "cast": [
+        "Zelena Bio NV",
+        "Aurelia Holding NV"
+      ],
+      "omschrijving": "Zelena Bio NV (verkoper-lessee) bezit een productiehal in Antwerpen — boekwaarde € 4.000.000, reële waarde € 6.000.000. Op 1 januari 2026 verkoopt zij de hal aan Aurelia Holding NV (koper-lessor) voor € 6.000.000 en sluit een 10-jarige lease aan € 480.000/jaar (marginale rentevoet 4%, contante waarde leasebetalingen ≈ € 3.894.000). Aurelia heeft volgens IFRS 15 de zeggenschap verworven, dus Pad A van IFRS 16 alinea 100 is van toepassing.",
+      "stappen": [
+        "1. Bereken behouden gebruiksrecht in verhouding tot reële waarde: € 3.894.000 / € 6.000.000 = 0,649 → ROU = € 4.000.000 × 0,649 = € 2.596.000.",
+        "2. Bereken overgedragen rechten in verhouding tot reële waarde: (€ 6.000.000 − € 3.894.000) / € 6.000.000 = 0,351.",
+        "3. Bepaal winst op overgedragen deel: (€ 6.000.000 − € 4.000.000) × 0,351 = € 2.000.000 × 0,351 ≈ € 702.000.",
+        "4. Boek het wegboeken van de hal (€ 4.000.000), de opname ROU (€ 2.596.000) + leaseverplichting (€ 3.894.000), ontvangen cash (€ 6.000.000) en de winst op overgedragen deel (€ 702.000)."
+      ],
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Boeking sale-and-leaseback Pad A bij Zelena Bio NV — 1 januari 2026",
+          "context": "Verkoop voldoet aan IFRS 15-zeggenschap-test → verwerking volgens IFRS 16 alinea 100 (Pad A). Debet-totaal € 8.596.000 = credit-totaal € 8.596.000 (= € 4.000.000 hal + € 3.894.000 leaseverplichting + € 702.000 meerwaarde op overgedragen deel).",
+          "rijen": [
+            {
+              "rekening": "Bank",
+              "debet": 6000000,
+              "credit": null
+            },
+            {
+              "rekening": "ROU-actief (gebouwen, behouden gebruiksrecht)",
+              "debet": 2596000,
+              "credit": null
+            },
+            {
+              "rekening": "Materiële vaste activa — productiehal (uitboeken)",
+              "debet": null,
+              "credit": 4000000
+            },
+            {
+              "rekening": "Leaseverplichting (langlopend)",
+              "debet": null,
+              "credit": 3894000
+            },
+            {
+              "rekening": "Meerwaarde op verkoop activa (W&V, alleen overgedragen deel)",
+              "debet": null,
+              "credit": 702000
+            }
+          ]
+        }
+      ],
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 99-100"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_informatieverschaffing_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",

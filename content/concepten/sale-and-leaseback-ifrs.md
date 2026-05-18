@@ -145,6 +145,29 @@ _Grondslag: IFRS 16 B45-B47_
 ## Voorbeelden
 
 Zelena Bio NV bezit haar productiehal in Antwerpen (boekwaarde € 4.000.000, reële waarde € 6.000.000). Op 1 januari 2026 verkoopt zij de hal aan Aurelia Holding NV voor € 6.000.000 én sluit gelijktijdig een 10-jarige lease aan € 480.000/jaar (marginale rentevoet 4%, contante waarde betalingen ≈ € 3.894.000). De overdracht voldoet aan IFRS 15: Aurelia heeft de zeggenschap verworven. Onder IFRS 16 alinea 100 boekt Zelena: (1) actief wegboeken voor boekwaarde € 4.000.000; (2) ROU opnemen voor het *behouden* gebruiksrecht = € 4.000.000 × (€ 3.894.000 / € 6.000.000) = € 2.596.000; (3) leaseverplichting € 3.894.000; (4) winst op verkoop alleen op het *overgedragen* deel = (€ 6.000.000 − € 4.000.000) × ((€ 6.000.000 − € 3.894.000) / € 6.000.000) = € 2.000.000 × 0,351 ≈ € 702.000. Geen volledige winstrealisatie van € 2.000.000.
+### Sale-and-leaseback Pad A — Zelena Bio NV verkoopt productiehal aan Aurelia Holding NV
+
+_Personages: Zelena Bio NV, Aurelia Holding NV_
+
+Zelena Bio NV (verkoper-lessee) bezit een productiehal in Antwerpen — boekwaarde € 4.000.000, reële waarde € 6.000.000. Op 1 januari 2026 verkoopt zij de hal aan Aurelia Holding NV (koper-lessor) voor € 6.000.000 en sluit een 10-jarige lease aan € 480.000/jaar (marginale rentevoet 4%, contante waarde leasebetalingen ≈ € 3.894.000). Aurelia heeft volgens IFRS 15 de zeggenschap verworven, dus Pad A van IFRS 16 alinea 100 is van toepassing.
+
+1. Bereken behouden gebruiksrecht in verhouding tot reële waarde: € 3.894.000 / € 6.000.000 = 0,649 → ROU = € 4.000.000 × 0,649 = € 2.596.000.
+2. Bereken overgedragen rechten in verhouding tot reële waarde: (€ 6.000.000 − € 3.894.000) / € 6.000.000 = 0,351.
+3. Bepaal winst op overgedragen deel: (€ 6.000.000 − € 4.000.000) × 0,351 = € 2.000.000 × 0,351 ≈ € 702.000.
+4. Boek het wegboeken van de hal (€ 4.000.000), de opname ROU (€ 2.596.000) + leaseverplichting (€ 3.894.000), ontvangen cash (€ 6.000.000) en de winst op overgedragen deel (€ 702.000).
+#### Boeking sale-and-leaseback Pad A bij Zelena Bio NV — 1 januari 2026
+_Verkoop voldoet aan IFRS 15-zeggenschap-test → verwerking volgens IFRS 16 alinea 100 (Pad A). Debet-totaal € 8.596.000 = credit-totaal € 8.596.000 (= € 4.000.000 hal + € 3.894.000 leaseverplichting + € 702.000 meerwaarde op overgedragen deel)._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| Bank | 6000000 |  |
+| ROU-actief (gebouwen, behouden gebruiksrecht) | 2596000 |  |
+| Materiële vaste activa — productiehal (uitboeken) |  | 4000000 |
+| Leaseverplichting (langlopend) |  | 3894000 |
+| Meerwaarde op verkoop activa (W&V, alleen overgedragen deel) |  | 702000 |
+
+_Bron: IFRS 16 alinea 99-100_ ⚖️
+
 
 ## Bronnen
 

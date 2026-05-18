@@ -16,7 +16,7 @@
       "1.5.V"
     ],
     "reviewed_by": null,
-    "last_correction_run": "concept-extractie-v4-2026-05-18T-verify-feedback"
+    "last_correction_run": "concept-extractie-v4-1.5.V.C-revisit-2026-05-18T"
   },
   "definitie": {
     "text": "De **leaseverplichting** is de financiële verplichting die de lessee op de aanvangsdatum onder IFRS 16 op zijn balans opneemt: de **contante waarde van leasebetalingen die op aanvangsdatum nog niet zijn verricht** (alinea 26). Disconteringsvoet: **impliciete rentevoet van de leaseovereenkomst** indien gemakkelijk bepaalbaar; anders **marginale rentevoet van de lessee** (rentevoet die de lessee zou betalen om geleende middelen te krijgen voor een soortgelijke transactie). Na eerste opname (alinea 36): boekwaarde verhogen met rente op leaseverplichting (effectieve-rentemethode); boekwaarde verminderen met verrichte leasebetalingen; boekwaarde herwaarderen bij wijzigingen in leaseperiode, aankoopoptie-beoordeling, restwaardegaranties, of index/rentevoet-aanpassingen.",
@@ -201,6 +201,58 @@
     {
       "vorm": "eenvoudig",
       "omschrijving": "Zelena Bio NV op aanvangsdatum 1 januari 2026: 10 jaar huurperiode Antwerpse locatie, vaste betaling € 480.000 jaarlijks, marginale rentevoet 4%. Leaseverplichting bij eerste opname = € 480.000 × annuïteitfactor(10 jaar, 4%) = € 480.000 × 8,1109 = **€ 3.893.232**, afgerond € 3.894.000. Jaar 1: rentelast 4% × € 3.894.000 = € 155.760; betaling € 480.000; aflossing hoofdsom € 480.000 − € 155.760 = € 324.240. Boekwaarde einde jaar 1 = € 3.894.000 − € 324.240 = € 3.569.760."
+    },
+    {
+      "vorm": "scenario",
+      "titel": "Effectieve-rentemethode jaar 1 — Zelena Bio NV",
+      "cast": [
+        "Zelena Bio NV"
+      ],
+      "omschrijving": "Zelena Bio betaalt op 31 december 2026 de eerste jaarlijkse leasebetaling van € 480.000 voor de Antwerpse locatie. De betaling wordt gesplitst in rentelast (effectieve-rentemethode, 4% × openstaande hoofdsom € 3.894.000) en aflossing van de hoofdsom (saldo).",
+      "stappen": [
+        "1. Bereken rentelast jaar 1: 4% × € 3.894.000 = € 155.760.",
+        "2. Bereken aflossing hoofdsom: € 480.000 − € 155.760 = € 324.240.",
+        "3. Boek de betaling: rentelast in W&V, aflossing tegen leaseverplichting, totaal € 480.000 uit bank.",
+        "4. Bepaal boekwaarde leaseverplichting einde jaar 1: € 3.894.000 − € 324.240 = € 3.569.760."
+      ],
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Boeking jaarlijkse leasebetaling — 31 december 2026",
+          "context": "Splitsing volgens effectieve-rentemethode (IFRS 16 alinea 36-37). Rente daalt over de looptijd; hoofdsom-aflossing stijgt parallel.",
+          "rijen": [
+            {
+              "rekening": "Rentelast op leaseverplichting (W&V)",
+              "debet": 155760,
+              "credit": null
+            },
+            {
+              "rekening": "Leaseverplichting (hoofdsom-aflossing)",
+              "debet": 324240,
+              "credit": null
+            },
+            {
+              "rekening": "Bank",
+              "debet": null,
+              "credit": 480000
+            }
+          ]
+        }
+      ],
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 36-38"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",

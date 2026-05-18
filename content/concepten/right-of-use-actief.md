@@ -108,6 +108,25 @@ _Grondslag: IFRS 16 alinea 33 + IAS 36_
 ## Voorbeelden
 
 Zelena Bio's ROU-actief voor Antwerpse productielocatie op 1 januari 2026: € 4.049.000 (= leaseverplichting € 3.894.000 + sleutelgeld € 50.000 + advocatenkosten € 25.000 + ontmantelingskosten € 80.000). In de IFRS-balans presentatie: ofwel apart als 'Met een gebruiksrecht overeenstemmende activa' ofwel binnen 'Materiële vaste activa' (met vermelding in toelichting in welke post).
+### Afschrijving ROU jaar 1 — Zelena Bio NV
+
+_Personages: Zelena Bio NV_
+
+Zelena Bio schrijft het ROU-actief voor de Antwerpse productielocatie lineair af over de leaseperiode van 10 jaar (geen aankoopoptie → kortste van leaseperiode of gebruiksduur). Aanvangswaarde ROU € 4.049.000 inclusief bijkomende kosten.
+
+1. Bepaal afschrijvingstermijn: 10 jaar (leaseperiode) — geen aankoopoptie, dus niet de 30-50 jaar gebruiksduur van het gebouw.
+2. Bereken jaarlijkse afschrijving: € 4.049.000 / 10 = € 404.900.
+3. Boek de afschrijving op het einde van het boekjaar 2026.
+#### Boeking jaarlijkse afschrijving ROU — 31 december 2026
+_Lineaire afschrijving over leaseperiode 10 jaar (IFRS 16 alinea 31-32, default-regel zonder eigendomsoverdracht)._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| Afschrijvingskost ROU (W&V) | 404900 |  |
+| Geaccumuleerde afschrijving ROU-actief |  | 404900 |
+
+_Bron: IFRS 16 alinea 31-32_ ⚖️
+
 
 ## Bronnen
 

@@ -16,6 +16,7 @@
       "1.5.V"
     ],
     "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-1.5.V.C-revisit-2026-05-18T",
     "historische_noot": "PO 1.5-anchor verwijst naar IAS 17, die vervangen werd door IFRS 16 vanaf 1 januari 2019. Records reflecteren IFRS 16 als huidige norm; oude leasing-classificatie operationeel/financieel onder IAS 17 is voor lessee weggewerkt."
   },
   "bouwstenen": [
@@ -122,8 +123,10 @@
       "voorbeelden": [
         {
           "vorm": "eenvoudig",
-          "omschrijving": "Zelena Bio jaar 1 (2026): afschrijving ROU € 480.000 (lineair € 4.800.000 / 10) + rentelast € 155.760 (4% × € 3.894.000) = € 635.760 totaal in W&V. Onder IAS 17 zou dit € 480.000 huur zijn. Verschil van € 155.760 reduceert na verloop van tijd.",
-          "confidence": "grounded"
+          "omschrijving": "Zelena Bio jaar 1 (2026) — basis-scenario (ROU € 3.894.000 zonder bijkomende kosten): afschrijving ROU € 389.400 (lineair € 3.894.000 / 10) + rentelast € 155.760 (4% × € 3.894.000) = € 545.160 totaal in W&V. Onder IAS 17 zou dit € 480.000 huur zijn. Verschil van € 65.160 in jaar 1 (front-loading) reduceert over de leaseperiode en compenseert in latere jaren.",
+          "confidence": "grounded",
+          "corrected_from": "afschrijving ROU € 480.000 (lineair € 4.800.000 / 10) + rentelast € 155.760 = € 635.760",
+          "correction_reason": "Pilot-cijfers waren intern strijdig (ROU € 4.800.000 zonder grondslag); afschrijving herrekend op € 3.894.000-basis (overeenkomstig record-top scenario en `leaseverplichting-ifrs`-cijfers)."
         }
       ]
     },

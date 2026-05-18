@@ -115,6 +115,27 @@ _Grondslag: IFRS 16 alinea 40-43_
 ## Voorbeelden
 
 Zelena Bio NV op aanvangsdatum 1 januari 2026: 10 jaar huurperiode Antwerpse locatie, vaste betaling € 480.000 jaarlijks, marginale rentevoet 4%. Leaseverplichting bij eerste opname = € 480.000 × annuïteitfactor(10 jaar, 4%) = € 480.000 × 8,1109 = **€ 3.893.232**, afgerond € 3.894.000. Jaar 1: rentelast 4% × € 3.894.000 = € 155.760; betaling € 480.000; aflossing hoofdsom € 480.000 − € 155.760 = € 324.240. Boekwaarde einde jaar 1 = € 3.894.000 − € 324.240 = € 3.569.760.
+### Effectieve-rentemethode jaar 1 — Zelena Bio NV
+
+_Personages: Zelena Bio NV_
+
+Zelena Bio betaalt op 31 december 2026 de eerste jaarlijkse leasebetaling van € 480.000 voor de Antwerpse locatie. De betaling wordt gesplitst in rentelast (effectieve-rentemethode, 4% × openstaande hoofdsom € 3.894.000) en aflossing van de hoofdsom (saldo).
+
+1. Bereken rentelast jaar 1: 4% × € 3.894.000 = € 155.760.
+2. Bereken aflossing hoofdsom: € 480.000 − € 155.760 = € 324.240.
+3. Boek de betaling: rentelast in W&V, aflossing tegen leaseverplichting, totaal € 480.000 uit bank.
+4. Bepaal boekwaarde leaseverplichting einde jaar 1: € 3.894.000 − € 324.240 = € 3.569.760.
+#### Boeking jaarlijkse leasebetaling — 31 december 2026
+_Splitsing volgens effectieve-rentemethode (IFRS 16 alinea 36-37). Rente daalt over de looptijd; hoofdsom-aflossing stijgt parallel._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| Rentelast op leaseverplichting (W&V) | 155760 |  |
+| Leaseverplichting (hoofdsom-aflossing) | 324240 |  |
+| Bank |  | 480000 |
+
+_Bron: IFRS 16 alinea 36-38_ ⚖️
+
 
 ## Bronnen
 

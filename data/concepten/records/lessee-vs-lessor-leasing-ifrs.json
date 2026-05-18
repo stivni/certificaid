@@ -16,6 +16,7 @@
       "1.5.V"
     ],
     "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-1.5.V.C-revisit-2026-05-18T",
     "motivering_synthese": "IFRS 16 vervangt IAS 17 voor lessees met een single model (alle leases on-balance), maar bewaart voor lessors het oude binaire model operationele/financiële lease (alinea 61-66). Deze asymmetrie is een notoir examenval en wordt nergens als één coherent pedagogisch overzicht samengebracht. De synthese koppelt `leasing-ifrs`, `right-of-use-actief` en `leaseverplichting-ifrs` aan het lessor-perspectief dat in geen enkel ander record uitgewerkt is."
   },
   "gebaseerd_op_concepten": [

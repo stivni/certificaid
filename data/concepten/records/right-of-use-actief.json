@@ -16,7 +16,7 @@
       "1.5.V"
     ],
     "reviewed_by": null,
-    "last_correction_run": "concept-extractie-v4-2026-05-18T-verify-feedback"
+    "last_correction_run": "concept-extractie-v4-1.5.V.C-revisit-2026-05-18T"
   },
   "definitie": {
     "text": "Het **met een gebruiksrecht overeenstemmende actief** (right-of-use asset, ROU) is het actief dat een lessee onder IFRS 16 op zijn balans opneemt: het **recht om gedurende de leaseperiode het onderliggende activum te gebruiken**. Niet de eigendom van het actief zelf, wel het exclusieve gebruiksrecht voor de overeengekomen duur. Bij eerste opname (aanvangsdatum) tegen kostprijs (IFRS 16 alinea 23): waarde van de leaseverplichting + leasebetalingen vóór aanvangsdatum (minus incentives) + initiële directe kosten + ontmantelings- en herstelkosten. Na eerste opname volgens het **kostprijsmodel** (alinea 30): afschrijving + bijzondere waardeverminderingen, eventueel aangepast voor herwaarderingen van de leaseverplichting. Alternatieve modellen: reëlewaardemodel als ROU vastgoedbelegging is (IAS 40), herwaarderingsmodel als de onderliggende activacategorie onder IAS 16 wordt geherwaardeerd.",
@@ -206,6 +206,52 @@
     {
       "vorm": "eenvoudig",
       "omschrijving": "Zelena Bio's ROU-actief voor Antwerpse productielocatie op 1 januari 2026: € 4.049.000 (= leaseverplichting € 3.894.000 + sleutelgeld € 50.000 + advocatenkosten € 25.000 + ontmantelingskosten € 80.000). In de IFRS-balans presentatie: ofwel apart als 'Met een gebruiksrecht overeenstemmende activa' ofwel binnen 'Materiële vaste activa' (met vermelding in toelichting in welke post)."
+    },
+    {
+      "vorm": "scenario",
+      "titel": "Afschrijving ROU jaar 1 — Zelena Bio NV",
+      "cast": [
+        "Zelena Bio NV"
+      ],
+      "omschrijving": "Zelena Bio schrijft het ROU-actief voor de Antwerpse productielocatie lineair af over de leaseperiode van 10 jaar (geen aankoopoptie → kortste van leaseperiode of gebruiksduur). Aanvangswaarde ROU € 4.049.000 inclusief bijkomende kosten.",
+      "stappen": [
+        "1. Bepaal afschrijvingstermijn: 10 jaar (leaseperiode) — geen aankoopoptie, dus niet de 30-50 jaar gebruiksduur van het gebouw.",
+        "2. Bereken jaarlijkse afschrijving: € 4.049.000 / 10 = € 404.900.",
+        "3. Boek de afschrijving op het einde van het boekjaar 2026."
+      ],
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Boeking jaarlijkse afschrijving ROU — 31 december 2026",
+          "context": "Lineaire afschrijving over leaseperiode 10 jaar (IFRS 16 alinea 31-32, default-regel zonder eigendomsoverdracht).",
+          "rijen": [
+            {
+              "rekening": "Afschrijvingskost ROU (W&V)",
+              "debet": 404900,
+              "credit": null
+            },
+            {
+              "rekening": "Geaccumuleerde afschrijving ROU-actief",
+              "debet": null,
+              "credit": 404900
+            }
+          ]
+        }
+      ],
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 31-32"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
