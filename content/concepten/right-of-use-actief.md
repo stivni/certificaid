@@ -71,6 +71,27 @@ _Grondslag: IFRS 16 alinea 33 + IAS 36_
 > IFRS 16 vereist uitgebreide toelichting (alinea 51-60): afschrijvingskosten per categorie, rentelasten leaseverplichting, kortlopende-lease- en lage-waarde-lease-kosten, totale cashuitstroom, toevoegingen aan ROU, looptijdanalyse leaseverplichtingen (analoog aan IFRS 7), en kwalitatieve info over leaseactiviteiten. ⚖️
 
 
+## Valkuilen
+
+> [!warning]- Afschrijvingstermijn ROU verwarren met economische levensduur van het onderliggende actief
+> ⚠️ Afschrijvingstermijn ROU verwarren met economische levensduur van het onderliggende actief. Default = afschrijven tot het **vroegste** van (a) einde gebruiksduur ROU of (b) einde leaseperiode (alinea 32). Alleen wanneer eigendom op einde overgaat, OF wanneer de kost ROU reflecteert dat de lessee een aankoopoptie zal uitoefenen, schrijf je af over de volledige gebruiksduur van het onderliggende actief. Stagiairs die een 10-jarige huurperiode op een gebouw van 40 jaar lineair afschrijven over 40 jaar onderschrijven de jaarlijkse afschrijvingslast met 75 %. ⚖️
+>
+> _Bron: IFRS 16 alinea 32_
+
+
+> [!warning]- Herwaardering van de leaseverplichting (bv. verlengingsoptie, indexering) boek je **NIET** rechtstreeks in winst of verlies — je past het RO…
+> ⚠️ Herwaardering van de leaseverplichting (bv. verlengingsoptie, indexering) boek je **NIET** rechtstreeks in winst of verlies — je past het ROU-actief aan (alinea 39). Pas wanneer het ROU-actief al naar nul is afgeboekt en de verplichting verder daalt, gaat het resterende bedrag wel naar W&V. Stagiairs die een leaseverlenging als financiële kost boeken in plaats van als ROU-bijschrijving vertekenen zowel de actief- als de resultaatzijde. ⚖️
+>
+> _Bron: IFRS 16 alinea 39_
+
+
+> [!warning]- Impairment-toets op het ROU-actief vergeten
+> ⚠️ Impairment-toets op het ROU-actief vergeten. Het ROU is een gewoon actief onder IAS 36 (alinea 33 IFRS 16) — bij aanwijzingen voor waardevermindering (gehuurd pand niet meer bruikbaar, herstructurering, leegstaande winkel) moet de boekwaarde getoetst worden tegen de realiseerbare waarde. Stagiairs behandelen ROU soms als 'huurcontract' en missen daardoor de impairment-stap die voor MVA wel automatisch gebeurt. ⚖️
+>
+> _Bron: IFRS 16 alinea 33 + IAS 36_
+
+
+
 ## Zie ook
 
 - **Vereist kennis van**: [[leaseverplichting-ifrs]]

@@ -19,7 +19,8 @@
       "1.5.IV.C",
       "1.5.V"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-2026-05-18T-verify-feedback"
   },
   "doel": {
     "text": "IAS 36 — Bijzondere waardevermindering van activa zorgt ervoor dat een entiteit haar activa niet boven hun **realiseerbare waarde** (recoverable amount) waardeert. Op elke balansdatum: beoordeel of er **aanwijzingen** zijn voor waardevermindering. Voor goodwill, immateriële activa met onbepaalde gebruiksduur en nog-niet-beschikbare-voor-gebruik immateriële activa: jaarlijkse test **verplicht**, ongeacht aanwijzingen. Een bijzondere waardevermindering (impairment) treedt op wanneer de **boekwaarde** de **realiseerbare waarde** overschrijdt. De realiseerbare waarde = de **hoogste** van: (a) **reële waarde minus verkoopkosten** (fair value less costs of disposal); of (b) **bedrijfswaarde** (value in use, contante waarde van toekomstige kasstromen uit voortgezet gebruik + vervreemding). Impairment-verlies in winst of verlies (tenzij activa onder herwaarderingsmodel — dan eerst herwaarderingsreserve aanspreken). Voor goodwill: nooit terugneembaar. Voor andere activa: terugneembaar bij verbeterde omstandigheden, maximum tot oorspronkelijke kostprijs minus normale afschrijvingen.",
@@ -118,9 +119,15 @@
       "voorbeelden": [
         {
           "vorm": "eenvoudig",
-          "omschrijving": "Zelena's productielijn Y in 2028 (twee jaar na impairment): nieuwe regelgeving versoepelt, marktwaarde herstelt. Boekwaarde 31 december 2028 (na 2 jaar normale afschrijving op € 7.200.000) = € 4.320.000. Boekwaarde zonder oorspronkelijke impairment zou zijn = € 5.100.000. Realiseerbare waarde nu = € 5.500.000. Terugneming max € 5.100.000 − € 4.320.000 = € 780.000 in W&V."
+          "omschrijving": "Zelena's productielijn Y in 2028 (twee jaar na impairment): nieuwe regelgeving versoepelt, marktwaarde herstelt. Boekwaarde 31 december 2028 (na 2 jaar herziene afschrijving € 1.440.000/jaar op € 7.200.000) = € 4.320.000. Hypothetische boekwaarde zonder oorspronkelijke impairment (€ 8.500.000 − 2 × € 2.000.000) = € 4.500.000. Realiseerbare waarde nu = € 5.500.000. Terugneming begrensd door hypothetische boekwaarde: € 4.500.000 − € 4.320.000 = € 180.000 in W&V (IAS 36 alinea 117-ceiling)."
         }
-      ]
+      ],
+      "correction": {
+        "datum": "2026-05-18",
+        "run_id": "concept-extractie-v4-2026-05-18T-verify-feedback",
+        "corrected_from": "Bouwsteen-voorbeeld gaf hypothetische boekwaarde € 5.100.000 en terugneming € 780.000 — rekentechnisch onjuist en in tegenspraak met het record-scenario dat dezelfde fact-pattern hanteert.",
+        "correction_reason": "VERIFY-pass 2026-05-18 §2 HIGH-prio intra-record-cijferinconsistentie. v4 §17 regel 9: voorbeelden binnen één record met identieke fact-pattern moeten dezelfde afgeleide cijfers geven. Scenario is correct (€ 10M / 5 jaar × 1,5 jaar tot impairment = € 8,5M; impairment naar € 7,2M; herziene afschrijving € 1,44M × 2 jaar = € 2,88M; BW na 2 jaar = € 4,32M; ceiling = € 8,5M − 2 × € 2M = € 4,5M)."
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -421,5 +428,5 @@
       ]
     }
   ],
-  "v4_pilot_v2_touched_at": "2026-05-18T00:00:00Z"
+  "v4_pilot_v2_touched_at": "2026-05-18T03:00:00Z"
 }

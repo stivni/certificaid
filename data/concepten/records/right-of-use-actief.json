@@ -15,7 +15,8 @@
     "dekt_ook_anchors": [
       "1.5.V"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-2026-05-18T-verify-feedback"
   },
   "definitie": {
     "text": "Het **met een gebruiksrecht overeenstemmende actief** (right-of-use asset, ROU) is het actief dat een lessee onder IFRS 16 op zijn balans opneemt: het **recht om gedurende de leaseperiode het onderliggende activum te gebruiken**. Niet de eigendom van het actief zelf, wel het exclusieve gebruiksrecht voor de overeengekomen duur. Bij eerste opname (aanvangsdatum) tegen kostprijs (IFRS 16 alinea 23): waarde van de leaseverplichting + leasebetalingen vóór aanvangsdatum (minus incentives) + initiële directe kosten + ontmantelings- en herstelkosten. Na eerste opname volgens het **kostprijsmodel** (alinea 30): afschrijving + bijzondere waardeverminderingen, eventueel aangepast voor herwaarderingen van de leaseverplichting. Alternatieve modellen: reëlewaardemodel als ROU vastgoedbelegging is (IAS 40), herwaarderingsmodel als de onderliggende activacategorie onder IAS 16 wordt geherwaardeerd.",
@@ -207,5 +208,58 @@
       "omschrijving": "Zelena Bio's ROU-actief voor Antwerpse productielocatie op 1 januari 2026: € 4.049.000 (= leaseverplichting € 3.894.000 + sleutelgeld € 50.000 + advocatenkosten € 25.000 + ontmantelingskosten € 80.000). In de IFRS-balans presentatie: ofwel apart als 'Met een gebruiksrecht overeenstemmende activa' ofwel binnen 'Materiële vaste activa' (met vermelding in toelichting in welke post)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "valkuilen": [
+    {
+      "text": "Afschrijvingstermijn ROU verwarren met economische levensduur van het onderliggende actief. Default = afschrijven tot het **vroegste** van (a) einde gebruiksduur ROU of (b) einde leaseperiode (alinea 32). Alleen wanneer eigendom op einde overgaat, OF wanneer de kost ROU reflecteert dat de lessee een aankoopoptie zal uitoefenen, schrijf je af over de volledige gebruiksduur van het onderliggende actief. Stagiairs die een 10-jarige huurperiode op een gebouw van 40 jaar lineair afschrijven over 40 jaar onderschrijven de jaarlijkse afschrijvingslast met 75 %.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 32"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Herwaardering van de leaseverplichting (bv. verlengingsoptie, indexering) boek je **NIET** rechtstreeks in winst of verlies — je past het ROU-actief aan (alinea 39). Pas wanneer het ROU-actief al naar nul is afgeboekt en de verplichting verder daalt, gaat het resterende bedrag wel naar W&V. Stagiairs die een leaseverlenging als financiële kost boeken in plaats van als ROU-bijschrijving vertekenen zowel de actief- als de resultaatzijde.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 39"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Impairment-toets op het ROU-actief vergeten. Het ROU is een gewoon actief onder IAS 36 (alinea 33 IFRS 16) — bij aanwijzingen voor waardevermindering (gehuurd pand niet meer bruikbaar, herstructurering, leegstaande winkel) moet de boekwaarde getoetst worden tegen de realiseerbare waarde. Stagiairs behandelen ROU soms als 'huurcontract' en missen daardoor de impairment-stap die voor MVA wel automatisch gebeurt.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 33 + IAS 36"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

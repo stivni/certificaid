@@ -75,6 +75,27 @@ _Grondslag: IFRS 16 alinea 40-43_
 > Een lessee moet leaseverplichtingen apart presenteren in het overzicht financiële positie OF in de toelichting (alinea 47b). De looptijdanalyse (alinea 58) is verplicht — analoog aan IFRS 7-rapportering voor financiële verplichtingen. ⚖️
 
 
+## Valkuilen
+
+> [!warning]- Variabele betalingen op basis van **gebruik of prestatie** (bv. omzet-afhankelijke huur, kilometervergoeding boven drempel) horen **NIET** i…
+> ⚠️ Variabele betalingen op basis van **gebruik of prestatie** (bv. omzet-afhankelijke huur, kilometervergoeding boven drempel) horen **NIET** in de leaseverplichting bij eerste opname (alinea 27 + B42). Zij worden als kost geboekt wanneer ze ontstaan. Alleen vaste betalingen, in-wezen-vaste betalingen, en variabele betalingen die van een **index of rentevoet** afhangen (gewaardeerd op basis van de index op aanvangsdatum) horen in de verplichting. Stagiairs die een omzethuur kapitaliseren overschatten de schuldpositie en de afschrijvings­basis ROU. ⚖️
+>
+> _Bron: IFRS 16 alinea 27 + B42_
+
+
+> [!warning]- Index-aanpassingen (bv. jaarlijkse CPI-indexering) leiden NIET onmiddellijk tot een herwaardering van de leaseverplichting
+> ⚠️ Index-aanpassingen (bv. jaarlijkse CPI-indexering) leiden NIET onmiddellijk tot een herwaardering van de leaseverplichting. Pas op het moment dat de nieuwe kasstroom in werking treedt (alinea 42b + 43) wordt de verplichting herwaardeerd, en dat gebeurt met de **ongewijzigde** disconteringsvoet — tenzij de wijziging het gevolg is van een variabele rentevoet. Stagiairs die elk jaar de IBR opnieuw schatten of de index-impact retroactief verwerken creëren onterechte W&V-effecten. ⚖️
+>
+> _Bron: IFRS 16 alinea 42-43_
+
+
+> [!warning]- Marginale rentevoet (IBR) verwarren met de algemene lenenkost van de onderneming
+> ⚠️ Marginale rentevoet (IBR) verwarren met de algemene lenenkost van de onderneming. De IBR is contract-specifiek: ze reflecteert wat de lessee zou betalen voor een lening van **gelijke duur**, met **gelijke zekerheid**, om een actief van **gelijke waarde** te verwerven (definitie alinea A IFRS 16). Een KMO die haar bestaande bankrentevoet voor werkkapitaal-financiering hanteert voor een 10-jarige vastgoedlease onderschat de IBR substantieel en overschat zo de leaseverplichting. ⚖️
+>
+> _Bron: IFRS 16 alinea 26 + Bijlage A_
+
+
+
 ## Zie ook
 
 - **Vereist kennis van**: [[right-of-use-actief]]

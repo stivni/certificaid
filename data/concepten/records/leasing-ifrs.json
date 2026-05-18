@@ -275,18 +275,6 @@
       "confidence": "grounded"
     },
     {
-      "type": "bevat",
-      "target": "right-of-use-actief",
-      "redenering": "ROU is een centrale bouwsteen onder IFRS 16, verder uitgewerkt in eigen record.",
-      "confidence": "grounded"
-    },
-    {
-      "type": "bevat",
-      "target": "sale-and-leaseback-ifrs-16",
-      "redenering": "Sale-and-leaseback is een gespecialiseerde IFRS 16-transactie (alinea 98-103) die de standaard ROU + leaseverplichting-mechanica combineert met een IFRS 15-verkooptoets.",
-      "confidence": "grounded"
-    },
-    {
       "type": "specialisatie-van",
       "target": "leasing",
       "regime": "IFRS",
@@ -421,5 +409,16 @@
         }
       ]
     }
-  }
+  },
+  "edges_cleanup_log": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T-verify-feedback",
+      "verwijderde_deprecated_bevat_edges": [
+        "right-of-use-actief",
+        "sale-and-leaseback-ifrs-16"
+      ],
+      "reden": "VERIFY 2026-05-18: deprecated `bevat`-edges; v4 §9 vereist correctie naar inverse `onderdeel-van` op target. Beide targets (right-of-use-actief, sale-and-leaseback-ifrs-16) hebben de inverse `onderdeel-van: leasing-ifrs` al; deprecated edges hier zijn dus redundant."
+    }
+  ]
 }

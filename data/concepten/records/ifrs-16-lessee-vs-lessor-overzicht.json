@@ -92,13 +92,17 @@
       "target": "leasing",
       "redenering": "BE-GAAP-leasing (CBN 2015/04) bewaart het binaire model voor zowel lessee als lessor — anders dan IFRS 16-lessee-single-model.",
       "confidence": "grounded"
-    },
-    {
-      "type": "bevat",
-      "target": "sale-and-leaseback-ifrs-16",
-      "redenering": "Sale-and-leaseback is een speciale IFRS 16-transactie die zowel lessee- als lessor-zijde raakt — apart record met IFRS 15-zeggenschap-toets en evenredige winstrealisatie.",
-      "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "edges_cleanup_log": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T-verify-feedback",
+      "verwijderde_deprecated_bevat_edges": [
+        "sale-and-leaseback-ifrs-16"
+      ],
+      "reden": "VERIFY 2026-05-18: deprecated `bevat`-edge. Sale-and-leaseback heeft al `onderdeel-van: leasing-ifrs`. De synthese hoeft sale-and-leaseback niet te 'bevatten' — vermelding in `gebaseerd_op_concepten[]` is voldoende. v4 §9 correctie-regel."
+    }
+  ]
 }

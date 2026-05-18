@@ -47,7 +47,7 @@ Een onderneming valt onder de verplichte IFRS-toepassing als (1) zij onder het r
 
 _Grondslag: Verordening 1606/2002 art. 4_
 
-### Goedkeuringsprocedure — endorsement ⚖️
+### Goedkeuringsprocedure — endorsement 🤖
 
 Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europese Commissie beslist via een aparte procedure (art. 6 lid 2) of een standaard goedgekeurd ('endorsed') wordt. Daarbij wordt de Commissie bijgestaan door een **regelgevend comité voor financiële verslaglegging** — in de praktijk bekend als het **Accounting Regulatory Committee (ARC)**. Een standaard kan alleen goedgekeurd worden als zij (1) niet in strijd is met het true-and-fair-view-beginsel uit de Belgische omzetting van de richtlijnen, (2) **het Europees openbaar belang** dient, en (3) voldoet aan de vier kwalitatieve criteria voor financiële informatie: **begrijpelijkheid**, **relevantie**, **betrouwbaarheid** en **vergelijkbaarheid**. Goedgekeurde standaarden worden **in hun geheel** bekendgemaakt als een aparte Commissie-verordening in het Publicatieblad — voor de praktijk vooral Verordening (EU) 2023/1803 (geconsolideerde IFRS-tekst). Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is dit al endorsed?
 

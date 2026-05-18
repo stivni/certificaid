@@ -18,7 +18,7 @@
       "1.5.taak.1"
     ],
     "reviewed_by": null,
-    "last_correction_run": "concept-extractie-v4-2026-05-18T05:00Z"
+    "last_correction_run": "concept-extractie-v4-2026-05-18T-verify-feedback"
   },
   "main_rule": {
     "text": "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 verplicht **beursgenoteerde EU-ondernemingen** om hun geconsolideerde jaarrekening op te stellen volgens de internationale standaarden (International Accounting Standards / International Financial Reporting Standards, kortweg IAS/IFRS) die door de Europese Commissie zijn goedgekeurd. Deze verplichting geldt voor elk boekjaar dat begint op of na 1 januari 2005. Onder 'internationale standaarden' verstaat de verordening: de IAS, de IFRS, de bijhorende interpretaties (Standing Interpretations Committee/IFRS Interpretations Committee, SIC/IFRIC) en alle latere wijzigingen, vastgesteld door de International Accounting Standards Board (IASB). Een verordening werkt rechtstreeks in alle lidstaten — er is geen omzetting in Belgisch recht nodig. Lidstaten mogen wel uitbreiden: ze mogen ook andere (niet-beursgenoteerde) ondernemingen toestaan of verplichten IFRS toe te passen, en ze mogen IFRS ook openstellen voor enkelvoudige jaarrekeningen. België heeft die uitbreiding zeer beperkt gehouden.",
@@ -128,7 +128,7 @@
       "wat": "Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europese Commissie beslist via een aparte procedure (art. 6 lid 2) of een standaard goedgekeurd ('endorsed') wordt. Daarbij wordt de Commissie bijgestaan door een **regelgevend comité voor financiële verslaglegging** — in de praktijk bekend als het **Accounting Regulatory Committee (ARC)**. Een standaard kan alleen goedgekeurd worden als zij (1) niet in strijd is met het true-and-fair-view-beginsel uit de Belgische omzetting van de richtlijnen, (2) **het Europees openbaar belang** dient, en (3) voldoet aan de vier kwalitatieve criteria voor financiële informatie: **begrijpelijkheid**, **relevantie**, **betrouwbaarheid** en **vergelijkbaarheid**. Goedgekeurde standaarden worden **in hun geheel** bekendgemaakt als een aparte Commissie-verordening in het Publicatieblad — voor de praktijk vooral Verordening (EU) 2023/1803 (geconsolideerde IFRS-tekst). Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is dit al endorsed?",
       "waarom": "De EU houdt soevereiniteit over wat er in haar jaarrekeningen geldt. De endorsement-stap is een filter: standaarden moeten in het Europees openbaar belang zijn en voldoen aan de vier kwaliteitscriteria. Het ARC fungeert als technisch klankbord van de Commissie en stemt over elk endorsement-voorstel met gekwalificeerde meerderheid van de lidstaten.",
       "grondslag": "Verordening 1606/2002 art. 3 lid 1-4 + art. 6",
-      "confidence": "grounded",
+      "confidence": "inferred",
       "source": {
         "type": "verordening",
         "short": "Verordening 1606/2002 art. 3 + art. 6"
@@ -159,7 +159,15 @@
         "run_id": "concept-extractie-v4-2026-05-18T05:00Z",
         "corrected_from": "Originele bouwsteen noemde 'begrijpelijkheid, relevantie, betrouwbaarheid en vergelijkbaarheid' maar enumereerde ze niet als 4 expliciete cumulatieve criteria en vermeldde het ARC-comité (art. 6) niet bij naam.",
         "correction_reason": "Aanvullende grounding op art. 3 lid 2-4 + art. 6: vier cumulatieve kwaliteitscriteria expliciet, 'Europees openbaar belang' als afzonderlijk criterium, ARC bij naam."
-      }
+      },
+      "correction_log": [
+        {
+          "datum": "2026-05-18",
+          "run_id": "concept-extractie-v4-2026-05-18T-verify-feedback",
+          "corrected_from": "confidence: grounded — terwijl 'Accounting Regulatory Committee (ARC)' niet letterlijk in verordening 1606/2002 art. 6 staat (de bron noemt alleen 'regelgevend comité voor financiële verslaglegging').",
+          "correction_reason": "VERIFY 2026-05-18 §2 confidence-labeling: ARC-naam is doctrinaire toevoeging (Europese praktijk), niet bron-direct. v4 §13: 'grounded alleen als chunk-tekst het concept direct bevat'."
+        }
+      ]
     },
     {
       "titel": "Lidstatenoptie — niet-beursgenoteerden",

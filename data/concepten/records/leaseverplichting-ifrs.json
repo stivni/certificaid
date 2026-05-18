@@ -15,7 +15,8 @@
     "dekt_ook_anchors": [
       "1.5.V"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-2026-05-18T-verify-feedback"
   },
   "definitie": {
     "text": "De **leaseverplichting** is de financiële verplichting die de lessee op de aanvangsdatum onder IFRS 16 op zijn balans opneemt: de **contante waarde van leasebetalingen die op aanvangsdatum nog niet zijn verricht** (alinea 26). Disconteringsvoet: **impliciete rentevoet van de leaseovereenkomst** indien gemakkelijk bepaalbaar; anders **marginale rentevoet van de lessee** (rentevoet die de lessee zou betalen om geleende middelen te krijgen voor een soortgelijke transactie). Na eerste opname (alinea 36): boekwaarde verhogen met rente op leaseverplichting (effectieve-rentemethode); boekwaarde verminderen met verrichte leasebetalingen; boekwaarde herwaarderen bij wijzigingen in leaseperiode, aankoopoptie-beoordeling, restwaardegaranties, of index/rentevoet-aanpassingen.",
@@ -202,5 +203,58 @@
       "omschrijving": "Zelena Bio NV op aanvangsdatum 1 januari 2026: 10 jaar huurperiode Antwerpse locatie, vaste betaling € 480.000 jaarlijks, marginale rentevoet 4%. Leaseverplichting bij eerste opname = € 480.000 × annuïteitfactor(10 jaar, 4%) = € 480.000 × 8,1109 = **€ 3.893.232**, afgerond € 3.894.000. Jaar 1: rentelast 4% × € 3.894.000 = € 155.760; betaling € 480.000; aflossing hoofdsom € 480.000 − € 155.760 = € 324.240. Boekwaarde einde jaar 1 = € 3.894.000 − € 324.240 = € 3.569.760."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "valkuilen": [
+    {
+      "text": "Variabele betalingen op basis van **gebruik of prestatie** (bv. omzet-afhankelijke huur, kilometervergoeding boven drempel) horen **NIET** in de leaseverplichting bij eerste opname (alinea 27 + B42). Zij worden als kost geboekt wanneer ze ontstaan. Alleen vaste betalingen, in-wezen-vaste betalingen, en variabele betalingen die van een **index of rentevoet** afhangen (gewaardeerd op basis van de index op aanvangsdatum) horen in de verplichting. Stagiairs die een omzethuur kapitaliseren overschatten de schuldpositie en de afschrijvings­basis ROU.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 27 + B42"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Index-aanpassingen (bv. jaarlijkse CPI-indexering) leiden NIET onmiddellijk tot een herwaardering van de leaseverplichting. Pas op het moment dat de nieuwe kasstroom in werking treedt (alinea 42b + 43) wordt de verplichting herwaardeerd, en dat gebeurt met de **ongewijzigde** disconteringsvoet — tenzij de wijziging het gevolg is van een variabele rentevoet. Stagiairs die elk jaar de IBR opnieuw schatten of de index-impact retroactief verwerken creëren onterechte W&V-effecten.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 42-43"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Marginale rentevoet (IBR) verwarren met de algemene lenenkost van de onderneming. De IBR is contract-specifiek: ze reflecteert wat de lessee zou betalen voor een lening van **gelijke duur**, met **gelijke zekerheid**, om een actief van **gelijke waarde** te verwerven (definitie alinea A IFRS 16). Een KMO die haar bestaande bankrentevoet voor werkkapitaal-financiering hanteert voor een 10-jarige vastgoedlease onderschat de IBR substantieel en overschat zo de leaseverplichting.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 16 alinea 26 + Bijlage A"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-16-leaseovereenkomsten__sec_waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }
