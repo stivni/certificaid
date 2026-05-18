@@ -16,7 +16,13 @@
       "1.5.V"
     ],
     "reviewed_by": null,
-    "historische_noot": "PO 1.5-anchor verwijst naar IAS 18 (Opbrengsten uit gewone activiteiten), die vervangen werd door IFRS 15 — Opbrengsten van contracten met klanten, van kracht voor boekjaren beginnend op of na 1 januari 2018. Records reflecteren IFRS 15."
+    "historische_noot": "PO 1.5-anchor verwijst naar IAS 18 (Opbrengsten uit gewone activiteiten), die vervangen werd door IFRS 15 — Opbrengsten van contracten met klanten, van kracht voor boekjaren beginnend op of na 1 januari 2018. Records reflecteren IFRS 15.",
+    "extractor_runs_log": [
+      {
+        "run": "concept-extractie-v4-1.5.V.D-2026-05-18T10:52:49+00:00",
+        "actie": "typo-fix + edge target_status=pending"
+      }
+    ]
   },
   "doel": {
     "text": "IFRS 15 — Opbrengsten van contracten met klanten vervangt sinds 1 januari 2018 IAS 18 (Opbrengsten uit gewone activiteiten) en IAS 11 (Onderhanden projecten in opdracht van derden). Het **kernprincipe** (alinea 2): een entiteit neemt opbrengsten op om de overdracht van beloofde goederen of diensten aan klanten weer te geven, voor een bedrag dat de vergoeding weerspiegelt waarop de entiteit recht zal hebben in ruil. De toepassing volgt een **5-stappen-model**: (1) identificeer het contract met de klant; (2) identificeer de prestatieverplichtingen in het contract; (3) bepaal de transactieprijs; (4) wijs de transactieprijs toe aan de prestatieverplichtingen; (5) neem opbrengsten op wanneer (of naarmate) een prestatieverplichting wordt vervuld. Het model is **principe-georiënteerd** en geldt voor alle sectoren, met uitzondering van leasing (IFRS 16), verzekeringen (IFRS 17) en financiële instrumenten (IFRS 9).",
@@ -91,7 +97,7 @@
           "type": "beslissing"
         }
       ],
-      "hoe": "1. Zelena Bio NV ontvangt een bestelling van Brugse Brouwerij BV voor 500.000 doseflesjes ingrediënt X, prijs € 0,80/flesje (€ 400.000 totaal), levering Q3 2026, betaling 60 dagen na levering.\n2. Check criterium (a): Brugse heeft schriftelijke bestelorder gestuurd, Zelena heeft die bevestigd. → OK.\n3. Check (b): 500.000 doseflesjes ingrediënt X — duidelijk geïdentificeerd. → OK.\n4. Check (c): € 0,80/flesje, betaling 60 dagen. → OK.\n5. Check (d): Zelena verwacht een nieuwe kasstroom; Brugse krijgt een bedrijfsmiddel. → OK.\n6. Check (e): Brugse is een gevestigde klant met goede betaalhistoriek. → OK.\n7. Contract is opnemeer onder IFRS 15.",
+      "hoe": "1. Zelena Bio NV ontvangt een bestelling van Brugse Brouwerij BV voor 500.000 doseflesjes ingrediënt X, prijs € 0,80/flesje (€ 400.000 totaal), levering Q3 2026, betaling 60 dagen na levering.\n2. Check criterium (a): Brugse heeft schriftelijke bestelorder gestuurd, Zelena heeft die bevestigd. → OK.\n3. Check (b): 500.000 doseflesjes ingrediënt X — duidelijk geïdentificeerd. → OK.\n4. Check (c): € 0,80/flesje, betaling 60 dagen. → OK.\n5. Check (d): Zelena verwacht een nieuwe kasstroom; Brugse krijgt een bedrijfsmiddel. → OK.\n6. Check (e): Brugse is een gevestigde klant met goede betaalhistoriek. → OK.\n7. Contract is opneembaar onder IFRS 15.",
       "grondslag": "IFRS 15 alinea 9-13"
     },
     {
@@ -292,7 +298,9 @@
       "target": "opbrengsten",
       "regime": "IFRS",
       "redenering": "Regime-specialisatie (v4 §7): dit record is de IFRS-variant van de algemene cluster `opbrengsten`. IFRS 15 versus oude IAS 18 + BE-GAAP-opbrengstregels.",
-      "confidence": "grounded"
+      "confidence": "grounded",
+      "target_status": "pending",
+      "target_status_reason": "Algemene cluster `opbrengsten` ontbreekt — gap-entry archived-strategic-pass (PO 1.1-scope). Edge gemarkeerd pending tot BE-GAAP-tegenhanger bestaat."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",

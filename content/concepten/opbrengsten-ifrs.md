@@ -50,7 +50,7 @@ Een contract is alleen administratief te verwerken onder IFRS 15 als VIJF criter
 4. Check (c): € 0,80/flesje, betaling 60 dagen. → OK.
 5. Check (d): Zelena verwacht een nieuwe kasstroom; Brugse krijgt een bedrijfsmiddel. → OK.
 6. Check (e): Brugse is een gevestigde klant met goede betaalhistoriek. → OK.
-7. Contract is opnemeer onder IFRS 15.
+7. Contract is opneembaar onder IFRS 15.
 
 **Grondslag**: IFRS 15 alinea 9-13
 
