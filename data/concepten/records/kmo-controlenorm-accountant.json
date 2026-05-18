@@ -1,7 +1,7 @@
 {
-  "id": "itaa-kmo-controlenorm",
-  "naam": "ITAA KMO-controlenorm",
-  "node_type": "begrip",
+  "id": "kmo-controlenorm-accountant",
+  "naam": "KMO-controlenorm voor de externe accountant",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -11,22 +11,26 @@
     "1.6.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.I.C",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I",
+    "linked_anchors": [
+      "1.6.I.C",
       "1.6.II",
       "1.6.III",
       "1.6.IV"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "rename_from": "itaa-kmo-controlenorm",
+    "rename_reden": "Bron-prefix smell §17 r10"
   },
   "definitie": {
-    "text": "De ITAA KMO-controlenorm is een uitgewerkt normenkader voor contractuele controle- en beoordelingsopdrachten op de jaarrekening van KMO's en kleine vzw's. Inspireert zich op ISA-standaarden maar is aangepast aan de KMO-realiteit. Bevat regels voor opdrachtaanvaarding, planning, risico-inschatting, werkzaamheden, documentatie, oordeel en verslag.",
+    "text": "De KMO-controlenorm is het gedetailleerd normenkader dat de externe accountant gebruikt bij contractuele controle- en beoordelingsopdrachten op de jaarrekening van kleine vennootschappen en kleine vzw's. Geïnspireerd door ISA-standaarden maar aangepast aan de KMO-realiteit. Bevat regels voor opdrachtaanvaarding, planning, risico-inschatting, werkzaamheden, documentatie, oordeel en verslag.",
     "confidence": "grounded",
     "source": {
       "type": "norm",
-      "short": "ITAA-norm-kmo-controlenorm"
+      "short": "ITAA-norm KMO-controlenorm"
     },
     "_provenance": {
       "inputs": [
@@ -126,28 +130,21 @@
       }
     }
   ],
-  "edges": [
-    {
-      "type": "bevat",
-      "target": "auditrisicomodel",
-      "redenering": "De norm structureert risico-inschatting via inherent/intern beheersing/ontdekkingsrisico."
-    },
-    {
-      "type": "bevat",
-      "target": "materieel-belang-audit",
-      "redenering": "Materieel belang is een sleutelconcept in §3."
-    },
-    {
-      "type": "specialisatie-van",
-      "target": "itaa-algemene-controlenorm",
-      "redenering": "Aanvullende detail-norm op de algemene controlenorm."
-    }
-  ],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
       "omschrijving": "Wolters & Partners CVBA voert een contractuele audit uit op Meubelzaak Mertens BV (omzet € 4.500.000, balanstotaal € 1.800.000 — kleine vennootschap). Sofie Janssens past de KMO-controlenorm toe: aanvaardingsfase, opdrachtbrief, risico-inschatting, gegevensgerichte werkzaamheden, oordeelsvorming en commissarisverslag-equivalent."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "edges": [
+    {
+      "type": "specialisatie-van",
+      "target": "algemene-controlenorm-accountant",
+      "redenering": "Aanvullende detail-norm op de algemene controlenorm."
+    }
+  ],
+  "vergelijkingsparen": [],
+  "gebaseerd_op_concepten": [],
+  "situering": "De KMO-controlenorm is de gedetailleerde ITAA-uitwerking voor contractuele controle- en beoordelingsopdrachten bij kleine vennootschappen en kleine vzw's. Ze geldt NIET voor het commissarismandaat (die volgt ISA + de revisorenwet) en NIET voor opdrachten die exclusief aan de bedrijfsrevisor zijn voorbehouden. Volgt de internationale auditcyclus (aanvaarding → planning → uitvoering → oordeel → verslag) met aanpassingen voor de KMO-realiteit: lichtere documentatie, meer professionele oordeelsvorming, expliciete definitielijst (bijlage 1)."
 }

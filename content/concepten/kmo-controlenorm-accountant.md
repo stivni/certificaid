@@ -1,8 +1,8 @@
 ---
-title: ITAA KMO-controlenorm
+title: KMO-controlenorm voor de externe accountant
 tags:
 - concept
-- begrip
+- cluster
 - po-1-6
 linked_anchors:
 - 1.6.I.C
@@ -12,22 +12,24 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: begrip
+node_type: cluster
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/itaa-kmo-controlenorm.json
+gegenereerd_uit: data/concepten/records/kmo-controlenorm-accountant.json
 gegenereerd_op: '2026-05-18'
 ---
-# ITAA KMO-controlenorm ⚖️
+# KMO-controlenorm voor de externe accountant ⚖️
+
+De KMO-controlenorm is de gedetailleerde ITAA-uitwerking voor contractuele controle- en beoordelingsopdrachten bij kleine vennootschappen en kleine vzw's. Ze geldt NIET voor het commissarismandaat (die volgt ISA + de revisorenwet) en NIET voor opdrachten die exclusief aan de bedrijfsrevisor zijn voorbehouden. Volgt de internationale auditcyclus (aanvaarding → planning → uitvoering → oordeel → verslag) met aanpassingen voor de KMO-realiteit: lichtere documentatie, meer professionele oordeelsvorming, expliciete definitielijst (bijlage 1).
 
 > [!summary] Korte inhoud
-> De ITAA KMO-controlenorm is een uitgewerkt normenkader voor contractuele controle- en beoordelingsopdrachten op de jaarrekening van KMO's en kleine vzw's.
+> De KMO-controlenorm is het gedetailleerd normenkader dat de externe accountant gebruikt bij contractuele controle- en beoordelingsopdrachten op de jaarrekening van kleine vennootschappen en kleine vzw's.
 
-> [!info] Specialisatie van: [[itaa-algemene-controlenorm]]
+> [!info] Specialisatie van: [[algemene-controlenorm-accountant]]
 
-De ITAA KMO-controlenorm is een uitgewerkt normenkader voor contractuele controle- en beoordelingsopdrachten op de jaarrekening van KMO's en kleine vzw's. Inspireert zich op ISA-standaarden maar is aangepast aan de KMO-realiteit. Bevat regels voor opdrachtaanvaarding, planning, risico-inschatting, werkzaamheden, documentatie, oordeel en verslag.
+De KMO-controlenorm is het gedetailleerd normenkader dat de externe accountant gebruikt bij contractuele controle- en beoordelingsopdrachten op de jaarrekening van kleine vennootschappen en kleine vzw's. Geïnspireerd door ISA-standaarden maar aangepast aan de KMO-realiteit. Bevat regels voor opdrachtaanvaarding, planning, risico-inschatting, werkzaamheden, documentatie, oordeel en verslag.
 
-_Bron: ITAA-norm-kmo-controlenorm_
+_Bron: ITAA-norm KMO-controlenorm_
 
 
 ## Bouwstenen
