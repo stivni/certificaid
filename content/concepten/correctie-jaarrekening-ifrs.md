@@ -19,11 +19,11 @@ gegenereerd_op: '2026-05-18'
 # Correctie van de jaarrekening — IAS 8 versus CBN 2020/12 ⚖️
 
 > [!summary] Korte inhoud
-> Correcties van een eerdere jaarrekening — fouten, wijzigingen in grondslagen, schattingswijzigingen — worden onder IFRS geregeld door **IAS 8** (Grondslagen voor financiële verslaggeving, schattingswijzigingen en fouten).
+> **Correctie van de jaarrekening** is het rechtzetten van een eerder gepubliceerde jaarrekening — door wijziging van een grondslag voor financiële verslaggeving, herziening van een schatting of correctie van een fout uit een vorige periode.
 
-Correcties van een eerdere jaarrekening — fouten, wijzigingen in grondslagen, schattingswijzigingen — worden onder IFRS geregeld door **IAS 8** (Grondslagen voor financiële verslaggeving, schattingswijzigingen en fouten). Drie scherpe categorieën met verschillende behandeling: (1) **wijziging in grondslag voor financiële verslaggeving** — verplicht door nieuwe IFRS of vrijwillig om relevantere/betrouwbaardere informatie te geven; **retroactieve toepassing** (alinea 19) — vergelijkende cijfers aanpassen alsof nieuwe grondslag altijd was toegepast; (2) **schattingswijziging** — herziening van schatting door nieuwe info of ervaring; **prospectieve toepassing** (alinea 36) — alleen toekomstige periodes raken; (3) **fout uit vorige periode** — onjuiste informatie die op publicatiedatum redelijkerwijs gebruikt had kunnen worden; **retroactieve correctie** (alinea 42) — vergelijkende cijfers aanpassen, beginbalans ingehouden winsten correctie. Onder Belgisch GAAP geldt voor enkelvoudige jaarrekening **CBN 2020/12** met grotendeels gelijklopende principes maar eigen Belgische publicatie-vereisten.
+**Correctie van de jaarrekening** is het rechtzetten van een eerder gepubliceerde jaarrekening — door wijziging van een grondslag voor financiële verslaggeving, herziening van een schatting of correctie van een fout uit een vorige periode. Onder IFRS regelt **IAS 8** drie scherp onderscheiden categorieën met elk een eigen verwerking: retroactief (grondslag, fout) of prospectief (schatting). Onder Belgisch GAAP geldt **CBN 2020/12** voor de enkelvoudige jaarrekening; de principes lopen grotendeels gelijk maar publicatie-formaliteiten verschillen — onder BE-GAAP wordt een 'verbeterde jaarrekening' opnieuw bij de Nationale Bank gedeponeerd, terwijl IFRS de correctie in de **volgende** jaarrekening (vergelijkende cijfers) verwerkt.
 
-_Bron: IAS 8 alinea 5, 14-31, 42-49_
+_Bron: IAS 8 + CBN 2020/12_
 
 
 ## Bouwstenen
@@ -149,5 +149,6 @@ Bij schattingswijziging: GEEN aanpassing van vergelijkende periodes. De wijzigin
 
 ## Bronnen
 
-[^1]: `CBN-2020-12-correctie-van-de-jaarrekening-0__sec_voorbeeld`
-[^2]: `IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening`
+[^1]: `IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten__sec_definities`
+[^2]: `CBN-2020-12-correctie-van-de-jaarrekening-0__sec_voorbeeld`
+[^3]: `IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening`

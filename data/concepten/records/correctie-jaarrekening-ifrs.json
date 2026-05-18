@@ -9,13 +9,35 @@
     "1.5.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T1.5.IV.C",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.IV.C",
     "dekt_ook_anchors": [
       "1.5.IV"
     ],
     "reviewed_by": null
+  },
+  "definitie": {
+    "text": "**Correctie van de jaarrekening** is het rechtzetten van een eerder gepubliceerde jaarrekening — door wijziging van een grondslag voor financiële verslaggeving, herziening van een schatting of correctie van een fout uit een vorige periode. Onder IFRS regelt **IAS 8** drie scherp onderscheiden categorieën met elk een eigen verwerking: retroactief (grondslag, fout) of prospectief (schatting). Onder Belgisch GAAP geldt **CBN 2020/12** voor de enkelvoudige jaarrekening; de principes lopen grotendeels gelijk maar publicatie-formaliteiten verschillen — onder BE-GAAP wordt een 'verbeterde jaarrekening' opnieuw bij de Nationale Bank gedeponeerd, terwijl IFRS de correctie in de **volgende** jaarrekening (vergelijkende cijfers) verwerkt.",
+    "confidence": "grounded",
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 8 + CBN 2020/12"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten__sec_definities",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2020-12-correctie-van-de-jaarrekening-0__sec_voorbeeld",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -278,6 +300,11 @@
       "van": "procedure",
       "naar": "cluster",
       "reden": "v4 §4 type-migratie (procedure → cluster: descriptief domein-object; record is feitelijk een vergelijkings-cluster IAS 8 / CBN 2020/12 met bouwstenen + vergelijkingsparen)."
+    },
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T1.5.IV.C",
+      "wat": "Definitie-veld toegevoegd voor cluster-template-conformiteit (§4: cluster heeft definitie of doel + bouwstenen[]). Main_rule blijft als hoofdregel naast definitie (§7 toegestaan voor cluster met centrale normatieve hoofdregel)."
     }
   ]
 }
