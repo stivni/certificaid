@@ -19,10 +19,15 @@ gegenereerd_op: '2026-05-18'
 ---
 # Assurance-informatie (controle-informatie) ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Assurance-informatie (audit evidence) is de bouwstof waaruit het audit-oordeel wordt opgebouwd. Voldoende én geschikte assurance-informatie verkrijgen is dé permanente eis tijdens een controle-opdracht — geen voldoende informatie betekent een scope-beperking die leidt tot oordeel met voorbehoud of oordeelonthouding. Geschiktheid wordt beoordeeld op relevantie + betrouwbaarheid (externe > interne bron, schriftelijk > mondeling, eigen waarneming > bevestiging).
 
 > [!summary] Korte inhoud
 > Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert.
+
+> [!info] Bestaat uit (4): [[externe-bevestiging-audit]] · [[gegevensgerichte-werkzaamheden]] · [[schriftelijke-bevestiging-management]] · [[toetsing-interne-beheersing]]
 
 Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert. Hij moet voldoende EN geschikte assurance-informatie verkrijgen — voldoende verwijst naar de hoeveelheid; geschikt naar de relevantie en betrouwbaarheid.
 
@@ -81,6 +86,9 @@ _Grondslag: ITAA KMO-controlenorm §88_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (4): [[beoordelen-getrouw-beeld-en-regelmatigheid]] · [[controleverslag-elementen]] · [[documenteren-auditdossier]] · [[selecteren-en-uitvoeren-controle-instrumenten-audit]]
 ## Voorbeelden
 
 Voor de bevestiging van handelsvorderingen van Rotex Roeselare NV vraagt Sofie Janssens externe bevestigingen aan de top 20 klanten (€ 4.500.000 op € 6.200.000 saldo). De ontvangen confirmaties + overige analytische procedures geven haar voldoende en geschikte assurance-informatie over het 'bestaan'-assertion.

@@ -39,7 +39,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 ## Zie ook
 
-- **Wordt voorondersteld in** (2): [[continuiteitsveronderstelling-audit]] · [[controleverslag-elementen]]
+- **Wordt voorondersteld in** (3): [[continuiteitsveronderstelling-audit]] · [[controleverslag-elementen]] · [[opstellen-controleverslag-en-formuleren-oordeel]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV heeft een materiële onzekerheid rond de continuïteit, maar deze is correct toegelicht in toelichting 12. Sofie Janssens neemt een paragraaf ter benadrukking op die naar toelichting 12 verwijst — zonder haar oordeel aan te passen.

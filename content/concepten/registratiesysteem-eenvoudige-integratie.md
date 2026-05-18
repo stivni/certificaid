@@ -18,6 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Eenvoudige integratie (registratiesysteem) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Bij eenvoudige integratie neemt elke deelnemer of elke onderneming in eigen boekhouding rechtstreeks zijn aandeel in de kosten en opbrengsten op — zonder aparte 'tussen-boekhouding'. In analytische context betekent het: kosten en opbrengsten worden meteen aan de kostendrager toegerekend zonder extra registratielaag.
 
 > [!info] Behoort tot: [[rekeningenstelsel-analytisch]]

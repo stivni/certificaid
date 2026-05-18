@@ -36,6 +36,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 > Een management representation letter is GEEN substantive audit evidence — het is een aanvulling, geen vervanging. Een bevestiging dat 'voorraden correct gewaardeerd zijn' compenseert geen ontbrekende inventarisatie. 🤖
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[selecteren-en-uitvoeren-controle-instrumenten-audit]]
 ## Voorbeelden
 
 Aan het einde van de audit van Rotex 2025 vraagt Sofie Janssens een 'management representation letter' aan de CFO + de voorzitter RvB: bevestigingen over volledigheid van geschillen, alle relevante info verschaft, geen gekende fraude, gebruik van continuïteitsveronderstelling, juistheid van schattingen. De brief is ondertekend en gedateerd vóór de datum van het controleverslag.

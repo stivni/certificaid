@@ -18,6 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Tuchtrechtelijke aansprakelijkheid van de accountant 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Tuchtrechtelijke aansprakelijkheid is één van de drie sporen waarop een accountant kan worden aangesproken (naast civiel = schadevergoeding en strafrechtelijk = misdrijf). Doel is bescherming van het beroep en van het vertrouwen van het publiek, niet schadeloosstelling. Procedurele garanties: tegensprekelijk debat, mogelijkheid van beroep, geen bestraffing zonder bewezen inbreuk. Tuchtprocedure wordt gevoerd voor de tuchtinstanties van het ITAA.
 
 > [!summary] Korte inhoud
@@ -44,6 +47,10 @@ _Bron: Wet ITAA 2019 + KB plichtenleer 1998_
 > _Bron: Wet ITAA 2019 art. 44 (analogie)_
 
 
+
+## Zie ook
+
+- **Vereist kennis van**: [[gecertificeerd-accountant-ga]]
 
 ## Voorbeelden
 

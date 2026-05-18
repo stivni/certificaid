@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Verslag bij effectenverrichting (effectennorm) ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Wanneer een vennootschap nieuwe aandelen uitgeeft, converteerbare obligaties uitschrijft, het voorkeurrecht opheft of de rechten van aandelensoorten wijzigt, vereist het WVV een onafhankelijk verslag over het bestuursverslag dat aan de aandeelhouders wordt voorgelegd. Dit is GEEN fairness opinion (geen oordeel over of de prijs commercieel verstandig is), maar een 'informed consent'-opdracht: zijn de cijfers in het bestuursverslag getrouw en voldoende voor de stemming? Beoordelingsopdracht — beperkte zekerheid, negatieve conclusie. Gedeeld monopolie GA / bedrijfsrevisor; commissaris als die er is.
 
 > [!summary] Korte inhoud

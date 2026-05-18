@@ -18,6 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Toegevoegde waarde (economische maatstaf in financiële analyse) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Toegevoegde waarde meet de welvaart die de onderneming zelf creëert door productie of dienstverlening, los van de waarde die ze inkoopt bij derden. Het is de economische bovenbouw van de resultatenrekening: hoeveel waarde voegt de onderneming toe aan de aangekochte goederen en diensten?
 
 > [!info] Behoort tot: [[ratio-vier-doelen-vergelijking]]

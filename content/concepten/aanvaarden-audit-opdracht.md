@@ -21,6 +21,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Aanvaarden van een audit-opdracht en opmaken van de opdrachtbrief 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 De aanvaardingsfase is de poortwachter van elke audit-opdracht: vóór een vinger aan het dossier ligt moet de accountant beslissen of hij de opdracht mag, kan en wil uitvoeren. Vijf checks: (1) randvoorwaarden door cliënt vervuld, (2) onafhankelijkheid bewezen, (3) eventuele voorganger schriftelijk gecontacteerd, (4) opdrachtbrief opgesteld en ondertekend, (5) kwaliteitsbeheersingsdossier geopend. Mis je één → opdracht weigeren of terugtrekken. De competentie speelt zowel bij contractuele opdrachten (KMO-controlenorm) als commissarismandaten (ISA 220 + ISA 210).
 
 

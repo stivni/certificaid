@@ -276,6 +276,14 @@ def render_skeleton(
         "examenfocus": "<!-- TODO: Opus-glue examenfocus -->",
     }
 
+    # Wijzigingen-badge (ADR-010 §versionering)
+    from tools.leermateriaal.lib.wijzigingen_cache import laad_wijzigingen_cache
+    wijz_cache = laad_wijzigingen_cache()
+    # Minicursus-bestand-naam is de slug, niet de PO-code — gebruik de slug
+    # die _slugify_programmaonderdeel uitspuugt
+    mc_slug = _slugify_programmaonderdeel(programmaonderdeel_id, leerpad)
+    wijziging_datum = wijz_cache.minicursussen.get(mc_slug, "")
+
     # Examenfocus-rubriek (ADR-009 §6 + §7, ADR-010 §implicatie-4)
     from tools.leermateriaal.lib.examenfocus_binding import (
         laad_examenfocus_callouts,
@@ -334,6 +342,8 @@ def render_skeleton(
         taak_dekking=taak_dekking,
         examenfocus_callouts=examenfocus_callouts,
         voorbeeldvragen_synth=voorbeeldvragen_synth,
+        wijziging_datum=wijziging_datum,
+        wijziging_basis_ref=wijz_cache.basis_ref,
     )
 
 

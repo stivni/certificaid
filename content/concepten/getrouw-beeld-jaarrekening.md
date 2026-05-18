@@ -30,6 +30,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Getrouw beeld van de jaarrekening ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Externe gebruikers (aandeelhouders, kredietverleners, fiscus, werknemers) moeten op basis van de jaarrekening correcte beslissingen kunnen nemen. Het getrouwe beeld is geen detailregel maar het inhoudelijke richtsnoer waaraan alle waarderings- en presentatieregels worden afgemeten.
 
 > [!summary] Korte inhoud

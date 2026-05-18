@@ -18,6 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Waarderingsneutraal registratiesysteem 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Een waarderingsneutraal registratiesysteem vermijdt waarderingsconflicten door belangrijke beslissingen (afschrijvingen, waardeverminderingen, voorraadwaardering) centraal te coördineren en consistent toe te passen tussen algemene en analytische boekhouding. CBN 3/3 beschrijft hiervoor vijf principes — toepasbaar zowel voor joint-ventures als binnen een analytische boekhouding-systeem.
 
 > [!info] Behoort tot: [[rekeningenstelsel-analytisch]]

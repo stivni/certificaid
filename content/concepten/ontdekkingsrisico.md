@@ -37,6 +37,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Controlerisico) + §96_
 > Ontdekkingsrisico bevat onder meer steekproefrisico (de conclusie op basis van een steekproef kan verschillen van die op de hele populatie). Dat is onvermijdelijk wanneer niet 100 % wordt getest. ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[uitvoeren-risico-inschatting-en-materialiteit-audit]]
 ## Voorbeelden
 
 Sofie Janssens wil het controlerisico op € 5 % houden. Het inherent en intern beheersingsrisico op voorraden van Rotex Roeselare NV samen schat zij in op 18 %. Het ontdekkingsrisico mag dus maximaal 5 % / 18 % ≈ 28 % bedragen → ze plant uitgebreide voorraadtellingen + cut-off-testen + analytical procedures.

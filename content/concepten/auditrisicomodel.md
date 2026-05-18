@@ -22,7 +22,12 @@ gegenereerd_op: '2026-05-18'
 ---
 # Auditrisicomodel (controlerisico) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Het auditrisicomodel structureert de risico-aanpak van de auditor. Het controlerisico — het risico dat de auditor een verkeerd oordeel geeft terwijl de financiële overzichten een materiële afwijking bevatten — wordt opgesplitst in drie componenten: inherent risico, intern beheersingsrisico en ontdekkingsrisico. De auditor stuurt het ontdekkingsrisico (= hoeveel werk hij doet) op basis van zijn inschatting van de eerste twee.
+
+> [!info] Bestaat uit (3): [[inherent-risico]] · [[intern-beheersingsrisico]] · [[ontdekkingsrisico]] · Specialisaties (1): [[auditrisico-1-7-context]]
 
 
 ## Bouwstenen
@@ -76,6 +81,9 @@ _Resultaat in % / kans_
 *Het model maakt de relatie expliciet: als inherent of intern beheersingsrisico hoger zijn, moet ontdekkingsrisico lager — wat betekent: meer en gerichtere werkzaamheden door de auditor.*
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (4): [[materieel-belang-audit]] · [[redelijke-mate-van-zekerheid]] · [[risico-inschatting-audit]] · [[uitvoeren-risico-inschatting-en-materialiteit-audit]]
 ## Bronnen
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`

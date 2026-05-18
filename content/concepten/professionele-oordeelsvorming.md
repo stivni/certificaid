@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Professionele oordeelsvorming ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Professionele oordeelsvorming (professional judgment) is de wettelijk vereiste capaciteit om relevante training, kennis en ervaring toe te passen wanneer de geldende controle-, verslaggevings- en ethische normen geen volledig vooraf-bepaald antwoord bieden. Het komt overal voor in de audit: bij het bepalen van materialiteit, kiezen van controleprocedures, beoordelen van schattingen, formuleren van het oordeel. Samen met professioneel-kritische instelling vormt het de attitude-kern die ITAA-normen, ISA en deontologie van de auditor verwachten.
 
 > [!summary] Korte inhoud
@@ -43,6 +46,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 > _Trigger_: Examenvraag: 'De norm laat de keuze tussen interne of externe deskundige open' → judgment. 'De CFO bevestigt mondeling dat alles klopt — wat doet de auditor?' → skepticism.
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[toepassen-professional-skepticism-en-deontologie-audit]]
 ## Voorbeelden
 
 Sofie Janssens moet beslissen of zij voor Rotex' voorraadtelling een externe deskundige inschakelt (geschat materiaal) of zelf samen met haar team de waardering uitvoert. De KMO-controlenorm geeft geen automatisch antwoord — zij past haar professionele oordeelsvorming toe en kiest voor een interne uitvoering met externe ondersteuning op 2 specifieke items.

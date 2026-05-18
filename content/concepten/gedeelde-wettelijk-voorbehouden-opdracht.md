@@ -19,10 +19,15 @@ gegenereerd_op: '2026-05-18'
 ---
 # Gedeelde wettelijk voorbehouden opdracht ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 De gedeelde wettelijk voorbehouden opdracht is het tweede luik van het opdrachten-palet van de gecertificeerd accountant: bepaalde verrichtingen uit het WVV (inbreng in natura, quasi-inbreng, omzetting, ontbinding-vereffening) vereisen een verslag van een onafhankelijke beroepsbeoefenaar. Wet ITAA 2019 art. 3 wijst die opdrachten toe aan ofwel een GA ofwel een bedrijfsrevisor — de cliënt kiest. Heeft de vennootschap al een commissaris, dan vervalt de keuze: hij voert de opdracht uit.
 
 > [!summary] Korte inhoud
 > Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie).
+
+> [!info] Specialisaties (4): [[effectennorm-opdracht]] · [[fusie-splitsing-controleopdracht]] · [[omzetting-vennootschap-opdracht]] · [[ontbinding-vereffening-opdracht]]
 
 Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie). Voorbeelden: inbreng in natura, quasi-inbreng, omzetting van rechtsvorm, ontbinding-vereffening. Geldt enkel als er geen commissaris is — heeft de vennootschap er één, dan voert die de opdracht uit.
 

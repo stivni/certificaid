@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Getrouw beeld als controlecriterium ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Getrouw beeld is hét toetsingscriterium dat de externe accountant of revisor toepast op de jaarrekening. Het beoordelingscriterium leeft binnen het van toepassing zijnde stelsel inzake financiële verslaggeving (Belgisch jaarrekeningenrecht KB WVV, IFRS, of een stelsel voor bijzondere doeleinden) en wordt altijd gekoppeld aan de materialiteitsdrempel: enkel afwijkingen van materieel belang tasten het getrouw beeld aan. Zonder dit criterium kan de auditor geen oordeel formuleren.
 
 > [!summary] Korte inhoud
@@ -45,7 +48,7 @@ _Bron: KB WVV art. 3:1 + ITAA KMO-controlenorm §117_
 ## Zie ook
 
 - **Vereist kennis van**: [[materieel-belang-audit]]
-
+- **Wordt voorondersteld in** (2): [[beoordelen-getrouw-beeld-en-regelmatigheid]] · [[opstellen-controleverslag-en-formuleren-oordeel]]
 ## Voorbeelden
 
 Sofie Janssens controleert of de balans van Rotex Roeselare NV per 31 december 2025 een getrouw beeld geeft: zijn alle activa correct gewaardeerd, alle schulden volledig opgenomen, alle verbintenissen toegelicht, alle waarderingsregels consistent toegepast? Bij positief antwoord → goedkeurend oordeel.

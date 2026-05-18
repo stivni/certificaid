@@ -48,6 +48,9 @@ gerelateerde_concepten:
 - wijziging-boekhoudkundig-referentiestelsel
 gegenereerd_op: '2026-05-18'
 ---
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 > [!warning]- Open beslissingen
 > De volgende gaps zijn nog open voor dit programmaonderdeel — inhoud kan onvolledig zijn:
 > - `bron-gap` op `wijziging-boekhoudkundig-referentiestelsel`: Delta-rapport meldt 1160 delta-chunks voor dit record, vrijwel volledig IFRS-9 (105), IFRS-7 (82), I…

@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Communiceren met audit-comité en bestuur over auditbevindingen 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Wettelijke en contractuele controles vereisen formele communicatie met de met governance belaste personen — niet alleen met het management. De accountant moet scope en risico's bij start melden, significante bevindingen tussentijds rapporteren en vóór ondertekening van het verslag oordeel en eventuele paragrafen bespreken. Bij OOB komt daar onafhankelijkheids-bevestiging aan het audit-comité bij (art. 7:99 WVV). Deze communicatie-stroom loopt parallel met de hele audit-cyclus en is determinerend voor de aanvaardbaarheid van het verslag — een aangepast oordeel zonder voorafgaande dialoog is een proces-fout.
 
 

@@ -20,6 +20,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Selecteren en uitvoeren van controle-instrumenten (test of controls + gegevensgerichte werkzaamheden) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 De keuze tussen test-of-controls en gegevensgerichte werkzaamheden — én de passende mix — bepaalt of de audit doeltreffend én efficiënt is. Bij sterke interne controle leunt de accountant op systeemtoetsen aangevuld met beperkte data-controles; bij zwakke IC moet hij dieper substantief testen. De stagiair moet per beweringen-cluster de juiste instrumenten kiezen (cijferanalyses, steekproef, externe bevestiging, herberekening) en de verzamelde controle-informatie evalueren op voldoendheid en geschiktheid (ISA 500).
 
 

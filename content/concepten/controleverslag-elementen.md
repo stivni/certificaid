@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Elementen van het controleverslag (revisieverslag) ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Het controleverslag is het zichtbare eindproduct waarmee de auditor zijn oordeel communiceert aan de gebruikers van de jaarrekening (aandeelhouders, bankiers, leveranciers, fiscus). ISA 700 (herzien) schrijft een vaste structuur en volgorde van paragrafen voor; ISA 705 wijzigt de oordeels- en basisparagraaf bij een aangepast oordeel; ISA 706 voegt optionele emphasis-paragrafen toe; ISA 701 voegt verplichte key audit matters toe voor beursgenoteerden; ISA 720 voegt de rapportage over andere informatie toe. ITAA-normen voegen Belgische plichten toe (vermelding andere prestaties, confraterneel afschrift).
 
 > [!summary] Korte inhoud
@@ -180,7 +183,7 @@ _Grondslag: ISA 700 (herzien) §§47-49 + KB plichtenleer art. 18_
 - **Vereist kennis van**: [[paragraaf-ter-benadrukking]]
 - **Vereist kennis van**: [[materieel-belang-audit]]
 - **Vereist kennis van**: [[assurance-informatie]]
-
+- **Wordt voorondersteld in** (2): [[communiceren-met-bestuur-en-auditcomite]] · [[opstellen-controleverslag-en-formuleren-oordeel]]
 ## Voorbeelden
 
 Het controleverslag van Sofie Janssens over Rotex Roeselare NV bevat: titel ('Controleverslag van de externe accountant'), geadresseerde (de algemene vergadering), identificatie jaarrekening 2025, beschrijving van de opdracht uit de opdrachtbrief, paragraaf 'Verantwoordelijkheid van het management', paragraaf 'Verantwoordelijkheid van de accountant', oordeelsparagraaf, paragraaf ter benadrukking (continuïteit), datum, plaats van ondertekening, handtekening en hoedanigheid.

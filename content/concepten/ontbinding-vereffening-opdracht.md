@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Ontbinding-vereffening opdracht van de gecertificeerd accountant ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 De ontbinding-vereffening-opdracht is één van de gedeelde wettelijk voorbehouden opdrachten uit het WVV. Ze controleert of de aandeelhouders en bestuurders een waarheidsgetrouw beeld krijgen van wat er nog te verdelen valt op het moment van ontbinding. Specifieke punten van aandacht: continuïteitsbeginsel vervalt (going-out-of-business waardering), waarderingsregels van vlottende activa worden vaak voorzichtiger, en sociale verplichtingen + vereffeningskosten moeten als passief erkend zijn.
 
 > [!summary] Korte inhoud

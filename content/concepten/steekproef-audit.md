@@ -17,6 +17,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Steekproef bij een audit (audit sampling) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Een steekproef bij een audit is het verrichten van controlewerkzaamheden op minder dan 100 % van de elementen binnen een relevante populatie, op zodanige wijze dat alle elementen geselecteerd kunnen worden. Het doel: een redelijke basis krijgen voor conclusies over de hele populatie zonder alles te testen.
 
 > [!info] Behoort tot: [[ontdekkingsrisico]]
@@ -30,6 +33,9 @@ Een steekproef bij een audit is het verrichten van controlewerkzaamheden op mind
 > (a) Conclude dat de IC effectief werkt of dat er geen materiële afwijking is, terwijl dit niet zo is — gevaarlijke fout, beïnvloedt effectiviteit van de audit en de kans op een verkeerd oordeel. (b) Conclude dat de IC niet werkt of dat er een afwijking is, terwijl dit niet zo is — minder gevaarlijk maar verhoogt audit-kost (extra werk om de eerste conclusie te corrigeren). ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[selecteren-en-uitvoeren-controle-instrumenten-audit]]
 ## Voorbeelden
 
 Rotex Roeselare NV heeft 4.500 aankoopfacturen 2025. Sofie Janssens kan onmogelijk alle 4.500 testen. Zij selecteert een statistische steekproef van 60 facturen — gestratificeerd naar bedrag — en toetst per factuur of de IC-controles werden uitgevoerd. Steekproefrisico: 0 fouten in steekproef garandeert niet dat er 0 fouten in de populatie zitten.

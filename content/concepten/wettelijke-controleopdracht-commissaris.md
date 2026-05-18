@@ -20,6 +20,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Wettelijke controleopdracht (commissaris-mandaat) ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 De wettelijke controleopdracht (commissariaat) is in België voorbehouden aan de bedrijfsrevisor: de GA mag dit NIET uitoefenen. Geldt voor grote vennootschappen (drempels WVV art. 1:24-1:26) en Public Interest Entities (beursgenoteerd, banken, verzekeraars). De commissaris werkt onder de ISA-standaarden + Wet 7 december 2016 (revisorenwet) en is onderworpen aan publiek toezicht door het College van Toezicht. Mandaat duurt drie boekjaren, hernieuwbaar.
 
 > [!summary] Korte inhoud
@@ -29,6 +32,8 @@ Een wettelijke controleopdracht is een door of krachtens de wet aan de commissar
 
 _Bron: WVV art. 3:72 jo. Wet 7 december 2016 (revisorenwet)_
 
+
+> [!info] Uitzonderingen (1): [[gedeelde-wettelijk-voorbehouden-opdracht]]
 
 ## Voorwaarden / uitzonderingen
 
@@ -51,7 +56,7 @@ _Bron: WVV art. 3:72 jo. Wet 7 december 2016 (revisorenwet)_
 ## Zie ook
 
 - **Vereist kennis van**: [[commissaris]]
-
+- **Wordt voorondersteld in** (1): [[opstellen-controleverslag-en-formuleren-oordeel]]- **Triggert** (1): [[externe-controle]]
 ## Voorbeelden
 
 Rotex Roeselare NV is een grote NV (omzet € 35M, balanstotaal € 18M, 120 werknemers). De algemene vergadering benoemt Wolters & Partners CVBA als commissaris voor 3 boekjaren; Sofie Janssens (bedrijfsrevisor + IBR-lid) tekent als vaste vertegenwoordiger het commissarisverslag.

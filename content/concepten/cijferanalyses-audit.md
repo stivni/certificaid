@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Cijferanalyses bij een audit 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Cijferanalyses (analytical procedures) zijn evaluaties van financiële informatie door de analyse van aannemelijke verbanden tussen zowel financiële als niet-financiële gegevens. De auditor onderzoekt fluctuaties of relaties die inconsistent zijn met andere relevante informatie of significant verschillen van verwachte waarden.
 
 > [!info] Behoort tot: [[gegevensgerichte-werkzaamheden]] · [[risico-inschatting-audit]]
@@ -49,6 +52,9 @@ Tendensanalyse over meerdere boekjaren, ratio-analyse (current ratio, debt/equit
 _Grondslag: ITAA Algemene controlenorm §4 (analyse van belangrijke tendensen en ratio's)_
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[selecteren-en-uitvoeren-controle-instrumenten-audit]]
 ## Voorbeelden
 
 Sofie Janssens vergelijkt voor Rotex Roeselare NV de bruto-marge per productlijn 2025 vs. 2024: productlijn A daalt van 35 % naar 22 %. Onverwacht. Zij onderzoekt verder en ontdekt dat een voorraad obsolete grondstoffen niet werd afgeschreven. Cijferanalyse leidt tot detectie van een afwijking.

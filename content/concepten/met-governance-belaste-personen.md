@@ -42,7 +42,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[communicatie-met-management-governance]]
-- **Wordt voorondersteld in** (1): [[communicatie-met-management-governance]]
+- **Wordt voorondersteld in** (2): [[communicatie-met-management-governance]] · [[communiceren-met-bestuur-en-auditcomite]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV: de bestuurders Marleen De Cock, Pieter Vermeulen en Robert Vandenberghe samen vormen 'de met governance belaste personen'. Bij Meubelzaak Mertens BV (eenpersoons-BV): de zaakvoerder is tegelijk eigenaar-bestuurder.

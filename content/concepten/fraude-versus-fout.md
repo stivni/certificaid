@@ -48,7 +48,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[materieel-belang-audit]]
-- **Wordt voorondersteld in** (1): [[verbonden-partijen-audit]]
+- **Wordt voorondersteld in** (3): [[toepassen-professional-skepticism-en-deontologie-audit]] · [[uitvoeren-risico-inschatting-en-materialiteit-audit]] · [[verbonden-partijen-audit]]
 ## Voorbeelden
 
 Bij Meubelzaak Mertens BV stelt Sofie Janssens vast dat de zaakvoerder bewust voorraden heeft overgewaardeerd met € 75.000 om de bank een mooi rapport te tonen → FRAUDE (opzettelijke misleiding). In een andere klantdossier was eenzelfde fout het gevolg van een verkeerd ingegeven Excel-formule → FOUT (onopzettelijk).

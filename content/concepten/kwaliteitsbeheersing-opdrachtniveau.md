@@ -41,7 +41,7 @@ _Bron: ITAA KMO-controlenorm §29-§31_
 ## Zie ook
 
 - **Vereist kennis van**: [[opvolging-voorganger-accountant]]
-
+- **Wordt voorondersteld in** (3): [[aanvaarden-audit-opdracht]] · [[communiceren-met-bestuur-en-auditcomite]] · [[documenteren-auditdossier]]
 ## Voorbeelden
 
 Sofie Janssens is opdrachtpartner voor de audit van Rotex Roeselare NV. Zij leidt het team van 5, controleert de werkpapieren van elke junior, bespreekt elke significante professionele oordeelsvorming en laat een onafhankelijke kwaliteitsreviewer (collega-partner Pieter Vermeulen) het dossier herlezen vóór ondertekening van het verslag.

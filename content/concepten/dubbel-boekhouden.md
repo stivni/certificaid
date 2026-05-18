@@ -23,6 +23,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Dubbel boekhouden ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Elke economische verrichting in twee gelijke kanten registreren (debet = credit), zodat de boekhouding op elk moment in balans is en de oorsprong en bestemming van elke euro traceerbaar zijn.
 
 > [!summary] Korte inhoud

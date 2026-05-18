@@ -1,4 +1,9 @@
 {{ frontmatter_yaml | safe -}}
+{% if wijziging_datum %}
+> [!update] Bijgewerkt sinds `{{ wijziging_basis_ref }}` — laatste wijziging {{ wijziging_datum }}
+
+
+{% endif %}
 {% if open_gaps %}
 > [!warning]- Open beslissingen
 > De volgende gaps zijn nog open voor dit programmaonderdeel — inhoud kan onvolledig zijn:

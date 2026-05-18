@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Werkelijke kostencalculatie (vastgestelde kosten) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Werkelijke kostencalculatie (synoniem: post-calculatie, vastgestelde kostencalculatie) berekent de kostprijs op basis van de werkelijk geboekte kosten, achteraf bekend uit de boekhouding. Tegenpool van voorbepaalde kostencalculatie (standaardkosten). Vereist een afgesloten boekhoudperiode vóór de kostprijs definitief is.
 
 > [!info] Behoort tot: [[costing-methodes-vergelijking]]

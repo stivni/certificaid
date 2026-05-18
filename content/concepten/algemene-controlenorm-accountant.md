@@ -19,10 +19,15 @@ gegenereerd_op: '2026-05-18'
 ---
 # Algemene controlenorm voor de externe accountant ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 De Algemene controlenorm is de overkoepelende ITAA-norm die voor elke controleopdracht van een gecertificeerd accountant de basisprincipes vastlegt: bekwaamheid, onafhankelijkheid, werkschema, werkdocumenten, opvolging van een collega, controlewerkzaamheden en toezicht. Speelt de rol van 'algemene voorwaarden' waarop bijzondere normen (KMO-controlenorm, samenstellingsnorm, ontbinding-vereffening) zich enten. Belangrijk: de norm bepaalt ook de bronnenhiërarchie die de accountant volgt — wet → contract → ITAA-norm → vakliteratuur.
 
 > [!summary] Korte inhoud
 > De algemene controlenorm bundelt voor de gecertificeerd accountant de basisprincipes die voor elke controleopdracht gelden: bekwaamheid en onafhankelijkheid van de beroepsbeoefenaar, opstellen van een werkschema, bijhouden van werkdocumenten, opvolgingsregels bij overname van een….
+
+> [!info] Specialisaties (1): [[kmo-controlenorm-accountant]]
 
 De algemene controlenorm bundelt voor de gecertificeerd accountant de basisprincipes die voor elke controleopdracht gelden: bekwaamheid en onafhankelijkheid van de beroepsbeoefenaar, opstellen van een werkschema, bijhouden van werkdocumenten, opvolgingsregels bij overname van een opdracht, uitvoering van controlewerkzaamheden, opmaken van een verslag en toezicht via de Commissie van Toezicht. De norm is uitgevaardigd door het ITAA (voorheen IAB).
 
@@ -60,6 +65,10 @@ _Grondslag: ITAA-norm-algemene-controlenorm (structuur)_
 > _Trigger_: Examenvraag: 'welke norm regelt een contractuele audit bij een KMO?' → KMO-controlenorm. 'Welke norm regelt de algemene plichten van de accountant bij elke controle?' → Algemene controlenorm.
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[gecertificeerd-accountant-ga]]
+- **Wordt voorondersteld in** (1): [[toepassen-professional-skepticism-en-deontologie-audit]]
 ## Voorbeelden
 
 Sofie Janssens voert een contractuele controle uit op de jaarrekening van Naaiatelier Ninove BV. Zij baseert haar werkzaamheden op (1) de wettekst die haar opdracht omschrijft, (2) de opdrachtbrief, (3) de algemene controlenorm van ITAA en (4) gespecialiseerde vakliteratuur — exact in die volgorde voorgeschreven door §1 van de norm.

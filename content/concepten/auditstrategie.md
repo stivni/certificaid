@@ -18,6 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Auditstrategie ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Bij elke controleopdracht moet de auditor een algehele controleaanpak vaststellen (ISA 300 §7) — een planningsdocument op overall niveau dat de richting van de hele audit bepaalt. De strategie is het vertrekpunt waarop het concrete werkprogramma (controleprogramma) wordt gebouwd, en wordt aangepast wanneer nieuwe informatie of risico's tijdens de uitvoering opduiken (§10). Voor KMO-opdrachten geldt een analoog tweestappig planningsmodel onder de ITAA KMO-controlenorm (§71-§73).
 
 > [!summary] Korte inhoud
@@ -43,6 +46,9 @@ _Bron: ITAA KMO-controlenorm §71-§72_
 > Bij het vaststellen van de strategie identificeert de auditor (a) opdrachtkenmerken die de reikwijdte bepalen, (b) de rapportagedoelstellingen voor timing en communicatie, (c) factoren die op grond van professionele oordeelsvorming significant zijn voor het aansturen van het team, (d) uitkomsten van voorbereidende werkzaamheden + ervaring uit eerdere opdrachten, (e) aard/timing/omvang van benodigde middelen. ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[opstellen-auditstrategie-en-werkprogramma]] · [[werkprogramma-audit]]
 ## Voorbeelden
 
 Voor Rotex Roeselare NV 2025 legt Sofie Janssens de auditstrategie vast in oktober: scope volledige jaarrekening + jaarverslag-consistentie + IFRS-toelichtingen, twee fases (interim december + eindfase februari), team van 5 personen (1 senior + 3 juniors + zijzelf), externe valuator voor goodwill-impairment, deadline verslag = 15 maart 2026.

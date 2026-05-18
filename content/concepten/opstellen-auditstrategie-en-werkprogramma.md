@@ -20,6 +20,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van de auditstrategie en het werkprogramma 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Deze competentie sluit aan op de planningsfase van de auditcyclus (PO 1.6, ankerpunt 1.6.III.A-B): de stagiair-accountant moet zelf in staat zijn een tweelagig planningsdocument (strategie + werkprogramma) op te stellen op basis van de risico-inschatting, het te reviewen vóór uitvoering, en doorlopend bij te sturen tijdens veldwerk. De wettelijke en normatieve basis ligt in ITAA KMO-controlenorm §70-§73 + Algemene controlenorm; de praktische uitwerking (team-allocatie, uren-budget) is professionele oordeelsvorming en kantoorbeleid.
 
 

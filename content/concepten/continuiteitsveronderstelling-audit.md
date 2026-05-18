@@ -42,7 +42,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Continuïteitsveronderstelling) + §93_
 ## Zie ook
 
 - **Vereist kennis van**: [[paragraaf-ter-benadrukking]]
-
+- **Wordt voorondersteld in** (2): [[beoordelen-getrouw-beeld-en-regelmatigheid]] · [[verwerven-kennis-van-clientonderneming-audit]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV heeft twee jaar op rij verlies en een negatief eigen vermogen. Sofie Janssens vraagt aan het management een liquiditeitsbegroting op 18 maanden + onderbouwing van de geplande herfinanciering. Resultaat: redelijk plan met krediettoezegging van de bank → continuïteit blijft als veronderstelling aanvaardbaar, maar Sofie neemt een paragraaf ter benadrukking op in haar verslag over de materiële onzekerheid.

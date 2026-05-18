@@ -56,7 +56,7 @@ _Grondslag: ITAA KMO-controlenorm §76_
 ## Zie ook
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
-
+- **Wordt voorondersteld in** (1): [[verwerven-kennis-van-clientonderneming-audit]]
 ## Voorbeelden
 
 Vooraleer Sofie Janssens de audit van Rotex Roeselare NV start, verwerft zij inzicht: textielsector + Europese concurrentie, eigendomsstructuur (familieaandeelhouders), financiering (€ 12M bankkrediet + obligatielening), KPI's (omzet per m² + bezetting), interne beheersing (ERP + 3-handtekening-procuratie). Daaruit blijkt: voorraad + valuta-risico + continuïteit zijn focusgebieden.

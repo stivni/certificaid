@@ -36,6 +36,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §93_
 > Opbrengstverantwoording (vermoeden van fraude — altijd), management override van IC (altijd), niet-routinematige significante transacties, complexe schattingen, transacties met verbonden partijen, going concern bij twijfel. ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[uitvoeren-risico-inschatting-en-materialiteit-audit]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV markeert Sofie Janssens de waardering van een grote impairment-test (€ 4.500.000 goodwill) als significant risico: hoge schattingsonzekerheid + management-bias mogelijk. Gevolg: uitgebreide substantive procedures + onafhankelijke valuator + extra dossierdiepte.

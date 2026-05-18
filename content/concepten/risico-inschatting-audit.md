@@ -19,10 +19,15 @@ gegenereerd_op: '2026-05-18'
 ---
 # Risico-inschatting (audit) ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Risico-inschatting is de planningsfase waarin de auditor begrijpt waar afwijkingen van materieel belang kunnen ontstaan — vóór hij beslist welke werkzaamheden hij gaat doen. Het is geen substantive werk: het levert geen assurance, maar stuurt wel de scope, intensiteit en aard van het werkprogramma. Een ondergewaardeerd risico leidt tot onderwerk (en een verkeerd oordeel); een overgewaardeerd risico leidt tot kostbaar overwerk. De auditrisico-formule (controle = inherent × intern beheersing × ontdekking) operationaliseert die inschatting.
 
 > [!summary] Korte inhoud
 > De beroepsbeoefenaar identificeert en schat de risico's op een afwijking van materieel belang in op het niveau van de financiële overzichten én op het niveau van de beweringen (assertions), als gevolg van fraude of fouten.
+
+> [!info] Bestaat uit (2): [[cijferanalyses-audit]] · [[significant-risico-audit]]
 
 De beroepsbeoefenaar identificeert en schat de risico's op een afwijking van materieel belang in op het niveau van de financiële overzichten én op het niveau van de beweringen (assertions), als gevolg van fraude of fouten. Hij doet dit door inzicht te verwerven in de cliënt en haar omgeving — inclusief de interne beheersing.
 
@@ -100,7 +105,7 @@ _Grondslag: ITAA KMO-controlenorm §77 + §95_
 
 - **Vereist kennis van**: [[auditrisicomodel]]
 - **Getriggerd door**: [[auditplanning]]
-
+- **Wordt voorondersteld in** (6): [[auditplanning]] · [[beweringen-audit]] · [[kennis-van-onderneming-omgeving]] · [[opstellen-auditstrategie-en-werkprogramma]] · [[uitvoeren-risico-inschatting-en-materialiteit-audit]] · [[verwerven-kennis-van-clientonderneming-audit]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV verwerft Sofie Janssens inzicht door bevragingen bij de CFO + de productieleider, doorlezen van het beleid, cijferanalyses op de afgelopen drie boekjaren, en een rondgang op de werkvloer. Daaruit identificeert ze drie risicogebieden: voorraadwaardering, een aanhangig fiscaal geschil, en het hoge ondernemingskrediet.

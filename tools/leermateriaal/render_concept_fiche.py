@@ -143,6 +143,7 @@ def render_record(record: dict, inverse_edges: dict[str, list[str]] | None = Non
     from tools.leermateriaal.lib.edge_render_config import COLLAPSIBLE_DREMPEL
     from tools.leermateriaal.lib.frontmatter import as_yaml_block, concept_fiche_frontmatter
     from tools.leermateriaal.lib.jinja_env import get_env
+    from tools.leermateriaal.lib.wijzigingen_cache import laad_wijzigingen_cache
 
     # Voeg anker_slugs toe (schema 1.3 — auto-genereer als ontbrekend)
     record = _voeg_anker_slugs_toe(record)
@@ -158,6 +159,10 @@ def render_record(record: dict, inverse_edges: dict[str, list[str]] | None = Non
     # Chunk-ids voor bronnen-sectie
     chunk_ids = _extraheer_chunk_ids(record)
 
+    # Wijzigingen-badge (ADR-010 §versionering) — lege cache = geen badge
+    cache = laad_wijzigingen_cache()
+    wijziging_datum = cache.records.get(record.get("id", ""), "")
+
     # Jinja2 rendering
     env = get_env()
     template = env.get_template("concept_fiche.md.j2")
@@ -170,6 +175,8 @@ def render_record(record: dict, inverse_edges: dict[str, list[str]] | None = Non
         rationale=record.get("rationale"),
         inverse_edges=inverse_edges or {},
         collapsible_drempel=COLLAPSIBLE_DREMPEL,
+        wijziging_datum=wijziging_datum,
+        wijziging_basis_ref=cache.basis_ref,
     )
 
 

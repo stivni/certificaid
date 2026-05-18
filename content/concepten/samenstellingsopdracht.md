@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Samenstellingsopdracht ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 De samenstellingsopdracht (internationaal: compilation engagement) is in België de meest voorkomende dienst van een gecertificeerd accountant aan een KMO: de boekhouding wordt jaarlijks afgesloten en de jaarrekening opgesteld. Internationaal geregeld door ISRS 4410 (herzien), in België geïmplementeerd via de ITAA-norm Samenstellingsopdrachten. Cruciaal onderscheid: GÉÉN assurance, géén onafhankelijkheid vereist — wél integriteit, vakbekwaamheid en correcte vermelding in het verslag dat geen audit of beoordeling is uitgevoerd.
 
 > [!summary] Korte inhoud

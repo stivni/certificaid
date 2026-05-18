@@ -17,6 +17,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Gerechtelijke en private expertise door de gecertificeerd accountant ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Wet ITAA 2019 art. 3 lijst de beroepsactiviteiten van de gecertificeerd accountant op; punt 6° vermeldt 'zowel privé- als gerechtelijke expertise met betrekking tot de boekhouding van ondernemingen'. Dit is dus geen marginale extraopdracht maar een kernactiviteit. Bij gerechtelijke expertise gelden de bepalingen van het Gerechtelijk Wetboek (Ger.W. art. 962 e.v.): de rechter benoemt, kadert de opdracht, en de expert is onpartijdig dienstbaar aan het gerecht — niet aan een partij. Bij private expertise contracteren de partijen rechtstreeks; de beroepsregels (KB plichtenleer, ITAA-deontologie) blijven gelden.
 
 > [!summary] Korte inhoud

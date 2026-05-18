@@ -24,6 +24,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Solvabiliteitsratio 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Meten welk aandeel van de balans gefinancierd is met eigen vermogen — een maatstaf voor structurele schokbestendigheid op middellange en lange termijn. Een vennootschap met hoge solvabiliteit kan tegenslag (verliezen, waardeverminderingen) opvangen zonder direct in betalingsproblemen te komen.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]

@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Monitoring (COSO-component 5) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Monitoring is het continu en periodiek evalueren of het IC-systeem nog werkt zoals beoogd. Bestaat uit: (1) doorlopende monitoring ingebed in dagelijkse processen (bv. bank-grootboek-afstemming) en (2) afzonderlijke evaluaties (interne audit, externe audit, management self-assessment). Tekortkomingen worden gerapporteerd en bijgestuurd.
 
 > [!info] Behoort tot: [[interne-controle]]

@@ -18,10 +18,15 @@ gegenereerd_op: '2026-05-18'
 ---
 # Auditplanning ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Planning is de tweede fase van de auditcyclus (na aanvaarding, vóór uitvoering en oordeelsvorming). Goede planning zorgt dat aandacht gericht is op belangrijke gebieden, dat risico's tijdig worden geïdentificeerd, dat het werk efficiënt verloopt en dat het team correct wordt samengesteld en aangestuurd. Bij doorlopende controles begint de planning vaak vlak na afsluiting van de vorige opdracht; bij initiële opdrachten gelden aanvullende overwegingen (ISA 300 §13-§14).
 
 > [!summary] Korte inhoud
 > Auditplanning is de fase waarin de auditor zijn opdracht uitstippelt voordat het veldwerk start.
+
+> [!info] Bestaat uit (2): [[auditstrategie]] · [[werkprogramma-audit]]
 
 Auditplanning is de fase waarin de auditor zijn opdracht uitstippelt voordat het veldwerk start. De planning levert twee outputs: (a) een algehele controleaanpak (auditstrategie) die scope, timing, omvang en richting vastlegt, en (b) een controleprogramma (werkprogramma) dat per rubriek/bewering de uit te voeren controlewerkzaamheden beschrijft. De planning is iteratief: ze wordt bijgestuurd telkens nieuwe informatie of risico's tijdens de uitvoering opduiken.
 
@@ -102,7 +107,7 @@ _Grondslag: ISA 300 §13-§14, ITAA KMO-controlenorm §72_
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
 - **Vereist kennis van**: [[materieel-belang-audit]]
-
+- **Wordt voorondersteld in** (1): [[opstellen-auditstrategie-en-werkprogramma]]- **Triggert** (1): [[risico-inschatting-audit]]
 ## Voorbeelden
 
 Voor de audit van Rotex Roeselare NV (boekjaar 2025) doorloopt Sofie Janssens in oktober 2025 de planningsfase: zij stelt eerst de algehele strategie op (scope = jaarrekening volledig schema, timing = tussenfase december + eindfase februari-maart, sleutelrisico's = voorraden + voorzieningen, team = vier juniors + één manager), en bouwt daarop het concrete werkprogramma met testen en steekproeven.

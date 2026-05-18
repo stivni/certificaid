@@ -18,6 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Gegevensgerichte werkzaamheden (substantive procedures) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken. Twee soorten: detailcontroles (transactiestromen, rekeningsaldi, toelichtingen) en gegevensgerichte cijferanalyses.
 
 > [!info] Behoort tot: [[assurance-informatie]]
@@ -56,6 +59,9 @@ _Grondslag: ITAA KMO-controlenorm §94_
 > _Trigger_: Hoog inherent risico en/of geen vertrouwen in IC → vooral gegevensgericht. Goede IC + intentie tot steunen → mix met toetsing IC.
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[selecteren-en-uitvoeren-controle-instrumenten-audit]]
 ## Voorbeelden
 
 Sofie Janssens test de waardering van de top-20 voorraadposten van Rotex Roeselare NV: zij gaat naar de opslagplaats, telt zelf de stuks (€ 850.000 totaal), vergelijkt met de aankoopfacturen, en checkt de toepassing van FIFO. Dat is een detailcontrole. Daarnaast voert zij een gegevensgerichte cijferanalyse uit op de bruto-marge per productlijn.

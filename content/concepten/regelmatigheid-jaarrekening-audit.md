@@ -31,6 +31,9 @@ _Bron: KB WVV art. 3:1 + ITAA-norm-algemene-controlenorm §2_
 > _Trigger_: Examen-zin: 'overeenstemming met KB WVV-schema' → regelmatigheid. 'Vermogen, financiële toestand en resultaat correct weergegeven' → getrouw beeld.
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[beoordelen-getrouw-beeld-en-regelmatigheid]]
 ## Voorbeelden
 
 Sofie Janssens stelt vast dat de jaarrekening van Meubelzaak Mertens BV een getrouw beeld geeft, maar dat de wettelijk verplichte toelichting over erfdienstbaarheden ontbreekt → onregelmatigheid, op te nemen als observatie in het controleverslag.

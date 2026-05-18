@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Beperkte mate van zekerheid ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Beperkte zekerheid is het assurance-niveau bij een beoordelingsopdracht: de beroepsbeoefenaar voert beduidend lichtere werkzaamheden uit (vooral cijferanalyses en bevragingen, geen detailcontroles) en kan daardoor enkel een negatieve conclusie geven. Geen 'getrouw beeld' uitspraak — alleen de afwezigheid van bezwaren. Het examen-onderscheid met redelijke zekerheid is cruciaal: positieve vs negatieve vormgeving.
 
 > [!summary] Korte inhoud
@@ -40,7 +43,7 @@ _Bron: ITAA KMO-controlenorm §2_
 ## Zie ook
 
 - **Getriggerd door**: [[contractuele-beoordelingsopdracht]]
-
+- **Wordt voorondersteld in** (4): [[contractuele-beoordelingsopdracht]] · [[effectennorm-opdracht]] · [[omzetting-vennootschap-opdracht]] · [[ontbinding-vereffening-opdracht]]
 ## Voorbeelden
 
 Sofie Janssens beoordeelt de tussentijdse cijfers van Naaiatelier Ninove BV per 30 juni 2025. Beperkte werkzaamheden (vooral cijferanalyses en bevragingen). Haar conclusie: 'op basis van onze beoordeling zijn ons geen feiten gebleken die ons doen geloven dat de tussentijdse cijfers geen getrouw beeld geven'.

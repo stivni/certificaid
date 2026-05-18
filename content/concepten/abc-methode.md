@@ -17,6 +17,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # ABC-methode (Activity Based Costing) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Activity Based Costing (ABC) verfijnt de kostentoewijzing door indirecte kosten niet via één algemene sleutel maar via meerdere activiteiten en cost drivers naar producten te verdelen. ABC herkent dat verschillende indirecte kosten verschillende oorzaken hebben (set-up versus productie-uren versus orderafhandeling) en wijst elke kost toe op basis van zijn eigen drijver. Resultaat: nauwkeuriger kostprijs, vooral voor producten met sterk verschillende complexiteit of seriegrootte.
 
 > [!info] Behoort tot: [[costing-methodes-vergelijking]] · Specialisatie van: [[volledige-kostencalculatie]]

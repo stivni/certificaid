@@ -25,6 +25,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Horizontale analyse (evolutie-analyse) 🤖
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 De evolutie van balans- en resultatenposten over meerdere boekjaren in kaart brengen. Elke post wordt uitgedrukt als verandering tegenover een basisjaar (in absolute euro's of in procenten), zodat trends zichtbaar worden.
 
 

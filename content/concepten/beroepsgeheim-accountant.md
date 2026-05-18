@@ -18,6 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Beroepsgeheim van de accountant ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Het beroepsgeheim van de accountant is strafrechtelijk verankerd (art. 458 Sw.) en deontologisch uitgewerkt (KB plichtenleer + ITAA-deontologische gids). Het is een PLICHT (niet alleen een recht) om vertrouwelijke informatie van de cliënt niet vrijwillig prijs te geven. Drie scherpe uitzonderingen: getuigenis voor een rechter, eigen verdediging, en wettelijke meldingsplichten (CFI antiwitwas, DAC6). Cruciaal voor het vertrouwensmandaat tussen accountant en cliënt — en voor de bescherming van controledocumentatie.
 
 > [!summary] Korte inhoud
@@ -48,6 +51,11 @@ _Bron: ITAA-deontologie-beroepsgeheim + art. 458 Strafwetboek_
 
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[gecertificeerd-accountant-ga]]
+- **Getriggerd door**: [[antiwitwasmeldingsplicht-accountant]]
+- **Wordt voorondersteld in** (1): [[toepassen-professional-skepticism-en-deontologie-audit]]
 ## Voorbeelden
 
 Een politieambtenaar contacteert Sofie Janssens en vraagt naar de boekhouding van Meubelzaak Mertens BV in het kader van een fiscaal onderzoek. Sofie weigert vrijwillig te antwoorden — beroepsgeheim. Pas wanneer een onderzoeksrechter haar oproept, mag zij — en moet zij zelfs — verschijnen en de eed afleggen.

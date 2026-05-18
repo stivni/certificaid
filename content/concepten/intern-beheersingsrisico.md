@@ -49,7 +49,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 ## Zie ook
 
 - **Getriggerd door**: [[toetsing-interne-beheersing]]
-
+- **Wordt voorondersteld in** (1): [[uitvoeren-risico-inschatting-en-materialiteit-audit]]
 ## Voorbeelden
 
 Bij Meubelzaak Mertens BV doet één persoon zowel kasontvangsten, boekhouding als bankreconciliatie — geen functiescheiding. Het intern beheersingsrisico op kasontvangsten is hoog. Sofie Janssens zal extra substantive testing op de kasstromen moeten doen.

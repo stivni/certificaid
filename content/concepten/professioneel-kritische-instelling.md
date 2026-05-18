@@ -19,6 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Professioneel-kritische instelling ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Professioneel-kritische instelling (professional skepticism) is een wettelijk vereiste houding van de auditor doorheen de hele opdracht — geplant en uitgevoerd vanuit een onderzoekende, alerte mindset. Het is geen punctuele beslissing maar een continue ingesteldheid, in het bijzonder bij schattingen, transacties met verbonden partijen en fraude-indicaties. Samen met professionele oordeelsvorming (judgment) vormt het de auditor-attitude die het verschil maakt tussen een ceremoniële audit en een audit die afwijkingen detecteert.
 
 > [!summary] Korte inhoud
@@ -48,6 +51,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §42_
 > _Trigger_: Examenvraag: 'De auditor twijfelt aan de waardering van een schatting' → skepticism (kritisch onderzoeken). 'De norm geeft geen keuze; de auditor moet zelf beslissen welke werkwijze passend is' → judgment.
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[boekhoudkundige-schattingen-audit]] · [[toepassen-professional-skepticism-en-deontologie-audit]]
 ## Voorbeelden
 
 De CFO van Rotex Roeselare NV vertelt Sofie Janssens dat de voorraadwaardering klopt 'volgens onze gebruikelijke methode'. Vanuit een professioneel-kritische instelling vraagt Sofie de methode op schrift, controleert ze tegen vorig jaar, en test ze op een steekproef — ze gelooft de mondelinge bevestiging niet zonder onderbouwing.

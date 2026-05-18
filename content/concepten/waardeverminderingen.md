@@ -26,6 +26,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Waardeverminderingen ⚖️
 
+> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
+
+
 Correcties boeken op de aanschaffingswaarde van actiefbestanddelen om rekening te houden met **al-dan-niet-definitieve ontwaardingen** op balansdatum — voor activa met **onbeperkte gebruiksduur** of voor **vlottende activa** (voorraden, vorderingen, geldbeleggingen).
 
 > [!summary] Korte inhoud
