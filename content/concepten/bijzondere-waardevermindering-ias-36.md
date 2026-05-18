@@ -49,7 +49,11 @@ Bij latere verbetering van omstandigheden kan een impairment-verlies worden **te
 _Grondslag: IAS 36 alinea 114-117 + 124_
 
 
-## Stappen
+## Berekening
+
+### Vier-staps-procedure impairment-test IAS 36
+
+*Voor elk actief (of CGU) met aanwijzing op waardevermindering: scan op aanwijzingen, bereken realiseerbare waarde, vergelijk met boekwaarde, boek het verschil als impairment-verlies, herzie het afschrijvingsplan.*
 
 ### 1. Scan op aanwijzingen voor waardevermindering
 
@@ -113,6 +117,34 @@ Als boekwaarde > realiseerbare waarde: impairment-verlies = verschil. Boek het v
 3. Impairment-verlies = € 8.500.000 − € 7.200.000 = € 1.300.000.
 4. Boek: Debet 'Bijzondere waardevermindering' € 1.300.000 in W&V; Credit 'Geaccumuleerde waardevermindering productielijn Y' € 1.300.000.
 5. Nieuwe boekwaarde = € 7.200.000; toekomstige afschrijvingen berekenen op deze gereduceerde basis.
+
+> [!example]- Voorbeeld: Zelena Bio NV's productielijn Y op 31 december 2026: boekwaarde € 8.500.000, realiseerbare waarde € 7.200.000 (na stap 2…
+> Zelena Bio NV's productielijn Y op 31 december 2026: boekwaarde € 8.500.000, realiseerbare waarde € 7.200.000 (na stap 2). Impairment-verlies te boeken in W&V.
+>
+> 1. **Bereken impairment-verlies** 🧮
+>
+>    Impairment = boekwaarde − realiseerbare waarde
+>               = € 8.500.000 − € 7.200.000
+>               = **€ 1.300.000**
+>
+> 2. **Boekingsregel impairment** 📝
+>
+>    | Rekening                                            |     Debet (€) |    Credit (€) |
+>    |-----------------------------------------------------|--------------:|--------------:|
+>    | 660 — Bijzondere waardevermindering productielijn Y |     1.300.000 |               |
+>    | 2329 — Geaccumuleerde waardevermindering            |               |     1.300.000 |
+>    
+>    Debet-totaal = Credit-totaal = € 1.300.000 (balanseffect: actiefzijde daalt; W&V belast).
+>
+> 3. **Nieuwe boekwaarde** 📊
+>
+>    | Productielijn Y — balansweergave 31 december 2026 |        € |
+>    |---------------------------------------------------|----------:|
+>    | Bruto-aanschaffingswaarde                          |10.000.000 |
+>    | − Geaccumuleerde afschrijvingen                    |−1.500.000 |
+>    | − Geaccumuleerde waardevermindering (IAS 36)       |−1.300.000 |
+>    | **Boekwaarde (netto)**                              | **7.200.000** |
+>
 
 **Grondslag**: IAS 36 alinea 59-60
 
