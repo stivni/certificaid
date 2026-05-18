@@ -1,0 +1,90 @@
+{
+  "id": "ifrs",
+  "naam": "IFRS — International Financial Reporting Standards",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.5.I",
+    "1.5.II",
+    "1.5.taak.1"
+  ],
+  "_provenance": {
+    "extractor_run": "manual-2026-05-18",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.II",
+    "linked_anchors": [
+      "1.5.I",
+      "1.5.II",
+      "1.5.taak.1"
+    ],
+    "reviewed_by": null
+  },
+  "situering": "Het internationaal boekhoudkundig referentiestelsel uitgegeven door de IASB (International Accounting Standards Board) en in de EU verplicht voor de geconsolideerde jaarrekening van EU-beursgenoteerden via Verordening 1606/2002. IFRS is principle-based en gericht op investeerders die vergelijkbare cijfers willen zien over EU-grenzen heen — niet op fiscale of juridische harmonisatie.",
+  "definitie": {
+    "text": "**IFRS** (International Financial Reporting Standards) is het principle-based boekhoudkundig referentiestelsel uitgegeven door de IASB. Het bestaat uit ongeveer 40 standaarden (IAS 1 t/m IAS 41 en IFRS 1 t/m IFRS 17, inclusief de meest recente standaarden). In de EU is IFRS verplicht voor de geconsolideerde jaarrekening van EU-beursgenoteerden (via Verordening 1606/2002), en optioneel voor Belgische kredietinstellingen en vrijwillige toepassers.",
+    "confidence": "grounded",
+    "source": {
+      "type": "verordening",
+      "short": "EU-Verordening 1606/2002"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Verplicht voor geconsolideerde rekeningen van EU-beursgenoteerden",
+      "betekenis": "Beursgenoteerde groepen op een EU-gereglementeerde markt (Euronext, Frankfurt, ...) stellen hun geconsolideerde jaarrekening op volgens IFRS — voor boekjaren beginnend op of na 1 januari 2005. De enkelvoudige rekening van elke dochter blijft BE-GAAP (of het lokale stelsel).",
+      "confidence": "grounded"
+    },
+    {
+      "aspect": "Endorsement-mechanisme: niet elke IASB-standaard is automatisch EU-recht",
+      "betekenis": "Een nieuwe standaard van de IASB wordt pas EU-recht na een endorsement-procedure via EFRAG en de Europese Commissie. Soms wijkt EU-IFRS af van de globale IASB-versie — bijvoorbeeld bij hedge-accounting onder IAS 39 (carve-out).",
+      "confidence": "grounded"
+    },
+    {
+      "aspect": "Vijf jaarrekening-componenten verplicht",
+      "betekenis": "Onder IFRS bestaat elke jaarrekening uit vijf componenten: balans, totaalresultaat (winst-en-verlies + overige onderdelen totaalresultaat), mutatieoverzicht eigen vermogen, kasstroomoverzicht, en toelichtingen. Geen drempels — ook kleine IFRS-toepassers maken alle vijf.",
+      "confidence": "grounded"
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "belgisch-gaap",
+      "verschil": "IFRS is principle-based en investeerders-georiënteerd; BE-GAAP is rule-based en juridisch-fiscaal georiënteerd. IFRS staat structurele herwaardering toe (IAS 16) en eist alle leases on-balance (IFRS 16), terwijl BE-GAAP beperkter is in herwaardering en operationele lease off-balance houdt.",
+      "trigger": "Examenvraag over specifieke post: check enkelvoudig versus geconsolideerd, en bij geconsolideerd de beursnotering. Beursgenoteerd + geconsolideerd → IFRS."
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "IFRS is geen alternatief voor BE-GAAP bij enkelvoudige jaarrekeningen.",
+      "vaak_fout": "Een Belgische beursgenoteerde NV stelt haar geconsolideerde rekening op volgens IFRS, maar haar enkelvoudige statutaire rekening blijft BE-GAAP. Stagiairs verwarren beide vaak en concluderen ten onrechte dat IFRS de hele groep beheerst.",
+      "confidence": "grounded"
+    },
+    {
+      "advies": "Onderscheid IFRS van US GAAP — twee verschillende internationale stelsels.",
+      "vaak_fout": "IFRS en US GAAP convergeren in sommige opzichten (opbrengsten via gezamenlijke standaard IFRS 15 / ASC 606) maar blijven materieel verschillend (LIFO toegestaan in US GAAP, verboden in IFRS; consolidatie-methoden verschillen, etc.). Voor Belgische examen-context: IFRS, niet US GAAP.",
+      "confidence": "grounded"
+    }
+  ],
+  "edges": [
+    {
+      "type": "vergelijkt-met",
+      "target": "belgisch-gaap",
+      "aspect": "twee referentiestelsels"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "eu-harmonisatie-jaarrekeningenrecht"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "verplichte-ifrs-eu-beursgenoteerden"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "endorsement-procedure-eu"
+    }
+  ]
+}

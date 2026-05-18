@@ -1,0 +1,70 @@
+{
+  "id": "belgisch-gaap",
+  "naam": "Belgisch GAAP",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.5.I",
+    "1.5.taak.1"
+  ],
+  "_provenance": {
+    "extractor_run": "manual-2026-05-18",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.I",
+    "linked_anchors": [
+      "1.5.I",
+      "1.5.taak.1"
+    ],
+    "reviewed_by": null
+  },
+  "situering": "Het Belgisch boekhoudkundig referentiestelsel zoals vastgelegd in het Wetboek van vennootschappen en verenigingen (WVV) en het KB van uitvoering. BE-GAAP geldt voor de enkelvoudige statutaire jaarrekening van alle Belgische vennootschappen en voor de geconsolideerde jaarrekening van niet-beursgenoteerde groepen. Het stelsel is juridisch-fiscaal georiënteerd: vaste schema's, voorzichtigheidsbeginsel, beperkte ruimte voor reële waarde.",
+  "definitie": {
+    "text": "**Belgisch GAAP** (Generally Accepted Accounting Principles in België) is het rule-based boekhoudkundig referentiestelsel voor Belgische ondernemingen, gebaseerd op het WVV (Wetboek van vennootschappen en verenigingen) en het KB van uitvoering. Het schrijft vaste jaarrekening-schema's voor (volledig, verkort, micro) en hanteert het voorzichtigheidsbeginsel: winsten pas opnemen wanneer gerealiseerd, verliezen wanneer waarschijnlijk.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV + KB uitvoering"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Verplicht voor enkelvoudige Belgische jaarrekeningen",
+      "betekenis": "Elke Belgische vennootschap stelt haar enkelvoudige statutaire jaarrekening op volgens BE-GAAP, ongeacht beursnotering. Een beursgenoteerde groep heeft dus *twee* jaarrekeningen: een enkelvoudige BE-GAAP-rekening per entiteit en een geconsolideerde IFRS-rekening voor de groep.",
+      "confidence": "grounded"
+    },
+    {
+      "aspect": "Drie schema's afhankelijk van grootte",
+      "betekenis": "Volledig schema (grote ondernemingen), verkort schema (kleine vennootschappen — max 1 criterium overschreden van € 6M balans / € 11,25M omzet / 50 VTE) en microschema (microvennootschappen — max 1 criterium overschreden van € 350k / € 700k / 10 VTE). Schema bepaalt diepte van toelichtingen en vrijstellingen (bv. geen jaarverslag, geen commissaris).",
+      "confidence": "grounded"
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "ifrs",
+      "verschil": "BE-GAAP is rule-based (vaste schema's, juridisch-fiscaal georiënteerd, voorzichtigheidsbeginsel); IFRS is principle-based (flexibele presentatie, investeerders-georiënteerd, reële waarde). Concreet: LIFO toegelaten in BE-GAAP / verboden in IFRS; goodwill afschrijven onder BE-GAAP / jaarlijkse impairment-test onder IFRS; alle leases on-balance onder IFRS 16 / operationele off-balance onder BE-GAAP.",
+      "trigger": "Examenvraag over een specifieke balanspost: bepaal eerst onder welk stelsel het cijfer berekend is. Beursnotering + geconsolideerd → IFRS; alle andere gevallen → BE-GAAP."
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Verwar BE-GAAP niet met fiscale boekhouding — het zijn twee aparte sets regels.",
+      "vaak_fout": "Stagiairs nemen aan dat de fiscale waardering en de boekhoudkundige waardering identiek zijn. Klopt niet: er bestaan permanente en tijdelijke verschillen, en de jaarrekening volgt BE-GAAP, niet het Wetboek Inkomstenbelastingen.",
+      "confidence": "grounded"
+    }
+  ],
+  "edges": [
+    {
+      "type": "vergelijkt-met",
+      "target": "ifrs",
+      "aspect": "twee referentiestelsels"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "eu-harmonisatie-jaarrekeningenrecht"
+    }
+  ]
+}

@@ -20,11 +20,22 @@ hoofdstukken:
       `ifrs-toepassingsgebied-belgie` en `be-gaap-vs-ifrs-overzicht` uit de
       meegeleverde records — die fungeren als kapstok voor de hele cursus.
 
+  - type: voorbereiding
+    titel: "De twee referentiestelsels — begrippen"
+    concepten:
+      - belgisch-gaap
+      - ifrs
+    rationale_hint: >-
+      Voor we de standaarden uitwerken: de twee begrippen op een rij,
+      zodat de student weet wat er vergeleken wordt voordat de verschillen
+      uitgebreid in de synthese landen.
+
   - type: thematisch
     titel: "Het Europese kader: richtlijn 2013/34/EU en verordening 1606/2002"
     concepten:
-      - richtlijn-2013-34-eu
-      - ifrs-verordening-1606-2002
+      - eu-harmonisatie-jaarrekeningenrecht
+      - verplichte-ifrs-eu-beursgenoteerden
+      - endorsement-procedure-eu
       - ifrs-toepassingsgebied-belgie
 
   - type: synthese
@@ -45,23 +56,23 @@ hoofdstukken:
   - type: thematisch
     titel: "IAS 1 — Presentatie van de jaarrekening: vijf componenten en presentatiebeginselen"
     concepten:
-      - ias-1-jaarrekening-componenten
-      - ias-1-presentatie-beginselen
-      - ias-1-balans-presentatie
-      - ias-1-winst-en-totaalresultaat
-      - ias-1-mutatieoverzicht-eigen-vermogen
-      - ias-1-toelichtingsvereisten
+      - jaarrekening-componenten-ifrs
+      - presentatiebeginselen-jaarrekening-ifrs
+      - balans-presentatie-ifrs
+      - totaalresultaat-ifrs
+      - mutatieoverzicht-eigen-vermogen-ifrs
+      - toelichtingsvereisten-jaarrekening-ifrs
 
   - type: competentie
-    competentie_id: presenteren-ifrs-jaarrekening-volgens-ias-1
+    competentie_id: presenteren-jaarrekening-ifrs
 
   - type: thematisch
     titel: "Vaste activa onder IFRS: IAS 16 en IAS 38 — kostprijs, herwaardering en componenten"
     concepten:
       - materiele-vaste-activa-ifrs
       - immateriele-vaste-activa-ifrs
-      - herwaarderingsmodel-ias-16
-      - componentenbenadering-ias-16
+      - herwaarderingsmodel-ifrs
+      - componentenbenadering
       - afschrijvingen-ifrs
 
   - type: competentie
@@ -70,16 +81,16 @@ hoofdstukken:
   - type: thematisch
     titel: "Bijzondere waardevermindering onder IAS 36: indicaties, CGU en realiseerbare waarde"
     concepten:
-      - bijzondere-waardevermindering-ias-36
+      - bijzondere-waardevermindering-ifrs
 
   - type: competentie
-    competentie_id: toetsen-bijzondere-waardevermindering-ias-36
+    competentie_id: toetsen-bijzondere-waardevermindering-ifrs
 
   - type: thematisch
     titel: "Opbrengsten onder IFRS 15: het vijf-stappen-model en prestatieverplichtingen"
     concepten:
       - opbrengsten-ifrs
-      - prestatieverplichting-ifrs-15
+      - prestatieverplichting
       - onderhanden-projecten-ifrs
 
   - type: competentie

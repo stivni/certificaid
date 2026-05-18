@@ -1,0 +1,40 @@
+{
+  "id": "ifrs-16-lessee-vs-lessor-overzicht",
+  "naam": "IFRS 16 — lessee versus lessor (overzicht)",
+  "node_type": "synthese",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.5.V",
+    "1.5.taak.1"
+  ],
+  "_provenance": {
+    "extractor_run": "manual-2026-05-18",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.V",
+    "linked_anchors": [
+      "1.5.V",
+      "1.5.taak.1"
+    ],
+    "reviewed_by": null
+  },
+  "situering": "IFRS 16 hanteert een asymmetrisch model: lessee én lessor volgen niet meer dezelfde classificatie (zoals onder IAS 17), maar geven een lease vanuit hun eigen perspectief weer. Voor de stagiair betekent dit dat dezelfde lease-overeenkomst aan beide kanten van de balans verschillend zichtbaar is.",
+  "gebaseerd_op_concepten": [
+    "leasing-ifrs",
+    "right-of-use-actief",
+    "leaseverplichting-ifrs"
+  ],
+  "vergelijkingstabel": "| Aspect | Lessee onder IFRS 16 | Lessor onder IFRS 16 |\n|---|---|---|\n| Basismodel | Single model: alle leases on-balance | Twee modellen: operationele vs. financiële lease (zoals IAS 17) |\n| Activa | Right-of-use-actief op de balans, jaarlijks afgeschreven | Operationele lease: activa blijft op balans lessor; Financiële lease: vordering ipv activa |\n| Verplichting / vordering | Leaseverplichting (effectieve-rente-methode) | Operationele lease: geen vordering; Financiële lease: vordering met rente-component |\n| Resultaat | Afschrijving (vast) + rente (degressief) | Operationele lease: huurinkomst (vast); Financiële lease: rente-inkomst (degressief) + winst op verkoop |\n| Uitzonderingen | Kortdurende leases (< 12 maand) en lease van lage waarde mogen off-balance | Geen vergelijkbare vrijstelling |\n",
+  "kerninzichten": [
+    {
+      "inzicht": "De asymmetrie maakt vergelijking lastig: dezelfde economische transactie verschijnt aan lessee-kant (gebruiksrecht-actief + verplichting) groter dan aan lessor-kant (alleen vordering bij financiële lease).",
+      "waarom_belangrijk": "Voor de stagiair die een groep met intra-groep-leases analyseert: de eliminaties bij consolidatie vragen extra aandacht omdat de boekingen aan beide kanten niet symmetrisch zijn.",
+      "confidence": "inferred"
+    },
+    {
+      "inzicht": "IFRS 16 schaft het BE-GAAP-onderscheid tussen operationele en financiële lease alleen aan lessee-zijde af. Aan lessor-zijde blijft het onderscheid bestaan, met andere boekingen voor elk type.",
+      "waarom_belangrijk": "Een examenvraag over 'classificatie van een lease onder IFRS' vereist altijd duidelijkheid: vanuit wie? Lessee → niet meer relevant; lessor → nog steeds belangrijk.",
+      "confidence": "grounded"
+    }
+  ]
+}
