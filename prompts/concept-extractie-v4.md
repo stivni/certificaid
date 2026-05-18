@@ -505,12 +505,23 @@ Werkwijze bij verouderde anchor:
 9. **Intra-record cijfer-consistentie**: wanneer een record meerdere voorbeelden/scenarios bevat met dezelfde fact-pattern (zelfde namen, zelfde uitgangsbedragen) — moeten de afgeleide cijfers tussen die voorbeelden **identiek** zijn. Voor elke `bouwsteen.voorbeelden[]` en `voorbeelden[]` op record-niveau die dezelfde basis-case behandelen: rekenkundig verifieer dat de afgeleide bedragen (boekwaardes, terugnemingen, balanssaldi) overeenkomen. Inconsistentie tussen voorbeelden van hetzelfde record = HIGH-prio fout (stagiair raakt verward). Bij verschillende fact-patterns: maak dat **expliciet** ("scenario A met aanschaffingswaarde 5.000, scenario B met 10.000") zodat geen verwarring ontstaat.
 10. **Bron is geen concept**: een **bron** is een document waaruit kennis wordt afgeleid (wet, KB, verordening, richtlijn, CBN-advies, ISA-standaard, IFRS/IAS-standaard, ITAA-norm, IESBA-code, ...). Een **concept** is een fenomeen dat zo'n bron behandelt. **Vernoem nooit een record naar de bron zelf.** Smell-detector: record-id-patroon = pure bron-aanduiding (`ifrs-verordening-1606-2002`, `cbn-2022-08`, `kb-wvv-uitvoering`, `isa-315-herzien-2019`, ...) → refactor naar de onderliggende fenomenen. Tref je zo'n record bij EXTRACT-touch: splits de content in fenomeen-records (bv. `verplichte-ifrs-eu-beursgenoteerden` + `endorsement-procedure-eu`), maak edges expliciet, verwijder het bron-record of zet het om naar synthese als het écht overzicht biedt.
 
-11. **Bron-prefix in record-id**: alleen toegestaan wanneer er werkelijk **parallel-regime-records** bestaan onder een andere bron (bv. `balans-presentatie-ifrs` ↔ `balans-presentatie-be-gaap`). Anders weg met de prefix — bron-refs in `source.short` en edges (`onderdeel-van`, `specialisatie-van`) geven de bron-relatie al aan, prefix is dubbele identificatie. Voorbeelden van overbodige prefix die je bij EXTRACT-touch wegrenamet:
-   - `ias-1-balans-presentatie` → `balans-presentatie-ifrs` (als BE-GAAP-tegenhanger bestaat) of `balans-presentatie` (met IFRS-bouwsteen)
-   - `ifrs-16-lessee-vs-lessor-overzicht` → `leasing-lessee-vs-lessor-overzicht`
-   - `ias-1-jaarrekening-componenten` → `jaarrekening-componenten-ifrs` of `jaarrekening-componenten`
-   
-   Wanneer rename: gebruik `records_api.rename_record(old_id, new_record)` — orphan-management redirecteert automatisch alle incoming edges (ADR-019 §Orphan-management).
+11. **Naming-conventie voor specialisaties**: `<concept>-<specialisatie>`, **niet** `<specialisatie>-<concept>`. Specialisaties van hetzelfde concept clusteren dan alfabetisch en visueel samen. Voorbeelden:
+   - ✅ `balans-presentatie-ifrs`, `balans-presentatie-be-gaap`
+   - ❌ `ifrs-balans-presentatie`, `be-gaap-balans-presentatie`
+   - ✅ `leasing-ifrs`, `leasing-be-gaap`, `leasing` (algemene cluster)
+   - ❌ `ifrs-leasing`, `ias-1-balans-presentatie`
+
+   Bron-prefix in record-id alleen wanneer **werkelijk parallel-regime-records** bestaan onder een andere bron. Anders weg met de prefix — bron-refs in `source.short` en edges (`specialisatie-van`, `onderdeel-van`) geven de bron-relatie al aan; prefix is dubbele identificatie.
+
+   Wanneer je een rename uitvoert: gebruik `records_api.rename_record(old_id, new_record)` — orphan-management redirecteert automatisch alle incoming edges (ADR-019 §Orphan-management).
+
+12. **Impliciete tegenhanger expliciet maken**: wanneer je een regime-specialisatie aanmaakt of tegenkomt (bv. `balans-presentatie-ifrs`), check of de **parallel-regime-tegenhangers** (BE-GAAP, fiscaal, EU, ...) ook expliciet bestaan als specialisaties. Een impliciete tegenhanger is een verborgen gap: de stagiair leest een record over IFRS en denkt dat BE-GAAP "niet hier wordt behandeld" terwijl er gewoon nog geen record is.
+
+   Workflow:
+   - Tegenhanger bestaat al als eigen record → check edges (`specialisatie-van: <algemene>` met `regime`-facet) en algemene cluster
+   - Tegenhanger ontbreekt + bron-bundle dekt het regime voldoende → maak het record aan in dezelfde EXTRACT-pass
+   - Tegenhanger ontbreekt + onvoldoende bron-dekking → schrijf een `records.ontbreekt`-gap-entry naar `data/extractie/gaps.json` met aspect `parallel-regime-ontbreekt`
+   - In alle gevallen: zorg dat de **algemene cluster** (`balans-presentatie`) bestaat die de specialisaties via `specialisatie-van`-edges verbindt
 11. **Compositie-naam-smell**: record-naam met `+`, `&`, `en` of komma's tussen termen (`jaarrekeningplicht + groottecriteria`, `aankoop & verkoop`, `risicogebaseerde-aanpak-en-materiality`) is een teken van **gecondenseerd multi-concept**. Splits naar twee aparte records, met edges (vaak `vereist-kennis-van` of `vergelijkt-met`) tussen.
 
 Cross-bron-synthese: wanneer hetzelfde fenomeen in 2+ chunks uit 2+ bronnen wordt aangehaald, aggregeer tot één expliciete enumeratie of vergelijking met confidence `inferred-from-aggregation` en alle bijdragende chunk-ids in `_provenance.inputs`.
