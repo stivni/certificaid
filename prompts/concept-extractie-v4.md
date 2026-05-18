@@ -85,17 +85,20 @@ Tref je bij het lezen van bestaande records deze verouderde types aan, hernoemd 
 
 Een **bouwsteen** is een sub-aspect van een record dat alleen *binnen* dat record zinvol is — het bestaat niet zelfstandig in het accounting-domein.
 
-**Bouwsteen blijft bouwsteen** zolang minstens één van deze geldt:
-- Geen eigen wettelijk artikel of normpunt als primaire bron (alleen een alinea binnen een groter artikel)
-- Minder dan 3 cross-referenties vanuit andere records (bestaand of te verwachten)
-- Geen 1-zin definitie zonder afhankelijke kwalificatie ("binnen de context van X")
+**De bestaansreden-test** (compositie vs aggregatie):
+- *"Heeft dit onderwerp een bestaansreden buiten zijn parent-context?"*
+- **Nee** → bouwsteen (compositie: leeft binnen de parent, sterft buiten)
+- **Ja** → eigen record (aggregatie: zelfstandig domein-object)
 
-**Bouwsteen wordt eigen record** wanneer alle drie voldaan zijn:
-1. Eigen wettelijk artikel/normpunt als primaire bron
-2. ≥ 3 cross-referenties vanuit andere records
-3. 1-zin definitie zonder "binnen de context van X"
+Voorbeelden:
+- `tweestappentest-IFRS-16`: geen bestaansreden buiten IFRS 16-lease-classificatie → bouwsteen van `leasing-ifrs`
+- `right-of-use-actief`: bestaansreden los van leasing (IAS 36 impairment, IFRS 5 disposal werken erop) → eigen record
+- `randvoorwaarden-controle`: geen bestaansreden buiten audit-opdracht-aanvaarding → bouwsteen van `aanvaarden-audit-opdracht`-competentie
 
-Voorbeeld: "tweestappentest IFRS 16" leeft als bouwsteen binnen `leasing-ifrs` — buiten IFRS 16 bestaat het concept niet. `right-of-use-actief` krijgt een eigen record — IAS 36 en IFRS 5 werken er ook mee.
+**Bevestigingsindicaties** (allemaal "ja" → eigen record):
+- Eigen wettelijk artikel of normpunt als primaire bron
+- ≥ 3 cross-referenties vanuit andere records (bestaand of te verwachten)
+- 1-zin definitie zonder afhankelijke kwalificatie ("binnen de context van X")
 
 Bouwsteen-blok-schema:
 ```yaml
@@ -286,20 +289,29 @@ Vrije-tekst-verwijzingen ("zie X", "vergelijk met Y") in `definitie`/`bouwstenen
 
 ---
 
-## 10. Minimum-rijkheid per node_type
+## 10. Rijkheid — reflectief denken, geen harde minima
 
-Uniforme rijkheid binnen type is verplicht (zie gap-mining-pattern 2 en 5). Gebruik deze tabel als pre-write self-check:
+Geen kunstmatige getallen. Bij elk record dat je schrijft of touch'cht, vraag jezelf actief:
 
-| node_type | Verplicht (als bron-bundle het ondersteunt) | Minimum voorbeeld | Sterk aanbevolen |
-|---|---|---|---|
-| **begrip** | `definitie` + (`valkuilen[]` met ≥ 1 item **indien bron-aanwijzingen aanwezig** voor een typische redeneerfout of praktijkfout) | ≥ 1 `voorbeelden[{vorm: eenvoudig}]` op record-niveau of in bouwsteen | `in_praktijk[]`, `vergelijkingsparen[]` |
-| **regel** | `main_rule` of `verplichting` | ≥ 1 `voorbeelden[]` met concrete cliëntsituatie | `uitzonderingen[]`, `voorwaarden[]`, `vergelijkingsparen[]`, `drempelwaarden[]` |
-| **cluster** | `definitie` of `doel`, `bouwstenen[]` of `berekeningsmethode[]` | EEN van: (a) `berekeningsmethode[].formules[].invulling_voorbeeld`, (b) ≥ 1 stap met `voorbeeld.substappen[]`, (c) ≥ 1 `voorbeelden[{vorm: scenario}]` op record-niveau met inline `illustraties[]` (boeking, balans-fragment, ...). Procedurele clusters zonder formule kiezen voor (b) of (c). | `in_praktijk[]`, `vergelijkingsparen[]` |
-| **synthese** | `gebaseerd_op_concepten[]` (≥ 3), één van `vergelijkingstabel`/`beslisboom` | ≥ 1 worked example in `vergelijkingstabel` of `beslisboom` | `kerninzichten[]` |
-| **autoriteit** | `definitie`, `rol` | ≥ 1 `voorbeelden[]` of `in_praktijk[]` met antwoord op "wanneer komt deze actor in een stagiair-dossier?" | `vergelijkingsparen[]`, `valkuilen[]` |
-| **competentie** | `doel`, `stappen[]` (≥ 2) | ≥ 1 stap met inline `voorbeeld` | `beoordelings_criteria`, `beslisboom` |
+- *"Maakt een extra **voorbeeld** (eenvoudig of scenario) dit begrijpelijker voor een stagiair die het concept voor het eerst ziet?"*
+- *"Past een **illustratie** (boeking, balans-fragment, mermaid-diagram) bij dit onderwerp? Cijfers, balansposten, journaalboekingen, beslisbomen → meestal ja."*
+- *"Helpt een **in_praktijk**-uitleg om de abstracte definitie te concretiseren? ('Wat betekent dit voor de cliënt-relatie of het dossier?')"*
+- *"Zijn er **valkuilen** die een stagiair in praktijk maakt — typische redeneerfouten, niet wettekst-herhalingen?"*
 
-Als een minimum niet gehaald wordt: log in het afsluitend rapport. VERIFY produceert een `> [!todo] Voorbeeld ontbreekt`-callout bij render.
+**Default-houding: ja, voeg toe — tenzij het concept inherent eenvoudig is en herhaling de duidelijkheid niet verbetert.** Sparse fields blijven toegestaan; bias gaat richting verrijking, niet sobere data-shape.
+
+**Basisstructuur per node_type** (om te weten *welke velden* gebruikelijk zijn — geen ondergrens):
+
+| node_type | Kernvelden | Veelvoorkomende verrijkingen |
+|---|---|---|
+| **begrip** | `definitie` | `in_praktijk[]`, `voorbeelden[]`, `vergelijkingsparen[]`, `valkuilen[]` |
+| **regel** | `main_rule` of `verplichting` | `voorbeelden[]`, `uitzonderingen[]`, `voorwaarden[]`, `drempelwaarden[]`, `valkuilen[]` |
+| **cluster** | `definitie` of `doel` + `bouwstenen[]` | `berekeningsmethode[]`, `voorbeelden[{vorm: scenario}]` met inline `illustraties[]` (boeking, balans), `in_praktijk[]`, `vergelijkingsparen[]` |
+| **synthese** | `gebaseerd_op_concepten[]` (≥ 3) | `vergelijkingstabel`, `beslisboom`, `kerninzichten[]`, eigen `illustraties[]` |
+| **autoriteit** | `definitie`, `rol` | `in_praktijk[]` ("wanneer kom je deze actor tegen in een dossier?"), `voorbeelden[]`, `vergelijkingsparen[]` |
+| **competentie** | `doel`, `stappen[]` | `in_praktijk[]` (waar de stagiair dit gaat doen), `voorbeelden[]` per stap, `beoordelings_criteria`, inline `illustraties[]` |
+
+**Plaatsings-regel voor `stappen[]` in clusters**: een cluster heeft `stappen[]` **nooit** rechtstreeks op record-top. Stappen leven binnen `berekeningsmethode[].stappen[]` of als bouwsteen met sub-stappen. Competenties hebben `stappen[]` wel direct op record-top — dat is type-specifiek.
 
 **Plaatsings-regel voor `stappen[]` in clusters**: een cluster heeft `stappen[]` **nooit** rechtstreeks op record-top. Stappen leven binnen `berekeningsmethode[].stappen[]` (voor cluster-met-procedure) of als bouwsteen met sub-stappen. Tref je een schema-1.4-record met `stappen[]` op cluster-top, verplaats ze bij de eerste EXTRACT-touch. Competenties hebben `stappen[]` wel direct op record-top — dat is type-specifiek.
 
@@ -491,6 +503,8 @@ Werkwijze bij verouderde anchor:
 7. **Bron-gaps signaleren, niet maskeren**: wanneer retrieval structureel tekortschiet (bv. chunking-artefact, ontbrekende primaire bron), schrijf een `bron-gap`-entry in `data/extractie/gaps.json` in plaats van te omzeilen.
 8. **Discrepantie-driven bron-verificatie**: wanneer een bestaand record een claim maakt die niet duidelijk klopt met de top-K-chunks die je hebt opgehaald — **lees de volledige bron-MD** uit `resources/bronnen/...` voor breder context, gebruik daarvoor een directe file-read of `grep -A 20 <pattern> <bestand>`. Doe dit ook proactief wanneer een record een complex regulatorisch onderwerp dekt (CBN-advies, ISA, IFRS-standaard) en je een belangrijke wijziging overweegt. Chunks zijn een retrieval-projectie; de bron-MD is de waarheid. Embeddings kunnen verkeerd ranken, chunkers kunnen secties verbergen — bij twijfel altijd terug naar de bron-tekst. Zonder deze stap dragen we mogelijk bestaande hallucinaties over.
 9. **Intra-record cijfer-consistentie**: wanneer een record meerdere voorbeelden/scenarios bevat met dezelfde fact-pattern (zelfde namen, zelfde uitgangsbedragen) — moeten de afgeleide cijfers tussen die voorbeelden **identiek** zijn. Voor elke `bouwsteen.voorbeelden[]` en `voorbeelden[]` op record-niveau die dezelfde basis-case behandelen: rekenkundig verifieer dat de afgeleide bedragen (boekwaardes, terugnemingen, balanssaldi) overeenkomen. Inconsistentie tussen voorbeelden van hetzelfde record = HIGH-prio fout (stagiair raakt verward). Bij verschillende fact-patterns: maak dat **expliciet** ("scenario A met aanschaffingswaarde 5.000, scenario B met 10.000") zodat geen verwarring ontstaat.
+10. **Bron is geen concept**: een **bron** is een document waaruit kennis wordt afgeleid (wet, KB, verordening, richtlijn, CBN-advies, ISA-standaard, IFRS/IAS-standaard, ITAA-norm, IESBA-code, ...). Een **concept** is een fenomeen dat zo'n bron behandelt. **Vernoem nooit een record naar de bron zelf.** Smell-detector: record-id-patroon = pure bron-aanduiding (`ifrs-verordening-1606-2002`, `cbn-2022-08`, `kb-wvv-uitvoering`, `isa-315-herzien-2019`, ...) → refactor naar de onderliggende fenomenen. Tref je zo'n record bij EXTRACT-touch: splits de content in fenomeen-records (bv. `verplichte-ifrs-eu-beursgenoteerden` + `endorsement-procedure-eu`), maak edges expliciet, verwijder het bron-record of zet het om naar synthese als het écht overzicht biedt.
+11. **Compositie-naam-smell**: record-naam met `+`, `&`, `en` of komma's tussen termen (`jaarrekeningplicht + groottecriteria`, `aankoop & verkoop`, `risicogebaseerde-aanpak-en-materiality`) is een teken van **gecondenseerd multi-concept**. Splits naar twee aparte records, met edges (vaak `vereist-kennis-van` of `vergelijkt-met`) tussen.
 
 Cross-bron-synthese: wanneer hetzelfde fenomeen in 2+ chunks uit 2+ bronnen wordt aangehaald, aggregeer tot één expliciete enumeratie of vergelijking met confidence `inferred-from-aggregation` en alle bijdragende chunk-ids in `_provenance.inputs`.
 
