@@ -25,7 +25,7 @@ VERIFY-feedback wijst op vijf systemic patterns. Het meest urgente is **pattern 
 
 **Vermoedelijke prompt/cast-oorzaak**: ADR-008 §13.1 regel 5 ("uniforme rijkheid binnen type") en ADR-008 §17 regel 13 ("voorbeeld-minimum per node_type") zijn in de prompt als principe geformuleerd, maar de prompt bevat geen **minimum-tabel per node_type** (autoriteit → ≥ 1 in_praktijk + ≥ 1 valkuil + ≥ 1 vergelijkingspaar; begrip → idem). Bij autoriteit-records ligt de wettelijke bron sterk op definitie/bevoegdheden, en de agent stopt zodra die rond is.
 
-**Suggestie**: Voeg in EXTRACT v4 een **minimum-rijkheid-checklist per node_type** toe (autoriteit/begrip/regel/procedure/methode/synthese) met expliciete getallen + één-zin-rationale. Voor autoriteit-records: verplicht in_praktijk met antwoord op "wanneer komt deze actor in een stagiair-dossier?". VERIFY-aspect `voorbeeld.ontbreekt` (ADR-008 §17) hoort bij EXTRACT al een self-check te zijn voor de agent disk schrijft.
+**Suggestie**: Voeg in EXTRACT v4 een **minimum-rijkheid-checklist per node_type** toe (autoriteit/begrip/regel/cluster/synthese/competentie) met expliciete getallen + één-zin-rationale. Voor autoriteit-records: verplicht in_praktijk met antwoord op "wanneer komt deze actor in een stagiair-dossier?". VERIFY-aspect `voorbeeld.ontbreekt` (ADR-008 §17) hoort bij EXTRACT al een self-check te zijn voor de agent disk schrijft.
 
 ---
 
@@ -55,7 +55,7 @@ VERIFY-feedback wijst op vijf systemic patterns. Het meest urgente is **pattern 
 
 **Vermoedelijke prompt/cast-oorzaak**: Schema 1.4 voorziet stap-blok + formule-blok + bouwsteen-blok als toevoegingen, maar de prompt vraagt ze als optie i.p.v. als verplicht voor specifieke node_types. Dit is dezelfde "uniforme rijkheid"-leak als pattern 2, maar specifiek voor procedurele/numerieke velden i.p.v. illustratieve. Bovendien: ADR-008 §13.2 markeert zelf dat veld-gebonden VERIFY-checks falen zodra inhoud via een ander veld wordt geleverd (bv. stappen-met-rekenwerk i.p.v. formule-blok). Dat betekent ook dat de agent het ándere veld dán moet vullen — niet beide leeg laten.
 
-**Suggestie**: (1) Per node_type een **verplichte content-pattern-tabel** in de prompt: methode → minstens (stappen OF formules OF berekeningsmethode-met-voorbeeld); regel → minstens (definitie + valkuilen). (2) Self-check voor write: "heb ik voor dit node_type een procedure/formule/voorbeeld? Zo nee, fix dat eerst." (3) Content-pattern-based VERIFY-checks (ADR-008 §13.2 open punt) versnellen — niet veld-existence maar property-existence.
+**Suggestie**: (1) Per node_type een **verplichte content-pattern-tabel** in de prompt: cluster → minstens (stappen OF formules OF berekeningsmethode-met-voorbeeld); regel → minstens (definitie + valkuilen). (2) Self-check voor write: "heb ik voor dit node_type een procedure/formule/voorbeeld? Zo nee, fix dat eerst." (3) Content-pattern-based VERIFY-checks (ADR-008 §13.2 open punt) versnellen — niet veld-existence maar property-existence.
 
 ---
 

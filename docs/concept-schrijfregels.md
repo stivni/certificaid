@@ -33,12 +33,12 @@ Eén taxonomie voor alles — concepten en competenties leven in hetzelfde forma
 
 | Type | Vraag | Velden-pakket (typisch) | Voorbeelden |
 |---|---|---|---|
-| **begrip** | *"Wat is X?"* — defining unit | `definitie` + `voorbeeld_inline` + `in_praktijk` + `valkuilen` | arbeidskosten, right-of-use-actief, beroepsgeheim |
+| **begrip** | *"Wat is X?"* — defining unit | `definitie` + `voorbeelden[]` + `in_praktijk` + `valkuilen` | arbeidskosten, right-of-use-actief, beroepsgeheim |
 | **regel** | *"Wat schrijft de norm voor?"* — normatieve regel of beginsel | `verplichting` of `main_rule` + `voorwaarden` + `valkuilen` + optioneel `drempelwaarden` | art. 3:96 KB WVV, IFRS 16 alinea 100, continuïteitsbeginsel |
 | **cluster** | *"Hoe hangt dit fenomeen samen?"* — samengesteld onderwerp dat regels, begrippen en bouwstenen samenbrengt | `doel` of `definitie` + rijke `bouwstenen` + `voorwaarden` + `vergelijkingsparen` + `valkuilen` + soms `berekeningsmethode` | leasing, consolidatie, COSO ERM, jaarrekening-vzw |
 | **synthese** | *"Hoe vergelijk of beslis ik tussen N concepten?"* — cross-record overzicht | `gebaseerd_op_concepten` + één van: `vergelijkingstabel`, `beslisboom`, `stappenplan`, `tijdlijn` + `kerninzichten` | consolidatiemethoden-vergelijking, liquiditeitstoets-beslisboom |
 | **autoriteit** | *"Welke institutionele actor doet wat?"* | `definitie` + `rol` + `in_praktijk` | FSMA, ITAA, FOD Financiën, Cel voor Financiële Informatieverwerking |
-| **competentie** | *"Wat moet de stagiair kunnen?"* — applied skill | `doel` + `stappen` + `beoordelings_criteria` + optioneel `voorbeeld_case` | kwalificeren-en-boeken-leasing, beoordelen-getrouw-beeld |
+| **competentie** | *"Wat moet de stagiair kunnen?"* — applied skill | `doel` + `stappen` + `beoordelings_criteria` + optioneel `voorbeelden[]` | kwalificeren-en-boeken-leasing, beoordelen-getrouw-beeld |
 
 **Verdwenen of opgegaan** (historische types die niet meer als eigen `node_type` bestaan):
 
@@ -115,7 +115,7 @@ Triggers in bronnen die deze splitsing rechtvaardigen: *"onder IFRS / BE-GAAP"*,
 
 2. **Verbatim wetstekst** alleen in `source.citation`-velden. Hoofdtekst altijd herschreven in stagiair-Nederlands.
 
-3. **Voorbeelden** in `voorbeeld_inline`, niet ingebed in een definitie. Eén concrete situatie per voorbeeld, geen narratief.
+3. **Voorbeelden** in `voorbeelden[]` (schema 1.5; was: `voorbeeld_inline`), niet ingebed in een definitie. Eén concrete situatie per voorbeeld, geen narratief.
 
 4. **Cast-namen voor voorbeelden**: gebruik personages en bedrijven uit `data/concepten/casts/globaal.yaml` (Zelena Bio NV, Aurelia Holding NV, ...). Geen ad-hoc-fictie tenzij de cast geen passend personage levert.
 
@@ -154,7 +154,7 @@ Elk inhoudelijk veld heeft een `confidence`:
 
 ## Edges — getypeerde verwijzingen
 
-Cross-record relaties als getypeerde edges, **niet** als hyperlink-prose in hoofdtekst (`[[xxx]]`-syntax hoort in `voorbeeld_inline` of `in_praktijk`, niet in normatieve hoofdvelden).
+Cross-record relaties als getypeerde edges, **niet** als hyperlink-prose in hoofdtekst (`[[xxx]]`-syntax hoort in `voorbeelden[]` of `in_praktijk`, niet in normatieve hoofdvelden).
 
 **De zeven canonieke edge-types** (na consolidatie 2026-05-18):
 

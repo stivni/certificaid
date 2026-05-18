@@ -53,7 +53,7 @@ Bron-claim zonder verwijzing = ⚠️ te verifiëren, **nooit** stilzwijgend ⚖
 
 - Eén concept = één fiche (in de snapshot)
 - Programmaonderdeel-fiches zijn navigatie (welke concepten, welke voorbeeldvragen) + voorbeeldvragen, geen content-duplicatie
-- Fiche-template per node-type (begrip-fiche ziet er anders uit dan procedure-fiche of beginsel-fiche)
+- Fiche-template per node-type (begrip-fiche ziet er anders uit dan cluster-fiche of regel-fiche)
 
 ### 5. Site-generator
 
@@ -94,8 +94,8 @@ Quartz-callouts (`> [!type]`) zijn de visuele drager voor "pedagogische kruimels
 | Schema-veld | Callout-type | Collapsible | Titel-veld |
 |---|---|---|---|
 | TL;DR (eerste zin uit `definitie.text` of `main_rule.text`) | `> [!summary]` | nee | "Korte inhoud" |
-| `voorbeeld_inline` op record-niveau | `> [!example]-` | ja | "Voorbeeld" |
-| `bouwsteen.voorbeeld_inline` | `> [!example]-` | ja | "Voorbeeld" (compact) |
+| `voorbeelden[*]` op record-niveau (schema 1.5; was: `voorbeeld_inline`) | `> [!example]-` | ja | "Voorbeeld" |
+| `bouwsteen.voorbeelden[*]` (schema 1.5; was: `bouwsteen.voorbeeld_inline`) | `> [!example]-` | ja | "Voorbeeld" (compact) |
 | `berekeningsmethode[*].formules[*].invulling_voorbeeld` | `> [!example]-` | ja | "Voorbeeld-invulling" |
 | `voorbeeld.scenario` + `voorbeeld.substappen[*]` (op stap-niveau) | `> [!example]-` | ja | "Voorbeeld: {scenario-1-zin}" |
 | `valkuilen[*]` (één per item) | `> [!warning]-` | ja | het `advies`-veld (correcte aanbeveling) |

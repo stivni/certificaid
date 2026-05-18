@@ -356,14 +356,12 @@ Elk node-type krijgt een hoofdveld dat past bij de aard van de kennis. **`main_r
 
 | Node-type | Hoofdveld | Secundaire structuur | Toelichting |
 |---|---|---|---|
-| `begrip`, `actor`, `fenomeen` | `definitie` | — | Wat is dit ding? |
-| `regel`, `beginsel` | `main_rule` | — | Wat is de verplichting/het principe? |
-| `drempel` | `main_rule` (de drempelregel) | `waarde` (het getal/criterium) | "Boven X EUR moet je Y doen." |
-| `procedure` | `verplichting` (waarom moet je dit doen) | `stappen[]` (geordende lijst) | Lineair recept met meetbare stappen |
-| `methode` | `doel` (waartoe dient deze methode) | `bouwstenen[]` of `criteria[]` | Aanpak/techniek met componenten |
-| `afwegingskader` | `doel` | `bouwstenen[]` (afwegingsdimensies) | Beslisruimte; geen vast recept |
-| `casus` | `feiten`, `uitspraak` | — | Concreet geval (jurisprudentie, voorbeeldexamen-feitenset) |
-| `skill` | `omschrijving` | `subvaardigheden[]` | Vaardigheid met eventuele componenten |
+| `begrip`, `autoriteit`, `cluster` | `definitie` | — | Wat is dit ding of fenomeen? |
+| `regel` | `main_rule` | — | Wat is de verplichting/het principe? |
+| `competentie` | `doel` + `stappen[]` | `beoordelings_criteria`, `voorbeelden[]` | Wat moet de stagiair kunnen? |
+| `synthese` | `gebaseerd_op_concepten[]` | `vergelijkingstabel`, `beslisboom`, `kerninzichten` | Cross-record vergelijking of beslisboom |
+
+> **Historische mapping (schema 1.4 → 1.5)**: `actor` → `autoriteit`, `fenomeen` → `cluster`, `skill` → `competentie`, `methode` → `cluster`, `afwegingskader` → `cluster`, `beginsel` → `regel`, `drempel` → `regel`. Zie §"Migratie 1.4 → 1.5" voor beslisregels.
 
 Elk hoofdveld is een **block-object** (zelfde shape: `text` + `confidence` + `source` + optioneel `references[]` + `_provenance`). Stappen, bouwstenen en subvaardigheden zijn arrays van zulke blocks met optioneel een extra veld (`volgorde` voor stappen).
 
