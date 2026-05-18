@@ -1,7 +1,7 @@
 # ADR-010: Leermateriaal & tutor
 
 **Status**: Draft
-**Datum**: 2026-05-07
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-18 (interpretatieve-laag-shift + bidirectionele edges + glue v3)
 **Vervangt**: archive/ADR-007 (confidence-labeling — geherframed als output-conventie), archive/ADR-011 (Streamlit), archive/ADR-013 (Quartz)
 
 ## Context
@@ -136,6 +136,207 @@ Quality-pass na Sessie 4 onthulde een terugkerend patroon van rendering-bugs doo
 Render-implementatie in `tools/leermateriaal/templates/partials/*.md.j2` — wijzigingen aan deze conventie vereisen template-aanpassing + tests in `tests/test_leermateriaal_render.py`.
 
 Verwijzingen: ADR-007 §schema 1.4 (stap-blok + bouwsteen-blok + formule-blok + edges-types + node_type synthese + cast-conventie + voorbeeld-minimum); ADR-008 §14–17.
+
+### Leermateriaal-laag als interpretatieve laag (2026-05-18)
+
+Tot nu toe was de impliciete aanname dat leermateriaal = render van de concept-laag (één-op-één-mapping van record naar fiche, plus minicursus-skeleton dat wikilinks rondom een leerpad weeft). Sessie-feedback 2026-05-18 zette die aanname om: een student leest concepten niet zoals een graph ze codificeert. Leermateriaal moet de modellaag **interpreteren**, niet renderen.
+
+Deze sectie codificeert die shift en de gevolgen voor schema, render-paden en prompts.
+
+#### Heuristiek: hoort dit in de concept-laag of de leermateriaal-laag?
+
+```
+Wanneer wil je dit aanpassen?
+├── Samen met de regel/definitie (een nieuwe regelwijziging dwingt dit mee) → concept-laag
+└── Bij het schrijven van een specifieke minicursus (per leerpad anders)   → leermateriaal-laag
+```
+
+**Concept-laag** (data, samen-aanpassen-met-regel):
+- `definitie`, `main_rule`, `bouwstenen[]`, `uitzonderingen[]`, edges
+- `situering` (schema 1.6, ADR-007): waarom bestaat dit concept, in welk veld zit het
+- `in_praktijk[]`: hoe gebruik je dit (praktische kenmerken / handelingen)
+- `rationale.text`: welk beginsel verklaart dit
+- `voorbeelden[]`, `illustraties[]`: concrete cases met cast
+
+**Leermateriaal-laag** (interpretatief, per leerpad):
+- Verhaallijn en volgorde
+- Transities en bruggen tussen secties
+- Pedagogische framing per PO ("dit is een van drie reserves; vergelijk met X en Y")
+- Examenfocus-rubriek (ADR-009 §6)
+- Synthese-records ingebed in leerverhaal
+- Compactie / herverwoording / parafrase (mits traceerbaar)
+
+#### Implicatie 1 — Concept-fiche blijft "naked reference"
+
+Concept-fiches zijn opzoek-vorm + tutor-RAG-context, **geen** zelfdragend leesmateriaal. De structuur "hoofdregel-bouwstenen-uitzonderingen-voorbeelden" mag mechanisch aanvoelen — dat is correct voor een referentie-document. Het missende verbindweefsel zit in de minicursus, niet op de fiche.
+
+Wel toegevoegd op de fiche: **situering**-paragraph (ADR-007 schema 1.6) bovenaan, boven TL;DR. Dat is data-laag-content (samen-aanpassen-criterium) en biedt minimale zelfdragendheid voor wie via tutor of zoek-resultaat binnenkomt zonder de minicursus te lezen.
+
+`render_concept_fiche.py` aanpassing: na frontmatter → situering-paragraph (indien aanwezig) → TL;DR-callout → rest. Geen callout-wrapper rond situering (zie ADR-007 §situering).
+
+#### Implicatie 2 — Synthese-records renderen NIET als losse fiche
+
+`node_type: synthese`-records (vergelijkingstabel + mermaid-beslisboom + kerninzichten) zijn pedagogische clusters die uitsluitend zin hebben binnen een leerverhaal. Een losse synthese-fiche zou:
+- Decontextualiseerd zijn (wat moet de student er mee zonder leerpad-omhulling?)
+- Duplicatie produceren met de minicursus die hem hoe dan ook inbedt
+- Een 1:1-mapping suggereren tussen records en content-files, die juist *niet* meer geldt
+
+**Beslissing**: `render_concept_fiche.py` skipt records waar `node_type == "synthese"` — geen `content/concepten/<id>.md` voor synthese-records. Zij blijven volwaardige records in `data/concepten/records/` (records-API, RAG-index, tutor-graph-walks) maar krijgen geen eigen fiche. Bestaande gerenderde synthese-fiches worden bij volgende render verwijderd door content-sync (ADR-019).
+
+**Inbedding**: `render_minicursus.py` pakt synthese-records uit het leerpad-YAML (nieuw hoofdstuk-type `synthese` of via `thematisch.synthese_id`) en rendert vergelijkingstabel + mermaid-beslisboom inline. Wikilinks vanuit de minicursus naar `[[synthese-id]]` resolveren niet meer naar een eigen pagina — die wikilinks worden in render omgezet naar anchor-links binnen de minicursus, of weggehaald als de synthese niet in deze minicursus voorkomt.
+
+#### Implicatie 3 — Minicursus mag parafraseren (glue-prompt v3)
+
+Glue-prompt v2 (`prompts/minicursus-glue-v2.md`) verbiedt "feits-claims, wettekst-citaties, wikilinks bedenken" — correct voor een pure-render-architectuur, maar te streng voor de interpretatieve laag.
+
+**Glue-prompt v3** (te schrijven: `prompts/minicursus-glue-v3.md`) versoepelt naar **parafrase-met-bronlink**:
+
+| Toegestaan | Niet toegestaan |
+|---|---|
+| Parafraseren van een record-veld in cursus-stem, mits `[[concept-id]]`-wikilink bij de claim | Feit verzinnen zonder record-grondslag |
+| Concept verbinden aan eerder behandeld concept ("zoals we zagen bij [[X]]") | Wikilink naar non-existent record |
+| Compacte synthese: "kort: dit zijn drie reserves die elkaar opvolgen in prioriteit" mits afgeleid uit edges-structuur | Wettekst-citaat als prozetekst (citeren mag wel als blockquote met bron) |
+| Pedagogische framing: "let op het verschil tussen X en Y" (verwijst naar bestaande `vergelijkingsparen[]`) | Examenvraag-spoiler of vraag-camouflage in framing |
+| Voorbeeld-introductie ("stel je voor: …") als brug naar een record-voorbeeld | Voorbeeld bedenken (de illustraties komen uit records, niet uit de glue) |
+
+**Anti-fabricatie-discipline**: élke claim met feitelijk gewicht krijgt `[[record-id]]`-wikilink in dezelfde zin. Render-laag valideert: een paragraaf zonder wikilink mag geen wettekst- of cijfer-claim bevatten. Validator faalt build bij overtreding (vergelijkbaar met `validate_competentie.py`).
+
+Glue-output blijft compact (richtlijn 700–1100 woorden per minicursus, conform v2). Compactheid + parafrase-vrijheid = grotere informatie-dichtheid per zin, niet meer woorden.
+
+#### Implicatie 4 — Examenfocus als eind-rubriek (verwijzing)
+
+Zie ADR-009 §6. Eind-rubriek "Examenfocus" na alle inhoudelijke H2's; collapsed `> [!question]-`-callouts; AI-varianten visueel apart met 🤖 in eigen subkop. Eenrichtingsverkeer: concept-records hebben geen edge terug naar `examenfocus`.
+
+#### Implicatie 5 — Examenprogramma sturend in minicursus (taak-binding)
+
+Het ITAA-examenprogramma (`data/programma/programma.json`) heeft per PO **niveau** (kennen / begrijpen / toepassen / integratie), **taken** met **doelstellingen**, en hiërarchische **kenniselementen**. Tot 2026-05-18 droeg de minicursus niets van die structuur uit — de student leerde wel de leerstof maar wist niet *wat het examen van hem verwacht*. Drie render-toevoegingen koppelen de minicursus expliciet aan de examen-eisen.
+
+##### A — Vroege oriëntatie-sectie "Wat verwacht het examen van jou?"
+
+Eerste H2 van elke minicursus, vóór alle inhoudelijke hoofdstukken. Bevat:
+
+- **Niveau-callout** (`> [!abstract]`, niet collapsible): "Dit programmaonderdeel wordt getoetst op niveau *{niveau}*." plus één-zin-toelichting per niveau-type. Niveau staat prominent omdat het diepte van studeren bepaalt (een *toepassen*-PO leer je anders dan een *kennen*-PO).
+- **Taken-lijst**: korte titels + doelstellingen-aantal. Compact — geen volledige verbose tekst (die zit in programma.json voor wie doorklikt).
+- **Geen kenniselementen-dump** in oriëntatie — kenniselementen mappen op concept-wikilinks elders in de cursus.
+
+Brontekst voor de niveau-toelichtingen wordt vastgelegd in `docs/studiemateriaal-schrijfregels.md` (§6.3, te schrijven) zodat alle minicursussen consistent zijn.
+
+##### B — Per-hoofdstuk taak-marker (inline)
+
+Aan begin van elke inhoudelijke H2: `> [!info]` callout (niet collapsible, één regel) met "Hoort bij taak X: *{korte taak-titel}*" of "Hoort bij taken X, Y, Z" indien meerdere. Maakt taak-binding zichtbaar tijdens lezen, niet alleen aan einde.
+
+Voorbereidings-hoofdstukken (zie D) krijgen géén taak-marker maar een eigen `> [!note]`-callout: "*Voorbereidende kennis — fundament voor de taken hierna.*"
+
+##### C — Eind-dekking-dashboard "Heb je deze taken in de vingers?"
+
+Eindsectie van de minicursus, **vóór** de examenfocus-rubriek (ADR-009 §6). Zelftoets-vorm: lijst van alle taken van het PO, per taak:
+
+- ✓/⚠/✗-indicator (gedekt via N secties / deels gedekt / niet gedekt in deze cursus)
+- Bij gedekt: "→ secties §{N}, §{M}" (anchor-links binnen de minicursus)
+- Bij niet gedekt: "→ behandeld in [[minicursus-X.Y]]" indien cross-PO, anders curator-warning
+
+Toon: zelftoets, niet examen-vraag. Bv. *"Kun je nu zelf [taak-formulering] aanpakken? Loop §3 en §5 nog eens door als je twijfelt."*
+
+##### Automatische taak-binding (render-tijd lookup)
+
+```
+hoofdstuk
+  → records in wikilinks
+    → record.linked_anchors[]  (schema 1.5+ standaard veld)
+      → anchor.anchor_id
+        ├── "X.Y.taak.N"           → direct: taak X.Y.taak.N
+        └── "X.Y.<ke-code>"        → kenniselement → doelstelling.anchor_role
+                                     → taak (via programma.json hiërarchie)
+```
+
+Geen schema-bump op records — `linked_anchors` + `_provenance.anchor_id` + `_provenance.dekt_ook_anchors` bestaan al sinds schema 1.5. Implementatie als `tools/leermateriaal/lib/taak_binding.py` (nieuw): één functie `resolve_taken(hoofdstuk, programma_json) → set[taak_code]`.
+
+**Validatie**:
+- Hoofdstuk met `type != voorbereiding` en 0 resolveerbare taken → curator-warning (signaal voor slechte binding of ontbrekend `voorbereiding`-label). Niet fail-build.
+- Taak zonder dekking in eind-dashboard krijgt expliciet ✗-indicator + curator-warning — een ongeziene taak in eind-dashboard is een echt gat.
+
+**Niveau-respect in glue-prompt v3**: glue krijgt PO-niveau als input. Voor *toepassen*/*integratie*-PO's: werkwoorden in hoofdstuk-intro's mogen niet beperkt zijn tot *kennen*/*begrijpen* ("we leren wat X is" is te dun voor toepassen-niveau; "je leert X toepassen op casussen met..." past). Concrete stijl-richtlijn landt in `docs/studiemateriaal-schrijfregels.md` (open punt §6.3).
+
+##### D — Voorbereiding als hoofdstuk-type (leerpad-schema 1.1)
+
+Sommige hoofdstukken zijn fundament voor de taken zonder zelf één-op-één op een taak te mappen (bv. *"Wat is een geconsolideerde balans"* — concept-cluster dat alle latere taken nodig hebben). Drie patronen voor zo'n hoofdstuk:
+
+1. Niet labelen → validator klaagt over 0 taak-binding (vervelend voor curator)
+2. Forceren-en-loggen → fout signaal naar student ("dit hoort bij taak 1" terwijl het bij taak 1+2+3 hoort)
+3. **Expliciet `type: voorbereiding`-hoofdstuk** ← gekozen
+
+Leerpad-schema bumpt naar 1.1 met nieuw hoofdstuk-type:
+
+```yaml
+- type: voorbereiding
+  titel: "De drie consolidatie-methodes — fundament"
+  concepten:
+    - integrale-consolidatie
+    - evenredige-consolidatie
+    - vermogensmutatiemethode
+  rationale_hint: "fundament voor taken 1.4.taak.1 t/m 1.4.taak.4"
+```
+
+Render-gedrag voor `voorbereiding`-hoofdstukken:
+- Géén taak-marker (B), wel `> [!note]` "Voorbereidende kennis — fundament voor de taken hierna."
+- Komen in eind-dashboard **niet** voor — student wordt niet "getoetst" op fundament.
+- Validator: een PO mag niet voor 100% uit `voorbereiding`-hoofdstukken bestaan (dan klopt de taak-mapping niet).
+
+Granulariteits-keuze: voorbereiding bestaat alleen op **hoofdstuk-niveau**, niet op concept-niveau binnen een ander hoofdstuk. Reden: een concept zonder taak-binding binnen een taak-hoofdstuk is fundament-voor-die-taak — geen apart label nodig.
+
+Zie ADR-007 §leerpad-schema voor de volledige schema 1.1-shape.
+
+### Bidirectionele edge-render (§6.1, 2026-05-18)
+
+Data-laag bewaart edges één-richting (op de source-node, ADR-007 §edge-richting). Render-laag toont edges **bidirectioneel** via een pre-render index-pass.
+
+**Pre-render index-pass** (één keer per render-run):
+
+```python
+inverse_edges: dict[str, list[tuple[str, str]]] = {}
+for record in load_all_records():
+    for edge in record["edges"]:
+        inverse_edges.setdefault(edge["target_id"], []).append(
+            (record["id"], edge["type"])
+        )
+```
+
+Templates lezen zowel `record["edges"]` (uitgaand) als `inverse_edges[record["id"]]` (inkomend) en plaatsen ze conform onderstaande tabel.
+
+**Omkerings-labels per edge-type** (target-perspectief):
+
+| Edge (source → target) | Render op source-fiche | Render op target-fiche (inverse) | Bidirectional |
+|---|---|---|---|
+| `onderdeel-van` (X → Y) | "Behoort tot: [[Y]]" (breadcrumb) | "Bestaat uit: [[X]], [[…]]" (onder TL;DR) | ✅ |
+| `specialisatie-van` (X → Y, regime=Z) | "Specialisatie van: [[Y]] (regime: Z)" | "Specialisaties per regime: [[X]] (Z), …" | ✅ |
+| `vereist-kennis-van` (X → Y) | "Vereist kennis van: [[Y]]" (Zie ook) | "Wordt voorondersteld in: [[X]], …" (Zie ook) | ✅ |
+| `vergelijkt-met` (X ↔ Y) | "Vergelijk met: [[Y]]" (info-callout) | symmetrisch (zelfde label) | ✅ (symmetrisch) |
+| `getriggerd-door` (X → Y) | "Getriggerd door: [[Y]]" | "Triggert: [[X]], …" | ✅ |
+| `uitzondering-op` (X → Y) | "Uitzondering op: [[Y]]" (onder TL;DR) | "Uitzonderingen: [[X]], …" (sectie op target) | ✅ |
+| `verwijst-naar` (X → Y) | "Verwijst naar: [[Y]]" (Zie ook) | — (te ruis als catch-all) | ❌ opt-out |
+
+**Implementatie-discipline**:
+- Inverse-rendering plaatst ALLE inkomende edges van het bidirectionele type in één gegroepeerde callout/sectie — geen lijst van afzonderlijke callouts per inkomende edge (visuele ruis).
+- Bij meer dan ~7 inkomende edges van hetzelfde type: collapsible callout (`> [!info]-`) met aantal in de titel ("Bestaat uit: 12 onderdelen").
+- `verwijst-naar` rendert alleen uitgaand. Reden: het is de catch-all-edge en zou anders elke node die ergens naar verwijst opspatten met dozijnen "verwezen-door"-entries.
+- Edge-config gecentraliseerd in `tools/leermateriaal/lib/edge_render_config.py` (nieuw bestand). Single source of truth voor wat-rendert-bidirectioneel.
+
+**Niet** in scope van §6.1: edges naar non-existent records (dangling). Die worden al gevangen door bestaande `_dangling`-flag (ADR-007). Render skip-rendert dangling-edges met een TODO-callout voor de curator.
+
+### Studiemateriaal-schrijfregels (§6.3, placeholder, 2026-05-18)
+
+Een apart document `docs/studiemateriaal-schrijfregels.md` (te schrijven) is nodig — analoog aan `docs/concept-schrijfregels.md` voor de data-laag. Scope:
+
+1. **Parafrase-grens**: wanneer mag je een record-claim herverwoorden, wanneer letterlijk citeren? Hoe markeer je wettekst-citaten?
+2. **Wikilink-discipline**: élke feitelijke claim krijgt wikilink; geen wikilink = geen feitelijke claim toegestaan.
+3. **Voice / stem**: minicursus spreekt de student aan ("jij ziet" / "let op"); concept-fiches niet (referentie-toon).
+4. **Doorlink-conventies**: wanneer link je vanuit minicursus naar een concept-fiche door, wanneer parafraseer je intern? Heuristiek: parafraseer als de claim 1 zin nodig heeft; doorlink als hij 2+ zinnen vraagt.
+5. **Examenrubriek-vorm**: vaste sectie-titel, callout-types, AI-variant-markering (kruisverwijzing ADR-009 §6).
+6. **Synthese-inbedding**: hoe rendert een synthese-record binnen een minicursus-hoofdstuk?
+7. **Compactheidscontract**: glue-richtlijn 700–1100 woorden totaal, intro's 2–3 zinnen, examenfocus eind-rubriek.
+8. **Anti-fabricatie-grens**: wat valideert de glue-renderer, wat is reviewer-verantwoordelijkheid?
+
+Status: te schrijven *na* deze ADR-revisie. Codewerk (template-aanpassingen, glue v3, edge-render-config) start parallel met dit doc — beide hangen aan deze ADR.
 
 ### Records → RAG-index → rendered fiche
 

@@ -82,13 +82,14 @@ Idem strategie. Special case voor PO 1.6: `randvoorwaarden-controle` (huidig `vo
 
 ### 3.4b — Examenvragen-classificatie uitbreiden (BLOKKEERT VERIFY Check A)
 
-Status 2026-05-18: `_programmaonderdeel_classificatie.json` bevat **maar 5 vragen** (allemaal PO 1.4). Onze 5 EXTRACT v4-passes op PO 1.5 hadden dus **geen examen-vraag-input** bij VERIFY Check A — Check werd silently geskipt.
+Status 2026-05-18: `_programmaonderdeel_classificatie.json` bevat **70 vragen** — 5 oude PO 1.4-seed entries + 65 BIBF-entries (28 uit 2003-bibf + 37 uit 2008-bibf, ingelopen 2026-05-18). De ~180 ITAA-vragen uit 2013-1/2/2014-1/2015-1/2024-1 blijven onverklassificeerd. Onze 5 EXTRACT v4-passes op PO 1.5 hadden dus **geen examen-vraag-input** bij VERIFY Check A — Check werd silently geskipt.
 
-5 examen-PDFs zijn al verwerkt (`data/programma/examen_vragen/<jaar>-N.json`) met labels. Wat ontbreekt:
+7 examen-PDFs zijn nu verwerkt (`data/programma/examen_vragen/<jaar>-N.json`, inclusief 2003-bibf + 2008-bibf). Wat ontbreekt:
 
-1. **Classificatie-subagent draaien** (instructies in `_classificatie-instructies.md`) om elke vraag aan een PO te koppelen. Verwacht: ~150+ extra classifications voor PO 1.1-1.9 + 2.x + 3.x + 4.0.
+1. **Classificatie-subagent draaien** (instructies in `_classificatie-instructies.md`) om elke ITAA-vraag aan een PO te koppelen. Verwacht: ~180 extra classifications voor PO 1.1-1.9 + 2.x + 3.x + 4.0. De BIBF-vragen zijn al deterministisch geclassificeerd (zie de 65 entries met `vraag_id` beginnend met `2003-bibf-` / `2008-bibf-` in `_programmaonderdeel_classificatie.json`).
 2. **VERIFY-prompt-input bouwen**: voor elke EXTRACT v4-pass moet de orchestrator de relevante examen-vragen voor die PO meegeven als prompt-input. Geen ChromaDB-indexering nodig (VERIFY werkt op de prompt-input, niet via RAG).
 3. **Eventueel retrospectief VERIFY-pass** op de 5 al-gemuteerde PO 1.5-anchors zodra examen-classificatie er is.
+4. **Patroon-relabeling**: het oude `tools/examen/extract_exam_patterns.py` was kapot (stale path + schond CLAUDE.md regel 3 via directe Anthropic-API-call) en is verwijderd. Vervangen door eenmalige subagent-relabeling per refresh-event (geen permanent script — `complexiteitspatronen.json` + `vraagvormen.json` zijn de source of truth). Refresh-protocol staat gedocumenteerd in `data/programma/exam_patterns/_labeling-rapport.md`.
 
 Blokkerend voor: échte v1.0-validatie van PO 1.5+ records.
 
@@ -128,18 +129,47 @@ Vereist Fase 4.2 (8 fiscale gidsen). Volgorde binnen 2.x: nog te bepalen.
 
 ---
 
-## Fase 6 — Render-laag-revisie (ADR-010)
+## Fase 6 — Leermateriaal-laag als interpretatieve laag (ADR-010 §2026-05-18)
 
-Gepland, niet gestart. Doel: concept-fiches als **reference**, minicursus als **didactisch primair**. Schema 1.5-data (records + illustraties + voorbeelden + in_praktijk) is hier op afgestemd; render-laag moet volgen.
+Ontwerp vastgelegd 2026-05-18 (ADR-007 schema 1.6 + ADR-009 §6 + ADR-010 §interpretatieve-laag). Code-werk niet gestart. Heuristiek: concept-laag = samen-aanpassen-met-regel; leermateriaal-laag = per leerpad interpretatief.
 
-### 6.1 — Bidirectionele edge-weergave bij rendering
-`A onderdeel-van B` → B-fiche toont *"bevat: A"*. Data-laag blijft één-richting; render leest beide kanten.
+### 6.0 — `docs/studiemateriaal-schrijfregels.md` schrijven (§6.3, voorwaarde voor de rest)
+Apart document analoog aan `docs/concept-schrijfregels.md`. Scope: parafrase-grens, wikilink-discipline, voice/stem, doorlink-conventies, examenrubriek-vorm, synthese-inbedding, compactheidscontract, anti-fabricatie-grens, niveau-toelichtingen (per kennen/begrijpen/toepassen/integratie één-zin-uitleg voor oriëntatie-sectie). Volledige scope in ADR-010 §studiemateriaal-schrijfregels. **Vereist vóór** glue v3 + code-aanpassingen.
 
-### 6.2 — Minicursus-architectuur als primair leerpad
-Concept-fiches naar achtergrond. Minicursus voor leerflow, fiche voor opzoek-werk + tutor-RAG.
+**Open punt — hoe sturend?** Niveau-werkwoorden ("toepassen", "integreren") moeten doorklinken in glue-stem voor toepassen-/integratie-PO's, maar concrete stijl-richtlijn (één-zin in intro vs. expliciete framing vs. impliciet weefsel) is nog niet vastgelegd. Te beslissen tijdens schrijven §6.3.
 
-### 6.3 — Studiemateriaal-schrijfregels (apart doc)
-Render-laag verdient eigen schrijfgids — concept-schrijfregels gaat over data-laag.
+### 6.1 — Bidirectionele edge-render (pre-render index-pass)
+Omkerings-labels per edge-type (ADR-010 §bidirectionele-edge-render). 6/7 edges renderen bidirectioneel, `verwijst-naar` opt-out. Centrale config in nieuw bestand `tools/leermateriaal/lib/edge_render_config.py`. Templates concept-fiche + competentie-fiche aanpassen. Inverse-edges gegroepeerd renderen (één callout per type, niet per inkomende edge).
+
+### 6.2 — Concept-fiche schema-1.6-fy + synthese-skip
+- `render_concept_fiche.py`: situering-paragraph bovenaan boven TL;DR (ADR-007 schema 1.6).
+- `render_concept_fiche.py`: skip records met `node_type == "synthese"` — geen losse fiche meer.
+- Content-sync (ADR-019) verwijdert bestaande gerenderde synthese-fiches in volgende run.
+- Templates voor schema 1.5-velden (`in_praktijk[]`, `voorbeelden[]`, `illustraties[]`) afronden — drie concretiserings-velden multi-niveau plaatsing (record-top + bouwsteen + berekeningsmethode + per-stap inline).
+
+### 6.3 — Minicursus als interpretatieve laag (glue v3 + synthese-inbedding)
+- `prompts/minicursus-glue-v3.md` schrijven: parafrase-met-bronlink-regels (ADR-010 §implicatie-3). Vervangt `prompts/minicursus-glue-v2.md`.
+- Validator: paragraaf-zonder-wikilink mag geen feitelijke claim bevatten — fail build bij overtreding.
+- `render_minicursus.py`: nieuw hoofdstuk-type `synthese` of `thematisch.synthese_id`-binding voor inline synthese-render (vergelijkingstabel + mermaid-beslisboom).
+- Leerpad-YAML-schema bumpen indien nodig om synthese-binding mogelijk te maken.
+
+### 6.4 — Examenfocus-eind-rubriek (ADR-009 §6)
+- `render_minicursus.py`: eind-rubriek "Examenfocus" als laatste H2 vóór "Verder lezen".
+- `> [!question]-` callouts, twee subkoppen (echte ITAA-vragen ⚖️ vs. synthetische varianten 🤖).
+- Back-reference run-time: scan `data/exam_focus/*.json` voor `concept_ids` ⊆ records van PO X.
+- `gvraag--*.json` schema-veld `voorbeeld_oplossing` verplicht maken (ADR-009 §6).
+
+### 6.5 — Examenprogramma sturend in minicursus (ADR-010 §implicatie-5)
+- Nieuw `tools/leermateriaal/lib/taak_binding.py`: `resolve_taken(hoofdstuk, programma_json) → set[taak_code]`. Ketting: hoofdstuk → records → `linked_anchors` → anchor_id → taak (direct of via kenniselement → doelstelling).
+- `render_minicursus.py`: vroege oriëntatie-sectie "Wat verwacht het examen van jou?" — niveau-callout + taken-lijst (compact). Niveau-toelichtingen uit §6.0 schrijfregels.
+- `render_minicursus.py`: per inhoudelijke H2 taak-marker `> [!info]` met "Hoort bij taak X: …". Voorbereidings-hoofdstukken (leerpad-schema 1.1) krijgen `> [!note]` "Voorbereidende kennis — fundament voor de taken hierna."
+- `render_minicursus.py`: eind-dashboard "Heb je deze taken in de vingers?" vóór examenfocus-rubriek. Lijst alle taken met ✓/⚠/✗-indicator + secties-link of cross-PO-link.
+- Leerpad-schema 1.1: `voorbereiding`-hoofdstuk-type uitrollen — bestaande leerpaden waar zinvol promoveren (curator-werk per PO).
+- Validatie: hoofdstuk zonder taak-binding (en `type != voorbereiding`) → curator-warning. Taak zonder dekking in eind-dashboard → ✗ + warning. PO 100% voorbereiding → warning.
+- Glue-prompt v3 (§6.3): PO-niveau als input, werkwoorden in hoofdstuk-intro's moeten niveau respecteren (open richtlijn — zie §6.0).
+
+### 6.6 — Pilot-render PO 1.5 end-to-end
+Na 6.0–6.5: render PO 1.5 (waar centrale concept-laag-pass net op draait) volledig end-to-end. Validatie: kloppen wikilinks, klopt situering, kloppen bidirectionele edges, klopt taak-binding (oriëntatie + markers + dashboard), klopt examen-rubriek? Eventuele blocking issues terug naar betreffende sub-taak.
 
 ---
 

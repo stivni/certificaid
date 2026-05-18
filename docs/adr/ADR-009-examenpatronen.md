@@ -1,7 +1,14 @@
 # ADR-009: Examenpatronen
 
 **Status**: Draft
-**Datum**: 2026-05-07
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-18 (render-rubriek in minicursus + AI-varianten + eenrichtingsverkeer)
+
+## Changelog
+
+- **2026-05-18** — Drie verfijningen na ontwerp leermateriaal-laag (ADR-010 §interpretatieve-laag):
+  1. **Eenrichtingsverkeer concept ↔ patroon** expliciet gemaakt. `examenfocus`-objecten verwijzen naar concept-IDs; concepten verwijzen **niet terug** — geen edge-type `getoetst-door` in concept-records. Reden: anti-circulariteit (ADR-008 §0). Examenvragen mogen voortbouwen op concepten; concepten mogen niet vormgegeven worden door examenvragen. Render-laag (minicursus) doet de back-reference run-time door alle `examenfocus`-objecten te scannen voor `concept_id in {records van deze PO}`.
+  2. **Render-plek in minicursus** vastgelegd als **eind-rubriek per minicursus** (niet per sectie). Reden: studenten moeten "ken ik deze stof voldoende?" kunnen toetsen *zonder* tijdens het lezen al naar de patroon-camouflage geduwd te worden. Rubriek-vorm: `> [!question]-` callouts (collapsed) met examenpatroon-titel, optioneel link naar voorbeeldvraag-tekst. Geen vraag-spoilers in fiche- of sectie-headers.
+  3. **AI-gegenereerde varianten** (`gvraag--*.json` in `data/generated_questions/`) krijgen **verplicht `confidence: "inferred"`** (🤖) en worden in render altijd als 🤖 gemarkeerd — niet visueel verwisselbaar met echte ITAA-vragen. Per `gvraag` ook verplicht een `voorbeeld_oplossing`-veld (eveneens 🤖) zodat de student de patroon-instantiatie kan beoordelen zonder zelf op te lossen. Render-laag groepeert eerst echte vragen, dan 🤖-varianten, in twee subkoppen onder de eind-rubriek.
 
 ## Context
 
@@ -43,6 +50,40 @@ Solving first reveals what depth was actually needed — richer dan guessing fro
 ### 5. Versioning
 
 `JJJJMMDD.N` (bv. `20260507.1`). Bij patroonupdate → stale-flag op alle generated questions met die patroon_id en lagere versie (zie ADR-003 voor stale-mechaniek).
+
+### 6. Render-integratie in minicursus (2026-05-18)
+
+Examenpatronen + voorbeeldvragen + AI-varianten verschijnen voor de student **uitsluitend** via de minicursus-render (ADR-010 §interpretatieve-laag), nooit op een concept- of competentie-fiche.
+
+**Plek**: eind-rubriek per minicursus, vaste sectie-titel "Examenfocus" als laatste H2 vóór eventuele "Verder lezen"-sectie. Reden: pre-toetsing zonder camouflage-spoilers.
+
+**Vorm**: `> [!question]-` callouts (collapsed), één callout per `examenfocus`-object of `gvraag`:
+- Titel: examenpatroon-naam (uit `vraagvorm` + `complexiteit`-labels) — geen vraag-tekst in de titel
+- Body (geopend): vraag-tekst zelf, plus optioneel `> [!success]-` collapsed met `voorbeeld_oplossing` of `redenering`
+
+**Confidence-presentatie**:
+- Echte ITAA-vragen (`examenfocus`-objecten met `bron: itaa_examen_<jaar>`): ⚖️
+- AI-gegenereerde varianten (`gvraag--*.json`): altijd 🤖, plus subkop "Synthetische oefenvarianten (🤖)" als visuele groepering
+- Geen mixing in dezelfde lijst — twee subkoppen onder de eind-rubriek
+
+**Eenrichtings-edge (anti-circulariteit)**: `examenfocus.concept_ids[]` verwijst naar concept-records; concept-records hebben **geen** `getoetst-door`-edge terug. Reden: een concept-record mag niet vorm krijgen door een examenvraag (zie ADR-008 §0). Render-laag doet de back-reference run-time: minicursus voor PO X scant alle `examenfocus`-objecten en selecteert die waarvan `concept_ids` ⊆ records van PO X.
+
+**Onderhoudscyclus** (nieuwe vraag uit voorbeeldexamen-sessie):
+1. Vraag-tekst + oplossing in `data/programma/examen_vragen/<jaar>.json`
+2. `examenfocus--*.json` aanmaken of bestaand patroon uitbreiden met deze vraag-ID
+3. `concept_ids[]` invullen (welke concepten zijn nodig om dit te beantwoorden)
+4. Minicursus voor betrokken PO's herrenderen — eind-rubriek pakt de update vanzelf op
+
+**AI-variant-genereren** (optioneel, op verzoek):
+1. Patroon-template × concept-record → `gvraag--*.json` via `tools/examen/generate.py`
+2. Verplichte velden: `vraag_tekst`, `voorbeeld_oplossing`, `redenering`, `confidence: "inferred"`, `gebaseerd_op_patroon: <patroon_id>`, `gebaseerd_op_concepten: [<concept_ids>]`
+3. Render groepeert onder de "Synthetische oefenvarianten (🤖)"-subkop
+
+### 7. Wat NIET in examenpatronen-objecten hoort
+
+- **Concept-definities of bouwstenen**: die zitten in concept-records. Examenpatronen verwijzen alleen.
+- **Pedagogische framing**: "let goed op dit type vraag, het komt vaak terug" hoort in minicursus-glue, niet in patroon-object.
+- **Studieadvies**: hoe te oefenen, hoe te onthouden — leermateriaal-laag (ADR-010), niet observatielaag.
 
 ## Gevolgen
 

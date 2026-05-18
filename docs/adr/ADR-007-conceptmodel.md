@@ -1,12 +1,14 @@
 # ADR-007: Conceptmodel
 
 **Status**: Draft
-**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-16 (schema 1.4 — stap-blok + edges-activatie + node_type synthese + cast-conventie)
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-18 (schema 1.6 — `situering` + leerpad-schema 1.1 — `voorbereiding`-hoofdstuk)
 **Vervangt**: archive/ADR-006 (drie-lagenmodel — concept-laag absorbeert), archive/ADR-009 (concept-record-schema v2)
-**Schema-versie**: 1.4 (concept-records); competentie-schema 1.1 + leerpad-schema 1.0
+**Schema-versie**: 1.6 (concept-records); competentie-schema 1.1 + leerpad-schema 1.1
 
 ## Changelog
 
+- **2026-05-18** — Leerpad-schema 1.1: nieuw hoofdstuk-type `voorbereiding` (naast bestaande `oriëntatie` / `competentie` / `thematisch`). Voor concept-clusters die fundament zijn voor meerdere taken zonder zelf één-op-één op één taak te mappen. Render-laag (ADR-010 §implicatie-5) plaatst geen taak-marker en omleidt deze hoofdstukken om het eind-dashboard "Heb je deze taken in de vingers?" — student wordt niet getoetst op fundament. Schema-shape: `{type: voorbereiding, titel, concepten[], rationale_hint?}`. Validatie: een PO mag niet voor 100% uit `voorbereiding`-hoofdstukken bestaan. Geen migratie — bestaande leerpaden (schema 1.0) blijven geldig; curator promoveert hoofdstukken naar `voorbereiding` waar zinvol bij volgende leerpad-touch.
+- **2026-05-18** — Schema 1.6: nieuw veld `situering` (string, optioneel) op `begrip` en `cluster`. Korte tekst (2–4 zinnen) die antwoordt op *"waarom bestaat dit concept, in welk veld zit het, welk probleem lost het op?"*. Niet hetzelfde als `definitie` (wat is het) of `in_praktijk[]` (hoe gebruik je het). Heuristiek voor laag-plaatsing: situering verandert mee met de regel zelf (samen-aanpassen) — daarom data-laag, niet leermateriaal-laag (ADR-010 §interpretatieve-laag). Niet op `regel`, `autoriteit`, `synthese`, `competentie` — die hebben hun eigen situerende velden (`main_rule.text`, `rol`, `gebaseerd_op_concepten`, `doel`). Geen batch-migratie — EXTRACT v4 vult bij elke natuurlijke pass; bestaande records zonder veld blijven geldig (sparse-fields-norm, §Designprincipes). Render plaatst situering bovenaan de concept-fiche, boven TL;DR-callout (ADR-010 §callout-conventies).
 - **2026-05-18** — Schema 1.5 (deel 2): concretiserings-inhoud uitgewerkt. Drie velden vervangen `voorbeeld_inline`: `in_praktijk[]` (lijstje of rich), `voorbeelden[]` (eenvoudig of scenario), `illustraties[]` (boeking / balans-fragment / verslag-fragment / mermaid-diagram). Multi-niveau-placement: record-top, bouwsteen, berekeningsmethode + inline per competentie-stap. Illustraties **inline** binnen voorbeeld-scenarios. Migratie `voorbeeld_inline` → `voorbeelden[{vorm: eenvoudig}]` bij elke natuurlijke EXTRACT-pass.
 - **2026-05-18** — Schema 1.5 (deel 1): node_type-taxonomie geconsolideerd van 11 → 6 (`begrip` · `regel` · `cluster` · `synthese` · `autoriteit` · `competentie`). `fenomeen` → `cluster`, `actor` → `autoriteit`, `skill` → `competentie`. `procedure`/`methode`/`afwegingskader`/`beginsel`/`drempel`/`casus` opgegaan in andere types. Bouwsteen-definitie expliciet gemaakt. Granulariteits-test verfijnd ("buiten één framework testbaar"). Edges-taxonomie van ~20 → 7 canonieke types. Nieuw patroon: regime-specialisatie via `specialisatie-van` met facet-veld `regime`. Concept en competentie wonen in hetzelfde format (records-API, ADR-019). Schrijfregels nu gecentraliseerd in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md) — `content-richtlijnen.md` is uitgefaseerd. Aanleiding: empirische analyse + gap-mining-rapport 2026-05-18 (5 systemic patterns) + EXTRACT v4-pilot op anchor 1.5.V.C. Migratie-mapping in §"Schema 1.5".
 
@@ -338,6 +340,39 @@ Alle illustraties hebben `confidence`, optioneel `source`, optioneel `cast_used`
 
 **Migratie `voorbeeld_inline` → `voorbeelden[]`**: bestaand schema 1.2-veld `voorbeeld_inline` (block met `text`) wordt bij EXTRACT-pass omgezet naar `voorbeelden: [{vorm: "eenvoudig", omschrijving: <text>, cast: [...], confidence, source}]`. Geen batch-migratie — bij elke natuurlijke EXTRACT-touch op een record. Tijdens overgang lezen agents beide vormen; nieuwe records schrijven enkel de nieuwe vorm.
 
+### Situering (schema 1.6) — context-veld op begrip/cluster
+
+`situering` is een **optionele string** (2–4 zinnen, geen markdown-blocks) bovenaan een `begrip`- of `cluster`-record die antwoordt op:
+
+- *Waarom bestaat dit concept?* (welk probleem of belang lost het op?)
+- *In welk veld zit het?* (vennootschapsrecht-kapitaalbescherming, boekhoudrecht-jaarrekening, fiscaal-DBI, …)
+- *Waar staat het in het grotere geheel?* (één zin oriëntatie, geen volledige edges-render)
+
+**Niet op `regel` / `autoriteit` / `synthese` / `competentie`** — die hebben hun eigen situerende velden:
+- `regel.main_rule.text` doet al "wat verplicht/verbiedt dit"
+- `autoriteit.rol` doet al "welke functie heeft deze actor"
+- `synthese.gebaseerd_op_concepten[]` plus `vergelijkingstabel` doet al de oriëntatie
+- `competentie.doel` doet al "wat moet de stagiair kunnen"
+
+**Onderscheid t.o.v. nabije velden**:
+| Veld | Vraag | Voorbeeld (concept "wettelijke reserve") |
+|---|---|---|
+| `definitie` | Wat is dit? | "5% van nettowinst die in reserve gehouden wordt tot 10% van kapitaal bereikt is." |
+| `situering` | Waarom bestaat dit, in welk veld? | "Onderdeel van het regime kapitaalbescherming in het WVV. Beschermt schuldeisers tegen uitkering van inbreng als dividend." |
+| `rationale.text` | Welk beginsel verklaart dit? | "Operationaliseert het beginsel 'kapitaal als waarborg voor crediteuren' — buffer voorkomt dat winstuitkering eigen vermogen onder geplaatst kapitaal duwt." |
+| `in_praktijk[*]` | Hoe gebruik je dit? | `aspect: "Berekening jaarlijks"`, `betekenis: "Bij elke winstverdeling toetsen tot 10% bereikt is."` |
+
+**Schrijfregels**:
+- Compact: één paragraaf, geen lijst, geen wikilinks (situering moet leesbaar zijn zónder edges-resolutie)
+- Wetreferentie alleen als hij het regime-veld benoemt (bv. "het WVV", "het Boekhoudbesluit") — geen artikel-citaties
+- Confidence-label: `grounded` als het regime-veld direct uit de bron komt; `inferred` als het een synthetische plaatsing is
+
+**Render**: bovenaan de concept-fiche, **boven** de TL;DR-callout, als plain paragraph (geen callout). Reden: het is contextuele oriëntatie, geen kerncategorie — een callout zou het visueel even zwaar maken als de definitie zelf. Zie ADR-010 §callout-conventies.
+
+**Migratie**: geen batch — EXTRACT v4 vult `situering` bij elke natuurlijke pass op `begrip`/`cluster`-records. Records zonder veld blijven geldig (sparse-fields-norm, §Designprincipes). Validator klaagt niet over afwezigheid.
+
+**Laag-heuristiek (waarom hier, niet in leermateriaal)**: situering verandert mee wanneer de regel/definitie verandert (een nieuwe wettelijke regime-shift wijzigt zowel hoofdregel als situering). Dat is het criterium voor data-laag (ADR-010 §interpretatieve-laag): samen-aanpassen → concept-laag; bij-cursus-schrijven → leermateriaal-laag. Pedagogische framing per leerpad ("dit is één van drie reserves; vergelijk met onbeschikbare en beschikbare") hoort daarom **niet** hier maar in de minicursus.
+
 ### Regime-specialisatie — algemene cluster + specialisaties
 
 Wanneer hetzelfde fenomeen onder meerdere regulatorische regimes wezenlijk verschillend wordt behandeld:
@@ -541,27 +576,34 @@ _provenance:
 
 ### Leerpad-schema (schema 1.0)
 
-Leerpaden leven in `data/concepten/leerpaden/<programmaonderdeel>.yaml`. Schema:
+Leerpaden leven in `data/concepten/leerpaden/<programmaonderdeel>.yaml`. Schema (1.1 sinds 2026-05-18 — `voorbereiding`-type toegevoegd):
 
 ```yaml
 programmaonderdeel: "1.4"
 titel: "Geconsolideerde jaarrekening"
 status: voorgesteld                          # voorgesteld → gecureerd
-schema_version: 1.0
+schema_version: 1.1
 hoofdstukken:
   - type: oriëntatie                          # LLM-glue, geen records-binding
     titel: "Wat is consolideren? Waarom?"
     rationale_hint: "groep-fictie + economische realiteit + bescherming derden"
 
-  - type: competentie                         # references één competentie-yaml
-    competentie_id: bepalen-consolidatieverplichting
-
-  - type: thematisch                          # concept-cluster zonder pedagogische omhulling
-    titel: "De drie methodes in detail"
+  - type: voorbereiding                       # fundament voor meerdere taken (geen taak-marker)
+    titel: "De drie consolidatie-methodes — fundament"
     concepten:
       - integrale-consolidatie
       - evenredige-consolidatie
       - vermogensmutatiemethode
+    rationale_hint: "fundament voor taken 1.4.taak.1 t/m 1.4.taak.4"
+
+  - type: competentie                         # references één competentie-yaml
+    competentie_id: bepalen-consolidatieverplichting
+
+  - type: thematisch                          # concept-cluster zonder pedagogische omhulling
+    titel: "Eliminaties bij integrale consolidatie"
+    concepten:
+      - eliminatie-interne-transacties
+      - eliminatie-deelneming-eigen-vermogen
 
 _provenance:
   voorgesteld_door: "leerpad-propose-v1-<run-id>"
@@ -570,10 +612,16 @@ _provenance:
   gecureerd_op: null
 ```
 
-Drie hoofdstuk-types:
-- **`oriëntatie`** — LLM-only, voor "wat is X?" / "waarom?" / introductie. Geen records-binding maar oriëntatie-prompt verplicht expliciete verwijzing naar bestaande concept-records (anti-fabricatie).
-- **`competentie`** — references één competentie-yaml via `competentie_id`.
-- **`thematisch`** — concept-cluster zonder pedagogische omhulling (referentie-luik).
+Vier hoofdstuk-types:
+- **`oriëntatie`** — LLM-only, voor "wat is X?" / "waarom?" / introductie. Geen records-binding maar oriëntatie-prompt verplicht expliciete verwijzing naar bestaande concept-records (anti-fabricatie). Krijgt geen taak-marker (oriëntatie ≠ taak-werk).
+- **`voorbereiding`** — concept-cluster dat fundament is voor *meerdere* taken zonder één-op-één-mapping. Render-laag plaatst `> [!note]` "Voorbereidende kennis — fundament voor de taken hierna" in plaats van taak-marker. Wordt **niet** opgenomen in eind-dashboard "Heb je deze taken in de vingers?" — student wordt niet op fundament getoetst. Optioneel veld `rationale_hint` benoemt welke taken het fundament dekt (curator-leesbaar, geen render-functie).
+- **`competentie`** — references één competentie-yaml via `competentie_id`. Taak-marker via competentie.linked_anchors-resolve.
+- **`thematisch`** — concept-cluster zonder pedagogische omhulling (referentie-luik). Taak-marker via concepten[].linked_anchors-resolve.
+
+**Validatie schema 1.1**:
+- Een PO mag niet voor 100% uit `voorbereiding`-hoofdstukken bestaan (curator-warning, geen build-fail).
+- Een hoofdstuk met `type != voorbereiding` en 0 resolveerbare taken via concepten/competentie → curator-warning (slechte binding of ontbrekend `voorbereiding`-label).
+- Bestaande leerpaden met `schema_version: 1.0` blijven geldig — schema 1.1 is additief, geen migratie vereist.
 
 ### Edge-types (schema 1.5 — 7 canonieke types)
 
