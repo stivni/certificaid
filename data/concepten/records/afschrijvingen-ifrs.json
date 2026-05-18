@@ -15,7 +15,8 @@
     "dekt_ook_anchors": [
       "1.5.V"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-2026-05-18T-1.5.V.B"
   },
   "doel": {
     "text": "Onder IFRS is afschrijving (IAS 16 alinea 6, IAS 38 alinea 8) de **stelselmatige toerekening van het afschrijfbaar bedrag** van een actief **over zijn gebruiksduur**. Het afschrijfbaar bedrag = kostprijs (of geherwaardeerde waarde) − **restwaarde**. De gebruikte methode moet 'een afspiegeling zijn van het patroon volgens welk de toekomstige economische voordelen van het actief naar verwachting zullen worden verbruikt' (IAS 16 alinea 60). Drie veelvoorkomende methoden: lineair, degressief, en op basis van verbruikte werkeenheden. De entiteit moet **jaarlijks** restwaarde, gebruiksduur en afschrijvingsmethode herzien (alinea 51 + 61); aanpassingen zijn schattingswijzigingen (IAS 8, prospectief). Een methode op basis van **opbrengsten** is voor materiële vaste activa NIET toegestaan (alinea 62A) — opbrengsten weerspiegelen prijs en volume, niet het verbruik van het actief.",
@@ -60,6 +61,18 @@
       {
         "type": "ifrs",
         "short": "IAS 38 alinea 88-90 (beperkte vs. onbepaalde gebruiksduur immateriële activa)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 97 (default lineair bij onbetrouwbaar patroon)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 98A + 98C (opbrengstenmethode immaterieel: weerlegbaar vermoeden + uitzonderingsgronden)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 100 (restwaarde immaterieel verondersteld nul)"
       }
     ],
     "_provenance": {
@@ -163,13 +176,13 @@
     },
     {
       "titel": "Verbod op opbrengstenmethode",
-      "wat": "Een afschrijvingsmethode op basis van **opbrengsten gegenereerd door de activiteit waarbij het actief wordt gebruikt** is voor materiële vaste activa **niet passend** (alinea 62A). Opbrengsten weerspiegelen veel factoren naast verbruik (prijs, volume, inflatie, marketing). Voor immateriële activa is dezelfde regel met een (zeer beperkte) uitzondering bij IAS 38 alinea 98A.",
+      "wat": "Een afschrijvingsmethode op basis van **opbrengsten gegenereerd door de activiteit waarbij het actief wordt gebruikt** is voor materiële vaste activa **niet passend** (IAS 16 alinea 62A). Opbrengsten weerspiegelen veel factoren naast verbruik (prijs, volume, inflatie, marketing). Voor immateriële activa geldt een **weerlegbaar vermoeden** dat dezelfde methode niet passend is (IAS 38 alinea 98A). Het vermoeden kan in **twee beperkte gevallen** worden weerlegd: (a) wanneer het immaterieel actief is uitgedrukt als een **opbrengstenmaatstaf** (typisch contract met opbrengsten-cap, alinea 98C) — bv. een concessie 'tot € 2.000.000.000 cumulatieve goudverkoop'; of (b) wanneer kan worden aangetoond dat opbrengsten en het verbruik van economische voordelen **sterk gecorreleerd** zijn.",
       "waarom": "Een entiteit die afschrijft op basis van omzet zou bij hoge omzet veel afschrijven (geeft optisch lage marge) en bij lage omzet weinig afschrijven (optisch hogere marge). Dat maakt resultaten manipuleerbaar en koppelt afschrijving los van werkelijk verbruik.",
-      "grondslag": "IAS 16 alinea 62A",
+      "grondslag": "IAS 16 alinea 62A; IAS 38 alinea 98A + 98C",
       "confidence": "grounded",
       "source": {
         "type": "ifrs",
-        "short": "IAS 16 alinea 62A"
+        "short": "IAS 16 alinea 62A; IAS 38 alinea 98A-98C"
       },
       "_provenance": {
         "inputs": [
@@ -184,8 +197,18 @@
         {
           "vorm": "eenvoudig",
           "omschrijving": "Zelena Bio mag NIET haar productielijn afschrijven op basis van '€ 0,02 per euro verkochte productieopbrengst'. Wel: per geproduceerd doseflesje (output-eenheden) of lineair over jaren."
+        },
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV verwerft een **concessie** voor de winning van zeldzame celcultuur uit een bioreactor; het contract loopt tot € 12.000.000 cumulatieve opbrengsten zijn gerealiseerd. Het immaterieel actief is uitgedrukt als opbrengstenmaatstaf — IAS 38 alinea 98C laat hier wél een opbrengstengebaseerde afschrijving toe. Bij € 1.500.000 jaaromzet uit de concessie: afschrijving = 1.500.000/12.000.000 × kostprijs concessie."
         }
-      ]
+      ],
+      "correction": {
+        "datum": "2026-05-18",
+        "run_id": "concept-extractie-v4-2026-05-18T-1.5.V.B",
+        "corrected_from": "Een afschrijvingsmethode op basis van **opbrengsten gegenereerd door de activiteit waarbij het actief wordt gebruikt** is voor materiële vaste activa **niet passend** (alinea 62A). Opbrengsten weerspiegelen veel factoren naast verbruik (prijs, volume, inflatie, marketing). Voor immateriële activa is dezelfde regel met een (zeer beperkte) uitzondering bij IAS 38 alinea 98A.",
+        "correction_reason": "Discrepantie-driven bron-verificatie (v4 §17 regel 8): bron-tekst IAS 38 §98A-98C gelezen rechtstreeks uit `resources/bronnen/wetteksten/IAS-38-immateriele-activa.md`. Oude tekst verwees naar 'uitzondering bij IAS 38 alinea 98A' — onjuist: 98A is het verbod/rebuttable presumption, 98C de uitzonderingsgrond. Twee weerleggingsgronden expliciet gemaakt + correcte alinea-verwijzing."
+      }
     },
     {
       "titel": "Onbepaalde gebruiksduur immateriële activa — geen afschrijving",
@@ -210,6 +233,58 @@
         {
           "vorm": "eenvoudig",
           "omschrijving": "Zelena Bio's productlicentie zonder vervaldatum (kostprijs € 4.500.000): geen afschrijving. Elke 31 december: impairment-test onder IAS 36 — vergelijk boekwaarde met realiseerbare waarde."
+        }
+      ]
+    },
+    {
+      "titel": "Immateriële activa — default lineair bij onbetrouwbaar patroon",
+      "wat": "Voor een immaterieel actief met beperkte gebruiksduur moet de afschrijvingsmethode het verwachte verbruikspatroon van toekomstige economische voordelen weergeven. **Kan dat patroon niet betrouwbaar worden bepaald, dan is de lineaire methode verplicht** (IAS 38 alinea 97). Dat is een belangrijk verschil met IAS 16: voor materiële vaste activa schrijft IAS 16 alinea 60 geen default-methode voor wanneer het patroon onzeker is.",
+      "waarom": "Voor immateriële activa is het verbruikspatroon vaak moeilijker objectief vast te stellen dan bij fysieke activa. Een dwingende default voorkomt willekeurige methodekeuzes en bevordert vergelijkbaarheid tussen entiteiten.",
+      "grondslag": "IAS 38 alinea 97",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 97"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-38-immateriele-activa__sec_immateri-le-activa-met-een-beperkte-gebruiksduur",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio koopt een softwarelicentie van € 240.000 met een gebruiksduur van 6 jaar. Het management kan niet betrouwbaar inschatten of het verbruik gelijkmatig of degressief verloopt — IAS 38 alinea 97 verplicht dan lineair: € 240.000 / 6 = € 40.000 per jaar."
+        }
+      ]
+    },
+    {
+      "titel": "Restwaarde immateriële activa — verondersteld nul",
+      "wat": "Voor een immaterieel vast actief met beperkte gebruiksduur wordt **de restwaarde verondersteld nul te zijn** (IAS 38 alinea 100), tenzij: (a) een derde zich ertoe verbonden heeft het actief aan het eind van zijn gebruiksduur aan te kopen; of (b) er een actieve markt is voor het actief én de restwaarde kan op die markt worden bepaald én het is waarschijnlijk dat die markt zal bestaan aan het einde van de gebruiksduur. Voor materiële vaste activa onder IAS 16 geldt geen vergelijkbaar default-vermoeden — daar moet de restwaarde steeds expliciet worden geschat (alinea 53).",
+      "waarom": "Voor de meeste immateriële activa (software, octrooien, ontwikkelingskosten) bestaat geen tweedehandsmarkt en is een verkoopbeding aan het eind van de gebruiksduur uitzonderlijk. Een default-nul vermijdt willekeurige inschattingen en houdt de afschrijfbare basis robuust.",
+      "grondslag": "IAS 38 alinea 100",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 100"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-38-immateriele-activa__sec_immateri-le-activa-met-een-beperkte-gebruiksduur",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's intern ontwikkelde productiesoftware (geactiveerd voor € 720.000, gebruiksduur 6 jaar): geen verkoopovereenkomst, geen actieve markt → restwaarde = € 0. Afschrijfbaar bedrag = € 720.000; lineair = € 120.000/jaar."
         }
       ]
     }
@@ -374,6 +449,14 @@
       "migrated_to_specialisatie_van": [
         "vergelijkt-met -> afschrijvingen  →  specialisatie-van (regime=IFRS)"
       ]
+    },
+    {
+      "pass": "concept-extractie-v4-2026-05-18T-1.5.V.B",
+      "added_bouwstenen": [
+        "Immateriële activa — default lineair bij onbetrouwbaar patroon",
+        "Restwaarde immateriële activa — verondersteld nul"
+      ],
+      "corrected_bouwsteen": "Verbod op opbrengstenmethode (alinea 98A → 98A+98C nuance)"
     }
   ]
 }

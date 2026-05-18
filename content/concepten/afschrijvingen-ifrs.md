@@ -59,12 +59,12 @@ _Grondslag: IAS 16 alinea 60-62_
 
 ### Verbod op opbrengstenmethode ⚖️
 
-Een afschrijvingsmethode op basis van **opbrengsten gegenereerd door de activiteit waarbij het actief wordt gebruikt** is voor materiële vaste activa **niet passend** (alinea 62A). Opbrengsten weerspiegelen veel factoren naast verbruik (prijs, volume, inflatie, marketing). Voor immateriële activa is dezelfde regel met een (zeer beperkte) uitzondering bij IAS 38 alinea 98A.
+Een afschrijvingsmethode op basis van **opbrengsten gegenereerd door de activiteit waarbij het actief wordt gebruikt** is voor materiële vaste activa **niet passend** (IAS 16 alinea 62A). Opbrengsten weerspiegelen veel factoren naast verbruik (prijs, volume, inflatie, marketing). Voor immateriële activa geldt een **weerlegbaar vermoeden** dat dezelfde methode niet passend is (IAS 38 alinea 98A). Het vermoeden kan in **twee beperkte gevallen** worden weerlegd: (a) wanneer het immaterieel actief is uitgedrukt als een **opbrengstenmaatstaf** (typisch contract met opbrengsten-cap, alinea 98C) — bv. een concessie 'tot € 2.000.000.000 cumulatieve goudverkoop'; of (b) wanneer kan worden aangetoond dat opbrengsten en het verbruik van economische voordelen **sterk gecorreleerd** zijn.
 
 **Waarom?** Een entiteit die afschrijft op basis van omzet zou bij hoge omzet veel afschrijven (geeft optisch lage marge) en bij lage omzet weinig afschrijven (optisch hogere marge). Dat maakt resultaten manipuleerbaar en koppelt afschrijving los van werkelijk verbruik.
 
 
-_Grondslag: IAS 16 alinea 62A_
+_Grondslag: IAS 16 alinea 62A; IAS 38 alinea 98A + 98C_
 
 ### Onbepaalde gebruiksduur immateriële activa — geen afschrijving ⚖️
 
@@ -74,6 +74,24 @@ Onder IAS 38 wordt een immaterieel actief met **onbepaalde gebruiksduur** NIET a
 
 
 _Grondslag: IAS 38 alinea 107-108_
+
+### Immateriële activa — default lineair bij onbetrouwbaar patroon ⚖️
+
+Voor een immaterieel actief met beperkte gebruiksduur moet de afschrijvingsmethode het verwachte verbruikspatroon van toekomstige economische voordelen weergeven. **Kan dat patroon niet betrouwbaar worden bepaald, dan is de lineaire methode verplicht** (IAS 38 alinea 97). Dat is een belangrijk verschil met IAS 16: voor materiële vaste activa schrijft IAS 16 alinea 60 geen default-methode voor wanneer het patroon onzeker is.
+
+**Waarom?** Voor immateriële activa is het verbruikspatroon vaak moeilijker objectief vast te stellen dan bij fysieke activa. Een dwingende default voorkomt willekeurige methodekeuzes en bevordert vergelijkbaarheid tussen entiteiten.
+
+
+_Grondslag: IAS 38 alinea 97_
+
+### Restwaarde immateriële activa — verondersteld nul ⚖️
+
+Voor een immaterieel vast actief met beperkte gebruiksduur wordt **de restwaarde verondersteld nul te zijn** (IAS 38 alinea 100), tenzij: (a) een derde zich ertoe verbonden heeft het actief aan het eind van zijn gebruiksduur aan te kopen; of (b) er een actieve markt is voor het actief én de restwaarde kan op die markt worden bepaald én het is waarschijnlijk dat die markt zal bestaan aan het einde van de gebruiksduur. Voor materiële vaste activa onder IAS 16 geldt geen vergelijkbaar default-vermoeden — daar moet de restwaarde steeds expliciet worden geschat (alinea 53).
+
+**Waarom?** Voor de meeste immateriële activa (software, octrooien, ontwikkelingskosten) bestaat geen tweedehandsmarkt en is een verkoopbeding aan het eind van de gebruiksduur uitzonderlijk. Een default-nul vermijdt willekeurige inschattingen en houdt de afschrijfbare basis robuust.
+
+
+_Grondslag: IAS 38 alinea 100_
 
 
 ## Berekening
@@ -145,3 +163,4 @@ _Resultaat in EUR_
 [^1]: `IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname`
 [^2]: `IAS-16-materiele-vaste-activa__sec_62a`
 [^3]: `IAS-38-immateriele-activa__sec_gebruiksduur`
+[^4]: `IAS-38-immateriele-activa__sec_immateri-le-activa-met-een-beperkte-gebruiksduur`
