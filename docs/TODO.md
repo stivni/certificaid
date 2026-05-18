@@ -50,9 +50,29 @@ houdt het overzicht, geen content-duplicatie._
 
 ---
 
-## Fase 3 — PO 1.x content-review (in uitvoering, focus 1.5)
+## Fase 3 — PO 1.x content-review (✅ volledig af — 2026-05-19)
 
-EXTRACT v4 per anchor, centraal-first strategie. Records-API met orphan-management (delete + rename auto-cascadeert edges).
+**Eindstaat 2026-05-19**: 463 records (was 431), allemaal op schema 1.6 met situering. 0 open hoog-prio gaps (was 19). Commit [5de6e9d0](commit/5de6e9d0).
+
+EXTRACT v4 per anchor, centraal-first. Per PO strategie volgens ADR-008 §18.7:
+- PO 1.5 (14 anchors): waves + revisit-pass (eerder afgewerkt)
+- PO 1.6 (20 anchors): wave 1 (5 batches) + wave 2 parent-batched (4 batches) + cross-cutting hoog-prio (1 batch, 5 nieuwe records)
+- PO 1.7 (58 anchors): wave 1 (7 batches) + wave 2 parent-batched (9 batches)
+- PO 1.1-1.4: touch-up + structurele cleanup (4 agents)
+- PO 1.8 (53 records): one-shot ✅ — empirisch bewezen tot ~55 records
+- PO 1.9 (44 records): one-shot ✅
+- Eindgap-resolution: 6 open hoog-prio resolved (4 nieuwe records)
+
+Empirische lessen vastgelegd in ADR-008 §18.7 (wave-planning + one-shot), ADR-019 §Worktree-isolatie (records-API divergentie + workaround), `prompts/concept-extractie-v4.md` (scope-trust, gaps.json-bescherming).
+
+**Resterend Fase 3-werk (laag-prio)**:
+- 82 open gaps midden/laag-prio (deels strategic-pass-archief)
+- 7 minicursussen curator-pass (1.1-1.3, 1.6-1.9) — andere sessie
+- TODO ADR-019: aanpassing records-API om disk-pad te resolven tegen daemon-known repo-root (maakt worktree-veilig)
+
+---
+
+## Fase 3-historie (gearchiveerd — pre-2026-05-19)
 
 ### 3.1 — PO 1.5 wave 1 — Top-level anchors (centraal)
 
