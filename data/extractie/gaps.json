@@ -2034,5 +2034,221 @@
     "geconstateerd_op": "2026-05-18T11:45:02+00:00",
     "status": "open",
     "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "opbrengsten-ifrs",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edge specialisatie-van wijst naar 'opbrengsten' — dat record bestaat niet in de volledige record-set (431 records). Er bestaat geen parent-concept 'opbrengsten' (BE GAAP of algemeen); de IFRS-15-cluster hangt daarmee los zonder context-edge.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Drie edges van type 'bevat' wijzen naar 'balans', 'resultatenrekening' en 'toelichting' — geen van deze ids bestaat als record. Tevens een 'getriggerd-door' edge naar 'jaarafsluiting' die eveneens ontbreekt. Vier ontbrekende edge-targets in één record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "consolidatieverplichting",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Drie edges van type 'contrasteert-met' zijn gedeprecieerd (niet toegelaten in schema 1.4+). Targets: 'groottecriteria-jaarrekening', 'vrijstelling-subconsolidatie', 'consolidatiekring'. Dit record is niet in PO 1.5-scope primair maar heeft linked_anchor 1.5.I — deprecated edges moeten vervangen worden door 'vergelijkt-met' of correcte edge-type.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "boekhoudbeginselen-overzicht",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Record 'boekhoudbeginselen-overzicht' bevat zeven edges van gedeprecieerd type 'bevat' (naar 'continuiteitsbeginsel', 'voorzichtigheidsbeginsel', 'getrouw-beeld', 'onveranderlijkheid-boekingen', 'consistentiebeginsel', 'oprechtheidsbeginsel', 'volledigheidsbeginsel'). Deprecated edge-type; records voor individuele beginselen kunnen al dan niet bestaan.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "presenteren-jaarrekening-ifrs",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "Competentie-record verwijst via wikilink naar [[uitvoeren-eerste-toepassing-ifrs]] in proceduretekst, maar dit record heeft geen edges[] en geen gebaseerd_op_concepten[] veld. De wikilink is structureel niet gespiegeld in het competentie-schema.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "waarderen-materiele-vaste-activa-ifrs",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "Record verwijst via wikilinks naar [[toetsen-bijzondere-waardevermindering-ifrs]] en [[be-gaap-vs-ifrs-overzicht]] zonder dat deze concepten voorkomen in edges[] of gebaseerd_op_concepten[]. Bij een competentie-record zijn wikilinks naar gerelateerde competenties/syntheses structureel niet afgedwongen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bepalen-toepasselijkheid-ifrs-belgie",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "Competentie verwijst via wikilinks naar [[ifrs-eerste-toepassing]] en [[uitvoeren-eerste-toepassing-ifrs]] in stapbeschrijvingen, maar deze concepten staan niet in gebaseerd_op_concepten[] noch in edges[]. De cross-referentie is structureel niet gespiegeld.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "boekhoudbeginselen-overzicht",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "Record verwijst via wikilink naar [[rechten-verplichtingen-buiten-balans]] in een tekstveld, maar er bestaat geen record met dat id (niet in de 431-record-set). Dangling wikilink.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "voorraden-ifrs",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Examenvraag 2024-1-vr7 subvraag A toetst welke voorraadmethoden onder IFRS zijn toegelaten (FIFO, gewogen gemiddelde — LIFO verboden). Record heeft berekeningsmethode voor gewogen gemiddelde en valkuilen, maar mist een in_praktijk-concretisering die het verbod op LIFO in een praktijkcontext koppelt aan een jaarrekening-check. Scorepunt voor 'welke methoden zijn mogelijk' is uit stap+bouwsteen te beantwoorden, maar niet als vlot opzoekbare in_praktijk.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "afschrijvingen-ifrs",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Examenvraag 2024-1-vr7 subvraag C bevat stellingen over afschrijvingen onder IAS/IFRS: degressieve afschrijvingen toegestaan (ja), stopzetting afschrijving bij reële waarde > boekwaarde (nee — alleen restwaarde stopt afschrijving, IAS 16 alinea 52). Dit is in de valkuilen gedekt ('actief blijft afschrijven'), maar in_praktijk-concretisering ontbreekt — examenstudent heeft geen direct opzoekbaar kader voor de 'J/F'-stellingen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "immateriele-vaste-activa-ifrs",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Examenvraag 2013-1-vr3 vraagt welke ontwikkelingskosten activeerbaar zijn (per IAS 38 6 criteria) en op welke rekening + minimale afschrijvingsduur. Record dekt de criteria via bouwstenen maar mist een in_praktijk die het procedurepunt 'welke kosten mogen NIET' (onderzoekskosten: studiekosten 20.000) concreet toepast. Kostenclassificatie per fase is in bouwstenen deels gedekt maar niet als praktijkgerichte checklist.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "be-gaap-vs-ifrs-overzicht",
+    "aspect": "records.ontbreekt",
+    "reden": "Examenvraag 2013-2-vr3 toetst goodwill onder BE GAAP: rubriek (immateriële vaste activa) en afschrijvingsperiode (art. 3:131 KB WVV: 5 jaar tenzij gemotiveerd langer, max 20 jaar). De vergelijkingstabel in be-gaap-vs-ifrs-overzicht vermeldt 'Afschrijving over vermoedelijke gebruiksduur' voor BE GAAP zonder de kwantitatieve parameters (5-jaar-default, 20-jaar-maximum). Er bestaat geen apart 'goodwill' of 'goodwill-be-gaap' record. Examenvraag is onbeantwoordbaar zonder die parameters.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "opbrengsten-ifrs",
+    "aspect": "berekeningsmethode.concreet_voorbeeld",
+    "reden": "Examenvraag 2014-1-vr4 toetst opbrengsterkenning bij uitgesteld betalingsplan met disconto (4% interest + 9% discontovoet). De berekening vereist het opnemen van de contante waarde als omzet (€ 4.595.294 = € 5.000.000 − € 404.706 disconto) plus de regels voor rente (751) en disconto (651/751). Record 'opbrengsten-ifrs' heeft géén berekeningsmethode en géén voorbeeld met disconto-opbrengst-split. Vraag is structureel onbeantwoordbaar vanuit dit record.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "immateriele-vaste-activa-ifrs",
+    "aspect": "vergelijkingsparen.ontbreekt",
+    "reden": "Examenvraag 2013-2-vr1 toetst de classificatiegrens software: geïntegreerde software bij laptop = MVA; losse boekhoudsoftware = immaterieel VA; software voor doorverkoop = handelsgoederen. Record heeft bouwsteen 'Onderzoek versus ontwikkeling' maar mist een vergelijkingspaar met 'materiele-vaste-activa-ifrs' voor de classificatiegrens geïntegreerd/afzonderlijk. Examen-casus kan niet beantwoord worden zonder dat onderscheid.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "boekhoudbeginselen-overzicht",
+    "aspect": "records.ontbreekt",
+    "reden": "Examenvraag 2015-1-vr4 toetst intercalaire interesten (financieringskosten tijdens bouw van actief, art. 3:32 KB WVV — optionele activering onder voorwaarden). Er bestaat geen record 'intercalaire-interesten' of vergelijkbaar. Vraag betreft BE GAAP-keuzeregel die niet in enig PO 1.5-record behandeld is. Examenrelevantie bij PO 1.5 classificatie score=30.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening",
+    "aspect": "records.ontbreekt",
+    "reden": "Examenvraag 2013-2-vr4 toetst grote periodieke renovaties: provisioning via jaarlijkse accrual (voorzieningsmethode, 5.000 EUR/jaar) versus componentenmethode. Er bestaat geen record voor 'voorzieningen voor grote renovaties' of 'provisioning-voor-risicos-be-gaap' in PO 1.5-scope. De examenrelevantie is 25 en de vraag is niet beantwoordbaar vanuit de huidige record-set.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "herwaarderingsmodel-ifrs",
+    "aspect": "records.ontbreekt",
+    "reden": "Examenvraag 2014-1-vr3 toetst herwaarderingsmeerwaarden bij immateriële activa (octrooi) onder BE GAAP: bestemming bij vervreemding (reserves, kapitaalinlijving), bedrag van overboeking. Record 'herwaarderingsmodel-ifrs' behandelt uitsluitend IAS 16 (MVA, OCI-reserve). BE GAAP herwaarderingsregels voor immateriële activa (KB WVV art. 3:29/3:31) zijn niet gedekt. Examenrelevantie 25.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "opbrengsten-ifrs",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Cluster 'opbrengsten-ifrs' heeft 5 stappen maar geen enkele stap heeft een voorbeeld of berekeningsmethode. De vijfstaps-procedure is voor minicursus bruikbaar als workflow maar niet als demonstratie-instrument. Stappen 1-4 missen concrete illustraties met contractbedragen of split-examples (transactieprijs bij meerdere prestatieverplichtingen). Minicursus-lezer kan procedure niet oefenen.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "lessee-vs-lessor-leasing-ifrs",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Synthese 'lessee-vs-lessor-leasing-ifrs' heeft vergelijkingstabel en beslisboom maar mist kerninzichten[]-blok (verplicht veld voor synthese-type per ADR-007 schema 1.3+) en voorbeelden. Minicursus over leasing-asymmetrie kan de vergelijkingstabel niet contextualiseren voor de stagiair zonder kerninzichten die uitleggen waarom de asymmetrie bestaat.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "be-gaap-vs-ifrs-overzicht",
+    "aspect": "valkuilen.ontbreekt",
+    "reden": "Synthese 'be-gaap-vs-ifrs-overzicht' mist valkuilen[]-blok volledig, terwijl de vergelijkingstabel 13 thema-rijen bevat waarvan minstens 4 examenvalstrikken bevatten (LIFO-verbod, goodwill-impairment vs. afschrijving, leasing on-balance, enkelvoudig vs. geconsolideerd). Syntheses zonder valkuilen missen het critisch-denk-element voor examenbegeleiding.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "correctie-jaarrekening-ifrs",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Cluster 'correctie-jaarrekening-ifrs' (IAS 8) heeft berekeningsmethode-entry maar die bevat nul formules. Twee bouwstenen hebben voorbeelden maar top-level in_praktijk ontbreekt. IAS 8 is een typisch examenonderwerp (schattingswijziging vs. fout, retroactief vs. prospectief) waarvoor een in_praktijk-paragraaf de decisielogica samenvat voor de stagiair.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening-componenten-ifrs",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Record 'jaarrekening-componenten-ifrs' (begrip) heeft geen enkele edge — geen specialisatie-van, onderdeel-van of vereist-kennis-van. Dit begrip is direct onderdeel van het IFRS-jaarrekeningkader maar hangt contextueel los. Minimaal een 'onderdeel-van' of 'specialisatie-van' naar het overkoepelende IFRS-kader-concept is vereist per v4 context-via-edges-verplichting.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Record 'jaarrekening' (cluster) heeft enkel deprecated 'bevat'-edges (geen geldige edges). Na sanering van deprecated edges heeft dit record effectief nul geldige structurele relaties. Minimaal een 'specialisatie-van' of 'vereist-kennis-van' naar het overkoepelende boekhoudkader is vereist.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
+  },
+  {
+    "record_id": "uitvoeren-eerste-toepassing-ifrs",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Competentie-record heeft nul edges. Competenties mogen edges-loos zijn (schema-impliciet), maar bij competenties die meerdere concept-records vereisen is een 'vereist-kennis-van'-structuur nuttig voor navigatie. Ontbreekt ook gebaseerd_op_concepten[] veld — de competentie verwijst wellicht naar ifrs-eerste-toepassing maar dit is niet gestructureerd vastgelegd.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.5-2026-05-18",
+    "geconstateerd_op": "2026-05-18T12:37:14Z",
+    "status": "open"
   }
 ]
