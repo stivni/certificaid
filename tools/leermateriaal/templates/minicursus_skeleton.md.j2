@@ -93,21 +93,44 @@
 {% set syn = hoofdstuk.synthese %}
 ## {{ syn.naam | default(hoofdstuk.synthese_id) }}
 
+{% if syn.situering %}
+{{ syn.situering.text if syn.situering is mapping else syn.situering }}
+
+
+{% endif %}
 {{ glue.synthese_intro[loop.index0] | default('<!-- TODO: Opus-glue synthese-intro -->') }}
 
-{% if syn.beslisboom and syn.beslisboom.data %}
-{{ syn.beslisboom.data }}
+{% if syn.vergelijkingstabel %}
+{{ syn.vergelijkingstabel.data if syn.vergelijkingstabel is mapping else syn.vergelijkingstabel }}
+
+{% endif %}
+{% if syn.beslisboom %}
+{{ syn.beslisboom.data if syn.beslisboom is mapping else syn.beslisboom }}
+
+{% endif %}
+{% if syn.stappenplan %}
+{% for stap in syn.stappenplan %}
+{{ loop.index }}. {{ stap.text | default(stap) }}
+{% endfor %}
+
+{% endif %}
+{% if syn.tijdlijn %}
+{{ syn.tijdlijn.data if syn.tijdlijn is mapping else syn.tijdlijn }}
 
 {% endif %}
 {% if syn.kerninzichten %}
 **Kerninzichten**:
-{% for inzicht in syn.kerninzichten %}
-- {{ inzicht.text | default(inzicht) }}
+
+{% for ki in syn.kerninzichten %}
+- {% if ki is mapping %}{{ ki.inzicht | default(ki.text) | default(ki | string) }}{% if ki.waarom_belangrijk %} — _waarom_: {{ ki.waarom_belangrijk }}{% endif %}{% else %}{{ ki }}{% endif %}
+
 {% endfor %}
 
 {% endif %}
-[[{{ hoofdstuk.synthese_id }}|→ Volledige synthese-fiche]]
+{% if syn.gebaseerd_op_concepten %}
+_Bouwt op_: {% for cid in syn.gebaseerd_op_concepten %}[[{{ cid }}]]{% if not loop.last %} · {% endif %}{% endfor %}
 
+{% endif %}
 {% endif %}
 {% endfor %}
 

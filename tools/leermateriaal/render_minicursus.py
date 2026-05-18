@@ -30,7 +30,7 @@ PROGRAMMA_FILE = ROOT / "data" / "programma" / "programma.json"
 OUTPUT_CONTENT_DIR = ROOT / "content" / "studiemateriaal"
 EXTRACTIE_DIR = ROOT / "data" / "extractie"
 PROMPTS_DIR = ROOT / "prompts"
-GLUE_PROMPT = PROMPTS_DIR / "minicursus-glue-v2.md"
+GLUE_PROMPT = PROMPTS_DIR / "minicursus-glue-v3.md"
 EXAMEN_VRAGEN_DIR = ROOT / "data" / "programma" / "examen_vragen"
 
 
@@ -427,8 +427,8 @@ def schrijf_subagent_instructies(
 ## Jouw taak
 
 Vul de `<!-- TODO: Opus-glue ... -->` placeholders in de skeleton-Markdown in.
-Schrijf de output als één JSON-object naar stdout met de velden beschreven in
-`prompts/minicursus-glue-v1.md`.
+Edit de skeleton-Markdown direct (geen JSON-output) volgens de regels in
+`prompts/minicursus-glue-v3.md` (parafrase-met-bronlink-contract).
 
 ## Input-bestanden
 
@@ -436,11 +436,12 @@ Schrijf de output als één JSON-object naar stdout met de velden beschreven in
 - **Records-summaries** ({len(records)} stuks): zie §Records hieronder
 - **Competentie-summaries** ({len(competenties)} stuks): zie §Competenties hieronder
 
-## Anti-fabricatie-regels (verplicht)
+## Kern-regels (samenvatting — volledige regels in §Prompt-referentie hieronder)
 
-- Geen feiten-claims in glue-tekst — alleen rationale, beginselen, transities
-- Geen wikilinks bedenken — die staan al in de skeleton
-- Verbind aan beginselen die in de records beschreven zijn
+- Parafrase MAG, mits wikilink bij elke feitelijke claim in dezelfde zin
+- Wikilinks toevoegen naar bestaande records (check vooraf dat ze bestaan)
+- Geen feit verzinnen zonder record-grondslag, geen non-existent wikilinks
+- Werkwoorden volgen het PO-niveau (zie frontmatter / oriëntatie-callout)
 - Bij twijfel: korte neutrale tekst, geen uitvinding
 
 ## Records-summaries
@@ -457,7 +458,7 @@ Schrijf de output als één JSON-object naar stdout met de velden beschreven in
 
 ---
 
-## Prompt-referentie (minicursus-glue-v1.md)
+## Prompt-referentie (minicursus-glue-v3.md)
 
 {glue_prompt_tekst}
 """
@@ -570,7 +571,7 @@ def main() -> None:
 
         print(f"\nVolgende stap:")
         print(f"  Open {instructies_pad.relative_to(ROOT)}")
-        print(f"  in een Opus-subagent-sessie voor LLM-glue (minicursus-glue-v1.md).")
+        print(f"  in een Opus-subagent-sessie voor LLM-glue (minicursus-glue-v3.md).")
         print(f"  Output-skeleton: {skeleton_pad.relative_to(ROOT)}")
     else:
         print("[droog] Skeleton NIET weggeschreven.")
