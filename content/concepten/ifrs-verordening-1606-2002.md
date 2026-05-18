@@ -49,12 +49,12 @@ _Grondslag: Verordening 1606/2002 art. 4_
 
 ### Goedkeuringsprocedure — endorsement ⚖️
 
-Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europese Commissie beslist via een aparte procedure (artikel 6 lid 2) of een standaard goedgekeurd ('endorsed') wordt. Goedgekeurde standaarden worden gepubliceerd in een EU-verordening — voor de praktijk vooral Verordening (EU) 2023/1803 (geconsolideerde IFRS-tekst). Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is dit al endorsed?
+Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europese Commissie beslist via een aparte procedure (art. 6 lid 2) of een standaard goedgekeurd ('endorsed') wordt. Daarbij wordt de Commissie bijgestaan door een **regelgevend comité voor financiële verslaglegging** — in de praktijk bekend als het **Accounting Regulatory Committee (ARC)**. Een standaard kan alleen goedgekeurd worden als zij (1) niet in strijd is met het true-and-fair-view-beginsel uit de Belgische omzetting van de richtlijnen, (2) **het Europees openbaar belang** dient, en (3) voldoet aan de vier kwalitatieve criteria voor financiële informatie: **begrijpelijkheid**, **relevantie**, **betrouwbaarheid** en **vergelijkbaarheid**. Goedgekeurde standaarden worden **in hun geheel** bekendgemaakt als een aparte Commissie-verordening in het Publicatieblad — voor de praktijk vooral Verordening (EU) 2023/1803 (geconsolideerde IFRS-tekst). Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is dit al endorsed?
 
-**Waarom?** De EU houdt soevereiniteit over wat er in haar jaarrekeningen geldt. De endorsement-stap is een filter: standaarden moeten in het Europees openbaar belang zijn en voldoen aan begrijpelijkheid, relevantie, betrouwbaarheid en vergelijkbaarheid.
+**Waarom?** De EU houdt soevereiniteit over wat er in haar jaarrekeningen geldt. De endorsement-stap is een filter: standaarden moeten in het Europees openbaar belang zijn en voldoen aan de vier kwaliteitscriteria. Het ARC fungeert als technisch klankbord van de Commissie en stemt over elk endorsement-voorstel met gekwalificeerde meerderheid van de lidstaten.
 
 
-_Grondslag: Verordening 1606/2002 art. 3 + art. 6_
+_Grondslag: Verordening 1606/2002 art. 3 lid 1-4 + art. 6_
 
 ### Lidstatenoptie — niet-beursgenoteerden ⚖️
 
@@ -104,6 +104,12 @@ _Grondslag: Verordening 1606/2002 art. 5 + CBN 2016/19_
 > _Bron: Verordening 1606/2002 art. 3_
 
 
+> [!warning]- Een endorsed-IFRS-standaard is in de EU pas effectief van toepassing **na bekendmaking in het Publicatieblad** als afzonderlijke Commissie-v…
+> ⚠️ Een endorsed-IFRS-standaard is in de EU pas effectief van toepassing **na bekendmaking in het Publicatieblad** als afzonderlijke Commissie-verordening (art. 3 lid 4). Een door de Commissie 'goedgekeurde' standaard die nog niet officieel gepubliceerd is, mag niet als rechtsbron worden ingeroepen. ⚖️
+>
+> _Bron: Verordening 1606/2002 art. 3 lid 4_
+
+
 
 ## Zie ook
 
@@ -120,5 +126,6 @@ _Grondslag: Verordening 1606/2002 art. 5 + CBN 2016/19_
 [^3]: `EU-IFRS-verordening-1606-2002__art_4`
 [^4]: `EU-IFRS-verordening-1606-2002__art_5`
 [^5]: `EU-IFRS-verordening-1606-2002__art_3`
-[^6]: `CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_toepasselijke-rapporteringsstandaard`
-[^7]: `Richtlijn-2013-34-EU__art_1`
+[^6]: `EU-IFRS-verordening-1606-2002__art_6`
+[^7]: `CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_toepasselijke-rapporteringsstandaard`
+[^8]: `Richtlijn-2013-34-EU__art_1`

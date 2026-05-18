@@ -10,14 +10,15 @@
     "1.5.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T05:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.II",
     "dekt_ook_anchors": [
       "1.5.III",
       "1.5.taak.1"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-2026-05-18T05:00Z"
   },
   "main_rule": {
     "text": "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 verplicht **beursgenoteerde EU-ondernemingen** om hun geconsolideerde jaarrekening op te stellen volgens de internationale standaarden (International Accounting Standards / International Financial Reporting Standards, kortweg IAS/IFRS) die door de Europese Commissie zijn goedgekeurd. Deze verplichting geldt voor elk boekjaar dat begint op of na 1 januari 2005. Onder 'internationale standaarden' verstaat de verordening: de IAS, de IFRS, de bijhorende interpretaties (Standing Interpretations Committee/IFRS Interpretations Committee, SIC/IFRIC) en alle latere wijzigingen, vastgesteld door de International Accounting Standards Board (IASB). Een verordening werkt rechtstreeks in alle lidstaten — er is geen omzetting in Belgisch recht nodig. Lidstaten mogen wel uitbreiden: ze mogen ook andere (niet-beursgenoteerde) ondernemingen toestaan of verplichten IFRS toe te passen, en ze mogen IFRS ook openstellen voor enkelvoudige jaarrekeningen. België heeft die uitbreiding zeer beperkt gehouden.",
@@ -124,18 +125,23 @@
     },
     {
       "titel": "Goedkeuringsprocedure — endorsement",
-      "wat": "Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europese Commissie beslist via een aparte procedure (artikel 6 lid 2) of een standaard goedgekeurd ('endorsed') wordt. Goedgekeurde standaarden worden gepubliceerd in een EU-verordening — voor de praktijk vooral Verordening (EU) 2023/1803 (geconsolideerde IFRS-tekst). Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is dit al endorsed?",
-      "waarom": "De EU houdt soevereiniteit over wat er in haar jaarrekeningen geldt. De endorsement-stap is een filter: standaarden moeten in het Europees openbaar belang zijn en voldoen aan begrijpelijkheid, relevantie, betrouwbaarheid en vergelijkbaarheid.",
-      "grondslag": "Verordening 1606/2002 art. 3 + art. 6",
+      "wat": "Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europese Commissie beslist via een aparte procedure (art. 6 lid 2) of een standaard goedgekeurd ('endorsed') wordt. Daarbij wordt de Commissie bijgestaan door een **regelgevend comité voor financiële verslaglegging** — in de praktijk bekend als het **Accounting Regulatory Committee (ARC)**. Een standaard kan alleen goedgekeurd worden als zij (1) niet in strijd is met het true-and-fair-view-beginsel uit de Belgische omzetting van de richtlijnen, (2) **het Europees openbaar belang** dient, en (3) voldoet aan de vier kwalitatieve criteria voor financiële informatie: **begrijpelijkheid**, **relevantie**, **betrouwbaarheid** en **vergelijkbaarheid**. Goedgekeurde standaarden worden **in hun geheel** bekendgemaakt als een aparte Commissie-verordening in het Publicatieblad — voor de praktijk vooral Verordening (EU) 2023/1803 (geconsolideerde IFRS-tekst). Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is dit al endorsed?",
+      "waarom": "De EU houdt soevereiniteit over wat er in haar jaarrekeningen geldt. De endorsement-stap is een filter: standaarden moeten in het Europees openbaar belang zijn en voldoen aan de vier kwaliteitscriteria. Het ARC fungeert als technisch klankbord van de Commissie en stemt over elk endorsement-voorstel met gekwalificeerde meerderheid van de lidstaten.",
+      "grondslag": "Verordening 1606/2002 art. 3 lid 1-4 + art. 6",
       "confidence": "grounded",
       "source": {
         "type": "verordening",
-        "short": "Verordening 1606/2002 art. 3"
+        "short": "Verordening 1606/2002 art. 3 + art. 6"
       },
       "_provenance": {
         "inputs": [
           {
             "id": "EU-IFRS-verordening-1606-2002__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_6",
             "sha256": null,
             "version": "rag-v1"
           }
@@ -146,7 +152,14 @@
           "vorm": "eenvoudig",
           "omschrijving": "IFRS 17 Verzekeringscontracten is door de IASB in 2017 uitgegeven maar pas door de EU goedgekeurd op 19 november 2021 (Verordening 2021/2036). Een Belgische verzekeraar mocht IFRS 17 dus niet eerder toepassen in zijn endorsed-set."
         }
-      ]
+      ],
+      "in_praktijk": "Endorsement-criteria zijn cumulatief: faalt één criterium, dan blijft de standaard buiten EU-IFRS. De ARC-stem is bindend; bij negatief advies escaleert het dossier naar Raad en Parlement.",
+      "correction": {
+        "datum": "2026-05-18",
+        "run_id": "concept-extractie-v4-2026-05-18T05:00Z",
+        "corrected_from": "Originele bouwsteen noemde 'begrijpelijkheid, relevantie, betrouwbaarheid en vergelijkbaarheid' maar enumereerde ze niet als 4 expliciete cumulatieve criteria en vermeldde het ARC-comité (art. 6) niet bij naam.",
+        "correction_reason": "Aanvullende grounding op art. 3 lid 2-4 + art. 6: vier cumulatieve kwaliteitscriteria expliciet, 'Europees openbaar belang' als afzonderlijk criterium, ARC bij naam."
+      }
     },
     {
       "titel": "Lidstatenoptie — niet-beursgenoteerden",
@@ -268,6 +281,23 @@
       "source": {
         "type": "verordening",
         "short": "Verordening 1606/2002 art. 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Een endorsed-IFRS-standaard is in de EU pas effectief van toepassing **na bekendmaking in het Publicatieblad** als afzonderlijke Commissie-verordening (art. 3 lid 4). Een door de Commissie 'goedgekeurde' standaard die nog niet officieel gepubliceerd is, mag niet als rechtsbron worden ingeroepen.",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 3 lid 4"
       },
       "_provenance": {
         "inputs": [
