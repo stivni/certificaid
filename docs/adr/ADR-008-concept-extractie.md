@@ -6,6 +6,7 @@
 
 ## Changelog
 
+- **2026-05-18** — §18-uitvoering: ENRICH-stack en AUTO-MERGE verwijderd. `tools/extractie/enrich_records.py`, `tools/extractie/run_enrichment_cycle.py`, `tools/extractie/auto_merge.py` en `prompts/concept-enrich-v1.md` weg (vervangen door EXTRACT v4 + records-API direct-write). Anchor-bundles niet meer als JSON-snapshots in `data/extractie/<po>/bundles/` maar on-demand uit sqlite+ChromaDB via `tools/extractie/export_bundle.py` (stdout-only). Single source of truth: `matches.sqlite3` (membership) + ChromaDB (tekst). §13 blijft als historische context, §13.7 tooling-lijst gemarkeerd als vervangen.
 - **2026-05-17** — §18 toegevoegd: EXTRACT v4 als research-and-draft-agent met event-driven scope. ENRICH wordt herzien als EXTRACT met gap-event (zelfde agent, andere initial-ctx). VERIFY-feedback splitst in tactisch (per-record gap-event) en strategisch (prompt-/cast-evolutie). Records hitten concept-RAG meteen via records-API (ADR-019). v1.0-mindset: geen draft-status. Coordinator-pattern uitgesteld tot post-pilot.
 - **2026-05-18** — `prompts/concept-extractie-v4.md` herschreven als zelfdragend permanent artefact (v4, niet delta-op-v3). ADR-007 schema 1.5 geïntegreerd: 6 node-types (`begrip` · `regel` · `cluster` · `synthese` · `autoriteit` · `competentie`), 7 canonieke edge-types, drie concretiserings-soorten (`in_praktijk`, `voorbeelden`, `illustraties`). Migratie-mapping voor verouderde types. Gap-mining-patterns 1-5 omgezet in concrete regels: slug-resolver (§9), minimum-rijkheid-tabel (§10), near-duplicate-check (§11), corpus-blindheid-mitigatie (§12). `voorbeeld_inline` → `voorbeelden[]` migratie geïnstrueerd.
 - **2026-05-16** — §17 toegevoegd: schema 1.4-implicaties voor extractie-prompts. Concept-extractie-v4 gebruikt stap-blok + bouwsteen-blok + formule-blok + cast-conventie (zie ADR-007 schema 1.4). VERIFY krijgt drie nieuwe aspect-types (`voorbeeld.ontbreekt`, `stap.skeleton`, `bouwsteen.geen-waarom`). ENRICH-prompt v1 dekt deze. Empirisch gevalideerd via twee deep-rewrite-batches op PO 1.4 (29/31 records → schema 1.4 op 2026-05-16).
@@ -239,12 +240,10 @@ Bij **bron-update** (chunk-content-hash verandert) → `mark_stale.py` walkt blo
 | Artefact | Locatie | Levensduur | Status |
 |---|---|---|---|
 | **Anchors** | `data/extractie/<po>/anchors/<po>-anchors.json` | Permanent — gegit | curatie-artefact |
-| **Matches** | `data/extractie/<po>/matches/<po>-matches.json` | Ephemeral — kan in gitignore | reproduceerbaar |
-| **Bundle exports (fase B)** | `data/extractie/<po>/bundles/<po>-<anchor-id>.json` | Permanent — LLM-input-snapshot voor extract | gegit |
+| **Matches** | `data/extractie/matches.sqlite3` | Permanent — gegit; single source voor anchor-bundle-membership (ADR-005 §9.1) | authoritative |
 | **VERIFY-run payloads** | `data/extractie/<po>/verify-runs/{records,anchors,examen_vragen}-*.json` | Ephemeral — gitignored, reproduceerbaar | wegwerpbaar |
-| **ENRICH-run bundles** | `data/extractie/<po>/enrich-runs/bundle-*.json` | Ephemeral — gitignored, reproduceerbaar uit anchor-bundles + record-state | wegwerpbaar |
-| **VERIFY/ENRICH-instructies + rapporten** | `data/extractie/<po>/{verify,enrich}-runs/{instructies,rapport}-*.md` | Permanent — gegit voor traceability | curatie-artefact |
-| **Concept-records** | `data/concepten/records/<id>.json` | Permanent — duurzame kennislaag, **gegit** (sinds 2026-05-15, vereist voor `auto_merge.py` git-diff) | authoritative |
+| **VERIFY-rapporten** | `data/extractie/<po>/verify-runs/{instructies,rapport}-*.md` | Permanent — gegit voor traceability | curatie-artefact |
+| **Concept-records** | `data/concepten/records/<id>.json` | Permanent — duurzame kennislaag, **gegit** (sinds 2026-05-15) | authoritative |
 | **Concept-records archief** | `data/concepten/_archive/<po-versie>/` | Permanent lokaal, **gitignored** (alleen voor lokale traceability bij grote schema-overgangen) | historisch |
 
 De permanente provenance leeft uitsluitend in concept-record `_provenance`-velden. Andere artefacten zijn een tussenstadium.
@@ -256,7 +255,9 @@ Wanneer een concept niet past in het huidige conceptmodel:
 - Voorstel landt in `data/concepten/records/_voorgestelde_types.yaml` (zie ADR-007)
 - Pas na menselijke bevestiging wordt het schema bijgewerkt
 
-### 13. Monotone enrichment-loop (2026-05-15)
+### 13. Monotone enrichment-loop (2026-05-15) — **VERVANGEN door §18 (2026-05-17)**
+
+> **Historische sectie.** EXTRACT v4 (§18) verving deze 4-bloks-flow door één agent met event-driven scope + records-API direct-write. ENRICH en AUTO-MERGE zijn niet meer als aparte stappen aanwezig. De principes uit §13.1 (vijf prompt-principes) zijn opgenomen in `prompts/concept-extractie-v4.md`; de monotoniteit van §13.3 leeft als prompt-regel in v4, niet meer als script-garantie.
 
 Na empirische validatie op PO 1.4 (zie `data/extractie/1.4/v1-vs-v2-vergelijking.md` + `stress-test-reflectie.md`) bleek dat een tweede extractie-pass op dezelfde anchors structureel content van de eerste pass verliest, omdat de LLM telkens van scratch herkiest. Drie regressies werden geconstateerd in v2 t.o.v. v1 (bodemwaarde bij vermogensmutatie, stichting-voorbeeld bij consortium, maatschap-uitzondering bij vrijstelling-subconsolidatie) zonder dat de LLM motiveerde waarom.
 
@@ -365,16 +366,20 @@ Géén LLM, géén mens-blockade. Twee niveaus:
 
 Geen vijf aspect-passes, geen aparte minicursus-stress-test als tooling-stap. De minicursus is een *eind-deliverable* (na alle blokken), niet een test-tool.
 
-#### 13.7 Tooling
+#### 13.7 Tooling — **bijgewerkt na §18 (2026-05-18)**
 
-- `tools/extractie/verify_records.py` — subagent-runner voor blok 2 (VERIFY; model: `VERIFY_MODEL = "claude-sonnet-4-6"`)
-- `tools/extractie/enrich_records.py` — subagent-runner voor blok 3 (ENRICH)
-- `tools/extractie/auto_merge.py` — mechanisch script voor blok 4 (AUTO-MERGE + LOG; garandeert monotoon contract)
-- `tools/extractie/run_enrichment_cycle.py` — orchestreert de volledige VERIFY→ENRICH→AUTO-MERGE cyclus autonoom tot 0 open gaps (met max-iteraties)
+Actief:
+- `tools/extractie/verify_records.py` — subagent-runner voor VERIFY (model: `VERIFY_MODEL = "claude-sonnet-4-6"`)
+- `tools/extractie/export_bundle.py` — print anker-bundle naar stdout (sqlite-membership + ChromaDB-tekst)
 - `tools/examen/classify_vragen_naar_programmaonderdelen.py` — one-off classificatie van examenvragen naar programmaonderdelen via Sonnet-subagent
 - `prompts/concept-extractie-v4.md` — zelfdragende EXTRACT-prompt (schema 1.5, research-and-draft-agent, event-driven scope)
 - `prompts/concept-verify-v1.md` — VERIFY-prompt (model: Sonnet)
-- `prompts/concept-enrich-v1.md` — ENRICH-prompt met monotoon contract + discovery-signaal
+
+Verwijderd (vervangen door §18):
+- `tools/extractie/enrich_records.py` → ENRICH is EXTRACT met gap-event
+- `tools/extractie/auto_merge.py` → records-API schrijft direct, geen merge-stap
+- `tools/extractie/run_enrichment_cycle.py` → loop-orchestratie vervalt; max-iter + stall-review zit in §18.4
+- `prompts/concept-enrich-v1.md` → vervangen door `concept-extractie-v4.md` met feedback-event-ctx
 
 ### 14. Fase D — Competentie-destillatie (schema 1.3, 2026-05-15)
 

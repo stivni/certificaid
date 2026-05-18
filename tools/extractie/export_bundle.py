@@ -1,23 +1,23 @@
 """
 Exporteer de bundel van één anchor met volledige chunk-teksten — input voor
-de per-anchor concept-extractie subagent (ADR-008 fase C).
+de EXTRACT-subagent (ADR-008 §18).
 
-Leest de bundle uit de SQLite matches-store (ADR-005 §9.1).
+Bron-van-waarheid: SQLite matches-store (ADR-005 §9.1) voor bundle-membership,
+ChromaDB voor chunk-tekst en bron-metadata.
 
-Output: data/extractie/<po>/bundles/<po>-<anchor-id-slug>.json
-met:
-  - anchor info (tekst, verbose, synoniemen)
-  - bundle: lijst van chunks met chunk_id, bron, sectie, score, EN volle tekst
+Output: bundle-JSON naar stdout. Stderr: chunk- en char-telling.
+Geen disk-snapshot — geen stale files.
 
 Gebruik:
   python3 -m tools.extractie.export_bundle --po 4.0 --anchor-id 4.0.I.D.7
+  python3 -m tools.extractie.export_bundle --po 1.5 --anchor-id 1.5.V.C > /tmp/bundle.json
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import re
+import sys
 from pathlib import Path
 
 import chromadb
@@ -28,10 +28,6 @@ from tools.lib.matches_store import DEFAULT_DB_PATH, open_store, get_bundle
 ROOT = Path(__file__).resolve().parent.parent.parent
 EMBEDDING_MODEL = "BAAI/bge-m3"
 DEFAULT_ANCHORS_PATH = ROOT / "data" / "programma" / "anchors.json"
-
-
-def slugify(s: str) -> str:
-    return re.sub(r"[^a-zA-Z0-9.-]+", "-", s).strip("-")
 
 
 _BRON_DIRS = (
@@ -76,7 +72,8 @@ def _warn_if_store_stale(db_path: Path) -> None:
             f"[bundle]                ADR-005 §9 refresh-gate: draai "
             f"`python3 -m tools.etl.refresh_rag_and_matches` voor je nieuwe "
             f"extracties start, anders zit deze bundel mogelijk niet meer "
-            f"synchroon met de trust-state."
+            f"synchroon met de trust-state.",
+            file=sys.stderr,
         )
 
 
@@ -114,7 +111,7 @@ def main() -> None:
     bundle_chunk_ids = [chunk_id for chunk_id, _score in bundle_chunks]
     bundle_scores = {chunk_id: score for chunk_id, score in bundle_chunks}
 
-    print(f"[bundle] {len(bundle_chunk_ids)} chunks voor {args.anchor_id}")
+    print(f"[bundle] {len(bundle_chunk_ids)} chunks voor {args.anchor_id}", file=sys.stderr)
 
     # Haal volle tekst op uit ChromaDB
     chroma_path = Path(args.chroma_path) if args.chroma_path else (ROOT / "data" / "rag" / "main")
@@ -176,14 +173,15 @@ def main() -> None:
         "bundle": bundle_with_text,
     }
 
-    out_dir = ROOT / "data" / "extractie" / args.po / "bundles"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"{args.po}-{slugify(args.anchor_id)}.json"
-    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    json.dump(out, sys.stdout, ensure_ascii=False, indent=2)
+    sys.stdout.write("\n")
 
     total_chars = sum(len(c["text"]) for c in bundle_with_text)
-    print(f"[output] {out_path.relative_to(ROOT)}")
-    print(f"         {len(bundle_with_text)} chunks, ~{total_chars:,} chars (~{total_chars // 4:,} tokens)")
+    print(
+        f"[bundle] {len(bundle_with_text)} chunks, ~{total_chars:,} chars "
+        f"(~{total_chars // 4:,} tokens)",
+        file=sys.stderr,
+    )
 
 
 if __name__ == "__main__":

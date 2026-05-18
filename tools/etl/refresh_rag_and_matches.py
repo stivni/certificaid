@@ -6,9 +6,9 @@ Achtergrond
 -----------
 `mark_trusted.py` zet wel de trust-status maar raakt de RAG-index niet aan.
 Resultaat: een bron op `trusted` zetten maakt hem nog niet zichtbaar voor
-`match_bronnen.py` (anchor-bundles) tot iemand de reindex draait. Als je
-daarna alvast nieuwe extracties laat lopen, werken die op stale bundles
-en missen ze de net getrustete bron volledig.
+`match_bronnen.py` (matches-store) tot iemand de reindex draait. Als je
+daarna alvast nieuwe extracties laat lopen, werken die op een stale
+matches-store en missen ze de net getrustete bron volledig.
 
 Dit script lost dat op door beide stappen achter elkaar te draaien:
 
@@ -35,7 +35,7 @@ Aanvullende vlag-passthrough naar match_bronnen.py:
 
 De wrapper retourneert exit-code 0 alleen als beide stappen lukken; bij
 een crash in stap 1 wordt stap 2 niet meer aangevuurd (anders mismatch
-tussen index en bundles).
+tussen index en matches-store).
 """
 from __future__ import annotations
 

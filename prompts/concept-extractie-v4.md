@@ -544,20 +544,28 @@ Beschrijf het twijfelgeval concreet: welk record, welke claim, welke twee opties
 
 Je initial-ctx bevat afhankelijk van het event-type:
 
+Ankerbundels haal je on-demand op uit sqlite + ChromaDB (geen file-snapshots meer):
+
+```bash
+python3 -m tools.extractie.export_bundle --po <po> --anchor-id <anchor-id>
+```
+
+Print de bundle-JSON naar stdout (anker-meta, chunks met `chunk_id`, `bron`, `bron_rol`, `sectie`, `score`, volle `text`). Pipe naar `jq` of redirect naar een werkbestand zoals je verkiest. Bron-van-waarheid: `data/extractie/matches.sqlite3` (membership) + `data/rag/main/` (tekst).
+
 **Nieuwe programmaonderdeel**:
 - Inhoud van `data/programma/programma.json` voor het betrokken programmaonderdeel (taken, doelstellingen, kenniselementen)
-- Relevante ankerbundels uit `data/extractie/<programmaonderdeel>/bundles/`
+- Relevante ankerbundels via `export_bundle.py` (per anker apart op te halen)
 - Resultaat van concept-RAG-query op cross-programmaonderdeel records met overlappende `linked_anchors`
 
 **Nieuwe bron**:
 - De nieuwe bron-chunks
-- Geraakte ankerbundels
+- Geraakte ankerbundels via `export_bundle.py`
 - Bestaande records op de geraakte ankerpunten (via concept-RAG)
 
 **Feedback-set uit VERIFY**:
 - Het feedback-rapport (concrete punten per record)
 - De betrokken records (via records-API of file-read)
-- Relevante bron-chunks (via ankerbundels van de betrokken ankerpunten)
+- Relevante bron-chunks via `export_bundle.py` (ankerbundels van de betrokken ankerpunten)
 - Buur-records (via concept-RAG, voor vergelijkingen en edge-consistentie)
 
 ---

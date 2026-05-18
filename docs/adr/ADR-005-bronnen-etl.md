@@ -524,7 +524,7 @@ for anchor_id in unieke_geraakte_anchors:
 
 **Embedding-source-of-truth blijft ChromaDB**: SQLite is alleen matches-store. Chunk-embeddings worden batched opgehaald via `collection.get(ids=[...], include=['embeddings'])` tijdens herberekening. Geen embedding-duplicatie.
 
-**Consumer-aanpassing**: `tools/extractie/export_bundle.py` en downstream consumers lezen niet meer uit `matches/latest.json` maar via een query-helper (`tools/lib/matches_store.py`) die de SQLite leest. Top-margin-bundle per anchor → `SELECT chunk_id, score FROM matches WHERE anchor_id = ? AND in_bundle = 1`.
+**Consumer-aanpassing** (✓ 2026-05-18): `tools/extractie/export_bundle.py` leest via `tools/lib/matches_store.py` (sqlite-membership) + ChromaDB (chunk-tekst) en print de bundle naar stdout. Geen JSON-snapshots meer in `data/extractie/<po>/bundles/`. `enrich_records.py` is verwijderd (ADR-008 §18 — EXTRACT v4 vervangt ENRICH). Top-margin-bundle per anchor → `SELECT chunk_id, score FROM matches WHERE anchor_id = ? AND in_bundle = 1`.
 
 **Helpers** (`tools/lib/matches_store.py`):
 

@@ -8,17 +8,17 @@
 
 Concept-records leven op twee plekken tegelijk: op disk in `data/concepten/records/*.json` én geïndexeerd in de `concepten`-collection van `data/rag/main` (ADR-006, ADR-018). Beide zijn nodig — disk is source-of-truth, RAG is de doorzoekbare projectie die SYNTHESIZE / VERIFY / tutor gebruiken voor globale record-awareness.
 
-Vandaag schrijven **negen scripts** naar disk zonder centrale RAG-discipline:
+Vandaag schrijven **zeven scripts** naar disk zonder centrale RAG-discipline:
 
 - `tools/leermateriaal/propose_competenties.py`
 - `tools/leermateriaal/lib/frontmatter.py`
 - `tools/etl/remove_bron.py`
 - `tools/etl/mark_stale.py`
-- `tools/extractie/enrich_records.py`
-- `tools/extractie/auto_merge.py`
 - `tools/extractie/verify_records.py`
 - `tools/extractie/index_concept_incremental.py` (wel met daemon-call)
 - `tools/rag/rag_index.py`
+
+> Update 2026-05-18: `enrich_records.py` en `auto_merge.py` zijn verwijderd (ADR-008 §18 — EXTRACT v4 vervangt ENRICH/AUTO-MERGE). De refactor-tabel hieronder noemt ze nog als historische scope-uitleg.
 
 Symptomen die we al gemeten hebben (snapshot 2026-05-17):
 
@@ -235,8 +235,8 @@ Elk script dat momenteel naar `data/concepten/records/` schrijft moet de API geb
 
 | Script | Huidig gedrag | Na refactor |
 |---|---|---|
-| `tools/extractie/auto_merge.py` | `Path.write_text(json.dumps(record))` | `records_api.save_record(record)` |
-| `tools/extractie/enrich_records.py` | idem | idem |
+| ~~`tools/extractie/auto_merge.py`~~ | ~~`Path.write_text(json.dumps(record))`~~ | **verwijderd 2026-05-18** (ADR-008 §18) |
+| ~~`tools/extractie/enrich_records.py`~~ | ~~idem~~ | **verwijderd 2026-05-18** (ADR-008 §18) |
 | `tools/extractie/verify_records.py` | leest alleen, schrijft niet → controleren | (no-op indien klopt) |
 | `tools/extractie/index_concept_incremental.py` | leest record + daemon call | **verwijderd**; bulk-reindex via `records_api` CLI (`audit --fix`, `reindex-all`) |
 | `tools/etl/mark_stale.py` | mute records (stale-flag) | `records_api.save_record(updated)` |

@@ -137,7 +137,7 @@ Schrijf elke geconstateerde gap als een nieuw object naar `data/extractie/gaps.j
 1. Lees het bestaande `data/extractie/gaps.json` (leeg array `[]` als het bestand niet bestaat).
 2. Voeg nieuwe gap-objecten toe aan de array.
 3. Schrijf de volledige bijgewerkte array terug.
-4. Verwijder **nooit** bestaande gap-entries — ook niet als je denkt dat ze opgelost zijn. Status-updates zijn voorbehouden aan `enrich_records.py`.
+4. Verwijder **nooit** bestaande gap-entries — ook niet als je denkt dat ze opgelost zijn. Status-updates zijn voorbehouden aan de EXTRACT-feedback-event-pas (ADR-008 §18).
 
 ### Deduplicatie
 

@@ -1,7 +1,7 @@
 # Prep-doc: PO 1.1-doorloop (en alle volgende PO's)
 
 **Datum**: 2026-05-16
-**Status**: Draft — wacht op review + design-sessie (P1+P4)
+**Status**: **Verouderd (2026-05-18)** — De 14-stappen-workflow hieronder is geschreven vóór ADR-008 §18 (EXTRACT v4 met event-driven scope). Stap 5–7 (EXTRACT → VERIFY → ENRICH + auto-merge) is vervangen door één EXTRACT-agent met gap-feedback-loop; `enrich_records.py` en `auto_merge.py` bestaan niet meer. Voor de actuele flow: zie ADR-008 §18. Dit document wordt herwerkt of gearchiveerd zodra de volgende PO-doorloop start.
 **Context**: PO 1.4 is af (Sessies 3+4+5 + 12 template-bugs + 5 regression-tests + ADR-010 §template-discipline). Dit document plant de doorloop voor PO 1.1 (Algemene boekhouding, 29 anchors) — en is herbruikbaar voor PO 1.2, 1.3, etc.
 
 ---

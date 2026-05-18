@@ -26,7 +26,7 @@ def test_warn_if_store_stale_zwijgt_bij_verse_store(tmp_path, capsys, monkeypatc
     monkeypatch.setattr(export_bundle, "_BRON_DIRS", (bron_dir,))
     export_bundle._warn_if_store_stale(store)
     captured = capsys.readouterr()
-    assert "WAARSCHUWING" not in captured.out
+    assert "WAARSCHUWING" not in captured.err
 
 
 def test_warn_if_store_stale_waarschuwt_bij_nieuwere_bron(tmp_path, capsys, monkeypatch):
@@ -47,9 +47,9 @@ def test_warn_if_store_stale_waarschuwt_bij_nieuwere_bron(tmp_path, capsys, monk
     monkeypatch.setattr(export_bundle, "_BRON_DIRS", (bron_dir,))
     export_bundle._warn_if_store_stale(store)
     captured = capsys.readouterr()
-    assert "WAARSCHUWING" in captured.out
-    assert "X.md" in captured.out
-    assert "refresh-gate" in captured.out
+    assert "WAARSCHUWING" in captured.err
+    assert "X.md" in captured.err
+    assert "refresh-gate" in captured.err
 
 
 def test_warn_skipt_index_en_readme_bestanden(tmp_path, capsys, monkeypatch):
@@ -70,7 +70,7 @@ def test_warn_skipt_index_en_readme_bestanden(tmp_path, capsys, monkeypatch):
     monkeypatch.setattr(export_bundle, "_BRON_DIRS", (bron_dir,))
     export_bundle._warn_if_store_stale(store)
     captured = capsys.readouterr()
-    assert "WAARSCHUWING" not in captured.out
+    assert "WAARSCHUWING" not in captured.err
 
 
 def test_warn_geeft_geen_crash_zonder_store(tmp_path, capsys, monkeypatch):
@@ -78,4 +78,4 @@ def test_warn_geeft_geen_crash_zonder_store(tmp_path, capsys, monkeypatch):
     monkeypatch.setattr(export_bundle, "_BRON_DIRS", (tmp_path,))
     export_bundle._warn_if_store_stale(tmp_path / "nope.sqlite3")
     captured = capsys.readouterr()
-    assert captured.out == ""
+    assert captured.err == ""
