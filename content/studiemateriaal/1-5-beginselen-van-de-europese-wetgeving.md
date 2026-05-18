@@ -326,7 +326,7 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 <!-- TODO: Opus-glue examenfocus -->
 
-> [!question]- 2024-1-vr7 (punten onbekend)
+> [!question]- 📃 Wetgeving jaarrekening + IFRS · ITAA 2024-1 vraag 7 (tier A)
 > 7 IFRS
 > A. Onder IAS/ IFRS zijn volgende methoden mogelijk: ( Juist/ fout)
 > A. Fifo, Lifo, gewogen gemiddelde, individueel.
@@ -351,8 +351,7 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 > d. Afschr. MVA mag stopgezet worden wanneer reële waarde van het actief groter is
 > dan boekwaarde
 > D. Operationele / financiële laesing, hoe behandelen?
->
-> _Thema's: ifrs, afschrijvingen_
+
 
 
 ## Competentie-index

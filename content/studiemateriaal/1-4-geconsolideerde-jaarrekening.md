@@ -79,6 +79,14 @@ gegenereerd_op: '2026-05-18'
 
 <!-- TODO: Opus-glue synthese-intro -->
 
+| Stap | Toets | Welk concept? | Bij 'ja' | Bij 'nee' |
+|---|---|---|---|---|
+| 1 | Is de moeder een vennootschap met rechtspersoonlijkheid? | [[moedervennootschap]] | Door naar stap 2 | Geen consolidatieplicht (natuurlijke persoon → eventueel consortium-piste) |
+| 2 | Bestaat er controle (in rechte of in feite) over één of meer dochters? | [[controle]] | Door naar stap 3 | Geen consolidatieplicht |
+| 3 | Of: zijn er meerdere vennootschappen onder centrale leiding zonder onderlinge moeder-dochter? | [[consortium]] | Consortium-consolidatie (horizontaal), door naar stap 4 | Verticale groep, door naar stap 4 |
+| 4 | Overschrijdt de groep meer dan één van de groottecriteria op geconsolideerde basis? | [[groottecriteria-consolidatie]] · [[groep-van-beperkte-omvang]] | Door naar stap 5 | Vrijstelling 'groep van beperkte omvang' — geen consolidatieplicht (tenzij beursgenoteerd) |
+| 5 | Wordt de moeder zelf al opgenomen in een gelijkwaardige geconsolideerde jaarrekening hogerop in de EU (≥ 90 % deelneming)? | [[vrijstelling-subconsolidatie]] | Vrijstelling subconsolidatie — moeder consolideert niet zelf, tenzij dochter beursgenoteerd | **Consolideren** — moeder maakt geconsolideerde jaarrekening op |
+
 ```mermaid
 flowchart TD
   A[Aurelia Holding NV — moet zij consolideren?] --> B{Rechtspersoonlijkheid?}
@@ -101,13 +109,13 @@ flowchart TD
 ```
 
 **Kerninzichten**:
+
 - Geen enkele moeder is automatisch consolidatieplichtig — er zijn altijd vijf parallelle toetsen die elk een 'nee' kunnen geven. Een examenvraag die zegt 'moeder X heeft controle over dochter Y, dus moet zij consolideren' kapt de redenering te vroeg af.
 - Een natuurlijke persoon kan nooit moeder zijn (geen rechtspersoonlijkheid), maar haar gecontroleerde vennootschappen kunnen samen wel een consortium vormen. De plicht verschuift dan van één entiteit naar 'de leden samen'.
 - De groottecriteria zijn 'op geconsolideerde basis' — je moet dus een fictieve geconsolideerde balans opbouwen om te beslissen of je een echte moet maken. Dat is geen circulariteit maar een toetscriterium.
 - Beursnotering breekt zowel de 'groep van beperkte omvang'-vrijstelling als de subconsolidatie-vrijstelling. Voor genoteerde vennootschappen geldt: altijd consolideren, drempels of hogere moeder doen er niet toe.
 
-[[consolidatieplicht-beslisboom|→ Volledige synthese-fiche]]
-
+_Bouwt op_: [[consolidatieverplichting]] · [[moedervennootschap]] · [[controle]] · [[consortium]] · [[groep-van-beperkte-omvang]] · [[groottecriteria-consolidatie]] · [[vrijstelling-subconsolidatie]]
 ## Het fundamentele begrippenkader: controle en de actoren in een groep
 
 > [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
@@ -171,6 +179,13 @@ flowchart TD
 
 <!-- TODO: Opus-glue synthese-intro -->
 
+| Methode | Voorwaarde | Op balans | Belangen van derden | Consolidatieverschil |
+|---|---|---|---|---|
+| [[integrale-consolidatie\|Integrale consolidatie]] | Exclusieve controle (> 50% stemrechten of controle in feite) | Activa/passiva voor 100% opgenomen | Apart op passiefzijde | Wel mogelijk |
+| [[evenredige-consolidatie\|Evenredige consolidatie]] | Gezamenlijke controle (overeenkomst tussen vennoten) | Activa/passiva pro-rata opgenomen | Niet apart (zit niet in de cijfers) | Wel mogelijk |
+| [[vermogensmutatiemethode\|Vermogensmutatiemethode]] | Invloed van betekenis (≥ 20% stemrechten) of uitgesloten dochter | Eén balanspost: 'Vennootschappen waarop vermogensmutatie is toegepast' | Niet van toepassing | Wel mogelijk |
+| [[horizontale-consolidatie\|Horizontale consolidatie (consortium)]] | Horizontale groep zonder moeder; centrale leiding (kan natuurlijke persoon zijn) | Activa/passiva voor 100% per consortium-lid, eigen-vermogensposten behouden hun karakter | Per consortium-lid | Wel mogelijk |
+
 ```mermaid
 flowchart TD
   A[Welk type relatie tussen moeder en dochter?] --> B{Is er een echte moeder<br/>die de dochters controleert?}
@@ -188,12 +203,12 @@ flowchart TD
 ```
 
 **Kerninzichten**:
+
 - Controle (in rechte of feite) bepaalt eerst of er een groep is. Pas daarna kies je de methode op basis van controle-niveau.
 - Het ENIGE verschil tussen integrale en evenredige consolidatie is of je activa/passiva volledig opneemt (en het derden-deel apart presenteert) of pro-rata (zonder afzonderlijke derden-post).
 - Horizontale consolidatie is de buitenbeentje: er is geen moeder, er zijn alleen consortium-leden die door een gemeenschappelijke leiding samen opereren. Een natuurlijke persoon (bv. Pieter Vermeulen) kan die leiding zijn.
 
-[[consolidatiemethodes-vergelijking|→ Volledige synthese-fiche]]
-
+_Bouwt op_: [[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[vermogensmutatiemethode]] · [[horizontale-consolidatie]]
 ## Kiezen van de toe te passen consolidatietechniek per entiteit
 
 > [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
@@ -301,26 +316,7 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 <!-- TODO: Opus-glue examenfocus -->
 
-> [!question]- 2008-bibf-vrB.1 (punten onbekend)
-> B.1 In een groep controleert vennootschap A twee dochters B en C.
-> Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12%
-> vertegenwoordigen van het stemrecht in C.
-> Boek deze aankoop in de onderneming B.
->
-> _Thema's: deelneming-verbonden-onderneming, groepsstructuur_
-
-> [!question]- 2008-bibf-vrB.2 (punten onbekend)
-> B.2 De hierboven vermelde vennootschap B stelt 5 voltijdse equivalenten tewerk
-> en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A
-> telt 120 werknemers, berekend in voltijdse equivalenten.
-> Welk schema moet / mag de vennootschap A voor haar jaarrekening
-> gebruiken?
-> Welk schema moet / mag de vennootschap B voor haar jaarrekening
-> gebruiken?
->
-> _Thema's: jaarrekening-schema, groottecriteria, geconsolideerde-grondslag_
-
-> [!question]- 2013-1-vr3 (3.0 pt)
+> [!question]- 📃 Analyse en kritische beoordeling van de jaarrekening · ITAA 2013-1 vraag 3 (tier B)
 > Vraag 3 … / 3 punten
 > Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder
 > welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de
@@ -328,38 +324,30 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 > die worden gehouden door andere personen dan de consoliderende vennootschap of de in
 > de consolidatie opgenomen dochterondernemingen moet worden vermeld.
 > Antwoord
->
-> _Thema's: consolidatie_
 
-> [!question]- 2013-1-vr4 (3.0 pt)
+> [!question]- 📃 Analyse en kritische beoordeling van de jaarrekening · ITAA 2013-1 vraag 4 (tier B)
 > Vraag 4 … / 3 punten
 > De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
 > jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
 > afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
 > Antwoord
->
-> _Thema's: consolidatie_
 
-> [!question]- 2013-2-vr4 (10.0 pt)
+> [!question]- 📃 Analyse en kritische beoordeling van de jaarrekening · ITAA 2013-2 vraag 4 (tier B)
 > Vraag 4 … / 10 punten
 > a) Wat is een positief consolidatieverschil ?
 > Antwoord … / 2 punten
 > b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
 > Antwoord … / 8 punten
->
-> _Thema's: consolidatie_
 
-> [!question]- 2014-1-vr3 (3.0 pt)
+> [!question]- 📃 Analyse en kritische beoordeling van de jaarrekening · ITAA 2014-1 vraag 3 (tier B)
 > Vraag 3 … / 3 punten
 > De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
 > jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
 > afwijken.
 > Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
 > Antwoord
->
-> _Thema's: consolidatie_
 
-> [!question]- 2014-1-vr4 (9.0 pt)
+> [!question]- 📃 Analyse en kritische beoordeling van de jaarrekening · ITAA 2014-1 vraag 4 (tier B)
 > Vraag 4 … / 9 punten
 > Vul onderstaande tabel aan op basis van volgende gegevens.
 > M
@@ -371,17 +359,14 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 > M IN A
 > M IN B
 > M IN C
->
-> _Thema's: consolidatie_
 
-> [!question]- 2015-1-vr4 (6.0 pt)
+> [!question]- 📃 Analyse en kritische beoordeling van de jaarrekening · ITAA 2015-1 vraag 4 (tier B)
 > Vraag 4 … / 6 punten
 > a) Wat is een positief consolidatieverschil ?
 > Antwoord … / 2 punten
 > b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
 > Antwoord … / 4 punten
->
-> _Thema's: consolidatie_
+
 
 
 ## Competentie-index

@@ -1,10 +1,11 @@
 # ADR-009: Examenpatronen
 
 **Status**: Draft
-**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-18 (render-rubriek in minicursus + AI-varianten + eenrichtingsverkeer + schema-detail examenfocus/voorbeeldvraag)
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-18 (render-rubriek in minicursus + AI-varianten + eenrichtingsverkeer + schema-detail examenfocus/voorbeeldvraag + één-lijst-met-inline-icoon)
 
 ## Changelog
 
+- **2026-05-18 (later 3)** — Render-aanpassing §6: **één gemengde lijst** met inline label-icoon op de callout-titel (📃 voor echte vragen + examen-id/jaar, 🤖 voor synthetische varianten). Vervangt eerdere "twee subkoppen"-aanpak — pedagogisch is één lijst rustiger (geen visuele segregatie), label-icoon bij elke callout-titel maakt het verschil onmiddellijk zichtbaar. Mode B (fallback naar legacy `examen_vragen/`-callouts zonder examenfocus-binding) is **verwijderd**: alle examenvraag-rendering verloopt via `data/exam_focus/*.json` en `data/voorbeeldvragen-synthetisch/*.json` (no leftovers). Lichte bootstrap-generator `tools/examen/genereer_examenfocus_uit_classificatie.py` zet bestaande classificaties om naar examenfocus-objecten zodat mode A meteen werkt.
 - **2026-05-18 (later)** — Schema-detail voor `examenfocus--*.json` en `voorbeeldvraag--*.json` vastgepind in §7. Hernoeming van `gvraag` (afkorting, schond CLAUDE.md regel 8) naar `voorbeeldvraag` met `bron`-property als first-class onderscheid (`"examen"` voor echte vragen in `data/programma/examen_vragen/<jaar>.json`; `"synthetisch"` voor AI-varianten in `data/voorbeeldvragen-synthetisch/`). Beide objecttypes hadden tot dan toe een impliciet schema; nu expliciet met validatie-regels (`tools/examen/validate_examenfocus.py`, `tools/examen/validate_voorbeeldvraag.py`). Confidence-afleiding ⚖️/🤖 op render-tijd vanuit voorbeeldvragen-tier (geen `bron`-veld op examenfocus zelf — multi-tier-aggregatie). Stale-detectie op concept-/patroon-update via `rebuild_triggers[]` op synthetische voorbeeldvraag, run-time scan op examenfocus. §7 oorspronkelijk "Wat NIET in" → hernummerd naar §8.
 - **2026-05-18** — Drie verfijningen na ontwerp leermateriaal-laag (ADR-010 §interpretatieve-laag):
   1. **Eenrichtingsverkeer concept ↔ patroon** expliciet gemaakt. `examenfocus`-objecten verwijzen naar concept-IDs; concepten verwijzen **niet terug** — geen edge-type `getoetst-door` in concept-records. Reden: anti-circulariteit (ADR-008 §0). Examenvragen mogen voortbouwen op concepten; concepten mogen niet vormgegeven worden door examenvragen. Render-laag (minicursus) doet de back-reference run-time door alle `examenfocus`-objecten te scannen voor `concept_id in {records van deze PO}`.
@@ -59,18 +60,20 @@ Examenpatronen + voorbeeldvragen + AI-varianten verschijnen voor de student **ui
 **Plek**: eind-rubriek per minicursus, vaste sectie-titel "Examenfocus" als laatste H2 vóór eventuele "Verder lezen"-sectie. Reden: pre-toetsing zonder camouflage-spoilers.
 
 **Vorm**: `> [!question]-` callouts (collapsed), **één callout per voorbeeldvraag** (niet per examenfocus-object). Bij multi-voorbeeldvragen onder dezelfde examenfocus krijgt elke voorbeeldvraag een eigen callout met dezelfde patroon-aanduiding maar verschillende examen-bron:
-- **Titel**: `<examenpatroon-naam> · <examen-ID> vraag <vraag-nr>` — geen vraag-tekst in de titel (anti-spoiler)
-- **Body (geopend)**: de exacte vraag-tekst uit `data/programma/examen_vragen/<examen_id>.json`
-- **Optioneel binnen body**: `> [!success]-` collapsed met `antwoord_motivering` (uit examen-vragen-JSON, indien `antwoord_bron` gevuld) of `redenering` (voor `voorbeeldvraag`)
+- **Titel**: `<icoon> <examenpatroon-naam> · <bron-aanduiding>` — geen vraag-tekst in de titel (anti-spoiler)
+  - **📃** voor echte ITAA/BIBF-vragen, gevolgd door examen-id (bv. *"📃 Leasing IFRS — ITAA 2024-1 vraag 7 (tier A)"*)
+  - **🤖** voor synthetische varianten, gevolgd door patroon-id (bv. *"🤖 Liquiditeitstoets-beslisboom — synthetische variant"*)
+- **Body (geopend)**: de exacte vraag-tekst uit `data/programma/examen_vragen/<examen_id>.json` (echt) of `voorbeeldvraag--*.json.vraag_tekst` (synthetisch)
+- **Optioneel binnen body**: `> [!success]-` collapsed met `antwoord_motivering` (uit examen-vragen-JSON, indien `antwoord_bron` gevuld) of `voorbeeld_oplossing` + `redenering` (voor `voorbeeldvraag`)
 
 Voor `voorbeeldvraag--*.json` is er per object steeds één voorbeeldvraag (de gegenereerde vraag zelf) → één callout per voorbeeldvraag.
 
-**Render-sortering** binnen de "Voorbeeldvragen"-subkop: tier A → B → C uit `voorbeeldvragen[].tier` (zie §7 schema), zodat moderne, meer representatieve vragen bovenaan staan.
+**Render-sortering** binnen één gemengde lijst: echte vragen tier A → B → C → synthetische varianten alfabetisch op patroon-naam. De inline-icoon (📃/🤖) op elke callout-titel maakt het verschil onmiddellijk zichtbaar — geen aparte subkoppen meer (pedagogisch rustiger; segregatie zou suggereren dat synthetisch minder waard is, terwijl het voor oefenen evenwaardig is).
 
-**Confidence-presentatie**:
-- Echte ITAA/BIBF-vragen (callout afgeleid uit `examenfocus.voorbeeldvragen[].tier ∈ {A, B, C}`): ⚖️
-- AI-gegenereerde varianten (`voorbeeldvraag--*.json`, `confidence: "inferred"`): altijd 🤖, plus subkop "Synthetische oefenvarianten (🤖)" als visuele groepering
-- Geen mixing in dezelfde lijst — twee subkoppen onder de eind-rubriek
+**Confidence-presentatie** (afgeleid op render-tijd, niet via `bron`-veld op examenfocus):
+- Echte ITAA/BIBF-vragen → 📃 inline op de callout-titel + examen-id
+- AI-gegenereerde varianten (`voorbeeldvraag--*.json`, `confidence: "inferred"`) → 🤖 inline op de callout-titel
+- Eén gemengde lijst onder `## Examenfocus`. Volgorde: alle 📃 eerst (tier-gesorteerd), dan alle 🤖 (alfabetisch).
 
 **Eenrichtings-edge (anti-circulariteit)**: `examenfocus.concept_ids[]` verwijst naar concept-records; concept-records hebben **geen** `getoetst-door`-edge terug. Reden: een concept-record mag niet vorm krijgen door een examenvraag (zie ADR-008 §0). Render-laag doet de back-reference run-time: minicursus voor PO X scant alle `examenfocus`-objecten en selecteert die waarvan `concept_ids` ⊆ records van PO X.
 
@@ -83,7 +86,7 @@ Voor `voorbeeldvraag--*.json` is er per object steeds één voorbeeldvraag (de g
 **AI-variant-genereren** (optioneel, op verzoek):
 1. Patroon-template × concept-record → `voorbeeldvraag--*.json` via `tools/examen/generate.py`
 2. Verplichte velden: `vraag_tekst`, `voorbeeld_oplossing`, `redenering`, `confidence: "inferred"`, `gebaseerd_op_patroon: <patroon_id>`, `gebaseerd_op_concepten: [<concept_ids>]`
-3. Render groepeert onder de "Synthetische oefenvarianten (🤖)"-subkop
+3. Render plaatst de callout in de gemengde lijst onder `## Examenfocus`, met 🤖-inline op de callout-titel
 
 ### 7. Schema-detail voor `examenfocus`- en `voorbeeldvraag`-objecten (2026-05-18)
 
@@ -219,15 +222,15 @@ _provenance:
 
 **Stale-detectie**: bij elke concept- of patroon-update, scan `voorbeeldvraag`-objecten waar de ID in `rebuild_triggers[]` zit → markeer stale → bij volgende run van `tools/examen/generate.py --rebuild-stale` worden ze opnieuw gegenereerd.
 
-#### Render-confidence-afleiding (consumer-zijde)
+#### Render-icoon-afleiding (consumer-zijde)
 
-Minicursus-render bepaalt ⚖️/🤖 niet uit een `bron`-veld op `examenfocus` zelf, maar afgeleid:
+Minicursus-render bepaalt het inline icoon op de callout-titel via:
 
-- Een `examenfocus`-object met minstens 1 `voorbeeldvragen[]` uit tier A/B/C examen-JSON → render ⚖️ in de minicursus-eindrubriek (echte vraag).
-- Een `voorbeeldvraag--*.json`-object → altijd 🤖 in de minicursus-eindrubriek (synthetische variant), gegroepeerd onder eigen subkop.
-- Géén mixing van examenfocus en voorbeeldvraag in dezelfde lijst — twee subkoppen onder "Examenfocus" (ADR-009 §6).
+- Een `examenfocus`-object met minstens 1 echte voorbeeldvraag (`voorbeeldvragen[].tier ∈ {A, B, C}`) → render 📃 inline + examen-id op de callout-titel.
+- Een `voorbeeldvraag--*.json`-object met `bron: "synthetisch"` → altijd 🤖 inline op de callout-titel.
+- **Eén gemengde lijst** onder `## Examenfocus` (zie §6). Sortering: alle 📃 eerst (tier A→B→C), dan alle 🤖 (alfabetisch op patroon-naam).
 
-Reden voor afleiding (i.p.v. `bron`-veld op examenfocus): een examenfocus aggregeert vragen uit meerdere examens (multi-tier). Een single `bron`-veld zou geen recht doen aan die aggregatie. Tier-info zit op voorbeeldvraag-niveau, render-laag aggregeert.
+Reden inline-icoon i.p.v. subkoppen: pedagogisch rustiger (geen visuele segregatie suggereert geen waardeverschil), en de icoon per callout-titel is direct herkenbaar zonder context-switch.
 
 ### 8. Wat NIET in examenpatronen-objecten hoort
 

@@ -193,11 +193,9 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus -->') }}
 
-{% if examenfocus_callouts %}
-### Voorbeeldvragen uit ITAA/BIBF-examens ⚖️
-
+{% if examenfocus_callouts or voorbeeldvragen_synth %}
 {% for c in examenfocus_callouts %}
-> [!question]- {{ c.patroon_naam }} · {{ c.examen_id }} vraag {{ c.vraag_nr }} (tier {{ c.tier }})
+> [!question]- 📃 {{ c.patroon_naam }} · ITAA {{ c.examen_id }} vraag {{ c.vraag_nr }} (tier {{ c.tier }})
 > {{ c.vraag_tekst | replace('\n', '\n> ') }}
 {% if c.antwoord_motivering %}
 >
@@ -206,28 +204,8 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 {% endif %}
 
 {% endfor %}
-
-{% elif examenvragen %}
-{% for vraag in examenvragen %}
-> [!question]- {{ vraag.examen_id }}-vr{{ vraag.vraag_nr }} ({% if vraag.punten %}{{ vraag.punten }} pt{% else %}punten onbekend{% endif %})
-> {{ vraag.vraagtekst | replace('\n', '\n> ') }}
-{% if vraag.themas %}
->
-> _Thema's: {{ vraag.themas | join(', ') }}_
-{% endif %}
-
-{% endfor %}
-{% else %}
-<!-- TODO: examenvragen via classify_vragen_naar_programmaonderdelen.py of examenfocus--*.json -->
-{% endif %}
-{% if voorbeeldvragen_synth %}
-### Synthetische oefenvarianten 🤖
-
-> [!info] Onderstaande vragen zijn AI-gegenereerd op basis van patronen × concepten van dit programmaonderdeel. Gebruik ze als oefening, niet als toetssteen voor wat het examen letterlijk vraagt.
-
-
 {% for v in voorbeeldvragen_synth %}
-> [!question]- {{ v.patroon_naam | default(v.id) }} 🤖
+> [!question]- 🤖 {{ v.patroon_naam | default(v.id) }} · synthetische variant
 > {{ v.vraag_tekst | replace('\n', '\n> ') }}
 {% if v.voorbeeld_oplossing %}
 >
@@ -241,6 +219,9 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 {% endif %}
 
 {% endfor %}
+
+{% else %}
+<!-- TODO: geen examenfocus--*.json voor dit PO; genereer via tools/examen/genereer_examenfocus_uit_classificatie.py of laat een agent examenfocus-objecten curateren -->
 
 {% endif %}
 
