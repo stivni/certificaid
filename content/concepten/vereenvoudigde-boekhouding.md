@@ -28,6 +28,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Specialisatie van: [[regelmatige-boekhouding]]
 
+> [!info] Specialisaties (1): [[regelmatige-boekhouding]]
+
 Een **alternatieve boekhoudvorm** voor kleine ondernemingen onder de wettelijke drempelwaarden (WER art. III.85), die GEEN dubbele boekhouding vereist. In plaats van een rekeningstelsel met debet/credit gebruikt de onderneming **drie aparte dagboeken**: een financieel dagboek (bank en kas), een aankoopdagboek (alle uitgaven) en een verkoopdagboek (alle inkomsten). De jaarrekening is een vereenvoudigd schema (staat van ontvangsten en uitgaven + opgave van het vermogen).
 
 _Bron: WER art. III.85_

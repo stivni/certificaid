@@ -484,7 +484,7 @@ Resultaat: Hypothese 1: boekwaarde +€ 375.000 → € 687.500; resultaat verbe
 ## Zie ook
 
 - **Getriggerd door**: [[invloed-van-betekenis]]
-
+- **Triggert** (2): [[geassocieerde-onderneming]] · [[invloed-van-betekenis]]
 ## Voorbeelden
 
 Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata aandeel = 25 % × € 1.250.000 = € 312.500; positief consolidatieverschil = € 37.500. In jaar 1 maakt Drukkerij € 200.000 winst → pro-rata € 50.000 → boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000.

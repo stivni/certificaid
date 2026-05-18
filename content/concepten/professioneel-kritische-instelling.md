@@ -40,6 +40,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §42_
 > Niet enkel bij planning of bij specifieke risicogebieden — bij elke stap. Vooral bij schattingen, fraude-vermoedens en transacties met verbonden partijen. ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[boekhoudkundige-schattingen-audit]]
 ## Voorbeelden
 
 De CFO van Rotex Roeselare NV vertelt Sofie Janssens dat de voorraadwaardering klopt 'volgens onze gebruikelijke methode'. Vanuit een professioneel-kritische instelling vraagt Sofie de methode op schrift, controleert ze tegen vorig jaar, en test ze op een steekproef — ze gelooft de mondelinge bevestiging niet zonder onderbouwing.

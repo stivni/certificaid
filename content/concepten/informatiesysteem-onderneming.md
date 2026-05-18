@@ -25,6 +25,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[stromen-onderneming]]
+
 Het informatiesysteem is het geheel van procedures, mensen, software en hardware dat data in een onderneming verzamelt, verwerkt, opslaat en distribueert. Voor interne controle is het cruciaal: zonder betrouwbare informatie kan het management niet sturen, kan de boekhouding niet kloppen en kan de externe auditor niet steunen op de cijfers.
 
 
@@ -51,7 +53,7 @@ Het informatiesysteem is het geheel van procedures, mensen, software en hardware
 ## Zie ook
 
 - **Vereist kennis van**: [[geinformatiseerde-omgeving-ic]]
-
+- **Wordt voorondersteld in** (1): [[informatie-en-communicatie-ic]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV omvat het informatiesysteem: ERP-pakket (Odoo) voor aankopen-voorraad-verkoop, payroll-software, MS Office voor rapportering. Stromen: aankoopfactuur → boekhouding → kostencentrum-toewijzing → maandrapport voor directie. Een fout in één schakel (bv. verkeerd kostencentrum) breekt de hele rapportering.

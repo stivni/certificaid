@@ -20,6 +20,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > **Ondernemingsmiddelen van onlichamelijke aard** die duurzaam voor de bedrijfsactiviteit worden gebruikt en waaruit toekomstige economische voordelen zullen vloeien.
 
+> [!info] Specialisaties (1): [[immateriele-vaste-activa-ifrs]]
+
 **Ondernemingsmiddelen van onlichamelijke aard** die duurzaam voor de bedrijfsactiviteit worden gebruikt en waaruit toekomstige economische voordelen zullen vloeien. Het MAR groepeert ze onder rubriek 21, opgesplitst in: (1) **kosten van onderzoek en ontwikkeling** (210), (2) **concessies, octrooien, licenties, know-how, merken en soortgelijke rechten** (211), (3) **goodwill** (212) en (4) **vooruitbetalingen** (213). Waardering: aanschaffingswaarde min cumul. afschrijvingen en waardeverminderingen.
 
 _Bron: CBN 2012/13 — Boekhoudkundige verwerking van immateriële vaste activa_

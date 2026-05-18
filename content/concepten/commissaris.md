@@ -106,7 +106,7 @@ _Grondslag: WVV art. 3:73 + Wet 7 december 2016_
 
 - **Vereist kennis van**: [[ibr]]
 - **Getriggerd door**: [[groottecriteria-jaarrekening]]
-
+- **Wordt voorondersteld in** (3): [[bedrijfsrevisor]] · [[ibr]] · [[wettelijke-controleopdracht-commissaris]]
 ## Voorbeelden
 
 Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders.

@@ -20,6 +20,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Het ITAA (sinds 2020) is het Belgische beroepsinstituut voor accountants, gecertificeerd accountants, fiscalisten en belastingadviseurs.
 
+> [!info] Bestaat uit (1): [[gecertificeerd-accountant-ga]]
+
 Het ITAA (sinds 2020) is het Belgische beroepsinstituut voor accountants, gecertificeerd accountants, fiscalisten en belastingadviseurs. Het overneemt de taken van de vroegere IAB en BIBF. Het ITAA reguleert toegang tot het beroep (stage + bekwaamheidsexamen), legt deontologische normen op, houdt tucht en publiceert beroepsnormen.
 
 _Bron: Wet 17 maart 2019 (oprichting ITAA)_
@@ -61,7 +63,7 @@ _Grondslag: Wet 17 maart 2019 + ITAA-normen_
 ## Zie ook
 
 - **Vereist kennis van**: [[itaa]]
-
+- **Wordt voorondersteld in** (1): [[itaa]]
 ## Voorbeelden
 
 De gecertificeerd accountant die het bekwaamheidsexamen van het ITAA aflegt, krijgt na slagen het recht de beroepstitel te dragen — een wettelijk gereglementeerd beroep.

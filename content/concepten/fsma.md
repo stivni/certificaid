@@ -55,7 +55,7 @@ _Grondslag: Wet 2 augustus 2002 (toepassingsgebied)_
 ## Zie ook
 
 - **Vereist kennis van**: [[europees-boekhoudrecht]]
-
+- **Wordt voorondersteld in** (1): [[public-interest-entity]]
 ## Voorbeelden
 
 Een beursgenoteerde groep (Public Interest Entity) moet IFRS-consolidatie publiceren — de FSMA controleert of die financiële informatie tijdig en volledig wordt verspreid.

@@ -50,7 +50,7 @@ _Bron: Wet 28 november 2022 betreffende de bescherming van melders van inbreuken
 ## Zie ook
 
 - **Vereist kennis van**: [[fraude]]
-
+- **Wordt voorondersteld in** (1): [[fraude]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV (1.200 werknemers) is een intern meldkanaal verplicht. Praktijk: een onafhankelijk online platform + telefoonlijn, beheerd door externe firma; meldingen worden geëscaleerd naar een onafhankelijke meldingsverantwoordelijke; sanctiebescherming voor melder gegarandeerd. Bij Yperse Werkplaats BV (45 werknemers): valt onder de drempel — geen wettelijke verplichting maar mag vrijwillig.

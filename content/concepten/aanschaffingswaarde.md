@@ -105,7 +105,7 @@ _Grondslag: KB WVV art. 3:13 + bestendigheid_
 ## Zie ook
 
 - **Vereist kennis van**: [[afschrijvingen]]
-
+- **Wordt voorondersteld in** (1): [[afschrijvingen]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt een snij-installatie voor € 28.500 excl. BTW; bijkomende installatiekosten € 1.250 en transport € 750. Aanschaffingswaarde = € 28.500 + € 1.250 + € 750 = € 30.500 — dat is de basis waarop afschrijvingen worden berekend en die op de balans verschijnt onder rubriek 23 'Installaties, machines en uitrusting'.

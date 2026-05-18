@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > De beroepsbeoefenaar plant de controle zodanig dat de opdracht efficiënt kan worden uitgevoerd.
 
+> [!info] Bestaat uit (2): [[auditstrategie]] · [[werkprogramma-audit]]
+
 De beroepsbeoefenaar plant de controle zodanig dat de opdracht efficiënt kan worden uitgevoerd. De planning bestaat uit twee lagen: de algemene strategie (reikwijdte, timing, omvang) en het controleprogramma (concrete werkzaamheden). De planning moet doorlopend worden bijgestuurd.
 
 _Bron: ITAA KMO-controlenorm §70-§73_
@@ -71,7 +73,7 @@ Documenteer significante wijzigingen + redenen in het controledossier (zie §45 
 ## Zie ook
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
-
+- **Triggert** (1): [[risico-inschatting-audit]]
 ## Voorbeelden
 
 Voor de audit van Rotex Roeselare NV (boekjaar 2025) stelt Sofie Janssens een algemene strategie op in oktober 2025: scope = jaarrekening volledig schema, timing = tussenfase december + eindfase februari-maart, risicogebieden = voorraden + voorzieningen, team = vier juniors + één manager. Daarop bouwt zij het concrete controleprogramma met testen en steekproeven.

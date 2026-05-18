@@ -217,4 +217,4 @@ Resultaat: Yperse moet jaarlijks minstens 17.022 tapijten verkopen om uit verlie
 - **Vereist kennis van**: [[contributiemarge]]
 - **Vereist kennis van**: [[vaste-kosten]]
 - **Vereist kennis van**: [[variabele-kosten]]
-
+- **Wordt voorondersteld in** (2): [[contributiemarge]] · [[vaste-kosten]]

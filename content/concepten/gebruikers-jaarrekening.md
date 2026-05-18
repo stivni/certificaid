@@ -124,7 +124,7 @@ _Grondslag: WVV + KB WVV (publicatie)_
 ## Zie ook
 
 - **Vereist kennis van**: [[doelstellingen-financiele-analyse]]
-
+- **Wordt voorondersteld in** (1): [[intake-financiele-analyse]]
 ## Bronnen
 
 [^1]: `CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen__sec_a-algemeen`

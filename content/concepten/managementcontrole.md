@@ -46,7 +46,7 @@ Managementcontrole is het proces waarmee het management van een onderneming zorg
 ## Zie ook
 
 - **Vereist kennis van**: [[interne-controle]]
-
+- **Wordt voorondersteld in** (1): [[controleproces-organisatie]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV stelt directeur Pieter Vermeulen jaarlijks een budget op per kostencentrum (Spinnerij, Weverij, Confectie). Elke maand vergelijkt hij werkelijke met begrote cijfers, bespreekt afwijkingen > 5% met de afdelingschefs en stuurt bij. Dit is managementcontrole — geen boekhouding, geen audit.

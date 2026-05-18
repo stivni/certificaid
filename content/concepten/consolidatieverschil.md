@@ -26,6 +26,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[integrale-consolidatie]]
 
+> [!info] Bestaat uit (1): [[integrale-consolidatie]]
+
 Het verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen (EV) van die onderneming op datum van aankoop — nadat je dat verschil zoveel mogelijk hebt toegerekend aan onder- of overgewaardeerde bezittingen en schulden. Wat dan nog overblijft, verschijnt in de geconsolideerde balans als 'Consolidatieverschillen': aan actiefzijde als het positief is, aan passiefzijde als het negatief is. Positieve consolidatieverschillen worden afgeschreven over hun vermoedelijke gebruiksduur. Belangrijke scope: bij **latere consolidaties** (volgende boekjaren waarin de dochter al in de consolidatiekring zit) wordt **geen nieuw** consolidatieverschil geboekt — wel de afschrijving op het positieve verschil (Koninklijk Besluit Wetboek van vennootschappen en verenigingen (KB WVV) art. 3:131) of opname van negatief verschil in resultatenrekening (RR) volgens de regels. Step-acquisition (verhoging van het belang in een bestaande dochter) is een uitzondering: voor de bijkomende tranche kan wél een extra consolidatieverschil ontstaan op de datum waarop het bijkomende belang werd verworven.
 
 _Bron: KB WVV art. 3:130 jo. art. 3:131_
@@ -334,7 +336,7 @@ Resultaat: In de geconsolideerde balans wordt € 300.000 als positief consolida
 ## Zie ook
 
 - **Getriggerd door**: [[eerste-consolidatie]]
-
+- **Wordt voorondersteld in** (1): [[step-acquisition]]- **Triggert** (1): [[wijziging-consolidatiekring]]
 ## Voorbeelden
 
 Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) van Brugse op aankoopdatum = € 1.500.000. Pro-rata aandeel = 80 % × € 1.500.000 = € 1.200.000. Bruto-verschil = € 1.600.000 − € 1.200.000 = € 400.000. Vastgoed van Brugse is € 250.000 ondergewaardeerd → € 250.000 toegerekend aan terreinen; residu € 150.000 wordt geboekt als 'Consolidatieverschillen' (actiefzijde).

@@ -26,6 +26,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[cyberrisico-ic]]
+
 Interne controle in een geïnformatiseerde omgeving omvat alle maatregelen om de betrouwbaarheid, integriteit en beschikbaarheid van data in ICT-systemen te waarborgen. Onderscheidt twee lagen: (1) IT general controls — generieke IT-omgeving (toegangsbeheer, change management, backups, fysieke beveiliging), (2) application controls — controles binnen specifieke applicaties (input checks, calculaties, output reviews).
 
 
@@ -62,7 +64,7 @@ Interne controle in een geïnformatiseerde omgeving omvat alle maatregelen om de
 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Vereist kennis van**: [[avg-interne-controle]]
-
+- **Wordt voorondersteld in** (2): [[avg-interne-controle]] · [[informatiesysteem-onderneming]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV draait alles op ERP (Odoo). IT general controls: serverroom op slot (fysieke beveiliging), userprofielen met rol-gebaseerde rechten (toegangsbeheer), nightly backup naar externe site (continuïteit), test/productie-scheiding bij upgrades (change management). Application controls binnen Odoo: dubbele invoer-validatie op IBAN, automatische BTW-berekening, drempel-autorisaties.

@@ -175,7 +175,7 @@ De volledige inventaris en de jaarrekening worden overgeschreven in een inventar
 
 - **Getriggerd door**: [[jaarafsluiting]]
 - **Vereist kennis van**: [[waarderingsregels]]
-
+- **Wordt voorondersteld in** (2): [[eindejaarsverrichtingen]] · [[volledigheidsbeginsel]]
 ## Bronnen
 
 [^1]: `CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden`

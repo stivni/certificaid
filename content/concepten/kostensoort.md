@@ -23,6 +23,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
 
+> [!info] Bestaat uit (3): [[arbeidskosten]] · [[materiaalkosten]] · [[overige-kosten]]
+
 Een kostensoort is een categorie van kosten naar economische aard: handelsgoederen, grond- en hulpstoffen, diensten en diverse goederen, bezoldigingen, afschrijvingen, financiële kosten, etc. De algemene boekhouding registreert standaard per kostensoort in klasse 60 t/m 65 van het Minimum Algemeen Rekeningstelsel.
 
 _Bron: KB 21.10.2018 Bijlage 1 (MAR) — klasse 6_

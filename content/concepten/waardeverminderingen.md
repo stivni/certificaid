@@ -106,6 +106,9 @@ _Grondslag: KB WVV art. 3:23 + algemene voorzichtigheid_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[bedrijfsvorderingen]] · [[voorraden]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV heeft een handelsvordering van € 18.000 op klant X. Op balansdatum 31/12 wordt klant X dubbel aangemaand zonder reactie; advocaat schat 70 % verlies. Waardevermindering = 70 % × € 18.000 = € 12.600. Boeking: Debet 6340 Waardeverminderingen op handelsvorderingen € 12.600 / Credit 409 Geboekte waardeverminderingen op handelsvorderingen € 12.600.

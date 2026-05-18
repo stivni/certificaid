@@ -22,6 +22,8 @@ Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om af
 
 > [!info] Behoort tot: [[assurance-informatie]]
 
+> [!info] Bestaat uit (1): [[cijferanalyses-audit]]
+
 
 ## Bouwstenen
 

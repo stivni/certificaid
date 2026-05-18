@@ -214,7 +214,7 @@ Na een impairment moet het afschrijvingsplan voor het actief worden herzien: de 
 
 - **Vereist kennis van**: [[materiele-vaste-activa-ifrs]]
 - **Vereist kennis van**: [[immateriele-vaste-activa-ifrs]]
-
+- **Wordt voorondersteld in** (1): [[immateriele-vaste-activa-ifrs]]
 ## Voorbeelden
 
 ### Impairment + latere terugneming productielijn Y

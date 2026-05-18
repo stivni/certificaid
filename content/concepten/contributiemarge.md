@@ -129,7 +129,7 @@ Praktisch voor multi-product-mix: een ratio van 35 % betekent dat 35 % van elke 
 
 - **Vereist kennis van**: [[variabele-kosten]]
 - **Vereist kennis van**: [[break-even-analyse]]
-
+- **Wordt voorondersteld in** (3): [[break-even-analyse]] · [[direct-costing]] · [[variabele-kosten]]
 ## Voorbeelden
 
 Yperse Werkplaats BV verkoopt een tapijt voor € 60 met variabele kost € 13 per stuk. Eenheidscontributie = € 60 − € 13 = € 47. Bij 10.000 stuks: totale contributiemarge € 470.000.

@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > De beroepsbeoefenaar identificeert en schat de risico's op een afwijking van materieel belang in op het niveau van de financiële overzichten én op het niveau van de beweringen (assertions), als gevolg van fraude of fouten.
 
+> [!info] Bestaat uit (2): [[cijferanalyses-audit]] · [[significant-risico-audit]]
+
 De beroepsbeoefenaar identificeert en schat de risico's op een afwijking van materieel belang in op het niveau van de financiële overzichten én op het niveau van de beweringen (assertions), als gevolg van fraude of fouten. Hij doet dit door inzicht te verwerven in de cliënt en haar omgeving — inclusief de interne beheersing.
 
 _Bron: ITAA KMO-controlenorm §74-§77_
@@ -83,7 +85,7 @@ Standaard sjabloon in dossier: 'risk assessment memo' per cliënt-cyclus.
 
 - **Vereist kennis van**: [[auditrisicomodel]]
 - **Getriggerd door**: [[auditplanning]]
-
+- **Wordt voorondersteld in** (3): [[auditplanning]] · [[beweringen-audit]] · [[kennis-van-onderneming-omgeving]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV verwerft Sofie Janssens inzicht door bevragingen bij de CFO + de productieleider, doorlezen van het beleid, cijferanalyses op de afgelopen drie boekjaren, en een rondgang op de werkvloer. Daaruit identificeert ze drie risicogebieden: voorraadwaardering, een aanhangig fiscaal geschil, en het hoge ondernemingskrediet.

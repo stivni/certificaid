@@ -173,6 +173,9 @@ Bereken een verdeelsleutel-tarief per kostencentrum en pas dat toe op de product
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[kostprijs-per-eenheid]] · [[voorraadwaardering]]
 ## Bronnen
 
 [^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs`

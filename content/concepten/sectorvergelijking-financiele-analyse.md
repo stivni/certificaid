@@ -73,7 +73,7 @@ _Grondslag: Vakdoctrine statistiek_
 ## Zie ook
 
 - **Vereist kennis van**: [[historische-evolutie-financiele-analyse]]
-
+- **Wordt voorondersteld in** (3): [[financiele-analyse-software]] · [[historische-evolutie-financiele-analyse]] · [[interpretatie-financiele-ratios]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.A`

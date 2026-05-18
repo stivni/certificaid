@@ -79,7 +79,7 @@ _Grondslag: WVV art. 2:74; KB tarifering toeslagen_
 ## Zie ook
 
 - **Vereist kennis van**: [[openbaarmaking-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[openbaarmaking-jaarrekening]]
 ## Voorbeelden
 
 Rotex Roeselare NV moet binnen 30 dagen na de algemene vergadering haar jaarrekening (volledig schema) elektronisch neerleggen bij de NBB-Balanscentrale.

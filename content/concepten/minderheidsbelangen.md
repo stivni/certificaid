@@ -25,6 +25,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[integrale-consolidatie]]
 
+> [!info] Bestaat uit (2): [[belangenpercentage]] · [[integrale-consolidatie]]
+
 Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring. Op de geconsolideerde balans verschijnt dat als 'Belangen van derden' aan passiefzijde; in de geconsolideerde resultatenrekening als 'Aandeel van derden in het resultaat'. Dit fenomeen ontstaat enkel bij integrale consolidatie van een dochter waarvan de moeder minder dan 100 % bezit.
 
 _Bron: KB WVV art. 3:137 (resultaat); art. 3:130 (herberekening)_

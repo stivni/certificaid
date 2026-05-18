@@ -29,6 +29,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Het bestuursorgaan stelt een bestuursverslag op dat een getrouw overzicht geeft van de ontwikkeling, de resultaten en de positie van de onderneming, alsmede een beschrijving van de voornaamste risico's en onzekerheden.
 
+> [!info] Bestaat uit (2): [[corporate-governance-verklaring]] · [[risicoparagraaf-bestuursverslag]]
+
 Het bestuursorgaan stelt een bestuursverslag op dat een getrouw overzicht geeft van de ontwikkeling, de resultaten en de positie van de onderneming, alsmede een beschrijving van de voornaamste risico's en onzekerheden. Het overzicht moet evenwichtig en volledig zijn, in verhouding tot omvang en complexiteit van het bedrijf.
 
 _Bron: Richtlijn 2013/34/EU art. 19, lid 1_
@@ -157,7 +159,7 @@ Voor genoteerde vennootschappen (en sommige andere): een verklaring inzake corpo
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[algemene-vergadering-toezichtsfunctie]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

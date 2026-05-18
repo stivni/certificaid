@@ -88,7 +88,7 @@ _Grondslag: ITAA Algemene controlenorm §4 in fine_
 ## Zie ook
 
 - **Vereist kennis van**: [[werkprogramma-audit]]
-
+- **Wordt voorondersteld in** (1): [[werkprogramma-audit]]
 ## Voorbeelden
 
 Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie + risico-evaluatie, werkprogramma per cyclus, alle steekproeven (met testresultaten en evaluatie), correspondentie met derden, management-letters, vergaderingsverslagen met de directie, en het ondertekende controleverslag. Sofie Janssens bewaart het dossier 10 jaar.

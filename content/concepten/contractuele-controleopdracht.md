@@ -91,7 +91,7 @@ _Grondslag: ITAA KMO-controlenorm §2_
 
 - **Vereist kennis van**: [[redelijke-mate-van-zekerheid]]
 - **Getriggerd door**: [[opdrachtbrief]]
-
+- **Triggert** (1): [[redelijke-mate-van-zekerheid]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV (KMO onder de drempels) wil bij een bankaanvraag van € 750.000 extra geloofwaardigheid. De zaakvoerder vraagt Wolters & Partners CVBA om een contractuele controle uit te voeren over boekjaar 2025. Sofie Janssens voert een volledige audit uit volgens de KMO-controlenorm en levert een verslag af met een positief oordeel.

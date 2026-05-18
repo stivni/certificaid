@@ -30,6 +30,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
 
+> [!info] Bestaat uit (3): [[current-ratio]] · [[quick-ratio]] · [[werkkapitaal]]
+
 Een liquiditeitsratio is een verhoudingsgetal dat de capaciteit van de vennootschap meet om haar schulden op korte termijn (≤ 1 jaar) te betalen met haar vlottende activa of een deel ervan. Het is een categorie van ratio's, geen één enkel cijfer.
 
 _Bron: Algemene financial-analysis-doctrine_

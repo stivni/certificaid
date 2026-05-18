@@ -113,4 +113,4 @@ Yperse: order grootwarenhuis (5.000 tapijten, 1 omstelling, 1 verzending) → ov
 ## Zie ook
 
 - **Vereist kennis van**: [[verdeelsleutel]]
-
+- **Triggert** (2): [[indirecte-kosten]] · [[verdeelsleutel]]

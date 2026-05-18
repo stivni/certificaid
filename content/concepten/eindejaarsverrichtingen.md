@@ -213,7 +213,7 @@ Sluit alle resultaatrekeningen (klasse 6 en 7) af tegen rekening 14 'Overgedrage
 - **Vereist kennis van**: [[inventaris]]
 - **Vereist kennis van**: [[waarderingsregels-jaarrekening]]
 - **Getriggerd door**: [[proef-en-saldibalans]]
-
+- **Wordt voorondersteld in** (1): [[samenstelling-statutaire-jaarrekening]]
 ## Bronnen
 
 [^1]: `CBN-0007-04-opmaken-van-de-inventaris__sec_inleiding`

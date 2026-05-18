@@ -22,6 +22,8 @@ IFRS 15 — Opbrengsten van contracten met klanten vervangt sinds 1 januari 2018
 
 > [!info] Specialisatie van: [[opbrengsten]]
 
+> [!info] Bestaat uit (2): [[onderhanden-projecten-ifrs]] · [[prestatieverplichting]]
+
 
 ## Berekening
 

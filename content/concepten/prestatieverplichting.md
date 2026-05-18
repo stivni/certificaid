@@ -98,6 +98,9 @@ _Grondslag: IFRS 15 alinea 30_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (3): [[onderhanden-projecten-ifrs]] · [[opbrengsten-ifrs]] · [[sale-and-leaseback-ifrs]]
 ## Voorbeelden
 
 Zelena Bio NV verkoopt aan een ziekenhuis (Brusselse Klinieken) een productie-installatie + 24 maanden onderhoud + 3 trainingssessies, totaalprijs € 850.000. Drie PO's identificeerbaar: (1) installatie (overgedragen op tijdstip, opzichzelfstaande prijs € 720.000); (2) onderhoud (over periode, opzichzelfstaande prijs € 100.000); (3) trainingssessies (op drie tijdstippen, opzichzelfstaande prijs € 30.000). Toewijzing transactieprijs: 720/850 × € 850.000 = € 720.000, etc.

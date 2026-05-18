@@ -113,7 +113,7 @@ _Grondslag: KB WVV art. 3:60_
 ## Zie ook
 
 - **Getriggerd door**: [[jaarafsluiting]]
-
+- **Wordt voorondersteld in** (1): [[schulden]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV betaalt op 1 oktober 20X1 een verzekeringspremie van € 4.800 voor 12 maanden vooruit (oktober 20X1 — september 20X2). 3 maanden in 20X1 (€ 1.200), 9 maanden in 20X2 (€ 3.600). Boeking op 1/10: Debet 61 Kosten € 4.800 / Credit 550 Bank € 4.800. Cut-off 31/12: Debet 490 Over te dragen kosten € 3.600 / Credit 61 Kosten € 3.600. Resultaat 20X1 belast met € 1.200, niet met € 4.800.

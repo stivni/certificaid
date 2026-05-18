@@ -26,6 +26,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[drie-lijnen-model]]
 
+> [!info] Bestaat uit (1): [[functie-interne-auditor]]
+
 Interne audit is een onafhankelijke, objectieve evaluatie- en adviesactiviteit binnen een onderneming die de werking van het interne-controle-systeem, het risicobeheer en de governance toetst. De interne auditor rapporteert hiërarchisch aan de hoogste leiding (raad van bestuur of auditcomité), niet aan het management van het proces dat hij beoordeelt — dat geeft hem zijn onafhankelijkheid binnen de onderneming.
 
 
@@ -72,7 +74,7 @@ Interne audit is een onafhankelijke, objectieve evaluatie- en adviesactiviteit b
 ## Zie ook
 
 - **Vereist kennis van**: [[auditcomite]]
-
+- **Wordt voorondersteld in** (1): [[auditcomite]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor. Ze rapporteert aan het auditcomité van de raad van bestuur. In 2026 voert ze een review uit van de aankoopcyclus: ze test of de procedure 'drie handtekeningen + leverancier-due-diligence' systematisch wordt nageleefd. Ze rapporteert haar bevindingen aan het auditcomité, niet aan de aankoopdirecteur.

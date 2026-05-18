@@ -20,6 +20,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > **Vlottende activa** (rubriek 5 MAR) waarin de onderneming tijdelijk haar overtollige middelen plaatst voor **korte-termijn-rendement** of voor **dagelijkse liquiditeit**.
 
+> [!info] Bestaat uit (1): [[eigen-aandelen]]
+
 **Vlottende activa** (rubriek 5 MAR) waarin de onderneming tijdelijk haar overtollige middelen plaatst voor **korte-termijn-rendement** of voor **dagelijkse liquiditeit**. Twee hoofdgroepen: (1) **Geldbeleggingen** rubriek 50-53 (eigen aandelen 50, aandelen 51, vastrentende effecten 52, termijndeposito's 53) — beleggingen voor rendement, en (2) **Liquide middelen** rubriek 55-58 (bankrekeningen 55, postchequerekening 56, kasmiddelen 57, interne overboekingen 58) — dagelijks betalingsverkeer. Waardering: aanschaffingsprijs; waardevermindering bij ontwaarding.
 
 _Bron: MAR klasse 5; KB WVV art. 3:52 — 3:53_

@@ -60,7 +60,7 @@ _Bron: CBN 2017/02 — Gezamenlijke controle_
 
 - **Getriggerd door**: [[gezamenlijke-controle]]
 - **Getriggerd door**: [[evenredige-consolidatie]]
-
+- **Triggert** (1): [[gezamenlijke-controle]]
 ## Voorbeelden
 
 Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio Florence is een gemeenschappelijke dochter → bij Cardinal en bij Energiehuis Evergem wordt Filmstudio voor 50 % evenredig geconsolideerd.

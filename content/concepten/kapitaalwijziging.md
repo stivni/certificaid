@@ -125,7 +125,7 @@ Een kapitaalvermindering met werkelijke terugbetaling moet eerst gepubliceerd wo
 ## Zie ook
 
 - **Getriggerd door**: [[uitgiftepremie]]
-
+- **Triggert** (1): [[eigen-aandelen]]
 ## Voorbeelden
 
 Oprichtingen Oostende BV (kapitaal € 50.000) verhoogt door uitgifte van 200 nieuwe aandelen aan € 250 — totaal inbreng € 50.000 (200 × € 100 naar kapitaal, 200 × € 150 naar uitgiftepremie). Boekingen: Debet 550 Bank € 50.000 / Credit 100 Eigen vermogensinbreng € 20.000 + Credit 11 Uitgiftepremies € 30.000.

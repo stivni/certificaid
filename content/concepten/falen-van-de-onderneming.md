@@ -75,7 +75,7 @@ _Grondslag: Vakdoctrine + bestuursverslag risicoparagraaf (KB WVV)_
 - **Vereist kennis van**: [[kwantitatieve-financiele-diagnose]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
 - **Getriggerd door**: [[risicoparagraaf-bestuursverslag]]
-
+- **Wordt voorondersteld in** (1): [[interpretatie-financiele-ratios]]
 ## Bronnen
 
 [^1]: `anchor-1.9.VI.A`

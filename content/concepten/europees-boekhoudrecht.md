@@ -93,6 +93,9 @@ _Grondslag: Richtlijn 2013/34/EU + Verordening 1606/2002_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[fsma]] · [[public-interest-entity]]
 ## Voorbeelden
 
 Rotex Roeselare NV is beursgenoteerd → moet IFRS toepassen op haar geconsolideerde jaarrekening (rechtstreekse werking IAS-verordening 1606/2002). Voor haar enkelvoudige jaarrekening blijft Belgisch GAAP gelden (geïmplementeerde Richtlijn 2013/34/EU).

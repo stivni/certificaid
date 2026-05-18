@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > **Lichamelijke** activa die de onderneming aanhoudt voor gebruik in de productie of levering van goederen of diensten, voor verhuur aan derden of voor bestuurlijke doeleinden.
 
+> [!info] Specialisaties (2): [[materiele-vaste-activa-ifrs]] · [[opsplitsing-eigendom]]
+
 **Lichamelijke** activa die de onderneming aanhoudt voor gebruik in de productie of levering van goederen of diensten, voor verhuur aan derden of voor bestuurlijke doeleinden. Het MAR groepeert ze onder rubrieken 22 — 26: (22) terreinen en gebouwen, (23) installaties, machines en uitrusting, (24) meubilair en rollend materieel, (25) vaste activa in leasing, (26) andere materiële vaste activa (incl. buiten gebruik gesteld). Materiële vaste activa met beperkte gebruiksduur worden afgeschreven; activa met onbeperkte gebruiksduur (terreinen) krijgen indien nodig waardeverminderingen.
 
 _Bron: MAR + KB WVV art. 3:18 — 3:23_
@@ -107,7 +109,7 @@ _Grondslag: CBN 2021/09_
 
 - **Vereist kennis van**: [[afschrijvingen]]
 - **Vereist kennis van**: [[leasing]]
-
+- **Wordt voorondersteld in** (2): [[leasing]] · [[wijziging-boekhoudkundig-referentiestelsel]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV bezit: terrein € 320.000 (rubriek 220), gebouw € 480.000 (221), snij-installaties € 145.000 (230), machines en gereedschap € 218.000 (231), kantoormeubilair € 22.000 (240) en bedrijfswagens € 65.000 (242). Totaal bruto-aanschaffingswaarde € 1.250.000; netto-boekwaarde na cumul. afschrijvingen € 815.000 op de balans onder rubriek III 'Materiële vaste activa'.

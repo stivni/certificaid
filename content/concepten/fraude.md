@@ -72,7 +72,7 @@ _Grondslag: ACFE Report to the Nations — vakdoctrine_
 
 - **Vereist kennis van**: [[klokkenluiderregeling]]
 - **Vereist kennis van**: [[functiescheiding]]
-
+- **Wordt voorondersteld in** (1): [[klokkenluiderregeling]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV manipuleert een aankoper systematisch leveranciersfacturen: hij richt een schaduwfirma op, factureert fictieve consultancy en boekt de betaling op zijn rekening. Strafrechtelijk: oplichting (art. 479) + valsheid in geschriften + misbruik van vertrouwen. Detectie pas na bezoek nieuwe externe auditor Sofie Janssens (cijferanalyse + leveranciers-due-diligence).

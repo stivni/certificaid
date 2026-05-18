@@ -106,7 +106,7 @@ _Resultaat in EUR/VTE_
 ## Zie ook
 
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[herstructurering-resultatenrekening]]
 ## Bronnen
 
 [^1]: `anchor-1.9.V.A`

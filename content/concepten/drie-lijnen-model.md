@@ -24,6 +24,8 @@ Het drie-lijnen-model verdeelt verantwoordelijkheid voor risicobeheer en IC over
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (2): [[auditcomite]] · [[interne-audit]]
+
 
 ## Bouwstenen
 

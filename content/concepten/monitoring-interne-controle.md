@@ -23,6 +23,8 @@ Monitoring is het continu en periodiek evalueren of het IC-systeem nog werkt zoa
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[opvolging-verrichtingen-ic]]
+
 
 ## In de praktijk
 

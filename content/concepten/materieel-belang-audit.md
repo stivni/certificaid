@@ -58,7 +58,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §117_
 
 - **Vereist kennis van**: [[afwijking-van-materieel-belang]]
 - **Vereist kennis van**: [[auditrisicomodel]]
-
+- **Wordt voorondersteld in** (3): [[controleoordeel-types]] · [[fraude-versus-fout]] · [[getrouw-beeld-controle]]
 ## Voorbeelden
 
 Sofie Janssens bepaalt voor Rotex Roeselare NV een materialiteit van 5 % op het resultaat vóór belasting (€ 2.000.000 × 5 % = € 100.000). Afwijkingen ≥ € 100.000 zijn 'materieel'; daaronder maar > € 5.000 (=5 % van materialiteit) worden gerapporteerd op een misstatement-log. Onder € 5.000 niet getest.

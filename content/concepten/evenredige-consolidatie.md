@@ -24,6 +24,8 @@ Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal ven
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
 
+> [!info] Bestaat uit (1): [[intragroep-eliminaties]]
+
 
 ## Bouwstenen
 
@@ -277,7 +279,7 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 a
 ## Zie ook
 
 - **Getriggerd door**: [[gezamenlijke-controle]]
-
+- **Triggert** (2): [[gemeenschappelijke-dochteronderneming]] · [[gezamenlijke-controle]]
 ## Voorbeelden
 
 Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'.

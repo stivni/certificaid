@@ -30,6 +30,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Voor de financiële analist is de jaarrekening het samenspel van balans, resultatenrekening en toelichting waarop alle structuur-, ratio- en evolutie-analyses worden gevoerd.
 
+> [!info] Bestaat uit (1): [[tabel-waardemutaties]]
+
 Voor de financiële analist is de jaarrekening het samenspel van balans, resultatenrekening en toelichting waarop alle structuur-, ratio- en evolutie-analyses worden gevoerd. Het is geen kennisbron op zich maar het te onderzoeken object — vergelijkbaar met een patiëntdossier voor een arts.
 
 _Bron: ITAA-examenprogramma 1.3.II.B_

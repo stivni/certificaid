@@ -77,6 +77,9 @@ Bij Yperse Werkplaats BV registreren de naaisters elke ochtend via badge welk or
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[prijsverschil-arbeid]]
 ## Voorbeelden
 
 Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26.

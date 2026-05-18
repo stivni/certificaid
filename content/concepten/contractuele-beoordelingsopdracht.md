@@ -80,7 +80,7 @@ _Grondslag: ITAA KMO-controlenorm §3_
 ## Zie ook
 
 - **Vereist kennis van**: [[beperkte-mate-van-zekerheid]]
-
+- **Triggert** (1): [[beperkte-mate-van-zekerheid]]
 ## Voorbeelden
 
 Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'.

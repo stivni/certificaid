@@ -77,7 +77,7 @@ Yperse Werkplaats BV houdt gemiddeld € 350.000 wolvoorraad aan. Bij kapitaalko
 ## Zie ook
 
 - **Vereist kennis van**: [[voorraadwaardering]]
-
+- **Wordt voorondersteld in** (1): [[voorraadwaardering]]
 ## Bronnen
 
 [^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad`

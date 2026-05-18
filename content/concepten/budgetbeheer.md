@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Budgetbeheer is het management-proces waarbij toekomstige kosten, opbrengsten en cashstromen vooraf worden geraamd in een geheel van budgetten, en waarbij realisaties periodiek tegen die ramingen worden afgezet om bij te sturen.
 
+> [!info] Bestaat uit (6): [[budgetboekhouding]] · [[budgetprocedure]] · [[flexibel-budget]] · [[master-budget]] · [[statisch-budget]] · [[verschillenboekhouding]]
+
 Budgetbeheer is het management-proces waarbij toekomstige kosten, opbrengsten en cashstromen vooraf worden geraamd in een geheel van budgetten, en waarbij realisaties periodiek tegen die ramingen worden afgezet om bij te sturen. Het omvat zowel de budgetprocedure (opstellen) als de budgetcontrole (opvolging) en de verschillenboekhouding (analyse).
 
 _Bron: Management accounting — bron-gap_
@@ -68,4 +70,4 @@ Yperse Werkplaats BV start in september met richtcijfers van directie (omzet-doe
 ## Zie ook
 
 - **Vereist kennis van**: [[analytische-boekhouding]]
-
+- **Wordt voorondersteld in** (1): [[kostencentrum]]

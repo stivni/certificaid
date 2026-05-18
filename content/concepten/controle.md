@@ -26,6 +26,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen.
 
+> [!info] Specialisaties (3): [[exclusieve-controle]] · [[gezamenlijke-controle]] · [[invloed-van-betekenis]]
+
 De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen. Controle is het kernbegrip dat bepaalt of een vennootschap als moeder geldt en dus verplicht is om te consolideren.
 
 _Bron: WVV art. 1:14, § 2_
@@ -107,7 +109,7 @@ _Grondslag: KB WVV art. 3:98_
 
 - **Vereist kennis van**: [[consolidatieverplichting]]
 - **Getriggerd door**: [[integrale-consolidatie]]
-
+- **Wordt voorondersteld in** (7): [[belangenpercentage]] · [[consolidatiekring]] · [[consolidatieverplichting]] · [[consortium]] · [[controlepercentage]] · [[dochteronderneming]] · [[moedervennootschap]]
 ## Voorbeelden
 
 Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → onweerlegbaar controle in rechte → Brugse is dochter van Aurelia, Aurelia is consolidatieplichtig.

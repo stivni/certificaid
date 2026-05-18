@@ -90,6 +90,9 @@ _Grondslag: CBN 2021/01_
 
 
 
+## Zie ook
+
+- **Triggert** (1): [[kapitaalwijziging]]
 ## Voorbeelden
 
 Oprichtingen Oostende BV heeft kapitaal € 50.000 verdeeld over 500 aandelen (fractiewaarde € 100). De BV gaat door een kapitaalverhoging via uitgifte van 200 nieuwe aandelen aan € 250 per stuk. Inbreng = 200 × € 250 = € 50.000. Hiervan: 200 × € 100 = € 20.000 naar kapitaal (rekening 100), en 200 × € 150 = € 30.000 naar uitgiftepremie (rekening 11). Nieuw eigen vermogen: kapitaal € 70.000 + uitgiftepremie € 30.000.

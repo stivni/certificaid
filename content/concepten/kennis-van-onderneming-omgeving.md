@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > De accountant moet bij elke controle een degelijke kennis hebben van het bedrijf en zijn werkzaamheden.
 
+> [!info] Bestaat uit (1): [[specifieke-kwesties-automatisering-audit]]
+
 De accountant moet bij elke controle een degelijke kennis hebben van het bedrijf en zijn werkzaamheden. Hij analyseert de administratieve en boekhoudkundige organisatie en gaat na in hoeverre de interne controles van het bedrijf betrouwbaar zijn. Deze kennis is de basis voor de risico-inschatting en het bepalen van de aard, timing en omvang van de werkzaamheden.
 
 _Bron: ITAA Algemene controlenorm §6 + ITAA KMO-controlenorm §77_

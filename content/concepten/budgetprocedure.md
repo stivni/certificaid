@@ -135,7 +135,7 @@ Maandelijks rapport budget vs. realisatie per kostencentrum. Bij significante af
 ## Zie ook
 
 - **Vereist kennis van**: [[verschillenboekhouding]]
-
+- **Wordt voorondersteld in** (1): [[master-budget]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

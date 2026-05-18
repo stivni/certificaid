@@ -87,4 +87,4 @@ Yperse: standaard materiaal 1,2 kg × € 5 = € 6. Werkelijk: 1,3 kg × € 5,
 ## Zie ook
 
 - **Vereist kennis van**: [[verschillenboekhouding]]
-
+- **Wordt voorondersteld in** (1): [[verschillenboekhouding]]

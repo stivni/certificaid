@@ -161,6 +161,9 @@ Resultaat: Schuldgraad 1,5 = € 1,50 schuld tegenover € 1 eigen vermogen. Voo
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[financiering-met-derdenkapitaal]] · [[ratio-covenants]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`

@@ -151,6 +151,9 @@ Resultaat: Brutomarge 40 % (na handelsgoederen); bedrijfsmarge 8,4 %; nettomarge
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[analytische-balans]]
 ## Bronnen
 
 [^1]: `anchor-1.3.I.C`

@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > **Verplichtingen** van de onderneming tot betaling van een vastgesteld bedrag aan een derde, gewaardeerd tegen nominale **terugbetalingswaarde**.
 
+> [!info] Bestaat uit (1): [[obligatielening]]
+
 **Verplichtingen** van de onderneming tot betaling van een vastgesteld bedrag aan een derde, gewaardeerd tegen nominale **terugbetalingswaarde**. Onderscheid op de balans naar resterende looptijd op balansdatum: **schulden op meer dan één jaar** (rubriek VIII, MAR klasse 17 — financiële schulden, handelsschulden LT, ontvangen vooruitbetalingen LT) en **schulden op ten hoogste één jaar** (rubriek IX, MAR klasse 42 — schulden op meer dan één jaar die binnen het jaar vervallen, 43 — financiële schulden KT, 44 — leveranciers, 45 — schulden uit belastingen/lonen/sociale lasten, 48 — andere).
 
 _Bron: MAR klasse 1 + 4; KB WVV art. 3:48_

@@ -62,7 +62,7 @@ Management letter circuleren binnen de RvB; documenteren wie deelnam aan de besp
 ## Zie ook
 
 - **Vereist kennis van**: [[met-governance-belaste-personen]]
-
+- **Wordt voorondersteld in** (1): [[met-governance-belaste-personen]]
 ## Voorbeelden
 
 Aan het einde van de audit van Rotex Roeselare NV stuurt Sofie Janssens een management letter aan de raad van bestuur: drie significante IC-tekortkomingen rond aankooporders (geen functiescheiding) + één aanbeveling rond de continuïteitsanalyse. Schriftelijk, gedateerd, in het controledossier.

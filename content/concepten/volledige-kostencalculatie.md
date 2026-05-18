@@ -22,6 +22,8 @@ De volledige kostencalculatie (synoniem: full costing, absorption costing) berek
 
 > [!info] Behoort tot: [[costing-methodes-vergelijking]]
 
+> [!info] Bestaat uit (1): [[vervaardigingsprijs]] · Specialisaties (1): [[abc-methode]]
+
 
 ## Bouwstenen
 

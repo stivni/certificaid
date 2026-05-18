@@ -23,6 +23,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > De analytische boekhouding (ook: bedrijfseconomische boekhouding of kostprijsboekhouding) is een intern, vrij in te vullen registratiesysteem waarin kosten en opbrengsten worden herverdeeld over kostendragers (producten, opdrachten, klanten) en kostencentra (afdelingen, machines).
 
+> [!info] Bestaat uit (6): [[doelstellingen-analytische-boekhouding]] · [[kostencentrum]] · [[kostendrager]] · [[kostprijs-per-eenheid]] · [[rekeningenstelsel-analytisch]] · [[typologie-van-kosten]]
+
 De analytische boekhouding (ook: bedrijfseconomische boekhouding of kostprijsboekhouding) is een intern, vrij in te vullen registratiesysteem waarin kosten en opbrengsten worden herverdeeld over kostendragers (producten, opdrachten, klanten) en kostencentra (afdelingen, machines). Doel: beslissingsinformatie leveren — niet de wettelijke jaarrekening. Ze loopt parallel met de algemene boekhouding en put uit dezelfde brongegevens, maar met een andere indeling.
 
 _Bron: Management accounting — geen Belgische trusted bron_
@@ -68,7 +70,7 @@ _Bron: Management accounting — geen Belgische trusted bron_
 
 - **Getriggerd door**: [[doelstellingen-analytische-boekhouding]]
 - **Vereist kennis van**: [[rekeningenstelsel-analytisch]]
-
+- **Wordt voorondersteld in** (1): [[budgetbeheer]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

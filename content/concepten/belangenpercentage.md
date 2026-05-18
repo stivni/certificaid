@@ -197,7 +197,7 @@ Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aan
 
 - **Vereist kennis van**: [[controle]]
 - **Getriggerd door**: [[integrale-consolidatie]]
-
+- **Wordt voorondersteld in** (1): [[minderheidsbelangen]]
 ## Voorbeelden
 
 Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → belangenpercentage = 80 %; aandeel van derden = 20 %.

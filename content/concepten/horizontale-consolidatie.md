@@ -213,7 +213,7 @@ Verwijder alle wederzijdse vorderingen, schulden, verkopen, aankopen, intra-groe
 
 - **Getriggerd door**: [[consortium]]
 - **Vereist kennis van**: [[integrale-consolidatie]]
-
+- **Triggert** (1): [[consortium]]
 ## Voorbeelden
 
 Industria Antwerpen NV en Jachthaven Jezus-Eik NV staan onder gemeenschappelijke leiding van Pieter Vermeulen, zonder dat één van beide vennootschap de andere controleert → horizontale consolidatie: hun balansen, resultatenrekeningen en eigen-vermogensposten worden integraal samengevoegd in één geconsolideerde jaarrekening; de reserves van elk lid blijven afzonderlijk zichtbaar.

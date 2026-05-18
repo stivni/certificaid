@@ -247,7 +247,7 @@ Resultaat: Een netto-ROE van 20,8 % is sterk; verschil met bruto-ROE (35 %) sign
 ## Zie ook
 
 - **Vereist kennis van**: [[cashflow-analyse]]
-
+- **Wordt voorondersteld in** (2): [[cashflow-analyse]] · [[financiering-met-eigen-vermogen]]
 ## Bronnen
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden`

@@ -87,6 +87,9 @@ _Grondslag: Vakdoctrine_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (3): [[altman-z-score]] · [[behoefte-aan-bedrijfskapitaal]] · [[current-ratio]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`

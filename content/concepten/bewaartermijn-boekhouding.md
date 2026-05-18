@@ -72,6 +72,9 @@ _Grondslag: Diverse wetten + WBTW art. 60_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[fod-financien-boekhoudrecht]]
 ## Voorbeelden
 
 Boekjaar Meubelzaak Mertens BV afgesloten 31/12/2024 → bewaartermijn loopt vanaf 1/1/2025 tot 31/12/2031 (7 jaar). Alle facturen, kasstukken, dagboeken moeten tot eind 2031 raadpleegbaar blijven.

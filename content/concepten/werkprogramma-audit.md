@@ -44,7 +44,7 @@ _Bron: ITAA Algemene controlenorm §3_
 ## Zie ook
 
 - **Vereist kennis van**: [[controledocumentatie]]
-
+- **Wordt voorondersteld in** (1): [[controledocumentatie]]
 ## Voorbeelden
 
 Sofie Janssens bouwt voor de audit Rotex Roeselare NV een werkprogramma per rubriek: bv. 'Voorraden — uitvoeren fysieke telling 31 dec, steekproef 30 SKU's met waardering tegen FIFO, testen cut-off december/januari, bevraging consignatievoorraad'. Geschatte tijd: 40 uur, uitvoerder: Tom (junior), review: Sofie.

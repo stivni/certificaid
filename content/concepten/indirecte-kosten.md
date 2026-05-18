@@ -25,6 +25,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[typologie-van-kosten]]
 
+> [!info] Bestaat uit (1): [[verdeelsleutel]]
+
 Indirecte kosten zijn kosten die meerdere kostendragers of kostencentra gemeenschappelijk ondersteunen en daarom enkel via een verdeelsleutel aan een specifiek product, opdracht of afdeling kunnen worden toegerekend. Typische voorbeelden: huur fabriekspand, energie, salaris afdelingshoofd, afschrijving algemene machines, kwaliteitscontrole.
 
 _Bron: CBN 132/7 §2.1 — 'evenredig deel van de productiekosten die slechts onrechtstreeks aan het individueel product kunnen worden toegerekend'_

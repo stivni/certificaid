@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren.
 
+> [!info] Specialisaties (2): [[eerste-consolidatie]] · [[step-acquisition]]
+
 Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren. Vijf typische gevallen: (1) opname van een nieuw verworven dochter (eerste consolidatie); (2) wegvallen van een verkochte of geliquideerde dochter; (3) verschuiving van kwalificatie (van geassocieerde naar dochter via step-acquisition, of omgekeerd); (4) wijziging van het type controle (van gezamenlijk naar exclusief of omgekeerd); (5) opname van een voorheen uitgesloten dochter. Elk geval vraagt specifieke boekhoudkundige verwerkingen: berekening van een (eventueel nieuw) consolidatieverschil, herbeoordeling van waarderingsregels en aanpassing van de vergelijkende cijfers in de toelichting.
 
 _Bron: KB WVV art. 3:129, 3:132, 3:152_

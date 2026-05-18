@@ -132,6 +132,9 @@ _Grondslag: CBN 2013/14 + KB WVV_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[vereffening]]
 ## Voorbeelden
 
 Uitgeverij Ukkel NV heeft op 31/12 een lopend rechtsgeding waar een schadevergoeding van € 75.000 dreigt; juridisch advies wijst op verlies-waarschijnlijkheid > 50 %. Voorziening voor andere risico's en kosten van € 75.000 wordt geboekt: Debet 6371 Voorzieningen voor andere risico's en kosten — toevoeging € 75.000 / Credit 163 Voorzieningen voor overige risico's en kosten € 75.000.

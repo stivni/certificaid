@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Het **netto-vermogen** van de onderneming dat toebehoort aan haar aandeelhouders/vennoten: activa minus schulden.
 
+> [!info] Bestaat uit (5): [[herwaarderingsmeerwaarden]] · [[kapitaalwijziging]] · [[uitgiftepremie]] · [[voorzieningen]] · [[wettelijke-reserve]]
+
 Het **netto-vermogen** van de onderneming dat toebehoort aan haar aandeelhouders/vennoten: activa minus schulden. In de balans onder rubriek I — VI: (10) kapitaal/eigen vermogensinbreng, (11) uitgiftepremies, (12) herwaarderingsmeerwaarden, (13) reserves (wettelijke, onbeschikbare, belastingvrije, beschikbare), (14) overgedragen winst/verlies, (15) kapitaalsubsidies. De toename van eigen middelen door winst van het jaar verschijnt onder rubriek 14 (na bestemming). Deze rubriek is centraal voor solvabiliteit, dividendpolitiek en alarmprocedure (WVV art. 5:153, 7:228).
 
 _Bron: MAR klasse 1 + KB WVV_
@@ -112,7 +114,7 @@ _Grondslag: MAR rubriek 15 + KB WVV art. 3:53_
 ## Zie ook
 
 - **Getriggerd door**: [[alarmprocedure]]
-
+- **Wordt voorondersteld in** (1): [[resultaatverwerking]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV per 31/12: kapitaal € 50.000 (rubriek 100), uitgiftepremie € 20.000 (rubriek 11), wettelijke reserve € 5.000 (rubriek 130), beschikbare reserves € 80.000 (rubriek 133), overgedragen winst € 145.000 (rubriek 140). Totaal eigen middelen = € 300.000. Op de passiefzijde rubriek I-VI.

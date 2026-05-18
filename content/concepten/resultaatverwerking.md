@@ -165,7 +165,7 @@ Algemene vergadering keurt de jaarrekening + winstbestemming goed. Dividend word
 - **Getriggerd door**: [[jaarafsluiting]]
 - **Vereist kennis van**: [[wettelijke-reserve]]
 - **Vereist kennis van**: [[eigen-middelen]]
-
+- **Triggert** (2): [[resultaat-categorisatie-beslisboom]] · [[wettelijke-reserve]]
 ## Bronnen
 
 [^1]: `MAR-ondernemingen__art_1`

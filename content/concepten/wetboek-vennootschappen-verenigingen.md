@@ -24,6 +24,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]]
 
+> [!info] Bestaat uit (1): [[jaarverslag]] · Specialisaties (1): [[kb-wvv-uitvoering]]
+
 Het Wetboek van Vennootschappen en Verenigingen (WVV) — wet van 23 maart 2019 — is de Belgische codificatie van het vennootschapsrecht én het verenigingsrecht. Boek 3 ('Jaarrekening, geconsolideerde jaarrekening en openbaarmakingsformaliteiten') bevat de boekhoudkundige verplichtingen die specifiek voor vennootschappen en verenigingen gelden, bovenop de algemene boekhoudplicht uit het WER.
 
 _Bron: WVV, wet van 23 maart 2019_
@@ -90,6 +92,9 @@ _Grondslag: WVV art. 1:14 tot art. 1:25_
 > _Trigger_: Vraag over een eenmanszaak (Praktijk Persenaire) → WER. Vraag over een NV of vzw → WVV.
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[vennootschapsvormen-typologie]]- **Triggert** (2): [[groottecriteria-jaarrekening]] · [[openbaarmaking-jaarrekening]]
 ## Voorbeelden
 
 Rotex Roeselare NV moet als grote NV haar jaarrekening in volledig schema neerleggen — verplichting uit WVV Boek 3, uitgewerkt in KB-WVV.

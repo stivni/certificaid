@@ -75,6 +75,9 @@ _Grondslag: Richtlijn 2013/34/EU art. 19, lid 2, e), i)_
 
 
 
+## Zie ook
+
+- **Triggert** (1): [[falen-van-de-onderneming]]
 ## Bronnen
 
 [^1]: `Richtlijn-2013-34-EU__art_19__sub_lid1-lid2`

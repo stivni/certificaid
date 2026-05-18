@@ -96,7 +96,7 @@ _Grondslag: CBN 2018/18 §verslaggeving_
 
 - **Vereist kennis van**: [[waarderingsregels]]
 - **Getriggerd door**: [[vereffening]]
-
+- **Wordt voorondersteld in** (1): [[wijziging-boekhoudkundig-referentiestelsel]]- **Triggert** (1): [[vereffening]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt een naaimachine voor € 24.000 met geschatte gebruiksduur van 6 jaar. Onder going concern: afschrijving € 4.000/jaar, restwaarde aan eind van jaar 3 op de balans = € 12.000. Bij stopzetting in jaar 3 (uitzondering): waardering naar liquidatiewaarde, bv. tweedehandsmarkt € 7.500 → bijkomende afschrijving € 4.500 in jaar 3.

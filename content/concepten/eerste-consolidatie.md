@@ -63,6 +63,9 @@ _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
 
 
 
+## Zie ook
+
+- **Triggert** (2): [[consolidatieverschil]] · [[step-acquisition]]
 ## Voorbeelden
 
 Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op die datum = € 1.500.000. Pro-rata aandeel = € 1.200.000; bruto-verschil = € 400.000, na toerekening € 250.000 aan ondergewaardeerde terreinen blijft € 150.000 als positief consolidatieverschil aan actiefzijde.

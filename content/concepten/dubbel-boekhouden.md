@@ -30,6 +30,8 @@ Elke economische verrichting in twee gelijke kanten registreren (debet = credit)
 
 > [!info] Behoort tot: [[regelmatige-boekhouding]]
 
+> [!info] Bestaat uit (1): [[hulpdagboeken]]
+
 Een boekhoudtechniek waarin elke verrichting wordt geboekt in **minstens twee rekeningen**: een debet- en een creditzijde, voor exact hetzelfde totaalbedrag. De som van alle debetboekingen is altijd gelijk aan de som van alle creditboekingen. Hierdoor klopt de balans (Activa = Passief) per definitie en zijn rekenfouten meteen detecteerbaar. Voor boekhoudplichtige ondernemingen schrijft WER art. III.84 expliciet voor dat de boekhouding 'wordt gevoerd met inachtneming van de gebruikelijke regels van het dubbel boekhouden'.
 
 _Bron: WER art. III.84_
@@ -219,7 +221,7 @@ Resultaat: De verkoop is volledig geregistreerd: omzet € 12.000 in de resultat
 ## Zie ook
 
 - **Vereist kennis van**: [[dagboek]]
-
+- **Wordt voorondersteld in** (2): [[boekhoudplichtige-onderneming]] · [[minimum-algemeen-rekeningenstelsel]]- **Triggert** (2): [[proef-en-saldibalans]] · [[wetboek-economisch-recht-boek-iii]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV koopt voor € 1.250 (incl. BTW € 217) hout op factuur. Boeking: Debet 600 Aankopen € 1.033 + Debet 411 Terug te vorderen BTW € 217 / Credit 440 Leveranciers € 1.250. Debet totaal € 1.250 = Credit totaal € 1.250 ✓.

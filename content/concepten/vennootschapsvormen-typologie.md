@@ -101,7 +101,7 @@ _Grondslag: WVV Boeken 15-16_
 
 - **Vereist kennis van**: [[wetboek-vennootschappen-verenigingen]]
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
-
+- **Wordt voorondersteld in** (1): [[jaarrekening-vzw-stichting]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV (besloten vennootschap, beperkte aansprakelijkheid) → dubbele boekhouding, jaarrekening verkort schema. Tom Lefèvre's maatschap (geen rechtspersoonlijkheid) → onbeperkte aansprakelijkheid vennoten, alleen boekhoudplicht (geen jaarrekening bij NBB).

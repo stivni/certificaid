@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie).
 
+> [!info] Specialisaties (1): [[ontbinding-vereffening-opdracht]]
+
 Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie). Voorbeelden: inbreng in natura, quasi-inbreng, omzetting van rechtsvorm, ontbinding-vereffening. Geldt enkel als er geen commissaris is — heeft de vennootschap er één, dan voert die de opdracht uit.
 
 _Bron: ITAA KMO-controlenorm §2 (definitie + ratione materiae)_

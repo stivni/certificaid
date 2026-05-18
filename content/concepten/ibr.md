@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Het Instituut van de Bedrijfsrevisoren (IBR) is het Belgisch beroepsinstituut voor revisoren — de beroepsbeoefenaars die wettelijke jaarrekening-controles uitvoeren.
 
+> [!info] Bestaat uit (1): [[bedrijfsrevisor]]
+
 Het Instituut van de Bedrijfsrevisoren (IBR) is het Belgisch beroepsinstituut voor revisoren — de beroepsbeoefenaars die wettelijke jaarrekening-controles uitvoeren. Het IBR reguleert de toegang tot het revisoraat (stage + bekwaamheidsexamen), houdt tucht en publiceert audit-normen die in lijn liggen met de internationale ISA-normen.
 
 _Bron: Wet 7 december 2016 (revisorenwet)_
@@ -56,7 +58,7 @@ _Grondslag: Wet 7 december 2016_
 ## Zie ook
 
 - **Vereist kennis van**: [[commissaris]]
-
+- **Wordt voorondersteld in** (1): [[commissaris]]
 ## Voorbeelden
 
 Rotex Roeselare NV (grote NV) heeft de plicht een commissaris aan te stellen → die commissaris moet ingeschreven zijn bij het IBR (revisorenregister).

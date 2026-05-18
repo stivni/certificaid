@@ -175,6 +175,9 @@ _Resultaat in EUR_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[materiele-vaste-activa-ifrs]]
 ## Bronnen
 
 [^1]: `IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname`

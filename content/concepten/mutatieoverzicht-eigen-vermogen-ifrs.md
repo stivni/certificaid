@@ -82,6 +82,9 @@ _Grondslag: IAS 1 alinea 106A + IAS 8_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[correctie-jaarrekening-ifrs]]
 ## Voorbeelden
 
 Zelena Bio NV mutatieoverzicht 2026 (vereenvoudigd, in € miljoenen, kolom 'Toerekenbaar aan eigenaars van de moeder' — NCI-kolom apart): kapitaal € 50M + agio € 18M + herwaarderingsreserve € 8M + ingehouden winsten € 95M (begin) + winst 2026 toerekenbaar aan eigenaars € 31,5M − dividend € 15M + herwaardering terreinen +€ 4,5M (OCI) − wisselkoers Argentinië −€ 0,8M = totaal toerekenbaar aan eigenaars einde 2026 = € 191,2M. Naast deze kolom een aparte kolom 'Belangen zonder zeggenschap' met +€ 3,5M winsttoerekening NCI.

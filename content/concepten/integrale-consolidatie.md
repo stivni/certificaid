@@ -24,6 +24,10 @@ De geconsolideerde jaarrekening voorstellen alsof het geheel van de consolideren
 
 > [!info] Behoort tot: [[consolidatieverschil]] · [[minderheidsbelangen]] · [[consolidatiemethodes-vergelijking]]
 
+> [!info] Bestaat uit (4): [[consolidatieverschil]] · [[eerste-consolidatie]] · [[intragroep-eliminaties]] · [[minderheidsbelangen]]
+
+
+> [!info] Uitzonderingen (1): [[consolidatiekring]]
 
 ## Bouwstenen
 
@@ -366,7 +370,7 @@ Resultaat: In de geconsolideerde balans staan de € 3.000.000 activa en € 1.0
 ## Zie ook
 
 - **Getriggerd door**: [[exclusieve-controle]]
-
+- **Wordt voorondersteld in** (1): [[horizontale-consolidatie]]- **Triggert** (6): [[belangenpercentage]] · [[controle]] · [[controlepercentage]] · [[dochteronderneming]] · [[exclusieve-controle]] · [[intragroep-eliminaties]]
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3_98`

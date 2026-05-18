@@ -63,7 +63,7 @@ _Bron: Management accounting — bron-gap_
 
 - **Vereist kennis van**: [[contributiemarge]]
 - **Vereist kennis van**: [[direct-costing]]
-
+- **Wordt voorondersteld in** (4): [[break-even-analyse]] · [[contributiemarge]] · [[kostenanalyse-make-or-buy]] · [[marginale-kostprijs]]
 ## Voorbeelden
 
 Yperse Werkplaats BV verwerkt € 8 wol per tapijt en heeft € 5 variabele machine-energie per stuk. Bij 10.000 tapijten: totale variabele kost € 130.000. Bij 12.000 tapijten: € 156.000. Per stuk blijft het € 13.

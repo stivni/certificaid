@@ -115,7 +115,7 @@ _Grondslag: CBN 2022/08 (BE-bestemming, statutair); IFRS 1 voor IFRS-bestemming_
 ## Zie ook
 
 - **Vereist kennis van**: [[consortium]]
-
+- **Triggert** (1): [[wijziging-boekhoudkundig-referentiestelsel]]
 ## Illustraties
 
 #### Beslisboom — welk stelsel voor welke Belgische jaarrekening? ⚖️

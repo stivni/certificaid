@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Het geheel van regels in België dat bepaalt hoe een onderneming haar boekhouding moet voeren en haar jaarrekening moet opstellen, openbaar maken en bewaren.
 
+> [!info] Bestaat uit (6): [[cbn-adviezen]] · [[europees-boekhoudrecht]] · [[kb-wvv-uitvoering]] · [[rechtspraak-boekhoudrecht]] · [[wetboek-economisch-recht-boek-iii]] · [[wetboek-vennootschappen-verenigingen]]
+
 Het geheel van regels in België dat bepaalt hoe een onderneming haar boekhouding moet voeren en haar jaarrekening moet opstellen, openbaar maken en bewaren. Het bestaat uit gelaagde rechtsbronnen: Europese richtlijnen en verordeningen, federale wetten (WER en WVV), uitvoerende koninklijke besluiten, CBN-adviezen en rechtspraak.
 
 _Bron: WER art. III.82-III.95_

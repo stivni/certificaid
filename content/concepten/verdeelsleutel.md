@@ -66,7 +66,7 @@ Bij Yperse Werkplaats BV draait de Confectie kleine series met veel omstel-tijd.
 ## Zie ook
 
 - **Getriggerd door**: [[abc-methode]]
-
+- **Wordt voorondersteld in** (3): [[abc-methode]] · [[indirecte-kosten]] · [[kostencentrum]]
 ## Voorbeelden
 
 Yperse Werkplaats BV verdeelt de jaarhuur van € 240.000 over de drie productie-afdelingen volgens vloeroppervlakte: Spinnerij 1.500 m² (37,5 %), Weverij 1.800 m² (45 %), Confectie 700 m² (17,5 %). Spinnerij krijgt € 90.000, Weverij € 108.000, Confectie € 42.000.

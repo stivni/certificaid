@@ -49,7 +49,7 @@ _Bron: Wet ITAA 2019 art. 44_
 ## Zie ook
 
 - **Vereist kennis van**: [[opdrachtbrief-accountant]]
-
+- **Wordt voorondersteld in** (1): [[opdrachtbrief-accountant]]
 ## Voorbeelden
 
 Wolters & Partners CVBA voert een contractuele controle uit bij Meubelzaak Mertens BV. De opdrachtbrief beperkt de aansprakelijkheid tot drie keer het ereloon. Geldig — maar enkel voor gewone fouten, niet voor bedrog. Bij een wettelijk voorbehouden opdracht (bv. inbreng in natura) zou zo'n beperkingsclausule nietig zijn.

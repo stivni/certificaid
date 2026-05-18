@@ -95,7 +95,7 @@ _Grondslag: Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)_
 
 - **Vereist kennis van**: [[rentabiliteit-eigen-vermogen-roe]]
 - **Vereist kennis van**: [[rentabiliteit-totaal-activa-roa]]
-
+- **Wordt voorondersteld in** (1): [[rentabiliteit-eigen-vermogen-roe]]
 ## Bronnen
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden`

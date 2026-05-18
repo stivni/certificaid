@@ -109,7 +109,7 @@ _Grondslag: IAS 38 alinea 33-35 + IFRS 3_
 ## Zie ook
 
 - **Vereist kennis van**: [[bijzondere-waardevermindering-ifrs]]
-
+- **Wordt voorondersteld in** (1): [[bijzondere-waardevermindering-ifrs]]
 ## Voorbeelden
 
 Zelena Bio NV ontwikkelt een nieuw farmaceutisch productieproces. Uitgaven 2025 totaal € 1.000.000, waarvan € 900.000 vóór 1 december 2025 (onderzoeksfase — als kost) en € 100.000 ná 1 december 2025 (ontwikkelingsfase — geactiveerd want zes criteria alinea 57 vervuld). Immaterieel actief op balans per 31 december 2025 = € 100.000.

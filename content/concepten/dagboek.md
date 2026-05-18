@@ -29,6 +29,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[regelmatige-boekhouding]]
 
+> [!info] Specialisaties (1): [[hulpdagboeken]]
+
 Een **dagboek** is het chronologisch register waarin een onderneming al haar verrichtingen inschrijft op de dag dat ze gebeuren. Twee vormen: (1) een **ongesplitst dagboek** waarin alle verrichtingen achter elkaar staan, of (2) een set **hulpdagboeken** (aankoopdagboek, verkoopdagboek, financieel dagboek, diversendagboek) waarbij elk soort verrichting in zijn eigen dagboek wordt geboekt en die periodiek (minstens maandelijks) gecentraliseerd worden in een centraal boek. Een boeking uitsluitend in de rekeningen — zonder doorgang door een dagboek — is niet toegelaten (WER art. III.84).
 
 _Bron: WER art. III.84_
@@ -108,7 +110,7 @@ _Grondslag: CBN 174/1 — Inhoud van de boekingen_
 ## Zie ook
 
 - **Vereist kennis van**: [[verantwoordingsstuk]]
-
+- **Wordt voorondersteld in** (1): [[dubbel-boekhouden]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV voert vier hulpdagboeken: aankoopdagboek (alle leveranciersfacturen, gemiddeld 40 per maand), verkoopdagboek (klantenfacturen, ~250/maand), financieel dagboek (bankuittreksels en kasstukken) en diversendagboek (afschrijvingen, herwaarderingen). Eind elke maand wordt elk dagboek gecentraliseerd in het centraal boek met één samenvattende boeking.

@@ -98,7 +98,7 @@ _Grondslag: Boekhoudkundige verwerking_
 ## Zie ook
 
 - **Getriggerd door**: [[oprichtingskosten]]
-
+- **Triggert** (1): [[oprichtingskosten]]
 ## Voorbeelden
 
 Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar).

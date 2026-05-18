@@ -25,10 +25,14 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > De jaarrekening die het vermogen, de financiële positie en het resultaat van de hele groep (moeder + alle dochters in de consolidatiekring) presenteert alsof het om één bedrijf gaat.
 
+> [!info] Bestaat uit (2): [[geconsolideerd-jaarverslag]] · [[uniforme-waarderingsregels-consolidatie]]
+
 De jaarrekening die het vermogen, de financiële positie en het resultaat van de hele groep (moeder + alle dochters in de consolidatiekring) presenteert alsof het om één bedrijf gaat. Ze bestaat uit balans, resultatenrekening en toelichting — samen één geheel. Ze wordt afgesloten op dezelfde datum als de jaarrekening van de moeder (KB WVV art. 3:109) en uitgedrukt in euro (KB WVV art. 3:103 jo. WVV art. 3:30, § 2). De cijfers moeten voortvloeien uit een samenhangend, controleerbaar boekhoudsysteem dat van jaar tot jaar consistent blijft.
 
 _Bron: KB WVV art. 3:103 jo. art. 3:107 jo. art. 3:123_
 
+
+> [!info] Uitzonderingen (1): [[uniforme-waarderingsregels-consolidatie]]
 
 ## Bouwstenen
 
@@ -141,7 +145,7 @@ _Grondslag: KB WVV art. 3:110_
 
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[consolidatiekring]]
-
+- **Wordt voorondersteld in** (1): [[geconsolideerd-jaarverslag]]
 ## Voorbeelden
 
 Aurelia Holding NV stelt op 31 december 20X1 één geconsolideerde jaarrekening op die de cijfers van Aurelia + Brugse Brouwerij BV (80 %) + Bouwwerf Beerse BV (100 %) samenvoegt — alsof alledrie samen één bedrijf zijn. Onderlinge vorderingen tussen Aurelia en Brugse verdwijnen; 20 % van het eigen vermogen van Brugse staat apart als belangen van derden.

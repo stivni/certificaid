@@ -29,6 +29,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[boekhoudbeginselen-overzicht]]
 
+> [!info] Specialisaties (4): [[afschrijvingen]] · [[bedrijfsvorderingen]] · [[voorraden]] · [[voorzieningen]]
+
 Bij waardering moet de onderneming **oprecht, voorzichtig en te goeder trouw** te werk gaan. Concreet: opbrengsten boek je pas als ze **zeker** zijn (realisatie); kosten en risico's boek je al wanneer ze **waarschijnlijk of zelfs alleen mogelijk** zijn (voorzichtigheid). Verliezen die op balansdatum bekend zijn, worden meegenomen, ook als ze pas na balansdatum maar vóór goedkeuring zichtbaar worden. Stille meerwaarden (latente winsten) worden NIET geboekt.
 
 _Bron: CBN 2010/12 + CBN 2020/05_
@@ -119,7 +121,7 @@ _Grondslag: KB 21/10/2018 art. 3:7_
 ## Zie ook
 
 - **Vereist kennis van**: [[waarderingsregels]]
-
+- **Wordt voorondersteld in** (2): [[getrouw-beeld]] · [[waarderingsregels-jaarrekening]]- **Triggert** (1): [[getrouw-beeld-jaarrekening]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV heeft op 31/12 een vordering van € 18.000 op een klant in betalingsmoeilijkheden. Curator stelt dividend van 30 % in vooruitzicht: vordering wordt afgewaardeerd tot € 5.400 (waardevermindering € 12.600 als kost geboekt). Tegelijk staat een vastgoed van Mertens met boekwaarde € 240.000 op de markt voor € 320.000 — die stille meerwaarde wordt NIET als opbrengst geboekt zolang ze niet gerealiseerd is.

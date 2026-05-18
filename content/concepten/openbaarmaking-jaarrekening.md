@@ -120,7 +120,7 @@ Iedere internetgebruiker tikt naam of ondernemingsnummer in → ziet alle neerge
 
 - **Vereist kennis van**: [[nationale-bank-belgie]]
 - **Getriggerd door**: [[wetboek-vennootschappen-verenigingen]]
-
+- **Wordt voorondersteld in** (2): [[griffies-ondernemingsrechtbank]] · [[nationale-bank-belgie]]- **Triggert** (1): [[samenstelling-statutaire-jaarrekening]]
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3_82`

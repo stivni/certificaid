@@ -79,7 +79,7 @@ _Grondslag: KB-WVV bijlage 1 + MAR_
 ## Zie ook
 
 - **Vereist kennis van**: [[dubbel-boekhouden]]
-
+- **Wordt voorondersteld in** (1): [[proef-en-saldibalans]]
 ## Voorbeelden
 
 Aankoop koopwaren € 5.000 bij Meubelzaak Mertens BV → rekening 604000 'Aankopen koopwaren' (klasse 6, kosten). Klantbetaling op bank → rekening 550000 'Bank — zichtrekening' (klasse 5).

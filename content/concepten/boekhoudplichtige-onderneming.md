@@ -80,7 +80,7 @@ _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 
 - **Getriggerd door**: [[wetboek-economisch-recht-boek-iii]]
 - **Vereist kennis van**: [[dubbel-boekhouden]]
-
+- **Wordt voorondersteld in** (2): [[vennootschapsvormen-typologie]] · [[wetboek-economisch-recht-boek-iii]]
 ## Voorbeelden
 
 Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming.

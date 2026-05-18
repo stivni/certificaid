@@ -75,6 +75,9 @@ _Grondslag: KB-WVV art. 3:7_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[waarderingsregels-jaarrekening]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV waardeert haar grondstoffen sinds altijd via FIFO. In 2024 wil zij overstappen naar gewogen gemiddelde → moet motiveren in toelichting + impact (bv. 'voorraad-waardering daalt met € 45.000, resultaat met € 32.000 na belasting').

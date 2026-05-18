@@ -87,6 +87,9 @@ _Grondslag: ITAA-norm-kmo-controlenorm §96_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (8): [[aankoopcyclus-ic]] · [[fraude]] · [[geinformatiseerde-omgeving-ic]] · [[interne-controle]] · [[productiecyclus-ic]] · [[taakverdeling-ic]] · [[verkoopcyclus-ic]] · [[voorraadcyclus-ic]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV is een aankoop verdeeld over vier personen: (1) inkoper Anna autoriseert de bestelling, (2) magazijnier Bart neemt goederen in ontvangst, (3) boekhouder Cindy registreert de factuur, (4) financieel verantwoordelijke David tekent de betaling. Als één van hen iets verdraait, ontdekt iemand anders het in zijn kruiscontrole. Fraude vereist samenspanning van minstens twee — exponentieel moeilijker.

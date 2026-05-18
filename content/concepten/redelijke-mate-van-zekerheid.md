@@ -54,7 +54,7 @@ _Bron: ITAA KMO-controlenorm §2 + §117_
 
 - **Vereist kennis van**: [[controlerisico]]
 - **Getriggerd door**: [[contractuele-controleopdracht]]
-
+- **Wordt voorondersteld in** (1): [[contractuele-controleopdracht]]
 ## Voorbeelden
 
 Sofie Janssens controleert de jaarrekening 2025 van Rotex Roeselare NV. Na 8 weken werk (planning, risicoanalyse, testen, conclusie) kan zij met redelijke zekerheid stellen: 'naar ons oordeel geeft de jaarrekening een getrouw beeld van het vermogen, de financiële toestand en het resultaat van Rotex Roeselare NV per 31 december 2025'.

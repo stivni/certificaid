@@ -72,7 +72,7 @@ Marleen De Cock leidt de Confectie van Yperse Werkplaats BV. Haar Q3-rapport: bu
 
 - **Vereist kennis van**: [[verdeelsleutel]]
 - **Vereist kennis van**: [[budgetbeheer]]
-
+- **Wordt voorondersteld in** (1): [[rekeningenstelsel-analytisch]]
 ## Voorbeelden
 
 Yperse Werkplaats BV organiseert drie hoofdkostencentra: Spinnerij (jaarbudget € 1.450.000), Weverij (€ 1.200.000) en Confectie (€ 950.000). Daarnaast hulpkostencentra: Onderhoud, Kwaliteitscontrole, Algemene leiding. De Spinnerij draagt haar kosten uiteindelijk over op het kostendrager 'partij ruwwol-garen 50 kg'.

@@ -88,7 +88,7 @@ _Grondslag: Vakdoctrine_
 
 - **Vereist kennis van**: [[verticale-analyse-jaarrekening]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[herstructurering-resultatenrekening]]
 ## Bronnen
 
 [^1]: `anchor-1.3.I.C`

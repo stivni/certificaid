@@ -178,6 +178,9 @@ Resultaat: Solvabiliteit 40 % geldt als sterk: 4 op 10 euro op de balans is met 
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (4): [[altman-z-score]] · [[financiering-met-derdenkapitaal]] · [[financiering-met-eigen-vermogen]] · [[ratio-covenants]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`

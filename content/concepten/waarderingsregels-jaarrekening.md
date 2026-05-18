@@ -101,7 +101,7 @@ _Grondslag: KB-WVV art. 3:35 § 4_
 
 - **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
 - **Vereist kennis van**: [[consistentiebeginsel]]
-
+- **Wordt voorondersteld in** (1): [[eindejaarsverrichtingen]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt op 1 maart 2024 een machine voor € 80.000 → boekwaarde initieel = aanschaffingswaarde € 80.000. Lineair afschrijven over 10 jaar = € 8.000 per jaar. Na 5 jaar: boekwaarde € 40.000.

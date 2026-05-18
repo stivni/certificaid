@@ -52,6 +52,9 @@ _Grondslag: COSO ERM / ISO 31000_
 > ISO 31000 ('Risk management — Guidelines') is generiek en sectoronafhankelijk, bruikbaar naast COSO. Kernelementen: leadership & commitment, integratie in besluitvorming, design, implementation, evaluation, improvement. In België niet wettelijk opgelegd maar wel referentie voor publieke sector en financiële instellingen. 🤖
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[uitvoering-interne-controle]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle.

@@ -110,6 +110,9 @@ _Grondslag: Praktijk CBN; geen wetsregel_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[commissie-boekhoudkundige-normen]]
 ## Voorbeelden
 
 Moet Solaris Sint-Truiden BV haar effectenportefeuille als financiële vaste activa of als geldbelegging boeken? → CBN-advies 2020/16 verduidelijkt het onderscheid voor effecten met houdintentie.

@@ -23,6 +23,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Specialisatie van: [[leasing]]
 
+> [!info] Bestaat uit (4): [[leaseverplichting-ifrs]] · [[lessee-vs-lessor-leasing-ifrs]] · [[right-of-use-actief]] · [[sale-and-leaseback-ifrs]]
+
 IFRS 16 — Leaseovereenkomsten vervangt sinds 1 januari 2019 de oude IAS 17 en hanteert voor de **lessee** een **single model**: ALLE leases (boven de vrijstellingsdrempels) worden on-balance gezet. Op de aanvangsdatum neemt de lessee twee posten op: (1) een **met een gebruiksrecht overeenstemmend actief** (right-of-use asset, ROU) en (2) een **leaseverplichting** voor de contante waarde van de nog te betalen leasebetalingen. Een leaseovereenkomst is een contract dat in ruil voor een vergoeding het recht verleent gedurende een bepaalde periode de zeggenschap over het gebruik van een geïdentificeerd actief uit te oefenen (alinea 9). Twee vrijstellingen (alinea 5): leaseovereenkomsten van korte duur (≤ 12 maanden) en leaseovereenkomsten voor activa met een lage waarde — beide mogen lineair als kost worden opgenomen. Voor de **lessor** blijft het dubbele model van IAS 17 grotendeels behouden: classificatie als operationele lease (actief blijft bij lessor) of financiële lease (vordering op netto-investering).
 
 _Bron: IFRS 16 alinea's 9, 22-27, 47_

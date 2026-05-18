@@ -83,3 +83,6 @@ Yperse Werkplaats BV overweegt om de afdeling Spinnerij te outsourcen. Analytisc
 > In een examen-vraag 'noem de doelstellingen van een analytische boekhouding' verwachten correctoren typisch 3 à 4 doelen waarvan minstens kostprijsberekening, marge-analyse en beslissingsondersteuning worden genoemd. Budgetopvolging hoort er ook bij, maar valt soms onder een aparte vraag over budgetbeheer. 🤖
 
 
+## Zie ook
+
+- **Triggert** (1): [[analytische-boekhouding]]

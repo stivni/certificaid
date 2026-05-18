@@ -38,7 +38,7 @@ _Bron: ITAA KMO-controlenorm §2_
 ## Zie ook
 
 - **Getriggerd door**: [[contractuele-beoordelingsopdracht]]
-
+- **Wordt voorondersteld in** (1): [[contractuele-beoordelingsopdracht]]
 ## Voorbeelden
 
 Sofie Janssens beoordeelt de tussentijdse cijfers van Naaiatelier Ninove BV per 30 juni 2025. Beperkte werkzaamheden (vooral cijferanalyses en bevragingen). Haar conclusie: 'op basis van onze beoordeling zijn ons geen feiten gebleken die ons doen geloven dat de tussentijdse cijfers geen getrouw beeld geven'.

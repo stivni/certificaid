@@ -81,7 +81,7 @@ _Grondslag: WER art. III.85; CBN-advies 174/1_
 
 - **Vereist kennis van**: [[minimum-algemeen-rekeningenstelsel]]
 - **Getriggerd door**: [[dubbel-boekhouden]]
-
+- **Triggert** (1): [[eindejaarsverrichtingen]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV maakt eind 2024 een proef- en saldibalans op: rekening 604 Aankopen toont debet € 230.000, credit € 0, saldo € 230.000 debet. Som debet alle rekeningen = som credit alle rekeningen → balans in evenwicht.

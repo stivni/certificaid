@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Specialisatie van: [[voorzichtigheidsbeginsel]]
 
+> [!info] Specialisaties (1): [[voorraden-ifrs]]
+
 Activa die deel uitmaken van de bedrijfscyclus en die ofwel bij eerste gebruik worden geconsumeerd, ofwel worden verkocht — als zodanig of na een productieproces. Voorraden behoren tot de **vlottende activa** (rubriek 3 MAR). Subcategorieën: (30) grond- en hulpstoffen, (31) goederen in bewerking, (32) gereed product, (33) handelsgoederen, (34) onroerende goederen bestemd voor verkoop. Bij waardering: aanschaffingswaarde of vervaardigingsprijs getoetst aan markt- of realisatiewaarde — **laagste van de twee** geldt (voorzichtigheidsbeginsel).
 
 _Bron: CBN 132/7 — Boeking en waardering van voorraden_
@@ -124,7 +126,7 @@ _Grondslag: CBN 132/7 + MAR klasse 71_
 ## Zie ook
 
 - **Vereist kennis van**: [[waardeverminderingen]]
-
+- **Wordt voorondersteld in** (1): [[bedrijfsresultaat]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV heeft op 31/12: grondstoffen (textiel, garen) € 28.500 (rekening 30), goederen in bewerking € 14.200 (31), gereed product (afgewerkte kledingstukken) € 87.300 (32). Markwaarde van een gedeelte gereed product (30 stuks oude collectie) ligt onder aanschaffingswaarde → waardevermindering € 4.500. Op de balans rubriek IV.Voorraden: € 28.500 + € 14.200 + (€ 87.300 − € 4.500) = € 125.500.

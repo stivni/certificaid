@@ -23,6 +23,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Specialisatie van: [[materiele-vaste-activa]]
 
+> [!info] Bestaat uit (3): [[afschrijvingen-ifrs]] · [[componentenbenadering]] · [[herwaarderingsmodel-ifrs]]
+
 IAS 16 — Materiële vaste activa regelt de boekhoudkundige verwerking van **materiële vaste activa**: tastbare bezittingen aangehouden voor gebruik in productie/levering van goederen of diensten, verhuur of bestuurlijke doeleinden, met verwacht gebruik over **meer dan één periode**. Opnamecriteria (alinea 7): (a) toekomstige economische voordelen waarschijnlijk naar entiteit + (b) kostprijs betrouwbaar bepaalbaar. Bij eerste opname tegen **kostprijs** (alinea 15-16): aankoopprijs (incl. invoerrechten, na aftrek kortingen) + alle rechtstreeks toerekenbare kosten om actief op locatie en in staat te brengen voor beoogd gebruik + eerste schatting van ontmantelings- en herstelkosten (decommissioning). Na eerste opname kiest de entiteit per **categorie** materiële vaste activa tussen het **kostprijsmodel** (alinea 30) en het **herwaarderingsmodel** (alinea 31). Elke component met substantiële kostprijs in verhouding tot het totaal wordt **afzonderlijk afgeschreven** (componentenbenadering, alinea 43-47). Afschrijving start wanneer het actief gereed is voor gebruik; eindigt bij vervreemding of classificatie als 'aangehouden voor verkoop' onder IFRS 5.
 
 _Bron: IAS 16 alinea's 6-7, 15, 30-31_
@@ -126,7 +128,7 @@ _Grondslag: IAS 16 alinea 51 + 61_
 
 - **Vereist kennis van**: [[afschrijvingen-ifrs]]
 - **Vereist kennis van**: [[herwaarderingsmodel-ifrs]]
-
+- **Wordt voorondersteld in** (1): [[bijzondere-waardevermindering-ifrs]]
 ## Voorbeelden
 
 Zelena Bio NV verwerft een productie-installatie voor € 12.500.000 (aankoopprijs) + € 350.000 transport + € 750.000 installatie + € 200.000 ontmantelingsverplichting (verdisconteerd). Kostprijs IAS 16 = € 13.800.000. De installatie bestaat uit drie componenten met verschillende gebruiksduur: motor (€ 4.000.000, 8 jaar), reactor (€ 7.000.000, 20 jaar), bedieningssoftware (€ 2.800.000, 5 jaar) — elk afzonderlijk afgeschreven volgens IAS 16 alinea 43.

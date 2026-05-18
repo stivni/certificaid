@@ -23,6 +23,8 @@ Verschillenboekhouding (variance accounting) registreert systematisch het versch
 
 > [!info] Behoort tot: [[budgetbeheer]]
 
+> [!info] Bestaat uit (1): [[prijsverschil-arbeid]]
+
 
 ## Bouwstenen
 
@@ -124,4 +126,4 @@ Resultaat: € 76 ongunstig totaal, waarvan € 26 te wijten aan duurdere aankoo
 ## Zie ook
 
 - **Vereist kennis van**: [[voorbepaalde-kosten]]
-
+- **Wordt voorondersteld in** (4): [[budgetboekhouding]] · [[budgetprocedure]] · [[flexibel-budget]] · [[voorbepaalde-kosten]]

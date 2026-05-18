@@ -68,7 +68,7 @@ _Grondslag: CBN 132/7 §Marktwaarde_
 
 - **Vereist kennis van**: [[materiaalkosten]]
 - **Vereist kennis van**: [[vervaardigingsprijs]]
-
+- **Wordt voorondersteld in** (1): [[materiaalkosten]]
 ## Bronnen
 
 [^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-bewerking`

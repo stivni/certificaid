@@ -24,6 +24,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[controlemiddelen-ic]]
+
 Beheersactiviteiten zijn de concrete procedures en handelingen die de onderneming inzet om de geïdentificeerde risico's te beheersen. Ze omvatten zowel preventieve (vóór de transactie) als detectieve (na de transactie) maatregelen, en kunnen handmatig of geautomatiseerd zijn.
 
 

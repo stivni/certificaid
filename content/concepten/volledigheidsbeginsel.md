@@ -79,7 +79,7 @@ _Grondslag: WER art. III.83_
 ## Zie ook
 
 - **Vereist kennis van**: [[inventaris]]
-
+- **Wordt voorondersteld in** (1): [[toelichting-jaarrekening]]
 ## Voorbeelden
 
 Rotex Roeselare NV heeft een hypotheek toegekend op een pand ten gunste van haar bank → wordt vermeld in de toelichting onder 'Niet in de balans opgenomen rechten en verplichtingen' (rubriek 9, klasse 0), ook al staat het niet op de balans zelf.

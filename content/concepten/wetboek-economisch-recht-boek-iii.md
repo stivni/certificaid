@@ -24,6 +24,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]]
 
+> [!info] Bestaat uit (1): [[bewaartermijn-boekhouding]]
+
 Het Wetboek van Economisch Recht (WER) is sinds 2014 de centrale Belgische codificatie van het economisch recht. Boek III (artikelen III.82 tot III.95) bevat de algemene boekhoudplicht: wie moet een boekhouding voeren, welk type (volledige dubbele of vereenvoudigde), welke boeken en bewaartermijnen. Dit boek bouwt voort op de oude Boekhoudwet van 17 juli 1975.
 
 _Bron: WER art. III.82 tot III.95_
@@ -95,7 +97,7 @@ _Grondslag: WER Boek III + WVV Boek 3_
 
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
 - **Getriggerd door**: [[dubbel-boekhouden]]
-
+- **Triggert** (1): [[boekhoudplichtige-onderneming]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV (handels-BV) is een 'onderneming' in de zin van WER art. III.82 → moet een dubbele boekhouding voeren volgens WER art. III.83.

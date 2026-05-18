@@ -58,4 +58,4 @@ Voor Yperse Werkplaats BV is wol-spinnen mogelijk een strategisch differentiatie
 
 - **Vereist kennis van**: [[marginale-kostprijs]]
 - **Vereist kennis van**: [[variabele-kosten]]
-
+- **Wordt voorondersteld in** (1): [[sunk-cost]]

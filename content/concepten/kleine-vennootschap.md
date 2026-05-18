@@ -23,6 +23,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Specialisatie van: [[groottecriteria-jaarrekening]]
 
+> [!info] Specialisaties (1): [[microvennootschap]]
+
 Een kleine vennootschap is een vennootschap met rechtspersoonlijkheid die op balansdatum maximaal één van de groottecriteria overschrijdt (WVV art. 1:24): personeelsbezetting ≤ 50, omzet excl. BTW ≤ € 11.250.000, balanstotaal ≤ € 6.000.000. Geniet vereenvoudigingen: verkort schema, vrijstelling jaarverslag, vrijstelling commissaris (tenzij groepsbreed groot).
 
 _Bron: WVV art. 1:24_

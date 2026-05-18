@@ -51,7 +51,7 @@ _Bron: AVG art. 32 + Wet 30 juli 2018 art. 239_
 ## Zie ook
 
 - **Vereist kennis van**: [[geinformatiseerde-omgeving-ic]]
-
+- **Wordt voorondersteld in** (3): [[cyberrisico-ic]] · [[geinformatiseerde-omgeving-ic]] · [[hr-cyclus-ic]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV verwerkt HR persoonsgegevens (loongegevens, evaluaties, ziekteverzuim). AVG vereist: register van verwerkingsactiviteiten, toegangsbeperking (alleen HR en CFO), versleuteling bij transport, retentie-policy (max bewaartermijn), informatieplicht aan werknemer, antwoord op inzageverzoek binnen één maand.

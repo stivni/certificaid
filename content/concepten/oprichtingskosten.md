@@ -230,7 +230,7 @@ Resultaat: Op de balans staat in jaar 1 onder rubriek 20: aanschaffingswaarde �
 ## Zie ook
 
 - **Getriggerd door**: [[obligatielening]]
-
+- **Triggert** (1): [[obligatielening]]
 ## Voorbeelden
 
 Oprichtingen Oostende BV wordt opgericht met notariskosten € 3.200, advieskosten € 1.800, registratierechten € 600 → totaal € 5.600 oprichtingskosten. De BV kiest om te activeren op rekening 200 'Kosten van oprichting en kapitaalverhoging' aan de actiefzijde. Afschrijvingsplan: 20 % per jaar = € 1.120/jaar gedurende 5 jaar. Eerste jaar: Debet 6300 Afschrijvingen oprichtingskosten € 1.120 / Credit 2009 Afschrijvingen op oprichtingskosten € 1.120.

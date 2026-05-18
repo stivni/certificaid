@@ -104,7 +104,7 @@ _Grondslag: IFRS 16 alinea 33 + IAS 36_
 ## Zie ook
 
 - **Vereist kennis van**: [[leaseverplichting-ifrs]]
-
+- **Wordt voorondersteld in** (3): [[leaseverplichting-ifrs]] · [[lessee-vs-lessor-leasing-ifrs]] · [[sale-and-leaseback-ifrs]]
 ## Voorbeelden
 
 Zelena Bio's ROU-actief voor Antwerpse productielocatie op 1 januari 2026: € 4.049.000 (= leaseverplichting € 3.894.000 + sleutelgeld € 50.000 + advocatenkosten € 25.000 + ontmantelingskosten € 80.000). In de IFRS-balans presentatie: ofwel apart als 'Met een gebruiksrecht overeenstemmende activa' ofwel binnen 'Materiële vaste activa' (met vermelding in toelichting in welke post).

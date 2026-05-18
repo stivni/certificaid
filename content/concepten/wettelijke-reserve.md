@@ -200,7 +200,7 @@ Min(5 % × nettowinst, minimum − huidige reserve).
 ## Zie ook
 
 - **Getriggerd door**: [[resultaatverwerking]]
-
+- **Wordt voorondersteld in** (2): [[boekjaar-eindprocedure-checklist]] · [[resultaatverwerking]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV heeft kapitaal/eigen vermogensinbreng € 50.000 → wettelijk minimum wettelijke reserve = 10 % × € 50.000 = € 5.000. Wettelijke reserve op 1/1 = € 3.500. Winst 20X1 = € 42.000. Verplichte afhouding = 5 % × € 42.000 = € 2.100. Boeking: Debet 6921 Toevoeging aan wettelijke reserve € 2.100 / Credit 130 Wettelijke reserve € 2.100. Saldo eind 20X1: € 5.600 — boven minimum, dus volgend jaar geen verplichte afhouding meer.

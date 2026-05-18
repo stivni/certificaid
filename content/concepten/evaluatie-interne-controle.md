@@ -83,6 +83,9 @@ Schriftelijk verslag met bevindingen + impact + aanbevelingen + actieplan + term
 **Grondslag**: IIA Standards
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[evaluatiecriteria-ic]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

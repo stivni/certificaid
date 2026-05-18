@@ -24,6 +24,14 @@
 
 
 {% endif %}
+{% set inv_bevat = inverse_edges.get('onderdeel-van', []) %}
+{% set inv_spec = inverse_edges.get('specialisatie-van', []) %}
+{% if inv_bevat or inv_spec %}
+{% set inv_collapsible = (inv_bevat | length + inv_spec | length) > collapsible_drempel %}
+> [!info]{% if inv_collapsible %}-{% endif %} {% if inv_bevat %}Bestaat uit ({{ inv_bevat | length }}): {% for s in inv_bevat %}[[{{ s }}]]{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}{% if inv_bevat and inv_spec %} · {% endif %}{% if inv_spec %}Specialisaties ({{ inv_spec | length }}): {% for s in inv_spec %}[[{{ s }}]]{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
+
+
+{% endif %}
 {% if hoofdveld %}
 {% if hoofdveld is mapping and hoofdveld.text %}
 {{ hoofdveld.text }}
@@ -44,6 +52,13 @@ _Bron: {{ hoofdveld.source.short }}_
 {% set edges_uitzondering_op = edges | selectattr('type', 'equalto', 'uitzondering-op') | list %}
 {% if edges_uitzondering_op %}
 > [!info] Uitzondering op: {% for e in edges_uitzondering_op %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}
+
+
+{% endif %}
+{% set inv_uitz = inverse_edges.get('uitzondering-op', []) %}
+{% if inv_uitz %}
+{% set inv_uitz_collapsible = inv_uitz | length > collapsible_drempel %}
+> [!info]{% if inv_uitz_collapsible %}-{% endif %} Uitzonderingen ({{ inv_uitz | length }}): {% for s in inv_uitz %}[[{{ s }}]]{% if not loop.last %} · {% endif %}{% endfor %}
 
 
 {% endif %}
@@ -159,12 +174,20 @@ _Bron: {{ hoofdveld.source.short }}_
 {% set edges_zie_ook_types = ['getriggerd-door', 'vereist-kennis-van', 'aanleiding-voor'] %}
 {% set edges_zie_ook = [] %}
 {% for e in edges %}{% if e.type in edges_zie_ook_types %}{% set _ = edges_zie_ook.append(e) %}{% endif %}{% endfor %}
-{% if edges_zie_ook %}
+{% set inv_vereist = inverse_edges.get('vereist-kennis-van', []) %}
+{% set inv_getriggerd = inverse_edges.get('getriggerd-door', []) %}
+{% if edges_zie_ook or inv_vereist or inv_getriggerd %}
 ## Zie ook
 
 {% for e in edges_zie_ook %}
 - **{{ e.type | replace('-', ' ') | capitalize }}**: [[{{ e.target }}]]
 {% endfor %}
+{% if inv_vereist %}
+- **Wordt voorondersteld in** ({{ inv_vereist | length }}): {% for s in inv_vereist %}[[{{ s }}]]{% if not loop.last %} · {% endif %}{% endfor %}
+{% endif %}
+{% if inv_getriggerd %}
+- **Triggert** ({{ inv_getriggerd | length }}): {% for s in inv_getriggerd %}[[{{ s }}]]{% if not loop.last %} · {% endif %}{% endfor %}
+{% endif %}
 
 {% endif %}
 {% if record.illustraties %}

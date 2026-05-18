@@ -24,6 +24,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[informatie-kwaliteit-ic]]
+
 Informatie en communicatie als COSO-component betekent dat relevante, betrouwbare, tijdige informatie tot bij de juiste personen geraakt — zowel naar boven (rapportering aan management), naar beneden (richtlijnen naar uitvoerders), als horizontaal (tussen afdelingen) en extern (naar stakeholders).
 
 

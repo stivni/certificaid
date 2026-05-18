@@ -82,16 +82,65 @@ def _voeg_anker_slugs_toe(record: dict) -> dict:
     return record
 
 
-def render_record(record: dict) -> str:
+def bouw_inverse_edges_index(records: list[dict]) -> dict[str, dict[str, list[str]]]:
+    """Bouw map target_id → {edge_type: [source_id, ...]} over alle records.
+
+    ADR-010 §bidirectionele-edge-render: edges leven op de bron-node (ADR-007
+    §edge-richting). Voor render-tijd inverse-edges-display moet target-node
+    weten welke bron-records naar hem verwijzen. Eén pass over alle records
+    levert die index — daarna O(1) lookup per record.
+
+    Alleen edge-types die in EDGE_RENDER_CONFIG als bidirectional staan worden
+    opgenomen. `verwijst-naar` (catch-all) wordt opt-out — anders zou een
+    populair concept dozijnen inkomende verwijzingen tonen.
+
+    Args:
+        records: lijst van concept-records
+
+    Returns:
+        dict mapping target-id naar dict van edge-type naar list van source-ids
+    """
+    from tools.leermateriaal.lib.edge_render_config import bidirectionele_edge_types
+
+    bidirectionele = bidirectionele_edge_types()
+    index: dict[str, dict[str, list[str]]] = {}
+
+    for record in records:
+        source_id = record.get("id")
+        if not source_id:
+            continue
+        for edge in record.get("edges", []) or []:
+            if not isinstance(edge, dict):
+                continue
+            edge_type = edge.get("type")
+            target_id = edge.get("target")
+            if not target_id or edge_type not in bidirectionele:
+                continue
+            index.setdefault(target_id, {}).setdefault(edge_type, []).append(source_id)
+
+    # Sorteer voor deterministische render-output
+    for target_id in index:
+        for edge_type in index[target_id]:
+            index[target_id][edge_type].sort()
+
+    return index
+
+
+def render_record(record: dict, inverse_edges: dict[str, list[str]] | None = None) -> str:
     """Render één concept-record naar Markdown-string.
 
     Args:
         record: volledig concept-record dict (schema 1.2/1.3)
+        inverse_edges: optioneel {edge_type: [source_id, ...]} met de inkomende
+            edges voor dit record. None betekent geen inverse-rendering (snel pad
+            voor save_record per individuele write). Volledige inverse-display
+            vereist `render_concept_fiche --alle` met de globale index.
 
     Returns:
         volledige Markdown-string incl. frontmatter
     """
     from tools.leermateriaal.lib.confidence import label as confidence_label, mode_confidence
+    from tools.leermateriaal.lib.edge_render_config import COLLAPSIBLE_DREMPEL
     from tools.leermateriaal.lib.frontmatter import as_yaml_block, concept_fiche_frontmatter
     from tools.leermateriaal.lib.jinja_env import get_env
 
@@ -119,6 +168,8 @@ def render_record(record: dict) -> str:
         mode_confidence_label=mode_confidence_label,
         chunk_ids=chunk_ids,
         rationale=record.get("rationale"),
+        inverse_edges=inverse_edges or {},
+        collapsible_drempel=COLLAPSIBLE_DREMPEL,
     )
 
 
@@ -127,7 +178,12 @@ def is_synthese_record(record: dict) -> bool:
     return record.get("node_type") == "synthese"
 
 
-def render_naar_bestand(record: dict, output_dir: Path, droog: bool = False) -> Path | None:
+def render_naar_bestand(
+    record: dict,
+    output_dir: Path,
+    droog: bool = False,
+    inverse_edges: dict[str, list[str]] | None = None,
+) -> Path | None:
     """Render een record en schrijf naar content/concepten/<id>.md.
 
     Synthese-records (node_type='synthese') krijgen géén losse fiche (ADR-010
@@ -138,6 +194,8 @@ def render_naar_bestand(record: dict, output_dir: Path, droog: bool = False) -> 
         record: concept-record dict
         output_dir: doelmap
         droog: als True, schrijf niets weg
+        inverse_edges: optionele {edge_type: [source_id, ...]} met inkomende edges
+            voor dit record. Zie render_record() voor semantiek.
 
     Returns:
         pad van het output-bestand, of None voor synthese-records
@@ -150,7 +208,7 @@ def render_naar_bestand(record: dict, output_dir: Path, droog: bool = False) -> 
             output_pad.unlink()
         return None
 
-    inhoud = render_record(record)
+    inhoud = render_record(record, inverse_edges=inverse_edges)
 
     if not droog:
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -201,6 +259,10 @@ def main() -> None:
             )
             sys.exit(1)
 
+    # Bouw inverse-edges-index over ALLE records (niet alleen de te-renderen
+    # subset) — anders missen we inkomende edges van records buiten de filter.
+    inverse_index = bouw_inverse_edges_index(alle_records)
+
     # Renderen
     verwerkt = 0
     geskipt_synthese = 0
@@ -208,8 +270,11 @@ def main() -> None:
 
     for record in te_renderen:
         record_id = record.get("id", "?")
+        inverse_for_record = inverse_index.get(record_id, {})
         try:
-            pad = render_naar_bestand(record, output_dir, droog=args.droog)
+            pad = render_naar_bestand(
+                record, output_dir, droog=args.droog, inverse_edges=inverse_for_record
+            )
             if pad is None:
                 geskipt_synthese += 1
             else:

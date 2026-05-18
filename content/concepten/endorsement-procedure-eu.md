@@ -108,7 +108,7 @@ _Grondslag: Verordening 1606/2002 art. 3 lid 4_
 ## Zie ook
 
 - **Vereist kennis van**: [[verplichte-ifrs-eu-beursgenoteerden]]
-
+- **Wordt voorondersteld in** (1): [[verplichte-ifrs-eu-beursgenoteerden]]
 ## Voorbeelden
 
 ### Stilstaande klok bij niet-endorsed IFRS

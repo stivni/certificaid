@@ -209,7 +209,7 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 
 - **Getriggerd door**: [[verplichte-ifrs-eu-beursgenoteerden]]
 - **Vereist kennis van**: [[jaarrekening-componenten-ifrs]]
-
+- **Triggert** (1): [[verplichte-ifrs-eu-beursgenoteerden]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

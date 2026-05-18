@@ -29,6 +29,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Specialisatie van: [[vereenvoudigde-boekhouding]]
 
+> [!info]- Bestaat uit (8): [[bewaring-boekhoudstukken]] · [[boekhoudbeginselen-overzicht]] · [[boekjaar-eindprocedure-checklist]] · [[dagboek]] · [[dubbel-boekhouden]] · [[inventaris]] · [[onveranderlijkheid-boekingen]] · [[rechten-verplichtingen-buiten-balans]] · Specialisaties (1): [[vereenvoudigde-boekhouding]]
+
 Een boekhouding is **regelmatig** als ze drie dingen samen waarmaakt: ze is **passend** voor de aard en omvang van het bedrijf, ze is **volledig** (omvat alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen) en ze is **onveranderlijk** (boekingen kun je niet zonder spoor wijzigen). Daarbovenop moeten alle verrichtingen zonder uitstel, getrouw, naar tijdsorde in een dagboek worden ingeschreven, gedragen door een verantwoordingsstuk, en minstens één keer per jaar afgesloten met een inventaris en jaarrekening (artikel III.83 en III.84 Wetboek van Economisch Recht (WER)).
 
 _Bron: WER art. III.82 — III.84_

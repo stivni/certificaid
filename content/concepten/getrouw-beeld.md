@@ -97,7 +97,7 @@ _Grondslag: Richtlijn 2013/34/EU art. 6, lid 1, c); KB 21/10/2018 art. 3:6_
 ## Zie ook
 
 - **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
-
+- **Wordt voorondersteld in** (1): [[eu-harmonisatie-jaarrekeningenrecht]]
 ## Voorbeelden
 
 Rotex Roeselare NV bezit een grond met aanschaffingswaarde € 1.200.000. Na een rampschade is de werkelijke waarde gezakt tot € 650.000. Het strikt volgen van 'aanschaffingswaarde − afschrijving' geeft geen getrouw beeld → uitzonderlijke waardevermindering van € 550.000 wordt geboekt, met motivering in de toelichting.

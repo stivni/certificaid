@@ -24,6 +24,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]] · Specialisatie van: [[wetboek-vennootschappen-verenigingen]]
 
+> [!info] Bestaat uit (3): [[jaarrekening-schema]] · [[minimum-algemeen-rekeningenstelsel]] · [[waarderingsregels-jaarrekening]]
+
 Het Koninklijk Besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (kortweg KB-WVV) werkt het WVV gedetailleerd uit. Boek 3 van het KB regelt het minimum algemeen rekeningenstelsel (MAR), de schema's van de jaarrekening (volledig/verkort/micro), de waarderingsregels, en de inhoud van de toelichting. Boek 3 vervangt het oude KB van 30 januari 2001.
 
 _Bron: KB van 29 april 2019, Boek 3_

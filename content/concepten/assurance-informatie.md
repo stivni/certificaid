@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert.
 
+> [!info] Bestaat uit (4): [[externe-bevestiging-audit]] · [[gegevensgerichte-werkzaamheden]] · [[schriftelijke-bevestiging-management]] · [[toetsing-interne-beheersing]]
+
 Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert. Hij moet voldoende EN geschikte assurance-informatie verkrijgen — voldoende verwijst naar de hoeveelheid; geschikt naar de relevantie en betrouwbaarheid.
 
 _Bron: ITAA KMO-controlenorm §85-§86_

@@ -50,7 +50,7 @@ _Bron: Management accounting — bron-gap_
 ## Zie ook
 
 - **Vereist kennis van**: [[variabele-kosten]]
-
+- **Wordt voorondersteld in** (3): [[kostenanalyse-make-or-buy]] · [[kostprijs-per-eenheid]] · [[opportuniteitskost]]
 ## Voorbeelden
 
 Yperse Werkplaats BV produceert 20.000 tapijten/jaar bij normale productie. De marginale kostprijs voor het 20.001ste tapijt = variabele kost € 13. Maar boven 22.000 stuks moet overuren gedraaid worden (€ 35/uur i.p.v. € 25); de marginale kostprijs stijgt dan tot € 17/stuk.

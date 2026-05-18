@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > De ITAA Algemene Controlenorm is een door het ITAA uitgevaardigde norm die de algemene principes vastlegt voor elke controleopdracht uitgevoerd door een gecertificeerd accountant: bekwaamheid, onafhankelijkheid, werkschema, werkdocumenten, opvolging, controlewerkzaamheden, versla….
 
+> [!info] Specialisaties (1): [[itaa-kmo-controlenorm]]
+
 De ITAA Algemene Controlenorm is een door het ITAA uitgevaardigde norm die de algemene principes vastlegt voor elke controleopdracht uitgevoerd door een gecertificeerd accountant: bekwaamheid, onafhankelijkheid, werkschema, werkdocumenten, opvolging, controlewerkzaamheden, verslag en toezicht via de Commissie van Toezicht.
 
 _Bron: ITAA-norm-algemene-controlenorm_

@@ -72,7 +72,7 @@ _Grondslag: Richtlijn 2013/34/EU art. 2, 16)_
 ## Zie ook
 
 - **Vereist kennis van**: [[niet-in-balans-opgenomen-rechten-verplichtingen]]
-
+- **Wordt voorondersteld in** (1): [[cijferanalyses-controle-norm]]
 ## Bronnen
 
 [^1]: `Richtlijn-2013-34-EU__art_2__sub_b__dup2`

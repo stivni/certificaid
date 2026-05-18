@@ -71,6 +71,9 @@ Verstuur kopie van de opdrachtbrief of een korte mededeling — bij voorkeur sch
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[kwaliteitsbeheersing-opdrachtniveau]]
 ## Voorbeelden
 
 Wolters & Partners CVBA wordt benoemd als nieuwe controleaccountant van Naaiatelier Ninove BV, na ontslag van de vorige accountant. Sofie Janssens contacteert haar voorganger schriftelijk, vraagt inzage in zijn werkdocumenten (vooral risico-evaluatie en eindbevindingen), en informeert ook de externe accountant die in de laatste 12 maanden samenstellingsopdrachten heeft uitgevoerd.

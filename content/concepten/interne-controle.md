@@ -26,6 +26,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Interne controle is het geheel van procedures, gedragsregels en organisatorische maatregelen dat een onderneming opzet om met redelijke zekerheid haar doelstellingen te halen rond drie zaken: (1) betrouwbaarheid van de financiële rapportering, (2) effectiviteit en efficiëntie van….
 
+> [!info]- Bestaat uit (20): [[aankoopcyclus-ic]] · [[avg-interne-controle]] · [[beheersactiviteiten]] · [[controle-omgeving]] · [[drie-lijnen-model]] · [[ethiek-organisatie-ic]] · [[evaluatie-interne-controle]] · [[functiescheiding]] · [[geinformatiseerde-omgeving-ic]] · [[hr-cyclus-ic]] · [[informatie-en-communicatie-ic]] · [[informatiesysteem-onderneming]] · [[klokkenluiderregeling]] · [[monitoring-interne-controle]] · [[productiecyclus-ic]] · [[risico-inschatting-organisatie]] · [[uitvoering-interne-controle]] · [[verkoopcyclus-ic]] · [[verspilling]] · [[voorraadcyclus-ic]]
+
 Interne controle is het geheel van procedures, gedragsregels en organisatorische maatregelen dat een onderneming opzet om met redelijke zekerheid haar doelstellingen te halen rond drie zaken: (1) betrouwbaarheid van de financiële rapportering, (2) effectiviteit en efficiëntie van de bedrijfsvoering, en (3) naleving van wet- en regelgeving. Het is een proces dat door bestuur, management én personeel wordt gedragen — geen aparte dienst die toezicht houdt.
 
 _Bron: ITAA-norm-kmo-controlenorm Bijlage 1 (definitie 'Interne beheersing')_
@@ -140,7 +142,7 @@ _Grondslag: ITAA-norm-kmo-controlenorm Bijlage 1_
 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Getriggerd door**: [[toetsing-interne-beheersing]]
-
+- **Wordt voorondersteld in** (3): [[coso-i-framework]] · [[managementcontrole]] · [[onderneming-begrip-ic]]
 ## Voorbeelden
 
 Yperse Werkplaats BV (productie-onderneming, omzet € 8.000.000) zet een intern-controle-systeem op met hulp van Xenon Expertise BV: aankoopfacturen moeten drie handtekeningen krijgen (besteller, magazijnier, financieel verantwoordelijke); voorraadtellingen worden 2x per jaar gedaan door iemand anders dan de magazijnier; loonberekening wordt opgemaakt door HR maar betaald door financieel verantwoordelijke. Doel: redelijke zekerheid dat de cijfers kloppen, dat er niet wordt gestolen, en dat de wet wordt nageleefd.
