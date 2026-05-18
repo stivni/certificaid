@@ -1119,3 +1119,305 @@ def test_audit_parity_ok_met_content_in_sync(monkeypatch, patched_api, test_reco
     assert resultaat["missing"] == []
     assert resultaat["content_ontbreekt"] == []
     assert resultaat["content_extra"] == []
+
+
+# ─── Orphan-management: gebaseerd_op_concepten + wikilinks ───────────────────
+
+
+def test_delete_record_verwijdert_gebaseerd_op_concepten(patched_api):
+    """
+    delete_record verwijdert target_id uit gebaseerd_op_concepten[] in andere records.
+
+    Scenario: synthese-record A heeft gebaseerd_op_concepten: [B, C, D].
+    Na delete(D) → A's lijst wordt [B, C]; A is hergeïndexeerd.
+
+    ADR-019 §"Orphan-management": gebaseerd_op_concepten[] bij delete.
+    """
+    import tools.lib.records_api as api
+
+    record_a = {
+        "id": "synthese-a",
+        "naam": "Synthese A",
+        "node_type": "synthese",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+        "gebaseerd_op_concepten": ["concept-b", "concept-c", "concept-d"],
+    }
+    record_d = {
+        "id": "concept-d",
+        "naam": "Concept D",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+    }
+
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_d, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+
+    # Delete D → cascade moet A bijwerken
+    api.delete_record("concept-d", chroma_path=patched_api.chroma_path)
+
+    # A staat nog op disk
+    pad_a = patched_api.records_dir / "synthese-a.json"
+    assert pad_a.exists(), "synthese-a onterecht verwijderd"
+
+    # A's gebaseerd_op_concepten bevat concept-d niet meer
+    bijgewerkt_a = json.loads(pad_a.read_text(encoding="utf-8"))
+    gebaseerd_op = bijgewerkt_a.get("gebaseerd_op_concepten", [])
+    assert "concept-d" not in gebaseerd_op, (
+        f"concept-d nog aanwezig in gebaseerd_op_concepten van synthese-a: {gebaseerd_op}"
+    )
+    # B en C staan er nog wél in
+    assert "concept-b" in gebaseerd_op, "concept-b ten onrechte verwijderd"
+    assert "concept-c" in gebaseerd_op, "concept-c ten onrechte verwijderd"
+
+    # A is hergeïndexeerd
+    index_calls_a = [
+        c for c in patched_api.daemon_calls
+        if c[0] == "index-concept" and c[1].get("record", {}).get("id") == "synthese-a"
+    ]
+    assert len(index_calls_a) >= 1, "synthese-a niet hergeïndexeerd na cascade-delete van concept-d"
+
+
+def test_rename_record_redirecteert_gebaseerd_op_concepten(patched_api):
+    """
+    rename_record herleidt gebaseerd_op_concepten[] van old_id naar new_id.
+
+    Scenario: synthese-record A heeft gebaseerd_op_concepten: [B, C, D].
+    Na rename(D → D2) → A's lijst wordt [B, C, D2].
+
+    ADR-019 §"Orphan-management": gebaseerd_op_concepten[] bij rename.
+    """
+    import tools.lib.records_api as api
+
+    record_a = {
+        "id": "synthese-a-rename",
+        "naam": "Synthese A rename",
+        "node_type": "synthese",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+        "gebaseerd_op_concepten": ["concept-b", "concept-c", "concept-d-oud"],
+    }
+    record_d = {
+        "id": "concept-d-oud",
+        "naam": "Concept D oud",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+    }
+
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_d, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+
+    nieuw_record_d = dict(record_d, id="concept-d-nieuw", naam="Concept D nieuw")
+    api.rename_record("concept-d-oud", nieuw_record_d, chroma_path=patched_api.chroma_path)
+
+    # A's gebaseerd_op_concepten is bijgewerkt
+    pad_a = patched_api.records_dir / "synthese-a-rename.json"
+    assert pad_a.exists()
+    bijgewerkt_a = json.loads(pad_a.read_text(encoding="utf-8"))
+    gebaseerd_op = bijgewerkt_a.get("gebaseerd_op_concepten", [])
+    assert "concept-d-nieuw" in gebaseerd_op, (
+        f"concept-d-nieuw niet gevonden in gebaseerd_op_concepten: {gebaseerd_op}"
+    )
+    assert "concept-d-oud" not in gebaseerd_op, (
+        f"concept-d-oud nog aanwezig in gebaseerd_op_concepten: {gebaseerd_op}"
+    )
+    assert "concept-b" in gebaseerd_op, "concept-b ten onrechte verwijderd"
+    assert "concept-c" in gebaseerd_op, "concept-c ten onrechte verwijderd"
+
+
+def test_delete_record_verwijdert_wikilink_naar_target(patched_api):
+    """
+    delete_record vervangt wikilinks naar het verwijderde record door plain tekst.
+
+    Scenario: record A heeft definitie.text = "Onderdeel van [[B]] en [[C]]".
+    Na delete(B) → tekst wordt "Onderdeel van B en [[C]]" (link weg, tekst behouden).
+
+    ADR-019 §"Orphan-management": wikilink delete→plain tekst.
+    """
+    import tools.lib.records_api as api
+
+    record_a = {
+        "id": "record-met-wikilinks",
+        "naam": "Record met wikilinks",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+        "definitie": {"text": "Onderdeel van [[concept-te-verwijderen]] en [[concept-c]]"},
+    }
+    record_b = {
+        "id": "concept-te-verwijderen",
+        "naam": "Concept Te Verwijderen",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+    }
+
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_b, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+
+    api.delete_record("concept-te-verwijderen", chroma_path=patched_api.chroma_path)
+
+    # A staat nog op disk
+    pad_a = patched_api.records_dir / "record-met-wikilinks.json"
+    assert pad_a.exists()
+    bijgewerkt_a = json.loads(pad_a.read_text(encoding="utf-8"))
+
+    tekst = bijgewerkt_a.get("definitie", {}).get("text", "")
+    # [[concept-te-verwijderen]] moet plain tekst geworden zijn
+    assert "[[concept-te-verwijderen]]" not in tekst, (
+        f"Kapotte wikilink nog aanwezig: {tekst}"
+    )
+    assert "concept-te-verwijderen" in tekst, (
+        f"Tekst-inhoud verdwenen na wikilink-verwijdering: {tekst}"
+    )
+    # [[concept-c]] moet intact zijn
+    assert "[[concept-c]]" in tekst, (
+        f"Ongeraakte wikilink [[concept-c]] gewijzigd: {tekst}"
+    )
+
+
+def test_rename_record_redirecteert_wikilink_naar_target(patched_api):
+    """
+    rename_record vervangt wikilinks van old_id door new_id.
+
+    Scenario: record A heeft definitie.text = "Onderdeel van [[B]] en [[C]]".
+    Na rename(B → B2) → tekst wordt "Onderdeel van [[B2]] en [[C]]".
+
+    ADR-019 §"Orphan-management": wikilink rename→link-update.
+    """
+    import tools.lib.records_api as api
+
+    record_a = {
+        "id": "record-met-wikilinks-rename",
+        "naam": "Record met wikilinks rename",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+        "definitie": {"text": "Onderdeel van [[concept-b-oud]] en [[concept-c]]"},
+    }
+    record_b = {
+        "id": "concept-b-oud",
+        "naam": "Concept B oud",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+    }
+
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_b, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+
+    nieuw_record_b = dict(record_b, id="concept-b-nieuw", naam="Concept B nieuw")
+    api.rename_record("concept-b-oud", nieuw_record_b, chroma_path=patched_api.chroma_path)
+
+    # A's wikilink is bijgewerkt
+    pad_a = patched_api.records_dir / "record-met-wikilinks-rename.json"
+    assert pad_a.exists()
+    bijgewerkt_a = json.loads(pad_a.read_text(encoding="utf-8"))
+
+    tekst = bijgewerkt_a.get("definitie", {}).get("text", "")
+    assert "[[concept-b-nieuw]]" in tekst, (
+        f"Wikilink niet geredirect naar concept-b-nieuw: {tekst}"
+    )
+    assert "[[concept-b-oud]]" not in tekst, (
+        f"Oude wikilink [[concept-b-oud]] nog aanwezig: {tekst}"
+    )
+    assert "[[concept-c]]" in tekst, (
+        f"Ongeraakte wikilink [[concept-c]] gewijzigd: {tekst}"
+    )
+
+
+def test_wikilink_met_display_naam_bij_delete_en_rename(patched_api):
+    """
+    Wikilinks met display-naam: [[id|Display]] → bij delete: "Display", bij rename: [[new_id|Display]].
+
+    ADR-019 §"Orphan-management": display-naam optioneel scenario.
+    """
+    import tools.lib.records_api as api
+
+    record_a = {
+        "id": "record-display-wikilink",
+        "naam": "Record display wikilink",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+        "definitie": {
+            "text": "Zie [[concept-x|Verklaring van X]] voor details."
+        },
+    }
+    record_x = {
+        "id": "concept-x",
+        "naam": "Concept X",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+    }
+
+    # --- delete scenario ---
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_x, chroma_path=patched_api.chroma_path)
+
+    api.delete_record("concept-x", chroma_path=patched_api.chroma_path)
+
+    pad_a = patched_api.records_dir / "record-display-wikilink.json"
+    bijgewerkt_a = json.loads(pad_a.read_text(encoding="utf-8"))
+    tekst_na_delete = bijgewerkt_a.get("definitie", {}).get("text", "")
+
+    # display-naam behouden, link weg
+    assert "[[concept-x" not in tekst_na_delete, (
+        f"Kapotte wikilink nog aanwezig na delete: {tekst_na_delete}"
+    )
+    assert "Verklaring van X" in tekst_na_delete, (
+        f"Display-naam verdwenen na delete: {tekst_na_delete}"
+    )
+
+    # --- rename scenario: herstellen en dan rename testen ---
+    # Herstel record_a met originele tekst en schrijf record_x opnieuw
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_x, chroma_path=patched_api.chroma_path)
+
+    nieuw_record_x = dict(record_x, id="concept-x-nieuw", naam="Concept X nieuw")
+    api.rename_record("concept-x", nieuw_record_x, chroma_path=patched_api.chroma_path)
+
+    bijgewerkt_a_na_rename = json.loads(pad_a.read_text(encoding="utf-8"))
+    tekst_na_rename = bijgewerkt_a_na_rename.get("definitie", {}).get("text", "")
+
+    # link bijgewerkt, display-naam bewaard
+    assert "[[concept-x-nieuw|Verklaring van X]]" in tekst_na_rename, (
+        f"Wikilink met display-naam niet correct bijgewerkt na rename: {tekst_na_rename}"
+    )

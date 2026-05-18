@@ -42,9 +42,10 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import sys
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Union
 
 import requests
 
@@ -250,14 +251,106 @@ def _verwijder_concept_fiche(concept_id: str, content_dir: Optional[Path] = None
 # Interne orphan-edge-scan helper (ADR-019 §"Orphan-management")
 # ---------------------------------------------------------------------------
 
+_WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
+
+
+def _iter_strings(waarde: object):
+    """Yield alle string-leaves recursief uit een dict/list/str-structuur."""
+    if isinstance(waarde, str):
+        yield waarde
+    elif isinstance(waarde, dict):
+        for v in waarde.values():
+            yield from _iter_strings(v)
+    elif isinstance(waarde, list):
+        for item in waarde:
+            yield from _iter_strings(item)
+
+
+def _wikilink_ids_in_waarde(waarde: object) -> set[str]:
+    """
+    Extraheer alle wikilink-ids recursief uit een willekeurige JSON-waarde.
+
+    Ondersteunt dicts, lists en strings. Andere typen worden genegeerd.
+    Wikilinks van de vorm ``[[id]]`` of ``[[id|Display]]`` — het id is het
+    eerste deel (vóór de ``|``). Geeft een set van id-strings terug.
+
+    ADR-019 §"Orphan-management": gebaseerd_op_concepten[] en wikilinks.
+    """
+    resultaat: set[str] = set()
+    if isinstance(waarde, str):
+        for match in _WIKILINK_RE.finditer(waarde):
+            inhoud = match.group(1)
+            wikilink_id = inhoud.split("|", 1)[0].strip()
+            if wikilink_id:
+                resultaat.add(wikilink_id)
+    elif isinstance(waarde, dict):
+        for v in waarde.values():
+            resultaat |= _wikilink_ids_in_waarde(v)
+    elif isinstance(waarde, list):
+        for item in waarde:
+            resultaat |= _wikilink_ids_in_waarde(item)
+    return resultaat
+
+
+def _vervang_wikilinks_in_waarde(
+    waarde: Union[str, dict, list, object],
+    old_id: str,
+    new_id: Optional[str],
+) -> object:
+    """
+    Vervang recursief wikilinks die naar ``old_id`` wijzen.
+
+    Als ``new_id`` is opgegeven (rename): vervangt ``[[old_id]]`` door
+    ``[[new_id]]`` en ``[[old_id|Display]]`` door ``[[new_id|Display]]``.
+    Als ``new_id`` is ``None`` (delete): vervangt ``[[old_id]]`` door de
+    display-tekst (of ``old_id`` als er geen display-tekst is) — de link
+    wordt plain tekst. De informatie blijft behouden, alleen de link is dood.
+
+    Muteert het origineel niet — geeft een nieuw object terug.
+    ADR-019 §"Orphan-management": delete→plain tekst, rename→link-update.
+    """
+    if isinstance(waarde, str):
+        def vervang_match(m: re.Match) -> str:
+            inhoud = m.group(1)
+            delen = inhoud.split("|", 1)
+            gevonden_id = delen[0].strip()
+            display = delen[1] if len(delen) > 1 else None
+
+            if gevonden_id != old_id:
+                return m.group(0)  # niet geraakt, ongewijzigd terug
+
+            if new_id is not None:
+                # rename: vervang id, bewaar display
+                if display is not None:
+                    return f"[[{new_id}|{display}]]"
+                return f"[[{new_id}]]"
+            else:
+                # delete: maak plain tekst
+                return display if display is not None else old_id
+
+        return _WIKILINK_RE.sub(vervang_match, waarde)
+
+    elif isinstance(waarde, dict):
+        return {
+            k: _vervang_wikilinks_in_waarde(v, old_id, new_id)
+            for k, v in waarde.items()
+        }
+    elif isinstance(waarde, list):
+        return [_vervang_wikilinks_in_waarde(item, old_id, new_id) for item in waarde]
+    else:
+        return waarde
+
 
 def _scan_incoming_edges(target_id: str) -> list[dict]:
     """
     Scan alle records op disk op verwijzingen naar target_id.
 
-    Scant twee velden:
-    - `edges[].target` == target_id
-    - `vergelijkingsparen[].vergelijking_met` == target_id
+    Scant vier referentie-types:
+    - ``edges[].target`` == target_id
+    - ``vergelijkingsparen[].vergelijking_met`` == target_id
+    - ``gebaseerd_op_concepten[]`` bevat target_id (exact string match)
+    - ``[[target_id]]`` of ``[[target_id|Display]]`` wikilinks in willekeurige
+      tekstvelden (recursief gescand via ``_wikilink_ids_in_waarde``)
 
     Geeft een lijst terug van dicts:
         {'record': <volledig record dict>, 'pad': <Path>}
@@ -267,6 +360,9 @@ def _scan_incoming_edges(target_id: str) -> list[dict]:
     een record dat naar zichzelf wijst kan niet opgeruimd worden na delete.
 
     Performantie: ~50ms voor 430 records (bestandssysteem-IO, geen RAG-call).
+
+    ADR-019 §"Orphan-management": uitgebreid met gebaseerd_op_concepten[] en
+    wikilinks (2026-05-18).
     """
     resultaten: list[dict] = []
     if not RECORDS_DIR.exists():
@@ -289,16 +385,28 @@ def _scan_incoming_edges(target_id: str) -> list[dict]:
 
         heeft_verwijzing = False
 
+        # 1. edges[].target
         for edge in record.get("edges", []):
             if edge.get("target") == target_id:
                 heeft_verwijzing = True
                 break
 
+        # 2. vergelijkingsparen[].vergelijking_met
         if not heeft_verwijzing:
             for paar in record.get("vergelijkingsparen", []):
                 if paar.get("vergelijking_met") == target_id:
                     heeft_verwijzing = True
                     break
+
+        # 3. gebaseerd_op_concepten[]
+        if not heeft_verwijzing:
+            if target_id in record.get("gebaseerd_op_concepten", []):
+                heeft_verwijzing = True
+
+        # 4. [[wikilinks]] recursief in alle tekstvelden
+        if not heeft_verwijzing:
+            if target_id in _wikilink_ids_in_waarde(record):
+                heeft_verwijzing = True
 
         if heeft_verwijzing:
             resultaten.append({"record": record, "pad": pad})
@@ -308,47 +416,118 @@ def _scan_incoming_edges(target_id: str) -> list[dict]:
 
 def _verwijder_edges_naar(record: dict, target_id: str) -> dict:
     """
-    Verwijder alle edges en vergelijkingsparen die naar target_id wijzen uit het record.
+    Verwijder alle verwijzingen naar target_id uit het record.
 
-    Geeft een nieuw record-dict terug met de gefilterde lijsten.
-    Muteert het origineel niet.
+    Vier referentie-types worden aangepakt:
+    1. ``edges[].target`` — entries met target == target_id worden verwijderd.
+    2. ``vergelijkingsparen[].vergelijking_met`` — entries worden verwijderd.
+    3. ``gebaseerd_op_concepten[]`` — target_id wordt uit de lijst verwijderd.
+    4. ``[[target_id]]`` / ``[[target_id|Display]]`` wikilinks in tekstvelden —
+       vervangen door plain tekst (display-naam of target_id). De informatie
+       blijft behouden; alleen de kapotte link verdwijnt.
+
+    Geeft een nieuw record-dict terug. Muteert het origineel niet.
+    Logt per wikilink-vervanging een WARNING met het aantal vervangingen.
+
+    ADR-019 §"Orphan-management": delete→plain tekst strategie.
     """
+    record_id = record.get("id", "<onbekend>")
+
+    # 1. edges
     gefilterde_edges = [
         edge for edge in record.get("edges", [])
         if edge.get("target") != target_id
     ]
+
+    # 2. vergelijkingsparen
     gefilterde_vergelijkingsparen = [
         paar for paar in record.get("vergelijkingsparen", [])
         if paar.get("vergelijking_met") != target_id
     ]
+
+    # 3. gebaseerd_op_concepten
+    gefilterde_gebaseerd_op = [
+        concept_id for concept_id in record.get("gebaseerd_op_concepten", [])
+        if concept_id != target_id
+    ]
+
+    # 4. wikilinks: recursief vervangen door plain tekst
+    record_zonder_structuur = {
+        k: v for k, v in record.items()
+        if k not in ("edges", "vergelijkingsparen", "gebaseerd_op_concepten")
+    }
+    record_na_wikilink = _vervang_wikilinks_in_waarde(record_zonder_structuur, target_id, None)
+
+    # Tel vervangingen voor logging
+    wikilinks_voor = _wikilink_ids_in_waarde(record_zonder_structuur)
+    wikilinks_na = _wikilink_ids_in_waarde(record_na_wikilink)
+    aantal_vervangingen = sum(
+        1 for tekst in _iter_strings(record_zonder_structuur)
+        if f"[[{target_id}" in tekst
+    )
+    if aantal_vervangingen > 0:
+        logger.warning(
+            "_verwijder_edges_naar: %d wikilink(s) naar %s in %s vervangen door plain tekst",
+            aantal_vervangingen,
+            target_id,
+            record_id,
+        )
+
     return {
-        **record,
+        **record_na_wikilink,
         "edges": gefilterde_edges,
         "vergelijkingsparen": gefilterde_vergelijkingsparen,
+        "gebaseerd_op_concepten": gefilterde_gebaseerd_op,
     }
 
 
 def _redirect_edges_naar(record: dict, old_id: str, new_id: str) -> dict:
     """
-    Vervang alle edges en vergelijkingsparen die naar old_id wijzen door new_id.
+    Vervang alle verwijzingen naar old_id door new_id in het record.
 
-    Geeft een nieuw record-dict terug met de bijgewerkte targets.
-    Muteert het origineel niet.
+    Vier referentie-types worden bijgewerkt:
+    1. ``edges[].target`` — old_id → new_id.
+    2. ``vergelijkingsparen[].vergelijking_met`` — old_id → new_id.
+    3. ``gebaseerd_op_concepten[]`` — old_id → new_id in de lijst.
+    4. ``[[old_id]]`` / ``[[old_id|Display]]`` wikilinks in tekstvelden —
+       vervangen door ``[[new_id]]`` resp. ``[[new_id|Display]]``.
+
+    Geeft een nieuw record-dict terug. Muteert het origineel niet.
+
+    ADR-019 §"Orphan-management": rename→link-update strategie.
     """
+    # 1. edges
     bijgewerkte_edges = [
         {**edge, "target": new_id} if edge.get("target") == old_id else edge
         for edge in record.get("edges", [])
     ]
+
+    # 2. vergelijkingsparen
     bijgewerkte_vergelijkingsparen = [
         {**paar, "vergelijking_met": new_id}
         if paar.get("vergelijking_met") == old_id
         else paar
         for paar in record.get("vergelijkingsparen", [])
     ]
+
+    # 3. gebaseerd_op_concepten
+    bijgewerkte_gebaseerd_op = [
+        new_id if concept_id == old_id else concept_id
+        for concept_id in record.get("gebaseerd_op_concepten", [])
+    ]
+
+    # 4. wikilinks: recursief bijwerken in alle overige velden
+    record_zonder_structuur = {
+        k: v for k, v in record.items()
+        if k not in ("edges", "vergelijkingsparen", "gebaseerd_op_concepten")
+    }
+    record_na_wikilink = _vervang_wikilinks_in_waarde(record_zonder_structuur, old_id, new_id)
+
     return {
-        **record,
+        **record_na_wikilink,
         "edges": bijgewerkte_edges,
         "vergelijkingsparen": bijgewerkte_vergelijkingsparen,
+        "gebaseerd_op_concepten": bijgewerkte_gebaseerd_op,
     }
 
 

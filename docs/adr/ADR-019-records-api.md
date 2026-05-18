@@ -145,11 +145,13 @@ Daemon-uitbreiding nodig (ADR-018): nieuw endpoint `POST /delete-concept {id, ch
 
 De records-API garandeert na elke write dat disk, RAG en content in sync zijn voor het gemuteerde record zelf. Maar andere records kunnen `edges[].target` of `vergelijkingsparen[].vergelijking_met` bevatten die naar het gemuteerde id wijzen. Bij `delete_record(X)` of `rename_record(X → Y)` worden die verwijzingen in andere records niet bijgewerkt — VERIFY detecteert ze pas achteraf als broken refs.
 
+Tijdens de 1.5.V EXTRACT v4-pass bleek dat ook twee bijkomende reference-types stale refs kunnen bevatten: `gebaseerd_op_concepten[]` (synthese-records) en `[[wikilinks]]` in vrije tekstvelden.
+
 **Beslissing**
 
 Bij `delete_record(X)`:
-1. Scan alle records op disk op `edges[].target == X` of `vergelijkingsparen[].vergelijking_met == X` (vóór disk-delete, zodat de scan nog werkzaam is).
-2. Verwijder die edge/vergelijkingspaar-entries uit elk geraakt record via `_verwijder_edges_naar()`.
+1. Scan alle records op disk op verwijzingen naar X (vier types — zie Scan-algoritme hieronder). Vóór disk-delete, zodat de scan nog werkzaam is.
+2. Verwijder/degradeer die verwijzingen in elk geraakt record via `_verwijder_edges_naar()`.
 3. Sla elk geraakt record opnieuw op via `save_record()` (cascadeert naar RAG + content).
 4. Log per geraakt record: `"removed dangling edge to {X} from {Y}"` op WARNING-niveau.
 5. Daarna delete X zelf (disk + RAG + content).
@@ -157,11 +159,52 @@ Bij `delete_record(X)`:
 Bij `rename_record(X → Y)`:
 1. Voer de rename zelf volledig uit (disk delete X, disk write Y, RAG delete X, RAG upsert Y, markdown delete X, render Y).
 2. Scan alle records op disk op verwijzingen naar X (ná disk-write Y, zodat nieuw record al bestaat).
-3. Update target/vergelijking_met naar Y in elk geraakt record via `_redirect_edges_naar()`.
+3. Update verwijzingen naar Y in elk geraakt record via `_redirect_edges_naar()`.
 4. Sla elk geraakt record opnieuw op via `save_record()`.
 5. Log per geraakt record: `"redirected edge {X} → {Y} in {Z}"` op INFO-niveau.
 
 **Geen IncomingEdgesError** — silently auto-correct, met loud logging zodat de operator het ziet.
+
+**Scan-algoritme**
+
+`_scan_incoming_edges(target_id)` controleert per record vier referentie-types:
+
+1. `edges[].target == target_id` — directe edges.
+2. `vergelijkingsparen[].vergelijking_met == target_id` — vergelijkingsparen.
+3. `target_id in gebaseerd_op_concepten[]` — exacte string match in de array van synthese-records.
+4. `[[target_id]]` of `[[target_id|Display]]` wikilinks — recursief gescand via `_wikilink_ids_in_waarde()` over de volledige record-boom (dicts, lists, strings). Display-tekst na `|` wordt genegeerd bij het matchen; alleen het id-deel (vóór `|`) telt.
+
+**Mutatiestrategie per reference-type bij delete**
+
+| Type | Actie |
+|---|---|
+| `edges[].target` | Entry verwijderd uit lijst |
+| `vergelijkingsparen[].vergelijking_met` | Entry verwijderd uit lijst |
+| `gebaseerd_op_concepten[]` | target_id verwijderd uit array |
+| `[[target_id]]` wikilink | Vervangen door plain tekst (target_id of display-naam) — de informatie blijft behouden, alleen de kapotte link verdwijnt |
+| `[[target_id\|Display]]` wikilink | Vervangen door `Display` (plain tekst) |
+
+Voorbeeld delete:
+```
+"Onderdeel van [[beroepsgeheim]] en [[aansprakelijkheid]]"
+→ "Onderdeel van beroepsgeheim en [[aansprakelijkheid]]"
+```
+
+**Mutatiestrategie per reference-type bij rename (X → Y)**
+
+| Type | Actie |
+|---|---|
+| `edges[].target` | old_id → new_id |
+| `vergelijkingsparen[].vergelijking_met` | old_id → new_id |
+| `gebaseerd_op_concepten[]` | old_id → new_id in de array |
+| `[[old_id]]` wikilink | `[[old_id]]` → `[[new_id]]` |
+| `[[old_id\|Display]]` wikilink | `[[old_id\|Display]]` → `[[new_id\|Display]]` |
+
+Voorbeeld rename (beroepsgeheim → beroepsgeheim-gecertificeerd-accountant):
+```
+"Zie [[beroepsgeheim|Beroepsgeheim]] voor details."
+→ "Zie [[beroepsgeheim-gecertificeerd-accountant|Beroepsgeheim]] voor details."
+```
 
 **Atomiciteitsimplicaties**
 
@@ -169,13 +212,16 @@ Cascade-saves zijn niet atomair ten opzichte van elkaar: als save_record faalt i
 
 **Performantie**
 
-Scan over 430 records kost ~50ms (bestandssysteem-IO, geen RAG-call). Acceptabel.
+Scan over 430 records kost ~50ms (bestandssysteem-IO, geen RAG-call). Acceptabel. De recursieve wikilink-scan voegt per record een kleine constante factor toe (regex over string-leaves) — verwaarloosbaar.
 
 **Hulpfuncties**
 
-- `_scan_incoming_edges(target_id)` — scant alle records, retourneert lijst van `{record, pad}`
-- `_verwijder_edges_naar(record, target_id)` — filtert dangling entries uit edges en vergelijkingsparen
-- `_redirect_edges_naar(record, old_id, new_id)` — vervangt old_id door new_id in edges en vergelijkingsparen
+- `_scan_incoming_edges(target_id)` — scant alle records op vier referentie-types, retourneert lijst van `{record, pad}`
+- `_verwijder_edges_naar(record, target_id)` — verwijdert edges/vergelijkingsparen/gebaseerd_op_concepten-entries; wikilinks → plain tekst
+- `_redirect_edges_naar(record, old_id, new_id)` — vervangt old_id door new_id in alle vier referentie-types
+- `_wikilink_ids_in_waarde(waarde)` — recursieve scanner, retourneert set van wikilink-ids
+- `_vervang_wikilinks_in_waarde(waarde, old_id, new_id)` — recursieve vervanger; `new_id=None` → plain tekst (delete), `new_id` opgegeven → link-update (rename)
+- `_iter_strings(waarde)` — yield alle string-leaves voor teldoeleinden (logging)
 
 ### Timeout-mitigatie (pilot-bevinding 2026-05-18)
 
