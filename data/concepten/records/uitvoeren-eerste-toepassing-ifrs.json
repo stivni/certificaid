@@ -186,7 +186,7 @@
         {
           "advies": "Drie balansen presenteren in de eerste IFRS-jaarrekening — niet twee.",
           "vaak_fout": "Alleen de eindbalans en vergelijkbare balans tonen. Bij eerste IFRS-jaarrekening is een derde balans (op overgangsdatum) verplicht.",
-          "grondslag": "[[ias-1-jaarrekening-componenten]] §drie-balansen-bij-eerste-toepassing"
+          "grondslag": "[[jaarrekening-componenten-ifrs]] §drie-balansen-bij-eerste-toepassing"
         }
       ],
       "grondslag": "[[ifrs-eerste-toepassing]] §stap-5, IFRS 1 alinea 23-25 + IAS 1 alinea 40A"
@@ -218,6 +218,11 @@
       "datum": "2026-05-18",
       "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
       "reden": "gebaseerd_op_concepten[] na rename-pass §17 regel 11"
+    },
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T10:33Z-1.5.taak.1",
+      "reden": "Stale wikilink [[ias-1-jaarrekening-componenten]] in stap 5 valkuilen.grondslag → [[jaarrekening-componenten-ifrs]] (post-rename)."
     }
   ]
 }

@@ -148,7 +148,7 @@
             "nr": 3,
             "titel": "Impactbalans Zelena Bio NV (vóór versus na opname)",
             "type": "balans",
-            "data": "| Geconsolideerde balans (uittreksel)  | Vóór (€)        | Na (€)          |\n|--------------------------------------|----------------:|----------------:|\n| Materiële vaste activa               |      85.000.000 |      85.000.000 |\n| **Right-of-use actief**              |               0 |   **3.894.000** |\n| Vlottende activa                     |      40.000.000 |      40.000.000 |\n| **Totaal activa**                    |     125.000.000 |     128.894.000 |\n| Eigen vermogen                       |      80.000.000 |      80.000.000 |\n| **Leaseverplichting (langlopend)**   |               0 |   **3.413.760** |\n| **Leaseverplichting (kortlopend)**   |               0 |     **480.240** |\n| Andere schulden                      |      45.000.000 |      45.000.000 |\n| **Totaal passiva**                   |     125.000.000 |     128.894.000 |\n"
+            "data": "| Geconsolideerde balans (uittreksel)  | Vóór (€)        | Na (€)          |\n|--------------------------------------|----------------:|----------------:|\n| Materiële vaste activa               |      85.000.000 |      85.000.000 |\n| **Right-of-use actief**              |               0 |   **3.894.000** |\n| Vlottende activa                     |      40.000.000 |      40.000.000 |\n| **Totaal activa**                    |     125.000.000 |     128.894.000 |\n| Eigen vermogen                       |      80.000.000 |      80.000.000 |\n| **Leaseverplichting (langlopend)**   |               0 |   **3.569.760** |\n| **Leaseverplichting (kortlopend)**   |               0 |     **324.240** |\n| Andere schulden                      |      45.000.000 |      45.000.000 |\n| **Totaal passiva**                   |     125.000.000 |     128.894.000 |\n"
           }
         ]
       },
@@ -232,5 +232,19 @@
     "1.5.V",
     "1.5.IV.C"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "correction_log": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T10:33Z-1.5.taak.1",
+      "scope": "stappen[3].voorbeeld.substappen[2] (Impactbalans Zelena Bio NV)",
+      "corrected_from": "Leaseverplichting langlopend 3.413.760 + kortlopend 480.240 = 3.894.000",
+      "correction_to": "Leaseverplichting langlopend 3.569.760 + kortlopend 324.240 = 3.894.000",
+      "correction_reason": "Cijferconsistentie (v4 §17 regel 9): kortlopend deel van leaseverplichting = jaar-1 aflossing hoofdsom (= € 324.240, conform substap 1 van stap 5), niet de volledige betaling € 480.000. Bijgevolg langlopend = € 3.894.000 − € 324.240 = € 3.569.760.",
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 61-70 (current vs non-current liabilities) + IFRS 16 alinea 47 (afzonderlijke presentatie leaseverplichting)"
+      }
+    }
+  ]
 }

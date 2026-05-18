@@ -146,8 +146,8 @@ Leaseverplichting = contante waarde van leasebetalingen tegen impliciete rentevo
 >    | Vlottende activa                     |      40.000.000 |      40.000.000 |
 >    | **Totaal activa**                    |     125.000.000 |     128.894.000 |
 >    | Eigen vermogen                       |      80.000.000 |      80.000.000 |
->    | **Leaseverplichting (langlopend)**   |               0 |   **3.413.760** |
->    | **Leaseverplichting (kortlopend)**   |               0 |     **480.240** |
+>    | **Leaseverplichting (langlopend)**   |               0 |   **3.569.760** |
+>    | **Leaseverplichting (kortlopend)**   |               0 |     **324.240** |
 >    | Andere schulden                      |      45.000.000 |      45.000.000 |
 >    | **Totaal passiva**                   |     125.000.000 |     128.894.000 |
 >    

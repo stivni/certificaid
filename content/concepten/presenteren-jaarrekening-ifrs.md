@@ -37,7 +37,7 @@ Een volledige IFRS-jaarrekening bevat: (a) overzicht van financiële positie (ba
 
 **🛠️ Hoe**:
 
-1. Volg [[ias-1-jaarrekening-componenten]] §vijf-componenten voor de checklist.
+1. Volg [[jaarrekening-componenten-ifrs]] §vijf-componenten voor de checklist.
 2. Voor Zelena Bio NV boekjaar 2027: bouw elk component in een aparte rapport-sectie:
    (a) Geconsolideerde balans per 31 december 2027 + vergelijkbare per 31 december 2026 + openingsbalans per 1 januari 2026 (overgangsdatum — drie balansen verplicht bij eerste IFRS-jaarrekening).
    (b) Geconsolideerd overzicht van winst of verlies en OCI 2027 + vergelijkbare 2026.
@@ -47,7 +47,7 @@ Een volledige IFRS-jaarrekening bevat: (a) overzicht van financiële positie (ba
 3. Vermeld op titelblad: 'Geconsolideerde jaarrekening over het boekjaar afgesloten op 31 december 2027, opgesteld in overeenstemming met IFRS zoals goedgekeurd door de EU'.
 
 
-**Grondslag**: [[ias-1-jaarrekening-componenten]] §vijf-componenten, IAS 1 alinea 10 + 40A
+**Grondslag**: [[jaarrekening-componenten-ifrs]] §vijf-componenten, IAS 1 alinea 10 + 40A
 
 ### 2. Pas de presentatiebeginselen toe
 
@@ -64,20 +64,20 @@ Verwerk de zes beginselen: getrouwe weergave (eerlijkheidsverklaring), going con
 
 **🛠️ Hoe**:
 
-1. Volg [[ias-1-presentatie-beginselen]] §toepassing voor de zes principes.
+1. Volg [[presentatiebeginselen-jaarrekening-ifrs]] §toepassing voor de zes principes.
 2. Voor Zelena Bio: bestuur beoordeelt going concern positief over 12 maanden vooruit; geen materiële onzekerheid → vermelding in toelichting (alinea 25). Indien onzekerheid: expliciete melding vereist.
 3. Compensatieverbod: vorderingen op klanten en schulden aan leveranciers nooit netto presenteren — bruto op balans. Uitzonderingen: alleen wanneer compenserend recht én voornemen tot netto-afwikkeling (alinea 32-35).
 4. Materialiteit: groepeer onmateriële posten; specifieer materiële (alinea 29-31). 'Diverse vorderingen € 50.000' OK; 'Diverse vorderingen € 5.000.000' niet — uitsplitsing vereist.
 5. Stel een eerlijkheidsverklaring op in toelichting noot 1: 'De geconsolideerde jaarrekening voldoet aan alle IFRS zoals goedgekeurd door de EU' (alinea 16).
 
 
-**Grondslag**: [[ias-1-presentatie-beginselen]] §zes-beginselen, IAS 1 alinea 13-46
+**Grondslag**: [[presentatiebeginselen-jaarrekening-ifrs]] §zes-beginselen, IAS 1 alinea 13-46
 
 > [!warning]- Compensatie van bruto-posten in balans of resultatenrekening is verboden tenzij IFRS het uitdrukkelijk toestaat.
 >
 > _Vaak fout gedaan_: Activa en passiva (of opbrengsten en kosten) netto presenteren om de balans 'leesbaarder' te maken. IAS 1 alinea 32 verbiedt dit categorisch.
 >
-> _Grondslag_: [[ias-1-presentatie-beginselen]] §compensatieverbod
+> _Grondslag_: [[presentatiebeginselen-jaarrekening-ifrs]] §compensatieverbod
 
 ### 3. Structureer de balans en het overzicht van winst of verlies en OCI
 
@@ -93,7 +93,7 @@ Voor de balans: kies courant/niet-courant of liquiditeitsvolgorde (alinea 60); m
 
 **🛠️ Hoe**:
 
-1. Volg [[ias-1-balans-presentatie]] §courant-niet-courant + [[ias-1-winst-en-totaalresultaat]] §een-of-twee-overzichten.
+1. Volg [[balans-presentatie-ifrs]] §courant-niet-courant + [[totaalresultaat-ifrs]] §een-of-twee-overzichten.
 2. Voor Zelena Bio: balans in **courant/niet-courant** presentatie (gebruikelijk voor productieonderneming):
    Niet-courante activa: materiële vaste activa, immateriële vaste activa, ROU, deelnemingen, uitgestelde belastingvorderingen.
    Courante activa: voorraden, handelsvorderingen, geldmiddelen.
@@ -129,7 +129,7 @@ Voor de balans: kies courant/niet-courant of liquiditeitsvolgorde (alinea 60); m
 >    
 >
 
-**Grondslag**: [[ias-1-balans-presentatie]] §minimumposten, [[ias-1-winst-en-totaalresultaat]] §oci-classificatie, IAS 1 alinea 54 + 81A + 82 + 82A
+**Grondslag**: [[balans-presentatie-ifrs]] §minimumposten, [[totaalresultaat-ifrs]] §oci-classificatie, IAS 1 alinea 54 + 81A + 82 + 82A
 
 ### 4. Stel het mutatieoverzicht eigen vermogen en het kasstroomoverzicht op
 
@@ -146,14 +146,14 @@ Mutatieoverzicht EV (IAS 1 alinea 106): per kolom een EV-component (kapitaal, he
 
 **🛠️ Hoe**:
 
-1. Volg [[ias-1-mutatieoverzicht-eigen-vermogen]] §kolomstructuur voor opbouw.
+1. Volg [[mutatieoverzicht-eigen-vermogen-ifrs]] §kolomstructuur voor opbouw.
 2. Voor Zelena Bio: kolommen = Kapitaal | Uitgiftepremies | Herwaarderingsreserve terreinen | Pensioen-OCI | Ingehouden winsten | Totaal.
    Rijen = Opening 1 januari 2027 | Winst 2027 | OCI 2027 per type | Dividend uitgekeerd | Overdrachten (bv. herwaardering naar ingehouden bij realisatie) | Eind 31 december 2027.
 3. Kasstroomoverzicht: kies indirecte methode (Belgische praktijk) — start bij 'Winst vóór belasting' en corrigeer voor niet-kasitems (afschrijvingen, herwaarderingen, voorzieningen, rente toegerekend versus betaald).
 4. Aandachtspunt: leaseverplichting-betalingen splitsen: rente in 'operationeel' of 'financiering' (consistent toepassen, IAS 7); aflossing in 'financiering' (IAS 7 alinea 17(e)).
 
 
-**Grondslag**: [[ias-1-mutatieoverzicht-eigen-vermogen]] §kolomstructuur, IAS 1 alinea 106-110 + IAS 7
+**Grondslag**: [[mutatieoverzicht-eigen-vermogen-ifrs]] §kolomstructuur, IAS 1 alinea 106-110 + IAS 7
 
 ### 5. Stel de toelichting op
 
@@ -169,7 +169,7 @@ Bouw de toelichting in een logische volgorde (alinea 114): (a) verklaring van ov
 
 **🛠️ Hoe**:
 
-1. Volg [[ias-1-toelichtingsvereisten]] §structuur voor de checklist.
+1. Volg [[toelichtingsvereisten-jaarrekening-ifrs]] §structuur voor de checklist.
 2. Verplichte noten Zelena Bio:
    - Noot 1 — Verklaring van overeenstemming met IFRS zoals goedgekeurd door EU (alinea 16).
    - Noot 2 — Grondslagen voor financiële verslaggeving (afschrijvingsmethoden, voorraadwaarderingsmethode, opbrengstherkenning, leaseverwerking, ...).
@@ -180,12 +180,12 @@ Bouw de toelichting in een logische volgorde (alinea 114): (a) verklaring van ov
 3. Sluit af met datum van goedkeuring door bestuursorgaan + handtekeningen.
 
 
-**Grondslag**: [[ias-1-toelichtingsvereisten]] §structuur, IAS 1 alinea 112-138
+**Grondslag**: [[toelichtingsvereisten-jaarrekening-ifrs]] §structuur, IAS 1 alinea 112-138
 
 > [!warning]- Vermeld kritische schattingen en oordelen expliciet (IAS 1 alinea 122 + 125) — niet enkel grondslagen.
 >
 > _Vaak fout gedaan_: Alleen de grondslagen samenvatten zonder de schattingsonzekerheid (bv. WACC bij impairment, leaseperiode) te bespreken. Dit ondergraaft de getrouwheid van de toelichting.
 >
-> _Grondslag_: [[ias-1-toelichtingsvereisten]] §kritische-schattingen
+> _Grondslag_: [[toelichtingsvereisten-jaarrekening-ifrs]] §kritische-schattingen
 
 
