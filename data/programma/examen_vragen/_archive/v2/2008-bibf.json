@@ -1,0 +1,1129 @@
+{
+  "examen_id": "2008-bibf",
+  "jaar": 2008,
+  "sessie": 1,
+  "bron_pdf": "resources/raw/voorbeeldexamens/2008-bibf.pdf",
+  "totaal_punten": 100,
+  "extractie": {
+    "tool": "vragen-extractie-v2",
+    "pdf_lib": "pdfplumber",
+    "extracted_at": "2026-05-18T23:35:30.773914+00:00",
+    "n_vragen": 37,
+    "n_pages": 23,
+    "n_tabellen_geaccepteerd": 0,
+    "n_tabellen_verworpen": 0
+  },
+  "vragen": [
+    {
+      "id": "2008-bibf-vrA1",
+      "vraag_nr": "A.1",
+      "punten": null,
+      "pdf_pagina": 3,
+      "vak_code_in_pdf": "A",
+      "vak_naam_in_pdf": "A. Algemene boekhouding",
+      "vraagtype": "berekening",
+      "vraagtekst": "A.1 In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR waarvan 10.000,00 EUR voor de eindejaarspremies. Boek het vakantiegeld verschuldigd voor 2007. Wanneer boekt u dit vakantiegeld?",
+      "sub_vragen": [],
+      "correct_antwoord": "Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR",
+      "antwoord_motivering": "Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR Te betalen vakantiegeld: 18,8 % van 102.000 = 19.176,00 EUR 623 Voorzieningen vakantiegeld 19.176,00 456 Aan Vakantiegeld 19.176,00 Het te betalen vakantiegeld moet op 31 december 2007 worden geboekt.",
+      "themas": [
+        "vakantiegeld",
+        "voorzieningen",
+        "afsluitingsboekingen"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "A.1 In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR waarvan 10.000,00 EUR voor de eindejaarspremies. Boek het vakantiegeld verschuldigd voor 2007. Wanneer boekt u dit vakantiegeld?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrA2",
+      "vraag_nr": "A.2",
+      "punten": null,
+      "pdf_pagina": 3,
+      "vak_code_in_pdf": "A",
+      "vak_naam_in_pdf": "A. Algemene boekhouding",
+      "vraagtype": "berekening",
+      "vraagtekst": "A.2 In januari 2008, ontvangt u een factuur voor 1.210,00 EUR, BTW inbegrepen, m.b.t. de levering in 2007 van publiciteitsartikelen. Wat boekt u in 2008 en, in voorkomend geval, in 2007?",
+      "sub_vragen": [],
+      "correct_antwoord": "In 2007:",
+      "antwoord_motivering": "In 2007: 61 Diensten en diverse goederen 1.000,00 444 Aan Te ontvangen facturen 1.000,00 In 2008 444 Te ontvangen facturen 1.000,00 411 Terug te vorderen BTW 210,00 440 Aan Leveranciers 1.210,00",
+      "themas": [
+        "te-ontvangen-facturen",
+        "btw-aftrek",
+        "matching-principe"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "A.2 In januari 2008, ontvangt u een factuur voor 1.210,00 EUR, BTW inbegrepen, m.b.t. de levering in 2007 van publiciteitsartikelen. Wat boekt u in 2008 en, in voorkomend geval, in 2007?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrA3",
+      "vraag_nr": "A.3",
+      "punten": null,
+      "pdf_pagina": 4,
+      "vak_code_in_pdf": "A",
+      "vak_naam_in_pdf": "A. Algemene boekhouding",
+      "vraagtype": "berekening",
+      "vraagtekst": "A.3 De voorraden bedragen op 1 januari N: 12.000 EUR grondstoffen 30.000 EUR goederen in bewerking 28.000 EUR gereed produkt 6.000 EUR handelsgoederen Per 31 december N bedraagt voorraad: 17.000 EUR grondstoffen 26.000 EUR goederen in bewerking 31.000 EUR gereed produkt 4.000 EUR handelsgoederen Boek de voorraadwijzigingen.",
+      "sub_vragen": [],
+      "correct_antwoord": "300 Grondstoffen 5.000,00",
+      "antwoord_motivering": "300 Grondstoffen 5.000,00 6094 Voorraadwijziging van handelsgoederen 2.000,00 6090 Aan Voorraadwijziging van grondstoffen 5.000,00 340 Handelsgoederen 2.000,00 712 Voorraadwijziging van goederen in 4.000,00 bewerking 330 Gereed produkt 3.000,00 320 Aan Goederen in bewerking 4.000,00 713 Aan Voorraadwijziging gereed produkt 3.000,00",
+      "themas": [
+        "voorraadwijzigingen",
+        "afsluitingsboekingen"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "A.3 De voorraden bedragen op 1 januari N: 12.000 EUR grondstoffen 30.000 EUR goederen in bewerking 28.000 EUR gereed produkt 6.000 EUR handelsgoederen Per 31 december N bedraagt voorraad: 17.000 EUR grondstoffen 26.000 EUR goederen in bewerking 31.000 EUR gereed produkt 4.000 EUR handelsgoederen Boek de voorraadwijzigingen."
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrA4",
+      "vraag_nr": "A.4",
+      "punten": null,
+      "pdf_pagina": 4,
+      "vak_code_in_pdf": "A",
+      "vak_naam_in_pdf": "A. Algemene boekhouding",
+      "vraagtype": "berekening",
+      "vraagtekst": "A.4 Een kleine vennootschap heeft de rechtspersoonlijkheid verkregen op 1 maart 2008 en ze sluit haar eerste boekjaar af op 31 december 2008. De oprichtingskosten bedragen 1.200 EUR; ze werden per bank betaald dd. 10 maart en op het actief geboekt. Een personenwagen van 20.000 EUR exclusief BTW werd op 31 maart 2008 gekocht met een economische levensduur van vijf jaar. Boek beide verrichtingen. Boek de afschrijvingen.",
+      "sub_vragen": [],
+      "correct_antwoord": "200 Oprichtingskosten 1.200,00",
+      "antwoord_motivering": "200 Oprichtingskosten 1.200,00 550 Aan Bank 1.200,00 240 Meubilair en rollend materieel 22.100,00 411 Terug te vorderen BTW 2.100,00 440 Aan Leveranciers 24.200,00 6300 Afschrijvingen op oprichtingskosten 200,00 6302 Afschrijvingen op materiële vaste activa 3.683,33 2009 Aan Afschrijvingen op oprichtingskosten 200,00 2409 Àan Afschrijvingen op rollend materieel 3.683,33 Commentaar: een kleine vennootschap mag volledige annuïteiten afschrijven, maar het boekjaar telt slechts 10 maanden; bijgevolg moet de annuïteit met 10/12den worden vermenigvuldigd. De oprichtingskosten worden afgeschreven over een periode van maximum vijf jaar.",
+      "themas": [
+        "oprichtingskosten",
+        "afschrijvingen",
+        "personenwagen",
+        "boekjaar-korter-dan-12-maanden"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "A.4 Een kleine vennootschap heeft de rechtspersoonlijkheid verkregen op 1 maart 2008 en ze sluit haar eerste boekjaar af op 31 december 2008. De oprichtingskosten bedragen 1.200 EUR; ze werden per bank betaald dd. 10 maart en op het actief geboekt. Een personenwagen van 20.000 EUR exclusief BTW werd op 31 maart 2008 gekocht met een economische levensduur van vijf jaar. Boek beide verrichtingen. Boek de afschrijvingen."
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrB1",
+      "vraag_nr": "B.1",
+      "punten": null,
+      "pdf_pagina": 5,
+      "vak_code_in_pdf": "B",
+      "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+      "vraagtype": "berekening",
+      "vraagtekst": "B.1 In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12% vertegenwoordigen van het stemrecht in C. Boek deze aankoop in de onderneming B.",
+      "sub_vragen": [],
+      "correct_antwoord": "B en C zijn verbonden vennootschappen onder gemeenschappelijke controle van A → aandelen 12 % in C worden in B geboekt als deelneming in verbonden onderneming. Boeking: Debet 280 Deelnemingen in verbonden ondernemingen 50.000,00 / Credit 550 Bank 50.000,00.",
+      "antwoord_motivering": "**Kwalificatie van de relatie** (stap 1):\nVennootschap A controleert exclusief zowel B als C → B en C zijn beide dochters van A → B en C zijn **verbonden vennootschappen** (zustervennootschappen onder dezelfde moeder, WVV art. 1:20). ⚖️\n\n**Kwalificatie van de aandelen** (stap 2):\nB koopt 12 % aandelen in C, waarmee een **duurzame band** tot stand komt met een verbonden onderneming. Onder het MAR (KB van 12 september 1983) worden aandelen die de onderneming aanhoudt om duurzaam de bedrijfsuitoefening van een andere onderneming te ondersteunen, geboekt onder rubriek **28 Financiële vaste activa**, subcategorie **280 Deelnemingen in verbonden ondernemingen**. ⚖️\n\n**Waardering** (stap 3):\nDe deelneming wordt geboekt aan **aanschaffingsprijs** — niet aan marktwaarde. Latere afwaardering enkel bij duurzame minderwaarde of ontwaarding (KB WVV art. 3:42 + art. 3:45). ⚖️\n\n**Boeking in de onderneming B**:\n\n```\nDebet  280  Deelnemingen in verbonden ondernemingen   50.000,00\nCredit 550  Kredietinstellingen (Bank)                            50.000,00\n```\n\n🤖 Tegenboeking 550 Bank verondersteld; indien de aankoop nog niet betaald is, zou de tegenboeking 489 'Overige diverse schulden' of een vergelijkbare schuld-rekening zijn. De vraagtekst specificeert geen betalingsvorm, default-aanname = cash via bankrekening.\n\n_Grondslag: MAR-rubriek 28 (KB 12 september 1983, inmiddels geïntegreerd in KB WVV 2019 art. 3:42 + bijlage); WVV art. 1:20 voor de definitie van verbonden vennootschappen._\n\n**Historische context**: deze vraag (2008) verwijst implicit naar de oude Wetboek van vennootschappen (vóór 2019). Onder huidige WVV (2019) is de oplossing identiek: art. 1:20 definieert verbonden vennootschappen, MAR-rekening 280 is ongewijzigd.",
+      "themas": [
+        "deelneming-verbonden-onderneming",
+        "groepsstructuur"
+      ],
+      "wets_verwijzingen": [
+        "WVV art. 1:20",
+        "KB WVV art. 3:42",
+        "MAR-rubriek 28 (KB 12 sept. 1983, geïntegreerd in KB WVV 2019)"
+      ],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "B.1 In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12% vertegenwoordigen van het stemrecht in C. Boek deze aankoop in de onderneming B."
+        }
+      ],
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/financiele-vaste-activa.md",
+          "sectie": "Definitie + MAR-rubriek 28",
+          "ondersteunt": "MAR 280, aanschaffingsprijs-waardering"
+        },
+        {
+          "record": "content/concepten/financiele-vaste-activa.md",
+          "sectie": "Voorbeeld (Aurelia/Brugse-boeking)",
+          "ondersteunt": "boekingspatroon 280 / 550"
+        },
+        {
+          "record": "content/concepten/dochteronderneming.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "A controleert B en C → verbonden vennootschappen"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig+historische-context",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ],
+        "migratie_van": "legacy_antwoord_2008_bibf",
+        "opmerking": "Legacy-antwoord verwees naar oude W.Venn.; gemigreerd naar huidige WVV 2019 + MAR-context. Inhoudelijk identiek: B en C zijn verbonden vennootschappen, MAR 280, aanschaffingsprijs-waardering."
+      },
+      "antwoord_type": "kwalificatie",
+      "antwoord_confidence": "grounded",
+      "vraagtekst_normalized_at": "2026-05-19"
+    },
+    {
+      "id": "2008-bibf-vrB2",
+      "vraag_nr": "B.2",
+      "punten": null,
+      "pdf_pagina": 5,
+      "vak_code_in_pdf": "B",
+      "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+      "vraagtype": "open",
+      "vraagtekst": "B.2 De hierboven vermelde vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers, berekend in voltijdse equivalenten. Welk schema moet / mag de vennootschap A voor haar jaarrekening gebruiken? Welk schema moet / mag de vennootschap B voor haar jaarrekening gebruiken?",
+      "sub_vragen": [],
+      "correct_antwoord": "Beide vennootschappen (A en B) moeten het volledig schema gebruiken. A is op zich al groot (120 wn > 50); B is op zich klein, maar via de verbondenheidstoets (WVV art. 1:24, § 5) wordt de groep geconsolideerd getoetst (A+B = 125 wn) → groep is groot → B moet ook het volledig schema gebruiken. B kan geen microschema gebruiken want ze is dochter (WVV art. 1:25, § 2).",
+      "antwoord_motivering": "**Stap 1: Groottecriteria-toets voor vennootschap A (afzonderlijk)**\n\nA heeft 120 voltijdse equivalenten — dat overschrijdt de drempel voor 'klein' (≤ 50 werknemers). ⚖️ Omzet en balanstotaal van A zijn niet gegeven; **echter**, A is **moedervennootschap** (controleert B en C), wat de **verbondenheidstoets** activeert (WVV art. 1:24, § 5): de groottecriteria moeten worden getoetst op **geconsolideerde basis**, niet afzonderlijk. ⚖️\n\n**Stap 2: Groottecriteria-toets voor vennootschap B (afzonderlijk)**\n\nB heeft 5 voltijdse equivalenten en € 2.000.000 jaaromzet — beide ruim onder de 'klein'-drempels. Op zich zou B als 'klein' kwalificeren (mogelijk zelfs 'micro' indien balanstotaal ≤ € 450.000 en geen moeder/dochter). 🤖 Maar B is **dochter** van A → **automatisch geen micro** (WVV art. 1:25, § 2: een microvennootschap mag géén dochter zijn). ⚖️ Daarnaast moet ook B haar groottetoets op **geconsolideerde basis** doen (WVV art. 1:24, § 5). ⚖️\n\n**Stap 3: Geconsolideerde toets voor de groep A + B (+ C)**\n\n- Personeel geconsolideerd: A (120) + B (5) = minstens **125 voltijdse equivalenten** → ver boven de drempel 50 → criterium overschreden. ⚖️\n- Omzet en balanstotaal van A en C niet gegeven, maar 125 werknemers impliceert sterk dat omzet > € 11.250.000 (drempel klein). 🤖\n- Conclusie: geconsolideerd is de groep **groot** — minstens twee criteria (zeker personeel, zeer waarschijnlijk omzet) overschreden. ⚖️\n\n**Stap 4: Gevolgen voor de jaarrekening**\n\nOnder huidig recht (WVV art. 1:24-1:26 + KB WVV art. 3:1):\n\n- **Vennootschap A** → groot (afzonderlijk én geconsolideerd) → **verplicht het volledig schema** te gebruiken. ⚖️\n- **Vennootschap B** → groot (op geconsolideerde basis, ook al is ze op zich klein) → **verplicht het volledig schema** te gebruiken. ⚖️\n\nGeen vennootschap mag het verkort of microschema kiezen.\n\n_Grondslag: WVV art. 1:24 (groottecriteria + verbondenheidstoets), WVV art. 1:25 (microvennootschap niet als dochter), KB WVV art. 3:1 e.v. (jaarrekeningschema-keuze)._\n\n**Historische context**: deze vraag (2008) verwijst impliciet naar artikel 15 van het oude Wetboek van vennootschappen (vóór 2019). De inhoudelijke regel is **identiek** onder huidige WVV (verbondenheidstoets + drie criteria). Drempel-cijfers werden ondertussen aangepast (laatst: 2024-update) — de nieuwste 'klein'-drempels zijn 50 wn / € 11.250.000 omzet / € 6.000.000 balanstotaal.",
+      "themas": [
+        "jaarrekening-schema",
+        "groottecriteria",
+        "geconsolideerde-grondslag"
+      ],
+      "wets_verwijzingen": [
+        "WVV art. 1:24 (groottecriteria + verbondenheidstoets)",
+        "WVV art. 1:25, § 2 (micro-uitsluiting bij moeder/dochter)",
+        "KB WVV art. 3:1 e.v."
+      ],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "B.2 De hierboven vermelde vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers, berekend in voltijdse equivalenten. Welk schema moet / mag de vennootschap A voor haar jaarrekening gebruiken? Welk schema moet / mag de vennootschap B voor haar jaarrekening gebruiken?"
+        }
+      ],
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/groottecriteria-jaarrekening.md",
+          "sectie": "Drempelwaarden + Bouwstenen",
+          "ondersteunt": "drempels klein/micro + lock-in regel"
+        },
+        {
+          "record": "content/concepten/groottecriteria-jaarrekening.md",
+          "sectie": "Bouwstenen — Verbondenheid trekt de telling op",
+          "ondersteunt": "WVV art. 1:24, § 5 geconsolideerde toets"
+        },
+        {
+          "record": "content/concepten/groottecriteria-jaarrekening.md",
+          "sectie": "Bouwstenen — Microvennootschap extra voorwaarde",
+          "ondersteunt": "WVV art. 1:25, § 2: geen moeder/dochter voor micro"
+        },
+        {
+          "record": "content/concepten/bepalen-jaarrekeningschema.md",
+          "sectie": "Stappen",
+          "ondersteunt": "schema-keuze procedure"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig+historische-context",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ],
+        "migratie_van": "legacy_antwoord_2008_bibf",
+        "opmerking": "Legacy-antwoord verwees naar art. 15 W.Venn. (oud); gemigreerd naar huidige WVV 1:24-1:26. Inhoudelijke conclusie identiek: beide volledig schema via verbondenheidstoets."
+      },
+      "antwoord_type": "kwalificatie",
+      "antwoord_confidence": "inferred",
+      "vraagtekst_normalized_at": "2026-05-19"
+    },
+    {
+      "id": "2008-bibf-vrB3",
+      "vraag_nr": "B.3",
+      "punten": null,
+      "pdf_pagina": 6,
+      "vak_code_in_pdf": "B",
+      "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+      "vraagtype": "open",
+      "vraagtekst": "B.3 De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris opdracht. In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?",
+      "sub_vragen": [],
+      "correct_antwoord": "De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse",
+      "antwoord_motivering": "De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse goederen In overeenstemming met artikel 134, § 2 Wetboek van vennootschappen, moet de bezoldiging van de commissaris worden vermeld in de toelichting bij de jaarrekening.",
+      "themas": [
+        "commissaris-bezoldiging",
+        "toelichting-jaarrekening"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "B.3 De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris opdracht. In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrB4",
+      "vraag_nr": "B.4",
+      "punten": null,
+      "pdf_pagina": 6,
+      "vak_code_in_pdf": "B",
+      "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+      "vraagtype": "open",
+      "vraagtekst": "B.4 In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers. In de veronderstelling dat personeelsleden, tijdens de diensturen, seminaries hebben gevolgd buiten de onderneming, hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?",
+      "sub_vragen": [],
+      "correct_antwoord": "De totale kost van de bezoldiging voor de opleidingsuren moet worden",
+      "antwoord_motivering": "De totale kost van de bezoldiging voor de opleidingsuren moet worden gewaardeerd; de eventuele terugbetaalde verplaatsingskosten worden eraan toegevoegd alsook de deelnamekosten aan het seminarie.",
+      "themas": [
+        "sociale-balans",
+        "opleidingskosten"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "B.4 In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers. In de veronderstelling dat personeelsleden, tijdens de diensturen, seminaries hebben gevolgd buiten de onderneming, hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrC1",
+      "vraag_nr": "C.1",
+      "punten": null,
+      "pdf_pagina": 6,
+      "vak_code_in_pdf": "C",
+      "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
+      "vraagtype": "open",
+      "vraagtekst": "C.1 Wat verstaat men met “behoefte aan bedrijfskapitaal”? Hoe wordt het berekend? Van uit het oogpunt financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?",
+      "sub_vragen": [],
+      "correct_antwoord": "De behoefte aan bedrijfskapitaal is het netto verschil tussen de",
+      "antwoord_motivering": "De behoefte aan bedrijfskapitaal is het netto verschil tussen de bedrijfsbronnen en bedrijfsaanwendingen. Het wordt berekend als verschil tussen enerzijds de niet financiële beperkte vlottende activa en, anderzijds, de niet financiële schulden op ten hoogste één jaar. (3 + 40/41 + 49 van het actief) – (42 + 44 tot 48 + 49 van het passief) Om behoefte aan bedrijfskapitaal te verminderen, moet de omvang van de voorraden en / of vorderingen verminderen. Betalingstermijnen leverancier uitbreiden.",
+      "themas": [
+        "behoefte-aan-bedrijfskapitaal",
+        "werkkapitaal"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "C.1 Wat verstaat men met “behoefte aan bedrijfskapitaal”? Hoe wordt het berekend? Van uit het oogpunt financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrC2",
+      "vraag_nr": "C.2",
+      "punten": null,
+      "pdf_pagina": 7,
+      "vak_code_in_pdf": "C",
+      "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
+      "vraagtype": "berekening",
+      "vraagtekst": "C.2 Een vennootschap heeft jaarlijks ongeveer 30.000,00 EUR cashflow. Ze betaalt jaarlijks 12.000,00 EUR kapitaalaflossingen op bestaande leningen. Voor een nieuwe investering van 100.000,00 EUR, wenst ze van de bank een investeringskrediet te bekomen om het volledig bedrag van de aankoop te financieren. De rentevoet bedraagt 5 % per jaar. Ze wenst de nieuwe lening in 5 jaarlijkse gelijke schijven af te lossen. Wat is uw mening?",
+      "sub_vragen": [],
+      "correct_antwoord": "De nieuwe lening zal het eerste jaar een intrestkost van 5.000,00 EUR",
+      "antwoord_motivering": "De nieuwe lening zal het eerste jaar een intrestkost van 5.000,00 EUR veroorzaken. De cashflow vermindert zodoende tot 25.000,00 EUR. Rekening houdend met terugbetalingen van 12.000,00 EUR op de bestaande leningen blijft er slechts een vrije cashflow van 13.000,00 EUR over. Indien de nieuwe lening over 5 jaar wordt terugbetaald moet jaarlijks aan kapitaalaflossingen 20.000,00 EUR worden betaald. De vrije cashflow bedraagt slechts 13.000,00 EUR; bijgevolg moet overwogen worden om de lening over een langere periode af te lossen (8 jaar of meer).",
+      "themas": [
+        "cashflow-analyse",
+        "investeringskrediet",
+        "kapitaalaflossingen"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "C.2 Een vennootschap heeft jaarlijks ongeveer 30.000,00 EUR cashflow. Ze betaalt jaarlijks 12.000,00 EUR kapitaalaflossingen op bestaande leningen. Voor een nieuwe investering van 100.000,00 EUR, wenst ze van de bank een investeringskrediet te bekomen om het volledig bedrag van de aankoop te financieren. De rentevoet bedraagt 5 % per jaar. Ze wenst de nieuwe lening in 5 jaarlijkse gelijke schijven af te lossen. Wat is uw mening?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrD1",
+      "vraag_nr": "D.1",
+      "punten": null,
+      "pdf_pagina": 7,
+      "vak_code_in_pdf": "D",
+      "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
+      "vraagtype": "open",
+      "vraagtekst": "D.1 Een persoon vestigt zich als zelfstandige om een taverne– restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW administratie voor het statuut van normale kwartaal BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder kwartaal/jaar van hem wenst te ontvangen.\n\n1. bewaren van de geregistreerde kastickets\n\n2. bewaren van de btw bonnetjes (met datum, bedrag en aantal couverts)\n\n3. overzicht en overeenstemming van de betalingen met elektronische kaarten\n\n4. bijhouden van een ontvangstenboek met uitsplitsing per toepasselijk BTW tarief\n\na. ontvangsten aan 6 % voor meegenomen bereidingen\n\nb. ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken\n\nc. ontvangsten aan 21 % voor dranken die los werden verkocht\n\nd. ontvangsten van de speelautomaten\n\ne. ontvangsten van gebruik telefoon\n\n5. bijhouden van een kasboek (in, uit, saldo….)\n\n6. bewaren en klasseren van de verschillende bankuittreksels\n\n7. vermelding op bankuittreksels van de oorsprong of bestemming van de verschillende bankbewegingen\n\n8. bewaren en klasseren van de inkomende facturen op datum\n\n9. bewaren en klasseren (desgevallend) van de uitgaande facturen op datum 10.berekeningsdocument van de lonen door het sociaal secretariaat sociale balans op het einde van het boekjaar 11.inventaris op einde boekjaar 12.……..",
+      "sub_vragen": [],
+      "correct_antwoord": "Geregistreerde kastickets, btw-bonnetjes, ontvangstenboek met uitsplitsing per btw-tarief, kasboek, bankuittreksels, in- en uitgaande facturen, loondocumenten en jaarinventaris bijhouden en bewaren.",
+      "antwoord_motivering": "1. bewaren van de geregistreerde kastickets\n\n2. bewaren van de btw bonnetjes (met datum, bedrag en aantal couverts)\n\n3. overzicht en overeenstemming van de betalingen met elektronische kaarten\n\n4. bijhouden van een ontvangstenboek met uitsplitsing per toepasselijk BTW tarief a. ontvangsten aan 6 % voor meegenomen bereidingen b. ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken c. ontvangsten aan 21 % voor dranken die los werden verkocht d. ontvangsten van de speelautomaten e. ontvangsten van gebruik telefoon\n\n5. bijhouden van een kasboek (in, uit, saldo….)\n\n6. bewaren en klasseren van de verschillende bankuittreksels\n\n7. vermelding op bankuittreksels van de oorsprong of bestemming van de verschillende bankbewegingen\n\n8. bewaren en klasseren van de inkomende facturen op datum\n\n9. bewaren en klasseren (desgevallend) van de uitgaande facturen op datum\n\n10. berekeningsdocument van de lonen door het sociaal secretariaat sociale balans op het einde van het boekjaar\n\n11. inventaris op einde boekjaar\n\n12. …….",
+      "themas": [
+        "administratieve-organisatie",
+        "horeca-administratie",
+        "btw-belastingplichtige"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "D.1 Een persoon vestigt zich als zelfstandige om een taverne– restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW administratie voor het statuut van normale kwartaal BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder kwartaal/jaar van hem wenst te ontvangen.\n\n1. bewaren van de geregistreerde kastickets\n\n2. bewaren van de btw bonnetjes (met datum, bedrag en aantal couverts)\n\n3. overzicht en overeenstemming van de betalingen met elektronische kaarten\n\n4. bijhouden van een ontvangstenboek met uitsplitsing per toepasselijk BTW tarief\n\na. ontvangsten aan 6 % voor meegenomen bereidingen\n\nb. ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken\n\nc. ontvangsten aan 21 % voor dranken die los werden verkocht\n\nd. ontvangsten van de speelautomaten\n\ne. ontvangsten van gebruik telefoon\n\n5. bijhouden van een kasboek (in, uit, saldo….)\n\n6. bewaren en klasseren van de verschillende bankuittreksels\n\n7. vermelding op bankuittreksels van de oorsprong of bestemming van de verschillende bankbewegingen\n\n8. bewaren en klasseren van de inkomende facturen op datum\n\n9. bewaren en klasseren (desgevallend) van de uitgaande facturen op datum 10.berekeningsdocument van de lonen door het sociaal secretariaat sociale balans op het einde van het boekjaar 11.inventaris op einde boekjaar 12.…….."
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrD2",
+      "vraag_nr": "D.2",
+      "punten": null,
+      "pdf_pagina": 8,
+      "vak_code_in_pdf": "D",
+      "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
+      "vraagtype": "open",
+      "vraagtekst": "D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden",
+      "sub_vragen": [],
+      "correct_antwoord": "Voorschotten apart factureren bij ontvangst (art. 4 §1 §3 + KB 1); op einde enkel saldo factureren; alle offertes én facturen bewaren.",
+      "antwoord_motivering": "- De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden",
+      "themas": [
+        "btw-voorschotten",
+        "bewaarplicht-documenten"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrE1",
+      "vraag_nr": "E.1",
+      "punten": null,
+      "pdf_pagina": 9,
+      "vak_code_in_pdf": "E",
+      "vak_naam_in_pdf": "E. BTW",
+      "vraagtype": "open",
+      "vraagtekst": "E.1 Een van uw cliënten, detailhandelaar in textielproducten, startte zijn activiteiten op 1/1/2006 en koos voor het forfaitaire BTW regime. Alle BTW aangiften werden tijdig ingediend alsook werd steeds stipt de verschuldigde BTW betaald. Gezien haar activiteiten zich snel en succesvol hebben ontwikkeld, heeft U haar aangeraden om vanaf 01/04/2008 een maandelijkse BTW aangifte in te dienen. Welke zijn de concrete gevolgen van deze keuze (Gelieve kort te antwoorden !): De verwachte antwoorden zijn minimaal de volgende : Op het vlak Antwoord : van de contacten met - De BTW administratie voor 15/03/2008 informeren over deze de BTW wijziging in BTW regime administratie - Niet langer forfaitaire aangiftes mogelijk, maar wel het normale regime van toepassing Op het vlak Antwoord : van de stock van de - In 2 exemplaren een inventaris van de stock maken op 30/4/2008 handelswaren : - Detaxatie van de stock - Inschrijving in vak 62 van de aangifte Op het vlak Antwoord : van de volgende BTW - Maandelijkse betaling van de verschuldigde BTW betalingen - Einde van de trimestriële voorschotten (- Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)",
+      "sub_vragen": [],
+      "correct_antwoord": "BTW informeren vóór 15/03/2008; stockinventaris 30/4/2008 met detaxatie (vak 62); maandelijkse betaling i.p.v. trimestriële voorschotten.",
+      "antwoord_motivering": "Op het vlak van de contacten met de BTW administratie: - De BTW administratie voor 15/03/2008 informeren over deze wijziging in BTW regime - Niet langer forfaitaire aangiftes mogelijk, maar wel het normale regime van toepassing\n\nOp het vlak van de stock van de handelswaren: - In 2 exemplaren een inventaris van de stock maken op 30/4/2008 - Detaxatie van de stock - Inschrijving in vak 62 van de aangifte\n\nOp het vlak van de volgende BTW betalingen: - Maandelijkse betaling van de verschuldigde BTW - Einde van de trimestriële voorschotten - (Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)",
+      "themas": [
+        "btw-regime-overgang",
+        "forfaitair-regime",
+        "stock-detaxatie"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "E.1 Een van uw cliënten, detailhandelaar in textielproducten, startte zijn activiteiten op 1/1/2006 en koos voor het forfaitaire BTW regime. Alle BTW aangiften werden tijdig ingediend alsook werd steeds stipt de verschuldigde BTW betaald. Gezien haar activiteiten zich snel en succesvol hebben ontwikkeld, heeft U haar aangeraden om vanaf 01/04/2008 een maandelijkse BTW aangifte in te dienen. Welke zijn de concrete gevolgen van deze keuze (Gelieve kort te antwoorden !): De verwachte antwoorden zijn minimaal de volgende : Op het vlak Antwoord : van de contacten met - De BTW administratie voor 15/03/2008 informeren over deze de BTW wijziging in BTW regime administratie - Niet langer forfaitaire aangiftes mogelijk, maar wel het normale regime van toepassing Op het vlak Antwoord : van de stock van de - In 2 exemplaren een inventaris van de stock maken op 30/4/2008 handelswaren : - Detaxatie van de stock - Inschrijving in vak 62 van de aangifte Op het vlak Antwoord : van de volgende BTW - Maandelijkse betaling van de verschuldigde BTW betalingen - Einde van de trimestriële voorschotten (- Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrE2",
+      "vraag_nr": "E.2",
+      "punten": null,
+      "pdf_pagina": 9,
+      "vak_code_in_pdf": "E",
+      "vak_naam_in_pdf": "E. BTW",
+      "vraagtype": "berekening",
+      "vraagtekst": "E.2 Welke zijn de vakken in de periodieke BTW aangifte die moeten ingevuld worden voor de volgende verrichtingen, die werden gedaan door een handelaar (natuurlijke persoon) in nieuwe en tweedehandswagens?\n\n1. Nieuwe wagens werden geleverd en gefactureerd aan cliënten die onderworpen zijn aan de Luxemburgse BTW voor een bedrag van 66.438,00 € : Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 46 66.438,00\n\n2. Een personenwagen van het merk VOLVO werd aangekocht voor een bedrag van 8.000,00 € van een kinesist en werd daarna doorverkocht voor de prijs van 8.500,00 € aan een particulier : Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 00 8.000,00 81 8.000,00 03 413,22 54 86,78\n\n3. Een vrachtwagen van het merk MANN werd aangekocht voor 4.000,00 € van een bouwonderneming en blijft in stock. Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 81 4.000,00 59 840,00\n\n4. Aankoop van een wagen RENAULT die in de onderneming wordt geïnvesteerd : 24.644,00 € BTW inbegrepen (Privé gebruik 25%). Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 83 16.344,48 59 2138,53\n\n5. Vervangingsstukken en kleine accessoires werden verkocht onder het regime van de vrijstelling van factuur en werden in het dagboek van ontvangsten ingeschreven (1.332,49 € waarvan 434,11 € aan BTW tarief van 6%). Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 01 409,54 03 742,46 54 180,49",
+      "sub_vragen": [],
+      "correct_antwoord": null,
+      "antwoord_motivering": null,
+      "themas": [
+        "btw-aangifte-vakken",
+        "intracommunautaire-levering",
+        "margeregeling",
+        "tweedehandswagens"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "E.2 Welke zijn de vakken in de periodieke BTW aangifte die moeten ingevuld worden voor de volgende verrichtingen, die werden gedaan door een handelaar (natuurlijke persoon) in nieuwe en tweedehandswagens?\n\n1. Nieuwe wagens werden geleverd en gefactureerd aan cliënten die onderworpen zijn aan de Luxemburgse BTW voor een bedrag van 66.438,00 € : Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 46 66.438,00\n\n2. Een personenwagen van het merk VOLVO werd aangekocht voor een bedrag van 8.000,00 € van een kinesist en werd daarna doorverkocht voor de prijs van 8.500,00 € aan een particulier : Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 00 8.000,00 81 8.000,00 03 413,22 54 86,78\n\n3. Een vrachtwagen van het merk MANN werd aangekocht voor 4.000,00 € van een bouwonderneming en blijft in stock. Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 81 4.000,00 59 840,00\n\n4. Aankoop van een wagen RENAULT die in de onderneming wordt geïnvesteerd : 24.644,00 € BTW inbegrepen (Privé gebruik 25%). Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 83 16.344,48 59 2138,53\n\n5. Vervangingsstukken en kleine accessoires werden verkocht onder het regime van de vrijstelling van factuur en werden in het dagboek van ontvangsten ingeschreven (1.332,49 € waarvan 434,11 € aan BTW tarief van 6%). Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 01 409,54 03 742,46 54 180,49"
+        }
+      ]
+    },
+    {
+      "id": "2008-bibf-vrE3",
+      "vraag_nr": "E.3",
+      "punten": null,
+      "pdf_pagina": 11,
+      "vak_code_in_pdf": "E",
+      "vak_naam_in_pdf": "E. BTW",
+      "vraagtype": "open",
+      "vraagtekst": "E.3\n\n1. Welke is de uiterste datum waarover U beschikt om de BTW af te trekken ? Gelieve precies te antwoorden ! Via de aangifte die moet ingediend worden uiterlijk voor het einde van het 3de jaar dat volgt op het jaar gedurende hetwelk het recht op aftrek is ontstaan.\n\n2. Welke is/zijn de BTW regime(s) voor de BTW aangiftes die U kan voorstellen aan een zelfstandige psychologe in bijberoep die een omzetcijfer van 4.312,00 € per jaar heeft? Vrijstellingsregeling (geen aangifte) Kwartaalaangifte (Maandelijkse aangifte)\n\n3. Verklaar het principe van de BTW eenheid (enkel het principe !!! , de modaliteiten en de werking worden NIET gevraagd ). De BTW éénheid laat toe om, op juridisch vlak, onafhankelijke personen, maar die op financieel, organisatorisch en economisch vlak nauw met elkaar verbonden zijn, toch te beschouwen als één enkele BTW plichtige. Dit betekent dat de verrichtingen tussen deze personen, die deel uitmaken van de BTW éénheid, niet aan de BTW onderworpen zijn. Dit laat ook toe om de administratieve verplichtingen van deze ondernemingen te rationaliseren en te vereenvoudigen vermits deze BTW eenheid slechts één BTW onderworpene is die instaat voor alle BTW rechten en BTW plichten van haar leden.\n\n4. U bent een zelfstandig boekhouder BIBF gevestigd in België en verricht boekhoudkundige prestaties in een onderneming die gevestigd is in Frankrijk, en die U factureert aan uw belastingplichtige cliënt die in Nederland gevestigd is. In welk land is de BTW verschuldigd ? België, Frankrijk of Nederland ? Verantwoord uw antwoord door te verwijzen naar het toepasselijke artikel uit het BTW wetboek. In Nederland Art. 21 § 3, 7° d) BTW Wetboek (plaats van diegene waar de dienst geleverd wordt)",
+      "sub_vragen": [],
+      "correct_antwoord": "Aftrektermijn = einde 3de jaar; bijberoep-psychologe: vrijstelling of kwartaalaangifte; BTW-eenheid = juridisch onafhankelijke maar nauw verbonden personen = 1 belastingplichtige; B2B-dienst in NL → art. 21 §3, 7° d) BTWW.",
+      "antwoord_motivering": "Zie subvragen voor het gedetailleerde modelantwoord per deelvraag.",
+      "themas": [
+        "btw-aftrektermijn",
+        "btw-vrijstellingsregeling",
+        "btw-eenheid",
+        "plaats-van-de-dienst"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "E.3\n\n1. Welke is de uiterste datum waarover U beschikt om de BTW af te trekken ? Gelieve precies te antwoorden ! Via de aangifte die moet ingediend worden uiterlijk voor het einde van het 3de jaar dat volgt op het jaar gedurende hetwelk het recht op aftrek is ontstaan.\n\n2. Welke is/zijn de BTW regime(s) voor de BTW aangiftes die U kan voorstellen aan een zelfstandige psychologe in bijberoep die een omzetcijfer van 4.312,00 € per jaar heeft? Vrijstellingsregeling (geen aangifte) Kwartaalaangifte (Maandelijkse aangifte)\n\n3. Verklaar het principe van de BTW eenheid (enkel het principe !!! , de modaliteiten en de werking worden NIET gevraagd ). De BTW éénheid laat toe om, op juridisch vlak, onafhankelijke personen, maar die op financieel, organisatorisch en economisch vlak nauw met elkaar verbonden zijn, toch te beschouwen als één enkele BTW plichtige. Dit betekent dat de verrichtingen tussen deze personen, die deel uitmaken van de BTW éénheid, niet aan de BTW onderworpen zijn. Dit laat ook toe om de administratieve verplichtingen van deze ondernemingen te rationaliseren en te vereenvoudigen vermits deze BTW eenheid slechts één BTW onderworpene is die instaat voor alle BTW rechten en BTW plichten van haar leden.\n\n4. U bent een zelfstandig boekhouder BIBF gevestigd in België en verricht boekhoudkundige prestaties in een onderneming die gevestigd is in Frankrijk, en die U factureert aan uw belastingplichtige cliënt die in Nederland gevestigd is. In welk land is de BTW verschuldigd ? België, Frankrijk of Nederland ? Verantwoord uw antwoord door te verwijzen naar het toepasselijke artikel uit het BTW wetboek. In Nederland Art. 21 § 3, 7° d) BTW Wetboek (plaats van diegene waar de dienst geleverd wordt)"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrF1",
+      "vraag_nr": "F.1",
+      "punten": null,
+      "pdf_pagina": 12,
+      "vak_code_in_pdf": "F",
+      "vak_naam_in_pdf": "F. Personenbelasting",
+      "vraagtype": "open",
+      "vraagtekst": "F.1 Gert is ongehuwd en woont in Mechelen in een pand, waarvan hij eigenaar is, met een KI van 1 700. Gert erft in 2007 als enige zoon het huis van zijn ouders. Wat zijn daar de gevolgen van op vlak van intrestaftrek en kapitaalaflossing, wetende dat er geen andere onroerende eigendommen zijn. 1.1 Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004 Gewone intrestaftrek blijft De aanvullende intrestaftrek gaat verloren Kapitaalaflossing: belastingvermindering voor bouwsparen blijft (eenmalige beoordeling op enige woning) 1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005 Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt.",
+      "sub_vragen": [],
+      "correct_antwoord": "1.2004: gewone intrestaftrek + bouwspaarvermindering blijven; aanvullende intrestaftrek vervalt. 2.2005: recht op woonbonus blijft; enkel de verhoging (€ 650 voor de eerste 10 jaar) verdwijnt.",
+      "antwoord_motivering": "1.1 Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004: - Gewone intrestaftrek blijft - De aanvullende intrestaftrek gaat verloren - Kapitaalaflossing: belastingvermindering voor bouwsparen blijft (eenmalige beoordeling op enige woning)\n\n1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005: - Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt.",
+      "themas": [
+        "hypothecaire-lening",
+        "intrestaftrek",
+        "woonbonus",
+        "enige-woning"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "F.1 Gert is ongehuwd en woont in Mechelen in een pand, waarvan hij eigenaar is, met een KI van 1 700. Gert erft in 2007 als enige zoon het huis van zijn ouders. Wat zijn daar de gevolgen van op vlak van intrestaftrek en kapitaalaflossing, wetende dat er geen andere onroerende eigendommen zijn. 1.1 Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004 Gewone intrestaftrek blijft De aanvullende intrestaftrek gaat verloren Kapitaalaflossing: belastingvermindering voor bouwsparen blijft (eenmalige beoordeling op enige woning) 1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005 Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt."
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrF2",
+      "vraag_nr": "F.2",
+      "punten": null,
+      "pdf_pagina": 12,
+      "vak_code_in_pdf": "F",
+      "vak_naam_in_pdf": "F. Personenbelasting",
+      "vraagtype": "open",
+      "vraagtekst": "F.2 Riet en Piet zijn gehuwd in het wettelijk stelsel . Ze wonen in Etterbeek. Riet heeft van voor het huwelijk nog een appartement (KI 1 200) in Wemmel in persoonlijke eigendom, dat verhuurd wordt. Het appartement stond al langer te koop en uiteindelijk wordt het op 6 april 2007 verkocht: een belastbare meerwaarde van € 30 000 wordt gerealiseerd. Doe aangifte van het onroerend inkomen en van de meerwaarde Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3 /12 en dan 50/50) Divers (1171) 0 (2171) 30 000",
+      "sub_vragen": [],
+      "correct_antwoord": "Onroerend: code (1106)/(2106) elk 150 (= 1 200 × 3/12 × 50/50). Divers: code (2171) 30 000.",
+      "antwoord_motivering": "Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3/12 en dan 50/50) Divers (1171) 0 (2171) 30 000",
+      "themas": [
+        "onroerende-inkomsten",
+        "meerwaarde-onroerend-goed",
+        "huwelijksvermogensstelsel"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "F.2 Riet en Piet zijn gehuwd in het wettelijk stelsel . Ze wonen in Etterbeek. Riet heeft van voor het huwelijk nog een appartement (KI 1 200) in Wemmel in persoonlijke eigendom, dat verhuurd wordt. Het appartement stond al langer te koop en uiteindelijk wordt het op 6 april 2007 verkocht: een belastbare meerwaarde van € 30 000 wordt gerealiseerd. Doe aangifte van het onroerend inkomen en van de meerwaarde Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3 /12 en dan 50/50) Divers (1171) 0 (2171) 30 000"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrF3",
+      "vraag_nr": "F.3",
+      "punten": null,
+      "pdf_pagina": 12,
+      "vak_code_in_pdf": "F",
+      "vak_naam_in_pdf": "F. Personenbelasting",
+      "vraagtype": "berekening",
+      "vraagtekst": "F.3 Een echtpaar heeft dienstencheques aangekocht: 3 000,00 (max. AJ 2008 : 2 360,00 EUR) op naam van de aangever en 1 000,00 op naam van de partner. Bereken het belastingvoordeel van de dienstencheques rekening houdend met volgende gegevens. aangever partner Totaal netto-inkomen 33 900,00 17 100,00 -Onderhoudsgelden -4 000,00 Gezamenlijk belastbaar inkomen 29 900,00 17 100,00 2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98",
+      "sub_vragen": [],
+      "correct_antwoord": "Aangever: 2 360 × 30 % = 708; partner: 1 000 × 30 % = 300. Verdeling 1 008 over partners volgens inkomensbreuk → 670,02 en 337,98.",
+      "antwoord_motivering": "2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98",
+      "themas": [
+        "dienstencheques",
+        "belastingvermindering",
+        "huwelijksquotient"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "F.3 Een echtpaar heeft dienstencheques aangekocht: 3 000,00 (max. AJ 2008 : 2 360,00 EUR) op naam van de aangever en 1 000,00 op naam van de partner. Bereken het belastingvoordeel van de dienstencheques rekening houdend met volgende gegevens. aangever partner Totaal netto-inkomen 33 900,00 17 100,00 -Onderhoudsgelden -4 000,00 Gezamenlijk belastbaar inkomen 29 900,00 17 100,00 2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrF4",
+      "vraag_nr": "F.4",
+      "punten": null,
+      "pdf_pagina": 13,
+      "vak_code_in_pdf": "F",
+      "vak_naam_in_pdf": "F. Personenbelasting",
+      "vraagtype": "open",
+      "vraagtekst": "F.4 Wim is gehuwd met Inge in het stelsel van scheiding van goederen. Ze zijn zinnens een (eerste) huis te gaan kopen. Gezien de zelfstandige activiteit van Inge stellen ze voor de aankoop niet in onverdeeldheid te doen, maar op naam van Wim. Waar moet je rekening mee houden wanneer Wim voor de financiering van de aankoop een hypothecaire lening aangaat? Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB)",
+      "sub_vragen": [],
+      "correct_antwoord": "Bij gemeenschappelijke aanslag moet 15 % bij de partner aangegeven worden — die 15 % gaat verloren omdat Wim enige eigenaar is (art. 105, 2° lid WIB).",
+      "antwoord_motivering": "Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB).",
+      "themas": [
+        "scheiding-van-goederen",
+        "hypothecaire-lening",
+        "aftrekbare-besteding"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "F.4 Wim is gehuwd met Inge in het stelsel van scheiding van goederen. Ze zijn zinnens een (eerste) huis te gaan kopen. Gezien de zelfstandige activiteit van Inge stellen ze voor de aankoop niet in onverdeeldheid te doen, maar op naam van Wim. Waar moet je rekening mee houden wanneer Wim voor de financiering van de aankoop een hypothecaire lening aangaat? Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB)"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrF5",
+      "vraag_nr": "F.5",
+      "punten": null,
+      "pdf_pagina": 13,
+      "vak_code_in_pdf": "F",
+      "vak_naam_in_pdf": "F. Personenbelasting",
+      "vraagtype": "MC",
+      "vraagtekst": "F.5: Wat is juist inzake belastbaar tijdperk?\n\na) Een uitgave in 2006 met betrekking tot een door een handelaar in 2007 te realiseren meerwaarde is een gezamenlijk belastbare winst van 2007\n\nb) Een tantième dat op 15.04.2008 met betrekking tot de winst van het boekjaar 2007 toegekend is, is voor de bedrijfsleider een beroepsinkomen gerelateerd aan het belastbaar tijdperk 2007\n\nc) Wanneer ingevolge een geschil met een (voormalig) werkgever een bezoldiging met betrekking tot de prestaties van 2007 pas in de loop van 2008 uitgekeerd wordt, is dat een belastbaar inkomen van 2007\n\nd) Een advocaat maakt op 20.12.07 een ereloonnota van € 1 000,00 op voor geleverde prestaties. De klant betaalt op 10.01.08. De erelonen horen tot het belastbaar tijdperk 2007.",
+      "sub_vragen": [],
+      "correct_antwoord": null,
+      "antwoord_motivering": null,
+      "themas": [
+        "belastbaar-tijdperk",
+        "toerekening-inkomsten"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "F.5: Wat is juist inzake belastbaar tijdperk?\n\na) Een uitgave in 2006 met betrekking tot een door een handelaar in 2007 te realiseren meerwaarde is een gezamenlijk belastbare winst van 2007\n\nb) Een tantième dat op 15.04.2008 met betrekking tot de winst van het boekjaar 2007 toegekend is, is voor de bedrijfsleider een beroepsinkomen gerelateerd aan het belastbaar tijdperk 2007\n\nc) Wanneer ingevolge een geschil met een (voormalig) werkgever een bezoldiging met betrekking tot de prestaties van 2007 pas in de loop van 2008 uitgekeerd wordt, is dat een belastbaar inkomen van 2007\n\nd) Een advocaat maakt op 20.12.07 een ereloonnota van € 1 000,00 op voor geleverde prestaties. De klant betaalt op 10.01.08. De erelonen horen tot het belastbaar tijdperk 2007."
+        }
+      ]
+    },
+    {
+      "id": "2008-bibf-vrF6",
+      "vraag_nr": "F.6",
+      "punten": null,
+      "pdf_pagina": 13,
+      "vak_code_in_pdf": "F",
+      "vak_naam_in_pdf": "F. Personenbelasting",
+      "vraagtype": "MC",
+      "vraagtekst": "F 6. Wat is geen vrijgesteld inkomen ?\n\na) Een sociaal voordeel\n\nb) Een resultaatgebonden bonus van € 2 000,00\n\nc) Een fietsvergoeding van € 0,15/km\n\nd) Een wettelijke ziekte-uitkering",
+      "sub_vragen": [],
+      "correct_antwoord": null,
+      "antwoord_motivering": null,
+      "themas": [
+        "vrijgesteld-inkomen",
+        "sociale-voordelen"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "F 6. Wat is geen vrijgesteld inkomen ?\n\na) Een sociaal voordeel\n\nb) Een resultaatgebonden bonus van € 2 000,00\n\nc) Een fietsvergoeding van € 0,15/km\n\nd) Een wettelijke ziekte-uitkering"
+        }
+      ]
+    },
+    {
+      "id": "2008-bibf-vrF7",
+      "vraag_nr": "F.7",
+      "punten": null,
+      "pdf_pagina": 13,
+      "vak_code_in_pdf": "F",
+      "vak_naam_in_pdf": "F. Personenbelasting",
+      "vraagtype": "MC",
+      "vraagtekst": "F7. Welke uitgave vormt een aftrekbare besteding?\n\na) Uitgave voor het onderhoud en de restauratie van beschermde eigendommen\n\nb) Een uitgave voor de vernieuwing van een woning in een zone voor positief grootstedelijk beleid\n\nc) Uitgaven voor de vernieuwing van woningen die tegen een redelijke prijs verhuurd worden\n\nd) Uitgaven ter beveiliging van een privéwoning tegen diefstal en brand",
+      "sub_vragen": [],
+      "correct_antwoord": null,
+      "antwoord_motivering": null,
+      "themas": [
+        "aftrekbare-besteding",
+        "beschermde-eigendommen"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "F7. Welke uitgave vormt een aftrekbare besteding?\n\na) Uitgave voor het onderhoud en de restauratie van beschermde eigendommen\n\nb) Een uitgave voor de vernieuwing van een woning in een zone voor positief grootstedelijk beleid\n\nc) Uitgaven voor de vernieuwing van woningen die tegen een redelijke prijs verhuurd worden\n\nd) Uitgaven ter beveiliging van een privéwoning tegen diefstal en brand"
+        }
+      ]
+    },
+    {
+      "id": "2008-bibf-vrG1",
+      "vraag_nr": "G.1",
+      "punten": null,
+      "pdf_pagina": 14,
+      "vak_code_in_pdf": "G",
+      "vak_naam_in_pdf": "G. Vennootschapsbelasting",
+      "vraagtype": "berekening",
+      "vraagtekst": "G1. De vennootschap “Green”, een KMO overeenkomsting art. 15 §1 W.Venn. heeft als activiteit de handel in tuinmaterialen. Zij werd opgericht door twee natuurlijke personen die tevens de bestuurder zijn. Zij heeft een belaste reserve in het kapitaal geïncorporeerd in 2000 voor een bedrag van 1.509 EUR. Zij heeft tevens geïnvesteerd in een verwarmingsinstallatie om energie te besparen. Zij heeft voor deze nieuwe verwarmingsinstallatie een attest van het Vlaams Gewest ontvangen. De investering hiervoor bedroeg 3300 EUR. Het percentage van de investeringsaftrek voor energiebesparende maatregelen bedraagt 13,5%. In het lopende jaar werd de vennootschap tevens geconfronteerd met een fiscale controle. De fiscus heeft een onderwaardering van de stock vastgesteld voor een bedrag van 3.500 EUR. Het betrof materiaal dat bestemd was voor de verkoop, maar dat niet werd opgenomen in de stock. De belastingvrije reserve is een meerwaarde op een bedrijfswagen. De vennootschap beschikt over een wagen voor gemengd gebruik, aangekocht in 2006, en die in leasing werd genomen en waarvan de jaarlijkse kosten als volgt kunnen worden samengevat: - Verkeersbelasting : 250 EUR - Intresten op de lening : 352 EUR - Afschrijvingen : 19.500 EUR - Niet aftrekbare BTW 570 EUR - Diesel : 1.250 EUR - Voordeel in natura : 1.385 EUR BTW inclusief en er werd geen factuur opgemaakt De vennootschap heeft voorafbetalingen gedaan voor een bedrag van 2000 EUR Belastingsupplement 3.770 EUR Regularisatie van belasting : -1433 EUR Uitgave voor onthaal cliënten : 852 EUR Restaurantkosten : 350 EUR Hotelkosten in Duitsland (overnachting): 125 EUR Taksen op de waterfactuur : 125 EUR De vennootschap heeft tevens een BTW boete moeten betalen voor niet indiening van de BTW aangifte ten belopen van : 50 EUR alsook verwijlintresten voor de laattijdige betaling van de BTW van het 3 de kwartaal : 35 EUR. Maaltijdcheques : 1320 EUR Kosten voor werkkledij die dienen om de werknemers te beschermen op de werkvloer : 450 EUR Kosten voor een maatpak van de bestuurder : 525 EUR Vervolledig de fiscale aangifte en bereken de belastbare basis in de vennootschapsbelasting op basis van de hierboven vermelde gegevens en de bijgevoegde jaarrekening. Het betreft de inkomsten 2007, aangifte 2008. Het percentage voor de toepassing van de notionele intrestaftrek voor dat inkomstenjaar bedraagt 4,281 %",
+      "sub_vragen": [],
+      "correct_antwoord": null,
+      "antwoord_motivering": null,
+      "themas": [
+        "vennootschapsbelasting-aangifte",
+        "kmo-tarief",
+        "investeringsaftrek",
+        "verworpen-uitgaven",
+        "notionele-intrestaftrek",
+        "voordeel-alle-aard-auto"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "G1. De vennootschap “Green”, een KMO overeenkomsting art. 15 §1 W.Venn. heeft als activiteit de handel in tuinmaterialen. Zij werd opgericht door twee natuurlijke personen die tevens de bestuurder zijn. Zij heeft een belaste reserve in het kapitaal geïncorporeerd in 2000 voor een bedrag van 1.509 EUR. Zij heeft tevens geïnvesteerd in een verwarmingsinstallatie om energie te besparen. Zij heeft voor deze nieuwe verwarmingsinstallatie een attest van het Vlaams Gewest ontvangen. De investering hiervoor bedroeg 3300 EUR. Het percentage van de investeringsaftrek voor energiebesparende maatregelen bedraagt 13,5%. In het lopende jaar werd de vennootschap tevens geconfronteerd met een fiscale controle. De fiscus heeft een onderwaardering van de stock vastgesteld voor een bedrag van 3.500 EUR. Het betrof materiaal dat bestemd was voor de verkoop, maar dat niet werd opgenomen in de stock. De belastingvrije reserve is een meerwaarde op een bedrijfswagen. De vennootschap beschikt over een wagen voor gemengd gebruik, aangekocht in 2006, en die in leasing werd genomen en waarvan de jaarlijkse kosten als volgt kunnen worden samengevat: - Verkeersbelasting : 250 EUR - Intresten op de lening : 352 EUR - Afschrijvingen : 19.500 EUR - Niet aftrekbare BTW 570 EUR - Diesel : 1.250 EUR - Voordeel in natura : 1.385 EUR BTW inclusief en er werd geen factuur opgemaakt De vennootschap heeft voorafbetalingen gedaan voor een bedrag van 2000 EUR Belastingsupplement 3.770 EUR Regularisatie van belasting : -1433 EUR Uitgave voor onthaal cliënten : 852 EUR Restaurantkosten : 350 EUR Hotelkosten in Duitsland (overnachting): 125 EUR Taksen op de waterfactuur : 125 EUR De vennootschap heeft tevens een BTW boete moeten betalen voor niet indiening van de BTW aangifte ten belopen van : 50 EUR alsook verwijlintresten voor de laattijdige betaling van de BTW van het 3 de kwartaal : 35 EUR. Maaltijdcheques : 1320 EUR Kosten voor werkkledij die dienen om de werknemers te beschermen op de werkvloer : 450 EUR Kosten voor een maatpak van de bestuurder : 525 EUR Vervolledig de fiscale aangifte en bereken de belastbare basis in de vennootschapsbelasting op basis van de hierboven vermelde gegevens en de bijgevoegde jaarrekening. Het betreft de inkomsten 2007, aangifte 2008. Het percentage voor de toepassing van de notionele intrestaftrek voor dat inkomstenjaar bedraagt 4,281 %"
+        }
+      ]
+    },
+    {
+      "id": "2008-bibf-vrH1",
+      "vraag_nr": "H.1",
+      "punten": null,
+      "pdf_pagina": 15,
+      "vak_code_in_pdf": "H",
+      "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
+      "vraagtype": "open",
+      "vraagtekst": "H1. Hoe dient U een rechtsgeldig bezwaar in tegen een aanslag in de personenbelasting en binnen welke termijn dient dit te gebeuren ? Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB) Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB).",
+      "sub_vragen": [],
+      "correct_antwoord": "Binnen 6 maanden na verzending aanslagbiljet (art. 366 WIB) per (aangetekend) gemotiveerd schrijven bij de gewestelijk directeur (art. 371 WIB).",
+      "antwoord_motivering": "Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB). Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB).",
+      "themas": [
+        "bezwaar-personenbelasting",
+        "bezwaartermijn"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "H1. Hoe dient U een rechtsgeldig bezwaar in tegen een aanslag in de personenbelasting en binnen welke termijn dient dit te gebeuren ? Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB) Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB)."
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrH2",
+      "vraag_nr": "H.2",
+      "punten": null,
+      "pdf_pagina": 15,
+      "vak_code_in_pdf": "H",
+      "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
+      "vraagtype": "open",
+      "vraagtekst": "H2. In welke omstandigheden kan de fiscale administratie (directe belastingen) overgaan tot een tot een belasting op basis van tekenen en indiciën ? Indien de fiscus in het bezit is van overeenstemmende en ernstige elementen en/of gegevens die een vermoeden scheppen dat de belastingplichtige tekort geschoten is in de aangifte van zijn belastbaar inkomen.",
+      "sub_vragen": [],
+      "correct_antwoord": "Wanneer de fiscus overeenstemmende en ernstige elementen heeft die een vermoeden scheppen van onvolledige aangifte van het belastbaar inkomen.",
+      "antwoord_motivering": "Indien de fiscus in het bezit is van overeenstemmende en ernstige elementen en/of gegevens die een vermoeden scheppen dat de belastingplichtige tekort geschoten is in de aangifte van zijn belastbaar inkomen.",
+      "themas": [
+        "tekenen-en-indicien",
+        "aanslagprocedure"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "H2. In welke omstandigheden kan de fiscale administratie (directe belastingen) overgaan tot een tot een belasting op basis van tekenen en indiciën ? Indien de fiscus in het bezit is van overeenstemmende en ernstige elementen en/of gegevens die een vermoeden scheppen dat de belastingplichtige tekort geschoten is in de aangifte van zijn belastbaar inkomen."
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrH3",
+      "vraag_nr": "H.3",
+      "punten": null,
+      "pdf_pagina": 15,
+      "vak_code_in_pdf": "H",
+      "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
+      "vraagtype": "open",
+      "vraagtekst": "H.3 Ik (woonachtig in Gent) wil mijn effecten op naam ter waarde van 300.000 euro schenken aan mijn dochter van 22 jaar (woonachtig in Leuven) tegen een zo laag mogelijke fiscale kost. Welke zijn mijn mogelijkheden ? Wie betaalt de schenkingsrechten en hoeveel (in euro) ? Zitten er addertjes onder het gras ? - Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen - Schenking aan het 3 % tarief dat geldt in Vlaanderen Mijn dochter betaalt 9.000 euro",
+      "sub_vragen": [],
+      "correct_antwoord": "Optie 1: Nederlandse notariële akte (geen schenkingsrechten, wél successie bij overlijden < 3 jaar). Optie 2: 3 %-tarief Vlaanderen → dochter betaalt 9 000 EUR.",
+      "antwoord_motivering": "- Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd. Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen. - Schenking aan het 3 % tarief dat geldt in Vlaanderen. Mijn dochter betaalt 9.000 euro.",
+      "themas": [
+        "schenking-effecten",
+        "schenkingsrechten",
+        "successierechten",
+        "nederlandse-notaris"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "H.3 Ik (woonachtig in Gent) wil mijn effecten op naam ter waarde van 300.000 euro schenken aan mijn dochter van 22 jaar (woonachtig in Leuven) tegen een zo laag mogelijke fiscale kost. Welke zijn mijn mogelijkheden ? Wie betaalt de schenkingsrechten en hoeveel (in euro) ? Zitten er addertjes onder het gras ? - Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen - Schenking aan het 3 % tarief dat geldt in Vlaanderen Mijn dochter betaalt 9.000 euro"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrI1",
+      "vraag_nr": "I.1",
+      "punten": null,
+      "pdf_pagina": 17,
+      "vak_code_in_pdf": "I",
+      "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+      "vraagtype": "open",
+      "vraagtekst": "I.1 De raad van bestuur van een NV wenst over te gaan tot een kapitaalverhoging. Omdat de verhoging dringend is, wenst ze geen buitengewone algemene vergadering bijeen te roepen. Is het mogelijk? Indien u bevestigend antwoordt, wat zijn de voorwaarden?",
+      "sub_vragen": [],
+      "correct_antwoord": "Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal",
+      "antwoord_motivering": "Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal (art. 603-604 W.Venn). De statuten kunnen aan de raad van bestuur de bevoegdheid toekennen om het geplaatste maatschappelijk kapitaal in één of meer malen tot een bepaald bedrag te verhogen, dat, voor de vennootschappen die een publiek beroep op het spaarwezen doen of hebben gedaan, niet hoger mag zijn dan het bedrag van dat maatschappelijke kapitaal (art. 603 W. Venn.). De bevoegdheid bedoeld in artikel 603 kan slechts worden uitgeoefend gedurende vijf jaar, te rekenen van de bekendmaking van de oprichtingsakte of van de wijziging van de statuten. Zij kan echter door de algemene vergadering, bij een besluit genomen volgens de regels die voor de wijziging van de statuten zijn gesteld, een of meer malen worden hernieuwd voor een termijn die niet langer mag zijn dan vijf jaar. Wanneer de oprichters of de algemene vergadering besluiten de hierboven bedoelde bevoegdheid toe te kennen of te vernieuwen, worden de bijzondere omstandigheden waarin van het toegestane kapitaal kan gebruikgemaakt worden en de hierbij nagestreefde doeleinden in een bijzonder verslag uiteengezet.",
+      "themas": [
+        "toegestaan-kapitaal",
+        "kapitaalverhoging"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "I.1 De raad van bestuur van een NV wenst over te gaan tot een kapitaalverhoging. Omdat de verhoging dringend is, wenst ze geen buitengewone algemene vergadering bijeen te roepen. Is het mogelijk? Indien u bevestigend antwoordt, wat zijn de voorwaarden?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrI2",
+      "vraag_nr": "I.2",
+      "punten": null,
+      "pdf_pagina": 17,
+      "vak_code_in_pdf": "I",
+      "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+      "vraagtype": "open",
+      "vraagtekst": "I.2 Wanneer verplicht het Wetboek van vennootschappen een financieel plan op te stellen? Wat is het doel van een financieel plan? Aan wie moet het worden overhandigd?",
+      "sub_vragen": [],
+      "correct_antwoord": "Een financieel plan moet worden opgesteld bij de oprichting van een",
+      "antwoord_motivering": "Een financieel plan moet worden opgesteld bij de oprichting van een BVBA (art. 215 W.Venn), CVBA (art. 391 W.Venn), NV(art. 440 W.Venn), Comm. VA(art. 657 W.Venn), SE en SCE(art. 884 en 959 W.Venn). Het financieel plan moet aantonen dat het bedrag van het kapitaal toereikend is om de voorgenomen bedrijvigheid uit te oefenen. Het financieel plan moet, bij de oprichting, worden overhandigd aan de notaris die het zal bewaren.",
+      "themas": [
+        "financieel-plan",
+        "oprichting-vennootschap"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "I.2 Wanneer verplicht het Wetboek van vennootschappen een financieel plan op te stellen? Wat is het doel van een financieel plan? Aan wie moet het worden overhandigd?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrI3",
+      "vraag_nr": "I.3",
+      "punten": null,
+      "pdf_pagina": 18,
+      "vak_code_in_pdf": "I",
+      "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+      "vraagtype": "open",
+      "vraagtekst": "I.3 De zaakvoerder van een BVBA is de enige vennoot. Moet een procedure worden gevolgd wanneer de zaakvoerder bij een verrichting een belang heeft, van vermogenrechtelijke aard, dat strijdig is met de belangen van de vennootschap?",
+      "sub_vragen": [],
+      "correct_antwoord": "Hij mag de geplande verrichting doen maar hij moet hierover een",
+      "antwoord_motivering": "Hij mag de geplande verrichting doen maar hij moet hierover een bijzonder verslag opstellen dat samen met de jaarrekening moet worden neergelegd (art. 261 W. Venn.).",
+      "themas": [
+        "belangenconflict-zaakvoerder",
+        "bijzonder-verslag"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "I.3 De zaakvoerder van een BVBA is de enige vennoot. Moet een procedure worden gevolgd wanneer de zaakvoerder bij een verrichting een belang heeft, van vermogenrechtelijke aard, dat strijdig is met de belangen van de vennootschap?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrI4",
+      "vraag_nr": "I.4",
+      "punten": null,
+      "pdf_pagina": 18,
+      "vak_code_in_pdf": "I",
+      "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+      "vraagtype": "open",
+      "vraagtekst": "I.4 Kan een burgerlijke vennootschap die de rechtsvorm van een handelsvennootschap heeft aangenomen, een gerechtelijk akkoord bekomen? Verantwoord uw antwoord.",
+      "sub_vragen": [],
+      "correct_antwoord": "Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een",
+      "antwoord_motivering": "Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een burgerlijke vennootschap, zelfs met handelsvorm, is geen handelaar. Bijgevolg kan ze geen gerechtelijk akkoord bekomen.",
+      "themas": [
+        "burgerlijke-vennootschap",
+        "gerechtelijk-akkoord"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "I.4 Kan een burgerlijke vennootschap die de rechtsvorm van een handelsvennootschap heeft aangenomen, een gerechtelijk akkoord bekomen? Verantwoord uw antwoord."
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrI5",
+      "vraag_nr": "I.5",
+      "punten": null,
+      "pdf_pagina": 18,
+      "vak_code_in_pdf": "I",
+      "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+      "vraagtype": "open",
+      "vraagtekst": "I.5 Welk is de aansprakelijkheid van de oprichters van een BVBA en welk verschil kan er zijn met een NV?",
+      "sub_vragen": [],
+      "correct_antwoord": "Artikel 229 – 456 – 450 van het Wetboek Vennootschappen",
+      "antwoord_motivering": "Artikel 229 – 456 – 450 van het Wetboek Vennootschappen",
+      "themas": [
+        "oprichtersaansprakelijkheid",
+        "bvba",
+        "nv"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "I.5 Welk is de aansprakelijkheid van de oprichters van een BVBA en welk verschil kan er zijn met een NV?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrJ1",
+      "vraag_nr": "J.1",
+      "punten": null,
+      "pdf_pagina": 19,
+      "vak_code_in_pdf": "J",
+      "vak_naam_in_pdf": "J. Beginselen van het arbeids- en sociaal zekerheidsrecht",
+      "vraagtype": "open",
+      "vraagtekst": "J.1 Bart is op 1 februari 2001 in dienst getreden van een gekende grootwarenhuisketen. Bart ondertekende op 20 januari 2001 een arbeidsovereenkomst voor onbepaalde duur (voltijds). Bart werkt als bediende en verdeelt zijn tijd tussen het vullen van de rekken en het bedienen van de kassa. Hoewel hierover duidelijke interne richtlijnen bestaan, maakt Bart misbruik van zijn persoonlijke klantenkaart, telkens wanneer een klant zijn / haar klantenkaart is vergeten. In plaats van gebruik te maken van een speciale, anonieme klantenkaart van de werkgever, gebruikt Bart zijn eigen klantenkaart om er de aankopen van de klanten op te registreren. Op die manier slaagt Bart erin om maandelijks enkele waardevolle geschenken 'bijeen te sparen'. Op vrijdag 14 december 2007 wordt de werkgever ingelicht door een collega van Bart. Bart is op dat ogenblik een week met verlof. Na zijn terugkeer uit verlof wordt Bart onmiddellijk geroepen voor een gesprek. Eens geconfronteerd met de feiten, valt Bart door de mand en bekent hij alles. Dit gesprek vindt plaats op vrijdag 21 december 2007. De werkgever beslist, op basis van alle gekende feiten en na de bekentenis van Bart, om Bart te ontslaan wegens dringende reden. 1°Op welke dag moet het ontslag om dringende reden uiterlijk worden betekend? Antwoord: Op woensdag 26 december 2007 (d.i. 3 werkdagen na de kennisname van de feiten; N.B. zondagen en feestdagen worden niet meegeteld). 2° Indien de werkgever beslist om de motivering van het ontslag om dringende reden niet meteen te vermelden in de ontslagbrief zelf, maar wel in een tweede aangetekende brief, wanneer moet deze tweede, gemotiveerde brief ten laatste worden verstuurd als je weet dat de ontslagbrief aangetekend werd verstuurd op maandag 24 december 2007. Antwoord: Op vrijdag 28 december 2007 (d.i. drie werkdagen na het ontslag). 3° Stel dat het ontslag om dringende reden één dag te laat werd betekend. Welke opzegvergoeding moet de werkgever dan betalen, als je weet dat Bart een bruto jaarloon verdient van 27.000 EUR? Wat is het bruto bedrag en met hoeveel maanden (bruto) loon stemt deze opzegvergoeding overeen? Antwoord: De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto",
+      "sub_vragen": [],
+      "correct_antwoord": "1° wo 26.12.2007 (3 werkdagen na kennisname). 2° vr 28.12.2007 (3 werkdagen na ontslag). 3° 6 maanden loon = 13 500 EUR bruto.",
+      "antwoord_motivering": "1° Op woensdag 26 december 2007 (d.i. 3 werkdagen na de kennisname van de feiten; N.B. zondagen en feestdagen worden niet meegeteld). 2° Op vrijdag 28 december 2007 (d.i. drie werkdagen na het ontslag). 3° De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto.",
+      "themas": [
+        "ontslag-dringende-reden",
+        "opzegvergoeding",
+        "termijn-betekening"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "J.1 Bart is op 1 februari 2001 in dienst getreden van een gekende grootwarenhuisketen. Bart ondertekende op 20 januari 2001 een arbeidsovereenkomst voor onbepaalde duur (voltijds). Bart werkt als bediende en verdeelt zijn tijd tussen het vullen van de rekken en het bedienen van de kassa. Hoewel hierover duidelijke interne richtlijnen bestaan, maakt Bart misbruik van zijn persoonlijke klantenkaart, telkens wanneer een klant zijn / haar klantenkaart is vergeten. In plaats van gebruik te maken van een speciale, anonieme klantenkaart van de werkgever, gebruikt Bart zijn eigen klantenkaart om er de aankopen van de klanten op te registreren. Op die manier slaagt Bart erin om maandelijks enkele waardevolle geschenken 'bijeen te sparen'. Op vrijdag 14 december 2007 wordt de werkgever ingelicht door een collega van Bart. Bart is op dat ogenblik een week met verlof. Na zijn terugkeer uit verlof wordt Bart onmiddellijk geroepen voor een gesprek. Eens geconfronteerd met de feiten, valt Bart door de mand en bekent hij alles. Dit gesprek vindt plaats op vrijdag 21 december 2007. De werkgever beslist, op basis van alle gekende feiten en na de bekentenis van Bart, om Bart te ontslaan wegens dringende reden. 1°Op welke dag moet het ontslag om dringende reden uiterlijk worden betekend? Antwoord: Op woensdag 26 december 2007 (d.i. 3 werkdagen na de kennisname van de feiten; N.B. zondagen en feestdagen worden niet meegeteld). 2° Indien de werkgever beslist om de motivering van het ontslag om dringende reden niet meteen te vermelden in de ontslagbrief zelf, maar wel in een tweede aangetekende brief, wanneer moet deze tweede, gemotiveerde brief ten laatste worden verstuurd als je weet dat de ontslagbrief aangetekend werd verstuurd op maandag 24 december 2007. Antwoord: Op vrijdag 28 december 2007 (d.i. drie werkdagen na het ontslag). 3° Stel dat het ontslag om dringende reden één dag te laat werd betekend. Welke opzegvergoeding moet de werkgever dan betalen, als je weet dat Bart een bruto jaarloon verdient van 27.000 EUR? Wat is het bruto bedrag en met hoeveel maanden (bruto) loon stemt deze opzegvergoeding overeen? Antwoord: De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrK1",
+      "vraag_nr": "K.1",
+      "punten": null,
+      "pdf_pagina": 20,
+      "vak_code_in_pdf": "K",
+      "vak_naam_in_pdf": "K. Plichtenleer",
+      "vraagtype": "open",
+      "vraagtekst": "K.1 De afgevaardigd bestuurder van een NV gespecialiseerd in het domein van de voedingsnijverheid en waarvan U sinds meerdere jaren de boekhouding voert, vraagt U of U geen deel wenst uit te maken van de raad van bestuur van zijn onderneming. Dit voorstel interesseert U. Wat antwoordt U aan uw cliënt ?",
+      "sub_vragen": [],
+      "correct_antwoord": "Artikel 21 : onverenigbare situatie vermits U als bestuurder van deze NV",
+      "antwoord_motivering": "Artikel 21 : onverenigbare situatie vermits U als bestuurder van deze NV een handelsactiviteit zal uitoefenen als bestuurder van deze NV Art. 4 et 6 : Zelfs onafhankelijk van artikel 21, zou er een belangenconflict zijn indien U verder de boekhouding zou voeren van deze NV. Probleem van onafhankelijkheid. OF Ik ga in op het voorstel en neem ontslag als erkend boekhouder(-fiscalist) BIBF.",
+      "themas": [
+        "onverenigbaarheid",
+        "bestuursmandaat",
+        "onafhankelijkheid"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "K.1 De afgevaardigd bestuurder van een NV gespecialiseerd in het domein van de voedingsnijverheid en waarvan U sinds meerdere jaren de boekhouding voert, vraagt U of U geen deel wenst uit te maken van de raad van bestuur van zijn onderneming. Dit voorstel interesseert U. Wat antwoordt U aan uw cliënt ?"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrK2",
+      "vraag_nr": "K.2",
+      "punten": null,
+      "pdf_pagina": 20,
+      "vak_code_in_pdf": "K",
+      "vak_naam_in_pdf": "K. Plichtenleer",
+      "vraagtype": "open",
+      "vraagtekst": "K.2. Je bent stagiair BiBF. Bij de overdracht van een dossier stuurt jouw voorganger Patrick per ongeluk een bestandje mee door met al zijn klanten, hun adresgegevens, hun ondernemingsnummer, hun telefoonnummer en de prijzen die hij bij hun hanteert. Heel wat van de klanten ken je en je zou hun boekhouding wel voor een iets lager prijsje willen doen. Je kunt trouwens nog wel wat klanten gebruiken en de markt is toch zeker vrij voor iedereen. Uiteindelijk zal het toch de klant zijn die beslist. Dit is gewoon een commerciële meevaller ? Is dit deontologisch toegelaten/verboden? In welk artikelen vind je het antwoord op deze vraag ?\n\n1) plichtenleer artikel 23 De boekhouder BIBF kan alle personen die er om verzoeken, de nodige informatie bezorgen over zijn beroepswerkzaamheden, zijn deskundigheden, diensten en honoraria. Het is hem verboden klanten te ronselen alsook informatie spontaan aan te bieden met het oog op klantenwerving of zich bepaalde titels of deskundigheden toe te eigenen. Uitlokken of ronselen is verboden !\n\n2) artikel 16 plichtenleer De boekhouder is gehouden tot wederzijdse hulp en hoffelijkheid tegenover zijn confraters en moet zich onthouden van elke houding of handeling die een confrater schade kan berokkenen Actief gaan “vissen” in de vijver van een confrater is hem schade berokkenen !\n\n3) artikel 4 plichtenleer de boekhouder BIBF moet zijn beroep uitoefenen met de vereiste BEKWAAMHEID, EERLIJKHEID en WAARDIGHEID Misbruik maken van een technische vergissing van een confrater is niet eerlijk en niet waardig !",
+      "sub_vragen": [],
+      "correct_antwoord": "Verboden: art. 23 plichtenleer (geen ronselen/klantenwerving), art. 16 (hoffelijkheid t.o.v. confrater), art. 4 (eerlijkheid en waardigheid).",
+      "antwoord_motivering": "1) Plichtenleer artikel 23: De boekhouder BIBF kan alle personen die er om verzoeken, de nodige informatie bezorgen over zijn beroepswerkzaamheden, zijn deskundigheden, diensten en honoraria. Het is hem verboden klanten te ronselen alsook informatie spontaan aan te bieden met het oog op klantenwerving of zich bepaalde titels of deskundigheden toe te eigenen. → Uitlokken of ronselen is verboden!\n\n2) Artikel 16 plichtenleer: De boekhouder is gehouden tot wederzijdse hulp en hoffelijkheid tegenover zijn confraters en moet zich onthouden van elke houding of handeling die een confrater schade kan berokkenen. → Actief gaan “vissen” in de vijver van een confrater is hem schade berokkenen!\n\n3) Artikel 4 plichtenleer: de boekhouder BIBF moet zijn beroep uitoefenen met de vereiste BEKWAAMHEID, EERLIJKHEID en WAARDIGHEID. → Misbruik maken van een technische vergissing van een confrater is niet eerlijk en niet waardig!",
+      "themas": [
+        "ronselen-cliënteel",
+        "confraterrelaties-bibf",
+        "vertrouwelijkheid"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "K.2. Je bent stagiair BiBF. Bij de overdracht van een dossier stuurt jouw voorganger Patrick per ongeluk een bestandje mee door met al zijn klanten, hun adresgegevens, hun ondernemingsnummer, hun telefoonnummer en de prijzen die hij bij hun hanteert. Heel wat van de klanten ken je en je zou hun boekhouding wel voor een iets lager prijsje willen doen. Je kunt trouwens nog wel wat klanten gebruiken en de markt is toch zeker vrij voor iedereen. Uiteindelijk zal het toch de klant zijn die beslist. Dit is gewoon een commerciële meevaller ? Is dit deontologisch toegelaten/verboden? In welk artikelen vind je het antwoord op deze vraag ?\n\n1) plichtenleer artikel 23 De boekhouder BIBF kan alle personen die er om verzoeken, de nodige informatie bezorgen over zijn beroepswerkzaamheden, zijn deskundigheden, diensten en honoraria. Het is hem verboden klanten te ronselen alsook informatie spontaan aan te bieden met het oog op klantenwerving of zich bepaalde titels of deskundigheden toe te eigenen. Uitlokken of ronselen is verboden !\n\n2) artikel 16 plichtenleer De boekhouder is gehouden tot wederzijdse hulp en hoffelijkheid tegenover zijn confraters en moet zich onthouden van elke houding of handeling die een confrater schade kan berokkenen Actief gaan “vissen” in de vijver van een confrater is hem schade berokkenen !\n\n3) artikel 4 plichtenleer de boekhouder BIBF moet zijn beroep uitoefenen met de vereiste BEKWAAMHEID, EERLIJKHEID en WAARDIGHEID Misbruik maken van een technische vergissing van een confrater is niet eerlijk en niet waardig !"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrK3",
+      "vraag_nr": "K.3",
+      "punten": null,
+      "pdf_pagina": 21,
+      "vak_code_in_pdf": "K",
+      "vak_naam_in_pdf": "K. Plichtenleer",
+      "vraagtype": "open",
+      "vraagtekst": "K.3 Je bent stagiair BIBF. Nico, een vriend van je oudere broer Paul, wenst dat je de boekhouding van zijn restaurant overneemt. Paul is bankier bij Dexia. Nico had tot 3 maanden geleden zijn boekhouding bij Bernard . Wat verplicht de plichtenleer je ? - Hoe zal je de overgang van het dossier laten verlopen? Citeer tevens de toepasselijke artikelen uit de plichtenleer. - Je bent dermate tevreden dat je je aanbrengende broer een commissievergoeding wenst te betalen uit dank. Hoe pak je dit aan en op basis van welk artikel van de plichtenleer ?\n\n1) plichtenleer artikel 17 Vooraleer een opdracht te aanvaarden, moet de boekhouder BiBF die een opdracht van een ander boekhouder BiBF, een accountant of een bedrijfsrevisor overneemt, de volgende regels in acht nemen: 1° hij moet zijn voorganger per aangetekende brief, in kennis stellen van de overname van de opdracht, zelfs indien de opvolging niet onmiddellijk is gebeurd 2° indien de voorganger niet werd betaald voor zijn prestaties, dient hij bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger. …alle documenten…alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid… Hij is gehouden hiervan een gedetailleerde en gedagtekende inventaris in twee exemplaren op te stellen, die door alle betrokken partijen ondertekend wordt.\n\n2) plichtenleer artikel 13, 3e alinea … Het is de boekhouder BiBF verboden op enigerlei wijze commissie of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die strijdig zijn met artikel 4 van dit reglement. Je mag je broer Paul dus géén aanbrengcommissie geven !",
+      "sub_vragen": [],
+      "correct_antwoord": "Art. 17: aangetekende kennisgeving aan voorganger + gedetailleerde inventaris in tweevoud. Art. 13, 3e alinea: commissie aan broer is verboden.",
+      "antwoord_motivering": "1) Plichtenleer artikel 17: Vooraleer een opdracht te aanvaarden, moet de boekhouder BIBF die een opdracht van een ander boekhouder BIBF, een accountant of een bedrijfsrevisor overneemt, de volgende regels in acht nemen: 1° hij moet zijn voorganger per aangetekende brief, in kennis stellen van de overname van de opdracht, zelfs indien de opvolging niet onmiddellijk is gebeurd; 2° indien de voorganger niet werd betaald voor zijn prestaties, dient hij bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger. …alle documenten…alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid… Hij is gehouden hiervan een gedetailleerde en gedagtekende inventaris in twee exemplaren op te stellen, die door alle betrokken partijen ondertekend wordt.\n\n2) Plichtenleer artikel 13, 3e alinea: Het is de boekhouder BIBF verboden op enigerlei wijze commissie of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die strijdig zijn met artikel 4 van dit reglement. → Je mag je broer Paul dus géén aanbrengcommissie geven!",
+      "themas": [
+        "overdracht-dossier",
+        "aanbrengcommissie",
+        "confraterrelaties-bibf"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "K.3 Je bent stagiair BIBF. Nico, een vriend van je oudere broer Paul, wenst dat je de boekhouding van zijn restaurant overneemt. Paul is bankier bij Dexia. Nico had tot 3 maanden geleden zijn boekhouding bij Bernard . Wat verplicht de plichtenleer je ? - Hoe zal je de overgang van het dossier laten verlopen? Citeer tevens de toepasselijke artikelen uit de plichtenleer. - Je bent dermate tevreden dat je je aanbrengende broer een commissievergoeding wenst te betalen uit dank. Hoe pak je dit aan en op basis van welk artikel van de plichtenleer ?\n\n1) plichtenleer artikel 17 Vooraleer een opdracht te aanvaarden, moet de boekhouder BiBF die een opdracht van een ander boekhouder BiBF, een accountant of een bedrijfsrevisor overneemt, de volgende regels in acht nemen: 1° hij moet zijn voorganger per aangetekende brief, in kennis stellen van de overname van de opdracht, zelfs indien de opvolging niet onmiddellijk is gebeurd 2° indien de voorganger niet werd betaald voor zijn prestaties, dient hij bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger. …alle documenten…alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid… Hij is gehouden hiervan een gedetailleerde en gedagtekende inventaris in twee exemplaren op te stellen, die door alle betrokken partijen ondertekend wordt.\n\n2) plichtenleer artikel 13, 3e alinea … Het is de boekhouder BiBF verboden op enigerlei wijze commissie of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die strijdig zijn met artikel 4 van dit reglement. Je mag je broer Paul dus géén aanbrengcommissie geven !"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrK4",
+      "vraag_nr": "K.4",
+      "punten": null,
+      "pdf_pagina": 21,
+      "vak_code_in_pdf": "K",
+      "vak_naam_in_pdf": "K. Plichtenleer",
+      "vraagtype": "open",
+      "vraagtekst": "K.4. Rik is stagiair geworden nadat hij “betrapt” is op illegale uitoefening. Voor 2006 heeft hij maar 14 uren beroepsvervolmaking gevolgd. Hij heeft zijn lidgeld niet betaald in 2006 en hij heeft zijn bijdrage beroepsaansprakelijkheidsverzekering niet betaald in 2006. De assessor daagt hem voor de Kamer. Hij komt echter niet opdagen, terwijl hij nochtans tijdig en correct is opgeroepen voor de openbare zitting. Bovendien antwoordt hij op geen enkele brief die de Kamer hem stuurde. De Kamer is niet mals voor deze zondaar en spreekt op 03 november 2007 een tuchtstraf van 3 maanden schorsing uit. Rik gaat niet in beroep binnen de 30 dagen na betekening van het vonnis. Op 3 januari 2008 belt een klant om hem te vragen wanneer hij de BTW aangifte 4 van het jaar 2007 gaat verzorgen.\n\n1) Welk artikel van de plichtenleer moet Rik hier inroepen naar zijn cliënt toe ?\n\n2) Noem minstens 3 artikels van plichtenleer die Rik had overtreden bij de zitting van de Kamer\n\n1) plichtenleer artikel 12 In geval een boekhouder BiBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen in gevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doen tijdens de schorsing. 2) Plichtenleer artikel 5 bijdrage Plichtenleer artikel 9 gevraagde inlichtingen Plichtenleer artikel 14 verzekering beroepsaansprakelijkheid Plichtenleer artikel 15 beroepsvervolmaking",
+      "sub_vragen": [],
+      "correct_antwoord": "1) Art. 12 plichtenleer (kennisgeving cliënteel bij schorsing ≥ 1 maand). 2) Art. 5 (bijdrage), art. 9 (inlichtingen), art. 14 (BA-verzekering), art. 15 (beroepsvervolmaking).",
+      "antwoord_motivering": "1) Plichtenleer artikel 12: In geval een boekhouder BIBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen ingevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doen tijdens de schorsing.\n\n2) Overtreden artikels: - Plichtenleer artikel 5: bijdrage - Plichtenleer artikel 9: gevraagde inlichtingen - Plichtenleer artikel 14: verzekering beroepsaansprakelijkheid - Plichtenleer artikel 15: beroepsvervolmaking",
+      "themas": [
+        "tuchtsanctie",
+        "schorsing",
+        "permanente-vorming",
+        "lidgeld"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "K.4. Rik is stagiair geworden nadat hij “betrapt” is op illegale uitoefening. Voor 2006 heeft hij maar 14 uren beroepsvervolmaking gevolgd. Hij heeft zijn lidgeld niet betaald in 2006 en hij heeft zijn bijdrage beroepsaansprakelijkheidsverzekering niet betaald in 2006. De assessor daagt hem voor de Kamer. Hij komt echter niet opdagen, terwijl hij nochtans tijdig en correct is opgeroepen voor de openbare zitting. Bovendien antwoordt hij op geen enkele brief die de Kamer hem stuurde. De Kamer is niet mals voor deze zondaar en spreekt op 03 november 2007 een tuchtstraf van 3 maanden schorsing uit. Rik gaat niet in beroep binnen de 30 dagen na betekening van het vonnis. Op 3 januari 2008 belt een klant om hem te vragen wanneer hij de BTW aangifte 4 van het jaar 2007 gaat verzorgen.\n\n1) Welk artikel van de plichtenleer moet Rik hier inroepen naar zijn cliënt toe ?\n\n2) Noem minstens 3 artikels van plichtenleer die Rik had overtreden bij de zitting van de Kamer\n\n1) plichtenleer artikel 12 In geval een boekhouder BiBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen in gevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doen tijdens de schorsing. 2) Plichtenleer artikel 5 bijdrage Plichtenleer artikel 9 gevraagde inlichtingen Plichtenleer artikel 14 verzekering beroepsaansprakelijkheid Plichtenleer artikel 15 beroepsvervolmaking"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    },
+    {
+      "id": "2008-bibf-vrK5",
+      "vraag_nr": "K.5",
+      "punten": null,
+      "pdf_pagina": 22,
+      "vak_code_in_pdf": "K",
+      "vak_naam_in_pdf": "K. Plichtenleer",
+      "vraagtype": "open",
+      "vraagtekst": "K.5 De echtgenoten Philippe en Isabelle, beiden erkend boekhouder(-fiscalist) hebben twee zonen (Frans en Jan) en één dochter (Mathilde). De drie kinderen zijn allen meerderjarig en studeren nog. Om hun werkzaamheden beter te organiseren wensen de ouders een boekhoudvennootschap op te richten conform het KB van 15/2/2005 betreffende de uitoefening van het beroep van erkend boekhouder (-fiscalist) in het kader van een rechtspersoon. Licht steeds uw antwoord toe.!!! - Welke zijn de specifieke aandachtspunten voor de doelomschrijving? Een burgerlijke vennootschap dient opgericht te worden. Het doel moet conform de deontologische voorschriften en het KB van 2005 betreffende de rechtspersonen BIBF worden opgesteld. Dit betekent dat enkel voorbehouden en toegelaten activiteiten van erkende boekhouders(-fiscalisten ) mogen opgenomen worden. Dus bijvoorbeeld geen handelsactiviteiten. (art 7 en 8 KB) - Indien zij opteren voor een BVBA. Wie kan tot zaakvoerder worden benoemd in deze boekhoudvennootschap? Enkel de ouders (Philippe en Isabelle) vermits alle zaakvoerders BIBF lid moeten zijn. (art 8, 5°) - Is volgende verdeling van de aandelen mogelijk? Philippe : 35 %, Isabelle 35 %, Frans, Jan en Mathilde elk 10 % . Licht uw antwoord toe. Neen vermits minstens 80 % van de aandelen en de stemrechten in handen moet zijn van BIBF leden of stagiairs. (art 8 , 4° KB) - De oudste zoon, zal na zijn studies aan de Hogeschool, afdeling boekhouding- fiscaliteit, een BIBF stage aanvangen. Kan hij op dat ogenblik zaakvoerder/bestuurder worden? Kan hij op dat ogenblik tevens 50 % van de aandelen verwerven ? Dit kan vermits stagiair-boekhouders, net zoals BIBF leden , mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder (fiscalist) BIBF (Zie art 1 en art 2 , par 2 KB)",
+      "sub_vragen": [],
+      "correct_antwoord": "Burgerlijke venn. met enkel BIBF-doel; enkel ouders zaakvoerder (art. 8, 5°); aandelenverdeling 70 % onvoldoende (80 %-regel art. 8, 4°); stagiair-zoon kan bestuurder + 50 % aandelen mits 80 %-regel + samen met stagemeester.",
+      "antwoord_motivering": "- Doelomschrijving: Een burgerlijke vennootschap dient opgericht te worden. Het doel moet conform de deontologische voorschriften en het KB van 2005 betreffende de rechtspersonen BIBF worden opgesteld. Dit betekent dat enkel voorbehouden en toegelaten activiteiten van erkende boekhouders(-fiscalisten) mogen opgenomen worden. Dus bijvoorbeeld geen handelsactiviteiten (art. 7 en 8 KB).\n\n- Zaakvoerders: Enkel de ouders (Philippe en Isabelle), vermits alle zaakvoerders BIBF-lid moeten zijn (art. 8, 5°).\n\n- Aandelenverdeling: Neen, vermits minstens 80 % van de aandelen en de stemrechten in handen moet zijn van BIBF-leden of stagiairs (art. 8, 4° KB). Philippe + Isabelle = 70 %, dus onvoldoende.\n\n- Stagiair-zoon: Dit kan, vermits stagiair-boekhouders, net zoals BIBF-leden, mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF-leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder(-fiscalist) BIBF (zie art. 1 en art. 2 §2 KB).",
+      "themas": [
+        "boekhoudvennootschap",
+        "rechtspersoon-bibf",
+        "doelomschrijving",
+        "aandelenverdeling"
+      ],
+      "wets_verwijzingen": [],
+      "opties": [],
+      "subvragen": [],
+      "vraagtekst_blokken": [
+        {
+          "type": "tekst",
+          "inhoud": "K.5 De echtgenoten Philippe en Isabelle, beiden erkend boekhouder(-fiscalist) hebben twee zonen (Frans en Jan) en één dochter (Mathilde). De drie kinderen zijn allen meerderjarig en studeren nog. Om hun werkzaamheden beter te organiseren wensen de ouders een boekhoudvennootschap op te richten conform het KB van 15/2/2005 betreffende de uitoefening van het beroep van erkend boekhouder (-fiscalist) in het kader van een rechtspersoon. Licht steeds uw antwoord toe.!!! - Welke zijn de specifieke aandachtspunten voor de doelomschrijving? Een burgerlijke vennootschap dient opgericht te worden. Het doel moet conform de deontologische voorschriften en het KB van 2005 betreffende de rechtspersonen BIBF worden opgesteld. Dit betekent dat enkel voorbehouden en toegelaten activiteiten van erkende boekhouders(-fiscalisten ) mogen opgenomen worden. Dus bijvoorbeeld geen handelsactiviteiten. (art 7 en 8 KB) - Indien zij opteren voor een BVBA. Wie kan tot zaakvoerder worden benoemd in deze boekhoudvennootschap? Enkel de ouders (Philippe en Isabelle) vermits alle zaakvoerders BIBF lid moeten zijn. (art 8, 5°) - Is volgende verdeling van de aandelen mogelijk? Philippe : 35 %, Isabelle 35 %, Frans, Jan en Mathilde elk 10 % . Licht uw antwoord toe. Neen vermits minstens 80 % van de aandelen en de stemrechten in handen moet zijn van BIBF leden of stagiairs. (art 8 , 4° KB) - De oudste zoon, zal na zijn studies aan de Hogeschool, afdeling boekhouding- fiscaliteit, een BIBF stage aanvangen. Kan hij op dat ogenblik zaakvoerder/bestuurder worden? Kan hij op dat ogenblik tevens 50 % van de aandelen verwerven ? Dit kan vermits stagiair-boekhouders, net zoals BIBF leden , mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder (fiscalist) BIBF (Zie art 1 en art 2 , par 2 KB)"
+        }
+      ],
+      "antwoord_bron": "pdf-modelantwoord"
+    }
+  ],
+  "schema_versie": "2.0",
+  "migratie": {
+    "uitgevoerd_op": "2026-05-18T23:35:30.774099+00:00",
+    "v1_backup": "data/programma/examen_vragen/_archive/v1/2008-bibf.json",
+    "behouden_antwoorden": 32
+  }
+}

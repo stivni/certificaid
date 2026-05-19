@@ -44,7 +44,9 @@ _28 vragen — 26 met modelantwoord — 4 met gap-rapport._
 
 #### Vraagtekst
 
-A.1. Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag : geef de afsluitingsboekingen voor de boekjaren 2002 en 2003. 5 PUNTEN
+Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag :
+
+**geef de afsluitingsboekingen voor de boekjaren 2002 en 2003.**
 
 #### Modelantwoord
 
@@ -104,7 +106,30 @@ Machine geactiveerd voor 100.000 EUR op rek 23 + afschrijving over gebruiksduur.
 
 #### Vraagtekst
 
-Op de proef- en saldibalans staan volgende bedragen: 32 Goederen in bewerking D 500,00 euro 34 Handelsgoederen D 7.000,00 euro De inventaris per einde boekjaar geeft - goederen in bewerking 400,00 - handelsgoederen 8.500,00 De marktprijs van de handelsgoederen bedraagt 8.250,00 euro. Er werd ook vastgesteld dat bepaalde goederen moeten afgeprijsd worden voor een totaal bedrag van 75,00 euro. Vraag : geef de afsluitingsboekingen. 5 PUNTEN
+Op de proef- en saldibalans staan volgende bedragen:
+
+**Proef- en saldibalans**
+
+| Rekening | Naam | Zijde | Bedrag |
+| --- | --- | --- | --- |
+| 32 | Goederen in bewerking | D | 500,00 |
+| 34 | Handelsgoederen | D | 7.000,00 |
+
+De inventaris per einde boekjaar geeft
+
+**Inventaris**
+- goederen in bewerking: 400,00 EUR
+- handelsgoederen: 8.500,00 EUR
+
+_Marktwaarde handelsgoederen: **8.250,00 EUR**_
+
+o. Er werd ook vastgesteld dat bepaalde goederen moeten
+
+_Aanpassing (afprijzing): **75,00 EUR**_
+
+euro. Vraag :
+
+**geef de afsluitingsboekingen.**
 
 #### Modelantwoord
 
@@ -165,7 +190,7 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-B.4. Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt? 2 PUNTEN
+Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt?
 
 #### Modelantwoord
 
@@ -219,7 +244,7 @@ _Ook geklassificeerd onder_: 2.4
 
 #### Vraagtekst
 
-D.1 Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Vraag: Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen. 3 PUNTEN
+Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Vraag: Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen.
 
 > [!warning] Gap niveau **b** — type **checklist_fail_softmatch**
 > BTW-statuut "klein zelfstandige" — vrijstellingsdrempel BTW (huidig € 25.000 omzet); aanvaarding statuut + boekhouding-vereenvoudiging. Vereist BTW-specifieke records die deels ontbreken.
@@ -238,7 +263,7 @@ _Ook geklassificeerd onder_: 2.4
 
 #### Vraagtekst
 
-D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Vraag: Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? 2 PUNTEN
+Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Vraag: Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren?
 
 > [!warning] Gap niveau **b** — type **checklist_fail_softmatch**
 > Voorschot offerte schrijnwerker — BTW-verwerking: voorschot is belastbaar bij ontvangst (BTW-tijdstip = ontvangst geld of facturatie); boekhoudkundig: Debet 550 Bank / Credit 410 Klanten of Credit 491 Te ontvangen producten. Vraagtekst toont alleen vraag-stam.
@@ -255,7 +280,11 @@ D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met pri
 
 #### Vraagtekst
 
-A.1 In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR waarvan 10.000,00 EUR voor de eindejaarspremies. Boek het vakantiegeld verschuldigd voor 2007. Wanneer boekt u dit vakantiegeld?
+In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR waarvan 10.000,00 EUR voor de eindejaarspremies.
+
+**Boek het vakantiegeld verschuldigd voor 2007.**
+
+Wanneer boekt u dit vakantiegeld?
 
 #### Modelantwoord
 
@@ -275,7 +304,7 @@ Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR
 
 #### Vraagtekst
 
-A.2 In januari 2008, ontvangt u een factuur voor 1.210,00 EUR, BTW inbegrepen, m.b.t. de levering in 2007 van publiciteitsartikelen. Wat boekt u in 2008 en, in voorkomend geval, in 2007?
+In januari 2008, ontvangt u een factuur voor 1.210,00 EUR, BTW inbegrepen, m.b.t. de levering in 2007 van publiciteitsartikelen. Wat boekt u in 2008 en, in voorkomend geval, in 2007?
 
 #### Modelantwoord
 
@@ -295,7 +324,7 @@ In 2007:
 
 #### Vraagtekst
 
-A.3 De voorraden bedragen op 1 januari N: 12.000 EUR grondstoffen 30.000 EUR goederen in bewerking 28.000 EUR gereed produkt 6.000 EUR handelsgoederen Per 31 december N bedraagt voorraad: 17.000 EUR grondstoffen 26.000 EUR goederen in bewerking 31.000 EUR gereed produkt 4.000 EUR handelsgoederen Boek de voorraadwijzigingen.
+De voorraden bedragen op 1 januari N: 12.000 EUR grondstoffen 30.000 EUR goederen in bewerking 28.000 EUR gereed produkt 6.000 EUR handelsgoederen Per 31 december N bedraagt voorraad: 17.000 EUR grondstoffen 26.000 EUR goederen in bewerking 31.000 EUR gereed produkt 4.000 EUR handelsgoederen Boek de voorraadwijzigingen.
 
 #### Modelantwoord
 
@@ -315,7 +344,11 @@ A.3 De voorraden bedragen op 1 januari N: 12.000 EUR grondstoffen 30.000 EUR goe
 
 #### Vraagtekst
 
-A.4 Een kleine vennootschap heeft de rechtspersoonlijkheid verkregen op 1 maart 2008 en ze sluit haar eerste boekjaar af op 31 december 2008. De oprichtingskosten bedragen 1.200 EUR; ze werden per bank betaald dd. 10 maart en op het actief geboekt. Een personenwagen van 20.000 EUR exclusief BTW werd op 31 maart 2008 gekocht met een economische levensduur van vijf jaar. Boek beide verrichtingen. Boek de afschrijvingen.
+Een kleine vennootschap heeft de rechtspersoonlijkheid verkregen op 1 maart 2008 en ze sluit haar eerste boekjaar af op 31 december 2008. De oprichtingskosten bedragen 1.200 EUR; ze werden per bank betaald dd. 10 maart en op het actief geboekt. Een personenwagen van 20.000 EUR exclusief BTW werd op 31 maart 2008 gekocht met een economische levensduur van vijf jaar.
+
+**Boek beide verrichtingen.**
+
+Boek de afschrijvingen.
 
 #### Modelantwoord
 
@@ -337,7 +370,9 @@ _Ook geklassificeerd onder_: 1.4
 
 #### Vraagtekst
 
-B.1 In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12% vertegenwoordigen van het stemrecht in C. Boek deze aankoop in de onderneming B.
+In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12% vertegenwoordigen van het stemrecht in C.
+
+**Boek deze aankoop in de onderneming B.**
 
 #### Modelantwoord
 
@@ -391,7 +426,7 @@ _Ook geklassificeerd onder_: 2.4
 
 #### Vraagtekst
 
-D.1 Een persoon vestigt zich als zelfstandige om een taverne– restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW administratie voor het statuut van normale kwartaal BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder kwartaal/jaar van hem wenst te ontvangen.
+Een persoon vestigt zich als zelfstandige om een taverne– restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW administratie voor het statuut van normale kwartaal BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder kwartaal/jaar van hem wenst te ontvangen.
 
 1. bewaren van de geregistreerde kastickets
 
@@ -401,13 +436,10 @@ D.1 Een persoon vestigt zich als zelfstandige om een taverne– restaurant uit t
 
 4. bijhouden van een ontvangstenboek met uitsplitsing per toepasselijk BTW tarief
 
-a. ontvangsten aan 6 % voor meegenomen bereidingen
-
-b. ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken
-
-c. ontvangsten aan 21 % voor dranken die los werden verkocht
-
-d. ontvangsten van de speelautomaten
+- **a.** ontvangsten aan 6 % voor meegenomen bereidingen
+- **b.** ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken
+- **c.** ontvangsten aan 21 % voor dranken die los werden verkocht
+- **d.** ontvangsten van de speelautomaten
 
 e. ontvangsten van gebruik telefoon
 
@@ -463,7 +495,7 @@ _Ook geklassificeerd onder_: 2.4
 
 #### Vraagtekst
 
-D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden
+Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden
 
 #### Modelantwoord
 
@@ -485,7 +517,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 2 … / 6 punten
 Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.
 a) Onderneming A heeft een openstaande leveranciersschuld ten opzichte van
 onderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze
@@ -609,7 +640,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 3 … / 5 punten
 Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt
 kan worden in ondermeer fabrieken voor de verplaatsing van zware goederen.
 Zij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten
@@ -621,14 +651,21 @@ Zij heeft hiervoor volgende kosten gehad:
 - aankopen van materiaal 180.000 euro
 - lonen van arbeiders inclusief patronale bijdragen 80.000 euro
 Gevraagd:
-a) Kunnen deze kosten in aanmerking voor activering? Motiveer uw antwoord.
+
+- **a.** Kunnen deze kosten in aanmerking voor activering? Motiveer uw antwoord.
+
+**Antwoord
+b) Zo ja, welke van de bovenvermelde kosten?**
+
 Antwoord
-b) Zo ja, welke van de bovenvermelde kosten?
-Antwoord
-c) Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op
+
+- **c.** Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op
+
 te geven tot op 2 cijfers.
-Antwoord
-d) Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?
+
+**Antwoord
+d) Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?**
+
 Antwoord
 e) Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet
 commercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet
@@ -736,7 +773,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 1 … / 3 punten
 Onderneming “Softy” BVBA is één maand actief. Zij ontwikkelt software. De onderneming wil
 de volgende transacties in haar boekhouding verwerken en vraagt u advies bij de verwerking
 hiervan. Kruis het juiste antwoord aan.
@@ -846,7 +882,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
 Vennootschap “ Final” BVBA heeft van vennootschap “DEF” een aantal activa gekocht, zoals
 machines en voorraad. Deze activa hadden de volgende marktwaarde:
 Machine A 15.000 euro
@@ -855,11 +890,14 @@ Voorraad 30.000 euro
 Zij heeft in totaal 100.000 euro betaald. Het bedrag van 30.000 euro is de meerprijs die zij
 betaald heeft voor de overname.
 Gevraagd:
-a) In welke rubriek van de jaarrekening zou u het bedrag van 30.000 euro meerprijs
+
+- **a.** In welke rubriek van de jaarrekening zou u het bedrag van 30.000 euro meerprijs
+
 verwerken? U hoeft geen rekeningnummer op te geven (enkel rubriek tot op twee
 cijfers)
 Antwoord … / 1 punt
-b) Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven?
+
+- **b.** Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven?
 
 Antwoord … / 3 punten
 
@@ -937,16 +975,20 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 4 … / 4 punten
+/ 4 punten
 Een onderneming laat om de acht jaar haar gebouwen herschilderen. De schilderwerken
 worden geschat op 40.000 euro.
-a) Kan zij in haar jaarrekening hiermee al rekening houden? Op welke manier en voor
+
+- **a.** Kan zij in haar jaarrekening hiermee al rekening houden? Op welke manier en voor
+
 welk bedrag zal zij dit doen?
 Antwoord … / 2 punten
-b) Wat indien na acht jaar de schilderwerken worden uitgevoerd, maar meer bedragen
+
+- **b.** Wat indien na acht jaar de schilderwerken worden uitgevoerd, maar meer bedragen
+
 dan de raming van 40.000 euro?
 Antwoord … / 2 punten
-25 PUNTEN
+
 ANALYSE EN KRITISCHE BEOORDELING VAN DE
 JAARREKENING - CONSOLIDATIE
 Bijlage: Balans
@@ -1021,7 +1063,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 1 … / 2 punten
 Vennootschap PETRUS BVBA sluit haar jaarrekening af op 31 december. De vennootschap
 wou gebruik maken van de nieuwe maatregel rond het vastklikken van reserves.
 Op 20 december 2013 heeft een bijzondere algemene vergadering de beslissing genomen om
@@ -1040,8 +1081,9 @@ De toestand in haar eigen vermogen voor de genomen beslissing was als volgt:
 | Beschikbare reserves | 1.800.000 |
 | Overgedragen winst | 1.000 |
 
-Hoe zal de jaarrekening per 31 december 2013 eruit zien, zonder rekening te houden met het
-resultaat van het boekjaar?
+**Hoe zal de jaarrekening per 31 december 2013 eruit zien, zonder rekening te houden met het
+resultaat van het boekjaar?**
+
 Antwoord
 
 Het geplaatste kapitaal bedraagt 1.000.000 EUR.
@@ -1137,15 +1179,15 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 2 … / 2 punten
-
 Voor de vennootschap ABC is er een authentieke akte verleden voor een kapitaalverhoging.
 De kapitaalverhoging is doorgevoerd door enerzijds een incorporatie van bestaande reserves
 en anderzijds een inbreng in speciën. Voor dit laatste lag de uitgifteprijs van de nieuwe
 aandelen hoger dan de bestaande fractiewaarde van de aandelen. De uitgiftepremie werd ook
 geïncorporeerd in kapitaal.
-Hoe dient zij de kapitaalverhoging door incorporatie bestaande reserves en de uitgiftepremie
-te verwerken in haar jaarrekening ?
+
+**Hoe dient zij de kapitaalverhoging door incorporatie bestaande reserves en de uitgiftepremie
+te verwerken in haar jaarrekening ?**
+
 Antwoord
 
 Zij boekt zowel de onttrekking van haar reserves als de volledige kapitaalverhoging via de
@@ -1238,13 +1280,14 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 3 … / 8 punten
 Vennootschap Immo-C had in 1980 een herwaardering toegepast op een octrooi. De
 herwaardering bedroeg 25.000 EUR en werd op rekening 120 van het passief van de balans
 geboekt. Het octrooi werd oorspronkelijk verworven voor 75.000 EUR.
 Het octrooi is thans volledig afgeschreven.
 Op 15 december 2013 verkoopt Immo-C het octrooi tegen 100.000 EUR.
-a) Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?
+
+- **a.** Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?
+
 Antwoord
 
 de meerwaarde wordt op het passief van de balans behouden
@@ -1254,7 +1297,9 @@ de meerwaarde mag niet op de balans worden behouden
 de meerwaarde moet geïncorporeerd worden in het kapitaal
 
 de meerwaarde moet gespreid over 5 jaar in resultaat genomen worden
-b) Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?
+
+- **b.** Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?
+
 Antwoord
 
 
@@ -1465,7 +1510,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 4 … / 3 punten
 Vennootschap Export heeft op 5 februari 2014 een goed verkocht tegen de prijs van
 5.000.000 EUR.
 Het contract voorziet in de betaling van dit bedrag in 5 jaarlijkse stortingen van 1.000.000
@@ -1476,7 +1520,8 @@ Die interest werd aldus berekend op 600.000 EUR.
 De toegepaste discontovoet bedraagt 9% (tarief toegepast op de kredietmarkt).
 Het disconto wordt vastgesteld op 404.706 EUR
 
-a) Welk bedrag zult u in de omzet opnemen (boeking op 5 februari 2014)?
+- **a.** Welk bedrag zult u in de omzet opnemen (boeking op 5 februari 2014)?
+
 Antwoord
 
 5.000.000 EUR
@@ -1488,7 +1533,9 @@ Antwoord
 4.595.294 EUR
 
 5.404.706 EUR
-b) Hoe worden de interest en het disconto uitgesplitst?
+
+- **b.** Hoe worden de interest en het disconto uitgesplitst?
+
 Antwoord
 
 de interest wordt op rekening 751 en het disconto op rekening 651 geboekt over de 5
@@ -1573,7 +1620,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 1 … / 3 punten
 Een onderneming XYZ verkoopt producten voor klein meubilair. Volgens haar
 waarderingsregels gebruikt zij de FIFO methode.
 Zij heeft volgende aankopen en verkopen op één bepaald voorraadartikel verricht tijdens
@@ -1585,18 +1631,24 @@ Er is weinig interesse op de markt voor dit product. Dit artikel heeft op de afs
 per 31 december 2013 nog een marktwaarde van 280,00 EUR per artikel.
 Per 30 april 2014 is de marktwaarde 300,00 EUR.
 De algemene vergadering van de vennootschap had plaats op 5 mei 2014.
-a) Voor welke waarde neemt zij dit artikel op in haar voorraad per 31 december 2013?
-A. 465.000 EUR
-B. 470.000 EUR
-C. 392.000 EUR
-D. 420.000 EUR
+
+- **a.** Voor welke waarde neemt zij dit artikel op in haar voorraad per 31 december 2013?
+- **A.** 465.000 EUR
+- **B.** 470.000 EUR
+- **C.** 392.000 EUR
+- **D.** 420.000 EUR
+
 E. 452.000 EUR
-b) Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en
+
+- **b.** Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en
+
 verkopen zijn geweest en de marktwaarde dan 455 EUR is?
-A. 465.000 EUR
-B. 470.000 EUR
-C. 392.000 EUR
-D. 420.000 EUR
+
+- **A.** 465.000 EUR
+- **B.** 470.000 EUR
+- **C.** 392.000 EUR
+- **D.** 420.000 EUR
+
 E. 637.000 EUR
 
 #### Modelantwoord
@@ -1687,21 +1739,29 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 2 … / 2 punten
 Een werknemer, de heer Janssens van de vennootschap XYZ, heeft zijn ontslag gekregen
 van de vennootschap op 5 december 2013, zodat hij op 1 maart 2014 van het stelsel
 werkloosheid met bedrijfstoeslag (oude brugpensioenstelsel) kan genieten.
 Vanaf 1 maart 2014 betaalt de vennootschap 2.000 EUR bruto per maand.
-Hoe wordt dit stelsel werkloosheid met bedrijfstoeslag verwerkt in de boekhouding?
-A. De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het
+
+**Hoe wordt dit stelsel werkloosheid met bedrijfstoeslag verwerkt in de boekhouding?**
+
+- **A.** De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het
+
 moment dat zij zich voordoen.
-B. Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige
+
+- **B.** Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige
+
 kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten
 van het stelsel werkloosheid met bedrijfstoeslag komen vanaf maart 2014 in de
 resultatenrekening. Een gedeelte van de voorziening wordt jaarlijks teruggenomen.
-C. Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten,
+
+- **C.** Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten,
+
 rekening houdend met het geslacht en de leeftijd van de werknemer.
-D. Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten,
+
+- **D.** Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten,
+
 rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het
 stelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht
 van de voorziening.
@@ -1781,7 +1841,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 3 … / 2 punten
 Een vennootschap XYZ heeft een machine verkocht aan een klant voor een bedrag van
 121.000,00 EUR inclusief 21% BTW op 1 juli 2012. De betaling hiervan diende slechts na drie
 jaar te gebeuren. Er werd hiervoor een rente gevraagd van 8%, zesmaandelijks te betalen. In
@@ -1792,12 +1851,18 @@ van haar vordering onzeker wordt, na een probleem met de inning van de verschuld
 rente. De klant heeft serieuze financiële moeilijkheden en heeft het faillissement
 aangevraagd.
 Wat zal de onderneming met de vordering op meer dan één jaar in haar boekhouding doen?
-A. De vennootschap boekt een waardevermindering op de vordering.
-B. De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij
+
+- **A.** De vennootschap boekt een waardevermindering op de vordering.
+- **B.** De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij
+
 boekt tevens een waardevermindering voor de vordering.
-C. De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij
+
+- **C.** De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij
+
 boekt tevens een waardevermindering voor de vordering en de rente.
-D. De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de
+
+- **D.** De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de
+
 nog verschuldigde rente die nog niet tot uiting was gebracht dienen uit te drukken. Zij boekt
 een waardevermindering voor de vordering en de rente.
 E. De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij
@@ -1877,17 +1942,21 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 4 … / 2 punten
 In de boekhouding van de vennootschap van uw cliënt werd onder de rubriek “499 –
 wachtrekening” een bedrag van 125.000,00 EUR opgenomen, met de vermelding “intercalaire
 interesten per 31/08/2014 op het investeringskrediet 15-237584-22”.
-Welke van onderstaande instructies moet u aan de boekhouder geven om dit bedrag correct
-op te nemen?
-A. De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen.
-B. De intercalaire interesten moeten op het actief van de balans worden geboekt.
-C. De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden
+
+**Welke van onderstaande instructies moet u aan de boekhouder geven om dit bedrag correct
+op te nemen?**
+
+- **A.** De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen.
+- **B.** De intercalaire interesten moeten op het actief van de balans worden geboekt.
+- **C.** De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden
+
 geboekt.
-D. De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans
+
+- **D.** De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans
+
 worden geboekt.
 
 #### Modelantwoord
@@ -1970,7 +2039,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 5 … / 2 punten
 Een vennootschap consulteert u omdat zij van plan is te investeren in een nieuw
 productieapparaat.
 De kosten van de investering bedragen 80.000 EUR. De vennootschap zou een subsidie van
@@ -1978,14 +2046,22 @@ De kosten van de investering bedragen 80.000 EUR. De vennootschap zou een subsid
 Die subsidie zou betaald worden in twee stortingen van respectievelijk 40% en 60%, in
 functie van het investeringsritme.
 De vennootschap vraagt uw advies over de boekhoudkundige verwerking van de subsidie:
-A. Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 “Kapitaal- en
+
+- **A.** Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 “Kapitaal- en
+
 interestsubsidies”.
-B. Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 “Kapitaalsubsidies”
+
+- **B.** Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 “Kapitaalsubsidies”
+
 en op rekening 1680 “Uitgestelde belastingen op kapitaalsubsidies” en zal daarop behouden
 blijven zolang het nieuwe productieapparaat niet is gerealiseerd.
-C. De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de
+
+- **C.** De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de
+
 subsidie, ineens geboekt worden op rekening 753 “Kapitaal- en interestsubsidies”.
-D. De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de
+
+- **D.** De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de
+
 subsidie, ineens geboekt worden op rekening 15 “Kapitaalsubsidies” en zal in resultaat
 worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed.
 E. De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboekt worden op
@@ -2048,7 +2124,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 6 … / 2 punten
 De vennootschap “Koffie van het Noorden” heeft beslist om haar afdeling “Fabricatie van
 Koffiemolens” te herstructureren.
 De gemaakte kosten zijn de volgende:
@@ -2058,13 +2133,21 @@ De gemaakte kosten zijn de volgende:
 
 Aan de hand van welke tegenboeking kunnen deze uitgaven naar het actief van de balans
 worden overgeboekt?
-A. De activering kan tot uiting worden gebracht door het crediteren van de rekeningen 61-62,
+
+- **A.** De activering kan tot uiting worden gebracht door het crediteren van de rekeningen 61-62,
+
 die werden gebruikt voor de in resultaatneming van de uitgaven.
-B. De activering moet tot uiting worden gebracht door het crediteren van de rekeningen 61-62,
+
+- **B.** De activering moet tot uiting worden gebracht door het crediteren van de rekeningen 61-62,
+
 die werden gebruikt om de uitgaven in kosten te nemen.
-C. De activering moet tot uiting worden gebracht door het crediteren van de rekening 649 of
+
+- **C.** De activering moet tot uiting worden gebracht door het crediteren van de rekening 649 of
+
 669.
-D. De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669.
+
+- **D.** De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669.
+
 E. De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de
 rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door
 het crediteren van de rekening 649 of 669.
@@ -2154,14 +2237,17 @@ _Ook geklassificeerd onder_: 1.2, 3.0
 
 #### Vraagtekst
 
-Vraag 7 … / 2 punten
 Bij de vereffening van een bvba wordt een voorschot op het uiteindelijk te verdelen bedrag
-uitgekeerd. Welke van de onderstaande voorstellen geeft de juiste boekhoudkundige
-verwerking weer?
-A. Het voorschot wordt geboekt op het debet van rekening 100.
-B. Het voorschot wordt geboekt op het credit van rekening 19.
-C. Het voorschot wordt geboekt op het debet van rekening 416 Diverse vorderingen.
-D. Het voorschot wordt geboekt op het credit van rekening 101.
+uitgekeerd.
+
+**Welke van de onderstaande voorstellen geeft de juiste boekhoudkundige
+verwerking weer?**
+
+- **A.** Het voorschot wordt geboekt op het debet van rekening 100.
+- **B.** Het voorschot wordt geboekt op het credit van rekening 19.
+- **C.** Het voorschot wordt geboekt op het debet van rekening 416 Diverse vorderingen.
+- **D.** Het voorschot wordt geboekt op het credit van rekening 101.
+
 E. Het voorschot wordt geboekt op het debet van rekening 19.
 F. Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48.
 
@@ -2231,7 +2317,9 @@ _8 vragen — 8 met modelantwoord — 1 met gap-rapport._
 
 #### Vraagtekst
 
-B.1. Vraag: Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze? 3 PUNTEN
+Vraag:
+
+**Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze?**
 
 #### Modelantwoord
 
@@ -2288,7 +2376,7 @@ Vereenvoudigde boekhouding mag worden gevoerd door kleine ondernemingen onder Bo
 
 #### Vraagtekst
 
-B.2. Vraag: Wat wordt in het "centraal boek" geregistreerd en in welke frequentie? 2 PUNTEN
+Vraag: Wat wordt in het "centraal boek" geregistreerd en in welke frequentie?
 
 #### Modelantwoord
 
@@ -2338,7 +2426,9 @@ In het centraal boek worden de geconsolideerde totalen van alle hulpdagboeken (a
 
 #### Vraagtekst
 
-B.3. Vraag: Welke activa mogen geherwaardeerd worden en onder welke voorwaarden? 5 PUNTEN
+Vraag:
+
+**Welke activa mogen geherwaardeerd worden en onder welke voorwaarden?**
 
 #### Modelantwoord
 
@@ -2389,7 +2479,11 @@ Onder BE GAAP mogen materiële en financiële vaste activa worden geherwaardeerd
 
 #### Vraagtekst
 
-B.5. Vraag: Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.1 hierboven? 3 PUNTEN
+Vraag:
+
+**Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.**
+
+1 hierboven?
 
 #### Modelantwoord
 
@@ -2433,7 +2527,7 @@ _Ook geklassificeerd onder_: 1.4
 
 #### Vraagtekst
 
-B.2 De hierboven vermelde vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers, berekend in voltijdse equivalenten. Welk schema moet / mag de vennootschap A voor haar jaarrekening gebruiken? Welk schema moet / mag de vennootschap B voor haar jaarrekening gebruiken?
+De hierboven vermelde vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers, berekend in voltijdse equivalenten. Welk schema moet / mag de vennootschap A voor haar jaarrekening gebruiken? Welk schema moet / mag de vennootschap B voor haar jaarrekening gebruiken?
 
 #### Modelantwoord
 
@@ -2493,7 +2587,7 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-B.3 De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris opdracht. In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?
+De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris opdracht. In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?
 
 #### Modelantwoord
 
@@ -2513,7 +2607,7 @@ De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse
 
 #### Vraagtekst
 
-B.4 In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers. In de veronderstelling dat personeelsleden, tijdens de diensturen, seminaries hebben gevolgd buiten de onderneming, hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?
+In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers. In de veronderstelling dat personeelsleden, tijdens de diensturen, seminaries hebben gevolgd buiten de onderneming, hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?
 
 #### Modelantwoord
 
@@ -2533,7 +2627,6 @@ De totale kost van de bezoldiging voor de opleidingsuren moet worden
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.
 a) Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er
 werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het
@@ -2635,7 +2728,6 @@ _12 vragen — 12 met modelantwoord — 6 met gap-rapport._
 
 #### Vraagtekst
 
-Vraag 1 … / 4 punten
 De besloten vennootschap met beperkte aansprakelijkheid XYZ heeft de volgende balans- en
 resultatenrekening.
 
@@ -2660,11 +2752,15 @@ Resultaatverwerking Jaar 2012:
 Te bestemmen verlies van het boekjaar -5.000
 Overgedragen winst vorig boekjaar 10.000
 Over te dragen winst 5.000
-a) Dient deze vennootschap haar waarderingsregels te verantwoorden in haar
+
+- **a.** Dient deze vennootschap haar waarderingsregels te verantwoorden in haar
+
 jaarverslag, en indien zij geen jaarverslag dient op te stellen in haar jaarrekening in
 het jaar 2012?
 Antwoord
-b) Motiveer uw antwoord.
+
+- **b.** Motiveer uw antwoord.
+
 Antwoord
 
 #### Modelantwoord
@@ -2738,9 +2834,10 @@ _Ook geklassificeerd onder_: 1.9
 
 #### Vraagtekst
 
-Vraag 1 … / 9 punten
-In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt.
-Bereken de gevraagde ratio’s telkens voor het BOEKJAAR.
+_In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt._
+
+**Bereken de gevraagde ratio’s telkens voor het BOEKJAAR.**
+
 U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening
 als motivatie van uw antwoord.
 U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.
@@ -2751,11 +2848,17 @@ Uit de toelichting tot de jaarrekening blijkt o.a. dat :
 euro;
 3. Er geen andere exploitatiesubsidies werden ontvangen;
 4. De te bestemmen winst van het boekjaar integraal gereserveerd werd.
-a) Nettobedrijfskapitaal
+
+- **a.** Nettobedrijfskapitaal
+
 Antwoord
-b) Brutoverkoopmarge (in %)
+
+- **b.** Brutoverkoopmarge (in %)
+
 Antwoord
-c) Personeelskosten ten opzichte van de toegevoegde waarde (in %)
+
+- **c.** Personeelskosten ten opzichte van de toegevoegde waarde (in %)
+
 Antwoord
 
 #### Modelantwoord
@@ -2886,15 +2989,22 @@ _Ook geklassificeerd onder_: 1.9
 
 #### Vraagtekst
 
-Vraag 2 … / 10 punten
 Omschrijf de volgende begrippen :
-a) Intrinsieke waarde
+
+- **a.** Intrinsieke waarde
+
 Antwoord
-b) Fractiewaarde
+
+- **b.** Fractiewaarde
+
 Antwoord
-c) Netto rendabiliteit van de bedrijfsactiva
+
+- **c.** Netto rendabiliteit van de bedrijfsactiva
+
 Antwoord
-d) Algemene schuldgraad
+
+- **d.** Algemene schuldgraad
+
 Antwoord
 e) Operationele cash flow voor belastingen
 Antwoord
@@ -2992,9 +3102,10 @@ Operationele cash flow voor belastingen
 
 #### Vraagtekst
 
-Vraag 1 … / 6 punten
-In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt.
-Bereken de gevraagde ratio’s telkens voor het BOEKJAAR.
+_In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt._
+
+**Bereken de gevraagde ratio’s telkens voor het BOEKJAAR.**
+
 U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening
 als motivatie van uw antwoord.
 U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.
@@ -3008,12 +3119,17 @@ vorderingen geboekt;
 5) Er werden geen belastingen geboekt op het resultaat van vorige boekjaren;
 6) De te bestemmen winst van het boekjaar integraal gereserveerd werd.
 
-a) Brutoverkoopmarge (%)
+- **a.** Brutoverkoopmarge (%)
+
 Antwoord
 … / 2 punten
-b) Nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%)
+
+- **b.** Nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%)
+
 Antwoord … / 2 punten
-c) Liquiditeit in ruime zin
+
+- **c.** Liquiditeit in ruime zin
+
 Antwoord … / 2 punten
 
 #### Modelantwoord
@@ -3149,11 +3265,12 @@ _Ook geklassificeerd onder_: 1.9
 
 #### Vraagtekst
 
-Vraag 2 … / 3 punten
 Bij de bespreking van de jaarrekening deelt U aan uw cliënt mede dat het netto
 bedrijfskapitaal van zijn vennootschap zeer laag is. Hij vraagt U hoe hij het netto
 bedrijfskapitaal kan verhogen.
-Geef drie voorbeelden.
+
+**Geef drie voorbeelden.**
+
 Antwoord
 
 #### Modelantwoord
@@ -3204,13 +3321,17 @@ Antwoord
 
 #### Vraagtekst
 
-Vraag 3 … / 6 punten
-a) Wat komt een bedrijfsleider te weten door de liquiditeitsratio’s te berekenen ?
+- **a.** Wat komt een bedrijfsleider te weten door de liquiditeitsratio’s te berekenen ?
+
 Antwoord … / 2 punten
-b) Met welke elementen houdt men geen rekening bij de berekening van de liquiditeit in
+
+- **b.** Met welke elementen houdt men geen rekening bij de berekening van de liquiditeit in
+
 enge zin en wel bij de berekening van de liquiditeit in ruime zin?
 Antwoord … / 2 punten
-c) Verklaar uw antwoord aangaande punt b.
+
+- **c.** Verklaar uw antwoord aangaande punt b.
+
 Antwoord … / 2 punten
 
 #### Modelantwoord
@@ -3288,8 +3409,9 @@ _Ook geklassificeerd onder_: 1.9
 
 #### Vraagtekst
 
-Vraag 1 … / 8 punten
-In bijlage vindt U de balans na winstverdeling en de resultatenrekening van een cliënt. Kruis
+_In bijlage vindt U de balans na winstverdeling en de resultatenrekening van een cliënt._
+
+Kruis
 het juiste antwoord aan voor de ratio’s van het BOEKJAAR.
 Uit de toelichting tot de jaarrekening blijkt o.a. dat :
 1. Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor
@@ -3303,7 +3425,9 @@ van 6 000,00 EUR;
 geboekt werd;
 5. Er gemiddeld 38,20 werknemers (voltijds equivalent) tewerkgesteld waren;
 6. De te bestemmen winst van het boekjaar integraal gereserveerd werd.
-a) Bruto toegevoegde waarde per werknemer
+
+- **a.** Bruto toegevoegde waarde per werknemer
+
 Antwoord
 
 (7 441 663 – 3 185 295 – 1 192 317) : 38,20 = 80 210,76
@@ -3313,7 +3437,9 @@ Antwoord
 (7 441 663 – 3 185 295 – 1 192 317 – 1 548 647) : 38,20 = 39 670,26
 
 (7 441 663 – 3 185 295 – 1 192 317 – 436 469 – 879) : 38,20 = 68 761,86
-b) Nettobedrijfskapitaal
+
+- **b.** Nettobedrijfskapitaal
+
 Antwoord
 
 1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 – 1 210 536 = 6 648 695
@@ -3324,7 +3450,9 @@ Antwoord
 
 120 000 + 1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 + 2 704 – 1 210 536 – 39 932
 = 6 731 467
-c) Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten
+
+- **c.** Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten
+
 Antwoord
 
 ((877 279 + 46 934 + 211 950 – 6 000) : 9 081 054) % = 12,45
@@ -3334,7 +3462,9 @@ Antwoord
 ((877 279 + 46 934 + 211 950) : 9 081 054) % = 12,51
 
 ((577 279 + 109 642 + 211 950 – 6 000) : 9 081 054) % = 9,83
-d) Liquiditeit in enge zin
+
+- **d.** Liquiditeit in enge zin
+
 Antwoord
 
 (1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 + 2 704) : (1 210 536 + 39 932) = 6,29
@@ -3479,10 +3609,11 @@ _Ook geklassificeerd onder_: 1.9
 
 #### Vraagtekst
 
-Vraag 2 … / 5 punten
-a) Omschrijf het begrip “nettothesaurie”.
-Antwoord
-b) Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan ?
+- **a.** Omschrijf het begrip “nettothesaurie”.
+
+**Antwoord
+b) Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan ?**
+
 Antwoord
 
 #### Modelantwoord
@@ -3559,8 +3690,9 @@ Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit da
 
 #### Vraagtekst
 
-Vraag 1 … / 8 punten
-In bijlage vindt U de balans na winstverdeling en de resultatenrekening van een cliënt. Kruis
+_In bijlage vindt U de balans na winstverdeling en de resultatenrekening van een cliënt._
+
+Kruis
 het juiste antwoord aan voor de ratio’s van het BOEKJAAR.
 Uit de toelichting tot de jaarrekening blijkt o.a. dat :
 1. Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor
@@ -3582,28 +3714,29 @@ Plaats de letter van het juiste antwoord in onderstaande rooster.
 | Antwoord |   |   |   |   |
 | Punten | 2 | 2 | 2 | 2 |
 
-a) Brutoverkoopmarge
-A. (1 479 283 + 425 554 + 804) x 100 / (8 034 747 + 344 153) = 22,74
-B. (1 417 747 + 425 554 + 804) x 100 / (8 365 788 - 1 600 244) = 27,26
-C. (1 479 283 + 425 554 + 804 – 1 665) x 100 / (8 034 747 + 344 153 – 1 288) = 22,73
-D. (968 829 + 425 554 + 804 – 1 665) x 100 / (8 365 788 – 1 288) = 16,66
-b) Personeelskosten ten opzichte van toegevoegde waarde
-A. (1 600 244 – 1 665) X 100 / (8 365 788 - 1 288 – 3 457 309 – 1 398 278) = 45,56
-B. 1 600 244 x 100 / (8 365 788 – 3 457 309 – 1 398 278) = 45,59
-C. 1 600 244 x 100 / 1 479 283 = 108,18
-D. (1 600 244 – 1 665) x 100 / (8 034 747 – 13 112 - 3 457 309 – 1 398 278 – 1 288) =
+- **a.** Brutoverkoopmarge
+- **A.** (1 479 283 + 425 554 + 804) x 100 / (8 034 747 + 344 153) = 22,74
+- **B.** (1 417 747 + 425 554 + 804) x 100 / (8 365 788 - 1 600 244) = 27,26
+- **C.** (1 479 283 + 425 554 + 804 – 1 665) x 100 / (8 034 747 + 344 153 – 1 288) = 22,73
+- **D.** (968 829 + 425 554 + 804 – 1 665) x 100 / (8 365 788 – 1 288) = 16,66
+- **b.** Personeelskosten ten opzichte van toegevoegde waarde
+- **A.** (1 600 244 – 1 665) X 100 / (8 365 788 - 1 288 – 3 457 309 – 1 398 278) = 45,56
+- **B.** 1 600 244 x 100 / (8 365 788 – 3 457 309 – 1 398 278) = 45,59
+- **C.** 1 600 244 x 100 / 1 479 283 = 108,18
+- **D.** (1 600 244 – 1 665) x 100 / (8 034 747 – 13 112 - 3 457 309 – 1 398 278 – 1 288) =
+
 50,51
 
-c) Nettorentabiliteit van het eigen vermogen na belastingen
-A. 968 829 x 100 / 10 274 463 = 9,43
-B. 968 829 x 100 / 8 177 941 = 11,85
-C. 1 417 747 x 100 / 10 274 463 = 13,80
-D. 1 479 283 x 100 / 8 177 941 = 18,09
-d) Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen
-A. 3 444 161 / 530 373 = 6,49
-B. 3 457 309 / 530 373 = 6,52
-C. 3 457 309 / 1 344 750 = 2,57
-D. 3 444 161 / 1 344 750 = 2,56
+- **c.** Nettorentabiliteit van het eigen vermogen na belastingen
+- **A.** 968 829 x 100 / 10 274 463 = 9,43
+- **B.** 968 829 x 100 / 8 177 941 = 11,85
+- **C.** 1 417 747 x 100 / 10 274 463 = 13,80
+- **D.** 1 479 283 x 100 / 8 177 941 = 18,09
+- **d.** Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen
+- **A.** 3 444 161 / 530 373 = 6,49
+- **B.** 3 457 309 / 530 373 = 6,52
+- **C.** 3 457 309 / 1 344 750 = 2,57
+- **D.** 3 444 161 / 1 344 750 = 2,56
 
 #### Modelantwoord
 
@@ -3729,15 +3862,22 @@ _Ook geklassificeerd onder_: 1.9
 
 #### Vraagtekst
 
-Vraag 2 … / 5 punten
 Omschrijf de volgende begrippen :
-a) Intrinsieke waarde
+
+- **a.** Intrinsieke waarde
+
 Antwoord … / 1 punt
-b) Fractiewaarde
+
+- **b.** Fractiewaarde
+
 Antwoord … / 1 punt
-c) Netto rendabiliteit van de bedrijfsactiva
+
+- **c.** Netto rendabiliteit van de bedrijfsactiva
+
 Antwoord … / 1 punt
-d) Algemene schuldgraad
+
+- **d.** Algemene schuldgraad
+
 Antwoord … / 1 punt
 e) Operationele cash flow voor belastingen
 Antwoord … / 1 punt
@@ -3837,9 +3977,9 @@ _Ook geklassificeerd onder_: 1.9
 
 #### Vraagtekst
 
-Vraag 3 … / 6 punten
-Welke van de onderstaande elementen neemt U op in de berekening “behoefte aan
-werkkapitaal (of bedrijfskapitaal)”?
+**Welke van de onderstaande elementen neemt U op in de berekening “behoefte aan
+werkkapitaal (of bedrijfskapitaal)”?**
+
 Duid bij elke code “ja of nee” aan. Bij elk foutief antwoord of ontbrekend antwoord, wordt er
 één punt afgetrokken.
 
@@ -3935,23 +4075,17 @@ Componenten van werkkapitaalbehoefte = posten van de operationele cyclus. JA: vo
 
 10 Analyse en kritische beoordeling van de jaarrekening
 
-A. Stellingen ivm financiële onafhankelijkheid
-
-B. Welke ratio kan je niet berekenen op basis van een verkort schema n- dagen klanten krediet
-
-C. In welke volgorde zijn rubrieken op Passief van de Balans gerangschikt? Toenemende eisbaarheid
-
-D. JR kort model NBB voor kapitaal vennootschap wordt EV als volgt berekend:
+- **A.** Stellingen ivm financiële onafhankelijkheid
+- **B.** Welke ratio kan je niet berekenen op basis van een verkort schema n- dagen klanten krediet
+- **C.** In welke volgorde zijn rubrieken op Passief van de Balans gerangschikt? Toenemende eisbaarheid
+- **D.** JR kort model NBB voor kapitaal vennootschap wordt EV als volgt berekend:
 
 E. Alfa is verlieslatend. Verhoging van de afschrijving op gebouwen door verkorting van de verwachte levensduur heeft het volgende effect op de bruto verkoopmarge:
 
-a. Stijging
-
-b. Daling
-
-c. Geen
-
-d. Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt
+- **a.** Stijging
+- **b.** Daling
+- **c.** Geen
+- **d.** Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt
 
 > [!note]- Geherinterpreteerde vraagtekst (ADR-022)
 > Casus financiële analyse en kritische beoordeling van de jaarrekening, 5 deelvragen:
@@ -4065,7 +4199,6 @@ _6 vragen — 6 met modelantwoord — 1 met gap-rapport._
 
 #### Vraagtekst
 
-Vraag 3 … / 3 punten
 Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder
 welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de
 volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen
@@ -4109,12 +4242,12 @@ De post "Aandeel van derden in het resultaat" — afzonderlijk vermeld in de gec
 
 #### Vraagtekst
 
-Vraag 4 … / 3 punten
+/ 3 punten
 De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
 jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
 afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
 Antwoord
-INTERNE CONTROLE EN ACCOUNTANTSONDERZOEK 50 PUNTEN
+INTERNE CONTROLE EN ACCOUNTANTSONDERZOEK
 
 #### Modelantwoord
 
@@ -4150,10 +4283,12 @@ Maximaal 3 maanden (vóór of na de afsluitingsdatum van de geconsolideerde jaar
 
 #### Vraagtekst
 
-Vraag 4 … / 10 punten
-a) Wat is een positief consolidatieverschil ?
+- **a.** Wat is een positief consolidatieverschil ?
+
 Antwoord … / 2 punten
-b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
+
+- **b.** Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
+
 Antwoord … / 8 punten
 
 INTERNE CONTROLE EN ACCOUNTANTSONDERZOEK 50 PUNTEN
@@ -4253,7 +4388,6 @@ Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
 
 #### Vraagtekst
 
-Vraag 3 … / 3 punten
 De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
 jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
 afwijken.
@@ -4294,7 +4428,6 @@ Maximaal 3 maanden (vóór of na de afsluitingsdatum van de geconsolideerde jaar
 
 #### Vraagtekst
 
-Vraag 4 … / 9 punten
 Vul onderstaande tabel aan op basis van volgende gegevens.
 M
 70 % 30 %
@@ -4384,10 +4517,12 @@ M in A: 70 % controle, 70 % belang, integrale consolidatie. M in B: 30 % control
 
 #### Vraagtekst
 
-Vraag 4 … / 6 punten
-a) Wat is een positief consolidatieverschil ?
+- **a.** Wat is een positief consolidatieverschil ?
+
 Antwoord … / 2 punten
-b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
+
+- **b.** Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
+
 Antwoord … / 4 punten
 
 INTERNE CONTROLE 25 PUNTEN
@@ -4494,37 +4629,22 @@ _1 vragen — 1 met modelantwoord — 1 met gap-rapport._
 
 7 IFRS
 
-A. Onder IAS/ IFRS zijn volgende methoden mogelijk: ( Juist/ fout)
-
-A. Fifo, Lifo, gewogen gemiddelde, individueel.
-
-B. Fifi, gewogen gemiddelde, individueel
-
-C. Lifo, gewogen gemiddelde individueel
-
-D. Fifo en gewogen gemiddelde
-
-B. Richtlijn 2013/34/EU 26/06/2013, opname waardering volgens voorzichtigheidsprincipe. Welke stellingen juist/ fout
-
-A. Winsten mogen slechts opgenomen worden voor zover zij op balansdatum gerealiseerd zijn
-
-B. Verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar worden opgenomen, ook als die verplichting pas worden tussen balansdatum en de datum waarop de balans wordt opgesteld
-
-C. Alle negatieve waarde correcties worden opgenomen ongeacht of het boekjaar met winst of verlies wordt afgesloten.
-
-D. Voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde VA aan geherwaardeerde waarde op te nemen.
-
-C. Stellingen mbt IAS / IFRS Juist/ fout
-
-a. Degressieve afschrijvingen zijn toegestaan
-
-b. Kosten voor voorbereiding van een terrein……?
-
-c. Uitzonderlijke opbrengsten boeken is toegestaan
-
-d. Afschr. MVA mag stopgezet worden wanneer reële waarde van het actief groter is dan boekwaarde
-
-D. Operationele / financiële laesing, hoe behandelen?
+- **A.** Onder IAS/ IFRS zijn volgende methoden mogelijk: ( Juist/ fout)
+- **A.** Fifo, Lifo, gewogen gemiddelde, individueel.
+- **B.** Fifi, gewogen gemiddelde, individueel
+- **C.** Lifo, gewogen gemiddelde individueel
+- **D.** Fifo en gewogen gemiddelde
+- **B.** Richtlijn 2013/34/EU 26/06/2013, opname waardering volgens voorzichtigheidsprincipe. Welke stellingen juist/ fout
+- **A.** Winsten mogen slechts opgenomen worden voor zover zij op balansdatum gerealiseerd zijn
+- **B.** Verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar worden opgenomen, ook als die verplichting pas worden tussen balansdatum en de datum waarop de balans wordt opgesteld
+- **C.** Alle negatieve waarde correcties worden opgenomen ongeacht of het boekjaar met winst of verlies wordt afgesloten.
+- **D.** Voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde VA aan geherwaardeerde waarde op te nemen.
+- **C.** Stellingen mbt IAS / IFRS Juist/ fout
+- **a.** Degressieve afschrijvingen zijn toegestaan
+- **b.** Kosten voor voorbereiding van een terrein……?
+- **c.** Uitzonderlijke opbrengsten boeken is toegestaan
+- **d.** Afschr. MVA mag stopgezet worden wanneer reële waarde van het actief groter is dan boekwaarde
+- **D.** Operationele / financiële laesing, hoe behandelen?
 
 > [!note]- Geherinterpreteerde vraagtekst (ADR-022)
 > Casus IFRS, 4 deelvragen:
@@ -4612,10 +4732,11 @@ _12 vragen — 9 met modelantwoord — 3 met gap-rapport._
 
 #### Vraagtekst
 
-Vraag 1 … / 8 punten
 Een auditprocedure is een gedetailleerde instructie voor het verzamelen van een bepaald
 auditbewijsmiddel.
-Geef 4 soorten auditmethodes.
+
+**Geef 4 soorten auditmethodes.**
+
 Antwoord
 
 #### Modelantwoord
@@ -4657,7 +4778,6 @@ De vier voornaamste auditmethodes per ISA 500: (1) inspectie van vastleggingen/d
 
 #### Vraagtekst
 
-Vraag 3 … / 8 punten
 Wanneer dient een accountant een onthoudende verklaring af te geven?
 Antwoord
 
@@ -4704,7 +4824,6 @@ Een onthoudende verklaring (onthouding van oordeel / disclaimer of opinion) geef
 
 #### Vraagtekst
 
-Vraag 5 … / 8 punten
 Je wordt gevraagd om als extern accountant een controleopdracht uit te voeren bij de NV
 Fortunato. De interne boekhouder van de onderneming bezorgt de cijfers per 30 november
 2013 ( = de afsluitdatum conform de statuten).
@@ -4713,10 +4832,14 @@ hoeveelheden akkoord verklaard.
 Het bedrijf is gespecialiseerd in de aan- en verkoop van landbouwmachines.
 Het risicoprofiel is laag gezien er volgens onze testen een goede interne controle is voor wat
 aankopen, financieel en verkopen betreft.
-a) Kunnen we ons baseren op de cijfers ontvangen van de interne boekhouder?
+
+- **a.** Kunnen we ons baseren op de cijfers ontvangen van de interne boekhouder?
+
 Leg uit.
-Antwoord … / 4 punten
-b) De telling van de voorraad (30/11/2013) hebben we fysiek kunnen meemaken.
+
+**Antwoord … / 4 punten
+b) De telling van de voorraad (30/11/2013) hebben we fysiek kunnen meemaken.**
+
 Welke controle doen we nu tijdens de controlewerkzaamheden op de voorraad
 landbouwmachines? Geef één controledoelstelling en één voorbeeld van de
 techniek die je daarvoor gaat toepassen.
@@ -4793,14 +4916,14 @@ techniek die je daarvoor gaat toepassen.
 
 #### Vraagtekst
 
-Vraag 1 … / 8 punten
 Er worden onvoldoende antwoorden ontvangen op de confirmatie- of bevestigingsbrieven
 welke verzonden werden aan de klanten.
 a) Moeten we daarvoor een voorbehoud in ons verslag maken ?
 
-Antwoord
+**Antwoord
 b) Welke acties kan men ondernemen om aan dit onvoldoende aantal antwoorden te
-remediëren (geef twee voorbeelden)?
+remediëren (geef twee voorbeelden)?**
+
 Antwoord
 c) Welke is de werkwijze nadat we onze selectie hebben gemaakt van de klanten aan
 dewelke de confirmatiebrieven worden verzonden : door wie zijn de
@@ -4880,7 +5003,6 @@ opgestuurd worden, wie verzendt de confirmatiebrieven?
 
 #### Vraagtekst
 
-Vraag 2 … / 3 punten
 Bij nazicht van de resultatenrekening komen we op de kostenrekening “erelonen advocaat”
 ten belope van 12.000,00 EUR.
 Waarom is dit van belang voor het controleverslag?
@@ -4941,26 +5063,38 @@ Erelonen advocaat van 12.000 EUR in de resultatenrekening wijzen op één of mee
 
 #### Vraagtekst
 
-Vraag 3 … / 14 punten
 In het kader van een controleopdracht waarvoor een volkomen controle vereist is ontvangen
 we tijdens onze audit ter plaatse op 20/02/2014 van de interne boekhouder de
 boekhoudkundige staat per 31/12/2013. Zoals je weet moeten er voor we op de cijfers
 “afstormen” een aantal voorbereidende werken en checks verricht worden.
 Alvorens over te gaan tot cijfercontroles hebben we de materialiteitsgrens berekend op
 50.000 EUR.
-a) Kunnen we onze controleopdracht op deze cijfers afhandelen en ons besluit
+
+- **a.** Kunnen we onze controleopdracht op deze cijfers afhandelen en ons besluit
+
 ondertekenen? Motiveer uw antwoord.
-Antwoord
+
+**Antwoord
 b) Wat is het belang, in het kader van deze opdracht, zoals hierboven beschreven,
-van het vastleggen van de materialiteitsgrens?
+van het vastleggen van de materialiteitsgrens?**
+
 Antwoord
-c) De vennootschap voor dewelke wij deze controleopdracht verrichten, heeft een
-dochterbedrijf via aandelen aangekocht voor 300.000 EUR (code 28). Hoe pak je
-deze post aan ? Geef 2 controledoelstellingen en 2 controletechnieken die hier
+
+- **c.** De vennootschap voor dewelke wij deze controleopdracht verrichten, heeft een
+
+dochterbedrijf via aandelen aangekocht voor 300.000 EUR (code 28).
+
+**Hoe pak je
+deze post aan ?**
+
+Geef 2 controledoelstellingen en 2 controletechnieken die hier
 kunnen toegepast worden.
-Antwoord
+
+**Antwoord
 d) Gedurende deze controleopdracht, ga je een afloopcontrole uitvoeren op de post
-“bezoldigingen en sociale lasten” (passief codes 454/9) . Hoe voer je zo een
+“bezoldigingen en sociale lasten” (passief codes 454/9) .**
+
+Hoe voer je zo een
 controle uit, leg uit of werk een voorbeeld uit?
 Antwoord
 
@@ -5006,7 +5140,6 @@ _Ook geklassificeerd onder_: 4.0
 
 #### Vraagtekst
 
-Vraag 1 … / 2 punten
 Tijdens een controleopdracht bij een middelgrote onderneming, zonder commissaris en in
 het kader van een contractueel beperkt nazicht stelt de externe accountant een aantal
 verbeteringen (adjustments) voor.
@@ -5076,10 +5209,11 @@ Verklaar bondig.
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 Een eerste stap bij het auditwerk is de aanvaardingsprocedure van de opdracht.
-Geef twee voorbeelden van situaties bij deze procedure, waarbij we het dossier mogelijks
-niet kunnen aanvaarden.
+
+**Geef twee voorbeelden van situaties bij deze procedure, waarbij we het dossier mogelijks
+niet kunnen aanvaarden.**
+
 Antwoord
 
 #### Modelantwoord
@@ -5138,12 +5272,13 @@ _Ook geklassificeerd onder_: 3.0, 1.2
 
 #### Vraagtekst
 
-Vraag 3 … / 6 punten
 Tijdens de werkzaamheden aan een controleverslag ivm een omzetting stelt de aangestelde
 accountant vast dat op het actief een debet lopende rekening op naam van de overleden
 vader van de zaakvoerders-aandeelhouders voorkomt.
-a) Geef twee (2) controledoelstellingen die op dergelijk actief worden toegepast?
-b) Geef kort weer voor elk van deze twee (2) controledoelstellingen welke techniek of
+
+- **a.** Geef twee (2) controledoelstellingen die op dergelijk actief worden toegepast?
+- **b.** Geef kort weer voor elk van deze twee (2) controledoelstellingen welke techniek of
+
 methodiek je toepast?
 Vul uw antwoorden in op volgend schema.
 Antwoord
@@ -5178,7 +5313,6 @@ Vul uw antwoorden in op volgend schema.
 
 #### Vraagtekst
 
-Vraag 4 … / 8 punten
 Het is 23 januari 2015 en de onderneming heeft haar boekhouding afgesloten op
 30 september 2014 conform haar statuten. Op 1 oktober 2014 heeft u als controlerende
 accountant de voorraadtelling gevolgd en u ermee akkoord verklaard. Het betreft hier een
@@ -5188,12 +5322,16 @@ resultatenrekening en 70.000 EUR op de balansposten.
 Het risicoprofiel is laag gezien er een goede interne controle is voor wat de aankopen,
 financiële verrichtingen en verkopen betreft.
 a) De telling van de voorraad (30/09/2014) hebben we fysiek kunnen meemaken en deze
-hoeveelheidstelling was in orde. Welke controle gaan we nu (23/01/2015) nog doen op
-de voorraad ?
+hoeveelheidstelling was in orde.
+
+**Welke controle gaan we nu (23/01/2015) nog doen op
+de voorraad ?**
+
 Geef twee controledoelstellingen met telkens een voorbeeld van de techniek die je
 gaat toepassen.
-Antwoord … / 6 punten
-Vul uw antwoorden in op volgend schema.
+
+**Antwoord … / 6 punten
+Vul uw antwoorden in op volgend schema.**
 
 | Controledoelstelling | Techniek |
 | --- | --- |
@@ -5288,16 +5426,23 @@ Welke actie onderneem je als controlerende acc
 
 #### Vraagtekst
 
-Vraag 5 … / 5 punten
-Geef de werkwijze tijdens een externe controle om tot de confirmatie van een representatief
-aantal leverancierssaldi te komen.
-a) Wat is representatief?
+**Geef de werkwijze tijdens een externe controle om tot de confirmatie van een representatief
+aantal leverancierssaldi te komen.**
+
+- **a.** Wat is representatief?
+
 Antwoord … / 1 punt
-b) Hoe doe je de steekproef?
+
+- **b.** Hoe doe je de steekproef?
+
 Antwoord … / 1 punt
-c) Hoe gebeurt de verzending van de confirmatiebrieven?
+
+- **c.** Hoe gebeurt de verzending van de confirmatiebrieven?
+
 Antwoord … / 1 punt
-d) Wie ontvangt de antwoorden?
+
+- **d.** Wie ontvangt de antwoorden?
+
 Antwoord … / 1 punt
 e) Wat bij niet ontvangst van antwoorden?
 Antwoord … / 1 punt
@@ -5505,23 +5650,17 @@ Bij niet-ontvangst: alternatieve werkzaamheden uitvoeren. Voor leveranciersaldi 
 
 2 Externe controle
 
-A. Stellingen juist of fout ivm onafhankelijkheid bij controle opdracht
-
-B. Na acceptatie van de opdracht -> voldoende kennis verwerven, op welke wijze?
-
-C. Volkomen controle volgens revisienormen
-
-D. 4 algemene stellingen juist of fout
+- **A.** Stellingen juist of fout ivm onafhankelijkheid bij controle opdracht
+- **B.** Na acceptatie van de opdracht -> voldoende kennis verwerven, op welke wijze?
+- **C.** Volkomen controle volgens revisienormen
+- **D.** 4 algemene stellingen juist of fout
 
 E. Bij een accountantsonderzoek wordt de materialiteitsdrempel:
 
-A. a. Vastgesteld bij KB
-
-B. b. Door aandeelhouders van de vennootschap vastgesteld
-
-C. c. Bepaald op basis van omzet van de 2 laatste jaren
-
-D. d. Bepaald naargelang inherente risico’s + interne controle van de cliënt
+- **A.** a. Vastgesteld bij KB
+- **B.** b. Door aandeelhouders van de vennootschap vastgesteld
+- **C.** c. Bepaald op basis van omzet van de 2 laatste jaren
+- **D.** d. Bepaald naargelang inherente risico’s + interne controle van de cliënt
 
 > [!note]- Geherinterpreteerde vraagtekst (ADR-022)
 > Casus externe controle / accountantsonderzoek, 5 deelvragen:
@@ -5561,7 +5700,6 @@ _15 vragen — 13 met modelantwoord — 3 met gap-rapport._
 
 #### Vraagtekst
 
-Vraag 1 … / 4 punten
 De interne controle wordt gedefinieerd als:
 "Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te
 hebben over…”
@@ -5616,11 +5754,12 @@ Antwoord
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 Het secretariaat van de zaakvoerder van een familiale BVBA betaalt kleine kosten gemaakt
 door het personeel terug via een kas.
-Stel een procedure op waarbij minimaal twee controletechnische
-functiescheidingen in voorkomen.
+
+**Stel een procedure op waarbij minimaal twee controletechnische
+functiescheidingen in voorkomen.**
+
 Antwoord
 
 #### Modelantwoord
@@ -5676,7 +5815,6 @@ Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet d
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
 Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de
 interne controleafdeling (het bedrijf koopt/verkoopt werfkranen) kan uitgevoerd worden
 Antwoord
@@ -5746,8 +5884,8 @@ Voorbeeld analytische test op tussentijdse resultaten voor een werfkranen-bedrij
 
 #### Vraagtekst
 
-Vraag 4 … / 4 punten
-Wat is het belang van een budget voor de interne controleafdeling?
+**Wat is het belang van een budget voor de interne controleafdeling?**
+
 Antwoord
 
 > [!warning] Gap niveau **c** — type **concept_ontbreekt**
@@ -5765,7 +5903,6 @@ Antwoord
 
 #### Vraagtekst
 
-Vraag 5 … / 4 punten
 Waarom zal de interne controleafdeling zich niet alleen steunen op de boekhouding maar
 ook periodiek schriftelijk confirmatie vragen bij leveranciers?
 Antwoord
@@ -5812,9 +5949,10 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-Vraag 6 … / 30 punten
 Opgave :
-NV SLA-BAK is een kleine onderneming met goede resultaten.
+
+> NV SLA-BAK is een kleine onderneming met goede resultaten.
+
 De boekhouder valt vrij plots ziek en hij zal gedurende langere tijd afwezig zijn.
 De bedrijfsleider wil tussentijdse cijfers en vraagt aan een extern accountant om een
 tussentijdse staat van activa en passiva op te stellen.
@@ -5866,7 +6004,6 @@ VENNOOTSCHAPSRECHT 20 PUNTEN
 
 #### Vraagtekst
 
-Vraag 2 … / 12 punten
 In het kader van scheiding van functies kunnen er 4 soorten taken worden onderkend :
 Autorisatie (1), bewaren van activa (2), registratie en rapportering (3) en controle procedures
 (4)
@@ -5927,7 +6064,6 @@ Duid in onderstaande tabel aan welke soort taak bedoeld is.
 
 #### Vraagtekst
 
-Vraag 4 … / 14 punten
 De interne controle heeft een preventief, repressief en corrigerend karakter.
 Kruis aan of deze voorbeelden een preventieve, repressieve of corrigerende maatregel zijn.
 
@@ -5983,7 +6119,6 @@ Functiescheiding: P. Periodieke inventarisaties: R. Tussentijdse confirmaties: R
 
 #### Vraagtekst
 
-Vraag 1 … / 10 punten
 Duid met een kruis aan of de volgende omschrijvingen juist of fout zijn in het kader van de
 algemene interne controle doelstellingen met betrekking tot de boekhoudkundige registratie.
 Antwoord
@@ -6033,7 +6168,6 @@ Antwoord
 
 #### Vraagtekst
 
-Vraag 2 … / 9 punten
 De verkoopafdeling maakt de nieuwe klantenfiches aan in het computersysteem op het
 moment dat de verkoper een door een nieuwe klant getekende bestelbon binnenbrengt.
 Detecteer drie risico's.
@@ -6085,13 +6219,15 @@ Antwoord
 
 #### Vraagtekst
 
-Vraag 3 … / 6 punten
+/ 6 punten
 De secretaresse van de zaakvoerder betaalt kleine kosten gemaakt door het personeel terug
 via een kas.
-Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen in
-voorkomen.
+
+**Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen in
+voorkomen.**
+
 Antwoord
-ACCOUNTANTSONDERZOEK 25 PUNTEN
+ACCOUNTANTSONDERZOEK
 
 #### Modelantwoord
 
@@ -6147,12 +6283,15 @@ Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet d
 
 #### Vraagtekst
 
-Vraag 1 … / 12 punten
 De controleactiviteiten kunnen op verschillende wijzen worden ingedeeld.
-Verklaar de volgende begrippen en geef van iedere controleactiviteit een voorbeeld.
-a) Accountingcontrole en administratieve contrôle.
-Antwoord … / 6 punten
-b) Preventieve en repressieve controle.
+
+**Verklaar de volgende begrippen en geef van iedere controleactiviteit een voorbeeld.**
+
+- **a.** Accountingcontrole en administratieve contrôle.
+
+**Antwoord … / 6 punten
+b) Preventieve en repressieve controle.**
+
 Antwoord … / 6 punten
 
 #### Modelantwoord
@@ -6222,12 +6361,13 @@ Preventieve en repressieve controle.
 
 #### Vraagtekst
 
-Vraag 2 … / 8 punten
 De verantwoordelijke van de interne audit zal een aantal controletechnieken aanwenden om
 voldoende bewijsmateriaal te verzamelen over de toepassing en effectiviteit van de interne
 controle maatregelen.
-Geef vier controletechnieken die door de interne controleur kunnen toegepast worden op de
-goederen in het magazijn.
+
+**Geef vier controletechnieken die door de interne controleur kunnen toegepast worden op de
+goederen in het magazijn.**
+
 Antwoord
 
 #### Modelantwoord
@@ -6271,7 +6411,6 @@ Vier controletechnieken voor de interne controleur: (1) inspectie van documenten
 
 #### Vraagtekst
 
-Vraag 3 … / 5 punten
 In onderstaand schema worden een aantal doelstellingen weergegeven die bij de
 operationele audit van de verkoopcyclus van belang zijn.
 Duid bij elke doelstelling aan of het gaat om een financieel, en/of operationeel en/of
@@ -6331,13 +6470,10 @@ ACCOUNTANTSONDERZOEK 25 PUNTEN
 
 3 Interne controle
 
-A. Wat zijn goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus
-
-B. Wat is de hoofddoelstelling van de invoering van een interne controle in een KMO
-
-C. Over welke soort risico gaat het? ( COSO model) ● Strategisch ● Informatie ● Operationeel ● Financieel
-
-D. Verkoopcyclus: Doelstelling ● Financieel ● Operationeel ● Conformiteit
+- **A.** Wat zijn goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus
+- **B.** Wat is de hoofddoelstelling van de invoering van een interne controle in een KMO
+- **C.** Over welke soort risico gaat het? ( COSO model) ● Strategisch ● Informatie ● Operationeel ● Financieel
+- **D.** Verkoopcyclus: Doelstelling ● Financieel ● Operationeel ● Conformiteit
 
 > [!note]- Geherinterpreteerde vraagtekst (ADR-022)
 > Casus interne controle in een KMO-verkoopcyclus, 4 deelvragen:
@@ -6452,15 +6588,17 @@ _Ook geklassificeerd onder_: 1.3
 
 #### Vraagtekst
 
-C.1. Op de balans staan volgende bedragen: … 4 PUNTEN ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag: Bereken uit deze cijfers
+Op de balans staan volgende bedragen: …  ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag:
 
-a. het netto bedrijfskapitaal
+**Bereken uit deze cijfers
 
-b. de ruime liquiditeitsratio (current ratio)
+a.**
 
-c. de beperkte liquiditeitsratio (acid test)
+het netto bedrijfskapitaal
 
-d. de solvabiliteitsratio.
+- **b.** de ruime liquiditeitsratio (current ratio)
+- **c.** de beperkte liquiditeitsratio (acid test)
+- **d.** de solvabiliteitsratio.
 
 #### Modelantwoord
 
@@ -6546,7 +6684,18 @@ _Ook geklassificeerd onder_: 1.3
 
 #### Vraagtekst
 
-C.2. Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT - winst van het boekjaar 2.750,00 - afschrijvingen 12.100,00 - toevoegingen aan voorzieningen 6.300,00 - bestedingen van voorzieningen 1.650,00 - toevoegingen aan waardeverminderingen 780,00 Vraag: Bereken de operationele cash-flow.
+Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT
+
+**Inventaris**
+- winst van het boekjaar: 2.750,00 EUR
+- afschrijvingen: 12.100,00 EUR
+- toevoegingen aan voorzieningen: 6.300,00 EUR
+- bestedingen van voorzieningen: 1.650,00 EUR
+- toevoegingen aan waardeverminderingen: 780,00 EUR
+
+Vraag:
+
+**Bereken de operationele cash-flow.**
 
 #### Modelantwoord
 
@@ -6596,7 +6745,7 @@ Operationele cashflow = 2.750 + 12.100 + 6.300 − 1.650 + 780 = **€ 20.280**.
 
 #### Vraagtekst
 
-C.1 Wat verstaat men met “behoefte aan bedrijfskapitaal”? Hoe wordt het berekend? Van uit het oogpunt financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?
+Wat verstaat men met “behoefte aan bedrijfskapitaal”? Hoe wordt het berekend? Van uit het oogpunt financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?
 
 #### Modelantwoord
 
@@ -6616,7 +6765,9 @@ De behoefte aan bedrijfskapitaal is het netto verschil tussen de
 
 #### Vraagtekst
 
-C.2 Een vennootschap heeft jaarlijks ongeveer 30.000,00 EUR cashflow. Ze betaalt jaarlijks 12.000,00 EUR kapitaalaflossingen op bestaande leningen. Voor een nieuwe investering van 100.000,00 EUR, wenst ze van de bank een investeringskrediet te bekomen om het volledig bedrag van de aankoop te financieren. De rentevoet bedraagt 5 % per jaar. Ze wenst de nieuwe lening in 5 jaarlijkse gelijke schijven af te lossen. Wat is uw mening?
+Een vennootschap heeft jaarlijks ongeveer 30.000,00 EUR cashflow. Ze betaalt jaarlijks 12.000,00 EUR kapitaalaflossingen op bestaande leningen. Voor een nieuwe investering van 100.000,00 EUR, wenst ze van de bank een investeringskrediet te bekomen om het volledig bedrag van de aankoop te financieren. De rentevoet bedraagt 5 % per jaar. Ze wenst de nieuwe lening in 5 jaarlijkse gelijke schijven af te lossen.
+
+**Wat is uw mening?**
 
 #### Modelantwoord
 
@@ -6640,7 +6791,11 @@ _25 vragen — 4 met modelantwoord — 0 met gap-rapport._
 
 #### Vraagtekst
 
-F. PERSONENBELASTING 10 PUNTEN De Heer en Mevrouw Janssens zijn eigenaar van twee onroerende goederen: onroerend goed A, gelegen buiten de stad en onroerend goed B, gelegen in het centrum van de stad. Zij hebben 4 kinderen van respectievelijk 12, 9,7 en 4 jaar.en wonen allen samen in het huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt het onroerend goed B van de familie Janssens voor een huurprijs van 15.000 € per jaar verhoogd met de onroerende voorheffing. Woonhuis A KI 1.050 € Woonhuis B KI 1.202 € Revalorisatiecoëfficient 3,35 (Art. 1 KBWIB 92) F.1 Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van volgende gegevens: 10 PUNTEN - Jaarlijkse bruto bezoldiging : 30.000 € - Sociale bijdrage voor rekening van de Heer Janssens betaald door de NV, per trimester: 1.200 € - Netto bedrag van de mutualiteitbijdrage 887 € - Ingehouden en doorgestorte bedrijfsvoorheffing 4.636 € - Voordelen van alle aard (auto) 1.500 € - forfaitaire beroepskosten : UIT TE REKENEN
+F. PERSONENBELASTING  De Heer en
+
+> Mevrouw Janssens zijn eigenaar van twee onroerende goederen: onroerend goed A, gelegen buiten de stad en onroerend goed B, gelegen in het centrum van de stad.
+
+Zij hebben 4 kinderen van respectievelijk 12, 9,7 en 4 jaar.en wonen allen samen in het huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt het onroerend goed B van de familie Janssens voor een huurprijs van 15.000 € per jaar verhoogd met de onroerende voorheffing. Woonhuis A KI 1.050 € Woonhuis B KI 1.202 € Revalorisatiecoëfficient 3,35 (Art. 1 KBWIB 92) F.1 Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van volgende gegevens: 10 PUNTEN - Jaarlijkse bruto bezoldiging : 30.000 € - Sociale bijdrage voor rekening van de Heer Janssens betaald door de NV, per trimester: 1.200 € - Netto bedrag van de mutualiteitbijdrage 887 € - Ingehouden en doorgestorte bedrijfsvoorheffing 4.636 € - Voordelen van alle aard (auto) 1.500 € - forfaitaire beroepskosten : UIT TE REKENEN
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -6652,7 +6807,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-F.1 Gert is ongehuwd en woont in Mechelen in een pand, waarvan hij eigenaar is, met een KI van 1 700. Gert erft in 2007 als enige zoon het huis van zijn ouders. Wat zijn daar de gevolgen van op vlak van intrestaftrek en kapitaalaflossing, wetende dat er geen andere onroerende eigendommen zijn. 1.1 Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004 Gewone intrestaftrek blijft De aanvullende intrestaftrek gaat verloren Kapitaalaflossing: belastingvermindering voor bouwsparen blijft (eenmalige beoordeling op enige woning) 1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005 Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt.
+Gert is ongehuwd en woont in Mechelen in een pand, waarvan hij eigenaar is, met een KI van 1 700. Gert erft in 2007 als enige zoon het huis van zijn ouders. Wat zijn daar de gevolgen van op vlak van intrestaftrek en kapitaalaflossing, wetende dat er geen andere onroerende eigendommen zijn. 1.1 Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004 Gewone intrestaftrek blijft De aanvullende intrestaftrek gaat verloren Kapitaalaflossing: belastingvermindering voor bouwsparen blijft (eenmalige beoordeling op enige woning) 1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005 Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt.
 
 #### Modelantwoord
 
@@ -6674,7 +6829,7 @@ F.1 Gert is ongehuwd en woont in Mechelen in een pand, waarvan hij eigenaar is, 
 
 #### Vraagtekst
 
-F.2 Riet en Piet zijn gehuwd in het wettelijk stelsel . Ze wonen in Etterbeek. Riet heeft van voor het huwelijk nog een appartement (KI 1 200) in Wemmel in persoonlijke eigendom, dat verhuurd wordt. Het appartement stond al langer te koop en uiteindelijk wordt het op 6 april 2007 verkocht: een belastbare meerwaarde van € 30 000 wordt gerealiseerd. Doe aangifte van het onroerend inkomen en van de meerwaarde Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3 /12 en dan 50/50) Divers (1171) 0 (2171) 30 000
+Riet en Piet zijn gehuwd in het wettelijk stelsel . Ze wonen in Etterbeek. Riet heeft van voor het huwelijk nog een appartement (KI 1 200) in Wemmel in persoonlijke eigendom, dat verhuurd wordt. Het appartement stond al langer te koop en uiteindelijk wordt het op 6 april 2007 verkocht: een belastbare meerwaarde van € 30 000 wordt gerealiseerd. Doe aangifte van het onroerend inkomen en van de meerwaarde Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3 /12 en dan 50/50) Divers (1171) 0 (2171) 30 000
 
 #### Modelantwoord
 
@@ -6694,7 +6849,11 @@ Onroerend: code (1106)/(2106) elk 150 (= 1 200 × 3/12 × 50/50). Divers: code (
 
 #### Vraagtekst
 
-F.3 Een echtpaar heeft dienstencheques aangekocht: 3 000,00 (max. AJ 2008 : 2 360,00 EUR) op naam van de aangever en 1 000,00 op naam van de partner. Bereken het belastingvoordeel van de dienstencheques rekening houdend met volgende gegevens. aangever partner Totaal netto-inkomen 33 900,00 17 100,00 -Onderhoudsgelden -4 000,00 Gezamenlijk belastbaar inkomen 29 900,00 17 100,00 2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98
+Een echtpaar heeft dienstencheques aangekocht: 3 000,00 (max. AJ 2008 : 2 360,00 EUR) op naam van de aangever en 1 000,00 op naam van de partner.
+
+**Bereken het belastingvoordeel van de dienstencheques rekening houdend met volgende gegevens.**
+
+aangever partner Totaal netto-inkomen 33 900,00 17 100,00 -Onderhoudsgelden -4 000,00 Gezamenlijk belastbaar inkomen 29 900,00 17 100,00 2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98
 
 #### Modelantwoord
 
@@ -6714,7 +6873,7 @@ Aangever: 2 360 × 30 % = 708; partner: 1 000 × 30 % = 300. Verdeling 1 008 ove
 
 #### Vraagtekst
 
-F.4 Wim is gehuwd met Inge in het stelsel van scheiding van goederen. Ze zijn zinnens een (eerste) huis te gaan kopen. Gezien de zelfstandige activiteit van Inge stellen ze voor de aankoop niet in onverdeeldheid te doen, maar op naam van Wim. Waar moet je rekening mee houden wanneer Wim voor de financiering van de aankoop een hypothecaire lening aangaat? Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB)
+Wim is gehuwd met Inge in het stelsel van scheiding van goederen. Ze zijn zinnens een (eerste) huis te gaan kopen. Gezien de zelfstandige activiteit van Inge stellen ze voor de aankoop niet in onverdeeldheid te doen, maar op naam van Wim. Waar moet je rekening mee houden wanneer Wim voor de financiering van de aankoop een hypothecaire lening aangaat? Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB)
 
 #### Modelantwoord
 
@@ -6734,15 +6893,12 @@ Bij gemeenschappelijke aanslag moet 15 % bij de partner aangegeven worden — di
 
 #### Vraagtekst
 
-F.5: Wat is juist inzake belastbaar tijdperk?
+: Wat is juist inzake belastbaar tijdperk?
 
-a) Een uitgave in 2006 met betrekking tot een door een handelaar in 2007 te realiseren meerwaarde is een gezamenlijk belastbare winst van 2007
-
-b) Een tantième dat op 15.04.2008 met betrekking tot de winst van het boekjaar 2007 toegekend is, is voor de bedrijfsleider een beroepsinkomen gerelateerd aan het belastbaar tijdperk 2007
-
-c) Wanneer ingevolge een geschil met een (voormalig) werkgever een bezoldiging met betrekking tot de prestaties van 2007 pas in de loop van 2008 uitgekeerd wordt, is dat een belastbaar inkomen van 2007
-
-d) Een advocaat maakt op 20.12.07 een ereloonnota van € 1 000,00 op voor geleverde prestaties. De klant betaalt op 10.01.08. De erelonen horen tot het belastbaar tijdperk 2007.
+- **a.** Een uitgave in 2006 met betrekking tot een door een handelaar in 2007 te realiseren meerwaarde is een gezamenlijk belastbare winst van 2007
+- **b.** Een tantième dat op 15.04.2008 met betrekking tot de winst van het boekjaar 2007 toegekend is, is voor de bedrijfsleider een beroepsinkomen gerelateerd aan het belastbaar tijdperk 2007
+- **c.** Wanneer ingevolge een geschil met een (voormalig) werkgever een bezoldiging met betrekking tot de prestaties van 2007 pas in de loop van 2008 uitgekeerd wordt, is dat een belastbaar inkomen van 2007
+- **d.** Een advocaat maakt op 20.12.07 een ereloonnota van € 1 000,00 op voor geleverde prestaties. De klant betaalt op 10.01.08. De erelonen horen tot het belastbaar tijdperk 2007.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -6754,15 +6910,14 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-F 6. Wat is geen vrijgesteld inkomen ?
+F 6.
 
-a) Een sociaal voordeel
+**Wat is geen vrijgesteld inkomen ?**
 
-b) Een resultaatgebonden bonus van € 2 000,00
-
-c) Een fietsvergoeding van € 0,15/km
-
-d) Een wettelijke ziekte-uitkering
+- **a.** Een sociaal voordeel
+- **b.** Een resultaatgebonden bonus van € 2 000,00
+- **c.** Een fietsvergoeding van € 0,15/km
+- **d.** Een wettelijke ziekte-uitkering
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -6774,15 +6929,14 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-F7. Welke uitgave vormt een aftrekbare besteding?
+F7.
 
-a) Uitgave voor het onderhoud en de restauratie van beschermde eigendommen
+**Welke uitgave vormt een aftrekbare besteding?**
 
-b) Een uitgave voor de vernieuwing van een woning in een zone voor positief grootstedelijk beleid
-
-c) Uitgaven voor de vernieuwing van woningen die tegen een redelijke prijs verhuurd worden
-
-d) Uitgaven ter beveiliging van een privéwoning tegen diefstal en brand
+- **a.** Uitgave voor het onderhoud en de restauratie van beschermde eigendommen
+- **b.** Een uitgave voor de vernieuwing van een woning in een zone voor positief grootstedelijk beleid
+- **c.** Uitgaven voor de vernieuwing van woningen die tegen een redelijke prijs verhuurd worden
+- **d.** Uitgaven ter beveiliging van een privéwoning tegen diefstal en brand
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -6794,13 +6948,15 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 12 punten
-De heer André, een loodgieter van 58 jaar oud, zet in 2012 zijn beroepswerkzaamheid stop en
-verkoopt zijn volledige handelszaak aan de heer Bernard
-(NB: geen verwantschap tussen de overlater en de overnemer).
-Bereken, op basis van de hierna verstrekte gegevens, het bedrag van de verschillende
+> De heer André, een loodgieter van 58 jaar oud, zet in 2012 zijn beroepswerkzaamheid stop en
+> verkoopt zijn volledige handelszaak aan de heer Bernard
+> (NB: geen verwantschap tussen de overlater en de overnemer).
+
+**Bereken, op basis van de hierna verstrekte gegevens, het bedrag van de verschillende
 stopzettingsmeerwaarden die in de belastingaangifte moeten vermeld worden en geef de
-aanslagvoet van de verschillende bestanddelen. De bedragen zijn exclusief btw. (Er moet
+aanslagvoet van de verschillende bestanddelen.**
+
+De bedragen zijn exclusief btw. (Er moet
 geen rekening gehouden worden met de gemeentelijke opcentiemen, en ook niet met een
 eventuele globale aanslag indien deze voordeliger zou zijn voor de belastingplichtige).
 NB: het gebouw werd in 1985 aangekocht voor een totale waarde van 500.000 euro. Onder
@@ -6820,10 +6976,16 @@ Tijdens de laatste jaren verwezenlijkte winst:
 2009 € 28.861
 2008 € 30.367
 2007 € 21.784
-De heer André had een gespecialiseerde onderneming in de arm genomen voor de overlating
-van zijn handelszaak. Die bemiddelaar heeft voor de verleende diensten een commissieloon
+
+> De heer André had een gespecialiseerde onderneming in de arm genomen voor de overlating
+> van zijn handelszaak.
+
+Die bemiddelaar heeft voor de verleende diensten een commissieloon
 ontvangen van € 117.500 (10%).
-De heer André heeft netto dus € 1.057.500 ontvangen (hetzij € 1.175.000 min € 117.500).
+
+> De heer André heeft netto dus € 1.
+
+057.500 ontvangen (hetzij € 1.175.000 min € 117.500).
 Antwoord
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -6836,10 +6998,9 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 2 … / 8 punten
-Geef aan of volgende uitspraken waar of onwaar zijn:
+**Geef aan of volgende uitspraken waar of onwaar zijn:
 a) Wanneer een werknemer voorafbetalingen doet, zal hij een bonificatie genieten, maar
-enkel voor de belasting die betrekking heeft op zijn beroepsinkomsten.
+enkel voor de belasting die betrekking heeft op zijn beroepsinkomsten.**
 
 |   |   |
 | --- | --- |
@@ -6959,19 +7120,25 @@ h) De herkwalificatie van huur tot bezoldigingen die
 
 #### Vraagtekst
 
-Vraag 1 … / 6 punten
 Dhr. en mevr. Martin zijn in de loop van 2012 gescheiden met onderlinge toestemming. Dhr.
 Martin is geboren op 15 juli 1963 en mevr. Martin op 10 juni 1975.
 Er werd overeengekomen dat dhr. Martin op 1 december 2012 een éénmalige
 onderhoudsuitkering onder de vorm van een kapitaal van € 100.000 aan zijn ex-echtgenote
 zou betalen.
 (NB: alle wettelijke voorwaarden op het gebied van de onderhoudsplicht zijn vervuld.)
-a) Mevr. Martin vraagt u om het bedrag te berekenen dat voor het aanslagjaar 2013 op haar
+
+- **a.** Mevr. Martin vraagt u om het bedrag te berekenen dat voor het aanslagjaar 2013 op haar
+
 naam zal belast worden.
+
+**Antwoord … / 1,5 punten
+b) Moet het bedrag voor de volgende aanslagjaren gewijzigd worden.**
+
+Zo ja, in welke mate?
 Antwoord … / 1,5 punten
-b) Moet het bedrag voor de volgende aanslagjaren gewijzigd worden. Zo ja, in welke mate?
-Antwoord … / 1,5 punten
-c) Gedurende hoeveel jaren zal er ten name van mevr. Martin een belasting worden
+
+- **c.** Gedurende hoeveel jaren zal er ten name van mevr. Martin een belasting worden
+
 gevestigd (Geef het aantal betrokken aanslagjaren of het jaar waarnaar het laatste
 betrokken aanslagjaar wordt genoemd).
 Antwoord … / 1,5 punten
@@ -7012,22 +7179,29 @@ belasting van dhr. Martin, en niet om het bedrag dat in de aangifte wordt ingevu
 
 #### Vraagtekst
 
-Vraag 2 … / 10 punten
 Een osteopaat oefent zijn zelfstandige activiteit uit in 2 verschillende sectoren: bij
 privépatiënten (op hun thuisadres en in zijn praktijk) en als verzorger van een rugbyploeg.
 Zijn beroepsmatige verplaatsingen zijn de volgende:
-a) van maandag tot vrijdag met zijn personenwagen:
+
+- **a.** van maandag tot vrijdag met zijn personenwagen:
+
 - voormiddag: woonplaats -> patiënten
 - namiddag: patiënten -> praktijk
 - ’s avonds: praktijk -> woonplaats
-b) zaterdag en zondag met zijn scooter
+
+- **b.** zaterdag en zondag met zijn scooter
+
 - woonplaats -> rugbyveld -> woonplaats
 In de loop van 2012 werd volgend aantal kilometers afgelegd:
-a) met de personenwagen
+
+- **a.** met de personenwagen
+
 - praktijk -> woonplaats: 3.500 km (heen)
 - op huisbezoek bij patiënten: 15.000 km
 - jaartotaal = 27.500 km (alle niet-beroepsmatige km zijn per definitie privématig)
-b) met de scooter
+
+- **b.** met de scooter
+
 - woonplaats -> rugbyveld: 2.500 (heen en terug)
 - jaartotaal = 5.000 km (overige km = privématig)
 Uiteenzetting van de kosten i.v.m. de personenauto (Toyota Prius benzine – 89 g CO2):
@@ -7091,8 +7265,9 @@ _Ook geklassificeerd onder_: 2.8
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
-Geef aan of volgende uitspraken waar of niet waar zijn. Zet een kruisje bij het juiste
+**Geef aan of volgende uitspraken waar of niet waar zijn.**
+
+Zet een kruisje bij het juiste
 antwoord.
 a) Anna is advocate. In 2012 heeft zij gedurende 6 maanden niet kunnen werken wegens
 een ernstige ziekte. Omdat zij een verzekering van het type “gewaarborgd inkomen”
@@ -7177,7 +7352,6 @@ progressievoorbehoud.
 
 #### Vraagtekst
 
-Vraag 1 … / 3 punten
 Personen ten laste
 Welke personen, omschreven in onderstaande uitspraken, kunnen niet als persoon ten laste
 worden beschouwd?
@@ -7208,7 +7382,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 2 … / 3 punten
 Huwelijksquotiënt
 Welke van onderstaande uitspraken is niet juist?
 Antwoord
@@ -7245,7 +7418,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
 Onroerende inkomsten
 Paul en Jeanne, zonder kinderen, bezitten een in België gelegen gebouw met een niet-
 geïndexeerd kadastraal inkomen (KI) van 5.000 EUR. Het gebouw werd in 2002 aangekocht
@@ -7282,7 +7454,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 4 … / 3 punten
 Diverse inkomsten
 Welke van de hierna omschreven inkomsten vallen onder de categorie van de diverse
 inkomsten bedoeld in 90, 1° WIB 1992?
@@ -7312,9 +7483,9 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 5 … / 3 punten
-Welke hieronder omschreven meerwaarden zijn belastbaar tegen de afzonderlijke
-aanslagvoet van 33%, tenzij de samenvoeging voordeliger is?
+**Welke hieronder omschreven meerwaarden zijn belastbaar tegen de afzonderlijke
+aanslagvoet van 33%, tenzij de samenvoeging voordeliger is?**
+
 Antwoord
 
 Meerwaarden verwezenlijkt op activa die niet voor de uitoefening van de
@@ -7345,7 +7516,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 6 … / 4 punten
 Aftrekbare uitgaven
 Welke van onderstaande uitspraken is niet juist voor het aanslagjaar 2013?
 Antwoord
@@ -7382,21 +7552,28 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 4 punten
 Beroepsverliezen
 Geef aan welke van onderstaande uitspraken ONJUIST is:
-A. Wanneer in een welbepaalde beroepswerkzaamheid, na aftrek van de beroepskosten, een
+
+- **A.** Wanneer in een welbepaalde beroepswerkzaamheid, na aftrek van de beroepskosten, een
+
 verlies overblijft, wordt dat eerst afgetrokken van de beroepsinkomsten die dezelfde
 belastingplichtige tijdens hetzelfde belastbare tijdperk uit andere beroepswerkzaamheden
 heeft verkregen.
-B. De aftrek van een beroepsverlies wordt eerst proportioneel toegerekend aan de gezamenlijk
+
+- **B.** De aftrek van een beroepsverlies wordt eerst proportioneel toegerekend aan de gezamenlijk
+
 belaste beroepsinkomsten en het saldo wordt vervolgens proportioneel verdeeld over de
 afzonderlijk belaste beroepsinkomsten.
-C. Wanneer de positieve beroepsinkomsten van een belastingplichtige ontoereikend zijn om de
+
+- **C.** Wanneer de positieve beroepsinkomsten van een belastingplichtige ontoereikend zijn om de
+
 beroepsverliezen van de huidige en de vorige belastbare tijdperken aan te zuiveren, wordt
 het saldo toegerekend aan de positieve beroepsinkomsten van de andere echtgenoot,
 behalve wanneer de echtgenoten gehuwd zijn onder het stelsel van scheiding van goederen.
-D. Wanneer alle mogelijkheden om de beroepsverliezen aan te rekenen uitgeput zijn voor een
+
+- **D.** Wanneer alle mogelijkheden om de beroepsverliezen aan te rekenen uitgeput zijn voor een
+
 belastbaar tijdperk, wordt het saldo overgedragen naar het volgende jaar en afgetrokken van
 de positieve beroepsinkomsten van dat jaar.
 E. Indien de echtgenoot waaraan een huwelijksquotiënt wordt toegekend al een
@@ -7416,17 +7593,21 @@ _Ook geklassificeerd onder_: 2.8
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 Een belastingplichtige is eigenaar van een in het buitenland gelegen onroerend goed. (NB:
 het betreft geen onroerend goed dat kan beschouwd worden als de enige eigen woning van
 de belastingplichtige en er bestaat in desbetreffend land geen theoretische huurwaarde).
-Welke van onderstaande uitspraken is JUIST?
-A. Het bedrag dat in de aangifte moet worden vermeld, wordt berekend volgens de
+
+**Welke van onderstaande uitspraken is JUIST?**
+
+- **A.** Het bedrag dat in de aangifte moet worden vermeld, wordt berekend volgens de
+
 volgende formule: de huurwaarde, verminderd met de buitenlandse belastingen die
 werkelijk de inkomsten van het goed in kwestie hebben bezwaard. Het aldus bekomen
 bedrag mag nog verminderd worden met een forfait van 40% dat geacht wordt de
 verschillende kosten, zoals verzekeringen, herstellingen enz., te dekken.
-B. Indien het onroerend goed niet wordt verhuurd, komt de huurwaarde in principe overeen
+
+- **B.** Indien het onroerend goed niet wordt verhuurd, komt de huurwaarde in principe overeen
+
 met de gemiddelde jaarlijkse huuropbrengst die het onroerend goed tijdens het vorige
 
 jaar had kunnen opbrengen, wanneer het verhuurd zou geweest zijn. Deze huurwaarde
@@ -7452,24 +7633,31 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
-Geef aan welke uitspraak ONJUIST is, met betrekking tot de aftrekbare bestedingen en de
+**Geef aan welke uitspraak ONJUIST is, met betrekking tot de aftrekbare bestedingen en de
 uitgaven die recht geven op een belastingvermindering :
-A. De kosten voor kinderoppas zijn sinds het aanslagjaar 2013 geen aftrekbare bestedingen
+A.**
+
+De kosten voor kinderoppas zijn sinds het aanslagjaar 2013 geen aftrekbare bestedingen
 meer. Die kosten geven sinds het aanslagjaar 2013 daarentegen recht op een
 belastingvermindering. Indien die belastingvermindering meer bedraagt dan het bedrag
 van de verschuldigde belasting, wordt het bedrag in meer omgezet in een
 terugbetaalbaar belastingkrediet.
-B. Wanneer een gemeenschappelijke aanslag wordt gevestigd, worden de
+
+- **B.** Wanneer een gemeenschappelijke aanslag wordt gevestigd, worden de
+
 onderhoudsuitkeringen die door één echtgenoot persoonlijk verschuldigd zijn, bij
 voorrang aangerekend op het totale netto-inkomen van die echtgenoot en het eventuele
 saldo wordt op het totale netto-inkomen van de andere echtgenoot aangerekend.
-C. De door iedere echtgenoot werkelijk gedane giften worden opgeteld en het totaalbedrag
+
+- **C.** De door iedere echtgenoot werkelijk gedane giften worden opgeteld en het totaalbedrag
+
 ervan geeft recht op een belastingvermindering van 45 %. De belastingvermindering
 wordt evenredig omgedeeld in functie van het belastbare inkomen van elk der
 echtgenoten ten opzichte van de som van het belastbare inkomen van de beide
 echtgenoten.
-D. Een belastingplichtige kan voor hetzelfde tijdperk de vermindering voor pensioensparen
+
+- **D.** Een belastingplichtige kan voor hetzelfde tijdperk de vermindering voor pensioensparen
+
 niet samen verkrijgen met de vermindering voor verwerving van werkgeversaandelen.
 E. Iedere echtgenoot moet het bedrag van zijn betalingen voor de aankoop van
 dienstencheques vermelden. In geval van een gemeenschappelijke aanslag wordt de
@@ -7487,7 +7675,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 4 … / 4 punten
 Vrijstellingen van economische aard
  aftrek voor bijkomend personeel tewerkgesteld in de uitvoer en de integrale
 kwaliteitszorg
@@ -7496,13 +7683,16 @@ kwaliteitszorg
  investeringsaftrek
 Welke van onderstaande uitspraken is ONJUIST:
 
-A. Deze vrijstellingen kunnen toegepast worden ongeacht de belastingplichtige een
+- **A.** Deze vrijstellingen kunnen toegepast worden ongeacht de belastingplichtige een
+
 vereenvoudigde dan wel een dubbele boekhouding voert. De aftrek van deze economische
 vrijstellingen is beperkt tot de resterende winst na aftrek van de beroepskosten (ze kunnen
 dus geen verlies tot gevolg hebben). Bij gebrek aan toereikende nettowinst is het niet-
 afgetrokken gedeelte van de drie eerste vrijstellingen van economische aard definitief
 verloren.
-B. De vrijstelling voor ander bijkomend personeel wordt teruggenomen wanneer het totaal
+
+- **B.** De vrijstelling voor ander bijkomend personeel wordt teruggenomen wanneer het totaal
+
 gemiddeld personeelsbestand tijdens het volgende jaar daalt. Om een definitief recht op de
 vrijstelling te verwerven, moet de tewerkstelling dus gedurende 2 jaar behouden blijven: het
 jaar waarvoor de toekenning wordt toegekend en het volgende jaar. Indien dit niet het geval
@@ -7510,12 +7700,16 @@ is, moet de vrijstelling opnieuw in de belastbare winst worden opgenomen. De toe
 vrijstelling wordt echter niet teruggenomen wanneer in het jaar na dat waarin de vrijstelling
 werd toegekend een loonsverhoging wordt doorgevoerd die een overschrijding tot gevolg
 heeft van het maximumloon dat toegelaten is om voor de vrijstelling in aanmerking te komen.
-C. Vrijstelling voor stage in de onderneming: de netto winst of baten van de werkgever worden
+
+- **C.** Vrijstelling voor stage in de onderneming: de netto winst of baten van de werkgever worden
+
 vrijgesteld ten belope van 20% (40% vanaf 01/01/2014) van de als beroepskosten
 afgetrokken bezoldigingen, betaald voor de door de stagiair in het kader van zijn praktische
 opleiding geleverde prestaties in het jaar waarin de werkgever een stagebonus heeft
 bekomen.
-D. Investeringsaftrek: de vaste activa waarvan het recht van gebruik overgedragen is aan een
+
+- **D.** Investeringsaftrek: de vaste activa waarvan het recht van gebruik overgedragen is aan een
+
 derde, zijn uit de investeringsaftrek gesloten. De wijze waarop dit recht is overgedragen, is
 niet van belang (verhuurd of kosteloos). Deze uitsluiting is niet van toepassing wanneer het
 recht van gebruik is overgedragen aan een andere natuurlijke persoon die deze vaste activa
@@ -7539,18 +7733,25 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 5 … / 4 punten
-Geef aan welke van onderstaande uitspraken "ONJUIST" is, met betrekking tot de belasting
+**Geef aan welke van onderstaande uitspraken "ONJUIST" is, met betrekking tot de belasting
 van de roerende inkomsten:
-A. Bij een niet-gereglementeerde spaarrekening moet op de volledige interestopbrengst een
+A.**
+
+Bij een niet-gereglementeerde spaarrekening moet op de volledige interestopbrengst een
 roerende voorheffing van 25% worden betaald.
-B. De eerste schijf (tot 56.450 EUR) van de inkomsten als auteursrechten, en die kunnen
+
+- **B.** De eerste schijf (tot 56.450 EUR) van de inkomsten als auteursrechten, en die kunnen
+
 beschouwd worden als roerende inkomsten, is onderworpen aan het tarief van 25%.
-C. De aangegeven roerende inkomsten worden, naargelang het geval, ofwel afzonderlijk
+
+- **C.** De aangegeven roerende inkomsten worden, naargelang het geval, ofwel afzonderlijk
+
 belast tegen een aanslagvoet die overeenstemt met het tarief van de roerende
 voorheffing, ofwel met de andere inkomsten samengevoegd, indien dit voor de
 belastingplichtige voordeliger uitkomt.
-D. De ingehouden roerende voorheffing wordt verrekend noch teruggegeven indien de
+
+- **D.** De ingehouden roerende voorheffing wordt verrekend noch teruggegeven indien de
+
 belastingplichtige beroepsinkomsten verkrijgt die bij overeenkomst zijn vrijgesteld en niet
 in aanmerking komen voor de berekening van de belasting op zijn andere inkomsten.
 E. Het aan te geven bedrag is het werkelijk geïnd bedrag, vóór aftrek van de innings- en
@@ -7577,13 +7778,10 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 5 Personenbelasting
 
-A. Juist/ Fout: Van de toekenning aan de meewerkend echtgenoot, aangesloten ministatuut, wordt er een forfaitaire kostenaftrek van 5% in mindering gebracht.
-
-B. Ik bezit een niet gemeubeld onroerend goed om te verhuren aan privépersoon als bewoning. Woning is door overstroming 6 maand niet verhuurd geweest. Wat met Onroerende Voorheffing?
-
-C. Ik ben ongehuwd, verhuur een gemeubeld onroerend goed aan natuurlijk persoon. KI = 1.500 Opbrengst = 3.000,00 euro per kwartaal Welke bedragen waar opnemen in de aangifte?
-
-D. Welke beroepsinkomsten zijn niet aan het progressief belastingtarief onderworpen?
+- **A.** Juist/ Fout: Van de toekenning aan de meewerkend echtgenoot, aangesloten ministatuut, wordt er een forfaitaire kostenaftrek van 5% in mindering gebracht.
+- **B.** Ik bezit een niet gemeubeld onroerend goed om te verhuren aan privépersoon als bewoning. Woning is door overstroming 6 maand niet verhuurd geweest. Wat met Onroerende Voorheffing?
+- **C.** Ik ben ongehuwd, verhuur een gemeubeld onroerend goed aan natuurlijk persoon. KI = 1.500 Opbrengst = 3.000,00 euro per kwartaal Welke bedragen waar opnemen in de aangifte?
+- **D.** Welke beroepsinkomsten zijn niet aan het progressief belastingtarief onderworpen?
 
 > [!note]- Geherinterpreteerde vraagtekst (ADR-022)
 > Casus personenbelasting, 4 deelvragen:
@@ -7609,13 +7807,16 @@ _13 vragen — 0 met modelantwoord — 0 met gap-rapport._
 
 #### Vraagtekst
 
-G. VENNOOTSCHAPSBELASTING 10 PUNTEN G.1 Situatie: De BVBA Albert legt volgende balans, afgesloten op 31/12/2002, voorafgaand aan de bestemming van het resultaat, ter goedkeuring voor aan de algemene vergadering. Vaste Activa 79.260 Onderschreven kapitaal 18.600 Herwaarderingsmeerwaarden 600 Financiële Activa 30.000 Wettelijke reserve 1.860 Vrijgestelde reserve 200 Vlottende Activa 20.000 Beschikbare reserve 16.000 Te bestemmen winst van het boekj 62.000 Schulden op minder dan één jaar 30.000 ---------- ---------
+G. VENNOOTSCHAPSBELASTING  G.1 Situatie:
+
+> De BVBA Albert legt volgende balans, afgesloten op 31/12/2002, voorafgaand aan de bestemming van het resultaat, ter goedkeuring voor aan de algemene vergadering.
+
+Vaste Activa 79.260 Onderschreven kapitaal 18.600 Herwaarderingsmeerwaarden 600 Financiële Activa 30.000 Wettelijke reserve 1.860 Vrijgestelde reserve 200 Vlottende Activa 20.000 Beschikbare reserve 16.000 Te bestemmen winst van het boekj 62.000 Schulden op minder dan één jaar 30.000 ---------- ---------
 
 129. 260 129.260 De algemene vergadering van 17 mei 2003 beslist om het resultaat van het boekjaar als volgt te bestemmen: - Wettelijke reserve – nihil (de 10 % werd reeds bereikt) -- - Uitkering van dividenden voor een totaal van 40.000 - Toekenning aan de beschikbare reserve 18.000 - Overgedragen winst 4.000 62.000 Bijkomende Gegevens:
 
-a) De opbrengsten bevatten de inning van dividenden , toegekend door een NV waarvan men 80 % van het maatschappelijk kapitaal bezit voor een bedrag van : 1.200 € , roerende voorheffing 400 €.
-
-b) In de kosten noteert men: rekening: 67 belastingen op de inkomsten en voorafbetalingen 20.000 67 Roerende voorheffing 400 61 Autokosten 1.500 63 Afschrijvingen auto 3.800 61 Representatiekosten, restaurants enz.. 2.000
+- **a.** De opbrengsten bevatten de inning van dividenden , toegekend door een NV waarvan men 80 % van het maatschappelijk kapitaal bezit voor een bedrag van : 1.200 € , roerende voorheffing 400 €.
+- **b.** In de kosten noteert men: rekening: 67 belastingen op de inkomsten en voorafbetalingen 20.000 67 Roerende voorheffing 400 61 Autokosten 1.500 63 Afschrijvingen auto 3.800 61 Representatiekosten, restaurants enz.. 2.000
 
 63. Afschrijvingen van de genoteerde meerwaarde op vaste activa ( 1ste boekjaar) 60 61 Liberaliteiten toegekend voor een totaal van: 160 waarvan liberaliteiten verantwoord door een attest ( 80 €) 64 Onroerende voorheffing 100 Opgave: Vul vak per vak de aangifte in de vennootschapsbelasting in (zie hierna) op basis van bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen. 10 PUNTEN
 
@@ -7641,7 +7842,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 6 punten
 Een bvba verschaft volgende gegevens over de waardering van haar goederenvoorraad voor
 het jaar 2012 (we beperken ons tot één bepaald type product) :
 De bedragen zijn exclusief btw.
@@ -7675,7 +7875,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 2 … / 6 punten
 Een bestaande Belgische NV (kleine vennootschap volgens art. 15 W.Venn.) die haar balans
 afsluit op 31.12.2012 beheert de volgende voorziening, door het vereiste formulier (204.3):
 Een voorziening van 23 000,00 euro voor grote herstellingen prijkte op de balans van het
@@ -7702,7 +7901,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 3 … / 8 punten
+/ 8 punten
 Een vennootschap heeft een boekjaar van 1 oktober 2011 tot en met 30 september 2012. In de
 periode tussen 1 januari 2012 tot en met 30 september 2012 zijn de belastbare voordelen van
 alle aard uit firmawagens voor de personeelsleden en de bedrijfsleiders van de
@@ -7714,11 +7913,15 @@ Fiscaal resultaat na 1ste bewerking = 50 000,00
 - Aangroei reserves : 6 000,00
 - Verworpen uitgaven (incl. 17 000= 17% x 100 000,00 VAA) : 40 000,00
 - Uitgekeerde dividenden : 4 000,00
-a) Bepaal in onderstaande hypothese de belastbare grondslag van deze vennootschap
+
+- **a.** Bepaal in onderstaande hypothese de belastbare grondslag van deze vennootschap
+
 Antwoord
-b) Vul de bijgevoegde onderdelen van de aangifte in.
+
+- **b.** Vul de bijgevoegde onderdelen van de aangifte in.
+
 Antwoord
-BELASTING OVER DE TOEGEVOEGDE WAARDE 15 PUNTEN
+BELASTING OVER DE TOEGEVOEGDE WAARDE
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -7738,7 +7941,6 @@ Vul de bijgevoegde onderdelen van de aangifte in.
 
 #### Vraagtekst
 
-Vraag 1 … / 10 punten
 Een vennootschap ABC heeft de volgende balans- en resultatenrekeningen per 31 december
 2012:
 
@@ -7776,12 +7978,19 @@ overdrachten van fiscale verliezen, notionele intrestaftrek en investeringsaftre
 vennootschap is een KMO vennootschap in de zin van artikel 15 van het Wetboek van
 Vennootschappen en werd opgericht op 13 maart 2011. De aandelen zijn allemaal in handen
 van natuurlijke personen.
-Bepaal op basis van deze gegevens:
-a) Het belastbare resultaat voor aanslagjaar 2013. Detailleer uw berekeningen.
-Antwoord … / 6 punten
-b) De verschuldigde vennootschapsbelasting.
+
+**Bepaal op basis van deze gegevens:
+a) Het belastbare resultaat voor aanslagjaar 2013.**
+
+Detailleer uw berekeningen.
+
+**Antwoord … / 6 punten
+b) De verschuldigde vennootschapsbelasting.**
+
 Antwoord … / 2 punten
-c) De eventuele overdrachten van fiscale verliezen, notionele intrestaftrek naar de
+
+- **c.** De eventuele overdrachten van fiscale verliezen, notionele intrestaftrek naar de
+
 volgende aanslagjaren.
 Antwoord … / 2 punten
 
@@ -7808,9 +8017,9 @@ volgende aanslagjaren.
 
 #### Vraagtekst
 
-Vraag 2 … / 10 punten
-De vennootschap GOODLUCK heeft een deel van haar middelen geïnvesteerd in een
-aandelenportefeuille.
+> De vennootschap GOODLUCK heeft een deel van haar middelen geïnvesteerd in een
+> aandelenportefeuille.
+
 In het boekjaar 2012 zijn er de volgende wijzigingen geweest:
 
 | Datum <br> aanschaf | Omschrijving | Bedrag | Datum <br> verkoop | Verkoopprijs <br> (bruto) | Kosten <br> verkoop |
@@ -7834,8 +8043,11 @@ Zij heeft ook nog een overgedragen fiscaal verlies van 2.000. Zij heeft geen rec
 intrestaftrek.
 Gevraagd:
 Doe de nodige berekeningen om het belastbaar resultaat van deze vennootschap te bepalen.
-De vennootschap kan niet genieten van de progressieve tarieven. Geef op welk bedrag aan
-welk tarief belastbaar wordt.
+De vennootschap kan niet genieten van de progressieve tarieven.
+
+**Geef op welk bedrag aan
+welk tarief belastbaar wordt.**
+
 BELASTING OVER DE TOEGEVOEGDE WAARDE 15 PUNTEN
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -7848,7 +8060,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 12 punten
 Een kantoorgebouw was door de vennootschap ABC gekocht in het jaar 1985. Volgende
 gegevens zijn terug te vinden in de afschrijvingstabel:
 Aanschaffingwaarde 1.000.000,00 EUR
@@ -7870,14 +8081,19 @@ EUR, waarvan 80.000,00 EUR grondwaarde en 200.000,00 constructiewaarde. Het
 afschrijvingspercentage bedraagt 3% lineair. De vennootschap is een kleine vennootschap in
 de zin van artikel 15 van het Wetboek van Vennootschappen.
 Gevraagd:
-a) Bereken de fiscale meerwaarde die in aanmerking komt voor gespreide taxatie.
-Antwoord
+
+- **a.** Bereken de fiscale meerwaarde die in aanmerking komt voor gespreide taxatie.
+
+**Antwoord
 b) De vennootschap heeft de meerwaarde verwerkt als gespreide taxatie in haar
-jaarrekening.
+jaarrekening.**
+
 Welke bedragen van de gespreide meerwaarde zullen in de jaarrekening van 31
 december 2012 overgeboekt worden naar de resultatenrekeningen als onttrekking?
 U dient rekening te houden met een belastingtarief van 33,99 %.
-Geef een detail van uw berekening.
+
+**Geef een detail van uw berekening.**
+
 Antwoord
 
 c) Welk bedrag zal in de aangifte vennootschapsbelasting aanslagjaar 2013 ingevuld
@@ -7914,7 +8130,6 @@ Geef een detail van uw berekening.
 
 #### Vraagtekst
 
-Vraag 2 … / 8 punten
 De vennootschap ABC heeft het volgende eigen vermogen:
 
 |   |   | Jaar 2012 | Jaar 2011 |
@@ -7941,11 +8156,15 @@ samengesteld:
 Geplaatst kapitaal 50.000
 Wettelijke reserve 2.000
 Overgedragen verliezen -50.000
-a) Bepaal de verworpen uitgaven op basis van deze gegevens met een korte
+
+- **a.** Bepaal de verworpen uitgaven op basis van deze gegevens met een korte
+
 verantwoording.
-Antwoord
+
+**Antwoord
 b) Hoeveel bedraagt het fiscaal gestort kapitaal van de vennootschap op 31 december
-2012?
+2012?**
+
 Antwoord
 
 BELASTING OVER DE TOEGEVOEGDE WAARDE 15 PUNTEN
@@ -7970,8 +8189,8 @@ Hoeveel bedraagt het fiscaal gestort kapitaal van de vennootschap op 31 december
 
 #### Vraagtekst
 
-Vraag 1 … / 8 punten
-De vennootschap ABC heeft een beleggingsportefeuille.
+> De vennootschap ABC heeft een beleggingsportefeuille.
+
 Deze portefeuille was per 31 december 2013 als volgt samengesteld:
 
 | Benaming | Datum <br> aanschaf | Aanschaffings- <br> waarde | Kosten <br> aankoop | Datum <br> verkoop | Verkoop <br> -prijs | Kosten <br> verkoop |
@@ -7989,11 +8208,16 @@ De vennootschap voldoet aan de criteria van artikel 15 van het Wetboek van
 vennootschappen.
 Zij heeft nog een fiscaal overgedragen verlies van 10.000 EUR van het aanslagjaar 2013.
 Gevraagd:
-a) Bepaal het belastbare resultaat voor aanslagjaar 2014. De vennootschap heeft geen
+
+- **a.** Bepaal het belastbare resultaat voor aanslagjaar 2014. De vennootschap heeft geen
+
 recht op notionele intrestaftrek.
-Antwoord … / 3 punten
+
+**Antwoord … / 3 punten
 b) Geef op welke tarieven van toepassing zijn EN op welk bedrag van het belastbare
-resultaat. Kies voor de meest voordelige verdeling. De vennootschap voldoet niet aan
+resultaat.**
+
+Kies voor de meest voordelige verdeling. De vennootschap voldoet niet aan
 de voorwaarden voor verlaagd tarief.
 Antwoord … / 5 punten
 
@@ -8023,7 +8247,6 @@ de voorwaarden voor verlaagd tarief.
 
 #### Vraagtekst
 
-Vraag 2 … / 6 punten
 Ter info: De vraag heeft betrekking op het aanslagjaar 2014 – inkomsten 2013.
 De vennootschap ‘ABC’ realiseert tijdens het belastbaar tijdperk 2013 een in principe fiscale
 winst (= resultaat in de 1ste bewerking) van 500 000,00 EUR. Volgens de berekeningen zou de
@@ -8032,9 +8255,13 @@ intrestaftrek en 20 000,00 EUR investeringsaftrek. De fiscus bewijst evenwel dat
 betreffende vennootschap dat jaar bij een verbonden bedrijf handelsgoederen kocht tegen
 een prijs, die 50 000,00 EUR beneden de normale marktprijs ligt.
 Gevraagd :
-a) Hoeveel bedraagt de belastbare winst ?
+
+- **a.** Hoeveel bedraagt de belastbare winst ?
+
 Antwoord … / 3 punten
-b) Geef een korte verklaring.
+
+- **b.** Geef een korte verklaring.
+
 Antwoord … / 3 punten
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -8055,7 +8282,6 @@ Geef een korte verklaring.
 
 #### Vraagtekst
 
-Vraag 3 … / 6 punten
 Kan BVBA ‘ABC’ aan de hand van onderstaande gegevens met betrekking tot de
 bedrijfsleider aanspraak maken op het verminderd basistarief, in de veronderstelling dat alle
 andere voorwaarden zijn voldaan en het belastbaar resultaat meer bedraagt dan 36 000,00
@@ -8114,27 +8340,24 @@ _Ook geklassificeerd onder_: 3.0
 
 8 Vennootschapsbelasting
 
-A. Stellingen ivm overdraagbare fiscale verliezen
+- **A.** Stellingen ivm overdraagbare fiscale verliezen
+- **B.** Moeder A fuseert (neutraal) met Dochter B, waarin ze 100% bezit. Netto Actief van B = 100. Fiscale waarde van de participatie in B in de boekhouding van A = 20 Overgedragen fiscale verliezen van B = 30 Overdraagbare aftrek innovatie inkomsten A = 40
+- **a.** Hoeveel bedraagt de meer- of minder waarde die A zal realiseren op de deelneming in B ingevolge de M-D fusie?
+- **b.** Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?
+- **C.** Boekjaar N 120.000 euro belastbare winst, alle voorwaarden voldaan voor verlaagd tarief 20%. VOF bestaat sinds 1/1/N-2, boekjaar is kalenderjaar. Wat met voorafbetalingen / vermeerderingen wegens onvoldoende voorafbetaling?
 
-B. Moeder A fuseert (neutraal) met Dochter B, waarin ze 100% bezit. Netto Actief van B = 100. Fiscale waarde van de participatie in B in de boekhouding van A = 20 Overgedragen fiscale verliezen van B = 30 Overdraagbare aftrek innovatie inkomsten A = 40
+D.
 
-a. Hoeveel bedraagt de meer- of minder waarde die A zal realiseren op de deelneming in B ingevolge de M-D fusie?
+> NV A BJ 31/12/22 winst voor belasting 100.
 
-b. Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?
-
-C. Boekjaar N 120.000 euro belastbare winst, alle voorwaarden voldaan voor verlaagd tarief 20%. VOF bestaat sinds 1/1/N-2, boekjaar is kalenderjaar. Wat met voorafbetalingen / vermeerderingen wegens onvoldoende voorafbetaling?
-
-D. NV A BJ 31/12/22 winst voor belasting 100.000 euro (voor winstuitkering) Belgische belasting = 20.000 euro. De AV beslist om tantième van 10.000 euro toe te kennen en een gewoon dividend van 20.000 euro uit te keren. Hoeveel bedraagt de belastbare basis van A voor AJ23? 100.000 – 10.000 tantième = 90.000 euro
+000 euro (voor winstuitkering) Belgische belasting = 20.000 euro. De AV beslist om tantième van 10.000 euro toe te kennen en een gewoon dividend van 20.000 euro uit te keren. Hoeveel bedraagt de belastbare basis van A voor AJ23? 100.000 – 10.000 tantième = 90.000 euro
 
 E. Wat zijn de “besmette” verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is.
 
-a. Niet aftrekbare kosten beroepskledij
-
-b. Intresten met betrekking tot een deel van bepaalde leningen
-
-c. Abnormale en goedgunstige voordelen
-
-d. Sociale voordelen
+- **a.** Niet aftrekbare kosten beroepskledij
+- **b.** Intresten met betrekking tot een deel van bepaalde leningen
+- **c.** Abnormale en goedgunstige voordelen
+- **d.** Sociale voordelen
 
 e. Voordelen MC, ecocheques
 
@@ -8192,7 +8415,7 @@ _24 vragen — 2 met modelantwoord — 0 met gap-rapport._
 
 #### Vraagtekst
 
-E.1 Gelieve een kruisje te plaatsen voor de economische activiteiten die geen recht geven op een BTW aftrek . 2 PUNTEN (cid:137) Een natuurlijke persoon “zaakvoerder” van een BVBA (cid:137) Een natuurlijke persoon “bestuurder” van een NV (cid:137) Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming (cid:137) Een natuurlijk persoon “vereffenaar” van een CVBA
+Gelieve een kruisje te plaatsen voor de economische activiteiten die geen recht geven op een BTW aftrek .  (cid:137) Een natuurlijke persoon “zaakvoerder” van een BVBA (cid:137) Een natuurlijke persoon “bestuurder” van een NV (cid:137) Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming (cid:137) Een natuurlijk persoon “vereffenaar” van een CVBA
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -8206,7 +8429,7 @@ _Ook geklassificeerd onder_: 2.8
 
 #### Vraagtekst
 
-E.2 Welk is de aftrekbare BTW in de volgende gevallen (antwoord dient in cijfers uitgedrukt te worden !!) 2 PUNTEN * 100,00 EUR BTW op een factuur van brandstof voor een auto die voor 25 % voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75 % privé) * 514, 50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf. Er is geen logo van de firma terug te vinden op de pennen. * Factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit “bouwpromotor” (overdracht van betaling met correcte toepassing van de regeling inzake de medecontractant – KB nr 1 , artikel 20) * Intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn, aan 18,00 EUR per fles, van een wijnboer gevestigd in Frankrijk. Totaal van de factuur 2.700,00 EUR). Daarenboven zijn de Belgische accijnzen verschuldigd van 4,00 EUR per fles, hetzij 600,00 EUR in totaal. De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt.
+Welk is de aftrekbare BTW in de volgende gevallen (antwoord dient in cijfers uitgedrukt te worden !!)  * 100,00 EUR BTW op een factuur van brandstof voor een auto die voor 25 % voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75 % privé) * 514, 50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf. Er is geen logo van de firma terug te vinden op de pennen. * Factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit “bouwpromotor” (overdracht van betaling met correcte toepassing van de regeling inzake de medecontractant – KB nr 1 , artikel 20) * Intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn, aan 18,00 EUR per fles, van een wijnboer gevestigd in Frankrijk. Totaal van de factuur 2.700,00 EUR). Daarenboven zijn de Belgische accijnzen verschuldigd van 4,00 EUR per fles, hetzij 600,00 EUR in totaal. De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -8218,7 +8441,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-E.3 Is er BTW verschuldigd op de volgende verrichtingen, die verricht worden in de loop van het jaar 2003, in hoofde van een BTW belastingplichtige, ontvanger van BTW met recht op aftrek? 2 PUNTEN Gelieve uw keuze te omcirkelen. Indien U “JA” antwoordt, dient U het bedrag van de verschuldigde belasting te vermelden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrage te komen. JA NEEN * Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper) JA NEEN * Voordeel van alle aard van 1.500, 00 EUR voor het gebruik van een auto door een personeelslid JA NEEN * Overschakeling van het normale regime naar het franchisesysteem. Bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR, exclusief 21 % BTW (belasting die geheel werd afgetrokken) JA NEEN * Verkoop van goederen voor 10.000 € met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat. JA NEEN
+Is er BTW verschuldigd op de volgende verrichtingen, die verricht worden in de loop van het jaar 2003, in hoofde van een BTW belastingplichtige, ontvanger van BTW met recht op aftrek?  Gelieve uw keuze te omcirkelen. Indien U “JA” antwoordt, dient U het bedrag van de verschuldigde belasting te vermelden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrage te komen. JA NEEN * Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper) JA NEEN * Voordeel van alle aard van 1.500, 00 EUR voor het gebruik van een auto door een personeelslid JA NEEN * Overschakeling van het normale regime naar het franchisesysteem. Bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR, exclusief 21 % BTW (belasting die geheel werd afgetrokken) JA NEEN * Verkoop van goederen voor 10.000 € met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat. JA NEEN
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -8230,7 +8453,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-E.4 Welk is het wettelijk tijdstip of de uiterste datum voor de punctuele uitvoering van de volgende BTW verplichtingen? 2 PUNTEN * Neerlegging van de jaarlijkse klantenlistings onderworpen en geïdentificeerd bij de BTW DATUM/MOMENT : * Betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW aangiftes doet. DATUM/MOMENT : * Afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) – Wijziging van effectief domicilie op 1 april 2003 DATUM/MOMENT : * Afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) – Definitieve stopzetting op 31 maart 2003. DATUM/MOMENT :
+Welk is het wettelijk tijdstip of de uiterste datum voor de punctuele uitvoering van de volgende BTW verplichtingen?  * Neerlegging van de jaarlijkse klantenlistings onderworpen en geïdentificeerd bij de BTW DATUM/MOMENT : * Betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW aangiftes doet. DATUM/MOMENT : * Afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) – Wijziging van effectief domicilie op 1 april 2003 DATUM/MOMENT : * Afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) – Definitieve stopzetting op 31 maart 2003. DATUM/MOMENT :
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -8242,7 +8465,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-E.5 Gelieve de juiste keuze te omcirkelen betreffende volgende stellingen: 2 PUNTEN * Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden JUIST FOUT * Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert. JUIST FOUT * Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek JUIST FOUT * Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW aangifte op te stellen. JUIST FOUT
+Gelieve de juiste keuze te omcirkelen betreffende volgende stellingen:  * Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden JUIST FOUT * Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert. JUIST FOUT * Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek JUIST FOUT * Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW aangifte op te stellen. JUIST FOUT
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -8254,7 +8477,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-I. 1 Worden er in België accijnzen geheven op de aankoop van volgende producten door een restaurateur die in ons land is gevestigd? Het betreft hier intracommunautaire verwervingen in hoofde van de restaurateur. 2 PUNTEN Gelieve uw keuze te omcirkelen: * Aankoop van sigaren bij een winkel gevestigd in Nederland JA NEEN * Champagne die gekocht werd bij een Franse producent in Frankrijk JA NEEN * Stookolie afkomstig van Duitsland voor de verwarming van het restaurant JA NEEN * Hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk. JA NEEN
+I. 1 Worden er in België accijnzen geheven op de aankoop van volgende producten door een restaurateur die in ons land is gevestigd? Het betreft hier intracommunautaire verwervingen in hoofde van de restaurateur.  Gelieve uw keuze te omcirkelen: * Aankoop van sigaren bij een winkel gevestigd in Nederland JA NEEN * Champagne die gekocht werd bij een Franse producent in Frankrijk JA NEEN * Stookolie afkomstig van Duitsland voor de verwarming van het restaurant JA NEEN * Hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk. JA NEEN
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -8266,7 +8489,11 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-E.1 Een van uw cliënten, detailhandelaar in textielproducten, startte zijn activiteiten op 1/1/2006 en koos voor het forfaitaire BTW regime. Alle BTW aangiften werden tijdig ingediend alsook werd steeds stipt de verschuldigde BTW betaald. Gezien haar activiteiten zich snel en succesvol hebben ontwikkeld, heeft U haar aangeraden om vanaf 01/04/2008 een maandelijkse BTW aangifte in te dienen. Welke zijn de concrete gevolgen van deze keuze (Gelieve kort te antwoorden !): De verwachte antwoorden zijn minimaal de volgende : Op het vlak Antwoord : van de contacten met - De BTW administratie voor 15/03/2008 informeren over deze de BTW wijziging in BTW regime administratie - Niet langer forfaitaire aangiftes mogelijk, maar wel het normale regime van toepassing Op het vlak Antwoord : van de stock van de - In 2 exemplaren een inventaris van de stock maken op 30/4/2008 handelswaren : - Detaxatie van de stock - Inschrijving in vak 62 van de aangifte Op het vlak Antwoord : van de volgende BTW - Maandelijkse betaling van de verschuldigde BTW betalingen - Einde van de trimestriële voorschotten (- Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)
+Een van uw cliënten, detailhandelaar in textielproducten, startte zijn activiteiten op 1/1/2006 en koos voor het forfaitaire BTW regime. Alle BTW aangiften werden tijdig ingediend alsook werd steeds stipt de verschuldigde BTW betaald. Gezien haar activiteiten zich snel en succesvol hebben ontwikkeld, heeft U haar aangeraden om vanaf 01/04/2008 een maandelijkse BTW aangifte in te dienen.
+
+**Welke zijn de concrete gevolgen van deze keuze (Gelieve kort te antwoorden !**
+
+): De verwachte antwoorden zijn minimaal de volgende : Op het vlak Antwoord : van de contacten met - De BTW administratie voor 15/03/2008 informeren over deze de BTW wijziging in BTW regime administratie - Niet langer forfaitaire aangiftes mogelijk, maar wel het normale regime van toepassing Op het vlak Antwoord : van de stock van de - In 2 exemplaren een inventaris van de stock maken op 30/4/2008 handelswaren : - Detaxatie van de stock - Inschrijving in vak 62 van de aangifte Op het vlak Antwoord : van de volgende BTW - Maandelijkse betaling van de verschuldigde BTW betalingen - Einde van de trimestriële voorschotten (- Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)
 
 #### Modelantwoord
 
@@ -8290,7 +8517,7 @@ BTW informeren vóór 15/03/2008; stockinventaris 30/4/2008 met detaxatie (vak 6
 
 #### Vraagtekst
 
-E.2 Welke zijn de vakken in de periodieke BTW aangifte die moeten ingevuld worden voor de volgende verrichtingen, die werden gedaan door een handelaar (natuurlijke persoon) in nieuwe en tweedehandswagens?
+**Welke zijn de vakken in de periodieke BTW aangifte die moeten ingevuld worden voor de volgende verrichtingen, die werden gedaan door een handelaar (natuurlijke persoon) in nieuwe en tweedehandswagens?**
 
 1. Nieuwe wagens werden geleverd en gefactureerd aan cliënten die onderworpen zijn aan de Luxemburgse BTW voor een bedrag van 66.438,00 € : Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 46 66.438,00
 
@@ -8312,13 +8539,23 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-E.3
+1.
 
-1. Welke is de uiterste datum waarover U beschikt om de BTW af te trekken ? Gelieve precies te antwoorden ! Via de aangifte die moet ingediend worden uiterlijk voor het einde van het 3de jaar dat volgt op het jaar gedurende hetwelk het recht op aftrek is ontstaan.
+**Welke is de uiterste datum waarover U beschikt om de BTW af te trekken ?**
 
-2. Welke is/zijn de BTW regime(s) voor de BTW aangiftes die U kan voorstellen aan een zelfstandige psychologe in bijberoep die een omzetcijfer van 4.312,00 € per jaar heeft? Vrijstellingsregeling (geen aangifte) Kwartaalaangifte (Maandelijkse aangifte)
+Gelieve precies te antwoorden ! Via de aangifte die moet ingediend worden uiterlijk voor het einde van het 3de jaar dat volgt op het jaar gedurende hetwelk het recht op aftrek is ontstaan.
 
-3. Verklaar het principe van de BTW eenheid (enkel het principe !!! , de modaliteiten en de werking worden NIET gevraagd ). De BTW éénheid laat toe om, op juridisch vlak, onafhankelijke personen, maar die op financieel, organisatorisch en economisch vlak nauw met elkaar verbonden zijn, toch te beschouwen als één enkele BTW plichtige. Dit betekent dat de verrichtingen tussen deze personen, die deel uitmaken van de BTW éénheid, niet aan de BTW onderworpen zijn. Dit laat ook toe om de administratieve verplichtingen van deze ondernemingen te rationaliseren en te vereenvoudigen vermits deze BTW eenheid slechts één BTW onderworpene is die instaat voor alle BTW rechten en BTW plichten van haar leden.
+2.
+
+**Welke is/zijn de BTW regime(s) voor de BTW aangiftes die U kan voorstellen aan een zelfstandige psychologe in bijberoep die een omzetcijfer van 4.**
+
+312,00 € per jaar heeft? Vrijstellingsregeling (geen aangifte) Kwartaalaangifte (Maandelijkse aangifte)
+
+3.
+
+**Verklaar het principe van de BTW eenheid (enkel het principe !**
+
+!! , de modaliteiten en de werking worden NIET gevraagd ). De BTW éénheid laat toe om, op juridisch vlak, onafhankelijke personen, maar die op financieel, organisatorisch en economisch vlak nauw met elkaar verbonden zijn, toch te beschouwen als één enkele BTW plichtige. Dit betekent dat de verrichtingen tussen deze personen, die deel uitmaken van de BTW éénheid, niet aan de BTW onderworpen zijn. Dit laat ook toe om de administratieve verplichtingen van deze ondernemingen te rationaliseren en te vereenvoudigen vermits deze BTW eenheid slechts één BTW onderworpene is die instaat voor alle BTW rechten en BTW plichten van haar leden.
 
 4. U bent een zelfstandig boekhouder BIBF gevestigd in België en verricht boekhoudkundige prestaties in een onderneming die gevestigd is in Frankrijk, en die U factureert aan uw belastingplichtige cliënt die in Nederland gevestigd is. In welk land is de BTW verschuldigd ? België, Frankrijk of Nederland ? Verantwoord uw antwoord door te verwijzen naar het toepasselijke artikel uit het BTW wetboek. In Nederland Art. 21 § 3, 7° d) BTW Wetboek (plaats van diegene waar de dienst geleverd wordt)
 
@@ -8340,10 +8577,13 @@ Aftrektermijn = einde 3de jaar; bijberoep-psychologe: vrijstelling of kwartaalaa
 
 #### Vraagtekst
 
-Vraag 1 … / 9 punten
-Vermeld voor onderstaande handelingen het(de) rooster(s) van de btw-aangifte die moeten
-ingevuld worden en eveneens het(de) overeenkomstig(e) bedrag(en).
-Een modelaangifte is in bijlage toegevoegd.
+**Vermeld voor onderstaande handelingen het(de) rooster(s) van de btw-aangifte die moeten
+ingevuld worden en eveneens het(de) overeenkomstig(e) bedrag(en).**
+
+Een modelaangifte is
+
+_in bijlage toegevoegd._
+
 U mag er van uit gaan dat de bedragen exclusief btw zijn.
 a) Een gewone belastingplichtige zet op 15 januari 2012 zijn economische activiteit stop.
 Op het ogenblik van deze definitieve stopzetting bevat het bedrijfspatrimonium nog
@@ -8422,10 +8662,11 @@ belastingplichtige een transfertdocument op.
 
 #### Vraagtekst
 
-Vraag 2 … / 6 punten
-Welke btw gevolgen zijn verbonden aan de onderstaande gegevens:
+**Welke btw gevolgen zijn verbonden aan de onderstaande gegevens:
 Geef hierbij een woordje uitleg (geen verwijzing naar artikelnummers) en vermeld
-overeenkomstig(e) bedrag(en). De nummers van de roosters van de btw-aangifte moet je niet
+overeenkomstig(e) bedrag(en).**
+
+De nummers van de roosters van de btw-aangifte moet je niet
 vermelden.
 a) A, een handelaar in computers richt een gebouw op in 2012 (= opslagplaats van
 goederen) (in gebruik name op 01.07.2012).
@@ -8443,9 +8684,11 @@ De aankoopprijs van de wagen bedraagt € 30 000,00 (excl. btw). Het personeelsl
 de wagen ook voor privédoeleinden gebruiken.
 Bij aankoop werd het beroepsgebruik geraamd op 60%. Einde 2013 bleek het
 effectieve beroepsgebruik 30% te zijn.
-Antwoord
+
+**Antwoord
 c) In 2008 : aankoop van een personenwagen door een btw-belastingplichtige BVBA voor
-€ 30 000,00 + € 6 300,00 btw.
+€ 30 000,00 + € 6 300,00 btw.**
+
 (in 2008 uitgeoefend recht op aftrek : 6 300,00 x 50% = 3 150,00)
 In 2013 : verkoop van die wagen voor € 8 000,00 (excl. btw).
 Wat zijn de btw gevolgen bij verkoop van de wagen in 2013?
@@ -8491,10 +8734,12 @@ Wat zijn de btw gevolgen bij verkoop van de wagen in 2013?
 
 #### Vraagtekst
 
-Vraag 1 … / 7 punten
 Moet er in het onderstaande geval een herziening van het recht op aftrek gebeuren ? Zo ja,
 bereken het bedrag ervan. Zo neen, zeg waarom.
-Alle bedragen zijn exclusief btw. Motiveer bondig je antwoord.
+Alle bedragen zijn exclusief btw.
+
+**Motiveer bondig je antwoord.**
+
 Een in België gevestigde kleinhandelaar in algemene levensmiddelen, onderworpen aan de
 normale regeling, zet zijn activiteit stop op 30/11/2013.
 Hij oefende zijn activiteit uit in een gebouw dat hij huurt. Het gebouw werd voor 40 %
@@ -8508,13 +8753,21 @@ doorverkoop (onderworpen aan 21 % btw);
 - 2 diepvrieskasten die hij in 1998 heeft aangekocht voor zijn economische activiteit
 tegen een prijs per stuk van 300,00 EUR + 19 % btw.
 Met betrekking tot :
-a) Het gebouw:
+
+- **a.** Het gebouw:
+
 Antwoord … /1 punt
-b) De verbeteringswerken:
+
+- **b.** De verbeteringswerken:
+
 Antwoord … /2 punten
-c) De stopzetting:
+
+- **c.** De stopzetting:
+
 Antwoord … /2 punten
-d) De diepvrieskasten:
+
+- **d.** De diepvrieskasten:
+
 Antwoord … /2 punten
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -8543,18 +8796,23 @@ De diepvrieskasten:
 
 #### Vraagtekst
 
-Vraag 2 … / 8 punten
-a) De BVBA ‘A’ (gewone belastingplichtige) stelt een nieuwe personenwagen ter
+- **a.** De BVBA ‘A’ (gewone belastingplichtige) stelt een nieuwe personenwagen ter
+
 beschikking van de zaakvoerder. De aankoopprijs bedraagt 25 000,00 EUR exclusief
 btw. De zaakvoerder gebruikt de wagen zowel voor privé- als voor beroepsdoeleinden.
 Tijdens het jaar 2013 heeft de zaakvoerder 25.250 km gereden. De afstand van de
 woning naar de bedrijfszetel van de vennootschap – enkele rit – bedraagt 40 km.
 De bvba A wenst niet te opteren voor de methode van het algemeen forfait van 35%.
-1. Bereken het beroepsmatig gebruik van de wagen.
+1.
+
+**Bereken het beroepsmatig gebruik van de wagen.**
+
 Antwoord … / 3 punten
 2. Hoeveel btw kan deze BVBA in aftrek brengen op de aankoopprijs ?
 Antwoord … / 2 punten
-b) BVBA ‘B’ (gewone belastingplichtige) stelt in 2013 een personenwagen ter
+
+- **b.** BVBA ‘B’ (gewone belastingplichtige) stelt in 2013 een personenwagen ter
+
 beschikking aan haar enige werknemer. Op het maandelijkse loon wordt een bijdrage
 van 50,00 EUR ingehouden als vergoeding voor het privé gebruik. De wagen wordt
 door de vennootschap in 2011 aangekocht voor de prijs van 25 000,00 EUR exclusief
@@ -8606,14 +8864,15 @@ _Ook geklassificeerd onder_: 2.8
 
 #### Vraagtekst
 
-Vraag 1 … / 3 punten
 Een in Welkenraedt gevestigde onderneming, gespecialiseerd in dakwerken, bouwt het
 dakgebinte en de dakbedekking van een zwembad in München (Duitsland), tegen de prijs van
 10.000 EUR. De eigenaar is een Oostenrijkse particulier.
 Duid de goede oplossing aan.
-Antwoord
+
+**Antwoord
 
-De btw is niet van toepassing want de klant is een particulier, gevestigd buiten België.
+De btw is niet van toepassing want de klant is een particulier, gevestigd buiten België.**
+
 
 De btw is niet van toepassing want de aannemer is gevestigd in een andere lidstaat dan de
 plaats van het werk.
@@ -8634,7 +8893,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 2 … / 3 punten
 Een fabrikant van industriële aanhangwagens, een gewone belastingplichtige en gevestigd in
 Vilvoorde, wordt failliet verklaard. De voorraad aanhangwagens en het exploitatiemateriaal
 van de onderneming worden, op verzoek van de door de rechtbank van koophandel van
@@ -8642,10 +8900,12 @@ Brussel aangestelde curator, openbaar verkocht tegen de bij de toewijzing vastge
 De kopers zijn Belgische gewone belastingplichtigen die zelf instaan voor het ophalen en
 vervoeren van de door hen gekochte loten.
 Duid de goede oplossing aan.
-Antwoord
+
+**Antwoord
 
 De btw is niet van toepassing want de kopers oefenen een economische activiteit uit en
-hebben een geldig btw-nummer.
+hebben een geldig btw-nummer.**
+
 
 De btw is niet van toepassing want de leverancier is failliet verklaard.
 
@@ -8668,7 +8928,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 3 … / 3 punten
 Sophie, intern boekhoudster bij de firma ElectroStar, groothandel in huishoudtoestellen in
 Brussel, doet sinds een jaar, als zelfstandige in bijberoep (na haar dagtaak), de boekhouding
 
@@ -8676,9 +8935,12 @@ van de firma Libro, een ijzerwinkel in Brussel.
 In 2013 ontvangt ze daarvoor 1.500 EUR per maand. In haar aangifte in de personenbelasting,
 geeft zij dit bedrag aan onder de diverse inkomsten.
 Duid de goede oplossing aan.
-Antwoord
+
+**Antwoord
 
-De btw is niet van toepassing, want Sophie is geen btw-belastingplichtige. Ze handelt in het
+De btw is niet van toepassing, want Sophie is geen btw-belastingplichtige.**
+
+Ze handelt in het
 verlengde van haar job als werknemer en ze is dus niet zelfstandig.
 
 De btw is niet van toepassing, want in haar aangifte in de personenbelasting geeft Sophie dit
@@ -8703,16 +8965,17 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 4 … / 3 punten
 Julien, bediende bij een bank in België, doet een beroep op een in Charleroi gevestigde
 zelfstandige accountant (gewone belastingplichtige) om zijn belastingaangifte op te stellen.
 De accountant stelt die belastingaangifte op in de trein, op weg naar een conferentie in
 Parijs, en wel tijdens het gedeelte van de reisweg afgelegd in Frankrijk, en rekent Julien 500
 EUR aan voor zijn werk.
 Duid de goede oplossing aan.
-Antwoord
+
+**Antwoord
 
-De btw is niet van toepassing want de klant is een particulier.
+De btw is niet van toepassing want de klant is een particulier.**
+
 
 De Belgische btw is niet van toepassing, want het werk werd daadwerkelijk in Frankrijk
 uitgevoerd.
@@ -8736,7 +8999,6 @@ _Ook geklassificeerd onder_: 2.8
 
 #### Vraagtekst
 
-Vraag 5 … / 3 punten
 Een in Londen gevestigde hotelonderneming, die onder meer een hotel uitbaat in Coventry
 (Groot-Brittannië), bestelt bij het Brussels reclameblad Publi-Magazine een advertentie van
 een halve bladzijde om de prijzen van haar hotel in de Paasvakantie te promoten. De prijs die
@@ -8778,7 +9040,6 @@ _Ook geklassificeerd onder_: 2.6
 
 #### Vraagtekst
 
-Vraag 1 … / 4 punten
 Uw cliënt is eigenaar van een woning gelegen in het Brussels Hoofdstedelijk Gewest. Uw
 cliënt wenst het appartement te verkopen en vraagt u om hem daarin te adviseren en de
 meest voordelige formule voor hem aan te raden.
@@ -8788,20 +9049,29 @@ In 2011 is hij gestart met het bouwen van een woning, totale kostprijs 363.000 E
 Er is een koper voor de woning (+ grond) die 650.000 EUR wil betalen maar dit bedrag is voor
 de koper alle kosten (belastingen) inbegrepen. U mag de notariskosten en andere kosten
 buiten beschouwing houden.
-Wat is voor uw cliënt de meest voordelige mogelijkheid?
-A. De verkoper kan opteren als toevallige btw-belastingplichtige, zodanig dat hij de
+
+**Wat is voor uw cliënt de meest voordelige mogelijkheid?**
+
+- **A.** De verkoper kan opteren als toevallige btw-belastingplichtige, zodanig dat hij de
+
 woning+grond onder het btw-stelsel kan verkopen en de btw op de oprichting in aftrek
 kan brengen. De winst op deze verkoop voor de cliënt zal het hoogst zijn.
-B. Alhoewel de verkoper kan opteren als toevallige btw-belastingplichtige, is het beter om
+
+- **B.** Alhoewel de verkoper kan opteren als toevallige btw-belastingplichtige, is het beter om
+
 dit niet te doen en om de verkoop (grond+gebouw) onder Registratierecht te laten
 doorgaan. De winst op de verkoop onder Registratierecht zal voor de cliënt het hoogst
 zijn.
-C. Alhoewel de verkoper kan opteren als toevallige btw-belastingplichtige, is het beter om
+
+- **C.** Alhoewel de verkoper kan opteren als toevallige btw-belastingplichtige, is het beter om
+
 dit niet te doen en om de verkoop (grond+gebouw) onder Registratierecht te laten
 doorgaan. De winst op de verkoop onder Registratierecht zal voor de cliënt het hoogst
 zijn omdat hij ook nog een deel van de vroeger betaalde Registratierechten kan
 verrekenen.
-D. Er is geen mogelijkheid meer om de verkoop onder btw te laten plaats vinden gezien de
+
+- **D.** Er is geen mogelijkheid meer om de verkoop onder btw te laten plaats vinden gezien de
+
 termijn voor het uitoefenen van de optie voor toevallige btw-belastingplichtige verstreken
 is.
 E. De voordeligste situatie is de verkoop van de grond onder Registratierecht te laten
@@ -8818,7 +9088,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 2 … / 2 punten
 Een nieuwe klant komt bij u aankloppen en vraagt om begeleiding bij de opstart, onder meer
 over zijn btw-statuut.
 Het gaat om een nieuw op te richten vzw die volgende activiteiten zal ontwikkelen:
@@ -8829,17 +9098,26 @@ tijdens de uren van de lessen en niet toegankelijk is voor mensen van buiten af.
 café wordt uitsluitend niet alcoholische dranken geschonken. De inkomsten uit deze
 activiteiten zijn heel gering en in elk geval minder dan 10.000 EUR jaaromzet.
  De verkoop van boeken over het beoefenen van yoga, geschatte jaaromzet 4.000 EUR.
-Wat is het btw-statuut van de vzw?
-A. De vzw kan de vrijstelling van artikel 44, §2, 4° WBTW (onderwijs) inroepen, ook voor de
+
+**Wat is het btw-statuut van de vzw?**
+
+- **A.** De vzw kan de vrijstelling van artikel 44, §2, 4° WBTW (onderwijs) inroepen, ook voor de
+
 bijkomende activiteiten. Ze heeft dan ook het statuut van vrijgestelde belastingplichtige, ze
 moet geen periodieke btw-aangiften indienen, maar kan ook geen recht op aftrek uitoefenen.
-B. De vzw kan geen enkele vrijstelling inroepen, ze is onderworpen aan btw. Ze heeft het
+
+- **B.** De vzw kan geen enkele vrijstelling inroepen, ze is onderworpen aan btw. Ze heeft het
+
 statuut van belastingplichtige met recht op aftrek en zal periodieke aangiften moeten
 indienen.
-C. De vzw kan de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen, ook voor de
+
+- **C.** De vzw kan de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen, ook voor de
+
 bijkomende activiteiten. Ze heeft dan ook het statuut van vrijgestelde belastingplichtige, ze
 moet geen periodieke btw-aangiften indienen, maar kan ook geen recht op aftrek uitoefenen.
-D. Voor de yogalessen kan de vzw de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen
+
+- **D.** Voor de yogalessen kan de vzw de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen
+
 maar zal voor de bijkomende activiteiten (café en verkoop boeken) btw dienen aan te
 rekenen. Ze is dus een gemengde belastingplichtige, zal periodieke btw-aangiften indienen
 en zal gedeeltelijk recht op aftrek kunnen uitoefenen (verhoudingsgetal of werkelijk gebruik).
@@ -8854,18 +9132,23 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 3 … / 3 punten
 De uitbater van een lokale supermarkt heeft in de rekken regelmatig etenswaren die nog
 moeilijk verkoopbaar zijn omdat bijvoorbeeld de verpakking licht beschadigd is, of omdat de
 vervaldatum dichtbij is. In plaats van de producten te verkopen met afslag of te vernietigen
 gaat hij vanaf nu de producten zelf verbruiken. Moet de winkelier de btw regelen?
-A. Neen, eigen verbruik van vervallen producten is toegelaten.
-B. Ja, hij moet een stuk opmaken aan zichzelf en de btw voldoen op de verkoopprijs van de
+
+- **A.** Neen, eigen verbruik van vervallen producten is toegelaten.
+- **B.** Ja, hij moet een stuk opmaken aan zichzelf en de btw voldoen op de verkoopprijs van de
+
 producten die hij onttrekt uit zijn voorraad.
-C. Ja, hij moet een stuk opmaken aan zichzelf en de btw voldoen op een verminderde
+
+- **C.** Ja, hij moet een stuk opmaken aan zichzelf en de btw voldoen op een verminderde
+
 waarde, namelijk de aankoopprijs van de goederen op het moment van de onttrekking en
 rekening houdend met de staat waarin ze zich bevinden.
-D. Ja, hij moet de btw die hij oorspronkelijk op de aankoop van de producten heeft
+
+- **D.** Ja, hij moet de btw die hij oorspronkelijk op de aankoop van de producten heeft
+
 afgetrokken terugstorten via een herziening.
 E. Neen, dit is geen handeling onder bezwarende titel, want hij betaalt niet voor het
 onttrekken van de producten.
@@ -8880,7 +9163,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 4 … / 3 punten
 De interne accountant van een Belgische onderneming rijdt met zijn bedrijfswagen elke
 maand 2 dagen naar hun filiaal in Parijs om daar de boekhouding van de Franse
 onderneming af te sluiten en de Franse btw-aangifte te doen.
@@ -8888,17 +9170,25 @@ De accountant beschikt over een laptop, een gsm en een leasewagen van zijn Belgi
 werkgever (met Belgische nummerplaat).
 Zijn er bepaalde btw-verplichtingen te vervullen door de Belgische onderneming i.v.m. de
 maandelijkse trip naar Parijs?
-A. Ja, het gaat om een overbrenging van goederen van de onderneming naar een andere
+
+- **A.** Ja, het gaat om een overbrenging van goederen van de onderneming naar een andere
+
 lidstaat van de EU. De Belgische onderneming moet voor de overbrenging van de
 wagen, de laptop en de gsm een factuur opmaken aan het Franse filiaal.
-B. Ja, het gaat om een overbrenging van eigen goederen van de onderneming naar een
+
+- **B.** Ja, het gaat om een overbrenging van eigen goederen van de onderneming naar een
+
 andere lidstaat van de EU. De Belgische onderneming moet voor deze overbrenging een
 “overbrengingsstuk” aan zichzelf opmaken.
-C. Ja, het gaat echter om een “niet-overbrenging” van eigen goederen en hiervoor moet
+
+- **C.** Ja, het gaat echter om een “niet-overbrenging” van eigen goederen en hiervoor moet
+
 geen stuk worden opgemaakt maar wel telkens bij vertrek uit België een inschrijving in
 het register der niet-overbrengingen. De goederen moeten worden uitgeschreven uit dit
 register bij de terugkeer ervan naar België.
-D. Neen, het gaat wel om een “niet-overbrenging” van eigen goederen en er moet dus geen
+
+- **D.** Neen, het gaat wel om een “niet-overbrenging” van eigen goederen en er moet dus geen
+
 overbrengingsstuk worden gemaakt en bovendien staat de Administratie toe dat geen
 inschrijving in het register der niet-overbrengingen moet worden gedaan voor auto’s,
 computers en gsm’s.
@@ -8915,7 +9205,6 @@ _Ook geklassificeerd onder_: 2.8
 
 #### Vraagtekst
 
-Vraag 5 … / 3 punten
 Een Belgische onderneming fabrikant van badkameraccessoires verkoopt goederen aan een
 Nederlandse groothandel (met geldig NL btw-nummer) met leveringsvoorwaarden franco
 Duitsland. De Nederlandse groothandel heeft de goederen doorverkocht aan een Duitse
@@ -8923,18 +9212,26 @@ groothandel (met geldig DE btw-nummer) en vraagt dus aan haar Belgische leveranc
 de goederen rechtstreeks naar Duitsland te transporteren naar het magazijn van haar Duitse
 klant.
 Wat vermeldt de Belgische onderneming op haar verkoopfactuur ? In welk vak van de btw-
-aangifte neemt ze deze handeling op (kopie van het btw-aangifteformulier vindt u in bijlage)?
+aangifte neemt ze deze handeling op (kopie van het btw-aangifteformulier vindt u
+
+_in bijlage)?
 Zijn er nog andere verplichtingen te vervullen?
-A. Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische
+A._
+
+Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische
 onderneming vermeldt op de verkoopfactuur ‘Vrijgestelde intracommunautaire levering
 artikel 39bis WBTW (of artikel 146 btw Richtlijn 2006/112/EU).’De handeling wordt alleen
 opgenomen in vak 46 van haar btw-aangifte.
-B. Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische
+
+- **B.** Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische
+
 onderneming vermeldt op de verkoopfactuur ‘Vrijgestelde intracommunautaire levering
 artikel 39bis WBTW (of artikel 146 btw Richtlijn 2006/112/EU).’ De handeling wordt
 opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het
 NL btw-nummer van de Nederlandse afnemer en de code L (= levering).
-C. Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische
+
+- **C.** Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische
+
 onderneming vermeldt op de verkoopfactuur ‘Vrijgestelde intracommunautaire levering
 artikel 39bis WBTW.’ De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in
 
@@ -8975,51 +9272,36 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 11 BTW
 
-A. Situatie: Rentenier liet hybride dieselwagen onderhouden door Porsche-garage Antwerpen (maandaangever) Onderhoud op 27/4/N Klant betaald op 3/5/N Op 30/4/N uitreiking factuur van 1.210 euro incl BTW:
-
-a. Niet verplicht van factuur uit te reiken: BTW opeisbaar 3/5/N
-
-b. Niet verplicht van factuur uit te reiken: BTW opeisbaar 30/4/N
-
-c. Verplicht factuur : BTW opeisbaar 30/5/N
-
-d. Verplicht factuur: BTW opeisbaar 30/4/N
-
-B. Margeregeling, situatie hoe opnemen in de btw aangifte.
-
-C. Vrijstellingsregeling is mogelijk voor volgende activiteiten: (alles juist of geen punten)
-
-a. Elektricien omzet 10.000
-
-b. Kapper omzet 15.000
-
-c. Diëtist vrijgestelde omzet 50.000, onderworpen omzet 15.000
-
-d. Schoonheidsspecialiste omzet 30.000
+- **A.** Situatie: Rentenier liet hybride dieselwagen onderhouden door Porsche-garage Antwerpen (maandaangever) Onderhoud op 27/4/N Klant betaald op 3/5/N Op 30/4/N uitreiking factuur van 1.210 euro incl BTW:
+- **a.** Niet verplicht van factuur uit te reiken: BTW opeisbaar 3/5/N
+- **b.** Niet verplicht van factuur uit te reiken: BTW opeisbaar 30/4/N
+- **c.** Verplicht factuur : BTW opeisbaar 30/5/N
+- **d.** Verplicht factuur: BTW opeisbaar 30/4/N
+- **B.** Margeregeling, situatie hoe opnemen in de btw aangifte.
+- **C.** Vrijstellingsregeling is mogelijk voor volgende activiteiten: (alles juist of geen punten)
+- **a.** Elektricien omzet 10.000
+- **b.** Kapper omzet 15.000
+- **c.** Diëtist vrijgestelde omzet 50.000, onderworpen omzet 15.000
+- **d.** Schoonheidsspecialiste omzet 30.000
 
 e. Verhuur gastenkamers met ontbijt omzet 20.000
 
-D. VAT Refund juist of fout
-
-a. Vrijgestelde BP kan buitenlandse BTW terugvragen via VAT Refund
-
-b. Minimumbedrag vereist voor verzoek tot teruggave is 50 euro per kalanderjaar per lidstaat
-
-c. Minimumbedrag vereist voor verzoek tot teruggave is afhankelijk van de EU lidstaat van het land van de BP
-
-d. Minimumbedrag vereist voor verzoek tot teruggave is afhankelijk van land waarop de teruggave betrekking heeft.
+- **D.** VAT Refund juist of fout
+- **a.** Vrijgestelde BP kan buitenlandse BTW terugvragen via VAT Refund
+- **b.** Minimumbedrag vereist voor verzoek tot teruggave is 50 euro per kalanderjaar per lidstaat
+- **c.** Minimumbedrag vereist voor verzoek tot teruggave is afhankelijk van de EU lidstaat van het land van de BP
+- **d.** Minimumbedrag vereist voor verzoek tot teruggave is afhankelijk van land waarop de teruggave betrekking heeft.
 
 e. Minimumbedrag voor verzoek is 400 euro per kalenderjaar per EU lidstaat.
 
-E. Vermeld BTW tarief of stelsel dat wordt toegepast voor glazenwassen door een Belgische onderneming die gewone BP is.
+E.
 
-a. BE gebouw, afnemer is BP die aangifte indiend
+**Vermeld BTW tarief of stelsel dat wordt toegepast voor glazenwassen door een Belgische onderneming die gewone BP is.**
 
-b. BE gebouw, meer dan 10 jaar betrokken door BE particulier
-
-c. BE gebouw minder dan 10 jaar betrokken door BE particulier
-
-d. BE gebouw, FR BP
+- **a.** BE gebouw, afnemer is BP die aangifte indiend
+- **b.** BE gebouw, meer dan 10 jaar betrokken door BE particulier
+- **c.** BE gebouw minder dan 10 jaar betrokken door BE particulier
+- **d.** BE gebouw, FR BP
 
 e. BE gebouw, Zweedse BP afnemer.
 
@@ -9075,7 +9357,7 @@ _18 vragen — 2 met modelantwoord — 0 met gap-rapport._
 
 #### Vraagtekst
 
-H.1. Binnen welke termijn dient een BTW inregelstelling ingediend te worden? 1 PUNT Gelieve het juiste antwoord aan te kruisen. (cid:137) Er is geen enkele termijn voor zover de wettelijke verjaringstermijn niet verstreken is (cid:137) Op straffe van verval binnen de 3 kalendermaanden vanaf de invorderingstermijn. (cid:137) Ten laatste aan het einde van de derde burgerlijke maand die volgt op de betekening van het dwangbevel. (cid:137) Binnen de 30 dagen vanaf de datum van het overzicht van de regularisaties
+Binnen welke termijn dient een BTW inregelstelling ingediend te worden? 1 PUNT Gelieve het juiste antwoord aan te kruisen. (cid:137) Er is geen enkele termijn voor zover de wettelijke verjaringstermijn niet verstreken is (cid:137) Op straffe van verval binnen de 3 kalendermaanden vanaf de invorderingstermijn. (cid:137) Ten laatste aan het einde van de derde burgerlijke maand die volgt op de betekening van het dwangbevel. (cid:137) Binnen de 30 dagen vanaf de datum van het overzicht van de regularisaties
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -9087,7 +9369,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-H.2. De belastingplichtige heeft geen verzoek ingediend (en dus ook niet gekregen) teneinde een bijkomende termijn voor het indienen van de aangifte te bekomen. Hij doet zijn aangifte in de personenbelasting laattijdig. Welk zijn de gevolgen van het laattijdig toekomen van zijn aangifte bij de belastingadministratie? 4 PUNTEN
+De belastingplichtige heeft geen verzoek ingediend (en dus ook niet gekregen) teneinde een bijkomende termijn voor het indienen van de aangifte te bekomen. Hij doet zijn aangifte in de personenbelasting laattijdig. Welk zijn de gevolgen van het laattijdig toekomen van zijn aangifte bij de belastingadministratie?
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -9099,7 +9381,11 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-H1. Hoe dient U een rechtsgeldig bezwaar in tegen een aanslag in de personenbelasting en binnen welke termijn dient dit te gebeuren ? Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB) Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB).
+H1.
+
+**Hoe dient U een rechtsgeldig bezwaar in tegen een aanslag in de personenbelasting en binnen welke termijn dient dit te gebeuren ?**
+
+Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB) Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB).
 
 #### Modelantwoord
 
@@ -9139,7 +9425,6 @@ Wanneer de fiscus overeenstemmende en ernstige elementen heeft die een vermoeden
 
 #### Vraagtekst
 
-Vraag 1 … / 9 punten
 De onderneming “Snack on the Road” exploiteert een foodservice langs de autosnelweg. De
 bediening ligt naast een tankstation en verschaft maaltijden en bereid voedsel aan
 automobilisten die op de pleisterplaats of aan het tankstation stoppen. De producten zijn
@@ -9159,19 +9444,27 @@ controle aan over de periode van 1 januari 2005 tot 27 januari 2013. Die aankond
 verwijst naar het proces-verbaal van dezelfde dag maar omschrijft de vastgestelde feiten
 niet. De controle is voorzien voor 20 februari 2013.
 Vragen:
-a) - Vermeld de normale verjaringstermijn van de vordering tot voldoening van de
+
+- **a.** - Vermeld de normale verjaringstermijn van de vordering tot voldoening van de
+
 belasting.
 -Vanaf welke dag begint deze verjaringstermijn te lopen?
 Antwoord
-b) -Vermeld de normale verjaringstermijn van de vordering tot voldoening van de
+
+- **b.** -Vermeld de normale verjaringstermijn van de vordering tot voldoening van de
+
 belasting in geval van belastingontduiking.
 -Vanaf welke dag begint deze verjaringstermijn te lopen?
 Antwoord
-c) Vermeld, in bovenstaand voorbeeld, het laatste jaar tot waar de administratie, vanaf 27
+
+- **c.** Vermeld, in bovenstaand voorbeeld, het laatste jaar tot waar de administratie, vanaf 27
+
 januari 2013, kan teruggaan om controle uit te oefenen.
-Antwoord
+
+**Antwoord
 d) Is de brief die de grondige controle aankondigt een aanwijzing van
-belastingontduiking?
+belastingontduiking?**
+
 Antwoord
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -9206,7 +9499,7 @@ belastingontduiking?
 
 #### Vraagtekst
 
-Vraag 2 … / 6 punten
+/ 6 punten
 Op 5 februari 2013 wordt het proces-verbaal van de administratie van de btw overgezonden
 aan de controleur van de directe belastingen van de onderneming Snack on the Road.
 Die vennootschap sluit haar boekjaar af op 31 maart van het jaar.
@@ -9214,19 +9507,31 @@ De controleur geeft kennis van de aanwijzingen inzake belastingontduiking en kon
 controle ter plaatse aan op 20 februari 2013 met betrekking tot de op 31 maart afgesloten
 boekjaren 2005 tot 2012.
 Vragen:
-a) Voor het aanslagjaar 2012 werd de aangifte in de vennootschapsbelasting bij de
-administratie ingediend op 20 september 2012. Geef de uiterste datum van inkohiering
-van de belasting.
+
+- **a.** Voor het aanslagjaar 2012 werd de aangifte in de vennootschapsbelasting bij de
+
+administratie ingediend op 20 september 2012.
+
+**Geef de uiterste datum van inkohiering
+van de belasting.**
+
 Antwoord
-b) Vermeld, in verband met de procedure gesteund op de aanwijzingen van
+
+- **b.** Vermeld, in verband met de procedure gesteund op de aanwijzingen van
+
 belastingontduiking, het oudste belastbare tijdperk dat het voorwerp kan uitmaken
-van die onderzoeken. Vermeld de begin- en einddatum van dit belastbare tijdperk.
+van die onderzoeken.
+
+**Vermeld de begin- en einddatum van dit belastbare tijdperk.**
+
 Antwoord
-c) Toont, wat de aanwijzingen van belastingontduiking betreft, het proces-verbaal van
+
+- **c.** Toont, wat de aanwijzingen van belastingontduiking betreft, het proces-verbaal van
+
 vaststelling inzake de btw, het bestaan van belastingontduiking aan op het gebied van
 de vennootschapsbelasting? Verklaar uw antwoord.
 Antwoord
-JURIDISCHE EN BEROEPSNORMEN MET BETREKKING 20 PUNTEN
+JURIDISCHE EN BEROEPSNORMEN MET BETREKKING 
 TOT DE ACCOUNTANCY, DE BELASTINGCONSULTANCY
 EN DE ANDERE WETTELIJKE OPDRACHTEN VAN DE
 ACCOUNTANT EN VAN DE BELASTINGCONSULENT
@@ -9259,7 +9564,6 @@ de vennootschapsbelasting? Verklaar uw antwoord.
 
 #### Vraagtekst
 
-Vraag 1 … / 6 punten
 Eén van uw cliënten – een verwarmingsinstallateur – ontvangt op 10 september 2013 een
 vraag om inlichtingen, luidende als volgt (nb: Het gaat hier over een aanvraag van
 inlichtingen betreffende een derde):
@@ -9274,10 +9578,14 @@ verstrekken.
 Uw cliënt meldt u ook dat, op 15 september, de toegang tot het bedrijf volledig geblokkeerd
 werd door stakingspiketten en dat de onderhandelingen met de vakbonden zeker 2 weken
 zullen aanslepen.
-a) Is deze vraag om inlichtingen regelmatig voor wat de aard van de gevraagde
+
+- **a.** Is deze vraag om inlichtingen regelmatig voor wat de aard van de gevraagde
+
 inlichtingen betreft (verklaar uw antwoord)?
 Antwoord …/ 2 punten
-b) Is de antwoordtermijn wettelijk (verklaar uw antwoord)?
+
+- **b.** Is de antwoordtermijn wettelijk (verklaar uw antwoord)?
+
 Antwoord …/ 2 punten
 
 c) Hoe moet tewerk gegaan worden om binnen de gestelde termijn te antwoorden,
@@ -9310,10 +9618,10 @@ aangezien het, momenteel, niet mogelijk is om de vereiste stukken te raadplegen
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
-Geef aan of onderstaande uitspraken waar of niet waar zijn:
+**Geef aan of onderstaande uitspraken waar of niet waar zijn:
 a) Met betrekking tot de roerende voorheffing, kan enkel de schuldenaar van de
-voorheffing (degene die de voorheffing moet inhouden) een bezwaarschrift indienen.
+voorheffing (degene die de voorheffing moet inhouden) een bezwaarschrift indienen.**
+
 De verkrijger van de inkomsten waarop de voorheffing werd ingehouden, kan dit recht
 niet uitoefenen.
 
@@ -9394,15 +9702,17 @@ _Ook geklassificeerd onder_: 2.4
 
 #### Vraagtekst
 
-Vraag 3 … / 5 punten
 Een gewone btw-belastingplichtige gevestigd in België koopt goederen in Duitsland. De
 goederen komen op 14/11/2012 aan bij de Belgische koper. Het vervoer werd verricht door
 een vervoeronderneming in opdracht van de Duitse verkoper. De factuur wordt toegestuurd
 en ontvangen door de Belgische btw-belastingplichtige op 03/12/2012.
 
-a) Wanneer is de btw opeisbaar? Verklaar bondig.
-Antwoord … / 2,5 punten
-b) Wanneer treedt er verjaring in? Verklaar bondig.
+- **a.** Wanneer is de btw opeisbaar? Verklaar bondig.
+
+**Antwoord … / 2,5 punten
+b) Wanneer treedt er verjaring in?**
+
+Verklaar bondig.
 Antwoord … / 2,5 punten
 JURIDISCHE EN BEROEPSNORMEN MET BETREKKING 20 PUNTEN
 TOT DE ACCOUNTANCY, DE BELASTINGCONSULTANCY
@@ -9427,7 +9737,6 @@ Wanneer treedt er verjaring in? Verklaar bondig.
 
 #### Vraagtekst
 
-Vraag 1 … / 6 punten
 Eén van uw cliënten – de BVBA “Souris” die een winkel uitbaat van informaticamateriaal –
 ontvangt op 2 februari 2014 een vraag om inlichtingen, luidende als volgt:
 “Gelieve mij de volgende inlichtingen mede te delen betreffende derden:
@@ -9441,10 +9750,14 @@ verstrekken.
 Uw cliënt meldt u ook dat, op 10 februari 2014, de toegang tot het bedrijf volledig werd
 afgesloten wegens wateroverlast en dat er een termijn van 3 weken nodig zal zijn om de
 lokalen te herstellen.
-a) Is deze vraag om inlichtingen regelmatig voor wat de aard van de gevraagde
+
+- **a.** Is deze vraag om inlichtingen regelmatig voor wat de aard van de gevraagde
+
 inlichtingen betreft (verklaar uw antwoord)?
 Antwoord
-b) Is de antwoordtermijn wettelijk (verklaar uw antwoord)?
+
+- **b.** Is de antwoordtermijn wettelijk (verklaar uw antwoord)?
+
 Antwoord
 
 c) Hoe moet tewerk gegaan worden om binnen de gestelde termijn te antwoorden,
@@ -9477,10 +9790,10 @@ aangezien het, momenteel, niet mogelijk is om de vereiste stukken te raadplegen
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
-Geef aan of onderstaande uitspraken waar of niet waar zijn:
+**Geef aan of onderstaande uitspraken waar of niet waar zijn:
 a) Met betrekking tot de roerende voorheffing, kan enkel de schuldenaar van de
-voorheffing (degene die de voorheffing moet inhouden) een bezwaarschrift indienen.
+voorheffing (degene die de voorheffing moet inhouden) een bezwaarschrift indienen.**
+
 De verkrijger van de inkomsten waarop de voorheffing werd ingehouden, kan dit recht
 niet uitoefenen.
 
@@ -9561,7 +9874,6 @@ _Ook geklassificeerd onder_: 4.0
 
 #### Vraagtekst
 
-Vraag 3 … / 5 punten
 De btw controle stuurt aan een accountantskantoor een schriftelijke vraag om inlichtingen
 m.b.t. de btw-activiteiten van een van de klanten (vennootschap) van het kantoor. Moet het
 kantoor hierop antwoorden en binnen welke termijn? Duid het juiste antwoord aan.
@@ -9598,15 +9910,17 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 3 punten
 In een aanslagjaar in de personenbelasting, 5 jaar vóór het huidige aanslagjaar wenst de
 administratie onderzoekshandelingen te stellen bij uw cliënt.
 U analyseert :
-A. dat kan de administratie zonder beperking.
-B. dat kan de administratie sowieso niet meer.
-C. dat kan de administratie mits voorafgaande kennisgeving van de indiciën van fraude aan uw
+
+- **A.** dat kan de administratie zonder beperking.
+- **B.** dat kan de administratie sowieso niet meer.
+- **C.** dat kan de administratie mits voorafgaande kennisgeving van de indiciën van fraude aan uw
+
 cliënt.
-D. dat kan de administratie uitsluitend met het oog op een taxatie tekenen en indiciën.
+
+- **D.** dat kan de administratie uitsluitend met het oog op een taxatie tekenen en indiciën.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -9620,20 +9934,25 @@ _Ook geklassificeerd onder_: 2.8
 
 #### Vraagtekst
 
-Vraag 2 … / 3 punten
 Uw cliënt wordt ingelicht dat de administratie 18 maanden geleden van een buitenlandse
 belastingadministratie, waarmee België een dubbelbelastingverdrag heeft gesloten,
 inlichtingen kreeg die uitwijzen dat uw cliënt in een aanslagjaar vier jaar voor het huidige
 geen correcte aangifte in de personenbelasting verrichtte.
 U analyseert :
-A. ja, op basis daarvan kan de administratie nog taxeren omdat er een bijzondere taxatietermijn
+
+- **A.** ja, op basis daarvan kan de administratie nog taxeren omdat er een bijzondere taxatietermijn
+
 loopt van 24 maanden te rekenen vanaf de datum waarop de Belgische administratie kennis
 heeft van de resultaten van de controle of het onderzoek.
-B. neen, op basis daarvan kan de administratie niet meer taxeren omdat de bijzondere
+
+- **B.** neen, op basis daarvan kan de administratie niet meer taxeren omdat de bijzondere
+
 taxatietermijn loopt van 12 maanden te rekenen vanaf de datum waarop de Belgische
 administratie kennis heeft van de resultaten van de controle of het onderzoek.
-C. neen, dat kan niet meer omdat alle taxatietermijnen verstreken zijn.
-D. neen, dan kan niet meer omdat de Belgische administratie geen aanslag mag vestigen, nà
+
+- **C.** neen, dat kan niet meer omdat alle taxatietermijnen verstreken zijn.
+- **D.** neen, dan kan niet meer omdat de Belgische administratie geen aanslag mag vestigen, nà
+
 het verstrijken van de gewone driejarige of de verlengde zevenjarige aanslagtermijn.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -9646,17 +9965,18 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 3 … / 3 punten
 De administratie vraagt inzage in de bestelbonnen van uw cliënt die een onderneming voert
 onder vennootschapsvorm.
 U analyseert :
 
-A. de administratie kan deze niet opvragen omdat de bewaringsplicht van de boeken en
+- **A.** de administratie kan deze niet opvragen omdat de bewaringsplicht van de boeken en
+
 bescheiden enkel beperkt is tot de wettelijk verplichte boeken en bescheiden, en de
 bestelbons daar geen deel van uitmaken. Zij moeten dus niet worden voorgelegd.
-B. deze maken geen deel uit van de boekhouding en moeten niet worden voorgelegd.
-C. enkel wanneer zij elektronisch zijn opgesteld, moeten zij worden voorgelegd.
-D. deze maken deel uit van de boekhouding en moeten worden voorgelegd.
+
+- **B.** deze maken geen deel uit van de boekhouding en moeten niet worden voorgelegd.
+- **C.** enkel wanneer zij elektronisch zijn opgesteld, moeten zij worden voorgelegd.
+- **D.** deze maken deel uit van de boekhouding en moeten worden voorgelegd.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -9668,12 +9988,12 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 4 … / 3 punten
 De tenuitvoerlegging van een dwangbevel kan slechts worden gestuit door :
-A. een bezwaarschrift bij de gewestelijke directie.
-B. een verzoekschrift, verzet voor de rechtbank van eerste aanleg, fiscale kamer.
-C. een beroep bij de bevoegde controledienst.
-D. een voorziening bij de Raad van State.
+
+- **A.** een bezwaarschrift bij de gewestelijke directie.
+- **B.** een verzoekschrift, verzet voor de rechtbank van eerste aanleg, fiscale kamer.
+- **C.** een beroep bij de bevoegde controledienst.
+- **D.** een voorziening bij de Raad van State.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -9685,16 +10005,22 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 5 … / 3 punten
 De vraag peilt naar de onderzoekstermijn inzake BTW.
 U analyseert :
-A. Dusdanig bestaan er geen specifieke bepalingen inzake controletermijnen, inzake BTW,
+
+- **A.** Dusdanig bestaan er geen specifieke bepalingen inzake controletermijnen, inzake BTW,
+
 daar die gelijklopen met de specifieke verjaringstermijnen.
-B. het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 7
+
+- **B.** het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 7
+
 jaar.
-C. het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 15
+
+- **C.** het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 15
+
 jaar.
-D. geen van voorgaande antwoorden is juist.
+
+- **D.** geen van voorgaande antwoorden is juist.
 
 BEGINSELEN VAN REGISTRATIE- EN 10 PUNTEN
 SUCCESSIERECHTEN
@@ -9721,13 +10047,10 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 9 Fiscale procedure
 
-A. Bericht van wijziging aangetekend, uiterlijke termijn?
-
-B. Belastingplichtige verlaat België, wat te doen?
-
-C. Bericht van wijziging, verjaringstermijn is nakende, wat te doen?
-
-D. Vraag om inlichtingen, termijn?
+- **A.** Bericht van wijziging aangetekend, uiterlijke termijn?
+- **B.** Belastingplichtige verlaat België, wat te doen?
+- **C.** Bericht van wijziging, verjaringstermijn is nakende, wat te doen?
+- **D.** Vraag om inlichtingen, termijn?
 
 E. Bewaarplicht, welke stukken + termijn
 
@@ -9756,7 +10079,11 @@ _10 vragen — 1 met modelantwoord — 0 met gap-rapport._
 
 #### Vraagtekst
 
-H.3 Ik (woonachtig in Gent) wil mijn effecten op naam ter waarde van 300.000 euro schenken aan mijn dochter van 22 jaar (woonachtig in Leuven) tegen een zo laag mogelijke fiscale kost. Welke zijn mijn mogelijkheden ? Wie betaalt de schenkingsrechten en hoeveel (in euro) ? Zitten er addertjes onder het gras ? - Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen - Schenking aan het 3 % tarief dat geldt in Vlaanderen Mijn dochter betaalt 9.000 euro
+Ik (woonachtig in Gent) wil mijn effecten op naam ter waarde van 300.000 euro schenken aan mijn dochter van 22 jaar (woonachtig in Leuven) tegen een zo laag mogelijke fiscale kost.
+
+**Welke zijn mijn mogelijkheden ?**
+
+Wie betaalt de schenkingsrechten en hoeveel (in euro) ? Zitten er addertjes onder het gras ? - Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen - Schenking aan het 3 % tarief dat geldt in Vlaanderen Mijn dochter betaalt 9.000 euro
 
 #### Modelantwoord
 
@@ -9776,10 +10103,11 @@ Optie 1: Nederlandse notariële akte (geen schenkingsrechten, wél successie bij
 
 #### Vraagtekst
 
-Vraag 1 … / 8 punten
-De heer Vandenbroucke, wonende in Nederland, verkoopt aan mevrouw Leroy, wonende in
-België, een in Leuven gelegen gemeubileerd appartement (mevrouw Leroy is al eigenaar van
-het bovenvermeld appartement: zij wil er een duplex van maken). De optredende notaris is
+> De heer Vandenbroucke, wonende in Nederland, verkoopt aan mevrouw Leroy, wonende in
+> België, een in Leuven gelegen gemeubileerd appartement (mevrouw Leroy is al eigenaar van
+> het bovenvermeld appartement: zij wil er een duplex van maken).
+
+De optredende notaris is
 meester Vandewielen, notaris te Amsterdam. De akte wordt verleden op 17 december 2012.
 De verkoopprijs wordt bepaald als volgt: € 300.000, waarvan € 25.000 voor het meubilair.
 De akte bevat volgende vermeldingen:
@@ -9789,7 +10117,9 @@ De akte bevat volgende vermeldingen:
  mw. Leroy is gehouden tot betaling van de achterstallige lasten van de mede-
 eigendom die van de heer Vandenbroucke worden gevorderd en tot op heden
 onbetaald gebleven zijn, ten bedrage van 3.000 euro.
-a) Moet die akte in België worden geregistreerd?
+
+- **a.** Moet die akte in België worden geregistreerd?
+
 Antwoord
 
 Ja, het is verplicht
@@ -9798,7 +10128,9 @@ Neen, het is niet nodig
 
 De registratie is een facultatieve formaliteit, maar wordt aanbevolen omdat ze in
 België een zekere datum verschaft
-b) Indien ja, wie is ertoe gehouden de akte te laten registreren?
+
+- **b.** Indien ja, wie is ertoe gehouden de akte te laten registreren?
+
 Antwoord
 
 
@@ -9826,11 +10158,14 @@ Antwoord
 Geen termijn voorzien
 d) Geef de belastbare grondslag in de registratierechten aan, indien de akte (al dan niet
 verplicht) voor de formaliteit van registratie wordt aangeboden.
-Antwoord
+
+**Antwoord
 
 Geen, vast recht van 25 euro
 
-250.000 euro
+250.**
+
+000 euro
 
 300.000 euro
 
@@ -9869,9 +10204,9 @@ verplicht) voor de formaliteit van registratie wordt aangeboden.
 
 #### Vraagtekst
 
-Vraag 2 … / 2 punten
-De heer André, sinds meer dan 10 jaar weduwnaar, is overleden en laat als enige wettige
-erfgename zijn dochter Anne na.
+> De heer André, sinds meer dan 10 jaar weduwnaar, is overleden en laat als enige wettige
+> erfgename zijn dochter Anne na.
+
 Korte tijd vóór zijn overlijden heeft de heer André een authentiek testament opgesteld (dat bij
 een notaris werd neergelegd) waarin hij mevrouw Michèle, met wie hij sinds enige jaren
 samenleeft, als algemeen legataris aanstelt.
@@ -9879,12 +10214,15 @@ Wanneer mevrouw Michèle verneemt dat zij tot algemeen legataris is aangesteld, 
 wens om aan de nalatenschap te verzaken, want zij heeft altijd goed kunnen opschieten met
 Anne en beschouwt de beslissing van de heer André jegens zijn dochter als een
 onrechtvaardigheid.
-Hoe zal de ontvanger van de successierechten dit geval behandelen?
 
-Antwoord
+**Hoe zal de ontvanger van de successierechten dit geval behandelen?**
+
+**Antwoord
 
 Mevrouw Michèle kan niet verzaken aan de nalatenschap, want het testament is
-authentiek. Zij zal het volledig netto actief van de nalatenschap ontvangen. Het
+authentiek.**
+
+Zij zal het volledig netto actief van de nalatenschap ontvangen. Het
 toegepaste tarief is het tarief tussen personen zonder enige graad van verwantschap.
 
 Anne zal het volledig netto actief van de nalatenschap ontvangen. Het toegepaste
@@ -9916,7 +10254,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 5 punten
 Dhr. André, weduwnaar, is op 1 augustus 2012 tijdens de vakantie in Spanje overleden.
 Hij heeft 2 kinderen als erfgenaam: dochter Hélène en zoon Johan.
 Hij had zijn fiscale woonplaats in Luik.
@@ -10048,7 +10385,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 2 … / 5 punten
 Anne, Bernadette en Caroline zijn 3 zussen en in onverdeeldheid eigenaar (elk voor 1/3) van
 een appartementsgebouw in Brussel.
 Ze zijn eigenaar geworden van dit gebouw na het overlijden van hun ouders (overleden in
@@ -10057,13 +10393,19 @@ In januari 2012 heeft Bernadette, tegen de prijs van € 500.000, haar deel afge
 (zonder enige band van verwantschap).
 Eind 2012 wordt, naar aanleiding van een conflict tussen Anne en Caroline, overeengekomen
 dat Anne de delen van Xavier en Caroline overneemt tegen de prijs van € 1.000.000.
-a) Bepaal de berekeningsgrondslag van de registratierechten bij de verkoop van
+
+- **a.** Bepaal de berekeningsgrondslag van de registratierechten bij de verkoop van
+
 Bernadette aan Xavier en geef het tarief aan van de rechten dat zal worden toegepast.
-Antwoord … / 2 punten
+
+**Antwoord … / 2 punten
 b) Bepaal de berekeningsgrondslag van de registratierechten bij de verkoop van Xavier
-en Caroline aan Anne en geeft het tarief aan van de rechten dat zal worden toegepast.
+en Caroline aan Anne en geeft het tarief aan van de rechten dat zal worden toegepast.**
+
 Antwoord … / 2 punten
-c) Is het sub punt b) gegeven antwoord identiek als het Xavier is die het deel van Anne
+
+- **c.** Is het sub punt b) gegeven antwoord identiek als het Xavier is die het deel van Anne
+
 en Caroline tegen dezelfde prijs overneemt?
 
 Antwoord … / 1 punt
@@ -10101,20 +10443,25 @@ en Caroline tegen dezelfde prijs overneemt?
 
 #### Vraagtekst
 
-Vraag 1 … / 5 punten
-De BVBA Mokka zou het aanpalende terrein, gelegen aan de achterzijde van haar
-bedrijfsgebouw, willen aankopen om er een opslagplaats te bouwen.
+> De BVBA Mokka zou het aanpalende terrein, gelegen aan de achterzijde van haar
+> bedrijfsgebouw, willen aankopen om er een opslagplaats te bouwen.
+
 Als de eigenaar te weten komt dat de BVBA geïnteresseerd is in de grond, is het zeer
 waarschijnlijk dat hij daarvan zal profiteren om de prijs te verhogen door te speculeren op
 het nut van de grond voor de BVBA.
-Daarom vraagt de zaakvoerder van de BVBA Mokka aan zijn neef, die geen enkele band heeft
-met de BVBA en die de eigenaar totaal niet kent, om aan de eigenaar een bod op het terrein
-te doen.
+Daarom vraagt de zaakvoerder van de
+
+> BVBA Mokka aan zijn neef, die geen enkele band heeft
+> met de BVBA en die de eigenaar totaal niet kent, om aan de eigenaar een bod op het terrein
+> te doen.
+
 De eigenaar stemt ermee in en de eigenaar en de neef sluiten een onderhandse
 verkoopovereenkomst. De neef van de zaakvoerder verklaart dat hij het goed koopt voor
 zichzelf of enige andere later aan te wijzen persoon.
 De zaakvoerder van de BVBA consulteert u om zijn probleem uiteen te zetten.
-Welke oplossing zult u hem voorstellen?
+
+**Welke oplossing zult u hem voorstellen?**
+
 Zet uw antwoord uiteen en vermeld:
 - welke akte(n) moet(en)verleden worden – vermeld de akte(n) met gebruikmaking van
 de geëigende terminologie
@@ -10136,20 +10483,24 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 2 … / 5 punten
-De heer Janssens is in België overleden op 12 augustus 2012.
+> De heer Janssens is in België overleden op 12 augustus 2012.
+
 Bij zijn overlijden was de heer Janssens gehuwd met Anne en had het echtpaar slechts één
 dochter die, op de dag van het overlijden, meerderjarig was.
 De echtgenoten waren gehuwd onder het stelsel van de scheiding van goederen.
-De heer Janssens heeft evenwel een testament nagelaten, waarin hij een aantal uiterste
-wilsbeschikkingen deed:
-- het geheel van de roerende goederen komt toe aan mw. Tanghe, de verpleegster die
+
+> De heer Janssens heeft evenwel een testament nagelaten, waarin hij een aantal uiterste
+> wilsbeschikkingen deed:
+> - het geheel van de roerende goederen komt toe aan mw.
+
+Tanghe, de verpleegster die
 hem tijdens zijn ziekte verzorgde;
 - de personenauto komt toe aan Frédérique Martin, nicht van de overledene;
 - de volledige nalatenschap, na aftrek van de hiervoor vermelde goederen, komt toe aan
 mw. Cambier, de jeugdvriendin van de heer Janssens.
 Duid in de tabel de hoedanigheid van elke begiftigde aan.
-Vermeld wie de verplichting heeft een aangifte in de successierechten in te leveren
+
+**Vermeld wie de verplichting heeft een aangifte in de successierechten in te leveren
 Hoedanigheid van de begiftigde
 wettelijke algemeen algemeen legataris begiftigde bijzonder
 erfgenaam legataris begiftigde onder onder legataris
@@ -10157,7 +10508,8 @@ algemene algemene
 titel titel
 echtgenote
 dochter
-Mevr.
+Mevr.**
+
 Tanghe
 Mevr.
 Martin
@@ -10183,21 +10535,28 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 3 punten
 Een echtpaar koopt in september 2014 een huis in het Brussels Hoofdstedelijk Gewest tegen
 de prijs van 255.000 EUR.
 Kies uit onderstaande lijst welke uitspraak de kopers geen recht geeft op een vermindering
 van de registratierechten:
-A. Het echtpaar verkrijgt de blote (naakte) eigendom van het goed en het vruchtgebruik zal
+
+- **A.** Het echtpaar verkrijgt de blote (naakte) eigendom van het goed en het vruchtgebruik zal
+
 aangekocht worden door de vennootschap waarvan de echtgenoot bedrijfsleider is. Het
 echtpaar zal het goed bewonen en zal belast worden op een voordeel van alle aard wegens
 de kosteloze beschikking over een woning.
-B. Ten gevolge van een schenking door een oom is de echtgenote reeds eigenaar, in
+
+- **B.** Ten gevolge van een schenking door een oom is de echtgenote reeds eigenaar, in
+
 onverdeeldheid met haar broer en haar zus, van een in het Vlaams Gewest gelegen huis.
-C. De echtgenote wil haar medische praktijk op het gelijkvloers van het gebouw inrichten (zij zal
+
+- **C.** De echtgenote wil haar medische praktijk op het gelijkvloers van het gebouw inrichten (zij zal
+
 er haar beroepsactiviteit uitoefenen) en het gezin zal de twee hogere verdiepingen
 betrekken.
-D. Aangezien het gebouw waarop de koop betrekking heeft momenteel verhuurd wordt tegen
+
+- **D.** Aangezien het gebouw waarop de koop betrekking heeft momenteel verhuurd wordt tegen
+
 een uiterst lonende huurprijs (hoger dan de kost van de hypothecaire lening), beslist het
 echtpaar om de huurder zijn huurcontract tot einddatum te laten uitdoen, met name tot 31
 december 2015.
@@ -10215,10 +10574,14 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 2 … / 3 punten
-Mevrouw Martin is overleden op 20 februari 2014. Op de datum van haar overlijden was ze
-weduwe en haar enige erfgenamen zijn haar 3 kinderen. Mevrouw Martin is overleden in het
-Waals Gewest, maar haar woonplaats heeft ze steeds in het Vlaams Gewest gehad.
+> Mevrouw Martin is overleden op 20 februari 2014.
+
+Op de datum van haar overlijden was ze
+weduwe en haar enige erfgenamen zijn haar 3 kinderen.
+
+> Mevrouw Martin is overleden in het
+> Waals Gewest, maar haar woonplaats heeft ze steeds in het Vlaams Gewest gehad.
+
 In december 2013 had mevrouw Martin een verplichting tot aankoop van 1.000 aandelen van
 een Belgische vennootschap tegen de prijs van 17.000 EUR ondertekend.
 Deze transactie was onderworpen aan een opschortende voorwaarde die op de datum van
@@ -10228,20 +10591,22 @@ kinderen, werd de opschortende voorwaarde op 9 juli 2014 eindelijk vervuld. Het 
 accountant betaalde ereloon bedraagt 2.420 EUR en de kinderen hebben de aandelen
 verkocht tegen 22.500 EUR.
 
-a) Op welke datum moe(s)t de aangifte van nalatenschap worden ingediend?
-A. Dinsdag 22 juli 2014
-B. Vrijdag 20 juni 2014
-C. Woensdag 20 augustus 2014
-b) Vermeld het actief en het passief van de nalatenschap – effecten aan te geven in de
+- **a.** Op welke datum moe(s)t de aangifte van nalatenschap worden ingediend?
+- **A.** Dinsdag 22 juli 2014
+- **B.** Vrijdag 20 juni 2014
+- **C.** Woensdag 20 augustus 2014
+- **b.** Vermeld het actief en het passief van de nalatenschap – effecten aan te geven in de
+
 aangifte van nalatenschap ingediend binnen de sub a) gestelde termijn:
-A. actief = 17.000 EUR – geen passief
-B. actief = 22.500 EUR - geen passief
-C. actief = 22.500 EUR – passief = 2.420 EUR
-D. actief = 0 EUR - geen passief
-c) Welke is de uiterste datum voor de betaling van de successierechten?
-A. Dinsdag 22 juli 2014
-B. Woensdag 20 augustus 2014
-C. Maandag 22 september 2014
+
+- **A.** actief = 17.000 EUR – geen passief
+- **B.** actief = 22.500 EUR - geen passief
+- **C.** actief = 22.500 EUR – passief = 2.420 EUR
+- **D.** actief = 0 EUR - geen passief
+- **c.** Welke is de uiterste datum voor de betaling van de successierechten?
+- **A.** Dinsdag 22 juli 2014
+- **B.** Woensdag 20 augustus 2014
+- **C.** Maandag 22 september 2014
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -10276,32 +10641,41 @@ C. Maandag 22 september 2014
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
 Een echtpaar wil de blote (naakte) eigendom van een onroerend goed aankopen waarvan het
 vruchtgebruik door de verkoper wordt voorbehouden.
 De blote eigendom wordt verkregen tegen een prijs van 186.000 EUR.
 De vruchtgebruiker is 63 jaar oud.
 De blote eigenaar is 31 jaar oud.
 De verkoopwaarde van het goed werd geschat op 300.000 EUR.
-a) Welke waarde zal in aanmerking moeten worden genomen voor de berekening van de
+
+- **a.** Welke waarde zal in aanmerking moeten worden genomen voor de berekening van de
+
 registratierechten?
-A. 186.000 EUR
-B. 16% van 300.000 EUR
-C. Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn
-D. 4 x 16% van 300.000 EUR
+
+- **A.** 186.000 EUR
+- **B.** 16% van 300.000 EUR
+- **C.** Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn
+- **D.** 4 x 16% van 300.000 EUR
+
 E. 300.000 EUR
 Enige jaren later staat de vruchtgebruiker zijn vruchtgebruik af aan de blote eigenaar
 waardoor laatstgenoemde dus de volle eigenaar wordt.
 Het vruchtgebruik wordt afgestaan tegen de prijs van 250.000 EUR.
 Op dat tijdstip is de vruchtgebruiker 74 jaar en de blote eigenaar 42 jaar oud.
 De verkoopwaarde van het goed bedraagt nog steeds 300.000 EUR.
-b) Welke waarde moet in aanmerking worden genomen voor de berekening van de
+
+- **b.** Welke waarde moet in aanmerking worden genomen voor de berekening van de
+
 registratierechten?
-A. 300.000 EUR
-B. 250.000 EUR
-C. 436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote
+
+- **A.** 300.000 EUR
+- **B.** 250.000 EUR
+- **C.** 436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote
+
 eigendom)
-D. Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn
+
+- **D.** Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn
+
 E. 300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop
 van de bij de verkrijging van de blote eigendom betaalde rechten
 
@@ -10350,15 +10724,16 @@ _8 vragen — 0 met modelantwoord — 0 met gap-rapport._
 
 #### Vraagtekst
 
-Vraag 1 … / 5 punten
 De heer B. is een natuurlijke persoon van Belgische nationaliteit, vrijgezel en zonder
 personen ten laste, en op fiscaal gebied inwoner van België. Hij is bediende bij een
 vennootschap naar Belgisch recht met een vaste inrichting in Frankrijk. Die Belgische
 vennootschap maakt deel uit van een internationale groep die ook een dochtervennootschap
 in Duitsland heeft.
-De heer B is het hoofd van de financiële afdeling van de Belgische vennootschap en zijn
-werkgever wil hem bijkomende verantwoordelijkheden toevertrouwen in het Franse
-bijkantoor en in de Duitse dochtervennootschap van de groep.
+
+> De heer B is het hoofd van de financiële afdeling van de Belgische vennootschap en zijn
+> werkgever wil hem bijkomende verantwoordelijkheden toevertrouwen in het Franse
+> bijkantoor en in de Duitse dochtervennootschap van de groep.
+
 Hij zal dan drie dagen per week in België voor de centrale zetel in België werken, één dag per
 week in Frankrijk voor de Franse vaste inrichting en één dag per week in Duitsland voor de
 Duitse vennootschap.
@@ -10368,8 +10743,10 @@ vennootschap zal de heer B een afzonderlijke arbeidsovereenkomst sluiten en die
 vennootschap zal zijn bezoldigingen in verband met zijn werkzaamheden in Duitsland
 betalen. Bijgevolg zullen zijn loonkosten ten laste genomen worden door de verschillende
 operationele entiteiten, op basis van de in elk land gepresteerde arbeidsduur.
-De heer B vraagt u of deze nieuwe situatie voor hem gevolgen zal hebben op het gebied van
-zijn inkomstenbelastingen, en zulks in België, Frankrijk en Duitsland.
+
+> De heer B vraagt u of deze nieuwe situatie voor hem gevolgen zal hebben op het gebied van
+> zijn inkomstenbelastingen, en zulks in België, Frankrijk en Duitsland.
+
 Wat antwoordt u hem op grond van de beginselen ingeschreven in de door de Organisatie
 voor Economische Samenwerking en Ontwikkeling (OESO) ontwikkelde Modelovereenkomst
 betreffende het Inkomen en het Vermogen:
@@ -10393,7 +10770,6 @@ deel van zijn loon zal er moeten aangegeven worden?
 
 #### Vraagtekst
 
-Vraag 2 … / 5 punten
 Uw cliënt en zijn echtgenote zijn de enige aandeelhouders van een naamloze vennootschap
 naar Belgisch recht.
 Hun schoonbroer bezit 97% van de aandelen van een handelsvennootschap naar Hongaars
@@ -10453,7 +10829,6 @@ richtlijnen.
 
 #### Vraagtekst
 
-Vraag 1 … / 5 punten
 Een naamloze vennootschap naar Belgisch recht die haar boekjaar afsluit op 31 december, is
 in Italië actief via een bijkantoor dat goederen verkoopt aan in Italië gevestigde klanten. Het
 bijkantoor neemt bestellingen op, keurt ze goed, reikt facturen uit aan de klanten, levert de
@@ -10474,15 +10849,20 @@ In 2013, alvorens de laatste hand te leggen aan de aangifte in de vennootschapsb
 voor het aanslagjaar 2013 (boekjaar afgesloten op 31/12/2012) van de Belgische
 vennootschap, stelt de financiële directeur van de Belgische vennootschap u de volgende
 vraag:
-Hoe moet het resultaat van het Italiaanse bijkantoor verwerkt worden in de aangifte in de
+
+**Hoe moet het resultaat van het Italiaanse bijkantoor verwerkt worden in de aangifte in de
 vennootschapsbelasting van de Belgische vennootschap in België voor het boekjaar
-afgesloten op 31/12/2012 en voor het boekjaar dat zal afgesloten op 31/12/2013?
-a) Verklaar uw antwoord en steun, desgevallend, op de beginselen neergelegd in de
+afgesloten op 31/12/2012 en voor het boekjaar dat zal afgesloten op 31/12/2013?**
+
+- **a.** Verklaar uw antwoord en steun, desgevallend, op de beginselen neergelegd in de
+
 “door de OESO ontwikkelde modelovereenkomst” naar het inkomen en naar het
 vermogen.
-Antwoord … / 3 punten
+
+**Antwoord … / 3 punten
 b) Gelet op de informatie die uw cliënt u heeft verstrekt, is er enig advies die u hem voor
-de toekomstige jaren dient te geven?
+de toekomstige jaren dient te geven?**
+
 Antwoord …/ 2 punten
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -10506,7 +10886,7 @@ de toekomstige jaren dient te geven?
 
 #### Vraagtekst
 
-Vraag 2 … / 5 punten
+/ 5 punten
 Een natuurlijke persoon die als particulier handelt en fiscaal als een inwoner van België
 wordt beschouwd zet u de volgende toestand uiteen: hij houdt een bankrekening aan in het
 Groothertogdom Luxemburg en heeft in 2013 op die rekening in het Groothertogdom
@@ -10514,13 +10894,17 @@ interesten van obligaties geïnd. Die interesten werden in het Groothertogdom Lu
 onderworpen aan de “Woonstaatheffing”. Betrokkene zal die interesten in 2014 in België
 aangeven in zijn aangifte in de personenbelasting.
 Hij vraagt u:
-a) hoe hij die “Woonstaatheffing” in zijn Belgische belastingaangifte voor het
+
+- **a.** hoe hij die “Woonstaatheffing” in zijn Belgische belastingaangifte voor het
+
 aanslagjaar 2014, inkomsten 2013, moet behandelen.
-Antwoord …/ 2,5 punten
+
+**Antwoord …/ 2,5 punten
 b) of het overschot van die woonstaatheffing ten opzichte van de verschuldigde
-Belgische belasting in België zal terugbetaald worden.
+Belgische belasting in België zal terugbetaald worden.**
+
 Antwoord …/ 2,5 punten
-FISCALE PROCEDURE 15 PUNTEN
+FISCALE PROCEDURE
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -10542,7 +10926,6 @@ Belgische belasting in België zal terugbetaald worden.
 
 #### Vraagtekst
 
-Vraag 1 … / 6 punten
 Een Belgische verblijfhoudende vennootschap is in Italië actief via een vaste inrichting (VI).
 Tussen Italië en België geldt een bilaterale overeenkomst tot het vermijden van dubbele
 belasting.
@@ -10553,9 +10936,13 @@ De gedelegeerd-bestuurder van deze vennootschap vraagt uw advies over volgend pu
 financiële directeur meldt hem dat de Belgische vennootschap, voor jaar 2, zal belast worden
 op een winst van 4.000, terwijl de boekhoudkundige winst slechts 3.000 bedraagt. Hij stelt u
 volgende vragen:
-a) Is dat juist: ja of neen?
+
+- **a.** Is dat juist: ja of neen?
+
 Antwoord
-b) Verklaar uw antwoord op grond van de beginselen van de door de OESO ontwikkelde
+
+- **b.** Verklaar uw antwoord op grond van de beginselen van de door de OESO ontwikkelde
+
 bilaterale modelovereenkomst tot het vermijden van dubbele belasting.
 Antwoord
 
@@ -10578,7 +10965,6 @@ bilaterale modelovereenkomst tot het vermijden van dubbele belasting.
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 Een vennootschap naar Belgisch recht, zonder bijkantoor noch vaste inrichting in het
 buitenland, wordt overgenomen door een vennootschap naar Duits recht. De Belgische
 vennootschap had verrekenbare fiscale verliezen die zij nog niet van de latere winsten had
@@ -10640,7 +11026,6 @@ Europese Unie (volgens de erin vastgestelde voorwaarden).
 
 #### Vraagtekst
 
-Vraag 1 … / 6 punten
 Beantwoord de vragen met “waar” of “niet waar” op basis van de beginselen ingeschreven in
 de “door de OESO ontwikkelde modelovereenkomst naar het inkomen en naar het
 vermogen”.
@@ -10763,7 +11148,6 @@ en is dit onvermijdbaar.
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 De financieel verantwoordelijke van een internationale vereniging zonder winstoogmerk
 (ivzw) met maatschappelijke zetel in België raadpleegt u, omdat deze ivzw haar activiteiten
 wil uitbreiden tot andere landen van de Europese Unie. In het kader van deze expansie wil de
@@ -10821,11 +11205,10 @@ _Ook geklassificeerd onder_: 2.6
 
 #### Vraagtekst
 
-I.2. Een handelaar wenst zijn eenmanszaak om te zetten in een vennootschap, nl. een BVBA. Hij brengt het volgende in zijn vennootschap: - het gebouw waarin hij zijn activiteit uitbaat dat hem ook dient als woonhuis: waarde 200.000,00 euro. - materieel, apparatuur, meubilair = waarde 5.000,00 euro. - Bestelwagen: waarde 10.000,00 euro. - gereed geld ter waarde van 10.000,00 euro.
+Een handelaar wenst zijn eenmanszaak om te zetten in een vennootschap, nl. een BVBA. Hij brengt het volgende in zijn vennootschap: - het gebouw waarin hij zijn activiteit uitbaat dat hem ook dient als woonhuis: waarde 200.000,00 euro. - materieel, apparatuur, meubilair = waarde 5.000,00 euro. - Bestelwagen: waarde 10.000,00 euro. - gereed geld ter waarde van 10.000,00 euro.
 
-a. Geef de diverse formaliteiten (vennootschapsrechterlijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte 8 PUNTEN
-
-b. Geef aan hoeveel registratierechten hij zal betalen wetende dat zijn inbreng als volgt zal vergoed worden: 3 PUNTEN - met kapitaalaandelen voor 200.000,00 euro - op rekening-courant: 25.000,00 euro.
+- **a.** Geef de diverse formaliteiten (vennootschapsrechterlijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte
+- **b.** Geef aan hoeveel registratierechten hij zal betalen wetende dat zijn inbreng als volgt zal vergoed worden: 3 PUNTEN - met kapitaalaandelen voor 200.000,00 euro - op rekening-courant: 25.000,00 euro.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -10837,7 +11220,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-I.3. Wat zijn de verplichtingen van een vennootschap ingeval uit de balans een overgedragen verlies blijkt of uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt? 4 PUNTEN
+Wat zijn de verplichtingen van een vennootschap ingeval uit de balans een overgedragen verlies blijkt of uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt?
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -10849,7 +11232,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-I.4. Wat zijn de mogelijke gevolgen voor een vennootschap die gedurende drie opeenvolgende boekjaren haar jaarrekening niet heeft neergelegd bij de N.B.B.? 3 PUNTEN
+Wat zijn de mogelijke gevolgen voor een vennootschap die gedurende drie opeenvolgende boekjaren haar jaarrekening niet heeft neergelegd bij de N.B.B.?
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -10861,7 +11244,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-I.1 De raad van bestuur van een NV wenst over te gaan tot een kapitaalverhoging. Omdat de verhoging dringend is, wenst ze geen buitengewone algemene vergadering bijeen te roepen. Is het mogelijk? Indien u bevestigend antwoordt, wat zijn de voorwaarden?
+De raad van bestuur van een NV wenst over te gaan tot een kapitaalverhoging. Omdat de verhoging dringend is, wenst ze geen buitengewone algemene vergadering bijeen te roepen. Is het mogelijk? Indien u bevestigend antwoordt, wat zijn de voorwaarden?
 
 #### Modelantwoord
 
@@ -10881,7 +11264,7 @@ Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal
 
 #### Vraagtekst
 
-I.2 Wanneer verplicht het Wetboek van vennootschappen een financieel plan op te stellen? Wat is het doel van een financieel plan? Aan wie moet het worden overhandigd?
+Wanneer verplicht het Wetboek van vennootschappen een financieel plan op te stellen? Wat is het doel van een financieel plan? Aan wie moet het worden overhandigd?
 
 #### Modelantwoord
 
@@ -10901,7 +11284,7 @@ Een financieel plan moet worden opgesteld bij de oprichting van een
 
 #### Vraagtekst
 
-I.3 De zaakvoerder van een BVBA is de enige vennoot. Moet een procedure worden gevolgd wanneer de zaakvoerder bij een verrichting een belang heeft, van vermogenrechtelijke aard, dat strijdig is met de belangen van de vennootschap?
+De zaakvoerder van een BVBA is de enige vennoot. Moet een procedure worden gevolgd wanneer de zaakvoerder bij een verrichting een belang heeft, van vermogenrechtelijke aard, dat strijdig is met de belangen van de vennootschap?
 
 #### Modelantwoord
 
@@ -10921,7 +11304,7 @@ Hij mag de geplande verrichting doen maar hij moet hierover een
 
 #### Vraagtekst
 
-I.4 Kan een burgerlijke vennootschap die de rechtsvorm van een handelsvennootschap heeft aangenomen, een gerechtelijk akkoord bekomen? Verantwoord uw antwoord.
+Kan een burgerlijke vennootschap die de rechtsvorm van een handelsvennootschap heeft aangenomen, een gerechtelijk akkoord bekomen? Verantwoord uw antwoord.
 
 #### Modelantwoord
 
@@ -10941,7 +11324,7 @@ Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een
 
 #### Vraagtekst
 
-I.5 Welk is de aansprakelijkheid van de oprichters van een BVBA en welk verschil kan er zijn met een NV?
+Welk is de aansprakelijkheid van de oprichters van een BVBA en welk verschil kan er zijn met een NV?
 
 #### Modelantwoord
 
@@ -10963,7 +11346,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 1 … / 14 punten
 Hierna volgt de balans van de bvba Avenir, afgesloten op 31/12/2012:
 ACTIVA PASSIVA
 Materiële vaste activa € 25.000 Geplaatst kapitaal € 20.460
@@ -10979,11 +11361,17 @@ Maar Jean Y overlijdt jammerlijk en laat als enige erfgenaam zijn zoon Cedric Y 
 Deel I
 Cedric Y voornoemd, stelt u, als accountant van de bvba Avenir de volgende vragen:
 Verklaar uw antwoorden bondig
-a) Wat zal er gebeuren met de aandelen, nu zijn vader Jean overleden is?
+
+- **a.** Wat zal er gebeuren met de aandelen, nu zijn vader Jean overleden is?
+
 Antwoord
-b) Zal hij automatisch vennoot van de bvba worden?
+
+- **b.** Zal hij automatisch vennoot van de bvba worden?
+
 Antwoord
-c) En hoe zit het met een eventuele overdracht van zijn aandelen?
+
+- **c.** En hoe zit het met een eventuele overdracht van zijn aandelen?
+
 Antwoord
 Deel II
 En daar een ongeluk nooit alleen komt, stelt Paul X vast dat Jean de invordering van een zeer
@@ -10993,9 +11381,12 @@ Het blijkt dat die vordering al oninvorderbaar was vóór de afsluiting van de b
 31/12/2012.
 
 Paul X raadpleegt u en vraagt wat er, vanuit juridisch standpunt, moet gedaan worden.
-Antwoord
+
+**Antwoord
 Deel III
-Voorts ruikt Albert M, samen met een vriend, een unieke commerciële buitenkans. Maar daar ze
+Voorts ruikt Albert M, samen met een vriend, een unieke commerciële buitenkans.**
+
+Maar daar ze
 niet over de nodige liquide middelen beschikken, besluiten ze een S-BVBA op te richten, onder
 de naam “Renaissance”.
 Ze beslissen om u het boekhoudkundig en fiscaal beheer van het dossier toe te vertrouwen en
@@ -11039,13 +11430,18 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-Vraag 1 …/ 7 punten
 Het Wetboek van Vennootschappen voorziet in een procedure van ontbinding.
-a) Wat is het voorwerp en het doel van de opdracht van de externe accountant?
+
+- **a.** Wat is het voorwerp en het doel van de opdracht van de externe accountant?
+
 Antwoord
-b) Wie stelt de staat van activa en passiva op?
+
+- **b.** Wie stelt de staat van activa en passiva op?
+
 Antwoord
-c) Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?
+
+- **c.** Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?
+
 Antwoord
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -11070,17 +11466,25 @@ Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?
 
 #### Vraagtekst
 
-Vraag 2 … / 6 punten
 Sinds 1 januari 2008 kunnen er geen nieuwe effecten aan toonder uitgegeven worden.
 De wetgever heeft gesteld dat uiterlijk op 31 december 2013 de effecten aan toonder
 moeten omgezet zijn.
-a) De wetgever heeft om de omzetten te versnellen reeds een maatregel genomen,
-een maatregel met een uitwerking in 2012 en/of 2013. Welke is deze maatregel.
+
+- **a.** De wetgever heeft om de omzetten te versnellen reeds een maatregel genomen,
+
+een maatregel met een uitwerking in 2012 en/of 2013.
+
+**Welke is deze maatregel.**
+
 Welke actie kon/kan men ondernemen?.
+
+**Antwoord
+b) Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014 ?**
+
 Antwoord
-b) Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014 ?
-Antwoord
-c) Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2015 ?
+
+- **c.** Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2015 ?
+
 Antwoord
 
 VENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN) 30 PUNTEN
@@ -11111,11 +11515,18 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-Vraag 2 … / 7 punten
-Op de boekhoudkundige staat van de BVBA HOLDING RICH komen nog diverse machines A
-voor. De zaakvoerders van de BVBA HOLDING RICH hebben een gemotiveerde, technisch en
-financieel onderbouwde waardering gemaakt van deze machines (totale waarde
-€ 600.000) op basis van de berekening van de toekomstige kasstromen en op basis van het
+Op de boekhoudkundige staat van de
+
+> BVBA HOLDING RICH komen nog diverse machines A
+> voor.
+
+De zaakvoerders van de
+
+> BVBA HOLDING RICH hebben een gemotiveerde, technisch en
+> financieel onderbouwde waardering gemaakt van deze machines (totale waarde
+> € 600.
+
+000) op basis van de berekening van de toekomstige kasstromen en op basis van het
 nut van de machines voor het bedrijf. Aan de hand van deze waardering werd door het
 college van zaakvoerders bij het opstellen van de boekhoudkundige staat van activa en
 passiva een herwaarderingsmeerwaarde geboekt. Anderzijds heeft de leverancier van de
@@ -11169,16 +11580,21 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-Vraag 3 … / 12 punten
-In de BVBA GOFORT werd een staat van activa en passiva afgesloten per 31/01/2013
-opgesteld en ondertekend door de interne boekhouder, met het oog op de ontbinding van de
-vennootschap. De algemene vergadering wordt samengeroepen om te beslissen op
+In de
+
+> BVBA GOFORT werd een staat van activa en passiva afgesloten per 31/01/2013
+> opgesteld en ondertekend door de interne boekhouder, met het oog op de ontbinding van de
+> vennootschap.
+
+De algemene vergadering wordt samengeroepen om te beslissen op
 15/04/2013 bij notaris. Het controleverslag werd opgesteld door de externe accountant die
 niet de reguliere adviseur is op 14/04/2013. Alle aandeelhouders bevestigen hun
 aanwezigheid met uitzondering van een correct geïnformeerde vennoot met 10% van de
 aandelen en die vraagt aan de zaakvoerders om de vergadering met drie weken te verdagen
 gezien hij in het buitenland is op 15/04/2013.
-Geef drie opmerkingen bij vorige opgave en geef aan wat er dient te gebeuren.
+
+**Geef drie opmerkingen bij vorige opgave en geef aan wat er dient te gebeuren.**
+
 Antwoord
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -11193,13 +11609,16 @@ _Ook geklassificeerd onder_: 4.0, 1.6
 
 #### Vraagtekst
 
-Vraag 4 … / 4 punten
 De normen inzake het verslag op te stellen bij de omzetting van een vennootschap stelt dat
 de beroepsbeoefenaar bij het aanvaarden van zijn opdracht over een behoorlijke
 opdrachtbrief dient te beschikken.
-a) Wie ondertekent de opdrachtbrief ?
+
+- **a.** Wie ondertekent de opdrachtbrief ?
+
 Antwoord
-b) Geef 3 elementen die minimaal in de opdrachtbrief dienen voor te komen.
+
+- **b.** Geef 3 elementen die minimaal in de opdrachtbrief dienen voor te komen.
+
 Antwoord
 
 PERSONENBELASTING 20 PUNTEN
@@ -11224,13 +11643,16 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 1 … / 3 punten
 Wat de bij de Nationale Bank van België neergelegde jaarrekeningen betreft, stelt u op 4 mei
 2013 vast dat uw nieuwe cliënt, de bvba “Mode Invest”, de jaarrekeningen van de vier laatste
 boekjaren niet meer heeft neergelegd.
-a) Wat zult u uw cliënt adviseren?
+
+- **a.** Wat zult u uw cliënt adviseren?
+
 Antwoord … / 1 punt
-b) Waarom?
+
+- **b.** Waarom?
+
 Antwoord … / 2 punten
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -11253,7 +11675,6 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-Vraag 1 …/ 22 punten
 Een collega accountant die je kent van uw beroepsvereniging vraagt om uw tussenkomst bij
 de omzetting van een vennootschap van één van zijn klanten. Het betreft de CVBA Fortunito
 die wenst om te zetten naar de BVBA Roflexfort.
@@ -11268,8 +11689,11 @@ Antwoord … / 6 punten
 | Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan <br> omgezet worden in de BVBA Reflexfort? |   |   |
 | Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren? |   |   |
 
-b) Kan je werken op basis van een proef- en saldi balans zoals in bijlage? Verklaar uw
-antwoord.
+b) Kan je werken op basis van een proef- en saldi balans zoals
+
+_in bijlage? Verklaar uw
+antwoord._
+
 Antwoord … / 2 punten
 
 |   |   |
@@ -11286,35 +11710,43 @@ e)
 Antwoord … / 3 punten
 f) Omschrijf en bereken de door te voeren correcties op de activaposten zoals deze
 voorkomen in de ontvangen cijfers per 30/09/2013 (enkel de correcties van het
-ACTIEF) (in bijlage de afschrijvingstabel, detail van de participatie, overzicht van de
-handelsvordering, de staat van activa en passiva).
+ACTIEF) (
 
-Antwoord … / 4 punten
+_in bijlage de afschrijvingstabel, detail van de participatie, overzicht van de
+handelsvordering, de staat van activa en passiva)._
+
+**Antwoord … / 4 punten
 Staat activa en
 passiva Door te voeren correcties
 Activa
 Vaste activa
 Materiële vaste activa
 Installaties, machines en uitrusting
-230000 - Installaties 32.000,00
+230000 - Installaties 32.**
+
+000,00
 230900 - Afschrijving installaties
 Financiële vaste activa
 280000 - Aandelen O'Cool 30.000,00
 Vlottende activa
 Vorderingen op ten hoogste 1 jaar
 Handelsvorderingen
-400000 - Handelsdebiteuren 215.100,00
-Overige vorderingen
-411000 - Terug te vorderen BTW 6.020,17
-Liquide middelen
-550000 - Bankrekening 221.931,57
+400000
+
+**Inventaris**
+- Handelsdebiteuren: 215.100,00 EUR
+- Terug te vorderen BTW: 6.020,17 EUR
+- Bankrekening: 221.931,57 EUR
+
 Totaal: Activa 505.051,74
 Totaal van de correcties op het Activa
 g) Als gevolg van uw vaststellingen en vereiste correcties moeten er vermeldingen
 komen in het besluit van je verslag, geef twee vermeldingen.
-Antwoord … / 2 punten
+
+**Antwoord … / 2 punten
 h) Als gevolg van je vaststelling moet je een specifiek risico in je besluit opnemen, geef
-de formulering ervan.
+de formulering ervan.**
+
 Antwoord … / 3 punten
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -11359,7 +11791,6 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 Is, in de 2 onderstaande situaties de bijzondere procedure, de zogenaamde
 alarmbelprocedure, van toepassing voor de bvba “Zonder Zorgen”?
 Kunt u voor elk geval en voor elk antwoord een bondige uitleg geven?
@@ -11394,7 +11825,6 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-Vraag 2 … / 8 punten
 Een Franse vennootschap is voor 15% aandeelhouder in een Belgische vennootschap BVBA
 SUPERTOC. De Franse vennootschap vraagt je om in het kader van het individueel
 controlerecht ter plaatse inzage te nemen in de stukken van de BVBA SUPERTOC.
@@ -11464,16 +11894,18 @@ jaarvergadering.
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
 Als accountant en/of belastingconsulent van de in 2012 opgerichte nv “Vivant” wordt u
 geraadpleegd door de drie aandeelhouders, tevens de bestuurders van de vennootschap, die
 een aantal vragen hebben omtrent hun toestand:
 
-a) De statuten van de vennootschap voorzien in de procedure van het “Toegestaan
+- **a.** De statuten van de vennootschap voorzien in de procedure van het “Toegestaan
+
 kapitaal”, dat bepaald is op € 500.000.
 Wie kan die procedure opstarten?
 Antwoord … / 2 punten
-b) Na de oprichting van hun vennootschap zijn de oprichters hoofdelijk gehouden voor
+
+- **b.** Na de oprichting van hun vennootschap zijn de oprichters hoofdelijk gehouden voor
+
 bepaalde verbintenissen, naar een verhouding die de rechter vaststelt, in geval van
 faillissement.
 Binnen welke periode is dit uitgesproken ?
@@ -11502,13 +11934,23 @@ Binnen welke periode is dit uitgesproken ?
 
 #### Vraagtekst
 
-Vraag 4 … / 6 punten
 Kruis de juiste antwoorden aan in onderstaande tabel:
-1. Welke vennootschap kan opgericht worden met een onderhandse akte?
-2. Welke vennootschap kan winstbewijzen toekennen?
-3. Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank
-van België?
-4. Welke vennootschap moet een minimumkapitaal hebben?
+1.
+
+**Welke vennootschap kan opgericht worden met een onderhandse akte?**
+
+2.
+
+**Welke vennootschap kan winstbewijzen toekennen?**
+
+3.
+
+**Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank
+van België?**
+
+4.
+
+**Welke vennootschap moet een minimumkapitaal hebben?**
 
 |   | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- |
@@ -11529,7 +11971,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 5 … / 3 punten
 De heer en mevrouw X bezitten aandelen in de bvba “Invest Plan”, die actief is in de
 vastgoedsector.
 Hun aandeel in deze vennootschap bedraagt 11,3% van het totaal aantal aandelen.
@@ -11554,13 +11995,18 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 4 punten
 Kruis de juiste antwoorden aan in onderstaande tabel:
 1. In welke vennootschap zijn de vennoten/aandeelhouders hoofdelijk aansprakelijk voor de
 schulden van hun vennootschap?
-2. Welke vennootschap kan winstbewijzen toekennen?
-3. Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank
-van België?
+2.
+
+**Welke vennootschap kan winstbewijzen toekennen?**
+
+3.
+
+**Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank
+van België?**
+
 4. Voor welke soort vennootschap zijn de oprichters, vóór de oprichting, verplicht om een
 financieel plan op te stellen?
 De punten worden toegekend per kolom en de kolom dient volledig juist te zijn.
@@ -11587,10 +12033,14 @@ _Ook geklassificeerd onder_: 4.0, 1.6
 
 #### Vraagtekst
 
-Vraag 1 …/ 10 punten
-De heer FIXIT een externe accountant. De gedelegeerde bestuurder van die vennootschap
-wenst de vennootschap NV TRIAL om te zetten in een BVBA en geeft de heer FIXIT de
-opdracht dit te doen.
+> De heer FIXIT een externe accountant.
+
+De gedelegeerde bestuurder van die vennootschap
+wenst de vennootschap
+
+> NV TRIAL om te zetten in een BVBA en geeft de heer FIXIT de
+> opdracht dit te doen.
+
 OPMERKING: bij de vragen waar juist / fout moet geantwoord worden maak je bij voorkeur
 het vak onleesbaar dat niet uw antwoord is (= doorhalen wat niet past). Voor de puntentelling
 wordt er geen giscorrectie toegepast
@@ -11625,7 +12075,6 @@ _Ook geklassificeerd onder_: 1.3
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 De gedelegeerd bestuurder van de nv PILOTE (opgericht in 1992) raadpleegt u met volgende
 cijfers van de laatste balans (31/12/2013):
 Passiva
@@ -11670,7 +12119,6 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-Vraag 2 …/ 20 punten
 Twee broers doen sedert een drietal jaar goede zaken met hun VOF STORE en wensen alvoor
 ze verder investeren en personeel aanwerven de vennootschap om te zetten naar een BVBA.
 Ze leggen volgende balans per 31/12/2013 voor.
@@ -11684,10 +12132,17 @@ VOF STORE BALANS 31/12/2013
 Totaal actief 86.000,00 86.000,00
 U krijgt de schriftelijke opdracht om het controleverslag op te stellen nodig voor de
 omzetting van de vennootschap.
-Tijdens U werkzaamheden onderzoek je de vordering op NV TURF, deze vennootschap blijkt
-echter failliet te zijn en geeft aan haar schuldeisers een definitief dividend van één derde van
-de openstaande schulden zijnde in dit geval 4.000,00 EUR
-a) Formuleer het besluit van het controleverslag. Welke berekening dien je te maken?
+Tijdens U werkzaamheden onderzoek je de vordering op
+
+> NV TURF, deze vennootschap blijkt
+> echter failliet te zijn en geeft aan haar schuldeisers een definitief dividend van één derde van
+> de openstaande schulden zijnde in dit geval 4.
+
+000,00 EUR
+a) Formuleer het besluit van het controleverslag.
+
+**Welke berekening dien je te maken?**
+
 Geef de gecorrigeerde balans?
 Antwoord
 
@@ -11714,7 +12169,6 @@ Kan deze omzetting doorgaan? Motiveer uw antwoord.
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
 Dhr. LEVEQUE, enig vennoot en zaakvoerder van de bvba PETIT POIS (opgericht in 2009),
 raadpleegt u in verband met te verrichten investeringen.
 Hij wil het gebouw, dat zijn persoonlijke eigendom is en door de bvba PETIT POIS wordt
@@ -11759,11 +12213,12 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 4 … / 4 punten
-De heer KALO Ric gedelegeerd bestuurder van de nv MINCALOR, handel in dieetproducten,
-en hoofdaandeelhouder, raadpleegt u.
-De heer KALO Ric heeft een aanzienlijk geldbedrag nodig voor een privé-vastgoed
-verrichting.
+> De heer KALO Ric gedelegeerd bestuurder van de nv MINCALOR, handel in dieetproducten,
+> en hoofdaandeelhouder, raadpleegt u.
+
+> De heer KALO Ric heeft een aanzienlijk geldbedrag nodig voor een privé-vastgoed
+> verrichting.
+
 Hij toont u de statuten van de vennootschap die de raad van bestuur toelaten de geplande
 verrichting te doen. De vennootschap heeft geen commissaris.
 Hij toont u de jaarrekening afgesloten op 31 december 2013. De resultaatverwerking van deze
@@ -11822,9 +12277,9 @@ _Ook geklassificeerd onder_: 1.2
 
 #### Vraagtekst
 
-Vraag 5 … / 4 punten
-De heer LEGRAND Alexandre is samen met zijn broer Luigi vennoot in de vennootschappen
-"Mise en Trop" bvba en "Coté Pratique" bvba in Brussel.
+> De heer LEGRAND Alexandre is samen met zijn broer Luigi vennoot in de vennootschappen
+> "Mise en Trop" bvba en "Coté Pratique" bvba in Brussel.
+
 Vennootschap "Mise en Trop" bvba stelt 39 voltijdse personeelsleden tewerk in de
 informaticasector. Vennootschap "Coté Pratique" bvba stelt 25 personen, allen halftijds,
 tewerk in de poetshulpsector.
@@ -11849,9 +12304,10 @@ voor 2013: 530.000,00
 voor 2012: 520.000,00
 Hoe luidt uw advies, op zicht van deze gegevens?
 
-Antwoord
+**Antwoord
 
-U stelt vast dat de balans correct werd opgesteld en raadt hun aan zo voort te doen.
+U stelt vast dat de balans correct werd opgesteld en raadt hun aan zo voort te doen.**
+
 
 U adviseert hen om enkel de jaarrekening van vennootschap “Mise en Trop” bvba volgens
 het volledig schema op te stellen.
@@ -11875,9 +12331,10 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 1 … / 4 punten
-De heer DUPONT, zaakvoerder en hoofdaandeelhouder van de S-bvba “LA POINTE” komt u
-op zaterdag 11 april 2015 om advies vragen. De vennootschap werd opgericht in december
+> De heer DUPONT, zaakvoerder en hoofdaandeelhouder van de S-bvba “LA POINTE” komt u
+> op zaterdag 11 april 2015 om advies vragen.
+
+De vennootschap werd opgericht in december
 2009.
 Hij legt u de jaarrekening per 31 december 2014 voor.
 Die ziet er als volgt uit:
@@ -11902,13 +12359,18 @@ Winst van het boekjaar 650,00
 Totaal kosten 200 550,00 Totaal opbrengsten 200 550,00
 Wat kunt u dhr. DUPONT, op basis van deze gegevens, adviseren:
 
-A. De toestand lijkt in orde. Er zijn geen bijkomende formaliteiten te vervullen.
-B. Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te
+- **A.** De toestand lijkt in orde. Er zijn geen bijkomende formaliteiten te vervullen.
+- **B.** Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te
+
 beslissen over de eventuele ontbinding en om eventueel andere maatregelen te
 nemen. En dit vóór 11 juni 2015.
-C. Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste
+
+- **C.** Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste
+
 minimum van 6.200,00 EUR te brengen.
-D. Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste
+
+- **D.** Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste
+
 minimum van 18.550,00 EUR te brengen.
 E. Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te
 beslissen over de eventuele ontbinding en om eventueel andere maatregelen te
@@ -11926,9 +12388,9 @@ _Ook geklassificeerd onder_: 1.6
 
 #### Vraagtekst
 
-Vraag 1 … / 3 punten
-Wat is of zijn de doelstelling(en) van de specifieke opdracht van de externe accountant bij de
-omzetting van een vennootschap ?
+**Wat is of zijn de doelstelling(en) van de specifieke opdracht van de externe accountant bij de
+omzetting van een vennootschap ?**
+
 Antwoord
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -11943,7 +12405,6 @@ _Ook geklassificeerd onder_: 1.2, 1.3
 
 #### Vraagtekst
 
-Vraag 2 … / 4 punten
 U hebt de balans opgemaakt voor uw cliënt waarbij het eigen vermogen van de bvba als volgt
 is samengesteld:
 Geplaatst Kapitaal: 18.550,00 EUR
@@ -11957,13 +12418,21 @@ U deelt bijgevolg aan uw cliënt mee dat de omzetting, in de huidige stand van z
 mogelijk is.
 Uw cliënt heeft zich ook elders geïnformeerd en meent dat het toch mogelijk moet zijn om de
 omzetting door te voeren.
-A. Een kapitaalverhoging doorvoeren in geld bij een notariële akte waarbij ook de
+
+- **A.** Een kapitaalverhoging doorvoeren in geld bij een notariële akte waarbij ook de
+
 rechtsvorm wordt gewijzigd.
-B. Een deel van de rekening-courant als kapitaalverhoging opnemen mits een verslag van
+
+- **B.** Een deel van de rekening-courant als kapitaalverhoging opnemen mits een verslag van
+
 de accountant.
-C. De accountant kan de gehele opdracht op zich nemen om deze omzetting mogelijk te
+
+- **C.** De accountant kan de gehele opdracht op zich nemen om deze omzetting mogelijk te
+
 maken en door te voeren.
-D. Met het oog op de akte tot verhoging van het kapitaal heeft de notaris enkel een
+
+- **D.** Met het oog op de akte tot verhoging van het kapitaal heeft de notaris enkel een
+
 boekhoudkundige staat die maximum drie maanden oud is en een controleverslag nodig;
 er zijn geen andere stukken noch formaliteiten vereist.
 E. Bij de omzetting van bvba naar nv bedraagt het minimum geplaatst kapitaal wel degelijk
@@ -11981,21 +12450,29 @@ _Ook geklassificeerd onder_: 1.6, 1.2
 
 #### Vraagtekst
 
-Vraag 2 … / 18 punten
 In de norm inzake de controle bij het voorstel tot ontbinding van vennootschappen met
 beperkte aansprakelijkheid zoals goedgekeurd door de raad van het IAB staan een aantal uit
-te voeren werkzaamheden. Geef in de onderstaande gevallen weer wat de norm voorziet in
+te voeren werkzaamheden.
+
+**Geef in de onderstaande gevallen weer wat de norm voorziet in
 volgende gevallen:
 a) Hoe wordt in de staat van activa en passiva het resultaat van de lopende, nog niet
-afgesloten periode vermeld?
+afgesloten periode vermeld?**
+
 Antwoord … / 3 punten
-b) Het bestuursorgaan stelt de staat van activa en passiva enkel op in discontinuïteit.
+
+- **b.** Het bestuursorgaan stelt de staat van activa en passiva enkel op in discontinuïteit.
+
 Wat moet de beroepsbeoefenaar in overweging nemen?
 Antwoord … / 3 punten
-c) Wat dient er te gebeuren met latente schulden (bv. vergoeding wegens contractbreuk)
+
+- **c.** Wat dient er te gebeuren met latente schulden (bv. vergoeding wegens contractbreuk)
+
 die niet in de staat van activa en passiva zijn opgenomen?
 Antwoord … / 3 punten
-d) Wat gebeurt er met de termijn van drie maand indien een bijeenroeping van een
+
+- **d.** Wat gebeurt er met de termijn van drie maand indien een bijeenroeping van een
+
 tweede algemene vergadering nodig is wegens het niet bereiken van het
 aanwezigheidsquorum?
 Antwoord … / 3 punten
@@ -12052,7 +12529,6 @@ voorbehoud gemaakt worden of een onthouding?
 
 #### Vraagtekst
 
-Vraag 3 … / 4 punten
 Met het oog op de voorbereiding van de Algemene Vergadering van 15 mei biedt de
 zaakvoerder van de bvba De Toekomst (die tevens 55% van de aandelen bezit) zich op 25
 januari 2014 in uw kantoor aan en overhandigt u de financiële staten van de bvba per
@@ -12066,12 +12542,19 @@ samengevat:
  Overgedragen verlies: -128.830,00 EUR
 De zaakvoerder van de bvba vraagt u wat zijn verplichtingen zijn ten aanzien van deze
 toestand.
-Welke opgesomde acties zijn correct:
-A. Een buitengewone algemene vergadering bijeenroepen binnen de maand.
-B. Niets doen.
-C. De volgende algemene vergadering afwachten en de invereffeningstelling van de bvba
+
+**Welke opgesomde acties zijn correct:
+A.**
+
+Een buitengewone algemene vergadering bijeenroepen binnen de maand.
+
+- **B.** Niets doen.
+- **C.** De volgende algemene vergadering afwachten en de invereffeningstelling van de bvba
+
 voorstellen.
-D. Een bijzondere algemene vergadering bijeenroepen voor 25 maart om te beraadslagen
+
+- **D.** Een bijzondere algemene vergadering bijeenroepen voor 25 maart om te beraadslagen
+
 en te besluiten over de ontbinding van de vennootschap en andere te nemen
 maatregelen.
 E. De vennoten verplichten om het kapitaal van de vennootschap te verhogen door
@@ -12089,10 +12572,13 @@ _Ook geklassificeerd onder_: 1.6, 1.2
 
 #### Vraagtekst
 
-Vraag 3 … / 9 punten
 Een externe accountant krijgt als opdracht het opmaken van een verslag over een
 boekhoudkundige staat van activa en passiva in het kader van de omzetting van een
-vennootschap van NV Salami in BVBA Salami. De vennootschap valt onder het Wetboek van
+vennootschap van
+
+> NV Salami in BVBA Salami.
+
+De vennootschap valt onder het Wetboek van
 Vennootschappen. Het betreft hier een KMO vennootschap dat voornamelijk levensmiddelen
 invoert uit Italië.
 a) De externe accountant moet de volledige identiteit van de leden van het
@@ -12227,7 +12713,6 @@ De vragen hebben bet
 
 #### Vraagtekst
 
-Vraag 4 … / 4 punten
 Het bestuursorgaan moet jaarlijks de jaarrekening opstellen.
 De raad van bestuur van uw cliënt, de nv “Option for the Future”, die haar rekeningen afsluit
 op 31/12 van elk jaar, roept de gewone algemene vergadering te laat bijeen en stelt de datum
@@ -12237,15 +12722,23 @@ gedelegeerd bestuurder vraagt u, in de uitoefening van uw opdracht van extern ac
 of de laattijdigheid gevolgen teweegbrengt voor hem en/of voor de algemene vergadering
 van de aandeelhouders.
 Welk onderstaand antwoord is juist:
-A. Geen probleem, aangezien de rekeningen toch door de gewone algemene vergadering
+
+- **A.** Geen probleem, aangezien de rekeningen toch door de gewone algemene vergadering
+
 zullen worden goedgekeurd.
-B. De jaarrekening moet binnen zes maanden na afsluiting van het boekjaar ter
+
+- **B.** De jaarrekening moet binnen zes maanden na afsluiting van het boekjaar ter
+
 goedkeuring aan de algemene vergadering worden voorgelegd, zo niet zal de door
 derden geleden schade, behoudens tegenbewijs, geacht worden voort te vloeien uit dit
 verzuim.
-C. Aangezien de jaarrekening niet afgewerkt was, was het niet mogelijk om de algemene
+
+- **C.** Aangezien de jaarrekening niet afgewerkt was, was het niet mogelijk om de algemene
+
 vergadering bijeen te roepen en stelt dit dus geen enkel probleem.
-D. De Nationale Bank van België zal een boete opleggen wegens de laattijdige
+
+- **D.** De Nationale Bank van België zal een boete opleggen wegens de laattijdige
+
 bijeenroeping van de gewone algemene vergadering.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -12258,9 +12751,10 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 5 … / 4 punten
-De heer POULAIN, enig vennoot, zaakvoerder en oprichter van de vennootschap “bvba LE
-BON” komt u advies vragen in verband met een kapitaalverhoging. De bvba LE BON werd
+> De heer POULAIN, enig vennoot, zaakvoerder en oprichter van de vennootschap “bvba LE
+> BON” komt u advies vragen in verband met een kapitaalverhoging.
+
+De bvba LE BON werd
 opgericht op 16 november 2013.
 De vennootschap heeft een kapitaal van 20.000 EUR en hij wenst het met 10.000 EUR te
 verhogen om het op 30.000 EUR te brengen.
@@ -12270,18 +12764,24 @@ vennootschap “nv CHARTER”, die hij 2 weken eerder heeft verkregen. Die aande
 gewaardeerd op 10.000 EUR en hebben sindsdien geen herwaardering ondergaan.
 Hij overhandigt u het bijzonder verslag dat het bestuursorgaan heeft opgesteld.
 Wat adviseert u hem:
-A. Dat de verrichting niet kan doorgevoerd worden op basis van de bekomen gegevens.
-B. Dat hij noodzakelijk in het bezit moet zijn van een verslag van een bedrijfsrevisor, indien de
+
+- **A.** Dat de verrichting niet kan doorgevoerd worden op basis van de bekomen gegevens.
+- **B.** Dat hij noodzakelijk in het bezit moet zijn van een verslag van een bedrijfsrevisor, indien de
+
 vennootschap geen commissaris-revisor heeft. Dit verslag vermeldt de naam van de
 eigenaar van het goed dat de vennootschap wil verkrijgen, de beschrijving van dit goed, de
 vergoeding die werkelijk als tegenprestatie voor de verkrijging wordt verstrekt en de
 toegepaste waarderingsmethoden. Het geeft aan of de waarden waartoe deze
 waarderingsmethoden leiden, tenminste gelijk zijn aan de als tegenprestatie verstrekte
 vergoeding.
-C. Dat hij in het bezit moet zijn van een attest van de FSMA, met vermelding van de oorsprong
+
+- **C.** Dat hij in het bezit moet zijn van een attest van de FSMA, met vermelding van de oorsprong
+
 van de eigendom van de aandelen, de waarde op de datum van verkrijging en de evolutie
 ervan over de 3 voorgaande jaren.
-D. Dat hij een verklaring moet opstellen met vermelding van de beschrijving van de inbreng, de
+
+- **D.** Dat hij een verklaring moet opstellen met vermelding van de beschrijving van de inbreng, de
+
 naam van de eigenaar, de waarde en de herkomst van deze waardering en de verstrekte
 tegenprestatie en een attest dat er zich geen nieuwe omstandigheden hebben voorgedaan
 ten opzichte van de oorspronkelijke waardering.
@@ -12306,29 +12806,18 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 1 Vennootschapsrecht
 
-A. BVBA naar BV volgens nieuw WVV. Aandeelhouder vrij van volstorting van het niet volstort kapitaal. Liquidatietest nodig?
-
-B. Quasi inbreng in NV. Wie kan dit doen?
-
-C. Vennootschap verliest rechtspersoonlijkheid:
-
-A. a. Bij ontbinding
-
-B. b. Bij publicatie van de ontbinding
-
-C. c. Bij de afsluit van de vereffening
-
-D. d. Bij akkoord van de vennoten.
-
-D. Bij welke rechtsvormen kunnen de uittreding/ uitsluiting van een aandeelhouder statutair worden geregeld?
-
-A. a. BV en CV
-
-B. b. Alle behalve NV
-
-C. c. Alle behalve NV en BV
-
-D. d. NV, BV en CV
+- **A.** BVBA naar BV volgens nieuw WVV. Aandeelhouder vrij van volstorting van het niet volstort kapitaal. Liquidatietest nodig?
+- **B.** Quasi inbreng in NV. Wie kan dit doen?
+- **C.** Vennootschap verliest rechtspersoonlijkheid:
+- **A.** a. Bij ontbinding
+- **B.** b. Bij publicatie van de ontbinding
+- **C.** c. Bij de afsluit van de vereffening
+- **D.** d. Bij akkoord van de vennoten.
+- **D.** Bij welke rechtsvormen kunnen de uittreding/ uitsluiting van een aandeelhouder statutair worden geregeld?
+- **A.** a. BV en CV
+- **B.** b. Alle behalve NV
+- **C.** c. Alle behalve NV en BV
+- **D.** d. NV, BV en CV
 
 > [!note]- Geherinterpreteerde vraagtekst (ADR-022)
 > Casus vennootschapsrecht, 4 deelvragen:
@@ -12369,19 +12858,13 @@ _Ook geklassificeerd onder_: 1.6
 
 4 Bijzonder mandaten
 
-A. Stellingen Juist of fout:
-
-A. CV ontbonden door AV bij gewone meerderheid
-
-B. Vrijwillige ontbinding BV is verslag externe accountant verplicht als de meerderheid van de aandeelhouders hierom vraagt.
-
-C. AV voor de vereffening van BV moet bij authentieke akte
-
-D. AV voor het sluiten van de vereffening BV moet bij authentieke akte.
-
-B. Verschillende stellingen Juist of Fout ivm ontbinding en vereffening
-
-C. Verschillende stellingen Juist of Fout ivm omzettingen
+- **A.** Stellingen Juist of fout:
+- **A.** CV ontbonden door AV bij gewone meerderheid
+- **B.** Vrijwillige ontbinding BV is verslag externe accountant verplicht als de meerderheid van de aandeelhouders hierom vraagt.
+- **C.** AV voor de vereffening van BV moet bij authentieke akte
+- **D.** AV voor het sluiten van de vereffening BV moet bij authentieke akte.
+- **B.** Verschillende stellingen Juist of Fout ivm ontbinding en vereffening
+- **C.** Verschillende stellingen Juist of Fout ivm omzettingen
 
 > [!note]- Geherinterpreteerde vraagtekst (ADR-022)
 > Casus bijzondere mandaten — ontbinding/vereffening en omzetting, 3 deelvragen:
@@ -12410,7 +12893,7 @@ _28 vragen — 5 met modelantwoord — 0 met gap-rapport._
 
 #### Vraagtekst
 
-K.1 : Beschrijf de deontologische regels en verplichtingen inzake overdracht van een dossier tussen twee confraters BIBF en dit zowel vanuit het perspectief van de overlater als vanuit het oogpunt van de overnemer van het dossier. 4 PUNTEN
+: Beschrijf de deontologische regels en verplichtingen inzake overdracht van een dossier tussen twee confraters BIBF en dit zowel vanuit het perspectief van de overlater als vanuit het oogpunt van de overnemer van het dossier.
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -12422,7 +12905,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-K.2 : Gelden diezelfde regels, zoals geformuleerd in uw antwoord op vraag K.1 tevens wanneer een dossier wordt overgenomen of overgedragen t.a.v. een accountant IAB of een bedrijfsrevisor IBR ? Zo nodig, geef meer toelichting. 1 PUNT
+: Gelden diezelfde regels, zoals geformuleerd in uw antwoord op vraag K.1 tevens wanneer een dossier wordt overgenomen of overgedragen t.a.v. een accountant IAB of een bedrijfsrevisor IBR ? Zo nodig, geef meer toelichting. 1 PUNT
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -12434,7 +12917,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-K.1 De afgevaardigd bestuurder van een NV gespecialiseerd in het domein van de voedingsnijverheid en waarvan U sinds meerdere jaren de boekhouding voert, vraagt U of U geen deel wenst uit te maken van de raad van bestuur van zijn onderneming. Dit voorstel interesseert U. Wat antwoordt U aan uw cliënt ?
+De afgevaardigd bestuurder van een NV gespecialiseerd in het domein van de voedingsnijverheid en waarvan U sinds meerdere jaren de boekhouding voert, vraagt U of U geen deel wenst uit te maken van de raad van bestuur van zijn onderneming. Dit voorstel interesseert U. Wat antwoordt U aan uw cliënt ?
 
 #### Modelantwoord
 
@@ -12454,7 +12937,7 @@ Artikel 21 : onverenigbare situatie vermits U als bestuurder van deze NV
 
 #### Vraagtekst
 
-K.2. Je bent stagiair BiBF. Bij de overdracht van een dossier stuurt jouw voorganger Patrick per ongeluk een bestandje mee door met al zijn klanten, hun adresgegevens, hun ondernemingsnummer, hun telefoonnummer en de prijzen die hij bij hun hanteert. Heel wat van de klanten ken je en je zou hun boekhouding wel voor een iets lager prijsje willen doen. Je kunt trouwens nog wel wat klanten gebruiken en de markt is toch zeker vrij voor iedereen. Uiteindelijk zal het toch de klant zijn die beslist. Dit is gewoon een commerciële meevaller ? Is dit deontologisch toegelaten/verboden? In welk artikelen vind je het antwoord op deze vraag ?
+Je bent stagiair BiBF. Bij de overdracht van een dossier stuurt jouw voorganger Patrick per ongeluk een bestandje mee door met al zijn klanten, hun adresgegevens, hun ondernemingsnummer, hun telefoonnummer en de prijzen die hij bij hun hanteert. Heel wat van de klanten ken je en je zou hun boekhouding wel voor een iets lager prijsje willen doen. Je kunt trouwens nog wel wat klanten gebruiken en de markt is toch zeker vrij voor iedereen. Uiteindelijk zal het toch de klant zijn die beslist. Dit is gewoon een commerciële meevaller ? Is dit deontologisch toegelaten/verboden? In welk artikelen vind je het antwoord op deze vraag ?
 
 1) plichtenleer artikel 23 De boekhouder BIBF kan alle personen die er om verzoeken, de nodige informatie bezorgen over zijn beroepswerkzaamheden, zijn deskundigheden, diensten en honoraria. Het is hem verboden klanten te ronselen alsook informatie spontaan aan te bieden met het oog op klantenwerving of zich bepaalde titels of deskundigheden toe te eigenen. Uitlokken of ronselen is verboden !
 
@@ -12484,7 +12967,9 @@ Verboden: art. 23 plichtenleer (geen ronselen/klantenwerving), art. 16 (hoffelij
 
 #### Vraagtekst
 
-K.3 Je bent stagiair BIBF. Nico, een vriend van je oudere broer Paul, wenst dat je de boekhouding van zijn restaurant overneemt. Paul is bankier bij Dexia. Nico had tot 3 maanden geleden zijn boekhouding bij Bernard . Wat verplicht de plichtenleer je ? - Hoe zal je de overgang van het dossier laten verlopen? Citeer tevens de toepasselijke artikelen uit de plichtenleer. - Je bent dermate tevreden dat je je aanbrengende broer een commissievergoeding wenst te betalen uit dank. Hoe pak je dit aan en op basis van welk artikel van de plichtenleer ?
+Je bent stagiair BIBF. Nico, een vriend van je oudere broer Paul, wenst dat je de boekhouding van zijn restaurant overneemt. Paul is bankier bij Dexia. Nico had tot 3 maanden geleden zijn boekhouding bij Bernard . Wat verplicht de plichtenleer je ? - Hoe zal je de overgang van het dossier laten verlopen? Citeer tevens de toepasselijke artikelen uit de plichtenleer. - Je bent dermate tevreden dat je je aanbrengende broer een commissievergoeding wenst te betalen uit dank.
+
+**Hoe pak je dit aan en op basis van welk artikel van de plichtenleer ?**
 
 1) plichtenleer artikel 17 Vooraleer een opdracht te aanvaarden, moet de boekhouder BiBF die een opdracht van een ander boekhouder BiBF, een accountant of een bedrijfsrevisor overneemt, de volgende regels in acht nemen: 1° hij moet zijn voorganger per aangetekende brief, in kennis stellen van de overname van de opdracht, zelfs indien de opvolging niet onmiddellijk is gebeurd 2° indien de voorganger niet werd betaald voor zijn prestaties, dient hij bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger. …alle documenten…alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid… Hij is gehouden hiervan een gedetailleerde en gedagtekende inventaris in twee exemplaren op te stellen, die door alle betrokken partijen ondertekend wordt.
 
@@ -12510,7 +12995,7 @@ Art. 17: aangetekende kennisgeving aan voorganger + gedetailleerde inventaris in
 
 #### Vraagtekst
 
-K.4. Rik is stagiair geworden nadat hij “betrapt” is op illegale uitoefening. Voor 2006 heeft hij maar 14 uren beroepsvervolmaking gevolgd. Hij heeft zijn lidgeld niet betaald in 2006 en hij heeft zijn bijdrage beroepsaansprakelijkheidsverzekering niet betaald in 2006. De assessor daagt hem voor de Kamer. Hij komt echter niet opdagen, terwijl hij nochtans tijdig en correct is opgeroepen voor de openbare zitting. Bovendien antwoordt hij op geen enkele brief die de Kamer hem stuurde. De Kamer is niet mals voor deze zondaar en spreekt op 03 november 2007 een tuchtstraf van 3 maanden schorsing uit. Rik gaat niet in beroep binnen de 30 dagen na betekening van het vonnis. Op 3 januari 2008 belt een klant om hem te vragen wanneer hij de BTW aangifte 4 van het jaar 2007 gaat verzorgen.
+Rik is stagiair geworden nadat hij “betrapt” is op illegale uitoefening. Voor 2006 heeft hij maar 14 uren beroepsvervolmaking gevolgd. Hij heeft zijn lidgeld niet betaald in 2006 en hij heeft zijn bijdrage beroepsaansprakelijkheidsverzekering niet betaald in 2006. De assessor daagt hem voor de Kamer. Hij komt echter niet opdagen, terwijl hij nochtans tijdig en correct is opgeroepen voor de openbare zitting. Bovendien antwoordt hij op geen enkele brief die de Kamer hem stuurde. De Kamer is niet mals voor deze zondaar en spreekt op 03 november 2007 een tuchtstraf van 3 maanden schorsing uit. Rik gaat niet in beroep binnen de 30 dagen na betekening van het vonnis. Op 3 januari 2008 belt een klant om hem te vragen wanneer hij de BTW aangifte 4 van het jaar 2007 gaat verzorgen.
 
 1) Welk artikel van de plichtenleer moet Rik hier inroepen naar zijn cliënt toe ?
 
@@ -12538,7 +13023,7 @@ K.4. Rik is stagiair geworden nadat hij “betrapt” is op illegale uitoefening
 
 #### Vraagtekst
 
-K.5 De echtgenoten Philippe en Isabelle, beiden erkend boekhouder(-fiscalist) hebben twee zonen (Frans en Jan) en één dochter (Mathilde). De drie kinderen zijn allen meerderjarig en studeren nog. Om hun werkzaamheden beter te organiseren wensen de ouders een boekhoudvennootschap op te richten conform het KB van 15/2/2005 betreffende de uitoefening van het beroep van erkend boekhouder (-fiscalist) in het kader van een rechtspersoon. Licht steeds uw antwoord toe.!!! - Welke zijn de specifieke aandachtspunten voor de doelomschrijving? Een burgerlijke vennootschap dient opgericht te worden. Het doel moet conform de deontologische voorschriften en het KB van 2005 betreffende de rechtspersonen BIBF worden opgesteld. Dit betekent dat enkel voorbehouden en toegelaten activiteiten van erkende boekhouders(-fiscalisten ) mogen opgenomen worden. Dus bijvoorbeeld geen handelsactiviteiten. (art 7 en 8 KB) - Indien zij opteren voor een BVBA. Wie kan tot zaakvoerder worden benoemd in deze boekhoudvennootschap? Enkel de ouders (Philippe en Isabelle) vermits alle zaakvoerders BIBF lid moeten zijn. (art 8, 5°) - Is volgende verdeling van de aandelen mogelijk? Philippe : 35 %, Isabelle 35 %, Frans, Jan en Mathilde elk 10 % . Licht uw antwoord toe. Neen vermits minstens 80 % van de aandelen en de stemrechten in handen moet zijn van BIBF leden of stagiairs. (art 8 , 4° KB) - De oudste zoon, zal na zijn studies aan de Hogeschool, afdeling boekhouding- fiscaliteit, een BIBF stage aanvangen. Kan hij op dat ogenblik zaakvoerder/bestuurder worden? Kan hij op dat ogenblik tevens 50 % van de aandelen verwerven ? Dit kan vermits stagiair-boekhouders, net zoals BIBF leden , mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder (fiscalist) BIBF (Zie art 1 en art 2 , par 2 KB)
+De echtgenoten Philippe en Isabelle, beiden erkend boekhouder(-fiscalist) hebben twee zonen (Frans en Jan) en één dochter (Mathilde). De drie kinderen zijn allen meerderjarig en studeren nog. Om hun werkzaamheden beter te organiseren wensen de ouders een boekhoudvennootschap op te richten conform het KB van 15/2/2005 betreffende de uitoefening van het beroep van erkend boekhouder (-fiscalist) in het kader van een rechtspersoon. Licht steeds uw antwoord toe.!!! - Welke zijn de specifieke aandachtspunten voor de doelomschrijving? Een burgerlijke vennootschap dient opgericht te worden. Het doel moet conform de deontologische voorschriften en het KB van 2005 betreffende de rechtspersonen BIBF worden opgesteld. Dit betekent dat enkel voorbehouden en toegelaten activiteiten van erkende boekhouders(-fiscalisten ) mogen opgenomen worden. Dus bijvoorbeeld geen handelsactiviteiten. (art 7 en 8 KB) - Indien zij opteren voor een BVBA. Wie kan tot zaakvoerder worden benoemd in deze boekhoudvennootschap? Enkel de ouders (Philippe en Isabelle) vermits alle zaakvoerders BIBF lid moeten zijn. (art 8, 5°) - Is volgende verdeling van de aandelen mogelijk? Philippe : 35 %, Isabelle 35 %, Frans, Jan en Mathilde elk 10 % . Licht uw antwoord toe. Neen vermits minstens 80 % van de aandelen en de stemrechten in handen moet zijn van BIBF leden of stagiairs. (art 8 , 4° KB) - De oudste zoon, zal na zijn studies aan de Hogeschool, afdeling boekhouding- fiscaliteit, een BIBF stage aanvangen. Kan hij op dat ogenblik zaakvoerder/bestuurder worden? Kan hij op dat ogenblik tevens 50 % van de aandelen verwerven ? Dit kan vermits stagiair-boekhouders, net zoals BIBF leden , mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder (fiscalist) BIBF (Zie art 1 en art 2 , par 2 KB)
 
 #### Modelantwoord
 
@@ -12564,7 +13049,6 @@ Burgerlijke venn. met enkel BIBF-doel; enkel ouders zaakvoerder (art. 8, 5°); a
 
 #### Vraagtekst
 
-Vraag 1 …. / 6 punten
 Antiwitwas-wetgeving
 In het kader van de Antiwitwas-wetgeving wordt gesproken over een compliane officer of
 witwasverantwoordelijke. Deze dient te worden aangesteld als er binnen hetzelfde kantoor
@@ -12596,10 +13080,12 @@ Erkende Boekhouders
 Stagiair Boekhouders – Fiscalisten
 b) Wat zijn de taken van een compliance officer of witwasverantwoordelijke?
 Geef er 3 op.
-Antwoord
+
+**Antwoord
 c) Wanneer een compliance officer of witwasverantwoordelijke werd aangesteld, dienen
 dan de andere beroepsbeoefenaars nog steeds de nodige meldingen te doen aan de
-CFI?
+CFI?**
+
 Antwoord
 
 |   |   |
@@ -12635,7 +13121,6 @@ CFI?
 
 #### Vraagtekst
 
-Vraag 2 …. / 2 punten
 In het kader van het beroepsgeheim zijn twee uitzonderingen ingeschreven in het
 strafwetboek, en de externe accountant en/of belastingconsulent dus het beroepsgeheim
 naast zich neer kan leggen.
@@ -12652,7 +13137,6 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-Vraag 3 …. / 5 punten
 In het kader van de onafhankelijkheid zijn er een aantal activiteiten die expliciet werden
 uitgesloten als uit te voeren door een externe accountant en/of belastingconsulent of zijn er
 activiteiten die mits te voldoen aan een aantal voorwaarden toch kunnen uitgevoerd worden
@@ -12741,12 +13225,13 @@ om een mandaat op te nemen in een zuivere patrimoniumvennootschap.
 
 #### Vraagtekst
 
-Vraag 4 …. / 2 punten
 De externe accountant en/of belastingconsulent mag publiciteit voeren, doch dient zich te
-houden aan een aantal regels. Welke van de onderstaande stellingen is juist of fout:
+houden aan een aantal regels.
+
+**Welke van de onderstaande stellingen is juist of fout:
 a) Een externe accountant en/of belastingconsulent mag geen vergelijkende studie
 maken van de erelonen die collega’s in zijn buurt aanrekenen in vergelijking met de
-erelonen die hij zelf aanrekent.
+erelonen die hij zelf aanrekent.**
 
 |   |   |
 | --- | --- |
@@ -12810,14 +13295,17 @@ _Ook geklassificeerd onder_: 3.0
 
 #### Vraagtekst
 
-Vraag 5 …. / 5 punten
 Wanneer een externe accountant een door de vennootschappenwet opgelegd en openbaar te
 maken controleverslag opstelt, dient hij hiervan een kopie over te maken aan het instituut.
 Preciseer vanaf welk moment en binnen welke termijn het verslag moet verstuurd worden in
 het kader van:
-a) een vereffening van een vennootschap?
+
+- **a.** een vereffening van een vennootschap?
+
 Antwoord
-b) een omvorming van een vennootschap?
+
+- **b.** een omvorming van een vennootschap?
+
 Antwoord
 ************************************************************************************************
 
@@ -12839,7 +13327,6 @@ een omvorming van een vennootschap?
 
 #### Vraagtekst
 
-Vraag 1 …. / 4 punten
 Een lid IAB heeft in 2013 volgende vormingsactiviteiten gevolgd:
 1) een seminarie georganiseerd door het IAB,
 2) een opleiding die werd verstrekt door het kantoor van accountants en
@@ -12847,10 +13334,14 @@ belastingconsulenten waar hij werkzaam is en die geen erkenning als
 vormingsoperator aanvroeg
 3) enkele seminaries gevolgd bij erkende vormingsoperatoren
 Gevraagd:
-a) Dient dit lid een bepaalde verhouding in acht te nemen inzake de duur van de
+
+- **a.** Dient dit lid een bepaalde verhouding in acht te nemen inzake de duur van de
+
 bovenstaande seminaries?
 Antwoord … / 2 punten
-b) Is de permanente vorming voor accountants en belastingconsulenten een op te volgen
+
+- **b.** Is de permanente vorming voor accountants en belastingconsulenten een op te volgen
+
 aanbeveling van het Instituut of is het een verplichting ?
 Antwoord … / 1 punt
 
@@ -12886,7 +13377,6 @@ Motiveer uw antwoord met verwijzingen naar tenminste 2 relevante teksten.
 
 #### Vraagtekst
 
-Vraag 2 …. / 7 punten
 Op uw kantoor biedt zich de heer Silan aan die u vertelt dat hij zaakvoerder is van de bvba
 Witwassen en dat de activiteit van deze bvba een keten van wassalons is. Hij vraagt dat u in
 
@@ -12894,14 +13384,20 @@ de toekomst de boekhouding en alle daaraan verbonden activiteiten zou overnemen 
 andere accountant - belastingconsulent. Uit het gesprek blijkt ook dat hijzelf geen aandelen
 van de vennootschap bezit, maar dat deze in handen zijn van de heer Black met 55% van de
 aandelen en de vennootschap nv White met 45% van aandelen.
-a) Ingevolge de preventieve antiwitwaswet dient een externe accountant en/of externe
+
+- **a.** Ingevolge de preventieve antiwitwaswet dient een externe accountant en/of externe
+
 belastingconsulent over te gaan tot de identificatie van een aantal betrokken
 partijen bij de acceptatie van een nieuwe dossier. Wie dient u als externe accountant
 en/of externe belastingconsulent in de gegeven situatie te identificeren?
 Antwoord … / 3 punten
-b) Met welke documenten zal u deze identificatie onderbouwen?
+
+- **b.** Met welke documenten zal u deze identificatie onderbouwen?
+
 Antwoord … / 2 punten
-c) Welke gegevens dienen er gecontroleerd te worden?
+
+- **c.** Welke gegevens dienen er gecontroleerd te worden?
+
 Antwoord … / 2 punten
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -12929,10 +13425,11 @@ Welke gegevens dienen er gecontroleerd te worden?
 
 #### Vraagtekst
 
-Vraag 3 …. / 4 punten
 In de relatie met confraters wordt u soms geconfronteerd met het feit dat u een dossier
 overneemt of dat u zelf een dossier dient over te dragen.
-Welke van onderstaande stellingen zijn juist of fout?
+
+**Welke van onderstaande stellingen zijn juist of fout?**
+
 a) Indien een cliënt al uw erelonen nog niet heeft betaald, bent u toch verplicht om het
 dossier over te dragen.
 
@@ -12998,7 +13495,6 @@ _Ook geklassificeerd onder_: 3.0
 
 #### Vraagtekst
 
-Vraag 4 …. / 5 punten
 Kan u in volgende situatie als externe accountant een monopolieopdracht aanvaarden?
 a) U bent werkzaam in een accountantskantoor en één van uw collega accountants
 binnen hetzelfde kantoor vraagt om een verslag op te maken in het kader van een
@@ -13048,7 +13544,6 @@ controlebevoegdheid van vennoten. Er is geen commissaris-revisor aangesteld.
 
 #### Vraagtekst
 
-Vraag 1 …. / 3 punten
 Het principe van de kwaliteitstoetsing is dat iedere accountant om de zeven jaar op
 kantoorniveau zou gecontroleerd worden. Dit betreft de periodieke toetsing. Daarnaast zijn er
 nog drie andere soorten toetsing, namelijk “de vervolgtoetsing”, “de thematische toetsing”
@@ -13104,26 +13599,34 @@ overdragen van een dossier.
 
 #### Vraagtekst
 
-Vraag 2 …. / 4 punten
 Op uw kantoor biedt zich een nieuwe klant aan die de opvolging van zijn vennootschap wil
 laten overnemen door uw kantoor. Tijdens dit gesprek komen de volgende punten aan bod.
-Geef aan wanneer u zich niet akkoord kan verklaren met de besproken punten en licht kort
-toe waarom u zich niet kan akkoord verklaren.
-a) Hij toont u een overzicht van openstaande facturen bij uw voorganger en een kopij van een
+
+**Geef aan wanneer u zich niet akkoord kan verklaren met de besproken punten en licht kort
+toe waarom u zich niet kan akkoord verklaren.**
+
+- **a.** Hij toont u een overzicht van openstaande facturen bij uw voorganger en een kopij van een
+
 overschrijving voor het globale bedrag om alzo aan te tonen dat alle schulden werden
 voldaan aan uw voorganger en deelt u dan ook mee dat het niet meer nodig is om uw collega
 te contacteren.
-Antwoord
+
+**Antwoord
 b) Gezien het 15 april is vraagt hij u om onmiddellijk te starten met het boeken van het eerste
 kwartaal van zijn boekjaar zodat de BTW-aangifte tijdig kan ingediend worden en hij tijdig zijn
-BTW – schuld kan voldoen.
+BTW – schuld kan voldoen.**
+
 Antwoord
-c) Hij vertelt u dat zijn keuze op uw kantoor is gevallen omdat u op uw site een vergelijking
+
+- **c.** Hij vertelt u dat zijn keuze op uw kantoor is gevallen omdat u op uw site een vergelijking
+
 heeft gemaakt van de door u aangerekende uurlonen in vergelijking met uw collega’s in de
 buurt en als goedkoopste uit deze vergelijking komt.
-Antwoord
+
+**Antwoord
 d) Tijdens jullie gesprek laat u ook weten dat u zetelt in verschillende commissies binnen het
-Instituut en daardoor soms sneller op de hoogte bent van bepaalde wijzigingen.
+Instituut en daardoor soms sneller op de hoogte bent van bepaalde wijzigingen.**
+
 Antwoord
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
@@ -13160,7 +13663,6 @@ Instituut en daardoor soms sneller op de hoogte bent van bepaalde wijzigingen.
 
 #### Vraagtekst
 
-Vraag 3 …. / 5 punten
 In het kader van de samenwerkingsverbanden zijn er sinds 2010 een aantal nieuwe regels.
 Zeg voor de onderstaande gevallen of deze situatie juist of fout is:
 a) Een middelenvennootschappen kan enkel opgericht worden met confraters IAB.
@@ -13232,13 +13734,14 @@ IAB.
 
 #### Vraagtekst
 
-Vraag 4 …. / 3 punten
 In het KB van 1 maart 1998 wordt eveneens de onafhankelijkheid van de externe
 accountant/belastingconsulent behandeld. In dat kader wordt er ook gesproken over
-mandaten en opdrachten die men niet mag aanvaarden. Geef hierna aan of de stellingen juist
+mandaten en opdrachten die men niet mag aanvaarden.
+
+**Geef hierna aan of de stellingen juist
 of fout zijn:
 a) Mits voorafgaande toestemming van de Raad kan een bestuursmandaat worden
-opgenomen in een commerciële vennootschap.
+opgenomen in een commerciële vennootschap.**
 
 |   |   |
 | --- | --- |
@@ -13290,12 +13793,13 @@ opdrachten van zijn werkgever moet volgen.
 
 #### Vraagtekst
 
-Vraag 5 …. / 5 punten
 Een confrater, die bij u in de gemeente is gevestigd, vraagt u als extern accountant, voor één
-van zijn klanten een verslag van omvorming te willen opmaken. Geef aan of u met volgende
+van zijn klanten een verslag van omvorming te willen opmaken.
+
+**Geef aan of u met volgende
 stellingen akkoord kan gaan of niet:
 a) U kan deze opdracht aanvaarden gezien er, buiten het feit dat u in dezelfde gemeente
-gevestigd is, verder geen enkele link is tussen uw kantoor en het kantoor van uw confrater.
+gevestigd is, verder geen enkele link is tussen uw kantoor en het kantoor van uw confrater.**
 
 |   |   |
 | --- | --- |
@@ -13375,10 +13879,11 @@ nodig voor een controle door het Instituut.
 
 #### Vraagtekst
 
-Vraag 1 …. / 3 punten
 De accountant en/of belastingconsulent is onderworpen aan de discretieplicht en het
 beroepsgeheim.
-Geef hieronder aan of de stellingen juist of fout zijn.
+
+**Geef hieronder aan of de stellingen juist of fout zijn.**
+
 a) In tegenstelling tot het beroepsgeheim is de discretieplicht ook van toepassing op de
 interne accountants en/of belastingconsulenten.
 Antwoord …/ 1 punt
@@ -13433,13 +13938,14 @@ gegevens van zijn werkgever als alle andere middelen zijn uitgeput.
 
 #### Vraagtekst
 
-Vraag 2 …. / 3 punten
 In de artikelen 27 tot en met 29 van het KB van 1 maart 1998 worden de erelonen van de
 accountant en/of belastingconsulent behandeld.
-Geef aan of volgende stellingen juist of fout zijn:
+
+**Geef aan of volgende stellingen juist of fout zijn:
 a) De accountant en/of belastingconsulent dient met een vast uurloon te werken en mag zijn
 ereloon dus niet afhankelijk stellen van de aard, het belang, de complexiteit, omvang en
-reikwijdte van de opdracht.
+reikwijdte van de opdracht.**
+
 Antwoord …/ 1 punt
 
 |   |   |
@@ -13491,8 +13997,8 @@ de cliënt de overeenkomst beëindigd.
 
 #### Vraagtekst
 
-Vraag 3 …. / 3 punten
-a) Uw klant, een meubelhandel, stelt u de volgende vraag:
+- **a.** Uw klant, een meubelhandel, stelt u de volgende vraag:
+
 Hoeveel mag de klant van de meubelhandel in contanten betalen in de volgende
 gevallen?
 Antwoord … / 2 punten
@@ -13502,7 +14008,9 @@ Antwoord … / 2 punten
 .............................................................................................................................
 - Een klant koopt een meubel van 11.000 EUR en betaalt in 2 schijven van 5.500 EUR:
 .............................................................................................................................
-b) U stelt bij één van uw klanten een overtreding vast van de limiet op toegestane
+
+- **b.** U stelt bij één van uw klanten een overtreding vast van de limiet op toegestane
+
 betalingen in contanten.
 Moet u als extern belastingconsulent een melding doen aan de CFI in het kader van de
 preventieve witwaswetgeving ?
@@ -13533,13 +14041,21 @@ _Ook geklassificeerd onder_: 3.0, 1.6
 
 #### Vraagtekst
 
-Vraag 4 …. / 3 punten
-De heer FIXIT is reeds jaren de externe accountant van de NV TRIAL. De gedelegeerde
-bestuurder van die vennootschap wenst de vennootschap NV TRIAL te vereffenen en geeft
-de heer FIXIT de opdracht dit te doen.
-Geef in onderstaande situaties weer of de stelling of situatie juist of fout is.
-a) De heer FIXIT kan dit begeleiden maar mag de controleopdracht op de staat van activa
-en passiva niet uitvoeren wegens een verbod gebaseerd op de onafhankelijkheid.
+> De heer FIXIT is reeds jaren de externe accountant van de NV TRIAL.
+
+De gedelegeerde
+bestuurder van die vennootschap wenst de vennootschap
+
+> NV TRIAL te vereffenen en geeft
+> de heer FIXIT de opdracht dit te doen.
+
+**Geef in onderstaande situaties weer of de stelling of situatie juist of fout is.**
+
+a)
+
+> De heer FIXIT kan dit begeleiden maar mag de controleopdracht op de staat van activa
+> en passiva niet uitvoeren wegens een verbod gebaseerd op de onafhankelijkheid.
+
 Antwoord …/ 1 punt
 
 |   |   |
@@ -13592,7 +14108,6 @@ identificatie van de bestuurder(s) en de vennootschap.
 
 #### Vraagtekst
 
-Vraag 5 …. / 3 punten
 U bent belastingconsulent, lid van het IAB en ingeschreven op de deellijst van de externe
 leden van het Instituut.
 Twee personen uit de streek van Aarlen, die u al jaren kent, associëren zich en richten een
@@ -13604,7 +14119,10 @@ zijn van plan om later contact op te nemen met het IAB.
 Het Belgische kantoor van de Luxemburgse vennootschap verstrekt uitsluitend
 belastingadvies en is wel degelijk voornemens om in haar communicatiebeleid in België de
 benaming “belastingconsulent” te gebruiken.
-Beantwoord de twee vragen met “ja” of “nee”. Verklaar uw antwoord.
+Beantwoord de twee vragen met “ja” of “nee”.
+
+**Verklaar uw antwoord.**
+
 Daar u enige jaren ervaring hebt als belastingconsulent in België, vragen die personen u:
 a) in te schrijven op enige aandelen (voor 15% van het kapitaal) van hun vennootschap
 naar Luxemburgs recht, zonder evenwel betrokken te zijn bij het bestuur van die
@@ -13617,9 +14135,10 @@ Antwoord … / 0,5 punt
 |   | Ja |
 |   | Neen |
 
-Antwoord … / 1 punt
+**Antwoord … / 1 punt
 b) hun bij de opstart te begeleiden door hun, zo nodig, als zelfstandige onderaannemer,
-bij te staan in moeilijke zaken in België.
+bij te staan in moeilijke zaken in België.**
+
 Antwoord … / 0,5 punt
 
 |   |   |
@@ -13652,7 +14171,6 @@ _Ook geklassificeerd onder_: 3.0
 
 #### Vraagtekst
 
-Vraag 6 …. / 5 punten
 In de norm inzake de controle van fusie- en splitsingsverrichtingen van vennootschappen
 zoals goedgekeurd door de raad van het IAB zijn er drie verplichtingen voor de
 beroepsbeoefenaar wanneer de door de wet vereiste verslagen in de bij de fusie of splitsing
@@ -13677,41 +14195,28 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 6 Deontologie en AWW
 
-A. Ereloon accountant: (Welke stelling is juist)?
-
-A. Barema ITAA
-
-B. Zelf vaststellen
-
-C. Provisie/voorschotten zijn verboden
-
-D. Kan bestaan uit commissielonen
-
-B. Welke stelling is fout?
-
-A. Dienstverstrekkers, zoals accountants en belastingadviseurs mogen 2.500 EUR contante betaling ontvangen
-
-B. Bij verkoop van een onroerend goed mag een notaris geen enkele betaling in contanten ontvangen
-
-C. De drempel inzake contante betalingen is niet alleen van toepassing op contante betalingen maar ook op schenkingen
-
-D. Indien de koper zich naar een postkantoor begeeft, waarbij de koper het bedrag van 5.000 EUR in contanten laat storten op de bankrekening van de handelaar, is dit in overeenstemming met de antiwitwaswetgeving
+- **A.** Ereloon accountant: (Welke stelling is juist)?
+- **A.** Barema ITAA
+- **B.** Zelf vaststellen
+- **C.** Provisie/voorschotten zijn verboden
+- **D.** Kan bestaan uit commissielonen
+- **B.** Welke stelling is fout?
+- **A.** Dienstverstrekkers, zoals accountants en belastingadviseurs mogen 2.500 EUR contante betaling ontvangen
+- **B.** Bij verkoop van een onroerend goed mag een notaris geen enkele betaling in contanten ontvangen
+- **C.** De drempel inzake contante betalingen is niet alleen van toepassing op contante betalingen maar ook op schenkingen
+- **D.** Indien de koper zich naar een postkantoor begeeft, waarbij de koper het bedrag van 5.000 EUR in contanten laat storten op de bankrekening van de handelaar, is dit in overeenstemming met de antiwitwaswetgeving
 
 E. Er is ook een drempel van 3.000 EUR voor verrichtingen tussen consumenten onderling.
 
-C. Vragen mbt openbaar register.
-
-D. Vragen mbt UBO register. Wie moet worden opgenomen?
+- **C.** Vragen mbt openbaar register.
+- **D.** Vragen mbt UBO register. Wie moet worden opgenomen?
 
 E. AMLCO, Stellingen juist of fout?
 
-A. Moet intern verslag maken bij atypische verrichtingen
-
-B. Moet intern verslag maken wanneer kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de klant
-
-C. Moet intern verslag maken wanneer na het uitvoeren van de risico beoordeling het kantoor beslist om de potentiële cliënt te weigeren wegens WG/ FT risico
-
-D. Zal minstens om de 2 jaar een actualiteitsverslag opmaken.
+- **A.** Moet intern verslag maken bij atypische verrichtingen
+- **B.** Moet intern verslag maken wanneer kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de klant
+- **C.** Moet intern verslag maken wanneer na het uitvoeren van de risico beoordeling het kantoor beslist om de potentiële cliënt te weigeren wegens WG/ FT risico
+- **D.** Zal minstens om de 2 jaar een actualiteitsverslag opmaken.
 
 > [!note]- Geherinterpreteerde vraagtekst (ADR-022)
 > Casus deontologie en antiwitwaswetgeving, 5 deelvragen:
@@ -13755,7 +14260,7 @@ _3 vragen — 1 met modelantwoord — 0 met gap-rapport._
 
 #### Vraagtekst
 
-J.1. Ten gevolge van het verlies van een grote klant, kent een vennootschap grote financiële problemen. De bedrijfsleiders beslissen om hun bezoldigingen fors te verminderen gedurende een bepaalde periode. De bedrijfsleider in kwestie betaalt zelf zijn trimestriële sociale bijdragen. Deze werden berekend op basis van de ontvangen bezoldigingen in 2000. De bedrijfsleider zal grote problemen ondervinden om deze te betalen in 2003. Inderdaad, zijn bezoldiging is fors verminderd in 2003 in verhouding tot hetgeen hij ontving in 2000. Welk advies zal U geven aan deze cliënt ? 2,5 PUNTEN
+Ten gevolge van het verlies van een grote klant, kent een vennootschap grote financiële problemen. De bedrijfsleiders beslissen om hun bezoldigingen fors te verminderen gedurende een bepaalde periode. De bedrijfsleider in kwestie betaalt zelf zijn trimestriële sociale bijdragen. Deze werden berekend op basis van de ontvangen bezoldigingen in 2000. De bedrijfsleider zal grote problemen ondervinden om deze te betalen in 2003. Inderdaad, zijn bezoldiging is fors verminderd in 2003 in verhouding tot hetgeen hij ontving in 2000. Welk advies zal U geven aan deze cliënt ? 2,
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -13767,7 +14272,7 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-J.2 Een werkgever wenst één van zijn werknemers te ontslaan. Welk is de procedure om deze bediende te ontslaan en een opzegtermijn te geven ? . 2,5 PUNTEN
+Een werkgever wenst één van zijn werknemers te ontslaan. Welk is de procedure om deze bediende te ontslaan en een opzegtermijn te geven ? . 2,
 
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
@@ -13779,7 +14284,15 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Vraagtekst
 
-J.1 Bart is op 1 februari 2001 in dienst getreden van een gekende grootwarenhuisketen. Bart ondertekende op 20 januari 2001 een arbeidsovereenkomst voor onbepaalde duur (voltijds). Bart werkt als bediende en verdeelt zijn tijd tussen het vullen van de rekken en het bedienen van de kassa. Hoewel hierover duidelijke interne richtlijnen bestaan, maakt Bart misbruik van zijn persoonlijke klantenkaart, telkens wanneer een klant zijn / haar klantenkaart is vergeten. In plaats van gebruik te maken van een speciale, anonieme klantenkaart van de werkgever, gebruikt Bart zijn eigen klantenkaart om er de aankopen van de klanten op te registreren. Op die manier slaagt Bart erin om maandelijks enkele waardevolle geschenken 'bijeen te sparen'. Op vrijdag 14 december 2007 wordt de werkgever ingelicht door een collega van Bart. Bart is op dat ogenblik een week met verlof. Na zijn terugkeer uit verlof wordt Bart onmiddellijk geroepen voor een gesprek. Eens geconfronteerd met de feiten, valt Bart door de mand en bekent hij alles. Dit gesprek vindt plaats op vrijdag 21 december 2007. De werkgever beslist, op basis van alle gekende feiten en na de bekentenis van Bart, om Bart te ontslaan wegens dringende reden. 1°Op welke dag moet het ontslag om dringende reden uiterlijk worden betekend? Antwoord: Op woensdag 26 december 2007 (d.i. 3 werkdagen na de kennisname van de feiten; N.B. zondagen en feestdagen worden niet meegeteld). 2° Indien de werkgever beslist om de motivering van het ontslag om dringende reden niet meteen te vermelden in de ontslagbrief zelf, maar wel in een tweede aangetekende brief, wanneer moet deze tweede, gemotiveerde brief ten laatste worden verstuurd als je weet dat de ontslagbrief aangetekend werd verstuurd op maandag 24 december 2007. Antwoord: Op vrijdag 28 december 2007 (d.i. drie werkdagen na het ontslag). 3° Stel dat het ontslag om dringende reden één dag te laat werd betekend. Welke opzegvergoeding moet de werkgever dan betalen, als je weet dat Bart een bruto jaarloon verdient van 27.000 EUR? Wat is het bruto bedrag en met hoeveel maanden (bruto) loon stemt deze opzegvergoeding overeen? Antwoord: De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto
+Bart is op 1 februari 2001 in dienst getreden van een gekende grootwarenhuisketen. Bart ondertekende op 20 januari 2001 een arbeidsovereenkomst voor onbepaalde duur (voltijds). Bart werkt als bediende en verdeelt zijn tijd tussen het vullen van de rekken en het bedienen van de kassa. Hoewel hierover duidelijke interne richtlijnen bestaan, maakt Bart misbruik van zijn persoonlijke klantenkaart, telkens wanneer een klant zijn / haar klantenkaart is vergeten. In plaats van gebruik te maken van een speciale, anonieme klantenkaart van de werkgever, gebruikt Bart zijn eigen klantenkaart om er de aankopen van de klanten op te registreren. Op die manier slaagt Bart erin om maandelijks enkele waardevolle geschenken 'bijeen te sparen'. Op vrijdag 14 december 2007 wordt de werkgever ingelicht door een collega van Bart. Bart is op dat ogenblik een week met verlof. Na zijn terugkeer uit verlof wordt Bart onmiddellijk geroepen voor een gesprek. Eens geconfronteerd met de feiten, valt Bart door de mand en bekent hij alles. Dit gesprek vindt plaats op vrijdag 21 december 2007. De werkgever beslist, op basis van alle gekende feiten en na de bekentenis van Bart, om Bart te ontslaan wegens dringende reden. 1°Op welke dag moet het ontslag om dringende reden uiterlijk worden betekend? Antwoord: Op woensdag 26 december 2007 (d.i. 3 werkdagen na de kennisname van de feiten; N.B. zondagen en feestdagen worden niet meegeteld). 2° Indien de werkgever beslist om de motivering van het ontslag om dringende reden niet meteen te vermelden in de ontslagbrief zelf, maar wel in een tweede aangetekende brief, wanneer moet deze tweede, gemotiveerde brief ten laatste worden verstuurd als je weet dat de ontslagbrief aangetekend werd verstuurd op maandag 24 december 2007.
+
+**Antwoord: Op vrijdag 28 december 2007 (d.**
+
+i. drie werkdagen na het ontslag). 3° Stel dat het ontslag om dringende reden één dag te laat werd betekend.
+
+**Welke opzegvergoeding moet de werkgever dan betalen, als je weet dat Bart een bruto jaarloon verdient van 27.**
+
+000 EUR? Wat is het bruto bedrag en met hoeveel maanden (bruto) loon stemt deze opzegvergoeding overeen? Antwoord: De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto
 
 #### Modelantwoord
 

@@ -11,6 +11,12 @@ per vraag (en waar mogelijk per subvraag) een veld vraagtekst_blokken[].
 Backward-compat: vraagtekst blijft populated (concat van blokken; tabellen
 gerenderd als markdown-tabel).
 
+DEPRECATED (ADR-021 v3.0, 2026-05-20): Vervangen door
+`tools.examen.extract_vragen_v3`. v2 blijft beschikbaar als basis-laag voor
+v3 (de v3-pipeline roept `extract_examen_v2` aan en past pattern-detectoren
+toe op de tekst-blokken). Run directe v2-extractie alleen als regressie-test
+of als de v3-pattern-detectie problemen geeft.
+
 CLI:
     python3 -m tools.examen.extract_vragen_v2                # alle examens
     python3 -m tools.examen.extract_vragen_v2 --examen 2014-1
@@ -775,6 +781,11 @@ def extract_examen_v2(examen_id: str, config: dict[str, Any]) -> dict:
 # ---------------------------------------------------------------------------
 
 def main(argv: Optional[list[str]] = None) -> int:
+    sys.stderr.write(
+        "[deprecated] extract_vragen_v2 is vervangen door extract_vragen_v3 "
+        "(ADR-021 v3.0). Gebruik `python3 -m tools.examen.extract_vragen_v3` "
+        "voor de nieuwe pipeline.\n"
+    )
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--examen", type=str, default=None,
                         help="Eén examen-id (bv. 2014-1); default = alle")

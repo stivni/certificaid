@@ -93,11 +93,73 @@ def titel_voor_programmaonderdeel(programmaonderdeel: str) -> str:
 # ---------------------------------------------------------------------------
 
 
+def _formatteer_bedrag(waarde: Any) -> str:
+    """Formatteer bedrag als Belgisch '7.000,00 EUR' (best-effort)."""
+    try:
+        f = float(waarde)
+    except (TypeError, ValueError):
+        return str(waarde) if waarde is not None else ""
+    # Belgisch: punt = thousands, komma = decimaal
+    geheel = f"{f:,.2f}"  # bv. "7,000.00"
+    # vlip komma en punt
+    geheel = geheel.replace(",", "X").replace(".", ",").replace("X", ".")
+    return geheel
+
+
+def _render_regels_tabel(
+    regels: list[dict[str, Any]],
+    kolommen: list[tuple[str, str]],
+    bedrag_eenheid: str = "EUR",
+) -> str:
+    """Render dict-regels als markdown-tabel.
+
+    `kolommen` is [(label, dict-key), ...]. Bedrag-keys met "bedrag" worden
+    Belgisch-geformatteerd.
+    """
+    if not regels:
+        return "_(geen regels)_"
+    headers = [k[0] for k in kolommen]
+    body_rijen = []
+    for r in regels:
+        cellen = []
+        for label, key in kolommen:
+            v = r.get(key, "")
+            if "bedrag" in key.lower():
+                cellen.append(_formatteer_bedrag(v))
+            else:
+                cellen.append(str(v) if v is not None else "")
+        body_rijen.append(cellen)
+    sep = "| " + " | ".join(["---"] * len(headers)) + " |"
+    regels_md = [
+        "| " + " | ".join(headers) + " |",
+        sep,
+    ]
+    for rij in body_rijen:
+        regels_md.append("| " + " | ".join(rij) + " |")
+    return "\n".join(regels_md)
+
+
 def render_vraagtekst_blokken(blokken: list[dict[str, Any]]) -> str:
-    """Render typed blokken (tekst, tabel, formule, figuur) naar markdown."""
+    """Render typed blokken naar markdown (v2 + v3 blok-types)."""
     delen: list[str] = []
+    # Verzamel MC-opties contiguous als één lijst
+    huidige_mc: list[dict[str, Any]] = []
+
+    def flush_mc():
+        if not huidige_mc:
+            return
+        regels = []
+        for opt in huidige_mc:
+            label = opt.get("label", "?")
+            tekst = (opt.get("tekst") or "").strip()
+            regels.append(f"- **{label}.** {tekst}")
+        delen.append("\n".join(regels))
+        huidige_mc.clear()
+
     for blok in blokken:
         blok_type = blok.get("type")
+        if blok_type != "mc_optie" and huidige_mc:
+            flush_mc()
         if blok_type == "tekst":
             inhoud = (blok.get("inhoud") or "").strip()
             if inhoud:
@@ -116,12 +178,87 @@ def render_vraagtekst_blokken(blokken: list[dict[str, Any]]) -> str:
             bron_pdf = blok.get("bron_pdf", "?")
             pagina = blok.get("page", "?")
             delen.append(f"_Figuur ({caption}) — bron: {bron_pdf} p.{pagina}_")
+        # ---- v3-blok-types ----
+        elif blok_type == "casus_context":
+            inhoud = (blok.get("inhoud") or "").strip()
+            if inhoud:
+                # Quote-blok: prefix elke regel met "> "
+                prefixed = "\n".join("> " + r for r in inhoud.splitlines())
+                delen.append(prefixed)
+        elif blok_type == "vraag_instructie":
+            inhoud = (blok.get("inhoud") or "").strip()
+            if inhoud:
+                delen.append(f"**{inhoud}**")
+        elif blok_type == "bijlage_verwijzing":
+            beschrijving = (blok.get("beschrijving") or "").strip()
+            delen.append(f"_{beschrijving}_")
+        elif blok_type == "proef_saldibalans":
+            kop = "**Proef- en saldibalans**"
+            tabel = _render_regels_tabel(
+                blok.get("regels", []),
+                [("Rekening", "rekening"), ("Naam", "naam"), ("Zijde", "zijde"), ("Bedrag", "bedrag")],
+            )
+            delen.append(kop + "\n\n" + tabel)
+        elif blok_type == "rekeningstaat":
+            kop = "**Rekeningstaat**"
+            tabel = _render_regels_tabel(
+                blok.get("regels", []),
+                [("Rekening", "rekening"), ("Naam", "naam"), ("Bedrag", "bedrag")],
+            )
+            delen.append(kop + "\n\n" + tabel)
+        elif blok_type == "inventaris":
+            kop = "**Inventaris**"
+            regels = blok.get("regels", []) or []
+            lijst = "\n".join(
+                f"- {r.get('post', '')}: {_formatteer_bedrag(r.get('bedrag'))} EUR"
+                for r in regels
+            )
+            delen.append(kop + "\n" + lijst)
+        elif blok_type == "balans":
+            kop = "**Balans**"
+            sub: list[str] = []
+            if blok.get("activa"):
+                sub.append("*Activa*")
+                for r in blok["activa"]:
+                    sub.append(
+                        f"- {r.get('rubriek', '')}: "
+                        f"{_formatteer_bedrag(r.get('bedrag'))} EUR"
+                    )
+            if blok.get("passiva"):
+                sub.append("*Passiva*")
+                for r in blok["passiva"]:
+                    sub.append(
+                        f"- {r.get('rubriek', '')}: "
+                        f"{_formatteer_bedrag(r.get('bedrag'))} EUR"
+                    )
+            delen.append(kop + "\n" + "\n".join(sub))
+        elif blok_type == "resultatenrekening":
+            kop = "**Resultatenrekening**"
+            tabel = _render_regels_tabel(
+                blok.get("regels", []),
+                [("Code", "code"), ("Post", "post"), ("Bedrag", "bedrag")],
+            )
+            delen.append(kop + "\n\n" + tabel)
+        elif blok_type == "marktwaarde":
+            post = blok.get("post") or "post"
+            bedrag = _formatteer_bedrag(blok.get("bedrag"))
+            delen.append(f"_Marktwaarde {post}: **{bedrag} EUR**_")
+        elif blok_type == "aanpassing":
+            subtype = blok.get("subtype", "aanpassing")
+            bedrag = _formatteer_bedrag(blok.get("bedrag"))
+            delen.append(f"_Aanpassing ({subtype}): **{bedrag} EUR**_")
+        elif blok_type == "mc_optie":
+            huidige_mc.append(blok)
+        elif blok_type == "berekening_gegeven":
+            formule = blok.get("formule") or ""
+            delen.append(f"```\n{formule}\n```")
         else:
             # Onbekend type → debug-fallback
             inhoud_dump = json.dumps(blok, ensure_ascii=False)
             delen.append(
                 f"```\n[onbekend blok-type: {blok_type}]\n{inhoud_dump}\n```"
             )
+    flush_mc()
     return "\n\n".join(delen)
 
 
