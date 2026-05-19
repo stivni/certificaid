@@ -330,8 +330,8 @@
       "vraagtype": "berekening",
       "vraagtekst": "C.1. Op de balans staan volgende bedragen: … 4 PUNTEN ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag: Bereken uit deze cijfers\n\na. het netto bedrijfskapitaal\n\nb. de ruime liquiditeitsratio (current ratio)\n\nc. de beperkte liquiditeitsratio (acid test)\n\nd. de solvabiliteitsratio.",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Netto bedrijfskapitaal = € 131.200 − € 77.090 = **€ 54.110**. b) Current ratio = € 131.200 / € 77.090 = **1,70**. c) Quick ratio = € 90.200 / € 77.090 = **1,17**. d) Solvabiliteitsratio = € 153.150 / € 281.240 = **54,46 %**.",
+      "antwoord_motivering": "Gegeven (balans):\n- Vaste activa: € 150.040\n- Voorraden: € 41.000\n- Vorderingen op −1 jaar: € 42.700\n- Geldbeleggingen: € 10.000\n- Liquide middelen: € 37.500\n- **Vlottende activa totaal**: 41.000 + 42.700 + 10.000 + 37.500 = **€ 131.200**\n- Kapitaal: € 100.000\n- Reserves: € 50.400\n- Overgedragen winst: € 2.750\n- **Eigen vermogen totaal**: 100.000 + 50.400 + 2.750 = **€ 153.150**\n- Schulden op + 1 jaar: € 51.000\n- Schulden op − 1 jaar: € 77.090\n- **Balanstotaal**: € 281.240\n\n### a) Netto bedrijfskapitaal\n\n```\nnetto bedrijfskapitaal = vlottende activa − schulden op ten hoogste 1 jaar\n                       = € 131.200 − € 77.090\n                       = € 54.110\n```\n⚖️ Positief → vlottende activa dekken meer dan de korte-termijn schulden; buffer voor liquiditeitsschokken.\n\n### b) Ruime liquiditeitsratio (current ratio)\n\n```\ncurrent ratio = vlottende activa / schulden op ten hoogste 1 jaar\n              = € 131.200 / € 77.090\n              = 1,70\n```\n⚖️ Vuistregel: > 1 wordt als gezond beschouwd (vlottende activa dekken kortlopende schulden). 1,70 = ruim voldoende.\n\n### c) Beperkte liquiditeitsratio (acid test / quick ratio)\n\n```\nquick ratio = (vlottende activa − voorraden) / schulden op ten hoogste 1 jaar\n            = (€ 131.200 − € 41.000) / € 77.090\n            = € 90.200 / € 77.090\n            = 1,17\n```\n⚖️ Strenger dan current ratio: sluit voorraden uit omdat die niet altijd snel liquideerbaar zijn. > 1 = voldoende.\n\n### d) Solvabiliteitsratio\n\n```\nsolvabiliteitsratio = eigen vermogen / balanstotaal\n                    = € 153.150 / € 281.240\n                    = 54,46 %\n```\n⚖️ Vuistregel: > 30-40 % wordt gezond geacht. 54 % = sterke eigen-vermogen-positie, lage afhankelijkheid van schuldeisers.\n\n_Grondslag: [[liquiditeitsratio]] §Berekening; [[solvabiliteitsratio]] §Berekening; [[werkkapitaal]] §Bouwstenen._",
       "themas": [
         "netto-bedrijfskapitaal",
         "liquiditeitsratio",
@@ -345,7 +345,45 @@
           "type": "tekst",
           "inhoud": "C.1. Op de balans staan volgende bedragen: … 4 PUNTEN ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag: Bereken uit deze cijfers\n\na. het netto bedrijfskapitaal\n\nb. de ruime liquiditeitsratio (current ratio)\n\nc. de beperkte liquiditeitsratio (acid test)\n\nd. de solvabiliteitsratio."
         }
-      ]
+      ],
+      "antwoord_type": "berekening",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/werkkapitaal.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "definitie netto bedrijfskapitaal"
+        },
+        {
+          "record": "content/concepten/liquiditeitsratio.md",
+          "sectie": "Berekening",
+          "ondersteunt": "current + quick ratio formules"
+        },
+        {
+          "record": "content/concepten/solvabiliteitsratio.md",
+          "sectie": "Berekening",
+          "ondersteunt": "solvabiliteitsratio formule"
+        },
+        {
+          "record": "content/concepten/berekenen-interpreteren-liquiditeitsratios.md",
+          "sectie": "Stappen",
+          "ondersteunt": "interpretatie ratios"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "berekening",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrC2",
@@ -357,8 +395,8 @@
       "vraagtype": "berekening",
       "vraagtekst": "C.2. Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT - winst van het boekjaar 2.750,00 - afschrijvingen 12.100,00 - toevoegingen aan voorzieningen 6.300,00 - bestedingen van voorzieningen 1.650,00 - toevoegingen aan waardeverminderingen 780,00 Vraag: Bereken de operationele cash-flow.",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Operationele cashflow = 2.750 + 12.100 + 6.300 − 1.650 + 780 = **€ 20.280**.",
+      "antwoord_motivering": "Operationele cashflow = nettoresultaat + niet-kas-bestanddelen (klasse 63 RR):\n\n```\noperationele cashflow = winst boekjaar + afschrijvingen + toevoegingen voorzieningen \n                      − bestedingen voorzieningen + toevoegingen waardeverminderingen\n```\n\n**Toepassing op de gegevens**:\n\n| Component | Bedrag (€) |\n|---|---:|\n| Winst van het boekjaar | + 2.750 |\n| Afschrijvingen | + 12.100 |\n| Toevoegingen aan voorzieningen | + 6.300 |\n| Bestedingen van voorzieningen | − 1.650 |\n| Toevoegingen aan waardeverminderingen | + 780 |\n| **Operationele cashflow** | **+ 20.280** |\n\n⚖️ De operationele cashflow corrigeert het boekhoudkundig resultaat voor de niet-kas-bestanddelen: afschrijvingen en waardeverminderingen zijn boekingen zonder kasuitgaaf, en voorzieningen-toevoegingen/-bestedingen zijn timing-correcties. Het verschil tussen winst (€ 2.750) en operationele cashflow (€ 20.280) toont dat het bedrijf cash genereert die in het resultaat niet zichtbaar is — een belangrijk signaal voor financiële analyse. 🤖\n\n_Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen — klassieke cashflow-formule._",
       "themas": [
         "operationele-cashflow"
       ],
@@ -370,7 +408,35 @@
           "type": "tekst",
           "inhoud": "C.2. Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT - winst van het boekjaar 2.750,00 - afschrijvingen 12.100,00 - toevoegingen aan voorzieningen 6.300,00 - bestedingen van voorzieningen 1.650,00 - toevoegingen aan waardeverminderingen 780,00 Vraag: Bereken de operationele cash-flow."
         }
-      ]
+      ],
+      "antwoord_type": "berekening",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/bedrijfsresultaat.md",
+          "sectie": "Bouwstenen — niet-kas-rubrieken klasse 63",
+          "ondersteunt": "cashflow-formule componenten"
+        },
+        {
+          "record": "content/concepten/cashflow-analyse.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "klassieke cashflow-berekening"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "berekening",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrD1",

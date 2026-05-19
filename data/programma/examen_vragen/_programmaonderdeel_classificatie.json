@@ -340,10 +340,14 @@
     "vraag_id": "2003-bibf-vrI1",
     "vak_code_in_pdf": "I",
     "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
-    "relevance": {},
-    "programmaonderdelen": [],
-    "confidence": "laag",
-    "rationale": "Accijnzen op intracommunautaire verwervingen — douane/accijnzen zit niet expliciet in het ITAA-examenprogramma 2024."
+    "relevance": {
+      "2.4": 90
+    },
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Accijnzen op intracommunautaire verwervingen (sigaren, champagne, stookolie, brandhout) — valt onder PO 2.4 anchors VIII (douane/accijns–btw-verband) en X (accijns-registratieformaliteiten)."
   },
   "2003-bibf-vrI2": {
     "vraag_id": "2003-bibf-vrI2",

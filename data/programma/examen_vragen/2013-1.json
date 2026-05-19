@@ -436,7 +436,21 @@
           "tekst": "Personeelskosten ten opzichte van de toegevoegde waarde (in %)",
           "punten": null
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "Bijlage (balans + resultatenrekening van cliënt)"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Vraag 2013-1-vr4 verwijst naar een bijlage met balans + resultatenrekening die niet in `vraagtekst` zit. Zonder concrete cijfers kunnen ratio's niet betrouwbaar worden berekend — gokwerk-interpretaties verboden per ADR-020 §10. Bijlage moet eerst handmatig uit het origineel-PDF worden toegevoegd vóór modelantwoord-generatie. Voor 2014-1-vr5 staan MC-keuzes met cijfer-resultaten — alternatief: extract de gebruikte cijfers uit de opties zelf (reverse-engineer) — maar dat blijft riskant zonder de ware bijlage.",
+        "type": "vraagtekst_onduidelijk",
+        "sub_type": "ontbrekende_bijlage",
+        "gedetecteerd_op": "2026-05-19",
+        "vraagtype_dat_faalde": "berekening"
+      },
+      "antwoord_type": "berekening",
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr5",
@@ -454,12 +468,15 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige waarde per aandeel). b) Fractiewaarde = kapitaal/aantal aandelen (sinds WVV 2019, vervangt nominale waarde). c) Netto-ROA = (nettoresultaat + financiële kosten van schulden) / totaal activa. d) Algemene schuldgraad = totaal schulden / balanstotaal (complement van solvabiliteit). e) Operationele cash flow voor belastingen = EBIT + niet-kas-bestanddelen (afschrijvingen, waardeverminderingen, voorzieningen-mutaties).",
+      "antwoord_motivering": "De vijf gevraagde begrippen, met formule + interpretatie:\n\n### a) Intrinsieke waarde (per aandeel)\n\n**Formule**: intrinsieke waarde = eigen vermogen / aantal uitgegeven aandelen\n\nDe boekhoudkundige waarde van één aandeel — de \"boekwaarde per aandeel\". Toont wat een aandeelhouder theoretisch zou ontvangen bij liquidatie tegen boekwaarde (na schulden afbetalen). 🤖\n\n⚠️ Verschilt van **marktwaarde** (beurskoers of overnameprijs): die houdt rekening met verwachte toekomstige winsten, marktomstandigheden, synergiën. Intrinsieke = boekhoudkundig, momentopname.\n\n### b) Fractiewaarde (per aandeel)\n\n**Formule**: fractiewaarde = (geplaatst) kapitaal / aantal aandelen\n\nWat één aandeel theoretisch in het kapitaal vertegenwoordigt — sinds WVV (2019) heet dit \"fractiewaarde\" in plaats van \"nominale waarde\" (de oude term). ⚖️ Onder WVV hebben aandelen géén nominale waarde meer; alleen fractiewaarde wordt gebruikt voor referentiedoeleinden (uitgiftepremie-berekening, inbreng in natura-toetsing, etc.).\n\n_Grondslag: WVV art. 5:7 + CBN 2021/01 §Uitgiftepremie_\n\n### c) Netto rendabiliteit van de bedrijfsactiva (netto-ROA)\n\n**Formule**: netto-ROA = (nettoresultaat ná belasting + financiële kosten van schulden) / totaal activa\n\nMeet de economische rentabiliteit van het totaal van bezittingen, **onafhankelijk van financieringsstructuur**. ⚖️ De financiële kosten van schulden worden teruggebracht in de teller omdat het rendement van de bedrijfsactiva niet vertekend mag worden door financiering (eigen vs vreemd vermogen).\n\nVariant: bruto-ROA = bedrijfsresultaat (EBIT) / totaal activa — vóór belastingen en financiële kosten.\n\n_Grondslag: [[rentabiliteit-totaal-activa-roa]] §Bouwstenen_\n\n### d) Algemene schuldgraad\n\n**Formule**: algemene schuldgraad = totaal schulden (lange + korte termijn) / totaal passiva (= balanstotaal)\n\nUitgedrukt als percentage. Aanduiding van de financiële afhankelijkheid van derden — het complement van de solvabiliteitsratio: schuldgraad + solvabiliteit = 100 %. ⚖️ Hogere schuldgraad → grotere afhankelijkheid van schuldeisers → minder buffer voor verliezen.\n\n_Grondslag: [[solvabiliteitsratio]] §Bouwstenen + [[debt-equity-ratio]]_\n\n### e) Operationele cash flow voor belastingen\n\n**Formule**: operationele cash flow vóór belastingen = bedrijfsresultaat (EBIT) + afschrijvingen + waardeverminderingen + toevoegingen aan voorzieningen − bestedingen van voorzieningen\n\nDe \"klassieke cashflow\" of \"boekhoudkundige cashflow vóór belastingen\" — het bedrijfsresultaat gecorrigeerd voor **niet-kas-bestanddelen** (klasse 63 in RR). ⚖️ Geeft een ruwe indicator van de operationele kasgenereringscapaciteit, voor de impact van belastingen. Het is een vertaling van het boekhoudkundig resultaat naar een cashflow-benadering — niet de echte \"cash flow from operations\" uit IFRS (die ook werkkapitaalmutaties bevat).\n\n_Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen_",
       "themas": [
         "financiële-begrippen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "WVV art. 5:7 (fractiewaarde)",
+        "CBN-advies 2021/01"
+      ],
       "opties": [
         {
           "label": "A",
@@ -504,7 +521,51 @@
           "tekst": "Operationele cash flow voor belastingen",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/uitgiftepremie.md",
+          "sectie": "Definitie",
+          "ondersteunt": "b) fractiewaarde sinds WVV"
+        },
+        {
+          "record": "content/concepten/rentabiliteit-totaal-activa-roa.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "c) ROA-formule"
+        },
+        {
+          "record": "content/concepten/solvabiliteitsratio.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "d) schuldgraad = 1 - solvabiliteit"
+        },
+        {
+          "record": "content/concepten/bedrijfsresultaat.md",
+          "sectie": "Bouwstenen — niet-kas-rubrieken klasse 63",
+          "ondersteunt": "e) operationele cashflow"
+        },
+        {
+          "record": "content/concepten/cashflow-analyse.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "e) cashflow-formule"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "circular_definition",
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr6",

@@ -406,7 +406,21 @@
           "tekst": "Liquiditeit in enge zin",
           "punten": null
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "Bijlage (balans + resultatenrekening van cliënt)"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Vraag 2014-1-vr5 verwijst naar een bijlage met balans + resultatenrekening die niet in `vraagtekst` zit. Zonder concrete cijfers kunnen ratio's niet betrouwbaar worden berekend — gokwerk-interpretaties verboden per ADR-020 §10. Bijlage moet eerst handmatig uit het origineel-PDF worden toegevoegd vóór modelantwoord-generatie. Voor 2014-1-vr5 staan MC-keuzes met cijfer-resultaten — alternatief: extract de gebruikte cijfers uit de opties zelf (reverse-engineer) — maar dat blijft riskant zonder de ware bijlage.",
+        "type": "vraagtekst_onduidelijk",
+        "sub_type": "ontbrekende_bijlage",
+        "gedetecteerd_op": "2026-05-19",
+        "vraagtype_dat_faalde": "berekening"
+      },
+      "antwoord_type": "berekening",
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr6",
@@ -424,8 +438,8 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Nettothesaurie = (geldbeleggingen + liquide middelen) − financiële schulden korte termijn (= werkkapitaal − werkkapitaalbehoefte). b) Positief: liquiditeitsoverschot — vermogen dekt voldoende de operationele behoefte; geen korte-termijn financiering nodig.",
+      "antwoord_motivering": "**a) Wat is de nettothesaurie?**\n\nDe nettothesaurie is een **liquiditeitsindicator** die meet hoeveel liquide middelen een onderneming netto aanhoudt na aftrek van haar **financiële schulden op korte termijn**.\n\n**Formule** (klassieke financiële analyse):\n```\nnettothesaurie = (geldbeleggingen + liquide middelen) − financiële schulden op korte termijn\n```\n\nOf equivalent:\n```\nnettothesaurie = werkkapitaal − werkkapitaalbehoefte\n```\n\n🤖 De twee formules geven hetzelfde resultaat — de eerste is balans-rechtstreeks, de tweede vertrekt vanuit het verschil tussen beschikbare middelen en operationele financieringsbehoefte.\n\n### b) Wat betekent een positieve nettothesaurie?\n\nEen **positieve** nettothesaurie betekent:\n\n- De onderneming heeft **méér liquide middelen + geldbeleggingen dan financiële schulden op korte termijn** — er is een liquiditeitsoverschot. ⚖️\n- Equivalent: het werkkapitaal is **voldoende** om de operationele werkkapitaalbehoefte te dekken — er is een liquide buffer over. 🤖\n- **Implicaties**:\n  - Geen behoefte aan korte-termijn financiering (kaskrediet, kortlopende leningen niet nodig)\n  - Buffer voor onverwachte uitgaven of conjuncturele schokken\n  - Mogelijk **te conservatief** beheer (geld dat \"ligt te slapen\" terwijl het kan worden geïnvesteerd of als dividend uitgekeerd) — efficiëntie-overweging 🤖\n\nEen **negatieve** nettothesaurie wijst op een dwangmatige afhankelijkheid van korte-termijn financiering om de operationele cyclus rond te krijgen — een rode vlag voor liquiditeit en continuïteit.\n\n_Grondslag: [[werkkapitaal]] §Bouwstenen; [[werkkapitaalbehoefte]]; klassieke financiële analyse-doctrine (geen specifiek record voor nettothesaurie zelf — concept is grotendeels doctrinair)._\n\n⚠️ **Open gap**: er is geen dedicated `nettothesaurie.md` record. Gap niveau c (nieuw concept) — uit te breiden in volgende concept-extractie-pass.",
       "themas": [
         "werkkapitaalbehoefte"
       ],
@@ -451,7 +465,45 @@
           "tekst": "Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan ?",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/werkkapitaal.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "context werkkapitaal/werkkapitaalbehoefte"
+        },
+        {
+          "record": "content/concepten/werkkapitaalbehoefte.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "verschil werkkapitaal − werkkapitaalbehoefte"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": {
+        "niveau": "c",
+        "ontbrekende_velden": [
+          "Concept-record voor nettothesaurie ontbreekt"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Geen dedicated `nettothesaurie.md` record. Concept wordt klassiek beschreven in financiële-analyse-doctrine als (geldbeleggingen + liquide middelen) − financiële schulden korte termijn, OF werkkapitaal − werkkapitaalbehoefte. Gap niveau c — nieuw concept-record nodig in volgende EXTRACT-pass (PO 1.9 financiële analyse).",
+        "type": "concept_ontbreekt",
+        "gedetecteerd_op": "2026-05-19",
+        "vraagtype_dat_faalde": "casus"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr7",

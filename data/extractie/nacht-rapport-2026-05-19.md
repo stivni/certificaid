@@ -31,30 +31,35 @@ Smoke-run resultaten (data/programma/examen_vragen/):
 - **40 antwoorden behouden** door migratie — fail-loud-gate werkte, geen ID-verlies in geen enkel examen.
 - **v1-backups** in `data/programma/examen_vragen/_archive/v1/` (gegit, audit-trail).
 
-### Modelantwoorden ingeschreven: 24 vragen, 6 PO's
+### Modelantwoorden ingeschreven: 30 vragen, 7 PO's
 
 | PO | Aantal | Vragen |
 |---|---:|---|
 | 1.1 | 3 | 2003-bibf-vrB4, 2013-1-vr12, 2024-1-vr3 (gedeeltelijk) |
-| 1.2 | 4 | 2003-bibf-vrB1, vrB2, vrB3, vrB5 (?) |
-| 1.3 | 1 | 2013-2-vr6 |
-| 1.4 | 6 | 2013-1-vr6, vr7, 2014-1-vr7, vr8, 2015-1-vr11, 2013-2-vr8, 2008-bibf-vrB1, vrB2 |
+| 1.2 | 4 | 2003-bibf-vrB1, vrB2, vrB3 |
+| 1.3 | 1 | (geen — was foutieve telling; werkkapitaal-vraag valt onder PO 1.9) |
+| 1.4 | 8 | 2013-1-vr6, vr7, 2014-1-vr7, vr8, 2015-1-vr11, 2013-2-vr8, 2008-bibf-vrB1, vrB2 — PILOT VOLLEDIG 8/8 ✓ |
 | 1.6 | 5 | 2013-2-vr9, 2013-2-vr11, 2014-1-vr3, 2014-1-vr13, 2015-1-vr16, 2015-1-vr19 |
 | 1.7 | 5 | 2013-1-vr8, vr9, vr10, vr12, 2024-1-vr3 |
+| 1.9 | 9 | 2013-1-vr5, 2015-1-vr9 (5 begrippen), 2014-1-vr6 (nettothesaurie), 2015-1-vr10 (werkkapitaalbehoefte), 2013-2-vr6 (werkkapitaal verhogen), 2003-bibf-vrC1, vrC2 (ratios + cashflow), 2008-bibf-vrC1, vrC2 (legacy) |
+
+**PO 1.8**: 0 voorbeeldvragen in pool — niets te doen.
+**PO 1.9**: 9 van 11 voltooid. **2 geflagged** als `vraagtekst_onduidelijk:ontbrekende_bijlage` (2013-1-vr4, 2014-1-vr5) — vereisen externe balans/RR-bijlage die niet in vraagtekst zit. Bijlage moet handmatig uit origineel-PDF worden toegevoegd vóór modelantwoord-generatie.
 
 Per antwoord-type:
-- definitie (6), casus (5), opsomming (4), kwalificatie (3), presentatie (2), drempel_cijfer (2), procedure (2)
-- Berekening niet zelfstandig (vr8 2014 valt onder kwalificatie+berekening)
+- definitie (8), casus (6), opsomming (4), kwalificatie (4), berekening (2), presentatie (2), drempel_cijfer (2), procedure (2)
 
 ### Record-gaps geflagged tijdens werk
 
-Drie soft-gaps gevonden + gedocumenteerd in `record_gap_report`:
+Soft-gaps gevonden + gedocumenteerd in `record_gap_report`:
 
-1. **`interne-controle.md`** — sectie "Drie doelstellingen" zou eigenlijk **4** moeten zijn (bescherming activa als 4e pijler). Gap niveau b. Geraakt door 2013-1-vr8 ("Geef vier elementen").
-2. **`werkkapitaal.md` + `beoordelen-werkkapitaal-en-kasstroom.md`** — geen expliciete sectie over "maatregelen om werkkapitaal te verhogen". Klassieke doctrine bekend, maar grounded record-citaat ontbreekt. Gap niveau b. Geraakt door 2013-2-vr6.
-3. **vr8 2014 boom-diagram** — visuele kettingstructuur (M / 70% 30% / 60% 20% / A B C) blijft platte tekst, niet getypeerd als tabel of figuur. Figuur-extractie is v2.1-scope. Gap niveau b (extractie-partieel) op vraag-niveau.
+1. **`interne-controle.md`** (niveau b) — sectie "Drie doelstellingen" zou eigenlijk **4** moeten zijn (bescherming activa als 4e pijler). Geraakt door 2013-1-vr8 ("Geef vier elementen").
+2. **`werkkapitaal.md` + `beoordelen-werkkapitaal-en-kasstroom.md`** (niveau b) — geen expliciete sectie over "maatregelen om werkkapitaal te verhogen". Klassieke doctrine bekend, maar grounded record-citaat ontbreekt. Geraakt door 2013-2-vr6.
+3. **vr8 2014 boom-diagram** (niveau b, extractie-partieel) — visuele kettingstructuur (M / 70% 30% / 60% 20% / A B C) blijft platte tekst, niet getypeerd als tabel of figuur. Figuur-extractie is v2.1-scope.
+4. **Nettothesaurie concept ontbreekt** (niveau c) — geen dedicated record `nettothesaurie.md`. Klassieke financieel-analyse-concept. Geraakt door 2014-1-vr6. **Eerste gap niveau c** — nieuw concept-record nodig in volgende EXTRACT-pass (PO 1.9 financiële analyse).
 
-Geen gap niveau c gevonden (nieuwe concepten nodig).
+Externe gaps (geen record-issue, wel pipeline-blok):
+5. **Ontbrekende bijlages** (2 vragen) — 2013-1-vr4 en 2014-1-vr5 verwijzen naar balans+RR-bijlage in originele PDF die niet in `vraagtekst` zit. Handmatige extractie vereist.
 
 ### Documentatie & memory
 
