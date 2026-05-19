@@ -299,13 +299,16 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Bij aankoop van een activa-bundel (machines + voorraad) tegen een globale prijs die niet gelijk is aan de som van marktwaarden, wordt de aanschaffingswaarde proportioneel verdeeld op basis van de relatieve marktwaarden. Boeking: elke component op zijn eigen rekening (rek 23 machines, rek 34 handelsgoederen, etc.) tegen het pro-rata-bedrag van de globale aanschaffingsprijs.",
+      "antwoord_motivering": "**Bundeling-aankoop principe** (CBN-advies 132/7 + KB WVV art. 3:42):\n\nWanneer meerdere activa **samen** worden aangekocht tegen één globale prijs, moet de aanschaffingsprijs **proportioneel** worden verdeeld over de individuele activa op basis van hun **relatieve marktwaarde**. ⚖️\n\n### Voorbeeld toepassing (op basis van vraagtekst)\n\nVennootschap Final BVBA koopt van DEF: machines + voorraad met respectievelijke marktwaarden:\n- Machine A: € 15.000 (marktwaarde)\n- (Verdere onderdelen niet zichtbaar in vraagtekst — vermoedelijk Machine B + Voorraad)\n\nStel totale marktwaarde van alle componenten = € 50.000, en globale aanschaffingsprijs = € 45.000 (5.000 korting):\n- Verdeling: machine A = (15.000 / 50.000) × 45.000 = € 13.500\n- Idem voor overige componenten\n\n### Boeking\n\n- Debet 23 Installaties, machines en uitrusting (machine A) € 13.500 (en idem voor overige machines)\n- Debet 34 Handelsgoederen (voorraad-component) € X\n- Credit 440 Leveranciers / 550 Bank € 45.000\n\n⚖️ Geen \"bundeling\" op één rekening — elke component op zijn eigen rekening volgens MAR-rubriek. Afschrijving en latere waardering gebeuren per component.\n\n### Waardering bij waardestijging?\n\nAls de globale aanschaffingsprijs **lager** is dan de som van marktwaarden (zoals waarschijnlijk in dit geval), ontstaat een **latente meerwaarde** per activum. Onder BE GAAP **niet** opwaarderen — voorzichtigheidsbeginsel. ⚖️ Activa op pro-rata aanschaffingsprijs gehouden, herwaardering alleen mogelijk als de drie strikte voorwaarden (zeker, duurzaam, onontbeerlijk) zijn voldaan (KB WVV art. 3:35) — zelden bij voorraad.\n\n🤖 Voor voorraad-component: blijft op pro-rata-bedrag tot verkoop (op moment van verkoop wordt eventuele meerwaarde gerealiseerd in resultaat).\n\n_Grondslag: KB WVV art. 3:42 (aanschaffingsprijs); CBN-advies 132/7 (verdeling globale aanschafprijs); voorzichtigheidsbeginsel._",
       "themas": [
         "goodwill",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:42",
+        "CBN-advies 132/7"
+      ],
       "opties": [
         {
           "label": "A",
@@ -327,7 +330,35 @@
           "tekst": "Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven?",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/materiele-vaste-activa.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "aanschaffingsprijs-toerekening"
+        },
+        {
+          "record": "content/concepten/voorzichtigheidsbeginsel.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "geen opwaardering bij latente meerwaarde"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr4",
@@ -345,12 +376,16 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Ja, de onderneming kan in haar jaarrekening rekening houden met de te verwachte schilderwerken via een **voorziening voor grote onderhouds- en herstellingswerken** (rek 162). Spreid de kost over de cyclus (8 jaar): jaarlijks 40.000 / 8 = 5.000 EUR aan voorziening boeken. b) Op het jaar van uitvoering wordt de voorziening gebruikt om de werkelijke kost te dekken: Debet 162 / Credit 440 (of 61 Diensten) — afhankelijk van match-bedrag, eventueel resterend verschil in resultaat.",
+      "antwoord_motivering": "### a) Mag de onderneming hiermee rekening houden? Wanneer? Hoeveel per jaar?\n\n**Ja**, via een **voorziening voor grote onderhouds- en herstellingswerken** (KB WVV art. 3:24 + art. 3:27; CBN-advies 107/9). ⚖️\n\n**Voorwaarden voor de voorziening**:\n- De kost is **redelijk te verwachten** (periodiek terugkerend, planmatig)\n- Bedrag is **schatbaar**\n- **Periodiciteit** is bekend (om de 8 jaar)\n\n**Berekening**: jaarlijks bedrag = totale verwachte kost / cyclus = € 40.000 / 8 = **€ 5.000 per jaar**. ⚖️\n\n**Boeking jaarlijks** (jaar 1 t.e.m. 7 vóór uitvoering):\n- Debet 6371 Voorzieningen voor grote onderhouds- en herstellingswerken € 5.000\n- Credit 162 Voorzieningen voor grote onderhouds- en herstellingswerken € 5.000\n\nSaldo van rek 162 stijgt jaarlijks: € 5.000 → € 10.000 → ... → € 35.000 (eind jaar 7) → € 40.000 (eind jaar 8 vóór uitvoering).\n\n### b) Op het jaar van uitvoering (jaar 8)\n\nWanneer de schilderwerken werkelijk worden uitgevoerd:\n- Debet 162 Voorzieningen € 40.000 (volledig gebruik)\n- Credit 440 Leveranciers / 550 Bank € 40.000\n\n**Resultaat van het uitvoeringsjaar**: geen kost meer in de resultatenrekening — de kost was over 8 jaar gespreid via de voorzieningen.\n\n🤖 Belangrijk:\n- Als de werkelijke kost > schatting (bv. € 45.000): aanvullende kost van € 5.000 ten laste van het jaar 8 (Debet 61 Diensten / Credit 440)\n- Als de werkelijke kost < schatting (bv. € 35.000): terugneming van overschot voorziening: Debet 162 € 5.000 / Credit 7371 Terugnemingen voorzieningen € 5.000\n\n⚖️ Voorzichtigheidsbeginsel + matching-principe: voorziening voorkomt dat de hele kost in één boekjaar valt (jaar 8) en spreidt de economische last over de cyclus.\n\n_Grondslag: KB WVV art. 3:24 (voorzieningen voor risico's en kosten) + art. 3:27 (specifieke voorzieningen); CBN-advies 107/9 ('Voorzieningen voor grote onderhouds- en herstellingswerken')._",
       "themas": [
         "voorzieningen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:24",
+        "KB WVV art. 3:27",
+        "CBN-advies 107/9"
+      ],
       "opties": [
         {
           "label": "A",
@@ -372,7 +407,30 @@
           "tekst": "Wat indien na acht jaar de schilderwerken worden uitgevoerd, maar meer bedragen\ndan de raming van 40.000 euro?",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/voorzieningen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "voorzieningen-procedure"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr5",
@@ -516,8 +574,8 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Bedrijfsleider leest uit liquiditeitsratio's of de onderneming op korte termijn aan haar betalingsverplichtingen kan voldoen — een ratio > 1 betekent dat vlottende activa de korte schulden dekken (gezond), < 1 wijst op een liquiditeitstekort. b) Bij liquiditeit in enge zin (quick ratio): voorraden worden uitgesloten omdat ze niet automatisch snel liquideerbaar zijn; bij ruime liquiditeit (current ratio) worden ze wel meegerekend.",
+      "antwoord_motivering": "### a) Wat leert de bedrijfsleider uit de liquiditeitsratio's?\n\nDe liquiditeitsratio's tonen of de onderneming **op korte termijn** in staat is haar kortlopende verplichtingen na te komen — een fundamentele indicator van financiële gezondheid op korte termijn. ⚖️\n\n**Vuistregels** ([[liquiditeitsratio]] §Bouwstenen):\n- **Ratio ≥ 1** (current of quick): vlottende activa dekken minstens de korte schulden → gezond. ⚖️\n- **Ratio < 1**: vlottende activa onvoldoende → mogelijk liquiditeitstekort → extra werkkapitaalfinanciering nodig (kaskrediet, factoring, kapitaalverhoging). 🤖\n- **Ratio >> 2**: mogelijk te conservatief beheer — activa \"liggen te slapen\", terwijl ze geïnvesteerd of als dividend uitgekeerd kunnen worden. 🤖\n\nDe bedrijfsleider gebruikt deze cijfers om: (1) leveranciers en banken gerust te stellen, (2) tijdig financierings-acties te plannen bij dalende trend, (3) te benchmarken tegen sector-gemiddelden, (4) interne werkkapitaal-discipline te sturen.\n\n### b) Verschil engere vs ruimere liquiditeit\n\n**Ruime liquiditeit (current ratio)**:\n```\ncurrent ratio = vlottende activa / schulden ≤ 1 jaar\n```\nInclusief alle vlottende activa: voorraden, vorderingen, geldbeleggingen, liquide middelen. ⚖️\n\n**Engere liquiditeit (quick ratio of acid test)**:\n```\nquick ratio = (vlottende activa − voorraden) / schulden ≤ 1 jaar\n```\n**Voorraden worden uitgesloten** in de berekening. ⚖️\n\n**Waarom worden voorraden uitgesloten bij engere liquiditeit?**\n- Voorraden zijn niet automatisch snel liquideerbaar — bij snelle verkoop moeten typisch kortingen worden gegeven (waardevermindering).\n- Bij specifieke voorraden (specifieke onderdelen, mode-artikelen) is de liquiditeit nog beperkter.\n- De engere ratio toont de **echte directe** dekkingscapaciteit — wat de onderneming kan dekken zonder voorraad te moeten verkopen.\n\n🤖 In de praktijk is de quick ratio strenger en conservatiever dan de current ratio — bij gezond bedrijf: current ratio ~2, quick ratio ~1.\n\n_Grondslag: [[liquiditeitsratio]] §Bouwstenen + §Berekening; [[berekenen-interpreteren-liquiditeitsratios]] §Stappen + §Interpretatie._",
       "themas": [
         "jaarrekeninganalyse"
       ],
@@ -552,7 +610,35 @@
           "tekst": "Verklaar uw antwoord aangaande punt b.",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/liquiditeitsratio.md",
+          "sectie": "Bouwstenen + Berekening",
+          "ondersteunt": "definitie current + quick ratio"
+        },
+        {
+          "record": "content/concepten/berekenen-interpreteren-liquiditeitsratios.md",
+          "sectie": "Stappen + Interpretatie",
+          "ondersteunt": "interpretatie voor bedrijfsleider"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr8",
@@ -839,10 +925,35 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "1 (Akkoord bestelling): Autorisatie. 2 (Ontvangst goederen): Bewaring. 3 (Ontvangst factuur): Registratie. 4 (Verificatie factuur): Controle. 5 (Betalingsvoorstel aanmaken): Registratie. 6 (Controle betalingsvoorstel): Controle. 7 (Uitvoeren betaling): Autorisatie. 8 (Onderhoud leveranciers-masterdata): Registratie.",
+      "antwoord_motivering": "4 functies klassieke functiescheiding: **(1) Autorisatie**, **(2) Bewaring activa**, **(3) Registratie & rapportering**, **(4) Controleprocedures**.\n\n| # | Activiteit | Functie | Reden |\n|---|---|---|---|\n| 1 | Akkoord bestelling | **1 Autorisatie** | Goedkeuring vóór actie ([[functiescheiding]] §Incompatibele combinaties) |\n| 2 | Ontvangst van de goederen | **2 Bewaring** | Fysiek beheer van activa op het moment van eigendomsoverdracht |\n| 3 | Ontvangst van de factuur | **3 Registratie** | Verwerking van het document in boekhoudsysteem |\n| 4 | Verificatie van de factuur | **4 Controle** | Driewegmatch (bestel/ontvangst/factuur) = controleprocedure |\n| 5 | Aanmaak betalingsvoorstel | **3 Registratie** | Voorbereiden van de boeking + betalingsorder — administratieve registratie |\n| 6 | Controle betalingsvoorstel | **4 Controle** | Validatie van het opgestelde voorstel = controleprocedure |\n| 7 | Uitvoeren van de betaling | **1 Autorisatie** | Vrijgave van middelen = autorisatie-handeling (typisch dubbele handtekening voor grote bedragen) |\n| 8 | Aanmaak en onderhoud basisgegevens leveranciers | **3 Registratie** | Masterdata-management — administratieve activiteit |\n\n🤖 Sommige activiteiten kunnen onder meer functies vallen afhankelijk van de organisatie:\n- \"Uitvoeren betaling\" wordt soms onder Bewaring geplaatst (geldmiddelen-beheer); maar in moderne IT-omgevingen is het sterker een Autorisatie-handeling (vrijgave van order)\n- \"Aanmaak leveranciers-masterdata\" is gevoelig — wie aanmaakt heeft impact op autorisatie, daarom soms onder Autorisatie geplaatst om incompatibiliteit met Registratie te vermijden\n\n_Grondslag: [[functiescheiding]] §Bouwstenen + §Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20._",
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ISA 315 (herzien-2019) Bijlage 3 §20"
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/functiescheiding.md",
+          "sectie": "Bouwstenen + Incompatibele combinaties",
+          "ondersteunt": "4-functie-indeling"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr11",
@@ -974,15 +1085,45 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Functiescheiding: P. Periodieke inventarisaties: R. Tussentijdse confirmaties: R. ICT beveiligingen: P. Handtekeningsbevoegdheid: P. Cijferbeoordeling: R. Solvabiliteitsonderzoek: P. (Geen pure C-maatregelen in deze lijst.)",
+      "antwoord_motivering": "| Voorbeeld | P | R | C | Motivering |\n|---|:-:|:-:|:-:|---|\n| Functiescheiding | **✓** | | | Voorkomt incompatibele combinaties **vóór** ze plaatsvinden — pure preventieve maatregel ⚖️ |\n| Periodieke inventarisaties | | **✓** | | Detecteert verschillen **achteraf** (boekhouding vs werkelijkheid) ⚖️ |\n| Tussentijdse confirmaties | | **✓** | | Detecteert afwijkingen **achteraf** (extern bevestigen wat al geboekt is) ⚖️ |\n| ICT beveiligingen | **✓** | | | Toegangsbeperking + autorisatie ex ante = preventief ⚖️ |\n| Handtekeningsbevoegdheid | **✓** | | | Autorisatie-mechanisme **vóór** de handeling = preventief ⚖️ |\n| Cijferbeoordeling brutomarges + korting | | **✓** | | Cijferanalyse na de feiten = repressief (detective) ⚖️ |\n| Solvabiliteitsonderzoek bij klantenacceptatie | **✓** | | | Vooraf-toets vermijdt latere oninbare vorderingen = preventief ⚖️ |\n\n🤖 **Corrigerende controles** komen niet voor in deze 7 voorbeelden — dat zijn typisch automatische correctie-routines (bv. ERP herstart-procedures, automatische heropbouw van indices, geautomatiseerde re-categorisatie van fouten) of administratieve correcties **na detectie**. Geen van de getoonde maatregelen valt zuiver onder C.\n\n_Grondslag: [[interne-controle]] §Bouwstenen + §Valkuilen; [[beheersactiviteiten]] §Types controlemaatregelen; COSO I (1992/2013)._",
       "themas": [
         "interne-controle",
         "confirmatiebrieven",
         "vennootschapsrecht",
         "analytische-procedures"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "COSO I (1992/2013)"
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/interne-controle.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "preventief/repressief-onderscheid"
+        },
+        {
+          "record": "content/concepten/beheersactiviteiten.md",
+          "sectie": "Types controlemaatregelen",
+          "ondersteunt": "types"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr13",
@@ -1004,12 +1145,16 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Periode 01/10/2014 (voorraadtelling akkoord) → 23/01/2015 (huidige datum) = ~4 maanden. Voor de accountant zijn dit de \"gebeurtenissen na balansdatum\" (ISA 560 / KB WVV art. 3:6). Acties: (a) management vragen om informatie over gebeurtenissen tussen balansdatum en datum verslag, (b) verifiëren of die gebeurtenissen aanpassende (adjusting events) of toelichtende (non-adjusting events) gebeurtenissen zijn, (c) verkrijgen van schriftelijke bevestiging van management dat alle relevante na-balansdatum-events zijn meegedeeld, (d) impact op jaarrekening + toelichting + controleverslag beoordelen.",
+      "antwoord_motivering": "### Context\n\nBalansdatum: 30 september 2014. Voorraadtelling bij accountant: 1 oktober 2014. Huidige datum: 23 januari 2015. **Periode van ~4 maanden tussen balansdatum en datum waarop het controleverslag wordt opgesteld** — typische \"na-balansdatum-periode\" in een audit.\n\n### Klassieke aanpak (ISA 560 + KB WVV art. 3:6)\n\n**Twee soorten gebeurtenissen na balansdatum**:\n\n1. **Aanpassende gebeurtenissen (adjusting events)** — gebeurtenissen die meer informatie verschaffen over omstandigheden die **al bestonden** op balansdatum. ⚖️ Voorbeelden: faillissement van een grote debiteur waar al twijfel over bestond → waardevermindering op vordering boeken op balans 30/09; uitspraak in een rechtsgeschil dat op 30/09 al hangende was → voorziening boeken.\n2. **Niet-aanpassende gebeurtenissen (non-adjusting events)** — gebeurtenissen die ontstonden **na** balansdatum. ⚖️ Voorbeelden: brand in november, overname op decembre, dividendbeslissing. Geen aanpassing van cijfers, maar **toelichting verplicht** indien materieel.\n\n### Acties van de accountant\n\n1. **Management bevragen** — wat is er sinds 30 september gebeurd? Significante contracten, claims, faillissementen, productiestilstanden, brand/diefstal, kapitaalverhogingen, omzet-veranderingen, etc. ⚖️\n2. **Documentatie reviewen** — recente notulen bestuursvergaderingen, ondertekende contracten, recente bank-/leverancier-correspondentie, juridische bevestigingen. ⚖️\n3. **Subsequente boekingen testen** — controleer of materiële gebeurtenissen die zich na 30/09 voordeden, correct in de jaarrekening van 30/09/2014 zijn opgenomen (adjusting) of in toelichting (non-adjusting). ⚖️\n4. **Externe bevestigingen** van advocaten (geschillen na 30/09) en banken (kredietfaciliteiten-status) — zie [[externe-bevestiging-audit]]. ⚖️\n5. **Schriftelijke bevestiging van management** ([[schriftelijke-bevestiging-management]]) — dat alle relevante na-balansdatum-events gemeld zijn (ISA 580). ⚖️\n6. **Impact beoordelen op**:\n   - Cijfers: aanpassende → boeken in jaarrekening\n   - Toelichting: niet-aanpassende materiële → vermelden\n   - Controleverslag: bij materiële niet-vermelding → voorbehoud of afkeurend\n   - Continuïteit: gebeurtenissen die continuïteit bedreigen → mogelijk going-concern paragraaf (ISA 570)\n\n_Grondslag: ISA 560 (Subsequent Events); KB WVV art. 3:6 (gebeurtenissen na balansdatum); ITAA KMO-controlenorm §123-126; [[externe-bevestiging-audit]]; [[schriftelijke-bevestiging-management]]._\n\n⚠️ Casus-specifiek (NV Fortunato): balansdatum 30/11/2013. Aanpak identiek aan klassieke ISA 560-procedure.",
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "ISA 560",
+        "KB WVV art. 3:6",
+        "ITAA KMO-controlenorm §123-126"
+      ],
       "opties": [
         {
           "label": "A",
@@ -1031,7 +1176,36 @@
           "tekst": "De telling van de voorraad (30/11/2013) hebben we fysiek kunnen meemaken.\nWelke controle doen we nu tijdens de controlewerkzaamheden op de voorraad\nlandbouwmachines? Geef één controledoelstelling en één voorbeeld van de\ntechniek die je daarvoor gaat toepassen.",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/externe-bevestiging-audit.md",
+          "sectie": "Werkwijze",
+          "ondersteunt": "externe bevestigingen na balansdatum"
+        },
+        {
+          "record": "content/concepten/schriftelijke-bevestiging-management.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "management bevestiging na-balansdatum-events"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ],
+        "opmerking": "Gespiegeld op 2015-1-vr18 (gebeurtenissen na balansdatum) — aanpak identiek."
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr14",

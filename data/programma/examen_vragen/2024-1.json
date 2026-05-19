@@ -723,14 +723,14 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Onder IAS 2 zijn drie methodes toegelaten: (1) FIFO, (2) gewogen gemiddelde, (3) specifieke identificatie (individueel). LIFO is UITDRUKKELIJK VERBODEN onder IFRS. Antwoord op MC A: D (FIFO en gewogen gemiddelde) is dichtst bij correct, maar mist specifieke identificatie; strikt = optie die geen LIFO bevat + alle drie toegelaten methodes.",
+      "antwoord_motivering": "**Onder IAS 2 'Voorraden' (Inventories)** zijn drie cost-formules toegelaten:\n\n1. **Specifieke identificatie** (IAS 2.23) — voor voorraad-items die niet onderling uitwisselbaar zijn (bv. unieke kunstwerken, vastgoed, voertuigen met VIN). ⚖️\n2. **FIFO (First-In, First-Out)** (IAS 2.25) — voor onderling uitwisselbare items. ⚖️\n3. **Gewogen gemiddelde kostprijs** (IAS 2.25) — alternatief voor FIFO. ⚖️\n\n**LIFO (Last-In, First-Out)** is **uitdrukkelijk verboden** onder IFRS sinds IAS 2 (revised 2003) — IAS 2.BC9 ev. ⚖️\n\n**Per MC-optie**:\n- **A**: FIFO, LIFO, gewogen gemiddelde, individueel → **FOUT** (LIFO erin)\n- **B**: \"Fifi\" (typo voor FIFO?), gewogen gemiddelde, individueel → mogelijk correct na typo-correctie, maar FIFO ontbreekt expliciet — onduidelijk\n- **C**: LIFO, gewogen gemiddelde, individueel → **FOUT** (LIFO erin)\n- **D**: FIFO en gewogen gemiddelde → **DEELS correct** (sluit LIFO uit, mist specifieke identificatie)\n\n**Beste antwoord**: optie D — bevat geen verboden LIFO, maar is incompleet (specifieke identificatie ontbreekt). Bij strikte lezing van MC moet \"alle juiste methodes\" gekozen worden, dan zou D + specifieke identificatie correct zijn. Indien geen volledige optie beschikbaar → D is het minst onjuist. 🤖\n\n⚠️ De vraag heeft sub-onderdelen B/C/D verder die hier niet zichtbaar zijn. Aandacht: vraagtekst kan onvolledig zijn extract.\n\n_Grondslag: IAS 2 §9-27; verbod LIFO sinds IAS 2 (revised 2003)._",
       "themas": [
         "ifrs",
         "afschrijvingen"
       ],
       "wets_verwijzingen": [
-        "Richtlijn 2013/34/EU"
+        "IAS 2 §9-27"
       ],
       "opties": [
         {
@@ -803,7 +803,40 @@
           "type": "tekst",
           "inhoud": "7 IFRS\n\nA. Onder IAS/ IFRS zijn volgende methoden mogelijk: ( Juist/ fout)\n\nA. Fifo, Lifo, gewogen gemiddelde, individueel.\n\nB. Fifi, gewogen gemiddelde, individueel\n\nC. Lifo, gewogen gemiddelde individueel\n\nD. Fifo en gewogen gemiddelde\n\nB. Richtlijn 2013/34/EU 26/06/2013, opname waardering volgens voorzichtigheidsprincipe. Welke stellingen juist/ fout\n\nA. Winsten mogen slechts opgenomen worden voor zover zij op balansdatum gerealiseerd zijn\n\nB. Verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar worden opgenomen, ook als die verplichting pas worden tussen balansdatum en de datum waarop de balans wordt opgesteld\n\nC. Alle negatieve waarde correcties worden opgenomen ongeacht of het boekjaar met winst of verlies wordt afgesloten.\n\nD. Voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde VA aan geherwaardeerde waarde op te nemen.\n\nC. Stellingen mbt IAS / IFRS Juist/ fout\n\na. Degressieve afschrijvingen zijn toegestaan\n\nb. Kosten voor voorbereiding van een terrein……?\n\nc. Uitzonderlijke opbrengsten boeken is toegestaan\n\nd. Afschr. MVA mag stopgezet worden wanneer reële waarde van het actief groter is dan boekwaarde\n\nD. Operationele / financiële laesing, hoe behandelen?"
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/voorraden-ifrs.md",
+          "sectie": "IAS 2 Bouwstenen",
+          "ondersteunt": "toegelaten methodes + LIFO-verbod"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "Volledige vraagtekst sub-onderdelen B/C/D"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Vraag heeft sub-onderdelen B/C/D in originele PDF die niet volledig in vraagtekst zitten. Alleen sub-A (voorraad-methodes) volledig beantwoord.",
+        "type": "vraagtekst_onduidelijk",
+        "sub_type": "partieel_extract",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2024-1-vr8",

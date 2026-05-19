@@ -313,10 +313,14 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Verkoop voor 5.000.000 EUR in 5 jaarlijkse stortingen van 1.000.000 EUR = vordering op lange termijn (rek 290 Vorderingen op meer dan een jaar) + vordering op ten hoogste een jaar (rek 41) voor het deel dat binnen het jaar vervalt. Discontering: bij een nul-rente of significant niet-marktconforme rente moet de vordering tegen actuele waarde (huidige waarde van toekomstige betalingen) worden geboekt volgens KB WVV — alternatief het verschil als financieel resultaat (rek 75/65) spreiden.",
+      "antwoord_motivering": "**Casus**: verkoop op 5 februari 2014 voor € 5.000.000 in **5 jaarlijkse stortingen van € 1.000.000**, zonder geëxpliciteerde rente.\n\n### Initiële boeking\n\nBij erkenning van de omzet (KB WVV art. 3:30 + 3:33: omzet op moment van eigendomsoverdracht):\n- Debet 290 Vorderingen op meer dan één jaar (€ 4.000.000 — 4 termijnen na het jaar)\n- Debet 416 Diverse vorderingen ≤ 1 jaar / 40 Handelsvorderingen (€ 1.000.000 — 1ste termijn binnen het jaar)\n- Credit 70 Omzet € 5.000.000\n\n### Discontering (KB WVV art. 3:46; CBN-advies 138/5)\n\nBelangrijk principe: een **niet-rentedragende vordering op meer dan één jaar** moet worden gewaardeerd aan **contante waarde** met een actualisatie aan een marktconforme rentevoet. ⚖️\n\nHet verschil tussen nominale waarde (€ 5.000.000) en contante waarde (afhankelijk van rentevoet, bv. 3 % marktrente):\n- Aanwendt als **uitgestelde financiële opbrengst** (boekt jaarlijks naarmate vordering inbaar wordt)\n- Boekt het verschil bij verkoop ook **niet** in volle omzet (KB WVV vereist actuele waarde)\n\nBv. bij 3 % markt-disconto:\n- Contante waarde: ~€ 4.580.000 (afhankelijk van exacte berekening)\n- Verschil ~€ 420.000 = uitgestelde financiële opbrengst (jaarlijks via rek 75 Financiële opbrengsten erkend)\n\n🤖 In de praktijk: kleine vennootschappen kunnen de discontering achterwege laten als het verschil niet materieel is. Voor grote bedragen (5M EUR) is discontering vereist.\n\n### Reclassificering elk boekjaar\n\nAan einde elk boekjaar: 1 termijn (1M EUR) wordt geherklasseerd van rek 290 → rek 41/416 (vordering die binnen het jaar vervalt).\n\n_Grondslag: KB WVV art. 3:30 (omzeterkenning), art. 3:46 (waardering vorderingen); CBN-advies 138/5 (discontering van vorderingen)._",
       "themas": [],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:30",
+        "KB WVV art. 3:46",
+        "CBN-advies 138/5"
+      ],
       "opties": [
         {
           "label": "A",
@@ -338,7 +342,30 @@
           "tekst": "Hoe worden de interest en het disconto uitgesplitst?",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/bedrijfsvorderingen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "classificatie + waardering vorderingen"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr5",
@@ -733,13 +760,46 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "1: JUIST. 2: FOUT (toegang beperkt). 3: JUIST. 4: FOUT (juiste periode, niet door boekhouder bepaald). 5: FOUT (verschillen wél verantwoorden).",
+      "antwoord_motivering": "| # | Omschrijving | J/F | Motivering |\n|---|---|---|---|\n| 1 | Transacties uitgevoerd in overeenstemming met door management vastgelegde bevoegdheidsverdelingen | **JUIST** ⚖️ | Autorisatie + functiescheiding zijn kerncomponenten van IC ([[interne-controle]] §Bouwstenen) |\n| 2 | Toegang tot activa vrij voor elke medewerker in vast dienstverband | **FOUT** ⚖️ | Toegang moet beperkt zijn op need-to-know-basis (fysieke beveiligingen + RBAC in IT) — zie [[controlemiddelen-ic]] §Fysieke beveiligingen |\n| 3 | Enkel verrichtingen behorend tot het patrimonium worden geregistreerd | **JUIST** ⚖️ | Bestaans- en juistheids-doelstelling (assurance-informatie); ook persoonlijke uitgaven van bestuurders horen niet thuis in onderneming-boekhouding |\n| 4 | Transacties in een door de boekhouder bepaalde periode opgenomen | **FOUT** ⚖️ | Transacties moeten in de **juiste boekhoudkundige periode** (cut-off — periode van het feit, niet door boekhouder gekozen). Klassiek frauderisico (zie [[verkoopcyclus-ic]] §Valkuilen) |\n| 5 | Verschillen tussen boekhouding en inventaris moeten niet verantwoord worden | **FOUT** ⚖️ | Verschillen moeten **wel** verantwoord, onderzocht en gecorrigeerd worden (inventaris-controle is een basis-IC-procedure) |\n\n_Grondslag: [[interne-controle]] §Bouwstenen + §Valkuilen; [[verkoopcyclus-ic]] §Valkuilen cut-off; [[controlemiddelen-ic]] §Fysieke beveiligingen._",
       "themas": [
         "interne-controle",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/interne-controle.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "IC-doelstellingen"
+        },
+        {
+          "record": "content/concepten/controlemiddelen-ic.md",
+          "sectie": "Fysieke beveiligingen",
+          "ondersteunt": "toegangsbeperking"
+        },
+        {
+          "record": "content/concepten/verkoopcyclus-ic.md",
+          "sectie": "Valkuilen — cut-off",
+          "ondersteunt": "juiste-periode-regel"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr10",
@@ -757,12 +817,42 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "(1) Geen scheiding tussen klant-aanvaarding (sales/verkoop) en klantenmaster-creatie → risico op fictieve klanten of klanten zonder kredietcheck. (2) Verkoper kan zelf de prijsvoorwaarden, kortingen of betalingstermijnen in de klantenfiche zetten → risico op oneigenlijke commerciële voorwaarden (eigen belang vs onderneming). (3) Geen kredietcheck vooraf gekoppeld aan klantenmaster-creatie → risico op oninbare vorderingen bij niet-solvabele klanten.",
+      "antwoord_motivering": "Bij de procedure waarbij **de verkoopafdeling zelf de nieuwe klantenfiches in het computersysteem aanmaakt** bij ontvangst van een ondertekende bestelbon, ontstaan **drie controletechnische risico's** ([[verkoopcyclus-ic]] §Stappen + [[functiescheiding]] §Incompatibele combinaties):\n\n### Risico 1: Geen functiescheiding klantenmaster ↔ verkoop\n\nDe verkoper is tegelijk **klantverwerver** (bestelbon ophalen) én **klantenmaster-creator** (fiche in ERP aanmaken). Dat doorbreekt het basisprincipe van functiescheiding tussen autorisatie (klant aanvaarden) en bewaring/registratie (klantgegevens in masterdata). ⚖️ Gevolg: een verkoper met fraude-intentie kan **fictieve klanten** aanmaken om verkoop-bonussen te scoren, of klanten met zwakke solvabiliteit door te laten zonder controle.\n\n### Risico 2: Verkoper bepaalt commerciële voorwaarden in de masterdata\n\nBij zelf-creatie van de klantenfiche kan de verkoper **kortingen, prijsvoorwaarden, betalingstermijnen en kredietlimieten** invullen zonder onafhankelijke goedkeuring. ⚖️ Eigen-belang (commissie op omzet) gaat dan in tegen het ondernemingsbelang (marge-bescherming, kredietrisico-management). Een verkoper kan systematisch hogere kortingen of langere betalingstermijnen toekennen dan commercieel verantwoord — direct verlies van marge en cashflow-traagheid.\n\n### Risico 3: Geen kredietcheck vooraf\n\nDe procedure beschrijft alleen dat een ondertekende bestelbon volstaat voor klantenfiche-aanmaak — **niet** dat een **kredietcheck** wordt uitgevoerd ([[verkoopcyclus-ic]] §Stap 1 Klantenacceptatie en krediettoekenning). ⚖️ Bij niet-solvabele klanten of klanten op een blacklist (mora) wordt de levering toch gestart → risico op oninbare vorderingen en aged-receivables die later moeten worden afgeboekt (kost-balanseffect + cashflow-impact).\n\n### Mitigatie (referentie)\n\n[[verkoopcyclus-ic]] §Stap 1 schrijft voor: **vóór** klantenfiche-aanmaak een due-diligence (KBO + jaarrekening + eventueel kredietverzekeraar) → kredietlimiet vastleggen → ERP blokkeert leveringen bij over-limit of mora. Klantenmaster-creatie moet door een **andere functie** (bv. credit-controller of finance) gebeuren, niet door sales zelf.\n\n_Grondslag: [[verkoopcyclus-ic]] §Stap 1; [[functiescheiding]] §Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20._",
       "themas": [
         "interne-controle"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ISA 315 (herzien-2019) Bijlage 3 §20"
+      ],
+      "antwoord_type": "opsomming",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/verkoopcyclus-ic.md",
+          "sectie": "Stap 1 Klantenacceptatie en krediettoekenning",
+          "ondersteunt": "kredietcheck vereist"
+        },
+        {
+          "record": "content/concepten/functiescheiding.md",
+          "sectie": "Incompatibele combinaties",
+          "ondersteunt": "sales ≠ masterdata-creator"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "opsomming",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr11",
@@ -780,12 +870,44 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet de aanvraag (declaratieformulier met bonnetjes), zaakvoerder B keurt goed (autorisatie); (2) Kassier C betaalt uit en houdt het kasregister bij; medewerker D (boekhouder of externe) voert de bank-/kasreconciliatie + boekt de kosten in de algemene boekhouding. Periodieke kasinventaris door een vijfde persoon (zaakvoerder of accountant) op willekeurige momenten.",
+      "antwoord_motivering": "**Procedure voor terugbetaling van kleine kosten via kas** in een familiale BVBA, met minstens twee functiescheidingen ([[functiescheiding]] §Bouwstenen + ITAA-norm-kmo-controlenorm Bijlage 1):\n\n### Stappen + functiescheidingen\n\n1. **Aanvraag (medewerker A)** — De medewerker die de kost heeft gemaakt vult een standaard-declaratieformulier in (datum, bedrag, doel, eventueel BTW), voegt de **originele bonnetjes** toe, ondertekent. ⚖️\n2. **Goedkeuring / autorisatie (zaakvoerder B of een aangewezen verantwoordelijke)** — De zaakvoerder controleert de aanvraag (zakelijk doel, plausibel bedrag, bonnetjes aanwezig en geldig), autoriseert door medeondertekening. ⚖️ **Functiescheiding nr. 1**: aanvrager ≠ autorisator.\n3. **Uitbetaling en kasregister (kassier C)** — Een aangewezen kassier (bv. de secretaresse) betaalt het bedrag uit de kas, registreert de uitgave in het kasregister met datum, ontvanger, bedrag, en bewaart het ondertekende formulier + bonnetjes als bewijsstuk. ⚖️\n4. **Boekhouding en reconciliatie (boekhouder D, intern of extern)** — De boekhouder boekt de uitgave in het financieel dagboek (kasdagboek), reconcileert periodiek het kassaldo met de fysieke kas-inventaris, en stuurt periodieke recapitulaties (maandelijks) naar het centraal boek. ⚖️ **Functiescheiding nr. 2**: kassier ≠ boekhouder.\n\n### Aanvullende controles\n\n- **Kasinventaris** door een **derde persoon** (zaakvoerder of externe accountant) op **willekeurige momenten** — onaangekondigde count vergelijken met kasregister. ⚖️ Detecteert verschillen tussen fysieke en boekhoudkundige kas.\n- **Maximum uitbetalingsbedrag** per declaratie (bv. € 250); grotere bedragen moeten via bankoverschrijving (niet via kas). 🤖\n- **Maandelijkse limiet** op de kas (bv. max € 1.500); overschot wordt naar bank teruggebracht. 🤖\n- **Niet meer dan 30 dagen** tussen kost-datum en declaratie (anti-fraude + tax-traceerbaarheid). 🤖\n\n### Incompatibele combinaties (vermijden)\n\nOnder geen beding mag één persoon tegelijk:\n- Aanvragen + autoriseren (eigen kosten goedkeuren)\n- Kas beheren + boekhouding voeren (kas-saldo manipuleren door valse boekingen)\n- Kas beheren + reconciliatie uitvoeren (zelf-controle)\n\n⚖️ Klassieke valkuil ([[functiescheiding]] §Incompatibele combinaties): in een familiale BVBA is de zaakvoerder vaak zowel autorisator als kas-beheerder + boekhouder. Aanbeveling: minstens de boekhouding extern uitbesteden of een tweede persoon (familielid in dienst, secretaresse) toewijzen voor de uitvoerende kas-taak.\n\n_Grondslag: [[functiescheiding]] §Bouwstenen + Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20; ITAA KMO-controlenorm Bijlage 1._",
       "themas": [
         "interne-controle"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ISA 315 (herzien-2019) Bijlage 3",
+        "ITAA KMO-controlenorm Bijlage 1"
+      ],
+      "antwoord_type": "procedure",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/functiescheiding.md",
+          "sectie": "Bouwstenen + Incompatibele combinaties",
+          "ondersteunt": "functiescheiding-types + voorbeelden"
+        },
+        {
+          "record": "content/concepten/beheersactiviteiten.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "autorisatie + bewaring + boekhouding-scheiding"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "procedure",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ],
+        "opmerking": "Identiek aan 2013-1-vr9 (kasprocedure familiale BVBA functiescheiding) — antwoord gespiegeld."
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr12",
@@ -807,13 +929,16 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Niet automatisch voorbehoud: alleen indien alternatieve werkzaamheden onvoldoende informatie opleveren én het effect materieel is. b) Acties: subsequente betalingen na balansdatum testen, leveringsbon/factuur/inning-documenten inspecteren, beoordeling waarom geen antwoord (steekproef-grootte vergroten, herzending naar andere ontvangers, telefonische follow-up), en indien aanhoudend → andere klanten in steekproef + cijferanalyse-DSO + management-bevestiging.",
+      "antwoord_motivering": "### a) Moeten we daarvoor een voorbehoud in ons verslag maken?\n\n**Niet automatisch.** Onvoldoende antwoorden op confirmatiebrieven is op zichzelf **geen** reden voor voorbehoud — het is een **scope-uitdaging** die opgelost kan worden met alternatieve werkzaamheden ([[externe-bevestiging-audit]] §Niet-antwoord). ⚖️\n\nVoorbehoud is alleen vereist wanneer:\n1. **Alternatieve werkzaamheden onvoldoende informatie opleveren** (bv. geen subsequente betalingen, contracten ontbreken, klanten weigeren mee te werken)\n2. **Het effect materieel is** — de niet-bevestigde saldi vertegenwoordigen samen een bedrag boven de materialiteitsdrempel\n3. **Diepgaand of niet** → bepaalt voorbehoud vs afkeurend oordeel (zie [[controleoordeel-types]])\n\nBij **diepgaande** scope-beperking + onmogelijke alternatieven → **onthouding van oordeel**. ⚖️\n\n### b) Welke acties kan men ondernemen?\n\n**Alternatieve werkzaamheden** ([[externe-bevestiging-audit]] §Niet-antwoord, ITAA KMO-controlenorm §92):\n\n1. **Subsequente inningen testen** — controleer in bankafschriften na balansdatum of de geboekte klantenvordering effectief geïnd werd. Inning na balansdatum is sterk bewijs van bestaan + waardering. ⚖️\n2. **Leveringsbonnen, facturen en orders inspecteren** — drieweg-match (order → leveringsbon → factuur) levert documentair bewijs over bestaan. ⚖️\n3. **Cijferanalyse op DSO en aged-receivables** — patronen identificeren die wijzen op verkeerd geboekte saldi. ⚖️\n\n**Procedurele acties op de confirmaties zelf**:\n\n4. **Herzending** — telefonische follow-up bij klant + opnieuw versturen via beveiligde weg (e-mail met handtekening + leverbevestiging) 🤖\n5. **Steekproef vergroten** — meer klanten aanschrijven om de coverage te verhogen 🤖\n6. **Switchen naar positieve bevestiging** — als oorspronkelijk negatief gevraagd (alleen reactie bij verschil), heroverwegen naar positieve bevestiging (altijd antwoorden) 🤖\n7. **Management-bevestiging** — schriftelijke bevestiging van management dat de klantensaldi correct geboekt zijn (zie [[schriftelijke-bevestiging-management]]) — maar dit is **aanvullend**, niet vervangend voor extern bewijs. ⚖️\n\nPas wanneer al deze alternatieven onvoldoende blijken, komt voorbehoud in beeld.\n\n_Grondslag: ITAA KMO-controlenorm §92; ISA 505 §12-16; [[externe-bevestiging-audit]]; [[controleoordeel-types]]._",
       "themas": [
         "confirmatiebrieven",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "ITAA KMO-controlenorm §92",
+        "ISA 505 §12-16"
+      ],
       "opties": [
         {
           "label": "A",
@@ -844,7 +969,35 @@
           "tekst": "Welke is de werkwijze nadat we onze selectie hebben gemaakt van de klanten aan\ndewelke de confirmatiebrieven worden verzonden : door wie zijn de\nconfirmatiebrieven opgesteld en getekend, aan wie moeten de antwoorden\nopgestuurd worden, wie verzendt de confirmatiebrieven?",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/externe-bevestiging-audit.md",
+          "sectie": "Bouwstenen — Niet-antwoord en alternatieve werkzaamheden",
+          "ondersteunt": "alternatieve werkzaamheden"
+        },
+        {
+          "record": "content/concepten/controleoordeel-types.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "voorbehoud-trigger"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr13",

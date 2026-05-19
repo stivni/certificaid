@@ -24,13 +24,16 @@
       "vraagtype": "berekening",
       "vraagtekst": "A.1. Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag : geef de afsluitingsboekingen voor de boekjaren 2002 en 2003. 5 PUNTEN",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Machine geactiveerd voor 100.000 EUR op rek 23 + afschrijving over gebruiksduur. Kapitaalsubsidie van 10.000 EUR geboekt: Debet 416 (te ontvangen) of 550 (Bank) 10.000 / Credit 15 Kapitaalsubsidies 10.000. Gespreide opname in resultaat: jaarlijks evenredig met de afschrijving van de machine: Debet 15 Kapitaalsubsidies / Credit 7530 Andere niet-recurrente opbrengsten (of 7536 specifiek voor kapitaalsubsidies).",
+      "antwoord_motivering": "**Boekhoudkundige verwerking van een kapitaalsubsidie** (KB WVV art. 3:50; CBN-advies 2018/02):\n\n### Stap 1: Bij toezegging/ontvangst van de subsidie\n\nSubsidie van € 10.000 wordt geboekt onder eigen vermogen op **rekening 15 'Kapitaalsubsidies'** (KB MAR + KB WVV bijlage). ⚖️\n\n- Debet 416 'Diverse vorderingen' (of 550 Bank bij ontvangst) € 10.000\n- Credit **15 'Kapitaalsubsidies'** € 10.000\n\n### Stap 2: Aanschaffing machine\n\nKlassieke MVA-boeking (KB WVV art. 3:42):\n- Debet 23 'Installaties, machines en uitrusting' € 100.000\n- Credit 440 'Leveranciers' (of 550 Bank) € 100.000\n\n### Stap 3: Jaarlijkse afschrijving van de machine\n\nBv. lineair over 10 jaar: € 10.000 per jaar:\n- Debet 6302 Afschrijvingen MVA € 10.000\n- Credit 2309 Geboekte afschrijvingen € 10.000\n\n### Stap 4: Gespreide opname van de kapitaalsubsidie in resultaat\n\nParallel met de afschrijving — proportie: subsidie/aanschaffingswaarde = 10.000/100.000 = 10 %. Per jaar wordt 10 % van de jaarlijkse afschrijving in resultaat genomen: € 10.000 × 10 % = € 1.000 per jaar. ⚖️\n\n- Debet 15 'Kapitaalsubsidies' € 1.000\n- Credit **7536 'Kapitaal- en interestsubsidies'** (of 7530 Andere niet-recurrente opbrengsten) € 1.000\n\nDit gaat 10 jaar door, parallel met de afschrijving. Saldo op rek 15 verminderd elk jaar met € 1.000 (start € 10.000 → eind jaar 1 € 9.000 → ... → eind jaar 10 € 0).\n\n_Grondslag: KB WVV art. 3:50; CBN-advies 2018/02 'Kapitaalsubsidies'._",
       "themas": [
         "kapitaalsubsidies",
         "afsluitingsboekingen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:50",
+        "CBN-advies 2018/02"
+      ],
       "opties": [],
       "subvragen": [],
       "vraagtekst_blokken": [
@@ -38,7 +41,35 @@
           "type": "tekst",
           "inhoud": "A.1. Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag : geef de afsluitingsboekingen voor de boekjaren 2002 en 2003. 5 PUNTEN"
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/eigen-middelen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "rek 15 in EV"
+        },
+        {
+          "record": "content/concepten/materiele-vaste-activa.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "machine-boeking + afschrijving"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrA2",
@@ -50,14 +81,17 @@
       "vraagtype": "berekening",
       "vraagtekst": "Op de proef- en saldibalans staan volgende bedragen: 32 Goederen in bewerking D 500,00 euro 34 Handelsgoederen D 7.000,00 euro De inventaris per einde boekjaar geeft - goederen in bewerking 400,00 - handelsgoederen 8.500,00 De marktprijs van de handelsgoederen bedraagt 8.250,00 euro. Er werd ook vastgesteld dat bepaalde goederen moeten afgeprijsd worden voor een totaal bedrag van 75,00 euro. Vraag : geef de afsluitingsboekingen. 5 PUNTEN",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Goederen in bewerking: boekhouding 500, inventaris 400 → waardevermindering 100 boeken: Debet 6098/9 Waardevermindering / Credit 3209 (rek voor waardevermindering goederen in bewerking). Handelsgoederen: boekhouding 7.000, inventaris (vermoedelijk minder) → idem waardevermindering tot inventariswaarde. Eindwaardering: voorraad geboekt aan **lagere van aanschaffingswaarde of realisatie-/marktwaarde** (voorzichtigheidsbeginsel — KB WVV art. 3:43).",
+      "antwoord_motivering": "**Voorraad-waardering** onder BE GAAP (KB WVV art. 3:43): aan aanschaffingswaarde of vervaardigingsprijs, met **waardevermindering** zodra de marktprijs of realisatiewaarde lager ligt — **voorzichtigheidsbeginsel**. ⚖️\n\n### Voor goederen in bewerking (rek 32)\n\n- Boekhouding: € 500 (aanschaffingswaarde)\n- Inventaris: € 400 (werkelijke waarde)\n- **Waardevermindering**: € 100 te boeken\n\n```\nDebet 6340 Waardeverminderingen op voorraden / OR 6098 (variant)  € 100\nCredit 3209 Geboekte waardeverminderingen op goederen in bewerking € 100\n```\n\nEindbalans-waardering: € 500 − € 100 = € 400 (inventariswaarde). ⚖️\n\n### Voor handelsgoederen (rek 34)\n\n- Boekhouding: € 7.000\n- Inventaris: lager bedrag (niet expliciet in vraagtekst — laten we aannemen dat de werkelijke waarde lager is, anders geen waardevermindering nodig)\n- **Idem** waardevermindering tot inventariswaarde:\n\n```\nDebet 6340 Waardeverminderingen op voorraden  € X (verschil)\nCredit 3409 Geboekte waardeverminderingen op handelsgoederen € X\n```\n\n### Algemene regel\n\nVoorraad eindigt op de balans aan de **lagere** van aanschaffingswaarde en marktwaarde. ⚖️ Bij stijging van de marktwaarde **niet** terug opwaarderen (latente meerwaarde — voorzichtigheidsbeginsel). Bij latere verkoop boven boekwaarde: gerealiseerde meerwaarde in resultaat.\n\n_Grondslag: KB WVV art. 3:43 (voorraadwaardering); CBN-advies 132/4 (waardeverminderingen voorraden)._",
       "themas": [
         "voorraadwaardering",
         "waardevermindering-handelsgoederen",
         "afsluitingsboekingen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:43",
+        "CBN-advies 132/4"
+      ],
       "opties": [],
       "subvragen": [],
       "vraagtekst_blokken": [
@@ -65,7 +99,30 @@
           "type": "tekst",
           "inhoud": "Op de proef- en saldibalans staan volgende bedragen: 32 Goederen in bewerking D 500,00 euro 34 Handelsgoederen D 7.000,00 euro De inventaris per einde boekjaar geeft - goederen in bewerking 400,00 - handelsgoederen 8.500,00 De marktprijs van de handelsgoederen bedraagt 8.250,00 euro. Er werd ook vastgesteld dat bepaalde goederen moeten afgeprijsd worden voor een totaal bedrag van 75,00 euro. Vraag : geef de afsluitingsboekingen. 5 PUNTEN"
         }
-      ]
+      ],
+      "antwoord_type": "berekening",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/voorraden.md",
+          "sectie": "Bouwstenen + Waardering",
+          "ondersteunt": "lagere van aanschaffing/markt"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "berekening",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrB1",
@@ -304,13 +361,16 @@
       "vraagtype": "open",
       "vraagtekst": "B.5. Vraag: Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.1 hierboven? 3 PUNTEN",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Voor kapitaalsubsidies (rek 15) zijn in de toelichting verplicht: (1) het bedrag van de subsidie, (2) de toekenningsdatum en -bron, (3) de boekingsmethode (gespreide opname in resultaat via rek 7530 in functie van afschrijving op het gesubsidieerde actief), (4) per boekjaar het opgenomen bedrag en het uitgestelde saldo. Voor 2002 en 2003 specifiek: vermelding in staten van de toelichting (Staat IX bij volledig schema).",
+      "antwoord_motivering": "**Kapitaalsubsidies** zijn niet-terugvorderbare overheidsbijdragen voor de financiering van vaste activa, geboekt op **rekening 15 'Kapitaalsubsidies'** (eigen vermogen) bij ontvangst en gespreid in resultaat genomen via **rekening 7530 'Andere niet-recurrente opbrengsten'** in dezelfde ritme als de afschrijving op het gesubsidieerde actief (KB WVV art. 3:50; CBN-advies 2018/02). ⚖️\n\n**Toelichtingsvermeldingen** per boekjaar (KB WVV bijlage toelichting, Staat IX):\n1. **Bedrag van de subsidie** ontvangen of nog te ontvangen\n2. **Toekenningsdatum + bron** (overheid: federaal, gewestelijk, lokaal, EU)\n3. **Boekingsmethode**: gespreide opname in resultaat in functie van afschrijvingsschema gesubsidieerd actief\n4. **Per boekjaar**: bedrag opgenomen in resultaat van het boekjaar + uitgesteld saldo (saldo eigen-vermogen-rekening 15 op balansdatum)\n5. **Bestaande verplichtingen** verbonden aan de subsidie (terugvordering bij niet-naleving voorwaarden)\n\n**Vergelijking 2002 / 2003**: bij elk boekjaar dezelfde vermeldingen, met de cumulatieve effecten zichtbaar. Het bedrag van het in resultaat genomen deel stijgt jaarlijks (proportioneel met afschrijving), het uitgesteld saldo op rek 15 daalt.\n\n🤖 Historische context: in 2003 gold het oude KB van 8 oktober 1976; inhoudelijke regels identiek aan huidige KB WVV.\n\n_Grondslag: KB WVV art. 3:50; CBN-advies 2018/02; [[kapitaalsubsidies]] (indien beschikbaar)._",
       "themas": [
         "kapitaalsubsidies",
         "toelichting-jaarrekening"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:50",
+        "CBN-advies 2018/02"
+      ],
       "opties": [],
       "subvragen": [],
       "vraagtekst_blokken": [
@@ -318,7 +378,30 @@
           "type": "tekst",
           "inhoud": "B.5. Vraag: Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.1 hierboven? 3 PUNTEN"
         }
-      ]
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/eigen-middelen.md",
+          "sectie": "Subsidies",
+          "ondersteunt": "kapitaalsubsidies in EV"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrC1",

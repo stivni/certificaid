@@ -432,14 +432,18 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Twee opties voor verwerking van subsidie op investering: (a) Brutering — activeren machine voor volle 80.000 + subsidie boeken op rek 15 (kapitaalsubsidie, eigen vermogen); (b) Netto-methode — vervangbaar door rechtstreeks verminderen van aanschaffingswaarde (machine voor 80.000 − subsidie). Onder Belgisch boekhoudrecht is methode (a) verplicht (KB WVV art. 3:50: subsidie als kapitaalsubsidie boeken).",
+      "antwoord_motivering": "**Klassieke boekhoudkundige keuze** voor overheidssubsidies op investeringen:\n\n### Methode (a) — Brutering (Belgisch verplicht onder KB WVV art. 3:50)\n\n- Machine geactiveerd voor volle € 80.000:\n  - Debet 23 Installaties, machines en uitrusting € 80.000\n  - Credit 440 Leveranciers (of 550 Bank) € 80.000\n- Subsidie apart geboekt:\n  - Debet 416 Diverse vorderingen € X (subsidie-bedrag)\n  - Credit 15 Kapitaalsubsidies (eigen vermogen) € X\n- Afschrijving op volle aanschaffingswaarde € 80.000\n- Subsidie wordt gespreid in resultaat genomen (rek 7536) parallel met afschrijving\n\n⚖️ Onder Belgische BE GAAP **verplicht** voor kapitaalsubsidies (zie 2003-bibf-vrA1 voor uitwerking).\n\n### Methode (b) — Netto-methode (niet-toegelaten onder BE GAAP)\n\n- Aanschaffingswaarde verminderd met subsidie: Machine voor € 80.000 − € X (subsidie) = netto-bedrag op rek 23\n- Geen rek 15 — subsidie verdwijnt uit de balans\n- Afschrijving op netto-bedrag\n\n🤖 Deze methode is **toegestaan onder IAS 20** (alternatief), maar **niet onder Belgisch boekhoudrecht** dat brutering vereist (KB WVV art. 3:50).\n\n### Conclusie\n\nOnder Belgisch boekhoudrecht: **brutering** (methode a) is de enige toegelaten methode. Subsidie boeken als kapitaalsubsidie op rek 15, gespreid in resultaat nemen parallel met afschrijving. ⚖️\n\n_Grondslag: KB WVV art. 3:50; CBN-advies 2018/02; IAS 20 (alternatief onder IFRS, niet onder BE GAAP)._",
       "themas": [
         "afschrijvingen",
         "vennootschapsrecht",
         "kapitaalsubsidies"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:50",
+        "CBN-advies 2018/02",
+        "IAS 20"
+      ],
       "opties": [
         {
           "label": "A",
@@ -457,7 +461,30 @@
           "label": "D",
           "tekst": "De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de\nsubsidie, ineens geboekt worden op rekening 15 “Kapitaalsubsidies” en zal in resultaat\nworden genomen volgens het afschrijvingsritme van het geïnvesteerde goed.\nE. De subsidie zal, vanaf de creditering ervan"
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/eigen-middelen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "rek 15 Kapitaalsubsidies"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr6",
@@ -1363,10 +1390,13 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Accountingcontrole = controle op cijfers/boekhouding zelf (omzeterkenning, voorraadwaardering); administratieve controle = controle op proces/procedures (autorisatie, functiescheiding). b) Preventief = ex ante (functiescheiding, autorisaties, kredietlimieten); repressief = ex post (reconciliaties, audits, cijferanalyses).",
+      "antwoord_motivering": "### a) Accountingcontrole vs administratieve controle\n\n- **Accountingcontrole**: controle op de **cijfers en boekhoudkundige verslaglegging** zelf — of de geboekte omzet klopt, of de voorraadwaardering juist is, of de afschrijvingen correct toegepast zijn, of de reconciliatie tussen sub-grootboeken en grootboek overeenkomt. ⚖️ Voorbeelden:\n  - Driewegmatch tussen bestelbon, ontvangstbon en factuur vóór betaling (= controle op de feitelijke ontvangst van de aangerekende goederen)\n  - Bankreconciliatie tussen banksaldo en grootboek-rek 550\n  - Aged-receivables-analyse om dubieuze vorderingen tijdig te boeken\n\n- **Administratieve controle**: controle op de **organisatorische processen en procedures** — niet de cijfers maar de manier waarop transacties worden behandeld. ⚖️ Voorbeelden:\n  - Functiescheiding tussen orderingever en betaler\n  - Vereiste dubbele handtekening voor betalingen > € 25.000\n  - Procedure voor klantenmaster-creatie (zie 2014-1-vr10)\n  - Goedkeuringsketens voor budgetafwijkingen\n\n🤖 De twee zijn complementair: administratieve controle voorkomt fouten/fraude in het proces; accountingcontrole detecteert ze in de cijfers.\n\n### b) Preventieve vs repressieve controle\n\n- **Preventieve controle (ex ante)**: voorkomt fouten of fraude voordat ze plaatsvinden. ⚖️ Voorbeelden:\n  - Functiescheiding (incompatibele combinaties uitsluiten)\n  - Kredietlimieten in ERP (blokkeert levering bij over-limit)\n  - Autorisaties vereist vóór actie (uitgaande betaling, bestelling > drempel)\n  - Toegangsbeperkingen (badges, RBAC in IT-systemen)\n\n- **Repressieve controle (ex post)**: detecteert fouten of fraude **nadat** ze gebeurd zijn. ⚖️ Voorbeelden:\n  - Bankreconciliaties (maandelijks of wekelijks)\n  - Periodieke cijferanalyses (DSO, marge-trends)\n  - Interne audit (periodieke evaluatie van procedure-werking)\n  - Aged-receivables-rapportering\n\n🤖 Aanvullend type (sommige doctrines): **corrigerende** controle = controle die niet alleen detecteert maar ook het probleem **oplost** (bv. automatische correctie-routines in IT).\n\n_Grondslag: [[interne-controle]] §Bouwstenen; [[beheersactiviteiten]] §Types controlemaatregelen; COSO I (1992/2013)._",
       "themas": [],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "COSO I (1992/2013)",
+        "ITAA KMO-controlenorm Bijlage 1"
+      ],
       "opties": [
         {
           "label": "A",
@@ -1388,7 +1418,35 @@
           "tekst": "Preventieve en repressieve controle.",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/interne-controle.md",
+          "sectie": "Bouwstenen — Drie doelstellingen",
+          "ondersteunt": "context controleactiviteiten"
+        },
+        {
+          "record": "content/concepten/beheersactiviteiten.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "types maatregelen"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr13",
@@ -1406,10 +1464,46 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Vier controletechnieken voor de interne controleur: (1) inspectie van documenten en activa, (2) waarneming van procedures en handelingen, (3) verzoek om inlichtingen (interviews + schriftelijke navragen), (4) herberekening van wiskundige juistheid. Aanvullend: externe bevestiging (klanten/leveranciers/banken/advocaten), cijferanalyse (trends + ratio's).",
+      "antwoord_motivering": "De interne controleur gebruikt de **klassieke set audit-technieken** (ISA 500 §A14-A25 — gedeeltelijk gedeeld met externe audit), aangepast aan de IC-context:\n\n1. **Inspectie** — onderzoek van documenten (facturen, bestelbonnen, contracten, leveringsbonnen) en fysieke activa (voorraad-count, vaste activa-inventaris). Levert bewijs over bestaan, autorisatie, en (deels) waardering. ⚖️\n2. **Waarneming** — gadeslaan van een proces of procedure die door anderen wordt uitgevoerd (bv. waarnemen van een voorraadopname, of het uitvoeren van een aankoop-autorisatie door de inkoper). Bewijs over de **uitvoering** van controles op het moment van waarnemen. ⚖️\n3. **Verzoek om inlichtingen** — interviews met medewerkers + management over werking van procedures, schriftelijke navragen. Op zichzelf onvoldoende, maar belangrijk als triangulatie. ⚖️\n4. **Herberekening** — wiskundige juistheid controleren (afschrijvingsplan, BTW-totalen, salarisberekeningen, voorraadwaardering). ⚖️\n\n**Aanvullende technieken**:\n- **Externe bevestiging** (zie [[externe-bevestiging-audit]]) — klanten, leveranciers, banken, advocaten — schriftelijk rechtstreeks\n- **Cijferanalyses** ([[cijferanalyses-controle-norm]]) — trends, ratio's, vergelijking met budget/vorig jaar\n- **Steekproef** ([[steekproef-audit]]) — als toelaatbare techniek-modaliteit voor inspectie\n\n_Grondslag: ISA 500 §A14-A25; ITAA KMO-controlenorm §89-92; [[selecteren-en-uitvoeren-controle-instrumenten-audit]]._",
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ISA 500 §A14-A25",
+        "ITAA KMO-controlenorm §89-92"
+      ],
+      "antwoord_type": "opsomming",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/selecteren-en-uitvoeren-controle-instrumenten-audit.md",
+          "sectie": "Stappen",
+          "ondersteunt": "controle-instrumenten overzicht"
+        },
+        {
+          "record": "content/concepten/externe-bevestiging-audit.md",
+          "sectie": "Definitie",
+          "ondersteunt": "externe bevestiging als techniek"
+        },
+        {
+          "record": "content/concepten/cijferanalyses-controle-norm.md",
+          "sectie": "Definitie",
+          "ondersteunt": "cijferanalyses"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "opsomming",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr14",
@@ -1479,12 +1573,42 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "1: Operationeel. 2: Operationeel. 3: Operationeel. 4: Conformiteit (+ Financieel). 5: Financieel.",
+      "antwoord_motivering": "| Doelstelling | F | O | C | Motivering |\n|---|:-:|:-:|:-:|---|\n| Opstellen marketingstrategie | | **✓** | | Strategisch-operationeel (positionering, productlancering); geen financieel rapporterings-impact direct |\n| Behoud tijdige levering tegen laagst mogelijke distributiekost | | **✓** | | Klassieke operationele doelstelling (efficiëntie) |\n| Opvolging marktbehoeften + productintroductie/-stopzetting | | **✓** | | Operationeel (productmix-management); deels strategisch maar onder operationeel valt in MC |\n| Enkel toegestane verkooporders worden verwerkt | **✓** | | **✓** | Financieel (correctheid omzet) + Conformiteit (autorisatie-discipline — beleid + wettelijk) |\n| Alle verzonden goederen in juiste periode correct gefactureerd | **✓** | | | Financieel: cut-off + volledigheid van de omzet ([[verkoopcyclus-ic]] §Valkuilen) |\n\n🤖 Sommige doelstellingen passen onder meer categorieën — ITAA verwacht typisch één kruis per doelstelling, kies de **primaire** dimensie. Voor onbevoegde verkoop kan zowel F als C — beide aanvinken is verdedigbaar.\n\n_Grondslag: [[verkoopcyclus-ic]] §Stappen + §Valkuilen; [[coso-i-framework]] §Doelstellingen-categorieën._",
       "themas": [
         "interne-controle"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "COSO I (1992/2013)"
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/verkoopcyclus-ic.md",
+          "sectie": "Stappen + Valkuilen",
+          "ondersteunt": "cut-off + autorisatie verkoop"
+        },
+        {
+          "record": "content/concepten/coso-i-framework.md",
+          "sectie": "Doelstellingen",
+          "ondersteunt": "F/O/C categorieën"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr15",
@@ -1526,12 +1650,15 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Indien adjustments worden geweigerd door de cliënt + materieel → de accountant kan een oordeel met voorbehoud uitbrengen, of (indien diepgaand) een afkeurend oordeel. Hij kan zich niet onthouden van rapportering — een contractueel beperkt nazicht eindigt met een verslag.",
+      "antwoord_motivering": "In een **contractueel beperkt nazicht** (review) — met **beperkte mate van zekerheid** in plaats van redelijke zekerheid (ISA 2400 / ITAA-norm-beoordelingsopdracht) — stelt de accountant **adjustments** voor wanneer hij afwijkingen vaststelt.\n\n### Wanneer cliënt de adjustments weigert\n\n**Optie 1: cliënt past de adjustments toe** → geen probleem, beoordelingsverslag met negatieve assurance (\"we zijn niets tegengekomen dat ons doet vermoeden ...\").\n\n**Optie 2: cliënt weigert** + adjustments zijn **materieel** → accountant moet de afwijking weerspiegelen in zijn verslag:\n- **Voorbehoud** (geïsoleerde afwijking, niet alles-doordringend) ⚖️\n- **Afkeurend verklaring** (diepgaande materiële afwijking — beoordelingsverslag-equivalent van afkeurend oordeel) ⚖️\n- **Onthouding** (bij onmogelijke scope — niet bij weigering van adjustment, want scope is hier wel bekend)\n\n### Belangrijke nuances\n\n🤖 Verschil met een **wettelijke commissaris-controle**: bij een contractueel beperkt nazicht is er geen wettelijke verplichting tot publiceren — maar de accountant blijft gebonden aan zijn beroepsethiek en moet wel **rapporteren** wat hij heeft vastgesteld. Hij kan zich niet eenvoudig \"terugtrekken\" zonder gevolgen — daarvoor is een opdrachtbrief met opzegclausule nodig.\n\n⚖️ Bij een controleopdracht (assurance met redelijke zekerheid) zou hetzelfde probleem leiden tot voorbehoud/afkeurend/onthouding op de jaarrekening zelf. Bij beperkt nazicht: hetzelfde principe maar met \"negatieve assurance\"-formulering (\"Op basis van onze beoordeling is ons niet gebleken dat ... behalve voor [adjustment]\").\n\n_Grondslag: [[contractuele-beoordelingsopdracht]] §Bouwstenen; ISA 2400 (Engagements to Review Historical Financial Statements); [[controleoordeel-types]]; ITAA-norm beoordelingsopdracht (indien beschikbaar)._",
       "themas": [
         "auditopdracht"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "ISA 2400",
+        "ITAA-norm beoordelingsopdracht"
+      ],
       "opties": [
         {
           "label": "A",
@@ -1553,7 +1680,35 @@
           "tekst": "Verklaar bondig.",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/contractuele-beoordelingsopdracht.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "beperkt nazicht + negatieve assurance"
+        },
+        {
+          "record": "content/concepten/controleoordeel-types.md",
+          "sectie": "Bouwstenen — voorbehoud/afkeurend/onthouding",
+          "ondersteunt": "mogelijke oordeel-types"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr16",
@@ -1727,12 +1882,16 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Periode 01/10/2014 (voorraadtelling akkoord) → 23/01/2015 (huidige datum) = ~4 maanden. Voor de accountant zijn dit de \"gebeurtenissen na balansdatum\" (ISA 560 / KB WVV art. 3:6). Acties: (a) management vragen om informatie over gebeurtenissen tussen balansdatum en datum verslag, (b) verifiëren of die gebeurtenissen aanpassende (adjusting events) of toelichtende (non-adjusting events) gebeurtenissen zijn, (c) verkrijgen van schriftelijke bevestiging van management dat alle relevante na-balansdatum-events zijn meegedeeld, (d) impact op jaarrekening + toelichting + controleverslag beoordelen.",
+      "antwoord_motivering": "### Context\n\nBalansdatum: 30 september 2014. Voorraadtelling bij accountant: 1 oktober 2014. Huidige datum: 23 januari 2015. **Periode van ~4 maanden tussen balansdatum en datum waarop het controleverslag wordt opgesteld** — typische \"na-balansdatum-periode\" in een audit.\n\n### Klassieke aanpak (ISA 560 + KB WVV art. 3:6)\n\n**Twee soorten gebeurtenissen na balansdatum**:\n\n1. **Aanpassende gebeurtenissen (adjusting events)** — gebeurtenissen die meer informatie verschaffen over omstandigheden die **al bestonden** op balansdatum. ⚖️ Voorbeelden: faillissement van een grote debiteur waar al twijfel over bestond → waardevermindering op vordering boeken op balans 30/09; uitspraak in een rechtsgeschil dat op 30/09 al hangende was → voorziening boeken.\n2. **Niet-aanpassende gebeurtenissen (non-adjusting events)** — gebeurtenissen die ontstonden **na** balansdatum. ⚖️ Voorbeelden: brand in november, overname op decembre, dividendbeslissing. Geen aanpassing van cijfers, maar **toelichting verplicht** indien materieel.\n\n### Acties van de accountant\n\n1. **Management bevragen** — wat is er sinds 30 september gebeurd? Significante contracten, claims, faillissementen, productiestilstanden, brand/diefstal, kapitaalverhogingen, omzet-veranderingen, etc. ⚖️\n2. **Documentatie reviewen** — recente notulen bestuursvergaderingen, ondertekende contracten, recente bank-/leverancier-correspondentie, juridische bevestigingen. ⚖️\n3. **Subsequente boekingen testen** — controleer of materiële gebeurtenissen die zich na 30/09 voordeden, correct in de jaarrekening van 30/09/2014 zijn opgenomen (adjusting) of in toelichting (non-adjusting). ⚖️\n4. **Externe bevestigingen** van advocaten (geschillen na 30/09) en banken (kredietfaciliteiten-status) — zie [[externe-bevestiging-audit]]. ⚖️\n5. **Schriftelijke bevestiging van management** ([[schriftelijke-bevestiging-management]]) — dat alle relevante na-balansdatum-events gemeld zijn (ISA 580). ⚖️\n6. **Impact beoordelen op**:\n   - Cijfers: aanpassende → boeken in jaarrekening\n   - Toelichting: niet-aanpassende materiële → vermelden\n   - Controleverslag: bij materiële niet-vermelding → voorbehoud of afkeurend\n   - Continuïteit: gebeurtenissen die continuïteit bedreigen → mogelijk going-concern paragraaf (ISA 570)\n\n_Grondslag: ISA 560 (Subsequent Events); KB WVV art. 3:6 (gebeurtenissen na balansdatum); ITAA KMO-controlenorm §123-126; [[externe-bevestiging-audit]]; [[schriftelijke-bevestiging-management]]._",
       "themas": [
         "confirmatiebrieven"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "ISA 560",
+        "KB WVV art. 3:6",
+        "ITAA KMO-controlenorm §123-126"
+      ],
       "opties": [
         {
           "label": "A",
@@ -1754,7 +1913,35 @@
           "tekst": "Bij nazicht van de handelsvorderingen (onder toepassing van 21% BTW) wordt een\nconfirmatie bekomen van een klant voor 121.000,00 EUR, daar waar de vordering in de\nboekhouding op 217.800,00 EUR staat. Bij de confirmatie zit een ontvangstbon\nafgetekend op 29/09/2014 door de klant en de chauffeur die de levering heeft gedaan.\nOp deze ontvangstbon staat de vermelding dat er voor 80.000,00 EUR (excl btw) aan\nfout geleverde goederen terug zijn meegenomen.\nWelke actie onderneem je als controlerende acc",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/externe-bevestiging-audit.md",
+          "sectie": "Werkwijze",
+          "ondersteunt": "externe bevestigingen na balansdatum"
+        },
+        {
+          "record": "content/concepten/schriftelijke-bevestiging-management.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "management bevestiging na-balansdatum-events"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr19",
