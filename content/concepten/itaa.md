@@ -60,14 +60,10 @@ _Grondslag: Wet 17 maart 2019 + ITAA-normen_
 
 
 > [!info]- Niet verwarren met [[ibr]]
-> ITAA reguleert accountants en gecertificeerde accountants (focus KMO's). IBR (Instituut van de Bedrijfsrevisoren) reguleert revisoren — wettelijke commissarissen bij grote vennootschappen, PIE's en grote VZW's. Twee aparte instituten, deels overlappende bevoegdheidsgebieden in KMO-controles.
+> ITAA reguleert accountants en gecertificeerde accountants — focus op KMO-boekhouding, fiscaal advies en (voor gecertificeerden) contractuele KMO-controles. IBR reguleert bedrijfsrevisoren — wettelijke commissarisopdrachten bij grote vennootschappen, PIE's en grote VZW's. Twee aparte instituten met deels overlappende activiteiten (advies-werk) maar met **strikt onderscheiden monopolies**: commissarisopdracht is wettelijk voorbehouden aan IBR-revisoren (WVV art. 3:72).
 >
-> _Trigger_: Examenvraag 'wie controleert de jaarrekening van een grote NV?' → commissaris-revisor → IBR. 'Wie helpt een KMO met boekhouding en advies?' → accountant → ITAA.
+> _Trigger_: Examenvraag 'mag een ITAA-accountant commissarisopdracht uitvoeren?' → **neen** (alleen IBR-revisor). 'Mag een ITAA-gecertificeerd accountant een contractuele KMO-controle doen?' → ja (ITAA-KMO-controlenorm). 'Wie controleert de jaarrekening van een grote NV?' → commissaris-revisor → IBR. 'Wie helpt een KMO met boekhouding en aangiftes?' → accountant → ITAA.
 
-
-## Zie ook
-
-- **Vereist kennis van**: [[itaa]]
 
 ## Voorbeelden
 

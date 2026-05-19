@@ -22,6 +22,13 @@
         "edges-1deprecated",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge verwijderd: deelneming (out-of-scope, gap blijft); geldbelegging→geldbeleggingen (canonical)"
+      ]
     }
   },
   "definitie": {
@@ -204,7 +211,7 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "geldbelegging",
+      "vergelijking_met": "geldbeleggingen",
       "verschil": "FVA: duurzaam ondersteuningsoogmerk, rubriek 28, aanschaffingsprijs-waardering. Geldbelegging: korte-termijn-rendement, rubriek 5x, mogelijk gewaardeerd aan lagere van aanschaffingswaarde/marktwaarde.",
       "trigger": "Examen: 'verworven met de bedoeling de groep duurzaam te ondersteunen' → FVA. 'tijdelijke parking van overtollige liquiditeiten' → geldbelegging."
     }
@@ -212,7 +219,7 @@
   "edges": [
     {
       "type": "vergelijkt-met",
-      "target": "geldbelegging",
+      "target": "geldbeleggingen",
       "redenering": "Klassieke examenkeuze: vast vs vlottend op basis van oogmerk."
     }
   ],

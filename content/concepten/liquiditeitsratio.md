@@ -65,6 +65,11 @@ _Grondslag: Vakdoctrine_
 >
 > _Trigger_: Examenvraag 'kortetermijnsbetaalkracht versus structurele veerkracht': KT = liquiditeit; lang = solvabiliteit.
 
+> [!info]- Niet verwarren met [[cash-ratio]]
+> Liquiditeitsratio is de overkoepelende categorie waar cash ratio onder valt als strengste hoofdvariant. Cash ratio neemt alleen de onmiddellijk beschikbare middelen (geldbeleggingen + liquide middelen); de bredere current en quick ratios nemen ook voorraden of vorderingen mee.
+>
+> _Trigger_: Examenvraag 'strengste liquiditeitstoets?' of 'welke ratio sluit voorraden én vorderingen uit?': altijd cash ratio.
+
 
 ## Valkuilen
 

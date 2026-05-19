@@ -24,6 +24,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "vergelijkingspaar: beschikbare-reserves bestaat niet als record; bewaard als aspect"
+      ]
     }
   },
   "main_rule": {
@@ -343,9 +350,10 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "beschikbare-reserves",
+      "vergelijking_met": "beschikbare-reserves-aspect",
       "verschil": "Wettelijke reserve: verplicht, geboden in WVV, minimum 10 % kapitaal, niet uitkeerbaar onder minimum. Beschikbare reserves: vrijwillig (vrije winstbestemming), vrij uitkeerbaar als dividend mits uitkeringstest.",
-      "trigger": "Examen: 'kunnen we deze reserves uitkeren?' — Wettelijke: nee onder minimum. Beschikbare: ja na uitkeringstest."
+      "trigger": "Examen: 'kunnen we deze reserves uitkeren?' — Wettelijke: nee onder minimum. Beschikbare: ja na uitkeringstest.",
+      "_target_status": "aspect-zonder-eigen-record"
     }
   ],
   "edges": [

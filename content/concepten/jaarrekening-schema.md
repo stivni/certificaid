@@ -24,7 +24,7 @@ Het jaarrekening-schema is de **voorgeschreven opbouw en presentatie** van balan
 > [!summary] Korte inhoud
 > Het 'schema' van een jaarrekening is de voorgeschreven opbouw en presentatie van balans, resultatenrekening en toelichting.
 
-> [!info] Behoort tot: [[kb-wvv-uitvoering]]
+> [!info] Behoort tot: [[kb-wvv-uitvoering]] · [[jaarrekening-presentatie]] · Specialisatie van: [[jaarrekening]]
 
 Het 'schema' van een jaarrekening is de voorgeschreven opbouw en presentatie van balans, resultatenrekening en toelichting. Het KB-WVV onderscheidt drie modellen: volledig (bijlage 1, voor grote vennootschappen), verkort (bijlage 2, voor kleine vennootschappen) en micro (bijlage 3, voor microvennootschappen). Verenigingen hebben aparte bijlagen.
 

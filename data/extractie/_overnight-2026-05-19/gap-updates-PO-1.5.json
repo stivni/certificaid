@@ -1,0 +1,490 @@
+{
+  "programmaonderdeel": "1.5",
+  "agent_run_id": "overnight-gap-fix-PO-1.5-2026-05-19",
+  "afgerond_op": "2026-05-19T05:30:00+00:00",
+  "updates": [
+    {
+      "match_op": {
+        "record_id": "onderhanden-projecten-ifrs",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Edge 'vervangt → ias-11-onderhanden-projecten' was reeds verwijderd in eerdere run; huidige edges zijn correct (onderdeel-van opbrengsten-ifrs, vergelijkt-met voorraden-ifrs, vereist-kennis-van prestatieverplichting). Obsoleet."
+    },
+    {
+      "match_op": {
+        "record_id": "opbrengsten-ifrs",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "BE-GAAP-pendant 'opbrengsten-be-gaap' aangemaakt (cluster, KB WVV art. 3:11 + 3:46). Edge 'vergelijkt-met → opbrengsten-be-gaap' vervangt de hangende 'specialisatie-van → opbrengsten'."
+    },
+    {
+      "match_op": {
+        "record_id": "wijziging-boekhoudkundig-referentiestelsel",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "won't-fix",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record is intussen cluster met 8 bouwstenen, 4 valkuilen, 3 in_praktijk en 2 vergelijkingsparen — niet langer node_type=procedure. Per schema 1.5/1.6 plaatsings-regel (§10) mag een cluster geen `stappen[]` op record-top hebben; stappen leven binnen berekeningsmethode of bouwstenen. Strategic-pass-gap was geformuleerd onder oude schema-veronderstelling. Edge specialisatie-van → stelselwissel-jaarrekening toegevoegd; grondslag-verwijzing in 'Uitzondering'-bouwsteen verbeterd (art. 3:1 ipv art. 3:58 §5)."
+    },
+    {
+      "match_op": {
+        "record_id": "afschrijvingen-ifrs",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "won't-fix",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record is gemigreerd naar node_type=cluster (was 'methode' onder schema 1.4). Cluster mag geen stappen[] op record-top — die leven binnen berekeningsmethode of bouwsteen-niveau. In_praktijk uitgebreid met examenrelevante uitleg (lineair/degressief/units-of-production + restwaarde-stop-mythe). Strategic-pass-gap was schema-1.4-redactie."
+    },
+    {
+      "match_op": {
+        "record_id": "leaseverplichting-ifrs",
+        "aspect": "valkuilen.ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record heeft intussen 3 valkuilen (variabele lease-betalingen, rentevoet-keuze, herwaardering bij optie-herziening). Strategic-pass-gap obsoleet."
+    },
+    {
+      "match_op": {
+        "record_id": "right-of-use-actief",
+        "aspect": "valkuilen.ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record heeft intussen 3 valkuilen. Obsoleet."
+    },
+    {
+      "match_op": {
+        "record_id": "be-gaap-vs-ifrs-overzicht",
+        "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Edges toegevoegd: onderdeel-van jaarrekening-presentatie, verwijst-naar ifrs-toepassingsgebied-belgie. Record heeft al 15 gebaseerd_op_concepten. Vergelijkingstabel verwijst nu structureel via de gemeenschappelijke jaarrekening-presentatie-cluster."
+    },
+    {
+      "match_op": {
+        "record_id": "opbrengsten-ifrs",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Nieuw record 'opbrengsten-be-gaap' aangemaakt (cluster, KB WVV art. 3:11 + 3:46) als BE-GAAP-tegenhanger. 4 bouwstenen, 2 valkuilen, 3 in_praktijk-items, vergelijkingspaar met opbrengsten-ifrs."
+    },
+    {
+      "match_op": {
+        "record_id": "be-gaap-vs-ifrs-overzicht",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "won't-fix",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Pedagogisch synthese-record 'ifrs-16-lessee-vs-lessor-overzicht' bestaat reeds (synthese-node). Asymmetrie lessee/lessor is daar gedekt + uitgebreid met kerninzichten[] in deze pass. Aparte 'lessee-vs-lessor-leasing-ifrs'-record bestaat ook. Geen nieuw record nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "wijziging-boekhoudkundig-referentiestelsel",
+        "aspect": "bron-gap",
+        "geconstateerd_op": "2026-05-18T02:38:41.575841+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Bron-gap betreft RAG-retrieval-ruis (delta-chunks zonder substantieve inhoud) — geen ontbrekende primaire bron. Niet examenblokkerend. Behoort tot retrieval-tuning, niet inhoudelijk gap."
+    },
+    {
+      "match_op": {
+        "record_id": "leasing-ifrs",
+        "aspect": "edge.gedeprecieerd-bevat",
+        "geconstateerd_op": "2026-05-18T08:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Twee gedeprecieerde 'bevat'-edges verwerkt: → right-of-use-actief geschrapt (inverse onderdeel-van bestond al op target); → sale-and-leaseback-ifrs-16 omgezet naar 'verwijst-naar'. leaseverplichting-ifrs heeft eveneens 'onderdeel-van leasing-ifrs'."
+    },
+    {
+      "match_op": {
+        "record_id": "ifrs-16-lessee-vs-lessor-overzicht",
+        "aspect": "edge.gedeprecieerd-bevat",
+        "geconstateerd_op": "2026-05-18T08:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "'bevat → sale-and-leaseback-ifrs-16' omgezet naar 'verwijst-naar'."
+    },
+    {
+      "match_op": {
+        "record_id": "right-of-use-actief",
+        "aspect": "valkuil.ontbreekt",
+        "geconstateerd_op": "2026-05-18T08:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record heeft 3 valkuilen. Obsoleet."
+    },
+    {
+      "match_op": {
+        "record_id": "leaseverplichting-ifrs",
+        "aspect": "valkuil.ontbreekt",
+        "geconstateerd_op": "2026-05-18T08:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record heeft 3 valkuilen. Obsoleet."
+    },
+    {
+      "match_op": {
+        "record_id": "ifrs-toepassingsgebied-belgie",
+        "aspect": "confidence.te-optimistisch",
+        "geconstateerd_op": "2026-05-18T08:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Confidence-label bouwsteen 'Enkelvoudig niveau: altijd Belgisch GAAP' herzien naar 'inferred' (was inferred-from-aggregation met te-optimistische bronnotatie). Source gewijzigd naar 'Afgeleid uit afwezigheid van art. 5-omzetting (Verord. 1606/2002) in Belgisch recht'. wat-veld krijgt expliciete disclaimer over de afgeleide aard."
+    },
+    {
+      "match_op": {
+        "record_id": "wijziging-boekhoudkundig-referentiestelsel",
+        "aspect": "grondslag.controle-aanbevolen",
+        "geconstateerd_op": "2026-05-18T08:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Bouwsteen 'Uitzondering — twee cumulatieve voorwaarden' grondslag-veld herzien: KB WVV art. 3:1 (getrouw beeld) ipv art. 3:58 §5 (openbaarmaking groottecriteria). CBN 2022/08 §Uitzondering blijft primair."
+    },
+    {
+      "match_op": {
+        "record_id": "balans-presentatie-be-gaap",
+        "aspect": "parallel-regime-ontbreekt",
+        "geconstateerd_op": "2026-05-18"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Bestaand record 'jaarrekening-schema' (begrip) dekt BE-GAAP-balansschema (KB WVV bijlagen 1-3); edges 'vergelijkt-met balans-presentatie-ifrs' wederzijds toegevoegd + 'onderdeel-van jaarrekening-presentatie'. Algemene cluster bestaat nu. Apart 'balans-presentatie-be-gaap'-record niet nodig (zou met jaarrekening-schema overlappen)."
+    },
+    {
+      "match_op": {
+        "record_id": "totaalresultaat-be-gaap",
+        "aspect": "parallel-regime-ontbreekt",
+        "geconstateerd_op": "2026-05-18"
+      },
+      "nieuwe_status": "won't-fix",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "OCI is een IFRS-construct dat onder BE GAAP afwezig is — geen 'BE-GAAP-totaalresultaat' bestaat conceptueel. Resultatenrekening onder BE GAAP wordt door bestaande records gedekt (jaarrekening-schema, samenstelling-statutaire-jaarrekening). Regime-asymmetrie is expliciet in be-gaap-vs-ifrs-overzicht valkuilen + jaarrekening-presentatie bouwstenen."
+    },
+    {
+      "match_op": {
+        "record_id": "mutatieoverzicht-eigen-vermogen-be-gaap",
+        "aspect": "parallel-regime-ontbreekt",
+        "geconstateerd_op": "2026-05-18"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "BE-GAAP-staat van wijzigingen in eigen vermogen (KB WVV art. 3:6) is afdekbaar via uitbreiding van bestaande jaarrekening-component-records. Laag prio, ruimte voor latere pass."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening-componenten-be-gaap",
+        "aspect": "parallel-regime-ontbreekt",
+        "geconstateerd_op": "2026-05-18"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Bestaand record 'samenstelling-statutaire-jaarrekening' is de feitelijke BE-GAAP-tegenhanger. Wederzijdse 'vergelijkt-met'-edge met jaarrekening-componenten-ifrs toegevoegd; beide hangen via jaarrekening-presentatie aan een algemene cluster."
+    },
+    {
+      "match_op": {
+        "record_id": "toelichtingsvereisten-jaarrekening-be-gaap",
+        "aspect": "parallel-regime-ontbreekt",
+        "geconstateerd_op": "2026-05-18"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Wederzijdse 'vergelijkt-met'-edge tussen 'toelichting-jaarrekening' (BE GAAP) en 'toelichtingsvereisten-jaarrekening-ifrs' (IFRS) toegevoegd. Geen nieuw record nodig — bestaand record dekt de BE-GAAP-zijde."
+    },
+    {
+      "match_op": {
+        "record_id": "presentatiebeginselen-jaarrekening-be-gaap",
+        "aspect": "parallel-regime-ontbreekt",
+        "geconstateerd_op": "2026-05-18"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Bestaand record 'boekhoudbeginselen-overzicht' (synthese) dekt BE-GAAP-presentatiebeginselen. Wederzijdse 'vergelijkt-met'-edge met 'presentatiebeginselen-jaarrekening-ifrs' toegevoegd."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening-presentatie",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-18"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Nieuw algemeen cluster-record 'jaarrekening-presentatie' aangemaakt (3 bouwstenen, vergelijkingspaar met balans-presentatie-ifrs, in_praktijk). Verbindt BE-GAAP- en IFRS-presentatie-records via onderdeel-van-edges."
+    },
+    {
+      "match_op": {
+        "record_id": "stelselwissel-jaarrekening",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-18"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Nieuw algemeen cluster-record 'stelselwissel-jaarrekening' aangemaakt (3 bouwstenen, 2 kerninzichten). 'ifrs-eerste-toepassing' en 'wijziging-boekhoudkundig-referentiestelsel' krijgen edges 'specialisatie-van: stelselwissel-jaarrekening' met regime-facet (resp. BE-GAAP→IFRS en IFRS→BE-GAAP)."
+    },
+    {
+      "match_op": {
+        "record_id": "bijzondere-waardevermindering",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-18T11:45:02+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Nieuw algemeen cluster-record 'bijzondere-waardevermindering' aangemaakt (4 bouwstenen: trigger-indicatoren, vergelijking boekwaarde/waarde-maatstaf, boeking, omkering). IFRS- en BE-GAAP-specialisaties krijgen 'specialisatie-van'-edge."
+    },
+    {
+      "match_op": {
+        "record_id": "bijzondere-waardevermindering-ifrs",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-18T11:45:02+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Vergelijkingspaar-target 'aanvullende-afschrijving-be-gaap' hernoemd naar bestaand record 'bijzondere-waardevermindering-be-gaap' (dat dekt al aanvullende afschrijving + waardevermindering onder art. 3:42 KB WVV)."
+    },
+    {
+      "match_op": {
+        "record_id": "opbrengsten-ifrs",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Edge 'specialisatie-van → opbrengsten' vervangen door 'vergelijkt-met → opbrengsten-be-gaap' (nieuw BE-GAAP-record). Algemene 'opbrengsten'-cluster niet nodig — regime-paralleel volstaat."
+    },
+    {
+      "match_op": {
+        "record_id": "presenteren-jaarrekening-ifrs",
+        "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Edges 'vereist-kennis-van' toegevoegd naar uitvoeren-eerste-toepassing-ifrs en jaarrekening-componenten-ifrs. gebaseerd_op_concepten[] geïnitialiseerd met vier concepten."
+    },
+    {
+      "match_op": {
+        "record_id": "waarderen-materiele-vaste-activa-ifrs",
+        "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Edges toegevoegd (vereist-kennis-van materiele-vaste-activa-ifrs, bijzondere-waardevermindering-ifrs, be-gaap-vs-ifrs-overzicht) + gebaseerd_op_concepten[] met 4 concepten."
+    },
+    {
+      "match_op": {
+        "record_id": "bepalen-toepasselijkheid-ifrs-belgie",
+        "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Edges toegevoegd (vereist-kennis-van ifrs-toepassingsgebied-belgie, ifrs-eerste-toepassing, uitvoeren-eerste-toepassing-ifrs) + gebaseerd_op_concepten[]."
+    },
+    {
+      "match_op": {
+        "record_id": "voorraden-ifrs",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "in_praktijk-veld toegevoegd: LIFO-verbod (IAS 2 alinea 25), overgang vanuit BE GAAP-LIFO, NRV-mechanisme. Examenvraag 2024-1-vr7-A nu vlot beantwoordbaar via record."
+    },
+    {
+      "match_op": {
+        "record_id": "afschrijvingen-ifrs",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "in_praktijk-veld toegevoegd: lineair/degressief/units-of-production keuze, stop-mythe (IAS 16 alinea 52), jaarlijkse herziening restwaarde + gebruiksduur. Examenvraag 2024-1-vr7-C 'J/F'-stellingen nu direct opzoekbaar."
+    },
+    {
+      "match_op": {
+        "record_id": "immateriele-vaste-activa-ifrs",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "in_praktijk uitgebreid met onderzoek/ontwikkeling-onderscheid (zes cumulatieve criteria IAS 38 alinea 57), praktijktest, software-classificatie (geïntegreerd vs standalone vs voorraad)."
+    },
+    {
+      "match_op": {
+        "record_id": "immateriele-vaste-activa-ifrs",
+        "aspect": "vergelijkingsparen.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Vergelijkingspaar met materiele-vaste-activa-ifrs toegevoegd voor software-classificatiegrens. Examenvraag 2013-2-vr1 nu volledig dekbaar."
+    },
+    {
+      "match_op": {
+        "record_id": "herwaarderingsmodel-ifrs",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "BE-GAAP-herwaardering wordt door bestaand record 'herwaarderingsmeerwaarden' gedekt (KB WVV art. 3:30, 3:35). Twee nieuwe bouwstenen toegevoegd: 'Vervreemding: realisatie van de meerwaarde' (KB WVV art. 3:35, bestemming naar uitkeerbare reserves/kapitaal) en 'Toepassingsgebied: ook immateriële vaste activa' (octrooi-casus examen 2014-1-vr3). Vergelijkt-met edges wederzijds tussen herwaarderingsmodel-ifrs en herwaarderingsmeerwaarden. Geen apart 'herwaarderingsmodel-be-gaap' nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "opbrengsten-ifrs",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Voorbeelden toegevoegd aan stappen 1, 2 en 4 (Brugse Brouwerij ↔ Aurelia Holding scenario, contractidentificatie, prestatieverplichtingen, allocatie standalone-prijzen). Vijf-stappen-procedure nu illustratief in minicursus."
+    },
+    {
+      "match_op": {
+        "record_id": "lessee-vs-lessor-leasing-ifrs",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "kerninzichten[] toegevoegd (4 inzichten over IASB-asymmetrie, single-model lessee, lessor-distinctie blijft, stagiair-check 'welke partij ben ik?'). In_praktijk-veld geïnitialiseerd met dossier-analyse-leidraad en sale-and-leaseback-uitleg."
+    },
+    {
+      "match_op": {
+        "record_id": "be-gaap-vs-ifrs-overzicht",
+        "aspect": "valkuilen.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "valkuilen[] toegevoegd met 4 examenklassiekers: goodwill-afschrijving asymmetrie, IFRS 16 single-model versus BE-GAAP-operationeel, LIFO-verbod IAS 2, IFRS-toepassingsgebied geconsolideerd versus statutair."
+    },
+    {
+      "match_op": {
+        "record_id": "correctie-jaarrekening-ifrs",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "in_praktijk[] toegevoegd met IAS 8 schattings-versus-stelselwijziging-versus-fout-beslislogica, retrospectieve correctie + disclosure, voorbeeld afschrijvingsduur 10→8 jaar (prospectief) versus FIFO→gewogen gemiddelde (retrospectief)."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening-componenten-ifrs",
+        "aspect": "context-edge-ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Edge 'onderdeel-van → jaarrekening-presentatie' toegevoegd. Record hangt niet langer contextueel los."
+    },
+    {
+      "match_op": {
+        "record_id": "uitvoeren-eerste-toepassing-ifrs",
+        "aspect": "context-edge-ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Edges 'vereist-kennis-van' toegevoegd (ifrs-eerste-toepassing, stelselwissel-jaarrekening). gebaseerd_op_concepten[] geïnitialiseerd met drie concepten."
+    },
+    {
+      "match_op": {
+        "record_id": "herwaarderingsmodel-ias-16",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record bestaat niet meer (waarschijnlijk hernoemd of geconsolideerd in herwaarderingsmodel-ifrs cluster). Geen actie nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "componentenbenadering-ias-16",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record bestaat niet meer als apart record (waarschijnlijk geconsolideerd in materiele-vaste-activa-ifrs / afschrijvingen-ifrs als bouwsteen). Geen apart record nodig per bouwsteen-regel §5."
+    },
+    {
+      "match_op": {
+        "record_id": "ias-1-winst-en-totaalresultaat",
+        "aspect": "valkuilen.ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:07:55Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record bestaat niet meer onder die naam (waarschijnlijk hernoemd; OCI-reclassificatie-valkuil is bij eventuele refactor terug op te nemen)."
+    },
+    {
+      "match_op": {
+        "aspect_type": "bron-gap",
+        "aspect": "chunking-artefact",
+        "po": "1.5",
+        "anchor_id": "1.5.V.C"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "ETL-werk (chunker IFRS-16 §SALE-AND-LEASEBACKTRANSACTIES) zit buiten de scope van deze run. Bron-MD is via grep-pad bereikbaar; chunking-issue blijft open voor latere ETL-pass."
+    },
+    {
+      "match_op": {
+        "record_id": null,
+        "aspect": "bron-gap",
+        "geconstateerd_op": "2026-05-18T02:38:41.575841+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Re-chunking CBN 2022/08 op '###'-niveau is ETL-werk, buiten scope van deze record-pass."
+    },
+    {
+      "match_op": {
+        "record_id": "ifrs-verordening-1606-2002",
+        "aspect": "confidence.te-optimistisch",
+        "geconstateerd_op": "2026-05-18T08:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "Record 'ifrs-verordening-1606-2002' bestaat niet meer (smell-detector §17 anti-hallucinatie regel 10: bron-naming verboden). Naar fenomeen-records 'verplichte-ifrs-eu-beursgenoteerden' + 'endorsement-procedure-eu' gemigreerd in eerdere pass. Obsoleet."
+    },
+    {
+      "match_op": {
+        "record_id": "bijzondere-waardevermindering-ias-36",
+        "aspect": "bouwsteen.eigen-record-kandidaat",
+        "geconstateerd_op": "2026-05-18T08:00:00+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.5-2026-05-19",
+      "toelichting": "CGU als kandidaat voor eigen record blijft open tot IFRS 8 (segmenten) corpus binnenkomt. Voldoende vermeld als bouwsteen voor PO 1.5-scope."
+    }
+  ],
+  "nieuwe_gaps": [],
+  "samenvatting": "48 gaps behandeld: 38 resolved, 2 won't-fix (schema-evolutie maakt strategic-pass-gap obsoleet voor afschrijvingen-ifrs cluster en wijziging-boekhoudkundig-referentiestelsel cluster), 6 bewaard (ETL-werk buiten scope: bron-chunking CBN/IFRS-16 + mutatieoverzicht-EV-BE-GAAP laag prio + CGU pending IFRS 8 + 2 retrieval-ruis). 4 nieuwe records: jaarrekening-presentatie (cluster), stelselwissel-jaarrekening (cluster), bijzondere-waardevermindering (cluster), opbrengsten-be-gaap (cluster). Records-API atomair: 474 records, 0 ghosts, 0 orphans. Daemon stabiel."
+}

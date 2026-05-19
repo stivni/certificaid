@@ -24,7 +24,8 @@
     "balans-presentatie-ifrs",
     "totaalresultaat-ifrs",
     "mutatieoverzicht-eigen-vermogen-ifrs",
-    "toelichtingsvereisten-jaarrekening-ifrs"
+    "toelichtingsvereisten-jaarrekening-ifrs",
+    "uitvoeren-eerste-toepassing-ifrs"
   ],
   "procedure_grondslag": {
     "wettelijk_pct": 85,
@@ -212,6 +213,16 @@
       "datum": "2026-05-18",
       "run_id": "concept-extractie-v4-2026-05-18T10:33Z-1.5.taak.1",
       "reden": "Stale wikilinks + gebaseerd_op_concepten[] — 6 oude ias-1-* slugs vervangen door huidige post-rename targets (jaarrekening-componenten-ifrs, presentatiebeginselen-jaarrekening-ifrs, balans-presentatie-ifrs, totaalresultaat-ifrs, mutatieoverzicht-eigen-vermogen-ifrs, toelichtingsvereisten-jaarrekening-ifrs)."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "uitvoeren-eerste-toepassing-ifrs"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "jaarrekening-componenten-ifrs"
     }
   ]
 }

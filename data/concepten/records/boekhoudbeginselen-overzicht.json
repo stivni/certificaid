@@ -39,6 +39,13 @@
       "changes": [
         "naam_alternatief+"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "bevat-edges (deprecated) verwijderd; inverse onderdeel-van bestaat op targets; wikilink rechten-verplichtingen-buiten-balans is geldig (record bestaat)"
+      ]
     }
   },
   "inleiding": {
@@ -155,6 +162,12 @@
     {
       "target": "jaarrekening",
       "type": "vereist-kennis-van"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "presentatiebeginselen-jaarrekening-ifrs",
+      "regime": "BE-GAAP",
+      "aspect": "regime-paralleel BE-GAAP ↔ IFRS"
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",

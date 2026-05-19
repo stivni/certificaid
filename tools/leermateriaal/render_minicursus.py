@@ -359,12 +359,22 @@ def schrijf_subagent_instructies(
             or record.get("doel")
             or {}
         )
+        # Accepteer zowel dict (schema-canoniek: {"text": "..."}) als bare string
+        if isinstance(hoofdveld, dict):
+            hoofd_text = hoofdveld.get("text", "")
+        else:
+            hoofd_text = str(hoofdveld)
+        rationale = record.get("rationale", {}) or {}
+        if isinstance(rationale, dict):
+            rat_text = rationale.get("text", "")
+        else:
+            rat_text = str(rationale)
         summaries.append({
             "id": record.get("id", ""),
             "naam": record.get("naam", ""),
             "node_type": record.get("node_type", ""),
-            "definitie_snippet": str(hoofdveld.get("text", ""))[:300],
-            "rationale_snippet": str(record.get("rationale", {}).get("text", ""))[:200],
+            "definitie_snippet": str(hoofd_text)[:300],
+            "rationale_snippet": str(rat_text)[:200],
         })
 
     # Competentie-summaries

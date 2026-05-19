@@ -114,5 +114,73 @@
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
   "situering": "De griffies van de ondernemingsrechtbanken houden het **ondernemingsdossier** bij waarin oprichtingsakten, statutenwijzigingen en bestuurdersbenoemingen worden gedeponeerd. Voor PO 1.2 relevant als het neerleggingskanaal voor stukken die niet bij de NBB terechtkomen (bv. statutenwijzigingen, ontslag bestuurder). Stagiair-valkuil: jaarrekening neerleggen ↔ statuten neerleggen verwarren.",
-  "naam_alternatief": "commercial court registries / greffes des tribunaux de l'entreprise"
+  "naam_alternatief": "commercial court registries / greffes des tribunaux de l'entreprise",
+  "in_praktijk": [
+    {
+      "aspect": "Wanneer naar griffie, wanneer naar NBB?",
+      "betekenis": "Twee parallelle openbaarmakingskanalen die de stagiair vaak verwart. **Griffie van de ondernemingsrechtbank**: oprichtingsakte, statutenwijzigingen, benoeming/ontslag bestuurders en commissaris, ontbindingsbesluit, kapitaalverhoging, fusie/splitsing (publicatie in BS via griffie). **NBB-Balanscentrale**: jaarrekening, jaarverslag en commissarisverslag. Geheugensteun: **juridisch leven → griffie**; **financieel beeld → NBB**.",
+      "herkenningspunt": "Examenvraag 'waar leg je de notulen van de bestuurdersbenoeming neer?' → griffie (in het ondernemingsdossier). 'Waar leg je de jaarrekening neer?' → NBB.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV Boek 2 + Boek 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_1_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Bron voor due-diligence",
+      "betekenis": "Bij een overname of kredietverlening checkt de adviseur het ondernemingsdossier bij de griffie: wie tekenbevoegd is, of er recente statutenwijzigingen zijn, of de vennootschap niet in ontbinding is. Dit dossier is publiek raadpleegbaar (gratis online via Centraal Register van Ondernemingen / Kruispuntbank van Ondernemingen).",
+      "herkenningspunt": "Casus 'verifieer of bestuurder Y nog tekenbevoegd is voor Aurelia Holding NV' → griffie-dossier raadplegen.",
+      "confidence": "inferred",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 2:7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_1_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "nationale-bank-belgie",
+      "verschil": "Griffie van de ondernemingsrechtbank houdt het **ondernemingsdossier** bij (juridisch leven: oprichting, statuten, bestuurders, ontbinding). NBB-Balanscentrale houdt de **jaarrekening-databank** bij (financieel: balans, RR, toelichting, jaarverslag, commissarisverslag). Twee aparte registers met aparte doelen — geen overlap.",
+      "trigger": "'Bestuurdersverandering' → griffie. 'Jaarrekening 2023' → NBB. Beide publiek raadpleegbaar maar via aparte portalen.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_1_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "De jaarrekening wordt **niet** bij de griffie neergelegd — alleen bij de NBB. Bij de griffie komt enkel een **vermelding** dat de jaarrekening neergelegd is.",
+      "vaak_fout": "Aannemen dat alle openbaarmakingsplichten via de griffie verlopen. Fout: jaarrekening en jaarverslag gaan rechtstreeks naar de NBB.",
+      "grondslag": "WVV art. 3:10"
+    },
+    {
+      "advies": "Statutenwijzigingen (kapitaalverhoging, naamwijziging, ...) moeten zowel bij de griffie als in het Belgisch Staatsblad worden gepubliceerd — niet bij de NBB.",
+      "vaak_fout": "Statutenwijziging neerleggen bij NBB-Balanscentrale.",
+      "grondslag": "WVV art. 2:14"
+    }
+  ]
 }

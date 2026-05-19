@@ -1,7 +1,7 @@
 {
   "id": "aanvullende-boekhoudbeginselen",
   "naam": "Aanvullende boekhoudbeginselen (voorzichtigheid, oprechtheid, continuïteit, consistentie)",
-  "node_type": "begrip",
+  "node_type": "synthese",
   "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
@@ -177,25 +177,25 @@
   ],
   "edges": [
     {
-      "type": "bevat",
+      "type": "vereist-kennis-van",
       "target": "voorzichtigheidsbeginsel",
       "redenering": "Een van de vier hoofdbeginselen.",
       "confidence": "inferred"
     },
     {
-      "type": "bevat",
+      "type": "vereist-kennis-van",
       "target": "oprechtheidsbeginsel",
       "redenering": "Een van de vier hoofdbeginselen.",
       "confidence": "inferred"
     },
     {
-      "type": "bevat",
+      "type": "vereist-kennis-van",
       "target": "continuiteitsbeginsel",
       "redenering": "Een van de vier hoofdbeginselen.",
       "confidence": "inferred"
     },
     {
-      "type": "bevat",
+      "type": "vereist-kennis-van",
       "target": "consistentiebeginsel",
       "redenering": "Een van de vier hoofdbeginselen.",
       "confidence": "inferred"
@@ -215,5 +215,16 @@
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
   "situering": "Naast de drie 'voorwaardelijke' boekhoudbeginselen (volledigheid, oprechtheid, onveranderlijkheid) zijn er vier aanvullende beginselen die de **waarderings- en presentatiekeuzes** sturen: voorzichtigheid, oprechtheid, continuïteit en consistentie. Ze staan niet in één wetsartikel maar zijn verspreid in KB-WVV art. 3:6 en 3:35 e.v. Voor het examen is dit cluster één van de meest getoetste theorie-blokken: vragen vertrekken meestal vanuit een concreet waarderings-dilemma en peilen welk beginsel je toepast.",
-  "naam_alternatief": "supplementary accounting principles / principes comptables complémentaires"
+  "naam_alternatief": "supplementary accounting principles / principes comptables complémentaires",
+  "gebaseerd_op_concepten": [
+    "voorzichtigheidsbeginsel",
+    "oprechtheidsbeginsel",
+    "continuiteitsbeginsel",
+    "consistentiebeginsel"
+  ],
+  "kerninzichten": [
+    "De vier beginselen werken **complementair**: voorzichtigheid (geen overschatting) is begrensd door oprechtheid (geen onderschatting als camouflage); continuïteit verklaart waarom waarderingen op going-concern-basis mogen; consistentie waarborgt vergelijkbaarheid tussen boekjaren.",
+    "Bij conflict: **getrouw beeld** is het einddoel waaraan alle vier worden afgemeten. Een 'voorzichtige' onderwaardering die het beeld vertekent, schendt oprechtheid en uiteindelijk het getrouw beeld.",
+    "Voor het examen: identificeer in elke waarderings-casus welke beginsel(s) primair geactiveerd worden — niet alle vier tegelijk."
+  ]
 }

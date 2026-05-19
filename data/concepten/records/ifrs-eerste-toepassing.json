@@ -147,6 +147,11 @@
       "target": "wijziging-boekhoudkundig-referentiestelsel",
       "redenering": "IFRS 1 dekt eerste IFRS-toepassing; CBN 2022/08 dekt de algemene wisseling-procedure (incl. terugkeer naar BE-GAAP).",
       "confidence": "grounded"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "stelselwissel-jaarrekening",
+      "regime": "BE-GAAP→IFRS"
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",

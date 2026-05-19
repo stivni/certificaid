@@ -77,6 +77,12 @@ _Grondslag: CBN 2010/14_
 > Het bestuursorgaan blijft eindverantwoordelijk voor de naleving van de bewaringsplicht — ook als de archivering uitbesteed wordt aan een externe boekhouder of cloud-provider. Bij verlies of onbereikbaarheid van stukken kan het bestuursorgaan aansprakelijk worden gesteld. ⚖️
 
 
+> [!info]- Niet verwarren met [[bewaartermijn-boekhouding]]
+> **Boekhoudkundige bewaartermijn** (WER art. III.86): **7 jaar** vanaf 1 januari van het jaar volgend op afsluiting boekjaar — slaat op verantwoordingsstukken, dagboeken, inventaris. **Fiscale bewaartermijn** (WIB art. 315 / WBTW art. 60): **10 jaar** (per 2023, voorheen 7 in btw) — slaat op fiscale stukken. In de praktijk: hanteer **10 jaar** als veilige minimumtermijn voor alle stukken.
+>
+> _Trigger_: Examen: 'hoelang bewaren?' → check of de vraag boekhoudkundig is (7j) of fiscaal/btw (10j). In twijfel: 10 jaar.
+
+
 ## Valkuilen
 
 > [!warning]- Vrijwillige vernietiging vóór de 7-jaars-termijn = schending boekhoudregelgeving + fiscaal probleem (controlbaarheid weg)
@@ -93,3 +99,4 @@ Naaiatelier Ninove BV moet de aankoopfacturen, verkoopfacturen, dagboeken en jaa
 ## Bronnen
 
 [^1]: `CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen`
+[^2]: `WER__art_III_86`

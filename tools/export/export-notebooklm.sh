@@ -1,47 +1,56 @@
 #!/usr/bin/env bash
-# Exporteer alle PO-fiches naar export/[PO]/ voor gebruik in NotebookLM.
-# Gebruik: bash tools/export-notebooklm.sh [optioneel: 2.1 2.6 ...]
-# Zonder argumenten: alle PO's.
+# Exporteer per programmaonderdeel een NotebookLM-bundel.
+# Bundel = minicursus + gerefereerde concept-fiches + competentie-fiches.
+# Gebruik: bash tools/export/export-notebooklm.sh [1.1 1.2 ...]
+# Zonder argumenten: alle PO's onder content/studiemateriaal/.
 
 set -e
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/../.."
 
-PO_DIR="content/programmaonderdelen"
-MATERIE_DIR="content/materie"
+STUDIE_DIR="content/studiemateriaal"
+CONCEPTEN_DIR="content/concepten"
 COMP_DIR="content/competenties"
 EXPORT_DIR="export"
 
 if [ $# -gt 0 ]; then
-  PO_FILES=()
-  for po in "$@"; do
-    f=$(find "$PO_DIR" -name "${po}-*.md" 2>/dev/null | head -1)
-    [ -n "$f" ] && PO_FILES+=("$f") || echo "⚠️  PO $po niet gevonden"
-  done
+  PO_NUMS=("$@")
 else
-  mapfile -t PO_FILES < <(find "$PO_DIR" -name "*.md" | sort)
+  PO_NUMS=()
+  while IFS= read -r f; do
+    bn=$(basename "$f" .md)
+    pn=$(echo "$bn" | grep -oE '^[0-9]+-[0-9]+' | tr '-' '.')
+    [ -n "$pn" ] && PO_NUMS+=("$pn")
+  done < <(find "$STUDIE_DIR" -maxdepth 1 -name "[0-9]*-*.md" | sort)
 fi
 
-for po_file in "${PO_FILES[@]}"; do
-  basename=$(basename "$po_file" .md)
-  po_num=$(echo "$basename" | grep -oE '^[0-9]+\.[0-9]+')
-  [ -z "$po_num" ] && continue
+for po in "${PO_NUMS[@]}"; do
+  slug=$(echo "$po" | tr '.' '-')
+  minicursus=$(find "$STUDIE_DIR" -maxdepth 1 -name "${slug}-*.md" 2>/dev/null | head -1)
+  if [ -z "$minicursus" ]; then
+    echo "⚠️  PO $po: minicursus niet gevonden in $STUDIE_DIR/"
+    continue
+  fi
 
-  out_dir="$EXPORT_DIR/$po_num"
+  out_dir="$EXPORT_DIR/$po"
   rm -rf "$out_dir"
   mkdir -p "$out_dir"
 
-  cp "$po_file" "$out_dir/"
+  cp "$minicursus" "$out_dir/"
 
+  # Verzamel wikilinks uit minicursus, sla cast-namen en wettekst-paden over
   while IFS= read -r link; do
-    found=$(find "$MATERIE_DIR" "$COMP_DIR" -name "${link}.md" 2>/dev/null | head -1)
+    case "$link" in
+      [A-Z]*) continue ;;
+    esac
+    found=$(find "$CONCEPTEN_DIR" "$COMP_DIR" -maxdepth 1 -name "${link}.md" 2>/dev/null | head -1)
     [ -n "$found" ] && cp "$found" "$out_dir/"
   done < <(
-    grep -ohE '\[\[([^]|#]+)' "$po_file" \
+    grep -ohE '\[\[([^]|#]+)' "$minicursus" \
       | sed 's/\[\[//' \
       | grep -Ev '^(wetteksten|bronnen|normen|adviezen)/|^[0-9]' \
       | sort -u
   )
 
   count=$(ls "$out_dir" | wc -l | tr -d ' ')
-  echo "✅  export/$po_num/ — $count bestanden"
+  echo "✅  export/$po/ — $count bestanden"
 done

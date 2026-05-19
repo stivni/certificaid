@@ -159,5 +159,37 @@
       "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
       "wat": "Synthese-record verrijkt met kerninzichten[] per §10 synthese-template (verplicht onderdeel naast vergelijkingstabel/beslisboom + gebaseerd_op_concepten)."
     }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Onder IFRS is goodwill **niet** afschrijfbaar — alleen jaarlijkse impairment-test (IAS 36 + IFRS 3). Onder BE GAAP wordt goodwill afgeschreven over zijn gebruiksduur (KB WVV art. 3:30).",
+      "vaak_fout": "Stagiair past BE-GAAP-afschrijving toe op IFRS-goodwill of laat omgekeerd BE-GAAP-goodwill als 'eeuwig' staan.",
+      "grondslag": "IAS 36 alinea 90 (jaarlijkse impairment goodwill); KB WVV art. 3:30 (afschrijving immaterieel)"
+    },
+    {
+      "advies": "Onder IFRS 16 staat **alle** leasing on-balance bij de lessee (single model). Onder BE GAAP staat operationele leasing niet op de balans (huur-mechaniek).",
+      "vaak_fout": "Stagiair past de IFRS-16-balans-opname toe in een BE-GAAP-dossier — of omgekeerd: vermeldt onder IFRS een 'operationele lease' alsof die off-balance zou blijven.",
+      "grondslag": "IFRS 16 alinea 22; KB WVV (geen tegenhanger; CBN-advies 2012/19 leasing)"
+    },
+    {
+      "advies": "Voorraadwaardering: LIFO is **verboden** onder IFRS (IAS 2 alinea 25). Onder BE GAAP toegestaan (KB WVV art. 3:21) maar zelden gebruikt.",
+      "vaak_fout": "LIFO toepassen in een IFRS-jaarrekening — direct fout. Of denken dat LIFO ook onder BE GAAP geweigerd wordt.",
+      "grondslag": "IAS 2 alinea 25; KB WVV art. 3:21"
+    },
+    {
+      "advies": "IFRS geldt verplicht alleen voor **geconsolideerde** jaarrekeningen van beursgenoteerden in België. Statutaire (enkelvoudige) jaarrekening blijft BE GAAP — ook bij IFRS-geconsolideerde groepen.",
+      "vaak_fout": "Stagiair denkt dat een IFRS-rapporterende groep statutair ook IFRS gebruikt. Dat klopt niet voor de Belgische dochters/vennootschap zelf.",
+      "grondslag": "Verordening EU 1606/2002 art. 4; KB WVV art. 3:1 (statutair = BE GAAP)"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "jaarrekening-presentatie"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "ifrs-toepassingsgebied-belgie"
+    }
   ]
 }

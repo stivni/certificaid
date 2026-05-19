@@ -100,5 +100,91 @@
   },
   "migrated_doel_to_situering_at": "2026-05-18",
   "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
-  "naam_alternatief": "proportional integration"
+  "naam_alternatief": "proportional integration",
+  "berekeningsmethode": [
+    {
+      "naam": "Inrichting proportionele integratie (pro-rata-verdeling per rubriek)",
+      "ratio": "Stappenschema waarmee gezamenlijke kosten en opbrengsten per rubriek pro-rata over meerdere kostencentra of kostendragers verdeeld worden volgens vooraf vastgelegde sleutels — toepasbaar bij gedeelde infrastructuur, joint-venture-relaties of gemeenschappelijke overhead.",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Identificeer gedeelde kost-rubrieken en doelcentra",
+          "wat": "Lijst de kost- en opbrengstposten die gedeeld zijn over meerdere kostencentra/dragers (energiekost gemeenschappelijke productiehal, ICT-kosten, algemene directie, gezamenlijke marketingcampagne, joint-venture-omzet).",
+          "hoe": "Per rubriek: noteer ontvangende kostencentra en de objectieve sleutel (machine-uren, m² vloeroppervlakte, FTE, contractueel afgesproken percentage, verkoopvolume).",
+          "grondslag": "[[verdeelsleutel]]"
+        },
+        {
+          "nr": 2,
+          "titel": "Bepaal en documenteer de verdeelsleutel per rubriek",
+          "wat": "Voor elke gedeelde rubriek leg vast: type sleutel (volume, oppervlakte, omzet, contractueel percentage), de meet-eenheid en de periodiciteit van herijking (jaarlijks, kwartaal).",
+          "hoe": "Documenteer in een verdeel-charter per kostensoort. Bij joint-ventures of consortia: de sleutel komt uit het samenwerkingscontract. Bij interne shared services: meting via machine-uur-registratie of vloerplattegrond.",
+          "grondslag": "CBN 3/3 — proportionele integratie"
+        },
+        {
+          "nr": 3,
+          "titel": "Boek gedeelde kost initieel op verzamelrekening klasse 9",
+          "wat": "Bij ontvangst van een gedeelde kost-factuur: boek in klasse 6 (algemene boekhouding) zoals gewoonlijk, én in klasse 9 op een verzamelrekening 'gedeelde kost <rubriek>'. Geen onmiddellijke toewijzing aan eindkostencentra.",
+          "hoe": "Bv. energiekost weverij € 145.000/jaar → 612 Energie / 440 Leveranciers in klasse 6, én 9500 Verzamel Energie weverij / 9060 Reflectie Energie in klasse 9.",
+          "grondslag": "[[reflectie-rekening]]"
+        },
+        {
+          "nr": 4,
+          "titel": "Bereken pro-rata-bedragen + maak verdeelboeking",
+          "wat": "Periodiek (maand/kwartaal): pas de verdeelsleutel toe op het verzamel-saldo. Maak een verdeel-boeking die het verzamel-saldo nul-stelt en de pro-rata-bedragen op de eindkostencentra plaatst.",
+          "hoe": "Verdeel-boeking: 9XXX Eindkostencentrum A debet (= aandeel A) + 9YYY Eindkostencentrum B debet (= aandeel B) + ... / 9500 Verzamel <rubriek> credit (= totaal). Saldo verzamelrekening moet nul zijn na verdeling.",
+          "grondslag": "[[verdeelsleutel]] · [[verdeelboeking]]"
+        },
+        {
+          "nr": 5,
+          "titel": "Periodieke verificatie en herijking sleutels",
+          "wat": "Aan periodeafsluiting: controleer dat verzamelrekeningen nul-saldo hebben (alles verdeeld) en dat de sleutels nog actueel zijn (machine-uren verschoven? oppervlakte herorganiseerd?).",
+          "hoe": "Verschillen op verzamelrekeningen wijzen op vergeten of foute verdeelboekingen. Herijk sleutels jaarlijks of bij structuurwijziging; documenteer wijziging in verdeel-charter.",
+          "grondslag": "CBN 3/3 + [[registratiesysteem-waarderingsneutraal]]"
+        }
+      ],
+      "formules": [
+        {
+          "id": "pro-rata-aandeel",
+          "naam": "Pro-rata-aandeel per ontvangend kostencentrum",
+          "wiskunde": "aandeel_centrum = verzamel_saldo × (sleutel_eenheden_centrum / sleutel_eenheden_totaal)",
+          "variabelen": [
+            {
+              "symbool": "verzamel_saldo",
+              "betekenis": "Totaal te verdelen kost in verzamelrekening",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "sleutel_eenheden_centrum",
+              "betekenis": "Sleutelmeting voor het ontvangende centrum",
+              "eenheid": "uren / m² / FTE / %"
+            },
+            {
+              "symbool": "sleutel_eenheden_totaal",
+              "betekenis": "Som sleutelmetingen alle ontvangende centra",
+              "eenheid": "uren / m² / FTE / %"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Yperse Werkplaats BV energiekost weverij € 145.000; machine-uren Tapijten = 2.000, Stoffenrol = 1.750, Garen = 1.250 (totaal 5.000 uren)",
+            "berekening": "Tapijten = € 145.000 × (2.000 / 5.000) = € 58.000; Stoffenrol = € 145.000 × (1.750 / 5.000) = € 50.750; Garen = € 145.000 × (1.250 / 5.000) = € 36.250",
+            "eenheid_resultaat": "EUR"
+          }
+        }
+      ],
+      "source": {
+        "type": "cbn",
+        "short": "CBN 3/3 — De proportionele integratie van kosten en opbrengsten"
+      },
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-proportionele-integratie-van-kosten-en-opbrengsten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

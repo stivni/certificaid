@@ -207,9 +207,9 @@
       "confidence": "inferred"
     },
     {
-      "type": "bevat",
-      "target": "ifrs-toepassingsgebied",
-      "redenering": "Verordening 1606/2002 verplicht IFRS voor beursgenoteerde geconsolideerde jaarrekeningen.",
+      "type": "verwijst-naar",
+      "target": "ifrs-toepassingsgebied-belgie",
+      "redenering": "Verordening 1606/2002 stuurt het IFRS-toepassingsgebied in België aan.",
       "confidence": "inferred"
     }
   ],

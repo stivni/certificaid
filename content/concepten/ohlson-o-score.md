@@ -73,6 +73,13 @@ _Grondslag: Ohlson (1980) + bankpraktijk_
 
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[werkkapitaal]]
+- **Vereist kennis van**: [[solvabiliteitsratio]]
+- **Vereist kennis van**: [[current-ratio]]
+- **Getriggerd door**: [[falen-van-de-onderneming]]
+
 ## Bronnen
 
 [^1]: `anchor-1.9.VI.B`

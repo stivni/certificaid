@@ -110,6 +110,12 @@ _Resultaat in EUR_
 *Trek de boekwaarde vóór herwaardering af van de nieuwe reële waarde. Het verschil is de herwaardering.*
 
 
+> [!info]- Niet verwarren met [[herwaarderingsmeerwaarden]]
+> Onder IFRS (IAS 16/IAS 38) verhoogt herwaardering naar fair value, regelmatig genoeg om geen materieel verschil met boekwaarde te krijgen. De meerwaarde gaat naar OCI als 'herwaarderingsreserve' (geen winst). Onder BE GAAP (KB WVV art. 3:30, 3:35) zijn de voorwaarden strenger: meerwaarde moet zeker, duurzaam en onontbeerlijk zijn voor de bedrijfsuitoefening, geboekt onder eigen vermogen (niet OCI als concept).
+>
+> _Trigger_: Examen: 'mag ik onder IFRS dit actief herwaarderen?' → check IAS 16 keuze tussen kostprijsmodel en herwaarderingsmodel. 'Onder BE GAAP?' → check de drie voorwaarden art. 3:30.
+
+
 ## Valkuilen
 
 > [!warning]- Bij stijging na eerdere daling: niet automatisch alles in OCI
@@ -125,9 +131,6 @@ _Resultaat in EUR_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[materiele-vaste-activa-ifrs]]
 ## Bronnen
 
 [^1]: `IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname`

@@ -24,6 +24,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "cross-link toegevoegd naar bewaartermijn-boekhouding (overlap-flag voor toekomstige merge)"
+      ]
     }
   },
   "main_rule": {
@@ -168,12 +175,33 @@
       }
     }
   ],
-  "vergelijkingsparen": [],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "bewaartermijn-boekhouding",
+      "verschil": "**Boekhoudkundige bewaartermijn** (WER art. III.86): **7 jaar** vanaf 1 januari van het jaar volgend op afsluiting boekjaar — slaat op verantwoordingsstukken, dagboeken, inventaris. **Fiscale bewaartermijn** (WIB art. 315 / WBTW art. 60): **10 jaar** (per 2023, voorheen 7 in btw) — slaat op fiscale stukken. In de praktijk: hanteer **10 jaar** als veilige minimumtermijn voor alle stukken.",
+      "trigger": "Examen: 'hoelang bewaren?' → check of de vraag boekhoudkundig is (7j) of fiscaal/btw (10j). In twijfel: 10 jaar.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_86",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
   "edges": [
     {
       "type": "onderdeel-van",
       "target": "regelmatige-boekhouding",
       "redenering": "Bewaring is een uitvloeisel van het onveranderlijkheids- en controleerbaarheidsbeginsel."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "bewaartermijn-boekhouding",
+      "aspect": "perspectief",
+      "redenering": "Beide records dekken hetzelfde fenomeen (WER art. III.86 — 7 jaar bewaartermijn). Dit record vanuit boekhoudplicht-perspectief (PO 1.1); bewaartermijn-boekhouding vanuit jaarrekening-perspectief (PO 1.2). Kandidaat voor merge in volgende VERIFY-pass."
     }
   ],
   "voorbeelden": [

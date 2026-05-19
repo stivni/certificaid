@@ -27,8 +27,6 @@ Kosten en opbrengsten **toerekenen aan het juiste boekjaar** (matching), ook al 
 > [!summary] Korte inhoud
 > **Balansrekeningen** die het verschil tussen kasstroom en economische toerekening zichtbaar maken aan het eind van het boekjaar.
 
-> [!info] Specialisatie van: [[matching-principe]]
-
 **Balansrekeningen** die het verschil tussen kasstroom en economische toerekening zichtbaar maken aan het eind van het boekjaar. Twee paren: (1) **Over te dragen kosten** (490, actief): al betaalde kosten die op een volgend boekjaar betrekking hebben — vooruitbetaalde huur, premie verzekering 12 maanden. (2) **Verkregen opbrengsten** (491, actief): opbrengsten verdiend in lopend jaar maar nog niet ontvangen — bv. te ontvangen rente. (3) **Toe te rekenen kosten** (492, passief): kosten die op lopend jaar slaan maar nog niet zijn betaald — bv. december-elektriciteit, gewerkte uren personeel. (4) **Over te dragen opbrengsten** (493, passief): ontvangen bedragen die op volgend jaar betrekking hebben — bv. vooruitbetaalde abonnementen.
 
 _Bron: KB WVV art. 3:60; MAR klasse 49_
@@ -112,7 +110,8 @@ _Grondslag: KB WVV art. 3:60_
 
 ## Zie ook
 
-- **Getriggerd door**: [[jaarafsluiting]]
+- **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
+- **Getriggerd door**: [[eindejaarsverrichtingen]]
 
 ## Voorbeelden
 

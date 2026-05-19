@@ -17,8 +17,8 @@
     ],
     "reviewed_by": null,
     "bron_gap": "Origineel werk: Ohlson, J.A. (1980) 'Financial Ratios and the Probabilistic Prediction of Bankruptcy'. Internationale financiële-analyse-doctrine.",
-    "note": "PO 1.9 wave-2: schema 1.5→1.6 + naam_alternatief",
-    "touched_at": "2026-05-19T00:00:00Z"
+    "note": "Gap-fix overnight 2026-05-19: edges uitgebreid (werkkapitaal, solvabiliteitsratio, current-ratio, falen) voor uniforme rijkheid met altman-z-score.",
+    "touched_at": "2026-05-19T20:00:00Z"
   },
   "bouwstenen": [
     {
@@ -135,6 +135,30 @@
       "type": "onderdeel-van",
       "target": "kwantitatieve-financiele-diagnose",
       "redenering": "Ohlson is een van de twee kanonieke kwantitatieve modellen.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "werkkapitaal",
+      "redenering": "Variabele 3 (NBK/TA) gebruikt netto bedrijfskapitaal — zelfde begrip als variabele 1 in Altman.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "solvabiliteitsratio",
+      "redenering": "Variabele 2 (VV/TA — schuldgraad) en indicator 5 (VV>TA — negatief eigen vermogen) zijn solvabiliteits-equivalenten.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "current-ratio",
+      "redenering": "Variabele 4 (VK/VlA — vlottende schulden / vlottende activa) is de inverse van de current-ratio.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "falen-van-de-onderneming",
+      "redenering": "Ohlson is een predictiemodel voor faillissement — falen is het te voorspellen fenomeen.",
       "confidence": "inferred"
     }
   ],

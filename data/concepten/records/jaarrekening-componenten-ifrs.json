@@ -292,6 +292,10 @@
       "target": "samenstelling-statutaire-jaarrekening",
       "redenering": "IFRS- versus Belgisch-GAAP-vorm — verwarringsrisico.",
       "confidence": "grounded"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "jaarrekening-presentatie"
     }
   ],
   "voorbeelden": [

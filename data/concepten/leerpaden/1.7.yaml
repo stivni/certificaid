@@ -88,6 +88,8 @@ hoofdstukken:
       - intern-beheersingsrisico
       - geinformatiseerde-omgeving-ic
       - cyberrisico-ic
+      - nis-2-richtlijn
+      - dora-verordening
 
   - type: competentie
     competentie_id: uitvoeren-risicoanalyse-organisatie
@@ -118,6 +120,12 @@ hoofdstukken:
 
   - type: competentie
     competentie_id: identificeren-fouten-fraude-verspilling
+
+  - type: thematisch
+    titel: "Compliance, NOCLAR en antiwitwas-meldingsstroom"
+    concepten:
+      - niet-naleving-wet-regelgeving-noclar
+      - cfi
 
   - type: synthese
     synthese_id: cyclus-analyse-ic
@@ -222,3 +230,10 @@ _provenance:
   voorgesteld_op: "2026-05-17T00:00:00+00:00"
   gecureerd_door: null
   gecureerd_op: null
+  revisies:
+    - revisor: "leerpad-propose-v1-po-1.7-revisie-2026-05-19T234555Z"
+      datum: "2026-05-19T23:45:55+00:00"
+      wijzigingen:
+        - "Toegevoegd: nis-2-richtlijn + dora-verordening aan thematisch cluster 'Risicobeheer en digitale omgeving' (na cyberrisico-ic) — past bij IT-controles 1.7.IX/XII."
+        - "Nieuw thematisch cluster 'Compliance, NOCLAR en antiwitwas-meldingsstroom' ingevoegd na de competentie identificeren-fouten-fraude-verspilling — bevat niet-naleving-wet-regelgeving-noclar (1.7.VI.B/XII.A/II.D) en cfi (1.7.XII.A) als didactische brug van fraude naar compliance en meldingsplicht."
+      aanleiding: "Overnight gap-fix PO 1.7 (2026-05-19) leverde 4 nieuwe records + 17 dangling-ref-fixes; leerpad herijkt om de nieuwe records didactisch in te bedden."

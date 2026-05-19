@@ -162,6 +162,12 @@ Voor kostprijsmodel: kostprijs − cumulatieve afschrijving − cumulatieve bijz
 > _Grondslag_: [[herwaarderingsmodel-ifrs]] §symmetrische-verwerking
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[materiele-vaste-activa-ifrs]]
+- **Vereist kennis van**: [[bijzondere-waardevermindering-ifrs]]
+- **Vereist kennis van**: [[be-gaap-vs-ifrs-overzicht]]
+
 ## Voorbeelden
 
 

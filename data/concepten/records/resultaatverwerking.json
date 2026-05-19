@@ -22,6 +22,13 @@
         "type:procedure->cluster",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge-fix: jaarafsluiting→eindejaarsverrichtingen"
+      ]
     }
   },
   "verplichting": "Na bepaling van **winst (verlies) van het boekjaar vóór belasting** doorloopt de jaarrekening de **resultaatverwerking** in vier stappen: (1) belastingen op het resultaat (klasse 67), (2) overboeking belastingvrije reserves indien relevant, (3) toewijzing winstbestemming via klasse 69 (wettelijke reserve, beschikbare reserves, dividend, vergoeding bestuurders), (4) overdracht naar volgend boekjaar (rekening 140/141). Pas dan ligt de definitieve 'te bestemmen winst (verlies)' vast.",
@@ -273,7 +280,7 @@
   "edges": [
     {
       "type": "getriggerd-door",
-      "target": "jaarafsluiting",
+      "target": "eindejaarsverrichtingen",
       "redenering": "Resultaatverwerking volgt na de jaarafsluiting."
     },
     {

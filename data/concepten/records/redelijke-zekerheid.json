@@ -18,7 +18,9 @@
       "1.7.I.A"
     ],
     "reviewed_by": null,
-    "touched_at": "2026-05-18T17:24:12Z"
+    "touched_at": "2026-05-18T17:24:12Z",
+    "last_extract_pass": "concept-extractie-v4-quickfix-2026-05-19-verify-gap",
+    "last_extract_at": "2026-05-19T00:00:00Z"
   },
   "situering": {
     "text": "Redelijke zekerheid is een kernbegrip dat door het ITAA-programma in twee aanverwante betekenissen voorkomt: (a) bij interne controle — IC kan nooit absolute zekerheid geven dat doelstellingen worden gehaald, alleen 'redelijke' (COSO + ITAA KMO-controlenorm Bijlage 1); (b) bij assurance-opdrachten — een controleopdracht (audit) levert een 'reasonable assurance' op, een review-opdracht slechts 'limited assurance' (ISA 200). Voor de stagiair is dit conceptueel cruciaal: hij moet aan de cliënt kunnen uitleggen waarom geen enkel systeem 100% zekerheid biedt en welke beperking dat oplegt aan zijn verklaring.",
@@ -75,12 +77,14 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "beperkte-zekerheid",
+      "vergelijking_met": "beperkte-mate-van-zekerheid",
       "verschil": "Redelijke zekerheid (audit) = hoog zekerheidsniveau, positief geformuleerde verklaring ('geeft getrouw beeld'). Beperkte zekerheid (review) = lager niveau, negatief geformuleerde verklaring ('niets gebleken dat erop wijst dat ...').",
       "trigger": "Type opdracht: audit → redelijke. Review → beperkte. Examen: vraag naar 'soort verklaring'.",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "corrected_from": "beperkte-zekerheid",
+      "correction_reason": "Slug-correctie: bestaand record heet beperkte-mate-van-zekerheid."
     }
   ],
   "edges": [

@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > De **eerste toepassing van IFRS** is de eenmalige overgang waarbij een onderneming voor het eerst een jaarrekening uitbrengt met expliciete en onvoorwaardelijke verklaring van overeenstemming met de IFRSs.
 
+> [!info] Specialisatie van: [[stelselwissel-jaarrekening]]
+
 De **eerste toepassing van IFRS** is de eenmalige overgang waarbij een onderneming voor het eerst een jaarrekening uitbrengt met expliciete en onvoorwaardelijke verklaring van overeenstemming met de IFRSs. Op een vooraf bepaalde **datum van overgang naar IFRS** — de begindatum van de vergelijkende periode — stelt de onderneming een volledig IFRS-conforme openingsbalans op. Alle activa en verplichtingen worden geherwaardeerd, geherclassificeerd of opgenomen alsof IFRS altijd al gold; het verschil met de oude grondslagen wordt rechtstreeks in de ingehouden winsten geboekt.
 
 _Bron: IFRS 1 alinea's 1-7_
@@ -209,7 +211,7 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 
 - **Getriggerd door**: [[verplichte-ifrs-eu-beursgenoteerden]]
 - **Vereist kennis van**: [[jaarrekening-componenten-ifrs]]
-- **Triggert** (1): [[verplichte-ifrs-eu-beursgenoteerden]]
+
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

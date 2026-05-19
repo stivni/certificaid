@@ -95,6 +95,10 @@
       "type": "getriggerd-door",
       "target": "toetsing-interne-beheersing",
       "redenering": "Bij lage inschatting verplicht testen."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "interne-controle"
     }
   ],
   "voorbeelden": [

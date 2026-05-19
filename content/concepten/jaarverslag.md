@@ -87,6 +87,11 @@ _Grondslag: Richtlijn 2022/2464/EU (CSRD); omzetting in WVV_
 >
 > _Trigger_: Vraag over individuele vennootschap → jaarverslag (3:32). Vraag over groep → geconsolideerd jaarverslag (3:34).
 
+> [!info]- Niet verwarren met [[bestuursverslag]]
+> Hetzelfde wettelijke document onder twee namen: **jaarverslag** is de Belgische WVV-term (WVV art. 3:32), **bestuursverslag** is de term uit de Boekhoudrichtlijn 2013/34/EU (art. 19). In de praktijk identiek. Het PO 1.3-record `bestuursverslag` benadert het document procedureel (welke stappen om het op te stellen); het PO 1.2-record `jaarverslag` benadert het inhoudelijk (welk verplicht onderdeel van de jaarrekening).
+>
+> _Trigger_: Beide termen zijn synoniemen — gebruik 'jaarverslag' in WVV-context, 'bestuursverslag' in EU-context.
+
 
 ## Valkuilen
 

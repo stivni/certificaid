@@ -15,7 +15,14 @@
     "dekt_ook_anchors": [
       "1.2.III.D"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "cross-link toegevoegd naar bewaring-boekhoudstukken (overlap-flag voor toekomstige merge)"
+      ]
+    }
   },
   "main_rule": {
     "text": "Boeken (dagboeken, centraal boek, inventarisboek) en verantwoordingsstukken (facturen, kasstukken, bankuittreksels) moeten gedurende 7 jaar bewaard worden, te rekenen vanaf 1 januari volgend op het afsluiten van het boekjaar waarop ze betrekking hebben. Voor stukken zonder bewijswaarde tegenover derden volstaat 3 jaar. Elektronische bewaring is toegelaten mits leesbaarheid en authenticiteit gewaarborgd blijven.",
@@ -174,6 +181,12 @@
       "target": "wetboek-economisch-recht-boek-iii",
       "redenering": "WER art. III.86 stelt bewaartermijn in.",
       "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "bewaring-boekhoudstukken",
+      "aspect": "perspectief",
+      "redenering": "Beide records dekken hetzelfde fenomeen (WER art. III.86). Kandidaat voor merge in volgende VERIFY-pass."
     }
   ],
   "voorbeelden": [

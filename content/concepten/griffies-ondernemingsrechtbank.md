@@ -55,6 +55,42 @@ Een derde wil de balans van Aurelia Holding NV zien → NBB-Balanscentrale (niet
 _Grondslag: WVV art. 3:10; KB-WVV art. 1:2_
 
 
+## In de praktijk
+
+<h3 id="wanneer-naar-griffie-wanneer-naar-nbb">Wanneer naar griffie, wanneer naar NBB?</h3>
+
+> [!tip]- Wanneer naar griffie, wanneer naar NBB?
+> Twee parallelle openbaarmakingskanalen die de stagiair vaak verwart. **Griffie van de ondernemingsrechtbank**: oprichtingsakte, statutenwijzigingen, benoeming/ontslag bestuurders en commissaris, ontbindingsbesluit, kapitaalverhoging, fusie/splitsing (publicatie in BS via griffie). **NBB-Balanscentrale**: jaarrekening, jaarverslag en commissarisverslag. Geheugensteun: **juridisch leven → griffie**; **financieel beeld → NBB**. ⚖️
+
+> [!tip]- Herkennen op het examen
+> Examenvraag 'waar leg je de notulen van de bestuurdersbenoeming neer?' → griffie (in het ondernemingsdossier). 'Waar leg je de jaarrekening neer?' → NBB.
+
+<h3 id="bron-voor-due-diligence">Bron voor due-diligence</h3>
+
+> [!tip]- Bron voor due-diligence
+> Bij een overname of kredietverlening checkt de adviseur het ondernemingsdossier bij de griffie: wie tekenbevoegd is, of er recente statutenwijzigingen zijn, of de vennootschap niet in ontbinding is. Dit dossier is publiek raadpleegbaar (gratis online via Centraal Register van Ondernemingen / Kruispuntbank van Ondernemingen). 🤖
+
+> [!tip]- Herkennen op het examen
+> Casus 'verifieer of bestuurder Y nog tekenbevoegd is voor Aurelia Holding NV' → griffie-dossier raadplegen.
+
+
+> [!info]- Niet verwarren met [[nationale-bank-belgie]]
+> Griffie van de ondernemingsrechtbank houdt het **ondernemingsdossier** bij (juridisch leven: oprichting, statuten, bestuurders, ontbinding). NBB-Balanscentrale houdt de **jaarrekening-databank** bij (financieel: balans, RR, toelichting, jaarverslag, commissarisverslag). Twee aparte registers met aparte doelen — geen overlap.
+>
+> _Trigger_: 'Bestuurdersverandering' → griffie. 'Jaarrekening 2023' → NBB. Beide publiek raadpleegbaar maar via aparte portalen.
+
+
+## Valkuilen
+
+> [!warning]- De jaarrekening wordt **niet** bij de griffie neergelegd — alleen bij de NBB. Bij de griffie komt enkel een **vermelding** dat de jaarrekening neergelegd is.
+> ⚠️  🤖
+
+
+> [!warning]- Statutenwijzigingen (kapitaalverhoging, naamwijziging, ...) moeten zowel bij de griffie als in het Belgisch Staatsblad worden gepubliceerd — niet bij de NBB.
+> ⚠️  🤖
+
+
+
 ## Zie ook
 
 - **Vereist kennis van**: [[openbaarmaking-jaarrekening]]

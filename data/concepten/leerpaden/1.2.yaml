@@ -17,6 +17,17 @@ hoofdstukken:
       boekhoudplichtige-onderneming, jaarrekening-als-studieobject en
       regelmatige-boekhouding uit de meegeleverde records.
 
+  - type: thematisch
+    titel: "Rechtsbronnen van het Belgisch boekhoudrecht: van EU tot rechtspraak"
+    concepten:
+      - belgisch-boekhoudrecht
+      - europees-boekhoudrecht
+      - wetboek-economisch-recht-boek-iii
+      - wetboek-vennootschappen-verenigingen
+      - kb-wvv-uitvoering
+      - cbn-adviezen
+      - rechtspraak-boekhoudrecht
+
   - type: synthese
     synthese_id: rechtsbronnen-boekhoudrecht-piramide
     rationale_hint: >-
@@ -26,21 +37,35 @@ hoofdstukken:
       nog niet allemaal, maar ziet meteen welke bronnen de wet gebruikt om
       een boekhoudvraag te beantwoorden. Verderop in het leerpad wordt elke
       laag uitgediept; deze synthese is de globale kaart van het hele
-      programmaonderdeel.
+      programmaonderdeel. Sluit aan bij het voorafgaande thematische
+      cluster waar elke laag al apart als record is voorgesteld.
 
   - type: competentie
     competentie_id: identificeren-rechtsbron-boekhoudrecht
+
+  - type: thematisch
+    titel: "Actoren van het boekhoudrecht: wie maakt, wie controleert, wie publiceert?"
+    concepten:
+      - commissie-boekhoudkundige-normen
+      - nationale-bank-belgie
+      - fsma
+      - itaa
+      - ibr
+      - fod-financien-boekhoudrecht
+      - griffies-ondernemingsrechtbank
 
   - type: synthese
     synthese_id: autoriteiten-boekhoudrecht-landschap
     rationale_hint: >-
       Na de bronnen-piramide brengt deze synthese het actor-landschap in
-      kaart: wie maakt regels (CBN, NBB voor IFRS-PIEs), wie houdt toezicht
+      kaart: wie maakt regels (CBN, NBB voor IFRS-PIE's), wie houdt toezicht
       (FSMA op markten, NBB op banken en verzekeraars), wie controleert
       (commissaris, ITAA-leden, IBR-leden), wie publiceert (NBB-balanscentrale,
       griffies) en wie taxeert (FOD Financiën). Verbind elke actor met de
       laag uit de piramide waar die actor handelt — zodat de student per
-      casus weet bij welk loket aan te kloppen.
+      casus weet bij welk loket aan te kloppen. De zeven autoriteit-records
+      in het voorafgaande thematisch cluster zijn telkens de fiche per loket;
+      deze synthese is de overzichtskaart.
 
   - type: competentie
     competentie_id: identificeren-administratieve-autoriteit
@@ -55,6 +80,7 @@ hoofdstukken:
       - minimum-algemeen-rekeningenstelsel
       - dagboek
       - hulpdagboeken
+      - verantwoordingsstuk
       - inventaris
       - proef-en-saldibalans
       - eindejaarsverrichtingen
@@ -77,6 +103,16 @@ hoofdstukken:
   - type: competentie
     competentie_id: kwalificeren-jaarrekeningregime-vzw-stichting
 
+  - type: thematisch
+    titel: "Vennootschapsvormen en groottecategorieën: de cascade in cijfers"
+    concepten:
+      - vennootschapsvormen-typologie
+      - groottecriteria-jaarrekening
+      - microvennootschap
+      - kleine-vennootschap
+      - jaarrekening-schema
+      - jaarrekening-vzw-stichting
+
   - type: synthese
     synthese_id: vennootschapsgrootte-cascade
     rationale_hint: >-
@@ -86,7 +122,9 @@ hoofdstukken:
       toont in één tabel de drempels (omzet / balanstotaal / personeel) én
       de gevolgketen per categorie. Plaats vóór de twee daaropvolgende
       competenties zodat de student de groottecriteria niet drie keer
-      apart leert maar als één gelaagd toetsingsmechanisme.
+      apart leert maar als één gelaagd toetsingsmechanisme. Het voorafgaande
+      thematisch cluster bevat de losse drempel- en schema-records waarop
+      deze cascade-synthese steunt.
 
   - type: competentie
     competentie_id: klasseren-vennootschap-naar-groottecategorie
@@ -99,6 +137,8 @@ hoofdstukken:
     concepten:
       - jaarrekening-als-studieobject
       - samenstelling-statutaire-jaarrekening
+      - balans
+      - resultatenrekening
       - toelichting-jaarrekening
       - sociale-balans
       - bestuursverslag
@@ -116,7 +156,6 @@ hoofdstukken:
       - oprechtheidsbeginsel
       - consistentiebeginsel
       - volledigheidsbeginsel
-      - aanvullende-boekhoudbeginselen
       - waarderingsregels-jaarrekening
       - aanschaffingswaarde
       - afschrijvingen
@@ -125,6 +164,18 @@ hoofdstukken:
       - voorzieningen
       - oprichtingskosten
       - overlopende-rekeningen
+
+  - type: synthese
+    synthese_id: aanvullende-boekhoudbeginselen
+    rationale_hint: >-
+      Naast de vijf hoofd-boekhoudbeginselen (getrouw beeld, voorzichtigheid,
+      continuïteit, oprechtheid, volledigheid) functioneren aanvullende
+      beginselen zoals het matching-principe, substance-over-form,
+      individuele-waardering en niet-compensatie als correctief redeneer-
+      kader bij twijfel. Deze synthese verzamelt die aanvullende beginselen
+      in één overzicht — plaats hem na het thematische cluster zodat de
+      student het bredere palet ziet voordat de overzichts-synthese alle
+      beginselen tegen elkaar afzet.
 
   - type: synthese
     synthese_id: boekhoudbeginselen-overzicht
@@ -171,7 +222,7 @@ hoofdstukken:
       gebruikt wordt.
 
 _provenance:
-  voorgesteld_door: "leerpad-propose-v1-po-1.2-2026-05-16T16:30Z"
-  voorgesteld_op: "2026-05-16T16:30:00+00:00"
+  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260518T234554Z"
+  voorgesteld_op: "2026-05-18T23:47:39+00:00"
   gecureerd_door: null
   gecureerd_op: null

@@ -111,10 +111,6 @@ _Grondslag: MAR rubriek 15 + KB WVV art. 3:53_
 
 
 
-## Zie ook
-
-- **Getriggerd door**: [[alarmprocedure]]
-
 ## Voorbeelden
 
 Meubelzaak Mertens BV per 31/12: kapitaal € 50.000 (rubriek 100), uitgiftepremie € 20.000 (rubriek 11), wettelijke reserve € 5.000 (rubriek 130), beschikbare reserves € 80.000 (rubriek 133), overgedragen winst € 145.000 (rubriek 140). Totaal eigen middelen = € 300.000. Op de passiefzijde rubriek I-VI.

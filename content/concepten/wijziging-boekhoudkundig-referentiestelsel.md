@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > **CBN-advies 2022/08** behandelt de boekhoudkundige verwerking bij **wijziging van het boekhoudkundig referentiestelsel** wanneer een vennootschap, VZW, IVZW of stichting voor het eerst haar **statutaire jaarrekening** opstelt volgens het Belgisch boekhoudkundig referentiestelsel….
 
+> [!info] Specialisatie van: [[stelselwissel-jaarrekening]]
+
 **CBN-advies 2022/08** behandelt de boekhoudkundige verwerking bij **wijziging van het boekhoudkundig referentiestelsel** wanneer een vennootschap, VZW, IVZW of stichting voor het eerst haar **statutaire jaarrekening** opstelt volgens het Belgisch boekhoudkundig referentiestelsel (BE GAAP) terwijl zij voordien een ander stelsel toepaste (typisch IFRS, maar het advies geldt voor elke overgang van een buitenlands stelsel naar BE GAAP). Het advies behandelt **uitsluitend de statutaire jaarrekening** — niet de geconsolideerde — en focust op **waarderingsverschillen** tussen het oude en het nieuwe stelsel, met bijzondere aandacht voor materiële vaste activa. De kern: het boekhoudkundig **continuïteitsbeginsel** blijft van toepassing — openingsbalans = eindbalans vorig boekjaar — maar de cijfers moeten **herwerkt** worden zodat de balans in lijn is met BE GAAP, en de vergelijkende cijfers van het voorafgaande boekjaar worden aangepast (concordantietabel in toelichting).
 
 _Bron: CBN 2022/08 — Inleiding + Standpunt van de Commissie_
@@ -62,7 +64,7 @@ Een afwijking van het continuïteitsbeginsel is verantwoord als **beide** voorwa
 
 Een actief stond onder IFRS op fair-value-through-profit-or-loss. Onder BE GAAP (KB WVV art. 3:13) moet het terug naar aanschaffingswaarde. Beide voorwaarden vervuld → uitzondering op continuïteit, herwerking van de openingsbalans verplicht. ⚖️
 
-_Grondslag: CBN 2022/08 — Standpunt §Uitzondering op het boekhoudkundig continuïteitsbeginsel; KB WVV art. 3:58 §5_
+_Grondslag: CBN 2022/08 — Standpunt §Uitzondering op het boekhoudkundig continuïteitsbeginsel; KB WVV art. 3:1 (getrouw beeld) — uitzonderingsclausule voor afwijkende waardering. Eerdere verwijzing naar art. 3:58 §5 was minder accuraat: 3:58 §5 betreft de openbaarmaking-uitzondering op groottecriteria, niet de waarderingsafwijking._
 
 ### Herwerking via eigen-vermogen-rekeningen ⚖️
 

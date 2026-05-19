@@ -33,6 +33,13 @@
       "changes": [
         "type:procedure->cluster"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge-fix: jaarafsluiting→eindejaarsverrichtingen; waarderingsregels→waarderingsregels-jaarrekening"
+      ]
     }
   },
   "verplichting": "Elke onderneming voert minstens één keer per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen uit om op een door haar gekozen datum een **inventaris** op te maken van al haar bezittingen, vorderingen, schulden en verplichtingen, en van de eigen middelen verstrekt aan haar bedrijf. De inventaris wordt overgeschreven in een **inventarisboek** dat samen met de jaarrekening wordt bewaard.",
@@ -224,12 +231,12 @@
     },
     {
       "type": "getriggerd-door",
-      "target": "jaarafsluiting",
+      "target": "eindejaarsverrichtingen",
       "redenering": "Inventaris wordt opgemaakt bij elke jaarafsluiting."
     },
     {
       "type": "vereist-kennis-van",
-      "target": "waarderingsregels",
+      "target": "waarderingsregels-jaarrekening",
       "redenering": "Posten worden niet alleen geteld maar ook gewaardeerd volgens de geldende waarderingsregels."
     }
   ],

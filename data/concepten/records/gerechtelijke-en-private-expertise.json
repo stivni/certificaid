@@ -15,7 +15,9 @@
     "linked_anchors": [
       "1.6.I.A"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_extract_pass": "concept-extractie-v4-quickfix-2026-05-19-verify-gap",
+    "last_extract_at": "2026-05-19T00:00:00Z"
   },
   "definitie": {
     "text": "Gerechtelijke en private expertise is een opdrachttype dat de Wet ITAA 2019 expliciet toewijst aan de gecertificeerd accountant (art. 3, 6°): de beroepsbeoefenaar treedt op als boekhoudkundig expert in een gerechtelijke procedure (aangesteld door de rechter) of in een private context (in opdracht van partijen, vaak buiten procedure of in arbitrage). Hij analyseert boekhoudkundige feiten, beoordeelt cijfermateriaal en levert een gemotiveerd expertiseverslag. De opdracht behoort tot de wettelijke beroepsactiviteiten van de GA, samen met de gedeelde wettelijk voorbehouden opdrachten.",
@@ -117,8 +119,10 @@
   "edges": [
     {
       "type": "verwijst-naar",
-      "target": "beroepsgeheim",
-      "redenering": "Bij expertise blijft beroepsgeheim gelden, met geclausuleerde uitzondering voor wat in het verslag moet komen."
+      "target": "beroepsgeheim-accountant",
+      "redenering": "Bij expertise blijft beroepsgeheim gelden, met geclausuleerde uitzondering voor wat in het verslag moet komen.",
+      "corrected_from": "beroepsgeheim",
+      "correction_reason": "Slug-correctie: bestaand record heet beroepsgeheim-accountant."
     }
   ],
   "voorbeelden": [

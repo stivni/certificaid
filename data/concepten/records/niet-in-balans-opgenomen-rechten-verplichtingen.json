@@ -19,7 +19,14 @@
       "1.3.taak.1"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: +['1.2.III.B', '1.2.V', '1.2.IV.C']"
+    "po_1_2_extension": "2026-05-16: +['1.2.III.B', '1.2.V', '1.2.IV.C']",
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge specialisatie-van rechten-verplichtingen-buiten-balans toegevoegd (drie-perspectief)"
+      ]
+    }
   },
   "main_rule": {
     "text": "In de toelichting worden per soort de rechten en verplichtingen vermeld die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze in de toelichting vermeld.",
@@ -240,6 +247,11 @@
       "target": "getrouw-beeld-jaarrekening",
       "redenering": "Vermelding ondersteunt het getrouwe beeld — anders is de jaarrekening onvolledig.",
       "confidence": "inferred"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "rechten-verplichtingen-buiten-balans",
+      "redenering": "Deze regel is de toelichtingsverplichting-specialisatie van het overkoepelende fenomeen."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",

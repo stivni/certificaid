@@ -22,7 +22,9 @@
     "verplichte-ifrs-eu-beursgenoteerden",
     "ifrs-toepassingsgebied-belgie",
     "eu-harmonisatie-jaarrekeningenrecht",
-    "be-gaap-vs-ifrs-overzicht"
+    "be-gaap-vs-ifrs-overzicht",
+    "ifrs-eerste-toepassing",
+    "uitvoeren-eerste-toepassing-ifrs"
   ],
   "procedure_grondslag": {
     "wettelijk_pct": 90,
@@ -169,6 +171,20 @@
       "added_by": "concept-extractie-v4-2026-05-18T12:00Z",
       "added_at": "2026-05-18T12:00:00Z",
       "reason": "gebaseerd_op_concepten: richtlijn-2013-34-eu → eu-harmonisatie-jaarrekeningenrecht (bron-record vervangen door fenomeen-record)"
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "ifrs-toepassingsgebied-belgie"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "ifrs-eerste-toepassing"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "uitvoeren-eerste-toepassing-ifrs"
     }
   ]
 }

@@ -44,7 +44,7 @@ _Grondslag: EU-IFRS-verordening 1606/2002 art. 4 jo. art. 5; CBN 2016/19_
 
 ### Enkelvoudig niveau: altijd Belgisch GAAP 🤖
 
-De wettelijke (statutaire) jaarrekening van een Belgische vennootschap — die dient voor uitkeerbaarheid, kapitaalbescherming en fiscale aangifte — volgt **altijd** Belgisch GAAP. Geen optie om IFRS te kiezen voor enkelvoudige cijfers.
+De wettelijke (statutaire) jaarrekening van een Belgische vennootschap — die dient voor uitkeerbaarheid, kapitaalbescherming en fiscale aangifte — volgt **altijd** Belgisch GAAP. Geen optie om IFRS te kiezen voor enkelvoudige cijfers. (De negatieve claim — IFRS NIET toegestaan voor enkelvoudige jaarrekening — is afgeleid uit het ontbreken van een Belgische art. 5-omzetting van Verord. 1606/2002; geen rechtstreekse positieve regel.)
 
 **Waarom?** De statutaire jaarrekening is de **rechtsgrondslag** voor dividenden en winstbelasting. Het Belgisch systeem koppelt die rechtsgevolgen aan Belgisch GAAP — overschakelen naar IFRS zou de fiscaal-juridische infrastructuur ondermijnen.
 
@@ -115,7 +115,7 @@ _Grondslag: CBN 2022/08 (BE-bestemming, statutair); IFRS 1 voor IFRS-bestemming_
 ## Zie ook
 
 - **Vereist kennis van**: [[consortium]]
-- **Triggert** (1): [[wijziging-boekhoudkundig-referentiestelsel]]
+
 ## Illustraties
 
 #### Beslisboom — welk stelsel voor welke Belgische jaarrekening? ⚖️

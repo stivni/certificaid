@@ -19,13 +19,18 @@ hoofdstukken:
       waar wordt waarde gecreëerd of verspild?
 
   - type: thematisch
-    titel: "Het analytisch rekeningenstelsel: bouwstenen en registratie-architectuur"
+    titel: "Doelstellingen en bouwstenen van het analytisch rekeningenstelsel"
     concepten:
+      - doelstellingen-analytische-boekhouding
       - rekeningenstelsel-analytisch
       - kostensoort
       - kostencentrum
       - kostendrager
       - verdeelsleutel
+
+  - type: thematisch
+    titel: "Registratiesystemen: koppeling tussen algemene en analytische boekhouding"
+    concepten:
       - registratiesysteem-waarderingsneutraal
       - registratiesysteem-eenvoudige-integratie
       - registratiesysteem-proportionele-integratie
@@ -46,28 +51,37 @@ hoofdstukken:
       - arbeidskosten
       - overige-kosten
 
-  - type: competentie
-    competentie_id: bepalen-vervaardigingsprijs-kb-21-10-2018
+  - type: thematisch
+    titel: "Wettelijke vervaardigingsprijs en voorraadwaardering (KB 21.10.2018 + CBN 132/7)"
+    concepten:
+      - vervaardigingsprijs
+      - voorraadwaardering
+      - kostprijs-per-eenheid
 
-  - type: synthese
-    synthese_id: costing-methodes-vergelijking
-    rationale_hint: >-
-      Plaats deze synthese als kapstok tussen de wettelijke vervaardigingsprijs
-      en het management-accounting-luik. De student heeft net de
-      grounded basis (KB 21.10.2018 + CBN 132/7) leren toepassen; nu ziet hij
-      in één tabel hoe [[volledige-kostencalculatie]], [[direct-costing]],
-      [[werkelijke-kostencalculatie]] en [[abc-methode]] zich tot elkaar
-      verhouden — wélke kosten elke methode opneemt, voor welk doel ze geschikt
-      is en waarom de wettelijke voorraadwaardering een eigen plek behoudt.
-      Hierdoor wordt zichtbaar dat de volgende vier competenties geen
-      losse technieken zijn maar varianten op één keuze: hoe ver verdeel je
-      vaste en indirecte kosten door tot op de kostendrager?
+  - type: competentie
+    competentie_id: bepalen-vervaardigingsprijs
+
+  - type: thematisch
+    titel: "Kostencalculatiemethoden in vogelvlucht: keuze, doel en draagwijdte"
+    concepten:
+      - costing-methodes-vergelijking
+      - volledige-kostencalculatie
+      - direct-costing
+      - werkelijke-kostencalculatie
+      - voorbepaalde-kosten
+      - abc-methode
 
   - type: competentie
     competentie_id: toepassen-volledige-kostencalculatie
 
   - type: competentie
     competentie_id: toepassen-direct-costing-en-contributiemarge
+
+  - type: thematisch
+    titel: "Contributiemarge en break-even: de hefboom tussen vaste en variabele kosten"
+    concepten:
+      - contributiemarge
+      - break-even-analyse
 
   - type: competentie
     competentie_id: uitvoeren-break-even-analyse
@@ -82,27 +96,29 @@ hoofdstukken:
       - opportuniteitskost
       - sunk-cost
       - gemiddelde-kostprijs
-      - kostprijs-per-eenheid
+      - kostenanalyse-make-or-buy
 
   - type: competentie
     competentie_id: uitvoeren-make-or-buy-beslissing
 
-  - type: synthese
-    synthese_id: budget-cyclus
-    rationale_hint: >-
-      Plaats deze synthese als overgang van het kost-luik naar het
-      budget-luik. De student heeft tot hier kosten leren berekenen en
-      beslissingen leren onderbouwen; nu volgt de vraag hoe een onderneming
-      die kosten en opbrengsten vooruit plant, opvolgt en bijstuurt. De
-      kapstok toont de cyclus [[budgetbeheer]] → [[budgetprocedure]] →
-      [[master-budget]] → realisatie → [[verschillenboekhouding]] →
-      bijsturing, en illustreert hoe [[statisch-budget]] en [[flexibel-budget]]
-      twee complementaire ijkpunten zijn. Hierdoor begrijpt de student dat
-      master-budget opstellen en budgetverschillen analyseren niet twee losse
-      vaardigheden zijn maar twee fasen van dezelfde cyclus.
+  - type: thematisch
+    titel: "Budgetcyclus: van plan naar opvolging en bijsturing"
+    concepten:
+      - budget-cyclus
+      - budgetbeheer
+      - budgetprocedure
+      - master-budget
+      - statisch-budget
+      - flexibel-budget
 
   - type: competentie
     competentie_id: opstellen-master-budget
+
+  - type: thematisch
+    titel: "Verschillenboekhouding: standaard versus realisatie"
+    concepten:
+      - verschillenboekhouding
+      - prijsverschil-arbeid
 
   - type: competentie
     competentie_id: berekenen-interpreteren-budgetverschillen
@@ -126,7 +142,7 @@ hoofdstukken:
       adviseren.
 
 _provenance:
-  voorgesteld_door: "leerpad-propose-v1-po-1.8-2026-05-17T00:00Z"
-  voorgesteld_op: "2026-05-17T00:00:00+00:00"
+  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260518T234555Z"
+  voorgesteld_op: "2026-05-19T00:00:00+00:00"
   gecureerd_door: null
   gecureerd_op: null

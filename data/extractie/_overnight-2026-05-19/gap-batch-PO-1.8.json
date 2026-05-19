@@ -1,0 +1,163 @@
+{
+  "programmaonderdeel": "1.8",
+  "gegenereerd_op": "2026-05-18T23:17:46.578150+00:00",
+  "totaal": 14,
+  "open": 0,
+  "strategic_pass": 14,
+  "gaps": [
+    {
+      "record_id": "prijsverschil-arbeid",
+      "aspect": "berekeningsmethode.formule",
+      "reden": "Record beschrijft tariefverschil + efficiëntieverschil in vrije tekst (definitie) maar mist structurele berekeningsmethode + formules + variabelen + invulling_voorbeeld. Voor een methodisch berekenbaar verschil-mechanisme is dat ondervoldoende voor minicursus.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "prijsverschil-arbeid",
+      "aspect": "berekeningsmethode.concreet_voorbeeld",
+      "reden": "Geen numeriek voorbeeld bij splitsing tariefverschil / efficiëntieverschil — verschillenboekhouding-record dekt materiaal maar arbeid wordt hier alleen tekstueel beschreven.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "werkelijke-kostencalculatie",
+      "aspect": "stappen.onvolledig",
+      "reden": "Node_type 'methode' maar geen stappen, geen berekeningsmethode, geen in_praktijk. Alleen één bouwsteen + één vergelijkingspaar. Een methode-record behoort minstens een procedure of formule te dragen — niet enkel een conceptuele afbakening tegenover voorbepaalde-kosten.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "registratiesysteem-waarderingsneutraal",
+      "aspect": "stappen.onvolledig",
+      "reden": "Methode-record maar zonder stappen of berekeningsmethode. De CBN-3/3-waarderingsneutraliteit wordt in één bouwsteen geponeerd maar de concrete reconciliatieprocedure (klasse 6 ↔ klasse 9) ontbreekt — terwijl in_praktijk wel naar zo'n procedure verwijst.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "registratiesysteem-eenvoudige-integratie",
+      "aspect": "stappen.onvolledig",
+      "reden": "Methode-record met enkel bouwstenen; geen stap-procedure die toont hoe klasse-9-rekeningen ingericht worden of geboekt. Voor examenvraag 'beschrijf het registratiesysteem' onvoldoende.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "registratiesysteem-proportionele-integratie",
+      "aspect": "stappen.onvolledig",
+      "reden": "Methode-record zonder stappen of berekening; alleen bouwstenen. Voor het analytische scenario waarbij algemene en analytische boekhouding gekoppeld zijn met vaste sleutels, ontbreekt het procedurele draaiboek.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "kostprijs-per-eenheid",
+      "aspect": "berekeningsmethode.formule",
+      "reden": "Centraal-genoeg begrip waarvan drie gebruiksvormen (vervaardiging / volledig / variabel) elk een eigen rekenwijze hebben. Record beschrijft het tekstueel maar mist berekeningsmethode + formule + numeriek voorbeeld die de drie waarden ontleedt.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "statisch-budget",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Begrip-record dunne uitwerking: alleen definitie + één vergelijkingspaar. Voor uniforme rijkheid met flexibel-budget zou een in_praktijk-blok of voorbeeld_inline met cast-bedragen gewenst zijn.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "flexibel-budget",
+      "aspect": "berekeningsmethode.concreet_voorbeeld",
+      "reden": "Definitie + één vergelijkingspaar maar geen numeriek voorbeeld van het aanpassen van budgetbedragen aan een werkelijk volumeniveau — terwijl dat de hele toegevoegde waarde van flexibel budget vormt.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "opportuniteitskost",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Beslissings-economisch begrip met centraal belang voor make-or-buy en marginale-analyse. Record heeft alleen definitie + één in_praktijk-item; mist een voorbeeld_inline met cast-bedragen en cross-link naar make-or-buy-procedure.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "kostendrager",
+      "aspect": "vergelijkingsparen.ontbreekt",
+      "reden": "Kostendrager wordt in praktijk verward met kostencentrum (waarheen verdelen vs. waarop verzamelen). Geen expliciet vergelijkingspaar tegenover kostencentrum, terwijl dat bij studenten een hoog verwarringsrisico is.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "budgetboekhouding",
+      "aspect": "definitie.onvolledig",
+      "reden": "Definitie blijft kort en geeft niet duidelijk aan hoe budget-rekeningen (klasse 9 budgettair) zich verhouden tot werkelijke analytische rekeningen — terwijl record bedoeld is als brug naar verschillenboekhouding.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "verschillenboekhouding",
+      "aspect": "records.overlappend-fenomeen",
+      "reden": "Verschillenboekhouding én prijsverschil-arbeid beschrijven beide de splitsing tariefverschil/efficiëntieverschil maar voor verschillende kostcomponenten. Risico op gedupliceerde uitleg; overweeg merge (prijsverschil-arbeid als sectie binnen verschillenboekhouding) of duidelijke afbakening met cross-link.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "kostenanalyse-make-or-buy",
+      "aspect": "stappen.onvolledig",
+      "reden": "Afwegingskader-record met alleen bouwstenen + in_praktijk; geen procedurele stappen die de stagiair leiden door de beslissing (relevante kost identificeren → sunk weglaten → opportuniteitskost inbrengen → vergelijken → kwalitatieve factoren). Voor competentie-destillatie te dun als enige bron.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-1.8-2026-05-17",
+      "geconstateerd_op": "2026-05-17T12:00Z",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    }
+  ]
+}

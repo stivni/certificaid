@@ -96,7 +96,7 @@ _Grondslag: CBN 2018/18 §verslaggeving_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[waarderingsregels]]
+- **Vereist kennis van**: [[waarderingsregels-jaarrekening]]
 - **Getriggerd door**: [[vereffening]]
 
 ## Voorbeelden

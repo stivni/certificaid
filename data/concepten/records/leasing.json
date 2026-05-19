@@ -24,6 +24,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "vergelijkingspaar huur: target ontbreekt, hernoemd naar -aspect; geen apart huur-record gemaakt (geen examenrelevantie als zelfstandig concept)"
+      ]
     }
   },
   "definitie": {
@@ -221,9 +228,10 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "huur",
+      "vergelijking_met": "huur-versus-leasing-aspect",
       "verschil": "Operationele leasing en huur zijn boekhoudkundig vrijwel identiek (kost in RR, geen activum/schuld). Verschil ligt juridisch (huurovereenkomst vs leasecontract) en in mogelijke koopoptie.",
-      "trigger": "Examen: 'gewone huur kantoor € 1.500/maand' = kostenrekening 61. 'leasing met optie tot aankoop' = onderzoek of optie ≤ 15 % → financieel of operationeel."
+      "trigger": "Examen: 'gewone huur kantoor € 1.500/maand' = kostenrekening 61. 'leasing met optie tot aankoop' = onderzoek of optie ≤ 15 % → financieel of operationeel.",
+      "_target_status": "aspect-zonder-eigen-record"
     }
   ],
   "edges": [

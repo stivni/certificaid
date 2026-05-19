@@ -26,6 +26,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge-fix: jaarafsluiting→eindejaarsverrichtingen; balans+resultatenrekening worden via inverse onderdeel-van edges op die records aangegeven (geen 'bevat'-deprecated edges)"
+      ]
     }
   },
   "definitie": {
@@ -254,7 +261,7 @@
   "edges": [
     {
       "type": "getriggerd-door",
-      "target": "jaarafsluiting",
+      "target": "eindejaarsverrichtingen",
       "redenering": "Jaarrekening wordt opgesteld na jaarafsluiting + inventaris."
     }
   ],

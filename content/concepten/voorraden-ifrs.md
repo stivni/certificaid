@@ -114,6 +114,12 @@ gewogen gemiddelde = (totale kostprijs begin + totale aankoopkosten periode) / (
 
 _Resultaat in EUR/kg_
 
+## In de praktijk
+
+- Toegelaten methoden onder IFRS: FIFO en gewogen gemiddelde kostprijs. **LIFO is verboden** sinds IAS 2 (alinea 25) — historische methode is weggehaald omdat ze geen getrouw beeld geeft van de huidige vervangingswaarde.
+- Bij een dossier dat LIFO gebruikt onder BE GAAP en wisselt naar IFRS: hercalculeer de voorraad onder FIFO of gewogen gemiddelde en boek het verschil als IFRS 1-overgangsaanpassing op de openingsbalans.
+- Onderscheid kostprijs versus netto realisatie-waarde: voorraad wordt geboekt aan de **laagste** van beide (IAS 2 alinea 9). Bij dalende marktwaarden → afwaardering naar NRV; bij stijgende → blijft op kostprijs.
+
 > [!info]- Niet verwarren met [[voorraden]]
 > Belgisch GAAP (KB WVV) staat **drie methoden** toe voor toerekening: FIFO, LIFO, gewogen gemiddelde. IFRS (IAS 2) staat alleen FIFO of gewogen gemiddelde toe — **LIFO verboden**. Bij eerste IFRS-toepassing moeten LIFO-gebruikers herrekenen.
 >

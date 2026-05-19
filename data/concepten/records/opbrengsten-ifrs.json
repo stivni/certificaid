@@ -49,7 +49,18 @@
         }
       ],
       "hoe": "1. Zelena Bio NV ontvangt een bestelling van Brugse Brouwerij BV voor 500.000 doseflesjes ingrediënt X, prijs € 0,80/flesje (€ 400.000 totaal), levering Q3 2026, betaling 60 dagen na levering.\n2. Check criterium (a): Brugse heeft schriftelijke bestelorder gestuurd, Zelena heeft die bevestigd. → OK.\n3. Check (b): 500.000 doseflesjes ingrediënt X — duidelijk geïdentificeerd. → OK.\n4. Check (c): € 0,80/flesje, betaling 60 dagen. → OK.\n5. Check (d): Zelena verwacht een nieuwe kasstroom; Brugse krijgt een bedrijfsmiddel. → OK.\n6. Check (e): Brugse is een gevestigde klant met goede betaalhistoriek. → OK.\n7. Contract is opneembaar onder IFRS 15.",
-      "grondslag": "IFRS 15 alinea 9-13"
+      "grondslag": "IFRS 15 alinea 9-13",
+      "voorbeeld": {
+        "scenario": "Brugse Brouwerij BV sluit een contract met Aurelia Holding NV voor leveringen van bier gedurende 2 jaar, met een vaste vergoeding van € 240.000.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Contractidentificatie",
+            "type": "opmerking",
+            "data": "Bestaat er een contract met afdwingbare rechten? Ja — getekende overeenkomst. Stap 1 voldaan."
+          }
+        ]
+      }
     },
     {
       "nr": 2,
@@ -71,7 +82,18 @@
         }
       ],
       "hoe": "1. Bekijk wat Zelena Bio aan Brugse Brouwerij belooft: 500.000 doseflesjes ingrediënt X (productverkoop) — één PO.\n2. Geen aparte installatie of onderhoud beloofd → één onderscheiden PO.\n3. Was het contract complexer (bv. productverkoop + 12 maanden helpdesk + 3 trainingssessies), dan zou de stagiair drie PO's identificeren — mits elk onderscheiden is in de zin van alinea 27.",
-      "grondslag": "IFRS 15 alinea 22-30"
+      "grondslag": "IFRS 15 alinea 22-30",
+      "voorbeeld": {
+        "scenario": "Het contract bevat twee prestatieverplichtingen: levering van bier (200 hl/maand, 24 maanden) en jaarlijkse kwaliteitscontroles ter plaatse.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Identificatie prestatieverplichtingen",
+            "type": "opmerking",
+            "data": "Twee afzonderlijke leveringen: (a) bier per maand = 24 leveringen + (b) twee kwaliteits-bezoeken. Elk een aparte prestatieverplichting omdat ze afzonderlijk identificeerbaar zijn."
+          }
+        ]
+      }
     },
     {
       "nr": 3,
@@ -120,7 +142,18 @@
         }
       ],
       "hoe": "1. Zelena-Brugse heeft maar één PO (productverkoop ingrediënt X) → volledige € 394.400 aan die PO toegewezen. Geen splitsing nodig.\n2. Was er ook € 30.000 helpdesk (opzichzelfstaande prijs) en € 10.000 training (opzichzelfstaande prijs), bij gebundelde totaalprijs € 400.000: verdelen op basis van prijsverhouding 400 : 30 : 10 → product € 363.636, helpdesk € 27.273, training € 9.091.",
-      "grondslag": "IFRS 15 alinea 73-80"
+      "grondslag": "IFRS 15 alinea 73-80",
+      "voorbeeld": {
+        "scenario": "Transactieprijs € 240.000 verdeeld over twee prestatieverplichtingen op basis van standalone-verkoopsprijzen: € 220.000 voor leveringen, € 20.000 voor kwaliteitscontroles.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Allocatie op basis van standalone-prijzen",
+            "type": "berekening",
+            "data": "Bier: € 220.000 / 24 maanden = € 9.167 per maandelijkse levering\nKwaliteitscontrole: € 20.000 / 2 bezoeken = € 10.000 per bezoek"
+          }
+        ]
+      }
     },
     {
       "nr": 5,
@@ -245,13 +278,9 @@
       "confidence": "grounded"
     },
     {
-      "type": "specialisatie-van",
-      "target": "opbrengsten",
-      "regime": "IFRS",
-      "redenering": "Regime-specialisatie (v4 §7): dit record is de IFRS-variant van de algemene cluster `opbrengsten`. IFRS 15 versus oude IAS 18 + BE-GAAP-opbrengstregels.",
-      "confidence": "grounded",
-      "target_status": "pending",
-      "target_status_reason": "Algemene cluster `opbrengsten` ontbreekt — gap-entry archived-strategic-pass (PO 1.1-scope). Edge gemarkeerd pending tot BE-GAAP-tegenhanger bestaat."
+      "type": "vergelijkt-met",
+      "target": "opbrengsten-be-gaap",
+      "regime": "IFRS↔BE-GAAP"
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",

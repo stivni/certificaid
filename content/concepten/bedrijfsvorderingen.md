@@ -97,7 +97,7 @@ _Grondslag: CBN praktijk waardeverminderingen op verzekerde handelsvorderingen_
 > Bij afsluiting analyseert de boekhouder de openstaande vorderingen per ouderdomsbucket (< 30 d, 30-60 d, 60-90 d, > 90 d). Hoe ouder de vordering, hoe hoger het inbaarheidsrisico. Vaak gebruikt: vermoedelijke waardevermindering-percentages per bucket. 🤖
 
 
-> [!info]- Niet verwarren met [[vorderingen-op-meer-dan-een-jaar]]
+> [!info]- Niet verwarren met [[vorderingen-meer-dan-1-jaar-aspect]]
 > Beide zijn bedrijfsvorderingen, MAAR rubriek V (op meer dan één jaar) staat boven rubriek VII (op hoogstens één jaar) in de balans. De grens is de RESTERENDE looptijd op balansdatum, niet de oorspronkelijke.
 >
 > _Trigger_: Examen: 'lening 3 jaar verleend in jaar 1, op 31/12/20X2 nog 18 maanden te lopen' → splitsen: 12 maanden op rubriek VII, 6 maanden op rubriek V.

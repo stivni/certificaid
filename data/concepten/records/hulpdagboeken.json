@@ -125,5 +125,62 @@
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
   "situering": "Hulpdagboeken zijn **gespecialiseerde dagboeken per verrichtingstype** (aankoop, verkoop, financieel) naast het centraal dagboek. Stagiairs moeten weten welke verrichting waar hoort en dat alle hulpdagboeken periodisch centraliseren in het centraal boek.",
-  "naam_alternatief": "subsidiary journals / journaux auxiliaires"
+  "naam_alternatief": "subsidiary journals / journaux auxiliaires",
+  "in_praktijk": [
+    {
+      "aspect": "Welke hulpdagboeken zijn standaard?",
+      "betekenis": "In een KMO-boekhouding zie je doorgaans vier hulpdagboeken: (1) aankoopdagboek, (2) verkoopdagboek, (3) financieel dagboek (apart per bankrekening + kas), (4) diversen-dagboek (voor eindejaarsboekingen, herwaarderingen, correcties). Grotere ondernemingen splitsen verder (bv. aparte dagboeken voor cash-aankopen, voor terugbetalingen, voor specifieke domeinen).",
+      "herkenningspunt": "Examenvraag 'in welk dagboek boek ik X?': inkomende factuur → aankoop; uitgaande factuur → verkoop; bankuittreksel → financieel; afschrijving → diversen.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Eén financieel dagboek per rekening",
+      "betekenis": "Voor elke bankrekening en voor de kas wordt een **afzonderlijk** financieel dagboek bijgehouden. Heeft een onderneming drie bankrekeningen (ING, KBC, Belfius) plus kas → vier aparte financiële dagboeken. Centralisatie ervan loopt naar het centraal boek.",
+      "herkenningspunt": "Praktijkvalkuil: alle bankrekeningen samen in één dagboek boeken — niet correct, één per rekening verplicht.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Hulpdagboeken zijn niet hetzelfde als 'sub-rekeningen'. Een hulpdagboek is een chronologische registratie per type verrichting; sub-rekeningen zijn een verfijning binnen het rekeningenstelsel.",
+      "vaak_fout": "De termen 'hulpdagboek' en 'sub-rekening' door elkaar gebruiken in een examenantwoord.",
+      "grondslag": "WER art. III.84; CBN-advies 174/1"
+    },
+    {
+      "advies": "Centralisatie in centraal boek is verplicht **minstens maandelijks** (volledige dubbele boekhouding). Bij vereenvoudigde boekhouding mag het driemaandelijks.",
+      "vaak_fout": "Pas op het einde van het boekjaar centraliseren — dan ontstaan controle- en compliance-problemen.",
+      "grondslag": "WER art. III.84"
+    },
+    {
+      "advies": "Het diversen-dagboek is voor wat niet in aankoop/verkoop/financieel past — niet voor 'wat ik niet weet hoe te boeken'.",
+      "vaak_fout": "Onzekere verrichtingen (waarvan men niet weet hoe ze te kwalificeren) lukraak in diversen droppen — dat verbergt boekhoudkundige onduidelijkheid in plaats van ze op te lossen.",
+      "grondslag": "CBN-advies 174/1"
+    }
+  ]
 }

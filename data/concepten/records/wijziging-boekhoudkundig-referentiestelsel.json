@@ -144,7 +144,7 @@
       "titel": "Uitzondering — twee cumulatieve voorwaarden",
       "wat": "Een afwijking van het continuïteitsbeginsel is verantwoord als **beide** voorwaarden vervuld zijn: (1) de afwijkende waarderingsregels betreffen verrichtingen die volgens BE GAAP de balans **meerdere boekjaren** kunnen beïnvloeden en dus volgens BE GAAP moeten worden uitgedrukt, ook al gerealiseerd vóór de stelselwissel; én (2) toepassing van het continuïteitsbeginsel zou leiden tot een openingsbalans-waardering die **in strijd is met BE GAAP**. Bovendien mag in elk geval een uitzondering gerechtvaardigd worden wanneer er **géén materiële gevolgen** zijn voor het getrouw beeld van de jaarrekening.",
       "waarom": "Het advies beschermt zowel de continuïteit (regel) als de getrouwheid van de jaarrekening (uitzondering). Cumulatieve voorwaarden voorkomen lichtvaardig afwijken.",
-      "grondslag": "CBN 2022/08 — Standpunt §Uitzondering op het boekhoudkundig continuïteitsbeginsel; KB WVV art. 3:58 §5",
+      "grondslag": "CBN 2022/08 — Standpunt §Uitzondering op het boekhoudkundig continuïteitsbeginsel; KB WVV art. 3:1 (getrouw beeld) — uitzonderingsclausule voor afwijkende waardering. Eerdere verwijzing naar art. 3:58 §5 was minder accuraat: 3:58 §5 betreft de openbaarmaking-uitzondering op groottecriteria, niet de waarderingsafwijking.",
       "confidence": "grounded",
       "source": {
         "type": "advies",
@@ -155,6 +155,10 @@
           {
             "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
             "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
             "version": "rag-v1"
           }
         ]
@@ -453,6 +457,11 @@
       "target": "cbn-adviezen",
       "redenering": "Bron-record dat dit advies registreert in de catalogus van CBN-adviezen.",
       "confidence": "grounded"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "stelselwissel-jaarrekening",
+      "regime": "IFRS→BE-GAAP"
     }
   ],
   "_migration_history": [

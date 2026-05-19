@@ -175,8 +175,8 @@ De volledige inventaris en de jaarrekening worden overgeschreven in een inventar
 
 ## Zie ook
 
-- **Getriggerd door**: [[jaarafsluiting]]
-- **Vereist kennis van**: [[waarderingsregels]]
+- **Getriggerd door**: [[eindejaarsverrichtingen]]
+- **Vereist kennis van**: [[waarderingsregels-jaarrekening]]
 
 ## Bronnen
 

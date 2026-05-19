@@ -208,6 +208,12 @@
       "target": "jaarrekening-componenten-ifrs",
       "redenering": "Toelichting is component 5 van een IFRS-jaarrekening.",
       "confidence": "grounded"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "toelichting-jaarrekening",
+      "regime": "IFRS",
+      "aspect": "regime-paralleel BE-GAAP ↔ IFRS"
     }
   ],
   "voorbeelden": [

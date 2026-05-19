@@ -22,7 +22,8 @@
       "1.3.taak.1"
     ],
     "reviewed_by": null,
-    "bron_gap": "Generieke ratio-categorie zonder eigen Belgische bron — academic consensus."
+    "bron_gap": "Generieke ratio-categorie zonder eigen Belgische bron — academic consensus.",
+    "last_touch": "concept-extractie-v4-2026-05-19T-overnight-gap-fix"
   },
   "definitie": {
     "text": "Een liquiditeitsratio is een verhoudingsgetal dat de capaciteit van de vennootschap meet om haar schulden op korte termijn (≤ 1 jaar) te betalen met haar vlottende activa of een deel ervan. Het is een categorie van ratio's, geen één enkel cijfer.",
@@ -104,6 +105,20 @@
           }
         ]
       }
+    },
+    {
+      "vergelijking_met": "cash-ratio",
+      "verschil": "Liquiditeitsratio is de overkoepelende categorie waar cash ratio onder valt als strengste hoofdvariant. Cash ratio neemt alleen de onmiddellijk beschikbare middelen (geldbeleggingen + liquide middelen); de bredere current en quick ratios nemen ook voorraden of vorderingen mee.",
+      "trigger": "Examenvraag 'strengste liquiditeitstoets?' of 'welke ratio sluit voorraden én vorderingen uit?': altijd cash ratio.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
@@ -136,6 +151,12 @@
       "type": "onderdeel-van",
       "target": "doelstellingen-financiele-analyse",
       "redenering": "Liquiditeit is één van de vier analyse-doelstellingen.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "cash-ratio",
+      "redenering": "Cash ratio is de derde hoofdvariant binnen de liquiditeitsratio-categorie, naast current en quick.",
       "confidence": "inferred"
     }
   ],

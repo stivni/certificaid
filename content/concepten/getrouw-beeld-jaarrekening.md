@@ -35,7 +35,7 @@ Externe gebruikers (aandeelhouders, kredietverleners, fiscus, werknemers) moeten
 > [!summary] Korte inhoud
 > De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap.
 
-> [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
+> [!info] Behoort tot: [[doelstellingen-financiele-analyse]] · Specialisatie van: [[getrouw-beeld]]
 
 De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Volstaat de toepassing van de regels in titel 2 en 3 van het uitvoeringsbesluit niet om dat beeld te geven, dan moeten in de toelichting bijkomende inlichtingen worden verstrekt.
 
@@ -117,7 +117,7 @@ _Grondslag: CBN-2018/15 §6_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[materieel-belang-financiele-analyse]]
+- **Vereist kennis van**: [[materieel-belang-jaarrekening]]
 - **Getriggerd door**: [[voorzichtigheidsbeginsel]]
 
 ## Bronnen

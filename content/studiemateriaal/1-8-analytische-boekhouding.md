@@ -9,6 +9,8 @@ gerelateerde_concepten:
 - algemene-boekhouding
 - analytische-boekhouding
 - arbeidskosten
+- bepalen-vervaardigingsprijs
+- berekenen-interpreteren-budgetverschillen
 - break-even-analyse
 - budget-cyclus
 - budgetbeheer
@@ -31,6 +33,8 @@ gerelateerde_concepten:
 - master-budget
 - materiaalkosten
 - opportuniteitskost
+- opstellen-master-budget
+- opzetten-analytisch-rekeningenstelsel
 - overige-kosten
 - prijsverschil-arbeid
 - registratiesysteem-eenvoudige-integratie
@@ -39,7 +43,12 @@ gerelateerde_concepten:
 - rekeningenstelsel-analytisch
 - statisch-budget
 - sunk-cost
+- toepassen-abc-methode-op-productlijn
+- toepassen-direct-costing-en-contributiemarge
+- toepassen-volledige-kostencalculatie
 - typologie-van-kosten
+- uitvoeren-break-even-analyse
+- uitvoeren-make-or-buy-beslissing
 - variabele-kosten
 - vaste-kosten
 - verdeelsleutel
@@ -49,60 +58,74 @@ gerelateerde_concepten:
 - voorbepaalde-kosten
 - voorraadwaardering
 - werkelijke-kostencalculatie
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
-> [!warning]- Open beslissingen
-> De volgende gaps zijn nog open voor dit programmaonderdeel — inhoud kan onvolledig zijn:
-> - `berekeningsmethode.formule` op `prijsverschil-arbeid`: Record beschrijft tariefverschil + efficiëntieverschil in vrije tekst (definitie) maar mist structur…
-> - `berekeningsmethode.concreet_voorbeeld` op `prijsverschil-arbeid`: Geen numeriek voorbeeld bij splitsing tariefverschil / efficiëntieverschil — verschillenboekhouding-…
-> - `stappen.onvolledig` op `werkelijke-kostencalculatie`: Node_type 'methode' maar geen stappen, geen berekeningsmethode, geen in_praktijk. Alleen één bouwste…
-> - `stappen.onvolledig` op `registratiesysteem-waarderingsneutraal`: Methode-record maar zonder stappen of berekeningsmethode. De CBN-3/3-waarderingsneutraliteit wordt i…
-> - `stappen.onvolledig` op `registratiesysteem-eenvoudige-integratie`: Methode-record met enkel bouwstenen; geen stap-procedure die toont hoe klasse-9-rekeningen ingericht…
-> - `stappen.onvolledig` op `registratiesysteem-proportionele-integratie`: Methode-record zonder stappen of berekening; alleen bouwstenen. Voor het analytische scenario waarbi…
-> - `berekeningsmethode.formule` op `kostprijs-per-eenheid`: Centraal-genoeg begrip waarvan drie gebruiksvormen (vervaardiging / volledig / variabel) elk een eig…
-> - `in_praktijk.ontbreekt` op `statisch-budget`: Begrip-record dunne uitwerking: alleen definitie + één vergelijkingspaar. Voor uniforme rijkheid met…
-> - `berekeningsmethode.concreet_voorbeeld` op `flexibel-budget`: Definitie + één vergelijkingspaar maar geen numeriek voorbeeld van het aanpassen van budgetbedragen …
-> - `in_praktijk.ontbreekt` op `opportuniteitskost`: Beslissings-economisch begrip met centraal belang voor make-or-buy en marginale-analyse. Record heef…
-> - `vergelijkingsparen.ontbreekt` op `kostendrager`: Kostendrager wordt in praktijk verward met kostencentrum (waarheen verdelen vs. waarop verzamelen). …
-> - `definitie.onvolledig` op `budgetboekhouding`: Definitie blijft kort en geeft niet duidelijk aan hoe budget-rekeningen (klasse 9 budgettair) zich v…
-> - `records.overlappend-fenomeen` op `verschillenboekhouding`: Verschillenboekhouding én prijsverschil-arbeid beschrijven beide de splitsing tariefverschil/efficië…
-> - `stappen.onvolledig` op `kostenanalyse-make-or-buy`: Afwegingskader-record met alleen bouwstenen + in_praktijk; geen procedurele stappen die de stagiair …
+## Wat verwacht het examen van jou?
+
+> [!abstract] Dit programmaonderdeel wordt getoetst op niveau *integratie*.
+> Je moet meerdere concepten samen kunnen inzetten in complexe casussen — onderdelen herkennen, prioriteren, en tot een coherent oordeel komen.
+
+
+**Taken** (uit het ITAA-examenprogramma):
+
+> [!abstract]- **Taak 1** — Analyseren van de financiële situatie van een onderneming
+>
+> **Doelstellingen**:
+> - De informatie over de verschillende arbeidskosten en de verschillende beloningssystemen, met inbegrip van de waarneming en de vaststelling van de arbeidstijd, grondig te verwerken
+> - Kostenberekeningen uit te voeren voor alle soorten ondernemingen, inclusief dienstverlenende bedrijven
+> - Een gedetailleerde analyse uit te voeren van de gemiddelde kosten en de marginale kosten
+> - Informatie met betrekking tot kostprijsberekening te organiseren en boekhoudkundig te verwerken, waarbij hij gebruik kan maken van gelijk welke gangbare IT-tool
+> - Het boekhoudplan en de boekingen te gebruiken die specifiek zijn voor managementboekhouding
+> - Uiteindelijk de verschillen te berekenen en te analyseren
+> - Het budget te herzien
+> - Op basis van de opgestelde analyses de rendabele of onrendabele bedrijfstakken of sectoren, de ontwikkelingsmogelijkheden en de buitensporige kosten te identificeren en voorstellen te doen om deze te verminderen
+> - Een of meer managementsbeslissingen aan te bevelen
+> - De onderneming te adviseren naargelang van de aangenomen strategieën
+> - Alle budgetten op te stellen, met inbegrip van de investerings- en de managementbegroting
+
+
 
 ## Leesgids
 
-De minicursus loopt in drie bogen: eerst de architectuur van een tweede boekhouding, dan de calculatiemethoden (van wettelijke vervaardigingsprijs tot ABC), en tot slot het budgetluik. Thematische blokken bundelen begrippen, competentie-secties verwijzen naar een aparte fiche met de volledige procedure. De synthese-fiches dienen als kapstok — lees ze nadat je de losse concepten ziet, niet ervoor. Eindig met de cheatsheet voor de verwarrende paren die op het examen terugkeren.
+Deze minicursus bouwt op van bouwstenen naar beslissingen: eerst de architectuur van een [[analytische-boekhouding]], dan kostencomponenten en de wettelijke [[vervaardigingsprijs]], vervolgens kostencalculatiemethoden. Tussen de thematische blokken staan competentie-secties om de stof procedureel te oefenen. Het sluitstuk is de [[budget-cyclus|budgetcyclus]] met [[verschillenboekhouding]] — dezelfde concepten, nu vooruitkijkend. Volg de volgorde lineair.
 
 ## Waarom dit programmaonderdeel telt
 
-Waar PO 1.1 de externe boekhouding behandelt — verplicht, gestandaardiseerd en gericht op derden — gaat PO 1.8 over de interne boekhouding die de onderneming voor zichzelf voert. Het beginsel is eenvoudig: een jaarrekening vertelt of de onderneming als geheel winst maakt, maar niet welk product, welke afdeling of welke klant die winst veroorzaakt. Zonder dat onderscheid kan je geen prijs zetten, geen productmix bewaken en geen make-or-buy onderbouwen. Het examen toetst of je begrijpt wélke kosten je in welke beslissing meeneemt en welke methodische keuze daarbij hoort. Dat onderscheid speelt door in PO 1.9, waar je dezelfde cijfers ex-post leert lezen vanuit de jaarrekening.
+De [[algemene-boekhouding]] beantwoordt externe vragen per kostensoort; voor interne sturing volstaat dat niet. De [[analytische-boekhouding]] herverdeelt diezelfde kosten over dragers en centra en dient de [[doelstellingen-analytische-boekhouding|vier doelstellingen]]: kostprijs, winstgevendheid, opvolging en beslissings-input. Het examen toetst op integratie: meerdere kostenelementen, een methode-keuze die je moet verantwoorden en een management-advies dat eruit volgt. Wettelijk raakt dit vakgebied vooral de [[vervaardigingsprijs]] voor voorraadwaardering en de vrije inrichting van klasse 9 in het MAR.
 
 ## Waarom een tweede boekhouding? Van financieel verslag naar interne sturing
 
-De algemene boekhouding registreert per kostensoort en is gebonden aan jaarrekeningregels; ze is vormvast en extern georiënteerd. De analytische boekhouding is vrij van vorm en dient interne sturing: dezelfde factuur wordt hier gesplitst naar soort, centrum en drager om te tonen waar de kost ontstaat én waarvoor ze gemaakt is. Elke methode die hierna volgt — full costing, direct costing, ABC, budgetopvolging — beantwoordt één centrale vraag: wat kost iets écht, en waar wordt waarde gecreëerd of verspild?
+De [[algemene-boekhouding]] groepeert kosten per economische aard voor buitenstaanders; voor een bedrijfsleider is dat te grofkorrelig — een totale loonpost verbergt waar het verlies zit. De [[analytische-boekhouding]] herverdeelt diezelfde kosten over [[kostendrager|kostendragers]] en [[kostencentrum|kostencentra]], en sluit aan via een [[registratiesysteem-waarderingsneutraal|waarderingsneutraal registratiesysteem]].
 
-## Het analytisch rekeningenstelsel: bouwstenen en registratie-architectuur
+## Doelstellingen en bouwstenen van het analytisch rekeningenstelsel
 
-Voor je over methodes nadenkt, moet de boekhoudkundige infrastructuur staan. Een kost komt binnen als soort, wordt verzameld op een centrum en uiteindelijk toegerekend aan een drager — met verdeelsleutels als brug. Het registratiesysteem bepaalt hoe de analytische cijfers zich verhouden tot de algemene boekhouding: van strikt neutraal tot volledig pro-rata geïntegreerd.
+De [[doelstellingen-analytische-boekhouding]] sturen de inrichting: een product-georiënteerde onderneming kiest andere dragers dan een dienstverlener. Drie assen vormen het skelet — [[kostensoort|kostensoorten]], [[kostencentrum|kostencentra]] en [[kostendrager|kostendragers]] — verbonden door [[verdeelsleutel|verdeelsleutels]] en geboekt in [[rekeningenstelsel-analytisch|klasse 9 van het MAR]].
 
+- [[doelstellingen-analytische-boekhouding|Doelstellingen van de analytische boekhouding]] · `cluster`
 - [[rekeningenstelsel-analytisch|Rekeningenstelsel voor analytische boekhouding (klasse 9)]] · `begrip`
 - [[kostensoort|Kostensoort]] · `begrip`
 - [[kostencentrum|Kostencentrum]] · `begrip`
 - [[kostendrager|Kostendrager]] · `begrip`
 - [[verdeelsleutel|Verdeelsleutel]] · `begrip`
-- [[registratiesysteem-waarderingsneutraal|Waarderingsneutraal registratiesysteem]] · `methode`
-- [[registratiesysteem-eenvoudige-integratie|Eenvoudige integratie (registratiesysteem)]] · `methode`
-- [[registratiesysteem-proportionele-integratie|Proportionele integratie (registratiesysteem)]] · `methode`
+
+## Registratiesystemen: koppeling tussen algemene en analytische boekhouding
+
+Beide boekhoudingen moeten consistent blijven — anders ontstaan onverklaarbare verschillen met de jaarrekening. Het [[registratiesysteem-waarderingsneutraal|waarderingsneutrale systeem]] bewaakt dat; praktisch kies je tussen [[registratiesysteem-eenvoudige-integratie|eenvoudige]] of [[registratiesysteem-proportionele-integratie|proportionele integratie]]. De [[budgetboekhouding]] sluit aan zodat realisaties direct vergelijkbaar zijn met budget.
+
+- [[registratiesysteem-waarderingsneutraal|Waarderingsneutraal registratiesysteem]] · `cluster`
+- [[registratiesysteem-eenvoudige-integratie|Eenvoudige integratie (registratiesysteem)]] · `cluster`
+- [[registratiesysteem-proportionele-integratie|Proportionele integratie (registratiesysteem)]] · `cluster`
 - [[budgetboekhouding|Budgetboekhouding]] · `begrip`
 
 ## Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers
 
-De bouwstenen vertalen zich nu naar één concrete inrichtingsoefening: welke centra zet je op, welke dragers, en welke verdeelsleutels passen bij het bedrijfsmodel? De fiche werkt de procedure stap voor stap uit.
+Je leert deze stappen samen inzetten: vertrekken vanuit de informatie-behoeften, [[kostendrager|dragers]] en [[kostencentrum|centra]] afbakenen, kostensoorten koppelen en pas dan een [[registratiesysteem-waarderingsneutraal|registratiesysteem]] kiezen. De bedrijfsafhankelijke keuzes blijven, de logica is stabiel.
 
 [[competenties/opzetten-analytisch-rekeningenstelsel|→ Volledige procedure]]
 
 ## Kostencomponenten: typologie naar gedrag, herkomst en toewijsbaarheid
 
-Een kost laat zich op drie assen ordenen: gedrag (vast of variabel met de activiteit), herkomst (materiaal, arbeid, overige) en toewijsbaarheid (direct of indirect aan de drager). Pas wie deze drie assen los uit elkaar houdt, kan straks de juiste methode kiezen — vooral het verschil tussen direct en variabel is een klassieke valkuil.
+Kosten kennen twee onafhankelijke assen: gedrag ([[vaste-kosten|vast]] versus [[variabele-kosten|variabel]]) en toewijsbaarheid ([[directe-kosten|direct]] versus [[indirecte-kosten|indirect]]). De [[typologie-van-kosten]] toont dat die assen niet samenvallen — een veelvoorkomende examenvalkuil. Inhoudelijk splits je verder in [[materiaalkosten]], [[arbeidskosten]] en [[overige-kosten]].
 
 - [[typologie-van-kosten|Typologie van kosten]] · `synthese`
 - [[directe-kosten|Directe kosten]] · `begrip`
@@ -113,84 +136,116 @@ Een kost laat zich op drie assen ordenen: gedrag (vast of variabel met de activi
 - [[arbeidskosten|Arbeidskosten]] · `begrip`
 - [[overige-kosten|Overige kosten (diensten, diverse goederen, afschrijvingen)]] · `begrip`
 
-## Bepalen van de vervaardigingsprijs volgens KB 21.10.2018 en CBN 132/7
+## Wettelijke vervaardigingsprijs en voorraadwaardering (KB 21.10.2018 + CBN 132/7)
 
-Voor de voorraadwaardering in de jaarrekening schrijft de wetgever voor welke kosten verplicht of optioneel in de vervaardigingsprijs zitten. Dit is de enige grounded basis in het hele PO; de management-accounting-methodes hierna nemen er afstand van.
+Hier raakt de analytische boekhouding het externe verslag: de [[vervaardigingsprijs]] is wettelijk gedefinieerd en stuurt de [[voorraadwaardering]] van zelfvervaardigde producten. De [[kostprijs-per-eenheid]] die je berekent moet zowel intern bruikbaar als wettelijk verdedigbaar zijn — een dubbele toets die op het examen geregeld terugkomt.
 
-[[competenties/bepalen-vervaardigingsprijs-kb-21-10-2018|→ Volledige procedure]]
+- [[vervaardigingsprijs|Vervaardigingsprijs]] · `regel`
+- [[voorraadwaardering|Voorraadwaardering (kostprijsmethoden)]] · `regel`
+- [[kostprijs-per-eenheid|Kostprijs per eenheid]] · `begrip`
 
-## Kostencalculatiemethoden vergeleken
+## Bepalen van de vervaardigingsprijs
 
-De wettelijke vervaardigingsprijs vormt één antwoord op de vraag welke kosten je doorduwt tot op de eenheid; in management accounting kies je vrij. De synthese-fiche zet full costing, direct costing, werkelijke en voorbepaalde calculatie en ABC naast elkaar — zodat de vier competenties hierna leesbaar worden als varianten op één keuze.
+De wettelijke samenstelling van de [[vervaardigingsprijs]] is het ankerpunt. Je leert dit toepassen: aanschaffingsprijs van [[materiaalkosten|grondstoffen]], [[directe-kosten|directe productiekosten]] en een evenredig deel [[indirecte-kosten|indirecte productiekosten]] via een causaal verantwoorde [[verdeelsleutel]].
 
-[[costing-methodes-vergelijking|→ Volledige synthese-fiche]]
+[[competenties/bepalen-vervaardigingsprijs|→ Volledige procedure]]
+
+## Kostencalculatiemethoden in vogelvlucht: keuze, doel en draagwijdte
+
+Geen methode dient alle doelen — de [[costing-methodes-vergelijking]] zet de keuzes tegen elkaar. Voor voorraadwaardering is [[volledige-kostencalculatie|full costing]] het wettelijke spoor, voor korte-termijn-beslissingen vaak [[direct-costing]]. Die keuze kruist met de tijds-as: [[werkelijke-kostencalculatie|werkelijk]] of [[voorbepaalde-kosten|standaard]]. Bij overhead-zware structuren biedt de [[abc-methode]] een fijnmaziger alternatief.
+
+- [[costing-methodes-vergelijking|Kostencalculatiemethoden vergeleken]] · `synthese`
+- [[volledige-kostencalculatie|Volledige kostencalculatie (full costing)]] · `cluster`
+- [[direct-costing|Direct costing (gedeeltelijke kostencalculatie)]] · `cluster`
+- [[werkelijke-kostencalculatie|Werkelijke kostencalculatie (vastgestelde kosten)]] · `cluster`
+- [[voorbepaalde-kosten|Voorbepaalde kosten (standaardkostencalculatie)]] · `cluster`
+- [[abc-methode|ABC-methode (Activity Based Costing)]] · `cluster`
 
 ## Toepassen van de volledige kostencalculatie (full costing) op een productie-eenheid
 
-Full costing rekent álle productiekosten — vast en variabel, direct en indirect — door tot op de eenheid. Het is de methode die het dichtst aanleunt bij de wettelijke voorraadwaardering en daarom standaard wordt verwacht bij balansvraagstukken.
+Stap voor stap doorloop je: [[directe-kosten|directe versus indirecte]] kosten splitsen, indirecte via [[kostencentrum|kostencentra]] herverdelen met causale [[verdeelsleutel|verdeelsleutels]], en de [[kostprijs-per-eenheid]] consolideren. Voor voorraadwaardering sluit het resultaat aan op de wettelijke [[vervaardigingsprijs]].
 
 [[competenties/toepassen-volledige-kostencalculatie|→ Volledige procedure]]
 
 ## Toepassen van direct costing en contributiemarge-analyse
 
-Direct costing duwt alleen de variabele kosten door tot op de eenheid en houdt vaste kosten als periodelast apart. Die scheiding maakt de contributiemarge zichtbaar — de bijdrage per eenheid aan vaste kosten en winst — en is daardoor het natuurlijke vertrekpunt voor korte-termijnbeslissingen.
+Voor korte-termijn-beslissingen — extra-order, productmix, prijszetting onder druk — verschuift het zwaartepunt naar [[direct-costing]] en [[contributiemarge|contributiemarge-analyse]]. Je splitst eerst kosten in [[variabele-kosten|variabel]] en [[vaste-kosten|vast]], berekent dan per eenheid en in totaal de contributiemarge, en kiest in een complexe casus tussen marginale en volledige kost als beslissingsbasis.
 
 [[competenties/toepassen-direct-costing-en-contributiemarge|→ Volledige procedure]]
 
+## Contributiemarge en break-even: de hefboom tussen vaste en variabele kosten
+
+De [[contributiemarge]] is wat van de verkoopprijs overblijft na aftrek van de variabele kost — dat saldo dekt eerst de vaste kosten en daarna winst. De [[break-even-analyse]] bouwt daarop verder: hoeveel eenheden of welke omzet zijn nodig om uit het rood te komen. Eenmaal je die hefboom bezit, integreer je vragen over prijs, kostenstructuur en veiligheidsmarge tot één oordeel.
+
+- [[contributiemarge|Contributiemarge]] · `begrip`
+- [[break-even-analyse|Break-even-analyse]] · `cluster`
+
 ## Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge
 
-Wie de variabele en vaste kosten gescheiden ziet, kan uitrekenen vanaf welke activiteit de onderneming uit de rode cijfers komt en hoeveel marge ze heeft tot ze er weer in valt. Break-even is direct costing in actie: een eerste antwoord op de vraag of een productlijn levensvatbaar is.
+Stap voor stap inventariseer je [[vaste-kosten]] en [[variabele-kosten]], bereken je de [[contributiemarge]] per eenheid en zet je die om in een break-even-volume of -omzet. Het besluit gaat verder dan het cijfer: weeg ook de gevoeligheid voor prijs- en kostenwijzigingen.
 
 [[competenties/uitvoeren-break-even-analyse|→ Volledige procedure]]
 
 ## Toepassen van de ABC-methode (Activity Based Costing) op een productlijn
 
-Wanneer indirecte kosten een groot deel van de totale kost vormen en klassieke sleutels (zoals arbeidsuren) het werkelijke kostengedrag slecht weergeven, verfijnt ABC de toewijzing via activiteiten en cost drivers. Het is geen vervanging van full costing maar een correctie ervan voor complexe productmixen.
+Wanneer overhead het kostengedrag domineert en de klassieke uur-sleutel het slecht ondervangt, verschuif je naar de [[abc-methode]]. Je identificeert activiteiten, koppelt kost-drivers en sluist kosten via activiteiten naar [[kostendrager|kostendragers]]. ABC toont vaak hoe complexe orders winstgevendheid uithollen die onder volume-gemiddelden verborgen blijft.
 
 [[competenties/toepassen-abc-methode-op-productlijn|→ Volledige procedure]]
 
 ## Beslissingsrelevante kosten: marginaal, opportuniteit en sunk
 
-Niet elke geboekte kost telt mee in een beslissing. Marginale kost zegt wat een extra eenheid bijkomend kost, opportuniteitskost wat je opgeeft door voor optie A te kiezen in plaats van B, en sunk cost is wat al uitgegeven is en dus géén rol meer mag spelen. Wie deze drie verwart met de gemiddelde kostprijs, neemt al snel verkeerde beslissingen.
+Niet elke kost telt voor een toekomstige beslissing, en niet elke relevante kost staat in de boekhouding. De [[marginale-kostprijs]] geeft de incrementele kost, de [[opportuniteitskost]] het opgegeven alternatief, en de [[sunk-cost]] streep je expliciet weg. Tegenover die lens staat de [[gemiddelde-kostprijs]] voor lange-termijn-richtprijzen — gebundeld in elke [[kostenanalyse-make-or-buy|make-or-buy-afweging]].
 
 - [[marginale-kostprijs|Marginale kostprijs]] · `begrip`
 - [[opportuniteitskost|Opportuniteitskost]] · `begrip`
 - [[sunk-cost|Sunk cost (reeds gemaakte kost)]] · `begrip`
 - [[gemiddelde-kostprijs|Gemiddelde kostprijs]] · `begrip`
-- [[kostprijs-per-eenheid|Kostprijs per eenheid]] · `begrip`
+- [[kostenanalyse-make-or-buy|Make-or-buy-analyse]] · `cluster`
 
 ## Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse
 
-Make-or-buy is de schoolse toepassing van beslissingsrelevante kosten: je vergelijkt enkel de kosten die werkelijk veranderen door de keuze, en je rekent vrijgekomen capaciteit als opportuniteitskost mee. De fiche toont hoe je de relevante posten isoleert.
+Een [[kostenanalyse-make-or-buy|make-or-buy-vraag]] integreert vorige concepten: vermijdbare kosten tegenover aankoopprijs, [[opportuniteitskost|opportuniteitskosten]] meewegen, [[sunk-cost|sunk costs]] negeren. In een complexe casus weeg je daarna kwalitatieve factoren — leveringszekerheid, kennis-behoud — mee in het advies.
 
 [[competenties/uitvoeren-make-or-buy-beslissing|→ Volledige procedure]]
 
-## Budgetcyclus
+## Budgetcyclus: van plan naar opvolging en bijsturing
 
-Tot hier ging het over kosten meten en beslissen op één moment. De budgetcyclus voegt de tijdsdimensie toe: vooruit plannen, opvolgen en bijsturen. De synthese-fiche laat zien hoe master-budget en verschillenboekhouding twee fasen van dezelfde lus zijn.
+Tot hier keek je achteruit; vanaf hier kijkt de boekhouding vooruit. De [[budget-cyclus]] structureert die blik, [[budgetbeheer]] is het proces, [[budgetprocedure]] beschrijft de fasering, en het [[master-budget]] consolideert deelbudgetten tot pro-forma-overzichten. Onderscheid scherp tussen [[statisch-budget|statisch]] (ongewijzigd) en [[flexibel-budget|flexibel]] (herrekend naar werkelijk volume) — alleen het laatste laat een eerlijke afwijkings-analyse toe.
 
-[[budget-cyclus|→ Volledige synthese-fiche]]
+- [[budget-cyclus|Budgetcyclus]] · `synthese`
+- [[budgetbeheer|Budgetbeheer]] · `cluster`
+- [[budgetprocedure|Budgetprocedure]] · `cluster`
+- [[master-budget|Master-budget (geconsolideerd budget)]] · `begrip`
+- [[statisch-budget|Statisch budget]] · `begrip`
+- [[flexibel-budget|Flexibel budget]] · `begrip`
 
 ## Opstellen van een master-budget (operationeel + financieel)
 
-Het master-budget bundelt verkoop-, productie-, kost- en investeringsbudgetten tot één samenhangend operationeel én financieel plan. De volgorde van opbouw is geen vrije keuze — de fiche toont waarom het verkoopbudget altijd vooraan staat.
+Het [[master-budget]] bouw je op uit een vaste sequentie: verkopen sturen productie, productie stuurt aankoop en kosten, en die leiden tot pro-forma resultatenrekening, balans en kasstroom. Je leert deze stappen inzetten binnen de [[budgetprocedure]] — in een complexe casus trek je de verbanden tussen deelbudgetten consistent door.
 
 [[competenties/opstellen-master-budget|→ Volledige procedure]]
 
+## Verschillenboekhouding: standaard versus realisatie
+
+De [[verschillenboekhouding]] confronteert [[voorbepaalde-kosten|standaardkosten]] met [[werkelijke-kostencalculatie|werkelijke kosten]] en splitst het totaalverschil in oorzaken met elk een eigen verantwoordelijke. Voor arbeid scheidt het [[prijsverschil-arbeid|tariefverschil en efficiëntieverschil]] een loon-oorzaak van een productiviteits-oorzaak — dezelfde structuur werkt voor materiaal en overhead.
+
+- [[verschillenboekhouding|Verschillenboekhouding]] · `cluster`
+- [[prijsverschil-arbeid|Tariefverschil en efficiëntieverschil bij arbeid]] · `begrip`
+
 ## Berekenen en interpreteren van budgetverschillen (verschillenboekhouding)
 
-Realisaties wijken altijd af van budget. De kunst is niet het verschil meten maar het splitsen — volume tegen efficiëntie, prijs tegen verbruik — zodat je weet wáár bij te sturen. Het flexibel budget is daarbij het noodzakelijke ijkpunt om volume-effect van inefficiëntie te scheiden.
+Stap voor stap bereid je de vergelijkingsbasis voor met een [[flexibel-budget]], splits je in prijs- en hoeveelheidscomponenten en bouw je het oordeel op uit de oorzaken. Wanneer twijfel ontstaat tussen volume-effect en inefficiëntie, geeft het flexibel budget de scheidslijn.
 
 [[competenties/berekenen-interpreteren-budgetverschillen|→ Volledige procedure]]
 
 ## Grenzen van kostencalculatie en brug naar de financiële analyse
 
-Elke verdeelsleutel is een keuze, geen waarheid; full costing kan beslissingen vertekenen door vaste kosten door te duwen tot op de eenheid, en ABC-verfijning kost zelf ook tijd en geld. Een verschillenanalyse signaleert maar verklaart niet — marktomstandigheden en niet-financiële indicatoren blijven nodig om de cijfers te lezen. Waar dit programmaonderdeel intern, vooruit en sturing-gericht kijkt, vertrekt PO 1.9 van de externe jaarrekening om ex-post conclusies te trekken. Als accountant heb je beide blikken nodig om écht te kunnen adviseren.
+Elke kostprijs draagt aannames: verdeelsleutel, capaciteitsniveau, afbakening direct/indirect. Verschillende methoden geven verschillende cijfers voor dezelfde realiteit — elk dient een eigen doel zoals de [[costing-methodes-vergelijking]] toont. De brug naar de financiële analyse loopt langs de [[vervaardigingsprijs]] (balans) en het [[master-budget]] (vooruitzicht).
 
 
 ## Synthese-stappenplan
 
-Een end-to-end-oefening op PO 1.8 verloopt typisch zo. Eerst lees je het bedrijfsmodel: productmix en aandeel indirecte kosten bepalen of full costing volstaat of ABC nodig is. Vervolgens richt je de architectuur in: kostensoorten, centra, dragers en verdeelsleutels, met een passend registratiesysteem. Daarna kies je de methode in functie van het doel: voorraadwaardering vraagt full costing, beslissingsvraagstukken vragen direct costing of marginale kost. Voor korte-termijnkeuzes isoleer je de relevante kosten en negeer je sunk cost; vrijgekomen capaciteit telt als opportuniteitskost mee. Voor planning bouw je het master-budget op vanaf verkoop; realisaties vergelijk je tegen een flexibel budget om volume- van efficiëntie-effecten te scheiden. Sluit altijd af met de vraag of de gekozen sleutel of methode de beslissing niet zelf vertekent.
+Bij een geïntegreerde casus volg je deze gedachtelijn. Stel eerst vast welk doel de kostprijs dient — dat bepaalt of [[volledige-kostencalculatie|full costing]], [[direct-costing]] of een ander spoor de juiste lens is. Ontleed dan de kostenstructuur volgens [[typologie-van-kosten|de typologie]] en wijs toe: direct naar [[kostendrager|dragers]], indirect via [[kostencentrum|centra]] en [[verdeelsleutel|verdeelsleutels]]; bij overhead-zware structuren overweeg je de [[abc-methode]]. Voor balans-objecten toets je tegen de wettelijke [[vervaardigingsprijs]]; voor toekomstige beslissingen verschuif je naar [[marginale-kostprijs|marginale]] en [[opportuniteitskost|opportuniteitskosten]] en negeer je [[sunk-cost|sunk costs]]. Voor planning leg je een [[master-budget]] en haal je via [[flexibel-budget]] en [[verschillenboekhouding]] de oorzaken van afwijkingen boven. Sluit altijd af met een leesbaar oordeel — welk advies volgt uit de cijfers, en met welk voorbehoud.
 
 ## Cheatsheet
 
@@ -222,17 +277,24 @@ Een end-to-end-oefening op PO 1.8 verloopt typisch zo. Eerst lees je het bedrijf
 | [[werkelijke-kostencalculatie]] | [[voorbepaalde-kosten]] | Examen: welke kost gebruik je voor balans-voorraadwaarde? |
 
 
+## Heb je deze taken in de vingers?
+
+Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taak? Lees de aangegeven secties nog eens.
+
+- ✓ **1.8.taak.1** — Analyseren van de financiële situatie van een onderneming _Behandeld in §5, §6, §7, §8, §9, §10, §11, §12, §13, §14, §15, §16, §17, §18, §19, §20, §21, §22._
+
 ## Examenfocus
 
-Drie denkpatronen keren terug. Eén: doel-bepaalt-methode — voor voorraadwaardering kies je full costing, voor beslissingen direct costing of marginale kost. Twee: gedrag versus toewijsbaarheid — direct en variabel zijn géén synoniemen; toets elke kost los aan beide assen. Drie: relevantie-filter — alleen kosten die door de beslissing veranderen tellen mee, en opgegeven alternatieven horen als opportuniteitskost in de afweging. Wie deze drie reflexen automatiseert, lost het gros van de PO 1.8-vragen op zonder formules uit het hoofd te kennen.
+Examenvragen op dit programmaonderdeel toetsen niet één formule maar een redeneerlijn: welke methode past bij welk doel, welke kost is wel of niet relevant, en hoe leid je daar een management-advies uit af. Let vooral op de scheidslijnen die de cheatsheet aanstipt — direct versus variabel, full costing versus direct costing, statisch versus flexibel budget. Wie die onderscheiden mechanisch herkent, lost ook samengestelde casussen op.
 
-<!-- TODO: examenvragen via classify_vragen_naar_programmaonderdelen.py -->
+<!-- TODO: geen examenfocus--*.json voor dit PO; genereer via tools/examen/genereer_examenfocus_uit_classificatie.py of laat een agent examenfocus-objecten curateren -->
+
 
 ## Competentie-index
 
 <div class="two-column-list">
 
-- [[competenties/bepalen-vervaardigingsprijs-kb-21-10-2018|Bepalen van de vervaardigingsprijs volgens KB 21.10.2018 en CBN 132/7]]
+- [[competenties/bepalen-vervaardigingsprijs|Bepalen van de vervaardigingsprijs]]
 - [[competenties/berekenen-interpreteren-budgetverschillen|Berekenen en interpreteren van budgetverschillen (verschillenboekhouding)]]
 - [[competenties/opstellen-master-budget|Opstellen van een master-budget (operationeel + financieel)]]
 - [[competenties/opzetten-analytisch-rekeningenstelsel|Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers]]
@@ -248,20 +310,22 @@ Drie denkpatronen keren terug. Eén: doel-bepaalt-methode — voor voorraadwaard
 
 <div class="two-column-list">
 
-- [[abc-methode|ABC-methode (Activity Based Costing)]] · `methode`
+- [[abc-methode|ABC-methode (Activity Based Costing)]] · `cluster`
 - [[algemene-boekhouding|Algemene boekhouding]] · `begrip`
 - [[analytische-boekhouding|Analytische boekhouding]] · `begrip`
 - [[arbeidskosten|Arbeidskosten]] · `begrip`
-- [[break-even-analyse|Break-even-analyse]] · `methode`
-- [[budgetbeheer|Budgetbeheer]] · `fenomeen`
+- [[bepalen-vervaardigingsprijs|Bepalen van de vervaardigingsprijs]] · `competentie`
+- [[berekenen-interpreteren-budgetverschillen|Berekenen en interpreteren van budgetverschillen (verschillenboekhouding)]] · `competentie`
+- [[break-even-analyse|Break-even-analyse]] · `cluster`
+- [[budgetbeheer|Budgetbeheer]] · `cluster`
 - [[budgetboekhouding|Budgetboekhouding]] · `begrip`
 - [[budget-cyclus|Budgetcyclus]] · `synthese`
-- [[budgetprocedure|Budgetprocedure]] · `procedure`
+- [[budgetprocedure|Budgetprocedure]] · `cluster`
 - [[contributiemarge|Contributiemarge]] · `begrip`
-- [[direct-costing|Direct costing (gedeeltelijke kostencalculatie)]] · `methode`
+- [[direct-costing|Direct costing (gedeeltelijke kostencalculatie)]] · `cluster`
 - [[directe-kosten|Directe kosten]] · `begrip`
-- [[doelstellingen-analytische-boekhouding|Doelstellingen van de analytische boekhouding]] · `fenomeen`
-- [[registratiesysteem-eenvoudige-integratie|Eenvoudige integratie (registratiesysteem)]] · `methode`
+- [[doelstellingen-analytische-boekhouding|Doelstellingen van de analytische boekhouding]] · `cluster`
+- [[registratiesysteem-eenvoudige-integratie|Eenvoudige integratie (registratiesysteem)]] · `cluster`
 - [[flexibel-budget|Flexibel budget]] · `begrip`
 - [[gemiddelde-kostprijs|Gemiddelde kostprijs]] · `begrip`
 - [[indirecte-kosten|Indirecte kosten]] · `begrip`
@@ -270,27 +334,34 @@ Drie denkpatronen keren terug. Eén: doel-bepaalt-methode — voor voorraadwaard
 - [[kostendrager|Kostendrager]] · `begrip`
 - [[kostensoort|Kostensoort]] · `begrip`
 - [[kostprijs-per-eenheid|Kostprijs per eenheid]] · `begrip`
-- [[kostenanalyse-make-or-buy|Make-or-buy-analyse]] · `afwegingskader`
+- [[kostenanalyse-make-or-buy|Make-or-buy-analyse]] · `cluster`
 - [[marginale-kostprijs|Marginale kostprijs]] · `begrip`
 - [[master-budget|Master-budget (geconsolideerd budget)]] · `begrip`
 - [[materiaalkosten|Materiaalkosten]] · `begrip`
 - [[opportuniteitskost|Opportuniteitskost]] · `begrip`
+- [[opstellen-master-budget|Opstellen van een master-budget (operationeel + financieel)]] · `competentie`
+- [[opzetten-analytisch-rekeningenstelsel|Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers]] · `competentie`
 - [[overige-kosten|Overige kosten (diensten, diverse goederen, afschrijvingen)]] · `begrip`
-- [[registratiesysteem-proportionele-integratie|Proportionele integratie (registratiesysteem)]] · `methode`
+- [[registratiesysteem-proportionele-integratie|Proportionele integratie (registratiesysteem)]] · `cluster`
 - [[rekeningenstelsel-analytisch|Rekeningenstelsel voor analytische boekhouding (klasse 9)]] · `begrip`
 - [[statisch-budget|Statisch budget]] · `begrip`
 - [[sunk-cost|Sunk cost (reeds gemaakte kost)]] · `begrip`
 - [[prijsverschil-arbeid|Tariefverschil en efficiëntieverschil bij arbeid]] · `begrip`
+- [[toepassen-abc-methode-op-productlijn|Toepassen van de ABC-methode (Activity Based Costing) op een productlijn]] · `competentie`
+- [[toepassen-volledige-kostencalculatie|Toepassen van de volledige kostencalculatie (full costing) op een productie-eenheid]] · `competentie`
+- [[toepassen-direct-costing-en-contributiemarge|Toepassen van direct costing en contributiemarge-analyse]] · `competentie`
 - [[typologie-van-kosten|Typologie van kosten]] · `synthese`
+- [[uitvoeren-break-even-analyse|Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge]] · `competentie`
+- [[uitvoeren-make-or-buy-beslissing|Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse]] · `competentie`
 - [[variabele-kosten|Variabele kosten]] · `begrip`
 - [[vaste-kosten|Vaste kosten]] · `begrip`
 - [[verdeelsleutel|Verdeelsleutel]] · `begrip`
-- [[verschillenboekhouding|Verschillenboekhouding]] · `methode`
+- [[verschillenboekhouding|Verschillenboekhouding]] · `cluster`
 - [[vervaardigingsprijs|Vervaardigingsprijs]] · `regel`
-- [[volledige-kostencalculatie|Volledige kostencalculatie (full costing)]] · `methode`
-- [[voorbepaalde-kosten|Voorbepaalde kosten (standaardkostencalculatie)]] · `methode`
+- [[volledige-kostencalculatie|Volledige kostencalculatie (full costing)]] · `cluster`
+- [[voorbepaalde-kosten|Voorbepaalde kosten (standaardkostencalculatie)]] · `cluster`
 - [[voorraadwaardering|Voorraadwaardering (kostprijsmethoden)]] · `regel`
-- [[registratiesysteem-waarderingsneutraal|Waarderingsneutraal registratiesysteem]] · `methode`
-- [[werkelijke-kostencalculatie|Werkelijke kostencalculatie (vastgestelde kosten)]] · `methode`
+- [[registratiesysteem-waarderingsneutraal|Waarderingsneutraal registratiesysteem]] · `cluster`
+- [[werkelijke-kostencalculatie|Werkelijke kostencalculatie (vastgestelde kosten)]] · `cluster`
 
 </div>

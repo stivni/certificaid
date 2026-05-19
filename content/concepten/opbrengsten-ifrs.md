@@ -20,10 +20,6 @@ gegenereerd_op: '2026-05-18'
 
 IFRS 15 — Opbrengsten van contracten met klanten vervangt sinds 1 januari 2018 IAS 18 (Opbrengsten uit gewone activiteiten) en IAS 11 (Onderhanden projecten in opdracht van derden). Het **kernprincipe** (alinea 2): een entiteit neemt opbrengsten op om de overdracht van beloofde goederen of diensten aan klanten weer te geven, voor een bedrag dat de vergoeding weerspiegelt waarop de entiteit recht zal hebben in ruil. De toepassing volgt een **5-stappen-model**: (1) identificeer het contract met de klant; (2) identificeer de prestatieverplichtingen in het contract; (3) bepaal de transactieprijs; (4) wijs de transactieprijs toe aan de prestatieverplichtingen; (5) neem opbrengsten op wanneer (of naarmate) een prestatieverplichting wordt vervuld. Het model is **principe-georiënteerd** en geldt voor alle sectoren, met uitzondering van leasing (IFRS 16), verzekeringen (IFRS 17) en financiële instrumenten (IFRS 9).
 
-> [!info] Specialisatie van: [[opbrengsten]]
-
-> [!info] Bestaat uit (2): [[onderhanden-projecten-ifrs]] · [[prestatieverplichting]]
-
 
 ## Berekening
 
@@ -109,6 +105,14 @@ Een contract is alleen administratief te verwerken onder IFRS 15 als VIJF criter
 6. Check (e): Brugse is een gevestigde klant met goede betaalhistoriek. → OK.
 7. Contract is opneembaar onder IFRS 15.
 
+> [!example]- Voorbeeld: Brugse Brouwerij BV sluit een contract met Aurelia Holding NV voor leveringen van bier gedurende 2 jaar, met een vaste v…
+> Brugse Brouwerij BV sluit een contract met Aurelia Holding NV voor leveringen van bier gedurende 2 jaar, met een vaste vergoeding van € 240.000.
+>
+> 1. **Contractidentificatie** 💬
+>
+>    Bestaat er een contract met afdwingbare rechten? Ja — getekende overeenkomst. Stap 1 voldaan.
+>
+
 **Grondslag**: IFRS 15 alinea 9-13
 
 ### 2. Identificeer de prestatieverplichtingen
@@ -128,6 +132,14 @@ Een **prestatieverplichting** (performance obligation, PO) is een belofte om aan
 1. Bekijk wat Zelena Bio aan Brugse Brouwerij belooft: 500.000 doseflesjes ingrediënt X (productverkoop) — één PO.
 2. Geen aparte installatie of onderhoud beloofd → één onderscheiden PO.
 3. Was het contract complexer (bv. productverkoop + 12 maanden helpdesk + 3 trainingssessies), dan zou de stagiair drie PO's identificeren — mits elk onderscheiden is in de zin van alinea 27.
+
+> [!example]- Voorbeeld: Het contract bevat twee prestatieverplichtingen: levering van bier (200 hl/maand, 24 maanden) en jaarlijkse kwaliteitsco…
+> Het contract bevat twee prestatieverplichtingen: levering van bier (200 hl/maand, 24 maanden) en jaarlijkse kwaliteitscontroles ter plaatse.
+>
+> 1. **Identificatie prestatieverplichtingen** 💬
+>
+>    Twee afzonderlijke leveringen: (a) bier per maand = 24 leveringen + (b) twee kwaliteits-bezoeken. Elk een aparte prestatieverplichting omdat ze afzonderlijk identificeerbaar zijn.
+>
 
 **Grondslag**: IFRS 15 alinea 22-30
 
@@ -169,6 +181,15 @@ Bij meerdere PO's: verdeel de transactieprijs **proportioneel** op basis van de 
 
 1. Zelena-Brugse heeft maar één PO (productverkoop ingrediënt X) → volledige € 394.400 aan die PO toegewezen. Geen splitsing nodig.
 2. Was er ook € 30.000 helpdesk (opzichzelfstaande prijs) en € 10.000 training (opzichzelfstaande prijs), bij gebundelde totaalprijs € 400.000: verdelen op basis van prijsverhouding 400 : 30 : 10 → product € 363.636, helpdesk € 27.273, training € 9.091.
+
+> [!example]- Voorbeeld: Transactieprijs € 240.000 verdeeld over twee prestatieverplichtingen op basis van standalone-verkoopsprijzen: € 220.000…
+> Transactieprijs € 240.000 verdeeld over twee prestatieverplichtingen op basis van standalone-verkoopsprijzen: € 220.000 voor leveringen, € 20.000 voor kwaliteitscontroles.
+>
+> 1. **Allocatie op basis van standalone-prijzen** 🧮
+>
+>    Bier: € 220.000 / 24 maanden = € 9.167 per maandelijkse levering
+>    Kwaliteitscontrole: € 20.000 / 2 bezoeken = € 10.000 per bezoek
+>
 
 **Grondslag**: IFRS 15 alinea 73-80
 

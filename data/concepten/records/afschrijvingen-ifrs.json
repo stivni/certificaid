@@ -459,5 +459,11 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "in_praktijk": [
+    "Onder IAS 16 alinea 60 zijn meerdere afschrijvingsmethoden toegestaan: **lineair**, **degressief** (diminishing balance) en **units-of-production**. De keuze moet het verbruikspatroon van de toekomstige economische voordelen weerspiegelen.",
+    "Afschrijving stopt **niet** zomaar omdat de marktwaarde boven de boekwaarde stijgt (IAS 16 alinea 52). Afschrijving stopt pas als de restwaarde de boekwaarde bereikt — of als het actief geclassificeerd wordt als gehouden-voor-verkoop (IFRS 5).",
+    "Restwaarde en gebruiksduur worden ten minste jaarlijks herzien (IAS 16 alinea 51) — wijzigingen worden prospectief verwerkt (geen retroactieve correctie).",
+    "Voor stagiair: 'is degressieve afschrijving toegestaan?' → ja. 'Stopt afschrijving als marktwaarde > boekwaarde?' → nee. Beide stellingen zijn typische examenvragen."
+  ]
 }

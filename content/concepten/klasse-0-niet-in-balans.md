@@ -26,7 +26,7 @@ Klasse 0 (rekeningen 00 tot 07) is een **dubbele rekeningenklasse buiten balans*
 > [!summary] Korte inhoud
 > Klasse 0 verzamelt de boekhoudrekeningen (rekeningen 00 tot 07) waarop de vennootschap haar niet in de balans opgenomen rechten en verplichtingen registreert.
 
-> [!info] Behoort tot: [[niet-in-balans-opgenomen-rechten-verplichtingen]]
+> [!info] Behoort tot: [[niet-in-balans-opgenomen-rechten-verplichtingen]] · Specialisatie van: [[rechten-verplichtingen-buiten-balans]]
 
 Klasse 0 verzamelt de boekhoudrekeningen (rekeningen 00 tot 07) waarop de vennootschap haar niet in de balans opgenomen rechten en verplichtingen registreert. Deze rekeningen werken paarsgewijs (recht/verplichting met tegenrekening), volgens MAR (Minimum Algemeen Rekeningstelsel).
 

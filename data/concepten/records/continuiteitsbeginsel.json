@@ -20,7 +20,14 @@
       "1.1.II.T"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.V.A', '1.2.V'] door PO 1.2-extractie."
+    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.V.A', '1.2.V'] door PO 1.2-extractie.",
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge-fix: boekhoudkundige-beginselen→boekhoudbeginselen-overzicht; waarderingsregels→waarderingsregels-jaarrekening"
+      ]
+    }
   },
   "main_rule": {
     "text": "De jaarrekening wordt opgemaakt in de **veronderstelling dat de onderneming haar bedrijf zal voortzetten** (going concern). Dat is de standaardpremisse voor alle waarderingen: vaste activa worden afgeschreven over hun gebruiksduur, voorraden tegen aanschaffingswaarde, vorderingen tegen verwachte realisatiewaarde. Als die veronderstelling niet langer geldt (vereffening, stopzetting), gelden **bijzondere waarderingsregels**: vaste activa naar liquidatiewaarde, voorzieningen voor herstructureringskosten, etc.",
@@ -192,7 +199,7 @@
     },
     {
       "type": "vereist-kennis-van",
-      "target": "waarderingsregels",
+      "target": "waarderingsregels-jaarrekening",
       "redenering": "De keuze tussen going concern en liquidatie bepaalt welke waarderingsregels van toepassing zijn."
     },
     {

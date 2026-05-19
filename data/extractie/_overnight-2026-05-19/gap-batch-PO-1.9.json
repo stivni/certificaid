@@ -1,0 +1,93 @@
+{
+  "programmaonderdeel": "1.9",
+  "gegenereerd_op": "2026-05-18T23:17:46.578364+00:00",
+  "totaal": 7,
+  "open": 1,
+  "strategic_pass": 6,
+  "gaps": [
+    {
+      "record_id": "ohlson-o-score",
+      "aspect": "edges.target-ontbreekt",
+      "reden": "Ohlson-record heeft slechts één edge (onderdeel-van kwantitatieve-financiele-diagnose). Tegenhanger `altman-z-score` heeft 3 edges incl. vereist-kennis-van werkkapitaal + solvabiliteitsratio. Ohlson-formule gebruikt nettowinst/totale-passiva, NBK/TA, current-ratio-achtige termen — edges naar `falen-van-de-onderneming`, `solvabiliteitsratio` en `current-ratio` zijn pedagogisch nodig voor uniforme rijkheid.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+      "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "concept-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "kasstroomoverzicht-drie-segmenten",
+      "aspect": "edges.target-ontbreekt",
+      "reden": "Synthese-record heeft `gebaseerd_op_concepten` (4 records) maar leeg `edges[]`-veld. Andere synthese-records (zoals ratio-vier-doelen-vergelijking) hebben wel edges per onderdeel-concept. Aan te bevelen: edges type `bevat` of `samenvatting-van` naar cashflow-analyse, behoefte-aan-bedrijfskapitaal, financiering-met-eigen-vermogen, financiering-met-derdenkapitaal.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+      "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "concept-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "kwantitatieve-financiele-diagnose",
+      "aspect": "edges.target-ontbreekt",
+      "reden": "Synthese-record lijst `gebaseerd_op_concepten` (altman-z-score, ohlson-o-score, falen-van-de-onderneming) maar heeft geen `edges[]`. Voor RAG-graph-retrieval beter expliciete edges type `bevat` (altman, ohlson) en `getriggerd-door` (falen-van-de-onderneming).",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+      "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "concept-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "herstructurering-resultatenrekening",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Methode-record zonder `in_praktijk[]`. Andere methode-records in PO 1.9 (toegevoegde-waarde-financiele-analyse, interpretatie-financiele-ratios) hebben wel een in_praktijk-blok met examen-relevant 'wat moet je hieruit halen?'. Concretisering naar Rotex Roeselare NV met verkort-vs-volledig-schema-tegenstelling zou rijkheid uitbalanceren.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+      "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "concept-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "po-1.9-bron-corpus",
+      "aspect": "bron-corpus-uitbreiding",
+      "reden": "PO 1.9 leunt sterk op vakdoctrine: 9 van 13 nieuwe records dragen `confidence: inferred-common-knowledge` met `bron_gap` naar Belgische vakliteratuur (Ooghe-Van Wymeersch, Vereeck) en internationale werken (Altman 1968, Ohlson 1980). Een Belgisch handboek financiële analyse zou een groot aantal claims tegelijk grounden. Hoog praktijk_pct in 1.9-competenties is rechtstreeks gevolg.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+      "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "bron-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "po-1.9-anchor-1.9.IV.A",
+      "aspect": "open-werk",
+      "reden": "Anchor 1.9.IV.A ('Kasstroom en bedrijfscyclus') wordt overkoepelend gedekt door cashflow-analyse + behoefte-aan-bedrijfskapitaal + kasstroomoverzicht-drie-segmenten samen, maar er is geen synthese-record dat de cash-conversion-cycle visualiseert. Mogelijk follow-up: `kasstroom-bedrijfscyclus-overzicht`. Voor minicursus 1.9 niet blokkerend.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+      "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "proces-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "po-1.9-wave-2-completion",
+      "aspect": "open-werk",
+      "reden": "PO 1.9 wave-2 (schema 1.5→1.6) afgerond: 19 records gepatched (6 pure schema-bumps + 13 met nieuwe situering en naam_alternatief). Alle 44 PO 1.9 records nu op schema 1.6 met situering en (één uitzondering) naam_alternatief. De 7 nieuw geschreven situeringen (behoefte-aan-bedrijfskapitaal, falen-van-de-onderneming, financiele-analyse-software, financiering-met-derdenkapitaal, financiering-met-eigen-vermogen, kasstroomoverzicht-drie-segmenten, kwantitatieve-financiele-diagnose) dragen confidence inferred-common-knowledge of inferred-from-aggregation — bij toevoeging van een Belgisch handboek financiële analyse als trusted bron kunnen deze upgegrade worden naar grounded. Resterende inhoudelijke gaps in PO 1.9: zie aparte entries (Ohlson-edges, syntheses zonder edges, herstructurering-resultatenrekening zonder in_praktijk, kasstroom-bedrijfscyclus-overzicht).",
+      "prio": "info",
+      "geconstateerd_door": "po-1.9-wave-2-vervolg-pass",
+      "geconstateerd_op": "2026-05-19T00:00:00Z",
+      "status": "open",
+      "applied_door": null,
+      "applied_op": null,
+      "aspect_type": "open-werk"
+    }
+  ]
+}

@@ -306,5 +306,10 @@
       "run_id": "concept-extractie-v4-2026-05-18T1.5.IV.C",
       "wat": "Definitie-veld toegevoegd voor cluster-template-conformiteit (§4: cluster heeft definitie of doel + bouwstenen[]). Main_rule blijft als hoofdregel naast definitie (§7 toegestaan voor cluster met centrale normatieve hoofdregel)."
     }
+  ],
+  "in_praktijk": [
+    "IAS 8 onderscheidt **schattingswijziging** (prospectief) van **stelselwijziging of fout** (retrospectief). Beslislogica voor stagiair: 'verandert er een **regel** of een **inschatting**?' Wijziging van regel → retrospectief, herwerking openingsbalans; wijziging van schatting → prospectief, alleen toekomstige periodes.",
+    "Bij een ontdekte fout in een eerder boekjaar: retrospectieve correctie als praktisch haalbaar — herwerk de openingsbalans van het eerste vergelijkbare boekjaar. Disclosure verplicht in toelichting (aard van de fout + bedrag).",
+    "Voorbeeld onderscheid: afschrijvingsduur van 10 naar 8 jaar wegens nieuwe inzichten = schattingswijziging (prospectief). Switch van FIFO naar gewogen gemiddelde = stelselwijziging (retrospectief, behalve impracticable)."
   ]
 }

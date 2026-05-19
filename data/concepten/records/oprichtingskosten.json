@@ -17,7 +17,14 @@
       "1.1.II.B"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: +['1.2.V.B']"
+    "po_1_2_extension": "2026-05-16: +['1.2.V.B']",
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "obligatielening-edge gecontroleerd (target bestaat)"
+      ]
+    }
   },
   "definitie": {
     "text": "Kosten verbonden met de **oprichting, verdere ontwikkeling of herstructurering** van een vennootschap, in het bijzonder: (a) kosten van oprichting of kapitaalverhoging (notariskosten, registratierechten, advies), (b) kosten bij uitgifte van leningen (bankkosten, noteringskosten, publicatiekosten bij obligatieleningen), (c) herstructureringskosten met duurzame impact op rentabiliteit. De onderneming kan **kiezen** ze als kost te boeken in het jaar zelf, OF ze te activeren onder rubriek 20 'Oprichtingskosten' aan de actiefzijde van de balans en af te schrijven over **minstens 5 jaar** (jaarlijkse tranche ≥ 20 %; KB WVV art. 3:36 + 3:37).",

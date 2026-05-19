@@ -1,0 +1,505 @@
+{
+  "programmaonderdeel": "1.7",
+  "gegenereerd_op": "2026-05-18T23:17:46.577806+00:00",
+  "totaal": 52,
+  "open": 38,
+  "strategic_pass": 14,
+  "gaps": [
+    {
+      "record_id": "aankoopcyclus-ic",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Record bevat enkel `verplichting` (189 chars over btw + KB 21.10.2018). Geen `bouwstenen`, geen `voorbeeld_inline`, geen `in_praktijk`. Te dun voor minicursus-stap \"aankoopcyclus-controle inrichten\" zoals 1.7.IX.A vraagt.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "verkoopcyclus-ic",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Record bevat enkel `verplichting` (77 chars). Geen IC-specifieke bouwstenen (controlepoorten, credit-check, factuurmatch). Anchor 1.7.IX.C niet didactisch dekkend.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "productiecyclus-ic",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Record bevat enkel `verplichting` (78 chars). Geen bouwstenen voor productiebon-flow, voorraad-WIP-controle, cost-allocation-toets. Anchor 1.7.IX.B niet uitvoerbaar.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "hr-cyclus-ic",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Record bevat enkel `verplichting` (82 chars). Geen bouwstenen voor ghost-employee-risico, loonberekening-controle, AVG-personeelsdata-link. Anchor 1.7.IX.D niet didactisch.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "voorraadcyclus-ic",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Record bevat enkel `verplichting` (69 chars, KB 21.10.2018) + 2 valkuilen. Geen bouwstenen voor inventaris-procedure, voorraadtelling-functiescheiding, cycle-counts. Anchor 1.7.IX.E niet didactisch.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "uitvoering-interne-controle",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Anchor 1.7.VIII.A \"uitvoering van IC\" — record bevat enkel `verplichting` + 2 valkuilen. Geen bouwstenen die de 5 COSO-componenten in uitvoering tonen. Centraal anchor te dun.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "evaluatie-interne-controle",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Anchor 1.7.VIII.F + 1.7.XI \"evaluatie IC\" — record bevat enkel `verplichting` (267 chars) + 1 in_praktijk. Geen bouwstenen voor design vs operating effectiveness, walk-through, sample-tests. Centraal anchor voor evaluatie-competentie te dun.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "controleproces-organisatie",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Record bevat enkel `verplichting` (51 chars: \"managementinstrument\"). Geen bouwstenen voor planning/uitvoering/feedback-fasen, PDCA-link. Anchor 1.7.II.F niet didactisch.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "inbreng-in-natura-verslag",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Record bevat enkel `verplichting` (227 chars). Geen bouwstenen voor inhoud verslag, waarderingsmethoden, vergelijking met quasi-inbreng, niet-rendabele-inbreng. Anchor 1.7.taak.1 + 1.7.XIII te dun voor bijzondere-verslagen-competentie.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "interne-controle",
+      "aspect": "edges.target-ontbreekt",
+      "reden": "edge `vergelijkt-met` wijst naar 'coso-i-erm-framework' — bestaat niet. Bedoeld is waarschijnlijk 'coso-ii-erm-framework' (ERM-uitbreiding).",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "functiescheiding",
+      "aspect": "edges.target-ontbreekt",
+      "reden": "edge wijst naar 'vier-functies-segregatie' — record bestaat niet. De vier functies zijn beschreven als bouwsteen binnen `functiescheiding` zelf; edge is overbodig of moet hertarget worden naar 'taakverdeling-ic'.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "auditrisico-1-7-context",
+      "aspect": "records.overlappend-fenomeen",
+      "reden": "Record beschrijft auditrisico in IC-context (1.7.V.E) maar 1.6 heeft al `auditrisicomodel` (IR x CR x DR). Overlap-risico voor minicursus 1.7: lezer ziet twee records over hetzelfde fenomeen. Beslissen: ofwel mergen ofwel `auditrisico-1-7-context` herpositioneren als pure cross-link.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "externe-controle",
+      "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+      "reden": "Record beschrijft externe controle door commissaris/accountant/fiscale-controleur (1.7.I.B). 1.2-context (fiscale + sociale controle-autoriteiten) wordt vermeld in vrije tekst maar geen `vergelijkingsparen` of `edges` naar 1.2-records (bv. `fiscale-administratie-bevoegdheid`). Stagiair die 1.7 leert mist linkjes naar 1.2-actoren.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "cyclus-analyse-ic",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "Synthese-record verwijst naar 5 cyclus-records (aankoop/productie/verkoop/hr/voorraad) die allemaal als enige veld een `verplichting` < 200 chars hebben. Uniforme rijkheid (Regel 5 v3) is geschonden: synthese kan niet correct vergelijken zonder onderliggende bouwstenen.",
+      "prio": "hoog",
+      "geconstateerd_door": "verify-run-po17-2026-05-17",
+      "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+      "status": "archived-strategic-pass",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "Top-anchor 1.7.V (AUDIT) cluster heeft geen overkoepelend record dat het verschil interne audit ↔ externe audit ↔ overheids-audit ↔ operational audit synthetiseert. Bestaande records (interne-audit, externe-controle, externe-auditor-relatie-ic) staan elk apart. Suggestie: een synthese-record audit-typologie met vergelijkingstabel; of accepteer dat actoren-interne-controle dit voldoende dekt. Lage prioriteit: het examen toetst typisch IC-context (1.7), niet audit-taxonomie als zelfstandig onderwerp.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch3",
+      "geconstateerd_op": "2026-05-18T18:00:17Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "Sub-anchors 1.7.V.A-E (Functie en doelstellingen / Onafhankelijkheid en kwalificaties / Relatie met externe audit / Auditcomité / Auditrisico's) worden in wave 2 gepasst. Hier alleen top-level 1.7.V behandeld. Vier records dekken al delen van V.A-E: functie-interne-auditor (V.A/B), externe-auditor-relatie-ic (V.C), auditcomite (V.D), auditrisico-in-ic-context (V.E). Onafhankelijkheid + IIA Code of Ethics als zelfstandig record ontbreekt nog — kandidaat voor wave 2 sub-anchor pass.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch3",
+      "geconstateerd_op": "2026-05-18T18:00:17Z",
+      "status": "open"
+    },
+    {
+      "record_id": "evaluatiecriteria-ic",
+      "aspect": "bron-gap",
+      "reden": "Evaluatiecriteria (design effectiveness, operating effectiveness) zijn audit-vakdoctrine die in chunks indirect terugkomt (ISA 315/330) maar geen Belgische trusted bron dekt het criteria-frame integraal. Confidence van het record blijft 'inferred'. Volledige bron-grounding zou ITAA-norm-uitbreiding of CBN-advies-uitbreiding vergen.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch3",
+      "geconstateerd_op": "2026-05-18T18:00:17Z",
+      "status": "open"
+    },
+    {
+      "record_id": "monitoring-interne-controle",
+      "aspect": "bron-gap",
+      "reden": "COSO 2013 component 5 (Monitoring Activities) is internationale vakdoctrine zonder Belgische trusted bron in de huidige corpus. Het record draagt nu definitie + drie bouwstenen (ongoing, separate, reporting+remediation) op inferred-niveau. Verdere grounding zou COSO 2013-import of CBN-advies-uitbreiding nodig hebben.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch3",
+      "geconstateerd_op": "2026-05-18T18:00:17Z",
+      "status": "open"
+    },
+    {
+      "record_id": "auditcomite",
+      "aspect": "bron-gap",
+      "reden": "Wettelijke basis van auditcomité staat in WVV (organisatie van openbaar belang, grote NV's) maar specifieke wetsartikelen zijn niet integraal in de geretrieved chunks aanwezig. Het record beschrijft de functie op inferred-niveau. Volledige grounding vergt directe lezing van WVV art. 7:99-7:101 en Wet 6.4.2017 (financiële sector) — wave 2 verfijning.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch3",
+      "geconstateerd_op": "2026-05-18T18:00:17Z",
+      "status": "open"
+    },
+    {
+      "record_id": "fouten-ic",
+      "aspect": "granulariteit.beslissing-nodig",
+      "reden": "Record-id 'fouten-ic' draagt een ad-hoc '-ic'-suffix als smell-marker — het fenomeen is gewoon 'fout' (onopzettelijke afwijking, ISA 450 §4(a)). Rename naar 'fout' lijkt nog te generiek (mogelijk conflict met andere domein-gebruiken); rename naar 'fout-afwijking' of 'onopzettelijke-afwijking' moet afgewogen worden tegen audit-context (in PO 1.6 wordt 'fout' al implicit via fraude-versus-fout behandeld). Geen autonomous rename in deze pass; mens-beslissing nodig.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave1b4",
+      "geconstateerd_op": "2026-05-18T18:22:14Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "Concept 'NIS-2-richtlijn' (Richtlijn EU 2022/2555 over cyberbeveiliging) wordt aangehaald in [[cyberrisico-ic]] §reglementair-kader. NIS-2 is een wettelijk kader met eigen toepassingsgebied (essentiële vs belangrijke sectoren), meldingsplicht en sancties — verdient apart 'regel'-record. Voorlopig in scope-gat omdat 1.7.X.A enkel risico's behandelt, niet het volledige NIS-2-stelsel. Te overwegen in Fase 5 of in 1.6 anti-witwas-uitbreiding.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:42:48Z",
+      "geconstateerd_op": "2026-05-18T18:42:48Z",
+      "status": "open"
+    },
+    {
+      "record_id": "implementeren-functiescheiding-transactiecycli",
+      "aspect": "context-edge-ontbreekt",
+      "reden": "Competentie linkt naar 1.7.IX.A/C/D + 1.7.X.C maar mist `verwijst-naar`-edge naar [[cyclus-analyse-ic]] (de overkoepelende synthese). VERIFY-pass kan deze toevoegen.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:42:48Z",
+      "geconstateerd_op": "2026-05-18T18:42:48Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "bron-gap",
+      "reden": "1.7.XII.A verbose noemt SOX (Sarbanes-Oxley Act) als relevant voor PIE met US-listing, maar geen enkele chunk in bundle 1.7.XII bevat 'sox'/'sarbanes' (0 hits over 86 chunks). Voor een geldig record over SOX moet de wet zelf of een Belgische bron die SOX-vereisten op een PIE projecteert (NBB-circulaire, FSMA-mededeling) in resources/bronnen/ geladen worden. Pas dan kan een SOX-record met grounded provenance worden geschreven. Voor het bekwaamheidsexamen vermoedelijk lage prioriteit — Belgische context primeert.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch6-XII-XIII",
+      "geconstateerd_op": "2026-05-18T18:51:44Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "bron-gap",
+      "reden": "Anchor-tekst 1.7.XII verbose noemt COBIT expliciet als IT-governance/IC-framework, maar bundle 1.7.XII bevat 0 chunks met 'cobit'. COBIT is een ISACA-framework dat IT-controle en governance structureert; in PO 1.7 contextueel relevant maar zonder bron-grounding niet schrijfbaar. Voor een record zou een COBIT-overzichtsbron (ISACA-publicatie of secundair Belgisch IT-auditdocument) toegevoegd moeten worden aan resources/bronnen/. Lage prioriteit — niet kern-examenstof voor de GA-stagiair.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch6-XII-XIII",
+      "geconstateerd_op": "2026-05-18T18:51:44Z",
+      "status": "open"
+    },
+    {
+      "record_id": "coso-i-framework",
+      "aspect": "naming-smell",
+      "reden": "Record-ids `coso-i-framework`, `coso-ii-erm-framework`, `iso-31000-risicobeheer` hebben bron-prefix-vorm. Echter, COSO I/II en ISO 31000 ZIJN de frameworks zelf — bron en concept zijn co-extensief (framework = de standaard-publicatie zelf, geen onderscheid tussen het document en het fenomeen). Per anti-hallucinatie §10 (bron ≠ concept) is een rename naar `internal-control-framework` of `enterprise-risk-management` strikt genomen mogelijk, maar zou de versiestratificatie (COSO I 1992/2013 versus COSO II 2017) opzwepen. Voor nu: behouden. Heroverwegen wanneer parallel-framework-records ontstaan (bv. een algemene `interne-controle-framework-overstijgend` cluster die COSO en ISO 31000 vergelijkt buiten enkel de vergelijkt-met-edge).",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch6-XII-XIII",
+      "geconstateerd_op": "2026-05-18T18:51:44Z",
+      "status": "open"
+    },
+    {
+      "record_id": "interne-controle",
+      "aspect": "dangling-reference",
+      "reden": "interne-controle (cluster) is gelinkt aan 1.7.taak.1 maar dekt het algemene IC-fenomeen — niet het specifieke 'bijzondere verslagen / juridisch-contractuele opdrachten'-domein. Vermoedelijk historische over-linking. Voldoende-vermeld-geen-record-gemaakt.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:00Z",
+      "geconstateerd_op": "2026-05-18T18:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "opstellen-bijzondere-verslagen-en-ic-evaluaties",
+      "aspect": "granulariteit.beslissing-nodig",
+      "reden": "Naam bevat 'en' (composite-naam-smell). De competentie integreert echter twee onlosmakelijk verbonden skills: opstellen bijzondere verslagen + IC-evaluatie van de specifieke verrichting (één stap binnen het verslagwerk). Acceptabel als integratie-skill maar overweeg in latere pass: splits naar opstellen-bijzondere-verslagen (verslagopstelling-kern) + apart de IC-evaluatie naar de generieke beoordelen-effectiviteit-ic-via-interne-audit, of behoud zoals nu.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:00Z",
+      "geconstateerd_op": "2026-05-18T18:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "beperkte-zekerheid",
+      "aspect": "records.ontbreekt",
+      "reden": "Het concept 'beperkte zekerheid' (limited assurance) wordt door 'redelijke-zekerheid' gerefereerd in vergelijkingsparen[] maar bestaat niet als eigen record. Het hoort thuis in PO 1.6 (audit/assurance) als tegenpool van reasonable assurance — review-opdracht (ISA 2400) versus controle-opdracht (ISA 200). Edge target_status nog niet expliciet als pending; impliciete dangling. Aanmaak in PO 1.6-pass.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-1.7.I",
+      "geconstateerd_op": "2026-05-18T19:16:01Z",
+      "status": "open"
+    },
+    {
+      "record_id": "interne-controle",
+      "aspect": "in_praktijk.ontbreekt",
+      "reden": "De cluster 'interne-controle' heeft sterke bouwstenen maar mist een record-top illustratie (mermaid-diagram van 5 COSO-componenten of een PDCA-style schema). Bij rendering naar leermateriaal helpt een visueel anker bij begripsopbouw voor stagiairs.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-1.7.I",
+      "geconstateerd_op": "2026-05-18T19:16:01Z",
+      "status": "open"
+    },
+    {
+      "record_id": "managementcontrole",
+      "aspect": "bron-gap",
+      "reden": "Geen Belgische trusted bron voor managementcontrole als vakdiscipline (Anthony, Simons, Merchant — internationaal). De definitie en bouwstenen zijn inferred-common-knowledge of inferred. ITAA-norm-kmo-controlenorm bevat enkel 'management' als rol, geen behandeling van managementcontrole-instrumenten. Volgende corpus-uitbreiding: handboek management accounting (Belgische editie) of CFA-curriculum als secundaire bron.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-1.7.I",
+      "geconstateerd_op": "2026-05-18T19:16:01Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "PO 1.7.II.D en .E refereren naar ISA 500 (Controle-informatie) als grondslag voor informatie-kwaliteitseisen in audit-context. Geen eigen record voor ISA 500 — wel referenties in bouwstenen. Suggestie: ISA-500-record als 'regel' of 'cluster' wanneer audit-PO's worden gedekt.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
+      "geconstateerd_op": "2026-05-18T19:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "PO 1.7.II.D refereert naar communicatie van IC-tekortkomingen door externe auditor (ISA 265). Record 'communicatie-tekortkomingen-interne-beheersing' bestaat al, maar een dedicated ISA-265-record als regel/cluster ontbreekt. Suggestie: bij audit-PO-pass.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
+      "geconstateerd_op": "2026-05-18T19:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "ethiek-organisatie-ic",
+      "aspect": "dangling-reference",
+      "reden": "Bouwsteen 'Klokkenluiderkanaal' verwijst naar 'Klokkenluidersrichtlijn EU 2019/1937 + Belgische uitvoering' als grondslag, maar geen record dat de EU-richtlijn 2019/1937 en de Belgische omzetting (Wet 28 november 2022) als regel/cluster behandelt. Stagiair kan klokkenluiding-regime niet op record-niveau opzoeken.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
+      "geconstateerd_op": "2026-05-18T19:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "onderneming-begrip-ic",
+      "aspect": "dangling-reference",
+      "reden": "Definitie verwijst naar WER art. III.82 § 1 (boekhoudplichtige onderneming-definitie). Record 'boekhoudplichtige-onderneming' bestaat — edge gelegd. Geen verdere gap. Entry kan worden weggewerkt als 'voldoende-vermeld-geen-record-gemaakt'.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
+      "geconstateerd_op": "2026-05-18T19:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "Sub-anchor 1.7.II.B 'Informatiesysteem' refereert in IC-context naar 'IT-general-controls' (toegangsbeheer, change management, back-up) als COSO-component-onderdeel. Record 'it-general-controls' bestaat. Geen extra gap; consistent.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
+      "geconstateerd_op": "2026-05-18T19:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "kwaliteitscriteria-interne-controle",
+      "aspect": "bron-gap",
+      "reden": "ITAA-examenprogramma-rubriek 1.7.III.B 'Specifieke kenmerken van interne controle' (relevantie, doeltreffendheid, kosteneffectiviteit, traceerbaarheid, regelmatige evaluatie) heeft geen één-op-één bronvermelding in het huidige corpus. De vijf criteria zijn gedistilleerd uit verspreide normverwijzingen (ISA 265 §A1-A11 voor doeltreffendheid + tekortkomingen, ISA 315 §A114-A115 + §A156 voor schaalbaarheid + monitoring, ITAA KMO-controlenorm §97 voor effectieve werking). Record is daarom 'inferred-from-aggregation' geschreven. Bronnen-uitbreiding gewenst: een ITAA-handboek-pagina, een CBN-advies of een KMO-IC-leidraad waar de vijf criteria expliciet als opsomming staan, zou record naar 'grounded' kunnen tillen.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2b2",
+      "geconstateerd_op": "2026-05-18T19:40:34.995956+00:00",
+      "status": "open"
+    },
+    {
+      "record_id": "preventief-versus-detecterende-controle",
+      "aspect": "dangling-reference",
+      "reden": "ISA 315 bijlage 3 §20 noemt expliciet 'corrigerende interne beheersingsmaatregelen' naast preventief/detectief, en ISA 265 spreekt van 'corrigerende maatregelen' tegen tekortkomingen. Een derde categorie 'corrigerende controle' is in de literatuur courant (preventief/detectief/corrigerend triade). Status: voldoende-vermeld-geen-record-gemaakt — synthese behandelt preventief vs detectief volgens de anchor-tekst 'dubbele dimensie'; corrigerend is reeds onderdeel van 'monitoring-interne-controle' en de detectief-cyclus (afwijking ontdekt → maatregel). Suggestie: bij volgende EXTRACT-pass over 1.7.VIII (uitvoering) overwegen of corrigerend een eigen begrip wordt, of als bouwsteen in detectief blijft.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2b2",
+      "geconstateerd_op": "2026-05-18T19:40:34.995956+00:00",
+      "status": "open"
+    },
+    {
+      "record_id": "kwaliteitscriteria-interne-controle",
+      "aspect": "dangling-reference",
+      "reden": "Begrippen 'design effectiveness' versus 'operating effectiveness' (opzet-effectiviteit versus werkings-effectiviteit) duiken op in kerninzicht 2 maar hebben geen eigen records. ITAA KMO-controlenorm §97 en ISA 330 §8 hanteren dit onderscheid systematisch. Status: voldoende-vermeld-geen-record-gemaakt — deze splitsing leeft natuurlijker als bouwsteen binnen [[toetsing-interne-beheersing]] (waar de auditor het test) dan als zelfstandig begrip. Suggestie: bij EXTRACT-pass op 1.6 (auditrisico) of 1.7.taak.1 evalueren of dit een eigen begrip 'design-versus-operating-effectiviteit' verdient.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2b2",
+      "geconstateerd_op": "2026-05-18T19:40:34.995956+00:00",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "dangling-reference",
+      "reden": "Term 'expectation gap' (kloof tussen auditor-verantwoordelijkheid en stakeholder-verwachting) staat in [[fraude]] §valkuilen, [[fraude-versus-fout]] §in_praktijk en raakt opdrachtbrief-communicatie. Status: voldoende-vermeld-geen-record-gemaakt — geen eigen examen-domein in PO 1.7.VI, gedekt door context. Suggestie: zou bij PO over communicatie-met-management (1.6.XI/1.7.XI) een eigen record kunnen krijgen als VERIFY later weerklank vindt.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2b1",
+      "geconstateerd_op": "2026-05-18T19:36:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "uitvoering-interne-controle",
+      "aspect": "dangling-reference",
+      "reden": "Bouwsteen 'Bestaande controles in kaart brengen' verwijst naar 'risico-controle-matrix' als sleuteldocument zonder eigen record. Term is generieke vakdoctrine (IIA, COSO ERM). Oordeel: voldoende-vermeld-geen-record-gemaakt — instrument is methodologisch werkpaard maar bestaat niet zelfstandig buiten IC-uitwerking-context (compositie, niet aggregatie). Bij volgende wave overwegen of een methodische bouwsteen-uitwerking onder uitvoering-interne-controle volstaat.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-VIII",
+      "geconstateerd_op": "2026-05-18T20:22:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "opvolging-verrichtingen-ic",
+      "aspect": "dangling-reference",
+      "reden": "Bouwsteen 'Voorraadtelling en spot-checks' refereert naar ISA 501 als grondslag. ISA 501 dekt specifieke aspecten (voorraden, juridische geschillen, segment-informatie) en heeft potentieel eigen record-waarde voor controlewerk-laag (PO 1.6 niet PO 1.7). Oordeel: bewust-uit-scope — ISA 501 is audit-procedure-norm voor controlewerk, niet IC-design. Voor stagiair binnen 1.7 voldoende vermeld als bouwsteen-grondslag.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-VIII",
+      "geconstateerd_op": "2026-05-18T20:22:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "opvolging-verrichtingen-ic",
+      "aspect": "dangling-reference",
+      "reden": "CBN-advies 174/1 (beginselen van regelmatige boekhouding — zonder uitstel/getrouw/naar tijdsorde/in dagboek/volledig) is gebruikt als bouwsteen-grondslag bij Bank-grootboek-afstemming. Term 'beginselen regelmatige boekhouding' is geen IC-specifiek record maar verdient potentieel een eigen begrip-record onder PO 1.4 (Boekhoudkundige rapportering) of PO 1.1. Oordeel: voldoende-vermeld-geen-record-gemaakt vanuit IC-scope; uitbreidings-kandidaat in andere PO.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2-VIII",
+      "geconstateerd_op": "2026-05-18T20:22:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "dangling-reference",
+      "reden": "Term 'IIA Standards' (Institute of Internal Auditors International Professional Practices Framework) komt herhaaldelijk voor in beoordelen-effectiviteit-ic-via-interne-audit en interne-audit als grondslag (IIA Standard 2010, 2200, 2300, 2330, 2410, 2500). Geen eigen record voor de IIA-norm als bron-cluster. Oordeel: bewust-uit-scope (internationale vakdoctrine zonder Belgische omzetting) — geen record nodig. Edge-mention in grondslag-strings is voldoende.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch3",
+      "geconstateerd_op": "2026-05-18T18:00:17Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "Concept 'management-override' bestaat als record maar wordt onvoldoende uitgewerkt met betrekking tot specifieke audit-procedures (ISA 240 §32 — journaalboeking-analyse, schattings-review, ongebruikelijke transacties). Bij latere pass uitwerken als bouwsteen-rijke cluster of laten zoals nu (begrip-niveau volstaat). Vermeld in scope-trust van latere PO 1.6-pass.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave1b4",
+      "geconstateerd_op": "2026-05-18T18:22:14Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "Concept 'klokkenluiderregeling' wordt door fraude-records én competenties veelvuldig gebruikt. Controleren of dit record voldoende dekt: Wet 28 november 2022 toepassingsgebied (≥ 50 wn), drie meldkanalen (intern/extern/publiek), bescherming klokkenluider, omkering bewijslast. Nu wel bestaand, content-kwaliteit niet in deze scope geverifieerd.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave1b4",
+      "geconstateerd_op": "2026-05-18T18:22:14Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "dangling-reference",
+      "reden": "Term 'three-way match' is centraal in [[aankoopcyclus-ic]] §bouwsteen-three-way-match en [[it-application-controls]] §processing. Bewust geen eigen record: het concept is sterk gebonden aan de aankoopcyclus (compositie). Bouwsteen-status volstaat. Status: voldoende-vermeld-geen-record-gemaakt.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:42:48Z",
+      "geconstateerd_op": "2026-05-18T18:42:48Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "dangling-reference",
+      "reden": "Term 'ghost employees' is centraal in [[hr-cyclus-ic]] §bouwsteen-cross-check. Verbonden aan fraudetypologie-acfe (occupational fraud — fictitious revenues/employees). Bewust geen apart record: gedekt door hr-cyclus + fraudetypologie. Status: voldoende-vermeld-geen-record-gemaakt.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:42:48Z",
+      "geconstateerd_op": "2026-05-18T18:42:48Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "dangling-reference",
+      "reden": "Term 'business email compromise (BEC)' staat in [[cyberrisico-ic]] §verificatie-procedure. Anno 2025 dé belangrijkste KMO-fraude. Status: voldoende-vermeld-geen-record-gemaakt; suggestie voor latere wave: eigen begrip 'business-email-compromise' als onderdeel van [[fraudetypologie-acfe]] §digitale-typologieën.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:42:48Z",
+      "geconstateerd_op": "2026-05-18T18:42:48Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "WVV-bepalingen rond auditcomité (art. 7:99-7:101 voor genoteerde NV) en interne controle door bestuursorgaan (art. 7:90) — bestaande record `auditcomite` dekt het orgaan, maar er is geen expliciet record voor de WVV-artikel-set als 'wettelijke verankering interne controle in vennootschapsrecht'. Overweeg een regel-record `interne-controle-verplichtingen-wvv` met art. 7:90 + 7:99-101 als hoofdgrondslag, of accepteer dat dit voldoende via wettelijk-kader-ic synthese gedekt is. Wettelijk-kader-ic noemt 'Corporate governance | WVV + Codes' al in vergelijkingstabel; mogelijk overkill.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-po17-batch6-XII-XIII",
+      "geconstateerd_op": "2026-05-18T18:51:44Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "dangling-reference",
+      "reden": "PO 1.7-records over IC-systeem (adviseren-management-ic-design-als-externe-adviseur, ontwerpen-intern-controlesysteem-coso, opzetten-controleactiviteiten-en-monitoring, uitvoeren-risicoanalyse-organisatie, implementeren-functiescheiding-transactiecycli, identificeren-fouten-fraude-verspilling, integreren-avg-compliance-in-ic, beoordelen-effectiviteit-ic-via-interne-audit, opstellen-intern-audit-rapport, interne-controle) zijn momenteel gelinkt aan 1.7.taak.1. Deze anchor gaat letterlijk over 'opstellen van specifieke verslagen en analyses, juridisch-contractuele opdrachten'. De IC-records dekken IC-systeem opzetten/evalueren — verwant maar niet hetzelfde fenomeen. Out-of-scope cleanup: in een latere pass overwegen om 1.7.taak.1 uit hun linked_anchors te verwijderen, behalve waar de competentie expliciet de IC-evaluatie binnen een bijzonder verslag betreft. Bewust-uit-scope.",
+      "prio": "laag",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:00Z",
+      "geconstateerd_op": "2026-05-18T18:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "Mogelijk ontbrekende records die 1.7.taak.1 raken maar buiten de huidige scope vielen: (a) uitkering-uit-reserves-verslag (WVV art. 5:142 BV / 7:212 NV — bijzonder verslag bij uitkering uit andere reserves); (b) beoordeling-tussentijdse-cijfers (ISRE-beoordelingsopdracht voor tussentijdse financiële overzichten); (c) afgewerkte-toetsing-overgangsregels-omzetting (NV→Coöperatieve etc.). Niet-aangemaakt in deze pass — bronnen voor (a) zitten in WVV maar minder uitgebreid in ITAA-normen-corpus. Te overwegen bij volgende re-extract.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18T18:00Z",
+      "geconstateerd_op": "2026-05-18T18:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": null,
+      "aspect": "records.ontbreekt",
+      "reden": "Concept 'niet-naleving wet- en regelgeving (NOCLAR, ISA 250 herzien)' bestaat niet als zelfstandig record maar wordt geraakt door [[fraude]] §valkuilen, [[antiwitwasmeldingsplicht-accountant]], [[fraude-versus-fout]]. ISA 250 (herzien) heeft een aparte standaard met eigen verantwoordelijkheids-kader (ISA 250 §3-§4): management is verantwoordelijk, auditor identificeert afwijkingen van materieel belang door non-compliance. Onderscheidt zich van fraude (niet noodzakelijk opzet) en overlapt met antiwitwas-meldplicht. Suggestie: cluster 'niet-naleving-wet-regelgeving-noclar' met bouwstenen (a) categorieën van non-compliance, (b) auditor-respons, (c) overlap met fraude + antiwitwas.",
+      "prio": "midden",
+      "geconstateerd_door": "concept-extractie-v4-2026-05-18-wave2b1",
+      "geconstateerd_op": "2026-05-18T19:36:00Z",
+      "status": "open"
+    }
+  ]
+}

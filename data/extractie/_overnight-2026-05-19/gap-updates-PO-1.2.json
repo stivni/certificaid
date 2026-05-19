@@ -1,0 +1,262 @@
+{
+  "programmaonderdeel": "1.2",
+  "agent_run_id": "overnight-gap-fix-PO-1.2-2026-05-19",
+  "afgerond_op": "2026-05-19T00:00:00+00:00",
+  "updates": [
+    {
+      "match_op": {
+        "record_id": "getrouw-beeld-jaarrekening",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "edges[0].target = 'materieel-belang-financiele-analyse'"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Edge-target gecorrigeerd naar 'materieel-belang-jaarrekening' (canonieke slug; bestaand record met dezelfde anchor-scope 1.3.*)."
+    },
+    {
+      "match_op": {
+        "record_id": "getrouw-beeld-jaarrekening",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "Twee records voor hetzelfde fenomeen 'getrouw beeld van de jaarrekening'"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Pragmatische resolutie zonder merge: specialisatie-van-edge toegevoegd (getrouw-beeld-jaarrekening → getrouw-beeld) plus wederzijds vergelijkingspaar. Beide records zijn nuttig met verschillende scope: getrouw-beeld dekt het algemene beginsel (PO 1.1/1.5), getrouw-beeld-jaarrekening de specifieke drie-dimensionele toets (PO 1.2/1.3/1.9). Specialisatie-patroon (ADR-007 §7) toepasselijker dan merge. Geen data-verlies en behoud anchor-scopes."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarverslag",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "jaarverslag (PO 1.2-record, node_type begrip, WVV art. 3:32) en bestuursverslag"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Pragmatische resolutie zonder merge: wederzijdse verwijst-naar-edge + vergelijkingspaar toegevoegd op beide records. Jaarverslag (begrip, PO 1.2) en bestuursverslag (procedure, PO 1.3) blijven aparte records met expliciete cross-PO-link. Terminologie-onderscheid (WVV-term vs richtlijn-term) gedocumenteerd in vergelijkingspaar. naam_alternatief uitgebreid."
+    },
+    {
+      "match_op": {
+        "record_id": "bestuursverslag",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "Spiegel-entry van jaarverslag-overlap"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Spiegel-resolutie op bestuursverslag: verwijst-naar-edge naar jaarverslag + vergelijkingspaar toegevoegd. Zie jaarverslag-update."
+    },
+    {
+      "match_op": {
+        "record_id": "fsma",
+        "aspect": "vergelijkingsparen.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "FSMA wordt in de praktijk vaak verward met NBB"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Twee vergelijkingsparen toegevoegd: (1) FSMA versus NBB met Twin Peaks-onderscheid (FSMA = gedragstoezicht; NBB = prudentieel), (2) FSMA versus commissaris bij PIE."
+    },
+    {
+      "match_op": {
+        "record_id": "fsma",
+        "aspect": "edges.geen-types",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "FSMA heeft slechts één edge"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Edges uitgebreid van 1 naar 3: vergelijkt-met nationale-bank-belgie (Twin Peaks), vereist-kennis-van public-interest-entity, behoud vereist-kennis-van europees-boekhoudrecht."
+    },
+    {
+      "match_op": {
+        "record_id": "fsma",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "FSMA heeft geen in_praktijk-blok"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "in_praktijk-blok toegevoegd (3 aspecten: wanneer kom je FSMA tegen, sancties, FSMA vs commissaris bij PIE) + valkuilen-blok (3 valkuilen)."
+    },
+    {
+      "match_op": {
+        "record_id": "itaa",
+        "aspect": "vergelijkingsparen.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "ITAA (accountants) ↔ IBR (revisoren) is een klassieke verwarring"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Bestaande vergelijkingspaar met IBR verrijkt met expliciete triggers ('mag ITAA-accountant commissarisopdracht?', 'wie controleert grote NV?', etc.) + monopolie-toelichting WVV art. 3:72."
+    },
+    {
+      "match_op": {
+        "record_id": "ibr",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "IBR-record (Instituut van Bedrijfsrevisoren) mist in_praktijk"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "in_praktijk-blok (3 aspecten: wanneer revisor verplicht, stage/examen, CTR-toezicht), vergelijkingspaar met ITAA, en valkuilen-blok toegevoegd."
+    },
+    {
+      "match_op": {
+        "record_id": "fod-financien-boekhoudrecht",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "FOD Financiën-record (boekhoudrecht-perspectief) mist in_praktijk"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "in_praktijk-blok (3 aspecten: wanneer FOD actor, controleperiodes + bewaartermijn, boekhouding ↔ aangifte) + 2 vergelijkingsparen (FSMA, commissaris) + valkuilen-blok toegevoegd."
+    },
+    {
+      "match_op": {
+        "record_id": "griffies-ondernemingsrechtbank",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "Griffies-record mist in_praktijk"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "in_praktijk-blok (wanneer naar griffie vs NBB, due-diligence-bron) + vergelijkingspaar met NBB + valkuilen toegevoegd."
+    },
+    {
+      "match_op": {
+        "record_id": "public-interest-entity",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "PIE-record mist in_praktijk én valkuilen"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Al opgelost in eerdere extract-pass (record heeft 4 in_praktijk-blokken + 4 valkuilen + vergelijkingspaar met groottecriteria-jaarrekening). Geen actie nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "oprechtheidsbeginsel",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "oprechtheidsbeginsel mist in_praktijk"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "in_praktijk-blok (2 aspecten: herken schending, substance-over-form in praktijk) + valkuilen-blok (3 valkuilen: cookie-jar accounting, window-dressing, toelichting-volledigheid) toegevoegd."
+    },
+    {
+      "match_op": {
+        "record_id": "hulpdagboeken",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "hulpdagboeken-record mist in_praktijk"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "in_praktijk-blok (welke hulpdagboeken standaard, één financieel dagboek per rekening) + valkuilen-blok (3 valkuilen: hulpdagboek vs sub-rekening, centralisatie-termijn, diversen-misbruik) toegevoegd."
+    },
+    {
+      "match_op": {
+        "record_id": "aanvullende-boekhoudbeginselen",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "aanvullende-boekhoudbeginselen aggregeert 4 bestaande records"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "node_type gemigreerd van 'begrip' naar 'synthese' (schema 1.5/1.6). gebaseerd_op_concepten[]-veld toegevoegd met de 4 bron-records. Edges 'bevat' (deprecated) omgezet naar 'vereist-kennis-van'. kerninzichten[]-veld toegevoegd. Bouwstenen behouden als compacte samenvattingen — voldoende voor het synthese-doel."
+    },
+    {
+      "match_op": {
+        "record_id": "wetboek-economisch-recht-boek-iii",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "edges[].target verwijst naar 'dubbele-boekhouding'"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Bij inspectie blijkt dat het record reeds 'dubbel-boekhouden' als target gebruikt (geen 'dubbele-boekhouding' meer aanwezig). Al gefixt in eerdere pass — geen actie nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "boekhoudplichtige-onderneming",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "edges[].target wijst naar 'dubbele-boekhouding'"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Bij inspectie blijkt dat het record reeds 'dubbel-boekhouden' als target gebruikt. Al gefixt in eerdere pass — geen actie nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "commissaris",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "edges[].target naar 'accountant-itaa'"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Bestaande broken-edge 'accountant-itaa' was reeds verwijderd. Nieuwe expliciete edge 'vergelijkt-met → itaa' toegevoegd voor graph-walk-consistentie naast het reeds bestaande vergelijkingspaar."
+    },
+    {
+      "match_op": {
+        "record_id": "itaa",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "edges[].target naar 'itaa-normen'"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Self-edge (target == 'itaa') verwijderd. Edge naar 'itaa-normen' verwijderd; in plaats daarvan 'verwijst-naar itaa-normen-ic' toegevoegd (bestaand record). Daarnaast 'vergelijkt-met ibr'-edge toegevoegd voor graph-walk."
+    },
+    {
+      "match_op": {
+        "record_id": "europees-boekhoudrecht",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "edges[].target naar 'ifrs-toepassingsgebied'"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Edge omgezet: deprecated type 'bevat' → 'verwijst-naar'; target gecorrigeerd van 'ifrs-toepassingsgebied' (bestaat niet) naar 'ifrs-toepassingsgebied-belgie' (bestaand record)."
+    },
+    {
+      "match_op": {
+        "record_id": "niet-in-balans-opgenomen-rechten-verplichtingen",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "edges[].target naar 'voorzieningen-voor-risicos-en-kosten'"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Bij inspectie blijkt dat het record geen broken-edge meer bevat: vergelijkingspaar verwijst naar bestaand record 'voorzieningen'. Al gefixt in eerdere pass — geen actie nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "getrouw-beeld-jaarrekening",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "edges[].target naar 'materieel-belang-financiele-analyse' — bestaat niet. Mogelijk records.ontbreekt-gap voor PO 1.3"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Dubbele entry van eerdere gap (zelfde aspect, ander voorkomen). Edge-target gecorrigeerd naar bestaand 'materieel-belang-jaarrekening'. Geen aparte records.ontbreekt nodig — bestaand materialiteit-record dekt de PO 1.3-scope al adequaat."
+    },
+    {
+      "match_op": {
+        "record_id": "PO-1.2",
+        "aspect": "open-werk",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+        "reden_prefix": "Check A (Examenvraag-simulatie) skipped"
+      },
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.2-2026-05-19",
+      "toelichting": "Vereist examen-vragen-classificatie-pipeline die buiten scope van deze gap-fix-sessie valt (separate workflow, Fase 5 roadmap). Won't-fix voor nu; markeer als open-werk-Fase-5."
+    }
+  ],
+  "nieuwe_gaps": [],
+  "samenvatting": "23 strategic-pass-gaps behandeld: 22 resolved + 1 wont-fix. Concrete acties: 11 records bijgewerkt via records-API (FSMA, IBR, FOD-financien, griffies, oprechtheidsbeginsel, hulpdagboeken, ITAA, commissaris, europees-boekhoudrecht, getrouw-beeld-jaarrekening, getrouw-beeld, jaarverslag, bestuursverslag, aanvullende-boekhoudbeginselen). 0 nieuwe records, 0 hernoemde records. 1 node_type-migratie (aanvullende-boekhoudbeginselen begrip → synthese). 4 broken-edges gerepareerd (target-slug-correcties). 7 in_praktijk-blokken + 6 valkuilen-blokken + 7 vergelijkingsparen toegevoegd over verschillende autoriteit-records voor uniforme rijkheid. Geen merges uitgevoerd — overlap-gaps opgelost via specialisatie-edges + vergelijkingsparen (pragmatischer dan merge bij verschillende anchor-scopes)."
+}

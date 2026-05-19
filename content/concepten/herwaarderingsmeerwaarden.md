@@ -84,6 +84,29 @@ Naaiatelier Ninove BV mag de € 260.000 herwaarderingsmeerwaarde op het terrein
 
 _Grondslag: KB WVV art. 3:35, § 3_
 
+### Vervreemding: realisatie van de meerwaarde ⚖️
+
+Wanneer een geherwaardeerd actief wordt vervreemd, wordt de niet-uitkeerbare herwaarderingsmeerwaarde **gerealiseerd**: ze wordt overgeboekt naar de uitkeerbare reserves óf opgenomen in het kapitaal (kapitaalverhoging door incorporatie van reserves). Het bedrag = de boekwaarde van de meerwaarde op moment van vervreemding (oorspronkelijk geboekt min eventueel reeds gerealiseerd via afschrijvingen).
+
+**Waarom?** Pas op het moment van vervreemding wordt de waardestijging definitief verdiend voor de vennootschap — vóórdien is ze 'latent'. De boekhouding spiegelt deze realisatie.
+
+
+**In de praktijk**: Bij verkoop van een geherwaardeerd octrooi: schrap herwaarderingsmeerwaarde-reserve, boek het saldo over naar uitkeerbare reserves of kapitaal — niet rechtstreeks naar W&V. De winst-op-verkoop komt apart in W&V.
+
+
+_Grondslag: KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde bij vervreemding)_
+
+### Toepassingsgebied: ook immateriële vaste activa ⚖️
+
+Herwaardering onder BE GAAP geldt voor materiële én immateriële vaste activa (KB WVV art. 3:30 en 3:35) — bv. octrooien, merken, ontwikkelingskosten. Voorwaarden zijn dezelfde als voor MVA: meerwaarde moet **zeker, duurzaam en onontbeerlijk** zijn voor de bedrijfsuitoefening.
+
+**Waarom?** Examenvraag 2014-1-vr3 toetst herwaardering specifiek op immaterieel (octrooi). Stagiair moet weten dat de IVA-toepassing analoog werkt.
+
+
+
+
+_Grondslag: KB WVV art. 3:30; KB WVV art. 3:35_
+
 
 ## In de praktijk
 
@@ -125,3 +148,5 @@ Naaiatelier Ninove BV heeft een productiehal aangeschaft in 2005 voor € 320.00
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_onderscheid-tussen-terugname-afschrijvingen-en-herwaardering`
 [^2]: `CBN-0113-06-herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-e__sec_de-hoofdkenmerken-daarvan-zijn-de-volgende`
+[^3]: `KB-WVV-uitvoering__sec_herwaarderingsmeerwaarden`
+[^4]: `KB-WVV-uitvoering__sec_herwaardering-iva`

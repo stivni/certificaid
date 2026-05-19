@@ -291,5 +291,12 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "herwaarderingsmeerwaarden",
+      "verschil": "Onder IFRS (IAS 16/IAS 38) verhoogt herwaardering naar fair value, regelmatig genoeg om geen materieel verschil met boekwaarde te krijgen. De meerwaarde gaat naar OCI als 'herwaarderingsreserve' (geen winst). Onder BE GAAP (KB WVV art. 3:30, 3:35) zijn de voorwaarden strenger: meerwaarde moet zeker, duurzaam en onontbeerlijk zijn voor de bedrijfsuitoefening, geboekt onder eigen vermogen (niet OCI als concept).",
+      "trigger": "Examen: 'mag ik onder IFRS dit actief herwaarderen?' → check IAS 16 keuze tussen kostprijsmodel en herwaarderingsmodel. 'Onder BE GAAP?' → check de drie voorwaarden art. 3:30."
+    }
+  ]
 }

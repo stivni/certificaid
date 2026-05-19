@@ -1,0 +1,221 @@
+{
+  "programmaonderdeel": "1.6",
+  "agent_run_id": "overnight-gap-fix-PO-1.6-2026-05-19",
+  "afgerond_op": "2026-05-19T00:00:00+00:00",
+  "updates": [
+    {
+      "match_op": {
+        "record_id": "beroepsgeheim-accountant",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'plichtenleer-accountant' is al verwijderd in eerdere pass; geen target-ontbrekend meer in dit record."
+    },
+    {
+      "match_op": {
+        "record_id": "contractuele-controleopdracht",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+        "reden_bevat": "assurance-opdracht"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'assurance-opdracht' is al verwijderd in eerdere pass."
+    },
+    {
+      "match_op": {
+        "record_id": "contractuele-controleopdracht",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+        "reden_bevat": "opdrachtbrief"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'opdrachtbrief' is al verwijderd of hernoemd in eerdere pass."
+    },
+    {
+      "match_op": {
+        "record_id": "getrouw-beeld-controle",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'regelmatig-jaarrekening' is al weg; 'regelmatigheid-jaarrekening-audit' bestaat."
+    },
+    {
+      "match_op": {
+        "record_id": "contractuele-beoordelingsopdracht",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'assurance-opdracht' is al verwijderd in eerdere pass."
+    },
+    {
+      "match_op": {
+        "record_id": "redelijke-mate-van-zekerheid",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'controlerisico' is al verwijderd; 'auditrisicomodel' bestaat als alternatief."
+    },
+    {
+      "match_op": {
+        "record_id": "samenstellingsopdracht-isrs4410",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Source-record 'samenstellingsopdracht-isrs4410' bestaat niet meer (hernoemd of geconsolideerd in 'samenstellingsopdracht'). Gap is daarmee obsolete."
+    },
+    {
+      "match_op": {
+        "record_id": "itaa-algemene-controlenorm",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Source-record 'itaa-algemene-controlenorm' bestaat niet meer (hernoemd naar 'algemene-controlenorm-accountant'); huidig record bevat geen dangling edge naar 'auditwerkschema'."
+    },
+    {
+      "match_op": {
+        "record_id": "opvolging-voorganger-accountant",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'plichtenleer-accountant' is al verwijderd in eerdere pass."
+    },
+    {
+      "match_op": {
+        "record_id": "controledocumentatie",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'auditcyclus' is al verwijderd of hernoemd in eerdere pass."
+    },
+    {
+      "match_op": {
+        "record_id": "assurance-informatie",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'externe-bevestiging' is al verwijderd of hernoemd; 'externe-bevestiging-audit' bestaat."
+    },
+    {
+      "match_op": {
+        "record_id": "materieel-belang-audit",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: target-record 'afwijking-van-materieel-belang' bestaat als zelfstandig record. Edge is geldig — gap-reden was achterhaald."
+    },
+    {
+      "match_op": {
+        "record_id": "onafhankelijkheid-externe-accountant",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'plichtenleer-accountant' is al verwijderd in eerdere pass."
+    },
+    {
+      "match_op": {
+        "record_id": "gedeelde-wettelijk-voorbehouden-opdracht",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'controle-inbreng-in-natura' is vervangen door verwijst-naar 'inbreng-in-natura-verslag' (bestaat). Reeds opgelost."
+    },
+    {
+      "match_op": {
+        "record_id": "opdrachtbrief-accountant",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edge naar 'antiwitwas-meldingsplicht' is al verwijderd in eerdere pass (out-of-scope 1.6)."
+    },
+    {
+      "match_op": {
+        "record_id": "fraude-versus-fout",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: target-record 'afwijking-van-materieel-belang' bestaat als zelfstandig record. Vergelijkingspaar is geldig — gap-reden was achterhaald."
+    },
+    {
+      "match_op": {
+        "record_id": "beroepsaansprakelijkheid-accountant",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: target-record 'tuchtrechtelijke-aansprakelijkheid-accountant' bestaat als zelfstandig record. Vergelijkingspaar is geldig — gap-reden was achterhaald."
+    },
+    {
+      "match_op": {
+        "record_id": "intern-beheersingsrisico",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Cross-PO-brug toegevoegd: edge vereist-kennis-van -> interne-controle (PO 1.7). Geschreven via records-API."
+    },
+    {
+      "match_op": {
+        "record_id": "toetsing-interne-beheersing",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Cross-PO-brug toegevoegd: edge vereist-kennis-van -> interne-controle (PO 1.7). Geschreven via records-API."
+    },
+    {
+      "match_op": {
+        "record_id": "gedeelde-wettelijk-voorbehouden-opdracht",
+        "aspect": "context-edge-ontbreekt",
+        "geconstateerd_op": "2026-05-18T18:00:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Snapshot-verifieerd: edges verwijst-naar -> inbreng-in-natura-verslag en -> quasi-inbreng-verslag zijn al aanwezig. linked_anchors bevat reeds '1.7.taak.1'. Cleanup-pass is uitgevoerd."
+    },
+    {
+      "match_op": {
+        "record_id": null,
+        "aspect": "bron-gap",
+        "geconstateerd_op": "2026-05-18T18:00:00Z"
+      },
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.6-2026-05-19",
+      "toelichting": "Bron-uitbreiding (ITAA-norm 'Inbreng in natura en quasi-inbreng') valt buiten scope van deze overnight-sessie (vereist nieuwe bron in resources/bronnen/normen/ + ETL-run + RAG-herindex). Bewaard als bekend bron-gap voor Fase 4 (Bronnen-uitbreiding)."
+    }
+  ],
+  "nieuwe_gaps": [],
+  "samenvatting": "21 gaps behandeld voor PO 1.6: 20 resolved (waarvan 2 via nieuwe records-API write: cross-PO-bridges intern-beheersingsrisico en toetsing-interne-beheersing -> interne-controle), 1 wont-fix (bron-gap ITAA-norm inbreng in natura, buiten scope overnight). 18 gaps waren reeds opgelost door eerdere passes en alleen snapshot-bevestigd. Geen nieuwe records aangemaakt, geen rename-records, geen nieuwe gaps gelogd."
+}

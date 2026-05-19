@@ -28,6 +28,8 @@ Sommige rechten en verplichtingen verschijnen niet in de balans (bv. een afgegev
 > [!summary] Korte inhoud
 > In de toelichting worden per soort de rechten en verplichtingen vermeld die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden.
 
+> [!info] Specialisatie van: [[rechten-verplichtingen-buiten-balans]]
+
 In de toelichting worden per soort de rechten en verplichtingen vermeld die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze in de toelichting vermeld.
 
 _Bron: KB W.Venn. art. 25 §3 — herhaald in KB WVV via Richtlijn 2013/34/EU art. 16, 1, d_

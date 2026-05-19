@@ -77,7 +77,7 @@ _Grondslag: CBN 2021/01_
 > Voor fiscale doeleinden (notionele intrestaftrek tot 2023, VVPRbis, lage tarieven KMO's) wordt uitgiftepremie samen met kapitaal genomen als 'gestort kapitaal'. Belangrijk voor de berekening van de toepasselijke fiscale gunstregimes. 🤖
 
 
-> [!info]- Niet verwarren met [[beschikbare-reserves]]
+> [!info]- Niet verwarren met [[wettelijke-reserve]]
 > Uitgiftepremie (rubriek 11): juridisch gelijkgesteld met kapitaal, vereist kapitaalverminderingsprocedure voor terugbetaling. Beschikbare reserves (rubriek 133): vrij uitkeerbaar als dividend mits voldaan aan algemene uitkeringstesten.
 >
 > _Trigger_: Examen: 'kunnen uitgiftepremies als dividend worden uitgekeerd?' — Niet als gewoon dividend, wel via kapitaalverminderingsprocedure.

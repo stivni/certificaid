@@ -86,7 +86,7 @@ _Grondslag: CBN 2015/04_
 > Bij Covid-kwijtscheldingen: voor operationele leasing geen huur geboekt tijdens opschortingsperiode; voor financiële leasing hangt af van overeenkomst (vaak alleen hoofdsom opgeschort, intrest blijft lopen). ⚖️
 
 
-> [!info]- Niet verwarren met [[huur]]
+> [!info]- Niet verwarren met [[huur-versus-leasing-aspect]]
 > Operationele leasing en huur zijn boekhoudkundig vrijwel identiek (kost in RR, geen activum/schuld). Verschil ligt juridisch (huurovereenkomst vs leasecontract) en in mogelijke koopoptie.
 >
 > _Trigger_: Examen: 'gewone huur kantoor € 1.500/maand' = kostenrekening 61. 'leasing met optie tot aankoop' = onderzoek of optie ≤ 15 % → financieel of operationeel.

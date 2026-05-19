@@ -59,6 +59,50 @@ Een commissaris die zijn onafhankelijkheid niet bewaart (bv. ook fiscale aangift
 _Grondslag: Wet 7 december 2016_
 
 
+## In de praktijk
+
+<h3 id="wanneer-is-een-ibr-revisor-commissaris-verplicht">Wanneer is een IBR-revisor (commissaris) verplicht?</h3>
+
+> [!tip]- Wanneer is een IBR-revisor (commissaris) verplicht?
+> Een bedrijfsrevisor (IBR-lid) is verplicht als commissaris bij grote vennootschappen (overschrijden van meer dan één van de groottedrempels: 50 werknemers / € 11.250.000 omzet / € 6.000.000 balanstotaal in twee opeenvolgende boekjaren), bij Public Interest Entities (PIE) en bij grote VZW's. Onder de drempels is geen commissaris verplicht; de vennootschap kan vrijwillig één benoemen of geen externe controle hebben. ⚖️
+
+> [!tip]- Herkennen op het examen
+> Examenvraag 'mag een ITAA-accountant commissaris zijn?' → neen, commissaris-opdracht is wettelijk voorbehouden aan IBR-revisoren.
+
+<h3 id="stage-en-examentraject-revisor">Stage- en examentraject revisor</h3>
+
+> [!tip]- Stage- en examentraject revisor
+> Toegang tot het beroep verloopt via een driejarige stage onder een IBR-revisor-stagemeester + slagen voor het bekwaamheidsexamen. Pas dan inschrijving in het IBR-register. Permanente vorming jaarlijks verplicht (min. 120 uur over 3 jaar). 🤖
+
+> [!tip]- Herkennen op het examen
+> Belangrijk onderscheid met ITAA-gecertificeerd accountant: aparte stage, aparte examen, aparte tucht.
+
+<h3 id="federaal-publiek-toezicht-via-ctr">Federaal publiek toezicht via CTR</h3>
+
+> [!tip]- Federaal publiek toezicht via CTR
+> Sinds 2017 staan de bedrijfsrevisoren onder publiek toezicht van het College van Toezicht op de Bedrijfsrevisoren (CTR), dat administratief bij de FSMA is ondergebracht. Het CTR doet kwaliteitsinspecties bij revisor-kantoren en kan tuchtdossiers initiëren. 🤖
+
+> [!tip]- Herkennen op het examen
+> Niet meer 'zelfregulering door IBR alleen' — er is een externe toezichthouder boven IBR (CTR).
+
+
+> [!info]- Niet verwarren met [[itaa]]
+> IBR reguleert bedrijfsrevisoren — beroepsmonopolie op de wettelijke jaarlijkse controle (commissarisopdracht) bij grote vennootschappen, PIE's en grote VZW's. ITAA reguleert accountants en gecertificeerde accountants — focus op KMO-boekhouding, advies en contractuele KMO-controles. Twee aparte beroepsinstituten met deels overlappende activiteiten (advies-werk) maar exclusieve bevoegdheden (commissarisopdracht = IBR-monopolie).
+>
+> _Trigger_: 'Grote NV moet commissaris benoemen' → IBR-revisor. 'KMO heeft boekhouder/adviseur nodig' → ITAA-accountant. 'KMO wil contractuele controle door externe partij' → ITAA-gecertificeerd accountant kan dit ook.
+
+
+## Valkuilen
+
+> [!warning]- IBR-revisor (commissaris) en ITAA-gecertificeerd accountant zijn geen synoniemen — verschillende stages, verschillende examens, verschillende bevoegdheden.
+> ⚠️  🤖
+
+
+> [!warning]- Een vennootschap onder de groottedrempels kan vrijwillig een commissaris benoemen — die moet dan ook IBR-revisor zijn.
+> ⚠️  🤖
+
+
+
 ## Zie ook
 
 - **Vereist kennis van**: [[commissaris]]

@@ -195,6 +195,16 @@
       "target": "jaarrekening-componenten-ifrs",
       "redenering": "Balanspresentatie is component 1 van de IFRS-jaarrekening.",
       "confidence": "grounded"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "jaarrekening-presentatie"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "jaarrekening-schema",
+      "regime": "IFRS",
+      "aspect": "regime-paralleel BE-GAAP ↔ IFRS"
     }
   ],
   "voorbeelden": [

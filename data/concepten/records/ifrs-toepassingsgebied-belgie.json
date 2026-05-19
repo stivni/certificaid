@@ -104,13 +104,13 @@
     },
     {
       "titel": "Enkelvoudig niveau: altijd Belgisch GAAP",
-      "wat": "De wettelijke (statutaire) jaarrekening van een Belgische vennootschap — die dient voor uitkeerbaarheid, kapitaalbescherming en fiscale aangifte — volgt **altijd** Belgisch GAAP. Geen optie om IFRS te kiezen voor enkelvoudige cijfers.",
+      "wat": "De wettelijke (statutaire) jaarrekening van een Belgische vennootschap — die dient voor uitkeerbaarheid, kapitaalbescherming en fiscale aangifte — volgt **altijd** Belgisch GAAP. Geen optie om IFRS te kiezen voor enkelvoudige cijfers. (De negatieve claim — IFRS NIET toegestaan voor enkelvoudige jaarrekening — is afgeleid uit het ontbreken van een Belgische art. 5-omzetting van Verord. 1606/2002; geen rechtstreekse positieve regel.)",
       "waarom": "De statutaire jaarrekening is de **rechtsgrondslag** voor dividenden en winstbelasting. Het Belgisch systeem koppelt die rechtsgevolgen aan Belgisch GAAP — overschakelen naar IFRS zou de fiscaal-juridische infrastructuur ondermijnen.",
       "grondslag": "KB WVV (geen optie tot IFRS voor enkelvoudig)",
-      "confidence": "inferred-from-aggregation",
+      "confidence": "inferred",
       "source": {
         "type": "doctrine",
-        "short": "Belgische boekhoudrechtelijke praktijk"
+        "short": "Afgeleid uit afwezigheid van art. 5-omzetting (Verord. 1606/2002) in Belgisch recht — enkelvoudige IFRS niet toegestaan"
       },
       "_provenance": {
         "inputs": [

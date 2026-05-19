@@ -36,7 +36,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + ISA 200_
 - Bij examenvragen 'welke zekerheid biedt IC?' is het correcte antwoord 'redelijke', niet 'absolute' of 'volledige'. Klassieke val.
 - Bij een controleverklaring naar een derde (bank, koper): wees expliciet dat 'redelijke zekerheid' niet hetzelfde is als 'gegarandeerd correct'. De gebruiker moet weten welk type assurance hij koopt.
 
-> [!info]- Niet verwarren met [[beperkte-zekerheid]]
+> [!info]- Niet verwarren met [[beperkte-mate-van-zekerheid]]
 > Redelijke zekerheid (audit) = hoog zekerheidsniveau, positief geformuleerde verklaring ('geeft getrouw beeld'). Beperkte zekerheid (review) = lager niveau, negatief geformuleerde verklaring ('niets gebleken dat erop wijst dat ...').
 >
 > _Trigger_: Type opdracht: audit → redelijke. Review → beperkte. Examen: vraag naar 'soort verklaring'.

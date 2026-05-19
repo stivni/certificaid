@@ -58,10 +58,44 @@ Rotex Roeselare NV verschuift op 28 december € 2M intercompany-vordering tijde
 _Grondslag: KB-WVV art. 3:1; algemeen rechtsbeginsel_
 
 
+## In de praktijk
+
+<h3 id="hoe-herken-je-een-schending-van-oprechtheid">Hoe herken je een schending van oprechtheid?</h3>
+
+> [!tip]- Hoe herken je een schending van oprechtheid?
+> Drie typische signalen: (1) **juridische vorm wijkt sterk af van economische realiteit** (bv. een sale-and-leaseback met terugkoopplicht die als gewone verkoop wordt geboekt), (2) **timing-trucs rond balansdatum** (intercompany-schuiven, vorderingen tijdelijk compenseren) die de balans op 31/12 oppoetsen, (3) **selectieve toelichting** waarbij negatieve informatie wordt geminimaliseerd of weggelaten. De externe controle (commissaris) richt zich expliciet op deze signalen. 🤖
+
+> [!tip]- Herkennen op het examen
+> Examen-casus met sale-and-leaseback of jaarafsluiting-window-dressing → toetsen aan oprechtheidsbeginsel.
+
+<h3 id="substance-over-form-in-de-praktijk">Substance-over-form in de praktijk</h3>
+
+> [!tip]- Substance-over-form in de praktijk
+> Bij elke verrichting met afwijkende juridische verpakking moet de stagiair de **economische** vraag stellen: 'wie draagt het risico, wie krijgt de beloning?' Dat antwoord bepaalt de boeking, niet het contract-label. Voorbeelden: financiële leasing (juridisch huur, economisch aankoop), factoring (juridisch verkoop, economisch financiering), commissionair-overeenkomst (juridisch verkoop, economisch agentschap). 🤖
+
+> [!tip]- Herkennen op het examen
+> Vraag 'hoe boek ik?' → eerst risico/beloning analyseren, dan pas boeken.
+
+
 > [!info]- Niet verwarren met [[voorzichtigheidsbeginsel]]
 > Oprechtheid eist een neutraal, eerlijk beeld. Voorzichtigheid stelt dat bij twijfel eerder onderschatten dan overschatten. Soms in spanning: te voorzichtig wordt onoprecht (kunstmatig minimaliseren). Beide moeten in balans.
 >
 > _Trigger_: Bij waardering twijfelt iemand → voorzichtig → mag niet zo ver gaan dat het beeld vertekend wordt → oprechtheid bepaalt de bovengrens van voorzichtigheid.
+
+
+## Valkuilen
+
+> [!warning]- Oprechtheid is de **bovengrens** van voorzichtigheid. Te voorzichtig waarderen (systematisch onder-onderwaarderen) wordt onoprecht.
+> ⚠️  🤖
+
+
+> [!warning]- Window-dressing op balansdatum (intercompany-schuiven, tijdelijke compensatie van rekeningen) is in strijd met oprechtheid, ook al is elke individuele boeking technisch correct.
+> ⚠️  🤖
+
+
+> [!warning]- Oprechtheid eist ook **volledigheid in toelichting** — een correcte balans met onvolledige toelichting is niet oprecht.
+> ⚠️  🤖
+
 
 
 ## Voorbeelden

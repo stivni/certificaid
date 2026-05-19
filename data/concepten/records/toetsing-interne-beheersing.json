@@ -98,6 +98,10 @@
       "type": "vergelijkt-met",
       "target": "gegevensgerichte-werkzaamheden",
       "redenering": "Twee complementaire manieren om assurance te verkrijgen."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "interne-controle"
     }
   ],
   "voorbeelden": [

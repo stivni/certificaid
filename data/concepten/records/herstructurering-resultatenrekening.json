@@ -19,8 +19,8 @@
     ],
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine — KB WVV-schema's RR (volledig, verkort, micro) zijn de juridische bron; de herwerking naar analytisch-functionele groepering komt uit financiële-analyse-praktijk.",
-    "note": "PO 1.9 wave-2: schema 1.5→1.6 + naam_alternatief",
-    "touched_at": "2026-05-19T00:00:00Z"
+    "note": "Gap-fix overnight 2026-05-19: in_praktijk-blok toegevoegd (3 items) voor uniforme rijkheid met andere methode-records in PO 1.9.",
+    "touched_at": "2026-05-19T20:00:00Z"
   },
   "bouwstenen": [
     {
@@ -153,5 +153,64 @@
   "migrated_doel_to_situering_at": "2026-05-18",
   "naam_alternatief": [
     "Restructured income statement"
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Examen-relevantie: vier blokken én TW-isolatie",
+      "betekenis": "Op het examen wordt getoetst of de stagiair een 'platte' resultatenrekening kan ontleden in (1) bedrijfs-, (2) financieel, (3) uitzonderlijk (oud schema) en (4) belastingblok, én daarbinnen de toegevoegde waarde kan isoleren. Vraag-type: 'herstructureer onderstaande RR' of 'bereken de TW uit volgende gegevens'. Antwoord moet beide niveaus tonen: blok-indeling én TW-detail.",
+      "anker_slug": "1.9.III.B",
+      "confidence": "inferred",
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Examencontext financiële analyse"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.III.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Verkort/microschema vraagt expliciete vermelding van beperking",
+      "betekenis": "Bij analyse van een verkort- of microschema (zoals een kleine BV) moet de stagiair in het antwoord uitdrukkelijk aangeven dat de TW-berekening onvolledig blijft zonder toelichtingsinformatie. De examencorrector beoordeelt het zien van de beperking, niet het magisch invullen van ontbrekende cijfers.",
+      "anker_slug": "1.9.III.C",
+      "confidence": "inferred",
+      "source": {
+        "type": "vakdoctrine",
+        "short": "KB WVV — verkort/microschema + examen-correctiepraktijk"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.III.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Concretisering Rotex Roeselare NV (volledig schema)",
+      "betekenis": "Volledig schema RR: omzet € 30.000.000 + andere bedrijfsopbrengsten € 500.000 − aankopen handelsgoederen € 12.500.000 = TW € 18.000.000. Daaronder: personeelskosten − € 12.000.000, afschrijvingen − € 1.500.000, andere bedrijfskosten ≈ − € 1.500.000 → bedrijfsresultaat ≈ € 3.000.000. Financieel resultaat − € 600.000, belastingen − € 1.500.000 → nettoresultaat ≈ € 900.000 (cijfers zijn illustratief).",
+      "anker_slug": "1.9.III.B",
+      "confidence": "inferred",
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Voorbeeld-case Rotex Roeselare NV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.III.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
   ]
 }

@@ -1,0 +1,195 @@
+import os, sys
+os.chdir('/Users/stivni/Documents/ITAA/certificaid')
+sys.path.insert(0, '/Users/stivni/Documents/ITAA/certificaid')
+from tools.lib.records_api import save_record
+
+record = {
+    "id": "werkkapitaalbehoefte",
+    "naam": "Werkkapitaalbehoefte (besoin en fonds de roulement, BFR)",
+    "node_type": "begrip",
+    "schema_version": "1.6",
+    "status": "seed",
+    "linked_anchors": ["1.3.II.C", "1.3.taak.1"],
+    "naam_alternatief": [
+        "Besoin en fonds de roulement (BFR)",
+        "Working capital requirement"
+    ],
+    "_provenance": {
+        "extractor_run": "concept-extractie-v4-2026-05-19T-overnight-gap-fix",
+        "model": "claude-opus-4-7",
+        "anchor_id": "1.3.II.C",
+        "linked_anchors": ["1.3.II.C", "1.3.taak.1"],
+        "reviewed_by": None,
+        "bron_gap": "Geen Belgische trusted bron in de bundle. Standaard financial-analysis-doctrine (Ooghe & Van Wymeersch). Confidence: inferred-common-knowledge."
+    },
+    "situering": {
+        "text": "Werkkapitaalbehoefte = (voorraden + handelsvorderingen) − handelsschulden. Het meet hoeveel cash de operationele cyclus zelf vraagt om de tijd tussen aankoop, verkoop en betaling te overbruggen. Samen met werkkapitaal (de absolute buffer uit de balans) bepaalt het de netto-kaspositie: werkkapitaal − werkkapitaalbehoefte = nettokas. Wanneer werkkapitaalbehoefte groter is dan werkkapitaal, ontstaat een structureel liquiditeitstekort dat moet worden opgevangen met bankkrediet of leveranciersuitstel.",
+        "confidence": "inferred-from-aggregation",
+        "source": {
+            "type": "vakdoctrine",
+            "short": "Vakdoctrine financial analysis"
+        },
+        "_provenance": {
+            "inputs": [
+                {"id": "aggregate", "sha256": None, "version": "rag-v1"}
+            ]
+        }
+    },
+    "definitie": {
+        "text": "De werkkapitaalbehoefte is het bedrag aan financiering dat de operationele cyclus van de onderneming nodig heeft: de som van voorraden en handelsvorderingen, verminderd met de handelsschulden. Het toont hoeveel cash er vastzit in de cyclus tussen aankoop, productie, verkoop en inning.",
+        "confidence": "inferred-common-knowledge",
+        "source": {
+            "type": "vakdoctrine",
+            "short": "Algemene financial-analysis-doctrine"
+        },
+        "_provenance": {
+            "inputs": [
+                {"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}
+            ]
+        }
+    },
+    "bouwstenen": [
+        {
+            "titel": "Drie operationele componenten",
+            "wat": "Voorraden + handelsvorderingen − handelsschulden. De eerste twee binden cash (geld dat in voorraad of nog niet geïnd is); de handelsschulden vrijgeven cash (leveranciers financieren de cyclus mee).",
+            "waarom": "Hoe langer de productie- en inningscyclus, hoe meer middelen er nodig zijn om die te financieren tot het verkochte product effectief wordt betaald.",
+            "grondslag": "Vakdoctrine financial analysis",
+            "confidence": "inferred-common-knowledge",
+            "source": {
+                "type": "vakdoctrine",
+                "short": "Financial analysis"
+            },
+            "_provenance": {
+                "inputs": [
+                    {"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}
+                ]
+            },
+            "voorbeelden": [
+                {
+                    "vorm": "eenvoudig",
+                    "omschrijving": "Rotex Roeselare NV: voorraden € 2.500.000 + handelsvorderingen € 4.000.000 − handelsschulden € 1.800.000 = werkkapitaalbehoefte € 4.700.000."
+                }
+            ]
+        },
+        {
+            "titel": "Sectorgebonden",
+            "wat": "Een groothandel of producent met lange productiecyclus heeft een hoge werkkapitaalbehoefte; een supermarkt (kort houdbare voorraad, cash-verkoop) of dienstverlener heeft een lage of zelfs negatieve werkkapitaalbehoefte.",
+            "waarom": "Bedrijven die snel innen (cash bij verkoop) en traag betalen aan leveranciers, laten in feite de leverancier hun cyclus financieren — werkkapitaalbehoefte negatief.",
+            "grondslag": "Vakdoctrine",
+            "confidence": "inferred",
+            "source": {
+                "type": "vakdoctrine",
+                "short": "Financial analysis"
+            },
+            "_provenance": {
+                "inputs": [
+                    {"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}
+                ]
+            },
+            "voorbeelden": [
+                {
+                    "vorm": "eenvoudig",
+                    "omschrijving": "Supermarkt Mertens BV: voorraad € 200.000 + handelsvorderingen € 50.000 − handelsschulden € 600.000 = werkkapitaalbehoefte € −350.000. De leveranciers financieren de cyclus."
+                }
+            ]
+        }
+    ],
+    "berekeningsmethode": [
+        {
+            "naam": "Berekening werkkapitaalbehoefte",
+            "ratio": "De operationele cyclus (van aankoop tot inning) heeft permanent een hoeveelheid cash nodig. Voorraad en vorderingen binden cash; handelsschulden vrijgeven cash.",
+            "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+            "confidence": "inferred-common-knowledge",
+            "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}]},
+            "formules": [
+                {
+                    "id": "werkkapitaalbehoefte-formule",
+                    "naam": "Werkkapitaalbehoefte",
+                    "wiskunde": "werkkapitaalbehoefte = voorraden + handelsvorderingen − handelsschulden",
+                    "variabelen": [
+                        {"symbool": "voorraden", "betekenis": "Balanspost VI (voorraden en bestellingen in uitvoering)", "eenheid": "EUR"},
+                        {"symbool": "handelsvorderingen", "betekenis": "Vorderingen op ten hoogste een jaar uit hoofde van handelstransacties (rubriek VII.A.4 handelsvorderingen)", "eenheid": "EUR"},
+                        {"symbool": "handelsschulden", "betekenis": "Schulden op ten hoogste een jaar tegenover leveranciers (rubriek IX.C.1 handelsschulden)", "eenheid": "EUR"}
+                    ],
+                    "invulling_voorbeeld": {
+                        "waarden": "Rotex: voorraden € 2.500.000; handelsvorderingen € 4.000.000; handelsschulden € 1.800.000",
+                        "berekening": "€ 2.500.000 + € 4.000.000 − € 1.800.000 = € 4.700.000",
+                        "eenheid_resultaat": "EUR"
+                    }
+                },
+                {
+                    "id": "nettokas-formule",
+                    "naam": "Nettokaspositie",
+                    "wiskunde": "nettokas = werkkapitaal − werkkapitaalbehoefte",
+                    "afhankelijk_van": ["werkkapitaalbehoefte-formule"],
+                    "variabelen": [
+                        {"symbool": "werkkapitaal", "betekenis": "Vlottende activa − schulden op ten hoogste een jaar (zie record [[werkkapitaal]])", "eenheid": "EUR"},
+                        {"symbool": "werkkapitaalbehoefte", "betekenis": "Resultaat van de eerste formule", "eenheid": "EUR"}
+                    ],
+                    "invulling_voorbeeld": {
+                        "waarden": "Rotex: werkkapitaal € 4.000.000; werkkapitaalbehoefte € 4.700.000",
+                        "berekening": "€ 4.000.000 − € 4.700.000 = € −700.000",
+                        "eenheid_resultaat": "EUR (negatief = liquiditeitstekort, op te vangen met bankkrediet)"
+                    }
+                }
+            ]
+        }
+    ],
+    "in_praktijk": [
+        {
+            "aspect": "Liquiditeitstekort detecteren",
+            "betekenis": "De vergelijking werkkapitaal versus werkkapitaalbehoefte is de standaard-redenering voor liquiditeitsdiagnose. Werkkapitaal < werkkapitaalbehoefte = structureel liquiditeitstekort: de balans-buffer dekt de operationele behoefte niet en de onderneming moet noodzakelijk extern krediet aantrekken (kaskrediet, factoring, leveranciersuitstel).",
+            "anker_slug": "1.3.II.C",
+            "confidence": "inferred-common-knowledge",
+            "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+            "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}]}
+        },
+        {
+            "aspect": "Decompositie via rotatieratio's",
+            "betekenis": "Een stijgende werkkapitaalbehoefte komt meestal uit (a) tragere voorraadrotatie (voorraad blijft langer liggen), (b) langere klantkrediet-termijn (vorderingen stijgen sneller dan omzet), of (c) kortere leverancierskrediet-termijn. Combineer altijd met de rotatie-ratio's om te zien welk element verklarend is.",
+            "anker_slug": "1.3.II.C",
+            "confidence": "inferred",
+            "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+            "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}]}
+        }
+    ],
+    "vergelijkingsparen": [
+        {
+            "vergelijking_met": "werkkapitaal",
+            "verschil": "Werkkapitaal = wat er is (balans-buffer: vlottende activa − korte schulden). Werkkapitaalbehoefte = wat er nodig is (operationele cyclus: voorraden + handelsvorderingen − handelsschulden). Verschil = nettokaspositie.",
+            "trigger": "Examenvraag 'beschikbaar versus benodigd werkkapitaal': beschikbaar = werkkapitaal; benodigd = werkkapitaalbehoefte.",
+            "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}]}
+        }
+    ],
+    "valkuilen": [
+        {
+            "text": "Niet alle vorderingen en schulden horen in de berekening. Werkkapitaalbehoefte bevat alleen de operationele cyclus-componenten: handelsvorderingen en handelsschulden, niet bv. fiscale schulden, dividenduitkeringen of financiële schulden ≤ 1 jaar.",
+            "confidence": "inferred",
+            "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+            "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}]}
+        },
+        {
+            "text": "Een negatieve werkkapitaalbehoefte is niet automatisch goed: ze betekent dat de onderneming sterk afhankelijk is van leverancierskrediet. Bij verstrenging (leveranciers eisen contante betaling) klapt de operationele cyclus in elkaar.",
+            "confidence": "inferred",
+            "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+            "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": None, "version": "rag-v1"}]}
+        }
+    ],
+    "edges": [
+        {
+            "type": "vergelijkt-met",
+            "target": "werkkapitaal",
+            "redenering": "Werkkapitaalbehoefte (benodigd uit cyclus) tegenover werkkapitaal (beschikbaar uit balans). Het verschil = nettokas.",
+            "confidence": "inferred"
+        },
+        {
+            "type": "onderdeel-van",
+            "target": "liquiditeitsratio",
+            "redenering": "Werkkapitaalbehoefte is een liquiditeitsdiagnose-instrument naast de klassieke ratio's.",
+            "confidence": "inferred"
+        }
+    ]
+}
+
+save_record(record)
+print("OK werkkapitaalbehoefte saved")

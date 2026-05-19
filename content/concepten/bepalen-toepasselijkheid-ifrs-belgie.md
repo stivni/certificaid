@@ -123,6 +123,12 @@ Combineer rapporteringsniveau (stap 1) + notering (stap 2) + sectorale status om
 > _Grondslag_: [[ifrs-toepassingsgebied-belgie]] §statutair-niveau
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[ifrs-toepassingsgebied-belgie]]
+- **Vereist kennis van**: [[ifrs-eerste-toepassing]]
+- **Vereist kennis van**: [[uitvoeren-eerste-toepassing-ifrs]]
+
 ## Voorbeelden
 
 

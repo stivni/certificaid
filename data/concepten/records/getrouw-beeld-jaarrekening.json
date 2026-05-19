@@ -26,7 +26,14 @@
       "1.3.taak.1"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.V.A', '1.2.V', '1.2.IV', '1.2.taak.1'] door PO 1.2-extractie."
+    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.V.A', '1.2.V', '1.2.IV', '1.2.taak.1'] door PO 1.2-extractie.",
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "cross-link toegevoegd naar getrouw-beeld (overlap-flag voor toekomstige merge)"
+      ]
+    }
   },
   "main_rule": {
     "text": "De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Volstaat de toepassing van de regels in titel 2 en 3 van het uitvoeringsbesluit niet om dat beeld te geven, dan moeten in de toelichting bijkomende inlichtingen worden verstrekt.",
@@ -210,8 +217,8 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "materieel-belang-financiele-analyse",
-      "redenering": "Materialiteit bepaalt welke afwijkingen het getrouwe beeld in gevaar brengen.",
+      "target": "materieel-belang-jaarrekening",
+      "redenering": "Materialiteit (volgens KB-WVV art. 3:1 en CBN-2018/15) bepaalt welke afwijkingen het getrouwe beeld in gevaar brengen.",
       "confidence": "inferred"
     },
     {
@@ -225,6 +232,18 @@
       "target": "doelstellingen-financiele-analyse",
       "redenering": "Het getrouwe beeld is de centrale doelstelling waar alle analyse-objectieven onder hangen.",
       "confidence": "inferred"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "getrouw-beeld",
+      "redenering": "getrouw-beeld-jaarrekening is de jaarrekening-specifieke uitwerking van het algemene getrouw-beeld-beginsel.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "getrouw-beeld",
+      "aspect": "perspectief",
+      "redenering": "Beide records dekken het getrouw-beeld-beginsel. Dit record dekt het jaarrekening-perspectief (PO 1.2 — toelichtingsverplichting); getrouw-beeld dekt het beginsel-perspectief (PO 1.1). Kandidaat voor merge in volgende VERIFY-pass."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",

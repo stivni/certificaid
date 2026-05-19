@@ -152,5 +152,62 @@
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
   "situering": "Het oprechtheidsbeginsel verlangt dat de boekhouding de **werkelijke economische realiteit** weergeeft — geen vertekening, geen camouflage, geen window-dressing. Verrichtingen worden geboekt naar hun economische substantie, niet naar hun juridische vorm als die misleidend is. Klassiek examenscenario: sale-and-leaseback dat economisch een financiering is.",
-  "naam_alternatief": "true and fair principle / principe de sincérité"
+  "naam_alternatief": "true and fair principle / principe de sincérité",
+  "in_praktijk": [
+    {
+      "aspect": "Hoe herken je een schending van oprechtheid?",
+      "betekenis": "Drie typische signalen: (1) **juridische vorm wijkt sterk af van economische realiteit** (bv. een sale-and-leaseback met terugkoopplicht die als gewone verkoop wordt geboekt), (2) **timing-trucs rond balansdatum** (intercompany-schuiven, vorderingen tijdelijk compenseren) die de balans op 31/12 oppoetsen, (3) **selectieve toelichting** waarbij negatieve informatie wordt geminimaliseerd of weggelaten. De externe controle (commissaris) richt zich expliciet op deze signalen.",
+      "herkenningspunt": "Examen-casus met sale-and-leaseback of jaarafsluiting-window-dressing → toetsen aan oprechtheidsbeginsel.",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Substance-over-form in de praktijk",
+      "betekenis": "Bij elke verrichting met afwijkende juridische verpakking moet de stagiair de **economische** vraag stellen: 'wie draagt het risico, wie krijgt de beloning?' Dat antwoord bepaalt de boeking, niet het contract-label. Voorbeelden: financiële leasing (juridisch huur, economisch aankoop), factoring (juridisch verkoop, economisch financiering), commissionair-overeenkomst (juridisch verkoop, economisch agentschap).",
+      "herkenningspunt": "Vraag 'hoe boek ik?' → eerst risico/beloning analyseren, dan pas boeken.",
+      "confidence": "inferred",
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Oprechtheid is de **bovengrens** van voorzichtigheid. Te voorzichtig waarderen (systematisch onder-onderwaarderen) wordt onoprecht.",
+      "vaak_fout": "Een 'voorzichtige' systematische onderwaardering van voorraden of vorderingen om winst te 'sparen' voor volgende jaren — schending oprechtheid (cookie-jar accounting).",
+      "grondslag": "KB-WVV art. 3:1; CBN-advies 174/1"
+    },
+    {
+      "advies": "Window-dressing op balansdatum (intercompany-schuiven, tijdelijke compensatie van rekeningen) is in strijd met oprechtheid, ook al is elke individuele boeking technisch correct.",
+      "vaak_fout": "Een eind-jaars 'opschoning' van de balans door intercompany-vorderingen tijdelijk weg te boeken — vorm correct, substantie onoprecht.",
+      "grondslag": "KB-WVV art. 3:1; algemeen rechtsbeginsel"
+    },
+    {
+      "advies": "Oprechtheid eist ook **volledigheid in toelichting** — een correcte balans met onvolledige toelichting is niet oprecht.",
+      "vaak_fout": "Off-balance-verplichtingen (borgstellingen, hangende geschillen) niet in de toelichting opnemen omdat ze 'niet in cijfers staan'. De toelichting hoort daar verplicht bij.",
+      "grondslag": "KB-WVV art. 3:91"
+    }
+  ]
 }

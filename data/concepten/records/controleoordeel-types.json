@@ -23,8 +23,8 @@
       "op": "2026-05-18",
       "reden": "Deprecated 'bevat' edge verwijderd; aangepast-oordeel heeft inverse onderdeel-van (§9)."
     },
-    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:22:12Z",
-    "last_extract_at": "2026-05-18T16:22:12Z",
+    "last_extract_pass": "concept-extractie-v4-quickfix-2026-05-19-verify-gap",
+    "last_extract_at": "2026-05-19T00:00:00Z",
     "notes": [
       {
         "op": "2026-05-18",
@@ -187,7 +187,7 @@
   "migrated_doel_to_situering_at": "2026-05-18",
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "afkeurend-oordeel-vs-oordeel-met-voorbehoud",
+      "vergelijking_met": "controleoordeel-types",
       "verschil": "Beide gaan over een AFWIJKING in de jaarrekening die voldoende-en-geschikte assurance-informatie heeft opgeleverd. Oordeel met voorbehoud = de afwijking is materieel maar GEÏSOLEERD (één post, één rubriek): de rest van de jaarrekening blijft gebruikbaar. Afkeurend oordeel = de afwijking is materieel ÉN DIEPGAAND: de hele jaarrekening is misleidend, één paragraaf voorbehoud zou de gebruiker bedriegen.",
       "trigger": "Examenvraag: ‘systematische overwaardering van voorraden die balans en resultaat omslaat’ → afkeurend. ‘één deelneming € 250.000 te hoog gewaardeerd’ → oordeel met voorbehoud.",
       "_provenance": {
@@ -203,10 +203,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "aspect": "afkeurend oordeel versus oordeel met voorbehoud (beide bij afwijking)",
+      "corrected_from": "afkeurend-oordeel-vs-oordeel-met-voorbehoud",
+      "correction_reason": "Was aspect-label in vergelijking_met-veld; herzet als intra-cluster vergelijking tussen bouwstenen met expliciet aspect."
     },
     {
-      "vergelijking_met": "oordeelonthouding-vs-oordeel-met-voorbehoud",
+      "vergelijking_met": "controleoordeel-types",
       "verschil": "Beide kunnen het gevolg zijn van SCOPE-BEPERKING (geen voldoende-en-geschikte assurance-informatie). Oordeel met voorbehoud = de niet-detecteerbare effecten zijn materieel maar geïsoleerd. Oordeelonthouding = de niet-detecteerbare effecten kunnen materieel én diepgaand zijn (één pijler van de jaarrekening niet auditeerbaar). De auditor kan dan geen oordeel formuleren.",
       "trigger": "Examenvraag: ‘klant weigert openingsbalans + alle aankoopfacturen H1’ → oordeelonthouding. ‘inventarisatie van één magazijn niet bijwoonbaar, alternatieve procedures slagen niet’ → oordeel met voorbehoud.",
       "_provenance": {
@@ -222,7 +225,10 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "aspect": "oordeelonthouding versus oordeel met voorbehoud (beide bij scope-beperking)",
+      "corrected_from": "oordeelonthouding-vs-oordeel-met-voorbehoud",
+      "correction_reason": "Was aspect-label in vergelijking_met-veld; herzet als intra-cluster vergelijking tussen bouwstenen met expliciet aspect."
     }
   ],
   "naam_alternatief": "types of audit opinion"

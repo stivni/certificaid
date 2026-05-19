@@ -24,6 +24,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "resultatenrekening-edge geldig + vergelijkingspaar bedrijfsresultaat toegevoegd (KB 21/10/2018-overgang)"
+      ]
     }
   },
   "definitie": {
@@ -174,7 +181,22 @@
       }
     }
   ],
-  "vergelijkingsparen": [],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "bedrijfsresultaat",
+      "verschil": "Bedrijfsresultaat = **recurrente** operationele activiteit (rubrieken 70-74 minus 60-64). Niet-recurrent resultaat = **eenmalig** of buitengewoon (76A/66A bedrijfsmatig, 76B/66B financieel — sinds KB 21/10/2018). Belangrijk voor analisten: ze normaliseren resultaat door niet-recurrente posten te verwijderen.",
+      "trigger": "Examen: 'meerwaarde verkoop oud kantoorpand' → niet-recurrent bedrijfsmatig (76A). 'omzet uit hoofdactiviteit' → recurrent bedrijfsresultaat (70). De oude term 'uitzonderlijk resultaat' (vóór KB 2018) is afgeschaft.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_90",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
   "edges": [
     {
       "type": "onderdeel-van",

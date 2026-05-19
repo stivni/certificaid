@@ -79,6 +79,11 @@ _Grondslag: Vakdoctrine_
 >
 > _Trigger_: Examenvraag 'absolute buffer of relatieve dekking?': absoluut = werkkapitaal; relatief = current ratio.
 
+> [!info]- Niet verwarren met [[werkkapitaalbehoefte]]
+> Werkkapitaal = wat er is uit de balans (vlottende activa − schulden op ten hoogste een jaar). Werkkapitaalbehoefte = wat de operationele cyclus nodig heeft (voorraden + handelsvorderingen − handelsschulden). Het verschil tussen beide = nettokaspositie. Negatieve nettokas = structureel liquiditeitstekort.
+>
+> _Trigger_: Examenvraag 'beschikbaar versus benodigd werkkapitaal' of 'wanneer is er liquiditeitstekort?': vergelijk werkkapitaal (beschikbaar uit balans) met werkkapitaalbehoefte (benodigd voor cyclus).
+
 
 ## Valkuilen
 

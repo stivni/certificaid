@@ -121,7 +121,7 @@ _Grondslag: WVV art. 3:10 — 3:14_
 
 ## Zie ook
 
-- **Getriggerd door**: [[jaarafsluiting]]
+- **Getriggerd door**: [[eindejaarsverrichtingen]]
 
 ## Voorbeelden
 

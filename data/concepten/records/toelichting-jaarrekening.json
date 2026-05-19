@@ -170,6 +170,12 @@
       "target": "volledigheidsbeginsel",
       "redenering": "Toelichting realiseert het volledigheidsbeginsel voor info buiten de balans.",
       "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "toelichtingsvereisten-jaarrekening-ifrs",
+      "regime": "BE-GAAP",
+      "aspect": "regime-paralleel BE-GAAP ↔ IFRS"
     }
   ],
   "voorbeelden": [

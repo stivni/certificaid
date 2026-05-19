@@ -187,6 +187,11 @@
       "target": "immateriele-vaste-activa-ifrs",
       "redenering": "Onbepaalde-gebruiksduur-immateriële activa worden jaarlijks getest onder IAS 36.",
       "confidence": "grounded"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "bijzondere-waardevermindering",
+      "regime": "IFRS"
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",

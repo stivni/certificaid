@@ -24,6 +24,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "vergelijkingspaar: beschikbare-reserves→wettelijke-reserve (canonical record)"
+      ]
     }
   },
   "definitie": {
@@ -174,9 +181,10 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "beschikbare-reserves",
+      "vergelijking_met": "wettelijke-reserve",
       "verschil": "Uitgiftepremie (rubriek 11): juridisch gelijkgesteld met kapitaal, vereist kapitaalverminderingsprocedure voor terugbetaling. Beschikbare reserves (rubriek 133): vrij uitkeerbaar als dividend mits voldaan aan algemene uitkeringstesten.",
-      "trigger": "Examen: 'kunnen uitgiftepremies als dividend worden uitgekeerd?' — Niet als gewoon dividend, wel via kapitaalverminderingsprocedure."
+      "trigger": "Examen: 'kunnen uitgiftepremies als dividend worden uitgekeerd?' — Niet als gewoon dividend, wel via kapitaalverminderingsprocedure.",
+      "_note": "target gewijzigd van beschikbare-reserves (geen eigen record) naar wettelijke-reserve (canonical)"
     }
   ],
   "edges": [

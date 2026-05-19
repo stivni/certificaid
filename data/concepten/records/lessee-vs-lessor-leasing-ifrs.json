@@ -113,5 +113,15 @@
       "pass": "concept-extractie-v4-1.5.V",
       "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
     }
+  ],
+  "kerninzichten": [
+    "De asymmetrie tussen lessee-model (IFRS 16) en lessor-model bestaat omdat de IASB bij IFRS 16 alleen de lessee-kant heeft gemoderniseerd. De lessor blijft op het IAS 17-onderscheid operationeel/financieel — als boekhoudkundig conservatisme: een lessor zou anders alle activa van zijn balans halen wat het bedrijfsmodel onzichtbaar maakt.",
+    "Onder lessee-zicht is **elke** lease een asset (right-of-use) plus een lease-verplichting — geen distinctie meer tussen operationeel en financieel (afgezien van korte termijn + lage waarde-uitzonderingen).",
+    "Onder lessor-zicht blijft het onderscheid wezenlijk: financiële lease = activa van de boekhouding (alleen vordering blijft), operationele lease = activa blijven op balans (huurinkomen via resultaatrekening).",
+    "Stagiair-check: 'wie ben ik in deze transactie?' (lessee of lessor) bepaalt welk model je toepast. Klassieke val: beide perspectieven mengen."
+  ],
+  "in_praktijk": [
+    "Bij een dossier-analyse: identificeer eerst de positie van de cliënt (lessee of lessor). Daarna het regime (IFRS of BE GAAP). Beide vragen sturen het volledige boekingspatroon.",
+    "Sale-and-leaseback-transacties: de verkoper-lessee past IFRS 16 alinea 98-103 toe (gedeeltelijke afstand van het actief). Hier zijn de twee perspectieven gecombineerd in één transactie."
   ]
 }

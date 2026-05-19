@@ -80,6 +80,12 @@ _Grondslag: KB 21/10/2018 — invoering 'niet-recurrent'_
 > Examen: 'eenmalige minderwaarde op verkoop van een deelneming' → niet-recurrente FINANCIËLE kost (rekening 666X), niet bedrijfs.
 
 
+> [!info]- Niet verwarren met [[bedrijfsresultaat]]
+> Bedrijfsresultaat = **recurrente** operationele activiteit (rubrieken 70-74 minus 60-64). Niet-recurrent resultaat = **eenmalig** of buitengewoon (76A/66A bedrijfsmatig, 76B/66B financieel — sinds KB 21/10/2018). Belangrijk voor analisten: ze normaliseren resultaat door niet-recurrente posten te verwijderen.
+>
+> _Trigger_: Examen: 'meerwaarde verkoop oud kantoorpand' → niet-recurrent bedrijfsmatig (76A). 'omzet uit hoofdactiviteit' → recurrent bedrijfsresultaat (70). De oude term 'uitzonderlijk resultaat' (vóór KB 2018) is afgeschaft.
+
+
 ## Valkuilen
 
 > [!warning]- Niet-recurrent ≠ uitzonderlijk in absolute zin
@@ -98,3 +104,4 @@ Rotex Roeselare NV verkoopt in 20X1 een verouderde productielijn (boekwaarde €
 [^1]: `MAR-ondernemingen__art_6`
 [^2]: `CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-bre__sec_afwaardering-van-vlottende-en-vaste-activa`
 [^3]: `MAR-ondernemingen__art_7`
+[^4]: `KB-WVV-2019__art_3_90`

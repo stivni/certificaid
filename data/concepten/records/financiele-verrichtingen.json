@@ -21,6 +21,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "resultatenrekening-record bestaat nu (aangemaakt 2026-05-19) — edge geldig"
+      ]
     }
   },
   "definitie": {

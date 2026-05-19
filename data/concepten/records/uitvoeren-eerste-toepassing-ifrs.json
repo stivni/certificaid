@@ -22,7 +22,8 @@
     "ifrs-eerste-toepassing",
     "wijziging-boekhoudkundig-referentiestelsel",
     "jaarrekening-componenten-ifrs",
-    "be-gaap-vs-ifrs-overzicht"
+    "be-gaap-vs-ifrs-overzicht",
+    "stelselwissel-jaarrekening"
   ],
   "procedure_grondslag": {
     "wettelijk_pct": 70,
@@ -223,6 +224,16 @@
       "datum": "2026-05-18",
       "run_id": "concept-extractie-v4-2026-05-18T10:33Z-1.5.taak.1",
       "reden": "Stale wikilink [[ias-1-jaarrekening-componenten]] in stap 5 valkuilen.grondslag → [[jaarrekening-componenten-ifrs]] (post-rename)."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "ifrs-eerste-toepassing"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "stelselwissel-jaarrekening"
     }
   ]
 }

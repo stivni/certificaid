@@ -79,10 +79,21 @@ Zelena Bio NV neemt een biotech-startup over voor € 50.000.000. Bij de purchas
 _Grondslag: IAS 38 alinea 33-35 + IFRS 3_
 
 
+## In de praktijk
+
+- Onder IAS 38 zijn **onderzoekskosten** niet activeerbaar (alinea 54: kosten — direct in W&V). **Ontwikkelingskosten** zijn activeerbaar mits **zes cumulatieve criteria** (alinea 57): technische haalbaarheid, intentie tot afwerking, vermogen tot gebruik of verkoop, toekomstige economische voordelen aantoonbaar, voldoende middelen, betrouwbare meting van uitgaven.
+- Praktijktest: 'studie- en ontwerpkosten vóór de ontwikkelingsfase' = onderzoek = direct W&V. 'Bouwen van een eerste werkend prototype na vaststelling haalbaarheid' = ontwikkeling = activeerbaar als alle zes criteria voldaan.
+- Software-classificatie: **geïntegreerde** software (operating system in laptop) = onderdeel van materieel vast actief (IAS 16). **Losse standalone software** (boekhoudpakket) = immaterieel vast actief (IAS 38). **Software voor doorverkoop** = voorraad (IAS 2).
+
 > [!info]- Niet verwarren met [[immateriele-vaste-activa]]
 > Belgisch GAAP (KB WVV) staat activering van onderzoekskosten **wel** toe (vóór 2016 ruim; sindsdien beperkter onder bepaalde voorwaarden). IFRS verbiedt onderzoekskosten te activeren — kost. Intern gegenereerde merken: onder BE-GAAP soms toegestaan; onder IFRS expliciet verboden (alinea 63). Bij eerste IFRS-toepassing zijn geactiveerde onderzoekskosten een typische schrap-post.
 >
 > _Trigger_: Examen: onderneming heeft € 2.500.000 onderzoekskosten op balans. Welk stelsel? → Als IFRS: schrappen, ingehouden winsten −€ 2.500.000. Als BE-GAAP: behouden mits voorwaarden vervuld.
+
+> [!info]- Niet verwarren met [[materiele-vaste-activa-ifrs]]
+> Software-classificatie: geïntegreerd in hardware (BIOS, OS op laptop) → MVA onder IAS 16. Losstaand softwarepakket (boekhoudprogramma, ERP) → IVA onder IAS 38. Software voor doorverkoop (handelsgoed) → voorraad onder IAS 2. Doorslaggevende vraag: 'kan dit actief zelfstandig functioneren of is het inherent gebonden aan het materiële actief?'
+>
+> _Trigger_: Examen: 'op welke rekening classificeer ik een software-aankoop?' → check zelfstandigheid versus integratie.
 
 
 ## Valkuilen
@@ -109,7 +120,7 @@ _Grondslag: IAS 38 alinea 33-35 + IFRS 3_
 ## Zie ook
 
 - **Vereist kennis van**: [[bijzondere-waardevermindering-ifrs]]
-- **Wordt voorondersteld in** (1): [[bijzondere-waardevermindering-ifrs]]
+
 ## Voorbeelden
 
 Zelena Bio NV ontwikkelt een nieuw farmaceutisch productieproces. Uitgaven 2025 totaal € 1.000.000, waarvan € 900.000 vóór 1 december 2025 (onderzoeksfase — als kost) en € 100.000 ná 1 december 2025 (ontwikkelingsfase — geactiveerd want zes criteria alinea 57 vervuld). Immaterieel actief op balans per 31 december 2025 = € 100.000.

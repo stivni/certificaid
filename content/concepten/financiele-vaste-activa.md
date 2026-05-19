@@ -89,7 +89,7 @@ _Grondslag: KB WVV art. 3:35 + CBN 2017/11_
 > Examen: 'wij kochten obligaties met de intentie ze 10 jaar aan te houden om de uitgevende KMO te steunen' → FVA rubriek 28. 'wij kochten obligaties voor cashmanagement' → geldbelegging rubriek 51.
 
 
-> [!info]- Niet verwarren met [[geldbelegging]]
+> [!info]- Niet verwarren met [[geldbeleggingen]]
 > FVA: duurzaam ondersteuningsoogmerk, rubriek 28, aanschaffingsprijs-waardering. Geldbelegging: korte-termijn-rendement, rubriek 5x, mogelijk gewaardeerd aan lagere van aanschaffingswaarde/marktwaarde.
 >
 > _Trigger_: Examen: 'verworven met de bedoeling de groep duurzaam te ondersteunen' → FVA. 'tijdelijke parking van overtollige liquiditeiten' → geldbelegging.

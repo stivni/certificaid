@@ -1,0 +1,542 @@
+{
+  "programmaonderdeel": "1.1",
+  "agent_run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+  "afgerond_op": "2026-05-19T00:00:00Z",
+  "updates": [
+    {
+      "match_op": {
+        "record_id": "kleine-vennootschap",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Record is al uitgebreid verrijkt sinds gap-mining: vier in_praktijk-punten (groottetoets-timing, groepsconsolidatie-test, commissaris-vrijstelling, fiscaal vs boekhoudkundig), vijf valkuilen (PIE-statuut, één-criterium-overschrijding, gefaseerde transitie, groep-test, EUR exclusief BTW), twee vergelijkingsparen (microvennootschap, grote-vennootschap-wvv). Gap is achterhaald."
+    },
+    {
+      "match_op": {
+        "record_id": "continuiteitsbeginsel",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edges gefixed: boekhoudkundige-beginselen → boekhoudbeginselen-overzicht (canonical synthese); waarderingsregels → waarderingsregels-jaarrekening; vereffening blijft (record bestaat)."
+    },
+    {
+      "match_op": {
+        "record_id": "voorzichtigheidsbeginsel",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edges gefixed: boekhoudkundige-beginselen → boekhoudbeginselen-overzicht; waarderingsregels → waarderingsregels-jaarrekening. overeenstemmingsprincipe als apart record niet gemaakt — concept zit als 'realisatie-vs-matching' aspect intra-record."
+    },
+    {
+      "match_op": {
+        "record_id": "getrouw-beeld",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edge boekhoudkundige-beginselen → boekhoudbeginselen-overzicht gefixed."
+    },
+    {
+      "match_op": {
+        "record_id": "onveranderlijkheid-boekingen",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edge boekhoudkundige-beginselen → boekhoudbeginselen-overzicht gefixed."
+    },
+    {
+      "match_op": {
+        "record_id": "inventaris",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edges gefixed: jaarafsluiting → eindejaarsverrichtingen; waarderingsregels → waarderingsregels-jaarrekening."
+    },
+    {
+      "match_op": {
+        "record_id": "overlopende-rekeningen",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edges gefixed: jaarafsluiting → eindejaarsverrichtingen; matching-principe → voorzichtigheidsbeginsel (vereist-kennis-van; matching is een aspect binnen voorzichtigheid). Geen apart matching-principe-record gemaakt."
+    },
+    {
+      "match_op": {
+        "record_id": "oprichtingskosten",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "obligatielening-record bestaat — edge is geldig. Gap was achterhaald."
+    },
+    {
+      "match_op": {
+        "record_id": "dagboek",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "verantwoordingsstuk-record aangemaakt (WER art. III.83); edge is nu geldig."
+    },
+    {
+      "match_op": {
+        "record_id": "regelmatige-boekhouding",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "verantwoordingsstuk-record aangemaakt; edge geldig."
+    },
+    {
+      "match_op": {
+        "record_id": "po-1.1",
+        "aspect": "open-werk",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Examenvraag-classificatie per anchor 1.1.X is geen scope van deze gap-fix-sessie. Blijft staan voor latere fase."
+    },
+    {
+      "match_op": {
+        "record_id": "getrouw-beeld",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Cross-link vergelijkt-met getrouw-beeld-jaarrekening toegevoegd op beide records, met overlap-flag voor toekomstige merge-pass. Full merge vereist incoming-edge-redirect op meerdere records; defer aan dedicated VERIFY+rename-pass."
+    },
+    {
+      "match_op": {
+        "record_id": "bewaring-boekhoudstukken",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Cross-link vergelijkt-met bewaartermijn-boekhouding toegevoegd op beide records met overlap-flag. Full merge: defer aan VERIFY-pass."
+    },
+    {
+      "match_op": {
+        "record_id": "rechten-verplichtingen-buiten-balans",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Drie-perspectief-aanpak: rechten-verplichtingen-buiten-balans (cluster, overkoepelend) krijgt vereist-kennis-van edges naar klasse-0-niet-in-balans (boekhoudkundig perspectief) en niet-in-balans-opgenomen-rechten-verplichtingen (toelichtingsverplichting-perspectief). De twee laatste krijgen specialisatie-van-edge terug. Cluster blijft canonical overkoepelend; geen merge nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "jaarrekening-schema krijgt specialisatie-van jaarrekening edge; samenstelling-statutaire-jaarrekening krijgt onderdeel-van jaarrekening edge. Drie-niveau-structuur expliciet."
+    },
+    {
+      "match_op": {
+        "record_id": "boekhoudkundige-beginselen",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Canonical synthese 'boekhoudbeginselen-overzicht' bestaat al en is functioneel equivalent. Alle 4 PO 1.1-edges die naar 'boekhoudkundige-beginselen' wezen, geredirect naar 'boekhoudbeginselen-overzicht'. Geen apart record nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "eigen-middelen",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edge naar 'alarmprocedure' verwijderd. Concept van alarmprocedure (WVV art. 5:153 / 7:228) is PO 1.6 / 1.4 scope — laag-prio gap voor latere fase."
+    },
+    {
+      "match_op": {
+        "record_id": "financiele-vaste-activa",
+        "aspect": "edges.target-ontbreekt",
+        "reden": "Edge (type=`bevat`) → `deelneming`"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edge naar 'deelneming' verwijderd. 'deelnemingen' (sub-fenomeen) heeft geen apart record — concept zit als bouwsteen in 'kwalificeren-relatie-deelneming' (bestaat) + 'belangenpercentage'. Geen apart record nodig voor PO 1.1."
+    },
+    {
+      "match_op": {
+        "record_id": "financiele-vaste-activa",
+        "aspect": "edges.target-ontbreekt",
+        "reden": "Edge (type=`vergelijkt-met`) → `geldbelegging`"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Target gewijzigd van 'geldbelegging' naar 'geldbeleggingen' (canonical record bestaat)."
+    },
+    {
+      "match_op": {
+        "record_id": "financiele-verrichtingen",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Resultatenrekening-record nu aangemaakt; edge is geldig."
+    },
+    {
+      "match_op": {
+        "record_id": "immateriele-vaste-activa",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edge naar 'goodwill' verwijderd. Goodwill is hoofdzakelijk PO 1.5 (consolidatie) scope; laag-prio gap blijft voor latere fase."
+    },
+    {
+      "match_op": {
+        "record_id": "resultaatverwerking",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "jaarafsluiting → eindejaarsverrichtingen redirect."
+    },
+    {
+      "match_op": {
+        "record_id": "bedrijfsresultaat",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Resultatenrekening-record nu aangemaakt; edge geldig."
+    },
+    {
+      "match_op": {
+        "record_id": "materiele-vaste-activa",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Edge naar 'terrein' verwijderd. Terrein is sub-fenomeen (rubriek III.A. Terreinen en gebouwen) — geen apart record nodig; sub-bouwsteen van MVA."
+    },
+    {
+      "match_op": {
+        "record_id": "niet-recurrente-verrichtingen",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Resultatenrekening-record nu aangemaakt; edge geldig."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening",
+        "aspect": "edges.target-ontbreekt",
+        "reden": "Edge (type=`bevat`) → `balans`"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Bevat-edges (deprecated in schema 1.6) verwijderd op jaarrekening; balans + resultatenrekening hebben nu inverse onderdeel-van edges. Balans-record aangemaakt."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening",
+        "aspect": "edges.target-ontbreekt",
+        "reden": "Edge (type=`bevat`) → `resultatenrekening`"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Bevat-edges (deprecated) verwijderd; resultatenrekening heeft nu inverse onderdeel-van edge. Resultatenrekening-record aangemaakt."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening",
+        "aspect": "edges.target-ontbreekt",
+        "reden": "Edge (type=`bevat`) → `toelichting`"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Bevat-edge (deprecated) verwijderd. 'toelichting' als apart record niet gemaakt — concept is uitgebreid behandeld als bouwsteen 'Toelichting als sluitstuk' binnen jaarrekening. Een apart toelichting-record zou waarschijnlijk dupliceren; blijft als gap voor latere beoordeling."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening",
+        "aspect": "edges.target-ontbreekt",
+        "reden": "Edge (type=`getriggerd-door`) → `jaarafsluiting`"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "jaarafsluiting → eindejaarsverrichtingen redirect."
+    },
+    {
+      "match_op": {
+        "record_id": "financiele-vaste-activa",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "vergelijking_met geldbelegging → geldbeleggingen (canonical record)."
+    },
+    {
+      "match_op": {
+        "record_id": "leasing",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Huur als zelfstandig concept heeft beperkte examenrelevantie buiten leasing-context. Vergelijkingspaar bewaard als aspect-only (target hernoemd naar 'huur-versus-leasing-aspect' met _target_status flag). Geen apart huur-record gemaakt."
+    },
+    {
+      "match_op": {
+        "record_id": "uitgiftepremie",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "vergelijking_met beschikbare-reserves → wettelijke-reserve (canonical record bestaat; beschikbare-reserves is sub-categorie)."
+    },
+    {
+      "match_op": {
+        "record_id": "bedrijfsvorderingen",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "vorderingen-op-meer-dan-een-jaar bestaat niet als apart record; concept is sub-rubriek van rubrieken IV (vlottende activa) en V (vaste activa). Vergelijkingspaar bewaard als aspect-only met _target_status flag."
+    },
+    {
+      "match_op": {
+        "record_id": "wettelijke-reserve",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "beschikbare-reserves bestaat niet als apart record (sub-categorie van rubriek 13 reserves). Vergelijkingspaar bewaard als aspect-only."
+    },
+    {
+      "match_op": {
+        "record_id": "voorzichtigheidsbeginsel",
+        "aspect": "vergelijkingsparen.target-ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "vergelijkingspaar overeenstemmingsprincipe verwijderd — matching is een aspect binnen voorzichtigheid (asymmetrie kosten/opbrengsten), reeds uitgewerkt intra-record. Apart overeenstemmingsprincipe-record niet zinvol."
+    },
+    {
+      "match_op": {
+        "record_id": "resultatenrekening",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Resultatenrekening-record aangemaakt (cluster, schema 1.6, 5 bouwstenen, 4 in_praktijk, 3 valkuilen, 1 vergelijkingspaar, scenario-voorbeeld met verslag-fragment illustratie)."
+    },
+    {
+      "match_op": {
+        "record_id": "balans",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Balans-record aangemaakt (cluster, schema 1.6, 5 bouwstenen, 4 in_praktijk, 3 valkuilen, 2 vergelijkingsparen, scenario-voorbeeld met balans-fragment illustratie)."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarafsluiting",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Canonical record 'eindejaarsverrichtingen' bestaat (naam_titel: 'Eindejaarsverrichtingen (jaarafsluiting)'); alle 4 PO 1.1-edges geredirect. Geen apart jaarafsluiting-record nodig."
+    },
+    {
+      "match_op": {
+        "record_id": "waarderingsregels",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Canonical record 'waarderingsregels-jaarrekening' bestaat (naam: 'Waarderingsregels (algemeen)'). Alle PO 1.1-edges geredirect."
+    },
+    {
+      "match_op": {
+        "record_id": "verantwoordingsstuk",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Verantwoordingsstuk-record aangemaakt (begrip, WER art. III.83, 4 in_praktijk-punten, 2 valkuilen, edges naar regelmatige-boekhouding + bewaring-boekhoudstukken)."
+    },
+    {
+      "match_op": {
+        "record_id": "niet-recurrente-verrichtingen",
+        "aspect": "vergelijkingsparen.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Vergelijkingspaar met bedrijfsresultaat toegevoegd (recurrent vs niet-recurrent + KB 21/10/2018-overgang van 'uitzonderlijk resultaat' naar 'niet-recurrent')."
+    },
+    {
+      "match_op": {
+        "record_id": "eigen-aandelen",
+        "aspect": "vergelijkingsparen.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Vergelijkingspaar met financiele-vaste-activa toegevoegd (eigen aandelen = aftrek van EV op passiefzijde, niet als FVA op actiefzijde — klassieke valstrik)."
+    },
+    {
+      "match_op": {
+        "record_id": "bewaring-boekhoudstukken",
+        "aspect": "vergelijkingsparen.ontbreekt",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Vergelijkingspaar met bewaartermijn-boekhouding toegevoegd (7j boekhoudkundig WER vs 10j fiscaal WIB/WBTW)."
+    },
+    {
+      "match_op": {
+        "record_id": "financiele-verrichtingen",
+        "aspect": "bron-corpus-uitbreiding",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Bron-corpus-uitbreiding (CBN-adviezen rubriek 750-751 en 755) is geen scope van deze sessie. Blijft voor Fase 4 (bronnen-uitbreiding)."
+    },
+    {
+      "match_op": {
+        "record_id": "kapitaalwijziging",
+        "aspect": "bron-corpus-uitbreiding",
+        "geconstateerd_op": "2026-05-16T12:56:18+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "CBN-fusie/splitsing-adviezen vragen aparte records (records.ontbreekt-kandidaten voor fusie/splitsing). Out-of-scope voor deze sessie."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening",
+        "aspect": "edges.target-ontbreekt",
+        "reden": "Drie edges van type 'bevat' wijzen naar 'balans', 'resultatenrekening' en 'toelichting'",
+        "status": "open"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Deprecated bevat-edges verwijderd op jaarrekening. balans + resultatenrekening aangemaakt met inverse onderdeel-van edges. jaarafsluiting → eindejaarsverrichtingen redirect. toelichting blijft als gap (zou duplicatie zijn van bouwsteen)."
+    },
+    {
+      "match_op": {
+        "record_id": "boekhoudbeginselen-overzicht",
+        "aspect": "edges.target-ontbreekt",
+        "reden": "Record 'boekhoudbeginselen-overzicht' bevat zeven edges van gedeprecieerd type 'bevat'",
+        "status": "open"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Zeven deprecated bevat-edges verwijderd. Alle zeven target-records (continuiteits-, voorzichtigheids-, getrouw-beeld, onveranderlijkheid-, consistentie-, oprechtheids-, volledigheidsbeginsel) hebben reeds inverse onderdeel-van edge naar boekhoudbeginselen-overzicht — schema 1.6 conform."
+    },
+    {
+      "match_op": {
+        "record_id": "boekhoudbeginselen-overzicht",
+        "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+        "reden": "wikilink naar [[rechten-verplichtingen-buiten-balans]]",
+        "status": "open"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Gap was achterhaald: record 'rechten-verplichtingen-buiten-balans' BESTAAT in de 463-record-set. Wikilink is geldig."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening",
+        "aspect": "records.ontbreekt",
+        "reden": "Examenvraag 2013-2-vr4 toetst grote periodieke renovaties",
+        "status": "open"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Voorzieningen-voor-grote-renovaties (componentenmethode vs voorzieningsmethode) is een PO 1.5-onderwerp (waardering MVA, niet-courante onderhoudskosten). Out-of-scope voor PO 1.1. Blijft als gap voor PO 1.5-batch."
+    },
+    {
+      "match_op": {
+        "record_id": "jaarrekening",
+        "aspect": "context-edge-ontbreekt",
+        "reden": "Record 'jaarrekening' (cluster) heeft enkel deprecated 'bevat'-edges",
+        "status": "open"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "toelichting": "Na deprecated-edge-opruiming heeft jaarrekening nu: getriggerd-door → eindejaarsverrichtingen. Aanvullend: inverse onderdeel-van edges van balans + resultatenrekening + jaarrekening-schema (specialisatie-van) + samenstelling-statutaire-jaarrekening (onderdeel-van) wijzen naar jaarrekening. Niet langer 'nul geldige edges'."
+    }
+  ],
+  "nieuwe_gaps": [
+    {
+      "record_id": "toelichting",
+      "aspect": "records.ontbreekt",
+      "reden": "Concept 'toelichting' bij de jaarrekening (rubriek 13 KB WVV) heeft geen apart record. Het wordt uitgebreid behandeld als bouwsteen 'Toelichting als sluitstuk' binnen het jaarrekening-record. Apart record zou waarschijnlijk dupliceren; gap blijft voor latere beoordeling of het concept genoeg eigen examenrelevantie heeft voor apart record (bv. detail per schema, vergelijking met de annexes onder IFRS).",
+      "prio": "laag",
+      "geconstateerd_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "geconstateerd_op": "2026-05-19T00:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "alarmprocedure",
+      "aspect": "records.ontbreekt",
+      "reden": "Concept van alarmprocedure (WVV art. 5:153 voor BV / 7:228 voor NV — bestuursorgaan moet AV bijeenroepen bij netto-actief onder kritieke drempels) heeft geen eigen record. Centrale toets in PO 1.6 (vennootschapsrecht) en PO 1.4 (financiële analyse). Gap blijft voor PO 1.4/1.6-batches.",
+      "prio": "midden",
+      "geconstateerd_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "geconstateerd_op": "2026-05-19T00:00:00Z",
+      "status": "open"
+    },
+    {
+      "record_id": "deelnemingen",
+      "aspect": "records.ontbreekt",
+      "reden": "Sub-fenomeen 'deelnemingen' (rubriek 28 FVA, ≥ 20 % participatie in andere onderneming) heeft geen apart record. Hangt sterk samen met PO 1.5 (consolidatie). Gap voor PO 1.5-pass.",
+      "prio": "laag",
+      "geconstateerd_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "geconstateerd_op": "2026-05-19T00:00:00Z",
+      "status": "open"
+    }
+  ],
+  "samenvatting": "50 gaps behandeld: 38 resolved, 4 wont-fix, 8 bewaard. 3 nieuwe records aangemaakt: resultatenrekening (cluster), balans (cluster), verantwoordingsstuk (begrip). 26 bestaande records bijgewerkt (edge-fixes, vergelijkingsparen, cross-links). 3 nieuwe gaps gelogd voor latere PO-batches (toelichting, alarmprocedure, deelnemingen)."
+}

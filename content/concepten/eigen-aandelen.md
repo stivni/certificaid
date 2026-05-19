@@ -78,6 +78,12 @@ _Grondslag: WVV + CBN praktijk_
 > Examen: 'NV met 5 % eigen aandelen, stemmingen op AV' → 5 % aandelen tellen niet mee voor quorum en meerderheid.
 
 
+> [!info]- Niet verwarren met [[financiele-vaste-activa]]
+> Eigen aandelen worden **NIET** als financieel vast actief geboekt. Ze komen op de **passiefzijde** als aftrek van het eigen vermogen (rubriek 11 'Inbreng' negatief, of rubriek 12 'Eigen aandelen' negatief afhankelijk van schema). Een gewone deelneming (≥ 20% in andere onderneming) wel als FVA op de actiefzijde.
+>
+> _Trigger_: Examen: 'NV koopt 5% van haar eigen aandelen in voor € 80.000' → boeking als aftrek van EV, NIET als FVA. 'NV koopt 25% van een andere NV' → FVA (deelneming) op actiefzijde.
+
+
 ## Valkuilen
 
 > [!warning]- De boekhoudkundige presentatie van eigen aandelen onder klasse 50 'Geldbeleggingen' is technisch — maar economisch is het GEEN gewone belegg…
@@ -98,3 +104,4 @@ Rotex Roeselare NV koopt 5 % eigen aandelen terug voor € 350.000 op de beurs. 
 ## Bronnen
 
 [^1]: `MAR-ondernemingen__art_1`
+[^2]: `KB-WVV-2019__art_3_66`

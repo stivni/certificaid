@@ -113,6 +113,11 @@ _Grondslag: MAR + algemene boekhoudkundige verwerking_
 
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[klasse-0-niet-in-balans]]
+- **Vereist kennis van**: [[niet-in-balans-opgenomen-rechten-verplichtingen]]
+
 ## Voorbeelden
 
 Aurelia Holding NV heeft op 31/12 een persoonlijke borgstelling gegeven voor een bankkrediet van € 850.000 verleend aan dochter Brugse Brouwerij BV. Geen balanspost — dochter blijft hoofdschuldenaar — MAAR opname op rekening 010 'Persoonlijke zekerheden gesteld voor rekening van derden' € 850.000. In toelichting: aard, ontvanger, bedrag, looptijd. Bij niet-betaling door dochter: omzetting in werkelijke verplichting en boeking op rekening 49 + klasse 65.

@@ -96,7 +96,15 @@ hoofdstukken:
       - ifrs-consolidatieraamwerk
 
 _provenance:
-  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260515T185754Z"
-  voorgesteld_op: "2026-05-15T19:05:00+00:00"
+  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260518T234554Z"
+  voorgesteld_op: "2026-05-18T23:50:00+00:00"
   gecureerd_door: null
   gecureerd_op: null
+  herzien_van: "leerpad-run-20260515T185754Z"
+  herzieningsnota: >-
+    Revisie na Fase 1 gap-fix (PO 1.4). Geen record-mutaties nodig
+    (alleen schema-validatie). Vergelijking van beschikbare records
+    (42 concepten + 9 competenties) met het bestaande leerpad bevestigt
+    dat alle concept-id's gedekt zijn (hetzij via een thematisch
+    cluster, hetzij via een competentie-hoofdstuk). Structuur en
+    ordening ongewijzigd.

@@ -154,6 +154,13 @@ afschrijving per eenheid = (kostprijs − restwaarde) / totale verwachte werkeen
 
 _Resultaat in EUR_
 
+## In de praktijk
+
+- Onder IAS 16 alinea 60 zijn meerdere afschrijvingsmethoden toegestaan: **lineair**, **degressief** (diminishing balance) en **units-of-production**. De keuze moet het verbruikspatroon van de toekomstige economische voordelen weerspiegelen.
+- Afschrijving stopt **niet** zomaar omdat de marktwaarde boven de boekwaarde stijgt (IAS 16 alinea 52). Afschrijving stopt pas als de restwaarde de boekwaarde bereikt — of als het actief geclassificeerd wordt als gehouden-voor-verkoop (IFRS 5).
+- Restwaarde en gebruiksduur worden ten minste jaarlijks herzien (IAS 16 alinea 51) — wijzigingen worden prospectief verwerkt (geen retroactieve correctie).
+- Voor stagiair: 'is degressieve afschrijving toegestaan?' → ja. 'Stopt afschrijving als marktwaarde > boekwaarde?' → nee. Beide stellingen zijn typische examenvragen.
+
 ## Valkuilen
 
 > [!warning]- Restwaarde, gebruiksduur en afschrijvingsmethode worden **prospectief** aangepast bij wijziging (IAS 8)
@@ -175,9 +182,6 @@ _Resultaat in EUR_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[materiele-vaste-activa-ifrs]]
 ## Bronnen
 
 [^1]: `IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname`

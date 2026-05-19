@@ -57,6 +57,40 @@ Eind januari boekt boekhouder Meubelzaak Mertens BV de totalen van januari uit e
 _Grondslag: WER art. III.84; CBN-advies 174/1_
 
 
+## In de praktijk
+
+<h3 id="welke-hulpdagboeken-zijn-standaard">Welke hulpdagboeken zijn standaard?</h3>
+
+> [!tip]- Welke hulpdagboeken zijn standaard?
+> In een KMO-boekhouding zie je doorgaans vier hulpdagboeken: (1) aankoopdagboek, (2) verkoopdagboek, (3) financieel dagboek (apart per bankrekening + kas), (4) diversen-dagboek (voor eindejaarsboekingen, herwaarderingen, correcties). Grotere ondernemingen splitsen verder (bv. aparte dagboeken voor cash-aankopen, voor terugbetalingen, voor specifieke domeinen). ⚖️
+
+> [!tip]- Herkennen op het examen
+> Examenvraag 'in welk dagboek boek ik X?': inkomende factuur → aankoop; uitgaande factuur → verkoop; bankuittreksel → financieel; afschrijving → diversen.
+
+<h3 id="een-financieel-dagboek-per-rekening">Eén financieel dagboek per rekening</h3>
+
+> [!tip]- Eén financieel dagboek per rekening
+> Voor elke bankrekening en voor de kas wordt een **afzonderlijk** financieel dagboek bijgehouden. Heeft een onderneming drie bankrekeningen (ING, KBC, Belfius) plus kas → vier aparte financiële dagboeken. Centralisatie ervan loopt naar het centraal boek. ⚖️
+
+> [!tip]- Herkennen op het examen
+> Praktijkvalkuil: alle bankrekeningen samen in één dagboek boeken — niet correct, één per rekening verplicht.
+
+
+## Valkuilen
+
+> [!warning]- Hulpdagboeken zijn niet hetzelfde als 'sub-rekeningen'. Een hulpdagboek is een chronologische registratie per type verrichting; sub-rekeningen zijn een verfijning binnen het rekeningenstelsel.
+> ⚠️  🤖
+
+
+> [!warning]- Centralisatie in centraal boek is verplicht **minstens maandelijks** (volledige dubbele boekhouding). Bij vereenvoudigde boekhouding mag het driemaandelijks.
+> ⚠️  🤖
+
+
+> [!warning]- Het diversen-dagboek is voor wat niet in aankoop/verkoop/financieel past — niet voor 'wat ik niet weet hoe te boeken'.
+> ⚠️  🤖
+
+
+
 ## Voorbeelden
 
 Meubelzaak Mertens BV houdt 5 hulpdagboeken bij: aankopen, verkopen, financieel (ING bank), financieel (KBC bank), diversen. Eind maand: centralisatie naar centraal boek.

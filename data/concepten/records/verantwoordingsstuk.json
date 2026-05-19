@@ -1,0 +1,113 @@
+{
+  "id": "verantwoordingsstuk",
+  "naam": "Verantwoordingsstuk",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.1.I.A",
+    "1.1.I",
+    "1.2.III"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-19T00:00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.1.I.A",
+    "dekt_ook_anchors": [
+      "1.1.I",
+      "1.2.III"
+    ],
+    "reviewed_by": null,
+    "created_door": "overnight-gap-fix-PO-1.1-2026-05-19",
+    "created_reden": "Twee records (regelmatige-boekhouding, dagboek) wijzen via vereist-kennis-van naar verantwoordingsstuk; fundamenteel voor boekhoudingsplicht (gap-mining 2026-05-18)."
+  },
+  "definitie": {
+    "text": "Een **verantwoordingsstuk** is elk document dat een verrichting of gebeurtenis aantoont en daardoor een boeking ondersteunt: een factuur, kwitantie, bankafschrift, leveringsbon, contract, rekenkundige nota of intern stuk. WER art. III.83 verplicht elke onderneming om elke boeking te staven met een verantwoordingsstuk waarnaar het dagboek verwijst. Het is de **brug** tussen de werkelijke economische transactie en haar boekhoudkundige weerslag — zonder verantwoordingsstuk is een boeking niet controleerbaar en dus niet 'regelmatig'.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WER art. III.83"
+    },
+    "references": [
+      {
+        "type": "wet",
+        "short": "WER art. III.86 (bewaartermijn 7 jaar)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_III_83",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    "Typische verantwoordingsstukken in een KMO: aankoopfacturen, verkoopfacturen, bankuittreksels, kasticketten, loonbrieven, leveringsbonnen, ondertekende contracten, BTW-aangiften, expense-notes.",
+    "Onveranderlijkheid van verantwoordingsstukken: ze mogen niet worden gewist, doorhaald of overschreven. Een correctie gebeurt via een tegen-stuk (creditnota, correctiefactuur) — het oorspronkelijke document blijft bewaard.",
+    "Audit-traceerbaarheid loopt twee kanten op: van boeking → verantwoordingsstuk (kun je elke regel in het dagboek staven?) én van verantwoordingsstuk → boeking (is elk binnenkomend stuk geboekt? — volledigheidstoets).",
+    "Bewaartermijn: zeven jaar vanaf 1 januari van het jaar volgend op afsluiting boekjaar (WER art. III.86). Fiscaal: tien jaar (WIB art. 315) — de fiscale bewaartermijn primeert in praktijk."
+  ],
+  "valkuilen": [
+    {
+      "text": "Een verantwoordingsstuk hoeft niet noodzakelijk een **extern** document te zijn. Interne stukken (kasstaat, intern correctievoorstel, afsluitingsmemo) zijn óók verantwoordingsstukken, mits ze gedateerd en onderbouwd zijn. Onbevoegde interne stukken zonder spoor zijn echter een red flag.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.83"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_83",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Digitale verantwoordingsstukken (e-factuur, PDF van uittreksel, gescande kwitantie) zijn **volwaardig** mits leesbaar en bewaard tot het einde van de bewaartermijn. Een papieren origineel **na digitale archivering** is niet meer verplicht.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.86 + CBN-advies"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_83",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "regelmatige-boekhouding",
+      "redenering": "Het verantwoordingsstuk is één van de pijlers van een regelmatige boekhouding — geen boeking zonder onderliggend stuk."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "bewaring-boekhoudstukken",
+      "redenering": "De bewaartermijn van 7 jaar (WER art. III.86) geldt voor verantwoordingsstukken."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Naaiatelier Ninove BV koopt stof voor € 850 + btw bij leverancier. Verantwoordingsstuk: aankoopfactuur F-2024-0856 met datum, leverancier, BTW-nummer, omschrijving, bedrag. Boeking 60 / 411 / 440 verwijst naar dit stuk-nummer in het aankoopdagboek."
+    }
+  ],
+  "situering": "WER art. III.83 verplicht een Belgische onderneming om elke boeking te staven met een verantwoordingsstuk. Voor de stagiair-GA cruciaal omdat de afwezigheid van verantwoordingsstukken **direct de regelmatigheid** van de boekhouding ondermijnt — en daarmee ook getrouw-beeld, fiscale aftrekbaarheid (artikel 49 WIB), en revisor-attestering.",
+  "naam_alternatief": "supporting document / pièce justificative"
+}

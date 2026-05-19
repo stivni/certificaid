@@ -103,12 +103,6 @@ _Grondslag: KB 21/10/2018 art. 3:7_
 > Bij conflict met het matching-beginsel ('opbrengsten en bijbehorende kosten samen boeken') wint het realisatiebeginsel. Als een opbrengst nog niet gerealiseerd is, wordt ze niet geboekt — zelfs als de bijbehorende kosten al wel zeker zijn. ⚖️
 
 
-> [!info]- Niet verwarren met [[overeenstemmingsprincipe]]
-> Overeenstemmingsprincipe (matching) zegt: koppel opbrengsten en kosten van dezelfde periode aan elkaar. Voorzichtigheidsbeginsel zegt: opbrengsten pas bij zekerheid. Bij conflict wint voorzichtigheid/realisatie (CBN 2010/12).
->
-> _Trigger_: Examen: 'mogen we de winst op een nog niet voltooid contract al boeken als de bijbehorende kosten al gemaakt zijn?' — nee, voorzichtigheid/realisatie primeert.
-
-
 ## Valkuilen
 
 > [!warning]- Voorzichtigheid is niet pessimisme
@@ -120,7 +114,7 @@ _Grondslag: KB 21/10/2018 art. 3:7_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[waarderingsregels]]
+- **Vereist kennis van**: [[waarderingsregels-jaarrekening]]
 
 ## Voorbeelden
 

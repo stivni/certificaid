@@ -22,7 +22,14 @@
       "1.1.II.I"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.V.A', '1.2.V'] door PO 1.2-extractie."
+    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.V.A', '1.2.V'] door PO 1.2-extractie.",
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edges→canonical; vergelijkingsparen[overeenstemmingsprincipe] verwijderd (concept zit intra-record bij realisatiebeginsel)"
+      ]
+    }
   },
   "main_rule": {
     "text": "Bij waardering moet de onderneming **oprecht, voorzichtig en te goeder trouw** te werk gaan. Concreet: opbrengsten boek je pas als ze **zeker** zijn (realisatie); kosten en risico's boek je al wanneer ze **waarschijnlijk of zelfs alleen mogelijk** zijn (voorzichtigheid). Verliezen die op balansdatum bekend zijn, worden meegenomen, ook als ze pas na balansdatum maar vóór goedkeuring zichtbaar worden. Stille meerwaarden (latente winsten) worden NIET geboekt.",
@@ -225,13 +232,7 @@
       }
     }
   ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "overeenstemmingsprincipe",
-      "verschil": "Overeenstemmingsprincipe (matching) zegt: koppel opbrengsten en kosten van dezelfde periode aan elkaar. Voorzichtigheidsbeginsel zegt: opbrengsten pas bij zekerheid. Bij conflict wint voorzichtigheid/realisatie (CBN 2010/12).",
-      "trigger": "Examen: 'mogen we de winst op een nog niet voltooid contract al boeken als de bijbehorende kosten al gemaakt zijn?' — nee, voorzichtigheid/realisatie primeert."
-    }
-  ],
+  "vergelijkingsparen": [],
   "edges": [
     {
       "type": "onderdeel-van",
@@ -240,7 +241,7 @@
     },
     {
       "type": "vereist-kennis-van",
-      "target": "waarderingsregels",
+      "target": "waarderingsregels-jaarrekening",
       "redenering": "Voorzichtigheidsbeginsel stuurt de keuze van waarderingsregels: lagere van twee, voorzieningen, waardeverminderingen."
     }
   ],

@@ -24,6 +24,8 @@ Het regime is voorzichtigheid-georiënteerd en lichter dan IAS 36: geen formele 
 > [!summary] Korte inhoud
 > Onder Belgisch boekhoudrecht kent men geen formele 'impairment-test' zoals IAS 36, maar wel twee mechanismen die functioneel hetzelfde doel dienen — de boekwaarde van een vast actief verlagen wanneer een verlies van waarde optreedt.
 
+> [!info] Specialisatie van: [[bijzondere-waardevermindering]]
+
 Onder Belgisch boekhoudrecht kent men geen formele 'impairment-test' zoals IAS 36, maar wel twee mechanismen die functioneel hetzelfde doel dienen — de boekwaarde van een vast actief verlagen wanneer een verlies van waarde optreedt. Voor **materiële vaste activa met beperkte gebruiksduur** (art. 3:42 § 1 tweede lid KB WVV): er wordt overgegaan tot een **aanvullende of niet-recurrente afschrijving** wanneer, ingevolge technische ontwaarding of wegens wijziging van economische of technologische omstandigheden, de boekhoudkundige waarde hoger is dan de **gebruikswaarde voor de vennootschap**. Voor **materiële vaste activa zonder beperkte gebruiksduur** (art. 3:42 § 2): er wordt slechts overgegaan tot een **waardevermindering** in geval van duurzame minderwaarde of ontwaarding.
 
 _Bron: KB WVV art. 3:42 § 1 lid 2 + § 2_

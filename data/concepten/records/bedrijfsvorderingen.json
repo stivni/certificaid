@@ -24,6 +24,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "vergelijkingspaar: vorderingen-op-meer-dan-een-jaar target ontbreekt; bewaard als aspect"
+      ]
     }
   },
   "definitie": {
@@ -219,9 +226,10 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "vorderingen-op-meer-dan-een-jaar",
+      "vergelijking_met": "vorderingen-meer-dan-1-jaar-aspect",
       "verschil": "Beide zijn bedrijfsvorderingen, MAAR rubriek V (op meer dan één jaar) staat boven rubriek VII (op hoogstens één jaar) in de balans. De grens is de RESTERENDE looptijd op balansdatum, niet de oorspronkelijke.",
-      "trigger": "Examen: 'lening 3 jaar verleend in jaar 1, op 31/12/20X2 nog 18 maanden te lopen' → splitsen: 12 maanden op rubriek VII, 6 maanden op rubriek V."
+      "trigger": "Examen: 'lening 3 jaar verleend in jaar 1, op 31/12/20X2 nog 18 maanden te lopen' → splitsen: 12 maanden op rubriek VII, 6 maanden op rubriek V.",
+      "_target_status": "aspect-zonder-eigen-record"
     }
   ],
   "edges": [

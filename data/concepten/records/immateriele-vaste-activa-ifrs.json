@@ -202,6 +202,11 @@
           }
         ]
       }
+    },
+    {
+      "vergelijking_met": "materiele-vaste-activa-ifrs",
+      "verschil": "Software-classificatie: geïntegreerd in hardware (BIOS, OS op laptop) → MVA onder IAS 16. Losstaand softwarepakket (boekhoudprogramma, ERP) → IVA onder IAS 38. Software voor doorverkoop (handelsgoed) → voorraad onder IAS 2. Doorslaggevende vraag: 'kan dit actief zelfstandig functioneren of is het inherent gebonden aan het materiële actief?'",
+      "trigger": "Examen: 'op welke rekening classificeer ik een software-aankoop?' → check zelfstandigheid versus integratie."
     }
   ],
   "valkuilen": [
@@ -287,5 +292,10 @@
         "vergelijkt-met -> immateriele-vaste-activa  →  specialisatie-van (regime=IFRS)"
       ]
     }
+  ],
+  "in_praktijk": [
+    "Onder IAS 38 zijn **onderzoekskosten** niet activeerbaar (alinea 54: kosten — direct in W&V). **Ontwikkelingskosten** zijn activeerbaar mits **zes cumulatieve criteria** (alinea 57): technische haalbaarheid, intentie tot afwerking, vermogen tot gebruik of verkoop, toekomstige economische voordelen aantoonbaar, voldoende middelen, betrouwbare meting van uitgaven.",
+    "Praktijktest: 'studie- en ontwerpkosten vóór de ontwikkelingsfase' = onderzoek = direct W&V. 'Bouwen van een eerste werkend prototype na vaststelling haalbaarheid' = ontwikkeling = activeerbaar als alle zes criteria voldaan.",
+    "Software-classificatie: **geïntegreerde** software (operating system in laptop) = onderdeel van materieel vast actief (IAS 16). **Losse standalone software** (boekhoudpakket) = immaterieel vast actief (IAS 38). **Software voor doorverkoop** = voorraad (IAS 2)."
   ]
 }

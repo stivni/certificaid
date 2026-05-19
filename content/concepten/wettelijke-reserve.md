@@ -178,7 +178,7 @@ Min(5 % × nettowinst, minimum − huidige reserve).
 | Plafond wettelijke reserve | 10 % | van het maatschappelijk kapitaal (NV) of van de eigen vermogensinbreng (BV) | Wanneer de wettelijke reserve dit plafond bereikt, vervalt de verplichte jaarlijkse afhouding. |
 
 
-> [!info]- Niet verwarren met [[beschikbare-reserves]]
+> [!info]- Niet verwarren met [[beschikbare-reserves-aspect]]
 > Wettelijke reserve: verplicht, geboden in WVV, minimum 10 % kapitaal, niet uitkeerbaar onder minimum. Beschikbare reserves: vrijwillig (vrije winstbestemming), vrij uitkeerbaar als dividend mits uitkeringstest.
 >
 > _Trigger_: Examen: 'kunnen we deze reserves uitkeren?' — Wettelijke: nee onder minimum. Beschikbare: ja na uitkeringstest.

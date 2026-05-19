@@ -156,6 +156,37 @@
           "omschrijving": "Naaiatelier Ninove BV mag de € 260.000 herwaarderingsmeerwaarde op het terrein NIET in dividend uitkeren. Bij latere verkoop van het terrein voor € 600.000: gerealiseerd verschil komt eerst in resultaat, na bestemming kan het naar beschikbare reserves of dividend."
         }
       ]
+    },
+    {
+      "titel": "Vervreemding: realisatie van de meerwaarde",
+      "wat": "Wanneer een geherwaardeerd actief wordt vervreemd, wordt de niet-uitkeerbare herwaarderingsmeerwaarde **gerealiseerd**: ze wordt overgeboekt naar de uitkeerbare reserves óf opgenomen in het kapitaal (kapitaalverhoging door incorporatie van reserves). Het bedrag = de boekwaarde van de meerwaarde op moment van vervreemding (oorspronkelijk geboekt min eventueel reeds gerealiseerd via afschrijvingen).",
+      "waarom": "Pas op het moment van vervreemding wordt de waardestijging definitief verdiend voor de vennootschap — vóórdien is ze 'latent'. De boekhouding spiegelt deze realisatie.",
+      "in_praktijk": "Bij verkoop van een geherwaardeerd octrooi: schrap herwaarderingsmeerwaarde-reserve, boek het saldo over naar uitkeerbare reserves of kapitaal — niet rechtstreeks naar W&V. De winst-op-verkoop komt apart in W&V.",
+      "grondslag": "KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde bij vervreemding)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-uitvoering__sec_herwaarderingsmeerwaarden",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Toepassingsgebied: ook immateriële vaste activa",
+      "wat": "Herwaardering onder BE GAAP geldt voor materiële én immateriële vaste activa (KB WVV art. 3:30 en 3:35) — bv. octrooien, merken, ontwikkelingskosten. Voorwaarden zijn dezelfde als voor MVA: meerwaarde moet **zeker, duurzaam en onontbeerlijk** zijn voor de bedrijfsuitoefening.",
+      "waarom": "Examenvraag 2014-1-vr3 toetst herwaardering specifiek op immaterieel (octrooi). Stagiair moet weten dat de IVA-toepassing analoog werkt.",
+      "grondslag": "KB WVV art. 3:30; KB WVV art. 3:35",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-uitvoering__sec_herwaardering-iva",
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -232,6 +263,11 @@
       "type": "onderdeel-van",
       "target": "eigen-middelen",
       "redenering": "Herwaarderingsmeerwaarde verschijnt onder eigen middelen (rubriek III), niet als resultaat."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "herwaarderingsmodel-ifrs",
+      "aspect": "regime-vergelijking BE GAAP versus IFRS"
     }
   ],
   "voorbeelden": [

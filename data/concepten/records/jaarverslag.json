@@ -183,6 +183,20 @@
           }
         ]
       }
+    },
+    {
+      "vergelijking_met": "bestuursverslag",
+      "verschil": "Hetzelfde wettelijke document onder twee namen: **jaarverslag** is de Belgische WVV-term (WVV art. 3:32), **bestuursverslag** is de term uit de Boekhoudrichtlijn 2013/34/EU (art. 19). In de praktijk identiek. Het PO 1.3-record `bestuursverslag` benadert het document procedureel (welke stappen om het op te stellen); het PO 1.2-record `jaarverslag` benadert het inhoudelijk (welk verplicht onderdeel van de jaarrekening).",
+      "trigger": "Beide termen zijn synoniemen — gebruik 'jaarverslag' in WVV-context, 'bestuursverslag' in EU-context.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -197,6 +211,12 @@
       "target": "groottecriteria-jaarrekening",
       "redenering": "Kleine en micro zijn vrijgesteld van jaarverslag — gevolg van grootteklasse.",
       "confidence": "inferred"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "bestuursverslag",
+      "redenering": "Bestuursverslag en jaarverslag verwijzen naar hetzelfde wettelijke document; verschillende perspectieven (WVV-terminologie versus richtlijn-procedure-perspectief PO 1.3).",
+      "confidence": "inferred"
     }
   ],
   "voorbeelden": [
@@ -207,5 +227,5 @@
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
   "situering": "Het jaarverslag (bestuursverslag) is het toelichtend document **naast** de jaarrekening waarin het bestuursorgaan commentaar geeft op resultaten, ontwikkelingen en risico's. Voor stagiair-GA belangrijk: niet elke vennootschap moet het opstellen (klein en geen groep-context = vrijgesteld), en de inhoud is voorgeschreven (WVV art. 3:5-3:6).",
-  "naam_alternatief": "annual report / rapport annuel"
+  "naam_alternatief": "bestuursverslag (richtlijn-term) / annual report / rapport de gestion"
 }

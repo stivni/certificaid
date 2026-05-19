@@ -125,6 +125,12 @@ Bij schattingswijziging: GEEN aanpassing van vergelijkende periodes. De wijzigin
 **Grondslag**: IAS 8 alinea 36-40
 
 
+## In de praktijk
+
+- IAS 8 onderscheidt **schattingswijziging** (prospectief) van **stelselwijziging of fout** (retrospectief). Beslislogica voor stagiair: 'verandert er een **regel** of een **inschatting**?' Wijziging van regel → retrospectief, herwerking openingsbalans; wijziging van schatting → prospectief, alleen toekomstige periodes.
+- Bij een ontdekte fout in een eerder boekjaar: retrospectieve correctie als praktisch haalbaar — herwerk de openingsbalans van het eerste vergelijkbare boekjaar. Disclosure verplicht in toelichting (aard van de fout + bedrag).
+- Voorbeeld onderscheid: afschrijvingsduur van 10 naar 8 jaar wegens nieuwe inzichten = schattingswijziging (prospectief). Switch van FIFO naar gewogen gemiddelde = stelselwijziging (retrospectief, behalve impracticable).
+
 > [!info]- Niet verwarren met [[wijziging-boekhoudkundig-referentiestelsel]]
 > Stelselwijziging (BE-GAAP ↔ IFRS, CBN 2022/08) is een fundamentele heropbouw van de cijferbasis. Grondslagwijziging binnen één stelsel (IAS 8 alinea 14) is een beperkte aanpassing — bv. binnen IFRS van kostprijs- naar herwaarderingsmodel voor MVA. Beide retroactief, maar de stelselwijziging is veel ingrijpender en gebruikt IFRS 1 voor eerste IFRS-toepassing.
 >

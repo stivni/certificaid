@@ -227,6 +227,13 @@
       "target": "groottecriteria-jaarrekening",
       "redenering": "Groottecriteria bepalen of een commissaris verplicht is.",
       "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "itaa",
+      "aspect": "Commissaris (IBR-revisor) versus extern accountant (ITAA-lid)",
+      "redenering": "Commissaris-opdracht is monopolie van IBR-revisor; ITAA-accountant doet ander werk. Klassieke examenverwarring.",
+      "confidence": "inferred"
     }
   ],
   "voorbeelden": [

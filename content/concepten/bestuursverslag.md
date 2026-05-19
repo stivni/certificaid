@@ -141,6 +141,12 @@ Voor genoteerde vennootschappen (en sommige andere): een verklaring inzake corpo
 **Grondslag**: Richtlijn 2013/34/EU art. 20
 
 
+> [!info]- Niet verwarren met [[jaarverslag]]
+> Bestuursverslag en jaarverslag verwijzen naar hetzelfde document. **Bestuursverslag** is de Europese term (Richtlijn 2013/34/EU art. 19) — focus op procedure-stappen om het op te stellen. **Jaarverslag** is de Belgische WVV-term (WVV art. 3:32) — focus op verplicht onderdeel van de jaarrekening. In de praktijk identiek.
+>
+> _Trigger_: Twee namen, één document. Term-keuze hangt af van regelgevings-context (BE/EU).
+
+
 ## Valkuilen
 
 > [!warning]- Bestuursverslag dat alleen herhaalt wat in de jaarrekening staat is waardeloos — én niet conform

@@ -1,0 +1,61 @@
+{
+  "programmaonderdeel": "1.4",
+  "agent_run_id": "overnight-gap-fix-PO-1.4-2026-05-19",
+  "afgerond_op": "2026-05-19T00:00:00+00:00",
+  "updates": [
+    {
+      "match_op": {
+        "record_id": "consolidatieverplichting",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-18T12:37:14Z",
+        "status": "open"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.4-2026-05-19",
+      "toelichting": "Gap-reden vermeldt drie 'contrasteert-met'-edges (gedeprecieerd) naar groottecriteria-jaarrekening, vrijstelling-subconsolidatie en consolidatiekring. Bij inspectie van data/concepten/records/consolidatieverplichting.json blijken alle drie de edges al gemigreerd te zijn naar het toegelaten type 'vergelijkt-met' (zie edges[0..2]._corrected_from — twee via schema-1.4-migratie 'vergelijkingsparen → edges', één via sessie-3 fix A 2026-05-16 met edge-omkering t.o.v. vrijstelling-subconsolidatie). Edge-targets bestaan alle drie als records. Per ADR-007 schema 1.6 en EXTRACT v4 (prompts/concept-extractie-v4.md regel 317) is 'contrasteert-with' gedeprecieerd ten gunste van 'vergelijkt-met' met aspect-facet — die migratie is uitgevoerd. Bovendien ligt het record onder linked_anchor 1.4.I.C (primair PO 1.4), niet 1.5 — de gap-reden vermeldde dat verkeerd ('niet in PO 1.5-scope primair'). Geen record-mutatie nodig; gap is achterhaald."
+    },
+    {
+      "match_op": {
+        "aspect_type": "bron-gap",
+        "aspect": "bron-corpus-uitbreiding",
+        "po": "1.4",
+        "anchor_id": "1.4.II.A",
+        "geconstateerd_op": "2026-05-15",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.4-2026-05-19",
+      "toelichting": "Strategic-pass bron-gap: primaire IFRS-tekst (IFRS 10/3/11/12) via EUR-Lex Verordening 1126/2008. Toevoegen aan corpus valt buiten werk-modus-scope (CLAUDE.md regel 6 — geen nieuwe ontwerpkeuzes/bronnen zonder design-pass). Examen-impact voor PO 1.4 is begrensd: ITAA-LEX bevat het Belgische kader (WVV + KB WVV) als hoofdfocus; IFRS-vraagvormen zijn doorgaans randscenario's. Gap blijft staan voor latere Fase 4 (bronnen-uitbreiding)."
+    },
+    {
+      "match_op": {
+        "aspect_type": "bron-gap",
+        "aspect": "bron-corpus-uitbreiding",
+        "po": "1.4",
+        "anchor_id": "1.4.I.D",
+        "geconstateerd_op": "2026-05-15",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.4-2026-05-19",
+      "toelichting": "Strategic-pass bron-gap: doctrine-niveau enumeratie 'vier voornaamste oorzaken' van positief consolidatieverschil (Jorissen/Lybaert-handboek of ITAA-vormingsmodule). Geen publiek-toegankelijke primaire bron beschikbaar — auteursrechtelijk handboek of ITAA-leden-materiaal. Buiten werk-modus-scope. Huidige v2-extractie heeft de oorzaken al inferred-from-aggregation uit CBN-chunks; record consolidatieverschil dekt de inhoudelijke kern. Gap blijft bewaard."
+    },
+    {
+      "match_op": {
+        "aspect_type": "bron-gap",
+        "aspect": "bron-corpus-uitbreiding",
+        "po": "1.4",
+        "anchor_id": "1.4.I.C",
+        "geconstateerd_op": "2026-05-15",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.4-2026-05-19",
+      "toelichting": "Strategic-pass bron-gap: praktijktechnische CBN-matrix voor doorrekenregel controle-/belangenpercentage bij meerlaagse deelnemingsketens. Geen geïdentificeerd specifiek CBN-advies in corpus; toevoegen vraagt corpus-uitbreiding (Fase 4). KB WVV art. 1:14 + CBN 2017/02 bieden de basisregels die al in de records zitten. Gap bewaard voor latere bronnen-pass."
+    }
+  ],
+  "nieuwe_gaps": [],
+  "nieuwe_records": [],
+  "hernoemde_records": [],
+  "samenvatting": "4 gaps behandeld: 1 resolved (open gap consolidatieverplichting edges — bleek al opgelost door eerdere schema-1.4-migratie + sessie-3 fix; gap achterhaald, geen mutatie nodig), 3 bewaard (alle 3 archived-strategic-pass bron-corpus-uitbreidingen vereisen Fase-4 bronnen-werk buiten huidige scope). 0 nieuwe records, 0 hernoemingen, 0 nieuwe gaps. Geen record-mutaties uitgevoerd."
+}

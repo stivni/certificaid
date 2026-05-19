@@ -22,8 +22,8 @@
     ],
     "reviewed_by": null,
     "bron_gap": "Internationale financiële-analyse-vakdoctrine. NBB-tools (Score Belfius, Graydon Multiscore) zijn Belgische commerciële afgeleiden — buiten examenscope.",
-    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
-    "touched_at": "2026-05-19T00:00:00Z"
+    "note": "Gap-fix overnight 2026-05-19: edges toegevoegd (bevat → altman/ohlson, getriggerd-door → falen) voor expliciete graph-relaties.",
+    "touched_at": "2026-05-19T20:00:00Z"
   },
   "vergelijkingstabel": "| Model | Techniek | Aantal variabelen | Output | Interpretatie hoog | Interpretatie laag |\n|---|---|---|---|---|---|\n| **Altman Z** | Discriminant-analyse | 5 | Score met 3 zones | Z ≥ 2,99 = gezond | Z < 1,81 = distress |\n| **Ohlson O** | Logistische regressie | 9 | Kans 0-1 | Hoog = hoog risico | Laag = laag risico |\n| **Belgische varianten** (Score Belfius, Graydon Multiscore) | Eigen propriëtaire modellen op Belgische data | Onbekend | Score 0-100 of letter-rating | Variabel — afhankelijk van bron | Variabel |",
   "beslisboom": "```mermaid\nflowchart TD\n  A[Onderneming met ratio-zwakte] --> B{Welk type vraag?}\n  B -->|Zone-positionering| C[Altman Z-score]\n  B -->|Kansprobabiliteit| D[Ohlson O-score]\n  B -->|Belgische context met sector-vergelijking| E[Belgische varianten]\n  C --> F[Z < 1,81: distress → diepere kwalitatieve analyse]\n  C --> G[1,81-2,99: grey zone → combineer met andere indicatoren]\n  C --> H[Z ≥ 2,99: safe zone]\n  D --> I[p > 0,5: voorspelling faillissement]\n  D --> J[p < 0,5: voorspelling overleven]\n  F --> K[Triangulair lezen + bestuursverslag + cash-positie]\n  I --> K\n```",
@@ -89,5 +89,25 @@
     "Quantitative financial distress models",
     "Overzicht failure-predictiemodellen"
   ],
-  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z",
+  "edges": [
+    {
+      "type": "bevat",
+      "target": "altman-z-score",
+      "redenering": "Altman is een van de twee gepresenteerde kwantitatieve diagnosemodellen.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "bevat",
+      "target": "ohlson-o-score",
+      "redenering": "Ohlson is het tweede gepresenteerde kwantitatieve diagnosemodel.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "falen-van-de-onderneming",
+      "redenering": "Het synthese-doel van deze modellen is het voorspellen van faillissement.",
+      "confidence": "inferred"
+    }
+  ]
 }

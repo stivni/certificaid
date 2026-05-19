@@ -141,5 +141,106 @@
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
   "situering": "De FOD Financiën heeft twee raakpunten met boekhoudrecht: (1) fiscale inkomstenbelasting bouwt op de boekhoudkundige resultaten voort (WIB-fiscaal recht volgt boekhoudrecht, tenzij anders bepaald), en (2) BTW-administratie vereist boekhoudkundige onderbouwing. Voor de stagiair-GA belangrijk om te onderscheiden: FOD Financiën is **toepasser** van het boekhoudrecht (via fiscaliteit), niet de uitlegger (dat is CBN).",
-  "naam_alternatief": "FPS Finance / SPF Finances"
+  "naam_alternatief": "FPS Finance / SPF Finances",
+  "in_praktijk": [
+    {
+      "aspect": "Wanneer is FOD Financiën actor in een boekhoud-dossier?",
+      "betekenis": "Drie kerngebieden waar de stagiair-GA FOD Financiën als tegenpartij ontmoet: (1) **inkomstenbelastingen** (vennootschapsbelasting, personenbelasting met aanslag op jaarlijkse aangifte); (2) **btw-administratie** (driemaandelijkse of maandelijkse btw-aangiften en btw-controle); (3) **bedrijfsvoorheffing en roerende voorheffing** (loon- en dividend-aangiftes). De boekhouding levert de basis voor alle drie.",
+      "herkenningspunt": "Examenvraag 'wie ontvangt de vennootschapsbelasting-aangifte?' → FOD Financiën (BIZTAX). 'Wie controleert de btw?' → FOD Financiën, btw-administratie.",
+      "confidence": "inferred",
+      "source": {
+        "type": "wet",
+        "short": "WIB + Btw-wetboek"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WBTW__art_93ter_2__sub_par1-par3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Controleperiodes en bewaartermijn",
+      "betekenis": "De gewone fiscale controleperiode is 3 jaar (vanaf 1 januari van het aanslagjaar). Bij fraude of laattijdige aangifte kan dit verlengd worden tot 10 jaar. De wettelijke boekhoudkundige bewaartermijn (7 jaar, WER art. III.86) is afgestemd op deze fiscale controlebevoegdheden — vandaar dat boekhoudkundige en fiscale dossiers vaak samen worden bewaard.",
+      "herkenningspunt": "Vraag 'tot wanneer kan een controle terug?' → standaard 3 jaar, bij fraude 10 jaar.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WIB art. 354 + 333"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WBTW__art_93ter_2__sub_par1-par3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Boekhouding ↔ fiscale aangifte",
+      "betekenis": "Het boekhoudkundig resultaat is het vertrekpunt voor de fiscale aangifte (primauteit van de boekhouding tenzij de fiscale wet anders bepaalt). Specifieke fiscale correcties (verworpen uitgaven, DBI-aftrek, fiscale meerwaarden, investeringsaftrek) worden toegevoegd. Een boekhoudfout werkt zo automatisch door in de fiscale aangifte.",
+      "herkenningspunt": "Examenvraag 'fiscaal vertrekpunt' → boekhoudkundig resultaat → daarop fiscale correcties.",
+      "confidence": "inferred",
+      "source": {
+        "type": "wet",
+        "short": "WIB art. 183-185"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2018-14-belastingen__sec_voorbeelden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "fsma",
+      "verschil": "FOD Financiën controleert de **fiscale** correctheid van de aangifte (belastbare basis, btw, voorheffingen). FSMA controleert de **financiële verslaggeving** van beursgenoteerde uitgevers (transparantie, tijdige publicatie). Twee verschillende controles op dezelfde boekhouding, met aparte bevoegdheden en sancties.",
+      "trigger": "'Vennootschapsbelasting-aangifte fout' → FOD Financiën. 'Beursgenoteerde uitgever publiceert te laat' → FSMA.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WBTW__art_93ter_2__sub_par1-par3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "commissaris",
+      "verschil": "Commissaris controleert getrouw beeld voor aandeelhouders (privaatrechtelijk, benoemd door AV). Fiscale controleur controleert correcte berekening belastbare basis voor de Staat (publiekrechtelijk, ambtshalve). Beide kunnen tegelijk werken op dezelfde boekhouding, maar zonder uitwisseling: beroepsgeheim van de commissaris belet rechtstreekse mededeling aan de fiscus.",
+      "trigger": "'Wie controleert het getrouw beeld?' → commissaris. 'Wie controleert de belastbare basis?' → FOD Financiën.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XV_62",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "FOD Financiën is geen 'algemene boekhoudpolitie' — haar mandaat is fiscaal, niet boekhoudrechtelijk. Zij toetst de boekhouding aan de fiscale wet, niet aan KB-WVV of CBN-adviezen rechtstreeks.",
+      "vaak_fout": "Een formele schending van een CBN-advies automatisch zien als 'FOD Financiën-probleem' — neen, dat is een commissaris-of-AV-kwestie tenzij het de belastbare basis raakt.",
+      "grondslag": "WIB + WER (afbakening mandaten)"
+    },
+    {
+      "advies": "Beroepsgeheim accountant/commissaris versus fiscaal inzagerecht: WIB art. 315 verplicht de **belastingplichtige** tot inzage, niet de externe accountant. Verzoeken aan de accountant rechtstreeks zijn gelimiteerd door beroepsgeheim (Wet 17 maart 2019).",
+      "vaak_fout": "Aannemen dat een fiscale controleur rechtstreeks bij de externe accountant alle stukken kan opvragen — neen, hij moet via de cliënt zelf gaan.",
+      "grondslag": "WIB art. 315; Wet 17 maart 2019 art. 30"
+    }
+  ]
 }

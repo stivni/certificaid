@@ -24,6 +24,13 @@
         "situering+",
         "schema->1.6"
       ]
+    },
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "cross-links toegevoegd naar klasse-0-niet-in-balans en niet-in-balans-opgenomen-rechten-verplichtingen (drie perspectieven van zelfde fenomeen — cluster is overkoepelend)"
+      ]
     }
   },
   "definitie": {
@@ -234,6 +241,16 @@
       "type": "vergelijkt-met",
       "target": "voorzieningen",
       "redenering": "Frequente examen-verwarring tussen klasse 0 en klasse 16."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "klasse-0-niet-in-balans",
+      "redenering": "Boekhoudkundige uitwerking via MAR klasse 0."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "niet-in-balans-opgenomen-rechten-verplichtingen",
+      "redenering": "Toelichtingsverplichting bij de jaarrekening (KB WVV)."
     }
   ],
   "voorbeelden": [

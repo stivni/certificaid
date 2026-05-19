@@ -20,7 +20,14 @@
       "1.1.I.A"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.III', '1.2.III.D'] door PO 1.2-extractie."
+    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.III', '1.2.III.D'] door PO 1.2-extractie.",
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge-fix: boekhoudkundige-beginselen→boekhoudbeginselen-overzicht"
+      ]
+    }
   },
   "main_rule": {
     "text": "Een boeking mag **na inschrijving niet onzichtbaar gewijzigd, weggelaten of toegevoegd** worden. Wijzigingen zijn wel toegelaten, maar moeten **duidelijk leesbaar blijven** — het oorspronkelijke geschrevene én de correctie moeten allebei zichtbaar zijn. Hetzelfde geldt voor jaarrekening- en inventarisgegevens (WER art. III.84 jo. CBN 174/1).",

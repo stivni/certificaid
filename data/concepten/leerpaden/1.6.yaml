@@ -14,17 +14,23 @@ hoofdstukken:
       belang bij hebben (uit de records getrouw-beeld-controle en
       regelmatigheid-jaarrekening-audit). Maak duidelijk dat externe
       controle een gelaagd vakgebied is — niet één opdrachttype, maar een
-      spectrum van zekerheidsniveaus (audit, review, samenstelling) — en
-      dat de stagiair leert redeneren van opdrachttype naar werkprogramma
-      naar oordeel. Verwijs naar de actoren bedrijfsrevisor en
-      gecertificeerd-accountant-ga uit de records: wie mag wat doen, en
-      onder welke norm.
+      spectrum van zekerheidsniveaus (audit met redelijke-mate-van-zekerheid,
+      review met beperkte-mate-van-zekerheid, samenstelling zonder
+      zekerheid) — en dat de stagiair leert redeneren van opdrachttype
+      naar werkprogramma naar oordeel. Verwijs naar de actoren
+      bedrijfsrevisor en gecertificeerd-accountant-ga uit de records: wie
+      mag wat doen, en onder welke norm. Plaats externe controle expliciet
+      tegenover interne controle (PO 1.7): de externe auditor stéunt op
+      een goed werkende interne beheersing maar vervangt ze niet — die
+      brug komt verderop in de risico-inschatting en de
+      tekortkomingen-communicatie terug.
 
   - type: thematisch
-    titel: "Wettelijk kader en normenhiërarchie: Wet ITAA, KB plichtenleer, ITAA-normen en ISA"
+    titel: "Wettelijk kader en normenhiërarchie: Wet ITAA, KB plichtenleer, ITAA-normen, ISA en IESBA"
     concepten:
-      - itaa-algemene-controlenorm
-      - itaa-kmo-controlenorm
+      - algemene-controlenorm-accountant
+      - kmo-controlenorm-accountant
+      - iesba-code-of-ethics
       - wettelijke-controleopdracht-commissaris
       - contractuele-controleopdracht
       - contractuele-beoordelingsopdracht
@@ -36,29 +42,41 @@ hoofdstukken:
       - gecertificeerd-accountant-ga
       - gedeelde-wettelijk-voorbehouden-opdracht
       - met-governance-belaste-personen
+      - kleine-vennootschap
+      - public-interest-entity
 
   - type: synthese
     synthese_id: opdrachttypes-zekerheidsniveaus-synthese
     rationale_hint: >-
       Plaats deze synthese vroeg als visuele kapstok over het hele
-      programmaonderdeel: het spectrum audit (redelijke zekerheid) →
-      review (beperkte zekerheid) → ISRS 4410 samenstelling (geen
-      zekerheid) → due diligence en bijzondere opdrachten. De student
-      ziet meteen welke opdrachttypes bestaan, welk zekerheidsniveau
-      eraan vasthangt en welk soort verslag eruit volgt. Verbind met de
-      records redelijke-mate-van-zekerheid, beperkte-mate-van-zekerheid
-      en beoordelingsverslag-elementen — verderop in het leerpad wordt
-      de audit-route uitgediept; de review- en samenstellingsroute zijn
-      hier vooral kader.
+      programmaonderdeel: het spectrum audit (redelijke-mate-van-zekerheid)
+      → review (beperkte-mate-van-zekerheid) → ISRS 4410 samenstelling
+      (geen zekerheid) → due diligence en bijzondere opdrachten. De
+      student ziet meteen welke opdrachttypes bestaan, welk
+      zekerheidsniveau eraan vasthangt en welk soort verslag eruit volgt.
+      Verbind expliciet redelijke-mate-van-zekerheid met
+      beperkte-mate-van-zekerheid (positieve versus negatieve conclusie-
+      formulering) en met beoordelingsverslag-elementen — verderop in het
+      leerpad wordt de audit-route uitgediept; de review- en
+      samenstellingsroute zijn hier vooral kader.
 
   - type: thematisch
     titel: "Zekerheidsniveaus en alternatieve opdrachttypes: review en samenstelling"
     concepten:
       - redelijke-mate-van-zekerheid
       - beperkte-mate-van-zekerheid
-      - samenstellingsopdracht-isrs4410
+      - samenstellingsopdracht
       - beoordelingsverslag-elementen
+
+  - type: thematisch
+    titel: "Bijzondere wettelijk voorbehouden opdrachten"
+    concepten:
       - ontbinding-vereffening-opdracht
+      - fusie-splitsing-controleopdracht
+      - omzetting-vennootschap-opdracht
+      - effectennorm-opdracht
+      - gerechtelijke-en-private-expertise
+      - wettelijke-verklaring-gecertificeerd-accountant
 
   - type: competentie
     competentie_id: aanvaarden-audit-opdracht
@@ -70,17 +88,25 @@ hoofdstukken:
       audit naast elkaar: aanvaarding → planning + risico-inschatting →
       uitvoering + assurance-informatie → conclusie + verslag. De
       vergelijkingstabel toont per fase doel, kern-output en
-      norm-referentie (KMO-norm + algemene controlenorm); de
-      Mermaid-flowchart maakt de iteratieve aard expliciet (nieuwe
-      risico's tijdens uitvoering kunnen de planning hertriggeren). Dit
-      hoofdstuk is de procedurele kaart voor de zes competenties die
-      hierop volgen.
+      norm-referentie (kmo-controlenorm-accountant +
+      algemene-controlenorm-accountant); de Mermaid-flowchart maakt de
+      iteratieve aard expliciet (nieuwe risico's tijdens uitvoering kunnen
+      de planning hertriggeren). Dit hoofdstuk is de procedurele kaart
+      voor de zes competenties die hierop volgen.
 
   - type: competentie
     competentie_id: verwerven-kennis-van-clientonderneming-audit
 
   - type: competentie
     competentie_id: uitvoeren-risico-inschatting-en-materialiteit-audit
+
+  - type: thematisch
+    titel: "Fraude-risico in de audit: typologie, driehoek en risicofactoren"
+    concepten:
+      - fraude-versus-fout
+      - fraudedriehoek
+      - frauderisicofactoren
+      - fraudetypologie-acfe
 
   - type: competentie
     competentie_id: opstellen-auditstrategie-en-werkprogramma
@@ -101,17 +127,36 @@ hoofdstukken:
     competentie_id: selecteren-en-uitvoeren-controle-instrumenten-audit
 
   - type: thematisch
-    titel: "Bijzondere uitvoeringsthema's: schattingen, automatisering en fraude"
+    titel: "Bijzondere uitvoeringsthema's: schattingen, automatisering en het werk van interne auditors"
     concepten:
       - boekhoudkundige-schattingen-audit
       - specifieke-kwesties-automatisering-audit
-      - fraude-versus-fout
+      - gebruik-werk-interne-auditors-audit
 
   - type: competentie
     competentie_id: documenteren-auditdossier
 
+  - type: thematisch
+    titel: "Kwaliteitsbeheersing rond het auditdossier: kantoor, opdracht en review"
+    concepten:
+      - controledocumentatie
+      - kwaliteitsbeheersing-opdrachtniveau
+      - intern-kwaliteitsmanagement-kantoor
+      - delegatie-en-supervisie-audit
+      - opdrachtgerichte-kwaliteitsbeoordeling
+
   - type: competentie
     competentie_id: beoordelen-getrouw-beeld-en-regelmatigheid
+
+  - type: thematisch
+    titel: "Het oordeel: afwijkingen, materialiteit en KAM"
+    concepten:
+      - afwijking-van-materieel-belang
+      - controleoordeel-types
+      - aangepast-oordeel
+      - paragraaf-ter-benadrukking
+      - paragraaf-overige-aangelegenheden
+      - kernpunten-van-controle
 
   - type: competentie
     competentie_id: opstellen-controleverslag-en-formuleren-oordeel
@@ -120,32 +165,47 @@ hoofdstukken:
     competentie_id: communiceren-met-bestuur-en-auditcomite
 
   - type: thematisch
-    titel: "Communicatie met management en governance in de praktijk"
+    titel: "Communicatie met management, governance en de brug naar interne controle (PO 1.7)"
     concepten:
       - communicatie-met-management-governance
-      - auditcomite
+      - communicatie-tekortkomingen-interne-beheersing
 
   - type: competentie
     competentie_id: toepassen-professional-skepticism-en-deontologie-audit
+
+  - type: thematisch
+    titel: "Antiwitwas- en tuchtrechtelijk kader rond de externe controle"
+    concepten:
+      - antiwitwasmeldingsplicht-accountant
+      - tuchtrechtelijke-aansprakelijkheid-accountant
+      - beroepsaansprakelijkheid-accountant
 
   - type: oriëntatie
     titel: "Reflectie: kwaliteitscontrole, beroepsaansprakelijkheid en het levende beroep"
     rationale_hint: >-
       Sluit af met een korte reflectie op wat een audit-opdracht na de
       handtekening nog kan opleveren: ITAA-kwaliteitscontrole op
-      opdrachtniveau (record kwaliteitsbeheersing-opdrachtniveau) en de
-      civiele en strafrechtelijke beroepsaansprakelijkheid van de
-      accountant bij nalatigheid of onafhankelijkheidsbreuken (record
-      beroepsaansprakelijkheid-accountant). Verbind met
-      onafhankelijkheid-externe-accountant en beroepsgeheim-accountant
-      uit het skepticism-hoofdstuk: deontologie is geen losse laag bovenop
-      het werk, maar de manier waarop de auditor zijn oordeel
-      beschermt. Maak de overstap naar PO 1.4 (consolidatie) en PO 1.3
-      (analyse) door op te merken dat de auditor in elk van die contexten
-      dezelfde auditcyclus toepast, alleen met andere risicoprofielen.
+      opdrachtniveau (records kwaliteitsbeheersing-opdrachtniveau en
+      opdrachtgerichte-kwaliteitsbeoordeling) en de civiele,
+      strafrechtelijke en tuchtrechtelijke beroepsaansprakelijkheid van
+      de accountant bij nalatigheid of onafhankelijkheidsbreuken (records
+      beroepsaansprakelijkheid-accountant en
+      tuchtrechtelijke-aansprakelijkheid-accountant). Verbind met
+      onafhankelijkheid-externe-accountant, belangenconflict-accountant
+      en beroepsgeheim-accountant uit het skepticism-hoofdstuk:
+      deontologie is geen losse laag bovenop het werk, maar de manier
+      waarop de auditor zijn oordeel beschermt. Maak de overstap naar
+      PO 1.7 (interne controle) door op te merken dat de externe auditor
+      stéunt op een goed werkende interne beheersing — vandaar de
+      verplichte communicatie van tekortkomingen
+      (communicatie-tekortkomingen-interne-beheersing) en het potentieel
+      gebruik van het werk van interne auditors
+      (gebruik-werk-interne-auditors-audit). Ook PO 1.4 (consolidatie) en
+      PO 1.3 (analyse) lopen via dezelfde auditcyclus, alleen met andere
+      risicoprofielen.
 
 _provenance:
-  voorgesteld_door: "leerpad-propose-v1-po-1.6-2026-05-17T00:00Z"
-  voorgesteld_op: "2026-05-17T00:00:00+00:00"
+  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260518T234555Z"
+  voorgesteld_op: "2026-05-18T23:48:00+00:00"
   gecureerd_door: null
   gecureerd_op: null

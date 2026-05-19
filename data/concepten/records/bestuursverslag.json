@@ -246,6 +246,12 @@
       "target": "getrouw-beeld-jaarrekening",
       "redenering": "Bestuursverslag is de narratieve tegenhanger van de cijfers — beide samen geven het getrouwe beeld.",
       "confidence": "inferred"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "jaarverslag",
+      "redenering": "Bestuursverslag en jaarverslag verwijzen naar hetzelfde wettelijke document (WVV-term: jaarverslag; richtlijn-term: bestuursverslag).",
+      "confidence": "inferred"
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
@@ -266,5 +272,21 @@
       ]
     }
   },
-  "naam_alternatief": "directors' report / rapport de gestion"
+  "naam_alternatief": "directors' report / rapport de gestion",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "jaarverslag",
+      "verschil": "Bestuursverslag en jaarverslag verwijzen naar hetzelfde document. **Bestuursverslag** is de Europese term (Richtlijn 2013/34/EU art. 19) — focus op procedure-stappen om het op te stellen. **Jaarverslag** is de Belgische WVV-term (WVV art. 3:32) — focus op verplicht onderdeel van de jaarrekening. In de praktijk identiek.",
+      "trigger": "Twee namen, één document. Term-keuze hangt af van regelgevings-context (BE/EU).",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_19__sub_lid1-lid2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

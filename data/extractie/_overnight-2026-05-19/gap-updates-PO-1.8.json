@@ -1,0 +1,149 @@
+{
+  "programmaonderdeel": "1.8",
+  "agent_run_id": "overnight-gap-fix-PO-1.8-2026-05-19",
+  "afgerond_op": "2026-05-19T00:00:00Z",
+  "updates": [
+    {
+      "match_op": {
+        "record_id": "prijsverschil-arbeid",
+        "aspect": "berekeningsmethode.formule",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "Eerdere pass heeft volledige berekeningsmethode toegevoegd (tariefverschil + efficientieverschil + totaal-arbeidsverschil) met variabelen en formules. Gap opgelost; nu zelf geverifieerd in actueel record."
+    },
+    {
+      "match_op": {
+        "record_id": "prijsverschil-arbeid",
+        "aspect": "berekeningsmethode.concreet_voorbeeld",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "Numeriek voorbeeld Yperse Werkplaats BV 100 tapijten aanwezig in voorbeelden[] en in invulling_voorbeeld per formule (tariefverschil EUR 795, efficientieverschil EUR 750, totaal EUR 1.545 ongunstig)."
+    },
+    {
+      "match_op": {
+        "record_id": "werkelijke-kostencalculatie",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "berekeningsmethode.stappen[] bevat nu 5 stappen (periode-afsluiting, direct verbruik per order, indirecte kosten per kostencentrum, werkelijke sleutel-tarieven, som per kostendrager) met grondslag-verwijzingen naar CBN 132/7 en KB MAR klasse 61-64."
+    },
+    {
+      "match_op": {
+        "record_id": "registratiesysteem-waarderingsneutraal",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "berekeningsmethode 'Reconciliatie-procedure algemene boekhouding klasse 6 / analytische klasse 9' toegevoegd met 5 stappen (waarderingsregels vergelijken, klasse-6-totalen, klasse-9-totalen, verschillen verklaren via 5 toegestane oorzaken CBN 3/3, correctie of vastleggen)."
+    },
+    {
+      "match_op": {
+        "record_id": "registratiesysteem-eenvoudige-integratie",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "berekeningsmethode 'Inrichting eenvoudige integratie (klasse 9)' toegevoegd met 5 stappen (kostendragers/centra definieren, klasse-9-rekeningen openen, spiegel-boeking klasse 6 -> klasse 9, periodieke totalen, reconciliatie). Verwijst naar KB 21.10.2018 MAR klasse 9."
+    },
+    {
+      "match_op": {
+        "record_id": "registratiesysteem-proportionele-integratie",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "berekeningsmethode toegevoegd met 5 stappen (rubrieken identificeren, sleutel bepalen, verzamelrekening boeken, pro-rata verdeelboeking, herijking) + pro-rata-aandeel-formule met invulling_voorbeeld Yperse weverij energiekost EUR 145.000 verdeeld over Tapijten/Stoffenrol/Garen."
+    },
+    {
+      "match_op": {
+        "record_id": "kostprijs-per-eenheid",
+        "aspect": "berekeningsmethode.formule",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "Drie formules aanwezig: vervaardigingsprijs-per-eenheid (CBN 132/7), volledige-kostprijs-per-eenheid, variabele-kostprijs-per-eenheid. Elk met variabelen + invulling_voorbeeld Yperse tapijt (EUR 201 vervaardigings, EUR 236 volledig, EUR 130 variabel)."
+    },
+    {
+      "match_op": {
+        "record_id": "statisch-budget",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "Drie in_praktijk-blokken aanwezig (wanneer statisch volstaat, wanneer flexibel nodig, combinatie met rolling forecast) + voorbeeld met cast Yperse Werkplaats BV en plausibele bedragen."
+    },
+    {
+      "match_op": {
+        "record_id": "flexibel-budget",
+        "aspect": "berekeningsmethode.concreet_voorbeeld",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "berekeningsmethode bevat formule met variabelen + invulling_voorbeeld + 4-stap procedure (vast/variabel splitsen, kost per eenheid, herrekenen, verschillen splitsen). Voorbeeld Yperse Werkplaats BV 9.500 tapijten = EUR 203.500 flexibel budget."
+    },
+    {
+      "match_op": {
+        "record_id": "opportuniteitskost",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "Vier in_praktijk-aspecten (wanneer toepassen, schaarste-trigger, make-or-buy, examen-trigger) + voorbeeld met cast (Brugse Boutique spoedorder verdringt Kappers Koln EUR 35.000 marge)."
+    },
+    {
+      "match_op": {
+        "record_id": "kostendrager",
+        "aspect": "vergelijkingsparen.ontbreekt",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "vergelijkingsparen[] bevat expliciet kostendrager-vs-kostencentrum (waarvoor de kost wordt gemaakt vs. waar de kost wordt gemaakt) met trigger en cast-voorbeeld. Edges spiegelen dit via vergelijkt-met."
+    },
+    {
+      "match_op": {
+        "record_id": "budgetboekhouding",
+        "aspect": "definitie.onvolledig",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "Definitie nu expliciet over MAR klasse 90 (KB 21.10.2018) en parallel-boeken-mechanisme (klasse 6/9 werkelijk + klasse 90 budget + klasse 98 verschillen). correction_reason gedocumenteerd. Bouwstenen tonen de budgetinschrijving + aansluiting realisatie met cast-voorbeeld."
+    },
+    {
+      "match_op": {
+        "record_id": "verschillenboekhouding",
+        "aspect": "records.overlappend-fenomeen",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "Geen merge nodig: verschillenboekhouding behandelt het algemene mechanisme (prijs/hoeveelheid voor materiaal, boeking op klasse 9, significantiegrens). prijsverschil-arbeid behandelt de arbeid-specifieke variant met tariefverschil/efficientieverschil-splitsing en is via edge onderdeel-van expliciet gekoppeld. Afbakening voldoende; geen gedupliceerde uitleg."
+    },
+    {
+      "match_op": {
+        "record_id": "kostenanalyse-make-or-buy",
+        "aspect": "stappen.onvolledig",
+        "geconstateerd_op": "2026-05-17T12:00Z"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.8-2026-05-19",
+      "toelichting": "berekeningsmethode 'Make-or-buy beslissings-stappen' aanwezig met 5 procedurele stappen (relevante kosten, make-kost, buy-kost, vergelijken + strategisch, gevoeligheidsanalyse) + cast-voorbeeld Yperse Spinnerij EUR 1.280.000 vermijdbaar vs. EUR 1.380.000 offerte."
+    }
+  ],
+  "nieuwe_gaps": [],
+  "samenvatting": "14 strategic-pass gaps behandeld: alle 14 resolved. 3 records bijgewerkt deze sessie (registratiesysteem-waarderingsneutraal, registratiesysteem-eenvoudige-integratie, registratiesysteem-proportionele-integratie) met procedurele stappen + grondslag-verwijzingen. 11 gaps bleken reeds opgelost door eerdere passes (formules, voorbeelden, in_praktijk-uitwerkingen al aanwezig in actuele records); status nu geverifieerd en gesloten. 0 nieuwe records aangemaakt. 0 nieuwe gaps gelogd."
+}

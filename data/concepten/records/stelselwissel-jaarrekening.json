@@ -1,0 +1,99 @@
+{
+  "id": "stelselwissel-jaarrekening",
+  "naam": "Stelselwissel jaarrekening (BE GAAP ↔ IFRS)",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.5.III",
+    "1.5.IV.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-overnight-gap-fix-PO-1.5-2026-05-19",
+    "model": "claude-opus-4-7",
+    "reviewed_by": null,
+    "anchor_id": "1.5.III",
+    "linked_anchors": [
+      "1.5.III",
+      "1.5.IV.A"
+    ]
+  },
+  "definitie": {
+    "text": "Een stelselwissel is de eenmalige overgang van het ene boekhoudkundige referentiestelsel naar het andere — typisch tussen Belgisch GAAP en IFRS, in beide richtingen. De wissel gebeurt op een overgangsdatum waarop een openingsbalans wordt opgesteld onder het nieuwe stelsel, met expliciete aansluitingsverklaring tussen het oude en het nieuwe stelsel.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "doctrine",
+      "short": "Synthese IFRS 1 + CBN 2022/08"
+    }
+  },
+  "situering": "Bij beursintroductie of moederwissel (BE GAAP → IFRS) gebeurt de overgang via IFRS 1. Bij delisting of vrijwillige terugkeer (IFRS → BE GAAP) gebeurt de overgang via CBN-advies 2022/08. In beide gevallen zit de uitdaging in retroactieve herwerking versus prospectieve voortzetting: welke balansposten moeten herwerkt, welke disclosures verplicht.",
+  "bouwstenen": [
+    {
+      "titel": "Twee richtingen, twee regimes",
+      "wat": "Overgang BE GAAP → IFRS volgt IFRS 1 (First-time Adoption). Overgang IFRS → BE GAAP volgt CBN 2022/08. Beide regimes vereisen een openingsbalans onder het nieuwe stelsel; beide kennen vrijstellingen en uitzonderingen op volledige retroactieve herwerking.",
+      "waarom": "Hoewel de regimes verschillende juridische bronnen hebben, deelt de stelselwissel hetzelfde economische probleem: balanscijfers en resultaten vertonen een breuk; aansluitingen overbruggen die breuk voor de gebruiker.",
+      "grondslag": "IFRS 1 alinea 6-9; CBN 2022/08 Standpunt",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-1-eerste-toepassing-IFRS__sec_openingsbalans",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Continuïteit versus breuk",
+      "wat": "Het algemene principe is **continuïteit van waarderingsregels** (geen retroactieve herwerking). De uitzonderingen — IFRS 1 §10 verplichte aanpassingen, CBN 2022/08 cumulatieve voorwaarden — gelden alleen wanneer het oude regime een waardering oplevert die in het nieuwe regime niet houdbaar is.",
+      "waarom": "Continuïteit beschermt de vergelijkbaarheid over tijd, breuken zijn enkel toegestaan waar getrouw beeld of regimevoorschriften dat eisen. Stagiair moet beide spanningen kennen.",
+      "grondslag": "IFRS 1 alinea 7; CBN 2022/08 §Continuïteitsbeginsel",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Aansluitingen voor de gebruiker",
+      "wat": "Bij elke stelselwissel verlangt het nieuwe regime een aansluitingsverklaring: eigen vermogen op de overgangsdatum onder oud versus nieuw stelsel, en (voor IFRS 1) ook op het einde van de laatste vergelijkbare periode. Onder BE GAAP-richting is de verklaring eerder een toelichting in het jaarverslag dan een verplichte gestructureerde tabel.",
+      "waarom": "Zonder aansluiting kan de gebruiker de breuk niet plaatsen. Examen toetst regelmatig welke aansluitingen IFRS 1 expliciet eist (eigen vermogen + totaalresultaat).",
+      "grondslag": "IFRS 1 alinea 24; CBN 2022/08 §Boekhoudkundige verwerking",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-1-eerste-toepassing-IFRS__sec_toelichting",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "wijziging-boekhoudkundig-referentiestelsel",
+      "verschil": "Algemeen cluster dekt regime-overstijgende kern (continuïteit als gemene deler, twee richtingen, aansluitingen). CBN 2022/08-record dekt specifiek de richting IFRS → BE GAAP statutair.",
+      "trigger": "Algemeen → 'wat zijn de gemeenschappelijke principes bij elke stelselwissel?'; CBN-record → 'wat zegt CBN 2022/08 over de uitzonderingen?'"
+    },
+    {
+      "vergelijking_met": "ifrs-eerste-toepassing",
+      "verschil": "Algemeen cluster dekt regime-overstijgende kern. IFRS-1-record dekt specifiek de richting BE GAAP → IFRS.",
+      "trigger": "Algemeen → 'welke aansluitingen vraagt elke wissel?'; IFRS-1-record → 'welke vrijstellingen kent IFRS 1?'"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "jaarrekening"
+    }
+  ],
+  "kerninzichten": [
+    "De stelselwissel is een eenmalige overgangs-operatie — geen jaarlijks weerkerende handeling. De volgende boekjaren werken onder het nieuwe stelsel zonder verdere wissel-mechaniek.",
+    "Continuïteit van waarderingsregels is de hoofdregel; alleen waar het nieuwe stelsel een andere waardering verplicht stelt, ontstaat een herwerking op de openingsbalans."
+  ]
+}

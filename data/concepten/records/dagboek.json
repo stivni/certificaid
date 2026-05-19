@@ -21,7 +21,14 @@
       "1.1.taak.1"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.III.C', '1.2.III', '1.2.III.D'] door PO 1.2-extractie."
+    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.III.C', '1.2.III', '1.2.III.D'] door PO 1.2-extractie.",
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "geen edge-wijziging nodig: verantwoordingsstuk-record aangemaakt"
+      ]
+    }
   },
   "definitie": {
     "text": "Een **dagboek** is het chronologisch register waarin een onderneming al haar verrichtingen inschrijft op de dag dat ze gebeuren. Twee vormen: (1) een **ongesplitst dagboek** waarin alle verrichtingen achter elkaar staan, of (2) een set **hulpdagboeken** (aankoopdagboek, verkoopdagboek, financieel dagboek, diversendagboek) waarbij elk soort verrichting in zijn eigen dagboek wordt geboekt en die periodiek (minstens maandelijks) gecentraliseerd worden in een centraal boek. Een boeking uitsluitend in de rekeningen — zonder doorgang door een dagboek — is niet toegelaten (WER art. III.84).",

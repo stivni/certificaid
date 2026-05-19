@@ -18,7 +18,8 @@
       "1.3.taak.1"
     ],
     "reviewed_by": null,
-    "bron_gap": "Geen Belgische bronvermelding in bundle. Vakdoctrine."
+    "bron_gap": "Geen Belgische bronvermelding in bundle. Vakdoctrine.",
+    "last_touch": "concept-extractie-v4-2026-05-19T-overnight-gap-fix"
   },
   "definitie": {
     "text": "Werkkapitaal is het verschil tussen vlottende activa en schulden op ten hoogste een jaar. Het toont de absolute buffer waarmee de onderneming haar lopende activiteiten kan financieren zonder beroep te doen op nieuwe schulden.",
@@ -145,6 +146,20 @@
           }
         ]
       }
+    },
+    {
+      "vergelijking_met": "werkkapitaalbehoefte",
+      "verschil": "Werkkapitaal = wat er is uit de balans (vlottende activa − schulden op ten hoogste een jaar). Werkkapitaalbehoefte = wat de operationele cyclus nodig heeft (voorraden + handelsvorderingen − handelsschulden). Het verschil tussen beide = nettokaspositie. Negatieve nettokas = structureel liquiditeitstekort.",
+      "trigger": "Examenvraag 'beschikbaar versus benodigd werkkapitaal' of 'wanneer is er liquiditeitstekort?': vergelijk werkkapitaal (beschikbaar uit balans) met werkkapitaalbehoefte (benodigd voor cyclus).",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
@@ -177,6 +192,12 @@
       "type": "vergelijkt-met",
       "target": "current-ratio",
       "redenering": "Werkkapitaal (absoluut) vs current ratio (relatief).",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "werkkapitaalbehoefte",
+      "redenering": "Werkkapitaal (beschikbaar uit balans) versus werkkapitaalbehoefte (benodigd voor operationele cyclus). Het verschil bepaalt de nettokas.",
       "confidence": "inferred"
     }
   ],

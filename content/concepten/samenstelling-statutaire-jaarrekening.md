@@ -24,6 +24,8 @@ Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van proef- en 
 > [!summary] Korte inhoud
 > Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van de proef- en saldibalans en de uitgevoerde eindejaarsverrichtingen, de statutaire jaarrekening op volgens het toepasselijke schema (volledig / verkort / micro).
 
+> [!info] Behoort tot: [[jaarrekening]]
+
 Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van de proef- en saldibalans en de uitgevoerde eindejaarsverrichtingen, de statutaire jaarrekening op volgens het toepasselijke schema (volledig / verkort / micro). De jaarrekening bevat balans, resultatenrekening, toelichting (+ sociale balans bij volledig en verkort schema) en wordt ter goedkeuring voorgelegd aan de algemene vergadering.
 
 

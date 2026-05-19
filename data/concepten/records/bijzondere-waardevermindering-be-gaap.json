@@ -264,6 +264,11 @@
       "target": "waardeverminderingen",
       "redenering": "Het algemenere waardeverminderingen-record dekt vorderingen/voorraden/financiële-vaste-activa; dit record dekt specifiek MVA onder art. 3:42.",
       "confidence": "grounded"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "bijzondere-waardevermindering",
+      "regime": "BE-GAAP"
     }
   ]
 }

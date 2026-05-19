@@ -20,15 +20,12 @@ hoofdstukken:
       `ifrs-toepassingsgebied-belgie` en `be-gaap-vs-ifrs-overzicht` uit de
       meegeleverde records — die fungeren als kapstok voor de hele cursus.
 
-  - type: voorbereiding
-    titel: "De twee referentiestelsels — begrippen"
+  - type: thematisch
+    titel: "De twee referentiestelsels — begrippen en conceptueel raamwerk"
     concepten:
       - belgisch-gaap
       - ifrs
-    rationale_hint: >-
-      Voor we de standaarden uitwerken: de twee begrippen op een rij,
-      zodat de student weet wat er vergeleken wordt voordat de verschillen
-      uitgebreid in de synthese landen.
+      - ifrs-conceptueel-raamwerk
 
   - type: thematisch
     titel: "Het Europese kader: richtlijn 2013/34/EU en verordening 1606/2002"
@@ -37,6 +34,9 @@ hoofdstukken:
       - verplichte-ifrs-eu-beursgenoteerden
       - endorsement-procedure-eu
       - ifrs-toepassingsgebied-belgie
+      - public-interest-entity
+      - groottecriteria-jaarrekening
+      - consolidatieverplichting
 
   - type: synthese
     synthese_id: be-gaap-vs-ifrs-overzicht
@@ -52,6 +52,20 @@ hoofdstukken:
 
   - type: competentie
     competentie_id: bepalen-toepasselijkheid-ifrs-belgie
+
+  - type: thematisch
+    titel: "Brug: jaarrekeningpresentatie als regime-overstijgend concept"
+    concepten:
+      - jaarrekening-presentatie
+    rationale_hint: >-
+      Deze regime-overstijgende cluster fungeert als brug tussen de
+      BE-GAAP-presentatie (KB WVV, klasse 1-7, balans + resultatenrekening +
+      toelichting) die de student al kent uit PO 1.1, en de IFRS-presentatie
+      (IAS 1, vijf componenten) die hierna volgt. De boodschap: dezelfde
+      economische realiteit wordt onder elk stelsel anders gepresenteerd —
+      zelfde getrouw-beeld-doel, andere vorm. Zo herkent de student in de
+      volgende cluster (IAS 1) waar IFRS van BE-GAAP afwijkt zonder de
+      gemeenschappelijke beginselen te verliezen.
 
   - type: thematisch
     titel: "IAS 1 — Presentatie van de jaarrekening: vijf componenten en presentatiebeginselen"
@@ -74,9 +88,25 @@ hoofdstukken:
       - herwaarderingsmodel-ifrs
       - componentenbenadering
       - afschrijvingen-ifrs
+      - intercalaire-interesten
 
   - type: competentie
     competentie_id: waarderen-materiele-vaste-activa-ifrs
+
+  - type: thematisch
+    titel: "Brug: bijzondere waardevermindering als regime-overstijgend mechanisme"
+    concepten:
+      - bijzondere-waardevermindering
+      - bijzondere-waardevermindering-be-gaap
+    rationale_hint: >-
+      Vóór de IFRS-specifieke IAS 36-cluster eerst de regime-overstijgende
+      logica: detecteer indicatoren, vergelijk boekwaarde met realiseerbare
+      waarde, boek het verschil. Onder BE-GAAP gebeurt dat per actief volgens
+      de waarderingsregels in het KB WVV (voorzichtigheidsbeginsel); onder
+      IFRS gebeurt het meer formeel via CGU's en de IAS 36-toets. Door beide
+      naast elkaar te plaatsen ziet de student de gemeenschappelijke economische
+      logica én weet hij waar de regimes uiteenlopen — dat is examenkritisch
+      bij vragen die de stelsels vergelijken.
 
   - type: thematisch
     titel: "Bijzondere waardevermindering onder IAS 36: indicaties, CGU en realiseerbare waarde"
@@ -85,6 +115,21 @@ hoofdstukken:
 
   - type: competentie
     competentie_id: toetsen-bijzondere-waardevermindering-ifrs
+
+  - type: thematisch
+    titel: "Brug: opbrengsten onder BE-GAAP — het realisatiebeginsel"
+    concepten:
+      - opbrengsten-be-gaap
+    rationale_hint: >-
+      Vóór het IFRS 15-model eerst de BE-GAAP-referentie: onder Belgisch recht
+      worden opbrengsten erkend volgens het realisatiebeginsel (geboekt zodra
+      gerealiseerd, dat wil zeggen levering of dienstverrichting voltrokken en
+      tegenprestatie redelijk zeker). Dit principe sluit aan bij het
+      voorzichtigheidsbeginsel uit PO 1.1. Door dit eerst te activeren ziet de
+      student waarom IFRS 15 met zijn vijf-stappen-model fundamenteel anders is:
+      één opbrengstcontract wordt opgesplitst in afzonderlijke prestatie-
+      verplichtingen, en de opbrengst per prestatieverplichting wordt erkend
+      naargelang de controle overgaat — niet bij globale levering.
 
   - type: thematisch
     titel: "Opbrengsten onder IFRS 15: het vijf-stappen-model en prestatieverplichtingen"
@@ -119,15 +164,34 @@ hoofdstukken:
       - leasing-ifrs
       - right-of-use-actief
       - leaseverplichting-ifrs
+      - lessee-vs-lessor-leasing-ifrs
+      - sale-and-leaseback-ifrs
 
   - type: competentie
     competentie_id: verwerken-leasing-ifrs-lessee
 
   - type: thematisch
-    titel: "Correctie en wijziging van het boekhoudkundig referentiestelsel"
+    titel: "Brug: stelselwissel jaarrekening — van BE-GAAP naar IFRS en omgekeerd"
     concepten:
-      - correctie-jaarrekening-ifrs
+      - stelselwissel-jaarrekening
       - wijziging-boekhoudkundig-referentiestelsel
+      - ifrs-eerste-toepassing
+      - correctie-jaarrekening-ifrs
+      - goodwill-be-gaap
+    rationale_hint: >-
+      De regime-overstijgende cluster `stelselwissel-jaarrekening` plaatst
+      drie verwante gevallen op één kapstok: (1) eerste toepassing van IFRS
+      door een onderneming die voorheen alleen BE-GAAP rapporteerde
+      (IFRS 1 — openings-balans, retroactieve toepassing met vrijstellingen),
+      (2) wijziging van het boekhoudkundig referentiestelsel binnen het bestaande
+      regime (waarderingsregel-wijziging onder BE-GAAP, schattings- of
+      grondslag-wijziging onder IAS 8), en (3) correctie van fouten uit eerdere
+      perioden. Door deze drie samen te brengen zien de studenten dat de
+      vraag "welk stelsel pas ik vanaf wanneer toe?" altijd dezelfde drie
+      ingrediënten heeft: transitiedatum, overgangsregels, en
+      toelichtingsvereisten. Goodwill onder BE-GAAP (verplichte afschrijving
+      vs. IFRS impairment-only) is een sprekend voorbeeld van een verschil
+      dat bij stelselwissel uitdrukkelijk moet worden behandeld.
 
   - type: competentie
     competentie_id: uitvoeren-eerste-toepassing-ifrs
@@ -148,7 +212,7 @@ hoofdstukken:
       krijgt onder elk stelsel een andere boekhoudkundige neerslag.
 
 _provenance:
-  voorgesteld_door: "leerpad-propose-v1-po-1.5-2026-05-17T12:00Z"
-  voorgesteld_op: "2026-05-17T12:00:00+00:00"
+  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260518T234554Z"
+  voorgesteld_op: "2026-05-19T00:00:00+00:00"
   gecureerd_door: null
   gecureerd_op: null

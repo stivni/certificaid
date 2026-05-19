@@ -87,6 +87,7 @@ _Grondslag: ISA 330 §8_
 ## Zie ook
 
 - **Getriggerd door**: [[toetsing-interne-beheersing]]
+- **Vereist kennis van**: [[interne-controle]]
 
 ## Voorbeelden
 

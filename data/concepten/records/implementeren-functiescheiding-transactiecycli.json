@@ -217,5 +217,17 @@
         }
       ]
     }
-  }
+  },
+  "edges": [
+    {
+      "type": "verwijst-naar",
+      "target": "cyclus-analyse-ic",
+      "redenering": "De overkoepelende cyclus-synthese plaatst de functiescheiding-implementatie in de bredere cyclusbenadering (aankoop/productie/verkoop/HR/voorraad)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "functiescheiding",
+      "redenering": "Het kerncompetentie-onderwerp; vier-functies-regel."
+    }
+  ]
 }

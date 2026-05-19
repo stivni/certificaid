@@ -1,0 +1,71 @@
+{
+  "programmaonderdeel": "1.3",
+  "agent_run_id": "overnight-gap-fix-PO-1.3-2026-05-19",
+  "afgerond_op": "2026-05-19T00:00:00+00:00",
+  "updates": [
+    {
+      "match_op": {
+        "record_id": "werkkapitaal",
+        "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.3-2026-05-19",
+      "toelichting": "Nieuw record 'werkkapitaalbehoefte' aangemaakt. Vergelijkingspaar werkkapitaal ↔ werkkapitaalbehoefte toegevoegd op beide records, plus edges (vergelijkt-met). De vrije-tekst-vermelding in werkkapitaal.in_praktijk[0] heeft nu een gespiegelde structurele tegenhanger."
+    },
+    {
+      "match_op": {
+        "record_id": "werkkapitaal",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.3-2026-05-19",
+      "toelichting": "Record 'werkkapitaalbehoefte' (Besoin en fonds de roulement / BFR) aangemaakt als begrip met definitie, twee bouwstenen, berekeningsmethode (twee formules incl. nettokas-formule), twee in_praktijk-blokken, vergelijkingspaar met werkkapitaal, twee valkuilen, edges naar werkkapitaal en liquiditeitsratio. Confidence: inferred-common-knowledge — Belgische bron nog niet beschikbaar (zie bron-gap 1.3 handboek Ooghe)."
+    },
+    {
+      "match_op": {
+        "record_id": "liquiditeitsratio",
+        "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.3-2026-05-19",
+      "toelichting": "Nieuw record 'cash-ratio' aangemaakt. Vergelijkingspaar liquiditeitsratio ↔ cash-ratio toegevoegd, plus edge (verwijst-naar). Cash-ratio heeft zelf vergelijkingsparen met quick-ratio en current-ratio. De vrije-tekst-vermelding in liquiditeitsratio.bouwstenen[0] heeft nu een gespiegelde structurele tegenhanger."
+    },
+    {
+      "match_op": {
+        "record_id": "liquiditeitsratio",
+        "aspect": "records.ontbreekt",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.3-2026-05-19",
+      "toelichting": "Record 'cash-ratio' aangemaakt als cluster (analoog aan current-ratio en quick-ratio) met definitie, twee bouwstenen, berekeningsmethode met formule + 3-staps werkblad + balans/berekening-substappen, concreet_voorbeeld op Rotex Roeselare (cijfers consistent met current-ratio en liquiditeitsratio: € 1.300.000 / € 4.000.000 = 0,325), twee in_praktijk-blokken, twee vergelijkingsparen (met quick en current), twee valkuilen, edges naar liquiditeitsratio (onderdeel-van) en naar quick/current (vergelijkt-met). Confidence: inferred-common-knowledge."
+    },
+    {
+      "match_op": {
+        "aspect_type": "bron-gap",
+        "aspect": "bron-corpus-uitbreiding",
+        "po": "1.3",
+        "anchor_id": "1.3.II.C",
+        "geconstateerd_op": "2026-05-16"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.3-2026-05-19",
+      "toelichting": "Niet in scope deze overnight-sessie. Aanschaf van handboek Ooghe & Van Wymeersch + NBB-sectorpublicaties vereist menselijke beslissing (aankoop/bibliotheekraadpleging). De acht ratio-records blijven 'inferred-common-knowledge' tot Belgische bron wordt toegevoegd. Geen examen-blokker voor mei 2026, blijft staan als bron-uitbreidings-werk."
+    },
+    {
+      "match_op": {
+        "record_id": "po-1.3-examenvragen",
+        "aspect": "examenvragen.labels-ontbreken",
+        "geconstateerd_op": "2026-05-16T16:00:00+00:00"
+      },
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.3-2026-05-19",
+      "toelichting": "Proces-gap, niet op te lossen door concept-extractie. Vereist een aparte labelling-run over de exam-corpus 2013-2015 om anchor-labels 1.3.* toe te kennen. Vraag verbeterd te plannen na de overnight gap-fix-sweep — buiten EXTRACT-scope. Geen blokker voor PO-1.3-conceptlaag zelf."
+    }
+  ],
+  "nieuwe_gaps": [],
+  "samenvatting": "6 archived-strategic-pass gaps behandeld: 4 resolved (2 nieuwe records + 2 spiegelingen), 2 bewaard (1 bron-gap, 1 proces-gap — beide buiten EXTRACT-scope). 2 nieuwe records: werkkapitaalbehoefte (begrip) en cash-ratio (cluster). 2 records bijgewerkt: werkkapitaal en liquiditeitsratio."
+}

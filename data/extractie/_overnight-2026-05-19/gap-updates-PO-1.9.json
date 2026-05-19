@@ -1,0 +1,86 @@
+{
+  "programmaonderdeel": "1.9",
+  "agent_run_id": "overnight-gap-fix-PO-1.9-2026-05-19",
+  "afgerond_op": "2026-05-19T20:00:00Z",
+  "updates": [
+    {
+      "match_op": {
+        "record_id": "ohlson-o-score",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.9-2026-05-19",
+      "toelichting": "ohlson-o-score uitgebreid van 1 naar 5 edges: vereist-kennis-van → werkkapitaal (var 3 NBK/TA), solvabiliteitsratio (var 2 VV/TA + indicator 5), current-ratio (var 4 VK/VlA als inverse); getriggerd-door → falen-van-de-onderneming. Uniforme rijkheid met altman-z-score bereikt."
+    },
+    {
+      "match_op": {
+        "record_id": "kasstroomoverzicht-drie-segmenten",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.9-2026-05-19",
+      "toelichting": "4 edges type 'bevat' toegevoegd naar cashflow-analyse (CFO-kern), behoefte-aan-bedrijfskapitaal (Δ BBK-correctie), financiering-met-eigen-vermogen en financiering-met-derdenkapitaal (CFF-componenten). Dit zijn precies de vier gebaseerd_op_concepten — gap pleitte voor expliciete graph-edges naast die lijst."
+    },
+    {
+      "match_op": {
+        "record_id": "kwantitatieve-financiele-diagnose",
+        "aspect": "edges.target-ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.9-2026-05-19",
+      "toelichting": "3 edges toegevoegd: bevat → altman-z-score, bevat → ohlson-o-score, getriggerd-door → falen-van-de-onderneming. Spiegelt gebaseerd_op_concepten en maakt RAG-graph-retrieval mogelijk."
+    },
+    {
+      "match_op": {
+        "record_id": "herstructurering-resultatenrekening",
+        "aspect": "in_praktijk.ontbreekt",
+        "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.9-2026-05-19",
+      "toelichting": "3 in_praktijk-items toegevoegd: (1) examen-relevantie 'vier blokken + TW-isolatie', (2) verkort/microschema-beperking expliciet vermelden, (3) concretisering Rotex Roeselare NV met volledig schema-cijfers. Rijkheid nu in lijn met toegevoegde-waarde-financiele-analyse en interpretatie-financiele-ratios."
+    },
+    {
+      "match_op": {
+        "record_id": "po-1.9-bron-corpus",
+        "aspect": "bron-corpus-uitbreiding",
+        "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "bewaard-voor-later",
+      "applied_door": "overnight-gap-fix-PO-1.9-2026-05-19",
+      "toelichting": "Bron-gap: vereist toevoeging van Belgisch handboek financiële analyse (Ooghe-Van Wymeersch, Vereeck) als trusted bron. Buiten scope van overnight-pass — vraagt manueel pipeline-werk (bron downloaden, ETL, RAG-herindexering, regrounding van 9 records). Hoort thuis in Fase 4 (Bronnen-uitbreiding). Behouden voor latere strategische bronnenpass."
+    },
+    {
+      "match_op": {
+        "record_id": "po-1.9-anchor-1.9.IV.A",
+        "aspect": "open-werk",
+        "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+        "status": "archived-strategic-pass"
+      },
+      "nieuwe_status": "bewaard-voor-later",
+      "applied_door": "overnight-gap-fix-PO-1.9-2026-05-19",
+      "toelichting": "Anchor 1.9.IV.A is overkoepelend gedekt door cashflow-analyse + behoefte-aan-bedrijfskapitaal + kasstroomoverzicht-drie-segmenten. Voorgesteld synthese-record 'kasstroom-bedrijfscyclus-overzicht' (cash-conversion-cycle visualisatie) is een nice-to-have, niet blokkerend voor minicursus 1.9. Lage prio, bewaard voor post-examen content-laag-pass."
+    },
+    {
+      "match_op": {
+        "record_id": "po-1.9-wave-2-completion",
+        "aspect": "open-werk",
+        "geconstateerd_op": "2026-05-19T00:00:00Z",
+        "status": "open"
+      },
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.9-2026-05-19",
+      "toelichting": "Info-entry over wave-2 schema 1.5→1.6 afronding. De drie inhoudelijke vervolg-gaps die hier genoemd worden (Ohlson-edges, syntheses zonder edges, herstructurering zonder in_praktijk) zijn in deze overnight-pass alle drie resolved. Het vierde punt (kasstroom-bedrijfscyclus-overzicht) blijft bewaard onder po-1.9-anchor-1.9.IV.A. Wave-2 + opvolgwerk daarmee volledig dichtgewerkt; bron-corpus blijft als Fase 4-werk."
+    }
+  ],
+  "nieuwe_gaps": [],
+  "samenvatting": "PO 1.9 overnight-pass: 7 gaps behandeld. 5 resolved (4 record-updates + 1 info-entry afgevinkt), 2 bewaard-voor-later (bron-corpus-uitbreiding hoort in Fase 4; kasstroom-bedrijfscyclus-overzicht is post-examen nice-to-have). Geen nieuwe gaps, geen nieuwe records, geen rename/delete. 4 records gepatched: ohlson-o-score (+4 edges), kasstroomoverzicht-drie-segmenten (+4 edges), kwantitatieve-financiele-diagnose (+3 edges), herstructurering-resultatenrekening (+3 in_praktijk items)."
+}

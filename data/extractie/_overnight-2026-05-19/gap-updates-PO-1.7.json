@@ -1,0 +1,325 @@
+{
+  "programmaonderdeel": "1.7",
+  "agent_run_id": "overnight-gap-fix-PO-1.7-2026-05-19",
+  "afgerond_op": "2026-05-19T00:00:00+00:00",
+  "samenvatting": "52 gaps behandeld voor PO 1.7 (Interne controle): 18 resolved (16 verouderd door wave-werk + 2 nieuwe records aangemaakt + 1 edge toegevoegd), 23 won't-fix (bewust-uit-scope/laag-prio), 11 bewaard (bron-gaps die corpus-uitbreiding vergen). 2 nieuwe records: nis-2-richtlijn (regel), niet-naleving-wet-regelgeving-noclar (cluster).",
+  "nieuwe_records": [
+    {"id": "nis-2-richtlijn", "node_type": "regel"},
+    {"id": "niet-naleving-wet-regelgeving-noclar", "node_type": "cluster"}
+  ],
+  "updates": [
+    {
+      "match_op": {"record_id": "aankoopcyclus-ic", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record is in wave2-1.7.IX (2026-05-18) volledig uitgewerkt: 4 bouwstenen, scenario-voorbeeld met illustraties (boeking + mermaid), 5-staps procesgang, 3 valkuilen. 12kb. Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": "verkoopcyclus-ic", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record is in wave2-1.7.IX volledig uitgewerkt: 4 bouwstenen, ~13kb. Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": "productiecyclus-ic", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record is in wave2-1.7.IX volledig uitgewerkt: 4 bouwstenen, ~13kb (BOM-tracking, yield-analyse, standaard vs actual variance). Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": "hr-cyclus-ic", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record is in wave2-1.7.IX volledig uitgewerkt: 4 bouwstenen (ghost-employee-risico, loon-functiescheiding, Dimona-cross-check, AVG-link). 11kb. Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": "voorraadcyclus-ic", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record is in wave2-1.7.IX volledig uitgewerkt: 3 bouwstenen, ~13kb (inventaris, voorraadtelling-functiescheiding, cycle-counts). Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": "uitvoering-interne-controle", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record is in wave2-VIII volledig uitgewerkt: 5 bouwstenen die de 5 COSO-componenten in uitvoering tonen. 9.5kb. Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": "evaluatie-interne-controle", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record uitgebreid (7kb, 2 bouwstenen); design vs operating effectiveness behandeld in toetsing-interne-beheersing (gap noemt zelf laag-prio alternatief). Voldoende voor minicursus-stap."
+    },
+    {
+      "match_op": {"record_id": "controleproces-organisatie", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record uitgebreid in wave2 met 6 bouwstenen (PDCA-fasen). 6.9kb. Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": "inbreng-in-natura-verslag", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record uitgebreid met 4 bouwstenen (inhoud verslag, waarderingsmethoden, quasi-inbreng-vergelijking, niet-rendabel). 10.8kb. Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": "interne-controle", "aspect": "edges.target-ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Edge `vergelijkt-met -> coso-i-erm-framework` bestaat niet meer in het huidige record (gecontroleerd in wave2-1.7.I cleanup). Huidige edges verwijzen naar COSO-componenten en bestaande targets. Verouderd."
+    },
+    {
+      "match_op": {"record_id": "functiescheiding", "aspect": "edges.target-ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Edge naar `vier-functies-segregatie` bestaat niet meer; huidige edges: onderdeel-van interne-controle, verwijst-naar taakverdeling-ic, verwijst-naar it-general-controls. Vier-functies behandeld als bouwsteen. Verouderd."
+    },
+    {
+      "match_op": {"record_id": "auditrisico-1-7-context", "aspect": "records.overlappend-fenomeen", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record is hernoemd naar `auditrisico-in-ic-context` (gecontroleerd: bestaat met 8.5kb, 3 bouwstenen, gepositioneerd als IC-context-perspectief naast generiek auditrisicomodel). Geen merge-conflict meer."
+    },
+    {
+      "match_op": {"record_id": "externe-controle", "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Cross-link naar 1.2-actor-records is een PO 1.2-scope-uitbreiding (out-of-scope voor PO 1.7-pass). Externe-controle is in interne-controle.vergelijkingsparen al gespiegeld. Volstaat voor minicursus."
+    },
+    {
+      "match_op": {"record_id": "cyclus-analyse-ic", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Synthese-record en alle 5 onderliggende cyclus-records zijn uitgebreid in wave2-1.7.IX. Uniforme rijkheid hersteld (Regel 5 v3). Gap verouderd."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T18:00:17Z", "reden_prefix": "Top-anchor 1.7.V (AUDIT) cluster heeft geen overkoepelend record"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Gap zelf concludeert: 'lage prioriteit: het examen toetst typisch IC-context (1.7), niet audit-taxonomie als zelfstandig onderwerp.' Bestaande records dekken voldoende; geen synthese-record nodig."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T18:00:17Z", "reden_prefix": "Sub-anchors 1.7.V.A-E"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Onafhankelijkheid + IIA Code of Ethics als zelfstandig record blijft kandidaat — laag-prio, vereist IIA-bron-import. Bewaard voor latere wave."
+    },
+    {
+      "match_op": {"record_id": "evaluatiecriteria-ic", "aspect": "bron-gap", "geconstateerd_op": "2026-05-18T18:00:17Z"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Volledige bron-grounding vergt ITAA-norm- of CBN-advies-uitbreiding. Inferred-niveau aanvaardbaar voor stagiair. Bron-gap blijft open totdat corpus uitgebreid wordt."
+    },
+    {
+      "match_op": {"record_id": "monitoring-interne-controle", "aspect": "bron-gap", "geconstateerd_op": "2026-05-18T18:00:17Z"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "COSO 2013 component 5 vereist COSO-import als bron. Bron-gap blijft open."
+    },
+    {
+      "match_op": {"record_id": "auditcomite", "aspect": "bron-gap", "geconstateerd_op": "2026-05-18T18:00:17Z"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "WVV art. 7:99-7:101 + Wet 6.4.2017 niet integraal in chunks — vereist WVV-volledige bron-import. Record dekt inferred-niveau voldoende voor examen. Bron-gap blijft open."
+    },
+    {
+      "match_op": {"record_id": "fouten-ic", "aspect": "granulariteit.beslissing-nodig", "geconstateerd_op": "2026-05-18T18:22:14Z"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Rename-beslissing (fout vs fout-afwijking vs onopzettelijke-afwijking) vergt cross-PO-impact-analyse (PO 1.6 fraude-versus-fout). Mens-beslissing nodig. Bewaard."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T18:42:48Z", "reden_prefix": "Concept 'NIS-2-richtlijn'"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record `nis-2-richtlijn` aangemaakt (regel, schema 1.6) met main_rule, voorwaarden, drempelwaarden, in_praktijk (kern-verplichtingen, link met IC), valkuilen, vergelijkingsparen (DORA, AVG), edges naar cyberrisico-ic + it-general-controls + interne-controle, scenario-voorbeeld. Bron-gap genoteerd (NIS 2 + omzettingswet niet in corpus); inferred-common-knowledge."
+    },
+    {
+      "match_op": {"record_id": "implementeren-functiescheiding-transactiecycli", "aspect": "context-edge-ontbreekt", "geconstateerd_op": "2026-05-18T18:42:48Z"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Edges toegevoegd: verwijst-naar cyclus-analyse-ic + vereist-kennis-van functiescheiding."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "bron-gap", "geconstateerd_op": "2026-05-18T18:51:44Z", "reden_prefix": "1.7.XII.A verbose noemt SOX"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "SOX niet kern-examenstof voor de GA-stagiair (Belgische context primeert); buiten scope tot een Belgische bron SOX-vereisten op een PIE projecteert."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "bron-gap", "geconstateerd_op": "2026-05-18T18:51:44Z", "reden_prefix": "Anchor-tekst 1.7.XII verbose noemt COBIT"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "COBIT niet kern-examenstof; geen ISACA-bron in corpus."
+    },
+    {
+      "match_op": {"record_id": "coso-i-framework", "aspect": "naming-smell", "geconstateerd_op": "2026-05-18T18:51:44Z"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "COSO I/II en ISO 31000 zijn bron én concept tegelijk; rename zou versiestratificatie (COSO I 1992/2013 versus COSO II 2017) opzwepen. Heroverwegen wanneer parallel-framework-cluster ontstaat."
+    },
+    {
+      "match_op": {"record_id": "interne-controle", "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T18:00:00Z"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Linked_anchor 1.7.taak.1 op interne-controle (cluster) is acceptabel: het IC-fenomeen wordt geraakt door bijzondere-verslagen-werk. Gap-tekst zelf zegt 'voldoende-vermeld-geen-record-gemaakt'."
+    },
+    {
+      "match_op": {"record_id": "opstellen-bijzondere-verslagen-en-ic-evaluaties", "aspect": "granulariteit.beslissing-nodig", "geconstateerd_op": "2026-05-18T18:00:00Z"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Compositie-naam ('en'-smell) maar inhoudelijk integratie-skill — split-beslissing vergt mens. Bewaard."
+    },
+    {
+      "match_op": {"record_id": "beperkte-zekerheid", "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T19:16:01Z"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Aanmaak hoort thuis in PO 1.6 (audit/assurance) — out-of-scope voor PO 1.7-pass. Bewaard voor PO 1.6."
+    },
+    {
+      "match_op": {"record_id": "interne-controle", "aspect": "in_praktijk.ontbreekt", "geconstateerd_op": "2026-05-18T19:16:01Z"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record-top-illustratie (mermaid 5 COSO-componenten) is render-laag-cosmetiek; cluster heeft sterke bouwstenen + in_praktijk + voorbeeld. Niet kritisch voor minicursus."
+    },
+    {
+      "match_op": {"record_id": "managementcontrole", "aspect": "bron-gap", "geconstateerd_op": "2026-05-18T19:16:01Z"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Geen Belgische trusted bron voor managementcontrole (internationale vakliteratuur). Bron-gap blijft."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T19:00:00Z", "reden_prefix": "PO 1.7.II.D en .E refereren naar ISA 500"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "ISA-500-record hoort thuis in audit-PO-pass (PO 1.6). Bewaard."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T19:00:00Z", "reden_prefix": "PO 1.7.II.D refereert naar communicatie van IC-tekortkomingen"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Bestaand record `communicatie-tekortkomingen-interne-beheersing` dekt ISA 265-toepassing op IC-niveau. ISA-265-record als regel hoort thuis in PO 1.6."
+    },
+    {
+      "match_op": {"record_id": "ethiek-organisatie-ic", "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T19:00:00Z"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Bestaand record `klokkenluiderregeling` (regel, schema 1.5) dekt Wet 28 november 2022 (omzetting EU-Richtlijn 2019/1937) — toepassingsgebied, IC-relevantie, inhoud meldingen. Geen extra record nodig."
+    },
+    {
+      "match_op": {"record_id": "onderneming-begrip-ic", "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T19:00:00Z"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Gap zelf concludeert: 'voldoende-vermeld-geen-record-gemaakt' — record verwijst correct naar boekhoudplichtige-onderneming."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T19:00:00Z", "reden_prefix": "Sub-anchor 1.7.II.B 'Informatiesysteem'"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Gap zelf: 'consistent, geen extra gap'. Record it-general-controls bestaat."
+    },
+    {
+      "match_op": {"record_id": "kwaliteitscriteria-interne-controle", "aspect": "bron-gap", "geconstateerd_op": "2026-05-18T19:40:34.995956+00:00"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Vijf criteria gedistilleerd uit ISA 265/315 + ITAA KMO-controlenorm — geen één-op-één bron. Inferred-from-aggregation is correct gelabeld. Bron-uitbreiding voor 'grounded' blijft kandidaat."
+    },
+    {
+      "match_op": {"record_id": "preventief-versus-detecterende-controle", "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T19:40:34.995956+00:00"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Corrigerend reeds als monitoring-bouwsteen gedekt. Gap zelf: 'voldoende-vermeld-geen-record-gemaakt'."
+    },
+    {
+      "match_op": {"record_id": "kwaliteitscriteria-interne-controle", "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T19:40:34.995956+00:00"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Design vs operating effectiveness leeft natuurlijker binnen toetsing-interne-beheersing (audit-procedure-laag, PO 1.6). Gap zelf: 'voldoende-vermeld-geen-record-gemaakt'."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T19:36:00Z", "reden_prefix": "Term 'expectation gap'"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Gap zelf: 'voldoende-vermeld-geen-record-gemaakt'. Geen eigen examen-domein in PO 1.7.VI."
+    },
+    {
+      "match_op": {"record_id": "uitvoering-interne-controle", "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T20:22:00Z"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Risico-controle-matrix is methodologisch instrument (compositie, niet aggregatie). Bouwsteen-status volstaat. Gap zelf: 'voldoende-vermeld-geen-record-gemaakt'."
+    },
+    {
+      "match_op": {"record_id": "opvolging-verrichtingen-ic", "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T20:22:00Z", "reden_prefix": "Bouwsteen 'Voorraadtelling en spot-checks' refereert naar ISA 501"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "ISA 501 is audit-procedure-norm (PO 1.6-scope). Gap zelf: 'bewust-uit-scope'."
+    },
+    {
+      "match_op": {"record_id": "opvolging-verrichtingen-ic", "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T20:22:00Z", "reden_prefix": "CBN-advies 174/1"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Beginselen regelmatige boekhouding zijn PO 1.4-scope. Voldoende-vermeld in IC-context."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T18:00:17Z", "reden_prefix": "Term 'IIA Standards'"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Gap zelf: 'bewust-uit-scope — internationale vakdoctrine zonder Belgische omzetting'. Grondslag-strings in andere records volstaan."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T18:22:14Z", "reden_prefix": "Concept 'management-override'"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Bestaand record `management-override` dekt begrip; uitwerking met ISA 240 §32 specifieke procedures hoort in PO 1.6-pass. Gap zelf laag-prio."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T18:22:14Z", "reden_prefix": "Concept 'klokkenluiderregeling'"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Bestaand record `klokkenluiderregeling` (regel) dekt Wet 28 november 2022 toepassingsgebied + meldkanalen + IC-relevantie. Content-kwaliteit gepasst."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T18:42:48Z", "reden_prefix": "Term 'three-way match'"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Gap zelf: 'voldoende-vermeld-geen-record-gemaakt'. Bouwsteen-status binnen aankoopcyclus-ic."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T18:42:48Z", "reden_prefix": "Term 'ghost employees'"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Gap zelf: 'voldoende-vermeld-geen-record-gemaakt'. Gedekt door hr-cyclus + fraudetypologie."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T18:42:48Z", "reden_prefix": "Term 'business email compromise"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "BEC als eigen record-kandidaat onder fraudetypologie-acfe — uitbreiding-werk voor latere fraudetypologie-pass. Bewaard."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T18:51:44Z", "reden_prefix": "WVV-bepalingen rond auditcomité"},
+      "nieuwe_status": "wont-fix",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Gap zelf: 'mogelijk overkill; wettelijk-kader-ic noemt Corporate governance al in vergelijkingstabel'. Auditcomite-record dekt het orgaan, wettelijk-kader-ic dekt de verankering."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "dangling-reference", "geconstateerd_op": "2026-05-18T18:00:00Z", "reden_prefix": "PO 1.7-records over IC-systeem"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Cleanup van 1.7.taak.1 linked_anchors over IC-records vergt evaluatie per competentie. Bewust-uit-scope voor gap-fix-nacht; later op te pakken."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T18:00:00Z", "reden_prefix": "Mogelijk ontbrekende records die 1.7.taak.1 raken"},
+      "nieuwe_status": "bewaard",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Drie kandidaten (uitkering-uit-reserves-verslag, beoordeling-tussentijdse-cijfers, omzetting-verslag) — vereist gerichte re-extract met bronbundles. Bewaard."
+    },
+    {
+      "match_op": {"record_id": null, "aspect": "records.ontbreekt", "geconstateerd_op": "2026-05-18T19:36:00Z", "reden_prefix": "Concept 'niet-naleving wet- en regelgeving (NOCLAR"},
+      "nieuwe_status": "resolved",
+      "applied_door": "overnight-gap-fix-PO-1.7-2026-05-19",
+      "toelichting": "Record `niet-naleving-wet-regelgeving-noclar` aangemaakt (cluster, schema 1.6) met definitie (ISA 250 §11-12), 4 bouwstenen (categorieën, auditor-respons, antiwitwas-overlap, IESBA Code), in_praktijk (fraude-vergelijking, documentatie), valkuilen, vergelijkingsparen (fraude, antiwitwasmelding), edges, scenario-voorbeeld (milieu-incident bij Rotex Roeselare NV). Bron-gap genoteerd."
+    }
+  ],
+  "nieuwe_gaps": []
+}

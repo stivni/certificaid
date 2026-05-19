@@ -17,7 +17,14 @@
       "1.2.IV",
       "1.2.V"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge specialisatie-van jaarrekening toegevoegd"
+      ]
+    }
   },
   "definitie": {
     "text": "Het 'schema' van een jaarrekening is de voorgeschreven opbouw en presentatie van balans, resultatenrekening en toelichting. Het KB-WVV onderscheidt drie modellen: volledig (bijlage 1, voor grote vennootschappen), verkort (bijlage 2, voor kleine vennootschappen) en micro (bijlage 3, voor microvennootschappen). Verenigingen hebben aparte bijlagen.",
@@ -213,6 +220,21 @@
       "target": "kb-wvv-uitvoering",
       "redenering": "De schema's staan in de bijlagen van het KB-WVV.",
       "confidence": "inferred"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "jaarrekening-presentatie"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "balans-presentatie-ifrs",
+      "regime": "BE-GAAP",
+      "aspect": "regime-paralleel BE-GAAP ↔ IFRS"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "jaarrekening",
+      "redenering": "Jaarrekening-schema is de schema-keuze-specialisatie (volledig/verkort/micro) binnen het overkoepelende jaarrekening-cluster."
     }
   ],
   "voorbeelden": [

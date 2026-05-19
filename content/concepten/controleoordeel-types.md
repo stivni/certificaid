@@ -73,12 +73,12 @@ Meubelzaak Mertens BV weigert de openingsbalans en de aankoopfacturen voor de ee
 _Grondslag: ITAA KMO-controlenorm §118_
 
 
-> [!info]- Niet verwarren met [[afkeurend-oordeel-vs-oordeel-met-voorbehoud]]
+> [!info]- Niet verwarren met [[controleoordeel-types]]
 > Beide gaan over een AFWIJKING in de jaarrekening die voldoende-en-geschikte assurance-informatie heeft opgeleverd. Oordeel met voorbehoud = de afwijking is materieel maar GEÏSOLEERD (één post, één rubriek): de rest van de jaarrekening blijft gebruikbaar. Afkeurend oordeel = de afwijking is materieel ÉN DIEPGAAND: de hele jaarrekening is misleidend, één paragraaf voorbehoud zou de gebruiker bedriegen.
 >
 > _Trigger_: Examenvraag: ‘systematische overwaardering van voorraden die balans en resultaat omslaat’ → afkeurend. ‘één deelneming € 250.000 te hoog gewaardeerd’ → oordeel met voorbehoud.
 
-> [!info]- Niet verwarren met [[oordeelonthouding-vs-oordeel-met-voorbehoud]]
+> [!info]- Niet verwarren met [[controleoordeel-types]]
 > Beide kunnen het gevolg zijn van SCOPE-BEPERKING (geen voldoende-en-geschikte assurance-informatie). Oordeel met voorbehoud = de niet-detecteerbare effecten zijn materieel maar geïsoleerd. Oordeelonthouding = de niet-detecteerbare effecten kunnen materieel én diepgaand zijn (één pijler van de jaarrekening niet auditeerbaar). De auditor kan dan geen oordeel formuleren.
 >
 > _Trigger_: Examenvraag: ‘klant weigert openingsbalans + alle aankoopfacturen H1’ → oordeelonthouding. ‘inventarisatie van één magazijn niet bijwoonbaar, alternatieve procedures slagen niet’ → oordeel met voorbehoud.

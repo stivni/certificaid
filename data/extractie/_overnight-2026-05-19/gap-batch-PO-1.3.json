@@ -1,0 +1,100 @@
+{
+  "programmaonderdeel": "1.3",
+  "gegenereerd_op": "2026-05-18T23:17:46.576828+00:00",
+  "totaal": 6,
+  "open": 0,
+  "strategic_pass": 6,
+  "gaps": [
+    {
+      "record_id": "werkkapitaal",
+      "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+      "reden": "in_praktijk[0] introduceert het onderscheid werkkapitaal vs werkkapitaalbehoefte als examenrelevant ('Als werkkapitaal < werkkapitaalbehoefte → liquiditeitstekort') maar 'werkkapitaalbehoefte' staat noch als vergelijkingsparen.vergelijking_met, noch als edges.target, noch bestaat er een record met dat slug. Dit is een centraal concept-paar in financial-analysis examenvragen.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+      "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "concept-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "werkkapitaal",
+      "aspect": "records.ontbreekt",
+      "reden": "Geen record 'werkkapitaalbehoefte' (Besoin en Fonds de Roulement / BFR) terwijl het in `werkkapitaal.in_praktijk[0]` expliciet als sleutel-onderscheid voor liquiditeitstekort wordt aangehaald en in financial-analysis-doctrine een eigen begrip is (voorraad + handelsvorderingen − handelsschulden).",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+      "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "concept-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "liquiditeitsratio",
+      "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+      "reden": "bouwstenen[0] introduceert drie hoofdvarianten — current, quick en cash ratio — en geeft een numeriek voorbeeld voor de cash ratio (€ 0,325 voor Rotex). Current en quick zijn gespiegeld via edges; de cash ratio heeft geen edge, geen vergelijkingspaar, en geen eigen record. Voor consistente minicursus-dekking is cash-ratio-spiegeling nodig.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+      "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "concept-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "liquiditeitsratio",
+      "aspect": "records.ontbreekt",
+      "reden": "Geen record 'cash-ratio' terwijl `liquiditeitsratio.bouwstenen[0]` haar expliciet als derde hoofdvariant noemt en numeriek voorbeeld geeft. In voorraadintensieve sectoren is cash ratio de meest waardevolle van de drie — relevante exam-vraagvorm 'strengste liquiditeitstoets'.",
+      "prio": "laag",
+      "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+      "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "concept-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "aspect_type": "bron-gap",
+      "aspect": "bron-corpus-uitbreiding",
+      "po": "1.3",
+      "anchor_id": "1.3.II.C",
+      "reden": "Acht ratio-records (current, quick, liquiditeit-categorie, solvabiliteit, debt-equity, werkkapitaal, horizontaal, verticaal) hebben hun formule/methodecategorie onderbouwd als 'inferred-common-knowledge' uit financial-analysis-vakdoctrine zonder Belgische trusted bron. Een gezaghebbend Belgisch handboek financial analysis zou deze formules grounded maken en de minicursus 1.3 verstevigen.",
+      "ontbrekende_kennis": "Belgisch gezaghebbend handboek met expliciete formules en interpretatieregels voor de klassieke jaarrekening-ratio's (liquiditeit/solvabiliteit/rentabiliteit/activiteit).",
+      "voorgestelde_bronnen": [
+        {
+          "naam": "Ooghe & Van Wymeersch — Financiële analyse van de onderneming (Intersentia, recente editie)",
+          "url": "https://www.intersentia.be",
+          "publiek": false,
+          "license": "auteursrechtelijk — bibliotheek of aankoop",
+          "redenering": "Standaardhandboek waarop ITAA-examen historisch leunt voor analyse-ratio-vragen. Voor PO 1.3 zou dit alle bron-arme ratio-formules een grounded basis geven."
+        },
+        {
+          "naam": "NBB-publicatie Statistieken financiële analyse (sectortabellen Bel-first)",
+          "url": "https://www.nbb.be",
+          "publiek": true,
+          "license": "publiek — NBB-publicaties",
+          "redenering": "Voor sectorvergelijkings-ratio's biedt NBB grounded benchmark-data."
+        }
+      ],
+      "menselijke_beslissing": null,
+      "prio": "midden",
+      "status": "archived-strategic-pass",
+      "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+      "geconstateerd_op": "2026-05-16",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    },
+    {
+      "record_id": "po-1.3-examenvragen",
+      "aspect": "examenvragen.labels-ontbreken",
+      "reden": "Check A (examenvraag-simulatie) is geskipt voor PO 1.3 omdat de examenvragen 2013-/2014-/2015- nog geen 1.3.* anchor-labels hebben. Zonder die labels kan de verify-pass geen 'onbeantwoordbaar uit records'-strandpunten loggen. Open werk: labelling-run voor PO 1.3 over de bestaande exam-corpus.",
+      "prio": "midden",
+      "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+      "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+      "status": "archived-strategic-pass",
+      "aspect_type": "proces-gap",
+      "applied_door": "gap-mining-rapport-2026-05-18",
+      "applied_at": "2026-05-18T00:15:14Z"
+    }
+  ]
+}

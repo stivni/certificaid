@@ -15,7 +15,14 @@
     "anchor_id": "1.3.II.D",
     "dekt_ook_anchors": [],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: +['1.2.III.B', '1.2.III.C']"
+    "po_1_2_extension": "2026-05-16: +['1.2.III.B', '1.2.III.C']",
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge specialisatie-van rechten-verplichtingen-buiten-balans toegevoegd (drie-perspectief)"
+      ]
+    }
   },
   "definitie": {
     "text": "Klasse 0 verzamelt de boekhoudrekeningen (rekeningen 00 tot 07) waarop de vennootschap haar niet in de balans opgenomen rechten en verplichtingen registreert. Deze rekeningen werken paarsgewijs (recht/verplichting met tegenrekening), volgens MAR (Minimum Algemeen Rekeningstelsel).",
@@ -120,6 +127,11 @@
       "target": "niet-in-balans-opgenomen-rechten-verplichtingen",
       "redenering": "Klasse 0 is de boekhoudkundige tegenhanger.",
       "confidence": "inferred"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "rechten-verplichtingen-buiten-balans",
+      "redenering": "Klasse 0 is de boekhoudkundige specialisatie van het overkoepelende fenomeen."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",

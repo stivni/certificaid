@@ -87,6 +87,12 @@ _Grondslag: Richtlijn 2013/34/EU art. 6, lid 1, c); KB 21/10/2018 art. 3:6_
 > Examen: 'getrouw beeld' bereikt niet enkel via balans+RR, maar ook via toelichting (verplicht onderdeel van de jaarrekening).
 
 
+> [!info]- Niet verwarren met [[getrouw-beeld-jaarrekening]]
+> Beide records behandelen het getrouw-beeld-beginsel. **getrouw-beeld** is de algemene formulering (alle financiële verslaggeving, incl. enkelvoudige + geconsolideerde jaarrekening + interne reporting); **getrouw-beeld-jaarrekening** is de jaarrekening-specifieke uitwerking met focus op KB-WVV art. 3:1 en de drie-dimensionele toets (vermogen, financiële positie, resultaat). Specialisatie-relatie: jaarrekening-record verfijnt het algemene record.
+>
+> _Trigger_: Vraag over algemeen beginsel → getrouw-beeld. Vraag over de jaarrekening-toets (vermogen/positie/resultaat) → getrouw-beeld-jaarrekening.
+
+
 ## Valkuilen
 
 > [!warning]- Het getrouw beeld geeft GEEN vrije creatieve ruimte

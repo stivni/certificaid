@@ -17,7 +17,14 @@
       "1.2.IV",
       "1.2.III.D"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_overnight_gap_fix_2026_05_19": {
+      "uitgevoerd_op": "2026-05-19T00:00:00Z",
+      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
+      "changes": [
+        "edge onderdeel-van jaarrekening toegevoegd"
+      ]
+    }
   },
   "verplichting": "Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van de proef- en saldibalans en de uitgevoerde eindejaarsverrichtingen, de statutaire jaarrekening op volgens het toepasselijke schema (volledig / verkort / micro). De jaarrekening bevat balans, resultatenrekening, toelichting (+ sociale balans bij volledig en verkort schema) en wordt ter goedkeuring voorgelegd aan de algemene vergadering.",
   "stappen": [
@@ -238,6 +245,17 @@
       "target": "openbaarmaking-jaarrekening",
       "redenering": "Stap 6 leidt direct tot de openbaarmaking-procedure.",
       "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "jaarrekening-componenten-ifrs",
+      "regime": "BE-GAAP",
+      "aspect": "regime-paralleel BE-GAAP ↔ IFRS"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "jaarrekening",
+      "redenering": "Samenstelling-statutaire-jaarrekening is een procedure-aspect van het jaarrekening-cluster."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",

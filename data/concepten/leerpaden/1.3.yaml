@@ -44,6 +44,13 @@ hoofdstukken:
   - type: competentie
     competentie_id: berekenen-interpreteren-liquiditeitsratios
 
+  - type: thematisch
+    titel: "Verfijningen van de liquiditeitsanalyse: cash ratio en werkkapitaalbehoefte"
+    concepten:
+      - cash-ratio
+      - werkkapitaalbehoefte
+      - werkkapitaal
+
   - type: competentie
     competentie_id: berekenen-interpreteren-solvabiliteitsratios
 
@@ -102,7 +109,7 @@ hoofdstukken:
       blijft en dat de stagiair leert wáár hij voorzichtig moet zijn.
 
 _provenance:
-  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260516T000000Z"
-  voorgesteld_op: "2026-05-16T00:00:00+00:00"
+  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260518T234554Z"
+  voorgesteld_op: "2026-05-19T00:00:00+00:00"
   gecureerd_door: null
   gecureerd_op: null
