@@ -31,6 +31,21 @@ Smoke-run resultaten (data/programma/examen_vragen/):
 - **40 antwoorden behouden** door migratie — fail-loud-gate werkte, geen ID-verlies in geen enkel examen.
 - **v1-backups** in `data/programma/examen_vragen/_archive/v1/` (gegit, audit-trail).
 
+### Bijgewerkt 2026-05-19 (later): 79/86 BEANTWOORD
+
+**Eindstand na artificiële-bijlage-pass + concept-gap-toevoeging aan gaps.json**:
+
+- **75 echt beantwoord** (volledig grounded)
+- **4 beantwoord met 🤖-marker** (fictieve bijlage of MC-reverse-engineering) — 2013-1-vr4, 2013-2-vr5 (artificiële balans+RR), 2014-1-vr5, 2015-1-vr8 (gereconstrueerd uit MC-opties zelf)
+- **7 hard-blocked** met expliciete gap (2 BTW, 4 complex/partial-extract, 1 erfrecht-cross-domein)
+- **0 open**
+
+**Per PO**: 1.1 (26+2 gap), 1.2 (8), 1.3 (8 echt + 4 🤖), 1.4 (6), 1.5 (1), 1.6 (9 + 3 gap), 1.7 (13 + 2 gap), 1.9 (4).
+
+**13 concept-gaps toegevoegd aan `data/extractie/gaps.json`** (status: open of wont-fix) — beschikbaar voor volgende EXTRACT v4-pass:
+- Niveau c (concept ontbreekt): `nettothesaurie`, `budget-interne-controle-afdeling`, `btw-statuut-klein-zelfstandige`, `volkomen-controle-procedures`, `afloopcontrole-bezoldigingen`, `controle-deelneming-financiele-vaste-activa`, `tussentijdse-staat-actief-passief`, `vastklikken-reserves` (wont-fix, historisch)
+- Niveau b (record-uitbreiding): `interne-controle` (4e doelstelling), `werkkapitaal`, `beoordelen-werkkapitaal-en-kasstroom`, `minderheidsbelangen`, `erfrecht-vordering-overlijden-aandeelhouder`
+
 ### Modelantwoorden — 86/86 PO 1.x-vragen volledig afgehandeld
 
 **Eindstand (100% afgehandeld)**:

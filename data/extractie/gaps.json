@@ -11835,5 +11835,214 @@
     "applied_door": "overnight-2026-05-19-archive-mech-fp",
     "applied_op": "2026-05-18T23:38:22.684636+00:00",
     "applied_toelichting": "Mechanische verify-output: hoofzakelijk false positives (cross-PO refs binnen PO-scope check) of rationale-schema-coverage. Geen actie nodig voor minicursus-werk."
+  },
+  {
+    "record_id": "nettothesaurie",
+    "aspect": "concept-record-ontbreekt",
+    "reden": "Klassiek financieel-analyse-concept: (geldbeleggingen + liquide middelen) − financiële schulden korte termijn = werkkapitaal − werkkapitaalbehoefte. Niet gedekt in huidige records. Geraakt door 2014-1-vr6 (PO 1.9). Vraagt EXTRACT-pass voor PO 1.9 financiële analyse.",
+    "prio": "middel",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "concept-gap",
+    "gerelateerde_vragen": [
+      "2014-1-vr6"
+    ],
+    "po": "1.9"
+  },
+  {
+    "record_id": "budget-interne-controle-afdeling",
+    "aspect": "concept-record-ontbreekt",
+    "reden": "Concept \"budget + werking van een interne controle-afdeling als organisatorische eenheid\". Bestaande IC-records dekken het systeem, niet de afdeling-management aspecten (budget, personeel, autonomie). Geraakt door 2013-1-vr11 (PO 1.7). Vraagt EXTRACT-pass voor PO 1.7 interne audit-organisatie.",
+    "prio": "laag",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "concept-gap",
+    "gerelateerde_vragen": [
+      "2013-1-vr11"
+    ],
+    "po": "1.7"
+  },
+  {
+    "record_id": "vastklikken-reserves",
+    "aspect": "concept-record-ontbreekt-historisch",
+    "reden": "Historische fiscale maatregel (Programmawet 28 juni 2013, WIB 92 art. 537-538): omzetting belaste reserves naar volgestort kapitaal mits 10% RV. Afgelopen sinds 2018. Geraakt door 2014-1-vr1 (PO 1.1). Lage prio — alleen relevant voor historische dossiers; niet voor stagiair-GA 2026-examen.",
+    "prio": "laag",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "wont-fix",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "concept-gap",
+    "gerelateerde_vragen": [
+      "2014-1-vr1"
+    ],
+    "po": "1.1"
+  },
+  {
+    "record_id": "btw-statuut-klein-zelfstandige",
+    "aspect": "concept-record-ontbreekt",
+    "reden": "BTW-vrijstellingsdrempel klein zelfstandige (huidig € 25.000 omzet jaarlijks). Inhoud: voorwaarden, vrijstellings-statuut, gevolgen voor boekhouding en facturatie, uitsluitingsgronden. Geraakt door 2003-bibf-vrD1 (PO 1.1) en in mindere mate vrD2. PO 2.x heeft mogelijk uitgebreidere BTW-records — verifieer overlap vóór nieuw record.",
+    "prio": "middel",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "concept-gap",
+    "gerelateerde_vragen": [
+      "2003-bibf-vrD1",
+      "2003-bibf-vrD2"
+    ],
+    "po": "1.1"
+  },
+  {
+    "record_id": "interne-controle",
+    "aspect": "bouwstenen.onvolledig",
+    "reden": "Sectie 'Drie doelstellingen' zou eigenlijk vier doelstellingen moeten bevatten: (1) betrouwbare rapportering, (2) operationele effectiviteit, (3) compliance, (4) bescherming van het vermogen / activa. De vierde wordt in de Belgische audit-doctrine vaak expliciet als pijler geteld. Geraakt door 2013-1-vr8 (PO 1.7) 'Geef vier elementen'. Patch: voeg 4e doelstelling toe als Bouwsteen met bron-citaat uit klassieke COSO-vertaling + Belgische audit-doctrine.",
+    "prio": "hoog",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "record-uitbreiding",
+    "gerelateerde_vragen": [
+      "2013-1-vr8"
+    ],
+    "po": "1.7"
+  },
+  {
+    "record_id": "werkkapitaal",
+    "aspect": "in_praktijk.onvolledig",
+    "reden": "Geen expliciete sectie 'maatregelen om werkkapitaal te verhogen'. Klassieke bedrijfseconomische doctrine (lange-termijn financiering, winstreservering, niet-essentiële activa-verkoop) wel bekend maar grounded record-citaat ontbreekt. Patch: voeg In de praktijk-sectie toe met 3-5 concrete maatregelen met bron-citaten. Geraakt door 2013-2-vr6.",
+    "prio": "middel",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "record-uitbreiding",
+    "gerelateerde_vragen": [
+      "2013-2-vr6"
+    ],
+    "po": "1.3"
+  },
+  {
+    "record_id": "beoordelen-werkkapitaal-en-kasstroom",
+    "aspect": "stappen.onvolledig",
+    "reden": "Competentie-record voor beoordeling werkkapitaal mist stappen voor het formuleren van adviezen aan de bedrijfsleider (welke maatregelen suggereren bij dalend werkkapitaal). Aanvulling van competentie-stappen-sectie aanbevolen. Geraakt door 2013-2-vr6.",
+    "prio": "middel",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "record-uitbreiding",
+    "gerelateerde_vragen": [
+      "2013-2-vr6"
+    ],
+    "po": "1.3"
+  },
+  {
+    "record_id": "minderheidsbelangen",
+    "aspect": "in_praktijk.methode-conditionaliteit-niet-expliciet-in-berekening",
+    "reden": "Methode-conditionaliteit ('alleen bij integrale consolidatie') staat in §In de praktijk maar niet expliciet in §Berekening of de eerste paragraaf. Voor presentatie-vragen (zoals 2013-1-vr6) is dat een struikelblok bij grounded-controle. Patch: 1-zinsclausule toevoegen aan §Berekening dat berekening 'enkel bij integrale consolidatie' van toepassing is. Lage prio want al impliciet aanwezig.",
+    "prio": "laag",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "record-uitbreiding",
+    "gerelateerde_vragen": [
+      "2013-1-vr6"
+    ],
+    "po": "1.4"
+  },
+  {
+    "record_id": "volkomen-controle-procedures",
+    "aspect": "concept-cluster-ontbreekt",
+    "reden": "Geen cluster-record voor volkomen-controle-procedures (audit-procedure als procedurele competentie). Bestaande records dekken aanvaarding (`aanvaarden-audit-opdracht`), planning (`auditplanning`), uitvoering (`selecteren-en-uitvoeren-controle-instrumenten-audit`) — maar niet geïntegreerd. Vereist door 2014-1-vr14 (volkomen controle 14 ptn): 'kunnen we ons besluit afhandelen?' + materialiteit + deelnemingen-controle + afloopcontrole bezoldigingen.",
+    "prio": "middel",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "concept-gap",
+    "gerelateerde_vragen": [
+      "2014-1-vr14"
+    ],
+    "po": "1.6"
+  },
+  {
+    "record_id": "afloopcontrole-bezoldigingen",
+    "aspect": "concept-record-ontbreekt",
+    "reden": "Geen concept-record voor 'afloopcontrole' / 'cut-off-controle' op bezoldigingen-cyclus (rek 454/9). Specifieke audit-techniek voor lonen/RSZ/bedrijfsvoorheffing. Geraakt door 2014-1-vr14 d).",
+    "prio": "middel",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "concept-gap",
+    "gerelateerde_vragen": [
+      "2014-1-vr14"
+    ],
+    "po": "1.6"
+  },
+  {
+    "record_id": "controle-deelneming-financiele-vaste-activa",
+    "aspect": "competentie-record-ontbreekt",
+    "reden": "Geen competentie-record voor de specifieke audit-procedure op deelneming-aankopen (rek 28): controledoelstellingen (bestaan, waardering, eigendom) + technieken (notarisakte, betalingsbewijs, externe bevestiging, waardering eigen vermogen dochter). Geraakt door 2014-1-vr14 c).",
+    "prio": "middel",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "competentie-gap",
+    "gerelateerde_vragen": [
+      "2014-1-vr14"
+    ],
+    "po": "1.6"
+  },
+  {
+    "record_id": "erfrecht-vordering-overlijden-aandeelhouder",
+    "aspect": "concept-record-ontbreekt-cross-domein",
+    "reden": "Casus 2015-1-vr17: debet lopende rekening op naam van overleden vader van zaakvoerders-aandeelhouders. Cross-domein (erfrecht + vennootschapsrecht + boekhouding). Geen record dekt de erfrechtelijke kant (vordering valt in nalatenschap → erven aansprakelijk; eventueel onbehoorlijk bestuur indien vordering oneigenlijk is). Mogelijk past dit beter in PO 4.0 (vennootschapsrecht/erfrecht).",
+    "prio": "laag",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "concept-gap",
+    "gerelateerde_vragen": [
+      "2015-1-vr17"
+    ],
+    "po": "1.6"
+  },
+  {
+    "record_id": "tussentijdse-staat-actief-passief",
+    "aspect": "concept-record-ontbreekt",
+    "reden": "Casus 2013-1-vr13 (NV SLA-BAK, 30 ptn): tussentijdse staat van actief en passief opstellen wegens ziekte boekhouder. Geen record voor 'tussentijdse staat' als specifiek opdrachttype (verschilt van jaarafsluiting en interim-rapporting). Mogelijk uitbreiding van `accountantsopdrachten` of nieuw record.",
+    "prio": "middel",
+    "geconstateerd_door": "modelantwoord-pipeline-2026-05-19",
+    "geconstateerd_op": "2026-05-19T10:36:00.393971+00:00",
+    "status": "open",
+    "applied_door": null,
+    "applied_op": null,
+    "aspect_type": "concept-gap",
+    "gerelateerde_vragen": [
+      "2013-1-vr13"
+    ],
+    "po": "1.7"
   }
 ]

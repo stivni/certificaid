@@ -947,6 +947,36 @@ sources:
         # ADR-006 §4.2: art. 4 bevat ~50 AML-definities (1°, 2°, ...).
         # Sub-splitting houdt elk concept retrievable als zelfstandige chunk.
         sub_strategy: per_definitieblok
+  ITAA-Handleiding-interne-procedures-AWW-2019:
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.pdf
+    output: resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md
+    itaa_sectie: ""
+    tags: ["4.0"]
+    bijgewerkt: "07.11.2019"
+    wet: "Handleiding interne procedures — Model voor de beroepsbeoefenaar (in toepassing van de AWW 2017)"
+    status: nieuw
+    note: "ITAA-modelhandleiding klantenacceptatie + AMLCO + risicobeoordeling — operationele invulling van AWW-norm"
+    extract:
+      method: pymupdf_wetboek
+      params:
+        force_columns: 1
+        mode: eu_richtlijn
+  NRA-Witwassen-samenvatting-2023:
+    bron_rol: interpretatief
+    raw: resources/raw/wetteksten/NRA-Witwassen-samenvatting-2023.pdf
+    output: resources/bronnen/wetteksten/NRA-Witwassen-samenvatting-2023.md
+    itaa_sectie: ""
+    tags: ["4.0"]
+    bijgewerkt: "25.03.2024"
+    wet: "Samenvatting van de Nationale Risicoanalyse Witwassen van geld (update 09/2023, goedgekeurd 25-03-2024)"
+    status: nieuw
+    note: "Nationale risicoanalyse als wettelijke referentie voor sector-risicobeoordeling door accountants"
+    extract:
+      method: pymupdf_wetboek
+      params:
+        force_columns: 1
+        mode: eu_richtlijn
   WER:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/WER.pdf
@@ -1480,6 +1510,92 @@ sources:
         # body-before-heading scramble veroorzaakte.
         force_columns: 1
         mode: eu_richtlijn
+  EU-Richtlijn-accijnzen-2020-262:
+    bron_rol: normatief
+    simple_mode: true
+    raw: resources/raw/wetteksten/EU-Richtlijn-accijnzen-2020-262.pdf
+    output: resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md
+    itaa_sectie: ""
+    tags: ["2.4"]
+    bijgewerkt: "27.02.2020"
+    wet: "Richtlijn (EU) 2020/262 van de Raad van 19 december 2019 houdende een algemene regeling inzake accijns (herschikking)"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: volledig
+    extract:
+      method: pymupdf_wetboek
+      params:
+        force_columns: 1
+        mode: eu_richtlijn
+  EU-UCC-952-2013:
+    bron_rol: normatief
+    simple_mode: true
+    raw: resources/raw/wetteksten/EU-UCC-952-2013.pdf
+    output: resources/bronnen/wetteksten/EU-UCC-952-2013.md
+    itaa_sectie: ""
+    tags: ["2.4"]
+    bijgewerkt: "12.12.2022"
+    wet: "Verordening (EU) nr. 952/2013 van het Europees Parlement en de Raad van 9 oktober 2013 tot vaststelling van het douanewetboek van de Unie (geconsolideerde versie 12.12.2022)"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: volledig
+    extract:
+      method: pymupdf_wetboek
+      params:
+        force_columns: 1
+        mode: eu_richtlijn
+  DBV-BE-NL-2001:
+    bron_rol: normatief
+    raw: resources/raw/wetteksten/DBV-BE-NL-2001.pdf
+    output: resources/bronnen/wetteksten/DBV-BE-NL-2001.md
+    itaa_sectie: ""
+    tags: ["2.8"]
+    bijgewerkt: "05.06.2001"
+    wet: "Verdrag tussen het Koninkrijk België en het Koninkrijk der Nederlanden tot het vermijden van dubbele belasting en tot het voorkomen van het ontgaan van belasting inzake belastingen naar het inkomen en naar het vermogen (DBV BE-NL 2001)"
+    cleanup: [remove_page_artifacts, ensure_article_headings]
+    status: nieuw
+    extract:
+      method: pymupdf_wetboek
+      params:
+        force_columns: 1
+        mode: eu_richtlijn
+  MvT-WVV-2018:
+    bron_rol: interpretatief
+    raw: resources/raw/wetteksten/MvT-WVV-2018.pdf
+    output: resources/bronnen/wetteksten/MvT-WVV-2018.md
+    itaa_sectie: ""
+    tags: ["XV", "3.0"]
+    bijgewerkt: "04.06.2018"
+    wet: "Memorie van toelichting bij het wetsontwerp tot invoering van het Wetboek van vennootschappen en verenigingen (Parl. St. Kamer 54-3119/001)"
+    cleanup: [remove_page_artifacts, ensure_article_headings]
+    status: nieuw
+    extract:
+      method: pymupdf_wetboek
+      params:
+        force_columns: 2
+        column_filter: nl
+  IBA-SHA-Belgium-2024-NL:
+    bron_rol: praktijkgids
+    raw: resources/raw/handcrafted/IBA-SHA-Belgium-2024-NL.md
+    output: resources/bronnen/wetteksten/IBA-SHA-Belgium-2024-NL.md
+    itaa_sectie: ""
+    tags: ["3.0"]
+    bijgewerkt: "2024"
+    wet: "IBA Guide on Shareholders' Agreements — Belgium 2024 (NL-vertaling) — Nicole Van Ranst (Agio Legal, Brussels)"
+    status: nieuw
+    note: "NL-vertaling door Sonnet-subagent uit Engelse IBA-publicatie; 18 Q&A-secties over aandeelhoudersovereenkomsten in BE"
+    extract:
+      method: md_passthrough
+  IBA-Minority-Belgium-2022-NL:
+    bron_rol: praktijkgids
+    raw: resources/raw/handcrafted/IBA-Minority-Belgium-2022-NL.md
+    output: resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md
+    itaa_sectie: ""
+    tags: ["3.0"]
+    bijgewerkt: "2022"
+    wet: "IBA Minority Shareholder Rights — Belgium 2022 (NL-vertaling) — Gisèle Rosselle + Céderic Devroey (Strelia, Brussels)"
+    status: nieuw
+    note: "NL-vertaling door Sonnet-subagent; 8 hoofdafdelingen over minderheidsbescherming, WVV artt. 2:60-69, deadlock-mechanismen"
+    extract:
+      method: md_passthrough
   KB-voorafgaande-beslissingen-art22-2003:
     bron_rol: normatief
     output: resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art22-2003.md

@@ -520,8 +520,8 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "🤖 Met fictieve bijlage: a) Brutoverkoopmarge = 29,83 %. b) Bruto-ROA voor belasting+financiële kosten = 5,09 %. c) Current ratio = 1,80. Formules canoniek; echte cijfers ITAA-bijlage zullen anders zijn.",
+      "antwoord_motivering": "### 🤖 ARTIFICIËLE BIJLAGE — Fictief, illustratief\n\n⚠️ Echte ITAA-bijlage niet aangereikt. Onderstaande cijfers zijn **fictief** maar coherent gekozen om alle drie de ratio's te demonstreren.\n\n#### Fictieve Balans na winstverdeling — boekjaar\n\n| Code | Actief | Bedrag (€) | Code | Passief | Bedrag (€) |\n|---|---|---:|---|---|---:|\n| 22-27 | Materiële vaste activa | 2.100.000 | 10/15 | Eigen vermogen | 2.250.000 |\n| 28 | Financiële vaste activa | 80.000 | 17 | Schulden > 1 jaar | 750.000 |\n| 30/36 | Voorraden | 850.000 | 42 | Schulden > 1 jr binnen jaar | 90.000 |\n| 40/41 | Vorderingen ≤ 1 jaar | 680.000 | 44 | Handelsschulden | 510.000 |\n| 50/53 | Geldbeleggingen | 220.000 | 45 | Fiscale/sociale schulden | 140.000 |\n| 54/58 | Liquide middelen | 95.000 | 48 | Overige schulden ≤ 1 jaar | 60.000 |\n| 492/3 | Overlopende rekeningen actief | 5.000 | 492/3 | Overlopende rekeningen passief | 230.000 |\n| | **Totaal** | **4.030.000** | | **Totaal** | **4.030.000** |\n\n#### Fictieve Resultatenrekening — boekjaar\n\n| Code | Post | Bedrag (€) |\n|---|---|---:|\n| 70 | Omzet | 5.800.000 |\n| 74 | Andere bedrijfsopbrengsten (incl. 415 expl. subs.) | 45.000 |\n| 60 | Aankopen | 3.250.000 |\n| 61 | Diensten en diverse | 820.000 |\n| 62 | Bezoldigingen + sociale lasten | 1.230.000 |\n| 630 | Afschrijvingen MVA | 340.000 |\n| 64-65 | Niet-recurrente + financiële kosten | 75.000 |\n| 67 | Belastingen op resultaat | 35.000 |\n| | **Nettoresultaat (gereserveerd)** | **95.000** |\n\n### Berekening van de ratio's\n\n#### a) Brutoverkoopmarge (%)\n\n```\nbrutoverkoopmarge = (omzet − aankopen − diensten en diverse) × 100 / omzet\n                  = (5.800.000 − 3.250.000 − 820.000) × 100 / 5.800.000\n                  = 1.730.000 × 100 / 5.800.000\n                  = 29,83 %\n```\n\n🤖 **Brutoverkoopmarge = 29,83 %**\n\n#### b) Nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%)\n\n**Formule** ([[rentabiliteit-totaal-activa-roa]] §Brutorentabiliteit): bruto-ROA = (bedrijfsresultaat + andere bedrijfsopbrengsten) × 100 / totaal activa.\n\nOf equivalent: EBIT × 100 / balanstotaal.\n\nBedrijfsresultaat = TV − bezoldigingen − afschrijvingen − niet-recurrente bedrijfskosten\n                  = 1.730.000 + 45.000 (andere bedrijfsopbrengsten incl. subsidie) − 1.230.000 − 340.000\n                  = € 205.000\n\nOf: nettoresultaat (95.000) + belastingen (35.000) + financiële kosten van schulden (deel van 75.000, schatten 40.000) ≈ 170.000-205.000 afhankelijk van precisering.\n\n```\nrentabiliteit voor belasting + financiële kosten = 205.000 × 100 / 4.030.000\n                                                  = 5,09 %\n```\n\n🤖 **Bruto-ROA = 5,09 %**.\n\n#### c) Liquiditeit in ruime zin (current ratio)\n\n```\ncurrent ratio = vlottende activa / schulden ≤ 1 jaar\n             = (850.000 + 680.000 + 220.000 + 95.000 + 5.000) / (90.000 + 510.000 + 140.000 + 60.000 + 230.000)\n             = 1.850.000 / 1.030.000\n             = 1,80\n```\n\n🤖 **Current ratio = 1,80** — gezond (> 1, vuistregel ~2 voor klassieke sectoren).\n\n### Vuistregel-interpretatie\n\n- **Brutoverkoopmarge** 29,83 % = redelijke groothandelsmarge\n- **Bruto-ROA** 5,09 % = relatief laag; klassieke benchmark > 6-8 % voor productie-onderneming\n- **Liquiditeit** 1,80 = ruim voldoende kortlopende dekking\n\n_Grondslag formules: [[contributiemarge]]; [[rentabiliteit-totaal-activa-roa]]; [[liquiditeitsratio]]._\n\n⚠️ **🤖 ANTWOORDEN OP FICTIEVE CIJFERS** — Methode + formules correct toepasbaar op echte ITAA-bijlage; cijfers anders.",
       "themas": [
         "jaarrekeninganalyse",
         "vennootschapsrecht"
@@ -561,16 +561,47 @@
       "record_gap_report": {
         "niveau": "extern",
         "ontbrekende_velden": [
-          "Bijlage (balans + RR van cliënt)"
+          "Echte ITAA-bijlage"
         ],
         "betrokken_records": [],
-        "beschrijving": "Vraag 2013-2-vr5 (ratio-berekening) verwijst naar bijlage met balans + RR die niet in vraagtekst zit. Handmatige bijlage-extractie vereist vóór modelantwoord-generatie (zie ook 2013-1-vr4 + 2014-1-vr5 — zelfde patroon).",
-        "type": "vraagtekst_onduidelijk",
-        "sub_type": "ontbrekende_bijlage",
+        "beschrijving": "🤖 Modelantwoord opgelost met ARTIFICIËLE BIJLAGE. Soort vraag = ratio-berekening uit balans + RR. Methode correct; cijfers fictief.",
+        "type": "artificial_data_used",
+        "sub_type": "fictieve_bijlage",
         "gedetecteerd_op": "2026-05-19"
       },
       "antwoord_type": "berekening",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/contributiemarge.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "brutomarge-formule"
+        },
+        {
+          "record": "content/concepten/rentabiliteit-totaal-activa-roa.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "bruto-ROA"
+        },
+        {
+          "record": "content/concepten/liquiditeitsratio.md",
+          "sectie": "Berekening",
+          "ondersteunt": "current ratio"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "berekening",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ],
+        "opmerking": "🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de \"soort vraag\" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn."
+      },
+      "antwoord_confidence": "inferred"
     },
     {
       "id": "2013-2-vr6",
