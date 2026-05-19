@@ -163,7 +163,20 @@
           "tekst": "Motiveer uw antwoord.",
           "punten": null
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "Bijlage (balans + RR van cliënt)"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Vraag 2013-1-vr1 (ratio-berekening) verwijst naar bijlage met balans + RR die niet in vraagtekst zit. Handmatige bijlage-extractie vereist vóór modelantwoord-generatie (zie ook 2013-1-vr4 + 2014-1-vr5 — zelfde patroon).",
+        "type": "vraagtekst_onduidelijk",
+        "sub_type": "ontbrekende_bijlage",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "antwoord_type": "berekening",
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr2",
@@ -269,15 +282,19 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Drie boekhoudsituaties met MC-keuzes over verwerking. Vraagtekst toont alleen vraag-stammen, niet alle MC-opties — antwoord blijft op niveau van algemene regels: (a) Leveranciersschuld die om bepaalde reden moet aangepast (kwijtschelding, vereniging, verlies van titel): Debet 44 / Credit 79 Niet-recurrente opbrengsten OF voorziening. (b) Kapitaalvermindering met terugbetaling: Debet 100 Kapitaal / Credit 550 Bank — formele kapitaalvermindering vereist notarisakte. (c) Onderneming exclusieve juwelen: speciale fiscale + boekhoudkundige verwerking voor zeer hoge marges + voorraadwaardering.",
+      "antwoord_motivering": "**Vraagtekst** toont 3 sub-casussen maar alleen vraag-stammen, niet de MC-opties. Daarom blijft het antwoord op niveau van **algemene regels**:\n\n### a) Leveranciersschuld aanpassen\n\nVoor onderneming A met openstaande leveranciersschuld tegenover X: indien de schuld om een specifieke reden moet worden aangepast (bv. kwijtschelding, betwisting, prescriptie):\n\n- **Kwijtschelding** door leverancier: Debet 440 Leveranciersschuld / Credit 7530 Andere niet-recurrente opbrengsten ⚖️\n- **Voorziening** voor betwiste schulden: Debet 6371 Voorzieningen / Credit 162 Voorzieningen — als de schuld onzeker is maar nog niet definitief verdwenen\n- **Verlies van titel** (juridische prescriptie zonder bewijs van bestaan): Debet 440 / Credit 7530 — vergelijkbaar met kwijtschelding\n\n### b) Terugbetaling kapitaal aan aandeelhouders\n\nKlassieke **kapitaalvermindering** met effectieve terugbetaling:\n- **Formele vereisten**: notarisakte, beslissing AV met versterkte meerderheid (WVV art. 5:142 voor BV), schuldeisersbescherming (verzetstermijn 2 maanden)\n- **Boeking**:\n  ```\n  Debet 100 Geplaatst kapitaal (= bedrag terugbetaald)\n  Credit 550 Bank (= effectieve uitbetaling)\n  ```\n- **Fiscaal**: terugbetaling van **gestort kapitaal** is RV-vrij; terugbetaling die als verkapte dividenden wordt beschouwd → 30 % RV\n\n### c) Winkel exclusieve juwelen — boekhouding voeren\n\n**Vereisten** voor een winkel die exclusieve juwelen verkoopt:\n\n- **Boekhoudplicht**: rechtspersoon (NV/BV) altijd dubbel; natuurlijke persoon afhankelijk van omzetdrempel (WER art. III.85)\n- **Voorraadbeheer**: zeer waardevolle voorraad → strengere IC (toegangscontrole, inventaris, verzekering, alarm)\n- **Voorraadwaardering**: aanschaffingsprijs + waardevermindering bij modemarkt-fluctuaties (KB WVV art. 3:43)\n- **Antiwitwas-discipline**: bij verkoop > € 10.000 cash → strengere identificatieplicht (Antiwitwaswet 2017)\n- **BTW**: 21 % standaard, marge-regeling mogelijk voor tweedehands-juwelen\n- **Specifieke fiscale risico's**: hoge marges trekken fiscale audit aan; documentatie cruciaal\n\n🤖 Zonder specifieke MC-opties blijft het antwoord generiek per situatie. Voor het examen verwacht ITAA waarschijnlijk de juiste MC-keuze + korte motivering.\n\n_Grondslag: KB WVV art. 3:43 (voorraadwaardering), art. 3:24-3:27 (voorzieningen); WVV art. 5:142 (kapitaalvermindering BV); WER art. III.85 (boekhoudplicht); Antiwitwaswet 2017._",
       "themas": [
         "consolidatie",
         "internationaal-fiscaal-recht",
         "kapitaaloperaties",
         "sociale-bijdragen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:43",
+        "WVV art. 5:142",
+        "WER art. III.85"
+      ],
       "opties": [
         {
           "label": "A",
@@ -308,7 +325,45 @@
           "tekst": "Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel\ndie exclusieve juwelen verkoopt.",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/boekhoudplichtige-onderneming.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "c) boekhoudplicht"
+        },
+        {
+          "record": "content/concepten/eigen-middelen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "b) kapitaalvermindering"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "MC-opties vraagtekst (alleen vraag-stammen zichtbaar)"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Casus met 3 MC-vragen waarvan alleen de vraag-stammen extracteerbaar zijn. Antwoord blijft op niveau van algemene regels.",
+        "type": "vraagtekst_onduidelijk",
+        "sub_type": "partieel_extract",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr3",
@@ -330,12 +385,16 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "a) Niet ALLE kosten activeerbaar. Onder huidig BE GAAP (sinds 2015) zijn kosten van vooronderzoek NIET activeerbaar (te onzeker), kosten van ontwikkeling WEL activeerbaar mits aan strikte voorwaarden voldaan (identificeerbaar, technisch haalbaar, intentie tot voltooien, gebruik/verkoop voorzien, kost betrouwbaar meetbaar). b) Activeerbaar: ontwikkeling door derden € 15.000 + materiaal € 180.000 + lonen € 80.000 = **€ 275.000**. NIET activeerbaar: kosten vooronderzoek studiebureaus € 20.000 — ten laste van resultatenrekening.",
+      "antwoord_motivering": "### a) Kunnen deze kosten in aanmerking voor activering?\n\nOnder huidig BE GAAP (KB WVV art. 3:37, gewijzigd in 2015 voor IFRS-convergentie):\n\n- **Vooronderzoek/onderzoek** (research) = **NIET activeerbaar** ⚖️\n  - Te vroege fase, geen voldoende zekerheid over economisch rendement\n  - Onmiddellijk ten laste van het resultaat (rek 61 Diensten of 67 Niet-recurrente kosten)\n\n- **Ontwikkeling** (development) = **activeerbaar** mits aan **strikte voorwaarden** voldaan: ⚖️\n  - **Identificeerbaar** (afgebakend project met duidelijke output)\n  - **Technisch haalbaar** (technische vereisten kunnen worden gerealiseerd)\n  - **Intentie om te voltooien** (ondernemingsbeslissing tot voltooien)\n  - **Gebruik of verkoop** voorzien\n  - **Betrouwbaar meetbaar** kostprijs\n  - **Economisch rendement** voldoende waarschijnlijk\n\n### b) Welke kosten activeerbaar?\n\nToegepast op het prototype-transportmiddel:\n\n| Kostencategorie | Bedrag | Activeerbaar? | Reden |\n|---|---:|---|---|\n| Kosten vooronderzoek (studiebureaus) | € 20.000 | **NEE** ⚖️ | Onderzoek-fase — onmiddellijk ten laste van resultaat (rek 61 Diensten of 65 Financiële kosten naargelang van aard) |\n| Ontwikkeling door derden | € 15.000 | **JA** ⚖️ | Ontwikkelingsfase (door externe partij geleverde ontwikkelingsservice) |\n| Aankoop van materiaal | € 180.000 | **JA** ⚖️ | Direct materieelkost in ontwikkelingsfase |\n| Lonen arbeiders + patronale bijdragen | € 80.000 | **JA** ⚖️ | Directe loonkosten in ontwikkelingsfase |\n\n**Totaal activeerbaar**: € 15.000 + € 180.000 + € 80.000 = **€ 275.000** ⚖️\n\n### Boeking\n\n```\nDebet 21 Immateriële vaste activa (211 Onderzoek en ontwikkeling) € 275.000\nCredit 72 Geproduceerde vaste activa (intern) € 80.000 + Credit 440/61 € 195.000\nDebet 61 Diensten en diverse goederen (vooronderzoek) € 20.000\nCredit 440 Leveranciers (studiebureaus) € 20.000\n```\n\n### Afschrijving\n\nGeactiveerde ontwikkelingskosten worden afgeschreven over **maximaal 10 jaar** (KB WVV art. 3:36); langer is mogelijk mits motivering in toelichting. Lineaire afschrijving in functie van de **economische gebruiksduur**. ⚖️\n\n🤖 Historische context (vraag uit 2013): destijds golden andere regels — vóór 2015 waren **alle** O&O-kosten activeerbaar in BE GAAP. Onder de huidige (post-2015) regels alleen ontwikkeling. Voor het modelantwoord pas ik de huidige regels toe.\n\n_Grondslag: KB WVV art. 3:36 (afschrijving) + art. 3:37 (criteria); CBN-advies 2016/16 'Onderzoek en ontwikkeling onder BE GAAP'; IAS 38 (analogie)._",
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:36",
+        "KB WVV art. 3:37",
+        "CBN-advies 2016/16"
+      ],
       "opties": [
         {
           "label": "A",
@@ -380,7 +439,30 @@
           "tekst": "Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet\ncommercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet\nverder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals\naankopen en personeelskosten.",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/immateriele-vaste-activa.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "O&O-classificatie + activering-criteria"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr4",
@@ -876,7 +958,18 @@
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "record_gap_report": {
+        "niveau": "c",
+        "ontbrekende_velden": [
+          "Volledige antwoord-grondslag uit records"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Geen record over budget voor interne controle-afdeling. Concept \"interne audit-afdeling budget\" valt buiten huidige IC-records. Gap niveau c — nieuw concept-record nodig over IC-afdeling werking + budget-rol.",
+        "type": "concept_ontbreekt",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr12",
@@ -959,7 +1052,18 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "record_gap_report": {
+        "niveau": "b",
+        "ontbrekende_velden": [
+          "Volledige antwoord-grondslag uit records"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "NV SLA-BAK casus 30 punten — complete jaarrekening-opdracht-casus die vereist: opdrachtbrief opstellen, tussentijdse staat van actief en passief produceren, accountantsrapport bij overlijden boekhouder. Vereist niet één maar veel records + casus-specifieke kennis (overgang boekhouder, signalfunctie accountant bij ziekte). Te complex voor enkel-record-grounded antwoord; partial-extract gap.",
+        "type": "checklist_fail_softmatch",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr14",

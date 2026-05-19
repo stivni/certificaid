@@ -103,13 +103,17 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Voor Softy BVBA (software-ontwikkelaar, 1 maand actief): (1) Oprichtingskosten (notaris, statuten, registratie) — keuze tussen ten laste nemen (klasse 6) of activeren op rek 20 met afschrijving max 5 jaar. (2) Aankoop van licentie/software: activeren op rek 211 (IVA) + afschrijving over gebruiksduur. (3) Loon van ontwikkelaars die zelf software bouwen: voor ontwikkelingsfase activeerbaar (mits 6 ITAA-voorwaarden — zie 2013-1-vr3). Onderzoeksfase NIET activeerbaar.",
+      "antwoord_motivering": "**Softy BVBA — typische opstart-software-onderneming, één maand actief**. De belangrijkste boekhoudkundige verwerkingen:\n\n### 1. Oprichtingskosten\n\nNotariskosten, statuten, registratie, eerste promotie-campagne, etc.:\n\n**Twee opties** (KB WVV art. 3:36 + [[oprichtingskosten]]):\n- **Optie A — Ten laste van resultaat**: rek 6105 'Erelonen' of vergelijkbaar — onmiddellijk ten laste van het eerste boekjaar\n- **Optie B — Activeren op rek 20 'Oprichtingskosten'** + afschrijven over **maximaal 5 jaar** (lineair)\n\n⚖️ Keuze door bestuur op moment van boeking; voor een net-opgestarte BVBA met weinig omzet kan activering interessant zijn om verlies in eerste boekjaar te beperken.\n\n### 2. Aankoop van licenties / software van derden\n\nAankoop van ontwikkelingstools, IDE-licenties, externe libraries:\n- Activeren op **rek 211 'Concessies, octrooien, licenties...'** (IVA klasse 21) ⚖️\n- Afschrijven over **economische gebruiksduur** (typisch 3-5 jaar voor software-licenties)\n\n### 3. Interne software-ontwikkeling (eigen ontwikkelaars)\n\nOnder huidig BE GAAP (KB WVV art. 3:37) — zelfde regeling als 2013-1-vr3 (O&O-kosten):\n\n- **Vooronderzoek/onderzoek**: NIET activeerbaar — onmiddellijk ten laste van resultaat\n- **Ontwikkeling**: WEL activeerbaar mits aan **strikte voorwaarden** voldaan ⚖️:\n  - Identificeerbaar (afgebakend project)\n  - Technisch haalbaar\n  - Intentie om te voltooien + gebruiken/verkopen\n  - Voldoende middelen om te voltooien\n  - Betrouwbaar meetbare kostprijs (bv. tijdsbesteding per project + loonkostprijs)\n  - Verwachte economische voordelen\n\n**Boeking voor geactiveerde ontwikkeling**:\n```\nDebet 211 Onderzoek en ontwikkeling (geactiveerd deel)\nCredit 72 Geproduceerde vaste activa (intern)\n```\n\n🤖 Voor een 1-maand-actieve onderneming: typisch nog veel ontwikkeling in onderzoeks-fase → groot deel direct ten laste. Bij latere ontwikkelings-fase kunnen kosten naar rek 211 worden geactiveerd.\n\n_Grondslag: KB WVV art. 3:36 (oprichtingskosten); art. 3:37 (IVA); CBN-advies 2016/16; [[oprichtingskosten]]; [[immateriele-vaste-activa]]._",
       "themas": [
         "immateriële-vaste-activa",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:36",
+        "KB WVV art. 3:37",
+        "CBN-advies 2016/16"
+      ],
       "opties": [
         {
           "label": "A",
@@ -140,7 +144,35 @@
           "tekst": "Zij koopt software X aan, die zij zonder enige wijziging doorverkoopt aan haar klanten",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/oprichtingskosten.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "keuze kost vs activeren"
+        },
+        {
+          "record": "content/concepten/immateriele-vaste-activa.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "IVA + O&O-activering"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr2",
@@ -218,12 +250,15 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "MC-casus over toelichting in jaarrekening bij bestuurswisseling. Klassieke regel: in de toelichting bij de jaarrekening moeten alle bestuurders worden vermeld die op afsluitingsdatum in functie zijn (KB WVV bijlage toelichting). Bestuurders die tijdens het boekjaar zijn vertrokken: niet vermeld in de huidige toelichting (wel in vorig boekjaar). Nieuwe bestuurders die zijn aangesteld: wel vermeld vanaf hun aanstellingsdatum.",
+      "antwoord_motivering": "**Vermelding bestuurders in de toelichting bij de jaarrekening** (KB WVV bijlage):\n\n### Algemene regel\n\nIn de toelichting bij de jaarrekening moeten alle **bestuurders/zaakvoerders/leden van het bestuursorgaan** worden vermeld die op de **afsluitingsdatum** in functie zijn. ⚖️\n\nAanvullende vereisten:\n- Voor genoteerde vennootschappen: ook **bezoldigingen** van bestuurders + management vermelden\n- Voor alle: **bezoldigingen + voorschotten + leningen** aan bestuurders\n- **Persoonlijke borgstellingen** van bestuurders ten behoeve van vennootschap\n\n### Bestuurders die tijdens het boekjaar zijn vertrokken\n\n- **Niet vermeld** in de toelichting van het lopende boekjaar (zij zitten niet meer in het bestuur op afsluitingsdatum) ⚖️\n- Wél: hun **bezoldigingen tot vertrekdatum** worden opgenomen in de totalen 'Bezoldigingen bestuurders' van het boekjaar (toelichting Staat XV of XVI afhankelijk schema)\n- Geen specifieke vermelding \"deze persoon was tot DD/MM bestuurder\" tenzij significante invloed of bijzondere transacties\n\n### Nieuwe bestuurders aangesteld tijdens boekjaar\n\n- **Wel vermeld** in de toelichting vanaf hun aanstellingsdatum, als ze op afsluitingsdatum in functie zijn ⚖️\n- Voor neutrale completeness: typisch zonder specifieke \"vanaf-datum\"-vermelding, tenzij bezoldigings-pro-rata moet worden vermeld\n\n### MC-antwoord\n\n🤖 Vraagtekst toont alleen \"Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening ...\" — de specifieke MC-opties zijn niet zichtbaar in vraagtekst-extract.\n\n**Generieke regel**: alleen bestuurders op afsluitingsdatum worden vermeld in toelichting; vertrokken bestuurders zijn alleen in bezoldigings-totalen aanwezig.\n\n_Grondslag: KB WVV bijlage (toelichting Staten over bestuursorgaan); WVV art. 5:104 e.v. (bestuursorgaan BV); CBN-advies 2017/02._",
       "themas": [
         "afschrijvingen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV bijlage",
+        "WVV art. 5:104"
+      ],
       "opties": [
         {
           "label": "A",
@@ -245,7 +280,40 @@
           "tekst": "Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens\neen langere economische levensduur.",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/bestuursverslag.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "verplichte vermeldingen bestuurders"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "MC-opties vraagtekst"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "MC-keuzes niet zichtbaar in vraagtekst-extract — alleen vraag-stam zichtbaar. Antwoord gebaseerd op algemene regel.",
+        "type": "vraagtekst_onduidelijk",
+        "sub_type": "partieel_extract",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr3",
@@ -489,7 +557,20 @@
           "tekst": "Liquiditeit in ruime zin",
           "punten": null
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "Bijlage (balans + RR van cliënt)"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Vraag 2013-2-vr5 (ratio-berekening) verwijst naar bijlage met balans + RR die niet in vraagtekst zit. Handmatige bijlage-extractie vereist vóór modelantwoord-generatie (zie ook 2013-1-vr4 + 2014-1-vr5 — zelfde patroon).",
+        "type": "vraagtekst_onduidelijk",
+        "sub_type": "ontbrekende_bijlage",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "antwoord_type": "berekening",
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr6",

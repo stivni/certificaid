@@ -236,7 +236,18 @@
           "type": "tekst",
           "inhoud": "2 Externe controle\n\nA. Stellingen juist of fout ivm onafhankelijkheid bij controle opdracht\n\nB. Na acceptatie van de opdracht -> voldoende kennis verwerven, op welke wijze?\n\nC. Volkomen controle volgens revisienormen\n\nD. 4 algemene stellingen juist of fout\n\nE. Bij een accountantsonderzoek wordt de materialiteitsdrempel:\n\nA. a. Vastgesteld bij KB\n\nB. b. Door aandeelhouders van de vennootschap vastgesteld\n\nC. c. Bepaald op basis van omzet van de 2 laatste jaren\n\nD. d. Bepaald naargelang inherente risico’s + interne controle van de cliënt"
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "Volledige antwoord-grondslag uit records"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Externe controle 4 deelvragen A-D (onafhankelijkheid, kennis verwerven, volkomen controle, algemene stellingen). Vereist consultatie van revisienormen + onafhankelijkheidsregels in detail. Vraagtekst toont alleen vraag-headers (A/B/C/D) zonder de stellingen zelf — partial-extract gap.",
+        "type": "vraagtekst_onduidelijk",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2024-1-vr3",
@@ -1096,13 +1107,15 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "A. Financiële onafhankelijkheid = EV/balanstotaal; > 40 % = sterk. B. DSO (n-dagen klantenkrediet) kan NIET berekend uit verkort schema (omzet ontbreekt). C. Passiva-volgorde: EV → Voorzieningen → Schulden >1jr → Schulden ≤1jr → Overlopende rek (toenemende eisbaarheid). D. EV = Kapitaal + Reserves + Overgedragen resultaat + Kapitaalsubsidies − Eigen aandelen − Niet-gestort. E. Verhoogde afschrijving gebouwen → c. Geen effect op bruto verkoopmarge (afschrijving niet in kostprijs verkochte goederen).",
+      "antwoord_motivering": "### A. Stellingen financiële onafhankelijkheid\n\n🤖 Vraagtekst toont niet de exacte stellingen — generieke regels:\n\n- Financiële onafhankelijkheid (= solvabiliteitsratio = EV / balanstotaal) > 40 % wordt als sterk beschouwd\n- Stijgende schuldgraad = afnemende onafhankelijkheid\n- Onafhankelijkheid daalt bij negatieve resultaten zonder kapitaalverhoging\n- Eigen kapitaal versterken (winstreservering, kapitaalverhoging) verhoogt onafhankelijkheid\n\n### B. Ratio die niet berekend kan worden op basis van verkort schema\n\n**n-dagen klantenkrediet** (DSO = Days Sales Outstanding) vereist de **omzet** als input:\n```\nDSO = (handelsvorderingen / omzet) × 365\n```\n\nHet **verkort schema** (KB WVV bijlage) toont geen omzet (rek 70) maar enkel **brutomarge** (omzet − aankopen). De omzet zelf is niet zichtbaar. ⚖️ Daarom kan **DSO niet exact berekend worden** uit het verkort schema. ⚖️\n\nAndere ratio's wel berekenbaar uit verkort schema:\n- Solvabiliteit (EV / balanstotaal) ✓\n- Liquiditeit (vlottende / kortlopende schulden) ✓\n- Schuldgraad ✓\n\n### C. Volgorde rubrieken passiva: toenemende eisbaarheid\n\nOp de Belgische balans (KB WVV bijlage) zijn passiva gerangschikt **van minst naar meest eisbaar** (toenemende eisbaarheid): ⚖️\n\n1. **Eigen vermogen** (kapitaal, reserves, overgedragen resultaat) — niet eisbaar\n2. **Voorzieningen** (klasse 16) — onzeker, niet onmiddellijk eisbaar\n3. **Schulden op meer dan één jaar** (klasse 17)\n4. **Schulden op ten hoogste één jaar** (klasse 42-48)\n5. **Overlopende rekeningen** (klasse 492) — eindperiode-correcties\n\n⚖️ Dit verschilt van IFRS-balans (vlottend vs niet-vlottend, alfabetisch of liquiditeits-gesorteerd).\n\n### D. EV-berekening uit jaarrekening kort model NBB\n\nEV = Geplaatst kapitaal + Onbeschikbare reserves + Beschikbare reserves + Overgedragen resultaat + Kapitaalsubsidies − Eigen aandelen − Inbrengen niet gestort. ⚖️ Specifieke berekening hangt af van welke posten zichtbaar zijn in de kort-model-presentatie.\n\n### E. Verhoogde afschrijving op gebouwen — effect op bruto verkoopmarge\n\n**Bruto verkoopmarge** = omzet − kostprijs verkochte goederen ([[contributiemarge]]).\n\nEen **verhoging van de afschrijving op gebouwen** is een **niet-direct-toewijsbare bedrijfskost**. Onder Belgische jaarrekeningstandaard:\n- Gebouw-afschrijvingen worden typisch geclassificeerd onder **rek 6302 Afschrijvingen op MVA** = onder bedrijfskosten **niet onder kostprijs verkochte goederen**.\n- Bruto verkoopmarge wordt berekend **vóór** afschrijvingskosten → **geen direct effect** ⚖️.\n\n**Antwoord MC**: **c. Geen effect** op bruto verkoopmarge. ⚖️\n\n🤖 Aanvullende nuance (optie d): indien de afschrijving als **kostprijs van verkopen** (rek 60-categorie of productie-overhead) zou worden geboekt — wat het geval is voor productie-gebonden afschrijvingen (bv. een productiefabriek) — dan **wel daling** van bruto verkoopmarge. Maar standaard-classificatie van gebouwen-afschrijving is in algemene kosten, geen kostprijs verkopen → c. Geen effect is correct.\n\n_Grondslag: KB WVV (balans-schema); [[contributiemarge]] §Definitie + §Bouwstenen; doctrine financiële analyse._",
       "themas": [
         "onafhankelijkheid",
         "afschrijvingen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV bijlagen (balansschema)"
+      ],
       "opties": [
         {
           "label": "A",
@@ -1142,7 +1155,45 @@
           "type": "tekst",
           "inhoud": "10 Analyse en kritische beoordeling van de jaarrekening\n\nA. Stellingen ivm financiële onafhankelijkheid\n\nB. Welke ratio kan je niet berekenen op basis van een verkort schema n- dagen klanten krediet\n\nC. In welke volgorde zijn rubrieken op Passief van de Balans gerangschikt? Toenemende eisbaarheid\n\nD. JR kort model NBB voor kapitaal vennootschap wordt EV als volgt berekend:\n\nE. Alfa is verlieslatend. Verhoging van de afschrijving op gebouwen door verkorting van de verwachte levensduur heeft het volgende effect op de bruto verkoopmarge:\n\na. Stijging\n\nb. Daling\n\nc. Geen\n\nd. Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt"
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/solvabiliteitsratio.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "A. financiële onafhankelijkheid"
+        },
+        {
+          "record": "content/concepten/bepalen-jaarrekeningschema.md",
+          "sectie": "Stappen",
+          "ondersteunt": "B. verkort schema beperkingen"
+        },
+        {
+          "record": "content/concepten/balans.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "C. passiva-volgorde toenemende eisbaarheid"
+        },
+        {
+          "record": "content/concepten/contributiemarge.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "E. bruto verkoopmarge-definitie"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2024-1-vr11",

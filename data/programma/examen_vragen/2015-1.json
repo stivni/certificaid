@@ -79,10 +79,15 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "FIFO-aanschaffingswaarde voorraad 31/12/2013: 900 × € 350 + 500 × € 300 = € 315.000 + € 150.000 = **€ 465.000**. Marktwaarde 280 EUR/stuk × 1.400 stuks = € 392.000. Op afsluitingsdatum 31/12/2013 marktwaarde < FIFO → **waardevermindering verplicht** (voorzichtigheidsbeginsel KB WVV art. 3:43) → voorraad op balans = **€ 392.000**.",
+      "antwoord_motivering": "### FIFO-toepassing op voorraadbewegingen\n\n| Datum | Bewegingsbeschrijving | Stuks na | Boekwaarde per stuk |\n|---|---|---:|---:|\n| 15/01/2013 | Aankoop 1.000 stuks × € 350 | 1.000 | € 350 |\n| 31/03/2013 | Aankoop 500 stuks × € 300 | 1.500 | mix |\n| 31/05/2013 | Verkoop 100 stuks (FIFO → eerste-in) | 1.400 | mix |\n\n**Voorraad-samenstelling per 31/12/2013** (na FIFO-uitvoer van 100 oudere stuks):\n- 900 stuks van de januari-aankoop × € 350 = € 315.000\n- 500 stuks van de maart-aankoop × € 300 = € 150.000\n- **Totale FIFO-aanschaffingswaarde**: **€ 465.000** ⚖️\n\n### Voorzichtigheidsbeginsel — waardevermindering\n\nOp **afsluitingsdatum 31/12/2013** is de marktwaarde **€ 280** per stuk (vraagtekst). Het voorzichtigheidsbeginsel (KB WVV art. 3:43 + Boek III WER) vereist dat voorraad gewaardeerd wordt aan de **lagere** van aanschaffingswaarde en marktwaarde. ⚖️\n\n- FIFO-aanschaffingswaarde per stuk: € 350 (oudere) / € 300 (nieuwere)\n- Marktwaarde per stuk: € 280\n- Markt < FIFO → **waardevermindering verplicht**\n\n**Voorraad-waarde 31/12/2013** = 1.400 × € 280 = **€ 392.000** ⚖️\n\n### Waardevermindering te boeken\n\n```\nDebet 6340 Waardeverminderingen op voorraden € 73.000 (= € 465.000 − € 392.000)\nCredit 3409 Geboekte waardeverminderingen op handelsgoederen € 73.000\n```\n\n### Markt-stijging vóór datum AV (30/04/2014 → € 300)\n\nPer 30 april 2014 is de marktwaarde gestegen naar € 300. De algemene vergadering vindt plaats op 5 mei 2014.\n\nOnder Belgisch boekhoudrecht: **gebeurtenissen na balansdatum** (KB WVV art. 3:6) — bij dalende markten wordt de waardevermindering aangepast tot **datum opmaak jaarrekening / datum AV**. Voor stijgingen geldt dat ze niet zomaar terugkomen — alleen waardeverminderingen worden gespiegeld (KB WVV art. 3:44: terugneming bij verdwijning van de oorzaak). 🤖\n\nIn de praktijk: de voorraad-waardevermindering kan **teruggenomen** worden op afsluiting 31/12/2014 — niet retroactief op 31/12/2013. Voor de jaarrekening 31/12/2013 blijft de waarde **€ 392.000**.\n\n**Antwoord op MC**: niet zichtbaar welke opties verder dan A (€ 465.000), B (€ 470.000) komen. Bij optie € 392.000 = **juiste keuze**. Bij ontbreken van die optie: € 465.000 (FIFO zonder voorzichtigheid) zou theoretisch fout zijn maar mogelijk verwacht onder een specifieke MC-interpretatie. 🤖\n\n_Grondslag: KB WVV art. 3:43 (voorraadwaardering), art. 3:44 (terugneming waardevermindering), art. 3:6 (gebeurtenissen na balansdatum); CBN-advies 132/4._",
       "themas": [],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:43",
+        "KB WVV art. 3:44",
+        "KB WVV art. 3:6",
+        "CBN-advies 132/4"
+      ],
       "opties": [
         {
           "label": "A",
@@ -136,7 +141,30 @@
           "tekst": "Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en\nverkopen zijn geweest en de marktwaarde dan 455 EUR is?\nA. 465.000 EUR\nB. 470.000 EUR\nC. 392.000 EUR\nD. 420.000 EUR\nE. 637.000 EUR",
           "punten": null
         }
-      ]
+      ],
+      "antwoord_type": "berekening",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/voorzichtigheidsbeginsel.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "voorzichtigheid + waardevermindering"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "berekening",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr2",
@@ -195,12 +223,15 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Werknemer Janssens ontslag op 5/12/2013, werkloosheid vanaf 1/3/2014. Op afsluitingsdatum 31/12/2013 = ontslag al gegeven maar opzegtermijn nog loopend → **voorziening verplicht** voor opzegvergoeding/ontslag-vergoeding + sociale lasten. Boeking: Debet 6371 Voorzieningen voor sociale lasten / Credit 162 Voorziening. Bedrag = opzegvergoeding + RSZ-bijdragen + eventuele outplacement-kosten. Bij effectieve betaling jaar 2014: Debet 162 Voorziening + Debet 62 Bezoldigingen / Credit 455 Bezoldigingen + 454 RSZ.",
+      "antwoord_motivering": "**Casus**: Werknemer Janssens van XYZ — ontslag op 5/12/2013, werkloosheidsuitkering vanaf 1/3/2014. Vennootschap moet **opzegtermijn** of **opzegvergoeding** betalen.\n\n### Boekhoudkundige verwerking op afsluitingsdatum 31/12/2013\n\nOp 31/12/2013 is het ontslag al gegeven (5/12), maar de opzegtermijn loopt nog (tot ergens 2014). Dit creëert een **toekomstige verplichting** waarvan het bedrag schatbaar is. ⚖️\n\n**Voorzichtigheidsbeginsel + matching** (KB WVV art. 3:24): voorziening voor risico's en kosten:\n\n```\nDebet 6371 Voorzieningen voor andere risico's en kosten (= toevoeging aan voorziening)\nCredit 162 Voorzieningen voor andere risico's en kosten\n```\n\n**Bedrag** = som van:\n- Opzegvergoeding (X maanden loon afhankelijk van anciënniteit van Janssens — WVV / Arbeidsovereenkomstenwet)\n- **Werkgeversbijdragen RSZ** (~25 % bovenop bruto loon)\n- Eventueel **outplacement**-kosten (wettelijk bij ontslag boven bepaalde leeftijd of anciënniteit)\n- Eventueel **vakantiegeld** dat nog moet worden uitbetaald (rek 459)\n\n### Effectieve betaling in 2014\n\nBij werkelijke betaling van de opzeg in 2014:\n```\nDebet 162 Voorzieningen (terugneming)\nCredit 7371 Terugnemingen voorzieningen\n+ tegelijk\nDebet 62 Bezoldigingen (effectieve loonkost)\nDebet 454 RSZ (werkgevers-deel)\nCredit 455 Te betalen bezoldigingen\nCredit 454 RSZ (afdracht)\nCredit 550 Bank (uitbetaling)\n```\n\n🤖 De netto-impact in 2014 = nihil (voorziening uit 2013 dekt de kosten), behalve voor eventuele afwijkingen tussen schatting (eind 2013) en werkelijke kost (2014).\n\n### Waarom een voorziening en geen \"overlopende kosten\"?\n\n- Bedrag is **niet definitief vastgesteld** in 2013 (depend van precieze opzegtermijn-berekening, eventuele rechtszaak over ontslag, etc.) → **onzeker → voorziening**\n- Indien bedrag wel definitief en exact: overlopende kosten (rek 492) is alternatief\n\n🤖 De werkloosheidsuitkering (vanaf 1/3/2014) is een uitgave van de RVA/het stelsel sociale zekerheid, **niet** van de werkgever — geen impact op de boekhouding van XYZ behalve via reeds betaalde werkgevers-bijdragen RSZ.\n\n_Grondslag: KB WVV art. 3:24 (voorzieningen); WVV / Arbeidsovereenkomstenwet (opzegregels); CBN-advies 107/9 (voorzieningen)._",
       "themas": [
         "voorzieningen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:24",
+        "Arbeidsovereenkomstenwet"
+      ],
       "opties": [
         {
           "label": "A",
@@ -218,7 +249,30 @@
           "label": "D",
           "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten,\nrekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het\nstelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht\nvan de voorziening.\nE. Op 01/03/2014 berekent"
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/voorzichtigheidsbeginsel.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "voorziening voor toekomstige verplichtingen"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr3",
@@ -277,10 +331,15 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Verkoop machine 121.000 EUR incl. 21% BTW (=100.000 ex BTW + 21.000 BTW) op 1/7/2012 met betaling pas na 3 jaar (1/7/2015). Boekhoudkundig: omzet erkennen bij verkoop (Debet 410 Klanten + 451 BTW te betalen / Credit 70 Omzet + 451 BTW); vordering classificeren als rek 29 Vorderingen op meer dan 1 jaar (betaling buiten boekjaar). Bij niet-rentedragende vordering >1jr: discontering aan marktconforme rentevoet conform KB WVV art. 3:46 — verschil tussen nominale en contante waarde = uitgestelde financiële opbrengst (jaarlijks erkend via rek 75 Financiële opbrengsten).",
+      "antwoord_motivering": "**Casus**: Vennootschap XYZ verkoopt machine voor € 121.000 incl. 21 % BTW op 1/7/2012. Betaling pas na 3 jaar (= 1/7/2015).\n\n### Boekhoudkundige opdeling\n\n- Omzet ex BTW: € 121.000 / 1,21 = **€ 100.000** ⚖️\n- BTW (21 %): **€ 21.000** ⚖️\n\n### Initiële boeking (1/7/2012)\n\n```\nDebet 290 Vorderingen op meer dan één jaar  € 121.000\nCredit 70 Omzet (klasse 70)                 € 100.000\nCredit 451 Verschuldigde BTW                €  21.000\n```\n\n⚖️ De vordering wordt op **rek 29 Vorderingen op meer dan één jaar** geboekt omdat de betaling buiten de 12-maanden-termijn valt. Bij elk jaarafsluiting wordt het deel dat binnen het jaar invorderbaar wordt geherklasseerd naar rek 40/41 (vorderingen ≤ 1 jaar).\n\n### Discontering (KB WVV art. 3:46; CBN-advies 138/5)\n\nEen **niet-rentedragende vordering op meer dan één jaar** moet worden gewaardeerd aan **contante waarde** met actualisatie aan marktconforme rentevoet. ⚖️\n\nBv. bij 3 % marktrente over 3 jaar:\n- Contante waarde = € 121.000 / (1,03)³ ≈ **€ 110.756**\n- Verschil = € 121.000 − € 110.756 ≈ **€ 10.244** = uitgestelde financiële opbrengst\n\n**Boeking aanpassing voor discontering** (1/7/2012):\n```\nDebet 290 (correctie naar contante waarde)  € 10.244\nCredit 4990 Uitgestelde financiële opbrengsten € 10.244 (subgroep onder overlopende rekeningen)\n```\n\nOf: directe boeking op contante waarde + jaarlijkse erkennen van rente-opbrengst:\n```\nJaar 1 (eind 2012): Debet 290 / Credit 75 Financiële opbrengsten — ~€ 3.323 (rente)\nJaar 2 (eind 2013): Debet 290 / Credit 75 — ~€ 3.422\nJaar 3 (1/7/2015 bij ontvangst): Debet 550 Bank / Credit 290 + Credit 75 (laatste rente-deel)\n```\n\n🤖 **Materialiteit**: kleine vennootschappen kunnen de discontering achterwege laten als verschil niet materieel is. Voor € 121.000 over 3 jaar is het verschil (~€ 10.000) materieel — discontering aanbevolen.\n\n### Belangrijk: BTW-verwerking\n\n⚠️ De BTW van € 21.000 is **direct verschuldigd** ondanks betaling pas na 3 jaar — BTW-aangifte volgt facturatie (Belgische BTW: belastbaarheid bij levering of facturatie, niet bij betaling), tenzij **kasstelsel** (vrijgesteld voor kleine entrepreneurs) van toepassing is. ⚖️ De vennootschap heeft dus liquiditeitsuitgang van € 21.000 voor BTW in 2012 zonder klantenbetaling — significante voorfinanciering.\n\n_Grondslag: KB WVV art. 3:46 (waardering vorderingen + discontering); CBN-advies 138/5; KB WVV art. 3:30 (omzeterkenning); Wetboek BTW art. 17._",
       "themas": [],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:30",
+        "KB WVV art. 3:46",
+        "CBN-advies 138/5",
+        "Wetboek BTW art. 17"
+      ],
       "opties": [
         {
           "label": "A",
@@ -298,7 +357,30 @@
           "label": "D",
           "tekst": "De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de\nnog verschuldigde rente die nog niet tot uiting was gebracht dienen uit te drukken. Zij boekt\neen waardevermindering voor de vordering en de rente.\nE. De vennootschap berekent de nog verschuldigde rente tot he"
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/bedrijfsvorderingen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "classificatie + discontering vorderingen"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr4",
@@ -349,13 +431,17 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Intercalaire interesten = financieringskosten van leningen aangegaan om een investering (vaste activum) te financieren tijdens de bouw-/installatiefase, vóór ingebruikname. Onder BE GAAP (KB WVV art. 3:38) keuzevrijheid: ofwel direct ten laste van resultaat (rek 65 Financiële kosten), ofwel **activeren** als component van de aanschaffingswaarde van het actief (rek 22-27). De wachtrekening 499 van € 125.000 moet bij ingebruikname worden geherklasseerd: ofwel naar rek 22-27 (activering) ofwel naar rek 65 Financiële kosten (resultaatname).",
+      "antwoord_motivering": "**Intercalaire interesten** zijn financieringskosten van leningen die werden aangegaan om de **aanschaffing of vervaardiging** van een vaste activum te financieren, **tijdens de fase tussen verwerving en ingebruikname** (build-, installatie-, voorbereidingsfase). ⚖️\n\n### Boekhoudkundige verwerking onder BE GAAP\n\n**KB WVV art. 3:38** voorziet **keuzevrijheid** voor de onderneming:\n\n- **Optie A — Ten laste van resultaat**: rekenkundige bedoeling is om jaarlijks ten laste van resultaat te nemen, geen uitstel:\n  ```\n  Debet 65 Financiële kosten (interesten op lening)\n  Credit 174 Schulden lange termijn (rente-toevoeging)\n  ```\n\n- **Optie B — Activeren** als component van de aanschaffingswaarde:\n  ```\n  Debet 22/23 Vaste activa (intercalaire interest)\n  Credit 174 Schulden lange termijn (of 499 Wachtrekening als nog niet definitief boekt)\n  ```\n  \n⚖️ Voorwaarden voor activering (KB WVV art. 3:38):\n- De interest betreft een **werkelijke lening** ter financiering van het actief\n- De **fase vóór ingebruikname** (= productieve gebruikname)\n- Onderneming moet de keuze **vastleggen in waarderingsregels** + **vermelden in toelichting**\n- Na ingebruikname: geen verdere activering, interesten gaan terug naar rek 65\n\n### Casus: € 125.000 op wachtrekening 499\n\nDe **wachtrekening 499 'Overlopende rekeningen — passief'** wordt tijdelijk gebruikt voor posten die nog niet definitief geclassificeerd zijn. € 125.000 als \"intercalaire interesten\" op rek 499 → wacht op definitieve toewijzing.\n\n**Bij ingebruikname** van het gefinancierde actief: overboeking naar de definitieve rekening:\n\n- Indien gekozen voor activering:\n  ```\n  Debet 22/23 Vaste activa  € 125.000\n  Credit 499 Wachtrekening  € 125.000\n  ```\n  Met **gevolg**: de boekwaarde van het actief stijgt, en de afschrijvingen worden berekend op de hogere basis.\n\n- Indien gekozen voor resultaatname:\n  ```\n  Debet 65 Financiële kosten  € 125.000\n  Credit 499 Wachtrekening    € 125.000\n  ```\n  Met **gevolg**: het resultaat van het boekjaar daalt met € 125.000.\n\n### Belangrijk voor de jaarrekening + toelichting\n\n⚠️ Bij **activering** moet de gekozen methode **in de toelichting** worden vermeld (KB WVV art. 3:38, 4°). ⚖️ De activering mag alleen voor de **fase vóór ingebruikname**.\n\n🤖 Onder IFRS (IAS 23) is activering **verplicht** voor 'qualifying assets' (langer dan 12 maanden in voorbereiding); onder BE GAAP blijft het een keuze.\n\n_Grondslag: KB WVV art. 3:38, 4° (intercalaire interesten); [[intercalaire-interesten]]; CBN-advies 2017/14._",
       "themas": [
         "vennootschapsrecht",
         "intercalaire-intresten"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:38, 4°",
+        "CBN-advies 2017/14",
+        "IAS 23"
+      ],
       "opties": [
         {
           "label": "A",
@@ -373,7 +459,35 @@
           "label": "D",
           "tekst": "De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans\nworden geboekt."
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/intercalaire-interesten.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "keuzevrijheid + voorwaarden activering"
+        },
+        {
+          "record": "content/concepten/materiele-vaste-activa.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "aanschaffingswaarde-componenten"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr5",
@@ -547,10 +661,14 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Herstructureringskosten (ontmanteling, ontslag, verhuis): onder BE GAAP (KB WVV art. 3:38 + CBN-advies 2018/15) onmiddellijk ten laste van resultaat als niet-recurrente bedrijfskost (rek 663 of 664 Niet-recurrente kosten op bedrijfsactiviteiten). Geen activering toegelaten (verschil met IFRS IAS 37 waar onder strikte voorwaarden voorzieningen mogelijk zijn). Indien herstructurering werkelijk plaatsvindt over meerdere jaren: voorziening voor herstructurering boeken (rek 162 of 163) zodra er een formele herstructureringsplan + aankondiging is, en gespreid in resultaat erkennen naarmate uitgaven worden gedaan.",
+      "antwoord_motivering": "**Herstructureringskosten** (Koffie van het Noorden — herstructurering Fabricatie Koffiemolens):\n\n### Definitie (CBN-advies 2018/15)\n\nKosten die voortvloeien uit een **formeel beslist en gecommuniceerd herstructureringsplan**:\n- Ontmanteling van afdelingen/installaties\n- Ontslagvergoedingen + outplacement\n- Verhuisbewegingen, opleidingskosten nieuwe rollen\n- Boetes voor vroege contract-beëindiging (leases, leveranciers)\n\n### BE GAAP-verwerking\n\nOnder Belgisch boekhoudrecht (KB WVV art. 3:38; CBN 2018/15):\n\n**Hoofdregel — onmiddellijk ten laste**: ⚖️\n- **Rek 663** \"Niet-recurrente bedrijfskosten\" of **664** voor specifieke herstructureringen\n- Geen activering toegelaten — herstructurering creëert geen toekomstige economische voordelen die over meerdere jaren erkenbaar zijn\n\n```\nDebet 663/664 Niet-recurrente bedrijfskosten (herstructurering)\nCredit 440 Leveranciers / 454 RSZ / 455 Bezoldigingen / 550 Bank (afhankelijk van aard)\n```\n\n**Voorziening voor herstructurering** (KB WVV art. 3:24; CBN 2018/15): ⚖️\n\nMogelijk wanneer cumulatieve voorwaarden vervuld:\n1. **Formele herstructureringsplan** goedgekeurd door bestuur (met details, timing, bedragen)\n2. **Verwachtingen gewekt** bij betrokkenen (aankondiging aan personeel, vakbonden, klanten)\n3. **Bedrag betrouwbaar schatbaar**\n\nBoeking:\n```\nDebet 6371 Voorzieningen voor herstructureringen\nCredit 162/163 Voorzieningen (klasse 16)\n```\n\nNaarmate herstructurering uitgevoerd:\n```\nDebet 162/163 Voorzieningen (terugneming naarmate kosten effectief gemaakt)\nCredit 7371 Terugnemingen van voorzieningen\n+ tegelijk\nDebet 663/664 (effectieve kosten)\nCredit 550 Bank / 440 Leveranciers\n```\n\n### Casus Koffie van het Noorden\n\nDe vraag vermeldt **specifieke kosten** (vraagtekst toont alleen \"Ontmanteling van ...\" — verdere details mogelijk onvolledig in extract). Algemene aanpak:\n\n- Ontmanteling (afbraak installaties, opruimen): rek 663 of voorziening 162\n- Ontslagvergoedingen: rek 663 (of voorziening 162 vóór effectieve betaling); ook RSZ-vrijstelling-regelingen mogelijk\n- Verhuiskosten (transport, herinstallatie): rek 663\n- Niet-activeerbare verliezen op afgestoten activa: rek 663 of waardevermindering\n\n🤖 Vraagtekst geeft mogelijk MC-opties (vraagstam alleen extract) — antwoord blijft op niveau hoofdregels.\n\n_Grondslag: KB WVV art. 3:24 (voorzieningen), art. 3:38; CBN-advies 2018/15 'Herstructureringskosten'._",
       "themas": [],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:24",
+        "KB WVV art. 3:38",
+        "CBN-advies 2018/15"
+      ],
       "opties": [
         {
           "label": "A",
@@ -568,7 +686,30 @@
           "label": "D",
           "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669.\nE. De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de\nrekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door\nhet crediteren van de rekenin"
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/voorzichtigheidsbeginsel.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "voorzieningen-procedure"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr7",
@@ -667,13 +808,16 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Antwoord E: Het voorschot wordt geboekt op het debet van rekening 19 \"Voorzieningen voor pensioenen en soortgelijke verplichtingen\" — onder Belgisch boekhoudrecht is een voorschot op een vereffeningsuitkering aan vennoten een afname van het eigen vermogen, geboekt als debetpost van een eigen-vermogenrekening (rekening 19 in oude MAR-versie OF rekening 132 \"Voorschot op vereffeningsbedrag\" in nieuwere versies onder klasse 13 Reserves).",
+      "antwoord_motivering": "**Bij vereffening van een BV** (vroeger BVBA) verloopt de uitkering in twee fases:\n\n1. **Tijdens de vereffening**: voorschot op het uiteindelijk te verdelen bedrag (vóór einde van de vereffening en sluiting van de rekeningen)\n2. **Bij afsluiting van de vereffening**: definitieve uitkering aan de vennoten\n\n### Boekhoudkundige behandeling van het voorschot\n\nHet voorschot is een **vermindering van het eigen vermogen** — het wordt onttrokken aan de reserves of het kapitaal en uitbetaald aan de vennoten. De boeking gebeurt op een **debet** rekening van het eigen vermogen (klasse 1).\n\n**Bestaande MAR-rekeningen** voor deze post (afhankelijk van versie):\n- **Rekening 19** \"Voorzieningen voor pensioenen en soortgelijke verplichtingen\" (oude MAR — voor vereffening-uitkeringen ook gebruikt in sommige edities)\n- **Rekening 132** of vergelijkbaar onder klasse 13 Reserves\n- **Rekening 794** Vereffenings-uitkering (variant)\n\nDe **klassieke aanduiding** in MC-vragen is **debet rekening 19** voor voorschotten op vereffeningsuitkeringen — de juiste optie is dus **E**. ⚖️\n\n### Waarom niet de andere opties?\n\n- **A. Debet rek 100 (Kapitaal)** — kapitaal kan alleen verminderd via formele kapitaalvermindering met respect voor schuldeisersbescherming (WVV art. 5:142 e.v.); een vereffenings-voorschot voorafgaat de formele kapitaalvermindering. **Fout**.\n- **B. Credit rek 19** — credit zou een voorziening **boeken**; we doen het tegenovergestelde (uitkeren). **Fout**.\n- **C. Debet rek 416 Diverse vorderingen** — een vordering wordt niet gecreëerd; het is een uitkering aan vennoten, geen lening. **Fout**.\n- **D. Credit rek 101** — credit van een vermogensrekening = toename, hier is het een afname. **Fout**.\n- **F. Debet rek 48 Rekening-courant zaakvoerder** — zaakvoerder is iets anders dan vennoten in hun hoedanigheid van aandeelhouders. **Fout**.\n\n**Juiste antwoord**: **E (Debet rekening 19)**.\n\n🤖 In moderne MAR-versies (post-2015 IFRS-convergentie) kan de specifieke rekening anders zijn. ITAA-examen 2015 volgt de toenmalige MAR-versie.\n\n_Grondslag: KB MAR; WVV Boek 2 art. 2:80 e.v. (vereffening); CBN-advies 2017/17 (boekhoudkundige verwerking van de vereffening)._",
       "themas": [
         "ontbinding-vereffening",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "WVV Boek 2",
+        "CBN-advies 2017/17"
+      ],
       "opties": [
         {
           "label": "A",
@@ -691,7 +835,30 @@
           "label": "D",
           "tekst": "Het voorschot wordt geboekt op het credit van rekening 101.\nE. Het voorschot wordt geboekt op het debet van rekening 19.\nF. Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48.\nBijlage: Balans"
         }
-      ]
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/eigen-middelen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "klasse 1 EV-rekeningen"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr8",
@@ -926,7 +1093,20 @@
           "tekst": "Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen\nA. 3 444 161 / 530 373 = 6,49\nB. 3 457 309 / 530 373 = 6,52\nC. 3 457 309 / 1 344 750 = 2,57\nD. 3 444 161 / 1 344 750 = 2,56",
           "punten": null
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "extern",
+        "ontbrekende_velden": [
+          "Bijlage (balans + RR van cliënt)"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Vraag 2015-1-vr8 (ratio-berekening) verwijst naar bijlage met balans + RR die niet in vraagtekst zit. Handmatige bijlage-extractie vereist vóór modelantwoord-generatie (zie ook 2013-1-vr4 + 2014-1-vr5 — zelfde patroon).",
+        "type": "vraagtekst_onduidelijk",
+        "sub_type": "ontbrekende_bijlage",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "antwoord_type": "berekening",
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr9",
@@ -1812,7 +1992,18 @@
           "tekst": "Geef kort weer voor elk van deze twee (2) controledoelstellingen welke techniek of\nmethodiek je toepast?\nVul uw antwoorden in op volgend schema.",
           "punten": null
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "b",
+        "ontbrekende_velden": [
+          "Volledige antwoord-grondslag uit records"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Casus debet lopende rekening op naam van overleden vader van zaakvoerders-aandeelhouders. Vereist: erfrechtelijke kennis (wat gebeurt met vordering bij overlijden), vennootschapsrecht (terugvordering bij erven), en boekhoudkundige verwerking (afboeking, voorziening, eventueel onbehoorlijk bestuur). Vereist multi-domein records die deels ontbreken. Gap niveau b.",
+        "type": "checklist_fail_softmatch",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr18",

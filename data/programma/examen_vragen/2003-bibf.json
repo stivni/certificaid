@@ -545,7 +545,19 @@
           "type": "tekst",
           "inhoud": "D.1 Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Vraag: Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen. 3 PUNTEN"
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "b",
+        "ontbrekende_velden": [
+          "BTW-specifieke records (statuut klein zelfstandige + voorschot-BTW)"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "BTW-statuut \"klein zelfstandige\" — vrijstellingsdrempel BTW (huidig € 25.000 omzet); aanvaarding statuut + boekhouding-vereenvoudiging. Vereist BTW-specifieke records die deels ontbreken.",
+        "type": "checklist_fail_softmatch",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "antwoord_type": "kwalificatie",
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrD2",
@@ -571,7 +583,19 @@
           "type": "tekst",
           "inhoud": "D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Vraag: Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? 2 PUNTEN"
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "b",
+        "ontbrekende_velden": [
+          "BTW-specifieke records (statuut klein zelfstandige + voorschot-BTW)"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Voorschot offerte schrijnwerker — BTW-verwerking: voorschot is belastbaar bij ontvangst (BTW-tijdstip = ontvangst geld of facturatie); boekhoudkundig: Debet 550 Bank / Credit 410 Klanten of Credit 491 Te ontvangen producten. Vraagtekst toont alleen vraag-stam.",
+        "type": "checklist_fail_softmatch",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "antwoord_type": "kwalificatie",
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrE1",

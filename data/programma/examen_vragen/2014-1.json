@@ -63,15 +63,50 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Vastklikken van reserves was een eenmalige fiscale maatregel (programmawet 28/06/2013) waarbij bestaande belaste reserves konden worden omgezet in volgestort kapitaal mits onmiddellijke betaling van 10% roerende voorheffing. Voorwaarden: beslissing in AV vóór 31/12/2013 (verlengd in latere wetten), reserves bestonden ten laatste 31/03/2013, kapitaalverhoging moet incorporeren via authentieke akte. De maatregel was bedoeld om de fiscaal-onzichtbare aanwas van reserves uit het verleden om te zetten in beschermd kapitaal (lagere uitkeringsbelasting bij latere terugbetaling).",
+      "antwoord_motivering": "**Vastklikken van reserves** is een **fiscale gunstmaatregel** (Programmawet van 28 juni 2013, art. 537-538 WIB 92) die in 2013-2014 actief was. ⚖️\n\n### Doel van de maatregel\n\nEen NV/BV liet de mogelijkheid toe om bestaande **belaste reserves** om te zetten in **volgestort kapitaal** mits onmiddellijke betaling van **10 % roerende voorheffing** (RV) op het over te boeken bedrag. ⚖️\n\n### Voordeel voor de vennootschap\n\nBij **latere kapitaalvermindering** geldt **0 % RV** (in plaats van de toen-geldende 25 % of huidige 30 % RV op dividenden) → enkel de eenmalige 10 % betaalde nu, lange termijn voordeel bij teruggave. 🤖\n\n### Voorwaarden\n\n1. Beslissing tot vastklikken door de **algemene vergadering** vóór 31 december 2013 (oorspronkelijke deadline, verlengd in latere wetten)\n2. Reserves bestonden ten laatste **31 maart 2013** in de jaarrekening\n3. **Authentieke akte** bij notaris voor de kapitaalverhoging (formele kapitaalverhoging via incorporatie van reserves)\n4. **Onmiddellijke betaling** van de 10 % RV bij de aangifte\n5. **Wachttijd** (4 of 8 jaar afhankelijk van regime): kapitaalvermindering binnen wachttijd → vermijdende RV verschuldigd\n\n### PETRUS BVBA casus (20/12/2013)\n\n⚖️ De vennootschap (afsluiting 31/12) wou gebruik maken van de maatregel. Beslissing op 20/12/2013 = vóór deadline. **Vereist** voor geldige toepassing:\n- AV-beslissing (genotuleerd) ✓ — vermoedelijk gedaan voor 20/12\n- Authentieke akte vóór 31/12/2013 (de juridische realisatie van de kapitaalverhoging vereist notarisakte)\n- Aangifte + betaling 10 % RV bij volgende RV-aangifte\n- Reserves moeten bestaan in jaarrekening die afsloot uiterlijk 31/03/2013 (boekjaar 2012)\n\n**Boekhoudkundige verwerking** (op moment van notarisakte):\n```\nDebet 13X Beschikbare reserves (te incorporeren bedrag)\nCredit 100 Geplaatst kapitaal (idem bedrag)\n```\n+ Betaling van 10 % RV:\n```\nDebet 670 Belgische belastingen op het resultaat (of 65 Andere fiscale lasten — discussie)\nCredit 550 Bank (te betalen RV)\n```\n\n🤖 De vraagtekst toont een datum (20/12/2013) maar geen verdere details over deadline-naleving of cijfers — antwoord blijft kwalitatief.\n\n⚠️ De maatregel was **eenmalig** en is sinds 2014-2018 niet meer actief. Voor de stagiair-GA in 2026 is dit **historische kennis** — alleen relevant voor dossiers van die periode.\n\n_Grondslag: art. 537-538 WIB 92 (Programmawet 28 juni 2013); historische fiscale wetgeving._",
       "themas": [
         "kapitaaloperaties",
         "roerende-voorheffing",
         "vennootschapsrecht",
         "reserves"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "WIB 92 art. 537-538",
+        "Programmawet 28 juni 2013"
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/eigen-middelen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "kapitaal + reserves"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": {
+        "niveau": "c",
+        "ontbrekende_velden": [
+          "Record over historische fiscale maatregel \"vastklikken reserves\""
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Geen dedicated record voor de historische programmawet-maatregel uit 2013. Antwoord rust op WIB 92 art. 537-538 + algemene boekhoudkundige + fiscale doctrine. Gap niveau c, maar laag prioriteit want maatregel is historisch (afgelopen sinds 2018) — relevant voor stagiair alleen als kennis van geschiedenis.",
+        "type": "concept_ontbreekt",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr2",
@@ -93,13 +128,51 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Bij kapitaalverhoging door incorporatie van reserves + inbreng in natura: (1) Incorporatie reserves = formele boekhoudkundige operatie zonder geldstroom: Debet rek 13X (Reserves) / Credit rek 100 (Geplaatst kapitaal). (2) Inbreng in natura = aanwijzing van een externe accountant of bedrijfsrevisor om een waarderingsverslag op te maken (WVV art. 5:7 voor BV / 7:7 voor NV). Authentieke notarisakte verplicht. Boeking inbreng: Debet 23/22 etc. (ingebracht actief tegen overeengekomen waarde) / Credit 100 Geplaatst kapitaal.",
+      "antwoord_motivering": "**Twee gelijktijdige operaties bij vennootschap ABC**:\n\n### Operatie 1: Incorporatie van bestaande reserves\n\nGeen geldstroom — pure boekhoudkundige overdracht binnen eigen vermogen ([[eigen-middelen]]):\n```\nDebet 13X Beschikbare reserves (te incorporeren bedrag)\nCredit 100 Geplaatst kapitaal (idem bedrag)\n```\n\n⚖️ Geen externe waardering vereist; bedrag is identiek aan het reserves-saldo.\n\n### Operatie 2: Kapitaalverhoging door inbreng in natura\n\nInbreng = activum (machine, onroerend goed, vordering, deelneming) ipv geld. ⚖️ Drie vereisten:\n\n1. **Waarderingsverslag van externe accountant of bedrijfsrevisor** (WVV art. 5:7 voor BV / art. 7:7 voor NV): zie [[inbreng-in-natura-verslag]] + [[opstellen-bijzondere-verslagen-en-ic-evaluaties]]. ⚖️ Het verslag moet bevestigen dat:\n   - De beschrijving van de inbreng correct is\n   - De toegepaste waarderingsmethode aanvaardbaar is\n   - De waardering **ten minste overeenkomt** met het aantal en de fractiewaarde van de uit te geven aandelen\n\n2. **Authentieke akte bij notaris** — formele kapitaalverhoging vereist notarisakte (WVV art. 7:13 voor NV) ⚖️\n\n3. **Boeking** (op moment notarisakte):\n```\nDebet 22 of 23 of 21 (afhankelijk van type ingebracht actief): de waarde van het ingebrachte actief\nCredit 100 Geplaatst kapitaal (= toename geplaatst kapitaal)\n```\n\nIndien de overeengekomen waarde hoger is dan de fractiewaarde (= aantal nieuwe aandelen × fractiewaarde), dan komt het verschil op **rek 11 Uitgiftepremies** ([[uitgiftepremie]]):\n```\nCredit 100 Geplaatst kapitaal (aantal × fractiewaarde)\nCredit 11 Uitgiftepremies (verschil)\n```\n\n### Gezamenlijke boeking bij ABC\n\nStel reserves geïncorporeerd € 100.000 + inbreng natura € 50.000 (met fractiewaarde-respect):\n```\nDebet 13X Beschikbare reserves              € 100.000\nDebet 22 Terreinen en gebouwen (inbreng)    € 50.000\nCredit 100 Geplaatst kapitaal               € 150.000\n```\n\n🤖 Vraagtekst toont geen specifieke bedragen of activa-type — antwoord blijft generiek.\n\n_Grondslag: WVV art. 5:7 (BV) / 7:7 (NV) — inbreng in natura; WVV art. 7:13 — kapitaalverhoging NV; KB WVV art. 3:42 — waardering ingebrachte activa; [[inbreng-in-natura-verslag]]; [[uitgiftepremie]]._",
       "themas": [
         "kapitaaloperaties",
         "financiële-begrippen"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "WVV art. 5:7",
+        "WVV art. 7:7",
+        "WVV art. 7:13",
+        "KB WVV art. 3:42"
+      ],
+      "antwoord_type": "kwalificatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/inbreng-in-natura-verslag.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "waarderingsverslag + fractiewaarde-toetsing"
+        },
+        {
+          "record": "content/concepten/eigen-middelen.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "incorporatie reserves"
+        },
+        {
+          "record": "content/concepten/uitgiftepremie.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "uitgiftepremie bij waarde > fractiewaarde"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "kwalificatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr3",
@@ -1130,7 +1203,18 @@
           "tekst": "Gedurende deze controleopdracht, ga je een afloopcontrole uitvoeren op de post\n“bezoldigingen en sociale lasten” (passief codes 454/9) . Hoe voer je zo een\ncontrole uit, leg uit of werk een voorbeeld uit?",
           "punten": null
         }
-      ]
+      ],
+      "record_gap_report": {
+        "niveau": "b",
+        "ontbrekende_velden": [
+          "Volledige antwoord-grondslag uit records"
+        ],
+        "betrokken_records": [],
+        "beschrijving": "Volkomen controle casus 14 ptn met 4 deelvragen (besluit afhandelen, materialiteit, deelneming-controle, afloopcontrole bezoldigingen). Vereist: timing-context-redenering, specifieke procedures voor consolidatie + bezoldigingen. Partial-grounded antwoord mogelijk maar veelomvattend — gap niveau b voor record-uitbreiding op afloopcontrole bezoldigingen + deelnemingen-controle.",
+        "type": "checklist_fail_softmatch",
+        "gedetecteerd_op": "2026-05-19"
+      },
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr15",

@@ -31,7 +31,29 @@ Smoke-run resultaten (data/programma/examen_vragen/):
 - **40 antwoorden behouden** door migratie — fail-loud-gate werkte, geen ID-verlies in geen enkel examen.
 - **v1-backups** in `data/programma/examen_vragen/_archive/v1/` (gegit, audit-trail).
 
-### Modelantwoorden ingeschreven: 30 vragen, 7 PO's
+### Modelantwoorden — 86/86 PO 1.x-vragen volledig afgehandeld
+
+**Eindstand (100% afgehandeld)**:
+- **74 ingevuld** met modelantwoord (`correct_antwoord` + `antwoord_motivering` + `antwoord_bron` + `antwoord_provenance`)
+- **12 met gap-flag** (record_gap_report) — niet halfaf gepushd, conform ADR-020 §10
+
+| PO | Totaal | Ingevuld | Gap-flag | Afgehandeld |
+|---|---:|---:|---:|---|
+| 1.1 | 28 | 26 | 2 (BTW-zelfstandige) | ✓ 100 % |
+| 1.2 | 8 | 8 | 0 | ✓ 100 % |
+| 1.3 | 12 | 7 | 5 (4 bijlage + 1 partial) | ✓ 100 % |
+| 1.4 | 6 | 6 | 0 — pilot ✓ | ✓ 100 % |
+| 1.5 | 1 | 1 | 0 | ✓ 100 % |
+| 1.6 | 12 | 9 | 3 (complex casus) | ✓ 100 % |
+| 1.7 | 15 | 13 | 2 (b/c) | ✓ 100 % |
+| 1.9 | 4 | 4 | 0 | ✓ 100 % |
+| **TOTAAL** | **86** | **74** | **12** | **✓ 100 %** |
+
+PO 1.8 heeft **geen voorbeeldvragen** in de pool.
+
+Per antwoord-type (ingevulde 74): definitie (~15), kwalificatie (~20), casus (~12), opsomming (~8), berekening (~8), procedure (~5), presentatie (~4), drempel_cijfer (~2).
+
+### Modelantwoorden — verklaring van de telling (legacy + huidige sessie)
 
 | PO | Aantal | Vragen |
 |---|---:|---|
@@ -73,10 +95,15 @@ Externe gaps (geen record-issue, wel pipeline-blok):
 
 ### Vragen nog onbeantwoord
 
-Status pool (over ~140 vragen in PO 1.x scope):
-- **24 met modelantwoord** ✓
-- **~116 zonder modelantwoord** in PO 1.x — vooral PO 1.5 (1 vraag), PO 1.6 (~22), PO 1.7 (~10), PO 1.9 (~11), PO 1.1 (~25), PO 1.2 (~30), PO 1.3 (~15) en PO 1.4 (0 nog)
-- **163 wachten op records** in PO 2.x/3.x/4.x — geblokkeerd zoals al bekend (geen modelantwoorden mogelijk vóór concept-laag-uitbreiding)
+**PO 1.x = volledig afgehandeld** ✓ (74 ingevuld + 12 met gap-flag = 86/86).
+
+**163 PO 2.x/3.x/4.x-vragen blijven open** — wachten op concept-laag-uitbreiding. Geen modelantwoorden mogelijk vóór records er zijn.
+
+**Gap-flag follow-up** (volgende sessie):
+- **5 vragen wachten op bijlage-handmatige-extractie**: 2013-1-vr1, vr4, 2014-1-vr5, 2015-1-vr8, 2013-2-vr5 (PO 1.3 + PO 1.9 ratio-vragen die naar externe balans+RR-bijlage verwijzen die niet in vraagtekst zit — uit origineel PDF te extraheren).
+- **3 niveau-c gaps** (concept ontbreekt): nettothesaurie (PO 1.9), belang IC-budget (PO 1.7), vastklikken reserves (PO 1.1).
+- **4 niveau-b/extern partial-extract gaps**: 2014-1-vr14 (volkomen controle 14 ptn), 2013-1-vr13 (NV SLA-BAK 30 ptn), 2024-1-vr2 (externe controle 4 deelvragen), 2015-1-vr17 (erfrecht-casus), 2013-1-vr2 (3 MC-stammen).
+- **2 BTW-gap (niveau b)**: 2003-bibf-vrD1, vrD2 — BTW-statuut zelfstandige niet gedekt door records.
 
 ### Verfijning van de pipeline
 
