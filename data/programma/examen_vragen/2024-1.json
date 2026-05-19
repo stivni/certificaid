@@ -133,7 +133,68 @@
           "type": "tekst",
           "inhoud": "1 Vennootschapsrecht\n\nA. BVBA naar BV volgens nieuw WVV. Aandeelhouder vrij van volstorting van het niet volstort kapitaal. Liquidatietest nodig?\n\nB. Quasi inbreng in NV. Wie kan dit doen?\n\nC. Vennootschap verliest rechtspersoonlijkheid:\n\nA. a. Bij ontbinding\n\nB. b. Bij publicatie van de ontbinding\n\nC. c. Bij de afsluit van de vereffening\n\nD. d. Bij akkoord van de vennoten.\n\nD. Bij welke rechtsvormen kunnen de uittreding/ uitsluiting van een aandeelhouder statutair worden geregeld?\n\nA. a. BV en CV\n\nB. b. Alle behalve NV\n\nC. c. Alle behalve NV en BV\n\nD. d. NV, BV en CV"
         }
-      ]
+      ],
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "fragment",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus vennootschapsrecht, 4 deelvragen:\nA. Een BVBA wordt omgezet naar BV onder het nieuwe WVV. Aandeelhouders zijn vrij van volstorting van het niet-volstorte kapitaal. Is er een liquidatietest vereist?\nB. Quasi-inbreng in een NV — wie kan deze verrichting uitvoeren?\nC. MC — Een vennootschap verliest haar rechtspersoonlijkheid: a. Bij ontbinding / b. Bij publicatie van de ontbinding / c. Bij de afsluiting van de vereffening / d. Bij akkoord van de vennoten.\nD. MC — Bij welke rechtsvormen kunnen uittreding en uitsluiting van een aandeelhouder statutair worden geregeld? a. BV en CV / b. Alle behalve NV / c. Alle behalve NV en BV / d. NV, BV en CV.",
+        "interpretatie_motivering": "Sub-A en sub-B zijn open vragen waarvan de stam volledig in PDF zit. Sub-C en sub-D zijn MC met vier opties die volledig zichtbaar zijn. Herformulering is overwegend cosmetisch.",
+        "confidence": "grounded",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": [
+        {
+          "label": "C.a",
+          "tekst": "Bij ontbinding",
+          "juistheid": "fout",
+          "motivering": "Vennootschap blijft rechtspersoonlijkheid behouden tot afsluiting vereffening (WVV art. 2:76)."
+        },
+        {
+          "label": "C.b",
+          "tekst": "Bij publicatie van de ontbinding",
+          "juistheid": "fout",
+          "motivering": "Publicatie heeft enkel tegenwerpelijkheid-effect, niet einde rechtspersoonlijkheid."
+        },
+        {
+          "label": "C.c",
+          "tekst": "Bij de afsluiting van de vereffening",
+          "juistheid": "juist",
+          "motivering": "WVV art. 2:76: rechtspersoonlijkheid eindigt bij afsluiting vereffening."
+        },
+        {
+          "label": "C.d",
+          "tekst": "Bij akkoord van de vennoten",
+          "juistheid": "fout",
+          "motivering": "Vennoten-akkoord alleen volstaat niet."
+        },
+        {
+          "label": "D.a",
+          "tekst": "BV en CV",
+          "juistheid": "onbekend",
+          "motivering": "Onder huidig WVV is uittreding ten laste van het vermogen typisch BV/CV/CommV — exacte set per casus te bevestigen."
+        },
+        {
+          "label": "D.b",
+          "tekst": "Alle behalve NV",
+          "juistheid": "onbekend",
+          "motivering": "Vraag is te interpreteren; uittreding ten laste van vermogen niet voor NV."
+        },
+        {
+          "label": "D.c",
+          "tekst": "Alle behalve NV en BV",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        },
+        {
+          "label": "D.d",
+          "tekst": "NV, BV en CV",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        }
+      ],
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     },
     {
       "id": "2024-1-vr2",
@@ -247,7 +308,44 @@
         "type": "vraagtekst_onduidelijk",
         "gedetecteerd_op": "2026-05-19"
       },
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "fragment",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus externe controle / accountantsonderzoek, 5 deelvragen:\nA. Stellingen juist of fout in verband met onafhankelijkheid bij een controle-opdracht (stellingen niet bewaard in herinnering).\nB. Na acceptatie van de opdracht moet de accountant voldoende kennis verwerven van de cliënt — op welke wijze gebeurt dat?\nC. Volkomen controle volgens de revisienormen — wat houdt dat in?\nD. Vier algemene stellingen juist of fout (stellingen niet bewaard in herinnering).\nE. MC — Bij een accountantsonderzoek wordt de materialiteitsdrempel: a. Vastgesteld bij KB / b. Door aandeelhouders van de vennootschap vastgesteld / c. Bepaald op basis van omzet van de twee laatste jaren / d. Bepaald naargelang inherente risico's + interne controle van de cliënt.",
+        "interpretatie_motivering": "Sub-A en sub-D verwijzen expliciet naar 'stellingen' die niet in de herinnering bewaard zijn — niet beantwoordbaar zonder bron. Sub-B en sub-C hebben volledige stam. Sub-E is een complete MC met vier alternatieven.",
+        "confidence": "inferred",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": [
+        {
+          "label": "E.a",
+          "tekst": "Vastgesteld bij KB",
+          "juistheid": "fout",
+          "motivering": "Materialiteit is geen KB-bepaling."
+        },
+        {
+          "label": "E.b",
+          "tekst": "Door aandeelhouders van de vennootschap vastgesteld",
+          "juistheid": "fout",
+          "motivering": "Materialiteit is een professional-judgment beslissing van de accountant."
+        },
+        {
+          "label": "E.c",
+          "tekst": "Bepaald op basis van omzet van de twee laatste jaren",
+          "juistheid": "fout",
+          "motivering": "Omzet is één mogelijke benchmark, maar niet de exclusieve methode."
+        },
+        {
+          "label": "E.d",
+          "tekst": "Bepaald naargelang inherente risico's + interne controle van de cliënt",
+          "juistheid": "juist",
+          "motivering": "Materialiteit wordt bepaald op basis van risico-analyse — inherent risico + controlerisico (ISA 320, ITAA-norm)."
+        }
+      ],
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     },
     {
       "id": "2024-1-vr3",
@@ -369,7 +467,62 @@
       },
       "antwoord_confidence": "inferred",
       "record_gap_report": null,
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "volledig",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus interne controle in een KMO-verkoopcyclus, 4 deelvragen:\nA. Wat zijn goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus?\nB. Wat is de hoofddoelstelling van de invoering van een interne controle in een KMO?\nC. MC volgens het COSO-model — over welk soort risico gaat het? a. Strategisch / b. Informatie / c. Operationeel / d. Financieel.\nD. MC — Verkoopcyclus: doelstelling. a. Financieel / b. Operationeel / c. Conformiteit.",
+        "interpretatie_motivering": "Alle vier subvragen hebben volledige stam. Sub-C en sub-D zijn MC met opties in bullet-form in de PDF (● Strategisch ● Informatie ...). De vraagcontext (welk risico voor de verkoopcyclus? welk doel voor de verkoopcyclus?) is duidelijk afleidbaar uit positie van de MC binnen de casus.",
+        "confidence": "grounded",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": [
+        {
+          "label": "C.a",
+          "tekst": "Strategisch",
+          "juistheid": "fout",
+          "motivering": "Verkoopcyclus betreft primair rapporterings- en operationele controle, niet strategisch."
+        },
+        {
+          "label": "C.b",
+          "tekst": "Informatie",
+          "juistheid": "onbekend",
+          "motivering": "In COSO-terminologie is rapporterings-/informatierisico de hoofdcategorie voor cyclus-controles."
+        },
+        {
+          "label": "C.c",
+          "tekst": "Operationeel",
+          "juistheid": "onbekend",
+          "motivering": "Verkoopcyclus heeft operationele dimensie (efficiëntie facturatie)."
+        },
+        {
+          "label": "C.d",
+          "tekst": "Financieel",
+          "juistheid": "onbekend",
+          "motivering": "BIBF-doctrine noemt vaak 'financieel' voor omzet/vorderingen-rapporteringsrisico."
+        },
+        {
+          "label": "D.a",
+          "tekst": "Financieel",
+          "juistheid": "juist",
+          "motivering": "Primaire doelstelling is correcte/volledige rapportering van omzet en vorderingen (cut-off, waardering)."
+        },
+        {
+          "label": "D.b",
+          "tekst": "Operationeel",
+          "juistheid": "fout",
+          "motivering": "Operationele effectiviteit is secundair doel."
+        },
+        {
+          "label": "D.c",
+          "tekst": "Conformiteit",
+          "juistheid": "fout",
+          "motivering": "Conformiteit (BTW, GDPR) is randvoorwaarde, niet primaire doelstelling."
+        }
+      ],
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     },
     {
       "id": "2024-1-vr4",
@@ -453,7 +606,19 @@
           "type": "tekst",
           "inhoud": "4 Bijzonder mandaten\n\nA. Stellingen Juist of fout:\n\nA. CV ontbonden door AV bij gewone meerderheid\n\nB. Vrijwillige ontbinding BV is verslag externe accountant verplicht als de meerderheid van de aandeelhouders hierom vraagt.\n\nC. AV voor de vereffening van BV moet bij authentieke akte\n\nD. AV voor het sluiten van de vereffening BV moet bij authentieke akte.\n\nB. Verschillende stellingen Juist of Fout ivm ontbinding en vereffening\n\nC. Verschillende stellingen Juist of Fout ivm omzettingen"
         }
-      ]
+      ],
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "fragment",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus bijzondere mandaten — ontbinding/vereffening en omzetting, 3 deelvragen:\nA. Stellingen juist of fout (J/F-set met vier stellingen):\n    1. Een CV wordt ontbonden door de algemene vergadering bij gewone meerderheid.\n    2. Bij een vrijwillige ontbinding van een BV is een verslag van een externe accountant verplicht als de meerderheid van de aandeelhouders hierom vraagt.\n    3. De algemene vergadering voor de vereffening van een BV moet bij authentieke akte.\n    4. De algemene vergadering voor het sluiten van de vereffening van een BV moet bij authentieke akte.\nB. Verschillende stellingen juist of fout in verband met ontbinding en vereffening (stellingen niet bewaard in herinnering).\nC. Verschillende stellingen juist of fout in verband met omzettingen (stellingen niet bewaard in herinnering).",
+        "interpretatie_motivering": "Sub-A heeft 4 stellingen die volledig in PDF staan. Sub-B en sub-C noemen alleen het onderwerp ('Verschillende stellingen ... ivm ontbinding en vereffening') zonder de stellingen zelf — niet beantwoordbaar.",
+        "confidence": "inferred",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": null,
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     },
     {
       "id": "2024-1-vr5",
@@ -527,7 +692,19 @@
           "type": "tekst",
           "inhoud": "5 Personenbelasting\n\nA. Juist/ Fout: Van de toekenning aan de meewerkend echtgenoot, aangesloten ministatuut, wordt er een forfaitaire kostenaftrek van 5% in mindering gebracht.\n\nB. Ik bezit een niet gemeubeld onroerend goed om te verhuren aan privépersoon als bewoning. Woning is door overstroming 6 maand niet verhuurd geweest. Wat met Onroerende Voorheffing?\n\nC. Ik ben ongehuwd, verhuur een gemeubeld onroerend goed aan natuurlijk persoon. KI = 1.500 Opbrengst = 3.000,00 euro per kwartaal Welke bedragen waar opnemen in de aangifte?\n\nD. Welke beroepsinkomsten zijn niet aan het progressief belastingtarief onderworpen?"
         }
-      ]
+      ],
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "volledig",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus personenbelasting, 4 deelvragen:\nA. Juist/fout — Op de toekenning aan de meewerkende echtgenoot, aangesloten in het ministatuut, wordt een forfaitaire kostenaftrek van 5 % in mindering gebracht.\nB. Ik bezit een ongemeubileerd onroerend goed dat ik verhuur aan een privépersoon als bewoning. De woning is door overstroming 6 maanden niet verhuurd geweest. Wat met de onroerende voorheffing?\nC. Ik ben ongehuwd en verhuur een gemeubileerd onroerend goed aan een natuurlijk persoon. KI = 1.500. Opbrengst = 3.000,00 euro per kwartaal. Welke bedragen moet ik waar opnemen in de aangifte?\nD. Welke beroepsinkomsten zijn niet aan het progressief belastingtarief onderworpen?",
+        "interpretatie_motivering": "Alle vier subvragen hebben volledige stam in de PDF. Geen MC, alleen open vragen met casus-data (sub-B/C). Vraagtekst-herformulering is overwegend cosmetisch (ministatuut-spelling, KI-formatting).",
+        "confidence": "grounded",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": null,
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     },
     {
       "id": "2024-1-vr6",
@@ -674,7 +851,74 @@
           "type": "tekst",
           "inhoud": "6 Deontologie en AWW\n\nA. Ereloon accountant: (Welke stelling is juist)?\n\nA. Barema ITAA\n\nB. Zelf vaststellen\n\nC. Provisie/voorschotten zijn verboden\n\nD. Kan bestaan uit commissielonen\n\nB. Welke stelling is fout?\n\nA. Dienstverstrekkers, zoals accountants en belastingadviseurs mogen 2.500 EUR contante betaling ontvangen\n\nB. Bij verkoop van een onroerend goed mag een notaris geen enkele betaling in contanten ontvangen\n\nC. De drempel inzake contante betalingen is niet alleen van toepassing op contante betalingen maar ook op schenkingen\n\nD. Indien de koper zich naar een postkantoor begeeft, waarbij de koper het bedrag van 5.000 EUR in contanten laat storten op de bankrekening van de handelaar, is dit in overeenstemming met de antiwitwaswetgeving\n\nE. Er is ook een drempel van 3.000 EUR voor verrichtingen tussen consumenten onderling.\n\nC. Vragen mbt openbaar register.\n\nD. Vragen mbt UBO register. Wie moet worden opgenomen?\n\nE. AMLCO, Stellingen juist of fout?\n\nA. Moet intern verslag maken bij atypische verrichtingen\n\nB. Moet intern verslag maken wanneer kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de klant\n\nC. Moet intern verslag maken wanneer na het uitvoeren van de risico beoordeling het kantoor beslist om de potentiële cliënt te weigeren wegens WG/ FT risico\n\nD. Zal minstens om de 2 jaar een actualiteitsverslag opmaken."
         }
-      ]
+      ],
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "fragment",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus deontologie en antiwitwaswetgeving, 5 deelvragen:\nA. MC — Ereloon accountant — welke stelling is juist? a. Bepaald volgens barema ITAA / b. Zelf vaststellen / c. Provisie/voorschotten zijn verboden / d. Kan bestaan uit commissielonen.\nB. MC — Welke stelling is fout? a. Dienstverstrekkers, zoals accountants en belastingadviseurs, mogen 2.500 EUR contante betaling ontvangen / b. Bij verkoop van een onroerend goed mag een notaris geen enkele betaling in contanten ontvangen / c. De drempel inzake contante betalingen is niet alleen van toepassing op contante betalingen maar ook op schenkingen / d. Indien de koper zich naar een postkantoor begeeft, waarbij hij het bedrag van 5.000 EUR in contanten laat storten op de bankrekening van de handelaar, is dit in overeenstemming met de antiwitwaswetgeving / e. Er is ook een drempel van 3.000 EUR voor verrichtingen tussen consumenten onderling.\nC. Vragen met betrekking tot het openbaar register (concrete deelvragen niet bewaard in herinnering).\nD. Vragen met betrekking tot het UBO-register — wie moet erin worden opgenomen?\nE. AMLCO — stellingen juist of fout (J/F-set met vier stellingen):\n    1. Moet een intern verslag opstellen bij atypische verrichtingen.\n    2. Moet een intern verslag opstellen wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de klant.\n    3. Moet een intern verslag opstellen wanneer het kantoor, na de risicobeoordeling, beslist om de potentiële cliënt te weigeren wegens WG/FT-risico.\n    4. Zal minstens om de twee jaar een actualiteitsverslag opmaken.",
+        "interpretatie_motivering": "Sub-A en sub-B zijn complete MC's. Sub-C noemt alleen 'Vragen mbt openbaar register' zonder concrete vraag — niet beantwoordbaar. Sub-D heeft een geherinnerde stam (wie in UBO?) — wel beantwoordbaar. Sub-E heeft 4 J/F-stellingen volledig.",
+        "confidence": "inferred",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": [
+        {
+          "label": "A.a",
+          "tekst": "Bepaald volgens barema ITAA",
+          "juistheid": "fout",
+          "motivering": "Er bestaat geen barema voor accountants — afgeschaft."
+        },
+        {
+          "label": "A.b",
+          "tekst": "Zelf vaststellen",
+          "juistheid": "juist",
+          "motivering": "Ereloon wordt vrij overeengekomen tussen accountant en cliënt (ITAA-deontologie)."
+        },
+        {
+          "label": "A.c",
+          "tekst": "Provisie/voorschotten zijn verboden",
+          "juistheid": "fout",
+          "motivering": "Provisies en voorschotten zijn toegestaan onder ITAA-deontologie."
+        },
+        {
+          "label": "A.d",
+          "tekst": "Kan bestaan uit commissielonen",
+          "juistheid": "fout",
+          "motivering": "Commissielonen zijn niet toegestaan als ereloon-vorm (onafhankelijkheidsrisico)."
+        },
+        {
+          "label": "B.a",
+          "tekst": "Dienstverstrekkers, zoals accountants en belastingadviseurs, mogen 2.500 EUR contante betaling ontvangen",
+          "juistheid": "fout",
+          "motivering": "Onder huidige antiwitwaswet (AWW 2017) gelden algemene drempels — accountants zelf vallen onder beroeps-AWW-verplichtingen."
+        },
+        {
+          "label": "B.b",
+          "tekst": "Bij verkoop van een onroerend goed mag een notaris geen enkele betaling in contanten ontvangen",
+          "juistheid": "juist",
+          "motivering": "Onroerend-goedtransacties: contantverbod is integraal voor notarissen (AWW art. 67)."
+        },
+        {
+          "label": "B.c",
+          "tekst": "De drempel inzake contante betalingen is niet alleen van toepassing op contante betalingen maar ook op schenkingen",
+          "juistheid": "onbekend",
+          "motivering": "Te verifiëren in AWW art. 67."
+        },
+        {
+          "label": "B.d",
+          "tekst": "Indien de koper zich naar een postkantoor begeeft, waarbij hij het bedrag van 5.000 EUR in contanten laat storten op de bankrekening van de handelaar, is dit in overeenstemming met de antiwitwaswetgeving",
+          "juistheid": "fout",
+          "motivering": "Tussenkomst van postkantoor breekt de directe contant-keten niet — overschrijdt drempel."
+        },
+        {
+          "label": "B.e",
+          "tekst": "Er is ook een drempel van 3.000 EUR voor verrichtingen tussen consumenten onderling",
+          "juistheid": "onbekend",
+          "motivering": "Te verifiëren in actuele AWW."
+        }
+      ],
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     },
     {
       "id": "2024-1-vr7",
@@ -847,7 +1091,44 @@
         "sub_type": "partieel_extract",
         "gedetecteerd_op": "2026-05-19"
       },
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "fragment",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus IFRS, 4 deelvragen:\nA. Onder IAS/IFRS zijn volgende voorraad-waarderingsmethoden mogelijk — juist/fout per optie:\n    a. FIFO, LIFO, gewogen gemiddelde, individueel.\n    b. FIFO [PDF: 'Fifi' — vermoedelijk typo], gewogen gemiddelde, individueel.\n    c. LIFO, gewogen gemiddelde, individueel.\n    d. FIFO en gewogen gemiddelde.\nB. Richtlijn 2013/34/EU van 26/06/2013 over opname en waardering volgens het voorzichtigheidsprincipe — welke stellingen zijn juist/fout:\n    1. Winsten mogen slechts opgenomen worden voor zover ze op balansdatum gerealiseerd zijn.\n    2. Verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in een vorig boekjaar worden opgenomen, ook als ze pas tussen balansdatum en de datum van opstelling van de balans gekend worden.\n    3. Alle negatieve waardecorrecties worden opgenomen ongeacht of het boekjaar met winst of verlies wordt afgesloten.\n    4. Voor bepaalde categorieën van ondernemingen is het verplicht om bepaalde VA aan geherwaardeerde waarde op te nemen.\nC. Stellingen met betrekking tot IAS/IFRS — juist/fout:\n    a. Degressieve afschrijvingen zijn toegestaan.\n    b. Kosten voor voorbereiding van een terrein ……? (fragment in PDF — stelling niet bewaard).\n    c. Uitzonderlijke opbrengsten boeken is toegestaan.\n    d. Afschrijvingen op MVA mogen stopgezet worden wanneer de reële waarde van het actief groter is dan de boekwaarde.\nD. Operationele en financiële leasing — hoe behandelen onder IFRS?",
+        "interpretatie_motivering": "Sub-A en sub-B zijn complete J/F-sets met vier opties/stellingen. Sub-C heeft drie stellingen volledig en één fragment ('Kosten voor voorbereiding van een terrein……?') die niet bewaard is. Sub-D is een open vraag met volledige stam. Typo 'Fifi' in sub-A.b — vermoedelijk FIFO.",
+        "confidence": "inferred",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": [
+        {
+          "label": "A.a",
+          "tekst": "FIFO, LIFO, gewogen gemiddelde, individueel",
+          "juistheid": "fout",
+          "motivering": "LIFO is verboden onder IAS 2 (revised 2003)."
+        },
+        {
+          "label": "A.b",
+          "tekst": "FIFO [vermoedelijke typo 'Fifi'], gewogen gemiddelde, individueel",
+          "juistheid": "juist",
+          "motivering": "Drie toegelaten methodes onder IAS 2 §23-27."
+        },
+        {
+          "label": "A.c",
+          "tekst": "LIFO, gewogen gemiddelde, individueel",
+          "juistheid": "fout",
+          "motivering": "LIFO verboden."
+        },
+        {
+          "label": "A.d",
+          "tekst": "FIFO en gewogen gemiddelde",
+          "juistheid": "fout",
+          "motivering": "Incompleet — mist specifieke identificatie (toegelaten voor unieke items)."
+        }
+      ],
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     },
     {
       "id": "2024-1-vr8",
@@ -967,7 +1248,77 @@
           "type": "tekst",
           "inhoud": "8 Vennootschapsbelasting\n\nA. Stellingen ivm overdraagbare fiscale verliezen\n\nB. Moeder A fuseert (neutraal) met Dochter B, waarin ze 100% bezit. Netto Actief van B = 100. Fiscale waarde van de participatie in B in de boekhouding van A = 20 Overgedragen fiscale verliezen van B = 30 Overdraagbare aftrek innovatie inkomsten A = 40\n\na. Hoeveel bedraagt de meer- of minder waarde die A zal realiseren op de deelneming in B ingevolge de M-D fusie?\n\nb. Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?\n\nC. Boekjaar N 120.000 euro belastbare winst, alle voorwaarden voldaan voor verlaagd tarief 20%. VOF bestaat sinds 1/1/N-2, boekjaar is kalenderjaar. Wat met voorafbetalingen / vermeerderingen wegens onvoldoende voorafbetaling?\n\nD. NV A BJ 31/12/22 winst voor belasting 100.000 euro (voor winstuitkering) Belgische belasting = 20.000 euro. De AV beslist om tantième van 10.000 euro toe te kennen en een gewoon dividend van 20.000 euro uit te keren. Hoeveel bedraagt de belastbare basis van A voor AJ23? 100.000 – 10.000 tantième = 90.000 euro\n\nE. Wat zijn de “besmette” verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is.\n\na. Niet aftrekbare kosten beroepskledij\n\nb. Intresten met betrekking tot een deel van bepaalde leningen\n\nc. Abnormale en goedgunstige voordelen\n\nd. Sociale voordelen\n\ne. Voordelen MC, ecocheques\n\nf. Giften\n\ng. Waardevermindering en minderwaarde op aandelen\n\nh. Terugname van vroegere vrijstellingen\n\ni. Takxshelter"
         }
-      ]
+      ],
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "fragment",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus vennootschapsbelasting, 5 deelvragen:\nA. Stellingen in verband met overdraagbare fiscale verliezen (concrete stellingen niet bewaard in herinnering).\nB. Moeder A fuseert (fiscaal neutraal) met dochter B, waarin A 100 % bezit. Netto-actief van B = 100. Fiscale waarde van de participatie in B in de boekhouding van A = 20. Overgedragen fiscale verliezen van B = 30. Overdraagbare aftrek innovatie-inkomsten van A = 40.\n    1. Hoeveel bedraagt de meer- of minderwaarde die A zal realiseren op de deelneming in B ingevolge de M-D-fusie?\n    2. Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?\nC. Boekjaar N: 120.000 euro belastbare winst, alle voorwaarden voldaan voor verlaagd tarief 20 %. De VOF bestaat sinds 1/1/N-2, boekjaar = kalenderjaar. Wat met voorafbetalingen en vermeerderingen wegens onvoldoende voorafbetaling?\nD. NV A — boekjaar 31/12/22, winst voor belasting 100.000 euro (voor winstuitkering). Belgische belasting = 20.000 euro. De algemene vergadering beslist een tantième van 10.000 euro toe te kennen en een gewoon dividend van 20.000 euro uit te keren. Hoeveel bedraagt de belastbare basis van A voor aanslagjaar 23?\n    Hint in vraagtekst: 100.000 − 10.000 tantième = 90.000 euro (vermoedelijke schaduw van het verwachte antwoord).\nE. MC — Wat zijn de 'besmette' verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is? a. Niet-aftrekbare kosten beroepskledij / b. Intresten met betrekking tot een deel van bepaalde leningen / c. Abnormale of goedgunstige voordelen / d. Sociale voordelen / e. Voordelen MC, ecocheques / f. Giften / g. Waardevermindering en minderwaarde op aandelen / h. Terugname van vroegere vrijstellingen / i. Taxshelter.",
+        "interpretatie_motivering": "Sub-A noemt alleen onderwerp ('overdraagbare fiscale verliezen') — niet beantwoordbaar. Sub-B heeft volledige casus-cijfers en twee deelvragen. Sub-C en sub-D hebben volledige casus. Sub-D bevat een berekening-hint die vermoedelijk het antwoord is dat de stagiair gaf. Sub-E heeft 9 opties — MC-stijl 'kies alle die van toepassing zijn'. Typo 'Takxshelter' = Taxshelter.",
+        "confidence": "inferred",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": [
+        {
+          "label": "E.a",
+          "tekst": "Niet-aftrekbare kosten beroepskledij",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        },
+        {
+          "label": "E.b",
+          "tekst": "Intresten met betrekking tot een deel van bepaalde leningen",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        },
+        {
+          "label": "E.c",
+          "tekst": "Abnormale of goedgunstige voordelen",
+          "juistheid": "onbekend",
+          "motivering": "Klassieke 'besmette' VU-categorie."
+        },
+        {
+          "label": "E.d",
+          "tekst": "Sociale voordelen",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        },
+        {
+          "label": "E.e",
+          "tekst": "Voordelen MC, ecocheques",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        },
+        {
+          "label": "E.f",
+          "tekst": "Giften",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        },
+        {
+          "label": "E.g",
+          "tekst": "Waardevermindering en minderwaarde op aandelen",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        },
+        {
+          "label": "E.h",
+          "tekst": "Terugname van vroegere vrijstellingen",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        },
+        {
+          "label": "E.i",
+          "tekst": "Taxshelter [PDF: 'Takxshelter']",
+          "juistheid": "onbekend",
+          "motivering": "—"
+        }
+      ],
+      "antwoord_hint_in_vraag": {
+        "aanwezig": true,
+        "tekst": "Sub-D: '100.000 – 10.000 tantième = 90.000 euro'",
+        "interpretatie": "Stagiair noteerde een berekening direct in de vraagtekst van sub-D. Dit is vermoedelijk het antwoord dat hij/zij gaf, niet een element van de officiële vraagstelling. Echte vraag eindigt na 'Hoeveel bedraagt de belastbare basis van A voor AJ23?'.",
+        "datum": "2026-05-19"
+      }
     },
     {
       "id": "2024-1-vr9",
@@ -1049,7 +1400,19 @@
           "type": "tekst",
           "inhoud": "9 Fiscale procedure\n\nA. Bericht van wijziging aangetekend, uiterlijke termijn?\n\nB. Belastingplichtige verlaat België, wat te doen?\n\nC. Bericht van wijziging, verjaringstermijn is nakende, wat te doen?\n\nD. Vraag om inlichtingen, termijn?\n\nE. Bewaarplicht, welke stukken + termijn"
         }
-      ]
+      ],
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "fragment",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus fiscale procedure, 5 deelvragen:\nA. Wat is de uiterlijke termijn voor een bericht van wijziging dat aangetekend wordt verzonden?\nB. Een belastingplichtige verlaat België — wat moet er gebeuren (op vlak van aangifte en verjaring)?\nC. De verjaringstermijn voor een bericht van wijziging is nakende — wat moet de fiscus doen?\nD. Wat is de termijn waarbinnen de belastingplichtige moet antwoorden op een vraag om inlichtingen?\nE. Bewaarplicht — welke stukken moeten bewaard worden en wat zijn de termijnen?",
+        "interpretatie_motivering": "Vijf korte open vragen in trefwoord-vorm. Stam is in elk geval voldoende duidelijk om beantwoordbaar te zijn. Herformulering vult werkwoord en context aan.",
+        "confidence": "inferred",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": null,
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     },
     {
       "id": "2024-1-vr10",
@@ -1193,7 +1556,47 @@
       },
       "antwoord_confidence": "inferred",
       "record_gap_report": null,
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "fragment",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus financiële analyse en kritische beoordeling van de jaarrekening, 5 deelvragen:\nA. Stellingen in verband met financiële onafhankelijkheid (juist/fout — stellingen niet bewaard in herinnering).\nB. Welke ratio kan je niet berekenen op basis van een verkort schema?\n    Hint in vraagtekst: 'n-dagen klantenkrediet' (vermoedelijk het antwoord dat stagiair noteerde).\nC. In welke volgorde zijn de rubrieken op de passiefzijde van de balans gerangschikt?\n    Hint in vraagtekst: 'Toenemende eisbaarheid' (vermoedelijk het antwoord dat stagiair noteerde).\nD. Hoe wordt het eigen vermogen berekend uit het jaarrekening-kortmodel NBB voor een kapitaalvennootschap?\nE. MC — Alfa is verlieslatend. Een verhoging van de afschrijving op gebouwen door verkorting van de verwachte levensduur heeft het volgende effect op de bruto verkoopmarge:\n    a. Stijging / b. Daling / c. Geen / d. Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt.",
+        "interpretatie_motivering": "Sub-A noemt alleen onderwerp zonder stellingen. Sub-B en sub-C bevatten elk een hint die vermoedelijk het antwoord is dat de stagiair gaf. Sub-D heeft volledige stam zonder MC. Sub-E heeft volledige MC met vier opties.",
+        "confidence": "inferred",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": [
+        {
+          "label": "E.a",
+          "tekst": "Stijging",
+          "juistheid": "fout",
+          "motivering": "Verhoogde kost kan marge niet doen stijgen."
+        },
+        {
+          "label": "E.b",
+          "tekst": "Daling",
+          "juistheid": "fout",
+          "motivering": "Alleen indien afschrijving in kostprijs verkopen — standaard niet voor gebouwen-afschrijving."
+        },
+        {
+          "label": "E.c",
+          "tekst": "Geen",
+          "juistheid": "juist",
+          "motivering": "Gebouwen-afschrijving wordt typisch onder algemene bedrijfskosten geboekt, niet onder kostprijs verkopen — geen effect op brutomarge."
+        },
+        {
+          "label": "E.d",
+          "tekst": "Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt",
+          "juistheid": "fout",
+          "motivering": "Verhoogde kost veroorzaakt geen marge-stijging."
+        }
+      ],
+      "antwoord_hint_in_vraag": {
+        "aanwezig": true,
+        "tekst": "Sub-B: 'n-dagen klantenkrediet'; Sub-C: 'Toenemende eisbaarheid'",
+        "interpretatie": "Beide hints lijken antwoorden die de stagiair noteerde, niet originele vraag-elementen. Sub-B vraag (zonder hint) = 'Welke ratio kan je niet berekenen op basis van een verkort schema?'. Sub-C vraag (zonder hint) = 'In welke volgorde zijn rubrieken op de passiefzijde gerangschikt?'.",
+        "datum": "2026-05-19"
+      }
     },
     {
       "id": "2024-1-vr11",
@@ -1362,12 +1765,145 @@
           "type": "tekst",
           "inhoud": "11 BTW\n\nA. Situatie: Rentenier liet hybride dieselwagen onderhouden door Porsche-garage Antwerpen (maandaangever) Onderhoud op 27/4/N Klant betaald op 3/5/N Op 30/4/N uitreiking factuur van 1.210 euro incl BTW:\n\na. Niet verplicht van factuur uit te reiken: BTW opeisbaar 3/5/N\n\nb. Niet verplicht van factuur uit te reiken: BTW opeisbaar 30/4/N\n\nc. Verplicht factuur : BTW opeisbaar 30/5/N\n\nd. Verplicht factuur: BTW opeisbaar 30/4/N\n\nB. Margeregeling, situatie hoe opnemen in de btw aangifte.\n\nC. Vrijstellingsregeling is mogelijk voor volgende activiteiten: (alles juist of geen punten)\n\na. Elektricien omzet 10.000\n\nb. Kapper omzet 15.000\n\nc. Diëtist vrijgestelde omzet 50.000, onderworpen omzet 15.000\n\nd. Schoonheidsspecialiste omzet 30.000\n\ne. Verhuur gastenkamers met ontbijt omzet 20.000\n\nD. VAT Refund juist of fout\n\na. Vrijgestelde BP kan buitenlandse BTW terugvragen via VAT Refund\n\nb. Minimumbedrag vereist voor verzoek tot teruggave is 50 euro per kalanderjaar per lidstaat\n\nc. Minimumbedrag vereist voor verzoek tot teruggave is afhankelijk van de EU lidstaat van het land van de BP\n\nd. Minimumbedrag vereist voor verzoek tot teruggave is afhankelijk van land waarop de teruggave betrekking heeft.\n\ne. Minimumbedrag voor verzoek is 400 euro per kalenderjaar per EU lidstaat.\n\nE. Vermeld BTW tarief of stelsel dat wordt toegepast voor glazenwassen door een Belgische onderneming die gewone BP is.\n\na. BE gebouw, afnemer is BP die aangifte indiend\n\nb. BE gebouw, meer dan 10 jaar betrokken door BE particulier\n\nc. BE gebouw minder dan 10 jaar betrokken door BE particulier\n\nd. BE gebouw, FR BP\n\ne. BE gebouw, Zweedse BP afnemer."
         }
-      ]
+      ],
+      "vraag_herkomst": "herinnering",
+      "vraag_volledigheid": "volledig",
+      "vraag_herinterpreteerd": {
+        "tekst_geherinterpreteerd": "Casus BTW, 5 deelvragen:\nA. MC casus — Een rentenier liet zijn hybride dieselwagen onderhouden door Porsche-garage Antwerpen (maandaangever). Onderhoud op 27/4/N, klant betaalde op 3/5/N, op 30/4/N werd een factuur van 1.210 euro incl. BTW uitgereikt. Wanneer is BTW opeisbaar en is factuur verplicht?\n    a. Niet verplicht factuur uit te reiken: BTW opeisbaar 3/5/N / b. Niet verplicht factuur uit te reiken: BTW opeisbaar 30/4/N / c. Factuur verplicht: BTW opeisbaar 30/5/N / d. Factuur verplicht: BTW opeisbaar 30/4/N.\nB. Margeregeling — situatie hoe op te nemen in de BTW-aangifte? (concrete situatie niet bewaard in herinnering — vermoedelijk standaard-casus).\nC. MC — Voor welke activiteiten is de vrijstellingsregeling mogelijk? (alles juist of geen punten):\n    a. Elektricien, omzet 10.000 / b. Kapper, omzet 15.000 / c. Diëtist, vrijgestelde omzet 50.000, onderworpen omzet 15.000 / d. Schoonheidsspecialiste, omzet 30.000 / e. Verhuur gastenkamers met ontbijt, omzet 20.000.\nD. MC — VAT Refund — juist of fout:\n    a. Vrijgestelde BP kan buitenlandse BTW terugvragen via VAT Refund / b. Minimumbedrag voor verzoek tot teruggave is 50 euro per kalenderjaar per lidstaat / c. Minimumbedrag is afhankelijk van de EU-lidstaat van de BP / d. Minimumbedrag is afhankelijk van het land waarop de teruggave betrekking heeft / e. Minimumbedrag voor verzoek is 400 euro per kalenderjaar per EU-lidstaat.\nE. MC — Vermeld het BTW-tarief of -stelsel voor glazenwassen door een Belgische onderneming die gewone BP is:\n    a. BE-gebouw, afnemer is BP die aangifte indient / b. BE-gebouw, meer dan 10 jaar betrokken door BE-particulier / c. BE-gebouw minder dan 10 jaar betrokken door BE-particulier / d. BE-gebouw, FR BP-afnemer / e. BE-gebouw, Zweedse BP-afnemer.",
+        "interpretatie_motivering": "Sub-A, sub-C, sub-D en sub-E zijn complete MC's met volledige opties. Sub-B is een open vraag zonder specifieke casus-data in de herinnering. Vraag-stam en alle opties zijn afleidbaar uit de PDF — type wordt 'volledig' geclassificeerd ondanks dat sub-B een fragment is, omdat het hoofdaandeel van de vraag volledig is.",
+        "confidence": "grounded",
+        "datum": "2026-05-19"
+      },
+      "mc_opties_gestructureerd": [
+        {
+          "label": "A.a",
+          "tekst": "Niet verplicht factuur uit te reiken: BTW opeisbaar 3/5/N",
+          "juistheid": "onbekend",
+          "motivering": "Klant = particulier (rentenier, geen BP) → factuur niet altijd verplicht. Opeisbaarheid bij betaling."
+        },
+        {
+          "label": "A.b",
+          "tekst": "Niet verplicht factuur uit te reiken: BTW opeisbaar 30/4/N",
+          "juistheid": "onbekend",
+          "motivering": "Opeisbaarheid bij factuurdatum als factuur uitgereikt vóór betaling."
+        },
+        {
+          "label": "A.c",
+          "tekst": "Factuur verplicht: BTW opeisbaar 30/5/N",
+          "juistheid": "fout",
+          "motivering": "30/5/N is geen relevante datum in deze casus."
+        },
+        {
+          "label": "A.d",
+          "tekst": "Factuur verplicht: BTW opeisbaar 30/4/N",
+          "juistheid": "onbekend",
+          "motivering": "Te verifiëren of factuur verplicht is voor B2C-dienst aan particulier (rentenier)."
+        },
+        {
+          "label": "C.a",
+          "tekst": "Elektricien, omzet 10.000",
+          "juistheid": "juist",
+          "motivering": "Onder drempel vrijstelling kleine onderneming (25.000 EUR)."
+        },
+        {
+          "label": "C.b",
+          "tekst": "Kapper, omzet 15.000",
+          "juistheid": "juist",
+          "motivering": "Onder drempel."
+        },
+        {
+          "label": "C.c",
+          "tekst": "Diëtist, vrijgestelde omzet 50.000, onderworpen omzet 15.000",
+          "juistheid": "juist",
+          "motivering": "Vrijgestelde omzet telt niet voor drempel; onderworpen omzet 15.000 < 25.000."
+        },
+        {
+          "label": "C.d",
+          "tekst": "Schoonheidsspecialiste, omzet 30.000",
+          "juistheid": "fout",
+          "motivering": "Boven drempel 25.000 EUR — niet vrijstellingsregeling-gerechtigd."
+        },
+        {
+          "label": "C.e",
+          "tekst": "Verhuur gastenkamers met ontbijt, omzet 20.000",
+          "juistheid": "onbekend",
+          "motivering": "Activiteit kan uitgesloten zijn van vrijstellingsregeling — te verifiëren."
+        },
+        {
+          "label": "D.a",
+          "tekst": "Vrijgestelde BP kan buitenlandse BTW terugvragen via VAT Refund",
+          "juistheid": "fout",
+          "motivering": "Vrijgestelde BP heeft geen recht op aftrek/teruggave."
+        },
+        {
+          "label": "D.b",
+          "tekst": "Minimumbedrag voor verzoek is 50 euro per kalenderjaar per lidstaat",
+          "juistheid": "fout",
+          "motivering": "Minimumbedrag afhankelijk van land en periode (jaar/kwartaal)."
+        },
+        {
+          "label": "D.c",
+          "tekst": "Minimumbedrag afhankelijk van de EU-lidstaat van de BP",
+          "juistheid": "fout",
+          "motivering": "Minimum geldt voor het land waarop teruggave betrekking heeft, niet land van indiener."
+        },
+        {
+          "label": "D.d",
+          "tekst": "Minimumbedrag afhankelijk van land waarop teruggave betrekking heeft",
+          "juistheid": "juist",
+          "motivering": "BTW-richtlijn 2008/9/EG — drempel per teruggave-lidstaat."
+        },
+        {
+          "label": "D.e",
+          "tekst": "Minimumbedrag voor verzoek is 400 euro per kalenderjaar per EU-lidstaat",
+          "juistheid": "fout",
+          "motivering": "400 euro is een kwartaal-drempel, niet jaarlijks."
+        },
+        {
+          "label": "E.a",
+          "tekst": "BE-gebouw, afnemer is BP die aangifte indient",
+          "juistheid": "onbekend",
+          "motivering": "B2B-dienst onroerend goed in België — verlegging mogelijk (KB nr. 1 art. 20)."
+        },
+        {
+          "label": "E.b",
+          "tekst": "BE-gebouw, meer dan 10 jaar betrokken door BE-particulier",
+          "juistheid": "onbekend",
+          "motivering": "Tarief 6 % renovatiewerken aan privéwoning > 10 jaar (KB nr. 20 §A.XXXVIII)."
+        },
+        {
+          "label": "E.c",
+          "tekst": "BE-gebouw minder dan 10 jaar betrokken door BE-particulier",
+          "juistheid": "onbekend",
+          "motivering": "Geen renovatie-tarief — standaard 21 %."
+        },
+        {
+          "label": "E.d",
+          "tekst": "BE-gebouw, FR BP-afnemer",
+          "juistheid": "onbekend",
+          "motivering": "Dienst gerelateerd aan onroerend goed → plaats = ligging gebouw (België) → 21 % BTW BE."
+        },
+        {
+          "label": "E.e",
+          "tekst": "BE-gebouw, Zweedse BP-afnemer",
+          "juistheid": "onbekend",
+          "motivering": "Idem als sub-d — plaats = ligging onroerend goed."
+        }
+      ],
+      "antwoord_hint_in_vraag": {
+        "aanwezig": false
+      }
     }
   ],
   "migratie": {
     "uitgevoerd_op": "2026-05-18T23:35:26.948188+00:00",
     "v1_backup": "data/programma/examen_vragen/_archive/v1/2024-1.json",
     "behouden_antwoorden": 0
+  },
+  "vraag_herkomst_bestand": "herinnering",
+  "herinterpretatie_pas": {
+    "uitgevoerd_op": "2026-05-19",
+    "adr": "ADR-022-draft",
+    "scope": "Alle 11 vragen toegevoegd met vraag_herkomst, vraag_volledigheid, vraag_herinterpreteerd, mc_opties_gestructureerd en antwoord_hint_in_vraag. Originele vraagtekst en vraagtekst_blokken[] ongewijzigd."
   }
 }
