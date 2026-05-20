@@ -23,8 +23,9 @@ Je krijgt voor één PO (bv. `1.1`):
 
 - **Bestaande records**: alle JSON-records met `linked_anchors[]` die het PO raken — pad `data/concepten/records/*.json`
 - **Anchors / TDKs**: ankerpunten van het PO uit `data/programma/anchors.json` met **taken, doelstellingen, kenniselementen**
-- **Examen-vragen** (optioneel): vragen voor dit PO als realiteitsanker — pad via initial-ctx
 - **Referentie-mockups**: voor patroon-herkenning — minstens `content/experiment/obligatielening-v7.md` (instrument) + `content/experiment/solvabiliteitsratio-v2.md` (ratio) + `content/experiment/jaarrekeninganalyse-v1.md` (kader)
+
+**Niet examen-vragen raadplegen** — conceptlaag is tijdloos en domein-onafhankelijk; examenvragen mogen geen extract- of consolidatie-keuzes sturen (circulair: je extract dan wat in de test staat ipv wat erin hoort). Examenvragen komen pas in VERIFY-pass voor dekking-toets en in Fase 5 voor tutoring. *(Regel uit EXTRACT v4 §schrijfregels; geldt ook voor stap 0 skeleton-voorstel.)*
 
 ---
 

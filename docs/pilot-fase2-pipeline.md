@@ -46,8 +46,11 @@ Vóór elke wave: een Opus-subagent draait `prompts/skeleton-voorstel-v1.md` op 
 Input voor de agent:
 - alle v1.x-records met `linked_anchors[]` op de PO
 - `data/programma/anchors.json` (TDKs voor de PO)
-- examen-vragen voor de PO
 - referentie-mockups uit `content/experiment/`
+
+**Geen examen-vragen** — niet als input voor extract noch voor stap-0-consolidatie
+(conceptlaag is tijdloos en domein-onafhankelijk; examenvragen mogen geen
+extract-keuzes sturen). Zie regel in EXTRACT v5 §16.
 
 Output: markdown-rapport in `data/extractie/<PO>/skeleton-voorstel-<timestamp>.md` met:
 - Inventaris bestaande records + voorstel-kind per record

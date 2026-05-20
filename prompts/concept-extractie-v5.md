@@ -300,7 +300,14 @@ Familie kan lid zijn van kader (geneste relatie). Render traverseert recursief.
 
 ---
 
-## 16. Output-discipline
+## 16. Wat je NIET raadpleegt
+
+- **Examen-vragen** — conceptlaag is tijdloos en domein-onafhankelijk; examenvragen mogen geen extract-keuzes sturen (circulair: je extract wat in de test staat ipv wat erin hoort). Examenvragen komen pas in VERIFY-pass voor dekking-toets en in Fase 5 voor tutoring. Regel uit EXTRACT v4 §schrijfregels, behouden in v5.
+- **Modelantwoorden van voorbeeldexamens** — zelfde reden.
+- **Trainingsdata-aannames** zonder bron-ondersteuning of duidelijke 🧭-markering — agent mag intuïtie gebruiken (zie §7) maar moet die expliciet als `vuistregel` markeren met motivering.
+- **Anchor-tekst woordelijk aanpassen** — anchor-tekst reflecteert het examenprogramma woordelijk; je wijzigt hem niet, ook niet als hij verouderd aanvoelt.
+
+## 17. Output-discipline
 
 Eindrapport per wave:
 - Aantal records geschreven (per kind)
