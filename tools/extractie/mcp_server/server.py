@@ -170,8 +170,33 @@ def _lees_record(record_id: str) -> str:
         return json.dumps({"error": f"Fout bij lezen {record_id}: {e}"})
 
 
+_ANCHOR_BUNDLE_VELDEN = {
+    "anchor_id",
+    "po",
+    "po_titel",
+    "tekst",
+    "verbose",
+    "synoniemen",
+    "references",
+}
+"""Velden die naar de agent gaan. Embedding-vectoren (`vector`, `embedding_text`,
+`embedding_text_sha`, `vector_sha`) zijn intern voor de daemon — ze blazen de
+output op tot ~700k chars per PO en zijn voor de agent waardeloos."""
+
+
+def _slim_anchor(anchor: dict) -> dict:
+    """Strip embedding-velden uit een anchor voor agent-output."""
+    return {k: v for k, v in anchor.items() if k in _ANCHOR_BUNDLE_VELDEN}
+
+
 def _lees_anchor_bundle(po_id: str) -> str:
-    """Geef alle anchors + TDKs voor een programmaonderdeel (bv. '1.1')."""
+    """
+    Geef alle anchors + TDKs voor een programmaonderdeel (bv. '1.1').
+
+    Geeft alleen agent-bruikbare velden terug (anchor_id, po, po_titel, tekst,
+    verbose, synoniemen, references). Embedding-vectoren worden niet meegestuurd
+    — die zijn intern voor de embedding-daemon en zouden de response opblazen.
+    """
     if not ANCHORS_PATH.exists():
         return json.dumps({"error": f"anchors.json niet gevonden: {ANCHORS_PATH}"})
     try:
@@ -179,21 +204,25 @@ def _lees_anchor_bundle(po_id: str) -> str:
     except (OSError, json.JSONDecodeError) as e:
         return json.dumps({"error": f"Fout bij lezen anchors.json: {e}"})
 
-    # Filter op anchors die met po_id beginnen (bv. "1.1.II.V" begint met "1.1")
-    matches = {}
     bron = data if isinstance(data, dict) else {"anchors": data}
     anchors = bron.get("anchors", bron)
+
     if isinstance(anchors, dict):
-        for aid, content in anchors.items():
-            if str(aid).startswith(po_id):
-                matches[aid] = content
+        matches: list | dict = {
+            aid: _slim_anchor(content) if isinstance(content, dict) else content
+            for aid, content in anchors.items()
+            if str(aid).startswith(po_id)
+        }
     elif isinstance(anchors, list):
         # anchors.json gebruikt 'anchor_id' (formaat: '1.1.taak.1' / '1.1.doelstelling.3' / '1.1.kenniselement.5')
         matches = [
-            a for a in anchors
+            _slim_anchor(a) for a in anchors
             if str(a.get("anchor_id", a.get("id", ""))).startswith(po_id + ".")
             or str(a.get("anchor_id", a.get("id", ""))) == po_id
         ]
+    else:
+        matches = []
+
     return json.dumps(matches, indent=2, ensure_ascii=False)
 
 
