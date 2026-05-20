@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "certificaid-rag": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "tools.extractie.mcp_server.server"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}

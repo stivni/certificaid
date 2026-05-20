@@ -50,22 +50,19 @@ Daaropvolgende calls zijn snel.
 
 ## Integratie met Claude Code
 
-In `.claude.json` (project-niveau) of `~/.claude.json` (user-niveau):
+Project-MCP-config staat in [`.mcp.json`](../../../.mcp.json) op project-root.
+Claude Code start de server automatisch bij sessie-begin (eerste tool-call
+triggert bge-m3-laden, ~10s).
 
-```json
-{
-  "mcpServers": {
-    "certificaid-rag": {
-      "command": "python3",
-      "args": ["-m", "tools.extractie.mcp_server.server"],
-      "cwd": "/Users/stivni/Documents/ITAA/certificaid"
-    }
-  }
-}
-```
+Subagenten in EXTRACT v5 of skeleton-voorstel zien de 5 tools in hun toolbox
+en kunnen ze direct aanroepen.
 
-Subagenten in EXTRACT v5 of skeleton-voorstel kunnen de tools dan direct
-gebruiken via MCP.
+**Verifiëren dat de server geladen is** in Claude Code:
+- `/mcp` slash-command toont actieve servers
+- Of een tool aanroepen: bv. `check_record_bestaat("obligatielening")`
+
+Bij eerste sessie-start na clone/pull: Claude Code vraagt mogelijk toestemming
+om de server te starten (één keer goedkeuren).
 
 ## Architectuur-noten
 
