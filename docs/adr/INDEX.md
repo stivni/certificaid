@@ -31,6 +31,8 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-021](ADR-021-examenvragen-extractie-v2.md) | Examenvragen-extractie v2 + gestructureerde vraagtekst-blokken | Accepted |
 | [ADR-022](ADR-022-vraag-herinterpretatie-draft.md) | Vraag-herinterpretatie (herinnering-stijl voorbeeldexamens) | Draft |
 | [ADR-023](ADR-023-gestructureerde-antwoorden-en-vraag-v3.1.md) | Gestructureerde antwoorden (`correct_antwoord_blokken[]`) + vraag-cleanup v3.1 | Draft |
+| [ADR-024](ADR-024-visuele-llm-interpretatie-examenvragen.md) | Visuele LLM-interpretatie van examenvragen via per-vraag artefacten | Draft |
+| [ADR-025](ADR-025-schema-20-didactische-conceptlaag.md) | Schema 2.0 — didactische concept-laag (rol × perspectief · element-vocabulaire · kader/familie kinds) | Draft |
 
 ## Roadmap
 
@@ -46,15 +48,18 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | Anchor-bundles selectief bijwerken (delta-driven matching) | ADR-005 §9.1 — `data/extractie/matches.sqlite3` + state-fingerprints |
 | ETL-pipeline aanpassen (extractor of transformer) | ADR-005 §3 (extractors), §4 (transformers), §1 (determinisme) — vergeet snapshot-vangnet niet (`tests/test_pipeline_snapshots*.py`) |
 | RAG-index bouwen of bevragen | ADR-006 (RAG-strategie) |
-| Concept-record maken of aanvullen | ADR-007 (model, schema 1.1), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling), ADR-018 (embedding-daemon voor live duplicate-check), ADR-019 (records-API als enige schrijfweg) |
+| Concept-record maken of aanvullen | ADR-007 (model, schema 1.1) **→ ADR-025 voor schema 2.0**, ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling), ADR-018 (embedding-daemon voor live duplicate-check), ADR-019 (records-API als enige schrijfweg) |
+| Schema 2.0 concept-record (rol × perspectief, kader/familie) | ADR-025 + `prompts/concept-extractie-v5.md` + `prompts/concept-verify-v3.md` |
+| Fase 2 herextract-pilot starten | `docs/pilot-fase2-pipeline.md` (werkdoc) + ADR-025 §migratie |
 | Concept-record hernoemen of verwijderen | ADR-019 (`rename_record` / `delete_record` — geen directe disk-ops) |
 | Embedding-daemon starten/stoppen/diagnose | ADR-018 |
 | Concept-record opslaan, hernoemen of verwijderen (disk + RAG) | ADR-019 (records-API) |
 | RAG-parity controleren of herstellen | ADR-019 — `python3 -m tools.lib.records_api audit [--fix]` |
 | Examenvraag analyseren of genereren | ADR-009 (patronen), ADR-008 (extractie wanneer nieuw concept blijkt nodig) |
-| Modelantwoord schrijven voor echte voorbeeldexamenvraag | ADR-020 (pipeline + checklist + record-gap-flow), ADR-009 §6 (render), ADR-008 (gap-niveau c → extractie), ADR-021 (blok-aware bij structuur-vragen) |
-| OCR-vraagtekst normaliseren voor `data/programma/examen_vragen/` | ADR-020 §6 (import-gate) — broken_table grotendeels overbodig na ADR-021 v2 |
-| Examenvragen re-extracten (v2 met gestructureerde tabellen) | ADR-021 (schema + werkwijze), `tools/examen/extract_vragen_v2.py` + `tools/examen/migrate_to_v2.py` |
+| Modelantwoord schrijven voor echte voorbeeldexamenvraag | ADR-024 (per-vraag artefact-pipeline, supersedes ADR-020 voor nieuwe vragen), ADR-009 §6 (render), ADR-008 (gap-niveau c → extractie) |
+| OCR-vraagtekst normaliseren voor `data/programma/examen_vragen/` | ADR-024 (visuele agent-pass vervangt OCR-normalisatie); ADR-020 §6 voor legacy-flow |
+| Examenvragen re-extracten (legacy v3 regex-pipeline) | ADR-021 (schema + werkwijze), `tools/examen/extract_vragen_v3.py` — vervalt na uitrol ADR-024 |
+| Examenvraag isoleren + interpreteren + modelantwoord (nieuw) | ADR-024 — `_segmenten/` → `_interpretaties/` → `_antwoorden/` → merger |
 | Leermateriaal-snapshot publiceren | ADR-010 (snapshots), ADR-002 (kenniselement-dekkingscheck) |
 | Tutor-antwoord debuggen | ADR-010 (tutor live), ADR-006 (RAG), ADR-007 (graph-walks) |
 | Iets reprocessen na bron-wijziging | ADR-003 (workflow), ADR-004 (provenance / stale-cascade) |
