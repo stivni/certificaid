@@ -151,6 +151,27 @@ volg top-volgorde + rol × perspectief, schrijf via save_record. Geen
 overlap met je collega-agents (vooraf afgebakende fiche-lijst).
 ```
 
+### Stap 2.5 — Orphan-cleanup na wave-approval
+
+Na elke wave:
+1. Mens-in-de-loop steekproef (zie stap 4) → wave goedgekeurd
+2. Identificeer **orphan v1.x-records**: records die in archief zitten maar geen 2.0-doel hebben (geen overschrijvende `save_record` van een nieuwe versie)
+3. Voor elke orphan: `delete_record(record_id)` via records-API — schoont disk + RAG + markdown
+4. Archief blijft (snapshot vóór wave); orphans zijn alleen weg uit de live-set
+
+```bash
+# Helper-script (te bouwen):
+python3 -m tools.extractie.cleanup_orphans \
+  --archief data/concepten/_archive/v2.0-migratie/20260521T140000Z-po-1.1 \
+  --dry-run
+
+# Echte cleanup (na approval):
+python3 -m tools.extractie.cleanup_orphans \
+  --archief data/concepten/_archive/v2.0-migratie/20260521T140000Z-po-1.1
+```
+
+Vergelijkt archief-snapshot vs huidige `data/concepten/records/`; alles in archief wat niet meer als 2.0-versie bestaat = orphan.
+
 ### Stap 3 — VERIFY-pass (na elke wave)
 
 ```bash
