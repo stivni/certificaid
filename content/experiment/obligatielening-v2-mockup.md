@@ -76,3 +76,29 @@ Lees alle drie de versies bij voorkeur in dezelfde leesvolgorde
    boeking op te zoeken?
 
 De versie die wint mag de basis vormen voor schema 1.7 + EXTRACT v5.
+
+---
+
+## Andere kinds in het model getest
+
+Naast obligatielening (= instrument) staan er nu mockups van vier andere
+concept-soorten om het model te testen op **patroon-variatie**. Elk
+gebruikt het v5-patroon als basis, met aanpassingen waar de kind dit
+vereist. Lege secties of ⚠️-markeringen waar bronnen ontbreken.
+
+- [Inkoop eigen aandelen NV — v1](inkoop-eigen-aandelen-nv-v1.md) —
+  **operatie**. Klemtoon op wettelijke voorwaarden + procedure +
+  fiscaal regime bij vernietiging. Wat schurt: veel ⚠️ op MAR-codes en
+  fiscale details.
+- [Financiële leasing — v1](financiele-leasing-v1.md) — **instrument
+  met sterke vergelijking** (vs operationele leasing). Vergelijkingsmatrix
+  staat hier als zelfstandige sectie. Wat schurt: kwalificatie-criteria
+  zijn cruciaal, verdient mogelijk eigen top-rubriek.
+- [VVPRbis — v1](vvprbis-v1.md) — **fiscaal regime**. Structuur volledig
+  anders dan instrument/operatie: geen "Hoe het werkt"-met-onderdelen,
+  wél centrale rubrieken Voorwaarden + Tarieven + Wachttermijnen +
+  Niet-van-toepassing-op + Combinatie-met-andere-regimes.
+- [Solvabiliteitsratio — v1](solvabiliteitsratio-v1.md) — **ratio**. Geen
+  boekingen, geen perspectieven per actor. Wel: formule + drempels-tabel
+  met bijbehorende acties + sectorgebondenheid + valkuilen in
+  interpretatie. Sluit aan bij kader [[financiele-analyse]].
