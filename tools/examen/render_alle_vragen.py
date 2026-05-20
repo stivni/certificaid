@@ -408,11 +408,151 @@ def render_mc_opties_gestructureerd(vraag: dict[str, Any]) -> str:
     )
 
 
+_CONFIDENCE_MARKER = {"grounded": "⚖️", "inferred": "🤖"}
+
+
+def _render_confidence(blok: dict[str, Any]) -> str:
+    c = blok.get("confidence")
+    if c in _CONFIDENCE_MARKER:
+        return f" {_CONFIDENCE_MARKER[c]}"
+    return ""
+
+
+def render_antwoord_blok(blok: dict[str, Any]) -> str:
+    """Render één typed `correct_antwoord_blokken[]`-element (ADR-023)."""
+    btype = blok.get("type")
+    conf = _render_confidence(blok)
+    if btype == "motivatie":
+        inh = (blok.get("inhoud") or "").strip()
+        kop = blok.get("kop")
+        if kop:
+            return f"**{kop}**{conf}\n\n{inh}"
+        return f"{inh}{conf}".rstrip()
+    if btype == "definitie":
+        lemma = blok.get("lemma", "")
+        zin = blok.get("definitie_zin", "")
+        kerneig = blok.get("kerneigenschappen") or []
+        regels = [f"**{lemma}**{conf}", "", zin]
+        if kerneig:
+            regels.append("")
+            regels.append("_Kerneigenschappen:_")
+            for k in kerneig:
+                eig = k.get("eigenschap", "") if isinstance(k, dict) else str(k)
+                k_conf = _render_confidence(k) if isinstance(k, dict) else ""
+                regels.append(f"- {eig}{k_conf}")
+        return "\n".join(regels)
+    if btype == "boeking":
+        regels = blok.get("regels") or []
+        eenheid = blok.get("eenheid") or "EUR"
+        context = blok.get("context")
+        lijn_kop = ["| D/C | Rekening | Naam | Bedrag |", "|:-:|:-:|:--|---:|"]
+        for r in regels:
+            zijde = r.get("zijde", "?")
+            rek = r.get("rekening", "?")
+            naam = (r.get("naam") or "").replace("|", "\\|")
+            bedrag = r.get("bedrag")
+            bedrag_s = f"{bedrag:,.2f}".replace(",", " ").replace(".", ",").replace(" ", ".") if isinstance(bedrag, (int, float)) else ""
+            lijn_kop.append(f"| **{zijde}** | {rek} | {naam} | {bedrag_s} {eenheid} |")
+        prefix = f"**Boeking — {context}**{conf}\n\n" if context else f"**Boeking**{conf}\n\n"
+        return prefix + "\n".join(lijn_kop)
+    if btype == "berekening":
+        formule = blok.get("formule")
+        comp = blok.get("componenten") or []
+        tussen = blok.get("tussenstappen") or []
+        result = blok.get("resultaat")
+        eenheid = blok.get("eenheid") or ""
+        interpretatie = blok.get("interpretatie")
+        regels: list[str] = [f"**Berekening**{conf}"]
+        if formule:
+            regels.append("")
+            regels.append(f"```\n{formule}\n```")
+        if comp:
+            regels.append("")
+            for c in comp:
+                naam = c.get("naam", "?")
+                bedrag = c.get("bedrag", "")
+                regels.append(f"- {naam}: {bedrag}")
+        if tussen:
+            regels.append("")
+            for t in tussen:
+                regels.append(f"- {t}")
+        if result is not None:
+            regels.append("")
+            regels.append(f"**Resultaat**: {result} {eenheid}".rstrip())
+        if interpretatie:
+            regels.append("")
+            regels.append(f"_{interpretatie}_")
+        return "\n".join(regels)
+    if btype == "opsomming":
+        items = blok.get("items") or []
+        kop = blok.get("kop")
+        regels: list[str] = []
+        if kop:
+            regels.append(f"**{kop}**{conf}")
+            regels.append("")
+        for i, it in enumerate(items, 1):
+            lemma = it.get("lemma", "")
+            toel = it.get("toelichting", "")
+            it_conf = _render_confidence(it)
+            tail = f" — {toel}" if toel else ""
+            regels.append(f"{i}. **{lemma}**{tail}{it_conf}")
+        return "\n".join(regels)
+    if btype == "procedure":
+        stappen = blok.get("stappen") or []
+        kop = blok.get("kop")
+        regels: list[str] = []
+        if kop:
+            regels.append(f"**{kop}**{conf}")
+            regels.append("")
+        for s in stappen:
+            nummer = s.get("nummer", "?")
+            besch = s.get("beschrijving", "")
+            s_conf = _render_confidence(s)
+            regels.append(f"{nummer}. {besch}{s_conf}")
+        return "\n".join(regels)
+    if btype == "tabel":
+        headers = blok.get("headers") or []
+        rows = blok.get("rows") or []
+        kop = blok.get("kop")
+        lijnen: list[str] = []
+        if kop:
+            lijnen.append(f"**{kop}**{conf}")
+            lijnen.append("")
+        if headers:
+            lijnen.append("| " + " | ".join(headers) + " |")
+            lijnen.append("|" + "|".join(["---"] * len(headers)) + "|")
+        for r in rows:
+            lijnen.append("| " + " | ".join(r) + " |")
+        return "\n".join(lijnen)
+    if btype == "conclusie":
+        inh = blok.get("inhoud", "")
+        label = blok.get("gekozen_mc_label")
+        prefix = f"**Conclusie**: {inh}{conf}"
+        if label:
+            return prefix + f"\n\n> [!check] Gekozen: **{label}**"
+        return prefix
+    if btype == "grondslag":
+        bronnen = blok.get("bronnen") or []
+        return f"_Grondslag: {'; '.join(bronnen)}._{conf}".rstrip()
+    return ""
+
+
+def render_antwoord_blokken(blokken: list[dict[str, Any]]) -> str:
+    """Render volledige list[blok] als één markdown-string."""
+    if not blokken:
+        return ""
+    return "\n\n".join(render_antwoord_blok(b) for b in blokken if b)
+
+
 def render_modelantwoord_blok(vraag_of_subvraag: dict[str, Any]) -> str:
     """Render modelantwoord + motivering + bronnen + provenance.
 
     Werkt voor zowel vragen als subvragen — beide hebben dezelfde antwoord-
     velden volgens ADR-020 §8.
+
+    ADR-023: gebruikt bij voorkeur `correct_antwoord_blokken[]` (typed)
+    voor het motivering-blok wanneer aanwezig; fallback naar de platte
+    `antwoord_motivering`-string.
     """
     correct = (vraag_of_subvraag.get("correct_antwoord") or "").strip()
     if not correct:
@@ -423,8 +563,17 @@ def render_modelantwoord_blok(vraag_of_subvraag: dict[str, Any]) -> str:
     delen.append("")
     delen.append(correct)
 
+    # ADR-023: typed antwoord-blokken bij voorkeur
+    typed_blokken = vraag_of_subvraag.get("correct_antwoord_blokken")
     motivering = (vraag_of_subvraag.get("antwoord_motivering") or "").strip()
-    if motivering:
+    if isinstance(typed_blokken, list) and typed_blokken:
+        body = render_antwoord_blokken(typed_blokken)
+        if body:
+            delen.append("")
+            delen.append(
+                callout("success", "Motivering (typed)", body, inklapbaar=True)
+            )
+    elif motivering:
         delen.append("")
         delen.append(
             callout("success", "Motivering", motivering, inklapbaar=True)

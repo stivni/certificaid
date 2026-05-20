@@ -210,3 +210,88 @@ class TestTransformeerVraag:
         v3 = V3.transformeer_vraag(v2_vraag)
         types = [b["type"] for b in v3["vraagtekst_blokken"]]
         assert "tabel" in types
+
+
+# ---------------------------------------------------------------------------
+# v3.1: vraag-cleanup tests (ADR-023 §v3.1)
+# ---------------------------------------------------------------------------
+
+
+class TestVraagOnderwerpDetectie:
+    def test_kapitaalsubsidies(self):
+        """User-voorbeeld 2003-bibf-vrA1."""
+        rest, v = D.lift_top_level_velden(
+            "Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht."
+        )
+        assert v["vraag_onderwerp"] == "Kapitaalsubsidies"
+        assert v["vraag_header_geextracteerd"] is True
+        assert "Kapitaalsubsidies" not in rest
+        assert "Gedurende" in rest
+
+    def test_voorraden(self):
+        rest, v = D.lift_top_level_velden(
+            "Voorraden. Op de proef- en saldibalans staan volgende bedragen."
+        )
+        assert v["vraag_onderwerp"] == "Voorraden"
+
+    def test_geen_onderwerp_bij_eigennaam(self):
+        # 'Dhr' staat NIET in de whitelist → geen onderwerp
+        rest, v = D.lift_top_level_velden(
+            "Dhr. Janssens is bestuurder. Hij wenst advies over zijn pensioenplan."
+        )
+        assert v["vraag_onderwerp"] is None
+
+    def test_geen_onderwerp_bij_vraag_woord(self):
+        rest, v = D.lift_top_level_velden("Vraag: bereken X.")
+        assert v["vraag_onderwerp"] is None
+
+    def test_geen_onderwerp_bij_lange_zin(self):
+        rest, v = D.lift_top_level_velden(
+            "De BVBA Albert legt volgende balans af, met cijfers."
+        )
+        # 'De' niet in whitelist → geen onderwerp
+        assert v["vraag_onderwerp"] is None
+
+
+class TestResidueStrip:
+    def test_vraag_colon_in_instructie(self):
+        tekst = "Casus tekst. Vraag : geef de afsluitingsboekingen."
+        blokken = D.detecteer_typed_blokken(tekst)
+        instr = [b for b in blokken if b["type"] == "vraag_instructie"]
+        assert len(instr) == 1
+        assert "Vraag" not in instr[0]["inhoud"]
+        assert instr[0]["inhoud"].startswith("geef") or instr[0]["inhoud"].startswith("Geef")
+
+    def test_punten_residue_strip(self):
+        """5 PUNTEN aan einde wordt gelift naar punten + uit body."""
+        rest, v = D.lift_top_level_velden("Vraag 1. Bereken iets. 5 PUNTEN")
+        assert v["punten"] == 5.0
+        assert "PUNTEN" not in rest
+
+    def test_antwoord_residue_uit_body(self):
+        """Een losse 'Antwoord' kop-residu wordt uit body verwijderd."""
+        rest, v = D.lift_top_level_velden("Vraag 1. Casus tekst.\nAntwoord\nBereken iets.")
+        # "Antwoord" als eigen regel wordt uit body gestript
+        assert "\nAntwoord\n" not in rest
+
+
+class TestCasusContextOpzuig:
+    def test_lange_verhalende_tekst_voor_instructie(self):
+        # Lange verhalende casus + korte instructie → casus_context wordt gevormd
+        verhaal = "De NV Aldra is een productiebedrijf. " + ("Het had een belangrijk jaar. " * 20)
+        tekst = verhaal + " Bereken het resultaat."
+        blokken = D.detecteer_typed_blokken(tekst)
+        types = [b["type"] for b in blokken]
+        # Moet een vraag_instructie hebben + een casus_context (opzuig)
+        assert "vraag_instructie" in types
+        # casus_context kan komen via _scan_casus_context OF opzuig
+        casus = [b for b in blokken if b["type"] == "casus_context"]
+        assert len(casus) >= 1
+
+    def test_korte_tekst_blijft_tekst(self):
+        # Korte tekst-prefix (< 50 tokens) wordt NIET gepromoveerd
+        tekst = "Een kort iets. Bereken X."
+        blokken = D.detecteer_typed_blokken(tekst)
+        casus = [b for b in blokken if b["type"] == "casus_context"]
+        # Geen opzuig voor korte tekst
+        assert len(casus) == 0

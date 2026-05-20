@@ -68,7 +68,12 @@ ADR022_VELDEN = [
     "antwoord_hint_in_vraag",
 ]
 
-ALLE_BEHOUDEN = ANTWOORD_VELDEN + CLASSIFICATIE_VELDEN + ADR022_VELDEN
+# ADR-023 / v3.1: typed antwoord-blokken — moeten over migratie bewaard
+ADR023_VELDEN = [
+    "correct_antwoord_blokken",
+]
+
+ALLE_BEHOUDEN = ANTWOORD_VELDEN + CLASSIFICATIE_VELDEN + ADR022_VELDEN + ADR023_VELDEN
 
 
 def lees_v2(examen_id: str) -> Optional[dict]:

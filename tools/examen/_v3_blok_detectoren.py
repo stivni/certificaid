@@ -40,11 +40,14 @@ _VRAAG_PREFIX_PATRONEN = [
 
 
 def lift_top_level_velden(tekst: str) -> tuple[str, dict[str, Any]]:
-    """Lift `punten` + `vraag_prefix` uit lopende tekst.
+    """Lift `punten` + `vraag_prefix` + `vraag_onderwerp` uit lopende tekst.
+
+    Ook: strippen van "Antwoord"-residu (komt voor in elke PDF als rubriek-kop)
+    en losse "Vraag :"-fragmenten die niet in een instructie-zin zitten.
 
     Returns:
         (gestripte_tekst, dict met velden: 'punten', 'vraag_prefix',
-        'vraag_header_geextracteerd' bool).
+        'vraag_onderwerp', 'vraag_header_geextracteerd' bool).
     """
     velden: dict[str, Any] = {}
     nieuwe_tekst = tekst
@@ -77,11 +80,135 @@ def lift_top_level_velden(tekst: str) -> tuple[str, dict[str, Any]]:
             nieuwe_tekst = nieuwe_tekst[:n_strip] + rest
             break
 
+    # vraag_onderwerp — conservatieve detectie van korte titel-zin aan begin
+    onderwerp: Optional[str] = strip_vraag_onderwerp(nieuwe_tekst)
+    if onderwerp is not None:
+        # Verwijder onderwerp + de daaropvolgende "." + whitespace uit body
+        # Eerst trim-leading
+        cursor = nieuwe_tekst.lstrip()
+        leading_offset = len(nieuwe_tekst) - len(cursor)
+        if cursor.startswith(onderwerp):
+            after = cursor[len(onderwerp):]
+            # Verwijder leestekens + spaties
+            after = re.sub(r"^\s*[.\n]\s*", "", after)
+            nieuwe_tekst = nieuwe_tekst[:leading_offset] + after
+
+    # Strip residue-tokens uit body
+    nieuwe_tekst = _strip_residue_tokens(nieuwe_tekst)
+
     velden["punten"] = punten
     velden["vraag_prefix"] = prefix
-    velden["vraag_header_geextracteerd"] = bool(punten is not None or prefix is not None)
+    velden["vraag_onderwerp"] = onderwerp
+    velden["vraag_header_geextracteerd"] = bool(
+        punten is not None or prefix is not None or onderwerp is not None
+    )
     nieuwe_tekst = nieuwe_tekst.strip()
     return nieuwe_tekst, velden
+
+
+# ---------------------------------------------------------------------------
+# v3.1 vraag-cleanup: residue-strippen + vraag_onderwerp-detectie
+# ---------------------------------------------------------------------------
+
+# Boekhoud-thema-titels die als één-/twee-woord onderwerp acceptabel zijn.
+# Conservatief: alleen bekende lemma's. Pattern-scan toont dat <1 % van de
+# vragen een echte titel heeft (alleen 2003-bibf-vrA1 'Kapitaalsubsidies' was
+# een onbetwistbare match). Deze whitelist voorkomt false positives op
+# eigennamen ("Dhr. Janssens") en cijfer-residu ("1", "F", "G").
+_ONDERWERP_WHITELIST = {
+    "kapitaalsubsidies", "kapitaalsubsidie",
+    "voorraden", "voorraad",
+    "afschrijvingen", "afschrijving",
+    "herwaardering", "herwaarderingen",
+    "waardeverminderingen", "waardevermindering",
+    "consolidatie", "consolidatiekring",
+    "balans", "resultatenrekening",
+    "leasing", "huur",
+    "deelneming", "deelnemingen",
+    "octrooi", "octrooien",
+    "kapitaalverhoging", "kapitaalvermindering",
+    "fusie", "splitsing",
+    "vereffening", "ontbinding",
+    "winstverdeling", "tantième",
+    "btw", "btw-aangifte",
+}
+
+
+def strip_vraag_onderwerp(tekst: str) -> Optional[str]:
+    """Detecteer een korte boekhoud-thematitel aan het begin van de tekst.
+
+    Conservatief: alleen lemma's uit `_ONDERWERP_WHITELIST` triggeren.
+    Heuristiek:
+    - Eerste woord (capital-start), gevolgd door "." of newline + casus
+    - Lowercase versie moet in whitelist staan
+    - Max 4 woorden (om "BTW-aangifte voor Q4" toe te laten, niet langer)
+
+    Returns:
+        Onderwerp-string (zoals het in de tekst staat, hoofdletter-behoud)
+        of None.
+    """
+    if not tekst:
+        return None
+    stripped = tekst.lstrip()
+    # Eerste segment voor punt of newline
+    m = re.match(r"^([A-ZÉÈÊËÀÂÄÔÖÛÜÇÏÎ][\w\-]{2,}(?:\s+[A-Za-zéèêëàâäôöûüçïî\-]+){0,3})\s*\.\s+[A-Z]", stripped)
+    if not m:
+        return None
+    kandidaat = m.group(1).strip()
+    eerste_woord = kandidaat.split()[0].lower()
+    # Strip trailing leestekens uit eerste_woord
+    eerste_woord_clean = re.sub(r"[^\wéèêëàâäôöûüçïî\-]", "", eerste_woord)
+    if eerste_woord_clean not in _ONDERWERP_WHITELIST:
+        return None
+    return kandidaat
+
+
+_VRAAG_COLON_RE = re.compile(r"\bVraag\s*[:.?]\s*", re.IGNORECASE)
+_ANTWOORD_PREFIX_RE = re.compile(r"(?:^|\n)\s*Antwoord\s*(?=[A-Z\n]|\Z)")
+_PUNTEN_RESIDUE_RE = re.compile(r"\b\d{1,3}\s+PUNTEN\b")
+_PUNTEN_LOW_RESIDUE_RE = re.compile(r"/\s*[\d,]+\s*punt(?:en)?\b", re.IGNORECASE)
+_O_DOT_ER_WERD_RE = re.compile(r"^o\.\s+Er\s+werd\b", re.MULTILINE)
+
+
+def _strip_residue_tokens(tekst: str) -> str:
+    """Verwijder ruistokens uit een tekst-blok-`inhoud`.
+
+    - "Vraag :" / "Vraag:" / "Vraag." / "Vraag?" prefixes  (let op: blijft
+      werken vóór een imperatief-werkwoord, want `_INSTRUCTIE_RE` in
+      `_scan_vraag_instructie` accepteert "Vraag :" als optionele aanhef en
+      pakt de imperatief-zin daarna op. Hier strippen we de zwervende
+      voorkomens die niet in een instructie zitten.)
+    - "Antwoord" als kop-residu (komt 110× voor in PDFs als rubriek-kop)
+    - "N PUNTEN" / "/ N punten" residue
+    - PDF-sectie-headers van vorm "<ALL CAPS WORDS> N PUNTEN" (page-divider
+      die per ongeluk in vraag-body landde — niet de vraag-punten zelf, die
+      zitten in `punten`-veld)
+    - "o. Er werd ..." losse fragment-prefix wordt naar "Er werd ..." gestript
+    """
+    nieuw = tekst
+    nieuw = _VRAAG_COLON_RE.sub("", nieuw)
+    nieuw = _ANTWOORD_PREFIX_RE.sub("\n", nieuw)
+    # PDF-sectie-header strip — bv. "VENNOOTSCHAPSRECHT 20 PUNTEN" of
+    # "ANALYSE EN KRITISCHE BEOORDELING VAN DE 25 PUNTEN" — strip volledige
+    # regel inclusief aanhakende kapitaal-vervolgregel (kop kan wrappen).
+    nieuw = re.sub(
+        r"(?:^|\n)\s*[A-ZÉÈÊËÀÂÄÔÖÛÜÇÏÎ][A-ZÉÈÊËÀÂÄÔÖÛÜÇÏÎ\s\-]{3,80}\s+\d{1,3}\s+PUNTEN\s*\n[A-ZÉÈÊËÀÂÄÔÖÛÜÇÏÎ][A-ZÉÈÊËÀÂÄÔÖÛÜÇÏÎ\s\-]{2,80}\s*(?=\n|$)",
+        "\n",
+        nieuw,
+    )
+    nieuw = re.sub(
+        r"(?:^|\n)\s*[A-ZÉÈÊËÀÂÄÔÖÛÜÇÏÎ][A-ZÉÈÊËÀÂÄÔÖÛÜÇÏÎ\s\-]{3,80}\s+\d{1,3}\s+PUNTEN\s*(?=\n|$)",
+        "\n",
+        nieuw,
+    )
+    nieuw = _PUNTEN_RESIDUE_RE.sub("", nieuw)
+    nieuw = _PUNTEN_LOW_RESIDUE_RE.sub("", nieuw)
+    nieuw = _O_DOT_ER_WERD_RE.sub("Er werd", nieuw)
+    # Compacte dubbele witruimte
+    nieuw = re.sub(r"[ \t]+", " ", nieuw)
+    nieuw = re.sub(r"\n[ \t]+", "\n", nieuw)
+    nieuw = re.sub(r"\n{3,}", "\n\n", nieuw)
+    return nieuw
 
 
 # ---------------------------------------------------------------------------
@@ -390,11 +517,18 @@ def _scan_mc_opties(tekst: str) -> list[_Detectie]:
 
 
 def _scan_vraag_instructie(tekst: str) -> list[_Detectie]:
-    """Detecteer imperatief-zin als vraag-instructie."""
+    """Detecteer imperatief-zin als vraag-instructie.
+
+    Output-inhoud wordt gestript van "Vraag :"-prefix en "Antwoord"-suffix.
+    """
     detecties: list[_Detectie] = []
     for m in _INSTRUCTIE_RE.finditer(tekst):
         inhoud = m.group(1).strip()
-        # Strip trailing-witruimte
+        # Strip "Vraag :"/"Vraag:"/"Vraag." aan begin (v3.1)
+        inhoud = re.sub(r"^\s*Vraag\s*[:.?]\s*", "", inhoud, flags=re.IGNORECASE)
+        # Strip "Antwoord" aan einde (v3.1)
+        inhoud = re.sub(r"\s+Antwoord\s*$", "", inhoud, flags=re.IGNORECASE)
+        inhoud = inhoud.strip()
         if len(inhoud) < 8:
             continue
         # Bereken start van de groep (niet de hele match)
@@ -490,6 +624,76 @@ def detecteer_typed_blokken(tekst: str) -> list[dict[str, Any]]:
         if gat:
             resultaat.append({"type": "tekst", "inhoud": gat})
 
+    # v3.1: residue-strip toepassen op alle tekst-blokken (PDF-sectie-headers,
+    # losse "Antwoord"-kop-residus, dubbele witruimte). Daarna casus_context-
+    # opzuig — beide werken op het schone resultaat.
+    resultaat = _scrub_tekst_blokken(resultaat)
+    resultaat = _opzuig_casus_context(resultaat)
+
+    return resultaat
+
+
+def _scrub_tekst_blokken(blokken: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Pas `_strip_residue_tokens` toe op alle `tekst`-blokken in de lijst.
+
+    Verwijdert lege blokken die na strip < 3 tokens overhouden (typisch
+    een eenzame "Antwoord" of een afgehouwen vraag-prefix-residu).
+    """
+    resultaat: list[dict[str, Any]] = []
+    for b in blokken:
+        if b.get("type") != "tekst":
+            resultaat.append(b)
+            continue
+        inh = (b.get("inhoud") or "").strip()
+        nieuw = _strip_residue_tokens(inh).strip()
+        if len(nieuw.split()) < 3:
+            # Te kort residue — laat blok vallen
+            continue
+        nieuw_blok = dict(b)
+        nieuw_blok["inhoud"] = nieuw
+        resultaat.append(nieuw_blok)
+    return resultaat
+
+
+# ---------------------------------------------------------------------------
+# v3.1: opzuig-logica voor casus_context
+# ---------------------------------------------------------------------------
+
+_IMPERATIEF_START_RE = re.compile(
+    r"^\s*(?:" + "|".join(re.escape(v) for v in _INSTRUCTIE_VERBS) + r")\b",
+    re.IGNORECASE,
+)
+
+
+def _opzuig_casus_context(blokken: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Promoveer tekst-blokken vóór de eerste vraag_instructie naar casus_context.
+
+    Conservatieve heuristiek (v3.1):
+    - Alleen blokken die NU `type: tekst` zijn
+    - Vóór de eerste `vraag_instructie`-positie in de lijst
+    - Inhoud ≥ 50 tokens (woordvellen)
+    - Geen imperatief-start (vermijdt dat een vermomde instructie wordt
+      opgezogen)
+    """
+    # Bepaal index van eerste vraag_instructie
+    eerste_instr_idx = next(
+        (i for i, b in enumerate(blokken) if b.get("type") == "vraag_instructie"),
+        None,
+    )
+    if eerste_instr_idx is None:
+        return blokken
+    resultaat: list[dict[str, Any]] = []
+    for i, b in enumerate(blokken):
+        if (
+            i < eerste_instr_idx
+            and b.get("type") == "tekst"
+        ):
+            inhoud = (b.get("inhoud") or "").strip()
+            n_tokens = len(inhoud.split())
+            if n_tokens >= 50 and not _IMPERATIEF_START_RE.match(inhoud):
+                resultaat.append({"type": "casus_context", "inhoud": inhoud})
+                continue
+        resultaat.append(b)
     return resultaat
 
 

@@ -8,18 +8,18 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-19T23:34:27.039947+00:00",
+    "extracted_at": "2026-05-20T00:20:00.175454+00:00",
     "n_vragen": 37,
     "n_pages": 25,
     "n_tabellen_geaccepteerd": 27,
     "n_tabellen_verworpen": 12,
     "blok_type_counts": {
-      "tekst": 127,
+      "tekst": 86,
       "tabel": 27,
-      "mc_optie": 33,
-      "vraag_instructie": 22,
+      "mc_optie": 37,
       "bijlage_verwijzing": 2,
-      "casus_context": 11
+      "vraag_instructie": 18,
+      "casus_context": 16
     }
   },
   "vragen": [
@@ -148,16 +148,12 @@
         },
         {
           "type": "tekst",
-          "inhoud": "jaarverslag, en indien zij geen jaarverslag dient op te stellen in haar jaarrekening in\nhet jaar 2012?\nAntwoord"
+          "inhoud": "jaarverslag, en indien zij geen jaarverslag dient op te stellen in haar jaarrekening in\nhet jaar 2012?"
         },
         {
           "type": "mc_optie",
           "label": "b",
           "tekst": "Motiveer uw antwoord."
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         }
       ],
       "sub_vragen": [],
@@ -197,6 +193,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -226,11 +223,71 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "opmerking": "Eerdere gap-flag voor \"ontbrekende_bijlage\" was onjuist: de balans- en RR-tabel staat volledig in de vraagtekst (vraagtekst_blokken[]). Vraag is kwalificatie (waarderingsregels-verantwoording), geen ratio-berekening."
+        "opmerking": "Eerdere gap-flag voor \"ontbrekende_bijlage\" was onjuist: de balans- en RR-tabel staat volledig in de vraagtekst (vraagtekst_blokken[]). Vraag is kwalificatie (waarderingsregels-verantwoording), geen ratio-berekening.",
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "### a) Verantwoording in jaarverslag of jaarrekening?"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Onder Belgisch boekhoudrecht (KB WVV art. 3:6 + art. 3:90):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Een vennootschap **moet** haar waarderingsregels **vastleggen** en in de toelichting bij de jaarrekening **vermelden**. ⚖️\n- Voor **grote vennootschappen** die een **jaarverslag** moeten opstellen (WVV art. 3:6 voor wettelijke commissaris-controle): waarderingsregels zitten in zowel jaarverslag als jaarrekening (toelichting Staat XVIII voor volledig schema; Staat C 5.5 voor verkort).\n- Voor **kleine vennootschappen** die **geen jaarverslag** verplicht moeten opstellen (verkort schema, niet-genoteerd, beneden drempels): de **toelichting bij de jaarrekening** volstaat — sectie waarderingsregels (Staat C 5.5 of vergelijkbaar). ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "De BVBA XYZ in deze casus is een **kleine vennootschap** (balanstotaal € 175.000, ver onder drempel; geen vermelding van personeel of omzet die anders suggereert). Geen jaarverslag-plicht — **verantwoording in toelichting bij de jaarrekening volstaat**. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### b) Motivering"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Drie wettelijke fundamenten (KB WVV):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "1. **Art. 3:6 — Continuïteit + consistentie van waarderingsregels**: vennootschap legt waarderingsregels vast bij de oprichting en past ze **consistent** toe over de boekjaren heen. Wijziging is alleen gemotiveerd toegelaten (bv. nieuwe wettelijke verplichting, betere getrouw-beeld-overweging). ⚖️\n2. **Art. 3:90 — Vermelding in toelichting**: de waarderingsregels die feitelijk worden gehanteerd, moeten in de toelichting beschreven worden zodat lezers van de jaarrekening de cijfers kunnen interpreteren. ⚖️\n3. **Wijzigings-motivering**: bij wijziging van waarderingsregels (bv. afschrijfduur verlengen, voorraadwaardering FIFO → gewogen gemiddelde, herwaardering): **expliciet vermelden** + **cijfermatig effect** kwantificeren in de toelichting. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Bijzondere context voor XYZ — verlies 2012 versus winst 2011"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "⚠️ De overgang van winst € 15.000 (2011) naar verlies € 5.000 (2012) is een **20.000-EUR-omslag** op een kleine balans van € 175.000 — significant. Dit triggert audit-aandacht voor:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **Waarderingsregel-wijzigingen** (bv. versnelde afschrijving op MVA toegepast in 2012 → activa van € 100K → € 105K is netto-stijging, dus geen versnelde afschrijving — eerder netto-investeringen) 🤖\n- **Voorzieningen-mutaties** of **waardeverminderingen** die in 2012 zwaarder zijn dan in 2011\n- **Niet-recurrente verliezen** (rek 66, klasse 67)\n- **Cut-off-issues** rond balansdatum (cijferpatronen tussen 2011 en 2012)",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "🤖 Conclusie: ja, verantwoording in toelichting verplicht. Bovendien adviseert de accountant in deze casus extra aandacht voor de motivering van het verlies — een lezer (bank, leverancier, fiscus) zal vragen naar de oorzaak.",
+          "confidence": "inferred"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:5 (continuïteitsbeginsel), art. 3:6 (consistentie), art. 3:90 (toelichting waarderingsregels)",
+            "WVV art. 3:11 e.v. (jaarverslag-plicht)",
+            "CBN-advies 2012/15 (waarderingsregels-toelichting)"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr2",
@@ -244,7 +301,7 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\na) Onderneming A heeft een openstaande leveranciersschuld ten opzichte van\nonderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze\nschuld in te brengen als kapitaal.\nZij dient de volgende boeking (en) aan te brengen in haar boekhouding.\nAntwoord"
+          "inhoud": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\na) Onderneming A heeft een openstaande leveranciersschuld ten opzichte van\nonderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze\nschuld in te brengen als kapitaal.\nZij dient de volgende boeking (en) aan te brengen in haar boekhouding."
         },
         {
           "type": "tabel",
@@ -272,7 +329,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "b) Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren\ndoor terugbetaling aan haar aandeelhouders.\nAntwoord"
+          "inhoud": "b) Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren\ndoor terugbetaling aan haar aandeelhouders."
         },
         {
           "type": "tabel",
@@ -304,7 +361,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "c) Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel\ndie exclusieve juwelen verkoopt.\nAntwoord"
+          "inhoud": "c) Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel\ndie exclusieve juwelen verkoopt."
         },
         {
           "type": "tabel",
@@ -381,6 +438,7 @@
         }
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -404,7 +462,8 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "inferred",
@@ -419,7 +478,85 @@
         "sub_type": "partieel_extract",
         "gedetecteerd_op": "2026-05-19"
       },
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "**Vraagtekst** toont 3 sub-casussen maar alleen vraag-stammen, niet de MC-opties. Daarom blijft het antwoord op niveau van **algemene regels**:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### a) Leveranciersschuld aanpassen"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Voor onderneming A met openstaande leveranciersschuld tegenover X: indien de schuld om een specifieke reden moet worden aangepast (bv. kwijtschelding, betwisting, prescriptie):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **Kwijtschelding** door leverancier: 0 — vergelijkbaar met kwijtschelding"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### b) Terugbetaling kapitaal aan aandeelhouders"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Klassieke **kapitaalvermindering** met effectieve terugbetaling:\n- **Formele vereisten**: notarisakte, beslissing AV met versterkte meerderheid (WVV art. 5:142 voor BV), schuldeisersbescherming (verzetstermijn 2 maanden)\n- **Boeking**:\n  ```\n  Debet 100 Geplaatst kapitaal (= bedrag terugbetaald)\n  Credit 550 Bank (= effectieve uitbetaling)\n  ```\n- **Fiscaal**: terugbetaling van **gestort kapitaal** is RV-vrij; terugbetaling die als verkapte dividenden wordt beschouwd → 30 % RV"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### c) Winkel exclusieve juwelen — boekhouding voeren"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "voor een winkel die exclusieve juwelen verkoopt:",
+          "kop": "Vereisten"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **Boekhoudplicht**: rechtspersoon (NV/BV) altijd dubbel; natuurlijke persoon afhankelijk van omzetdrempel (WER art. III.85)\n- **Voorraadbeheer**: zeer waardevolle voorraad → strengere IC (toegangscontrole, inventaris, verzekering, alarm)\n- **Voorraadwaardering**: aanschaffingsprijs + waardevermindering bij modemarkt-fluctuaties (KB WVV art. 3:43)\n- **Antiwitwas-discipline**: bij verkoop > € 10.000 cash → strengere identificatieplicht (Antiwitwaswet 2017)\n- **BTW**: 21 % standaard, marge-regeling mogelijk voor tweedehands-juwelen\n- **Specifieke fiscale risico's**: hoge marges trekken fiscale audit aan; documentatie cruciaal"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "🤖 Zonder specifieke MC-opties blijft het antwoord generiek per situatie. Voor het examen verwacht ITAA waarschijnlijk de juiste MC-keuze + korte motivering.",
+          "confidence": "inferred"
+        },
+        {
+          "type": "boeking",
+          "regels": [
+            {
+              "zijde": "D",
+              "rekening": "440",
+              "naam": "Leveranciersschuld / Credit",
+              "bedrag": 753.0
+            },
+            {
+              "zijde": "D",
+              "rekening": "6371",
+              "naam": "Voorzieningen / Credit",
+              "bedrag": 162.0
+            },
+            {
+              "zijde": "D",
+              "rekening": "440",
+              "naam": "/ Credit",
+              "bedrag": 753.0
+            }
+          ],
+          "eenheid": "EUR",
+          "confidence": "grounded"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:43 (voorraadwaardering), art. 3:24-3:27 (voorzieningen)",
+            "WVV art. 5:142 (kapitaalvermindering BV)",
+            "WER art. III.85 (boekhoudplicht)",
+            "Antiwitwaswet 2017"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr3",
@@ -429,7 +566,7 @@
       "vak_code_in_pdf": "1.1",
       "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
       "vraagtype": "MC",
-      "vraagtekst": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt\nkan worden in ondermeer fabrieken voor de verplaatsing van zware goederen.\nZij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten\ndoen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf\nwerd geproduceerd en deels bij derden werd ontwikkeld.\nZij heeft hiervoor volgende kosten gehad:\n- kosten van vooronderzoek: studiebureau’s 20.000 euro\n- ontwikkeling door derden 15.000 euro\n- aankopen van materiaal 180.000 euro\n- lonen van arbeiders inclusief patronale bijdragen 80.000 euro\nGevraagd:\n\na. Kunnen deze kosten in aanmerking voor activering? Motiveer uw antwoord.\n\n**Antwoord\nb) Zo ja, welke van de bovenvermelde kosten?**\n\nAntwoord\n\nc. Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op\n\nte geven tot op 2 cijfers.\n\n**Antwoord\nd) Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?**\n\nAntwoord\ne) Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet\ncommercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet\nverder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals\naankopen en personeelskosten.\nAntwoord\n\nANALYSE EN KRITISCHE BEOORDELING VAN DE 25 PUNTEN\nJAARREKENING - CONSOLIDATIE",
+      "vraagtekst": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt\nkan worden in ondermeer fabrieken voor de verplaatsing van zware goederen.\nZij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten\ndoen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf\nwerd geproduceerd en deels bij derden werd ontwikkeld.\nZij heeft hiervoor volgende kosten gehad:\n- kosten van vooronderzoek: studiebureau’s 20.000 euro\n- ontwikkeling door derden 15.000 euro\n- aankopen van materiaal 180.000 euro\n- lonen van arbeiders inclusief patronale bijdragen 80.000 euro\nGevraagd:\n\na. Kunnen deze kosten in aanmerking voor activering? Motiveer uw antwoord.\n\nb. Zo ja, welke van de bovenvermelde kosten?\n\nc. Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op\n\nte geven tot op 2 cijfers.\n\nd. Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?\n\ne) Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet\ncommercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet\nverder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals\naankopen en personeelskosten.",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -441,12 +578,9 @@
           "tekst": "Kunnen deze kosten in aanmerking voor activering? Motiveer uw antwoord."
         },
         {
-          "type": "vraag_instructie",
-          "inhoud": "Antwoord\nb) Zo ja, welke van de bovenvermelde kosten?"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
+          "type": "mc_optie",
+          "label": "b",
+          "tekst": "Zo ja, welke van de bovenvermelde kosten?"
         },
         {
           "type": "mc_optie",
@@ -458,16 +592,13 @@
           "inhoud": "te geven tot op 2 cijfers."
         },
         {
-          "type": "vraag_instructie",
-          "inhoud": "Antwoord\nd) Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?"
+          "type": "mc_optie",
+          "label": "d",
+          "tekst": "Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?"
         },
         {
           "type": "tekst",
-          "inhoud": "Antwoord\ne) Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet\ncommercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet\nverder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals\naankopen en personeelskosten.\nAntwoord"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "ANALYSE EN KRITISCHE BEOORDELING VAN DE 25 PUNTEN\nJAARREKENING - CONSOLIDATIE"
+          "inhoud": "e) Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet\ncommercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet\nverder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals\naankopen en personeelskosten."
         }
       ],
       "sub_vragen": [],
@@ -527,6 +658,7 @@
         }
       ],
       "vraag_prefix": "Vraag 3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -545,11 +677,122 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "### a) Kunnen deze kosten in aanmerking voor activering?"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Onder huidig BE GAAP (KB WVV art. 3:37, gewijzigd in 2015 voor IFRS-convergentie):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **Vooronderzoek/onderzoek** (research) = **NIET activeerbaar** ⚖️\n  - Te vroege fase, geen voldoende zekerheid over economisch rendement\n  - Onmiddellijk ten laste van het resultaat (rek 61 Diensten of 67 Niet-recurrente kosten)",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **Ontwikkeling** (development) = **activeerbaar** mits aan **strikte voorwaarden** voldaan: ⚖️\n  - **Identificeerbaar** (afgebakend project met duidelijke output)\n  - **Technisch haalbaar** (technische vereisten kunnen worden gerealiseerd)\n  - **Intentie om te voltooien** (ondernemingsbeslissing tot voltooien)\n  - **Gebruik of verkoop** voorzien\n  - **Betrouwbaar meetbaar** kostprijs\n  - **Economisch rendement** voldoende waarschijnlijk",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### b) Welke kosten activeerbaar?"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Toegepast op het prototype-transportmiddel:**Totaal activeerbaar**: € 15.000 + € 180.000 + € 80.000 = **€ 275.000** ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Boeking"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Afschrijving"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Geactiveerde ontwikkelingskosten worden afgeschreven over **maximaal 10 jaar** (KB WVV art. 3:36); langer is mogelijk mits motivering in toelichting. Lineaire afschrijving in functie van de **economische gebruiksduur**. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "🤖 Historische context (vraag uit 2013): destijds golden andere regels — vóór 2015 waren **alle** O&O-kosten activeerbaar in BE GAAP. Onder de huidige (post-2015) regels alleen ontwikkeling. Voor het modelantwoord pas ik de huidige regels toe.",
+          "confidence": "inferred"
+        },
+        {
+          "type": "boeking",
+          "regels": [
+            {
+              "zijde": "D",
+              "rekening": "61",
+              "naam": "Diensten en diverse goederen (vooronderzoek)",
+              "bedrag": 20000.0
+            },
+            {
+              "zijde": "C",
+              "rekening": "440",
+              "naam": "Leveranciers (studiebureaus)",
+              "bedrag": 20000.0
+            }
+          ],
+          "eenheid": "EUR",
+          "context": "Boeking"
+        },
+        {
+          "type": "tabel",
+          "headers": [
+            "Kostencategorie",
+            "Bedrag",
+            "Activeerbaar?",
+            "Reden"
+          ],
+          "rows": [
+            [
+              "Kosten vooronderzoek (studiebureaus)",
+              "€ 20.000",
+              "**NEE** ⚖️",
+              "Onderzoek-fase — onmiddellijk ten laste van resultaat (rek 61 Diensten of 65 Financiële kosten naargelang van aard)"
+            ],
+            [
+              "Ontwikkeling door derden",
+              "€ 15.000",
+              "**JA** ⚖️",
+              "Ontwikkelingsfase (door externe partij geleverde ontwikkelingsservice)"
+            ],
+            [
+              "Aankoop van materiaal",
+              "€ 180.000",
+              "**JA** ⚖️",
+              "Direct materieelkost in ontwikkelingsfase"
+            ],
+            [
+              "Lonen arbeiders + patronale bijdragen",
+              "€ 80.000",
+              "**JA** ⚖️",
+              "Directe loonkosten in ontwikkelingsfase"
+            ]
+          ],
+          "confidence": "grounded"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:36 (afschrijving) + art. 3:37 (criteria)",
+            "CBN-advies 2016/16 'Onderzoek en ontwikkeling onder BE GAAP'",
+            "IAS 38 (analogie)"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr4",
@@ -559,7 +802,7 @@
       "vak_code_in_pdf": "1.2",
       "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "J/F",
-      "vraagtekst": "_In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt._\n\n**Bereken de gevraagde ratio’s telkens voor het BOEKJAAR.**\n\nU dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening\nals motivatie van uw antwoord.\nU dient uw antwoord uit te drukken tot TWEE cijfers na de komma.\nUit de toelichting tot de jaarrekening blijkt o.a. dat :\n1. Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor\n451 692,38 euro;\n2. Er kapitaalsubsidies werden aangerekend op de resultatenrekening voor 56 498,19\neuro;\n3. Er geen andere exploitatiesubsidies werden ontvangen;\n4. De te bestemmen winst van het boekjaar integraal gereserveerd werd.\n\na. Nettobedrijfskapitaal\n\nAntwoord\n\nb. Brutoverkoopmarge (in %)\n\nAntwoord\n\nc. Personeelskosten ten opzichte van de toegevoegde waarde (in %)\n\nAntwoord",
+      "vraagtekst": "_In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt._\n\n**Bereken de gevraagde ratio’s telkens voor het BOEKJAAR.**\n\nU dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening\nals motivatie van uw antwoord.\nU dient uw antwoord uit te drukken tot TWEE cijfers na de komma.\nUit de toelichting tot de jaarrekening blijkt o.a. dat :\n1. Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor\n451 692,38 euro;\n2. Er kapitaalsubsidies werden aangerekend op de resultatenrekening voor 56 498,19\neuro;\n3. Er geen andere exploitatiesubsidies werden ontvangen;\n4. De te bestemmen winst van het boekjaar integraal gereserveerd werd.\n\na. Nettobedrijfskapitaal\n\nb. Brutoverkoopmarge (in %)\n\nc. Personeelskosten ten opzichte van de toegevoegde waarde (in %)",
       "vraagtekst_blokken": [
         {
           "type": "bijlage_verwijzing",
@@ -579,26 +822,14 @@
           "tekst": "Nettobedrijfskapitaal"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "b",
           "tekst": "Brutoverkoopmarge (in %)"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "c",
           "tekst": "Personeelskosten ten opzichte van de toegevoegde waarde (in %)"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         }
       ],
       "sub_vragen": [],
@@ -642,6 +873,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -671,7 +903,8 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "opmerking": "🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de \"soort vraag\" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn."
+        "opmerking": "🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de \"soort vraag\" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn.",
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "inferred",
@@ -686,7 +919,214 @@
         "sub_type": "fictieve_bijlage",
         "gedetecteerd_op": "2026-05-19"
       },
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "### 🤖 ARTIFICIËLE BIJLAGE — Fictief, illustratief",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "⚠️ **Belangrijk**: de echte ITAA-bijlage met balans + RR werd niet aangereikt. Onderstaande cijfers zijn **fictief** en gekozen om de redenering volledig te demonstreren. De **soort vraag** (NBK, brutoverkoopmarge, personeel/TV) wordt opgelost; de exacte cijfers komen niet overeen met het werkelijke examen-document."
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "#### Fictieve Balans na winstverdeling — boekjaar#### Fictieve Resultatenrekening — boekjaar### Berekening van de ratio's"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "#### a) Netto bedrijfskapitaal"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\nNBK = vlottende activa − schulden ≤ 1 jaar\n    = (voorraden 920.000 + vorderingen 730.000 + geldbeleggingen 180.000 + liquide middelen 70.000)\n      − (schulden 80.000 + 550.000 + 120.000 + 0)\n    = 1.900.000 − 750.000\n    = € 1.150.000\n```"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "🤖 **NBK = € 1.150.000** (op basis van fictieve bijlage).",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "#### b) Brutoverkoopmarge (%)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\nbrutoverkoopmarge = (omzet − aankopen − diensten en diverse) × 100 / omzet\n                  = (5.200.000 − 2.800.000 − 720.000) × 100 / 5.200.000\n                  = 1.680.000 × 100 / 5.200.000\n                  = 32,31 %\n```"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "🤖 **Brutoverkoopmarge = 32,31 %**.",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "#### c) Personeelskosten / Toegevoegde waarde (%)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\ntoegevoegde waarde = omzet − aankopen − diensten en diverse\n                   = 5.200.000 − 2.800.000 − 720.000\n                   = € 1.680.000"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "personeelskosten / TV = (1.150.000 × 100) / 1.680.000\n                      = 68,45 %\n```"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "🤖 **Personeelskosten / TV = 68,45 %**.",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Vuistregel-interpretatie"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **NBK** € 1.150.000 = sterk positief → vlottende activa dekken kort-termijn-schulden ruim → gezonde liquiditeit.\n- **Brutoverkoopmarge** 32,31 % = redelijke groothandelsmarge; varieert per sector (kleinhandel typisch 35-50 %, distributie 15-25 %).\n- **Personeel / TV** 68,45 % = relatief hoog (Belgische industrie-gemiddelde ~55-60 %); arbeidsintensieve activiteit, weinig automatisering of dienstverlening."
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "_Grondslag voor formules: [[werkkapitaal]] §Berekening; [[contributiemarge]] §Bouwstenen; [[rentabiliteit-totaal-activa-roa]]; doctrine Cijferzakboekje._"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "⚠️ **🤖 ANTWOORDEN ZIJN GEBASEERD OP FICTIEVE CIJFERS** — Cijfermatige resultaten van het echte ITAA-examen zullen anders zijn. De **methodiek en formules** zijn correct toepasbaar.",
+          "confidence": "inferred"
+        },
+        {
+          "type": "tabel",
+          "headers": [
+            "Code",
+            "Actief",
+            "Bedrag (€)",
+            "Code",
+            "Passief",
+            "Bedrag (€)"
+          ],
+          "rows": [
+            [
+              "22-27",
+              "Materiële vaste activa",
+              "1.800.000",
+              "10/15",
+              "Eigen vermogen",
+              "2.400.000"
+            ],
+            [
+              "28",
+              "Financiële vaste activa",
+              "50.000",
+              "17",
+              "Schulden > 1 jaar",
+              "600.000"
+            ],
+            [
+              "30/36",
+              "Voorraden",
+              "920.000",
+              "42",
+              "Schulden > 1 jr binnen jaar vervallend",
+              "80.000"
+            ],
+            [
+              "40/41",
+              "Vorderingen ≤ 1 jaar",
+              "730.000",
+              "44",
+              "Handelsschulden",
+              "550.000"
+            ],
+            [
+              "50/53",
+              "Geldbeleggingen",
+              "180.000",
+              "45",
+              "Fiscale/sociale schulden",
+              "120.000"
+            ],
+            [
+              "54/58",
+              "Liquide middelen",
+              "70.000",
+              "48",
+              "Overige schulden ≤ 1 jaar",
+              "0"
+            ],
+            [
+              "492/3",
+              "Overlopende rekeningen actief",
+              "0",
+              "492/3",
+              "Overlopende rekeningen passief",
+              "0"
+            ],
+            [
+              "",
+              "**Totaal**",
+              "**3.750.000**",
+              "",
+              "**Totaal**",
+              "**3.750.000**"
+            ]
+          ]
+        },
+        {
+          "type": "tabel",
+          "headers": [
+            "Code",
+            "Post",
+            "Bedrag (€)"
+          ],
+          "rows": [
+            [
+              "70",
+              "Omzet",
+              "5.200.000"
+            ],
+            [
+              "74",
+              "Andere bedrijfsopbrengsten (incl. kapitaalsubsidies 56.498)",
+              "80.000"
+            ],
+            [
+              "60",
+              "Aankopen handelsgoederen, grond- en hulpstoffen",
+              "2.800.000"
+            ],
+            [
+              "61",
+              "Diensten en diverse goederen",
+              "720.000"
+            ],
+            [
+              "62",
+              "Bezoldigingen, sociale lasten + pensioenen",
+              "1.150.000"
+            ],
+            [
+              "630",
+              "Afschrijvingen MVA",
+              "320.000"
+            ],
+            [
+              "64-65",
+              "Niet-recurrente + financiële kosten",
+              "60.000"
+            ],
+            [
+              "67-77",
+              "Belastingen op resultaat",
+              "70.000"
+            ],
+            [
+              "",
+              "**Nettoresultaat (gereserveerd)**",
+              "**160.000**"
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr5",
@@ -696,7 +1136,7 @@
       "vak_code_in_pdf": "1.2",
       "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "J/F",
-      "vraagtekst": "Omschrijf de volgende begrippen :\n\na. Intrinsieke waarde\n\nAntwoord\n\nb. Fractiewaarde\n\nAntwoord\n\nc. Netto rendabiliteit van de bedrijfsactiva\n\nAntwoord\n\nd. Algemene schuldgraad\n\nAntwoord\ne) Operationele cash flow voor belastingen\nAntwoord",
+      "vraagtekst": "Omschrijf de volgende begrippen :\n\na. Intrinsieke waarde\n\nb. Fractiewaarde\n\nc. Netto rendabiliteit van de bedrijfsactiva\n\nd. Algemene schuldgraad\n\ne) Operationele cash flow voor belastingen",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -708,26 +1148,14 @@
           "tekst": "Intrinsieke waarde"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "b",
           "tekst": "Fractiewaarde"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "c",
           "tekst": "Netto rendabiliteit van de bedrijfsactiva"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         },
         {
           "type": "mc_optie",
@@ -736,7 +1164,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Antwoord\ne) Operationele cash flow voor belastingen\nAntwoord"
+          "inhoud": "e) Operationele cash flow voor belastingen"
         }
       ],
       "sub_vragen": [],
@@ -795,6 +1223,7 @@
         }
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -834,11 +1263,112 @@
           "circular_definition",
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "inferred",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "definitie",
+          "lemma": "a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige ",
+          "definitie_zin": "De vijf gevraagde begrippen, met formule + interpretatie:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### a) Intrinsieke waarde (per aandeel)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "intrinsieke waarde = eigen vermogen / aantal uitgegeven aandelen",
+          "kop": "Formule"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "De boekhoudkundige waarde van één aandeel — de \"boekwaarde per aandeel\". Toont wat een aandeelhouder theoretisch zou ontvangen bij liquidatie tegen boekwaarde (na schulden afbetalen). 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "⚠️ Verschilt van **marktwaarde** (beurskoers of overnameprijs): die houdt rekening met verwachte toekomstige winsten, marktomstandigheden, synergiën. Intrinsieke = boekhoudkundig, momentopname."
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### b) Fractiewaarde (per aandeel)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "fractiewaarde = (geplaatst) kapitaal / aantal aandelen",
+          "kop": "Formule"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Wat één aandeel theoretisch in het kapitaal vertegenwoordigt — sinds WVV (2019) heet dit \"fractiewaarde\" in plaats van \"nominale waarde\" (de oude term). ⚖️ Onder WVV hebben aandelen géén nominale waarde meer; alleen fractiewaarde wordt gebruikt voor referentiedoeleinden (uitgiftepremie-berekening, inbreng in natura-toetsing, etc.).",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### c) Netto rendabiliteit van de bedrijfsactiva (netto-ROA)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Formule**: netto-ROA = (nettoresultaat ná belasting + financiële kosten van schulden) / totaal activa"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Meet de economische rentabiliteit van het totaal van bezittingen, **onafhankelijk van financieringsstructuur**. ⚖️ De financiële kosten van schulden worden teruggebracht in de teller omdat het rendement van de bedrijfsactiva niet vertekend mag worden door financiering (eigen vs vreemd vermogen).",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Variant: bruto-ROA = bedrijfsresultaat (EBIT) / totaal activa — vóór belastingen en financiële kosten."
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "_Grondslag: [[rentabiliteit-totaal-activa-roa]] §Bouwstenen_"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### d) Algemene schuldgraad"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Formule**: algemene schuldgraad = totaal schulden (lange + korte termijn) / totaal passiva (= balanstotaal)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Uitgedrukt als percentage. Aanduiding van de financiële afhankelijkheid van derden — het complement van de solvabiliteitsratio: schuldgraad + solvabiliteit = 100 %. ⚖️ Hogere schuldgraad → grotere afhankelijkheid van schuldeisers → minder buffer voor verliezen.",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "_Grondslag: [[solvabiliteitsratio]] §Bouwstenen + [[debt-equity-ratio]]_"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### e) Operationele cash flow voor belastingen"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Formule**: operationele cash flow vóór belastingen = bedrijfsresultaat (EBIT) + afschrijvingen + waardeverminderingen + toevoegingen aan voorzieningen − bestedingen van voorzieningen"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "De \"klassieke cashflow\" of \"boekhoudkundige cashflow vóór belastingen\" — het bedrijfsresultaat gecorrigeerd voor **niet-kas-bestanddelen** (klasse 63 in RR). ⚖️ Geeft een ruwe indicator van de operationele kasgenereringscapaciteit, voor de impact van belastingen. Het is een vertaling van het boekhoudkundig resultaat naar een cashflow-benadering — niet de echte \"cash flow from operations\" uit IFRS (die ook werkkapitaalmutaties bevat).",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "_Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen_"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "WVV art. 5:7 + CBN 2021/01 §Uitgiftepremie"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr6",
@@ -848,11 +1378,11 @@
       "vak_code_in_pdf": "1.2",
       "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
-      "vraagtekst": "Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder\nwelke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de\nvolledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen\ndie worden gehouden door andere personen dan de consoliderende vennootschap of de in\nde consolidatie opgenomen dochterondernemingen moet worden vermeld.\nAntwoord",
+      "vraagtekst": "Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder\nwelke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de\nvolledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen\ndie worden gehouden door andere personen dan de consoliderende vennootschap of de in\nde consolidatie opgenomen dochterondernemingen moet worden vermeld.",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder\nwelke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de\nvolledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen\ndie worden gehouden door andere personen dan de consoliderende vennootschap of de in\nde consolidatie opgenomen dochterondernemingen moet worden vermeld.\nAntwoord"
+          "inhoud": "Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder\nwelke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de\nvolledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen\ndie worden gehouden door andere personen dan de consoliderende vennootschap of de in\nde consolidatie opgenomen dochterondernemingen moet worden vermeld."
         }
       ],
       "sub_vragen": [],
@@ -866,6 +1396,7 @@
         "KB WVV art. 3:107"
       ],
       "vraag_prefix": "Vraag 3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -894,11 +1425,30 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "presentatie",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "Onder de post **\"Aandeel van derden in het resultaat\"** in de geconsolideerde resultatenrekening. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **Berekening van het bedrag**: (1 − belangenpercentage van de moeder) × resultaat van het boekjaar van de dochter. ⚖️\n- **Aard van de post**: het is een **resultaattoewijzende post**, geen kost en geen opbrengst — ze wordt afzonderlijk getoond ná het 'Resultaat van het boekjaar' om het deel dat aan de groep toekomt te scheiden van het deel dat aan minderheidsaandeelhouders toekomt. ⚖️\n- **Methode-conditionaliteit**: deze post bestaat **uitsluitend bij integrale consolidatie**. Bij evenredige consolidatie wordt het derden-deel niet opgenomen (geen aparte post); bij vermogensmutatie zit alleen het pro-rata moeder-aandeel in de balans (idem geen aparte post). De vraagtekst specificeert 'volledig geconsolideerde dochterondernemingen' → impliciet integrale consolidatie. ⚖️\n- **Schemacode**: de wet definieert geen vaste Romeinse-cijfer-code voor RR-posten in het geconsolideerd schema — enkel de post-naam. (Vergelijk met de balans, waar 'Belangen van derden' wel in een vaste post X. zit aan passiefzijde.) Dus 'post-naam' = 'post-aanduiding'. 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:137 (afzondering derden-resultaat) jo. KB WVV art. 3:107 (vormvereisten geconsolideerde jaarrekening — afzonderlijke vermelding van belangen van derden zowel in balans als in resultatenrekening)"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr7",
@@ -908,11 +1458,11 @@
       "vak_code_in_pdf": "1.2",
       "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
-      "vraagtekst": "/ 3 punten\nDe geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de\njaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan\nafwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?\nAntwoord\nINTERNE CONTROLE EN ACCOUNTANTSONDERZOEK",
+      "vraagtekst": "De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de\njaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan\nafwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?\nINTERNE CONTROLE EN ACCOUNTANTSONDERZOEK",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "/ 3 punten\nDe geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de\njaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan\nafwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?\nAntwoord\nINTERNE CONTROLE EN ACCOUNTANTSONDERZOEK"
+          "inhoud": "De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de\njaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan\nafwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?\nINTERNE CONTROLE EN ACCOUNTANTSONDERZOEK"
         }
       ],
       "sub_vragen": [],
@@ -926,6 +1476,7 @@
         "KB WVV art. 3:109"
       ],
       "vraag_prefix": "Vraag 4",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -949,11 +1500,36 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "drempel_cijfer",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "— vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening. ⚖️",
+          "kop": "Maximaal 3 maanden",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Voorwaarde voor toepassing**: deze afwijking is alleen toegestaan wanneer het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van een groepsvennootschap op de afsluitingsdatum van de geconsolideerde jaarrekening op te nemen, of wanneer dat de opstelling en publicatie van de geconsolideerde jaarrekening uitermate zou vertragen. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Verplichte motivering**: de afwijking moet gemotiveerd worden in de toelichting bij de geconsolideerde jaarrekening. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:110, tweede lid: 'Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen.'"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr8",
@@ -963,11 +1539,11 @@
       "vak_code_in_pdf": "1.3",
       "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
       "vraagtype": "J/F",
-      "vraagtekst": "De interne controle wordt gedefinieerd als:\n\"Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te\nhebben over…”\nGeef vier elementen aan waarover het bestuursorgaan een redelijke zekerheid wil\nbereiken.\nAntwoord",
+      "vraagtekst": "De interne controle wordt gedefinieerd als:\n\"Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te\nhebben over…”\nGeef vier elementen aan waarover het bestuursorgaan een redelijke zekerheid wil\nbereiken.",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "De interne controle wordt gedefinieerd als:\n\"Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te\nhebben over…”\nGeef vier elementen aan waarover het bestuursorgaan een redelijke zekerheid wil\nbereiken.\nAntwoord"
+          "inhoud": "De interne controle wordt gedefinieerd als:\n\"Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te\nhebben over…”\nGeef vier elementen aan waarover het bestuursorgaan een redelijke zekerheid wil\nbereiken."
         }
       ],
       "sub_vragen": [],
@@ -979,6 +1555,7 @@
         "COSO I (1992/2013)"
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -1007,7 +1584,8 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "opsomming",
       "antwoord_confidence": "inferred",
@@ -1025,7 +1603,50 @@
         "vraagtype_dat_faalde": "opsomming",
         "opmerking": "Antwoord wel ingeschreven (confidence=inferred) omdat de doctrine breed gekend is; gap blijft staan voor record-patch."
       },
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "Vier elementen waarover het bestuursorgaan een **redelijke** zekerheid wil bereiken via het interne-controlesysteem (klassieke vier-deling in de Belgische audit-doctrine, COSO-variant):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Belangrijk: het gaat om **redelijke**, niet absolute zekerheid (KMO-controlenorm Bijlage 1). Inherente beperkingen (menselijke fout, samenspanning, management override, kosten-baten-afweging) maken 100 %-zekerheid onmogelijk. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "opsomming",
+          "items": [
+            {
+              "lemma": "Betrouwbaarheid van de financiële rapportering",
+              "toelichting": "dat de cijfers in de jaarrekening, tussentijdse rapporten en interne managementinformatie de werkelijkheid getrouw weergeven, vrij van afwijkingen van materieel belang.",
+              "confidence": "grounded"
+            },
+            {
+              "lemma": "Naleving van wetten en regelgeving (compliance)",
+              "toelichting": "dat de organisatie haar wettelijke, fiscale, sociale en sectorspecifieke verplichtingen nakomt (bv. boekhoudwet, WVV, BTW, antiwitwas, GDPR).",
+              "confidence": "grounded"
+            },
+            {
+              "lemma": "Effectieve en efficiënte werking van de organisatie (operationele doelstellingen)",
+              "toelichting": "dat de bedrijfsprocessen hun doel bereiken zonder verspilling van middelen; dat strategische en operationele doelstellingen gehaald worden.",
+              "confidence": "grounded"
+            },
+            {
+              "lemma": "Bescherming van het vermogen / de activa van de onderneming",
+              "toelichting": "dat activa niet verloren gaan door diefstal, fraude, vernieling, onbevoegd gebruik of slecht beheer; klassieke vermogensbescherming als vierde pijler in de Belgische audit-traditie.",
+              "confidence": "inferred"
+            }
+          ]
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "COSO I (1992/2013) — internationale vakdoctrine",
+            "ITAA KMO-controlenorm Bijlage 1 (drie hoofd-doelstellingen + onderliggende discipline van vermogensbescherming)"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr9",
@@ -1035,7 +1656,7 @@
       "vak_code_in_pdf": "1.3",
       "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
       "vraagtype": "J/F",
-      "vraagtekst": "Het secretariaat van de zaakvoerder van een familiale BVBA betaalt kleine kosten gemaakt\ndoor het personeel terug via een kas.\n\n**Stel een procedure op waarbij minimaal twee controletechnische\nfunctiescheidingen in voorkomen.**\n\nAntwoord",
+      "vraagtekst": "Het secretariaat van de zaakvoerder van een familiale BVBA betaalt kleine kosten gemaakt\ndoor het personeel terug via een kas.\n\n**Stel een procedure op waarbij minimaal twee controletechnische\nfunctiescheidingen in voorkomen.**",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -1044,10 +1665,6 @@
         {
           "type": "vraag_instructie",
           "inhoud": "Stel een procedure op waarbij minimaal twee controletechnische\nfunctiescheidingen in voorkomen."
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         }
       ],
       "sub_vragen": [],
@@ -1062,6 +1679,7 @@
         "ITAA KMO-controlenorm Bijlage 1"
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -1085,11 +1703,77 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "procedure",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "**Procedure voor terugbetaling van kleine kosten via kas** in een familiale BVBA, met minstens twee functiescheidingen ([[functiescheiding]] §Bouwstenen + ITAA-norm-kmo-controlenorm Bijlage 1):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Stappen + functiescheidingen"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Aanvullende controles"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **Kasinventaris** door een **derde persoon** (zaakvoerder of externe accountant) op **willekeurige momenten** — onaangekondigde count vergelijken met kasregister. ⚖️ Detecteert verschillen tussen fysieke en boekhoudkundige kas.\n- **Maximum uitbetalingsbedrag** per declaratie (bv. € 250); grotere bedragen moeten via bankoverschrijving (niet via kas). 🤖\n- **Maandelijkse limiet** op de kas (bv. max € 1.500); overschot wordt naar bank teruggebracht. 🤖\n- **Niet meer dan 30 dagen** tussen kost-datum en declaratie (anti-fraude + tax-traceerbaarheid). 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Incompatibele combinaties (vermijden)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Onder geen beding mag één persoon tegelijk:\n- Aanvragen + autoriseren (eigen kosten goedkeuren)\n- Kas beheren + boekhouding voeren (kas-saldo manipuleren door valse boekingen)\n- Kas beheren + reconciliatie uitvoeren (zelf-controle)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "⚖️ Klassieke valkuil ([[functiescheiding]] §Incompatibele combinaties): in een familiale BVBA is de zaakvoerder vaak zowel autorisator als kas-beheerder + boekhouder. Aanbeveling: minstens de boekhouding extern uitbesteden of een tweede persoon (familielid in dienst, secretaresse) toewijzen voor de uitvoerende kas-taak.",
+          "confidence": "grounded"
+        },
+        {
+          "type": "procedure",
+          "stappen": [
+            {
+              "nummer": 1,
+              "beschrijving": "Aanvraag (medewerker A): De medewerker die de kost heeft gemaakt vult een standaard-declaratieformulier in (datum, bedrag, doel, eventueel BTW), voegt de **originele bonnetjes** toe, ondertekent.",
+              "confidence": "grounded"
+            },
+            {
+              "nummer": 2,
+              "beschrijving": "Goedkeuring / autorisatie (zaakvoerder B of een aangewezen verantwoordelijke): De zaakvoerder controleert de aanvraag (zakelijk doel, plausibel bedrag, bonnetjes aanwezig en geldig), autoriseert door medeondertekening. ⚖️ **Functiescheiding nr. 1**: aanvrager ≠ autorisator.",
+              "confidence": "grounded"
+            },
+            {
+              "nummer": 3,
+              "beschrijving": "Uitbetaling en kasregister (kassier C): Een aangewezen kassier (bv. de secretaresse) betaalt het bedrag uit de kas, registreert de uitgave in het kasregister met datum, ontvanger, bedrag, en bewaart het ondertekende formulier + bonnetjes als bewijsstuk.",
+              "confidence": "grounded"
+            },
+            {
+              "nummer": 4,
+              "beschrijving": "Boekhouding en reconciliatie (boekhouder D, intern of extern): De boekhouder boekt de uitgave in het financieel dagboek (kasdagboek), reconcileert periodiek het kassaldo met de fysieke kas-inventaris, en stuurt periodieke recapitulaties (maandelijks) naar het centraal boek. ⚖️ **Functiescheiding nr. 2**: kassier ≠ boekhouder.",
+              "confidence": "grounded"
+            }
+          ]
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "[[functiescheiding]] §Bouwstenen + Incompatibele combinaties",
+            "ISA 315 (herzien-2019) Bijlage 3 §20",
+            "ITAA KMO-controlenorm Bijlage 1"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr10",
@@ -1099,11 +1783,11 @@
       "vak_code_in_pdf": "1.3",
       "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
       "vraagtype": "open",
-      "vraagtekst": "Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de\ninterne controleafdeling (het bedrijf koopt/verkoopt werfkranen) kan uitgevoerd worden\nAntwoord",
+      "vraagtekst": "Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de\ninterne controleafdeling (het bedrijf koopt/verkoopt werfkranen) kan uitgevoerd worden",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de\ninterne controleafdeling (het bedrijf koopt/verkoopt werfkranen) kan uitgevoerd worden\nAntwoord"
+          "inhoud": "Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de\ninterne controleafdeling (het bedrijf koopt/verkoopt werfkranen) kan uitgevoerd worden"
         }
       ],
       "sub_vragen": [],
@@ -1117,6 +1801,7 @@
         "ISA 520 (cijferanalyses)"
       ],
       "vraag_prefix": "Vraag 3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -1140,11 +1825,91 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "procedure",
       "antwoord_confidence": "inferred",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "Voor een **werfkranen-koper/verkoper** (bv. handel in tweedehands-bouwmachines + verhuur van nieuwe machines) zijn deze analytische tests typisch voor de interne controleafdeling op tussentijdse resultaten:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Voorbeeld 1: Bruto-marge per kraan-type en per regio"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Wat**: bruto-marge (omzet − kostprijs verkochte/verhuurde kranen) berekenen per **kraan-type** (klein/middel/groot, mobiele/torenkraan) en per **regio** (België-N/B-Z/buitenland), vergelijken met:\n- Dezelfde periode vorig jaar (Q1-2013 vs Q1-2012)\n- Budget voor de huidige periode\n- Sector-benchmark (indien beschikbaar)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "significante afwijking (>±10 %) → onderzoeken.",
+          "kop": "Trigger"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "(te toetsen):\n- Prijsverlaging (concurrentie, oude voorraad oude modellen)\n- Product-mix-shift (meer dure modellen → hogere absolute marge maar lagere %)\n- Productiviteitsverlies (technici onbeschikbaar, langere doorlooptijden)\n- **Boekhoudkundige fout**: omzeterkenning vóór levering, of kostprijs te laag (voorraadwaardering, cut-off-kosten) — directe link naar [[verkoopcyclus-ic]] valkuilen",
+          "kop": "Mogelijke verklaringen"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "⚖️ Voor de interne controleafdeling is dit een **detective** controle: een afwijking signaleert iets dat verder onderzocht moet worden (analyse → mogelijk substantieve test).",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Voorbeeld 2: DSO (Days Sales Outstanding) per kraan-type"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Wat**: DSO = (handelsvorderingen / omzet) × dagen-in-periode. Berekenen per kraan-type en per klant-segment."
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "stijgende DSO bij stagnerende omzet → mogelijk:\n- Betalingsproblemen bij bestaande klanten (toets via aged-receivables)\n- Facturatie-vertraging (cut-off-issue: levering Q1, factuur in Q2)\n- Disputed invoices (creditnota's in voorbereiding)",
+          "kop": "Trigger"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Procedure-context"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Cijferanalyses door de IC-afdeling spelen typisch op drie momenten ([[cijferanalyses-controle-norm]] §Drie momenten):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "⚠️ Belangrijk: een analytische test is **detective** — ze signaleert afwijkingen maar bevestigt niet automatisch fraude of fout. Vereist follow-up met substantieve werkzaamheden bij significante afwijking. 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "procedure",
+          "stappen": [
+            {
+              "nummer": 1,
+              "beschrijving": "Bij periodieke close: (maand- of kwartaal-rapporten): trend-analyse"
+            },
+            {
+              "nummer": 2,
+              "beschrijving": "Bij budget-rapportering: gerealiseerd vs gebudgetteerd (variance-analyse)"
+            },
+            {
+              "nummer": 3,
+              "beschrijving": "Bij ad-hoc red-flag-detectie: bv. plots stijgend retour-aantal of verlaagde marges"
+            }
+          ]
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "[[cijferanalyses-controle-norm]] §Drie momenten + §Bouwstenen",
+            "ITAA KMO-controlenorm §111 (cijferanalyses verplicht op drie momenten)"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr11",
@@ -1154,15 +1919,11 @@
       "vak_code_in_pdf": "1.3",
       "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
       "vraagtype": "open",
-      "vraagtekst": "**Wat is het belang van een budget voor de interne controleafdeling?**\n\nAntwoord",
+      "vraagtekst": "**Wat is het belang van een budget voor de interne controleafdeling?**",
       "vraagtekst_blokken": [
         {
           "type": "vraag_instructie",
           "inhoud": "Wat is het belang van een budget voor de interne controleafdeling?"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         }
       ],
       "sub_vragen": [],
@@ -1171,6 +1932,7 @@
       "themas": [],
       "wets_verwijzingen": [],
       "vraag_prefix": "Vraag 4",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "record_gap_report": {
         "niveau": "c",
@@ -1192,11 +1954,11 @@
       "vak_code_in_pdf": "1.3",
       "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
       "vraagtype": "J/F",
-      "vraagtekst": "Waarom zal de interne controleafdeling zich niet alleen steunen op de boekhouding maar\nook periodiek schriftelijk confirmatie vragen bij leveranciers?\nAntwoord",
+      "vraagtekst": "Waarom zal de interne controleafdeling zich niet alleen steunen op de boekhouding maar\nook periodiek schriftelijk confirmatie vragen bij leveranciers?",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Waarom zal de interne controleafdeling zich niet alleen steunen op de boekhouding maar\nook periodiek schriftelijk confirmatie vragen bij leveranciers?\nAntwoord"
+          "inhoud": "Waarom zal de interne controleafdeling zich niet alleen steunen op de boekhouding maar\nook periodiek schriftelijk confirmatie vragen bij leveranciers?"
         }
       ],
       "sub_vragen": [],
@@ -1211,6 +1973,7 @@
         "ITAA KMO-controlenorm §89-92"
       ],
       "vraag_prefix": "Vraag 5",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -1235,11 +1998,59 @@
           "circular_definition",
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.056668+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "definitie",
+          "lemma": "De boekhouding van de cliënt is een interne bron — gevoelig ",
+          "definitie_zin": "De interne-controleafdeling (en de externe auditor) steunen niet alléén op de boekhouding van de cliënt omdat:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Schuldsaldi in de boekhouding kunnen te laag staan (omzet- of kost-manipulatie) of te hoog (foute facturatie). Een leveranciersbevestiging toont het saldo zoals de leverancier het in zijn eigen boeken heeft staan. Verschillen wijzen op timing of fouten — beide moeten onderzocht. ⚖️\n- Voor schulden geldt vaak een **negatieve bevestiging** of een **saldo-bevestiging** met expliciet bedrag (zie [[externe-bevestiging-audit]] §Drie soorten externe bevestiging). 🤖",
+          "kop": "Specifiek voor leveranciers",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Periodieke schriftelijke confirmatie**: zelfs in een IC-context (niet alleen externe audit) heeft een interne controleafdeling baat bij periodieke externe confirmaties — bv. driemaandelijks of jaarlijks — om systematische manipulatie of vergissingen te detecteren. 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "opsomming",
+          "items": [
+            {
+              "lemma": "Interne bron = manipulatie-risico",
+              "toelichting": "de boekhouding wordt opgesteld door personeel van de cliënt, onder supervisie van het management. Management override (KMO-controlenorm §96 + [[fraude]]) kan zelfs een goed werkend IC-systeem omzeilen. Een vorderingsaldo van € 50.000 in de boekhouding is geen onafhankelijk bewijs van het bestaan; het is wat de boekhouder denkt te boeken.",
+              "confidence": "grounded"
+            },
+            {
+              "lemma": "Externe bron = onafhankelijk + schriftelijk",
+              "toelichting": "een externe bevestiging is een schriftelijke reactie rechtstreeks van een derde partij (leverancier, bank, klant, advocaat) aan de auditor of IC-afdeling, buiten de cliënt om ([[externe-bevestiging-audit]] §Definitie). Drie eigenschappen — schriftelijk, extern, onafhankelijk — maken dit hoogwaardige assurance-informatie.",
+              "confidence": "grounded"
+            },
+            {
+              "lemma": "Hiërarchie van bewijs",
+              "toelichting": "extern + onafhankelijk + schriftelijk > intern + mondeling/ongedateerd. Externe confirmaties scoren hoog op de evidence-hiërarchie (ISA 500 §A31 e.v.).",
+              "confidence": "grounded"
+            }
+          ]
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "[[externe-bevestiging-audit]] §Bouwstenen",
+            "ITAA KMO-controlenorm §89-92",
+            "ISA 505 §6-8",
+            "ISA 500 §A31 e.v. (hiërarchie van assurance-informatie)"
+          ]
+        }
+      ]
     },
     {
       "id": "2013-1-vr13",
@@ -1249,12 +2060,8 @@
       "vak_code_in_pdf": "1.3",
       "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
       "vraagtype": "J/F",
-      "vraagtekst": "Opgave :\n\n> NV SLA-BAK is een kleine onderneming met goede resultaten.\n\nDe boekhouder valt vrij plots ziek en hij zal gedurende langere tijd afwezig zijn.\nDe bedrijfsleider wil tussentijdse cijfers en vraagt aan een extern accountant om een\ntussentijdse staat van activa en passiva op te stellen.\nDe externe accountant gaat over tot het opstellen van de tussentijdse staat en om de\nvorderingen op klanten te controleren, en vraagt aan een selectie van klanten om de\nopenstaande saldi te confirmeren. Meerdere klanten waarvan men dacht dat ze nog geld\nmoesten aan de onderneming, beweerden al betaald te hebben. Na bijkomende controle\nblijkt, dat de boekhouder een aantal betalingen had gebruikt om saldi van andere klanten\naan te zuiveren. Hij kon dit doen aangezien de betalingen per cheque gebeurden. Het komt\nerop neer dat de boekhouder zichzelf een quasi permanent voorschot heeft bezorgd van ca.\n€ 80.000.\nBij vergelijking met de balans van het laatste jaar blijkt dat een aantal oude openstaande\nleveranciers-schulden voor een totaal bedrag van € 200.000 uit de boekhouding verdwenen\nzijn. Na verder onderzoek blijkt de boekhouder dit bedrag op zijn rekening te hebben\novergemaakt.\nNa een substantieel onderzoek wordt vastgesteld dat gedurende het laatste semester\neen groot aantal creditnota's was opgesteld voor relatief kleine bedragen voor\nbepaalde klanten. Deze creditnota's waren opgesteld door de boekhouder en\nuitbetaald op zijn bankrekening.\nVerder komt aan het licht dat de onkostennota's van een aantal collega's uitzonderlijk\nhoog waren de voorbije maanden. Toen zij hierover ondervraagd werden, bleken zij\nhier niet van op de hoogte. Een gedetailleerde analyse toonde aan dat de boekhouder\ndeze onkostennota’s had aangepast door een cijfer toe te voegen. Opnieuw had hij\nzichzelf het verschil uitgekeerd.\nVerder belde een klant om de terugbetaling te vragen van € 27.000, die hij 6 maanden\ngeleden per ongeluk dubbel had betaald. In eerste instantie kon hier niet op ingegaan\nworden aangezien er in de boekhouding geen spoor van deze dubbele betaling was\nterug te vinden. Inderdaad, de boekhouder had deze dubbele betaling doorgestort\nnaar zijn bankrekening.\n\nVraag\nGeef voor 5 van de hiervoor vermelde vaststellingen de formulering van het probleem\nen geef de te nemen maatregelen.\nAntwoord\nVENNOOTSCHAPSRECHT 20 PUNTEN",
+      "vraagtekst": "> NV SLA-BAK is een kleine onderneming met goede resultaten.\n\nDe boekhouder valt vrij plots ziek en hij zal gedurende langere tijd afwezig zijn.\nDe bedrijfsleider wil tussentijdse cijfers en vraagt aan een extern accountant om een\ntussentijdse staat van activa en passiva op te stellen.\nDe externe accountant gaat over tot het opstellen van de tussentijdse staat en om de\nvorderingen op klanten te controleren, en vraagt aan een selectie van klanten om de\nopenstaande saldi te confirmeren. Meerdere klanten waarvan men dacht dat ze nog geld\nmoesten aan de onderneming, beweerden al betaald te hebben. Na bijkomende controle\nblijkt, dat de boekhouder een aantal betalingen had gebruikt om saldi van andere klanten\naan te zuiveren. Hij kon dit doen aangezien de betalingen per cheque gebeurden. Het komt\nerop neer dat de boekhouder zichzelf een quasi permanent voorschot heeft bezorgd van ca.\n€ 80.000.\nBij vergelijking met de balans van het laatste jaar blijkt dat een aantal oude openstaande\nleveranciers-schulden voor een totaal bedrag van € 200.000 uit de boekhouding verdwenen\nzijn. Na verder onderzoek blijkt de boekhouder dit bedrag op zijn rekening te hebben\novergemaakt.\nNa een substantieel onderzoek wordt vastgesteld dat gedurende het laatste semester\neen groot aantal creditnota's was opgesteld voor relatief kleine bedragen voor\nbepaalde klanten. Deze creditnota's waren opgesteld door de boekhouder en\nuitbetaald op zijn bankrekening.\nVerder komt aan het licht dat de onkostennota's van een aantal collega's uitzonderlijk\nhoog waren de voorbije maanden. Toen zij hierover ondervraagd werden, bleken zij\nhier niet van op de hoogte. Een gedetailleerde analyse toonde aan dat de boekhouder\ndeze onkostennota’s had aangepast door een cijfer toe te voegen. Opnieuw had hij\nzichzelf het verschil uitgekeerd.\nVerder belde een klant om de terugbetaling te vragen van € 27.000, die hij 6 maanden\ngeleden per ongeluk dubbel had betaald. In eerste instantie kon hier niet op ingegaan\nworden aangezien er in de boekhouding geen spoor van deze dubbele betaling was\nterug te vinden. Inderdaad, de boekhouder had deze dubbele betaling doorgestort\nnaar zijn bankrekening.\n\nVraag\nGeef voor 5 van de hiervoor vermelde vaststellingen de formulering van het probleem\nen geef de te nemen maatregelen.",
       "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "Opgave :"
-        },
         {
           "type": "casus_context",
           "inhoud": "NV SLA-BAK is een kleine onderneming met goede resultaten."
@@ -1265,7 +2072,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Vraag\nGeef voor 5 van de hiervoor vermelde vaststellingen de formulering van het probleem\nen geef de te nemen maatregelen.\nAntwoord\nVENNOOTSCHAPSRECHT 20 PUNTEN"
+          "inhoud": "Vraag\nGeef voor 5 van de hiervoor vermelde vaststellingen de formulering van het probleem\nen geef de te nemen maatregelen."
         }
       ],
       "sub_vragen": [],
@@ -1276,6 +2083,7 @@
       ],
       "wets_verwijzingen": [],
       "vraag_prefix": "Vraag 6",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "record_gap_report": {
         "niveau": "b",
@@ -1297,7 +2105,7 @@
       "vak_code_in_pdf": "3.1",
       "vak_naam_in_pdf": "Vennootschapsrecht",
       "vraagtype": "J/F",
-      "vraagtekst": "Hierna volgt de balans van de bvba Avenir, afgesloten op 31/12/2012:\nACTIVA PASSIVA\nMateriële vaste activa € 25.000 Geplaatst kapitaal € 20.460\nVoorraden € 7.500 Overgedragen winst € 44.540\nVorderingen op – 1 jaar € 75.500 Leveranciers € 28.500\nLiquide middelen € 12.500 Belastingschulden € 27.000\n€ 120.500 € 120.500\nHet aandeelhouderschap van deze bvba is sinds lang in handen van Paul X, met 50% van de\naandelen, Jean Y met 45% van de aandelen, en Albert M die de resterende 5% aanhoudt, hetzij in\ntotaal 186 aandelen.\nDe statuten wijken niet af van het Wetboek van Vennootschappen.\nMaar Jean Y overlijdt jammerlijk en laat als enige erfgenaam zijn zoon Cedric Y na.\nDeel I\nCedric Y voornoemd, stelt u, als accountant van de bvba Avenir de volgende vragen:\nVerklaar uw antwoorden bondig\n\na. Wat zal er gebeuren met de aandelen, nu zijn vader Jean overleden is?\n\nAntwoord\n\nb. Zal hij automatisch vennoot van de bvba worden?\n\nAntwoord\n\nc. En hoe zit het met een eventuele overdracht van zijn aandelen?\n\nAntwoord\nDeel II\nEn daar een ongeluk nooit alleen komt, stelt Paul X vast dat Jean de invordering van een zeer\nbelangrijke klant had verwaarloosd en dat die klant ondertussen failliet verklaard is.\nHet bedrag van de vordering bedraagt 60.000 euro.\nHet blijkt dat die vordering al oninvorderbaar was vóór de afsluiting van de balans per\n31/12/2012.\n\nPaul X raadpleegt u en vraagt wat er, vanuit juridisch standpunt, moet gedaan worden.\n\n**Antwoord\nDeel III\nVoorts ruikt Albert M, samen met een vriend, een unieke commerciële buitenkans.**\n\nMaar daar ze\nniet over de nodige liquide middelen beschikken, besluiten ze een S-BVBA op te richten, onder\nde naam “Renaissance”.\nZe beslissen om u het boekhoudkundig en fiscaal beheer van het dossier toe te vertrouwen en\nleggen u het ontwerp voor.\nHierna volgen twee vragen die ze u stellen met betrekking tot de oprichting van deze\nvennootschap:\nd) Is het plan uitvoerbaar voor de twee vennoten?\nAntwoord\ne) Welke is hun aansprakelijkheid als oprichter?\nAntwoord",
+      "vraagtekst": "Hierna volgt de balans van de bvba Avenir, afgesloten op 31/12/2012:\nACTIVA PASSIVA\nMateriële vaste activa € 25.000 Geplaatst kapitaal € 20.460\nVoorraden € 7.500 Overgedragen winst € 44.540\nVorderingen op – 1 jaar € 75.500 Leveranciers € 28.500\nLiquide middelen € 12.500 Belastingschulden € 27.000\n€ 120.500 € 120.500\nHet aandeelhouderschap van deze bvba is sinds lang in handen van Paul X, met 50% van de\naandelen, Jean Y met 45% van de aandelen, en Albert M die de resterende 5% aanhoudt, hetzij in\ntotaal 186 aandelen.\nDe statuten wijken niet af van het Wetboek van Vennootschappen.\nMaar Jean Y overlijdt jammerlijk en laat als enige erfgenaam zijn zoon Cedric Y na.\nDeel I\nCedric Y voornoemd, stelt u, als accountant van de bvba Avenir de volgende vragen:\nVerklaar uw antwoorden bondig\n\na. Wat zal er gebeuren met de aandelen, nu zijn vader Jean overleden is?\n\nb. Zal hij automatisch vennoot van de bvba worden?\n\nc. En hoe zit het met een eventuele overdracht van zijn aandelen?\n\nDeel II\nEn daar een ongeluk nooit alleen komt, stelt Paul X vast dat Jean de invordering van een zeer\nbelangrijke klant had verwaarloosd en dat die klant ondertussen failliet verklaard is.\nHet bedrag van de vordering bedraagt 60.000 euro.\nHet blijkt dat die vordering al oninvorderbaar was vóór de afsluiting van de balans per\n31/12/2012.\n\nPaul X raadpleegt u en vraagt wat er, vanuit juridisch standpunt, moet gedaan worden.\n\n**Antwoord\nDeel III\nVoorts ruikt Albert M, samen met een vriend, een unieke commerciële buitenkans.**\n\nMaar daar ze\nniet over de nodige liquide middelen beschikken, besluiten ze een S-BVBA op te richten, onder\nde naam “Renaissance”.\nZe beslissen om u het boekhoudkundig en fiscaal beheer van het dossier toe te vertrouwen en\nleggen u het ontwerp voor.\nHierna volgen twee vragen die ze u stellen met betrekking tot de oprichting van deze\nvennootschap:\nd) Is het plan uitvoerbaar voor de twee vennoten?\n\ne) Welke is hun aansprakelijkheid als oprichter?",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -1309,17 +2117,9 @@
           "tekst": "Wat zal er gebeuren met de aandelen, nu zijn vader Jean overleden is?"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "b",
           "tekst": "Zal hij automatisch vennoot van de bvba worden?"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         },
         {
           "type": "mc_optie",
@@ -1328,7 +2128,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Antwoord\nDeel II\nEn daar een ongeluk nooit alleen komt, stelt Paul X vast dat Jean de invordering van een zeer\nbelangrijke klant had verwaarloosd en dat die klant ondertussen failliet verklaard is.\nHet bedrag van de vordering bedraagt 60.000 euro.\nHet blijkt dat die vordering al oninvorderbaar was vóór de afsluiting van de balans per\n31/12/2012."
+          "inhoud": "Deel II\nEn daar een ongeluk nooit alleen komt, stelt Paul X vast dat Jean de invordering van een zeer\nbelangrijke klant had verwaarloosd en dat die klant ondertussen failliet verklaard is.\nHet bedrag van de vordering bedraagt 60.000 euro.\nHet blijkt dat die vordering al oninvorderbaar was vóór de afsluiting van de balans per\n31/12/2012."
         },
         {
           "type": "tekst",
@@ -1340,7 +2140,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Maar daar ze\nniet over de nodige liquide middelen beschikken, besluiten ze een S-BVBA op te richten, onder\nde naam “Renaissance”.\nZe beslissen om u het boekhoudkundig en fiscaal beheer van het dossier toe te vertrouwen en\nleggen u het ontwerp voor.\nHierna volgen twee vragen die ze u stellen met betrekking tot de oprichting van deze\nvennootschap:\nd) Is het plan uitvoerbaar voor de twee vennoten?\nAntwoord\ne) Welke is hun aansprakelijkheid als oprichter?\nAntwoord"
+          "inhoud": "Maar daar ze\nniet over de nodige liquide middelen beschikken, besluiten ze een S-BVBA op te richten, onder\nde naam “Renaissance”.\nZe beslissen om u het boekhoudkundig en fiscaal beheer van het dossier toe te vertrouwen en\nleggen u het ontwerp voor.\nHierna volgen twee vragen die ze u stellen met betrekking tot de oprichting van deze\nvennootschap:\nd) Is het plan uitvoerbaar voor de twee vennoten?\n\ne) Welke is hun aansprakelijkheid als oprichter?"
         }
       ],
       "sub_vragen": [],
@@ -1396,6 +2196,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1406,7 +2207,7 @@
       "vak_code_in_pdf": "3.1",
       "vak_naam_in_pdf": "Vennootschapsrecht",
       "vraagtype": "MC",
-      "vraagtekst": "Sinds 1 januari 2008 kunnen er geen nieuwe effecten aan toonder uitgegeven worden.\nDe wetgever heeft gesteld dat uiterlijk op 31 december 2013 de effecten aan toonder\nmoeten omgezet zijn.\n\na. De wetgever heeft om de omzetten te versnellen reeds een maatregel genomen,\n\neen maatregel met een uitwerking in 2012 en/of 2013.\n\n**Welke is deze maatregel.**\n\nWelke actie kon/kan men ondernemen?.\n\n**Antwoord\nb) Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014 ?**\n\nAntwoord\n\nc. Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2015 ?\n\nAntwoord\n\nVENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN) 30 PUNTEN",
+      "vraagtekst": "Sinds 1 januari 2008 kunnen er geen nieuwe effecten aan toonder uitgegeven worden.\nDe wetgever heeft gesteld dat uiterlijk op 31 december 2013 de effecten aan toonder\nmoeten omgezet zijn.\n\na. De wetgever heeft om de omzetten te versnellen reeds een maatregel genomen,\n\neen maatregel met een uitwerking in 2012 en/of 2013.\n\n**Welke is deze maatregel.**\n\nWelke actie kon/kan men ondernemen?.\n\nb. Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014 ?\n\nc. Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2015 ?\n\nVENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN)",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -1430,12 +2231,9 @@
           "inhoud": "Welke actie kon/kan men ondernemen?."
         },
         {
-          "type": "vraag_instructie",
-          "inhoud": "Antwoord\nb) Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014 ?"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
+          "type": "mc_optie",
+          "label": "b",
+          "tekst": "Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014 ?"
         },
         {
           "type": "mc_optie",
@@ -1444,11 +2242,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "VENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN) 30 PUNTEN"
+          "inhoud": "VENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN)"
         }
       ],
       "sub_vragen": [],
@@ -1490,6 +2284,7 @@
         }
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1500,7 +2295,7 @@
       "vak_code_in_pdf": "3.2",
       "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
       "vraagtype": "MC",
-      "vraagtekst": "Het Wetboek van Vennootschappen voorziet in een procedure van ontbinding.\n\na. Wat is het voorwerp en het doel van de opdracht van de externe accountant?\n\nAntwoord\n\nb. Wie stelt de staat van activa en passiva op?\n\nAntwoord\n\nc. Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?\n\nAntwoord",
+      "vraagtekst": "Het Wetboek van Vennootschappen voorziet in een procedure van ontbinding.\n\na. Wat is het voorwerp en het doel van de opdracht van de externe accountant?\n\nb. Wie stelt de staat van activa en passiva op?\n\nc. Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -1512,26 +2307,14 @@
           "tekst": "Wat is het voorwerp en het doel van de opdracht van de externe accountant?"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "b",
           "tekst": "Wie stelt de staat van activa en passiva op?"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "c",
           "tekst": "Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         }
       ],
       "sub_vragen": [],
@@ -1574,6 +2357,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1584,7 +2368,7 @@
       "vak_code_in_pdf": "3.2",
       "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
       "vraagtype": "J/F",
-      "vraagtekst": "Op de boekhoudkundige staat van de\n\n> BVBA HOLDING RICH komen nog diverse machines A\nvoor.\n\nDe zaakvoerders van de\n\n> BVBA HOLDING RICH hebben een gemotiveerde, technisch en\nfinancieel onderbouwde waardering gemaakt van deze machines (totale waarde\n€ 600.\n\n000) op basis van de berekening van de toekomstige kasstromen en op basis van het\nnut van de machines voor het bedrijf. Aan de hand van deze waardering werd door het\ncollege van zaakvoerders bij het opstellen van de boekhoudkundige staat van activa en\npassiva een herwaarderingsmeerwaarde geboekt. Anderzijds heeft de leverancier van de\nmachines een bod gedaan om de machines A terug te kopen voor € 450.000, in dat geval\nmoet er wel een revisie op de machines A gebeuren van € 10.000.\nDe staat ziet er als volgt uit:\nStaat activa en passiva\nMachines A € 200.000 Kapitaal € 20.000\nMachines A (herwaarderingsmeerw) € 400.000 Herwaarderingsmeerwaarde € 400.000\nHandelsvorderingen – 1 jaar € 100.000 Overgedragen verlies € 50.000 (-)\nBank € 20.000 Resultaat v/d periode € 20.000\nSchulden + 1 jaar € 250.000\nSchulden – 1 jaar € 80.000\n----------------------------------------------------------------------------------------------------------------------\nTotaal € 720.000 € 720.000\na) Als accountant krijg je de opdracht om uw controleverslag te maken op\nbovenstaande staat in het kader van de ontbinding van de vennootschap.\nBestudeer deze staat en geef drie mogelijke correcties die moeten toegepast\nworden op deze staat.\nAntwoord\n\nb) Welk soort controle ga je toepassen bij uw verslag inzake ontbinding?\nAntwoord\nc) Kan deze ontbinding in één akte ook gesloten worden? Leg uit.\nAntwoord",
+      "vraagtekst": "Op de boekhoudkundige staat van de\n\n> BVBA HOLDING RICH komen nog diverse machines A\nvoor.\n\nDe zaakvoerders van de\n\n> BVBA HOLDING RICH hebben een gemotiveerde, technisch en\nfinancieel onderbouwde waardering gemaakt van deze machines (totale waarde\n€ 600.\n\n000) op basis van de berekening van de toekomstige kasstromen en op basis van het\nnut van de machines voor het bedrijf. Aan de hand van deze waardering werd door het\ncollege van zaakvoerders bij het opstellen van de boekhoudkundige staat van activa en\npassiva een herwaarderingsmeerwaarde geboekt. Anderzijds heeft de leverancier van de\nmachines een bod gedaan om de machines A terug te kopen voor € 450.000, in dat geval\nmoet er wel een revisie op de machines A gebeuren van € 10.000.\nDe staat ziet er als volgt uit:\nStaat activa en passiva\nMachines A € 200.000 Kapitaal € 20.000\nMachines A (herwaarderingsmeerw) € 400.000 Herwaarderingsmeerwaarde € 400.000\nHandelsvorderingen – 1 jaar € 100.000 Overgedragen verlies € 50.000 (-)\nBank € 20.000 Resultaat v/d periode € 20.000\nSchulden + 1 jaar € 250.000\nSchulden – 1 jaar € 80.000\n----------------------------------------------------------------------------------------------------------------------\nTotaal € 720.000 € 720.000\na) Als accountant krijg je de opdracht om uw controleverslag te maken op\nbovenstaande staat in het kader van de ontbinding van de vennootschap.\nBestudeer deze staat en geef drie mogelijke correcties die moeten toegepast\nworden op deze staat.\n\nb) Welk soort controle ga je toepassen bij uw verslag inzake ontbinding?\n\nc) Kan deze ontbinding in één akte ook gesloten worden? Leg uit.",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -1604,11 +2388,11 @@
         },
         {
           "type": "tekst",
-          "inhoud": "000) op basis van de berekening van de toekomstige kasstromen en op basis van het\nnut van de machines voor het bedrijf. Aan de hand van deze waardering werd door het\ncollege van zaakvoerders bij het opstellen van de boekhoudkundige staat van activa en\npassiva een herwaarderingsmeerwaarde geboekt. Anderzijds heeft de leverancier van de\nmachines een bod gedaan om de machines A terug te kopen voor € 450.000, in dat geval\nmoet er wel een revisie op de machines A gebeuren van € 10.000.\nDe staat ziet er als volgt uit:\nStaat activa en passiva\nMachines A € 200.000 Kapitaal € 20.000\nMachines A (herwaarderingsmeerw) € 400.000 Herwaarderingsmeerwaarde € 400.000\nHandelsvorderingen – 1 jaar € 100.000 Overgedragen verlies € 50.000 (-)\nBank € 20.000 Resultaat v/d periode € 20.000\nSchulden + 1 jaar € 250.000\nSchulden – 1 jaar € 80.000\n----------------------------------------------------------------------------------------------------------------------\nTotaal € 720.000 € 720.000\na) Als accountant krijg je de opdracht om uw controleverslag te maken op\nbovenstaande staat in het kader van de ontbinding van de vennootschap.\nBestudeer deze staat en geef drie mogelijke correcties die moeten toegepast\nworden op deze staat.\nAntwoord"
+          "inhoud": "000) op basis van de berekening van de toekomstige kasstromen en op basis van het\nnut van de machines voor het bedrijf. Aan de hand van deze waardering werd door het\ncollege van zaakvoerders bij het opstellen van de boekhoudkundige staat van activa en\npassiva een herwaarderingsmeerwaarde geboekt. Anderzijds heeft de leverancier van de\nmachines een bod gedaan om de machines A terug te kopen voor € 450.000, in dat geval\nmoet er wel een revisie op de machines A gebeuren van € 10.000.\nDe staat ziet er als volgt uit:\nStaat activa en passiva\nMachines A € 200.000 Kapitaal € 20.000\nMachines A (herwaarderingsmeerw) € 400.000 Herwaarderingsmeerwaarde € 400.000\nHandelsvorderingen – 1 jaar € 100.000 Overgedragen verlies € 50.000 (-)\nBank € 20.000 Resultaat v/d periode € 20.000\nSchulden + 1 jaar € 250.000\nSchulden – 1 jaar € 80.000\n----------------------------------------------------------------------------------------------------------------------\nTotaal € 720.000 € 720.000\na) Als accountant krijg je de opdracht om uw controleverslag te maken op\nbovenstaande staat in het kader van de ontbinding van de vennootschap.\nBestudeer deze staat en geef drie mogelijke correcties die moeten toegepast\nworden op deze staat."
         },
         {
           "type": "tekst",
-          "inhoud": "b) Welk soort controle ga je toepassen bij uw verslag inzake ontbinding?\nAntwoord\nc) Kan deze ontbinding in één akte ook gesloten worden? Leg uit.\nAntwoord"
+          "inhoud": "b) Welk soort controle ga je toepassen bij uw verslag inzake ontbinding?\n\nc) Kan deze ontbinding in één akte ook gesloten worden? Leg uit."
         }
       ],
       "sub_vragen": [],
@@ -1654,6 +2438,7 @@
         }
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1664,27 +2449,19 @@
       "vak_code_in_pdf": "3.2",
       "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
       "vraagtype": "open",
-      "vraagtekst": "In de\n\n> BVBA GOFORT werd een staat van activa en passiva afgesloten per 31/01/2013\nopgesteld en ondertekend door de interne boekhouder, met het oog op de ontbinding van de\nvennootschap.\n\nDe algemene vergadering wordt samengeroepen om te beslissen op\n15/04/2013 bij notaris. Het controleverslag werd opgesteld door de externe accountant die\nniet de reguliere adviseur is op 14/04/2013. Alle aandeelhouders bevestigen hun\naanwezigheid met uitzondering van een correct geïnformeerde vennoot met 10% van de\naandelen en die vraagt aan de zaakvoerders om de vergadering met drie weken te verdagen\ngezien hij in het buitenland is op 15/04/2013.\n\n**Geef drie opmerkingen bij vorige opgave en geef aan wat er dient te gebeuren.**\n\nAntwoord",
+      "vraagtekst": "> BVBA GOFORT werd een staat van activa en passiva afgesloten per 31/01/2013\nopgesteld en ondertekend door de interne boekhouder, met het oog op de ontbinding van de\nvennootschap.\n\n> De algemene vergadering wordt samengeroepen om te beslissen op\n15/04/2013 bij notaris. Het controleverslag werd opgesteld door de externe accountant die\nniet de reguliere adviseur is op 14/04/2013. Alle aandeelhouders bevestigen hun\naanwezigheid met uitzondering van een correct geïnformeerde vennoot met 10% van de\naandelen en die vraagt aan de zaakvoerders om de vergadering met drie weken te verdagen\ngezien hij in het buitenland is op 15/04/2013.\n\n**Geef drie opmerkingen bij vorige opgave en geef aan wat er dient te gebeuren.**",
       "vraagtekst_blokken": [
-        {
-          "type": "tekst",
-          "inhoud": "In de"
-        },
         {
           "type": "casus_context",
           "inhoud": "BVBA GOFORT werd een staat van activa en passiva afgesloten per 31/01/2013\nopgesteld en ondertekend door de interne boekhouder, met het oog op de ontbinding van de\nvennootschap."
         },
         {
-          "type": "tekst",
+          "type": "casus_context",
           "inhoud": "De algemene vergadering wordt samengeroepen om te beslissen op\n15/04/2013 bij notaris. Het controleverslag werd opgesteld door de externe accountant die\nniet de reguliere adviseur is op 14/04/2013. Alle aandeelhouders bevestigen hun\naanwezigheid met uitzondering van een correct geïnformeerde vennoot met 10% van de\naandelen en die vraagt aan de zaakvoerders om de vergadering met drie weken te verdagen\ngezien hij in het buitenland is op 15/04/2013."
         },
         {
           "type": "vraag_instructie",
           "inhoud": "Geef drie opmerkingen bij vorige opgave en geef aan wat er dient te gebeuren."
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         }
       ],
       "sub_vragen": [],
@@ -1696,6 +2473,7 @@
       ],
       "wets_verwijzingen": [],
       "vraag_prefix": "Vraag 3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1706,7 +2484,7 @@
       "vak_code_in_pdf": "3.2",
       "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
       "vraagtype": "MC",
-      "vraagtekst": "De normen inzake het verslag op te stellen bij de omzetting van een vennootschap stelt dat\nde beroepsbeoefenaar bij het aanvaarden van zijn opdracht over een behoorlijke\nopdrachtbrief dient te beschikken.\n\na. Wie ondertekent de opdrachtbrief ?\n\nAntwoord\n\nb. Geef 3 elementen die minimaal in de opdrachtbrief dienen voor te komen.\n\nAntwoord\n\nPERSONENBELASTING 20 PUNTEN",
+      "vraagtekst": "De normen inzake het verslag op te stellen bij de omzetting van een vennootschap stelt dat\nde beroepsbeoefenaar bij het aanvaarden van zijn opdracht over een behoorlijke\nopdrachtbrief dient te beschikken.\n\na. Wie ondertekent de opdrachtbrief ?\n\nb. Geef 3 elementen die minimaal in de opdrachtbrief dienen voor te komen.",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -1718,21 +2496,9 @@
           "tekst": "Wie ondertekent de opdrachtbrief ?"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "b",
           "tekst": "Geef 3 elementen die minimaal in de opdrachtbrief dienen voor te komen."
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "PERSONENBELASTING 20 PUNTEN"
         }
       ],
       "sub_vragen": [],
@@ -1766,6 +2532,7 @@
         }
       ],
       "vraag_prefix": "Vraag 4",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1776,7 +2543,7 @@
       "vak_code_in_pdf": "2.1",
       "vak_naam_in_pdf": "Personenbelasting",
       "vraagtype": "J/F",
-      "vraagtekst": "> De heer André, een loodgieter van 58 jaar oud, zet in 2012 zijn beroepswerkzaamheid stop en\nverkoopt zijn volledige handelszaak aan de heer Bernard\n(NB: geen verwantschap tussen de overlater en de overnemer).\n\n**Bereken, op basis van de hierna verstrekte gegevens, het bedrag van de verschillende\nstopzettingsmeerwaarden die in de belastingaangifte moeten vermeld worden en geef de\naanslagvoet van de verschillende bestanddelen.**\n\nDe bedragen zijn exclusief btw. (Er moet\ngeen rekening gehouden worden met de gemeentelijke opcentiemen, en ook niet met een\neventuele globale aanslag indien deze voordeliger zou zijn voor de belastingplichtige).\nNB: het gebouw werd in 1985 aangekocht voor een totale waarde van 500.000 euro. Onder\ncontrole van de FOD Financiën werd volgende omdeling gemaakt: 400.000 euro voor het\ngebouw en 100.000 euro voor het terrein, het gelijkvloers werd bestemd voor de\nberoepswerkzaamheid en de 1ste verdieping voor privébewoning (50/50-verhouding).\nUiteenzetting van de in de verkoopovereenkomst vermelde prijs:\nVerkoopprijs van de machines = € 50.000\nVerkoopprijs van het gebouw (Dhr. Bernard koopt het volledige gebouw en zal zich met zijn\ngezin op de 1ste verdieping vestigen) = € 800.000. Er werd overeengekomen dat het gedeelte\nterrein € 200.000 bedraagt.\nVerkoopprijs van de bestelwagen = € 25.000\nVerkoopprijs van de cliënteel = € 300.000\nTijdens de laatste jaren verwezenlijkte winst:\n2011 € 35.242\n2010 € 17.771\n2009 € 28.861\n2008 € 30.367\n2007 € 21.784\n\n> De heer André had een gespecialiseerde onderneming in de arm genomen voor de overlating\nvan zijn handelszaak.\n\nDie bemiddelaar heeft voor de verleende diensten een commissieloon\nontvangen van € 117.500 (10%).\n\n> De heer André heeft netto dus € 1.\n\n057.500 ontvangen (hetzij € 1.175.000 min € 117.500).\nAntwoord",
+      "vraagtekst": "> De heer André, een loodgieter van 58 jaar oud, zet in 2012 zijn beroepswerkzaamheid stop en\nverkoopt zijn volledige handelszaak aan de heer Bernard\n(NB: geen verwantschap tussen de overlater en de overnemer).\n\n**Bereken, op basis van de hierna verstrekte gegevens, het bedrag van de verschillende\nstopzettingsmeerwaarden die in de belastingaangifte moeten vermeld worden en geef de\naanslagvoet van de verschillende bestanddelen.**\n\nDe bedragen zijn exclusief btw. (Er moet\ngeen rekening gehouden worden met de gemeentelijke opcentiemen, en ook niet met een\neventuele globale aanslag indien deze voordeliger zou zijn voor de belastingplichtige).\nNB: het gebouw werd in 1985 aangekocht voor een totale waarde van 500.000 euro. Onder\ncontrole van de FOD Financiën werd volgende omdeling gemaakt: 400.000 euro voor het\ngebouw en 100.000 euro voor het terrein, het gelijkvloers werd bestemd voor de\nberoepswerkzaamheid en de 1ste verdieping voor privébewoning (50/50-verhouding).\nUiteenzetting van de in de verkoopovereenkomst vermelde prijs:\nVerkoopprijs van de machines = € 50.000\nVerkoopprijs van het gebouw (Dhr. Bernard koopt het volledige gebouw en zal zich met zijn\ngezin op de 1ste verdieping vestigen) = € 800.000. Er werd overeengekomen dat het gedeelte\nterrein € 200.000 bedraagt.\nVerkoopprijs van de bestelwagen = € 25.000\nVerkoopprijs van de cliënteel = € 300.000\nTijdens de laatste jaren verwezenlijkte winst:\n2011 € 35.242\n2010 € 17.771\n2009 € 28.861\n2008 € 30.367\n2007 € 21.784\n\n> De heer André had een gespecialiseerde onderneming in de arm genomen voor de overlating\nvan zijn handelszaak.\n\nDie bemiddelaar heeft voor de verleende diensten een commissieloon\nontvangen van € 117.500 (10%).\n\n> De heer André heeft netto dus € 1.\n\n057.500 ontvangen (hetzij € 1.175.000 min € 117.500).",
       "vraagtekst_blokken": [
         {
           "type": "casus_context",
@@ -1804,7 +2571,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "057.500 ontvangen (hetzij € 1.175.000 min € 117.500).\nAntwoord"
+          "inhoud": "057.500 ontvangen (hetzij € 1.175.000 min € 117.500)."
         }
       ],
       "sub_vragen": [],
@@ -1815,6 +2582,7 @@
       ],
       "wets_verwijzingen": [],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2018,10 +2786,6 @@
             "x1": 150.48000000000002,
             "bottom": 113.36000000000001
           }
-        },
-        {
-          "type": "tekst",
-          "inhoud": "VENNOOTSCHAPSBELASTING 20 PUNTEN"
         }
       ],
       "sub_vragen": [],
@@ -2082,6 +2846,7 @@
         }
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2092,11 +2857,11 @@
       "vak_code_in_pdf": "2.2",
       "vak_naam_in_pdf": "Vennootschapsbelasting",
       "vraagtype": "J/F",
-      "vraagtekst": "Een bvba verschaft volgende gegevens over de waardering van haar goederenvoorraad voor\nhet jaar 2012 (we beperken ons tot één bepaald type product) :\nDe bedragen zijn exclusief btw.\nBeginvoorraad = 265 stuks\nAantal aangekochte producten = 1 810 stuks\nAantal verkochte producten = 1 775 stuks\nEindvoorraad = 280 stuks\nAankoopprijs 200,00 EUR/stuk\nVerkoopprijs 250,00 EUR/stuk\nOp de balans verschijnt een eindvoorraad met een waarde van 56 000,00 euro ( 280 stuks x\n200,00 euro/stuk). De resultatenrekening vertoont een bruto-exploitatiewinst gelijk aan\n84 750,00 euro:\nOmzet 1 775,00/stuk x 250 stuks = 443 750,00\n-kostprijs verkochte goederen (265st + 1810st – 280st) x 200,00 = - 359 000,00\nBrutowinst = 84 750,00\nNaar aanleiding van het fiscale onderzoek over boekjaar 2012 stelt de controledienst vast dat\nde bvba een aankoopfactuur voor 20 producten heeft geboekt onder haar aankopen, terwijl\nde producten pas tijdens het volgende boekjaar 2013 door de leverancier werden geleverd.\nAangezien die 20 producten niet zijn geteld op 31.12.2012, zijn zij niet opgenomen in de\ninventaris.\nWat zijn de fiscale gevolgen van die fiscale controle?\nAntwoord",
+      "vraagtekst": "Een bvba verschaft volgende gegevens over de waardering van haar goederenvoorraad voor\nhet jaar 2012 (we beperken ons tot één bepaald type product) :\nDe bedragen zijn exclusief btw.\nBeginvoorraad = 265 stuks\nAantal aangekochte producten = 1 810 stuks\nAantal verkochte producten = 1 775 stuks\nEindvoorraad = 280 stuks\nAankoopprijs 200,00 EUR/stuk\nVerkoopprijs 250,00 EUR/stuk\nOp de balans verschijnt een eindvoorraad met een waarde van 56 000,00 euro ( 280 stuks x\n200,00 euro/stuk). De resultatenrekening vertoont een bruto-exploitatiewinst gelijk aan\n84 750,00 euro:\nOmzet 1 775,00/stuk x 250 stuks = 443 750,00\n-kostprijs verkochte goederen (265st + 1810st – 280st) x 200,00 = - 359 000,00\nBrutowinst = 84 750,00\nNaar aanleiding van het fiscale onderzoek over boekjaar 2012 stelt de controledienst vast dat\nde bvba een aankoopfactuur voor 20 producten heeft geboekt onder haar aankopen, terwijl\nde producten pas tijdens het volgende boekjaar 2013 door de leverancier werden geleverd.\nAangezien die 20 producten niet zijn geteld op 31.12.2012, zijn zij niet opgenomen in de\ninventaris.\nWat zijn de fiscale gevolgen van die fiscale controle?",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Een bvba verschaft volgende gegevens over de waardering van haar goederenvoorraad voor\nhet jaar 2012 (we beperken ons tot één bepaald type product) :\nDe bedragen zijn exclusief btw.\nBeginvoorraad = 265 stuks\nAantal aangekochte producten = 1 810 stuks\nAantal verkochte producten = 1 775 stuks\nEindvoorraad = 280 stuks\nAankoopprijs 200,00 EUR/stuk\nVerkoopprijs 250,00 EUR/stuk\nOp de balans verschijnt een eindvoorraad met een waarde van 56 000,00 euro ( 280 stuks x\n200,00 euro/stuk). De resultatenrekening vertoont een bruto-exploitatiewinst gelijk aan\n84 750,00 euro:\nOmzet 1 775,00/stuk x 250 stuks = 443 750,00\n-kostprijs verkochte goederen (265st + 1810st – 280st) x 200,00 = - 359 000,00\nBrutowinst = 84 750,00\nNaar aanleiding van het fiscale onderzoek over boekjaar 2012 stelt de controledienst vast dat\nde bvba een aankoopfactuur voor 20 producten heeft geboekt onder haar aankopen, terwijl\nde producten pas tijdens het volgende boekjaar 2013 door de leverancier werden geleverd.\nAangezien die 20 producten niet zijn geteld op 31.12.2012, zijn zij niet opgenomen in de\ninventaris.\nWat zijn de fiscale gevolgen van die fiscale controle?\nAntwoord"
+          "inhoud": "Een bvba verschaft volgende gegevens over de waardering van haar goederenvoorraad voor\nhet jaar 2012 (we beperken ons tot één bepaald type product) :\nDe bedragen zijn exclusief btw.\nBeginvoorraad = 265 stuks\nAantal aangekochte producten = 1 810 stuks\nAantal verkochte producten = 1 775 stuks\nEindvoorraad = 280 stuks\nAankoopprijs 200,00 EUR/stuk\nVerkoopprijs 250,00 EUR/stuk\nOp de balans verschijnt een eindvoorraad met een waarde van 56 000,00 euro ( 280 stuks x\n200,00 euro/stuk). De resultatenrekening vertoont een bruto-exploitatiewinst gelijk aan\n84 750,00 euro:\nOmzet 1 775,00/stuk x 250 stuks = 443 750,00\n-kostprijs verkochte goederen (265st + 1810st – 280st) x 200,00 = - 359 000,00\nBrutowinst = 84 750,00\nNaar aanleiding van het fiscale onderzoek over boekjaar 2012 stelt de controledienst vast dat\nde bvba een aankoopfactuur voor 20 producten heeft geboekt onder haar aankopen, terwijl\nde producten pas tijdens het volgende boekjaar 2013 door de leverancier werden geleverd.\nAangezien die 20 producten niet zijn geteld op 31.12.2012, zijn zij niet opgenomen in de\ninventaris.\nWat zijn de fiscale gevolgen van die fiscale controle?"
         }
       ],
       "sub_vragen": [],
@@ -2107,6 +2872,7 @@
       ],
       "wets_verwijzingen": [],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2117,7 +2883,7 @@
       "vak_code_in_pdf": "2.2",
       "vak_naam_in_pdf": "Vennootschapsbelasting",
       "vraagtype": "J/F",
-      "vraagtekst": "Een bestaande Belgische NV (kleine vennootschap volgens art. 15 W.Venn.) die haar balans\nafsluit op 31.12.2012 beheert de volgende voorziening, door het vereiste formulier (204.3):\nEen voorziening van 23 000,00 euro voor grote herstellingen prijkte op de balans van het\nboekjaar afgesloten op 31.12.2011. Deze voorziening is op te splitsen in 5 000,00 euro voor\nschilderwerken, die werd vrijgesteld en in 18 000,00 euro voor de uitbreiding van de garage.\nDe totale voorziening van 23 000,00 euro wordt in 2012 volledig teruggenomen wegens het\nten laste nemen van bedoelde uitgaven, te weten:\n- Schilderwerken (om de 10 jaar) waarvan de kostprijs 8 900,00 euro (excl. btw)\nbedraagt;\n\n- Uitbreiding van de garage voor de vrachtwagens, waarvan de kostprijs 18 000,00\neuro (exclusief btw) bedraagt.\nVervolledig onderstaande onderdeel van de aangifte : omschrijving + overeenkomstig(e)\nbedrag(en).\nAntwoord",
+      "vraagtekst": "Een bestaande Belgische NV (kleine vennootschap volgens art. 15 W.Venn.) die haar balans\nafsluit op 31.12.2012 beheert de volgende voorziening, door het vereiste formulier (204.3):\nEen voorziening van 23 000,00 euro voor grote herstellingen prijkte op de balans van het\nboekjaar afgesloten op 31.12.2011. Deze voorziening is op te splitsen in 5 000,00 euro voor\nschilderwerken, die werd vrijgesteld en in 18 000,00 euro voor de uitbreiding van de garage.\nDe totale voorziening van 23 000,00 euro wordt in 2012 volledig teruggenomen wegens het\nten laste nemen van bedoelde uitgaven, te weten:\n- Schilderwerken (om de 10 jaar) waarvan de kostprijs 8 900,00 euro (excl. btw)\nbedraagt;\n\n- Uitbreiding van de garage voor de vrachtwagens, waarvan de kostprijs 18 000,00\neuro (exclusief btw) bedraagt.\nVervolledig onderstaande onderdeel van de aangifte : omschrijving + overeenkomstig(e)\nbedrag(en).",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -2125,7 +2891,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "- Uitbreiding van de garage voor de vrachtwagens, waarvan de kostprijs 18 000,00\neuro (exclusief btw) bedraagt.\nVervolledig onderstaande onderdeel van de aangifte : omschrijving + overeenkomstig(e)\nbedrag(en).\nAntwoord"
+          "inhoud": "- Uitbreiding van de garage voor de vrachtwagens, waarvan de kostprijs 18 000,00\neuro (exclusief btw) bedraagt.\nVervolledig onderstaande onderdeel van de aangifte : omschrijving + overeenkomstig(e)\nbedrag(en)."
         }
       ],
       "sub_vragen": [],
@@ -2140,6 +2906,7 @@
         "art. 15 W.Venn."
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2150,20 +2917,16 @@
       "vak_code_in_pdf": "2.2",
       "vak_naam_in_pdf": "Vennootschapsbelasting",
       "vraagtype": "MC",
-      "vraagtekst": "/ 8 punten\nEen vennootschap heeft een boekjaar van 1 oktober 2011 tot en met 30 september 2012. In de\nperiode tussen 1 januari 2012 tot en met 30 september 2012 zijn de belastbare voordelen van\nalle aard uit firmawagens voor de personeelsleden en de bedrijfsleiders van de\nvennootschap gelijk aan 100 000,00 euro. Al deze voordelen zijn belastbaar in de\npersonenbelasting in hoofde van de genieters.\nDe vennootschap beschikt over overgedragen fiscale verliezen voor aanslagjaar 2012 van\n13 000,00 euro.\nFiscaal resultaat na 1ste bewerking = 50 000,00\n- Aangroei reserves : 6 000,00\n- Verworpen uitgaven (incl. 17 000= 17% x 100 000,00 VAA) : 40 000,00\n- Uitgekeerde dividenden : 4 000,00\n\na. Bepaal in onderstaande hypothese de belastbare grondslag van deze vennootschap\n\nAntwoord\n\nb. Vul de bijgevoegde onderdelen van de aangifte in.\n\nAntwoord\nBELASTING OVER DE TOEGEVOEGDE WAARDE",
+      "vraagtekst": "Een vennootschap heeft een boekjaar van 1 oktober 2011 tot en met 30 september 2012. In de\nperiode tussen 1 januari 2012 tot en met 30 september 2012 zijn de belastbare voordelen van\nalle aard uit firmawagens voor de personeelsleden en de bedrijfsleiders van de\nvennootschap gelijk aan 100 000,00 euro. Al deze voordelen zijn belastbaar in de\npersonenbelasting in hoofde van de genieters.\nDe vennootschap beschikt over overgedragen fiscale verliezen voor aanslagjaar 2012 van\n13 000,00 euro.\nFiscaal resultaat na 1ste bewerking = 50 000,00\n- Aangroei reserves : 6 000,00\n- Verworpen uitgaven (incl. 17 000= 17% x 100 000,00 VAA) : 40 000,00\n- Uitgekeerde dividenden : 4 000,00\n\na. Bepaal in onderstaande hypothese de belastbare grondslag van deze vennootschap\n\nb. Vul de bijgevoegde onderdelen van de aangifte in.\n\nBELASTING OVER DE TOEGEVOEGDE WAARDE",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "/ 8 punten\nEen vennootschap heeft een boekjaar van 1 oktober 2011 tot en met 30 september 2012. In de\nperiode tussen 1 januari 2012 tot en met 30 september 2012 zijn de belastbare voordelen van\nalle aard uit firmawagens voor de personeelsleden en de bedrijfsleiders van de\nvennootschap gelijk aan 100 000,00 euro. Al deze voordelen zijn belastbaar in de\npersonenbelasting in hoofde van de genieters.\nDe vennootschap beschikt over overgedragen fiscale verliezen voor aanslagjaar 2012 van\n13 000,00 euro.\nFiscaal resultaat na 1ste bewerking = 50 000,00\n- Aangroei reserves : 6 000,00\n- Verworpen uitgaven (incl. 17 000= 17% x 100 000,00 VAA) : 40 000,00\n- Uitgekeerde dividenden : 4 000,00"
+          "inhoud": "Een vennootschap heeft een boekjaar van 1 oktober 2011 tot en met 30 september 2012. In de\nperiode tussen 1 januari 2012 tot en met 30 september 2012 zijn de belastbare voordelen van\nalle aard uit firmawagens voor de personeelsleden en de bedrijfsleiders van de\nvennootschap gelijk aan 100 000,00 euro. Al deze voordelen zijn belastbaar in de\npersonenbelasting in hoofde van de genieters.\nDe vennootschap beschikt over overgedragen fiscale verliezen voor aanslagjaar 2012 van\n13 000,00 euro.\nFiscaal resultaat na 1ste bewerking = 50 000,00\n- Aangroei reserves : 6 000,00\n- Verworpen uitgaven (incl. 17 000= 17% x 100 000,00 VAA) : 40 000,00\n- Uitgekeerde dividenden : 4 000,00"
         },
         {
           "type": "mc_optie",
           "label": "a",
           "tekst": "Bepaal in onderstaande hypothese de belastbare grondslag van deze vennootschap"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         },
         {
           "type": "mc_optie",
@@ -2172,7 +2935,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Antwoord\nBELASTING OVER DE TOEGEVOEGDE WAARDE"
+          "inhoud": "BELASTING OVER DE TOEGEVOEGDE WAARDE"
         }
       ],
       "sub_vragen": [],
@@ -2206,6 +2969,7 @@
         }
       ],
       "vraag_prefix": "Vraag 3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2233,10 +2997,6 @@
         {
           "type": "tekst",
           "inhoud": "U mag er van uit gaan dat de bedragen exclusief btw zijn.\na) Een gewone belastingplichtige zet op 15 januari 2012 zijn economische activiteit stop.\nOp het ogenblik van deze definitieve stopzetting bevat het bedrijfspatrimonium nog\neen bestelwagen (aangekocht in 2011 voor de prijs van € 30 000,00 + 21% btw) en het\nbedrijfsgebouw (aangekocht in 2006 voor een prijs van € 250 000,00 + 21% btw). De\nbestelwagen is op het ogenblik van de stopzetting nog € 20 000,00 waard. Het\nbedrijfsgebouw is daarentegen in waarde gestegen en is bij de stopzetting\n€ 350 000,00 waard."
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         },
         {
           "type": "tabel",
@@ -2277,7 +3037,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "b) Een Belgische belastingplichtige betaalt op 10 januari 2013 aan een Japans bedrijf de\nsom van € 5 000,00 voor de uitvoering van een grote promotiecampagne op Japans\ngrondgebied.\nAntwoord"
+          "inhoud": "b) Een Belgische belastingplichtige betaalt op 10 januari 2013 aan een Japans bedrijf de\nsom van € 5 000,00 voor de uitvoering van een grote promotiecampagne op Japans\ngrondgebied."
         },
         {
           "type": "tabel",
@@ -2318,7 +3078,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "c) Een Belgische belastingplichtige verzendt op 15 mei 2012 een partij handelsgoederen\nvanuit haar magazijn te Utrecht (Nederland) naar haar hoofdzetel te Antwerpen. De\ngoederen werden drie maanden geleden aangekocht in Nederland voor de prijs van\n€ 1 250,00, exclusief Nederlandse btw. Dezelfde dag maakt de Belgische\nbelastingplichtige een transfertdocument op.\nAntwoord"
+          "inhoud": "c) Een Belgische belastingplichtige verzendt op 15 mei 2012 een partij handelsgoederen\nvanuit haar magazijn te Utrecht (Nederland) naar haar hoofdzetel te Antwerpen. De\ngoederen werden drie maanden geleden aangekocht in Nederland voor de prijs van\n€ 1 250,00, exclusief Nederlandse btw. Dezelfde dag maakt de Belgische\nbelastingplichtige een transfertdocument op."
         },
         {
           "type": "tabel",
@@ -2397,6 +3157,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2407,7 +3168,7 @@
       "vak_code_in_pdf": "2.3",
       "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
       "vraagtype": "MC",
-      "vraagtekst": "**Welke btw gevolgen zijn verbonden aan de onderstaande gegevens:\nGeef hierbij een woordje uitleg (geen verwijzing naar artikelnummers) en vermeld\novereenkomstig(e) bedrag(en).**\n\nDe nummers van de roosters van de btw-aangifte moet je niet\nvermelden.\na) A, een handelaar in computers richt een gebouw op in 2012 (= opslagplaats van\ngoederen) (in gebruik name op 01.07.2012).\nFacturen 2011 : 250 000,00\nFacturen 2012 : 250 000,00\nHet gebouw wordt verkocht op 01 mei 2016 voor een bedrag van\n520 000,00 (€ 450 000,00 voor het gebouw en € 70 000,00 voor de grond) aan B.\nB zal in de toekomst het gebouw verhuren aan A.\nWat zijn de gevolgen inzake btw in hoofde van A ?\nAntwoord\n\nb) Een btw-plichtige vennootschap koopt in 2013 een nieuwe personenwagen aan die\ngratis ter beschikking wordt gesteld aan een personeelslid.\nDe aankoopprijs van de wagen bedraagt € 30 000,00 (excl. btw). Het personeelslid mag\nde wagen ook voor privédoeleinden gebruiken.\nBij aankoop werd het beroepsgebruik geraamd op 60%. Einde 2013 bleek het\neffectieve beroepsgebruik 30% te zijn.\n\n**Antwoord\nc) In 2008 : aankoop van een personenwagen door een btw-belastingplichtige BVBA voor\n€ 30 000,00 + € 6 300,00 btw.**\n\n(in 2008 uitgeoefend recht op aftrek : 6 300,00 x 50% = 3 150,00)\nIn 2013 : verkoop van die wagen voor € 8 000,00 (excl. btw).\nWat zijn de btw gevolgen bij verkoop van de wagen in 2013?\nAntwoord\nBEGINSELEN VAN REGISTRATIE- EN 10 PUNTEN\nSUCCESSIERECHTEN",
+      "vraagtekst": "**Welke btw gevolgen zijn verbonden aan de onderstaande gegevens:\nGeef hierbij een woordje uitleg (geen verwijzing naar artikelnummers) en vermeld\novereenkomstig(e) bedrag(en).**\n\nDe nummers van de roosters van de btw-aangifte moet je niet\nvermelden.\na) A, een handelaar in computers richt een gebouw op in 2012 (= opslagplaats van\ngoederen) (in gebruik name op 01.07.2012).\nFacturen 2011 : 250 000,00\nFacturen 2012 : 250 000,00\nHet gebouw wordt verkocht op 01 mei 2016 voor een bedrag van\n520 000,00 (€ 450 000,00 voor het gebouw en € 70 000,00 voor de grond) aan B.\nB zal in de toekomst het gebouw verhuren aan A.\nWat zijn de gevolgen inzake btw in hoofde van A ?\n\n> b) Een btw-plichtige vennootschap koopt in 2013 een nieuwe personenwagen aan die\ngratis ter beschikking wordt gesteld aan een personeelslid.\nDe aankoopprijs van de wagen bedraagt € 30 000,00 (excl. btw). Het personeelslid mag\nde wagen ook voor privédoeleinden gebruiken.\nBij aankoop werd het beroepsgebruik geraamd op 60%. Einde 2013 bleek het\neffectieve beroepsgebruik 30% te zijn.\n\n**Antwoord\nc) In 2008 : aankoop van een personenwagen door een btw-belastingplichtige BVBA voor\n€ 30 000,00 + € 6 300,00 btw.**\n\n(in 2008 uitgeoefend recht op aftrek : 6 300,00 x 50% = 3 150,00)\nIn 2013 : verkoop van die wagen voor € 8 000,00 (excl. btw).\nWat zijn de btw gevolgen bij verkoop van de wagen in 2013?",
       "vraagtekst_blokken": [
         {
           "type": "vraag_instructie",
@@ -2415,10 +3176,10 @@
         },
         {
           "type": "tekst",
-          "inhoud": "De nummers van de roosters van de btw-aangifte moet je niet\nvermelden.\na) A, een handelaar in computers richt een gebouw op in 2012 (= opslagplaats van\ngoederen) (in gebruik name op 01.07.2012).\nFacturen 2011 : 250 000,00\nFacturen 2012 : 250 000,00\nHet gebouw wordt verkocht op 01 mei 2016 voor een bedrag van\n520 000,00 (€ 450 000,00 voor het gebouw en € 70 000,00 voor de grond) aan B.\nB zal in de toekomst het gebouw verhuren aan A.\nWat zijn de gevolgen inzake btw in hoofde van A ?\nAntwoord"
+          "inhoud": "De nummers van de roosters van de btw-aangifte moet je niet\nvermelden.\na) A, een handelaar in computers richt een gebouw op in 2012 (= opslagplaats van\ngoederen) (in gebruik name op 01.07.2012).\nFacturen 2011 : 250 000,00\nFacturen 2012 : 250 000,00\nHet gebouw wordt verkocht op 01 mei 2016 voor een bedrag van\n520 000,00 (€ 450 000,00 voor het gebouw en € 70 000,00 voor de grond) aan B.\nB zal in de toekomst het gebouw verhuren aan A.\nWat zijn de gevolgen inzake btw in hoofde van A ?"
         },
         {
-          "type": "tekst",
+          "type": "casus_context",
           "inhoud": "b) Een btw-plichtige vennootschap koopt in 2013 een nieuwe personenwagen aan die\ngratis ter beschikking wordt gesteld aan een personeelslid.\nDe aankoopprijs van de wagen bedraagt € 30 000,00 (excl. btw). Het personeelslid mag\nde wagen ook voor privédoeleinden gebruiken.\nBij aankoop werd het beroepsgebruik geraamd op 60%. Einde 2013 bleek het\neffectieve beroepsgebruik 30% te zijn."
         },
         {
@@ -2427,7 +3188,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "(in 2008 uitgeoefend recht op aftrek : 6 300,00 x 50% = 3 150,00)\nIn 2013 : verkoop van die wagen voor € 8 000,00 (excl. btw).\nWat zijn de btw gevolgen bij verkoop van de wagen in 2013?\nAntwoord\nBEGINSELEN VAN REGISTRATIE- EN 10 PUNTEN\nSUCCESSIERECHTEN"
+          "inhoud": "(in 2008 uitgeoefend recht op aftrek : 6 300,00 x 50% = 3 150,00)\nIn 2013 : verkoop van die wagen voor € 8 000,00 (excl. btw).\nWat zijn de btw gevolgen bij verkoop van de wagen in 2013?"
         }
       ],
       "sub_vragen": [],
@@ -2471,6 +3232,7 @@
         }
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2481,7 +3243,7 @@
       "vak_code_in_pdf": "2.4",
       "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
       "vraagtype": "J/F",
-      "vraagtekst": "> De heer Vandenbroucke, wonende in Nederland, verkoopt aan mevrouw Leroy, wonende in\nBelgië, een in Leuven gelegen gemeubileerd appartement (mevrouw Leroy is al eigenaar van\nhet bovenvermeld appartement: zij wil er een duplex van maken).\n\nDe optredende notaris is\nmeester Vandewielen, notaris te Amsterdam. De akte wordt verleden op 17 december 2012.\nDe verkoopprijs wordt bepaald als volgt: € 300.000, waarvan € 25.000 voor het meubilair.\nDe akte bevat volgende vermeldingen:\n de verkoopwaarde van het appartement bedraagt 250.000 euro;\n mw. Leroy is gehouden tot betaling van het ereloon van de notaris, ten bedrage van\n5.000 euro;\n mw. Leroy is gehouden tot betaling van de achterstallige lasten van de mede-\neigendom die van de heer Vandenbroucke worden gevorderd en tot op heden\nonbetaald gebleven zijn, ten bedrage van 3.000 euro.\n\na. Moet die akte in België worden geregistreerd?\n\nAntwoord\n\nJa, het is verplicht\n\nNeen, het is niet nodig\n\nDe registratie is een facultatieve formaliteit, maar wordt aanbevolen omdat ze in\nBelgië een zekere datum verschaft\n\nb. Indien ja, wie is ertoe gehouden de akte te laten registreren?\n\nAntwoord\n\n\nDhr. Vandenbroucke\n\nMw. Leroy\n\nMr. Vandewielen\n\nDhr. Vandenbroucke en Mw. Leroy tezamen\n\nDie verantwoordelijkheid berust niet op een bepaalde persoon in het bijzonder, het\nvoornaamste is dat de akte wordt geregistreerd.\nc) Zo ja, binnen welke termijn moet de akte ter registratie worden aangeboden?\nAntwoord\n\n15 dagen\n\n1 maand\n\n2 maanden\n\n4 maanden\n\nGeen termijn voorzien\nd) Geef de belastbare grondslag in de registratierechten aan, indien de akte (al dan niet\nverplicht) voor de formaliteit van registratie wordt aangeboden.\n\n**Antwoord\n\nGeen, vast recht van 25 euro\n\n250.**\n\n000 euro\n\n300.000 euro\n\n275.000 euro\n\n305.000 euro\n\n278.000 euro\n\n308.000 euro",
+      "vraagtekst": "> De heer Vandenbroucke, wonende in Nederland, verkoopt aan mevrouw Leroy, wonende in\nBelgië, een in Leuven gelegen gemeubileerd appartement (mevrouw Leroy is al eigenaar van\nhet bovenvermeld appartement: zij wil er een duplex van maken).\n\nDe optredende notaris is\nmeester Vandewielen, notaris te Amsterdam. De akte wordt verleden op 17 december 2012.\nDe verkoopprijs wordt bepaald als volgt: € 300.000, waarvan € 25.000 voor het meubilair.\nDe akte bevat volgende vermeldingen:\n de verkoopwaarde van het appartement bedraagt 250.000 euro;\n mw. Leroy is gehouden tot betaling van het ereloon van de notaris, ten bedrage van\n5.000 euro;\n mw. Leroy is gehouden tot betaling van de achterstallige lasten van de mede-\neigendom die van de heer Vandenbroucke worden gevorderd en tot op heden\nonbetaald gebleven zijn, ten bedrage van 3.000 euro.\n\na. Moet die akte in België worden geregistreerd?\n\n\nJa, het is verplicht\n\nNeen, het is niet nodig\n\nDe registratie is een facultatieve formaliteit, maar wordt aanbevolen omdat ze in\nBelgië een zekere datum verschaft\n\nb. Indien ja, wie is ertoe gehouden de akte te laten registreren?\n\n> \nDhr. Vandenbroucke\n\nMw. Leroy\n\nMr. Vandewielen\n\nDhr. Vandenbroucke en Mw. Leroy tezamen\n\nDie verantwoordelijkheid berust niet op een bepaalde persoon in het bijzonder, het\nvoornaamste is dat de akte wordt geregistreerd.\nc) Zo ja, binnen welke termijn moet de akte ter registratie worden aangeboden?\n\n\n15 dagen\n\n1 maand\n\n2 maanden\n\n4 maanden\n\nGeen termijn voorzien\nd) Geef de belastbare grondslag in de registratierechten aan, indien de akte (al dan niet\nverplicht) voor de formaliteit van registratie wordt aangeboden.\n\n**Antwoord\n\nGeen, vast recht van 25 euro\n\n250.**\n\n000 euro\n\n300.000 euro\n\n275.000 euro\n\n305.000 euro\n\n278.000 euro\n\n308.000 euro",
       "vraagtekst_blokken": [
         {
           "type": "casus_context",
@@ -2498,7 +3260,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Antwoord\n\nJa, het is verplicht\n\nNeen, het is niet nodig\n\nDe registratie is een facultatieve formaliteit, maar wordt aanbevolen omdat ze in\nBelgië een zekere datum verschaft"
+          "inhoud": "\nJa, het is verplicht\n\nNeen, het is niet nodig\n\nDe registratie is een facultatieve formaliteit, maar wordt aanbevolen omdat ze in\nBelgië een zekere datum verschaft"
         },
         {
           "type": "mc_optie",
@@ -2506,12 +3268,8 @@
           "tekst": "Indien ja, wie is ertoe gehouden de akte te laten registreren?"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "\nDhr. Vandenbroucke\n\nMw. Leroy\n\nMr. Vandewielen\n\nDhr. Vandenbroucke en Mw. Leroy tezamen\n\nDie verantwoordelijkheid berust niet op een bepaalde persoon in het bijzonder, het\nvoornaamste is dat de akte wordt geregistreerd.\nc) Zo ja, binnen welke termijn moet de akte ter registratie worden aangeboden?\nAntwoord\n\n15 dagen\n\n1 maand\n\n2 maanden\n\n4 maanden\n\nGeen termijn voorzien\nd) Geef de belastbare grondslag in de registratierechten aan, indien de akte (al dan niet\nverplicht) voor de formaliteit van registratie wordt aangeboden."
+          "type": "casus_context",
+          "inhoud": "\nDhr. Vandenbroucke\n\nMw. Leroy\n\nMr. Vandewielen\n\nDhr. Vandenbroucke en Mw. Leroy tezamen\n\nDie verantwoordelijkheid berust niet op een bepaalde persoon in het bijzonder, het\nvoornaamste is dat de akte wordt geregistreerd.\nc) Zo ja, binnen welke termijn moet de akte ter registratie worden aangeboden?\n\n\n15 dagen\n\n1 maand\n\n2 maanden\n\n4 maanden\n\nGeen termijn voorzien\nd) Geef de belastbare grondslag in de registratierechten aan, indien de akte (al dan niet\nverplicht) voor de formaliteit van registratie wordt aangeboden."
         },
         {
           "type": "vraag_instructie",
@@ -2571,6 +3329,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2581,14 +3340,14 @@
       "vak_code_in_pdf": "2.4",
       "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
       "vraagtype": "J/F",
-      "vraagtekst": "> De heer André, sinds meer dan 10 jaar weduwnaar, is overleden en laat als enige wettige\nerfgename zijn dochter Anne na.\n\nKorte tijd vóór zijn overlijden heeft de heer André een authentiek testament opgesteld (dat bij\neen notaris werd neergelegd) waarin hij mevrouw Michèle, met wie hij sinds enige jaren\nsamenleeft, als algemeen legataris aanstelt.\nWanneer mevrouw Michèle verneemt dat zij tot algemeen legataris is aangesteld, uit zij de\nwens om aan de nalatenschap te verzaken, want zij heeft altijd goed kunnen opschieten met\nAnne en beschouwt de beslissing van de heer André jegens zijn dochter als een\nonrechtvaardigheid.\n\n**Hoe zal de ontvanger van de successierechten dit geval behandelen?**\n\n**Antwoord\n\nMevrouw Michèle kan niet verzaken aan de nalatenschap, want het testament is\nauthentiek.**\n\nZij zal het volledig netto actief van de nalatenschap ontvangen. Het\ntoegepaste tarief is het tarief tussen personen zonder enige graad van verwantschap.\n\nAnne zal het volledig netto actief van de nalatenschap ontvangen. Het toegepaste\ntarief is het tarief in rechte lijn, met de aftrek voorzien voor de erfgenaam in rechte\nlijn.\n\nAangezien de staat niet mag benadeeld worden ten gevolge van de verzaking, zal\nAnne de rechten verschuldigd zijn die hadden moeten betaald worden zonder\nverzaking aan de nalatenschap. Anne zal dus het volledig netto actief van de\nnalatenschap ontvangen. Het toegepaste tarief is het tarief tussen personen zonder\nenige graad van verwantschap.\n\nHet testament kan op burgerrechtelijk gebied worden aangevochten. Anne kan\ninroepen dat zij, bij de uitvoering van het testament, haar recht op het voorbehouden\ngedeelte had kunnen laten gelden. Anne zal het volledig netto actief van de\nnalatenschap ontvangen. Het toegepaste tarief is het tarief in rechte lijn, voor de helft\nvan de nalatenschap, en het tarief tussen personen zonder enige graad van\nverwantschap, voor de andere helft van de nalatenschap.\nBEGINSELEN VAN EUROPEES EN INTERNATIONAAL 10 PUNTEN\nFISCAAL RECHT",
+      "vraagtekst": "> De heer André, sinds meer dan 10 jaar weduwnaar, is overleden en laat als enige wettige\nerfgename zijn dochter Anne na.\n\n> Korte tijd vóór zijn overlijden heeft de heer André een authentiek testament opgesteld (dat bij\neen notaris werd neergelegd) waarin hij mevrouw Michèle, met wie hij sinds enige jaren\nsamenleeft, als algemeen legataris aanstelt.\nWanneer mevrouw Michèle verneemt dat zij tot algemeen legataris is aangesteld, uit zij de\nwens om aan de nalatenschap te verzaken, want zij heeft altijd goed kunnen opschieten met\nAnne en beschouwt de beslissing van de heer André jegens zijn dochter als een\nonrechtvaardigheid.\n\n**Hoe zal de ontvanger van de successierechten dit geval behandelen?**\n\n**Antwoord\n\nMevrouw Michèle kan niet verzaken aan de nalatenschap, want het testament is\nauthentiek.**\n\nZij zal het volledig netto actief van de nalatenschap ontvangen. Het\ntoegepaste tarief is het tarief tussen personen zonder enige graad van verwantschap.\n\nAnne zal het volledig netto actief van de nalatenschap ontvangen. Het toegepaste\ntarief is het tarief in rechte lijn, met de aftrek voorzien voor de erfgenaam in rechte\nlijn.\n\nAangezien de staat niet mag benadeeld worden ten gevolge van de verzaking, zal\nAnne de rechten verschuldigd zijn die hadden moeten betaald worden zonder\nverzaking aan de nalatenschap. Anne zal dus het volledig netto actief van de\nnalatenschap ontvangen. Het toegepaste tarief is het tarief tussen personen zonder\nenige graad van verwantschap.\n\nHet testament kan op burgerrechtelijk gebied worden aangevochten. Anne kan\ninroepen dat zij, bij de uitvoering van het testament, haar recht op het voorbehouden\ngedeelte had kunnen laten gelden. Anne zal het volledig netto actief van de\nnalatenschap ontvangen. Het toegepaste tarief is het tarief in rechte lijn, voor de helft\nvan de nalatenschap, en het tarief tussen personen zonder enige graad van\nverwantschap, voor de andere helft van de nalatenschap.",
       "vraagtekst_blokken": [
         {
           "type": "casus_context",
           "inhoud": "De heer André, sinds meer dan 10 jaar weduwnaar, is overleden en laat als enige wettige\nerfgename zijn dochter Anne na."
         },
         {
-          "type": "tekst",
+          "type": "casus_context",
           "inhoud": "Korte tijd vóór zijn overlijden heeft de heer André een authentiek testament opgesteld (dat bij\neen notaris werd neergelegd) waarin hij mevrouw Michèle, met wie hij sinds enige jaren\nsamenleeft, als algemeen legataris aanstelt.\nWanneer mevrouw Michèle verneemt dat zij tot algemeen legataris is aangesteld, uit zij de\nwens om aan de nalatenschap te verzaken, want zij heeft altijd goed kunnen opschieten met\nAnne en beschouwt de beslissing van de heer André jegens zijn dochter als een\nonrechtvaardigheid."
         },
         {
@@ -2601,7 +3360,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Zij zal het volledig netto actief van de nalatenschap ontvangen. Het\ntoegepaste tarief is het tarief tussen personen zonder enige graad van verwantschap.\n\nAnne zal het volledig netto actief van de nalatenschap ontvangen. Het toegepaste\ntarief is het tarief in rechte lijn, met de aftrek voorzien voor de erfgenaam in rechte\nlijn.\n\nAangezien de staat niet mag benadeeld worden ten gevolge van de verzaking, zal\nAnne de rechten verschuldigd zijn die hadden moeten betaald worden zonder\nverzaking aan de nalatenschap. Anne zal dus het volledig netto actief van de\nnalatenschap ontvangen. Het toegepaste tarief is het tarief tussen personen zonder\nenige graad van verwantschap.\n\nHet testament kan op burgerrechtelijk gebied worden aangevochten. Anne kan\ninroepen dat zij, bij de uitvoering van het testament, haar recht op het voorbehouden\ngedeelte had kunnen laten gelden. Anne zal het volledig netto actief van de\nnalatenschap ontvangen. Het toegepaste tarief is het tarief in rechte lijn, voor de helft\nvan de nalatenschap, en het tarief tussen personen zonder enige graad van\nverwantschap, voor de andere helft van de nalatenschap.\nBEGINSELEN VAN EUROPEES EN INTERNATIONAAL 10 PUNTEN\nFISCAAL RECHT"
+          "inhoud": "Zij zal het volledig netto actief van de nalatenschap ontvangen. Het\ntoegepaste tarief is het tarief tussen personen zonder enige graad van verwantschap.\n\nAnne zal het volledig netto actief van de nalatenschap ontvangen. Het toegepaste\ntarief is het tarief in rechte lijn, met de aftrek voorzien voor de erfgenaam in rechte\nlijn.\n\nAangezien de staat niet mag benadeeld worden ten gevolge van de verzaking, zal\nAnne de rechten verschuldigd zijn die hadden moeten betaald worden zonder\nverzaking aan de nalatenschap. Anne zal dus het volledig netto actief van de\nnalatenschap ontvangen. Het toegepaste tarief is het tarief tussen personen zonder\nenige graad van verwantschap.\n\nHet testament kan op burgerrechtelijk gebied worden aangevochten. Anne kan\ninroepen dat zij, bij de uitvoering van het testament, haar recht op het voorbehouden\ngedeelte had kunnen laten gelden. Anne zal het volledig netto actief van de\nnalatenschap ontvangen. Het toegepaste tarief is het tarief in rechte lijn, voor de helft\nvan de nalatenschap, en het tarief tussen personen zonder enige graad van\nverwantschap, voor de andere helft van de nalatenschap."
         }
       ],
       "sub_vragen": [],
@@ -2612,6 +3371,7 @@
       ],
       "wets_verwijzingen": [],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2622,7 +3382,7 @@
       "vak_code_in_pdf": "2.6",
       "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
       "vraagtype": "open",
-      "vraagtekst": "De heer B. is een natuurlijke persoon van Belgische nationaliteit, vrijgezel en zonder\npersonen ten laste, en op fiscaal gebied inwoner van België. Hij is bediende bij een\nvennootschap naar Belgisch recht met een vaste inrichting in Frankrijk. Die Belgische\nvennootschap maakt deel uit van een internationale groep die ook een dochtervennootschap\nin Duitsland heeft.\n\n> De heer B is het hoofd van de financiële afdeling van de Belgische vennootschap en zijn\nwerkgever wil hem bijkomende verantwoordelijkheden toevertrouwen in het Franse\nbijkantoor en in de Duitse dochtervennootschap van de groep.\n\nHij zal dan drie dagen per week in België voor de centrale zetel in België werken, één dag per\nweek in Frankrijk voor de Franse vaste inrichting en één dag per week in Duitsland voor de\nDuitse vennootschap.\nDe last van zijn bezoldigingen en van de indirecte kosten in verband met zijn werkzaamheid\nwordt verdeeld tussen de Belgische vennootschap en haar Frans bijkantoor. Met de Duitse\nvennootschap zal de heer B een afzonderlijke arbeidsovereenkomst sluiten en die\nvennootschap zal zijn bezoldigingen in verband met zijn werkzaamheden in Duitsland\nbetalen. Bijgevolg zullen zijn loonkosten ten laste genomen worden door de verschillende\noperationele entiteiten, op basis van de in elk land gepresteerde arbeidsduur.\n\n> De heer B vraagt u of deze nieuwe situatie voor hem gevolgen zal hebben op het gebied van\nzijn inkomstenbelastingen, en zulks in België, Frankrijk en Duitsland.\n\nWat antwoordt u hem op grond van de beginselen ingeschreven in de door de Organisatie\nvoor Economische Samenwerking en Ontwikkeling (OESO) ontwikkelde Modelovereenkomst\nbetreffende het Inkomen en het Vermogen:\n\na) In welk(e) land(en) zal de heer B aan de inkomstenbelasting onderworpen zijn en welk\ndeel van zijn loon zal er moeten aangegeven worden?\nAntwoord",
+      "vraagtekst": "De heer B. is een natuurlijke persoon van Belgische nationaliteit, vrijgezel en zonder\npersonen ten laste, en op fiscaal gebied inwoner van België. Hij is bediende bij een\nvennootschap naar Belgisch recht met een vaste inrichting in Frankrijk. Die Belgische\nvennootschap maakt deel uit van een internationale groep die ook een dochtervennootschap\nin Duitsland heeft.\n\n> De heer B is het hoofd van de financiële afdeling van de Belgische vennootschap en zijn\nwerkgever wil hem bijkomende verantwoordelijkheden toevertrouwen in het Franse\nbijkantoor en in de Duitse dochtervennootschap van de groep.\n\nHij zal dan drie dagen per week in België voor de centrale zetel in België werken, één dag per\nweek in Frankrijk voor de Franse vaste inrichting en één dag per week in Duitsland voor de\nDuitse vennootschap.\nDe last van zijn bezoldigingen en van de indirecte kosten in verband met zijn werkzaamheid\nwordt verdeeld tussen de Belgische vennootschap en haar Frans bijkantoor. Met de Duitse\nvennootschap zal de heer B een afzonderlijke arbeidsovereenkomst sluiten en die\nvennootschap zal zijn bezoldigingen in verband met zijn werkzaamheden in Duitsland\nbetalen. Bijgevolg zullen zijn loonkosten ten laste genomen worden door de verschillende\noperationele entiteiten, op basis van de in elk land gepresteerde arbeidsduur.\n\n> De heer B vraagt u of deze nieuwe situatie voor hem gevolgen zal hebben op het gebied van\nzijn inkomstenbelastingen, en zulks in België, Frankrijk en Duitsland.\n\nWat antwoordt u hem op grond van de beginselen ingeschreven in de door de Organisatie\nvoor Economische Samenwerking en Ontwikkeling (OESO) ontwikkelde Modelovereenkomst\nbetreffende het Inkomen en het Vermogen:\n\na) In welk(e) land(en) zal de heer B aan de inkomstenbelasting onderworpen zijn en welk\ndeel van zijn loon zal er moeten aangegeven worden?",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -2646,7 +3406,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "a) In welk(e) land(en) zal de heer B aan de inkomstenbelasting onderworpen zijn en welk\ndeel van zijn loon zal er moeten aangegeven worden?\nAntwoord"
+          "inhoud": "a) In welk(e) land(en) zal de heer B aan de inkomstenbelasting onderworpen zijn en welk\ndeel van zijn loon zal er moeten aangegeven worden?"
         }
       ],
       "sub_vragen": [],
@@ -2664,6 +3424,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2678,7 +3439,7 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Uw cliënt en zijn echtgenote zijn de enige aandeelhouders van een naamloze vennootschap\nnaar Belgisch recht.\nHun schoonbroer bezit 97% van de aandelen van een handelsvennootschap naar Hongaars\nrecht (rechtsvorm die overeenkomt met een naamloze vennootschap). De resterende 3% van\nhet kapitaal van die vennootschap naar Hongaars recht is in bezit van de naamloze\nvennootschap naar Belgisch recht van uw cliënt en zijn echtgenote.\nDe Belgische en de Hongaarse vennootschappen worden volledig gescheiden beheerd. De\nhiervoor beschreven toestand bestaat sinds 2001.\nIn 2010 heeft de Belgische naamloze vennootschap van uw cliënt een lening toegestaan aan\nde Hongaarse vennootschap die, zoals hiervoor gezegd, in handen is van de schoonbroer\nvan uw cliënt.\nVoorts heeft de Belgische vennootschap in 2012 dividenden van de Hongaarse\nvennootschap geïnd.\nDe Hongaarse fiscus eist de inhouding van een bronheffing op de interesten van de lening en\nop de dividenden, terwijl uw cliënt en zijn echtgenote dachten dat, gelet op de zogenaamde\nEuropese “Moeder-dochterrichtlijn” en “Interest-royaltyrichtlijn”, er in Hongarije op die\ninkomsten geen bronheffing meer kon worden ingehouden.\nUw cliënt vraagt u of die richtlijnen van toepassing zijn op de hier hoger beschreven situatie.\na) Wat antwoordt u hem: ja of neen?\nAntwoord\n “Moeder-dochterrichtlijn”"
+          "inhoud": "Uw cliënt en zijn echtgenote zijn de enige aandeelhouders van een naamloze vennootschap\nnaar Belgisch recht.\nHun schoonbroer bezit 97% van de aandelen van een handelsvennootschap naar Hongaars\nrecht (rechtsvorm die overeenkomt met een naamloze vennootschap). De resterende 3% van\nhet kapitaal van die vennootschap naar Hongaars recht is in bezit van de naamloze\nvennootschap naar Belgisch recht van uw cliënt en zijn echtgenote.\nDe Belgische en de Hongaarse vennootschappen worden volledig gescheiden beheerd. De\nhiervoor beschreven toestand bestaat sinds 2001.\nIn 2010 heeft de Belgische naamloze vennootschap van uw cliënt een lening toegestaan aan\nde Hongaarse vennootschap die, zoals hiervoor gezegd, in handen is van de schoonbroer\nvan uw cliënt.\nVoorts heeft de Belgische vennootschap in 2012 dividenden van de Hongaarse\nvennootschap geïnd.\nDe Hongaarse fiscus eist de inhouding van een bronheffing op de interesten van de lening en\nop de dividenden, terwijl uw cliënt en zijn echtgenote dachten dat, gelet op de zogenaamde\nEuropese “Moeder-dochterrichtlijn” en “Interest-royaltyrichtlijn”, er in Hongarije op die\ninkomsten geen bronheffing meer kon worden ingehouden.\nUw cliënt vraagt u of die richtlijnen van toepassing zijn op de hier hoger beschreven situatie.\na) Wat antwoordt u hem: ja of neen?\n\n “Moeder-dochterrichtlijn”"
         },
         {
           "type": "tabel",
@@ -2699,10 +3460,6 @@
             "x1": 177.11999999999998,
             "bottom": 557.5999999999999
           }
-        },
-        {
-          "type": "tekst",
-          "inhoud": " “Interest-royaltyrichtlijn”"
         },
         {
           "type": "tabel",
@@ -2726,11 +3483,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "b) Verklaar uw antwoord door te verwijzen naar de bepalingen van die Europese\nrichtlijnen.\nAntwoord"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "FISCALE PROCEDURE 15 PUNTEN"
+          "inhoud": "b) Verklaar uw antwoord door te verwijzen naar de bepalingen van die Europese\nrichtlijnen."
         }
       ],
       "sub_vragen": [],
@@ -2763,6 +3516,7 @@
         }
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2773,7 +3527,7 @@
       "vak_code_in_pdf": "2.7",
       "vak_naam_in_pdf": "Fiscale procedure",
       "vraagtype": "J/F",
-      "vraagtekst": "De onderneming “Snack on the Road” exploiteert een foodservice langs de autosnelweg. De\nbediening ligt naast een tankstation en verschaft maaltijden en bereid voedsel aan\nautomobilisten die op de pleisterplaats of aan het tankstation stoppen. De producten zijn\nzowel verpakt voor verbruik ter plaatse, in een speciaal daartoe ingerichte ruimte, als om\nmee te nemen voor verbruik daarbuiten.\nBij een niet aangekondigde btw-controle op 27 januari 2013 doen de controleurs zich voor als\ngewone klanten en kopen mondvoorraad. De kassier van Snack on the Road maakt de\nrekening zonder te vragen of de aankoop bestemd is voor verbruik ter plaatse of om mee te\nnemen. De btw wordt aangerekend tegen 6%.\nDe controleur betaalt zijn aankoop en neemt plaats om zijn eten ter plaatse te verbruiken.\nDrie dagen later ontvangt Snack on the Road een proces-verbaal van vaststelling, gedateerd\nop 27 januari 2013 en uitgaande van de administratie van de btw, waarin vermeld staat dat uit\neen onderzoek ter plaatse gebleken is dat de btw op alle aankopen tegen het tarief van 6%\nwordt berekend, ook als de waar ter plaatse verbruikt wordt.\nIn een afzonderlijke brief, gedateerd op dezelfde dag, kondigt de administratie een grondige\ncontrole aan over de periode van 1 januari 2005 tot 27 januari 2013. Die aankondiging\nverwijst naar het proces-verbaal van dezelfde dag maar omschrijft de vastgestelde feiten\nniet. De controle is voorzien voor 20 februari 2013.\nVragen:\n\na. - Vermeld de normale verjaringstermijn van de vordering tot voldoening van de\n\nbelasting.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?\nAntwoord\n\nb. -Vermeld de normale verjaringstermijn van de vordering tot voldoening van de\n\nbelasting in geval van belastingontduiking.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?\nAntwoord\n\nc. Vermeld, in bovenstaand voorbeeld, het laatste jaar tot waar de administratie, vanaf 27\n\njanuari 2013, kan teruggaan om controle uit te oefenen.\n\n**Antwoord\nd) Is de brief die de grondige controle aankondigt een aanwijzing van\nbelastingontduiking?**\n\nAntwoord",
+      "vraagtekst": "De onderneming “Snack on the Road” exploiteert een foodservice langs de autosnelweg. De\nbediening ligt naast een tankstation en verschaft maaltijden en bereid voedsel aan\nautomobilisten die op de pleisterplaats of aan het tankstation stoppen. De producten zijn\nzowel verpakt voor verbruik ter plaatse, in een speciaal daartoe ingerichte ruimte, als om\nmee te nemen voor verbruik daarbuiten.\nBij een niet aangekondigde btw-controle op 27 januari 2013 doen de controleurs zich voor als\ngewone klanten en kopen mondvoorraad. De kassier van Snack on the Road maakt de\nrekening zonder te vragen of de aankoop bestemd is voor verbruik ter plaatse of om mee te\nnemen. De btw wordt aangerekend tegen 6%.\nDe controleur betaalt zijn aankoop en neemt plaats om zijn eten ter plaatse te verbruiken.\nDrie dagen later ontvangt Snack on the Road een proces-verbaal van vaststelling, gedateerd\nop 27 januari 2013 en uitgaande van de administratie van de btw, waarin vermeld staat dat uit\neen onderzoek ter plaatse gebleken is dat de btw op alle aankopen tegen het tarief van 6%\nwordt berekend, ook als de waar ter plaatse verbruikt wordt.\nIn een afzonderlijke brief, gedateerd op dezelfde dag, kondigt de administratie een grondige\ncontrole aan over de periode van 1 januari 2005 tot 27 januari 2013. Die aankondiging\nverwijst naar het proces-verbaal van dezelfde dag maar omschrijft de vastgestelde feiten\nniet. De controle is voorzien voor 20 februari 2013.\nVragen:\n\na. - Vermeld de normale verjaringstermijn van de vordering tot voldoening van de\n\nbelasting.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?\n\nb. -Vermeld de normale verjaringstermijn van de vordering tot voldoening van de\n\nbelasting in geval van belastingontduiking.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?\n\nc. Vermeld, in bovenstaand voorbeeld, het laatste jaar tot waar de administratie, vanaf 27\n\njanuari 2013, kan teruggaan om controle uit te oefenen.\n\nd. Is de brief die de grondige controle aankondigt een aanwijzing van",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -2786,7 +3540,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "belasting.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?\nAntwoord"
+          "inhoud": "belasting.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?"
         },
         {
           "type": "mc_optie",
@@ -2795,7 +3549,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "belasting in geval van belastingontduiking.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?\nAntwoord"
+          "inhoud": "belasting in geval van belastingontduiking.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?"
         },
         {
           "type": "mc_optie",
@@ -2807,12 +3561,9 @@
           "inhoud": "januari 2013, kan teruggaan om controle uit te oefenen."
         },
         {
-          "type": "vraag_instructie",
-          "inhoud": "Antwoord\nd) Is de brief die de grondige controle aankondigt een aanwijzing van\nbelastingontduiking?"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
+          "type": "mc_optie",
+          "label": "d",
+          "tekst": "Is de brief die de grondige controle aankondigt een aanwijzing van"
         }
       ],
       "sub_vragen": [],
@@ -2863,6 +3614,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2873,11 +3625,11 @@
       "vak_code_in_pdf": "2.7",
       "vak_naam_in_pdf": "Fiscale procedure",
       "vraagtype": "MC",
-      "vraagtekst": "/ 6 punten\nOp 5 februari 2013 wordt het proces-verbaal van de administratie van de btw overgezonden\naan de controleur van de directe belastingen van de onderneming Snack on the Road.\nDie vennootschap sluit haar boekjaar af op 31 maart van het jaar.\nDe controleur geeft kennis van de aanwijzingen inzake belastingontduiking en kondigt een\ncontrole ter plaatse aan op 20 februari 2013 met betrekking tot de op 31 maart afgesloten\nboekjaren 2005 tot 2012.\nVragen:\n\na. Voor het aanslagjaar 2012 werd de aangifte in de vennootschapsbelasting bij de\n\nadministratie ingediend op 20 september 2012.\n\n**Geef de uiterste datum van inkohiering\nvan de belasting.**\n\nAntwoord\n\nb. Vermeld, in verband met de procedure gesteund op de aanwijzingen van\n\nbelastingontduiking, het oudste belastbare tijdperk dat het voorwerp kan uitmaken\nvan die onderzoeken.\n\n**Vermeld de begin- en einddatum van dit belastbare tijdperk.**\n\nAntwoord\n\nc. Toont, wat de aanwijzingen van belastingontduiking betreft, het proces-verbaal van\n\nvaststelling inzake de btw, het bestaan van belastingontduiking aan op het gebied van\nde vennootschapsbelasting? Verklaar uw antwoord.\nAntwoord\nJURIDISCHE EN BEROEPSNORMEN MET BETREKKING \nTOT DE ACCOUNTANCY, DE BELASTINGCONSULTANCY\nEN DE ANDERE WETTELIJKE OPDRACHTEN VAN DE\nACCOUNTANT EN VAN DE BELASTINGCONSULENT",
+      "vraagtekst": "> Op 5 februari 2013 wordt het proces-verbaal van de administratie van de btw overgezonden\naan de controleur van de directe belastingen van de onderneming Snack on the Road.\nDie vennootschap sluit haar boekjaar af op 31 maart van het jaar.\nDe controleur geeft kennis van de aanwijzingen inzake belastingontduiking en kondigt een\ncontrole ter plaatse aan op 20 februari 2013 met betrekking tot de op 31 maart afgesloten\nboekjaren 2005 tot 2012.\nVragen:\n\na. Voor het aanslagjaar 2012 werd de aangifte in de vennootschapsbelasting bij de\n\nadministratie ingediend op 20 september 2012.\n\n**Geef de uiterste datum van inkohiering\nvan de belasting.**\n\nb. Vermeld, in verband met de procedure gesteund op de aanwijzingen van\n\nbelastingontduiking, het oudste belastbare tijdperk dat het voorwerp kan uitmaken\nvan die onderzoeken.\n\n**Vermeld de begin- en einddatum van dit belastbare tijdperk.**\n\nc. Toont, wat de aanwijzingen van belastingontduiking betreft, het proces-verbaal van\n\nvaststelling inzake de btw, het bestaan van belastingontduiking aan op het gebied van\nde vennootschapsbelasting? Verklaar uw antwoord.\nJURIDISCHE EN BEROEPSNORMEN MET BETREKKING \nTOT DE ACCOUNTANCY, DE BELASTINGCONSULTANCY\nEN DE ANDERE WETTELIJKE OPDRACHTEN VAN DE\nACCOUNTANT EN VAN DE BELASTINGCONSULENT",
       "vraagtekst_blokken": [
         {
-          "type": "tekst",
-          "inhoud": "/ 6 punten\nOp 5 februari 2013 wordt het proces-verbaal van de administratie van de btw overgezonden\naan de controleur van de directe belastingen van de onderneming Snack on the Road.\nDie vennootschap sluit haar boekjaar af op 31 maart van het jaar.\nDe controleur geeft kennis van de aanwijzingen inzake belastingontduiking en kondigt een\ncontrole ter plaatse aan op 20 februari 2013 met betrekking tot de op 31 maart afgesloten\nboekjaren 2005 tot 2012.\nVragen:"
+          "type": "casus_context",
+          "inhoud": "Op 5 februari 2013 wordt het proces-verbaal van de administratie van de btw overgezonden\naan de controleur van de directe belastingen van de onderneming Snack on the Road.\nDie vennootschap sluit haar boekjaar af op 31 maart van het jaar.\nDe controleur geeft kennis van de aanwijzingen inzake belastingontduiking en kondigt een\ncontrole ter plaatse aan op 20 februari 2013 met betrekking tot de op 31 maart afgesloten\nboekjaren 2005 tot 2012.\nVragen:"
         },
         {
           "type": "mc_optie",
@@ -2893,10 +3645,6 @@
           "inhoud": "Geef de uiterste datum van inkohiering\nvan de belasting."
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "b",
           "tekst": "Vermeld, in verband met de procedure gesteund op de aanwijzingen van"
@@ -2910,17 +3658,13 @@
           "inhoud": "Vermeld de begin- en einddatum van dit belastbare tijdperk."
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "c",
           "tekst": "Toont, wat de aanwijzingen van belastingontduiking betreft, het proces-verbaal van"
         },
         {
           "type": "tekst",
-          "inhoud": "vaststelling inzake de btw, het bestaan van belastingontduiking aan op het gebied van\nde vennootschapsbelasting? Verklaar uw antwoord.\nAntwoord\nJURIDISCHE EN BEROEPSNORMEN MET BETREKKING \nTOT DE ACCOUNTANCY, DE BELASTINGCONSULTANCY\nEN DE ANDERE WETTELIJKE OPDRACHTEN VAN DE\nACCOUNTANT EN VAN DE BELASTINGCONSULENT"
+          "inhoud": "vaststelling inzake de btw, het bestaan van belastingontduiking aan op het gebied van\nde vennootschapsbelasting? Verklaar uw antwoord.\nJURIDISCHE EN BEROEPSNORMEN MET BETREKKING \nTOT DE ACCOUNTANCY, DE BELASTINGCONSULTANCY\nEN DE ANDERE WETTELIJKE OPDRACHTEN VAN DE\nACCOUNTANT EN VAN DE BELASTINGCONSULENT"
         }
       ],
       "sub_vragen": [],
@@ -2962,6 +3706,7 @@
         }
       ],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -2976,7 +3721,7 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Antiwitwas-wetgeving\nIn het kader van de Antiwitwas-wetgeving wordt gesproken over een compliane officer of\nwitwasverantwoordelijke. Deze dient te worden aangesteld als er binnen hetzelfde kantoor\n“10” beroepsbeoefenaars werkzaam zijn.\na) Duid hieronder aan wie aanzien wordt als een beroepsbeoefenaar:\nAntwoord\n\nBedrijfsrevisoren\n\nStagiair bedrijfsrevisoren\n\nExterne Accountants – Belastingconsulenten\n\nInterne Accountants – Belastingconsulenten"
+          "inhoud": "Antiwitwas-wetgeving\nIn het kader van de Antiwitwas-wetgeving wordt gesproken over een compliane officer of\nwitwasverantwoordelijke. Deze dient te worden aangesteld als er binnen hetzelfde kantoor\n“10” beroepsbeoefenaars werkzaam zijn.\na) Duid hieronder aan wie aanzien wordt als een beroepsbeoefenaar:\n\n\nBedrijfsrevisoren\n\nStagiair bedrijfsrevisoren\n\nExterne Accountants – Belastingconsulenten\n\nInterne Accountants – Belastingconsulenten"
         },
         {
           "type": "tekst",
@@ -2985,10 +3730,6 @@
         {
           "type": "vraag_instructie",
           "inhoud": "Antwoord\nc) Wanneer een compliance officer of witwasverantwoordelijke werd aangesteld, dienen\ndan de andere beroepsbeoefenaars nog steeds de nodige meldingen te doen aan de\nCFI?"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord"
         },
         {
           "type": "tabel",
@@ -3012,7 +3753,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Zo ja, wat dient er dan te gebeuren:\nAntwoord"
+          "inhoud": "Zo ja, wat dient er dan te gebeuren:"
         }
       ],
       "sub_vragen": [],
@@ -3054,6 +3795,7 @@
         }
       ],
       "vraag_prefix": "Vraag 1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -3064,11 +3806,11 @@
       "vak_code_in_pdf": "4.0",
       "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
       "vraagtype": "open",
-      "vraagtekst": "In het kader van het beroepsgeheim zijn twee uitzonderingen ingeschreven in het\nstrafwetboek, en de externe accountant en/of belastingconsulent dus het beroepsgeheim\nnaast zich neer kan leggen.\nOm welke uitzonderingen gaat het hier?\nAntwoord",
+      "vraagtekst": "In het kader van het beroepsgeheim zijn twee uitzonderingen ingeschreven in het\nstrafwetboek, en de externe accountant en/of belastingconsulent dus het beroepsgeheim\nnaast zich neer kan leggen.\nOm welke uitzonderingen gaat het hier?",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "In het kader van het beroepsgeheim zijn twee uitzonderingen ingeschreven in het\nstrafwetboek, en de externe accountant en/of belastingconsulent dus het beroepsgeheim\nnaast zich neer kan leggen.\nOm welke uitzonderingen gaat het hier?\nAntwoord"
+          "inhoud": "In het kader van het beroepsgeheim zijn twee uitzonderingen ingeschreven in het\nstrafwetboek, en de externe accountant en/of belastingconsulent dus het beroepsgeheim\nnaast zich neer kan leggen.\nOm welke uitzonderingen gaat het hier?"
         }
       ],
       "sub_vragen": [],
@@ -3079,6 +3821,7 @@
       ],
       "wets_verwijzingen": [],
       "vraag_prefix": "Vraag 2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -3265,6 +4008,7 @@
         }
       ],
       "vraag_prefix": "Vraag 3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -3426,6 +4170,7 @@
         }
       ],
       "vraag_prefix": "Vraag 4",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -3436,7 +4181,7 @@
       "vak_code_in_pdf": "4.0",
       "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
       "vraagtype": "MC",
-      "vraagtekst": "Wanneer een externe accountant een door de vennootschappenwet opgelegd en openbaar te\nmaken controleverslag opstelt, dient hij hiervan een kopie over te maken aan het instituut.\nPreciseer vanaf welk moment en binnen welke termijn het verslag moet verstuurd worden in\nhet kader van:\n\na. een vereffening van een vennootschap?\n\nAntwoord\n\nb. een omvorming van een vennootschap?\n\nAntwoord\n************************************************************************************************",
+      "vraagtekst": "Wanneer een externe accountant een door de vennootschappenwet opgelegd en openbaar te\nmaken controleverslag opstelt, dient hij hiervan een kopie over te maken aan het instituut.\nPreciseer vanaf welk moment en binnen welke termijn het verslag moet verstuurd worden in\nhet kader van:\n\na. een vereffening van een vennootschap?\n\nb. een omvorming van een vennootschap?",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
@@ -3448,17 +4193,9 @@
           "tekst": "een vereffening van een vennootschap?"
         },
         {
-          "type": "tekst",
-          "inhoud": "Antwoord"
-        },
-        {
           "type": "mc_optie",
           "label": "b",
           "tekst": "een omvorming van een vennootschap?"
-        },
-        {
-          "type": "tekst",
-          "inhoud": "Antwoord\n************************************************************************************************"
         }
       ],
       "sub_vragen": [],
@@ -3492,11 +4229,12 @@
         }
       ],
       "vraag_prefix": "Vraag 5",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-19T23:34:27.040231+00:00",
+    "uitgevoerd_op": "2026-05-20T00:20:00.175764+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2013-1.json",
     "behouden_antwoorden": 11,
     "behouden_gap_reports": 5,

@@ -7,20 +7,20 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-19T23:34:44.552288+00:00",
+    "extracted_at": "2026-05-20T00:20:10.153130+00:00",
     "n_vragen": 28,
     "n_pages": 8,
     "n_tabellen_geaccepteerd": 0,
     "n_tabellen_verworpen": 0,
     "blok_type_counts": {
-      "tekst": 37,
-      "vraag_instructie": 7,
+      "casus_context": 3,
+      "vraag_instructie": 5,
+      "tekst": 30,
       "proef_saldibalans": 1,
       "inventaris": 2,
       "marktwaarde": 1,
       "aanpassing": 1,
-      "mc_optie": 7,
-      "casus_context": 2
+      "mc_optie": 8
     }
   },
   "vragen": [
@@ -32,7 +32,7 @@
       "vak_code_in_pdf": "A",
       "vak_naam_in_pdf": "A. Algemene boekhouding",
       "vraagtype": "berekening",
-      "vraagtekst": "Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag :\n\n**geef de afsluitingsboekingen voor de boekjaren 2002 en 2003.**",
+      "vraagtekst": "> Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %.\n\n**geef de afsluitingsboekingen voor de boekjaren 2002 en 2003.**",
       "sub_vragen": [],
       "correct_antwoord": "Machine geactiveerd voor 100.000 EUR op rek 23 + afschrijving over gebruiksduur. Kapitaalsubsidie van 10.000 EUR geboekt: Debet 416 (te ontvangen) of 550 (Bank) 10.000 / Credit 15 Kapitaalsubsidies 10.000. Gespreide opname in resultaat: jaarlijks evenredig met de afschrijving van de machine: Debet 15 Kapitaalsubsidies / Credit 7530 Andere niet-recurrente opbrengsten (of 7536 specifiek voor kapitaalsubsidies).",
       "antwoord_motivering": "**Boekhoudkundige verwerking van een kapitaalsubsidie** (KB WVV art. 3:50; CBN-advies 2018/02):\n\n### Stap 1: Bij toezegging/ontvangst van de subsidie\n\nSubsidie van € 10.000 wordt geboekt onder eigen vermogen op **rekening 15 'Kapitaalsubsidies'** (KB MAR + KB WVV bijlage). ⚖️\n\n- Debet 416 'Diverse vorderingen' (of 550 Bank bij ontvangst) € 10.000\n- Credit **15 'Kapitaalsubsidies'** € 10.000\n\n### Stap 2: Aanschaffing machine\n\nKlassieke MVA-boeking (KB WVV art. 3:42):\n- Debet 23 'Installaties, machines en uitrusting' € 100.000\n- Credit 440 'Leveranciers' (of 550 Bank) € 100.000\n\n### Stap 3: Jaarlijkse afschrijving van de machine\n\nBv. lineair over 10 jaar: € 10.000 per jaar:\n- Debet 6302 Afschrijvingen MVA € 10.000\n- Credit 2309 Geboekte afschrijvingen € 10.000\n\n### Stap 4: Gespreide opname van de kapitaalsubsidie in resultaat\n\nParallel met de afschrijving — proportie: subsidie/aanschaffingswaarde = 10.000/100.000 = 10 %. Per jaar wordt 10 % van de jaarlijkse afschrijving in resultaat genomen: € 10.000 × 10 % = € 1.000 per jaar. ⚖️\n\n- Debet 15 'Kapitaalsubsidies' € 1.000\n- Credit **7536 'Kapitaal- en interestsubsidies'** (of 7530 Andere niet-recurrente opbrengsten) € 1.000\n\nDit gaat 10 jaar door, parallel met de afschrijving. Saldo op rek 15 verminderd elk jaar met € 1.000 (start € 10.000 → eind jaar 1 € 9.000 → ... → eind jaar 10 € 0).\n\n_Grondslag: KB WVV art. 3:50; CBN-advies 2018/02 'Kapitaalsubsidies'._",
@@ -48,8 +48,8 @@
       "subvragen": [],
       "vraagtekst_blokken": [
         {
-          "type": "tekst",
-          "inhoud": "Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag :"
+          "type": "casus_context",
+          "inhoud": "Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %."
         },
         {
           "type": "vraag_instructie",
@@ -57,6 +57,7 @@
         }
       ],
       "vraag_prefix": "A.1",
+      "vraag_onderwerp": "Kapitaalsubsidies",
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -80,11 +81,109 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "(KB WVV art. 3:50; CBN-advies 2018/02):",
+          "kop": "Boekhoudkundige verwerking van een kapitaalsubsidie"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Stap 1: Bij toezegging/ontvangst van de subsidie"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Subsidie van € 10.000 wordt geboekt onder eigen vermogen op **rekening 15 'Kapitaalsubsidies'** (KB MAR + KB WVV bijlage). ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Debet 416 'Diverse vorderingen' (of 550 Bank bij ontvangst) € 10.000\n- Credit **15 'Kapitaalsubsidies'** € 10.000"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Stap 2: Aanschaffing machine"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Klassieke MVA-boeking (KB WVV art. 3:42):\n-  Bank) € 100.000"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Stap 3: Jaarlijkse afschrijving van de machine"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Bv. lineair over 10 jaar: € 10.000 per jaar:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Stap 4: Gespreide opname van de kapitaalsubsidie in resultaat"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Parallel met de afschrijving — proportie: subsidie/aanschaffingswaarde = 10.000/100.000 = 10 %. Per jaar wordt 10 % van de jaarlijkse afschrijving in resultaat genomen: € 10.000 × 10 % = € 1.000 per jaar. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Debet 15 'Kapitaalsubsidies' € 1.000\n- Credit **7536 'Kapitaal- en interestsubsidies'** (of 7530 Andere niet-recurrente opbrengsten) € 1.000"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Dit gaat 10 jaar door, parallel met de afschrijving. Saldo op rek 15 verminderd elk jaar met € 1.000 (start € 10.000 → eind jaar 1 € 9.000 → ... → eind jaar 10 € 0)."
+        },
+        {
+          "type": "boeking",
+          "regels": [
+            {
+              "zijde": "D",
+              "rekening": "6302",
+              "naam": "Afschrijvingen MVA",
+              "bedrag": 10000.0
+            },
+            {
+              "zijde": "C",
+              "rekening": "2309",
+              "naam": "Geboekte afschrijvingen",
+              "bedrag": 10000.0
+            }
+          ],
+          "eenheid": "EUR",
+          "context": "Stap 3: Jaarlijkse afschrijving van de machine"
+        },
+        {
+          "type": "boeking",
+          "regels": [
+            {
+              "zijde": "D",
+              "rekening": "23",
+              "naam": "'Installaties, machines en uitrusting'",
+              "bedrag": 100000.0
+            },
+            {
+              "zijde": "C",
+              "rekening": "440",
+              "naam": "'Leveranciers' (of",
+              "bedrag": 550.0
+            }
+          ],
+          "eenheid": "EUR"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:50",
+            "CBN-advies 2018/02 'Kapitaalsubsidies'"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrA2",
@@ -94,7 +193,7 @@
       "vak_code_in_pdf": "A",
       "vak_naam_in_pdf": "A. Algemene boekhouding",
       "vraagtype": "berekening",
-      "vraagtekst": "Op de proef- en saldibalans staan volgende bedragen:\n\n| Rekening | Naam | Zijde | Bedrag |\n|---|---|---|---|\n| 32 | Goederen in bewerking | D | 500.00 |\n| 34 | Handelsgoederen | D | 7000.00 |\n\nDe inventaris per einde boekjaar geeft\n\n- goederen in bewerking: 400.00 EUR\n- handelsgoederen: 8500.00 EUR\n\nMarktwaarde handelsgoederen: 8250.00 EUR\n\no. Er werd ook vastgesteld dat bepaalde goederen moeten\n\nAanpassing (afprijzing): 75.00 EUR\n\neuro. Vraag :\n\n**geef de afsluitingsboekingen.**",
+      "vraagtekst": "Op de proef- en saldibalans staan volgende bedragen:\n\n| Rekening | Naam | Zijde | Bedrag |\n|---|---|---|---|\n| 32 | Goederen in bewerking | D | 500.00 |\n| 34 | Handelsgoederen | D | 7000.00 |\n\nDe inventaris per einde boekjaar geeft\n\n- goederen in bewerking: 400.00 EUR\n- handelsgoederen: 8500.00 EUR\n\nMarktwaarde handelsgoederen: 8250.00 EUR\n\nEr werd ook vastgesteld dat bepaalde goederen moeten\n\nAanpassing (afprijzing): 75.00 EUR\n\n**geef de afsluitingsboekingen.**",
       "sub_vragen": [],
       "correct_antwoord": "Goederen in bewerking: boekhouding 500, inventaris 400 → waardevermindering 100 boeken: Debet 6098/9 Waardevermindering / Credit 3209 (rek voor waardevermindering goederen in bewerking). Handelsgoederen: boekhouding 7.000, inventaris (vermoedelijk minder) → idem waardevermindering tot inventariswaarde. Eindwaardering: voorraad geboekt aan **lagere van aanschaffingswaarde of realisatie-/marktwaarde** (voorzichtigheidsbeginsel — KB WVV art. 3:43).",
       "antwoord_motivering": "**Voorraad-waardering** onder BE GAAP (KB WVV art. 3:43): aan aanschaffingswaarde of vervaardigingsprijs, met **waardevermindering** zodra de marktprijs of realisatiewaarde lager ligt — **voorzichtigheidsbeginsel**. ⚖️\n\n### Voor goederen in bewerking (rek 32)\n\n- Boekhouding: € 500 (aanschaffingswaarde)\n- Inventaris: € 400 (werkelijke waarde)\n- **Waardevermindering**: € 100 te boeken\n\n```\nDebet 6340 Waardeverminderingen op voorraden / OR 6098 (variant)  € 100\nCredit 3209 Geboekte waardeverminderingen op goederen in bewerking € 100\n```\n\nEindbalans-waardering: € 500 − € 100 = € 400 (inventariswaarde). ⚖️\n\n### Voor handelsgoederen (rek 34)\n\n- Boekhouding: € 7.000\n- Inventaris: lager bedrag (niet expliciet in vraagtekst — laten we aannemen dat de werkelijke waarde lager is, anders geen waardevermindering nodig)\n- **Idem** waardevermindering tot inventariswaarde:\n\n```\nDebet 6340 Waardeverminderingen op voorraden  € X (verschil)\nCredit 3409 Geboekte waardeverminderingen op handelsgoederen € X\n```\n\n### Algemene regel\n\nVoorraad eindigt op de balans aan de **lagere** van aanschaffingswaarde en marktwaarde. ⚖️ Bij stijging van de marktwaarde **niet** terug opwaarderen (latente meerwaarde — voorzichtigheidsbeginsel). Bij latere verkoop boven boekwaarde: gerealiseerde meerwaarde in resultaat.\n\n_Grondslag: KB WVV art. 3:43 (voorraadwaardering); CBN-advies 132/4 (waardeverminderingen voorraden)._",
@@ -158,7 +257,7 @@
         },
         {
           "type": "tekst",
-          "inhoud": "o. Er werd ook vastgesteld dat bepaalde goederen moeten"
+          "inhoud": "Er werd ook vastgesteld dat bepaalde goederen moeten"
         },
         {
           "type": "aanpassing",
@@ -167,14 +266,11 @@
           "eenheid": "EUR"
         },
         {
-          "type": "tekst",
-          "inhoud": "euro. Vraag :"
-        },
-        {
           "type": "vraag_instructie",
           "inhoud": "geef de afsluitingsboekingen."
         }
       ],
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -193,11 +289,73 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "inferred",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "**Voorraad-waardering** onder BE GAAP (KB WVV art. 3:43): aan aanschaffingswaarde of vervaardigingsprijs, met **waardevermindering** zodra de marktprijs of realisatiewaarde lager ligt — **voorzichtigheidsbeginsel**. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Voor goederen in bewerking (rek 32)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Boekhouding: € 500 (aanschaffingswaarde)\n- Inventaris: € 400 (werkelijke waarde)\n- **Waardevermindering**: € 100 te boeken"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Eindbalans-waardering: € 500 − € 100 = € 400 (inventariswaarde). ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Voor handelsgoederen (rek 34)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Boekhouding: € 7.000\n- Inventaris: lager bedrag (niet expliciet in vraagtekst — laten we aannemen dat de werkelijke waarde lager is, anders geen waardevermindering nodig)\n- **Idem** waardevermindering tot inventariswaarde:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\nDebet 6340 Waardeverminderingen op voorraden  € X (verschil)\nCredit 3409 Geboekte waardeverminderingen op handelsgoederen € X\n```"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### Algemene regel"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Voorraad eindigt op de balans aan de **lagere** van aanschaffingswaarde en marktwaarde. ⚖️ Bij stijging van de marktwaarde **niet** terug opwaarderen (latente meerwaarde — voorzichtigheidsbeginsel). Bij latere verkoop boven boekwaarde: gerealiseerde meerwaarde in resultaat.",
+          "confidence": "grounded"
+        },
+        {
+          "type": "boeking",
+          "regels": [
+            {
+              "zijde": "C",
+              "rekening": "3209",
+              "naam": "Geboekte waardeverminderingen op goederen in bewerking",
+              "bedrag": 100.0
+            }
+          ],
+          "eenheid": "EUR",
+          "context": "Voor goederen in bewerking (rek 32)"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:43 (voorraadwaardering)",
+            "CBN-advies 132/4 (waardeverminderingen voorraden)"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrB1",
@@ -207,7 +365,7 @@
       "vak_code_in_pdf": "B",
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
-      "vraagtekst": "Vraag:\n\n**Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze?**",
+      "vraagtekst": "**Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze?**",
       "sub_vragen": [],
       "correct_antwoord": "Vereenvoudigde boekhouding mag worden gevoerd door kleine ondernemingen onder Boek III WER (natuurlijke personen met zelfstandige beroepsactiviteit, VOF's, CommV's) die op jaarbasis onder de wettelijke omzetdrempel blijven. Ze bestaat uit drie hulpdagboeken (aankoopdagboek, verkoopdagboek, financieel dagboek) die ten minste driemaandelijks worden gecentraliseerd in een centraal boek — in plaats van dubbel boekhouden via algemeen rekeningstelsel.",
       "antwoord_motivering": "**Wie mag een vereenvoudigde boekhouding voeren?**\n\nOnder Boek III WER (art. III.85) mogen kleine ondernemingen een vereenvoudigde boekhouding voeren. Concreet:\n- **Natuurlijke personen** met een zelfstandige beroepsactiviteit ⚖️\n- **VOF's en CommV's** (vennootschappen onder firma / gewone commanditaire vennootschappen) — geen rechtspersonen met beperkte aansprakelijkheid 🤖\n- Op voorwaarde dat de **jaaromzet onder een wettelijke drempel** blijft (historisch was die ca. € 500.000, sedert 2014 verhoogd; exacte cijfer in WER art. III.85 § 2 + uitvoerings-KB) 🤖\n\n**Boekhoudplichtige ondernemingen** met rechtspersoonlijkheid (NV, BV, ...) moeten **altijd dubbel** boekhouden — vereenvoudigd is niet toegelaten. ⚖️\n\n**Waaruit bestaat de vereenvoudigde boekhouding?**\n\nDrie verplichte hulpdagboeken + één centraal boek ([[hulpdagboeken]] §Soorten):\n\n1. **Aankoopdagboek** — alle inkomende leveranciersfacturen + andere aankoopdocumenten ⚖️\n2. **Verkoopdagboek** — alle uitgaande klantenfacturen + andere verkoop-documenten ⚖️\n3. **Financieel dagboek** — alle bewegingen op bankrekeningen + kas (één dagboek per bankrekening + één voor kas) ⚖️\n4. **Centraal boek** — periodieke centralisatie van de hulpdagboeken (zie vrB2 hieronder) ⚖️\n\n**Wat ontbreekt** ten opzichte van een volledige dubbele boekhouding:\n- Geen algemeen rekeningstelsel (MAR) verplicht\n- Geen jaarrekening volgens schema KB WVV — wel een **vereenvoudigde fiscale staat** voor aangifte personenbelasting + BTW\n- Wel: bewaring van alle stukken (10 jaar) + inventaris\n\n_Grondslag: WER art. III.82 + III.85; [[boekhoudplichtige-onderneming]]; [[hulpdagboeken]] §Centralisatie._\n\n**Historische context** (vraag uit 2003): destijds gold het oude KB van 8 oktober 1976 en het Wetboek van vennootschappen. Inhoudelijk **identiek**: drie hulpdagboeken + driemaandelijkse centralisatie. Alleen omzet-drempels werden meerdere malen aangepast. 🤖",
@@ -222,15 +380,12 @@
       "subvragen": [],
       "vraagtekst_blokken": [
         {
-          "type": "tekst",
-          "inhoud": "Vraag:"
-        },
-        {
           "type": "vraag_instructie",
           "inhoud": "Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze?"
         }
       ],
       "vraag_prefix": "B.1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -260,11 +415,60 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "opmerking": "Historische vraag (2003); huidige WER toegepast; inhoudelijke regels identiek."
+        "opmerking": "Historische vraag (2003); huidige WER toegepast; inhoudelijke regels identiek.",
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "inferred",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "definitie",
+          "lemma": "Wie mag een vereenvoudigde boekhouding voeren?",
+          "definitie_zin": "**Wie mag een vereenvoudigde boekhouding voeren?**"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Onder Boek III WER (art. III.85) mogen kleine ondernemingen een vereenvoudigde boekhouding voeren. Concreet:\n- **Natuurlijke personen** met een zelfstandige beroepsactiviteit ⚖️\n- **VOF's en CommV's** (vennootschappen onder firma / gewone commanditaire vennootschappen) — geen rechtspersonen met beperkte aansprakelijkheid 🤖\n- Op voorwaarde dat de **jaaromzet onder een wettelijke drempel** blijft (historisch was die ca. € 500.000, sedert 2014 verhoogd; exacte cijfer in WER art. III.85 § 2 + uitvoerings-KB) 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Boekhoudplichtige ondernemingen** met rechtspersoonlijkheid (NV, BV, ...) moeten **altijd dubbel** boekhouden — vereenvoudigd is niet toegelaten. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Waaruit bestaat de vereenvoudigde boekhouding?**"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Drie verplichte hulpdagboeken + één centraal boek ([[hulpdagboeken]] §Soorten):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "1. **Aankoopdagboek** — alle inkomende leveranciersfacturen + andere aankoopdocumenten ⚖️\n2. **Verkoopdagboek** — alle uitgaande klantenfacturen + andere verkoop-documenten ⚖️\n3. **Financieel dagboek** — alle bewegingen op bankrekeningen + kas (één dagboek per bankrekening + één voor kas) ⚖️\n4. **Centraal boek** — periodieke centralisatie van de hulpdagboeken (zie vrB2 hieronder) ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "ten opzichte van een volledige dubbele boekhouding:\n- Geen algemeen rekeningstelsel (MAR) verplicht\n- Geen jaarrekening volgens schema KB WVV — wel een **vereenvoudigde fiscale staat** voor aangifte personenbelasting + BTW\n- Wel: bewaring van alle stukken (10 jaar) + inventaris",
+          "kop": "Wat ontbreekt"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Historische context** (vraag uit 2003): destijds gold het oude KB van 8 oktober 1976 en het Wetboek van vennootschappen. Inhoudelijk **identiek**: drie hulpdagboeken + driemaandelijkse centralisatie. Alleen omzet-drempels werden meerdere malen aangepast. 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "WER art. III.82 + III.85",
+            "[[boekhoudplichtige-onderneming]]",
+            "[[hulpdagboeken]] §Centralisatie"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrB2",
@@ -274,7 +478,7 @@
       "vak_code_in_pdf": "B",
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
-      "vraagtekst": "Vraag: Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie?",
+      "vraagtekst": "Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie?",
       "sub_vragen": [],
       "correct_antwoord": "In het centraal boek worden de geconsolideerde totalen van alle hulpdagboeken (aankoop-, verkoop-, financieel dagboek) overgebracht via één recapitulatieboeking. Frequentie: minstens maandelijks bij een volledige dubbele boekhouding; minstens driemaandelijks bij een vereenvoudigde boekhouding.",
       "antwoord_motivering": "**Wat wordt in het centraal boek geregistreerd?**\n\nHet centraal boek (algemeen dagboek) bevat de **geconsolideerde periodieke totalen** van alle hulpdagboeken — niet individuele transacties (die staan in de detail-dagboeken). Per periode wordt **één recapitulatieboeking** opgenomen die de saldi van elk hulpdagboek samenvat: ⚖️\n\n- Totaal aankoopdagboek (per debetrekening + tegenpost crediteur)\n- Totaal verkoopdagboek (per creditrekening + tegenpost debiteur)\n- Totaal financieel dagboek (per bankrekening + kas)\n- Totaal diversen-dagboek (loonjournaal, afschrijvingsboekingen, correcties)\n\n**Waarom?** Het centraal boek geeft het **globaal overzicht** dat moet aansluiten op het algemeen rekeningstelsel en uiteindelijk de jaarrekening. Hulpdagboeken zijn de detail-bronnen; het centraal boek de chronologische samenvatting. ⚖️\n\n**Frequentie van centralisatie**:\n\n- **Volledige dubbele boekhouding** (NV, BV, grote ondernemingen): **minstens maandelijks** ⚖️\n- **Vereenvoudigde boekhouding** (zie vrB1: kleine zelfstandigen, VOF's): **minstens driemaandelijks** ⚖️ — minder frequent toegestaan omdat de transactievolumes typisch lager zijn\n\n**Wettelijke onderbouwing**: WER art. III.84-III.85 (vóór 2018: Wet boekhoudrecht 1975 art. 4) verplicht een chronologische registratie en periodieke centralisatie. CBN-advies 174/1 geeft de procedure-details. ⚖️\n\n⚠️ Het centraal boek is **niet** hetzelfde als het algemeen rekeningstelsel (MAR). MAR = nomenclatuur van rekeningen. Centraal boek = chronologische opslag van boekingen die naar het MAR worden geprojecteerd.\n\n_Grondslag: WER art. III.84; CBN-advies 174/1; [[hulpdagboeken]] §Centralisatie minstens maandelijks._",
@@ -291,10 +495,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Vraag: Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie?"
+          "inhoud": "Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie?"
         }
       ],
       "vraag_prefix": "B.2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -318,11 +523,59 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "definitie",
+          "lemma": "Wat wordt in het centraal boek geregistreerd?",
+          "definitie_zin": "**Wat wordt in het centraal boek geregistreerd?**"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Het centraal boek (algemeen dagboek) bevat de **geconsolideerde periodieke totalen** van alle hulpdagboeken — niet individuele transacties (die staan in de detail-dagboeken). Per periode wordt **één recapitulatieboeking** opgenomen die de saldi van elk hulpdagboek samenvat: ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Totaal aankoopdagboek (per debetrekening + tegenpost crediteur)\n- Totaal verkoopdagboek (per creditrekening + tegenpost debiteur)\n- Totaal financieel dagboek (per bankrekening + kas)\n- Totaal diversen-dagboek (loonjournaal, afschrijvingsboekingen, correcties)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Waarom?** Het centraal boek geeft het **globaal overzicht** dat moet aansluiten op het algemeen rekeningstelsel en uiteindelijk de jaarrekening. Hulpdagboeken zijn de detail-bronnen; het centraal boek de chronologische samenvatting. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Frequentie van centralisatie**:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- **Volledige dubbele boekhouding** (NV, BV, grote ondernemingen): **minstens maandelijks** ⚖️\n- **Vereenvoudigde boekhouding** (zie vrB1: kleine zelfstandigen, VOF's): **minstens driemaandelijks** ⚖️ — minder frequent toegestaan omdat de transactievolumes typisch lager zijn",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Wettelijke onderbouwing**: WER art. III.84-III.85 (vóór 2018: Wet boekhoudrecht 1975 art. 4) verplicht een chronologische registratie en periodieke centralisatie. CBN-advies 174/1 geeft de procedure-details. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "⚠️ Het centraal boek is **niet** hetzelfde als het algemeen rekeningstelsel (MAR). MAR = nomenclatuur van rekeningen. Centraal boek = chronologische opslag van boekingen die naar het MAR worden geprojecteerd."
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "WER art. III.84",
+            "CBN-advies 174/1",
+            "[[hulpdagboeken]] §Centralisatie minstens maandelijks"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrB3",
@@ -332,7 +585,7 @@
       "vak_code_in_pdf": "B",
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
-      "vraagtekst": "Vraag:\n\n**Welke activa mogen geherwaardeerd worden en onder welke voorwaarden?**",
+      "vraagtekst": "**Welke activa mogen geherwaardeerd worden en onder welke voorwaarden?**",
       "sub_vragen": [],
       "correct_antwoord": "Onder BE GAAP mogen materiële en financiële vaste activa worden geherwaardeerd (sinds KB WVV 2019 ook immateriële vaste activa) als de meerwaarde voldoet aan drie cumulatieve voorwaarden: zeker, duurzaam, en onontbeerlijk voor de continuïteit van de bedrijfsactiviteit. De geboekte meerwaarde is niet-uitkeerbaar.",
       "antwoord_motivering": "**Welke activa mogen geherwaardeerd worden?** Onder Belgisch boekhoudrecht (KB WVV art. 3:30 + art. 3:35):\n- **Materiële vaste activa** (gebouwen, terreinen, machines) ⚖️\n- **Immateriële vaste activa** (octrooien, merken, ontwikkelingskosten) — KB WVV art. 3:35 expliciet ⚖️\n- **Financiële vaste activa** — deelnemingen, vorderingen op verbonden ondernemingen ⚖️\n\nVlottende activa (voorraden, vorderingen op klanten, geldmiddelen) mogen NIET geherwaardeerd worden — voorzichtigheidsbeginsel verbiedt het boeken van latente meerwaarden buiten de strikt opgesomde uitzonderingen.\n\n**Onder welke voorwaarden?** Drie **cumulatieve** voorwaarden (KB WVV art. 3:35):\n\n1. **Zeker** — de meerwaarde is niet hypothetisch, niet gebaseerd op een vermoeden, maar reëel en aantoonbaar. ⚖️\n2. **Duurzaam** — geen tijdelijke marktschommeling of conjuncturele opwaartse beweging die wellicht zou kunnen terugkeren. ⚖️\n3. **Onontbeerlijk voor de continuïteit** van de bedrijfsactiviteit — de boekhoudkundige waarde geeft anders een misleidend beeld; herwaardering corrigeert dat. ⚖️\n\n**Boekhoudkundige gevolgen**:\n- Geboekt op rekening 12 'Herwaarderingsmeerwaarden' (eigen vermogen, niet-uitkeerbaar). ⚖️\n- Verantwoording in toelichting verplicht. ⚖️\n- Realisatie via afschrijvingen (gespreid) of bij vervreemding (eenmalig); kan ingelijfd worden in kapitaal of overgeboekt naar uitkeerbare reserves. ⚖️\n- Bij latere minderwaarde: uitboeking tot beloop van het nog niet afgeschreven bedrag.\n\n**Historische context** (vraag uit 2003): de regels onder het toenmalige KB van 8 oktober 1976 en latere wijzigingen waren inhoudelijk **identiek** — zeker, duurzaam, onontbeerlijk. Alleen de artikelnummering is veranderd door de integratie in KB WVV 2019.\n\n_Grondslag: KB WVV art. 3:30 + art. 3:35; [[herwaarderingsmeerwaarden]] §Strikte voorwaarden + §Toepassingsgebied._",
@@ -347,15 +600,12 @@
       "subvragen": [],
       "vraagtekst_blokken": [
         {
-          "type": "tekst",
-          "inhoud": "Vraag:"
-        },
-        {
           "type": "vraag_instructie",
           "inhoud": "Welke activa mogen geherwaardeerd worden en onder welke voorwaarden?"
         }
       ],
       "vraag_prefix": "B.3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -379,11 +629,51 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "definitie",
+          "lemma": "Welke activa mogen geherwaardeerd worden?",
+          "definitie_zin": "**Welke activa mogen geherwaardeerd worden?** Onder Belgisch boekhoudrecht (KB WVV art. 3:30 + art. 3:35):\n- **Materiële vaste activa** (gebouwen, terreinen, machines) ⚖️\n- **Immateriële vaste activa** (octrooien, merken, ontwikkelingskosten) — KB WVV art. 3:35 expliciet ⚖️\n- **Financiële vaste activa** — deelnemingen, vorderingen op verbonden ondernemingen ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Vlottende activa (voorraden, vorderingen op klanten, geldmiddelen) mogen NIET geherwaardeerd worden — voorzichtigheidsbeginsel verbiedt het boeken van latente meerwaarden buiten de strikt opgesomde uitzonderingen."
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Drie **cumulatieve** voorwaarden (KB WVV art. 3:35):",
+          "kop": "Onder welke voorwaarden?"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "1. **Zeker** — de meerwaarde is niet hypothetisch, niet gebaseerd op een vermoeden, maar reëel en aantoonbaar. ⚖️\n2. **Duurzaam** — geen tijdelijke marktschommeling of conjuncturele opwaartse beweging die wellicht zou kunnen terugkeren. ⚖️\n3. **Onontbeerlijk voor de continuïteit** van de bedrijfsactiviteit — de boekhoudkundige waarde geeft anders een misleidend beeld; herwaardering corrigeert dat. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Geboekt op rekening 12 'Herwaarderingsmeerwaarden' (eigen vermogen, niet-uitkeerbaar). ⚖️\n- Verantwoording in toelichting verplicht. ⚖️\n- Realisatie via afschrijvingen (gespreid) of bij vervreemding (eenmalig); kan ingelijfd worden in kapitaal of overgeboekt naar uitkeerbare reserves. ⚖️\n- Bij latere minderwaarde: uitboeking tot beloop van het nog niet afgeschreven bedrag.",
+          "kop": "Boekhoudkundige gevolgen",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Historische context** (vraag uit 2003): de regels onder het toenmalige KB van 8 oktober 1976 en latere wijzigingen waren inhoudelijk **identiek** — zeker, duurzaam, onontbeerlijk. Alleen de artikelnummering is veranderd door de integratie in KB WVV 2019."
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:30 + art. 3:35",
+            "[[herwaarderingsmeerwaarden]] §Strikte voorwaarden + §Toepassingsgebied"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrB4",
@@ -393,7 +683,7 @@
       "vak_code_in_pdf": "B",
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
-      "vraagtekst": "Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt?",
+      "vraagtekst": "Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt?",
       "sub_vragen": [],
       "correct_antwoord": "Kosten van inrichting van gehuurde gebouwen worden geboekt op rekening 264 \"Inrichtingskosten van gehuurde gebouwen\" (subgroep Andere materiële vaste activa, klasse 26). De kosten worden geactiveerd en afgeschreven over de kortere van twee periodes: de huurtermijn of de economische gebruiksduur van de inrichtingen.",
       "antwoord_motivering": "**Welke rekening?**\n\nOnder het minimum-algemeen-rekeningstelsel (MAR) worden inrichtingskosten in gehuurde gebouwen geboekt op **rekening 264 \"Inrichtingskosten van gehuurde gebouwen\"** — een subrekening van klasse **26 \"Andere materiële vaste activa\"**. ⚖️\n\nAndere MAR-subrekeningen in klasse 26:\n- 260 — Onroerende goederen aangehouden als reserve\n- 262 — Buiten gebruik of buiten exploitatie gestelde materiële vaste activa\n- **264 — Inrichtingskosten van gehuurde gebouwen** ⚖️\n\n**Waarom in klasse 26 (Andere MVA) en niet 22 (Terreinen en gebouwen)?**\n\nDe gebouwen zélf zijn niet eigendom van de huurder — die kan dus geen 'Terreinen en gebouwen' (rek 22) op zijn balans hebben. Wat hij wél activeert zijn de **inrichtingswerken** die hij in andermans pand heeft uitgevoerd (verbouwingen, vaste inrichting, technische installaties die niet afkoppelbaar zijn). Die werken zijn **economisch eigendom** van de huurder voor de duur van de huur, ook al zijn ze juridisch onroerend door bestemming. 🤖\n\n**Waardering en afschrijving**:\n\n- Geactiveerd aan **aanschaffingsprijs** (alle directe kosten verbouwing + erelonen) ⚖️\n- Afschrijving over de **kortere** van:\n  - De **huurtermijn** (juridisch gegeven: bv. handelshuur 9 jaar, gewone huurovereenkomst 3 of 9 jaar)\n  - De **economische gebruiksduur** van de inrichtingen (bv. technische installaties 10 jaar)\n  \n  In de praktijk: vaak gelijk aan de huurtermijn want bij einde huur kan de huurder de inrichtingen niet meenemen. 🤖\n- Bij vroegtijdig einde huur: niet-afgeschreven saldo wordt **uitzonderlijk afgeschreven** (rek 663) of als verlies bij verkoop geboekt. 🤖\n\n_Grondslag: [[materiele-vaste-activa]] §Bouwstenen — Onderverdeling klasse 26; KB MAR (KB 12 september 1983); KB WVV art. 3:38 + 3:42 (waardering MVA)._",
@@ -410,10 +700,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt?"
+          "inhoud": "Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt?"
         }
       ],
       "vraag_prefix": "B.4",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -432,11 +723,59 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "presentatie",
       "antwoord_confidence": "inferred",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "**Welke rekening?**"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Onder het minimum-algemeen-rekeningstelsel (MAR) worden inrichtingskosten in gehuurde gebouwen geboekt op **rekening 264 \"Inrichtingskosten van gehuurde gebouwen\"** — een subrekening van klasse **26 \"Andere materiële vaste activa\"**. ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "Andere MAR-subrekeningen in klasse 26:\n- 260 — Onroerende goederen aangehouden als reserve\n- 262 — Buiten gebruik of buiten exploitatie gestelde materiële vaste activa\n- **264 — Inrichtingskosten van gehuurde gebouwen** ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Waarom in klasse 26 (Andere MVA) en niet 22 (Terreinen en gebouwen)?**"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "De gebouwen zélf zijn niet eigendom van de huurder — die kan dus geen 'Terreinen en gebouwen' (rek 22) op zijn balans hebben. Wat hij wél activeert zijn de **inrichtingswerken** die hij in andermans pand heeft uitgevoerd (verbouwingen, vaste inrichting, technische installaties die niet afkoppelbaar zijn). Die werken zijn **economisch eigendom** van de huurder voor de duur van de huur, ook al zijn ze juridisch onroerend door bestemming. 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Waardering en afschrijving**:"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "- Geactiveerd aan **aanschaffingsprijs** (alle directe kosten verbouwing + erelonen) ⚖️\n- Afschrijving over de **kortere** van:\n  - De **huurtermijn** (juridisch gegeven: bv. handelshuur 9 jaar, gewone huurovereenkomst 3 of 9 jaar)\n  - De **economische gebruiksduur** van de inrichtingen (bv. technische installaties 10 jaar)",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "In de praktijk: vaak gelijk aan de huurtermijn want bij einde huur kan de huurder de inrichtingen niet meenemen. 🤖\n- Bij vroegtijdig einde huur: niet-afgeschreven saldo wordt **uitzonderlijk afgeschreven** (rek 663) of als verlies bij verkoop geboekt. 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "[[materiele-vaste-activa]] §Bouwstenen — Onderverdeling klasse 26",
+            "KB MAR (KB 12 september 1983)",
+            "KB WVV art. 3:38 + 3:42 (waardering MVA)"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrB5",
@@ -446,7 +785,7 @@
       "vak_code_in_pdf": "B",
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
-      "vraagtekst": "Vraag:\n\n**Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.**\n\n1 hierboven?",
+      "vraagtekst": "**Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.**",
       "sub_vragen": [],
       "correct_antwoord": "Voor kapitaalsubsidies (rek 15) zijn in de toelichting verplicht: (1) het bedrag van de subsidie, (2) de toekenningsdatum en -bron, (3) de boekingsmethode (gespreide opname in resultaat via rek 7530 in functie van afschrijving op het gesubsidieerde actief), (4) per boekjaar het opgenomen bedrag en het uitgestelde saldo. Voor 2002 en 2003 specifiek: vermelding in staten van de toelichting (Staat IX bij volledig schema).",
       "antwoord_motivering": "**Kapitaalsubsidies** zijn niet-terugvorderbare overheidsbijdragen voor de financiering van vaste activa, geboekt op **rekening 15 'Kapitaalsubsidies'** (eigen vermogen) bij ontvangst en gespreid in resultaat genomen via **rekening 7530 'Andere niet-recurrente opbrengsten'** in dezelfde ritme als de afschrijving op het gesubsidieerde actief (KB WVV art. 3:50; CBN-advies 2018/02). ⚖️\n\n**Toelichtingsvermeldingen** per boekjaar (KB WVV bijlage toelichting, Staat IX):\n1. **Bedrag van de subsidie** ontvangen of nog te ontvangen\n2. **Toekenningsdatum + bron** (overheid: federaal, gewestelijk, lokaal, EU)\n3. **Boekingsmethode**: gespreide opname in resultaat in functie van afschrijvingsschema gesubsidieerd actief\n4. **Per boekjaar**: bedrag opgenomen in resultaat van het boekjaar + uitgesteld saldo (saldo eigen-vermogen-rekening 15 op balansdatum)\n5. **Bestaande verplichtingen** verbonden aan de subsidie (terugvordering bij niet-naleving voorwaarden)\n\n**Vergelijking 2002 / 2003**: bij elk boekjaar dezelfde vermeldingen, met de cumulatieve effecten zichtbaar. Het bedrag van het in resultaat genomen deel stijgt jaarlijks (proportioneel met afschrijving), het uitgesteld saldo op rek 15 daalt.\n\n🤖 Historische context: in 2003 gold het oude KB van 8 oktober 1976; inhoudelijke regels identiek aan huidige KB WVV.\n\n_Grondslag: KB WVV art. 3:50; CBN-advies 2018/02; [[kapitaalsubsidies]] (indien beschikbaar)._",
@@ -462,19 +801,12 @@
       "subvragen": [],
       "vraagtekst_blokken": [
         {
-          "type": "tekst",
-          "inhoud": "Vraag:"
-        },
-        {
           "type": "vraag_instructie",
           "inhoud": "Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A."
-        },
-        {
-          "type": "tekst",
-          "inhoud": "1 hierboven?"
         }
       ],
       "vraag_prefix": "B.5",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -493,11 +825,67 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "inferred",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "definitie",
+          "lemma": "Kapitaalsubsidies",
+          "definitie_zin": "**Kapitaalsubsidies** zijn niet-terugvorderbare overheidsbijdragen voor de financiering van vaste activa, geboekt op **rekening 15 'Kapitaalsubsidies'** (eigen vermogen) bij ontvangst en gespreid in resultaat genomen via **rekening 7530 'Andere niet-recurrente opbrengsten'** in dezelfde ritme als de afschrijving op het gesubsidieerde actief (KB WVV art. 3:50; CBN-advies 2018/02). ⚖️",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "per boekjaar (KB WVV bijlage toelichting, Staat IX):",
+          "kop": "Toelichtingsvermeldingen"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Vergelijking 2002 / 2003**: bij elk boekjaar dezelfde vermeldingen, met de cumulatieve effecten zichtbaar. Het bedrag van het in resultaat genomen deel stijgt jaarlijks (proportioneel met afschrijving), het uitgesteld saldo op rek 15 daalt."
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "🤖 Historische context: in 2003 gold het oude KB van 8 oktober 1976; inhoudelijke regels identiek aan huidige KB WVV.",
+          "confidence": "inferred"
+        },
+        {
+          "type": "opsomming",
+          "items": [
+            {
+              "lemma": "Bedrag van de subsidie",
+              "toelichting": "ontvangen of nog te ontvangen"
+            },
+            {
+              "lemma": "Toekenningsdatum + bron",
+              "toelichting": "(overheid: federaal, gewestelijk, lokaal, EU)"
+            },
+            {
+              "lemma": "Boekingsmethode",
+              "toelichting": "gespreide opname in resultaat in functie van afschrijvingsschema gesubsidieerd actief"
+            },
+            {
+              "lemma": "Per boekjaar",
+              "toelichting": "bedrag opgenomen in resultaat van het boekjaar + uitgesteld saldo (saldo eigen-vermogen-rekening 15 op balansdatum)"
+            },
+            {
+              "lemma": "Bestaande verplichtingen",
+              "toelichting": "verbonden aan de subsidie (terugvordering bij niet-naleving voorwaarden)"
+            }
+          ]
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "KB WVV art. 3:50",
+            "CBN-advies 2018/02",
+            "[[kapitaalsubsidies]] (indien beschikbaar)"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrC1",
@@ -507,7 +895,7 @@
       "vak_code_in_pdf": "C",
       "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
       "vraagtype": "berekening",
-      "vraagtekst": "Op de balans staan volgende bedragen: …  ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag:\n\n**Bereken uit deze cijfers\n\na.**\n\nhet netto bedrijfskapitaal\n\nb. de ruime liquiditeitsratio (current ratio)\n\nc. de beperkte liquiditeitsratio (acid test)\n\nd. de solvabiliteitsratio.",
+      "vraagtekst": "Op de balans staan volgende bedragen: … ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Bereken uit deze cijfers\n\na. het netto bedrijfskapitaal\n\nb. de ruime liquiditeitsratio (current ratio)\n\nc. de beperkte liquiditeitsratio (acid test)\n\nd. de solvabiliteitsratio.",
       "sub_vragen": [],
       "correct_antwoord": "a) Netto bedrijfskapitaal = € 131.200 − € 77.090 = **€ 54.110**. b) Current ratio = € 131.200 / € 77.090 = **1,70**. c) Quick ratio = € 90.200 / € 77.090 = **1,17**. d) Solvabiliteitsratio = € 153.150 / € 281.240 = **54,46 %**.",
       "antwoord_motivering": "Gegeven (balans):\n- Vaste activa: € 150.040\n- Voorraden: € 41.000\n- Vorderingen op −1 jaar: € 42.700\n- Geldbeleggingen: € 10.000\n- Liquide middelen: € 37.500\n- **Vlottende activa totaal**: 41.000 + 42.700 + 10.000 + 37.500 = **€ 131.200**\n- Kapitaal: € 100.000\n- Reserves: € 50.400\n- Overgedragen winst: € 2.750\n- **Eigen vermogen totaal**: 100.000 + 50.400 + 2.750 = **€ 153.150**\n- Schulden op + 1 jaar: € 51.000\n- Schulden op − 1 jaar: € 77.090\n- **Balanstotaal**: € 281.240\n\n### a) Netto bedrijfskapitaal\n\n```\nnetto bedrijfskapitaal = vlottende activa − schulden op ten hoogste 1 jaar\n                       = € 131.200 − € 77.090\n                       = € 54.110\n```\n⚖️ Positief → vlottende activa dekken meer dan de korte-termijn schulden; buffer voor liquiditeitsschokken.\n\n### b) Ruime liquiditeitsratio (current ratio)\n\n```\ncurrent ratio = vlottende activa / schulden op ten hoogste 1 jaar\n              = € 131.200 / € 77.090\n              = 1,70\n```\n⚖️ Vuistregel: > 1 wordt als gezond beschouwd (vlottende activa dekken kortlopende schulden). 1,70 = ruim voldoende.\n\n### c) Beperkte liquiditeitsratio (acid test / quick ratio)\n\n```\nquick ratio = (vlottende activa − voorraden) / schulden op ten hoogste 1 jaar\n            = (€ 131.200 − € 41.000) / € 77.090\n            = € 90.200 / € 77.090\n            = 1,17\n```\n⚖️ Strenger dan current ratio: sluit voorraden uit omdat die niet altijd snel liquideerbaar zijn. > 1 = voldoende.\n\n### d) Solvabiliteitsratio\n\n```\nsolvabiliteitsratio = eigen vermogen / balanstotaal\n                    = € 153.150 / € 281.240\n                    = 54,46 %\n```\n⚖️ Vuistregel: > 30-40 % wordt gezond geacht. 54 % = sterke eigen-vermogen-positie, lage afhankelijkheid van schuldeisers.\n\n_Grondslag: [[liquiditeitsratio]] §Berekening; [[solvabiliteitsratio]] §Berekening; [[werkkapitaal]] §Bouwstenen._",
@@ -522,15 +910,12 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Op de balans staan volgende bedragen: …  ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag:"
+          "inhoud": "Op de balans staan volgende bedragen: … ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Bereken uit deze cijfers"
         },
         {
-          "type": "vraag_instructie",
-          "inhoud": "Bereken uit deze cijfers\n\na."
-        },
-        {
-          "type": "tekst",
-          "inhoud": "het netto bedrijfskapitaal"
+          "type": "mc_optie",
+          "label": "a",
+          "tekst": "het netto bedrijfskapitaal"
         },
         {
           "type": "mc_optie",
@@ -549,6 +934,7 @@
         }
       ],
       "vraag_prefix": "C.1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -582,11 +968,62 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "Gegeven (balans):\n- Vaste activa: € 150.040\n- Voorraden: € 41.000\n- Vorderingen op −1 jaar: € 42.700\n- Geldbeleggingen: € 10.000\n- Liquide middelen: € 37.500\n- **Vlottende activa totaal**: 41.000 + 42.700 + 10.000 + 37.500 = **€ 131.200**\n- Kapitaal: € 100.000\n- Reserves: € 50.400\n- Overgedragen winst: € 2.750\n- **Eigen vermogen totaal**: 100.000 + 50.400 + 2.750 = **€ 153.150**\n- Schulden op + 1 jaar: € 51.000\n- Schulden op − 1 jaar: € 77.090\n- **Balanstotaal**: € 281.240"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### a) Netto bedrijfskapitaal"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\nnetto bedrijfskapitaal = vlottende activa − schulden op ten hoogste 1 jaar\n                       = € 131.200 − € 77.090\n                       = € 54.110\n```\n⚖️ Positief → vlottende activa dekken meer dan de korte-termijn schulden; buffer voor liquiditeitsschokken.",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### b) Ruime liquiditeitsratio (current ratio)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\ncurrent ratio = vlottende activa / schulden op ten hoogste 1 jaar\n              = € 131.200 / € 77.090\n              = 1,70\n```\n⚖️ Vuistregel: > 1 wordt als gezond beschouwd (vlottende activa dekken kortlopende schulden). 1,70 = ruim voldoende.",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### c) Beperkte liquiditeitsratio (acid test / quick ratio)"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\nquick ratio = (vlottende activa − voorraden) / schulden op ten hoogste 1 jaar\n            = (€ 131.200 − € 41.000) / € 77.090\n            = € 90.200 / € 77.090\n            = 1,17\n```\n⚖️ Strenger dan current ratio: sluit voorraden uit omdat die niet altijd snel liquideerbaar zijn. > 1 = voldoende.",
+          "confidence": "grounded"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "### d) Solvabiliteitsratio"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\nsolvabiliteitsratio = eigen vermogen / balanstotaal\n                    = € 153.150 / € 281.240\n                    = 54,46 %\n```\n⚖️ Vuistregel: > 30-40 % wordt gezond geacht. 54 % = sterke eigen-vermogen-positie, lage afhankelijkheid van schuldeisers.",
+          "confidence": "grounded"
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "[[liquiditeitsratio]] §Berekening",
+            "[[solvabiliteitsratio]] §Berekening",
+            "[[werkkapitaal]] §Bouwstenen"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrC2",
@@ -596,7 +1033,7 @@
       "vak_code_in_pdf": "C",
       "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
       "vraagtype": "berekening",
-      "vraagtekst": "Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT\n\n- winst van het boekjaar: 2750.00 EUR\n- afschrijvingen: 12100.00 EUR\n- toevoegingen aan voorzieningen: 6300.00 EUR\n- bestedingen van voorzieningen: 1650.00 EUR\n- toevoegingen aan waardeverminderingen: 780.00 EUR\n\nVraag:\n\n**Bereken de operationele cash-flow.**",
+      "vraagtekst": "Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT\n\n- winst van het boekjaar: 2750.00 EUR\n- afschrijvingen: 12100.00 EUR\n- toevoegingen aan voorzieningen: 6300.00 EUR\n- bestedingen van voorzieningen: 1650.00 EUR\n- toevoegingen aan waardeverminderingen: 780.00 EUR\n\nBereken de operationele cash-flow.",
       "sub_vragen": [],
       "correct_antwoord": "Operationele cashflow = 2.750 + 12.100 + 6.300 − 1.650 + 780 = **€ 20.280**.",
       "antwoord_motivering": "Operationele cashflow = nettoresultaat + niet-kas-bestanddelen (klasse 63 RR):\n\n```\noperationele cashflow = winst boekjaar + afschrijvingen + toevoegingen voorzieningen \n                      − bestedingen voorzieningen + toevoegingen waardeverminderingen\n```\n\n**Toepassing op de gegevens**:\n\n| Component | Bedrag (€) |\n|---|---:|\n| Winst van het boekjaar | + 2.750 |\n| Afschrijvingen | + 12.100 |\n| Toevoegingen aan voorzieningen | + 6.300 |\n| Bestedingen van voorzieningen | − 1.650 |\n| Toevoegingen aan waardeverminderingen | + 780 |\n| **Operationele cashflow** | **+ 20.280** |\n\n⚖️ De operationele cashflow corrigeert het boekhoudkundig resultaat voor de niet-kas-bestanddelen: afschrijvingen en waardeverminderingen zijn boekingen zonder kasuitgaaf, en voorzieningen-toevoegingen/-bestedingen zijn timing-correcties. Het verschil tussen winst (€ 2.750) en operationele cashflow (€ 20.280) toont dat het bedrijf cash genereert die in het resultaat niet zichtbaar is — een belangrijk signaal voor financiële analyse. 🤖\n\n_Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen — klassieke cashflow-formule._",
@@ -639,14 +1076,11 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Vraag:"
-        },
-        {
-          "type": "vraag_instructie",
           "inhoud": "Bereken de operationele cash-flow."
         }
       ],
       "vraag_prefix": "C.2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": [
         {
@@ -670,11 +1104,67 @@
         "gates_gepasseerd": [
           "claim_coverage",
           "geen_externe_kennis"
-        ]
+        ],
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:17.959584+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "grounded",
-      "vraagtekst_normalized_at": "2026-05-19"
+      "vraagtekst_normalized_at": "2026-05-19",
+      "correct_antwoord_blokken": [
+        {
+          "type": "motivatie",
+          "inhoud": "Operationele cashflow = nettoresultaat + niet-kas-bestanddelen (klasse 63 RR):"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "```\noperationele cashflow = winst boekjaar + afschrijvingen + toevoegingen voorzieningen \n                      − bestedingen voorzieningen + toevoegingen waardeverminderingen\n```"
+        },
+        {
+          "type": "motivatie",
+          "inhoud": "**Toepassing op de gegevens**:⚖️ De operationele cashflow corrigeert het boekhoudkundig resultaat voor de niet-kas-bestanddelen: afschrijvingen en waardeverminderingen zijn boekingen zonder kasuitgaaf, en voorzieningen-toevoegingen/-bestedingen zijn timing-correcties. Het verschil tussen winst (€ 2.750) en operationele cashflow (€ 20.280) toont dat het bedrijf cash genereert die in het resultaat niet zichtbaar is — een belangrijk signaal voor financiële analyse. 🤖",
+          "confidence": "inferred"
+        },
+        {
+          "type": "tabel",
+          "headers": [
+            "Component",
+            "Bedrag (€)"
+          ],
+          "rows": [
+            [
+              "Winst van het boekjaar",
+              "+ 2.750"
+            ],
+            [
+              "Afschrijvingen",
+              "+ 12.100"
+            ],
+            [
+              "Toevoegingen aan voorzieningen",
+              "+ 6.300"
+            ],
+            [
+              "Bestedingen van voorzieningen",
+              "− 1.650"
+            ],
+            [
+              "Toevoegingen aan waardeverminderingen",
+              "+ 780"
+            ],
+            [
+              "**Operationele cashflow**",
+              "**+ 20.280**"
+            ]
+          ]
+        },
+        {
+          "type": "grondslag",
+          "bronnen": [
+            "[[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63",
+            "[[cashflow-analyse]] §Bouwstenen — klassieke cashflow-formule"
+          ]
+        }
+      ]
     },
     {
       "id": "2003-bibf-vrD1",
@@ -684,7 +1174,7 @@
       "vak_code_in_pdf": "D",
       "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
       "vraagtype": "open",
-      "vraagtekst": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Vraag: Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen.",
+      "vraagtekst": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen.",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -698,10 +1188,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Vraag: Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen."
+          "inhoud": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen."
         }
       ],
       "vraag_prefix": "D.1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_type": "kwalificatie",
       "record_gap_report": {
@@ -724,7 +1215,7 @@
       "vak_code_in_pdf": "D",
       "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
       "vraagtype": "open",
-      "vraagtekst": "Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Vraag: Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren?",
+      "vraagtekst": "Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren?",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -738,10 +1229,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Vraag: Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren?"
+          "inhoud": "Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren?"
         }
       ],
       "vraag_prefix": "D.2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_type": "kwalificatie",
       "record_gap_report": {
@@ -764,7 +1256,7 @@
       "vak_code_in_pdf": "E",
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "MC",
-      "vraagtekst": "Gelieve een kruisje te plaatsen voor de economische activiteiten die geen recht geven op een BTW aftrek .  (cid:137) Een natuurlijke persoon “zaakvoerder” van een BVBA (cid:137) Een natuurlijke persoon “bestuurder” van een NV (cid:137) Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming (cid:137) Een natuurlijk persoon “vereffenaar” van een CVBA",
+      "vraagtekst": "Gelieve een kruisje te plaatsen voor de economische activiteiten die geen recht geven op een BTW aftrek . (cid:137) Een natuurlijke persoon “zaakvoerder” van een BVBA (cid:137) Een natuurlijke persoon “bestuurder” van een NV (cid:137) Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming (cid:137) Een natuurlijk persoon “vereffenaar” van een CVBA",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -778,10 +1270,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Gelieve een kruisje te plaatsen voor de economische activiteiten die geen recht geven op een BTW aftrek .  (cid:137) Een natuurlijke persoon “zaakvoerder” van een BVBA (cid:137) Een natuurlijke persoon “bestuurder” van een NV (cid:137) Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming (cid:137) Een natuurlijk persoon “vereffenaar” van een CVBA"
+          "inhoud": "Gelieve een kruisje te plaatsen voor de economische activiteiten die geen recht geven op een BTW aftrek . (cid:137) Een natuurlijke persoon “zaakvoerder” van een BVBA (cid:137) Een natuurlijke persoon “bestuurder” van een NV (cid:137) Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming (cid:137) Een natuurlijk persoon “vereffenaar” van een CVBA"
         }
       ],
       "vraag_prefix": "E.1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -792,7 +1285,7 @@
       "vak_code_in_pdf": "E",
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "berekening",
-      "vraagtekst": "Welk is de aftrekbare BTW in de volgende gevallen (antwoord dient in cijfers uitgedrukt te worden !!)  * 100,00 EUR BTW op een factuur van brandstof voor een auto die voor 25 % voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75 % privé) * 514, 50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf. Er is geen logo van de firma terug te vinden op de pennen. * Factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit “bouwpromotor” (overdracht van betaling met correcte toepassing van de regeling inzake de medecontractant – KB nr 1 , artikel 20) * Intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn, aan 18,00 EUR per fles, van een wijnboer gevestigd in Frankrijk. Totaal van de factuur 2.700,00 EUR). Daarenboven zijn de Belgische accijnzen verschuldigd van 4,00 EUR per fles, hetzij 600,00 EUR in totaal. De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt.",
+      "vraagtekst": "Welk is de aftrekbare BTW in de volgende gevallen (antwoord dient in cijfers uitgedrukt te worden !!) * 100,00 EUR BTW op een factuur van brandstof voor een auto die voor 25 % voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75 % privé) * 514, 50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf. Er is geen logo van de firma terug te vinden op de pennen. * Factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit “bouwpromotor” (overdracht van betaling met correcte toepassing van de regeling inzake de medecontractant – KB nr 1 , artikel 20) * Intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn, aan 18,00 EUR per fles, van een wijnboer gevestigd in Frankrijk. Totaal van de factuur 2.700,00 EUR). Daarenboven zijn de Belgische accijnzen verschuldigd van 4,00 EUR per fles, hetzij 600,00 EUR in totaal. De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt.",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -807,10 +1300,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Welk is de aftrekbare BTW in de volgende gevallen (antwoord dient in cijfers uitgedrukt te worden !!)  * 100,00 EUR BTW op een factuur van brandstof voor een auto die voor 25 % voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75 % privé) * 514, 50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf. Er is geen logo van de firma terug te vinden op de pennen. * Factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit “bouwpromotor” (overdracht van betaling met correcte toepassing van de regeling inzake de medecontractant – KB nr 1 , artikel 20) * Intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn, aan 18,00 EUR per fles, van een wijnboer gevestigd in Frankrijk. Totaal van de factuur 2.700,00 EUR). Daarenboven zijn de Belgische accijnzen verschuldigd van 4,00 EUR per fles, hetzij 600,00 EUR in totaal. De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt."
+          "inhoud": "Welk is de aftrekbare BTW in de volgende gevallen (antwoord dient in cijfers uitgedrukt te worden !!) * 100,00 EUR BTW op een factuur van brandstof voor een auto die voor 25 % voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75 % privé) * 514, 50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf. Er is geen logo van de firma terug te vinden op de pennen. * Factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit “bouwpromotor” (overdracht van betaling met correcte toepassing van de regeling inzake de medecontractant – KB nr 1 , artikel 20) * Intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn, aan 18,00 EUR per fles, van een wijnboer gevestigd in Frankrijk. Totaal van de factuur 2.700,00 EUR). Daarenboven zijn de Belgische accijnzen verschuldigd van 4,00 EUR per fles, hetzij 600,00 EUR in totaal. De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt."
         }
       ],
       "vraag_prefix": "E.2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -821,7 +1315,7 @@
       "vak_code_in_pdf": "E",
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "J/F",
-      "vraagtekst": "Is er BTW verschuldigd op de volgende verrichtingen, die verricht worden in de loop van het jaar 2003, in hoofde van een BTW belastingplichtige, ontvanger van BTW met recht op aftrek?  Gelieve uw keuze te omcirkelen. Indien U “JA” antwoordt, dient U het bedrag van de verschuldigde belasting te vermelden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrage te komen. JA NEEN * Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper) JA NEEN * Voordeel van alle aard van 1.500, 00 EUR voor het gebruik van een auto door een personeelslid JA NEEN * Overschakeling van het normale regime naar het franchisesysteem. Bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR, exclusief 21 % BTW (belasting die geheel werd afgetrokken) JA NEEN * Verkoop van goederen voor 10.000 € met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat. JA NEEN",
+      "vraagtekst": "Is er BTW verschuldigd op de volgende verrichtingen, die verricht worden in de loop van het jaar 2003, in hoofde van een BTW belastingplichtige, ontvanger van BTW met recht op aftrek? Gelieve uw keuze te omcirkelen. Indien U “JA” antwoordt, dient U het bedrag van de verschuldigde belasting te vermelden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrage te komen. JA NEEN * Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper) JA NEEN * Voordeel van alle aard van 1.500, 00 EUR voor het gebruik van een auto door een personeelslid JA NEEN * Overschakeling van het normale regime naar het franchisesysteem. Bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR, exclusief 21 % BTW (belasting die geheel werd afgetrokken) JA NEEN * Verkoop van goederen voor 10.000 € met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat. JA NEEN",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -836,10 +1330,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Is er BTW verschuldigd op de volgende verrichtingen, die verricht worden in de loop van het jaar 2003, in hoofde van een BTW belastingplichtige, ontvanger van BTW met recht op aftrek?  Gelieve uw keuze te omcirkelen. Indien U “JA” antwoordt, dient U het bedrag van de verschuldigde belasting te vermelden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrage te komen. JA NEEN * Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper) JA NEEN * Voordeel van alle aard van 1.500, 00 EUR voor het gebruik van een auto door een personeelslid JA NEEN * Overschakeling van het normale regime naar het franchisesysteem. Bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR, exclusief 21 % BTW (belasting die geheel werd afgetrokken) JA NEEN * Verkoop van goederen voor 10.000 € met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat. JA NEEN"
+          "inhoud": "Is er BTW verschuldigd op de volgende verrichtingen, die verricht worden in de loop van het jaar 2003, in hoofde van een BTW belastingplichtige, ontvanger van BTW met recht op aftrek? Gelieve uw keuze te omcirkelen. Indien U “JA” antwoordt, dient U het bedrag van de verschuldigde belasting te vermelden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrage te komen. JA NEEN * Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper) JA NEEN * Voordeel van alle aard van 1.500, 00 EUR voor het gebruik van een auto door een personeelslid JA NEEN * Overschakeling van het normale regime naar het franchisesysteem. Bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR, exclusief 21 % BTW (belasting die geheel werd afgetrokken) JA NEEN * Verkoop van goederen voor 10.000 € met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat. JA NEEN"
         }
       ],
       "vraag_prefix": "E.3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -850,7 +1345,7 @@
       "vak_code_in_pdf": "E",
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "open",
-      "vraagtekst": "Welk is het wettelijk tijdstip of de uiterste datum voor de punctuele uitvoering van de volgende BTW verplichtingen?  * Neerlegging van de jaarlijkse klantenlistings onderworpen en geïdentificeerd bij de BTW DATUM/MOMENT : * Betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW aangiftes doet. DATUM/MOMENT : * Afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) – Wijziging van effectief domicilie op 1 april 2003 DATUM/MOMENT : * Afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) – Definitieve stopzetting op 31 maart 2003. DATUM/MOMENT :",
+      "vraagtekst": "Welk is het wettelijk tijdstip of de uiterste datum voor de punctuele uitvoering van de volgende BTW verplichtingen? * Neerlegging van de jaarlijkse klantenlistings onderworpen en geïdentificeerd bij de BTW DATUM/MOMENT : * Betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW aangiftes doet. DATUM/MOMENT : * Afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) – Wijziging van effectief domicilie op 1 april 2003 DATUM/MOMENT : * Afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) – Definitieve stopzetting op 31 maart 2003. DATUM/MOMENT :",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -865,10 +1360,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Welk is het wettelijk tijdstip of de uiterste datum voor de punctuele uitvoering van de volgende BTW verplichtingen?  * Neerlegging van de jaarlijkse klantenlistings onderworpen en geïdentificeerd bij de BTW DATUM/MOMENT : * Betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW aangiftes doet. DATUM/MOMENT : * Afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) – Wijziging van effectief domicilie op 1 april 2003 DATUM/MOMENT : * Afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) – Definitieve stopzetting op 31 maart 2003. DATUM/MOMENT :"
+          "inhoud": "Welk is het wettelijk tijdstip of de uiterste datum voor de punctuele uitvoering van de volgende BTW verplichtingen? * Neerlegging van de jaarlijkse klantenlistings onderworpen en geïdentificeerd bij de BTW DATUM/MOMENT : * Betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW aangiftes doet. DATUM/MOMENT : * Afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) – Wijziging van effectief domicilie op 1 april 2003 DATUM/MOMENT : * Afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) – Definitieve stopzetting op 31 maart 2003. DATUM/MOMENT :"
         }
       ],
       "vraag_prefix": "E.4",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -879,7 +1375,7 @@
       "vak_code_in_pdf": "E",
       "vak_naam_in_pdf": "E. BTW",
       "vraagtype": "J/F",
-      "vraagtekst": "Gelieve de juiste keuze te omcirkelen betreffende volgende stellingen:  * Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden JUIST FOUT * Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert. JUIST FOUT * Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek JUIST FOUT * Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW aangifte op te stellen. JUIST FOUT",
+      "vraagtekst": "Gelieve de juiste keuze te omcirkelen betreffende volgende stellingen: * Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden JUIST FOUT * Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert. JUIST FOUT * Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek JUIST FOUT * Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW aangifte op te stellen. JUIST FOUT",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -893,10 +1389,11 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Gelieve de juiste keuze te omcirkelen betreffende volgende stellingen:  * Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden JUIST FOUT * Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert. JUIST FOUT * Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek JUIST FOUT * Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW aangifte op te stellen. JUIST FOUT"
+          "inhoud": "Gelieve de juiste keuze te omcirkelen betreffende volgende stellingen: * Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden JUIST FOUT * Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert. JUIST FOUT * Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek JUIST FOUT * Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW aangifte op te stellen. JUIST FOUT"
         }
       ],
       "vraag_prefix": "E.5",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -907,7 +1404,7 @@
       "vak_code_in_pdf": "F",
       "vak_naam_in_pdf": "F. Personenbelasting",
       "vraagtype": "berekening",
-      "vraagtekst": "F. PERSONENBELASTING  De Heer en\n\n> Mevrouw Janssens zijn eigenaar van twee onroerende goederen: onroerend goed A, gelegen buiten de stad en onroerend goed B, gelegen in het centrum van de stad.\n\nZij hebben 4 kinderen van respectievelijk 12, 9,7 en 4 jaar.en wonen allen samen in het huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt het onroerend goed B van de familie Janssens voor een huurprijs van 15.000 € per jaar verhoogd met de onroerende voorheffing. Woonhuis A KI 1.050 € Woonhuis B KI 1.202 € Revalorisatiecoëfficient 3,35 (Art. 1 KBWIB 92) F.1 Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van volgende gegevens: 10 PUNTEN - Jaarlijkse bruto bezoldiging : 30.000 € - Sociale bijdrage voor rekening van de Heer Janssens betaald door de NV, per trimester: 1.200 € - Netto bedrag van de mutualiteitbijdrage 887 € - Ingehouden en doorgestorte bedrijfsvoorheffing 4.636 € - Voordelen van alle aard (auto) 1.500 € - forfaitaire beroepskosten : UIT TE REKENEN",
+      "vraagtekst": "F. PERSONENBELASTING De Heer en\n\n> Mevrouw Janssens zijn eigenaar van twee onroerende goederen: onroerend goed A, gelegen buiten de stad en onroerend goed B, gelegen in het centrum van de stad.\n\nZij hebben 4 kinderen van respectievelijk 12, 9,7 en 4 jaar.en wonen allen samen in het huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt het onroerend goed B van de familie Janssens voor een huurprijs van 15.000 € per jaar verhoogd met de onroerende voorheffing. Woonhuis A KI 1.050 € Woonhuis B KI 1.202 € Revalorisatiecoëfficient 3,35 (Art. 1 KBWIB 92) F.1 Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van volgende gegevens: - Jaarlijkse bruto bezoldiging : 30.000 € - Sociale bijdrage voor rekening van de Heer Janssens betaald door de NV, per trimester: 1.200 € - Netto bedrag van de mutualiteitbijdrage 887 € - Ingehouden en doorgestorte bedrijfsvoorheffing 4.636 € - Voordelen van alle aard (auto) 1.500 € - forfaitaire beroepskosten : UIT TE REKENEN",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -923,7 +1420,7 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "F. PERSONENBELASTING  De Heer en"
+          "inhoud": "F. PERSONENBELASTING De Heer en"
         },
         {
           "type": "casus_context",
@@ -931,9 +1428,10 @@
         },
         {
           "type": "tekst",
-          "inhoud": "Zij hebben 4 kinderen van respectievelijk 12, 9,7 en 4 jaar.en wonen allen samen in het huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt het onroerend goed B van de familie Janssens voor een huurprijs van 15.000 € per jaar verhoogd met de onroerende voorheffing. Woonhuis A KI 1.050 € Woonhuis B KI 1.202 € Revalorisatiecoëfficient 3,35 (Art. 1 KBWIB 92) F.1 Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van volgende gegevens: 10 PUNTEN - Jaarlijkse bruto bezoldiging : 30.000 € - Sociale bijdrage voor rekening van de Heer Janssens betaald door de NV, per trimester: 1.200 € - Netto bedrag van de mutualiteitbijdrage 887 € - Ingehouden en doorgestorte bedrijfsvoorheffing 4.636 € - Voordelen van alle aard (auto) 1.500 € - forfaitaire beroepskosten : UIT TE REKENEN"
+          "inhoud": "Zij hebben 4 kinderen van respectievelijk 12, 9,7 en 4 jaar.en wonen allen samen in het huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt het onroerend goed B van de familie Janssens voor een huurprijs van 15.000 € per jaar verhoogd met de onroerende voorheffing. Woonhuis A KI 1.050 € Woonhuis B KI 1.202 € Revalorisatiecoëfficient 3,35 (Art. 1 KBWIB 92) F.1 Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van volgende gegevens: - Jaarlijkse bruto bezoldiging : 30.000 € - Sociale bijdrage voor rekening van de Heer Janssens betaald door de NV, per trimester: 1.200 € - Netto bedrag van de mutualiteitbijdrage 887 € - Ingehouden en doorgestorte bedrijfsvoorheffing 4.636 € - Voordelen van alle aard (auto) 1.500 € - forfaitaire beroepskosten : UIT TE REKENEN"
         }
       ],
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -944,7 +1442,7 @@
       "vak_code_in_pdf": "G",
       "vak_naam_in_pdf": "G. Vennootschapsbelasting",
       "vraagtype": "berekening",
-      "vraagtekst": "G. VENNOOTSCHAPSBELASTING  G.1 Situatie:\n\n> De BVBA Albert legt volgende balans, afgesloten op 31/12/2002, voorafgaand aan de bestemming van het resultaat, ter goedkeuring voor aan de algemene vergadering.\n\nVaste Activa 79.260 Onderschreven kapitaal 18.600 Herwaarderingsmeerwaarden 600 Financiële Activa 30.000 Wettelijke reserve 1.860 Vrijgestelde reserve 200 Vlottende Activa 20.000 Beschikbare reserve 16.000 Te bestemmen winst van het boekj 62.000 Schulden op minder dan één jaar 30.000 ---------- ---------\n\n129. 260 129.260 De algemene vergadering van 17 mei 2003 beslist om het resultaat van het boekjaar als volgt te bestemmen: - Wettelijke reserve – nihil (de 10 % werd reeds bereikt) -- - Uitkering van dividenden voor een totaal van 40.000 - Toekenning aan de beschikbare reserve 18.000 - Overgedragen winst 4.000 62.000 Bijkomende Gegevens:\n\na. De opbrengsten bevatten de inning van dividenden , toegekend door een NV waarvan men 80 % van het maatschappelijk kapitaal bezit voor een bedrag van : 1.200 € , roerende voorheffing 400 €.\n\nb. In de kosten noteert men: rekening: 67 belastingen op de inkomsten en voorafbetalingen 20.000 67 Roerende voorheffing 400 61 Autokosten 1.500 63 Afschrijvingen auto 3.800 61 Representatiekosten, restaurants enz.. 2.000\n\n63. Afschrijvingen van de genoteerde meerwaarde op vaste activa ( 1ste boekjaar) 60 61 Liberaliteiten toegekend voor een totaal van: 160 waarvan liberaliteiten verantwoord door een attest ( 80 €) 64 Onroerende voorheffing 100 Opgave: Vul vak per vak de aangifte in de vennootschapsbelasting in (zie hierna) op basis van bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen. 10 PUNTEN",
+      "vraagtekst": "G. VENNOOTSCHAPSBELASTING G.1 Situatie:\n\n> De BVBA Albert legt volgende balans, afgesloten op 31/12/2002, voorafgaand aan de bestemming van het resultaat, ter goedkeuring voor aan de algemene vergadering.\n\nVaste Activa 79.260 Onderschreven kapitaal 18.600 Herwaarderingsmeerwaarden 600 Financiële Activa 30.000 Wettelijke reserve 1.860 Vrijgestelde reserve 200 Vlottende Activa 20.000 Beschikbare reserve 16.000 Te bestemmen winst van het boekj 62.000 Schulden op minder dan één jaar 30.000 ---------- ---------\n\n129. 260 129.260 De algemene vergadering van 17 mei 2003 beslist om het resultaat van het boekjaar als volgt te bestemmen: - Wettelijke reserve – nihil (de 10 % werd reeds bereikt) -- - Uitkering van dividenden voor een totaal van 40.000 - Toekenning aan de beschikbare reserve 18.000 - Overgedragen winst 4.000 62.000 Bijkomende Gegevens:\n\na. De opbrengsten bevatten de inning van dividenden , toegekend door een NV waarvan men 80 % van het maatschappelijk kapitaal bezit voor een bedrag van : 1.200 € , roerende voorheffing 400 €.\n\nb. In de kosten noteert men: rekening: 67 belastingen op de inkomsten en voorafbetalingen 20.000 67 Roerende voorheffing 400 61 Autokosten 1.500 63 Afschrijvingen auto 3.800 61 Representatiekosten, restaurants enz.. 2.000\n\n63. Afschrijvingen van de genoteerde meerwaarde op vaste activa ( 1ste boekjaar) 60 61 Liberaliteiten toegekend voor een totaal van: 160 waarvan liberaliteiten verantwoord door een attest ( 80 €) 64 Onroerende voorheffing 100 Opgave: Vul vak per vak de aangifte in de vennootschapsbelasting in (zie hierna) op basis van bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen.",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -960,7 +1458,7 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "G. VENNOOTSCHAPSBELASTING  G.1 Situatie:"
+          "inhoud": "G. VENNOOTSCHAPSBELASTING G.1 Situatie:"
         },
         {
           "type": "casus_context",
@@ -982,9 +1480,10 @@
         },
         {
           "type": "tekst",
-          "inhoud": "63. Afschrijvingen van de genoteerde meerwaarde op vaste activa ( 1ste boekjaar) 60 61 Liberaliteiten toegekend voor een totaal van: 160 waarvan liberaliteiten verantwoord door een attest ( 80 €) 64 Onroerende voorheffing 100 Opgave: Vul vak per vak de aangifte in de vennootschapsbelasting in (zie hierna) op basis van bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen. 10 PUNTEN"
+          "inhoud": "63. Afschrijvingen van de genoteerde meerwaarde op vaste activa ( 1ste boekjaar) 60 61 Liberaliteiten toegekend voor een totaal van: 160 waarvan liberaliteiten verantwoord door een attest ( 80 €) 64 Onroerende voorheffing 100 Opgave: Vul vak per vak de aangifte in de vennootschapsbelasting in (zie hierna) op basis van bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen."
         }
       ],
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1013,6 +1512,7 @@
         }
       ],
       "vraag_prefix": "H.1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1041,6 +1541,7 @@
         }
       ],
       "vraag_prefix": "H.2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1051,7 +1552,7 @@
       "vak_code_in_pdf": "I",
       "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
       "vraagtype": "J/F",
-      "vraagtekst": "I. 1 Worden er in België accijnzen geheven op de aankoop van volgende producten door een restaurateur die in ons land is gevestigd? Het betreft hier intracommunautaire verwervingen in hoofde van de restaurateur.  Gelieve uw keuze te omcirkelen: * Aankoop van sigaren bij een winkel gevestigd in Nederland JA NEEN * Champagne die gekocht werd bij een Franse producent in Frankrijk JA NEEN * Stookolie afkomstig van Duitsland voor de verwarming van het restaurant JA NEEN * Hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk. JA NEEN",
+      "vraagtekst": "I. 1 Worden er in België accijnzen geheven op de aankoop van volgende producten door een restaurateur die in ons land is gevestigd? Het betreft hier intracommunautaire verwervingen in hoofde van de restaurateur. Gelieve uw keuze te omcirkelen: * Aankoop van sigaren bij een winkel gevestigd in Nederland JA NEEN * Champagne die gekocht werd bij een Franse producent in Frankrijk JA NEEN * Stookolie afkomstig van Duitsland voor de verwarming van het restaurant JA NEEN * Hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk. JA NEEN",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -1065,9 +1566,10 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "I. 1 Worden er in België accijnzen geheven op de aankoop van volgende producten door een restaurateur die in ons land is gevestigd? Het betreft hier intracommunautaire verwervingen in hoofde van de restaurateur.  Gelieve uw keuze te omcirkelen: * Aankoop van sigaren bij een winkel gevestigd in Nederland JA NEEN * Champagne die gekocht werd bij een Franse producent in Frankrijk JA NEEN * Stookolie afkomstig van Duitsland voor de verwarming van het restaurant JA NEEN * Hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk. JA NEEN"
+          "inhoud": "I. 1 Worden er in België accijnzen geheven op de aankoop van volgende producten door een restaurateur die in ons land is gevestigd? Het betreft hier intracommunautaire verwervingen in hoofde van de restaurateur. Gelieve uw keuze te omcirkelen: * Aankoop van sigaren bij een winkel gevestigd in Nederland JA NEEN * Champagne die gekocht werd bij een Franse producent in Frankrijk JA NEEN * Stookolie afkomstig van Duitsland voor de verwarming van het restaurant JA NEEN * Hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk. JA NEEN"
         }
       ],
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1078,7 +1580,7 @@
       "vak_code_in_pdf": "I",
       "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
       "vraagtype": "open",
-      "vraagtekst": "Een handelaar wenst zijn eenmanszaak om te zetten in een vennootschap, nl. een BVBA. Hij brengt het volgende in zijn vennootschap: - het gebouw waarin hij zijn activiteit uitbaat dat hem ook dient als woonhuis: waarde 200.000,00 euro. - materieel, apparatuur, meubilair = waarde 5.000,00 euro. - Bestelwagen: waarde 10.000,00 euro. - gereed geld ter waarde van 10.000,00 euro.\n\na. Geef de diverse formaliteiten (vennootschapsrechterlijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte\n\nb. Geef aan hoeveel registratierechten hij zal betalen wetende dat zijn inbreng als volgt zal vergoed worden: 3 PUNTEN - met kapitaalaandelen voor 200.000,00 euro - op rekening-courant: 25.000,00 euro.",
+      "vraagtekst": "Een handelaar wenst zijn eenmanszaak om te zetten in een vennootschap, nl. een BVBA. Hij brengt het volgende in zijn vennootschap: - het gebouw waarin hij zijn activiteit uitbaat dat hem ook dient als woonhuis: waarde 200.000,00 euro. - materieel, apparatuur, meubilair = waarde 5.000,00 euro. - Bestelwagen: waarde 10.000,00 euro. - gereed geld ter waarde van 10.000,00 euro.\n\na. Geef de diverse formaliteiten (vennootschapsrechterlijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte\n\nb. Geef aan hoeveel registratierechten hij zal betalen wetende dat zijn inbreng als volgt zal vergoed worden: - met kapitaalaandelen voor 200.000,00 euro - op rekening-courant: 25.000,00 euro.",
       "sub_vragen": [],
       "correct_antwoord": null,
       "antwoord_motivering": null,
@@ -1103,10 +1605,11 @@
         {
           "type": "mc_optie",
           "label": "b",
-          "tekst": "Geef aan hoeveel registratierechten hij zal betalen wetende dat zijn inbreng als volgt zal vergoed worden: 3 PUNTEN - met kapitaalaandelen voor 200.000,00 euro - op rekening-courant: 25.000,00 euro."
+          "tekst": "Geef aan hoeveel registratierechten hij zal betalen wetende dat zijn inbreng als volgt zal vergoed worden: - met kapitaalaandelen voor 200.000,00 euro - op rekening-courant: 25.000,00 euro."
         }
       ],
       "vraag_prefix": "I.2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1135,6 +1638,7 @@
         }
       ],
       "vraag_prefix": "I.3",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1163,6 +1667,7 @@
         }
       ],
       "vraag_prefix": "I.4",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1191,6 +1696,7 @@
         }
       ],
       "vraag_prefix": "J.1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1219,6 +1725,7 @@
         }
       ],
       "vraag_prefix": "J.2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1247,6 +1754,7 @@
         }
       ],
       "vraag_prefix": "K.1",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     },
     {
@@ -1275,12 +1783,13 @@
         }
       ],
       "vraag_prefix": "K.2",
+      "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true
     }
   ],
   "schema_versie": "3.0",
   "migratie": {
-    "uitgevoerd_op": "2026-05-19T23:34:44.552652+00:00",
+    "uitgevoerd_op": "2026-05-20T00:20:10.153288+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2003-bibf.json",
     "behouden_antwoorden": 9,
     "behouden_gap_reports": 2,

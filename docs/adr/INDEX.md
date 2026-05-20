@@ -29,6 +29,8 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-019](ADR-019-records-api.md) | Centrale records-API + RAG-parity discipline | Draft |
 | [ADR-020](ADR-020-modelantwoorden-voorbeeldexamens.md) | Modelantwoorden voor voorbeeldexamenvragen | Draft |
 | [ADR-021](ADR-021-examenvragen-extractie-v2.md) | Examenvragen-extractie v2 + gestructureerde vraagtekst-blokken | Accepted |
+| [ADR-022](ADR-022-vraag-herinterpretatie-draft.md) | Vraag-herinterpretatie (herinnering-stijl voorbeeldexamens) | Draft |
+| [ADR-023](ADR-023-gestructureerde-antwoorden-en-vraag-v3.1.md) | Gestructureerde antwoorden (`correct_antwoord_blokken[]`) + vraag-cleanup v3.1 | Draft |
 
 ## Roadmap
 

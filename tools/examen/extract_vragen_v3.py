@@ -106,6 +106,12 @@ def transformeer_vraag(vraag: dict[str, Any]) -> dict[str, Any]:
         # (v2-header-parser is preciezer voor de "Vraag N / X punten" syntax).
         if nieuw.get("punten") in (None, 0, 0.0):
             nieuw["punten"] = top_velden["punten"]
+    # v3.1: vraag_onderwerp
+    if top_velden.get("vraag_onderwerp") is not None:
+        nieuw["vraag_onderwerp"] = top_velden["vraag_onderwerp"]
+    else:
+        # Behoud bestaande waarde of zet expliciet null
+        nieuw.setdefault("vraag_onderwerp", None)
     nieuw["vraag_header_geextracteerd"] = top_velden.get("vraag_header_geextracteerd", False)
     # Reconstrueer vraagtekst (concat van v3-blokken) wanneer geen tabel
     bevat_tabel = any(b.get("type") == "tabel" for b in v3_blokken)
