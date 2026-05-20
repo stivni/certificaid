@@ -33,10 +33,33 @@
 - [x] ADR-025 spec
 - [x] EXTRACT v5 prompt
 - [x] VERIFY v3 prompt
+- [x] Skeleton-voorstel prompt voor stap 0 (`prompts/skeleton-voorstel-v1.md`)
 - [x] 8 mockup-referentie-fiches in `content/experiment/`
-- [ ] Records-API soft-validator update (herkent 2.0 + 1.5/1.6) — uit te voeren
-- [ ] Archief-mechanisme: `data/concepten/_archive/v1.x/` aanmaken — uit te voeren
+- [x] Archief-mechanisme (`tools/extractie/archive_voor_migratie.py`)
 - [ ] Bronnen-werk: cijferzakboekje + extra fiscale bronnen (parallel, jouw werk)
+- ~~Records-API soft-validator~~ — geschrapt; VERIFY-pass volstaat
+
+## Stap 0 — Skeleton-voorstel (pre-pilot)
+
+Vóór elke wave: een Opus-subagent draait `prompts/skeleton-voorstel-v1.md` op de PO.
+
+Input voor de agent:
+- alle v1.x-records met `linked_anchors[]` op de PO
+- `data/programma/anchors.json` (TDKs voor de PO)
+- examen-vragen voor de PO
+- referentie-mockups uit `content/experiment/`
+
+Output: markdown-rapport in `data/extractie/<PO>/skeleton-voorstel-<timestamp>.md` met:
+- Inventaris bestaande records + voorstel-kind per record
+- Voorgestelde 2.0-fiche-clusters (welke v1.x-records samenvatten tot welke 2.0-fiche)
+- Voorgestelde nieuwe kader/regime-fiches
+- Records die verdwijnen of mergen
+- TDK-dekking-check
+- Open vragen voor menselijke review
+
+**Mens-in-de-loop**: jij reviewt het voorstel vóór herextract start. Aanpassingen via commentaar terug naar de agent of direct in het rapport.
+
+Geschatte tijd: 10-20 min Opus-tijd per PO. Eénmalige scan; herhalen alleen bij wezenlijke wijziging.
 
 ### Wave-planning per PO
 
@@ -59,48 +82,70 @@ Volgorde voor pilot (kleine controleerbare batch eerst):
 ### Stap 1 — Archivering
 
 ```bash
-mkdir -p data/concepten/_archive/v1.x
-# Identificeer records gelinkt aan PO 1.1
-python3 -c "
-import json, pathlib
-records = pathlib.Path('data/concepten/records').glob('*.json')
-po11_records = []
-for r in records:
-    d = json.loads(r.read_text())
-    if any(a.startswith('1.1') for a in d.get('linked_anchors', [])):
-        po11_records.append(r.name)
-print('\n'.join(po11_records))
-" > data/concepten/_archive/v1.x/po11-record-list.txt
+# Dry-run om te zien wat gekopieerd zou worden
+python3 -m tools.extractie.archive_voor_migratie --anchor-prefix 1.1 --dry-run
 
-# Move (niet copy — we willen geen verwarring)
-while IFS= read -r f; do
-  cp "data/concepten/records/$f" "data/concepten/_archive/v1.x/$f"
-done < data/concepten/_archive/v1.x/po11-record-list.txt
+# Echte archivering
+python3 -m tools.extractie.archive_voor_migratie --anchor-prefix 1.1
 ```
 
-Records blijven leesbaar in archief; nieuwe versies komen naast bestaande tot we de oude bewust verwijderen.
+Records worden **gekopieerd** (niet verplaatst) naar
+`data/concepten/_archive/v2.0-migratie/<timestamp>-po-1.1/`. Originelen blijven
+in `data/concepten/records/`; Quartz blijft renderen op de huidige content.
+Pas wanneer `save_record()` een 2.0-versie schrijft, overschrijft het de oude
+markdown atomair.
 
-### Stap 2 — Subagent-fleet
+### Stap 2 — Subagent-fleet met lock-based parallelisatie
 
-Voor parallelle extract: één Opus-subagent per ~5 records. Bij 50 records dus ~10 subagents tegelijk.
+**Parallelisatie zonder overlap** — orchestrator wijst elk **2.0-fiche-doel** (uit
+het skeleton-voorstel) toe aan precies één Opus-subagent. Bij ~30-50 doel-fiches
+voor PO 1.1 → ~6-10 subagents tegelijk, elk 4-5 fiches.
 
-Orchestrator-prompt (sketch):
+**Lock-discipline**:
+- Orchestrator pakt de fiche-lijst uit het skeleton-voorstel
+- Wijst elke fiche aan precies één agent toe (agent A doet `obligatielening`,
+  agent B doet `inkoop-eigen-aandelen-nv`, …)
+- Geen twee agents werken aan hetzelfde 2.0-fiche-doel
+- **Cross-PO-completeness binnen agent**: agent die `obligatielening` doet,
+  behandelt alle perspectieven (boekhoudkundig + fiscaal + audit) ongeacht in welke
+  PO-wave we zitten — zo gebeurt het in één pass, niet "fiscaal later"
+- **First-write-wins voor nieuwe records**: als agent X tijdens extract een
+  ontbrekend record signaleert dat agent Y ook nodig heeft → agent X maakt het,
+  Y leest de versie van X via concept-RAG bij eigen extract
+- Eventuele overlap-rommel → opgelost in Fase 3 (refinement) via VERIFY-suggesties
+
+**Orchestrator-prompt** (sketch):
 ```
-Je orchestreert een parallelle herextract-wave. Verdeel de meegeleverde record-lijst over 10 subagents (5 records elk). Elke subagent krijgt:
+Je orchestreert een parallelle herextract-wave voor PO X.
+
+Input: skeleton-voorstel rapport (lijst van 2.0-fiches te schrijven).
+
+Verdeel de fiches over N subagents (4-5 per agent). Per agent:
 - prompts/concept-extractie-v5.md als systeem-instructie
-- content/experiment/obligatielening-v7.md (+ 2-3 andere mockups) als in-context referentie
-- 5 specifieke records uit archief + alle relevante anchors + RAG-access
+- minstens 3 referentie-mockups uit content/experiment/ (kind-specifiek)
+- De toegewezen fiches + alle archief-records die er onderdeel van worden
+- Anchors + RAG-access
+
+Wijs nooit hetzelfde fiche aan twee agents toe. Volgorde: kader/regime-fiches
+eerst (zodat instrument-fiches er edges naar kunnen leggen), dan instrumenten
+en operaties, dan ratio's.
 
 Resultaat: nieuwe 2.0-records via records-API geschreven.
 ```
 
-Subagent-prompt per batch:
+**Subagent-prompt per batch**:
 ```
-Lees prompts/concept-extractie-v5.md voor instructies + de drie referentie-fiches uit content/experiment/.
-Herextract deze 5 records in 2.0-formaat:
-- record-1, record-2, record-3, record-4, record-5
+Lees prompts/concept-extractie-v5.md voor volledige instructies + de drie
+referentie-fiches uit content/experiment/.
 
-Voor elk: lees archief-versie als seed, raadpleeg RAG voor extra bronnen, identificeer kind, volg top-volgorde, schrijf via save_record.
+Schrijf deze 2.0-fiches:
+- doelfiche-A (kind: instrument, samenvatting van archief-records X, Y, Z)
+- doelfiche-B (kind: operatie, samenvatting van W)
+- ...
+
+Voor elk: lees archief-records als seed, raadpleeg RAG voor extra bronnen,
+volg top-volgorde + rol × perspectief, schrijf via save_record. Geen
+overlap met je collega-agents (vooraf afgebakende fiche-lijst).
 ```
 
 ### Stap 3 — VERIFY-pass (na elke wave)
@@ -158,12 +203,32 @@ Jouw bronnen-werk (Cijferzakboekje + extra fiscale bronnen) loopt parallel:
 
 ## Fase 3 — refinement
 
-Na Fase 2: een refinement-loop:
-- VERIFY suggesties verwerken (bv. voorbeeld_ontbreekt → bijwerken)
-- Hallucinatie-risico claims onderzoeken (handmatig of via gerichte sub-pass)
-- ⚠️ → ⚖️ upgraden waar nieuwe bronnen het toelaten
-- Cross-record edges aanvullen
+Na Fase 2: een refinement-loop met o.a. een **mechanische claim-validatie-pass**.
+
+### Mechanische ⚠️ → ⚖️ upgrade-pass
+
+Schema 2.0 maakt elke claim **structured queryable**: elk element heeft
+`confidence` + `bron` + claim-tekst. Een refinement-script kan systematisch:
+
+1. Alle records doorlopen
+2. Per element met `confidence: te_verifieren`: gericht RAG-query op de claim-tekst tegen de huidige bronnen-RAG (incl. nieuw toegevoegde bronnen)
+3. Indien match met voldoende score → `confidence: grounded` + `bron`-veld invullen
+4. Indien geen match → blijft ⚠️, logt naar `gaps.json` als "bronnen-werk nodig voor concrete claim X"
+
+Concreet helper-script `tools/extractie/herevalueer_te_verifieren.py` te bouwen
+zodra Fase 2-output beschikbaar is.
+
+Voordeel: jij voegt fiscale bronnen toe → script upgrade automatisch
+relevante claims zonder mens-in-de-loop per claim.
+
+### Overige refinement-acties
+
+- VERIFY-suggesties verwerken (bv. `voorbeeld_ontbreekt` → bijwerken)
+- Hallucinatie-risico claims onderzoeken (gerichte sub-pass)
+- Cross-record edges aanvullen (`verward_met`-pairs symmetrisch maken)
 - Kader- en familie-fiches verbeteren met inzichten uit specifieke leden
+- Wave-stitching: records die in twee waves zijn aangeraakt → consolideer naar
+  één canonical versie
 
 Geen tijdsdoel; doorlopend werk.
 
@@ -208,7 +273,7 @@ Geen blokkering voor extract — markdown-render werkt al; collapsible is verfij
 
 1. ADR-025 + prompts gepushed → klaar
 2. Bronnen-werk (jij) parallel starten
-3. Records-API soft-validator implementeren (Python-werk — kleine PR)
-4. Archief-mechanisme uitwerken (Bash + Python helper)
-5. Subagent-orchestrator-prompt finaliseren
-6. Pilot-wave 0 op PO 1.1 launchen
+3. Archief-mechanisme (`tools/extractie/archive_voor_migratie.py`) → klaar
+4. Skeleton-voorstel-prompt (`prompts/skeleton-voorstel-v1.md`) → klaar
+5. **Stap 0 op PO 1.1**: skeleton-voorstel laten draaien voor review → in te plannen
+6. **Wave 0 launchen** zodra skeleton-voorstel akkoord → in te plannen
