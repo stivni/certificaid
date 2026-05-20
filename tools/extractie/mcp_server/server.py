@@ -111,9 +111,15 @@ def _zoek_bronnen(
     query: str,
     top_k: int = 10,
     bron_rollen: list[str] | None = None,
-    rerank: bool = True,
+    rerank: bool = False,
 ) -> str:
-    """Bevraag bronnen-RAG. bron_rollen filtert op type (bv. ['wettekst', 'cbn'])."""
+    """
+    Bevraag bronnen-RAG. bron_rollen filtert op type (bv. ['wettekst', 'cbn']).
+
+    rerank: default False (bi-encoder alleen — snel, lage CPU). Zet True voor
+    precisie-kritieke calls (bv. bronvermelding voor een ⚖️-claim die je gaat
+    save_record'en). Rerank kost ~50 cross-encoder forward passes per call op CPU.
+    """
     client, ef, reranker = _get_retrieval_stack()
     cols = open_collections(client, ef, ["bronnen"])
     if not cols:
@@ -122,7 +128,7 @@ def _zoek_bronnen(
     if rerank:
         results = retrieve_and_rerank(
             query, cols, ["bronnen"], reranker,
-            bi_top_n=max(top_k * 5, 50),
+            bi_top_n=max(top_k * 3, 30),  # was *5 / 50 — verlaagd voor CPU-warmte
             rerank_threshold=0.0,
             max_results=top_k,
             expand_context=False,
@@ -237,8 +243,14 @@ async def list_tools() -> list[Tool]:
                     },
                     "rerank": {
                         "type": "boolean",
-                        "description": "Gebruik cross-encoder rerank (precisie ↑, latency ↑). Default true.",
-                        "default": True,
+                        "description": (
+                            "Gebruik cross-encoder rerank (precisie ↑, CPU-kost ↑). "
+                            "Default false (bi-encoder alleen — snel). Zet true voor "
+                            "precisie-kritieke calls vóór save_record (bv. final "
+                            "bronvermelding voor een ⚖️-claim). Kost ~30 forward "
+                            "passes per call."
+                        ),
+                        "default": False,
                     },
                 },
                 "required": ["query"],
@@ -330,7 +342,7 @@ async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
                 query=arguments["query"],
                 top_k=arguments.get("top_k", 10),
                 bron_rollen=arguments.get("bron_rollen"),
-                rerank=arguments.get("rerank", True),
+                rerank=arguments.get("rerank", False),
             )
         elif name == "zoek_concepten":
             result = _zoek_concepten(

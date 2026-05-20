@@ -39,7 +39,7 @@ Je krijgt **geen vooraf-gebundelde initial-ctx** voor chunks/matches. In plaats 
 
 | Tool | Wanneer gebruiken |
 |---|---|
-| `zoek_bronnen(query, top_k, bron_rollen, rerank)` | Bevraag wetteksten/KB/CBN/normen. Default `rerank=true` (precisie). Filter `bron_rollen` op `['wettekst', 'kb', 'cbn', 'norm']` waar gepast. |
+| `zoek_bronnen(query, top_k, bron_rollen, rerank)` | Bevraag wetteksten/KB/CBN/normen. **Default `rerank=false`** (bi-encoder snel, lage CPU). Zet `rerank=true` alleen voor **precisie-kritieke calls** vóór `save_record` (bv. final bronvermelding voor een ⚖️-claim die je gaat opslaan). Filter `bron_rollen` op `['wettekst', 'kb', 'cbn', 'norm']` waar gepast. |
 | `zoek_concepten(query, top_k)` | Near-duplicate-check vóór `save_record`; ook voor cross-record-buren tijdens schrijven. |
 | `lees_record(record_id)` | Volledige JSON-inhoud van een specifiek record. Sneller dan een query. |
 | `lees_anchor_bundle(po_id)` | Alle anchors + TDKs voor een PO. |
