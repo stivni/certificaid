@@ -1,0 +1,186 @@
+{
+  "id": "inkoop-eigen-aandelen-nv",
+  "naam": "Inkoop van eigen aandelen door de NV",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IV",
+    "3.0.IV.C"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IV",
+    "linked_anchors": [
+      "3.0.IV",
+      "3.0.IV.C"
+    ],
+    "reviewed_by": null,
+    "updated_by": "concept-extractie-v4-2026-05-20T15:00Z (PO 3.0 wave 2 — sub-anchor 3.0.IV.C)"
+  },
+  "situering": "Eigen aandelen verwerven is voor schuldeisers een verkapte uitkering — de vennootschap betaalt geld om aandelen terug te kopen en dus vermogen aan aandeelhouders uit te keren. Daarom is de inkoop een **gereguleerde uitkering** met de nettoactieftest, een gespecialiseerde AV-meerderheid en een onbeschikbare reserveplicht zolang de aandelen op de balans staan.",
+  "definitie": {
+    "text": "**Verwerving door de naamloze vennootschap van haar eigen aandelen, winstbewijzen of certificaten** — een transactie die gelijkstaat met een uitkering aan de verkopende aandeelhouder. Beslissing door de algemene vergadering met **bijzondere meerderheid** (80 % van de uitgebrachte stemmen, minstens helft van het kapitaal aanwezig) onder vooraf bepaalde voorwaarden (maximumprijs, termijn, modaliteiten). Het bestuursorgaan voert vervolgens uit binnen de AV-machtiging.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 7:215-7:221"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_7_217",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_218",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "AV-machtiging — 80 %-meerderheid",
+      "wat": "De AV machtigt het bestuursorgaan voor een termijn van **ten hoogste vijf jaar** (genoteerde NV: ten hoogste drie jaar), met opgave van het **maximaal aantal** te verwerven aandelen, de **minimum- en maximumprijs**, en de **modaliteiten** (aanbod aan alle aandeelhouders of via gereglementeerde markt). Quorum: helft van het kapitaal vertegenwoordigd; meerderheid: 80 % van de uitgebrachte stemmen.",
+      "waarom": "De strenge meerderheid beschermt minderheidsaandeelhouders tegen een gerichte inkoop waarbij de meerderheid zichzelf laat uitkopen.",
+      "grondslag": "WVV art. 7:215",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_217",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Nettoactieftest verplicht",
+      "wat": "De inkoop is een **uitkering** in de zin van art. 7:212 — de nettoactieftest moet slagen. Voor de berekening telt de **inkoopprijs** als de uit te keren som.",
+      "waarom": "De vennootschap mag haar nettoactief niet verminderen onder de bodem; voor schuldeisers is een inkoop economisch identiek aan een dividend.",
+      "grondslag": "WVV art. 7:212; CBN-advies 2021/02",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-advies_2021_02__Toepassingsgebied",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Onbeschikbare reserve voor eigen aandelen",
+      "wat": "Zolang de verkregen aandelen of certificaten op de **activa** van de balans staan, moet een **onbeschikbare reserve** worden gevormd ter grootte van de boekwaarde van de aandelen. Wanneer de aandelen worden vervreemd of vernietigd, valt die reserve weg.",
+      "waarom": "Voorkomt dat de inkoop tweemaal vermogen uitkeert: één keer door de geldstroom naar de verkopende aandeelhouder, en een tweede keer door de eigen-aandelen-rubriek als basis voor verdere uitkeringen.",
+      "grondslag": "WVV art. 7:217 §2; art. 5:148 (BV-parallel)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_217",
+            "version": "rag-v1"
+          },
+          {
+            "id": "WVV__art_5_148",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Opgeschort stemrecht",
+      "wat": "De stemrechten verbonden aan de verkregen aandelen zijn **van rechtswege geschorst** zolang de vennootschap (of een tussenpersoon voor haar rekening) ze bezit. Hetzelfde geldt voor aandelen die een rechtstreeks gecontroleerde dochtervennootschap bezit.",
+      "waarom": "Voorkomt dat het bestuur via eigen aandelen de AV-stemming zou kunnen beïnvloeden — de zelfaankoop mag geen machtsoverdracht aan het bestuur worden.",
+      "grondslag": "WVV art. 7:217 §1, art. 7:221",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_217",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Vervreemden — gelijke behandeling",
+      "wat": "Wanneer de NV de verkregen aandelen later opnieuw vervreemdt, moet dat gebeuren via een aanbod aan **alle aandeelhouders aan gelijke voorwaarden** of, bij beursgenoteerde aandelen, via de gereglementeerde markt. Vrije onderhandse vervreemding is uitgesloten.",
+      "waarom": "Anders kan via de wederverkoop selectief vermogen worden uitgekeerd aan bepaalde partijen — wat de inkoop-procedure zou ondergraven.",
+      "grondslag": "WVV art. 7:218",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_218",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Sanctie — nietigheid van rechtswege",
+      "wat": "Aandelen die in strijd met art. 7:215 §1 zijn verkregen, of die niet tijdig worden vervreemd, zijn **van rechtswege nietig**. Het bestuursorgaan vernietigt ze, vermeldt dat in het aandelenregister en legt de lijst neer op de griffie.",
+      "waarom": "De wet kiest voor een drastische maar duidelijke sanctie om de procedurevoorschriften te handhaven.",
+      "grondslag": "WVV art. 7:219",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_219",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Boekhoudkundige verwerking",
+      "betekenis": "Verkregen eigen aandelen worden op de activa onder een aparte rubriek opgenomen (12 of 502 voor genoteerde aandelen). Gelijktijdig wordt een onbeschikbare reserve gevormd op het eigen vermogen ter zelfde bedrag.",
+      "confidence": "inferred",
+      "source": {
+        "type": "advies",
+        "short": "Algemeen rekeningenstelsel + WVV art. 7:217"
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Een inkoop is **geen** loutere balansbeweging. Verwerk steeds drie effecten: (1) cashflow naar de verkopende aandeelhouder, (2) eigen aandelen op de activa, (3) onbeschikbare reserve op het eigen vermogen. Een vergeten reserve maakt latere dividenduitkeringen ten onrechte mogelijk.",
+      "vaak_fout": "Eigen aandelen activeren zonder de onbeschikbare reserve te vormen.",
+      "grondslag": "WVV art. 7:217 §2"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "naamloze-vennootschap-nv",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "nettoactieftest",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "inkoop-eigen-aandelen-bv",
+      "target_status": "resolved",
+      "facet": {
+        "aspect": "regime"
+      }
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "alarmbelprocedure",
+      "target_status": "resolved",
+      "facet": {
+        "conditie": "wanneer de inkoop het nettoactief onder de wettelijke drempels brengt"
+      },
+      "redenering": "Een inkoop is een uitkering die het nettoactief verlaagt; daalt het daardoor onder de helft of een vierde van het kapitaal, dan slaat de alarmbel aan (art. 7:228)."
+    }
+  ]
+}

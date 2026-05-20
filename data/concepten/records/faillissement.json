@@ -1,0 +1,307 @@
+{
+  "id": "faillissement",
+  "naam": "Faillissement",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.X",
+    "3.0.X.A",
+    "3.0.X.E",
+    "3.0.X.F"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:41:05Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.X",
+    "linked_anchors": [
+      "3.0.X"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Insolventieprocedure waarbij de **insolventierechtbank** het vermogen van een onderneming die op duurzame wijze is opgehouden te betalen en wier krediet geschokt is, onder de bevoegdheid van een **curator** plaatst. De curator beheert en vereffent dat vermogen en verdeelt de opbrengst onder de schuldeisers volgens hun rangorde. De faillissementsprocedure wordt geopend bij vonnis na aangifte van de schuldenaar zelf of op dagvaarding van een of meer schuldeisers, het openbaar ministerie, of een voorlopig bewindvoerder.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WER art. XX.98, XX.100"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_132",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XX_133",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "Faillissement is het sluitstuk van Boek XX WER: gereserveerd voor ondernemingen waarbij continuïteit niet meer realistisch is. De wetgever beoogt gelijke behandeling van schuldeisers en een geordende vereffening — geen straf maar een collectieve regeling. Voor de accountant is faillissement het moment van afsluiting van de boeken, indienen van schuldvorderingen en (voor een natuurlijke persoon-gefailleerde) begeleiden naar kwijtschelding.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_132",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XX_190",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Voorwaarden voor faillietverklaring",
+      "wat": "Twee cumulatieve voorwaarden: (1) **duurzame staking van betaling** — niet één onbetaalde factuur maar een structureel onvermogen om opeisbare schulden te voldoen — en (2) **geschokt krediet** — schuldeisers verlenen geen verdere termijnen. Beide moeten samen vervuld zijn.",
+      "waarom": "Voorkomen dat een tijdelijk liquiditeitsprobleem of een betwiste schuld al tot faillissement leidt.",
+      "grondslag": "WER art. XX.99 (impliciet in XX.100)",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_133",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_132",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Aangifte versus dagvaarding",
+      "wat": "Het faillissement kan worden aangevraagd op **aangifte van de schuldenaar** zelf (verplicht binnen één maand na staking van betaling) óf op **dagvaarding** door één of meerdere schuldeisers, het openbaar ministerie of een voorlopig bewindvoerder. De insolventierechtbank kan haar beslissing 15 dagen opschorten om de schuldenaar toe te laten gerechtelijke reorganisatie aan te vragen.",
+      "waarom": "Geeft de schuldenaar een laatste kans tot herstel en voorkomt dat schuldeisers via dagvaarding een onnodig faillissement uitlokken.",
+      "grondslag": "WER art. XX.100, XX.101",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_133",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_134",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Organen van het faillissement",
+      "wat": "De insolventierechtbank benoemt in het vonnis van faillietverklaring één of meer **curatoren** (gerechtsmandatarissen op een lijst) en één of meer **rechters-commissarissen** (rechters van de insolventierechtbank, voorzitter uitgezonderd). De curatoren beheren actief, de rechter-commissaris houdt rechterlijk toezicht.",
+      "waarom": "Scheiding tussen uitvoerende vereffening (curator) en rechterlijk toezicht (rechter-commissaris) borgt evenwicht tussen voortvarendheid en controle.",
+      "grondslag": "WER art. XX.104",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_136",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "In het vonnis dat Verffabriek Veurne BV failliet verklaart, benoemt de insolventierechtbank Sofie Janssens als curator en wijst rechter X als rechter-commissaris aan."
+        }
+      ]
+    },
+    {
+      "titel": "Verloop: aangifte schuldvorderingen, vereffening, sluiting",
+      "wat": "Schuldeisers doen binnen 30 dagen aangifte van hun schuldvordering in het register. De curator stelt een eerste proces-verbaal van verificatie op (tussen 5 en 30 dagen na de aangifte-termijn). Vervolgens vereffent hij het vermogen (verkoop activa, inning vorderingen), doet uitdelingen onder rechterlijk toezicht, en vraagt na voltooiing de sluiting van het faillissement aan.",
+      "waarom": "Strakke termijnen versnellen de afwikkeling en geven schuldeisers procedurele duidelijkheid.",
+      "grondslag": "WER art. XX.104, XX.166, XX.170",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_136",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_186",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_189",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Onmiddellijke effecten op het vermogen",
+      "wat": "Vanaf het vonnis verliest de gefailleerde de **beschikking** over zijn vermogen (buiten bezitstelling). Alle openstaande beslagen worden geschorst. Alle aan de gefailleerde verschuldigde geldsommen worden geïnd door de curator. De curator neemt onmiddellijk de boeken in beheer.",
+      "waarom": "Vermijdt dat de gefailleerde activa onttrekt of bepaalde schuldeisers bevoordeelt na de faillietverklaring.",
+      "grondslag": "WER art. XX.120, XX.132, XX.144, XX.147",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_149",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_158",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_167",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_170",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Sluiting en kwijtschelding (natuurlijke persoon)",
+      "wat": "Na vereffening en uitdeling vraagt de curator de sluiting van het faillissement. Voor een **natuurlijke persoon-gefailleerde** kan op verzoek kwijtschelding van het saldo van de schulden worden uitgesproken — tenzij hij kennelijke grove fouten heeft begaan die tot het faillissement bijdroegen of bewust onjuiste inlichtingen heeft verstrekt. Rechtspersonen krijgen geen kwijtschelding maar worden ontbonden.",
+      "waarom": "Geeft de natuurlijke persoon een tweede kans (fresh start), terwijl rechtspersonen na vereffening hun bestaan beëindigen.",
+      "grondslag": "WER art. XX.170, XX.171",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_189",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_190",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Verplicht binnen één maand",
+      "betekenis": "Een schuldenaar die voldoet aan de voorwaarden van faillissement, moet zelf aangifte doen binnen één maand. Het bestuursorgaan van een vennootschap dat dit nalaat, riskeert persoonlijke aansprakelijkheid voor de bijkomende schulden die in die tussentijd ontstaan (voortzetting verlieslatende activiteit, art. XX.225/2:56 WVV).",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_133",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_132",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Voor de accountant",
+      "betekenis": "De accountant levert vaak de definitieve afsluitingsbalans tot de datum van faillissement, helpt de schuldvordering van de cliënt indienen in andere faillissementen, en assisteert de curator bij het in beheer nemen van de boeken.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_158",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_170",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Faillissement Verffabriek Veurne BV",
+      "cast": [
+        "Verffabriek Veurne BV"
+      ],
+      "omschrijving": "Verffabriek Veurne BV heeft 8 maanden geen RSZ betaald en zijn bank weigert verder krediet. Het bestuur dient zelf aangifte van faillissement in. De insolventierechtbank verklaart de BV failliet op 15 maart, benoemt Sofie Janssens als curator en rechter D als rechter-commissaris. Schuldeisers krijgen tot 14 april om aangifte van hun schuldvordering te doen. De curator verkoopt het bedrijfspand en de voorraad, int de openstaande klantenvorderingen en doet uitdelingen volgens rangorde (RSZ en btw als voorrecht). Na 18 maanden vraagt de curator de sluiting; aangezien het een rechtspersoon is, wordt Verffabriek Veurne BV ontbonden."
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Onderscheid duurzame staking van betaling van een tijdelijk liquiditeitsprobleem. Eén onbetaalde factuur of een betwiste schuld zijn geen voldoende grond.",
+      "vaak_fout": "Aannemen dat een vennootschap die één maand niet kan betalen, automatisch failliet kan worden verklaard."
+    },
+    {
+      "advies": "Voor rechtspersonen volgt na sluiting altijd ontbinding — geen kwijtschelding van het schuldensaldo.",
+      "vaak_fout": "Denken dat ook een failliete BV een 'fresh start' krijgt — alleen natuurlijke personen krijgen kwijtschelding."
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "insolventieprocedures-belgie"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "gerechtelijke-reorganisatie",
+      "aspect": "vereffening versus continuïteit"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "gerechtelijke-ontbinding",
+      "aspect": "vereffening onder curator versus vereffening door vereffenaar"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "voorwaarden-faillietverklaring",
+      "conditie": "duurzame staking van betaling + geschokt krediet"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "regsol-platform"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "insolventiefunctionaris"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "ondernemingsrechtbank-bevoegdheid-insolventie"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "beroepsverbod-na-insolventie"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "rehabilitatie-gefailleerde"
+    }
+  ]
+}

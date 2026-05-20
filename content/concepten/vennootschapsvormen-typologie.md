@@ -4,21 +4,26 @@ tags:
 - concept
 - begrip
 - po-1-2
+- po-3-0
 linked_anchors:
 - 1.2.IV.A
 - 1.2.IV
+- 3.0.I
+- 3.0.I.A
+- 3.0.I.B
 programmaonderdelen:
 - '1.2'
+- '3.0'
 confidence: grounded
 node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vennootschapsvormen-typologie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-20'
 ---
 # Typologie van vennootschaps- en verenigingsvormen ⚖️
 
-Het WVV onderscheidt **verschillende vennootschaps- en verenigingsvormen** (BV, NV, CV, VOF, VZW, IVZW, stichting). Voor PO 1.2 belangrijk omdat de vorm doorwerkt op boekhoudverplichtingen: een NV is altijd dubbele boekhouding, een eenmanszaak onder drempel mag vereenvoudigd.
+Het WVV onderscheidt verschillende vennootschaps- en verenigingsvormen (BV, NV, CV, VOF, CommV, maatschap, VZW, IVZW, stichting + Europese SE/SCE/EESV). Voor PO 1.2 belangrijk omdat de vorm doorwerkt op boekhoudverplichtingen; voor PO 3.0 het vertrekpunt van het vennootschapsrecht — alle bestuurs-, aansprakelijkheids- en governance-regels zijn vorm-afhankelijk. De keuze hangt af van rechtspersoonlijkheid, aansprakelijkheid, kapitaal/inbreng, statutaire flexibiliteit en doel (winstuitkering vs. belangeloos).
 
 > [!summary] Korte inhoud
 > Het WVV onderscheidt verschillende vennootschapsvormen (rechtspersonen met winstoogmerk) en verenigingsvormen (rechtspersonen zonder of met sociaal oogmerk).

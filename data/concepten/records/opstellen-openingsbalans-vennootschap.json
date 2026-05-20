@@ -1,0 +1,215 @@
+{
+  "id": "opstellen-openingsbalans-vennootschap",
+  "naam": "Opstellen van de openingsbalans van een nieuwe vennootschap",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Opstellen van de openingsbalans van een nieuwe vennootschap",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0,
+    1.1
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.1",
+      "1.1.taak.1"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.1",
+    "1.1.taak.1"
+  ],
+  "gebaseerd_op_concepten": [
+    "financieel-plan-oprichting",
+    "boeken-oprichtings-en-kapitaalverhogingskosten",
+    "oprichtingskosten",
+    "inbreng-vennootschap",
+    "inbreng-in-natura-verslag"
+  ],
+  "situering": {
+    "text": "Operationele boekhoudkundige competentie: vanuit de oprichtingsakte de eerste boekingen (openingsbalans + boeken van inbrengen + boeken van oprichtingskosten) verrichten zodat de vennootschap met een conforme balans haar eerste boekjaar start. Doel: vertrekpositie correct vastleggen volgens BOK/KB WVV en consistent met het financieel plan.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "KB WVV art. 3:3 jaarrekeningenschema"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 65,
+    "praktijk_pct": 35,
+    "motivering": "Het jaarrekeningenschema is dwingend (KB WVV). Boeking-keuzes voor oprichtingskosten en hoe ze af te schrijven volgen vakdoctrine en CBN-richtlijnen."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Inventariseren oprichtingstransacties",
+      "wat": "Lijst alle financiële handelingen die de vennootschap raken tussen oprichtingsdatum en effectieve startdatum: inbrengen, notariskosten, oprichtingskosten, eerste investeringen.",
+      "waarom": "De openingsbalans is geen gemiddelde maar een momentopname — alles wat gebeurd is moet erin.",
+      "input": [
+        {
+          "artefact": "Oprichtingsakte",
+          "veld": "Inbrengen, kapitaal/aanvangsvermogen",
+          "type": "wettelijk-document"
+        },
+        {
+          "artefact": "Facturen notaris, registratie, advies",
+          "veld": "Oprichtingskosten",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Transactielijst",
+          "veld": "Per transactie: datum, bedrag, tegenrekening",
+          "type": "tabel"
+        }
+      ],
+      "hoe": "1. Verzamel: oprichtingsakte (totaal inbreng + aandelen-onderschrijving), bankafschriften vennootschap-in-oprichting-rekening, facturen notaris/advocaten/accountant voor oprichtingsfase, facturen eerste investeringen.\n2. Klassificeer: inbreng vs kost vs investering.\n3. Datum bij elk: pre-oprichting (op vennootschap-in-oprichting-rekening) of post-oprichting (na vrijgave geblokkeerde rekening).",
+      "grondslag": "[[boeken-oprichtings-en-kapitaalverhogingskosten]]"
+    },
+    {
+      "nr": 2,
+      "titel": "Boeken van de inbrengen",
+      "wat": "Boek de inbreng in geld en in natura: kapitaal-rekening of inbreng-rekening (passief) tegenover bank of het ingebrachte goed (actief).",
+      "waarom": "De openingsbalans-passiefzijde start met eigen vermogen. Onjuiste boeking (bv. inbreng als opbrengst) vertekent het eerste resultaat en de balans-presentatie.",
+      "input": [
+        {
+          "artefact": "Oprichtingsakte met inbreng-details",
+          "veld": "Bedragen per oprichter + aard",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Openingsboeking inbrengen",
+          "veld": "Journaalboeking",
+          "type": "boekingsregel"
+        }
+      ],
+      "hoe": "1. Inbreng in geld (BV): debet 5500 — Bank, credit 11 — Inbreng buiten kapitaal beschikbaar (BV — kapitaalloos) of credit 100 — Kapitaal (NV — kapitaal).\n2. Inbreng in natura (bv. bestelwagen): debet 240 — Rollend materieel tegenover credit 11/100 — afhankelijk van vorm.\n3. Bedrag = waarde uit revisorenverslag.\n4. Boek op datum van de notariële akte (datum verkrijging rechtspersoonlijkheid).",
+      "voorbeeld": {
+        "scenario": "Oprichtingen Oostende BV — boeking inbreng € 25.000 cash + bestelwagen € 17.500.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Journaalboeking",
+            "type": "boekingsregel",
+            "data": "| Rekening | Debet | Credit |\n|---|---:|---:|\n| 5500 Bank | € 25.000 |  |\n| 240 Rollend materieel |  € 17.500 |  |\n| 11 Inbreng buiten kapitaal beschikbaar |  | € 42.500 |\n\n*Datum: 18/03 (verlijden akte)*\n"
+          }
+        ]
+      },
+      "grondslag": "MAR; [[inbreng-vennootschap]]"
+    },
+    {
+      "nr": 3,
+      "titel": "Boeken van de oprichtingskosten",
+      "wat": "Boek de kosten die direct verbonden zijn aan de oprichting (notaris, eerste publicatie, accountant-advies, advocaat-statuten, eventueel registratie) — keuze tussen activeren onder rubriek 20 of in resultaat boeken.",
+      "waarom": "Oprichtingskosten zijn een uitzondering op het kost-of-actief-criterium: ze mogen worden geactiveerd onder strikte voorwaarden (afschrijving over max 5 jaar). De keuze beïnvloedt het resultaat van het eerste boekjaar.",
+      "input": [
+        {
+          "artefact": "Facturen oprichtingsfase",
+          "veld": "Notaris, advocaat, accountant, publicatiekosten",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Boeking oprichtingskosten + afschrijvingsplan",
+          "veld": "Activering of kost",
+          "type": "boekingsregel"
+        }
+      ],
+      "hoe": "1. Inventariseer: alle facturen met oprichtingskarakter (notariskosten, publicatie Belgisch Staatsblad, advies fee accountant en advocaat statutenwerk, registratierechten).\n2. Beslis activering of niet — zie [[boeken-oprichtings-en-kapitaalverhogingskosten]] voor de keuze-criteria. Activering aangewezen wanneer het bedrag materieel is en de cliënt het resultaat van jaar 1 niet wil vertekenen.\n3. Bij activering: debet 200 — Kosten van oprichting tegenover credit 5500 — Bank of credit 440 — Leveranciers.\n4. Afschrijvingsplan opstellen: lineair over 5 jaar of korter — verplicht een afschrijving vóór winstverdeling tot volledig afgeschreven.\n5. Bij niet-activering: boek direct op 61 — Diensten en diverse goederen.",
+      "grondslag": "[[boeken-oprichtings-en-kapitaalverhogingskosten]]; KB WVV art. 3:42; [[oprichtingskosten]]"
+    },
+    {
+      "nr": 4,
+      "titel": "Samenstellen van de openingsbalans op formele wijze",
+      "wat": "Stel de openingsbalans op volgens het schema art. 3:3 KB WVV (volledig of verkort), met actief- en passiefzijde sluitend, en gebruik dit als startpunt van het boekhoudsysteem.",
+      "waarom": "Een formeel-conforme openingsbalans is voorwaarde voor latere jaarrekeningoplevering (de openingsbalans van jaar 1 = sluitbalans-1 voor jaar 2-vergelijking).",
+      "input": [
+        {
+          "artefact": "Boekingen inbreng (stap 2) + oprichtingskosten (stap 3)",
+          "veld": "Alle openingsposten",
+          "type": "boekingsregel"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Openingsbalans WVV-schema",
+          "veld": "Actief en passief gesloten",
+          "type": "balans"
+        }
+      ],
+      "hoe": "1. Bouw volgens KB WVV art. 3:3 schema: vaste activa (20-28), vlottende activa (29-58); eigen vermogen (10-15), voorzieningen (16), schulden > 1 jaar (17), schulden ≤ 1 jaar (42-49).\n2. Vul met de cijfers uit de openingsboekingen.\n3. Verifieer actief = passief.\n4. Vergelijk met de geprojecteerde openingsbalans in het financieel plan — afwijking analyseren en documenteren.\n5. Voer in het boekhoudpakket als startbalans op datum oprichting.",
+      "voorbeeld": {
+        "scenario": "Oprichtingen Oostende BV — openingsbalans op 18/03.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Balans",
+            "type": "balans",
+            "data": "| ACTIEF | Bedrag | PASSIEF | Bedrag |\n|---|---:|---|---:|\n| 200 Kosten van oprichting | € 4.500 | 11 Inbreng buiten kapitaal | € 42.500 |\n| 240 Rollend materieel | € 17.500 |  |  |\n| 5500 Bank | € 20.500 |  |  |\n| **Totaal actief** | **€ 42.500** | **Totaal passief** | **€ 42.500** |\n\n*Cash € 20.500 = € 25.000 inbreng − € 4.500 oprichtingskosten direct betaald.*\n"
+          }
+        ]
+      },
+      "grondslag": "KB WVV art. 3:3 jaarrekeningenschema"
+    },
+    {
+      "nr": 5,
+      "titel": "Reconciliëren met financieel plan en documentatie",
+      "wat": "Vergelijk de werkelijke openingsbalans met de geprojecteerde openingsbalans uit het financieel plan; documenteer afwijkingen voor latere transparantie.",
+      "waarom": "Materiële afwijkingen tussen plan en realiteit zijn een vroeg-signaal voor afwijkende bedrijfsuitvoering en zijn relevant bij latere aansprakelijkheidsdiscussies.",
+      "input": [
+        {
+          "artefact": "Geprojecteerde openingsbalans uit financieel plan",
+          "veld": "Sectie 3 plan",
+          "type": "balans"
+        },
+        {
+          "artefact": "Werkelijke openingsbalans (stap 4)",
+          "veld": "Conform jaarrekeningenschema",
+          "type": "balans"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Reconciliatie-nota",
+          "veld": "Afwijkingen + reden",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Plaats de twee balansen naast elkaar.\n2. Voor elke regel waar afwijking > 10% of > € 5.000: noteer reden (bv. krediet nog niet opgenomen, ingebrachte machine duurder dan verwacht).\n3. Documenteer in cliëntdossier.\n4. Indien materieel: signaleer aan cliënt — kan invloed hebben op haalbaarheid jaar 1.",
+      "grondslag": "Vakpraktijk + [[financieel-plan-oprichting]]"
+    }
+  ],
+  "in_praktijk": [
+    "De openingsbalans gebeurt vaak een paar dagen na de akte — niet direct, omdat oprichtingskosten-facturen pas dan binnenkomen.",
+    "Voor BV's (kapitaalloos): boek inbreng op 11 — Inbreng buiten kapitaal beschikbaar, niet op 100 — Kapitaal (dat is NV-rekening).",
+    "Sluitstuk: verifieer voorts dat de boekhoudpakket-startdatum = datum oprichtingsakte — vermijd 'gat' tussen oprichting en eerste boeking."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Sofie Janssens boekt de openingsbalans van Oprichtingen Oostende BV met cash inbreng € 25.000, bestelwagen € 17.500 en oprichtingskosten € 4.500 (notaris € 1.800 + accountant statutenwerk € 1.500 + publicatie € 200 + registratie € 1.000).",
+      "conclusie": "Sofie activeert de € 4.500 op rekening 200 (materiële post, vermijdt resultaat-vertekening jaar 1) en stelt afschrijvingsplan op: € 900/jaar lineair over 5 jaar. Werkelijke openingsbalans valt € 2.500 lager dan plan (oorzaak: oprichtingskosten waren € 1.500 hoger dan geraamd — accountantswerk zwaarder dan voorzien). Sofie noteert in reconciliatie-nota; bespreekt met Pieter dat de buffer in jaar 1 dus krapper is dan in plan.",
+      "grondslag": "[[boeken-oprichtings-en-kapitaalverhogingskosten]], MAR"
+    }
+  ],
+  "beoordelings_criteria": [
+    "Openingsbalans actief = passief",
+    "Inbrengen geboekt op correcte EV-rekening (11 voor BV, 100 voor NV)",
+    "Oprichtingskosten geboekt + afschrijvingsplan vastgelegd",
+    "Reconciliatie met financieel plan gedocumenteerd"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.1-batch3-20260520T111623Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.1",
+    "linked_anchors": [
+      "3.0.taak.1",
+      "1.1.taak.1"
+    ],
+    "voorgesteld_op": "2026-05-20T11:16:23.595008Z",
+    "reviewed_by": null
+  }
+}

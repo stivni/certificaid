@@ -1,0 +1,159 @@
+{
+  "id": "klassieke-versus-een-akte-vereffening",
+  "naam": "Klassieke vereffening vs vereffening in één akte",
+  "node_type": "synthese",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IX",
+    "3.0.IX.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:30:41Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IX",
+    "linked_anchors": [
+      "3.0.IX"
+    ],
+    "reviewed_by": null
+  },
+  "gebaseerd_op_concepten": [
+    "vereffeningsprocedure-klassiek",
+    "vereffening-in-een-akte",
+    "vereffenaar",
+    "ontbinding-vereffening-opdracht"
+  ],
+  "situering": {
+    "text": "Bij elke ontbindingsopdracht moet de accountant **eerst beslissen** of de vennootschap de procedure van art. 2:80 (vereffening in één akte) kan volgen. Als één van de drie voorwaarden niet is vervuld — niet alle schulden voldaan, geen unaniem akkoord, of er moet alsnog een vereffenaar worden aangesteld voor lopende handelingen — dan is de klassieke procedure verplicht. Deze synthese vergelijkt de twee paden op de aspecten die voor de stagiair-GA examen-kritisch zijn.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2022-06__sec_situering-procedure",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_80",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "vergelijkingstabel": {
+    "kolommen": [
+      "Aspect",
+      "Klassieke vereffening (art. 2:71)",
+      "Vereffening in één akte (art. 2:80)"
+    ],
+    "rijen": [
+      [
+        "Vereffenaar",
+        "Aangesteld door AV (of rechter)",
+        "Geen vereffenaar"
+      ],
+      [
+        "Tijdsverloop",
+        "Maanden tot jaren",
+        "Eén dag (één akte)"
+      ],
+      [
+        "Voorafgaande verslagen",
+        "Staat van A&P + verslag accountant",
+        "Idem + verklaring 'alle schulden voldaan' + schriftelijk akkoord alle aandeelhouders"
+      ],
+      [
+        "Halfjaarlijkse rapportage",
+        "Verplicht eerste jaar (art. 2:86)",
+        "Niet van toepassing"
+      ],
+      [
+        "Jaarrekening in vereffening",
+        "Vanaf tweede jaar (art. 2:99)",
+        "Niet van toepassing"
+      ],
+      [
+        "Sluitings-AV",
+        "Aparte AV, één maand na cijfermatig verslag",
+        "Onmiddellijk in dezelfde akte"
+      ],
+      [
+        "AV-meerderheid",
+        "Versterkt (4/5) voor ontbinding; gewone voor sluiting",
+        "Versterkt + unanimiteit aandeelhouders voor akkoord 2:80"
+      ],
+      [
+        "Schulden",
+        "Mogen openstaan en worden gefaseerd betaald",
+        "Moeten vooraf betaald of geconsigneerd zijn"
+      ],
+      [
+        "Accountantsverslag",
+        "Verschillende opdrachten (start, jaarrekening, sluiting)",
+        "Eén verslag bijlage 3 ITAA-norm"
+      ]
+    ]
+  },
+  "kerninzichten": [
+    {
+      "text": "**Drempel-test**: zijn er nog open derden of niet-unaniem akkoord? → klassiek. Niet kunnen geconsolideerd worden op één dag → klassiek. Verffabriek met 4 werknemers, opzegtermijnen en bankschuld → klassiek.",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-06__sec_toepassingsvoorwaarden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Accountant-rol verandert sterk**: bij de klassieke procedure rolt de accountant van verslag-bij-staat (start) naar controle jaarrekening (middel) naar verslag op cijfermatig verslag (einde). Bij art. 2:80 doet hij één verslag (model bijlage 3 ITAA-norm) dat tegelijk de schuld-uitsterving en het aandeelhouders-akkoord bevestigt.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_bijlage-3-model-van-verslag-van-de-commissaris-bedrijfsrevisor",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_bijlage-4-model-van-verslag-van-de-commissaris-art-2-100-van-het",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Boekhoudkundige impact identiek voor waarderingshypothese**: in beide scenario's geldt de discontinuïteits-default (art. 3:6 § 2 KB WVV). Het verschil zit niet in de **balans**-presentatie maar in de **procedurele tijdslijn** en de **rapportagecyclus**.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-04__sec_vereffening-na-vrijwillige-ontbinding",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-06__sec_situering-procedure",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "verwijst-naar",
+      "target": "vereffeningsprocedure-klassiek"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "vereffening-in-een-akte"
+    }
+  ]
+}

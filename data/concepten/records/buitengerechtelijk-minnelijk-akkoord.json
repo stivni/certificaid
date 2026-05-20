@@ -1,0 +1,119 @@
+{
+  "id": "buitengerechtelijk-minnelijk-akkoord",
+  "naam": "Buitengerechtelijk minnelijk akkoord",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.X"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:49:19Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.X",
+    "linked_anchors": [
+      "3.0.X"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Vrijwillig akkoord waarbij de schuldenaar aan **minstens twee schuldeisers** een regeling voorstelt met het oog op de gezondmaking van zijn financiële toestand of de reorganisatie van zijn onderneming. De partijen bepalen vrij de inhoud van het akkoord — geen tussenkomst van een rechter, geen opschortingsbescherming, geen publicatie. Het akkoord werkt enkel tussen de instemmende schuldeisers; niet-deelnemende schuldeisers behouden hun rechten.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WER art. XX.64 e.v."
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "De lichtste vorm uit het arsenaal van Boek XX WER. Bewust buitengerechtelijk om snel en discreet te kunnen werken — vooral relevant wanneer slechts een paar grote schuldeisers (bank, hoofdleverancier, fiscus) hoeven mee te werken. Bij meer dan een handvol schuldeisers werkt deze route in de praktijk niet meer.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Inhoud van het akkoord",
+      "betekenis": "Typisch: gedeeltelijke kwijtschelding (haircut), uitstel van betaling, gespreide afbetaling, omzetting van schuld in kapitaal of achtergestelde schuld. Het akkoord is een privaatrechtelijk contract — geen wettelijk voorgeschreven inhoud.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Beperking — relativiteit",
+      "betekenis": "Niet-deelnemende schuldeisers blijven hun **volledige** vordering kunnen opeisen. Bij een grote groep schuldeisers werkt een minnelijk akkoord daarom niet — dan is een collectief akkoord (met opschorting en homologatie) nodig.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Boekhoudkundige verwerking",
+      "betekenis": "Kwijtschelding van schuld door een schuldeiser wordt geboekt als **uitzonderlijke opbrengst** (74-rekening) bij de schuldenaar. Onder voorwaarden van CBN-advies 2021/07 en art. 48 WIB 92 kan de opbrengst fiscaal vrijgesteld zijn.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Solaris Sint-Truiden BV heeft twee grote schuldeisers — de bank (€ 800.000 openstaand krediet) en de fiscus (€ 220.000 btw-achterstand). Solaris stelt voor: bank ontvangt 75% in 7 jaar, fiscus ontvangt 100% in 10 jaar gespreid. Beide stemmen schriftelijk in. Geen rechter, geen publicatie, geen opschorting. De kleine leveranciers blijven gewoon worden betaald op gewone termijnen.",
+      "cast": [
+        "Solaris Sint-Truiden BV"
+      ]
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Geen opschortingsbescherming — een individuele schuldeiser kan tijdens de onderhandeling perfect dagvaarden in faillissement. Voor opschortingsbescherming: schakel naar gerechtelijk minnelijk akkoord (XX.64) of besloten reorganisatie (XX.83/22).",
+      "vaak_fout": "Tijdens onderhandelingen aannemen dat schuldeisers 'wel zullen wachten' — een dagvaarding in faillissement door één tegenstander kan het hele proces onderuit halen."
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "gerechtelijke-reorganisatie"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "gerechtelijke-reorganisatie",
+      "aspect": "buitengerechtelijk versus onder rechterlijk toezicht"
+    }
+  ]
+}

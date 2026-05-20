@@ -1,0 +1,180 @@
+{
+  "id": "adviseren-vennootschapsvormkeuze",
+  "naam": "Adviseren over de keuze van vennootschapsvorm bij oprichting",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Adviseren over de keuze van vennootschapsvorm bij oprichting",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0,
+    2.1
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.1"
+    ],
+    "kenniselementen": [
+      "3.0.I"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.1",
+    "3.0.I",
+    "3.0.I.A",
+    "3.0.I.C"
+  ],
+  "gebaseerd_op_concepten": [
+    "vennootschapsvormen-vergelijking",
+    "vennootschapsvormen-typologie",
+    "besloten-vennootschap-bv",
+    "naamloze-vennootschap-nv",
+    "cooperatieve-vennootschap-cv",
+    "personenvennootschap-met-rechtspersoonlijkheid",
+    "rechtspersoonlijkheid-vennootschap"
+  ],
+  "situering": {
+    "text": "Operationele adviesopdracht: vanuit het profiel van de cliënt (omvang, aantal partners, sector, aansprakelijkheidsbereidheid, fiscale verwachtingen) een onderbouwde aanbeveling formuleren voor één van de WVV-vennootschapsvormen — of voor het behoud van een eenmanszaak. Het advies vertrekt bij de niet-fiscale kerncriteria en eindigt bij de fiscale gevolgschatting.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "wettekst-en-vakdoctrine",
+      "short": "WVV Boek 4-7; vakdoctrine accountancy"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 50,
+    "praktijk_pct": 50,
+    "motivering": "WVV definieert de vormen en hun kenmerken dwingend. De afweging-methode (welke criteria primair, hoe gevoeligheidsanalyse fiscaliteit) is accountantspraktijk."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Inventariseren cliëntprofiel en doelstellingen",
+      "wat": "Verzamel via gesprek de relevante feiten: aantal partners, verwacht startkapitaal, sector, persoonlijke aansprakelijkheidsbereidheid, exit-perspectief (verkoop binnen 5-10 jaar?), fiscale situatie ondernemer.",
+      "waarom": "Een vormkeuze-advies kan pas onderbouwd worden vanuit de cliëntcontext — een 'standaard BV' adviseren omdat ze de meest courante is, is geen advies maar default.",
+      "input": [
+        {
+          "artefact": "Intake-gesprek cliënt",
+          "veld": "Profiel, doelstellingen, beperkingen",
+          "type": "vrije-tekst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Profielnota cliënt",
+          "veld": "Gestructureerde lijst kerncriteria",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Stel deze kernvragen: aantal oprichters? Verwachte omzet jaar 1? Verwachte personeelsbestand jaar 2? Investeringsbehoefte? Aansprakelijkheidsbereidheid (persoonlijk vermogen op het spel?)? Type partners (familie, professioneel?)? Exit-perspectief (overdracht, verkoop?)?\n2. Schat fiscale persoonlijke marginaal tarief van de ondernemer.\n3. Verken vermogensplanningsperspectief: schenking aandelen aan kinderen later overwogen?\n4. Documenteer het profiel zodat het advies traceerbaar is.",
+      "grondslag": "[[vennootschapsvormen-typologie]], [[vennootschapsvormen-vergelijking]]"
+    },
+    {
+      "nr": 2,
+      "titel": "Evalueren niet-fiscale kerncriteria",
+      "wat": "Loop de structurele criteria af die per vennootschapsvorm onderscheidend zijn: rechtspersoonlijkheid, beperkte aansprakelijkheid, minimum-inbreng, soepelheid statuten, governance.",
+      "waarom": "Fiscaliteit is gevolg, niet basis. Structuur-keuzes die later niet meer eenvoudig wijzigen (bv. aansprakelijkheid) moeten primair zijn — fiscale optimalisatie kan dat nooit overrulen.",
+      "input": [
+        {
+          "artefact": "Profielnota cliënt (stap 1)",
+          "veld": "Kerncriteria",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Niet-fiscale afweging-matrix",
+          "veld": "Per vorm: pass/fail of score",
+          "type": "tabel"
+        }
+      ],
+      "hoe": "1. Eenmanszaak versus vennootschap: heeft cliënt rechtspersoonlijkheid + beperkte aansprakelijkheid nodig? Eenmanszaak = volle persoonlijke aansprakelijkheid, vennootschap met rechtspersoonlijkheid = scheiding (zie [[rechtspersoonlijkheid-vennootschap]]).\n2. Kapitaalvennootschap of personenvennootschap met rechtspersoonlijkheid: wenst cliënt soepele aandelenoverdracht (BV, NV) of family-fit met intuitu personae (VOF, CommV — zie [[personenvennootschap-met-rechtspersoonlijkheid]])?\n3. BV versus NV: wenst cliënt minimum-formalisme + soepele aandelenoverdracht-beperkingen (BV) of formele governance met raad van bestuur + meer transparantie naar derden (NV)? Zie [[besloten-vennootschap-bv]] en [[naamloze-vennootschap-nv]].\n4. CV indien er een 'coöperatief gedachtengoed' is (samenwerken-tussen-leden-doel), niet zomaar als alternatief voor BV.\n5. VZW indien geen winstoogmerk maar 'belangeloos doel' — uitgesloten als ondernemingsdoel.",
+      "grondslag": "[[vennootschapsvormen-vergelijking]], [[besloten-vennootschap-bv]], [[naamloze-vennootschap-nv]], [[cooperatieve-vennootschap-cv]]"
+    },
+    {
+      "nr": 3,
+      "titel": "Evalueren fiscale en sociale gevolgen",
+      "wat": "Vergelijk per kandidaat-vormkeuze de verwachte fiscale en sociale-zekerheids-last over een meerjaars-horizon, op basis van de verwachte winst en de optimale dividend-of-loon-mix.",
+      "waarom": "Fiscaliteit is geen primair criterium maar wel een belangrijke gevolgschatting — een vennootschap die structureel duurder uitvalt dan een eenmanszaak verliest haar zin als niet ook beschermings- of governance-overwegingen meespelen.",
+      "input": [
+        {
+          "artefact": "Verwachte resultaten jaar 1-3",
+          "veld": "Bruto winst vóór bestuurdersbezoldiging",
+          "type": "boekhoudkundig-bedrag"
+        },
+        {
+          "artefact": "Persoonlijke fiscale situatie ondernemer",
+          "veld": "Andere inkomsten, gezinscoëfficiënt",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Fiscale-vergelijking-tabel",
+          "veld": "Netto-na-belasting per vormkeuze jaar 1-3",
+          "type": "tabel"
+        }
+      ],
+      "hoe": "1. Eenmanszaak: progressieve PB met sociale-bijdrage-trapstaffel + geen vennootschapsbelasting; alle winst belast in jaar verdiend.\n2. Vennootschap (BV/NV/CV): vennootschapsbelasting (25% basis, 20% verlaagd voor kmo-eerste-€100k) + bestuurdersbezoldiging-strategie. Bezoldiging via PB; eventueel dividend (RV 30% of VVPR-bis 15-20% bij voorwaarden).\n3. Vermijd geïsoleerde 'tariefvergelijking'. Reken netto-in-handen-ondernemer over 3-5 jaar door, inclusief sociale bijdragen, kostenaftrek vennootschap, mogelijk VAA woonst/wagen.\n4. Toon de gevoeligheid: bij welke winstniveau slaat de balans om?\n5. Verwijs naar [[kwalificeren-boekhoudplichtige-onderneming]] voor de boekhoudverplichtingen-zijde.",
+      "grondslag": "Vakdoctrine fiscaliteit accountancy"
+    },
+    {
+      "nr": 4,
+      "titel": "Formuleren advies en alternatieven-bandbreedte",
+      "wat": "Geef de cliënt een schriftelijk advies met de aanbevolen vorm, de twee belangrijkste argumenten, en de afgewezen alternatieven met hun beslissende tegen-argument.",
+      "waarom": "Een schriftelijk advies maakt het beslissingstraject transparant — cliënt kan een geïnformeerde keuze maken en de accountant bouwt dossier voor latere bestuurders- of fiscaal-aansprakelijkheidsdiscussies.",
+      "input": [
+        {
+          "artefact": "Niet-fiscale matrix (stap 2) + fiscale tabel (stap 3)",
+          "veld": "Aggregate beoordeling",
+          "type": "tabel"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Adviesnota vennootschapsvormkeuze",
+          "veld": "Aanbeveling + onderbouwing",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Open met aanbeveling: 'Op basis van uw profiel adviseren wij een BV met X kenmerken.'\n2. Twee structurele argumenten: bv. (a) beperkte aansprakelijkheid noodzakelijk gezien sector-aansprakelijkheidsrisico, (b) soepele aandelenoverdracht voor toekomstige overname kinderen.\n3. Vermeld de twee afgewezen alternatieven en hun belangrijkste tegen-argument: 'Eenmanszaak afgewezen want persoonlijke aansprakelijkheid bij sector-typische schadeclaims te hoog. NV afgewezen want formaliteiten en raad van bestuur disproportioneel voor solo-ondernemer.'\n4. Sluit af met benodigde vervolg-stappen (statuten opstellen, financieel plan, inbreng-storting).\n5. Laat cliënt het advies aftekenen of bevestigen.",
+      "valkuilen": [
+        {
+          "advies": "Vermeld expliciet dat het advies tijdsgebonden is — wetgeving (vooral fiscaal) kan wijzigen en bij latere oprichting moet opnieuw geverifieerd worden.",
+          "vaak_fout": "Eenmaal geschreven advies eindeloos hergebruiken zonder tijdsgrens — bij oprichting 2-3 jaar later geldt jouw advies niet meer."
+        }
+      ],
+      "grondslag": "[[vennootschapsvormen-vergelijking]], plichtenleer accountancy"
+    }
+  ],
+  "in_praktijk": [
+    "Begin altijd bij de niet-fiscale criteria — een fiscaal optimale vorm die structureel niet past, blokkeert later.",
+    "Het advies is geen verkoopgesprek: maak risico's en kostprijs van de gekozen vorm even expliciet als de voordelen.",
+    "Bij twijfel-gevallen waar twee vormen dichtbij elkaar liggen: vraag cliënt expliciet welke afweging hij/zij primair vindt — dat verschuift de keuze (en de aansprakelijkheid bij verkeerde achteraf-blik)."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Pieter Vermeulen overweegt een eenmanszaak of een BV voor zijn nieuwe textielimport-activiteit. Verwachte omzet jaar 1: € 220.000, brutomarge 35%, verwachte winst vóór bestuurdersbezoldiging € 30.000 jaar 1 → € 60.000 jaar 3. Persoonlijke marginaal tarief PB 50%.",
+      "conclusie": "Sofie Janssens adviseert een BV. Niet-fiscale primaire argumenten: (1) beperking persoonlijke aansprakelijkheid bij kwaliteitsklachten op geleverde collecties, (2) flexibiliteit voor latere instap dochter Pieter Jr. via aandelenoverdracht. Fiscaal: bij € 30.000 winst en bestuurdersbezoldiging € 22.000 + rest in venn → netto-in-handen ca. 5% hoger dan eenmanszaak; bij € 60.000 winst klimmt voordeel tot ca. 12%. Afgewezen alternatieven: eenmanszaak (aansprakelijkheid), NV (overformaliteit voor solo-ondernemer).",
+      "grondslag": "[[vennootschapsvormen-vergelijking]], [[besloten-vennootschap-bv]]"
+    }
+  ],
+  "beoordelings_criteria": [
+    "Niet-fiscale kerncriteria expliciet afgewogen vóór fiscale gevolgen",
+    "Adviesnota bevat aanbeveling + onderbouwing + afgewezen alternatieven",
+    "Fiscale vergelijking is meerjaars en niet enkel een tarief-vergelijking",
+    "Cliënt heeft het advies ondertekend ontvangen"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.1-batch2-20260520T111205Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.1",
+    "linked_anchors": [
+      "3.0.taak.1",
+      "3.0.I",
+      "3.0.I.A",
+      "3.0.I.C"
+    ],
+    "voorgesteld_op": "2026-05-20T11:12:05.736722Z",
+    "reviewed_by": null
+  }
+}

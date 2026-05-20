@@ -1,0 +1,229 @@
+{
+  "id": "opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht",
+  "naam": "Opstellen van het beoordelingsverslag bij uitgifte met uitsluiting of beperking van het voorkeurrecht",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Beoordelingsverslag uitsluiting voorkeurrecht (art. 5:121, 7:179 WVV)",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.3"
+    ],
+    "kenniselementen": [
+      "3.0.IV"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.3",
+    "3.0.IV"
+  ],
+  "gebaseerd_op_concepten": [
+    "voorkeurrecht-aandeelhouder",
+    "kapitaalverhoging-bv",
+    "kapitaalverhoging-nv",
+    "bijzondere-mandaten-accountant",
+    "onafhankelijkheid-bijzondere-mandataris"
+  ],
+  "situering": {
+    "text": "Wanneer een BV (art. 5:121 WVV) of NV (art. 7:179 WVV) nieuwe aandelen, converteerbare obligaties of inschrijvingsrechten uitgeeft en daarbij het voorkeurrecht van de bestaande aandeelhouders wil uitsluiten of beperken — eventueel ten gunste van één of meerdere bepaalde personen — moet het bestuursorgaan een verantwoording opstellen en, indien er geen commissaris is, een bedrijfsrevisor of gecertificeerd accountant een beoordelingsverslag uitbrengen. Het verslag beoordeelt of de financiële en boekhoudkundige gegevens in het bestuursverslag 'in alle van materieel belang zijnde opzichten getrouw en voldoende' zijn om de algemene vergadering geïnformeerd te laten beslissen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV art. 5:121, 7:179 + ITAA-norm-effectennorm"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 75,
+    "praktijk_pct": 25,
+    "motivering": "Verslagstructuur en mandaatsvereiste zijn wettelijk in WVV vastgelegd; uitvoering volgt ITAA-norm-effectennorm + ISA 805/ISRE-achtige beoordelingsmethodiek (praktijk)."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Verifiëren of beoordelingsverslag wettelijk vereist is",
+      "wat": "Stel vast of de voorgenomen verrichting onder art. 5:121 / 7:179 WVV valt en of het voorkeurrecht effectief wordt uitgesloten of beperkt.",
+      "waarom": "Niet elke kapitaalverhoging vereist een beoordelingsverslag — alleen wanneer voorkeurrecht wordt uitgesloten/beperkt of de rechten verbonden aan soorten van aandelen worden gewijzigd. Een verslag opstellen waar het niet vereist is, verspilt budget; verzuim leidt tot nietigheid van het AV-besluit.",
+      "input": [
+        {
+          "artefact": "Concept-AV-agenda + bestuursvoorstel",
+          "veld": "Type verrichting + voorkeurrecht-positie",
+          "type": "wettelijk-document"
+        },
+        {
+          "artefact": "Statuten",
+          "veld": "Soorten aandelen + bestaande voorkeurrechten",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Kwalificatie-memo",
+          "veld": "Verslag vereist of niet + rechtsbasis",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Lees het bestuursvoorstel. Concrete trigger-verrichtingen: uitgifte nieuwe aandelen met uitsluiting voorkeurrecht; uitgifte converteerbare obligaties of inschrijvingsrechten; wijziging rechten verbonden aan soorten van aandelen; uitsluiting/opheffing voorkeurrecht ten gunste van bepaalde persoon (vaak personeel of strategische investeerder).\n2. Check of commissaris is aangesteld — zo ja, val je niet onder taak.3.\n3. Cross-check [[voorkeurrecht-aandeelhouder]] voor begripsafbakening.",
+      "grondslag": "WVV art. 5:121 §1; art. 7:179 §1; ITAA-norm-effectennorm §1"
+    },
+    {
+      "nr": 2,
+      "titel": "Aanvaarden opdracht en onafhankelijkheid documenteren",
+      "wat": "Pas onafhankelijkheidstoets toe en stel opdrachtbrief op.",
+      "waarom": "Monopolieopdracht — onafhankelijkheidsschending maakt het verslag nietig en stelt de accountant tuchtrechtelijk bloot.",
+      "input": [
+        {
+          "artefact": "Cliëntdossier + register eerdere opdrachten",
+          "veld": "Adviesopdrachten + bestuursrelaties",
+          "type": "vrije-tekst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Opdrachtbrief + onafhankelijkheidsverklaring",
+          "veld": "Scope + bevestiging onafhankelijkheid",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Doorloop [[onafhankelijkheid-bijzondere-mandataris]] — controleer art. 10-13 KB 1/3/1998.\n2. Specifieke risico's hier: wie heeft het bestuursvoorstel mee opgesteld of de uitgifteprijs berekend? Als dat de kandidaat-mandataris was → weigeren.\n3. Bevestig de scope in opdrachtbrief: 'beoordelen of financiële en boekhoudkundige gegevens in bestuursverslag getrouw en voldoende zijn voor de AV'.\n4. Vermeld in latere verslag de andere prestaties (art. 12 KB).",
+      "grondslag": "KB 1 maart 1998 art. 10-13; ITAA-norm-effectennorm §3"
+    },
+    {
+      "nr": 3,
+      "titel": "Beoordelen financiële en boekhoudkundige gegevens",
+      "wat": "Onderzoek of de cijfers in het bestuursverslag — uitgifteprijs, dilutie-effecten, motivering van de uitsluiting — getrouw en voldoende zijn.",
+      "waarom": "De wet eist GEEN volledige audit maar wel een 'beoordeling' (ISRE-achtig — beperktere zekerheid). De conclusie luidt 'is niets onder onze aandacht gekomen dat ons aanzet te menen dat ...' — een negatieve conclusie.",
+      "input": [
+        {
+          "artefact": "Bestuursverslag art. 5:121/7:179",
+          "veld": "Verantwoording uitgifteprijs + dilutie + motivering",
+          "type": "wettelijk-document"
+        },
+        {
+          "artefact": "Recente jaarrekening + tussentijdse balans",
+          "veld": "Eigen vermogen + waarderingsbasis",
+          "type": "boekhoudkundig-overzicht"
+        },
+        {
+          "artefact": "Onderliggende waarderingsdocumenten",
+          "veld": "Multiples, DCF, NAV",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkdocument beoordeling",
+          "veld": "Procedures + bevindingen",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Verifieer dat de in het bestuursverslag genoemde cijfers (eigen vermogen, recente winst/verlies, intrinsieke waarde) overeenstemmen met de jaarrekening en boekhouding.\n2. Toets of de uitgifteprijs redelijk is in verhouding tot intrinsieke waarde — voor BV/NV typisch via vergelijking met fractiewaarde, recente waardering, of multiples van vergelijkbare entiteiten.\n3. Beoordeel of het bestuursverslag de gevolgen voor de vermogens- en lidmaatschapsrechten van bestaande aandeelhouders (dilutie) correct beschrijft.\n4. Bij uitgifte ten gunste van bepaalde persoon (vaak personeel of investeerder): toets of de identiteit en het belang transparant zijn beschreven.\n5. Documenteer beperkingen: geen audit, geen waardering opnieuw doen.\n6. Cross-link met [[nettoactieftest]] indien tegelijk een uitkering wordt overwogen.",
+      "valkuilen": [
+        {
+          "advies": "Beoordeel niet de 'wenselijkheid' van de uitsluiting voorkeurrecht — alleen de juistheid van de financiële onderbouwing.",
+          "vaak_fout": "Accountant geeft mening over of de uitsluiting zelf wel een goed idee is — overschrijdt mandaat."
+        }
+      ],
+      "grondslag": "WVV art. 5:121 §1; art. 7:179 §1; ITAA-norm-effectennorm Bijlage 5 (modelverslag); ISA 805 (specifieke aspecten)"
+    },
+    {
+      "nr": 4,
+      "titel": "Opstellen beoordelingsverslag volgens ITAA-modelverslag",
+      "wat": "Schrijf het verslag volgens de structuur van ITAA-norm-effectennorm Bijlage 5 — met negatieve conclusie en formele rubrieken.",
+      "waarom": "Niet-conforme structuur kan leiden tot weigering door notaris (die het verslag bij de akte voegt) en aanvechtbaarheid van het AV-besluit.",
+      "input": [
+        {
+          "artefact": "Werkdocument beoordeling (stap 3)",
+          "veld": "Volledige bevindingen",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Beoordelingsverslag art. 5:121/7:179",
+          "veld": "Gericht aan AV",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Verplichte rubrieken: identificatie vennootschap; verwijzing artikel WVV en aard verrichting; beschrijving aangelegde procedures; beperkingen; verklaring andere prestaties (art. 12 KB 1/3/1998); conclusie.\n2. Conclusie-formule: 'Op basis van onze beoordeling van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het bestuursorgaan is niets onder onze aandacht gekomen dat ons ertoe aanzet van mening te zijn dat deze gegevens, [in voorkomend geval: inclusief de verantwoording van de aandeelhouders die voorkeurrecht uitsluiten], niet in alle van materieel belang zijnde opzichten getrouw en voldoende zijn om de algemene vergadering die over het voorstel moet stemmen, voor te lichten.'\n3. Datum + handtekening + ITAA-stempel + ondernemingsnummer.\n4. Het verslag wordt samen met het bestuursverslag neergelegd en bekendgemaakt (art. 2:8 en 2:14, 4° WVV).",
+      "grondslag": "ITAA-norm-effectennorm Bijlage 5; WVV art. 2:8, 2:14"
+    },
+    {
+      "nr": 5,
+      "titel": "Bezorgen, vermelden in AV-agenda en archiveren",
+      "wat": "Lever het verslag tijdig zodat het in de AV-agenda kan vermeld worden en derden er kopie van kunnen verkrijgen.",
+      "waarom": "Het verslag moet vermeld worden in de agenda van de AV (art. 5:121/7:179) en publiek beschikbaar via art. 5:84/7:132 — verzuim maakt het besluit aantastbaar.",
+      "input": [
+        {
+          "artefact": "Verslag ondertekend (stap 4)",
+          "veld": "Origineel",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Bezorgd + neergelegd + gearchiveerd verslag",
+          "veld": "Cliënt + notaris + dossier",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Bezorg het verslag aan bestuursorgaan minstens 15 kalenderdagen vóór de AV (samen met agenda-oproeping).\n2. Notaris of vennootschap regelt neerlegging bij griffie.\n3. Bewaar werkversie + onderliggende stukken minstens 5 jaar (ITAA-norm dossier-bewaring).",
+      "grondslag": "WVV art. 5:121, 5:84; art. 7:179, 7:132; ITAA-norm dossier-bewaring"
+    }
+  ],
+  "in_praktijk": [
+    "Het beoordelingsverslag is typisch 4-8 pagina's — beduidend korter dan een inbreng-in-natura-verslag, omdat het een beoordelings- (geen audit-) opdracht is.",
+    "Bij uitgifte ten gunste van personeel (warrant- of optieplan) is dit verslag een standaard onderdeel — accountant let dan extra op of de uitgifteprijs marktconform is voor fiscale doeleinden.",
+    "Voor een NV is er vaak ook een verslag bij art. 7:191 (toegestaan kapitaal) — die twee mogen niet verward worden."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Nuance Tech BV (KMO software) wil 15% nieuwe aandelen uitgeven aan een strategische investeerder, met uitsluiting voorkeurrecht van de bestaande oprichters. Geen commissaris. Bestuursorgaan stelt een verslag op met onderbouwing van de uitgifteprijs op € 850/aandeel (post-money valuation € 5,7 mln). Bestuursorgaan vraagt gecertificeerd accountant Lina De Coninck het beoordelingsverslag op te stellen.",
+      "conclusie": "Lina verifieert dat zij geen eerdere adviesopdracht had over deze investering. Ze toetst de uitgifteprijs tegen recente exit-multiples van vergelijkbare Belgische SaaS-KMO's (4-6x ARR), wat een vork € 4,8-7,2 mln geeft. De voorgestelde € 5,7 mln zit in de middenmoot. Ze beoordeelt of de dilutie-berekening in het bestuursverslag klopt (oprichters van 100% → 85%) en of de motivering 'strategische toegevoegde waarde van investeerder' transparant is. Verslag volgt Bijlage 5: negatieve conclusie zonder voorbehoud. Verslag wordt 20 dagen vóór AV bezorgd.",
+      "grondslag": "WVV art. 5:121; ITAA-norm-effectennorm Bijlage 5",
+      "redenering": "Onafhankelijkheid OK (geen eerdere advisering), uitgifteprijs marktconform, dilutie correct beschreven, identiteit investeerder transparant → niets onder aandacht gekomen → negatieve conclusie."
+    }
+  ],
+  "beoordelings_criteria": [
+    "Correcte kwalificatie verrichting onder art. 5:121 of 7:179",
+    "Onafhankelijkheidstoets gedocumenteerd vóór aanvaarding",
+    "Beoordelings- (niet audit-) niveau van zekerheid correct toegepast",
+    "Conclusie-formule conform ITAA-norm-effectennorm Bijlage 5",
+    "Tijdig bezorgd voor opname in AV-agenda + neerlegging"
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "voorkeurrecht-aandeelhouder"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kapitaalverhoging-bv"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kapitaalverhoging-nv"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-bijzondere-mandataris"
+    },
+    {
+      "type": "samenstellend-deel-van",
+      "target": "bijzondere-mandaten-accountant"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.3-batch2-20260520T114922Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.3",
+    "linked_anchors": [
+      "3.0.taak.3",
+      "3.0.IV"
+    ],
+    "voorgesteld_op": "2026-05-20T11:49:22.533891+00:00",
+    "reviewed_by": null
+  }
+}

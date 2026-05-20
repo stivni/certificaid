@@ -1,0 +1,147 @@
+{
+  "id": "liquiditeitstest-bv",
+  "naam": "Liquiditeitstest (BV/CV)",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IV"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IV",
+    "linked_anchors": [
+      "3.0.IV"
+    ],
+    "reviewed_by": null,
+    "updated_by_log": [
+      "concept-extractie-v4-2026-05-20T15:00Z (PO 3.0 wave 2 — alarmbel cross-edge)"
+    ]
+  },
+  "situering": "De tweede helft van de dubbele uitkeringstest in het kapitaalloze regime (BV en CV). Waar de nettoactieftest een **statische balanstest** is, kijkt de liquiditeitstest **vooruit**: kan de vennootschap haar opeisbare schulden over de eerstvolgende twaalf maanden blijven betalen na de uitkering? Dit is het ontwerpend antwoord van de WVV-wetgever op de afschaffing van het minimumkapitaal.",
+  "main_rule": {
+    "text": "Het besluit van de algemene vergadering tot uitkering heeft slechts uitwerking nadat het **bestuursorgaan** heeft vastgesteld dat de vennootschap, volgens de redelijkerwijs te verwachten ontwikkelingen, na de uitkering in staat zal blijven haar schulden te voldoen naarmate deze opeisbaar worden over een periode van **ten minste twaalf maanden** te rekenen van de datum van de uitkering. Het bestuursorgaan motiveert dit oordeel in een **verslag dat niet wordt neergelegd**. Bij een aangestelde commissaris **beoordeelt** die de historische en prospectieve cijfers van het verslag en vermeldt in zijn jaarlijks controleverslag dat hij deze opdracht heeft uitgevoerd.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 5:143 (BV), 6:116 (CV)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_5_143",
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_312",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "text": "Toetsing gebeurt **na** de positieve uitkomst van de nettoactieftest — niet als alternatief, maar als cumulatieve voorwaarde.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "Horizon = minstens twaalf maanden vanaf de datum van de uitkering (niet vanaf de AV-beslissing).",
+      "confidence": "grounded"
+    },
+    {
+      "text": "Het bestuursorgaan beslist op basis van **redelijkerwijs te verwachten ontwikkelingen** — geen zekerheid, wel een gemotiveerde toekomstinschatting.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "Het besluit wordt verantwoord in een **schriftelijk verslag** dat bij de vennootschap blijft (geen neerlegging KBO/griffie).",
+      "confidence": "grounded"
+    },
+    {
+      "text": "Aanwezigheid commissaris → die beoordeelt het verslag en rapporteert in het jaarlijks controleverslag dat hij/zij deze opdracht heeft uitgevoerd.",
+      "confidence": "grounded"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Wat hoort in het bestuursverslag?",
+      "betekenis": "Historische cijfers (resultaten, kasstroom over recente boekjaren), prospectieve cijfers (begroting, liquiditeitsplan over 12 maanden), aannames (verwachte verkopen, openstaande kredieten, vervaltermijnen van schulden), en de conclusie dat de vennootschap ondanks de uitkering aan haar betalingsverplichtingen kan blijven voldoen.",
+      "confidence": "inferred",
+      "source": {
+        "type": "advies",
+        "short": "MvT-WVV bij art. 312"
+      }
+    },
+    {
+      "aspect": "Aansprakelijkheidsknop",
+      "betekenis": "Bestuurders die bij de beslissing **wisten of behoorden te weten** dat de vennootschap na de uitkering kennelijk niet meer aan haar schulden zou kunnen voldoen, zijn hoofdelijk aansprakelijk voor de schade. De vennootschap kan een ongeldige uitkering bovendien terugvorderen van de aandeelhouders ongeacht hun goede trouw.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 5:144"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_5_144",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "De liquiditeitstest is **niet** de bestuurder die 'oké' zegt — het is een **gemotiveerd schriftelijk verslag** dat onder de bestuurdersaansprakelijkheid valt en bij audit door de commissaris gerecenseerd wordt.",
+      "vaak_fout": "Mondelinge bestuursbeslissing zonder verslag, of een verslag dat enkel zegt 'we hebben er aan gedacht' zonder cijfermatige onderbouwing.",
+      "grondslag": "WVV art. 5:143"
+    },
+    {
+      "advies": "Twaalf maanden = **rolling horizon vanaf de betalingsdatum**, niet vanaf het AV-besluit. Bij grote uitkeringen die over meerdere maanden gespreid worden, schuift de toetshorizon mee.",
+      "vaak_fout": "De toets verbinden aan het AV-besluit ('we hebben dit in februari beslist, dus 12 maanden tot februari') terwijl de effectieve uitkering pas in juni gebeurt.",
+      "grondslag": "WVV art. 5:143"
+    },
+    {
+      "advies": "Voor de NV bestaat er **geen** liquiditeitstest. De nettoactieftest alleen is daar voldoende. Verwar dit niet bij een vergelijkende vraag.",
+      "vaak_fout": "De liquiditeitstest toepassen op een NV omdat 'het toch een uitkering is'.",
+      "grondslag": "WVV — boek 7 bevat geen art. 5:143-equivalent"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "besloten-vennootschap-bv",
+      "target_status": "resolved",
+      "facet": {
+        "aspect": "kapitaalbescherming-BV"
+      }
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "nettoactieftest",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "bestuursorgaan",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "nettoactieftest",
+      "target_status": "resolved",
+      "facet": {
+        "aspect": "prospectieve test vs balanstest"
+      }
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "alarmbelprocedure",
+      "target_status": "resolved",
+      "facet": {
+        "aspect": "ex-ante barrière versus ex-post detectie van liquiditeitsklem"
+      },
+      "redenering": "Dezelfde 12-maands-liquiditeitstest functioneert als uitkering-barrière (art. 5:143) én als alarmbel-trigger (art. 5:153 §2)."
+    }
+  ]
+}

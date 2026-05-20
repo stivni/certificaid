@@ -1,0 +1,240 @@
+{
+  "id": "oprichtingsproces-stappenplan",
+  "naam": "Stappenplan voor de begeleiding van een vennootschapsoprichting",
+  "node_type": "synthese",
+  "schema_version": "1.6",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.1"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.1"
+  ],
+  "gebaseerd_op_concepten": [
+    "adviseren-vennootschapsvormkeuze",
+    "opstellen-financieel-plan-oprichting",
+    "begeleiden-inbreng-bij-oprichting",
+    "voorbereiden-oprichtingsakte",
+    "begeleiden-registratie-onderneming-kbo",
+    "opstellen-openingsbalans-vennootschap",
+    "signaleren-oprichtersaansprakelijkheid-risico",
+    "financieel-plan-oprichting"
+  ],
+  "situering": {
+    "text": "Synthese-overzicht voor de gecertificeerd accountant: de chronologische volgorde van de zeven hoofdtaken in een oprichtingsbegeleiding — van intake en vormkeuze tot operationele registratie en eerste boekhouding. Toont per fase de duur, de outputs en de afhankelijkheden, zodat de stagiair het hele proces als één pijplijn kan overzien.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakpraktijk-synthese",
+      "short": "Aggregatie van de zeven competentie-records voor 3.0.taak.1"
+    }
+  },
+  "kerninzichten": [
+    "Oprichting is een sequentie van 7 hoofdstappen waarvan vier vóór de notariële akte gebeuren (vormkeuze, financieel plan, inbreng-voorbereiding, akte-ontwerp) en drie nadien (KBO/btw-registratie, openingsbalans, risico-opvolging).",
+    "Kritieke deadlines: financieel plan en revisorenverslag inbreng in natura moeten vóór de akte klaar zijn; UBO-registratie binnen 30 dagen na KBO-inschrijving; sociaal fonds binnen 90 dagen.",
+    "Aansprakelijkheidsrisico's worden vóór de akte ingebouwd (niet erna): wat in het financieel plan en de inbrengwaardering staat is bepalend bij latere faillissement-procedure binnen 3 jaar.",
+    "Het tijdspad neemt typisch 4-8 weken voor een eenvoudige BV met cash-inbreng, 8-16 weken indien inbreng in natura met revisor-werk."
+  ],
+  "tijdlijn": [
+    {
+      "fase": "T-8 tot T-4 weken (intake & vormkeuze)",
+      "actie": "Intake-gesprek + advies vennootschapsvormkeuze",
+      "output": "Adviesnota cliënt + gekozen vorm",
+      "verantwoordelijke": "Accountant",
+      "verwijzing": "[[adviseren-vennootschapsvormkeuze]]"
+    },
+    {
+      "fase": "T-6 tot T-3 weken (financieel plan)",
+      "actie": "Opstellen financieel plan + reviewen door cliënt",
+      "output": "Ondertekend financieel plan",
+      "verantwoordelijke": "Accountant + cliënt",
+      "verwijzing": "[[opstellen-financieel-plan-oprichting]], [[financieel-plan-oprichting]]"
+    },
+    {
+      "fase": "T-4 tot T-2 weken (inbreng-voorbereiding)",
+      "actie": "Geblokkeerde rekening + revisorenverslag inbreng in natura + oprichtersverslag",
+      "output": "Deponeringsattest + revisorenverslag + oprichtersverslag",
+      "verantwoordelijke": "Accountant + bedrijfsrevisor",
+      "verwijzing": "[[begeleiden-inbreng-bij-oprichting]]"
+    },
+    {
+      "fase": "T-3 tot T-1 week (akte-ontwerp)",
+      "actie": "Statuten redigeren + verplichte vermeldingen verifiëren + akteontwerp aan notaris",
+      "output": "Definitief akteontwerp",
+      "verantwoordelijke": "Accountant + notaris",
+      "verwijzing": "[[voorbereiden-oprichtingsakte]]"
+    },
+    {
+      "fase": "T-1 week (aansprakelijkheidssignalering)",
+      "actie": "Aansprakelijkheidsnota aan cliënt + mitigaties vóór akte",
+      "output": "Cliënt-getekende aansprakelijkheidsnota",
+      "verantwoordelijke": "Accountant + cliënt",
+      "verwijzing": "[[signaleren-oprichtersaansprakelijkheid-risico]]"
+    },
+    {
+      "fase": "T-DAY (notariële akte)",
+      "actie": "Verlijden authentieke akte — vennootschap krijgt rechtspersoonlijkheid",
+      "output": "Authentieke oprichtingsakte",
+      "verantwoordelijke": "Notaris",
+      "verwijzing": "WVV art. 5:11, 7:13"
+    },
+    {
+      "fase": "T+1 dag tot T+4 weken (registratie)",
+      "actie": "KBO-inschrijving (automatisch via notaris) → btw-604A → UBO-registratie → sociaal verzekeringsfonds",
+      "output": "Ondernemingsnummer + btw-nummer + UBO + sociale aansluiting",
+      "verantwoordelijke": "Accountant",
+      "verwijzing": "[[begeleiden-registratie-onderneming-kbo]]"
+    },
+    {
+      "fase": "T+2 tot T+6 weken (eerste boekhouding)",
+      "actie": "Openingsbalans + boeken inbreng + boeken oprichtingskosten + reconciliëren met financieel plan",
+      "output": "Conforme openingsbalans WVV-schema",
+      "verantwoordelijke": "Accountant",
+      "verwijzing": "[[opstellen-openingsbalans-vennootschap]]"
+    }
+  ],
+  "vergelijkingstabel": {
+    "titel": "Verschil tussen oprichting BV en NV qua oprichtingsbegeleiding",
+    "kolommen": [
+      "Aspect",
+      "BV",
+      "NV"
+    ],
+    "rijen": [
+      {
+        "cells": [
+          "Wetsartikel financieel plan",
+          "art. 5:4",
+          "art. 7:3"
+        ]
+      },
+      {
+        "cells": [
+          "Aanvangsvermogen vs kapitaal",
+          "Aanvangsvermogen (kapitaalloos)",
+          "Kapitaal (min € 61.500 volstort)"
+        ]
+      },
+      {
+        "cells": [
+          "Wetsartikel inbreng in natura",
+          "art. 5:7",
+          "art. 7:7"
+        ]
+      },
+      {
+        "cells": [
+          "Wetsartikel geblokkeerde rekening",
+          "art. 5:9",
+          "art. 7:9"
+        ]
+      },
+      {
+        "cells": [
+          "Wetsartikel akte-vermeldingen",
+          "art. 5:11-5:12",
+          "art. 7:13-7:14"
+        ]
+      },
+      {
+        "cells": [
+          "Wetsartikel oprichtersaansprakelijkheid",
+          "art. 5:16",
+          "art. 7:18"
+        ]
+      },
+      {
+        "cells": [
+          "Bestuursmodel",
+          "Soepel (1 of meer bestuurders)",
+          "Drie modellen — monistisch / duaal / enige bestuurder"
+        ]
+      },
+      {
+        "cells": [
+          "Aandelenoverdracht-default",
+          "Bij wet beperkt (statutair anders mogelijk)",
+          "Vrij (statutair beperking mogelijk)"
+        ]
+      },
+      {
+        "cells": [
+          "Meervoudig stemrecht",
+          "Vrij in statuten",
+          "Vrij (genoteerd: max 2x)"
+        ]
+      }
+    ]
+  },
+  "in_praktijk": [
+    "Het kritieke pad in eenvoudige oprichting loopt via financieel plan + akte-ontwerp; revisorenverslag inbreng in natura is een paralleltrek wanneer toepasselijk.",
+    "Vertraging van notariële akte met meer dan 30 dagen na de geblokkeerde-rekening-deponering: vraag bank een nieuw attest op (in praktijk zelden probleem maar formeel veiliger).",
+    "Cliënt-verwachtingsmanagement: communiceer vroeg dat 'oprichting' geen 1-dags-event is maar een proces van weken."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Tijdspad oprichting Oprichtingen Oostende BV",
+      "cast": [
+        "Pieter Vermeulen",
+        "Sofie Janssens",
+        "Oprichtingen Oostende BV"
+      ],
+      "omschrijving": "Pieter Vermeulen besluit op 1 februari een textielimport-BV op te richten. Sofie Janssens leidt het traject.",
+      "stappen": [
+        "1 feb (T-7 weken): intake + advies vormkeuze BV.",
+        "8-15 feb (T-6 weken): opstellen financieel plan + reviewen.",
+        "20 feb-5 maart (T-4 weken): bedrijfsrevisor bestelwagen-waardering, deponering € 25.000 op KBC-rekening (4 maart).",
+        "8-15 maart (T-1 week): notariële akte-ontwerp + aansprakelijkheidsnota.",
+        "18 maart (T-day): notariële akte verleden.",
+        "22 maart-15 april: KBO-nummer ontvangen, btw-604A ingediend, UBO geregistreerd, Liantis-aansluiting.",
+        "5-20 april: openingsbalans opgemaakt door Sofie, reconciliatie met financieel plan."
+      ],
+      "redenering": "Het 7-weken-traject is typisch voor een eenvoudige BV met cash + één natura-inbreng. Bij eenvoudiger structuur (enkel cash) → 3-4 weken; bij complexere structuur (meerdere oprichters, IP-inbreng, internationaal element) → 12-16 weken."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "adviseren-vennootschapsvormkeuze"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "opstellen-financieel-plan-oprichting"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "begeleiden-inbreng-bij-oprichting"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "voorbereiden-oprichtingsakte"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "signaleren-oprichtersaansprakelijkheid-risico"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "begeleiden-registratie-onderneming-kbo"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "opstellen-openingsbalans-vennootschap"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.1-batch4-20260520T111737Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.1",
+    "linked_anchors": [
+      "3.0.taak.1"
+    ],
+    "voorgesteld_op": "2026-05-20T11:17:37.358596Z",
+    "reviewed_by": null
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "bijeenroeping-algemene-vergadering",
+  "naam": "Bijeenroeping van de algemene vergadering",
+  "node_type": "cluster",
+  "situering": {
+    "text": "De bijeenroeping bepaalt wie de AV samenroept, op welke manier dat gebeurt en wat de oproeping minstens moet bevatten. Het WVV legt strikte termijnen en formele kanalen op (mededeling aan houders van aandelen op naam; voor NV bovendien Belgisch Staatsblad en nationaal verspreid blad). Schending van deze formaliteiten kan de geldigheid van de AV-besluiten ondergraven en de bestuurdersaansprakelijkheid in het geding brengen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 5:83–5:84 (BV), 6:70 (CV), 7:126–7:132 (NV)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_5_67",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_95",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "definitie": {
+    "text": "De bijeenroeping is de formele uitnodiging van de aandeelhouders en andere stemgerechtigden tot de algemene vergadering. Het bestuursorgaan en, in voorkomend geval, de commissaris doen die oproep en bepalen de agenda. De oproeping wordt minstens vijftien dagen vóór de vergadering meegedeeld; in een NV gebeurt zij bovendien via aankondiging in het Belgisch Staatsblad en een nationaal blad (tenzij alle effecten op naam zijn). Een tweede bijeenroeping vereist een minimumtermijn van tien dagen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 5:83 (BV), 7:126–7:127 (NV)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_5_67",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_95",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Bijeenroeping in de BV",
+      "wat": "Het bestuursorgaan en de commissaris roepen de AV bijeen en bepalen haar agenda. Oproeping minstens vijftien dagen vooraf, meegedeeld aan aandeelhouders, houders van converteerbare obligaties op naam, inschrijvingsrechten op naam, certificaten op naam en de bestuurders. Bij verzoek van aandeelhouders die 10% van de uitgegeven aandelen bezitten, moet binnen drie weken een AV worden bijeengeroepen met de gevraagde agendapunten.",
+      "waarom": "De wet zorgt dat een minderheid van 10% niet kan worden buitengesloten van het agenderen van een onderwerp.",
+      "grondslag": "WVV art. 5:83",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_5_67",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Bijeenroeping in de NV (niet-genoteerd)",
+      "wat": "De raad van bestuur, de enige bestuurder of de raad van toezicht en, in voorkomend geval, de commissaris roepen de AV bijeen. Oproeping ten minste vijftien dagen vooraf via (1) Belgisch Staatsblad, (2) een nationaal verspreid blad (papier of elektronisch) en (3) de vennootschapswebsite, indien voorhanden. Zijn alle effecten op naam, dan volstaat de mededeling aan de houders. Een aandeelhoudersgroep van 10% van het kapitaal kan een AV met haar agendapunten afdwingen.",
+      "waarom": "Publicatie via Staatsblad en pers waarborgt dat ook houders van toonderbeurzen of niet-geregistreerde effecten worden bereikt.",
+      "grondslag": "WVV art. 7:126, 7:127, § 1",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_95",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Bijeenroeping in de NV genoteerd",
+      "wat": "Voor een genoteerde NV gelden bijkomende termijnen en kanalen (30 dagen vóór de AV, mededeling via Staatsblad én media die brede verspreiding waarborgen; aandelen op naam, certificaathouders met medewerking, bestuurders en commissaris worden expliciet meegedeeld). De oproeping bevat onder meer agenda, deelnameformaliteiten, registratiedatum en stem-op-afstand-modaliteiten.",
+      "waarom": "Genoteerde vennootschappen verzamelen een diffuus, internationaal aandeelhouderschap dat redelijkerwijs niet via Staatsblad alleen kan worden bereikt.",
+      "grondslag": "WVV art. 7:128–7:129 (genoteerde NV)",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_7_197",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verplichte oproepingsinhoud",
+      "wat": "Elke oproeping vermeldt de agenda met de te behandelen onderwerpen. Bij statutenwijziging moeten de voorgestelde wijzigingen nauwkeurig in de oproeping zijn aangegeven, op straffe van nietigheid van het besluit. Samen met de oproepingsbrief krijgen aandeelhouders de wettelijk voorgeschreven stukken (jaarrekening, verslagen).",
+      "waarom": "De agenda bakent het mandaat van de AV af: zij kan niet geldig beslissen over een onderwerp dat niet in de oproeping stond.",
+      "grondslag": "WVV art. 5:83, eerste lid; 5:100, eerste lid; 7:126, 7:153",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_5_67",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_5_152",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Verifieer voor elke oproeping of alle wettelijke kanalen werden gebruikt — in de NV worden Staatsblad én nationaal blad regelmatig vergeten bij vennootschappen die historisch enkel met houders op naam werkten.",
+      "vaak_fout": "Aannemen dat 'we hebben ze allemaal persoonlijk verwittigd' volstaat — formele publicatie blijft nodig zolang niet alle effecten op naam zijn.",
+      "grondslag": "WVV art. 7:127, § 1",
+      "confidence": "inferred"
+    },
+    {
+      "advies": "Bewaar bewijs van mededeling (e-mail, verzendlijst) — bij latere betwisting moet de vennootschap kunnen aantonen dat de oproepingstermijn werd gerespecteerd.",
+      "vaak_fout": "Geen verzendbewijs bewaren — een aandeelhouder die zegt 'ik werd niet opgeroepen' kan dan de geldigheid van de AV in twijfel trekken.",
+      "grondslag": "WVV art. 2:32 (mededelingsmodaliteiten)",
+      "confidence": "inferred"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "algemene-vergadering",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "agenderingsrecht-aandeelhouder",
+      "target_status": "pending"
+    }
+  ],
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.III",
+    "3.0.III.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T12:34:12Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.III",
+    "linked_anchors": [
+      "3.0.III",
+      "3.0.III.A"
+    ],
+    "reviewed_by": null
+  }
+}

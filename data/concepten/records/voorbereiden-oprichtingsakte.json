@@ -1,0 +1,200 @@
+{
+  "id": "voorbereiden-oprichtingsakte",
+  "naam": "Voorbereiden van de oprichtingsakte en statuten",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Voorbereiden van de oprichtingsakte en statuten",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.1"
+    ],
+    "kenniselementen": [
+      "3.0.I",
+      "3.0.II"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.1",
+    "3.0.I",
+    "3.0.II"
+  ],
+  "gebaseerd_op_concepten": [
+    "besloten-vennootschap-bv",
+    "naamloze-vennootschap-nv",
+    "cooperatieve-vennootschap-cv",
+    "bestuursmodel-vennootschap",
+    "aandeelhoudersovereenkomst",
+    "oprichtersaansprakelijkheid"
+  ],
+  "situering": {
+    "text": "Operationele competentie: vóór het notarispassagewerk de inhoud van de oprichtingsakte voorbereiden — statuten redigeren of reviewen, verplichte wettelijke vermeldingen (art. 2:8 + boek-specifieke artikelen 5:11-5:12 BV, 7:13-7:14 NV) invullen, en de oprichters klaarmaken voor de authentieke akte.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV art. 2:8, 5:11-5:12, 7:13-7:14"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 75,
+    "praktijk_pct": 25,
+    "motivering": "Verplichte vermeldingen zijn dwingend door WVV. Statuten-clausules (overdrachtsbeperking, voorkooprecht, soort aandelen) zijn deels keuze-architectuur — vakdoctrine."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Vastleggen van de identificatiegegevens en doel",
+      "wat": "Verzamel en valideer de gegevens die in elke vennootschapsakte verplicht zijn: naam, vennootschapsvorm, zetel, doel, duur, identiteit oprichters.",
+      "waarom": "Onjuiste of onvolledige identificatiegegevens kunnen aanleiding geven tot nietigheid van de vennootschap (art. 5:13 BV, 7:15 NV).",
+      "input": [
+        {
+          "artefact": "Profielnota + advies vennootschapsvormkeuze",
+          "veld": "Gekozen vorm",
+          "type": "tekst-document"
+        },
+        {
+          "artefact": "Identiteitsdocumenten oprichters",
+          "veld": "Naam, adres, rijksregister/KBO-nummer",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Identificatie-sectie statuten",
+          "veld": "Volledig ingevuld",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Naam: check beschikbaarheid op KBO/RPR — voorkom naam-conflict.\n2. Vennootschapsvorm: BV, NV, CV, VOF, CommV — exact zoals geadviseerd in [[adviseren-vennootschapsvormkeuze]].\n3. Zetel: maatschappelijke zetel = effectief operatief adres (anti-misbruik 'lege brievenbus'-firma's via fiscale anti-misbruik regels).\n4. Doel: voldoende specifiek om bedrijvigheid te dekken, voldoende ruim om toekomstige uitbreiding niet te blokkeren. Een te eng doel kan rechtshandelingen ultra vires maken.\n5. Duur: meestal onbepaald, tenzij specifieke einddatum.\n6. Oprichters: alle natuurlijke personen of rechtspersonen die de akte ondertekenen en aandelen onderschrijven.",
+      "grondslag": "WVV art. 2:8 §2, 5:12, 7:14"
+    },
+    {
+      "nr": 2,
+      "titel": "Bepalen van de aandelenstructuur en kapitaal-/aanvangsvermogen",
+      "wat": "Vastleggen: aantal aandelen, soorten aandelen (gewone, preferente, met meervoudig stemrecht), pari-waarde of geen pari-waarde, onderschrijving per oprichter, kapitaal (NV) of aanvangsvermogen (BV/CV).",
+      "waarom": "De aandelenstructuur bepaalt blijvend de governance, stemverhoudingen, dividend-rechten en exit-mogelijkheden. Eens vastgelegd is wijziging een statuten-wijziging via algemene vergadering.",
+      "input": [
+        {
+          "artefact": "Inbrengmapping (uit [[begeleiden-inbreng-bij-oprichting]] stap 1)",
+          "veld": "Per oprichter: bedrag + type",
+          "type": "tabel"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Aandelen-sectie statuten",
+          "veld": "Aantal + soorten + onderschrijving + storting",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Bepaal aantal aandelen: arbitrair (kies hapklaar getal voor latere overdracht — bv. 1000 aandelen) of historisch (10 of 100).\n2. Bepaal soorten: bij BV mag flexibel (verschillende soorten met verschillende rechten); bij NV idem maar formeler.\n3. Beslis over meervoudig stemrecht (BV mag, NV mag mits in statuten en niet > 2x voor genoteerde NV).\n4. Bepaal of er een minimum-volstorting is — bij NV minimum-kapitaal € 61.500 volstort; bij BV geen minimum maar volstorting volgt het financieel plan.\n5. Toets met financieel plan (zie [[financieel-plan-oprichting]]) — aanvangsvermogen moet plan-onderbouwd zijn.",
+      "grondslag": "WVV art. 5:3, 5:8 (BV), 7:2, 7:11 (NV)"
+    },
+    {
+      "nr": 3,
+      "titel": "Bepalen bestuursmodel en bevoegdheden",
+      "wat": "Kies + redigeer het bestuursmodel: bij BV één of meerdere bestuurders (collegiaal of niet); bij NV monistisch (raad van bestuur), duaal (directieraad + raad van toezicht) of enige bestuurder.",
+      "waarom": "Het bestuursmodel ligt vast in de statuten en kan alleen door statuten-wijziging veranderen. Een verkeerde keuze bij oprichting werkt jaren door.",
+      "input": [
+        {
+          "artefact": "Profielnota cliënt",
+          "veld": "Verwachte governance",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Bestuurs-sectie statuten",
+          "veld": "Model + benoemingsprocedure + bevoegdheden",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Bestuursmodel kiezen — zie [[bestuursmodel-vennootschap]] voor de drie NV-modellen + BV-flexibiliteit.\n2. Bij BV: één bestuurder als solo-onderneming, meerdere bestuurders met collegiaal bestuur bij familie- of partnership.\n3. Bij NV: monistisch (raad van bestuur ≥ 3) standaard; duaal alleen voor grote structuren.\n4. Benoemingsprocedure: door algemene vergadering, voor bepaalde of onbepaalde duur (bij BV) of voor maximaal 6 jaar herbenoembaar (bij NV).\n5. Bevoegdheden bestuursorgaan: ruim (alle handelingen niet voorbehouden aan AV); zie [[bevoegdheid-bestuursorgaan]].\n6. Eventueel dagelijks bestuur delegeren — verplicht statutair voorzien indien gewenst.",
+      "grondslag": "[[bestuursmodel-vennootschap]], [[bestuursorgaan]]; WVV art. 5:70 (BV), 7:85, 7:104 (NV)"
+    },
+    {
+      "nr": 4,
+      "titel": "Opnemen optionele beschermingsclausules en aandeelhoudersovereenkomst-link",
+      "wat": "Op basis van cliëntsituatie: overdrachtsbeperking op aandelen, voorkooprecht, drag-along/tag-along, exit-clausule. Wat in de statuten of in een aparte aandeelhoudersovereenkomst.",
+      "waarom": "Statutaire clausules werken tegen derden (erga omnes) maar zijn rigide; aandeelhoudersovereenkomsten zijn flexibel maar enkel inter partes — een goed advies splitst de twee.",
+      "input": [
+        {
+          "artefact": "Cliëntwens governance + exit",
+          "veld": "Wensen overdracht + bescherming",
+          "type": "vrije-tekst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Optionele clausules in statuten + draft aandeelhoudersovereenkomst",
+          "veld": "Clausules of verwijzing",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Goedkeurings- of voorkoopclausule op overdracht aandelen — typisch standaard in BV. Bij NV optioneel.\n2. Drag-along (een meerderheidsaandeelhouder kan minderheden meeslepen bij verkoop) en tag-along (minderheid kan meeverkopen onder dezelfde voorwaarden) — typisch in aandeelhoudersovereenkomst, niet in statuten.\n3. Soort aandelen met blocking-power voor cruciale beslissingen — soms via meervoudig stemrecht of golden-share.\n4. Zie [[aandeelhoudersovereenkomst]] voor de inhoudelijke verschillen statuten vs overeenkomst.",
+      "grondslag": "[[aandeelhoudersovereenkomst]]; WVV art. 5:63 (overdracht BV), 7:78 (overdracht NV)"
+    },
+    {
+      "nr": 5,
+      "titel": "Verifiëren verplichte vermeldingen + finaliseren akteontwerp",
+      "wat": "Loop de wettelijke checklist van verplichte vermeldingen na (art. 2:8 §2 + boek-specifieke artikelen) en bezorg het ontwerp aan de notaris voor finale akte-opmaak.",
+      "waarom": "Het ontbreken of onjuist zijn van verplichte vermeldingen is een grond voor hoofdelijke oprichtersaansprakelijkheid (art. 5:16 1° / 7:18 1°) — checklist moet sluitend zijn.",
+      "input": [
+        {
+          "artefact": "Concept-statuten + identificatie + aandelenstructuur + bestuurs-sectie",
+          "veld": "Volledig ontwerp",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Definitief akteontwerp aan notaris",
+          "veld": "Met alle verplichte vermeldingen",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Loop checklist art. 2:8 §2 af: naam, zetel, doel, oprichters, kapitaal/aanvangsvermogen, bestuursorgaan, vertegenwoordigingsbevoegdheid, eerste boekjaar, einde boekjaar, ...\n2. Loop boek-specifieke checklist af: BV art. 5:11-5:12, NV art. 7:13-7:14, CV art. 6:14-6:15.\n3. Verifieer: alle inbrengen in natura beschreven met naam inbrenger + aantal aandelen + revisor-conclusie?\n4. Verifieer: alle voordelen of bedingen ten gunste van oprichters/derden vermeld? Geen geheime bijzondere voordelen — die activeren extra aansprakelijkheid.\n5. Bezorg het ontwerp aan de notaris minstens 5 werkdagen vóór de akte-datum.",
+      "valkuilen": [
+        {
+          "advies": "Ontbrekende of onjuiste vermeldingen werken aansprakelijkheid voor de oprichters in de hand, zelfs als de fout administratief en niet kwaadwillig is.",
+          "vaak_fout": "'Klein detail' weglaten of overschrijven van vorige akte zonder herziening — dit gebeurt vaak bij 'snelle' oprichtingen.",
+          "grondslag": "WVV art. 5:16 1°, 7:18 1°"
+        }
+      ],
+      "grondslag": "[[oprichtersaansprakelijkheid]]; WVV art. 2:8 §2, 5:11-5:12, 7:13-7:14"
+    }
+  ],
+  "in_praktijk": [
+    "Werk altijd met een statuten-template als startpunt maar review elke clausule voor de specifieke situatie — copy-paste-oprichtingen veroorzaken later veel governance-problemen.",
+    "Voor BV's: maak de statuten zo soepel mogelijk (BV is bewust flexibel ontworpen onder WVV 2019); zet de specifieke wensen in een aandeelhoudersovereenkomst.",
+    "De notaris is verantwoordelijk voor de authentieke akte-vorm; jij voor de inhoudelijke vermeldingen en cliënt-advies. Lijn duidelijk afbakenen in opdrachtbevestiging."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Oprichtingen Oostende BV: Pieter Vermeulen alleen oprichter, € 25.000 cash + bestelwagen € 17.500 inbreng, hij wil zelf bestuurder zijn en mogelijk later dochter Pieter Jr. laten instappen.",
+      "conclusie": "Sofie Janssens redigeert statuten met: 1 bestuurder voor onbepaalde duur (Pieter zelf), 425 aandelen (1 aandeel per € 100 inbreng — 250 in geld + 175 in natura), statutaire overdrachtsbeperking 'voorafgaande goedkeuring bestuursorgaan vereist', en voorziet een latere aandeelhoudersovereenkomst voor wanneer Pieter Jr. aandeel verwerft (drag-along + uitkooprechten).",
+      "grondslag": "[[besloten-vennootschap-bv]], [[aandeelhoudersovereenkomst]]"
+    }
+  ],
+  "beoordelings_criteria": [
+    "Alle verplichte vermeldingen art. 2:8 §2 + boek-specifiek aanwezig",
+    "Inbrengen in natura volledig beschreven met revisor-conclusie",
+    "Statuten reflecteren de cliëntwens i.p.v. een template",
+    "Akteontwerp aan notaris ≥ 5 werkdagen vóór akte-datum"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.1-batch2-20260520T111205Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.1",
+    "linked_anchors": [
+      "3.0.taak.1",
+      "3.0.I",
+      "3.0.II"
+    ],
+    "voorgesteld_op": "2026-05-20T11:12:05.736722Z",
+    "reviewed_by": null
+  }
+}

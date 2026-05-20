@@ -1,0 +1,152 @@
+{
+  "id": "voorwaarden-faillietverklaring",
+  "naam": "Voorwaarden voor faillietverklaring",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.X"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:44:47Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.X",
+    "linked_anchors": [
+      "3.0.X"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": "Een onderneming kan failliet worden verklaard wanneer zij **op duurzame wijze heeft opgehouden te betalen** én haar **krediet geschokt is**. Beide voorwaarden moeten cumulatief vervuld zijn. De faillietverklaring kan worden uitgesproken op aangifte van de schuldenaar zelf, op dagvaarding van één of meer schuldeisers, van het openbaar ministerie, van de voorlopige bewindvoerder, of van de curator van een hoofdprocedure in een territoriale insolventieprocedure.",
+  "situering": {
+    "text": "Het tweelobbige criterium voorkomt dat een tijdelijk liquiditeitsprobleem of een betwiste schuld al tot faillissement leidt. Het beschermt de schuldenaar tegen voortijdig collectief afwikkelen en de schuldeisers tegen vertraging wanneer redding niet meer realistisch is. De insolventierechtbank toetst beide voorwaarden bij het vonnis van faillietverklaring (art. XX.100).",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_132",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XX_133",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "text": "**Duurzame staking van betaling**: niet één onbetaalde factuur of een tijdelijk kasprobleem, maar een **structureel** onvermogen om opeisbare schulden te voldoen. Wordt afgeleid uit een patroon van achterstanden (RSZ, btw, leveranciers) of uit een ontoereikende cashflow over verschillende perioden.",
+      "grondslag": "WER art. XX.99 (in samenhang met XX.100)",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_133",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_132",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Geschokt krediet**: de schuldeisers verlenen geen verdere termijnen, krediet of leveringen meer. Dit is een **objectief** kenmerk dat ook blijkt uit weigeringen van banken om kredietlijnen te verlengen of leveranciers die contante betaling eisen.",
+      "grondslag": "WER art. XX.99 (in samenhang met XX.100)",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_132",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Brede ondernemingsdefinitie**: faillissement geldt voor élke onderneming in de zin van art. I.1 WER — vennootschappen, vzw's, stichtingen, maatschappen én natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen. Dit is breder dan de oude koopman-definitie.",
+      "grondslag": "WER art. I.1, 1°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "uitzonderingen": [
+    {
+      "text": "Tijdens een lopende **opschorting** (gerechtelijke reorganisatie) kan de schuldenaar niet failliet worden verklaard, behoudens op zijn eigen aangifte (art. XX.50).",
+      "grondslag": "WER art. XX.50",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_50",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "De insolventierechtbank kan haar beslissing **15 dagen opschorten** om de schuldenaar toe te laten gerechtelijke reorganisatie of een overdracht aan te vragen, of om een derde een overdrachtsvoorstel te laten formuleren.",
+      "grondslag": "WER art. XX.101",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_134",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Voor een **vennootschap** die zich in staat van faillissement bevindt, kan de rechtbank beslissen het faillissement niet uit te spreken maar de **gerechtelijke ontbinding** uit te spreken (art. 2:74/1 WVV). Aanvragers van de faillissementsvordering kunnen dit in dezelfde akte vorderen.",
+      "grondslag": "WVV art. 2:74/1, WER art. XX.100",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_2_62",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_133",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Beide voorwaarden moeten **samen** vervuld zijn. Eén alleen volstaat niet.",
+      "vaak_fout": "Dagvaarden in faillissement op basis van één grote onbetaalde factuur — de rechtbank vraagt bewijs van duurzame staking én geschokt krediet."
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "faillissement"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "insolventieprocedures-belgie"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "bijzondere-mandaten-accountant",
+  "naam": "Bijzondere wettelijke mandaten van de gecertificeerd accountant in vennootschappen zonder commissaris",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "titel": "Bijzondere mandaten — overzicht",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.3"
+    ],
+    "kenniselementen": []
+  },
+  "linked_anchors": [
+    "3.0.taak.3"
+  ],
+  "gebaseerd_op_concepten": [],
+  "situering": {
+    "text": "In vennootschappen zonder benoemde commissaris (typisch kleine BV, NV of CV) voorziet het WVV bij specifieke vennootschapsrechtelijke verrichtingen — kapitaalverhoging met uitsluiting voorkeurrecht, inbreng in natura, quasi-inbreng, fusie, splitsing, omzetting, ontbinding/vereffening, grensoverschrijdende operaties — in een extern verslag of beoordeling door een bedrijfsrevisor of gecertificeerd accountant. Deze opdrachten zijn 'monopolieopdrachten' (KB 1 maart 1998): wettelijk voorbehouden, gestandaardiseerd, en onderworpen aan strikte onafhankelijkheid. Samen vormen ze het takenpakket dat in art. 3.0.taak.3 wordt aangeduid als 'bijzondere mandaten in vennootschappen zonder commissaris'.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV Boek 2/5/6/7/12/14 + KB 1 maart 1998"
+    }
+  },
+  "samenvatting": "Overkoepelend overzicht van de wettelijke bijzondere verslag- en beoordelingsopdrachten die een gecertificeerd accountant uitvoert in vennootschappen waar geen commissaris is aangesteld.",
+  "kern_inhoud": {
+    "categorieen": [
+      {
+        "categorie": "Kapitaal- en uitgifteverrichtingen",
+        "mandaten": [
+          "Verslag bij inbreng in natura (art. 5:7, 5:133, 6:8, 7:7 WVV) — zie [[inbreng-in-natura-verslag]]",
+          "Verslag bij quasi-inbreng (art. 5:8, 7:8 WVV) — zie [[quasi-inbreng-verslag]]",
+          "Beoordelingsverslag bij uitgifte aandelen, converteerbare obligaties of inschrijvingsrechten met uitsluiting/beperking voorkeurrecht (art. 5:121, 7:179 WVV) — zie [[opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht]]"
+        ]
+      },
+      {
+        "categorie": "Herstructurering",
+        "mandaten": [
+          "Verslag bij fusie (art. 12:25, 12:62, 12:114 WVV)",
+          "Verslag bij splitsing (art. 12:62, 12:78, 12:135 WVV) — beide zie [[opstellen-verslag-fusie-splitsing-ruilverhouding]]",
+          "Verslag bij grensoverschrijdende fusie/splitsing/omzetting (art. 12:114, 14:21 WVV)"
+        ]
+      },
+      {
+        "categorie": "Omzetting",
+        "mandaten": [
+          "Verslag over staat van activa/passiva bij omzetting (Boek 14 WVV) — zie [[opstellen-verslag-omzetting-vennootschap]]"
+        ]
+      },
+      {
+        "categorie": "Ontbinding en vereffening",
+        "mandaten": [
+          "Verslag over staat van activa/passiva bij vrijwillige ontbinding (art. 2:71 WVV)",
+          "Verslag bij ontbinding-en-sluiting-in-één-akte (art. 2:80, lid 1, 2° WVV) — beide zie [[opstellen-verslag-ontbinding-vereffening-staat]]"
+        ]
+      },
+      {
+        "categorie": "Andere ad-hocopdrachten",
+        "mandaten": [
+          "Bijstand aandeelhouders bij individuele onderzoeks- en controlebevoegdheid (art. 2:100, art. 3:101 WVV)",
+          "Verslag bij overdracht algemeenheid of bedrijfstak (Boek 12 WVV)",
+          "Aansprakelijkheidsverslag in concordaatsachtige procedures (Boek XX WER, indirect)"
+        ]
+      }
+    ],
+    "rolverdeling": [
+      "Indien commissaris benoemd → commissaris doet het verslag (geen taak voor de gecertificeerd accountant in zijn taak.3-rol).",
+      "Indien geen commissaris benoemd → bestuursorgaan (of soms de algemene vergadering) wijst een bedrijfsrevisor OF gecertificeerd accountant aan.",
+      "Bij een vennootschap onder firma of commanditaire vennootschap zonder commissaris kan de aanwijzing door de algemene vergadering gebeuren (art. 12:114, 14:21 WVV)."
+    ],
+    "wat_doet_de_mandataris_NIET": [
+      "Geen klassieke jaarrekening-audit (dat is commissarisopdracht of een aparte opdracht — niet onder taak.3).",
+      "Geen advies over de wenselijkheid van de verrichting (dat is taak.2 — adviseren en begeleiden, zie [[opstellen-overname-verslaggeving-accountant]]).",
+      "Geen waardering opmaken in plaats van het bestuur — de mandataris beoordeelt enkel de bestuurs-waardering."
+    ]
+  },
+  "in_praktijk": [
+    "Voor één enkele verrichting kunnen meerdere bijzondere verslagen tegelijk vereist zijn (bv. fusie waarbij een nieuwe vennootschap wordt opgericht met inbreng in natura = fusieverslag + inbreng-in-natura-verslag).",
+    "De keuze 'bedrijfsrevisor of gecertificeerd accountant' is door de wet open gelaten — in de praktijk neemt de bedrijfsrevisor vaak de grote dossiers, de gecertificeerd accountant vooral KMO-dossiers.",
+    "Niet-aanstelling van een mandataris waar de wet die vereist, maakt de verrichting aantastbaar door derden en kan bestuurdersaansprakelijkheid (zie [[bestuurdersaansprakelijkheid]]) opwekken."
+  ],
+  "valkuilen": [
+    {
+      "vaak_fout": "Mandaat aanvaarden zonder eerst te checken of er al een commissaris is — leidt tot dubbele verslagen of een nietig verslag.",
+      "advies": "Vraag altijd een uittreksel uit het aandeelhoudersregister + KBO-uittreksel vóór aanvaarding."
+    },
+    {
+      "vaak_fout": "Adviesopdracht en bijzonder mandaat tegelijk uitvoeren voor dezelfde verrichting.",
+      "advies": "Pas onafhankelijkheidsregels strikt toe — zie [[onafhankelijkheid-bijzondere-mandataris]]. Wie heeft geadviseerd, doet het verslag niet."
+    }
+  ],
+  "edges": [
+    {
+      "type": "samenstellend-deel",
+      "target": "inbreng-in-natura-verslag"
+    },
+    {
+      "type": "samenstellend-deel",
+      "target": "quasi-inbreng-verslag"
+    },
+    {
+      "type": "samenstellend-deel",
+      "target": "opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht"
+    },
+    {
+      "type": "samenstellend-deel",
+      "target": "opstellen-verslag-omzetting-vennootschap"
+    },
+    {
+      "type": "samenstellend-deel",
+      "target": "opstellen-verslag-ontbinding-vereffening-staat"
+    },
+    {
+      "type": "samenstellend-deel",
+      "target": "opstellen-verslag-fusie-splitsing-ruilverhouding"
+    },
+    {
+      "type": "verwant-aan",
+      "target": "opstellen-overname-verslaggeving-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-bijzondere-mandataris"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.3-batch1-20260520T114501Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.3",
+    "linked_anchors": [
+      "3.0.taak.3"
+    ],
+    "voorgesteld_op": "2026-05-20T11:45:01.560313+00:00",
+    "reviewed_by": null
+  }
+}

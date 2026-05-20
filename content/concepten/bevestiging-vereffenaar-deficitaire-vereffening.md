@@ -1,0 +1,131 @@
+---
+title: Bevestiging van de vereffenaar bij deficitaire vereffening
+tags:
+- concept
+- regel
+- po-3-0
+linked_anchors:
+- 3.0.IX
+- 3.0.IX.A
+- 3.0.IX.B
+programmaonderdelen:
+- '3.0'
+confidence: grounded
+node_type: regel
+status: seed
+schema_version: '1.6'
+gegenereerd_uit: data/concepten/records/bevestiging-vereffenaar-deficitaire-vereffening.json
+gegenereerd_op: '2026-05-20'
+---
+# Bevestiging van de vereffenaar bij deficitaire vereffening ⚖️
+
+De bevestiging is een **rechterlijke filter** tussen het AV-besluit en de rechtsgeldige aanvang van het vereffenaarsmandaat: bij een deficitaire vennootschap wil de wetgever beletten dat aandeelhouders zelf een vereffenaar kiezen die de belangen van de externe schuldeisers zou kunnen verwaarlozen. Voor de **stagiair-GA** is dit het scharnier waar de **gewone vrijwillige ontbinding** kantelt naar een **gerechtelijk gecontroleerde** afwikkeling — zonder dat het noodzakelijk om een gerechtelijke ontbinding gaat. De accountant moet de bevestigingsplicht zelf herkennen op basis van de staat van activa en passiva: verschijnt daar een **tekort tegenover derden-schuldeisers**, dan kan de AV de vereffenaar wel benoemen, maar pas na **eenzijdig verzoekschrift** aan de voorzitter krijgt die vereffenaar volle rechtskracht.
+
+> [!summary] Korte inhoud
+> **Bevestiging van de vereffenaar** is de tussenkomst van de **voorzitter van de ondernemingsrechtbank** die vereist is wanneer uit de staat van activa en passiva blijkt dat **niet alle schuldeisers volledig kunnen worden terugbetaald** (deficitaire vereffening).
+
+**Bevestiging van de vereffenaar** is de tussenkomst van de **voorzitter van de ondernemingsrechtbank** die vereist is wanneer uit de staat van activa en passiva blijkt dat **niet alle schuldeisers volledig kunnen worden terugbetaald** (deficitaire vereffening). In dat geval kan de door de AV (of door de statuten) benoemde vereffenaar **pas geldig optreden nadat de voorzitter zijn benoeming heeft bevestigd** (art. 2:84 WVV, oude nummering art. 2:79). De bevestiging volgt pas wanneer de voorzitter heeft vastgesteld dat de vereffenaar **alle waarborgen van competentie en integriteit** biedt. Een afzonderlijke **homologatie** is bovendien vereist voor kandidaten met fiscale of strafrechtelijke antecedenten of een niet-gerehabiliteerd faillissement.
+
+_Bron: WVV art. 2:84_
+
+
+## Bouwstenen
+
+### Wanneer is bevestiging vereist? ⚖️
+
+Bevestiging is verplicht **enkel bij een deficitaire vereffening**: wanneer uit de staat van activa en passiva (art. 2:71, § 2, tweede lid WVV) blijkt dat niet alle schuldeisers volledig kunnen worden terugbetaald. Bij een vereffening waarin alle externe schulden gedekt zijn, is bevestiging **niet** vereist.
+
+**Waarom?** De wetgever beoogt rechterlijke controle precies daar waar **derden-schuldeisers** risico lopen — niet bij overschot-vereffeningen waar enkel aandeelhouders een verdeling onder mekaar afwikkelen.
+
+
+
+
+_Grondslag: WVV art. 2:84, eerste lid_
+
+### Uitzondering: enkel schulden aan aandeelhouders met akkoord ⚖️
+
+Bevestiging is **niet vereist** indien uit de staat van activa en passiva blijkt dat de vennootschap **enkel schulden heeft ten aanzien van haar aandeelhouders** en alle aandeelhouders-schuldeisers schriftelijk bevestigen akkoord te gaan met de benoeming.
+
+**Waarom?** Wanneer alle 'derden' samenvallen met de aandeelhouders zelf en die uitdrukkelijk instemmen, is er geen externe partij meer die beschermd moet worden — de rechterlijke filter wordt overbodig.
+
+
+
+
+_Grondslag: WVV art. 2:84, tweede zin_
+
+### Toetsing door de voorzitter: competentie en integriteit ⚖️
+
+De voorzitter bevestigt pas nadat hij heeft vastgesteld dat de vereffenaar **alle waarborgen van competentie en integriteit** biedt. Hij oordeelt ook over **handelingen die de vereffenaar reeds heeft gesteld** tussen zijn benoeming door de AV en de bevestiging — handelingen die kennelijk strijdig zijn met rechten van derden kan hij nietig verklaren.
+
+**Waarom?** Wettelijke verankering dat het mandaat tussen AV-benoeming en bevestiging **precair** is: tussen-handelingen krijgen pas vaste juridische status na de rechterlijke ratificatie.
+
+
+
+
+_Grondslag: WVV art. 2:84, vierde en vijfde lid_
+
+### Homologatie: striktere variant voor gediskwalificeerden ⚖️
+
+**Homologatie** (i.p.v. bevestiging) is vereist wanneer de kandidaat-vereffenaar onder een wettelijk verbod valt: failliet zonder rehabilitatie, veroordeling voor de strafbare feiten in KB nr. 22 van 24 oktober 1934 (faillissementsmisdrijven, inbreuken Boek III titel 3 WER, fiscale inbreuken). De voorzitter kan de homologatie verlenen of weigeren.
+
+**Waarom?** Homologatie is striktere dan gewone bevestiging — ze tilt het wettelijk verbod expliciet op. Bij weigering wijst de voorzitter een **alternatieve kandidaat** of, bij gebrek aan kandidaat, **zelf** een vereffenaar aan.
+
+
+
+
+_Grondslag: WVV art. 2:84, zesde en zevende lid_
+
+### Procedure: eenzijdig verzoekschrift ⚖️
+
+De voorzitter van de bevoegde rechtbank wordt aangezocht **bij eenzijdig verzoekschrift** (art. 1025 e.v. Ger.W.). Bevoegd is de rechtbank van het arrondissement waar de vennootschap haar zetel heeft op de datum van het ontbindingsbesluit — met een anti-misbruik-regel als de zetel binnen de **zes maanden** voor het besluit werd verplaatst. De akte van benoeming kan pas worden neergelegd en bekendgemaakt (art. 2:8 + 2:14 WVV) **mits bijvoeging van de uitspraak van de voorzitter**; de termijn van 30 dagen voor neerlegging begint pas te lopen vanaf de uitspraak.
+
+**Waarom?** De wetgever sluit de bekendmakingsketen vast op de rechterlijke uitspraak: zonder bevestiging/homologatie kan de vereffenaar niet tegenwerpbaar in het vennootschapsdossier worden ingeschreven.
+
+
+
+
+_Grondslag: WVV art. 2:84, voorlaatste lid + MvT art. 2:84, § 3_
+
+
+## In de praktijk
+
+<h3 id="hoe-herken-je-de-bevestigingsplicht">Hoe herken je de bevestigingsplicht?</h3>
+
+> [!tip]- Hoe herken je de bevestigingsplicht?
+> Lees de staat van activa en passiva (3 maanden vóór de AV). Tel de passiva-zijde op buiten de schulden aan aandeelhouders. Vergelijk met de activa aan **discontinuïteitswaarde**. Is het verschil negatief? Dan is de vereffening deficitair en moet de vereffenaar bevestigd worden. Tip: vraag ook het verslag van het bestuursorgaan op (art. 2:71, § 2) — daar wordt het deficiet vaak expliciet besproken. 🤖
+
+<h3 id="wat-doe-je-als-accountant-tussen-av-besluit-en-bevestiging">Wat doe je als accountant tussen AV-besluit en bevestiging?</h3>
+
+> [!tip]- Wat doe je als accountant tussen AV-besluit en bevestiging?
+> Vraag de vereffenaar om zich te beperken tot **bewarende handelingen** (boekhouding voortzetten, inventaris opmaken, lopende verbintenissen honoreren). Vermijd verkopen van activa of betalingen aan aandeelhouders — die kunnen door de voorzitter **nietig** worden verklaard als kennelijk in strijd met de rechten van derden. 🤖
+
+
+## Valkuilen
+
+> [!warning]- **Bevestiging ≠ homologatie.** Bevestiging is de **gewone** controle bij deficitaire vereffening (alle kandidaten)
+> ⚠️ **Bevestiging ≠ homologatie.** Bevestiging is de **gewone** controle bij deficitaire vereffening (alle kandidaten). Homologatie is een **bijzondere** uitzondering op een wettelijk benoemingsverbod (failliet zonder rehabilitatie, strafrechtelijke of fiscale veroordelingen). Een kandidaat die zowel deficitair vereffent én onder het verbod valt, heeft **beide** nodig. ⚖️
+>
+> _Bron: WVV art. 2:84, vijfde en zesde lid_
+
+
+> [!warning]- **Hervorming op komst.** De MvT (art. 1:27, § 3) kondigt aan dat de verplichte interventie van de voorzitter zal worden **beperkt tot defici…
+> ⚠️ **Hervorming op komst.** De MvT (art. 1:27, § 3) kondigt aan dat de verplichte interventie van de voorzitter zal worden **beperkt tot deficitaire vereffeningen** — wat suggereert dat de huidige bredere bevestigingsplicht (o.a. art. 2:79 oud KB) historisch was en met de WVV-codificatie reeds is ingeperkt. Verifieer bij elk dossier de geldende versie van art. 2:84. ⚖️
+>
+> _Bron: MvT WVV art. 1:27, § 3_
+
+
+
+## Zie ook
+
+- **Vereist kennis van**: [[staat-van-activa-en-passiva-ontbinding]]
+- **Vereist kennis van**: [[vereffenaarsaansprakelijkheid]]
+
+## Voorbeelden
+
+Bouwbedrijf Boom BV ontbindt op 30 juni 20N1. De staat van activa en passiva toont activa van 480 k€ en passiva van 620 k€ (waarvan 380 k€ leveranciers + bank en 240 k€ rekening-courant aandeelhouder). Vermits er **externe schuldeisers** (380 k€) niet volledig kunnen worden terugbetaald, is de vereffening **deficitair** — de door de AV benoemde vereffenaar moet via eenzijdig verzoekschrift door de voorzitter van de ondernemingsrechtbank Antwerpen worden **bevestigd** vooraleer hij rechtsgeldig kan optreden. _(Bouwbedrijf Boom BV, ondernemingsrechtbank Antwerpen)_
+
+## Bronnen
+
+[^1]: `Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_71`
+[^2]: `MvT-WVV-2018__art_2_145`
+[^3]: `MvT-WVV-2018__art_1_5__sub_par3_part4`

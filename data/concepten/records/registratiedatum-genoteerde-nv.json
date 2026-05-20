@@ -1,0 +1,92 @@
+{
+  "id": "registratiedatum-genoteerde-nv",
+  "naam": "Registratiedatum bij genoteerde NV",
+  "node_type": "begrip",
+  "naam_alternatief": [
+    "record date"
+  ],
+  "situering": {
+    "text": "De registratiedatum bepaalt op welke peildatum de aandeelhouderspositie wordt vastgesteld voor de deelname aan de algemene vergadering van een genoteerde NV. Het WVV koppelt het deelname- en stemrecht los van het feitelijke bezit van de aandelen op de AV-datum: wie op de veertiende dag vóór de AV (24u Belgisch uur) eigenaar was, mag deelnemen en stemmen, ongeacht latere overdracht. Dit mechanisme is technisch noodzakelijk in de wereld van gedematerialiseerde aandelen en day-trading.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 7:134, § 2"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_7_99",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "definitie": {
+    "text": "De registratiedatum is de wettelijke peildatum — de veertiende dag vóór de algemene vergadering om vierentwintig uur Belgisch uur — waarop de hoedanigheid van aandeelhouder van een genoteerde NV wordt vastgesteld voor het uitoefenen van het deelname- en stemrecht. Wie op die datum aandelen op zijn naam heeft staan (in het register of op de effectenrekening) verwerft het deelnamerecht, ook al verkoopt hij die aandelen nadien.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 7:134, § 2"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_7_99",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    "De registratiedatum scheidt het 'recht om te stemmen' van het 'recht om dividend te ontvangen' — bij koop na de registratiedatum maar vóór de AV: geen stemrecht maar wel economisch belang.",
+    "De aandeelhouder moet uiterlijk de zesde dag vóór de AV aan de vennootschap melden dat hij wil deelnemen, hetzij rechtstreeks hetzij via volmacht."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV is genoteerd. AV gepland op 20 mei. Registratiedatum: 6 mei 24u. Wie op die avond aandelen op zijn rekening heeft staan, mag deelnemen. Robert Vandenberghe verkoopt op 8 mei zijn aandelen — toch behoudt hij stemrecht voor de AV van 20 mei.",
+      "cast": [
+        "Aurelia Holding NV",
+        "Robert Vandenberghe"
+      ]
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Vergeet de deelnemingsmelding aan de vennootschap niet (uiterlijk zesde dag vóór de AV) — registratie alleen volstaat niet om toegelaten te worden.",
+      "vaak_fout": "Aannemen dat 'ik sta in het register' automatisch toegang tot de AV geeft.",
+      "grondslag": "WVV art. 7:134, § 2, tweede lid",
+      "confidence": "grounded"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "algemene-vergadering",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "naamloze-vennootschap-nv",
+      "target_status": "resolved"
+    }
+  ],
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.III",
+    "3.0.III.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T12:34:12Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.III",
+    "linked_anchors": [
+      "3.0.III",
+      "3.0.III.A"
+    ],
+    "reviewed_by": null
+  }
+}

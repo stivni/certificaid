@@ -4,16 +4,20 @@ tags:
 - concept
 - autoriteit
 - po-1-3
+- po-3-0
 linked_anchors:
 - 1.3.I.D
+- 3.0.X.B
+- 3.0.X
 programmaonderdelen:
 - '1.3'
+- '3.0'
 confidence: inferred
 node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kamer-ondernemingen-in-moeilijkheden.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-20'
 ---
 # Kamer voor ondernemingen in moeilijkheden 🤖
 
@@ -21,6 +25,8 @@ Bij elke ondernemingsrechtbank is een Kamer voor ondernemingen in moeilijkheden 
 
 > [!summary] Korte inhoud
 > Een gespecialiseerde kamer binnen de ondernemingsrechtbank die proactief onderzoekt of ondernemingen in financiële moeilijkheden verkeren.
+
+> [!info] Behoort tot: [[insolventieprocedures-belgie]]
 
 Een gespecialiseerde kamer binnen de ondernemingsrechtbank die proactief onderzoekt of ondernemingen in financiële moeilijkheden verkeren. Zij krijgt signalen van knipperlichten (achterstand bij RSZ, BTW, niet-neergelegde jaarrekeningen, dagvaardingen) en kan de onderneming uitnodigen voor gesprek.
 
@@ -49,6 +55,11 @@ _Grondslag: Boek XX WER_
 > [!tip]- Signaal voor financiële analyse
 > Een onderneming die opgeroepen werd door de kamer is een rood vlag voor de analist — onafhankelijk van wat de jaarrekening laat zien. Toegankelijke informatie via dossier griffies of openbare bronnen. 🤖
 
+
+## Zie ook
+
+- **Vereist kennis van**: [[vroegtijdige-waarschuwing-insolventie]]
+- **Getriggerd door**: [[vroegtijdige-waarschuwing-insolventie]]
 
 ## Bronnen
 

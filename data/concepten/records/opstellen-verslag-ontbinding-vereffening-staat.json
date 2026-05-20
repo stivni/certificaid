@@ -1,0 +1,237 @@
+{
+  "id": "opstellen-verslag-ontbinding-vereffening-staat",
+  "naam": "Opstellen van het verslag over de staat van activa en passiva bij vrijwillige ontbinding of ontbinding-en-sluiting-in-één-akte",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Verslag staat activa/passiva ontbinding (art. 2:71, 2:80 WVV)",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.3"
+    ],
+    "kenniselementen": [
+      "3.0.IX"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.3",
+    "3.0.IX"
+  ],
+  "gebaseerd_op_concepten": [
+    "staat-van-activa-en-passiva-ontbinding",
+    "ontbinding-vennootschap",
+    "vereffening-in-een-akte",
+    "bijzondere-mandaten-accountant",
+    "onafhankelijkheid-bijzondere-mandataris"
+  ],
+  "situering": {
+    "text": "Bij vrijwillige ontbinding van een BV, CV, NV, SE of SCE eist art. 2:71 WVV een staat van activa en passiva (datum ≤ 3 maanden vóór AV) waarover de commissaris of, bij ontbreken, een bedrijfsrevisor of gecertificeerd accountant verslag uitbrengt. Bij ontbinding-en-sluiting-in-één-akte komt daarbij het bijkomende verslag onder art. 2:80, lid 1, 2° WVV. Het verslag beoordeelt de getrouwheid van de staat en kan voorbehoud formuleren over overwaardering. De aanstellingsbevoegdheid ligt bij het bestuursorgaan (of bij ontstentenis bij de AV).",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV art. 2:71, 2:80 + ITAA-norm-ontbinding-vereffening"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 80,
+    "praktijk_pct": 20,
+    "motivering": "Art. 2:71 en 2:80 WVV definiëren mandaat en verslag-vereisten; uitvoering volgt ITAA-norm-ontbinding-vereffening Bijlage 3."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Procedure kwalificeren: klassiek of in één akte",
+      "wat": "Bepaal of het gaat om klassieke vrijwillige ontbinding (gevolgd door vereffening met benoeming vereffenaar) of om ontbinding-en-sluiting-in-één-akte (art. 2:80 WVV).",
+      "waarom": "De twee procedures vereisen verschillende verslagen + verschillende randvoorwaarden. Ontbinding-in-één-akte heeft strikte cumulatieve voorwaarden (geen passiva, alle schulden voldaan, geen vereffenaar nodig).",
+      "input": [
+        {
+          "artefact": "Ontbindingsvoorstel bestuursorgaan",
+          "veld": "Procedure-keuze + motivering",
+          "type": "wettelijk-document"
+        },
+        {
+          "artefact": "Recente boekhouding + schuldenoverzicht",
+          "veld": "Aanwezigheid en aard schulden",
+          "type": "boekhoudkundig-overzicht"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Kwalificatie-memo",
+          "veld": "Klassiek vs. één-akte + toepasselijke artikelen",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Cross-check met [[klassieke-versus-een-akte-vereffening]] voor de criteria.\n2. Ontbinding-in-één-akte vereist: alle schulden volledig betaald, alle aandeelhouders aanwezig of vertegenwoordigd op AV, unanimiteit, geen activa toe te bedelen na schuldenaflossing (of unanieme akkoord over toebedeling). Indien één voorwaarde ontbreekt → klassieke procedure verplicht.\n3. Verslag-mandaat: art. 2:71 voor klassieke; art. 2:71 + 2:80, lid 1, 2° voor één-akte.\n4. Cross-link [[vereffening-in-een-akte]] en [[vereffeningsprocedure-klassiek]].",
+      "grondslag": "WVV art. 2:71, 2:80; ITAA-norm-ontbinding-vereffening §1"
+    },
+    {
+      "nr": 2,
+      "titel": "Onafhankelijkheid en opdrachtbrief",
+      "wat": "Pas onafhankelijkheidsregels toe en bevestig schriftelijk.",
+      "waarom": "Standaard monopolieopdracht — zie [[onafhankelijkheid-bijzondere-mandataris]]. Extra risico hier: de accountant heeft mogelijks de boekhouding gevoerd of jaarrekeningen opgesteld voor dezelfde vennootschap.",
+      "input": [
+        {
+          "artefact": "Cliëntdossier",
+          "veld": "Eerdere opdrachten",
+          "type": "vrije-tekst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Opdrachtbrief",
+          "veld": "Scope verslag art. 2:71 / 2:80",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. KB 1/3/1998 art. 10-13 doorlopen.\n2. SPECIFIEK voor ontbinding: de boekhouder van de vennootschap kan niet zelf verslag uitbrengen over de staat die hij heeft opgesteld — dat is hetzelfde-werk-controleren. Aanstelling moet bij een externe gecertificeerd accountant of bedrijfsrevisor gebeuren.\n3. Opdrachtbrief vermeldt: verslag art. 2:71 (en eventueel 2:80, lid 1, 2°), staat-datum, leveringstermijn.",
+      "grondslag": "KB 1 maart 1998 art. 10-13; ITAA-norm-ontbinding-vereffening Bijlage 1"
+    },
+    {
+      "nr": 3,
+      "titel": "Beoordelen staat van activa en passiva",
+      "wat": "Onderzoek de staat (datum ≤ 3 maanden) op getrouwheid en op eventuele overwaardering van activa / onderwaardering van passiva.",
+      "waarom": "Bij ontbinding moeten alle schulden voldaan worden vóór toebedeling aan aandeelhouders. Onderwaardering van schulden of overwaardering van activa kan crediteuren benadelen — basis voor [[vereffenaarsaansprakelijkheid]] of [[bestuurdersaansprakelijkheid]] (in geval van één-akte).",
+      "input": [
+        {
+          "artefact": "Staat van activa en passiva",
+          "veld": "≤ 3 maanden, BE-GAAP-conform",
+          "type": "boekhoudkundig-overzicht"
+        },
+        {
+          "artefact": "Schuldenoverzicht + vorderingsstaat",
+          "veld": "Alle openstaande verplichtingen",
+          "type": "boekhoudkundig-overzicht"
+        },
+        {
+          "artefact": "Onderliggende grootboeken + correspondentie",
+          "veld": "Materiële posten",
+          "type": "boekhoudkundig-overzicht"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkdocument beoordeling",
+          "veld": "Procedures + bevindingen + waarderings-oordeel",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Verifieer dat de staat-datum ≤ 3 maanden vóór de AV-datum ligt.\n2. Toets de waardering: bij ontbinding is de going-concern-assumptie vervangen door 'going-out-of-business' — voorraden tegen realiseerbare waarde, vaste activa tegen verkoopwaarde, niet meer tegen historische kostprijs minus afschrijvingen.\n3. Identificeer onderschatte verplichtingen: latente fiscale schulden (zie [[ontbinding-vennootschap]] §fiscaal), opzeggingsvergoedingen personeel, lopende processen, milieu-verplichtingen.\n4. Specifiek bij ontbinding-in-één-akte: VERIFIEER dat alle schulden effectief voldaan zijn (geen beweerde 'we zullen nog betalen') — vraag bewijzen van betaling of kwijtschrift van crediteuren.\n5. Cross-link [[staat-van-activa-en-passiva-ontbinding]] voor inhoudelijke vereisten.\n6. Bij twijfel over solvabiliteit: signaleer aan bestuur dat klassieke procedure (met vereffenaar) noodzakelijk kan zijn.",
+      "valkuilen": [
+        {
+          "advies": "Bij ontbinding-in-één-akte: zonder bewijs van werkelijke betaling van alle schulden is voorwaarde art. 2:80 niet voldaan — de procedure moet klassiek.",
+          "vaak_fout": "Bestuur zegt 'alle schulden zijn voldaan' op basis van eigen bewering — accountant accepteert zonder schriftelijke bevestigingen."
+        },
+        {
+          "advies": "Pas waarderingsmethode aan: bij ontbinding-context geen historische-kostprijs maar realiseerbare/verkoopwaarde.",
+          "vaak_fout": "Boekwaarden ongewijzigd overnemen alsof going-concern → activa worden mogelijk overgewaardeerd."
+        }
+      ],
+      "grondslag": "WVV art. 2:71, 2:80; ITAA-norm-ontbinding-vereffening §3; CBN-advies 2022/04"
+    },
+    {
+      "nr": 4,
+      "titel": "Opstellen verslag conform Bijlage 3 ITAA-norm",
+      "wat": "Schrijf het verslag volgens het ITAA-modelverslag Bijlage 3 — apart model voor klassieke ontbinding (art. 2:71) en voor één-akte (art. 2:71 + 2:80).",
+      "waarom": "Notariële akte verwijst naar dit verslag; afwijking van het modelverslag verzwakt rechtszekerheid.",
+      "input": [
+        {
+          "artefact": "Werkdocument beoordeling (stap 3)",
+          "veld": "Bevindingen",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Verslag art. 2:71 (+ eventueel 2:80, lid 1, 2°)",
+          "veld": "Gericht aan AV",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Verplichte rubrieken: identificatie vennootschap; hoedanigheid mandataris + datum aanstelling; verwijzing art. 2:71 (+ 2:80 indien één-akte); beschreven staat; toegepaste procedures (beoordelings-niveau, niet audit); beperkingen; oordeel over getrouwheid + overwaardering/onderwaardering; melding andere prestaties (art. 12 KB).\n2. Bij één-akte: bevestig expliciet dat 'alle schulden zijn voldaan' verifieerbaar is op basis van de overgelegde documenten — of formuleer voorbehoud.\n3. Datum + handtekening + ITAA-stempel.",
+      "grondslag": "ITAA-norm-ontbinding-vereffening Bijlage 3"
+    },
+    {
+      "nr": 5,
+      "titel": "Neerleggen en archiveren",
+      "wat": "Bezorg het verslag aan bestuursorgaan/notaris en bewaar werkdossier.",
+      "waarom": "Verslag wordt bij de notariële akte gevoegd; bij ontbinding-in-één-akte is het sluitstuk in de geldigheid van de procedure.",
+      "input": [
+        {
+          "artefact": "Verslag ondertekend",
+          "veld": "Origineel",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Bezorgd + gearchiveerd verslag",
+          "veld": "Notaris + ITAA-archief",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Bezorg ten laatste 15 kalenderdagen vóór AV.\n2. Notaris voegt bij ontbindingsakte.\n3. Bewaar werkdossier 5 jaar (10 jaar aanbevolen bij één-akte gezien restrisico crediteurenclaim).",
+      "grondslag": "WVV art. 2:71, 2:80; ITAA-norm dossier-bewaring"
+    }
+  ],
+  "in_praktijk": [
+    "Ontbinding-en-sluiting-in-één-akte (art. 2:80) is in de praktijk populair voor kleine vennootschappen zonder schulden — sneller en goedkoper dan klassieke procedure.",
+    "De accountant heeft hier een belangrijke poortwachtersrol: hij verifieert of de procedure-voorwaarden effectief vervuld zijn. Een te lakse beoordeling kan resulteren in beweerde-betaalde-schulden die later opduiken.",
+    "Het verslag bij art. 2:80, lid 1, 2° vraagt ook expliciete melding van of het netto-actief volstaat om alle schulden te dragen — kruis met [[nettoactieftest]] niet vereist hier maar conceptueel verwant."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Verhaeren Consultancy BV (één-persoonsvennootschap) heeft geactiveerde immateriële activa van € 38k, liquiditeiten € 22k, geen leveranciersschulden, een te betalen vennootschapsbelasting € 4k. Zaakvoerder Annick Verhaeren wenst ontbinding-in-één-akte. Externe gecertificeerd accountant Pieter Vandenberghe wordt aangesteld.",
+      "conclusie": "Pieter toetst: immateriële activa (cliëntenportefeuille) heeft geen realiseerbare waarde na stopzetting → moet afgewaardeerd tot 0. Hij verzoekt bestuur de staat te corrigeren. Na correctie blijft € 22k - € 4k = € 18k netto. Pieter vraagt bewijs van betaling vennootschapsbelasting (proforma-aangifte ingediend, kwitantie € 4k afgeleverd). Schulden voldaan: bevestigd. Verslag art. 2:71 + 2:80, lid 1, 2° met conclusie: 'Het netto-actief volstaat om alle schulden te voldoen; de staat is getrouw na correctie van immateriële activa.' Geen voorbehoud.",
+      "grondslag": "WVV art. 2:71, 2:80; ITAA-norm-ontbinding-vereffening Bijlage 3.2",
+      "redenering": "Aanpassing waardering immateriële activa was essentieel — bij ontbinding-context geen going-concern. Bewijs werkelijke betaling van enige resterende schuld noodzakelijk vóór één-akte-conclusie."
+    }
+  ],
+  "beoordelings_criteria": [
+    "Procedure-type correct gekwalificeerd (klassiek vs. één-akte)",
+    "Staat-datum ≤ 3 maanden vóór AV gecontroleerd",
+    "Waardering omgeschakeld naar realiseerbare/verkoopwaarde",
+    "Bij één-akte: bewijs werkelijke schuldenbetaling geverifieerd",
+    "Verslag conform Bijlage 3 modellen ITAA-norm"
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "staat-van-activa-en-passiva-ontbinding"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "ontbinding-vennootschap"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "vereffening-in-een-akte"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "klassieke-versus-een-akte-vereffening"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-bijzondere-mandataris"
+    },
+    {
+      "type": "samenstellend-deel-van",
+      "target": "bijzondere-mandaten-accountant"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.3-batch2-20260520T114922Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.3",
+    "linked_anchors": [
+      "3.0.taak.3",
+      "3.0.IX"
+    ],
+    "voorgesteld_op": "2026-05-20T11:49:22.533891+00:00",
+    "reviewed_by": null
+  }
+}

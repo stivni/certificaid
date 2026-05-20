@@ -1,0 +1,119 @@
+{
+  "id": "onafhankelijkheids-beslisboom-bijzondere-mandaten",
+  "naam": "Beslisboom — mag ik dit bijzonder mandaat aanvaarden?",
+  "node_type": "synthese",
+  "schema_version": "1.6",
+  "titel": "Beslisboom onafhankelijkheid bijzondere mandaten",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0,
+    4.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.3"
+    ],
+    "kenniselementen": []
+  },
+  "linked_anchors": [
+    "3.0.taak.3"
+  ],
+  "gebaseerd_op_concepten": [
+    "onafhankelijkheid-bijzondere-mandataris",
+    "bijzondere-mandaten-accountant"
+  ],
+  "situering": {
+    "text": "Praktisch hulpinstrument om in concreto te bepalen of een gecertificeerd accountant een specifiek bijzonder mandaat in een vennootschap zonder commissaris kan en mag aanvaarden. Combineert de regels uit KB 1/3/1998 art. 10-13 met praktische triggervragen in volgorde van scherpheid.",
+    "confidence": "grounded",
+    "source": {
+      "type": "deontologie",
+      "short": "KB 1 maart 1998 art. 10-13 + ITAA-deontologie"
+    }
+  },
+  "samenvatting": "Beslisboom met 7 vragen die op één pagina helpt bepalen of een bijzonder mandaat aanvaardbaar is.",
+  "kern_inhoud": {
+    "beslisboom": [
+      {
+        "stap": 1,
+        "vraag": "Is er een commissaris benoemd in de vennootschap?",
+        "ja": "STOP — geen taak voor jou. Het verslag valt onder commissarisopdracht.",
+        "nee": "Ga naar 2."
+      },
+      {
+        "stap": 2,
+        "vraag": "Bekleed jij, je echtgenoot of bloed-/aanverwant tot 2de graad één van volgende posities in de vennootschap of een verbonden onderneming: voornaamste aandeelhouder, bestuurder, zaakvoerder, afgevaardige dagelijks bestuur, of bediende/zelfstandige met betekenisvolle invloed op de jaarrekening?",
+        "ja": "STOP — verboden onder art. 10 KB 1/3/1998. Weiger.",
+        "nee": "Ga naar 3."
+      },
+      {
+        "stap": 3,
+        "vraag": "Was jij, in de voorbije twee jaar, bestuurder, zaakvoerder of in een leidinggevende positie met invloed op de boekhouddienst in deze vennootschap of een verbonden onderneming?",
+        "ja": "STOP — verboden onder art. 13 §1 KB 1/3/1998. Weiger.",
+        "nee": "Ga naar 4."
+      },
+      {
+        "stap": 4,
+        "vraag": "Heb jij of je vennootschap eerder geadviseerd over precies deze verrichting (taak.2-rol)?",
+        "ja": "STOP — belangenconflict art. 11 KB 1/3/1998. Weiger of verwijs door naar collega buiten je vennootschap. Zie [[mandaat-versus-advies-rol-accountant]].",
+        "nee": "Ga naar 5."
+      },
+      {
+        "stap": 5,
+        "vraag": "Heb jij of je vennootschap de waardering of de cijfers waarover dit verslag moet oordelen, zelf opgesteld?",
+        "ja": "STOP — eigen-werk-controleren is onverenigbaar met onafhankelijke beoordeling. Weiger.",
+        "nee": "Ga naar 6."
+      },
+      {
+        "stap": 6,
+        "vraag": "Heb jij of je vennootschap doorlopende andere prestaties voor de vennootschap (boekhouding, fiscale aangiftes, advies over andere zaken)?",
+        "ja": "AANVAARDEN MAG — maar VERMELD die andere prestaties expliciet in het verslag (art. 12 KB 1/3/1998). Ga naar 7.",
+        "nee": "Ga naar 7."
+      },
+      {
+        "stap": 7,
+        "vraag": "Heb je in dit dossier de juiste deskundigheid (sector + waarderingsmethode + verslag-type)?",
+        "ja": "AANVAARDEN — stel opdrachtbrief op + start dossier.",
+        "nee": "Weiger of verwijs door — competentie-eis art. 11 deontologie."
+      }
+    ],
+    "documentatie": [
+      "Documenteer voor ELK mandaat de doorlopen beslisboom — minstens als bijlage bij de opdrachtbrief.",
+      "Bewaar de beslisboom-documentatie samen met het werkdossier (5 jaar minimum).",
+      "Bij twijfel-stap: vraag eerst telefonisch of schriftelijk advies aan ITAA tuchtcommissie of stafdienst beroepsuitoefening."
+    ],
+    "specifieke_situaties": [
+      "Familiebedrijf waar je een verre kennis kent maar geen bloed-/aanverwant tot 2de graad: aanvaarden mag, maar documenteer de afwezigheid van familielink expliciet.",
+      "Vennootschap waar je een minderheidsbelang hebt: art. 10 spreekt van 'voornaamste aandeelhouder'. Een belang < 10% zonder controlerend effect valt buiten de strikte verbodsregel, maar kan onder art. 11 (belangenconflict-risico) wel een issue zijn — bij twijfel weigeren.",
+      "Vennootschap waar je vóór twee jaar bestuurder was: termijn art. 13 §1 verstreken — formeel mag, maar documenteer expliciet."
+    ]
+  },
+  "in_praktijk": [
+    "In de praktijk lopen veel weigeringen vast op stap 4 (eerder advies) — accountants onderschatten hoe ver 'advies' reikt. Eén meeting waarin de structuur besproken werd, kwalificeert vaak al.",
+    "Verzeker je opdrachtbrief altijd met een onafhankelijkheidsverklaring waarin je expliciet bevestigt dat geen van de verbodsregels van toepassing is — beschermt je tuchtrechtelijk.",
+    "Bij grensoverschrijdende verrichtingen kunnen extra onafhankelijkheidsregels van toepassing zijn (EU-Richtlijn audit + bevoegde autoriteit andere lidstaat) — dan ook die laag controleren."
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-bijzondere-mandataris"
+    },
+    {
+      "type": "verwant-aan",
+      "target": "mandaat-versus-advies-rol-accountant"
+    },
+    {
+      "type": "samenstellend-deel-van",
+      "target": "bijzondere-mandaten-accountant"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.3-batch3-20260520T115239Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.3",
+    "linked_anchors": [
+      "3.0.taak.3"
+    ],
+    "voorgesteld_op": "2026-05-20T11:52:39.322513+00:00",
+    "reviewed_by": null
+  }
+}

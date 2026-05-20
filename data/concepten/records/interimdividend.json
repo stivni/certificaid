@@ -1,0 +1,151 @@
+{
+  "id": "interimdividend",
+  "naam": "Interimdividend",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IV",
+    "3.0.IV.B"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IV",
+    "linked_anchors": [
+      "3.0.IV",
+      "3.0.IV.B"
+    ],
+    "reviewed_by": null,
+    "updated_by": "concept-extractie-v4-2026-05-20T15:00Z (PO 3.0 wave 2 — sub-anchor 3.0.IV.B)"
+  },
+  "situering": "Een tussentijdse dividenduitkering — niet op basis van een goedgekeurde jaarrekening, maar op basis van een tussenrekening — geeft de aandeelhouders sneller toegang tot de gevormde winst. Het WVV gunt het bestuursorgaan deze bevoegdheid als de statuten ze delegeren, maar omkadert dit met dezelfde uitkeringstests die voor het jaarlijks dividend gelden.",
+  "main_rule": {
+    "text": "Het **bestuursorgaan** is bevoegd tot uitkering van een **interimdividend** — d.w.z. een tussentijdse winstuitkering — wanneer de **statuten** die bevoegdheid expliciet delegeren, en binnen de grenzen van de uitkeringstests die ook gelden voor het jaarlijks dividend. Het interimdividend wordt geput uit de winst van het lopende boekjaar (verminderd met overgedragen verlies of vermeerderd met overgedragen winst), of uit de winst van het voorgaande boekjaar zolang de jaarrekening van dat boekjaar nog niet is goedgekeurd. **Onttrekking aan bestaande beschikbare reserves** vereist een AV-besluit (tussentijds dividend, geen interimdividend in strikte zin).",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 7:213 (NV); art. 5:141, 5:120 (BV)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MvT-WVV-2018__art_7_213",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_5_141",
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_5_121",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "text": "**Statutaire delegatie** vereist — bij ontbreken blijft de AV exclusief bevoegd. Zonder statutaire machtiging is een interimdividend nietig.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "**Nettoactieftest** moet slagen op basis van een tussentijdse staat van activa en passiva, opgemaakt op het ogenblik van de beslissing. Bij een aangestelde commissaris controleert hij/zij die staat.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "Voor de BV/CV: **liquiditeitstest** (art. 5:143 / 6:116) eveneens, op basis van een vooruitkijkende inschatting van 12 maanden.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "**In aanmerking te nemen resultaten** = winst van het lopende boekjaar + overgedragen winst − overgedragen verlies. Wettelijke en onbeschikbare reserves die nog gevormd moeten worden, worden afgetrokken vooraleer een interimdividend kan worden uitgekeerd.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "Onttrekking aan **bestaande beschikbare reserves** door het bestuur is niet toegestaan zonder voorafgaand AV-besluit — dat wordt dan een **tussentijds dividend** dat door de bijzondere AV moet worden goedgekeurd.",
+      "confidence": "grounded"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Verschil interim vs tussentijds dividend",
+      "betekenis": "**Interimdividend** = bestuur put uit lopende of nog niet-goedgekeurde winst, op basis van statutaire delegatie. **Tussentijds dividend** = bijzondere AV put uit reeds bestaande beschikbare reserves of overgedragen winst, op basis van de laatste goedgekeurde jaarrekening. Beide vereisen de nettoactieftest (en bij BV/CV de liquiditeitstest).",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 2021/02 §Tussentijdse dividenduitkering"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-advies_2021_02__Omschrijving",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Wat boek je in afwachting?",
+      "betekenis": "Een toegekend dividend, ook interim, wordt onmiddellijk geboekt als schuld onder rubriek 471 'Dividenden van het boekjaar' of 'Schulden uit de bestemming van het resultaat' (CBN 133/4). Bij dividend in natura: dezelfde rubriek, met aanduiding van de aard van de te leveren goederen.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 133/4; CBN 2019/01"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-advies_133_4",
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-advies_2019_01",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Aurelia Holding NV heeft in haar statuten de bevoegdheid van het bestuur tot interimdividend gedelegeerd. In september beslist het bestuur tot uitkering van € 200.000 interim, op basis van een tussentijdse balans (nettoactief € 1.800.000, bodem € 1.500.000). De interim slaagt voor de nettoactieftest (€ 200.000 < € 300.000 marge) en wordt geboekt als schuld in rubriek 471.",
+      "cast": [
+        "Aurelia Holding NV"
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Zonder **statutaire delegatie** is het bestuur niet bevoegd voor een interimdividend. Bij een nieuw cliëntdossier: lees eerst de statuten.",
+      "vaak_fout": "Aannemen dat een 'normaal' interimdividend tot de standaardbevoegdheden van het bestuur behoort.",
+      "grondslag": "WVV art. 5:141, art. 7:213"
+    },
+    {
+      "advies": "Voor de BV: vergeet de **liquiditeitstest** niet bij een interimdividend. De test geldt evenzeer voor interim als voor jaarlijks dividend.",
+      "vaak_fout": "Liquiditeitsverslag enkel maken bij het jaarlijks dividend.",
+      "grondslag": "WVV art. 5:143"
+    }
+  ],
+  "edges": [
+    {
+      "type": "specialisatie-van",
+      "target": "nettoactieftest",
+      "target_status": "resolved",
+      "facet": {
+        "aspect": "moment van toetsing — tussentijds"
+      }
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "liquiditeitstest-bv",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "wettelijke-reserve",
+      "target_status": "resolved"
+    }
+  ]
+}

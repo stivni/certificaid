@@ -1,0 +1,107 @@
+{
+  "id": "synthese-soorten-algemene-vergadering",
+  "naam": "Drie soorten algemene vergadering — synthese",
+  "node_type": "synthese",
+  "situering": {
+    "text": "Snelle vergelijking van de gewone, bijzondere en buitengewone algemene vergadering: vorm (onderhands of notarieel), agenda, frequentie en quorum/meerderheid. Helpt bij de eerste vraag in elk AV-dossier: 'welke soort moeten we organiseren?'.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "WVV — Boeken 5, 6, 7, AV-hoofdstukken (synthese)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_5_77",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_5_81",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_115",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "gebaseerd_op_concepten": [
+    "algemene-vergadering",
+    "gewone-algemene-vergadering",
+    "bijzondere-algemene-vergadering",
+    "buitengewone-algemene-vergadering",
+    "quorum-en-meerderheid-statutenwijziging"
+  ],
+  "vergelijkingstabel": {
+    "kolommen": [
+      "Soort AV",
+      "Wanneer?",
+      "Vorm",
+      "Typische agenda",
+      "Quorum",
+      "Meerderheid",
+      "Tweede bijeenroeping"
+    ],
+    "rijen": [
+      {
+        "Soort AV": "Gewone (jaarvergadering)",
+        "Wanneer?": "Jaarlijks, op statutair vastgelegde datum",
+        "Vorm": "Onderhands",
+        "Typische agenda": "Jaarrekening + kwijting + bestemming resultaat",
+        "Quorum": "Geen wettelijk quorum",
+        "Meerderheid": "Gewone meerderheid uitgebrachte stemmen",
+        "Tweede bijeenroeping": "N.v.t."
+      },
+      {
+        "Soort AV": "Bijzondere",
+        "Wanneer?": "Ad hoc tussen jaarvergaderingen",
+        "Vorm": "Onderhands",
+        "Typische agenda": "Benoeming/ontslag bestuurder, vennootschapsvordering, dividenduitkering",
+        "Quorum": "Geen wettelijk quorum",
+        "Meerderheid": "Gewone meerderheid uitgebrachte stemmen",
+        "Tweede bijeenroeping": "N.v.t."
+      },
+      {
+        "Soort AV": "Buitengewone (statutair)",
+        "Wanneer?": "Bij statutenwijziging, kapitaalverrichting, omzetting, ontbinding",
+        "Vorm": "Notariële akte",
+        "Typische agenda": "Statutenwijziging, kapitaalverhoging/-vermindering NV, wijziging soorten, ontbinding",
+        "Quorum": "≥ 50% uitgegeven aandelen of kapitaal",
+        "Meerderheid": "3/4 (gewone statutenwijziging) of 4/5 (voorwerps-/doelenwijziging)",
+        "Tweede bijeenroeping": "Geen quorum vereist; meerderheid blijft gelijk"
+      }
+    ]
+  },
+  "kerninzichten": [
+    "Notariële vorm is geen 'extra plechtigheid' maar een wettelijk vormvereiste — overslaan = nietigheid.",
+    "De aanwezigheidsdrempel valt weg bij tweede bijeenroeping, de meerderheidsdrempel blijft staan — passieve minderheid kan zo niet eeuwig blokkeren, actieve oppositie wel.",
+    "Bestemming van het resultaat hoort bij de gewone AV; statutenwijziging hoort bij de buitengewone — combineer ze in praktijk efficiënt op één dag bij dezelfde notaris."
+  ],
+  "edges": [
+    {
+      "type": "verwijst-naar",
+      "target": "algemene-vergadering",
+      "target_status": "resolved"
+    }
+  ],
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.III",
+    "3.0.III.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T12:34:12Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.III",
+    "linked_anchors": [
+      "3.0.III",
+      "3.0.III.A"
+    ],
+    "reviewed_by": null
+  }
+}

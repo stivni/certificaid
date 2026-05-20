@@ -1,0 +1,126 @@
+{
+  "id": "statutaire-uittreding-bv",
+  "naam": "Statutaire uittreding en uitsluiting in de BV",
+  "node_type": "cluster",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VIII",
+    "3.0.VI",
+    "3.0.VI.D"
+  ],
+  "situering": "Naast de gerechtelijke geschillenregeling (Boek 2 Titel 7) biedt de **BV** een uniek **statutair regime**: de statuten kunnen voorzien dat aandeelhouders ten laste van het vennootschapsvermogen kunnen uittreden, of dat de algemene vergadering een aandeelhouder kan uitsluiten. De NV kent dit niet — daar moet men steeds naar de rechter. Dit statutaire regime weerspiegelt het personalistische karakter van de BV.",
+  "definitie": "Het statutaire uittredings- en uitsluitingsregime van de BV (art. 5:154-5:156) laat de statuten bepalen dat een aandeelhouder ten laste van het vennootschapsvermogen kan uittreden of dat de algemene vergadering hem om wettige reden kan uitsluiten, met betaling van het **scheidingsaandeel** uit het vermogen van de vennootschap.",
+  "bouwstenen": [
+    {
+      "titel": "Statutaire uittreding ten laste van het vermogen",
+      "wat": "De statuten kunnen aandeelhouders het recht geven uit de vennootschap te treden. Wettelijke kaders: uittreding van oprichters pas vanaf het derde boekjaar; uittreding tijdens de eerste zes maanden van het boekjaar (tenzij statuten anders); volledig (alle aandelen worden vernietigd) tenzij statuten anders.",
+      "waarom": "Het scheidingsaandeel komt uit het vermogen van de vennootschap, niet van mede-aandeelhouders — een fundamenteel verschil met de gerechtelijke uittreding waar mede-aandeelhouders zelf overnemen.",
+      "grondslag": "WVV art. 5:154",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "WVV__art_5_124"
+        ]
+      }
+    },
+    {
+      "titel": "Berekening scheidingsaandeel",
+      "wat": "Tenzij statuten anders bepalen is het scheidingsaandeel het bedrag van de werkelijk gestorte en niet-terugbetaalde inbreng, begrensd door de nettoactiefwaarde uit de laatste goedgekeurde jaarrekening.",
+      "waarom": "Een statutaire scheidingsformule biedt voorspelbaarheid en kan een tussenoplossing tussen historische inbreng en marktwaarde vastleggen.",
+      "grondslag": "WVV art. 5:154, § 1, lid 2, 5°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "WVV__art_5_124"
+        ]
+      }
+    },
+    {
+      "titel": "Liquiditeits- en netto-actief-test",
+      "wat": "Het scheidingsaandeel is **een uitkering** in de zin van art. 5:142–5:143: kan dus enkel worden betaald als de netto-actief-test (5:142) én de liquiditeitstest (5:143) zijn voldaan.",
+      "waarom": "Beschermt schuldeisers: een uittredend aandeelhouder mag niet ten koste van crediteurs worden uitgekocht. Bij ontoereikende middelen wordt het recht op betaling uitgesteld.",
+      "grondslag": "WVV art. 5:154, § 1, lid 2, 6°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "WVV__art_5_124"
+        ]
+      }
+    },
+    {
+      "titel": "Statutaire uitsluiting",
+      "wat": "De statuten kunnen bepalen dat de algemene vergadering een aandeelhouder om wettige reden of om een andere in de statuten vermelde reden kan uitsluiten. **Gemotiveerd voorstel** wordt meegedeeld, betrokkene mag binnen één maand schriftelijke opmerkingen geven en op verzoek gehoord worden. Enkel de AV kan beslissen. Aandelen worden vernietigd; scheidingsaandeel volgens art. 5:154.",
+      "waarom": "Snelle procedure-zonder-rechter is mogelijk omdat de BV een personalistische vennootschap is en de statuten al een conflict-resolutie-kader bieden.",
+      "grondslag": "WVV art. 5:155",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "WVV__art_5_125"
+        ]
+      }
+    },
+    {
+      "titel": "Uittreding van rechtswege",
+      "wat": "Statuten kunnen voorzien dat bij **overlijden, faillissement, kennelijk onvermogen, vereffening of onbekwaamverklaring** de aandeelhouder van rechtswege uittreedt. Hijzelf, erfgenamen, schuldeisers of vertegenwoordigers hebben recht op het scheidingsaandeel.",
+      "waarom": "Bewaakt de personalistische aard: bijvoorbeeld erfgenamen die nooit door de andere vennoten als partner werden gekozen, worden automatisch uitgekocht.",
+      "grondslag": "WVV art. 5:156",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "WVV__art_5_126"
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "Het statutaire regime is **opt-in**: zonder uitdrukkelijke statutaire bepalingen geldt enkel de gerechtelijke geschillenregeling.",
+    "Bij **conflict** prefereert de meerderheid vaak de **statutaire uitsluiting** (snel, goedkoop, AV-beslist) boven de gerechtelijke uitsluiting — maar de wettige-reden-toets blijft vatbaar voor latere betwisting voor de rechter.",
+    "**Coöperatieve-parallel**: voor de **coöperatieve vennootschap (CV)** is het uittredings- en uitsluitingsregime **niet opt-in maar default** (art. 6:120-6:124 WVV). De CV is per definitie open: aandeelhouders kunnen ten laste van het vermogen toe- en uittreden zonder statutenwijziging. Dezelfde uitkeringstesten en de zes-maanden-vensterregel gelden. Een aandeelhouders­overeenkomst die in een **BV** een **exit zonder rechtszaak** wil organiseren, gebruikt dit statutaire regime als bouwsteen — naast contractuele put/call en good/bad leaver-regelingen."
+  ],
+  "vergelijkingsparen": [
+    {
+      "met": "uittredingsvordering",
+      "verschil": "Statutaire uittreding = uitkering uit vennootschapsvermogen, opt-in via statuten, geen rechter nodig; gerechtelijke uittreding = mede-aandeelhouders nemen over, gegronde redenen, voorzitter ondernemingsrechtbank.",
+      "trigger": "Hebben de statuten een uittredingsclausule? Zo ja: stat. regime is sneller. Zo nee: gerechtelijk via art. 2:68."
+    }
+  ],
+  "valkuilen": [
+    "Het statutaire regime bestaat **niet voor de NV** — een NV-aandeelhouder kan enkel via Boek 2 Titel 7 of via een SHA uittreden.",
+    "**Netto-actief-test kan uittreding uitstellen**: in een verlieslatende BV blijft de uittredende aandeelhouder wachten op het moment waarop uitkering toegelaten is."
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "vennootschapsconflict",
+      "target_status": "exists"
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "besloten-vennootschap-bv",
+      "target_status": "exists",
+      "regime": "BV"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "uittredingsvordering",
+      "target_status": "exists",
+      "aspect": "wie betaalt het scheidingsaandeel"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "liquiditeitstest-bv",
+      "target_status": "pending"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VIII",
+    "linked_anchors": [
+      "3.0.VIII"
+    ],
+    "reviewed_by": null,
+    "created_at": "2026-05-20T10:00:00Z"
+  },
+  "schema_version": "1.6"
+}

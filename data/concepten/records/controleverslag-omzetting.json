@@ -1,0 +1,111 @@
+{
+  "id": "controleverslag-omzetting",
+  "naam": "Controleverslag bij omzetting van een vennootschap",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IX",
+    "3.0.taak.3",
+    "1.6.I.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T15:20Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.3",
+    "linked_anchors": [
+      "3.0.IX",
+      "3.0.taak.3"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Bij elke omzetting van een vennootschap (Boek 14 WVV) moet een controleverslag worden opgesteld over de door het bestuursorgaan opgestelde staat van activa en passiva. Het verslag wordt opgemaakt door de commissaris of, bij afwezigheid van een commissaris, door een bedrijfsrevisor of gecertificeerd accountant aangewezen door het bestuursorgaan. De beroepsbeoefenaar beoordeelt of het nettoactief in alle van materieel belang zijnde opzichten niet overgewaardeerd is — een opdracht met beperkte mate van zekerheid. De conclusie van het verslag wordt verplicht in de notariële omzettingsakte opgenomen; bij ontbreken van het verslag is het AV-besluit tot omzetting nietig.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 14:6, art. 14:7, art. 14:10"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_14_6",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_14_7",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_14_10",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": "Het controleverslag is een wettelijk voorbehouden gedeelde opdracht: het monopolie ligt bij commissaris, bedrijfsrevisor of gecertificeerd accountant. Het past binnen het bredere regime van bijzondere verslagen bij herstructurering (omzetting, fusie, splitsing, inbreng in natura, ontbinding) — telkens gericht op kapitaalbescherming en informatie aan aandeelhouders en derden.",
+  "voorwaarden": [
+    {
+      "voorwaarde": "Aanwijzing door bestuursorgaan (bij ontbreken commissaris)",
+      "uitleg": "Wanneer er een commissaris is, voert hij het verslag uit. Zonder commissaris wijst het bestuursorgaan een gecertificeerd accountant of bedrijfsrevisor aan.",
+      "grondslag": "WVV art. 14:6"
+    },
+    {
+      "voorwaarde": "Beoordeling staat van activa en passiva",
+      "uitleg": "Het verslag beoordeelt of de staat (max. 3 maanden oud) overgewaardeerd is. Het is geen attest van getrouw beeld; het is een beoordelingsopdracht met beperkte zekerheid.",
+      "grondslag": "WVV art. 14:3, ITAA-norm beoordeling"
+    },
+    {
+      "voorwaarde": "Mededeling met de oproeping AV",
+      "uitleg": "Kopie van het verslag gaat met de oproeping naar de aandeelhouders; uittreksel staat ter inzage op zetel vijftien dagen vóór de AV.",
+      "grondslag": "WVV art. 14:6"
+    },
+    {
+      "voorwaarde": "Conclusie in de notariële akte",
+      "uitleg": "De akte van omzetting neemt verplicht de conclusie van het verslag over. Het origineel of een uitgifte wordt samen met de akte neergelegd.",
+      "grondslag": "WVV art. 14:10"
+    }
+  ],
+  "uitzonderingen": [
+    {
+      "uitzondering": "Ontbreken verslag = nietigheid",
+      "uitleg": "Het ontbreken van een van de wettelijk vereiste verslagen (bestuursverslag of accountantsverslag) leidt tot nietigheid van het AV-besluit tot omzetting.",
+      "grondslag": "WVV art. 14:7"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Welke werkzaamheden?",
+      "betekenis": "Cijferanalyses, vergelijking met de laatste jaarrekening, vraaggesprek met bestuurders en boekhouder, inzage van wezenlijke contracten en confirmatiebrieven (banken, advocaten, leveranciers bij hoog risico). Geen volledige audit zoals bij commissarisopdracht — beperkte zekerheid volstaat.",
+      "confidence": "grounded"
+    },
+    {
+      "aspect": "Conclusie-formulering",
+      "betekenis": "Typische conclusie: \"Op basis van onze nazichten is ons niets gebleken waaruit zou blijken dat het nettoactief dat in de staat van activa en passiva is opgenomen, in alle van materieel belang zijnde opzichten is overgewaardeerd.\" Negatieve assurance, niet positieve.",
+      "confidence": "grounded"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "omzetting-vennootschap"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "omzetting-vennootschap-opdracht"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "beperkte-mate-van-zekerheid"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "confirmatiebrieven"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "inbreng-in-natura-verslag",
+      "aspect": "andere bijzondere opdracht-verslagen"
+    }
+  ]
+}

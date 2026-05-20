@@ -1,0 +1,122 @@
+{
+  "id": "transfer-bedrijfstak-algemeenheid",
+  "naam": "Overdracht van bedrijfstak of algemeenheid (WVV)",
+  "naam_alternatief": "transfer of a branch of activity / transfer of a universality of goods",
+  "node_type": "cluster",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.B"
+  ],
+  "situering": "Bij asset deals biedt het WVV een specifieke procedure die rechten en plichten van een afgebakende activiteit (bedrijfstak) of van het geheel van activa en passiva (algemeenheid) automatisch laat overgaan op de overnemer. De keuze tussen ut singuli (één-voor-één) en ut universali (procedure-gebaseerd) bepaalt de zwaarte van de formaliteiten én de mate van automatische overdracht.",
+  "definitie": "Een overdracht van bedrijfstak of algemeenheid is een WVV-procedure waarbij een vennootschap een operationeel zelfstandig opererende activiteitenkern (bedrijfstak) of het geheel van haar activa en passiva (algemeenheid) overdraagt, met de mogelijkheid dat alle rechten en plichten van rechtswege overgaan op de overnemer.",
+  "bouwstenen": [
+    {
+      "titel": "Definities WVV",
+      "wat": "Een bedrijfstak is 'een eenheid die op technisch en operationeel vlak autonoom een activiteit uitoefent en in staat is op eigen kracht te functioneren'. Een algemeenheid is 'het geheel van activa en passiva van de vennootschap'.",
+      "waarom": "De kwalificatie bepaalt of er sprake is van louter activa of van een operationele eenheid — dat heeft impact op btw-vrijstelling én op automatische overdracht van rechten en plichten.",
+      "in_praktijk": "Een productiesite met eigen personeel, contracten, vergunningen en boekhoudkundige autonomie kan een bedrijfstak vormen; een loutere set activa zonder operationeel verband niet.",
+      "grondslag": "WVV; IBA-MA-Belgium-2022-EN §2.1.2",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_2-1-2-asset-deal"
+        ]
+      }
+    },
+    {
+      "titel": "Twee modaliteiten: ut singuli versus ut universali",
+      "wat": "Een asset deal kan ofwel ut singuli (elke actief afzonderlijk verkocht onder BW) ofwel ut universali (volgens WVV-procedure) plaatsvinden. Bij ut universali gaan rechten en plichten automatisch over zonder afzonderlijke goedkeuring van tegenpartijen, behoudens intuitu personae-contracten, vastgoed, vergunningen en IE-rechten.",
+      "waarom": "Ut universali is operationeel veel efficiënter (geen contract-per-contract toestemming) maar vereist een formele procedure van minstens zes weken.",
+      "in_praktijk": "Bij grote portefeuilles van contracten of leveranciers verkiest men ut universali; bij selectieve overdracht van enkele activa kiest men ut singuli.",
+      "grondslag": "WVV art. 12:103 e.v.; IBA-MA-Belgium-2022-EN §2.1.2 Procedure",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_2-1-2-asset-deal"
+        ]
+      }
+    },
+    {
+      "titel": "WVV-procedure (overdracht ut universali)",
+      "wat": "Bestuursorganen van overdrager en overnemer stellen een gezamenlijk voorstel op (authentiek of onderhands), dat ten minste zes weken vóór de uitvoering wordt neergelegd ter griffie van de ondernemingsrechtbank. Een bestuursverslag verantwoordt de overdracht op juridisch en economisch vlak. Algemene vergadering van de overdrager beslist over de overdracht; bij goedkeuring én vervulling van de formaliteiten gaat de bedrijfstak/algemeenheid over.",
+      "waarom": "De procedure waarborgt transparantie voor crediteuren en aandeelhouders.",
+      "in_praktijk": "Doorlooptijd minimaal zes weken; in praktijk twee tot drie maanden inclusief voorbereiding en publicaties.",
+      "grondslag": "WVV art. 12:103–12:111; IBA-MA-Belgium-2022-EN §2.1.2",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_2-1-2-asset-deal"
+        ]
+      }
+    },
+    {
+      "titel": "Btw-implicaties",
+      "wat": "Overdracht van een algemeenheid of een bedrijfsafdeling is uitgesloten van btw onder Belgisch btw-wetboek; overdracht van losse activa is in principe btw-plichtig (21 %).",
+      "waarom": "Belangrijke financiële impact — een verkeerde kwalificatie kan tot € honderdduizenden cashflow-impact leiden.",
+      "in_praktijk": "Volle elementen voor exploitatie moeten overgaan om te kwalificeren als bedrijfsafdeling — anders past het btw-tarief van 21 % toe op alle activa.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §2.4.2; Belgisch Btw-wetboek",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_2-4-tax-aspects-of-m-a-deals"
+        ]
+      }
+    },
+    {
+      "titel": "CAO 32bis: automatische werknemersoverdracht",
+      "wat": "Als de overdracht kwalificeert als 'overdracht van onderneming' in de zin van CAO 32bis, gaan alle arbeidsovereenkomsten automatisch over, met behoud van rechten (uitgezonderd aanvullende pensioenrechten en bepaalde verzekeringen).",
+      "waarom": "Werknemersbescherming — koper kan ontslag niet baseren op de overdracht zelf.",
+      "in_praktijk": "Of de overdracht kwalificeert is altijd case-by-case te beoordelen; informatie- en consultatieplicht naar werknemersvertegenwoordigers gaat aan de signing vooraf.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §6.2.4; CAO 32bis",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_6-2-4-duty-to-inform-and-consult-employees"
+        ]
+      }
+    },
+    {
+      "titel": "Hoofdelijke aansprakelijkheid fiscaal/sociaal",
+      "wat": "De koper is hoofdelijk aansprakelijk voor inkomstenbelastingen, btw en RSZ van de verkoper gedurende één maand na neerlegging van een gecertificeerd afschrift van de overeenkomst, tenzij hij geldige fiscale en sociale certificaten ontvangt (niet ouder dan 30 dagen).",
+      "waarom": "Beschermt de Schatkist tegen wegtrekken van activa zonder schuldafbetaling.",
+      "in_praktijk": "De fiscale en sociale certificaten zijn een standaard-CP bij asset deals.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §2.2.2 Joint and several liability, §6.1.2",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_2-2-overview-of-the-two-transaction-structures"
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "De accountant moet de boekhoudkundige verwerking begeleiden: bij overdracht ut universali gaan alle activa en passiva uit de boeken van de overdrager en in die van de overnemer — verschil tussen ontvangen prijs en netto-boekwaarde is meerwaarde/minderwaarde.",
+    "Btw-vrijstelling bij algemeenheid/bedrijfsafdeling vereist dat de overnemer de activiteit voortzet en de btw-positie van de overdrager overneemt (going concern-vereiste)."
+  ],
+  "edges": [
+    {
+      "target": "asset-deal-versus-share-deal",
+      "type": "verwijst-naar"
+    },
+    {
+      "target": "overnameovereenkomst",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "wetboek-vennootschappen-verenigingen",
+      "type": "onderdeel-van"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.B"
+    ],
+    "reviewed_by": null
+  },
+  "schema_version": "1.6"
+}

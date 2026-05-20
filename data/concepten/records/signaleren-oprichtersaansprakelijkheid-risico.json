@@ -1,0 +1,174 @@
+{
+  "id": "signaleren-oprichtersaansprakelijkheid-risico",
+  "naam": "Signaleren van oprichtersaansprakelijkheid-risico's aan de cliënt",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Signaleren van oprichtersaansprakelijkheid-risico's aan de cliënt",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0,
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.1"
+    ],
+    "kenniselementen": [
+      "3.0.VII"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.1",
+    "3.0.VII"
+  ],
+  "gebaseerd_op_concepten": [
+    "oprichtersaansprakelijkheid",
+    "kennelijk-ontoereikend-aanvangsvermogen",
+    "financieel-plan-oprichting",
+    "inbreng-in-natura-verslag",
+    "bestuurdersaansprakelijkheid"
+  ],
+  "situering": {
+    "text": "Adviescompetentie: vóór de notariële akte de cliënt schriftelijk informeren over de drie hoofdgronden van oprichtersaansprakelijkheid (kennelijk ontoereikend aanvangsvermogen, kennelijke overwaardering inbreng in natura, onjuiste of ontbrekende akte-vermeldingen) en hoe het ontwerp van akte + financieel plan deze risico's afdekt. Doel: cliënt maakt geïnformeerde keuze; accountant bouwt dossier op tegen latere claims van onvoldoende advies.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV art. 5:16, 7:18"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 85,
+    "praktijk_pct": 15,
+    "motivering": "Aansprakelijkheidsgronden volledig in WVV. Risico-signalering-methodiek (welke risico's hoe wegen en aan cliënt presenteren) is plichtenleer en vakpraktijk."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Inventariseren van de drie hoofdgronden van oprichtersaansprakelijkheid",
+      "wat": "Loop systematisch de aansprakelijkheidsgronden uit art. 5:16 (BV) / 7:18 (NV) na: (a) onjuistheid/ontbrekende vermeldingen, (b) kennelijke overwaardering inbreng in natura, (c) faillissement binnen 3 jaar bij kennelijk ontoereikend aanvangsvermogen.",
+      "waarom": "Elke grond werkt apart en heeft eigen verdedigingsstrategie. Cliënt moet alle drie kennen, niet alleen de meest besproken (kennelijk ontoereikend aanvangsvermogen).",
+      "input": [
+        {
+          "artefact": "Concept-akte + concept financieel plan + revisorenverslag",
+          "veld": "Volledig oprichtingsdossier",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Aansprakelijkheids-checklist per grond",
+          "veld": "Status per grond + mitigering",
+          "type": "tabel"
+        }
+      ],
+      "hoe": "1. Voor 'onjuiste/ontbrekende vermeldingen' (art. 5:16 1°, 7:18 1° eerste lid):\n   - Loop checklist art. 2:8 §2 + 5:11-5:12 (BV) / 7:13-7:14 (NV) af.\n   - Voor elke verplichte vermelding: aanwezig + juist?\n   - Risico-niveau: laag bij volledige akte + geverifieerde gegevens.\n2. Voor 'kennelijke overwaardering inbreng in natura' (art. 5:16 1° tweede lid, 7:18 1° tweede lid):\n   - Voor elke inbreng in natura: revisorenverslag aanwezig?\n   - Waardering conservatief gemotiveerd?\n   - Risico-niveau: laag bij goed-onderbouwd revisor-werk, hoog bij IP/handelsfonds-waarderingen zonder marktverwijzing.\n3. Voor 'kennelijk ontoereikend aanvangsvermogen' (art. 5:16 2°, 7:18 2°):\n   - Faillissement binnen 3 jaar mogelijk?\n   - Financieel plan onderbouwd? Buffer aanwezig?\n   - Risico-niveau: hoog bij krappe financiering + optimistische projectie; laag bij ruime financiering + conservatieve hypothesen.",
+      "grondslag": "[[oprichtersaansprakelijkheid]]; WVV art. 5:16, 7:18"
+    },
+    {
+      "nr": 2,
+      "titel": "Beoordelen specifieke risico-trigger 'kennelijk ontoereikend'",
+      "wat": "Voer een gedetailleerde analyse uit van de financiering vs. de verwachte cashbehoefte over de eerste 24 maanden — om te toetsen of het aanvangsvermogen 'kennelijk' onvoldoende is.",
+      "waarom": "Dit is de meest voorkomende grond in praktijk. 'Kennelijk' is geen exacte juridische drempel maar wordt door rechters ingevuld op basis van het financieel plan op moment van oprichting.",
+      "input": [
+        {
+          "artefact": "Financieel plan (zie [[opstellen-financieel-plan-oprichting]])",
+          "veld": "Volledige projectie",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Risico-oordeel 'kennelijk ontoereikend'",
+          "veld": "Laag / midden / hoog + onderbouwing",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Bereken EV / verwachte gemiddelde maandelijkse cashbehoefte → maanden 'buffer'.\n2. Buffer < 3 maanden = HOOG risico.\n3. Buffer 3-6 maanden = MIDDEN — alleen acceptabel met sterke argumentatie.\n4. Buffer > 6 maanden = LAAG.\n5. Combineer met sector-specifieke risico: hoge debiteurendoorlooptijd, voorraadintensief, hoge CAPEX-fase → buffer-eis hoger.\n6. Test scenario-analyse: bij −20% omzet jaar 1, gaat cash dan onder nul?\n7. Documenteer het oordeel met cijfermatige onderbouwing.",
+      "valkuilen": [
+        {
+          "advies": "'Kennelijk' is geen statische cijfer-drempel — rechter beoordeelt achteraf. Conservatief plannen biedt de beste verdediging.",
+          "vaak_fout": "Denken dat een minimum-bedrag (bv. 'minstens € 18.600' uit oude regelgeving) voldoende is — dit cijfer bestaat sinds WVV 2019 niet meer als minimum-kapitaal voor BV."
+        }
+      ],
+      "grondslag": "[[kennelijk-ontoereikend-aanvangsvermogen]]; WVV art. 5:16 2°, 7:18 2°"
+    },
+    {
+      "nr": 3,
+      "titel": "Schriftelijk informeren van de cliënt",
+      "wat": "Stel een schriftelijke aansprakelijkheidsnota op die de drie gronden, het risico-niveau per grond, de mitigerende maatregelen in het huidig dossier, en de resterende restrisico's expliciet aan de cliënt presenteert.",
+      "waarom": "Schriftelijke informatie + bevestiging van ontvangst beschermt de accountant tegen latere claim 'ik was niet gewaarschuwd'. Voor cliënt verlaagt het de informatie-asymmetrie zodat oprichting bewust gebeurt.",
+      "input": [
+        {
+          "artefact": "Aansprakelijkheids-checklist (stap 1) + risico-oordeel (stap 2)",
+          "veld": "Aggregate beoordeling",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Aansprakelijkheidsnota aan cliënt + ontvangstbevestiging",
+          "veld": "Gestructureerde brief",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Open de nota met situering: 'Onderstaande informeert u over de aansprakelijkheidsrisico's verbonden aan uw oprichting.'\n2. Voor elke grond:\n   - Wat is het risico (één paragraaf)?\n   - Welke voorwaarden moeten cumulatief vervuld zijn voor activering?\n   - Hoe is het risico in uw dossier afgedekt (verwijzing naar plan, revisor, akte)?\n   - Welk restrisico blijft?\n3. Sluit af met aanbeveling indien risico-niveau MIDDEN of HOOG: 'Wij adviseren ... vóór ondertekening akte.'\n4. Vraag cliënt om de nota voor akkoord af te tekenen.\n5. Bewaar de getekende kopie in cliëntdossier — bescherming tegen latere claim.",
+      "grondslag": "Plichtenleer accountancy; KB van 1 maart 1998"
+    },
+    {
+      "nr": 4,
+      "titel": "Bijsturen oprichtingsdossier op basis van risico-feedback",
+      "wat": "Wanneer een grond MIDDEN of HOOG scoort: stel een concreet bijsturings-traject voor (extra kapitaal, krediet vóór akte, conservatievere waardering inbreng, extra akte-clausule).",
+      "waarom": "Risico-signalering zonder voorstel-tot-mitigering is half werk. De accountant is adviseur, niet alleen informant.",
+      "input": [
+        {
+          "artefact": "Aansprakelijkheidsnota (stap 3)",
+          "veld": "Risico-oordeel per grond",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Mitigatie-voorstellen",
+          "veld": "Aanbevelingen per grond met MIDDEN/HOOG-risico",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Voor 'kennelijk ontoereikend' MIDDEN/HOOG:\n   - Stel voor: extra EV-inbreng, of LT-krediet vóór akte zekerstellen, of conservatievere projectie + plan-herziening.\n2. Voor 'kennelijke overwaardering' MIDDEN/HOOG:\n   - Stel voor: tweede onafhankelijke waardering, of waardering met expliciete down-side bandbreedte, of inbrengwaarde naar beneden bijstellen.\n3. Voor 'onjuiste vermeldingen' MIDDEN/HOOG:\n   - Stel voor: extra review-cyclus akte-ontwerp, of notaris vragen om specifieke clausule te dubbel-checken.\n4. Bespreek met cliënt + beslis samen welke mitigatie wordt toegepast — niet alles is altijd nodig, het is een afweging.",
+      "grondslag": "Plichtenleer; vakpraktijk"
+    }
+  ],
+  "in_praktijk": [
+    "Een schriftelijke aansprakelijkheidsnota is geen verplichting volgens WVV — maar wel volgens accountantsplichtenleer-praktijk en is essentieel voor latere zelfverdediging.",
+    "Het 3-jaars venster voor 'kennelijk ontoereikend' loopt vanaf verkrijging rechtspersoonlijkheid (datum akte), niet vanaf start operationele activiteit.",
+    "Een revisorenverslag voor inbreng in natura ontheft de oprichter NIET van aansprakelijkheid — het is een waarderings-validatie, geen aansprakelijkheidsdekking."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Pieter Vermeulen wil Oprichtingen Oostende BV oprichten met enkel € 25.000 cash (geen krediet) + bestelwagen € 17.500. Verwachte cash-burn jaar 1 cumulatief ca. € 18.000. Buffer = € 25.000 / (€ 18.000/12) = 16,7 maanden.",
+      "conclusie": "Sofie Janssens beoordeelt risico's: (1) onjuiste vermeldingen LAAG — akte gereviewed; (2) overwaardering inbreng LAAG — revisor-verslag met conservatieve € 17.500 < markt € 18.000; (3) kennelijk ontoereikend LAAG — buffer 16 maanden ruim. Schrijft aansprakelijkheidsnota met alle drie gronden + LAAG-rating. Pieter tekent voor akkoord. Bij latere uitbreiding (volgend jaar) checkt Sofie of de profielsituatie nog hetzelfde is.",
+      "grondslag": "[[oprichtersaansprakelijkheid]], [[kennelijk-ontoereikend-aanvangsvermogen]]"
+    },
+    {
+      "situatie": "Tegenvoorbeeld: Pieter wil starten met enkel € 8.000 inbreng en geen extern krediet, verwachte cash-burn jaar 1 ca. € 24.000.",
+      "conclusie": "Sofie beoordeelt 'kennelijk ontoereikend' als HOOG: buffer 4 maanden bij optimistisch scenario, en geen reserve voor onverwachte tegenvallers. Ze adviseert dwingend: of (a) extra € 17.000 inbreng vóór akte, of (b) bankkredietovereenkomst € 30.000 vóór akte. Zonder mitigering raadt Sofie de oprichting nu af, vraagt cliënt om schriftelijk te bevestigen indien hij toch wil doorgaan. Pieter beslist te wachten 3 maanden om eerst sparen te kunnen.",
+      "grondslag": "[[kennelijk-ontoereikend-aanvangsvermogen]]"
+    }
+  ],
+  "beoordelings_criteria": [
+    "Aansprakelijkheidsnota dekt expliciet de drie hoofdgronden",
+    "Risico-niveau per grond is onderbouwd met verwijzing naar dossier",
+    "Mitigatie-voorstellen aanwezig voor MIDDEN/HOOG-risico's",
+    "Cliënt-getekende ontvangstbevestiging in dossier"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.1-batch3-20260520T111623Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.1",
+    "linked_anchors": [
+      "3.0.taak.1",
+      "3.0.VII"
+    ],
+    "voorgesteld_op": "2026-05-20T11:16:23.595008Z",
+    "reviewed_by": null
+  }
+}

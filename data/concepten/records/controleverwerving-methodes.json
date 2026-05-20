@@ -1,0 +1,221 @@
+{
+  "id": "controleverwerving-methodes",
+  "naam": "Methodes om controle over een vennootschap te verwerven",
+  "node_type": "synthese",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VI",
+    "3.0.VI.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:47:42Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VI",
+    "linked_anchors": [
+      "3.0.VI"
+    ],
+    "reviewed_by": null
+  },
+  "situering": "Controle (art. 1:14 WVV) hoeft **niet** te betekenen dat je 50%+1 van de aandelen bezit. Het vennootschapsrecht erkent verschillende routes om **beslissende invloed** te verwerven op het beleid van een vennootschap, gaande van eenvoudige meerderheid tot subtiele constructies via houdstervennootschappen, certificering of stemafspraken. Wie controleverwerving evalueert moet **alle routes** kennen — bv. voor consolidatieplicht (1:15 WVV), verplicht overnamebod (30%), of het melden van een belangrijke deelneming.",
+  "definitie": {
+    "text": "Een gestructureerd overzicht van de **kanalen** waarlangs een persoon of vennootschap **controle** kan verwerven over een doelvennootschap: directe meerderheid, indirecte controle via een houdster, controle via certificering, controle via stemafspraken, controle via aandelenklassen met meervoudig stemrecht, en finaal verwerving via openbaar overnamebod of squeeze-out.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "short": "WVV art. 1:14-1:18, art. 7:82-83; IBA SHA + IBA Minority"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MvT-WVV-2018__art_1_32",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_1_34",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_1_12",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IBA-Minority-Belgium-2022-NL__sec_sell-out-uitkooprecht-van-minderheidsaandeelhouders",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IBA-SHA-Belgium-2024-NL__sec_15-is-het-in-belgi-mogelijk-om-via-een-aandeelhoudersovereen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "gebaseerd_op_concepten": [
+    "controle",
+    "exclusieve-controle",
+    "gezamenlijke-controle",
+    "aandeelhoudersovereenkomst",
+    "stemovereenkomst",
+    "certificering-aandelen",
+    "meervoudig-stemrecht"
+  ],
+  "vergelijkingstabel": {
+    "kolommen": [
+      "methode",
+      "wat",
+      "wettelijke basis",
+      "typische context"
+    ],
+    "rijen": [
+      {
+        "methode": "Directe meerderheid van stemrechten",
+        "wat": "Houder verwerft > 50% van de stemrechten via aandelen — controle in rechte (art. 1:14 § 2, 1°)",
+        "wettelijke basis": "WVV art. 1:14 § 2, 1°",
+        "typische context": "Klassieke overname (share deal) van een KMO"
+      },
+      {
+        "methode": "Bevoegdheid om meerderheid bestuurders aan te stellen",
+        "wat": "Statutair of contractueel recht om de meerderheid van de bestuurders aan te stellen — controle in rechte (art. 1:14 § 2, 2°)",
+        "wettelijke basis": "WVV art. 1:14 § 2, 2°",
+        "typische context": "Joint venture met SHA-clausule over bestuurssamenstelling"
+      },
+      {
+        "methode": "Stemafspraak / stemovereenkomst",
+        "wat": "Aandeelhouders verbinden zich om gezamenlijk te stemmen — vormt een **blok** dat samen > 50% kan halen, controle gezamenlijk uitgeoefend (art. 1:14 § 2, 3°)",
+        "wettelijke basis": "WVV art. 1:14 § 2, 3°; art. 5:46",
+        "typische context": "Familiale aandeelhouders­blok; private-equity-syndicaat"
+      },
+      {
+        "methode": "Indirecte controle via dochtervennootschap",
+        "wat": "Controle uitgeoefend via een **tussenvennootschap** die zelf gecontroleerd wordt — wordt bij rechtstreekse bevoegdheid geteld (art. 1:16)",
+        "wettelijke basis": "WVV art. 1:16",
+        "typische context": "Holdingstructuren, internationale groepen"
+      },
+      {
+        "methode": "Controle via aandelenklassen / meervoudig stemrecht",
+        "wat": "Houder van een **soort aandelen** met meervoudig stemrecht haalt > 50% van de stemmen met minder dan 50% van het kapitaal",
+        "wettelijke basis": "WVV art. 5:42, 7:52, 7:53",
+        "typische context": "Familiebedrijf met oprichtersklasse; tech-IPO met dual-class"
+      },
+      {
+        "methode": "Controle via certificering",
+        "wat": "Aandelen ingebracht in een **administratiekantoor**; bestuurder van de emittent oefent stemrecht uit — economische rechten blijven bij certificaathouders",
+        "wettelijke basis": "WVV art. 7:61, 5:48",
+        "typische context": "Familiale opvolging zonder controleverlies"
+      },
+      {
+        "methode": "Controle in feite",
+        "wat": "Zelfs zonder meerderheid: wanneer de aandeelhouder op de laatste twee AV's op eigen kracht de meerderheid van de stemmen heeft uitgebracht (art. 1:14 § 3)",
+        "wettelijke basis": "WVV art. 1:14 § 3",
+        "typische context": "Sterk verspreid aandeelhouderschap (vooral genoteerde NV's) waar absenteïsme de feitelijke meerderheid laag legt"
+      },
+      {
+        "methode": "Openbaar overnamebod",
+        "wat": "Persoon verwerft via een openbaar bod een controlerend belang in een **genoteerde** vennootschap — **verplicht bod** vanaf 30% (art. 5 OBW 2007)",
+        "wettelijke basis": "Wet Openbare Overnamebiedingen (1 april 2007); KB 27 april 2007",
+        "typische context": "Genoteerde NV; mandatory bid bij overschrijden 30%-drempel"
+      },
+      {
+        "methode": "Uitkoopbod (squeeze-out)",
+        "wat": "Aandeelhouder met **95%** kan minderheid uit­kopen tegen consignatie van prijs — niet-genoteerde NV (art. 7:82 § 1) of na een openbaar bod op genoteerde NV",
+        "wettelijke basis": "WVV art. 7:82",
+        "typische context": "Eindfase van een take-private of post-overname"
+      }
+    ]
+  },
+  "kerninzichten": [
+    {
+      "titel": "Controle ≠ meerderheid van het kapitaal",
+      "text": "De wetgever definieert controle via **beslissende invloed** op de **aanstelling van bestuurders** of de **oriëntatie van het beleid** — niet via een kapitaal­drempel. Een houder van 30% met dubbel stemrecht én een stemafspraak met een kleinere co-investeerder kan even goed controle hebben als een 60%-aandeelhouder.",
+      "confidence": "grounded",
+      "source": {
+        "short": "WVV art. 1:14 § 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_1_12",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Wettelijke vermoedens zijn er om bewijs te vergemakkelijken",
+      "text": "Art. 1:14 § 2 lijst de gevallen op waarin controle **onweerlegbaar in rechte** is (meerderheid stemrechten, bevoegdheid bestuurders aan te stellen, controle krachtens overeenkomst, controle van rechtswege via statuten). § 3 voorziet een **weerlegbaar feitelijk vermoeden**. Wie de vermoedens niet kent, ontwerpt **onbedoelde controle** in zijn deal-structuur.",
+      "confidence": "grounded",
+      "source": {
+        "short": "WVV art. 1:14 § 2 en § 3"
+      }
+    },
+    {
+      "titel": "Indirecte controle wordt opgeteld",
+      "text": "Art. 1:16 WVV bepaalt dat **indirecte** controle (via dochters of tussenpersonen) bij de **directe** wordt **opgeteld**. Voor de berekening van het controle- en belangenpercentage moet dus altijd de **volledige structuur** in kaart worden gebracht — niet alleen het rechtstreekse belang.",
+      "confidence": "grounded",
+      "source": {
+        "short": "WVV art. 1:16"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_1_34",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "controle",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "exclusieve-controle",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "gezamenlijke-controle",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "aandeelhoudersovereenkomst",
+      "target_status": "pending"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "stemovereenkomst",
+      "target_status": "pending"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "certificering-aandelen",
+      "target_status": "pending"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "meervoudig-stemrecht",
+      "target_status": "pending"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "verplicht-overnamebod",
+      "target_status": "pending"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "uitkoopbod-squeeze-out",
+      "target_status": "pending"
+    }
+  ]
+}

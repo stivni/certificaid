@@ -1,0 +1,147 @@
+{
+  "id": "vennootschapsconflict",
+  "naam": "Vennootschapsconflict",
+  "node_type": "cluster",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VIII",
+    "3.0.VIII.A",
+    "3.0.VIII.D"
+  ],
+  "situering": "Vennootschappen zijn duurzame samenwerkingsverbanden tussen aandeelhouders, bestuurders en organen — maar net die duurzaamheid maakt conflicten quasi-onvermijdelijk. De wetgever heeft daarom in de WVV (Boek 2 Titel 7 voor BV/NV) en in de boekspecifieke regimes voor BV/NV/CV een arsenaal aan rechtsfiguren voorzien om geschillen te ontmijnen, een vennoot uit te kopen of de vennootschap te ontbinden. Dit clusterrecord biedt de overkoepelende kaart van die instrumenten; specifieke rechtsfiguren krijgen een eigen record.",
+  "definitie": "Een vennootschapsconflict is een aanhoudend geschil binnen, of rond de werking van, een vennootschap dat de normale besluitvorming of voortzetting van de zaken bemoeilijkt. Het kan ontstaan tussen aandeelhouders onderling (typisch meerderheid-minderheid of deadlock 50/50), tussen aandeelhouders en het bestuur, of tussen verschillende bestuursorganen.",
+  "bouwstenen": [
+    {
+      "titel": "Conflict binnen het aandeelhouderslichaam",
+      "wat": "Geschil tussen aandeelhouders onderling: typisch de **meerderheid die de minderheid uitsluit van besluitvorming of waardecreatie**, of een **deadlock** waarbij twee blokken (vaak 50/50) elkaar permanent neutraliseren.",
+      "waarom": "De BV en NV werken met meerderheidsbesluitvorming (één aandeel, één stem in beginsel). Dat geeft de meerderheid macht; pas wanneer zij die macht aanwendt op een wijze die het vennootschapsbelang of het gewettigd belang van de minderheid schendt, ontstaat een conflict dat ingrijpen rechtvaardigt.",
+      "in_praktijk": "Klassiek voorbeeld: meerderheid keert systematisch geen dividend uit en betaalt zichzelf bestuurdersvergoedingen die de winst absorberen.",
+      "grondslag": "WVV art. 2:60 e.v. (geschillenregeling), art. 2:73 (gerechtelijke ontbinding)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "WVV__art_2_60",
+          "WVV__art_5_125"
+        ]
+      }
+    },
+    {
+      "titel": "Conflict tussen aandeelhouder en bestuur",
+      "wat": "Aandeelhouders die menen dat het bestuur de vennootschap schaadt door fouten, belangenconflicten of mismanagement.",
+      "waarom": "Aandeelhouders dragen de **residuele risico's** van bestuurshandelingen maar besturen niet rechtstreeks. Wanneer kwijting wordt geweigerd of vermoedens van wanbeheer ontstaan, biedt de WVV instrumenten om zelf op te treden namens de vennootschap (minderheidsvordering) of haar werking te onderzoeken (deskundigenonderzoek).",
+      "in_praktijk": "Aandeelhouders met 1% in een NV (of € 1.250.000-waarde) kunnen een minderheidsvordering instellen na weigering van kwijting; voor onderzoek van bestuurshandelingen volstaat 10%.",
+      "grondslag": "WVV art. 5:104 (BV minderheid), art. 7:157 (NV minderheid), art. 5:106 (BV deskundigen), art. 7:160 (NV deskundigen)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-Minority-Belgium-2022-NL__sec_recht-om-de-ontbinding-van-de-vennootschap-te-vorderen"
+        ]
+      }
+    },
+    {
+      "titel": "Conflict tussen bestuursorganen",
+      "wat": "Geschillen tussen leden van een collegiaal bestuur (NV met raad van bestuur, BV met collegiaal bestuur), of tussen directieraad en raad van toezicht in een duaal NV-bestuur.",
+      "waarom": "Collegialiteit vereist meerderheidsbesluitvorming binnen het orgaan. Een gepatte bestuursraad of geblokkeerde raad van toezicht legt de vennootschap stil. Statutaire deadlock-clausules (doorslaggevende stem voorzitter) of ontslag-en-vervanging zijn de eerste remedies; faalt dit dan komen gerechtelijke instrumenten in beeld.",
+      "in_praktijk": "Twee 50/50-aandeelhouders zijn elk bestuurder en weigeren te beslissen: de algemene vergadering moet ingrijpen of de geschillenregeling/ontbinding wordt ingeroepen.",
+      "grondslag": "WVV art. 7:73 (NV monistisch bestuur), art. 2:73 (gerechtelijke ontbinding bij blijvende onenigheid)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "MvT-WVV-2018__art_7_157",
+          "WVV__art_2_60"
+        ]
+      }
+    },
+    {
+      "titel": "Wettelijke instrumenten — overzicht",
+      "wat": "De WVV biedt vijf hoofdfiguren: **minderheidsvordering** (aansprakelijkheidsactie namens vennootschap), **uittredings**- en **uitsluitingsvordering** (gedwongen overname/overdracht), **deskundigenonderzoek** (onderzoek bestuur), **gerechtelijke ontbinding** (wettige redenen, diepgaande onenigheid), en **vordering tot nietigverklaring van AV-besluiten** (misbruik van meerderheid).",
+      "waarom": "Geen enkel instrument lost alle conflicten op: de keuze hangt af van **doel** (geld terugkrijgen versus aandeelhouder lozen versus vennootschap ontbinden) en **drempel** (1%, 10%, 30%).",
+      "grondslag": "WVV art. 2:60–2:69 (geschillenregeling), art. 5:104 e.v., art. 7:157 e.v., art. 2:73",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "MvT-WVV-2018__art_2_117",
+          "MvT-WVV-2018__art_2_119"
+        ]
+      }
+    },
+    {
+      "titel": "Contractuele en alternatieve geschilbeslechting",
+      "wat": "Naast wettelijke vorderingen worden conflicten ook contractueel of buitengerechtelijk opgelost: **deadlock-clausules in de aandeelhoudersovereenkomst** (Russian roulette, Texas shoot-out, koop-of-verkoop-aanbod), **arbitrage**, **mediation** en **expertise**.",
+      "waarom": "Gerechtelijke procedures zijn traag, kostbaar en publiek. Een SHA met voorgeprogrammeerde exit-mechanismes lost veel conflicten op vóór ze de rechtbank bereiken. Verwijst door naar het record `exit-mechanismen-sha`.",
+      "in_praktijk": "Een SHA met Texas shoot-out: bij blijvende onenigheid biedt vennoot A een prijs aan vennoot B; B kiest of hij aan die prijs verkoopt of A uitkoopt.",
+      "grondslag": "Aandeelhoudersovereenkomst — vrijheid van overeenkomst (art. 1101 BW); zie record `exit-mechanismen-sha`",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          "IBA-SHA-Belgium-2024-NL__sec_11-welke-inhoud-bevatten-aandeelhoudersovereenkomsten-in-bel",
+          "IBA-SHA-Belgium-2024-NL__sec_17-is-het-toegestaan-dat-een-clausule-in-een-aandeelhouderso"
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "Conflicten escaleren typisch via een **trapsgewijze remedie-keten**: eerst onderhandelen, dan SHA-mechanisme inroepen, dan deskundigenonderzoek of minderheidsvordering, en als ultiem middel uittreding/uitsluiting of ontbinding.",
+    "Genoteerde vennootschappen vallen **buiten** de geschillenregeling van WVV-titel 7 (art. 2:60) — daar bestaan andere beschermingsmechanismes (FSMA-toezicht, openbaar overnamebod, uitkoopbod)."
+  ],
+  "vergelijkingsparen": [
+    {
+      "met": "exit-mechanismen-sha",
+      "verschil": "Geschillenregeling = wettelijke gerechtelijke procedure (titel 7 WVV, niet beschikbaar voor genoteerde vennootschappen); exit-mechanismen-sha = contractuele alternatieven die conflict oplossen vóór rechtbank.",
+      "trigger": "Stagiair moet kiezen of cliënt eerst de SHA-clausule activeert of meteen naar de rechter gaat — kostbaarheid en snelheid bepalen."
+    }
+  ],
+  "valkuilen": [
+    "Een aandeelhouder vraagt 'wat zijn mijn rechten?' — beantwoord niet abstract, maar vraag eerst: **wil je geld zien (vorderingen) of weg uit de vennootschap (uittreding) of de vennootschap stoppen (ontbinding)**? Het remedie volgt het doel.",
+    "Drempels niet verwarren: 1% (NV minderheidsvordering) ≠ 10% (BV minderheidsvordering, deskundigenonderzoek) ≠ 30% (uitsluiting BV/NV).",
+    "Geschillenregeling (art. 2:60-69) geldt niet voor de CV, niet voor genoteerde vennootschappen en niet voor de maatschap (boek 4 heeft een eigen regime met art. 4:17)."
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "besloten-vennootschap-bv",
+      "target_status": "exists"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "naamloze-vennootschap-nv",
+      "target_status": "exists"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "algemene-vergadering",
+      "target_status": "exists"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "bestuursorgaan",
+      "target_status": "exists"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "exit-mechanismen-sha",
+      "target_status": "exists"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "gerechtelijke-ontbinding",
+      "target_status": "exists"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "aandeelhoudersovereenkomst",
+      "target_status": "exists"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VIII",
+    "linked_anchors": [
+      "3.0.VIII"
+    ],
+    "reviewed_by": null,
+    "created_at": "2026-05-20T10:00:00Z"
+  },
+  "schema_version": "1.6"
+}

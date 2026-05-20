@@ -1,0 +1,63 @@
+{
+  "id": "misbruik-van-meerderheid",
+  "naam": "Misbruik van meerderheid",
+  "node_type": "begrip",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VIII",
+    "3.0.VIII.D"
+  ],
+  "situering": "Misbruik van meerderheid is een doctrinaire figuur die de macht van de meerderheid in toom houdt: aandeelhoudersbesluiten die uitsluitend de meerderheid bevoordelen ten koste van de minderheid en geen evenredig vennootschapsbelang dienen, worden door de rechter buitenwerking gesteld. De figuur is **niet rechtstreeks gecodificeerd** maar door vaste Cassatie-rechtspraak erkend.",
+  "definitie": "Misbruik van meerderheid is de figuur waarbij de meerderheid in de algemene vergadering haar stemkracht aanwendt voor een besluit dat (a) uitsluitend het belang van de meerderheid (of een specifieke groep) dient, (b) zonder redelijke verhouding tot het belang van de vennootschap, en (c) ten koste van de minderheid. De drie elementen moeten cumulatief vervuld zijn — een louter onvoordelig besluit voor de minderheid volstaat niet.",
+  "in_praktijk": [
+    "Drie klassieke types: **uithongering** (systematisch geen dividend + hoge meerderheidsvergoedingen), **vermogenstransfers** (verkoop activa onder marktwaarde aan gelieerde partijen), **verdunning** (kapitaalverhogingen met uitsluiting voorkeurrecht zonder objectieve rechtvaardiging).",
+    "Het Hof van Cassatie hanteert het **rupture d'égalité-criterium**: ongelijke behandeling van aandeelhouders zonder objectieve en redelijke rechtvaardiging."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Brugse Brouwerij BV besluit de meerderheid een nieuwe productielijn te financieren via een kapitaalverhoging met uitsluiting van het voorkeurrecht — terwijl een banklening tegen marktvoorwaarden beschikbaar was. De minderheid wordt verwaterd; de transactie heeft geen evenredig vennootschapsbelang.",
+      "confidence": "inferred"
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "met": "misbruik-van-minderheid",
+      "verschil": "Misbruik van meerderheid = meerderheid neemt besluit dat enkel haar bevoordeelt; misbruik van minderheid = minderheid blokkeert een redelijk besluit (typisch statutenwijziging met 75%-meerderheid) zonder vennootschapsbelang.",
+      "trigger": "Stagiair kijkt naar wie het besluit pusht (positief gedrag) of blokkeert (obstructief gedrag)."
+    }
+  ],
+  "valkuilen": [
+    "**Bewijslast hoog**: louter onvoordelig of impopulair besluit volstaat niet — onevenredigheid met vennootschapsbelang moet aangetoond worden.",
+    "Misbruik van meerderheid is **geen autonome vordering** maar een **grond** voor nietigverklaring (art. 2:42) of voor schadevergoeding."
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "vennootschapsconflict",
+      "target_status": "exists"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "misbruik-van-minderheid",
+      "target_status": "pending",
+      "aspect": "actor van het misbruik"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "nietigverklaring-algemene-vergaderingsbesluit",
+      "target_status": "exists"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VIII",
+    "linked_anchors": [
+      "3.0.VIII"
+    ],
+    "reviewed_by": null,
+    "created_at": "2026-05-20T10:00:00Z"
+  },
+  "schema_version": "1.6"
+}

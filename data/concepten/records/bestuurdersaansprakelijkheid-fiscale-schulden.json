@@ -1,0 +1,95 @@
+{
+  "id": "bestuurdersaansprakelijkheid-fiscale-schulden",
+  "naam": "Bestuurdersaansprakelijkheid voor fiscale schulden (bedrijfsvoorheffing, btw)",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VII",
+    "3.0.VII.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T13:24:10Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VII",
+    "linked_anchors": [
+      "3.0.VII"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Bestuurders, zaakvoerders en personen met werkelijke bestuursbevoegdheid kunnen persoonlijk en **hoofdelijk** aansprakelijk worden gesteld voor onbetaalde **bedrijfsvoorheffing** en **btw** wanneer hun **fout** bij het bestuur tot de niet-betaling heeft geleid (art. 442quater WIB92 voor bedrijfsvoorheffing en directe belastingen; art. 93undecies C btw-Wetboek voor btw). Bij herhaalde niet-betaling wordt de **fout vermoed**: minimaal drie kwartalen niet-betaalde bedrijfsvoorheffing (of analoog voor btw) in een referentieperiode triggert het vermoeden — dat de bestuurder moet weerleggen door financiële tegenslagen aan te tonen die hem niet konden worden verweten.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "wet",
+      "short": "WIB92 art. 442quater; btw-Wetboek art. 93undecies C"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MvT-WVV-2018__art_1_5__sub_par3_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "Net als bij de sociale schulden (XX.226 WER) wilde de wetgever de **fiscus** een **versterkte verhaalsmogelijkheid** geven — niet beperkt tot opzet maar geactiveerd door een **vermoeden** dat herhaalde niet-betaling oplevert. De regeling geldt **onafhankelijk** van een faillissement: ze kan ook lopen tijdens normale bedrijvigheid.",
+    "confidence": "inferred"
+  },
+  "voorwaarden": [
+    {
+      "voorwaarde": "**Bestuursfout** die heeft bijgedragen tot de niet-betaling. Bij **herhaalde** niet-betaling (≥3 kwartalen bedrijfsvoorheffing of ≥2 vervaldagen btw in een referentieperiode) wordt de fout **vermoed**.",
+      "confidence": "inferred"
+    },
+    {
+      "voorwaarde": "**Tegenbewijs** mogelijk: financiële moeilijkheden te wijten aan externe oorzaken (klant-faillissement, overmacht, betalingstermijnen door overheid), waar de bestuurder geen schuld aan heeft.",
+      "confidence": "inferred"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Procedure",
+      "betekenis": "De ontvanger spreekt de bestuurder aan via een **kennisgeving** waarbij aansprakelijkheid wordt aangekondigd. De bestuurder heeft een termijn om te reageren met tegenbewijs. Bij betwisting volgt eventueel gerechtelijke procedure voor de fiscale rechter.",
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "De cap van art. 2:56 WVV geldt **niet** voor fiscale-schulden-aansprakelijkheid — ook hier wilde de wetgever de fiscus volle verhaalsmogelijkheid geven.",
+      "vaak_fout": "Cap inroepen tegen 442quater-vordering.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_1_5__sub_par3_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "advies": "Begrijp dat de fout **vermoed** wordt bij herhaalde niet-betaling — de bewijslast ligt bij de bestuurder, niet bij de fiscus. Verweer steunt op het aantonen van externe oorzaken (faillissement van een grote klant, betalingsachterstand door overheid).",
+      "vaak_fout": "Aannemen dat de fiscus de fout moet bewijzen — verwarring met algemene civielrechtelijke aansprakelijkheid.",
+      "confidence": "inferred"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target_id": "bestuurdersaansprakelijkheid"
+    },
+    {
+      "type": "uitzondering-op",
+      "target_id": "aansprakelijkheidsbeperking-bestuurder",
+      "scope": "Cap geldt niet voor fiscale-schulden-aansprakelijkheid"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target_id": "bestuurdersaansprakelijkheid-sociale-schulden",
+      "aspect": "Beide regimes zijn objectieve verhalsversterkers voor schuldeisers van openbaar belang"
+    }
+  ]
+}

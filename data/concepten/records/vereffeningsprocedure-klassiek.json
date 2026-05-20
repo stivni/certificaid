@@ -1,0 +1,218 @@
+{
+  "id": "vereffeningsprocedure-klassiek",
+  "naam": "Klassieke vereffeningsprocedure",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IX",
+    "3.0.IX.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:25:58Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IX",
+    "linked_anchors": [
+      "3.0.IX"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De **klassieke vereffeningsprocedure** is het standaardpad om een ontbonden vennootschap af te wikkelen wanneer niet alle voorwaarden van art. 2:80 WVV (vereffening in één akte) zijn vervuld. Zij doorloopt vijf fasen: (1) ontbindingsbesluit met staat van activa en passiva, (2) benoeming en bekendmaking vereffenaar, (3) tegeldemaking van activa en betaling van schulden, (4) halfjaarlijkse rapportage aan de griffie (eerste jaar) of jaarlijkse jaarrekening (vanaf het tweede jaar), en (5) cijfermatig verslag, AV-goedkeuring en sluiting met bekendmaking.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV boek 2, titel 8, hoofdstuk 1 — afdeling vereffening"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2022-04__sec_vereffening-na-vrijwillige-ontbinding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_75",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "De klassieke procedure veronderstelt dat tussen ontbinding en sluiting **tijd verstrijkt**: er moeten activa worden verkocht, schuldeisers worden betaald, geschillen worden uitgedragen. Voor de accountant betekent dit dat er **meerdere verslagen** zullen worden gevraagd: bij de start (verslag op staat van activa en passiva), gedurende de procedure (omstandige staat, jaarrekening in vereffening) en bij sluiting (verslag op het cijfermatig verslag van de vereffenaar).",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2022-04__sec_vereffening-na-vrijwillige-ontbinding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-ontbinding-vereffening__sec_i-4-termijnen-in-acht-te-nemen-bij-de-uitvoering-van-de-opdracht",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Fase 1 — Ontbindingsbesluit + staat van activa en passiva",
+      "wat": "Bestuursorgaan stelt staat van activa en passiva op (datum ≤ 3 maanden vóór AV) + verslag bestuur dat het voorstel toelicht. Beroepsbeoefenaar (commissaris/bedrijfsrevisor/gecertificeerd accountant) brengt verslag uit. AV beslist tot ontbinding bij versterkte meerderheid.",
+      "waarom": "De staat van activa en passiva is de **startbalans van de vereffening** — schuldeisers en aandeelhouders kunnen daaraan zien wat er nog te verdelen valt en de beroepsbeoefenaar kan oordelen of de vennootschap zonder tekort afsluiten kan.",
+      "in_praktijk": "De accountant verifieert dat alle activa zijn opgenomen tegen realisatiewaarde, dat voorzieningen voor sluitingskosten zijn aangelegd en dat alle gekende schulden voorkomen — ook latente fiscale schulden en RSZ.",
+      "grondslag": "WVV art. 2:71",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Fase 2 — Benoeming + bekendmaking vereffenaar",
+      "wat": "AV benoemt vereffenaar bij gewone meerderheid (tenzij statuten anders bepalen). De vereffenaar vervangt het bestuursorgaan voor alle handelingen die nodig of dienstig zijn voor de vereffening. Benoeming wordt bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad.",
+      "waarom": "Derden moeten weten met wie zij voortaan moeten contracteren — vandaar de tijdige publicatie. Zolang niemand wordt benoemd, treden de bestuurders van rechtswege op als vereffenaar (art. 2:79 WVV).",
+      "grondslag": "WVV art. 2:75, art. 2:79",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_75",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_79",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Fase 3 — Tegeldemaking en betaling schulden",
+      "wat": "Vereffenaar verkoopt de activa aan de beste prijs, int openstaande vorderingen en betaalt schuldeisers **naar evenredigheid** en zonder onderscheid tussen opeisbare en niet-opeisbare schulden, onder voorbehoud van de rechten van bevoorrechte schuldeisers.",
+      "waarom": "Gelijkheid van schuldeisers is een fundamenteel beginsel van het vereffeningsrecht — preferent geprivilegieerden eerst, gewone schuldeisers daarna pro rata.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Verffabriek Veurne BV heeft na tegeldemaking € 95.000 cash. Bevoorrechte schulden RSZ + BV: € 22.000 → integraal betaald. Gewone schulden leveranciers + bank: € 90.000 → 81 % pro rata uitbetaald (€ 73.000 / € 90.000)."
+        }
+      ],
+      "grondslag": "WVV art. 2:87 + art. 2:88 (voor bepaalde handelingen: machtiging AV)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_87",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_88",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Fase 4 — Halfjaarlijkse staat + jaarrekening in vereffening",
+      "wat": "**Eerste jaar**: vereffenaar dient in de **7e en 13e maand** na invereffeningstelling een **omstandige staat** in bij de griffie van de ondernemingsrechtbank (per zes maanden). **Vanaf het tweede jaar**: **jaarlijkse jaarrekening** met vermelding waarom de vereffening niet kon worden voltooid (art. 2:99).",
+      "waarom": "Schuldeisers en aandeelhouders moeten kunnen volgen of de vereffening vordert. De omstandige staat bevat ontvangsten, uitgaven, uitkeringen en wat nog moet worden vereffend.",
+      "grondslag": "WVV art. 2:86; art. 2:99",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_86",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_99",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-04__sec_vereffening-na-vrijwillige-ontbinding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Fase 5 — Cijfermatig verslag en sluiting",
+      "wat": "Bij de beëindiging van de vereffening en **ten minste één maand vóór de AV** legt de vereffenaar op de zetel een **cijfermatig verslag** neer (vereffenings-rekeningen + stavingsstukken). De commissaris controleert dat verslag; bij afwezigheid van commissaris hebben de aandeelhouders zelf inzagerecht. AV spreekt de sluiting uit; sluiting wordt bekendgemaakt overeenkomstig art. 2:6 + art. 2:12. Vennootschap wordt geschrapt uit het KBO.",
+      "waarom": "Het cijfermatig verslag is de **eindbalans** van de vereffening: alle ontvangsten, alle uitgaven, het saldo dat aan aandeelhouders is uitgekeerd. Bekendmaking geeft schuldeisers nog een vorderingstermijn (5 jaar) waarbinnen zij vergeten activa kunnen opvorderen via heropening.",
+      "grondslag": "WVV art. 2:90 (BV/CV/NV); art. 2:100; art. 2:102",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_90",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_102",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-04__sec_sluiting-vereffening-na-vrijwillige-ontbinding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "tegenhanger": "vereffening-in-een-akte",
+      "verschil": "Klassiek = meerdere fasen over **maanden of jaren**, met halfjaarlijkse rapportage en aparte sluitings-AV. Eén-akte = ontbinding én sluiting in **één notariële akte** op dezelfde dag, mits alle schulden vooraf zijn voldaan.",
+      "trigger": "Tussen ontbinding en sluiting tijd verstrijken (te tegeldemaken activa, te innen vorderingen, lopende geschillen)?"
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "**Herroeping vóór sluiting blijft mogelijk.** Tot zolang de sluiting van de vereffening niet door de AV is uitgesproken, kan een nieuwe AV beslissen om de vereffening te beëindigen en de vennootschap terug operationeel te maken (mits de vereffeningsboeken zorgvuldig worden afgesloten). Praktisch zeldzaam, maar conceptueel mogelijk.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_2_67",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "vereffening"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "vereffenaar",
+      "target_status": "pending"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "vereffening-in-een-akte",
+      "facet": "aspect: tijdsduur en formaliteiten",
+      "target_status": "pending"
+    }
+  ]
+}

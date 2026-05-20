@@ -4,16 +4,19 @@ tags:
 - concept
 - cluster
 - po-1-1
+- po-3-0
 linked_anchors:
 - 1.1.II.T
+- 3.0.IX
 programmaonderdelen:
 - '1.1'
+- '3.0'
 confidence: grounded
 node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereffening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-20'
 ---
 # Vereffening van een vennootschap ⚖️
 
@@ -141,6 +144,8 @@ Na betaling van alle schulden + sluitingskosten: het resterende eigen vermogen (
 
 - **Getriggerd door**: [[continuiteitsbeginsel]]
 - **Vereist kennis van**: [[voorzieningen]]
+- **Vereist kennis van**: [[vereffeningsprocedure-klassiek]]
+- **Vereist kennis van**: [[vereffenaar]]
 
 ## Voorbeelden
 

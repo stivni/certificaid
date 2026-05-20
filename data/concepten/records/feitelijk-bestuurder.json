@@ -1,0 +1,115 @@
+{
+  "id": "feitelijk-bestuurder",
+  "naam": "Feitelijk bestuurder",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VII",
+    "3.0.VII.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T13:24:10Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VII",
+    "linked_anchors": [
+      "3.0.VII"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een **feitelijk bestuurder** is een persoon die — zonder formeel als lid van het bestuursorgaan benoemd te zijn — **werkelijke bestuursbevoegdheid** uitoefent over de vennootschap (beslissingsmacht, leiding geven aan de operationele activiteit, ondertekening van contracten in eigen naam, ...). Voor de toepassing van de **aansprakelijkheidsregimes** wordt hij **gelijkgesteld** met een formele bestuurder (uitdrukkelijk in art. 2:56 WVV voor de cap, en in de insolventie-aansprakelijkheid art. XX.225-XX.227 WER en art. XX.226 WER voor sociale schulden).",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 2:56 — WER art. XX.225-XX.227"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_236",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_1_5__sub_par1_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "Het concept voorkomt dat de aansprakelijkheidsregels ontweken worden door iemand **buiten het officiële bestuursregister** (stroman-constructies, dominante aandeelhouder die het beleid stuurt zonder titel). De rechter kijkt naar de **realiteit van de macht**, niet naar de notariële akte.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_236",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_1_5__sub_par1_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Aanwijzingen van feitelijk bestuur",
+      "betekenis": "Cumulatief beoordeeld: ondertekening van belangrijke contracten, instructies geven aan personeel en aan de officiële bestuurders, controle over de bankrekening (volmacht), aanwezigheid bij beslissende vergaderingen zonder formele uitnodiging, exclusief beslissingsrecht in de praktijk over investeringen of personeel.",
+      "confidence": "inferred"
+    },
+    {
+      "aspect": "Gevolgen voor aansprakelijkheid",
+      "betekenis": "Een vastgesteld feitelijk bestuurder draagt **dezelfde** aansprakelijkheidsregimes als een formele bestuurder: cap (art. 2:56), exoneratieverbod (art. 2:57), specifieke regimes bij onrechtmatige uitkering, en in het bijzonder de insolventie-aansprakelijkheden van art. XX.225 (kennelijk grove fout) en art. XX.226 (sociale schulden).",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_236",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "**Pieter Vermeulen** is enige aandeelhouder van **Brugse Brouwerij BV** maar weigert formeel bestuurder te worden. Zijn vrouw is in de statuten benoemd als enige zaakvoerder. In werkelijkheid neemt Pieter alle commerciële, personeel- en investeringsbeslissingen, en verschijnt hij steeds bij de bank. Bij een latere faillietverklaring zal de curator de feitelijke-bestuurder-kwalificatie inroepen om Pieter persoonlijk aan te spreken onder art. XX.225-XX.226 WER.",
+      "cast": [
+        "Pieter Vermeulen",
+        "Brugse Brouwerij BV"
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Niet elke **invloedrijke aandeelhouder** is feitelijk bestuurder. Een aandeelhouder die enkel via de algemene vergadering stemt blijft binnen zijn aandeelhoudersrol — feitelijk bestuur vereist **executieve handelingen** die normalerwijs aan het bestuursorgaan toekomen.",
+      "vaak_fout": "Doorbraak van aansprakelijkheid en feitelijk bestuurschap verwarren — twee aparte leerstukken met eigen voorwaarden.",
+      "confidence": "inferred"
+    }
+  ],
+  "edges": [
+    {
+      "type": "verwijst-naar",
+      "target_id": "bestuurdersaansprakelijkheid"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target_id": "doorbraak-aansprakelijkheid",
+      "target_status": "pending",
+      "aspect": "Beide passen de bestuurders-/aandeelhoudersafscherming aan; feitelijk bestuurschap richt zich op stille leiding, doorbraak op misbruik"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "bestuursorgaan"
+    }
+  ]
+}

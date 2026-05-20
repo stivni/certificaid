@@ -1,0 +1,156 @@
+{
+  "id": "indemnification-overname",
+  "naam": "Vrijwaringsmechanisme in overnameovereenkomst",
+  "naam_alternatief": "indemnification clause",
+  "node_type": "cluster",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.A",
+    "3.0.V.B",
+    "3.0.V.E",
+    "3.0.V.F"
+  ],
+  "situering": "De vrijwaring vertaalt een R&W-schending in een betaalverplichting. Onder Belgisch recht moet ze contractueel uitgewerkt worden — er is geen standaardregime. De kalibratie via de minimis, basket, cap en termijn weerspiegelt de risicoverdeling tussen koper en verkoper.",
+  "definitie": "Een vrijwaringsclausule (indemnification) verplicht de verkoper om de koper (en/of de doelvennootschap) schadeloos te stellen voor verlies dat voortvloeit uit een schending van een verklaring of waarborg, of uit een specifiek vermeld risico, binnen contractueel afgebakende beperkingen.",
+  "bouwstenen": [
+    {
+      "titel": "De minimis-drempel",
+      "wat": "Een drempelbedrag per individuele claim — claims onder de drempel zijn niet ontvankelijk. Beoogt verkoper te beschermen tegen kleine, administratieve claims.",
+      "waarom": "Vermijdt dat verkoper met triviale claims wordt overstelpt en moedigt koper aan om claims te aggregreren.",
+      "in_praktijk": "Typisch 0,1–0,5 % van de prijs per individuele claim.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.6 De minimis",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-6-indemnification"
+        ]
+      }
+    },
+    {
+      "titel": "Basket (mandje)",
+      "wat": "Een aggregatie-drempel: pas zodra de cumulatieve claims een bepaald bedrag bereiken, kan de koper iets vorderen. Twee varianten: 'tipping basket' (alles boven de drempel inclusief het mandje zelf) of 'deductible basket' (alleen het bedrag boven de drempel).",
+      "waarom": "Zelfde rationale als de minimis maar op aggregatieniveau: verkoper aanvaardt een vrijwaring pas als de totale impact wezenlijk is.",
+      "in_praktijk": "Typisch 0,5–1 % van de prijs als drempel; tipping basket is gangbaar bij seller's market, deductible bij buyer's market.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.6 De minimis",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-6-indemnification"
+        ]
+      }
+    },
+    {
+      "titel": "Cap (plafond)",
+      "wat": "Het maximumbedrag waarvoor de verkoper aansprakelijk is. Cap geldt typisch voor het geheel van algemene R&W-claims, vaak met een hoger cap of geen cap voor specifieke categorieën (titel, fiscaliteit, fraude).",
+      "waarom": "Beperkt verkoper's downside en is essentieel voor een 'clean exit'.",
+      "in_praktijk": "Typisch 10–30 % van de prijs voor algemene R&W; voor fundamental R&W (titel, kapitaal) tot 100 %; voor fraude geen cap.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.6 Cap",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-6-indemnification"
+        ]
+      }
+    },
+    {
+      "titel": "Termijn (survival period)",
+      "wat": "Hoe lang na closing kan een claim worden ingediend. Verschilt per categorie.",
+      "waarom": "Een tijdslimiet brengt rechtszekerheid en koppelt aan de externe verjarings- en fiscale onderzoekstermijnen.",
+      "in_praktijk": "Algemene R&W: 18–36 maanden; fiscaliteit en sociale zekerheid: tot het einde van de wettelijke onderzoekstermijn (typisch 3–7 jaar); milieu: tot 10 jaar; titel aandelen: 30 jaar (verjaringstermijn); fraude: geen limiet of zeer lang.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.6 Duration",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-6-indemnification"
+        ]
+      }
+    },
+    {
+      "titel": "Specifieke vrijwaringen",
+      "wat": "Voor gekende of geïdentificeerde risico's (vaak uit de DD) wordt een aparte vrijwaring opgenomen, los van de algemene R&W. Heeft typisch eigen cap, eigen duur en geen de minimis.",
+      "waarom": "Voorkomt dat een gekend risico de algemene cap opvreet ten nadele van onbekende issues; verschuift het risico expliciet naar de verkoper.",
+      "in_praktijk": "Een lopend belastinggeschil van € 200.000 over de jaren 2022–2024 krijgt een specifieke vrijwaring met cap € 250.000 en duur tot afsluiting van het bezwaar — onafhankelijk van de algemene R&W-cap.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §4.2",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_4-2-typical-issues-in-a-belgian-m-a-transaction-an-overview"
+        ]
+      }
+    },
+    {
+      "titel": "Seller-protections",
+      "wat": "Aanvullende clausules die de verkoper beschermen: neutralisatie van fiscale voordelen die de koper haalt uit de schade, conduct of defense van derde-partij-claims, niet-aansprakelijkheid voor wetswijzigingen.",
+      "waarom": "Vermijden dat de koper dubbel wordt vergoed of dat verkoper opdraait voor zaken buiten zijn invloed.",
+      "in_praktijk": "Een DGS-claim die de doelvennootschap later kan recupereren via belastingaftrek: de schade onder vrijwaring wordt verminderd met het belastingvoordeel.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.6 Seller protections",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-6-indemnification"
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Vrijwaringsstructuur SPA Brugse Brouwerij BV",
+      "cast": [
+        "Brugse Brouwerij BV",
+        "Aurelia Holding NV",
+        "Pieter Vermeulen"
+      ],
+      "omschrijving": "Aurelia Holding NV koopt Brugse Brouwerij BV voor € 4.500.000 van Pieter Vermeulen. Volgende vrijwaringsstructuur wordt onderhandeld.",
+      "stappen": [
+        "Algemene R&W: cap 25 % = € 1.125.000; basket (tipping) € 45.000 (1 %); de minimis € 9.000 (0,2 %); duur 24 maanden.",
+        "Fundamental R&W (titel, kapitaal, vennootschapsbestaan): cap 100 % = € 4.500.000; geen basket; duur 7 jaar.",
+        "Fiscale R&W: cap 50 % = € 2.250.000; geen basket; duur tot einde wettelijke termijn fiscale aanslag (7 jaar bij bedrog, anders 3 jaar).",
+        "Specifieke vrijwaring lopend arbeidsgeschil: cap € 75.000 (= ingeschat maximum); geen basket; duur tot eindvonnis.",
+        "Fraude: geen cap, geen drempel, geen termijn (binnen verjaring 30 jaar)."
+      ]
+    }
+  ],
+  "in_praktijk": [
+    "De accountant kan helpen om de cap-niveaus economisch te onderbouwen — wat is de redelijke worst-case-blootstelling per categorie?",
+    "De vrijwaring wordt vaak gecombineerd met een escrow, deferred payment of bankgarantie om de feitelijke afdwingbaarheid te waarborgen wanneer de verkoper een natuurlijk persoon of kleine vennootschap is."
+  ],
+  "valkuilen": [
+    {
+      "advies": "Maak duidelijk of de basket 'tipping' of 'deductible' is — verschil van vele tienduizenden euro's.",
+      "vaak_fout": "Een ambigue basket-formulering die in elke schaderonde opnieuw betwist wordt."
+    },
+    {
+      "advies": "Sluit fraude uitdrukkelijk uit van alle beperkingen — anders zou een rechter de cap kunnen toepassen ook bij kwade trouw.",
+      "vaak_fout": "Een algemene cap zonder fraude-uitsluiting, wat in casu betwist kan worden maar onnodig procedurelast geeft."
+    }
+  ],
+  "edges": [
+    {
+      "target": "overnameovereenkomst",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "representations-and-warranties",
+      "type": "getriggerd-door",
+      "conditie": "R&W-schending"
+    },
+    {
+      "target": "escrow-en-zekerheidsmechanismen-overname",
+      "type": "verwijst-naar"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.A",
+      "3.0.V.B"
+    ],
+    "reviewed_by": null
+  },
+  "schema_version": "1.6"
+}

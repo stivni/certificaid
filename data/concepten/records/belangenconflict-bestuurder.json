@@ -1,0 +1,289 @@
+{
+  "id": "belangenconflict-bestuurder",
+  "naam": "Belangenconflict van een bestuurder",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.II",
+    "3.0.II.C"
+  ],
+  "situering": {
+    "text": "Wanneer een bestuurder een rechtstreeks of onrechtstreeks vermogensrechtelijk belang heeft dat strijdig is met het belang van de vennootschap, voorziet het WVV in procedurele waarborgen die zowel transparantie als externe controle (commissaris, jaarverslag) garanderen. De concrete procedure verschilt naargelang de vennootschapsvorm en het bestuursmodel.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV — Boeken 4, 5, 6, 7, 9 (bestuur)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_7_74",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_5_58",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_7_180",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T06:37:37Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.II",
+    "linked_anchors": [
+      "3.0.II"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een belangenconflict van een bestuurder is een rechtstreeks of onrechtstreeks vermogensrechtelijk belang van die bestuurder dat strijdig is met het belang van de vennootschap, naar aanleiding van een beslissing of een verrichting die tot de bevoegdheid van het bestuursorgaan behoort. Het WVV verplicht in dat geval een procedure (mededeling, motivering in de notulen, soms voorlegging aan de algemene vergadering), met als doel beslissingen te beschermen tegen sturing in het persoonlijk belang van een bestuurder.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 5:76, 6:64, 7:96, 7:102, 7:115"
+    },
+    "references": [
+      {
+        "type": "wet",
+        "short": "WVV art. 5:76-5:77 (BV)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 6:64-6:65 (CV)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 7:96 (NV monistisch — bestuurder)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 7:102 (NV — enige bestuurder)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 7:115 (NV duaal — directieraadlid)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_7_74",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_7_180",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Vier vereisten bij de procedure in de raad van bestuur",
+      "wat": "(1) De bestuurder deelt het conflict mee aan de andere bestuurders vóór de raad beslist. (2) Zijn verklaring en de aard van het conflict worden in de notulen opgenomen. (3) De raad omschrijft in de notulen de aard van de beslissing en haar vermogensrechtelijke gevolgen en verantwoordt het besluit; dat notulendeel wordt integraal in het jaarverslag (of een afzonderlijk neergelegd stuk) opgenomen. (4) Indien er een commissaris is, ontvangt deze de notulen en beoordeelt hij in zijn commissarisverslag de vermogensrechtelijke gevolgen voor de vennootschap.",
+      "waarom": "De procedure beoogt zowel interne (collegialiteit zonder gestoorde beraadslaging) als externe controle (jaarverslag, commissaris) — pas bij beide is de besluitvorming voor de aandeelhouders volledig herleidbaar.",
+      "grondslag": "WVV art. 7:96, § 1",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 7:96"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_74",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Onthoudingsplicht",
+      "wat": "De bestuurder met het belangenconflict mag niet deelnemen aan de beraadslaging en niet aan de stemming over de betrokken beslissing of verrichting. Wanneer alle bestuurders een belangenconflict hebben, wordt de beslissing aan de algemene vergadering voorgelegd; pas na haar goedkeuring kan het bestuursorgaan ze uitvoeren.",
+      "waarom": "Zonder onthoudingsplicht zou de mededelingsplicht symbolisch worden — de bestuurder met persoonlijk belang zou tóch het besluit kunnen sturen. De algemene-vergadering-escape voor 'alle bestuurders in conflict' beschermt tegen bestuurlijke patstellingen.",
+      "grondslag": "WVV art. 7:96, § 1, vijfde en zesde lid",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 7:96"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_74",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Uitzonderingen op de procedure",
+      "wat": "De procedure is niet van toepassing op: (a) beslissingen of verrichtingen tussen vennootschappen waarvan de ene ≥ 95 % van de stemmen in de andere bezit, of waarvan ≥ 95 % van de stemmen in beide bij een derde vennootschap berusten; (b) gebruikelijke verrichtingen onder marktconforme voorwaarden en zekerheden.",
+      "waarom": "Bij quasi-100 %-controle bestaat economisch geen reëel tegenstrijdig belang tussen moeder en dochter; voor routinematige markttransacties zou de procedure een onevenredige administratieve last vormen.",
+      "grondslag": "WVV art. 7:96, § 3",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 7:96, § 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_74",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Procedure bij de enige bestuurder",
+      "wat": "Wanneer de enige bestuurder een persoonlijk belang heeft, legt hij de beslissing of verrichting voor aan de algemene vergadering. Als de algemene vergadering goedkeurt, kan het bestuursorgaan ze uitvoeren. Is de enige bestuurder ook de enige aandeelhouder, dan mag hij de beslissing zelf nemen. Wanneer de enige bestuurder een rechtspersoon is met een collegiaal bestuursorgaan en een lid van dat orgaan een conflict heeft, is artikel 7:96 (monistisch) of 7:117 (duaal) van toepassing binnen die rechtspersoon.",
+      "waarom": "Een enige bestuurder heeft geen 'andere bestuurders' om mee te delen — de algemene vergadering treedt in die rol op als externe waarborg.",
+      "grondslag": "WVV art. 7:102",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 7:102"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_78",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_7_174",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Procedure in het duale model",
+      "wat": "Wanneer een lid van de directieraad een persoonlijk belangenconflict heeft, verwijst de directieraad de beslissing voor uitspraak door naar de raad van toezicht, die handelt overeenkomstig artikel 7:115 (procedure analoog aan art. 7:96 voor de monistische raad van bestuur).",
+      "waarom": "De duale architectuur is consistent: het orgaan met de toezichtsbevoegdheid neemt over wanneer de directieraad zelf bevangen is.",
+      "grondslag": "WVV art. 7:115, art. 7:117",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 7:115-7:117"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_89",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_7_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Sanctie — nietigheid",
+      "wat": "Onverminderd algemene nietigheidsgronden kan de vennootschap de nietigheid vorderen van besluiten of verrichtingen waarbij de procedure is overtreden, mits de wederpartij van de overtreding op de hoogte was of had moeten zijn.",
+      "waarom": "De nietigheidssanctie maakt de procedure tandgebonden: zonder externe consequentie zou de mededelingsplicht louter formeel blijven.",
+      "grondslag": "WVV art. 7:96, § 2",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 7:96, § 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_74",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Bestuurder verkoopt onroerend goed aan de NV",
+      "cast": [
+        "Rotex Roeselare NV",
+        "Pieter Vermeulen",
+        "Sofie Janssens"
+      ],
+      "omschrijving": "Pieter Vermeulen, bestuurder van Rotex Roeselare NV, bezit privé een loods die de NV wil aankopen voor € 750.000. De raad van bestuur agendeert het punt.",
+      "stappen": [
+        "1. Pieter Vermeulen meldt vóór de vergadering aan de andere bestuurders dat hij een persoonlijk vermogensrechtelijk belang heeft (eigenaar van de loods).",
+        "2. De notulen vermelden zijn verklaring en de aard van het conflict.",
+        "3. Pieter Vermeulen verlaat de zaal en neemt niet deel aan de beraadslaging noch aan de stemming.",
+        "4. De raad neemt het besluit, motiveert in de notulen de aankoopprijs (verwijzing naar onafhankelijk schattingsverslag van € 740.000) en de vermogensrechtelijke gevolgen.",
+        "5. Het notulendeel wordt integraal in het jaarverslag opgenomen. Commissaris Sofie Janssens beoordeelt de vermogensrechtelijke gevolgen in een afzonderlijke sectie van haar verslag."
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "in_praktijk": [
+    "Voor de commissaris is de art. 7:96-paragraaf in de notulen een verplichte aandachtszone: hij beoordeelt of de vermogensrechtelijke gevolgen evenwichtig zijn vastgelegd en signaleert dat in een afzonderlijke sectie van zijn jaarrekeningverslag.",
+    "Een vaak gemiste reflex: ook 'onrechtstreekse' belangen tellen — een bestuurder die zelf geen eigenaar is van de loods, maar wiens echtgenote dat is, heeft eveneens een onrechtstreeks belang en is procedure-plichtig."
+  ],
+  "valkuilen": [
+    {
+      "advies": "Beoordeel of het conflict 'vermogensrechtelijk' is — niet elk persoonlijk belang triggert de procedure. Een morele of reputatie-aanspraak (bv. een familielid als kandidaat) zonder vermogenseffect valt buiten art. 7:96.",
+      "vaak_fout": "De procedure routinematig toepassen op elke vorm van persoonlijke betrokkenheid; dat verwatert het instrument.",
+      "grondslag": "WVV art. 7:96, § 1",
+      "confidence": "inferred"
+    },
+    {
+      "advies": "De uitzondering 'gebruikelijke verrichtingen aan marktvoorwaarden' is restrictief — een verkoop van privé-onroerend goed aan de NV is bijna nooit 'gebruikelijk' in deze zin.",
+      "vaak_fout": "De uitzondering inroepen voor uitzonderlijke transacties waarbij de bestuurder partij is, met als argument 'de prijs is marktconform'.",
+      "grondslag": "WVV art. 7:96, § 3, tweede lid",
+      "confidence": "inferred"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "bestuursorgaan",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "verbonden-partijen-procedure-genoteerd",
+      "target_status": "resolved",
+      "aspect": "scope (alle vennootschappen vs. enkel genoteerde)"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "commissaris-toezicht-jaarrekening",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "belangenconflict-bestuurder-bv-cv",
+      "aspect": "NV vs BV/CV"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "belangenconflict-bestuurder-vzw-stichting",
+      "aspect": "vennootschap vs vzw/stichting"
+    }
+  ]
+}

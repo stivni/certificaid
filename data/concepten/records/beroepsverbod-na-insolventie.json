@@ -1,0 +1,152 @@
+{
+  "id": "beroepsverbod-na-insolventie",
+  "naam": "Beroepsverbod na faillissement",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.X",
+    "3.0.X.F"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T14:08:06Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.X.F",
+    "linked_anchors": [
+      "3.0.X",
+      "3.0.X.F"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "De insolventierechtbank kan, naar aanleiding van een faillissement, een gefailleerde (of een met hem gelijkgestelde bestuurder/zaakvoerder) bij **met redenen omkleed vonnis** een **beroepsverbod** opleggen om persoonlijk of via een tussenpersoon (i) een onderneming uit te baten, of (ii) de functie van bestuurder, commissaris, zaakvoerder, mandataris of effectenmakelaar uit te oefenen. Het verbod is geen automatisch gevolg van faillissement — er moet sprake zijn van een **kennelijke grove fout** of van het systematisch niet-naleven van bepaalde wettelijke verplichtingen (boekhouding, aangifte van faillissement).",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WER art. XX.229-XX.232"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_229",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XX_230",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "Het beroepsverbod balanceert twee belangen: enerzijds **bescherming van het economisch verkeer** tegen ondernemers met een patroon van mismanagement of fraude, anderzijds **kansen op herbegin** voor te goeder trouw gefailleerden (vandaar de kwijtschelding-natuurlijke-persoon en de rehabilitatieprocedure). Tot 2017 stond dit in een afzonderlijk KB van 24 oktober 1996; Boek XX WER heeft de regeling geïntegreerd in de insolventieprocedure. Naast deze burgerlijke regeling bestaan parallelle strafrechtelijke beroepsverboden (Strafwetboek art. 48 voor rechtspersonen, art. 57 nieuw Strafwetboek voor natuurlijke personen).",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_229",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "voorwaarde": "**Verbod uitoefening onderneming** (art. XX.229 §1): er moet een **kennelijke grove fout** van de gefailleerde zijn die heeft bijgedragen tot het faillissement.",
+      "grondslag": "WER art. XX.229 §1",
+      "confidence": "grounded"
+    },
+    {
+      "voorwaarde": "**Verbod bestuurdersfuncties** (art. XX.229 §2): het verbod kan worden opgelegd wanneer de gefailleerde of de bestuurders/zaakvoerders zonder wettige verhindering hebben verzuimd de boekhoudkundige verplichtingen na te leven (artikel XX.146 WER) — concreet: geen of gebrekkige boekhouding, geen aangifte van faillissement binnen de termijn.",
+      "grondslag": "WER art. XX.229 §2",
+      "confidence": "grounded"
+    },
+    {
+      "voorwaarde": "**Tegensprekelijke procedure**: het verbod wordt slechts opgelegd na oproeping per tegensprekelijk verzoekschrift; de betrokkene moet worden gehoord (eventueel met raadsman) in raadkamer; het openbaar ministerie wordt gehoord in advies.",
+      "grondslag": "WER art. XX.230-XX.231",
+      "confidence": "grounded"
+    }
+  ],
+  "uitzonderingen": [
+    {
+      "uitzondering": "Het verbod kan niet als automatische sanctie worden opgelegd — de rechtbank moet **uitdrukkelijk motiveren** waarom de feiten een kennelijke grove fout of verzuim opleveren. Bij betwisting kan hoger beroep worden ingesteld bij het hof van beroep binnen de wettelijke termijn (art. XX.232).",
+      "grondslag": "WER art. XX.232",
+      "confidence": "grounded"
+    }
+  ],
+  "drempelwaarden": [
+    {
+      "drempel": "Termijn hoger beroep: 8 dagen om te verschijnen; hof doet uitspraak binnen één maand na het hoger beroep.",
+      "grondslag": "WER art. XX.232",
+      "confidence": "grounded"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Wie kan het verbod vorderen?",
+      "betekenis": "De vordering kan uitgaan van het **openbaar ministerie**, van de **curator** van het faillissement, of van een **schuldeiser** die niet werd betaald in het kader van het faillissement (art. XX.230). De accountant of bedrijfsrevisor kan zelf geen verbod vorderen — wel kan hij in zijn rapporten aan de curator of het OM elementen aanbrengen die een vordering kunnen rechtvaardigen.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_230",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Effect op de cliëntenportefeuille",
+      "betekenis": "Een bestuurder of zaakvoerder met een beroepsverbod kan **geen mandaat meer aanvaarden** in een vennootschap. Voor de accountant: dit is een element van **acceptatie- en continuatiebeoordeling** van het cliëntdossier — een veroordeelde mag geen bestuurdersfunctie meer bekleden, dus bestaande mandaten moeten beëindigd worden en nieuwe verzoeken geweigerd.",
+      "confidence": "inferred"
+    },
+    {
+      "aspect": "Bekendmaking en duur",
+      "betekenis": "Het vonnis wordt **in het Belgisch Staatsblad** bekendgemaakt en aan de betrokkene per gerechtsbrief ter kennis gegeven. De duur wordt door de rechtbank vastgesteld in het vonnis. Door **rehabilitatie** (art. XX.237-XX.241) of na verloop van een wettelijke termijn kan het verbod opgeheven worden.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_231",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Het beroepsverbod is **geen automatisch gevolg van faillissement**. Een te goeder trouw gefailleerde — die zijn boekhouding correct heeft gevoerd en tijdig aangifte heeft gedaan — krijgt **geen** verbod en kan zelfs onmiddellijk een nieuwe onderneming opstarten.",
+      "vaak_fout": "Aan de cliënt meedelen dat hij na faillissement 'X jaar niet meer mag ondernemen'. Dit is alleen waar als de rechtbank een specifiek vonnis tot beroepsverbod heeft uitgesproken."
+    },
+    {
+      "advies": "Het **burgerlijk beroepsverbod** uit Boek XX WER is iets anders dan het **strafrechtelijk beroepsverbod** uit het Strafwetboek (oud art. 1bis KB 24/10/1996; nieuw art. 48 en 57 Strafwetboek 2024). Beide kunnen cumulatief van toepassing zijn bij ernstige feiten, maar volgen verschillende procedures en hebben verschillende gevolgen.",
+      "vaak_fout": "De twee regimes verwarren — de strafrechtelijke route kan ook bij niet-failliete personen ingezet worden en is breder qua functies en termijnen."
+    },
+    {
+      "advies": "Het verbod treft niet alleen de gefailleerde natuurlijke persoon, maar ook **bestuurders/zaakvoerders van de gefailleerde rechtspersoon** die persoonlijk de boekhoudverplichtingen hebben verzuimd (art. XX.229 §2).",
+      "vaak_fout": "Aannemen dat bestuurders van een failliete BV niet zelf geraakt kunnen worden — de wet stelt hen uitdrukkelijk gelijk met de gefailleerde voor dit verbod."
+    }
+  ],
+  "edges": [
+    {
+      "type": "getriggerd-door",
+      "target": "faillissement",
+      "conditie": "kennelijke grove fout of verzuim boekhoudverplichtingen"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "rehabilitatie-gefailleerde",
+      "aspect": "verbod versus opheffing-verbod"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "bestuurdersaansprakelijkheid-bij-insolventie"
+    }
+  ]
+}

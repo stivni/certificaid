@@ -1,0 +1,128 @@
+{
+  "id": "representations-and-warranties",
+  "naam": "Verklaringen en waarborgen",
+  "naam_alternatief": "representations and warranties (R&W)",
+  "node_type": "cluster",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.A",
+    "3.0.V.B",
+    "3.0.V.E"
+  ],
+  "situering": "Verklaringen en waarborgen vormen de juridische ruggengraat van de koperbescherming in een overnameovereenkomst, vooral bij share deals. Het Belgisch verkooprecht geeft de aandelenkoper nauwelijks automatische bescherming — vandaar de centrale rol van de contractueel uitgewerkte R&W. Voor de accountant zijn de financiële R&W cruciaal: ze koppelen de jaarrekening aan een aansprakelijkheidsmechanisme.",
+  "definitie": "Verklaringen en waarborgen (representations and warranties, R&W) zijn contractuele verklaringen van de verkoper dat bepaalde feiten over de doelvennootschap of de over te dragen activa op een welbepaalde datum waar, volledig, nauwkeurig en niet-misleidend zijn. Een schending van een R&W activeert het vrijwaringsmechanisme.",
+  "bouwstenen": [
+    {
+      "titel": "Vijf categorieën verklaringen",
+      "wat": "Typische R&W groeperen zich rond: (1) titel en kapitaalstructuur (geldige aandelen, geen pandrechten), (2) financiële verklaringen (jaarrekening getrouw, geen verborgen schulden), (3) operationele en commerciële (sleutelcontracten, IE-rechten, vergunningen), (4) compliance (geen schendingen, geen lopende geschillen, milieu), (5) fiscaliteit (alle aangiftes en betalingen in orde).",
+      "waarom": "Elke categorie dekt een afgebakend risicodomein; in onderhandelingen wordt per categorie ge-pingpongd over scope en knowledge qualifier.",
+      "in_praktijk": "De jaarrekening-R&W ('financial statements have been prepared in accordance with Belgian GAAP and give a true and fair view') is voor de accountant van de koper het sleutelpunt — het is de juridische haak waaraan EBITDA-onjuistheden gehangen kunnen worden.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.5",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-5-representations-and-warranties"
+        ]
+      }
+    },
+    {
+      "titel": "Disclosure schedule",
+      "wat": "Bij elke R&W kan de verkoper specifieke afwijkingen 'disclosen' in een afzonderlijke bijlage (disclosure schedule of disclosure letter). Eens iets geopenbaard, kan het in principe niet meer als verrassing claimen.",
+      "waarom": "De disclosure schedule maakt R&W werkbaar — verkoper kan ze breed formuleren en zijn afwijkingen specifiek aangeven, zonder voor elk detail een uitzondering te moeten onderhandelen.",
+      "in_praktijk": "Een lopend arbeidsgeschil dat in de data room is opgenomen wordt typisch ook in de disclosure schedule herhaald, met verwijzing naar de stuknummers. Wat enkel in de algemene data room zit en niet in de disclosure schedule, geeft soms wel/soms geen vrijstelling — best contractueel uitklaren.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.5 R&W limitations",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-5-representations-and-warranties"
+        ]
+      }
+    },
+    {
+      "titel": "Knowledge qualifier",
+      "wat": "Een R&W kan worden gekwalificeerd 'voor zover bekend aan de verkoper' (knowledge qualifier) of 'voor zover de verkoper redelijkerwijs had moeten weten' (constructive knowledge).",
+      "waarom": "De knowledge qualifier verschuift het risico van onbekende feiten van verkoper naar koper. De verkoper wil 'actual knowledge of named individuals'; de koper wil 'reasonable knowledge na zorgvuldig onderzoek door alle bestuurders en kaderleden'.",
+      "in_praktijk": "Strijdpunt in onderhandelingen: wie zijn de 'gekende personen', en moeten ze 'redelijk onderzoek' doen? Bij een geschil resulteert dit vaak in een complexe bewijslast.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.5 R&W limitations",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-5-representations-and-warranties"
+        ]
+      }
+    },
+    {
+      "titel": "Herhaling op closing (bring-down)",
+      "wat": "Bij two-step transacties (signing en closing op verschillende dagen) wil de koper dat de verkoper de R&W herhaalt op closing-datum.",
+      "waarom": "Zo wordt de verkoper aansprakelijk voor wijzigingen tussen signing en closing — bijvoorbeeld een nieuw geschil dat in die tussenperiode ontstaat.",
+      "in_praktijk": "Sinds de pandemie heroverwegen partijen de bring-down: verkopers willen 'except for MAC' uitzonderingen voor extreme externe omstandigheden.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.5 General considerations",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-5-representations-and-warranties"
+        ]
+      }
+    },
+    {
+      "titel": "Warranty & indemnity insurance",
+      "wat": "Een verzekering die de financiële gevolgen van een R&W-schending dekt. Kan worden aangegaan door koper (buy-side W&I) of verkoper (sell-side).",
+      "waarom": "W&I-insurance maakt clean-exit voor verkoper mogelijk (geen cap-discussies) en biedt koper bescherming wanneer de verkoper financieel zwak is. In auctions wordt W&I steeds vaker als voorwaarde gesteld.",
+      "in_praktijk": "Premium typisch 0,7–1,5 % van de verzekerde som; uitsluitingen voor bekende issues uit de DD, fraude, milieuverontreiniging onder bestaande wet, etc.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.6 Seller protections",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-6-indemnification"
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "Belgische rechtbanken interpreteren R&W restrictief — een onnauwkeurig geformuleerde verklaring biedt minder bescherming dan de koper denkt.",
+    "Bij management buy-outs en secondary buy-outs blijven R&W typisch beperkt: het management kent de target al en kan niet beweren onwetend te zijn.",
+    "Bij aandeleninschrijving (kapitaalverhoging) is het de doelvennootschap zelf die de R&W geeft — een eigenaardige situatie omdat de nieuwe aandeelhouder financieel mee de schadeloosstelling zou dragen."
+  ],
+  "valkuilen": [
+    {
+      "advies": "Wees expliciet over wat de disclosure schedule beïnvloedt: alleen specifiek vermelde items of ook 'fair disclosure' in de data room?",
+      "vaak_fout": "Een vage 'fair disclosure'-standaard accepteren waarop de verkoper bij elke claim leunt om aansprakelijkheid te ontwijken."
+    },
+    {
+      "advies": "Beperk knowledge qualifiers tot expliciet genoemde personen + reasonable enquiry-plicht.",
+      "vaak_fout": "Een open 'knowledge of the seller'-formulering die in rechtspraak betwist wordt."
+    },
+    {
+      "advies": "Koppel financiële R&W aan de specifieke jaarrekening-versie (datum, getekend exemplaar) — vermijd referenties die latere correcties laten.",
+      "vaak_fout": "Verwijzen naar 'de meest recente jaarrekening' zonder versie-controle."
+    }
+  ],
+  "edges": [
+    {
+      "target": "overnameovereenkomst",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "indemnification-overname",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "due-diligence-overname",
+      "type": "getriggerd-door",
+      "conditie": "DD-bevindingen sturen R&W-scope"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.A",
+      "3.0.V.B"
+    ],
+    "reviewed_by": null
+  },
+  "schema_version": "1.6"
+}

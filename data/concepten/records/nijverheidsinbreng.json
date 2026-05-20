@@ -1,0 +1,88 @@
+{
+  "id": "nijverheidsinbreng",
+  "naam": "Nijverheidsinbreng",
+  "naam_alternatief": "inbreng van arbeid of nijverheid",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.I",
+    "3.0.I.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.I.A",
+    "linked_anchors": [
+      "3.0.I.A",
+      "3.0.I"
+    ],
+    "reviewed_by": null
+  },
+  "situering": "**Nijverheidsinbreng** is een derde type inbreng naast geld en goederen in natura. Het bestond historisch in de maatschap en is door het WVV 2019 ook toegelaten in de BV (art. 5:8) en de CV (art. 6:11) — niet in de NV. Voor de stagiair is ze relevant omdat ze de waardering en de aansprakelijkheid bij oprichting beïnvloedt: arbeid heeft geen objectieve verkoopwaarde, dus de vennoten moeten ze contractueel waarderen.",
+  "definitie": {
+    "text": "**Nijverheidsinbreng** is de inbreng door een vennoot van zijn arbeid, vaardigheden of toekomstige activiteit ten voordele van de vennootschap. In ruil ontvangt de vennoot **aandelen zonder stemrecht en zonder kapitaalverbonden waarde** — de inbreng telt mee voor het maatschappelijk vermogen maar niet voor het kapitaal van de NV (waar nijverheidsinbreng niet is toegestaan, art. 7:5). De BV en CV laten ze sinds 2019 uitdrukkelijk toe (WVV art. 5:8 en 6:11).",
+    "confidence": "grounded",
+    "source": {
+      "type": "WVV",
+      "ref": "art. 5:8 (BV), art. 6:11 (CV), art. 7:5 (uitsluiting NV)",
+      "short": "WVV art. 5:8 / 6:11 / 7:5"
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Waarom toegelaten in BV/CV en niet in NV?",
+      "betekenis": "De BV en CV zijn vennootschappen **zonder kapitaalbegrip**: het maatschappelijk vermogen wordt soepeler bepaald, ze hebben geen minimumkapitaal. Nijverheidsinbreng past in dat soepele kader. De NV daarentegen is een kapitaalvennootschap met minimumkapitaal van € 61.500 — kapitaal moet volstort en objectief waardeerbaar zijn, dus arbeid (niet realiseerbaar bij vereffening) is uitgesloten.",
+      "confidence": "inferred"
+    },
+    {
+      "aspect": "Wat krijgt de inbrenger?",
+      "betekenis": "Aandelen die niet meetellen voor de kapitaal-test bij uitkering (BV: nettoactieftest) maar wel stemrechten en winstrechten naar statutaire verhouding. Bij vereffening ontvangt de inbrenger pas iets na alle schuldeisers en kapitaalsoortige aandelen — nijverheidsinbreng is een 'achtergestelde' vorm.",
+      "confidence": "inferred"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Tom Lefèvre richt samen met een geldschieter een IT-consulting-BV op (Praktijk Persenaire BV). De geldschieter brengt € 50.000 in cash in; Tom brengt zijn vijf jaar IT-expertise en cliëntenbestand in als **nijverheidsinbreng**. Statuten waarderen Toms inbreng op € 50.000 — beide krijgen elk 50 % van de aandelen, maar Toms aandelen zijn nijverheidsaandelen en tellen niet mee voor de nettoactieftest bij latere uitkering.",
+      "cast": [
+        "Tom Lefèvre",
+        "Praktijk Persenaire BV"
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Waardeer de nijverheidsinbreng in de oprichtingsakte (BV/CV) met motivering: anders bestaat geen objectief aanknopingspunt voor latere conflicten of voor de uitkeringstest.",
+      "vaak_fout": "Nijverheidsinbreng pro forma in statuten zetten zonder waardering en verdeling — leidt tot ruzie bij uittreding of vereffening over de rechten van de inbrenger.",
+      "grondslag": "WVV art. 5:8 (BV), 6:11 (CV) — vereiste vermelding in akte"
+    },
+    {
+      "advies": "Niet inzetten voor NV-oprichting. De NV vereist kapitaalinbreng in geld of in natura die objectief waardeerbaar en realiseerbaar is.",
+      "vaak_fout": "Een stagiair die de oprichting van een NV begeleidt en arbeid als 'inbreng-deel' opneemt — fout op het examen en in praktijk.",
+      "grondslag": "WVV art. 7:5 (uitsluiting nijverheidsinbreng NV)"
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target_id": "inbreng-vennootschap"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "besloten-vennootschap-bv"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "cooperatieve-vennootschap-cv"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target_id": "naamloze-vennootschap-nv",
+      "facet": {
+        "aspect": "toegelaten inbreng-types"
+      }
+    }
+  ]
+}

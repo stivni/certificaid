@@ -1,0 +1,135 @@
+{
+  "id": "mandaat-versus-advies-rol-accountant",
+  "naam": "Onderscheid tussen advies- en mandaatrol van de accountant bij vennootschapsrechtelijke verrichtingen",
+  "node_type": "synthese",
+  "schema_version": "1.6",
+  "titel": "Advies-rol vs. mandataris-rol (taak.2 vs. taak.3)",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.2",
+      "3.0.taak.3"
+    ],
+    "kenniselementen": []
+  },
+  "linked_anchors": [
+    "3.0.taak.2",
+    "3.0.taak.3"
+  ],
+  "gebaseerd_op_concepten": [
+    "opstellen-overname-verslaggeving-accountant",
+    "bijzondere-mandaten-accountant",
+    "onafhankelijkheid-bijzondere-mandataris"
+  ],
+  "situering": {
+    "text": "De gecertificeerd accountant kan rond dezelfde verrichting twee fundamenteel verschillende rollen vervullen: (i) als adviseur en begeleider die het bestuursorgaan helpt de verrichting voor te bereiden (taak.2), of (ii) als bijzondere mandataris die het wettelijk verplichte verslag opstelt na onafhankelijke beoordeling (taak.3). Deze rollen zijn onverenigbaar in hetzelfde dossier voor dezelfde verrichting — wie heeft geadviseerd kan niet onafhankelijk verslag uitbrengen. Het onderscheid begrijpen is essentieel om opdracht-aanvaarding en onafhankelijkheid correct te beoordelen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV + KB 1 maart 1998 art. 11"
+    }
+  },
+  "samenvatting": "Synthese die de adviseur-rol (taak.2) en de bijzondere-mandataris-rol (taak.3) tegenover elkaar zet om opdracht-aanvaarding en onafhankelijkheid correct te beoordelen.",
+  "kern_inhoud": {
+    "vergelijkings_tabel": [
+      {
+        "dimensie": "Rechtsgrond",
+        "advies": "Vrije contractuele opdracht (opdrachtbrief, geen wettelijke verplichting)",
+        "mandaat": "Wettelijk voorbehouden monopolieopdracht (WVV + KB 1/3/1998)"
+      },
+      {
+        "dimensie": "Aansteller",
+        "advies": "Cliënt (bestuursorgaan of aandeelhouder)",
+        "mandaat": "Bestuursorgaan in opdracht van de wet; soms door AV"
+      },
+      {
+        "dimensie": "Bestemmeling van verslag",
+        "advies": "Cliënt zelf — niet publiek",
+        "mandaat": "Algemene vergadering + neerlegging — publiek raadpleegbaar"
+      },
+      {
+        "dimensie": "Onafhankelijkheid",
+        "advies": "Algemene deontologische zorgvuldigheid; partijdig optreden voor cliënt toegestaan",
+        "mandaat": "Strikte onafhankelijkheid (KB 1/3/1998 art. 10-13); belangenconflict-RISICO verbiedt opdracht"
+      },
+      {
+        "dimensie": "Inhoud van werk",
+        "advies": "Adviseren, ontwerpen, onderhandelen, optimaliseren, simuleren",
+        "mandaat": "Beoordelen, attesteren, oordelen volgens wettelijke en deontologische standaarden"
+      },
+      {
+        "dimensie": "Verantwoordelijkheid voor cijfers",
+        "advies": "Mede-ontwerper — kan de waardering of structuur zelf voorstellen",
+        "mandaat": "Beoordeelt waardering van bestuur — mag die niet zelf hebben opgesteld"
+      },
+      {
+        "dimensie": "Toon van verslag",
+        "advies": "Vrij — kan affirmatieve aanbevelingen bevatten",
+        "mandaat": "Formeel — negatieve conclusieformule of 'relevant en redelijk'-verklaring"
+      },
+      {
+        "dimensie": "Aansprakelijkheid",
+        "advies": "Contractuele aansprakelijkheid jegens cliënt",
+        "mandaat": "Aansprakelijkheid jegens cliënt + derden (crediteuren, nieuwe aandeelhouders) + tuchtrechtelijke aansprakelijkheid"
+      },
+      {
+        "dimensie": "Voorbeeld",
+        "advies": "Begeleiden van overname-onderhandeling, opstellen financieel due-diligence-rapport",
+        "mandaat": "Verslag inbreng in natura, verslag fusie-ruilverhouding, verslag staat activa/passiva bij ontbinding"
+      }
+    ],
+    "regel_voor_combinatie": [
+      "VERBOD: dezelfde accountant of zijn vennootschap mag NIET in hetzelfde dossier voor dezelfde verrichting beide rollen vervullen — art. 11 KB 1/3/1998 (belangenconflict-risico).",
+      "TOEGESTAAN: accountant A adviseert in voorbereidingsfase; accountant B (andere natuurlijke persoon en andere vennootschap) treedt op als bijzondere mandataris.",
+      "TOEGESTAAN: accountant A heeft eerder een advies-opdracht gehad over een ANDERE verrichting voor dezelfde cliënt — mag mandataris zijn voor de nieuwe verrichting, mits vermelding andere prestaties (art. 12 KB).",
+      "GRIJZE ZONE: accountant A doet doorlopende boekhouding voor cliënt en wordt nu gevraagd verslag inbreng in natura op te stellen — mag, mits hij niet zelf het waarderingsverslag heeft opgesteld en de inbreng-waardering niet rechtstreeks uit zijn boekhouding voortvloeit. Documenteer in opdrachtbrief."
+    ],
+    "kosten_oogpunt": [
+      "Voor de cliënt is het soms efficiënter om dezelfde dienstverlener te gebruiken voor advies + mandaat, maar de wet maakt dat onmogelijk binnen dezelfde verrichting.",
+      "Praktijkoplossing: kantoor met meerdere partners kan intern splitsing organiseren — partner A doet advies, partner B doet mandaat — MITS strikte Chinese-wall en geen gedeelde dossier-toegang. ITAA-tuchtrechtelijke praktijk is hier streng."
+    ]
+  },
+  "in_praktijk": [
+    "Bij eerste contact met cliënt over een verrichting moet onmiddellijk duidelijk zijn in welke rol de accountant optreedt — en die rol moet vóór begin werkzaamheden in opdrachtbrief vastliggen.",
+    "Voor stagiaires: bij twijfel ALTIJD eerst aan stagemester voorleggen of een opdracht advies of mandaat is. Verkeerde inschatting leidt tot tuchtklacht.",
+    "Tip: in onderhandse documentatie steeds aanduiding 'advies' of 'monopolie-mandaat' in de header opnemen — voorkomt latere verwarring."
+  ],
+  "valkuilen": [
+    {
+      "vaak_fout": "Adviseur 'evolueert' naar mandataris zonder rolwissel formeel te documenteren.",
+      "advies": "Wie eerder advies gaf, kan niet mandataris worden — punt. Niet incrementeel rol verschuiven."
+    },
+    {
+      "vaak_fout": "Verslag bevat affirmatieve aanbevelingen ('wij raden aan om...') in plaats van formele conclusie.",
+      "advies": "Beoordelings- of attesterende toon: 'is niets onder onze aandacht gekomen' of 'is naar onze mening relevant en redelijk'."
+    }
+  ],
+  "edges": [
+    {
+      "type": "verwant-aan",
+      "target": "opstellen-overname-verslaggeving-accountant"
+    },
+    {
+      "type": "verwant-aan",
+      "target": "bijzondere-mandaten-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-bijzondere-mandataris"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.3-batch3-20260520T115239Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.3",
+    "linked_anchors": [
+      "3.0.taak.2",
+      "3.0.taak.3"
+    ],
+    "voorgesteld_op": "2026-05-20T11:52:39.322513+00:00",
+    "reviewed_by": null
+  }
+}

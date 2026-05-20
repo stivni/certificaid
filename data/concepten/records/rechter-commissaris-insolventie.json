@@ -1,0 +1,120 @@
+{
+  "id": "rechter-commissaris-insolventie",
+  "naam": "Rechter-commissaris in een faillissement",
+  "node_type": "autoriteit",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.X",
+    "3.0.X.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:47:51Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.X",
+    "linked_anchors": [
+      "3.0.X"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Rechter van de insolventierechtbank (voorzitter uitgezonderd) die in het vonnis van faillietverklaring wordt aangewezen om **rechterlijk toezicht** te houden op het beheer van het faillissement door de curator. Hij is geen partij maar een toeziende rechter binnen dezelfde rechtbank.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WER art. XX.104"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_136",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "rol": {
+    "text": "De rechter-commissaris (1) verleent machtiging aan de curator voor bepaalde handelingen (verkoop activa, inlossen pand — art. XX.166, XX.181), (2) houdt toezicht op de verkoop van activa, (3) beveelt uitdelingen aan schuldeisers en bepaalt de bedragen (art. XX.168), (4) hoort de gefailleerde indien deze daarom verzoekt (art. XX.166), en (5) brengt verslag uit aan de rechtbank bij de sluiting van het faillissement.",
+    "confidence": "grounded",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_186",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XX_187",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XX_197",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XX_189",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "Het toezichtsorgaan binnen de rechtbank zelf. Waar de curator uitvoerende beslissingen neemt, vraagt hij voor de belangrijke handelingen machtiging aan de rechter-commissaris — wie heeft toegestaan, dekt de curator. Dit drie-lagenmodel (gefailleerde — curator — rechter-commissaris — insolventierechtbank) zorgt voor zowel snelheid (curator) als controle (rechter-commissaris en rechtbank).",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_186",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Wanneer machtiging vragen?",
+      "betekenis": "Voor verkoop van onroerende goederen, voor het inlossen van een pand ten gunste van de boedel (XX.181), voor dadingen, en voor uitdelingen aan schuldeisers. Kleinere beheersdaden gebeuren zonder voorafgaande machtiging.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_186",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_187",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_XX_197",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "faillissement"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "curator-faillissement",
+      "aspect": "rechterlijk toezicht versus uitvoerend mandaat"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "insolventiefunctionaris",
+      "aspect": "rechterlijk toezicht (magistraat) versus uitvoerend mandaat (advocaat/professional)"
+    }
+  ]
+}

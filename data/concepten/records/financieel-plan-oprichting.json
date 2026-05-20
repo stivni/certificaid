@@ -1,0 +1,306 @@
+{
+  "id": "financieel-plan-oprichting",
+  "naam": "Financieel plan bij oprichting van een kapitaalvennootschap",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0,
+    1.1
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.1"
+    ],
+    "kenniselementen": [
+      "3.0.I"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.1",
+    "3.0.I",
+    "1.1.taak.1"
+  ],
+  "situering": {
+    "text": "Het financieel plan is een verplicht oprichtingsdocument dat oprichters van een BV, CV of NV vóór de notariële akte aan de notaris overhandigen. Het verantwoordt het aanvangsvermogen (BV/CV) of het kapitaal (NV) in het licht van de voorgenomen bedrijvigheid over ten minste twee jaar. Het document wordt niet neergelegd met de akte maar door de notaris bewaard — bij faillissement binnen drie jaar kan de rechter het opvragen om oprichtersaansprakelijkheid voor kennelijk ontoereikend aanvangsvermogen te beoordelen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV art. 5:4 (BV), art. 6:5 (CV), art. 7:3 (NV)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "wvv-art-5-4",
+          "version": "rag-v1"
+        },
+        {
+          "id": "wvv-art-6-5",
+          "version": "rag-v1"
+        },
+        {
+          "id": "wvv-art-7-3",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "definitie": {
+    "text": "Document met prognoses en onderbouwing waarmee de oprichters van een kapitaalvennootschap (BV, CV, NV) vóór de oprichting verantwoorden dat het aanvangsvermogen toereikend is voor de voorgenomen activiteit over een periode van ten minste twee jaar.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV art. 5:4, art. 6:5, art. 7:3"
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Beschrijving voorgenomen bedrijvigheid",
+      "wat": "Een nauwkeurige beschrijving van wat de vennootschap zal doen — sector, producten of diensten, doelmarkten, gefaseerd op- of uitbouwplan.",
+      "waarom": "Zonder duidelijk bedrijfsmodel kunnen de financiële cijfers niet beoordeeld worden — de plausibiliteit van omzet en kosten hangt af van wat de vennootschap concreet plant te ondernemen.",
+      "in_praktijk": "Beschrijf de activiteit zoals een externe lezer (notaris, rechter bij latere faillissementscheck) ze concreet kan begrijpen — geen marketing-slogans.",
+      "grondslag": "WVV art. 5:4 §2 1°, art. 6:5 §2 1°, art. 7:3 §2 1°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "wvv-art-5-4",
+            "version": "rag-v1"
+          },
+          {
+            "id": "wvv-art-7-3",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Overzicht financieringsbronnen + zekerheden",
+      "wat": "Volledige opgave van alle financieringsbronnen die bij oprichting beschikbaar zijn — inbreng in geld, inbreng in natura, kredieten, achtergestelde leningen — telkens met de eventueel verstrekte zekerheden.",
+      "waarom": "De rechter beoordeelt nadien of het ingebrachte geld plus extern krediet samen toereikend was. Een onderschatting van de externe financieringsnood is een belangrijke aansprakelijkheids-trigger.",
+      "in_praktijk": "Vermeld ook intenties waarover bij oprichting al een principe-akkoord is — bv. een lening die in maand 2 wordt opgenomen.",
+      "grondslag": "WVV art. 5:4 §2 2°, art. 6:5 §2 2°, art. 7:3 §2 2°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "wvv-art-5-4",
+            "version": "rag-v1"
+          },
+          {
+            "id": "wvv-art-7-3",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Openingsbalans volgens WVV-schema",
+      "wat": "Een openingsbalans opgesteld volgens het schema bedoeld in art. 3:3 (volledig of verkort jaarrekeningenschema) — actief en passief sluitend.",
+      "waarom": "De openingsbalans is het vertrekpunt voor de eerste boekhouding en geeft de verhouding tussen inbreng en schuldfinanciering meteen visueel weer.",
+      "in_praktijk": "Wanneer een gebouw als inbreng in natura wordt voorzien: zet het op de activa-zijde tegen de waarderingswaarde uit het revisorenverslag en spiegel het op de passiefzijde in het eigen vermogen.",
+      "grondslag": "WVV art. 5:4 §2 3°, art. 6:5 §2 3°, art. 7:3 §2 3°, art. 3:3",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "wvv-art-5-4",
+            "version": "rag-v1"
+          },
+          {
+            "id": "wvv-art-7-3",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Geprojecteerde balans en resultatenrekening na 12 en 24 maanden",
+      "wat": "Voor minstens twee opeenvolgende boekjaren een verwachte balans + verwachte resultatenrekening — onder de hypothesen die het bedrijfsmodel veronderstelt.",
+      "waarom": "Hieruit blijkt of de vennootschap structureel rendabel kan zijn binnen het tijdsvenster waarin oprichtersaansprakelijkheid speelt — en of zonder bijkomende financiering een liquiditeitsgat ontstaat.",
+      "in_praktijk": "Reken realistisch — voor een handels-BV met start-up-fase: omzet in jaar 1 op 50-70% van kruissnelheid jaar 2, brutomarge conform sector, vaste kosten van begin af aan volledig.",
+      "grondslag": "WVV art. 5:4 §2 4°-5°, art. 6:5 §2 4°-5°, art. 7:3 §2 4°-5°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "wvv-art-5-4",
+            "version": "rag-v1"
+          },
+          {
+            "id": "wvv-art-7-3",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Begroting bedrijfsopbrengsten en -kosten (24 maanden)",
+      "wat": "Tabel met verwachte bedrijfsopbrengsten en bedrijfskosten over de eerste twee jaar — voldoende gedetailleerd om de plausibiliteit te kunnen beoordelen.",
+      "waarom": "Een omzet-prognose zonder onderliggende volume-marge-decompositie is moeilijk te toetsen. Detail laat de notaris (en achteraf de rechter) zien hoe stevig de onderbouwing is.",
+      "in_praktijk": "Werk met maandelijkse of kwartaal-granulariteit voor jaar 1, halfjaarlijks voor jaar 2. Vermeld de belangrijkste hypothesen expliciet (bv. 'verwachte instroom van 80 klanten in maand 6').",
+      "grondslag": "WVV art. 5:4 §2 4°, art. 6:5 §2 4°, art. 7:3 §2 4°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "wvv-art-5-4",
+            "version": "rag-v1"
+          },
+          {
+            "id": "wvv-art-7-3",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Beschrijving van de gehanteerde hypothesen",
+      "wat": "Expliciete vermelding van de belangrijkste hypothesen achter omzet, marges, kostenniveau, betaaltermijnen klanten en leveranciers en investeringskalender.",
+      "waarom": "Bij een latere aansprakelijkheidsdiscussie wordt het financieel plan niet beoordeeld op het uitkomstresultaat maar op de redelijkheid van de hypothesen op het moment van opmaak — expliciete hypothesen beschermen de oprichter.",
+      "in_praktijk": "Verwijs naar bronnen (sector-statistieken, jaarcijfers vergelijkbare ondernemingen, prijslijsten leveranciers) zodat de hypothesen niet als onderbuik-gevoel ogen.",
+      "grondslag": "WVV art. 5:4 §2 6°, art. 6:5 §2 6°, art. 7:3 §2 6°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "wvv-art-5-4",
+            "version": "rag-v1"
+          },
+          {
+            "id": "wvv-art-7-3",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Bewaarplicht bij de notaris, niet bij de KBO",
+      "wat": "Het financieel plan wordt door de notaris bewaard maar wordt niet neergelegd bij de griffie van de ondernemingsrechtbank en niet bekendgemaakt — pas bij faillissement kan de curator het opvragen.",
+      "waarom": "Vertrouwelijkheid van het businessplan wordt bewaard ondanks aansprakelijkheidsfunctie — de rechter krijgt het plan pas als kennelijk ontoereikend aanvangsvermogen wordt onderzocht.",
+      "in_praktijk": "De oprichters mogen het plan zelf bewaren als referentie, maar moeten zich realiseren dat de notaris-versie het bewijsstuk is dat in een gerechtelijke procedure wordt opgevraagd.",
+      "grondslag": "WVV art. 5:4 §1 in fine, art. 6:5 §1 in fine, art. 7:3 §1 in fine",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "wvv-art-5-4",
+            "version": "rag-v1"
+          },
+          {
+            "id": "wvv-art-7-3",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Aansprakelijkheid bij kennelijk ontoereikend aanvangsvermogen",
+      "wat": "Als de vennootschap binnen drie jaar na verkrijging van de rechtspersoonlijkheid failliet wordt verklaard en het aanvangsvermogen bij oprichting kennelijk ontoereikend was voor de normale uitoefening van de voorgenomen bedrijvigheid over twee jaar, zijn de oprichters hoofdelijk aansprakelijk voor de verbintenissen van de vennootschap — naar de verhouding die de rechter vaststelt.",
+      "waarom": "Dit is de sanctie-arm op het financieel plan. Een goed onderbouwd plan met realistische hypothesen is de eerste beschermingslaag tegen deze aansprakelijkheid; een dun of optimistisch plan is een rode vlag.",
+      "in_praktijk": "Drie cumulatieve voorwaarden: (1) faillissement, (2) binnen 3 jaar na verkrijging rechtspersoonlijkheid, (3) aanvangsvermogen kennelijk ontoereikend volgens het plan. Voldoet één voorwaarde niet → geen oprichtersaansprakelijkheid op deze grond.",
+      "grondslag": "WVV art. 5:16 2°, art. 7:18 2°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "wvv-art-5-16",
+            "version": "rag-v1"
+          },
+          {
+            "id": "wvv-art-7-18",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "Het financieel plan is geen formaliteit maar het kerndocument dat oprichters beschermt — een dun of optimistisch plan is de hoofdgrond waarop oprichtersaansprakelijkheid voor faillissement binnen 3 jaar wordt uitgesproken.",
+    "Geen wettelijke vormvereiste: handgeschreven mag zelfs, maar het document moet leesbaar en zelf-dragend zijn voor een derde (rechter, curator).",
+    "Voor eenmanszaken en VOF's (geen rechtspersoonlijkheid met kapitaalloze structuur) is er geen WVV-verplichting tot financieel plan; toch verstandig om er één op te maken voor bank- en subsidie-aanvragen."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Pieter Vermeulen richt Oprichtingen Oostende BV op",
+      "cast": [
+        "Pieter Vermeulen",
+        "Oprichtingen Oostende BV",
+        "Sofie Janssens"
+      ],
+      "omschrijving": "Pieter Vermeulen start een nieuwe BV in textielimport. Hij brengt € 25.000 in cash in. Sofie Janssens (gecertificeerd accountant) begeleidt het opstellen van het financieel plan vóór de notariële akte.",
+      "stappen": [
+        "1. Beschrijving bedrijvigheid: import van Italiaanse textielcollecties voor Belgische boetieks — schatting 40 klanten in jaar 1, 80 in jaar 2.",
+        "2. Financieringsbronnen: € 25.000 inbreng in geld + principe-akkoord bank voor € 50.000 investeringskrediet (zekerheid: pand op handelsfonds).",
+        "3. Openingsbalans: actief € 75.000 (cash € 25.000 + na opname krediet € 50.000), passief € 25.000 EV + € 50.000 LT-schuld.",
+        "4. Begroting jaar 1: omzet € 220.000, brutomarge 35%, vaste kosten € 60.000, EBITDA ca. € 17.000.",
+        "5. Begroting jaar 2: omzet € 360.000, EBITDA ca. € 45.000.",
+        "6. Hypothesen: gemiddelde orderwaarde € 5.500, klant-betaaltermijn 60 dagen, leveranciers 30 dagen.",
+        "7. Conclusie van het plan: het aanvangsvermogen van € 25.000 EV + € 50.000 LT-krediet is toereikend voor de eerste twee jaar — verwachte cumulatieve kasstroom blijft positief."
+      ],
+      "redenering": "Het plan toont expliciet de hypothesen waarop de prognose rust. Als Oprichtingen Oostende BV binnen 18 maanden failliet zou gaan, zal de rechter Pieter Vermeulens aansprakelijkheid niet automatisch uitspreken: het plan was inhoudelijk onderbouwd. Was Pieter gestart met enkel € 25.000 zonder krediet en zonder onderbouwing van het marktpotentieel, dan was 'kennelijk ontoereikend' moeilijker te weerleggen geweest.",
+      "confidence": "inferred-from-aggregation",
+      "grondslag": "WVV art. 5:4, art. 5:16; cast 'BV bij oprichting'"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Geen template zonder vennootschapsspecifiek onderbouwen — een copy-paste plan met sector-gemiddeldes maar zonder eigen hypothesen biedt geen bescherming tegen oprichtersaansprakelijkheid.",
+      "vaak_fout": "Gestandaardiseerd template indienen met algemene cijfers; de rechter ziet onmiddellijk dat de oprichter niet zelf de aannames doorgedacht heeft.",
+      "grondslag": "WVV art. 5:16 2° en doctrinaire interpretatie"
+    },
+    {
+      "advies": "Bij een dienst-BV met laag werkkapitaal: vermeld expliciet dat de cliënten op 30-60 dagen betalen en bouw dat in de cashprognose in — anders verschijnt het tekort pas in maand 3 als reële verrassing.",
+      "vaak_fout": "Omzet en kosten alleen op jaarbasis projecteren zonder cashflow-timing; de plausibele winstgevendheid verbergt een acute liquiditeitscrisis."
+    },
+    {
+      "advies": "Een 'optimistisch' scenario zonder pessimistische tegenpool werkt tegen de oprichter — toon een bandbreedte.",
+      "vaak_fout": "Eén ambitieus scenario zonder gevoeligheidsanalyse opnemen."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "oprichtersaansprakelijkheid",
+      "rationale": "Het financieel plan is het centrale bewijsstuk in de aansprakelijkheidsbeoordeling."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "kennelijk-ontoereikend-aanvangsvermogen",
+      "rationale": "De aansprakelijkheidsgrond bouwt direct op het plan."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "besloten-vennootschap-bv",
+      "rationale": "Plan verplicht bij BV-oprichting."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "naamloze-vennootschap-nv",
+      "rationale": "Plan verplicht bij NV-oprichting."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "cooperatieve-vennootschap-cv",
+      "rationale": "Plan verplicht bij CV-oprichting."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "inbreng-vennootschap",
+      "rationale": "Plan-rubriek 'financieringsbronnen' omvat de inbreng."
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.1-batch1-20260520T110706Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.1",
+    "linked_anchors": [
+      "3.0.taak.1",
+      "3.0.I",
+      "1.1.taak.1"
+    ],
+    "voorgesteld_op": "2026-05-20T11:07:06.593964Z",
+    "reviewed_by": null
+  }
+}

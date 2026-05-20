@@ -1,0 +1,168 @@
+{
+  "id": "asset-deal-versus-share-deal",
+  "naam": "Asset deal versus share deal",
+  "node_type": "synthese",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.B"
+  ],
+  "situering": "De keuze tussen een share deal (overdracht van aandelen) en een asset deal (overdracht van geselecteerde activa, eventueel een bedrijfstak of algemeenheid) is een fundamentele structureringsbeslissing in elke private M&A-transactie. De fiscale, juridische en operationele gevolgen verschillen wezenlijk en sturen de hele contractarchitectuur. In de Belgische praktijk overheerst de share deal; asset deals zijn relevant bij carve-outs, distressed-targets en wanneer de koper niet alle activiteiten wenst.",
+  "gebaseerd_op_concepten": [
+    "overnameovereenkomst",
+    "representations-and-warranties",
+    "indemnification-overname",
+    "transfer-bedrijfstak-algemeenheid",
+    "controleverwerving-methodes"
+  ],
+  "vergelijkingstabel": {
+    "aspecten": [
+      {
+        "aspect": "Voorwerp van overdracht",
+        "asset_deal": "De koper neemt geselecteerde activa (en eventueel passiva) over; de doelvennootschap blijft bestaan en blijft eigenaar van wat niet wordt overgedragen.",
+        "share_deal": "De koper neemt de aandelen van de doelvennootschap over; alle activa en passiva blijven binnen de vennootschap en gaan economisch mee."
+      },
+      {
+        "aspect": "Cherry-picking van activa en passiva",
+        "asset_deal": "Mogelijk: koper kiest welke activa en passiva hij wil; bij ut singuli-overdracht moet elke post expliciet vermeld worden.",
+        "share_deal": "Niet mogelijk: alle (bekende en onbekende) activa, passiva en latenties gaan mee. Vooraf 'carve-outs' organiseren is de enige manier om iets eruit te laten."
+      },
+      {
+        "aspect": "Automatische overdracht van schulden en contracten",
+        "asset_deal": "Beperkt: bij een ut singuli-verkoop volgt niets automatisch (intuitu personae-contracten en wijzigingsclausules blokkeren). Bij een WVV-procedure (overdracht bedrijfstak of algemeenheid) gaan rechten en verplichtingen wel automatisch over, met enkele uitzonderingen.",
+        "share_deal": "Geen issue: alle contracten blijven bij de doelvennootschap. Wel kunnen change-of-control-clausules toestemming van tegenpartijen vereisen."
+      },
+      {
+        "aspect": "Wettelijke bescherming van de koper",
+        "asset_deal": "Belangrijk: het Burgerlijk Wetboek beschermt de koper tegen verborgen gebreken en geeft hem recht op ongestoord genot, waardoor de verkoper de facto al een niet-concurrentieplicht heeft.",
+        "share_deal": "Beperkt: het BW geeft de aandelenkoper weinig automatische bescherming — vandaar de centrale rol van uitgewerkte R&W in een SPA."
+      },
+      {
+        "aspect": "Formaliteiten en doorlooptijd",
+        "asset_deal": "Zwaarder: per actief gelden specifieke formaliteiten (registratie onroerend goed, hypotheekkantoor, IE-overdrachten). Een WVV-procedure neemt minstens zes weken.",
+        "share_deal": "Lichter: inschrijving in het aandelenregister volstaat voor de overdracht; geen notaris vereist tenzij bij kapitaalverhoging."
+      },
+      {
+        "aspect": "Niet-concurrentie",
+        "asset_deal": "Volgt impliciet uit het BW (ongestoord genot); contractuele bevestiging blijft wenselijk.",
+        "share_deal": "Niet automatisch — contractueel uitschrijven is noodzakelijk; beperkingen in tijd, gebied en activiteit verplicht."
+      },
+      {
+        "aspect": "Vennootschapsrechtelijke acquisitiefinanciering",
+        "asset_deal": "Belgische regels op financiële steunverlening (WVV art. 5:152 BV / art. 7:227 NV) zijn niet van toepassing.",
+        "share_deal": "Beperkingen op financiële steunverlening zijn van toepassing: koper kan target niet vrij gebruiken om eigen aankoop te financieren."
+      },
+      {
+        "aspect": "Vennootschapsbelasting bij verkoper",
+        "asset_deal": "Meerwaarden op activa en goodwill zijn belastbaar tegen het gewone tarief vennootschapsbelasting; minderwaarden zijn doorgaans aftrekbaar.",
+        "share_deal": "Meerwaarden op aandelen zijn vrijgesteld als de drie voorwaarden vervuld zijn: doelvennootschap onderworpen aan vennootschapsbelasting, deelneming ≥ 10 % of investeringswaarde ≥ € 2,5 mln, en aandelen volle eigendom ≥ 1 jaar."
+      },
+      {
+        "aspect": "Personenbelasting bij natuurlijke verkoper",
+        "asset_deal": "Volledig tarief; geen vrijstelling van toepassing.",
+        "share_deal": "Vrijgesteld bij verkoop binnen normaal beheer privévermogen; 33 % bij speculatieve verkoop; 16,5 % bij verkoop van substantiële deelneming aan buiten-EER-koper (WIB92 art. 90, art. 94)."
+      },
+      {
+        "aspect": "Btw",
+        "asset_deal": "In principe btw-plichtig (21 %), tenzij het gaat om een algemeenheid of een bedrijfsafdeling — dan geen btw.",
+        "share_deal": "Geen btw: aandelentransfer is geen levering noch dienst."
+      },
+      {
+        "aspect": "Registratierecht",
+        "asset_deal": "Onroerend goed: 12 % (Vlaanderen) of 12,5 % (Brussel/Wallonië) op verkoopprijs, tenzij vrijstelling.",
+        "share_deal": "Geen registratierecht op aandelentransfer."
+      },
+      {
+        "aspect": "Hoofdelijke aansprakelijkheid fiscaal/sociaal",
+        "asset_deal": "Koper is gedurende één maand na neerlegging hoofdelijk aansprakelijk voor inkomstenbelastingen, btw en RSZ van verkoper; vrijstelling mits geldige fiscale en sociale certificaten (niet ouder dan 30 dagen).",
+        "share_deal": "Geen hoofdelijke aansprakelijkheid: de schulden blijven binnen de doelvennootschap."
+      },
+      {
+        "aspect": "Werknemers (CAO 32bis)",
+        "asset_deal": "Als de overdracht een 'overdracht van onderneming' uitmaakt: arbeidsovereenkomsten gaan automatisch over (uitgezonderd aanvullende pensioenrechten); informatie- en consultatieplicht.",
+        "share_deal": "Geen automatische transfer want werkgever blijft dezelfde rechtspersoon; informatie- en consultatieplicht kan bestaan bij concentratie of belangrijke structuurwijziging."
+      }
+    ]
+  },
+  "kerninzichten": [
+    "Voor de **koper** is een share deal eenvoudiger maar risicovoller (alle latenties komen mee); een asset deal is bewerkelijker maar beschermt selectiever.",
+    "Voor de **verkoper-natuurlijk persoon** is de share deal fiscaal vrijwel altijd voordeliger door de vrijstelling van meerwaardebelasting binnen normaal beheer.",
+    "Voor de **verkoper-vennootschap** kan een asset deal financieel-fiscaal duurder uitkomen (vennootschapsbelasting op meerwaarden) tenzij de DBI-vrijstelling-voorwaarden vervuld zijn bij een share deal.",
+    "Bij **distressed targets** kiezen partijen vaak een asset deal om enkel de gezonde delen mee te nemen en de schulden achter te laten.",
+    "De **R&W en de vrijwaring** zijn in een share deal uitvoeriger en meer doorslaggevend dan in een asset deal, waar het BW al een basislaag bescherming biedt.",
+    "Bij **asset deals** moet de WVV-procedure voor overdracht van een bedrijfstak of algemeenheid overwogen worden: zij geeft automatische overdracht van rechten en plichten in ruil voor een formele rapportering- en goedkeuringsprocedure (minstens zes weken)."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Familie verkoopt Brugse Brouwerij BV: share deal of asset deal?",
+      "cast": [
+        "Brugse Brouwerij BV",
+        "Pieter Vermeulen",
+        "Aurelia Holding NV"
+      ],
+      "omschrijving": "Pieter Vermeulen houdt 100 % van de aandelen Brugse Brouwerij BV in privé. Aurelia Holding NV wil overnemen voor € 4.500.000.",
+      "stappen": [
+        "1. Bij share deal: meerwaarde € 4.500.000 − historische aankoopwaarde aandelen is in principe vrijgesteld (normaal beheer privévermogen).",
+        "2. Bij asset deal: meerwaarde wordt door Brugse Brouwerij BV gerealiseerd → vennootschapsbelasting 25 % op de meerwaarde, eventueel gevolgd door dividendbelasting bij uitkering naar Pieter.",
+        "3. Voor Aurelia Holding NV vraagt de share deal minimale formaliteiten (aandelenregister); een asset deal vergt een ut universali-procedure én een lijst van overgedragen activa.",
+        "4. Conclusie: in dit familiale-overdracht-scenario kiezen partijen vrijwel altijd voor de share deal."
+      ]
+    },
+    {
+      "vorm": "scenario",
+      "titel": "Carve-out distressed target: asset deal verkozen",
+      "cast": [
+        "Logistics Lille SAS",
+        "Aurelia Holding NV"
+      ],
+      "omschrijving": "Aurelia Holding NV is geïnteresseerd in één rendabele divisie van Logistics Lille SAS maar wil de schulden en de verlieslatende vestigingen niet meenemen.",
+      "stappen": [
+        "1. Asset deal via WVV-procedure 'overdracht van bedrijfstak': activa, leveranciers- en klantencontracten en personeel van de gekozen divisie gaan automatisch over.",
+        "2. De schulden van de niet-overgedragen activiteiten blijven bij Logistics Lille SAS.",
+        "3. Doorlooptijd: minstens zes weken voor de WVV-formaliteiten + tijd voor mededingingsgoedkeuring indien drempels overschreden."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "target": "overnameovereenkomst",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "transfer-bedrijfstak-algemeenheid",
+      "type": "verwijst-naar"
+    },
+    {
+      "target": "representations-and-warranties",
+      "type": "verwijst-naar"
+    },
+    {
+      "target": "financiele-steunverlening",
+      "type": "verwijst-naar"
+    },
+    {
+      "target": "controleverwerving-methodes",
+      "type": "verwijst-naar"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.B"
+    ],
+    "reviewed_by": null,
+    "inputs": [
+      "IBA-MA-Belgium-2022-EN__sec_2-1-general",
+      "IBA-MA-Belgium-2022-EN__sec_2-1-1-share-deal",
+      "IBA-MA-Belgium-2022-EN__sec_2-1-2-asset-deal",
+      "IBA-MA-Belgium-2022-EN__sec_2-2-overview-of-the-two-transaction-structures",
+      "IBA-MA-Belgium-2022-EN__sec_2-4-tax-aspects-of-m-a-deals"
+    ],
+    "confidence": "inferred-from-aggregation"
+  },
+  "schema_version": "1.6"
+}

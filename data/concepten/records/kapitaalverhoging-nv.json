@@ -1,0 +1,224 @@
+{
+  "id": "kapitaalverhoging-nv",
+  "naam": "Kapitaalverhoging bij de NV",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IV"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IV",
+    "linked_anchors": [
+      "3.0.IV"
+    ],
+    "reviewed_by": null
+  },
+  "situering": "Een verhoging van het maatschappelijk kapitaal van een naamloze vennootschap is altijd een **statutenwijziging** en raakt drie belangenkringen: bestaande aandeelhouders (hun belang wordt verwaterd, hun voorkeurrecht beschermt hen), de vennootschap (nieuwe middelen voor groei of solvabiliteitsherstel) en schuldeisers (de vermogensbasis wordt verstevigd). De procedure is wezenlijk strenger dan bij de BV door het kapitaalanker.",
+  "definitie": {
+    "text": "**Verhoging van het kapitaal** van een naamloze vennootschap (NV) — waardoor het wettelijk vermogensanker wordt vergroot. Vier vormen: (1) **inbreng in geld**, (2) **inbreng in natura**, (3) **incorporatie van reserves of uitgiftepremies**, (4) uitgifte van **converteerbare obligaties** of **inschrijvingsrechten** (warrants) die later in kapitaal worden omgezet. Steeds vereist een statutenwijziging via de algemene vergadering, behoudens binnen de grenzen van het **toegestaan kapitaal** waar het bestuursorgaan zelfstandig mag beslissen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 7:177 ev."
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_7_177",
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_7_198",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Statutenwijziging — bevoegdheid AV",
+      "wat": "Beslissing door de algemene vergadering, in beginsel met de **bijzondere aanwezigheids- en meerderheidsvoorwaarden voor statutenwijzigingen** (helft van het kapitaal vertegenwoordigd, drievierde meerderheid). De wijziging wordt vastgesteld bij notariële akte en bekendgemaakt.",
+      "waarom": "Het kapitaalbedrag staat in de statuten — wijzigen kan dus enkel via de statutenwijzigingsprocedure. Notariële vorm en bekendmaking dienen de rechtszekerheid voor derden.",
+      "grondslag": "WVV art. 7:177",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_177",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Toegestaan kapitaal — delegatie aan bestuursorgaan",
+      "wat": "De statuten kunnen het bestuursorgaan machtigen om binnen vooraf bepaalde grenzen, en gedurende ten hoogste vijf jaar (hernieuwbaar), zelf tot kapitaalverhoging te beslissen. Bestuursorgaan handelt dan binnen het kader van het 'toegestaan kapitaal' zonder telkens AV-bijeenroeping.",
+      "waarom": "Geeft het bestuur snelheid bij marktopportuniteiten (financiering, M&A) zonder telkens een buitengewone AV met notarisakte te moeten organiseren.",
+      "grondslag": "WVV art. 7:177, art. 7:198 ev.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_7_198",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Inbreng in geld — voorkeurrecht en volstorting",
+      "wat": "Bestaande aandeelhouders hebben een **voorkeurrecht**: zij mogen op de nieuwe aandelen inschrijven naar verhouding van hun bestaand belang, gedurende minstens 15 dagen. De inbreng in geld moet bij ondertekening volledig **geplaatst** zijn; gedeeltelijke volstorting (minstens 25 %) is toegestaan voor het te storten saldo.",
+      "waarom": "Voorkeurrecht beschermt bestaande aandeelhouders tegen ongewenste verwatering van stem- en winstrechten. Volstortingsregels garanderen dat de kapitaalvermelding niet fictief is.",
+      "grondslag": "WVV art. 7:179, 7:188-7:193",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_188",
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_598",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Inbreng in natura — bedrijfsrevisorverslag",
+      "wat": "Bij inbreng van goederen of vorderingen vereist het WVV een **verslag van een bedrijfsrevisor** over de waardering en de toegekende vergoeding (aantal en aard van de aandelen). Het bestuursorgaan stelt een bijzonder verslag op dat toelicht waarom de inbreng nuttig is voor de vennootschap.",
+      "waarom": "Voorkomt overwaardering van niet-geldelijke inbreng (vroeger 'gewatered stock'-praktijk) en schuldeisersbenadeling.",
+      "grondslag": "WVV art. 7:7, art. 7:197",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_197",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Beperking of opheffing voorkeurrecht — verslag + meerderheid",
+      "wat": "Het voorkeurrecht kan worden beperkt of opgeheven door de AV met statutenwijzigingsmeerderheid, mits (1) een bestuursverslag dat de uitgifteprijs, de begunstigden en het belang motiveert, en (2) een verslag van de commissaris (of bedrijfsrevisor/accountant) over de financiële en boekhoudkundige gegevens van het bestuursverslag.",
+      "waarom": "Twee getrapte verslagen beschermen de niet-deelnemende aandeelhouders: ze krijgen inzicht in prijs en motief, en een onafhankelijk professional certificeert de cijfers.",
+      "grondslag": "WVV art. 7:191, art. 7:193; MvT bij art. 598",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_598",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Incorporatie van reserves",
+      "wat": "Bestaande beschikbare reserves of uitgiftepremies kunnen via AV-besluit worden omgezet in kapitaal. Geen nieuwe externe middelen, maar een **boekhoudkundige verschuiving** binnen het eigen vermogen die het niet-uitkeerbaar deel verhoogt.",
+      "waarom": "Verhoogt de bodem van de nettoactieftest en signaleert aan derden een sterkere kapitaalbasis. Soms ingezet vóór een kapitaalvermindering die schuldeisersbescherming wil activeren.",
+      "grondslag": "WVV art. 7:177; MvT bij art. 312",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_312",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Aurelia Holding NV verhoogt kapitaal in geld met voorkeurrecht",
+      "cast": [
+        "Aurelia Holding NV",
+        "Pieter Vermeulen",
+        "Robert Vandenberghe"
+      ],
+      "omschrijving": "Aurelia Holding NV (kapitaal € 1.000.000, verdeeld over 10.000 aandelen) wil € 500.000 ophalen voor een overname. Pieter Vermeulen (60 %) en Robert Vandenberghe (40 %) zijn de twee aandeelhouders.",
+      "stappen": [
+        "1. Bestuursorgaan stelt een verslag op dat de kapitaalverhoging motiveert; uitgifteprijs vastgelegd op € 100 per aandeel (gelijk aan boekwaarde).",
+        "2. Buitengewone AV besluit tot uitgifte van 5.000 nieuwe aandelen tegen € 100 — statutenwijziging bij notaris.",
+        "3. Voorkeurrecht open gedurende 15 dagen: Pieter krijgt recht op 3.000 nieuwe aandelen, Robert op 2.000.",
+        "4. Beide schrijven volledig in en storten € 100 × 5.000 = € 500.000 op een geblokkeerde rekening.",
+        "5. Notaris stelt vast dat de inschrijvingen en volstortingen plaatsvonden; statuten worden gewijzigd (kapitaal nu € 1.500.000) en bekendgemaakt."
+      ],
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Boeking kapitaalverhoging in geld",
+          "rijen": [
+            {
+              "rekening": "550 — Geblokkeerde rekening kapitaalverhoging",
+              "debet": 500000,
+              "credit": null
+            },
+            {
+              "rekening": "100 — Geplaatst kapitaal",
+              "debet": null,
+              "credit": 500000
+            }
+          ],
+          "confidence": "inferred"
+        }
+      ]
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Een **inbreng in natura** zonder bedrijfsrevisorverslag is in beginsel nietig — ook indien de waarde 'kennelijk juist' is. Vraag het verslag steeds vooraf op.",
+      "vaak_fout": "Mondeling akkoord met de inbrenger, akte gepasseerd zonder revisorverslag, en pas achteraf ontdekt dat het bestuur aansprakelijk is.",
+      "grondslag": "WVV art. 7:7"
+    },
+    {
+      "advies": "Bij **toegestaan kapitaal** moet het bestuursorgaan zich strikt aan de in de statuten opgenomen grenzen houden (bedrag, doel, geldigheidsduur). Overschrijding maakt de beslissing aanvechtbaar.",
+      "vaak_fout": "Aannemen dat 'toegestaan kapitaal' = vrije kapitaalverhogingsbevoegdheid voor het bestuur.",
+      "grondslag": "WVV art. 7:198"
+    }
+  ],
+  "edges": [
+    {
+      "type": "specialisatie-van",
+      "target": "kapitaalwijziging",
+      "target_status": "resolved",
+      "facet": {
+        "regime": "NV"
+      }
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "voorkeurrecht-aandeelhouder",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "inbreng-vennootschap",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "inbreng-in-natura-verslag",
+      "target_status": "resolved"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "naamloze-vennootschap-nv",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "kapitaalverhoging-bv",
+      "target_status": "resolved",
+      "facet": {
+        "aspect": "kapitaalanker"
+      }
+    }
+  ]
+}

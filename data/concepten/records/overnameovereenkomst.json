@@ -1,0 +1,228 @@
+{
+  "id": "overnameovereenkomst",
+  "naam": "Overnameovereenkomst",
+  "naam_alternatief": "share purchase agreement (SPA) / asset purchase agreement (APA)",
+  "node_type": "cluster",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.A",
+    "3.0.V.E",
+    "3.0.V.F",
+    "3.0.V.G"
+  ],
+  "situering": "De overnameovereenkomst is het centrale contract waarmee de eigendom van een onderneming verandert. In België draait het rond twee transactietypes (asset deal of share deal) en is het — anders dan in common-law-systemen — geen 'self-contained' document: het Belgisch contractenrecht en het WVV vullen aan wat het contract niet regelt. Voor de accountant is het contract het scharnier waarop de boekenresultaten van de due diligence in juridische en financiële bescherming omslaan.",
+  "definitie": "Een overnameovereenkomst is een contract waarmee de verkoper (vendor) de aandelen van een doelvennootschap (share deal) of bepaalde activa en passiva ervan (asset deal) overdraagt aan een koper, in ruil voor een prijs in geld of in eigen aandelen. Naast de prijs regelt het de bescherming van de koper via verklaringen en waarborgen, vrijwaringen, closing-condities, post-closing-verbintenissen en eventueel een prijsaanpassings- of earn-out-mechanisme.",
+  "bouwstenen": [
+    {
+      "titel": "Twee fundamentele transactievormen",
+      "wat": "Een overname loopt in België ofwel via een share deal (koop van de aandelen van de doelvennootschap, controlewissel maar identiteit blijft) ofwel via een asset deal (koop van geselecteerde activa, eventueel een bedrijfstak of algemeenheid).",
+      "waarom": "De keuze tussen beide vormen bepaalt fiscaliteit, formaliteiten, automatische overdracht van schulden, en het beschermingsniveau dat de koper van rechtswege geniet.",
+      "in_praktijk": "De share deal is gangbaar en eenvoudig in opzet; de asset deal komt meer voor bij carve-outs of wanneer de koper niet alle activiteiten van de target wenst over te nemen.",
+      "grondslag": "[[asset-deal-versus-share-deal]]; IBA-MA-Belgium-2022-EN §2.1",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_2-1-general"
+        ]
+      }
+    },
+    {
+      "titel": "Voorbereidende documenten",
+      "wat": "Onderhandelingen starten doorgaans met een vertrouwelijkheidsovereenkomst (NDA) en een letter of intent (LOI / term sheet) die de essentiële parameters vastleggen vóór het uitgebreid boekenonderzoek begint.",
+      "waarom": "Deze documenten beschermen vertrouwelijke informatie tijdens de pre-contractuele fase en kaderen de bedoelingen — al kan een 'niet-bindend' bedoelde LOI naar Belgisch recht toch binden als partijen het eens zijn over de essentiële elementen.",
+      "in_praktijk": "Aurelia Holding NV en de aandeelhouders van Brugse Brouwerij BV tekenen eerst een NDA met een duurtijd van twee jaar, daarna een LOI met indicatieve prijsvork.",
+      "grondslag": "[[letter-of-intent-overname]]; [[confidentiality-overname]]; IBA-MA-Belgium-2022-EN §3.1",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_3-1-general",
+          "IBA-MA-Belgium-2022-EN__sec_3-1-3-letter-of-intent"
+        ]
+      }
+    },
+    {
+      "titel": "Due diligence-fase",
+      "wat": "Vooraleer het definitieve contract wordt ondertekend, voert de koper (en in auctions vaak ook de verkoper als vendor due diligence) een grondig onderzoek naar de doelvennootschap op juridisch, fiscaal, financieel, commercieel en ESG-vlak.",
+      "waarom": "De bevindingen sturen de prijs, de verklaringen en waarborgen, de specifieke vrijwaringen, en de keuze van closing-condities.",
+      "in_praktijk": "Sofie Janssens stelt namens de koper een data-room-rapport op dat de fiscale latenties, lopende geschillen en milieurisico's van Brugse Brouwerij BV in kaart brengt.",
+      "grondslag": "[[due-diligence-overname]]; IBA-MA-Belgium-2022-EN §4",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_4-1-points-of-attention",
+          "IBA-MA-Belgium-2022-EN__sec_4-2-typical-issues-in-a-belgian-m-a-transaction-an-overview"
+        ]
+      }
+    },
+    {
+      "titel": "Object en prijs",
+      "wat": "Voor de geldigheid van de overeenkomst moet het object (welke aandelen of welke activa precies) en de prijs (of een objectief bepaalbare formule) vaststaan. Bij asset deals hoort een gedetailleerde lijst als bijlage; bij share deals worden ook lopende dividenden en eventuele encumbrances geregeld.",
+      "waarom": "Een Belgische verkoop komt door consensus tot stand zodra partijen het eens zijn over essentiële elementen — dus zelfs een onzorgvuldig getekend voorakkoord kan al bindend zijn.",
+      "in_praktijk": "Een earn-out-clausule moet de berekeningsformule, het tijdvenster, en de verantwoording-rechten van de verkoper-vendor uitwerken — anders zit een latent geschil ingebakken.",
+      "grondslag": "[[purchase-price-mechanismen]]; IBA-MA-Belgium-2022-EN §5.2.3, §5.2.4",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-3-object-clause",
+          "IBA-MA-Belgium-2022-EN__sec_5-2-4-purchase-price"
+        ]
+      }
+    },
+    {
+      "titel": "Verklaringen en waarborgen",
+      "wat": "De verkoper geeft een lijst van verklaringen en waarborgen (representations and warranties, R&W) over de doelvennootschap: aandelen, jaarrekening, fiscaliteit, vergunningen, geschillen, contracten, IE-rechten enzovoort. Deze zijn de juridische ruggengraat van de koperbescherming.",
+      "waarom": "Onder Belgisch verkooprecht geniet de koper van aandelen weinig automatische bescherming — de R&W vullen die leemte op via contract.",
+      "in_praktijk": "Verkopers proberen R&W te beperken via een knowledge qualifier ('voor zover bekend aan de verkoper') en een gedetailleerde disclosure letter; kopers willen zo breed mogelijke R&W en repetitie ervan op closing.",
+      "grondslag": "[[representations-and-warranties]]; IBA-MA-Belgium-2022-EN §5.2.5",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-5-representations-and-warranties"
+        ]
+      }
+    },
+    {
+      "titel": "Vrijwaring en aansprakelijkheidsbeperking",
+      "wat": "Tegenover de R&W staat een vrijwaringsmechanisme (indemnification) waarmee de verkoper de koper schadeloos stelt bij een onjuiste verklaring. De aansprakelijkheid wordt typisch beperkt door een de minimis-drempel, een basket, een cap, een tijdslimiet en eventueel een escrow.",
+      "waarom": "Zonder die plafonds blijven verkopers oneindig lang en oneindig diep aansprakelijk; zonder ondergrens worden ze met triviale claims belast.",
+      "in_praktijk": "Een cap van 25 % van de prijs en een tijdslimiet van 24 maanden (langer voor fiscaliteit en sociale zekerheid) is een gangbare instelling.",
+      "grondslag": "[[indemnification-overname]]; IBA-MA-Belgium-2022-EN §5.2.6",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-6-indemnification"
+        ]
+      }
+    },
+    {
+      "titel": "Closing-condities en signing-tot-closing",
+      "wat": "Tussen signing en closing ligt typisch een periode waarin opschortende voorwaarden (mededingingsgoedkeuring, financiering, FDI-screening, third-party consents) vervuld moeten worden. Tegelijk gelden interim covenants die de verkoper verplichten de onderneming 'as a going concern' verder te zetten.",
+      "waarom": "Bepaalde transacties vereisen toelating of meldingen die niet op de dag van signing rond kunnen zijn; tegelijk wil de koper geen waarde-erosie tijdens die tussenperiode.",
+      "in_praktijk": "Aurelia Holding NV stipuleert dat Brugse Brouwerij BV geen dividend uitkeert, geen schulden aangaat buiten de gewone bedrijfsuitoefening, en geen statutenwijziging doorvoert tussen signing en closing.",
+      "grondslag": "[[closing-condities-precedent]]; IBA-MA-Belgium-2022-EN §6.1, §5.2.9",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_6-1-typical-closing-conditions",
+          "IBA-MA-Belgium-2022-EN__sec_5-2-9-buyer-and-seller-covenants"
+        ]
+      }
+    },
+    {
+      "titel": "Post-closing-mechanismen",
+      "wat": "Na closing blijven een aantal mechanismen werken: niet-concurrentiebeding, niet-afwervingsbeding, geheimhouding, transitional services, eventueel earn-out- en escrow-perioden, en de discharge van bestuurders die mee uittreden.",
+      "waarom": "De goodwill die de koper heeft afgekocht moet beschermd worden tegen de verkoper die meteen weer concurreert; tegelijk moet de operationele overdracht (IT, leveranciers, sleutelpersoneel) gefaseerd verlopen.",
+      "in_praktijk": "De verkoper van Brugse Brouwerij BV moet driejaar lang geen brouwerij beginnen binnen een straal van 100 km — de geldigheid van die clausule onder Belgisch recht hangt af van haar beperking in tijd, gebied en activiteit.",
+      "grondslag": "[[non-compete-overname]]; IBA-MA-Belgium-2022-EN §5.2.9 post-closing, §7",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-9-buyer-and-seller-covenants",
+          "IBA-MA-Belgium-2022-EN__sec_7-1-typical-steps-to-consummate-the-proposed-transaction"
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Overname Brugse Brouwerij BV door Aurelia Holding NV",
+      "cast": [
+        "Brugse Brouwerij BV",
+        "Aurelia Holding NV",
+        "Sofie Janssens"
+      ],
+      "omschrijving": "Aurelia Holding NV wil 100 % van Brugse Brouwerij BV overnemen voor een indicatieve prijs van € 4.500.000. Sofie Janssens treedt op als financieel adviseur van de koper.",
+      "stappen": [
+        "1. NDA + LOI getekend; indicatieve prijsvork € 4.000.000–€ 5.000.000 onder voorbehoud van due diligence.",
+        "2. Vier weken legal/financial/tax due diligence in een virtuele data room.",
+        "3. Bevindingen: € 200.000 fiscaal risico + € 50.000 lopend arbeidsgeschil + verwachte EBITDA-correctie € 150.000.",
+        "4. SPA-onderhandeling: prijs op € 4.300.000; specifieke vrijwaring voor de twee geïdentificeerde risico's; algemene R&W met cap 25 %.",
+        "5. Signing met opschortende voorwaarde 'goedkeuring Belgische Mededingingsautoriteit'.",
+        "6. Closing zes weken later: prijs betaald (€ 3.870.000 cash + € 430.000 op escrow gedurende 18 maanden), aandelenregister bijgewerkt."
+      ]
+    }
+  ],
+  "in_praktijk": [
+    "De accountant van de koper ondersteunt de due diligence: hij beoordeelt of de jaarrekening getrouw is, normaliseert EBITDA, identificeert latente fiscale en sociale lasten, en helpt de prijsformule te modelleren.",
+    "Bij de aankoopstructurering let de accountant op de fiscale verschillen tussen share en asset deal — een share deal is voor natuurlijke verkopers vaak vrijgesteld van meerwaardebelasting, een asset deal niet.",
+    "Een 'B2B'-evenwichtigheidsclausule in de aanhef (recitals) is sinds de Wet van 4 april 2019 standaard geworden om het risico van nietigheid wegens kennelijk onevenwicht te beperken."
+  ],
+  "valkuilen": [
+    {
+      "advies": "Onderhandel R&W cap, basket en duur expliciet uit — defaults zijn er niet onder Belgisch recht.",
+      "vaak_fout": "Vertrouwen op de algemene vrijwaring zonder cap, waardoor de verkoper jarenlang volledig blootgesteld blijft."
+    },
+    {
+      "advies": "Hou rekening met de B2B-wet (WER art. VI.91/3): contractueel evenwicht is geen luxe, een rechter kan clausules nietig verklaren.",
+      "vaak_fout": "Een puur Angelsaksische SPA inkopiëren zonder de Belgische dwingende regels te toetsen."
+    },
+    {
+      "advies": "Een 'non-binding' LOI is bindend onder Belgisch recht zodra partijen het eens zijn over de essentiële elementen.",
+      "vaak_fout": "Een lange, gedetailleerde LOI ondertekenen in de overtuiging dat een disclaimer alleen voldoende is."
+    }
+  ],
+  "edges": [
+    {
+      "target": "asset-deal-versus-share-deal",
+      "type": "verwijst-naar"
+    },
+    {
+      "target": "due-diligence-overname",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "letter-of-intent-overname",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "representations-and-warranties",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "indemnification-overname",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "purchase-price-mechanismen",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "closing-condities-precedent",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "non-compete-overname",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "confidentiality-overname",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "controleverwerving-methodes",
+      "type": "verwijst-naar"
+    },
+    {
+      "target": "aandeelhoudersovereenkomst",
+      "type": "verwijst-naar"
+    },
+    {
+      "target": "verplicht-overnamebod",
+      "type": "vergelijkt-met",
+      "aspect": "private (SPA) versus genoteerde-markt (verplicht overnamebod)"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.A"
+    ],
+    "reviewed_by": null
+  },
+  "schema_version": "1.6"
+}

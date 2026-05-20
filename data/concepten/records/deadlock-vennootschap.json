@@ -1,0 +1,61 @@
+{
+  "id": "deadlock-vennootschap",
+  "naam": "Deadlock in een vennootschap",
+  "node_type": "begrip",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VIII",
+    "3.0.VIII.A"
+  ],
+  "situering": "Een deadlock is de situatie waarin twee blokken — typisch 50/50, of een meerderheid + een blokkeringsminderheid bij versterkte meerderheidsbesluiten — elkaar permanent neutraliseren waardoor de besluitvorming vastloopt. De wet kent geen specifiek 'deadlock'-regime, maar verschillende instrumenten (gerechtelijke ontbinding, uittreding, SHA-clausules) kunnen ingrijpen.",
+  "definitie": "Een deadlock is een situatie van blijvende blokkering van de besluitvorming in een vennootschapsorgaan (algemene vergadering of bestuur), doorgaans omdat twee groepen aandeelhouders of bestuurders met gelijke of complementaire stemkracht permanent tegenovergestelde posities innemen. Het is geen rechtsfiguur op zich maar een **feitelijke aanleiding** voor remedies: contractuele exit-mechanismes, geschillenregeling of gerechtelijke ontbinding wegens 'diepgaande en blijvende onenigheid' (art. 2:73 WVV).",
+  "in_praktijk": [
+    "Drie typische verschijningsvormen: (i) **50/50-deadlock** tussen twee aandeelhouders; (ii) **blokkering versterkte meerderheid** door minderheid >25% (voor 75%-besluiten); (iii) **bestuursdeadlock** in een paritair samengesteld bestuursorgaan.",
+    "Contractuele remedies (SHA): **Russian roulette** (één biedt prijs, ander kiest koop of verkoop), **Texas shoot-out** (gesloten biedingen, hoogste wint), **koop-of-verkoop-aanbod**, **mediation-clausule met fallback-arbitrage**."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Famke Vermeulen en Tobias De Smet houden elk 50% in Brugse Brouwerij BV. Ze zijn beiden bestuurder. Sinds een persoonlijk geschil weigeren ze elkaars voorstellen — geen jaarrekening goedgekeurd, geen bestuursbesluiten meer. Zonder SHA-clausule blijft enkel gerechtelijke ontbinding (art. 2:73) of de gerechtelijke uittreding (art. 2:68).",
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    "Een 50/50-deadlock is **niet noodzakelijk een grond voor uitsluiting** (drempel 30% wel gehaald, maar gegronde-redenen-eis bij verweerder ontbreekt vaak bij wederzijdse impasse).",
+    "**Proactief plannen**: een SHA-clausule kost niets in goede tijden, maar voorkomt verstikkende rechtszaken in slechte. Een notaris of accountant moet bij oprichting hierop wijzen."
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "vennootschapsconflict",
+      "target_status": "exists"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "exit-mechanismen-sha",
+      "target_status": "exists",
+      "conditie": "wanneer SHA-clausule wordt geactiveerd"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "gerechtelijke-ontbinding",
+      "target_status": "exists"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "uittredingsvordering",
+      "target_status": "exists"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VIII",
+    "linked_anchors": [
+      "3.0.VIII"
+    ],
+    "reviewed_by": null,
+    "created_at": "2026-05-20T10:00:00Z"
+  },
+  "schema_version": "1.6"
+}

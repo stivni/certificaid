@@ -1,0 +1,197 @@
+{
+  "id": "rechtspersoonlijkheid-vennootschap",
+  "naam": "Rechtspersoonlijkheid van een vennootschap",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.I"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T06:55:38Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.I",
+    "linked_anchors": [
+      "3.0.I"
+    ],
+    "reviewed_by": null
+  },
+  "situering": "Het WVV onderscheidt vennootschappen *met* en *zonder* rechtspersoonlijkheid (WVV art. 1:5). De keuze is fundamenteel: rechtspersoonlijkheid bepaalt of de vennootschap zélf drager is van rechten en plichten of dat de vennoten persoonlijk de relaties met derden aangaan. Voor een stagiair is dit de eerste vraag bij elke vorm-analyse.",
+  "definitie": {
+    "text": "Rechtspersoonlijkheid betekent dat de vennootschap juridisch als een **zelfstandige drager** van rechten en plichten wordt erkend, met een eigen vermogen, eigen contracten en eigen aansprakelijkheid, los van de natuurlijke of rechtspersonen die haar oprichtten of leiden.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:5"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_1_4",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_1_23",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Vormen met rechtspersoonlijkheid",
+      "betekenis": "Het WVV erkent zeven vormen mét rechtspersoonlijkheid: VOF, CommV, BV, CV, NV, en de Europese vormen SE en SCE. Het EESV is ook rechtspersoon (WVV art. 1:5 §3).",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:5 §2-3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_1_4",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_1_23",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Vormen zonder rechtspersoonlijkheid",
+      "betekenis": "Twee vormen: de **maatschap** (vennootschap zonder rechtspersoonlijkheid, WVV art. 1:5 §1) en de **feitelijke vereniging** (vereniging zonder rechtspersoonlijkheid, WVV art. 1:6 §1). Wat ze gemeen hebben: geen eigen drager, geen eigen vermogen in juridische zin (al spreekt het wetboek wel van een afgescheiden vennootschapsvermogen voor de maatschap, art. 4:13), geen jaarrekening-neerlegging.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:5 §1, art. 1:6 §1, art. 4:13"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_1_4",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WVV__art_1_5",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_4_21",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Wat verandert door rechtspersoonlijkheid?",
+      "betekenis": "Concreet: de rechtspersoon contracteert zelf, opent rekeningen op haar naam, is eigenaar van haar activa, heeft een eigen domicilie (zetel), staat alleen ingeschreven in de KBO (Kruispuntbank van Ondernemingen), heeft een eigen BTW- en RSZ-nummer. Schuldeisers van de rechtspersoon kunnen verhaal halen op haar vermogen, niet automatisch op het privévermogen van de vennoten — al hangt dat af van de aansprakelijkheidsregeling van de vorm.",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_1_4",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "**Aurelia Holding NV** koopt een gebouw: de NV staat als eigenaar in het hypothecair register. Een **maatschap** tussen Pieter Vermeulen en Marleen De Cock kan formeel geen gebouw kopen op naam van de maatschap — het komt in onverdeeldheid op naam van de vennoten.",
+      "cast": [
+        "Aurelia Holding NV",
+        "Pieter Vermeulen",
+        "Marleen De Cock"
+      ]
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een maatschap mist rechtspersoonlijkheid maar heeft wel een *afgescheiden vennootschapsvermogen* (WVV art. 4:13): persoonlijke schuldeisers van een vennoot kunnen alleen verhaal halen op het aandeel van die vennoot, niet rechtstreeks op het vennootschapsvermogen. Verwar dus 'geen rechtspersoonlijkheid' niet met 'geen scheiding van vermogen'.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 4:13, MvT art. 1:1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_4_11",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "MvT-WVV-2018__art_4_21",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Rechtspersoonlijkheid impliceert niet automatisch beperkte aansprakelijkheid. De VOF en CommV zijn rechtspersonen, maar hun (gecommanditeerde) vennoten zijn onbeperkt en hoofdelijk aansprakelijk voor de schulden van de vennootschap.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 4:22"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_4_19",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "vennootschap-begrip",
+      "redenering": "Rechtspersoonlijkheid is een dimensie van vennootschap.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "beperkte-aansprakelijkheid-vennoot",
+      "aspect": "rechtspersoon-impliceert-niet-beperkt",
+      "redenering": "Veel voorkomende verwarring.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "vennootschapsvormen-typologie",
+      "redenering": "Dimensie in de typologie.",
+      "confidence": "grounded"
+    }
+  ]
+}

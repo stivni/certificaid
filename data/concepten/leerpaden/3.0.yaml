@@ -1,0 +1,659 @@
+programmaonderdeel: "3.0"
+titel: "Vennootschapsrecht"
+status: voorgesteld
+schema_version: "1.0"
+hoofdstukken:
+  - type: oriëntatie
+    titel: "Waarom vennootschapsrecht voor de accountant? Van oprichting tot exit"
+    rationale_hint: >-
+      Vertrek vanuit het idee dat de gecertificeerd accountant in elke
+      levensfase van een vennootschap een rol speelt: bij **oprichting**
+      adviseert hij over de vennootschapsvorm en stelt hij het financieel
+      plan op (oprichtersaansprakelijkheid op zijn schouders); tijdens
+      het **leven** van de vennootschap begeleidt hij kapitaalbewegingen,
+      uitkeringen, jaarrekeningen en algemene vergaderingen; bij
+      **overdracht of overname** speelt hij een sleutelrol in due
+      diligence, waardering en closing; bij **conflicten en exit** is hij
+      vaak de raadgever die de partijen door geschillenbeslechting,
+      ontbinding of vereffening loodst; en bij **moeilijkheden** is hij
+      wettelijk verplicht om alarmsignalen te melden (meldingsplicht
+      continuïteit) en de cliënt naar gerechtelijke reorganisatie of
+      faillissement te begeleiden. Het WVV (2019) — dat het oude
+      Wetboek van vennootschappen heeft vervangen — en WER Boek XX
+      (insolventie) zijn de twee wettelijke pijlers. Daarnaast: dit PO
+      is uniek omdat het ook **drie examen-taken** koppelt (oprichting,
+      overdracht-ontbinding, bijzondere mandaten) — dat zijn de
+      concretiseringen die op het examen worden getoetst. De stagiair
+      moet niet alleen het vennootschapsrecht kennen, maar ook weten
+      welke verslagen en mandaten de accountant zelf uitvoert.
+
+  - type: thematisch
+    titel: "Basisbegrippen: wat is een vennootschap en wie zijn de spelers?"
+    concepten:
+      - vennootschap-begrip
+      - rechtspersoonlijkheid-vennootschap
+      - vennoot-vs-aandeelhouder
+      - vennootschapsvormen-typologie
+      - beperkte-aansprakelijkheid-vennoot
+      - onbeperkte-aansprakelijkheid-vennoot
+      - doorbraak-aansprakelijkheid
+
+  - type: thematisch
+    titel: "De vennootschapsvormen onder het WVV: BV, NV, CV, maatschap, VZW en stichting"
+    concepten:
+      - besloten-vennootschap-bv
+      - naamloze-vennootschap-nv
+      - cooperatieve-vennootschap-cv
+      - maatschap-rechtsvorm
+      - personenvennootschap-met-rechtspersoonlijkheid
+      - vereniging-en-stichting
+      - tijdelijke-handelsvennootschap-thv
+      - afgeschafte-vennootschapsvormen
+      - familiale-vennootschap
+
+  - type: thematisch
+    titel: "Statuten en inbreng — de oprichtingsdocumenten"
+    concepten:
+      - statuten-vennootschap
+      - inbreng-vennootschap
+      - inbreng-in-natura
+      - nijverheidsinbreng
+
+  - type: synthese
+    synthese_id: vennootschapsvormen-vergelijking
+    rationale_hint: >-
+      Plaats deze synthese vroeg als visuele kapstok: de student ziet
+      meteen waar de hoofdvormen (BV, NV, CV, maatschap, VOF, Comm.V)
+      van elkaar verschillen op de kritische assen — minimumkapitaal,
+      aansprakelijkheid van de vennoten, overdraagbaarheid van
+      aandelen, bestuursmodel, en doelgroep. Onder het oude wetboek
+      bestonden 17 vennootschapsvormen; het WVV (2019) heeft dit
+      gereduceerd tot 4 hoofdvormen (BV, NV, CV, maatschap). Elke rij
+      van de vergelijkingstabel komt verderop in het leerpad terug.
+
+  - type: competentie
+    competentie_id: adviseren-vennootschapsvormkeuze
+
+  - type: thematisch
+    titel: "Bestuur en vertegenwoordiging — wie beslist en wie tekent?"
+    concepten:
+      - bestuursorgaan
+      - bestuur-bv-cv-werkwijze
+      - enige-bestuurder
+      - monistisch-bestuur
+      - duaal-bestuur
+      - dagelijks-bestuur
+      - rechtspersoon-bestuurder-vaste-vertegenwoordiger
+      - bevoegdheid-bestuursorgaan
+      - vertegenwoordiging-vennootschap-jegens-derden
+
+  - type: thematisch
+    titel: "Belangenconflicten van bestuurders — de procedure"
+    concepten:
+      - belangenconflict-bestuurder
+      - belangenconflict-bestuurder-bv-cv
+      - belangenconflict-bestuurder-vzw-stichting
+      - verbonden-partijen-procedure-genoteerd
+
+  - type: synthese
+    synthese_id: bestuursmodel-vennootschap
+    rationale_hint: >-
+      Plaats deze synthese na de bestuursthema's: ze toont op één blad
+      hoe BV, NV en CV elk hun bestuursmodel structureren — enkelvoudig
+      (één of meer bestuurders met gelijke bevoegdheid bij BV/CV) versus
+      monistisch (raad van bestuur als college bij NV) versus duaal
+      (raad van toezicht + directieraad bij NV). De student ziet meteen
+      dat de keuze van het bestuursmodel niet vrij is per vennootschapsvorm
+      en dat ze structurele gevolgen heeft voor verantwoordelijkheid,
+      vertegenwoordiging en aansprakelijkheid.
+
+  - type: thematisch
+    titel: "Algemene vergadering — soorten, bijeenroeping en besluitvorming"
+    concepten:
+      - algemene-vergadering
+      - gewone-algemene-vergadering
+      - buitengewone-algemene-vergadering
+      - bijzondere-algemene-vergadering
+      - bijeenroeping-algemene-vergadering
+      - aanwezigheidsrecht-algemene-vergadering
+      - volmacht-algemene-vergadering
+      - notulen-algemene-vergadering
+      - registratiedatum-genoteerde-nv
+
+  - type: thematisch
+    titel: "Rechten en plichten van aandeelhouders op de algemene vergadering"
+    concepten:
+      - stemrecht-aandeelhouder
+      - vraagrecht-aandeelhouder
+      - agenderingsrecht-aandeelhouder
+      - schriftelijke-besluitvorming-aandeelhouders
+      - quorum-en-meerderheid-statutenwijziging
+      - belangenconflict-aandeelhouder
+
+  - type: synthese
+    synthese_id: synthese-soorten-algemene-vergadering
+    rationale_hint: >-
+      Eerst de drie soorten algemene vergaderingen onderscheiden —
+      gewone (jaarvergadering: goedkeuring jaarrekening, kwijting,
+      bestemming resultaat), buitengewone (statutenwijziging,
+      kapitaalbewegingen, ontbinding) en bijzondere (alle andere
+      AV's die niet onder de twee andere vallen) — vóór de student
+      naar de quorum- en meerderheidsregels overstapt. Examenkritisch:
+      welk type AV voor welk besluit?
+
+  - type: synthese
+    synthese_id: synthese-quorum-meerderheid-algemene-vergadering
+    rationale_hint: >-
+      Quorum- en meerderheidsvereisten zijn een examen-klassieker. Deze
+      synthese plaatst de regels naast elkaar: gewone AV (geen quorum,
+      gewone meerderheid), buitengewone AV voor statutenwijziging
+      (50%-quorum, 75% meerderheid), buitengewone AV voor wijziging
+      van het doel of omzetting (50%-quorum, 80% meerderheid),
+      vermindering van de rechten verbonden aan een aandelenklasse
+      (quorum en meerderheid per klasse). De student leert lezen welke
+      drempel bij welke beslissing hoort.
+
+  - type: synthese
+    synthese_id: synthese-bevoegdheidsverdeling-av-vs-bestuur
+    rationale_hint: >-
+      Sluit de AV-cluster af met de bevoegdheidsverdeling tussen
+      algemene vergadering en bestuursorgaan: residuaire bestuurs-
+      bevoegdheid versus exclusieve AV-bevoegdheden (statutenwijziging,
+      kapitaalbewegingen, benoeming/ontslag bestuurders, kwijting,
+      ontbinding). Examenkritisch: welk orgaan beslist over welk type
+      handeling?
+
+  - type: thematisch
+    titel: "Kapitaal en eigen vermogen — verhoging, vermindering en inkoop"
+    concepten:
+      - kapitaalverhoging-bv
+      - kapitaalverhoging-nv
+      - kapitaalvermindering-nv
+      - inkoop-eigen-aandelen-bv
+      - inkoop-eigen-aandelen-nv
+      - voorkeurrecht-aandeelhouder
+      - financiele-steunverlening
+      - quasi-inbreng-verslag
+
+  - type: thematisch
+    titel: "Uitkeringen en de twee testen — netto-actief en liquiditeit"
+    concepten:
+      - uitkering-uit-eigen-vermogen-bv
+      - nettoactieftest
+      - liquiditeitstest-bv
+      - interimdividend
+      - bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering
+      - individueel-controlerecht-aandeelhouder
+      - alarmbelprocedure
+
+  - type: synthese
+    synthese_id: uitkeringstest-vergelijking-bv-nv
+    rationale_hint: >-
+      De BV kent na het WVV geen kapitaal meer — uitkeringen vereisen
+      een **dubbele test**: een netto-actieftest (boekhoudkundig: blijft
+      het netto-actief positief na uitkering?) én een liquiditeitstest
+      (kan de vennootschap haar opeisbare schulden de komende 12 maanden
+      betalen?). De NV behoudt het kapitaalbegrip en kent alleen de
+      netto-actieftest. Plaats deze synthese als didactische scharnier
+      tussen de kapitaaltheoretische logica (NV: schuldeiserbescherming
+      via kapitaal) en de cash-flow-logica (BV: schuldeiserbescherming
+      via solvabiliteit én liquiditeit). Examenkritisch — komt vrijwel
+      elk examen terug.
+
+  - type: thematisch
+    titel: "Overnameovereenkomsten — pre-deal: LOI, due diligence en signing"
+    concepten:
+      - letter-of-intent-overname
+      - confidentiality-overname
+      - due-diligence-overname
+      - precontractuele-aansprakelijkheid-overname
+      - overnameovereenkomst
+
+  - type: thematisch
+    titel: "Overnameovereenkomsten — deal-mechanica: prijs, garanties en closing"
+    concepten:
+      - representations-and-warranties
+      - indemnification-overname
+      - material-adverse-change-clausule
+      - closing-condities-precedent
+      - escrow-en-zekerheidsmechanismen-overname
+      - non-compete-overname
+      - niet-afwervingsbeding-overname
+      - transfer-bedrijfstak-algemeenheid
+
+  - type: synthese
+    synthese_id: asset-deal-versus-share-deal
+    rationale_hint: >-
+      Plaats deze synthese vóór de aandeelhoudersovereenkomst-cluster:
+      ze verheldert de eerste strategische keuze in elke overname —
+      koopt de overnemer de **aandelen** van de target (share deal:
+      eenvoudig, maar overneming van álle latente verplichtingen) of de
+      **activa/bedrijfstak** (asset deal: meer cherry-picking maar
+      formeler, met de regels van WVV art. 12:103 e.v. over inbreng of
+      overdracht van bedrijfstak/algemeenheid). De synthese vergelijkt
+      op fiscale, juridische en boekhoudkundige assen. Examenkritisch
+      bij PO 3.0.taak.2.
+
+  - type: synthese
+    synthese_id: purchase-price-mechanismen
+    rationale_hint: >-
+      Sluit de overname-cluster af met de prijs-mechanismen: closing
+      accounts versus locked box versus earn-out — drie technieken om
+      het prijsrisico tussen signing en closing te verdelen. De
+      gecertificeerd accountant speelt hier een sleutelrol als
+      verifieerder van de closing accounts of de locked-box-balans.
+
+  - type: thematisch
+    titel: "Aandeelhoudersovereenkomsten — vier categorieën clausules"
+    concepten:
+      - aandeelhoudersovereenkomst
+      - overdrachtsbeperking-aandelen
+      - exit-mechanismen-sha
+      - stemovereenkomst
+      - voorkooprecht-aandelenoverdracht
+      - meervoudig-stemrecht
+      - voordrachtrecht-bestuurder
+      - certificering-aandelen
+
+  - type: thematisch
+    titel: "Controleverwerving in genoteerde vennootschappen — overnamebod, squeeze-out en sell-out"
+    concepten:
+      - verplicht-overnamebod
+      - uitkoopbod-squeeze-out
+      - sell-out-minderheid
+
+  - type: synthese
+    synthese_id: drag-along-tag-along
+    rationale_hint: >-
+      Twee exit-clausules die bij elke private-equity-deal terugkeren
+      en didactisch naast elkaar moeten: **drag-along** beschermt de
+      meerderheid (kan minderheid meeslepen bij verkoop aan een derde),
+      **tag-along** beschermt de minderheid (mag meelopen op dezelfde
+      prijsvoorwaarden). De student leert ze niet door definities maar
+      door rolomkering te zien: wie heeft welk belang bij welke clausule?
+
+  - type: synthese
+    synthese_id: controleverwerving-methodes
+    rationale_hint: >-
+      Sluit de overname- en SHA-cluster af met een breed overzicht van
+      de manieren waarop controle over een vennootschap kan worden
+      verworven: aandelenkoop (share deal), activakoop (asset deal),
+      fusie, splitsing, kapitaalverhoging met inbreng, openbaar
+      overnamebod (genoteerd). Per methode: wie beslist (AV vs.
+      bestuursorgaan), welke meldingsplicht, welke verslagen door de
+      bedrijfsrevisor of accountant. Examenkritisch overzicht voor
+      taak 2 (overdracht-advies).
+
+  - type: thematisch
+    titel: "Bestuurdersaansprakelijkheid — grondslagen en periode"
+    concepten:
+      - bestuurdersaansprakelijkheid
+      - oprichtersaansprakelijkheid
+      - feitelijk-bestuurder
+      - behoorlijke-vervulling-bestuursopdracht
+      - aansprakelijkheidsperiode-bestuurder
+      - aansprakelijkheidsbeperking-bestuurder
+      - bestuurdersaansprakelijkheidsverzekering
+      - kwijting-bestuurder
+
+  - type: thematisch
+    titel: "Verzwaarde aansprakelijkheid — fiscale schulden, sociale schulden en insolventie"
+    concepten:
+      - bestuurdersaansprakelijkheid-fiscale-schulden
+      - bestuurdersaansprakelijkheid-sociale-schulden
+      - bestuurdersaansprakelijkheid-bij-insolventie
+      - kennelijk-ontoereikend-aanvangsvermogen
+
+  - type: synthese
+    synthese_id: aansprakelijkheidsgrondslagen-bestuur-vergelijking
+    rationale_hint: >-
+      Plaats deze synthese als overzichtskaart van de grondslagen
+      waarop een bestuurder aansprakelijk kan worden gesteld: gewone
+      bestuursfout (art. 2:56 WVV — schending van de behoorlijke
+      vervulling), onrechtmatige daad jegens derden (art. 1382 BW),
+      schending van de statuten of het WVV (art. 2:56 § 2 WVV),
+      faillissementsaansprakelijkheid (kennelijk-grove fout — art. XX.225
+      WER), kennelijk-ontoereikend aanvangsvermogen (art. 5:16 BV /
+      art. 7:18 NV), fiscale en sociale schulden (art. 442quater WIB92,
+      art. 93undeciesC BTW). Per grondslag: wie kan vorderen, welke
+      bewijslast, hoofdelijk of niet, beperking. Examenkritisch.
+
+  - type: synthese
+    synthese_id: verzwaarde-aansprakelijkheid-bij-insolventie-overzicht
+    rationale_hint: >-
+      Maakt de brug tussen bestuursthema en insolventiethema: bij
+      een faillissement of gerechtelijke reorganisatie verschuift de
+      aansprakelijkheidslat — wat tijdens normale werking nog onder
+      de behoorlijke-vervullingsnorm valt, wordt onder insolventie
+      verzwaard via faillissementsaansprakelijkheid (kennelijk grove
+      fout), wrongful trading (verdere uitbating na continuïteits-
+      verlies), en de verdachte periode (transacties teruggeschroefd).
+      Deze synthese activeert wat de student in cluster 3.0.X
+      (insolventie) verderop in detail leert.
+
+  - type: thematisch
+    titel: "Vennootschapsgeschillen — begrippen en grondslagen"
+    concepten:
+      - vennootschapsconflict
+      - deadlock-vennootschap
+      - gegronde-redenen-vennootschapsgeschil
+      - misbruik-van-meerderheid
+      - misbruik-van-minderheid
+      - vennootschapsvordering
+      - wettige-redenen-ontbinding
+
+  - type: thematisch
+    titel: "Vorderingen en remedies — wettelijke en statutaire exits"
+    concepten:
+      - uitsluitingsvordering
+      - uittredingsvordering
+      - statutaire-uittreding-bv
+      - minderheidsvordering
+      - nietigverklaring-algemene-vergaderingsbesluit
+      - opschorting-besluit-vennootschap
+      - deskundigenonderzoek-vennootschap
+      - alternatieve-geschilbeslechting-vennootschap
+
+  - type: thematisch
+    titel: "Rol van de accountant in een vennootschapsconflict"
+    concepten:
+      - accountantsrol-bij-vennootschapsconflict
+      - belangenconflict-accountant
+
+  - type: synthese
+    synthese_id: vergelijking-vorderingen-vennootschapsconflict
+    rationale_hint: >-
+      Plaats deze synthese als overzichtstabel van de drie kernvorderingen
+      bij een vennootschapsconflict — uitsluitings­vordering
+      (gedwongen verkoop door tegenaandeelhouder), uittredings­vordering
+      (gedwongen overname door tegenaandeelhouder), en
+      minderheids­vordering (vennootschapsvordering tegen bestuurder
+      in naam van de vennootschap). Per vordering: wie kan instellen,
+      tegen wie, welke drempel (gegronde redenen, % aandelen), welk
+      gevolg, welke termijn. Examenkritisch — typische casus-vraag.
+
+  - type: synthese
+    synthese_id: beslisboom-remedie-vennootschapsconflict
+    rationale_hint: >-
+      Beslisboom voor de praktijk: van symptoom (deadlock, onenigheid,
+      vermoeden van fout, druk vanuit minderheid) naar remedie
+      (alternatieve geschilbeslechting → minnelijke uittreding via
+      statuten → wettelijke uittredings- of uitsluitingsvordering →
+      gerechtelijke ontbinding wegens wettige redenen). De stagiair
+      leert wanneer welke route past en welke rol de accountant kan
+      spelen.
+
+  - type: thematisch
+    titel: "Ontbinding en vereffening — vrijwillig versus gerechtelijk"
+    concepten:
+      - ontbinding-vennootschap
+      - vrijwillige-ontbinding
+      - gerechtelijke-ontbinding
+      - ontbinding-van-rechtswege
+
+  - type: thematisch
+    titel: "Vereffeningsprocedure — klassieke procedure en de vereffenaar"
+    concepten:
+      - vereffening
+      - vereffenaar
+      - vereffeningsprocedure-klassiek
+      - staat-van-activa-en-passiva-ontbinding
+      - omstandige-staat-vereffening
+      - sluiting-vereffening
+      - heropening-vereffening
+      - liquidatiebonus
+      - confirmatiebrieven
+
+  - type: thematisch
+    titel: "Bijzondere vereffeningsvarianten en aansprakelijkheid van de vereffenaar"
+    concepten:
+      - vereffening-in-een-akte
+      - bevestiging-vereffenaar-deficitaire-vereffening
+      - vereffenaarsaansprakelijkheid
+
+  - type: thematisch
+    titel: "Omzetting — van rechtsvorm wijzigen zonder ontbinding"
+    concepten:
+      - omzetting-vennootschap
+      - voorstel-omzetting-vennootschap
+      - controleverslag-omzetting
+
+  - type: synthese
+    synthese_id: vrijwillige-versus-gerechtelijke-ontbinding
+    rationale_hint: >-
+      Twee routes naar ontbinding: vrijwillig (beslissing van de
+      buitengewone AV, statutair quorum + meerderheid, verslag bestuur
+      + controleverslag accountant of bedrijfsrevisor) versus
+      gerechtelijk (vordering tot ontbinding wegens wettige redenen,
+      door minstens 10% van de aandeelhouders of door belanghebbende
+      derden, of door de procureur des Konings). Per route: vereisten,
+      gevolgen, welke verslagen door de accountant. Examenkritisch:
+      taak 2 vereist diagnose van de juiste route.
+
+  - type: synthese
+    synthese_id: klassieke-versus-een-akte-vereffening
+    rationale_hint: >-
+      De klassieke vereffening (ontbinding → benoeming vereffenaar →
+      werkzaamheden → omstandige staat → sluiting) versus de
+      vereffening-in-één-akte (ontbinding en sluiting op dezelfde
+      AV). Voorwaarden voor de versnelde procedure: geen schulden bij
+      derden, alle aandeelhouders aanwezig, alle aandeelhouders
+      tekenen, controleverslag bedrijfsrevisor of accountant. De
+      student leert de toepassingsvoorwaarden — fout toepassen is
+      een vaak voorkomende beroepsfout. Examenkritisch — taak 2 en 3.
+
+  - type: thematisch
+    titel: "Insolventie WER Boek XX — actoren en kader"
+    concepten:
+      - insolventieprocedures-belgie
+      - ondernemingsrechtbank-bevoegdheid-insolventie
+      - insolventiefunctionaris
+      - regsol-platform
+      - curator-faillissement
+      - rechter-commissaris-insolventie
+      - herstructureringsdeskundige
+      - vereffeningsdeskundige
+      - kamer-ondernemingen-in-moeilijkheden
+
+  - type: thematisch
+    titel: "Vroegtijdige waarschuwing en alarmsignalen — de meldingsplicht van de accountant"
+    concepten:
+      - vroegtijdige-waarschuwing-insolventie
+      - meldingsplicht-accountant-continuiteit
+      - buitengerechtelijk-minnelijk-akkoord
+      - besloten-voorbereiding-faillissement
+
+  - type: thematisch
+    titel: "Gerechtelijke reorganisatie — drie varianten"
+    concepten:
+      - gerechtelijke-reorganisatie
+      - opschorting-betaling-gerechtelijke-reorganisatie
+      - homologatie-collectief-akkoord
+      - overdracht-onder-gerechtelijk-gezag
+      - schuldvergelijking-tijdens-opschorting
+      - boekhoudkundige-verwerking-insolventie-akkoord
+
+  - type: thematisch
+    titel: "Faillissement — voorwaarden, verloop en gevolgen"
+    concepten:
+      - faillissement
+      - voorwaarden-faillietverklaring
+      - verdachte-periode-faillissement
+      - beroepsverbod-na-insolventie
+      - kwijtschelding-natuurlijke-persoon-gefailleerde
+      - rehabilitatie-gefailleerde
+
+  - type: synthese
+    synthese_id: insolventietriage-beslisboom
+    rationale_hint: >-
+      Beslisboom voor de accountant die continuïteitsproblemen vaststelt:
+      van symptoom (cash-flow-probleem, opeisbare schulden niet meer
+      kunnen voldoen) naar maatregel — alarmbelprocedure (intern),
+      buitengerechtelijk minnelijk akkoord (bilaterale onderhandeling),
+      besloten voorbereiding faillissement (pre-pack), gerechtelijke
+      reorganisatie minnelijk akkoord, gerechtelijke reorganisatie
+      collectief akkoord, gerechtelijke reorganisatie overdracht onder
+      gerechtelijk gezag, faillietverklaring. Per maatregel: wanneer
+      passend, welke drempel, welke rol accountant.
+
+  - type: synthese
+    synthese_id: gerechtelijke-reorganisatie-varianten-vergelijking
+    rationale_hint: >-
+      De drie varianten van gerechtelijke reorganisatie naast elkaar:
+      minnelijk akkoord (bilateraal met geselecteerde schuldeisers),
+      collectief akkoord (reorganisatieplan met stemming door alle
+      schuldeisers en homologatie), en overdracht onder gerechtelijk
+      gezag (verkoop van de onderneming of een onderdeel ervan).
+      Per variant: doel, drempel, schuldeiserspositie, gevolg voor
+      continuïteit van de juridische entiteit. Examenkritisch.
+
+  - type: voorbereiding
+    titel: "Taak 1 — Begeleiding bij oprichting van een vennootschap"
+    rationale_hint: >-
+      Concretisering 1 van het examenprogramma: de accountant
+      begeleidt de oprichting. De stagiair moet de oprichtingscyclus
+      van A tot Z kunnen ophangen aan de juiste juridische en
+      boekhoudkundige instrumenten — vennootschapsvormkeuze,
+      financieel plan, inbrengverslag, oprichtingsakte, openingsbalans,
+      KBO-registratie — en de bijhorende aansprakelijkheidsrisico's
+      (oprichtersaansprakelijkheid, kennelijk-ontoereikend aanvangs-
+      vermogen) onderkennen. Volgt het stappenplan in
+      `oprichtingsproces-stappenplan`.
+    concepten:
+      - financieel-plan-oprichting
+
+  - type: synthese
+    synthese_id: oprichtingsproces-stappenplan
+    rationale_hint: >-
+      Stappenplan-synthese die het examenprogramma-onderdeel 'oprichting'
+      ophangt aan een tijdslijn: (1) keuze vennootschapsvorm, (2)
+      opstelling financieel plan, (3) inbreng + waardering, (4)
+      oprichtingsakte (notarieel voor kapitaalvennootschappen,
+      onderhands voor maatschap), (5) publicatie en KBO-registratie,
+      (6) openingsbalans. Per stap: welk verslag of mandaat door de
+      accountant.
+
+  - type: competentie
+    competentie_id: opstellen-financieel-plan-oprichting
+  - type: competentie
+    competentie_id: voorbereiden-oprichtingsakte
+  - type: competentie
+    competentie_id: begeleiden-inbreng-bij-oprichting
+  - type: competentie
+    competentie_id: opstellen-openingsbalans-vennootschap
+  - type: competentie
+    competentie_id: begeleiden-registratie-onderneming-kbo
+  - type: competentie
+    competentie_id: signaleren-oprichtersaansprakelijkheid-risico
+
+  - type: voorbereiding
+    titel: "Taak 2 — Advies bij overdracht, overname of ontbinding"
+    rationale_hint: >-
+      Concretisering 2 van het examenprogramma: de accountant adviseert
+      bij overdracht (share deal of asset deal), overname (due diligence,
+      waardering, closing) of ontbinding (vrijwillig of gerechtelijk,
+      klassiek of in-één-akte). Cruciaal: weten welke route past bij
+      welke situatie (synthese exit-routes), welke rol de accountant
+      neemt (mandaat versus advies) en welk verslag of attest hij
+      uitbrengt. Bij deze taak komen de clusters 3.0.V (overname),
+      3.0.VI (SHA), 3.0.VIII (conflict) en 3.0.IX (ontbinding) samen.
+
+  - type: synthese
+    synthese_id: exit-routes-onderneming-overzicht
+    rationale_hint: >-
+      Overzicht van alle exit-routes uit een onderneming: verkoop
+      aandelen (share deal), verkoop activa/bedrijfstak (asset deal),
+      fusie of splitsing, omzetting, overdracht onder gerechtelijk
+      gezag, vrijwillige ontbinding-vereffening, gerechtelijke
+      ontbinding, faillissement. Per route: drempel, gevolg voor
+      werknemers, fiscale gevolgen, accountantsrol. Helpt de student
+      een advies-opdracht situeren voor hij in detail duikt.
+
+  - type: synthese
+    synthese_id: mandaat-versus-advies-rol-accountant
+    rationale_hint: >-
+      Cruciaal onderscheid voor taak 2 én taak 3: wanneer treedt de
+      accountant op als **adviseur** (vrije opdracht, geen wettelijk
+      voorbehouden mandaat, geen onafhankelijkheidsvereiste op deze
+      cliënt) en wanneer als **wettelijk mandataris** (bijzonder
+      mandaat: omzettingsverslag, inbrengverslag, fusieverslag,
+      vereffeningsverslag — onafhankelijk, onverenigbaar met
+      adviesopdracht voor dezelfde cliënt)? De student moet deze
+      grens herkennen voor hij een opdracht aanvaardt.
+
+  - type: competentie
+    competentie_id: adviseren-overdrachtsroute-onderneming
+  - type: competentie
+    competentie_id: adviseren-ontbindingsroute-vennootschap
+  - type: competentie
+    competentie_id: begeleiden-due-diligence-overname
+  - type: competentie
+    competentie_id: begeleiden-waardering-onderneming-bij-overdracht
+  - type: competentie
+    competentie_id: opstellen-overname-verslaggeving-accountant
+  - type: competentie
+    competentie_id: begeleiden-vereffening-vennootschap
+  - type: competentie
+    competentie_id: signaleren-risicos-overdracht-of-ontbinding
+
+  - type: voorbereiding
+    titel: "Taak 3 — Bijzondere mandaten van de accountant"
+    rationale_hint: >-
+      Concretisering 3 van het examenprogramma: de accountant treedt
+      op als bijzondere mandataris voor wettelijk voorbehouden
+      verslagen — inbrengverslag, quasi-inbrengverslag, uitsluiting
+      voorkeurrecht, omzettingsverslag, fusie/splitsing-verslag,
+      ontbindings- en vereffeningsstaat. Onafhankelijkheidsvereisten
+      zijn strikt (onverenigbaar met advies of boekhoudopdracht voor
+      dezelfde cliënt) — beslisboom in onderstaande synthese. Per
+      mandaat een aparte competentie met verslagstructuur en
+      methodologie.
+    concepten:
+      - bijzondere-mandaten-accountant
+      - onafhankelijkheid-bijzondere-mandataris
+
+  - type: synthese
+    synthese_id: onafhankelijkheids-beslisboom-bijzondere-mandaten
+    rationale_hint: >-
+      Beslisboom onafhankelijkheid: aanvaard ik dit bijzonder mandaat?
+      Stappen: (1) ben ik commissaris bij dezelfde vennootschap?
+      (2) heb ik in de afgelopen 2 jaar een advies- of
+      boekhoud­opdracht voor deze cliënt uitgevoerd? (3) ben ik
+      verbonden met de andere partij bij de transactie? (4) heb ik
+      een financieel belang in de uitkomst? Bij elke ja-positie:
+      onverenigbaar. Examenkritisch: de praktijkvraag op het examen
+      test deze beslisboom.
+
+  - type: competentie
+    competentie_id: opstellen-verslag-omzetting-vennootschap
+  - type: competentie
+    competentie_id: opstellen-verslag-fusie-splitsing-ruilverhouding
+  - type: competentie
+    competentie_id: opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht
+  - type: competentie
+    competentie_id: opstellen-verslag-ontbinding-vereffening-staat
+
+  - type: oriëntatie
+    titel: "Reflectie: vennootschapsrecht als gelaagd vakgebied — WVV, WER en de accountantspraktijk"
+    rationale_hint: >-
+      Sluit af met een reflectie op de twee wettelijke pijlers — het
+      WVV (2019) voor het normale leven van de vennootschap (oprichting,
+      bestuur, AV, kapitaal, conflicten, ontbinding) en WER Boek XX
+      (2018) voor het bijzondere leven (vroegtijdige waarschuwing,
+      gerechtelijke reorganisatie, faillissement). De stagiair moet zien
+      dat deze twee pijlers niet los staan maar in elkaar grijpen:
+      bestuurdersaansprakelijkheid uit het WVV wordt verzwaard door WER
+      Boek XX (faillissementsaansprakelijkheid, kennelijk grove fout);
+      de meldingsplicht van de accountant uit Wet ITAA wordt
+      operationeel via WER Boek XX (vroegtijdige waarschuwing);
+      ontbinding (WVV) en faillissement (WER) zijn vaak elkaars
+      alternatief. Maak de overstap naar PO 3.1 (fiscaliteit
+      vennootschapsbelasting) en PO 1.6 (externe controle —
+      commissarisopdracht) expliciet: vennootschapsrecht is de
+      juridische ruggengraat waarin de andere PO's hun zin krijgen.
+
+_provenance:
+  voorgesteld_door: "manual-leerpad-3.0-2026-05-20"
+  voorgesteld_op: "2026-05-20T00:00:00+00:00"
+  gecureerd_door: null
+  gecureerd_op: null

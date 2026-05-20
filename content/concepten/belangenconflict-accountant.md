@@ -4,17 +4,20 @@ tags:
 - concept
 - regel
 - po-1-6
+- po-3-0
 linked_anchors:
 - 1.6.III.E
 - 1.6.I.B
+- 3.0.VIII.A
 programmaonderdelen:
 - '1.6'
+- '3.0'
 confidence: grounded
 node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/belangenconflict-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-20'
 ---
 # Belangenconflict van de externe accountant ⚖️
 

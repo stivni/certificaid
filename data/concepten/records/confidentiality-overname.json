@@ -1,0 +1,76 @@
+{
+  "id": "confidentiality-overname",
+  "naam": "Vertrouwelijkheidsovereenkomst bij overname",
+  "naam_alternatief": "non-disclosure agreement (NDA)",
+  "node_type": "begrip",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.A",
+    "3.0.V.C",
+    "3.0.V.G"
+  ],
+  "situering": "De NDA opent de pre-contractuele fase: zonder vertrouwelijkheidsbescherming geeft een verkoper geen gevoelige informatie vrij. In België is er wel een algemene confidentialiteitsplicht uit goede trouw, maar de contractuele NDA is veel afdwingbaarder.",
+  "definitie": "Een vertrouwelijkheidsovereenkomst (non-disclosure agreement, NDA) is het contract waarin partijen zich verbinden om informatie die ze in het kader van overnamebesprekingen ontvangen niet te gebruiken voor andere doeleinden en niet aan derden mee te delen, gedurende een bepaalde periode.",
+  "in_praktijk": [
+    "Typische looptijd van de confidentialiteitsverplichting is twee jaar; bij gevoelige sectoren langer.",
+    "Een NDA bevat dikwijls bijkomende verbintenissen: niet-afwerving van personeel, niet-rechtstreeks contact met klanten, exclusiviteit van onderhandelingen.",
+    "Voor de afdwingbaarheid is een schadebeding (clause pénale) belangrijk — zonder bedongen schadevergoeding moet de benadeelde de schade-omvang bewijzen, wat moeilijk is."
+  ],
+  "voorwaarden": [
+    {
+      "titel": "Bindend ondanks niet-bindende LOI",
+      "beschrijving": "Zelfs als de LOI als 'niet-bindend' wordt aangeduid, zijn confidentialiteits-, exclusiviteits-, niet-afwervings- en kostenclausules typisch wel bindend.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §3.2",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_3-2-binding-nature-of-clauses-in-the-pre-contractual-documentation"
+        ]
+      }
+    },
+    {
+      "titel": "Schadebeding voor afdwingbaarheid",
+      "beschrijving": "Het bedongen bedrag mag de schade die op het moment van contracteren redelijkerwijs voorzienbaar was niet overschrijden; rechter kan een buitensporige clausule matigen.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §3.1.2",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_3-1-2-non-disclosure-agreements"
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Definieer 'vertrouwelijke informatie' breed maar met uitzonderingen (reeds publieke info, ontwikkeld zonder gebruik, rechterlijke vereiste).",
+      "vaak_fout": "Een te enge definitie waardoor cruciale categorieën (financiële data, klantenlijsten) buiten de NDA vallen."
+    },
+    {
+      "advies": "Stem GDPR-aspecten af bij overdracht van persoonsgegevens tijdens DD.",
+      "vaak_fout": "Persoonsgegevens delen via de data room zonder verwerkersovereenkomst of legitimiteit-grondslag."
+    }
+  ],
+  "edges": [
+    {
+      "target": "overnameovereenkomst",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "letter-of-intent-overname",
+      "type": "vereist-kennis-van"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.A",
+      "3.0.V.C"
+    ],
+    "reviewed_by": null
+  },
+  "schema_version": "1.6"
+}

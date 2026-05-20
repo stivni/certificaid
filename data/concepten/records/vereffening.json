@@ -5,13 +5,16 @@
   "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
-    "1.1.II.T"
+    "1.1.II.T",
+    "3.0.IX"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.T",
-    "dekt_ook_anchors": [],
+    "dekt_ook_anchors": [
+      "3.0.IX"
+    ],
     "reviewed_by": null,
     "po11_touchup_2026_05_18": {
       "uitgevoerd_op": "2026-05-18T21:55Z",
@@ -21,6 +24,16 @@
         "situering+",
         "type:procedure->cluster",
         "schema->1.6"
+      ]
+    },
+    "po30_ix_extract_2026_05_20": {
+      "uitgevoerd_op": "2026-05-20T07:31:14Z",
+      "scope": "PO 3.0.IX juridische uitwerking — cross-link met nieuwe ontbinding-/vereffeningsrecords",
+      "changes": [
+        "linked_anchors+3.0.IX",
+        "edges+vereist-kennis-van:vereffeningsprocedure-klassiek",
+        "edges+vereist-kennis-van:vereffenaar",
+        "edges+verwijst-naar:ontbinding-vennootschap"
       ]
     }
   },
@@ -188,6 +201,31 @@
       "type": "vereist-kennis-van",
       "target": "voorzieningen",
       "redenering": "Sluitingsvergoedingen en stopzettingskosten worden via voorzieningen geboekt."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "ontbinding-vennootschap",
+      "redenering": "Vereffening volgt op ontbinding — PO 3.0.IX juridisch perspectief."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "vereffeningsprocedure-klassiek",
+      "redenering": "De vijf fasen van de klassieke procedure leveren de juridische backbone voor de boekhoudkundige verwerking."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "vereffenaar",
+      "redenering": "De vereffenaar is de actor die het proces in dit record beschreven uitvoert."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "sluiting-vereffening",
+      "redenering": "Sluiting beëindigt de vereffeningsfase en triggert de fiscale liquidatiebonus-afrekening."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "vereffening-in-een-akte",
+      "redenering": "Turbo-vereffening is de procedurele variant onder art. 2:80 WVV."
     }
   ],
   "voorbeelden": [

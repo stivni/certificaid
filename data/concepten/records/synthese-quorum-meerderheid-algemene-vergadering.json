@@ -1,0 +1,106 @@
+{
+  "id": "synthese-quorum-meerderheid-algemene-vergadering",
+  "naam": "Quorum en meerderheid in de algemene vergadering — synthese per rechtsvorm",
+  "node_type": "synthese",
+  "situering": {
+    "text": "Overzicht van de aanwezigheids- en meerderheidsregels in BV, CV en NV voor de drie hoofdtypes besluiten: gewone beslissing, statutenwijziging en wijziging van voorwerp/doelen. Voor stagiairs het meest aangevraagde tabelletje — zonder dit beslis je geen enkel AV-besluit correct.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "WVV — Boeken 5, 6, 7 AV-hoofdstukken (synthese)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_5_77",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_5_81",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_6_71",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_115",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "gebaseerd_op_concepten": [
+    "algemene-vergadering",
+    "buitengewone-algemene-vergadering",
+    "quorum-en-meerderheid-statutenwijziging",
+    "stemrecht-aandeelhouder"
+  ],
+  "vergelijkingstabel": {
+    "kolommen": [
+      "Type besluit",
+      "BV",
+      "CV",
+      "NV"
+    ],
+    "rijen": [
+      {
+        "Type besluit": "Gewone beslissing (jaarrekening, kwijting, ...)",
+        "BV": "Geen quorum; gewone meerderheid uitgebrachte stemmen",
+        "CV": "Geen quorum; gewone meerderheid uitgebrachte stemmen (behoudens andersluidende statuten)",
+        "NV": "Geen quorum; gewone meerderheid uitgebrachte stemmen"
+      },
+      {
+        "Type besluit": "Statutenwijziging (gewoon)",
+        "BV": "≥ 50% uitgegeven aandelen + 3/4 stemmen",
+        "CV": "≥ 50% uitgegeven aandelen + 3/4 stemmen (behoudens andersluidende statuten)",
+        "NV": "≥ 50% kapitaal + 3/4 stemmen"
+      },
+      {
+        "Type besluit": "Wijziging voorwerp/doelen",
+        "BV": "≥ 50% uitgegeven aandelen + 4/5 stemmen",
+        "CV": "≥ 50% uitgegeven aandelen + 4/5 stemmen",
+        "NV": "≥ 50% kapitaal (en in voorkomend geval 50% winstbewijzen) + 4/5 stemmen"
+      },
+      {
+        "Type besluit": "Tweede bijeenroeping na quorumtekort",
+        "BV": "Geen quorum; meerderheid blijft",
+        "CV": "Geen quorum; meerderheid blijft (behoudens andersluidende statuten)",
+        "NV": "Geen quorum; meerderheid blijft"
+      }
+    ]
+  },
+  "kerninzichten": [
+    "Voor BV en CV gaat het quorum over 'uitgegeven aandelen'; voor NV over 'kapitaal' — verschil dat de stagiair geregeld vergeet en wat tot foute berekeningen leidt.",
+    "Onthoudingen worden in alle gevallen niet in teller noch in noemer meegerekend.",
+    "De CV laat afwijkende statutaire drempels toe; de BV en NV niet (de wet werkt daar dwingend).",
+    "Aandelen zonder stemrecht of geschorst stemrecht worden niet meegeteld voor quorum noch voor meerderheid (art. 5:97, 6:78, 7:140)."
+  ],
+  "edges": [
+    {
+      "type": "verwijst-naar",
+      "target": "quorum-en-meerderheid-statutenwijziging",
+      "target_status": "resolved"
+    }
+  ],
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.III",
+    "3.0.III.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T12:34:12Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.III",
+    "linked_anchors": [
+      "3.0.III",
+      "3.0.III.A"
+    ],
+    "reviewed_by": null
+  }
+}

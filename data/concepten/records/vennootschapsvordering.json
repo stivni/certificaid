@@ -1,0 +1,68 @@
+{
+  "id": "vennootschapsvordering",
+  "naam": "Vennootschapsvordering",
+  "naam_alternatief": "actio mandati door de algemene vergadering",
+  "node_type": "begrip",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VIII"
+  ],
+  "situering": "De vennootschapsvordering is de **klassieke aansprakelijkheidsactie** waarover de algemene vergadering zelf beslist. Zij staat tegenover de minderheidsvordering: bij de vennootschapsvordering is het de meerderheid die de bestuurder aanspreekt namens de vennootschap; bij de minderheidsvordering doet de minderheid dat in haar plaats omdat de meerderheid kwijting verleende.",
+  "definitie": "Een vennootschapsvordering is een aansprakelijkheidsvordering die de **algemene vergadering** beslist in te stellen tegen leden van het bestuursorgaan, leden van de raad van toezicht, vereffenaars of commissarissen wegens een fout begaan bij de uitoefening van hun functie. De algemene vergadering kan één of meer **lasthebbers** aanstellen om de vordering te voeren. In het **duaal bestuur** (NV) beslist de raad van toezicht over de vordering tegen leden van de directieraad.",
+  "in_praktijk": [
+    "De vennootschapsvordering wordt zelden ingesteld zolang de bestuurder de meerderheid achter zich heeft — de meerderheid die hem aanstelde verleent doorgaans ook kwijting. Pas bij regimewissel (overname, nieuwe meerderheid) komt zij in beeld.",
+    "Een **uitdrukkelijke en met kennis van zaken** verleende kwijting bevrijdt de bestuurder voor handelingen tijdens dat boekjaar; de vennootschapsvordering wordt dan onontvankelijk. Daarom is kwijting een cruciaal scharniermoment."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Na een overname van Brugse Brouwerij BV blijkt dat de vorige bestuurder ongedekte voorschotten van € 350.000 aan zichzelf had toegekend. De nieuwe meerderheid laat de algemene vergadering een vennootschapsvordering instellen en stelt een gespecialiseerde advocaat aan als lasthebber.",
+      "confidence": "inferred"
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "met": "minderheidsvordering",
+      "verschil": "Vennootschapsvordering = beslist door AV (meerderheid stuurt); minderheidsvordering = beslist door minderheid zelf (na geweigerde kwijting). Beide vorderen aan vennootschap, niet aan eiser.",
+      "trigger": "Wie heeft de meerderheid op de AV op het moment van kwijting?"
+    }
+  ],
+  "valkuilen": [
+    "**Kwijting is geen totale bevrijding**: voor handelingen die niet in de toelichting of jaarrekening werden vermeld geldt de kwijting niet (art. 2:56, § 2 WVV).",
+    "De vennootschapsvordering tegen de **commissaris** vereist hetzelfde regime — vaak vergeten omdat de focus op bestuurders ligt."
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "vennootschapsconflict",
+      "target_status": "exists"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "minderheidsvordering",
+      "target_status": "exists",
+      "aspect": "wie beslist tot vordering"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kwijting-bestuurder",
+      "target_status": "exists"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "bestuurdersaansprakelijkheid",
+      "target_status": "exists"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VIII",
+    "linked_anchors": [
+      "3.0.VIII"
+    ],
+    "reviewed_by": null,
+    "created_at": "2026-05-20T10:00:00Z"
+  },
+  "schema_version": "1.6"
+}

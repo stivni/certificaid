@@ -1,0 +1,94 @@
+{
+  "id": "material-adverse-change-clausule",
+  "naam": "Material Adverse Change-clausule (MAC)",
+  "naam_alternatief": "MAE / MAC clause",
+  "node_type": "begrip",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.A"
+  ],
+  "situering": "De MAC-clausule geeft de koper de mogelijkheid om uit het contract te stappen of de prijs aan te passen wanneer tussen signing en closing een wezenlijke negatieve gebeurtenis plaatsvindt. Sinds de COVID-19-pandemie is de definitie van wat 'MAC' is een gevoelig onderhandelpunt geworden in elke Belgische SPA.",
+  "definitie": "Een Material Adverse Change-clausule is een contractuele bepaling die de koper toelaat om — wanneer zich tussen signing en closing een wezenlijke negatieve verandering voordoet in de business, activa, financiële toestand of vooruitzichten van de target — het contract op te zeggen, de closing op te schorten of de prijs te heronderhandelen.",
+  "voorwaarden": [
+    {
+      "titel": "Wezenlijkheidsdrempel",
+      "beschrijving": "De clausule definieert wat 'wezenlijk' is: kwantitatief (bv. EBITDA-daling > 20 %) of kwalitatief (verlies sleutelklant > 30 % omzet, intrekking vergunning).",
+      "grondslag": "IBA-MA-Belgium-2022-EN §1.1",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_1-1-belgian-m-a-market-insights"
+        ]
+      }
+    },
+    {
+      "titel": "Uitzonderingen (carve-outs)",
+      "beschrijving": "Verkoper bedingt uitsluitingen voor algemene gebeurtenissen: algemene economische omstandigheden, sectorbrede ontwikkelingen, wetswijzigingen, oorlog/terreur, pandemie (sinds 2020 expliciet opgenomen, soms met sub-uitzonderingen).",
+      "grondslag": "IBA-MA-Belgium-2022-EN §1.1",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_1-1-belgian-m-a-market-insights"
+        ]
+      }
+    },
+    {
+      "titel": "Disproportionate-impact-test",
+      "beschrijving": "Vaak wordt bedongen dat de uitzonderingen NIET gelden wanneer de target 'disproportionately' geraakt wordt vergeleken met sectorgenoten — dat sluit het gat tussen externe schok en target-specifieke kwetsbaarheid.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §1.1",
+      "confidence": "doctrine-grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_1-1-belgian-m-a-market-insights"
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "Surveys tonen dat sinds de pandemie tot 1 op 5 Belgische SPAs een COVID-gerelateerde clausule bevat: shifting deadlines voor CPs, knowledge qualifiers op de R&W, COVID-uitzonderingen in de MAC-definitie, en specifieke uitzonderingen op leakage.",
+    "MAC-clausules worden zelden succesvol ingeroepen: rechters interpreteren ze restrictief en vereisen een duurzame, niet-tijdelijke impact die de fundamentele business beïnvloedt."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "MAC-clausule in SPA Brugse Brouwerij BV: 'Een gebeurtenis tussen signing en closing die in redelijke verwachting leidt tot een daling van de genormaliseerde EBITDA met meer dan 25 % t.o.v. de target voor het lopende boekjaar, met uitzondering van algemene economische omstandigheden tenzij die de target disproportioneel raken.'"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Definieer kwantitatieve drempels expliciet — vage 'material' zonder cijfers leidt tot onzekerheid bij activering.",
+      "vaak_fout": "Een puur kwalitatieve MAC die in rechtspraak moeilijk hanteerbaar is."
+    },
+    {
+      "advies": "Onderscheid tussen 'MAC bij signing' (R&W betreffende afwezigheid van MAC sinds laatste audit) en 'MAC tussen signing en closing' (CP).",
+      "vaak_fout": "Een enkele 'no MAC'-clausule die beide tijdstippen vermengt."
+    }
+  ],
+  "edges": [
+    {
+      "target": "overnameovereenkomst",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "closing-condities-precedent",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "representations-and-warranties",
+      "type": "vergelijkt-met",
+      "aspect": "MAC-als-CP versus R&W-met-MAC-uitzondering"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.A"
+    ],
+    "reviewed_by": null
+  },
+  "schema_version": "1.6"
+}

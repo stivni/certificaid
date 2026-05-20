@@ -1,0 +1,111 @@
+{
+  "id": "confirmatiebrieven",
+  "naam": "Confirmatiebrieven",
+  "naam_alternatief": "accountantsbevestigingen / external confirmations",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IX",
+    "1.6.I.A",
+    "1.7.taak.1"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T15:10Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I.A",
+    "linked_anchors": [
+      "1.6.I.A",
+      "3.0.IX"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Confirmatiebrieven (Engels: external confirmations, ook accountantsbevestigingen genoemd) zijn schriftelijke verklaringen die de accountant rechtstreeks bij een derde partij opvraagt om een element van de jaarrekening of een staat van activa en passiva te verifiëren. Typische adressaten zijn banken (saldi rekeningen, kredieten, waarborgen), klanten (openstaande vorderingen), leveranciers (openstaande schulden), advocaten (lopende geschillen) en notarissen (akten in voorbereiding). De accountant verzendt het verzoek met handtekening van het bestuursorgaan; het antwoord komt rechtstreeks naar hem terug.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 505 'External Confirmations'"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-505__sec_definitie",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": "Confirmatiebrieven zijn een controlemiddel met hoge bewijskracht: ze maken gebruik van een onafhankelijke derde partij die geen belang heeft bij verkeerde informatie. Ze spelen een centrale rol bij bijzondere opdrachten zoals de omzetting van een vennootschap, fusies, ontbinding en inbreng in natura, omdat daar bedragen worden ingebracht in een notariële akte en de accountant beperkte mate van zekerheid moet kunnen onderbouwen. Bij wettelijk voorbehouden opdrachten ondertekent het bestuursorgaan typisch het verzoek; de accountant beheert de verzending en de verwerking van de antwoorden.",
+  "in_praktijk": [
+    {
+      "aspect": "Welke verifieer je typisch?",
+      "betekenis": "Bankbevestigingen voor saldi, kredieten en zekerheden zijn de meest courante (vrijwel altijd opgevraagd). Klant- en leverancierssaldi bij twijfel over openstaande balansposten. Advocatenbevestigingen om hangende rechtsgeschillen en provisies in te schatten. Notarissen voor onroerend goed dat in akte is.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-505__sec_toepassing",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Positieve versus negatieve bevestiging",
+      "betekenis": "Positieve bevestiging: de derde wordt verzocht *altijd* te antwoorden (akkoord of niet). Negatieve bevestiging: alleen antwoorden bij onenigheid — biedt minder bewijskracht en alleen aanvaardbaar bij laag inherent risico en hoog volume kleine posten.",
+      "confidence": "grounded"
+    },
+    {
+      "aspect": "Geen antwoord = geen bewijs",
+      "betekenis": "Een uitblijvend antwoord op een positieve bevestiging is geen impliciete bevestiging — de accountant moet alternatieve controlewerkzaamheden uitvoeren (kasstroom uit bankafschriften, verificatie via vervolgontvangsten).",
+      "confidence": "grounded"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Bankbevestiging voor omzettingsopdracht",
+      "cast": [
+        "Brugse Brouwerij BV",
+        "Bart Daems"
+      ],
+      "omschrijving": "Brugse Brouwerij BV wil zich omzetten naar NV. De staat van activa en passiva vermeldt € 450.000 op rekening bij KBC en een investeringskrediet van € 280.000. Bart Daems, gecertificeerd accountant, stelt de bankbevestiging op.",
+      "stappen": [
+        "1. Bart stelt de bevestigingsbrief op met vermelding van alle rekeningen, kredieten, waarborgen en handtekeningbevoegden, geadresseerd aan KBC.",
+        "2. Het bestuursorgaan van Brugse Brouwerij BV ondertekent de brief (toestemming voor de bank om informatie vrij te geven).",
+        "3. Bart verzendt de brief; het antwoord komt rechtstreeks naar zijn kantoor.",
+        "4. Bart vergelijkt het bankantwoord met de staat van activa en passiva en documenteert eventuele verschillen."
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Beheer de verzending en ontvangst zelf — laat het verzoek niet door de cliënt verzenden.",
+      "vaak_fout": "Cliënt verzendt zelf en haalt het antwoord op — biedt geen onafhankelijke bewijskracht, want cliënt kan het antwoord onderscheppen of vervalsen."
+    },
+    {
+      "advies": "Een ontvangen bevestiging via e-mail of fax vereist extra verificatie van de afzender.",
+      "vaak_fout": "PDF-bijlage zonder verificatie van het afzendadres wordt als bewijs aanvaard — risico op vervalsing."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "controlemiddelen-ic"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "opstellen-verslag-omzetting-vennootschap"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "inbreng-in-natura-verslag"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "omzetting-vennootschap"
+    }
+  ]
+}

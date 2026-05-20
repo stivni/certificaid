@@ -1,0 +1,209 @@
+{
+  "id": "bestuursmodel-vennootschap",
+  "naam": "Bestuursmodellen voor de vennootschap — vergelijking",
+  "node_type": "synthese",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.II",
+    "3.0.II.A"
+  ],
+  "situering": {
+    "text": "De NV in het WVV kent drie alternatieve bestuursmodellen die de statuten exclusief kiezen: een collegiale raad van bestuur (monistisch), een enige bestuurder, of een duaal bestuur met een raad van toezicht en een directieraad. Voor BV en CV is er één model — een (al dan niet collegiaal) bestuursorgaan. Personenvennootschappen werken met zaakvoerders.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV — Boeken 4, 5, 6, 7, 9 (bestuur)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MvT-WVV-2018__art_7_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_66",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_79",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T06:37:37Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.II",
+    "linked_anchors": [
+      "3.0.II"
+    ],
+    "reviewed_by": null
+  },
+  "gebaseerd_op_concepten": [
+    "monistisch-bestuur",
+    "duaal-bestuur",
+    "enige-bestuurder",
+    "bestuursorgaan"
+  ],
+  "vergelijkingstabel": {
+    "kolommen": [
+      "Aspect",
+      "Monistisch (raad van bestuur)",
+      "Enige bestuurder",
+      "Duaal bestuur"
+    ],
+    "rijen": [
+      {
+        "cellen": [
+          "Aantal leden",
+          "≥ 3 (uitz. 2 indien < 3 aandeelhouders, niet-genoteerd)",
+          "1 (natuurlijke of rechtspersoon, eventueel statutair onontbeerlijk)",
+          "Raad van toezicht ≥ 3 + directieraad ≥ 3, geen overlap"
+        ]
+      },
+      {
+        "cellen": [
+          "Bevoegdheid",
+          "Alle bevoegdheden die de wet niet aan de AV toekent",
+          "Idem, gebundeld in één persoon",
+          "Raad van toezicht: algemeen beleid, strategie en wettelijke verslagen; directieraad: residuaire en operationele bevoegdheden"
+        ]
+      },
+      {
+        "cellen": [
+          "Belangenconflict-procedure",
+          "Art. 7:96 (mededeling, geen deelname, notulen, jaarverslag)",
+          "Art. 7:102 (verwijzing naar AV, met uitzondering bij enige aandeelhouder)",
+          "Art. 7:115 (directieraad-lid verwijst naar raad van toezicht) en art. 7:117 (verbonden partijen)"
+        ]
+      },
+      {
+        "cellen": [
+          "Vertegenwoordiging",
+          "Raad van bestuur, statutaire vertegenwoordigingsclausule mogelijk",
+          "De enige bestuurder",
+          "Directieraad — exclusief, behalve voor de aan de raad van toezicht voorbehouden materies"
+        ]
+      },
+      {
+        "cellen": [
+          "Typische gebruikssituatie",
+          "Klassieke NV met meerdere aandeelhouders",
+          "Eén-aandeelhouder-NV of holding met operationele eenheid bij de aandeelhouder",
+          "Grote vennootschap waar strategie en operationeel bestuur bewust gescheiden zijn"
+        ]
+      }
+    ],
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 7:85, 7:101, 7:104, 7:96, 7:102, 7:115, 7:117"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_7_66",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_78",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_79",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_82",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_74",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_7_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "kerninzichten": [
+    {
+      "tekst": "Een NV kiest exclusief één model: combinaties van enige bestuurder met een raad van bestuur of een raad van toezicht naast een monistische raad van bestuur zijn niet toegelaten.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_7_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "tekst": "De keuze van het bestuursmodel zit in de statuten en kan alleen via statutenwijziging worden aangepast — voor de accountant is de statuten-lectuur dus altijd het vertrekpunt om te weten wie de jaarrekening ondertekent.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_7_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "tekst": "Het duale model verschilt fundamenteel van een monistische raad van bestuur met directiecomité (oud W.Venn.): in het duaal model ontleent de directieraad zijn bevoegdheden rechtstreeks aan de wet, niet aan een delegatie van de raad van toezicht.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_7_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "verwijst-naar",
+      "target": "bestuursorgaan",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "monistisch-bestuur",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "duaal-bestuur",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "enige-bestuurder",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "bestuur-bv-cv-werkwijze"
+    }
+  ]
+}

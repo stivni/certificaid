@@ -1,0 +1,60 @@
+{
+  "id": "nietigverklaring-algemene-vergaderingsbesluit",
+  "naam": "Nietigverklaring van een algemene-vergaderingsbesluit",
+  "node_type": "regel",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VIII",
+    "3.0.VIII.D"
+  ],
+  "situering": "De algemene vergadering is soeverein binnen haar bevoegdheden, maar haar besluiten zijn vernietigbaar wanneer zij **formele gebreken** vertonen (oproeping, quorum, meerderheid) of wanneer zij **inhoudelijk misbruik maken van de meerderheid**. De WVV bundelt de nietigheidsgronden in art. 2:42 e.v. — een vaak overzicht-vergeten figuur die in conflicten een snelle remedie kan bieden vóór zwaardere instrumenten worden ingezet.",
+  "main_rule": "Een besluit van de algemene vergadering is **nietig of vernietigbaar** wanneer (i) de oproepings-, agenda-, quorum- of meerderheidsregels werden geschonden, (ii) de stemming aangetast is door bedrog of een ernstige procedure-onregelmatigheid die het resultaat heeft kunnen beïnvloeden, of (iii) het besluit **misbruik van meerderheid** uitmaakt — d.w.z. uitsluitend werd genomen om de minderheid te benadelen zonder redelijk vennootschapsbelang.",
+  "voorwaarden": [
+    "Eiser is een belanghebbende (aandeelhouder, bestuurder, commissaris, derde met legitiem belang).",
+    "Beroep bij de **ondernemingsrechtbank** (BV/NV) binnen de wettelijke verjaringstermijn (art. 2:143 WVV — zes maanden vanaf kennisname of bekendmaking, maximum vijf jaar).",
+    "Voor misbruik van meerderheid: aantonen dat het besluit **uitsluitend** het belang van de meerderheid dient ten koste van de minderheid, zonder evenredig vennootschapsbelang."
+  ],
+  "in_praktijk": [
+    "Misbruik van meerderheid is **een jurisprudentiële figuur** (geen letterlijke wetstekst) maar verankerd in vaste rechtspraak van het Hof van Cassatie. Klassiek voorbeeld: systematische niet-uitkering van dividend gekoppeld aan oversized bestuurdersvergoedingen aan de meerderheid.",
+    "De nietigverklaring werkt **ex tunc**: het besluit wordt geacht nooit te hebben bestaan. Bij statutenwijziging kan dit verregaande gevolgen hebben (terugdraaiing van inschrijvingen)."
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Tobias De Smet (65% in Brugse Brouwerij BV) laat de AV beslissen om jaarlijks € 200.000 bestuurdersvergoeding aan zichzelf toe te kennen en geen dividend uit te keren, terwijl de vennootschap winstgevend is. Famke Vermeulen (35%) vordert nietigverklaring wegens misbruik van meerderheid en krijgt gelijk: het besluit ontneemt haar elk economisch voordeel uit haar aandeelhouderschap zonder dat een redelijk vennootschapsbelang dit rechtvaardigt.",
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    "**Termijn**: art. 2:143 WVV legt zes maanden op vanaf kennisname (max. vijf jaar absolute termijn). Te laat = onontvankelijk.",
+    "**Een gewoon onverstandig besluit is geen misbruik**: de rechter respecteert het bestuurs- en aandeelhoudersoordeel; bewijslast misbruik is hoog."
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "vennootschapsconflict",
+      "target_status": "exists"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "algemene-vergadering",
+      "target_status": "exists"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "quorum-en-meerderheid-statutenwijziging",
+      "target_status": "exists"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VIII",
+    "linked_anchors": [
+      "3.0.VIII"
+    ],
+    "reviewed_by": null,
+    "created_at": "2026-05-20T10:00:00Z"
+  },
+  "schema_version": "1.6"
+}

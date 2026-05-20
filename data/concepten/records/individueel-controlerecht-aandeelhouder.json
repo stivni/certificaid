@@ -1,0 +1,113 @@
+{
+  "id": "individueel-controlerecht-aandeelhouder",
+  "naam": "Individueel onderzoeks- en controlerecht van de aandeelhouder",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IV",
+    "3.0.VI"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T15:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IV",
+    "linked_anchors": [
+      "3.0.IV"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Wanneer een BV geen commissaris heeft benoemd, beschikt elke aandeelhouder individueel over de onderzoeks- en controlebevoegdheid van een commissaris: hij mag de boeken, rekeningen en stukken inkijken, zich laten bijstaan door een gecertificeerd accountant of bedrijfsrevisor, en de bestuurders bevragen. In de NV geldt een analoge regel (art. 7:148 WVV). De vennootschap draagt de kosten van de bijstand mits de aandeelhouder zijn keuze van beroepsbeoefenaar vooraf meedeelt en de vennootschap zich niet verzet (in welk geval de voorzitter van de ondernemingsrechtbank beslist).",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 3:101 (BV), art. 7:148 (NV)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_3_101",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": "Het individueel controlerecht is een corrigerend mechanisme in vennootschappen zonder commissaris (typisch kmo's die de groottecriteria niet overschrijden). Het WVV-stelsel kapitaalbescherming en transparantie gaat uit van een commissarisbenoeming als hoofdmechanisme; ontbreekt de commissaris, dan krijgt elke aandeelhouder zelf dat toezichtsrecht. Het past in een breder pakket aandeelhoudersrechten naast het vraagrecht (art. 7:139) en het agenderingsrecht (art. 7:130).",
+  "voorwaarden": [
+    {
+      "voorwaarde": "Geen commissaris benoemd",
+      "uitleg": "Het individueel controlerecht ontstaat alleen wanneer de vennootschap geen commissaris heeft aangesteld (BV/NV onder de groottecriteria). Bij commissaris: aandeelhouders kanaliseren hun zorgen via die commissaris.",
+      "grondslag": "WVV art. 3:101 eerste lid, art. 7:148 eerste lid"
+    },
+    {
+      "voorwaarde": "Voorafgaande mededeling van de keuze beroepsbeoefenaar",
+      "uitleg": "Wil de aandeelhouder dat de vennootschap de kosten draagt van de bijstand door een gecertificeerd accountant of bedrijfsrevisor, dan moet hij de identiteit van die beroepsbeoefenaar vooraf meedelen aan de vennootschap.",
+      "grondslag": "WVV art. 3:101 tweede lid"
+    },
+    {
+      "voorwaarde": "Geen verzet of overeenkomst over een andere beroepsbeoefenaar",
+      "uitleg": "Verzet de vennootschap zich tegen de voorgedragen beroepsbeoefenaar of komt geen akkoord tot stand, dan beslist de voorzitter van de ondernemingsrechtbank (zetelend zoals in kort geding) over de aanwijzing.",
+      "grondslag": "WVV art. 3:101 derde lid"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Wat mag de aandeelhouder concreet doen?",
+      "betekenis": "Inzage van facturen, bankafschriften, contracten, fiscale aangiften; ondervraging van bestuurders over specifieke verrichtingen; opvragen van werkdocumenten van de boekhouder. De bijgestane beroepsbeoefenaar werkt onder eigen verantwoordelijkheid en is gebonden aan beroepsgeheim.",
+      "confidence": "inferred"
+    },
+    {
+      "aspect": "Wanneer ingeroepen?",
+      "betekenis": "Typisch bij vermoedens van mismanagement, conflicten tussen aandeelhouders (familievennootschap, partner-conflict), of voorbereiding van een aansprakelijkheidsvordering tegen bestuurders.",
+      "confidence": "inferred"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Mathilde Maes bezit 30% van de aandelen van Brugse Brouwerij BV. De vennootschap heeft geen commissaris. Mathilde vermoedt dat haar mede-aandeelhouders zich onevenredig laten vergoeden via managementvergoedingen. Zij deelt aan de zaakvoerder mee dat zij zich zal laten bijstaan door gecertificeerd accountant Bart Daems voor inzage van de loonadministratie en de bestuurdersovereenkomsten. De vennootschap draagt de kosten van Bart Daems.",
+      "cast": [
+        "Brugse Brouwerij BV",
+        "Mathilde Maes",
+        "Bart Daems"
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Geen drempelvereiste van 10% of meer — elke aandeelhouder kan het inroepen, ongeacht zijn deelneming.",
+      "vaak_fout": "Stagiair denkt dat een minderheidsaandeelhouder een minimumpercentage moet halen — het WVV stelt geen drempel voor het individueel controlerecht (anders dan voor de minderheidsvordering art. 2:56 of de deskundigenaanstelling)."
+    },
+    {
+      "advies": "Het recht bestaat alleen als er geen commissaris is.",
+      "vaak_fout": "Aandeelhouder probeert zijn eigen accountant aan te stellen naast een bestaande commissaris — dat kan niet via art. 3:101."
+    },
+    {
+      "advies": "De bijstaande beroepsbeoefenaar moet erkende GA of bedrijfsrevisor zijn — niet een fiscalist of advocaat.",
+      "vaak_fout": "De wettekst beperkt de wettelijke kostendragingsregel tot accountants/bedrijfsrevisors; andere adviseurs mag de aandeelhouder vrij raadplegen, maar dan op eigen kosten."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vergelijkt-met",
+      "target": "vraagrecht-aandeelhouder",
+      "aspect": "andere informatierechten van de aandeelhouder"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "agenderingsrecht-aandeelhouder",
+      "aspect": "andere aandeelhoudersrechten"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "controle-begrip-algemeen"
+    },
+    {
+      "type": "uitzondering-op",
+      "target": "controle-begrip-algemeen",
+      "scope": "controlerechten ontstaan via aandeelhouder ipv commissaris"
+    }
+  ]
+}

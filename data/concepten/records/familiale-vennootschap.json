@@ -1,0 +1,77 @@
+{
+  "id": "familiale-vennootschap",
+  "naam": "Familiale vennootschap",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.I",
+    "3.0.I.C"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.I.C",
+    "linked_anchors": [
+      "3.0.I.C",
+      "3.0.I"
+    ],
+    "reviewed_by": null
+  },
+  "situering": "De **familiale vennootschap** is geen aparte vennootschapsvorm onder het WVV. Het is een **fiscaal-erfrechtelijk kwalificatie** uit de regionale belastingcodexen: voldoet een vennootschap aan de activiteits- en participatievoorwaarden, dan kan zij met sterk verlaagd of nul-tarief geschonken of vererfd worden. In 3.0.I.C is ze relevant als hoofd-use-case voor de keuze van een vennootschapsvorm bij vermogensplanning binnen een familie.",
+  "definitie": {
+    "text": "Een **familiale vennootschap** is een vennootschap die volgens de regionale fiscale codex (Vlaamse Codex Fiscaliteit, Brussels Wetboek Successierechten/Registratierechten, Waals Wetboek der Registratie- en Successierechten) een **economische activiteit** voert — handel, industrie, ambacht, landbouw of vrij beroep — en die voldoet aan de **participatie- en continuïteitsvoorwaarden** om in aanmerking te komen voor het gunstregime bij schenking (0 % of 3 %) of vererving (3 % of 7 % in lijn).",
+    "confidence": "grounded",
+    "source": {
+      "type": "Wetboek-Successierechten",
+      "ref": "art. 60bis Brussels W.Successie + art. 140/1 Brussels W.Registratie (analoog VCF en Waals wetboek)",
+      "short": "Successie/Registratie-art. 60bis e.v."
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Welk doel dient deze kwalificatie?",
+      "betekenis": "Zonder familiale-vennootschap-regime betaal je tot 27 % schenkbelasting (in rechte lijn) of 30 % erfbelasting op aandelen. Met het regime: 0 % schenking of 3-7 % erfbelasting, mits de activiteit en de participatie behouden blijven.",
+      "confidence": "inferred"
+    },
+    {
+      "aspect": "Wanneer kies je hiervoor?",
+      "betekenis": "Bij familiale opvolging van een operationele KMO of vrije-beroep-praktijk. De accountant adviseert over de structurering: welke holding, hoeveel aandelen overdragen, welke continuïteitsverklaring opnemen.",
+      "confidence": "inferred"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Marleen De Cock (75) wil haar BV Meubelzaak Mertens met een omzet van € 2.400.000 en eigen vermogen € 850.000 overdragen aan haar zoon Pieter Vermeulen. Onder het Vlaams gunstregime familiale vennootschap: schenking van de aandelen aan 0 % (voorheen 3 % bij hand-of-bankgift), op voorwaarde dat de activiteit minstens drie jaar wordt voortgezet en geen kapitaalvermindering wordt doorgevoerd in die periode.",
+      "cast": [
+        "Marleen De Cock",
+        "Pieter Vermeulen",
+        "Meubelzaak Mertens BV"
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Check de activiteits-voorwaarde: een vennootschap met louter passieve beleggingen (immo, effecten) kwalificeert niet, ook niet als ze 'familie-aandeelhouders' heeft.",
+      "vaak_fout": "Holdings met enkel immobiliënvermogen indienen onder het regime — wordt door fiscus geweigerd zonder een werkelijke onderliggende exploitatie.",
+      "grondslag": "VCF art. 2.7.4.2.2 (Vlaanderen), Brussels art. 60bis (Successie), art. 140/1 (Registratie)"
+    },
+    {
+      "advies": "Continuïteitsvoorwaarde minstens 3 jaar (varieert per gewest) — bij vroegtijdige stop of kapitaalvermindering vervalt het gunstregime retroactief.",
+      "vaak_fout": "Onmiddellijk na de schenking de activiteit afbouwen of een grote kapitaaluitkering doen — fiscus vordert het volle schenk- of erfbelasting na.",
+      "grondslag": "Regionale fiscale codexen — continuïteitsclausules"
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "vennootschapsvormen-typologie"
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "adviseren-vennootschapsvormkeuze"
+    }
+  ]
+}

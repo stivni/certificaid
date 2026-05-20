@@ -1,0 +1,118 @@
+{
+  "id": "meldingsplicht-accountant-continuiteit",
+  "naam": "Meldingsplicht accountant bij bedreigde continuïteit",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.X",
+    "1.3.IV",
+    "3.0.X.B"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:44:47Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.X",
+    "linked_anchors": [
+      "3.0.X",
+      "1.3.IV"
+    ],
+    "reviewed_by": null
+  },
+  "verplichting": "De externe accountant, externe erkend boekhouder, externe erkend boekhouder-fiscalist en bedrijfsrevisor die in de uitoefening van hun opdracht **gewichtige en overeenstemmende feiten** vaststellen die de continuïteit van de economische activiteit van de schuldenaar in het gedrang kunnen brengen, **moeten** de schuldenaar (in voorkomend geval via zijn bestuursorgaan) hiervan schriftelijk en op omstandige wijze inlichten. Treft de schuldenaar binnen één maand na deze kennisgeving niet de nodige maatregelen om de continuïteit voor minstens twaalf maanden te waarborgen, dan **mag** de beoefenaar de voorzitter van de ondernemingsrechtbank schriftelijk inlichten. In dat geval is art. 458 Strafwetboek (beroepsgeheim) niet van toepassing.",
+  "situering": {
+    "text": "Een wettelijke uitzondering op het strafrechtelijk beroepsgeheim van accountancy- en revisorsberoepen. De wetgever vond dat beroepsbeoefenaars vaak als eersten zicht hebben op continuïteitsrisico's en wilde dat zij — na een gepaste interne stap — desnoods de ondernemingsrechtbank kunnen inlichten zonder strafrechtelijke aansprakelijkheid.",
+    "confidence": "grounded",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-deontologie-beroepsgeheim__sec_melding-aan-de-ondernemingsrechtbank-met-het-oog-op-het-opsp",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "text": "**Gewichtige en overeenstemmende feiten**: niet één geïsoleerd signaal, maar een patroon van objectieve indicatoren (cashflowverlies, kredietweigering, verlies grote klanten, achterstand RSZ/btw, negatief eigen vermogen).",
+      "grondslag": "WER art. XX.23 § 3",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-deontologie-beroepsgeheim__sec_melding-aan-de-ondernemingsrechtbank-met-het-oog-op-het-opsp",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Schriftelijke** en **omstandige** kennisgeving aan de schuldenaar (in vennootschap: aan het bestuursorgaan) met concrete feiten en de termijn van één maand voor antwoord.",
+      "grondslag": "WER art. XX.23 § 3",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-deontologie-beroepsgeheim__sec_melding-aan-de-ondernemingsrechtbank-met-het-oog-op-het-opsp",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Termijn van één maand** om de schuldenaar de kans te geven herstelmaatregelen te nemen die de continuïteit voor minstens twaalf maanden waarborgen.",
+      "grondslag": "WER art. XX.23 § 3",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-deontologie-beroepsgeheim__sec_melding-aan-de-ondernemingsrechtbank-met-het-oog-op-het-opsp",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Pas dan: **facultatieve** schriftelijke melding aan de voorzitter van de ondernemingsrechtbank — geen verplichting, wel een wettelijk geoorloofde uitweg uit het beroepsgeheim.",
+      "grondslag": "WER art. XX.23 § 3 jo. art. 458 Sw.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-deontologie-beroepsgeheim__sec_melding-aan-de-ondernemingsrechtbank-met-het-oog-op-het-opsp",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "De **eerste** stap — schriftelijke melding aan de cliënt — is verplicht; de **tweede** stap — melding aan de rechtbank — is een mogelijkheid, geen verplichting.",
+      "vaak_fout": "Aannemen dat de accountant verplicht is om bij elk continuïteitsrisico de rechtbank in te lichten. Geen melding aan de cliënt is een tuchtfout; geen melding aan de rechtbank is dat niet."
+    },
+    {
+      "advies": "Documenteer beide stappen: aangetekende brief aan de cliënt (met ontvangstbevestiging) en, indien gemeld, ook de brief aan de voorzitter.",
+      "vaak_fout": "Mondelinge waarschuwing of e-mail zonder bewijsspoor — bij tuchtgeschil of latere bestuurdersaansprakelijkheid heeft de accountant niets om op terug te vallen."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "continuiteitsbeginsel"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "vroegtijdige-waarschuwing-insolventie"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "kamer-ondernemingen-in-moeilijkheden"
+    }
+  ]
+}

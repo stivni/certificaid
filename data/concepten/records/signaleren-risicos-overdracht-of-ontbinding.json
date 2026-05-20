@@ -1,0 +1,270 @@
+{
+  "id": "signaleren-risicos-overdracht-of-ontbinding",
+  "naam": "Signaleren van risico's bij overdracht of ontbinding (aansprakelijkheid, kapitaalbescherming, fiscaal)",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Signaleren van risico's bij overdracht of ontbinding",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.2"
+    ],
+    "kenniselementen": [
+      "3.0.IV",
+      "3.0.VII",
+      "3.0.IX",
+      "3.0.X"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.2",
+    "3.0.IV",
+    "3.0.VII",
+    "3.0.IX",
+    "3.0.X"
+  ],
+  "gebaseerd_op_concepten": [
+    "bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering",
+    "vereffenaarsaansprakelijkheid",
+    "nettoactieftest",
+    "liquiditeitstest-bv",
+    "insolventietriage-beslisboom",
+    "heropening-vereffening",
+    "besloten-voorbereiding-faillissement",
+    "verdachte-periode-faillissement"
+  ],
+  "situering": {
+    "text": "Risico-signalerende competentie: bij elke overdracht- of ontbindingsverrichting wijst de gecertificeerd accountant cliënt-bestuurders, vereffenaars of aandeelhouders op aansprakelijkheidsrisico's (bestuurder, vereffenaar, koper), kapitaalbeschermings-overtredingen (BV-uitkeringstests), fiscale klimsporen (latente claims, change-of-control fiscale gevolgen) en insolventie-rode-vlaggen die de gekozen route invalideren.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "WVV + WER Boek XX + WIB92 + IESBA"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 55,
+    "praktijk_pct": 45,
+    "motivering": "Aansprakelijkheidsgronden wettelijk; risico-perceptie en mitigatie-advies vakdoctrine."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Bestuurdersaansprakelijkheids-risico mappen (vóór, tijdens en na de verrichting)",
+      "wat": "Identificeer de specifieke aansprakelijkheidsgronden die door de transactie kunnen worden geraakt: onrechtmatige uitkering, voorzetting verlieslatende activiteit, te laat faillissement, niet-betaalde sociale of fiscale schulden, kennelijke oprichtersfout (binnen 3 jaar na oprichting).",
+      "waarom": "Bestuurders denken vaak dat 'na de verkoop ben ik ervanaf' — dat is fout: aansprakelijkheid blijft 5 jaar na het feit aanvechtbaar en kan retroactief beoordeeld worden op basis van wat tijdens of vlak voor de transactie gebeurde.",
+      "input": [
+        {
+          "artefact": "Vermogenshistoriek 3 jaar",
+          "veld": "Verliezen, uitkeringen, betaalstatus schulden",
+          "type": "boekhoudkundig-overzicht"
+        },
+        {
+          "artefact": "Bestuursbesluiten 3 jaar",
+          "veld": "Notulen + jaarrekening-goedkeuringen",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Aansprakelijkheids-risico-tabel",
+          "veld": "Per grond: relevantie + bewijssituatie + mitigatie",
+          "type": "tabel"
+        }
+      ],
+      "hoe": "1. Onrechtmatige uitkering BV (art. 5:142-143): toets of recente dividenden, kapitaalverminderingen of inkoop eigen aandelen voldeden aan nettoactieftest + liquiditeitstest — zie [[bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering]], [[nettoactieftest]], [[liquiditeitstest-bv]].\n2. Voorzetting verlieslatende activiteit: vraag bestuursverslag 3 jaar — als 'fakemiddelen' (te late factuur, oneigenlijke activa-herwaardering) gebruikt zijn om verliezen te maskeren = hoog risico.\n3. Te laat faillissement: insolventie criteria (staken van betaling + wankel krediet) zijn de trigger; vergelijk met datum bestuursbesluit-tot-ontbinding.\n4. Sociale en fiscale schulden: openstaande RSZ, bedrijfsvoorheffing, vennootschapsbelasting → automatische hoofdelijkheid bestuurder onder art. XX-bepalingen WER.\n5. Bij overname share deal: koper neemt deze risico's mee — daarom expliciteren als R&W-trigger.",
+      "voorbeeld": {
+        "scenario": "Mechelse Metaalwerken BV: bestuur keurde 18 maanden geleden dividend € 220.000 goed terwijl liquiditeitstest indicatieve werkkapitaal-druk gaf. Eigenaar wil nu verkopen of ontbinden.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Risico-toets onrechtmatige uitkering",
+            "type": "opmerking",
+            "data": "Liquiditeitstest WVV art. 5:143: bestuur had moeten attesteren dat 'redelijk te voorzien is dat de vennootschap nog 12 maanden haar opeisbare schulden kan voldoen'. Vraag bestuursverslag bij het dividend op. Indien attest ontbreekt of niet onderbouwd: hoog risico bestuurdersaansprakelijkheid bij eventueel later faillissement. Adviseer: vóór ontbinding/verkoop ophalen attest of remediatie (terugstorting dividend?)."
+          }
+        ]
+      },
+      "grondslag": "[[bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering]]; WVV art. 5:142-143; WIB92 + RSZ-wet hoofdelijkheid"
+    },
+    {
+      "nr": 2,
+      "titel": "Vereffenaarsaansprakelijkheid signaleren (bij ontbindingsroute)",
+      "wat": "Wijs de aankomende vereffenaar — of het bestuur dat statutair vereffenaar wordt — op de specifieke aansprakelijkheidsgronden van de vereffenaar: foutieve realisatie activa, voortijdige uitkering aan aandeelhouders vóór alle schulden voldaan, onjuiste rangschikking schuldeisers.",
+      "waarom": "De vereffenaar is persoonlijk aansprakelijk voor schade door zijn beheersfouten — meer nog dan een bestuurder omdat zijn opdracht volledig op vermogensafwikkeling gericht is. Foutieve uitkering = hoofdelijkheid voor het tekort.",
+      "input": [
+        {
+          "artefact": "Vereffenaar-profiel + opdracht",
+          "veld": "Wie + scope",
+          "type": "vrije-tekst"
+        },
+        {
+          "artefact": "Staat activa/passiva",
+          "veld": "Schulden-volledigheid",
+          "type": "boekhoudkundig-overzicht"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Vereffenaar-briefing",
+          "veld": "Risico's + dossiervereisten + verzekering-vraag",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Wijs op art. 2:51 + 2:56 (gemeenschappelijke bestuurdersaansprakelijkheid) en art. 2:99 (omstandige staat-verplichting).\n2. Concrete acties: verplicht volledige schuldeisers-zoektocht (publicatie, aangetekend), geen interim-uitkeringen vóór sluiting tenzij goed onderbouwd, dossier-bewaring 7+ jaar.\n3. Externe vereffenaars hebben typisch een beroepsaansprakelijkheidsverzekering — adviseer interne vereffenaar om dat te onderzoeken.\n4. Heropening-vereffening (art. 2:105): vereffenaar kan opnieuw aangesteld worden — risico blijft latent na sluiting.",
+      "grondslag": "[[vereffenaarsaansprakelijkheid]]; [[heropening-vereffening]]; WVV art. 2:51, 2:99"
+    },
+    {
+      "nr": 3,
+      "titel": "Kapitaalbeschermings-tests vóór dividend, kapitaalvermindering of liquidatiebonus toetsen",
+      "wat": "Bij BV: nettoactieftest + liquiditeitstest. Bij NV: oude kapitaalconcept met wettelijke en statutaire reserves. Toets of de geplande uitkering (final dividend vóór verkoop, kapitaalvermindering bij herstructurering, liquidatiebonus bij vereffening) deze tests doorstaat.",
+      "waarom": "Een niet-conforme uitkering is een onrechtmatige uitkering — bestuurder hoofdelijk aansprakelijk en vennootschap kan terugvordering eisen. Bij vereffening: voortijdige uitkering vóór schuldeisers volledig betaald = klassieke aansprakelijkheidsgrond.",
+      "input": [
+        {
+          "artefact": "Balans actueel",
+          "veld": "Eigen vermogen + samenstelling",
+          "type": "boekhoudkundig-overzicht"
+        },
+        {
+          "artefact": "Liquiditeitsprognose 12 maanden",
+          "veld": "Cashstand + opeisbare schulden",
+          "type": "tabel"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Tests-rapport",
+          "veld": "Test-uitkomsten + attest of waarschuwing",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. BV-uitkeringen (dividend, terugbetaling inbreng, inkoop): nettoactieftest (art. 5:142) + liquiditeitstest (art. 5:143) verplicht. Bestuur moet attest opstellen.\n2. NV-uitkeringen: art. 7:212-219 — beperking tot 'beschikbare reserves', rekening houden met onbeschikbare reserves en wettelijke reserve.\n3. Liquidatiebonus bij vereffening: pas uitkeerbaar na alle schulden voldaan; voor interim-uitkeringen tijdens vereffening: zwaardere bewijslast.\n4. Bij twijfel: wacht met uitkering of vraag bijkomende zekerheid (provisie geblokkeerde rekening voor hangende geschil).",
+      "grondslag": "[[nettoactieftest]]; [[liquiditeitstest-bv]]; WVV art. 5:142-143; WVV art. 7:212-219"
+    },
+    {
+      "nr": 4,
+      "titel": "Insolventie-triage uitvoeren (rode-vlaggen voor verkoop of ontbinding)",
+      "wat": "Wanneer de cliënt overdracht of ontbinding overweegt maar de vennootschap insolventie-symptomen vertoont (staken van betaling, wankel krediet, voortdurend kasstroom-tekort): triage of de gewone routes nog toegelaten zijn of dat een gerechtelijke reorganisatie of faillissementsaangifte voorrang heeft.",
+      "waarom": "Bij staking van betaling + wankel krediet ontstaat de aangifteplicht faillissement binnen 1 maand. Een verkoop of vrijwillige ontbinding in die fase kan kwalificeren als 'verdachte handeling' (verdachte periode 6 maanden vóór faillissement) en worden teruggedraaid door de curator.",
+      "input": [
+        {
+          "artefact": "Liquiditeitsstand + opeisbare schulden",
+          "veld": "Cash + onbetaalde facturen > 30 dagen",
+          "type": "boekhoudkundig-overzicht"
+        },
+        {
+          "artefact": "Bestuursvergadering laatste 3 maanden",
+          "veld": "Continuïteits-beoordeling",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Triage-conclusie",
+          "veld": "Verkoop/ontbinding mag wel of niet meer",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Toets criteria (zie [[insolventietriage-beslisboom]]): staking betaling + wankel krediet = faillissement-criterium.\n2. Als criteria vervuld: faillissementsaangifte verplicht; vrijwillige ontbinding mogelijk nog binnen bepaalde grenzen (zonder benadeling schuldeisers) maar risicovol.\n3. Tussenroute: gerechtelijke reorganisatie (WER Boek XX) — bescherming tegen schuldeisers gedurende reorganisatieplan.\n4. Wijs op verdachte periode: handelingen 6 maanden vóór faillissement-uitspraak kunnen door curator worden vernietigd (zie [[verdachte-periode-faillissement]]) — een verkoop nu kan later worden ongedaan gemaakt.\n5. Communiceer schriftelijk aan bestuur: 'op basis van de huidige vermogenssituatie raden wij geen vrijwillige ontbinding aan; faillissementsaangifte of gerechtelijke reorganisatie aangewezen'.",
+      "valkuilen": [
+        {
+          "advies": "Een 'besloten voorbereiding van faillissement' (besloten kamer ondernemingsrechtbank, WER art. XX.39) kan een gestructureerde uitweg bieden voor overdracht in gerechtelijk kader (overdracht onder gerechtelijk gezag — art. XX.85 WER).",
+          "vaak_fout": "Bestuur kiest voor onderhands proberen verkopen tot het te laat is — eindigt vaak in faillissement met aansprakelijkheid wegens te laat aangifte.",
+          "grondslag": "WER art. XX.39, XX.85"
+        }
+      ],
+      "grondslag": "[[insolventietriage-beslisboom]]; [[besloten-voorbereiding-faillissement]]; [[verdachte-periode-faillissement]]; WER Boek XX"
+    },
+    {
+      "nr": 5,
+      "titel": "Schriftelijk waarschuwen en dossier bouwen",
+      "wat": "Documenteer alle gesignaleerde risico's in een schriftelijke waarschuwing aan de cliënt (bestuur, vereffenaar, of aandeelhouder), gedateerd, met aanbevolen mitigatie. Bewaar de waarschuwing in het dossier.",
+      "waarom": "De accountant heeft een signaleringsplicht (ITAA-deontologie + art. XX.23 WER continuïteits-melding). Schriftelijke waarschuwing is de eerste verdediging tegen tuchtklacht en tegen aansprakelijkheids-vordering van schuldeisers (curator stelt latere accountantsaansprakelijkheid soms ter discussie).",
+      "input": [
+        {
+          "artefact": "Risico-tabellen (stap 1-4)",
+          "veld": "Geïdentificeerde risico's",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Waarschuwingsbrief + dossier-archivering",
+          "veld": "Aangetekend of via beveiligd platform",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Bondige brief: identificeer risico, juridische grondslag, aanbevolen actie, deadline-impact.\n2. Verzendwijze: aangetekend of via beveiligde digitale plat-form met leesbevestiging.\n3. Indien cliënt het advies negeert: tweede waarschuwing + overweging opdracht-beëindiging (deontologisch — accountant mag niet meewerken aan onrechtmatige handeling).\n4. Bewaar brief, leesbevestiging en eigen risico-analyse in dossier.\n5. Bij continuïteits-melding gemis: art. XX.23 WER vereist dat commissaris/accountant het bestuur schriftelijk waarschuwt; ITAA-norm leerpaden hieromtrent.",
+      "grondslag": "WER art. XX.23; ITAA-deontologische code"
+    }
+  ],
+  "in_praktijk": [
+    "Vroege signalering is de waardevolste bijdrage van de accountant — eenmaal de transactie verleden tijd is, is mitigeren peperduur of onmogelijk.",
+    "Sociale en fiscale hoofdelijkheid van bestuurders wordt vaak onderschat — vraag actief bevestiging dat alle RSZ en bedrijfsvoorheffing-aangiften correct en betaald zijn vóór elke ontbindings- of overdrachtshandeling.",
+    "Indien bestuur of vereffenaar adviezen herhaaldelijk negeert: overweeg opdracht-beëindiging volgens ITAA-deontologie en signaleer aan CFI bij vermoeden van witwasrisico's."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Joris Maes, alleen bestuurder van Hasseltse Houtgroep BV, wil de vennootschap ontbinden binnen 2 maanden. Sofie ontdekt: 8 maanden geleden dividend € 180.000 uitgekeerd zonder liquiditeitstest-attest; lopende fiscale audit met geschat correctie-risico € 65.000.",
+      "conclusie": "Sofie schrijft een waarschuwingsbrief: (1) het dividend-risico moet eerst gestabiliseerd worden (vraag bestuur attest op vóór nu, of overweeg vrijwillige terugstorting); (2) de fiscale audit moet uitlopen of de vereffenaar moet een provisie van € 80.000 inhouden vóór elke uitkering. Sofie weigert vereffening in één akte (passiva niet definitief vaststaand). Adviseert klassieke vereffening met externe vereffenaar én provisie. Joris accepteert na overleg — anders zou Sofie de opdracht geweigerd hebben.",
+      "grondslag": "[[bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering]]; [[vereffenaarsaansprakelijkheid]]; [[liquiditeitstest-bv]]",
+      "redenering": "Twee onafhankelijke risico's: het reeds genomen dividend-besluit moet remediated worden vóór ontbinding (anders geërfd risico voor vereffenaar bij heropening), en de niet-vaststaande passiva sluiten één-akte uit. Sofie schept ruimte voor mitigatie zonder de uitvoerbaarheid van de ontbinding op te geven."
+    }
+  ],
+  "beoordelings_criteria": [
+    "Aansprakelijkheidsgronden bestuurder en vereffenaar geïnventariseerd voor de specifieke transactie",
+    "Kapitaalbeschermings-tests uitgevoerd vóór uitkering",
+    "Insolventie-criteria getoetst vóór vrijwillige route gestart wordt",
+    "Schriftelijke waarschuwing met juridische grondslag, mitigatie en deadline",
+    "Bewaard dossier voor eventuele tuchtklacht of aansprakelijkheidsverweer"
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "vereffenaarsaansprakelijkheid"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "nettoactieftest"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "liquiditeitstest-bv"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "insolventietriage-beslisboom"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "heropening-vereffening"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "besloten-voorbereiding-faillissement"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "verdachte-periode-faillissement"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.2-batch2b-20260520T113440Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.2",
+    "linked_anchors": [
+      "3.0.taak.2",
+      "3.0.IV",
+      "3.0.VII",
+      "3.0.IX",
+      "3.0.X"
+    ],
+    "voorgesteld_op": "2026-05-20T11:34:40.109645+00:00",
+    "reviewed_by": null
+  }
+}

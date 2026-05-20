@@ -1,0 +1,208 @@
+{
+  "id": "sluiting-vereffening",
+  "naam": "Sluiting van de vereffening",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IX",
+    "3.0.IX.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:30:41Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IX",
+    "linked_anchors": [
+      "3.0.IX"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De **sluiting van de vereffening** is de formele beëindiging van de vereffeningsfase — pas op dat ogenblik **houdt de vennootschap op te bestaan** als rechtspersoon. Zij wordt uitgesproken door de AV (bij vrijwillige ontbinding, art. 2:90 + 2:100 WVV) of door de rechtbank (bij gerechtelijke ontbinding, art. 2:101) op basis van een **cijfermatig verslag** opgemaakt door de vereffenaar, in voorkomend geval gecontroleerd door de commissaris. De sluiting wordt bekendgemaakt overeenkomstig de art. 2:6 + 2:12 WVV; de vennootschap wordt geschrapt uit het KBO.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 2:90 — 2:104"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_90",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_102",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-04__sec_sluiting-vereffening-na-vrijwillige-ontbinding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "Sluiting is **niet** het einde van alle juridische gevolgen: de aandeelhouders worden **van rechtswege onverdeelde eigenaars** van eventuele vergeten activa (art. 2:94 WVV) en blijven ten belope van het netto-actief dat zij ontvingen aansprakelijk voor onbetaald gebleven schulden. **Heropening** (art. 2:95) blijft mogelijk gedurende vijf jaar na bekendmaking van de sluiting. Voor de accountant: hij wordt bij sluiting van een gecontroleerde vennootschap geconfronteerd met een art. 2:100-opdracht — verslag over het cijfermatig verslag van de vereffenaar.",
+    "confidence": "grounded",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_94",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_95",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-ontbinding-vereffening__sec_bijlage-4-model-van-verslag-van-de-commissaris-art-2-100-van-het",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Cijfermatig verslag van de vereffenaar",
+      "wat": "Bij beëindiging van de vereffening en **ten minste één maand vóór de AV**, legt de vereffenaar op de zetel een **cijfermatig verslag** neer: de vereffeningsrekeningen + stavingsstukken. Dit verslag geeft een overzicht van alle verrichtingen tot tegeldemaking, de bestemming van de opbrengst, de mate waarin schuldeisers werden voldaan en het uiteindelijke vereffeningssaldo.",
+      "waarom": "Aandeelhouders en, in voorkomend geval, de commissaris of de aandeelhouders zelf moeten het verslag kunnen onderzoeken vóór de sluitings-AV beslist. Eén-maand-termijn waarborgt een redelijk onderzoek.",
+      "grondslag": "WVV art. 2:90 (BV/CV/NV); art. 2:100 (commissaris-controle)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_90",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-04__sec_sluiting-vereffening-na-vrijwillige-ontbinding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Commissaris-controle of inzage aandeelhouders",
+      "wat": "Indien een commissaris is aangesteld, controleert hij het cijfermatig verslag (art. 2:100 WVV — modelverslag in ITAA-norm bijlage 4). Bij afwezigheid van commissaris hebben de vennoten of aandeelhouders individueel recht op inzage en onderzoek van de stukken.",
+      "waarom": "Externe of interne controle voorkomt dat de vereffenaar verrichtingen verbergt of onverantwoorde uitkeringen verricht. De commissaris geeft een **paragraaf ter benadrukking** in zijn verslag over de verantwoordelijkheden van vereffenaar én bestuursorgaan.",
+      "grondslag": "WVV art. 2:90, § 1; art. 2:100; ITAA-norm bijlage 4",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_bijlage-4-model-van-verslag-van-de-commissaris-art-2-100-van-het",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_verantwoordelijkheden-van-de-vereffenaar-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "AV beslist tot sluiting (of rechtbank bij gerechtelijke ontbinding)",
+      "wat": "Na onderzoek beslist de AV bij gewone meerderheid tot **sluiting van de vereffening** en geeft **kwijting** aan de vereffenaar(s). Bij gerechtelijke ontbinding spreekt de rechtbank de sluiting uit op basis van het verslag van de vereffenaar aan haar (art. 2:101).",
+      "waarom": "Het sluitingsbesluit is constitutief — pas dan wordt de vennootschap geschrapt uit het KBO en eindigt de rechtspersoonlijkheid (behoudens heropening).",
+      "grondslag": "WVV art. 2:90 + 2:101",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_90",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_101",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Bekendmaking + bewaring van boeken",
+      "wat": "Sluiting wordt bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad (art. 2:6 + 2:12). De bekendmaking vermeldt (a) de plaats waar de **boeken en bescheiden** worden bewaard gedurende **ten minste vijf jaar**, en (b) de **consignatiemaatregelen** voor gelden en waarden die niet werden opgevraagd door de rechthebbenden.",
+      "waarom": "Vijf jaar is de termijn waarbinnen heropening (art. 2:95) of bijkomende vorderingen mogelijk zijn — gedurende die periode moeten boekhoudkundige bescheiden raadpleegbaar blijven.",
+      "grondslag": "WVV art. 2:102",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_102",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verdeling vereffeningssaldo",
+      "wat": "Na betaling van alle schulden en sluitingskosten wordt het resterend saldo verdeeld onder de aandeelhouders **pro rata hun aandeel**. Het verschil tussen het ontvangen bedrag en het fiscaal gestort kapitaal is de **liquidatiebonus** en wordt fiscaal als dividend behandeld.",
+      "grondslag": "WVV art. 2:104; WIB92 art. 18, 2°ter",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_104",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2019-01__sec_uitkeringen-of-toekenningen-in-natura-van-een-ontbonden-vennootschap",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "**Sluiting ≠ definitief.** Aandeelhouders blijven aansprakelijk voor vergeten passiva ten belope van het netto-actief dat zij ontvingen (art. 2:94, § 2 WVV). Heropening blijft mogelijk gedurende **vijf jaar** na bekendmaking van de sluiting voor vergeten activa en onbetaalde schuldeisers (art. 2:95).",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_94",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_95",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "vereffeningsprocedure-klassiek"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "heropening-vereffening",
+      "conditie": "vergeten actief of niet voldane schuldeiser binnen 5 jaar na bekendmaking",
+      "target_status": "pending"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "liquidatiebonus",
+      "target_status": "pending"
+    }
+  ]
+}

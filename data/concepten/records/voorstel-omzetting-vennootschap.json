@@ -1,0 +1,77 @@
+{
+  "id": "voorstel-omzetting-vennootschap",
+  "naam": "Voorstel tot omzetting van een vennootschap",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IX"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T15:20Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IX",
+    "linked_anchors": [
+      "3.0.IX"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Vóór de algemene vergadering die over de omzetting beslist, moet het bestuursorgaan een voorstel tot omzetting opstellen: een schriftelijk document met (1) de motivering van de keuze van de nieuwe rechtsvorm, (2) de staat van activa en passiva (max. drie maanden oud), (3) een verslag van het bestuursorgaan dat het voorstel toelicht, en (4) het ontwerp van de nieuwe statuten. Een kopie van het voorstel, samen met het verslag van de commissaris of de bedrijfsrevisor of gecertificeerd accountant, wordt vooraf aan de aandeelhouders gestuurd samen met de oproeping voor de AV.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 14:3, art. 14:5, art. 14:6"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_14_3",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_14_5",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_14_6",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": "Het voorstel tot omzetting structureert de informatiestroom van bestuursorgaan naar aandeelhouders en externe controleur. Het is een vooraf-stap: zonder volledig voorstel kan de AV geen geldig besluit nemen en kan de accountant geen controleverslag uitbrengen.",
+  "voorwaarden": [
+    {
+      "voorwaarde": "Staat van activa en passiva niet ouder dan drie maanden",
+      "uitleg": "De staat moet afgesloten zijn binnen drie maanden vóór de AV die over de omzetting beslist. Oudere staten zijn onbruikbaar.",
+      "grondslag": "WVV art. 14:3"
+    },
+    {
+      "voorwaarde": "Bestuursverslag verplicht",
+      "uitleg": "Het bestuursorgaan licht het voorstel toe in een afzonderlijk verslag dat in de AV-agenda wordt vermeld. De staat van activa en passiva wordt eraan gevoegd.",
+      "grondslag": "WVV art. 14:5"
+    },
+    {
+      "voorwaarde": "Mededeling aan aandeelhouders",
+      "uitleg": "Kopie van het bestuursverslag + verslag commissaris/revisor/accountant + ontwerp van statutenwijziging gaat samen met de oproeping naar alle aandeelhouders. Bij VOF/Comm.V: gevoegd aan de oproeping.",
+      "grondslag": "WVV art. 14:6"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Het bestuursverslag is een afzonderlijk document, los van het accountantsverslag.",
+      "vaak_fout": "Stagiair denkt dat één gecombineerd verslag volstaat — formeel verboden."
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "omzetting-vennootschap"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "controleverslag-omzetting"
+    }
+  ]
+}

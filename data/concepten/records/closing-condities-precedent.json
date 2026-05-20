@@ -1,0 +1,128 @@
+{
+  "id": "closing-condities-precedent",
+  "naam": "Opschortende voorwaarden bij overname (closing conditions)",
+  "naam_alternatief": "conditions precedent (CPs)",
+  "node_type": "cluster",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.A"
+  ],
+  "situering": "Tussen signing en closing moeten typisch een aantal opschortende voorwaarden vervuld worden vooraleer de eigendom kan overgaan en de prijs betaald wordt. Belgisch recht stelt eisen aan de geldigheid van die voorwaarden: ze moeten extern en incidenteel zijn. Voor accountants en juristen is dit de fase waarin regulatoire approvals en interim covenants samenkomen.",
+  "definitie": "Opschortende voorwaarden (conditions precedent of CPs) zijn voorwaarden die in de overnameovereenkomst worden gestipuleerd en waarvan de vervulling vereist is voordat closing — de daadwerkelijke uitvoering van de overdracht — kan plaatsvinden.",
+  "bouwstenen": [
+    {
+      "titel": "Geldigheidsvereisten onder Belgisch recht",
+      "wat": "Een opschortende voorwaarde moet onder Belgisch recht (i) betrekking hebben op een toekomstige en onzekere gebeurtenis, (ii) incidenteel zijn (mag geen wezenlijk element van het contract uitmaken), en (iii) extern zijn (niet volledig afhankelijk van de wil van een van de partijen, anders nietig als 'louter potestatieve voorwaarde').",
+      "waarom": "Een louter potestatieve voorwaarde ontneemt het contract zijn bindende kracht en is nietig.",
+      "in_praktijk": "Een voorwaarde 'verkoop is afhankelijk van betaling door koper' is louter potestatief en nietig — dat is geen voorwaarde maar de uitvoering zelf.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §6.1.1; oud BW; nieuw BW Boek 5",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_6-1-typical-closing-conditions"
+        ]
+      }
+    },
+    {
+      "titel": "Mededingingsgoedkeuring (merger control)",
+      "wat": "Wanneer de transactie de Belgische drempels overschrijdt (gecombineerde omzet in België > € 100 mln én elk minstens € 40 mln), moet ze gemeld worden bij de Belgische Mededingingsautoriteit (BMA); bij overschrijding van de EU-drempels gaat de melding naar de Europese Commissie (one-stop-shop).",
+      "waarom": "Implementatie vóór goedkeuring is verboden ('gun-jumping'); overtreding kan leiden tot zware boetes.",
+      "in_praktijk": "Belgische procedure neemt typisch 4–6 maanden inclusief informele pre-notification talks van 3–4 maanden. Vereenvoudigde procedure mogelijk; meeste concentraties krijgen goedkeuring binnen 1–2 maanden na formele aanmelding.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §6.2.1; WER Boek IV",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_6-2-1-merger-control-and-antitrust-clearance"
+        ]
+      }
+    },
+    {
+      "titel": "FDI-screening",
+      "wat": "Foreign direct investment screening is in België beperkt tot Vlaams Bestuursdecreet (controleverwerving over Vlaamse overheidsentiteiten); een federaal FDI-mechanisme is in voorbereiding en zal van toepassing zijn op investeringen door niet-EU-investeerders in strategische sectoren.",
+      "waarom": "FDI-goedkeuring kan, naast mededingingsgoedkeuring, een aparte CP zijn die de signing-to-closing-periode verlengt.",
+      "in_praktijk": "Bij energie, gezondheidszorg, defensie, telecom of kritieke infrastructuur: vroegtijdig analyseren of FDI-screening van toepassing wordt.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §1.2.6, §6.2.2",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_1-2-6-foreign-direct-investment-screening-committee"
+        ]
+      }
+    },
+    {
+      "titel": "Materiële third-party-consents",
+      "wat": "Belangrijke contracten van de target bevatten vaak 'change of control'-clausules die toestemming vereisen van de tegenpartij. Vaak opgenomen als CP voor closing, of soms achteraf met disclosure-bescherming.",
+      "waarom": "Zonder toestemming kan een sleutelcontract opzegbaar worden — dat erodeert de waarde die de koper heeft afgekocht.",
+      "in_praktijk": "Bij overname Brugse Brouwerij BV: het distributiecontract met de grootste klant bevat een COC-clausule; toestemming wordt als CP opgenomen.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §2.2.2 change of control clauses",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_2-2-overview-of-the-two-transaction-structures"
+        ]
+      }
+    },
+    {
+      "titel": "Interim covenants",
+      "wat": "Tussen signing en closing engageert de verkoper zich om de target 'in the ordinary course of business' en 'as a going concern' verder te zetten: geen dividenduitkeringen, geen statutenwijzigingen, geen extra schulden, geen verkoop van activa, geen nieuwe verbintenissen buiten normale bedrijfsuitoefening.",
+      "waarom": "Vermijdt waarde-erosie tussen prijsafspraak en eigendomsoverdracht.",
+      "in_praktijk": "Per categorie wordt onderhandeld over drempels ('niet meer dan € X', 'niet zonder voorafgaande toestemming koper'). Gun-jumping-regels onder competition law beperken hoe ver koper-controle kan gaan.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.9 Pre-closing",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-9-buyer-and-seller-covenants"
+        ]
+      }
+    },
+    {
+      "titel": "Fiscale en sociale-zekerheid-certificaten (asset deal)",
+      "wat": "Bij asset deals vraagt de koper aan de fiscus en aan de RSZ certificaten die bevestigen dat de verkoper geen openstaande schulden heeft.",
+      "waarom": "Zonder geldige certificaten (niet ouder dan 30 dagen op het moment van neerlegging) is de koper hoofdelijk aansprakelijk voor inkomstenbelasting, btw en RSZ van verkoper gedurende één maand.",
+      "in_praktijk": "De certificaten worden meegegeven met de notariële akte of het ondertekende contract dat wordt neergelegd; vanaf één maand na neerlegging is de overdracht 'tegenstelbaar' aan de fiscus.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §6.1.2",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_6-1-typical-closing-conditions"
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "Definieer expliciet welke partij verantwoordelijk is voor het vervullen van elke CP, met 'reasonable best efforts'-of 'hell or high water'-standaard.",
+    "Voorzie wat gebeurt als een CP niet of laattijdig vervuld wordt: 'long stop date' waarop een partij het contract kan beëindigen, met of zonder vergoeding (reverse break fee)."
+  ],
+  "valkuilen": [
+    {
+      "advies": "Hou de signing-to-closing-periode zo kort mogelijk én ga niet in 'gun-jumping': koper mag de target nog niet operationeel sturen vóór mededingingsgoedkeuring.",
+      "vaak_fout": "Pre-closing integratie-activiteiten ondernemen die als gun-jumping kwalificeren — boetes tot 10 % van wereldwijde omzet."
+    }
+  ],
+  "edges": [
+    {
+      "target": "overnameovereenkomst",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "material-adverse-change-clausule",
+      "type": "verwijst-naar"
+    },
+    {
+      "target": "due-diligence-overname",
+      "type": "vereist-kennis-van"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.A"
+    ],
+    "reviewed_by": null
+  },
+  "schema_version": "1.6"
+}

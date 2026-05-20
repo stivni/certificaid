@@ -1,0 +1,127 @@
+{
+  "id": "escrow-en-zekerheidsmechanismen-overname",
+  "naam": "Escrow en zekerheidsmechanismen bij overname",
+  "naam_alternatief": "escrow / bank guarantee / deferred payment / vendor loan",
+  "node_type": "cluster",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.V",
+    "3.0.V.A",
+    "3.0.V.E",
+    "3.0.V.F"
+  ],
+  "situering": "Een geldige R&W-vrijwaring is theoretisch — pas wanneer de koper effectief geld kan recupereren wordt ze praktisch waardevol. Zekerheidsmechanismen zorgen dat een deel van de prijs of een gelijkwaardig bedrag beschikbaar blijft om eventuele claims te dekken. De accountant beoordeelt de boekhoudkundige verwerking en de fiscale impact van deze mechanismen.",
+  "definitie": "Zekerheidsmechanismen bij overname zijn contractuele constructies die garanderen dat de verkoper financieel kan instaan voor vrijwaringsclaims na closing, door een deel van de prijs te blokkeren op een derdenrekening, te koppelen aan een bankgarantie, uit te stellen in tijd, of om te zetten in een verkoperkrediet.",
+  "bouwstenen": [
+    {
+      "titel": "Escrow",
+      "wat": "Een afzonderlijke geblokkeerde rekening waarop een deel van de prijs gedurende een afgesproken periode wordt geparkeerd. De bank houdt de gelden vrij volgens een escrow-overeenkomst die de vrijgave-procedure detailleert.",
+      "waarom": "Geeft koper een directe vorderingsgrond zonder de financiële situatie van verkoper te moeten beoordelen.",
+      "in_praktijk": "Typisch 10–20 % van de prijs gedurende 12–24 maanden, met geleidelijke vrijgave op vaste vrijgavedatums.",
+      "valkuilen": [
+        {
+          "advies": "Sluit een afzonderlijke escrow-overeenkomst af met de bank en zorg dat haar bepalingen primeren op de algemene bankvoorwaarden.",
+          "vaak_fout": "Vertrouwen op een loutere clausule in de SPA zonder driepartijenovereenkomst — bij geschil ontstaat onduidelijkheid over uitbetalingsrecht."
+        },
+        {
+          "advies": "Bedenk dat onder Belgisch recht — anders dan in Engels recht — een escrow niet noodzakelijk afdwingbaar is tegen andere schuldeisers bij insolventie van de rekeninghouder.",
+          "vaak_fout": "Aannemen dat een escrow bij insolvabiliteit van de verkoper automatisch beschermt — een Belgisch pand of garantie biedt meer rechtszekerheid."
+        }
+      ],
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.4 Escrow account",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-4-purchase-price"
+        ]
+      }
+    },
+    {
+      "titel": "Bankgarantie",
+      "wat": "De verkoper ontvangt de volledige prijs op closing maar zorgt via zijn bank voor een garantie aan de koper voor eventuele toekomstige vrijwaringsclaims.",
+      "waarom": "Verkoper heeft cash beschikbaar; koper blijft beschermd via een betalingsverplichting van de bank.",
+      "in_praktijk": "Kan 'on first demand' zijn (eenzijdige opvraagbaarheid) of conditioneel (na voorlegging documenten). Bank vraagt vaak van verkoper een tegengarantie of geblokkeerde rekening.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.4 Escrow account",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-4-purchase-price"
+        ]
+      }
+    },
+    {
+      "titel": "Deferred payment",
+      "wat": "Een deel van de prijs wordt later betaald. De koper houdt het bedrag in tot een afgesproken datum en kan eventuele vrijwaringsclaims rechtstreeks verrekenen.",
+      "waarom": "Geeft koper een directe set-off-mogelijkheid en helpt bij financiering wanneer koper niet de volledige prijs cash kan betalen.",
+      "in_praktijk": "Verkoper kan op zijn beurt een bankgarantie eisen voor het uitgesteld bedrag — anders draagt hij koperkredietrisico.",
+      "valkuilen": [
+        {
+          "advies": "Hou rekening met de algemene Belgische regel dat schuldvergelijking niet toegelaten is bij insolvabiliteit van de wederpartij (behoudens beperkte uitzonderingen).",
+          "vaak_fout": "Aannemen dat een deferred payment automatisch beschermt bij faillissement van verkoper."
+        }
+      ],
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.4 Deferred payment",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-4-purchase-price"
+        ]
+      }
+    },
+    {
+      "titel": "Vendor loan",
+      "wat": "De verkoper schiet een deel van de prijs voor als achtergestelde lening aan de koper of de doelvennootschap.",
+      "waarom": "Werkt als financieringsmechanisme én als zekerheid: de uitstaande lening kan worden verrekend met vrijwaringsclaims.",
+      "in_praktijk": "Typisch achtergesteld aan bankschulden van de koper; rente lager dan marktrente om het 'tweede tranche van de prijs'-karakter te onderstrepen.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.4 Deferred payment",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-4-purchase-price"
+        ]
+      }
+    },
+    {
+      "titel": "Pand op vorderingen",
+      "wat": "De verkoper ontvangt de volle prijs maar verleent koper een pand op de vorderingen die koper zou hebben tegen verkoper uit hoofde van vrijwaringen.",
+      "waarom": "Alternatief voor escrow met sterker zakelijk effect onder Belgisch recht.",
+      "in_praktijk": "Minder courant maar relevant wanneer verkoper een kleinere vennootschap is met beperkte solvabiliteit.",
+      "grondslag": "IBA-MA-Belgium-2022-EN §5.2.4 Escrow account",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          "IBA-MA-Belgium-2022-EN__sec_5-2-4-purchase-price"
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "De accountant let op de boekhoudkundige verwerking: een escrow blijft activa van de verkoper tot vrijgave (vordering op de bank), terwijl een deferred payment een schuld bij de koper is.",
+    "Fiscaal: meerwaarden op aandelen worden gerealiseerd op closing, ongeacht escrow- of earn-out-uitkomst — dit kan tot cash-flow-misalignment leiden voor de verkoper-vennootschap."
+  ],
+  "edges": [
+    {
+      "target": "overnameovereenkomst",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "indemnification-overname",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "purchase-price-mechanismen",
+      "type": "verwijst-naar"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.V",
+    "linked_anchors": [
+      "3.0.V",
+      "3.0.V.A"
+    ],
+    "reviewed_by": null
+  },
+  "schema_version": "1.6"
+}

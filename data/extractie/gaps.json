@@ -12044,5 +12044,2098 @@
       "2013-1-vr13"
     ],
     "po": "1.7"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Aansprakelijkheid van bestuurders (kennelijk grove fout, hoofdelijke aansprakelijkheid, kwijting, vennootschapsvordering — art. 2:54, 2:56-2:58, 7:156). Bundle bevat raakvlak-chunks (WVV__art_7_118, MvT-WVV-2018__art_2_115, MvT-WVV-2018__art_7_227) maar dit hoort thematisch bij PO 3.0.VII (Aansprakelijkheid bestuurders). Bewust uit scope gelaten voor deze pilot; te dekken bij anchor 3.0.VII-extract.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T06:38:55Z",
+    "geconstateerd_op": "2026-05-20T06:38:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Bezoldiging van bestuurders en remuneratiecomité in genoteerde NV's (WVV art. 7:87-7:92 voor monistisch, art. 7:104-7:108 voor duaal). Bundle bevat MvT-WVV-2018__art_7_172 (Art. 7:88), MvT-WVV-2018__art_7_174 (Art. 7:90), MvT-WVV-2018__art_7_175 (Art. 7:91), MvT-WVV-2018__art_7_176 (Art. 7:92). Onderwerp valt onder 'beheer van de vennootschap' maar is een eigen samenhangende thematiek (transparantievereisten, vertrekvergoedingen, remuneratiebeleid). Apart cluster aan te maken; behoort eerder bij 'corporate governance' subtopic of bij PO 3.0.III/IV.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T06:38:55Z",
+    "geconstateerd_op": "2026-05-20T06:38:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Coöptatie van bestuurders (art. 7:86) en vertegenwoordiging van beide geslachten in de raad van bestuur van genoteerde vennootschappen (art. 7:86). MvT-WVV-2018__art_7_170 en chunks rond art. 7:86 dekken dit. Niet opgenomen in monistisch-bestuur-record om dat record niet te overladen — eigen begrip-record overwegen bij re-extract.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T06:38:55Z",
+    "geconstateerd_op": "2026-05-20T06:38:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Auditcomité en remuneratiecomité als gespecialiseerde comités binnen de raad van bestuur (art. 7:99 monistisch, art. 7:104 e.v. duaal). Bestaand record `auditcomite` dekt audit-comité; remuneratiecomité ontbreekt. Onderscheid van 'adviserende comités' (art. 7:98) — die zijn vrij oprichtbaar door de raad, terwijl audit- en remuneratiecomités voor PIE/genoteerde NV's wettelijk verplicht zijn met specifieke samenstellings­vereisten.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T06:38:55Z",
+    "geconstateerd_op": "2026-05-20T06:38:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Bestuur van vzw en stichting (Boek 9 + 11) — slechts kort vermeld als bouwsteen in `bestuursorgaan`. Eigen cluster gerechtvaardigd: art. 9:5-9:13 (vzw — bestuursorgaan, bevoegdheid, vertegenwoordiging, dagelijks bestuur, belangenconflict), art. 11:5-11:15 (stichting). Onderscheid met vennootschapsrecht: geen aandeelhouders, andere belangenconflict-logica (vooruitbetalingen aan stichters, bestuurders).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T06:38:55Z",
+    "geconstateerd_op": "2026-05-20T06:38:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Bestuur in de SE (Europese vennootschap) — WVV art. 15:17-15:22 + art. 16:13-16:17 — uit bundle (WVV__art_15_15 e.v., WVV__art_16_13 e.v.). Specifieke regels voor monistisch/duaal model in SE-context. Niche-onderwerp (zelden in praktijk); eigen record alleen indien examenrelevantie bevestigt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T06:38:55Z",
+    "geconstateerd_op": "2026-05-20T06:38:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "verbonden-partijen-procedure-genoteerd",
+    "aspect": "dangling-reference",
+    "reden": "Edge `vereist-kennis-van` → `public-interest-entity`. Het record `public-interest-entity` bestaat — verified via audit. Geen gap, intern check. (Self-verify entry.)",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T06:38:55Z",
+    "geconstateerd_op": "2026-05-20T06:38:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "bron-gap",
+    "reden": "CBN-adviezen over feitelijke bestuur / bestuurders-in-feite zouden verrijking geven voor `bestuursorgaan` en `aansprakelijkheid-bestuurders`. Bundle bevat één CBN-fragment (CBN-2020-09 over jaarrekening-vermelding van bestuurders) maar geen advies dat de 'feitelijke bestuurder'-figuur uitwerkt. Mogelijk bron-uitbreiding bij volgende corpus-pass nodig.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T06:38:55Z",
+    "geconstateerd_op": "2026-05-20T06:38:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Sub-anchor 3.0.I.A/B/C komt later in de wave. Bij die extract-pass: detailregels per vorm (oprichtingsprocedure BV/NV, statutaire bepalingen, kapitaalverhoging-procedure NV, financieel plan-inhoud BV). Voorlopig dekt 3.0.I-kapstok alleen het typologie-niveau.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-2026-05-20T06:56:53Z",
+    "geconstateerd_op": "2026-05-20T06:56:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Geen eigen record voor 'financieel plan bij oprichting' (WVV art. 5:4, 6:3). Vermeld als bouwsteen in besloten-vennootschap-bv en cooperatieve-vennootschap-cv. Bestaansreden-test (mogelijk eigen record): eigen wettelijke artikelen, eigen procedure, mogelijk ≥3 cross-refs (BV, CV, oprichtersaansprakelijkheid PO 3.0.VII). Beslissen bij PO 3.0.VII-extract of bij sub-anchor 3.0.I.A.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-2026-05-20T06:56:53Z",
+    "geconstateerd_op": "2026-05-20T06:56:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Geen eigen record voor 'dubbele uitkeringstest' (balanstest + liquiditeitstest, WVV art. 5:142-5:143 BV, parallelle 6:115-6:116 CV). Genoemd in besloten-vennootschap-bv-bouwsteen. Sterke kandidaat voor eigen cluster bij 3.0-uitkeringen-anchor of bij PO 1.2 'jaarrekening + uitkeringen' anchor.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-2026-05-20T06:56:53Z",
+    "geconstateerd_op": "2026-05-20T06:56:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": "cooperatieve-vennootschap-cv",
+    "aspect": "bron-gap",
+    "reden": "Boek 6 (CV) is in de top-150 ondervertegenwoordigd: alleen art 6:1, 6:46, 6:101 in bundle. WVV art 6:3 (drie aandeelhouders), 6:120 (uittreding), 8:5 (sociale onderneming) niet bij de hand. Confidence op CV-bouwstenen daardoor sterker gefundeerd op begrip dan op directe chunk-tekst. Volgende bundel-pull: voeg WVV Boek 6 vollediger toe.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-2026-05-20T06:56:53Z",
+    "geconstateerd_op": "2026-05-20T06:56:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vereniging-en-stichting",
+    "aspect": "bron-gap",
+    "reden": "Boek 10 (IVZW) en Boek 11 (stichting) zijn niet rechtstreeks in de bundle vertegenwoordigd; bouwstenen IVZW en stichting steunen op art. 1:3 + 1:6 + algemene MvT. Diepere extract bij eigen anchor (indien aanwezig in PO 3.0).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-2026-05-20T06:56:53Z",
+    "geconstateerd_op": "2026-05-20T06:56:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "granulariteit.beslissing-nodig",
+    "reden": "Smell: 'personenvennootschap-met-rechtspersoonlijkheid' bundelt VOF + CommV als één cluster met regime-bouwstenen. Aansluit bij pilot-bevinding 1 (regime-cluster-heuristiek). Alternatief: aparte records voor VOF en CommV. Beslissing: voorlopig één cluster gehouden omdat (a) Boek 4 ze structureel samen behandelt, (b) governance-regels identiek, (c) enkel aansprakelijkheidsregime verschilt (volledig vs. gedifferentieerd). Mocht VERIFY of een sub-anchor-pass detecteren dat een van beide vormen significante eigen detail-stof heeft, kan dit alsnog gesplitst worden via rename_record + nieuw record.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-2026-05-20T06:56:53Z",
+    "geconstateerd_op": "2026-05-20T06:56:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Alarmbelprocedure (WVV art. 5:153 BV / 7:228-7:229 NV) — kapitaalverlies-meldplicht aan AV bij nettoactief < helft van kapitaal / inbreng. Sterk verwant aan kapitaalbescherming (3.0.IV) maar lijkt onder PO 3.0.V 'Aandeelhoudersverhoudingen en alarmbelprocedure' te vallen. Bron-coverage hoog (CBN 2021/14 + WVV + MvT). Niet aangemaakt in deze pass — toekomstige 3.0.V wave.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "resolved",
+    "resolved_op": "2026-05-20T12:48:59+00:00",
+    "resolved_door": "concept-extractie-v4-2026-05-20T15:00Z (PO 3.0 wave 2)",
+    "resolved_with_record": "alarmbelprocedure"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Tantième als gereguleerde uitkering — bestuurders-vergoeding uit winst, onderworpen aan nettoactieftest en winstbestemmings-AV. Komt in 3.0.IV-bundle voor (CBN 2021/02 §Tantièmes). Bewust niet als apart record aangemaakt — wel impliciet in 'nettoactieftest' bouwsteen 'Brede toepassing'. Smell-check toekomstige wave: eigen begrip-record waard?",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": "kapitaalwijziging",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Bestaand record 'kapitaalwijziging' (PO 1.1, paraplu-cluster) heeft geen edges naar de net aangemaakte specialisaties kapitaalverhoging-nv, kapitaalverhoging-bv, kapitaalvermindering-nv, uitkering-uit-eigen-vermogen-bv. De specialisaties hebben wel inbound edges via 'specialisatie-van'. Bestaande record bewust niet aangepast in deze pass (scope = 3.0.IV) — flag voor coordinator.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Aansprakelijkheid bestuurders bij ongeldige uitkering (WVV art. 5:144 BV / art. 7:214 NV) — bewust uit scope gehouden (3.0.VII later). In 'liquiditeitstest-bv' en 'uitkering-uit-eigen-vermogen-bv' is de regel kort vermeld onder bouwsteen/in_praktijk, maar verdient eigen record in 3.0.VII.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Reservevorming (cluster) — wettelijke reserve bestaat al (PO 1.1), maar er is geen cluster die de drie reserve-types (wettelijk, statutair, beschikbaar) en hun hiërarchie bij winstverdeling overkoepelt. Mogelijk synthese-kandidaat. Niet aangemaakt — wettelijke-reserve dekt het belangrijkste deel.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": "wettelijke-reserve",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Bestaand 'wettelijke-reserve' (PO 1.1) heeft geen edge naar nieuwe 'nettoactieftest' / 'kapitaalvermindering-nv' — natuurlijke partners (de wettelijke reserve is precies een onderdeel van de bodem van de nettoactieftest, en zakt mee bij kapitaalvermindering). Bestaande record bewust niet aangepast in deze pass (scope = 3.0.IV).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term 'inschrijvingsrechten' (warrants) komt voor in WVV art. 7:177 + voorkeurrecht-bouwstenen, gebruikt in tekst van kapitaalverhoging-nv. Bewust niet als apart record aangemaakt — voldoende behandeld als variant van kapitaalverhoging.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term 'converteerbare obligaties' komt voor in WVV art. 7:177 en wordt in kapitaalverhoging-nv-bouwsteen genoemd. Bewust niet eigen record — voldoende-vermeld-geen-record-gemaakt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Toegestaan kapitaal (WVV art. 7:198 ev.) — statutaire delegatie aan bestuursorgaan voor kapitaalverhoging. In 3.0.IV-pass behandeld als bouwsteen van 'kapitaalverhoging-nv'. Bestaansreden-test: het concept werkt enkel binnen kapitaalverhoging — bouwsteen is gerechtvaardigd. Flag voor mogelijk eigen record als VERIFY signaleert dat het zelfstandig gerefereerd wordt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "bron-gap",
+    "reden": "CBN-advies 2021/02 §Tussentijdse dividenduitkering: getailleerde uitwerking van het Cassatie-arrest 23/01/2003. Voor 'interimdividend'-record als grounded gebruikt, maar full chunk-content beperkt; mogelijk subsequente bron-uitbreiding nodig voor jurisprudentie-citaten in een toekomstige verdiepingspass.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "geconstateerd_op": "2026-05-20T07:15:11.461084Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Alarmbel-procedure NV (art. 7:228 WVV) en alarmbel-procedure BV (art. 5:153 WVV) ontbreken als zelfstandige records. Komen voor in PO 3.0.IX-bundle als trigger naar ontbindingsbesluit (bv. negatief netto-actief NV / liquiditeitsverlies BV), maar horen primair onder PO 3.0.V/VI (kapitaal/eigen vermogen). Te creëren bij latere wave 3.0.V/VI; verwijzen vanuit ontbinding-vennootschap.valkuilen wanneer record bestaat.",
+    "prio": "hoog",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:32:07Z",
+    "geconstateerd_op": "2026-05-20T07:32:07Z",
+    "status": "resolved",
+    "resolved_op": "2026-05-20T12:48:59+00:00",
+    "resolved_door": "concept-extractie-v4-2026-05-20T15:00Z (PO 3.0 wave 2)",
+    "resolved_with_record": "alarmbelprocedure"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Vereffenaarsaansprakelijkheid (art. 2:96 + art. 2:106 WVV — fouten in uitvoering, buitencontractueel jegens derden, hoofdelijke aansprakelijkheid college) ontbreekt als zelfstandig record. Hoort bij PO 3.0.VII (bestuurders/vereffenaars-aansprakelijkheid). In PO 3.0.IX-bundle wel aangestipt als valkuil binnen vereffenaar-record, niet diep uitgewerkt zoals scope-instructie aangaf.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:32:07Z",
+    "geconstateerd_op": "2026-05-20T07:32:07Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Vereffening van VZW/IVZW en stichting (art. 2:107 — 2:140 WVV + CBN-advies 2022/05) ontbreekt als parallel-record. PO 3.0.IX-bundle bevat dekking (CBN 2022/05, art. 2:107 ev.), maar het hoofdfocus van PO 3.0 is vennootschap. Aanvulling te creëren wanneer PO over non-profit-organisaties wordt opgepakt; impliciete tegenhanger van het vennootschapsregime.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:32:07Z",
+    "geconstateerd_op": "2026-05-20T07:32:07Z",
+    "status": "open"
+  },
+  {
+    "record_id": "liquidatiebonus",
+    "aspect": "dangling-reference",
+    "reden": "Term 'fiscaal gestort kapitaal' wordt prominent gebruikt in liquidatiebonus-record. Geen eigen record voor dit fiscale begrip (= bruto kapitaal min eerdere kapitaalverminderingen, in fiscale zin). Hoort bij PO 4.x (vennootschapsbelasting) of PO 3.0.V (kapitaal). Voorlopig geen eigen record gemaakt; oordeel: bewust-uit-scope. Voorkomens: liquidatiebonus.definitie, in_praktijk.berekening.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:32:07Z",
+    "geconstateerd_op": "2026-05-20T07:32:07Z",
+    "status": "open"
+  },
+  {
+    "record_id": "liquidatiebonus",
+    "aspect": "dangling-reference",
+    "reden": "Term 'VVPR-bis-regime' wordt gebruikt zonder eigen record. Specifiek fiscaal regime voor kleine vennootschappen (art. 269 WIB92), hoort bij PO 4.x. Oordeel: voldoende-vermeld-geen-record-gemaakt. Voorkomen: liquidatiebonus.in_praktijk.VVPR-bis.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:32:07Z",
+    "geconstateerd_op": "2026-05-20T07:32:07Z",
+    "status": "open"
+  },
+  {
+    "record_id": "gerechtelijke-ontbinding",
+    "aspect": "bron-gap",
+    "reden": "Sluimerende-vennootschap-procedure (art. 2:74 e.v. WVV) niet expliciet in WVV-chunks van bundle 3.0.IX teruggevonden; alleen MvT-context (art. 1:27, § 3) bevat allusie. Mogelijk chunking-artefact of de bepaling werd in een latere wijzigingswet aangebracht. Bij verdere uitwerking gerechtelijke-ontbinding: directe lees van WVV-MD aanbevolen.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:32:07Z",
+    "geconstateerd_op": "2026-05-20T07:32:07Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vereffenaar",
+    "aspect": "granulariteit.beslissing-nodig",
+    "reden": "Vereffenaar is geschreven als 'begrip' met rijke in_praktijk-blokken. Alternatief had het ook als 'autoriteit' (institutionele actor binnen vereffening) of zelfs als 'cluster' (samengesteld onderwerp met bouwstenen aanstelling/bevoegdheden/aansprakelijk-heid) kunnen worden geschreven. Keuze 'begrip' omdat focus ligt op concept-uitleg, niet op procedure-beschrijving (procedure leeft in vereffeningsprocedure-klassiek). Beslissing-nodig: oordeel ok of refactor naar autoriteit bij volgende VERIFY?",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:32:07Z",
+    "geconstateerd_op": "2026-05-20T07:32:07Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "PO 3.0.X — Aansprakelijkheidsregimes specifiek voor insolventie: 'kennelijk grove fout' (XX.171, kwijtscheldings-context), voortzetting verlieslatende activiteit (WVV 2:56/XX.225/aansprakelijkheidsgrond), en wrongful trading (omzetting EU). Bewust uit scope gehouden in deze wave: behoort tot 3.0.VII bestuurdersaansprakelijkheid. Wel: zorg dat tot wave 3.0.VII deze records opgenomen worden.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014921+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "PO 3.0.X — 'Beroepsgeheim' record als edge-target ontbreekt — wordt in record `meldingsplicht-accountant-continuiteit` aangeroepen via `uitzondering-op`-edge maar pending target. Behoort tot deontologie-laag (PO 1.10/professionele integriteit) — niet aanmaken in 3.0-wave.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014934+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "PO 3.0.X — Sub-anchor-detail (3.0.X.A — Vroege detectie, B — Buitengerechtelijk akkoord, C — Gerechtelijke reorganisatie procedures, D — Faillissement, E — Insolventie-aansprakelijkheid, F — Schuldvergelijking/samenloop) niet uitgewerkt op sub-anchor-niveau. Top-level kapstok-records zijn er nu; sub-anchor-detail (specifieke procedures zoals collectief akkoord-stemming, voorrechten rangorde, samenloop) hoort in wave 2 voor 3.0.X.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014936+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "PO 3.0.X — 'Voorrechten en rangorde bij faillissement' ontbreekt (algemene voorrechten, bijzondere voorrechten roerend goed, hypotheek-rangorde, RSZ/btw-voorrecht). Centraal voor de schuldeiserspositie. Wave 2-kandidaat — vraagt aparte WER+BWHvK-chunks.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014938+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "PO 3.0.X — 'Grensoverschrijdende insolventie' (EU-Insolventieverordening 2015/848, art. XX.206 e.v. WER) niet uitgewerkt. Specifiek subdomein — relevant voor groepen met dochters in andere EU-lidstaten. Wave 2-kandidaat.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014939+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "voorwaarden-faillietverklaring",
+    "aspect": "bron-gap",
+    "reden": "Art. XX.99 WER (definitie van faillietsvoorwaarden — duurzame staking van betaling + geschokt krediet) niet expliciet als chunk in de top-120 bundle. Bevestiging via chunk XX.100/XX.98 (procedure, doel) maar niet via XX.99 zelf. Voor `voorwaarden-faillietverklaring` zou een directe chunk-id van XX.99 sterkere confidence-grounding geven dan 'inferred-from-aggregation'. Optie: hercheck bron-chunks of voeg XX.99 toe aan bundle.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014941+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "boekhoudkundige-verwerking-insolventie-akkoord",
+    "aspect": "bron-gap",
+    "reden": "Slechts inleidingschunk van CBN-2021/07 beschikbaar (chunk 19). Andere paragrafen (boeking schuldenaar, boeking schuldeiser, fiscale gevolgen, getrouw beeld) niet in de top-120 bundle. Record claimt CBN-detail dat eerder uit globale kennis-redenering komt dan uit specifieke chunks. Hercheck of CBN-2021/07 volledig is opgenomen in resources/bronnen/ en RAG.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014942+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "kamer-ondernemingen-in-moeilijkheden",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Bestaand record `kamer-ondernemingen-in-moeilijkheden` heeft `linked_anchors: ['1.3.I.D']` maar geen edge naar het nieuwe `insolventieprocedures-belgie` cluster, `vroegtijdige-waarschuwing-insolventie` of `gerechtelijke-reorganisatie`. Bij next-touch: voeg `onderdeel-van: vroegtijdige-waarschuwing-insolventie`-edge toe en update `linked_anchors` met '3.0.X'.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014943+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "PO 3.0.X — Term 'wettelijke voorrechten' en 'samenloop' verwijzingen niet uitgewerkt als eigen record. Worden in `verdachte-periode-faillissement` impliciet aangeroepen. Beoordeling: bewust-uit-scope gehouden in deze wave — behoren tot wettelijke-voorrechten-cluster (zie records.ontbreekt-entry hierboven).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T07:50:29Z",
+    "geconstateerd_op": "2026-05-20T07:50:29.014945+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "aansprakelijkheidsbeperking-bestuurder",
+    "aspect": "bron-gap",
+    "reden": "WVV.md mist artikelen 2:56 en 2:57 (cap-bedragen + exoneratieverbod). Sectie 'HOOFDSTUK 2. Bestuurdersaansprakelijkheid' bevat alleen art. 2:58. De cap-categorieën (micro/klein/groot/OOI met bedragen per balanstotaal/omzet) en de exacte tekst van art. 2:57 zijn niet rechtstreeks beschikbaar in de WVV-bron — alleen via de MvT-toelichting bij art. 1:27. Lijkt een ETL-chunking-bug bij het opbouwen van WVV.md. Concrete bedragen kunnen daardoor niet 'grounded' gelabeld worden tegen de WVV-tekst zelf.",
+    "prio": "hoog",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bestuurdersaansprakelijkheid-bij-insolventie",
+    "aspect": "bron-gap",
+    "reden": "WER.md mist art. XX.225 (kennelijk grove fout) en art. XX.227. Alleen XX.224, XX.226 en XX.228 zijn aanwezig. Hoofdtekst van het wrongful-trading-regime is dus niet rechtstreeks geciteerd uit de bron — record steunt op de MvT-context bij art. 1:27 + WER art. XX.226 die expliciet naar XX.225 verwijst. ETL-chunking-bug in WER.md.",
+    "prio": "hoog",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bestuurdersaansprakelijkheid-fiscale-schulden",
+    "aspect": "bron-gap",
+    "reden": "Art. 442quater WIB92 en art. 93undecies C btw-Wetboek ontbreken volledig in bundle-3.0.VII en zijn niet in WVV.md/MvT-WVV-2018.md te vinden (andere wettekst). Record steunt op accountancy-common-knowledge over de regeling — labels zijn voornamelijk 'inferred'. Bron-uitbreiding nodig: WIB92.md en btw-Wetboek.md (of fisconet-plus-extractie van de relevante artikels).",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": "financieel-plan-oprichting",
+    "aspect": "records.ontbreekt",
+    "reden": "`kennelijk-ontoereikend-aanvangsvermogen` verwijst via vereist-kennis-van naar `financieel-plan-oprichting`. Dit record bestaat nog niet als zelfstandig concept. Reeds in gaps geflagd vanuit 3.0.II ('financieel plan bij oprichting'). Hoog-prio: financieel plan is de spil van art. 5:4/6:5/7:3 én de bewijslast-leverancier voor oprichtersaansprakelijkheid. Aanmaken in volgende wave 3.0.I/3.0.II follow-up.",
+    "prio": "hoog",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Alarmbel-procedure (art. 2:52 WVV) verdient een eigen record. Vermeld als bouwsteen in `behoorlijke-vervulling-bestuursopdracht` en als verzweerdings-trigger in insolventie-records, maar de procedure-stappen, termijnen en aansprakelijkheidsgevolgen bij verzuim zijn niet ergens gestructureerd vastgelegd. Cluster of regel.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "resolved",
+    "resolved_op": "2026-05-20T12:48:59+00:00",
+    "resolved_door": "concept-extractie-v4-2026-05-20T15:00Z (PO 3.0 wave 2)",
+    "resolved_with_record": "alarmbelprocedure"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Minderheidsvordering (actio mandati door minderheidsaandeelhouders) verdient eigen record. WVV-grondslag art. 2:60 (geschillenregeling) raakt verwant met uittredings-/uitsluitingsvordering maar de vennootschapsvordering namens vennootschap is een aparte procedure. Vermeld als bouwsteen in `behoorlijke-vervulling-bestuursopdracht`.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Bestuurders-aansprakelijkheid bij splitsing/fusie (art. 12:18 WVV) — vermeld in de bundle als grondslag voor aansprakelijkheidsvordering door vennoot/aandeelhouder tegen leden bestuursorgaan voor schade bij voorbereiding/totstandkoming herstructurering. Niet uitgewerkt; cross-link met 3.0.VIII (herstructurering).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bestuurdersaansprakelijkheid",
+    "aspect": "dangling-reference",
+    "reden": "Strafrechtelijke bestuurdersaansprakelijkheid (misbruik vennootschapsgoederen, valsheid in boekhoudkundige stukken, bedrieglijk onvermogen) bewust uit scope gehouden — kruis met deontologische normen (PO 4.0). Vermeld als signaal in de cluster maar geen eigen records. Te overwegen bij PO 4.0-extractie.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bestuurdersaansprakelijkheid",
+    "aspect": "dangling-reference",
+    "reden": "Sub-anchor-detail 3.0.VII.A/B (indien aanwezig in anchors.json) bewust niet uitgewerkt — wave 1 dekt alleen de centrale concepten op 3.0.VII-niveau. Voorbeelden van mogelijke detailrecords: aansprakelijkheid van enige bestuurder NV met onbeperkte aansprakelijkheid (art. 7:101 WVV); aansprakelijkheid lid raad van toezicht in duaal bestuursmodel; bezoldigings-aansprakelijkheid (art. 7:122 WVV — vermeld in bundle).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": "feitelijk-bestuurder",
+    "aspect": "granulariteit.beslissing-nodig",
+    "reden": "Smell: 'feitelijk-bestuurder' geschreven als begrip met definitie + voorbeelden. Alternatief had het kunnen worden als bouwsteen binnen `bestuursorgaan` of `bestuurdersaansprakelijkheid`. Gekozen voor eigen record omdat (a) het concept bestaat ook buiten één specifiek aansprakelijkheidsregime (cap art. 2:56 én XX.225-XX.227 én XX.226), (b) het figureert als zelfstandige doctrine in Belgische rechtspraak. Niettemin twijfel: of er over 6-12 maanden voldoende cross-referenties komen om het zelfstandig te houden.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:11:16Z",
+    "geconstateerd_op": "2026-05-20T08:11:16.236374Z",
+    "status": "open"
+  },
+  {
+    "record_id": "agenderingsrecht-aandeelhouder",
+    "aspect": "records.ontbreekt",
+    "reden": "Edge naar 'minderheidsvordering' (target_status: pending). Concept hoort thuis in PO 3.0.VIII (geschillen) — schrijf bij die wave. Drempel 10% van aandelen; WVV art. 6:89, 7:157.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T09:00:00Z",
+    "geconstateerd_op": "2026-05-20T08:30:37Z",
+    "status": "open"
+  },
+  {
+    "record_id": "gewone-algemene-vergadering",
+    "aspect": "dangling-reference",
+    "reden": "Edge naar 'jaarrekening' (target_status: pending). Centrale term op PO 1.x maar nog geen eigen record. Suggestie: maken bij PO 1.2-content-review (voorlopig blijven hyperlinks dood).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T09:00:00Z",
+    "geconstateerd_op": "2026-05-20T08:30:37Z",
+    "status": "open"
+  },
+  {
+    "record_id": "buitengewone-algemene-vergadering",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Edge 'vereist-kennis-van' → 'quorum-en-meerderheid-statutenwijziging' had target_status pending bij eerste schrijven; nu resolved sinds record-7 ook is opgeslagen — verifieer in tweede pass.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T09:00:00Z",
+    "geconstateerd_op": "2026-05-20T08:30:37Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bijzondere-algemene-vergadering",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Edge 'vergelijkt-met' → 'buitengewone-algemene-vergadering' had target_status pending bij eerste schrijven; nu resolved — verifieer in tweede pass.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T09:00:00Z",
+    "geconstateerd_op": "2026-05-20T08:30:37Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "bron-gap",
+    "reden": "WVV.md mist artikelen 5:81 (bevoegdheden AV BV), 7:124 (bevoegdheden AV NV), 7:128 (oproepingstermijn NV genoteerd 30 dagen), 7:131 (notulen NV), 7:139 (stemrecht NV; vermoedelijk vervangen of weggevallen). Inhoud werd gereconstrueerd uit naburige artikelen + MvT-WVV + Belgische rechtsleer; impact: drempel '3% van het kapitaal voor genoteerde NV' staat nu via MvT-chunks, niet via wetteksten zelf. Bron-MD opnieuw extraheren uit officiële tekstversie.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T09:00:00Z",
+    "geconstateerd_op": "2026-05-20T08:30:37Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Concept 'aandelen zonder stemrecht' (en pendant 'meervoudig stemrecht BV') wordt herhaaldelijk vermeld in stemrecht-aandeelhouder en synthese-quorum-meerderheid, maar heeft geen eigen record. Hoort wellicht onder 3.0.V (kapitaal- en effectenstructuur) — markeer voor toekomstige wave.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T09:00:00Z",
+    "geconstateerd_op": "2026-05-20T08:30:37Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "granulariteit.beslissing-nodig",
+    "reden": "Notulen van de algemene vergadering zijn nu bouwsteen van 'algemene-vergadering'. Bij latere uitbreiding (formele vereisten genoteerde NV, register éénpersoonsvennootschap, neerleggings-formaliteit notarieel) kan zelfstandig record gerechtvaardigd zijn. Heroverweeg bij PO 3.0-VERIFY.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T09:00:00Z",
+    "geconstateerd_op": "2026-05-20T08:30:37Z",
+    "status": "open"
+  },
+  {
+    "record_id": "statuten-vennootschap",
+    "aspect": "records.ontbreekt",
+    "reden": "De **statuten** van een vennootschap zijn een centraal begrip in PO 3.0 — ze regelen alles wat publiek tegenwerpelijk is en zijn complementair aan de aandeelhoudersovereenkomst (SHA). Bij anchor 3.0.VI hebben meerdere nieuwe records (`aandeelhoudersovereenkomst`, `overdrachtsbeperking-aandelen`, `meervoudig-stemrecht`) een vergelijkings- of verwijzingsrelatie naar 'statuten' — maar er bestaat geen eigen record. Suggestie: cluster-record over inhoud (verplichte/facultatieve clausules), publicatie (Staatsblad), wijziging-procedure, vs SHA.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:48:53Z",
+    "geconstateerd_op": "2026-05-20T08:48:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": "openbaar-overnamebod-procedure",
+    "aspect": "records.ontbreekt",
+    "reden": "Procedurele uitwerking van het **openbaar overnamebod** (Wet 1 april 2007; KB 27 april 2007) ontbreekt: prospectus-vereisten, biedingsperiode, FSMA-goedkeuring, heropening, defensieve maatregelen (poison pill — IBA Minority §4 dekt dit uitgebreid). Het record `verplicht-overnamebod` dekt enkel de *trigger*-regel (30%-drempel + billijke prijs); de procedure zelf raakt aan PO 3.0.IX (bedrijfsovername) maar past hier omdat 3.0.VI 'methodes om controle te verwerven' dekt.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:48:53Z",
+    "geconstateerd_op": "2026-05-20T08:48:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": "onderling-overleg-acting-in-concert",
+    "aspect": "records.ontbreekt",
+    "reden": "Het begrip **onderling overleg / acting in concert** (Wet 1 april 2007 art. 3 § 1, 5°; WVV art. 7:82) is een **drempel-multiplier** bij zowel verplicht overnamebod als squeeze-out en stemafspraken — en is op zich een complex juridisch concept (uitdrukkelijke vs stilzwijgende afspraak; intentie om controle te verwerven of te handhaven). Verdient eigen begrip-record. Twee nieuwe records (`verplicht-overnamebod`, `uitkoopbod-squeeze-out`) gebruiken het zonder dedicated kruisverwijzing.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:48:53Z",
+    "geconstateerd_op": "2026-05-20T08:48:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": "gerechtelijke-uittreding",
+    "aspect": "records.ontbreekt",
+    "reden": "**Gerechtelijke uittreding** (WVV art. 2:63) en **gerechtelijke uitsluiting** (art. 2:60) zijn de laatste-redmiddel-routes wanneer SHA-exits falen — Wordt vermeld in `exit-mechanismen-sha` maar verdient eigen record, vooral omdat het ook PO 3.0.VIII (conflicten) raakt. Suggestie: niet hier oplossen, naar PO 3.0.VIII doorschuiven.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:48:53Z",
+    "geconstateerd_op": "2026-05-20T08:48:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": "toetredingsovereenkomst-sha",
+    "aspect": "dangling-reference",
+    "reden": "De **toetredingsovereenkomst** (accession agreement) is in `aandeelhoudersovereenkomst` vermeld als de techniek waarmee nieuwe aandeelhouders aan een bestaande SHA worden gebonden. Voorlopig **voldoende-vermeld-geen-record-gemaakt**: het is een uitvoeringsmodaliteit, geen zelfstandig fenomeen. Indien latere VERIFY-pass of cross-referenties anders aangeven, mogelijk eigen begrip-record.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:48:53Z",
+    "geconstateerd_op": "2026-05-20T08:48:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": "poison-pill-anti-overname",
+    "aspect": "records.ontbreekt",
+    "reden": "**Poison pill** en **kroonjuwelen-verkoop** zijn defensieve mechanismen tegen overnamebiedingen (IBA Minority §4: pp. 310-334). Niet kernscope van 3.0.VI (SHA + controleverwerving) maar wel relevant voor PO 3.0 in zijn geheel. Doorschuiven naar latere bronnen-extractie of als deel van openbaar-overnamebod-procedure-record.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:48:53Z",
+    "geconstateerd_op": "2026-05-20T08:48:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": "burgerlijke-maatschap-aandelen",
+    "aspect": "dangling-reference",
+    "reden": "In `certificering-aandelen` wordt **burgerlijke maatschap** vermeld als vermogensplanning-techniek voor familiale aandeelhouders (alternatief of complement van certificering). Out-of-scope voor 3.0.VI (raakt eerder PO over vermogensplanning). **bewust-uit-scope**.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:48:53Z",
+    "geconstateerd_op": "2026-05-20T08:48:53Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term **'warranty and indemnity insurance (W&I)'** is uitgewerkt als bouwsteen in `representations-and-warranties`. Bron: IBA-MA-Belgium-2022-EN §5.2.6. Geen eigen record gemaakt — past beter als bouwsteen omdat het verzekeringsproduct enkel zinvol bestaat in M&A-context. Voldoende-vermeld-geen-record-gemaakt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term **'data room'** is vermeld in `due-diligence-overname` als bouwsteen. Voldoende-vermeld-geen-record-gemaakt — een data room is een tooling-artefact zonder eigen domein-conceptueel-belang.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term **'clean team agreement (CTA)'** vermeld in `due-diligence-overname`. Voldoende-vermeld-geen-record-gemaakt — specifiek mededingings-tooling-artefact dat een eigen record niet rechtvaardigt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term **'B2B-wet (Wet 4 april 2019 inzake misbruik economische afhankelijkheid en onrechtmatige bedingen tussen ondernemingen — WER art. VI.91/3)'** vermeld in `overnameovereenkomst` valkuilen en in `due-diligence-overname` (recital-evenwichtsclausule). Bewust-uit-scope voor PO 3.0.V — eerder PO 6.x-territory (WER + commerciële contracten). Suggestie: `b2b-onrechtmatige-bedingen-WER` als toekomstig record.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term **'gun-jumping (mededingingsrecht)'** vermeld in `closing-condities-precedent`. Bewust-uit-scope — pure mededingings-procedure-stof, niet centraal voor M&A-conceptlaag. Suggestie: `gun-jumping-mededingingsrecht` als toekomstig record onder PO 2.4-mededingings-anchor (indien aanwezig).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "**Earn-out-mechanisme** als zelfstandig concept ontbreekt — nu enkel bouwsteen in `purchase-price-mechanismen`. Earn-outs raken aan controle-vragen (IFRS 3/10 contingent consideration), accounting-verwerking en post-closing-governance. Bij latere PO 3.0-ronde of bij IFRS-3-extractie eigen record `earn-out-overname` overwegen.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "**Boekhoudkundige verwerking van een overname** (verwervingsmethode IFRS 3, BE-GAAP-verwerking goodwill/badwill) ontbreekt op de M&A-kant. PO 1.5 dekt `consolidatieverschil` op groepsniveau maar niet de earn-out-allocation, contingent consideration of measurement-period-adjustments specifiek bij M&A-contracten. Mogelijk in cross-PO-pass op PO 1.5/3.0.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term **'CEPANI-arbitrage'** vermeld in `purchase-price-mechanismen` (derde-partij-expert-clausule) en in IBA-MA §5.3 (dispute resolution). Voldoende-vermeld-geen-record-gemaakt — institutioneel-arbitraal-orgaan dat eerder onder PO 1.5/conflictresolutie zou passen.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "**Schadebeding / clause pénale** als algemeen Belgisch contractenrecht-concept ontbreekt — relevant bij NDA, niet-concurrentie, exclusiviteit en vrijwaring. Suggestie: `schadebeding-clause-penale` onder een PO 3.0.II-anchor (algemene contractenrecht) of een PO-onafhankelijk algemeen record.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term **'culpa in contrahendo / pre-contractuele aansprakelijkheid'** vermeld in `letter-of-intent-overname` en `due-diligence-overname`. Bewust-uit-scope op anchor 3.0.V — eigen record past onder een algemene contractenrecht-anchor (PO 3.0.II?). Suggestie: `culpa-in-contrahendo` als toekomstig record met linked_anchors voor meerdere PO's.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "**ESG due diligence** wordt vermeld in `due-diligence-overname` maar verdient mogelijk eigen record-status gezien CSRD/CS3D-impact. Suggestie afstemmen op PO 1.x ESG-rapportering: of bouwsteen in DD volstaat (huidige keuze) of eigen record bij ESG-anchor.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Mogelijk gap: `controleverwerving-methodes` (synthese, PO 3.0.VI) zou een edge `verwijst-naar` naar `asset-deal-versus-share-deal` mogen krijgen om beide perspectieven (controle vs. transactie-structuur) te verbinden. Niet in deze pass aangepast — vermelden voor cross-PO-cleanup.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T08:56:28Z",
+    "geconstateerd_op": "2026-05-20T09:09:49Z",
+    "status": "open"
+  },
+  {
+    "record_id": "minderheidsvordering",
+    "aspect": "dangling-reference",
+    "reden": "Edge `vergelijkt-met → uittredingsvordering` werd in eerste batch geschreven met target_status=pending — uittredingsvordering bestaat ondertussen wel. Lichte cleanup-pass nodig (target_status: exists). Niet kritisch.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "geconstateerd_op": "2026-05-20T10:00:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "statutaire-uittreding-bv",
+    "aspect": "records.ontbreekt",
+    "reden": "Edge `vereist-kennis-van → uitkeringstest-bv` met target_status=pending. De netto-actief- en liquiditeitstest van art. 5:142-5:143 verdient een eigen begrip-record. Behoort thematisch bij PO 3.0.IV (Vermogen van de vennootschap) — out-of-scope hier.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "geconstateerd_op": "2026-05-20T10:00:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "NV-statutair regime (art. 7:222 e.v. — verkrijging eigen aandelen) interageert met conflict-resolutie maar is geen volwaardig conflict-instrument. Niet hier opgenomen; mogelijk gap voor PO 3.0.IV.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "geconstateerd_op": "2026-05-20T10:00:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "bron-gap",
+    "reden": "Voor 3.0.VIII zou doctrinaire literatuur over misbruik van meerderheid (Cassatie-rechtspraak, Van Ommeslaghe) als concretiseringsbron meerwaarde bieden. Bundle leverde geen rechtspraak-extracten — gerede inhoud is doctrine-grounded uit IBA-Minority-praktijkgids.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "geconstateerd_op": "2026-05-20T10:00:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Verjaringstermijnen vennootschapsvorderingen (art. 2:143 WVV — 5 jaar) niet als eigen record opgenomen. Behoort thematisch bij algemeen vennootschapsrecht (PO 3.0.II of cross-PO). Geconstateerd tijdens 3.0.VIII-extractie.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T10-00-00Z",
+    "geconstateerd_op": "2026-05-20T10:00:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Nijverheidsinbreng (inbreng van werk/activiteit als BV/CV-specifiek inbreng-type, art. 5:8 en art. 6:11 WVV) heeft geen eigen record. Vermeld in [[begeleiden-inbreng-bij-oprichting]] stap 1 maar niet uitgediept. Past als 'begrip' onder PO 3.0.I.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.1-20260520T111829",
+    "geconstateerd_op": "2026-05-20T11:18:29.443588Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Oprichtersverslag bij inbreng in natura (apart van revisorenverslag) — door oprichters zelf opgesteld om waardebepaling te motiveren. Vermeld in [[begeleiden-inbreng-bij-oprichting]] stap 3 maar bestaat niet als apart record. Mogelijk samen-record met inbreng-in-natura-verslag of apart begrip.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.1-20260520T111829",
+    "geconstateerd_op": "2026-05-20T11:18:29.443588Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "UBO-register (Ultimate Beneficial Owners, KB van 30/07/2018, antiwitwaswet-koppeling) heeft geen eigen record. Vermeld in [[begeleiden-registratie-onderneming-kbo]] stap 4. Past als cluster onder PO 4.0 (antiwitwas) of als regel onder PO 3.0.I.",
+    "prio": "hoog",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.1-20260520T111829",
+    "geconstateerd_op": "2026-05-20T11:18:29.443588Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Kruispuntbank van Ondernemingen (KBO) en ondernemingsnummer — administratief identificatie-systeem voor Belgische ondernemingen (WER Boek III). Vermeld in [[begeleiden-registratie-onderneming-kbo]] stap 1 maar bestaat niet als eigen begrip-record. Past als autoriteit-record (KBO als institutionele actor) of begrip (ondernemingsnummer).",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.1-20260520T111829",
+    "geconstateerd_op": "2026-05-20T11:18:29.443588Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Btw-identificatie en het 604A-formulier-proces — verplicht voor elke btw-belastingplichtige vennootschap (btw-wetboek art. 50). Vermeld in [[begeleiden-registratie-onderneming-kbo]] stap 2. Past als competentie of regel onder PO 2.4.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.1-20260520T111829",
+    "geconstateerd_op": "2026-05-20T11:18:29.443588Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Sociaal verzekeringsfonds + aansluiting zelfstandige bestuurder (KB nr. 38). Vermeld in [[begeleiden-registratie-onderneming-kbo]] stap 3. Mogelijk PO 2.6 (sociale zekerheid) of cluster onder PO 3.0.I.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.1-20260520T111829",
+    "geconstateerd_op": "2026-05-20T11:18:29.443588Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Drag-along en tag-along clausules in aandeelhoudersovereenkomsten — meerderheid sleept minderheid mee bij verkoop / minderheid kan meeverkopen. Vermeld in [[voorbereiden-oprichtingsakte]] stap 4. Bouwsteen van [[aandeelhoudersovereenkomst]] of eigen begrip.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.1-20260520T111829",
+    "geconstateerd_op": "2026-05-20T11:18:29.443588Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "granulariteit.beslissing-nodig",
+    "reden": "Een aparte 'opstellen-aandeelhoudersovereenkomst'-competentie is denkbaar maar nu vermeld in [[voorbereiden-oprichtingsakte]] stap 4 als sub-aspect. Beslis: bouwsteen of eigen competentie? Argument-pro: aandeelhoudersovereenkomst is een zelfstandig juridisch document met eigen leven na oprichting (governance gedurende vennootschap-levensloop). Argument-contra: kerntaak van oprichting blijft akte; overeenkomst is satelliet.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.1-20260520T111829",
+    "geconstateerd_op": "2026-05-20T11:18:29.443588Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Boek 12 WVV (Fusies, splitsingen en gelijkgestelde verrichtingen) heeft geen kapstok-cluster `fusie-vennootschappen` of `splitsing-vennootschappen` als concept-record. Bestaande [[fusie-splitsing-controleopdracht]] dekt alleen het accountantsverslag, niet het fenomeen-zelf. Voorgesteld: cluster `fusie-vennootschappen` (definitie, varianten art. 12:2-12:3, procedure-bouwstenen, fiscale neutraliteit art. 211 WIB92) en `splitsing-vennootschappen` (art. 12:8-12:11, partiële splitsing). Vermeld in nieuwe competentie [[adviseren-overdrachtsroute-onderneming]] stap 3 en [[opstellen-overname-verslaggeving-accountant]] stap 1, maar geen eigen record. Bundle bevatte 1 chunk WVV art. 12:78 + 2 chunks MvT-WVV-2018 over splitsing — voldoende voor seed-records.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.2-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:38:46.328142+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Overdracht onder gerechtelijk gezag (WER art. XX.85-XX.87) als specifieke insolventie-overdrachtsroute bestaat niet als record. Gerelateerd: bestaande [[gerechtelijke-reorganisatie]]. Hoge bundle-relevantie (3 chunks WER XX.85/XX.87). Voorgesteld nieuw cluster `overdracht-onder-gerechtelijk-gezag` met bouwstenen: aanwijzing vereffeningsdeskundige, offerte-procedure, gevolgen werknemers, vergelijking met asset deal buiten reorganisatie.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.2-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:38:46.328142+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Vlaamse familieondernemingsregeling (gunsttarief schenkings- en successierechten voor bedrijfsoverdracht binnen familie, decreet Vlaams Gewest) — vermeld in nieuw record [[exit-routes-onderneming-overzicht]] als opvolgings-route met 0%/3% schenkingsrechten — geen eigen concept-record. Hoort bij PO 3.0 of mogelijk PO 2.x (registratie- en successierechten). Voorgesteld als regel-record `familieonderneming-gunsttarief-vlaanderen`.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.2-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:38:46.328142+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "fusie-splitsing-controleopdracht",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Bestaande record [[fusie-splitsing-controleopdracht]] mist edge naar (nog-niet-bestaande) algemene cluster `fusie-vennootschappen` en `splitsing-vennootschappen`. Wanneer die kapstok-clusters worden aangemaakt: voeg `onderdeel-van`-edge toe.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.2-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:38:46.328142+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "oprichting-vennootschap",
+    "aspect": "ontbrekend-concept",
+    "reden": "Tijdens 3.0.taak.3 (omzettingsverslag) blijkt geen algemeen cluster-record [[oprichting-vennootschap]] te bestaan. Records over inbreng-in-natura, kapitaalverhoging-bv en kapitaalverhoging-nv verwijzen impliciet naar oprichtingsregels die voor omzetting (Boek 14 WVV) deels van toepassing zijn. Aanmaken in PO 3.0.II of 3.0.IV-cluster.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.3-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:54:09.338550+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "grensoverschrijdende-omzetting-vennootschap",
+    "aspect": "ontbrekend-concept",
+    "reden": "Boek 14 WVV (art. 14:14-14:30) introduceert sinds 2023 (Mobility-richtlijn) een specifieke procedure voor grensoverschrijdende omzetting (emigratie/immigratie). Verdient een eigen begrip-record naast [[opstellen-verslag-omzetting-vennootschap]] (competentie). Aanmaken in PO 3.0.X (grensoverschrijdende verrichtingen).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.3-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:54:09.338550+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "fusie-splitsing-controleopdracht",
+    "aspect": "naam-onduidelijk",
+    "reden": "Bestaand record [[fusie-splitsing-controleopdracht]] (waarnaar [[opstellen-overname-verslaggeving-accountant]] verwijst) is een 'controleopdracht'-naam — maar het gaat NIET om een audit-controleopdracht, wel om een verslagopdracht. Mogelijk hernoemen naar 'fusie-splitsing-verslag' of bij re-extract de scope verifiëren. Cross-link met nieuw [[opstellen-verslag-fusie-splitsing-ruilverhouding]] toevoegen.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.3-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:54:09.338550+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "isa-805-bijzondere-overwegingen",
+    "aspect": "ontbrekend-concept",
+    "reden": "ISA 800-reeks (incl. ISA 805 — Bijzondere overwegingen: controles van financiële overzichten opgesteld in overeenstemming met stelsels voor bijzondere doeleinden, enkele elementen, rekeningen of posten) is direct relevant voor de uitvoering van bijzondere mandaten. Verdient eigen norm-record in PO 1.6 of 4.0 (auditstandaarden).",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.3-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:54:09.338550+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "isrs-4400-overeengekomen-procedures",
+    "aspect": "ontbrekend-concept",
+    "reden": "ISRS 4400 (Overeengekomen specifieke werkzaamheden) wordt soms gebruikt als basis voor bepaalde bijzondere mandaten. Behoort als norm-record te bestaan binnen PO 4.0 (auditstandaarden).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.3-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:54:09.338550+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "verbonden-onderneming",
+    "aspect": "ontbrekend-concept",
+    "reden": "Begrip 'verbonden onderneming' is centraal in onafhankelijkheidsregels (KB 1/3/1998 art. 10 en 13) en bij omzettings-/fusieverslagen. Verdient een eigen begrip-record dat verwijst naar de WVV-definitie (art. 1:20 e.v.).",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.3-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:54:09.338550+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "kapitaalvermindering-uitkering",
+    "aspect": "ontbrekend-concept",
+    "reden": "Verslag bij uitkering uit reserves of bij kapitaalvermindering (specifieke gevallen) was vermeld in scope van 3.0.taak.3 maar bestaand records-arsenaal dekt dit niet expliciet. Onder welke conditie precies een verslag vereist is, verdient nadere uitwerking in 3.0.IV-cluster.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.taak.3-batch3-20260520T120000Z",
+    "geconstateerd_op": "2026-05-20T11:54:09.338550+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Landbouwonderneming als erkenningsstatus voor VOF (WVV art. 8:1). De VOF kan onder voorwaarden bij KB erkend worden als landbouwonderneming en mag dan 'VOF-LO' aan zijn naam toevoegen. Zichtbaar in 3.0.I.B bundle (chunk #15). Niet als eigen record aangemaakt — past beter onder PO 3.0.II of een agro-anchor. Coverage in bundle is mager (alleen art. 8:1).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "geconstateerd_op": "2026-05-20T12:05:50.542286+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Erkenning als sociale onderneming (CV-SO) verdient eigen record naast cooperatieve-vennootschap-cv-bouwsteen. Bevat eigen erkennings-procedure, verbod op winstuitkering, gunstregime fiscaal. WVV art. 8:5 + Boek 8 algemeen. In 3.0.I.B-bundle aangestipt, in cooperatieve-vennootschap-cv als bouwsteen behandeld. Splitsen overwegen bij PO 3.0.II (erkenningen) of bij een toekomstige social-impact-anchor.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "geconstateerd_op": "2026-05-20T12:05:50.542286+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "vereniging-en-stichting",
+    "aspect": "bron-gap",
+    "reden": "Boek 9 (VZW), Boek 10 (IVZW) en Boek 11 (stichting) zijn ondervertegenwoordigd in de 3.0.I.A/B-bundles (alleen art. 1:5 + 1:6 algemeen). Diepere details over erkenningsprocedure IVZW (KB), winstoogmerk-criterium (MvT art. 1:21) en stichting-administratiekantoor liggen op te halen bij een eigen non-profit-anchor (PO mogelijk separaat). Coverage huidige cluster is voldoende voor examen-niveau.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "geconstateerd_op": "2026-05-20T12:05:50.542286+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "tijdelijke-handelsvennootschap-thv",
+    "aspect": "bron-gap",
+    "reden": "CBN-advies 3/3 levert de boekhoudkundige methodologie (proportionele integratie / samengevoegde rekeningen) maar geen concreet THV-cijfervoorbeeld is in de bundle aanwezig. Voor minicursus en oefenmateriaal: een fictief THV-projectvoorbeeld met boekingsregels bij beide methodes is aanbeveling. Behoort bij toekomstige 'boekhoudkundige verwerking samenwerkingsvormen'-anchor.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "geconstateerd_op": "2026-05-20T12:05:50.542286+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "familiale-vennootschap",
+    "aspect": "bron-gap",
+    "reden": "Het record steunt op art. 60bis Brussels Successie + art. 140/1 Brussels Registratie. Vlaamse Codex Fiscaliteit (art. 2.7.4.2.2 e.v., art. 2.8.6.0.3) en Waals Wetboek der Registratie- en Successierechten zijn niet rechtstreeks in de bundle vertegenwoordigd. Bij PO 2.x (registratie/successie) verdient dit een diepere extract met regionale verschillen (tarieven 0/3/7 % per gewest).",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "geconstateerd_op": "2026-05-20T12:05:50.542286+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Kostenvereniging voor accountants/vrije beroepen (KB plichtenleer art. 21) — een vereniging of vennootschap voor het 'in gemeenschap brengen van kosten' tussen confraters of mixed beroepen. Past onder PO 1.5 (deontologie) of PO 3.0.II (samenwerkingsvormen vrije beroepen). Zichtbaar in 3.0.I.C-bundle (chunk #6), niet hier aangemaakt — niche en cross-PO.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "geconstateerd_op": "2026-05-20T12:05:50.542286+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Vereenvoudigde boekhouding-regime (CBN-advies 2019/11) — beschikbare rechtsvormen: natuurlijke personen, organisaties zonder rechtspersoonlijkheid, VOF, CommV. Dit is een **boekhoudtechnisch** regime, niet een vennootschapsvorm. Past onder PO 1.x (boekhoudplicht). Hier alleen als use-case voor 3.0.I.C (waarom een VOF/CommV kiezen): zichtbaar in 3.0.I.B chunk #14 en 3.0.I.C chunk #3.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.I-wave2-20260520T130000Z",
+    "geconstateerd_op": "2026-05-20T12:05:50.542286+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "bron-gap",
+    "reden": "WVV.md (resources/bronnen/wetteksten/WVV.md) mist artikelen 5:70, 5:76, 6:64, 6:65, 7:101 en 7:115. Deze worden wel impliciet via verwijzingen (art. 5:77, 7:117, 9:8, 11:8) gereconstrueerd. Inhoud van belangenconflict-bestuurder-bv-cv en details rond duaal-bestuurprocedure (raad-van-toezicht-comité) zijn daardoor gedeeltelijk inferred-from-aggregation in plaats van directly grounded. ETL-issue ETL-transformer WVV bookhoofdstuk 5 afd. 3 ('Bevoegdheid en werkwijze') en boek 7 NV-duaal-onderafdeling 'Bevoegdheden en werking'.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-wave2-3.0.II-2026-05-20T12:20:35Z",
+    "geconstateerd_op": "2026-05-20T12:20:35Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Het comité van drie onafhankelijke leden van de raad van toezicht (art. 7:116 § 3 + 7:117 § 2) dat genoteerde duaal-NV's moeten samenstellen voor verbonden-partijen-verrichtingen, heeft geen eigen record. Verbonden-partijen-procedure-genoteerd vermeldt het in passant. Bouwsteen of eigen record voor 'verbonden-partijen-comité-genoteerde-NV' kan zinvol zijn — vooral in de duaal-context.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-wave2-3.0.II-2026-05-20T12:20:35Z",
+    "geconstateerd_op": "2026-05-20T12:20:35Z",
+    "status": "open"
+  },
+  {
+    "record_id": "belangenconflict-bestuurder-bv-cv",
+    "aspect": "dangling-reference",
+    "reden": "Verwijzing naar art. 5:143 (BV-uitkering met liquiditeitstoets) als uitzondering op belangenconflict-procedure. Oordeel: bewust-uit-scope. Suggestie: bij PO 3.x-werk rond BV-uitkeringen een 'liquiditeitstoets-bv' of 'uitkering-bv' record overwegen waar art. 5:142-5:143 met de toets centraal staat. Voor wave 2 niet uitgewerkt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-wave2-3.0.II-2026-05-20T12:20:35Z",
+    "geconstateerd_op": "2026-05-20T12:20:35Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vertegenwoordiging-vennootschap-jegens-derden",
+    "aspect": "dangling-reference",
+    "reden": "De prokuratie of specifieke volmacht (lasthebber buiten het bestuursorgaan/dagelijks bestuur) wordt impliciet aangeroerd via art. 5:79 (BV dagelijks bestuur) en art. 2:18 (openbaarmaking). De algemene mandaatfiguur in het WVV — niet zijnde een bestuursfunctie maar wel een volmachtdrager die de vennootschap kan binden — heeft nog geen eigen record. Geen voldoende-vermeld-geen-record-gemaakt: onzeker of dit als apart begrip nodig is of binnen vertegenwoordiging blijft.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-wave2-3.0.II-2026-05-20T12:20:35Z",
+    "geconstateerd_op": "2026-05-20T12:20:35Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bevoegdheid-bestuursorgaan",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Wave-1 record `bevoegdheid-bestuursorgaan` (node_type=regel) heeft géén `main_rule` of `definitie`-veld; enkel `voorwaarden[]` en `valkuilen[]`. Een 'regel'-record zonder kerncontent is structureel incompleet. Voor wave 2 niet aangepast om bestaande inhoud niet te dupliceren met `bestuursorgaan`-cluster; overweeg in feedback-pass: ofwel `main_rule` (één-zin samenvatting van art. 5:73 §1 / 6:61 §1 / 7:93 §1) toevoegen, ofwel record samenvoegen met `bestuursorgaan`.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-wave2-3.0.II-2026-05-20T12:20:35Z",
+    "geconstateerd_op": "2026-05-20T12:20:35Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "bron-gap",
+    "reden": "Anchor 3.0.III.B vraagt expliciet naar de aanwezigheidstitel van een advocaat of gecertificeerd accountant op de algemene vergadering. WVV-Boeken 5–7 codificeren dit nergens; het wordt in praktijk afgeleid uit het algemeen beginsel van bijstand. Bundle-search op 'advocaat' / 'gecertificeerd accountant' / 'bijstand' / 'raadgever' leverde 0 treffers in 150-chunk-top van 3.0.III.B. Aanvullende bron nodig (typisch: rechtsleer, parlementaire vraag, of practice-note).",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T123509Z",
+    "geconstateerd_op": "2026-05-20T12:35:09.726337+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "vraagrecht-aandeelhouder",
+    "aspect": "dangling-reference",
+    "reden": "Edge 'verwijst-naar beroepsgeheim-bedrijfsrevisor' is gemaakt met target_status pending: WVV art. 5:70/7:126 verwijzen expliciet naar het beroepsgeheim van de commissaris (bedrijfsrevisor) als grondslag voor antwoordweigering, maar er bestaat geen record 'beroepsgeheim-bedrijfsrevisor'. Bestaande records: 'beroepsgeheim-accountant' (andere actor), 'commissaris' (autoriteit, niet op zijn beroepsgeheim gefocust). Mogelijk nieuwe record nodig of bouwsteen op 'commissaris'-cluster.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T123509Z",
+    "geconstateerd_op": "2026-05-20T12:35:09.726337+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Het concept 'bureau van de algemene vergadering' (samenstelling: voorzitter, stemopnemers, secretaris) is in de notulen-cluster opgenomen als bouwsteen maar verschijnt domein-onafhankelijk in alle vennootschapsvormen (BV/CV/NV/vzw) en in obligatiehouders-AV. Bestaansreden-test: heeft het bureau bestaansreden buiten de notulen-context? Argumenten voor eigen record: stemtelling-conflictbeheer, voorzitter-bevoegdheden, aanwezigheidslijst, samenstellingsregels. Granulariteit-twijfel: of als bouwsteen behouden op notulen-algemene-vergadering. Aanbeveling: voor nu bouwsteen; promoot indien wave 3 of latere PO's eigen verwijzingen naar 'bureau-algemene-vergadering' produceren.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T123509Z",
+    "geconstateerd_op": "2026-05-20T12:35:09.726337+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Algemene vergadering van obligatiehouders (WVV art. 7:154–7:161 en MvT art. 5:91/7:155) heeft een eigen procedureel regime (vertegenwoordigers, quorum bij wijziging uitgiftevoorwaarden) en kwam meerdere keren in bundle 3.0.III.A en .B voor (top chunks WVV__art_7_106..art_7_108, MvT__art_7_239..art_7_248). Geen eigen record. Komt waarschijnlijk thuis onder 3.0.IV of een eigen sub-anchor over obligaties — voor nu uit scope van wave 2 maar gesignaleerd.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T123509Z",
+    "geconstateerd_op": "2026-05-20T12:35:09.726337+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Het concept 'volmachtadviseur' (proxy advisor — ISS, Glass Lewis) is in volmacht-algemene-vergadering opgenomen als bouwsteen 'Transparantie volmachtadviseurs', maar WVV-onderafdeling 8 (art. 7:146–7:148) regelt een hele transparantieregeling: jaarverslag, gedragscodes, methodologie-publicatie, omgaan met belangenconflicten. Past mogelijk beter als eigen record 'volmachtadviseur' onder 3.0 of een corporate-governance-anchor.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T123509Z",
+    "geconstateerd_op": "2026-05-20T12:35:09.726337+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "alarmbelprocedure",
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Edge `getriggerd-door: continuiteitsbeginsel` (facet conditie: 'vaststelling van vermogensdaling onder drempel') geschreven met target_status=pending — record `continuiteitsbeginsel` ontbreekt nog. De alarmbel is een procedurele uitwerking van de algemene continuïteitsplicht (WVV art. 2:52); een eigen record voor het continuïteitsbeginsel zou de edge resolven.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T15:00Z",
+    "geconstateerd_op": "2026-05-20T12:48:59+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "quasi-inbreng-verslag",
+    "aspect": "records.ontbreekt",
+    "reden": "Belangenconflicten-regeling in de BV (WVV art. 5:76-5:78) verdient een eigen record. Vermeld als alternatief beschermingsmechanisme bij quasi-inbreng-BV (gap-vermelding in nieuwe bouwsteen 'BV en CV: geen quasi-inbreng-procedure'), maar de procedure-stappen, onthoudings- en notulen-verplichtingen, en bestuursverslag-vermelding zijn niet gestructureerd vastgelegd. Cluster.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T15:00Z",
+    "geconstateerd_op": "2026-05-20T12:48:59+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "quasi-inbreng-verslag",
+    "aspect": "granulariteit.beslissing-nodig",
+    "reden": "Vroeger record had inhoudelijke fout (zei dat WVV art. 5:8 BV ook quasi-inbreng-procedure regelt). Correctie aangebracht — bron-verificatie tegen WVV.md + MvT art. 5:7 toont dat de BV-regeling werd afgeschaft. Granulariteits-vraag: is dit nog steeds één record (NV-procedure + BV-niet-bestaan), of moeten we naar een algemene 'quasi-inbreng'-cluster met enkel een NV-specialisatie? Voor nu één record gehouden omdat het BV-niet-bestaan eerder een anti-confusion-noot is dan een eigen fenomeen.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T15:00Z",
+    "geconstateerd_op": "2026-05-20T12:48:59+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Geen apart record voor 'fundamental warranties' (titel aandelen, kapitaalstructuur, geldige oprichting) als categorie binnen R&W — momenteel als bouwsteen in representations-and-warranties vermeld (categorie 1 van vijf). Voor PO 3.0.V-detail mogelijk eigen sub-record waard, maar voorlopig voldoende gedekt via bouwsteen + valkuil 'fraude/titel-uitsluitingen' in indemnification-overname (geen cap). Bewust-uit-scope wave 2.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.V-wave2-helft2-2026-05-20",
+    "geconstateerd_op": "2026-05-20T13:05:16.163134+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Geen apart record voor 'tax indemnity' / 'fiscale specifieke vrijwaring' als regel (eigen cap, eigen termijn, geen de minimis, gekoppeld aan wettelijke fiscale onderzoekstermijn). IBA-MA-Belgium §5.2.6 + §4.2 (67% van overnames bevat tax indemnity). Momenteel als bouwsteen 'Specifieke vrijwaringen' in indemnification-overname gedekt, maar in fiscale praktijk dominant genoeg voor eigen record. Te overwegen wave 3 of in PO 4.x.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-3.0.V-wave2-helft2-2026-05-20",
+    "geconstateerd_op": "2026-05-20T13:05:16.163134+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Geen apart record voor 'warranty & indemnity insurance' (W&I-insurance) — buy-side vs sell-side, premium-range 0,7-1,5%, gangbare uitsluitingen (DD-bekende issues, fraude, milieuverontreiniging onder bestaande wet). Momenteel als bouwsteen in representations-and-warranties gedekt. In hedendaagse Belgische M&A-praktijk (zeker auctions) dominant genoeg voor eigen cluster-record. Beslissing: voorlopig bouwsteen-niveau handhaven, herevalueren bij PO 3.0-review.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.V-wave2-helft2-2026-05-20",
+    "geconstateerd_op": "2026-05-20T13:05:16.163134+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Geen apart record voor 'capital gains tax 16,5% — 12-maanden EU-houdtermijn' (IBA-MA-Belgium §5.2.9 laatste alinea) — clausule die de koper verplicht de aandelen niet aan een niet-EU-vennootschap over te dragen gedurende 12 maanden na closing om de 16,5% meerwaardebelasting op aandelen behorend tot belangrijke deelneming te vermijden. Bewust-uit-scope wave 2 (PO 4.x/fiscaal). Vermelding-niveau in overnameovereenkomst/asset-deal-versus-share-deal volstaat.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.V-wave2-helft2-2026-05-20",
+    "geconstateerd_op": "2026-05-20T13:05:16.163134+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "context-edge-ontbreekt",
+    "reden": "Edge tussen 'niet-afwervingsbeding-overname' (nieuw, wave 2) en 'confidentiality-overname' aanbevolen — beide zijn 'restrictive covenants' op verkoper post-closing en worden vaak in één hoofdstuk SPA gegroepeerd. Niet toegevoegd in deze pass; mogelijk-bewust-uit-scope.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-3.0.V-wave2-helft2-2026-05-20",
+    "geconstateerd_op": "2026-05-20T13:05:16.163134+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "voordrachtrecht-bestuurder",
+    "aspect": "bron-gap",
+    "reden": "Primaire wetsartikelen voor het voordrachtrecht ontbreken — het concept rust nu op IBA Minority 2022 + IBA SHA-Guide 2024 (doctrine) en op stemafspraak-art. 5:46/7:56 WVV. Belgische rechtspraak over de schijnkandidaat-doctrine (rechtsmisbruik) wordt door IBA aangehaald maar is niet als chunk beschikbaar. Aanvulling vereist concrete arrest-verwijzingen in resources/bronnen/rechtspraak/.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T18-30-00Z",
+    "geconstateerd_op": "2026-05-20T13:14:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "statutaire-uittreding-bv",
+    "aspect": "records.ontbreekt",
+    "reden": "Het BV-record dekt nu kort de CV-parallel (art. 6:120-6:124 WVV) in in_praktijk, maar een volwaardig record statutaire-uittreding-cv zou de regime-specialisatie-symmetrie sluiten (BV opt-in vs CV default). Bron-bundle VI.D bevat de relevante CV-art. 6:120/121/122-chunks. Buiten directe wave 2-scope (gericht op 3.0.VI sub-anchors), markeer voor latere wave.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T18-30-00Z",
+    "geconstateerd_op": "2026-05-20T13:14:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term 'goedkeuringsclausule' verschijnt veelvuldig in VI.B (IBA SHA-Guide §8; MvT art. 7:67) maar bestaat enkel als bouwsteen van overdrachtsbeperking-aandelen. Oordeel: voldoende-vermeld-geen-record-gemaakt — bouwsteen-status correct gezien bestaansreden-test (geen leven buiten parent-context). Eigen wetsartikel maar dubbel behandeld in art. 5:67 en 7:78 — niet evident genoeg voor eigen record. Status open: bij examen-gap mogelijk later splitsen.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T18-30-00Z",
+    "geconstateerd_op": "2026-05-20T13:14:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term 'aandelenklassen / classes of shares' verschijnt prominent in VI.C-bundle (IBA SHA-Guide §14-15, IBA Minority 2022) als hoeksteen voor minderheidsbescherming en bestuursvertegenwoordiging. Bestaat geen eigen record. Vermoedelijk overlap met meervoudig-stemrecht + voordrachtrecht-bestuurder + WVV-soortvorming uit Boek 5/7. Suggestie: in latere wave een cluster aandelenklassen opzetten met soortvorming, klasse-vergadering, bijzondere meerderheid en klasse-gebonden rechten.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T18-30-00Z",
+    "geconstateerd_op": "2026-05-20T13:14:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term 'verhoogde meerderheid / bijzondere meerderheid in raad van bestuur' (IBA Minority 2022 §Bijzondere meerderheid) wordt vermeld als contractuele bescherming voor minderheidsaandeelhouders, maar geen eigen record. Oordeel: voldoende-vermeld-geen-record-gemaakt — kan als bouwsteen in aandeelhoudersovereenkomst worden opgenomen in latere touch.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T18-30-00Z",
+    "geconstateerd_op": "2026-05-20T13:14:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "aansprakelijkheidsperiode-bestuurder",
+    "aspect": "bron-gap",
+    "reden": "Tegenstelbaarheid van ontslag bestuurder jegens derden (WVV art. 2:18 — bekendmaking in Belgisch Staatsblad als algemeen tegenstelbaarheidsregime) is in 3.0.VII.B-bundle (top-150) niet als directe chunk aanwezig. Het uitzondering-item in het record (inferred) verwijst hiernaar als breed gekend leerstuk; bij volgende re-extract met bredere WVV art 2:8-2:18-bundle kan dit grounded gemaakt worden of als bouwsteen worden uitgebouwd.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T13:24:50Z",
+    "geconstateerd_op": "2026-05-20T13:24:50Z",
+    "status": "open"
+  },
+  {
+    "record_id": "kwijting-bestuurder",
+    "aspect": "records.ontbreekt",
+    "reden": "Detail-gap: 'gecoöpteerde bestuurder' wordt in CBN-2020/09 expliciet behandeld als specifieke aanstellingsvorm (raad coöpteert tussentijds, AV bevestigt later). Geen eigen record; deels gedekt als bouwsteen-aspect in aansprakelijkheidsperiode-bestuurder. Kandidaat voor eigen begrip-record 'cooptatie-bestuurder' indien meerdere records er naar gaan verwijzen. Voor nu: voldoende-vermeld-geen-record-gemaakt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T13:24:50Z",
+    "geconstateerd_op": "2026-05-20T13:24:50Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "dangling-reference",
+    "reden": "Term 'directieraad' / 'raad van toezicht' (duaal bestuursmodel NV, WVV art. 7:104 e.v.) komt op meerdere plekken voor in 3.0.VII-bundles maar heeft geen eigen record. Voor aansprakelijkheidsregels gelijkgeschakeld met klassiek bestuur (zie hub-valkuil). Bestuursmodel-vennootschap dekt dit vermoedelijk als bouwsteen — bij volgende verify pass na te kijken. Oordeel: voldoende-vermeld-geen-record-gemaakt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T13:24:50Z",
+    "geconstateerd_op": "2026-05-20T13:24:50Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "scope-afgrenzing",
+    "reden": "3.0.VIII.B (bewijswaarde e-mails, vergaderingen op afstand, opgenomen telefoongesprekken) — bewust niet uitgewerkt als eigen record. Bundle (17 chunks) is heel klein en de materie is algemeen bewijsrecht (Oud BW art. 8.x, art. 1316 BW), niet vennootschapsspecifiek. Bij examenvraag-confrontatie eventueel overwegen als kort bouwsteen in `bewijsmiddelen-burgerlijke-procedure` (PO 4.0 of cross-PO).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T15-30-00Z",
+    "geconstateerd_op": "2026-05-20T13:35:19Z",
+    "anchor_id": "3.0.VIII.B"
+  },
+  {
+    "record_id": "accountantsrol-bij-vennootschapsconflict",
+    "aspect": "concretisering.tuchtrechtspraak",
+    "reden": "Tuchtbeslissingen ITAA over neutraliteit-schending bij vennootschapsconflict zijn niet in de bundle gevonden — sterk argument zou zijn een geconcretiseerde casus met tucht-uitspraak (ITAA-tuchtraad). Voorlopig is in_praktijk grounded op IESBA + KB 1998 + ITAA-norm-opdrachtbrief; rechtspraak-laag ontbreekt.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T15-30-00Z",
+    "geconstateerd_op": "2026-05-20T13:35:19Z",
+    "anchor_id": "3.0.VIII.A"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.overwegen",
+    "reden": "Eventueel apart record `geschillenregeling-opdrachtbrief` (ITAA-norm-opdrachtbrief §9) — arbitrage/bemiddelingsclausule, forumkeuze. Nu opgenomen als bouwsteen in `accountantsrol-bij-vennootschapsconflict.in_praktijk[1]` en cross-link naar `opdrachtbrief-accountant`. Apart record alleen nuttig als examenvraag zou inzoomen op de modaliteiten — tot dan niet bouwen.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T15-30-00Z",
+    "geconstateerd_op": "2026-05-20T13:35:19Z",
+    "anchor_id": "3.0.VIII.A"
+  },
+  {
+    "record_id": null,
+    "aspect": "bron-gap",
+    "reden": "Sub-anchor 3.0.X.C 'Ondernemingsbemiddelaar' verwijst naar de figuur uit Boek XX WER Titel II Afdeling 3 'Ondernemingsbemiddeling'. Sinds wet 2023-06-07/07 (in werking 2023-09-01) zijn alle artikelen XX.36 e.v. die deze figuur regelden OPGEHEVEN. De ondernemingsbemiddelaar bestaat niet meer als aparte procedurele actor in Boek XX. Bundle-retrieval pulled enkel 'minnelijke schuldbemiddelaar' (Boek XIX consumentenschulden — buiten scope PO 3.0) en intermediair-definities uit fiscale wetboeken (irrelevant). Aanbeveling: anchor-tekst herzien of bevestigen dat 'ondernemingsbemiddelaar' verwijst naar (a) de herstructureringsdeskundige (XX.30-XX.35) als opvolger-figuur, OF (b) de minnelijke akkoord-context (XX.37 minnelijk akkoord buiten gerechtelijke reorganisatie). Geen record aangemaakt onder de oude naam omdat hij dood is.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T13:30:00Z",
+    "geconstateerd_op": "2026-05-20T13:58:04.815341Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Herstructureringsdeskundige (WER art. XX.30-XX.35) is de gerechtsmandataris die de voorzitter van de rechtbank aanstelt bij dreigende onbestuurbaarheid of kennelijke tekortkomingen van het bestuur, BUITEN een lopende gerechtelijke reorganisatie. Hij heeft een conservatoire functie (continuiteit vrijwaren). Verdient eigen record als specialisatie van insolventiefunctionaris — onderscheidt zich van curator (komt pas bij faillissement), vereffeningsdeskundige (komt pas bij overdracht onder gerechtelijk gezag) en gerechtelijk bewindvoerder (komt bij beheersontneming XX.32). Voorgesteld als wave 2 helft 2-onderwerp of vervolg-batch.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T13:30:00Z",
+    "geconstateerd_op": "2026-05-20T13:58:04.815341Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Gerechtelijk bewindvoerder (WER art. XX.32) is de figuur die aangewezen wordt wanneer een rechtbank het beheer aan een bestuursorgaan ontneemt wegens kennelijke tekortkomingen. Belangrijke variant van insolventiefunctionaris voor de stagiair, omdat hij vaak optreedt vóór een eventueel faillissement. Voorgesteld als records.ontbreekt voor wave 2 helft 2-batch.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T13:30:00Z",
+    "geconstateerd_op": "2026-05-20T13:58:04.815341Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Vereffeningsdeskundige (WER art. XX.85, XX.94) is de gerechtsmandataris bij overdracht onder gerechtelijk gezag binnen een gerechtelijke reorganisatie. Onderscheidt zich van curator (faillissement) en vereffenaar (vereffening na ontbinding WVV). Verdient eigen record naast curator-faillissement; behandeld in PO 3.0.X.E/F-batch (overdracht onder gerechtelijk gezag).",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T13:30:00Z",
+    "geconstateerd_op": "2026-05-20T13:58:04.815341Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Centraal register van de economische knipperlichten (WER art. XX.21 § 2) is de aparte databank — los van Regsol — waar verstekvonnissen, RSZ-, btw- en bedrijfsvoorheffing-achterstanden, ontbonden handelshuren etc. worden opgenomen voor opsporing dreigende insolventie. Federale Overheidsdienst Justitie is verwerkingsverantwoordelijke. Verschilt structureel van het 'register' XX.15 (procedureregister, Regsol). Mogelijk wenselijk als eigen begrip-record om verwarring met Regsol te voorkomen (geflagd als valkuil in regsol-platform). Voorlopig onder vroegtijdige-waarschuwing-insolventie ingebed.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T13:30:00Z",
+    "geconstateerd_op": "2026-05-20T13:58:04.815341Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Gerechtelijk bewindvoerder (WER art. XX.31) — voorlopige maatregel waarbij de voorzitter van de ondernemingsrechtbank het bestuur van een onderneming gedeeltelijk of geheel overneemt door een aangestelde gerechtsmandataris. Verschilt van de herstructureringsdeskundige (geen bestuursvervanging) en van de curator (alleen na faillissement). Insolventiefunctionaris heeft 'gerechtelijk-bewindvoerder' al in zijn definitie maar er bestaat geen eigen record. Edge 'onderdeel-van: insolventiefunctionaris' verwacht.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T14:10:12Z",
+    "geconstateerd_op": "2026-05-20T14:10:12Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Reorganisatieplan (WER art. XX.67-XX.83) — het inhoudelijke document dat door de schuldenaar wordt opgesteld in een gerechtelijke reorganisatie door collectief akkoord, met de schuldverminderingen, klassen-indeling, betalingstermijnen en uitvoeringsmodaliteiten. Centraal begrip in zowel art. XX.67 (KMO), art. XX.83/3-XX.83/4 (grote ondernemingen) en de besloten procedure. Wordt nu vermeld in gerechtelijke-reorganisatie en homologatie-collectief-akkoord maar bestaat niet als eigen record. Granulariteit-overweging: kan als bouwsteen blijven binnen gerechtelijke-reorganisatie, maar gezien de eigen wetsstructuur (≥6 artikelen specifiek) en cross-referenties verdient hij vermoedelijk eigen record.",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T14:10:12Z",
+    "geconstateerd_op": "2026-05-20T14:10:12Z",
+    "status": "open"
+  },
+  {
+    "record_id": "rehabilitatie-gefailleerde",
+    "aspect": "dangling-reference",
+    "reden": "Het record verwijst naar 'strafrechtelijk eerherstel' (Wetboek van Strafvordering art. 621-634) als parallel-regime. Strafrechtelijk eerherstel is geen accountancy-kernconcept maar wordt wel vermeld als contrast. Beoordeling: voldoende-vermeld-geen-record-gemaakt — geen apart record nodig in deze kennisbank.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T14:10:12Z",
+    "geconstateerd_op": "2026-05-20T14:10:12Z",
+    "status": "open"
+  },
+  {
+    "record_id": "beroepsverbod-na-insolventie",
+    "aspect": "dangling-reference",
+    "reden": "Verwijst naar 'aansprakelijkheid op grond van art. 442bis WIB92 / 93undecies BTW-Wetboek' (fiscale aansprakelijkheid bij overdracht). Deze fiscale-overdracht-aansprakelijkheidsregimes zijn relevant voor PO 2.x (fiscaliteit), niet voor PO 3.0. Beoordeling: bewust-uit-scope.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T14:10:12Z",
+    "geconstateerd_op": "2026-05-20T14:10:12Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "reden": "Minnelijk akkoord (buitengerechtelijk, WER art. XX.64) — een privaat akkoord met één of meer schuldeisers buiten elke gerechtelijke procedure om, met optionele homologatie achteraf. Onderscheid met (a) besloten gerechtelijke reorganisatie door minnelijk akkoord (art. XX.83/29-XX.83/30) en (b) homologatie-collectief-akkoord. Wordt vermeld in homologatie-collectief-akkoord en in herstructureringsdeskundige maar bestaat niet als eigen record. Vermoedelijk eigen record verdienend (eigen wetsbepaling, eigen procedure, eigen verschoningsregime).",
+    "prio": "midden",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-20T14:10:12Z",
+    "geconstateerd_op": "2026-05-20T14:10:12Z",
+    "status": "open"
+  },
+  {
+    "record_id": "alternatieve-geschilbeslechting-vennootschap",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "asset-deal-versus-share-deal",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "belangenconflict-bestuurder-bv-cv",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "belangenconflict-bestuurder-vzw-stichting",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "beslisboom-remedie-vennootschapsconflict",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bestuur-bv-cv-werkwijze",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "closing-condities-precedent",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "confidentiality-overname",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "deadlock-vennootschap",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "deskundigenonderzoek-vennootschap",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "due-diligence-overname",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "escrow-en-zekerheidsmechanismen-overname",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "gegronde-redenen-vennootschapsgeschil",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "indemnification-overname",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "letter-of-intent-overname",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "material-adverse-change-clausule",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "minderheidsvordering",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "misbruik-van-meerderheid",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "misbruik-van-minderheid",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "niet-afwervingsbeding-overname",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "nietigverklaring-algemene-vergaderingsbesluit",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "non-compete-overname",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "overnameovereenkomst",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "precontractuele-aansprakelijkheid-overname",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "purchase-price-mechanismen",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "rechtspersoon-bestuurder-vaste-vertegenwoordiger",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "representations-and-warranties",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "statutaire-uittreding-bv",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "transfer-bedrijfstak-algemeenheid",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "uitsluitingsvordering",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "uittredingsvordering",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vennootschapsconflict",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vennootschapsvordering",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vergelijking-vorderingen-vennootschapsconflict",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "wettige-redenen-ontbinding",
+    "aspect": "schema.versie-oud",
+    "categorie": "C",
+    "reden": "Record mist schema_version. Per ADR-007 schema 1.5/1.6 vereist (één van \"1.5\" of \"1.6\"). Mechanische backfill nodig.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "categorie": "A",
+    "reden": "individueel-controlerecht-aandeelhouder mist als record. Vraag 2013-2-vr20 (8pt, rel=100) toetst dit recht voor 15%-aandeelhouder (WVV art. 3:101). Geen record met \"controlerecht\" of \"individueel-controle\" in scope.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "categorie": "A",
+    "reden": "omzetting-vennootschap ontbreekt als overkoepelend cluster/regel. Vier vragen (2013-2-vr19, 2014-1-vr20, 2014-1-vr21, 2015-1-vr27) — samen 61 punten — toetsen omzettings­procedure WVV Boek 14. Alleen competentie opstellen-verslag-omzetting-vennootschap bestaat.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "categorie": "A",
+    "reden": "confirmatiebrieven (in context omzettings­verslag) mist als record. Vraag 2015-1-vr27 (9pt, rel=100) noemt dit expliciet als thema. Geen \"confirmatie\"-record in scope.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "categorie": "A",
+    "reden": "inbreng-in-natura als specifieke regel ontbreekt. Vraag 2003-bibf-vrI2 (11pt) toetst inbreng-natura bij omzetting eenmanszaak→BVBA (gebouw + materieel). Alleen het algemene begrip inbreng-vennootschap bestaat; specifieke WVV-eisen (bedrijfsrevisor-verslag, oprichtersaansprakelijkheid, KB-art. 5:8/7:7) ontbreken.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "categorie": "A",
+    "reden": "registratierechten-inbreng-onroerend-goed mist. Vraag 2003-bibf-vrI2 toetst registratierechten op inbreng gebouw als woning. Cross-PO met 2.x, maar vennootschapsrechtelijk-fiscaal aspect blijft 3.0-relevant.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "records.ontbreekt",
+    "categorie": "A",
+    "reden": "jaarrekening-vennootschap ontbreekt als concept (0 records met \"jaar\"/\"rekening\" in id). Niet direct gevraagd in 45-set maar structurele gap voor minicursus-haalbaarheid.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "insolventiefunctionaris",
+    "aspect": "edges.target-ontbreekt",
+    "categorie": "F",
+    "reden": "Edge type \"vereist-kennis-van\" verwijst naar niet-bestaand record \"vereffeningsdeskundige\". Ofwel target-record aanmaken, ofwel edge corrigeren (bv. \"uitkeringstest-bv\" → \"liquiditeitstest-bv\" bestaat).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "aandeelhoudersovereenkomst",
+    "aspect": "edges.target-ontbreekt",
+    "categorie": "F",
+    "reden": "Edge type \"vergelijkt-met\" verwijst naar niet-bestaand record \"statuten-vennootschap\". Ofwel target-record aanmaken, ofwel edge corrigeren (bv. \"uitkeringstest-bv\" → \"liquiditeitstest-bv\" bestaat).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "statutaire-uittreding-bv",
+    "aspect": "edges.target-ontbreekt",
+    "categorie": "F",
+    "reden": "Edge type \"vereist-kennis-van\" verwijst naar niet-bestaand record \"uitkeringstest-bv\". Ofwel target-record aanmaken, ofwel edge corrigeren (bv. \"uitkeringstest-bv\" → \"liquiditeitstest-bv\" bestaat).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vraagrecht-aandeelhouder",
+    "aspect": "edges.target-ontbreekt",
+    "categorie": "F",
+    "reden": "Edge type \"verwijst-naar\" verwijst naar niet-bestaand record \"beroepsgeheim-bedrijfsrevisor\". Ofwel target-record aanmaken, ofwel edge corrigeren (bv. \"uitkeringstest-bv\" → \"liquiditeitstest-bv\" bestaat).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "meldingsplicht-accountant-continuiteit",
+    "aspect": "edges.target-ontbreekt",
+    "categorie": "F",
+    "reden": "Edge type \"uitzondering-op\" verwijst naar niet-bestaand record \"beroepsgeheim\". Ofwel target-record aanmaken, ofwel edge corrigeren (bv. \"uitkeringstest-bv\" → \"liquiditeitstest-bv\" bestaat).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "overdracht-onder-gerechtelijk-gezag",
+    "aspect": "edges.target-ontbreekt",
+    "categorie": "F",
+    "reden": "Edge type \"vereist-kennis-van\" verwijst naar niet-bestaand record \"vereffeningsdeskundige\". Ofwel target-record aanmaken, ofwel edge corrigeren (bv. \"uitkeringstest-bv\" → \"liquiditeitstest-bv\" bestaat).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "opstellen-verslag-omzetting-vennootschap",
+    "aspect": "wikilink.target-ontbreekt",
+    "categorie": "F",
+    "reden": "Wikilink [[oprichting-vennootschap]] in tekstvelden verwijst naar niet-bestaand record. Mogelijk bedoeld: oprichtingsproces-stappenplan of voorbereiden-oprichtingsakte.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vennoot-vs-aandeelhouder",
+    "aspect": "naam.multi-concept",
+    "categorie": "D",
+    "reden": "Record-naam \"Vennoot versus aandeelhouder\" is expliciet een vergelijking maar node_type=begrip. Per ADR-007 schema 1.5 hoort vergelijking → node_type=synthese met vergelijkingsparen-veld.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vereniging-en-stichting",
+    "aspect": "naam.multi-concept",
+    "categorie": "D",
+    "reden": "Cluster \"Verenigingen en stichtingen (VZW, IVZW, stichting)\" bundelt twee verschillende rechtsvormen. Vereniging (Boek 9) en stichting (Boek 11) zijn conceptueel onderscheiden. Splits-kandidaat in vereniging-vzw-ivzw + stichting.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "signaleren-risicos-overdracht-of-ontbinding",
+    "aspect": "naam.multi-concept",
+    "categorie": "D",
+    "reden": "Competentie bundelt twee verschillende taken (risicoanalyse bij overdracht én bij ontbinding). Splits-kandidaat in twee competenties met eigen bouwstenen.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "opstellen-verslag-ontbinding-vereffening-staat",
+    "aspect": "naam.multi-concept",
+    "categorie": "D",
+    "reden": "Competentie-naam bevat lange of-keten \"ontbinding of ontbinding-en-sluiting-in-één-akte\". Of herformuleer korter (\"verslag bij vrijwillige ontbinding\"), of splits in twee competenties (klassiek vs één-akte).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "escrow-en-zekerheidsmechanismen-overname",
+    "aspect": "naam.multi-concept",
+    "categorie": "D",
+    "reden": "Cluster-naam suggereert \"escrow\" als eigen onderwerp naast \"zekerheidsmechanismen\". Cluster mag overkoepelend zijn, maar overweeg rename naar zekerheidsmechanismen-overname (escrow als specialisatie).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "quorum-en-meerderheid-statutenwijziging",
+    "aspect": "reflectieve-rijkheid-tekort",
+    "categorie": "E",
+    "reden": "Record-naam OK (geijkte WVV-combo). Maar definitie-veld bleek leeg bij sample-check. Sanity-check op inhoud + voorbeeld toevoegen.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "oprichtingsproces-stappenplan",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Procedure/beslisboom-record zonder mermaid-diagram. Onderwerp leent zich natuurlijk voor flowchart-illustratie; illustraties[]-veld leeg.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "vereffeningsprocedure-klassiek",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Procedure/beslisboom-record zonder mermaid-diagram. Onderwerp leent zich natuurlijk voor flowchart-illustratie; illustraties[]-veld leeg.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "insolventietriage-beslisboom",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Procedure/beslisboom-record zonder mermaid-diagram. Onderwerp leent zich natuurlijk voor flowchart-illustratie; illustraties[]-veld leeg.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "beslisboom-remedie-vennootschapsconflict",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Procedure/beslisboom-record zonder mermaid-diagram. Onderwerp leent zich natuurlijk voor flowchart-illustratie; illustraties[]-veld leeg.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "klassieke-versus-een-akte-vereffening",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Procedure/beslisboom-record zonder mermaid-diagram. Onderwerp leent zich natuurlijk voor flowchart-illustratie; illustraties[]-veld leeg.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "alarmbelprocedure",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Procedure/beslisboom-record zonder mermaid-diagram. Onderwerp leent zich natuurlijk voor flowchart-illustratie; illustraties[]-veld leeg.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "liquidatiebonus",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Boekhoudkundige/financiële verwerking-record zonder boeking-illustratie. illustraties[]-veld leeg terwijl debet/credit-voorbeeld natuurlijk past.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "inkoop-eigen-aandelen-bv",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Boekhoudkundige/financiële verwerking-record zonder boeking-illustratie. illustraties[]-veld leeg terwijl debet/credit-voorbeeld natuurlijk past.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "inkoop-eigen-aandelen-nv",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Boekhoudkundige/financiële verwerking-record zonder boeking-illustratie. illustraties[]-veld leeg terwijl debet/credit-voorbeeld natuurlijk past.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "kapitaalvermindering-nv",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Boekhoudkundige/financiële verwerking-record zonder boeking-illustratie. illustraties[]-veld leeg terwijl debet/credit-voorbeeld natuurlijk past.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "kapitaalverhoging-bv",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Boekhoudkundige/financiële verwerking-record zonder boeking-illustratie. illustraties[]-veld leeg terwijl debet/credit-voorbeeld natuurlijk past.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "kapitaalverhoging-nv",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Boekhoudkundige/financiële verwerking-record zonder boeking-illustratie. illustraties[]-veld leeg terwijl debet/credit-voorbeeld natuurlijk past.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "interimdividend",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Boekhoudkundige/financiële verwerking-record zonder boeking-illustratie. illustraties[]-veld leeg terwijl debet/credit-voorbeeld natuurlijk past.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "quasi-inbreng-verslag",
+    "aspect": "rijkheid.illustratie-ontbreekt",
+    "categorie": "E",
+    "reden": "Boekhoudkundige/financiële verwerking-record zonder boeking-illustratie. illustraties[]-veld leeg terwijl debet/credit-voorbeeld natuurlijk past.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "rijkheid.ongelijk-binnen-type",
+    "categorie": "B",
+    "reden": "Syntheses in PO 3.0 (n=22) hebben 82% leeg in_praktijk, 82% leeg voorbeelden, 91% leeg valkuilen. Patroon: tabellen zonder reflectieve duiding. Verifieer of dit per synthese acceptabel is of dat een gerichte enrich-pas nodig is.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "feitelijk-bestuurder",
+    "aspect": "context-edge-ontbreekt",
+    "categorie": "F",
+    "reden": "Begrip feitelijk-bestuurder heeft 0 inbound edges + 0 wikilinks vanuit andere PO 3.0-records. Verwacht: bestuursorgaan en/of bestuurdersaansprakelijkheid linken naar feitelijk-bestuurder via specialisatie-van of vereist-kennis-van.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "bestuurdersaansprakelijkheidsverzekering",
+    "aspect": "context-edge-ontbreekt",
+    "categorie": "F",
+    "reden": "Begrip met 0 inbound. Verwacht: bestuurdersaansprakelijkheid (hub) linkt hiernaar via vereist-kennis-van of onderdeel-van.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "deadlock-vennootschap",
+    "aspect": "context-edge-ontbreekt",
+    "categorie": "F",
+    "reden": "Begrip met 0 inbound. Verwacht: vennootschapsconflict (hub) linkt naar deadlock-vennootschap als specifieke situatie/oorzaak.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "doorbraak-aansprakelijkheid",
+    "aspect": "context-edge-ontbreekt",
+    "categorie": "F",
+    "reden": "Begrip met 0 inbound. Verwacht: bestuurdersaansprakelijkheid linkt hiernaar als specialisatie.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "familiale-vennootschap",
+    "aspect": "context-edge-ontbreekt",
+    "categorie": "F",
+    "reden": "Begrip met 0 inbound. Mogelijk: vennootschapsvormen-typologie of vennootschapsvormen-vergelijking linkt hiernaar.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "nijverheidsinbreng",
+    "aspect": "context-edge-ontbreekt",
+    "categorie": "F",
+    "reden": "Begrip met 0 inbound. Verwacht: inbreng-vennootschap (hub) linkt hiernaar als specialisatie-van inbreng-type.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "interimdividend",
+    "aspect": "context-edge-ontbreekt",
+    "categorie": "F",
+    "reden": "Regel met 0 inbound. Verwacht: link vanuit dividenduitkering-bv of liquiditeitstest-bv.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
+  },
+  {
+    "record_id": "voordrachtrecht-bestuurder",
+    "aspect": "context-edge-ontbreekt",
+    "categorie": "F",
+    "reden": "Regel met 0 inbound. Verwacht: link vanuit benoeming-bestuurder of bestuursorgaan.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-v2-run-po-3.0-2026-05-20",
+    "geconstateerd_op": "2026-05-20T14:22:29Z",
+    "status": "open"
   }
 ]

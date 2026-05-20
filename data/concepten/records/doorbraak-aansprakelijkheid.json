@@ -1,0 +1,84 @@
+{
+  "id": "doorbraak-aansprakelijkheid",
+  "naam": "Doorbraak van aansprakelijkheid",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.I",
+    "3.0.VII",
+    "3.0.VII.A"
+  ],
+  "naam_alternatief": "piercing the corporate veil",
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T13:24:10Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VII",
+    "linked_anchors": [
+      "3.0.VII"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "**Doorbraak van aansprakelijkheid** is de **uitzonderlijke** rechtsfiguur waarbij de rechter het beginsel van **beperkte aansprakelijkheid** van aandeelhouders/vennoten doorbreekt en hen persoonlijk laat opdraaien voor de schulden van de vennootschap. De Belgische rechtspraak past dit terughoudend toe: alleen bij **misbruik van rechtspersoonlijkheid** (bedrog jegens derden, vermenging van vermogens, ondernemen via een lege vennootschap met als enig doel aansprakelijkheidsafscherming, ...).",
+    "confidence": "inferred",
+    "source": {
+      "type": "doctrine",
+      "short": "Cassatierechtspraak — geen specifieke wettekst"
+    }
+  },
+  "situering": {
+    "text": "De **beperkte aansprakelijkheid** is een hoeksteen van het vennootschapsrecht (zie `beperkte-aansprakelijkheid-vennoot`). Doorbraak is de **veiligheidsklep** voor uitzonderlijke gevallen waarin het rechtspersoonlijkheidsregime tot manifeste onbillijkheid leidt. Wordt onderscheiden van het **feitelijk bestuurschap**: feitelijk bestuurschap kwalificeert iemand als bestuurder, doorbraak hef het schild van de **aandeelhouder** op.",
+    "confidence": "inferred"
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Typische gronden in de Belgische rechtspraak",
+      "betekenis": "(a) **Vermenging van vermogens** tussen aandeelhouder en vennootschap (privé-rekeningen via vennootschapsbankrekening, geen scheiding boekhouding); (b) **fraudemontage** waarbij de vennootschap wordt opgezet om welbepaalde schuldeisers te ontwijken; (c) **ernstige onderkapitalisatie** in combinatie met een operationele structuur die enkel via persoonlijk vermogen van de aandeelhouder draaiende kan worden gehouden.",
+      "confidence": "inferred"
+    },
+    {
+      "aspect": "Verhouding tot specifieke wettelijke uitzonderingen",
+      "betekenis": "De wetgever heeft op meerdere plaatsen 'wettelijke doorbraken' uitdrukkelijk geregeld — bv. de oprichtersaansprakelijkheid bij kennelijk ontoereikend aanvangsvermogen (art. 5:16 WVV), de XX.226-aansprakelijkheid voor sociale schulden. In de praktijk vangen die wettelijke regimes de **gebruikelijke** gevallen op; buiten-wettelijke doorbraak blijft een **restcategorie** voor wat niet door een specifiek artikel wordt gedekt.",
+      "confidence": "inferred"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "**Pieter Vermeulen** is enige aandeelhouder van **Brugse Brouwerij BV**. De BV heeft een eigen vermogen van € 1.000, terwijl Pieter de bedrijfsactiva persoonlijk huurt aan de BV voor symbolische bedragen en de bedrijfswagen op naam van de BV tankt voor privégebruik. Bij faillissement vordert een leverancier doorbraak: hij beargumenteert dat het vermogen vermengd is en dat Brugse Brouwerij BV slechts een 'cassette' was om Pieter persoonlijk te beschermen.",
+      "cast": [
+        "Pieter Vermeulen",
+        "Brugse Brouwerij BV"
+      ],
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Doorbraak is **uitzonderlijk** — de Belgische rechter blijft zeer terughoudend. Verwijs cliënten in eerste instantie naar de **wettelijke regimes** (XX.225-XX.227, 5:144 e.a.) en houd doorbraak in reserve voor échte fraude-/vermenging-cases.",
+      "vaak_fout": "Doorbraak voorstellen als gewone verhaalsoptie bij faillissement.",
+      "confidence": "inferred"
+    },
+    {
+      "advies": "Verwar doorbraak (aandeelhouder verliest zijn schild) **niet** met feitelijk bestuurschap (aandeelhouder wordt gelijkgesteld met bestuurder voor aansprakelijkheidsregels) en niet met **borgstelling** (aandeelhouder heeft zich persoonlijk verbonden via een afzonderlijke overeenkomst).",
+      "vaak_fout": "Drie afzonderlijke leerstukken vereenvoudigen tot 'de aandeelhouder is aansprakelijk'.",
+      "confidence": "inferred"
+    }
+  ],
+  "edges": [
+    {
+      "type": "uitzondering-op",
+      "target_id": "beperkte-aansprakelijkheid-vennoot"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target_id": "feitelijk-bestuurder",
+      "aspect": "Beide doorbreken de afscherming; doorbraak treft aandeelhouder, feitelijk bestuurschap treft de stille leider"
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "bestuurdersaansprakelijkheid"
+    }
+  ]
+}

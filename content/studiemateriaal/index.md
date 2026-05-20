@@ -1,6 +1,6 @@
 ---
 title: "Studiemateriaal"
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-20'
 ---
 
 # Studiemateriaal
@@ -15,6 +15,7 @@ gegenereerd_op: '2026-05-17'
 - [[studiemateriaal/1-6-externe-controle-bedrijfsrevisor-gecertificeerd|1.6 Externe controle]]
 - [[studiemateriaal/1-7-interne-controle|1.7 Interne controle]]
 - [[studiemateriaal/1-8-analytische-boekhouding|1.8 Analytische boekhouding en management accounting]]
-- [[studiemateriaal/1-9-financiele-analyse-bekwaamheid|1.9 Financiële analyse en fundamentele principes van financieel bedrijfsbeheer]]
+- [[studiemateriaal/1-9-financiele-analyse|1.9 Financiële analyse en fundamentele principes van financieel bedrijfsbeheer]]
+- [[studiemateriaal/3-0-vennootschapsrecht|3.0 Vennootschaps- en verenigingsrecht en insolventiewetgeving]]
 
 </div>

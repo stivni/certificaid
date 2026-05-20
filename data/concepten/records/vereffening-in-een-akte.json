@@ -1,0 +1,201 @@
+{
+  "id": "vereffening-in-een-akte",
+  "naam": "Vereffening in één akte",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IX",
+    "3.0.IX.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:25:58Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IX",
+    "linked_anchors": [
+      "3.0.IX"
+    ],
+    "reviewed_by": null
+  },
+  "naam_alternatief": "turbo-vereffening",
+  "main_rule": "Overeenkomstig **art. 2:80 WVV** kunnen de ontbinding en de sluiting van de vereffening in **één notariële akte** worden samengebracht, mits drie strikte voorwaarden cumulatief zijn vervuld: (1) geen vereffenaar wordt benoemd, (2) alle schulden zijn betaald of de nodige gelden zijn geconsigneerd, en (3) alle aandeelhouders zijn aanwezig of vertegenwoordigd op de AV en hebben schriftelijk ingestemd met de procedure.",
+  "situering": {
+    "text": "De vereffening in één akte — in de praktijk vaak 'turbo-vereffening' genoemd — wordt aangewend wanneer een vennootschap aan het einde van haar levensloop **geen externe schuldeisers meer heeft** en de aandeelhouders snel en goedkoop uit het rechtsverkeer willen. Het ontbreken van een vereffenaar én van een vereffeningsfase betekent dat de **klassieke verslagcyclus** (omstandige staten, jaarrekening in vereffening, cijfermatig verslag) ontvalt. Eén accountantsverslag op de staat van activa en passiva volstaat.",
+    "confidence": "grounded",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2022-06__sec_situering-procedure",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-06__sec_toepassingsvoorwaarden",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "text": "**Geen vereffenaar wordt benoemd.** Aangezien er geen vereffeningsfase is, is een vereffenaar overbodig — de vennootschap verdwijnt onmiddellijk.",
+      "grondslag": "WVV art. 2:80, eerste lid, 1°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_80",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-06__sec_toepassingsvoorwaarden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Alle schulden** ten aanzien van aandeelhouders, vennoten of derden, zoals vermeld in de **staat van activa en passiva** bedoeld in art. 2:71 § 2 WVV, zijn terugbetaald of de nodige gelden zijn geconsigneerd. Het verslag van de beroepsbeoefenaar bevestigt expliciet dat hieraan is voldaan.",
+      "grondslag": "WVV art. 2:80, eerste lid, 2°; ITAA-norm bijlage 3",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_80",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_specifieke-opmerkingen",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-06__sec_toepassingsvoorwaarden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Schriftelijk akkoord** van alle aandeelhouders of vennoten met de toepassing van de procedure van art. 2:80. Het accountantsverslag verwijst naar dat akkoord.",
+      "grondslag": "WVV art. 2:80, eerste lid, 3°; ITAA-norm bijlage 3",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_80",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_specifieke-opmerkingen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "uitzonderingen": [
+    {
+      "text": "Voor **VOF en CommV** geldt art. 2:71 § 5 WVV: de procedure van onmiddellijke sluiting van de vereffening is mogelijk maar met specifieke modaliteiten. De ITAA-norm bevestigt dat de termijn voor het neerleggen van het verslag ook hier geldt.",
+      "grondslag": "WVV art. 2:71, § 5",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_i-4-termijnen-in-acht-te-nemen-bij-de-uitvoering-van-de-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "**Zijn er nog onbetaalde derden? Dan is art. 2:80 uitgesloten.** Latente fiscale schulden, lopende geschillen of een kortgeding-zaak betekenen dat de procedure niet toepasselijk is — de klassieke vereffening met aanstelling vereffenaar moet worden gevolgd. De beroepsbeoefenaar mag het verslag in die zin niet afgeven.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_specifieke-opmerkingen",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-06__sec_toepassingsvoorwaarden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Een unanimiteits-vereiste, geen meerderheid.** Anders dan bij een gewone ontbinding (4/5-meerderheid) eist art. 2:80 het **schriftelijk akkoord van álle aandeelhouders**. Een blokkering door één aandeelhouder dwingt naar de klassieke procedure.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_80",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Verschil VZW/IVZW: art. 2:135 WVV** regelt de variant voor verenigingen. De accountant let erop dat de juiste rechtsgrond wordt geciteerd in zijn verslag — art. 2:80 voor vennootschappen, art. 2:135 voor VZW/IVZW.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_135",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Turbo-vereffening BV Z (CBN-advies 2022/06)",
+      "cast": [
+        "Verffabriek Veurne BV",
+        "Sofie Janssens"
+      ],
+      "omschrijving": "Verffabriek Veurne BV (kalenderjaar-boekhouding, AV op 30 april) wil per 30 juni 20N1 stoppen. Alle bestaande schulden worden vóór 25 juni terugbetaald of geconsigneerd. Aandeelhouder Pieter Vermeulen is enig aandeelhouder; geen andere stakeholders.",
+      "stappen": [
+        "1. Bestuursorgaan stelt staat van activa en passiva op datum 24 juni 20N1, in discontinuïteit.",
+        "2. Sofie Janssens controleert de staat en geeft verslag (model bijlage 3): bevestigt dat alle schulden zijn voldaan en dat Pieter Vermeulen schriftelijk instemt met de art. 2:80-procedure.",
+        "3. AV op 30 juni 20N1, voor notaris: één enkele akte waarin (a) ontbinding wordt uitgesproken en (b) onmiddellijk de sluiting van de vereffening wordt vastgesteld.",
+        "4. Bekendmaking sluiting in Belgisch Staatsblad. Vennootschap geschrapt uit KBO.",
+        "5. Boeken en bescheiden worden 5 jaar bewaard op de door de AV aangewezen plaats."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "type": "vergelijkt-met",
+      "target": "vereffeningsprocedure-klassiek",
+      "facet": "aspect: tijdsduur en formaliteiten"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "staat-van-activa-en-passiva-ontbinding",
+      "target_status": "pending"
+    },
+    {
+      "type": "uitzondering-op",
+      "target": "vereffeningsprocedure-klassiek",
+      "facet": "scope: vennootschap zonder onbetaalde derden + unanimiteit"
+    }
+  ]
+}

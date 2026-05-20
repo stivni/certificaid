@@ -1,0 +1,190 @@
+{
+  "id": "buitengewone-algemene-vergadering",
+  "naam": "Buitengewone algemene vergadering",
+  "node_type": "cluster",
+  "naam_alternatief": [
+    "BAV-statutair"
+  ],
+  "situering": {
+    "text": "De buitengewone algemene vergadering is de vergadering die statutenwijzigingen en andere fundamentele beslissingen vaststelt. Omdat zij authenticiteit en rechtszekerheid vereist (publicatie, registers, tegenwerpelijkheid aan derden), gebeurt zij in beginsel voor de notaris, die de akte opmaakt en neerlegt. Zij geldt voor BV, CV en NV — telkens met regime-specifieke quorum- en meerderheidsregels.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 5:100–5:102 (BV), 6:85–6:87 (CV), 7:153–7:155 (NV)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_5_81",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_6_71",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_115",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "definitie": {
+    "text": "De buitengewone algemene vergadering is de algemene vergadering die bevoegd is voor statutenwijzigingen (inclusief kapitaalbewegingen NV, wijziging voorwerp/doelen, omzetting van rechtsvorm, ontbinding). Zij vereist een notariële akte (uitgezonderd bepaalde verrichtingen in CV en de specifieke gevallen die de wet als onderhands behandelt) en hogere aanwezigheids- en meerderheidsdrempels dan de gewone AV.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 5:100 (BV), 6:85 (CV), 7:153 (NV)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_5_81",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_6_71",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_7_115",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Verplicht notariële akte",
+      "wat": "Statutenwijzigingen en de meeste verrichtingen die tot de buitengewone AV behoren worden bij authentieke akte vastgelegd. De notaris controleert vorm- en informatievereisten en stelt de neerleggings- en publicatieformaliteiten in werking via de ondernemingsrechtbank.",
+      "waarom": "Authenticiteit voorkomt latere betwisting over wat precies werd beslist; neerlegging geeft tegenwerpelijkheid aan derden.",
+      "grondslag": "WVV art. 2:5 (vereiste authentieke akte voor oprichting + statutenwijziging vennootschappen met beperkte aansprakelijkheid)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_5_81",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verzwaarde quorum- en meerderheidsregels",
+      "wat": "Voor statutenwijziging gelden in elke vorm hogere drempels: aanwezigheidsquorum van minstens de helft van de uitgegeven aandelen (BV/CV) of van het kapitaal (NV); meerderheid van drie vierde van de uitgebrachte stemmen. Voor wijziging van voorwerp/doelen geldt zelfs vier vijfde van de uitgebrachte stemmen.",
+      "waarom": "Hogere drempels beschermen aandeelhouders tegen ingrijpende wijzigingen die een gewone meerderheid hen anders zou kunnen opleggen.",
+      "grondslag": "WVV art. 5:100, 5:101 (BV); 6:85, 6:86 (CV); 7:153, 7:154 (NV)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_5_152",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WVV__art_5_81",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WVV__art_7_115",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Tweede bijeenroeping bij gebrek aan quorum",
+      "wat": "Wordt het aanwezigheidsquorum bij eerste bijeenroeping niet bereikt, dan volgt een tweede bijeenroeping. Op die tweede vergadering geldt geen aanwezigheidsquorum meer; de meerderheidsdrempel (drie vierde, of vier vijfde voor voorwerpswijziging) blijft wel gelden.",
+      "waarom": "Vermijdt dat een passieve minderheid de werking van de vennootschap kan blokkeren, zonder de meerderheidsbescherming op te geven.",
+      "grondslag": "WVV art. 5:100, tweede lid; 6:85, tweede lid; 7:153, tweede lid",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_5_81",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WVV__art_6_71",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WVV__art_7_115",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Bijzonder bestuursverslag",
+      "wat": "Bij wijziging van het voorwerp of de doelen, bij wijziging van rechten verbonden aan soorten aandelen, en bij andere fundamentele verrichtingen moet het bestuursorgaan een omstandig verslag opstellen dat in de agenda wordt vermeld en aan de aandeelhouders ter beschikking wordt gesteld. Ontbreekt dit verslag, dan is het AV-besluit nietig.",
+      "waarom": "Het verslag concretiseert de informatieplicht: aandeelhouders moeten weten waarover ze stemmen en welke gevolgen het besluit heeft.",
+      "grondslag": "WVV art. 5:101 (BV), 6:86 (CV), 7:154 (NV)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_5_81",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    "Plan een buitengewone AV met de notaris ruim op tijd in — agenda's vol, en alle bijzondere verslagen moeten klaar zijn vóór de oproepingstermijn begint.",
+    "Bij ontbreken van een verplicht bijzonder verslag is het besluit nietig — dat is dus geen procedurele futiliteit."
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "algemene-vergadering",
+      "target_status": "resolved"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "quorum-en-meerderheid-statutenwijziging",
+      "target_status": "pending"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "kapitaalverhoging-nv",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "vrijwillige-ontbinding",
+      "target_status": "resolved"
+    }
+  ],
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.III",
+    "3.0.III.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T12:34:12Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.III",
+    "linked_anchors": [
+      "3.0.III",
+      "3.0.III.A"
+    ],
+    "reviewed_by": null
+  }
+}

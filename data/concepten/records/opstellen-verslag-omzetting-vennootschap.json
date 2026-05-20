@@ -1,0 +1,200 @@
+{
+  "id": "opstellen-verslag-omzetting-vennootschap",
+  "naam": "Opstellen van het verslag over de staat van activa en passiva bij omzetting van een vennootschap (Boek 14 WVV)",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Verslag omzetting vennootschap (Boek 14 WVV)",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.3"
+    ],
+    "kenniselementen": []
+  },
+  "linked_anchors": [
+    "3.0.taak.3"
+  ],
+  "gebaseerd_op_concepten": [
+    "bijzondere-mandaten-accountant",
+    "onafhankelijkheid-bijzondere-mandataris"
+  ],
+  "situering": {
+    "text": "Bij omzetting van een vennootschap naar een andere rechtsvorm (bv. BVBA → BV, BV → NV, kapitaalhoudende naar kapitaalloze vennootschap, of grensoverschrijdende omzetting) eist Boek 14 WVV een verslag van de commissaris of, bij ontbreken, van een bedrijfsrevisor of gecertificeerd accountant over een staat van activa en passiva die niet ouder is dan drie maanden. Het verslag beoordeelt of het nettoactief al dan niet overgewaardeerd is. Bij grensoverschrijdende omzetting (art. 14:21 WVV) komt daar een beoordeling van de geldelijke vergoeding voor uittredende aandeelhouders bij.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV Boek 14 + ITAA-norm-omzetting-vennootschap"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 80,
+    "praktijk_pct": 20,
+    "motivering": "Boek 14 WVV bepaalt het verslag-mandaat en de verplichte rubrieken; uitvoering volgt ITAA-norm-omzetting-vennootschap modelverslagen."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Type omzetting kwalificeren",
+      "wat": "Stel vast om welke omzetting het gaat: nationale omzetting tussen rechtsvormen, omzetting van kapitaalhoudende naar kapitaalloze entiteit, of grensoverschrijdende omzetting (immigratie/emigratie).",
+      "waarom": "Elke variant heeft eigen artikel + eigen verslag-modellen in ITAA-norm-omzetting-vennootschap Bijlage 3 (3.1, 3.2, ...). Verkeerde modelkeuze leidt tot weigering door notaris.",
+      "input": [
+        {
+          "artefact": "Omzettingsvoorstel bestuursorgaan",
+          "veld": "Huidige + nieuwe rechtsvorm + eventueel grensoverschrijdend",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Kwalificatie-memo",
+          "veld": "Toepasselijke artikelen + modelverslag",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Nationale omzetting tussen kapitaalhoudende vormen: art. 14:3-14:8 WVV.\n2. Omzetting kapitaalhoudend → kapitaalloos (bv. CV met beperkte aansprakelijkheid → VOF): bijzondere bescherming vermogenscontinuïteit.\n3. Grensoverschrijdende omzetting (emigratie/immigratie): art. 14:14-14:30 — extra verslag over geldelijke vergoeding voor uittreders.\n4. Cross-check eventueel met [[statuten-vennootschap]] omdat nieuwe rechtsvorm de oprichtingsregels deels overneemt.",
+      "grondslag": "WVV art. 14:3-14:30; ITAA-norm-omzetting-vennootschap Bijlage 3"
+    },
+    {
+      "nr": 2,
+      "titel": "Onafhankelijkheid en opdrachtbrief",
+      "wat": "Doorloop onafhankelijkheidstoets en stel opdrachtbrief op.",
+      "waarom": "Idem als bij alle bijzondere mandaten — zie [[onafhankelijkheid-bijzondere-mandataris]].",
+      "input": [
+        {
+          "artefact": "Cliëntdossier",
+          "veld": "Eerdere opdrachten",
+          "type": "vrije-tekst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Opdrachtbrief",
+          "veld": "Conform ITAA-norm-omzetting-vennootschap Bijlage 1",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Toets onafhankelijkheid (KB 1/3/1998 art. 10-13).\n2. Gebruik modelopdrachtbrief uit ITAA-norm-omzetting-vennootschap Bijlage 1 — vermeldt expliciet welke artikelen WVV van toepassing zijn.\n3. Specifieke aandacht: wie heeft de waardering opgesteld? Bij omzetting wordt vaak naar bestaande boekwaarden gekeken — accountant mag die niet zelf hebben opgesteld.",
+      "grondslag": "ITAA-norm-omzetting-vennootschap Bijlage 1; KB 1 maart 1998"
+    },
+    {
+      "nr": 3,
+      "titel": "Beoordelen staat van activa en passiva",
+      "wat": "Onderzoek of de staat van activa en passiva (datum < 3 maanden vóór omzetting) een getrouw beeld geeft en of het nettoactief al dan niet overgewaardeerd is.",
+      "waarom": "Bij omzetting blijft de rechtspersoonlijkheid behouden maar wijzigt de aansprakelijkheid van de vennoten. Overwaardering van nettoactief kan crediteuren benadelen en moet expliciet gesignaleerd.",
+      "input": [
+        {
+          "artefact": "Staat van activa en passiva",
+          "veld": "Maximum 3 maanden oud",
+          "type": "boekhoudkundig-overzicht"
+        },
+        {
+          "artefact": "Onderliggende grootboeken + waarderingen",
+          "veld": "Posten + waarderingsmethoden",
+          "type": "boekhoudkundig-overzicht"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkdocument analyse",
+          "veld": "Procedures + bevindingen + waarderings-oordeel",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Verifieer dat de staat ≤ 3 maanden oud is (anders → nieuwe staat).\n2. Onderzoek waarderingsmethoden: zijn ze in overeenstemming met het toepasselijk boekhoudkundig referentiestelsel (BE-GAAP doorgaans)?\n3. Identificeer materiële onderwaarderingen (latente meerwaarden) en overwaarderingen (verouderde voorraad, dubieuze klanten, onvoldoende voorzieningen).\n4. Beoordeel: is het nettoactief overgewaardeerd? Zo ja, kwantificeer in concrete cijfers.\n5. Voor grensoverschrijdende omzetting: beoordeel daarnaast of de geldelijke vergoeding voor uittredende aandeelhouders 'relevant en redelijk' is — vergelijk met marktprijs aandelen vóór aankondiging.\n6. Niet-overwaardering is GEEN positieve waarderingsverklaring — alleen vaststelling 'niet overgewaardeerd'.",
+      "valkuilen": [
+        {
+          "advies": "Vergelijking met balansdatum van laatste jaarrekening volstaat niet — een specifieke staat ≤ 3 maanden is verplicht.",
+          "vaak_fout": "Accountant baseert zich op de laatste jaarrekening van 8 maanden oud → verslag is nietig."
+        }
+      ],
+      "grondslag": "WVV art. 14:4 §1; ITAA-norm-omzetting-vennootschap §3"
+    },
+    {
+      "nr": 4,
+      "titel": "Opstellen verslag volgens modelverslag",
+      "wat": "Schrijf het verslag volgens ITAA-norm-omzetting-vennootschap Bijlage 3 (specifiek model afhankelijk van het type omzetting).",
+      "waarom": "Modelverslag bevat formele zinnen die rechtszekerheid bieden — afwijkingen leiden tot vragen van notaris of weigering inschrijving in KBO.",
+      "input": [
+        {
+          "artefact": "Werkdocument analyse (stap 3)",
+          "veld": "Volledige bevindingen",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Verslag omzetting",
+          "veld": "Gericht aan buitengewone AV",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Kies juiste model: 3.1 (kapitaalhoudend → kapitaalloos), 3.2 (nationale omzetting tussen kapitaalhoudende), 3.3 (grensoverschrijdende omzetting), enz.\n2. Verplichte rubrieken: identificatie + hoedanigheid mandataris; datum aanstelling; beschreven staat; toegepaste procedures + beperkingen; conclusie over getrouwheid + niet-overwaardering nettoactief.\n3. Bij grensoverschrijdende omzetting extra: verklaring over geldelijke vergoeding.\n4. Vermeld andere prestaties (art. 12 KB 1/3/1998).\n5. Datum + handtekening + ITAA-stempel.",
+      "grondslag": "ITAA-norm-omzetting-vennootschap Bijlage 3"
+    },
+    {
+      "nr": 5,
+      "titel": "Neerleggen en bezorgen aan AV",
+      "wat": "Bezorg het verslag aan bestuursorgaan/notaris zodat het bij de akte van omzetting wordt gevoegd.",
+      "waarom": "Het verslag is een formaliteit voor de geldigheid van het AV-besluit en moet samen met het bestuursverslag in de oproepingsstukken zitten.",
+      "input": [
+        {
+          "artefact": "Verslag ondertekend",
+          "veld": "Origineel",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Bezorgd verslag + dossier",
+          "veld": "Notaris-pakket + ITAA-archief",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Bezorg verslag minstens 15 kalenderdagen vóór de buitengewone AV.\n2. Notaris voegt het bij de akte van omzetting.\n3. Bewaar werkdossier 5 jaar.",
+      "grondslag": "WVV art. 14:7; ITAA-norm dossier-bewaring"
+    }
+  ],
+  "in_praktijk": [
+    "Omzetting tussen kapitaalhoudende vennootschappen (bv. BV → NV) is in de praktijk de meest voorkomende variant en wordt vaak gecombineerd met een kapitaalverhoging.",
+    "Grensoverschrijdende omzettingen (sinds 2023, Mobility-richtlijn) genereren meer complex verslagwerk — beoordeling van geldelijke vergoeding voor uittreders is een nieuwe dimensie.",
+    "De vermelding 'het nettoactief is niet overgewaardeerd' is geen positieve waarde-verklaring — accountant garandeert niet de juistheid van de waarderingen, alleen het ontbreken van materiële overwaardering."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Decoma CV met beperkte aansprakelijkheid wil omzetten naar een BV. Geen commissaris. Bestuur stelt een staat van activa en passiva op per 30 september (omzetting voorzien voor 15 december). Gecertificeerd accountant Marc Vermeersch wordt aangesteld.",
+      "conclusie": "Marc verifieert dat de staat 76 dagen oud is bij omzetting — OK (< 90). Hij toetst de waardering van het belangrijkste activum (een handelspand boekwaarde € 420k, recente schatting € 540k) — onderwaardering is niet bezwarend voor crediteuren. Voorzieningen voor sociaal passief blijken correct. Hij stelt vast: geen materiële overwaardering. Verslag conform Bijlage 3.2 ITAA-norm-omzetting-vennootschap. Conclusie: 'De staat geeft een getrouw beeld van de vermogenstoestand en het nettoactief is niet overgewaardeerd.'",
+      "grondslag": "WVV art. 14:4; ITAA-norm-omzetting-vennootschap Bijlage 3.2",
+      "redenering": "Staat tijdig, geen overwaardering vastgesteld, waarderingen onderbouwd → niet-overwaardering-verklaring zonder voorbehoud."
+    }
+  ],
+  "beoordelings_criteria": [
+    "Staat ≤ 3 maanden gecontroleerd",
+    "Type omzetting correct gekwalificeerd + juiste modelverslag",
+    "Waardering nettoactief beoordeeld + overwaardering al dan niet vastgesteld",
+    "Bij grensoverschrijdend: geldelijke vergoeding beoordeeld",
+    "Vermelding andere prestaties (art. 12 KB) opgenomen"
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-bijzondere-mandataris"
+    },
+    {
+      "type": "samenstellend-deel-van",
+      "target": "bijzondere-mandaten-accountant"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.3-batch2-20260520T114922Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.3",
+    "linked_anchors": [
+      "3.0.taak.3"
+    ],
+    "voorgesteld_op": "2026-05-20T11:49:22.533891+00:00",
+    "reviewed_by": null
+  }
+}

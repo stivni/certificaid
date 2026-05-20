@@ -1,0 +1,210 @@
+{
+  "id": "begeleiden-inbreng-bij-oprichting",
+  "naam": "Begeleiden van de inbreng in geld en in natura bij oprichting",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Begeleiden van de inbreng in geld en in natura bij oprichting",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0,
+    1.7
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.1"
+    ],
+    "kenniselementen": [
+      "3.0.I"
+    ]
+  },
+  "linked_anchors": [
+    "3.0.taak.1",
+    "3.0.I",
+    "1.7.taak.1"
+  ],
+  "gebaseerd_op_concepten": [
+    "inbreng-vennootschap",
+    "inbreng-in-natura-verslag",
+    "quasi-inbreng-verslag",
+    "oprichtersaansprakelijkheid",
+    "besloten-vennootschap-bv",
+    "naamloze-vennootschap-nv"
+  ],
+  "situering": {
+    "text": "Operationele competentie: de oprichter begeleiden bij het correct uitvoeren van de inbreng — voor geld via deponering op een geblokkeerde rekening vóór de notariële akte, voor natura via revisorenverslag en oprichtersverslag. Doel: vermijden van nietigheid van de akte en van oprichtersaansprakelijkheid voor kennelijke overwaardering.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV art. 5:7, 5:9, 7:7, 7:9, 5:16 1°, 7:18 1°"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 80,
+    "praktijk_pct": 20,
+    "motivering": "WVV-procedure voor inbreng is dwingend (deponering, revisorenverslag). Adviesrol accountant bij inbrengstrategie is praktijk."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Identificeren van het inbreng-type per oprichter",
+      "wat": "Klassificeer per oprichter wat wordt ingebracht: geld, lichamelijk roerend goed, onroerend goed, IP-rechten, schuldvorderingen, of een bestaand handelsfonds.",
+      "waarom": "Het inbreng-type bepaalt de procedure: geld = geblokkeerde rekening, natura = bedrijfsrevisor-verslag + oprichtersverslag, nijverheid bij BV/CV = mogelijk maar in apart regime.",
+      "input": [
+        {
+          "artefact": "Intentieverklaringen oprichters",
+          "veld": "Bedrag + aard per oprichter",
+          "type": "vrije-tekst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Inbreng-mapping-tabel",
+          "veld": "Per oprichter: type + waarde + procedure",
+          "type": "tabel"
+        }
+      ],
+      "hoe": "1. Lijst per oprichter wat hij inbrengt — bedrag en aard.\n2. Klassificeer per inbreng: (a) geld — art. 5:9 BV / 7:9 NV; (b) natura — art. 5:7 BV / 7:7 NV; (c) nijverheid — alleen BV/CV (niet NV) via art. 5:8/6:11.\n3. Bij mengsel (cash + machine): splits in twee aparte inbrengen, elke met eigen procedure.\n4. Verwijs naar [[inbreng-vennootschap]] voor algemene classificatie.",
+      "grondslag": "[[inbreng-vennootschap]]; WVV art. 5:7-5:9, 7:7-7:9"
+    },
+    {
+      "nr": 2,
+      "titel": "Begeleiden van de inbreng in geld",
+      "wat": "Voor inbreng in geld: laat oprichter het bedrag deponeren op een bijzondere rekening (geblokkeerd) op naam van 'vennootschap in oprichting' bij een EER-kredietinstelling vóór het verlijden van de akte, met overhandiging van het deponeringsbewijs aan de notaris.",
+      "waarom": "Geblokkeerde-rekening-procedure beschermt de inbreng tegen onttrekking vóór de oprichting — pas bij verkrijging rechtspersoonlijkheid wordt het geld vrijgegeven aan de vennootschap.",
+      "input": [
+        {
+          "artefact": "Bedragen inbreng in geld per oprichter",
+          "veld": "Cash-bedragen",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Deponeringsbewijs van EER-kredietinstelling",
+          "veld": "Voor notaris",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Open bij een Belgische of EER-gevestigde kredietinstelling een bijzondere rekening 'NAAM BV in oprichting'.\n2. Oprichter(s) storten hun cash-inbreng op die rekening (vóór de akte).\n3. Vraag bij de bank een attest van deponering — kan elektronisch.\n4. Overhandig dit attest aan de notaris vóór het verlijden van de akte.\n5. De rekening is geblokkeerd totdat de notaris bevestigt dat de vennootschap rechtspersoonlijkheid heeft verkregen.",
+      "voorbeeld": {
+        "scenario": "Oprichtingen Oostende BV — inbreng in geld € 25.000.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Bankprocedure",
+            "type": "opmerking",
+            "data": "Pieter Vermeulen opent op 12 maart bij KBC een rekening 'Oprichtingen Oostende BV in oprichting'. Hij stort € 25.000 op 14 maart. De bank levert hetzelfde attest af. Notaris verlijdt akte op 18 maart; deponering is dan reeds 4 dagen ouder.\n"
+          }
+        ]
+      },
+      "grondslag": "WVV art. 5:9 (BV), 7:9 (NV), 6:12 (CV)"
+    },
+    {
+      "nr": 3,
+      "titel": "Voorbereiden van de inbreng in natura — revisorenverslag",
+      "wat": "Voor inbreng in natura: laat een bedrijfsrevisor (of in BV optioneel een gecertificeerd accountant volgens recente herzieningen) een verslag opstellen over de beschrijving + de gebruikte waarderingsmethoden + de waarde van de inbreng vóór de notariële akte.",
+      "waarom": "Het revisoren-/accountantsverslag is de objectivering die overwaardering moet voorkomen — kennelijke overwaardering activeert hoofdelijke oprichtersaansprakelijkheid.",
+      "input": [
+        {
+          "artefact": "Beschrijving van het inbreng-goed",
+          "veld": "Goedbeschrijving + voorgestelde waardering",
+          "type": "vrije-tekst"
+        },
+        {
+          "artefact": "Onderliggende waarderingsdocumenten",
+          "veld": "Schattingsverslag, facturen, marktwaarderingen",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Revisorenverslag inbreng in natura",
+          "veld": "Conform [[inbreng-in-natura-verslag]]",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Stel een schrijven op aan een bedrijfsrevisor (extern) met opdracht: 'Beoordeel waardering inbreng in natura voor oprichting BV X.'\n2. Lever de revisor: (a) beschrijving van het goed, (b) waarderingsdossier, (c) ontwerp-statuten.\n3. Revisor stelt verslag op met: beschrijving inbreng, gebruikte waarderingsmethoden, conclusie of de inbreng-waarde minstens overeenstemt met aantal en pari-waarde van uit te geven aandelen.\n4. De oprichters stellen daarnaast een oprichtersverslag op met motivering van de waardebepaling — verplicht naast het revisorenverslag.\n5. Beide verslagen worden vóór de akte aan de notaris overhandigd. Zie [[inbreng-in-natura-verslag]] voor detail.",
+      "grondslag": "[[inbreng-in-natura-verslag]]; WVV art. 5:7 (BV), 7:7 (NV)"
+    },
+    {
+      "nr": 4,
+      "titel": "Voorbereiden van mogelijke quasi-inbreng",
+      "wat": "Wanneer de vennootschap binnen twee jaar na oprichting een goed verwerft van een oprichter, aandeelhouder of bestuurder voor minstens 1/10e van het kapitaal/eigen vermogen — bereid een quasi-inbrengverslag voor (art. 5:99 BV / 7:8 NV).",
+      "waarom": "De quasi-inbreng-regels voorkomen ontduiking van de inbreng-in-natura-procedure door eerst geld in te brengen en het goed later 'gewoon' aan de vennootschap te verkopen.",
+      "input": [
+        {
+          "artefact": "Aankoop-intentie van de oprichter",
+          "veld": "Goed + prijs + tijdstip",
+          "type": "vrije-tekst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Quasi-inbrengverslag",
+          "veld": "Indien drempel + tijdsvenster overschreden",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Detecteer tijdens de eerste 2 jaar elke transactie tussen vennootschap en oprichter/aandeelhouder/bestuurder.\n2. Toets per transactie: bedrag ≥ 10% van het kapitaal (NV) of eigen vermogen (BV)?\n3. Zo ja: bedrijfsrevisorverslag + bestuursverslag verplicht — analoog aan inbreng in natura.\n4. Algemene vergadering moet de verrichting goedkeuren.\n5. Zie [[quasi-inbreng-verslag]] voor detail.",
+      "grondslag": "[[quasi-inbreng-verslag]]; WVV art. 5:99 (BV), 7:8 (NV)"
+    },
+    {
+      "nr": 5,
+      "titel": "Reviewen aansprakelijkheidsrisico's en cliënt informeren",
+      "wat": "Vóór ondertekening van de akte: informeer oprichter over de aansprakelijkheid voor kennelijke overwaardering van inbreng in natura en voor onjuiste vermeldingen in de akte.",
+      "waarom": "Oprichter moet weten dat hij hoofdelijk aansprakelijk blijft voor schade aan derden in geval van overwaardering — zelfs te goeder trouw. Dit verandert de stevigheid waarmee hij de waardering wil bevestigen.",
+      "input": [
+        {
+          "artefact": "Concept-akte + revisorenverslag",
+          "veld": "Voorgestelde inbrengwaardes",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Risico-briefing oprichter",
+          "veld": "Schriftelijke informatie + bevestiging gelezen",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Lijst per inbreng in natura de waardering + bron + risico-niveau (laag voor goed-onderbouwde marktwaarde, hoger voor IP/handelsfonds).\n2. Verwijs naar [[oprichtersaansprakelijkheid]] §kennelijke-overwaardering en art. 5:16 1° / 7:18 1°.\n3. Vraag oprichter te bevestigen dat hij de inbrengwaarden heeft gereviewed en dat ze conservatief zijn.\n4. Documenteer in cliëntdossier — beschermt de accountant bij latere discussie.",
+      "valkuilen": [
+        {
+          "advies": "Een 'positief' revisorenverslag beschermt de oprichter niet absoluut — een rechter kan nog steeds 'kennelijke' overwaardering vaststellen als bv. een marktwaarde-schatting frauduleus was.",
+          "vaak_fout": "Oprichter denkt dat revisorenverslag = volledige indemnisering. Niet juist: het is een waarderings-validatie, geen aansprakelijkheidsoverdracht."
+        }
+      ],
+      "grondslag": "[[oprichtersaansprakelijkheid]]; WVV art. 5:16 1°, 7:18 1°"
+    }
+  ],
+  "in_praktijk": [
+    "Inbreng in geld is administratief licht (1 storting + attest) maar moet vóór de akte gebeuren — niet erna.",
+    "Inbreng in natura vraagt 2-6 weken voorbereiding voor het revisorenverslag — plan dit vroeg in het oprichtings-tijdspad.",
+    "Voor een eenvoudige BV met enkel cash-inbreng en € 18.600 vennootschapsbelasting-drempel: vergeet de boekhouding-impact niet — eerste storting wordt geboekt als 100 — kapitaal of inbreng + 55 — bank, niet andersom."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Pieter Vermeulen brengt € 25.000 cash + een bestelwagen (geschatte marktwaarde € 18.000) in bij Oprichtingen Oostende BV.",
+      "conclusie": "Sofie Janssens splitst: voor de € 25.000 een geblokkeerde-rekening-procedure (KBC, attest aan notaris). Voor de bestelwagen een bedrijfsrevisor-opdracht: marktwaarde geverifieerd via 3 garage-prijzen + Eurotax-rapport (uitkomst € 17.500 → conservatief). Revisor schrijft verslag dat de inbreng minstens € 17.500 waard is. Oprichtersverslag motiveert waarom 17.500 i.p.v. 18.000. Beide stukken vóór akte naar notaris.",
+      "grondslag": "[[inbreng-vennootschap]], [[inbreng-in-natura-verslag]]"
+    }
+  ],
+  "beoordelings_criteria": [
+    "Geblokkeerde-rekening + attest geleverd vóór akte voor cash-inbreng",
+    "Revisorenverslag + oprichtersverslag aanwezig voor elke inbreng in natura",
+    "Inbrengwaardes onderbouwd en gedocumenteerd",
+    "Oprichter is schriftelijk geïnformeerd over aansprakelijkheid voor overwaardering"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.1-batch2-20260520T111205Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.1",
+    "linked_anchors": [
+      "3.0.taak.1",
+      "3.0.I",
+      "1.7.taak.1"
+    ],
+    "voorgesteld_op": "2026-05-20T11:12:05.736722Z",
+    "reviewed_by": null
+  }
+}

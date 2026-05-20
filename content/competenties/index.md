@@ -2,16 +2,16 @@
 title: "Competentie-index"
 tags:
   - catalogus
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-20'
 ---
 
 # Competentie-index
 
 Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per programmaonderdeel.
 
-**Totaal**: 85 competentie-yamls over 9 programmaonderdelen.
+**Totaal**: 103 competentie-records over 12 programmaonderdelen.
 
-## 1.1 Algemene boekhouding (14 competenties)
+## 1.1 Algemene boekhouding (16 competenties)
 
 <div class="two-column-list">
 
@@ -22,7 +22,9 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 - [[competenties/boeken-uitgifte-en-aflossing-obligatielening|Boeken van uitgifte en aflossing van een obligatielening]] · ⚖️ 70% · 🤖 30%
 - [[competenties/boeken-waardeverminderingen-op-vorderingen-en-voorraden|Boeken van waardeverminderingen op vorderingen en voorraden]] · ⚖️ 70% · 🤖 30%
 - [[competenties/kwalificeren-en-boeken-leasing|Kwalificeren en boeken van leasing (operationeel vs financieel)]] · ⚖️ 65% · 🤖 35%
+- [[competenties/opstellen-openingsbalans-vennootschap|Opstellen van de openingsbalans van een nieuwe vennootschap]] · ⚖️ 65% · 🤖 35%
 - [[competenties/opstellen-afschrijvingsplan-vaste-activa|Opstellen van het afschrijvingsplan voor materiële vaste activa]] · ⚖️ 65% · 🤖 35%
+- [[competenties/opstellen-financieel-plan-oprichting|Opstellen van het financieel plan bij oprichting van een vennootschap]] · ⚖️ 70% · 🤖 30%
 - [[competenties/toepassen-fundamentele-boekhoudbeginselen|Toepassen van de fundamentele boekhoudbeginselen op een concrete verrichting]] · ⚖️ 85% · 🤖 15%
 - [[competenties/uitvoeren-eindejaarsverrichtingen-en-proefbalans|Uitvoeren van eindejaarsverrichtingen en opmaken van proefbalans]] · ⚖️ 70% · 🤖 30%
 - [[competenties/verwerken-overlopende-rekeningen-matching|Verwerken van overlopende rekeningen volgens het matching-principe]] · ⚖️ 80% · 🤖 20%
@@ -48,10 +50,11 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 
 </div>
 
-## 1.3 Analyse en kritische beoordeling van de jaarrekening (11 competenties)
+## 1.3 Analyse en kritische beoordeling van de jaarrekening (12 competenties)
 
 <div class="two-column-list">
 
+- [[competenties/begeleiden-waardering-onderneming-bij-overdracht|Begeleiden van de waardering van een onderneming bij overdracht]] · ⚖️ 10% · 🤖 90%
 - [[competenties/beoordelen-bestuursverslag-en-niet-financiele-info|Beoordelen van het bestuursverslag en de niet-financiële informatie]] · ⚖️ 75% · 🤖 25%
 - [[competenties/beoordelen-werkkapitaal-en-kasstroom|Beoordelen van het werkkapitaal en de kasstroom van een onderneming]] · ⚖️ 15% · 🤖 85%
 - [[competenties/berekenen-interpreteren-liquiditeitsratios|Berekenen en interpreteren van de liquiditeitsratio's]] · ⚖️ 5% · 🤖 95%
@@ -87,9 +90,9 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 <div class="two-column-list">
 
 - [[competenties/bepalen-toepasselijkheid-ifrs-belgie|Bepalen of een onderneming IFRS moet of mag toepassen in België]] · ⚖️ 90% · 🤖 10%
-- [[competenties/presenteren-ifrs-jaarrekening-volgens-ias-1|Presenteren van een IFRS-jaarrekening volgens IAS 1 (5 componenten en presentatiebeginselen)]] · ⚖️ 85% · 🤖 15%
+- [[competenties/presenteren-jaarrekening-ifrs|Presenteren van een IFRS-jaarrekening volgens IAS 1 (5 componenten en presentatiebeginselen)]] · ⚖️ 85% · 🤖 15%
 - [[competenties/toepassen-vijf-stappen-model-opbrengsten-ifrs|Toepassen van het 5-stappen-model van IFRS 15 voor opbrengstenherkenning]] · ⚖️ 80% · 🤖 20%
-- [[competenties/toetsen-bijzondere-waardevermindering-ias-36|Toetsen van een actief op bijzondere waardevermindering onder IAS 36]] · ⚖️ 80% · 🤖 20%
+- [[competenties/toetsen-bijzondere-waardevermindering-ifrs|Toetsen van een actief op bijzondere waardevermindering onder IAS 36]] · ⚖️ 80% · 🤖 20%
 - [[competenties/uitvoeren-eerste-toepassing-ifrs|Uitvoeren van de eerste toepassing van IFRS overeenkomstig IFRS 1]] · ⚖️ 70% · 🤖 30%
 - [[competenties/verwerken-leasing-ifrs-lessee|Verwerken van een leaseovereenkomst onder IFRS 16 als lessee (right-of-use + lease-verplichting)]] · ⚖️ 80% · 🤖 20%
 - [[competenties/waarderen-materiele-vaste-activa-ifrs|Waarderen van materiële vaste activa onder IAS 16 (kostprijs- of herwaarderingsmodel)]] · ⚖️ 75% · 🤖 25%
@@ -113,16 +116,18 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 
 </div>
 
-## 1.7 Interne controle (10 competenties)
+## 1.7 Interne controle (12 competenties)
 
 <div class="two-column-list">
 
 - [[competenties/adviseren-management-ic-design-als-externe-adviseur|Adviseren van het management bij IC-design als externe adviseur]] · ⚖️ 35% · 🤖 65%
+- [[competenties/begeleiden-inbreng-bij-oprichting|Begeleiden van de inbreng in geld en in natura bij oprichting]] · ⚖️ 80% · 🤖 20%
 - [[competenties/beoordelen-effectiviteit-ic-via-interne-audit|Beoordelen van de effectiviteit van een intern-controlesysteem (interne audit)]] · ⚖️ 25% · 🤖 75%
 - [[competenties/identificeren-fouten-fraude-verspilling|Identificeren van fouten, fraude en verspilling in een organisatie]] · ⚖️ 30% · 🤖 70%
 - [[competenties/implementeren-functiescheiding-transactiecycli|Implementeren van functiescheiding op kritieke transactiecycli]] · ⚖️ 10% · 🤖 90%
 - [[competenties/integreren-avg-compliance-in-ic|Integreren van AVG-compliance in het intern-controlesysteem]] · ⚖️ 80% · 🤖 20%
 - [[competenties/ontwerpen-intern-controlesysteem-coso|Ontwerpen van een intern-controlesysteem volgens de vijf COSO-componenten]] · ⚖️ 25% · 🤖 75%
+- [[competenties/opstellen-overname-verslaggeving-accountant|Opstellen van accountantsverslagen bij overdrachtsverrichtingen]] · ⚖️ 80% · 🤖 20%
 - [[competenties/opstellen-bijzondere-verslagen-en-ic-evaluaties|Opstellen van bijzondere verslagen en IC-evaluaties voor specifieke verrichtingen]] · ⚖️ 75% · 🤖 25%
 - [[competenties/opstellen-intern-audit-rapport|Opstellen van een intern-audit-rapport]] · ⚖️ 15% · 🤖 85%
 - [[competenties/opzetten-controleactiviteiten-en-monitoring|Opzetten van controle-activiteiten en monitoringsmechanismen]] · ⚖️ 15% · 🤖 85%
@@ -134,7 +139,7 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 
 <div class="two-column-list">
 
-- [[competenties/bepalen-vervaardigingsprijs-kb-21-10-2018|Bepalen van de vervaardigingsprijs volgens KB 21.10.2018 en CBN 132/7]] · ⚖️ 75% · 🤖 25%
+- [[competenties/bepalen-vervaardigingsprijs|Bepalen van de vervaardigingsprijs]] · ⚖️ 75% · 🤖 25%
 - [[competenties/berekenen-interpreteren-budgetverschillen|Berekenen en interpreteren van budgetverschillen (verschillenboekhouding)]] · ⚖️ 0% · 🤖 100%
 - [[competenties/opstellen-master-budget|Opstellen van een master-budget (operationeel + financieel)]] · ⚖️ 5% · 🤖 95%
 - [[competenties/opzetten-analytisch-rekeningenstelsel|Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers]] · ⚖️ 25% · 🤖 75%
@@ -156,5 +161,48 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 - [[competenties/opstellen-driesegmenten-kasstroomoverzicht|Opstellen van een drie-segmenten-kasstroomoverzicht (CFO, CFI, CFF)]] · ⚖️ 25% · 🤖 75%
 - [[competenties/stellen-bekwaamheid-financiele-diagnose|Stellen van een complete bekwaamheid-financiële diagnose met aanbevelingen aan het management]] · ⚖️ 30% · 🤖 70%
 - [[competenties/toepassen-faillissement-predictiemodellen|Toepassen van kwantitatieve faillissement-predictiemodellen (Altman Z en Ohlson O)]] · ⚖️ 5% · 🤖 95%
+
+</div>
+
+## 2.1 Algemene beginselen van fiscaal recht (2 competenties)
+
+<div class="two-column-list">
+
+- [[competenties/adviseren-vennootschapsvormkeuze|Adviseren over de keuze van vennootschapsvorm bij oprichting]] · ⚖️ 50% · 🤖 50%
+- [[competenties/begeleiden-registratie-onderneming-kbo|Begeleiden van de registratie van een nieuwe onderneming (KBO, btw, UBO)]] · ⚖️ 80% · 🤖 20%
+
+</div>
+
+## 2.5 Fiscale procedure (1 competenties)
+
+<div class="two-column-list">
+
+- [[competenties/begeleiden-waardering-onderneming-bij-overdracht|Begeleiden van de waardering van een onderneming bij overdracht]] · ⚖️ 10% · 🤖 90%
+
+</div>
+
+## 3.0 Vennootschaps- en verenigingsrecht en insolventiewetgeving (19 competenties)
+
+<div class="two-column-list">
+
+- [[competenties/adviseren-vennootschapsvormkeuze|Adviseren over de keuze van vennootschapsvorm bij oprichting]] · ⚖️ 50% · 🤖 50%
+- [[competenties/adviseren-ontbindingsroute-vennootschap|Adviseren over de ontbindingsroute van een vennootschap]] · ⚖️ 75% · 🤖 25%
+- [[competenties/adviseren-overdrachtsroute-onderneming|Adviseren over de overdrachtsroute van een onderneming]] · ⚖️ 40% · 🤖 60%
+- [[competenties/begeleiden-inbreng-bij-oprichting|Begeleiden van de inbreng in geld en in natura bij oprichting]] · ⚖️ 80% · 🤖 20%
+- [[competenties/begeleiden-registratie-onderneming-kbo|Begeleiden van de registratie van een nieuwe onderneming (KBO, btw, UBO)]] · ⚖️ 80% · 🤖 20%
+- [[competenties/begeleiden-vereffening-vennootschap|Begeleiden van de vereffening van een vennootschap]] · ⚖️ 75% · 🤖 25%
+- [[competenties/begeleiden-waardering-onderneming-bij-overdracht|Begeleiden van de waardering van een onderneming bij overdracht]] · ⚖️ 10% · 🤖 90%
+- [[competenties/begeleiden-due-diligence-overname|Begeleiden van due diligence bij overname]] · ⚖️ 15% · 🤖 85%
+- [[competenties/opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht|Beoordelingsverslag uitsluiting voorkeurrecht (art. 5:121, 7:179 WVV)]] · ⚖️ 75% · 🤖 25%
+- [[competenties/opstellen-overname-verslaggeving-accountant|Opstellen van accountantsverslagen bij overdrachtsverrichtingen]] · ⚖️ 80% · 🤖 20%
+- [[competenties/opstellen-openingsbalans-vennootschap|Opstellen van de openingsbalans van een nieuwe vennootschap]] · ⚖️ 65% · 🤖 35%
+- [[competenties/opstellen-financieel-plan-oprichting|Opstellen van het financieel plan bij oprichting van een vennootschap]] · ⚖️ 70% · 🤖 30%
+- [[competenties/signaleren-oprichtersaansprakelijkheid-risico|Signaleren van oprichtersaansprakelijkheid-risico's aan de cliënt]] · ⚖️ 85% · 🤖 15%
+- [[competenties/signaleren-oprichtersaansprakelijkheid-risico|Signaleren van oprichtersaansprakelijkheid-risico's aan de cliënt]] · ⚖️ 85% · 🤖 15%
+- [[competenties/signaleren-risicos-overdracht-of-ontbinding|Signaleren van risico's bij overdracht of ontbinding]] · ⚖️ 55% · 🤖 45%
+- [[competenties/opstellen-verslag-fusie-splitsing-ruilverhouding|Verslag fusie/splitsing (Boek 12 WVV)]] · ⚖️ 80% · 🤖 20%
+- [[competenties/opstellen-verslag-omzetting-vennootschap|Verslag omzetting vennootschap (Boek 14 WVV)]] · ⚖️ 80% · 🤖 20%
+- [[competenties/opstellen-verslag-ontbinding-vereffening-staat|Verslag staat activa/passiva ontbinding (art. 2:71, 2:80 WVV)]] · ⚖️ 80% · 🤖 20%
+- [[competenties/voorbereiden-oprichtingsakte|Voorbereiden van de oprichtingsakte en statuten]] · ⚖️ 75% · 🤖 25%
 
 </div>

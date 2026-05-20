@@ -1,0 +1,149 @@
+{
+  "id": "bestuurdersaansprakelijkheid-sociale-schulden",
+  "naam": "Bestuurdersaansprakelijkheid voor sociale schulden bij faillissement",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VII",
+    "3.0.VII.A",
+    "3.0.X"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T13:24:10Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VII",
+    "linked_anchors": [
+      "3.0.VII"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Wanneer een vennootschap failliet wordt verklaard en zij op het ogenblik van de faillietverklaring **onbetaalde sociale bijdragen** (RSZ) heeft, kunnen de huidige of gewezen bestuurders, zaakvoerders, dagelijkse bestuurders, leden van een directieraad of raad van toezicht én **alle personen met werkelijke bestuursbevoegdheid** persoonlijk en **hoofdelijk** aansprakelijk worden gesteld voor het geheel of een deel van die bijdragen (inclusief verwijlinteresten), op vordering van de **RSZ** of de **curator**, indien zij in de **vijf jaar** voorafgaand aan het faillissement betrokken waren bij **minstens twee** faillissementen of vereffeningen met onbetaalde sociale bijdragen (art. XX.226 WER).",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WER art. XX.226"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_236",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "Deze 'twee-strikes-regel' is een **anti-recidive-mechanisme** tegen **stromanconstructies** en seriële faillissementen waarin telkens de RSZ onbetaald blijft. De wetgever verkiest de objectieve recidive-toets (twee incidenten in vijf jaar) boven een subjectieve foutbeoordeling — eenvoudiger te bewijzen voor de RSZ.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_236",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "voorwaarde": "**Twee of meer** faillissementen of vereffeningen met onbetaalde sociale bijdragen in de **vijf jaar** vóór de huidige faillietverklaring.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_236",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "voorwaarde": "Betrokkenheid van de persoon bij de eerdere faillissementen/vereffeningen als **bestuurder, dagelijks bestuurder, lid directieraad of feitelijk bestuurder**.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_236",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Geen foutbewijs nodig",
+      "betekenis": "In tegenstelling tot XX.225 (waar 'kennelijk grove fout' bewezen moet worden) is art. XX.226 een **objectief recidive-regime** — de RSZ moet enkel de twee eerdere incidenten + de mandaatposities aantonen. De rechter kan vervolgens het geheel of een deel van de RSZ-schulden ten laste leggen.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_236",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Samenloop met XX.225",
+      "betekenis": "Wordt naast XX.226 ook XX.225 toegepast, dan wordt het bedrag dat de RSZ ontvangt **verrekend** met de XX.225-veroordeling om dubbel verhaal te vermijden.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XX_236",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "De cap van art. 2:56 WVV geldt **niet** voor deze sociale-schulden-aansprakelijkheid — dit is een van de **vooraf bepaalde uitzonderingen** ten gunste van de RSZ als schuldeiser van openbaar belang.",
+      "vaak_fout": "De cap inroepen om RSZ-veroordeling te plafonneren.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_1_5__sub_par3_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target_id": "bestuurdersaansprakelijkheid"
+    },
+    {
+      "type": "getriggerd-door",
+      "target_id": "faillissement"
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "feitelijk-bestuurder"
+    },
+    {
+      "type": "uitzondering-op",
+      "target_id": "aansprakelijkheidsbeperking-bestuurder",
+      "scope": "Cap geldt niet voor sociale-schulden-aansprakelijkheid"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target_id": "bestuurdersaansprakelijkheid-bij-insolventie",
+      "aspect": "XX.226 is objectief (recidive), XX.225 vereist kennelijk grove fout"
+    }
+  ]
+}

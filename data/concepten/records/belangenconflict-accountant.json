@@ -6,7 +6,8 @@
   "status": "seed",
   "linked_anchors": [
     "1.6.III.E",
-    "1.6.I.B"
+    "1.6.I.B",
+    "3.0.VIII.A"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",

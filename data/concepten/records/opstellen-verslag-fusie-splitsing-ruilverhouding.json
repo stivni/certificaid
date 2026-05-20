@@ -1,0 +1,214 @@
+{
+  "id": "opstellen-verslag-fusie-splitsing-ruilverhouding",
+  "naam": "Opstellen van het verslag bij fusie, splitsing of gelijkgestelde verrichting in een vennootschap zonder commissaris",
+  "node_type": "competentie",
+  "schema_version": "1.6",
+  "titel": "Verslag fusie/splitsing (Boek 12 WVV)",
+  "status": "seed",
+  "programmaonderdelen": [
+    3.0
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "3.0.taak.3"
+    ],
+    "kenniselementen": []
+  },
+  "linked_anchors": [
+    "3.0.taak.3"
+  ],
+  "gebaseerd_op_concepten": [
+    "bijzondere-mandaten-accountant",
+    "onafhankelijkheid-bijzondere-mandataris",
+    "opstellen-overname-verslaggeving-accountant"
+  ],
+  "situering": {
+    "text": "Bij fusie (door overneming of door oprichting van een nieuwe vennootschap), splitsing (volledig of partieel, door overneming of door oprichting) of gelijkgestelde verrichtingen onder Boek 12 WVV moet — wanneer er geen commissaris is — een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant een schriftelijk verslag over het fusie- of splitsingsvoorstel opstellen. Kernverklaring: of de ruilverhouding (en bij grensoverschrijdende verrichtingen de geldelijke vergoeding) 'al dan niet relevant en redelijk' is. Dit verslag complementeert de bestaande competentie [[opstellen-overname-verslaggeving-accountant]] en focust specifiek op de ruilverhouding-beoordeling als wettelijk voorbehouden taak.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wettekst",
+      "short": "WVV art. 12:25, 12:62, 12:78, 12:114, 12:135"
+    }
+  },
+  "procedure_grondslag": {
+    "wettelijk_pct": 80,
+    "praktijk_pct": 20,
+    "motivering": "Boek 12 WVV en de gemeenschappelijke verslag-vereisten zijn wettelijk; de ruilverhouding-methodologie volgt vakdoctrine + ITAA-norm."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Verrichting kwalificeren binnen Boek 12 WVV",
+      "wat": "Bepaal welke specifieke verrichting voorligt en welk artikel van toepassing is.",
+      "waarom": "Elke variant heeft eigen artikel + eigen formele vereisten. Verkeerde grondslag = verslag op fout artikel = nietig.",
+      "input": [
+        {
+          "artefact": "Fusie- of splitsingsvoorstel bestuursorgaan",
+          "veld": "Type verrichting + betrokken vennootschappen",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Kwalificatie-memo",
+          "veld": "Artikel + verslag-vereisten",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Fusie door overneming: art. 12:25 (gemeenschappelijke regels), 12:26 e.v.\n2. Fusie door oprichting nieuwe vennootschap: art. 12:46 e.v.\n3. Splitsing door overneming: art. 12:62-12:77.\n4. Splitsing door oprichting nieuwe vennootschappen: art. 12:78 e.v.\n5. Partiële splitsing: art. 12:8.\n6. Inbreng algemeenheid / bedrijfstak: art. 12:93 e.v.\n7. Grensoverschrijdende fusie: art. 12:114; grensoverschrijdende splitsing: art. 12:135.\n8. Bij meerdere betrokken vennootschappen: in ELKE betrokken vennootschap is een verslag vereist (kan dezelfde mandataris zijn als geen belangenconflict).\n9. Cross-link [[opstellen-overname-verslaggeving-accountant]] voor de waarderingsmethodologie.",
+      "grondslag": "WVV Boek 12; ITAA-norm-effectennorm + sectorpraktijk"
+    },
+    {
+      "nr": 2,
+      "titel": "Onafhankelijkheid + opdrachtbrief per betrokken vennootschap",
+      "wat": "Voor elke betrokken vennootschap apart de onafhankelijkheidstoets uitvoeren — dezelfde mandataris kan optreden voor meerdere vennootschappen mits geen tegenstrijdig belang.",
+      "waarom": "Bij fusie zijn vaak twee of meer vennootschappen betrokken met mogelijk strijdige belangen. Eén mandataris die voor beide partijen werkt is enkel toegestaan indien er geen belangenconflict bestaat tussen de partijen.",
+      "input": [
+        {
+          "artefact": "Cliëntdossier alle betrokken vennootschappen",
+          "veld": "Eerdere opdrachten",
+          "type": "vrije-tekst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Opdrachtbrieven (één per vennootschap)",
+          "veld": "Scope ruilverhoudings-beoordeling",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Doorloop [[onafhankelijkheid-bijzondere-mandataris]] voor ELKE betrokken vennootschap.\n2. Specifiek bij fusie: één gemeenschappelijke mandataris bespaart kosten maar vereist dat er geen tegenstrijdige verwachtingen zijn. Bij twijfel: aparte mandatarissen per vennootschap.\n3. Voor grensoverschrijdende verrichtingen: extra aandacht voor wie eerder adviseerde over fiscale of juridische structurering.\n4. Opdrachtbrief vermeldt expliciet alle betrokken vennootschappen + artikel WVV.",
+      "grondslag": "KB 1 maart 1998 art. 11; ITAA-norm-effectennorm §3"
+    },
+    {
+      "nr": 3,
+      "titel": "Beoordelen ruilverhouding: methoden, weging, redelijkheid",
+      "wat": "Onderzoek de door bestuursorgaan voorgestelde ruilverhouding — welke methoden gebruikt, welk gewicht toegekend, en is het resultaat redelijk?",
+      "waarom": "De wet eist expliciet drie elementen in het oordeel: (i) volgens welke methoden is de ruilverhouding vastgesteld, (ii) passen die methoden in dit geval en tot welke waardering leidt elke methode, (iii) wat is het relatieve gewicht toegekend aan elke methode. Pas dan kan een 'relevant en redelijk'-oordeel volgen.",
+      "input": [
+        {
+          "artefact": "Fusie-/splitsingsvoorstel",
+          "veld": "Voorgestelde ruilverhouding + onderbouwing",
+          "type": "wettelijk-document"
+        },
+        {
+          "artefact": "Jaarrekeningen + tussentijdse cijfers alle betrokken vennootschappen",
+          "veld": "Eigen vermogen + winst-historiek",
+          "type": "boekhoudkundig-overzicht"
+        },
+        {
+          "artefact": "Waarderingsdocumentatie bestuur",
+          "veld": "Methoden + cijfers per vennootschap",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkdocument ruilverhoudings-analyse",
+          "veld": "Eigen analyse + conclusie",
+          "type": "tekst-document"
+        }
+      ],
+      "hoe": "1. Identificeer de gebruikte waarderingsmethoden per vennootschap (typisch minstens DCF + multiples; soms NAV).\n2. Toets per methode of die passend is voor de aard van de betrokken vennootschap (DCF inappropriate bij verlieslatende start-up; multiples inappropriate bij sectorloos holding).\n3. Verifieer onderliggende cijfers (eigen vermogen, EBITDA, vrije cashflow) tegen de jaarrekeningen.\n4. Beoordeel het gewicht: meestal gemiddelde of mediaan van methoden. Asymmetrische weging vereist motivering.\n5. Vergelijk eindresultaat ruilverhouding met sanity checks: marktprijs aandelen vóór aankondiging (indien beursgenoteerd), vergelijkbare deals in sector, intrinsieke waarde-ratio.\n6. Bij grensoverschrijdende verrichting: beoordeel daarnaast of de geldelijke vergoeding voor uittreders 'relevant en redelijk' is (art. 12:114, 12:135 WVV) — vergelijk met aandelenmarktprijs of intrinsieke waarde.\n7. Documenteer alle bevindingen en eventuele bijzondere moeilijkheden bij waardering (bv. illiquide aandelen, intercompany-verhoudingen).",
+      "valkuilen": [
+        {
+          "advies": "Spreek expliciet over 'ruilverhouding' (X aandelen van overnemende vennootschap voor Y aandelen van overgenomen vennootschap) — niet over absolute waarde.",
+          "vaak_fout": "Verslag focust op de waarde van elke vennootschap apart in plaats van de verhouding — formele eis Boek 12 niet ingevuld."
+        },
+        {
+          "advies": "Niet de redelijkheid van de fusie zelf beoordelen — alleen de ruilverhouding.",
+          "vaak_fout": "Accountant geeft mening over of de fusie strategisch wenselijk is."
+        }
+      ],
+      "grondslag": "WVV art. 12:25, 12:62, 12:78; ITAA-norm-effectennorm §waardering"
+    },
+    {
+      "nr": 4,
+      "titel": "Opstellen verslag met formele zin over ruilverhouding",
+      "wat": "Schrijf het verslag met de wettelijke verplichte rubrieken en de kernzin over relevantie en redelijkheid van de ruilverhouding.",
+      "waarom": "De wet eist een specifieke verklaring; afwijking kan de fusie-akte aanvechtbaar maken.",
+      "input": [
+        {
+          "artefact": "Werkdocument analyse (stap 3)",
+          "veld": "Bevindingen",
+          "type": "tekst-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Verslag fusie/splitsing per vennootschap",
+          "veld": "Gericht aan AV",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Verplichte rubrieken (art. 12:25 e.a.):\n   - Beschrijving verrichting + betrokken vennootschappen\n   - Methoden voor vaststelling ruilverhouding\n   - Of die methoden in dit geval passen + waardering per methode\n   - Relatief gewicht per methode\n   - Bijzondere moeilijkheden bij waardering (in voorkomend geval)\n   - Eventuele bijkomende verklaring grensoverschrijdende verrichting (geldelijke vergoeding)\n   - Verklaring andere prestaties (art. 12 KB 1/3/1998)\n   - Conclusie: 'De ruilverhouding [en de geldelijke vergoeding] zijn naar onze mening relevant en redelijk' OF voorbehoud.\n2. Verslag per betrokken vennootschap — kan documentair samengevoegd worden maar elk dient afzonderlijk gericht aan zijn AV.\n3. Datum + handtekening + ITAA-stempel.",
+      "grondslag": "WVV art. 12:25; ITAA-norm-effectennorm Bijlage 5"
+    },
+    {
+      "nr": 5,
+      "titel": "Neerleggen en vermelden in oproepingsstukken",
+      "wat": "Het verslag wordt samen met het fusie-/splitsingsvoorstel neergelegd en moet ten minste zes weken vóór de AV beschikbaar zijn voor aandeelhouders.",
+      "waarom": "Termijn-overtreding kan AV-besluit nietig maken.",
+      "input": [
+        {
+          "artefact": "Verslag ondertekend",
+          "veld": "Originelen per vennootschap",
+          "type": "wettelijk-document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Bezorgd + neergelegd + gearchiveerd",
+          "veld": "Per vennootschap",
+          "type": "wettelijk-document"
+        }
+      ],
+      "hoe": "1. Bezorg minstens 6 weken vóór AV (art. 12:26).\n2. Neerlegging samen met fusie-/splitsingsvoorstel bij griffie ondernemingsrechtbank.\n3. Bewaar werkdossier 5 jaar.",
+      "grondslag": "WVV art. 12:26, 12:65; ITAA-norm dossier-bewaring"
+    }
+  ],
+  "in_praktijk": [
+    "Bij fusie tussen twee KMO's wordt vaak één mandataris aangesteld om kosten te besparen — mits onafhankelijkheidsanalyse voor beide vennootschappen positief.",
+    "Bij vereenvoudigde fusie (moeder-dochter, 100% bezit) zijn vereenvoudigde regels van toepassing (art. 12:7) — een verslag is niet altijd vereist.",
+    "Voor partiële splitsing en inbreng-bedrijfstak gelden grotendeels dezelfde verslag-vereisten — controleer altijd het specifieke artikel."
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Twee zustervennootschappen Albacore Cleaning BV (omzet € 1,8 mln, EV € 380k) en Berlin Schoonmaak BV (omzet € 2,4 mln, EV € 510k) plannen een fusie door overneming (Albacore neemt Berlin over). Geen commissaris in beide. Voorgestelde ruilverhouding: 1 aandeel Berlin = 1,35 aandelen Albacore. Bestuur wijst gemeenschappelijke gecertificeerd accountant Karel Verstraete aan.",
+      "conclusie": "Karel beoordeelt onafhankelijkheid voor beide vennootschappen — OK, geen eerdere advisering. Hij toetst de waarderingsmethoden (DCF + multiples van vergelijkbare cleaning-KMO's). DCF geeft Albacore ~ € 520k, Berlin ~ € 700k → ratio ~ 1,35. Multiples (0,4-0,5x omzet) geven Albacore € 720-900k, Berlin € 960-1.200k → ratio ~ 1,33. Gewogen gemiddelde (50/50): ratio 1,34. Voorgestelde 1,35 valt binnen de range. Verslag voor beide vennootschappen: conclusie 'relevant en redelijk' zonder voorbehoud, met expliciete vermelding van de twee gehanteerde methoden en hun gewicht.",
+      "grondslag": "WVV art. 12:25; ITAA-norm-effectennorm",
+      "redenering": "Twee methoden geven convergente ratio; voorgestelde ruilverhouding zit binnen vork → 'relevant en redelijk' onderbouwd. Gemeenschappelijke mandataris OK omdat zusters geen tegenstrijdig belang hebben."
+    }
+  ],
+  "beoordelings_criteria": [
+    "Verrichting correct gekwalificeerd onder Boek 12 WVV",
+    "Onafhankelijkheid per betrokken vennootschap getoetst",
+    "Minstens twee waarderingsmethoden gebruikt + relatief gewicht onderbouwd",
+    "Verklaring 'relevant en redelijk' (of voorbehoud) volgens wettelijke formule",
+    "Bij grensoverschrijdend: geldelijke vergoeding mede beoordeeld"
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-bijzondere-mandataris"
+    },
+    {
+      "type": "verwant-aan",
+      "target": "opstellen-overname-verslaggeving-accountant"
+    },
+    {
+      "type": "samenstellend-deel-van",
+      "target": "bijzondere-mandaten-accountant"
+    }
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-3.0.taak.3-batch3-20260520T115239Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.taak.3",
+    "linked_anchors": [
+      "3.0.taak.3"
+    ],
+    "voorgesteld_op": "2026-05-20T11:52:39.322513+00:00",
+    "reviewed_by": null
+  }
+}

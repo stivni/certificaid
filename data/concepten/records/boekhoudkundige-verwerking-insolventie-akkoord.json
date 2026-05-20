@@ -1,0 +1,147 @@
+{
+  "id": "boekhoudkundige-verwerking-insolventie-akkoord",
+  "naam": "Boekhoudkundige verwerking van een insolventie-akkoord",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.X",
+    "1.1.III"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:49:19Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.X",
+    "linked_anchors": [
+      "3.0.X",
+      "1.1.III"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": "Volgens **CBN-advies 2021/07** verwerkt de schuldenaar een kwijtschelding van schuld die voortvloeit uit een buitengerechtelijk minnelijk akkoord of een gehomologeerd reorganisatieplan als een **uitzonderlijke opbrengst** (rekening 76 — uitzonderlijke opbrengsten, in voorkomend geval rekening 763 — terugneming van waardeverminderingen op vlottende activa, of rekening 764-769). De kwijtschelding wordt geboekt op het ogenblik dat het akkoord definitief tegenwerpbaar is. Aan de zijde van de schuldeiser wordt de oninbare deel afgeboekt als **uitzonderlijke kost**, eventueel via een voorafgaande waardevermindering.",
+  "situering": {
+    "text": "CBN-advies 2021/07 'Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie' werkt uit hoe de schuldenaar zijn jaarrekening aanpast wanneer schulden worden kwijtgescholden, schulden worden geherstructureerd, en activa worden afgeschreven door insolventie. Aan de schuldeiserszijde: hoe waardeverminderingen op vorderingen werken en hoe een uiteindelijke kwijtschelding wordt afgeboekt. Centraal: de jaarrekening blijft 'getrouw beeld' bieden, ook tijdens en na een reorganisatie.",
+    "confidence": "grounded",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "text": "**Tijdstip van boeking schuldenaar**: bij een **buitengerechtelijk minnelijk akkoord** zodra alle partijen schriftelijk hebben ingestemd en de opschortende of ontbindende voorwaarden zijn vervuld. Bij een **collectief akkoord** zodra het reorganisatieplan door de rechtbank is **gehomologeerd** en het vonnis kracht van gewijsde heeft.",
+      "grondslag": "CBN-advies 2021/07",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Boekhoudkundige categorie**: uitzonderlijk resultaat — niet operationeel. De opbrengst hoort niet thuis in het bedrijfsresultaat omdat ze niet voortvloeit uit de gewone bedrijfsuitoefening.",
+      "grondslag": "CBN-advies 2021/07 + KB W.Venn. (rekeningstelsel)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Continuïteits-impact op waarderingsregels**: tijdens een gerechtelijke reorganisatie blijft de continuïteitsveronderstelling principieel gehandhaafd; bij faillissement of besluit tot vereffening schakelt de jaarrekening over op **discontinuïteits-waardering** (CBN-advies 2018/18, zie ook record `continuiteitsveronderstelling-audit`).",
+      "grondslag": "CBN-advies 2018/18",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "**Bijzondere rapportering bij vennootschappen**: art. 3:6, § 1, 6° WVV (voorheen art. 96 W.Venn.) verplicht een verantwoording in het jaarverslag bij overgedragen verlies of bij verlies in twee opeenvolgende boekjaren. Kleine niet-genoteerde vennootschappen kunnen deze verantwoording in de toelichting opnemen.",
+      "grondslag": "WVV art. 3:6, § 1, 6°",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Bijzondere rapporteringsverplichtingen bij de vennootschappen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Boeking kwijtschelding bij Meubelzaak Mertens BV",
+      "cast": [
+        "Meubelzaak Mertens BV"
+      ],
+      "omschrijving": "Meubelzaak Mertens BV heeft een gehomologeerd reorganisatieplan: € 100.000 leveranciersschuld wordt verminderd tot € 60.000 (40% kwijtschelding). Op datum van homologatie boekt Mertens:",
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Boeking kwijtschelding door schuldenaar",
+          "rijen": [
+            {
+              "rekening": "440 — Handelsschulden",
+              "debet": 40000,
+              "credit": null,
+              "omschrijving": "Kwijtgescholden deel"
+            },
+            {
+              "rekening": "764 — Andere uitzonderlijke opbrengsten",
+              "debet": null,
+              "credit": 40000,
+              "omschrijving": "Opbrengst uit kwijtschelding (CBN-advies 2021/07)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "Kwijtschelding pas boeken zodra het akkoord **definitief** is. Bij een collectief akkoord betekent dit: na homologatie en nadat de termijn voor hoger beroep is verstreken.",
+      "vaak_fout": "De kwijtschelding al boeken bij het indienen van het reorganisatieverzoek of bij de eerste schuldeisersvergadering — fout, want het akkoord kan nog worden afgewezen."
+    },
+    {
+      "advies": "Het uitzonderlijke karakter rechtvaardigt opname onder rekening 76 — niet onder 74 (andere bedrijfsopbrengsten).",
+      "vaak_fout": "De kwijtschelding boeken als courante bedrijfsopbrengst — vertekent het operationele resultaat."
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "gerechtelijke-reorganisatie"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "continuiteitsbeginsel"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "buitengerechtelijk-minnelijk-akkoord"
+    }
+  ]
+}

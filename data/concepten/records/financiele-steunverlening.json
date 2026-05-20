@@ -1,0 +1,137 @@
+{
+  "id": "financiele-steunverlening",
+  "naam": "Financiële steunverlening voor verkrijging van eigen aandelen",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IV",
+    "3.0.IV.C"
+  ],
+  "naam_alternatief": "financial assistance",
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T08:00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IV",
+    "linked_anchors": [
+      "3.0.IV",
+      "3.0.IV.C"
+    ],
+    "reviewed_by": null,
+    "updated_by_log": [
+      "concept-extractie-v4-2026-05-20T15:00Z (PO 3.0 wave 2 — sub-anchors 3.0.IV.C)"
+    ]
+  },
+  "situering": "Wanneer een vennootschap leningen toekent, zekerheden stelt of middelen voorschiet om een **derde** in staat te stellen haar eigen aandelen te verwerven (bv. een management-buyout, een family-buyout), neemt zij economisch een deel van de overnameprijs op zich. De wet behandelt dit als een **gereguleerde uitkering** met dezelfde schuldeisersbeschermingslogica als een dividend.",
+  "main_rule": {
+    "text": "Een vennootschap mag slechts middelen voorschieten, leningen toestaan of zekerheden stellen met het oog op de verkrijging van haar aandelen, winstbewijzen of certificaten door een **derde**, onder strikte cumulatieve voorwaarden: (1) de verrichting gebeurt onder verantwoordelijkheid van het bestuursorgaan en tegen **billijke marktvoorwaarden**, (2) er is een **voorafgaand AV-besluit** met statutenwijzigingsmeerderheid, (3) het bestuursorgaan stelt een **bijzonder verslag** op dat de motieven, het belang en het risico voor de vennootschap motiveert, (4) het totaal van de steun ligt binnen de grenzen van de **nettoactieftest** — er moet een onbeschikbare reserve worden gevormd voor het bedrag van de steun.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 5:152 (BV), 6:118 (CV), 7:227 (NV); MvT bij art. 7:213"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_7_227",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_5_152",
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_7_213",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "text": "**Billijke marktvoorwaarden** — rente en zekerheid moeten marktconform zijn; kredietwaardigheid van de tegenpartij wordt onderzocht.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "**Voorafgaand AV-besluit** met de aanwezigheids- en meerderheidsvereisten voor een statutenwijziging.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "**Bijzonder bestuursverslag** dat de redenen, het belang voor de vennootschap, de voorwaarden, de financiële gevolgen en de risico's beschrijft.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "**Onbeschikbare reserve** ter grootte van de financiële steun moet worden gevormd op het eigen vermogen, zolang de steun loopt.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "De steun valt onder het brede toepassingsgebied van de **nettoactieftest** — de te steunen som telt mee als uitkering.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-advies_2021_02__Toepassingsgebied",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "uitzonderingen": [
+    {
+      "text": "Verrichtingen in de **gewone bedrijfsuitvoering** van financiële instellingen (kredietverlening als kerntaak) zijn uitgesloten van de strenge procedure.",
+      "confidence": "grounded"
+    },
+    {
+      "text": "Voorschotten en leningen aan **personeel** van de vennootschap of van een verbonden onderneming voor de verkrijging van aandelen of certificaten zijn vrijgesteld van de strenge procedure (deelname-incentief).",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WVV__art_7_226",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Klassieke toepassing — management-buyout",
+      "betekenis": "Een MBO: de vennootschap leent geld aan de overnemende vehikel-NV om haar eigen aandelen te kopen. Onder strikte voorwaarden mogelijk, met bijzonder verslag en AV-besluit. Praktisch wordt vaak een gecombineerde structuur opgezet (acquisition holding + post-merger debt push down).",
+      "confidence": "inferred"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "De drie procedurele vereisten (AV-besluit, bestuursverslag, onbeschikbare reserve) zijn **cumulatief**. Eén ontbrekend element maakt de steunverlening aanvechtbaar.",
+      "vaak_fout": "Aannemen dat een AV-besluit volstaat, en het bestuursverslag of de reservevorming achterwege laten.",
+      "grondslag": "WVV art. 7:227"
+    },
+    {
+      "advies": "Vergeet niet dat de steun een **uitkering** is voor de nettoactieftest. Een steun die de bodem doorbreekt, is verboden.",
+      "vaak_fout": "Financial assistance benaderen als 'gewone' kredietverlening met enkel een marktvoorwaarden-toets.",
+      "grondslag": "WVV art. 7:212; CBN 2021/02"
+    }
+  ],
+  "edges": [
+    {
+      "type": "specialisatie-van",
+      "target": "nettoactieftest",
+      "target_status": "resolved",
+      "facet": {
+        "aspect": "uitkeringsvariant"
+      }
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "inkoop-eigen-aandelen-nv",
+      "target_status": "resolved"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "inkoop-eigen-aandelen-bv",
+      "target_status": "resolved"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "aansprakelijkheidsgrondslagen-bestuur-vergelijking",
+  "naam": "Aansprakelijkheidsgrondslagen in het bestuur — vergelijking oprichter / bestuurder / vereffenaar / feitelijk bestuurder",
+  "node_type": "synthese",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.VII",
+    "3.0.VII.A"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T13:24:10Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.VII",
+    "linked_anchors": [
+      "3.0.VII"
+    ],
+    "reviewed_by": null
+  },
+  "gebaseerd_op_concepten": [
+    "oprichtersaansprakelijkheid",
+    "behoorlijke-vervulling-bestuursopdracht",
+    "vereffenaarsaansprakelijkheid",
+    "feitelijk-bestuurder",
+    "aansprakelijkheidsbeperking-bestuurder"
+  ],
+  "situering": {
+    "text": "Bestuurder, oprichter, vereffenaar en feitelijk bestuurder dragen **parallelle maar verschillende** aansprakelijkheidsregimes. Een examenvraag laat een stagiair vaak kiezen tussen deze grondslagen voor een gegeven casus — dit vergelijkingsoverzicht ordent de toets-elementen.",
+    "confidence": "inferred-from-aggregation"
+  },
+  "vergelijkingstabel": {
+    "headers": [
+      "Rol",
+      "Hoofdgrondslag",
+      "Drager",
+      "Wie kan vorderen?",
+      "Cap art. 2:56 van toepassing?",
+      "Bijzonderheden"
+    ],
+    "rijen": [
+      {
+        "Rol": "Oprichter",
+        "Hoofdgrondslag": "Art. 5:14-5:16 BV / 6:15-6:17 CV / 7:17-7:18 NV",
+        "Drager": "Oprichter (zoals statutair gekwalificeerd)",
+        "Wie kan vorderen?": "Vennootschap, schuldeisers, curator (bij faillissement binnen 3 jaar)",
+        "Cap art. 2:56 van toepassing?": "Cap geldt niet voor oprichtersaansprakelijkheid — eigen objectief regime",
+        "Bijzonderheden": "Faillissement binnen 3 jaar + kennelijk ontoereikend aanvangsvermogen → hoofdelijk voor verbintenissen"
+      },
+      {
+        "Rol": "Bestuurder (lid bestuursorgaan / dagelijks bestuurder)",
+        "Hoofdgrondslag": "Art. 2:51 WVV (mandaatfout)",
+        "Drager": "Lid bestuursorgaan, dagelijks bestuurder",
+        "Wie kan vorderen?": "Vennootschap (vennootschapsvordering), derden (buitencontractueel), curator",
+        "Cap art. 2:56 van toepassing?": "Ja — behoudens opzet/bedrog/zware fout en specifieke uitzonderingen (sociale/fiscale schulden)",
+        "Bijzonderheden": "Hoofdelijk bij collegiaal bestuur; dissent + meldingsplicht ontheft"
+      },
+      {
+        "Rol": "Vereffenaar",
+        "Hoofdgrondslag": "Art. 2:96 WVV",
+        "Drager": "Aangestelde vereffenaar (of bestuurder van rechtswege bij niet-aanstelling)",
+        "Wie kan vorderen?": "Vennootschap, schuldeisers (uitdrukkelijk vermeld), derden (buitencontractueel)",
+        "Cap art. 2:56 van toepassing?": "Doctrinaal twijfelachtig — meestal door analogie aanvaard bij door-AV-benoemde vereffenaar",
+        "Bijzonderheden": "Standaard-hoofdelijkheid bij WVV-overtreding, ook zonder college; meldingsplicht ontheft"
+      },
+      {
+        "Rol": "Feitelijk bestuurder",
+        "Hoofdgrondslag": "WVV art. 2:56 (cap); WER art. XX.225-XX.227 (gelijkstelling)",
+        "Drager": "Persoon met werkelijke bestuursbevoegdheid zonder formeel mandaat",
+        "Wie kan vorderen?": "Idem als formele bestuurder, plus curator/RSZ/fiscus bij insolventie",
+        "Cap art. 2:56 van toepassing?": "Ja — uitdrukkelijke gelijkstelling in art. 2:56 §1",
+        "Bijzonderheden": "Feitelijke macht moet bewezen worden; aandeelhouderschap alleen volstaat niet"
+      }
+    ]
+  },
+  "kerninzichten": [
+    {
+      "text": "De **cap van art. 2:56** vormt het kruispunt: hij geldt voor bestuurders en (door gelijkstelling) feitelijk bestuurders en (door analogie) vereffenaars, maar **niet** voor oprichters (eigen regime) en **niet** voor de fiscale-/sociale-schulden-aansprakelijkheid.",
+      "confidence": "inferred-from-aggregation"
+    },
+    {
+      "text": "De **dragerrol** bepaalt de **temporele referentie**: oprichter ↔ moment van oprichting; bestuurder ↔ duur van het mandaat; vereffenaar ↔ duur van de vereffeningsopdracht; feitelijk bestuurder ↔ de periode waarin de feitelijke macht werd uitgeoefend.",
+      "confidence": "inferred"
+    },
+    {
+      "text": "Voor de **vennootschapsvordering** is **kwijting** een echte uitschakeling. Voor **derden- en curator-vorderingen** doven kwijting noch cap de aanspraak — alleen de **D&O-verzekering** biedt persoonlijke bescherming, binnen de polislimieten en uitsluitingen.",
+      "confidence": "inferred-from-aggregation"
+    }
+  ],
+  "edges": [
+    {
+      "type": "verwijst-naar",
+      "target_id": "bestuurdersaansprakelijkheid"
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "oprichtersaansprakelijkheid"
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "vereffenaarsaansprakelijkheid"
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "feitelijk-bestuurder"
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "aansprakelijkheidsbeperking-bestuurder"
+    }
+  ]
+}

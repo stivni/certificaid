@@ -1,0 +1,123 @@
+{
+  "id": "homologatie-collectief-akkoord",
+  "naam": "Homologatie van het collectief reorganisatieplan",
+  "node_type": "regel",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.X",
+    "3.0.X.D"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T14:05:52Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.X.D",
+    "linked_anchors": [
+      "3.0.X",
+      "3.0.X.D"
+    ],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "De insolventierechtbank **homologeert** het door de schuldeisers (en in voorkomend geval kapitaalhouders) aangenomen reorganisatieplan **uitsluitend** wanneer aan de wettelijke toetsen is voldaan. Door de homologatie wordt het plan **bindend voor alle betrokken partijen**, ook voor schuldeisers die tegenstemden, en sluit het vonnis de gerechtelijke reorganisatieprocedure af.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WER art. XX.79, XX.83/17, XX.83/38"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XX_83_17",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XX_83_38",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "De homologatie is het scharnierpunt van de openbare gerechtelijke reorganisatie door een collectief akkoord. Na de inhoudelijke onderhandeling met de schuldeisers (klassen-stemming, met meerderheidsregels) blijft de toetsing aan de wet voorbehouden aan de rechtbank. Het Belgisch recht heeft sinds 2023 (omzetting Richtlijn (EU) 2019/1023) twee parallelle regimes: een vereenvoudigd regime voor **KMO's** (art. XX.78-XX.79) en een uitgebreider regime met klassen en **cross-class cram-down** voor **grote ondernemingen** (art. XX.83/17).",
+    "confidence": "inferred-from-aggregation"
+  },
+  "voorwaarden": [
+    {
+      "voorwaarde": "Het plan is aangenomen overeenkomstig de stemregels (gewone meerderheid in waarde voor KMO's; meerderheid binnen elke klasse voor grote ondernemingen, of cross-class cram-down).",
+      "grondslag": "WER art. XX.78 (KMO), XX.83/14 (grote ondernemingen)",
+      "confidence": "grounded"
+    },
+    {
+      "voorwaarde": "De **wettelijke vormvereisten** zijn gerespecteerd: tijdige neerlegging in het register, behoorlijke informatieverstrekking aan schuldeisers, correcte indeling in klassen (waar van toepassing).",
+      "grondslag": "WER art. XX.83/17 §1, 2°-3°",
+      "confidence": "grounded"
+    },
+    {
+      "voorwaarde": "Het plan respecteert de **openbare orde**, geen vermindering of kwijtschelding van arbeidsschulden, onderhoudsschulden, schulden uit lichamelijk letsel of strafrechtelijke boeten.",
+      "grondslag": "WER art. XX.73",
+      "confidence": "grounded"
+    },
+    {
+      "voorwaarde": "Bij grote ondernemingen met niet-instemmende schuldeisers: het plan slaagt voor de **best-interests-of-creditors-test** — geen niet-instemmende schuldeiser is kennelijk slechter af dan onder de normale rangorde bij faillissement.",
+      "grondslag": "WER art. XX.83/17 §1, 4°",
+      "confidence": "grounded"
+    },
+    {
+      "voorwaarde": "Bij cross-class cram-down (oplegging over een tegenstemmende klasse): het plan voldoet aan de **absolute voorrangsregel** of een wettelijk gedefinieerde uitzondering en is noodzakelijk om continuïteit te verzekeren.",
+      "grondslag": "WER art. XX.83/17 §1, 5°-6°",
+      "confidence": "grounded"
+    }
+  ],
+  "uitzonderingen": [
+    {
+      "uitzondering": "Vorderingen van **nominaal minieme omvang** kunnen buiten het plan worden gehouden en onmiddellijk worden vereffend — niet om de schuldeisers te benadelen maar om de administratie behapbaar te houden.",
+      "grondslag": "WER art. XX.72",
+      "confidence": "grounded"
+    },
+    {
+      "uitzondering": "Werknemers- en sociale-zekerheidsbijdrageschulden, onderhoudsschulden en strafrechtelijke boeten kunnen **niet** in het plan verminderd of kwijtgescholden worden.",
+      "grondslag": "WER art. XX.73",
+      "confidence": "grounded"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Effect van de homologatie",
+      "betekenis": "Het plan wordt bindend voor **alle** betrokken schuldeisers — ook die tegenstemden, ook die niet stemden — voor de schulden die in het plan zijn opgenomen. Schulden die buiten het plan vallen (bv. nieuwe schulden of de uitgesloten categorieën van art. XX.73) blijven gewoon volledig opeisbaar. Bij niet-uitvoering kan de rechtbank het plan herroepen (art. XX.82).",
+      "confidence": "inferred-from-aggregation"
+    },
+    {
+      "aspect": "Wat doet de accountant na homologatie?",
+      "betekenis": "De boekhoudkundige verwerking van de schuldverminderingen volgt CBN-advies 2018/18 en de algemene principes: de **kwijtschelding** wordt opgenomen als opbrengst (uitzonderlijk resultaat), de gehomologeerde uitstel-termijnen leiden tot reclassificatie van schulden op meer of minder dan één jaar. De waarderingsregels herstellen zich naar going-concern zodra het plan de continuïteit verzekert.",
+      "confidence": "inferred-from-aggregation"
+    }
+  ],
+  "valkuilen": [
+    {
+      "advies": "De homologatie is **geen automatische bekrachtiging** van de stemming. De rechtbank toetst onafhankelijk de wettelijke vereisten. Bij grote ondernemingen kan zij zelfs **weigeren te homologeren** zelfs als alle klassen instemmen, indien de informatieverstrekking onvoldoende was.",
+      "vaak_fout": "De cliënt geruststellen dat een aangenomen plan automatisch wordt gehomologeerd. De rechtbank kan weigeren bij vormgebreken of materiële tekorten in de toets-criteria (art. XX.83/17 §3)."
+    },
+    {
+      "advies": "Niet verwarren met **homologatie van een minnelijk akkoord** (buitengerechtelijk of in de besloten procedure, art. XX.83/29-XX.83/30). Bij een minnelijk akkoord is de homologatie veel beperkter — de rechter controleert geen schuldenaarstoets maar enkel of het akkoord rechtsgeldig tot stand kwam.",
+      "vaak_fout": "De toetsing van een collectief akkoord en die van een minnelijk akkoord verwarren — het collectief-akkoord-regime is strikter wegens de bindende werking op tegenstemmende schuldeisers."
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "gerechtelijke-reorganisatie"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "ondernemingsrechtbank-bevoegdheid-insolventie"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "overdracht-onder-gerechtelijk-gezag",
+      "aspect": "doel: continuïteit-van-onderneming versus efficiente-vereffening"
+    }
+  ]
+}

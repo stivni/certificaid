@@ -1,0 +1,88 @@
+{
+  "id": "omstandige-staat-vereffening",
+  "naam": "Omstandige staat van de vereffening",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "3.0.IX",
+    "3.0.IX.A",
+    "3.0.IX.B"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-20T07:30:41Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "3.0.IX",
+    "linked_anchors": [
+      "3.0.IX"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De **omstandige staat** is een tussentijds verslag dat de vereffenaar in de **7e en 13e maand** na de invereffeningstelling neerlegt bij de griffie van de ondernemingsrechtbank van de zetel — opgesteld respectievelijk per einde zesde en twaalfde maand van het eerste vereffeningsjaar (art. 2:86 WVV). Zij bevat de **ontvangsten, uitgaven en uitkeringen** tijdens de rapporteringsperiode en geeft aan **wat nog moet worden vereffend**.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 2:86"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_86",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-04__sec_vereffening-na-vrijwillige-ontbinding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "De omstandige staat is **geen jaarrekening** maar een **cash-flow-achtig overzicht** dat schuldeisers en aandeelhouders zicht geeft op de voortgang. Zij is alleen verplicht in het **eerste vereffeningsjaar**; vanaf het tweede jaar wordt zij vervangen door de **jaarlijkse jaarrekening in vereffening** (art. 2:99 WVV) waarin de vereffenaar bovendien moet motiveren waarom de vereffening nog niet kon worden voltooid.",
+    "confidence": "grounded",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_99",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-04__sec_vereffening-na-vrijwillige-ontbinding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Verschil eerste vs latere jaren",
+      "betekenis": "**Eerste jaar** (maanden 7 en 13): tweemaal een omstandige staat per halfjaar bij de griffie. **Tweede jaar en volgende**: één jaarrekening per boekjaar, opgesteld volgens KB WVV (voor BV/CV/NV met discontinuïteitswaardering) en goedgekeurd door de AV.",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-04__sec_vereffening-na-vrijwillige-ontbinding",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Wetboek-vennootschappen-en-verenigingen-23-03-2019__art_2_99",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "vereffeningsprocedure-klassiek"
+    }
+  ]
+}
