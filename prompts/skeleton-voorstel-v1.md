@@ -21,73 +21,81 @@ Reden voor deze stap: v1.5/1.6 had overfragmentatie (kleine begrip-records voor 
 
 Je krijgt voor één PO (bv. `1.1`):
 
-- **Bestaande records**: alle JSON-records met `linked_anchors[]` die het PO raken — pad `data/concepten/records/*.json`
-- **Anchors / TDKs**: ankerpunten van het PO uit `data/programma/anchors.json` met **taken, doelstellingen, kenniselementen**
-- **Referentie-mockups**: voor patroon-herkenning — minstens `content/experiment/obligatielening-v7.md` (instrument) + `content/experiment/solvabiliteitsratio-v2.md` (ratio) + `content/experiment/jaarrekeninganalyse-v1.md` (kader)
+- **Anchors / TDKs**: ankerpunten van het PO uit `data/programma/anchors.json` met **taken, doelstellingen, kenniselementen** — dit is het *programma-anker* dat zegt wat een stagiair moet kunnen
+- **Bronnen-RAG**: gericht bevraagbaar voor wetteksten, KB's, CBN-adviezen, normen relevant voor de PO
+- **Concept-RAG**: gericht bevraagbaar voor bestaande records (1.5/1.6) — niet als startpunt maar als migratie-mapping-input
+- **Bestaande records** (`data/concepten/records/*.json`): lees on-demand voor migratie-mapping, niet vooraf als grid
+- **Referentie-mockups**: ALLE non-deprecated fiches in `content/experiment/` voor patroon-herkenning:
+  - `obligatielening-v7.md` (canonical instrument)
+  - `solvabiliteitsratio-v2.md` (canonical ratio)
+  - `jaarrekeninganalyse-v1.md` · `uitkering-aan-aandeelhouders-v1.md` · `lange-termijn-financiering-v1.md` (kaders)
+  - `inkoop-eigen-aandelen-nv-v1.md` (operatie)
+  - `vvprbis-v1.md` (fiscale regeling)
+  - `leasing-v1.md` (familie) + `financiele-leasing-v2.md` · `operationele-leasing-v1.md` (leden)
+  - Andere mockup-versies (v4/v5/v6 van obligatielening, v1 van solvabiliteit) optioneel voor diff-vergelijking
 
-**Niet examen-vragen raadplegen** — conceptlaag is tijdloos en domein-onafhankelijk; examenvragen mogen geen extract- of consolidatie-keuzes sturen (circulair: je extract dan wat in de test staat ipv wat erin hoort). Examenvragen komen pas in VERIFY-pass voor dekking-toets en in Fase 5 voor tutoring. *(Regel uit EXTRACT v4 §schrijfregels; geldt ook voor stap 0 skeleton-voorstel.)*
+**Niet examen-vragen raadplegen** — conceptlaag is tijdloos en domein-onafhankelijk; examenvragen mogen geen extract- of consolidatie-keuzes sturen (circulair). Examenvragen komen pas in VERIFY-pass voor dekking-toets en in Fase 5 voor tutoring.
 
 ---
 
-## 3. Methodiek
+## 3. Methodiek — top-down, vanuit bronnen + programma
 
-### Stap A — Inventaris
+**Belangrijk**: vertrek **NIET** van de bestaande v1.x-records. Die zijn fragmentair en zouden je framing besmetten. Vertrek vanuit:
+- wat de **TDKs** zeggen dat een stagiair moet kunnen
+- wat de **bronnen** behandelen op dit terrein
+- de **patroon-mockups** als ankerpunt voor 2.0-kinds
 
-Maak een tabel van alle bestaande records voor de PO:
+Pas in een latere stap map je je voorgestelde 2.0-fiches op de bestaande v1.x-records (voor migratie-tracking).
 
-| Record-id | node_type | Korte beschrijving | Linked anchors |
-|---|---|---|---|
+### Stap A — Domein-scan (bronnen + TDKs + programma)
 
-### Stap B — Kind-classificatie
+1. Lees de PO-anchors + TDKs volledig
+2. Bevraag bronnen-RAG voor sleutel-bronnen op het terrein (wettekst-artikelen, CBN-adviezen, normen)
+3. Lees referentie-mockups om kind-patronen scherp te hebben
 
-Voor elk bestaand record: voorstel een **schema 2.0 kind**.
+### Stap B — Concept-identificatie (top-down)
 
-Mogelijke kinds: `instrument` · `operatie` · `procedure` · `regime`/`fiscale-regeling` · `ratio` · `kader` · `familie` · `begripscluster`.
+Antwoord op de vraag: **welke concepten moeten bestaan voor een stagiair-GA die dit PO bestrijkt?**
 
-Of: **mergeable** — record wordt onderdeel binnen een grotere fiche.
+Identificeer per concept:
+- **Naam** (voorgesteld 2.0-fiche-naam)
+- **Kind** (`instrument` · `operatie` · `procedure` · `regime`/`fiscale-regeling` · `ratio` · `kader` · `familie` · `begripscluster`)
+- **Korte motivatie** (1-2 zinnen: waarom dit een eigen fiche verdient)
+- **Verwante TDK(s)** die het dekt
 
-### Stap C — Consolidatie-clusters
+Identificeer ook welke **kader-fiches** nodig zijn — concepten die gedeelde principes/discipline dragen over meerdere specifieke fiches.
 
-Groepeer records die in 2.0 één samenhangende fiche zouden worden. Per cluster:
+### Stap C — Bottom-up controle (oude records)
 
-- **Nieuwe 2.0-fiche-naam** (voorgesteld)
-- **Kind** (uit lijst hierboven)
-- **Bevat onderdelen uit** (lijst v1-record-id's)
-- **Rationale** (waarom samenvatten — verwijzing naar didactische top-volgorde + rol × perspectief)
+Bevraag concept-RAG voor bestaande v1.x-records met overlap op de PO. Voor elk bestaand record:
 
-Voorbeeld:
-- v1.5: `obligatielening` + `boeken-uitgifte-en-aflossing-obligatielening` + `prorata-intrest-schulden`
-- v2.0: één fiche `obligatielening` (kind: instrument); onderdelen "boekingen bij uitgifte" en "prorata" zitten onder Rol > Boekhouder
+- **Mapping**: bij welke voorgestelde 2.0-fiche hoort dit (als bouwsteen, of als zelfstandig 2.0-doel)?
+- **Status**:
+  - `wordt_geconsolideerd_in: 2.0-fiche-X` (record absorbeert als onderdeel)
+  - `wordt_zelfstandig_2.0_fiche: X` (record blijft eigen 2.0-doel, mogelijk met nieuwe structuur)
+  - `vervalt` (record bestaat 2.0 niet meer; bv. node_type `competentie` die in een rol-cel absorbeert)
 
-### Stap D — Nieuwe records die ontbreken
+### Stap D — Gap-detectie
 
-Identificeer **kader-fiches** en **fiscale regelingen** die in 2.0 zouden bestaan maar in v1.5/1.6 ontbreken. Bv. voor PO 1.1:
-- `jaarrekeninganalyse` (kader)
-- `lange-termijn-financiering` (kader)
-- `uitkering-aan-aandeelhouders` (kader)
-- Eventuele specifieke regelingen die nog niet bestaan
+Vergelijk de top-down lijst (stap B) met de mapping (stap C):
 
-Per voorstel:
-- **Naam + kind**
-- **Waarom nodig** (welke v1-records ernaar zouden refereren · welke onderdelen het zou dragen die nu in elke specifieke fiche herhaald worden)
+- **Niet-gedekte concepten** uit stap B die geen bestaand v1-record als seed hebben → markeer als `nieuw_concept` (extract moet ze van scratch maken)
+- **Onverwachte v1-records** die niet in stap B opduiken → markeer als `mogelijk_overbodig` (check of ze toch nodig zijn of weg kunnen)
 
-### Stap E — Records die kunnen verdwijnen of mergen
+### Stap E — Familie/kader-detectie
 
-Records die in 2.0 geen eigen bestaansrecht meer hebben:
-- Kleine begrip-records die als sub-bouwsteen onder een 2.0-fiche passen
-- Sterk gefragmenteerde records die per definitie samen horen
-- Records met node_type `competentie` die als rol-cel in 2.0-fiche absorberen (per ADR-025 §competenties-inline)
-
-Per voorgestelde verdwijning:
-- **Record-id**
-- **Absorptie-doel** (welke 2.0-fiche neemt deze inhoud over)
+Voor concepten in stap B die verwant lijken:
+- Bestaan ≥ 3 verwante concepten met gedeelde mechaniek? → voorstel **familie-fiche**
+- Bestaan principes/discipline die in meerdere fiches herhaald zouden worden? → voorstel **kader-fiche**
 
 ### Stap F — TDK-dekking-check
 
-Vergelijk de voorgestelde 2.0-fiche-set met de **taken / doelstellingen / kenniselementen** van het PO uit `anchors.json`. Per TDK:
+Per TDK uit `anchors.json`:
 
-- Welke 2.0-fiche dekt deze?
-- Ontbreekt er nog dekking? → voorstel extra fiche
+- Welke 2.0-fiche(s) dekken deze TDK?
+- Ontbreekt er nog dekking? → toevoegen aan voorgestelde fiche-lijst of voorstellen als extra
+
+Een TDK mag door meerdere fiches gedekt zijn (cross-cutting); een fiche mag meerdere TDKs dekken.
 
 ---
 
@@ -99,76 +107,117 @@ Markdown-bestand: `data/extractie/<PO>/skeleton-voorstel-<timestamp>.md`
 # Skeleton-voorstel PO 1.1 → schema 2.0
 
 **Datum**: 2026-05-21
-**Aantal v1.x-records geanalyseerd**: 66
+**Methode**: top-down vanuit TDKs + bronnen + patroon-mockups
 **Aantal voorgestelde 2.0-fiches**: 32
-**Aantal absorptie-merges**: 18
-**Aantal nieuwe kader/regime-voorstellen**: 5
+**Mapping**: 18 v1.x-records geconsolideerd; 12 records vervallen (absorberen in 2.0-fiches); 5 nieuwe concepten zonder v1.x-seed
 
 ---
 
-## 1. Inventaris v1.x
-
-[Tabel met alle bestaande records + node_type + beschrijving + anchors]
-
-## 2. Voorgestelde 2.0-fiches
+## 1. Top-down geïdentificeerde 2.0-fiches
 
 ### Instrumenten
 
 #### obligatielening (instrument)
-**Bevat onderdelen uit**: `obligatielening`, `boeken-uitgifte-en-aflossing-obligatielening`, `prorata-intrest-schulden`
-**Rationale**: Eén didactische fiche per instrument. Boekingen onder Rol > Boekhouder; prorata als sub-onderdeel.
-**Linked anchors**: 1.1.II.V, 1.1.II.J, 1.4.III.B (cross-PO)
+**Motivatie**: lange-termijn-schuldfinanciering die boekhoudkundig + fiscaal + audit-perspectief vereist; meerdere TDKs (II.V boekhouden + II.J prorata).
+**Dekt TDKs**: 1.1.II.V, 1.1.II.J · cross-PO: 1.4.III.B
+**Mapping naar v1.x**:
+- absorbeert `boeken-uitgifte-en-aflossing-obligatielening` (was te procedurele cluster)
+- absorbeert `prorata-intrest-schulden` (te klein voor eigen fiche; wordt onderdeel)
+- bouwt op `obligatielening` (bestaat al; krijgt nieuwe structuur)
 
 #### inkoop-eigen-aandelen-nv (operatie)
-**Bevat onderdelen uit**: `eigen-aandelen`, `inkoop-eigen-aandelen-nv`
-...
+**Motivatie**: WVV-zware operatie met netto-actief-toets + meerdere actor-perspectieven
+**Dekt TDKs**: [...]
+**Mapping naar v1.x**: [...]
 
-### Regimes / fiscale regelingen
+### Operaties
 
 [...]
+
+### Fiscale regelingen
+
+#### vvprbis (fiscale-regeling)
+**Motivatie**: verlaagd RV-tarief met voorwaarden + cumulatie-regels; beïnvloedt meerdere uitkeringsinstrumenten
+**Dekt TDKs**: [...]
+**Mapping naar v1.x**: nieuw (geen v1.x-seed); of bouwt op `vvpr-bis` indien aanwezig
 
 ### Ratio's
 
 [...]
 
-### Kaders (nieuw)
+### Kaders (cross-cutting, nieuw)
 
 #### jaarrekeninganalyse (kader)
+**Motivatie**: generieke discipline (evolutie · sectornorm · balansdatum-effect · achtergestelde-lening-correctie · samen-lezen) die in elke ratio-fiche herhaald zou worden
 **Bevat principes voor**: solvabiliteitsratio, current-ratio, ROE, schuldgraad, ...
-**Rationale**: Generieke discipline (evolutie, sectornorm, balansdatum-effect, achtergestelde-lening-correctie, samen-lezen) leeft hier; per-ratio-fiche refereert ernaar.
+**Dekt TDKs**: bestaande TDKs over jaarrekening-interpretatie
+
+#### lange-termijn-financiering (kader)
+**Motivatie**: keuze schuld vs EV + matching looptijd-investering + aftrekbaarheid + EBITDA-regel-interactie — overstijgt elke afzonderlijke schuld-instrument-fiche
+**Bevat principes voor**: obligatielening, banklening, leasing, ...
 
 [...]
 
-## 3. Records die verdwijnen / mergen
+## 2. v1.x-records → 2.0-mapping
 
-| v1.x-record | Absorptie-doel | Rationale |
+### Records die in 2.0 vervallen (absorberen elders)
+
+| v1.x-record | Absorbeert in | Rationale |
 |---|---|---|
-| `prorata-intrest-schulden` | onderdeel van `obligatielening` + `banklening` (dupliceren of in kader?) | te klein voor eigen fiche |
+| `prorata-intrest-schulden` | `obligatielening` (onderdeel) + `banklening` (onderdeel) | Te klein voor eigen fiche; krijgt sub-onderdeel-status in elke schuld-instrument |
+| `eigen-aandelen` | `inkoop-eigen-aandelen-nv` (onderdeel) | Operationeel begrip dat alleen leeft binnen de operatie |
 | ... | ... | ... |
+
+### v1.x-records die mogelijk overbodig zijn (te verifiëren)
+
+| v1.x-record | Reden | Voorstel |
+|---|---|---|
+| `xyz` | Geen TDK-dekking gevonden; geen verwijzing vanuit andere 2.0-fiches | Verwijderen? Of verbreden? |
+
+## 3. Nieuwe concepten zonder v1.x-seed
+
+Concepten die in stap B (top-down) zijn geïdentificeerd maar geen bestaand v1-record als basis hebben:
+
+- `jaarrekeninganalyse` (kader — nieuw)
+- `lange-termijn-financiering` (kader — nieuw)
+- ...
 
 ## 4. TDK-dekking-check
 
-| TDK | Type | Voorgestelde 2.0-fiche(s) |
-|---|---|---|
-| "boeken van obligatieleningen" | taak | obligatielening |
-| "begrip van prorata-intrest" | kenniselement | obligatielening (onderdeel) |
-| ... | ... | ... |
+| TDK | Type | Voorgestelde 2.0-fiche(s) | Dekkings-status |
+|---|---|---|---|
+| "boeken van obligatieleningen" | taak | obligatielening | ✅ volledig |
+| "begrip van prorata-intrest" | kenniselement | obligatielening (onderdeel) | ✅ als sub-onderdeel |
+| ... | ... | ... | ... |
 
-**Ontbrekende dekking**: ...
+**Ontbrekende dekking**: lijst van TDKs zonder voorgestelde fiche.
 
-## 5. Open vragen voor menselijke review
+## 5. Familie/kader-detectie
 
-- Cluster X: blijft `concept-A` en `concept-B` apart of mergen?
-- Kader `lange-termijn-financiering` voorgesteld — wachten op andere PO's of nu maken?
+Voorgestelde families/kaders gedetecteerd op basis van 3+ verwante concepten:
+
+- **Kader `lange-termijn-financiering`**: obligatielening · banklening · achtergestelde-lening · leasing-familie · kapitaalverhoging
+- **Familie `leasing`**: financiele-leasing · operationele-leasing · renting
 - ...
 
-## 6. Geschatte herextract-omvang
+## 6. Open vragen voor menselijke review
 
-- V1.x-records: 66
-- 2.0-fiches voorgesteld: 32 (instrumenten · operaties · regimes · ratios)
+- Cluster X: blijft `concept-A` en `concept-B` apart of mergen?
+- Kader `lange-termijn-financiering` voorgesteld — wachten op andere PO's of nu maken (sommige leden komen in PO 1.4)?
+- ...
+
+## 7. Geschatte herextract-omvang
+
+- 2.0-instrument-fiches: 12
+- 2.0-operatie-fiches: 5
+- 2.0-procedure-fiches: 2
+- 2.0-regime-fiches: 4
+- 2.0-ratio-fiches: 6
 - Kader-fiches (nieuw): 3
-- Familie-fiches (nieuw): 0
-- **Totaal te schrijven**: 35 records
+- Familie-fiches: 1
+- **Totaal te schrijven**: 33 records
+- **v1.x-records die vervallen**: 12
+- **v1.x-records die mogelijk overbodig zijn (te beslissen)**: 8
 ```
 
 ---
@@ -185,10 +234,17 @@ Markdown-bestand: `data/extractie/<PO>/skeleton-voorstel-<timestamp>.md`
 
 ## 6. Stappen
 
-1. Lees alle v1.x-records voor de PO + anchors + TDK's
-2. Bekijk minstens één referentie-mockup per kind
-3. Maak inventaris
-4. Per record: voorstel kind of mergeable
+1. Lees alle TDKs voor de PO uit `data/programma/anchors.json`
+2. Bevraag bronnen-RAG voor sleutel-bronnen op het terrein (sample-chunks van wetteksten/KB/CBN/normen)
+3. Lees ALLE non-deprecated referentie-mockups in `content/experiment/` voor kind-patronen
+4. **Top-down**: identificeer welke concepten zouden moeten bestaan (stap B methodiek)
+5. **Bottom-up**: bevraag concept-RAG voor bestaande v1.x-records met overlap; map ze op je voorgestelde 2.0-fiches
+6. Identificeer gaps (geïdentificeerde concepten zonder v1-seed)
+7. Identificeer overbodige v1-records (geen mapping op 2.0-doelen, geen TDK-dekking)
+8. Familie/kader-detectie (3+ verwante concepten)
+9. TDK-dekking-check tegen TDKs
+10. Schrijf rapport in formaat §4
+11. Log "open vragen" prominent voor mens-review
 5. Vorm consolidatie-clusters
 6. Identificeer ontbrekende kader/regime-fiches
 7. Doe TDK-dekking-check

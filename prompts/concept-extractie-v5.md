@@ -144,6 +144,9 @@ Eén concept-eenheid met meerdere weergaven onder één titel — niet drie loss
 | `inferred` | Combinatie/redenering uit bronnen; `bron[]`-lijst optioneel | 🔗 |
 | `vuistregel` | Beroepswijsheid zonder verifieerbare bron | 🧭 |
 | `te_verifieren` | Bron ontbreekt of nog te checken | ⚠️ |
+| `tegenstrijdig` | Bron is gevonden en spreekt claim tegen — fix vereist | ❌ |
+
+**Verschil ⚠️ vs ❌**: ⚠️ = nog niet gecheckt (mogelijk OK); ❌ = gecheckt en fout volgens bron — actie-eis voor de volgende pass.
 
 **🧭-gradatie**: vuistregel TOEGESTAAN voor:
 - Voor wie · wanneer wel/niet · hoofdrisico · hoofdvoordeel

@@ -144,10 +144,13 @@ JSON-vorm:
 | `inferred` | Redenering uit combinatie bronnen | 🔗 |
 | `vuistregel` | Beroepswijsheid, geen harde regel | 🧭 |
 | `te_verifieren` | Bron ontbreekt of nog te checken | ⚠️ |
+| `tegenstrijdig` | Bron is gevonden en spreekt de claim **tegen** — fix vereist | ❌ |
 
 In JSON: string-veld `confidence` per element/claim. In markdown-render: emoji-prefix.
 
-**🧭-gradatie**: vuistregel toegestaan voor *strategisch advies* (wanneer kies je · voor wie · hoofdrisico/voordeel · speelruimte · valkuilen-in-uitvoering) — niet voor *procedures · cijfers · wettelijke voorwaarden · rekening-codes · tarieven*. Daar geldt: ⚖️ of ⚠️.
+**Verschil ⚠️ vs ❌**: ⚠️ = nog niet gecheckt (mogelijk OK); ❌ = gecheckt en fout volgens bron. ❌ is een actie-eis voor de volgende refinement-pass, geen wachtwoord.
+
+**🧭-gradatie**: vuistregel toegestaan voor *strategisch advies* (wanneer kies je · voor wie · hoofdrisico/voordeel · speelruimte · valkuilen-in-uitvoering) — niet voor *procedures · cijfers · wettelijke voorwaarden · rekening-codes · tarieven*. Daar geldt: ⚖️ of ⚠️ (of ❌ als bron tegenspreekt).
 
 ### 6. Nieuwe edges
 

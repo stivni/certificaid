@@ -58,8 +58,9 @@ Verbreed met:
 **Aanpak**:
 1. Per element met `confidence: grounded`: query bronnen-RAG met de claim
 2. Als geen bron-chunk de claim ondersteunt → suggestie `hallucinatie_risico` met severity `suggestion`
-3. Bij ⚠️-claims: geen check (al gemarkeerd als onzeker)
-4. Bij 🧭-claims: spot-check op tegenstrijdigheid met bronnen — als de vuistregel *tegen* een bron-claim ingaat → suggestie `vuistregel_tegenstrijdig`
+3. Als bron-chunk de claim **actief tegenspreekt** → suggestie `tegenstrijdig_met_bron` met severity `error` (sterker signaal dan suggestion — refinement-pass moet `confidence: tegenstrijdig` ❌ zetten op het element)
+4. Bij ⚠️-claims: geen check (al gemarkeerd als onzeker)
+5. Bij 🧭-claims: spot-check op tegenstrijdigheid met bronnen — als de vuistregel *tegen* een bron-claim ingaat → suggestie `vuistregel_tegenstrijdig` met severity `error`
 
 **Vuistregel**: 5 % hallucinatie-risico is normaal voor LLM-output; > 15 % is signaal voor prompt-aanpassing.
 
