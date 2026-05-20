@@ -214,6 +214,16 @@ def render_vraagtekst_blokken(blokken: list[dict[str, Any]]) -> str:
                 for r in regels
             )
             delen.append(kop + "\n" + lijst)
+        elif blok_type == "kosten_lijst":
+            kop = "**Kosten / uitgaven**"
+            regels = blok.get("regels", []) or []
+            eenheid = blok.get("eenheid", "EUR")
+            lijst = "\n".join(
+                f"- {r.get('post', '')}: "
+                f"{_formatteer_bedrag(r.get('bedrag'))} {eenheid}"
+                for r in regels
+            )
+            delen.append(kop + "\n" + lijst)
         elif blok_type == "balans":
             kop = "**Balans**"
             sub: list[str] = []
@@ -534,6 +544,36 @@ def render_antwoord_blok(blok: dict[str, Any]) -> str:
     if btype == "grondslag":
         bronnen = blok.get("bronnen") or []
         return f"_Grondslag: {'; '.join(bronnen)}._{conf}".rstrip()
+    if btype == "juist_fout":
+        claim = (blok.get("claim") or "").replace("|", "\\|").replace("\n", " ")
+        juistheid = blok.get("juistheid", "?")
+        motivatie = (blok.get("motivatie") or "").replace("|", "\\|").replace("\n", " ")
+        merker = "✓ juist" if juistheid == "juist" else "✗ fout"
+        return (
+            f"**Juist/fout-stelling**{conf}\n\n"
+            f"| Claim | Oordeel | Motivatie |\n"
+            f"|---|---|---|\n"
+            f"| {claim} | {merker} | {motivatie} |"
+        )
+    if btype == "mc_keuze":
+        labels = blok.get("geselecteerde_labels") or []
+        motivatie = (blok.get("motivatie") or "").replace("|", "\\|").replace("\n", " ")
+        verworpen = blok.get("verworpen_labels_met_motivatie") or []
+        regels: list[str] = [
+            f"**MC-keuze**{conf}",
+            "",
+            "| Status | Label | Motivatie |",
+            "|:-:|:-:|:--|",
+        ]
+        for lab in labels:
+            regels.append(f"| ✓ | **{lab}** | {motivatie if motivatie else ''} |")
+        for v in verworpen:
+            if not isinstance(v, dict):
+                continue
+            lab = v.get("label", "?")
+            mot = (v.get("motivatie") or "").replace("|", "\\|").replace("\n", " ")
+            regels.append(f"| ✗ | {lab} | {mot} |")
+        return "\n".join(regels)
     return ""
 
 
@@ -698,7 +738,16 @@ def render_subvragen(vraag: dict[str, Any]) -> str:
         tekst = (sub.get("tekst") or "").strip()
         delen.append(f"#### Subvraag {label}")
         delen.append("")
-        if tekst:
+        sub_blokken = sub.get("vraagtekst_blokken")
+        if isinstance(sub_blokken, list) and sub_blokken:
+            sub_md = render_vraagtekst_blokken(sub_blokken)
+            if sub_md.strip():
+                delen.append(sub_md)
+            elif tekst:
+                delen.append(tekst)
+            else:
+                delen.append("_(geen vraagtekst voor subvraag)_")
+        elif tekst:
             delen.append(tekst)
         else:
             delen.append("_(geen vraagtekst voor subvraag)_")

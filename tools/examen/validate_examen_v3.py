@@ -27,6 +27,8 @@ GELDIGE_BLOK_TYPES = {
     "inventaris", "marktwaarde", "aanpassing",
     "casus_context", "vraag_instructie", "bijlage_verwijzing",
     "mc_optie", "berekening_gegeven",
+    # v3.2
+    "kosten_lijst",
 }
 
 # Per blok-type: (verplichte velden, ...
@@ -40,6 +42,7 @@ _REQUIRED: dict[str, list[str]] = {
     "balans": [],
     "resultatenrekening": ["regels"],
     "inventaris": ["regels"],
+    "kosten_lijst": ["regels"],
     "marktwaarde": ["bedrag"],
     "aanpassing": ["bedrag"],
     "casus_context": ["inhoud"],
@@ -112,6 +115,8 @@ def valideer_blok(blok: Any, path: str) -> list[str]:
     elif btype == "rekeningstaat":
         fouten.extend(_check_regels_lijst(blok.get("regels"), ["rekening", "naam", "bedrag"], path))
     elif btype == "inventaris":
+        fouten.extend(_check_regels_lijst(blok.get("regels"), ["post", "bedrag"], path))
+    elif btype == "kosten_lijst":
         fouten.extend(_check_regels_lijst(blok.get("regels"), ["post", "bedrag"], path))
     elif btype == "resultatenrekening":
         fouten.extend(_check_regels_lijst(blok.get("regels"), ["post", "bedrag"], path))

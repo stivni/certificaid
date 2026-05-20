@@ -24,7 +24,11 @@ EXAMEN_DIR = BASE_DIR / "data" / "programma" / "examen_vragen"
 GELDIGE_BLOK_TYPES = {
     "motivatie", "boeking", "berekening", "opsomming", "procedure",
     "definitie", "tabel", "conclusie", "grondslag",
+    # v1.1 (ADR-023 §v1.1)
+    "juist_fout", "mc_keuze",
 }
+
+GELDIGE_JUISTHEID = {"juist", "fout"}
 
 GELDIGE_CONFIDENCE = {"grounded", "inferred"}
 
@@ -135,6 +139,46 @@ def valideer_blok(blok: Any, path: str) -> list[str]:
             for i, b in enumerate(bronnen):
                 if not isinstance(b, str):
                     fouten.append(f"{path}.bronnen[{i}]: geen string")
+    elif btype == "juist_fout":
+        fouten.extend(_check_string(blok, "claim", path))
+        juistheid = blok.get("juistheid")
+        if juistheid not in GELDIGE_JUISTHEID:
+            fouten.append(
+                f"{path}: juistheid {juistheid!r} niet in {GELDIGE_JUISTHEID}"
+            )
+        if "motivatie" in blok:
+            fouten.extend(_check_string(blok, "motivatie", path, vereist=False))
+    elif btype == "mc_keuze":
+        labels = blok.get("geselecteerde_labels")
+        if not isinstance(labels, list) or not labels:
+            fouten.append(f"{path}: 'geselecteerde_labels' is geen niet-lege list")
+        else:
+            for i, lab in enumerate(labels):
+                if not isinstance(lab, str):
+                    fouten.append(f"{path}.geselecteerde_labels[{i}]: geen string")
+        if "motivatie" in blok:
+            fouten.extend(_check_string(blok, "motivatie", path, vereist=False))
+        if "verworpen_labels_met_motivatie" in blok:
+            verw = blok["verworpen_labels_met_motivatie"]
+            if not isinstance(verw, list):
+                fouten.append(f"{path}: 'verworpen_labels_met_motivatie' geen list")
+            else:
+                for i, v in enumerate(verw):
+                    if not isinstance(v, dict):
+                        fouten.append(
+                            f"{path}.verworpen_labels_met_motivatie[{i}]: geen dict"
+                        )
+                        continue
+                    if "label" not in v or not isinstance(v["label"], str):
+                        fouten.append(
+                            f"{path}.verworpen_labels_met_motivatie[{i}]: "
+                            f"'label' ontbreekt of geen string"
+                        )
+                    if "motivatie" in v and not isinstance(v["motivatie"], str):
+                        fouten.append(
+                            f"{path}.verworpen_labels_met_motivatie[{i}]: "
+                            f"'motivatie' geen string"
+                        )
     return fouten
 
 

@@ -8,7 +8,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T00:20:08.959800+00:00",
+    "extracted_at": "2026-05-20T01:11:45.941778+00:00",
     "n_vragen": 11,
     "n_pages": 6,
     "n_tabellen_geaccepteerd": 0,
@@ -595,7 +595,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.163318+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.357117+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "inferred",
@@ -1533,7 +1533,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.163318+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.357117+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "grounded",
@@ -2173,7 +2173,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.163318+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.357117+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "inferred",
@@ -2727,7 +2727,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T00:20:08.960169+00:00",
+    "uitgevoerd_op": "2026-05-20T01:11:45.942084+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2024-1.json",
     "behouden_antwoorden": 3,
     "behouden_gap_reports": 2,

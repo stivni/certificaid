@@ -558,6 +558,107 @@ def _scan_casus_context(tekst: str) -> list[_Detectie]:
 
 
 # ---------------------------------------------------------------------------
+# v3.2: kosten_lijst detector
+# ---------------------------------------------------------------------------
+
+# Een kost-bullet: "- post-tekst bedrag (eur(o))?"
+# Post mag dubbele punt + apostrof bevatten ("kosten van vooronderzoek: studiebureau's")
+# maar geen cijfers (die signaleren het bedrag).
+_KOSTEN_BULLET = re.compile(
+    r"(?:^|\n)\s*-\s+([A-Za-zéèêëàâäôöûüçïî][^\n0-9]{2,160}?)\s+"
+    r"([\d\.\s]+(?:,\d{2})?)\s*(?:EUR|euro)?\s*(?=\n|$)",
+    re.IGNORECASE,
+)
+
+# Intro-zin die suggereert dat de bullet-lijst kosten/uitgaven beschrijft.
+# Conservatief: alleen bekende lemma's vlak vóór de bullets.
+_KOSTEN_INTRO_LEMMA = re.compile(
+    r"\b(kosten|uitgaven|bedragen|posten|investering(?:en)?)\b[^\n]{0,80}:?\s*(?:\n|$)",
+    re.IGNORECASE,
+)
+
+
+def _scan_kosten_lijst(tekst: str) -> list[_Detectie]:
+    """Detecteer een bullet-lijst met kost-posten + bedragen.
+
+    Conservatief: minimaal 2 bullets achtereen + intro-zin met
+    `kosten`/`uitgaven`/`bedragen`/`posten`/`investering(en)` vlak ervoor.
+    Returnt één `kosten_lijst`-blok met `regels[{post, bedrag}]` + `eenheid`.
+    """
+    matches = list(_KOSTEN_BULLET.finditer(tekst))
+    if len(matches) < 2:
+        return []
+    # Groepeer aaneengesloten bullets (< 80 chars tussen) en check intro vlak ervoor.
+    groepen: list[list[re.Match]] = []
+    huidige: list[re.Match] = []
+    for m in matches:
+        if not huidige:
+            huidige.append(m)
+            continue
+        gap = m.start() - huidige[-1].end()
+        if gap < 80:
+            huidige.append(m)
+        else:
+            groepen.append(huidige)
+            huidige = [m]
+    if huidige:
+        groepen.append(huidige)
+
+    detecties: list[_Detectie] = []
+    for groep in groepen:
+        if len(groep) < 2:
+            continue
+        # Check intro vlak vóór (binnen 200 chars terug)
+        voor_start = groep[0].start()
+        voor_window = tekst[max(0, voor_start - 200):voor_start]
+        if not _KOSTEN_INTRO_LEMMA.search(voor_window):
+            continue
+        regels = []
+        for m in groep:
+            bedrag = parse_bedrag(m.group(2))
+            if bedrag is None:
+                continue
+            post = m.group(1).strip().rstrip(":,;")
+            regels.append({"post": post, "bedrag": bedrag})
+        if len(regels) < 2:
+            continue
+        blok = {
+            "type": "kosten_lijst",
+            "regels": regels,
+            "eenheid": "EUR",
+        }
+        detecties.append(
+            _Detectie(start=groep[0].start(), end=groep[-1].end(), blok=blok)
+        )
+    return detecties
+
+
+# ---------------------------------------------------------------------------
+# v3.2: "Gevraagd:" splitter (context↔vraag-grens)
+# ---------------------------------------------------------------------------
+
+_GEVRAAGD_MARKER = re.compile(
+    r"\b(Gevraagd|Opdracht)\s*[:\.]\s*",
+    re.IGNORECASE,
+)
+
+
+def _splits_op_gevraagd(tekst: str) -> Optional[tuple[str, str]]:
+    """Als 'Gevraagd:' / 'Opdracht:' in de tekst staat, splits in (voor, na).
+
+    Returnt None wanneer geen marker aanwezig.
+    """
+    m = _GEVRAAGD_MARKER.search(tekst)
+    if not m:
+        return None
+    voor = tekst[:m.start()].strip()
+    na = tekst[m.end():].strip()
+    if not voor or not na:
+        return None
+    return voor, na
+
+
+# ---------------------------------------------------------------------------
 # Composit: typed-blokken uit één tekst
 # ---------------------------------------------------------------------------
 
@@ -577,6 +678,9 @@ def detecteer_typed_blokken(tekst: str) -> list[dict[str, Any]]:
     prio_volgorde: list[tuple[str, callable]] = [
         ("proef_saldibalans", _scan_proef_saldibalans),
         ("rekeningstaat", _scan_rekeningstaat),
+        # v3.2: kosten_lijst voorrang op inventaris omdat ze dezelfde
+        # bullet-syntax delen; kosten_lijst vereist expliciete kosten-intro.
+        ("kosten_lijst", _scan_kosten_lijst),
         ("inventaris", _scan_inventaris),
         ("marktwaarde", _scan_marktwaarde),
         ("aanpassing", _scan_aanpassing),
@@ -780,3 +884,280 @@ def concat_v3_blokken_naar_vraagtekst(blokken: list[dict[str, Any]]) -> str:
     """Bouw flat vraagtekst op uit v3-blokken (backward-compat)."""
     parts = [render_blok_als_markdown(b) for b in blokken]
     return "\n\n".join(p for p in parts if p).strip()
+
+
+# ---------------------------------------------------------------------------
+# v3.2: post-processors voor MC-deduplicatie + tabel→mc_optie conversie
+# + "Gevraagd:" splitter + subvraag-whitespace cleanup
+# ---------------------------------------------------------------------------
+
+_MC_OPTIE_VERWACHTING_RE = re.compile(
+    r"\b(?:kruis\s+aan|het\s+juiste\s+antwoord|welke\s+(?:van|zijn|is)|"
+    r"kies\s+(?:de|het)|duid\s+aan|aanvinken|juist[/\s]+fout|waar[/\s]+onwaar)\b",
+    re.IGNORECASE,
+)
+
+
+def _is_1koloms_inhoud(rows: list[list[str]]) -> bool:
+    """True als alle rijen exact 1 niet-lege cel hebben (of 2 cellen waarvan
+    de tweede leeg is — typisch een checkbox-kolom in de PDF-tabel).
+    """
+    if not rows:
+        return False
+    for r in rows:
+        if not isinstance(r, list):
+            return False
+        niet_leeg = [c for c in r if isinstance(c, str) and c.strip()]
+        if len(niet_leeg) != 1:
+            return False
+    return True
+
+
+def _label_volgorde(n: int) -> list[str]:
+    """Genereer A, B, C, ... voor n items."""
+    if n <= 26:
+        return [chr(ord("A") + i) for i in range(n)]
+    return [str(i + 1) for i in range(n)]
+
+
+def converteer_1koloms_tabel_naar_mc_opties(
+    blokken: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """v3.2: converteer 1-koloms tabellen (≥ 3 rijen) na een MC-instructie
+    naar `mc_optie`-blokken.
+
+    Heuristiek:
+    - Zoek `tabel`-blokken met `_is_1koloms_inhoud`-rijen, ≥ 3 rijen
+    - Check of ergens in een eerder blok (`tekst`, `vraag_instructie`) een
+      MC-instructie staat (kruis aan / het juiste antwoord / welke ...)
+    - Vervang het tabel-blok door een sequentie van `mc_optie`-blokken
+      met labels A/B/C/...
+
+    Returnt nieuwe blokken-lijst.
+    """
+    if not blokken:
+        return blokken
+    resultaat: list[dict[str, Any]] = []
+    instructie_gezien = False
+    for blok in blokken:
+        btype = blok.get("type")
+        if btype in ("tekst", "vraag_instructie", "casus_context"):
+            inhoud = blok.get("inhoud") or ""
+            if _MC_OPTIE_VERWACHTING_RE.search(inhoud):
+                instructie_gezien = True
+        if (
+            btype == "tabel"
+            and instructie_gezien
+            and _is_1koloms_inhoud(blok.get("rows") or [])
+            and len(blok.get("rows") or []) >= 3
+        ):
+            rows = blok["rows"]
+            labels = _label_volgorde(len(rows))
+            for label, rij in zip(labels, rows):
+                niet_leeg = [c for c in rij if isinstance(c, str) and c.strip()]
+                tekst = niet_leeg[0].strip() if niet_leeg else ""
+                resultaat.append({
+                    "type": "mc_optie",
+                    "label": label,
+                    "tekst": tekst,
+                })
+            # `instructie_gezien` blijft True zodat een vraag met meerdere
+            # subvragen + telkens een 1-koloms tabel allemaal geconverteerd
+            # worden (bv. 2013-1-vr2 met 3 subvragen + 3 MC-tabellen).
+            continue
+        resultaat.append(blok)
+    return resultaat
+
+
+def deduplicate_mc_optie_subvraag(
+    vraagtekst_blokken: list[dict[str, Any]],
+    subvraag_labels: list[str],
+) -> list[dict[str, Any]]:
+    """v3.2: verwijder `mc_optie`-blokken waarvan het `label` overlapt met
+    een subvraag-letter-marker.
+
+    `subvraag_labels` zijn de labels uit `subvragen[]`, bv. ['a)', 'b)', 'c)'].
+    Een mc_optie met label "a" matched met subvraag-label "a)" of "a".
+    """
+    if not subvraag_labels:
+        return vraagtekst_blokken
+    # Normaliseer subvraag-labels: strip parens/dots, lowercase
+    sub_letters = set()
+    for s in subvraag_labels:
+        if not s:
+            continue
+        cleaned = s.strip().lower().rstrip(")").rstrip(".")
+        if cleaned:
+            sub_letters.add(cleaned)
+    if not sub_letters:
+        return vraagtekst_blokken
+    resultaat: list[dict[str, Any]] = []
+    for b in vraagtekst_blokken:
+        if b.get("type") == "mc_optie":
+            label = (b.get("label") or "").strip().lower().rstrip(")").rstrip(".")
+            if label in sub_letters:
+                # Skip — dit is een subvraag-marker, geen MC-optie
+                continue
+        resultaat.append(b)
+    return resultaat
+
+
+_KORT_RESIDUE_LEN = 50
+
+
+def cleanup_subvraag_whitespace_residue(
+    vraagtekst_blokken: list[dict[str, Any]],
+    subvraag_labels: list[str],
+    subvraag_teksten: Optional[list[str]] = None,
+) -> tuple[list[dict[str, Any]], dict[str, str]]:
+    """v3.2: als een tekst-blok < 50 tekens direct na een subvraag-residue staat
+    en geen eigen letter-marker bevat, hecht het terug aan de vorige subvraag.
+
+    Returnt (gefilterde blokken, dict[subvraag_label → terug-te-koppelen-tekst]).
+    De caller gebruikt het dict om de subvraag-`tekst` aan te vullen.
+
+    Twee scenario's:
+    1. Korte tekst-residue na een subvraag-marker (mc_optie of "X)"-tekst) →
+       plak aan de marker.
+    2. Loose korte tekst-blok wiens inhoud een substring is van een bestaande
+       subvraag-tekst (PDF-wrap residue) → laat vallen.
+    """
+    if not subvraag_labels:
+        return vraagtekst_blokken, {}
+    sub_set = {
+        (s or "").strip().lower().rstrip(")").rstrip(".")
+        for s in subvraag_labels
+    }
+    sub_set.discard("")
+    resultaat: list[dict[str, Any]] = []
+    plak_aan: dict[str, str] = {}
+    laatste_sub_label: Optional[str] = None
+    for b in vraagtekst_blokken:
+        btype = b.get("type")
+        if btype == "mc_optie":
+            lbl = (b.get("label") or "").strip().lower().rstrip(")").rstrip(".")
+            if lbl in sub_set:
+                laatste_sub_label = lbl
+                resultaat.append(b)
+                continue
+            laatste_sub_label = None
+            resultaat.append(b)
+            continue
+        if btype == "tekst":
+            inh = (b.get("inhoud") or "").strip()
+            # 1) Korte tekst-residue na een subvraag-marker → plak aan
+            if (
+                laatste_sub_label is not None
+                and len(inh) < _KORT_RESIDUE_LEN
+                and not re.match(r"^[A-Za-z][\.\)]\s+", inh)
+            ):
+                plak_aan[laatste_sub_label] = (
+                    plak_aan.get(laatste_sub_label, "") + " " + inh
+                ).strip()
+                laatste_sub_label = None
+                continue
+            # 2) Loose korte tekst die letterlijk in een bestaande subvraag-
+            #    tekst voorkomt → drop (PDF-wrap residue).
+            if (
+                subvraag_teksten
+                and len(inh) < _KORT_RESIDUE_LEN
+                and not re.match(r"^[A-Za-z][\.\)]\s+", inh)
+            ):
+                gedropt = False
+                for sv_tekst in subvraag_teksten:
+                    if sv_tekst and inh in sv_tekst:
+                        gedropt = True
+                        break
+                if gedropt:
+                    laatste_sub_label = None
+                    continue
+            # 3) Tekst-blok dat begint met "X)" of "X." — markeer als
+            #    subvraag-marker. Indien dezelfde inhoud al in subvraag X
+            #    zit → drop (PDF-page-wrap residue); anders bewaren als
+            #    marker.
+            m_marker = re.match(r"^\s*([A-Za-z])[\)\.]\s+(.*)", inh, re.DOTALL)
+            if m_marker:
+                lbl = m_marker.group(1).lower()
+                if lbl in sub_set:
+                    payload = m_marker.group(2).strip()
+                    # Vergelijk met subvraag-tekst van diezelfde label
+                    if subvraag_teksten:
+                        # Map sub label index → tekst
+                        sub_pairs = list(zip(
+                            [
+                                (s or "").strip().lower().rstrip(")").rstrip(".")
+                                for s in subvraag_labels
+                            ],
+                            subvraag_teksten,
+                        ))
+                        for sub_lbl, sub_t in sub_pairs:
+                            if sub_lbl == lbl and sub_t:
+                                # Vergelijk eerste 30 chars (PDF wrap voegt
+                                # \n in, dus exact-vergelijking is broos)
+                                p_norm = re.sub(r"\s+", " ", payload)[:80]
+                                s_norm = re.sub(r"\s+", " ", sub_t)[:80]
+                                if p_norm and (
+                                    p_norm in s_norm or s_norm in p_norm
+                                ):
+                                    # Duplicaat — drop
+                                    laatste_sub_label = lbl
+                                    break
+                        else:
+                            laatste_sub_label = lbl
+                            resultaat.append(b)
+                            continue
+                        # gedropt → laatste_sub_label gezet, geen append
+                        continue
+                    laatste_sub_label = lbl
+                    resultaat.append(b)
+                    continue
+        laatste_sub_label = None
+        resultaat.append(b)
+    return resultaat, plak_aan
+
+
+def splits_blokken_op_gevraagd(
+    blokken: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """v3.2: als een tekst-blok 'Gevraagd:' / 'Opdracht:' bevat, splits het.
+
+    Tekst ervóór → casus_context (mits ≥ 50 tokens), erna → opnieuw door
+    detecteer_typed_blokken halen.
+    """
+    nieuw: list[dict[str, Any]] = []
+    for b in blokken:
+        if b.get("type") != "tekst":
+            nieuw.append(b)
+            continue
+        inh = (b.get("inhoud") or "").strip()
+        if not inh:
+            nieuw.append(b)
+            continue
+        split = _splits_op_gevraagd(inh)
+        if split is None:
+            nieuw.append(b)
+            continue
+        voor, na = split
+        # voor → casus_context indien lang genoeg, anders gewone tekst
+        if voor:
+            if len(voor.split()) >= 20:
+                nieuw.append({"type": "casus_context", "inhoud": voor})
+            else:
+                nieuw.append({"type": "tekst", "inhoud": voor})
+        # na → opnieuw door pipeline halen
+        if na:
+            sub_blokken = detecteer_typed_blokken(na)
+            nieuw.extend(sub_blokken)
+    return nieuw
+
+
+def detecteer_blokken_voor_subvraag(tekst: str) -> list[dict[str, Any]]:
+    """v3.2: bouw `vraagtekst_blokken[]` voor één subvraag.
+
+    Haalt dezelfde detector-pipeline over de subvraag-tekst, maar zonder
+    casus_context-opzuig (subvragen zijn zelden lang verhalend) en zonder
+    de "Gevraagd:"-splitter (subvragen bevatten zelden die marker).
+    """
+    if not tekst or not tekst.strip():
+        return []
+    return detecteer_typed_blokken(tekst)

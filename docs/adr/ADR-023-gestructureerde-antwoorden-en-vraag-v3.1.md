@@ -1,8 +1,38 @@
-# ADR-023: Gestructureerde antwoorden (`correct_antwoord_blokken[]`) + vraag-cleanup v3.1
+# ADR-023: Gestructureerde antwoorden (`correct_antwoord_blokken[]`) + vraag-cleanup v3.1/v3.2
 
-**Status**: Draft
+**Status**: Draft (v1.1 — 2026-05-20)
 **Datum**: 2026-05-20
 **Pilot-scope**: alle 7 voorbeeldexamen-bestanden — 253 vragen, 99 + 13 = 112 modelantwoorden, 49+ subvragen die nog op modelantwoord wachten.
+
+## v1.1 — Changelog-entry (2026-05-20, dezelfde dag als v1.0)
+
+Toegevoegd na user-observatie 2026-05-20 op de eerste output (2013-1-vr2/vr3, plus pattern-scan over alle 7 examens):
+
+**v3.2 vraag-cleanup-additieven** (alle additief op v3.1; geen schema-bump):
+
+1. **mc_optie ↮ subvraag deduplicatie** — als een letter-marker (`a)`/`b)`/`c)`/`d)`/`e)`) zowel in `subvragen[]` als als `mc_optie`-blok in `vraagtekst_blokken[]` voorkomt, wordt het `mc_optie`-blok geschrapt. Echte MC's zijn meerdere kandidaten **binnen** één (sub)vraag, geen sub-vraag-markers. (Bug-1 fix.)
+2. **Tabel→mc_optie-conversie** — een 1-koloms tabel (rijen met 1 niet-lege cel; de tweede cel is leeg = checkbox-kolom) ≥ 3 rijen, voorafgegaan door een instructie zoals "kruis aan", "het juiste antwoord", "welke ...", wordt geconverteerd naar `mc_optie`-blokken (label = A/B/C/... in volgorde). (Bug-3 fix.)
+3. **`kosten_lijst` blok-type** — nieuw typed blok voor bullet-lijsten van kost-/uitgave-posten met bedrag. Detector: regex op `- post X EUR/euro`-bullets met intro-zin "kosten", "uitgaven", "bedragen", "posten". (Bug-2 fix.)
+4. **"Gevraagd:"-splitter** — wanneer een tekst-blok de letterlijke string `"Gevraagd:"` (of `"Gevraagd :"`/`"Vraag:"` indien niet al gestript) bevat, splits alles ervóór naar een `casus_context`-blok en alles erna naar verdere detectie (typisch `vraag_instructie` + subvraag-markers).
+5. **Subvraag-whitespace cleanup** — na subvraag-splitsing (`_sub_vragen_splitter`), als een direct daaropvolgend tekst-blok < 50 tekens is en geen eigen letter-marker bevat, wordt de tekst terug aan de vorige subvraag-`tekst` gehecht. (Bug-1c fix: subvraag c gesplitst over 2 blokken.)
+6. **Subvragen kunnen typed `vraagtekst_blokken[]` dragen** — schema-uitbreiding op `subvragen[]`. Elk subvraag-item krijgt een eigen `vraagtekst_blokken[]` (door dezelfde detector-pipeline gehaald op de subvraag-`tekst`). Bestaande `tekst`-veld blijft als backward-compat. (Bug-1d/e fix: subvragen die per-stuk casus + MC-set hebben.)
+
+**Twee nieuwe antwoord-blok-types** (additief op de 9 uit v1.0; toegevoegd in `validate_antwoord_blokken_v1`):
+
+| Type | Velden | Wanneer |
+|---|---|---|
+| `juist_fout` | `claim`* (string), `juistheid`* (`"juist"`/`"fout"`), `motivatie` (string), `confidence` (optioneel) | Voor stellingen-vragen of subvragen waar het modelantwoord per stelling "juist" of "fout" geeft met motivering ("(a) ... → fout, omdat ..." / "Stelling 1: JUIST omdat ..."). |
+| `mc_keuze` | `geselecteerde_labels`* (`list[string]`), `motivatie` (string), `verworpen_labels_met_motivatie` (`list[{label, motivatie}]`, optioneel), `confidence` (optioneel) | Voor MC-antwoorden waar het modelantwoord een of meerdere labels selecteert + motiveert; en optioneel uitlegt waarom andere opties verworpen zijn ("Antwoord: optie B. Optie A: fout omdat ..."). |
+
+**Render-impact v3.2**:
+- `kosten_lijst`-vraagblok → markdown-bullet-lijst met bedragen
+- `juist_fout`-antwoordblok → tabel "Claim | J/F | Motivatie"
+- `mc_keuze`-antwoordblok → tabel "Status | Label | Motivatie" met ✓/✗-markers
+- Subvraag-niveau `vraagtekst_blokken[]` → render per subvraag eigen sectie (i.p.v. enkel `tekst`-veld)
+
+**Behoud-discipline (ongewijzigd)**: `correct_antwoord`, `antwoord_motivering`, `antwoord_bron`, `antwoord_provenance`, ADR-022-velden, gap-reports, classificatie. Alleen additief.
+
+**STRICT no new content** voor antwoord-rerun: detectoren extraheren patroon uit bestaande tekst; bij geen match → fallback `motivatie`-blok.
 
 ## Context
 
@@ -380,3 +410,4 @@ Bij twijfel of falen op een specifiek record: blijft als single-`motivatie`-blok
 ## Changelog
 
 - **v0.1 (2026-05-20, DRAFT)** — Eerste vastlegging op basis van user-observatie 2026-05-20 (asymmetrie typed vragen vs platte antwoorden) + pattern-scan over 112 modelantwoorden. v3.1 vraag-cleanup en antwoord-blokken in één ADR omdat ze dezelfde rendering-pipeline raken. Status DRAFT — Accepted na review op gegenereerde output.
+- **v1.1 (2026-05-20, DRAFT, dezelfde dag)** — Na visuele inspectie van v3.1-output op 2013-1-vr2/vr3 (zie bovenste changelog-entry): subvraag↮mc_optie-dubbelregistratie weg, 1-koloms tabel → mc_optie-conversie, nieuw `kosten_lijst`-blok, "Gevraagd:"-splitter, subvraag-whitespace cleanup, subvragen typed `vraagtekst_blokken[]`. Plus twee nieuwe antwoord-blok-types `juist_fout` en `mc_keuze` voor MC- en stellingen-rerun. Alles additief; geen schema-bump.

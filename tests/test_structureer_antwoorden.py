@@ -200,3 +200,83 @@ _Grondslag: KB WVV art. 3:124._
         types = [b["type"] for b in blokken]
         assert "tabel" in types
         assert "grondslag" in types
+
+
+class TestExtraheerJuistFout:
+    def test_inline_pijl(self):
+        am = (
+            "a) De stelling over winst → fout, omdat er geen winst meer is.\n"
+            "b) De stelling over schuld → juist, want de boeking klopt.\n"
+        )
+        blokken, rest = S._extraheer_juist_fout(am, antwoord_type="kwalificatie")
+        assert len(blokken) == 2
+        assert blokken[0]["juistheid"] == "fout"
+        assert blokken[1]["juistheid"] == "juist"
+        assert "winst" in blokken[0]["claim"].lower()
+        assert "geen winst meer is" in blokken[0]["motivatie"]
+
+    def test_geen_match(self):
+        am = "Gewone prozatekst zonder stellingen."
+        blokken, rest = S._extraheer_juist_fout(am, antwoord_type="kwalificatie")
+        assert blokken == []
+        assert rest == am
+
+
+class TestExtraheerMCKeuze:
+    def test_antwoord_optie_b(self):
+        am = "Antwoord: optie B. Dit is de juiste keuze omdat het saldo klopt."
+        blok, rest = S._extraheer_mc_keuze(am, antwoord_type="kwalificatie")
+        assert blok is not None
+        assert blok["geselecteerde_labels"] == ["B"]
+        assert "juiste keuze" in blok.get("motivatie", "")
+
+    def test_meerdere_labels(self):
+        am = "Antwoord: A en C. Beide voldoen aan de criteria."
+        blok, rest = S._extraheer_mc_keuze(am, antwoord_type="kwalificatie")
+        assert blok is not None
+        assert set(blok["geselecteerde_labels"]) == {"A", "C"}
+
+    def test_geen_match(self):
+        am = "Gewone proza zonder MC-keuze."
+        blok, rest = S._extraheer_mc_keuze(am, antwoord_type="kwalificatie")
+        assert blok is None
+
+
+class TestValidatorNieuweTypes:
+    def test_juist_fout_geldig(self):
+        from tools.examen import validate_antwoord_blokken_v1 as V
+
+        b = {
+            "type": "juist_fout",
+            "claim": "Schuld is overgeboekt naar kapitaal",
+            "juistheid": "juist",
+            "motivatie": "Want art. X.",
+        }
+        assert V.valideer_blok(b, "t") == []
+
+    def test_juist_fout_ongeldige_juistheid(self):
+        from tools.examen import validate_antwoord_blokken_v1 as V
+
+        b = {"type": "juist_fout", "claim": "x", "juistheid": "misschien"}
+        fouten = V.valideer_blok(b, "t")
+        assert any("juistheid" in x for x in fouten)
+
+    def test_mc_keuze_geldig(self):
+        from tools.examen import validate_antwoord_blokken_v1 as V
+
+        b = {
+            "type": "mc_keuze",
+            "geselecteerde_labels": ["B"],
+            "motivatie": "Klopt.",
+            "verworpen_labels_met_motivatie": [
+                {"label": "A", "motivatie": "Te eng."}
+            ],
+        }
+        assert V.valideer_blok(b, "t") == []
+
+    def test_mc_keuze_mist_labels(self):
+        from tools.examen import validate_antwoord_blokken_v1 as V
+
+        b = {"type": "mc_keuze", "motivatie": "Klopt."}
+        fouten = V.valideer_blok(b, "t")
+        assert any("geselecteerde_labels" in x for x in fouten)

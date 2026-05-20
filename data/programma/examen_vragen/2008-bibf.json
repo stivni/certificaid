@@ -7,13 +7,13 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T00:20:11.412116+00:00",
+    "extracted_at": "2026-05-20T01:11:48.499501+00:00",
     "n_vragen": 37,
     "n_pages": 23,
     "n_tabellen_geaccepteerd": 0,
     "n_tabellen_verworpen": 0,
     "blok_type_counts": {
-      "tekst": 41,
+      "tekst": 42,
       "vraag_instructie": 17,
       "casus_context": 5,
       "mc_optie": 16
@@ -58,15 +58,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR Te betalen vakantiegeld: 18,8 % van 102.000 = 19.176,00 EUR 623 Voorzieningen vakantiegeld 19.176,00 456 Aan Vakantiegeld 19.176,00 Het te betalen vakantiegeld moet op 31 december 2007 worden geboekt."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrA2",
@@ -98,15 +98,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "In 2007: 61 Diensten en diverse goederen 1.000,00 444 Aan Te ontvangen facturen 1.000,00 In 2008 444 Te ontvangen facturen 1.000,00 411 Terug te vorderen BTW 210,00 440 Aan Leveranciers 1.210,00"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrA3",
@@ -137,15 +137,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "300 Grondstoffen 5.000,00 6094 Voorraadwijziging van handelsgoederen 2.000,00 6090 Aan Voorraadwijziging van grondstoffen 5.000,00 340 Handelsgoederen 2.000,00 712 Voorraadwijziging van goederen in 4.000,00 bewerking 330 Gereed produkt 3.000,00 320 Aan Goederen in bewerking 4.000,00 713 Aan Voorraadwijziging gereed produkt 3.000,00"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrA4",
@@ -186,15 +186,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "200 Oprichtingskosten 1.200,00 550 Aan Bank 1.200,00 240 Meubilair en rollend materieel 22.100,00 411 Terug te vorderen BTW 2.100,00 440 Aan Leveranciers 24.200,00 6300 Afschrijvingen op oprichtingskosten 200,00 6302 Afschrijvingen op materiële vaste activa 3.683,33 2009 Aan Afschrijvingen op oprichtingskosten 200,00 2409 Àan Afschrijvingen op rollend materieel 3.683,33 Commentaar: een kleine vennootschap mag volledige annuïteiten afschrijven, maar het boekjaar telt slechts 10 maanden; bijgevolg moet de annuïteit met 10/12den worden vermenigvuldigd. De oprichtingskosten worden afgeschreven over een periode van maximum vijf jaar."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrB1",
@@ -262,7 +262,7 @@
         ],
         "migratie_van": "legacy_antwoord_2008_bibf",
         "opmerking": "Legacy-antwoord verwees naar oude W.Venn.; gemigreerd naar huidige WVV 2019 + MAR-context. Inhoudelijk identiek: B en C zijn verbonden vennootschappen, MAR 280, aanschaffingsprijs-waardering.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -395,7 +395,7 @@
         ],
         "migratie_van": "legacy_antwoord_2008_bibf",
         "opmerking": "Legacy-antwoord verwees naar art. 15 W.Venn. (oud); gemigreerd naar huidige WVV 1:24-1:26. Inhoudelijke conclusie identiek: beide volledig schema via verbondenheidstoets.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -465,7 +465,7 @@
       "vak_code_in_pdf": "B",
       "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "open",
-      "vraagtekst": "De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris opdracht. In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?",
+      "vraagtekst": "De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris\n\nIn welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?",
       "sub_vragen": [],
       "correct_antwoord": "De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse",
       "antwoord_motivering": "De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse goederen In overeenstemming met artikel 134, § 2 Wetboek van vennootschappen, moet de bezoldiging van de commissaris worden vermeld in de toelichting bij de jaarrekening.",
@@ -479,22 +479,26 @@
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris opdracht. In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?"
+          "inhoud": "De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris"
+        },
+        {
+          "type": "tekst",
+          "inhoud": "In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?"
         }
       ],
       "vraag_prefix": "B.3",
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse goederen In overeenstemming met artikel 134, § 2 Wetboek van vennootschappen, moet de bezoldiging van de commissaris worden vermeld in de toelichting bij de jaarrekening."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrB4",
@@ -525,15 +529,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "De totale kost van de bezoldiging voor de opleidingsuren moet worden gewaardeerd; de eventuele terugbetaalde verplaatsingskosten worden eraan toegevoegd alsook de deelnamekosten aan het seminarie."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrC1",
@@ -564,15 +568,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "De behoefte aan bedrijfskapitaal is het netto verschil tussen de bedrijfsbronnen en bedrijfsaanwendingen. Het wordt berekend als verschil tussen enerzijds de niet financiële beperkte vlottende activa en, anderzijds, de niet financiële schulden op ten hoogste één jaar. (3 + 40/41 + 49 van het actief) – (42 + 44 tot 48 + 49 van het passief) Om behoefte aan bedrijfskapitaal te verminderen, moet de omvang van de voorraden en / of vorderingen verminderen. Betalingstermijnen leverancier uitbreiden."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrC2",
@@ -608,15 +612,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "De nieuwe lening zal het eerste jaar een intrestkost van 5.000,00 EUR veroorzaken. De cashflow vermindert zodoende tot 25.000,00 EUR. Rekening houdend met terugbetalingen van 12.000,00 EUR op de bestaande leningen blijft er slechts een vrije cashflow van 13.000,00 EUR over. Indien de nieuwe lening over 5 jaar wordt terugbetaald moet jaarlijks aan kapitaalaflossingen 20.000,00 EUR worden betaald. De vrije cashflow bedraagt slechts 13.000,00 EUR; bijgevolg moet overwogen worden om de lening over een langere periode af te lossen (8 jaar of meer)."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrD1",
@@ -672,6 +676,9 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
@@ -721,10 +728,7 @@
           "type": "motivatie",
           "inhoud": "12. ……."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrD2",
@@ -755,15 +759,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "- De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrE1",
@@ -803,6 +807,9 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
@@ -816,10 +823,7 @@
           "type": "motivatie",
           "inhoud": "Op het vlak van de volgende BTW betalingen: - Maandelijkse betaling van de verschuldigde BTW - Einde van de trimestriële voorschotten - (Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrE2",
@@ -907,15 +911,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Zie subvragen voor het gedetailleerde modelantwoord per deelvraag."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrF1",
@@ -948,6 +952,9 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
@@ -957,10 +964,7 @@
           "type": "motivatie",
           "inhoud": "1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005: - Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrF2",
@@ -992,15 +996,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3/12 en dan 50/50) Divers (1171) 0 (2171) 30 000"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrF3",
@@ -1040,15 +1044,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrF4",
@@ -1080,15 +1084,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB)."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrF5",
@@ -1299,15 +1303,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": false,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB). Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB)."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrH2",
@@ -1337,15 +1341,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": false,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Indien de fiscus in het bezit is van overeenstemmende en ernstige elementen en/of gegevens die een vermoeden scheppen dat de belastingplichtige tekort geschoten is in de aangifte van zijn belastbaar inkomen."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrH3",
@@ -1386,15 +1390,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "- Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd. Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen. - Schenking aan het 3 % tarief dat geldt in Vlaanderen. Mijn dochter betaalt 9.000 euro."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrI1",
@@ -1425,15 +1429,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal (art. 603-604 W.Venn). De statuten kunnen aan de raad van bestuur de bevoegdheid toekennen om het geplaatste maatschappelijk kapitaal in één of meer malen tot een bepaald bedrag te verhogen, dat, voor de vennootschappen die een publiek beroep op het spaarwezen doen of hebben gedaan, niet hoger mag zijn dan het bedrag van dat maatschappelijke kapitaal (art. 603 W. Venn.). De bevoegdheid bedoeld in artikel 603 kan slechts worden uitgeoefend gedurende vijf jaar, te rekenen van de bekendmaking van de oprichtingsakte of van de wijziging van de statuten. Zij kan echter door de algemene vergadering, bij een besluit genomen volgens de regels die voor de wijziging van de statuten zijn gesteld, een of meer malen worden hernieuwd voor een termijn die niet langer mag zijn dan vijf jaar. Wanneer de oprichters of de algemene vergadering besluiten de hierboven bedoelde bevoegdheid toe te kennen of te vernieuwen, worden de bijzondere omstandigheden waarin van het toegestane kapitaal kan gebruikgemaakt worden en de hierbij nagestreefde doeleinden in een bijzonder verslag uiteengezet."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrI2",
@@ -1464,15 +1468,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Een financieel plan moet worden opgesteld bij de oprichting van een BVBA (art. 215 W.Venn), CVBA (art. 391 W.Venn), NV(art. 440 W.Venn), Comm. VA(art. 657 W.Venn), SE en SCE(art. 884 en 959 W.Venn). Het financieel plan moet aantonen dat het bedrag van het kapitaal toereikend is om de voorgenomen bedrijvigheid uit te oefenen. Het financieel plan moet, bij de oprichting, worden overhandigd aan de notaris die het zal bewaren."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrI3",
@@ -1503,15 +1507,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Hij mag de geplande verrichting doen maar hij moet hierover een bijzonder verslag opstellen dat samen met de jaarrekening moet worden neergelegd (art. 261 W. Venn.)."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrI4",
@@ -1542,15 +1546,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een burgerlijke vennootschap, zelfs met handelsvorm, is geen handelaar. Bijgevolg kan ze geen gerechtelijk akkoord bekomen."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrI5",
@@ -1582,15 +1586,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Artikel 229 – 456 – 450 van het Wetboek Vennootschappen"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrJ1",
@@ -1638,15 +1642,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "1° Op woensdag 26 december 2007 (d.i. 3 werkdagen na de kennisname van de feiten; N.B. zondagen en feestdagen worden niet meegeteld). 2° Op vrijdag 28 december 2007 (d.i. drie werkdagen na het ontslag). 3° De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrK1",
@@ -1678,15 +1682,15 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
           "inhoud": "Artikel 21 : onverenigbare situatie vermits U als bestuurder van deze NV een handelsactiviteit zal uitoefenen als bestuurder van deze NV Art. 4 et 6 : Zelfs onafhankelijk van artikel 21, zou er een belangenconflict zijn indien U verder de boekhouding zou voeren van deze NV. Probleem van onafhankelijkheid. OF Ik ga in op het voorstel en neem ontslag als erkend boekhouder(-fiscalist) BIBF."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrK2",
@@ -1718,6 +1722,9 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
@@ -1731,10 +1738,7 @@
           "type": "motivatie",
           "inhoud": "3) Artikel 4 plichtenleer: de boekhouder BIBF moet zijn beroep uitoefenen met de vereiste BEKWAAMHEID, EERLIJKHEID en WAARDIGHEID. → Misbruik maken van een technische vergissing van een confrater is niet eerlijk en niet waardig!"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrK3",
@@ -1774,6 +1778,9 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
@@ -1783,10 +1790,7 @@
           "type": "motivatie",
           "inhoud": "2) Plichtenleer artikel 13, 3e alinea: Het is de boekhouder BIBF verboden op enigerlei wijze commissie of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die strijdig zijn met artikel 4 van dit reglement. → Je mag je broer Paul dus géén aanbrengcommissie geven!"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrK4",
@@ -1819,6 +1823,9 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
@@ -1828,10 +1835,7 @@
           "type": "motivatie",
           "inhoud": "2) Overtreden artikels: - Plichtenleer artikel 5: bijdrage - Plichtenleer artikel 9: gevraagde inlichtingen - Plichtenleer artikel 14: verzekering beroepsaansprakelijkheid - Plichtenleer artikel 15: beroepsvervolmaking"
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     },
     {
       "id": "2008-bibf-vrK5",
@@ -1864,6 +1868,9 @@
       "vraag_onderwerp": null,
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
+      "antwoord_provenance": {
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
+      },
       "correct_antwoord_blokken": [
         {
           "type": "motivatie",
@@ -1881,15 +1888,12 @@
           "type": "motivatie",
           "inhoud": "- Stagiair-zoon: Dit kan, vermits stagiair-boekhouders, net zoals BIBF-leden, mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF-leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder(-fiscalist) BIBF (zie art. 1 en art. 2 §2 KB)."
         }
-      ],
-      "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T00:27:18.010497+00:00"
-      }
+      ]
     }
   ],
   "schema_versie": "3.0",
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T00:20:11.412309+00:00",
+    "uitgevoerd_op": "2026-05-20T01:11:48.499709+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2008-bibf.json",
     "behouden_antwoorden": 32,
     "behouden_gap_reports": 0,

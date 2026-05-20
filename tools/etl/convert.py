@@ -89,7 +89,7 @@ DEFAULT_CHAINS: dict[str, list[str]] = {
     # strip_trailing_french_section: FR-appendix aan einde (MvT RiA-AiR-formulier)
     # merge_eu_reflow_word_splits: word-splits door pymupdf reflow in EU-bestanden
     # promote_eu_structural_labels: ALL-CAPS EU structuurlabels → ## heading
-    "pymupdf_wetboek":          ["cleanup_basics", "strip_letter_spaced_page_headers", "strip_trailing_french_section", "strip_french_bilingue_bleed", "merge_eu_reflow_word_splits", "strip_amendment_overview", "fix_stuck_art_number", "split_merged_headings", "inject_headings_wettekst", "merge_wrapped_headings", "strip_toc_headings_with_art_range", "strip_inline_footnote_block", "strip_concord_table_headings", "strip_duplicate_toc_headings", "strip_leading_toc_heading_block", "fix_pdf_slash_loss_in_article_headings", "promote_wettekst_section_labels", "promote_eu_structural_labels", "promote_roman_rubrieken", "split_long_art_heading", "strip_opgeheven_kb_appendix", "strip_empty_trailing_headings", "emit_frontmatter"],
+    "pymupdf_wetboek":          ["cleanup_basics", "strip_parl_cover_and_appendix", "strip_letter_spaced_page_headers", "strip_trailing_french_section", "strip_french_bilingue_bleed", "merge_eu_reflow_word_splits", "fix_fi_fl_ligature_splits", "merge_soft_hyphen_breaks", "merge_pymupdf_block_paragraph_breaks", "strip_amendment_overview", "fix_stuck_art_number", "split_merged_headings", "strip_pymupdf_toc_leak", "demote_false_structural_headings", "inject_headings_wettekst", "inject_missing_boek_heading", "demote_false_list_item_headings", "split_inline_art_heading_body", "merge_pymupdf_block_paragraph_breaks", "promote_unmarked_section_labels", "merge_wrapped_headings", "strip_toc_headings_with_art_range", "strip_inline_footnote_block", "strip_concord_table_headings", "strip_duplicate_toc_headings", "strip_leading_toc_heading_block", "fix_pdf_slash_loss_in_article_headings", "promote_wettekst_section_labels", "promote_eu_structural_labels", "promote_roman_rubrieken", "split_long_art_heading", "merge_inline_compound_splits", "normalize_bullet_glyphs", "strip_opgeheven_kb_appendix", "strip_empty_trailing_headings", "emit_frontmatter"],
     "cbn_advies":               ["cleanup_basics", "merge_broken_sentences", "fix_italic_spacing", "fix_bold_italic_mixing", "normalize_bullet_glyphs", "emit_frontmatter"],
     # strip_norm_toc_residue: TOC-blokken met dotted/dashed/underscore-leaders (vóór heading-promotion)
     # strip_norm_column_bleed: tweekoloms-PDF-artefacten zoals `## VEREISTEN TOEPASSINGSMODALITEITEN` (ná heading-promotion)
@@ -327,9 +327,10 @@ def _cleanup_steps_for(cfg: dict, method: str) -> list[str]:
         steps = list(DEFAULT_STEPS) + list(cfg.get("cleanup", []))
         return steps
     if method == "pymupdf_wetboek":
-        # Extractor levert al schone output (headings + noise-filter + col-detect).
-        # Alleen blank-line collapse + eventuele bron-specifieke stappen.
-        return ["collapse_blank_lines"] + list(cfg.get("cleanup", []))
+        # Extractor levert al gestructureerde output, maar pymupdf-blokken
+        # behouden vaak meerdere spaties (kolom-padding / gootmarge-residu).
+        # normalize_whitespace expliciet meenemen.
+        return ["normalize_whitespace", "collapse_blank_lines"] + list(cfg.get("cleanup", []))
     if method in ("custom_wetboek", "custom_wib92"):
         # Body is al grotendeels schoon; geen toc-removal of artefact-stripping
         # die het reeds geconverteerde markdown zou kunnen breken.

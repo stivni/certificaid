@@ -275,6 +275,114 @@ class TestResidueStrip:
         assert "\nAntwoord\n" not in rest
 
 
+# ---------------------------------------------------------------------------
+# v3.2: kosten_lijst, mc_optie ↮ subvraag-dedup, tabel→mc, gevraagd-splitter
+# ---------------------------------------------------------------------------
+
+
+class TestKostenLijstDetector:
+    def test_kosten_lijst_basis(self):
+        tekst = (
+            "Volgende kosten werden gemaakt:\n"
+            "- vooronderzoek studiebureau 20.000,00\n"
+            "- ontwikkeling door derden 15.000,00\n"
+            "- aankopen materiaal 180.000,00\n"
+            "Gevraagd: bereken."
+        )
+        blokken = D.detecteer_typed_blokken(tekst)
+        kl = [b for b in blokken if b["type"] == "kosten_lijst"]
+        assert len(kl) == 1
+        assert len(kl[0]["regels"]) == 3
+        assert kl[0]["regels"][0]["post"].startswith("vooronderzoek")
+        assert kl[0]["regels"][0]["bedrag"] == 20000.0
+
+    def test_geen_intro_geen_blok(self):
+        # Bullet-lijst zonder kosten/uitgaven/posten/investeringen-intro
+        # — moet als inventaris of tekst herkend worden, niet als kosten_lijst.
+        tekst = (
+            "Beschrijving van het magazijn:\n"
+            "- iets 100,00\n"
+            "- nog iets 200,00\n"
+        )
+        blokken = D.detecteer_typed_blokken(tekst)
+        assert not any(b["type"] == "kosten_lijst" for b in blokken)
+
+
+class TestTabelNaarMCConversie:
+    def test_1koloms_tabel_wordt_mc(self):
+        blokken = [
+            {"type": "tekst", "inhoud": "Kruis het juiste antwoord aan."},
+            {"type": "tabel", "rows": [["Optie A", ""], ["Optie B", ""], ["Optie C", ""]]},
+        ]
+        nieuw = D.converteer_1koloms_tabel_naar_mc_opties(blokken)
+        mc = [b for b in nieuw if b.get("type") == "mc_optie"]
+        assert len(mc) == 3
+        assert mc[0]["label"] == "A"
+        assert mc[2]["tekst"] == "Optie C"
+
+    def test_zonder_instructie_geen_conversie(self):
+        blokken = [
+            {"type": "tekst", "inhoud": "Beschrijf wat hier staat."},
+            {"type": "tabel", "rows": [["a", ""], ["b", ""], ["c", ""]]},
+        ]
+        nieuw = D.converteer_1koloms_tabel_naar_mc_opties(blokken)
+        # Tabel blijft tabel
+        assert any(b["type"] == "tabel" for b in nieuw)
+
+
+class TestMCSubvraagDedup:
+    def test_dedup_op_label(self):
+        blokken = [
+            {"type": "mc_optie", "label": "a", "tekst": "Iets"},
+            {"type": "mc_optie", "label": "b", "tekst": "Iets anders"},
+        ]
+        sub_labels = ["a)", "b)"]
+        nieuw = D.deduplicate_mc_optie_subvraag(blokken, sub_labels)
+        # Beide MC-blokken verwijderd, want labels matchen subvragen
+        assert not any(b.get("type") == "mc_optie" for b in nieuw)
+
+    def test_geen_dedup_zonder_subvragen(self):
+        blokken = [{"type": "mc_optie", "label": "A", "tekst": "Iets"}]
+        nieuw = D.deduplicate_mc_optie_subvraag(blokken, [])
+        assert len(nieuw) == 1
+
+
+class TestGevraagdSplitter:
+    def test_splitst_casus_en_vraag(self):
+        blokken = [
+            {
+                "type": "tekst",
+                "inhoud": (
+                    "Lange verhalende casus over een vennootschap die kosten "
+                    "maakt voor onderzoek. Er werden materialen aangekocht, "
+                    "personeel betaald en studies gemaakt. "
+                    "Gevraagd: bereken de boekingen."
+                ),
+            }
+        ]
+        nieuw = D.splits_blokken_op_gevraagd(blokken)
+        types = [b["type"] for b in nieuw]
+        assert "casus_context" in types or "tekst" in types
+        # En de instructie zou opnieuw door de pipeline moeten
+        assert any(b.get("type") == "vraag_instructie" or "bereken" in (b.get("inhoud","").lower()) for b in nieuw)
+
+
+class TestSubvraagWhitespaceCleanup:
+    def test_kort_residue_plakt_aan_vorige(self):
+        blokken = [
+            {"type": "mc_optie", "label": "c", "tekst": "rekening?"},
+            {"type": "tekst", "inhoud": "tot op 2 cijfers."},
+            {"type": "mc_optie", "label": "d", "tekst": "Aantal jaren?"},
+        ]
+        sub_labels = ["c)", "d)"]
+        nieuw, plak = D.cleanup_subvraag_whitespace_residue(blokken, sub_labels)
+        # Tekst-blok moet weg zijn
+        assert not any(b.get("type") == "tekst" and "2 cijfers" in (b.get("inhoud") or "") for b in nieuw)
+        # En plak_aan moet de tekst doorgeven voor sub 'c'
+        assert "c" in plak
+        assert "2 cijfers" in plak["c"]
+
+
 class TestCasusContextOpzuig:
     def test_lange_verhalende_tekst_voor_instructie(self):
         # Lange verhalende casus + korte instructie → casus_context wordt gevormd

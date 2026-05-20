@@ -468,6 +468,206 @@ def _extraheer_definitie(
     return blok, rest
 
 
+# ---------------------------------------------------------------------------
+# v1.1 (ADR-023): juist_fout + mc_keuze detectors
+# ---------------------------------------------------------------------------
+
+# "Stelling X: JUIST/FOUT, omdat ..." of "(a) ... → fout/juist, omdat ..."
+_PAT_JUIST_FOUT_STELLING = re.compile(
+    r"(?:^|\n)\s*(?:Stelling\s+)?(?:\(?([a-zA-Z0-9])\)?\.?\s*[:\-—]\s*)?"
+    r"(.{5,200}?)\s*[:\-—→]\s*\*{0,2}(JUIST|FOUT|juist|fout|waar|onwaar|Waar|Onwaar)\*{0,2}"
+    r"\s*[,\.]?\s*(?:omdat|want|aangezien|motivering[:\s])?\s*([^\n]{0,500})",
+    re.MULTILINE,
+)
+
+# Korter patroon: lijn-prefix "a) ... → fout" of "**a)** ... juist"
+_PAT_JF_INLINE = re.compile(
+    r"(?:^|\n)\s*\*{0,2}\(?([a-z])\)?\*{0,2}\s*[:\-—]?\s*([^→\n]{5,300}?)"
+    r"\s*(?:→|⟶|->|=>)\s*\*{0,2}(JUIST|FOUT|juist|fout|waar|onwaar|Waar|Onwaar)\*{0,2}"
+    r"\s*[,\.]?\s*(?:omdat|want|aangezien)?\s*([^\n]{0,400})",
+    re.MULTILINE,
+)
+
+
+def _normaliseer_juistheid(raw: str) -> Optional[str]:
+    rl = raw.strip().lower()
+    if rl in ("juist", "waar"):
+        return "juist"
+    if rl in ("fout", "onwaar"):
+        return "fout"
+    return None
+
+
+def _extraheer_juist_fout(
+    motivering: str, antwoord_type: Optional[str]
+) -> tuple[list[dict[str, Any]], str]:
+    """Detecteer juist/fout-stellingen in modelantwoord-tekst.
+
+    Returnt (lijst van `juist_fout`-blokken, motivering-zonder-die-tekst).
+    """
+    blokken: list[dict[str, Any]] = []
+    bewaard: list[tuple[int, int]] = []
+
+    # 1) Probeer eerst de inline-pijl-variant (a) ... → fout, omdat ...)
+    for m in _PAT_JF_INLINE.finditer(motivering):
+        if any(s <= m.start() < e for s, e in bewaard):
+            continue
+        claim_raw = m.group(2).strip()
+        juistheid = _normaliseer_juistheid(m.group(3))
+        if not juistheid or not claim_raw:
+            continue
+        motivatie_raw = (m.group(4) or "").strip().rstrip(".,")
+        confidence = _detecteer_confidence(m.group(0))
+        blok: dict[str, Any] = {
+            "type": "juist_fout",
+            "claim": claim_raw,
+            "juistheid": juistheid,
+        }
+        if motivatie_raw:
+            blok["motivatie"] = motivatie_raw
+        if confidence:
+            blok["confidence"] = confidence
+        blokken.append(blok)
+        bewaard.append((m.start(), m.end()))
+
+    # 2) "Stelling N: JUIST/FOUT" — alleen wanneer tekst-genoeg "Stelling"
+    # bevat, om false positives op gewone tekst te vermijden
+    if re.search(r"\bStelling\s+\d", motivering, re.IGNORECASE):
+        for m in _PAT_JUIST_FOUT_STELLING.finditer(motivering):
+            if any(s <= m.start() < e for s, e in bewaard):
+                continue
+            juistheid = _normaliseer_juistheid(m.group(3))
+            if not juistheid:
+                continue
+            claim_raw = (m.group(2) or "").strip()
+            if not claim_raw:
+                continue
+            # Vereist context "Stelling" in de match zelf (anders is dit
+            # te losse heuristiek)
+            if not re.search(r"\bStelling\b", m.group(0), re.IGNORECASE):
+                continue
+            motivatie_raw = (m.group(4) or "").strip().rstrip(".,")
+            confidence = _detecteer_confidence(m.group(0))
+            blok: dict[str, Any] = {
+                "type": "juist_fout",
+                "claim": claim_raw,
+                "juistheid": juistheid,
+            }
+            if motivatie_raw:
+                blok["motivatie"] = motivatie_raw
+            if confidence:
+                blok["confidence"] = confidence
+            blokken.append(blok)
+            bewaard.append((m.start(), m.end()))
+
+    if not bewaard:
+        return [], motivering
+
+    bewaard.sort()
+    stukken: list[str] = []
+    cursor = 0
+    for s, e in bewaard:
+        stukken.append(motivering[cursor:s])
+        cursor = e
+    stukken.append(motivering[cursor:])
+    rest = "".join(stukken)
+    return blokken, rest
+
+
+# "Antwoord: optie B" / "Het juiste antwoord is B" / "Antwoord: A en C"
+_PAT_MC_KEUZE = re.compile(
+    r"(?:^|\n)\s*(?:Antwoord|Het\s+juiste\s+antwoord(?:\s+is)?|Correct(?:e)?(?:\s+optie)?|Gekozen)"
+    r"\s*[:\-=]?\s*(?:optie\s+)?([A-Da-d](?:\s*(?:,|en|/|of)\s*[A-Da-d])*)"
+    r"\.?\s*([^\n]{0,400})",
+    re.IGNORECASE,
+)
+
+# "Optie X: FOUT/JUIST, omdat ..." — voor verworpen alternatieven
+_PAT_OPTIE_OORDEEL = re.compile(
+    r"(?:^|\n)\s*\*{0,2}(?:Optie|Antwoord)\s+([A-Da-d])\*{0,2}\s*[:\-—]\s*"
+    r"\*{0,2}(JUIST|FOUT|juist|fout|waar|onwaar)\*{0,2}"
+    r"\s*[,\.]?\s*(?:omdat|want|aangezien)?\s*([^\n]{0,400})",
+)
+
+
+def _extraheer_mc_keuze(
+    motivering: str, antwoord_type: Optional[str]
+) -> tuple[Optional[dict[str, Any]], str]:
+    """Detecteer een MC-keuze-patroon.
+
+    Drie scenario's:
+    1. "Antwoord: optie B. Motivering ..." → 1 geselecteerde + motivatie
+    2. "Optie B: JUIST omdat ... Optie A: FOUT omdat ..." → 1 geselecteerde +
+       lijst van verworpen-met-motivatie
+    3. Combinatie
+
+    Returnt (mc_keuze-blok of None, rest-motivering).
+    """
+    geselecteerd: list[str] = []
+    verworpen: list[dict[str, str]] = []
+    motivatie_hoofd: Optional[str] = None
+    bewaard: list[tuple[int, int]] = []
+
+    # 1) Hoofd-antwoord-patroon
+    m_keuze = _PAT_MC_KEUZE.search(motivering)
+    if m_keuze:
+        labels_raw = m_keuze.group(1)
+        # Splits "B en C" / "A, B" / "B"
+        labels = re.findall(r"[A-Da-d]", labels_raw)
+        labels = [lab.upper() for lab in labels]
+        if labels:
+            geselecteerd = list(dict.fromkeys(labels))  # unique-preserve-order
+            motivatie_hoofd = (m_keuze.group(2) or "").strip().rstrip(".,")
+            bewaard.append((m_keuze.start(), m_keuze.end()))
+
+    # 2) Per-optie-oordeel — verzamelt JUIST→geselecteerd; FOUT→verworpen
+    for m in _PAT_OPTIE_OORDEEL.finditer(motivering):
+        if any(s <= m.start() < e for s, e in bewaard):
+            continue
+        label = m.group(1).upper()
+        juistheid = _normaliseer_juistheid(m.group(2))
+        motivatie_optie = (m.group(3) or "").strip().rstrip(".,")
+        if juistheid == "juist":
+            if label not in geselecteerd:
+                geselecteerd.append(label)
+            if not motivatie_hoofd and motivatie_optie:
+                motivatie_hoofd = motivatie_optie
+            bewaard.append((m.start(), m.end()))
+        elif juistheid == "fout":
+            verw_item: dict[str, str] = {"label": label}
+            if motivatie_optie:
+                verw_item["motivatie"] = motivatie_optie
+            verworpen.append(verw_item)
+            bewaard.append((m.start(), m.end()))
+
+    if not geselecteerd:
+        return None, motivering
+
+    blok: dict[str, Any] = {
+        "type": "mc_keuze",
+        "geselecteerde_labels": geselecteerd,
+    }
+    if motivatie_hoofd:
+        blok["motivatie"] = motivatie_hoofd
+    if verworpen:
+        blok["verworpen_labels_met_motivatie"] = verworpen
+    confidence = _detecteer_confidence(
+        "".join(motivering[s:e] for s, e in bewaard)
+    )
+    if confidence:
+        blok["confidence"] = confidence
+
+    bewaard.sort()
+    stukken: list[str] = []
+    cursor = 0
+    for s, e in bewaard:
+        stukken.append(motivering[cursor:s])
+        cursor = e
+    stukken.append(motivering[cursor:])
+    rest = "".join(stukken)
+    return blok, rest
+
+
 def _extraheer_conclusie(motivering: str) -> tuple[Optional[dict[str, Any]], str]:
     """Vind **Conclusie:** of **Antwoord:**-paragraaf."""
     m = _PAT_CONCLUSIE.search(motivering)
@@ -565,6 +765,13 @@ def structureer_antwoord(
     # 7) Trek conclusie/antwoord-kop eruit
     conclusie, motivering = _extraheer_conclusie(motivering)
 
+    # 7b) v1.1: juist_fout-stellingen (vóór mc_keuze, want stellingen-vragen
+    # gebruiken vaak ook "Antwoord: ..."-syntax die per stelling werkt)
+    juist_fout_blokken, motivering = _extraheer_juist_fout(motivering, antwoord_type)
+
+    # 7c) v1.1: mc_keuze (Antwoord: optie B + verworpen-motivatie)
+    mc_keuze, motivering = _extraheer_mc_keuze(motivering, antwoord_type)
+
     # 8) Restant → motivatie-blokken
     motivatie_blokken = _restant_naar_motivatie(motivering)
 
@@ -578,6 +785,9 @@ def structureer_antwoord(
         blokken.append(procedure)
     blokken.extend(boekingen)
     blokken.extend(tabellen)
+    blokken.extend(juist_fout_blokken)
+    if mc_keuze:
+        blokken.append(mc_keuze)
     if conclusie:
         blokken.append(conclusie)
     if grondslag:

@@ -25,9 +25,14 @@ from pathlib import Path
 from typing import Any, Optional
 
 from tools.examen._v3_blok_detectoren import (
+    cleanup_subvraag_whitespace_residue,
     concat_v3_blokken_naar_vraagtekst,
+    converteer_1koloms_tabel_naar_mc_opties,
+    deduplicate_mc_optie_subvraag,
+    detecteer_blokken_voor_subvraag,
     detecteer_typed_blokken,
     lift_top_level_velden,
+    splits_blokken_op_gevraagd,
 )
 from tools.examen.extract_vragen_v2 import (
     EXAMEN_CONFIGS_V2,
@@ -95,6 +100,20 @@ def transformeer_vraag(vraag: dict[str, Any]) -> dict[str, Any]:
     nieuw = dict(vraag)
     v2_blokken = vraag.get("vraagtekst_blokken", []) or []
     v3_blokken, top_velden = transformeer_v2_blokken_naar_v3(v2_blokken)
+    # v3.2: post-processors in volgorde:
+    #   1. "Gevraagd:" splitten (creëert evt. extra casus_context/instructie)
+    #   2. mc_optie ↮ subvraag deduplicatie (verwijdert subvraag-marker-blokken;
+    #      moet vóór de tabel→mc conversie zodat die niet weer mc_opties met
+    #      a/b/c-labels creëert die meteen weggewist worden)
+    #   3. tabel→mc conversie (echte MC-alternatieven uit 1-koloms tabellen)
+    v3_blokken = splits_blokken_op_gevraagd(v3_blokken)
+    subvragen_vroeg = vraag.get("subvragen") or vraag.get("sub_vragen") or []
+    sub_labels_vroeg = [
+        s.get("label") for s in subvragen_vroeg if isinstance(s, dict)
+    ]
+    if sub_labels_vroeg:
+        v3_blokken = deduplicate_mc_optie_subvraag(v3_blokken, sub_labels_vroeg)
+    v3_blokken = converteer_1koloms_tabel_naar_mc_opties(v3_blokken)
     nieuw["vraagtekst_blokken"] = v3_blokken
     # Top-level velden: alleen overschrijven als detector een waarde gaf,
     # anders bestaande v2-velden bewaren (vooral 'punten' kan al gepopulariseerd
@@ -113,16 +132,57 @@ def transformeer_vraag(vraag: dict[str, Any]) -> dict[str, Any]:
         # Behoud bestaande waarde of zet expliciet null
         nieuw.setdefault("vraag_onderwerp", None)
     nieuw["vraag_header_geextracteerd"] = top_velden.get("vraag_header_geextracteerd", False)
+
+    # v3.2: whitespace-cleanup voor subvraag-residue (dedup is al gebeurd
+    # vóór de tabel→mc conversie hierboven).
+    subvragen = nieuw.get("subvragen") or nieuw.get("sub_vragen") or []
+    sub_labels = [s.get("label") for s in subvragen if isinstance(s, dict)]
+    if sub_labels:
+        sub_teksten = [
+            (s.get("tekst") or "") for s in subvragen if isinstance(s, dict)
+        ]
+        nieuw["vraagtekst_blokken"], plak_aan = cleanup_subvraag_whitespace_residue(
+            nieuw["vraagtekst_blokken"], sub_labels, subvraag_teksten=sub_teksten
+        )
+        if plak_aan and isinstance(subvragen, list):
+            for sv in subvragen:
+                if not isinstance(sv, dict):
+                    continue
+                lbl = (sv.get("label") or "").strip().lower().rstrip(")").rstrip(".")
+                if lbl in plak_aan:
+                    bestaande = (sv.get("tekst") or "").strip()
+                    sv["tekst"] = (bestaande + " " + plak_aan[lbl]).strip()
+
+    # v3.2: subvragen krijgen eigen typed vraagtekst_blokken[]
+    for sleutel in ("subvragen", "sub_vragen"):
+        sub_list = nieuw.get(sleutel)
+        if not isinstance(sub_list, list):
+            continue
+        for sv in sub_list:
+            if not isinstance(sv, dict):
+                continue
+            sv_tekst = (sv.get("tekst") or "").strip()
+            if sv_tekst:
+                detected = detecteer_blokken_voor_subvraag(sv_tekst)
+                if detected:
+                    sv["vraagtekst_blokken"] = detected
+
     # Reconstrueer vraagtekst (concat van v3-blokken) wanneer geen tabel
-    bevat_tabel = any(b.get("type") == "tabel" for b in v3_blokken)
+    bevat_tabel = any(b.get("type") == "tabel" for b in nieuw["vraagtekst_blokken"])
     if not bevat_tabel:
-        nieuw["vraagtekst"] = concat_v3_blokken_naar_vraagtekst(v3_blokken)
+        nieuw["vraagtekst"] = concat_v3_blokken_naar_vraagtekst(nieuw["vraagtekst_blokken"])
     # Bij tabel laten we vraagtekst zoals v2 hem had (markdown-tabel)
     return nieuw
 
 
 def transformeer_subvragen(subvragen: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Past dezelfde transformatie toe op subvragen, indien ze blokken hebben."""
+    """Past dezelfde transformatie toe op subvragen, indien ze blokken hebben.
+
+    Let op: deze functie wordt aangeroepen vóór `transformeer_vraag` de
+    subvraag-`tekst` opnieuw door de detector haalt (v3.2). Hier doen we
+    alleen het minimum: v2-blokken → v3-blokken transformatie voor subvragen
+    die al `vraagtekst_blokken` hebben (legacy 2024-1-pad).
+    """
     nieuwe: list[dict[str, Any]] = []
     for sv in subvragen:
         nieuwe_sv = dict(sv)
