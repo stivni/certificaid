@@ -8,7 +8,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:07:46.472249+00:00",
+    "extracted_at": "2026-05-20T01:11:36.515521+00:00",
     "n_vragen": 37,
     "n_pages": 25,
     "n_tabellen_geaccepteerd": 27,
@@ -227,7 +227,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "Eerdere gap-flag voor \"ontbrekende_bijlage\" was onjuist: de balans- en RR-tabel staat volledig in de vraagtekst (vraagtekst_blokken[]). Vraag is kwalificatie (waarderingsregels-verantwoording), geen ratio-berekening.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -451,7 +451,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "inferred",
@@ -554,15 +554,19 @@
       "vak_code_in_pdf": "1.1",
       "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
       "vraagtype": "MC",
-      "vraagtekst": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt\nkan worden in ondermeer fabrieken voor de verplaatsing van zware goederen.\nZij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten\ndoen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf\nwerd geproduceerd en deels bij derden werd ontwikkeld.\nZij heeft hiervoor volgende kosten gehad:\n- kosten van vooronderzoek: studiebureau’s 20.000 euro",
+      "vraagtekst": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt\nkan worden in ondermeer fabrieken voor de verplaatsing van zware goederen.\nZij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten\ndoen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf\nwerd geproduceerd en deels bij derden werd ontwikkeld.\nZij heeft hiervoor volgende kosten gehad:",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
-          "inhoud": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt\nkan worden in ondermeer fabrieken voor de verplaatsing van zware goederen.\nZij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten\ndoen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf\nwerd geproduceerd en deels bij derden werd ontwikkeld.\nZij heeft hiervoor volgende kosten gehad:\n- kosten van vooronderzoek: studiebureau’s 20.000 euro"
+          "inhoud": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt\nkan worden in ondermeer fabrieken voor de verplaatsing van zware goederen.\nZij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten\ndoen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf\nwerd geproduceerd en deels bij derden werd ontwikkeld.\nZij heeft hiervoor volgende kosten gehad:"
         },
         {
           "type": "kosten_lijst",
           "regels": [
+            {
+              "post": "kosten van vooronderzoek: studiebureau’s",
+              "bedrag": 20000.0
+            },
             {
               "post": "ontwikkeling door derden",
               "bedrag": 15000.0
@@ -686,7 +690,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -909,7 +913,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de \"soort vraag\" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "inferred",
@@ -1257,7 +1261,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "inferred",
@@ -1419,7 +1423,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "presentatie",
       "antwoord_confidence": "grounded",
@@ -1494,7 +1498,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "drempel_cijfer",
       "antwoord_confidence": "grounded",
@@ -1578,7 +1582,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "opsomming",
       "antwoord_confidence": "inferred",
@@ -1697,7 +1701,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "procedure",
       "antwoord_confidence": "grounded",
@@ -1819,7 +1823,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "procedure",
       "antwoord_confidence": "inferred",
@@ -1992,7 +1996,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.800311+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.975773+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
@@ -4395,7 +4399,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:07:46.472541+00:00",
+    "uitgevoerd_op": "2026-05-20T01:11:36.515865+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2013-1.json",
     "behouden_antwoorden": 11,
     "behouden_gap_reports": 5,

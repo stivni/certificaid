@@ -8,7 +8,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:07:48.594840+00:00",
+    "extracted_at": "2026-05-20T01:11:39.706638+00:00",
     "n_vragen": 38,
     "n_pages": 26,
     "n_tabellen_geaccepteerd": 45,
@@ -181,7 +181,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -368,7 +368,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -566,7 +566,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -738,7 +738,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -970,7 +970,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de \"soort vraag\" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "inferred",
@@ -1261,7 +1261,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "opsomming",
       "antwoord_confidence": "inferred",
@@ -1419,7 +1419,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "grounded",
@@ -1676,7 +1676,7 @@
         "verify_passed": true,
         "policy_versie_wet": "huidig",
         "opmerking": "Identieke vraag aan 2015-1-vr11 (definitie + 4 oorzaken positief consolidatieverschil) — antwoord-content gespiegeld; bronnen + grondslag onveranderd.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "grounded",
@@ -1749,7 +1749,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "ISA 500 noemt 7 types; vraag vraagt 4 — keuze op basis van klassieke \"voornaamste\" vier in Belgische audit-opleiding.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "opsomming",
       "antwoord_confidence": "grounded",
@@ -1917,7 +1917,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -2043,7 +2043,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
@@ -2167,7 +2167,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -2353,7 +2353,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "Gespiegeld op 2015-1-vr18 (gebeurtenissen na balansdatum) — aanpak identiek.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.808019+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.071055+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "grounded",
@@ -5332,7 +5332,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:07:48.595122+00:00",
+    "uitgevoerd_op": "2026-05-20T01:11:39.707034+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2013-2.json",
     "behouden_antwoorden": 13,
     "behouden_gap_reports": 3,

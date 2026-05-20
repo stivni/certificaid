@@ -1161,3 +1161,163 @@ def detecteer_blokken_voor_subvraag(tekst: str) -> list[dict[str, Any]]:
     if not tekst or not tekst.strip():
         return []
     return detecteer_typed_blokken(tekst)
+
+
+# ---------------------------------------------------------------------------
+# v3.3: MC-toewijzing aan subvragen
+# ---------------------------------------------------------------------------
+
+_SUBVRAAG_MARKER_RE = re.compile(
+    r"(?:^|\n)\s*([a-f])\)\s+",
+    re.MULTILINE,
+)
+"""Subvraag-marker in een originele vraagtekst: nieuwe regel + 'a)' / 'b)' ..."""
+
+
+def _fingerprint_mc_tekst(tekst: str) -> str:
+    """Normaliseer een mc_optie-tekst voor robuuste substring-zoekactie.
+
+    Strips whitespace + lowercased, behoudt eerste 40 chars (genoeg om
+    uniek te zijn binnen één vraag, robuust tegen line-wrap / case-verschil).
+    """
+    norm = re.sub(r"\s+", " ", (tekst or "").strip().lower())
+    return norm[:40]
+
+
+def _zoek_positie_in_origineel(
+    origineel_norm: str, fingerprint: str, vorige_pos: int
+) -> Optional[int]:
+    """Zoek de eerste positie van `fingerprint` in `origineel_norm` vanaf
+    `vorige_pos`. Returnt None als niet gevonden."""
+    if not fingerprint:
+        return None
+    pos = origineel_norm.find(fingerprint, vorige_pos)
+    if pos < 0:
+        # Fallback: zoek vanaf begin (mc_opties kunnen out-of-order zijn
+        # bij rare PDF-extracties)
+        pos = origineel_norm.find(fingerprint, 0)
+    return pos if pos >= 0 else None
+
+
+def _label_voor_index(i: int) -> str:
+    """Lever A, B, C, ... voor index 0, 1, 2, ..."""
+    if i < 26:
+        return chr(ord("A") + i)
+    return str(i + 1)
+
+
+def assign_mc_opties_aan_subvragen(
+    vraagtekst_blokken: list[dict[str, Any]],
+    subvragen: list[dict[str, Any]],
+    origineel_vraagtekst: str,
+) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
+    """v3.3: verplaats `mc_optie`-blokken van vraag-niveau naar subvragen.
+
+    Algoritme:
+      1. Bouw `origineel_norm`: lowercased + whitespace-genormaliseerd
+         versie van de oorspronkelijke vraagtekst.
+      2. Detecteer subvraag-marker-posities (a)/b)/c)/...) in `origineel_norm`
+         via `_SUBVRAAG_MARKER_RE`.
+      3. Per `mc_optie`-blok in `vraagtekst_blokken`: zoek positie via
+         fingerprint van zijn `tekst`. Wijs toe aan de subvraag wiens marker
+         direct ervoor staat.
+      4. mc_opties zonder bijhorende subvraag-marker (vóór de eerste marker
+         of onvindbaar) blijven op vraag-niveau.
+      5. Hernummer mc_opties per subvraag (A, B, C, ... opnieuw per groep).
+
+    Args:
+        vraagtekst_blokken: huidige v3-blokken op vraag-niveau.
+        subvragen: subvraag-records met `label` (bv. 'a)') en optioneel
+            `vraagtekst_blokken`.
+        origineel_vraagtekst: de oorspronkelijke v2-vraagtekst (ongewijzigd
+            door v3-pipeline). Gebruikt voor positie-matching.
+
+    Returns:
+        (nieuwe_vraagtekst_blokken, dict[subvraag_label_norm → list[mc_optie]])
+        — caller is verantwoordelijk voor het effectief inhechten in de
+        subvraag-records.
+    """
+    if not subvragen or not origineel_vraagtekst:
+        return vraagtekst_blokken, {}
+    mc_opties_op_vraagniveau = [
+        (i, b) for i, b in enumerate(vraagtekst_blokken)
+        if b.get("type") == "mc_optie"
+    ]
+    if not mc_opties_op_vraagniveau:
+        return vraagtekst_blokken, {}
+
+    # Normaliseer origineel voor substring-zoektocht
+    origineel_norm = re.sub(r"\s+", " ", origineel_vraagtekst.lower())
+
+    # Detecteer subvraag-marker-posities in origineel
+    marker_posities: list[tuple[str, int]] = []  # (label_norm, start_pos)
+    for m in _SUBVRAAG_MARKER_RE.finditer(origineel_vraagtekst):
+        letter = m.group(1).lower()
+        # Map naar positie in origineel_norm: gebruik genormaliseerde versie
+        # van de tekst tot aan de match-start
+        prefix_norm = re.sub(r"\s+", " ", origineel_vraagtekst[:m.start()].lower())
+        marker_posities.append((letter, len(prefix_norm)))
+
+    if not marker_posities:
+        return vraagtekst_blokken, {}
+
+    # Set van bekende subvraag-labels (uit subvragen[]) voor validatie
+    subvraag_labels_norm: list[str] = []
+    for sv in subvragen:
+        if not isinstance(sv, dict):
+            continue
+        lbl = (sv.get("label") or "").strip().lower().rstrip(")").rstrip(".")
+        if lbl:
+            subvraag_labels_norm.append(lbl)
+    subvraag_labels_set = set(subvraag_labels_norm)
+
+    # Filter marker_posities tot alleen markers waarvan label ook in
+    # subvragen[] bestaat (vermijdt false positives op casus-tekst zoals
+    # "a) Onderneming X" die niet als subvraag-marker telt).
+    marker_posities = [
+        (lbl, pos) for (lbl, pos) in marker_posities if lbl in subvraag_labels_set
+    ]
+    if not marker_posities:
+        return vraagtekst_blokken, {}
+
+    # Bouw mapping: mc_optie-blok-index → (positie_in_origineel, subvraag_label of None)
+    toewijzing: dict[int, Optional[str]] = {}
+    vorige_zoek_pos = 0
+    for idx_in_blokken, blok in mc_opties_op_vraagniveau:
+        fp = _fingerprint_mc_tekst(blok.get("tekst") or "")
+        pos = _zoek_positie_in_origineel(origineel_norm, fp, vorige_zoek_pos)
+        if pos is None:
+            toewijzing[idx_in_blokken] = None
+            continue
+        # Vind meest recente subvraag-marker vóór deze positie
+        toegewezen_label: Optional[str] = None
+        for lbl, mpos in marker_posities:
+            if mpos <= pos:
+                toegewezen_label = lbl
+            else:
+                break
+        toewijzing[idx_in_blokken] = toegewezen_label
+        # Vooruit-cursor zodat opeenvolgende mc_opties in volgorde blijven
+        vorige_zoek_pos = pos + len(fp)
+
+    # Groepeer per subvraag in PDF-volgorde
+    per_subvraag: dict[str, list[dict[str, Any]]] = {}
+    blokken_op_vraagniveau_te_verwijderen: set[int] = set()
+    for idx_in_blokken, lbl in toewijzing.items():
+        if lbl is None:
+            continue
+        blok = vraagtekst_blokken[idx_in_blokken]
+        per_subvraag.setdefault(lbl, []).append(dict(blok))
+        blokken_op_vraagniveau_te_verwijderen.add(idx_in_blokken)
+
+    # Hernummer labels per subvraag (A/B/C/D opnieuw)
+    for lbl, mc_lijst in per_subvraag.items():
+        for i, mc in enumerate(mc_lijst):
+            mc["label"] = _label_voor_index(i)
+
+    # Bouw nieuwe vraagtekst_blokken (zonder de verplaatste mc_opties)
+    nieuwe_blokken = [
+        b for i, b in enumerate(vraagtekst_blokken)
+        if i not in blokken_op_vraagniveau_te_verwijderen
+    ]
+    return nieuwe_blokken, per_subvraag

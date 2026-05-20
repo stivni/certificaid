@@ -593,30 +593,34 @@ def render_modelantwoord_blok(vraag_of_subvraag: dict[str, Any]) -> str:
     ADR-023: gebruikt bij voorkeur `correct_antwoord_blokken[]` (typed)
     voor het motivering-blok wanneer aanwezig; fallback naar de platte
     `antwoord_motivering`-string.
+
+    v3.3 (Taak B): de modelantwoord-tekst zit binnen één **inklapbare**
+    success-callout in plaats van een open H4-sectie. Voorkomt spoilers
+    tijdens oefenen op de render-pagina.
     """
     correct = (vraag_of_subvraag.get("correct_antwoord") or "").strip()
     if not correct:
         return ""
 
-    delen: list[str] = []
-    delen.append("#### Modelantwoord")
-    delen.append("")
-    delen.append(correct)
+    # Bouw de body van de hoofd-callout: eerst het antwoord-zelf, dan
+    # geneste callouts voor motivering, bronnen, provenance.
+    body_delen: list[str] = []
+    body_delen.append(f"**Antwoord**: {correct}")
 
     # ADR-023: typed antwoord-blokken bij voorkeur
     typed_blokken = vraag_of_subvraag.get("correct_antwoord_blokken")
     motivering = (vraag_of_subvraag.get("antwoord_motivering") or "").strip()
     if isinstance(typed_blokken, list) and typed_blokken:
-        body = render_antwoord_blokken(typed_blokken)
-        if body:
-            delen.append("")
-            delen.append(
-                callout("success", "Motivering (typed)", body, inklapbaar=True)
+        motiv_body = render_antwoord_blokken(typed_blokken)
+        if motiv_body:
+            body_delen.append("")
+            body_delen.append(
+                callout("note", "Motivering (typed)", motiv_body, inklapbaar=True)
             )
     elif motivering:
-        delen.append("")
-        delen.append(
-            callout("success", "Motivering", motivering, inklapbaar=True)
+        body_delen.append("")
+        body_delen.append(
+            callout("note", "Motivering", motivering, inklapbaar=True)
         )
 
     bronnen_ruw = vraag_of_subvraag.get("antwoord_bron")
@@ -640,8 +644,8 @@ def render_modelantwoord_blok(vraag_of_subvraag: dict[str, Any]) -> str:
                 bronnen_regels.append(f"- _{bron.strip()}_")
             bronnen_aantal += 1
     if bronnen_regels:
-        delen.append("")
-        delen.append(
+        body_delen.append("")
+        body_delen.append(
             callout(
                 "info",
                 f"Bronnen ({bronnen_aantal})",
@@ -678,8 +682,8 @@ def render_modelantwoord_blok(vraag_of_subvraag: dict[str, Any]) -> str:
         if opmerking:
             prov_regels.append(f"- Opmerking: {opmerking}")
         if prov_regels:
-            delen.append("")
-            delen.append(
+            body_delen.append("")
+            body_delen.append(
                 callout(
                     "info",
                     "Provenance",
@@ -688,7 +692,13 @@ def render_modelantwoord_blok(vraag_of_subvraag: dict[str, Any]) -> str:
                 )
             )
 
-    return "\n".join(delen)
+    body = "\n".join(body_delen)
+    return callout(
+        "success",
+        "Antwoord (klik om te openen)",
+        body,
+        inklapbaar=True,
+    )
 
 
 def render_gap_rapport(vraag_of_subvraag: dict[str, Any]) -> str:

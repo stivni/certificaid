@@ -8,7 +8,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:11:45.941778+00:00",
+    "extracted_at": "2026-05-20T07:22:58.508409+00:00",
     "n_vragen": 11,
     "n_pages": 6,
     "n_tabellen_geaccepteerd": 0,
@@ -2727,7 +2727,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:11:45.942084+00:00",
+    "uitgevoerd_op": "2026-05-20T07:22:58.509120+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2024-1.json",
     "behouden_antwoorden": 3,
     "behouden_gap_reports": 2,

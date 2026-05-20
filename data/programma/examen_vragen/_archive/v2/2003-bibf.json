@@ -7,7 +7,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:07:58.158642+00:00",
+    "extracted_at": "2026-05-20T01:11:46.827191+00:00",
     "n_vragen": 28,
     "n_pages": 8,
     "n_tabellen_geaccepteerd": 0,
@@ -82,7 +82,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -290,7 +290,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "inferred",
@@ -416,7 +416,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "Historische vraag (2003); huidige WER toegepast; inhoudelijke regels identiek.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "inferred",
@@ -524,7 +524,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
@@ -630,7 +630,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
@@ -724,7 +724,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "presentatie",
       "antwoord_confidence": "inferred",
@@ -826,7 +826,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "inferred",
@@ -969,7 +969,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "grounded",
@@ -1105,7 +1105,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.788702+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.628892+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "grounded",
@@ -1789,7 +1789,7 @@
   ],
   "schema_versie": "3.0",
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:07:58.158989+00:00",
+    "uitgevoerd_op": "2026-05-20T01:11:46.827339+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2003-bibf.json",
     "behouden_antwoorden": 9,
     "behouden_gap_reports": 2,

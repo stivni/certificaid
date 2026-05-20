@@ -7,7 +7,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:08:00.856595+00:00",
+    "extracted_at": "2026-05-20T01:11:48.499501+00:00",
     "n_vragen": 37,
     "n_pages": 23,
     "n_tabellen_geaccepteerd": 0,
@@ -59,7 +59,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -99,7 +99,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -138,7 +138,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -187,7 +187,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -262,7 +262,7 @@
         ],
         "migratie_van": "legacy_antwoord_2008_bibf",
         "opmerking": "Legacy-antwoord verwees naar oude W.Venn.; gemigreerd naar huidige WVV 2019 + MAR-context. Inhoudelijk identiek: B en C zijn verbonden vennootschappen, MAR 280, aanschaffingsprijs-waardering.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -395,7 +395,7 @@
         ],
         "migratie_van": "legacy_antwoord_2008_bibf",
         "opmerking": "Legacy-antwoord verwees naar art. 15 W.Venn. (oud); gemigreerd naar huidige WVV 1:24-1:26. Inhoudelijke conclusie identiek: beide volledig schema via verbondenheidstoets.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -491,7 +491,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -530,7 +530,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -569,7 +569,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -613,7 +613,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -677,7 +677,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -760,7 +760,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -808,7 +808,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -912,7 +912,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -953,7 +953,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -997,7 +997,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1045,7 +1045,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1085,7 +1085,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1304,7 +1304,7 @@
       "vraag_header_geextracteerd": false,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1342,7 +1342,7 @@
       "vraag_header_geextracteerd": false,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1391,7 +1391,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1430,7 +1430,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1469,7 +1469,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1508,7 +1508,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1547,7 +1547,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1587,7 +1587,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1643,7 +1643,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1683,7 +1683,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1723,7 +1723,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1779,7 +1779,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1824,7 +1824,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1869,7 +1869,7 @@
       "vraag_header_geextracteerd": true,
       "antwoord_bron": "pdf-modelantwoord",
       "antwoord_provenance": {
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.793919+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:56.669393+00:00"
       },
       "correct_antwoord_blokken": [
         {
@@ -1893,7 +1893,7 @@
   ],
   "schema_versie": "3.0",
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:08:00.857006+00:00",
+    "uitgevoerd_op": "2026-05-20T01:11:48.499709+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2008-bibf.json",
     "behouden_antwoorden": 32,
     "behouden_gap_reports": 0,

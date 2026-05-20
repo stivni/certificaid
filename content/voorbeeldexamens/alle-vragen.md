@@ -48,68 +48,67 @@ _28 vragen — 26 met modelantwoord — 4 met gap-rapport._
 
 **geef de afsluitingsboekingen voor de boekjaren 2002 en 2003.**
 
-#### Modelantwoord
-
-Machine geactiveerd voor 100.000 EUR op rek 23 + afschrijving over gebruiksduur. Kapitaalsubsidie van 10.000 EUR geboekt: Debet 416 (te ontvangen) of 550 (Bank) 10.000 / Credit 15 Kapitaalsubsidies 10.000. Gespreide opname in resultaat: jaarlijks evenredig met de afschrijving van de machine: Debet 15 Kapitaalsubsidies / Credit 7530 Andere niet-recurrente opbrengsten (of 7536 specifiek voor kapitaalsubsidies).
-
-> [!success]- Motivering (typed)
-> **Boekhoudkundige verwerking van een kapitaalsubsidie**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Machine geactiveerd voor 100.000 EUR op rek 23 + afschrijving over gebruiksduur. Kapitaalsubsidie van 10.000 EUR geboekt: Debet 416 (te ontvangen) of 550 (Bank) 10.000 / Credit 15 Kapitaalsubsidies 10.000. Gespreide opname in resultaat: jaarlijks evenredig met de afschrijving van de machine: Debet 15 Kapitaalsubsidies / Credit 7530 Andere niet-recurrente opbrengsten (of 7536 specifiek voor kapitaalsubsidies).
 > 
-> (KB WVV art. 3:50; CBN-advies 2018/02):
+> > [!note]- Motivering (typed)
+> > **Boekhoudkundige verwerking van een kapitaalsubsidie**
+> > 
+> > (KB WVV art. 3:50; CBN-advies 2018/02):
+> > 
+> > ### Stap 1: Bij toezegging/ontvangst van de subsidie
+> > 
+> > Subsidie van € 10.000 wordt geboekt onder eigen vermogen op **rekening 15 'Kapitaalsubsidies'** (KB MAR + KB WVV bijlage). ⚖️ ⚖️
+> > 
+> > - Debet 416 'Diverse vorderingen' (of 550 Bank bij ontvangst) € 10.000
+> > - Credit **15 'Kapitaalsubsidies'** € 10.000
+> > 
+> > ### Stap 2: Aanschaffing machine
+> > 
+> > Klassieke MVA-boeking (KB WVV art. 3:42):
+> > -  Bank) € 100.000
+> > 
+> > ### Stap 3: Jaarlijkse afschrijving van de machine
+> > 
+> > Bv. lineair over 10 jaar: € 10.000 per jaar:
+> > 
+> > ### Stap 4: Gespreide opname van de kapitaalsubsidie in resultaat
+> > 
+> > Parallel met de afschrijving — proportie: subsidie/aanschaffingswaarde = 10.000/100.000 = 10 %. Per jaar wordt 10 % van de jaarlijkse afschrijving in resultaat genomen: € 10.000 × 10 % = € 1.000 per jaar. ⚖️ ⚖️
+> > 
+> > - Debet 15 'Kapitaalsubsidies' € 1.000
+> > - Credit **7536 'Kapitaal- en interestsubsidies'** (of 7530 Andere niet-recurrente opbrengsten) € 1.000
+> > 
+> > Dit gaat 10 jaar door, parallel met de afschrijving. Saldo op rek 15 verminderd elk jaar met € 1.000 (start € 10.000 → eind jaar 1 € 9.000 → ... → eind jaar 10 € 0).
+> > 
+> > **Boeking — Stap 3: Jaarlijkse afschrijving van de machine**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 6302 | Afschrijvingen MVA | 10.000,00 EUR |
+> > | **C** | 2309 | Geboekte afschrijvingen | 10.000,00 EUR |
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 23 | 'Installaties, machines en uitrusting' | 100.000,00 EUR |
+> > | **C** | 440 | 'Leveranciers' (of | 550,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:50; CBN-advies 2018/02 'Kapitaalsubsidies'._
 > 
-> ### Stap 1: Bij toezegging/ontvangst van de subsidie
+> > [!info]- Bronnen (2)
+> > - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: rek 15 in EV
+> > - [[materiele-vaste-activa|content/concepten/materiele-vaste-activa.md]] · Bouwstenen → ondersteunt: machine-boeking + afschrijving
 > 
-> Subsidie van € 10.000 wordt geboekt onder eigen vermogen op **rekening 15 'Kapitaalsubsidies'** (KB MAR + KB WVV bijlage). ⚖️ ⚖️
-> 
-> - Debet 416 'Diverse vorderingen' (of 550 Bank bij ontvangst) € 10.000
-> - Credit **15 'Kapitaalsubsidies'** € 10.000
-> 
-> ### Stap 2: Aanschaffing machine
-> 
-> Klassieke MVA-boeking (KB WVV art. 3:42):
-> -  Bank) € 100.000
-> 
-> ### Stap 3: Jaarlijkse afschrijving van de machine
-> 
-> Bv. lineair over 10 jaar: € 10.000 per jaar:
-> 
-> ### Stap 4: Gespreide opname van de kapitaalsubsidie in resultaat
-> 
-> Parallel met de afschrijving — proportie: subsidie/aanschaffingswaarde = 10.000/100.000 = 10 %. Per jaar wordt 10 % van de jaarlijkse afschrijving in resultaat genomen: € 10.000 × 10 % = € 1.000 per jaar. ⚖️ ⚖️
-> 
-> - Debet 15 'Kapitaalsubsidies' € 1.000
-> - Credit **7536 'Kapitaal- en interestsubsidies'** (of 7530 Andere niet-recurrente opbrengsten) € 1.000
-> 
-> Dit gaat 10 jaar door, parallel met de afschrijving. Saldo op rek 15 verminderd elk jaar met € 1.000 (start € 10.000 → eind jaar 1 € 9.000 → ... → eind jaar 10 € 0).
-> 
-> **Boeking — Stap 3: Jaarlijkse afschrijving van de machine**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 6302 | Afschrijvingen MVA | 10.000,00 EUR |
-> | **C** | 2309 | Geboekte afschrijvingen | 10.000,00 EUR |
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 23 | 'Installaties, machines en uitrusting' | 100.000,00 EUR |
-> | **C** | 440 | 'Leveranciers' (of | 550,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:50; CBN-advies 2018/02 'Kapitaalsubsidies'._
-
-> [!info]- Bronnen (2)
-> - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: rek 15 in EV
-> - [[materiele-vaste-activa|content/concepten/materiele-vaste-activa.md]] · Bouwstenen → ondersteunt: machine-boeking + afschrijving
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -142,55 +141,54 @@ _Aanpassing (afprijzing): **75,00 EUR**_
 
 **geef de afsluitingsboekingen.**
 
-#### Modelantwoord
-
-Goederen in bewerking: boekhouding 500, inventaris 400 → waardevermindering 100 boeken: Debet 6098/9 Waardevermindering / Credit 3209 (rek voor waardevermindering goederen in bewerking). Handelsgoederen: boekhouding 7.000, inventaris (vermoedelijk minder) → idem waardevermindering tot inventariswaarde. Eindwaardering: voorraad geboekt aan **lagere van aanschaffingswaarde of realisatie-/marktwaarde** (voorzichtigheidsbeginsel — KB WVV art. 3:43).
-
-> [!success]- Motivering (typed)
-> **Voorraad-waardering** onder BE GAAP (KB WVV art. 3:43): aan aanschaffingswaarde of vervaardigingsprijs, met **waardevermindering** zodra de marktprijs of realisatiewaarde lager ligt — **voorzichtigheidsbeginsel**. ⚖️ ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Goederen in bewerking: boekhouding 500, inventaris 400 → waardevermindering 100 boeken: Debet 6098/9 Waardevermindering / Credit 3209 (rek voor waardevermindering goederen in bewerking). Handelsgoederen: boekhouding 7.000, inventaris (vermoedelijk minder) → idem waardevermindering tot inventariswaarde. Eindwaardering: voorraad geboekt aan **lagere van aanschaffingswaarde of realisatie-/marktwaarde** (voorzichtigheidsbeginsel — KB WVV art. 3:43).
 > 
-> ### Voor goederen in bewerking (rek 32)
+> > [!note]- Motivering (typed)
+> > **Voorraad-waardering** onder BE GAAP (KB WVV art. 3:43): aan aanschaffingswaarde of vervaardigingsprijs, met **waardevermindering** zodra de marktprijs of realisatiewaarde lager ligt — **voorzichtigheidsbeginsel**. ⚖️ ⚖️
+> > 
+> > ### Voor goederen in bewerking (rek 32)
+> > 
+> > - Boekhouding: € 500 (aanschaffingswaarde)
+> > - Inventaris: € 400 (werkelijke waarde)
+> > - **Waardevermindering**: € 100 te boeken
+> > 
+> > Eindbalans-waardering: € 500 − € 100 = € 400 (inventariswaarde). ⚖️ ⚖️
+> > 
+> > ### Voor handelsgoederen (rek 34)
+> > 
+> > - Boekhouding: € 7.000
+> > - Inventaris: lager bedrag (niet expliciet in vraagtekst — laten we aannemen dat de werkelijke waarde lager is, anders geen waardevermindering nodig)
+> > - **Idem** waardevermindering tot inventariswaarde:
+> > 
+> > ```
+> > Debet 6340 Waardeverminderingen op voorraden  € X (verschil)
+> > Credit 3409 Geboekte waardeverminderingen op handelsgoederen € X
+> > ```
+> > 
+> > ### Algemene regel
+> > 
+> > Voorraad eindigt op de balans aan de **lagere** van aanschaffingswaarde en marktwaarde. ⚖️ Bij stijging van de marktwaarde **niet** terug opwaarderen (latente meerwaarde — voorzichtigheidsbeginsel). Bij latere verkoop boven boekwaarde: gerealiseerde meerwaarde in resultaat. ⚖️
+> > 
+> > **Boeking — Voor goederen in bewerking (rek 32)**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **C** | 3209 | Geboekte waardeverminderingen op goederen in bewerking | 100,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:43 (voorraadwaardering); CBN-advies 132/4 (waardeverminderingen voorraden)._
 > 
-> - Boekhouding: € 500 (aanschaffingswaarde)
-> - Inventaris: € 400 (werkelijke waarde)
-> - **Waardevermindering**: € 100 te boeken
+> > [!info]- Bronnen (1)
+> > - [[voorraden|content/concepten/voorraden.md]] · Bouwstenen + Waardering → ondersteunt: lagere van aanschaffing/markt
 > 
-> Eindbalans-waardering: € 500 − € 100 = € 400 (inventariswaarde). ⚖️ ⚖️
-> 
-> ### Voor handelsgoederen (rek 34)
-> 
-> - Boekhouding: € 7.000
-> - Inventaris: lager bedrag (niet expliciet in vraagtekst — laten we aannemen dat de werkelijke waarde lager is, anders geen waardevermindering nodig)
-> - **Idem** waardevermindering tot inventariswaarde:
-> 
-> ```
-> Debet 6340 Waardeverminderingen op voorraden  € X (verschil)
-> Credit 3409 Geboekte waardeverminderingen op handelsgoederen € X
-> ```
-> 
-> ### Algemene regel
-> 
-> Voorraad eindigt op de balans aan de **lagere** van aanschaffingswaarde en marktwaarde. ⚖️ Bij stijging van de marktwaarde **niet** terug opwaarderen (latente meerwaarde — voorzichtigheidsbeginsel). Bij latere verkoop boven boekwaarde: gerealiseerde meerwaarde in resultaat. ⚖️
-> 
-> **Boeking — Voor goederen in bewerking (rek 32)**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **C** | 3209 | Geboekte waardeverminderingen op goederen in bewerking | 100,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:43 (voorraadwaardering); CBN-advies 132/4 (waardeverminderingen voorraden)._
-
-> [!info]- Bronnen (1)
-> - [[voorraden|content/concepten/voorraden.md]] · Bouwstenen + Waardering → ondersteunt: lagere van aanschaffing/markt
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -204,47 +202,46 @@ _Ook geklassificeerd onder_: 1.2
 
 Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt?
 
-#### Modelantwoord
-
-Kosten van inrichting van gehuurde gebouwen worden geboekt op rekening 264 "Inrichtingskosten van gehuurde gebouwen" (subgroep Andere materiële vaste activa, klasse 26). De kosten worden geactiveerd en afgeschreven over de kortere van twee periodes: de huurtermijn of de economische gebruiksduur van de inrichtingen.
-
-> [!success]- Motivering (typed)
-> **Welke rekening?**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Kosten van inrichting van gehuurde gebouwen worden geboekt op rekening 264 "Inrichtingskosten van gehuurde gebouwen" (subgroep Andere materiële vaste activa, klasse 26). De kosten worden geactiveerd en afgeschreven over de kortere van twee periodes: de huurtermijn of de economische gebruiksduur van de inrichtingen.
 > 
-> Onder het minimum-algemeen-rekeningstelsel (MAR) worden inrichtingskosten in gehuurde gebouwen geboekt op **rekening 264 "Inrichtingskosten van gehuurde gebouwen"** — een subrekening van klasse **26 "Andere materiële vaste activa"**. ⚖️ ⚖️
+> > [!note]- Motivering (typed)
+> > **Welke rekening?**
+> > 
+> > Onder het minimum-algemeen-rekeningstelsel (MAR) worden inrichtingskosten in gehuurde gebouwen geboekt op **rekening 264 "Inrichtingskosten van gehuurde gebouwen"** — een subrekening van klasse **26 "Andere materiële vaste activa"**. ⚖️ ⚖️
+> > 
+> > Andere MAR-subrekeningen in klasse 26:
+> > - 260 — Onroerende goederen aangehouden als reserve
+> > - 262 — Buiten gebruik of buiten exploitatie gestelde materiële vaste activa
+> > - **264 — Inrichtingskosten van gehuurde gebouwen** ⚖️ ⚖️
+> > 
+> > **Waarom in klasse 26 (Andere MVA) en niet 22 (Terreinen en gebouwen)?**
+> > 
+> > De gebouwen zélf zijn niet eigendom van de huurder — die kan dus geen 'Terreinen en gebouwen' (rek 22) op zijn balans hebben. Wat hij wél activeert zijn de **inrichtingswerken** die hij in andermans pand heeft uitgevoerd (verbouwingen, vaste inrichting, technische installaties die niet afkoppelbaar zijn). Die werken zijn **economisch eigendom** van de huurder voor de duur van de huur, ook al zijn ze juridisch onroerend door bestemming. 🤖 🤖
+> > 
+> > **Waardering en afschrijving**:
+> > 
+> > - Geactiveerd aan **aanschaffingsprijs** (alle directe kosten verbouwing + erelonen) ⚖️
+> > - Afschrijving over de **kortere** van:
+> >   - De **huurtermijn** (juridisch gegeven: bv. handelshuur 9 jaar, gewone huurovereenkomst 3 of 9 jaar)
+> >   - De **economische gebruiksduur** van de inrichtingen (bv. technische installaties 10 jaar) ⚖️
+> > 
+> > In de praktijk: vaak gelijk aan de huurtermijn want bij einde huur kan de huurder de inrichtingen niet meenemen. 🤖
+> > - Bij vroegtijdig einde huur: niet-afgeschreven saldo wordt **uitzonderlijk afgeschreven** (rek 663) of als verlies bij verkoop geboekt. 🤖 🤖
+> > 
+> > _Grondslag: [[materiele-vaste-activa]] §Bouwstenen — Onderverdeling klasse 26; KB MAR (KB 12 september 1983); KB WVV art. 3:38 + 3:42 (waardering MVA)._
 > 
-> Andere MAR-subrekeningen in klasse 26:
-> - 260 — Onroerende goederen aangehouden als reserve
-> - 262 — Buiten gebruik of buiten exploitatie gestelde materiële vaste activa
-> - **264 — Inrichtingskosten van gehuurde gebouwen** ⚖️ ⚖️
+> > [!info]- Bronnen (1)
+> > - [[materiele-vaste-activa|content/concepten/materiele-vaste-activa.md]] · Onderverdeling klasse 26 → ondersteunt: MAR-rekening 264
 > 
-> **Waarom in klasse 26 (Andere MVA) en niet 22 (Terreinen en gebouwen)?**
-> 
-> De gebouwen zélf zijn niet eigendom van de huurder — die kan dus geen 'Terreinen en gebouwen' (rek 22) op zijn balans hebben. Wat hij wél activeert zijn de **inrichtingswerken** die hij in andermans pand heeft uitgevoerd (verbouwingen, vaste inrichting, technische installaties die niet afkoppelbaar zijn). Die werken zijn **economisch eigendom** van de huurder voor de duur van de huur, ook al zijn ze juridisch onroerend door bestemming. 🤖 🤖
-> 
-> **Waardering en afschrijving**:
-> 
-> - Geactiveerd aan **aanschaffingsprijs** (alle directe kosten verbouwing + erelonen) ⚖️
-> - Afschrijving over de **kortere** van:
->   - De **huurtermijn** (juridisch gegeven: bv. handelshuur 9 jaar, gewone huurovereenkomst 3 of 9 jaar)
->   - De **economische gebruiksduur** van de inrichtingen (bv. technische installaties 10 jaar) ⚖️
-> 
-> In de praktijk: vaak gelijk aan de huurtermijn want bij einde huur kan de huurder de inrichtingen niet meenemen. 🤖
-> - Bij vroegtijdig einde huur: niet-afgeschreven saldo wordt **uitzonderlijk afgeschreven** (rek 663) of als verlies bij verkoop geboekt. 🤖 🤖
-> 
-> _Grondslag: [[materiele-vaste-activa]] §Bouwstenen — Onderverdeling klasse 26; KB MAR (KB 12 september 1983); KB WVV art. 3:38 + 3:42 (waardering MVA)._
-
-> [!info]- Bronnen (1)
-> - [[materiele-vaste-activa|content/concepten/materiele-vaste-activa.md]] · Onderverdeling klasse 26 → ondersteunt: MAR-rekening 264
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: presentatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: presentatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -298,15 +295,14 @@ In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR 
 
 Wanneer boekt u dit vakantiegeld?
 
-#### Modelantwoord
-
-Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR
-
-> [!success]- Motivering (typed)
-> Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR Te betalen vakantiegeld: 18,8 % van 102.000 = 19.176,00 EUR 623 Voorzieningen vakantiegeld 19.176,00 456 Aan Vakantiegeld 19.176,00 Het te betalen vakantiegeld moet op 31 december 2007 worden geboekt.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR
+> 
+> > [!note]- Motivering (typed)
+> > Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR Te betalen vakantiegeld: 18,8 % van 102.000 = 19.176,00 EUR 623 Voorzieningen vakantiegeld 19.176,00 456 Aan Vakantiegeld 19.176,00 Het te betalen vakantiegeld moet op 31 december 2007 worden geboekt.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -318,15 +314,14 @@ Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR
 
 In januari 2008, ontvangt u een factuur voor 1.210,00 EUR, BTW inbegrepen, m.b.t. de levering in 2007 van publiciteitsartikelen. Wat boekt u in 2008 en, in voorkomend geval, in 2007?
 
-#### Modelantwoord
-
-In 2007:
-
-> [!success]- Motivering (typed)
-> In 2007: 61 Diensten en diverse goederen 1.000,00 444 Aan Te ontvangen facturen 1.000,00 In 2008 444 Te ontvangen facturen 1.000,00 411 Terug te vorderen BTW 210,00 440 Aan Leveranciers 1.210,00
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: In 2007:
+> 
+> > [!note]- Motivering (typed)
+> > In 2007: 61 Diensten en diverse goederen 1.000,00 444 Aan Te ontvangen facturen 1.000,00 In 2008 444 Te ontvangen facturen 1.000,00 411 Terug te vorderen BTW 210,00 440 Aan Leveranciers 1.210,00
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -338,15 +333,14 @@ In 2007:
 
 De voorraden bedragen op 1 januari N: 12.000 EUR grondstoffen 30.000 EUR goederen in bewerking 28.000 EUR gereed produkt 6.000 EUR handelsgoederen Per 31 december N bedraagt voorraad: 17.000 EUR grondstoffen 26.000 EUR goederen in bewerking 31.000 EUR gereed produkt 4.000 EUR handelsgoederen Boek de voorraadwijzigingen.
 
-#### Modelantwoord
-
-300 Grondstoffen 5.000,00
-
-> [!success]- Motivering (typed)
-> 300 Grondstoffen 5.000,00 6094 Voorraadwijziging van handelsgoederen 2.000,00 6090 Aan Voorraadwijziging van grondstoffen 5.000,00 340 Handelsgoederen 2.000,00 712 Voorraadwijziging van goederen in 4.000,00 bewerking 330 Gereed produkt 3.000,00 320 Aan Goederen in bewerking 4.000,00 713 Aan Voorraadwijziging gereed produkt 3.000,00
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 300 Grondstoffen 5.000,00
+> 
+> > [!note]- Motivering (typed)
+> > 300 Grondstoffen 5.000,00 6094 Voorraadwijziging van handelsgoederen 2.000,00 6090 Aan Voorraadwijziging van grondstoffen 5.000,00 340 Handelsgoederen 2.000,00 712 Voorraadwijziging van goederen in 4.000,00 bewerking 330 Gereed produkt 3.000,00 320 Aan Goederen in bewerking 4.000,00 713 Aan Voorraadwijziging gereed produkt 3.000,00
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -362,15 +356,14 @@ De voorraden bedragen op 1 januari N: 12.000 EUR grondstoffen 30.000 EUR goedere
 
 Boek de afschrijvingen.
 
-#### Modelantwoord
-
-200 Oprichtingskosten 1.200,00
-
-> [!success]- Motivering (typed)
-> 200 Oprichtingskosten 1.200,00 550 Aan Bank 1.200,00 240 Meubilair en rollend materieel 22.100,00 411 Terug te vorderen BTW 2.100,00 440 Aan Leveranciers 24.200,00 6300 Afschrijvingen op oprichtingskosten 200,00 6302 Afschrijvingen op materiële vaste activa 3.683,33 2009 Aan Afschrijvingen op oprichtingskosten 200,00 2409 Àan Afschrijvingen op rollend materieel 3.683,33 Commentaar: een kleine vennootschap mag volledige annuïteiten afschrijven, maar het boekjaar telt slechts 10 maanden; bijgevolg moet de annuïteit met 10/12den worden vermenigvuldigd. De oprichtingskosten worden afgeschreven over een periode van maximum vijf jaar.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 200 Oprichtingskosten 1.200,00
+> 
+> > [!note]- Motivering (typed)
+> > 200 Oprichtingskosten 1.200,00 550 Aan Bank 1.200,00 240 Meubilair en rollend materieel 22.100,00 411 Terug te vorderen BTW 2.100,00 440 Aan Leveranciers 24.200,00 6300 Afschrijvingen op oprichtingskosten 200,00 6302 Afschrijvingen op materiële vaste activa 3.683,33 2009 Aan Afschrijvingen op oprichtingskosten 200,00 2409 Àan Afschrijvingen op rollend materieel 3.683,33 Commentaar: een kleine vennootschap mag volledige annuïteiten afschrijven, maar het boekjaar telt slechts 10 maanden; bijgevolg moet de annuïteit met 10/12den worden vermenigvuldigd. De oprichtingskosten worden afgeschreven over een periode van maximum vijf jaar.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -386,55 +379,54 @@ In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koo
 
 **Boek deze aankoop in de onderneming B.**
 
-#### Modelantwoord
-
-B en C zijn verbonden vennootschappen onder gemeenschappelijke controle van A → aandelen 12 % in C worden in B geboekt als deelneming in verbonden onderneming. Boeking: Debet 280 Deelnemingen in verbonden ondernemingen 50.000,00 / Credit 550 Bank 50.000,00.
-
-> [!success]- Motivering (typed)
-> **Kwalificatie van de relatie** ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: B en C zijn verbonden vennootschappen onder gemeenschappelijke controle van A → aandelen 12 % in C worden in B geboekt als deelneming in verbonden onderneming. Boeking: Debet 280 Deelnemingen in verbonden ondernemingen 50.000,00 / Credit 550 Bank 50.000,00.
 > 
-> (stap 1):
-> Vennootschap A controleert exclusief zowel B als C → B en C zijn beide dochters van A → B en C zijn **verbonden vennootschappen** (zustervennootschappen onder dezelfde moeder, WVV art. 1:20). ⚖️
+> > [!note]- Motivering (typed)
+> > **Kwalificatie van de relatie** ⚖️
+> > 
+> > (stap 1):
+> > Vennootschap A controleert exclusief zowel B als C → B en C zijn beide dochters van A → B en C zijn **verbonden vennootschappen** (zustervennootschappen onder dezelfde moeder, WVV art. 1:20). ⚖️
+> > 
+> > **Kwalificatie van de aandelen** ⚖️
+> > 
+> > (stap 2):
+> > B koopt 12 % aandelen in C, waarmee een **duurzame band** tot stand komt met een verbonden onderneming. Onder het MAR (KB van 12 september 1983) worden aandelen die de onderneming aanhoudt om duurzaam de bedrijfsuitoefening van een andere onderneming te ondersteunen, geboekt onder rubriek **28 Financiële vaste activa**, subcategorie **280 Deelnemingen in verbonden ondernemingen**. ⚖️
+> > 
+> > **Waardering** ⚖️
+> > 
+> > (stap 3):
+> > De deelneming wordt geboekt aan **aanschaffingsprijs** — niet aan marktwaarde. Latere afwaardering enkel bij duurzame minderwaarde of ontwaarding (KB WVV art. 3:42 + art. 3:45). ⚖️
+> > 
+> > **Boeking in de onderneming B**:
+> > 
+> > 🤖 Tegenboeking 550 Bank verondersteld; indien de aankoop nog niet betaald is, zou de tegenboeking 489 'Overige diverse schulden' of een vergelijkbare schuld-rekening zijn. De vraagtekst specificeert geen betalingsvorm, default-aanname = cash via bankrekening. 🤖
+> > 
+> > **Historische context**: deze vraag (2008) verwijst implicit naar de oude Wetboek van vennootschappen (vóór 2019). Onder huidige WVV (2019) is de oplossing identiek: art. 1:20 definieert verbonden vennootschappen, MAR-rekening 280 is ongewijzigd.
+> > 
+> > **Boeking — Boeking in de onderneming B**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 280 | Deelnemingen in verbonden ondernemingen | 50.000,00 EUR |
+> > | **C** | 550 | Kredietinstellingen (Bank) | 50.000,00 EUR |
+> > 
+> > _Grondslag: MAR-rubriek 28 (KB 12 september 1983, inmiddels geïntegreerd in KB WVV 2019 art. 3:42 + bijlage); WVV art. 1:20 voor de definitie van verbonden vennootschappen._
 > 
-> **Kwalificatie van de aandelen** ⚖️
+> > [!info]- Bronnen (3)
+> > - [[financiele-vaste-activa|content/concepten/financiele-vaste-activa.md]] · Definitie + MAR-rubriek 28 → ondersteunt: MAR 280, aanschaffingsprijs-waardering
+> > - [[financiele-vaste-activa|content/concepten/financiele-vaste-activa.md]] · Voorbeeld (Aurelia/Brugse-boeking) → ondersteunt: boekingspatroon 280 / 550
+> > - [[dochteronderneming|content/concepten/dochteronderneming.md]] · Bouwstenen → ondersteunt: A controleert B en C → verbonden vennootschappen
 > 
-> (stap 2):
-> B koopt 12 % aandelen in C, waarmee een **duurzame band** tot stand komt met een verbonden onderneming. Onder het MAR (KB van 12 september 1983) worden aandelen die de onderneming aanhoudt om duurzaam de bedrijfsuitoefening van een andere onderneming te ondersteunen, geboekt onder rubriek **28 Financiële vaste activa**, subcategorie **280 Deelnemingen in verbonden ondernemingen**. ⚖️
-> 
-> **Waardering** ⚖️
-> 
-> (stap 3):
-> De deelneming wordt geboekt aan **aanschaffingsprijs** — niet aan marktwaarde. Latere afwaardering enkel bij duurzame minderwaarde of ontwaarding (KB WVV art. 3:42 + art. 3:45). ⚖️
-> 
-> **Boeking in de onderneming B**:
-> 
-> 🤖 Tegenboeking 550 Bank verondersteld; indien de aankoop nog niet betaald is, zou de tegenboeking 489 'Overige diverse schulden' of een vergelijkbare schuld-rekening zijn. De vraagtekst specificeert geen betalingsvorm, default-aanname = cash via bankrekening. 🤖
-> 
-> **Historische context**: deze vraag (2008) verwijst implicit naar de oude Wetboek van vennootschappen (vóór 2019). Onder huidige WVV (2019) is de oplossing identiek: art. 1:20 definieert verbonden vennootschappen, MAR-rekening 280 is ongewijzigd.
-> 
-> **Boeking — Boeking in de onderneming B**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 280 | Deelnemingen in verbonden ondernemingen | 50.000,00 EUR |
-> | **C** | 550 | Kredietinstellingen (Bank) | 50.000,00 EUR |
-> 
-> _Grondslag: MAR-rubriek 28 (KB 12 september 1983, inmiddels geïntegreerd in KB WVV 2019 art. 3:42 + bijlage); WVV art. 1:20 voor de definitie van verbonden vennootschappen._
-
-> [!info]- Bronnen (3)
-> - [[financiele-vaste-activa|content/concepten/financiele-vaste-activa.md]] · Definitie + MAR-rubriek 28 → ondersteunt: MAR 280, aanschaffingsprijs-waardering
-> - [[financiele-vaste-activa|content/concepten/financiele-vaste-activa.md]] · Voorbeeld (Aurelia/Brugse-boeking) → ondersteunt: boekingspatroon 280 / 550
-> - [[dochteronderneming|content/concepten/dochteronderneming.md]] · Bouwstenen → ondersteunt: A controleert B en C → verbonden vennootschappen
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig+historische-context
-> - Opmerking: Legacy-antwoord verwees naar oude W.Venn.; gemigreerd naar huidige WVV 2019 + MAR-context. Inhoudelijk identiek: B en C zijn verbonden vennootschappen, MAR 280, aanschaffingsprijs-waardering.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig+historische-context
+> > - Opmerking: Legacy-antwoord verwees naar oude W.Venn.; gemigreerd naar huidige WVV 2019 + MAR-context. Inhoudelijk identiek: B en C zijn verbonden vennootschappen, MAR 280, aanschaffingsprijs-waardering.
 
 ---
 
@@ -473,37 +465,36 @@ e. ontvangsten van gebruik telefoon
 
 9. bewaren en klasseren (desgevallend) van de uitgaande facturen op datum 10.berekeningsdocument van de lonen door het sociaal secretariaat sociale balans op het einde van het boekjaar 11.inventaris op einde boekjaar 12.……..
 
-#### Modelantwoord
-
-Geregistreerde kastickets, btw-bonnetjes, ontvangstenboek met uitsplitsing per btw-tarief, kasboek, bankuittreksels, in- en uitgaande facturen, loondocumenten en jaarinventaris bijhouden en bewaren.
-
-> [!success]- Motivering (typed)
-> 1. bewaren van de geregistreerde kastickets
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Geregistreerde kastickets, btw-bonnetjes, ontvangstenboek met uitsplitsing per btw-tarief, kasboek, bankuittreksels, in- en uitgaande facturen, loondocumenten en jaarinventaris bijhouden en bewaren.
 > 
-> 2. bewaren van de btw bonnetjes (met datum, bedrag en aantal couverts)
+> > [!note]- Motivering (typed)
+> > 1. bewaren van de geregistreerde kastickets
+> > 
+> > 2. bewaren van de btw bonnetjes (met datum, bedrag en aantal couverts)
+> > 
+> > 3. overzicht en overeenstemming van de betalingen met elektronische kaarten
+> > 
+> > 4. bijhouden van een ontvangstenboek met uitsplitsing per toepasselijk BTW tarief a. ontvangsten aan 6 % voor meegenomen bereidingen b. ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken c. ontvangsten aan 21 % voor dranken die los werden verkocht d. ontvangsten van de speelautomaten e. ontvangsten van gebruik telefoon
+> > 
+> > 5. bijhouden van een kasboek (in, uit, saldo….)
+> > 
+> > 6. bewaren en klasseren van de verschillende bankuittreksels
+> > 
+> > 7. vermelding op bankuittreksels van de oorsprong of bestemming van de verschillende bankbewegingen
+> > 
+> > 8. bewaren en klasseren van de inkomende facturen op datum
+> > 
+> > 9. bewaren en klasseren (desgevallend) van de uitgaande facturen op datum
+> > 
+> > 10. berekeningsdocument van de lonen door het sociaal secretariaat sociale balans op het einde van het boekjaar
+> > 
+> > 11. inventaris op einde boekjaar
+> > 
+> > 12. …….
 > 
-> 3. overzicht en overeenstemming van de betalingen met elektronische kaarten
-> 
-> 4. bijhouden van een ontvangstenboek met uitsplitsing per toepasselijk BTW tarief a. ontvangsten aan 6 % voor meegenomen bereidingen b. ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken c. ontvangsten aan 21 % voor dranken die los werden verkocht d. ontvangsten van de speelautomaten e. ontvangsten van gebruik telefoon
-> 
-> 5. bijhouden van een kasboek (in, uit, saldo….)
-> 
-> 6. bewaren en klasseren van de verschillende bankuittreksels
-> 
-> 7. vermelding op bankuittreksels van de oorsprong of bestemming van de verschillende bankbewegingen
-> 
-> 8. bewaren en klasseren van de inkomende facturen op datum
-> 
-> 9. bewaren en klasseren (desgevallend) van de uitgaande facturen op datum
-> 
-> 10. berekeningsdocument van de lonen door het sociaal secretariaat sociale balans op het einde van het boekjaar
-> 
-> 11. inventaris op einde boekjaar
-> 
-> 12. …….
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -517,15 +508,14 @@ _Ook geklassificeerd onder_: 2.4
 
 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden
 
-#### Modelantwoord
-
-Voorschotten apart factureren bij ontvangst (art. 4 §1 §3 + KB 1); op einde enkel saldo factureren; alle offertes én facturen bewaren.
-
-> [!success]- Motivering (typed)
-> - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Voorschotten apart factureren bij ontvangst (art. 4 §1 §3 + KB 1); op einde enkel saldo factureren; alle offertes én facturen bewaren.
+> 
+> > [!note]- Motivering (typed)
+> > - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -543,95 +533,66 @@ onderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze
 schuld in te brengen als kapitaal.
 Zij dient de volgende boeking (en) aan te brengen in haar boekhouding.
 
-- **A.** Zij boekt de leverancierschuld ten opzichte van een resultatenrekening tegen.
-Vervolgens zal zij via de resultaatverwerking een overboeking maken naar de
-rubriek kapitaal.
-- **B.** Zij boekt de leverancierschuld rechtstreeks over naar de rubriek kapitaal.
-- **C.** Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal.
-- **A.** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
-betalen kapitaal en gaat over tot de uitbetaling van de gelden.
-- **B.** Zij boekt de vermindering van kapitaal ten opzichte van een rekening
-resultaatverwerking.
-- **C.** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
-betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van
-twee maanden na de publicatie in het Belgisch Staatsblad.
-- **D.** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
-betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van
-twee maanden na de notariële akte.
-- **A.** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar
-dient geen jaarrekening neer te leggen.
-- **B.** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
-dient een jaarrekening met cijfers van de vaste inrichting neer te leggen.
-- **C.** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
-dient een jaarrekening van de buitenlandse onderneming in de vorm zoals
-opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer
-te leggen.
-- **D.** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
-dient een jaarrekening van de buitenlandse onderneming en in voorkomend
-geval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het
-buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen.
-
-#### Modelantwoord
-
-Drie boekhoudsituaties met MC-keuzes over verwerking. Vraagtekst toont alleen vraag-stammen, niet alle MC-opties — antwoord blijft op niveau van algemene regels: (a) Leveranciersschuld die om bepaalde reden moet aangepast (kwijtschelding, vereniging, verlies van titel): Debet 44 / Credit 79 Niet-recurrente opbrengsten OF voorziening. (b) Kapitaalvermindering met terugbetaling: Debet 100 Kapitaal / Credit 550 Bank — formele kapitaalvermindering vereist notarisakte. (c) Onderneming exclusieve juwelen: speciale fiscale + boekhoudkundige verwerking voor zeer hoge marges + voorraadwaardering.
-
-> [!success]- Motivering (typed)
-> **Vraagtekst** toont 3 sub-casussen maar alleen vraag-stammen, niet de MC-opties. Daarom blijft het antwoord op niveau van **algemene regels**:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Drie boekhoudsituaties met MC-keuzes over verwerking. Vraagtekst toont alleen vraag-stammen, niet alle MC-opties — antwoord blijft op niveau van algemene regels: (a) Leveranciersschuld die om bepaalde reden moet aangepast (kwijtschelding, vereniging, verlies van titel): Debet 44 / Credit 79 Niet-recurrente opbrengsten OF voorziening. (b) Kapitaalvermindering met terugbetaling: Debet 100 Kapitaal / Credit 550 Bank — formele kapitaalvermindering vereist notarisakte. (c) Onderneming exclusieve juwelen: speciale fiscale + boekhoudkundige verwerking voor zeer hoge marges + voorraadwaardering.
 > 
-> ### a) Leveranciersschuld aanpassen
+> > [!note]- Motivering (typed)
+> > **Vraagtekst** toont 3 sub-casussen maar alleen vraag-stammen, niet de MC-opties. Daarom blijft het antwoord op niveau van **algemene regels**:
+> > 
+> > ### a) Leveranciersschuld aanpassen
+> > 
+> > Voor onderneming A met openstaande leveranciersschuld tegenover X: indien de schuld om een specifieke reden moet worden aangepast (bv. kwijtschelding, betwisting, prescriptie):
+> > 
+> > - **Kwijtschelding** door leverancier: 0 — vergelijkbaar met kwijtschelding
+> > 
+> > ### b) Terugbetaling kapitaal aan aandeelhouders
+> > 
+> > Klassieke **kapitaalvermindering** met effectieve terugbetaling:
+> > - **Formele vereisten**: notarisakte, beslissing AV met versterkte meerderheid (WVV art. 5:142 voor BV), schuldeisersbescherming (verzetstermijn 2 maanden)
+> > - **Boeking**:
+> >   ```
+> >   Debet 100 Geplaatst kapitaal (= bedrag terugbetaald)
+> >   Credit 550 Bank (= effectieve uitbetaling)
+> >   ```
+> > - **Fiscaal**: terugbetaling van **gestort kapitaal** is RV-vrij; terugbetaling die als verkapte dividenden wordt beschouwd → 30 % RV
+> > 
+> > ### c) Winkel exclusieve juwelen — boekhouding voeren
+> > 
+> > **Vereisten**
+> > 
+> > voor een winkel die exclusieve juwelen verkoopt:
+> > 
+> > - **Boekhoudplicht**: rechtspersoon (NV/BV) altijd dubbel; natuurlijke persoon afhankelijk van omzetdrempel (WER art. III.85)
+> > - **Voorraadbeheer**: zeer waardevolle voorraad → strengere IC (toegangscontrole, inventaris, verzekering, alarm)
+> > - **Voorraadwaardering**: aanschaffingsprijs + waardevermindering bij modemarkt-fluctuaties (KB WVV art. 3:43)
+> > - **Antiwitwas-discipline**: bij verkoop > € 10.000 cash → strengere identificatieplicht (Antiwitwaswet 2017)
+> > - **BTW**: 21 % standaard, marge-regeling mogelijk voor tweedehands-juwelen
+> > - **Specifieke fiscale risico's**: hoge marges trekken fiscale audit aan; documentatie cruciaal
+> > 
+> > 🤖 Zonder specifieke MC-opties blijft het antwoord generiek per situatie. Voor het examen verwacht ITAA waarschijnlijk de juiste MC-keuze + korte motivering. 🤖
+> > 
+> > **Boeking** ⚖️
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 440 | Leveranciersschuld / Credit | 753,00 EUR |
+> > | **D** | 6371 | Voorzieningen / Credit | 162,00 EUR |
+> > | **D** | 440 | / Credit | 753,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:43 (voorraadwaardering), art. 3:24-3:27 (voorzieningen); WVV art. 5:142 (kapitaalvermindering BV); WER art. III.85 (boekhoudplicht); Antiwitwaswet 2017._
 > 
-> Voor onderneming A met openstaande leveranciersschuld tegenover X: indien de schuld om een specifieke reden moet worden aangepast (bv. kwijtschelding, betwisting, prescriptie):
+> > [!info]- Bronnen (2)
+> > - [[boekhoudplichtige-onderneming|content/concepten/boekhoudplichtige-onderneming.md]] · Bouwstenen → ondersteunt: c) boekhoudplicht
+> > - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: b) kapitaalvermindering
 > 
-> - **Kwijtschelding** door leverancier: 0 — vergelijkbaar met kwijtschelding
-> 
-> ### b) Terugbetaling kapitaal aan aandeelhouders
-> 
-> Klassieke **kapitaalvermindering** met effectieve terugbetaling:
-> - **Formele vereisten**: notarisakte, beslissing AV met versterkte meerderheid (WVV art. 5:142 voor BV), schuldeisersbescherming (verzetstermijn 2 maanden)
-> - **Boeking**:
->   ```
->   Debet 100 Geplaatst kapitaal (= bedrag terugbetaald)
->   Credit 550 Bank (= effectieve uitbetaling)
->   ```
-> - **Fiscaal**: terugbetaling van **gestort kapitaal** is RV-vrij; terugbetaling die als verkapte dividenden wordt beschouwd → 30 % RV
-> 
-> ### c) Winkel exclusieve juwelen — boekhouding voeren
-> 
-> **Vereisten**
-> 
-> voor een winkel die exclusieve juwelen verkoopt:
-> 
-> - **Boekhoudplicht**: rechtspersoon (NV/BV) altijd dubbel; natuurlijke persoon afhankelijk van omzetdrempel (WER art. III.85)
-> - **Voorraadbeheer**: zeer waardevolle voorraad → strengere IC (toegangscontrole, inventaris, verzekering, alarm)
-> - **Voorraadwaardering**: aanschaffingsprijs + waardevermindering bij modemarkt-fluctuaties (KB WVV art. 3:43)
-> - **Antiwitwas-discipline**: bij verkoop > € 10.000 cash → strengere identificatieplicht (Antiwitwaswet 2017)
-> - **BTW**: 21 % standaard, marge-regeling mogelijk voor tweedehands-juwelen
-> - **Specifieke fiscale risico's**: hoge marges trekken fiscale audit aan; documentatie cruciaal
-> 
-> 🤖 Zonder specifieke MC-opties blijft het antwoord generiek per situatie. Voor het examen verwacht ITAA waarschijnlijk de juiste MC-keuze + korte motivering. 🤖
-> 
-> **Boeking** ⚖️
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 440 | Leveranciersschuld / Credit | 753,00 EUR |
-> | **D** | 6371 | Voorzieningen / Credit | 162,00 EUR |
-> | **D** | 440 | / Credit | 753,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:43 (voorraadwaardering), art. 3:24-3:27 (voorzieningen); WVV art. 5:142 (kapitaalvermindering BV); WER art. III.85 (boekhoudplicht); Antiwitwaswet 2017._
-
-> [!info]- Bronnen (2)
-> - [[boekhoudplichtige-onderneming|content/concepten/boekhoudplichtige-onderneming.md]] · Bouwstenen → ondersteunt: c) boekhoudplicht
-> - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: b) kapitaalvermindering
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 > [!warning] Gap niveau **extern** — type **vraagtekst_onduidelijk** · sub-type **partieel_extract**
 > Casus met 3 MC-vragen waarvan alleen de vraag-stammen extracteerbaar zijn. Antwoord blijft op niveau van algemene regels.
@@ -647,15 +608,45 @@ onderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze
 schuld in te brengen als kapitaal.
 Zij dient de volgende boeking (en) aan te brengen in haar boekhouding.
 
+- **A.** Zij boekt de leverancierschuld ten opzichte van een resultatenrekening tegen.
+Vervolgens zal zij via de resultaatverwerking een overboeking maken naar de
+rubriek kapitaal.
+- **B.** Zij boekt de leverancierschuld rechtstreeks over naar de rubriek kapitaal.
+- **C.** Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal.
+
 #### Subvraag b)
 
 Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren
 door terugbetaling aan haar aandeelhouders.
 
+- **A.** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
+betalen kapitaal en gaat over tot de uitbetaling van de gelden.
+- **B.** Zij boekt de vermindering van kapitaal ten opzichte van een rekening
+resultaatverwerking.
+- **C.** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
+betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van
+twee maanden na de publicatie in het Belgisch Staatsblad.
+- **D.** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
+betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van
+twee maanden na de notariële akte.
+
 #### Subvraag c)
 
 Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel
 die exclusieve juwelen verkoopt.
+
+- **A.** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar
+dient geen jaarrekening neer te leggen.
+- **B.** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
+dient een jaarrekening met cijfers van de vaste inrichting neer te leggen.
+- **C.** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
+dient een jaarrekening van de buitenlandse onderneming in de vorm zoals
+opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer
+te leggen.
+- **D.** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
+dient een jaarrekening van de buitenlandse onderneming en in voorkomend
+geval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het
+buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen.
 
 ---
 
@@ -680,66 +671,65 @@ Zij heeft hiervoor volgende kosten gehad:
 - aankopen van materiaal: 180.000,00 EUR
 - lonen van arbeiders inclusief patronale bijdragen: 80.000,00 EUR
 
-#### Modelantwoord
-
-a) Niet ALLE kosten activeerbaar. Onder huidig BE GAAP (sinds 2015) zijn kosten van vooronderzoek NIET activeerbaar (te onzeker), kosten van ontwikkeling WEL activeerbaar mits aan strikte voorwaarden voldaan (identificeerbaar, technisch haalbaar, intentie tot voltooien, gebruik/verkoop voorzien, kost betrouwbaar meetbaar). b) Activeerbaar: ontwikkeling door derden € 15.000 + materiaal € 180.000 + lonen € 80.000 = **€ 275.000**. NIET activeerbaar: kosten vooronderzoek studiebureaus € 20.000 — ten laste van resultatenrekening.
-
-> [!success]- Motivering (typed)
-> ### a) Kunnen deze kosten in aanmerking voor activering?
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Niet ALLE kosten activeerbaar. Onder huidig BE GAAP (sinds 2015) zijn kosten van vooronderzoek NIET activeerbaar (te onzeker), kosten van ontwikkeling WEL activeerbaar mits aan strikte voorwaarden voldaan (identificeerbaar, technisch haalbaar, intentie tot voltooien, gebruik/verkoop voorzien, kost betrouwbaar meetbaar). b) Activeerbaar: ontwikkeling door derden € 15.000 + materiaal € 180.000 + lonen € 80.000 = **€ 275.000**. NIET activeerbaar: kosten vooronderzoek studiebureaus € 20.000 — ten laste van resultatenrekening.
 > 
-> Onder huidig BE GAAP (KB WVV art. 3:37, gewijzigd in 2015 voor IFRS-convergentie):
+> > [!note]- Motivering (typed)
+> > ### a) Kunnen deze kosten in aanmerking voor activering?
+> > 
+> > Onder huidig BE GAAP (KB WVV art. 3:37, gewijzigd in 2015 voor IFRS-convergentie):
+> > 
+> > - **Vooronderzoek/onderzoek** (research) = **NIET activeerbaar** ⚖️
+> >   - Te vroege fase, geen voldoende zekerheid over economisch rendement
+> >   - Onmiddellijk ten laste van het resultaat (rek 61 Diensten of 67 Niet-recurrente kosten) ⚖️
+> > 
+> > - **Ontwikkeling** (development) = **activeerbaar** mits aan **strikte voorwaarden** voldaan: ⚖️
+> >   - **Identificeerbaar** (afgebakend project met duidelijke output)
+> >   - **Technisch haalbaar** (technische vereisten kunnen worden gerealiseerd)
+> >   - **Intentie om te voltooien** (ondernemingsbeslissing tot voltooien)
+> >   - **Gebruik of verkoop** voorzien
+> >   - **Betrouwbaar meetbaar** kostprijs
+> >   - **Economisch rendement** voldoende waarschijnlijk ⚖️
+> > 
+> > ### b) Welke kosten activeerbaar?
+> > 
+> > Toegepast op het prototype-transportmiddel:**Totaal activeerbaar**: € 15.000 + € 180.000 + € 80.000 = **€ 275.000** ⚖️ ⚖️
+> > 
+> > ### Boeking
+> > 
+> > ### Afschrijving
+> > 
+> > Geactiveerde ontwikkelingskosten worden afgeschreven over **maximaal 10 jaar** (KB WVV art. 3:36); langer is mogelijk mits motivering in toelichting. Lineaire afschrijving in functie van de **economische gebruiksduur**. ⚖️ ⚖️
+> > 
+> > 🤖 Historische context (vraag uit 2013): destijds golden andere regels — vóór 2015 waren **alle** O&O-kosten activeerbaar in BE GAAP. Onder de huidige (post-2015) regels alleen ontwikkeling. Voor het modelantwoord pas ik de huidige regels toe. 🤖
+> > 
+> > **Boeking — Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 61 | Diensten en diverse goederen (vooronderzoek) | 20.000,00 EUR |
+> > | **C** | 440 | Leveranciers (studiebureaus) | 20.000,00 EUR |
+> > 
+> > | Kostencategorie | Bedrag | Activeerbaar? | Reden |
+> > |---|---|---|---|
+> > | Kosten vooronderzoek (studiebureaus) | € 20.000 | **NEE** ⚖️ | Onderzoek-fase — onmiddellijk ten laste van resultaat (rek 61 Diensten of 65 Financiële kosten naargelang van aard) |
+> > | Ontwikkeling door derden | € 15.000 | **JA** ⚖️ | Ontwikkelingsfase (door externe partij geleverde ontwikkelingsservice) |
+> > | Aankoop van materiaal | € 180.000 | **JA** ⚖️ | Direct materieelkost in ontwikkelingsfase |
+> > | Lonen arbeiders + patronale bijdragen | € 80.000 | **JA** ⚖️ | Directe loonkosten in ontwikkelingsfase |
+> > 
+> > _Grondslag: KB WVV art. 3:36 (afschrijving) + art. 3:37 (criteria); CBN-advies 2016/16 'Onderzoek en ontwikkeling onder BE GAAP'; IAS 38 (analogie)._
 > 
-> - **Vooronderzoek/onderzoek** (research) = **NIET activeerbaar** ⚖️
->   - Te vroege fase, geen voldoende zekerheid over economisch rendement
->   - Onmiddellijk ten laste van het resultaat (rek 61 Diensten of 67 Niet-recurrente kosten) ⚖️
+> > [!info]- Bronnen (1)
+> > - [[immateriele-vaste-activa|content/concepten/immateriele-vaste-activa.md]] · Bouwstenen → ondersteunt: O&O-classificatie + activering-criteria
 > 
-> - **Ontwikkeling** (development) = **activeerbaar** mits aan **strikte voorwaarden** voldaan: ⚖️
->   - **Identificeerbaar** (afgebakend project met duidelijke output)
->   - **Technisch haalbaar** (technische vereisten kunnen worden gerealiseerd)
->   - **Intentie om te voltooien** (ondernemingsbeslissing tot voltooien)
->   - **Gebruik of verkoop** voorzien
->   - **Betrouwbaar meetbaar** kostprijs
->   - **Economisch rendement** voldoende waarschijnlijk ⚖️
-> 
-> ### b) Welke kosten activeerbaar?
-> 
-> Toegepast op het prototype-transportmiddel:**Totaal activeerbaar**: € 15.000 + € 180.000 + € 80.000 = **€ 275.000** ⚖️ ⚖️
-> 
-> ### Boeking
-> 
-> ### Afschrijving
-> 
-> Geactiveerde ontwikkelingskosten worden afgeschreven over **maximaal 10 jaar** (KB WVV art. 3:36); langer is mogelijk mits motivering in toelichting. Lineaire afschrijving in functie van de **economische gebruiksduur**. ⚖️ ⚖️
-> 
-> 🤖 Historische context (vraag uit 2013): destijds golden andere regels — vóór 2015 waren **alle** O&O-kosten activeerbaar in BE GAAP. Onder de huidige (post-2015) regels alleen ontwikkeling. Voor het modelantwoord pas ik de huidige regels toe. 🤖
-> 
-> **Boeking — Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 61 | Diensten en diverse goederen (vooronderzoek) | 20.000,00 EUR |
-> | **C** | 440 | Leveranciers (studiebureaus) | 20.000,00 EUR |
-> 
-> | Kostencategorie | Bedrag | Activeerbaar? | Reden |
-> |---|---|---|---|
-> | Kosten vooronderzoek (studiebureaus) | € 20.000 | **NEE** ⚖️ | Onderzoek-fase — onmiddellijk ten laste van resultaat (rek 61 Diensten of 65 Financiële kosten naargelang van aard) |
-> | Ontwikkeling door derden | € 15.000 | **JA** ⚖️ | Ontwikkelingsfase (door externe partij geleverde ontwikkelingsservice) |
-> | Aankoop van materiaal | € 180.000 | **JA** ⚖️ | Direct materieelkost in ontwikkelingsfase |
-> | Lonen arbeiders + patronale bijdragen | € 80.000 | **JA** ⚖️ | Directe loonkosten in ontwikkelingsfase |
-> 
-> _Grondslag: KB WVV art. 3:36 (afschrijving) + art. 3:37 (criteria); CBN-advies 2016/16 'Onderzoek en ontwikkeling onder BE GAAP'; IAS 38 (analogie)._
-
-> [!info]- Bronnen (1)
-> - [[immateriele-vaste-activa|content/concepten/immateriele-vaste-activa.md]] · Bouwstenen → ondersteunt: O&O-classificatie + activering-criteria
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -791,71 +781,66 @@ Antwoord …
 | Kan zij dit opnemen in de rubriek materiële vaste activa? |   |
 | Kan zij dit opnemen in de rubriek immateriële vaste activa? |   |
 
-- **A.** Te verwerken als handelsgoederen?
-- **B.** Te verwerken als bestelling in uitvoering?
-- **C.** Te verwerken als immateriële vaste activa?
-
-#### Modelantwoord
-
-Voor Softy BVBA (software-ontwikkelaar, 1 maand actief): (1) Oprichtingskosten (notaris, statuten, registratie) — keuze tussen ten laste nemen (klasse 6) of activeren op rek 20 met afschrijving max 5 jaar. (2) Aankoop van licentie/software: activeren op rek 211 (IVA) + afschrijving over gebruiksduur. (3) Loon van ontwikkelaars die zelf software bouwen: voor ontwikkelingsfase activeerbaar (mits 6 ITAA-voorwaarden — zie 2013-1-vr3). Onderzoeksfase NIET activeerbaar.
-
-> [!success]- Motivering (typed)
-> **Softy BVBA — typische opstart-software-onderneming, één maand actief**. De belangrijkste boekhoudkundige verwerkingen:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Voor Softy BVBA (software-ontwikkelaar, 1 maand actief): (1) Oprichtingskosten (notaris, statuten, registratie) — keuze tussen ten laste nemen (klasse 6) of activeren op rek 20 met afschrijving max 5 jaar. (2) Aankoop van licentie/software: activeren op rek 211 (IVA) + afschrijving over gebruiksduur. (3) Loon van ontwikkelaars die zelf software bouwen: voor ontwikkelingsfase activeerbaar (mits 6 ITAA-voorwaarden — zie 2013-1-vr3). Onderzoeksfase NIET activeerbaar.
 > 
-> ### 1. Oprichtingskosten
+> > [!note]- Motivering (typed)
+> > **Softy BVBA — typische opstart-software-onderneming, één maand actief**. De belangrijkste boekhoudkundige verwerkingen:
+> > 
+> > ### 1. Oprichtingskosten
+> > 
+> > Notariskosten, statuten, registratie, eerste promotie-campagne, etc.:
+> > 
+> > **Twee opties**
+> > 
+> > (KB WVV art. 3:36 + [[oprichtingskosten]]):
+> > - **Optie A — Ten laste van resultaat**: rek 6105 'Erelonen' of vergelijkbaar — onmiddellijk ten laste van het eerste boekjaar
+> > - **Optie B — Activeren op rek 20 'Oprichtingskosten'** + afschrijven over **maximaal 5 jaar** (lineair)
+> > 
+> > ⚖️ Keuze door bestuur op moment van boeking; voor een net-opgestarte BVBA met weinig omzet kan activering interessant zijn om verlies in eerste boekjaar te beperken. ⚖️
+> > 
+> > ### 2. Aankoop van licenties / software van derden
+> > 
+> > Aankoop van ontwikkelingstools, IDE-licenties, externe libraries:
+> > - Activeren op **rek 211 'Concessies, octrooien, licenties...'** (IVA klasse 21) ⚖️
+> > - Afschrijven over **economische gebruiksduur** (typisch 3-5 jaar voor software-licenties) ⚖️
+> > 
+> > ### 3. Interne software-ontwikkeling (eigen ontwikkelaars)
+> > 
+> > Onder huidig BE GAAP (KB WVV art. 3:37) — zelfde regeling als 2013-1-vr3 (O&O-kosten):
+> > 
+> > - **Vooronderzoek/onderzoek**: NIET activeerbaar — onmiddellijk ten laste van resultaat
+> > - **Ontwikkeling**: WEL activeerbaar mits aan **strikte voorwaarden** voldaan ⚖️:
+> >   - Identificeerbaar (afgebakend project)
+> >   - Technisch haalbaar
+> >   - Intentie om te voltooien + gebruiken/verkopen
+> >   - Voldoende middelen om te voltooien
+> >   - Betrouwbaar meetbare kostprijs (bv. tijdsbesteding per project + loonkostprijs)
+> >   - Verwachte economische voordelen ⚖️
+> > 
+> > **Boeking voor geactiveerde ontwikkeling**
+> > 
+> > ```
+> > Debet 211 Onderzoek en ontwikkeling (geactiveerd deel)
+> > Credit 72 Geproduceerde vaste activa (intern)
+> > ```
+> > 
+> > 🤖 Voor een 1-maand-actieve onderneming: typisch nog veel ontwikkeling in onderzoeks-fase → groot deel direct ten laste. Bij latere ontwikkelings-fase kunnen kosten naar rek 211 worden geactiveerd. 🤖
+> > 
+> > _Grondslag: KB WVV art. 3:36 (oprichtingskosten); art. 3:37 (IVA); CBN-advies 2016/16; [[oprichtingskosten]]; [[immateriele-vaste-activa]]._
 > 
-> Notariskosten, statuten, registratie, eerste promotie-campagne, etc.:
+> > [!info]- Bronnen (2)
+> > - [[oprichtingskosten|content/concepten/oprichtingskosten.md]] · Bouwstenen → ondersteunt: keuze kost vs activeren
+> > - [[immateriele-vaste-activa|content/concepten/immateriele-vaste-activa.md]] · Bouwstenen → ondersteunt: IVA + O&O-activering
 > 
-> **Twee opties**
-> 
-> (KB WVV art. 3:36 + [[oprichtingskosten]]):
-> - **Optie A — Ten laste van resultaat**: rek 6105 'Erelonen' of vergelijkbaar — onmiddellijk ten laste van het eerste boekjaar
-> - **Optie B — Activeren op rek 20 'Oprichtingskosten'** + afschrijven over **maximaal 5 jaar** (lineair)
-> 
-> ⚖️ Keuze door bestuur op moment van boeking; voor een net-opgestarte BVBA met weinig omzet kan activering interessant zijn om verlies in eerste boekjaar te beperken. ⚖️
-> 
-> ### 2. Aankoop van licenties / software van derden
-> 
-> Aankoop van ontwikkelingstools, IDE-licenties, externe libraries:
-> - Activeren op **rek 211 'Concessies, octrooien, licenties...'** (IVA klasse 21) ⚖️
-> - Afschrijven over **economische gebruiksduur** (typisch 3-5 jaar voor software-licenties) ⚖️
-> 
-> ### 3. Interne software-ontwikkeling (eigen ontwikkelaars)
-> 
-> Onder huidig BE GAAP (KB WVV art. 3:37) — zelfde regeling als 2013-1-vr3 (O&O-kosten):
-> 
-> - **Vooronderzoek/onderzoek**: NIET activeerbaar — onmiddellijk ten laste van resultaat
-> - **Ontwikkeling**: WEL activeerbaar mits aan **strikte voorwaarden** voldaan ⚖️:
->   - Identificeerbaar (afgebakend project)
->   - Technisch haalbaar
->   - Intentie om te voltooien + gebruiken/verkopen
->   - Voldoende middelen om te voltooien
->   - Betrouwbaar meetbare kostprijs (bv. tijdsbesteding per project + loonkostprijs)
->   - Verwachte economische voordelen ⚖️
-> 
-> **Boeking voor geactiveerde ontwikkeling**
-> 
-> ```
-> Debet 211 Onderzoek en ontwikkeling (geactiveerd deel)
-> Credit 72 Geproduceerde vaste activa (intern)
-> ```
-> 
-> 🤖 Voor een 1-maand-actieve onderneming: typisch nog veel ontwikkeling in onderzoeks-fase → groot deel direct ten laste. Bij latere ontwikkelings-fase kunnen kosten naar rek 211 worden geactiveerd. 🤖
-> 
-> _Grondslag: KB WVV art. 3:36 (oprichtingskosten); art. 3:37 (IVA); CBN-advies 2016/16; [[oprichtingskosten]]; [[immateriele-vaste-activa]]._
-
-> [!info]- Bronnen (2)
-> - [[oprichtingskosten|content/concepten/oprichtingskosten.md]] · Bouwstenen → ondersteunt: keuze kost vs activeren
-> - [[immateriele-vaste-activa|content/concepten/immateriele-vaste-activa.md]] · Bouwstenen → ondersteunt: IVA + O&O-activering
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -868,6 +853,10 @@ Aankoop van boekhoudsoftware bij firma XYZ.
 #### Subvraag c)
 
 Zij koopt software X aan, die zij zonder enige wijziging doorverkoopt aan haar klanten
+
+- **A.** Te verwerken als handelsgoederen?
+- **B.** Te verwerken als bestelling in uitvoering?
+- **C.** Te verwerken als immateriële vaste activa?
 
 ---
 
@@ -898,60 +887,59 @@ Antwoord …
 | 5 jaar |   |   |
 | 10 jaar |   |   |
 
-#### Modelantwoord
-
-Bij aankoop van een activa-bundel (machines + voorraad) tegen een globale prijs die niet gelijk is aan de som van marktwaarden, wordt de aanschaffingswaarde proportioneel verdeeld op basis van de relatieve marktwaarden. Boeking: elke component op zijn eigen rekening (rek 23 machines, rek 34 handelsgoederen, etc.) tegen het pro-rata-bedrag van de globale aanschaffingsprijs.
-
-> [!success]- Motivering (typed)
-> **Bundeling-aankoop principe**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Bij aankoop van een activa-bundel (machines + voorraad) tegen een globale prijs die niet gelijk is aan de som van marktwaarden, wordt de aanschaffingswaarde proportioneel verdeeld op basis van de relatieve marktwaarden. Boeking: elke component op zijn eigen rekening (rek 23 machines, rek 34 handelsgoederen, etc.) tegen het pro-rata-bedrag van de globale aanschaffingsprijs.
 > 
-> (CBN-advies 132/7 + KB WVV art. 3:42):
+> > [!note]- Motivering (typed)
+> > **Bundeling-aankoop principe**
+> > 
+> > (CBN-advies 132/7 + KB WVV art. 3:42):
+> > 
+> > Wanneer meerdere activa **samen** worden aangekocht tegen één globale prijs, moet de aanschaffingsprijs **proportioneel** worden verdeeld over de individuele activa op basis van hun **relatieve marktwaarde**. ⚖️ ⚖️
+> > 
+> > ### Voorbeeld toepassing (op basis van vraagtekst)
+> > 
+> > Vennootschap Final BVBA koopt van DEF: machines + voorraad met respectievelijke marktwaarden:
+> > - Machine A: € 15.000 (marktwaarde)
+> > - (Verdere onderdelen niet zichtbaar in vraagtekst — vermoedelijk Machine B + Voorraad)
+> > 
+> > Stel totale marktwaarde van alle componenten = € 50.000, en globale aanschaffingsprijs = € 45.000 (5.000 korting):
+> > - Verdeling: machine A = (15.000 / 50.000) × 45.000 = € 13.500
+> > - Idem voor overige componenten
+> > 
+> > ### Boeking
+> > 
+> > -  Bank € 45.000
+> > 
+> > ⚖️ Geen "bundeling" op één rekening — elke component op zijn eigen rekening volgens MAR-rubriek. Afschrijving en latere waardering gebeuren per component. ⚖️
+> > 
+> > ### Waardering bij waardestijging?
+> > 
+> > Als de globale aanschaffingsprijs **lager** is dan de som van marktwaarden (zoals waarschijnlijk in dit geval), ontstaat een **latente meerwaarde** per activum. Onder BE GAAP **niet** opwaarderen — voorzichtigheidsbeginsel. ⚖️ Activa op pro-rata aanschaffingsprijs gehouden, herwaardering alleen mogelijk als de drie strikte voorwaarden (zeker, duurzaam, onontbeerlijk) zijn voldaan (KB WVV art. 3:35) — zelden bij voorraad. ⚖️
+> > 
+> > 🤖 Voor voorraad-component: blijft op pro-rata-bedrag tot verkoop (op moment van verkoop wordt eventuele meerwaarde gerealiseerd in resultaat). 🤖
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 23 | Installaties, machines en uitrusting (machine A) | 13.500,00 EUR |
+> > | **C** | 440 | Leveranciers / | 550,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:42 (aanschaffingsprijs); CBN-advies 132/7 (verdeling globale aanschafprijs); voorzichtigheidsbeginsel._
 > 
-> Wanneer meerdere activa **samen** worden aangekocht tegen één globale prijs, moet de aanschaffingsprijs **proportioneel** worden verdeeld over de individuele activa op basis van hun **relatieve marktwaarde**. ⚖️ ⚖️
+> > [!info]- Bronnen (2)
+> > - [[materiele-vaste-activa|content/concepten/materiele-vaste-activa.md]] · Bouwstenen → ondersteunt: aanschaffingsprijs-toerekening
+> > - [[voorzichtigheidsbeginsel|content/concepten/voorzichtigheidsbeginsel.md]] · Bouwstenen → ondersteunt: geen opwaardering bij latente meerwaarde
 > 
-> ### Voorbeeld toepassing (op basis van vraagtekst)
-> 
-> Vennootschap Final BVBA koopt van DEF: machines + voorraad met respectievelijke marktwaarden:
-> - Machine A: € 15.000 (marktwaarde)
-> - (Verdere onderdelen niet zichtbaar in vraagtekst — vermoedelijk Machine B + Voorraad)
-> 
-> Stel totale marktwaarde van alle componenten = € 50.000, en globale aanschaffingsprijs = € 45.000 (5.000 korting):
-> - Verdeling: machine A = (15.000 / 50.000) × 45.000 = € 13.500
-> - Idem voor overige componenten
-> 
-> ### Boeking
-> 
-> -  Bank € 45.000
-> 
-> ⚖️ Geen "bundeling" op één rekening — elke component op zijn eigen rekening volgens MAR-rubriek. Afschrijving en latere waardering gebeuren per component. ⚖️
-> 
-> ### Waardering bij waardestijging?
-> 
-> Als de globale aanschaffingsprijs **lager** is dan de som van marktwaarden (zoals waarschijnlijk in dit geval), ontstaat een **latente meerwaarde** per activum. Onder BE GAAP **niet** opwaarderen — voorzichtigheidsbeginsel. ⚖️ Activa op pro-rata aanschaffingsprijs gehouden, herwaardering alleen mogelijk als de drie strikte voorwaarden (zeker, duurzaam, onontbeerlijk) zijn voldaan (KB WVV art. 3:35) — zelden bij voorraad. ⚖️
-> 
-> 🤖 Voor voorraad-component: blijft op pro-rata-bedrag tot verkoop (op moment van verkoop wordt eventuele meerwaarde gerealiseerd in resultaat). 🤖
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 23 | Installaties, machines en uitrusting (machine A) | 13.500,00 EUR |
-> | **C** | 440 | Leveranciers / | 550,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:42 (aanschaffingsprijs); CBN-advies 132/7 (verdeling globale aanschafprijs); voorzichtigheidsbeginsel._
-
-> [!info]- Bronnen (2)
-> - [[materiele-vaste-activa|content/concepten/materiele-vaste-activa.md]] · Bouwstenen → ondersteunt: aanschaffingsprijs-toerekening
-> - [[voorzichtigheidsbeginsel|content/concepten/voorzichtigheidsbeginsel.md]] · Bouwstenen → ondersteunt: geen opwaardering bij latente meerwaarde
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -986,76 +974,75 @@ ANALYSE EN KRITISCHE BEOORDELING VAN DE
 JAARREKENING - CONSOLIDATIE
 Bijlage: Balans
 
-#### Modelantwoord
-
-a) Ja, de onderneming kan in haar jaarrekening rekening houden met de te verwachte schilderwerken via een **voorziening voor grote onderhouds- en herstellingswerken** (rek 162). Spreid de kost over de cyclus (8 jaar): jaarlijks 40.000 / 8 = 5.000 EUR aan voorziening boeken. b) Op het jaar van uitvoering wordt de voorziening gebruikt om de werkelijke kost te dekken: Debet 162 / Credit 440 (of 61 Diensten) — afhankelijk van match-bedrag, eventueel resterend verschil in resultaat.
-
-> [!success]- Motivering (typed)
-> ### a) Mag de onderneming hiermee rekening houden? Wanneer? Hoeveel per jaar?
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Ja, de onderneming kan in haar jaarrekening rekening houden met de te verwachte schilderwerken via een **voorziening voor grote onderhouds- en herstellingswerken** (rek 162). Spreid de kost over de cyclus (8 jaar): jaarlijks 40.000 / 8 = 5.000 EUR aan voorziening boeken. b) Op het jaar van uitvoering wordt de voorziening gebruikt om de werkelijke kost te dekken: Debet 162 / Credit 440 (of 61 Diensten) — afhankelijk van match-bedrag, eventueel resterend verschil in resultaat.
 > 
-> **Ja**, via een **voorziening voor grote onderhouds- en herstellingswerken** (KB WVV art. 3:24 + art. 3:27; CBN-advies 107/9). ⚖️ ⚖️
+> > [!note]- Motivering (typed)
+> > ### a) Mag de onderneming hiermee rekening houden? Wanneer? Hoeveel per jaar?
+> > 
+> > **Ja**, via een **voorziening voor grote onderhouds- en herstellingswerken** (KB WVV art. 3:24 + art. 3:27; CBN-advies 107/9). ⚖️ ⚖️
+> > 
+> > **Voorwaarden voor de voorziening**
+> > 
+> > - De kost is **redelijk te verwachten** (periodiek terugkerend, planmatig)
+> > - Bedrag is **schatbaar**
+> > - **Periodiciteit** is bekend (om de 8 jaar)
+> > 
+> > **Berekening**: jaarlijks bedrag = totale verwachte kost / cyclus = € 40.000 / 8 = **€ 5.000 per jaar**. ⚖️ ⚖️
+> > 
+> > **Boeking jaarlijks**
+> > 
+> > (jaar 1 t.e.m. 7 vóór uitvoering):
+> > 
+> > Saldo van rek 162 stijgt jaarlijks: € 5.000 → € 10.000 → ... → € 35.000 (eind jaar 7) → € 40.000 (eind jaar 8 vóór uitvoering).
+> > 
+> > ### b) Op het jaar van uitvoering (jaar 8)
+> > 
+> > Wanneer de schilderwerken werkelijk worden uitgevoerd:
+> > -  Bank € 40.000
+> > 
+> > **Resultaat van het uitvoeringsjaar**: geen kost meer in de resultatenrekening — de kost was over 8 jaar gespreid via de voorzieningen.
+> > 
+> > 🤖 Belangrijk:
+> > - Als de werkelijke kost > schatting (bv. € 45.000): aanvullende kost van € 5.000 ten laste van het jaar 8 ( 🤖
+> > 
+> > ⚖️ Voorzichtigheidsbeginsel + matching-principe: voorziening voorkomt dat de hele kost in één boekjaar valt (jaar 8) en spreidt de economische last over de cyclus. ⚖️
+> > 
+> > **Boeking — schatbaar**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 6371 | Voorzieningen voor grote onderhouds- en herstellingswerken | 5.000,00 EUR |
+> > | **C** | 162 | Voorzieningen voor grote onderhouds- en herstellingswerken | 5.000,00 EUR |
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 162 | Voorzieningen | 40.000,00 EUR |
+> > | **C** | 440 | Leveranciers / | 550,00 EUR |
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 61 | Diensten / Credit | 440,00 EUR |
+> > | **D** | 162 | € | 5.000,00 EUR |
+> > | **C** | 7371 | Terugnemingen voorzieningen | 5.000,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:24 (voorzieningen voor risico's en kosten) + art. 3:27 (specifieke voorzieningen); CBN-advies 107/9 ('Voorzieningen voor grote onderhouds- en herstellingswerken')._
 > 
-> **Voorwaarden voor de voorziening**
+> > [!info]- Bronnen (1)
+> > - [[voorzieningen|content/concepten/voorzieningen.md]] · Bouwstenen → ondersteunt: voorzieningen-procedure
 > 
-> - De kost is **redelijk te verwachten** (periodiek terugkerend, planmatig)
-> - Bedrag is **schatbaar**
-> - **Periodiciteit** is bekend (om de 8 jaar)
-> 
-> **Berekening**: jaarlijks bedrag = totale verwachte kost / cyclus = € 40.000 / 8 = **€ 5.000 per jaar**. ⚖️ ⚖️
-> 
-> **Boeking jaarlijks**
-> 
-> (jaar 1 t.e.m. 7 vóór uitvoering):
-> 
-> Saldo van rek 162 stijgt jaarlijks: € 5.000 → € 10.000 → ... → € 35.000 (eind jaar 7) → € 40.000 (eind jaar 8 vóór uitvoering).
-> 
-> ### b) Op het jaar van uitvoering (jaar 8)
-> 
-> Wanneer de schilderwerken werkelijk worden uitgevoerd:
-> -  Bank € 40.000
-> 
-> **Resultaat van het uitvoeringsjaar**: geen kost meer in de resultatenrekening — de kost was over 8 jaar gespreid via de voorzieningen.
-> 
-> 🤖 Belangrijk:
-> - Als de werkelijke kost > schatting (bv. € 45.000): aanvullende kost van € 5.000 ten laste van het jaar 8 ( 🤖
-> 
-> ⚖️ Voorzichtigheidsbeginsel + matching-principe: voorziening voorkomt dat de hele kost in één boekjaar valt (jaar 8) en spreidt de economische last over de cyclus. ⚖️
-> 
-> **Boeking — schatbaar**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 6371 | Voorzieningen voor grote onderhouds- en herstellingswerken | 5.000,00 EUR |
-> | **C** | 162 | Voorzieningen voor grote onderhouds- en herstellingswerken | 5.000,00 EUR |
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 162 | Voorzieningen | 40.000,00 EUR |
-> | **C** | 440 | Leveranciers / | 550,00 EUR |
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 61 | Diensten / Credit | 440,00 EUR |
-> | **D** | 162 | € | 5.000,00 EUR |
-> | **C** | 7371 | Terugnemingen voorzieningen | 5.000,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:24 (voorzieningen voor risico's en kosten) + art. 3:27 (specifieke voorzieningen); CBN-advies 107/9 ('Voorzieningen voor grote onderhouds- en herstellingswerken')._
-
-> [!info]- Bronnen (1)
-> - [[voorzieningen|content/concepten/voorzieningen.md]] · Bouwstenen → ondersteunt: voorzieningen-procedure
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -1115,67 +1102,66 @@ staat wel in de resultaatverwerking “vergoeding van het kapitaal” voor 1.000
 het passief vinden we ook de rekening “Ontvangen voorschotten op kapitaal” voor een
 bedrag van 900.000 EUR.
 
-#### Modelantwoord
-
-Vastklikken van reserves was een eenmalige fiscale maatregel (programmawet 28/06/2013) waarbij bestaande belaste reserves konden worden omgezet in volgestort kapitaal mits onmiddellijke betaling van 10% roerende voorheffing. Voorwaarden: beslissing in AV vóór 31/12/2013 (verlengd in latere wetten), reserves bestonden ten laatste 31/03/2013, kapitaalverhoging moet incorporeren via authentieke akte. De maatregel was bedoeld om de fiscaal-onzichtbare aanwas van reserves uit het verleden om te zetten in beschermd kapitaal (lagere uitkeringsbelasting bij latere terugbetaling).
-
-> [!success]- Motivering (typed)
-> **Vastklikken van reserves** is een **fiscale gunstmaatregel** (Programmawet van 28 juni 2013, art. 537-538 WIB 92) die in 2013-2014 actief was. ⚖️ ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Vastklikken van reserves was een eenmalige fiscale maatregel (programmawet 28/06/2013) waarbij bestaande belaste reserves konden worden omgezet in volgestort kapitaal mits onmiddellijke betaling van 10% roerende voorheffing. Voorwaarden: beslissing in AV vóór 31/12/2013 (verlengd in latere wetten), reserves bestonden ten laatste 31/03/2013, kapitaalverhoging moet incorporeren via authentieke akte. De maatregel was bedoeld om de fiscaal-onzichtbare aanwas van reserves uit het verleden om te zetten in beschermd kapitaal (lagere uitkeringsbelasting bij latere terugbetaling).
 > 
-> ### Doel van de maatregel
+> > [!note]- Motivering (typed)
+> > **Vastklikken van reserves** is een **fiscale gunstmaatregel** (Programmawet van 28 juni 2013, art. 537-538 WIB 92) die in 2013-2014 actief was. ⚖️ ⚖️
+> > 
+> > ### Doel van de maatregel
+> > 
+> > Een NV/BV liet de mogelijkheid toe om bestaande **belaste reserves** om te zetten in **volgestort kapitaal** mits onmiddellijke betaling van **10 % roerende voorheffing** (RV) op het over te boeken bedrag. ⚖️ ⚖️
+> > 
+> > ### Voordeel voor de vennootschap
+> > 
+> > Bij **latere kapitaalvermindering** geldt **0 % RV** (in plaats van de toen-geldende 25 % of huidige 30 % RV op dividenden) → enkel de eenmalige 10 % betaalde nu, lange termijn voordeel bij teruggave. 🤖 🤖
+> > 
+> > ### Voorwaarden
+> > 
+> > 1. Beslissing tot vastklikken door de **algemene vergadering** vóór 31 december 2013 (oorspronkelijke deadline, verlengd in latere wetten)
+> > 2. Reserves bestonden ten laatste **31 maart 2013** in de jaarrekening
+> > 3. **Authentieke akte** bij notaris voor de kapitaalverhoging (formele kapitaalverhoging via incorporatie van reserves)
+> > 4. **Onmiddellijke betaling** van de 10 % RV bij de aangifte
+> > 5. **Wachttijd** (4 of 8 jaar afhankelijk van regime): kapitaalvermindering binnen wachttijd → vermijdende RV verschuldigd
+> > 
+> > ### PETRUS BVBA casus (20/12/2013)
+> > 
+> > ⚖️ De vennootschap (afsluiting 31/12) wou gebruik maken van de maatregel. Beslissing op 20/12/2013 = vóór deadline. **Vereist** voor geldige toepassing:
+> > - AV-beslissing (genotuleerd) ✓ — vermoedelijk gedaan voor 20/12
+> > - Authentieke akte vóór 31/12/2013 (de juridische realisatie van de kapitaalverhoging vereist notarisakte)
+> > - Aangifte + betaling 10 % RV bij volgende RV-aangifte
+> > - Reserves moeten bestaan in jaarrekening die afsloot uiterlijk 31/03/2013 (boekjaar 2012) ⚖️
+> > 
+> > **Boekhoudkundige verwerking**
+> > 
+> > (op moment van notarisakte):
+> > ```
+> > Debet 13X Beschikbare reserves (te incorporeren bedrag)
+> > Credit 100 Geplaatst kapitaal (idem bedrag)
+> > ```
+> > + Betaling van 10 % RV:
+> > ```
+> > Debet 670 Belgische belastingen op het resultaat (of 65 Andere fiscale lasten — discussie)
+> > Credit 550 Bank (te betalen RV)
+> > ```
+> > 
+> > 🤖 De vraagtekst toont een datum (20/12/2013) maar geen verdere details over deadline-naleving of cijfers — antwoord blijft kwalitatief. 🤖
+> > 
+> > ⚠️ De maatregel was **eenmalig** en is sinds 2014-2018 niet meer actief. Voor de stagiair-GA in 2026 is dit **historische kennis** — alleen relevant voor dossiers van die periode.
+> > 
+> > _Grondslag: art. 537-538 WIB 92 (Programmawet 28 juni 2013); historische fiscale wetgeving._
 > 
-> Een NV/BV liet de mogelijkheid toe om bestaande **belaste reserves** om te zetten in **volgestort kapitaal** mits onmiddellijke betaling van **10 % roerende voorheffing** (RV) op het over te boeken bedrag. ⚖️ ⚖️
+> > [!info]- Bronnen (1)
+> > - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: kapitaal + reserves
 > 
-> ### Voordeel voor de vennootschap
-> 
-> Bij **latere kapitaalvermindering** geldt **0 % RV** (in plaats van de toen-geldende 25 % of huidige 30 % RV op dividenden) → enkel de eenmalige 10 % betaalde nu, lange termijn voordeel bij teruggave. 🤖 🤖
-> 
-> ### Voorwaarden
-> 
-> 1. Beslissing tot vastklikken door de **algemene vergadering** vóór 31 december 2013 (oorspronkelijke deadline, verlengd in latere wetten)
-> 2. Reserves bestonden ten laatste **31 maart 2013** in de jaarrekening
-> 3. **Authentieke akte** bij notaris voor de kapitaalverhoging (formele kapitaalverhoging via incorporatie van reserves)
-> 4. **Onmiddellijke betaling** van de 10 % RV bij de aangifte
-> 5. **Wachttijd** (4 of 8 jaar afhankelijk van regime): kapitaalvermindering binnen wachttijd → vermijdende RV verschuldigd
-> 
-> ### PETRUS BVBA casus (20/12/2013)
-> 
-> ⚖️ De vennootschap (afsluiting 31/12) wou gebruik maken van de maatregel. Beslissing op 20/12/2013 = vóór deadline. **Vereist** voor geldige toepassing:
-> - AV-beslissing (genotuleerd) ✓ — vermoedelijk gedaan voor 20/12
-> - Authentieke akte vóór 31/12/2013 (de juridische realisatie van de kapitaalverhoging vereist notarisakte)
-> - Aangifte + betaling 10 % RV bij volgende RV-aangifte
-> - Reserves moeten bestaan in jaarrekening die afsloot uiterlijk 31/03/2013 (boekjaar 2012) ⚖️
-> 
-> **Boekhoudkundige verwerking**
-> 
-> (op moment van notarisakte):
-> ```
-> Debet 13X Beschikbare reserves (te incorporeren bedrag)
-> Credit 100 Geplaatst kapitaal (idem bedrag)
-> ```
-> + Betaling van 10 % RV:
-> ```
-> Debet 670 Belgische belastingen op het resultaat (of 65 Andere fiscale lasten — discussie)
-> Credit 550 Bank (te betalen RV)
-> ```
-> 
-> 🤖 De vraagtekst toont een datum (20/12/2013) maar geen verdere details over deadline-naleving of cijfers — antwoord blijft kwalitatief. 🤖
-> 
-> ⚠️ De maatregel was **eenmalig** en is sinds 2014-2018 niet meer actief. Voor de stagiair-GA in 2026 is dit **historische kennis** — alleen relevant voor dossiers van die periode.
-> 
-> _Grondslag: art. 537-538 WIB 92 (Programmawet 28 juni 2013); historische fiscale wetgeving._
-
-> [!info]- Bronnen (1)
-> - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: kapitaal + reserves
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 > [!warning] Gap niveau **c** — type **concept_ontbreekt**
 > Geen dedicated record voor de historische programmawet-maatregel uit 2013. Antwoord rust op WIB 92 art. 537-538 + algemene boekhoudkundige + fiscale doctrine. Gap niveau c, maar laag prioriteit want maatregel is historisch (afgelopen sinds 2018) — relevant voor stagiair alleen als kennis van geschiedenis.
@@ -1217,74 +1203,73 @@ overboeken.
 Zij boekt de reserves rechtstreeks over naar kapitaal. De uitgiftepremie blijft als afzonderlijke
 rekening staan op haar passief.
 
-#### Modelantwoord
-
-Bij kapitaalverhoging door incorporatie van reserves + inbreng in natura: (1) Incorporatie reserves = formele boekhoudkundige operatie zonder geldstroom: Debet rek 13X (Reserves) / Credit rek 100 (Geplaatst kapitaal). (2) Inbreng in natura = aanwijzing van een externe accountant of bedrijfsrevisor om een waarderingsverslag op te maken (WVV art. 5:7 voor BV / 7:7 voor NV). Authentieke notarisakte verplicht. Boeking inbreng: Debet 23/22 etc. (ingebracht actief tegen overeengekomen waarde) / Credit 100 Geplaatst kapitaal.
-
-> [!success]- Motivering (typed)
-> **Twee gelijktijdige operaties bij vennootschap ABC**:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Bij kapitaalverhoging door incorporatie van reserves + inbreng in natura: (1) Incorporatie reserves = formele boekhoudkundige operatie zonder geldstroom: Debet rek 13X (Reserves) / Credit rek 100 (Geplaatst kapitaal). (2) Inbreng in natura = aanwijzing van een externe accountant of bedrijfsrevisor om een waarderingsverslag op te maken (WVV art. 5:7 voor BV / 7:7 voor NV). Authentieke notarisakte verplicht. Boeking inbreng: Debet 23/22 etc. (ingebracht actief tegen overeengekomen waarde) / Credit 100 Geplaatst kapitaal.
 > 
-> ### Operatie 1: Incorporatie van bestaande reserves
+> > [!note]- Motivering (typed)
+> > **Twee gelijktijdige operaties bij vennootschap ABC**:
+> > 
+> > ### Operatie 1: Incorporatie van bestaande reserves
+> > 
+> > Geen geldstroom — pure boekhoudkundige overdracht binnen eigen vermogen ([[eigen-middelen]]):
+> > ```
+> > Debet 13X Beschikbare reserves (te incorporeren bedrag)
+> > Credit 100 Geplaatst kapitaal (idem bedrag)
+> > ```
+> > 
+> > ⚖️ Geen externe waardering vereist; bedrag is identiek aan het reserves-saldo. ⚖️
+> > 
+> > ### Operatie 2: Kapitaalverhoging door inbreng in natura
+> > 
+> > Inbreng = activum (machine, onroerend goed, vordering, deelneming) ipv geld. ⚖️ Drie vereisten: ⚖️
+> > 
+> > 1. **Waarderingsverslag van externe accountant of bedrijfsrevisor** (WVV art. 5:7 voor BV / art. 7:7 voor NV): zie [[inbreng-in-natura-verslag]] + [[opstellen-bijzondere-verslagen-en-ic-evaluaties]]. ⚖️ Het verslag moet bevestigen dat:
+> >    - De beschrijving van de inbreng correct is
+> >    - De toegepaste waarderingsmethode aanvaardbaar is
+> >    - De waardering **ten minste overeenkomt** met het aantal en de fractiewaarde van de uit te geven aandelen ⚖️
+> > 
+> > 2. **Authentieke akte bij notaris** — formele kapitaalverhoging vereist notarisakte (WVV art. 7:13 voor NV) ⚖️ ⚖️
+> > 
+> > 3. **Boeking** (op moment notarisakte):
+> > ```
+> > Debet 22 of 23 of 21 (afhankelijk van type ingebracht actief): de waarde van het ingebrachte actief
+> > Credit 100 Geplaatst kapitaal (= toename geplaatst kapitaal)
+> > ```
+> > 
+> > Indien de overeengekomen waarde hoger is dan de fractiewaarde (= aantal nieuwe aandelen × fractiewaarde), dan komt het verschil op **rek 11 Uitgiftepremies** ([[uitgiftepremie]]):
+> > ```
+> > Credit 100 Geplaatst kapitaal (aantal × fractiewaarde)
+> > Credit 11 Uitgiftepremies (verschil)
+> > ```
+> > 
+> > ### Gezamenlijke boeking bij ABC
+> > 
+> > Stel reserves geïncorporeerd € 100.000 + inbreng natura € 50.000 (met fractiewaarde-respect):
+> > 
+> > 🤖 Vraagtekst toont geen specifieke bedragen of activa-type — antwoord blijft generiek. 🤖
+> > 
+> > **Boeking — Gezamenlijke boeking bij ABC**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 22 | Terreinen en gebouwen (inbreng) | 50.000,00 EUR |
+> > | **C** | 100 | Geplaatst kapitaal | 150.000,00 EUR |
+> > 
+> > _Grondslag: WVV art. 5:7 (BV) / 7:7 (NV) — inbreng in natura; WVV art. 7:13 — kapitaalverhoging NV; KB WVV art. 3:42 — waardering ingebrachte activa; [[inbreng-in-natura-verslag]]; [[uitgiftepremie]]._
 > 
-> Geen geldstroom — pure boekhoudkundige overdracht binnen eigen vermogen ([[eigen-middelen]]):
-> ```
-> Debet 13X Beschikbare reserves (te incorporeren bedrag)
-> Credit 100 Geplaatst kapitaal (idem bedrag)
-> ```
+> > [!info]- Bronnen (3)
+> > - [[inbreng-in-natura-verslag|content/concepten/inbreng-in-natura-verslag.md]] · Bouwstenen → ondersteunt: waarderingsverslag + fractiewaarde-toetsing
+> > - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: incorporatie reserves
+> > - [[uitgiftepremie|content/concepten/uitgiftepremie.md]] · Bouwstenen → ondersteunt: uitgiftepremie bij waarde > fractiewaarde
 > 
-> ⚖️ Geen externe waardering vereist; bedrag is identiek aan het reserves-saldo. ⚖️
-> 
-> ### Operatie 2: Kapitaalverhoging door inbreng in natura
-> 
-> Inbreng = activum (machine, onroerend goed, vordering, deelneming) ipv geld. ⚖️ Drie vereisten: ⚖️
-> 
-> 1. **Waarderingsverslag van externe accountant of bedrijfsrevisor** (WVV art. 5:7 voor BV / art. 7:7 voor NV): zie [[inbreng-in-natura-verslag]] + [[opstellen-bijzondere-verslagen-en-ic-evaluaties]]. ⚖️ Het verslag moet bevestigen dat:
->    - De beschrijving van de inbreng correct is
->    - De toegepaste waarderingsmethode aanvaardbaar is
->    - De waardering **ten minste overeenkomt** met het aantal en de fractiewaarde van de uit te geven aandelen ⚖️
-> 
-> 2. **Authentieke akte bij notaris** — formele kapitaalverhoging vereist notarisakte (WVV art. 7:13 voor NV) ⚖️ ⚖️
-> 
-> 3. **Boeking** (op moment notarisakte):
-> ```
-> Debet 22 of 23 of 21 (afhankelijk van type ingebracht actief): de waarde van het ingebrachte actief
-> Credit 100 Geplaatst kapitaal (= toename geplaatst kapitaal)
-> ```
-> 
-> Indien de overeengekomen waarde hoger is dan de fractiewaarde (= aantal nieuwe aandelen × fractiewaarde), dan komt het verschil op **rek 11 Uitgiftepremies** ([[uitgiftepremie]]):
-> ```
-> Credit 100 Geplaatst kapitaal (aantal × fractiewaarde)
-> Credit 11 Uitgiftepremies (verschil)
-> ```
-> 
-> ### Gezamenlijke boeking bij ABC
-> 
-> Stel reserves geïncorporeerd € 100.000 + inbreng natura € 50.000 (met fractiewaarde-respect):
-> 
-> 🤖 Vraagtekst toont geen specifieke bedragen of activa-type — antwoord blijft generiek. 🤖
-> 
-> **Boeking — Gezamenlijke boeking bij ABC**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 22 | Terreinen en gebouwen (inbreng) | 50.000,00 EUR |
-> | **C** | 100 | Geplaatst kapitaal | 150.000,00 EUR |
-> 
-> _Grondslag: WVV art. 5:7 (BV) / 7:7 (NV) — inbreng in natura; WVV art. 7:13 — kapitaalverhoging NV; KB WVV art. 3:42 — waardering ingebrachte activa; [[inbreng-in-natura-verslag]]; [[uitgiftepremie]]._
-
-> [!info]- Bronnen (3)
-> - [[inbreng-in-natura-verslag|content/concepten/inbreng-in-natura-verslag.md]] · Bouwstenen → ondersteunt: waarderingsverslag + fractiewaarde-toetsing
-> - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: incorporatie reserves
-> - [[uitgiftepremie|content/concepten/uitgiftepremie.md]] · Bouwstenen → ondersteunt: uitgiftepremie bij waarde > fractiewaarde
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -1349,21 +1334,20 @@ de boeking van de meerwaarde is verboden
 
 de boeking van de meerwaarde is facultatief
 
-#### Modelantwoord
-
-MC-casus over herwaarderingsmeerwaarde op octrooi (1980), volledig afgeschreven, verkocht 2013. Zie subvragen a)-d).
-
-> [!success]- Motivering (typed)
-> Casus die KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde) toepast op een volledig afgeschreven octrooi dat wordt vervreemd.
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: MC-casus over herwaarderingsmeerwaarde op octrooi (1980), volledig afgeschreven, verkocht 2013. Zie subvragen a)-d).
+> 
+> > [!note]- Motivering (typed)
+> > Casus die KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde) toepast op een volledig afgeschreven octrooi dat wordt vervreemd.
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -1371,28 +1355,27 @@ Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?
 
 **Antwoord-type**: kwalificatie · **Confidence**: grounded
 
-#### Modelantwoord
-
-De meerwaarde moet geïncorporeerd worden in het kapitaal (of overgeboekt naar de uitkeerbare reserves). Bij vervreemding van het geherwaardeerde actief mag de niet-uitkeerbare herwaarderingsmeerwaarde niet langer op rekening 12 blijven staan.
-
-> [!success]- Motivering (typed)
-> Bij vervreemding van een geherwaardeerd actief wordt de **niet-uitkeerbare herwaarderingsmeerwaarde gerealiseerd** en moet ze van rekening 12 ('Herwaarderingsmeerwaarden') af. ⚖️ Twee toegelaten bestemmingen onder KB WVV art. 3:35: (1) overboeking naar de uitkeerbare reserves, OF (2) inlijving in het kapitaal (kapitaalverhoging door incorporatie van reserves). ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De meerwaarde moet geïncorporeerd worden in het kapitaal (of overgeboekt naar de uitkeerbare reserves). Bij vervreemding van het geherwaardeerde actief mag de niet-uitkeerbare herwaarderingsmeerwaarde niet langer op rekening 12 blijven staan.
 > 
-> Van de vier MC-opties is **optie 3 "moet geïncorporeerd worden in het kapitaal"** een van de twee toegelaten bestemmingen — strikt genomen geen verplichting (de andere optie is ook valide), maar de meest specifieke optie die past binnen de wettelijke ruimte. **Optie 1** ("op het passief van de balans behouden") is fout: de meerwaarde wordt bij vervreemding gerealiseerd. **Optie 2** ("mag niet op de balans worden behouden") is feitelijk juist als algemene stelling maar niet als bestemming-aanduiding. **Optie 4** ("gespreid over 5 jaar in resultaat") is fout: KB WVV art. 3:35 voorziet géén gespreide opname in resultaat bij vervreemding.
+> > [!note]- Motivering (typed)
+> > Bij vervreemding van een geherwaardeerd actief wordt de **niet-uitkeerbare herwaarderingsmeerwaarde gerealiseerd** en moet ze van rekening 12 ('Herwaarderingsmeerwaarden') af. ⚖️ Twee toegelaten bestemmingen onder KB WVV art. 3:35: (1) overboeking naar de uitkeerbare reserves, OF (2) inlijving in het kapitaal (kapitaalverhoging door incorporatie van reserves). ⚖️
+> > 
+> > Van de vier MC-opties is **optie 3 "moet geïncorporeerd worden in het kapitaal"** een van de twee toegelaten bestemmingen — strikt genomen geen verplichting (de andere optie is ook valide), maar de meest specifieke optie die past binnen de wettelijke ruimte. **Optie 1** ("op het passief van de balans behouden") is fout: de meerwaarde wordt bij vervreemding gerealiseerd. **Optie 2** ("mag niet op de balans worden behouden") is feitelijk juist als algemene stelling maar niet als bestemming-aanduiding. **Optie 4** ("gespreid over 5 jaar in resultaat") is fout: KB WVV art. 3:35 voorziet géén gespreide opname in resultaat bij vervreemding.
+> > 
+> > _Grondslag: KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde bij vervreemding); [[herwaarderingsmeerwaarden]] §Vervreemding._
 > 
-> _Grondslag: KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde bij vervreemding); [[herwaarderingsmeerwaarden]] §Vervreemding._
-
-> [!info]- Bronnen (1)
-> - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Vervreemding: realisatie van de meerwaarde → ondersteunt: twee bestemmingen bij vervreemding
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Bronnen (1)
+> > - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Vervreemding: realisatie van de meerwaarde → ondersteunt: twee bestemmingen bij vervreemding
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag b)
 
@@ -1400,32 +1383,31 @@ De meerwaarde moet geïncorporeerd worden in het kapitaal (of overgeboekt naar d
 
 **Antwoord-type**: opsomming · **Confidence**: grounded
 
-#### Modelantwoord
-
-De middelste optie: ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel bij latere minderwaarden uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde.
-
-> [!success]- Motivering (typed)
-> KB WVV art. 3:35 voorziet drie toegelaten bestemmingen voor een herwaarderingsmeerwaarde:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De middelste optie: ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel bij latere minderwaarden uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde.
 > 
-> De **middelste MC-optie** verwoordt deze drie bestemmingen correct (overboeking tot beloop van afschrijvingen, inlijving, of uitboeking bij minderwaarden). De **eerste optie** zegt foutief "overboeking naar reserves tot beloop van het nog niet afgeschreven bedrag" — dat is omgekeerd. De **derde optie** koppelt foutief inlijving in kapitaal aan de "afschrijvingen geboekt op de meerwaarde" als limiet — wat niet klopt: inlijving in kapitaal geldt voor het volledige saldo van rek 12.
+> > [!note]- Motivering (typed)
+> > KB WVV art. 3:35 voorziet drie toegelaten bestemmingen voor een herwaarderingsmeerwaarde:
+> > 
+> > De **middelste MC-optie** verwoordt deze drie bestemmingen correct (overboeking tot beloop van afschrijvingen, inlijving, of uitboeking bij minderwaarden). De **eerste optie** zegt foutief "overboeking naar reserves tot beloop van het nog niet afgeschreven bedrag" — dat is omgekeerd. De **derde optie** koppelt foutief inlijving in kapitaal aan de "afschrijvingen geboekt op de meerwaarde" als limiet — wat niet klopt: inlijving in kapitaal geldt voor het volledige saldo van rek 12.
+> > 
+> > 1. **Overboeking naar de uitkeerbare reserves** — tot beloop van het bedrag van de op de meerwaarde **reeds geboekte afschrijvingen** (dus parallel met de gespreide realisatie via afschrijvingen op de geherwaardeerde boekwaarde). ⚖️
+> > 2. **Inlijving in het kapitaal** — (kapitaalverhoging door incorporatie van reserves) — voor het volledige bedrag. ⚖️
+> > 3. **Bij latere minderwaarden** — op het geherwaardeerde actief: **uitboeking** van de meerwaarde tot beloop van het **nog niet afgeschreven** bedrag (om de minderwaarde tegen de meerwaarde te compenseren in plaats van als verlies te boeken). ⚖️
+> > 
+> > _Grondslag: KB WVV art. 3:35; [[herwaarderingsmeerwaarden]] §Bouwstenen._
 > 
-> 1. **Overboeking naar de uitkeerbare reserves** — tot beloop van het bedrag van de op de meerwaarde **reeds geboekte afschrijvingen** (dus parallel met de gespreide realisatie via afschrijvingen op de geherwaardeerde boekwaarde). ⚖️
-> 2. **Inlijving in het kapitaal** — (kapitaalverhoging door incorporatie van reserves) — voor het volledige bedrag. ⚖️
-> 3. **Bij latere minderwaarden** — op het geherwaardeerde actief: **uitboeking** van de meerwaarde tot beloop van het **nog niet afgeschreven** bedrag (om de minderwaarde tegen de meerwaarde te compenseren in plaats van als verlies te boeken). ⚖️
+> > [!info]- Bronnen (1)
+> > - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Strikte voorwaarden + Vervreemding → ondersteunt: drie bestemmingen + grondslag KB WVV 3:35
 > 
-> _Grondslag: KB WVV art. 3:35; [[herwaarderingsmeerwaarden]] §Bouwstenen._
-
-> [!info]- Bronnen (1)
-> - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Strikte voorwaarden + Vervreemding → ondersteunt: drie bestemmingen + grondslag KB WVV 3:35
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag c)
 
@@ -1434,43 +1416,42 @@ worden overgeboekt?**
 
 **Antwoord-type**: berekening · **Confidence**: inferred
 
-#### Modelantwoord
-
-25.000 EUR — het volledige bedrag van de oorspronkelijk geboekte herwaarderingsmeerwaarde, als de meerwaarde op rekening 12 stond tot moment van vervreemding (geen gespreide realisatie via afschrijvingen). Bij gespreide realisatie via afschrijvingen zou het bedrag al 0 zijn want octrooi volledig afgeschreven.
-
-> [!success]- Motivering (typed)
-> **Twee scenarios**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 25.000 EUR — het volledige bedrag van de oorspronkelijk geboekte herwaarderingsmeerwaarde, als de meerwaarde op rekening 12 stond tot moment van vervreemding (geen gespreide realisatie via afschrijvingen). Bij gespreide realisatie via afschrijvingen zou het bedrag al 0 zijn want octrooi volledig afgeschreven.
 > 
-> (KB WVV art. 3:35 staat beide toe):
+> > [!note]- Motivering (typed)
+> > **Twee scenarios**
+> > 
+> > (KB WVV art. 3:35 staat beide toe):
+> > 
+> > **Scenario A — Meerwaarde gespreid gerealiseerd via afschrijvingen** (de "schone" boekhoudkundige praktijk):
+> > Bij elke afschrijving op de geherwaardeerde boekwaarde wordt een evenredig deel van de meerwaarde overgeboekt van rek 12 naar uitkeerbare reserves (KB WVV art. 3:35: "overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen"). Bij volledige afschrijving van het octrooi → rek 12 saldo = **0 EUR**. Niets meer over te boeken bij vervreemding. 🤖 🤖
+> > 
+> > **Scenario B — Meerwaarde bleef integraal op rek 12 staan** 🤖
+> > 
+> > (geen gespreide realisatie): 
+> > De vraag zegt dat het octrooi "thans volledig afgeschreven" is maar specificeert niet dat de meerwaarde ook is doorgeboekt. Veel bedrijven (vooral oudere dossiers — boeking in 1980) houden de meerwaarde op rek 12 tot vervreemding. In dat geval: **25.000 EUR** kan op moment van verkoop worden overgeboekt naar uitkeerbare reserves (of geïncorporeerd in kapitaal). 🤖
+> > 
+> > **Wat verwacht ITAA?** De vraag stelt impliciet dat rek 12 nog 25.000 EUR draagt (anders zou de subvraag overbodig zijn). Dus **.
+> > 
+> > ⚠️ Belangrijk: dit is alleen de **bestemming** van de herwaarderingsmeerwaarde op rek 12 — niet de winst op de verkoop. Het verkochte octrooi (boekwaarde 0) wordt voor 100.000 EUR verkocht → 100.000 EUR komt als opbrengst in W&V (uitzonderlijk resultaat / niet-recurrent), apart van de bestemming van rek 12. ⚖️ ⚖️
+> > 
+> > **Conclusie**: = 25.000 EUR
+> > 
+> > _Grondslag: KB WVV art. 3:35; [[herwaarderingsmeerwaarden]]._
 > 
-> **Scenario A — Meerwaarde gespreid gerealiseerd via afschrijvingen** (de "schone" boekhoudkundige praktijk):
-> Bij elke afschrijving op de geherwaardeerde boekwaarde wordt een evenredig deel van de meerwaarde overgeboekt van rek 12 naar uitkeerbare reserves (KB WVV art. 3:35: "overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen"). Bij volledige afschrijving van het octrooi → rek 12 saldo = **0 EUR**. Niets meer over te boeken bij vervreemding. 🤖 🤖
+> > [!info]- Bronnen (1)
+> > - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Vervreemding → ondersteunt: realisatie bij vervreemding
 > 
-> **Scenario B — Meerwaarde bleef integraal op rek 12 staan** 🤖
-> 
-> (geen gespreide realisatie): 
-> De vraag zegt dat het octrooi "thans volledig afgeschreven" is maar specificeert niet dat de meerwaarde ook is doorgeboekt. Veel bedrijven (vooral oudere dossiers — boeking in 1980) houden de meerwaarde op rek 12 tot vervreemding. In dat geval: **25.000 EUR** kan op moment van verkoop worden overgeboekt naar uitkeerbare reserves (of geïncorporeerd in kapitaal). 🤖
-> 
-> **Wat verwacht ITAA?** De vraag stelt impliciet dat rek 12 nog 25.000 EUR draagt (anders zou de subvraag overbodig zijn). Dus **.
-> 
-> ⚠️ Belangrijk: dit is alleen de **bestemming** van de herwaarderingsmeerwaarde op rek 12 — niet de winst op de verkoop. Het verkochte octrooi (boekwaarde 0) wordt voor 100.000 EUR verkocht → 100.000 EUR komt als opbrengst in W&V (uitzonderlijk resultaat / niet-recurrent), apart van de bestemming van rek 12. ⚖️ ⚖️
-> 
-> **Conclusie**: = 25.000 EUR
-> 
-> _Grondslag: KB WVV art. 3:35; [[herwaarderingsmeerwaarden]]._
-
-> [!info]- Bronnen (1)
-> - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Vervreemding → ondersteunt: realisatie bij vervreemding
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Vraagtekst is dubbelzinnig over scenario A vs B; meest gangbare ITAA-verwachting is 25.000 EUR (scenario B).
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Vraagtekst is dubbelzinnig over scenario A vs B; meest gangbare ITAA-verwachting is 25.000 EUR (scenario B).
 
 #### Subvraag d)
 
@@ -1480,39 +1461,38 @@ herwaardering van 100.000 EUR te boeken?
 
 **Antwoord-type**: kwalificatie · **Confidence**: inferred
 
-#### Modelantwoord
-
-Een nieuwe herwaardering op een volledig afgeschreven actief is uitzonderlijk en alleen toegelaten als de meerwaarde zeker, duurzaam en onontbeerlijk is voor de bedrijfsuitoefening (KB WVV art. 3:35). De 100.000 EUR zou dan worden geboekt: Debet 21x Octrooi 100.000 / Credit 12 Herwaarderingsmeerwaarden 100.000. Verantwoording in toelichting is vereist.
-
-> [!success]- Motivering (typed)
-> Bij een volledig afgeschreven actief (boekwaarde 0) staat onder BE GAAP **geen nieuwe herwaardering** zonder strikte voorwaarden. Twee mogelijke wegen:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Een nieuwe herwaardering op een volledig afgeschreven actief is uitzonderlijk en alleen toegelaten als de meerwaarde zeker, duurzaam en onontbeerlijk is voor de bedrijfsuitoefening (KB WVV art. 3:35). De 100.000 EUR zou dan worden geboekt: Debet 21x Octrooi 100.000 / Credit 12 Herwaarderingsmeerwaarden 100.000. Verantwoording in toelichting is vereist.
 > 
-> **Risico's** bij herwaardering op afgeschreven IVA: octrooien hebben typisch een beperkte juridische beschermingsperiode (max. 20 jaar Belgisch recht). Een octrooi uit 1980 zou normaal vervallen zijn → de "duurzaamheid" van de meerwaarde is moeilijk te onderbouwen. 🤖 De auditor zou hier kritisch staan tegenover de herwaardering. 🤖
+> > [!note]- Motivering (typed)
+> > Bij een volledig afgeschreven actief (boekwaarde 0) staat onder BE GAAP **geen nieuwe herwaardering** zonder strikte voorwaarden. Twee mogelijke wegen:
+> > 
+> > **Risico's** bij herwaardering op afgeschreven IVA: octrooien hebben typisch een beperkte juridische beschermingsperiode (max. 20 jaar Belgisch recht). Een octrooi uit 1980 zou normaal vervallen zijn → de "duurzaamheid" van de meerwaarde is moeilijk te onderbouwen. 🤖 De auditor zou hier kritisch staan tegenover de herwaardering. 🤖
+> > 
+> > ⚠️ De meerwaarde is **niet-uitkeerbaar** zolang ze niet gerealiseerd is (door afschrijving of vervreemding) — KB WVV art. 3:35.
+> > 
+> > 1. **Nieuwe herwaardering** — onder de drie cumulatieve voorwaarden van KB WVV art. 3:35 (zie [[herwaarderingsmeerwaarden]] §Strikte voorwaarden):
+> >    - **Zeker** (de meerwaarde is geen vermoeden)
+> >    - **Duurzaam** (geen tijdelijke marktopstoot)
+> >    - **Onontbeerlijk** voor de continuïteit van de bedrijfsactiviteit (de boekhoudkundige waarde geeft anders een misleidend beeld)
+> >    
+> >    Bij voldoening: Debet rek 21x Octrooi 100.000 EUR / Credit rek 12 Herwaarderingsmeerwaarden 100.000 EUR. Verantwoording in toelichting verplicht. ⚖️
+> > 2. **Terugname van afschrijvingen** — (KB WVV art. 3:48) — als bewezen kan worden dat de oorspronkelijke afschrijvingen overdreven waren (te snelle afschrijfduur, foute schatting). Dit is een correctie van het verleden, geen nieuwe herwaardering. Beperkte toepassing.
+> > 
+> > _Grondslag: KB WVV art. 3:35 (herwaardering + voorwaarden); KB WVV art. 3:48 (terugname afschrijvingen)._
 > 
-> ⚠️ De meerwaarde is **niet-uitkeerbaar** zolang ze niet gerealiseerd is (door afschrijving of vervreemding) — KB WVV art. 3:35.
+> > [!info]- Bronnen (2)
+> > - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Strikte voorwaarden: zeker, duurzaam, onontbeerlijk → ondersteunt: voorwaarden nieuwe herwaardering
+> > - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Toepassingsgebied: ook immateriële vaste activa → ondersteunt: herwaardering geldt voor IVA inclusief octrooien
 > 
-> 1. **Nieuwe herwaardering** — onder de drie cumulatieve voorwaarden van KB WVV art. 3:35 (zie [[herwaarderingsmeerwaarden]] §Strikte voorwaarden):
->    - **Zeker** (de meerwaarde is geen vermoeden)
->    - **Duurzaam** (geen tijdelijke marktopstoot)
->    - **Onontbeerlijk** voor de continuïteit van de bedrijfsactiviteit (de boekhoudkundige waarde geeft anders een misleidend beeld)
->    
->    Bij voldoening: Debet rek 21x Octrooi 100.000 EUR / Credit rek 12 Herwaarderingsmeerwaarden 100.000 EUR. Verantwoording in toelichting verplicht. ⚖️
-> 2. **Terugname van afschrijvingen** — (KB WVV art. 3:48) — als bewezen kan worden dat de oorspronkelijke afschrijvingen overdreven waren (te snelle afschrijfduur, foute schatting). Dit is een correctie van het verleden, geen nieuwe herwaardering. Beperkte toepassing.
-> 
-> _Grondslag: KB WVV art. 3:35 (herwaardering + voorwaarden); KB WVV art. 3:48 (terugname afschrijvingen)._
-
-> [!info]- Bronnen (2)
-> - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Strikte voorwaarden: zeker, duurzaam, onontbeerlijk → ondersteunt: voorwaarden nieuwe herwaardering
-> - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Toepassingsgebied: ook immateriële vaste activa → ondersteunt: herwaardering geldt voor IVA inclusief octrooien
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -1562,57 +1542,56 @@ terugbetalingstermijnen
 de interest en het disconto mogen niet worden gesplitst en moeten, bij de boeking van het
 contract (5 februari 2014), integraal op rekening 70 – Omzet worden geboekt
 
-#### Modelantwoord
-
-Verkoop voor 5.000.000 EUR in 5 jaarlijkse stortingen van 1.000.000 EUR = vordering op lange termijn (rek 290 Vorderingen op meer dan een jaar) + vordering op ten hoogste een jaar (rek 41) voor het deel dat binnen het jaar vervalt. Discontering: bij een nul-rente of significant niet-marktconforme rente moet de vordering tegen actuele waarde (huidige waarde van toekomstige betalingen) worden geboekt volgens KB WVV — alternatief het verschil als financieel resultaat (rek 75/65) spreiden.
-
-> [!success]- Motivering (typed)
-> **Casus**: verkoop op 5 februari 2014 voor € 5.000.000 in **5 jaarlijkse stortingen van € 1.000.000**, zonder geëxpliciteerde rente.
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Verkoop voor 5.000.000 EUR in 5 jaarlijkse stortingen van 1.000.000 EUR = vordering op lange termijn (rek 290 Vorderingen op meer dan een jaar) + vordering op ten hoogste een jaar (rek 41) voor het deel dat binnen het jaar vervalt. Discontering: bij een nul-rente of significant niet-marktconforme rente moet de vordering tegen actuele waarde (huidige waarde van toekomstige betalingen) worden geboekt volgens KB WVV — alternatief het verschil als financieel resultaat (rek 75/65) spreiden.
 > 
-> ### Initiële boeking
+> > [!note]- Motivering (typed)
+> > **Casus**: verkoop op 5 februari 2014 voor € 5.000.000 in **5 jaarlijkse stortingen van € 1.000.000**, zonder geëxpliciteerde rente.
+> > 
+> > ### Initiële boeking
+> > 
+> > Bij erkenning van de omzet (KB WVV art. 3:30 + 3:33: omzet op moment van eigendomsoverdracht):
+> > -
+> > 
+> > ### Discontering (KB WVV art. 3:46; CBN-advies 138/5)
+> > 
+> > Belangrijk principe: een **niet-rentedragende vordering op meer dan één jaar** moet worden gewaardeerd aan **contante waarde** met een actualisatie aan een marktconforme rentevoet. ⚖️ ⚖️
+> > 
+> > Het verschil tussen nominale waarde (€ 5.000.000) en contante waarde (afhankelijk van rentevoet, bv. 3 % marktrente):
+> > - Aanwendt als **uitgestelde financiële opbrengst** (boekt jaarlijks naarmate vordering inbaar wordt)
+> > - Boekt het verschil bij verkoop ook **niet** in volle omzet (KB WVV vereist actuele waarde)
+> > 
+> > Bv. bij 3 % markt-disconto:
+> > - Contante waarde: ~€ 4.580.000 (afhankelijk van exacte berekening)
+> > - Verschil ~€ 420.000 = uitgestelde financiële opbrengst (jaarlijks via rek 75 Financiële opbrengsten erkend)
+> > 
+> > 🤖 In de praktijk: kleine vennootschappen kunnen de discontering achterwege laten als het verschil niet materieel is. Voor grote bedragen (5M EUR) is discontering vereist. 🤖
+> > 
+> > ### Reclassificering elk boekjaar
+> > 
+> > Aan einde elk boekjaar: 1 termijn (1M EUR) wordt geherklasseerd van rek 290 → rek 41/416 (vordering die binnen het jaar vervalt).
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 290 | Vorderingen op meer dan één jaar ( | 4.000.000,00 EUR |
+> > | **D** | 416 | Diverse vorderingen ≤ | 1,00 EUR |
+> > | **C** | 70 | Omzet | 5.000.000,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:30 (omzeterkenning), art. 3:46 (waardering vorderingen); CBN-advies 138/5 (discontering van vorderingen)._
 > 
-> Bij erkenning van de omzet (KB WVV art. 3:30 + 3:33: omzet op moment van eigendomsoverdracht):
-> -
+> > [!info]- Bronnen (1)
+> > - [[bedrijfsvorderingen|content/concepten/bedrijfsvorderingen.md]] · Bouwstenen → ondersteunt: classificatie + waardering vorderingen
 > 
-> ### Discontering (KB WVV art. 3:46; CBN-advies 138/5)
-> 
-> Belangrijk principe: een **niet-rentedragende vordering op meer dan één jaar** moet worden gewaardeerd aan **contante waarde** met een actualisatie aan een marktconforme rentevoet. ⚖️ ⚖️
-> 
-> Het verschil tussen nominale waarde (€ 5.000.000) en contante waarde (afhankelijk van rentevoet, bv. 3 % marktrente):
-> - Aanwendt als **uitgestelde financiële opbrengst** (boekt jaarlijks naarmate vordering inbaar wordt)
-> - Boekt het verschil bij verkoop ook **niet** in volle omzet (KB WVV vereist actuele waarde)
-> 
-> Bv. bij 3 % markt-disconto:
-> - Contante waarde: ~€ 4.580.000 (afhankelijk van exacte berekening)
-> - Verschil ~€ 420.000 = uitgestelde financiële opbrengst (jaarlijks via rek 75 Financiële opbrengsten erkend)
-> 
-> 🤖 In de praktijk: kleine vennootschappen kunnen de discontering achterwege laten als het verschil niet materieel is. Voor grote bedragen (5M EUR) is discontering vereist. 🤖
-> 
-> ### Reclassificering elk boekjaar
-> 
-> Aan einde elk boekjaar: 1 termijn (1M EUR) wordt geherklasseerd van rek 290 → rek 41/416 (vordering die binnen het jaar vervalt).
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 290 | Vorderingen op meer dan één jaar ( | 4.000.000,00 EUR |
-> | **D** | 416 | Diverse vorderingen ≤ | 1,00 EUR |
-> | **C** | 70 | Omzet | 5.000.000,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:30 (omzeterkenning), art. 3:46 (waardering vorderingen); CBN-advies 138/5 (discontering van vorderingen)._
-
-> [!info]- Bronnen (1)
-> - [[bedrijfsvorderingen|content/concepten/bedrijfsvorderingen.md]] · Bouwstenen → ondersteunt: classificatie + waardering vorderingen
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -1644,80 +1623,73 @@ per 31 december 2013 nog een marktwaarde van 280,00 EUR per artikel.
 Per 30 april 2014 is de marktwaarde 300,00 EUR.
 De algemene vergadering van de vennootschap had plaats op 5 mei 2014.
 
-- **C.** 392.000 EUR
-- **D.** 420.000 EUR
-
 E. 452.000 EUR
 
 verkopen zijn geweest en de marktwaarde dan 455 EUR is?
 
-- **C.** 392.000 EUR
-- **D.** 420.000 EUR
-
 E. 637.000 EUR
 
-#### Modelantwoord
-
-FIFO-aanschaffingswaarde voorraad 31/12/2013: 900 × € 350 + 500 × € 300 = € 315.000 + € 150.000 = **€ 465.000**. Marktwaarde 280 EUR/stuk × 1.400 stuks = € 392.000. Op afsluitingsdatum 31/12/2013 marktwaarde < FIFO → **waardevermindering verplicht** (voorzichtigheidsbeginsel KB WVV art. 3:43) → voorraad op balans = **€ 392.000**.
-
-> [!success]- Motivering (typed)
-> **FIFO-toepassing op voorraadbewegingen**Voorraad-samenstelling per 31/12/2013** (na FIFO-uitvoer van 100 oudere stuks):** ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: FIFO-aanschaffingswaarde voorraad 31/12/2013: 900 × € 350 + 500 × € 300 = € 315.000 + € 150.000 = **€ 465.000**. Marktwaarde 280 EUR/stuk × 1.400 stuks = € 392.000. Op afsluitingsdatum 31/12/2013 marktwaarde < FIFO → **waardevermindering verplicht** (voorzichtigheidsbeginsel KB WVV art. 3:43) → voorraad op balans = **€ 392.000**.
 > 
-> - 900 stuks van de januari-aankoop × € 350 = € 315.000
-> - 500 stuks van de maart-aankoop × € 300 = € 150.000
-> - **Totale FIFO-aanschaffingswaarde**: **€ 465.000** ⚖️
+> > [!note]- Motivering (typed)
+> > **FIFO-toepassing op voorraadbewegingen**Voorraad-samenstelling per 31/12/2013** (na FIFO-uitvoer van 100 oudere stuks):** ⚖️
+> > 
+> > - 900 stuks van de januari-aankoop × € 350 = € 315.000
+> > - 500 stuks van de maart-aankoop × € 300 = € 150.000
+> > - **Totale FIFO-aanschaffingswaarde**: **€ 465.000** ⚖️
+> > 
+> > ### Voorzichtigheidsbeginsel — waardevermindering
+> > 
+> > Op **afsluitingsdatum 31/12/2013** is de marktwaarde **€ 280** per stuk (vraagtekst). Het voorzichtigheidsbeginsel (KB WVV art. 3:43 + Boek III WER) vereist dat voorraad gewaardeerd wordt aan de **lagere** van aanschaffingswaarde en marktwaarde. ⚖️ ⚖️
+> > 
+> > - FIFO-aanschaffingswaarde per stuk: € 350 (oudere) / € 300 (nieuwere)
+> > - Marktwaarde per stuk: € 280
+> > - Markt < FIFO → **waardevermindering verplicht**
+> > 
+> > **Voorraad-waarde 31/12/2013** ⚖️
+> > 
+> > = 1.400 × € 280 = **€ 392.000** ⚖️
+> > 
+> > ### Waardevermindering te boeken
+> > 
+> > ### Markt-stijging vóór datum AV (30/04/2014 → € 300)
+> > 
+> > Per 30 april 2014 is de marktwaarde gestegen naar € 300. De algemene vergadering vindt plaats op 5 mei 2014.
+> > 
+> > Onder Belgisch boekhoudrecht: **gebeurtenissen na balansdatum** (KB WVV art. 3:6) — bij dalende markten wordt de waardevermindering aangepast tot **datum opmaak jaarrekening / datum AV**. Voor stijgingen geldt dat ze niet zomaar terugkomen — alleen waardeverminderingen worden gespiegeld (KB WVV art. 3:44: terugneming bij verdwijning van de oorzaak). 🤖 🤖
+> > 
+> > In de praktijk: de voorraad-waardevermindering kan **teruggenomen** worden op afsluiting 31/12/2014 — niet retroactief op 31/12/2013. Voor de jaarrekening 31/12/2013 blijft de waarde **€ 392.000**.
+> > 
+> > **: niet zichtbaar welke opties verder dan A (€ 465.000), B (€ 470.000) komen. Bij optie € 392.000 = **juiste keuze**. Bij ontbreken van die optie: € 465.000 (FIFO zonder voorzichtigheid) zou theoretisch fout zijn maar mogelijk verwacht onder een specifieke MC-interpretatie. 🤖 🤖
+> > 
+> > **Boeking — Waardevermindering te boeken**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **C** | 3409 | Geboekte waardeverminderingen op handelsgoederen | 73.000,00 EUR |
+> > 
+> > | Datum | Bewegingsbeschrijving | Stuks na | Boekwaarde per stuk |
+> > |---|---|---|---|
+> > | 15/01/2013 | Aankoop 1.000 stuks × € 350 | 1.000 | € 350 |
+> > | 31/03/2013 | Aankoop 500 stuks × € 300 | 1.500 | mix |
+> > | 31/05/2013 | Verkoop 100 stuks (FIFO → eerste-in) | 1.400 | mix |
+> > 
+> > **Conclusie**: op MC
+> > 
+> > _Grondslag: KB WVV art. 3:43 (voorraadwaardering), art. 3:44 (terugneming waardevermindering), art. 3:6 (gebeurtenissen na balansdatum); CBN-advies 132/4._
 > 
-> ### Voorzichtigheidsbeginsel — waardevermindering
+> > [!info]- Bronnen (1)
+> > - [[voorzichtigheidsbeginsel|content/concepten/voorzichtigheidsbeginsel.md]] · Bouwstenen → ondersteunt: voorzichtigheid + waardevermindering
 > 
-> Op **afsluitingsdatum 31/12/2013** is de marktwaarde **€ 280** per stuk (vraagtekst). Het voorzichtigheidsbeginsel (KB WVV art. 3:43 + Boek III WER) vereist dat voorraad gewaardeerd wordt aan de **lagere** van aanschaffingswaarde en marktwaarde. ⚖️ ⚖️
-> 
-> - FIFO-aanschaffingswaarde per stuk: € 350 (oudere) / € 300 (nieuwere)
-> - Marktwaarde per stuk: € 280
-> - Markt < FIFO → **waardevermindering verplicht**
-> 
-> **Voorraad-waarde 31/12/2013** ⚖️
-> 
-> = 1.400 × € 280 = **€ 392.000** ⚖️
-> 
-> ### Waardevermindering te boeken
-> 
-> ### Markt-stijging vóór datum AV (30/04/2014 → € 300)
-> 
-> Per 30 april 2014 is de marktwaarde gestegen naar € 300. De algemene vergadering vindt plaats op 5 mei 2014.
-> 
-> Onder Belgisch boekhoudrecht: **gebeurtenissen na balansdatum** (KB WVV art. 3:6) — bij dalende markten wordt de waardevermindering aangepast tot **datum opmaak jaarrekening / datum AV**. Voor stijgingen geldt dat ze niet zomaar terugkomen — alleen waardeverminderingen worden gespiegeld (KB WVV art. 3:44: terugneming bij verdwijning van de oorzaak). 🤖 🤖
-> 
-> In de praktijk: de voorraad-waardevermindering kan **teruggenomen** worden op afsluiting 31/12/2014 — niet retroactief op 31/12/2013. Voor de jaarrekening 31/12/2013 blijft de waarde **€ 392.000**.
-> 
-> **: niet zichtbaar welke opties verder dan A (€ 465.000), B (€ 470.000) komen. Bij optie € 392.000 = **juiste keuze**. Bij ontbreken van die optie: € 465.000 (FIFO zonder voorzichtigheid) zou theoretisch fout zijn maar mogelijk verwacht onder een specifieke MC-interpretatie. 🤖 🤖
-> 
-> **Boeking — Waardevermindering te boeken**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **C** | 3409 | Geboekte waardeverminderingen op handelsgoederen | 73.000,00 EUR |
-> 
-> | Datum | Bewegingsbeschrijving | Stuks na | Boekwaarde per stuk |
-> |---|---|---|---|
-> | 15/01/2013 | Aankoop 1.000 stuks × € 350 | 1.000 | € 350 |
-> | 31/03/2013 | Aankoop 500 stuks × € 300 | 1.500 | mix |
-> | 31/05/2013 | Verkoop 100 stuks (FIFO → eerste-in) | 1.400 | mix |
-> 
-> **Conclusie**: op MC
-> 
-> _Grondslag: KB WVV art. 3:43 (voorraadwaardering), art. 3:44 (terugneming waardevermindering), art. 3:6 (gebeurtenissen na balansdatum); CBN-advies 132/4._
-
-> [!info]- Bronnen (1)
-> - [[voorzichtigheidsbeginsel|content/concepten/voorzichtigheidsbeginsel.md]] · Bouwstenen → ondersteunt: voorzichtigheid + waardevermindering
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -1730,6 +1702,9 @@ Voor welke waarde neemt zij dit artikel op in haar voorraad per 31 december 2013
 
 E. 452.000 EUR
 
+- **A.** 392.000 EUR
+- **B.** 420.000 EUR
+
 #### Subvraag b)
 
 **Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en
@@ -1741,6 +1716,9 @@ verkopen zijn geweest en de marktwaarde dan 455 EUR is?**
 - **D.** 420.000 EUR
 
 E. 637.000 EUR
+
+- **A.** 392.000 EUR
+- **B.** 420.000 EUR
 
 ---
 
@@ -1783,70 +1761,69 @@ rekening houdend met het geslacht en de leeftijd van de werknemer. Op het moment
 het bereiken van de pensioengerechtigde leeftijd van de werknemer wordt de voorziening
 teruggenomen.
 
-#### Modelantwoord
-
-Werknemer Janssens ontslag op 5/12/2013, werkloosheid vanaf 1/3/2014. Op afsluitingsdatum 31/12/2013 = ontslag al gegeven maar opzegtermijn nog loopend → **voorziening verplicht** voor opzegvergoeding/ontslag-vergoeding + sociale lasten. Boeking: Debet 6371 Voorzieningen voor sociale lasten / Credit 162 Voorziening. Bedrag = opzegvergoeding + RSZ-bijdragen + eventuele outplacement-kosten. Bij effectieve betaling jaar 2014: Debet 162 Voorziening + Debet 62 Bezoldigingen / Credit 455 Bezoldigingen + 454 RSZ.
-
-> [!success]- Motivering (typed)
-> **Casus**: Werknemer Janssens van XYZ — ontslag op 5/12/2013, werkloosheidsuitkering vanaf 1/3/2014. Vennootschap moet **opzegtermijn** of **opzegvergoeding** betalen.
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Werknemer Janssens ontslag op 5/12/2013, werkloosheid vanaf 1/3/2014. Op afsluitingsdatum 31/12/2013 = ontslag al gegeven maar opzegtermijn nog loopend → **voorziening verplicht** voor opzegvergoeding/ontslag-vergoeding + sociale lasten. Boeking: Debet 6371 Voorzieningen voor sociale lasten / Credit 162 Voorziening. Bedrag = opzegvergoeding + RSZ-bijdragen + eventuele outplacement-kosten. Bij effectieve betaling jaar 2014: Debet 162 Voorziening + Debet 62 Bezoldigingen / Credit 455 Bezoldigingen + 454 RSZ.
 > 
-> ### Boekhoudkundige verwerking op afsluitingsdatum 31/12/2013
+> > [!note]- Motivering (typed)
+> > **Casus**: Werknemer Janssens van XYZ — ontslag op 5/12/2013, werkloosheidsuitkering vanaf 1/3/2014. Vennootschap moet **opzegtermijn** of **opzegvergoeding** betalen.
+> > 
+> > ### Boekhoudkundige verwerking op afsluitingsdatum 31/12/2013
+> > 
+> > Op 31/12/2013 is het ontslag al gegeven (5/12), maar de opzegtermijn loopt nog (tot ergens 2014). Dit creëert een **toekomstige verplichting** waarvan het bedrag schatbaar is. ⚖️ ⚖️
+> > 
+> > **Voorzichtigheidsbeginsel + matching**
+> > 
+> > (KB WVV art. 3:24): voorziening voor risico's en kosten:
+> > 
+> > ```
+> > Debet 6371 Voorzieningen voor andere risico's en kosten (= toevoeging aan voorziening)
+> > Credit 162 Voorzieningen voor andere risico's en kosten
+> > ```
+> > 
+> > **Bedrag**
+> > 
+> > = som van:
+> > - Opzegvergoeding (X maanden loon afhankelijk van anciënniteit van Janssens — WVV / Arbeidsovereenkomstenwet)
+> > - **Werkgeversbijdragen RSZ** (~25 % bovenop bruto loon)
+> > - Eventueel **outplacement**-kosten (wettelijk bij ontslag boven bepaalde leeftijd of anciënniteit)
+> > - Eventueel **vakantiegeld** dat nog moet worden uitbetaald (rek 459)
+> > 
+> > ### Effectieve betaling in 2014
+> > 
+> > Bij werkelijke betaling van de opzeg in 2014:
+> > ```
+> > Debet 162 Voorzieningen (terugneming)
+> > Credit 7371 Terugnemingen voorzieningen
+> > + tegelijk
+> > Debet 62 Bezoldigingen (effectieve loonkost)
+> > Debet 454 RSZ (werkgevers-deel)
+> > Credit 455 Te betalen bezoldigingen
+> > Credit 454 RSZ (afdracht)
+> > Credit 550 Bank (uitbetaling)
+> > ```
+> > 
+> > 🤖 De netto-impact in 2014 = nihil (voorziening uit 2013 dekt de kosten), behalve voor eventuele afwijkingen tussen schatting (eind 2013) en werkelijke kost (2014). 🤖
+> > 
+> > ### Waarom een voorziening en geen "overlopende kosten"?
+> > 
+> > - Bedrag is **niet definitief vastgesteld** in 2013 (depend van precieze opzegtermijn-berekening, eventuele rechtszaak over ontslag, etc.) → **onzeker → voorziening**
+> > - Indien bedrag wel definitief en exact: overlopende kosten (rek 492) is alternatief
+> > 
+> > 🤖 De werkloosheidsuitkering (vanaf 1/3/2014) is een uitgave van de RVA/het stelsel sociale zekerheid, **niet** van de werkgever — geen impact op de boekhouding van XYZ behalve via reeds betaalde werkgevers-bijdragen RSZ. 🤖
+> > 
+> > _Grondslag: KB WVV art. 3:24 (voorzieningen); WVV / Arbeidsovereenkomstenwet (opzegregels); CBN-advies 107/9 (voorzieningen)._
 > 
-> Op 31/12/2013 is het ontslag al gegeven (5/12), maar de opzegtermijn loopt nog (tot ergens 2014). Dit creëert een **toekomstige verplichting** waarvan het bedrag schatbaar is. ⚖️ ⚖️
+> > [!info]- Bronnen (1)
+> > - [[voorzichtigheidsbeginsel|content/concepten/voorzichtigheidsbeginsel.md]] · Bouwstenen → ondersteunt: voorziening voor toekomstige verplichtingen
 > 
-> **Voorzichtigheidsbeginsel + matching**
-> 
-> (KB WVV art. 3:24): voorziening voor risico's en kosten:
-> 
-> ```
-> Debet 6371 Voorzieningen voor andere risico's en kosten (= toevoeging aan voorziening)
-> Credit 162 Voorzieningen voor andere risico's en kosten
-> ```
-> 
-> **Bedrag**
-> 
-> = som van:
-> - Opzegvergoeding (X maanden loon afhankelijk van anciënniteit van Janssens — WVV / Arbeidsovereenkomstenwet)
-> - **Werkgeversbijdragen RSZ** (~25 % bovenop bruto loon)
-> - Eventueel **outplacement**-kosten (wettelijk bij ontslag boven bepaalde leeftijd of anciënniteit)
-> - Eventueel **vakantiegeld** dat nog moet worden uitbetaald (rek 459)
-> 
-> ### Effectieve betaling in 2014
-> 
-> Bij werkelijke betaling van de opzeg in 2014:
-> ```
-> Debet 162 Voorzieningen (terugneming)
-> Credit 7371 Terugnemingen voorzieningen
-> + tegelijk
-> Debet 62 Bezoldigingen (effectieve loonkost)
-> Debet 454 RSZ (werkgevers-deel)
-> Credit 455 Te betalen bezoldigingen
-> Credit 454 RSZ (afdracht)
-> Credit 550 Bank (uitbetaling)
-> ```
-> 
-> 🤖 De netto-impact in 2014 = nihil (voorziening uit 2013 dekt de kosten), behalve voor eventuele afwijkingen tussen schatting (eind 2013) en werkelijke kost (2014). 🤖
-> 
-> ### Waarom een voorziening en geen "overlopende kosten"?
-> 
-> - Bedrag is **niet definitief vastgesteld** in 2013 (depend van precieze opzegtermijn-berekening, eventuele rechtszaak over ontslag, etc.) → **onzeker → voorziening**
-> - Indien bedrag wel definitief en exact: overlopende kosten (rek 492) is alternatief
-> 
-> 🤖 De werkloosheidsuitkering (vanaf 1/3/2014) is een uitgave van de RVA/het stelsel sociale zekerheid, **niet** van de werkgever — geen impact op de boekhouding van XYZ behalve via reeds betaalde werkgevers-bijdragen RSZ. 🤖
-> 
-> _Grondslag: KB WVV art. 3:24 (voorzieningen); WVV / Arbeidsovereenkomstenwet (opzegregels); CBN-advies 107/9 (voorzieningen)._
-
-> [!info]- Bronnen (1)
-> - [[voorzichtigheidsbeginsel|content/concepten/voorzichtigheidsbeginsel.md]] · Bouwstenen → ondersteunt: voorziening voor toekomstige verplichtingen
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -1886,79 +1863,78 @@ E. De vennootschap berekent de nog verschuldigde rente tot het einde van de drie
 boekt tevens een waardevermindering voor de vordering en de rente. Zij vermeldt in haar
 jaarrekening dat de inning onzeker is.
 
-#### Modelantwoord
-
-Verkoop machine 121.000 EUR incl. 21% BTW (=100.000 ex BTW + 21.000 BTW) op 1/7/2012 met betaling pas na 3 jaar (1/7/2015). Boekhoudkundig: omzet erkennen bij verkoop (Debet 410 Klanten + 451 BTW te betalen / Credit 70 Omzet + 451 BTW); vordering classificeren als rek 29 Vorderingen op meer dan 1 jaar (betaling buiten boekjaar). Bij niet-rentedragende vordering >1jr: discontering aan marktconforme rentevoet conform KB WVV art. 3:46 — verschil tussen nominale en contante waarde = uitgestelde financiële opbrengst (jaarlijks erkend via rek 75 Financiële opbrengsten).
-
-> [!success]- Motivering (typed)
-> **Casus**: Vennootschap XYZ verkoopt machine voor € 121.000 incl. 21 % BTW op 1/7/2012. Betaling pas na 3 jaar (= 1/7/2015).
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Verkoop machine 121.000 EUR incl. 21% BTW (=100.000 ex BTW + 21.000 BTW) op 1/7/2012 met betaling pas na 3 jaar (1/7/2015). Boekhoudkundig: omzet erkennen bij verkoop (Debet 410 Klanten + 451 BTW te betalen / Credit 70 Omzet + 451 BTW); vordering classificeren als rek 29 Vorderingen op meer dan 1 jaar (betaling buiten boekjaar). Bij niet-rentedragende vordering >1jr: discontering aan marktconforme rentevoet conform KB WVV art. 3:46 — verschil tussen nominale en contante waarde = uitgestelde financiële opbrengst (jaarlijks erkend via rek 75 Financiële opbrengsten).
 > 
-> ### Boekhoudkundige opdeling
+> > [!note]- Motivering (typed)
+> > **Casus**: Vennootschap XYZ verkoopt machine voor € 121.000 incl. 21 % BTW op 1/7/2012. Betaling pas na 3 jaar (= 1/7/2015).
+> > 
+> > ### Boekhoudkundige opdeling
+> > 
+> > - Omzet ex BTW: € 121.000 / 1,21 = **€ 100.000** ⚖️
+> > - BTW (21 %): **€ 21.000** ⚖️ ⚖️
+> > 
+> > ### Initiële boeking (1/7/2012)
+> > 
+> > ⚖️ De vordering wordt op **rek 29 Vorderingen op meer dan één jaar** geboekt omdat de betaling buiten de 12-maanden-termijn valt. Bij elk jaarafsluiting wordt het deel dat binnen het jaar invorderbaar wordt geherklasseerd naar rek 40/41 (vorderingen ≤ 1 jaar). ⚖️
+> > 
+> > ### Discontering (KB WVV art. 3:46; CBN-advies 138/5)
+> > 
+> > Een **niet-rentedragende vordering op meer dan één jaar** moet worden gewaardeerd aan **contante waarde** met actualisatie aan marktconforme rentevoet. ⚖️ ⚖️
+> > 
+> > Bv. bij 3 % marktrente over 3 jaar:
+> > - Contante waarde = € 121.000 / (1,03)³ ≈ **€ 110.756**
+> > - Verschil = € 121.000 − € 110.756 ≈ **€ 10.244** = uitgestelde financiële opbrengst
+> > 
+> > **Boeking aanpassing voor discontering**
+> > 
+> > (1/7/2012):
+> > 
+> > Of: directe boeking op contante waarde + jaarlijkse erkennen van rente-opbrengst:
+> > ```
+> > Jaar 1 (eind 2012):  + Credit 75 (laatste rente-deel)
+> > ```
+> > 
+> > 🤖 **Materialiteit**: kleine vennootschappen kunnen de discontering achterwege laten als verschil niet materieel is. Voor € 121.000 over 3 jaar is het verschil (~€ 10.000) materieel — discontering aanbevolen. 🤖
+> > 
+> > ### Belangrijk: BTW-verwerking
+> > 
+> > ⚠️ De BTW van € 21.000 is **direct verschuldigd** ondanks betaling pas na 3 jaar — BTW-aangifte volgt facturatie (Belgische BTW: belastbaarheid bij levering of facturatie, niet bij betaling), tenzij **kasstelsel** (vrijgesteld voor kleine entrepreneurs) van toepassing is. ⚖️ De vennootschap heeft dus liquiditeitsuitgang van € 21.000 voor BTW in 2012 zonder klantenbetaling — significante voorfinanciering. ⚖️
+> > 
+> > **Boeking — Initiële boeking (1/7/2012)**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 290 | Vorderingen op meer dan één jaar | 121.000,00 EUR |
+> > | **C** | 451 | Verschuldigde BTW | 21.000,00 EUR |
+> > 
+> > **Boeking — € 110.756**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 290 | (correctie naar contante waarde) | 10.244,00 EUR |
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 290 | / Credit | 75,00 EUR |
+> > | **D** | 290 | / Credit | 75,00 EUR |
+> > | **D** | 550 | Bank / Credit | 290,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:46 (waardering vorderingen + discontering); CBN-advies 138/5; KB WVV art. 3:30 (omzeterkenning); Wetboek BTW art. 17._
 > 
-> - Omzet ex BTW: € 121.000 / 1,21 = **€ 100.000** ⚖️
-> - BTW (21 %): **€ 21.000** ⚖️ ⚖️
+> > [!info]- Bronnen (1)
+> > - [[bedrijfsvorderingen|content/concepten/bedrijfsvorderingen.md]] · Bouwstenen → ondersteunt: classificatie + discontering vorderingen
 > 
-> ### Initiële boeking (1/7/2012)
-> 
-> ⚖️ De vordering wordt op **rek 29 Vorderingen op meer dan één jaar** geboekt omdat de betaling buiten de 12-maanden-termijn valt. Bij elk jaarafsluiting wordt het deel dat binnen het jaar invorderbaar wordt geherklasseerd naar rek 40/41 (vorderingen ≤ 1 jaar). ⚖️
-> 
-> ### Discontering (KB WVV art. 3:46; CBN-advies 138/5)
-> 
-> Een **niet-rentedragende vordering op meer dan één jaar** moet worden gewaardeerd aan **contante waarde** met actualisatie aan marktconforme rentevoet. ⚖️ ⚖️
-> 
-> Bv. bij 3 % marktrente over 3 jaar:
-> - Contante waarde = € 121.000 / (1,03)³ ≈ **€ 110.756**
-> - Verschil = € 121.000 − € 110.756 ≈ **€ 10.244** = uitgestelde financiële opbrengst
-> 
-> **Boeking aanpassing voor discontering**
-> 
-> (1/7/2012):
-> 
-> Of: directe boeking op contante waarde + jaarlijkse erkennen van rente-opbrengst:
-> ```
-> Jaar 1 (eind 2012):  + Credit 75 (laatste rente-deel)
-> ```
-> 
-> 🤖 **Materialiteit**: kleine vennootschappen kunnen de discontering achterwege laten als verschil niet materieel is. Voor € 121.000 over 3 jaar is het verschil (~€ 10.000) materieel — discontering aanbevolen. 🤖
-> 
-> ### Belangrijk: BTW-verwerking
-> 
-> ⚠️ De BTW van € 21.000 is **direct verschuldigd** ondanks betaling pas na 3 jaar — BTW-aangifte volgt facturatie (Belgische BTW: belastbaarheid bij levering of facturatie, niet bij betaling), tenzij **kasstelsel** (vrijgesteld voor kleine entrepreneurs) van toepassing is. ⚖️ De vennootschap heeft dus liquiditeitsuitgang van € 21.000 voor BTW in 2012 zonder klantenbetaling — significante voorfinanciering. ⚖️
-> 
-> **Boeking — Initiële boeking (1/7/2012)**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 290 | Vorderingen op meer dan één jaar | 121.000,00 EUR |
-> | **C** | 451 | Verschuldigde BTW | 21.000,00 EUR |
-> 
-> **Boeking — € 110.756**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 290 | (correctie naar contante waarde) | 10.244,00 EUR |
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 290 | / Credit | 75,00 EUR |
-> | **D** | 290 | / Credit | 75,00 EUR |
-> | **D** | 550 | Bank / Credit | 290,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:46 (waardering vorderingen + discontering); CBN-advies 138/5; KB WVV art. 3:30 (omzeterkenning); Wetboek BTW art. 17._
-
-> [!info]- Bronnen (1)
-> - [[bedrijfsvorderingen|content/concepten/bedrijfsvorderingen.md]] · Bouwstenen → ondersteunt: classificatie + discontering vorderingen
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -1982,86 +1958,85 @@ op te nemen?**
 - **C.** De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden
 - **D.** De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans
 
-#### Modelantwoord
-
-Intercalaire interesten = financieringskosten van leningen aangegaan om een investering (vaste activum) te financieren tijdens de bouw-/installatiefase, vóór ingebruikname. Onder BE GAAP (KB WVV art. 3:38) keuzevrijheid: ofwel direct ten laste van resultaat (rek 65 Financiële kosten), ofwel **activeren** als component van de aanschaffingswaarde van het actief (rek 22-27). De wachtrekening 499 van € 125.000 moet bij ingebruikname worden geherklasseerd: ofwel naar rek 22-27 (activering) ofwel naar rek 65 Financiële kosten (resultaatname).
-
-> [!success]- Motivering (typed)
-> **Intercalaire interesten** zijn financieringskosten van leningen die werden aangegaan om de **aanschaffing of vervaardiging** van een vaste activum te financieren, **tijdens de fase tussen verwerving en ingebruikname** (build-, installatie-, voorbereidingsfase). ⚖️ ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Intercalaire interesten = financieringskosten van leningen aangegaan om een investering (vaste activum) te financieren tijdens de bouw-/installatiefase, vóór ingebruikname. Onder BE GAAP (KB WVV art. 3:38) keuzevrijheid: ofwel direct ten laste van resultaat (rek 65 Financiële kosten), ofwel **activeren** als component van de aanschaffingswaarde van het actief (rek 22-27). De wachtrekening 499 van € 125.000 moet bij ingebruikname worden geherklasseerd: ofwel naar rek 22-27 (activering) ofwel naar rek 65 Financiële kosten (resultaatname).
 > 
-> ### Boekhoudkundige verwerking onder BE GAAP
+> > [!note]- Motivering (typed)
+> > **Intercalaire interesten** zijn financieringskosten van leningen die werden aangegaan om de **aanschaffing of vervaardiging** van een vaste activum te financieren, **tijdens de fase tussen verwerving en ingebruikname** (build-, installatie-, voorbereidingsfase). ⚖️ ⚖️
+> > 
+> > ### Boekhoudkundige verwerking onder BE GAAP
+> > 
+> > **KB WVV art. 3:38**
+> > 
+> > voorziet **keuzevrijheid** voor de onderneming:
+> > 
+> > - **Optie A — Ten laste van resultaat**: rekenkundige bedoeling is om jaarlijks ten laste van resultaat te nemen, geen uitstel:
+> >   ```
+> >   Debet 65 Financiële kosten (interesten op lening)
+> >   Credit 174 Schulden lange termijn (rente-toevoeging)
+> >   ```
+> > 
+> > - **Optie B — Activeren** als component van de aanschaffingswaarde:
+> >   ```
+> >   Debet 22/23 Vaste activa (intercalaire interest)
+> >   Credit 174 Schulden lange termijn (of 499 Wachtrekening als nog niet definitief boekt)
+> >   ```
+> > 
+> > ⚖️ Voorwaarden voor activering (KB WVV art. 3:38):
+> > - De interest betreft een **werkelijke lening** ter financiering van het actief
+> > - De **fase vóór ingebruikname** (= productieve gebruikname)
+> > - Onderneming moet de keuze **vastleggen in waarderingsregels** + **vermelden in toelichting**
+> > - Na ingebruikname: geen verdere activering, interesten gaan terug naar rek 65 ⚖️
+> > 
+> > ### Casus: € 125.000 op wachtrekening 499
+> > 
+> > De **wachtrekening 499 'Overlopende rekeningen — passief'** wordt tijdelijk gebruikt voor posten die nog niet definitief geclassificeerd zijn. € 125.000 als "intercalaire interesten" op rek 499 → wacht op definitieve toewijzing.
+> > 
+> > **Bij ingebruikname**
+> > 
+> > van het gefinancierde actief: overboeking naar de definitieve rekening:
+> > 
+> > - Indien gekozen voor activering:
+> > 
+> > Met **gevolg**: de boekwaarde van het actief stijgt, en de afschrijvingen worden berekend op de hogere basis.
+> > 
+> > - Indien gekozen voor resultaatname:
+> > 
+> > Met **gevolg**: het resultaat van het boekjaar daalt met € 125.000.
+> > 
+> > ### Belangrijk voor de jaarrekening + toelichting
+> > 
+> > ⚠️ Bij **activering** moet de gekozen methode **in de toelichting** worden vermeld (KB WVV art. 3:38, 4°). ⚖️ De activering mag alleen voor de **fase vóór ingebruikname**. ⚖️
+> > 
+> > 🤖 Onder IFRS (IAS 23) is activering **verplicht** voor 'qualifying assets' (langer dan 12 maanden in voorbereiding); onder BE GAAP blijft het een keuze. 🤖
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **C** | 499 | Wachtrekening | 125.000,00 EUR |
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 65 | Financiële kosten | 125.000,00 EUR |
+> > | **C** | 499 | Wachtrekening | 125.000,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:38, 4° (intercalaire interesten); [[intercalaire-interesten]]; CBN-advies 2017/14._
 > 
-> **KB WVV art. 3:38**
+> > [!info]- Bronnen (2)
+> > - [[intercalaire-interesten|content/concepten/intercalaire-interesten.md]] · Bouwstenen → ondersteunt: keuzevrijheid + voorwaarden activering
+> > - [[materiele-vaste-activa|content/concepten/materiele-vaste-activa.md]] · Bouwstenen → ondersteunt: aanschaffingswaarde-componenten
 > 
-> voorziet **keuzevrijheid** voor de onderneming:
-> 
-> - **Optie A — Ten laste van resultaat**: rekenkundige bedoeling is om jaarlijks ten laste van resultaat te nemen, geen uitstel:
->   ```
->   Debet 65 Financiële kosten (interesten op lening)
->   Credit 174 Schulden lange termijn (rente-toevoeging)
->   ```
-> 
-> - **Optie B — Activeren** als component van de aanschaffingswaarde:
->   ```
->   Debet 22/23 Vaste activa (intercalaire interest)
->   Credit 174 Schulden lange termijn (of 499 Wachtrekening als nog niet definitief boekt)
->   ```
-> 
-> ⚖️ Voorwaarden voor activering (KB WVV art. 3:38):
-> - De interest betreft een **werkelijke lening** ter financiering van het actief
-> - De **fase vóór ingebruikname** (= productieve gebruikname)
-> - Onderneming moet de keuze **vastleggen in waarderingsregels** + **vermelden in toelichting**
-> - Na ingebruikname: geen verdere activering, interesten gaan terug naar rek 65 ⚖️
-> 
-> ### Casus: € 125.000 op wachtrekening 499
-> 
-> De **wachtrekening 499 'Overlopende rekeningen — passief'** wordt tijdelijk gebruikt voor posten die nog niet definitief geclassificeerd zijn. € 125.000 als "intercalaire interesten" op rek 499 → wacht op definitieve toewijzing.
-> 
-> **Bij ingebruikname**
-> 
-> van het gefinancierde actief: overboeking naar de definitieve rekening:
-> 
-> - Indien gekozen voor activering:
-> 
-> Met **gevolg**: de boekwaarde van het actief stijgt, en de afschrijvingen worden berekend op de hogere basis.
-> 
-> - Indien gekozen voor resultaatname:
-> 
-> Met **gevolg**: het resultaat van het boekjaar daalt met € 125.000.
-> 
-> ### Belangrijk voor de jaarrekening + toelichting
-> 
-> ⚠️ Bij **activering** moet de gekozen methode **in de toelichting** worden vermeld (KB WVV art. 3:38, 4°). ⚖️ De activering mag alleen voor de **fase vóór ingebruikname**. ⚖️
-> 
-> 🤖 Onder IFRS (IAS 23) is activering **verplicht** voor 'qualifying assets' (langer dan 12 maanden in voorbereiding); onder BE GAAP blijft het een keuze. 🤖
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **C** | 499 | Wachtrekening | 125.000,00 EUR |
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 65 | Financiële kosten | 125.000,00 EUR |
-> | **C** | 499 | Wachtrekening | 125.000,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:38, 4° (intercalaire interesten); [[intercalaire-interesten]]; CBN-advies 2017/14._
-
-> [!info]- Bronnen (2)
-> - [[intercalaire-interesten|content/concepten/intercalaire-interesten.md]] · Bouwstenen → ondersteunt: keuzevrijheid + voorwaarden activering
-> - [[materiele-vaste-activa|content/concepten/materiele-vaste-activa.md]] · Bouwstenen → ondersteunt: aanschaffingswaarde-componenten
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -2099,59 +2074,58 @@ E. De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboek
 rekening 15 “Kapitaalsubsidies” en zal in resultaat worden genomen volgens het
 afschrijvingsritme van het geïnvesteerde goed.
 
-#### Modelantwoord
-
-Twee opties voor verwerking van subsidie op investering: (a) Brutering — activeren machine voor volle 80.000 + subsidie boeken op rek 15 (kapitaalsubsidie, eigen vermogen); (b) Netto-methode — vervangbaar door rechtstreeks verminderen van aanschaffingswaarde (machine voor 80.000 − subsidie). Onder Belgisch boekhoudrecht is methode (a) verplicht (KB WVV art. 3:50: subsidie als kapitaalsubsidie boeken).
-
-> [!success]- Motivering (typed)
-> **Klassieke boekhoudkundige keuze**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Twee opties voor verwerking van subsidie op investering: (a) Brutering — activeren machine voor volle 80.000 + subsidie boeken op rek 15 (kapitaalsubsidie, eigen vermogen); (b) Netto-methode — vervangbaar door rechtstreeks verminderen van aanschaffingswaarde (machine voor 80.000 − subsidie). Onder Belgisch boekhoudrecht is methode (a) verplicht (KB WVV art. 3:50: subsidie als kapitaalsubsidie boeken).
 > 
-> voor overheidssubsidies op investeringen:
+> > [!note]- Motivering (typed)
+> > **Klassieke boekhoudkundige keuze**
+> > 
+> > voor overheidssubsidies op investeringen:
+> > 
+> > ### Methode (a) — Brutering (Belgisch verplicht onder KB WVV art. 3:50)
+> > 
+> > - Machine geactiveerd voor volle € 80.000:
+> >   -  Bank) € 80.000
+> > - Subsidie apart geboekt:
+> >   - Debet 416 Diverse vorderingen € X (subsidie-bedrag)
+> >   - Credit 15 Kapitaalsubsidies (eigen vermogen) € X
+> > - Afschrijving op volle aanschaffingswaarde € 80.000
+> > - Subsidie wordt gespreid in resultaat genomen (rek 7536) parallel met afschrijving
+> > 
+> > ⚖️ Onder Belgische BE GAAP **verplicht** voor kapitaalsubsidies (zie 2003-bibf-vrA1 voor uitwerking). ⚖️
+> > 
+> > ### Methode (b) — Netto-methode (niet-toegelaten onder BE GAAP)
+> > 
+> > - Aanschaffingswaarde verminderd met subsidie: Machine voor € 80.000 − € X (subsidie) = netto-bedrag op rek 23
+> > - Geen rek 15 — subsidie verdwijnt uit de balans
+> > - Afschrijving op netto-bedrag
+> > 
+> > 🤖 Deze methode is **toegestaan onder IAS 20** (alternatief), maar **niet onder Belgisch boekhoudrecht** dat brutering vereist (KB WVV art. 3:50). 🤖
+> > 
+> > ### Conclusie
+> > 
+> > Onder Belgisch boekhoudrecht: **brutering** (methode a) is de enige toegelaten methode. Subsidie boeken als kapitaalsubsidie op rek 15, gespreid in resultaat nemen parallel met afschrijving. ⚖️ ⚖️
+> > 
+> > **Boeking**
+> > 
+> > | D/C | Rekening | Naam | Bedrag |
+> > |:-:|:-:|:--|---:|
+> > | **D** | 23 | Installaties, machines en uitrusting | 80.000,00 EUR |
+> > | **C** | 440 | Leveranciers (of | 550,00 EUR |
+> > 
+> > _Grondslag: KB WVV art. 3:50; CBN-advies 2018/02; IAS 20 (alternatief onder IFRS, niet onder BE GAAP)._
 > 
-> ### Methode (a) — Brutering (Belgisch verplicht onder KB WVV art. 3:50)
+> > [!info]- Bronnen (1)
+> > - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: rek 15 Kapitaalsubsidies
 > 
-> - Machine geactiveerd voor volle € 80.000:
->   -  Bank) € 80.000
-> - Subsidie apart geboekt:
->   - Debet 416 Diverse vorderingen € X (subsidie-bedrag)
->   - Credit 15 Kapitaalsubsidies (eigen vermogen) € X
-> - Afschrijving op volle aanschaffingswaarde € 80.000
-> - Subsidie wordt gespreid in resultaat genomen (rek 7536) parallel met afschrijving
-> 
-> ⚖️ Onder Belgische BE GAAP **verplicht** voor kapitaalsubsidies (zie 2003-bibf-vrA1 voor uitwerking). ⚖️
-> 
-> ### Methode (b) — Netto-methode (niet-toegelaten onder BE GAAP)
-> 
-> - Aanschaffingswaarde verminderd met subsidie: Machine voor € 80.000 − € X (subsidie) = netto-bedrag op rek 23
-> - Geen rek 15 — subsidie verdwijnt uit de balans
-> - Afschrijving op netto-bedrag
-> 
-> 🤖 Deze methode is **toegestaan onder IAS 20** (alternatief), maar **niet onder Belgisch boekhoudrecht** dat brutering vereist (KB WVV art. 3:50). 🤖
-> 
-> ### Conclusie
-> 
-> Onder Belgisch boekhoudrecht: **brutering** (methode a) is de enige toegelaten methode. Subsidie boeken als kapitaalsubsidie op rek 15, gespreid in resultaat nemen parallel met afschrijving. ⚖️ ⚖️
-> 
-> **Boeking**
-> 
-> | D/C | Rekening | Naam | Bedrag |
-> |:-:|:-:|:--|---:|
-> | **D** | 23 | Installaties, machines en uitrusting | 80.000,00 EUR |
-> | **C** | 440 | Leveranciers (of | 550,00 EUR |
-> 
-> _Grondslag: KB WVV art. 3:50; CBN-advies 2018/02; IAS 20 (alternatief onder IFRS, niet onder BE GAAP)._
-
-> [!info]- Bronnen (1)
-> - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: rek 15 Kapitaalsubsidies
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -2188,86 +2162,85 @@ E. De activering kan, naar keuze, tot uiting worden gebracht door het crediteren
 rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door
 het crediteren van de rekening 649 of 669.
 
-#### Modelantwoord
-
-Herstructureringskosten (ontmanteling, ontslag, verhuis): onder BE GAAP (KB WVV art. 3:38 + CBN-advies 2018/15) onmiddellijk ten laste van resultaat als niet-recurrente bedrijfskost (rek 663 of 664 Niet-recurrente kosten op bedrijfsactiviteiten). Geen activering toegelaten (verschil met IFRS IAS 37 waar onder strikte voorwaarden voorzieningen mogelijk zijn). Indien herstructurering werkelijk plaatsvindt over meerdere jaren: voorziening voor herstructurering boeken (rek 162 of 163) zodra er een formele herstructureringsplan + aankondiging is, en gespreid in resultaat erkennen naarmate uitgaven worden gedaan.
-
-> [!success]- Motivering (typed)
-> **Herstructureringskosten**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Herstructureringskosten (ontmanteling, ontslag, verhuis): onder BE GAAP (KB WVV art. 3:38 + CBN-advies 2018/15) onmiddellijk ten laste van resultaat als niet-recurrente bedrijfskost (rek 663 of 664 Niet-recurrente kosten op bedrijfsactiviteiten). Geen activering toegelaten (verschil met IFRS IAS 37 waar onder strikte voorwaarden voorzieningen mogelijk zijn). Indien herstructurering werkelijk plaatsvindt over meerdere jaren: voorziening voor herstructurering boeken (rek 162 of 163) zodra er een formele herstructureringsplan + aankondiging is, en gespreid in resultaat erkennen naarmate uitgaven worden gedaan.
 > 
-> (Koffie van het Noorden — herstructurering Fabricatie Koffiemolens):
+> > [!note]- Motivering (typed)
+> > **Herstructureringskosten**
+> > 
+> > (Koffie van het Noorden — herstructurering Fabricatie Koffiemolens):
+> > 
+> > ### Definitie (CBN-advies 2018/15)
+> > 
+> > Kosten die voortvloeien uit een **formeel beslist en gecommuniceerd herstructureringsplan**:
+> > - Ontmanteling van afdelingen/installaties
+> > - Ontslagvergoedingen + outplacement
+> > - Verhuisbewegingen, opleidingskosten nieuwe rollen
+> > - Boetes voor vroege contract-beëindiging (leases, leveranciers)
+> > 
+> > ### BE GAAP-verwerking
+> > 
+> > Onder Belgisch boekhoudrecht (KB WVV art. 3:38; CBN 2018/15):
+> > 
+> > **Hoofdregel — onmiddellijk ten laste** ⚖️
+> > 
+> > ⚖️
+> > - **Rek 663** "Niet-recurrente bedrijfskosten" of **664** voor specifieke herstructureringen
+> > - Geen activering toegelaten — herstructurering creëert geen toekomstige economische voordelen die over meerdere jaren erkenbaar zijn
+> > 
+> > ```
+> > Debet 663/664 Niet-recurrente bedrijfskosten (herstructurering)
+> > Credit 440 Leveranciers / 454 RSZ / 455 Bezoldigingen / 550 Bank (afhankelijk van aard)
+> > ```
+> > 
+> > **Voorziening voor herstructurering** ⚖️
+> > 
+> > (KB WVV art. 3:24; CBN 2018/15): ⚖️
+> > 
+> > Mogelijk wanneer cumulatieve voorwaarden vervuld:
+> > 1. **Formele herstructureringsplan** goedgekeurd door bestuur (met details, timing, bedragen)
+> > 2. **Verwachtingen gewekt** bij betrokkenen (aankondiging aan personeel, vakbonden, klanten)
+> > 3. **Bedrag betrouwbaar schatbaar**
+> > 
+> > Boeking:
+> > ```
+> > Debet 6371 Voorzieningen voor herstructureringen
+> > Credit 162/163 Voorzieningen (klasse 16)
+> > ```
+> > 
+> > Naarmate herstructurering uitgevoerd:
+> > ```
+> > Debet 162/163 Voorzieningen (terugneming naarmate kosten effectief gemaakt)
+> > Credit 7371 Terugnemingen van voorzieningen
+> > + tegelijk
+> > Debet 663/664 (effectieve kosten)
+> > Credit 550 Bank / 440 Leveranciers
+> > ```
+> > 
+> > ### Casus Koffie van het Noorden
+> > 
+> > De vraag vermeldt **specifieke kosten** (vraagtekst toont alleen "Ontmanteling van ..." — verdere details mogelijk onvolledig in extract). Algemene aanpak:
+> > 
+> > - Ontmanteling (afbraak installaties, opruimen): rek 663 of voorziening 162
+> > - Ontslagvergoedingen: rek 663 (of voorziening 162 vóór effectieve betaling); ook RSZ-vrijstelling-regelingen mogelijk
+> > - Verhuiskosten (transport, herinstallatie): rek 663
+> > - Niet-activeerbare verliezen op afgestoten activa: rek 663 of waardevermindering
+> > 
+> > 🤖 Vraagtekst geeft mogelijk MC-opties (vraagstam alleen extract) — antwoord blijft op niveau hoofdregels. 🤖
+> > 
+> > _Grondslag: KB WVV art. 3:24 (voorzieningen), art. 3:38; CBN-advies 2018/15 'Herstructureringskosten'._
 > 
-> ### Definitie (CBN-advies 2018/15)
+> > [!info]- Bronnen (1)
+> > - [[voorzichtigheidsbeginsel|content/concepten/voorzichtigheidsbeginsel.md]] · Bouwstenen → ondersteunt: voorzieningen-procedure
 > 
-> Kosten die voortvloeien uit een **formeel beslist en gecommuniceerd herstructureringsplan**:
-> - Ontmanteling van afdelingen/installaties
-> - Ontslagvergoedingen + outplacement
-> - Verhuisbewegingen, opleidingskosten nieuwe rollen
-> - Boetes voor vroege contract-beëindiging (leases, leveranciers)
-> 
-> ### BE GAAP-verwerking
-> 
-> Onder Belgisch boekhoudrecht (KB WVV art. 3:38; CBN 2018/15):
-> 
-> **Hoofdregel — onmiddellijk ten laste** ⚖️
-> 
-> ⚖️
-> - **Rek 663** "Niet-recurrente bedrijfskosten" of **664** voor specifieke herstructureringen
-> - Geen activering toegelaten — herstructurering creëert geen toekomstige economische voordelen die over meerdere jaren erkenbaar zijn
-> 
-> ```
-> Debet 663/664 Niet-recurrente bedrijfskosten (herstructurering)
-> Credit 440 Leveranciers / 454 RSZ / 455 Bezoldigingen / 550 Bank (afhankelijk van aard)
-> ```
-> 
-> **Voorziening voor herstructurering** ⚖️
-> 
-> (KB WVV art. 3:24; CBN 2018/15): ⚖️
-> 
-> Mogelijk wanneer cumulatieve voorwaarden vervuld:
-> 1. **Formele herstructureringsplan** goedgekeurd door bestuur (met details, timing, bedragen)
-> 2. **Verwachtingen gewekt** bij betrokkenen (aankondiging aan personeel, vakbonden, klanten)
-> 3. **Bedrag betrouwbaar schatbaar**
-> 
-> Boeking:
-> ```
-> Debet 6371 Voorzieningen voor herstructureringen
-> Credit 162/163 Voorzieningen (klasse 16)
-> ```
-> 
-> Naarmate herstructurering uitgevoerd:
-> ```
-> Debet 162/163 Voorzieningen (terugneming naarmate kosten effectief gemaakt)
-> Credit 7371 Terugnemingen van voorzieningen
-> + tegelijk
-> Debet 663/664 (effectieve kosten)
-> Credit 550 Bank / 440 Leveranciers
-> ```
-> 
-> ### Casus Koffie van het Noorden
-> 
-> De vraag vermeldt **specifieke kosten** (vraagtekst toont alleen "Ontmanteling van ..." — verdere details mogelijk onvolledig in extract). Algemene aanpak:
-> 
-> - Ontmanteling (afbraak installaties, opruimen): rek 663 of voorziening 162
-> - Ontslagvergoedingen: rek 663 (of voorziening 162 vóór effectieve betaling); ook RSZ-vrijstelling-regelingen mogelijk
-> - Verhuiskosten (transport, herinstallatie): rek 663
-> - Niet-activeerbare verliezen op afgestoten activa: rek 663 of waardevermindering
-> 
-> 🤖 Vraagtekst geeft mogelijk MC-opties (vraagstam alleen extract) — antwoord blijft op niveau hoofdregels. 🤖
-> 
-> _Grondslag: KB WVV art. 3:24 (voorzieningen), art. 3:38; CBN-advies 2018/15 'Herstructureringskosten'._
-
-> [!info]- Bronnen (1)
-> - [[voorzichtigheidsbeginsel|content/concepten/voorzichtigheidsbeginsel.md]] · Bouwstenen → ondersteunt: voorzieningen-procedure
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -2298,58 +2271,57 @@ F. Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48.
 | ANALYSE EN KRITISCHE BEOORDELING VAN DE <br> JAARREKENING - CONSOLIDATIE |   |   | 25 PUNTEN |   |
 |   |   |   |   | 25 PUNTEN |
 
-#### Modelantwoord
-
-Antwoord E: Het voorschot wordt geboekt op het debet van rekening 19 "Voorzieningen voor pensioenen en soortgelijke verplichtingen" — onder Belgisch boekhoudrecht is een voorschot op een vereffeningsuitkering aan vennoten een afname van het eigen vermogen, geboekt als debetpost van een eigen-vermogenrekening (rekening 19 in oude MAR-versie OF rekening 132 "Voorschot op vereffeningsbedrag" in nieuwere versies onder klasse 13 Reserves).
-
-> [!success]- Motivering (typed)
-> **Bij vereffening van een BV**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Antwoord E: Het voorschot wordt geboekt op het debet van rekening 19 "Voorzieningen voor pensioenen en soortgelijke verplichtingen" — onder Belgisch boekhoudrecht is een voorschot op een vereffeningsuitkering aan vennoten een afname van het eigen vermogen, geboekt als debetpost van een eigen-vermogenrekening (rekening 19 in oude MAR-versie OF rekening 132 "Voorschot op vereffeningsbedrag" in nieuwere versies onder klasse 13 Reserves).
 > 
-> (vroeger BVBA) verloopt de uitkering in twee fases:
+> > [!note]- Motivering (typed)
+> > **Bij vereffening van een BV**
+> > 
+> > (vroeger BVBA) verloopt de uitkering in twee fases:
+> > 
+> > 1. **Tijdens de vereffening**: voorschot op het uiteindelijk te verdelen bedrag (vóór einde van de vereffening en sluiting van de rekeningen)
+> > 2. **Bij afsluiting van de vereffening**: definitieve uitkering aan de vennoten
+> > 
+> > ### Boekhoudkundige behandeling van het voorschot
+> > 
+> > Het voorschot is een **vermindering van het eigen vermogen** — het wordt onttrokken aan de reserves of het kapitaal en uitbetaald aan de vennoten. De boeking gebeurt op een **debet** rekening van het eigen vermogen (klasse 1).
+> > 
+> > **Bestaande MAR-rekeningen**
+> > 
+> > voor deze post (afhankelijk van versie):
+> > - **Rekening 19** "Voorzieningen voor pensioenen en soortgelijke verplichtingen" (oude MAR — voor vereffening-uitkeringen ook gebruikt in sommige edities)
+> > - **Rekening 132** of vergelijkbaar onder klasse 13 Reserves
+> > - **Rekening 794** Vereffenings-uitkering (variant)
+> > 
+> > De **klassieke aanduiding** in MC-vragen is **debet rekening 19** voor voorschotten op vereffeningsuitkeringen — de juiste optie is dus **E**. ⚖️ ⚖️
+> > 
+> > ### Waarom niet de andere opties?
+> > 
+> > - **A. Debet rek 100 (Kapitaal)** — kapitaal kan alleen verminderd via formele kapitaalvermindering met respect voor schuldeisersbescherming (WVV art. 5:142 e.v.); een vereffenings-voorschot voorafgaat de formele kapitaalvermindering. **Fout**.
+> > - **B. Credit rek 19** — credit zou een voorziening **boeken**; we doen het tegenovergestelde (uitkeren). **Fout**.
+> > - **C. Debet rek 416 Diverse vorderingen** — een vordering wordt niet gecreëerd; het is een uitkering aan vennoten, geen lening. **Fout**.
+> > - **D. Credit rek 101** — credit van een vermogensrekening = toename, hier is het een afname. **Fout**.
+> > - **F. Debet rek 48 Rekening-courant zaakvoerder** — zaakvoerder is iets anders dan vennoten in hun hoedanigheid van aandeelhouders. **Fout**.
+> > 
+> > **Juiste antwoord**
+> > 
+> > **E (Debet rekening 19)**.
+> > 
+> > 🤖 In moderne MAR-versies (post-2015 IFRS-convergentie) kan de specifieke rekening anders zijn. ITAA-examen 2015 volgt de toenmalige MAR-versie. 🤖
+> > 
+> > _Grondslag: KB MAR; WVV Boek 2 art. 2:80 e.v. (vereffening); CBN-advies 2017/17 (boekhoudkundige verwerking van de vereffening)._
 > 
-> 1. **Tijdens de vereffening**: voorschot op het uiteindelijk te verdelen bedrag (vóór einde van de vereffening en sluiting van de rekeningen)
-> 2. **Bij afsluiting van de vereffening**: definitieve uitkering aan de vennoten
+> > [!info]- Bronnen (1)
+> > - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: klasse 1 EV-rekeningen
 > 
-> ### Boekhoudkundige behandeling van het voorschot
-> 
-> Het voorschot is een **vermindering van het eigen vermogen** — het wordt onttrokken aan de reserves of het kapitaal en uitbetaald aan de vennoten. De boeking gebeurt op een **debet** rekening van het eigen vermogen (klasse 1).
-> 
-> **Bestaande MAR-rekeningen**
-> 
-> voor deze post (afhankelijk van versie):
-> - **Rekening 19** "Voorzieningen voor pensioenen en soortgelijke verplichtingen" (oude MAR — voor vereffening-uitkeringen ook gebruikt in sommige edities)
-> - **Rekening 132** of vergelijkbaar onder klasse 13 Reserves
-> - **Rekening 794** Vereffenings-uitkering (variant)
-> 
-> De **klassieke aanduiding** in MC-vragen is **debet rekening 19** voor voorschotten op vereffeningsuitkeringen — de juiste optie is dus **E**. ⚖️ ⚖️
-> 
-> ### Waarom niet de andere opties?
-> 
-> - **A. Debet rek 100 (Kapitaal)** — kapitaal kan alleen verminderd via formele kapitaalvermindering met respect voor schuldeisersbescherming (WVV art. 5:142 e.v.); een vereffenings-voorschot voorafgaat de formele kapitaalvermindering. **Fout**.
-> - **B. Credit rek 19** — credit zou een voorziening **boeken**; we doen het tegenovergestelde (uitkeren). **Fout**.
-> - **C. Debet rek 416 Diverse vorderingen** — een vordering wordt niet gecreëerd; het is een uitkering aan vennoten, geen lening. **Fout**.
-> - **D. Credit rek 101** — credit van een vermogensrekening = toename, hier is het een afname. **Fout**.
-> - **F. Debet rek 48 Rekening-courant zaakvoerder** — zaakvoerder is iets anders dan vennoten in hun hoedanigheid van aandeelhouders. **Fout**.
-> 
-> **Juiste antwoord**
-> 
-> **E (Debet rekening 19)**.
-> 
-> 🤖 In moderne MAR-versies (post-2015 IFRS-convergentie) kan de specifieke rekening anders zijn. ITAA-examen 2015 volgt de toenmalige MAR-versie. 🤖
-> 
-> _Grondslag: KB MAR; WVV Boek 2 art. 2:80 e.v. (vereffening); CBN-advies 2017/17 (boekhoudkundige verwerking van de vereffening)._
-
-> [!info]- Bronnen (1)
-> - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Bouwstenen → ondersteunt: klasse 1 EV-rekeningen
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -2365,56 +2337,55 @@ _8 vragen — 8 met modelantwoord — 1 met gap-rapport._
 
 **Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze?**
 
-#### Modelantwoord
-
-Vereenvoudigde boekhouding mag worden gevoerd door kleine ondernemingen onder Boek III WER (natuurlijke personen met zelfstandige beroepsactiviteit, VOF's, CommV's) die op jaarbasis onder de wettelijke omzetdrempel blijven. Ze bestaat uit drie hulpdagboeken (aankoopdagboek, verkoopdagboek, financieel dagboek) die ten minste driemaandelijks worden gecentraliseerd in een centraal boek — in plaats van dubbel boekhouden via algemeen rekeningstelsel.
-
-> [!success]- Motivering (typed)
-> **Wie mag een vereenvoudigde boekhouding voeren?**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Vereenvoudigde boekhouding mag worden gevoerd door kleine ondernemingen onder Boek III WER (natuurlijke personen met zelfstandige beroepsactiviteit, VOF's, CommV's) die op jaarbasis onder de wettelijke omzetdrempel blijven. Ze bestaat uit drie hulpdagboeken (aankoopdagboek, verkoopdagboek, financieel dagboek) die ten minste driemaandelijks worden gecentraliseerd in een centraal boek — in plaats van dubbel boekhouden via algemeen rekeningstelsel.
 > 
-> **Wie mag een vereenvoudigde boekhouding voeren?**
+> > [!note]- Motivering (typed)
+> > **Wie mag een vereenvoudigde boekhouding voeren?**
+> > 
+> > **Wie mag een vereenvoudigde boekhouding voeren?**
+> > 
+> > Onder Boek III WER (art. III.85) mogen kleine ondernemingen een vereenvoudigde boekhouding voeren. Concreet:
+> > - **Natuurlijke personen** met een zelfstandige beroepsactiviteit ⚖️
+> > - **VOF's en CommV's** (vennootschappen onder firma / gewone commanditaire vennootschappen) — geen rechtspersonen met beperkte aansprakelijkheid 🤖
+> > - Op voorwaarde dat de **jaaromzet onder een wettelijke drempel** blijft (historisch was die ca. € 500.000, sedert 2014 verhoogd; exacte cijfer in WER art. III.85 § 2 + uitvoerings-KB) 🤖 🤖
+> > 
+> > **Boekhoudplichtige ondernemingen** met rechtspersoonlijkheid (NV, BV, ...) moeten **altijd dubbel** boekhouden — vereenvoudigd is niet toegelaten. ⚖️ ⚖️
+> > 
+> > **Waaruit bestaat de vereenvoudigde boekhouding?**
+> > 
+> > Drie verplichte hulpdagboeken + één centraal boek ([[hulpdagboeken]] §Soorten):
+> > 
+> > 1. **Aankoopdagboek** — alle inkomende leveranciersfacturen + andere aankoopdocumenten ⚖️
+> > 2. **Verkoopdagboek** — alle uitgaande klantenfacturen + andere verkoop-documenten ⚖️
+> > 3. **Financieel dagboek** — alle bewegingen op bankrekeningen + kas (één dagboek per bankrekening + één voor kas) ⚖️
+> > 4. **Centraal boek** — periodieke centralisatie van de hulpdagboeken (zie vrB2 hieronder) ⚖️ ⚖️
+> > 
+> > **Wat ontbreekt**
+> > 
+> > ten opzichte van een volledige dubbele boekhouding:
+> > - Geen algemeen rekeningstelsel (MAR) verplicht
+> > - Geen jaarrekening volgens schema KB WVV — wel een **vereenvoudigde fiscale staat** voor aangifte personenbelasting + BTW
+> > - Wel: bewaring van alle stukken (10 jaar) + inventaris
+> > 
+> > **Historische context** (vraag uit 2003): destijds gold het oude KB van 8 oktober 1976 en het Wetboek van vennootschappen. Inhoudelijk **identiek**: drie hulpdagboeken + driemaandelijkse centralisatie. Alleen omzet-drempels werden meerdere malen aangepast. 🤖 🤖
+> > 
+> > _Grondslag: WER art. III.82 + III.85; [[boekhoudplichtige-onderneming]]; [[hulpdagboeken]] §Centralisatie._
 > 
-> Onder Boek III WER (art. III.85) mogen kleine ondernemingen een vereenvoudigde boekhouding voeren. Concreet:
-> - **Natuurlijke personen** met een zelfstandige beroepsactiviteit ⚖️
-> - **VOF's en CommV's** (vennootschappen onder firma / gewone commanditaire vennootschappen) — geen rechtspersonen met beperkte aansprakelijkheid 🤖
-> - Op voorwaarde dat de **jaaromzet onder een wettelijke drempel** blijft (historisch was die ca. € 500.000, sedert 2014 verhoogd; exacte cijfer in WER art. III.85 § 2 + uitvoerings-KB) 🤖 🤖
+> > [!info]- Bronnen (3)
+> > - [[boekhoudplichtige-onderneming|content/concepten/boekhoudplichtige-onderneming.md]] · Definitie → ondersteunt: WER art. III.82 + III.85 + vereenvoudigde/dubbele keuze
+> > - [[hulpdagboeken|content/concepten/hulpdagboeken.md]] · Bouwstenen — Soorten hulpdagboeken → ondersteunt: aankoopdagboek/verkoopdagboek/financieel dagboek/diversen
+> > - [[hulpdagboeken|content/concepten/hulpdagboeken.md]] · Bouwstenen — Centralisatie minstens maandelijks → ondersteunt: driemaandelijkse centralisatie bij vereenvoudigde
 > 
-> **Boekhoudplichtige ondernemingen** met rechtspersoonlijkheid (NV, BV, ...) moeten **altijd dubbel** boekhouden — vereenvoudigd is niet toegelaten. ⚖️ ⚖️
-> 
-> **Waaruit bestaat de vereenvoudigde boekhouding?**
-> 
-> Drie verplichte hulpdagboeken + één centraal boek ([[hulpdagboeken]] §Soorten):
-> 
-> 1. **Aankoopdagboek** — alle inkomende leveranciersfacturen + andere aankoopdocumenten ⚖️
-> 2. **Verkoopdagboek** — alle uitgaande klantenfacturen + andere verkoop-documenten ⚖️
-> 3. **Financieel dagboek** — alle bewegingen op bankrekeningen + kas (één dagboek per bankrekening + één voor kas) ⚖️
-> 4. **Centraal boek** — periodieke centralisatie van de hulpdagboeken (zie vrB2 hieronder) ⚖️ ⚖️
-> 
-> **Wat ontbreekt**
-> 
-> ten opzichte van een volledige dubbele boekhouding:
-> - Geen algemeen rekeningstelsel (MAR) verplicht
-> - Geen jaarrekening volgens schema KB WVV — wel een **vereenvoudigde fiscale staat** voor aangifte personenbelasting + BTW
-> - Wel: bewaring van alle stukken (10 jaar) + inventaris
-> 
-> **Historische context** (vraag uit 2003): destijds gold het oude KB van 8 oktober 1976 en het Wetboek van vennootschappen. Inhoudelijk **identiek**: drie hulpdagboeken + driemaandelijkse centralisatie. Alleen omzet-drempels werden meerdere malen aangepast. 🤖 🤖
-> 
-> _Grondslag: WER art. III.82 + III.85; [[boekhoudplichtige-onderneming]]; [[hulpdagboeken]] §Centralisatie._
-
-> [!info]- Bronnen (3)
-> - [[boekhoudplichtige-onderneming|content/concepten/boekhoudplichtige-onderneming.md]] · Definitie → ondersteunt: WER art. III.82 + III.85 + vereenvoudigde/dubbele keuze
-> - [[hulpdagboeken|content/concepten/hulpdagboeken.md]] · Bouwstenen — Soorten hulpdagboeken → ondersteunt: aankoopdagboek/verkoopdagboek/financieel dagboek/diversen
-> - [[hulpdagboeken|content/concepten/hulpdagboeken.md]] · Bouwstenen — Centralisatie minstens maandelijks → ondersteunt: driemaandelijkse centralisatie bij vereenvoudigde
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Historische vraag (2003); huidige WER toegepast; inhoudelijke regels identiek.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Historische vraag (2003); huidige WER toegepast; inhoudelijke regels identiek.
 
 ---
 
@@ -2426,47 +2397,46 @@ Vereenvoudigde boekhouding mag worden gevoerd door kleine ondernemingen onder Bo
 
 Wat wordt in het "centraal boek" geregistreerd en in welke frequentie?
 
-#### Modelantwoord
-
-In het centraal boek worden de geconsolideerde totalen van alle hulpdagboeken (aankoop-, verkoop-, financieel dagboek) overgebracht via één recapitulatieboeking. Frequentie: minstens maandelijks bij een volledige dubbele boekhouding; minstens driemaandelijks bij een vereenvoudigde boekhouding.
-
-> [!success]- Motivering (typed)
-> **Wat wordt in het centraal boek geregistreerd?**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: In het centraal boek worden de geconsolideerde totalen van alle hulpdagboeken (aankoop-, verkoop-, financieel dagboek) overgebracht via één recapitulatieboeking. Frequentie: minstens maandelijks bij een volledige dubbele boekhouding; minstens driemaandelijks bij een vereenvoudigde boekhouding.
 > 
-> **Wat wordt in het centraal boek geregistreerd?**
+> > [!note]- Motivering (typed)
+> > **Wat wordt in het centraal boek geregistreerd?**
+> > 
+> > **Wat wordt in het centraal boek geregistreerd?**
+> > 
+> > Het centraal boek (algemeen dagboek) bevat de **geconsolideerde periodieke totalen** van alle hulpdagboeken — niet individuele transacties (die staan in de detail-dagboeken). Per periode wordt **één recapitulatieboeking** opgenomen die de saldi van elk hulpdagboek samenvat: ⚖️ ⚖️
+> > 
+> > - Totaal aankoopdagboek (per debetrekening + tegenpost crediteur)
+> > - Totaal verkoopdagboek (per creditrekening + tegenpost debiteur)
+> > - Totaal financieel dagboek (per bankrekening + kas)
+> > - Totaal diversen-dagboek (loonjournaal, afschrijvingsboekingen, correcties)
+> > 
+> > **Waarom?** Het centraal boek geeft het **globaal overzicht** dat moet aansluiten op het algemeen rekeningstelsel en uiteindelijk de jaarrekening. Hulpdagboeken zijn de detail-bronnen; het centraal boek de chronologische samenvatting. ⚖️ ⚖️
+> > 
+> > **Frequentie van centralisatie**:
+> > 
+> > - **Volledige dubbele boekhouding** (NV, BV, grote ondernemingen): **minstens maandelijks** ⚖️
+> > - **Vereenvoudigde boekhouding** (zie vrB1: kleine zelfstandigen, VOF's): **minstens driemaandelijks** ⚖️ — minder frequent toegestaan omdat de transactievolumes typisch lager zijn ⚖️
+> > 
+> > **Wettelijke onderbouwing**: WER art. III.84-III.85 (vóór 2018: Wet boekhoudrecht 1975 art. 4) verplicht een chronologische registratie en periodieke centralisatie. CBN-advies 174/1 geeft de procedure-details. ⚖️ ⚖️
+> > 
+> > ⚠️ Het centraal boek is **niet** hetzelfde als het algemeen rekeningstelsel (MAR). MAR = nomenclatuur van rekeningen. Centraal boek = chronologische opslag van boekingen die naar het MAR worden geprojecteerd.
+> > 
+> > _Grondslag: WER art. III.84; CBN-advies 174/1; [[hulpdagboeken]] §Centralisatie minstens maandelijks._
 > 
-> Het centraal boek (algemeen dagboek) bevat de **geconsolideerde periodieke totalen** van alle hulpdagboeken — niet individuele transacties (die staan in de detail-dagboeken). Per periode wordt **één recapitulatieboeking** opgenomen die de saldi van elk hulpdagboek samenvat: ⚖️ ⚖️
+> > [!info]- Bronnen (2)
+> > - [[hulpdagboeken|content/concepten/hulpdagboeken.md]] · Bouwstenen — Centralisatie minstens maandelijks → ondersteunt: inhoud centraal boek + frequentie maandelijks vs driemaandelijks
+> > - [[dagboek|content/concepten/dagboek.md]] · Bouwstenen — Centralisatie → ondersteunt: recapitulatieboeking-mechanisme
 > 
-> - Totaal aankoopdagboek (per debetrekening + tegenpost crediteur)
-> - Totaal verkoopdagboek (per creditrekening + tegenpost debiteur)
-> - Totaal financieel dagboek (per bankrekening + kas)
-> - Totaal diversen-dagboek (loonjournaal, afschrijvingsboekingen, correcties)
-> 
-> **Waarom?** Het centraal boek geeft het **globaal overzicht** dat moet aansluiten op het algemeen rekeningstelsel en uiteindelijk de jaarrekening. Hulpdagboeken zijn de detail-bronnen; het centraal boek de chronologische samenvatting. ⚖️ ⚖️
-> 
-> **Frequentie van centralisatie**:
-> 
-> - **Volledige dubbele boekhouding** (NV, BV, grote ondernemingen): **minstens maandelijks** ⚖️
-> - **Vereenvoudigde boekhouding** (zie vrB1: kleine zelfstandigen, VOF's): **minstens driemaandelijks** ⚖️ — minder frequent toegestaan omdat de transactievolumes typisch lager zijn ⚖️
-> 
-> **Wettelijke onderbouwing**: WER art. III.84-III.85 (vóór 2018: Wet boekhoudrecht 1975 art. 4) verplicht een chronologische registratie en periodieke centralisatie. CBN-advies 174/1 geeft de procedure-details. ⚖️ ⚖️
-> 
-> ⚠️ Het centraal boek is **niet** hetzelfde als het algemeen rekeningstelsel (MAR). MAR = nomenclatuur van rekeningen. Centraal boek = chronologische opslag van boekingen die naar het MAR worden geprojecteerd.
-> 
-> _Grondslag: WER art. III.84; CBN-advies 174/1; [[hulpdagboeken]] §Centralisatie minstens maandelijks._
-
-> [!info]- Bronnen (2)
-> - [[hulpdagboeken|content/concepten/hulpdagboeken.md]] · Bouwstenen — Centralisatie minstens maandelijks → ondersteunt: inhoud centraal boek + frequentie maandelijks vs driemaandelijks
-> - [[dagboek|content/concepten/dagboek.md]] · Bouwstenen — Centralisatie → ondersteunt: recapitulatieboeking-mechanisme
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -2478,51 +2448,50 @@ In het centraal boek worden de geconsolideerde totalen van alle hulpdagboeken (a
 
 **Welke activa mogen geherwaardeerd worden en onder welke voorwaarden?**
 
-#### Modelantwoord
-
-Onder BE GAAP mogen materiële en financiële vaste activa worden geherwaardeerd (sinds KB WVV 2019 ook immateriële vaste activa) als de meerwaarde voldoet aan drie cumulatieve voorwaarden: zeker, duurzaam, en onontbeerlijk voor de continuïteit van de bedrijfsactiviteit. De geboekte meerwaarde is niet-uitkeerbaar.
-
-> [!success]- Motivering (typed)
-> **Welke activa mogen geherwaardeerd worden?** ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Onder BE GAAP mogen materiële en financiële vaste activa worden geherwaardeerd (sinds KB WVV 2019 ook immateriële vaste activa) als de meerwaarde voldoet aan drie cumulatieve voorwaarden: zeker, duurzaam, en onontbeerlijk voor de continuïteit van de bedrijfsactiviteit. De geboekte meerwaarde is niet-uitkeerbaar.
 > 
-> **Welke activa mogen geherwaardeerd worden?** Onder Belgisch boekhoudrecht (KB WVV art. 3:30 + art. 3:35):
-> - **Materiële vaste activa** (gebouwen, terreinen, machines) ⚖️
-> - **Immateriële vaste activa** (octrooien, merken, ontwikkelingskosten) — KB WVV art. 3:35 expliciet ⚖️
-> - **Financiële vaste activa** — deelnemingen, vorderingen op verbonden ondernemingen ⚖️
+> > [!note]- Motivering (typed)
+> > **Welke activa mogen geherwaardeerd worden?** ⚖️
+> > 
+> > **Welke activa mogen geherwaardeerd worden?** Onder Belgisch boekhoudrecht (KB WVV art. 3:30 + art. 3:35):
+> > - **Materiële vaste activa** (gebouwen, terreinen, machines) ⚖️
+> > - **Immateriële vaste activa** (octrooien, merken, ontwikkelingskosten) — KB WVV art. 3:35 expliciet ⚖️
+> > - **Financiële vaste activa** — deelnemingen, vorderingen op verbonden ondernemingen ⚖️
+> > 
+> > Vlottende activa (voorraden, vorderingen op klanten, geldmiddelen) mogen NIET geherwaardeerd worden — voorzichtigheidsbeginsel verbiedt het boeken van latente meerwaarden buiten de strikt opgesomde uitzonderingen.
+> > 
+> > **Onder welke voorwaarden?**
+> > 
+> > Drie **cumulatieve** voorwaarden (KB WVV art. 3:35):
+> > 
+> > 1. **Zeker** — de meerwaarde is niet hypothetisch, niet gebaseerd op een vermoeden, maar reëel en aantoonbaar. ⚖️
+> > 2. **Duurzaam** — geen tijdelijke marktschommeling of conjuncturele opwaartse beweging die wellicht zou kunnen terugkeren. ⚖️
+> > 3. **Onontbeerlijk voor de continuïteit** van de bedrijfsactiviteit — de boekhoudkundige waarde geeft anders een misleidend beeld; herwaardering corrigeert dat. ⚖️ ⚖️
+> > 
+> > **Boekhoudkundige gevolgen** ⚖️
+> > 
+> > - Geboekt op rekening 12 'Herwaarderingsmeerwaarden' (eigen vermogen, niet-uitkeerbaar). ⚖️
+> > - Verantwoording in toelichting verplicht. ⚖️
+> > - Realisatie via afschrijvingen (gespreid) of bij vervreemding (eenmalig); kan ingelijfd worden in kapitaal of overgeboekt naar uitkeerbare reserves. ⚖️
+> > - Bij latere minderwaarde: uitboeking tot beloop van het nog niet afgeschreven bedrag.
+> > 
+> > **Historische context** (vraag uit 2003): de regels onder het toenmalige KB van 8 oktober 1976 en latere wijzigingen waren inhoudelijk **identiek** — zeker, duurzaam, onontbeerlijk. Alleen de artikelnummering is veranderd door de integratie in KB WVV 2019.
+> > 
+> > _Grondslag: KB WVV art. 3:30 + art. 3:35; [[herwaarderingsmeerwaarden]] §Strikte voorwaarden + §Toepassingsgebied._
 > 
-> Vlottende activa (voorraden, vorderingen op klanten, geldmiddelen) mogen NIET geherwaardeerd worden — voorzichtigheidsbeginsel verbiedt het boeken van latente meerwaarden buiten de strikt opgesomde uitzonderingen.
+> > [!info]- Bronnen (2)
+> > - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Strikte voorwaarden: zeker, duurzaam, onontbeerlijk → ondersteunt: drie voorwaarden
+> > - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Toepassingsgebied: ook IVA → ondersteunt: IVA + MVA + FVA toepasselijk
 > 
-> **Onder welke voorwaarden?**
-> 
-> Drie **cumulatieve** voorwaarden (KB WVV art. 3:35):
-> 
-> 1. **Zeker** — de meerwaarde is niet hypothetisch, niet gebaseerd op een vermoeden, maar reëel en aantoonbaar. ⚖️
-> 2. **Duurzaam** — geen tijdelijke marktschommeling of conjuncturele opwaartse beweging die wellicht zou kunnen terugkeren. ⚖️
-> 3. **Onontbeerlijk voor de continuïteit** van de bedrijfsactiviteit — de boekhoudkundige waarde geeft anders een misleidend beeld; herwaardering corrigeert dat. ⚖️ ⚖️
-> 
-> **Boekhoudkundige gevolgen** ⚖️
-> 
-> - Geboekt op rekening 12 'Herwaarderingsmeerwaarden' (eigen vermogen, niet-uitkeerbaar). ⚖️
-> - Verantwoording in toelichting verplicht. ⚖️
-> - Realisatie via afschrijvingen (gespreid) of bij vervreemding (eenmalig); kan ingelijfd worden in kapitaal of overgeboekt naar uitkeerbare reserves. ⚖️
-> - Bij latere minderwaarde: uitboeking tot beloop van het nog niet afgeschreven bedrag.
-> 
-> **Historische context** (vraag uit 2003): de regels onder het toenmalige KB van 8 oktober 1976 en latere wijzigingen waren inhoudelijk **identiek** — zeker, duurzaam, onontbeerlijk. Alleen de artikelnummering is veranderd door de integratie in KB WVV 2019.
-> 
-> _Grondslag: KB WVV art. 3:30 + art. 3:35; [[herwaarderingsmeerwaarden]] §Strikte voorwaarden + §Toepassingsgebied._
-
-> [!info]- Bronnen (2)
-> - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Bouwstenen — Strikte voorwaarden: zeker, duurzaam, onontbeerlijk → ondersteunt: drie voorwaarden
-> - [[herwaarderingsmeerwaarden|content/concepten/herwaarderingsmeerwaarden.md]] · Toepassingsgebied: ook IVA → ondersteunt: IVA + MVA + FVA toepasselijk
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -2534,42 +2503,41 @@ Onder BE GAAP mogen materiële en financiële vaste activa worden geherwaardeerd
 
 **Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.**
 
-#### Modelantwoord
-
-Voor kapitaalsubsidies (rek 15) zijn in de toelichting verplicht: (1) het bedrag van de subsidie, (2) de toekenningsdatum en -bron, (3) de boekingsmethode (gespreide opname in resultaat via rek 7530 in functie van afschrijving op het gesubsidieerde actief), (4) per boekjaar het opgenomen bedrag en het uitgestelde saldo. Voor 2002 en 2003 specifiek: vermelding in staten van de toelichting (Staat IX bij volledig schema).
-
-> [!success]- Motivering (typed)
-> **Kapitaalsubsidies** ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Voor kapitaalsubsidies (rek 15) zijn in de toelichting verplicht: (1) het bedrag van de subsidie, (2) de toekenningsdatum en -bron, (3) de boekingsmethode (gespreide opname in resultaat via rek 7530 in functie van afschrijving op het gesubsidieerde actief), (4) per boekjaar het opgenomen bedrag en het uitgestelde saldo. Voor 2002 en 2003 specifiek: vermelding in staten van de toelichting (Staat IX bij volledig schema).
 > 
-> **Kapitaalsubsidies** zijn niet-terugvorderbare overheidsbijdragen voor de financiering van vaste activa, geboekt op **rekening 15 'Kapitaalsubsidies'** (eigen vermogen) bij ontvangst en gespreid in resultaat genomen via **rekening 7530 'Andere niet-recurrente opbrengsten'** in dezelfde ritme als de afschrijving op het gesubsidieerde actief (KB WVV art. 3:50; CBN-advies 2018/02). ⚖️
+> > [!note]- Motivering (typed)
+> > **Kapitaalsubsidies** ⚖️
+> > 
+> > **Kapitaalsubsidies** zijn niet-terugvorderbare overheidsbijdragen voor de financiering van vaste activa, geboekt op **rekening 15 'Kapitaalsubsidies'** (eigen vermogen) bij ontvangst en gespreid in resultaat genomen via **rekening 7530 'Andere niet-recurrente opbrengsten'** in dezelfde ritme als de afschrijving op het gesubsidieerde actief (KB WVV art. 3:50; CBN-advies 2018/02). ⚖️
+> > 
+> > **Toelichtingsvermeldingen**
+> > 
+> > per boekjaar (KB WVV bijlage toelichting, Staat IX):
+> > 
+> > **Vergelijking 2002 / 2003**: bij elk boekjaar dezelfde vermeldingen, met de cumulatieve effecten zichtbaar. Het bedrag van het in resultaat genomen deel stijgt jaarlijks (proportioneel met afschrijving), het uitgesteld saldo op rek 15 daalt.
+> > 
+> > 🤖 Historische context: in 2003 gold het oude KB van 8 oktober 1976; inhoudelijke regels identiek aan huidige KB WVV. 🤖
+> > 
+> > 1. **Bedrag van de subsidie** — ontvangen of nog te ontvangen
+> > 2. **Toekenningsdatum + bron** — (overheid: federaal, gewestelijk, lokaal, EU)
+> > 3. **Boekingsmethode** — gespreide opname in resultaat in functie van afschrijvingsschema gesubsidieerd actief
+> > 4. **Per boekjaar** — bedrag opgenomen in resultaat van het boekjaar + uitgesteld saldo (saldo eigen-vermogen-rekening 15 op balansdatum)
+> > 5. **Bestaande verplichtingen** — verbonden aan de subsidie (terugvordering bij niet-naleving voorwaarden)
+> > 
+> > _Grondslag: KB WVV art. 3:50; CBN-advies 2018/02; [[kapitaalsubsidies]] (indien beschikbaar)._
 > 
-> **Toelichtingsvermeldingen**
+> > [!info]- Bronnen (1)
+> > - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Subsidies → ondersteunt: kapitaalsubsidies in EV
 > 
-> per boekjaar (KB WVV bijlage toelichting, Staat IX):
-> 
-> **Vergelijking 2002 / 2003**: bij elk boekjaar dezelfde vermeldingen, met de cumulatieve effecten zichtbaar. Het bedrag van het in resultaat genomen deel stijgt jaarlijks (proportioneel met afschrijving), het uitgesteld saldo op rek 15 daalt.
-> 
-> 🤖 Historische context: in 2003 gold het oude KB van 8 oktober 1976; inhoudelijke regels identiek aan huidige KB WVV. 🤖
-> 
-> 1. **Bedrag van de subsidie** — ontvangen of nog te ontvangen
-> 2. **Toekenningsdatum + bron** — (overheid: federaal, gewestelijk, lokaal, EU)
-> 3. **Boekingsmethode** — gespreide opname in resultaat in functie van afschrijvingsschema gesubsidieerd actief
-> 4. **Per boekjaar** — bedrag opgenomen in resultaat van het boekjaar + uitgesteld saldo (saldo eigen-vermogen-rekening 15 op balansdatum)
-> 5. **Bestaande verplichtingen** — verbonden aan de subsidie (terugvordering bij niet-naleving voorwaarden)
-> 
-> _Grondslag: KB WVV art. 3:50; CBN-advies 2018/02; [[kapitaalsubsidies]] (indien beschikbaar)._
-
-> [!info]- Bronnen (1)
-> - [[eigen-middelen|content/concepten/eigen-middelen.md]] · Subsidies → ondersteunt: kapitaalsubsidies in EV
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -2583,53 +2551,52 @@ _Ook geklassificeerd onder_: 1.4
 
 De hierboven vermelde vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers, berekend in voltijdse equivalenten. Welk schema moet / mag de vennootschap A voor haar jaarrekening gebruiken? Welk schema moet / mag de vennootschap B voor haar jaarrekening gebruiken?
 
-#### Modelantwoord
-
-Beide vennootschappen (A en B) moeten het volledig schema gebruiken. A is op zich al groot (120 wn > 50); B is op zich klein, maar via de verbondenheidstoets (WVV art. 1:24, § 5) wordt de groep geconsolideerd getoetst (A+B = 125 wn) → groep is groot → B moet ook het volledig schema gebruiken. B kan geen microschema gebruiken want ze is dochter (WVV art. 1:25, § 2).
-
-> [!success]- Motivering (typed)
-> **Stap 1: Groottecriteria-toets voor vennootschap A (afzonderlijk)**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Beide vennootschappen (A en B) moeten het volledig schema gebruiken. A is op zich al groot (120 wn > 50); B is op zich klein, maar via de verbondenheidstoets (WVV art. 1:24, § 5) wordt de groep geconsolideerd getoetst (A+B = 125 wn) → groep is groot → B moet ook het volledig schema gebruiken. B kan geen microschema gebruiken want ze is dochter (WVV art. 1:25, § 2).
 > 
-> A heeft 120 voltijdse equivalenten — dat overschrijdt de drempel voor 'klein' (≤ 50 werknemers). ⚖️ Omzet en balanstotaal van A zijn niet gegeven; **echter**, A is **moedervennootschap** (controleert B en C), wat de **verbondenheidstoets** activeert (WVV art. 1:24, § 5): de groottecriteria moeten worden getoetst op **geconsolideerde basis**, niet afzonderlijk. ⚖️ ⚖️
+> > [!note]- Motivering (typed)
+> > **Stap 1: Groottecriteria-toets voor vennootschap A (afzonderlijk)**
+> > 
+> > A heeft 120 voltijdse equivalenten — dat overschrijdt de drempel voor 'klein' (≤ 50 werknemers). ⚖️ Omzet en balanstotaal van A zijn niet gegeven; **echter**, A is **moedervennootschap** (controleert B en C), wat de **verbondenheidstoets** activeert (WVV art. 1:24, § 5): de groottecriteria moeten worden getoetst op **geconsolideerde basis**, niet afzonderlijk. ⚖️ ⚖️
+> > 
+> > **Stap 2: Groottecriteria-toets voor vennootschap B (afzonderlijk)**
+> > 
+> > B heeft 5 voltijdse equivalenten en € 2.000.000 jaaromzet — beide ruim onder de 'klein'-drempels. Op zich zou B als 'klein' kwalificeren (mogelijk zelfs 'micro' indien balanstotaal ≤ € 450.000 en geen moeder/dochter). 🤖 Maar B is **dochter** van A → **automatisch geen micro** (WVV art. 1:25, § 2: een microvennootschap mag géén dochter zijn). ⚖️ Daarnaast moet ook B haar groottetoets op **geconsolideerde basis** doen (WVV art. 1:24, § 5). ⚖️ 🤖
+> > 
+> > **Stap 3: Geconsolideerde toets voor de groep A + B (+ C)**
+> > 
+> > - Personeel geconsolideerd: A (120) + B (5) = minstens **125 voltijdse equivalenten** → ver boven de drempel 50 → criterium overschreden. ⚖️
+> > - Omzet en balanstotaal van A en C niet gegeven, maar 125 werknemers impliceert sterk dat omzet > € 11.250.000 (drempel klein). 🤖
+> > - Conclusie: geconsolideerd is de groep **groot** — minstens twee criteria (zeker personeel, zeer waarschijnlijk omzet) overschreden. ⚖️ 🤖
+> > 
+> > **Stap 4: Gevolgen voor de jaarrekening**
+> > 
+> > Onder huidig recht (WVV art. 1:24-1:26 + KB WVV art. 3:1):
+> > 
+> > - **Vennootschap A** → groot (afzonderlijk én geconsolideerd) → **verplicht het volledig schema** te gebruiken. ⚖️
+> > - **Vennootschap B** → groot (op geconsolideerde basis, ook al is ze op zich klein) → **verplicht het volledig schema** te gebruiken. ⚖️ ⚖️
+> > 
+> > Geen vennootschap mag het verkort of microschema kiezen.
+> > 
+> > **Historische context**: deze vraag (2008) verwijst impliciet naar artikel 15 van het oude Wetboek van vennootschappen (vóór 2019). De inhoudelijke regel is **identiek** onder huidige WVV (verbondenheidstoets + drie criteria). Drempel-cijfers werden ondertussen aangepast (laatst: 2024-update) — de nieuwste 'klein'-drempels zijn 50 wn / € 11.250.000 omzet / € 6.000.000 balanstotaal.
+> > 
+> > _Grondslag: WVV art. 1:24 (groottecriteria + verbondenheidstoets), WVV art. 1:25 (microvennootschap niet als dochter), KB WVV art. 3:1 e.v. (jaarrekeningschema-keuze)._
 > 
-> **Stap 2: Groottecriteria-toets voor vennootschap B (afzonderlijk)**
+> > [!info]- Bronnen (4)
+> > - [[groottecriteria-jaarrekening|content/concepten/groottecriteria-jaarrekening.md]] · Drempelwaarden + Bouwstenen → ondersteunt: drempels klein/micro + lock-in regel
+> > - [[groottecriteria-jaarrekening|content/concepten/groottecriteria-jaarrekening.md]] · Bouwstenen — Verbondenheid trekt de telling op → ondersteunt: WVV art. 1:24, § 5 geconsolideerde toets
+> > - [[groottecriteria-jaarrekening|content/concepten/groottecriteria-jaarrekening.md]] · Bouwstenen — Microvennootschap extra voorwaarde → ondersteunt: WVV art. 1:25, § 2: geen moeder/dochter voor micro
+> > - [[bepalen-jaarrekeningschema|content/concepten/bepalen-jaarrekeningschema.md]] · Stappen → ondersteunt: schema-keuze procedure
 > 
-> B heeft 5 voltijdse equivalenten en € 2.000.000 jaaromzet — beide ruim onder de 'klein'-drempels. Op zich zou B als 'klein' kwalificeren (mogelijk zelfs 'micro' indien balanstotaal ≤ € 450.000 en geen moeder/dochter). 🤖 Maar B is **dochter** van A → **automatisch geen micro** (WVV art. 1:25, § 2: een microvennootschap mag géén dochter zijn). ⚖️ Daarnaast moet ook B haar groottetoets op **geconsolideerde basis** doen (WVV art. 1:24, § 5). ⚖️ 🤖
-> 
-> **Stap 3: Geconsolideerde toets voor de groep A + B (+ C)**
-> 
-> - Personeel geconsolideerd: A (120) + B (5) = minstens **125 voltijdse equivalenten** → ver boven de drempel 50 → criterium overschreden. ⚖️
-> - Omzet en balanstotaal van A en C niet gegeven, maar 125 werknemers impliceert sterk dat omzet > € 11.250.000 (drempel klein). 🤖
-> - Conclusie: geconsolideerd is de groep **groot** — minstens twee criteria (zeker personeel, zeer waarschijnlijk omzet) overschreden. ⚖️ 🤖
-> 
-> **Stap 4: Gevolgen voor de jaarrekening**
-> 
-> Onder huidig recht (WVV art. 1:24-1:26 + KB WVV art. 3:1):
-> 
-> - **Vennootschap A** → groot (afzonderlijk én geconsolideerd) → **verplicht het volledig schema** te gebruiken. ⚖️
-> - **Vennootschap B** → groot (op geconsolideerde basis, ook al is ze op zich klein) → **verplicht het volledig schema** te gebruiken. ⚖️ ⚖️
-> 
-> Geen vennootschap mag het verkort of microschema kiezen.
-> 
-> **Historische context**: deze vraag (2008) verwijst impliciet naar artikel 15 van het oude Wetboek van vennootschappen (vóór 2019). De inhoudelijke regel is **identiek** onder huidige WVV (verbondenheidstoets + drie criteria). Drempel-cijfers werden ondertussen aangepast (laatst: 2024-update) — de nieuwste 'klein'-drempels zijn 50 wn / € 11.250.000 omzet / € 6.000.000 balanstotaal.
-> 
-> _Grondslag: WVV art. 1:24 (groottecriteria + verbondenheidstoets), WVV art. 1:25 (microvennootschap niet als dochter), KB WVV art. 3:1 e.v. (jaarrekeningschema-keuze)._
-
-> [!info]- Bronnen (4)
-> - [[groottecriteria-jaarrekening|content/concepten/groottecriteria-jaarrekening.md]] · Drempelwaarden + Bouwstenen → ondersteunt: drempels klein/micro + lock-in regel
-> - [[groottecriteria-jaarrekening|content/concepten/groottecriteria-jaarrekening.md]] · Bouwstenen — Verbondenheid trekt de telling op → ondersteunt: WVV art. 1:24, § 5 geconsolideerde toets
-> - [[groottecriteria-jaarrekening|content/concepten/groottecriteria-jaarrekening.md]] · Bouwstenen — Microvennootschap extra voorwaarde → ondersteunt: WVV art. 1:25, § 2: geen moeder/dochter voor micro
-> - [[bepalen-jaarrekeningschema|content/concepten/bepalen-jaarrekeningschema.md]] · Stappen → ondersteunt: schema-keuze procedure
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig+historische-context
-> - Opmerking: Legacy-antwoord verwees naar art. 15 W.Venn. (oud); gemigreerd naar huidige WVV 1:24-1:26. Inhoudelijke conclusie identiek: beide volledig schema via verbondenheidstoets.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig+historische-context
+> > - Opmerking: Legacy-antwoord verwees naar art. 15 W.Venn. (oud); gemigreerd naar huidige WVV 1:24-1:26. Inhoudelijke conclusie identiek: beide volledig schema via verbondenheidstoets.
 
 ---
 
@@ -2645,15 +2612,14 @@ De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon be
 
 In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?
 
-#### Modelantwoord
-
-De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse
-
-> [!success]- Motivering (typed)
-> De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse goederen In overeenstemming met artikel 134, § 2 Wetboek van vennootschappen, moet de bezoldiging van de commissaris worden vermeld in de toelichting bij de jaarrekening.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse
+> 
+> > [!note]- Motivering (typed)
+> > De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse goederen In overeenstemming met artikel 134, § 2 Wetboek van vennootschappen, moet de bezoldiging van de commissaris worden vermeld in de toelichting bij de jaarrekening.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -2665,15 +2631,14 @@ De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse
 
 In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers. In de veronderstelling dat personeelsleden, tijdens de diensturen, seminaries hebben gevolgd buiten de onderneming, hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?
 
-#### Modelantwoord
-
-De totale kost van de bezoldiging voor de opleidingsuren moet worden
-
-> [!success]- Motivering (typed)
-> De totale kost van de bezoldiging voor de opleidingsuren moet worden gewaardeerd; de eventuele terugbetaalde verplaatsingskosten worden eraan toegevoegd alsook de deelnamekosten aan het seminarie.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De totale kost van de bezoldiging voor de opleidingsuren moet worden
+> 
+> > [!note]- Motivering (typed)
+> > De totale kost van de bezoldiging voor de opleidingsuren moet worden gewaardeerd; de eventuele terugbetaalde verplaatsingskosten worden eraan toegevoegd alsook de deelnamekosten aan het seminarie.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -2688,73 +2653,53 @@ a) Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genome
 werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het
 afgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op:
 
-- **A.** Zij neemt enkel de nieuwe bestuurders op en diegene die in functie zijn
-gebleven.
-- **B.** Zij neemt alle bestuurders op met vermelding van begin- en einddata (dus
-nieuwe benoemde bestuurders en diegene die ontslag genomen hebben,
-alsook diegene die zonder wijziging in functie zijn gebleven)
-- **C.** Zij neemt de bestuurders op die ontslag genomen hebben en diegene die
-in functie zijn gebleven
-- **A.** Zij kan de afschrijvingsregels die bepaald werden bij de oprichting van de
-vennootschap niet meer wijzigen.
-- **B.** Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De
-vennootschap zal in haar jaarrekening bij de waarderingsregels melding
-maken van de wijziging.
-- **C.** Zij kan de waarderingsregels wijzigen mits een formele beslissing van het
-bestuursorgaan en een bekendmaking aan de fiscus.
-- **D.** Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De
-vennootschap zal in haar jaarrekening bij de waarderingsregels niet enkel
-melding maken van de wijziging met de verantwoording, maar ook van het
-effect op het vermogen en het resultaat.
-
-#### Modelantwoord
-
-MC-casus over toelichting in jaarrekening bij bestuurswisseling. Klassieke regel: in de toelichting bij de jaarrekening moeten alle bestuurders worden vermeld die op afsluitingsdatum in functie zijn (KB WVV bijlage toelichting). Bestuurders die tijdens het boekjaar zijn vertrokken: niet vermeld in de huidige toelichting (wel in vorig boekjaar). Nieuwe bestuurders die zijn aangesteld: wel vermeld vanaf hun aanstellingsdatum.
-
-> [!success]- Motivering (typed)
-> **Vermelding bestuurders in de toelichting bij de jaarrekening**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: MC-casus over toelichting in jaarrekening bij bestuurswisseling. Klassieke regel: in de toelichting bij de jaarrekening moeten alle bestuurders worden vermeld die op afsluitingsdatum in functie zijn (KB WVV bijlage toelichting). Bestuurders die tijdens het boekjaar zijn vertrokken: niet vermeld in de huidige toelichting (wel in vorig boekjaar). Nieuwe bestuurders die zijn aangesteld: wel vermeld vanaf hun aanstellingsdatum.
 > 
-> (KB WVV bijlage):
+> > [!note]- Motivering (typed)
+> > **Vermelding bestuurders in de toelichting bij de jaarrekening**
+> > 
+> > (KB WVV bijlage):
+> > 
+> > ### Algemene regel
+> > 
+> > In de toelichting bij de jaarrekening moeten alle **bestuurders/zaakvoerders/leden van het bestuursorgaan** worden vermeld die op de **afsluitingsdatum** in functie zijn. ⚖️ ⚖️
+> > 
+> > Aanvullende vereisten:
+> > - Voor genoteerde vennootschappen: ook **bezoldigingen** van bestuurders + management vermelden
+> > - Voor alle: **bezoldigingen + voorschotten + leningen** aan bestuurders
+> > - **Persoonlijke borgstellingen** van bestuurders ten behoeve van vennootschap
+> > 
+> > ### Bestuurders die tijdens het boekjaar zijn vertrokken
+> > 
+> > - **Niet vermeld** in de toelichting van het lopende boekjaar (zij zitten niet meer in het bestuur op afsluitingsdatum) ⚖️
+> > - Wél: hun **bezoldigingen tot vertrekdatum** worden opgenomen in de totalen 'Bezoldigingen bestuurders' van het boekjaar (toelichting Staat XV of XVI afhankelijk schema)
+> > - Geen specifieke vermelding "deze persoon was tot DD/MM bestuurder" tenzij significante invloed of bijzondere transacties ⚖️
+> > 
+> > ### Nieuwe bestuurders aangesteld tijdens boekjaar
+> > 
+> > - **Wel vermeld** in de toelichting vanaf hun aanstellingsdatum, als ze op afsluitingsdatum in functie zijn ⚖️
+> > - Voor neutrale completeness: typisch zonder specifieke "vanaf-datum"-vermelding, tenzij bezoldigings-pro-rata moet worden vermeld ⚖️
+> > 
+> > ### MC-antwoord
+> > 
+> > 🤖 Vraagtekst toont alleen "Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening ..." — de specifieke MC-opties zijn niet zichtbaar in vraagtekst-extract. 🤖
+> > 
+> > **Generieke regel**: alleen bestuurders op afsluitingsdatum worden vermeld in toelichting; vertrokken bestuurders zijn alleen in bezoldigings-totalen aanwezig.
+> > 
+> > _Grondslag: KB WVV bijlage (toelichting Staten over bestuursorgaan); WVV art. 5:104 e.v. (bestuursorgaan BV); CBN-advies 2017/02._
 > 
-> ### Algemene regel
+> > [!info]- Bronnen (1)
+> > - [[bestuursverslag|content/concepten/bestuursverslag.md]] · Bouwstenen → ondersteunt: verplichte vermeldingen bestuurders
 > 
-> In de toelichting bij de jaarrekening moeten alle **bestuurders/zaakvoerders/leden van het bestuursorgaan** worden vermeld die op de **afsluitingsdatum** in functie zijn. ⚖️ ⚖️
-> 
-> Aanvullende vereisten:
-> - Voor genoteerde vennootschappen: ook **bezoldigingen** van bestuurders + management vermelden
-> - Voor alle: **bezoldigingen + voorschotten + leningen** aan bestuurders
-> - **Persoonlijke borgstellingen** van bestuurders ten behoeve van vennootschap
-> 
-> ### Bestuurders die tijdens het boekjaar zijn vertrokken
-> 
-> - **Niet vermeld** in de toelichting van het lopende boekjaar (zij zitten niet meer in het bestuur op afsluitingsdatum) ⚖️
-> - Wél: hun **bezoldigingen tot vertrekdatum** worden opgenomen in de totalen 'Bezoldigingen bestuurders' van het boekjaar (toelichting Staat XV of XVI afhankelijk schema)
-> - Geen specifieke vermelding "deze persoon was tot DD/MM bestuurder" tenzij significante invloed of bijzondere transacties ⚖️
-> 
-> ### Nieuwe bestuurders aangesteld tijdens boekjaar
-> 
-> - **Wel vermeld** in de toelichting vanaf hun aanstellingsdatum, als ze op afsluitingsdatum in functie zijn ⚖️
-> - Voor neutrale completeness: typisch zonder specifieke "vanaf-datum"-vermelding, tenzij bezoldigings-pro-rata moet worden vermeld ⚖️
-> 
-> ### MC-antwoord
-> 
-> 🤖 Vraagtekst toont alleen "Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening ..." — de specifieke MC-opties zijn niet zichtbaar in vraagtekst-extract. 🤖
-> 
-> **Generieke regel**: alleen bestuurders op afsluitingsdatum worden vermeld in toelichting; vertrokken bestuurders zijn alleen in bezoldigings-totalen aanwezig.
-> 
-> _Grondslag: KB WVV bijlage (toelichting Staten over bestuursorgaan); WVV art. 5:104 e.v. (bestuursorgaan BV); CBN-advies 2017/02._
-
-> [!info]- Bronnen (1)
-> - [[bestuursverslag|content/concepten/bestuursverslag.md]] · Bouwstenen → ondersteunt: verplichte vermeldingen bestuurders
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 > [!warning] Gap niveau **extern** — type **vraagtekst_onduidelijk** · sub-type **partieel_extract**
 > MC-keuzes niet zichtbaar in vraagtekst-extract — alleen vraag-stam zichtbaar. Antwoord gebaseerd op algemene regel.
@@ -2769,10 +2714,30 @@ Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. 
 werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het
 afgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op:
 
+- **A.** Zij neemt enkel de nieuwe bestuurders op en diegene die in functie zijn
+gebleven.
+- **B.** Zij neemt alle bestuurders op met vermelding van begin- en einddata (dus
+nieuwe benoemde bestuurders en diegene die ontslag genomen hebben,
+alsook diegene die zonder wijziging in functie zijn gebleven)
+- **C.** Zij neemt de bestuurders op die ontslag genomen hebben en diegene die
+in functie zijn gebleven
+
 #### Subvraag b)
 
 Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens
 een langere economische levensduur.
+
+- **A.** Zij kan de afschrijvingsregels die bepaald werden bij de oprichting van de
+vennootschap niet meer wijzigen.
+- **B.** Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De
+vennootschap zal in haar jaarrekening bij de waarderingsregels melding
+maken van de wijziging.
+- **C.** Zij kan de waarderingsregels wijzigen mits een formele beslissing van het
+bestuursorgaan en een bekendmaking aan de fiscus.
+- **D.** Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De
+vennootschap zal in haar jaarrekening bij de waarderingsregels niet enkel
+melding maken van de wijziging met de verantwoording, maar ook van het
+effect op het vermogen en het resultaat.
 
 ---
 
@@ -2814,56 +2779,55 @@ Over te dragen winst 5.000
 jaarverslag, en indien zij geen jaarverslag dient op te stellen in haar jaarrekening in
 het jaar 2012?
 
-#### Modelantwoord
-
-a) JA, de vennootschap moet haar waarderingsregels verantwoorden in haar jaarrekening (toelichting Staat XVIII) als ze geen jaarverslag opstelt. b) Motivering: KB WVV art. 3:6 (consistentie + vastlegging waarderingsregels) en art. 3:90 (vermelding in toelichting). Wijzigingen in waarderingsregels en hun gevolg moeten gemotiveerd worden. De overgang van winst 2011 (+15.000) naar verlies 2012 (-5.000) zonder duidelijke economische verklaring trekt de aandacht op mogelijke waarderingsregel-wijziging die toegelicht moet worden.
-
-> [!success]- Motivering (typed)
-> ### a) Verantwoording in jaarverslag of jaarrekening?
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) JA, de vennootschap moet haar waarderingsregels verantwoorden in haar jaarrekening (toelichting Staat XVIII) als ze geen jaarverslag opstelt. b) Motivering: KB WVV art. 3:6 (consistentie + vastlegging waarderingsregels) en art. 3:90 (vermelding in toelichting). Wijzigingen in waarderingsregels en hun gevolg moeten gemotiveerd worden. De overgang van winst 2011 (+15.000) naar verlies 2012 (-5.000) zonder duidelijke economische verklaring trekt de aandacht op mogelijke waarderingsregel-wijziging die toegelicht moet worden.
 > 
-> Onder Belgisch boekhoudrecht (KB WVV art. 3:6 + art. 3:90):
+> > [!note]- Motivering (typed)
+> > ### a) Verantwoording in jaarverslag of jaarrekening?
+> > 
+> > Onder Belgisch boekhoudrecht (KB WVV art. 3:6 + art. 3:90):
+> > 
+> > - Een vennootschap **moet** haar waarderingsregels **vastleggen** en in de toelichting bij de jaarrekening **vermelden**. ⚖️
+> > - Voor **grote vennootschappen** die een **jaarverslag** moeten opstellen (WVV art. 3:6 voor wettelijke commissaris-controle): waarderingsregels zitten in zowel jaarverslag als jaarrekening (toelichting Staat XVIII voor volledig schema; Staat C 5.5 voor verkort).
+> > - Voor **kleine vennootschappen** die **geen jaarverslag** verplicht moeten opstellen (verkort schema, niet-genoteerd, beneden drempels): de **toelichting bij de jaarrekening** volstaat — sectie waarderingsregels (Staat C 5.5 of vergelijkbaar). ⚖️ ⚖️
+> > 
+> > De BVBA XYZ in deze casus is een **kleine vennootschap** (balanstotaal € 175.000, ver onder drempel; geen vermelding van personeel of omzet die anders suggereert). Geen jaarverslag-plicht — **verantwoording in toelichting bij de jaarrekening volstaat**. ⚖️ ⚖️
+> > 
+> > ### b) Motivering
+> > 
+> > Drie wettelijke fundamenten (KB WVV):
+> > 
+> > 1. **Art. 3:6 — Continuïteit + consistentie van waarderingsregels**: vennootschap legt waarderingsregels vast bij de oprichting en past ze **consistent** toe over de boekjaren heen. Wijziging is alleen gemotiveerd toegelaten (bv. nieuwe wettelijke verplichting, betere getrouw-beeld-overweging). ⚖️
+> > 2. **Art. 3:90 — Vermelding in toelichting**: de waarderingsregels die feitelijk worden gehanteerd, moeten in de toelichting beschreven worden zodat lezers van de jaarrekening de cijfers kunnen interpreteren. ⚖️
+> > 3. **Wijzigings-motivering**: bij wijziging van waarderingsregels (bv. afschrijfduur verlengen, voorraadwaardering FIFO → gewogen gemiddelde, herwaardering): **expliciet vermelden** + **cijfermatig effect** kwantificeren in de toelichting. ⚖️ ⚖️
+> > 
+> > ### Bijzondere context voor XYZ — verlies 2012 versus winst 2011
+> > 
+> > ⚠️ De overgang van winst € 15.000 (2011) naar verlies € 5.000 (2012) is een **20.000-EUR-omslag** op een kleine balans van € 175.000 — significant. Dit triggert audit-aandacht voor:
+> > 
+> > - **Waarderingsregel-wijzigingen** (bv. versnelde afschrijving op MVA toegepast in 2012 → activa van € 100K → € 105K is netto-stijging, dus geen versnelde afschrijving — eerder netto-investeringen) 🤖
+> > - **Voorzieningen-mutaties** of **waardeverminderingen** die in 2012 zwaarder zijn dan in 2011
+> > - **Niet-recurrente verliezen** (rek 66, klasse 67)
+> > - **Cut-off-issues** rond balansdatum (cijferpatronen tussen 2011 en 2012) 🤖
+> > 
+> > 🤖 Conclusie: ja, verantwoording in toelichting verplicht. Bovendien adviseert de accountant in deze casus extra aandacht voor de motivering van het verlies — een lezer (bank, leverancier, fiscus) zal vragen naar de oorzaak. 🤖
+> > 
+> > _Grondslag: KB WVV art. 3:5 (continuïteitsbeginsel), art. 3:6 (consistentie), art. 3:90 (toelichting waarderingsregels); WVV art. 3:11 e.v. (jaarverslag-plicht); CBN-advies 2012/15 (waarderingsregels-toelichting)._
 > 
-> - Een vennootschap **moet** haar waarderingsregels **vastleggen** en in de toelichting bij de jaarrekening **vermelden**. ⚖️
-> - Voor **grote vennootschappen** die een **jaarverslag** moeten opstellen (WVV art. 3:6 voor wettelijke commissaris-controle): waarderingsregels zitten in zowel jaarverslag als jaarrekening (toelichting Staat XVIII voor volledig schema; Staat C 5.5 voor verkort).
-> - Voor **kleine vennootschappen** die **geen jaarverslag** verplicht moeten opstellen (verkort schema, niet-genoteerd, beneden drempels): de **toelichting bij de jaarrekening** volstaat — sectie waarderingsregels (Staat C 5.5 of vergelijkbaar). ⚖️ ⚖️
+> > [!info]- Bronnen (3)
+> > - [[getrouw-beeld-jaarrekening|content/concepten/getrouw-beeld-jaarrekening.md]] · Bouwstenen → ondersteunt: waarderingsregels-vereiste
+> > - [[consistentiebeginsel|content/concepten/consistentiebeginsel.md]] · Bouwstenen → ondersteunt: consistentie KB WVV art. 3:6
+> > - [[jaarrekening|content/concepten/jaarrekening.md]] · Bouwstenen → ondersteunt: toelichting-structuur
 > 
-> De BVBA XYZ in deze casus is een **kleine vennootschap** (balanstotaal € 175.000, ver onder drempel; geen vermelding van personeel of omzet die anders suggereert). Geen jaarverslag-plicht — **verantwoording in toelichting bij de jaarrekening volstaat**. ⚖️ ⚖️
-> 
-> ### b) Motivering
-> 
-> Drie wettelijke fundamenten (KB WVV):
-> 
-> 1. **Art. 3:6 — Continuïteit + consistentie van waarderingsregels**: vennootschap legt waarderingsregels vast bij de oprichting en past ze **consistent** toe over de boekjaren heen. Wijziging is alleen gemotiveerd toegelaten (bv. nieuwe wettelijke verplichting, betere getrouw-beeld-overweging). ⚖️
-> 2. **Art. 3:90 — Vermelding in toelichting**: de waarderingsregels die feitelijk worden gehanteerd, moeten in de toelichting beschreven worden zodat lezers van de jaarrekening de cijfers kunnen interpreteren. ⚖️
-> 3. **Wijzigings-motivering**: bij wijziging van waarderingsregels (bv. afschrijfduur verlengen, voorraadwaardering FIFO → gewogen gemiddelde, herwaardering): **expliciet vermelden** + **cijfermatig effect** kwantificeren in de toelichting. ⚖️ ⚖️
-> 
-> ### Bijzondere context voor XYZ — verlies 2012 versus winst 2011
-> 
-> ⚠️ De overgang van winst € 15.000 (2011) naar verlies € 5.000 (2012) is een **20.000-EUR-omslag** op een kleine balans van € 175.000 — significant. Dit triggert audit-aandacht voor:
-> 
-> - **Waarderingsregel-wijzigingen** (bv. versnelde afschrijving op MVA toegepast in 2012 → activa van € 100K → € 105K is netto-stijging, dus geen versnelde afschrijving — eerder netto-investeringen) 🤖
-> - **Voorzieningen-mutaties** of **waardeverminderingen** die in 2012 zwaarder zijn dan in 2011
-> - **Niet-recurrente verliezen** (rek 66, klasse 67)
-> - **Cut-off-issues** rond balansdatum (cijferpatronen tussen 2011 en 2012) 🤖
-> 
-> 🤖 Conclusie: ja, verantwoording in toelichting verplicht. Bovendien adviseert de accountant in deze casus extra aandacht voor de motivering van het verlies — een lezer (bank, leverancier, fiscus) zal vragen naar de oorzaak. 🤖
-> 
-> _Grondslag: KB WVV art. 3:5 (continuïteitsbeginsel), art. 3:6 (consistentie), art. 3:90 (toelichting waarderingsregels); WVV art. 3:11 e.v. (jaarverslag-plicht); CBN-advies 2012/15 (waarderingsregels-toelichting)._
-
-> [!info]- Bronnen (3)
-> - [[getrouw-beeld-jaarrekening|content/concepten/getrouw-beeld-jaarrekening.md]] · Bouwstenen → ondersteunt: waarderingsregels-vereiste
-> - [[consistentiebeginsel|content/concepten/consistentiebeginsel.md]] · Bouwstenen → ondersteunt: consistentie KB WVV art. 3:6
-> - [[jaarrekening|content/concepten/jaarrekening.md]] · Bouwstenen → ondersteunt: toelichting-structuur
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Eerdere gap-flag voor "ontbrekende_bijlage" was onjuist: de balans- en RR-tabel staat volledig in de vraagtekst (vraagtekst_blokken[]). Vraag is kwalificatie (waarderingsregels-verantwoording), geen ratio-berekening.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Eerdere gap-flag voor "ontbrekende_bijlage" was onjuist: de balans- en RR-tabel staat volledig in de vraagtekst (vraagtekst_blokken[]). Vraag is kwalificatie (waarderingsregels-verantwoording), geen ratio-berekening.
 
 #### Subvraag a)
 
@@ -2900,100 +2864,99 @@ euro;
 3. Er geen andere exploitatiesubsidies werden ontvangen;
 4. De te bestemmen winst van het boekjaar integraal gereserveerd werd.
 
-#### Modelantwoord
-
-🤖 Met fictieve bijlage: a) NBK = € 1.150.000. b) Brutoverkoopmarge = 32,31 %. c) Personeel/TV = 68,45 %. Methodiek + formules correct; echte ITAA-cijfers zullen anders zijn.
-
-> [!success]- Motivering (typed)
-> ### 🤖 ARTIFICIËLE BIJLAGE — Fictief, illustratief 🤖
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 🤖 Met fictieve bijlage: a) NBK = € 1.150.000. b) Brutoverkoopmarge = 32,31 %. c) Personeel/TV = 68,45 %. Methodiek + formules correct; echte ITAA-cijfers zullen anders zijn.
 > 
-> ⚠️ **Belangrijk**: de echte ITAA-bijlage met balans + RR werd niet aangereikt. Onderstaande cijfers zijn **fictief** en gekozen om de redenering volledig te demonstreren. De **soort vraag** (NBK, brutoverkoopmarge, personeel/TV) wordt opgelost; de exacte cijfers komen niet overeen met het werkelijke examen-document.
+> > [!note]- Motivering (typed)
+> > ### 🤖 ARTIFICIËLE BIJLAGE — Fictief, illustratief 🤖
+> > 
+> > ⚠️ **Belangrijk**: de echte ITAA-bijlage met balans + RR werd niet aangereikt. Onderstaande cijfers zijn **fictief** en gekozen om de redenering volledig te demonstreren. De **soort vraag** (NBK, brutoverkoopmarge, personeel/TV) wordt opgelost; de exacte cijfers komen niet overeen met het werkelijke examen-document.
+> > 
+> > #### Fictieve Balans na winstverdeling — boekjaar#### Fictieve Resultatenrekening — boekjaar### Berekening van de ratio's
+> > 
+> > #### a) Netto bedrijfskapitaal
+> > 
+> > ```
+> > NBK = vlottende activa − schulden ≤ 1 jaar
+> >     = (voorraden 920.000 + vorderingen 730.000 + geldbeleggingen 180.000 + liquide middelen 70.000)
+> >       − (schulden 80.000 + 550.000 + 120.000 + 0)
+> >     = 1.900.000 − 750.000
+> >     = € 1.150.000
+> > ```
+> > 
+> > 🤖 **NBK = € 1.150.000** (op basis van fictieve bijlage). 🤖
+> > 
+> > #### b) Brutoverkoopmarge (%)
+> > 
+> > ```
+> > brutoverkoopmarge = (omzet − aankopen − diensten en diverse) × 100 / omzet
+> >                   = (5.200.000 − 2.800.000 − 720.000) × 100 / 5.200.000
+> >                   = 1.680.000 × 100 / 5.200.000
+> >                   = 32,31 %
+> > ```
+> > 
+> > 🤖 **Brutoverkoopmarge = 32,31 %**. 🤖
+> > 
+> > #### c) Personeelskosten / Toegevoegde waarde (%)
+> > 
+> > ```
+> > toegevoegde waarde = omzet − aankopen − diensten en diverse
+> >                    = 5.200.000 − 2.800.000 − 720.000
+> >                    = € 1.680.000
+> > 
+> > personeelskosten / TV = (1.150.000 × 100) / 1.680.000
+> >                       = 68,45 %
+> > ```
+> > 
+> > 🤖 **Personeelskosten / TV = 68,45 %**. 🤖
+> > 
+> > ### Vuistregel-interpretatie
+> > 
+> > - **NBK** € 1.150.000 = sterk positief → vlottende activa dekken kort-termijn-schulden ruim → gezonde liquiditeit.
+> > - **Brutoverkoopmarge** 32,31 % = redelijke groothandelsmarge; varieert per sector (kleinhandel typisch 35-50 %, distributie 15-25 %).
+> > - **Personeel / TV** 68,45 % = relatief hoog (Belgische industrie-gemiddelde ~55-60 %); arbeidsintensieve activiteit, weinig automatisering of dienstverlening.
+> > 
+> > _Grondslag voor formules: [[werkkapitaal]] §Berekening; [[contributiemarge]] §Bouwstenen; [[rentabiliteit-totaal-activa-roa]]; doctrine Cijferzakboekje._
+> > 
+> > ⚠️ **🤖 ANTWOORDEN ZIJN GEBASEERD OP FICTIEVE CIJFERS** — Cijfermatige resultaten van het echte ITAA-examen zullen anders zijn. De **methodiek en formules** zijn correct toepasbaar. 🤖
+> > 
+> > | Code | Actief | Bedrag (€) | Code | Passief | Bedrag (€) |
+> > |---|---|---|---|---|---|
+> > | 22-27 | Materiële vaste activa | 1.800.000 | 10/15 | Eigen vermogen | 2.400.000 |
+> > | 28 | Financiële vaste activa | 50.000 | 17 | Schulden > 1 jaar | 600.000 |
+> > | 30/36 | Voorraden | 920.000 | 42 | Schulden > 1 jr binnen jaar vervallend | 80.000 |
+> > | 40/41 | Vorderingen ≤ 1 jaar | 730.000 | 44 | Handelsschulden | 550.000 |
+> > | 50/53 | Geldbeleggingen | 180.000 | 45 | Fiscale/sociale schulden | 120.000 |
+> > | 54/58 | Liquide middelen | 70.000 | 48 | Overige schulden ≤ 1 jaar | 0 |
+> > | 492/3 | Overlopende rekeningen actief | 0 | 492/3 | Overlopende rekeningen passief | 0 |
+> > |  | **Totaal** | **3.750.000** |  | **Totaal** | **3.750.000** |
+> > 
+> > | Code | Post | Bedrag (€) |
+> > |---|---|---|
+> > | 70 | Omzet | 5.200.000 |
+> > | 74 | Andere bedrijfsopbrengsten (incl. kapitaalsubsidies 56.498) | 80.000 |
+> > | 60 | Aankopen handelsgoederen, grond- en hulpstoffen | 2.800.000 |
+> > | 61 | Diensten en diverse goederen | 720.000 |
+> > | 62 | Bezoldigingen, sociale lasten + pensioenen | 1.150.000 |
+> > | 630 | Afschrijvingen MVA | 320.000 |
+> > | 64-65 | Niet-recurrente + financiële kosten | 60.000 |
+> > | 67-77 | Belastingen op resultaat | 70.000 |
+> > |  | **Nettoresultaat (gereserveerd)** | **160.000** |
 > 
-> #### Fictieve Balans na winstverdeling — boekjaar#### Fictieve Resultatenrekening — boekjaar### Berekening van de ratio's
+> > [!info]- Bronnen (3)
+> > - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Berekening → ondersteunt: NBK-formule
+> > - [[contributiemarge|content/concepten/contributiemarge.md]] · Bouwstenen → ondersteunt: brutomarge
+> > - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: TV-componenten
 > 
-> #### a) Netto bedrijfskapitaal
-> 
-> ```
-> NBK = vlottende activa − schulden ≤ 1 jaar
->     = (voorraden 920.000 + vorderingen 730.000 + geldbeleggingen 180.000 + liquide middelen 70.000)
->       − (schulden 80.000 + 550.000 + 120.000 + 0)
->     = 1.900.000 − 750.000
->     = € 1.150.000
-> ```
-> 
-> 🤖 **NBK = € 1.150.000** (op basis van fictieve bijlage). 🤖
-> 
-> #### b) Brutoverkoopmarge (%)
-> 
-> ```
-> brutoverkoopmarge = (omzet − aankopen − diensten en diverse) × 100 / omzet
->                   = (5.200.000 − 2.800.000 − 720.000) × 100 / 5.200.000
->                   = 1.680.000 × 100 / 5.200.000
->                   = 32,31 %
-> ```
-> 
-> 🤖 **Brutoverkoopmarge = 32,31 %**. 🤖
-> 
-> #### c) Personeelskosten / Toegevoegde waarde (%)
-> 
-> ```
-> toegevoegde waarde = omzet − aankopen − diensten en diverse
->                    = 5.200.000 − 2.800.000 − 720.000
->                    = € 1.680.000
-> 
-> personeelskosten / TV = (1.150.000 × 100) / 1.680.000
->                       = 68,45 %
-> ```
-> 
-> 🤖 **Personeelskosten / TV = 68,45 %**. 🤖
-> 
-> ### Vuistregel-interpretatie
-> 
-> - **NBK** € 1.150.000 = sterk positief → vlottende activa dekken kort-termijn-schulden ruim → gezonde liquiditeit.
-> - **Brutoverkoopmarge** 32,31 % = redelijke groothandelsmarge; varieert per sector (kleinhandel typisch 35-50 %, distributie 15-25 %).
-> - **Personeel / TV** 68,45 % = relatief hoog (Belgische industrie-gemiddelde ~55-60 %); arbeidsintensieve activiteit, weinig automatisering of dienstverlening.
-> 
-> _Grondslag voor formules: [[werkkapitaal]] §Berekening; [[contributiemarge]] §Bouwstenen; [[rentabiliteit-totaal-activa-roa]]; doctrine Cijferzakboekje._
-> 
-> ⚠️ **🤖 ANTWOORDEN ZIJN GEBASEERD OP FICTIEVE CIJFERS** — Cijfermatige resultaten van het echte ITAA-examen zullen anders zijn. De **methodiek en formules** zijn correct toepasbaar. 🤖
-> 
-> | Code | Actief | Bedrag (€) | Code | Passief | Bedrag (€) |
-> |---|---|---|---|---|---|
-> | 22-27 | Materiële vaste activa | 1.800.000 | 10/15 | Eigen vermogen | 2.400.000 |
-> | 28 | Financiële vaste activa | 50.000 | 17 | Schulden > 1 jaar | 600.000 |
-> | 30/36 | Voorraden | 920.000 | 42 | Schulden > 1 jr binnen jaar vervallend | 80.000 |
-> | 40/41 | Vorderingen ≤ 1 jaar | 730.000 | 44 | Handelsschulden | 550.000 |
-> | 50/53 | Geldbeleggingen | 180.000 | 45 | Fiscale/sociale schulden | 120.000 |
-> | 54/58 | Liquide middelen | 70.000 | 48 | Overige schulden ≤ 1 jaar | 0 |
-> | 492/3 | Overlopende rekeningen actief | 0 | 492/3 | Overlopende rekeningen passief | 0 |
-> |  | **Totaal** | **3.750.000** |  | **Totaal** | **3.750.000** |
-> 
-> | Code | Post | Bedrag (€) |
-> |---|---|---|
-> | 70 | Omzet | 5.200.000 |
-> | 74 | Andere bedrijfsopbrengsten (incl. kapitaalsubsidies 56.498) | 80.000 |
-> | 60 | Aankopen handelsgoederen, grond- en hulpstoffen | 2.800.000 |
-> | 61 | Diensten en diverse goederen | 720.000 |
-> | 62 | Bezoldigingen, sociale lasten + pensioenen | 1.150.000 |
-> | 630 | Afschrijvingen MVA | 320.000 |
-> | 64-65 | Niet-recurrente + financiële kosten | 60.000 |
-> | 67-77 | Belastingen op resultaat | 70.000 |
-> |  | **Nettoresultaat (gereserveerd)** | **160.000** |
-
-> [!info]- Bronnen (3)
-> - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Berekening → ondersteunt: NBK-formule
-> - [[contributiemarge|content/concepten/contributiemarge.md]] · Bouwstenen → ondersteunt: brutomarge
-> - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: TV-componenten
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: 🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de "soort vraag" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: 🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de "soort vraag" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn.
 
 > [!warning] Gap niveau **extern** — type **artificial_data_used** · sub-type **fictieve_bijlage**
 > 🤖 Modelantwoord opgelost met ARTIFICIËLE BIJLAGE (fictieve coherent gekozen cijfers). De redenering, formules en methodologie zijn volledig correct toepasbaar op de echte ITAA-bijlage; de cijfermatige resultaten zullen verschillen. Markering 🤖 in motivering. Resolved-with-artificial-data.
@@ -3026,76 +2989,75 @@ _Ook geklassificeerd onder_: 1.9
 
 Omschrijf de volgende begrippen :
 
-#### Modelantwoord
-
-a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige waarde per aandeel). b) Fractiewaarde = kapitaal/aantal aandelen (sinds WVV 2019, vervangt nominale waarde). c) Netto-ROA = (nettoresultaat + financiële kosten van schulden) / totaal activa. d) Algemene schuldgraad = totaal schulden / balanstotaal (complement van solvabiliteit). e) Operationele cash flow voor belastingen = EBIT + niet-kas-bestanddelen (afschrijvingen, waardeverminderingen, voorzieningen-mutaties).
-
-> [!success]- Motivering (typed)
-> **a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige **
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige waarde per aandeel). b) Fractiewaarde = kapitaal/aantal aandelen (sinds WVV 2019, vervangt nominale waarde). c) Netto-ROA = (nettoresultaat + financiële kosten van schulden) / totaal activa. d) Algemene schuldgraad = totaal schulden / balanstotaal (complement van solvabiliteit). e) Operationele cash flow voor belastingen = EBIT + niet-kas-bestanddelen (afschrijvingen, waardeverminderingen, voorzieningen-mutaties).
 > 
-> De vijf gevraagde begrippen, met formule + interpretatie:
+> > [!note]- Motivering (typed)
+> > **a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige **
+> > 
+> > De vijf gevraagde begrippen, met formule + interpretatie:
+> > 
+> > ### a) Intrinsieke waarde (per aandeel)
+> > 
+> > **Formule**
+> > 
+> > intrinsieke waarde = eigen vermogen / aantal uitgegeven aandelen
+> > 
+> > De boekhoudkundige waarde van één aandeel — de "boekwaarde per aandeel". Toont wat een aandeelhouder theoretisch zou ontvangen bij liquidatie tegen boekwaarde (na schulden afbetalen). 🤖 🤖
+> > 
+> > ⚠️ Verschilt van **marktwaarde** (beurskoers of overnameprijs): die houdt rekening met verwachte toekomstige winsten, marktomstandigheden, synergiën. Intrinsieke = boekhoudkundig, momentopname.
+> > 
+> > ### b) Fractiewaarde (per aandeel)
+> > 
+> > **Formule**
+> > 
+> > fractiewaarde = (geplaatst) kapitaal / aantal aandelen
+> > 
+> > Wat één aandeel theoretisch in het kapitaal vertegenwoordigt — sinds WVV (2019) heet dit "fractiewaarde" in plaats van "nominale waarde" (de oude term). ⚖️ Onder WVV hebben aandelen géén nominale waarde meer; alleen fractiewaarde wordt gebruikt voor referentiedoeleinden (uitgiftepremie-berekening, inbreng in natura-toetsing, etc.). ⚖️
+> > 
+> > ### c) Netto rendabiliteit van de bedrijfsactiva (netto-ROA)
+> > 
+> > **Formule**: netto-ROA = (nettoresultaat ná belasting + financiële kosten van schulden) / totaal activa
+> > 
+> > Meet de economische rentabiliteit van het totaal van bezittingen, **onafhankelijk van financieringsstructuur**. ⚖️ De financiële kosten van schulden worden teruggebracht in de teller omdat het rendement van de bedrijfsactiva niet vertekend mag worden door financiering (eigen vs vreemd vermogen). ⚖️
+> > 
+> > Variant: bruto-ROA = bedrijfsresultaat (EBIT) / totaal activa — vóór belastingen en financiële kosten.
+> > 
+> > _Grondslag: [[rentabiliteit-totaal-activa-roa]] §Bouwstenen_
+> > 
+> > ### d) Algemene schuldgraad
+> > 
+> > **Formule**: algemene schuldgraad = totaal schulden (lange + korte termijn) / totaal passiva (= balanstotaal)
+> > 
+> > Uitgedrukt als percentage. Aanduiding van de financiële afhankelijkheid van derden — het complement van de solvabiliteitsratio: schuldgraad + solvabiliteit = 100 %. ⚖️ Hogere schuldgraad → grotere afhankelijkheid van schuldeisers → minder buffer voor verliezen. ⚖️
+> > 
+> > _Grondslag: [[solvabiliteitsratio]] §Bouwstenen + [[debt-equity-ratio]]_
+> > 
+> > ### e) Operationele cash flow voor belastingen
+> > 
+> > **Formule**: operationele cash flow vóór belastingen = bedrijfsresultaat (EBIT) + afschrijvingen + waardeverminderingen + toevoegingen aan voorzieningen − bestedingen van voorzieningen
+> > 
+> > De "klassieke cashflow" of "boekhoudkundige cashflow vóór belastingen" — het bedrijfsresultaat gecorrigeerd voor **niet-kas-bestanddelen** (klasse 63 in RR). ⚖️ Geeft een ruwe indicator van de operationele kasgenereringscapaciteit, voor de impact van belastingen. Het is een vertaling van het boekhoudkundig resultaat naar een cashflow-benadering — niet de echte "cash flow from operations" uit IFRS (die ook werkkapitaalmutaties bevat). ⚖️
+> > 
+> > _Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen_
+> > 
+> > _Grondslag: WVV art. 5:7 + CBN 2021/01 §Uitgiftepremie._
 > 
-> ### a) Intrinsieke waarde (per aandeel)
+> > [!info]- Bronnen (5)
+> > - [[uitgiftepremie|content/concepten/uitgiftepremie.md]] · Definitie → ondersteunt: b) fractiewaarde sinds WVV
+> > - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: c) ROA-formule
+> > - [[solvabiliteitsratio|content/concepten/solvabiliteitsratio.md]] · Bouwstenen → ondersteunt: d) schuldgraad = 1 - solvabiliteit
+> > - [[bedrijfsresultaat|content/concepten/bedrijfsresultaat.md]] · Bouwstenen — niet-kas-rubrieken klasse 63 → ondersteunt: e) operationele cashflow
+> > - [[cashflow-analyse|content/concepten/cashflow-analyse.md]] · Bouwstenen → ondersteunt: e) cashflow-formule
 > 
-> **Formule**
-> 
-> intrinsieke waarde = eigen vermogen / aantal uitgegeven aandelen
-> 
-> De boekhoudkundige waarde van één aandeel — de "boekwaarde per aandeel". Toont wat een aandeelhouder theoretisch zou ontvangen bij liquidatie tegen boekwaarde (na schulden afbetalen). 🤖 🤖
-> 
-> ⚠️ Verschilt van **marktwaarde** (beurskoers of overnameprijs): die houdt rekening met verwachte toekomstige winsten, marktomstandigheden, synergiën. Intrinsieke = boekhoudkundig, momentopname.
-> 
-> ### b) Fractiewaarde (per aandeel)
-> 
-> **Formule**
-> 
-> fractiewaarde = (geplaatst) kapitaal / aantal aandelen
-> 
-> Wat één aandeel theoretisch in het kapitaal vertegenwoordigt — sinds WVV (2019) heet dit "fractiewaarde" in plaats van "nominale waarde" (de oude term). ⚖️ Onder WVV hebben aandelen géén nominale waarde meer; alleen fractiewaarde wordt gebruikt voor referentiedoeleinden (uitgiftepremie-berekening, inbreng in natura-toetsing, etc.). ⚖️
-> 
-> ### c) Netto rendabiliteit van de bedrijfsactiva (netto-ROA)
-> 
-> **Formule**: netto-ROA = (nettoresultaat ná belasting + financiële kosten van schulden) / totaal activa
-> 
-> Meet de economische rentabiliteit van het totaal van bezittingen, **onafhankelijk van financieringsstructuur**. ⚖️ De financiële kosten van schulden worden teruggebracht in de teller omdat het rendement van de bedrijfsactiva niet vertekend mag worden door financiering (eigen vs vreemd vermogen). ⚖️
-> 
-> Variant: bruto-ROA = bedrijfsresultaat (EBIT) / totaal activa — vóór belastingen en financiële kosten.
-> 
-> _Grondslag: [[rentabiliteit-totaal-activa-roa]] §Bouwstenen_
-> 
-> ### d) Algemene schuldgraad
-> 
-> **Formule**: algemene schuldgraad = totaal schulden (lange + korte termijn) / totaal passiva (= balanstotaal)
-> 
-> Uitgedrukt als percentage. Aanduiding van de financiële afhankelijkheid van derden — het complement van de solvabiliteitsratio: schuldgraad + solvabiliteit = 100 %. ⚖️ Hogere schuldgraad → grotere afhankelijkheid van schuldeisers → minder buffer voor verliezen. ⚖️
-> 
-> _Grondslag: [[solvabiliteitsratio]] §Bouwstenen + [[debt-equity-ratio]]_
-> 
-> ### e) Operationele cash flow voor belastingen
-> 
-> **Formule**: operationele cash flow vóór belastingen = bedrijfsresultaat (EBIT) + afschrijvingen + waardeverminderingen + toevoegingen aan voorzieningen − bestedingen van voorzieningen
-> 
-> De "klassieke cashflow" of "boekhoudkundige cashflow vóór belastingen" — het bedrijfsresultaat gecorrigeerd voor **niet-kas-bestanddelen** (klasse 63 in RR). ⚖️ Geeft een ruwe indicator van de operationele kasgenereringscapaciteit, voor de impact van belastingen. Het is een vertaling van het boekhoudkundig resultaat naar een cashflow-benadering — niet de echte "cash flow from operations" uit IFRS (die ook werkkapitaalmutaties bevat). ⚖️
-> 
-> _Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen_
-> 
-> _Grondslag: WVV art. 5:7 + CBN 2021/01 §Uitgiftepremie._
-
-> [!info]- Bronnen (5)
-> - [[uitgiftepremie|content/concepten/uitgiftepremie.md]] · Definitie → ondersteunt: b) fractiewaarde sinds WVV
-> - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: c) ROA-formule
-> - [[solvabiliteitsratio|content/concepten/solvabiliteitsratio.md]] · Bouwstenen → ondersteunt: d) schuldgraad = 1 - solvabiliteit
-> - [[bedrijfsresultaat|content/concepten/bedrijfsresultaat.md]] · Bouwstenen — niet-kas-rubrieken klasse 63 → ondersteunt: e) operationele cashflow
-> - [[cashflow-analyse|content/concepten/cashflow-analyse.md]] · Bouwstenen → ondersteunt: e) cashflow-formule
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -3142,105 +3104,104 @@ vorderingen geboekt;
 5) Er werden geen belastingen geboekt op het resultaat van vorige boekjaren;
 6) De te bestemmen winst van het boekjaar integraal gereserveerd werd.
 
-#### Modelantwoord
-
-🤖 Met fictieve bijlage: a) Brutoverkoopmarge = 29,83 %. b) Bruto-ROA voor belasting+financiële kosten = 5,09 %. c) Current ratio = 1,80. Formules canoniek; echte cijfers ITAA-bijlage zullen anders zijn.
-
-> [!success]- Motivering (typed)
-> ### 🤖 ARTIFICIËLE BIJLAGE — Fictief, illustratief 🤖
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 🤖 Met fictieve bijlage: a) Brutoverkoopmarge = 29,83 %. b) Bruto-ROA voor belasting+financiële kosten = 5,09 %. c) Current ratio = 1,80. Formules canoniek; echte cijfers ITAA-bijlage zullen anders zijn.
 > 
-> ⚠️ Echte ITAA-bijlage niet aangereikt. Onderstaande cijfers zijn **fictief** maar coherent gekozen om alle drie de ratio's te demonstreren.
+> > [!note]- Motivering (typed)
+> > ### 🤖 ARTIFICIËLE BIJLAGE — Fictief, illustratief 🤖
+> > 
+> > ⚠️ Echte ITAA-bijlage niet aangereikt. Onderstaande cijfers zijn **fictief** maar coherent gekozen om alle drie de ratio's te demonstreren.
+> > 
+> > #### Fictieve Balans na winstverdeling — boekjaar#### Fictieve Resultatenrekening — boekjaar### Berekening van de ratio's
+> > 
+> > #### a) Brutoverkoopmarge (%)
+> > 
+> > ```
+> > brutoverkoopmarge = (omzet − aankopen − diensten en diverse) × 100 / omzet
+> >                   = (5.800.000 − 3.250.000 − 820.000) × 100 / 5.800.000
+> >                   = 1.730.000 × 100 / 5.800.000
+> >                   = 29,83 %
+> > ```
+> > 
+> > 🤖 **Brutoverkoopmarge = 29,83 %** 🤖
+> > 
+> > #### b) Nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%)
+> > 
+> > **Formule** ([[rentabiliteit-totaal-activa-roa]] §Brutorentabiliteit): bruto-ROA = (bedrijfsresultaat + andere bedrijfsopbrengsten) × 100 / totaal activa.
+> > 
+> > Of equivalent: EBIT × 100 / balanstotaal.
+> > 
+> > Bedrijfsresultaat = TV − bezoldigingen − afschrijvingen − niet-recurrente bedrijfskosten
+> >                   = 1.730.000 + 45.000 (andere bedrijfsopbrengsten incl. subsidie) − 1.230.000 − 340.000
+> >                   = € 205.000
+> > 
+> > Of: nettoresultaat (95.000) + belastingen (35.000) + financiële kosten van schulden (deel van 75.000, schatten 40.000) ≈ 170.000-205.000 afhankelijk van precisering.
+> > 
+> > ```
+> > rentabiliteit voor belasting + financiële kosten = 205.000 × 100 / 4.030.000
+> >                                                   = 5,09 %
+> > ```
+> > 
+> > 🤖 **Bruto-ROA = 5,09 %**. 🤖
+> > 
+> > #### c) Liquiditeit in ruime zin (current ratio)
+> > 
+> > ```
+> > current ratio = vlottende activa / schulden ≤ 1 jaar
+> >              = (850.000 + 680.000 + 220.000 + 95.000 + 5.000) / (90.000 + 510.000 + 140.000 + 60.000 + 230.000)
+> >              = 1.850.000 / 1.030.000
+> >              = 1,80
+> > ```
+> > 
+> > 🤖 **Current ratio = 1,80** — gezond (> 1, vuistregel ~2 voor klassieke sectoren). 🤖
+> > 
+> > ### Vuistregel-interpretatie
+> > 
+> > - **Brutoverkoopmarge** 29,83 % = redelijke groothandelsmarge
+> > - **Bruto-ROA** 5,09 % = relatief laag; klassieke benchmark > 6-8 % voor productie-onderneming
+> > - **Liquiditeit** 1,80 = ruim voldoende kortlopende dekking
+> > 
+> > _Grondslag formules: [[contributiemarge]]; [[rentabiliteit-totaal-activa-roa]]; [[liquiditeitsratio]]._
+> > 
+> > ⚠️ **🤖 ANTWOORDEN OP FICTIEVE CIJFERS** — Methode + formules correct toepasbaar op echte ITAA-bijlage; cijfers anders. 🤖
+> > 
+> > | Code | Actief | Bedrag (€) | Code | Passief | Bedrag (€) |
+> > |---|---|---|---|---|---|
+> > | 22-27 | Materiële vaste activa | 2.100.000 | 10/15 | Eigen vermogen | 2.250.000 |
+> > | 28 | Financiële vaste activa | 80.000 | 17 | Schulden > 1 jaar | 750.000 |
+> > | 30/36 | Voorraden | 850.000 | 42 | Schulden > 1 jr binnen jaar | 90.000 |
+> > | 40/41 | Vorderingen ≤ 1 jaar | 680.000 | 44 | Handelsschulden | 510.000 |
+> > | 50/53 | Geldbeleggingen | 220.000 | 45 | Fiscale/sociale schulden | 140.000 |
+> > | 54/58 | Liquide middelen | 95.000 | 48 | Overige schulden ≤ 1 jaar | 60.000 |
+> > | 492/3 | Overlopende rekeningen actief | 5.000 | 492/3 | Overlopende rekeningen passief | 230.000 |
+> > |  | **Totaal** | **4.030.000** |  | **Totaal** | **4.030.000** |
+> > 
+> > | Code | Post | Bedrag (€) |
+> > |---|---|---|
+> > | 70 | Omzet | 5.800.000 |
+> > | 74 | Andere bedrijfsopbrengsten (incl. 415 expl. subs.) | 45.000 |
+> > | 60 | Aankopen | 3.250.000 |
+> > | 61 | Diensten en diverse | 820.000 |
+> > | 62 | Bezoldigingen + sociale lasten | 1.230.000 |
+> > | 630 | Afschrijvingen MVA | 340.000 |
+> > | 64-65 | Niet-recurrente + financiële kosten | 75.000 |
+> > | 67 | Belastingen op resultaat | 35.000 |
+> > |  | **Nettoresultaat (gereserveerd)** | **95.000** |
 > 
-> #### Fictieve Balans na winstverdeling — boekjaar#### Fictieve Resultatenrekening — boekjaar### Berekening van de ratio's
+> > [!info]- Bronnen (3)
+> > - [[contributiemarge|content/concepten/contributiemarge.md]] · Bouwstenen → ondersteunt: brutomarge-formule
+> > - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: bruto-ROA
+> > - [[liquiditeitsratio|content/concepten/liquiditeitsratio.md]] · Berekening → ondersteunt: current ratio
 > 
-> #### a) Brutoverkoopmarge (%)
-> 
-> ```
-> brutoverkoopmarge = (omzet − aankopen − diensten en diverse) × 100 / omzet
->                   = (5.800.000 − 3.250.000 − 820.000) × 100 / 5.800.000
->                   = 1.730.000 × 100 / 5.800.000
->                   = 29,83 %
-> ```
-> 
-> 🤖 **Brutoverkoopmarge = 29,83 %** 🤖
-> 
-> #### b) Nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%)
-> 
-> **Formule** ([[rentabiliteit-totaal-activa-roa]] §Brutorentabiliteit): bruto-ROA = (bedrijfsresultaat + andere bedrijfsopbrengsten) × 100 / totaal activa.
-> 
-> Of equivalent: EBIT × 100 / balanstotaal.
-> 
-> Bedrijfsresultaat = TV − bezoldigingen − afschrijvingen − niet-recurrente bedrijfskosten
->                   = 1.730.000 + 45.000 (andere bedrijfsopbrengsten incl. subsidie) − 1.230.000 − 340.000
->                   = € 205.000
-> 
-> Of: nettoresultaat (95.000) + belastingen (35.000) + financiële kosten van schulden (deel van 75.000, schatten 40.000) ≈ 170.000-205.000 afhankelijk van precisering.
-> 
-> ```
-> rentabiliteit voor belasting + financiële kosten = 205.000 × 100 / 4.030.000
->                                                   = 5,09 %
-> ```
-> 
-> 🤖 **Bruto-ROA = 5,09 %**. 🤖
-> 
-> #### c) Liquiditeit in ruime zin (current ratio)
-> 
-> ```
-> current ratio = vlottende activa / schulden ≤ 1 jaar
->              = (850.000 + 680.000 + 220.000 + 95.000 + 5.000) / (90.000 + 510.000 + 140.000 + 60.000 + 230.000)
->              = 1.850.000 / 1.030.000
->              = 1,80
-> ```
-> 
-> 🤖 **Current ratio = 1,80** — gezond (> 1, vuistregel ~2 voor klassieke sectoren). 🤖
-> 
-> ### Vuistregel-interpretatie
-> 
-> - **Brutoverkoopmarge** 29,83 % = redelijke groothandelsmarge
-> - **Bruto-ROA** 5,09 % = relatief laag; klassieke benchmark > 6-8 % voor productie-onderneming
-> - **Liquiditeit** 1,80 = ruim voldoende kortlopende dekking
-> 
-> _Grondslag formules: [[contributiemarge]]; [[rentabiliteit-totaal-activa-roa]]; [[liquiditeitsratio]]._
-> 
-> ⚠️ **🤖 ANTWOORDEN OP FICTIEVE CIJFERS** — Methode + formules correct toepasbaar op echte ITAA-bijlage; cijfers anders. 🤖
-> 
-> | Code | Actief | Bedrag (€) | Code | Passief | Bedrag (€) |
-> |---|---|---|---|---|---|
-> | 22-27 | Materiële vaste activa | 2.100.000 | 10/15 | Eigen vermogen | 2.250.000 |
-> | 28 | Financiële vaste activa | 80.000 | 17 | Schulden > 1 jaar | 750.000 |
-> | 30/36 | Voorraden | 850.000 | 42 | Schulden > 1 jr binnen jaar | 90.000 |
-> | 40/41 | Vorderingen ≤ 1 jaar | 680.000 | 44 | Handelsschulden | 510.000 |
-> | 50/53 | Geldbeleggingen | 220.000 | 45 | Fiscale/sociale schulden | 140.000 |
-> | 54/58 | Liquide middelen | 95.000 | 48 | Overige schulden ≤ 1 jaar | 60.000 |
-> | 492/3 | Overlopende rekeningen actief | 5.000 | 492/3 | Overlopende rekeningen passief | 230.000 |
-> |  | **Totaal** | **4.030.000** |  | **Totaal** | **4.030.000** |
-> 
-> | Code | Post | Bedrag (€) |
-> |---|---|---|
-> | 70 | Omzet | 5.800.000 |
-> | 74 | Andere bedrijfsopbrengsten (incl. 415 expl. subs.) | 45.000 |
-> | 60 | Aankopen | 3.250.000 |
-> | 61 | Diensten en diverse | 820.000 |
-> | 62 | Bezoldigingen + sociale lasten | 1.230.000 |
-> | 630 | Afschrijvingen MVA | 340.000 |
-> | 64-65 | Niet-recurrente + financiële kosten | 75.000 |
-> | 67 | Belastingen op resultaat | 35.000 |
-> |  | **Nettoresultaat (gereserveerd)** | **95.000** |
-
-> [!info]- Bronnen (3)
-> - [[contributiemarge|content/concepten/contributiemarge.md]] · Bouwstenen → ondersteunt: brutomarge-formule
-> - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: bruto-ROA
-> - [[liquiditeitsratio|content/concepten/liquiditeitsratio.md]] · Berekening → ondersteunt: current ratio
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: 🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de "soort vraag" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: 🤖 Antwoord met ARTIFICIËLE BIJLAGE (fictieve cijfers) — de echte ITAA-bijlage was niet beschikbaar. Cijfers gekozen om de "soort vraag" + redenering volledig te demonstreren. Gemarkeerd om duidelijk te maken dat dit GEEN ITAA-officiële cijfers zijn.
 
 > [!warning] Gap niveau **extern** — type **artificial_data_used** · sub-type **fictieve_bijlage**
 > 🤖 Modelantwoord opgelost met ARTIFICIËLE BIJLAGE. Soort vraag = ratio-berekening uit balans + RR. Methode correct; cijfers fictief.
@@ -3277,36 +3238,35 @@ bedrijfskapitaal kan verhogen.
 
 **Geef drie voorbeelden.**
 
-#### Modelantwoord
-
-(1) Lange-termijn financiering aantrekken om kortlopende schulden te herfinancieren; (2) winstreservering toepassen in plaats van dividenduitkering; (3) niet-essentiële vaste activa verkopen.
-
-> [!success]- Motivering (typed)
-> Netto bedrijfskapitaal = vlottende activa − kortlopende schulden (zie [[werkkapitaal]]). Verhogen kan via twee assen: vlottende activa verhogen ÉN kortlopende schulden verlagen. Concreet drie maatregelen:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: (1) Lange-termijn financiering aantrekken om kortlopende schulden te herfinancieren; (2) winstreservering toepassen in plaats van dividenduitkering; (3) niet-essentiële vaste activa verkopen.
 > 
-> Andere mogelijke maatregelen (niet in opsomming): voorraadbeheer optimaliseren (just-in-time → lager voorraadbeslag, maar dat verlaagt werkkapitaal-component voorraden zonder de eindwaarde te raken — neutraal effect), klantenkrediet verkorten (DSO verlagen → kas in plaats van vorderingen, neutraal effect op werkkapitaal-som).
+> > [!note]- Motivering (typed)
+> > Netto bedrijfskapitaal = vlottende activa − kortlopende schulden (zie [[werkkapitaal]]). Verhogen kan via twee assen: vlottende activa verhogen ÉN kortlopende schulden verlagen. Concreet drie maatregelen:
+> > 
+> > Andere mogelijke maatregelen (niet in opsomming): voorraadbeheer optimaliseren (just-in-time → lager voorraadbeslag, maar dat verlaagt werkkapitaal-component voorraden zonder de eindwaarde te raken — neutraal effect), klantenkrediet verkorten (DSO verlagen → kas in plaats van vorderingen, neutraal effect op werkkapitaal-som).
+> > 
+> > ⚠️ Onderscheid: 'werkkapitaal verhogen' (de balanspost) is iets anders dan 'werkkapitaalbehoefte verlagen' (de operationele cyclus optimaliseren). De vraag spreekt over de eerste. Maatregelen die alleen voorraad of klantenkrediet roteren raken de werkkapitaal-som niet (alleen de samenstelling).
+> > 
+> > 1. **Lange-termijn financiering aantrekken om kortlopende schulden te herfinancieren** — een nieuwe lange-termijn-lening of kapitaalverhoging stort kasmiddelen (vlottend actief) en kan worden gebruikt om kortlopende schulden af te lossen. Effect: vlottende activa stabiel of stijgend, kortlopende schulden dalend → werkkapitaal stijgt. 🤖
+> > 2. **Operationele winst gebruiken om winstreservering toe te wijzen** — in plaats van uit te keren als dividend — winstaccumulatie verhoogt het eigen vermogen en typisch ook de vlottende activa (kas, vorderingen) zonder de kortlopende schulden te raken. Werkkapitaal stijgt. 🤖
+> > 3. **Niet-essentiële vaste activa verkopen** — (bv. overtollig vastgoed, oude machines) → kasmiddelen stijgen (vlottend actief) zonder de kortlopende schulden te raken. Werkkapitaal stijgt. 🤖
+> > 
+> > _Grondslag: [[werkkapitaal]] §Bouwstenen — Absolute tegenhanger van current ratio; bedrijfseconomische standaard-doctrine (klassiek Brealey/Myers, ook in Belgische ratio-analyse-handboeken)._
 > 
-> ⚠️ Onderscheid: 'werkkapitaal verhogen' (de balanspost) is iets anders dan 'werkkapitaalbehoefte verlagen' (de operationele cyclus optimaliseren). De vraag spreekt over de eerste. Maatregelen die alleen voorraad of klantenkrediet roteren raken de werkkapitaal-som niet (alleen de samenstelling).
+> > [!info]- Bronnen (3)
+> > - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen — Absolute tegenhanger van current ratio → ondersteunt: werkkapitaal = vlottende activa − kortlopende schulden
+> > - [[werkkapitaal|content/concepten/werkkapitaal.md]] · In de praktijk — Evolutie volgen → ondersteunt: oorzaken van stijging/daling werkkapitaal
+> > - [[beoordelen-werkkapitaal-en-kasstroom|content/concepten/beoordelen-werkkapitaal-en-kasstroom.md]] · Stappen → ondersteunt: analyse-stappen werkkapitaal
 > 
-> 1. **Lange-termijn financiering aantrekken om kortlopende schulden te herfinancieren** — een nieuwe lange-termijn-lening of kapitaalverhoging stort kasmiddelen (vlottend actief) en kan worden gebruikt om kortlopende schulden af te lossen. Effect: vlottende activa stabiel of stijgend, kortlopende schulden dalend → werkkapitaal stijgt. 🤖
-> 2. **Operationele winst gebruiken om winstreservering toe te wijzen** — in plaats van uit te keren als dividend — winstaccumulatie verhoogt het eigen vermogen en typisch ook de vlottende activa (kas, vorderingen) zonder de kortlopende schulden te raken. Werkkapitaal stijgt. 🤖
-> 3. **Niet-essentiële vaste activa verkopen** — (bv. overtollig vastgoed, oude machines) → kasmiddelen stijgen (vlottend actief) zonder de kortlopende schulden te raken. Werkkapitaal stijgt. 🤖
-> 
-> _Grondslag: [[werkkapitaal]] §Bouwstenen — Absolute tegenhanger van current ratio; bedrijfseconomische standaard-doctrine (klassiek Brealey/Myers, ook in Belgische ratio-analyse-handboeken)._
-
-> [!info]- Bronnen (3)
-> - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen — Absolute tegenhanger van current ratio → ondersteunt: werkkapitaal = vlottende activa − kortlopende schulden
-> - [[werkkapitaal|content/concepten/werkkapitaal.md]] · In de praktijk — Evolutie volgen → ondersteunt: oorzaken van stijging/daling werkkapitaal
-> - [[beoordelen-werkkapitaal-en-kasstroom|content/concepten/beoordelen-werkkapitaal-en-kasstroom.md]] · Stappen → ondersteunt: analyse-stappen werkkapitaal
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 > [!warning] Gap niveau **b** — type **checklist_fail_softmatch**
 > Records beschrijven werkkapitaal als concept + analyse-stappen maar geven geen expliciete lijst van "maatregelen om werkkapitaal te verhogen". Klassieke bedrijfseconomische doctrine bekend (lange-termijn financiering, winstreservering, activa-verkoop), maar grounded record-citaat ontbreekt. Gap (b) uitbreiding aanbevolen.
@@ -3328,62 +3288,61 @@ bedrijfskapitaal kan verhogen.
 enge zin en wel bij de berekening van de liquiditeit in ruime zin?
 Antwoord …
 
-#### Modelantwoord
-
-a) Bedrijfsleider leest uit liquiditeitsratio's of de onderneming op korte termijn aan haar betalingsverplichtingen kan voldoen — een ratio > 1 betekent dat vlottende activa de korte schulden dekken (gezond), < 1 wijst op een liquiditeitstekort. b) Bij liquiditeit in enge zin (quick ratio): voorraden worden uitgesloten omdat ze niet automatisch snel liquideerbaar zijn; bij ruime liquiditeit (current ratio) worden ze wel meegerekend.
-
-> [!success]- Motivering (typed)
-> ### a) Wat leert de bedrijfsleider uit de liquiditeitsratio's?
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Bedrijfsleider leest uit liquiditeitsratio's of de onderneming op korte termijn aan haar betalingsverplichtingen kan voldoen — een ratio > 1 betekent dat vlottende activa de korte schulden dekken (gezond), < 1 wijst op een liquiditeitstekort. b) Bij liquiditeit in enge zin (quick ratio): voorraden worden uitgesloten omdat ze niet automatisch snel liquideerbaar zijn; bij ruime liquiditeit (current ratio) worden ze wel meegerekend.
 > 
-> De liquiditeitsratio's tonen of de onderneming **op korte termijn** in staat is haar kortlopende verplichtingen na te komen — een fundamentele indicator van financiële gezondheid op korte termijn. ⚖️ ⚖️
+> > [!note]- Motivering (typed)
+> > ### a) Wat leert de bedrijfsleider uit de liquiditeitsratio's?
+> > 
+> > De liquiditeitsratio's tonen of de onderneming **op korte termijn** in staat is haar kortlopende verplichtingen na te komen — een fundamentele indicator van financiële gezondheid op korte termijn. ⚖️ ⚖️
+> > 
+> > **Vuistregels** 🤖
+> > 
+> > ([[liquiditeitsratio]] §Bouwstenen):
+> > - **Ratio ≥ 1** (current of quick): vlottende activa dekken minstens de korte schulden → gezond. ⚖️
+> > - **Ratio < 1**: vlottende activa onvoldoende → mogelijk liquiditeitstekort → extra werkkapitaalfinanciering nodig (kaskrediet, factoring, kapitaalverhoging). 🤖
+> > - **Ratio >> 2**: mogelijk te conservatief beheer — activa "liggen te slapen", terwijl ze geïnvesteerd of als dividend uitgekeerd kunnen worden. 🤖
+> > 
+> > De bedrijfsleider gebruikt deze cijfers om: (1) leveranciers en banken gerust te stellen, (2) tijdig financierings-acties te plannen bij dalende trend, (3) te benchmarken tegen sector-gemiddelden, (4) interne werkkapitaal-discipline te sturen.
+> > 
+> > ### b) Verschil engere vs ruimere liquiditeit
+> > 
+> > **Ruime liquiditeit (current ratio)** ⚖️
+> > 
+> > ```
+> > current ratio = vlottende activa / schulden ≤ 1 jaar
+> > ```
+> > Inclusief alle vlottende activa: voorraden, vorderingen, geldbeleggingen, liquide middelen. ⚖️
+> > 
+> > **Engere liquiditeit (quick ratio of acid test)** ⚖️
+> > 
+> > ```
+> > quick ratio = (vlottende activa − voorraden) / schulden ≤ 1 jaar
+> > ```
+> > **Voorraden worden uitgesloten** in de berekening. ⚖️
+> > 
+> > **Waarom worden voorraden uitgesloten bij engere liquiditeit?**
+> > 
+> > - Voorraden zijn niet automatisch snel liquideerbaar — bij snelle verkoop moeten typisch kortingen worden gegeven (waardevermindering).
+> > - Bij specifieke voorraden (specifieke onderdelen, mode-artikelen) is de liquiditeit nog beperkter.
+> > - De engere ratio toont de **echte directe** dekkingscapaciteit — wat de onderneming kan dekken zonder voorraad te moeten verkopen.
+> > 
+> > 🤖 In de praktijk is de quick ratio strenger en conservatiever dan de current ratio — bij gezond bedrijf: current ratio ~2, quick ratio ~1. 🤖
+> > 
+> > _Grondslag: [[liquiditeitsratio]] §Bouwstenen + §Berekening; [[berekenen-interpreteren-liquiditeitsratios]] §Stappen + §Interpretatie._
 > 
-> **Vuistregels** 🤖
+> > [!info]- Bronnen (2)
+> > - [[liquiditeitsratio|content/concepten/liquiditeitsratio.md]] · Bouwstenen + Berekening → ondersteunt: definitie current + quick ratio
+> > - [[berekenen-interpreteren-liquiditeitsratios|content/concepten/berekenen-interpreteren-liquiditeitsratios.md]] · Stappen + Interpretatie → ondersteunt: interpretatie voor bedrijfsleider
 > 
-> ([[liquiditeitsratio]] §Bouwstenen):
-> - **Ratio ≥ 1** (current of quick): vlottende activa dekken minstens de korte schulden → gezond. ⚖️
-> - **Ratio < 1**: vlottende activa onvoldoende → mogelijk liquiditeitstekort → extra werkkapitaalfinanciering nodig (kaskrediet, factoring, kapitaalverhoging). 🤖
-> - **Ratio >> 2**: mogelijk te conservatief beheer — activa "liggen te slapen", terwijl ze geïnvesteerd of als dividend uitgekeerd kunnen worden. 🤖
-> 
-> De bedrijfsleider gebruikt deze cijfers om: (1) leveranciers en banken gerust te stellen, (2) tijdig financierings-acties te plannen bij dalende trend, (3) te benchmarken tegen sector-gemiddelden, (4) interne werkkapitaal-discipline te sturen.
-> 
-> ### b) Verschil engere vs ruimere liquiditeit
-> 
-> **Ruime liquiditeit (current ratio)** ⚖️
-> 
-> ```
-> current ratio = vlottende activa / schulden ≤ 1 jaar
-> ```
-> Inclusief alle vlottende activa: voorraden, vorderingen, geldbeleggingen, liquide middelen. ⚖️
-> 
-> **Engere liquiditeit (quick ratio of acid test)** ⚖️
-> 
-> ```
-> quick ratio = (vlottende activa − voorraden) / schulden ≤ 1 jaar
-> ```
-> **Voorraden worden uitgesloten** in de berekening. ⚖️
-> 
-> **Waarom worden voorraden uitgesloten bij engere liquiditeit?**
-> 
-> - Voorraden zijn niet automatisch snel liquideerbaar — bij snelle verkoop moeten typisch kortingen worden gegeven (waardevermindering).
-> - Bij specifieke voorraden (specifieke onderdelen, mode-artikelen) is de liquiditeit nog beperkter.
-> - De engere ratio toont de **echte directe** dekkingscapaciteit — wat de onderneming kan dekken zonder voorraad te moeten verkopen.
-> 
-> 🤖 In de praktijk is de quick ratio strenger en conservatiever dan de current ratio — bij gezond bedrijf: current ratio ~2, quick ratio ~1. 🤖
-> 
-> _Grondslag: [[liquiditeitsratio]] §Bouwstenen + §Berekening; [[berekenen-interpreteren-liquiditeitsratios]] §Stappen + §Interpretatie._
-
-> [!info]- Bronnen (2)
-> - [[liquiditeitsratio|content/concepten/liquiditeitsratio.md]] · Bouwstenen + Berekening → ondersteunt: definitie current + quick ratio
-> - [[berekenen-interpreteren-liquiditeitsratios|content/concepten/berekenen-interpreteren-liquiditeitsratios.md]] · Stappen + Interpretatie → ondersteunt: interpretatie voor bedrijfsleider
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -3462,114 +3421,113 @@ geboekt werd;
 
 (1 739 806 + 2 200 000 + 2 548 415 + 2 704) : (1 210 536 + 39 932) = 5,19
 
-#### Modelantwoord
-
-a) Optie 1 (€ 80.210,76 = bruto TV/werknemer, canonieke formule). b) Waarschijnlijk Optie 4 (€ 6.731.467 — meest volledige NBK inclusief alle korte-termijn-componenten); optie 1 (€ 6.648.695) bij eenvoudige interpretatie. c) Formule = (nettoresultaat + financiële kosten van schulden) / totaal activa.
-
-> [!success]- Motivering (typed)
-> ### 🤖 Reverse-engineered bijlage (uit MC-opties) 🤖
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Optie 1 (€ 80.210,76 = bruto TV/werknemer, canonieke formule). b) Waarschijnlijk Optie 4 (€ 6.731.467 — meest volledige NBK inclusief alle korte-termijn-componenten); optie 1 (€ 6.648.695) bij eenvoudige interpretatie. c) Formule = (nettoresultaat + financiële kosten van schulden) / totaal activa.
 > 
-> De ITAA-bijlage (balans + RR) is niet beschikbaar in de vraagtekst. Onderstaande cijfers zijn **gereconstrueerd uit de MC-opties** in de vraag (artificiële reconstructie — het werkelijke ITAA-examen had concrete cijfers in een bijlage).
+> > [!note]- Motivering (typed)
+> > ### 🤖 Reverse-engineered bijlage (uit MC-opties) 🤖
+> > 
+> > De ITAA-bijlage (balans + RR) is niet beschikbaar in de vraagtekst. Onderstaande cijfers zijn **gereconstrueerd uit de MC-opties** in de vraag (artificiële reconstructie — het werkelijke ITAA-examen had concrete cijfers in een bijlage).
+> > 
+> > **Gereconstrueerd RR-fragment (boekjaar)** 🤖:**Gereconstrueerd balans-fragment (boekjaar)** 🤖:### a) Bruto toegevoegde waarde per werknemer 🤖
+> > 
+> > **Canonieke formule**: TV = omzet (rek 70) − aankopen (rek 60) − diensten en diverse goederen (rek 61). Exploitatiesubsidies (rek 74) horen er typisch **niet** bij in de strikte "bruto-verkoopmarge"-variant (sommige bronnen tellen ze er wel bij in de "ruime" TV — afhankelijk van leerboek).
+> > 
+> > Bruto TV / werknemer = (omzet − rek 60 − rek 61) / aantal werknemers VTE.
+> > 
+> > **Optie 1**
+> > 
+> > (7.441.663 − 3.185.295 − 1.192.317) / 38,20 = **€ 80.210,76** ✓ Standaardformule
+> > 
+> > **Optie 2** 🤖
+> > 
+> > trekt subsidies (€ 415) extra af — dubbele aftrek, fout 🤖.
+> > 
+> > **Optie 3**: trekt bezoldigingen (€ 1.548.647) ook af — dat is **NETTO-TV** of "Operationele marge", niet bruto-TV → fout.
+> > 
+> > **Optie 4**: trekt afschrijvingen (€ 436.469) en waardeverminderingen (€ 879) af — dat is **EBIT** of "bedrijfsresultaat", niet TV → fout.
+> > 
+> > **. ⚖️ ⚖️
+> > 
+> > ### b) Netto bedrijfskapitaal
+> > 
+> > **Canonieke formule**: vlottende activa (klasse 3-5) − schulden op ten hoogste 1 jaar (klasse 42-48).
+> > 
+> > Bestanddelen vlottende activa:
+> > - 1.371.010 + 1.739.806 (vorderingen ≤ 1jaar)
+> > - 2.200.000 (voorraden)
+> > - 2.548.415 (geldbeleggingen)
+> > - evt. 2.704 (liquide middelen — niet in alle opties zichtbaar)
+> > - evt. 120.000 (vorderingen >1jaar binnen jaar vervallend)
+> > 
+> > Schulden ≤ 1 jaar: 1.210.536 (+ evt. 39.932 overlopende rek)
+> > 
+> > **Optie 1**: 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 − 1.210.536 = **€ 6.648.695** (basis-NBK, geen vorderingen >1jr + geen overlopende rek)
+> > 
+> > **Optie 2**
+> > 
+> > + 120.000 vorderingen >1jr = € 6.768.695 → conservatief inclusief
+> > 
+> > **Optie 3**
+> > 
+> > + 2.704 (liquide middelen) + 120.000 niet, − 39.932 overlopende → € 6.611.467
+> > 
+> > **Optie 4**
+> > 
+> > meest uitgebreid: + 120.000 + 2.704 − 39.932 → € 6.731.467
+> > 
+> > 🤖 De **standaard Cijferzakboekje/Bibf-conventie** voor NBK is **OPTIE 4** (inclusief vorderingen >1jr die binnen jaar vervallen + liquide middelen + correcties overlopende rekeningen — kortom alle korte-termijn-componenten). De zuiverste interpretatie van "vlottende activa − schulden ≤ 1 jaar" volgens KB WVV-balansschema = **Optie 4 (€ 6.731.467)**. 🤖
+> > 
+> > Alternatief: optie 1 is de pure "vlottende-activa-min-korte-schulden" als de stagiair een eenvoudige interpretatie hanteert.
+> > 
+> > **Antwoord b) — waarschijnlijk Optie 4 (€ 6.731.467)**, met optie 1 als acceptabele eenvoudige variant. 🤖 🤖
+> > 
+> > ### c) Nettorentabiliteit van het totaal der activa
+> > 
+> > (Vraag c niet volledig zichtbaar in extract — formule: nettoresultaat ná belasting + financiële kosten van schulden / totaal activa. Zonder volledige optie-lijst hier geen exact antwoord.)
+> > 
+> > 🤖 **Antwoord c) — formule** = (nettoresultaat + 65 Financiële kosten van schulden) / 22-58 (totaal activa). 🤖
+> > 
+> > | Code | Post | Bedrag (EUR) |
+> > |---|---|---|
+> > | 70 | Omzet | 7.441.663 |
+> > | 74 | Andere bedrijfsopbrengsten (incl. subsidies) | (415 expl. + 6.000 intrest = 6.415) |
+> > | 60 | Aankopen handelsgoederen, grond- en hulpstoffen | 3.185.295 |
+> > | 61 | Diensten en diverse goederen | 1.192.317 |
+> > | 62 | Bezoldigingen, sociale lasten + pensioenen | 1.548.647 |
+> > | 630 | Afschrijvingen MVA | 436.469 |
+> > | 634 | Waardeverminderingen | 879 |
+> > 
+> > | Code | Post | Bedrag (EUR) |
+> > |---|---|---|
+> > | 22-27 | Materiële vaste activa (na investering 361.870) | — |
+> > | 28 | Financiële vaste activa | — |
+> > | 29 | Vorderingen op meer dan één jaar | 120.000 (waarvan deel binnen jaar = ?) |
+> > | 30/36 | Voorraden | 2.200.000 |
+> > | 40/41 | Handelsvorderingen + andere vorderingen ≤ 1jaar | 1.371.010 + 1.739.806 |
+> > | 50/53 | Geldbeleggingen | 2.548.415 |
+> > | 54/58 | Liquide middelen | 2.704 |
+> > | 17 | Schulden op meer dan één jaar | — |
+> > | 42-48 | Schulden op ten hoogste één jaar | 1.210.536 |
+> > | 492/3 | Overlopende rekeningen passief | 39.932 |
+> > 
+> > **Conclusie**: a) = Optie 1: € 80.210,76
+> > 
+> > _Grondslag: [[werkkapitaal]] §Berekening; [[rentabiliteit-totaal-activa-roa]]; doctrine Cijferzakboekje._
 > 
-> **Gereconstrueerd RR-fragment (boekjaar)** 🤖:**Gereconstrueerd balans-fragment (boekjaar)** 🤖:### a) Bruto toegevoegde waarde per werknemer 🤖
+> > [!info]- Bronnen (2)
+> > - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen → ondersteunt: NBK-formule
+> > - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: ROA-formule
 > 
-> **Canonieke formule**: TV = omzet (rek 70) − aankopen (rek 60) − diensten en diverse goederen (rek 61). Exploitatiesubsidies (rek 74) horen er typisch **niet** bij in de strikte "bruto-verkoopmarge"-variant (sommige bronnen tellen ze er wel bij in de "ruime" TV — afhankelijk van leerboek).
-> 
-> Bruto TV / werknemer = (omzet − rek 60 − rek 61) / aantal werknemers VTE.
-> 
-> **Optie 1**
-> 
-> (7.441.663 − 3.185.295 − 1.192.317) / 38,20 = **€ 80.210,76** ✓ Standaardformule
-> 
-> **Optie 2** 🤖
-> 
-> trekt subsidies (€ 415) extra af — dubbele aftrek, fout 🤖.
-> 
-> **Optie 3**: trekt bezoldigingen (€ 1.548.647) ook af — dat is **NETTO-TV** of "Operationele marge", niet bruto-TV → fout.
-> 
-> **Optie 4**: trekt afschrijvingen (€ 436.469) en waardeverminderingen (€ 879) af — dat is **EBIT** of "bedrijfsresultaat", niet TV → fout.
-> 
-> **. ⚖️ ⚖️
-> 
-> ### b) Netto bedrijfskapitaal
-> 
-> **Canonieke formule**: vlottende activa (klasse 3-5) − schulden op ten hoogste 1 jaar (klasse 42-48).
-> 
-> Bestanddelen vlottende activa:
-> - 1.371.010 + 1.739.806 (vorderingen ≤ 1jaar)
-> - 2.200.000 (voorraden)
-> - 2.548.415 (geldbeleggingen)
-> - evt. 2.704 (liquide middelen — niet in alle opties zichtbaar)
-> - evt. 120.000 (vorderingen >1jaar binnen jaar vervallend)
-> 
-> Schulden ≤ 1 jaar: 1.210.536 (+ evt. 39.932 overlopende rek)
-> 
-> **Optie 1**: 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 − 1.210.536 = **€ 6.648.695** (basis-NBK, geen vorderingen >1jr + geen overlopende rek)
-> 
-> **Optie 2**
-> 
-> + 120.000 vorderingen >1jr = € 6.768.695 → conservatief inclusief
-> 
-> **Optie 3**
-> 
-> + 2.704 (liquide middelen) + 120.000 niet, − 39.932 overlopende → € 6.611.467
-> 
-> **Optie 4**
-> 
-> meest uitgebreid: + 120.000 + 2.704 − 39.932 → € 6.731.467
-> 
-> 🤖 De **standaard Cijferzakboekje/Bibf-conventie** voor NBK is **OPTIE 4** (inclusief vorderingen >1jr die binnen jaar vervallen + liquide middelen + correcties overlopende rekeningen — kortom alle korte-termijn-componenten). De zuiverste interpretatie van "vlottende activa − schulden ≤ 1 jaar" volgens KB WVV-balansschema = **Optie 4 (€ 6.731.467)**. 🤖
-> 
-> Alternatief: optie 1 is de pure "vlottende-activa-min-korte-schulden" als de stagiair een eenvoudige interpretatie hanteert.
-> 
-> **Antwoord b) — waarschijnlijk Optie 4 (€ 6.731.467)**, met optie 1 als acceptabele eenvoudige variant. 🤖 🤖
-> 
-> ### c) Nettorentabiliteit van het totaal der activa
-> 
-> (Vraag c niet volledig zichtbaar in extract — formule: nettoresultaat ná belasting + financiële kosten van schulden / totaal activa. Zonder volledige optie-lijst hier geen exact antwoord.)
-> 
-> 🤖 **Antwoord c) — formule** = (nettoresultaat + 65 Financiële kosten van schulden) / 22-58 (totaal activa). 🤖
-> 
-> | Code | Post | Bedrag (EUR) |
-> |---|---|---|
-> | 70 | Omzet | 7.441.663 |
-> | 74 | Andere bedrijfsopbrengsten (incl. subsidies) | (415 expl. + 6.000 intrest = 6.415) |
-> | 60 | Aankopen handelsgoederen, grond- en hulpstoffen | 3.185.295 |
-> | 61 | Diensten en diverse goederen | 1.192.317 |
-> | 62 | Bezoldigingen, sociale lasten + pensioenen | 1.548.647 |
-> | 630 | Afschrijvingen MVA | 436.469 |
-> | 634 | Waardeverminderingen | 879 |
-> 
-> | Code | Post | Bedrag (EUR) |
-> |---|---|---|
-> | 22-27 | Materiële vaste activa (na investering 361.870) | — |
-> | 28 | Financiële vaste activa | — |
-> | 29 | Vorderingen op meer dan één jaar | 120.000 (waarvan deel binnen jaar = ?) |
-> | 30/36 | Voorraden | 2.200.000 |
-> | 40/41 | Handelsvorderingen + andere vorderingen ≤ 1jaar | 1.371.010 + 1.739.806 |
-> | 50/53 | Geldbeleggingen | 2.548.415 |
-> | 54/58 | Liquide middelen | 2.704 |
-> | 17 | Schulden op meer dan één jaar | — |
-> | 42-48 | Schulden op ten hoogste één jaar | 1.210.536 |
-> | 492/3 | Overlopende rekeningen passief | 39.932 |
-> 
-> **Conclusie**: a) = Optie 1: € 80.210,76
-> 
-> _Grondslag: [[werkkapitaal]] §Berekening; [[rentabiliteit-totaal-activa-roa]]; doctrine Cijferzakboekje._
-
-> [!info]- Bronnen (2)
-> - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen → ondersteunt: NBK-formule
-> - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: ROA-formule
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: 🤖 De bijlage (balans + RR) is afgeleid uit de cijfers die in de MC-opties zelf staan; de echte ITAA-bijlage werd niet aangereikt. Modelantwoord-keuze gebaseerd op canonieke formule per ratio.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: 🤖 De bijlage (balans + RR) is afgeleid uit de cijfers die in de MC-opties zelf staan; de echte ITAA-bijlage werd niet aangereikt. Modelantwoord-keuze gebaseerd op canonieke formule per ratio.
 
 > [!warning] Gap niveau **extern** — type **reverse_engineered** · sub-type **mc_options_reconstruction**
 > Bijlage gereconstrueerd uit cijfers in MC-opties zelf — niet de echte ITAA-bijlage. Modelantwoord = MC-keuze-analyse op basis van canonieke formules.
@@ -3606,58 +3564,57 @@ _Ook geklassificeerd onder_: 1.9
 
 _(geen vraagtekst beschikbaar)_
 
-#### Modelantwoord
-
-a) Nettothesaurie = (geldbeleggingen + liquide middelen) − financiële schulden korte termijn (= werkkapitaal − werkkapitaalbehoefte). b) Positief: liquiditeitsoverschot — vermogen dekt voldoende de operationele behoefte; geen korte-termijn financiering nodig.
-
-> [!success]- Motivering (typed)
-> **a) Wat is de nettothesaurie?**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Nettothesaurie = (geldbeleggingen + liquide middelen) − financiële schulden korte termijn (= werkkapitaal − werkkapitaalbehoefte). b) Positief: liquiditeitsoverschot — vermogen dekt voldoende de operationele behoefte; geen korte-termijn financiering nodig.
 > 
-> De nettothesaurie is een **liquiditeitsindicator** die meet hoeveel liquide middelen een onderneming netto aanhoudt na aftrek van haar **financiële schulden op korte termijn**.
+> > [!note]- Motivering (typed)
+> > **a) Wat is de nettothesaurie?**
+> > 
+> > De nettothesaurie is een **liquiditeitsindicator** die meet hoeveel liquide middelen een onderneming netto aanhoudt na aftrek van haar **financiële schulden op korte termijn**.
+> > 
+> > **Formule**
+> > 
+> > (klassieke financiële analyse):
+> > ```
+> > nettothesaurie = (geldbeleggingen + liquide middelen) − financiële schulden op korte termijn
+> > ```
+> > 
+> > Of equivalent:
+> > ```
+> > nettothesaurie = werkkapitaal − werkkapitaalbehoefte
+> > ```
+> > 
+> > 🤖 De twee formules geven hetzelfde resultaat — de eerste is balans-rechtstreeks, de tweede vertrekt vanuit het verschil tussen beschikbare middelen en operationele financieringsbehoefte. 🤖
+> > 
+> > ### b) Wat betekent een positieve nettothesaurie?
+> > 
+> > Een **positieve** nettothesaurie betekent:
+> > 
+> > - De onderneming heeft **méér liquide middelen + geldbeleggingen dan financiële schulden op korte termijn** — er is een liquiditeitsoverschot. ⚖️
+> > - Equivalent: het werkkapitaal is **voldoende** om de operationele werkkapitaalbehoefte te dekken — er is een liquide buffer over. 🤖
+> > - **Implicaties**:
+> >   - Geen behoefte aan korte-termijn financiering (kaskrediet, kortlopende leningen niet nodig)
+> >   - Buffer voor onverwachte uitgaven of conjuncturele schokken
+> >   - Mogelijk **te conservatief** beheer (geld dat "ligt te slapen" terwijl het kan worden geïnvesteerd of als dividend uitgekeerd) — efficiëntie-overweging 🤖 🤖
+> > 
+> > Een **negatieve** nettothesaurie wijst op een dwangmatige afhankelijkheid van korte-termijn financiering om de operationele cyclus rond te krijgen — een rode vlag voor liquiditeit en continuïteit.
+> > 
+> > ⚠️ **Open gap**: er is geen dedicated `nettothesaurie.md` record. Gap niveau c (nieuw concept) — uit te breiden in volgende concept-extractie-pass.
+> > 
+> > _Grondslag: [[werkkapitaal]] §Bouwstenen; [[werkkapitaalbehoefte]]; klassieke financiële analyse-doctrine (geen specifiek record voor nettothesaurie zelf — concept is grotendeels doctrinair)._
 > 
-> **Formule**
+> > [!info]- Bronnen (2)
+> > - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen → ondersteunt: context werkkapitaal/werkkapitaalbehoefte
+> > - [[werkkapitaalbehoefte|content/concepten/werkkapitaalbehoefte.md]] · Bouwstenen → ondersteunt: verschil werkkapitaal − werkkapitaalbehoefte
 > 
-> (klassieke financiële analyse):
-> ```
-> nettothesaurie = (geldbeleggingen + liquide middelen) − financiële schulden op korte termijn
-> ```
-> 
-> Of equivalent:
-> ```
-> nettothesaurie = werkkapitaal − werkkapitaalbehoefte
-> ```
-> 
-> 🤖 De twee formules geven hetzelfde resultaat — de eerste is balans-rechtstreeks, de tweede vertrekt vanuit het verschil tussen beschikbare middelen en operationele financieringsbehoefte. 🤖
-> 
-> ### b) Wat betekent een positieve nettothesaurie?
-> 
-> Een **positieve** nettothesaurie betekent:
-> 
-> - De onderneming heeft **méér liquide middelen + geldbeleggingen dan financiële schulden op korte termijn** — er is een liquiditeitsoverschot. ⚖️
-> - Equivalent: het werkkapitaal is **voldoende** om de operationele werkkapitaalbehoefte te dekken — er is een liquide buffer over. 🤖
-> - **Implicaties**:
->   - Geen behoefte aan korte-termijn financiering (kaskrediet, kortlopende leningen niet nodig)
->   - Buffer voor onverwachte uitgaven of conjuncturele schokken
->   - Mogelijk **te conservatief** beheer (geld dat "ligt te slapen" terwijl het kan worden geïnvesteerd of als dividend uitgekeerd) — efficiëntie-overweging 🤖 🤖
-> 
-> Een **negatieve** nettothesaurie wijst op een dwangmatige afhankelijkheid van korte-termijn financiering om de operationele cyclus rond te krijgen — een rode vlag voor liquiditeit en continuïteit.
-> 
-> ⚠️ **Open gap**: er is geen dedicated `nettothesaurie.md` record. Gap niveau c (nieuw concept) — uit te breiden in volgende concept-extractie-pass.
-> 
-> _Grondslag: [[werkkapitaal]] §Bouwstenen; [[werkkapitaalbehoefte]]; klassieke financiële analyse-doctrine (geen specifiek record voor nettothesaurie zelf — concept is grotendeels doctrinair)._
-
-> [!info]- Bronnen (2)
-> - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen → ondersteunt: context werkkapitaal/werkkapitaalbehoefte
-> - [[werkkapitaalbehoefte|content/concepten/werkkapitaalbehoefte.md]] · Bouwstenen → ondersteunt: verschil werkkapitaal − werkkapitaalbehoefte
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 > [!warning] Gap niveau **c** — type **concept_ontbreekt**
 > Geen dedicated `nettothesaurie.md` record. Concept wordt klassiek beschreven in financiële-analyse-doctrine als (geldbeleggingen + liquide middelen) − financiële schulden korte termijn, OF werkkapitaal − werkkapitaalbehoefte. Gap niveau c — nieuw concept-record nodig in volgende EXTRACT-pass (PO 1.9 financiële analyse).
@@ -3706,89 +3663,88 @@ Plaats de letter van het juiste antwoord in onderstaande rooster.
 | Antwoord |   |   |   |   |
 | Punten | 2 | 2 | 2 | 2 |
 
-#### Modelantwoord
-
-a) Optie A (22,74 % brutoverkoopmarge) — canonieke formule. b) Optie A (45,56 % personeelskosten/TV). c) en d): formules zichtbaar in MC-opties, kies canonieke variant.
-
-> [!success]- Motivering (typed)
-> ### 🤖 Reverse-engineered bijlage (uit MC-opties) 🤖
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Optie A (22,74 % brutoverkoopmarge) — canonieke formule. b) Optie A (45,56 % personeelskosten/TV). c) en d): formules zichtbaar in MC-opties, kies canonieke variant.
 > 
-> Analoog aan vr5-2014: bijlage niet beschikbaar in vraagtekst; cijfers afgeleid uit MC-opties.
+> > [!note]- Motivering (typed)
+> > ### 🤖 Reverse-engineered bijlage (uit MC-opties) 🤖
+> > 
+> > Analoog aan vr5-2014: bijlage niet beschikbaar in vraagtekst; cijfers afgeleid uit MC-opties.
+> > 
+> > **Geïdentificeerde cijfers** 🤖
+> > 
+> > 🤖:
+> > - Omzet: 8.034.747 of 8.365.788 (afhankelijk van inclusie)
+> > - Aankopen: 3.457.309
+> > - Diensten en diverse: 1.398.278
+> > - Personeelskosten: 1.600.244 (incl. mogelijk -1.665 voorziening pensioenen terugneming)
+> > - Andere bedrijfsopbrengsten: 425.554
+> > - Exploitatiesubsidies: 1.288
+> > - Intrestsubsidies: 14.214
+> > - Investeringen MVA boekjaar: 452.835
+> > - Werknemers: 38,20 VTE
+> > - Voorziening pensioenen teruggenomen: 1.665
+> > - Diverse: 1.479.283 / 1.417.747 / 968.829 / 804 / 344.153 / 1.600.244 — verschillende RR-componenten
+> > 
+> > ### a) Brutoverkoopmarge
+> > 
+> > **Canonieke formule**
+> > 
+> > (Cijferzakboekje / Belgisch klassieke financiële analyse):
+> > ```
+> > brutoverkoopmarge = (toegevoegde waarde + niet-recurrente bedrijfsopbrengsten) × 100 / omzet
+> > ```
+> > 
+> > OF (eenvoudiger): `(omzet − aankopen − diensten/diverse) / omzet`
+> > 
+> > **Per optie analyse**
+> > 
+> > - **A**: (1.479.283 + 425.554 + 804) × 100 / (8.034.747 + 344.153) = **22,74 %** → omzet incl. andere bedrijfsopbrengsten als noemer, marge-componenten in teller. ✓ Plausibel als canonieke "brutomarge na bedrijfsopbrengsten".
+> > - **B**: (1.417.747 + 425.554 + 804) × 100 / (8.365.788 − 1.600.244) = 27,26 % → omzet 8.365.788 verminderd met personeelskosten → ongebruikelijke formule.
+> > - **C**: (1.479.283 + 425.554 + 804 − 1.665) × 100 / (8.034.747 + 344.153 − 1.288) = **22,73 %** → idem A maar met terugneming pensioen + exploitatiesubsidie afgetrokken → strenger.
+> > - **D**: (968.829 + ...) /... = 16,66 % → andere cijfers, mogelijk netto-marge.
+> > 
+> > 🤖 **Beste keuze: A (22,74 %)** of **C (22,73 %)** afhankelijk van hoe ITAA omgaat met voorziening pensioenen en exploitatiesubsidies. Voor Bibf-conventie: subsidies en niet-recurrente posten meestal niet aftrekken → **Optie A**. 🤖
+> > 
+> > ### b) Personeelskosten t.o.v. toegevoegde waarde
+> > 
+> > **Formule**
+> > 
+> > personeelskosten (62) / toegevoegde waarde × 100
+> > 
+> > **Per optie**
+> > 
+> > - **A**: (1.600.244 − 1.665) × 100 / (8.365.788 − 1.288 − 3.457.309 − 1.398.278) = 45,56 %
+> >   → bezoldigingen excl. terugneming pensioen / (omzet excl. subsidies − aankopen − diensten) = TV
+> > - Andere opties niet volledig zichtbaar.
+> > 
+> > 🤖 Voor canonieke berekening: bezoldigingen / TV. Optie A is plausibele formule (TV als noemer). 🤖
+> > 
+> > **Beste keuze: A (45,56 %)** 🤖
+> > 
+> > 🤖
+> > 
+> > ### c) en d) niet volledig zichtbaar in extract
+> > 
+> > (Punten 2+2 + er zijn 4 deelvragen — vraagtekst-extract is mogelijk afgebroken na deelvraag b.)
+> > 
+> > 🤖 Voor c) en d) staan formules in de respectievelijke MC-opties; selecteer op basis van canonieke financiële-analyse-formules zoals nettorentabiliteit, schuldgraad, of liquiditeit. 🤖
+> > 
+> > _Grondslag: doctrine Cijferzakboekje; [[werkkapitaal]]; [[rentabiliteit-totaal-activa-roa]]; [[solvabiliteitsratio]]._
 > 
-> **Geïdentificeerde cijfers** 🤖
+> > [!info]- Bronnen (2)
+> > - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: rentabiliteit-formules
+> > - [[contributiemarge|content/concepten/contributiemarge.md]] · Bouwstenen → ondersteunt: bruto-marge-componenten
 > 
-> 🤖:
-> - Omzet: 8.034.747 of 8.365.788 (afhankelijk van inclusie)
-> - Aankopen: 3.457.309
-> - Diensten en diverse: 1.398.278
-> - Personeelskosten: 1.600.244 (incl. mogelijk -1.665 voorziening pensioenen terugneming)
-> - Andere bedrijfsopbrengsten: 425.554
-> - Exploitatiesubsidies: 1.288
-> - Intrestsubsidies: 14.214
-> - Investeringen MVA boekjaar: 452.835
-> - Werknemers: 38,20 VTE
-> - Voorziening pensioenen teruggenomen: 1.665
-> - Diverse: 1.479.283 / 1.417.747 / 968.829 / 804 / 344.153 / 1.600.244 — verschillende RR-componenten
-> 
-> ### a) Brutoverkoopmarge
-> 
-> **Canonieke formule**
-> 
-> (Cijferzakboekje / Belgisch klassieke financiële analyse):
-> ```
-> brutoverkoopmarge = (toegevoegde waarde + niet-recurrente bedrijfsopbrengsten) × 100 / omzet
-> ```
-> 
-> OF (eenvoudiger): `(omzet − aankopen − diensten/diverse) / omzet`
-> 
-> **Per optie analyse**
-> 
-> - **A**: (1.479.283 + 425.554 + 804) × 100 / (8.034.747 + 344.153) = **22,74 %** → omzet incl. andere bedrijfsopbrengsten als noemer, marge-componenten in teller. ✓ Plausibel als canonieke "brutomarge na bedrijfsopbrengsten".
-> - **B**: (1.417.747 + 425.554 + 804) × 100 / (8.365.788 − 1.600.244) = 27,26 % → omzet 8.365.788 verminderd met personeelskosten → ongebruikelijke formule.
-> - **C**: (1.479.283 + 425.554 + 804 − 1.665) × 100 / (8.034.747 + 344.153 − 1.288) = **22,73 %** → idem A maar met terugneming pensioen + exploitatiesubsidie afgetrokken → strenger.
-> - **D**: (968.829 + ...) /... = 16,66 % → andere cijfers, mogelijk netto-marge.
-> 
-> 🤖 **Beste keuze: A (22,74 %)** of **C (22,73 %)** afhankelijk van hoe ITAA omgaat met voorziening pensioenen en exploitatiesubsidies. Voor Bibf-conventie: subsidies en niet-recurrente posten meestal niet aftrekken → **Optie A**. 🤖
-> 
-> ### b) Personeelskosten t.o.v. toegevoegde waarde
-> 
-> **Formule**
-> 
-> personeelskosten (62) / toegevoegde waarde × 100
-> 
-> **Per optie**
-> 
-> - **A**: (1.600.244 − 1.665) × 100 / (8.365.788 − 1.288 − 3.457.309 − 1.398.278) = 45,56 %
->   → bezoldigingen excl. terugneming pensioen / (omzet excl. subsidies − aankopen − diensten) = TV
-> - Andere opties niet volledig zichtbaar.
-> 
-> 🤖 Voor canonieke berekening: bezoldigingen / TV. Optie A is plausibele formule (TV als noemer). 🤖
-> 
-> **Beste keuze: A (45,56 %)** 🤖
-> 
-> 🤖
-> 
-> ### c) en d) niet volledig zichtbaar in extract
-> 
-> (Punten 2+2 + er zijn 4 deelvragen — vraagtekst-extract is mogelijk afgebroken na deelvraag b.)
-> 
-> 🤖 Voor c) en d) staan formules in de respectievelijke MC-opties; selecteer op basis van canonieke financiële-analyse-formules zoals nettorentabiliteit, schuldgraad, of liquiditeit. 🤖
-> 
-> _Grondslag: doctrine Cijferzakboekje; [[werkkapitaal]]; [[rentabiliteit-totaal-activa-roa]]; [[solvabiliteitsratio]]._
-
-> [!info]- Bronnen (2)
-> - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: rentabiliteit-formules
-> - [[contributiemarge|content/concepten/contributiemarge.md]] · Bouwstenen → ondersteunt: bruto-marge-componenten
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: 🤖 De bijlage (balans + RR) is afgeleid uit de cijfers die in de MC-opties zelf staan; de echte ITAA-bijlage werd niet aangereikt. Modelantwoord-keuze gebaseerd op canonieke formule per ratio.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: 🤖 De bijlage (balans + RR) is afgeleid uit de cijfers die in de MC-opties zelf staan; de echte ITAA-bijlage werd niet aangereikt. Modelantwoord-keuze gebaseerd op canonieke formule per ratio.
 
 > [!warning] Gap niveau **extern** — type **reverse_engineered** · sub-type **mc_options_reconstruction**
 > Bijlage gereconstrueerd uit MC-opties — niet de echte ITAA-bijlage.
@@ -3847,76 +3803,75 @@ Antwoord …
 e) Operationele cash flow voor belastingen
 Antwoord …
 
-#### Modelantwoord
-
-a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige waarde per aandeel). b) Fractiewaarde = kapitaal/aantal aandelen (sinds WVV 2019, vervangt nominale waarde). c) Netto-ROA = (nettoresultaat + financiële kosten van schulden) / totaal activa. d) Algemene schuldgraad = totaal schulden / balanstotaal (complement van solvabiliteit). e) Operationele cash flow voor belastingen = EBIT + niet-kas-bestanddelen (afschrijvingen, waardeverminderingen, voorzieningen-mutaties).
-
-> [!success]- Motivering (typed)
-> **a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige **
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige waarde per aandeel). b) Fractiewaarde = kapitaal/aantal aandelen (sinds WVV 2019, vervangt nominale waarde). c) Netto-ROA = (nettoresultaat + financiële kosten van schulden) / totaal activa. d) Algemene schuldgraad = totaal schulden / balanstotaal (complement van solvabiliteit). e) Operationele cash flow voor belastingen = EBIT + niet-kas-bestanddelen (afschrijvingen, waardeverminderingen, voorzieningen-mutaties).
 > 
-> De vijf gevraagde begrippen, met formule + interpretatie:
+> > [!note]- Motivering (typed)
+> > **a) Intrinsieke waarde = EV/aantal aandelen (boekhoudkundige **
+> > 
+> > De vijf gevraagde begrippen, met formule + interpretatie:
+> > 
+> > ### a) Intrinsieke waarde (per aandeel)
+> > 
+> > **Formule**
+> > 
+> > intrinsieke waarde = eigen vermogen / aantal uitgegeven aandelen
+> > 
+> > De boekhoudkundige waarde van één aandeel — de "boekwaarde per aandeel". Toont wat een aandeelhouder theoretisch zou ontvangen bij liquidatie tegen boekwaarde (na schulden afbetalen). 🤖 🤖
+> > 
+> > ⚠️ Verschilt van **marktwaarde** (beurskoers of overnameprijs): die houdt rekening met verwachte toekomstige winsten, marktomstandigheden, synergiën. Intrinsieke = boekhoudkundig, momentopname.
+> > 
+> > ### b) Fractiewaarde (per aandeel)
+> > 
+> > **Formule**
+> > 
+> > fractiewaarde = (geplaatst) kapitaal / aantal aandelen
+> > 
+> > Wat één aandeel theoretisch in het kapitaal vertegenwoordigt — sinds WVV (2019) heet dit "fractiewaarde" in plaats van "nominale waarde" (de oude term). ⚖️ Onder WVV hebben aandelen géén nominale waarde meer; alleen fractiewaarde wordt gebruikt voor referentiedoeleinden (uitgiftepremie-berekening, inbreng in natura-toetsing, etc.). ⚖️
+> > 
+> > ### c) Netto rendabiliteit van de bedrijfsactiva (netto-ROA)
+> > 
+> > **Formule**: netto-ROA = (nettoresultaat ná belasting + financiële kosten van schulden) / totaal activa
+> > 
+> > Meet de economische rentabiliteit van het totaal van bezittingen, **onafhankelijk van financieringsstructuur**. ⚖️ De financiële kosten van schulden worden teruggebracht in de teller omdat het rendement van de bedrijfsactiva niet vertekend mag worden door financiering (eigen vs vreemd vermogen). ⚖️
+> > 
+> > Variant: bruto-ROA = bedrijfsresultaat (EBIT) / totaal activa — vóór belastingen en financiële kosten.
+> > 
+> > _Grondslag: [[rentabiliteit-totaal-activa-roa]] §Bouwstenen_
+> > 
+> > ### d) Algemene schuldgraad
+> > 
+> > **Formule**: algemene schuldgraad = totaal schulden (lange + korte termijn) / totaal passiva (= balanstotaal)
+> > 
+> > Uitgedrukt als percentage. Aanduiding van de financiële afhankelijkheid van derden — het complement van de solvabiliteitsratio: schuldgraad + solvabiliteit = 100 %. ⚖️ Hogere schuldgraad → grotere afhankelijkheid van schuldeisers → minder buffer voor verliezen. ⚖️
+> > 
+> > _Grondslag: [[solvabiliteitsratio]] §Bouwstenen + [[debt-equity-ratio]]_
+> > 
+> > ### e) Operationele cash flow voor belastingen
+> > 
+> > **Formule**: operationele cash flow vóór belastingen = bedrijfsresultaat (EBIT) + afschrijvingen + waardeverminderingen + toevoegingen aan voorzieningen − bestedingen van voorzieningen
+> > 
+> > De "klassieke cashflow" of "boekhoudkundige cashflow vóór belastingen" — het bedrijfsresultaat gecorrigeerd voor **niet-kas-bestanddelen** (klasse 63 in RR). ⚖️ Geeft een ruwe indicator van de operationele kasgenereringscapaciteit, voor de impact van belastingen. Het is een vertaling van het boekhoudkundig resultaat naar een cashflow-benadering — niet de echte "cash flow from operations" uit IFRS (die ook werkkapitaalmutaties bevat). ⚖️
+> > 
+> > _Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen_
+> > 
+> > _Grondslag: WVV art. 5:7 + CBN 2021/01 §Uitgiftepremie._
 > 
-> ### a) Intrinsieke waarde (per aandeel)
+> > [!info]- Bronnen (5)
+> > - [[uitgiftepremie|content/concepten/uitgiftepremie.md]] · Definitie → ondersteunt: b) fractiewaarde sinds WVV
+> > - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: c) ROA-formule
+> > - [[solvabiliteitsratio|content/concepten/solvabiliteitsratio.md]] · Bouwstenen → ondersteunt: d) schuldgraad = 1 - solvabiliteit
+> > - [[bedrijfsresultaat|content/concepten/bedrijfsresultaat.md]] · Bouwstenen — niet-kas-rubrieken klasse 63 → ondersteunt: e) operationele cashflow
+> > - [[cashflow-analyse|content/concepten/cashflow-analyse.md]] · Bouwstenen → ondersteunt: e) cashflow-formule
 > 
-> **Formule**
-> 
-> intrinsieke waarde = eigen vermogen / aantal uitgegeven aandelen
-> 
-> De boekhoudkundige waarde van één aandeel — de "boekwaarde per aandeel". Toont wat een aandeelhouder theoretisch zou ontvangen bij liquidatie tegen boekwaarde (na schulden afbetalen). 🤖 🤖
-> 
-> ⚠️ Verschilt van **marktwaarde** (beurskoers of overnameprijs): die houdt rekening met verwachte toekomstige winsten, marktomstandigheden, synergiën. Intrinsieke = boekhoudkundig, momentopname.
-> 
-> ### b) Fractiewaarde (per aandeel)
-> 
-> **Formule**
-> 
-> fractiewaarde = (geplaatst) kapitaal / aantal aandelen
-> 
-> Wat één aandeel theoretisch in het kapitaal vertegenwoordigt — sinds WVV (2019) heet dit "fractiewaarde" in plaats van "nominale waarde" (de oude term). ⚖️ Onder WVV hebben aandelen géén nominale waarde meer; alleen fractiewaarde wordt gebruikt voor referentiedoeleinden (uitgiftepremie-berekening, inbreng in natura-toetsing, etc.). ⚖️
-> 
-> ### c) Netto rendabiliteit van de bedrijfsactiva (netto-ROA)
-> 
-> **Formule**: netto-ROA = (nettoresultaat ná belasting + financiële kosten van schulden) / totaal activa
-> 
-> Meet de economische rentabiliteit van het totaal van bezittingen, **onafhankelijk van financieringsstructuur**. ⚖️ De financiële kosten van schulden worden teruggebracht in de teller omdat het rendement van de bedrijfsactiva niet vertekend mag worden door financiering (eigen vs vreemd vermogen). ⚖️
-> 
-> Variant: bruto-ROA = bedrijfsresultaat (EBIT) / totaal activa — vóór belastingen en financiële kosten.
-> 
-> _Grondslag: [[rentabiliteit-totaal-activa-roa]] §Bouwstenen_
-> 
-> ### d) Algemene schuldgraad
-> 
-> **Formule**: algemene schuldgraad = totaal schulden (lange + korte termijn) / totaal passiva (= balanstotaal)
-> 
-> Uitgedrukt als percentage. Aanduiding van de financiële afhankelijkheid van derden — het complement van de solvabiliteitsratio: schuldgraad + solvabiliteit = 100 %. ⚖️ Hogere schuldgraad → grotere afhankelijkheid van schuldeisers → minder buffer voor verliezen. ⚖️
-> 
-> _Grondslag: [[solvabiliteitsratio]] §Bouwstenen + [[debt-equity-ratio]]_
-> 
-> ### e) Operationele cash flow voor belastingen
-> 
-> **Formule**: operationele cash flow vóór belastingen = bedrijfsresultaat (EBIT) + afschrijvingen + waardeverminderingen + toevoegingen aan voorzieningen − bestedingen van voorzieningen
-> 
-> De "klassieke cashflow" of "boekhoudkundige cashflow vóór belastingen" — het bedrijfsresultaat gecorrigeerd voor **niet-kas-bestanddelen** (klasse 63 in RR). ⚖️ Geeft een ruwe indicator van de operationele kasgenereringscapaciteit, voor de impact van belastingen. Het is een vertaling van het boekhoudkundig resultaat naar een cashflow-benadering — niet de echte "cash flow from operations" uit IFRS (die ook werkkapitaalmutaties bevat). ⚖️
-> 
-> _Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen_
-> 
-> _Grondslag: WVV art. 5:7 + CBN 2021/01 §Uitgiftepremie._
-
-> [!info]- Bronnen (5)
-> - [[uitgiftepremie|content/concepten/uitgiftepremie.md]] · Definitie → ondersteunt: b) fractiewaarde sinds WVV
-> - [[rentabiliteit-totaal-activa-roa|content/concepten/rentabiliteit-totaal-activa-roa.md]] · Bouwstenen → ondersteunt: c) ROA-formule
-> - [[solvabiliteitsratio|content/concepten/solvabiliteitsratio.md]] · Bouwstenen → ondersteunt: d) schuldgraad = 1 - solvabiliteit
-> - [[bedrijfsresultaat|content/concepten/bedrijfsresultaat.md]] · Bouwstenen — niet-kas-rubrieken klasse 63 → ondersteunt: e) operationele cashflow
-> - [[cashflow-analyse|content/concepten/cashflow-analyse.md]] · Bouwstenen → ondersteunt: e) cashflow-formule
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -3979,57 +3934,56 @@ Antwoord … / punten
 | Overige schulden | 47/48 |   |   |
 | Overlopende rekeningen van het passief | 492/3 |   |   |
 
-#### Modelantwoord
-
-Componenten van werkkapitaalbehoefte = posten van de operationele cyclus. JA: voorraden (30/36), bestellingen in uitvoering (37), handelsvorderingen (40), operationele vorderingen (41), handelsschulden (44), fiscale/sociale schulden (45), ontvangen vooruitbetalingen (46), overlopende rekeningen (492/493). NEE: vaste activa (22/27, 28), vorderingen >1jr (29), geldbeleggingen (50/53), liquide middelen (54/58), lange-termijn schulden (17), financiële schulden korte termijn (43, 42).
-
-> [!success]- Motivering (typed)
-> De werkkapitaalbehoefte is de financieringsbehoefte van de **operationele cyclus** ([[werkkapitaalbehoefte]]):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Componenten van werkkapitaalbehoefte = posten van de operationele cyclus. JA: voorraden (30/36), bestellingen in uitvoering (37), handelsvorderingen (40), operationele vorderingen (41), handelsschulden (44), fiscale/sociale schulden (45), ontvangen vooruitbetalingen (46), overlopende rekeningen (492/493). NEE: vaste activa (22/27, 28), vorderingen >1jr (29), geldbeleggingen (50/53), liquide middelen (54/58), lange-termijn schulden (17), financiële schulden korte termijn (43, 42).
 > 
-> **Formule**: werkkapitaalbehoefte = voorraden + handelsvorderingen + andere operationele vlottende activa − handelsschulden − andere operationele kortlopende schulden.
+> > [!note]- Motivering (typed)
+> > De werkkapitaalbehoefte is de financieringsbehoefte van de **operationele cyclus** ([[werkkapitaalbehoefte]]):
+> > 
+> > **Formule**: werkkapitaalbehoefte = voorraden + handelsvorderingen + andere operationele vlottende activa − handelsschulden − andere operationele kortlopende schulden.
+> > 
+> > Een post hoort **in de berekening** als ze deel uitmaakt van de operationele cyclus (productie → verkoop → inning ↔ aankoop → betaling). Vaste activa, financiële beleggingen, zuiver financiële schulden en eigen vermogen horen er **niet** in.
+> > 
+> > ### Per code in de tabel (ja/nee + grondslag):### Kernregel (samenvatting):
+> > 
+> > ✓ **JA** = activa/passiva van de **operationele cyclus** (voorraden, handelsvorderingen, handelsschulden, sociale/fiscale schulden, overlopende rekeningen, vooruitbetalingen)
+> > ✗ **NEE** = **vaste activa, financiële beleggingen, financiële schulden, lange-termijn posten, thesaurie** (geldbeleggingen + liquide middelen)
+> > 
+> > | Code | Post | In berekening? | Reden |
+> > |---|---|---|---|
+> > | 22/27 | Materiële vaste activa | **NEE** | Geen onderdeel van operationele cyclus; financiering daarvan moet via lange-termijn vermogen (eigen vermogen + lange-termijn schulden) — werkkapitaal hoort. ⚖️ |
+> > | 28 | Financiële vaste activa | **NEE** | Idem als 22/27 — duurzame beleggingen, geen operationele cyclus. ⚖️ |
+> > | 29 | Vorderingen op meer dan één jaar | **NEE** | Lange termijn → buiten operationele cyclus. ⚖️ |
+> > | 30/36 | Voorraden | **JA** | Klassiek operationeel actief; voorraad-binding is een component van werkkapitaalbehoefte. ⚖️ |
+> > | 37 | Bestellingen in uitvoering | **JA** | Operationeel: werk in uitvoering is voorraadgerelateerd. ⚖️ |
+> > | 40 | Handelsvorderingen op ten hoogste één jaar | **JA** | Operationeel: klantenkrediet is core van werkkapitaalbehoefte. ⚖️ |
+> > | 41 | Overige vorderingen op ten hoogste één jaar | **JA** (afhankelijk) | Wanneer ze operationeel zijn (BTW-tegoeden, RSZ-tegoeden) — JA; wanneer financieel (rekening-courant verbonden ondernemingen) — NEE. 🤖 |
+> > | 50/53 | Geldbeleggingen | **NEE** | Financiële post (liquiditeit/thesaurie), geen operationele cyclus. ⚖️ |
+> > | 54/58 | Liquide middelen | **NEE** | Thesaurie-post, geen werkkapitaalbehoefte-component (zit aan thesaurie-zijde). ⚖️ |
+> > | 17 | Schulden op meer dan één jaar | **NEE** | Lange termijn → buiten operationele cyclus. ⚖️ |
+> > | 42 | Schulden op meer dan één jaar die binnen het jaar vervallen | **NEE** | Financieel, niet operationeel. 🤖 |
+> > | 43 | Financiële schulden op ten hoogste één jaar | **NEE** | Korte termijn financiering (kaskrediet, kortlopende leningen) — financieel, niet operationeel. ⚖️ |
+> > | 44 | Handelsschulden | **JA** | Klassiek operationeel passief; leverancierskrediet reduceert de werkkapitaalbehoefte. ⚖️ |
+> > | 45 | Schulden m.b.t. belastingen, bezoldigingen en sociale lasten | **JA** | Operationeel: kortlopende verplichtingen die uit de exploitatie voortvloeien. ⚖️ |
+> > | 46 | Ontvangen vooruitbetalingen op bestellingen | **JA** | Klanten-vooruitbetalingen → operationele financiering, reduceren werkkapitaalbehoefte. 🤖 |
+> > | 48 | Overige schulden | **JA** (afhankelijk) | Wanneer operationeel — JA; wanneer financieel — NEE. 🤖 |
+> > | 492/493 | Overlopende rekeningen | **JA** | Operationele timing-correcties (verkregen opbrengsten, toe te rekenen kosten). 🤖 |
+> > 
+> > _Grondslag: [[werkkapitaalbehoefte]] §Bouwstenen + §Berekening; [[werkkapitaal]] §Bouwstenen — verschil met thesaurie._
 > 
-> Een post hoort **in de berekening** als ze deel uitmaakt van de operationele cyclus (productie → verkoop → inning ↔ aankoop → betaling). Vaste activa, financiële beleggingen, zuiver financiële schulden en eigen vermogen horen er **niet** in.
+> > [!info]- Bronnen (3)
+> > - [[werkkapitaalbehoefte|content/concepten/werkkapitaalbehoefte.md]] · Bouwstenen + Berekening → ondersteunt: componenten van werkkapitaalbehoefte
+> > - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen → ondersteunt: werkkapitaal vs werkkapitaalbehoefte
+> > - [[bepalen-behoefte-aan-bedrijfskapitaal|content/concepten/bepalen-behoefte-aan-bedrijfskapitaal.md]] · Stappen → ondersteunt: identificatie operationele cyclus
 > 
-> ### Per code in de tabel (ja/nee + grondslag):### Kernregel (samenvatting):
-> 
-> ✓ **JA** = activa/passiva van de **operationele cyclus** (voorraden, handelsvorderingen, handelsschulden, sociale/fiscale schulden, overlopende rekeningen, vooruitbetalingen)
-> ✗ **NEE** = **vaste activa, financiële beleggingen, financiële schulden, lange-termijn posten, thesaurie** (geldbeleggingen + liquide middelen)
-> 
-> | Code | Post | In berekening? | Reden |
-> |---|---|---|---|
-> | 22/27 | Materiële vaste activa | **NEE** | Geen onderdeel van operationele cyclus; financiering daarvan moet via lange-termijn vermogen (eigen vermogen + lange-termijn schulden) — werkkapitaal hoort. ⚖️ |
-> | 28 | Financiële vaste activa | **NEE** | Idem als 22/27 — duurzame beleggingen, geen operationele cyclus. ⚖️ |
-> | 29 | Vorderingen op meer dan één jaar | **NEE** | Lange termijn → buiten operationele cyclus. ⚖️ |
-> | 30/36 | Voorraden | **JA** | Klassiek operationeel actief; voorraad-binding is een component van werkkapitaalbehoefte. ⚖️ |
-> | 37 | Bestellingen in uitvoering | **JA** | Operationeel: werk in uitvoering is voorraadgerelateerd. ⚖️ |
-> | 40 | Handelsvorderingen op ten hoogste één jaar | **JA** | Operationeel: klantenkrediet is core van werkkapitaalbehoefte. ⚖️ |
-> | 41 | Overige vorderingen op ten hoogste één jaar | **JA** (afhankelijk) | Wanneer ze operationeel zijn (BTW-tegoeden, RSZ-tegoeden) — JA; wanneer financieel (rekening-courant verbonden ondernemingen) — NEE. 🤖 |
-> | 50/53 | Geldbeleggingen | **NEE** | Financiële post (liquiditeit/thesaurie), geen operationele cyclus. ⚖️ |
-> | 54/58 | Liquide middelen | **NEE** | Thesaurie-post, geen werkkapitaalbehoefte-component (zit aan thesaurie-zijde). ⚖️ |
-> | 17 | Schulden op meer dan één jaar | **NEE** | Lange termijn → buiten operationele cyclus. ⚖️ |
-> | 42 | Schulden op meer dan één jaar die binnen het jaar vervallen | **NEE** | Financieel, niet operationeel. 🤖 |
-> | 43 | Financiële schulden op ten hoogste één jaar | **NEE** | Korte termijn financiering (kaskrediet, kortlopende leningen) — financieel, niet operationeel. ⚖️ |
-> | 44 | Handelsschulden | **JA** | Klassiek operationeel passief; leverancierskrediet reduceert de werkkapitaalbehoefte. ⚖️ |
-> | 45 | Schulden m.b.t. belastingen, bezoldigingen en sociale lasten | **JA** | Operationeel: kortlopende verplichtingen die uit de exploitatie voortvloeien. ⚖️ |
-> | 46 | Ontvangen vooruitbetalingen op bestellingen | **JA** | Klanten-vooruitbetalingen → operationele financiering, reduceren werkkapitaalbehoefte. 🤖 |
-> | 48 | Overige schulden | **JA** (afhankelijk) | Wanneer operationeel — JA; wanneer financieel — NEE. 🤖 |
-> | 492/493 | Overlopende rekeningen | **JA** | Operationele timing-correcties (verkregen opbrengsten, toe te rekenen kosten). 🤖 |
-> 
-> _Grondslag: [[werkkapitaalbehoefte]] §Bouwstenen + §Berekening; [[werkkapitaal]] §Bouwstenen — verschil met thesaurie._
-
-> [!info]- Bronnen (3)
-> - [[werkkapitaalbehoefte|content/concepten/werkkapitaalbehoefte.md]] · Bouwstenen + Berekening → ondersteunt: componenten van werkkapitaalbehoefte
-> - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen → ondersteunt: werkkapitaal vs werkkapitaalbehoefte
-> - [[bepalen-behoefte-aan-bedrijfskapitaal|content/concepten/bepalen-behoefte-aan-bedrijfskapitaal.md]] · Stappen → ondersteunt: identificatie operationele cyclus
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -4083,84 +4037,83 @@ E. Alfa is verlieslatend. Verhoging van de afschrijving op gebouwen door verkort
 > | E.c | Geen | juist | Gebouwen-afschrijving wordt typisch onder algemene bedrijfskosten geboekt, niet onder kostprijs verkopen — geen effect op brutomarge. |
 > | E.d | Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt | fout | Verhoogde kost veroorzaakt geen marge-stijging. |
 
-#### Modelantwoord
-
-A. Financiële onafhankelijkheid = EV/balanstotaal; > 40 % = sterk. B. DSO (n-dagen klantenkrediet) kan NIET berekend uit verkort schema (omzet ontbreekt). C. Passiva-volgorde: EV → Voorzieningen → Schulden >1jr → Schulden ≤1jr → Overlopende rek (toenemende eisbaarheid). D. EV = Kapitaal + Reserves + Overgedragen resultaat + Kapitaalsubsidies − Eigen aandelen − Niet-gestort. E. Verhoogde afschrijving gebouwen → c. Geen effect op bruto verkoopmarge (afschrijving niet in kostprijs verkochte goederen).
-
-> [!success]- Motivering (typed)
-> ### A. Stellingen financiële onafhankelijkheid
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: A. Financiële onafhankelijkheid = EV/balanstotaal; > 40 % = sterk. B. DSO (n-dagen klantenkrediet) kan NIET berekend uit verkort schema (omzet ontbreekt). C. Passiva-volgorde: EV → Voorzieningen → Schulden >1jr → Schulden ≤1jr → Overlopende rek (toenemende eisbaarheid). D. EV = Kapitaal + Reserves + Overgedragen resultaat + Kapitaalsubsidies − Eigen aandelen − Niet-gestort. E. Verhoogde afschrijving gebouwen → c. Geen effect op bruto verkoopmarge (afschrijving niet in kostprijs verkochte goederen).
 > 
-> 🤖 Vraagtekst toont niet de exacte stellingen — generieke regels: 🤖
+> > [!note]- Motivering (typed)
+> > ### A. Stellingen financiële onafhankelijkheid
+> > 
+> > 🤖 Vraagtekst toont niet de exacte stellingen — generieke regels: 🤖
+> > 
+> > - Financiële onafhankelijkheid (= solvabiliteitsratio = EV / balanstotaal) > 40 % wordt als sterk beschouwd
+> > - Stijgende schuldgraad = afnemende onafhankelijkheid
+> > - Onafhankelijkheid daalt bij negatieve resultaten zonder kapitaalverhoging
+> > - Eigen kapitaal versterken (winstreservering, kapitaalverhoging) verhoogt onafhankelijkheid
+> > 
+> > ### B. Ratio die niet berekend kan worden op basis van verkort schema
+> > 
+> > **n-dagen klantenkrediet**
+> > 
+> > (DSO = Days Sales Outstanding) vereist de **omzet** als input:
+> > ```
+> > DSO = (handelsvorderingen / omzet) × 365
+> > ```
+> > 
+> > Het **verkort schema** (KB WVV bijlage) toont geen omzet (rek 70) maar enkel **brutomarge** (omzet − aankopen). De omzet zelf is niet zichtbaar. ⚖️ Daarom kan **DSO niet exact berekend worden** uit het verkort schema. ⚖️ ⚖️
+> > 
+> > Andere ratio's wel berekenbaar uit verkort schema:
+> > - Solvabiliteit (EV / balanstotaal) ✓
+> > - Liquiditeit (vlottende / kortlopende schulden) ✓
+> > - Schuldgraad ✓
+> > 
+> > ### C. Volgorde rubrieken passiva: toenemende eisbaarheid
+> > 
+> > Op de Belgische balans (KB WVV bijlage) zijn passiva gerangschikt **van minst naar meest eisbaar** (toenemende eisbaarheid): ⚖️ ⚖️
+> > 
+> > 1. **Eigen vermogen** (kapitaal, reserves, overgedragen resultaat) — niet eisbaar
+> > 2. **Voorzieningen** (klasse 16) — onzeker, niet onmiddellijk eisbaar
+> > 3. **Schulden op meer dan één jaar** (klasse 17)
+> > 4. **Schulden op ten hoogste één jaar** (klasse 42-48)
+> > 5. **Overlopende rekeningen** (klasse 492) — eindperiode-correcties
+> > 
+> > ⚖️ Dit verschilt van IFRS-balans (vlottend vs niet-vlottend, alfabetisch of liquiditeits-gesorteerd). ⚖️
+> > 
+> > ### D. EV-berekening uit jaarrekening kort model NBB
+> > 
+> > EV = Geplaatst kapitaal + Onbeschikbare reserves + Beschikbare reserves + Overgedragen resultaat + Kapitaalsubsidies − Eigen aandelen − Inbrengen niet gestort. ⚖️ Specifieke berekening hangt af van welke posten zichtbaar zijn in de kort-model-presentatie. ⚖️
+> > 
+> > ### E. Verhoogde afschrijving op gebouwen — effect op bruto verkoopmarge
+> > 
+> > **Bruto verkoopmarge**
+> > 
+> > = omzet − kostprijs verkochte goederen ([[contributiemarge]]).
+> > 
+> > Een **verhoging van de afschrijving op gebouwen** is een **niet-direct-toewijsbare bedrijfskost**. Onder Belgische jaarrekeningstandaard:
+> > - Gebouw-afschrijvingen worden typisch geclassificeerd onder **rek 6302 Afschrijvingen op MVA** = onder bedrijfskosten **niet onder kostprijs verkochte goederen**.
+> > - Bruto verkoopmarge wordt berekend **vóór** afschrijvingskosten → **geen direct effect** ⚖️. ⚖️
+> > 
+> > **: **c. Geen effect** op bruto verkoopmarge. ⚖️ ⚖️
+> > 
+> > 🤖 Aanvullende nuance (optie d): indien de afschrijving als **kostprijs van verkopen** (rek 60-categorie of productie-overhead) zou worden geboekt — wat het geval is voor productie-gebonden afschrijvingen (bv. een productiefabriek) — dan **wel daling** van bruto verkoopmarge. Maar standaard-classificatie van gebouwen-afschrijving is in algemene kosten, geen kostprijs verkopen → c. Geen effect is correct. 🤖
+> > 
+> > **Conclusie**: MC
+> > 
+> > _Grondslag: KB WVV (balans-schema); [[contributiemarge]] §Definitie + §Bouwstenen; doctrine financiële analyse._
 > 
-> - Financiële onafhankelijkheid (= solvabiliteitsratio = EV / balanstotaal) > 40 % wordt als sterk beschouwd
-> - Stijgende schuldgraad = afnemende onafhankelijkheid
-> - Onafhankelijkheid daalt bij negatieve resultaten zonder kapitaalverhoging
-> - Eigen kapitaal versterken (winstreservering, kapitaalverhoging) verhoogt onafhankelijkheid
+> > [!info]- Bronnen (4)
+> > - [[solvabiliteitsratio|content/concepten/solvabiliteitsratio.md]] · Bouwstenen → ondersteunt: A. financiële onafhankelijkheid
+> > - [[bepalen-jaarrekeningschema|content/concepten/bepalen-jaarrekeningschema.md]] · Stappen → ondersteunt: B. verkort schema beperkingen
+> > - [[balans|content/concepten/balans.md]] · Bouwstenen → ondersteunt: C. passiva-volgorde toenemende eisbaarheid
+> > - [[contributiemarge|content/concepten/contributiemarge.md]] · Bouwstenen → ondersteunt: E. bruto verkoopmarge-definitie
 > 
-> ### B. Ratio die niet berekend kan worden op basis van verkort schema
-> 
-> **n-dagen klantenkrediet**
-> 
-> (DSO = Days Sales Outstanding) vereist de **omzet** als input:
-> ```
-> DSO = (handelsvorderingen / omzet) × 365
-> ```
-> 
-> Het **verkort schema** (KB WVV bijlage) toont geen omzet (rek 70) maar enkel **brutomarge** (omzet − aankopen). De omzet zelf is niet zichtbaar. ⚖️ Daarom kan **DSO niet exact berekend worden** uit het verkort schema. ⚖️ ⚖️
-> 
-> Andere ratio's wel berekenbaar uit verkort schema:
-> - Solvabiliteit (EV / balanstotaal) ✓
-> - Liquiditeit (vlottende / kortlopende schulden) ✓
-> - Schuldgraad ✓
-> 
-> ### C. Volgorde rubrieken passiva: toenemende eisbaarheid
-> 
-> Op de Belgische balans (KB WVV bijlage) zijn passiva gerangschikt **van minst naar meest eisbaar** (toenemende eisbaarheid): ⚖️ ⚖️
-> 
-> 1. **Eigen vermogen** (kapitaal, reserves, overgedragen resultaat) — niet eisbaar
-> 2. **Voorzieningen** (klasse 16) — onzeker, niet onmiddellijk eisbaar
-> 3. **Schulden op meer dan één jaar** (klasse 17)
-> 4. **Schulden op ten hoogste één jaar** (klasse 42-48)
-> 5. **Overlopende rekeningen** (klasse 492) — eindperiode-correcties
-> 
-> ⚖️ Dit verschilt van IFRS-balans (vlottend vs niet-vlottend, alfabetisch of liquiditeits-gesorteerd). ⚖️
-> 
-> ### D. EV-berekening uit jaarrekening kort model NBB
-> 
-> EV = Geplaatst kapitaal + Onbeschikbare reserves + Beschikbare reserves + Overgedragen resultaat + Kapitaalsubsidies − Eigen aandelen − Inbrengen niet gestort. ⚖️ Specifieke berekening hangt af van welke posten zichtbaar zijn in de kort-model-presentatie. ⚖️
-> 
-> ### E. Verhoogde afschrijving op gebouwen — effect op bruto verkoopmarge
-> 
-> **Bruto verkoopmarge**
-> 
-> = omzet − kostprijs verkochte goederen ([[contributiemarge]]).
-> 
-> Een **verhoging van de afschrijving op gebouwen** is een **niet-direct-toewijsbare bedrijfskost**. Onder Belgische jaarrekeningstandaard:
-> - Gebouw-afschrijvingen worden typisch geclassificeerd onder **rek 6302 Afschrijvingen op MVA** = onder bedrijfskosten **niet onder kostprijs verkochte goederen**.
-> - Bruto verkoopmarge wordt berekend **vóór** afschrijvingskosten → **geen direct effect** ⚖️. ⚖️
-> 
-> **: **c. Geen effect** op bruto verkoopmarge. ⚖️ ⚖️
-> 
-> 🤖 Aanvullende nuance (optie d): indien de afschrijving als **kostprijs van verkopen** (rek 60-categorie of productie-overhead) zou worden geboekt — wat het geval is voor productie-gebonden afschrijvingen (bv. een productiefabriek) — dan **wel daling** van bruto verkoopmarge. Maar standaard-classificatie van gebouwen-afschrijving is in algemene kosten, geen kostprijs verkopen → c. Geen effect is correct. 🤖
-> 
-> **Conclusie**: MC
-> 
-> _Grondslag: KB WVV (balans-schema); [[contributiemarge]] §Definitie + §Bouwstenen; doctrine financiële analyse._
-
-> [!info]- Bronnen (4)
-> - [[solvabiliteitsratio|content/concepten/solvabiliteitsratio.md]] · Bouwstenen → ondersteunt: A. financiële onafhankelijkheid
-> - [[bepalen-jaarrekeningschema|content/concepten/bepalen-jaarrekeningschema.md]] · Stappen → ondersteunt: B. verkort schema beperkingen
-> - [[balans|content/concepten/balans.md]] · Bouwstenen → ondersteunt: C. passiva-volgorde toenemende eisbaarheid
-> - [[contributiemarge|content/concepten/contributiemarge.md]] · Bouwstenen → ondersteunt: E. bruto verkoopmarge-definitie
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -4180,33 +4133,32 @@ volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aan
 die worden gehouden door andere personen dan de consoliderende vennootschap of de in
 de consolidatie opgenomen dochterondernemingen moet worden vermeld.
 
-#### Modelantwoord
-
-De post "Aandeel van derden in het resultaat" — afzonderlijk vermeld in de geconsolideerde resultatenrekening, bij integrale consolidatie.
-
-> [!success]- Motivering (typed)
-> Onder de post **"Aandeel van derden in het resultaat"** in de geconsolideerde resultatenrekening. ⚖️ ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De post "Aandeel van derden in het resultaat" — afzonderlijk vermeld in de geconsolideerde resultatenrekening, bij integrale consolidatie.
 > 
-> - **Berekening van het bedrag**: (1 − belangenpercentage van de moeder) × resultaat van het boekjaar van de dochter. ⚖️
-> - **Aard van de post**: het is een **resultaattoewijzende post**, geen kost en geen opbrengst — ze wordt afzonderlijk getoond ná het 'Resultaat van het boekjaar' om het deel dat aan de groep toekomt te scheiden van het deel dat aan minderheidsaandeelhouders toekomt. ⚖️
-> - **Methode-conditionaliteit**: deze post bestaat **uitsluitend bij integrale consolidatie**. Bij evenredige consolidatie wordt het derden-deel niet opgenomen (geen aparte post); bij vermogensmutatie zit alleen het pro-rata moeder-aandeel in de balans (idem geen aparte post). De vraagtekst specificeert 'volledig geconsolideerde dochterondernemingen' → impliciet integrale consolidatie. ⚖️
-> - **Schemacode**: de wet definieert geen vaste Romeinse-cijfer-code voor RR-posten in het geconsolideerd schema — enkel de post-naam. (Vergelijk met de balans, waar 'Belangen van derden' wel in een vaste post X. zit aan passiefzijde.) Dus 'post-naam' = 'post-aanduiding'. 🤖 🤖
+> > [!note]- Motivering (typed)
+> > Onder de post **"Aandeel van derden in het resultaat"** in de geconsolideerde resultatenrekening. ⚖️ ⚖️
+> > 
+> > - **Berekening van het bedrag**: (1 − belangenpercentage van de moeder) × resultaat van het boekjaar van de dochter. ⚖️
+> > - **Aard van de post**: het is een **resultaattoewijzende post**, geen kost en geen opbrengst — ze wordt afzonderlijk getoond ná het 'Resultaat van het boekjaar' om het deel dat aan de groep toekomt te scheiden van het deel dat aan minderheidsaandeelhouders toekomt. ⚖️
+> > - **Methode-conditionaliteit**: deze post bestaat **uitsluitend bij integrale consolidatie**. Bij evenredige consolidatie wordt het derden-deel niet opgenomen (geen aparte post); bij vermogensmutatie zit alleen het pro-rata moeder-aandeel in de balans (idem geen aparte post). De vraagtekst specificeert 'volledig geconsolideerde dochterondernemingen' → impliciet integrale consolidatie. ⚖️
+> > - **Schemacode**: de wet definieert geen vaste Romeinse-cijfer-code voor RR-posten in het geconsolideerd schema — enkel de post-naam. (Vergelijk met de balans, waar 'Belangen van derden' wel in een vaste post X. zit aan passiefzijde.) Dus 'post-naam' = 'post-aanduiding'. 🤖 🤖
+> > 
+> > _Grondslag: KB WVV art. 3:137 (afzondering derden-resultaat) jo. KB WVV art. 3:107 (vormvereisten geconsolideerde jaarrekening — afzonderlijke vermelding van belangen van derden zowel in balans als in resultatenrekening)._
 > 
-> _Grondslag: KB WVV art. 3:137 (afzondering derden-resultaat) jo. KB WVV art. 3:107 (vormvereisten geconsolideerde jaarrekening — afzonderlijke vermelding van belangen van derden zowel in balans als in resultatenrekening)._
-
-> [!info]- Bronnen (3)
-> - [[minderheidsbelangen|content/concepten/minderheidsbelangen.md]] · Berekening (stappen 1-4) → ondersteunt: post-naam + formule
-> - [[minderheidsbelangen|content/concepten/minderheidsbelangen.md]] · In de praktijk (Enkel bij integrale consolidatie) → ondersteunt: methode-conditionaliteit
-> - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Bouwstenen — Vormvereisten en compensatieverbod → ondersteunt: grondslag KB WVV art. 3:107
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: presentatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Bronnen (3)
+> > - [[minderheidsbelangen|content/concepten/minderheidsbelangen.md]] · Berekening (stappen 1-4) → ondersteunt: post-naam + formule
+> > - [[minderheidsbelangen|content/concepten/minderheidsbelangen.md]] · In de praktijk (Enkel bij integrale consolidatie) → ondersteunt: methode-conditionaliteit
+> > - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Bouwstenen — Vormvereisten en compensatieverbod → ondersteunt: grondslag KB WVV art. 3:107
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: presentatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -4221,33 +4173,32 @@ jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hi
 afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
 INTERNE CONTROLE EN ACCOUNTANTSONDERZOEK
 
-#### Modelantwoord
-
-Maximaal 3 maanden (vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening), met verplichte motivering in de toelichting.
-
-> [!success]- Motivering (typed)
-> **Maximaal 3 maanden** ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Maximaal 3 maanden (vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening), met verplichte motivering in de toelichting.
 > 
-> — vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening. ⚖️
+> > [!note]- Motivering (typed)
+> > **Maximaal 3 maanden** ⚖️
+> > 
+> > — vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening. ⚖️
+> > 
+> > **Voorwaarde voor toepassing**: deze afwijking is alleen toegestaan wanneer het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van een groepsvennootschap op de afsluitingsdatum van de geconsolideerde jaarrekening op te nemen, of wanneer dat de opstelling en publicatie van de geconsolideerde jaarrekening uitermate zou vertragen. ⚖️ ⚖️
+> > 
+> > **Verplichte motivering**: de afwijking moet gemotiveerd worden in de toelichting bij de geconsolideerde jaarrekening. ⚖️ ⚖️
+> > 
+> > _Grondslag: KB WVV art. 3:110, tweede lid: 'Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen.'._
 > 
-> **Voorwaarde voor toepassing**: deze afwijking is alleen toegestaan wanneer het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van een groepsvennootschap op de afsluitingsdatum van de geconsolideerde jaarrekening op te nemen, of wanneer dat de opstelling en publicatie van de geconsolideerde jaarrekening uitermate zou vertragen. ⚖️ ⚖️
+> > [!info]- Bronnen (2)
+> > - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Drempelwaarden → ondersteunt: cijfer 3 maanden
+> > - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Bouwstenen — Afsluitingsdatum → ondersteunt: voorwaarde + motivering
 > 
-> **Verplichte motivering**: de afwijking moet gemotiveerd worden in de toelichting bij de geconsolideerde jaarrekening. ⚖️ ⚖️
-> 
-> _Grondslag: KB WVV art. 3:110, tweede lid: 'Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen.'._
-
-> [!info]- Bronnen (2)
-> - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Drempelwaarden → ondersteunt: cijfer 3 maanden
-> - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Bouwstenen — Afsluitingsdatum → ondersteunt: voorwaarde + motivering
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: drempel_cijfer
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: drempel_cijfer
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -4259,21 +4210,20 @@ Maximaal 3 maanden (vóór of na de afsluitingsdatum van de geconsolideerde jaar
 
 _(geen vraagtekst beschikbaar)_
 
-#### Modelantwoord
-
-Zie antwoorden per subvraag (a en b).
-
-> [!success]- Motivering (typed)
-> Combinatievraag — definitie + opsomming. Zie subvragen[].antwoord_motivering per deelvraag.
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Identieke vraag aan 2015-1-vr11 (definitie + 4 oorzaken positief consolidatieverschil) — antwoord-content gespiegeld; bronnen + grondslag onveranderd.
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Zie antwoorden per subvraag (a en b).
+> 
+> > [!note]- Motivering (typed)
+> > Combinatievraag — definitie + opsomming. Zie subvragen[].antwoord_motivering per deelvraag.
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Identieke vraag aan 2015-1-vr11 (definitie + 4 oorzaken positief consolidatieverschil) — antwoord-content gespiegeld; bronnen + grondslag onveranderd.
 
 #### Subvraag a)
 
@@ -4281,35 +4231,34 @@ Zie antwoorden per subvraag (a en b).
 
 **Antwoord-type**: definitie
 
-#### Modelantwoord
-
-Het consolidatieverschil dat ontstaat wanneer de moeder voor de aandelen méér betaalt dan haar pro-rata aandeel in het eigen vermogen van de dochter op aankoopdatum (na toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden). Het residu is dan positief en wordt aan actiefzijde van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen', afgeschreven over de vermoedelijke gebruiksduur.
-
-> [!success]- Motivering (typed)
-> **Het consolidatieverschil dat ontstaat wanneer de moeder voor** ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Het consolidatieverschil dat ontstaat wanneer de moeder voor de aandelen méér betaalt dan haar pro-rata aandeel in het eigen vermogen van de dochter op aankoopdatum (na toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden). Het residu is dan positief en wordt aan actiefzijde van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen', afgeschreven over de vermoedelijke gebruiksduur.
 > 
-> Een positief consolidatieverschil ontstaat bij **eerste consolidatie** van een dochter wanneer de aanschaffingswaarde van de aandelen groter is dan het pro-rata aandeel van de moeder in het eigen vermogen van de dochter op aankoopdatum, **na** toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden van de dochter. ⚖️ Het residu (= het deel dat niet aan specifieke posten kan worden toegerekend) wordt aan **actiefzijde** van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen'. ⚖️
+> > [!note]- Motivering (typed)
+> > **Het consolidatieverschil dat ontstaat wanneer de moeder voor** ⚖️
+> > 
+> > Een positief consolidatieverschil ontstaat bij **eerste consolidatie** van een dochter wanneer de aanschaffingswaarde van de aandelen groter is dan het pro-rata aandeel van de moeder in het eigen vermogen van de dochter op aankoopdatum, **na** toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden van de dochter. ⚖️ Het residu (= het deel dat niet aan specifieke posten kan worden toegerekend) wordt aan **actiefzijde** van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen'. ⚖️
+> > 
+> > Kerneigenschappen die het afbakenen:
+> > 1. Ontstaat **enkel bij eerste consolidatie** van een dochter of geassocieerde — bij latere consolidaties (volgende boekjaren waarin de dochter al in de kring zit) wordt geen nieuw verschil meer geboekt; wel de afschrijving op het bestaande verschil. ⚖️
+> > 2. Wordt **afgeschreven** over de vermoedelijke gebruiksduur als afzonderlijke post in de geconsolideerde resultatenrekening; afschrijving over meer dan 5 jaar vereist motivering in de toelichting. ⚖️ ⚖️
+> > 
+> > _Grondslag: KB WVV art. 3:130 (boeking) jo. art. 3:131, § 1 (afschrijving)._
 > 
-> Kerneigenschappen die het afbakenen:
-> 1. Ontstaat **enkel bij eerste consolidatie** van een dochter of geassocieerde — bij latere consolidaties (volgende boekjaren waarin de dochter al in de kring zit) wordt geen nieuw verschil meer geboekt; wel de afschrijving op het bestaande verschil. ⚖️
-> 2. Wordt **afgeschreven** over de vermoedelijke gebruiksduur als afzonderlijke post in de geconsolideerde resultatenrekening; afschrijving over meer dan 5 jaar vereist motivering in de toelichting. ⚖️ ⚖️
+> > [!info]- Bronnen (3)
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Bouwstenen — Positief consolidatieverschil = goodwill → ondersteunt: definitie + actiefzijde + afschrijving
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Berekening (stappen 1-5) → ondersteunt: toerekening vóór residu-boeking
+> > - [[eerste-consolidatie|content/concepten/eerste-consolidatie.md]] · Stappen → ondersteunt: scope: enkel bij eerste consolidatie
 > 
-> _Grondslag: KB WVV art. 3:130 (boeking) jo. art. 3:131, § 1 (afschrijving)._
-
-> [!info]- Bronnen (3)
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Bouwstenen — Positief consolidatieverschil = goodwill → ondersteunt: definitie + actiefzijde + afschrijving
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Berekening (stappen 1-5) → ondersteunt: toerekening vóór residu-boeking
-> - [[eerste-consolidatie|content/concepten/eerste-consolidatie.md]] · Stappen → ondersteunt: scope: enkel bij eerste consolidatie
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Spiegeling van 2015-1-vr11 subvraag a).
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Spiegeling van 2015-1-vr11 subvraag a).
 
 #### Subvraag b)
 
@@ -4317,36 +4266,35 @@ Het consolidatieverschil dat ontstaat wanneer de moeder voor de aandelen méér 
 
 **Antwoord-type**: opsomming
 
-#### Modelantwoord
-
-(1) onder-gewaardeerde activa van de dochter; (2) over-gewaardeerde schulden of voorzieningen van de dochter; (3) niet-geboekte immateriële vaste activa (intern opgebouwde merken, klantenrelaties, knowhow); (4) werkelijke goodwill / overprijs (synergieën, controlepremie, marktpositie).
-
-> [!success]- Motivering (typed)
-> De vier voornaamste oorzaken van een **positief** consolidatieverschil:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: (1) onder-gewaardeerde activa van de dochter; (2) over-gewaardeerde schulden of voorzieningen van de dochter; (3) niet-geboekte immateriële vaste activa (intern opgebouwde merken, klantenrelaties, knowhow); (4) werkelijke goodwill / overprijs (synergieën, controlepremie, marktpositie).
 > 
-> **Procedure** (KB WVV art. 3:128 jo. art. 3:130, lid 1): oorzaken 1 t.e.m. 3 worden bij eerste consolidatie eerst toegerekend aan de betrokken posten ('voor zover mogelijk'); pas het residu daarna verschijnt als 'Consolidatieverschillen' aan actiefzijde. ⚖️ Oorzaak 4 (werkelijke goodwill) is per definitie het deel dat na toerekening overblijft. ⚖️
+> > [!note]- Motivering (typed)
+> > De vier voornaamste oorzaken van een **positief** consolidatieverschil:
+> > 
+> > **Procedure** (KB WVV art. 3:128 jo. art. 3:130, lid 1): oorzaken 1 t.e.m. 3 worden bij eerste consolidatie eerst toegerekend aan de betrokken posten ('voor zover mogelijk'); pas het residu daarna verschijnt als 'Consolidatieverschillen' aan actiefzijde. ⚖️ Oorzaak 4 (werkelijke goodwill) is per definitie het deel dat na toerekening overblijft. ⚖️
+> > 
+> > 1. **Onder-gewaardeerde activa van de dochter** — werkelijke waarde > boekwaarde (stille meerwaarden op terreinen, gebouwen, voorraden, deelnemingen). De moeder betaalt de werkelijke waarde, terwijl de boekwaarde in de enkelvoudige jaarrekening lager staat. ⚖️
+> > 2. **Over-gewaardeerde schulden of voorzieningen** — van de dochter — werkelijke waarde < boekwaarde (te ruim ingeschatte voorzieningen of schulden). Na correctie blijft een kleiner residu over als consolidatieverschil. ⚖️
+> > 3. **Niet-geboekte immateriële vaste activa** — intern opgebouwde merken, klantenrelaties, knowhow die in de enkelvoudige jaarrekening van de dochter niet activeerbaar waren maar wel economische waarde vertegenwoordigen. 🤖
+> > 4. **Werkelijke goodwill / overprijs** — verwachte synergieën, controlepremie, marktpositie of strategische waarde die de moeder bereid is bovenop het netto-actief te betalen. Niet aan specifieke activa of schulden toerekenbaar; blijft als residu zitten en wordt afgeschreven over de vermoedelijke gebruiksduur. ⚖️
+> > 
+> > _Grondslag: KB WVV art. 3:128 (toerekening) jo. art. 3:130, lid 1 (procedure) jo. art. 3:131, § 1 (boeking + afschrijving). Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt het residu uitdrukkelijk aan als 'goodwill'._
 > 
-> 1. **Onder-gewaardeerde activa van de dochter** — werkelijke waarde > boekwaarde (stille meerwaarden op terreinen, gebouwen, voorraden, deelnemingen). De moeder betaalt de werkelijke waarde, terwijl de boekwaarde in de enkelvoudige jaarrekening lager staat. ⚖️
-> 2. **Over-gewaardeerde schulden of voorzieningen** — van de dochter — werkelijke waarde < boekwaarde (te ruim ingeschatte voorzieningen of schulden). Na correctie blijft een kleiner residu over als consolidatieverschil. ⚖️
-> 3. **Niet-geboekte immateriële vaste activa** — intern opgebouwde merken, klantenrelaties, knowhow die in de enkelvoudige jaarrekening van de dochter niet activeerbaar waren maar wel economische waarde vertegenwoordigen. 🤖
-> 4. **Werkelijke goodwill / overprijs** — verwachte synergieën, controlepremie, marktpositie of strategische waarde die de moeder bereid is bovenop het netto-actief te betalen. Niet aan specifieke activa of schulden toerekenbaar; blijft als residu zitten en wordt afgeschreven over de vermoedelijke gebruiksduur. ⚖️
+> > [!info]- Bronnen (3)
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Oorzaken (positief, na pool-splitting 2026-05-19) → ondersteunt: vier categorieën
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Berekening — stap 4 (Toerekening) → ondersteunt: procedure toerekening vóór residu
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Bouwstenen — Positief consolidatieverschil = goodwill → ondersteunt: goodwill als residu na toerekening
 > 
-> _Grondslag: KB WVV art. 3:128 (toerekening) jo. art. 3:130, lid 1 (procedure) jo. art. 3:131, § 1 (boeking + afschrijving). Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt het residu uitdrukkelijk aan als 'goodwill'._
-
-> [!info]- Bronnen (3)
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Oorzaken (positief, na pool-splitting 2026-05-19) → ondersteunt: vier categorieën
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Berekening — stap 4 (Toerekening) → ondersteunt: procedure toerekening vóór residu
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Bouwstenen — Positief consolidatieverschil = goodwill → ondersteunt: goodwill als residu na toerekening
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: cluster_met_polen, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Spiegeling van 2015-1-vr11 subvraag b).
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: cluster_met_polen, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Spiegeling van 2015-1-vr11 subvraag b).
 
 ---
 
@@ -4361,33 +4309,32 @@ jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hi
 afwijken.
 Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
 
-#### Modelantwoord
-
-Maximaal 3 maanden (vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening), met verplichte motivering in de toelichting.
-
-> [!success]- Motivering (typed)
-> **Maximaal 3 maanden** ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Maximaal 3 maanden (vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening), met verplichte motivering in de toelichting.
 > 
-> — vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening. ⚖️
+> > [!note]- Motivering (typed)
+> > **Maximaal 3 maanden** ⚖️
+> > 
+> > — vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening. ⚖️
+> > 
+> > **Voorwaarde voor toepassing**: deze afwijking is alleen toegestaan wanneer het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van een groepsvennootschap op de afsluitingsdatum van de geconsolideerde jaarrekening op te nemen, of wanneer dat de opstelling en publicatie van de geconsolideerde jaarrekening uitermate zou vertragen. ⚖️ ⚖️
+> > 
+> > **Verplichte motivering**: de afwijking moet gemotiveerd worden in de toelichting bij de geconsolideerde jaarrekening. ⚖️ ⚖️
+> > 
+> > _Grondslag: KB WVV art. 3:110, tweede lid: 'Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen.'._
 > 
-> **Voorwaarde voor toepassing**: deze afwijking is alleen toegestaan wanneer het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van een groepsvennootschap op de afsluitingsdatum van de geconsolideerde jaarrekening op te nemen, of wanneer dat de opstelling en publicatie van de geconsolideerde jaarrekening uitermate zou vertragen. ⚖️ ⚖️
+> > [!info]- Bronnen (2)
+> > - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Drempelwaarden → ondersteunt: cijfer 3 maanden
+> > - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Bouwstenen — Afsluitingsdatum → ondersteunt: voorwaarde + motivering
 > 
-> **Verplichte motivering**: de afwijking moet gemotiveerd worden in de toelichting bij de geconsolideerde jaarrekening. ⚖️ ⚖️
-> 
-> _Grondslag: KB WVV art. 3:110, tweede lid: 'Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen.'._
-
-> [!info]- Bronnen (2)
-> - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Drempelwaarden → ondersteunt: cijfer 3 maanden
-> - [[geconsolideerde-jaarrekening|content/concepten/geconsolideerde-jaarrekening.md]] · Bouwstenen — Afsluitingsdatum → ondersteunt: voorwaarde + motivering
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: drempel_cijfer
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: drempel_cijfer
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -4409,67 +4356,66 @@ A B C
 | M IN B |   |   |   |
 | M IN C |   |   |   |
 
-#### Modelantwoord
-
-M in A: 70 % controle, 70 % belang, integrale consolidatie. M in B: 30 % controle, 30 % belang, vermogensmutatie. M in C (via A → 60 %, B-keten gebroken wegens geen exclusieve controle): 60 % controle, 48 % belang (= 70 %×60 % + 30 %×20 %), integrale consolidatie.
-
-> [!success]- Motivering (typed)
-> Op basis van de structuur in de vraagtekst (gestructureerde tabel + diagram):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: M in A: 70 % controle, 70 % belang, integrale consolidatie. M in B: 30 % controle, 30 % belang, vermogensmutatie. M in C (via A → 60 %, B-keten gebroken wegens geen exclusieve controle): 60 % controle, 48 % belang (= 70 %×60 % + 30 %×20 %), integrale consolidatie.
 > 
-> **Aandeelhoudersketen**
+> > [!note]- Motivering (typed)
+> > Op basis van de structuur in de vraagtekst (gestructureerde tabel + diagram):
+> > 
+> > **Aandeelhoudersketen**
+> > 
+> > (interpretatie van het diagram "M / 70% 30% / 60% 20% / A B C"):
+> > - M heeft directe deelnemingen: **70 % in A** en **30 % in B**
+> > - A heeft een deelneming van **60 % in C**
+> > - B heeft een deelneming van **20 % in C**
+> > 
+> > **Toepassing van de regels** (zie [[berekenen-controle-en-belangenpercentage]] + [[kiezen-consolidatiemethode]] + [[kwalificeren-relatie-deelneming]]):
+> > 
+> > **M in A** ⚖️
+> > 
+> > - **Controlepercentage**: 70 % directe stemrechten > 50 % → **exclusieve controle in rechte** ⚖️
+> > - **Belangenpercentage**: 70 % (direct) ⚖️
+> > - **Consolidatiemethode**: **integrale consolidatie** (dochter onder exclusieve controle). Belangen van derden = 30 %. ⚖️
+> > 
+> > **M in B** ⚖️
+> > 
+> > - **Controlepercentage**: 30 % directe stemrechten — geen exclusieve controle (< 50 %), maar ≥ 20 % → **vermoeden van invloed van betekenis** (geassocieerde onderneming) ⚖️
+> > - **Belangenpercentage**: 30 % (direct) ⚖️
+> > - **Consolidatiemethode**: **vermogensmutatie** (equity method) ⚖️
+> > 
+> > **M in C (via twee ketens)** ⚖️
+> > 
+> > - **Keten via A**: M → 70 % → A → 60 % → C. M heeft exclusieve controle over A → de **volledige stemrechtpercentage van A in C telt** (controlepercentage wordt NIET vermenigvuldigd langs een keten van exclusieve controle). ⚖️ Controlebijdrage = **60 %**.
+> > - **Keten via B**: M → 30 % → B → 20 % → C. M heeft geen exclusieve controle over B (slechts invloed van betekenis) → **de keten breekt**: B's 20 % in C telt **niet** mee voor M's controlepercentage. ⚖️
+> > - **Controlepercentage**: 60 % (via A alleen) → exclusieve controle → **integrale consolidatie** ⚖️
+> > - **Belangenpercentage**: 70 % × 60 % + 30 % × 20 % = 42 % + 6 % = **48 %** (belang telt economisch via beide ketens, ook door geassocieerde). ⚖️
+> > - **Consolidatiemethode**: **integrale consolidatie** (omdat controle bestaat); belangen van derden = 52 %. ⚖️
+> > 
+> > ### Resultaat-tabel⚠️ **Interpretatie van het diagram**: de vraagtekst toont een visueel boom-diagram met percentages dat niet als typed-tabel kon worden geëxtracteerd (zie record_gap_report — figuur-detectie is ADR-021 v2.1-scope). De interpretatie hierboven veronderstelt M moeder, A en B dochters, C kleindochter via A én B. Een alternatieve interpretatie (4 directe deelnemingen A, B, C, D) is niet consistent met de invul-tabel (die enkel M in A, B, C bevat). 🤖 🤖
+> > 
+> > |  | Controlepercentage | Belangenpercentage | Consolidatiemethode |
+> > |---|---|---|---|
+> > | M in A | 70 % | 70 % | Integrale consolidatie |
+> > | M in B | 30 % | 30 % | Vermogensmutatie |
+> > | M in C | 60 % | 48 % | Integrale consolidatie |
+> > 
+> > _Grondslag: WVV art. 1:14 e.v. (exclusieve controle), KB WVV art. 3:96 (vermoeden invloed van betekenis), KB WVV art. 3:124 (integrale consolidatie), KB WVV art. 3:141 (vermogensmutatie). Voor de keten-rekenregels: vakdoctrinaire toepassing op basis van [[controlepercentage]] §rekenregel-keten en [[belangenpercentage]] §berekening-keten._
 > 
-> (interpretatie van het diagram "M / 70% 30% / 60% 20% / A B C"):
-> - M heeft directe deelnemingen: **70 % in A** en **30 % in B**
-> - A heeft een deelneming van **60 % in C**
-> - B heeft een deelneming van **20 % in C**
+> > [!info]- Bronnen (4)
+> > - [[berekenen-controle-en-belangenpercentage|content/concepten/berekenen-controle-en-belangenpercentage.md]] · Stappen 2-3 (keten-rekenregels) → ondersteunt: controle niet vermenigvuldigen, belang wel
+> > - [[kiezen-consolidatiemethode|content/concepten/kiezen-consolidatiemethode.md]] · Stappen 2-4 → ondersteunt: integrale vs vermogensmutatie keuze
+> > - [[kwalificeren-relatie-deelneming|content/concepten/kwalificeren-relatie-deelneming.md]] · Kwalificatie-criteria → ondersteunt: exclusieve controle, invloed van betekenis
+> > - [[exclusieve-controle|content/concepten/exclusieve-controle.md]] · Keten-breuk → ondersteunt: breuk bij geen exclusieve controle in tussenschakel
 > 
-> **Toepassing van de regels** (zie [[berekenen-controle-en-belangenpercentage]] + [[kiezen-consolidatiemethode]] + [[kwalificeren-relatie-deelneming]]):
-> 
-> **M in A** ⚖️
-> 
-> - **Controlepercentage**: 70 % directe stemrechten > 50 % → **exclusieve controle in rechte** ⚖️
-> - **Belangenpercentage**: 70 % (direct) ⚖️
-> - **Consolidatiemethode**: **integrale consolidatie** (dochter onder exclusieve controle). Belangen van derden = 30 %. ⚖️
-> 
-> **M in B** ⚖️
-> 
-> - **Controlepercentage**: 30 % directe stemrechten — geen exclusieve controle (< 50 %), maar ≥ 20 % → **vermoeden van invloed van betekenis** (geassocieerde onderneming) ⚖️
-> - **Belangenpercentage**: 30 % (direct) ⚖️
-> - **Consolidatiemethode**: **vermogensmutatie** (equity method) ⚖️
-> 
-> **M in C (via twee ketens)** ⚖️
-> 
-> - **Keten via A**: M → 70 % → A → 60 % → C. M heeft exclusieve controle over A → de **volledige stemrechtpercentage van A in C telt** (controlepercentage wordt NIET vermenigvuldigd langs een keten van exclusieve controle). ⚖️ Controlebijdrage = **60 %**.
-> - **Keten via B**: M → 30 % → B → 20 % → C. M heeft geen exclusieve controle over B (slechts invloed van betekenis) → **de keten breekt**: B's 20 % in C telt **niet** mee voor M's controlepercentage. ⚖️
-> - **Controlepercentage**: 60 % (via A alleen) → exclusieve controle → **integrale consolidatie** ⚖️
-> - **Belangenpercentage**: 70 % × 60 % + 30 % × 20 % = 42 % + 6 % = **48 %** (belang telt economisch via beide ketens, ook door geassocieerde). ⚖️
-> - **Consolidatiemethode**: **integrale consolidatie** (omdat controle bestaat); belangen van derden = 52 %. ⚖️
-> 
-> ### Resultaat-tabel⚠️ **Interpretatie van het diagram**: de vraagtekst toont een visueel boom-diagram met percentages dat niet als typed-tabel kon worden geëxtracteerd (zie record_gap_report — figuur-detectie is ADR-021 v2.1-scope). De interpretatie hierboven veronderstelt M moeder, A en B dochters, C kleindochter via A én B. Een alternatieve interpretatie (4 directe deelnemingen A, B, C, D) is niet consistent met de invul-tabel (die enkel M in A, B, C bevat). 🤖 🤖
-> 
-> |  | Controlepercentage | Belangenpercentage | Consolidatiemethode |
-> |---|---|---|---|
-> | M in A | 70 % | 70 % | Integrale consolidatie |
-> | M in B | 30 % | 30 % | Vermogensmutatie |
-> | M in C | 60 % | 48 % | Integrale consolidatie |
-> 
-> _Grondslag: WVV art. 1:14 e.v. (exclusieve controle), KB WVV art. 3:96 (vermoeden invloed van betekenis), KB WVV art. 3:124 (integrale consolidatie), KB WVV art. 3:141 (vermogensmutatie). Voor de keten-rekenregels: vakdoctrinaire toepassing op basis van [[controlepercentage]] §rekenregel-keten en [[belangenpercentage]] §berekening-keten._
-
-> [!info]- Bronnen (4)
-> - [[berekenen-controle-en-belangenpercentage|content/concepten/berekenen-controle-en-belangenpercentage.md]] · Stappen 2-3 (keten-rekenregels) → ondersteunt: controle niet vermenigvuldigen, belang wel
-> - [[kiezen-consolidatiemethode|content/concepten/kiezen-consolidatiemethode.md]] · Stappen 2-4 → ondersteunt: integrale vs vermogensmutatie keuze
-> - [[kwalificeren-relatie-deelneming|content/concepten/kwalificeren-relatie-deelneming.md]] · Kwalificatie-criteria → ondersteunt: exclusieve controle, invloed van betekenis
-> - [[exclusieve-controle|content/concepten/exclusieve-controle.md]] · Keten-breuk → ondersteunt: breuk bij geen exclusieve controle in tussenschakel
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Diagram-interpretatie 🤖: M → A,B direct; A,B → C indirect. Consistent met invul-tabel (enkel M in A,B,C). Alternatieve interpretatie (4 directe deelnemingen) niet consistent. Extract-v2 (ADR-021) heeft de invul-tabel typed gedetecteerd; het ingevoerde boom-diagram blijft in tekst-blok.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Diagram-interpretatie 🤖: M → A,B direct; A,B → C indirect. Consistent met invul-tabel (enkel M in A,B,C). Alternatieve interpretatie (4 directe deelnemingen) niet consistent. Extract-v2 (ADR-021) heeft de invul-tabel typed gedetecteerd; het ingevoerde boom-diagram blijft in tekst-blok.
 
 > [!warning] Gap niveau **b** — type **extractie_partieel**
 > Het visuele boom-diagram (M aan top, A/B middenniveau, C onderaan) wordt door extract-v2 (pdfplumber) niet als tabel maar als platte tekst geëxtracteerd ("M / 70 % 30 % / 60 % 20 % / A B C"). Figuur-detectie + structurering is v2.1-scope (ADR-021 §2). Voor nu vereist het modelantwoord een interpretatie van het diagram door redenering — gelabeld als 🤖 voor de structurele aanname.
@@ -4488,20 +4434,19 @@ M in A: 70 % controle, 70 % belang, integrale consolidatie. M in B: 30 % control
 
 _(geen vraagtekst beschikbaar)_
 
-#### Modelantwoord
-
-Zie antwoorden per subvraag (a en b).
-
-> [!success]- Motivering (typed)
-> Combinatievraag — definitie + opsomming. Zie subvragen[].antwoord_motivering per deelvraag.
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Zie antwoorden per subvraag (a en b).
+> 
+> > [!note]- Motivering (typed)
+> > Combinatievraag — definitie + opsomming. Zie subvragen[].antwoord_motivering per deelvraag.
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -4509,34 +4454,33 @@ Zie antwoorden per subvraag (a en b).
 
 **Antwoord-type**: definitie
 
-#### Modelantwoord
-
-Het consolidatieverschil dat ontstaat wanneer de moeder voor de aandelen méér betaalt dan haar pro-rata aandeel in het eigen vermogen van de dochter op aankoopdatum (na toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden). Het residu is dan positief en wordt aan actiefzijde van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen', afgeschreven over de vermoedelijke gebruiksduur.
-
-> [!success]- Motivering (typed)
-> **Het consolidatieverschil dat ontstaat wanneer de moeder voor** ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Het consolidatieverschil dat ontstaat wanneer de moeder voor de aandelen méér betaalt dan haar pro-rata aandeel in het eigen vermogen van de dochter op aankoopdatum (na toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden). Het residu is dan positief en wordt aan actiefzijde van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen', afgeschreven over de vermoedelijke gebruiksduur.
 > 
-> Een positief consolidatieverschil ontstaat bij **eerste consolidatie** van een dochter wanneer de aanschaffingswaarde van de aandelen groter is dan het pro-rata aandeel van de moeder in het eigen vermogen van de dochter op aankoopdatum, **na** toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden van de dochter. ⚖️ Het residu (= het deel dat niet aan specifieke posten kan worden toegerekend) wordt aan **actiefzijde** van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen'. ⚖️
+> > [!note]- Motivering (typed)
+> > **Het consolidatieverschil dat ontstaat wanneer de moeder voor** ⚖️
+> > 
+> > Een positief consolidatieverschil ontstaat bij **eerste consolidatie** van een dochter wanneer de aanschaffingswaarde van de aandelen groter is dan het pro-rata aandeel van de moeder in het eigen vermogen van de dochter op aankoopdatum, **na** toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden van de dochter. ⚖️ Het residu (= het deel dat niet aan specifieke posten kan worden toegerekend) wordt aan **actiefzijde** van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen'. ⚖️
+> > 
+> > Kerneigenschappen die het afbakenen:
+> > 1. Ontstaat **enkel bij eerste consolidatie** van een dochter of geassocieerde — bij latere consolidaties (volgende boekjaren waarin de dochter al in de kring zit) wordt geen nieuw verschil meer geboekt; wel de afschrijving op het bestaande verschil. ⚖️
+> > 2. Wordt **afgeschreven** over de vermoedelijke gebruiksduur als afzonderlijke post in de geconsolideerde resultatenrekening; afschrijving over meer dan 5 jaar vereist motivering in de toelichting. ⚖️ ⚖️
+> > 
+> > _Grondslag: KB WVV art. 3:130 (boeking) jo. art. 3:131, § 1 (afschrijving)._
 > 
-> Kerneigenschappen die het afbakenen:
-> 1. Ontstaat **enkel bij eerste consolidatie** van een dochter of geassocieerde — bij latere consolidaties (volgende boekjaren waarin de dochter al in de kring zit) wordt geen nieuw verschil meer geboekt; wel de afschrijving op het bestaande verschil. ⚖️
-> 2. Wordt **afgeschreven** over de vermoedelijke gebruiksduur als afzonderlijke post in de geconsolideerde resultatenrekening; afschrijving over meer dan 5 jaar vereist motivering in de toelichting. ⚖️ ⚖️
+> > [!info]- Bronnen (3)
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Bouwstenen — Positief consolidatieverschil = goodwill → ondersteunt: definitie + actiefzijde + afschrijving
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Berekening (stappen 1-5) → ondersteunt: toerekening vóór residu-boeking
+> > - [[eerste-consolidatie|content/concepten/eerste-consolidatie.md]] · Stappen → ondersteunt: scope: enkel bij eerste consolidatie
 > 
-> _Grondslag: KB WVV art. 3:130 (boeking) jo. art. 3:131, § 1 (afschrijving)._
-
-> [!info]- Bronnen (3)
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Bouwstenen — Positief consolidatieverschil = goodwill → ondersteunt: definitie + actiefzijde + afschrijving
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Berekening (stappen 1-5) → ondersteunt: toerekening vóór residu-boeking
-> - [[eerste-consolidatie|content/concepten/eerste-consolidatie.md]] · Stappen → ondersteunt: scope: enkel bij eerste consolidatie
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag b)
 
@@ -4544,36 +4488,35 @@ Het consolidatieverschil dat ontstaat wanneer de moeder voor de aandelen méér 
 
 **Antwoord-type**: opsomming
 
-#### Modelantwoord
-
-(1) onder-gewaardeerde activa van de dochter; (2) over-gewaardeerde schulden of voorzieningen van de dochter; (3) niet-geboekte immateriële vaste activa (intern opgebouwde merken, klantenrelaties, knowhow); (4) werkelijke goodwill / overprijs (synergieën, controlepremie, marktpositie).
-
-> [!success]- Motivering (typed)
-> De vier voornaamste oorzaken van een **positief** consolidatieverschil:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: (1) onder-gewaardeerde activa van de dochter; (2) over-gewaardeerde schulden of voorzieningen van de dochter; (3) niet-geboekte immateriële vaste activa (intern opgebouwde merken, klantenrelaties, knowhow); (4) werkelijke goodwill / overprijs (synergieën, controlepremie, marktpositie).
 > 
-> **Procedure** (KB WVV art. 3:128 jo. art. 3:130, lid 1): oorzaken 1 t.e.m. 3 worden bij eerste consolidatie eerst toegerekend aan de betrokken posten ('voor zover mogelijk'); pas het residu daarna verschijnt als 'Consolidatieverschillen' aan actiefzijde. ⚖️ Oorzaak 4 (werkelijke goodwill) is per definitie het deel dat na toerekening overblijft. ⚖️
+> > [!note]- Motivering (typed)
+> > De vier voornaamste oorzaken van een **positief** consolidatieverschil:
+> > 
+> > **Procedure** (KB WVV art. 3:128 jo. art. 3:130, lid 1): oorzaken 1 t.e.m. 3 worden bij eerste consolidatie eerst toegerekend aan de betrokken posten ('voor zover mogelijk'); pas het residu daarna verschijnt als 'Consolidatieverschillen' aan actiefzijde. ⚖️ Oorzaak 4 (werkelijke goodwill) is per definitie het deel dat na toerekening overblijft. ⚖️
+> > 
+> > 1. **Onder-gewaardeerde activa van de dochter** — werkelijke waarde > boekwaarde (stille meerwaarden op terreinen, gebouwen, voorraden, deelnemingen). De moeder betaalt de werkelijke waarde, terwijl de boekwaarde in de enkelvoudige jaarrekening lager staat. ⚖️
+> > 2. **Over-gewaardeerde schulden of voorzieningen** — van de dochter — werkelijke waarde < boekwaarde (te ruim ingeschatte voorzieningen of schulden). Na correctie blijft een kleiner residu over als consolidatieverschil. ⚖️
+> > 3. **Niet-geboekte immateriële vaste activa** — intern opgebouwde merken, klantenrelaties, knowhow die in de enkelvoudige jaarrekening van de dochter niet activeerbaar waren maar wel economische waarde vertegenwoordigen. 🤖
+> > 4. **Werkelijke goodwill / overprijs** — verwachte synergieën, controlepremie, marktpositie of strategische waarde die de moeder bereid is bovenop het netto-actief te betalen. Niet aan specifieke activa of schulden toerekenbaar; blijft als residu zitten en wordt afgeschreven over de vermoedelijke gebruiksduur. ⚖️
+> > 
+> > _Grondslag: KB WVV art. 3:128 (toerekening) jo. art. 3:130, lid 1 (procedure) jo. art. 3:131, § 1 (boeking + afschrijving). Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt het residu uitdrukkelijk aan als 'goodwill'._
 > 
-> 1. **Onder-gewaardeerde activa van de dochter** — werkelijke waarde > boekwaarde (stille meerwaarden op terreinen, gebouwen, voorraden, deelnemingen). De moeder betaalt de werkelijke waarde, terwijl de boekwaarde in de enkelvoudige jaarrekening lager staat. ⚖️
-> 2. **Over-gewaardeerde schulden of voorzieningen** — van de dochter — werkelijke waarde < boekwaarde (te ruim ingeschatte voorzieningen of schulden). Na correctie blijft een kleiner residu over als consolidatieverschil. ⚖️
-> 3. **Niet-geboekte immateriële vaste activa** — intern opgebouwde merken, klantenrelaties, knowhow die in de enkelvoudige jaarrekening van de dochter niet activeerbaar waren maar wel economische waarde vertegenwoordigen. 🤖
-> 4. **Werkelijke goodwill / overprijs** — verwachte synergieën, controlepremie, marktpositie of strategische waarde die de moeder bereid is bovenop het netto-actief te betalen. Niet aan specifieke activa of schulden toerekenbaar; blijft als residu zitten en wordt afgeschreven over de vermoedelijke gebruiksduur. ⚖️
+> > [!info]- Bronnen (3)
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Oorzaken (positief, na pool-splitting 2026-05-19) → ondersteunt: vier categorieën
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Berekening — stap 4 (Toerekening) → ondersteunt: procedure toerekening vóór residu
+> > - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Bouwstenen — Positief consolidatieverschil = goodwill → ondersteunt: goodwill als residu na toerekening
 > 
-> _Grondslag: KB WVV art. 3:128 (toerekening) jo. art. 3:130, lid 1 (procedure) jo. art. 3:131, § 1 (boeking + afschrijving). Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt het residu uitdrukkelijk aan als 'goodwill'._
-
-> [!info]- Bronnen (3)
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Oorzaken (positief, na pool-splitting 2026-05-19) → ondersteunt: vier categorieën
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Berekening — stap 4 (Toerekening) → ondersteunt: procedure toerekening vóór residu
-> - [[consolidatieverschil|content/concepten/consolidatieverschil.md]] · Bouwstenen — Positief consolidatieverschil = goodwill → ondersteunt: goodwill als residu na toerekening
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: cluster_met_polen, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Record-patch op consolidatieverschil.md (oorzaken pool-gesplitst, 4e positieve oorzaak toegevoegd) is een prerequisite — zie commit ADR-020 pilot 2026-05-19.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: cluster_met_polen, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Record-patch op consolidatieverschil.md (oorzaken pool-gesplitst, 4e positieve oorzaak toegevoegd) is een prerequisite — zie commit ADR-020 pilot 2026-05-19.
 
 ---
 
@@ -4637,45 +4580,44 @@ _1 vragen — 1 met modelantwoord — 1 met gap-rapport._
 > | A.c | LIFO, gewogen gemiddelde, individueel | fout | LIFO verboden. |
 > | A.d | FIFO en gewogen gemiddelde | fout | Incompleet — mist specifieke identificatie (toegelaten voor unieke items). |
 
-#### Modelantwoord
-
-Onder IAS 2 zijn drie methodes toegelaten: (1) FIFO, (2) gewogen gemiddelde, (3) specifieke identificatie (individueel). LIFO is UITDRUKKELIJK VERBODEN onder IFRS. Antwoord op MC A: D (FIFO en gewogen gemiddelde) is dichtst bij correct, maar mist specifieke identificatie; strikt = optie die geen LIFO bevat + alle drie toegelaten methodes.
-
-> [!success]- Motivering (typed)
-> **Onder IAS 2 'Voorraden' (Inventories)**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Onder IAS 2 zijn drie methodes toegelaten: (1) FIFO, (2) gewogen gemiddelde, (3) specifieke identificatie (individueel). LIFO is UITDRUKKELIJK VERBODEN onder IFRS. Antwoord op MC A: D (FIFO en gewogen gemiddelde) is dichtst bij correct, maar mist specifieke identificatie; strikt = optie die geen LIFO bevat + alle drie toegelaten methodes.
 > 
-> zijn drie cost-formules toegelaten:
+> > [!note]- Motivering (typed)
+> > **Onder IAS 2 'Voorraden' (Inventories)**
+> > 
+> > zijn drie cost-formules toegelaten:
+> > 
+> > 1. **Specifieke identificatie** (IAS 2.23) — voor voorraad-items die niet onderling uitwisselbaar zijn (bv. unieke kunstwerken, vastgoed, voertuigen met VIN). ⚖️
+> > 2. **FIFO (First-In, First-Out)** (IAS 2.25) — voor onderling uitwisselbare items. ⚖️
+> > 3. **Gewogen gemiddelde kostprijs** (IAS 2.25) — alternatief voor FIFO. ⚖️ ⚖️
+> > 
+> > **LIFO (Last-In, First-Out)** is **uitdrukkelijk verboden** onder IFRS sinds IAS 2 (revised 2003) — IAS 2.BC9 ev. ⚖️ ⚖️
+> > 
+> > **Per MC-optie**
+> > 
+> > - **A**: FIFO, LIFO, gewogen gemiddelde, individueel → **FOUT** (LIFO erin)
+> > - **B**: "Fifi" (typo voor FIFO?), gewogen gemiddelde, individueel → mogelijk correct na typo-correctie, maar FIFO ontbreekt expliciet — onduidelijk
+> > - **C**: LIFO, gewogen gemiddelde, individueel → **FOUT** (LIFO erin)
+> > - **D**: FIFO en gewogen gemiddelde → **DEELS correct** (sluit LIFO uit, mist specifieke identificatie)
+> > 
+> > **Beste antwoord**: optie D — bevat geen verboden LIFO, maar is incompleet (specifieke identificatie ontbreekt). Bij strikte lezing van MC moet "alle juiste methodes" gekozen worden, dan zou D + specifieke identificatie correct zijn. Indien geen volledige optie beschikbaar → D is het minst onjuist. 🤖 🤖
+> > 
+> > ⚠️ De vraag heeft sub-onderdelen B/C/D verder die hier niet zichtbaar zijn. Aandacht: vraagtekst kan onvolledig zijn extract.
+> > 
+> > _Grondslag: IAS 2 §9-27; verbod LIFO sinds IAS 2 (revised 2003)._
 > 
-> 1. **Specifieke identificatie** (IAS 2.23) — voor voorraad-items die niet onderling uitwisselbaar zijn (bv. unieke kunstwerken, vastgoed, voertuigen met VIN). ⚖️
-> 2. **FIFO (First-In, First-Out)** (IAS 2.25) — voor onderling uitwisselbare items. ⚖️
-> 3. **Gewogen gemiddelde kostprijs** (IAS 2.25) — alternatief voor FIFO. ⚖️ ⚖️
+> > [!info]- Bronnen (1)
+> > - [[voorraden-ifrs|content/concepten/voorraden-ifrs.md]] · IAS 2 Bouwstenen → ondersteunt: toegelaten methodes + LIFO-verbod
 > 
-> **LIFO (Last-In, First-Out)** is **uitdrukkelijk verboden** onder IFRS sinds IAS 2 (revised 2003) — IAS 2.BC9 ev. ⚖️ ⚖️
-> 
-> **Per MC-optie**
-> 
-> - **A**: FIFO, LIFO, gewogen gemiddelde, individueel → **FOUT** (LIFO erin)
-> - **B**: "Fifi" (typo voor FIFO?), gewogen gemiddelde, individueel → mogelijk correct na typo-correctie, maar FIFO ontbreekt expliciet — onduidelijk
-> - **C**: LIFO, gewogen gemiddelde, individueel → **FOUT** (LIFO erin)
-> - **D**: FIFO en gewogen gemiddelde → **DEELS correct** (sluit LIFO uit, mist specifieke identificatie)
-> 
-> **Beste antwoord**: optie D — bevat geen verboden LIFO, maar is incompleet (specifieke identificatie ontbreekt). Bij strikte lezing van MC moet "alle juiste methodes" gekozen worden, dan zou D + specifieke identificatie correct zijn. Indien geen volledige optie beschikbaar → D is het minst onjuist. 🤖 🤖
-> 
-> ⚠️ De vraag heeft sub-onderdelen B/C/D verder die hier niet zichtbaar zijn. Aandacht: vraagtekst kan onvolledig zijn extract.
-> 
-> _Grondslag: IAS 2 §9-27; verbod LIFO sinds IAS 2 (revised 2003)._
-
-> [!info]- Bronnen (1)
-> - [[voorraden-ifrs|content/concepten/voorraden-ifrs.md]] · IAS 2 Bouwstenen → ondersteunt: toegelaten methodes + LIFO-verbod
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 > [!warning] Gap niveau **extern** — type **vraagtekst_onduidelijk** · sub-type **partieel_extract**
 > Vraag heeft sub-onderdelen B/C/D in originele PDF die niet volledig in vraagtekst zitten. Alleen sub-A (voorraad-methodes) volledig beantwoord.
@@ -4701,36 +4643,35 @@ auditbewijsmiddel.
 
 **Geef 4 soorten auditmethodes.**
 
-#### Modelantwoord
-
-De vier voornaamste auditmethodes per ISA 500: (1) inspectie van vastleggingen/documenten of activa; (2) waarneming van een proces of procedure; (3) externe bevestiging door een derde partij; (4) herberekening van wiskundige juistheid.
-
-> [!success]- Motivering (typed)
-> ISA 500 §A14-A25 ('audit evidence') somt **zeven** auditprocedure-types op om controle-informatie te verzamelen: inspectie, waarneming, externe bevestiging, herberekening, opnieuw uitvoeren, cijferanalyses, verzoeken om inlichtingen. ⚖️ De vraag vraagt vier **soorten auditmethodes** — de vier voornaamste zijn: ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De vier voornaamste auditmethodes per ISA 500: (1) inspectie van vastleggingen/documenten of activa; (2) waarneming van een proces of procedure; (3) externe bevestiging door een derde partij; (4) herberekening van wiskundige juistheid.
 > 
-> (De drie andere uit ISA 500 — opnieuw uitvoeren, cijferanalyses, verzoeken om inlichtingen — zijn ook auditmethodes, maar worden vaak als aanvullingen geclassificeerd of in een andere groepering geplaatst.)
+> > [!note]- Motivering (typed)
+> > ISA 500 §A14-A25 ('audit evidence') somt **zeven** auditprocedure-types op om controle-informatie te verzamelen: inspectie, waarneming, externe bevestiging, herberekening, opnieuw uitvoeren, cijferanalyses, verzoeken om inlichtingen. ⚖️ De vraag vraagt vier **soorten auditmethodes** — de vier voornaamste zijn: ⚖️
+> > 
+> > (De drie andere uit ISA 500 — opnieuw uitvoeren, cijferanalyses, verzoeken om inlichtingen — zijn ook auditmethodes, maar worden vaak als aanvullingen geclassificeerd of in een andere groepering geplaatst.)
+> > 
+> > 1. **Inspectie** — het onderzoeken van vastleggingen, documenten (intern of extern, op papier of digitaal) of fysieke activa. Voorbeeld: factuur, bestelbon, contract, voorraad in magazijn. Levert bewijs over bestaan en (in beperkte mate) waardering. ⚖️
+> > 2. **Waarneming** — het gadeslaan van een proces of procedure die door anderen wordt uitgevoerd (bv. de auditor woont de jaarlijkse voorraadopname bij). Levert bewijs over de **uitvoering** van een controle op het moment van waarnemen — beperkt in tijd. ⚖️
+> > 3. **Externe bevestiging** — schriftelijke reactie rechtstreeks van een derde partij (bank, klant, leverancier, advocaat) aan de auditor (zie [[externe-bevestiging-audit]]). Hoogwaardige assurance wegens extern + onafhankelijk + schriftelijk. Vormen: positieve, negatieve, saldo-bevestiging. ⚖️
+> > 4. **Herberekening** — door de auditor zelf de wiskundige correctheid van documenten of registers verifiëren (bv. nakijken of een afschrijvingsplan klopt, BTW-totalen, salarisberekeningen). ⚖️
+> > 
+> > _Grondslag: ISA 500 §A14-A25; ITAA KMO-controlenorm §89-92 voor externe bevestiging; record [[selecteren-en-uitvoeren-controle-instrumenten-audit]]._
 > 
-> 1. **Inspectie** — het onderzoeken van vastleggingen, documenten (intern of extern, op papier of digitaal) of fysieke activa. Voorbeeld: factuur, bestelbon, contract, voorraad in magazijn. Levert bewijs over bestaan en (in beperkte mate) waardering. ⚖️
-> 2. **Waarneming** — het gadeslaan van een proces of procedure die door anderen wordt uitgevoerd (bv. de auditor woont de jaarlijkse voorraadopname bij). Levert bewijs over de **uitvoering** van een controle op het moment van waarnemen — beperkt in tijd. ⚖️
-> 3. **Externe bevestiging** — schriftelijke reactie rechtstreeks van een derde partij (bank, klant, leverancier, advocaat) aan de auditor (zie [[externe-bevestiging-audit]]). Hoogwaardige assurance wegens extern + onafhankelijk + schriftelijk. Vormen: positieve, negatieve, saldo-bevestiging. ⚖️
-> 4. **Herberekening** — door de auditor zelf de wiskundige correctheid van documenten of registers verifiëren (bv. nakijken of een afschrijvingsplan klopt, BTW-totalen, salarisberekeningen). ⚖️
+> > [!info]- Bronnen (3)
+> > - [[selecteren-en-uitvoeren-controle-instrumenten-audit|content/concepten/selecteren-en-uitvoeren-controle-instrumenten-audit.md]] · Stappen → ondersteunt: instrumenten-keuze + auditmethodes
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Definitie → ondersteunt: externe bevestiging als auditmethode
+> > - [[ISA-500|resources/bronnen/normen/ISA-500.md]] · §A14-A25 → ondersteunt: zeven auditprocedure-types
 > 
-> _Grondslag: ISA 500 §A14-A25; ITAA KMO-controlenorm §89-92 voor externe bevestiging; record [[selecteren-en-uitvoeren-controle-instrumenten-audit]]._
-
-> [!info]- Bronnen (3)
-> - [[selecteren-en-uitvoeren-controle-instrumenten-audit|content/concepten/selecteren-en-uitvoeren-controle-instrumenten-audit.md]] · Stappen → ondersteunt: instrumenten-keuze + auditmethodes
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Definitie → ondersteunt: externe bevestiging als auditmethode
-> - [[ISA-500|resources/bronnen/normen/ISA-500.md]] · §A14-A25 → ondersteunt: zeven auditprocedure-types
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: ISA 500 noemt 7 types; vraag vraagt 4 — keuze op basis van klassieke "voornaamste" vier in Belgische audit-opleiding.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: ISA 500 noemt 7 types; vraag vraagt 4 — keuze op basis van klassieke "voornaamste" vier in Belgische audit-opleiding.
 
 ---
 
@@ -4742,45 +4683,44 @@ De vier voornaamste auditmethodes per ISA 500: (1) inspectie van vastleggingen/d
 
 Wanneer dient een accountant een onthoudende verklaring af te geven?
 
-#### Modelantwoord
-
-Een onthoudende verklaring (onthouding van oordeel / disclaimer of opinion) geeft de accountant af wanneer hij onmogelijk voldoende en geschikte assurance-informatie kan verkrijgen om een oordeel te onderbouwen, EN de mogelijke effecten van het onbekende diepgaand kunnen zijn voor de jaarrekening als geheel. De accountant kan dan geen oordeel formuleren.
-
-> [!success]- Motivering (typed)
-> **onthouding van oordeel**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Een onthoudende verklaring (onthouding van oordeel / disclaimer of opinion) geeft de accountant af wanneer hij onmogelijk voldoende en geschikte assurance-informatie kan verkrijgen om een oordeel te onderbouwen, EN de mogelijke effecten van het onbekende diepgaand kunnen zijn voor de jaarrekening als geheel. De accountant kan dan geen oordeel formuleren.
 > 
-> Een **onthouding van oordeel** (synoniem: 'disclaimer of opinion' in ISA-terminologie, 'onthoudende verklaring' in Belgische audit-praktijk) wordt afgegeven wanneer **cumulatief**:
+> > [!note]- Motivering (typed)
+> > **onthouding van oordeel**
+> > 
+> > Een **onthouding van oordeel** (synoniem: 'disclaimer of opinion' in ISA-terminologie, 'onthoudende verklaring' in Belgische audit-praktijk) wordt afgegeven wanneer **cumulatief**:
+> > 
+> > 1. De accountant **onmogelijk** voldoende en geschikte assurance-informatie kan verkrijgen om de jaarrekening te onderbouwen — bv. door scope-beperking opgelegd door de cliënt, of door externe omstandigheden (boekhouding verloren, sleuteldocumenten ontoegankelijk). ⚖️
+> > 2. De **mogelijke effecten** van het ontbrekend bewijs op de jaarrekening **diepgaand** kunnen zijn — niet alleen materieel, maar zo verspreid dat ze het globale geloofwaardigheidsoordeel aantasten. ⚖️ ⚖️
+> > 
+> > **Vergelijk met andere oordeel-types**
+> > 
+> > - Goedkeurend zonder voorbehoud: jaarrekening geeft getrouw beeld, geen significante issues
+> > - Goedkeurend **met voorbehoud**: er is een materiële afwijking of scope-beperking, maar **niet diepgaand** (geïsoleerd) — accountant formuleert oordeel met expliciete uitzondering
+> > - **Afkeurend**: materiële afwijking + diepgaand (alles-doordringend) — accountant verklaart dat de jaarrekening geen getrouw beeld geeft
+> > - **Onthoudend**: onvoldoende bewijs + diepgaande mogelijke gevolgen — geen oordeel mogelijk
+> > 
+> > **Voorbeelden**
+> > 
+> > van situaties die tot onthouding leiden:
+> > - Cliënt weigert toegang tot belangrijke contracten, bankrekeningen, of vorderingen-overzichten
+> > - Materiële voorraad-opname onmogelijk + geen alternatieve werkzaamheden mogelijk (vooral bij eerste-jaars audit)
+> > - Continuïteitsonzekerheid waarvoor management onvoldoende toelichting geeft en de auditor de impact niet kan kwantificeren
+> > 
+> > _Grondslag: ISA 705 (herzien) §10 + §A12-A14; ITAA KMO-controlenorm; [[controleoordeel-types]] §Onthouding van oordeel._
 > 
-> 1. De accountant **onmogelijk** voldoende en geschikte assurance-informatie kan verkrijgen om de jaarrekening te onderbouwen — bv. door scope-beperking opgelegd door de cliënt, of door externe omstandigheden (boekhouding verloren, sleuteldocumenten ontoegankelijk). ⚖️
-> 2. De **mogelijke effecten** van het ontbrekend bewijs op de jaarrekening **diepgaand** kunnen zijn — niet alleen materieel, maar zo verspreid dat ze het globale geloofwaardigheidsoordeel aantasten. ⚖️ ⚖️
+> > [!info]- Bronnen (1)
+> > - [[controleoordeel-types|content/concepten/controleoordeel-types.md]] · Bouwstenen — Onthouding van oordeel (disclaimer) → ondersteunt: definitie + cumulatieve voorwaarden
 > 
-> **Vergelijk met andere oordeel-types**
-> 
-> - Goedkeurend zonder voorbehoud: jaarrekening geeft getrouw beeld, geen significante issues
-> - Goedkeurend **met voorbehoud**: er is een materiële afwijking of scope-beperking, maar **niet diepgaand** (geïsoleerd) — accountant formuleert oordeel met expliciete uitzondering
-> - **Afkeurend**: materiële afwijking + diepgaand (alles-doordringend) — accountant verklaart dat de jaarrekening geen getrouw beeld geeft
-> - **Onthoudend**: onvoldoende bewijs + diepgaande mogelijke gevolgen — geen oordeel mogelijk
-> 
-> **Voorbeelden**
-> 
-> van situaties die tot onthouding leiden:
-> - Cliënt weigert toegang tot belangrijke contracten, bankrekeningen, of vorderingen-overzichten
-> - Materiële voorraad-opname onmogelijk + geen alternatieve werkzaamheden mogelijk (vooral bij eerste-jaars audit)
-> - Continuïteitsonzekerheid waarvoor management onvoldoende toelichting geeft en de auditor de impact niet kan kwantificeren
-> 
-> _Grondslag: ISA 705 (herzien) §10 + §A12-A14; ITAA KMO-controlenorm; [[controleoordeel-types]] §Onthouding van oordeel._
-
-> [!info]- Bronnen (1)
-> - [[controleoordeel-types|content/concepten/controleoordeel-types.md]] · Bouwstenen — Onthouding van oordeel (disclaimer) → ondersteunt: definitie + cumulatieve voorwaarden
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -4809,48 +4749,47 @@ Antwoord …
  Controledoelstelling:
  Voorbeeld:
 
-#### Modelantwoord
-
-Periode 01/10/2014 (voorraadtelling akkoord) → 23/01/2015 (huidige datum) = ~4 maanden. Voor de accountant zijn dit de "gebeurtenissen na balansdatum" (ISA 560 / KB WVV art. 3:6). Acties: (a) management vragen om informatie over gebeurtenissen tussen balansdatum en datum verslag, (b) verifiëren of die gebeurtenissen aanpassende (adjusting events) of toelichtende (non-adjusting events) gebeurtenissen zijn, (c) verkrijgen van schriftelijke bevestiging van management dat alle relevante na-balansdatum-events zijn meegedeeld, (d) impact op jaarrekening + toelichting + controleverslag beoordelen.
-
-> [!success]- Motivering (typed)
-> ### Context
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Periode 01/10/2014 (voorraadtelling akkoord) → 23/01/2015 (huidige datum) = ~4 maanden. Voor de accountant zijn dit de "gebeurtenissen na balansdatum" (ISA 560 / KB WVV art. 3:6). Acties: (a) management vragen om informatie over gebeurtenissen tussen balansdatum en datum verslag, (b) verifiëren of die gebeurtenissen aanpassende (adjusting events) of toelichtende (non-adjusting events) gebeurtenissen zijn, (c) verkrijgen van schriftelijke bevestiging van management dat alle relevante na-balansdatum-events zijn meegedeeld, (d) impact op jaarrekening + toelichting + controleverslag beoordelen.
 > 
-> Balansdatum: 30 september 2014. Voorraadtelling bij accountant: 1 oktober 2014. Huidige datum: 23 januari 2015. **Periode van ~4 maanden tussen balansdatum en datum waarop het controleverslag wordt opgesteld** — typische "na-balansdatum-periode" in een audit.
+> > [!note]- Motivering (typed)
+> > ### Context
+> > 
+> > Balansdatum: 30 september 2014. Voorraadtelling bij accountant: 1 oktober 2014. Huidige datum: 23 januari 2015. **Periode van ~4 maanden tussen balansdatum en datum waarop het controleverslag wordt opgesteld** — typische "na-balansdatum-periode" in een audit.
+> > 
+> > ### Klassieke aanpak (ISA 560 + KB WVV art. 3:6)
+> > 
+> > **Twee soorten gebeurtenissen na balansdatum**:
+> > 
+> > ⚠️ Casus-specifiek (NV Fortunato): balansdatum 30/11/2013. Aanpak identiek aan klassieke ISA 560-procedure.
+> > 
+> > 1. **Aanpassende gebeurtenissen (adjusting events)** — gebeurtenissen die meer informatie verschaffen over omstandigheden die **al bestonden** op balansdatum. ⚖️ Voorbeelden: faillissement van een grote debiteur waar al twijfel over bestond → waardevermindering op vordering boeken op balans 30/09; uitspraak in een rechtsgeschil dat op 30/09 al hangende was → voorziening boeken. ⚖️
+> > 2. **Niet-aanpassende gebeurtenissen (non-adjusting events)** — gebeurtenissen die ontstonden **na** balansdatum. ⚖️ Voorbeelden: brand in november, overname op decembre, dividendbeslissing. Geen aanpassing van cijfers, maar **toelichting verplicht** indien materieel. ⚖️
+> > 3. **Management bevragen** — wat is er sinds 30 september gebeurd? Significante contracten, claims, faillissementen, productiestilstanden, brand/diefstal, kapitaalverhogingen, omzet-veranderingen, etc. ⚖️
+> > 4. **Documentatie reviewen** — recente notulen bestuursvergaderingen, ondertekende contracten, recente bank-/leverancier-correspondentie, juridische bevestigingen. ⚖️
+> > 5. **Subsequente boekingen testen** — controleer of materiële gebeurtenissen die zich na 30/09 voordeden, correct in de jaarrekening van 30/09/2014 zijn opgenomen (adjusting) of in toelichting (non-adjusting). ⚖️
+> > 6. **Externe bevestigingen** — van advocaten (geschillen na 30/09) en banken (kredietfaciliteiten-status) — zie [[externe-bevestiging-audit]]. ⚖️
+> > 7. **Schriftelijke bevestiging van management** — ([[schriftelijke-bevestiging-management]]) — dat alle relevante na-balansdatum-events gemeld zijn (ISA 580). ⚖️
+> > 8. **Impact beoordelen op** — - Cijfers: aanpassende → boeken in jaarrekening
+> >    - Toelichting: niet-aanpassende materiële → vermelden
+> >    - Controleverslag: bij materiële niet-vermelding → voorbehoud of afkeurend
+> >    - Continuïteit: gebeurtenissen die continuïteit bedreigen → mogelijk going-concern paragraaf (ISA 570)
+> > 
+> > _Grondslag: ISA 560 (Subsequent Events); KB WVV art. 3:6 (gebeurtenissen na balansdatum); ITAA KMO-controlenorm §123-126; [[externe-bevestiging-audit]]; [[schriftelijke-bevestiging-management]]._
 > 
-> ### Klassieke aanpak (ISA 560 + KB WVV art. 3:6)
+> > [!info]- Bronnen (2)
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Werkwijze → ondersteunt: externe bevestigingen na balansdatum
+> > - [[schriftelijke-bevestiging-management|content/concepten/schriftelijke-bevestiging-management.md]] · Bouwstenen → ondersteunt: management bevestiging na-balansdatum-events
 > 
-> **Twee soorten gebeurtenissen na balansdatum**:
-> 
-> ⚠️ Casus-specifiek (NV Fortunato): balansdatum 30/11/2013. Aanpak identiek aan klassieke ISA 560-procedure.
-> 
-> 1. **Aanpassende gebeurtenissen (adjusting events)** — gebeurtenissen die meer informatie verschaffen over omstandigheden die **al bestonden** op balansdatum. ⚖️ Voorbeelden: faillissement van een grote debiteur waar al twijfel over bestond → waardevermindering op vordering boeken op balans 30/09; uitspraak in een rechtsgeschil dat op 30/09 al hangende was → voorziening boeken. ⚖️
-> 2. **Niet-aanpassende gebeurtenissen (non-adjusting events)** — gebeurtenissen die ontstonden **na** balansdatum. ⚖️ Voorbeelden: brand in november, overname op decembre, dividendbeslissing. Geen aanpassing van cijfers, maar **toelichting verplicht** indien materieel. ⚖️
-> 3. **Management bevragen** — wat is er sinds 30 september gebeurd? Significante contracten, claims, faillissementen, productiestilstanden, brand/diefstal, kapitaalverhogingen, omzet-veranderingen, etc. ⚖️
-> 4. **Documentatie reviewen** — recente notulen bestuursvergaderingen, ondertekende contracten, recente bank-/leverancier-correspondentie, juridische bevestigingen. ⚖️
-> 5. **Subsequente boekingen testen** — controleer of materiële gebeurtenissen die zich na 30/09 voordeden, correct in de jaarrekening van 30/09/2014 zijn opgenomen (adjusting) of in toelichting (non-adjusting). ⚖️
-> 6. **Externe bevestigingen** — van advocaten (geschillen na 30/09) en banken (kredietfaciliteiten-status) — zie [[externe-bevestiging-audit]]. ⚖️
-> 7. **Schriftelijke bevestiging van management** — ([[schriftelijke-bevestiging-management]]) — dat alle relevante na-balansdatum-events gemeld zijn (ISA 580). ⚖️
-> 8. **Impact beoordelen op** — - Cijfers: aanpassende → boeken in jaarrekening
->    - Toelichting: niet-aanpassende materiële → vermelden
->    - Controleverslag: bij materiële niet-vermelding → voorbehoud of afkeurend
->    - Continuïteit: gebeurtenissen die continuïteit bedreigen → mogelijk going-concern paragraaf (ISA 570)
-> 
-> _Grondslag: ISA 560 (Subsequent Events); KB WVV art. 3:6 (gebeurtenissen na balansdatum); ITAA KMO-controlenorm §123-126; [[externe-bevestiging-audit]]; [[schriftelijke-bevestiging-management]]._
-
-> [!info]- Bronnen (2)
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Werkwijze → ondersteunt: externe bevestigingen na balansdatum
-> - [[schriftelijke-bevestiging-management|content/concepten/schriftelijke-bevestiging-management.md]] · Bouwstenen → ondersteunt: management bevestiging na-balansdatum-events
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Gespiegeld op 2015-1-vr18 (gebeurtenissen na balansdatum) — aanpak identiek.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Gespiegeld op 2015-1-vr18 (gebeurtenissen na balansdatum) — aanpak identiek.
 
 #### Subvraag a)
 
@@ -4883,44 +4822,43 @@ a) Moeten we daarvoor een voorbehoud in ons verslag maken ?
 b) Welke acties kan men ondernemen om aan dit onvoldoende aantal antwoorden te
 remediëren (geef twee voorbeelden)?**
 
-#### Modelantwoord
-
-a) Niet automatisch voorbehoud: alleen indien alternatieve werkzaamheden onvoldoende informatie opleveren én het effect materieel is. b) Acties: subsequente betalingen na balansdatum testen, leveringsbon/factuur/inning-documenten inspecteren, beoordeling waarom geen antwoord (steekproef-grootte vergroten, herzending naar andere ontvangers, telefonische follow-up), en indien aanhoudend → andere klanten in steekproef + cijferanalyse-DSO + management-bevestiging.
-
-> [!success]- Motivering (typed)
-> ### a) Moeten we daarvoor een voorbehoud in ons verslag maken?
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Niet automatisch voorbehoud: alleen indien alternatieve werkzaamheden onvoldoende informatie opleveren én het effect materieel is. b) Acties: subsequente betalingen na balansdatum testen, leveringsbon/factuur/inning-documenten inspecteren, beoordeling waarom geen antwoord (steekproef-grootte vergroten, herzending naar andere ontvangers, telefonische follow-up), en indien aanhoudend → andere klanten in steekproef + cijferanalyse-DSO + management-bevestiging.
 > 
-> **Niet automatisch.** Onvoldoende antwoorden op confirmatiebrieven is op zichzelf **geen** reden voor voorbehoud — het is een **scope-uitdaging** die opgelost kan worden met alternatieve werkzaamheden ([[externe-bevestiging-audit]] §Niet-antwoord). ⚖️ ⚖️
+> > [!note]- Motivering (typed)
+> > ### a) Moeten we daarvoor een voorbehoud in ons verslag maken?
+> > 
+> > **Niet automatisch.** Onvoldoende antwoorden op confirmatiebrieven is op zichzelf **geen** reden voor voorbehoud — het is een **scope-uitdaging** die opgelost kan worden met alternatieve werkzaamheden ([[externe-bevestiging-audit]] §Niet-antwoord). ⚖️ ⚖️
+> > 
+> > Voorbehoud is alleen vereist wanneer:
+> > 
+> > Pas wanneer al deze alternatieven onvoldoende blijken, komt voorbehoud in beeld.
+> > 
+> > 1. **Alternatieve werkzaamheden onvoldoende informatie opleveren** — (bv. geen subsequente betalingen, contracten ontbreken, klanten weigeren mee te werken)
+> > 2. **Het effect materieel is** — de niet-bevestigde saldi vertegenwoordigen samen een bedrag boven de materialiteitsdrempel
+> > 3. **Diepgaand of niet** — → bepaalt voorbehoud vs afkeurend oordeel (zie [[controleoordeel-types]])
+> > 4. **Subsequente inningen testen** — controleer in bankafschriften na balansdatum of de geboekte klantenvordering effectief geïnd werd. Inning na balansdatum is sterk bewijs van bestaan + waardering. ⚖️
+> > 5. **Leveringsbonnen, facturen en orders inspecteren** — drieweg-match (order → leveringsbon → factuur) levert documentair bewijs over bestaan. ⚖️
+> > 6. **Cijferanalyse op DSO en aged-receivables** — patronen identificeren die wijzen op verkeerd geboekte saldi. ⚖️
+> > 7. **Herzending** — telefonische follow-up bij klant + opnieuw versturen via beveiligde weg (e-mail met handtekening + leverbevestiging) 🤖
+> > 8. **Steekproef vergroten** — meer klanten aanschrijven om de coverage te verhogen 🤖
+> > 9. **Switchen naar positieve bevestiging** — als oorspronkelijk negatief gevraagd (alleen reactie bij verschil), heroverwegen naar positieve bevestiging (altijd antwoorden) 🤖
+> > 10. **Management-bevestiging** — schriftelijke bevestiging van management dat de klantensaldi correct geboekt zijn (zie [[schriftelijke-bevestiging-management]]) — maar dit is **aanvullend**, niet vervangend voor extern bewijs. ⚖️
+> > 
+> > _Grondslag: ITAA KMO-controlenorm §92; ISA 505 §12-16; [[externe-bevestiging-audit]]; [[controleoordeel-types]]._
 > 
-> Voorbehoud is alleen vereist wanneer:
+> > [!info]- Bronnen (2)
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Niet-antwoord en alternatieve werkzaamheden → ondersteunt: alternatieve werkzaamheden
+> > - [[controleoordeel-types|content/concepten/controleoordeel-types.md]] · Bouwstenen → ondersteunt: voorbehoud-trigger
 > 
-> Pas wanneer al deze alternatieven onvoldoende blijken, komt voorbehoud in beeld.
-> 
-> 1. **Alternatieve werkzaamheden onvoldoende informatie opleveren** — (bv. geen subsequente betalingen, contracten ontbreken, klanten weigeren mee te werken)
-> 2. **Het effect materieel is** — de niet-bevestigde saldi vertegenwoordigen samen een bedrag boven de materialiteitsdrempel
-> 3. **Diepgaand of niet** — → bepaalt voorbehoud vs afkeurend oordeel (zie [[controleoordeel-types]])
-> 4. **Subsequente inningen testen** — controleer in bankafschriften na balansdatum of de geboekte klantenvordering effectief geïnd werd. Inning na balansdatum is sterk bewijs van bestaan + waardering. ⚖️
-> 5. **Leveringsbonnen, facturen en orders inspecteren** — drieweg-match (order → leveringsbon → factuur) levert documentair bewijs over bestaan. ⚖️
-> 6. **Cijferanalyse op DSO en aged-receivables** — patronen identificeren die wijzen op verkeerd geboekte saldi. ⚖️
-> 7. **Herzending** — telefonische follow-up bij klant + opnieuw versturen via beveiligde weg (e-mail met handtekening + leverbevestiging) 🤖
-> 8. **Steekproef vergroten** — meer klanten aanschrijven om de coverage te verhogen 🤖
-> 9. **Switchen naar positieve bevestiging** — als oorspronkelijk negatief gevraagd (alleen reactie bij verschil), heroverwegen naar positieve bevestiging (altijd antwoorden) 🤖
-> 10. **Management-bevestiging** — schriftelijke bevestiging van management dat de klantensaldi correct geboekt zijn (zie [[schriftelijke-bevestiging-management]]) — maar dit is **aanvullend**, niet vervangend voor extern bewijs. ⚖️
-> 
-> _Grondslag: ITAA KMO-controlenorm §92; ISA 505 §12-16; [[externe-bevestiging-audit]]; [[controleoordeel-types]]._
-
-> [!info]- Bronnen (2)
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Niet-antwoord en alternatieve werkzaamheden → ondersteunt: alternatieve werkzaamheden
-> - [[controleoordeel-types|content/concepten/controleoordeel-types.md]] · Bouwstenen → ondersteunt: voorbehoud-trigger
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -4951,50 +4889,49 @@ ten belope van 12.000,00 EUR.
 Waarom is dit van belang voor het controleverslag?
 Welke actie stel je voor ?
 
-#### Modelantwoord
-
-Erelonen advocaat van 12.000 EUR in de resultatenrekening wijzen op één of meer lopende juridische geschillen, wat materiële off-balance verplichtingen of voorzieningen kan impliceren die de auditor moet onderzoeken. Acties: (1) externe bevestiging vragen aan de advocaat over status, aard en bedrag van geschillen; (2) toelichting en eventuele voorzieningen voor risico's en kosten nazien; (3) potentiële impact op continuïteit beoordelen; (4) bij niet-onthulling of materiële afwijking: oordeel met voorbehoud of zelfs afkeurend oordeel overwegen.
-
-> [!success]- Motivering (typed)
-> **Waarom is dit van belang voor het controleverslag?**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Erelonen advocaat van 12.000 EUR in de resultatenrekening wijzen op één of meer lopende juridische geschillen, wat materiële off-balance verplichtingen of voorzieningen kan impliceren die de auditor moet onderzoeken. Acties: (1) externe bevestiging vragen aan de advocaat over status, aard en bedrag van geschillen; (2) toelichting en eventuele voorzieningen voor risico's en kosten nazien; (3) potentiële impact op continuïteit beoordelen; (4) bij niet-onthulling of materiële afwijking: oordeel met voorbehoud of zelfs afkeurend oordeel overwegen.
 > 
-> **Waarom is dit van belang voor het controleverslag?**
+> > [!note]- Motivering (typed)
+> > **Waarom is dit van belang voor het controleverslag?**
+> > 
+> > **Waarom is dit van belang voor het controleverslag?**
+> > 
+> > De aanwezigheid van een kostenpost "erelonen advocaat" van € 12.000 in de resultatenrekening is een **signaal** voor de auditor dat er **lopende of recent afgesloten juridische geschillen** zijn. ⚖️ Geschillen kunnen drie soorten effecten hebben op de jaarrekening: ⚖️
+> > 
+> > **Impact op het controleverslag**:
+> > 
+> > - **Niets aan de hand** (geschil gering, correct vermeld, voorziening adequaat) → geen impact, gewoon goedkeurend oordeel
+> > - **Materiële niet-vermelding of onder-voorziening** → mogelijke afwijking van materieel belang → oordeel met **voorbehoud** indien geïsoleerd, of **afkeurend** indien diepgaand (zie [[controleoordeel-types]]) ⚖️
+> > - **Onmogelijk om informatie te krijgen** (advocaat antwoordt niet, cliënt weigert) → scope-beperking → mogelijk **onthouding van oordeel** indien diepgaand ⚖️
+> > - **Materiële continuïteitsonzekerheid** → paragraaf 'Materiële onzekerheid m.b.t. continuïteit' in het verslag (ISA 570) ⚖️ ⚖️
+> > 
+> > ⚠️ Een ereloon van € 12.000 is **niet automatisch** materieel — afhankelijk van de bedrijfsgrootte en de materialiteitsdrempel. Maar het is een **trigger** om dieper te kijken, niet de afwijking zelf. 🤖 🤖
+> > 
+> > 1. **Off-balance verplichting** — (klasse 0 in toelichting): geschillen zonder zekere uitkomst worden vermeld bij de rechten en verplichtingen buiten balans ([[balans]] §In de praktijk — buiten-balans-vermelding). ⚖️
+> > 2. **Voorziening voor risico's en kosten** — (rek 16 Voorzieningen): bij waarschijnlijk verlies → voorziening boeken op basis van de schatting van het bedrag (KB WVV art. 3:24-3:27). ⚖️
+> > 3. **Materiële afwijking** — bij niet-vermelding of onder-geschatte voorziening → impact op het oordeel van de auditor.
+> > 4. **Externe bevestiging vragen aan de advocaat** — ([[externe-bevestiging-audit]] §Werkwijze): de advocaat is bij uitstek de externe partij die status, aard, en bedrag van de geschillen kan bevestigen. Schriftelijke confirmatie rechtstreeks aan auditor. ⚖️
+> > 5. **Toelichting nazien** — zijn alle hangende geschillen vermeld in de toelichting (off-balance + voorzieningen)? Vergelijk de erelonen-volume met de toelichting — onverhouding wijst op niet-vermelding. ⚖️
+> > 6. **Voorziening evalueren** — ([[boekhoudkundige-schattingen-audit]]): bij materieel geschil + waarschijnlijk verlies → voorziening boeken op basis van de schatting. Auditor toetst de redelijkheid van de schatting (range van uitkomsten van de advocaat). ⚖️
+> > 7. **Continuïteit beoordelen** — een groot geschil kan continuïteit bedreigen. Bij materieel risico → assessing going concern (ISA 570). ⚖️
+> > 
+> > _Grondslag: [[externe-bevestiging-audit]]; [[boekhoudkundige-schattingen-audit]]; [[controleoordeel-types]]; ISA 501 §4-A6 (litigation & claims); ISA 505 (externe confirmaties); ISA 570 (continuïteit); KB WVV art. 3:24-3:27 (voorzieningen)._
 > 
-> De aanwezigheid van een kostenpost "erelonen advocaat" van € 12.000 in de resultatenrekening is een **signaal** voor de auditor dat er **lopende of recent afgesloten juridische geschillen** zijn. ⚖️ Geschillen kunnen drie soorten effecten hebben op de jaarrekening: ⚖️
+> > [!info]- Bronnen (4)
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Werkwijze (advocaat) → ondersteunt: externe bevestiging van advocaat voor geschillen
+> > - [[boekhoudkundige-schattingen-audit|content/concepten/boekhoudkundige-schattingen-audit.md]] · Bouwstenen → ondersteunt: voorzieningen voor geschillen als schatting
+> > - [[controleoordeel-types|content/concepten/controleoordeel-types.md]] · Bouwstenen → ondersteunt: impact op oordeel-type
+> > - [[balans|content/concepten/balans.md]] · In de praktijk — buiten-balans-vermelding → ondersteunt: klasse 0 hangende geschillen
 > 
-> **Impact op het controleverslag**:
-> 
-> - **Niets aan de hand** (geschil gering, correct vermeld, voorziening adequaat) → geen impact, gewoon goedkeurend oordeel
-> - **Materiële niet-vermelding of onder-voorziening** → mogelijke afwijking van materieel belang → oordeel met **voorbehoud** indien geïsoleerd, of **afkeurend** indien diepgaand (zie [[controleoordeel-types]]) ⚖️
-> - **Onmogelijk om informatie te krijgen** (advocaat antwoordt niet, cliënt weigert) → scope-beperking → mogelijk **onthouding van oordeel** indien diepgaand ⚖️
-> - **Materiële continuïteitsonzekerheid** → paragraaf 'Materiële onzekerheid m.b.t. continuïteit' in het verslag (ISA 570) ⚖️ ⚖️
-> 
-> ⚠️ Een ereloon van € 12.000 is **niet automatisch** materieel — afhankelijk van de bedrijfsgrootte en de materialiteitsdrempel. Maar het is een **trigger** om dieper te kijken, niet de afwijking zelf. 🤖 🤖
-> 
-> 1. **Off-balance verplichting** — (klasse 0 in toelichting): geschillen zonder zekere uitkomst worden vermeld bij de rechten en verplichtingen buiten balans ([[balans]] §In de praktijk — buiten-balans-vermelding). ⚖️
-> 2. **Voorziening voor risico's en kosten** — (rek 16 Voorzieningen): bij waarschijnlijk verlies → voorziening boeken op basis van de schatting van het bedrag (KB WVV art. 3:24-3:27). ⚖️
-> 3. **Materiële afwijking** — bij niet-vermelding of onder-geschatte voorziening → impact op het oordeel van de auditor.
-> 4. **Externe bevestiging vragen aan de advocaat** — ([[externe-bevestiging-audit]] §Werkwijze): de advocaat is bij uitstek de externe partij die status, aard, en bedrag van de geschillen kan bevestigen. Schriftelijke confirmatie rechtstreeks aan auditor. ⚖️
-> 5. **Toelichting nazien** — zijn alle hangende geschillen vermeld in de toelichting (off-balance + voorzieningen)? Vergelijk de erelonen-volume met de toelichting — onverhouding wijst op niet-vermelding. ⚖️
-> 6. **Voorziening evalueren** — ([[boekhoudkundige-schattingen-audit]]): bij materieel geschil + waarschijnlijk verlies → voorziening boeken op basis van de schatting. Auditor toetst de redelijkheid van de schatting (range van uitkomsten van de advocaat). ⚖️
-> 7. **Continuïteit beoordelen** — een groot geschil kan continuïteit bedreigen. Bij materieel risico → assessing going concern (ISA 570). ⚖️
-> 
-> _Grondslag: [[externe-bevestiging-audit]]; [[boekhoudkundige-schattingen-audit]]; [[controleoordeel-types]]; ISA 501 §4-A6 (litigation & claims); ISA 505 (externe confirmaties); ISA 570 (continuïteit); KB WVV art. 3:24-3:27 (voorzieningen)._
-
-> [!info]- Bronnen (4)
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Werkwijze (advocaat) → ondersteunt: externe bevestiging van advocaat voor geschillen
-> - [[boekhoudkundige-schattingen-audit|content/concepten/boekhoudkundige-schattingen-audit.md]] · Bouwstenen → ondersteunt: voorzieningen voor geschillen als schatting
-> - [[controleoordeel-types|content/concepten/controleoordeel-types.md]] · Bouwstenen → ondersteunt: impact op oordeel-type
-> - [[balans|content/concepten/balans.md]] · In de praktijk — buiten-balans-vermelding → ondersteunt: klasse 0 hangende geschillen
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -5082,42 +5019,41 @@ Antwoord …
 |   | Ja |
 |   | Neen |
 
-#### Modelantwoord
-
-a) Indien adjustments worden geweigerd door de cliënt + materieel → de accountant kan een oordeel met voorbehoud uitbrengen, of (indien diepgaand) een afkeurend oordeel. Hij kan zich niet onthouden van rapportering — een contractueel beperkt nazicht eindigt met een verslag.
-
-> [!success]- Motivering (typed)
-> In een **contractueel beperkt nazicht** (review) — met **beperkte mate van zekerheid** in plaats van redelijke zekerheid (ISA 2400 / ITAA-norm-beoordelingsopdracht) — stelt de accountant **adjustments** voor wanneer hij afwijkingen vaststelt.
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Indien adjustments worden geweigerd door de cliënt + materieel → de accountant kan een oordeel met voorbehoud uitbrengen, of (indien diepgaand) een afkeurend oordeel. Hij kan zich niet onthouden van rapportering — een contractueel beperkt nazicht eindigt met een verslag.
 > 
-> ### Wanneer cliënt de adjustments weigert
+> > [!note]- Motivering (typed)
+> > In een **contractueel beperkt nazicht** (review) — met **beperkte mate van zekerheid** in plaats van redelijke zekerheid (ISA 2400 / ITAA-norm-beoordelingsopdracht) — stelt de accountant **adjustments** voor wanneer hij afwijkingen vaststelt.
+> > 
+> > ### Wanneer cliënt de adjustments weigert
+> > 
+> > **Optie 1: cliënt past de adjustments toe** → geen probleem, beoordelingsverslag met negatieve assurance ("we zijn niets tegengekomen dat ons doet vermoeden ...").
+> > 
+> > **Optie 2: cliënt weigert** + adjustments zijn **materieel** → accountant moet de afwijking weerspiegelen in zijn verslag:
+> > - **Voorbehoud** (geïsoleerde afwijking, niet alles-doordringend) ⚖️
+> > - **Afkeurend verklaring** (diepgaande materiële afwijking — beoordelingsverslag-equivalent van afkeurend oordeel) ⚖️
+> > - **Onthouding** (bij onmogelijke scope — niet bij weigering van adjustment, want scope is hier wel bekend) ⚖️
+> > 
+> > ### Belangrijke nuances
+> > 
+> > 🤖 Verschil met een **wettelijke commissaris-controle**: bij een contractueel beperkt nazicht is er geen wettelijke verplichting tot publiceren — maar de accountant blijft gebonden aan zijn beroepsethiek en moet wel **rapporteren** wat hij heeft vastgesteld. Hij kan zich niet eenvoudig "terugtrekken" zonder gevolgen — daarvoor is een opdrachtbrief met opzegclausule nodig. 🤖
+> > 
+> > ⚖️ Bij een controleopdracht (assurance met redelijke zekerheid) zou hetzelfde probleem leiden tot voorbehoud/afkeurend/onthouding op de jaarrekening zelf. Bij beperkt nazicht: hetzelfde principe maar met "negatieve assurance"-formulering ("Op basis van onze beoordeling is ons niet gebleken dat ... behalve voor [adjustment]"). ⚖️
+> > 
+> > _Grondslag: [[contractuele-beoordelingsopdracht]] §Bouwstenen; ISA 2400 (Engagements to Review Historical Financial Statements); [[controleoordeel-types]]; ITAA-norm beoordelingsopdracht (indien beschikbaar)._
 > 
-> **Optie 1: cliënt past de adjustments toe** → geen probleem, beoordelingsverslag met negatieve assurance ("we zijn niets tegengekomen dat ons doet vermoeden ...").
+> > [!info]- Bronnen (2)
+> > - [[contractuele-beoordelingsopdracht|content/concepten/contractuele-beoordelingsopdracht.md]] · Bouwstenen → ondersteunt: beperkt nazicht + negatieve assurance
+> > - [[controleoordeel-types|content/concepten/controleoordeel-types.md]] · Bouwstenen — voorbehoud/afkeurend/onthouding → ondersteunt: mogelijke oordeel-types
 > 
-> **Optie 2: cliënt weigert** + adjustments zijn **materieel** → accountant moet de afwijking weerspiegelen in zijn verslag:
-> - **Voorbehoud** (geïsoleerde afwijking, niet alles-doordringend) ⚖️
-> - **Afkeurend verklaring** (diepgaande materiële afwijking — beoordelingsverslag-equivalent van afkeurend oordeel) ⚖️
-> - **Onthouding** (bij onmogelijke scope — niet bij weigering van adjustment, want scope is hier wel bekend) ⚖️
-> 
-> ### Belangrijke nuances
-> 
-> 🤖 Verschil met een **wettelijke commissaris-controle**: bij een contractueel beperkt nazicht is er geen wettelijke verplichting tot publiceren — maar de accountant blijft gebonden aan zijn beroepsethiek en moet wel **rapporteren** wat hij heeft vastgesteld. Hij kan zich niet eenvoudig "terugtrekken" zonder gevolgen — daarvoor is een opdrachtbrief met opzegclausule nodig. 🤖
-> 
-> ⚖️ Bij een controleopdracht (assurance met redelijke zekerheid) zou hetzelfde probleem leiden tot voorbehoud/afkeurend/onthouding op de jaarrekening zelf. Bij beperkt nazicht: hetzelfde principe maar met "negatieve assurance"-formulering ("Op basis van onze beoordeling is ons niet gebleken dat ... behalve voor [adjustment]"). ⚖️
-> 
-> _Grondslag: [[contractuele-beoordelingsopdracht]] §Bouwstenen; ISA 2400 (Engagements to Review Historical Financial Statements); [[controleoordeel-types]]; ITAA-norm beoordelingsopdracht (indien beschikbaar)._
-
-> [!info]- Bronnen (2)
-> - [[contractuele-beoordelingsopdracht|content/concepten/contractuele-beoordelingsopdracht.md]] · Bouwstenen → ondersteunt: beperkt nazicht + negatieve assurance
-> - [[controleoordeel-types|content/concepten/controleoordeel-types.md]] · Bouwstenen — voorbehoud/afkeurend/onthouding → ondersteunt: mogelijke oordeel-types
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -5141,52 +5077,51 @@ Een eerste stap bij het auditwerk is de aanvaardingsprocedure van de opdracht.
 **Geef twee voorbeelden van situaties bij deze procedure, waarbij we het dossier mogelijks
 niet kunnen aanvaarden.**
 
-#### Modelantwoord
-
-Twee voorbeelden: (1) Onafhankelijkheidsprobleem of belangenconflict — de auditor, zijn kantoor of nauwe verwanten hebben een financiële of persoonlijke band met de cliënt die de onafhankelijkheid aantast (KB 1998 plichtenleer art. 12; Wet ITAA 2019 §Onafhankelijkheid). (2) Cliënt erkent niet de drie basisverantwoordelijkheden van het management (opstellen jaarrekening, interne beheersing, toegang tot informatie verschaffen) — zonder die erkenning mist de audit een referentiekader.
-
-> [!success]- Motivering (typed)
-> Bij de aanvaardingsprocedure van een audit-opdracht moet de accountant verschillende randvoorwaarden toetsen ([[aanvaarden-audit-opdracht]] §Stappen 1-5). Situaties waarin het dossier **mogelijk niet kan worden aanvaard**:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Twee voorbeelden: (1) Onafhankelijkheidsprobleem of belangenconflict — de auditor, zijn kantoor of nauwe verwanten hebben een financiële of persoonlijke band met de cliënt die de onafhankelijkheid aantast (KB 1998 plichtenleer art. 12; Wet ITAA 2019 §Onafhankelijkheid). (2) Cliënt erkent niet de drie basisverantwoordelijkheden van het management (opstellen jaarrekening, interne beheersing, toegang tot informatie verschaffen) — zonder die erkenning mist de audit een referentiekader.
 > 
-> ### Voorbeeld 1: Onafhankelijkheidsprobleem of belangenconflict
+> > [!note]- Motivering (typed)
+> > Bij de aanvaardingsprocedure van een audit-opdracht moet de accountant verschillende randvoorwaarden toetsen ([[aanvaarden-audit-opdracht]] §Stappen 1-5). Situaties waarin het dossier **mogelijk niet kan worden aanvaard**:
+> > 
+> > ### Voorbeeld 1: Onafhankelijkheidsprobleem of belangenconflict
+> > 
+> > De accountant — zijn kantoor of zijn nauwe verwanten — hebben een band met de cliënt die de onafhankelijkheid in twijfel trekt:
+> > - Familiale band met de bestuurder/eigenaar
+> > - Significant financieel belang (aandelen, schulden, leningen)
+> > - Eerdere niet-audit-diensten die zelf-controle veroorzaken (bv. boekhouding gevoerd voor dezelfde cliënt)
+> > - Gerelateerde commerciële relaties (significant deel van de omzet komt van deze ene cliënt)
+> > 
+> > ⚖️ Schending van onafhankelijkheid leidt tot **tucht en nietigheid van het verslag** (Wet ITAA 2019 + KB 1998 plichtenleer art. 12 + IESBA Code of Ethics). De accountant **weigert** of trekt zich terug. ⚖️
+> > 
+> > ### Voorbeeld 2: Cliënt erkent niet de drie basisverantwoordelijkheden van het management
+> > 
+> > Voor een audit moet het management ([[aanvaarden-audit-opdracht]] §1) erkennen:
+> > - Verantwoordelijkheid voor het opstellen van de jaarrekening conform het toepasselijke financieel rapporteringsstelsel ⚖️
+> > - Verantwoordelijkheid voor de interne beheersing die het opstellen mogelijk maakt zonder afwijking van materieel belang ⚖️
+> > - Verplichting om de accountant toegang te verschaffen tot alle relevante informatie en aanvullende inlichtingen ⚖️ ⚖️
+> > 
+> > Zonder die erkenning **mist de audit een referentiekader** en is een controle-oordeel onmogelijk te onderbouwen. → niet aanvaarden.
+> > 
+> > **Aanvullende voorbeelden (niet in opsomming):**
+> > 
+> > - Toepasselijk rapporteringsstelsel niet aanvaardbaar (bv. exotisch zelfbedacht model in plaats van BE GAAP/IFRS)
+> > - Voorgaande accountant meldt fundamentele integriteitsbezwaren over het management (KB 1998 plichtenleer art. 17-18 — collegiaal contact verplicht)
+> > - Cliënt is geen toegestane juridische entiteit voor de opdracht (bv. een ad-hoc structuur zonder rechtspersoonlijkheid voor een wettelijke commissaris-controle)
+> > 
+> > _Grondslag: [[aanvaarden-audit-opdracht]] §Stappen 1-3; Wet ITAA 2019; KB 1998 plichtenleer art. 12 + 17-18; IESBA Code of Ethics._
 > 
-> De accountant — zijn kantoor of zijn nauwe verwanten — hebben een band met de cliënt die de onafhankelijkheid in twijfel trekt:
-> - Familiale band met de bestuurder/eigenaar
-> - Significant financieel belang (aandelen, schulden, leningen)
-> - Eerdere niet-audit-diensten die zelf-controle veroorzaken (bv. boekhouding gevoerd voor dezelfde cliënt)
-> - Gerelateerde commerciële relaties (significant deel van de omzet komt van deze ene cliënt)
+> > [!info]- Bronnen (2)
+> > - [[aanvaarden-audit-opdracht|content/concepten/aanvaarden-audit-opdracht.md]] · Stappen 1-3 → ondersteunt: randvoorwaarden + onafhankelijkheid + collegiaal contact
+> > - [[belangenconflict-accountant|content/concepten/belangenconflict-accountant.md]] · Bouwstenen → ondersteunt: voorbeeld onafhankelijkheid
 > 
-> ⚖️ Schending van onafhankelijkheid leidt tot **tucht en nietigheid van het verslag** (Wet ITAA 2019 + KB 1998 plichtenleer art. 12 + IESBA Code of Ethics). De accountant **weigert** of trekt zich terug. ⚖️
-> 
-> ### Voorbeeld 2: Cliënt erkent niet de drie basisverantwoordelijkheden van het management
-> 
-> Voor een audit moet het management ([[aanvaarden-audit-opdracht]] §1) erkennen:
-> - Verantwoordelijkheid voor het opstellen van de jaarrekening conform het toepasselijke financieel rapporteringsstelsel ⚖️
-> - Verantwoordelijkheid voor de interne beheersing die het opstellen mogelijk maakt zonder afwijking van materieel belang ⚖️
-> - Verplichting om de accountant toegang te verschaffen tot alle relevante informatie en aanvullende inlichtingen ⚖️ ⚖️
-> 
-> Zonder die erkenning **mist de audit een referentiekader** en is een controle-oordeel onmogelijk te onderbouwen. → niet aanvaarden.
-> 
-> **Aanvullende voorbeelden (niet in opsomming):**
-> 
-> - Toepasselijk rapporteringsstelsel niet aanvaardbaar (bv. exotisch zelfbedacht model in plaats van BE GAAP/IFRS)
-> - Voorgaande accountant meldt fundamentele integriteitsbezwaren over het management (KB 1998 plichtenleer art. 17-18 — collegiaal contact verplicht)
-> - Cliënt is geen toegestane juridische entiteit voor de opdracht (bv. een ad-hoc structuur zonder rechtspersoonlijkheid voor een wettelijke commissaris-controle)
-> 
-> _Grondslag: [[aanvaarden-audit-opdracht]] §Stappen 1-3; Wet ITAA 2019; KB 1998 plichtenleer art. 12 + 17-18; IESBA Code of Ethics._
-
-> [!info]- Bronnen (2)
-> - [[aanvaarden-audit-opdracht|content/concepten/aanvaarden-audit-opdracht.md]] · Stappen 1-3 → ondersteunt: randvoorwaarden + onafhankelijkheid + collegiaal contact
-> - [[belangenconflict-accountant|content/concepten/belangenconflict-accountant.md]] · Bouwstenen → ondersteunt: voorbeeld onafhankelijkheid
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -5269,45 +5204,44 @@ Vul uw antwoorden in op volgend schema.**
  Verklaar bondig.
 Antwoord …
 
-#### Modelantwoord
-
-Periode 01/10/2014 (voorraadtelling akkoord) → 23/01/2015 (huidige datum) = ~4 maanden. Voor de accountant zijn dit de "gebeurtenissen na balansdatum" (ISA 560 / KB WVV art. 3:6). Acties: (a) management vragen om informatie over gebeurtenissen tussen balansdatum en datum verslag, (b) verifiëren of die gebeurtenissen aanpassende (adjusting events) of toelichtende (non-adjusting events) gebeurtenissen zijn, (c) verkrijgen van schriftelijke bevestiging van management dat alle relevante na-balansdatum-events zijn meegedeeld, (d) impact op jaarrekening + toelichting + controleverslag beoordelen.
-
-> [!success]- Motivering (typed)
-> ### Context
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Periode 01/10/2014 (voorraadtelling akkoord) → 23/01/2015 (huidige datum) = ~4 maanden. Voor de accountant zijn dit de "gebeurtenissen na balansdatum" (ISA 560 / KB WVV art. 3:6). Acties: (a) management vragen om informatie over gebeurtenissen tussen balansdatum en datum verslag, (b) verifiëren of die gebeurtenissen aanpassende (adjusting events) of toelichtende (non-adjusting events) gebeurtenissen zijn, (c) verkrijgen van schriftelijke bevestiging van management dat alle relevante na-balansdatum-events zijn meegedeeld, (d) impact op jaarrekening + toelichting + controleverslag beoordelen.
 > 
-> Balansdatum: 30 september 2014. Voorraadtelling bij accountant: 1 oktober 2014. Huidige datum: 23 januari 2015. **Periode van ~4 maanden tussen balansdatum en datum waarop het controleverslag wordt opgesteld** — typische "na-balansdatum-periode" in een audit.
+> > [!note]- Motivering (typed)
+> > ### Context
+> > 
+> > Balansdatum: 30 september 2014. Voorraadtelling bij accountant: 1 oktober 2014. Huidige datum: 23 januari 2015. **Periode van ~4 maanden tussen balansdatum en datum waarop het controleverslag wordt opgesteld** — typische "na-balansdatum-periode" in een audit.
+> > 
+> > ### Klassieke aanpak (ISA 560 + KB WVV art. 3:6)
+> > 
+> > **Twee soorten gebeurtenissen na balansdatum**:
+> > 
+> > 1. **Aanpassende gebeurtenissen (adjusting events)** — gebeurtenissen die meer informatie verschaffen over omstandigheden die **al bestonden** op balansdatum. ⚖️ Voorbeelden: faillissement van een grote debiteur waar al twijfel over bestond → waardevermindering op vordering boeken op balans 30/09; uitspraak in een rechtsgeschil dat op 30/09 al hangende was → voorziening boeken. ⚖️
+> > 2. **Niet-aanpassende gebeurtenissen (non-adjusting events)** — gebeurtenissen die ontstonden **na** balansdatum. ⚖️ Voorbeelden: brand in november, overname op decembre, dividendbeslissing. Geen aanpassing van cijfers, maar **toelichting verplicht** indien materieel. ⚖️
+> > 3. **Management bevragen** — wat is er sinds 30 september gebeurd? Significante contracten, claims, faillissementen, productiestilstanden, brand/diefstal, kapitaalverhogingen, omzet-veranderingen, etc. ⚖️
+> > 4. **Documentatie reviewen** — recente notulen bestuursvergaderingen, ondertekende contracten, recente bank-/leverancier-correspondentie, juridische bevestigingen. ⚖️
+> > 5. **Subsequente boekingen testen** — controleer of materiële gebeurtenissen die zich na 30/09 voordeden, correct in de jaarrekening van 30/09/2014 zijn opgenomen (adjusting) of in toelichting (non-adjusting). ⚖️
+> > 6. **Externe bevestigingen** — van advocaten (geschillen na 30/09) en banken (kredietfaciliteiten-status) — zie [[externe-bevestiging-audit]]. ⚖️
+> > 7. **Schriftelijke bevestiging van management** — ([[schriftelijke-bevestiging-management]]) — dat alle relevante na-balansdatum-events gemeld zijn (ISA 580). ⚖️
+> > 8. **Impact beoordelen op** — - Cijfers: aanpassende → boeken in jaarrekening
+> >    - Toelichting: niet-aanpassende materiële → vermelden
+> >    - Controleverslag: bij materiële niet-vermelding → voorbehoud of afkeurend
+> >    - Continuïteit: gebeurtenissen die continuïteit bedreigen → mogelijk going-concern paragraaf (ISA 570)
+> > 
+> > _Grondslag: ISA 560 (Subsequent Events); KB WVV art. 3:6 (gebeurtenissen na balansdatum); ITAA KMO-controlenorm §123-126; [[externe-bevestiging-audit]]; [[schriftelijke-bevestiging-management]]._
 > 
-> ### Klassieke aanpak (ISA 560 + KB WVV art. 3:6)
+> > [!info]- Bronnen (2)
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Werkwijze → ondersteunt: externe bevestigingen na balansdatum
+> > - [[schriftelijke-bevestiging-management|content/concepten/schriftelijke-bevestiging-management.md]] · Bouwstenen → ondersteunt: management bevestiging na-balansdatum-events
 > 
-> **Twee soorten gebeurtenissen na balansdatum**:
-> 
-> 1. **Aanpassende gebeurtenissen (adjusting events)** — gebeurtenissen die meer informatie verschaffen over omstandigheden die **al bestonden** op balansdatum. ⚖️ Voorbeelden: faillissement van een grote debiteur waar al twijfel over bestond → waardevermindering op vordering boeken op balans 30/09; uitspraak in een rechtsgeschil dat op 30/09 al hangende was → voorziening boeken. ⚖️
-> 2. **Niet-aanpassende gebeurtenissen (non-adjusting events)** — gebeurtenissen die ontstonden **na** balansdatum. ⚖️ Voorbeelden: brand in november, overname op decembre, dividendbeslissing. Geen aanpassing van cijfers, maar **toelichting verplicht** indien materieel. ⚖️
-> 3. **Management bevragen** — wat is er sinds 30 september gebeurd? Significante contracten, claims, faillissementen, productiestilstanden, brand/diefstal, kapitaalverhogingen, omzet-veranderingen, etc. ⚖️
-> 4. **Documentatie reviewen** — recente notulen bestuursvergaderingen, ondertekende contracten, recente bank-/leverancier-correspondentie, juridische bevestigingen. ⚖️
-> 5. **Subsequente boekingen testen** — controleer of materiële gebeurtenissen die zich na 30/09 voordeden, correct in de jaarrekening van 30/09/2014 zijn opgenomen (adjusting) of in toelichting (non-adjusting). ⚖️
-> 6. **Externe bevestigingen** — van advocaten (geschillen na 30/09) en banken (kredietfaciliteiten-status) — zie [[externe-bevestiging-audit]]. ⚖️
-> 7. **Schriftelijke bevestiging van management** — ([[schriftelijke-bevestiging-management]]) — dat alle relevante na-balansdatum-events gemeld zijn (ISA 580). ⚖️
-> 8. **Impact beoordelen op** — - Cijfers: aanpassende → boeken in jaarrekening
->    - Toelichting: niet-aanpassende materiële → vermelden
->    - Controleverslag: bij materiële niet-vermelding → voorbehoud of afkeurend
->    - Continuïteit: gebeurtenissen die continuïteit bedreigen → mogelijk going-concern paragraaf (ISA 570)
-> 
-> _Grondslag: ISA 560 (Subsequent Events); KB WVV art. 3:6 (gebeurtenissen na balansdatum); ITAA KMO-controlenorm §123-126; [[externe-bevestiging-audit]]; [[schriftelijke-bevestiging-management]]._
-
-> [!info]- Bronnen (2)
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Werkwijze → ondersteunt: externe bevestigingen na balansdatum
-> - [[schriftelijke-bevestiging-management|content/concepten/schriftelijke-bevestiging-management.md]] · Bouwstenen → ondersteunt: management bevestiging na-balansdatum-events
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -5358,21 +5292,20 @@ Plaats de letter van het juiste antwoord in onderstaande rooster.
 | Antwoord |   |   |   |   |   |
 | Punten | 4 | 4 | 4 | 4 | 4 |
 
-#### Modelantwoord
-
-Zie antwoorden per subvraag a)-e). Werkwijze externe confirmatie leveranciersaldi conform ISA 505 + ITAA KMO-controlenorm §89-92.
-
-> [!success]- Motivering (typed)
-> Vraag betreft de werkwijze van externe bevestiging (confirmation) voor leverancierssaldi — vijf procedurestappen. Zie subvragen per stap.
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Zie antwoorden per subvraag a)-e). Werkwijze externe confirmatie leveranciersaldi conform ISA 505 + ITAA KMO-controlenorm §89-92.
+> 
+> > [!note]- Motivering (typed)
+> > Vraag betreft de werkwijze van externe bevestiging (confirmation) voor leverancierssaldi — vijf procedurestappen. Zie subvragen per stap.
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -5380,33 +5313,32 @@ Zie antwoorden per subvraag a)-e). Werkwijze externe confirmatie leveranciersald
 
 **Antwoord-type**: definitie · **Confidence**: inferred
 
-#### Modelantwoord
-
-Representatief = een steekproef die de samenstelling en spreiding van de hele populatie van leveranciers weerspiegelt — kwantitatief (significante bedragen + spreiding klein/groot) én kwalitatief (verschillende soorten leveranciers: regulier, eenmalig, gerelateerde partijen, risico-leveranciers).
-
-> [!success]- Motivering (typed)
-> **representatieve**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Representatief = een steekproef die de samenstelling en spreiding van de hele populatie van leveranciers weerspiegelt — kwantitatief (significante bedragen + spreiding klein/groot) én kwalitatief (verschillende soorten leveranciers: regulier, eenmalig, gerelateerde partijen, risico-leveranciers).
 > 
-> Een **representatieve** steekproef bevat elementen die de hele populatie weerspiegelen. Voor leverancierssaldi betekent dat:
+> > [!note]- Motivering (typed)
+> > **representatieve**
+> > 
+> > Een **representatieve** steekproef bevat elementen die de hele populatie weerspiegelen. Voor leverancierssaldi betekent dat:
+> > 
+> > - **Kwantitatieve dekking**: significante saldi (top-bedragen) volledig erin, plus aselecte spreiding over de overige saldi van klein tot middelgroot. ⚖️ De steekproef moet voldoende dekking van het totale balansbedrag geven (vaak ≥ 60-70 % van het saldo handelsleveranciers in monetaire eenheden — concrete drempel afhankelijk van risico en materialiteit). 🤖
+> > - **Kwalitatieve dekking**: spreiding over types leveranciers — recurrente versus eenmalige, binnenlandse versus buitenlandse, gerelateerde versus onafhankelijke. ⚖️ Risico-leveranciers (nieuwe, geschillen, ongewone bewegingen) verplicht erin. 🤖
+> > - **Doel**: een redelijke basis krijgen voor conclusies over de **hele populatie** van leveranciers, zonder alle saldi te testen ([[steekproef-audit]]). ⚖️ 🤖
+> > 
+> > _Grondslag: ISA 530 (audit sampling) §A1-A4; ITAA KMO-controlenorm Bijlage 1 (definitie steekproef)._
 > 
-> - **Kwantitatieve dekking**: significante saldi (top-bedragen) volledig erin, plus aselecte spreiding over de overige saldi van klein tot middelgroot. ⚖️ De steekproef moet voldoende dekking van het totale balansbedrag geven (vaak ≥ 60-70 % van het saldo handelsleveranciers in monetaire eenheden — concrete drempel afhankelijk van risico en materialiteit). 🤖
-> - **Kwalitatieve dekking**: spreiding over types leveranciers — recurrente versus eenmalige, binnenlandse versus buitenlandse, gerelateerde versus onafhankelijke. ⚖️ Risico-leveranciers (nieuwe, geschillen, ongewone bewegingen) verplicht erin. 🤖
-> - **Doel**: een redelijke basis krijgen voor conclusies over de **hele populatie** van leveranciers, zonder alle saldi te testen ([[steekproef-audit]]). ⚖️ 🤖
+> > [!info]- Bronnen (2)
+> > - [[steekproef-audit|content/concepten/steekproef-audit.md]] · Definitie → ondersteunt: definitie steekproef + doel
+> > - [[ISA-530|resources/bronnen/normen/ISA-530.md]] · §A1-A4 → ondersteunt: representativiteit kwantitatief + kwalitatief
 > 
-> _Grondslag: ISA 530 (audit sampling) §A1-A4; ITAA KMO-controlenorm Bijlage 1 (definitie steekproef)._
-
-> [!info]- Bronnen (2)
-> - [[steekproef-audit|content/concepten/steekproef-audit.md]] · Definitie → ondersteunt: definitie steekproef + doel
-> - [[ISA-530|resources/bronnen/normen/ISA-530.md]] · §A1-A4 → ondersteunt: representativiteit kwantitatief + kwalitatief
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag b)
 
@@ -5414,33 +5346,32 @@ Representatief = een steekproef die de samenstelling en spreiding van de hele po
 
 **Antwoord-type**: procedure · **Confidence**: inferred
 
-#### Modelantwoord
-
-Steekproef-keuze: (1) selecteer alle significante saldi (top-N of monetary unit sampling boven materialiteit-drempel); (2) selecteer aselecte aanvulling over de overige saldi (random of systematic sampling); (3) selecteer expliciete risico-saldi (geschillen, nieuwe leveranciers, gerelateerde partijen).
-
-> [!success]- Motivering (typed)
-> De steekproef wordt opgemaakt langs drie sporen die elkaar aanvullen:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Steekproef-keuze: (1) selecteer alle significante saldi (top-N of monetary unit sampling boven materialiteit-drempel); (2) selecteer aselecte aanvulling over de overige saldi (random of systematic sampling); (3) selecteer expliciete risico-saldi (geschillen, nieuwe leveranciers, gerelateerde partijen).
 > 
-> Aantal te selecteren: bepaald door risico-inschatting (ISA 530 §A11-A14) — hoe hoger het ingeschatte risico, hoe groter de steekproef. 🤖 🤖
+> > [!note]- Motivering (typed)
+> > De steekproef wordt opgemaakt langs drie sporen die elkaar aanvullen:
+> > 
+> > Aantal te selecteren: bepaald door risico-inschatting (ISA 530 §A11-A14) — hoe hoger het ingeschatte risico, hoe groter de steekproef. 🤖 🤖
+> > 
+> > 1. Significante saldi (key items): alle saldi boven een materialiteit-drempel (bv. > € 50.000) of via Monetary Unit Sampling (MUS) waarbij grote saldi automatisch een hogere kans op selectie hebben. ⚖️ Levert dekking op de bedragen-as. ⚖️
+> > 2. Aselecte aanvulling: random sampling (lotnummering) of systematic sampling (elke n-de saldi) over de resterende populatie. ⚖️ Levert spreiding over de hele populatie. ⚖️
+> > 3. Risico-saldi (judgemental): saldi die de auditor expliciet wil testen wegens specifieke risico-indicaties (saldo's met geschillen, nieuwe leveranciers, ongewone bewegingen, gerelateerde-partij-transacties). ⚖️
+> > 
+> > _Grondslag: ISA 530 §A1-A14; ITAA KMO-controlenorm Bijlage 1._
 > 
-> 1. Significante saldi (key items): alle saldi boven een materialiteit-drempel (bv. > € 50.000) of via Monetary Unit Sampling (MUS) waarbij grote saldi automatisch een hogere kans op selectie hebben. ⚖️ Levert dekking op de bedragen-as. ⚖️
-> 2. Aselecte aanvulling: random sampling (lotnummering) of systematic sampling (elke n-de saldi) over de resterende populatie. ⚖️ Levert spreiding over de hele populatie. ⚖️
-> 3. Risico-saldi (judgemental): saldi die de auditor expliciet wil testen wegens specifieke risico-indicaties (saldo's met geschillen, nieuwe leveranciers, ongewone bewegingen, gerelateerde-partij-transacties). ⚖️
+> > [!info]- Bronnen (2)
+> > - [[steekproef-audit|content/concepten/steekproef-audit.md]] · Voorbeelden — Rotex steekproef gestratificeerd → ondersteunt: gestratificeerde steekproef
+> > - [[ISA-530|resources/bronnen/normen/ISA-530.md]] · §A1-A14 → ondersteunt: steekproef-methodes + omvang
 > 
-> _Grondslag: ISA 530 §A1-A14; ITAA KMO-controlenorm Bijlage 1._
-
-> [!info]- Bronnen (2)
-> - [[steekproef-audit|content/concepten/steekproef-audit.md]] · Voorbeelden — Rotex steekproef gestratificeerd → ondersteunt: gestratificeerde steekproef
-> - [[ISA-530|resources/bronnen/normen/ISA-530.md]] · §A1-A14 → ondersteunt: steekproef-methodes + omvang
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: procedure
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: procedure
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag c)
 
@@ -5448,32 +5379,31 @@ Steekproef-keuze: (1) selecteer alle significante saldi (top-N of monetary unit 
 
 **Antwoord-type**: procedure · **Confidence**: grounded
 
-#### Modelantwoord
-
-De auditor stelt de bevestigingsbrief zelf op, laat de cliënt deze ondertekenen (op briefpapier van de cliënt) en verstuurt de brief zelf naar de leverancier. Antwoordadres in de brief = kantoor van de auditor. De cliënt mag de brief opmaken of ondertekenen, maar niet onderscheppen of doorsturen.
-
-> [!success]- Motivering (typed)
-> De **auditor controleert het kanaal volledig** (ITAA KMO-controlenorm §89; ISA 505 §7-8):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De auditor stelt de bevestigingsbrief zelf op, laat de cliënt deze ondertekenen (op briefpapier van de cliënt) en verstuurt de brief zelf naar de leverancier. Antwoordadres in de brief = kantoor van de auditor. De cliënt mag de brief opmaken of ondertekenen, maar niet onderscheppen of doorsturen.
 > 
-> 1. Brief-opmaak: auditor stelt de inhoud op, met daarin het saldo dat in de boekhouding van de cliënt staat (positieve of negatieve bevestiging — zie [[externe-bevestiging-audit]]). ⚖️
-> 2. Ondertekening door cliënt: de brief gaat op briefpapier van de cliënt en wordt door een gemachtigde van de cliënt ondertekend — anders zou de leverancier de auditor niet als geldige verzoek-partij erkennen. ⚖️
-> 3. Verzending door auditor: de auditor verzendt zelf (per post of beveiligde digitale weg), rechtstreeks naar het adres van de leverancier. Cliënt mag de brief niet zelf opsturen — anders kan hij onderscheppen of inhoud manipuleren. ⚖️
-> 4. Antwoordadres = auditor: in de brief staat duidelijk dat het antwoord rechtstreeks naar het **kantoor van de auditor** moet, niet via de cliënt. ⚖️
+> > [!note]- Motivering (typed)
+> > De **auditor controleert het kanaal volledig** (ITAA KMO-controlenorm §89; ISA 505 §7-8):
+> > 
+> > 1. Brief-opmaak: auditor stelt de inhoud op, met daarin het saldo dat in de boekhouding van de cliënt staat (positieve of negatieve bevestiging — zie [[externe-bevestiging-audit]]). ⚖️
+> > 2. Ondertekening door cliënt: de brief gaat op briefpapier van de cliënt en wordt door een gemachtigde van de cliënt ondertekend — anders zou de leverancier de auditor niet als geldige verzoek-partij erkennen. ⚖️
+> > 3. Verzending door auditor: de auditor verzendt zelf (per post of beveiligde digitale weg), rechtstreeks naar het adres van de leverancier. Cliënt mag de brief niet zelf opsturen — anders kan hij onderscheppen of inhoud manipuleren. ⚖️
+> > 4. Antwoordadres = auditor: in de brief staat duidelijk dat het antwoord rechtstreeks naar het **kantoor van de auditor** moet, niet via de cliënt. ⚖️
+> > 
+> > _Grondslag: ITAA KMO-controlenorm §89 + ISA 505 §7-8._
 > 
-> _Grondslag: ITAA KMO-controlenorm §89 + ISA 505 §7-8._
-
-> [!info]- Bronnen (2)
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Auditor controleert het kanaal → ondersteunt: verzending + adres
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Werkwijze in drie stappen → ondersteunt: verzending-procedure
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: procedure
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Bronnen (2)
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Auditor controleert het kanaal → ondersteunt: verzending + adres
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Werkwijze in drie stappen → ondersteunt: verzending-procedure
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: procedure
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag d)
 
@@ -5481,28 +5411,27 @@ Wie ontvangt de antwoorden?
 
 **Antwoord-type**: presentatie · **Confidence**: grounded
 
-#### Modelantwoord
-
-De auditor ontvangt de antwoorden rechtstreeks op zijn kantoor — niet via de cliënt. Dat is voorgeschreven om manipulatie of onderschepping uit te sluiten.
-
-> [!success]- Motivering (typed)
-> De **antwoorden komen rechtstreeks naar het kantoor van de auditor**, niet via de cliënt. ⚖️ ⚖️
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De auditor ontvangt de antwoorden rechtstreeks op zijn kantoor — niet via de cliënt. Dat is voorgeschreven om manipulatie of onderschepping uit te sluiten.
 > 
-> Het adres dat in de bevestigingsbrief vermeld wordt voor het terug-sturen is het kantoor-adres van de auditor (of een beveiligde digitale postbus die de auditor beheert). De cliënt mag de antwoorden niet ontvangen, openen of voorfilteren — dat zou de evidence-waarde van de externe bevestiging fundamenteel ondermijnen, omdat het kenmerk 'rechtstreeks van derde aan auditor' verloren gaat.
+> > [!note]- Motivering (typed)
+> > De **antwoorden komen rechtstreeks naar het kantoor van de auditor**, niet via de cliënt. ⚖️ ⚖️
+> > 
+> > Het adres dat in de bevestigingsbrief vermeld wordt voor het terug-sturen is het kantoor-adres van de auditor (of een beveiligde digitale postbus die de auditor beheert). De cliënt mag de antwoorden niet ontvangen, openen of voorfilteren — dat zou de evidence-waarde van de externe bevestiging fundamenteel ondermijnen, omdat het kenmerk 'rechtstreeks van derde aan auditor' verloren gaat.
+> > 
+> > _Grondslag: ITAA KMO-controlenorm §89 ('rechtstreeks aan de beroepsbeoefenaar'); ISA 505 §7 (auditor maintains control over confirmation process)._
 > 
-> _Grondslag: ITAA KMO-controlenorm §89 ('rechtstreeks aan de beroepsbeoefenaar'); ISA 505 §7 (auditor maintains control over confirmation process)._
-
-> [!info]- Bronnen (1)
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Definitie + §Auditor controleert het kanaal → ondersteunt: antwoordadres = auditor
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: presentatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Bronnen (1)
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Definitie + §Auditor controleert het kanaal → ondersteunt: antwoordadres = auditor
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: presentatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag e)
 
@@ -5510,32 +5439,31 @@ Wat bij niet ontvangst van antwoorden?
 
 **Antwoord-type**: procedure · **Confidence**: grounded
 
-#### Modelantwoord
-
-Bij niet-ontvangst: alternatieve werkzaamheden uitvoeren. Voor leveranciersaldi typisch: (1) subsequente betalingen testen na balansdatum; (2) factuur- en bestelbon-koppeling inspecteren; (3) contracten of leveringsovereenkomsten nakijken. Bij verschil in een ontvangen antwoord: oorzaak onderzoeken en documenteren.
-
-> [!success]- Motivering (typed)
-> Niet-antwoord = **geen** bevestiging. De auditor moet **alternatieve werkzaamheden** uitvoeren om voldoende controle-informatie te verkrijgen (ITAA KMO-controlenorm §92; ISA 505 §12):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Bij niet-ontvangst: alternatieve werkzaamheden uitvoeren. Voor leveranciersaldi typisch: (1) subsequente betalingen testen na balansdatum; (2) factuur- en bestelbon-koppeling inspecteren; (3) contracten of leveringsovereenkomsten nakijken. Bij verschil in een ontvangen antwoord: oorzaak onderzoeken en documenteren.
 > 
-> Bij verschil in een wél ontvangen antwoord: de oorzaak onderzoeken en documenteren (timing-verschil, betwiste post, fout in cliëntenboeking, fout in leveranciersboeking). ⚖️ ⚖️
+> > [!note]- Motivering (typed)
+> > Niet-antwoord = **geen** bevestiging. De auditor moet **alternatieve werkzaamheden** uitvoeren om voldoende controle-informatie te verkrijgen (ITAA KMO-controlenorm §92; ISA 505 §12):
+> > 
+> > Bij verschil in een wél ontvangen antwoord: de oorzaak onderzoeken en documenteren (timing-verschil, betwiste post, fout in cliëntenboeking, fout in leveranciersboeking). ⚖️ ⚖️
+> > 
+> > 1. Subsequente betalingen testen: kijk in de bankafschriften na balansdatum of de geboekte schuld effectief betaald werd; een betaling aan de leverancier kort na balansdatum is sterk bewijs van het bestaan van de schuld. ⚖️
+> > 2. Factuur- en bestelbon-koppeling inspecteren: drieweg-match (bestelbon, ontvangstbon, factuur) levert documentair bewijs over het bestaan en de waardering. ⚖️
+> > 3. Contracten of leveringsovereenkomsten nakijken: voor recurrente leveranciers met raamcontract levert het contract context over de redelijkheid van het saldo. 🤖
+> > 
+> > _Grondslag: ITAA KMO-controlenorm §92; ISA 505 §12-16 (handling non-responses + exceptions)._
 > 
-> 1. Subsequente betalingen testen: kijk in de bankafschriften na balansdatum of de geboekte schuld effectief betaald werd; een betaling aan de leverancier kort na balansdatum is sterk bewijs van het bestaan van de schuld. ⚖️
-> 2. Factuur- en bestelbon-koppeling inspecteren: drieweg-match (bestelbon, ontvangstbon, factuur) levert documentair bewijs over het bestaan en de waardering. ⚖️
-> 3. Contracten of leveringsovereenkomsten nakijken: voor recurrente leveranciers met raamcontract levert het contract context over de redelijkheid van het saldo. 🤖
+> > [!info]- Bronnen (1)
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Niet-antwoord en alternatieve werkzaamheden → ondersteunt: alternatieve werkzaamheden + verschil-onderzoek
 > 
-> _Grondslag: ITAA KMO-controlenorm §92; ISA 505 §12-16 (handling non-responses + exceptions)._
-
-> [!info]- Bronnen (1)
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Bouwstenen — Niet-antwoord en alternatieve werkzaamheden → ondersteunt: alternatieve werkzaamheden + verschil-onderzoek
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: procedure
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: procedure
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -5606,35 +5534,34 @@ hebben over…”
 Geef vier elementen aan waarover het bestuursorgaan een redelijke zekerheid wil
 bereiken.
 
-#### Modelantwoord
-
-(1) betrouwbaarheid van de financiële rapportering; (2) naleving van wetten en regelgeving (compliance); (3) effectieve en efficiënte werking van de organisatie; (4) bescherming van het vermogen / de activa.
-
-> [!success]- Motivering (typed)
-> Vier elementen waarover het bestuursorgaan een **redelijke** zekerheid wil bereiken via het interne-controlesysteem (klassieke vier-deling in de Belgische audit-doctrine, COSO-variant):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: (1) betrouwbaarheid van de financiële rapportering; (2) naleving van wetten en regelgeving (compliance); (3) effectieve en efficiënte werking van de organisatie; (4) bescherming van het vermogen / de activa.
 > 
-> Belangrijk: het gaat om **redelijke**, niet absolute zekerheid (KMO-controlenorm Bijlage 1). Inherente beperkingen (menselijke fout, samenspanning, management override, kosten-baten-afweging) maken 100 %-zekerheid onmogelijk. ⚖️ ⚖️
+> > [!note]- Motivering (typed)
+> > Vier elementen waarover het bestuursorgaan een **redelijke** zekerheid wil bereiken via het interne-controlesysteem (klassieke vier-deling in de Belgische audit-doctrine, COSO-variant):
+> > 
+> > Belangrijk: het gaat om **redelijke**, niet absolute zekerheid (KMO-controlenorm Bijlage 1). Inherente beperkingen (menselijke fout, samenspanning, management override, kosten-baten-afweging) maken 100 %-zekerheid onmogelijk. ⚖️ ⚖️
+> > 
+> > 1. **Betrouwbaarheid van de financiële rapportering** — dat de cijfers in de jaarrekening, tussentijdse rapporten en interne managementinformatie de werkelijkheid getrouw weergeven, vrij van afwijkingen van materieel belang. ⚖️
+> > 2. **Naleving van wetten en regelgeving (compliance)** — dat de organisatie haar wettelijke, fiscale, sociale en sectorspecifieke verplichtingen nakomt (bv. boekhoudwet, WVV, BTW, antiwitwas, GDPR). ⚖️
+> > 3. **Effectieve en efficiënte werking van de organisatie (operationele doelstellingen)** — dat de bedrijfsprocessen hun doel bereiken zonder verspilling van middelen; dat strategische en operationele doelstellingen gehaald worden. ⚖️
+> > 4. **Bescherming van het vermogen / de activa van de onderneming** — dat activa niet verloren gaan door diefstal, fraude, vernieling, onbevoegd gebruik of slecht beheer; klassieke vermogensbescherming als vierde pijler in de Belgische audit-traditie. 🤖
+> > 
+> > _Grondslag: COSO I (1992/2013) — internationale vakdoctrine; ITAA KMO-controlenorm Bijlage 1 (drie hoofd-doelstellingen + onderliggende discipline van vermogensbescherming)._
 > 
-> 1. **Betrouwbaarheid van de financiële rapportering** — dat de cijfers in de jaarrekening, tussentijdse rapporten en interne managementinformatie de werkelijkheid getrouw weergeven, vrij van afwijkingen van materieel belang. ⚖️
-> 2. **Naleving van wetten en regelgeving (compliance)** — dat de organisatie haar wettelijke, fiscale, sociale en sectorspecifieke verplichtingen nakomt (bv. boekhoudwet, WVV, BTW, antiwitwas, GDPR). ⚖️
-> 3. **Effectieve en efficiënte werking van de organisatie (operationele doelstellingen)** — dat de bedrijfsprocessen hun doel bereiken zonder verspilling van middelen; dat strategische en operationele doelstellingen gehaald worden. ⚖️
-> 4. **Bescherming van het vermogen / de activa van de onderneming** — dat activa niet verloren gaan door diefstal, fraude, vernieling, onbevoegd gebruik of slecht beheer; klassieke vermogensbescherming als vierde pijler in de Belgische audit-traditie. 🤖
+> > [!info]- Bronnen (3)
+> > - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen — Drie doelstellingen → ondersteunt: elementen 1, 2, 3
+> > - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen — Redelijke, geen absolute zekerheid → ondersteunt: caveat redelijke zekerheid
+> > - [[ITAA-norm-kmo-controlenorm|resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md]] · Bijlage 1 → ondersteunt: normatieve grondslag IC-definitie
 > 
-> _Grondslag: COSO I (1992/2013) — internationale vakdoctrine; ITAA KMO-controlenorm Bijlage 1 (drie hoofd-doelstellingen + onderliggende discipline van vermogensbescherming)._
-
-> [!info]- Bronnen (3)
-> - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen — Drie doelstellingen → ondersteunt: elementen 1, 2, 3
-> - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen — Redelijke, geen absolute zekerheid → ondersteunt: caveat redelijke zekerheid
-> - [[ITAA-norm-kmo-controlenorm|resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md]] · Bijlage 1 → ondersteunt: normatieve grondslag IC-definitie
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 > [!warning] Gap niveau **b** — type **checklist_fail_softmatch**
 > Record `interne-controle.md` noemt expliciet DRIE doelstellingen (rapportering, operationeel, compliance). De Belgische audit-doctrine telt vaak een vierde toe ('bescherming van het vermogen'). Voor opsomming-vragen die 4 elementen verwachten is dit een gap (b) uitbreiding van Bouwstenen 'Drie doelstellingen' naar 'Drie tot vier doelstellingen' + expliciete vermogensbescherming.
@@ -5659,50 +5586,49 @@ door het personeel terug via een kas.
 **Stel een procedure op waarbij minimaal twee controletechnische
 functiescheidingen in voorkomen.**
 
-#### Modelantwoord
-
-Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet de aanvraag (declaratieformulier met bonnetjes), zaakvoerder B keurt goed (autorisatie); (2) Kassier C betaalt uit en houdt het kasregister bij; medewerker D (boekhouder of externe) voert de bank-/kasreconciliatie + boekt de kosten in de algemene boekhouding. Periodieke kasinventaris door een vijfde persoon (zaakvoerder of accountant) op willekeurige momenten.
-
-> [!success]- Motivering (typed)
-> **Procedure voor terugbetaling van kleine kosten via kas** in een familiale BVBA, met minstens twee functiescheidingen ([[functiescheiding]] §Bouwstenen + ITAA-norm-kmo-controlenorm Bijlage 1):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet de aanvraag (declaratieformulier met bonnetjes), zaakvoerder B keurt goed (autorisatie); (2) Kassier C betaalt uit en houdt het kasregister bij; medewerker D (boekhouder of externe) voert de bank-/kasreconciliatie + boekt de kosten in de algemene boekhouding. Periodieke kasinventaris door een vijfde persoon (zaakvoerder of accountant) op willekeurige momenten.
 > 
-> ### Stappen + functiescheidingen
+> > [!note]- Motivering (typed)
+> > **Procedure voor terugbetaling van kleine kosten via kas** in een familiale BVBA, met minstens twee functiescheidingen ([[functiescheiding]] §Bouwstenen + ITAA-norm-kmo-controlenorm Bijlage 1):
+> > 
+> > ### Stappen + functiescheidingen
+> > 
+> > ### Aanvullende controles
+> > 
+> > - **Kasinventaris** door een **derde persoon** (zaakvoerder of externe accountant) op **willekeurige momenten** — onaangekondigde count vergelijken met kasregister. ⚖️ Detecteert verschillen tussen fysieke en boekhoudkundige kas.
+> > - **Maximum uitbetalingsbedrag** per declaratie (bv. € 250); grotere bedragen moeten via bankoverschrijving (niet via kas). 🤖
+> > - **Maandelijkse limiet** op de kas (bv. max € 1.500); overschot wordt naar bank teruggebracht. 🤖
+> > - **Niet meer dan 30 dagen** tussen kost-datum en declaratie (anti-fraude + tax-traceerbaarheid). 🤖 🤖
+> > 
+> > ### Incompatibele combinaties (vermijden)
+> > 
+> > Onder geen beding mag één persoon tegelijk:
+> > - Aanvragen + autoriseren (eigen kosten goedkeuren)
+> > - Kas beheren + boekhouding voeren (kas-saldo manipuleren door valse boekingen)
+> > - Kas beheren + reconciliatie uitvoeren (zelf-controle)
+> > 
+> > ⚖️ Klassieke valkuil ([[functiescheiding]] §Incompatibele combinaties): in een familiale BVBA is de zaakvoerder vaak zowel autorisator als kas-beheerder + boekhouder. Aanbeveling: minstens de boekhouding extern uitbesteden of een tweede persoon (familielid in dienst, secretaresse) toewijzen voor de uitvoerende kas-taak. ⚖️
+> > 
+> > 1. Aanvraag (medewerker A): De medewerker die de kost heeft gemaakt vult een standaard-declaratieformulier in (datum, bedrag, doel, eventueel BTW), voegt de **originele bonnetjes** toe, ondertekent. ⚖️
+> > 2. Goedkeuring / autorisatie (zaakvoerder B of een aangewezen verantwoordelijke): De zaakvoerder controleert de aanvraag (zakelijk doel, plausibel bedrag, bonnetjes aanwezig en geldig), autoriseert door medeondertekening. ⚖️ **Functiescheiding nr. 1**: aanvrager ≠ autorisator. ⚖️
+> > 3. Uitbetaling en kasregister (kassier C): Een aangewezen kassier (bv. de secretaresse) betaalt het bedrag uit de kas, registreert de uitgave in het kasregister met datum, ontvanger, bedrag, en bewaart het ondertekende formulier + bonnetjes als bewijsstuk. ⚖️
+> > 4. Boekhouding en reconciliatie (boekhouder D, intern of extern): De boekhouder boekt de uitgave in het financieel dagboek (kasdagboek), reconcileert periodiek het kassaldo met de fysieke kas-inventaris, en stuurt periodieke recapitulaties (maandelijks) naar het centraal boek. ⚖️ **Functiescheiding nr. 2**: kassier ≠ boekhouder. ⚖️
+> > 
+> > _Grondslag: [[functiescheiding]] §Bouwstenen + Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20; ITAA KMO-controlenorm Bijlage 1._
 > 
-> ### Aanvullende controles
+> > [!info]- Bronnen (2)
+> > - [[functiescheiding|content/concepten/functiescheiding.md]] · Bouwstenen + Incompatibele combinaties → ondersteunt: functiescheiding-types + voorbeelden
+> > - [[beheersactiviteiten|content/concepten/beheersactiviteiten.md]] · Bouwstenen → ondersteunt: autorisatie + bewaring + boekhouding-scheiding
 > 
-> - **Kasinventaris** door een **derde persoon** (zaakvoerder of externe accountant) op **willekeurige momenten** — onaangekondigde count vergelijken met kasregister. ⚖️ Detecteert verschillen tussen fysieke en boekhoudkundige kas.
-> - **Maximum uitbetalingsbedrag** per declaratie (bv. € 250); grotere bedragen moeten via bankoverschrijving (niet via kas). 🤖
-> - **Maandelijkse limiet** op de kas (bv. max € 1.500); overschot wordt naar bank teruggebracht. 🤖
-> - **Niet meer dan 30 dagen** tussen kost-datum en declaratie (anti-fraude + tax-traceerbaarheid). 🤖 🤖
-> 
-> ### Incompatibele combinaties (vermijden)
-> 
-> Onder geen beding mag één persoon tegelijk:
-> - Aanvragen + autoriseren (eigen kosten goedkeuren)
-> - Kas beheren + boekhouding voeren (kas-saldo manipuleren door valse boekingen)
-> - Kas beheren + reconciliatie uitvoeren (zelf-controle)
-> 
-> ⚖️ Klassieke valkuil ([[functiescheiding]] §Incompatibele combinaties): in een familiale BVBA is de zaakvoerder vaak zowel autorisator als kas-beheerder + boekhouder. Aanbeveling: minstens de boekhouding extern uitbesteden of een tweede persoon (familielid in dienst, secretaresse) toewijzen voor de uitvoerende kas-taak. ⚖️
-> 
-> 1. Aanvraag (medewerker A): De medewerker die de kost heeft gemaakt vult een standaard-declaratieformulier in (datum, bedrag, doel, eventueel BTW), voegt de **originele bonnetjes** toe, ondertekent. ⚖️
-> 2. Goedkeuring / autorisatie (zaakvoerder B of een aangewezen verantwoordelijke): De zaakvoerder controleert de aanvraag (zakelijk doel, plausibel bedrag, bonnetjes aanwezig en geldig), autoriseert door medeondertekening. ⚖️ **Functiescheiding nr. 1**: aanvrager ≠ autorisator. ⚖️
-> 3. Uitbetaling en kasregister (kassier C): Een aangewezen kassier (bv. de secretaresse) betaalt het bedrag uit de kas, registreert de uitgave in het kasregister met datum, ontvanger, bedrag, en bewaart het ondertekende formulier + bonnetjes als bewijsstuk. ⚖️
-> 4. Boekhouding en reconciliatie (boekhouder D, intern of extern): De boekhouder boekt de uitgave in het financieel dagboek (kasdagboek), reconcileert periodiek het kassaldo met de fysieke kas-inventaris, en stuurt periodieke recapitulaties (maandelijks) naar het centraal boek. ⚖️ **Functiescheiding nr. 2**: kassier ≠ boekhouder. ⚖️
-> 
-> _Grondslag: [[functiescheiding]] §Bouwstenen + Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20; ITAA KMO-controlenorm Bijlage 1._
-
-> [!info]- Bronnen (2)
-> - [[functiescheiding|content/concepten/functiescheiding.md]] · Bouwstenen + Incompatibele combinaties → ondersteunt: functiescheiding-types + voorbeelden
-> - [[beheersactiviteiten|content/concepten/beheersactiviteiten.md]] · Bouwstenen → ondersteunt: autorisatie + bewaring + boekhouding-scheiding
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: procedure
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: procedure
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -5715,69 +5641,68 @@ Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet d
 Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de
 interne controleafdeling (het bedrijf koopt/verkoopt werfkranen) kan uitgevoerd worden
 
-#### Modelantwoord
-
-Voorbeeld analytische test op tussentijdse resultaten voor een werfkranen-bedrijf: vergelijk de bruto-marge (omzet werfkranen − kostprijs) per type kraan en per regio tussen Q1-2013 en Q1-2012 (vorig boekjaar). Significante afwijkingen (bv. > 10 % daling) onderzoeken op: prijsverlaging, mix-shift, productiviteitsverlies, of mogelijk fout in omzeterkenning/cut-off. Combineer met een tweede analyse op de DSO (debiteuren-omloop) — een stijgende DSO bij stagnerende omzet wijst op betalingsproblemen of factuur-vertragingen.
-
-> [!success]- Motivering (typed)
-> Voor een **werfkranen-koper/verkoper** (bv. handel in tweedehands-bouwmachines + verhuur van nieuwe machines) zijn deze analytische tests typisch voor de interne controleafdeling op tussentijdse resultaten:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Voorbeeld analytische test op tussentijdse resultaten voor een werfkranen-bedrijf: vergelijk de bruto-marge (omzet werfkranen − kostprijs) per type kraan en per regio tussen Q1-2013 en Q1-2012 (vorig boekjaar). Significante afwijkingen (bv. > 10 % daling) onderzoeken op: prijsverlaging, mix-shift, productiviteitsverlies, of mogelijk fout in omzeterkenning/cut-off. Combineer met een tweede analyse op de DSO (debiteuren-omloop) — een stijgende DSO bij stagnerende omzet wijst op betalingsproblemen of factuur-vertragingen.
 > 
-> ### Voorbeeld 1: Bruto-marge per kraan-type en per regio
+> > [!note]- Motivering (typed)
+> > Voor een **werfkranen-koper/verkoper** (bv. handel in tweedehands-bouwmachines + verhuur van nieuwe machines) zijn deze analytische tests typisch voor de interne controleafdeling op tussentijdse resultaten:
+> > 
+> > ### Voorbeeld 1: Bruto-marge per kraan-type en per regio
+> > 
+> > **Wat**: bruto-marge (omzet − kostprijs verkochte/verhuurde kranen) berekenen per **kraan-type** (klein/middel/groot, mobiele/torenkraan) en per **regio** (België-N/B-Z/buitenland), vergelijken met:
+> > - Dezelfde periode vorig jaar (Q1-2013 vs Q1-2012)
+> > - Budget voor de huidige periode
+> > - Sector-benchmark (indien beschikbaar)
+> > 
+> > **Trigger**
+> > 
+> > significante afwijking (>±10 %) → onderzoeken.
+> > 
+> > **Mogelijke verklaringen**
+> > 
+> > (te toetsen):
+> > - Prijsverlaging (concurrentie, oude voorraad oude modellen)
+> > - Product-mix-shift (meer dure modellen → hogere absolute marge maar lagere %)
+> > - Productiviteitsverlies (technici onbeschikbaar, langere doorlooptijden)
+> > - **Boekhoudkundige fout**: omzeterkenning vóór levering, of kostprijs te laag (voorraadwaardering, cut-off-kosten) — directe link naar [[verkoopcyclus-ic]] valkuilen
+> > 
+> > ⚖️ Voor de interne controleafdeling is dit een **detective** controle: een afwijking signaleert iets dat verder onderzocht moet worden (analyse → mogelijk substantieve test). ⚖️
+> > 
+> > ### Voorbeeld 2: DSO (Days Sales Outstanding) per kraan-type
+> > 
+> > **Wat**: DSO = (handelsvorderingen / omzet) × dagen-in-periode. Berekenen per kraan-type en per klant-segment.
+> > 
+> > **Trigger**
+> > 
+> > stijgende DSO bij stagnerende omzet → mogelijk:
+> > - Betalingsproblemen bij bestaande klanten (toets via aged-receivables)
+> > - Facturatie-vertraging (cut-off-issue: levering Q1, factuur in Q2)
+> > - Disputed invoices (creditnota's in voorbereiding)
+> > 
+> > ### Procedure-context
+> > 
+> > Cijferanalyses door de IC-afdeling spelen typisch op drie momenten ([[cijferanalyses-controle-norm]] §Drie momenten):
+> > 
+> > ⚠️ Belangrijk: een analytische test is **detective** — ze signaleert afwijkingen maar bevestigt niet automatisch fraude of fout. Vereist follow-up met substantieve werkzaamheden bij significante afwijking. 🤖 🤖
+> > 
+> > 1. Bij periodieke close: (maand- of kwartaal-rapporten): trend-analyse
+> > 2. Bij budget-rapportering: gerealiseerd vs gebudgetteerd (variance-analyse)
+> > 3. Bij ad-hoc red-flag-detectie: bv. plots stijgend retour-aantal of verlaagde marges
+> > 
+> > _Grondslag: [[cijferanalyses-controle-norm]] §Drie momenten + §Bouwstenen; ITAA KMO-controlenorm §111 (cijferanalyses verplicht op drie momenten)._
 > 
-> **Wat**: bruto-marge (omzet − kostprijs verkochte/verhuurde kranen) berekenen per **kraan-type** (klein/middel/groot, mobiele/torenkraan) en per **regio** (België-N/B-Z/buitenland), vergelijken met:
-> - Dezelfde periode vorig jaar (Q1-2013 vs Q1-2012)
-> - Budget voor de huidige periode
-> - Sector-benchmark (indien beschikbaar)
+> > [!info]- Bronnen (2)
+> > - [[cijferanalyses-controle-norm|content/concepten/cijferanalyses-controle-norm.md]] · Definitie + Drie momenten → ondersteunt: cijferanalyse als controlemiddel
+> > - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Valkuilen — cut-off + creditnota's → ondersteunt: mogelijke verklaringen voor marge-afwijking
 > 
-> **Trigger**
-> 
-> significante afwijking (>±10 %) → onderzoeken.
-> 
-> **Mogelijke verklaringen**
-> 
-> (te toetsen):
-> - Prijsverlaging (concurrentie, oude voorraad oude modellen)
-> - Product-mix-shift (meer dure modellen → hogere absolute marge maar lagere %)
-> - Productiviteitsverlies (technici onbeschikbaar, langere doorlooptijden)
-> - **Boekhoudkundige fout**: omzeterkenning vóór levering, of kostprijs te laag (voorraadwaardering, cut-off-kosten) — directe link naar [[verkoopcyclus-ic]] valkuilen
-> 
-> ⚖️ Voor de interne controleafdeling is dit een **detective** controle: een afwijking signaleert iets dat verder onderzocht moet worden (analyse → mogelijk substantieve test). ⚖️
-> 
-> ### Voorbeeld 2: DSO (Days Sales Outstanding) per kraan-type
-> 
-> **Wat**: DSO = (handelsvorderingen / omzet) × dagen-in-periode. Berekenen per kraan-type en per klant-segment.
-> 
-> **Trigger**
-> 
-> stijgende DSO bij stagnerende omzet → mogelijk:
-> - Betalingsproblemen bij bestaande klanten (toets via aged-receivables)
-> - Facturatie-vertraging (cut-off-issue: levering Q1, factuur in Q2)
-> - Disputed invoices (creditnota's in voorbereiding)
-> 
-> ### Procedure-context
-> 
-> Cijferanalyses door de IC-afdeling spelen typisch op drie momenten ([[cijferanalyses-controle-norm]] §Drie momenten):
-> 
-> ⚠️ Belangrijk: een analytische test is **detective** — ze signaleert afwijkingen maar bevestigt niet automatisch fraude of fout. Vereist follow-up met substantieve werkzaamheden bij significante afwijking. 🤖 🤖
-> 
-> 1. Bij periodieke close: (maand- of kwartaal-rapporten): trend-analyse
-> 2. Bij budget-rapportering: gerealiseerd vs gebudgetteerd (variance-analyse)
-> 3. Bij ad-hoc red-flag-detectie: bv. plots stijgend retour-aantal of verlaagde marges
-> 
-> _Grondslag: [[cijferanalyses-controle-norm]] §Drie momenten + §Bouwstenen; ITAA KMO-controlenorm §111 (cijferanalyses verplicht op drie momenten)._
-
-> [!info]- Bronnen (2)
-> - [[cijferanalyses-controle-norm|content/concepten/cijferanalyses-controle-norm.md]] · Definitie + Drie momenten → ondersteunt: cijferanalyse als controlemiddel
-> - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Valkuilen — cut-off + creditnota's → ondersteunt: mogelijke verklaringen voor marge-afwijking
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: procedure
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: procedure
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -5807,40 +5732,39 @@ Voorbeeld analytische test op tussentijdse resultaten voor een werfkranen-bedrij
 Waarom zal de interne controleafdeling zich niet alleen steunen op de boekhouding maar
 ook periodiek schriftelijk confirmatie vragen bij leveranciers?
 
-#### Modelantwoord
-
-De boekhouding van de cliënt is een interne bron — gevoelig voor management override, manipulatie en onbedoelde fouten. Externe confirmaties bij leveranciers (en banken, klanten, advocaten) leveren onafhankelijk schriftelijk bewijs rechtstreeks van een derde partij, buiten de cliënt om. Dit is hoogstwaardige assurance-informatie omdat het kanaal extern + onafhankelijk + schriftelijk is — wezenlijk betrouwbaarder dan interne boekhoudgegevens.
-
-> [!success]- Motivering (typed)
-> **De boekhouding van de cliënt is een interne bron — gevoelig **
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De boekhouding van de cliënt is een interne bron — gevoelig voor management override, manipulatie en onbedoelde fouten. Externe confirmaties bij leveranciers (en banken, klanten, advocaten) leveren onafhankelijk schriftelijk bewijs rechtstreeks van een derde partij, buiten de cliënt om. Dit is hoogstwaardige assurance-informatie omdat het kanaal extern + onafhankelijk + schriftelijk is — wezenlijk betrouwbaarder dan interne boekhoudgegevens.
 > 
-> De interne-controleafdeling (en de externe auditor) steunen niet alléén op de boekhouding van de cliënt omdat:
+> > [!note]- Motivering (typed)
+> > **De boekhouding van de cliënt is een interne bron — gevoelig **
+> > 
+> > De interne-controleafdeling (en de externe auditor) steunen niet alléén op de boekhouding van de cliënt omdat:
+> > 
+> > **Specifiek voor leveranciers** 🤖
+> > 
+> > - Schuldsaldi in de boekhouding kunnen te laag staan (omzet- of kost-manipulatie) of te hoog (foute facturatie). Een leveranciersbevestiging toont het saldo zoals de leverancier het in zijn eigen boeken heeft staan. Verschillen wijzen op timing of fouten — beide moeten onderzocht. ⚖️
+> > - Voor schulden geldt vaak een **negatieve bevestiging** of een **saldo-bevestiging** met expliciet bedrag (zie [[externe-bevestiging-audit]] §Drie soorten externe bevestiging). 🤖
+> > 
+> > **Periodieke schriftelijke confirmatie**: zelfs in een IC-context (niet alleen externe audit) heeft een interne controleafdeling baat bij periodieke externe confirmaties — bv. driemaandelijks of jaarlijks — om systematische manipulatie of vergissingen te detecteren. 🤖 🤖
+> > 
+> > 1. **Interne bron = manipulatie-risico** — de boekhouding wordt opgesteld door personeel van de cliënt, onder supervisie van het management. Management override (KMO-controlenorm §96 + [[fraude]]) kan zelfs een goed werkend IC-systeem omzeilen. Een vorderingsaldo van € 50.000 in de boekhouding is geen onafhankelijk bewijs van het bestaan; het is wat de boekhouder denkt te boeken. ⚖️
+> > 2. **Externe bron = onafhankelijk + schriftelijk** — een externe bevestiging is een schriftelijke reactie rechtstreeks van een derde partij (leverancier, bank, klant, advocaat) aan de auditor of IC-afdeling, buiten de cliënt om ([[externe-bevestiging-audit]] §Definitie). Drie eigenschappen — schriftelijk, extern, onafhankelijk — maken dit hoogwaardige assurance-informatie. ⚖️
+> > 3. **Hiërarchie van bewijs** — extern + onafhankelijk + schriftelijk > intern + mondeling/ongedateerd. Externe confirmaties scoren hoog op de evidence-hiërarchie (ISA 500 §A31 e.v.). ⚖️
+> > 
+> > _Grondslag: [[externe-bevestiging-audit]] §Bouwstenen; ITAA KMO-controlenorm §89-92; ISA 505 §6-8; ISA 500 §A31 e.v. (hiërarchie van assurance-informatie)._
 > 
-> **Specifiek voor leveranciers** 🤖
+> > [!info]- Bronnen (2)
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Definitie + §Auditor controleert het kanaal → ondersteunt: extern + onafhankelijk + schriftelijk = hoogwaardige assurance
+> > - [[interne-controle|content/concepten/interne-controle.md]] · Valkuilen — management override → ondersteunt: interne bron is manipuleerbaar
 > 
-> - Schuldsaldi in de boekhouding kunnen te laag staan (omzet- of kost-manipulatie) of te hoog (foute facturatie). Een leveranciersbevestiging toont het saldo zoals de leverancier het in zijn eigen boeken heeft staan. Verschillen wijzen op timing of fouten — beide moeten onderzocht. ⚖️
-> - Voor schulden geldt vaak een **negatieve bevestiging** of een **saldo-bevestiging** met expliciet bedrag (zie [[externe-bevestiging-audit]] §Drie soorten externe bevestiging). 🤖
-> 
-> **Periodieke schriftelijke confirmatie**: zelfs in een IC-context (niet alleen externe audit) heeft een interne controleafdeling baat bij periodieke externe confirmaties — bv. driemaandelijks of jaarlijks — om systematische manipulatie of vergissingen te detecteren. 🤖 🤖
-> 
-> 1. **Interne bron = manipulatie-risico** — de boekhouding wordt opgesteld door personeel van de cliënt, onder supervisie van het management. Management override (KMO-controlenorm §96 + [[fraude]]) kan zelfs een goed werkend IC-systeem omzeilen. Een vorderingsaldo van € 50.000 in de boekhouding is geen onafhankelijk bewijs van het bestaan; het is wat de boekhouder denkt te boeken. ⚖️
-> 2. **Externe bron = onafhankelijk + schriftelijk** — een externe bevestiging is een schriftelijke reactie rechtstreeks van een derde partij (leverancier, bank, klant, advocaat) aan de auditor of IC-afdeling, buiten de cliënt om ([[externe-bevestiging-audit]] §Definitie). Drie eigenschappen — schriftelijk, extern, onafhankelijk — maken dit hoogwaardige assurance-informatie. ⚖️
-> 3. **Hiërarchie van bewijs** — extern + onafhankelijk + schriftelijk > intern + mondeling/ongedateerd. Externe confirmaties scoren hoog op de evidence-hiërarchie (ISA 500 §A31 e.v.). ⚖️
-> 
-> _Grondslag: [[externe-bevestiging-audit]] §Bouwstenen; ITAA KMO-controlenorm §89-92; ISA 505 §6-8; ISA 500 §A31 e.v. (hiërarchie van assurance-informatie)._
-
-> [!info]- Bronnen (2)
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Definitie + §Auditor controleert het kanaal → ondersteunt: extern + onafhankelijk + schriftelijk = hoogwaardige assurance
-> - [[interne-controle|content/concepten/interne-controle.md]] · Valkuilen — management override → ondersteunt: interne bron is manipuleerbaar
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: circular_definition, claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -5919,39 +5843,38 @@ Duid in onderstaande tabel aan welke soort taak bedoeld is.
 | Uitvoeren van de betaling |   |   |   |   |
 | Aanmaak en onderhoud basisgegevens leveranciers |   |   |   |   |
 
-#### Modelantwoord
-
-1 (Akkoord bestelling): Autorisatie. 2 (Ontvangst goederen): Bewaring. 3 (Ontvangst factuur): Registratie. 4 (Verificatie factuur): Controle. 5 (Betalingsvoorstel aanmaken): Registratie. 6 (Controle betalingsvoorstel): Controle. 7 (Uitvoeren betaling): Autorisatie. 8 (Onderhoud leveranciers-masterdata): Registratie.
-
-> [!success]- Motivering (typed)
-> 4 functies klassieke functiescheiding: **(1) Autorisatie**, **(2) Bewaring activa**, **(3) Registratie & rapportering**, **(4) Controleprocedures**.🤖 Sommige activiteiten kunnen onder meer functies vallen afhankelijk van de organisatie:
-> - "Uitvoeren betaling" wordt soms onder Bewaring geplaatst (geldmiddelen-beheer); maar in moderne IT-omgevingen is het sterker een Autorisatie-handeling (vrijgave van order)
-> - "Aanmaak leveranciers-masterdata" is gevoelig — wie aanmaakt heeft impact op autorisatie, daarom soms onder Autorisatie geplaatst om incompatibiliteit met Registratie te vermijden 🤖
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 1 (Akkoord bestelling): Autorisatie. 2 (Ontvangst goederen): Bewaring. 3 (Ontvangst factuur): Registratie. 4 (Verificatie factuur): Controle. 5 (Betalingsvoorstel aanmaken): Registratie. 6 (Controle betalingsvoorstel): Controle. 7 (Uitvoeren betaling): Autorisatie. 8 (Onderhoud leveranciers-masterdata): Registratie.
 > 
-> | # | Activiteit | Functie | Reden |
-> |---|---|---|---|
-> | 1 | Akkoord bestelling | **1 Autorisatie** | Goedkeuring vóór actie ([[functiescheiding]] §Incompatibele combinaties) |
-> | 2 | Ontvangst van de goederen | **2 Bewaring** | Fysiek beheer van activa op het moment van eigendomsoverdracht |
-> | 3 | Ontvangst van de factuur | **3 Registratie** | Verwerking van het document in boekhoudsysteem |
-> | 4 | Verificatie van de factuur | **4 Controle** | Driewegmatch (bestel/ontvangst/factuur) = controleprocedure |
-> | 5 | Aanmaak betalingsvoorstel | **3 Registratie** | Voorbereiden van de boeking + betalingsorder — administratieve registratie |
-> | 6 | Controle betalingsvoorstel | **4 Controle** | Validatie van het opgestelde voorstel = controleprocedure |
-> | 7 | Uitvoeren van de betaling | **1 Autorisatie** | Vrijgave van middelen = autorisatie-handeling (typisch dubbele handtekening voor grote bedragen) |
-> | 8 | Aanmaak en onderhoud basisgegevens leveranciers | **3 Registratie** | Masterdata-management — administratieve activiteit |
+> > [!note]- Motivering (typed)
+> > 4 functies klassieke functiescheiding: **(1) Autorisatie**, **(2) Bewaring activa**, **(3) Registratie & rapportering**, **(4) Controleprocedures**.🤖 Sommige activiteiten kunnen onder meer functies vallen afhankelijk van de organisatie:
+> > - "Uitvoeren betaling" wordt soms onder Bewaring geplaatst (geldmiddelen-beheer); maar in moderne IT-omgevingen is het sterker een Autorisatie-handeling (vrijgave van order)
+> > - "Aanmaak leveranciers-masterdata" is gevoelig — wie aanmaakt heeft impact op autorisatie, daarom soms onder Autorisatie geplaatst om incompatibiliteit met Registratie te vermijden 🤖
+> > 
+> > | # | Activiteit | Functie | Reden |
+> > |---|---|---|---|
+> > | 1 | Akkoord bestelling | **1 Autorisatie** | Goedkeuring vóór actie ([[functiescheiding]] §Incompatibele combinaties) |
+> > | 2 | Ontvangst van de goederen | **2 Bewaring** | Fysiek beheer van activa op het moment van eigendomsoverdracht |
+> > | 3 | Ontvangst van de factuur | **3 Registratie** | Verwerking van het document in boekhoudsysteem |
+> > | 4 | Verificatie van de factuur | **4 Controle** | Driewegmatch (bestel/ontvangst/factuur) = controleprocedure |
+> > | 5 | Aanmaak betalingsvoorstel | **3 Registratie** | Voorbereiden van de boeking + betalingsorder — administratieve registratie |
+> > | 6 | Controle betalingsvoorstel | **4 Controle** | Validatie van het opgestelde voorstel = controleprocedure |
+> > | 7 | Uitvoeren van de betaling | **1 Autorisatie** | Vrijgave van middelen = autorisatie-handeling (typisch dubbele handtekening voor grote bedragen) |
+> > | 8 | Aanmaak en onderhoud basisgegevens leveranciers | **3 Registratie** | Masterdata-management — administratieve activiteit |
+> > 
+> > _Grondslag: [[functiescheiding]] §Bouwstenen + §Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20._
 > 
-> _Grondslag: [[functiescheiding]] §Bouwstenen + §Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20._
-
-> [!info]- Bronnen (1)
-> - [[functiescheiding|content/concepten/functiescheiding.md]] · Bouwstenen + Incompatibele combinaties → ondersteunt: 4-functie-indeling
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Bronnen (1)
+> > - [[functiescheiding|content/concepten/functiescheiding.md]] · Bouwstenen + Incompatibele combinaties → ondersteunt: 4-functie-indeling
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -5973,37 +5896,36 @@ Kruis aan of deze voorbeelden een preventieve, repressieve of corrigerende maatr
 controle op toegestane korting
 - **G.** Solvabiliteitsonderzoek bij klantenacceptatie
 
-#### Modelantwoord
-
-Functiescheiding: P. Periodieke inventarisaties: R. Tussentijdse confirmaties: R. ICT beveiligingen: P. Handtekeningsbevoegdheid: P. Cijferbeoordeling: R. Solvabiliteitsonderzoek: P. (Geen pure C-maatregelen in deze lijst.)
-
-> [!success]- Motivering (typed)
-> 🤖 **Corrigerende controles** komen niet voor in deze 7 voorbeelden — dat zijn typisch automatische correctie-routines (bv. ERP herstart-procedures, automatische heropbouw van indices, geautomatiseerde re-categorisatie van fouten) of administratieve correcties **na detectie**. Geen van de getoonde maatregelen valt zuiver onder C. 🤖
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Functiescheiding: P. Periodieke inventarisaties: R. Tussentijdse confirmaties: R. ICT beveiligingen: P. Handtekeningsbevoegdheid: P. Cijferbeoordeling: R. Solvabiliteitsonderzoek: P. (Geen pure C-maatregelen in deze lijst.)
 > 
-> | Voorbeeld | P | R | C | Motivering |
-> |---|---|---|---|---|
-> | Functiescheiding | **✓** |  |  | Voorkomt incompatibele combinaties **vóór** ze plaatsvinden — pure preventieve maatregel ⚖️ |
-> | Periodieke inventarisaties |  | **✓** |  | Detecteert verschillen **achteraf** (boekhouding vs werkelijkheid) ⚖️ |
-> | Tussentijdse confirmaties |  | **✓** |  | Detecteert afwijkingen **achteraf** (extern bevestigen wat al geboekt is) ⚖️ |
-> | ICT beveiligingen | **✓** |  |  | Toegangsbeperking + autorisatie ex ante = preventief ⚖️ |
-> | Handtekeningsbevoegdheid | **✓** |  |  | Autorisatie-mechanisme **vóór** de handeling = preventief ⚖️ |
-> | Cijferbeoordeling brutomarges + korting |  | **✓** |  | Cijferanalyse na de feiten = repressief (detective) ⚖️ |
-> | Solvabiliteitsonderzoek bij klantenacceptatie | **✓** |  |  | Vooraf-toets vermijdt latere oninbare vorderingen = preventief ⚖️ |
+> > [!note]- Motivering (typed)
+> > 🤖 **Corrigerende controles** komen niet voor in deze 7 voorbeelden — dat zijn typisch automatische correctie-routines (bv. ERP herstart-procedures, automatische heropbouw van indices, geautomatiseerde re-categorisatie van fouten) of administratieve correcties **na detectie**. Geen van de getoonde maatregelen valt zuiver onder C. 🤖
+> > 
+> > | Voorbeeld | P | R | C | Motivering |
+> > |---|---|---|---|---|
+> > | Functiescheiding | **✓** |  |  | Voorkomt incompatibele combinaties **vóór** ze plaatsvinden — pure preventieve maatregel ⚖️ |
+> > | Periodieke inventarisaties |  | **✓** |  | Detecteert verschillen **achteraf** (boekhouding vs werkelijkheid) ⚖️ |
+> > | Tussentijdse confirmaties |  | **✓** |  | Detecteert afwijkingen **achteraf** (extern bevestigen wat al geboekt is) ⚖️ |
+> > | ICT beveiligingen | **✓** |  |  | Toegangsbeperking + autorisatie ex ante = preventief ⚖️ |
+> > | Handtekeningsbevoegdheid | **✓** |  |  | Autorisatie-mechanisme **vóór** de handeling = preventief ⚖️ |
+> > | Cijferbeoordeling brutomarges + korting |  | **✓** |  | Cijferanalyse na de feiten = repressief (detective) ⚖️ |
+> > | Solvabiliteitsonderzoek bij klantenacceptatie | **✓** |  |  | Vooraf-toets vermijdt latere oninbare vorderingen = preventief ⚖️ |
+> > 
+> > _Grondslag: [[interne-controle]] §Bouwstenen + §Valkuilen; [[beheersactiviteiten]] §Types controlemaatregelen; COSO I (1992/2013)._
 > 
-> _Grondslag: [[interne-controle]] §Bouwstenen + §Valkuilen; [[beheersactiviteiten]] §Types controlemaatregelen; COSO I (1992/2013)._
-
-> [!info]- Bronnen (2)
-> - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen → ondersteunt: preventief/repressief-onderscheid
-> - [[beheersactiviteiten|content/concepten/beheersactiviteiten.md]] · Types controlemaatregelen → ondersteunt: types
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Bronnen (2)
+> > - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen → ondersteunt: preventief/repressief-onderscheid
+> > - [[beheersactiviteiten|content/concepten/beheersactiviteiten.md]] · Types controlemaatregelen → ondersteunt: types
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -6028,34 +5950,33 @@ periode in het informatiesysteem opgenomen.
 de onderliggende inventaris en eventuele verschillen moeten
 niet verantwoord worden.
 
-#### Modelantwoord
-
-1: JUIST. 2: FOUT (toegang beperkt). 3: JUIST. 4: FOUT (juiste periode, niet door boekhouder bepaald). 5: FOUT (verschillen wél verantwoorden).
-
-> [!success]- Motivering (typed)
-> | # | Omschrijving | J/F | Motivering |
-> |---|---|---|---|
-> | 1 | Transacties uitgevoerd in overeenstemming met door management vastgelegde bevoegdheidsverdelingen | **JUIST** ⚖️ | Autorisatie + functiescheiding zijn kerncomponenten van IC ([[interne-controle]] §Bouwstenen) |
-> | 2 | Toegang tot activa vrij voor elke medewerker in vast dienstverband | **FOUT** ⚖️ | Toegang moet beperkt zijn op need-to-know-basis (fysieke beveiligingen + RBAC in IT) — zie [[controlemiddelen-ic]] §Fysieke beveiligingen |
-> | 3 | Enkel verrichtingen behorend tot het patrimonium worden geregistreerd | **JUIST** ⚖️ | Bestaans- en juistheids-doelstelling (assurance-informatie); ook persoonlijke uitgaven van bestuurders horen niet thuis in onderneming-boekhouding |
-> | 4 | Transacties in een door de boekhouder bepaalde periode opgenomen | **FOUT** ⚖️ | Transacties moeten in de **juiste boekhoudkundige periode** (cut-off — periode van het feit, niet door boekhouder gekozen). Klassiek frauderisico (zie [[verkoopcyclus-ic]] §Valkuilen) |
-> | 5 | Verschillen tussen boekhouding en inventaris moeten niet verantwoord worden | **FOUT** ⚖️ | Verschillen moeten **wel** verantwoord, onderzocht en gecorrigeerd worden (inventaris-controle is een basis-IC-procedure) |
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 1: JUIST. 2: FOUT (toegang beperkt). 3: JUIST. 4: FOUT (juiste periode, niet door boekhouder bepaald). 5: FOUT (verschillen wél verantwoorden).
 > 
-> _Grondslag: [[interne-controle]] §Bouwstenen + §Valkuilen; [[verkoopcyclus-ic]] §Valkuilen cut-off; [[controlemiddelen-ic]] §Fysieke beveiligingen._
-
-> [!info]- Bronnen (3)
-> - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen → ondersteunt: IC-doelstellingen
-> - [[controlemiddelen-ic|content/concepten/controlemiddelen-ic.md]] · Fysieke beveiligingen → ondersteunt: toegangsbeperking
-> - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Valkuilen — cut-off → ondersteunt: juiste-periode-regel
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!note]- Motivering (typed)
+> > | # | Omschrijving | J/F | Motivering |
+> > |---|---|---|---|
+> > | 1 | Transacties uitgevoerd in overeenstemming met door management vastgelegde bevoegdheidsverdelingen | **JUIST** ⚖️ | Autorisatie + functiescheiding zijn kerncomponenten van IC ([[interne-controle]] §Bouwstenen) |
+> > | 2 | Toegang tot activa vrij voor elke medewerker in vast dienstverband | **FOUT** ⚖️ | Toegang moet beperkt zijn op need-to-know-basis (fysieke beveiligingen + RBAC in IT) — zie [[controlemiddelen-ic]] §Fysieke beveiligingen |
+> > | 3 | Enkel verrichtingen behorend tot het patrimonium worden geregistreerd | **JUIST** ⚖️ | Bestaans- en juistheids-doelstelling (assurance-informatie); ook persoonlijke uitgaven van bestuurders horen niet thuis in onderneming-boekhouding |
+> > | 4 | Transacties in een door de boekhouder bepaalde periode opgenomen | **FOUT** ⚖️ | Transacties moeten in de **juiste boekhoudkundige periode** (cut-off — periode van het feit, niet door boekhouder gekozen). Klassiek frauderisico (zie [[verkoopcyclus-ic]] §Valkuilen) |
+> > | 5 | Verschillen tussen boekhouding en inventaris moeten niet verantwoord worden | **FOUT** ⚖️ | Verschillen moeten **wel** verantwoord, onderzocht en gecorrigeerd worden (inventaris-controle is een basis-IC-procedure) |
+> > 
+> > _Grondslag: [[interne-controle]] §Bouwstenen + §Valkuilen; [[verkoopcyclus-ic]] §Valkuilen cut-off; [[controlemiddelen-ic]] §Fysieke beveiligingen._
+> 
+> > [!info]- Bronnen (3)
+> > - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen → ondersteunt: IC-doelstellingen
+> > - [[controlemiddelen-ic|content/concepten/controlemiddelen-ic.md]] · Fysieke beveiligingen → ondersteunt: toegangsbeperking
+> > - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Valkuilen — cut-off → ondersteunt: juiste-periode-regel
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -6069,43 +5990,42 @@ De verkoopafdeling maakt de nieuwe klantenfiches aan in het computersysteem op h
 moment dat de verkoper een door een nieuwe klant getekende bestelbon binnenbrengt.
 Detecteer drie risico's.
 
-#### Modelantwoord
-
-(1) Geen scheiding tussen klant-aanvaarding (sales/verkoop) en klantenmaster-creatie → risico op fictieve klanten of klanten zonder kredietcheck. (2) Verkoper kan zelf de prijsvoorwaarden, kortingen of betalingstermijnen in de klantenfiche zetten → risico op oneigenlijke commerciële voorwaarden (eigen belang vs onderneming). (3) Geen kredietcheck vooraf gekoppeld aan klantenmaster-creatie → risico op oninbare vorderingen bij niet-solvabele klanten.
-
-> [!success]- Motivering (typed)
-> Bij de procedure waarbij **de verkoopafdeling zelf de nieuwe klantenfiches in het computersysteem aanmaakt** bij ontvangst van een ondertekende bestelbon, ontstaan **drie controletechnische risico's** ([[verkoopcyclus-ic]] §Stappen + [[functiescheiding]] §Incompatibele combinaties):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: (1) Geen scheiding tussen klant-aanvaarding (sales/verkoop) en klantenmaster-creatie → risico op fictieve klanten of klanten zonder kredietcheck. (2) Verkoper kan zelf de prijsvoorwaarden, kortingen of betalingstermijnen in de klantenfiche zetten → risico op oneigenlijke commerciële voorwaarden (eigen belang vs onderneming). (3) Geen kredietcheck vooraf gekoppeld aan klantenmaster-creatie → risico op oninbare vorderingen bij niet-solvabele klanten.
 > 
-> ### Risico 1: Geen functiescheiding klantenmaster ↔ verkoop
+> > [!note]- Motivering (typed)
+> > Bij de procedure waarbij **de verkoopafdeling zelf de nieuwe klantenfiches in het computersysteem aanmaakt** bij ontvangst van een ondertekende bestelbon, ontstaan **drie controletechnische risico's** ([[verkoopcyclus-ic]] §Stappen + [[functiescheiding]] §Incompatibele combinaties):
+> > 
+> > ### Risico 1: Geen functiescheiding klantenmaster ↔ verkoop
+> > 
+> > De verkoper is tegelijk **klantverwerver** (bestelbon ophalen) én **klantenmaster-creator** (fiche in ERP aanmaken). Dat doorbreekt het basisprincipe van functiescheiding tussen autorisatie (klant aanvaarden) en bewaring/registratie (klantgegevens in masterdata). ⚖️ Gevolg: een verkoper met fraude-intentie kan **fictieve klanten** aanmaken om verkoop-bonussen te scoren, of klanten met zwakke solvabiliteit door te laten zonder controle. ⚖️
+> > 
+> > ### Risico 2: Verkoper bepaalt commerciële voorwaarden in de masterdata
+> > 
+> > Bij zelf-creatie van de klantenfiche kan de verkoper **kortingen, prijsvoorwaarden, betalingstermijnen en kredietlimieten** invullen zonder onafhankelijke goedkeuring. ⚖️ Eigen-belang (commissie op omzet) gaat dan in tegen het ondernemingsbelang (marge-bescherming, kredietrisico-management). Een verkoper kan systematisch hogere kortingen of langere betalingstermijnen toekennen dan commercieel verantwoord — direct verlies van marge en cashflow-traagheid. ⚖️
+> > 
+> > ### Risico 3: Geen kredietcheck vooraf
+> > 
+> > De procedure beschrijft alleen dat een ondertekende bestelbon volstaat voor klantenfiche-aanmaak — **niet** dat een **kredietcheck** wordt uitgevoerd ([[verkoopcyclus-ic]] §Stap 1 Klantenacceptatie en krediettoekenning). ⚖️ Bij niet-solvabele klanten of klanten op een blacklist (mora) wordt de levering toch gestart → risico op oninbare vorderingen en aged-receivables die later moeten worden afgeboekt (kost-balanseffect + cashflow-impact). ⚖️
+> > 
+> > ### Mitigatie (referentie)
+> > 
+> > [[verkoopcyclus-ic]] §Stap 1 schrijft voor: **vóór** klantenfiche-aanmaak een due-diligence (KBO + jaarrekening + eventueel kredietverzekeraar) → kredietlimiet vastleggen → ERP blokkeert leveringen bij over-limit of mora. Klantenmaster-creatie moet door een **andere functie** (bv. credit-controller of finance) gebeuren, niet door sales zelf.
+> > 
+> > _Grondslag: [[verkoopcyclus-ic]] §Stap 1; [[functiescheiding]] §Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20._
 > 
-> De verkoper is tegelijk **klantverwerver** (bestelbon ophalen) én **klantenmaster-creator** (fiche in ERP aanmaken). Dat doorbreekt het basisprincipe van functiescheiding tussen autorisatie (klant aanvaarden) en bewaring/registratie (klantgegevens in masterdata). ⚖️ Gevolg: een verkoper met fraude-intentie kan **fictieve klanten** aanmaken om verkoop-bonussen te scoren, of klanten met zwakke solvabiliteit door te laten zonder controle. ⚖️
+> > [!info]- Bronnen (2)
+> > - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Stap 1 Klantenacceptatie en krediettoekenning → ondersteunt: kredietcheck vereist
+> > - [[functiescheiding|content/concepten/functiescheiding.md]] · Incompatibele combinaties → ondersteunt: sales ≠ masterdata-creator
 > 
-> ### Risico 2: Verkoper bepaalt commerciële voorwaarden in de masterdata
-> 
-> Bij zelf-creatie van de klantenfiche kan de verkoper **kortingen, prijsvoorwaarden, betalingstermijnen en kredietlimieten** invullen zonder onafhankelijke goedkeuring. ⚖️ Eigen-belang (commissie op omzet) gaat dan in tegen het ondernemingsbelang (marge-bescherming, kredietrisico-management). Een verkoper kan systematisch hogere kortingen of langere betalingstermijnen toekennen dan commercieel verantwoord — direct verlies van marge en cashflow-traagheid. ⚖️
-> 
-> ### Risico 3: Geen kredietcheck vooraf
-> 
-> De procedure beschrijft alleen dat een ondertekende bestelbon volstaat voor klantenfiche-aanmaak — **niet** dat een **kredietcheck** wordt uitgevoerd ([[verkoopcyclus-ic]] §Stap 1 Klantenacceptatie en krediettoekenning). ⚖️ Bij niet-solvabele klanten of klanten op een blacklist (mora) wordt de levering toch gestart → risico op oninbare vorderingen en aged-receivables die later moeten worden afgeboekt (kost-balanseffect + cashflow-impact). ⚖️
-> 
-> ### Mitigatie (referentie)
-> 
-> [[verkoopcyclus-ic]] §Stap 1 schrijft voor: **vóór** klantenfiche-aanmaak een due-diligence (KBO + jaarrekening + eventueel kredietverzekeraar) → kredietlimiet vastleggen → ERP blokkeert leveringen bij over-limit of mora. Klantenmaster-creatie moet door een **andere functie** (bv. credit-controller of finance) gebeuren, niet door sales zelf.
-> 
-> _Grondslag: [[verkoopcyclus-ic]] §Stap 1; [[functiescheiding]] §Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20._
-
-> [!info]- Bronnen (2)
-> - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Stap 1 Klantenacceptatie en krediettoekenning → ondersteunt: kredietcheck vereist
-> - [[functiescheiding|content/concepten/functiescheiding.md]] · Incompatibele combinaties → ondersteunt: sales ≠ masterdata-creator
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -6121,51 +6041,50 @@ via een kas.
 **Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen in
 voorkomen.**
 
-#### Modelantwoord
-
-Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet de aanvraag (declaratieformulier met bonnetjes), zaakvoerder B keurt goed (autorisatie); (2) Kassier C betaalt uit en houdt het kasregister bij; medewerker D (boekhouder of externe) voert de bank-/kasreconciliatie + boekt de kosten in de algemene boekhouding. Periodieke kasinventaris door een vijfde persoon (zaakvoerder of accountant) op willekeurige momenten.
-
-> [!success]- Motivering (typed)
-> **Procedure voor terugbetaling van kleine kosten via kas** in een familiale BVBA, met minstens twee functiescheidingen ([[functiescheiding]] §Bouwstenen + ITAA-norm-kmo-controlenorm Bijlage 1):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet de aanvraag (declaratieformulier met bonnetjes), zaakvoerder B keurt goed (autorisatie); (2) Kassier C betaalt uit en houdt het kasregister bij; medewerker D (boekhouder of externe) voert de bank-/kasreconciliatie + boekt de kosten in de algemene boekhouding. Periodieke kasinventaris door een vijfde persoon (zaakvoerder of accountant) op willekeurige momenten.
 > 
-> ### Stappen + functiescheidingen
+> > [!note]- Motivering (typed)
+> > **Procedure voor terugbetaling van kleine kosten via kas** in een familiale BVBA, met minstens twee functiescheidingen ([[functiescheiding]] §Bouwstenen + ITAA-norm-kmo-controlenorm Bijlage 1):
+> > 
+> > ### Stappen + functiescheidingen
+> > 
+> > ### Aanvullende controles
+> > 
+> > - **Kasinventaris** door een **derde persoon** (zaakvoerder of externe accountant) op **willekeurige momenten** — onaangekondigde count vergelijken met kasregister. ⚖️ Detecteert verschillen tussen fysieke en boekhoudkundige kas.
+> > - **Maximum uitbetalingsbedrag** per declaratie (bv. € 250); grotere bedragen moeten via bankoverschrijving (niet via kas). 🤖
+> > - **Maandelijkse limiet** op de kas (bv. max € 1.500); overschot wordt naar bank teruggebracht. 🤖
+> > - **Niet meer dan 30 dagen** tussen kost-datum en declaratie (anti-fraude + tax-traceerbaarheid). 🤖 🤖
+> > 
+> > ### Incompatibele combinaties (vermijden)
+> > 
+> > Onder geen beding mag één persoon tegelijk:
+> > - Aanvragen + autoriseren (eigen kosten goedkeuren)
+> > - Kas beheren + boekhouding voeren (kas-saldo manipuleren door valse boekingen)
+> > - Kas beheren + reconciliatie uitvoeren (zelf-controle)
+> > 
+> > ⚖️ Klassieke valkuil ([[functiescheiding]] §Incompatibele combinaties): in een familiale BVBA is de zaakvoerder vaak zowel autorisator als kas-beheerder + boekhouder. Aanbeveling: minstens de boekhouding extern uitbesteden of een tweede persoon (familielid in dienst, secretaresse) toewijzen voor de uitvoerende kas-taak. ⚖️
+> > 
+> > 1. Aanvraag (medewerker A): De medewerker die de kost heeft gemaakt vult een standaard-declaratieformulier in (datum, bedrag, doel, eventueel BTW), voegt de **originele bonnetjes** toe, ondertekent. ⚖️
+> > 2. Goedkeuring / autorisatie (zaakvoerder B of een aangewezen verantwoordelijke): De zaakvoerder controleert de aanvraag (zakelijk doel, plausibel bedrag, bonnetjes aanwezig en geldig), autoriseert door medeondertekening. ⚖️ **Functiescheiding nr. 1**: aanvrager ≠ autorisator. ⚖️
+> > 3. Uitbetaling en kasregister (kassier C): Een aangewezen kassier (bv. de secretaresse) betaalt het bedrag uit de kas, registreert de uitgave in het kasregister met datum, ontvanger, bedrag, en bewaart het ondertekende formulier + bonnetjes als bewijsstuk. ⚖️
+> > 4. Boekhouding en reconciliatie (boekhouder D, intern of extern): De boekhouder boekt de uitgave in het financieel dagboek (kasdagboek), reconcileert periodiek het kassaldo met de fysieke kas-inventaris, en stuurt periodieke recapitulaties (maandelijks) naar het centraal boek. ⚖️ **Functiescheiding nr. 2**: kassier ≠ boekhouder. ⚖️
+> > 
+> > _Grondslag: [[functiescheiding]] §Bouwstenen + Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20; ITAA KMO-controlenorm Bijlage 1._
 > 
-> ### Aanvullende controles
+> > [!info]- Bronnen (2)
+> > - [[functiescheiding|content/concepten/functiescheiding.md]] · Bouwstenen + Incompatibele combinaties → ondersteunt: functiescheiding-types + voorbeelden
+> > - [[beheersactiviteiten|content/concepten/beheersactiviteiten.md]] · Bouwstenen → ondersteunt: autorisatie + bewaring + boekhouding-scheiding
 > 
-> - **Kasinventaris** door een **derde persoon** (zaakvoerder of externe accountant) op **willekeurige momenten** — onaangekondigde count vergelijken met kasregister. ⚖️ Detecteert verschillen tussen fysieke en boekhoudkundige kas.
-> - **Maximum uitbetalingsbedrag** per declaratie (bv. € 250); grotere bedragen moeten via bankoverschrijving (niet via kas). 🤖
-> - **Maandelijkse limiet** op de kas (bv. max € 1.500); overschot wordt naar bank teruggebracht. 🤖
-> - **Niet meer dan 30 dagen** tussen kost-datum en declaratie (anti-fraude + tax-traceerbaarheid). 🤖 🤖
-> 
-> ### Incompatibele combinaties (vermijden)
-> 
-> Onder geen beding mag één persoon tegelijk:
-> - Aanvragen + autoriseren (eigen kosten goedkeuren)
-> - Kas beheren + boekhouding voeren (kas-saldo manipuleren door valse boekingen)
-> - Kas beheren + reconciliatie uitvoeren (zelf-controle)
-> 
-> ⚖️ Klassieke valkuil ([[functiescheiding]] §Incompatibele combinaties): in een familiale BVBA is de zaakvoerder vaak zowel autorisator als kas-beheerder + boekhouder. Aanbeveling: minstens de boekhouding extern uitbesteden of een tweede persoon (familielid in dienst, secretaresse) toewijzen voor de uitvoerende kas-taak. ⚖️
-> 
-> 1. Aanvraag (medewerker A): De medewerker die de kost heeft gemaakt vult een standaard-declaratieformulier in (datum, bedrag, doel, eventueel BTW), voegt de **originele bonnetjes** toe, ondertekent. ⚖️
-> 2. Goedkeuring / autorisatie (zaakvoerder B of een aangewezen verantwoordelijke): De zaakvoerder controleert de aanvraag (zakelijk doel, plausibel bedrag, bonnetjes aanwezig en geldig), autoriseert door medeondertekening. ⚖️ **Functiescheiding nr. 1**: aanvrager ≠ autorisator. ⚖️
-> 3. Uitbetaling en kasregister (kassier C): Een aangewezen kassier (bv. de secretaresse) betaalt het bedrag uit de kas, registreert de uitgave in het kasregister met datum, ontvanger, bedrag, en bewaart het ondertekende formulier + bonnetjes als bewijsstuk. ⚖️
-> 4. Boekhouding en reconciliatie (boekhouder D, intern of extern): De boekhouder boekt de uitgave in het financieel dagboek (kasdagboek), reconcileert periodiek het kassaldo met de fysieke kas-inventaris, en stuurt periodieke recapitulaties (maandelijks) naar het centraal boek. ⚖️ **Functiescheiding nr. 2**: kassier ≠ boekhouder. ⚖️
-> 
-> _Grondslag: [[functiescheiding]] §Bouwstenen + Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20; ITAA KMO-controlenorm Bijlage 1._
-
-> [!info]- Bronnen (2)
-> - [[functiescheiding|content/concepten/functiescheiding.md]] · Bouwstenen + Incompatibele combinaties → ondersteunt: functiescheiding-types + voorbeelden
-> - [[beheersactiviteiten|content/concepten/beheersactiviteiten.md]] · Bouwstenen → ondersteunt: autorisatie + bewaring + boekhouding-scheiding
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: procedure
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
-> - Opmerking: Identiek aan 2013-1-vr9 (kasprocedure familiale BVBA functiescheiding) — antwoord gespiegeld.
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: procedure
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
+> > - Opmerking: Identiek aan 2013-1-vr9 (kasprocedure familiale BVBA functiescheiding) — antwoord gespiegeld.
 
 ---
 
@@ -6182,58 +6101,57 @@ De controleactiviteiten kunnen op verschillende wijzen worden ingedeeld.
 **Antwoord … 
 b) Preventieve en repressieve controle.**
 
-#### Modelantwoord
-
-a) Accountingcontrole = controle op cijfers/boekhouding zelf (omzeterkenning, voorraadwaardering); administratieve controle = controle op proces/procedures (autorisatie, functiescheiding). b) Preventief = ex ante (functiescheiding, autorisaties, kredietlimieten); repressief = ex post (reconciliaties, audits, cijferanalyses).
-
-> [!success]- Motivering (typed)
-> **a) Accountingcontrole = controle op cijfers/boekhouding zelf**
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Accountingcontrole = controle op cijfers/boekhouding zelf (omzeterkenning, voorraadwaardering); administratieve controle = controle op proces/procedures (autorisatie, functiescheiding). b) Preventief = ex ante (functiescheiding, autorisaties, kredietlimieten); repressief = ex post (reconciliaties, audits, cijferanalyses).
 > 
-> ### a) Accountingcontrole vs administratieve controle
+> > [!note]- Motivering (typed)
+> > **a) Accountingcontrole = controle op cijfers/boekhouding zelf**
+> > 
+> > ### a) Accountingcontrole vs administratieve controle
+> > 
+> > - **Accountingcontrole**: controle op de **cijfers en boekhoudkundige verslaglegging** zelf — of de geboekte omzet klopt, of de voorraadwaardering juist is, of de afschrijvingen correct toegepast zijn, of de reconciliatie tussen sub-grootboeken en grootboek overeenkomt. ⚖️ Voorbeelden:
+> >   - Driewegmatch tussen bestelbon, ontvangstbon en factuur vóór betaling (= controle op de feitelijke ontvangst van de aangerekende goederen)
+> >   - Bankreconciliatie tussen banksaldo en grootboek-rek 550
+> >   - Aged-receivables-analyse om dubieuze vorderingen tijdig te boeken ⚖️
+> > 
+> > - **Administratieve controle**: controle op de **organisatorische processen en procedures** — niet de cijfers maar de manier waarop transacties worden behandeld. ⚖️ Voorbeelden:
+> >   - Functiescheiding tussen orderingever en betaler
+> >   - Vereiste dubbele handtekening voor betalingen > € 25.000
+> >   - Procedure voor klantenmaster-creatie (zie 2014-1-vr10)
+> >   - Goedkeuringsketens voor budgetafwijkingen ⚖️
+> > 
+> > 🤖 De twee zijn complementair: administratieve controle voorkomt fouten/fraude in het proces; accountingcontrole detecteert ze in de cijfers. 🤖
+> > 
+> > ### b) Preventieve vs repressieve controle
+> > 
+> > - **Preventieve controle (ex ante)**: voorkomt fouten of fraude voordat ze plaatsvinden. ⚖️ Voorbeelden:
+> >   - Functiescheiding (incompatibele combinaties uitsluiten)
+> >   - Kredietlimieten in ERP (blokkeert levering bij over-limit)
+> >   - Autorisaties vereist vóór actie (uitgaande betaling, bestelling > drempel)
+> >   - Toegangsbeperkingen (badges, RBAC in IT-systemen) ⚖️
+> > 
+> > - **Repressieve controle (ex post)**: detecteert fouten of fraude **nadat** ze gebeurd zijn. ⚖️ Voorbeelden:
+> >   - Bankreconciliaties (maandelijks of wekelijks)
+> >   - Periodieke cijferanalyses (DSO, marge-trends)
+> >   - Interne audit (periodieke evaluatie van procedure-werking)
+> >   - Aged-receivables-rapportering ⚖️
+> > 
+> > 🤖 Aanvullend type (sommige doctrines): **corrigerende** controle = controle die niet alleen detecteert maar ook het probleem **oplost** (bv. automatische correctie-routines in IT). 🤖
+> > 
+> > _Grondslag: [[interne-controle]] §Bouwstenen; [[beheersactiviteiten]] §Types controlemaatregelen; COSO I (1992/2013)._
 > 
-> - **Accountingcontrole**: controle op de **cijfers en boekhoudkundige verslaglegging** zelf — of de geboekte omzet klopt, of de voorraadwaardering juist is, of de afschrijvingen correct toegepast zijn, of de reconciliatie tussen sub-grootboeken en grootboek overeenkomt. ⚖️ Voorbeelden:
->   - Driewegmatch tussen bestelbon, ontvangstbon en factuur vóór betaling (= controle op de feitelijke ontvangst van de aangerekende goederen)
->   - Bankreconciliatie tussen banksaldo en grootboek-rek 550
->   - Aged-receivables-analyse om dubieuze vorderingen tijdig te boeken ⚖️
+> > [!info]- Bronnen (2)
+> > - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen — Drie doelstellingen → ondersteunt: context controleactiviteiten
+> > - [[beheersactiviteiten|content/concepten/beheersactiviteiten.md]] · Bouwstenen → ondersteunt: types maatregelen
 > 
-> - **Administratieve controle**: controle op de **organisatorische processen en procedures** — niet de cijfers maar de manier waarop transacties worden behandeld. ⚖️ Voorbeelden:
->   - Functiescheiding tussen orderingever en betaler
->   - Vereiste dubbele handtekening voor betalingen > € 25.000
->   - Procedure voor klantenmaster-creatie (zie 2014-1-vr10)
->   - Goedkeuringsketens voor budgetafwijkingen ⚖️
-> 
-> 🤖 De twee zijn complementair: administratieve controle voorkomt fouten/fraude in het proces; accountingcontrole detecteert ze in de cijfers. 🤖
-> 
-> ### b) Preventieve vs repressieve controle
-> 
-> - **Preventieve controle (ex ante)**: voorkomt fouten of fraude voordat ze plaatsvinden. ⚖️ Voorbeelden:
->   - Functiescheiding (incompatibele combinaties uitsluiten)
->   - Kredietlimieten in ERP (blokkeert levering bij over-limit)
->   - Autorisaties vereist vóór actie (uitgaande betaling, bestelling > drempel)
->   - Toegangsbeperkingen (badges, RBAC in IT-systemen) ⚖️
-> 
-> - **Repressieve controle (ex post)**: detecteert fouten of fraude **nadat** ze gebeurd zijn. ⚖️ Voorbeelden:
->   - Bankreconciliaties (maandelijks of wekelijks)
->   - Periodieke cijferanalyses (DSO, marge-trends)
->   - Interne audit (periodieke evaluatie van procedure-werking)
->   - Aged-receivables-rapportering ⚖️
-> 
-> 🤖 Aanvullend type (sommige doctrines): **corrigerende** controle = controle die niet alleen detecteert maar ook het probleem **oplost** (bv. automatische correctie-routines in IT). 🤖
-> 
-> _Grondslag: [[interne-controle]] §Bouwstenen; [[beheersactiviteiten]] §Types controlemaatregelen; COSO I (1992/2013)._
-
-> [!info]- Bronnen (2)
-> - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen — Drie doelstellingen → ondersteunt: context controleactiviteiten
-> - [[beheersactiviteiten|content/concepten/beheersactiviteiten.md]] · Bouwstenen → ondersteunt: types maatregelen
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: definitie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: definitie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 #### Subvraag a)
 
@@ -6258,39 +6176,38 @@ controle maatregelen.
 **Geef vier controletechnieken die door de interne controleur kunnen toegepast worden op de
 goederen in het magazijn.**
 
-#### Modelantwoord
-
-Vier controletechnieken voor de interne controleur: (1) inspectie van documenten en activa, (2) waarneming van procedures en handelingen, (3) verzoek om inlichtingen (interviews + schriftelijke navragen), (4) herberekening van wiskundige juistheid. Aanvullend: externe bevestiging (klanten/leveranciers/banken/advocaten), cijferanalyse (trends + ratio's).
-
-> [!success]- Motivering (typed)
-> De interne controleur gebruikt de **klassieke set audit-technieken** (ISA 500 §A14-A25 — gedeeltelijk gedeeld met externe audit), aangepast aan de IC-context:
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Vier controletechnieken voor de interne controleur: (1) inspectie van documenten en activa, (2) waarneming van procedures en handelingen, (3) verzoek om inlichtingen (interviews + schriftelijke navragen), (4) herberekening van wiskundige juistheid. Aanvullend: externe bevestiging (klanten/leveranciers/banken/advocaten), cijferanalyse (trends + ratio's).
 > 
-> **Aanvullende technieken**
+> > [!note]- Motivering (typed)
+> > De interne controleur gebruikt de **klassieke set audit-technieken** (ISA 500 §A14-A25 — gedeeltelijk gedeeld met externe audit), aangepast aan de IC-context:
+> > 
+> > **Aanvullende technieken**
+> > 
+> > - **Externe bevestiging** (zie [[externe-bevestiging-audit]]) — klanten, leveranciers, banken, advocaten — schriftelijk rechtstreeks
+> > - **Cijferanalyses** ([[cijferanalyses-controle-norm]]) — trends, ratio's, vergelijking met budget/vorig jaar
+> > - **Steekproef** ([[steekproef-audit]]) — als toelaatbare techniek-modaliteit voor inspectie
+> > 
+> > 1. **Inspectie** — onderzoek van documenten (facturen, bestelbonnen, contracten, leveringsbonnen) en fysieke activa (voorraad-count, vaste activa-inventaris). Levert bewijs over bestaan, autorisatie, en (deels) waardering. ⚖️
+> > 2. **Waarneming** — gadeslaan van een proces of procedure die door anderen wordt uitgevoerd (bv. waarnemen van een voorraadopname, of het uitvoeren van een aankoop-autorisatie door de inkoper). Bewijs over de **uitvoering** van controles op het moment van waarnemen. ⚖️
+> > 3. **Verzoek om inlichtingen** — interviews met medewerkers + management over werking van procedures, schriftelijke navragen. Op zichzelf onvoldoende, maar belangrijk als triangulatie. ⚖️
+> > 4. **Herberekening** — wiskundige juistheid controleren (afschrijvingsplan, BTW-totalen, salarisberekeningen, voorraadwaardering). ⚖️
+> > 
+> > _Grondslag: ISA 500 §A14-A25; ITAA KMO-controlenorm §89-92; [[selecteren-en-uitvoeren-controle-instrumenten-audit]]._
 > 
-> - **Externe bevestiging** (zie [[externe-bevestiging-audit]]) — klanten, leveranciers, banken, advocaten — schriftelijk rechtstreeks
-> - **Cijferanalyses** ([[cijferanalyses-controle-norm]]) — trends, ratio's, vergelijking met budget/vorig jaar
-> - **Steekproef** ([[steekproef-audit]]) — als toelaatbare techniek-modaliteit voor inspectie
+> > [!info]- Bronnen (3)
+> > - [[selecteren-en-uitvoeren-controle-instrumenten-audit|content/concepten/selecteren-en-uitvoeren-controle-instrumenten-audit.md]] · Stappen → ondersteunt: controle-instrumenten overzicht
+> > - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Definitie → ondersteunt: externe bevestiging als techniek
+> > - [[cijferanalyses-controle-norm|content/concepten/cijferanalyses-controle-norm.md]] · Definitie → ondersteunt: cijferanalyses
 > 
-> 1. **Inspectie** — onderzoek van documenten (facturen, bestelbonnen, contracten, leveringsbonnen) en fysieke activa (voorraad-count, vaste activa-inventaris). Levert bewijs over bestaan, autorisatie, en (deels) waardering. ⚖️
-> 2. **Waarneming** — gadeslaan van een proces of procedure die door anderen wordt uitgevoerd (bv. waarnemen van een voorraadopname, of het uitvoeren van een aankoop-autorisatie door de inkoper). Bewijs over de **uitvoering** van controles op het moment van waarnemen. ⚖️
-> 3. **Verzoek om inlichtingen** — interviews met medewerkers + management over werking van procedures, schriftelijke navragen. Op zichzelf onvoldoende, maar belangrijk als triangulatie. ⚖️
-> 4. **Herberekening** — wiskundige juistheid controleren (afschrijvingsplan, BTW-totalen, salarisberekeningen, voorraadwaardering). ⚖️
-> 
-> _Grondslag: ISA 500 §A14-A25; ITAA KMO-controlenorm §89-92; [[selecteren-en-uitvoeren-controle-instrumenten-audit]]._
-
-> [!info]- Bronnen (3)
-> - [[selecteren-en-uitvoeren-controle-instrumenten-audit|content/concepten/selecteren-en-uitvoeren-controle-instrumenten-audit.md]] · Stappen → ondersteunt: controle-instrumenten overzicht
-> - [[externe-bevestiging-audit|content/concepten/externe-bevestiging-audit.md]] · Definitie → ondersteunt: externe bevestiging als techniek
-> - [[cijferanalyses-controle-norm|content/concepten/cijferanalyses-controle-norm.md]] · Definitie → ondersteunt: cijferanalyses
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: opsomming
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: opsomming
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -6313,35 +6230,34 @@ conformiteitsaspect .
 | Enkel toegestane verkooporders worden <br> verwerkt |   |   |   |
 | Alle verzonden goederen worden in de juiste <br> periode correct gefactureerd |   |   |   |
 
-#### Modelantwoord
-
-1: Operationeel. 2: Operationeel. 3: Operationeel. 4: Conformiteit (+ Financieel). 5: Financieel.
-
-> [!success]- Motivering (typed)
-> 🤖 Sommige doelstellingen passen onder meer categorieën — ITAA verwacht typisch één kruis per doelstelling, kies de **primaire** dimensie. Voor onbevoegde verkoop kan zowel F als C — beide aanvinken is verdedigbaar. 🤖
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 1: Operationeel. 2: Operationeel. 3: Operationeel. 4: Conformiteit (+ Financieel). 5: Financieel.
 > 
-> | Doelstelling | F | O | C | Motivering |
-> |---|---|---|---|---|
-> | Opstellen marketingstrategie |  | **✓** |  | Strategisch-operationeel (positionering, productlancering); geen financieel rapporterings-impact direct |
-> | Behoud tijdige levering tegen laagst mogelijke distributiekost |  | **✓** |  | Klassieke operationele doelstelling (efficiëntie) |
-> | Opvolging marktbehoeften + productintroductie/-stopzetting |  | **✓** |  | Operationeel (productmix-management); deels strategisch maar onder operationeel valt in MC |
-> | Enkel toegestane verkooporders worden verwerkt | **✓** |  | **✓** | Financieel (correctheid omzet) + Conformiteit (autorisatie-discipline — beleid + wettelijk) |
-> | Alle verzonden goederen in juiste periode correct gefactureerd | **✓** |  |  | Financieel: cut-off + volledigheid van de omzet ([[verkoopcyclus-ic]] §Valkuilen) |
+> > [!note]- Motivering (typed)
+> > 🤖 Sommige doelstellingen passen onder meer categorieën — ITAA verwacht typisch één kruis per doelstelling, kies de **primaire** dimensie. Voor onbevoegde verkoop kan zowel F als C — beide aanvinken is verdedigbaar. 🤖
+> > 
+> > | Doelstelling | F | O | C | Motivering |
+> > |---|---|---|---|---|
+> > | Opstellen marketingstrategie |  | **✓** |  | Strategisch-operationeel (positionering, productlancering); geen financieel rapporterings-impact direct |
+> > | Behoud tijdige levering tegen laagst mogelijke distributiekost |  | **✓** |  | Klassieke operationele doelstelling (efficiëntie) |
+> > | Opvolging marktbehoeften + productintroductie/-stopzetting |  | **✓** |  | Operationeel (productmix-management); deels strategisch maar onder operationeel valt in MC |
+> > | Enkel toegestane verkooporders worden verwerkt | **✓** |  | **✓** | Financieel (correctheid omzet) + Conformiteit (autorisatie-discipline — beleid + wettelijk) |
+> > | Alle verzonden goederen in juiste periode correct gefactureerd | **✓** |  |  | Financieel: cut-off + volledigheid van de omzet ([[verkoopcyclus-ic]] §Valkuilen) |
+> > 
+> > _Grondslag: [[verkoopcyclus-ic]] §Stappen + §Valkuilen; [[coso-i-framework]] §Doelstellingen-categorieën._
 > 
-> _Grondslag: [[verkoopcyclus-ic]] §Stappen + §Valkuilen; [[coso-i-framework]] §Doelstellingen-categorieën._
-
-> [!info]- Bronnen (2)
-> - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Stappen + Valkuilen → ondersteunt: cut-off + autorisatie verkoop
-> - [[coso-i-framework|content/concepten/coso-i-framework.md]] · Doelstellingen → ondersteunt: F/O/C categorieën
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: kwalificatie
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Bronnen (2)
+> > - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Stappen + Valkuilen → ondersteunt: cut-off + autorisatie verkoop
+> > - [[coso-i-framework|content/concepten/coso-i-framework.md]] · Doelstellingen → ondersteunt: F/O/C categorieën
+> 
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: kwalificatie
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -6382,85 +6298,84 @@ conformiteitsaspect .
 > | D.b | Operationeel | fout | Operationele effectiviteit is secundair doel. |
 > | D.c | Conformiteit | fout | Conformiteit (BTW, GDPR) is randvoorwaarde, niet primaire doelstelling. |
 
-#### Modelantwoord
-
-Casus interne controle verkoopcyclus, 4 deelvragen: A. 5 hoofdadviezen (krediettoekenning, functiescheiding, cut-off, creditnota-controle, aged-receivables). B. Hoofddoelstelling IC = redelijke zekerheid over (1) betrouwbare rapportering, (2) operationele effectiviteit, (3) compliance. C. Voornaamste risico = Financieel (rapporterings-risico op omzet/vorderingen). D. Verkoopcyclus-doelstelling = Financieel (cut-off, waardering).
-
-> [!success]- Motivering (typed)
-> Vraag bevat **vier deelvragen** (A/B/C/D) over interne controle in de verkoopcyclus. Hieronder per deel.
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Casus interne controle verkoopcyclus, 4 deelvragen: A. 5 hoofdadviezen (krediettoekenning, functiescheiding, cut-off, creditnota-controle, aged-receivables). B. Hoofddoelstelling IC = redelijke zekerheid over (1) betrouwbare rapportering, (2) operationele effectiviteit, (3) compliance. C. Voornaamste risico = Financieel (rapporterings-risico op omzet/vorderingen). D. Verkoopcyclus-doelstelling = Financieel (cut-off, waardering).
 > 
-> ### A. Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus
+> > [!note]- Motivering (typed)
+> > Vraag bevat **vier deelvragen** (A/B/C/D) over interne controle in de verkoopcyclus. Hieronder per deel.
+> > 
+> > ### A. Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus
+> > 
+> > Vijf hoofdadviezen (gestructureerd langs de cyclus-stappen in [[verkoopcyclus-ic]]):
+> > 
+> > 1. **Krediettoekenning vooraf** — toets de kredietwaardigheid van iedere nieuwe klant (KBO, jaarrekening, eventueel kredietverzekeraar) en ken een **kredietlimiet** toe die het ERP-systeem afdwingt. ⚖️ Doel: oninbare vorderingen voorkomen. Bij over-limit of mora: automatische blokkering van leveringen.
+> > 2. **Functiescheiding tussen sales, magazijn en facturatie** — orderintake door sales, levering door magazijn (op basis van ondertekende delivery note), facturatie automatisch uit ERP. ⚖️ Voorkomt manipulatie ('vergeten te factureren', fictieve klanten, oneigenlijke creditnota's).
+> > 3. **Cut-off-discipline rond balansdatum** — levering en factuur in dezelfde periode (BTW vereist factuur binnen 15 dagen na levering). ⚖️ Maandelijks alle delivery notes zonder factuur onderzoeken. Voorkomt omzetverschuiving (klassiek fraude-risico).
+> > 4. **Creditnota's apart goedkeuren** — voor elke creditnota een aparte autorisatie, traceerbare reden, en functiescheiding met de oorspronkelijke factuurboeker. ⚖️ Creditnota's zijn een typische manipulatie-vector.
+> > 5. **Aged-receivables-opvolging** — wekelijks ouderdoms-rapport, automatische escalatie (herinnering > 30 dagen, ingebrekestelling > 60 dagen, juridische actie + voorziening > 90 dagen). ⚖️ Detecteert betalingsproblemen vroeg en stuurt de voorziening voor dubieuze debiteuren. ⚖️
+> > 
+> > ### B. Hoofddoelstelling van de invoering van interne controle in een KMO
+> > 
+> > De **hoofddoelstelling** is een **redelijke** mate van zekerheid bieden over drie samenhangende domeinen (KMO-controlenorm Bijlage 1; COSO I 1992/2013):
+> > 
+> > 1. **Betrouwbaarheid van de financiële rapportering** ⚖️
+> > 2. **Effectieve en efficiënte werking van de bedrijfsprocessen** (operationele doelen) ⚖️
+> > 3. **Naleving van wetten en regelgeving** (compliance — boekhoudwet, BTW, sociale wetgeving, …) ⚖️ ⚖️
+> > 
+> > Sommige bronnen voegen een vierde toe: **bescherming van het vermogen / de activa** tegen verlies, diefstal of fraude. 🤖 🤖
+> > 
+> > In een **KMO-context** ligt het accent vaak op (1) en (3): de eigenaar-bestuurder werkt veelal mee aan de operationele kant zelf en heeft minder behoefte aan formele operationele controle. Maar betrouwbare cijfers en compliance zijn ook in een KMO onontbeerlijk (jaarrekening, BTW-aangiftes, fiscale aangifte, sociale documenten).
+> > 
+> > _Grondslag: [[interne-controle]] §Bouwstenen — Drie doelstellingen + Redelijke, geen absolute zekerheid._
+> > 
+> > ### C. Soort risico volgens COSO model
+> > 
+> > COSO ERM 2017 onderscheidt vier categorieën doelstellingen (en de daarmee verbonden risico's):
+> > - **Strategisch** (long-term, marktpositie)
+> > - **Operationeel** (efficiënte werking)
+> > - **Rapportering** ('Informatie' in oude COSO I — betrouwbaarheid van interne en externe rapporten)
+> > - **Compliance** ('Conformiteit', niet in deze MC-lijst)
+> > 
+> > In de MC: ● Strategisch ● Informatie ● Operationeel ● Financieel.
+> > 
+> > Voor de **verkoopcyclus** specifiek is het belangrijkste risico **financieel** (omzetbetrouwbaarheid, vorderingenwaardering, fraude in omzetcijfers) — dit valt onder 'Informatie' / 'Rapportering' in COSO-terminologie, maar wordt in BIBF-doctrine vaak rechtstreeks 'financieel' genoemd. ⚖️ ⚖️
+> > 
+> > **: voornaamste = **Financieel** (rapporterings-risico op de omzet- en vorderingen-balansposten). Secundair operationeel (procesfouten) en strategisch (klantenportefeuille-risico). 🤖 🤖
+> > 
+> > _Grondslag: [[coso-i-framework]] §Doelstellingen, [[verkoopcyclus-ic]] §Valkuilen (cut-off, creditnota's = financieel rapporterings-risico)._
+> > 
+> > ### D. Verkoopcyclus: Doelstelling
+> > 
+> > MC: ● Financieel ● Operationeel ● Conformiteit.
+> > 
+> > De **primaire doelstelling** van interne controle op de verkoopcyclus is:
+> > - **Financieel**: garanderen dat omzet en vorderingen correct, volledig en in de juiste periode worden gerapporteerd (cut-off, waardering dubieuze debiteuren). ⚖️
+> > - **Operationeel** secundair: efficiënte klantverwerking (kortere DSO, vlotte facturatie).
+> > - **Conformiteit** als randvoorwaarde: BTW-naleving (factuur binnen 15 dagen, BTW-conforme vermeldingen), GDPR voor klantgegevens. ⚖️
+> > 
+> > **Antwoord MC**: **Financieel** als hoofddoelstelling (cut-off, juiste waardering, vermijden fraude). 🤖 Operationeel en Conformiteit zijn ondergeschikt maar wel aanwezig. 🤖
+> > 
+> > _Grondslag: [[verkoopcyclus-ic]] §Bouwstenen + §Valkuilen (cut-off, creditnota's = financiële rapporterings-risico's)._
+> > 
+> > **Conclusie**: MC
+> > 
+> > _Grondslag: [[verkoopcyclus-ic]] §Stappen 1-4, [[functiescheiding]] §sales-levering._
 > 
-> Vijf hoofdadviezen (gestructureerd langs de cyclus-stappen in [[verkoopcyclus-ic]]):
+> > [!info]- Bronnen (5)
+> > - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Berekening — Stappen 1-4 → ondersteunt: A. adviezen krediettoekenning, functiescheiding, cut-off
+> > - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Valkuilen → ondersteunt: A. creditnota-controle, cut-off-discipline
+> > - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen — Drie doelstellingen → ondersteunt: B. hoofddoelstelling IC
+> > - [[coso-i-framework|content/concepten/coso-i-framework.md]] · Doelstellingen → ondersteunt: C. COSO-risicocategorieën
+> > - [[functiescheiding|content/concepten/functiescheiding.md]] · Sales-levering → ondersteunt: A. functiescheiding
 > 
-> 1. **Krediettoekenning vooraf** — toets de kredietwaardigheid van iedere nieuwe klant (KBO, jaarrekening, eventueel kredietverzekeraar) en ken een **kredietlimiet** toe die het ERP-systeem afdwingt. ⚖️ Doel: oninbare vorderingen voorkomen. Bij over-limit of mora: automatische blokkering van leveringen.
-> 2. **Functiescheiding tussen sales, magazijn en facturatie** — orderintake door sales, levering door magazijn (op basis van ondertekende delivery note), facturatie automatisch uit ERP. ⚖️ Voorkomt manipulatie ('vergeten te factureren', fictieve klanten, oneigenlijke creditnota's).
-> 3. **Cut-off-discipline rond balansdatum** — levering en factuur in dezelfde periode (BTW vereist factuur binnen 15 dagen na levering). ⚖️ Maandelijks alle delivery notes zonder factuur onderzoeken. Voorkomt omzetverschuiving (klassiek fraude-risico).
-> 4. **Creditnota's apart goedkeuren** — voor elke creditnota een aparte autorisatie, traceerbare reden, en functiescheiding met de oorspronkelijke factuurboeker. ⚖️ Creditnota's zijn een typische manipulatie-vector.
-> 5. **Aged-receivables-opvolging** — wekelijks ouderdoms-rapport, automatische escalatie (herinnering > 30 dagen, ingebrekestelling > 60 dagen, juridische actie + voorziening > 90 dagen). ⚖️ Detecteert betalingsproblemen vroeg en stuurt de voorziening voor dubieuze debiteuren. ⚖️
-> 
-> ### B. Hoofddoelstelling van de invoering van interne controle in een KMO
-> 
-> De **hoofddoelstelling** is een **redelijke** mate van zekerheid bieden over drie samenhangende domeinen (KMO-controlenorm Bijlage 1; COSO I 1992/2013):
-> 
-> 1. **Betrouwbaarheid van de financiële rapportering** ⚖️
-> 2. **Effectieve en efficiënte werking van de bedrijfsprocessen** (operationele doelen) ⚖️
-> 3. **Naleving van wetten en regelgeving** (compliance — boekhoudwet, BTW, sociale wetgeving, …) ⚖️ ⚖️
-> 
-> Sommige bronnen voegen een vierde toe: **bescherming van het vermogen / de activa** tegen verlies, diefstal of fraude. 🤖 🤖
-> 
-> In een **KMO-context** ligt het accent vaak op (1) en (3): de eigenaar-bestuurder werkt veelal mee aan de operationele kant zelf en heeft minder behoefte aan formele operationele controle. Maar betrouwbare cijfers en compliance zijn ook in een KMO onontbeerlijk (jaarrekening, BTW-aangiftes, fiscale aangifte, sociale documenten).
-> 
-> _Grondslag: [[interne-controle]] §Bouwstenen — Drie doelstellingen + Redelijke, geen absolute zekerheid._
-> 
-> ### C. Soort risico volgens COSO model
-> 
-> COSO ERM 2017 onderscheidt vier categorieën doelstellingen (en de daarmee verbonden risico's):
-> - **Strategisch** (long-term, marktpositie)
-> - **Operationeel** (efficiënte werking)
-> - **Rapportering** ('Informatie' in oude COSO I — betrouwbaarheid van interne en externe rapporten)
-> - **Compliance** ('Conformiteit', niet in deze MC-lijst)
-> 
-> In de MC: ● Strategisch ● Informatie ● Operationeel ● Financieel.
-> 
-> Voor de **verkoopcyclus** specifiek is het belangrijkste risico **financieel** (omzetbetrouwbaarheid, vorderingenwaardering, fraude in omzetcijfers) — dit valt onder 'Informatie' / 'Rapportering' in COSO-terminologie, maar wordt in BIBF-doctrine vaak rechtstreeks 'financieel' genoemd. ⚖️ ⚖️
-> 
-> **: voornaamste = **Financieel** (rapporterings-risico op de omzet- en vorderingen-balansposten). Secundair operationeel (procesfouten) en strategisch (klantenportefeuille-risico). 🤖 🤖
-> 
-> _Grondslag: [[coso-i-framework]] §Doelstellingen, [[verkoopcyclus-ic]] §Valkuilen (cut-off, creditnota's = financieel rapporterings-risico)._
-> 
-> ### D. Verkoopcyclus: Doelstelling
-> 
-> MC: ● Financieel ● Operationeel ● Conformiteit.
-> 
-> De **primaire doelstelling** van interne controle op de verkoopcyclus is:
-> - **Financieel**: garanderen dat omzet en vorderingen correct, volledig en in de juiste periode worden gerapporteerd (cut-off, waardering dubieuze debiteuren). ⚖️
-> - **Operationeel** secundair: efficiënte klantverwerking (kortere DSO, vlotte facturatie).
-> - **Conformiteit** als randvoorwaarde: BTW-naleving (factuur binnen 15 dagen, BTW-conforme vermeldingen), GDPR voor klantgegevens. ⚖️
-> 
-> **Antwoord MC**: **Financieel** als hoofddoelstelling (cut-off, juiste waardering, vermijden fraude). 🤖 Operationeel en Conformiteit zijn ondergeschikt maar wel aanwezig. 🤖
-> 
-> _Grondslag: [[verkoopcyclus-ic]] §Bouwstenen + §Valkuilen (cut-off, creditnota's = financiële rapporterings-risico's)._
-> 
-> **Conclusie**: MC
-> 
-> _Grondslag: [[verkoopcyclus-ic]] §Stappen 1-4, [[functiescheiding]] §sales-levering._
-
-> [!info]- Bronnen (5)
-> - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Berekening — Stappen 1-4 → ondersteunt: A. adviezen krediettoekenning, functiescheiding, cut-off
-> - [[verkoopcyclus-ic|content/concepten/verkoopcyclus-ic.md]] · Valkuilen → ondersteunt: A. creditnota-controle, cut-off-discipline
-> - [[interne-controle|content/concepten/interne-controle.md]] · Bouwstenen — Drie doelstellingen → ondersteunt: B. hoofddoelstelling IC
-> - [[coso-i-framework|content/concepten/coso-i-framework.md]] · Doelstellingen → ondersteunt: C. COSO-risicocategorieën
-> - [[functiescheiding|content/concepten/functiescheiding.md]] · Sales-levering → ondersteunt: A. functiescheiding
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: casus
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: casus
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -6483,79 +6398,78 @@ Op de balans staan volgende bedragen: … ACTIVA Vaste activa 150.040,00 Vlotten
 - **c.** de beperkte liquiditeitsratio (acid test)
 - **d.** de solvabiliteitsratio.
 
-#### Modelantwoord
-
-a) Netto bedrijfskapitaal = € 131.200 − € 77.090 = **€ 54.110**. b) Current ratio = € 131.200 / € 77.090 = **1,70**. c) Quick ratio = € 90.200 / € 77.090 = **1,17**. d) Solvabiliteitsratio = € 153.150 / € 281.240 = **54,46 %**.
-
-> [!success]- Motivering (typed)
-> Gegeven (balans):
-> - Vaste activa: € 150.040
-> - Voorraden: € 41.000
-> - Vorderingen op −1 jaar: € 42.700
-> - Geldbeleggingen: € 10.000
-> - Liquide middelen: € 37.500
-> - **Vlottende activa totaal**: 41.000 + 42.700 + 10.000 + 37.500 = **€ 131.200**
-> - Kapitaal: € 100.000
-> - Reserves: € 50.400
-> - Overgedragen winst: € 2.750
-> - **Eigen vermogen totaal**: 100.000 + 50.400 + 2.750 = **€ 153.150**
-> - Schulden op + 1 jaar: € 51.000
-> - Schulden op − 1 jaar: € 77.090
-> - **Balanstotaal**: € 281.240
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: a) Netto bedrijfskapitaal = € 131.200 − € 77.090 = **€ 54.110**. b) Current ratio = € 131.200 / € 77.090 = **1,70**. c) Quick ratio = € 90.200 / € 77.090 = **1,17**. d) Solvabiliteitsratio = € 153.150 / € 281.240 = **54,46 %**.
 > 
-> ### a) Netto bedrijfskapitaal
+> > [!note]- Motivering (typed)
+> > Gegeven (balans):
+> > - Vaste activa: € 150.040
+> > - Voorraden: € 41.000
+> > - Vorderingen op −1 jaar: € 42.700
+> > - Geldbeleggingen: € 10.000
+> > - Liquide middelen: € 37.500
+> > - **Vlottende activa totaal**: 41.000 + 42.700 + 10.000 + 37.500 = **€ 131.200**
+> > - Kapitaal: € 100.000
+> > - Reserves: € 50.400
+> > - Overgedragen winst: € 2.750
+> > - **Eigen vermogen totaal**: 100.000 + 50.400 + 2.750 = **€ 153.150**
+> > - Schulden op + 1 jaar: € 51.000
+> > - Schulden op − 1 jaar: € 77.090
+> > - **Balanstotaal**: € 281.240
+> > 
+> > ### a) Netto bedrijfskapitaal
+> > 
+> > ```
+> > netto bedrijfskapitaal = vlottende activa − schulden op ten hoogste 1 jaar
+> >                        = € 131.200 − € 77.090
+> >                        = € 54.110
+> > ```
+> > ⚖️ Positief → vlottende activa dekken meer dan de korte-termijn schulden; buffer voor liquiditeitsschokken. ⚖️
+> > 
+> > ### b) Ruime liquiditeitsratio (current ratio)
+> > 
+> > ```
+> > current ratio = vlottende activa / schulden op ten hoogste 1 jaar
+> >               = € 131.200 / € 77.090
+> >               = 1,70
+> > ```
+> > ⚖️ Vuistregel: > 1 wordt als gezond beschouwd (vlottende activa dekken kortlopende schulden). 1,70 = ruim voldoende. ⚖️
+> > 
+> > ### c) Beperkte liquiditeitsratio (acid test / quick ratio)
+> > 
+> > ```
+> > quick ratio = (vlottende activa − voorraden) / schulden op ten hoogste 1 jaar
+> >             = (€ 131.200 − € 41.000) / € 77.090
+> >             = € 90.200 / € 77.090
+> >             = 1,17
+> > ```
+> > ⚖️ Strenger dan current ratio: sluit voorraden uit omdat die niet altijd snel liquideerbaar zijn. > 1 = voldoende. ⚖️
+> > 
+> > ### d) Solvabiliteitsratio
+> > 
+> > ```
+> > solvabiliteitsratio = eigen vermogen / balanstotaal
+> >                     = € 153.150 / € 281.240
+> >                     = 54,46 %
+> > ```
+> > ⚖️ Vuistregel: > 30-40 % wordt gezond geacht. 54 % = sterke eigen-vermogen-positie, lage afhankelijkheid van schuldeisers. ⚖️
+> > 
+> > _Grondslag: [[liquiditeitsratio]] §Berekening; [[solvabiliteitsratio]] §Berekening; [[werkkapitaal]] §Bouwstenen._
 > 
-> ```
-> netto bedrijfskapitaal = vlottende activa − schulden op ten hoogste 1 jaar
->                        = € 131.200 − € 77.090
->                        = € 54.110
-> ```
-> ⚖️ Positief → vlottende activa dekken meer dan de korte-termijn schulden; buffer voor liquiditeitsschokken. ⚖️
+> > [!info]- Bronnen (4)
+> > - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen → ondersteunt: definitie netto bedrijfskapitaal
+> > - [[liquiditeitsratio|content/concepten/liquiditeitsratio.md]] · Berekening → ondersteunt: current + quick ratio formules
+> > - [[solvabiliteitsratio|content/concepten/solvabiliteitsratio.md]] · Berekening → ondersteunt: solvabiliteitsratio formule
+> > - [[berekenen-interpreteren-liquiditeitsratios|content/concepten/berekenen-interpreteren-liquiditeitsratios.md]] · Stappen → ondersteunt: interpretatie ratios
 > 
-> ### b) Ruime liquiditeitsratio (current ratio)
-> 
-> ```
-> current ratio = vlottende activa / schulden op ten hoogste 1 jaar
->               = € 131.200 / € 77.090
->               = 1,70
-> ```
-> ⚖️ Vuistregel: > 1 wordt als gezond beschouwd (vlottende activa dekken kortlopende schulden). 1,70 = ruim voldoende. ⚖️
-> 
-> ### c) Beperkte liquiditeitsratio (acid test / quick ratio)
-> 
-> ```
-> quick ratio = (vlottende activa − voorraden) / schulden op ten hoogste 1 jaar
->             = (€ 131.200 − € 41.000) / € 77.090
->             = € 90.200 / € 77.090
->             = 1,17
-> ```
-> ⚖️ Strenger dan current ratio: sluit voorraden uit omdat die niet altijd snel liquideerbaar zijn. > 1 = voldoende. ⚖️
-> 
-> ### d) Solvabiliteitsratio
-> 
-> ```
-> solvabiliteitsratio = eigen vermogen / balanstotaal
->                     = € 153.150 / € 281.240
->                     = 54,46 %
-> ```
-> ⚖️ Vuistregel: > 30-40 % wordt gezond geacht. 54 % = sterke eigen-vermogen-positie, lage afhankelijkheid van schuldeisers. ⚖️
-> 
-> _Grondslag: [[liquiditeitsratio]] §Berekening; [[solvabiliteitsratio]] §Berekening; [[werkkapitaal]] §Bouwstenen._
-
-> [!info]- Bronnen (4)
-> - [[werkkapitaal|content/concepten/werkkapitaal.md]] · Bouwstenen → ondersteunt: definitie netto bedrijfskapitaal
-> - [[liquiditeitsratio|content/concepten/liquiditeitsratio.md]] · Berekening → ondersteunt: current + quick ratio formules
-> - [[solvabiliteitsratio|content/concepten/solvabiliteitsratio.md]] · Berekening → ondersteunt: solvabiliteitsratio formule
-> - [[berekenen-interpreteren-liquiditeitsratios|content/concepten/berekenen-interpreteren-liquiditeitsratios.md]] · Stappen → ondersteunt: interpretatie ratios
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -6578,43 +6492,42 @@ Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 P
 
 Bereken de operationele cash-flow.
 
-#### Modelantwoord
-
-Operationele cashflow = 2.750 + 12.100 + 6.300 − 1.650 + 780 = **€ 20.280**.
-
-> [!success]- Motivering (typed)
-> Operationele cashflow = nettoresultaat + niet-kas-bestanddelen (klasse 63 RR):
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Operationele cashflow = 2.750 + 12.100 + 6.300 − 1.650 + 780 = **€ 20.280**.
 > 
-> ```
-> operationele cashflow = winst boekjaar + afschrijvingen + toevoegingen voorzieningen 
->                       − bestedingen voorzieningen + toevoegingen waardeverminderingen
-> ```
+> > [!note]- Motivering (typed)
+> > Operationele cashflow = nettoresultaat + niet-kas-bestanddelen (klasse 63 RR):
+> > 
+> > ```
+> > operationele cashflow = winst boekjaar + afschrijvingen + toevoegingen voorzieningen 
+> >                       − bestedingen voorzieningen + toevoegingen waardeverminderingen
+> > ```
+> > 
+> > **Toepassing op de gegevens**:⚖️ De operationele cashflow corrigeert het boekhoudkundig resultaat voor de niet-kas-bestanddelen: afschrijvingen en waardeverminderingen zijn boekingen zonder kasuitgaaf, en voorzieningen-toevoegingen/-bestedingen zijn timing-correcties. Het verschil tussen winst (€ 2.750) en operationele cashflow (€ 20.280) toont dat het bedrijf cash genereert die in het resultaat niet zichtbaar is — een belangrijk signaal voor financiële analyse. 🤖 🤖
+> > 
+> > | Component | Bedrag (€) |
+> > |---|---|
+> > | Winst van het boekjaar | + 2.750 |
+> > | Afschrijvingen | + 12.100 |
+> > | Toevoegingen aan voorzieningen | + 6.300 |
+> > | Bestedingen van voorzieningen | − 1.650 |
+> > | Toevoegingen aan waardeverminderingen | + 780 |
+> > | **Operationele cashflow** | **+ 20.280** |
+> > 
+> > _Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen — klassieke cashflow-formule._
 > 
-> **Toepassing op de gegevens**:⚖️ De operationele cashflow corrigeert het boekhoudkundig resultaat voor de niet-kas-bestanddelen: afschrijvingen en waardeverminderingen zijn boekingen zonder kasuitgaaf, en voorzieningen-toevoegingen/-bestedingen zijn timing-correcties. Het verschil tussen winst (€ 2.750) en operationele cashflow (€ 20.280) toont dat het bedrijf cash genereert die in het resultaat niet zichtbaar is — een belangrijk signaal voor financiële analyse. 🤖 🤖
+> > [!info]- Bronnen (2)
+> > - [[bedrijfsresultaat|content/concepten/bedrijfsresultaat.md]] · Bouwstenen — niet-kas-rubrieken klasse 63 → ondersteunt: cashflow-formule componenten
+> > - [[cashflow-analyse|content/concepten/cashflow-analyse.md]] · Bouwstenen → ondersteunt: klassieke cashflow-berekening
 > 
-> | Component | Bedrag (€) |
-> |---|---|
-> | Winst van het boekjaar | + 2.750 |
-> | Afschrijvingen | + 12.100 |
-> | Toevoegingen aan voorzieningen | + 6.300 |
-> | Bestedingen van voorzieningen | − 1.650 |
-> | Toevoegingen aan waardeverminderingen | + 780 |
-> | **Operationele cashflow** | **+ 20.280** |
-> 
-> _Grondslag: [[bedrijfsresultaat]] §Bouwstenen — niet-kas-rubrieken klasse 63; [[cashflow-analyse]] §Bouwstenen — klassieke cashflow-formule._
-
-> [!info]- Bronnen (2)
-> - [[bedrijfsresultaat|content/concepten/bedrijfsresultaat.md]] · Bouwstenen — niet-kas-rubrieken klasse 63 → ondersteunt: cashflow-formule componenten
-> - [[cashflow-analyse|content/concepten/cashflow-analyse.md]] · Bouwstenen → ondersteunt: klassieke cashflow-berekening
-
-> [!info]- Provenance
-> - Generator: claude-opus-4-7
-> - Datum: 2026-05-19
-> - Antwoord-type: berekening
-> - Checklist-versie: 1.0
-> - Gates gepasseerd: claim_coverage, geen_externe_kennis
-> - Verify gepasseerd: True
-> - Wetsversie-policy: huidig
+> > [!info]- Provenance
+> > - Generator: claude-opus-4-7
+> > - Datum: 2026-05-19
+> > - Antwoord-type: berekening
+> > - Checklist-versie: 1.0
+> > - Gates gepasseerd: claim_coverage, geen_externe_kennis
+> > - Verify gepasseerd: True
+> > - Wetsversie-policy: huidig
 
 ---
 
@@ -6626,15 +6539,14 @@ Operationele cashflow = 2.750 + 12.100 + 6.300 − 1.650 + 780 = **€ 20.280**.
 
 Wat verstaat men met “behoefte aan bedrijfskapitaal”? Hoe wordt het berekend? Van uit het oogpunt financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?
 
-#### Modelantwoord
-
-De behoefte aan bedrijfskapitaal is het netto verschil tussen de
-
-> [!success]- Motivering (typed)
-> De behoefte aan bedrijfskapitaal is het netto verschil tussen de bedrijfsbronnen en bedrijfsaanwendingen. Het wordt berekend als verschil tussen enerzijds de niet financiële beperkte vlottende activa en, anderzijds, de niet financiële schulden op ten hoogste één jaar. (3 + 40/41 + 49 van het actief) – (42 + 44 tot 48 + 49 van het passief) Om behoefte aan bedrijfskapitaal te verminderen, moet de omvang van de voorraden en / of vorderingen verminderen. Betalingstermijnen leverancier uitbreiden.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De behoefte aan bedrijfskapitaal is het netto verschil tussen de
+> 
+> > [!note]- Motivering (typed)
+> > De behoefte aan bedrijfskapitaal is het netto verschil tussen de bedrijfsbronnen en bedrijfsaanwendingen. Het wordt berekend als verschil tussen enerzijds de niet financiële beperkte vlottende activa en, anderzijds, de niet financiële schulden op ten hoogste één jaar. (3 + 40/41 + 49 van het actief) – (42 + 44 tot 48 + 49 van het passief) Om behoefte aan bedrijfskapitaal te verminderen, moet de omvang van de voorraden en / of vorderingen verminderen. Betalingstermijnen leverancier uitbreiden.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -6648,15 +6560,14 @@ De behoefte aan bedrijfskapitaal is het netto verschil tussen de
 
 **Wat is uw mening?**
 
-#### Modelantwoord
-
-De nieuwe lening zal het eerste jaar een intrestkost van 5.000,00 EUR
-
-> [!success]- Motivering (typed)
-> De nieuwe lening zal het eerste jaar een intrestkost van 5.000,00 EUR veroorzaken. De cashflow vermindert zodoende tot 25.000,00 EUR. Rekening houdend met terugbetalingen van 12.000,00 EUR op de bestaande leningen blijft er slechts een vrije cashflow van 13.000,00 EUR over. Indien de nieuwe lening over 5 jaar wordt terugbetaald moet jaarlijks aan kapitaalaflossingen 20.000,00 EUR worden betaald. De vrije cashflow bedraagt slechts 13.000,00 EUR; bijgevolg moet overwogen worden om de lening over een langere periode af te lossen (8 jaar of meer).
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: De nieuwe lening zal het eerste jaar een intrestkost van 5.000,00 EUR
+> 
+> > [!note]- Motivering (typed)
+> > De nieuwe lening zal het eerste jaar een intrestkost van 5.000,00 EUR veroorzaken. De cashflow vermindert zodoende tot 25.000,00 EUR. Rekening houdend met terugbetalingen van 12.000,00 EUR op de bestaande leningen blijft er slechts een vrije cashflow van 13.000,00 EUR over. Indien de nieuwe lening over 5 jaar wordt terugbetaald moet jaarlijks aan kapitaalaflossingen 20.000,00 EUR worden betaald. De vrije cashflow bedraagt slechts 13.000,00 EUR; bijgevolg moet overwogen worden om de lening over een langere periode af te lossen (8 jaar of meer).
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -6688,17 +6599,16 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 Gert is ongehuwd en woont in Mechelen in een pand, waarvan hij eigenaar is, met een KI van 1 700. Gert erft in 2007 als enige zoon het huis van zijn ouders. Wat zijn daar de gevolgen van op vlak van intrestaftrek en kapitaalaflossing, wetende dat er geen andere onroerende eigendommen zijn. 1.1 Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004 Gewone intrestaftrek blijft De aanvullende intrestaftrek gaat verloren Kapitaalaflossing: belastingvermindering voor bouwsparen blijft (eenmalige beoordeling op enige woning) 1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005 Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt.
 
-#### Modelantwoord
-
-1.2004: gewone intrestaftrek + bouwspaarvermindering blijven; aanvullende intrestaftrek vervalt. 2.2005: recht op woonbonus blijft; enkel de verhoging (€ 650 voor de eerste 10 jaar) verdwijnt.
-
-> [!success]- Motivering (typed)
-> 1.1 Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004: - Gewone intrestaftrek blijft - De aanvullende intrestaftrek gaat verloren - Kapitaalaflossing: belastingvermindering voor bouwsparen blijft (eenmalige beoordeling op enige woning)
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 1.2004: gewone intrestaftrek + bouwspaarvermindering blijven; aanvullende intrestaftrek vervalt. 2.2005: recht op woonbonus blijft; enkel de verhoging (€ 650 voor de eerste 10 jaar) verdwijnt.
 > 
-> 1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005: - Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> > [!note]- Motivering (typed)
+> > 1.1 Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004: - Gewone intrestaftrek blijft - De aanvullende intrestaftrek gaat verloren - Kapitaalaflossing: belastingvermindering voor bouwsparen blijft (eenmalige beoordeling op enige woning)
+> > 
+> > 1.2 Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005: - Het recht op de woonbonus (aftrek voor enig woonhuis) op zich blijft; enkel de verhoging (€ 650,00 voor de eerste 10 jaar) verdwijnt.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -6710,15 +6620,14 @@ Gert is ongehuwd en woont in Mechelen in een pand, waarvan hij eigenaar is, met 
 
 Riet en Piet zijn gehuwd in het wettelijk stelsel . Ze wonen in Etterbeek. Riet heeft van voor het huwelijk nog een appartement (KI 1 200) in Wemmel in persoonlijke eigendom, dat verhuurd wordt. Het appartement stond al langer te koop en uiteindelijk wordt het op 6 april 2007 verkocht: een belastbare meerwaarde van € 30 000 wordt gerealiseerd. Doe aangifte van het onroerend inkomen en van de meerwaarde Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3 /12 en dan 50/50) Divers (1171) 0 (2171) 30 000
 
-#### Modelantwoord
-
-Onroerend: code (1106)/(2106) elk 150 (= 1 200 × 3/12 × 50/50). Divers: code (2171) 30 000.
-
-> [!success]- Motivering (typed)
-> Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3/12 en dan 50/50) Divers (1171) 0 (2171) 30 000
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Onroerend: code (1106)/(2106) elk 150 (= 1 200 × 3/12 × 50/50). Divers: code (2171) 30 000.
+> 
+> > [!note]- Motivering (typed)
+> > Onroerend (1106) 150 (2106) 150 (zijnde 1 200 x 3/12 en dan 50/50) Divers (1171) 0 (2171) 30 000
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -6734,15 +6643,14 @@ Een echtpaar heeft dienstencheques aangekocht: 3 000,00 (max. AJ 2008 : 2 360,00
 
 aangever partner Totaal netto-inkomen 33 900,00 17 100,00 -Onderhoudsgelden -4 000,00 Gezamenlijk belastbaar inkomen 29 900,00 17 100,00 2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98
 
-#### Modelantwoord
-
-Aangever: 2 360 × 30 % = 708; partner: 1 000 × 30 % = 300. Verdeling 1 008 over partners volgens inkomensbreuk → 670,02 en 337,98.
-
-> [!success]- Motivering (typed)
-> 2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Aangever: 2 360 × 30 % = 708; partner: 1 000 × 30 % = 300. Verdeling 1 008 over partners volgens inkomensbreuk → 670,02 en 337,98.
+> 
+> > [!note]- Motivering (typed)
+> > 2 360 x 30 % = 708 1 000 x 30 % = 300 1 008 x 33 900/51 000 = 670,02 1 008 x 17 100/51 000 = 337,98
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -6754,15 +6662,14 @@ Aangever: 2 360 × 30 % = 708; partner: 1 000 × 30 % = 300. Verdeling 1 008 ove
 
 Wim is gehuwd met Inge in het stelsel van scheiding van goederen. Ze zijn zinnens een (eerste) huis te gaan kopen. Gezien de zelfstandige activiteit van Inge stellen ze voor de aankoop niet in onverdeeldheid te doen, maar op naam van Wim. Waar moet je rekening mee houden wanneer Wim voor de financiering van de aankoop een hypothecaire lening aangaat? Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB)
 
-#### Modelantwoord
-
-Bij gemeenschappelijke aanslag moet 15 % bij de partner aangegeven worden — die 15 % gaat verloren omdat Wim enige eigenaar is (art. 105, 2° lid WIB).
-
-> [!success]- Motivering (typed)
-> Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB).
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Bij gemeenschappelijke aanslag moet 15 % bij de partner aangegeven worden — die 15 % gaat verloren omdat Wim enige eigenaar is (art. 105, 2° lid WIB).
+> 
+> > [!note]- Motivering (typed)
+> > Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15 % van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15 % van de aftrekbare besteding verloren (art. 105, 2° lid WIB).
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -8259,19 +8166,18 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 ): De verwachte antwoorden zijn minimaal de volgende : Op het vlak Antwoord : van de contacten met - De BTW administratie voor 15/03/2008 informeren over deze de BTW wijziging in BTW regime administratie - Niet langer forfaitaire aangiftes mogelijk, maar wel het normale regime van toepassing Op het vlak Antwoord : van de stock van de - In 2 exemplaren een inventaris van de stock maken op 30/4/2008 handelswaren : - Detaxatie van de stock - Inschrijving in vak 62 van de aangifte Op het vlak Antwoord : van de volgende BTW - Maandelijkse betaling van de verschuldigde BTW betalingen - Einde van de trimestriële voorschotten (- Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)
 
-#### Modelantwoord
-
-BTW informeren vóór 15/03/2008; stockinventaris 30/4/2008 met detaxatie (vak 62); maandelijkse betaling i.p.v. trimestriële voorschotten.
-
-> [!success]- Motivering (typed)
-> Op het vlak van de contacten met de BTW administratie: - De BTW administratie voor 15/03/2008 informeren over deze wijziging in BTW regime - Niet langer forfaitaire aangiftes mogelijk, maar wel het normale regime van toepassing
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: BTW informeren vóór 15/03/2008; stockinventaris 30/4/2008 met detaxatie (vak 62); maandelijkse betaling i.p.v. trimestriële voorschotten.
 > 
-> Op het vlak van de stock van de handelswaren: - In 2 exemplaren een inventaris van de stock maken op 30/4/2008 - Detaxatie van de stock - Inschrijving in vak 62 van de aangifte
+> > [!note]- Motivering (typed)
+> > Op het vlak van de contacten met de BTW administratie: - De BTW administratie voor 15/03/2008 informeren over deze wijziging in BTW regime - Niet langer forfaitaire aangiftes mogelijk, maar wel het normale regime van toepassing
+> > 
+> > Op het vlak van de stock van de handelswaren: - In 2 exemplaren een inventaris van de stock maken op 30/4/2008 - Detaxatie van de stock - Inschrijving in vak 62 van de aangifte
+> > 
+> > Op het vlak van de volgende BTW betalingen: - Maandelijkse betaling van de verschuldigde BTW - Einde van de trimestriële voorschotten - (Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)
 > 
-> Op het vlak van de volgende BTW betalingen: - Maandelijkse betaling van de verschuldigde BTW - Einde van de trimestriële voorschotten - (Eventueel voorschot van de maand december te betalen uiterlijk tegen 24/12)
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -8321,15 +8227,14 @@ Gelieve precies te antwoorden ! Via de aangifte die moet ingediend worden uiterl
 
 4. U bent een zelfstandig boekhouder BIBF gevestigd in België en verricht boekhoudkundige prestaties in een onderneming die gevestigd is in Frankrijk, en die U factureert aan uw belastingplichtige cliënt die in Nederland gevestigd is. In welk land is de BTW verschuldigd ? België, Frankrijk of Nederland ? Verantwoord uw antwoord door te verwijzen naar het toepasselijke artikel uit het BTW wetboek. In Nederland Art. 21 § 3, 7° d) BTW Wetboek (plaats van diegene waar de dienst geleverd wordt)
 
-#### Modelantwoord
-
-Aftrektermijn = einde 3de jaar; bijberoep-psychologe: vrijstelling of kwartaalaangifte; BTW-eenheid = juridisch onafhankelijke maar nauw verbonden personen = 1 belastingplichtige; B2B-dienst in NL → art. 21 §3, 7° d) BTWW.
-
-> [!success]- Motivering (typed)
-> Zie subvragen voor het gedetailleerde modelantwoord per deelvraag.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Aftrektermijn = einde 3de jaar; bijberoep-psychologe: vrijstelling of kwartaalaangifte; BTW-eenheid = juridisch onafhankelijke maar nauw verbonden personen = 1 belastingplichtige; B2B-dienst in NL → art. 21 §3, 7° d) BTWW.
+> 
+> > [!note]- Motivering (typed)
+> > Zie subvragen voor het gedetailleerde modelantwoord per deelvraag.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -9096,15 +9001,14 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB) Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB).
 
-#### Modelantwoord
-
-Binnen 6 maanden na verzending aanslagbiljet (art. 366 WIB) per (aangetekend) gemotiveerd schrijven bij de gewestelijk directeur (art. 371 WIB).
-
-> [!success]- Motivering (typed)
-> Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB). Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB).
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Binnen 6 maanden na verzending aanslagbiljet (art. 366 WIB) per (aangetekend) gemotiveerd schrijven bij de gewestelijk directeur (art. 371 WIB).
+> 
+> > [!note]- Motivering (typed)
+> > Dit dient uiterlijk te gebeuren binnen de 6 maanden vanaf de datum van verzending van het aanslagbiljet/kennisgeving van de aanslag bij de gewestelijk directeur (art. 366 WIB). Het dient te gebeuren per (aangetekend) schrijven met opgave van de wetsartikelen waarop U zich baseert en dient uiteraard gemotiveerd en ondertekend te zijn (art. 371 WIB).
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -9116,15 +9020,14 @@ Binnen 6 maanden na verzending aanslagbiljet (art. 366 WIB) per (aangetekend) ge
 
 H2. In welke omstandigheden kan de fiscale administratie (directe belastingen) overgaan tot een tot een belasting op basis van tekenen en indiciën ? Indien de fiscus in het bezit is van overeenstemmende en ernstige elementen en/of gegevens die een vermoeden scheppen dat de belastingplichtige tekort geschoten is in de aangifte van zijn belastbaar inkomen.
 
-#### Modelantwoord
-
-Wanneer de fiscus overeenstemmende en ernstige elementen heeft die een vermoeden scheppen van onvolledige aangifte van het belastbaar inkomen.
-
-> [!success]- Motivering (typed)
-> Indien de fiscus in het bezit is van overeenstemmende en ernstige elementen en/of gegevens die een vermoeden scheppen dat de belastingplichtige tekort geschoten is in de aangifte van zijn belastbaar inkomen.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Wanneer de fiscus overeenstemmende en ernstige elementen heeft die een vermoeden scheppen van onvolledige aangifte van het belastbaar inkomen.
+> 
+> > [!note]- Motivering (typed)
+> > Indien de fiscus in het bezit is van overeenstemmende en ernstige elementen en/of gegevens die een vermoeden scheppen dat de belastingplichtige tekort geschoten is in de aangifte van zijn belastbaar inkomen.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -9700,15 +9603,14 @@ Ik (woonachtig in Gent) wil mijn effecten op naam ter waarde van 300.000 euro sc
 
 Wie betaalt de schenkingsrechten en hoeveel (in euro) ? Zitten er addertjes onder het gras ? - Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen - Schenking aan het 3 % tarief dat geldt in Vlaanderen Mijn dochter betaalt 9.000 euro
 
-#### Modelantwoord
-
-Optie 1: Nederlandse notariële akte (geen schenkingsrechten, wél successie bij overlijden < 3 jaar). Optie 2: 3 %-tarief Vlaanderen → dochter betaalt 9 000 EUR.
-
-> [!success]- Motivering (typed)
-> - Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd. Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen. - Schenking aan het 3 % tarief dat geldt in Vlaanderen. Mijn dochter betaalt 9.000 euro.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Optie 1: Nederlandse notariële akte (geen schenkingsrechten, wél successie bij overlijden < 3 jaar). Optie 2: 3 %-tarief Vlaanderen → dochter betaalt 9 000 EUR.
+> 
+> > [!note]- Motivering (typed)
+> > - Schenking bij akte verleden door een Nederlandse notaris. Er zijn geen schenkingsrechten in Nederland of België verschuldigd. Bij mijn overlijden binnen de 3 jaar dient mijn dochter nog successierechten te betalen. - Schenking aan het 3 % tarief dat geldt in Vlaanderen. Mijn dochter betaalt 9.000 euro.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -10163,8 +10065,6 @@ verkocht tegen 22.500 EUR.
 
 aangifte van nalatenschap ingediend binnen de sub a) gestelde termijn:
 
-- **D.** actief = 0 EUR - geen passief
-
 _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 #### Subvraag a)
@@ -10186,6 +10086,7 @@ actief = 17.000 EUR – geen passief
 - **B.** actief = 22.500 EUR - geen passief
 - **C.** actief = 22.500 EUR – passief = 2.420 EUR
 - **D.** actief = 0 EUR - geen passief
+- **A.** actief = 0 EUR - geen passief
 
 #### Subvraag c)
 
@@ -10210,18 +10111,12 @@ De vruchtgebruiker is 63 jaar oud.
 De blote eigenaar is 31 jaar oud.
 De verkoopwaarde van het goed werd geschat op 300.000 EUR.
 
-- **C.** Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn
-- **D.** 4 x 16% van 300.000 EUR
-
 E. 300.000 EUR
 Enige jaren later staat de vruchtgebruiker zijn vruchtgebruik af aan de blote eigenaar
 waardoor laatstgenoemde dus de volle eigenaar wordt.
 Het vruchtgebruik wordt afgestaan tegen de prijs van 250.000 EUR.
 Op dat tijdstip is de vruchtgebruiker 74 jaar en de blote eigenaar 42 jaar oud.
 De verkoopwaarde van het goed bedraagt nog steeds 300.000 EUR.
-
-- **C.** 436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote
-- **D.** Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn
 
 E. 300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop
 van de bij de verkrijging van de blote eigendom betaalde rechten
@@ -10244,6 +10139,9 @@ waardoor laatstgenoemde dus de volle eigenaar wordt.
 Het vruchtgebruik wordt afgestaan tegen de prijs van 250.000 EUR.
 Op dat tijdstip is de vruchtgebruiker 7
 
+- **A.** Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn
+- **B.** 4 x 16% van 300.000 EUR
+
 #### Subvraag b)
 
 **Welke waarde moet in aanmerking worden genomen voor de berekening van de
@@ -10258,6 +10156,9 @@ E. 300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, to
 van de bij de verkrijging van de blote eigendom betaalde rechten
 
 F
+
+- **A.** 436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote
+- **B.** Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn
 
 ---
 
@@ -10726,15 +10627,14 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 De raad van bestuur van een NV wenst over te gaan tot een kapitaalverhoging. Omdat de verhoging dringend is, wenst ze geen buitengewone algemene vergadering bijeen te roepen. Is het mogelijk? Indien u bevestigend antwoordt, wat zijn de voorwaarden?
 
-#### Modelantwoord
-
-Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal
-
-> [!success]- Motivering (typed)
-> Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal (art. 603-604 W.Venn). De statuten kunnen aan de raad van bestuur de bevoegdheid toekennen om het geplaatste maatschappelijk kapitaal in één of meer malen tot een bepaald bedrag te verhogen, dat, voor de vennootschappen die een publiek beroep op het spaarwezen doen of hebben gedaan, niet hoger mag zijn dan het bedrag van dat maatschappelijke kapitaal (art. 603 W. Venn.). De bevoegdheid bedoeld in artikel 603 kan slechts worden uitgeoefend gedurende vijf jaar, te rekenen van de bekendmaking van de oprichtingsakte of van de wijziging van de statuten. Zij kan echter door de algemene vergadering, bij een besluit genomen volgens de regels die voor de wijziging van de statuten zijn gesteld, een of meer malen worden hernieuwd voor een termijn die niet langer mag zijn dan vijf jaar. Wanneer de oprichters of de algemene vergadering besluiten de hierboven bedoelde bevoegdheid toe te kennen of te vernieuwen, worden de bijzondere omstandigheden waarin van het toegestane kapitaal kan gebruikgemaakt worden en de hierbij nagestreefde doeleinden in een bijzonder verslag uiteengezet.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal
+> 
+> > [!note]- Motivering (typed)
+> > Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal (art. 603-604 W.Venn). De statuten kunnen aan de raad van bestuur de bevoegdheid toekennen om het geplaatste maatschappelijk kapitaal in één of meer malen tot een bepaald bedrag te verhogen, dat, voor de vennootschappen die een publiek beroep op het spaarwezen doen of hebben gedaan, niet hoger mag zijn dan het bedrag van dat maatschappelijke kapitaal (art. 603 W. Venn.). De bevoegdheid bedoeld in artikel 603 kan slechts worden uitgeoefend gedurende vijf jaar, te rekenen van de bekendmaking van de oprichtingsakte of van de wijziging van de statuten. Zij kan echter door de algemene vergadering, bij een besluit genomen volgens de regels die voor de wijziging van de statuten zijn gesteld, een of meer malen worden hernieuwd voor een termijn die niet langer mag zijn dan vijf jaar. Wanneer de oprichters of de algemene vergadering besluiten de hierboven bedoelde bevoegdheid toe te kennen of te vernieuwen, worden de bijzondere omstandigheden waarin van het toegestane kapitaal kan gebruikgemaakt worden en de hierbij nagestreefde doeleinden in een bijzonder verslag uiteengezet.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -10746,15 +10646,14 @@ Dit is uitsluitend mogelijk binnen het kader van het toegestane kapitaal
 
 Wanneer verplicht het Wetboek van vennootschappen een financieel plan op te stellen? Wat is het doel van een financieel plan? Aan wie moet het worden overhandigd?
 
-#### Modelantwoord
-
-Een financieel plan moet worden opgesteld bij de oprichting van een
-
-> [!success]- Motivering (typed)
-> Een financieel plan moet worden opgesteld bij de oprichting van een BVBA (art. 215 W.Venn), CVBA (art. 391 W.Venn), NV(art. 440 W.Venn), Comm. VA(art. 657 W.Venn), SE en SCE(art. 884 en 959 W.Venn). Het financieel plan moet aantonen dat het bedrag van het kapitaal toereikend is om de voorgenomen bedrijvigheid uit te oefenen. Het financieel plan moet, bij de oprichting, worden overhandigd aan de notaris die het zal bewaren.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Een financieel plan moet worden opgesteld bij de oprichting van een
+> 
+> > [!note]- Motivering (typed)
+> > Een financieel plan moet worden opgesteld bij de oprichting van een BVBA (art. 215 W.Venn), CVBA (art. 391 W.Venn), NV(art. 440 W.Venn), Comm. VA(art. 657 W.Venn), SE en SCE(art. 884 en 959 W.Venn). Het financieel plan moet aantonen dat het bedrag van het kapitaal toereikend is om de voorgenomen bedrijvigheid uit te oefenen. Het financieel plan moet, bij de oprichting, worden overhandigd aan de notaris die het zal bewaren.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -10766,15 +10665,14 @@ Een financieel plan moet worden opgesteld bij de oprichting van een
 
 De zaakvoerder van een BVBA is de enige vennoot. Moet een procedure worden gevolgd wanneer de zaakvoerder bij een verrichting een belang heeft, van vermogenrechtelijke aard, dat strijdig is met de belangen van de vennootschap?
 
-#### Modelantwoord
-
-Hij mag de geplande verrichting doen maar hij moet hierover een
-
-> [!success]- Motivering (typed)
-> Hij mag de geplande verrichting doen maar hij moet hierover een bijzonder verslag opstellen dat samen met de jaarrekening moet worden neergelegd (art. 261 W. Venn.).
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Hij mag de geplande verrichting doen maar hij moet hierover een
+> 
+> > [!note]- Motivering (typed)
+> > Hij mag de geplande verrichting doen maar hij moet hierover een bijzonder verslag opstellen dat samen met de jaarrekening moet worden neergelegd (art. 261 W. Venn.).
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -10786,15 +10684,14 @@ Hij mag de geplande verrichting doen maar hij moet hierover een
 
 Kan een burgerlijke vennootschap die de rechtsvorm van een handelsvennootschap heeft aangenomen, een gerechtelijk akkoord bekomen? Verantwoord uw antwoord.
 
-#### Modelantwoord
-
-Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een
-
-> [!success]- Motivering (typed)
-> Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een burgerlijke vennootschap, zelfs met handelsvorm, is geen handelaar. Bijgevolg kan ze geen gerechtelijk akkoord bekomen.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een
+> 
+> > [!note]- Motivering (typed)
+> > Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een burgerlijke vennootschap, zelfs met handelsvorm, is geen handelaar. Bijgevolg kan ze geen gerechtelijk akkoord bekomen.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -10806,15 +10703,14 @@ Alleen handelaars kunnen een gerechtelijk akkoord bekomen. Een
 
 Welk is de aansprakelijkheid van de oprichters van een BVBA en welk verschil kan er zijn met een NV?
 
-#### Modelantwoord
-
-Artikel 229 – 456 – 450 van het Wetboek Vennootschappen
-
-> [!success]- Motivering (typed)
-> Artikel 229 – 456 – 450 van het Wetboek Vennootschappen
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Artikel 229 – 456 – 450 van het Wetboek Vennootschappen
+> 
+> > [!note]- Motivering (typed)
+> > Artikel 229 – 456 – 450 van het Wetboek Vennootschappen
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -11101,11 +10997,6 @@ per 30/09/2013 (statutair boekjaar 01/01/2013-31/12/2013).
 a) Kruis het juiste antwoord aan.
 Antwoord …
 
-- **A.** Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort
-- **B.** Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan
-omgezet worden in de BVBA Reflexfort?
-- **C.** Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren?
-
 _in bijlage? Verklaar uw
 antwoord._
 
@@ -11154,6 +11045,11 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 #### Subvraag a)
 
 Kruis het juiste antwoord aan.
+
+- **A.** Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort
+- **B.** Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan
+omgezet worden in de BVBA Reflexfort?
+- **C.** Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren?
 
 #### Subvraag b)
 
@@ -12258,15 +12154,14 @@ _Nog niet beantwoord (modelantwoord ontbreekt)._
 
 De afgevaardigd bestuurder van een NV gespecialiseerd in het domein van de voedingsnijverheid en waarvan U sinds meerdere jaren de boekhouding voert, vraagt U of U geen deel wenst uit te maken van de raad van bestuur van zijn onderneming. Dit voorstel interesseert U. Wat antwoordt U aan uw cliënt ?
 
-#### Modelantwoord
-
-Artikel 21 : onverenigbare situatie vermits U als bestuurder van deze NV
-
-> [!success]- Motivering (typed)
-> Artikel 21 : onverenigbare situatie vermits U als bestuurder van deze NV een handelsactiviteit zal uitoefenen als bestuurder van deze NV Art. 4 et 6 : Zelfs onafhankelijk van artikel 21, zou er een belangenconflict zijn indien U verder de boekhouding zou voeren van deze NV. Probleem van onafhankelijkheid. OF Ik ga in op het voorstel en neem ontslag als erkend boekhouder(-fiscalist) BIBF.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Artikel 21 : onverenigbare situatie vermits U als bestuurder van deze NV
+> 
+> > [!note]- Motivering (typed)
+> > Artikel 21 : onverenigbare situatie vermits U als bestuurder van deze NV een handelsactiviteit zal uitoefenen als bestuurder van deze NV Art. 4 et 6 : Zelfs onafhankelijk van artikel 21, zou er een belangenconflict zijn indien U verder de boekhouding zou voeren van deze NV. Probleem van onafhankelijkheid. OF Ik ga in op het voorstel en neem ontslag als erkend boekhouder(-fiscalist) BIBF.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -12282,19 +12177,18 @@ Je bent stagiair BiBF. Bij de overdracht van een dossier stuurt jouw voorganger 
 
 3) artikel 4 plichtenleer de boekhouder BIBF moet zijn beroep uitoefenen met de vereiste BEKWAAMHEID, EERLIJKHEID en WAARDIGHEID Misbruik maken van een technische vergissing van een confrater is niet eerlijk en niet waardig !
 
-#### Modelantwoord
-
-Verboden: art. 23 plichtenleer (geen ronselen/klantenwerving), art. 16 (hoffelijkheid t.o.v. confrater), art. 4 (eerlijkheid en waardigheid).
-
-> [!success]- Motivering (typed)
-> 1) Plichtenleer artikel 23: De boekhouder BIBF kan alle personen die er om verzoeken, de nodige informatie bezorgen over zijn beroepswerkzaamheden, zijn deskundigheden, diensten en honoraria. Het is hem verboden klanten te ronselen alsook informatie spontaan aan te bieden met het oog op klantenwerving of zich bepaalde titels of deskundigheden toe te eigenen. → Uitlokken of ronselen is verboden!
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Verboden: art. 23 plichtenleer (geen ronselen/klantenwerving), art. 16 (hoffelijkheid t.o.v. confrater), art. 4 (eerlijkheid en waardigheid).
 > 
-> 2) Artikel 16 plichtenleer: De boekhouder is gehouden tot wederzijdse hulp en hoffelijkheid tegenover zijn confraters en moet zich onthouden van elke houding of handeling die een confrater schade kan berokkenen. → Actief gaan “vissen” in de vijver van een confrater is hem schade berokkenen!
+> > [!note]- Motivering (typed)
+> > 1) Plichtenleer artikel 23: De boekhouder BIBF kan alle personen die er om verzoeken, de nodige informatie bezorgen over zijn beroepswerkzaamheden, zijn deskundigheden, diensten en honoraria. Het is hem verboden klanten te ronselen alsook informatie spontaan aan te bieden met het oog op klantenwerving of zich bepaalde titels of deskundigheden toe te eigenen. → Uitlokken of ronselen is verboden!
+> > 
+> > 2) Artikel 16 plichtenleer: De boekhouder is gehouden tot wederzijdse hulp en hoffelijkheid tegenover zijn confraters en moet zich onthouden van elke houding of handeling die een confrater schade kan berokkenen. → Actief gaan “vissen” in de vijver van een confrater is hem schade berokkenen!
+> > 
+> > 3) Artikel 4 plichtenleer: de boekhouder BIBF moet zijn beroep uitoefenen met de vereiste BEKWAAMHEID, EERLIJKHEID en WAARDIGHEID. → Misbruik maken van een technische vergissing van een confrater is niet eerlijk en niet waardig!
 > 
-> 3) Artikel 4 plichtenleer: de boekhouder BIBF moet zijn beroep uitoefenen met de vereiste BEKWAAMHEID, EERLIJKHEID en WAARDIGHEID. → Misbruik maken van een technische vergissing van een confrater is niet eerlijk en niet waardig!
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -12312,17 +12206,16 @@ Verboden: art. 23 plichtenleer (geen ronselen/klantenwerving), art. 16 (hoffelij
 
 2) plichtenleer artikel 13, 3e alinea … Het is de boekhouder BiBF verboden op enigerlei wijze commissie of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die strijdig zijn met artikel 4 van dit reglement. Je mag je broer Paul dus géén aanbrengcommissie geven !
 
-#### Modelantwoord
-
-Art. 17: aangetekende kennisgeving aan voorganger + gedetailleerde inventaris in tweevoud. Art. 13, 3e alinea: commissie aan broer is verboden.
-
-> [!success]- Motivering (typed)
-> 1) Plichtenleer artikel 17: Vooraleer een opdracht te aanvaarden, moet de boekhouder BIBF die een opdracht van een ander boekhouder BIBF, een accountant of een bedrijfsrevisor overneemt, de volgende regels in acht nemen: 1° hij moet zijn voorganger per aangetekende brief, in kennis stellen van de overname van de opdracht, zelfs indien de opvolging niet onmiddellijk is gebeurd; 2° indien de voorganger niet werd betaald voor zijn prestaties, dient hij bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger. …alle documenten…alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid… Hij is gehouden hiervan een gedetailleerde en gedagtekende inventaris in twee exemplaren op te stellen, die door alle betrokken partijen ondertekend wordt.
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Art. 17: aangetekende kennisgeving aan voorganger + gedetailleerde inventaris in tweevoud. Art. 13, 3e alinea: commissie aan broer is verboden.
 > 
-> 2) Plichtenleer artikel 13, 3e alinea: Het is de boekhouder BIBF verboden op enigerlei wijze commissie of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die strijdig zijn met artikel 4 van dit reglement. → Je mag je broer Paul dus géén aanbrengcommissie geven!
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> > [!note]- Motivering (typed)
+> > 1) Plichtenleer artikel 17: Vooraleer een opdracht te aanvaarden, moet de boekhouder BIBF die een opdracht van een ander boekhouder BIBF, een accountant of een bedrijfsrevisor overneemt, de volgende regels in acht nemen: 1° hij moet zijn voorganger per aangetekende brief, in kennis stellen van de overname van de opdracht, zelfs indien de opvolging niet onmiddellijk is gebeurd; 2° indien de voorganger niet werd betaald voor zijn prestaties, dient hij bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger. …alle documenten…alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid… Hij is gehouden hiervan een gedetailleerde en gedagtekende inventaris in twee exemplaren op te stellen, die door alle betrokken partijen ondertekend wordt.
+> > 
+> > 2) Plichtenleer artikel 13, 3e alinea: Het is de boekhouder BIBF verboden op enigerlei wijze commissie of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die strijdig zijn met artikel 4 van dit reglement. → Je mag je broer Paul dus géén aanbrengcommissie geven!
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -12340,17 +12233,16 @@ Rik is stagiair geworden nadat hij “betrapt” is op illegale uitoefening. Voo
 
 1) plichtenleer artikel 12 In geval een boekhouder BiBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen in gevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doen tijdens de schorsing. 2) Plichtenleer artikel 5 bijdrage Plichtenleer artikel 9 gevraagde inlichtingen Plichtenleer artikel 14 verzekering beroepsaansprakelijkheid Plichtenleer artikel 15 beroepsvervolmaking
 
-#### Modelantwoord
-
-1) Art. 12 plichtenleer (kennisgeving cliënteel bij schorsing ≥ 1 maand). 2) Art. 5 (bijdrage), art. 9 (inlichtingen), art. 14 (BA-verzekering), art. 15 (beroepsvervolmaking).
-
-> [!success]- Motivering (typed)
-> 1) Plichtenleer artikel 12: In geval een boekhouder BIBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen ingevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doen tijdens de schorsing.
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 1) Art. 12 plichtenleer (kennisgeving cliënteel bij schorsing ≥ 1 maand). 2) Art. 5 (bijdrage), art. 9 (inlichtingen), art. 14 (BA-verzekering), art. 15 (beroepsvervolmaking).
 > 
-> 2) Overtreden artikels: - Plichtenleer artikel 5: bijdrage - Plichtenleer artikel 9: gevraagde inlichtingen - Plichtenleer artikel 14: verzekering beroepsaansprakelijkheid - Plichtenleer artikel 15: beroepsvervolmaking
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> > [!note]- Motivering (typed)
+> > 1) Plichtenleer artikel 12: In geval een boekhouder BIBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen ingevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doen tijdens de schorsing.
+> > 
+> > 2) Overtreden artikels: - Plichtenleer artikel 5: bijdrage - Plichtenleer artikel 9: gevraagde inlichtingen - Plichtenleer artikel 14: verzekering beroepsaansprakelijkheid - Plichtenleer artikel 15: beroepsvervolmaking
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -12362,21 +12254,20 @@ Rik is stagiair geworden nadat hij “betrapt” is op illegale uitoefening. Voo
 
 De echtgenoten Philippe en Isabelle, beiden erkend boekhouder(-fiscalist) hebben twee zonen (Frans en Jan) en één dochter (Mathilde). De drie kinderen zijn allen meerderjarig en studeren nog. Om hun werkzaamheden beter te organiseren wensen de ouders een boekhoudvennootschap op te richten conform het KB van 15/2/2005 betreffende de uitoefening van het beroep van erkend boekhouder (-fiscalist) in het kader van een rechtspersoon. Licht steeds uw antwoord toe.!!! - Welke zijn de specifieke aandachtspunten voor de doelomschrijving? Een burgerlijke vennootschap dient opgericht te worden. Het doel moet conform de deontologische voorschriften en het KB van 2005 betreffende de rechtspersonen BIBF worden opgesteld. Dit betekent dat enkel voorbehouden en toegelaten activiteiten van erkende boekhouders(-fiscalisten ) mogen opgenomen worden. Dus bijvoorbeeld geen handelsactiviteiten. (art 7 en 8 KB) - Indien zij opteren voor een BVBA. Wie kan tot zaakvoerder worden benoemd in deze boekhoudvennootschap? Enkel de ouders (Philippe en Isabelle) vermits alle zaakvoerders BIBF lid moeten zijn. (art 8, 5°) - Is volgende verdeling van de aandelen mogelijk? Philippe : 35 %, Isabelle 35 %, Frans, Jan en Mathilde elk 10 % . Licht uw antwoord toe. Neen vermits minstens 80 % van de aandelen en de stemrechten in handen moet zijn van BIBF leden of stagiairs. (art 8 , 4° KB) - De oudste zoon, zal na zijn studies aan de Hogeschool, afdeling boekhouding- fiscaliteit, een BIBF stage aanvangen. Kan hij op dat ogenblik zaakvoerder/bestuurder worden? Kan hij op dat ogenblik tevens 50 % van de aandelen verwerven ? Dit kan vermits stagiair-boekhouders, net zoals BIBF leden , mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder (fiscalist) BIBF (Zie art 1 en art 2 , par 2 KB)
 
-#### Modelantwoord
-
-Burgerlijke venn. met enkel BIBF-doel; enkel ouders zaakvoerder (art. 8, 5°); aandelenverdeling 70 % onvoldoende (80 %-regel art. 8, 4°); stagiair-zoon kan bestuurder + 50 % aandelen mits 80 %-regel + samen met stagemeester.
-
-> [!success]- Motivering (typed)
-> - Doelomschrijving: Een burgerlijke vennootschap dient opgericht te worden. Het doel moet conform de deontologische voorschriften en het KB van 2005 betreffende de rechtspersonen BIBF worden opgesteld. Dit betekent dat enkel voorbehouden en toegelaten activiteiten van erkende boekhouders(-fiscalisten) mogen opgenomen worden. Dus bijvoorbeeld geen handelsactiviteiten (art. 7 en 8 KB).
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: Burgerlijke venn. met enkel BIBF-doel; enkel ouders zaakvoerder (art. 8, 5°); aandelenverdeling 70 % onvoldoende (80 %-regel art. 8, 4°); stagiair-zoon kan bestuurder + 50 % aandelen mits 80 %-regel + samen met stagemeester.
 > 
-> - Zaakvoerders: Enkel de ouders (Philippe en Isabelle), vermits alle zaakvoerders BIBF-lid moeten zijn (art. 8, 5°).
+> > [!note]- Motivering (typed)
+> > - Doelomschrijving: Een burgerlijke vennootschap dient opgericht te worden. Het doel moet conform de deontologische voorschriften en het KB van 2005 betreffende de rechtspersonen BIBF worden opgesteld. Dit betekent dat enkel voorbehouden en toegelaten activiteiten van erkende boekhouders(-fiscalisten) mogen opgenomen worden. Dus bijvoorbeeld geen handelsactiviteiten (art. 7 en 8 KB).
+> > 
+> > - Zaakvoerders: Enkel de ouders (Philippe en Isabelle), vermits alle zaakvoerders BIBF-lid moeten zijn (art. 8, 5°).
+> > 
+> > - Aandelenverdeling: Neen, vermits minstens 80 % van de aandelen en de stemrechten in handen moet zijn van BIBF-leden of stagiairs (art. 8, 4° KB). Philippe + Isabelle = 70 %, dus onvoldoende.
+> > 
+> > - Stagiair-zoon: Dit kan, vermits stagiair-boekhouders, net zoals BIBF-leden, mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF-leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder(-fiscalist) BIBF (zie art. 1 en art. 2 §2 KB).
 > 
-> - Aandelenverdeling: Neen, vermits minstens 80 % van de aandelen en de stemrechten in handen moet zijn van BIBF-leden of stagiairs (art. 8, 4° KB). Philippe + Isabelle = 70 %, dus onvoldoende.
-> 
-> - Stagiair-zoon: Dit kan, vermits stagiair-boekhouders, net zoals BIBF-leden, mede het bestuur van de vennootschap mogen waarnemen alsook een aandelenbezit mogen hebben op voorwaarde dat minstens 80 % van de aandelen in handen is van BIBF-leden of stagiairs. Stagiairs die hun beroep via een boekhoudvennootschap wensen uit te oefenen, dienen dit tijdens de stage wel steeds samen te doen met ofwel hun stagemeester ofwel een andere erkende boekhouder(-fiscalist) BIBF (zie art. 1 en art. 2 §2 KB).
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---
 
@@ -13466,14 +13357,13 @@ i. drie werkdagen na het ontslag). 3° Stel dat het ontslag om dringende reden �
 
 000 EUR? Wat is het bruto bedrag en met hoeveel maanden (bruto) loon stemt deze opzegvergoeding overeen? Antwoord: De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto
 
-#### Modelantwoord
-
-1° wo 26.12.2007 (3 werkdagen na kennisname). 2° vr 28.12.2007 (3 werkdagen na ontslag). 3° 6 maanden loon = 13 500 EUR bruto.
-
-> [!success]- Motivering (typed)
-> 1° Op woensdag 26 december 2007 (d.i. 3 werkdagen na de kennisname van de feiten; N.B. zondagen en feestdagen worden niet meegeteld). 2° Op vrijdag 28 december 2007 (d.i. drie werkdagen na het ontslag). 3° De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto.
-
-> [!info]- Bronnen (1)
-> - _pdf-modelantwoord_
+> [!success]- Antwoord (klik om te openen)
+> **Antwoord**: 1° wo 26.12.2007 (3 werkdagen na kennisname). 2° vr 28.12.2007 (3 werkdagen na ontslag). 3° 6 maanden loon = 13 500 EUR bruto.
+> 
+> > [!note]- Motivering (typed)
+> > 1° Op woensdag 26 december 2007 (d.i. 3 werkdagen na de kennisname van de feiten; N.B. zondagen en feestdagen worden niet meegeteld). 2° Op vrijdag 28 december 2007 (d.i. drie werkdagen na het ontslag). 3° De opzegvergoeding stemt overeen met 6 maanden loon en bedraagt in casu 13.500 EUR bruto.
+> 
+> > [!info]- Bronnen (1)
+> > - _pdf-modelantwoord_
 
 ---

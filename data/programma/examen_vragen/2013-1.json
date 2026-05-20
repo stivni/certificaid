@@ -8,7 +8,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:11:36.515521+00:00",
+    "extracted_at": "2026-05-20T07:22:51.776310+00:00",
     "n_vragen": 37,
     "n_pages": 25,
     "n_tabellen_geaccepteerd": 27,
@@ -16,7 +16,6 @@
     "blok_type_counts": {
       "tekst": 62,
       "tabel": 24,
-      "mc_optie": 11,
       "kosten_lijst": 1,
       "bijlage_verwijzing": 2,
       "vraag_instructie": 18,
@@ -300,66 +299,11 @@
       "vak_code_in_pdf": "1.1",
       "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
       "vraagtype": "J/F",
-      "vraagtekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\na) Onderneming A heeft een openstaande leveranciersschuld ten opzichte van\nonderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze\nschuld in te brengen als kapitaal.\nZij dient de volgende boeking (en) aan te brengen in haar boekhouding.\n\nA. Zij boekt de leverancierschuld ten opzichte van een resultatenrekening tegen.\nVervolgens zal zij via de resultaatverwerking een overboeking maken naar de\nrubriek kapitaal.\n\nB. Zij boekt de leverancierschuld rechtstreeks over naar de rubriek kapitaal.\n\nC. Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal.\n\nA. Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden.\n\nB. Zij boekt de vermindering van kapitaal ten opzichte van een rekening\nresultaatverwerking.\n\nC. Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van\ntwee maanden na de publicatie in het Belgisch Staatsblad.\n\nD. Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van\ntwee maanden na de notariële akte.\n\nA. Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar\ndient geen jaarrekening neer te leggen.\n\nB. Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening met cijfers van de vaste inrichting neer te leggen.\n\nC. Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening van de buitenlandse onderneming in de vorm zoals\nopgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer\nte leggen.\n\nD. Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening van de buitenlandse onderneming en in voorkomend\ngeval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het\nbuitenland neer te leggen. Zij dient ook een sociale balans neer te leggen.",
+      "vraagtekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\na) Onderneming A heeft een openstaande leveranciersschuld ten opzichte van\nonderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze\nschuld in te brengen als kapitaal.\nZij dient de volgende boeking (en) aan te brengen in haar boekhouding.",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
           "inhoud": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\na) Onderneming A heeft een openstaande leveranciersschuld ten opzichte van\nonderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze\nschuld in te brengen als kapitaal.\nZij dient de volgende boeking (en) aan te brengen in haar boekhouding."
-        },
-        {
-          "type": "mc_optie",
-          "label": "A",
-          "tekst": "Zij boekt de leverancierschuld ten opzichte van een resultatenrekening tegen.\nVervolgens zal zij via de resultaatverwerking een overboeking maken naar de\nrubriek kapitaal."
-        },
-        {
-          "type": "mc_optie",
-          "label": "B",
-          "tekst": "Zij boekt de leverancierschuld rechtstreeks over naar de rubriek kapitaal."
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal."
-        },
-        {
-          "type": "mc_optie",
-          "label": "A",
-          "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden."
-        },
-        {
-          "type": "mc_optie",
-          "label": "B",
-          "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening\nresultaatverwerking."
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van\ntwee maanden na de publicatie in het Belgisch Staatsblad."
-        },
-        {
-          "type": "mc_optie",
-          "label": "D",
-          "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van\ntwee maanden na de notariële akte."
-        },
-        {
-          "type": "mc_optie",
-          "label": "A",
-          "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar\ndient geen jaarrekening neer te leggen."
-        },
-        {
-          "type": "mc_optie",
-          "label": "B",
-          "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening met cijfers van de vaste inrichting neer te leggen."
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening van de buitenlandse onderneming in de vorm zoals\nopgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer\nte leggen."
-        },
-        {
-          "type": "mc_optie",
-          "label": "D",
-          "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening van de buitenlandse onderneming en in voorkomend\ngeval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het\nbuitenland neer te leggen. Zij dient ook een sociale balans neer te leggen."
         }
       ],
       "sub_vragen": [],
@@ -399,6 +343,21 @@
             {
               "type": "tekst",
               "inhoud": "Onderneming A heeft een openstaande leveranciersschuld ten opzichte van\nonderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze\nschuld in te brengen als kapitaal.\nZij dient de volgende boeking (en) aan te brengen in haar boekhouding."
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "Zij boekt de leverancierschuld ten opzichte van een resultatenrekening tegen.\nVervolgens zal zij via de resultaatverwerking een overboeking maken naar de\nrubriek kapitaal."
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "Zij boekt de leverancierschuld rechtstreeks over naar de rubriek kapitaal."
+            },
+            {
+              "type": "mc_optie",
+              "label": "C",
+              "tekst": "Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal."
             }
           ]
         },
@@ -410,6 +369,26 @@
             {
               "type": "tekst",
               "inhoud": "Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren\ndoor terugbetaling aan haar aandeelhouders."
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden."
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening\nresultaatverwerking."
+            },
+            {
+              "type": "mc_optie",
+              "label": "C",
+              "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van\ntwee maanden na de publicatie in het Belgisch Staatsblad."
+            },
+            {
+              "type": "mc_optie",
+              "label": "D",
+              "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te\nbetalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van\ntwee maanden na de notariële akte."
             }
           ]
         },
@@ -421,6 +400,26 @@
             {
               "type": "tekst",
               "inhoud": "Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel\ndie exclusieve juwelen verkoopt."
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar\ndient geen jaarrekening neer te leggen."
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening met cijfers van de vaste inrichting neer te leggen."
+            },
+            {
+              "type": "mc_optie",
+              "label": "C",
+              "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening van de buitenlandse onderneming in de vorm zoals\nopgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer\nte leggen."
+            },
+            {
+              "type": "mc_optie",
+              "label": "D",
+              "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en\ndient een jaarrekening van de buitenlandse onderneming en in voorkomend\ngeval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het\nbuitenland neer te leggen. Zij dient ook een sociale balans neer te leggen."
             }
           ]
         }
@@ -4399,7 +4398,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:11:36.515865+00:00",
+    "uitgevoerd_op": "2026-05-20T07:22:51.776520+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2013-1.json",
     "behouden_antwoorden": 11,
     "behouden_gap_reports": 5,

@@ -8,7 +8,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:07:51.851806+00:00",
+    "extracted_at": "2026-05-20T01:11:42.485122+00:00",
     "n_vragen": 46,
     "n_pages": 31,
     "n_tabellen_geaccepteerd": 28,
@@ -108,7 +108,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -254,7 +254,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -690,7 +690,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "inferred",
@@ -789,7 +789,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -1002,7 +1002,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "🤖 De bijlage (balans + RR) is afgeleid uit de cijfers die in de MC-opties zelf staan; de echte ITAA-bijlage werd niet aangereikt. Modelantwoord-keuze gebaseerd op canonieke formule per ratio.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "inferred",
@@ -1323,7 +1323,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "inferred",
@@ -1444,7 +1444,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "drempel_cijfer",
       "antwoord_confidence": "grounded",
@@ -1574,7 +1574,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "Diagram-interpretatie 🤖: M → A,B direct; A,B → C indirect. Consistent met invul-tabel (enkel M in A,B,C). Alternatieve interpretatie (4 directe deelnemingen) niet consistent. Extract-v2 (ADR-021) heeft de invul-tabel typed gedetecteerd; het ingevoerde boom-diagram blijft in tekst-blok.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -1743,7 +1743,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -1851,7 +1851,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "opsomming",
       "antwoord_confidence": "grounded",
@@ -1962,7 +1962,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "Identiek aan 2013-1-vr9 (kasprocedure familiale BVBA functiescheiding) — antwoord gespiegeld.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "procedure",
       "antwoord_confidence": "grounded",
@@ -2138,7 +2138,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "grounded",
@@ -2287,7 +2287,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.817695+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.155876+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
@@ -4794,7 +4794,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:07:51.852233+00:00",
+    "uitgevoerd_op": "2026-05-20T01:11:42.485446+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2014-1.json",
     "behouden_antwoorden": 13,
     "behouden_gap_reports": 5,

@@ -25,6 +25,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 from tools.examen._v3_blok_detectoren import (
+    assign_mc_opties_aan_subvragen,
     cleanup_subvraag_whitespace_residue,
     concat_v3_blokken_naar_vraagtekst,
     converteer_1koloms_tabel_naar_mc_opties,
@@ -166,6 +167,34 @@ def transformeer_vraag(vraag: dict[str, Any]) -> dict[str, Any]:
                 detected = detecteer_blokken_voor_subvraag(sv_tekst)
                 if detected:
                     sv["vraagtekst_blokken"] = detected
+
+    # v3.3: verplaats mc_opties van vraag-niveau naar subvragen op basis van
+    # PDF-volgorde-positie (zie ADR-021 v3.3). Werkt enkel wanneer subvragen[]
+    # bestaat met lowercase letter-markers (a)/b)/c)/...). Voor 2024-1 herinne-
+    # ringsvragen (geen `subvragen[]`, alleen `sub_vragen[]` met A/B/C-labels)
+    # is dit een no-op.
+    if isinstance(nieuw.get("subvragen"), list) and nieuw["subvragen"]:
+        origineel_vraagtekst = vraag.get("vraagtekst") or ""
+        if origineel_vraagtekst:
+            nieuwe_blokken, per_subvraag = assign_mc_opties_aan_subvragen(
+                nieuw["vraagtekst_blokken"],
+                nieuw["subvragen"],
+                origineel_vraagtekst,
+            )
+            if per_subvraag:
+                nieuw["vraagtekst_blokken"] = nieuwe_blokken
+                # Hecht mc_opties in bij elke subvraag
+                for sv in nieuw["subvragen"]:
+                    if not isinstance(sv, dict):
+                        continue
+                    lbl_norm = (sv.get("label") or "").strip().lower().rstrip(
+                        ")"
+                    ).rstrip(".")
+                    mc_opties_voor_sv = per_subvraag.get(lbl_norm)
+                    if not mc_opties_voor_sv:
+                        continue
+                    bestaande = sv.get("vraagtekst_blokken") or []
+                    sv["vraagtekst_blokken"] = list(bestaande) + mc_opties_voor_sv
 
     # Reconstrueer vraagtekst (concat van v3-blokken) wanneer geen tabel
     bevat_tabel = any(b.get("type") == "tabel" for b in nieuw["vraagtekst_blokken"])

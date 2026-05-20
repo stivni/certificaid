@@ -7,7 +7,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:11:46.827191+00:00",
+    "extracted_at": "2026-05-20T07:22:59.217618+00:00",
     "n_vragen": 28,
     "n_pages": 8,
     "n_tabellen_geaccepteerd": 0,
@@ -1789,7 +1789,7 @@
   ],
   "schema_versie": "3.0",
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:11:46.827339+00:00",
+    "uitgevoerd_op": "2026-05-20T07:22:59.217731+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2003-bibf.json",
     "behouden_antwoorden": 9,
     "behouden_gap_reports": 2,

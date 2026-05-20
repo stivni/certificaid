@@ -8,15 +8,15 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:11:44.914336+00:00",
+    "extracted_at": "2026-05-20T07:22:57.202905+00:00",
     "n_vragen": 56,
     "n_pages": 37,
     "n_tabellen_geaccepteerd": 46,
     "n_tabellen_verworpen": 10,
     "blok_type_counts": {
       "tekst": 158,
-      "mc_optie": 110,
       "vraag_instructie": 25,
+      "mc_optie": 101,
       "tabel": 44,
       "bijlage_verwijzing": 2,
       "casus_context": 14
@@ -31,21 +31,11 @@
       "vak_code_in_pdf": "1.1",
       "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
       "vraagtype": "J/F",
-      "vraagtekst": "Een onderneming XYZ verkoopt producten voor klein meubilair. Volgens haar\nwaarderingsregels gebruikt zij de FIFO methode.\nZij heeft volgende aankopen en verkopen op één bepaald voorraadartikel verricht tijdens\n2013:\n aankoop op 15 januari 2013 van 1.000 stuks aan 350,00 EUR\n aankoop op 31 maart 2013 van 500 stuks aan 300,00 EUR\n verkoop op 31 mei 2013 van 100 stuks aan 480,00 EUR.\nEr is weinig interesse op de markt voor dit product. Dit artikel heeft op de afsluitingsdatum\nper 31 december 2013 nog een marktwaarde van 280,00 EUR per artikel.\nPer 30 april 2014 is de marktwaarde 300,00 EUR.\nDe algemene vergadering van de vennootschap had plaats op 5 mei 2014.\n\nC. 392.000 EUR\n\nD. 420.000 EUR\n\nE. 452.000 EUR\n\nverkopen zijn geweest en de marktwaarde dan 455 EUR is?\n\nC. 392.000 EUR\n\nD. 420.000 EUR\n\nE. 637.000 EUR",
+      "vraagtekst": "Een onderneming XYZ verkoopt producten voor klein meubilair. Volgens haar\nwaarderingsregels gebruikt zij de FIFO methode.\nZij heeft volgende aankopen en verkopen op één bepaald voorraadartikel verricht tijdens\n2013:\n aankoop op 15 januari 2013 van 1.000 stuks aan 350,00 EUR\n aankoop op 31 maart 2013 van 500 stuks aan 300,00 EUR\n verkoop op 31 mei 2013 van 100 stuks aan 480,00 EUR.\nEr is weinig interesse op de markt voor dit product. Dit artikel heeft op de afsluitingsdatum\nper 31 december 2013 nog een marktwaarde van 280,00 EUR per artikel.\nPer 30 april 2014 is de marktwaarde 300,00 EUR.\nDe algemene vergadering van de vennootschap had plaats op 5 mei 2014.\n\nE. 452.000 EUR\n\nverkopen zijn geweest en de marktwaarde dan 455 EUR is?\n\nE. 637.000 EUR",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
           "inhoud": "Een onderneming XYZ verkoopt producten voor klein meubilair. Volgens haar\nwaarderingsregels gebruikt zij de FIFO methode.\nZij heeft volgende aankopen en verkopen op één bepaald voorraadartikel verricht tijdens\n2013:\n aankoop op 15 januari 2013 van 1.000 stuks aan 350,00 EUR\n aankoop op 31 maart 2013 van 500 stuks aan 300,00 EUR\n verkoop op 31 mei 2013 van 100 stuks aan 480,00 EUR.\nEr is weinig interesse op de markt voor dit product. Dit artikel heeft op de afsluitingsdatum\nper 31 december 2013 nog een marktwaarde van 280,00 EUR per artikel.\nPer 30 april 2014 is de marktwaarde 300,00 EUR.\nDe algemene vergadering van de vennootschap had plaats op 5 mei 2014."
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "392.000 EUR"
-        },
-        {
-          "type": "mc_optie",
-          "label": "D",
-          "tekst": "420.000 EUR"
         },
         {
           "type": "tekst",
@@ -54,16 +44,6 @@
         {
           "type": "tekst",
           "inhoud": "verkopen zijn geweest en de marktwaarde dan 455 EUR is?"
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "392.000 EUR"
-        },
-        {
-          "type": "mc_optie",
-          "label": "D",
-          "tekst": "420.000 EUR"
         },
         {
           "type": "tekst",
@@ -203,6 +183,16 @@
             {
               "type": "tekst",
               "inhoud": "E. 452.000 EUR"
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "392.000 EUR"
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "420.000 EUR"
             }
           ]
         },
@@ -238,6 +228,16 @@
             {
               "type": "tekst",
               "inhoud": "E. 637.000 EUR"
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "392.000 EUR"
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "420.000 EUR"
             }
           ]
         }
@@ -7867,7 +7867,7 @@
       "vak_code_in_pdf": "2.4",
       "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
       "vraagtype": "J/F",
-      "vraagtekst": "> Mevrouw Martin is overleden op 20 februari 2014.\n\nOp de datum van haar overlijden was ze\nweduwe en haar enige erfgenamen zijn haar 3 kinderen.\n\n> Mevrouw Martin is overleden in het\nWaals Gewest, maar haar woonplaats heeft ze steeds in het Vlaams Gewest gehad.\n\nIn december 2013 had mevrouw Martin een verplichting tot aankoop van 1.000 aandelen van\neen Belgische vennootschap tegen de prijs van 17.000 EUR ondertekend.\nDeze transactie was onderworpen aan een opschortende voorwaarde die op de datum van\nhaar overlijden nog niet was vervuld.\nNa de tussenkomst van een accountant, die zijn opdracht uitvoerde op vraag van de\nkinderen, werd de opschortende voorwaarde op 9 juli 2014 eindelijk vervuld. Het aan de\naccountant betaalde ereloon bedraagt 2.420 EUR en de kinderen hebben de aandelen\nverkocht tegen 22.500 EUR.\n\naangifte van nalatenschap ingediend binnen de sub a) gestelde termijn:\n\nD. actief = 0 EUR - geen passief",
+      "vraagtekst": "> Mevrouw Martin is overleden op 20 februari 2014.\n\nOp de datum van haar overlijden was ze\nweduwe en haar enige erfgenamen zijn haar 3 kinderen.\n\n> Mevrouw Martin is overleden in het\nWaals Gewest, maar haar woonplaats heeft ze steeds in het Vlaams Gewest gehad.\n\nIn december 2013 had mevrouw Martin een verplichting tot aankoop van 1.000 aandelen van\neen Belgische vennootschap tegen de prijs van 17.000 EUR ondertekend.\nDeze transactie was onderworpen aan een opschortende voorwaarde die op de datum van\nhaar overlijden nog niet was vervuld.\nNa de tussenkomst van een accountant, die zijn opdracht uitvoerde op vraag van de\nkinderen, werd de opschortende voorwaarde op 9 juli 2014 eindelijk vervuld. Het aan de\naccountant betaalde ereloon bedraagt 2.420 EUR en de kinderen hebben de aandelen\nverkocht tegen 22.500 EUR.\n\naangifte van nalatenschap ingediend binnen de sub a) gestelde termijn:",
       "vraagtekst_blokken": [
         {
           "type": "casus_context",
@@ -7888,11 +7888,6 @@
         {
           "type": "tekst",
           "inhoud": "aangifte van nalatenschap ingediend binnen de sub a) gestelde termijn:"
-        },
-        {
-          "type": "mc_optie",
-          "label": "D",
-          "tekst": "actief = 0 EUR - geen passief"
         }
       ],
       "sub_vragen": [
@@ -8053,6 +8048,11 @@
               "type": "mc_optie",
               "label": "D",
               "tekst": "actief = 0 EUR - geen passief"
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "actief = 0 EUR - geen passief"
             }
           ]
         },
@@ -8095,35 +8095,15 @@
       "vak_code_in_pdf": "2.4",
       "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
       "vraagtype": "J/F",
-      "vraagtekst": "Een echtpaar wil de blote (naakte) eigendom van een onroerend goed aankopen waarvan het\nvruchtgebruik door de verkoper wordt voorbehouden.\nDe blote eigendom wordt verkregen tegen een prijs van 186.000 EUR.\nDe vruchtgebruiker is 63 jaar oud.\nDe blote eigenaar is 31 jaar oud.\nDe verkoopwaarde van het goed werd geschat op 300.000 EUR.\n\nC. Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn\n\nD. 4 x 16% van 300.000 EUR\n\nE. 300.000 EUR\nEnige jaren later staat de vruchtgebruiker zijn vruchtgebruik af aan de blote eigenaar\nwaardoor laatstgenoemde dus de volle eigenaar wordt.\nHet vruchtgebruik wordt afgestaan tegen de prijs van 250.000 EUR.\nOp dat tijdstip is de vruchtgebruiker 74 jaar en de blote eigenaar 42 jaar oud.\nDe verkoopwaarde van het goed bedraagt nog steeds 300.000 EUR.\n\nC. 436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote\n\nD. Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn\n\nE. 300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop\nvan de bij de verkrijging van de blote eigendom betaalde rechten",
+      "vraagtekst": "Een echtpaar wil de blote (naakte) eigendom van een onroerend goed aankopen waarvan het\nvruchtgebruik door de verkoper wordt voorbehouden.\nDe blote eigendom wordt verkregen tegen een prijs van 186.000 EUR.\nDe vruchtgebruiker is 63 jaar oud.\nDe blote eigenaar is 31 jaar oud.\nDe verkoopwaarde van het goed werd geschat op 300.000 EUR.\n\nE. 300.000 EUR\nEnige jaren later staat de vruchtgebruiker zijn vruchtgebruik af aan de blote eigenaar\nwaardoor laatstgenoemde dus de volle eigenaar wordt.\nHet vruchtgebruik wordt afgestaan tegen de prijs van 250.000 EUR.\nOp dat tijdstip is de vruchtgebruiker 74 jaar en de blote eigenaar 42 jaar oud.\nDe verkoopwaarde van het goed bedraagt nog steeds 300.000 EUR.\n\nE. 300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop\nvan de bij de verkrijging van de blote eigendom betaalde rechten",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
           "inhoud": "Een echtpaar wil de blote (naakte) eigendom van een onroerend goed aankopen waarvan het\nvruchtgebruik door de verkoper wordt voorbehouden.\nDe blote eigendom wordt verkregen tegen een prijs van 186.000 EUR.\nDe vruchtgebruiker is 63 jaar oud.\nDe blote eigenaar is 31 jaar oud.\nDe verkoopwaarde van het goed werd geschat op 300.000 EUR."
         },
         {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn"
-        },
-        {
-          "type": "mc_optie",
-          "label": "D",
-          "tekst": "4 x 16% van 300.000 EUR"
-        },
-        {
           "type": "tekst",
           "inhoud": "E. 300.000 EUR\nEnige jaren later staat de vruchtgebruiker zijn vruchtgebruik af aan de blote eigenaar\nwaardoor laatstgenoemde dus de volle eigenaar wordt.\nHet vruchtgebruik wordt afgestaan tegen de prijs van 250.000 EUR.\nOp dat tijdstip is de vruchtgebruiker 74 jaar en de blote eigenaar 42 jaar oud.\nDe verkoopwaarde van het goed bedraagt nog steeds 300.000 EUR."
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote"
-        },
-        {
-          "type": "mc_optie",
-          "label": "D",
-          "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn"
         },
         {
           "type": "tekst",
@@ -8269,6 +8249,16 @@
             {
               "type": "tekst",
               "inhoud": "E. 300.000 EUR\nEnige jaren later staat de vruchtgebruiker zijn vruchtgebruik af aan de blote eigenaar\nwaardoor laatstgenoemde dus de volle eigenaar wordt.\nHet vruchtgebruik wordt afgestaan tegen de prijs van 250.000 EUR.\nOp dat tijdstip is de vruchtgebruiker 7"
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn"
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "4 x 16% van 300.000 EUR"
             }
           ]
         },
@@ -8304,6 +8294,16 @@
             {
               "type": "tekst",
               "inhoud": "E. 300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop\nvan de bij de verkrijging van de blote eigendom betaalde rechten\n\nF"
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote"
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn"
             }
           ]
         }
@@ -9259,7 +9259,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:11:44.914880+00:00",
+    "uitgevoerd_op": "2026-05-20T07:22:57.203342+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2015-1.json",
     "behouden_antwoorden": 18,
     "behouden_gap_reports": 2,

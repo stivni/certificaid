@@ -403,3 +403,254 @@ class TestCasusContextOpzuig:
         casus = [b for b in blokken if b["type"] == "casus_context"]
         # Geen opzuig voor korte tekst
         assert len(casus) == 0
+
+
+# ---------------------------------------------------------------------------
+# v3.3: MC-toewijzing aan subvragen (ADR-021 v3.3)
+# ---------------------------------------------------------------------------
+
+
+class TestAssignMCOptiesAanSubvragen:
+    """Verifieer dat mc_opties op vraag-niveau correct verdeeld worden over
+    subvragen op basis van positie in de oorspronkelijke vraagtekst (PDF-
+    volgorde). Casus: 2013-1-vr2 (3 subvragen + 11 mc_opties → 3+4+4)."""
+
+    def _bouw_vr2_fixture(self):
+        origineel = (
+            "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\n"
+            "a) Onderneming A heeft een openstaande leveranciersschuld.\n"
+            "A. Boeking-optie a-1.\n"
+            "B. Boeking-optie a-2.\n"
+            "C. Boeking-optie a-3.\n"
+            "b) Onderneming A besluit een kapitaalvermindering door te voeren.\n"
+            "A. Boeking-optie b-1.\n"
+            "B. Boeking-optie b-2.\n"
+            "C. Boeking-optie b-3.\n"
+            "D. Boeking-optie b-4.\n"
+            "c) Buitenlandse onderneming AB heeft een vaste inrichting.\n"
+            "A. Belgische boekhouding c-1.\n"
+            "B. Belgische boekhouding c-2.\n"
+            "C. Belgische boekhouding c-3.\n"
+            "D. Belgische boekhouding c-4.\n"
+        )
+        blokken = [
+            {"type": "tekst", "inhoud": "Gelieve voor de onderstaande gevallen..."},
+            {"type": "mc_optie", "label": "A", "tekst": "Boeking-optie a-1."},
+            {"type": "mc_optie", "label": "B", "tekst": "Boeking-optie a-2."},
+            {"type": "mc_optie", "label": "C", "tekst": "Boeking-optie a-3."},
+            {"type": "mc_optie", "label": "A", "tekst": "Boeking-optie b-1."},
+            {"type": "mc_optie", "label": "B", "tekst": "Boeking-optie b-2."},
+            {"type": "mc_optie", "label": "C", "tekst": "Boeking-optie b-3."},
+            {"type": "mc_optie", "label": "D", "tekst": "Boeking-optie b-4."},
+            {"type": "mc_optie", "label": "A", "tekst": "Belgische boekhouding c-1."},
+            {"type": "mc_optie", "label": "B", "tekst": "Belgische boekhouding c-2."},
+            {"type": "mc_optie", "label": "C", "tekst": "Belgische boekhouding c-3."},
+            {"type": "mc_optie", "label": "D", "tekst": "Belgische boekhouding c-4."},
+        ]
+        subvragen = [
+            {"label": "a)", "tekst": "Onderneming A heeft ..."},
+            {"label": "b)", "tekst": "Onderneming A besluit ..."},
+            {"label": "c)", "tekst": "Buitenlandse onderneming AB ..."},
+        ]
+        return blokken, subvragen, origineel
+
+    def test_verdeling_3_4_4(self):
+        blokken, subvragen, origineel = self._bouw_vr2_fixture()
+        nieuwe, per_sub = D.assign_mc_opties_aan_subvragen(
+            blokken, subvragen, origineel
+        )
+        # Alle 11 mc_opties moeten verplaatst zijn → vraag-niveau bevat alleen
+        # de openings-tekst nog.
+        assert [b["type"] for b in nieuwe] == ["tekst"]
+        assert len(per_sub["a"]) == 3
+        assert len(per_sub["b"]) == 4
+        assert len(per_sub["c"]) == 4
+
+    def test_labels_per_subvraag_opnieuw_genummerd(self):
+        blokken, subvragen, origineel = self._bouw_vr2_fixture()
+        _, per_sub = D.assign_mc_opties_aan_subvragen(
+            blokken, subvragen, origineel
+        )
+        assert [m["label"] for m in per_sub["a"]] == ["A", "B", "C"]
+        assert [m["label"] for m in per_sub["b"]] == ["A", "B", "C", "D"]
+        assert [m["label"] for m in per_sub["c"]] == ["A", "B", "C", "D"]
+
+    def test_zonder_subvragen_no_op(self):
+        blokken = [
+            {"type": "tekst", "inhoud": "Vraag zonder subvragen."},
+            {"type": "mc_optie", "label": "A", "tekst": "Optie 1"},
+            {"type": "mc_optie", "label": "B", "tekst": "Optie 2"},
+        ]
+        nieuwe, per_sub = D.assign_mc_opties_aan_subvragen(
+            blokken, [], "Vraag zonder subvragen. A. Optie 1 B. Optie 2"
+        )
+        # Geen mutatie: alle mc_opties blijven op vraag-niveau
+        assert nieuwe == blokken
+        assert per_sub == {}
+
+    def test_mc_voor_eerste_marker_blijft_vraagniveau(self):
+        origineel = (
+            "A. Algemene voor-marker optie A.\n"
+            "B. Algemene voor-marker optie B.\n"
+            "a) Subvraag a.\n"
+            "A. Sub-a-optie 1.\n"
+            "B. Sub-a-optie 2.\n"
+            "b) Subvraag b.\n"
+            "A. Sub-b-optie 1.\n"
+        )
+        blokken = [
+            {"type": "mc_optie", "label": "A", "tekst": "Algemene voor-marker optie A."},
+            {"type": "mc_optie", "label": "B", "tekst": "Algemene voor-marker optie B."},
+            {"type": "mc_optie", "label": "A", "tekst": "Sub-a-optie 1."},
+            {"type": "mc_optie", "label": "B", "tekst": "Sub-a-optie 2."},
+            {"type": "mc_optie", "label": "A", "tekst": "Sub-b-optie 1."},
+        ]
+        subvragen = [
+            {"label": "a)", "tekst": "..."},
+            {"label": "b)", "tekst": "..."},
+        ]
+        nieuwe, per_sub = D.assign_mc_opties_aan_subvragen(
+            blokken, subvragen, origineel
+        )
+        # Eerste twee mc_opties (vóór de eerste subvraag-marker) blijven op
+        # vraag-niveau
+        assert len([b for b in nieuwe if b.get("type") == "mc_optie"]) == 2
+        assert len(per_sub["a"]) == 2
+        assert len(per_sub["b"]) == 1
+
+
+class TestTransformeerVraagMCToewijzing:
+    """End-to-end via transformeer_vraag: verifieer dat in een v2-vraag-record
+    met subvragen + mc_opties op vraag-niveau, de mc_opties correct
+    gedistribueerd worden naar de subvragen.
+    """
+
+    def test_vr2_distributie(self):
+        # Reproduceert 2013-1-vr2: PDF levert 3 tekst-blokken + 3 1-koloms
+        # tabel-blokken aan. v3-pipeline converteert tabellen naar mc_opties
+        # (na dedup); v3.3-pass verdeelt ze over de subvragen.
+        origineel_vraagtekst = (
+            "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\n"
+            "a) Onderneming A heeft een openstaande leveranciersschuld.\n"
+            "Zij dient de volgende boeking aan te brengen.\n"
+            "Boeking-optie a-1.\n"
+            "Boeking-optie a-2.\n"
+            "Boeking-optie a-3.\n"
+            "b) Onderneming A besluit een kapitaalvermindering.\n"
+            "Boeking-optie b-1.\n"
+            "Boeking-optie b-2.\n"
+            "Boeking-optie b-3.\n"
+            "Boeking-optie b-4.\n"
+            "c) Buitenlandse onderneming AB heeft een vaste inrichting.\n"
+            "Belgische boekhouding c-1.\n"
+            "Belgische boekhouding c-2.\n"
+            "Belgische boekhouding c-3.\n"
+            "Belgische boekhouding c-4.\n"
+        )
+        v2_vraag = {
+            "id": "test-vr2",
+            "vraagtekst": origineel_vraagtekst,
+            "vraagtekst_blokken": [
+                {
+                    "type": "tekst",
+                    "inhoud": (
+                        "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\n"
+                        "a) Onderneming A heeft een openstaande leveranciersschuld.\n"
+                        "Zij dient de volgende boeking aan te brengen."
+                    ),
+                },
+                {
+                    "type": "tabel",
+                    "headers": [""],
+                    "rows": [
+                        ["Boeking-optie a-1."],
+                        ["Boeking-optie a-2."],
+                        ["Boeking-optie a-3."],
+                    ],
+                },
+                {
+                    "type": "tekst",
+                    "inhoud": "b) Onderneming A besluit een kapitaalvermindering.",
+                },
+                {
+                    "type": "tabel",
+                    "headers": [""],
+                    "rows": [
+                        ["Boeking-optie b-1."],
+                        ["Boeking-optie b-2."],
+                        ["Boeking-optie b-3."],
+                        ["Boeking-optie b-4."],
+                    ],
+                },
+                {
+                    "type": "tekst",
+                    "inhoud": "c) Buitenlandse onderneming AB heeft een vaste inrichting.",
+                },
+                {
+                    "type": "tabel",
+                    "headers": [""],
+                    "rows": [
+                        ["Belgische boekhouding c-1."],
+                        ["Belgische boekhouding c-2."],
+                        ["Belgische boekhouding c-3."],
+                        ["Belgische boekhouding c-4."],
+                    ],
+                },
+            ],
+            "subvragen": [
+                {"label": "a)", "tekst": "Onderneming A heeft een openstaande leveranciersschuld."},
+                {"label": "b)", "tekst": "Onderneming A besluit een kapitaalvermindering."},
+                {"label": "c)", "tekst": "Buitenlandse onderneming AB heeft een vaste inrichting."},
+            ],
+        }
+        v3 = V3.transformeer_vraag(v2_vraag)
+        # Geen mc_opties meer op vraag-niveau
+        vraag_mc = [
+            b for b in v3["vraagtekst_blokken"] if b.get("type") == "mc_optie"
+        ]
+        assert vraag_mc == []
+        # Per subvraag: 3, 4, 4 mc_opties, labels herstartend bij A
+        sub_a, sub_b, sub_c = v3["subvragen"]
+        sub_a_mc = [
+            b for b in (sub_a.get("vraagtekst_blokken") or [])
+            if b.get("type") == "mc_optie"
+        ]
+        sub_b_mc = [
+            b for b in (sub_b.get("vraagtekst_blokken") or [])
+            if b.get("type") == "mc_optie"
+        ]
+        sub_c_mc = [
+            b for b in (sub_c.get("vraagtekst_blokken") or [])
+            if b.get("type") == "mc_optie"
+        ]
+        assert [m["label"] for m in sub_a_mc] == ["A", "B", "C"]
+        assert [m["label"] for m in sub_b_mc] == ["A", "B", "C", "D"]
+        assert [m["label"] for m in sub_c_mc] == ["A", "B", "C", "D"]
+
+    def test_vraag_zonder_subvragen_geen_mutatie(self):
+        v2_vraag = {
+            "id": "test-vr-zonder-subs",
+            "vraagtekst": (
+                "Welke is correct?\n"
+                "A. Optie 1.\n"
+                "B. Optie 2.\n"
+                "C. Optie 3.\n"
+            ),
+            "vraagtekst_blokken": [
+                {
+                    "type": "tekst",
+                    "inhoud": (
+                        "Welke is correct?\n"
+                        "A. Optie 1.\n"
+                        "B. Optie 2.\n"
+                        "C. Optie 3.\n"
+                    ),
+                }
+            ],
+        }
+        v3 = V3.transformeer_vraag(v2_vraag)
+        # mc_opties blijven op vraag-niveau
+        mc_op_vraagniveau = [
+            b for b in v3["vraagtekst_blokken"] if b.get("type") == "mc_optie"
+        ]
+        assert len(mc_op_vraagniveau) >= 2

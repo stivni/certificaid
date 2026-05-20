@@ -8,7 +8,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:11:39.706638+00:00",
+    "extracted_at": "2026-05-20T07:22:53.495359+00:00",
     "n_vragen": 38,
     "n_pages": 26,
     "n_tabellen_geaccepteerd": 45,
@@ -16,9 +16,9 @@
     "blok_type_counts": {
       "tekst": 77,
       "tabel": 30,
-      "mc_optie": 50,
       "bijlage_verwijzing": 3,
       "vraag_instructie": 23,
+      "mc_optie": 37,
       "casus_context": 8,
       "inventaris": 1
     }
@@ -77,21 +77,6 @@
             "x1": 457.86999,
             "bottom": 491.469995
           }
-        },
-        {
-          "type": "mc_optie",
-          "label": "A",
-          "tekst": "Te verwerken als handelsgoederen?"
-        },
-        {
-          "type": "mc_optie",
-          "label": "B",
-          "tekst": "Te verwerken als bestelling in uitvoering?"
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "Te verwerken als immateriële vaste activa?"
         }
       ],
       "sub_vragen": [],
@@ -151,6 +136,21 @@
             {
               "type": "tekst",
               "inhoud": "Zij koopt software X aan, die zij zonder enige wijziging doorverkoopt aan haar klanten"
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "Te verwerken als handelsgoederen?"
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "Te verwerken als bestelling in uitvoering?"
+            },
+            {
+              "type": "mc_optie",
+              "label": "C",
+              "tekst": "Te verwerken als immateriële vaste activa?"
             }
           ]
         }
@@ -261,46 +261,11 @@
       "vak_code_in_pdf": "1.1",
       "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
       "vraagtype": "J/F",
-      "vraagtekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\na) Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er\nwerden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het\nafgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op:\n\nA. Zij neemt enkel de nieuwe bestuurders op en diegene die in functie zijn\ngebleven.\n\nB. Zij neemt alle bestuurders op met vermelding van begin- en einddata (dus\nnieuwe benoemde bestuurders en diegene die ontslag genomen hebben,\nalsook diegene die zonder wijziging in functie zijn gebleven)\n\nC. Zij neemt de bestuurders op die ontslag genomen hebben en diegene die\nin functie zijn gebleven\n\nA. Zij kan de afschrijvingsregels die bepaald werden bij de oprichting van de\nvennootschap niet meer wijzigen.\n\nB. Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De\nvennootschap zal in haar jaarrekening bij de waarderingsregels melding\nmaken van de wijziging.\n\nC. Zij kan de waarderingsregels wijzigen mits een formele beslissing van het\nbestuursorgaan en een bekendmaking aan de fiscus.\n\nD. Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De\nvennootschap zal in haar jaarrekening bij de waarderingsregels niet enkel\nmelding maken van de wijziging met de verantwoording, maar ook van het\neffect op het vermogen en het resultaat.",
+      "vraagtekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\na) Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er\nwerden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het\nafgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op:",
       "vraagtekst_blokken": [
         {
           "type": "tekst",
           "inhoud": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.\na) Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er\nwerden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het\nafgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op:"
-        },
-        {
-          "type": "mc_optie",
-          "label": "A",
-          "tekst": "Zij neemt enkel de nieuwe bestuurders op en diegene die in functie zijn\ngebleven."
-        },
-        {
-          "type": "mc_optie",
-          "label": "B",
-          "tekst": "Zij neemt alle bestuurders op met vermelding van begin- en einddata (dus\nnieuwe benoemde bestuurders en diegene die ontslag genomen hebben,\nalsook diegene die zonder wijziging in functie zijn gebleven)"
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "Zij neemt de bestuurders op die ontslag genomen hebben en diegene die\nin functie zijn gebleven"
-        },
-        {
-          "type": "mc_optie",
-          "label": "A",
-          "tekst": "Zij kan de afschrijvingsregels die bepaald werden bij de oprichting van de\nvennootschap niet meer wijzigen."
-        },
-        {
-          "type": "mc_optie",
-          "label": "B",
-          "tekst": "Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De\nvennootschap zal in haar jaarrekening bij de waarderingsregels melding\nmaken van de wijziging."
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "Zij kan de waarderingsregels wijzigen mits een formele beslissing van het\nbestuursorgaan en een bekendmaking aan de fiscus."
-        },
-        {
-          "type": "mc_optie",
-          "label": "D",
-          "tekst": "Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De\nvennootschap zal in haar jaarrekening bij de waarderingsregels niet enkel\nmelding maken van de wijziging met de verantwoording, maar ook van het\neffect op het vermogen en het resultaat."
         }
       ],
       "sub_vragen": [],
@@ -332,6 +297,21 @@
             {
               "type": "tekst",
               "inhoud": "Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er\nwerden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het\nafgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op:"
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "Zij neemt enkel de nieuwe bestuurders op en diegene die in functie zijn\ngebleven."
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "Zij neemt alle bestuurders op met vermelding van begin- en einddata (dus\nnieuwe benoemde bestuurders en diegene die ontslag genomen hebben,\nalsook diegene die zonder wijziging in functie zijn gebleven)"
+            },
+            {
+              "type": "mc_optie",
+              "label": "C",
+              "tekst": "Zij neemt de bestuurders op die ontslag genomen hebben en diegene die\nin functie zijn gebleven"
             }
           ]
         },
@@ -343,6 +323,26 @@
             {
               "type": "tekst",
               "inhoud": "Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens\neen langere economische levensduur."
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "Zij kan de afschrijvingsregels die bepaald werden bij de oprichting van de\nvennootschap niet meer wijzigen."
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De\nvennootschap zal in haar jaarrekening bij de waarderingsregels melding\nmaken van de wijziging."
+            },
+            {
+              "type": "mc_optie",
+              "label": "C",
+              "tekst": "Zij kan de waarderingsregels wijzigen mits een formele beslissing van het\nbestuursorgaan en een bekendmaking aan de fiscus."
+            },
+            {
+              "type": "mc_optie",
+              "label": "D",
+              "tekst": "Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De\nvennootschap zal in haar jaarrekening bij de waarderingsregels niet enkel\nmelding maken van de wijziging met de verantwoording, maar ook van het\neffect op het vermogen en het resultaat."
             }
           ]
         }
@@ -2733,21 +2733,6 @@
           "inhoud": "Een collega accountant die je kent van uw beroepsvereniging vraagt om uw tussenkomst bij\nde omzetting van een vennootschap van één van zijn klanten. Het betreft de CVBA Fortunito\ndie wenst om te zetten naar de BVBA Roflexfort.\nOp vraag van uw collega zendt de interne boekhouder je daarvoor een proef- en saldibalans\nper 30/09/2013 (statutair boekjaar 01/01/2013-31/12/2013).\na) Kruis het juiste antwoord aan.\nAntwoord …"
         },
         {
-          "type": "mc_optie",
-          "label": "A",
-          "tekst": "Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort"
-        },
-        {
-          "type": "mc_optie",
-          "label": "B",
-          "tekst": "Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan\nomgezet worden in de BVBA Reflexfort?"
-        },
-        {
-          "type": "mc_optie",
-          "label": "C",
-          "tekst": "Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren?"
-        },
-        {
           "type": "bijlage_verwijzing",
           "beschrijving": "in bijlage? Verklaar uw\nantwoord."
         },
@@ -2847,6 +2832,21 @@
             {
               "type": "tekst",
               "inhoud": "Kruis het juiste antwoord aan."
+            },
+            {
+              "type": "mc_optie",
+              "label": "A",
+              "tekst": "Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort"
+            },
+            {
+              "type": "mc_optie",
+              "label": "B",
+              "tekst": "Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan\nomgezet worden in de BVBA Reflexfort?"
+            },
+            {
+              "type": "mc_optie",
+              "label": "C",
+              "tekst": "Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren?"
             }
           ]
         },
@@ -5332,7 +5332,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:11:39.707034+00:00",
+    "uitgevoerd_op": "2026-05-20T07:22:53.495587+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2013-2.json",
     "behouden_antwoorden": 13,
     "behouden_gap_reports": 3,

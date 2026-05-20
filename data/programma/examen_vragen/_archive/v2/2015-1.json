@@ -8,7 +8,7 @@
   "extractie": {
     "tool": "vragen-extractie-v3",
     "pdf_lib": "pdfplumber",
-    "extracted_at": "2026-05-20T01:07:54.634831+00:00",
+    "extracted_at": "2026-05-20T01:11:44.914336+00:00",
     "n_vragen": 56,
     "n_pages": 37,
     "n_tabellen_geaccepteerd": 46,
@@ -263,7 +263,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "grounded",
@@ -520,7 +520,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -726,7 +726,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -985,7 +985,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -1241,7 +1241,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -1455,7 +1455,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -1706,7 +1706,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -2124,7 +2124,7 @@
           "geen_externe_kennis"
         ],
         "opmerking": "🤖 De bijlage (balans + RR) is afgeleid uit de cijfers die in de MC-opties zelf staan; de echte ITAA-bijlage werd niet aangereikt. Modelantwoord-keuze gebaseerd op canonieke formule per ratio.",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "berekening",
       "antwoord_confidence": "inferred",
@@ -2356,7 +2356,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "inferred",
@@ -2661,7 +2661,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -3005,7 +3005,7 @@
         "checklist_versie": "1.0",
         "verify_passed": true,
         "policy_versie_wet": "huidig",
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "grounded",
@@ -3108,7 +3108,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "definitie",
       "antwoord_confidence": "grounded",
@@ -3221,7 +3221,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "opsomming",
       "antwoord_confidence": "grounded",
@@ -3369,7 +3369,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "inferred",
@@ -3541,7 +3541,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "kwalificatie",
       "antwoord_confidence": "grounded",
@@ -3645,7 +3645,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "opsomming",
       "antwoord_confidence": "grounded",
@@ -3934,7 +3934,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "grounded",
@@ -4479,7 +4479,7 @@
           "claim_coverage",
           "geen_externe_kennis"
         ],
-        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:08:15.827873+00:00"
+        "correct_antwoord_blokken_geextracteerd_op": "2026-05-20T01:11:57.231463+00:00"
       },
       "antwoord_type": "casus",
       "antwoord_confidence": "inferred",
@@ -9259,7 +9259,7 @@
     }
   ],
   "migratie": {
-    "uitgevoerd_op": "2026-05-20T01:07:54.635276+00:00",
+    "uitgevoerd_op": "2026-05-20T01:11:44.914880+00:00",
     "v2_backup": "data/programma/examen_vragen/_archive/v2/2015-1.json",
     "behouden_antwoorden": 18,
     "behouden_gap_reports": 2,
