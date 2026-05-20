@@ -354,8 +354,30 @@ async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
     return [TextContent(type="text", text=result)]
 
 
+def _preload_retrieval_stack_async() -> None:
+    """
+    Preload bge-m3 + reranker in achtergrond-thread zodat de eerste tool-call
+    niet 10s hoeft te wachten. Blokkeert server-startup NIET — Claude Code kan
+    al `list_tools` aanroepen terwijl de modellen laden.
+    """
+    import threading
+
+    def _worker() -> None:
+        try:
+            logger.info("Preload bge-m3 + reranker in achtergrond...")
+            _get_retrieval_stack()
+            logger.info("Preload klaar — eerste zoek_*-call wordt snel.")
+        except Exception as e:  # noqa: BLE001
+            logger.warning("Preload-fout (niet kritiek; lazy-fallback): %s", e)
+
+    threading.Thread(target=_worker, daemon=True, name="retrieval-preload").start()
+
+
 async def _main_async() -> None:
     """Start MCP-server op stdio (standaard transport voor Claude Code)."""
+    # Trigger preload onmiddellijk — niet blokkerend voor handshake
+    _preload_retrieval_stack_async()
+
     async with stdio_server() as (read_stream, write_stream):
         await app.run(read_stream, write_stream, app.create_initialization_options())
 
