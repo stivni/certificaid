@@ -33,6 +33,31 @@ Concreet: als `obligatielening` zowel PO 1.1 (boekhouden) als PO 2.x (fiscaal) a
 
 ---
 
+## 2bis. MCP-tools voor on-demand context
+
+Je krijgt **geen vooraf-gebundelde initial-ctx** voor chunks/matches. In plaats daarvan beschik je over de **`certificaid-rag` MCP-server** met vijf tools:
+
+| Tool | Wanneer gebruiken |
+|---|---|
+| `zoek_bronnen(query, top_k, bron_rollen, rerank)` | Bevraag wetteksten/KB/CBN/normen. Default `rerank=true` (precisie). Filter `bron_rollen` op `['wettekst', 'kb', 'cbn', 'norm']` waar gepast. |
+| `zoek_concepten(query, top_k)` | Near-duplicate-check vóór `save_record`; ook voor cross-record-buren tijdens schrijven. |
+| `lees_record(record_id)` | Volledige JSON-inhoud van een specifiek record. Sneller dan een query. |
+| `lees_anchor_bundle(po_id)` | Alle anchors + TDKs voor een PO. |
+| `check_record_bestaat(record_id)` | Filesystem-check voor naam-conflict-detectie. |
+
+**Iteratief gebruiken**: doe meerdere gerichte calls i.p.v. één brede. Verfijn op basis van eerdere resultaten. Voorbeeld-flow voor obligatielening:
+1. `lees_anchor_bundle('1.1')` — TDKs voor PO
+2. `lees_record('obligatielening')` — bestaande inhoud als content-inspiratie
+3. `zoek_bronnen('uitgifte obligaties NV WVV', top_k=5, bron_rollen=['wettekst'])` — wettekst
+4. `zoek_bronnen('boekhoudkundige verwerking obligatielening', top_k=5, bron_rollen=['cbn'])` — CBN-advies
+5. `zoek_concepten('lange-termijn-financiering')` — bestaat het kader al?
+6. `check_record_bestaat('lange-termijn-financiering')` — bevestig vóór save
+7. (schrijven via records-API `save_record`)
+
+Geen tool? Vraag het via gaps.json-suggestie aan de orchestrator.
+
+---
+
 ## 3. Verplichte referentie-fiches
 
 Lees vóór elke extract deze drie als in-context templates:

@@ -17,7 +17,19 @@ Reden voor deze stap: v1.5/1.6 had overfragmentatie (kleine begrip-records voor 
 
 ---
 
-## 2. Input
+## 2. Tools (MCP `certificaid-rag`)
+
+Bevragen gebeurt **on-demand** via vijf MCP-tools, niet via vooraf-gebundelde initial-ctx:
+
+- `lees_anchor_bundle(po_id)` — TDKs voor de PO
+- `zoek_bronnen(query, top_k, bron_rollen, rerank)` — sample bronnen-RAG
+- `zoek_concepten(query, top_k)` — bestaande v1.x-records (alleen voor sanity-check stap E)
+- `lees_record(record_id)` — volledige JSON van bestaand record (alleen indien echt nodig)
+- `check_record_bestaat(record_id)` — naam-collision-detectie
+
+---
+
+## 2bis. Input
 
 Je krijgt voor één PO (bv. `1.1`):
 
