@@ -6,7 +6,15 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 
 **Bij het examen beschikbaar**: ITAA-LEX (wettekstenbundel) + Cijferzakboekje (tarieven en bedragen). Wat getoetst wordt: concepten begrijpen, uitzonderingen herkennen, correct redeneren — niet cijfers uit het hoofd kennen.
 
-> **Status (2026-05-18)**: Infrastructuur staat. Schema 1.5 (6 node_types, 7 edges, drie concretiserings-velden) is uitgerold over alle 430 records (345 concepten + 85 competenties als unified records-API). EXTRACT v4 ([`prompts/concept-extractie-v4.md`](prompts/concept-extractie-v4.md)) is operationeel — research-and-draft-agent met event-driven scope. Centrale content-laag-pass loopt op PO 1.5 (eerste echte re-extract na schema 1.5-migratie). Records-API met orphan-management, content-sync, cold-start-mitigatie. 802 tests groen. Zie [`docs/TODO.md`](docs/TODO.md) voor exacte huidige fase + next steps en [`docs/adr/INDEX.md`](docs/adr/INDEX.md) voor architectuur-beslissingen.
+> **Status (2026-05-21)**: **Schema 2.0 in voorbereiding voor Fase 2 herextract-launch** (ADR-025).
+> Didactische conceptlaag met rol × perspectief structuur, element-vocabulaire (`inhoud_type` + `weergaven`), kader/familie kinds, vijf-niveau-confidence (⚖️ · 🔗 · 🧭 · ⚠️ · ❌).
+> Infrastructuur klaar: EXTRACT v5, VERIFY v3 (soft guidelines), skeleton-voorstel-v1, archive-script, MCP-server `certificaid-rag` met preload.
+> Acht referentie-mockups in [`content/experiment/`](content/experiment/).
+> **Volgende stap**: skeleton-voorstel-run op PO 1.1 in nieuwe sessie (MCP wordt dan geladen).
+> Examen-deadline ca. 2026-05-30 — bronnen-werk loopt parallel (user).
+> Volledige sessie-handoff in [`docs/sessie-2026-05-21-schema-20-handoff.md`](docs/sessie-2026-05-21-schema-20-handoff.md).
+>
+> *Vorige status (2026-05-18)*: Schema 1.5 uitgerold over 430 records via EXTRACT v4. Wordt vervangen door schema 2.0 via herextract.
 
 ---
 
@@ -26,8 +34,14 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | Trust-status zetten + index/bundles in één klap verversen | `tools/etl/mark_trusted.py --refresh` (of direct `python3 -m tools.etl.refresh_rag_and_matches`) — ADR-005 §9 |
 | RAG-index herbouwen of bevragen | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` *(wacht op Fase 2)* |
 | **Render leermateriaal** (concept-fiches, competentie-fiches, minicursus) | `tools/leermateriaal/` — ADR-007 schema 1.3, ADR-008 Fase D+E, ADR-010 §drie-lagen |
-| Concept- of competentie-record schrijven | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) — taxonomie, granulariteit, edges, taal, afkortingen |
+| Concept- of competentie-record schrijven | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) — taxonomie, granulariteit, edges, taal, afkortingen *(v1.5/1.6 — wordt herzien voor 2.0)* |
 | Programmaonderdeel-build *(legacy)* | [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
+| **Schema 2.0 concept-record schrijven** | [ADR-025](docs/adr/ADR-025-schema-20-didactische-conceptlaag.md) + [`prompts/concept-extractie-v5.md`](prompts/concept-extractie-v5.md). Referentie: [`content/experiment/obligatielening-v7.md`](content/experiment/obligatielening-v7.md) |
+| **Skeleton-voorstel (pre-pilot stap 0)** | [`prompts/skeleton-voorstel-v1.md`](prompts/skeleton-voorstel-v1.md) — Opus-subagent met MCP-tools |
+| **MCP-server `certificaid-rag`** (5 tools voor on-demand retrieval) | [`tools/extractie/mcp_server/`](tools/extractie/mcp_server/) — geconfigureerd in [`.mcp.json`](.mcp.json) |
+| **Archiveren v1.x records vóór 2.0-herextract** | `python3 -m tools.extractie.archive_voor_migratie --anchor-prefix <PO>` |
+| **Sessie-handoff Schema 2.0** | [`docs/sessie-2026-05-21-schema-20-handoff.md`](docs/sessie-2026-05-21-schema-20-handoff.md) — volledig overzicht voor nieuwe sessie |
+| Fase 2 herextract-pipeline | [`docs/pilot-fase2-pipeline.md`](docs/pilot-fase2-pipeline.md) |
 
 ---
 
