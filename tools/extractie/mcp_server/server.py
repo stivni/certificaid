@@ -17,11 +17,22 @@ Tools:
   - check_record_bestaat(record_id)
        Bestaat dit record-id al? Voor near-duplicate-check vóór save_record.
 
-Architectuur:
-  - Hits ChromaDB direct via tools/lib/retrieval.py (geen daemon-roundtrip)
-  - Reads JSON-records via filesystem
-  - Geen schrijfacties via deze server — save_record blijft via records-API
-    (subagent gebruikt records-API direct)
+Architectuur (ADR-027 §vervolg):
+  - zoek_bronnen(rerank=False): volledig in-process via ChromaDB + bge-m3
+    bi-encoder. Geen HTTP-roundtrip, geen daemon-overhead, geen queue-wachttijd.
+    Dit is het standaard-pad voor de meerderheid van agent-calls.
+  - zoek_bronnen(rerank=True): in-process met cross-encoder (reranker). De
+    reranker wordt pas geladen bij de eerste rerank=True call (lazy, apart gecached
+    van de bi-encoder stack). Bij reranker-laadfouten: graceful fallback naar
+    bi-encoder-only resultaten.
+  - zoek_concepten: in-process via dezelfde bi-encoder stack.
+  - Geen daemon-roundtrips voor read-only bronnen-queries.
+  - Reads JSON-records via filesystem (geen RAG nodig voor specifieke records).
+  - Geen schrijfacties via deze server — save_record blijft via records-API.
+
+Twee aparte caches voor minimale geheugendruk bij 6-parallel-agent-scenario:
+  _bi_stack:     (client, ef) — altijd geladen; bge-m3 bi-encoder
+  _reranker_obj: CrossEncoder — alleen geladen bij rerank=True calls
 
 Start (stdio-transport, standaard voor Claude Code MCP):
   python3 -m tools.extractie.mcp_server.server
@@ -29,6 +40,9 @@ Start (stdio-transport, standaard voor Claude Code MCP):
 Test (manueel):
   python3 -c "from tools.extractie.mcp_server.server import _zoek_bronnen; \
               print(_zoek_bronnen('matching-beginsel rente', 5))"
+
+Activering: MCP-server-code-wijzigingen vereisen een nieuwe Claude Code-sessie
+om te activeren (per .mcp.json config — Claude Code herstart de server dan).
 """
 
 from __future__ import annotations
@@ -51,7 +65,6 @@ from mcp.types import TextContent, Tool
 
 # Bestaande infrastructure
 from tools.lib.retrieval import (  # noqa: E402
-    build_retrieval_stack,
     open_collections,
     retrieve_and_rerank,
     _retrieve_candidates,
@@ -66,17 +79,68 @@ RECORDS_DIR = ROOT / "data" / "concepten" / "records"
 ANCHORS_PATH = ROOT / "data" / "programma" / "anchors.json"
 PROGRAMMA_PATH = ROOT / "data" / "programma" / "programma.json"
 
-# Lazy-init retrieval-stack (bge-m3 + reranker laden duurt ~5-15s)
-_retrieval_stack: tuple | None = None
+# ---------------------------------------------------------------------------
+# Twee aparte lazy-init caches voor minimale geheugendruk (ADR-027 §vervolg).
+#
+# _bi_stack: (client, ef, reranker=None) — bge-m3 bi-encoder + ChromaDB.
+#   Altijd geladen bij eerste zoek_*-call. Geen CrossEncoder hier.
+#   reranker=None wordt doorgegeven aan retrieve_and_rerank → bi-encoder-only.
+#
+# _reranker_obj: CrossEncoder — alleen geladen bij zoek_bronnen(rerank=True).
+#   Laad ~3-5s extra, ~300MB RAM. Bij 6 parallelle agents met rerank=False:
+#   reranker wordt in geen van de processen geladen → significant minder druk.
+# ---------------------------------------------------------------------------
+_bi_stack: tuple | None = None        # (client, ef, reranker=None)
+_reranker_obj = None                  # CrossEncoder | None
 
 
-def _get_retrieval_stack():
-    """Lazy-init bge-m3 + reranker. Eerste call kost 5-15s; daarna gecached."""
-    global _retrieval_stack
-    if _retrieval_stack is None:
-        logger.info("Initialiseer retrieval-stack (eenmalig, ~5-15s)...")
-        _retrieval_stack = build_retrieval_stack(chroma_path=CHROMA_PATH)
-    return _retrieval_stack
+def _get_bi_stack() -> tuple:
+    """Lazy-init bge-m3 bi-encoder + ChromaDB-client. Reranker NIET geladen.
+
+    Laadt alleen SentenceTransformerEmbeddingFunction (bi-encoder) + chromadb-client.
+    Geen CrossEncoder — dat is de kern van de optimalisatie voor parallelle agents.
+    Eerste call kost ~5-10s. Daarna gecached als module-level singleton.
+    """
+    global _bi_stack
+    if _bi_stack is None:
+        logger.info("Initialiseer bi-encoder stack (eenmalig, ~5-10s)...")
+        import chromadb
+        from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
+        from tools.lib.retrieval import EMBEDDING_MODEL
+        ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL, device="cpu")
+        client = chromadb.PersistentClient(path=str(CHROMA_PATH))
+        _bi_stack = (client, ef, None)
+    return _bi_stack
+
+
+def _get_reranker():
+    """Lazy-init cross-encoder reranker. Alleen geladen bij rerank=True calls.
+
+    Eerste call kost ~3-5s extra. Daarna gecached als module-level singleton.
+    Retourneert None als laden mislukt (graceful fallback naar bi-encoder).
+    """
+    global _reranker_obj
+    if _reranker_obj is None:
+        from sentence_transformers import CrossEncoder
+        from tools.lib.retrieval import RERANKER_MODEL
+        try:
+            logger.info("Initialiseer cross-encoder reranker (eenmalig, ~3-5s)...")
+            _reranker_obj = CrossEncoder(RERANKER_MODEL, device="cpu")
+        except Exception as e:
+            logger.warning("Reranker laden mislukt (%s) — bi-encoder fallback.", e)
+            return None
+    return _reranker_obj
+
+
+def _get_retrieval_stack() -> tuple:
+    """Legacy-wrapper: retourneert (client, ef, None).
+
+    Alleen gebruikt door _embed_text (zoek_kandidaten, voorstel_kandidaat).
+    Die code heeft alleen de embedding-functie nodig, geen reranker.
+    Retourneert (client, ef, None) — reranker wordt NIET geladen.
+    """
+    client, ef, _ = _get_bi_stack()
+    return client, ef, None
 
 
 def _formatteer_resultaten(results, max_text_chars: int = 1200) -> str:
@@ -115,26 +179,41 @@ def _zoek_bronnen(
     rerank: bool = False,
 ) -> str:
     """
-    Bevraag bronnen-RAG. bron_rollen filtert op type (bv. ['wettekst', 'cbn']).
+    Bevraag bronnen-RAG volledig in-process (geen daemon-roundtrip).
 
-    rerank: default False (bi-encoder alleen — snel, lage CPU). Zet True voor
-    precisie-kritieke calls (bv. bronvermelding voor een ⚖️-claim die je gaat
-    save_record'en). Rerank kost ~50 cross-encoder forward passes per call op CPU.
+    rerank=False (standaard): bi-encoder alleen — snel, lage CPU, reranker
+    wordt NIET geladen. Optimaal voor 6-parallel-agent-scenario's.
+
+    rerank=True: cross-encoder rerank in-process. Reranker wordt lazy geladen
+    bij eerste rerank=True call (~3-5s extra, daarna gecached). Bij laadfouten:
+    graceful fallback naar bi-encoder resultaten.
+
+    Beide paden zijn volledig in-process — geen HTTP-roundtrip naar daemon.
     """
-    client, ef, reranker = _get_retrieval_stack()
+    client, ef, _ = _get_bi_stack()   # reranker NIET geladen hier
     cols = open_collections(client, ef, ["bronnen"])
     if not cols:
         return json.dumps({"error": "bronnen-collection niet beschikbaar"})
 
     if rerank:
-        results = retrieve_and_rerank(
-            query, cols, ["bronnen"], reranker,
-            bi_top_n=max(top_k * 3, 30),  # was *5 / 50 — verlaagd voor CPU-warmte
-            rerank_threshold=0.0,
-            max_results=top_k,
-            expand_context=False,
-            bron_rollen=bron_rollen,
-        )
+        reranker = _get_reranker()    # lazy-laden, None bij laadfouten
+        if reranker is not None:
+            results = retrieve_and_rerank(
+                query, cols, ["bronnen"], reranker,
+                bi_top_n=max(top_k * 3, 30),
+                rerank_threshold=0.0,
+                max_results=top_k,
+                expand_context=False,
+                bron_rollen=bron_rollen,
+            )
+        else:
+            # Reranker laden mislukt — graceful fallback naar bi-encoder
+            logger.warning("Reranker niet beschikbaar; fallback naar bi-encoder voor rerank=True call.")
+            results = _retrieve_candidates(
+                cols, query, ["bronnen"], bi_top_n=top_k, bron_rollen=bron_rollen
+            )
+            results.sort(key=lambda x: x.score, reverse=True)
+            results = results[:top_k]
     else:
         results = _retrieve_candidates(
             cols, query, ["bronnen"], bi_top_n=top_k, bron_rollen=bron_rollen
@@ -146,8 +225,11 @@ def _zoek_bronnen(
 
 
 def _zoek_concepten(query: str, top_k: int = 10) -> str:
-    """Bevraag concepten-RAG (near-duplicate-check + cross-record-buren)."""
-    client, ef, _ = _get_retrieval_stack()
+    """Bevraag concepten-RAG (near-duplicate-check + cross-record-buren).
+
+    In-process via bi-encoder stack (geen daemon-roundtrip). Reranker niet nodig.
+    """
+    client, ef, _ = _get_bi_stack()
     cols = open_collections(client, ef, ["concepten"])
     if not cols:
         return json.dumps({"error": "concepten-collection niet beschikbaar"})
@@ -175,7 +257,7 @@ def _zoek_vragen(
 
     Returns: compacte lijst van vraag-metadata + similarity-score (geen chunk-tekst).
     """
-    client, ef, _ = _get_retrieval_stack()
+    client, ef, _ = _get_bi_stack()
     cols = open_collections(client, ef, ["vragen"])
     if not cols:
         return json.dumps({"error": "vragen-collection niet beschikbaar — run eerst: python3 -m tools.rag.rag_index --add-vragen"})
@@ -305,8 +387,8 @@ def _check_record_bestaat(record_id: str) -> str:
 # ---------------------------------------------------------------------------
 
 def _embed_text(text: str) -> list[float]:
-    """Genereer bge-m3-embedding voor een string via de retrieval-stack."""
-    _, ef, _ = _get_retrieval_stack()
+    """Genereer bge-m3-embedding voor een string via de bi-encoder stack."""
+    _, ef, _ = _get_bi_stack()
     emb = ef([text])[0]
     if hasattr(emb, "tolist"):
         return emb.tolist()
@@ -802,16 +884,19 @@ async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
 
 def _preload_retrieval_stack_async() -> None:
     """
-    Preload bge-m3 + reranker in achtergrond-thread zodat de eerste tool-call
-    niet 10s hoeft te wachten. Blokkeert server-startup NIET — Claude Code kan
-    al `list_tools` aanroepen terwijl de modellen laden.
+    Preload bge-m3 bi-encoder in achtergrond-thread zodat de eerste tool-call
+    niet hoeft te wachten. Blokkeert server-startup NIET — Claude Code kan
+    al `list_tools` aanroepen terwijl het model laadt.
+
+    De reranker wordt NIET pregeload — alleen geladen bij rerank=True calls.
+    Dit bespaart ~3-5s startup-tijd en ~300MB RAM bij agents die nooit reranken.
     """
     import threading
 
     def _worker() -> None:
         try:
-            logger.info("Preload bge-m3 + reranker in achtergrond...")
-            _get_retrieval_stack()
+            logger.info("Preload bge-m3 bi-encoder in achtergrond...")
+            _get_bi_stack()
             logger.info("Preload klaar — eerste zoek_*-call wordt snel.")
         except Exception as e:  # noqa: BLE001
             logger.warning("Preload-fout (niet kritiek; lazy-fallback): %s", e)
