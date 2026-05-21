@@ -100,32 +100,50 @@ def test_index_bevat_tabel(gerenderd):
 # ---------------------------------------------------------------------------
 
 
-def test_h2_anchor_per_vraag(gerenderd):
-    """Elke vraag-eenheid heeft een H2-heading met het vraag_id."""
-    data = json.loads((MERGED_DIR / "2024-1.json").read_text())
-    inhoud = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
-    for vraag in data["vragen"]:
-        vraag_id = vraag["vraag_id"]
-        assert f"## {vraag_id}" in inhoud, f"H2 anchor voor {vraag_id} ontbreekt"
-
-
-def test_vraag_onderwerp_aanwezig(gerenderd):
-    """vraag_onderwerp is zichtbaar in de render."""
+def test_h2_is_vraag_onderwerp(gerenderd):
+    """H2 per vraag-eenheid bevat vraag_onderwerp (niet vraag_id)."""
     data = json.loads((MERGED_DIR / "2024-1.json").read_text())
     inhoud = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
     for vraag in data["vragen"]:
         onderwerp = vraag["interpretatie"]["vraag_onderwerp"]
-        assert onderwerp in inhoud, f"Onderwerp '{onderwerp}' ontbreekt in render"
+        assert f"## {onderwerp}" in inhoud, (
+            f"H2 met onderwerp '{onderwerp}' ontbreekt in render"
+        )
 
 
-def test_themas_tags_aanwezig(gerenderd):
-    """themas zijn zichtbaar in de render (als tags of inline)."""
+def test_vraag_id_als_hidden_anchor(gerenderd):
+    """vraag_id is aanwezig als HTML-anchor voor deeplinks (niet zichtbaar als ## header)."""
     data = json.loads((MERGED_DIR / "2024-1.json").read_text())
     inhoud = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
     for vraag in data["vragen"]:
-        themas = vraag["interpretatie"].get("themas", [])
-        for thema in themas[:2]:  # check eerste 2 themas
-            assert thema in inhoud, f"Thema '{thema}' ontbreekt in render"
+        vraag_id = vraag["vraag_id"]
+        assert f'<a id="{vraag_id}"></a>' in inhoud, (
+            f"Hidden anchor voor {vraag_id} ontbreekt"
+        )
+        # Vraag_id mag NIET als H2 voorkomen
+        assert f"## {vraag_id}" not in inhoud, (
+            f"vraag_id '{vraag_id}' is per ongeluk als H2 gerenderd"
+        )
+
+
+def test_themas_niet_publiek_zichtbaar(gerenderd):
+    """themas zijn metadata — NIET zichtbaar in render-output."""
+    inhoud = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
+    # "Thema's:" als heading mag niet voorkomen
+    assert "Thema's:" not in inhoud, "Thema's-regel zou niet publiek zichtbaar mogen zijn"
+    assert "*Thema's*:" not in inhoud, "Thema's-regel zou niet publiek zichtbaar mogen zijn"
+
+
+def test_herkomst_regel_aanwezig(gerenderd):
+    """Onder elke H2 staat een kleine italic herkomst-regel."""
+    # 2024-1 is herinnering → check herkomst-tekst
+    inhoud_2024 = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
+    assert "*Examen 2024-1 (uit herinnering gereconstrueerd)*" in inhoud_2024, (
+        "Herkomst-regel voor herinnering-examen ontbreekt"
+    )
+    # 2013-1 is officieel → simpele herkomst
+    inhoud_2013 = (OUTPUT_DIR / "2013-1.md").read_text(encoding="utf-8")
+    assert "*Examen 2013-1*" in inhoud_2013, "Herkomst-regel voor officieel examen ontbreekt"
 
 
 # ---------------------------------------------------------------------------
@@ -151,7 +169,7 @@ def test_vraagstelling_aanwezig_bij_volledig(gerenderd):
 
 
 def test_mc_opties_aanwezig(gerenderd):
-    """MC-opties worden gerenderd als bullet-lijst."""
+    """MC-opties worden gerenderd als bullet-lijst met label (alleen opties hebben labels)."""
     data = json.loads((MERGED_DIR / "2024-1.json").read_text())
     inhoud = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
     for vraag in data["vragen"]:
@@ -159,9 +177,9 @@ def test_mc_opties_aanwezig(gerenderd):
             if deelvraag.get("vraagtype") == "mc_keuze":
                 opties = deelvraag.get("opties", [])
                 for optie in opties[:2]:
-                    # Formaat: - **{id}**: {tekst}
+                    # Formaat: - **{id})** {tekst}
                     optie_id = optie["id"]
-                    assert f"**{optie_id}**" in inhoud, (
+                    assert f"**{optie_id})**" in inhoud, (
                         f"MC-optie {optie_id} ontbreekt in render"
                     )
 
@@ -171,9 +189,8 @@ def test_topic_only_warning_callout(gerenderd):
     inhoud = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
     # vr10 sub-a is topic_only
     assert "[!warning]" in inhoud, "Geen warning callout gevonden (topic_only)"
-    assert "Topic only" in inhoud or "topic_only" in inhoud.lower(), (
-        "Warning callout bevat geen topic-only aanduiding"
-    )
+    # Topic-aanduiding: huidig "Topic enkel — geen vraagstelling beschikbaar"
+    assert "Topic" in inhoud, "Warning callout bevat geen topic-aanduiding"
 
 
 def test_geen_vraagstelling_bij_topic_only(gerenderd):
@@ -273,14 +290,14 @@ def test_output_is_valide_markdown(gerenderd, examen_id):
 
 
 @pytest.mark.parametrize("examen_id", EXAMEN_IDS)
-def test_alle_vraag_ids_aanwezig(gerenderd, examen_id):
-    """Alle vraag-ids uit de JSON zijn terug te vinden in de render."""
+def test_alle_vraag_ids_als_anchor(gerenderd, examen_id):
+    """Alle vraag-ids zijn aanwezig als hidden HTML-anchor (voor deeplinks)."""
     data = json.loads((MERGED_DIR / f"{examen_id}.json").read_text())
     inhoud = (OUTPUT_DIR / f"{examen_id}.md").read_text(encoding="utf-8")
     for vraag in data["vragen"]:
         vraag_id = vraag["vraag_id"]
-        assert vraag_id in inhoud, (
-            f"vraag_id '{vraag_id}' ontbreekt in {examen_id}.md"
+        assert f'<a id="{vraag_id}"></a>' in inhoud, (
+            f"Hidden anchor voor '{vraag_id}' ontbreekt in {examen_id}.md"
         )
 
 
@@ -323,20 +340,21 @@ def test_idempotent_geen_mtime_wijziging(gerenderd, tmp_path):
 # ---------------------------------------------------------------------------
 
 
-def test_deelvraag_header_format(gerenderd):
-    """Deelvraag-headers gebruiken H3 met label_in_pdf of id."""
+def test_geen_deelvraag_label_header(gerenderd):
+    """Deelvragen worden ZONDER label/header gerenderd — vraagstelling staat verbatim."""
     inhoud = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
-    # Deelvragen staan als H3: "### Vraag A" of "### Vraag a"
-    assert "### Vraag " in inhoud, "H3 deelvraag-headers ontbreken"
-
-
-def test_motivatie_verwacht_hint(gerenderd):
-    """Bij motivatie_verwacht=True staat een hint in de render."""
-    # vr10-a heeft motivatie_verwacht=true
-    inhoud = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
-    assert "motivering" in inhoud.lower(), (
-        "Geen motivering-hint bij deelvraag met motivatie_verwacht=true"
+    # Géén "### Vraag X" header — natuurlijke flow zonder labels
+    assert "### Vraag " not in inhoud, (
+        "Deelvraag-header '### Vraag ...' zou niet meer mogen voorkomen"
     )
+    # Géén losse "### a" / "### A" deelvraag-headers (alleen H2 op vraag-eenheid-niveau)
+    for letter in "abcdefgh":
+        assert f"### {letter}\n" not in inhoud, (
+            f"Deelvraag-header '### {letter}' zou niet meer mogen voorkomen"
+        )
+        assert f"### {letter.upper()}\n" not in inhoud, (
+            f"Deelvraag-header '### {letter.upper()}' zou niet meer mogen voorkomen"
+        )
 
 
 def test_confidence_iconen_aanwezig(gerenderd):

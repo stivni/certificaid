@@ -1,34 +1,34 @@
-{#- Template voor één vraag-eenheid (H2 + onderwerp + themas + context + deelvragen + divider).
+{#- Template voor één vraag-eenheid (titel + herkomst-notitie + context + deelvragen + divider).
    Aanpasbare secties zijn gemarkeerd met "PRUTS:" commentaar.
 
    Variabelen:
-     vraag_id         — string (bv. "2024-1-vr1")
-     onderwerp        — string (mag leeg zijn)
-     themas_str       — pre-rendered tag-string (mag leeg zijn; separator + tag-syntax via _formatteer_themas())
+     vraag_id         — string (bv. "2024-1-vr1") — niet gerenderd, alleen voor anchor
+     onderwerp        — string (mag leeg zijn) — wordt de H2-titel
+     herkomst_regel   — kleine italic-notitie (bv. "Examen 2013-1" of "Examen 2024-1 (uit herinnering gereconstrueerd)")
      context_md       — pre-rendered markdown-string (mag leeg zijn)
      deelvragen_md    — list[str] pre-rendered markdown per deelvraag
 -#}
-{# PRUTS: H2-anchor — pas prefix of anchor-syntax aan naar wens #}
-## {{ vraag_id }}
+{# Hidden anchor voor deeplinks (#2013-1-vr13). Wordt niet zichtbaar gerenderd. #}
+<a id="{{ vraag_id }}"></a>
 
-{# PRUTS: Onderwerp-style — huidig: bold. Alternatieven: italic, callout, gewoon tekst #}
+{# PRUTS: H2-titel — vraag_onderwerp (fallback "Vraag" als onderwerp leeg). #}
 {% if onderwerp %}
-**{{ onderwerp }}**
+## {{ onderwerp }}
+{% else %}
+## Vraag
+{% endif %}
+
+{# PRUTS: Herkomst-regel — klein, italic. Aanpasbaar in _formatteer_herkomst() in Python. #}
+{% if herkomst_regel %}
+*{{ herkomst_regel }}*
 
 {% endif %}
-{# PRUTS: Themas — themas_str is pre-rendered door Python (separator + tag-syntax).
-   Separator wijzigen: pas _formatteer_themas() aan in render_merged_v4.py.
-   Tag-syntax (backticks, hashtags, ...): idem. #}
-{% if themas_str %}
-*Thema's*: {{ themas_str }}
-
-{% endif %}
-{# PRUTS: Context — huidig: direct als blok ingevoegd vóór deelvragen #}
+{# PRUTS: Context — direct na herkomst, vóór deelvragen #}
 {% if context_md %}
 {{ context_md }}
 
 {% endif %}
-{# Deelvragen: volgorde en scheiding zijn aanpasbaar #}
+{# Deelvragen: één voor één, geen labels. Visuele scheiding komt door antwoord-callouts. #}
 {% for deelvraag_md in deelvragen_md %}
 {{ deelvraag_md }}
 

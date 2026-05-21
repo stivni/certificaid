@@ -366,14 +366,15 @@ def _render_deelvraag_data(
     vraag_antwoord: dict[str, Any] | None,
     env: Environment,
 ) -> str:
-    """Bereid deelvraag-data voor en delegeer naar _deelvraag.md.j2."""
-    label = deelvraag.get("label_in_pdf") or deelvraag.get("id", "?")
-    motivatie_verwacht = deelvraag.get("motivatie_verwacht", False)
+    """Bereid deelvraag-data voor en delegeer naar _deelvraag.md.j2.
+
+    Geen labels of nummering meer in output — vraagstelling staat verbatim.
+    """
     volledigheid = deelvraag.get("volledigheid", "volledig")
     vraagtype = deelvraag.get("vraagtype", "open")
     vraagstelling = (deelvraag.get("vraagstelling") or "").strip() or None
 
-    # MC-opties: normaliseer naar list[dict] met id en tekst
+    # MC-opties: normaliseer naar list[dict] met id en tekst (id behouden — MC-opties wél gelabeld)
     opties_raw = deelvraag.get("opties", []) or []
     opties = [
         {"id": o.get("id", "?"), "tekst": (o.get("tekst") or "").strip()}
@@ -387,8 +388,6 @@ def _render_deelvraag_data(
 
     tmpl = env.get_template("_deelvraag.md.j2")
     uitvoer = tmpl.render(
-        label=label,
-        motivatie_verwacht=motivatie_verwacht,
         volledigheid=volledigheid,
         vraagtype=vraagtype,
         vraagstelling=vraagstelling,
@@ -415,13 +414,22 @@ def _bouw_antwoorden_index(antwoord: dict[str, Any] | None) -> dict[str, dict[st
     }
 
 
-def _formatteer_themas(themas: list[str]) -> str:
-    """Formatteer themas als tag-rij.
+def _formatteer_herkomst(examen_id: str, vraag_herkomst: str) -> str:
+    """Formatteer een kleine italic-notitie over de herkomst van de vraag.
 
-    PRUTS: pas separator of tag-syntax hier aan.
-    Huidig: backtick-tags gescheiden door " · ".
+    PRUTS: pas de notitie-string hier aan (bv. wikilink i.p.v. plain text,
+    andere herkomst-labels, fallback-tekst).
+
+    Voorbeelden:
+      ("2013-1", "officieel")    → "Examen 2013-1"
+      ("2024-1", "herinnering")  → "Examen 2024-1 (uit herinnering gereconstrueerd)"
+      ("2014-1", "hybride")      → "Examen 2014-1 (hybride bron)"
     """
-    return " · ".join(f"`{t}`" for t in themas)
+    if vraag_herkomst == "herinnering":
+        return f"Examen {examen_id} (uit herinnering gereconstrueerd)"
+    if vraag_herkomst == "hybride":
+        return f"Examen {examen_id} (hybride bron)"
+    return f"Examen {examen_id}"
 
 
 def _render_vraag_eenheid(vraag: dict[str, Any], env: Environment | None = None) -> str:
@@ -434,7 +442,8 @@ def _render_vraag_eenheid(vraag: dict[str, Any], env: Environment | None = None)
     antwoord = vraag.get("antwoord")
 
     onderwerp = interpretatie.get("vraag_onderwerp", "")
-    themas = interpretatie.get("themas", [])
+    examen_id = interpretatie.get("examen_id", "")
+    vraag_herkomst = interpretatie.get("vraag_herkomst", "officieel")
     context_blokken = interpretatie.get("context_blokken", [])
     deelvragen = interpretatie.get("vragen", [])
 
@@ -443,8 +452,8 @@ def _render_vraag_eenheid(vraag: dict[str, Any], env: Environment | None = None)
     # Complexe context-blokken blijven in Python
     context_md = _render_context_blokken(context_blokken)
 
-    # Themas-string (PRUTS-punt zit in _formatteer_themas)
-    themas_str = _formatteer_themas(themas) if themas else ""
+    # Herkomst-regel (PRUTS-punt zit in _formatteer_herkomst)
+    herkomst_regel = _formatteer_herkomst(examen_id, vraag_herkomst) if examen_id else ""
 
     # Deelvragen pre-renderen via subtemplate
     deelvragen_md = [
@@ -456,7 +465,7 @@ def _render_vraag_eenheid(vraag: dict[str, Any], env: Environment | None = None)
     return tmpl.render(
         vraag_id=vraag_id,
         onderwerp=onderwerp,
-        themas_str=themas_str,
+        herkomst_regel=herkomst_regel,
         context_md=context_md.strip(),
         deelvragen_md=deelvragen_md,
     ).rstrip()

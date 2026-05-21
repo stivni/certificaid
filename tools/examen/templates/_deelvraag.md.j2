@@ -1,45 +1,36 @@
-{# Template voor één deelvraag (H3 + motivering-hint + vraagstelling + mc-opties + topic-only-warning + antwoord-callout).
+{# Template voor één deelvraag — natuurlijke flow zonder labels of nummering.
+   De vraagstelling staat verbatim als paragraaf; het is duidelijk dat een vraag een vraag is.
    Aanpasbare secties zijn gemarkeerd met "PRUTS:" commentaar.
 
    Variabelen:
-     label                  — string (bv. "a", "A", "1")
-     motivatie_verwacht     — bool
      volledigheid           — string ("volledig" | "topic_only" | ...)
      vraagtype              — string ("open" | "mc_keuze" | "juist_fout")
      vraagstelling          — string|None (leeg of None → niet gerenderd)
      opties                 — list[{id, tekst}]|None (alleen bij mc_keuze)
-     topic_only_onderwerp   — string|None (alleen bij topic_only; kan leeg zijn)
+     topic_only_onderwerp   — string|None (alleen bij topic_only)
      antwoord_callout_md    — pre-rendered collapsed success-callout string
 #}
-{#- PRUTS: H3-formatting + motivering-hint-style
-   Huidig: "### Vraag {label} *(motivering vereist)*"
-   motivering_hint is "" of " *(motivering vereist)*" — zet in Python of pas hieronder aan.
-   Alternatieven: weglaten van "Vraag", andere hint-tekst, bold i.p.v. italic -#}
-### Vraag {{ label }}{{ " *(motivering vereist)*" if motivatie_verwacht else "" }}
-
-{# PRUTS: Vraagstelling-formatting — huidig: gewone paragraaf.
+{# PRUTS: Vraagstelling-formatting — huidig: gewone paragraaf zonder label.
    Alternatieven: blockquote (prefix "> "), bold, cursief #}
 {% if volledigheid != "topic_only" and vraagstelling %}
 {{ vraagstelling }}
 
 {% endif %}
-{# PRUTS: MC-opties bullet-style — huidig: "- **{id}**: {tekst}"
-   Alternatieven: "- {id}. {tekst}", "  {id}) {tekst}", genummerde lijst #}
+{# PRUTS: MC-opties — huidig: "**a)** {tekst}" als bullet-lijst.
+   Alternatieven: genummerd, inline, andere brackets #}
 {% if vraagtype == "mc_keuze" and opties %}
 {% for optie in opties %}
-- **{{ optie.id }}**: {{ optie.tekst }}
+- **{{ optie.id }})** {{ optie.tekst }}
 {% endfor %}
 
 {% endif %}
-{# PRUTS: Topic-only callout — soort (huidig: warning), titel-tekst
-   De callout-body is topic_only_onderwerp (pre-rendered in Python).
-   Volgorde t.o.v. antwoord-callout: huidig eerst warning dan antwoord. #}
+{# PRUTS: Topic-only — warning-callout met onderwerp. Soort en titel aanpasbaar. #}
 {% if volledigheid == "topic_only" %}
-> [!warning] Topic only
+> [!warning] Topic enkel — geen vraagstelling beschikbaar
 {% if topic_only_onderwerp %}
 > {{ topic_only_onderwerp }}
 {% endif %}
 
 {% endif %}
-{# Antwoord-callout: pre-rendered collapsed success-callout (Python), altijd aanwezig #}
+{# Antwoord-callout per deelvraag (collapsed): inhoud is in Python pre-rendered. #}
 {{ antwoord_callout_md }}
