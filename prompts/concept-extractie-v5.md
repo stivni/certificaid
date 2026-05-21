@@ -35,37 +35,17 @@ Concreet: als `obligatielening` zowel PO 1.1 (boekhouden) als PO 2.x (fiscaal) a
 
 ## 2bis. MCP-tools voor on-demand context
 
-Je krijgt **geen vooraf-gebundelde initial-ctx** voor chunks/matches. In plaats daarvan beschik je over twee MCP-servers:
-
-### `certificaid-rag` — wetteksten, concepten, anchors
+Je krijgt **geen vooraf-gebundelde initial-ctx** voor chunks/matches. In plaats daarvan beschik je over de **`certificaid-rag` MCP-server** met vijf tools:
 
 | Tool | Wanneer gebruiken |
 |---|---|
 | `zoek_bronnen(query, top_k, bron_rollen, rerank)` | Bevraag wetteksten/KB/CBN/normen. **Default `rerank=false`** (bi-encoder snel, lage CPU). Zet `rerank=true` alleen voor **precisie-kritieke calls** vóór `save_record` (bv. final bronvermelding voor een ⚖️-claim die je gaat opslaan). Filter `bron_rollen` op `['wettekst', 'kb', 'cbn', 'norm']` waar gepast. |
 | `zoek_concepten(query, top_k)` | Near-duplicate-check vóór `save_record`; ook voor cross-record-buren tijdens schrijven. |
-| `lees_record(record_id)` | Volledige JSON-inhoud van een specifiek concept-record. Sneller dan een query. |
+| `lees_record(record_id)` | Volledige JSON-inhoud van een specifiek record. Sneller dan een query. |
 | `lees_anchor_bundle(po_id)` | Alle anchors + TDKs voor een PO. |
 | `check_record_bestaat(record_id)` | Filesystem-check voor naam-conflict-detectie. |
 
-### `certificaid-tarieven` — tarief-records (ADR-026)
-
-Tarieven, drempels en beslissingsmatrices uit tabel-zware bronnen (Cijfers-Tarieven, almanaks, deels memento) leven als gestructureerde JSON-records — niet in de bronnen-RAG. Raadpleeg ze wanneer een concept tarief-, drempel- of decision-matrix-gebonden is (fiscale tarieven, BTW, schenkings-/successierechten, sociale bijdragen, etc.).
-
-| Tool | Wanneer gebruiken |
-|---|---|
-| `lijst_tabellen(bron_id?, type_filter?)` | Overzicht van beschikbare tarief-tabellen, optioneel filter op bron of type (`decision_matrix` · `tariefschijven` · `vrije_tabel`). |
-| `zoek_tabellen(query, top_k)` | Vrije-tekst zoek over titel + context + dimensie/kolom-labels. Substring-match per token (geen embedding). Goed startpunt om de juiste tabel te identificeren. |
-| `lees_tabel(record_id)` | Volledig JSON-record on-demand. |
-| `query_tabel(record_id, filters)` | Type-aware lookup binnen één record. Voor `decision_matrix`: filters = (partiële) coordinaten → matching cellen met uitkomsten + voetnoot-teksten ingevoegd. Voor `tariefschijven`/`vrije_tabel`: filters = kolom → substring → matching rijen. |
-
-**Wanneer een tarief-record citeren in een concept-fiche?**
-- Wanneer het concept een **getalsmatige uitkomst** heeft die van condities afhangt (bv. "BTW-tarief renovatie privégebruik > 50% door btw-plichtige vennootschap": `query_tabel('btw-facturatie-bouw-vennootschappen', {werkdeel:'heel-gebouw', klanttype:'btw-plichtig'})` → 12 cellen).
-- Wanneer het concept een **drempelbedrag of schijf-tarief** bevat (bv. "Belastingvrije som basis aj. 2026"): `lees_tabel('pb-belastingvrije-sommen-basis')`.
-- Voor bron-verwijzing in een ⚖️-claim: gebruik record-id + bron_referentie.paginas i.p.v. de markdown-versie van Cijfers-Tarieven (die staat op `needs-rework` en wordt gefaseerd uitgefaseerd ten gunste van de records-laag).
-
-### Iteratief gebruiken
-
-Doe meerdere gerichte calls i.p.v. één brede. Verfijn op basis van eerdere resultaten. Voorbeeld-flow voor obligatielening:
+**Iteratief gebruiken**: doe meerdere gerichte calls i.p.v. één brede. Verfijn op basis van eerdere resultaten. Voorbeeld-flow voor obligatielening:
 1. `lees_anchor_bundle('1.1')` — TDKs voor PO
 2. `lees_record('obligatielening')` — bestaande inhoud als content-inspiratie
 3. `zoek_bronnen('uitgifte obligaties NV WVV', top_k=5, bron_rollen=['wettekst'])` — wettekst
@@ -73,13 +53,6 @@ Doe meerdere gerichte calls i.p.v. één brede. Verfijn op basis van eerdere res
 5. `zoek_concepten('lange-termijn-financiering')` — bestaat het kader al?
 6. `check_record_bestaat('lange-termijn-financiering')` — bevestig vóór save
 7. (schrijven via records-API `save_record`)
-
-Voorbeeld-flow voor een tarief-relevant concept (bv. schenkingsrechten Vlaanderen):
-1. `lees_anchor_bundle('2.7')` — TDKs voor PO
-2. `zoek_tabellen('schenkingsrechten vlaanderen', top_k=5)` — kandidaat-tabellen
-3. `lees_tabel('schenkingsrechten-vlaanderen-onroerend-rechte-lijn')` — exacte tarief-schijven + voetnoten
-4. `zoek_bronnen('schenkingsrechten Vlaamse Codex Fiscaliteit art 2.8', bron_rollen=['wettekst'])` — wetsbasis
-5. (schrijven via records-API `save_record`)
 
 Geen tool? Vraag het via gaps.json-suggestie aan de orchestrator.
 
@@ -138,13 +111,13 @@ Lege secties niet renderen. Render-laag toont sectie-koppen (h2) + collapsible-s
 | Kind | Speciale focus | Sectie-aanpassingen |
 |---|---|---|
 | `instrument` | Wanneer kies je · rol × perspectief vol uitgewerkt · boekingen per moment-in-tijd onder Rol > Boekhouder | Alle 10 secties |
-| `operatie` | Wettelijke voorwaarden als eerste onderdeel in "Hoe het werkt" · procedurele stappen onder Rol > `adviseur` (begeleiding-aspect) | Idem, met voorwaarden-onderdeel |
+| `operatie` | Wettelijke voorwaarden als eerste onderdeel in "Hoe het werkt" · procedurele stappen onder Rol > Begeleider | Idem, met voorwaarden-onderdeel |
 | `procedure` | Wettelijke stappen-sequentie als hoofdfocus · Rol per actor in de procedure | Sterke nadruk op stappenlijst-weergave |
 | `regime` / `fiscale-regeling` | Voorwaarden + tarieven + wachttermijnen + cumulatie + niet-van-toepassing-op centraal | Wanneer-kies-je vervangen door "Wanneer is dit van toepassing" |
-| `ratio` | Formule + interpretatie-drempels (vuistregels) + wettelijke drempels + sectorgebondenheid + interpretatie-valkuilen | Rol vooral `adviseur` + `externe auditor`; geen `boekhouder` typisch |
+| `ratio` | Formule + interpretatie-drempels (vuistregels) + wettelijke drempels + sectorgebondenheid + interpretatie-valkuilen | Rol vooral Adviseur + Auditor; geen Boekhouder typisch |
 | `kader` | Gemeenschappelijke principes + vergelijkingsmatrix tussen leden + accountant-taken op kader-niveau (kiezen · samen-lezen · cross-instrument-vergelijken) | Geen "Wanneer kies je dit"; wel "Wanneer welk lid?" als sub-rubriek |
 | `familie` | Onderscheidingscriteria tussen leden + vergelijkingsmatrix + leden-lijst | Vergelijking centraal; minimale eigen mechanisme |
-| `balanspost` | Skelet: MAR-rubriek · componenten · waarderingsregels (verwijst naar `waarderingsregels-discipline`-kader) · afschrijving/wijziging · verplichting in toelichting · netto-actief-toets-interactie · fiscaal aspect | Wanneer-kies-je VERVANGEN door "Wanneer komt deze post voor" (verplicht aanwezig waar van toepassing — geen vrije keuze). Rol vooral `boekhouder` + `externe auditor`; `adviseur` waar keuze-aspecten (bv. activeren-vs-kost, afschrijfmethode); `interne-controle-adviseur` voor cyclus-IC-ontwerp. |
+| `balanspost` | Skelet: MAR-rubriek · componenten · waarderingsregels (verwijst naar `waarderingsregels-discipline`-kader) · afschrijving/wijziging · verplichting in toelichting · netto-actief-toets-interactie · fiscaal aspect | Wanneer-kies-je VERVANGEN door "Wanneer komt deze post voor" (verplicht aanwezig waar van toepassing — geen vrije keuze). Rol vooral 📋 Boekhouder + 🔍 Auditor; 🎯 Adviseur waar keuze-aspecten (bv. activeren-vs-kost, afschrijfmethode). |
 
 **"Wanneer kies je dit?"-variant** voor non-kiesbare kinds:
 - `regime`/`fiscale-regeling`: "Wanneer is dit van toepassing" (voorwaarden zijn de poortwachter)
@@ -154,20 +127,10 @@ Lege secties niet renderen. Render-laag toont sectie-koppen (h2) + collapsible-s
 - Voor `ratio` blijft het "Wanneer gebruik je deze ratio" (analyse-keuze)
 
 **Voor wie werkt de accountant** — heuristic bij elk record:
-1. Welke perspectieven raken dit concept? Twee assen mogelijk:
-   - **Klant-type-perspectieven**: uitgever · ontvanger · belegger · belegger-venn. · bestuur · KMO-handelsonderneming · familiale holding · beursgenoteerde onderneming · vzw · …
-   - **Eigen-kantoor-perspectief** (`eigen-kantoor`): de accountant past iets toe op zijn eigen praktijk. Vooral PO 4.0-relevant: AWW-eigen-kantoor-procedures, ITAA-deontologie-naleving, ITAA-kwaliteitstoetsing, GDPR-eigen-kantoor. Voor concepten waar de accountant zélf onderhevig is aan een regeling (niet alleen zijn cliënt).
-2. Voor elk perspectief: welke rollen kan de accountant invullen? Gebruik deze 5-rol-set:
-   - **`adviseur`** — strategisch/operationeel advies + begeleiding (algemeen toepasbaar, vooral PO 1.1/1.3/2.x/3.0; inclusief klant-begeleiding bij insolventie/faillissement)
-   - **`boekhouder`** — boekings-uitvoering, MAR-toepassing, jaarrekening-opmaak (PO 1.1/1.2; ook afsluitende rekeningen voor curator bij faillissement)
-   - **`externe auditor`** — commissaris-mandaat, assurance-opdrachten, controleverklaring; inclusief fraude-detectie-verantwoordelijkheid (ISA 240) en frauderisico-evaluatie (PO 1.6)
-   - **`interne-controle-adviseur`** — interne-controle-systemen ontwerpen of evalueren voor cliënt. *Niet de in-house interne-audit-functie zelf* (PO 1.7)
-   - **`fiscaal adviseur`** — fiscaal advies + aangifte-opmaak + fiscale procedure (PO 2.x)
-3. **Toon geen lege rollen.** Een record toont alleen de rol-cellen die echt inhoud hebben — dun-bezet (~30-40% cellen vol) is OK en eerlijk.
-4. **Geen aparte rollen** voor compliance, curator, forensisch. Specifieke vermelding:
-   - **Compliance-werk**: AWW-cliëntonderzoek (`adviseur` of `externe auditor`-rol) of AWW-eigen-kantoor (perspectief `eigen-kantoor` × `interne-controle-adviseur`-rol)
-   - **Curator** is een externe actor in faillissement-context, geen rol-van-de-accountant. Wat de accountant zelf doet bij faillissement (klant-begeleiding, afsluitende rekeningen, schuldvordering indienen) valt onder `adviseur` of `boekhouder`
-   - **Forensisch** werk binnen audit-mandaat valt onder `externe auditor` (ISA 240); specialistische forensische opdrachten buiten het basisprogramma vermelden in body waar relevant
+1. Welke klant-perspectieven raken dit concept? (uitgever · ontvanger · belegger · belegger-venn. · bestuur · …)
+2. Voor elk perspectief: welke rollen kan de accountant invullen? (`adviseur` · `boekhouder` · `begeleider` · `fiscaal` · `controleur` · `curator` · `forensisch`)
+3. Voeg `🔍 Als auditor / commissaris` toe als de jaarrekening van een betrokken vennootschap gecontroleerd wordt.
+4. **Toon geen lege rollen.**
 
 ---
 
@@ -321,8 +284,23 @@ Concreet: bij eerste extract van `obligatielening` in PO 1.1, controleer dat `la
 8. **Confidence-labels** per element/claim
 9. **Edges** declareren (`lid_van`, `beïnvloed_door`, etc.)
 10. **Wat dit record dekt** als slotsection met interne ankers
-11. **save_record** via records-API (atomair: RAG + disk + render)
-12. **Log gaps** voor concepten die je tegenkwam maar buiten scope vielen
+11. **Schrijf record naar `/tmp/<fiche_id>.json`** via Write-tool (clean JSON — geen Python-escape-issues)
+12. **Sla op via CLI**:
+    ```bash
+    python3 -m tools.lib.records_api save /tmp/<fiche_id>.json --wave-id <wave-tag>
+    ```
+    Eén call: `save_record` (RAG + disk + render) + `markeer_gerealiseerd` in candidates-DB gecombineerd.
+
+    **NIET DOEN**:
+    ```bash
+    python3 -c "from tools.lib import records_api; records_api.save_record({...})"
+    ```
+    → faalt op SyntaxError bij records ≥ 5 KB met embedded quotes, emoji of speciale tekens.
+
+    **NIET DOEN**: aparte `mcp__certificaid-rag__markeer_kandidaat_gerealiseerd`-call
+    → niet meer nodig; `--wave-id` flag doet dit impliciet via de CLI.
+
+13. **Log gaps** voor concepten die je tegenkwam maar buiten scope vielen
 
 ---
 
@@ -333,10 +311,10 @@ Stel: je werkt aan PO 1.1 en stuit op `obligatielening`.
 ✅ **Goed**:
 - Definitie + economische substantie
 - Onderdelen volledig (drie hoofdelementen · uitgiftekosten · agio/disagio · prorata · vervaldag)
-- Rol > Uitgever-vennootschap > drie rollen (`adviseur` · `boekhouder` · `fiscaal adviseur`)
-- Rol > Belegger NP (`fiscaal adviseur` — PB-aangifte volledig uitgewerkt al raakt dat aan PO 2.x)
-- Rol > Belegger-venn. (`boekhouder` + `fiscaal adviseur` — incl. DBI-uitsluiting al raakt dat aan PO 2.x)
-- Rol > Externe auditor (commissaris-perspectief op uitgever — completeness/waardering/toelichting)
+- Rol > Uitgever-vennootschap > alle vier rollen (Adviseur · Boekhouder · Begeleider · Fiscaal)
+- Rol > Belegger NP (Fiscaal — PB-aangifte volledig uitgewerkt al raakt dat aan PO 2.x)
+- Rol > Belegger-venn. (Boekhouder + Fiscaal — incl. DBI-uitsluiting al raakt dat aan PO 2.x)
+- Rol > Auditor (al raakt dat aan PO 1.7)
 - `linked_anchors`: 1.1.II.V + 1.4.III.B + 2.x.X.Y (alle relevante)
 
 ❌ **Fout**:

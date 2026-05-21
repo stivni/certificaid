@@ -630,6 +630,7 @@ def save_record(
     record: dict,
     chroma_path: Optional[str] = None,
     content_dir: Optional[Path] = None,
+    extract_wave_id: Optional[str] = None,
 ) -> None:
     """
     Atomair: schrijf record naar disk + upsert in concept-RAG + render markdown-fiche.
@@ -649,6 +650,8 @@ def save_record(
         record: volledig concept-record dict (schema 1.x, ADR-007)
         chroma_path: pad naar ChromaDB-instantie. Default: data/rag/main
         content_dir: doelmap voor markdown-fiche. Default: content/concepten/
+        extract_wave_id: wave-tag voor candidates-DB realisatie-tracking (ADR-025 §wave-planning).
+            Wordt doorgegeven aan candidates_db.markeer_gerealiseerd(). Optioneel.
 
     Raises:
         DaemonUnavailableError: daemon niet bereikbaar of timeout
@@ -725,7 +728,11 @@ def save_record(
     # Try/except: candidates-DB is afgeleid; fout blokkeert save_record NIET.
     try:
         from tools.extractie import candidates_db
-        candidates_db.markeer_gerealiseerd(concept_id, record_id=concept_id)
+        candidates_db.markeer_gerealiseerd(
+            concept_id,
+            record_id=concept_id,
+            extract_wave_id=extract_wave_id,
+        )
     except Exception as cand_exc:  # noqa: BLE001
         logger.debug("save_record: candidate-markering overgeslagen voor %s: %s", concept_id, cand_exc)
 
@@ -1206,6 +1213,79 @@ def _cli_reindex_one(record_id: str, chroma_path: Optional[str]) -> int:
         return 1
 
 
+def _cli_save(
+    json_pad: str,
+    wave_id: Optional[str],
+    chroma_path: Optional[str],
+    geen_rag: bool,
+) -> int:
+    """
+    Laad een record uit een JSON-bestand en sla het op via save_record.
+
+    Vervangt het Python-inline-pattern (`python3 -c "records_api.save_record({...})"`)
+    dat faalt op records ≥ 5 KB met embedded quotes of special chars (SyntaxError).
+
+    Gebruik:
+        python3 -m tools.lib.records_api save /tmp/<fiche_id>.json
+        python3 -m tools.lib.records_api save /tmp/<fiche_id>.json --wave-id wave-001
+        python3 -m tools.lib.records_api save /tmp/<fiche_id>.json --no-rag
+
+    Args:
+        json_pad: pad naar JSON-bestand met het record-dict
+        wave_id: optionele wave-tag voor candidates-DB realisatie-tracking (ADR-025)
+        chroma_path: ChromaDB-pad (default: data/rag/main)
+        geen_rag: als True → sla RAG-update over (--no-rag, voor batch-pipelines met latere reindex)
+
+    Exit 0 bij succes, 1 bij fout.
+    """
+    pad = Path(json_pad).resolve()
+    if not pad.exists():
+        print(f"[save] Bestand niet gevonden: {pad}", file=sys.stderr)
+        return 1
+
+    try:
+        record = json.loads(pad.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        print(f"[save] Ongeldige JSON in {pad}: {exc}", file=sys.stderr)
+        return 1
+
+    concept_id = record.get("id")
+    if not concept_id:
+        print(f"[save] Record heeft geen 'id'-veld — save geweigerd. Bestand: {pad}", file=sys.stderr)
+        return 1
+
+    if geen_rag:
+        # --no-rag: schrijf alleen naar disk + render; skip daemon + candidates-DB
+        # Disk write
+        record_pad = _record_pad(concept_id)
+        record_pad.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            record_pad.write_text(
+                json.dumps(record, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            _render_concept_fiche(record)
+            print(f"[save] Opgeslagen (disk + render, geen RAG): {concept_id}")
+            return 0
+        except OSError as exc:
+            print(f"[save] Disk-write mislukt voor {concept_id}: {exc}", file=sys.stderr)
+            return 1
+
+    resolved_chroma = chroma_path or _default_chroma_path()
+    try:
+        save_record(
+            record,
+            chroma_path=resolved_chroma,
+            extract_wave_id=wave_id,
+        )
+        wave_suffix = f" (wave: {wave_id})" if wave_id else ""
+        print(f"[save] Opgeslagen: {concept_id}{wave_suffix}")
+        return 0
+    except Exception as exc:
+        print(f"[save] Mislukt voor {concept_id}: {exc}", file=sys.stderr)
+        return 1
+
+
 def main() -> None:
     import argparse
 
@@ -1215,12 +1295,17 @@ def main() -> None:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Subcommands:
+  save <pad>        Laad record uit JSON-bestand en sla op via records-API.
+                    Vervangt python3 -c inline-pattern (faalt bij ≥5KB records).
   audit             Controleer disk/RAG parity (read-only). Exit 0 = ok, 1 = drift.
   audit --fix       Herstel drift: verwijder ghosts, reindex missing.
   reindex-all       Indexeer alle disk-records opnieuw in RAG.
   reindex <id>      Indexeer één record opnieuw in RAG.
 
 Voorbeelden:
+  python3 -m tools.lib.records_api save /tmp/mijn-concept.json
+  python3 -m tools.lib.records_api save /tmp/mijn-concept.json --wave-id wave-001
+  python3 -m tools.lib.records_api save /tmp/mijn-concept.json --no-rag
   python3 -m tools.lib.records_api audit
   python3 -m tools.lib.records_api audit --fix
   python3 -m tools.lib.records_api reindex-all
@@ -1235,6 +1320,30 @@ Voorbeelden:
     )
 
     subparsers = parser.add_subparsers(dest="subcommand")
+
+    # save
+    save_parser = subparsers.add_parser(
+        "save",
+        help="Laad record uit JSON-bestand en sla op via records-API (vermijdt Python-inline-pitfall)",
+    )
+    save_parser.add_argument(
+        "pad",
+        help="Pad naar JSON-bestand met record-data",
+    )
+    save_parser.add_argument(
+        "--wave-id",
+        dest="wave_id",
+        default=None,
+        metavar="WAVE_TAG",
+        help="Wave-tag voor candidates-DB realisatie-tracking (ADR-025 §wave-planning). "
+             "Combineert save_record + markeer_gerealiseerd in één call.",
+    )
+    save_parser.add_argument(
+        "--no-rag",
+        dest="geen_rag",
+        action="store_true",
+        help="Sla RAG-index-update over (voor batch-pipelines met latere reindex via reindex-all).",
+    )
 
     # audit
     audit_parser = subparsers.add_parser(
@@ -1271,7 +1380,14 @@ Voorbeelden:
 
     chroma = str(Path(args.chroma).resolve()) if args.chroma else None
 
-    if args.subcommand == "audit":
+    if args.subcommand == "save":
+        sys.exit(_cli_save(
+            json_pad=args.pad,
+            wave_id=args.wave_id,
+            chroma_path=chroma,
+            geen_rag=args.geen_rag,
+        ))
+    elif args.subcommand == "audit":
         sys.exit(_cli_audit(chroma, fix=args.fix))
     elif args.subcommand == "reindex-all":
         sys.exit(_cli_reindex_all(chroma))

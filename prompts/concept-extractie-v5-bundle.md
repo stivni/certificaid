@@ -34,8 +34,17 @@ Doe **geen herhaalcalls** voor deze data. Skip altijd:
 2. **Gebruik de bronnen-hits direct** uit `bronnen_resultaten[].hits` — **geen initiële zoek_bronnen-calls**
 3. **Schrijf fiche** volgens schema 2.0 top-volgorde (zie §3)
 4. **Max 1-3 extra `zoek_bronnen(rerank=true)`** alleen voor wettelijke ⚖️-claims waar bundle gaps heeft
-5. **`save_record(record)`** via `from tools.lib import records_api; records_api.save_record({...})`
-6. **`mcp__certificaid-rag__markeer_kandidaat_gerealiseerd(fiche_id=..., extract_wave_id='<wave-tag>')`**
+5. **Schrijf record naar `/tmp/<fiche_id>.json`** via Write-tool (clean JSON, geen Python-escape-issues)
+6. **Save + markeer via CLI** (één Bash-call):
+   ```bash
+   python3 -m tools.lib.records_api save /tmp/<fiche_id>.json --wave-id <wave-tag>
+   ```
+   Dit combineert `save_record` (disk + RAG + markdown-render) **en** `markeer_kandidaat_gerealiseerd` in één call — **geen aparte MCP-call meer** voor markeer.
+
+**NIET DOEN** — bekende anti-patterns die ~140s/fiche kosten:
+- ❌ `python3 -c "from tools.lib import records_api; records_api.save_record({...})"` — faalt op SyntaxError bij records ≥ 5 KB (embedded quotes/special chars in long strings)
+- ❌ `Write /tmp/<id>.py` met heredoc-script — werkt maar onnodig omslachtig
+- ❌ Aparte `mcp__certificaid-rag__markeer_kandidaat_gerealiseerd`-call — niet meer nodig met `--wave-id` flag
 
 **Harde caps (full-2-pass):**
 - `zoek_bronnen` totaal: ≤ 3 (alleen eigen creatieve queries)
@@ -47,7 +56,7 @@ Doe **geen herhaalcalls** voor deze data. Skip altijd:
 
 1. **Lees de bundle**
 2. **Voer de queries alsnog uit** via `mcp__certificaid-rag__zoek_bronnen(query=<bronnen_resultaten[i].query>, rerank=false, top_k=5)`
-3. Ga verder als 2a stap 3-6
+3. Ga verder als 2a stap 3-6 (incl. `Write /tmp/<id>.json` + CLI-save)
 
 **Harde caps (legacy):**
 - `zoek_bronnen` totaal: ≤ 7 (4 inhaal-queries + 3 eigen)
