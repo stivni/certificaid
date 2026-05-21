@@ -31,8 +31,9 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-021](ADR-021-examenvragen-extractie-v2.md) | Examenvragen-extractie v2 + gestructureerde vraagtekst-blokken | Accepted |
 | [ADR-022](ADR-022-vraag-herinterpretatie-draft.md) | Vraag-herinterpretatie (herinnering-stijl voorbeeldexamens) | Draft |
 | [ADR-023](ADR-023-gestructureerde-antwoorden-en-vraag-v3.1.md) | Gestructureerde antwoorden (`correct_antwoord_blokken[]`) + vraag-cleanup v3.1 | Draft |
-| [ADR-024](ADR-024-visuele-llm-interpretatie-examenvragen.md) | Visuele LLM-interpretatie van examenvragen via per-vraag artefacten | Draft |
+| [ADR-024](ADR-024-visuele-llm-interpretatie-examenvragen.md) | Visuele LLM-interpretatie van examenvragen via per-vraag artefacten | Accepted |
 | [ADR-025](ADR-025-schema-20-didactische-conceptlaag.md) | Schema 2.0 — didactische concept-laag (rol × perspectief · element-vocabulaire · kader/familie kinds) | Draft |
+| [ADR-026](ADR-026-tarief-records-vision-extractie.md) | Tarief-records via vision-extractie + MCP-lookup | Draft |
 
 ## Roadmap
 

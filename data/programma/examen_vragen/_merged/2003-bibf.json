@@ -1,0 +1,225 @@
+{
+  "bron_pdf": "2003-bibf.pdf",
+  "examen_id": "2003-bibf",
+  "merge_datum": "2026-05-20T23:49:10+00:00",
+  "schema_versie": "4.0",
+  "tool": "merge-examen-artefacten",
+  "vragen": [
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-21T00:00:00Z",
+        "antwoord_model": "claude-opus-4-7",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Casus-parameters: machine aangekocht in 2002 voor 100.000,00 EUR; kapitaalsubsidie 10.000,00 EUR definitief toegezegd in 2002 (twee schijven van 5.000,00 EUR in 2003 en 2004); afschrijving 10% lineair; belastingstarief 40%. Bij toezegging wordt de kapitaalsubsidie netto na uitgestelde belasting geboekt: 60% op rekening 15 (netto kapitaalsubsidie) en 40% op rekening 168 (uitgestelde belastingen). Jaarlijkse afschrijving machine: 10.000,00 EUR. Pro rata in resultaatname kapitaalsubsidie volgt het afschrijvingsritme: 10% per jaar van 10.000 = 1.000,00 EUR bruto, waarvan 600,00 EUR via 753 (in resultaat genomen kapitaalsubsidies) en 400,00 EUR via 780 (onttrekking aan uitgestelde belastingen). ⚠️ te verifiëren - rekeningnummers volgen het MAR; exacte codes te valideren.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "regels": [
+                  {
+                    "bedrag": 10000.0,
+                    "naam": "Diverse vorderingen - te ontvangen kapitaalsubsidie",
+                    "rekening": "416",
+                    "zijde": "D"
+                  },
+                  {
+                    "bedrag": 6000.0,
+                    "naam": "Kapitaalsubsidies (netto)",
+                    "rekening": "15",
+                    "zijde": "C"
+                  },
+                  {
+                    "bedrag": 4000.0,
+                    "naam": "Uitgestelde belastingen op kapitaalsubsidies",
+                    "rekening": "168",
+                    "zijde": "C"
+                  }
+                ],
+                "toelichting": "2002 (toezeggingsboeking, in de loop van het boekjaar): definitieve toezegging kapitaalsubsidie 10.000,00 EUR opgesplitst in netto-subsidie (60%) en uitgestelde belastingen (40%).",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "regels": [
+                  {
+                    "bedrag": 10000.0,
+                    "naam": "Afschrijvingen op materiele vaste activa",
+                    "rekening": "6302",
+                    "zijde": "D"
+                  },
+                  {
+                    "bedrag": 10000.0,
+                    "naam": "Geboekte afschrijvingen op installaties, machines en uitrusting",
+                    "rekening": "2309",
+                    "zijde": "C"
+                  }
+                ],
+                "toelichting": "Afsluitingsboeking 31/12/2002 - jaarlijkse afschrijving machine 10% x 100.000,00.",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "regels": [
+                  {
+                    "bedrag": 600.0,
+                    "naam": "Kapitaalsubsidies (netto)",
+                    "rekening": "15",
+                    "zijde": "D"
+                  },
+                  {
+                    "bedrag": 600.0,
+                    "naam": "In resultaat genomen kapitaalsubsidies",
+                    "rekening": "753",
+                    "zijde": "C"
+                  }
+                ],
+                "toelichting": "Afsluitingsboeking 31/12/2002 - pro rata in resultaatname van de netto kapitaalsubsidie (10% van 6.000,00).",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "regels": [
+                  {
+                    "bedrag": 400.0,
+                    "naam": "Uitgestelde belastingen op kapitaalsubsidies",
+                    "rekening": "168",
+                    "zijde": "D"
+                  },
+                  {
+                    "bedrag": 400.0,
+                    "naam": "Onttrekking aan de uitgestelde belastingen",
+                    "rekening": "780",
+                    "zijde": "C"
+                  }
+                ],
+                "toelichting": "Afsluitingsboeking 31/12/2002 - pro rata onttrekking aan uitgestelde belastingen (10% van 4.000,00).",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "regels": [
+                  {
+                    "bedrag": 10000.0,
+                    "naam": "Afschrijvingen op materiele vaste activa",
+                    "rekening": "6302",
+                    "zijde": "D"
+                  },
+                  {
+                    "bedrag": 10000.0,
+                    "naam": "Geboekte afschrijvingen op installaties, machines en uitrusting",
+                    "rekening": "2309",
+                    "zijde": "C"
+                  }
+                ],
+                "toelichting": "Afsluitingsboeking 31/12/2003 - jaarlijkse afschrijving machine.",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "regels": [
+                  {
+                    "bedrag": 600.0,
+                    "naam": "Kapitaalsubsidies (netto)",
+                    "rekening": "15",
+                    "zijde": "D"
+                  },
+                  {
+                    "bedrag": 600.0,
+                    "naam": "In resultaat genomen kapitaalsubsidies",
+                    "rekening": "753",
+                    "zijde": "C"
+                  }
+                ],
+                "toelichting": "Afsluitingsboeking 31/12/2003 - pro rata in resultaatname netto kapitaalsubsidie.",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "regels": [
+                  {
+                    "bedrag": 400.0,
+                    "naam": "Uitgestelde belastingen op kapitaalsubsidies",
+                    "rekening": "168",
+                    "zijde": "D"
+                  },
+                  {
+                    "bedrag": 400.0,
+                    "naam": "Onttrekking aan de uitgestelde belastingen",
+                    "rekening": "780",
+                    "zijde": "C"
+                  }
+                ],
+                "toelichting": "Afsluitingsboeking 31/12/2003 - pro rata onttrekking aan uitgestelde belastingen.",
+                "type": "boeking"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrA1"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Eén deelvraag — boeking-instructie. Conform v1.1 is een boeking-vraag vraagtype 'open' (boeking is antwoord-vorm, geen vraagtype). De casus-context bevat zowel feitelijke gegevens als alle parameters (10% afschrijving, 40% belastingstarief). Geen sub-vragen identificeerbaar — de PDF toont ook B-vragen (B.1-B.5) maar die vallen buiten dit segment (vraag_id = vrA1, niet vrB*).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-opus-4-7",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "kapitaalsubsidie",
+          "afsluitingsboekingen",
+          "afschrijvingen",
+          "uitgestelde belastingen",
+          "machine"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrA1",
+        "vraag_onderwerp": "Afsluitingsboekingen bij kapitaalsubsidie op een afschrijfbaar actief",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "Vraag 1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef de afsluitingsboekingen voor de boekjaren 2002 en 2003.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "officieel BIBF, kwalificatie",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "drie semantische lagen (stam/casus/instructie)",
+        "vraag_id": "2003-bibf-vrA1"
+      },
+      "vraag_id": "2003-bibf-vrA1"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrA1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Afsluitingsboekingen bij kapitaalsubsidie op een afschrijfbaar actief",
+  "themas": [
+    "kapitaalsubsidie",
+    "afsluitingsboekingen",
+    "afschrijvingen",
+    "uitgestelde belastingen",
+    "machine"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "Vraag 1",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de afsluitingsboekingen voor de boekjaren 2002 en 2003.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Eén deelvraag — boeking-instructie. Conform v1.1 is een boeking-vraag vraagtype 'open' (boeking is antwoord-vorm, geen vraagtype). De casus-context bevat zowel feitelijke gegevens als alle parameters (10% afschrijving, 40% belastingstarief). Geen sub-vragen identificeerbaar — de PDF toont ook B-vragen (B.1-B.5) maar die vallen buiten dit segment (vraag_id = vrA1, niet vrB*).",
+  "kwaliteits_flags": []
+}

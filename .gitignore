@@ -69,9 +69,16 @@ venv/
 # Environment variables
 .env
 
+# Per-vraag segmenten (ADR-024 §2): PNG-pagina's regenereerbaar via
+# `python3 -m tools.examen.isoleer_vragen`. Tekst en meta wél in git.
+data/programma/examen_vragen/_segmenten/**/*.png
+
 # Review-artifacts (gegenereerd door review-agents)
 .factcheck-*.md
 .leesbaarheid-*.md
 .student-feedback*.md
 data/extractie/matches/
 data/extractie/matches.sqlite3
+
+# Tarief-records vision-extractie staging (ADR-026)
+data/tarieven/_poc/

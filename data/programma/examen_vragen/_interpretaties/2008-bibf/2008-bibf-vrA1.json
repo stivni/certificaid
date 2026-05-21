@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrA1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boeking van het vakantiegeld voor bedienden",
+  "themas": [
+    "vakantiegeld",
+    "afsluitingsboekingen",
+    "voorzieningen",
+    "bedienden",
+    "personeelskosten"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR waarvan 10.000,00 EUR voor de eindejaarspremies."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "A.1",
+      "vraagtype": "open",
+      "vraagstelling": "Boek het vakantiegeld verschuldigd voor 2007.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "i2",
+      "label_in_pdf": "A.1",
+      "vraagtype": "open",
+      "vraagstelling": "Wanneer boekt u dit vakantiegeld?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Eén casus (vraag A.1) met twee samenhangende deelvragen: (1) de boeking maken, (2) tijdstip-vraag. Boekingsvraag is vraagtype 'open' conform v1.1 (boeking = antwoord-vorm). De PDF toont een 'Antwoord'-blok met de uitwerking en T-rekening — dit is een modelantwoord-blok van een gepubliceerde examenkopie, geen vraag-element, dus niet als context-blok overgenomen.",
+  "kwaliteits_flags": []
+}

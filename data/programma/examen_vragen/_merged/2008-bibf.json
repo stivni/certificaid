@@ -1,0 +1,129 @@
+{
+  "bron_pdf": "2008-bibf.pdf",
+  "examen_id": "2008-bibf",
+  "merge_datum": "2026-05-20T23:49:10+00:00",
+  "schema_versie": "4.0",
+  "tool": "merge-examen-artefacten",
+  "vragen": [
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-21T00:00:00Z",
+        "antwoord_model": "claude-opus-4-7",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Berekening forfaitaire voorziening vakantiegeld bedienden boekjaar 2007 volgens CBN-advies 148/3 (later bevestigd via CBN-advies 2018/22): vertrekbasis = bruto bezoldigingen bedienden - eindejaarspremies = 112.000,00 - 10.000,00 = 102.000,00 EUR. Forfaitair percentage = 18,20% x 102.000,00 = 18.564,00 EUR. ⚠️ te verifiëren - exacte percentage CBN-advies 148/3 (klassiek 18,20%, maar later geactualiseerd) te valideren tegen brondocument; rekeningnummers (623 vs 6202/6203, 456 'Te betalen vakantiegeld') te valideren tegen MAR.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "regels": [
+                  {
+                    "bedrag": 18564.0,
+                    "naam": "Andere personeelskosten - voorziening vakantiegeld bedienden",
+                    "rekening": "623",
+                    "zijde": "D"
+                  },
+                  {
+                    "bedrag": 18564.0,
+                    "naam": "Te betalen vakantiegeld",
+                    "rekening": "456",
+                    "zijde": "C"
+                  }
+                ],
+                "toelichting": "Afsluitingsboeking 31/12/2007 - forfaitaire raming vakantiegeld bedienden: 18,20% x (112.000,00 - 10.000,00) = 18,20% x 102.000,00 = 18.564,00 EUR.",
+                "type": "boeking"
+              }
+            ],
+            "id": "i1"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "stappen": [
+                  "De boeking wordt verricht als afsluitingsboeking op 31 december van het boekjaar waarin de bedienden de prestaties hebben verricht (in casu: 31/12/2007).",
+                  "Reden: het vakantiegeld is een kost die economisch toerekenbaar is aan het boekjaar waarin het is opgebouwd door de prestaties, ook al wordt het pas in het volgende vakantiejaar (2008) effectief uitbetaald. Toepassing van het matching-beginsel.",
+                  "Bij de effectieve uitbetaling in 2008 wordt de schuldrekening 456 'Te betalen vakantiegeld' tegengeboekt; afwijkingen tussen de forfaitaire raming 2007 en het werkelijk uitbetaalde bedrag in 2008 worden in 2008 via dezelfde personeelskostenrekening verwerkt (correctie van de raming)."
+                ],
+                "type": "procedure"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Het voorzichtigheidsbeginsel en het matching-beginsel uit het Belgisch boekhoudrecht vereisen dat alle kosten die betrekking hebben op het boekjaar worden geboekt, ook als ze nog niet werden uitbetaald op afsluitdatum. Het vakantiegeld voor bedienden volgt economisch het jaar van de prestaties (2007), niet het jaar van de uitbetaling (2008). CBN-advies 148/3 (later bevestigd in CBN-advies 2018/22) geeft de forfaitaire ramingsmethode op afsluitdatum om dit consistent toe te passen.",
+                "type": "motivatie"
+              }
+            ],
+            "id": "i2"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrA1"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR waarvan 10.000,00 EUR voor de eindejaarspremies.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Eén casus (vraag A.1) met twee samenhangende deelvragen: (1) de boeking maken, (2) tijdstip-vraag. Boekingsvraag is vraagtype 'open' conform v1.1 (boeking = antwoord-vorm). De PDF toont een 'Antwoord'-blok met de uitwerking en T-rekening — dit is een modelantwoord-blok van een gepubliceerde examenkopie, geen vraag-element, dus niet als context-blok overgenomen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-opus-4-7",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "vakantiegeld",
+          "afsluitingsboekingen",
+          "voorzieningen",
+          "bedienden",
+          "personeelskosten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrA1",
+        "vraag_onderwerp": "Boeking van het vakantiegeld voor bedienden",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "A.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Boek het vakantiegeld verschuldigd voor 2007.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "i2",
+            "label_in_pdf": "A.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wanneer boekt u dit vakantiegeld?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "officieel BIBF, motivatie-only",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "simple-case antwoord-stijl",
+        "vraag_id": "2008-bibf-vrA1"
+      },
+      "vraag_id": "2008-bibf-vrA1"
+    }
+  ]
+}

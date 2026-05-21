@@ -1,0 +1,53 @@
+{
+  "doel": "POC-subset voor ADR-024 visuele LLM-interpretatie. Representatieve spread over 4 PDFs, 2 herkomsten (officieel + herinnering), 4 antwoord-stijlen (kwalificatie/casus/motivatie/topic). Pagina-range is INCLUSIEF, 1-geïndexeerd (zoals pdf_pagina).",
+  "selectie": [
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr1",
+      "pagina_van": 2,
+      "pagina_tot": 2,
+      "karakter": "officieel, kwalificatie",
+      "rationale": "baseline officiële ITAA-flow"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr3",
+      "pagina_van": 3,
+      "pagina_tot": 4,
+      "karakter": "officieel, casus 8 punten",
+      "rationale": "complexe casus + tabel-vangnet"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrA1",
+      "pagina_van": 2,
+      "pagina_tot": 2,
+      "karakter": "officieel BIBF, kwalificatie",
+      "rationale": "drie semantische lagen (stam/casus/instructie)"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrA1",
+      "pagina_van": 3,
+      "pagina_tot": 3,
+      "karakter": "officieel BIBF, motivatie-only",
+      "rationale": "simple-case antwoord-stijl"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr1",
+      "pagina_van": 1,
+      "pagina_tot": 1,
+      "karakter": "herinnering, fragment met subvragen",
+      "rationale": "herinnering-flow + subvraag-isolatie"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr10",
+      "pagina_van": 5,
+      "pagina_tot": 5,
+      "karakter": "herinnering, sub-A topic_only",
+      "rationale": "topic-syllabus-pad voor fragment zonder echte vraag"
+    }
+  ]
+}

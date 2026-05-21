@@ -1,0 +1,80 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Analyse en kritische beoordeling van de jaarrekening",
+  "themas": [
+    "financiële onafhankelijkheid",
+    "ratio-analyse",
+    "verkort schema",
+    "balansrubrieken",
+    "eigen vermogen",
+    "afschrijvingen",
+    "bruto verkoopmarge"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Onderdeel '10 Analyse en kritische beoordeling van de jaarrekening' uit het schriftelijk bekwaamheidsexamen ITAA 2024 — herinnerings-fragment met vijf deelvragen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "juist_fout",
+      "vraagstelling": null,
+      "motivatie_verwacht": true,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Stellingen ivm financiële onafhankelijkheid"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "B",
+      "vraagtype": "open",
+      "vraagstelling": "Welke ratio kan je niet berekenen op basis van een verkort schema? (n-dagen klantenkrediet)",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "C",
+      "vraagtype": "open",
+      "vraagstelling": "In welke volgorde zijn rubrieken op het Passief van de Balans gerangschikt?",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "D",
+      "vraagtype": "open",
+      "vraagstelling": "JR kort model NBB voor kapitaalvennootschap: hoe wordt EV berekend?",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "E",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Alfa is verlieslatend. Verhoging van de afschrijving op gebouwen door verkorting van de verwachte levensduur heeft het volgende effect op de bruto verkoopmarge:",
+      "opties": [
+        { "id": "a", "tekst": "Stijging" },
+        { "id": "b", "tekst": "Daling" },
+        { "id": "c", "tekst": "Geen" },
+        { "id": "d", "tekst": "Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "c",
+    "tekst": "Toenemende eisbaarheid",
+    "vermoedelijke_status": "stagiair-notitie van eigen antwoord"
+  },
+  "herinterpretatie_motivering": "Herinnering-fragment ITAA 2024 onderdeel 10. Sub-A is topic_only — alleen 'Stellingen ivm financiële onafhankelijkheid' is bewaard, exacte stellingen onbekend; beste-gok vraagtype 'juist_fout' (stellingen-formulering wijst op J/F-patroon), motivatie_verwacht=true (standaard ITAA J/F-patroon). Sub-C had de notitie 'Toenemende eisbaarheid' direct na de vraagstelling — dit is de stagiair's eigen antwoord (verwijderd uit vraagstelling, geflagd via antwoord_hint_in_vraag). Sub-B, C en D zijn fragmenten in trefwoordvorm. Sub-E is een complete MC-vraag met 4 opties.",
+  "kwaliteits_flags": ["subvraag_zonder_inhoud", "antwoord_hint_aanwezig"]
+}

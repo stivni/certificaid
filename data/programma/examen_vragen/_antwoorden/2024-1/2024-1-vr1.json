@@ -1,0 +1,71 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr1",
+  "antwoord_datum": "2026-05-21T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Ja, een liquiditeitstest is vereist. Bij de overgang BVBA -> BV onder het WVV wordt het bestaande (volstort) kapitaal van de BVBA van rechtswege omgezet in een onbeschikbare eigenvermogensrekening van de BV; het niet-volstort kapitaal wordt eveneens omgezet in een onbeschikbare reserve voor het niet-opgevraagde gedeelte. Wanneer de aandeelhouder vrij wordt gesteld van de volstortingsplicht, gebeurt dit door een uitkering-equivalente verrichting (vermindering van het eigen vermogen ten gunste van de aandeelhouder), die volgens art. 5:142-5:143 WVV onderworpen is aan zowel de nettoactieftest (balanstest) als de liquiditeitstest.",
+          "confidence": "inferred",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Onder het WVV werkt de BV met een 'onbeschikbaar eigen vermogen' in plaats van een wettelijk minimumkapitaal. Elke uitkering uit dit eigen vermogen - waaronder een vrijstelling van volstortingsplicht voor het niet-opgevraagde kapitaal, omdat dit de facto het eigen vermogen vermindert - vereist een dubbele test: (i) nettoactieftest (art. 5:142 WVV) en (ii) liquiditeitstest door het bestuursorgaan (art. 5:143 WVV).",
+          "wetsref": "art. 5:142 WVV (nettoactieftest BV) en art. 5:143 WVV (liquiditeitstest BV); overgangsregeling art. 39 W. 23 maart 2019",
+          "confidence": "inferred",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij een loutere omzetting BVBA -> BV zonder vermogenstransfer (kapitaal wordt enkel hernoemd tot 'inbreng' en gerubriceerd als onbeschikbaar) is er geen liquiditeitstest vereist - dat is een zuiver formele overgang. Pas wanneer een vermogenstransfer naar de aandeelhouder plaatsvindt - zoals een vrijstelling van de volstortingsplicht - komt het uitkeringsregime van de BV in beeld, inclusief de liquiditeitstest. ⚠️ te verifiëren - exacte interpretatie 'vrijstelling volstortingsplicht = uitkering' tegen art. 5:142-5:143 WVV en CBN/ITAA-praktijkgids te valideren.",
+          "confidence": "inferred",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een quasi-inbreng in een NV kan in principe door iedereen plaatsvinden die binnen de termijn van twee jaar na oprichting een vermogensbestanddeel aan de NV verkoopt voor een tegenwaarde van minstens 10% van het geplaatste kapitaal. Specifiek geviseerd door de quasi-inbrengregels van art. 7:8 WVV zijn echter de oprichters, bestuurders en aandeelhouders van de NV - voor verwervingen van vermogensbestanddelen die hen toebehoren.",
+          "confidence": "inferred",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "De quasi-inbrengregeling onder het WVV (art. 7:8 voor de NV) beoogt te vermijden dat de regels rond inbreng in natura (bedrijfsrevisorverslag, jaarrekeningwaardering) worden omzeild door een goed eerst aan een derde over te dragen en het kort na oprichting alsnog door de NV te laten verwerven. De regeling viseert verwervingen van een vermogensbestanddeel toebehorend aan een oprichter, bestuurder of aandeelhouder, gedurende de eerste twee jaar na oprichting, tegen een tegenwaarde van minstens 10% van het geplaatste kapitaal.",
+          "wetsref": "art. 7:8 WVV (quasi-inbreng NV)",
+          "confidence": "inferred",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Cumulatieve vereisten: (i) verwerving binnen twee jaar na oprichting NV; (ii) tegenwaarde >= 10% van het geplaatste kapitaal; (iii) tegenpartij is oprichter, bestuurder of aandeelhouder; (iv) bedrijfsrevisorverslag (controleverslag inbreng in natura) en goedkeuring algemene vergadering vereist. ⚠️ te verifiëren - exacte drempel (10%) en termijn (twee jaar) van art. 7:8 WVV te valideren tegen ITAA-LEX-versie geldig op examen-datum.",
+          "confidence": "inferred",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": []
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": []
+    }
+  ]
+}

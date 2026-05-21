@@ -1,0 +1,189 @@
+{
+  "bron_pdf": "2014-1.pdf",
+  "examen_id": "2014-1",
+  "merge_datum": "2026-05-20T23:49:10+00:00",
+  "schema_versie": "4.0",
+  "tool": "merge-examen-artefacten",
+  "vragen": [
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-21T00:00:00Z",
+        "antwoord_model": "claude-opus-4-7",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "b",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "a",
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "c",
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2014-1-vr3"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap Immo-C had in 1980 een herwaardering toegepast op een octrooi. De herwaardering bedroeg 25.000 EUR en werd op rekening 120 van het passief van de balans geboekt. Het octrooi werd oorspronkelijk verworven voor 75.000 EUR. Het octrooi is thans volledig afgeschreven. Op 15 december 2013 verkoopt Immo-C het octrooi tegen 100.000 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Vier MC-deelvragen (a-d) elk met 4 opties. tekst.txt rendert de MC-opties zonder duidelijke groeperingsmarkers; ik heb ze visueel aan de juiste subvraag toegewezen op basis van de twee PNGs (pagina 3 en 4). Deelvraag a: opties over wat er met de 1980-meerwaarde gebeurt. Deelvraag b: opties over mogelijke bestemmingen van de meerwaarde. Deelvraag c: bedrag-opties (25.000/75.000/50.000/0). Deelvraag d: opties over nieuwe herwaardering van 100.000 EUR.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-opus-4-7",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "herwaarderingsmeerwaarde",
+          "immateriële vaste activa",
+          "octrooi",
+          "reserves",
+          "kapitaal",
+          "afschrijvingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr3",
+        "vraag_onderwerp": "Herwaarderingsmeerwaarden op immateriële vaste activa — verwerking bij realisatie en bij nieuwe herwaardering",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a)",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "de meerwaarde wordt op het passief van de balans behouden"
+              },
+              {
+                "id": "b",
+                "tekst": "de meerwaarde mag niet op de balans worden behouden"
+              },
+              {
+                "id": "c",
+                "tekst": "de meerwaarde moet geïncorporeerd worden in het kapitaal"
+              },
+              {
+                "id": "d",
+                "tekst": "de meerwaarde moet gespreid over 5 jaar in resultaat genomen worden"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b)",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "ofwel overboeking naar de reserves tot beloop van het nog niet afgeschreven bedrag van de meerwaarde, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+              },
+              {
+                "id": "b",
+                "tekst": "ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+              },
+              {
+                "id": "c",
+                "tekst": "ofwel overboeking naar de reserves, ofwel inlijving in het kapitaal tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+              },
+              {
+                "id": "d",
+                "tekst": "ofwel enkel overboeking naar de reserves"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c)",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "25.000 EUR"
+              },
+              {
+                "id": "b",
+                "tekst": "75.000 EUR"
+              },
+              {
+                "id": "c",
+                "tekst": "50.000 EUR"
+              },
+              {
+                "id": "d",
+                "tekst": "0 EUR"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag worden overgeboekt?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d)",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "de meerwaarde wordt op het passief van de balans op het credit van rekening 120 geboekt"
+              },
+              {
+                "id": "b",
+                "tekst": "de meerwaarde wordt volledig in resultaat genomen"
+              },
+              {
+                "id": "c",
+                "tekst": "de boeking van de meerwaarde is verboden"
+              },
+              {
+                "id": "d",
+                "tekst": "de boeking van de meerwaarde is facultatief"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had en in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een herwaardering van 100.000 EUR te boeken?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "officieel, casus 8 punten",
+        "pagina_nummers": [
+          3,
+          4
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "complexe casus + tabel-vangnet",
+        "vraag_id": "2014-1-vr3"
+      },
+      "vraag_id": "2014-1-vr3"
+    }
+  ]
+}

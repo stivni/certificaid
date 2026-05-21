@@ -1,0 +1,396 @@
+{
+  "bron_pdf": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+  "examen_id": "2024-1",
+  "merge_datum": "2026-05-20T23:49:10+00:00",
+  "schema_versie": "4.0",
+  "tool": "merge-examen-artefacten",
+  "vragen": [
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-21T00:00:00Z",
+        "antwoord_model": "claude-opus-4-7",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Ja, een liquiditeitstest is vereist. Bij de overgang BVBA -> BV onder het WVV wordt het bestaande (volstort) kapitaal van de BVBA van rechtswege omgezet in een onbeschikbare eigenvermogensrekening van de BV; het niet-volstort kapitaal wordt eveneens omgezet in een onbeschikbare reserve voor het niet-opgevraagde gedeelte. Wanneer de aandeelhouder vrij wordt gesteld van de volstortingsplicht, gebeurt dit door een uitkering-equivalente verrichting (vermindering van het eigen vermogen ten gunste van de aandeelhouder), die volgens art. 5:142-5:143 WVV onderworpen is aan zowel de nettoactieftest (balanstest) als de liquiditeitstest.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Onder het WVV werkt de BV met een 'onbeschikbaar eigen vermogen' in plaats van een wettelijk minimumkapitaal. Elke uitkering uit dit eigen vermogen - waaronder een vrijstelling van volstortingsplicht voor het niet-opgevraagde kapitaal, omdat dit de facto het eigen vermogen vermindert - vereist een dubbele test: (i) nettoactieftest (art. 5:142 WVV) en (ii) liquiditeitstest door het bestuursorgaan (art. 5:143 WVV).",
+                "type": "grondslag",
+                "wetsref": "art. 5:142 WVV (nettoactieftest BV) en art. 5:143 WVV (liquiditeitstest BV); overgangsregeling art. 39 W. 23 maart 2019"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Bij een loutere omzetting BVBA -> BV zonder vermogenstransfer (kapitaal wordt enkel hernoemd tot 'inbreng' en gerubriceerd als onbeschikbaar) is er geen liquiditeitstest vereist - dat is een zuiver formele overgang. Pas wanneer een vermogenstransfer naar de aandeelhouder plaatsvindt - zoals een vrijstelling van de volstortingsplicht - komt het uitkeringsregime van de BV in beeld, inclusief de liquiditeitstest. ⚠️ te verifiëren - exacte interpretatie 'vrijstelling volstortingsplicht = uitkering' tegen art. 5:142-5:143 WVV en CBN/ITAA-praktijkgids te valideren.",
+                "type": "motivatie"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Een quasi-inbreng in een NV kan in principe door iedereen plaatsvinden die binnen de termijn van twee jaar na oprichting een vermogensbestanddeel aan de NV verkoopt voor een tegenwaarde van minstens 10% van het geplaatste kapitaal. Specifiek geviseerd door de quasi-inbrengregels van art. 7:8 WVV zijn echter de oprichters, bestuurders en aandeelhouders van de NV - voor verwervingen van vermogensbestanddelen die hen toebehoren.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "De quasi-inbrengregeling onder het WVV (art. 7:8 voor de NV) beoogt te vermijden dat de regels rond inbreng in natura (bedrijfsrevisorverslag, jaarrekeningwaardering) worden omzeild door een goed eerst aan een derde over te dragen en het kort na oprichting alsnog door de NV te laten verwerven. De regeling viseert verwervingen van een vermogensbestanddeel toebehorend aan een oprichter, bestuurder of aandeelhouder, gedurende de eerste twee jaar na oprichting, tegen een tegenwaarde van minstens 10% van het geplaatste kapitaal.",
+                "type": "grondslag",
+                "wetsref": "art. 7:8 WVV (quasi-inbreng NV)"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Cumulatieve vereisten: (i) verwerving binnen twee jaar na oprichting NV; (ii) tegenwaarde >= 10% van het geplaatste kapitaal; (iii) tegenpartij is oprichter, bestuurder of aandeelhouder; (iv) bedrijfsrevisorverslag (controleverslag inbreng in natura) en goedkeuring algemene vergadering vereist. ⚠️ te verifiëren - exacte drempel (10%) en termijn (twee jaar) van art. 7:8 WVV te valideren tegen ITAA-LEX-versie geldig op examen-datum.",
+                "type": "motivatie"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "c",
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "c",
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2024-1-vr1"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Onderdeel '1 Vennootschapsrecht' uit het schriftelijk bekwaamheidsexamen ITAA 2024 — herinnerings-fragment met vier deelvragen onder éénzelfde thema.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-fragment uit ITAA 2024 schriftelijk examen, onderdeel 'Vennootschapsrecht'. Vier deelvragen onder dit thema: A en B zijn open vragen in trefwoord-vorm (fragment-niveau — exacte vraagstelling onbekend, alleen het topic is bewaard zoals de student het herinnerde). C en D zijn complete MC-vragen met 4 opties elk. Geen modelantwoord aanwezig.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-opus-4-7",
+        "kwaliteits_flags": [
+          "subvraag_zonder_inhoud"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "vennootschapsrecht",
+          "WVV",
+          "BVBA",
+          "BV",
+          "NV",
+          "quasi-inbreng",
+          "ontbinding",
+          "vereffening",
+          "uittreding"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr1",
+        "vraag_onderwerp": "Vennootschapsrecht — diverse vragen (BVBA-naar-BV-overgang, quasi-inbreng NV, verlies rechtspersoonlijkheid, statutaire uittreding/uitsluiting)",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "volledigheid": "fragment",
+            "vraagstelling": "BVBA naar BV volgens nieuw WVV. Aandeelhouder vrij van volstorting van het niet volstort kapitaal. Liquidatietest nodig?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "volledigheid": "fragment",
+            "vraagstelling": "Quasi-inbreng in NV. Wie kan dit doen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Bij ontbinding"
+              },
+              {
+                "id": "b",
+                "tekst": "Bij publicatie van de ontbinding"
+              },
+              {
+                "id": "c",
+                "tekst": "Bij de afsluit van de vereffening"
+              },
+              {
+                "id": "d",
+                "tekst": "Bij akkoord van de vennoten"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Vennootschap verliest rechtspersoonlijkheid:",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "BV en CV"
+              },
+              {
+                "id": "b",
+                "tekst": "Alle behalve NV"
+              },
+              {
+                "id": "c",
+                "tekst": "Alle behalve NV en BV"
+              },
+              {
+                "id": "d",
+                "tekst": "NV, BV en CV"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Bij welke rechtsvormen kunnen de uittreding/uitsluiting van een aandeelhouder statutair worden geregeld?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "herinnering, fragment met subvragen",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "herinnering-flow + subvraag-isolatie",
+        "vraag_id": "2024-1-vr1"
+      },
+      "vraag_id": "2024-1-vr1"
+    },
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-21T00:00:00Z",
+        "antwoord_model": "claude-opus-4-7",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "wacht_op_vraag_generatie",
+            "blokken": [],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Het aantal dagen klantenkrediet (DSO - Days Sales Outstanding) kan niet worden berekend op basis van een verkort schema, omdat het netto-omzetcijfer (rekening 70) niet afzonderlijk wordt gepubliceerd in het verkort schema. Op het verkort schema staan enkel geaggregeerde bedrijfsopbrengsten - zonder een aparte omzetregel kan de noemer (omzet incl. BTW) van de DSO-formule niet bepaald worden.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Formule klantenkrediet: (Handelsvorderingen + ontvangen wissels) / (Omzet incl. BTW) x 365. De handelsvorderingen (rekening 40) staan wel op het verkort balansschema, maar de omzet (rekening 70) ontbreekt op de verkorte resultatenrekening (de rubriek 'bedrijfsopbrengsten' is geaggregeerd). Andere ratio's die hierdoor evenmin berekenbaar zijn op een verkort schema: leverancierskrediet (vereist aankopen), bruto verkoopmarge (vereist omzet en aankopen), rotatiesnelheid voorraden (vereist omzet of kostprijs verkopen). ⚠️ te verifiëren - exacte rubriek-aggregatie van het verkort schema NBB-publicatieschema te valideren tegen actuele KB-bijlage WVV.",
+                "type": "motivatie"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "De rubrieken op het passief van de balans zijn gerangschikt in volgorde van toenemende eisbaarheid - d.w.z. van de minst eisbare verplichtingen (eigen vermogen) bovenaan, naar de meest eisbare (schulden op korte termijn) onderaan. De antwoord-hint 'Toenemende eisbaarheid' is dus correct.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "items": [
+                  "I. Kapitaal / Inbreng (minst eisbaar - eigen vermogen)",
+                  "II. Uitgiftepremies",
+                  "III. Herwaarderingsmeerwaarden",
+                  "IV. Reserves",
+                  "V. Overgedragen winst (verlies)",
+                  "VI. Kapitaalsubsidies",
+                  "VII. Voorzieningen en uitgestelde belastingen",
+                  "VIII. Schulden op meer dan een jaar",
+                  "IX. Schulden op ten hoogste een jaar (meest eisbaar)",
+                  "X. Overlopende rekeningen"
+                ],
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Het Belgisch jaarrekeningschema rangschikt de passiefzijde volgens dit ordenend beginsel, analoog aan de actiefzijde die wordt gerangschikt volgens toenemende liquiditeit. Eigen vermogen (rubrieken I tot VI) heeft geen of een onbepaalde vervaldag en staat bovenaan; schulden op korte termijn (rubriek IX) zijn binnen het jaar opeisbaar en staan onderaan. Validatie van de antwoord-hint van de stagiair: 'Toenemende eisbaarheid' is een correcte beknopte formulering van dit ordeningsbeginsel. ⚠️ te verifiëren - exacte rubricering en nummering tegen KB WVV bijlage / volledig schema MAR.",
+                "type": "motivatie"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "lemma": "Eigen vermogen in het verkort jaarrekeningmodel NBB voor een kapitaalvennootschap",
+                "type": "definitie",
+                "uitleg": "Som van de eigenvermogensrubrieken op de passiefzijde van het verkort balansschema, namelijk: I. Kapitaal / Inbreng (volstort + niet-opgevraagd, voor de BV onbeschikbare en beschikbare inbreng) + II. Uitgiftepremies + III. Herwaarderingsmeerwaarden + IV. Reserves (wettelijke, onbeschikbare, beschikbare) + V. Overgedragen winst of verlies + VI. Kapitaalsubsidies."
+              },
+              {
+                "bron_refs": [],
+                "confidence": "inferred",
+                "tekst": "Formule kort-model NBB voor kapitaalvennootschap (BV/NV): EV = I (Inbreng) + II (Uitgiftepremies) + III (Herwaarderingsmeerwaarden) + IV (Reserves) + V (Overgedragen winst/verlies) + VI (Kapitaalsubsidies). In het verkort schema worden deze posten geaggregeerd gepresenteerd, maar de samenstelling blijft identiek aan het volledig schema. Voor de BV (sinds WVV) is het concept 'kapitaal' vervangen door 'inbreng' (rubriek I = bijdragen door aandeelhouders), opgesplitst in onbeschikbaar (oud kapitaal) en beschikbaar. ⚠️ te verifiëren - exacte rubrieken verkort schema NBB-publicatieformulier C/VKT versie 2024 tegen KB WVV bijlage 1.",
+                "type": "motivatie"
+              }
+            ],
+            "id": "d"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "c",
+            "id": "e"
+          }
+        ],
+        "vraag_id": "2024-1-vr10"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "c",
+          "tekst": "Toenemende eisbaarheid",
+          "vermoedelijke_status": "stagiair-notitie van eigen antwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Onderdeel '10 Analyse en kritische beoordeling van de jaarrekening' uit het schriftelijk bekwaamheidsexamen ITAA 2024 — herinnerings-fragment met vijf deelvragen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-fragment ITAA 2024 onderdeel 10. Sub-A is topic_only — alleen 'Stellingen ivm financiële onafhankelijkheid' is bewaard, exacte stellingen onbekend; beste-gok vraagtype 'juist_fout' (stellingen-formulering wijst op J/F-patroon), motivatie_verwacht=true (standaard ITAA J/F-patroon). Sub-C had de notitie 'Toenemende eisbaarheid' direct na de vraagstelling — dit is de stagiair's eigen antwoord (verwijderd uit vraagstelling, geflagd via antwoord_hint_in_vraag). Sub-B, C en D zijn fragmenten in trefwoordvorm. Sub-E is een complete MC-vraag met 4 opties.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-opus-4-7",
+        "kwaliteits_flags": [
+          "subvraag_zonder_inhoud",
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "financiële onafhankelijkheid",
+          "ratio-analyse",
+          "verkort schema",
+          "balansrubrieken",
+          "eigen vermogen",
+          "afschrijvingen",
+          "bruto verkoopmarge"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr10",
+        "vraag_onderwerp": "Analyse en kritische beoordeling van de jaarrekening",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": true,
+            "topic_only_onderwerp": "Stellingen ivm financiële onafhankelijkheid",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "volledigheid": "fragment",
+            "vraagstelling": "Welke ratio kan je niet berekenen op basis van een verkort schema? (n-dagen klantenkrediet)",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "volledigheid": "fragment",
+            "vraagstelling": "In welke volgorde zijn rubrieken op het Passief van de Balans gerangschikt?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "volledigheid": "fragment",
+            "vraagstelling": "JR kort model NBB voor kapitaalvennootschap: hoe wordt EV berekend?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "E",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Stijging"
+              },
+              {
+                "id": "b",
+                "tekst": "Daling"
+              },
+              {
+                "id": "c",
+                "tekst": "Geen"
+              },
+              {
+                "id": "d",
+                "tekst": "Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Alfa is verlieslatend. Verhoging van de afschrijving op gebouwen door verkorting van de verwachte levensduur heeft het volgende effect op de bruto verkoopmarge:",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "herinnering, sub-A topic_only",
+        "pagina_nummers": [
+          5
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "topic-syllabus-pad voor fragment zonder echte vraag",
+        "vraag_id": "2024-1-vr10"
+      },
+      "vraag_id": "2024-1-vr10"
+    }
+  ]
+}

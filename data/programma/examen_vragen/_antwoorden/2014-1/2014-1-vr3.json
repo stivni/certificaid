@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr3",
+  "antwoord_datum": "2026-05-21T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": []
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": []
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": []
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": []
+    }
+  ]
+}
