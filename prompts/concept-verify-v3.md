@@ -88,7 +88,9 @@ Verbreed met:
 | `regime` / `fiscale-regeling` | Definitie · Wat economisch · Voorwaarden · Tarieven · Niet-van-toepassing-op · Bronnen |
 | `ratio` | Definitie · Wat ze meet · Formule · Voorbeeld · Drempels · Acties per drempel · Bronnen |
 | `kader` | Definitie · Gemeenschappelijke principes · Vergelijkingsmatrix · Leden · Rol-sectie · Bronnen |
+| `kader` (jaarrekening-style) | Idem + cyclus-sectie + waarderingsregels-bijlage-vermelding |
 | `familie` | Definitie · Onderscheidingscriteria · Vergelijkingsmatrix · Leden · Bronnen |
+| `balanspost` | Definitie · MAR-rubriek · Componenten · Waarderingsregels-verwijzing (naar kader) · Afschrijving/wijziging (waar van toepassing) · Verplichting in toelichting · Rol-sectie (📋 Boekhouder verplicht; 🔍 Auditor verplicht; 🎯 Adviseur indien keuze-aspecten) · Bronnen |
 
 **Voorbeeld-discipline** (alle kinds): minstens 1 voorbeeld of illustratie per onderdeel met inhoud-type `mechanisme` of `procedure`. Als ontbrekend → suggestie `voorbeeld_ontbreekt`.
 

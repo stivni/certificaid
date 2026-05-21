@@ -98,9 +98,14 @@ Naast de zes bestaande `node_type`'s (begrip · regel · cluster · synthese · 
 | `procedure` | Wettelijke stappensequentie | gerechtelijke-reorganisatie · vereffening |
 | `regime` of `fiscale-regeling` | Tariefmechanisme met voorwaarden | VVPRbis · DBI · liquidatiereserve · EBITDA-regel · investeringsaftrek |
 | `ratio` | Meting + interpretatie-drempels | solvabiliteit · current ratio · ROE |
-| `kader` | Cross-cutting denkraam met eigen taken | jaarrekeninganalyse · uitkering-aan-aandeelhouders · lange-termijn-financiering |
+| `kader` | Cross-cutting denkraam met eigen taken | jaarrekening (artefact + cyclus) · jaarrekeninganalyse · uitkering-aan-aandeelhouders · lange-termijn-financiering · boekhoudbeginselen-discipline · waarderingsregels-discipline |
 | `familie` | Groep verwante leden + onderscheidingscriteria | leasing (financieel/operationeel/renting) |
-| `begripscluster` | Verzameling samenhangende begrippen zonder operationeel karakter | (overloaded `cluster` gevallen die geen instrument/operatie zijn) |
+| `balanspost` | Boekhoudkundige rubriek per balansgroep — eigen waardering · presentatie · auditor-discipline | oprichtingskosten · materiële-vaste-activa · voorraden · eigen-vermogen · voorzieningen · overlopende-rekeningen |
+| `begripscluster` | Verzameling samenhangende begrippen zonder operationeel karakter | (overloaded `cluster` gevallen die geen instrument/operatie/balanspost zijn) |
+
+**Balanspost-kind toegevoegd (2026-05-21)**: na POC-validatie via `content/experiment/oprichtingskosten-v1.md`. Kenmerkend skelet: MAR-rubriek · componenten · waarderingsregels (verwijst naar `waarderingsregels-discipline`-kader) · afschrijving/wijziging · verplichting in toelichting · netto-actief-toets-interactie (waar van toepassing) · fiscaal aspect · rol-perspectief.
+
+**Jaarrekening als kader** (2026-05-21): één-fiche-aanpak gevalideerd via `content/experiment/jaarrekening-v1.md`. Kader bevat: artefact-componenten (balans · resultatenrekening · toelichting · sociale balans · jaarverslag) · formaten (volledig · verkort · micro) + groottecriteria · cyclus (8 stappen) · waarderingsregels-bijlage. Splitsing in `artefact` + `procedure` werd verworpen (cross-link-flikkering).
 
 **Kind als tag-set** (open, geen enum-validatie): bij twijfel mag de agent een nieuw kind voorstellen via VERIFY-flag. Schema-validator waarschuwt bij onbekend kind, blokkeert niet.
 

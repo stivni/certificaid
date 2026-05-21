@@ -59,7 +59,9 @@ Je krijgt voor één programmaonderdeel (bv. `1.1`):
 - **Referentie-mockups**: ALLE non-deprecated fiches in `content/experiment/` voor patroon-herkenning per kind:
   - `obligatielening-v7.md` (canonical instrument)
   - `solvabiliteitsratio-v2.md` (canonical ratio)
-  - `jaarrekeninganalyse-v1.md` · `uitkering-aan-aandeelhouders-v1.md` · `lange-termijn-financiering-v1.md` (kaders)
+  - `jaarrekeninganalyse-v1.md` · `uitkering-aan-aandeelhouders-v1.md` · `lange-termijn-financiering-v1.md` (klassieke kaders)
+  - `jaarrekening-v1.md` (kader jaarrekening-style — artefact + cyclus binnen)
+  - `oprichtingskosten-v1.md` (canonical balanspost)
   - `inkoop-eigen-aandelen-nv-v1.md` (operatie)
   - `vvprbis-v1.md` (fiscale regeling)
   - `leasing-v1.md` (familie) + `financiele-leasing-v2.md` · `operationele-leasing-v1.md` (leden)

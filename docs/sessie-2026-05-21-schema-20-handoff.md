@@ -168,6 +168,8 @@
 | `inkoop-eigen-aandelen-nv-v1.md` | operatie | Wettelijke voorwaarden + procedure |
 | `vvprbis-v1.md` | fiscale-regeling | Voorwaarden + tarieven + niet-van-toepassing-op |
 | `jaarrekeninganalyse-v1.md` | kader | Generieke discipline + cross-ratio-patroon |
+| `jaarrekening-v1.md` | kader (jaarrekening-style) | Artefact + cyclus binnen — POC bevestigde één-fiche-aanpak |
+| `oprichtingskosten-v1.md` | balanspost | POC bevestigde balanspost-kind; skelet MAR/componenten/waardering/afschr/toelichting |
 | `uitkering-aan-aandeelhouders-v1.md` | kader | Keuze-tussen-alternatieven |
 | `lange-termijn-financiering-v1.md` | kader | Schuld vs EV + matching looptijd |
 | `leasing-v1.md` | familie | Substance-over-form + vergelijkingsmatrix |

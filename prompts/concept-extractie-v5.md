@@ -60,16 +60,20 @@ Geen tool? Vraag het via gaps.json-suggestie aan de orchestrator.
 
 ## 3. Verplichte referentie-fiches
 
-Lees vóór elke extract deze drie als in-context templates:
+Lees vóór elke extract deze als in-context templates (kies kind-specifiek):
 
-1. `content/experiment/obligatielening-v7.md` — kanoniek **instrument**
-2. `content/experiment/solvabiliteitsratio-v2.md` — kanoniek **ratio**
-3. `content/experiment/jaarrekeninganalyse-v1.md` — kanoniek **kader**
+| Kind | Referentie-mockup |
+|---|---|
+| `instrument` | `content/experiment/obligatielening-v7.md` |
+| `ratio` | `content/experiment/solvabiliteitsratio-v2.md` |
+| `kader` (klassiek) | `content/experiment/jaarrekeninganalyse-v1.md` |
+| `kader` (jaarrekening-style — artefact + cyclus binnen) | `content/experiment/jaarrekening-v1.md` |
+| `balanspost` | `content/experiment/oprichtingskosten-v1.md` |
+| `operatie` | `content/experiment/inkoop-eigen-aandelen-nv-v1.md` |
+| `regime`/`fiscale-regeling` | `content/experiment/vvprbis-v1.md` |
+| `familie` + leden | `content/experiment/leasing-v1.md` + `financiele-leasing-v2.md` + `operationele-leasing-v1.md` |
 
-Voor specifieke kinds optioneel ook:
-- `content/experiment/inkoop-eigen-aandelen-nv-v1.md` — operatie
-- `content/experiment/vvprbis-v1.md` — fiscale regeling
-- `content/experiment/leasing-v1.md` + leden — familie + leden
+Lees minstens de kanoniek voor jouw kind, plus 1-2 van een ander kind als referentie voor patroon-bewustzijn.
 
 Je imiteert structuur, toon, diepte. Niet inhoud — die haal je uit RAG + redenering.
 
@@ -113,6 +117,14 @@ Lege secties niet renderen. Render-laag toont sectie-koppen (h2) + collapsible-s
 | `ratio` | Formule + interpretatie-drempels (vuistregels) + wettelijke drempels + sectorgebondenheid + interpretatie-valkuilen | Rol vooral Adviseur + Auditor; geen Boekhouder typisch |
 | `kader` | Gemeenschappelijke principes + vergelijkingsmatrix tussen leden + accountant-taken op kader-niveau (kiezen · samen-lezen · cross-instrument-vergelijken) | Geen "Wanneer kies je dit"; wel "Wanneer welk lid?" als sub-rubriek |
 | `familie` | Onderscheidingscriteria tussen leden + vergelijkingsmatrix + leden-lijst | Vergelijking centraal; minimale eigen mechanisme |
+| `balanspost` | Skelet: MAR-rubriek · componenten · waarderingsregels (verwijst naar `waarderingsregels-discipline`-kader) · afschrijving/wijziging · verplichting in toelichting · netto-actief-toets-interactie · fiscaal aspect | Wanneer-kies-je VERVANGEN door "Wanneer komt deze post voor" (verplicht aanwezig waar van toepassing — geen vrije keuze). Rol vooral 📋 Boekhouder + 🔍 Auditor; 🎯 Adviseur waar keuze-aspecten (bv. activeren-vs-kost, afschrijfmethode). |
+
+**"Wanneer kies je dit?"-variant** voor non-kiesbare kinds:
+- `regime`/`fiscale-regeling`: "Wanneer is dit van toepassing" (voorwaarden zijn de poortwachter)
+- `balanspost`: "Wanneer komt deze post voor" (passieve aanwezigheid)
+- `kader`/`familie`: geen sectie (overstijgend concept zonder keuze)
+- `procedure`: "Wanneer wordt deze procedure getriggerd" (trigger-event in plaats van keuze)
+- Voor `ratio` blijft het "Wanneer gebruik je deze ratio" (analyse-keuze)
 
 **Voor wie werkt de accountant** — heuristic bij elk record:
 1. Welke klant-perspectieven raken dit concept? (uitgever · ontvanger · belegger · belegger-venn. · bestuur · …)
