@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controlepercentage.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Controlepercentage 🤖
+# Controlepercentage 🔗
 
 Een operationaliseringsmaatstaf uit het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) die meet hoeveel stemrechten een moeder direct of indirect aanhoudt. Hij vormt de cijfermatige onderbouwing van de kwalificatie 'controle' en wordt gebruikt om de keuze van de consolidatietechniek te toetsen.
 
@@ -28,6 +28,7 @@ Een operationaliseringsmaatstaf uit het Belgische boekhoudrecht-consolidatieregi
 Het percentage van de stemrechten dat een moeder direct of indirect (via dochters) in een andere vennootschap aanhoudt. Het controlepercentage gebruik je om te toetsen of er sprake is van controle in rechte. Belangrijk verschil met belangenpercentage: in een keten (moeder → tussenschakel → onderste dochter) wordt het controlepercentage níet vermenigvuldigd. Zolang elke schakel exclusief gecontroleerd wordt, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.
 
 _Bron: WVV art. 1:14 jo. art. 1:16_
+
 
 
 ## Berekening
@@ -146,7 +147,7 @@ Resultaat: Aurelia Holding NV controleert Drukkerij Dendermonde exclusief (via B
 <h3 id="onderscheid-met-belangenpercentage">Onderscheid met belangenpercentage</h3>
 
 > [!tip]- Onderscheid met belangenpercentage
-> Controlepercentage meet macht (stemrechten); belangenpercentage meet eigendom (kapitaal en winstrecht). Beide kunnen uiteenlopen bij bijzondere structuren: preferente aandelen, certificering, stemrechtloze aandelen. In de keten Aurelia → 80 % Brugse → 60 % Drukkerij Dendermonde is het controlepercentage van Aurelia in Drukkerij Dendermonde nog steeds 60 % (zolang Brugse exclusief gecontroleerd wordt), terwijl het belangenpercentage 80 % × 60 % = 48 % is. 🤖
+> Controlepercentage meet macht (stemrechten); belangenpercentage meet eigendom (kapitaal en winstrecht). Beide kunnen uiteenlopen bij bijzondere structuren: preferente aandelen, certificering, stemrechtloze aandelen. In de keten Aurelia → 80 % Brugse → 60 % Drukkerij Dendermonde is het controlepercentage van Aurelia in Drukkerij Dendermonde nog steeds 60 % (zolang Brugse exclusief gecontroleerd wordt), terwijl het belangenpercentage 80 % × 60 % = 48 % is. 🔗
 
 > [!tip]- Herkennen op het examen
 > Tabelopgave 'X % van A en A heeft Y % van B' — controle: niet vermenigvuldigen zolang elke schakel exclusief gecontroleerd wordt; belang: wél vermenigvuldigen.
@@ -154,13 +155,13 @@ Resultaat: Aurelia Holding NV controleert Drukkerij Dendermonde exclusief (via B
 <h3 id="beoordelen-van-consolidatieverplichting">Beoordelen van consolidatieverplichting</h3>
 
 > [!tip]- Beoordelen van consolidatieverplichting
-> Een controlepercentage > 50 % stemrechten levert in beginsel exclusieve controle in rechte op en triggert integrale consolidatie. Bij precies 50 % zonder stemovereenkomst is er géén controle. Bij stemovereenkomst tussen meerdere vennoten ontstaat gezamenlijke controle (evenredige consolidatie of vermogensmutatie). 🤖
+> Een controlepercentage > 50 % stemrechten levert in beginsel exclusieve controle in rechte op en triggert integrale consolidatie. Bij precies 50 % zonder stemovereenkomst is er géén controle. Bij stemovereenkomst tussen meerdere vennoten ontstaat gezamenlijke controle (evenredige consolidatie of vermogensmutatie). 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Niet alle aandelen geven stemrechten
-> ⚠️ Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen kunnen kapitaal (belangenpercentage) en stemrechten (controlepercentage) uit elkaar lopen. Lees de opgave nauwkeurig: gaat het over 'aandelen', 'stemrechten' of 'kapitaal'? 🤖
+> ⚠️ Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen kunnen kapitaal (belangenpercentage) en stemrechten (controlepercentage) uit elkaar lopen. Lees de opgave nauwkeurig: gaat het over 'aandelen', 'stemrechten' of 'kapitaal'? 🔗
 >
 > _Bron: Synthese WVV/CBN_
 

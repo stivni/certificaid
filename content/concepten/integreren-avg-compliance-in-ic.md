@@ -18,9 +18,10 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/integreren-avg-compliance-in-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Integreren van AVG-compliance in het intern-controlesysteem 🤖
+# Integreren van AVG-compliance in het intern-controlesysteem 🔗
+
 
 
 ## Stappen

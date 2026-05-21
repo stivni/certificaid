@@ -16,7 +16,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vrijstelling-subconsolidatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Vrijstelling van subconsolidatie ⚖️
 
@@ -28,6 +28,7 @@ Een proportionaliteits-uitzondering in het Belgische boekhoudrecht-consolidatier
 Een tussenliggende (sub)moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen, op voorwaarde dat: (1) ze zelf dochter is van een hogere moeder die hogerop al consolideert; (2) die hogere moeder de geconsolideerde jaarrekening en het jaarverslag opmaakt, laat controleren en publiceert volgens een gelijkwaardige standaard; (3) aan de aanvullende voorwaarden is voldaan. De vrijstelling vervalt zodra de submoeder zelf of één van haar dochters genoteerd is op een gereglementeerde markt.
 
 _Bron: CBN 2012/12_
+
 
 
 > [!info] Uitzondering op: [[consolidatieverplichting]]

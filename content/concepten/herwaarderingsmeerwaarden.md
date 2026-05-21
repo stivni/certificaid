@@ -18,7 +18,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/herwaarderingsmeerwaarden.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Herwaarderingsmeerwaarden ⚖️
 
@@ -29,9 +29,12 @@ Een herwaardering is een **uitzonderlijke opwaardering** van een vast actief bov
 
 > [!info] Behoort tot: [[eigen-middelen]]
 
+> [!info] Specialisaties (1): [[herwaarderingsmodel-ifrs]]
+
 Een **uitzonderlijke opwaardering** van een materieel of financieel vast actief boven zijn aanschaffingswaarde, geboekt als 'herwaarderingsmeerwaarde' aan de passiefzijde van de balans (rubriek III. binnen eigen middelen). Toegelaten enkel onder strikte voorwaarden (KB WVV art. 3:35): (a) zekere en duurzame meerwaarde; (b) onontbeerlijk voor de continuïteit van de bedrijfsactiviteit; (c) past binnen het getrouw beeld. Niet-uitkeerbaar zolang niet gerealiseerd. Wanneer het actief afschrijfbaar is, wordt ook de herwaardering afgeschreven.
 
 _Bron: KB WVV art. 3:35_
+
 
 
 ## Bouwstenen
@@ -128,7 +131,7 @@ _Grondslag: KB WVV art. 3:30; KB WVV art. 3:35_
 ## Valkuilen
 
 > [!warning]- Herwaardering is GEEN gewone optie
-> ⚠️ Herwaardering is GEEN gewone optie. De toepassingsvoorwaarden (zeker + duurzaam + onontbeerlijk voor continuïteit) zijn cumulatief en streng. De facto wordt ze in de praktijk weinig toegepast — meestal alleen voor terreinen of historische gebouwen met duidelijke duurzame waardestijging. 🤖
+> ⚠️ Herwaardering is GEEN gewone optie. De toepassingsvoorwaarden (zeker + duurzaam + onontbeerlijk voor continuïteit) zijn cumulatief en streng. De facto wordt ze in de praktijk weinig toegepast — meestal alleen voor terreinen of historische gebouwen met duidelijke duurzame waardestijging. 🔗
 >
 > _Bron: KB WVV art. 3:35_
 
@@ -140,6 +143,9 @@ _Grondslag: KB WVV art. 3:30; KB WVV art. 3:35_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[wijziging-boekhoudkundig-referentiestelsel]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV heeft een productiehal aangeschaft in 2005 voor € 320.000 (terrein) — werkelijke waarde nu € 580.000 door bestemmingswijziging tot bouwgrond. Bestuur beslist herwaardering toe te passen: Debet 220 Terreinen € 260.000 / Credit 12 Herwaarderingsmeerwaarden € 260.000. Niet-uitkeerbaar; bij latere verkoop wordt de meerwaarde gerealiseerd en kan ze deels naar reserves.

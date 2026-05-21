@@ -17,7 +17,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verantwoordingsstuk.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Verantwoordingsstuk ⚖️
 
@@ -31,6 +31,7 @@ WER art. III.83 verplicht een Belgische onderneming om elke boeking te staven me
 Een **verantwoordingsstuk** is elk document dat een verrichting of gebeurtenis aantoont en daardoor een boeking ondersteunt: een factuur, kwitantie, bankafschrift, leveringsbon, contract, rekenkundige nota of intern stuk. WER art. III.83 verplicht elke onderneming om elke boeking te staven met een verantwoordingsstuk waarnaar het dagboek verwijst. Het is de **brug** tussen de werkelijke economische transactie en haar boekhoudkundige weerslag — zonder verantwoordingsstuk is een boeking niet controleerbaar en dus niet 'regelmatig'.
 
 _Bron: WER art. III.83_
+
 
 
 ## In de praktijk
@@ -58,7 +59,7 @@ _Bron: WER art. III.83_
 ## Zie ook
 
 - **Vereist kennis van**: [[bewaring-boekhoudstukken]]
-
+- **Wordt voorondersteld in** (2): [[dagboek]] · [[regelmatige-boekhouding]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt stof voor € 850 + btw bij leverancier. Verantwoordingsstuk: aankoopfactuur F-2024-0856 met datum, leverancier, BTW-nummer, omschrijving, bedrag. Boeking 60 / 411 / 440 verwijst naar dit stuk-nummer in het aankoopdagboek.

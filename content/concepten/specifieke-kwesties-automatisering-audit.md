@@ -13,9 +13,9 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/specifieke-kwesties-automatisering-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Specifieke kwesties bij automatisering (audit-perspectief) 🤖
+# Specifieke kwesties bij automatisering (audit-perspectief) 🔗
 
 Geautomatiseerde boekhoudomgevingen verschuiven de plek waar audit-risico's ontstaan: van menselijke routes naar IT-controles, applicatie-controles en data-flows. De auditor moet zijn aanpak aanpassen — IT general controls (toegang, wijzigingsbeheer, back-up) testen vóór hij steunt op applicatie-output, en bij data-rijke omgevingen overwegen CAATs of data-analytics in te zetten.
 
@@ -29,17 +29,18 @@ Bij geautomatiseerde boekhoudkundige systemen verschuiven de auditrisico's: meer
 _Bron: ITAA KMO-controlenorm §77 + ITAA Algemene controlenorm §4_
 
 
+
 ## In de praktijk
 
 <h3 id="verschuiving-naar-test-of-controls">Verschuiving naar test of controls</h3>
 
 > [!tip]- Verschuiving naar test of controls
-> In geautomatiseerde omgevingen is het vaak inefficiënt om alleen gegevensgericht te testen — er staan te veel transacties tegenover. De auditor steunt waar mogelijk op IT-controles (toegangsbeheer, validatieregels, automatische reconciliaties) na ze grondig getoetst te hebben. 🤖
+> In geautomatiseerde omgevingen is het vaak inefficiënt om alleen gegevensgericht te testen — er staan te veel transacties tegenover. De auditor steunt waar mogelijk op IT-controles (toegangsbeheer, validatieregels, automatische reconciliaties) na ze grondig getoetst te hebben. 🔗
 
 <h3 id="audit-trail-risk">Audit-trail risk</h3>
 
 > [!tip]- Audit-trail risk
-> In moderne ERP's verdwijnt soms de papieren audit-trail. De auditor moet zich vergewissen dat de elektronische trail volledig en onaantastbaar is — anders kan hij geen voldoende assurance-informatie ontlenen aan systeem-output. 🤖
+> In moderne ERP's verdwijnt soms de papieren audit-trail. De auditor moet zich vergewissen dat de elektronische trail volledig en onaantastbaar is — anders kan hij geen voldoende assurance-informatie ontlenen aan systeem-output. 🔗
 
 
 ## Voorbeelden

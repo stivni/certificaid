@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/paragraaf-ter-benadrukking.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Paragraaf ter benadrukking van bepaalde aangelegenheden ⚖️
 
@@ -26,6 +26,7 @@ Een paragraaf ter benadrukking (emphasis of matter, ISA 706) is een instrument w
 Een paragraaf ter benadrukking van bepaalde aangelegenheden (emphasis of matter) is een paragraaf in de controleverklaring die verwijst naar een aangelegenheid die op PASSENDE wijze in de financiële overzichten is gepresenteerd of toegelicht, maar die — naar het oordeel van de beroepsbeoefenaar — zo belangrijk is dat ze fundamenteel is voor het begrip van de gebruikers. De verklaring zelf wordt NIET aangepast.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1_
+
 
 
 > [!info]- Niet verwarren met [[paragraaf-overige-aangelegenheden]]
@@ -65,6 +66,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (3): [[continuiteitsveronderstelling-audit]] · [[controleverslag-elementen]] · [[opstellen-controleverslag-en-formuleren-oordeel]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV heeft een materiële onzekerheid rond de continuïteit, maar deze is correct toegelicht in toelichting 12. Sofie Janssens neemt een paragraaf ter benadrukking op die naar toelichting 12 verwijst — zonder haar oordeel aan te passen.

@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/professionele-oordeelsvorming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Professionele oordeelsvorming ⚖️
 
@@ -27,6 +27,7 @@ Professionele oordeelsvorming (professional judgment) is de wettelijk vereiste c
 Professionele oordeelsvorming is het toepassen van relevante training, kennis en ervaring — in de context van de geldende controle-, verslaggevings- en ethische normen — bij het maken van weloverwogen keuzes over de handelwijzen die passend zijn in de omstandigheden van de opdracht. Het is wat de auditor doet wanneer de norm de keuze niet helemaal voorschrijft.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1_
+
 
 
 ## In de praktijk

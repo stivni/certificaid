@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/doelstellingen-analytische-boekhouding.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Doelstellingen van de analytische boekhouding 🤖
+# Doelstellingen van de analytische boekhouding 🔗
 
 Een opsomming van vier samenhangende doelen — kostprijsberekening per kostendrager, winstgevendheid per klant/markt, opvolging van kostencentra en beslissingsondersteuning — die samen verklaren waarom een onderneming een analytische boekhouding voert naast de wettelijke algemene boekhouding. Dit cluster is het anker van programmaonderdeel 1.8 hoofdstuk I.A en wordt door zowat elke andere PO 1.8-component (kostentypologie, kostprijsmethodes, budgetbeheer) ondersteund.
 
@@ -28,6 +28,7 @@ Een opsomming van vier samenhangende doelen — kostprijsberekening per kostendr
 De analytische boekhouding dient vier samenhangende doelen: (1) de werkelijke kostprijs per product, opdracht of dienst berekenen; (2) de winstgevendheid per kostendrager, klant of markt-segment in kaart brengen; (3) de werking per kostencentrum opvolgen (efficiëntie, productiviteit); (4) input leveren voor beslissingen over prijszetting, make-or-buy, productmix en investeringen.
 
 _Bron: Management accounting — bron-gap (geen Belgische trusted bron)_
+
 
 
 ## Bouwstenen
@@ -85,3 +86,6 @@ Yperse Werkplaats BV overweegt om de afdeling Spinnerij te outsourcen. Analytisc
 > In een examen-vraag 'noem de doelstellingen van een analytische boekhouding' verwachten correctoren typisch 3 à 4 doelen waarvan minstens kostprijsberekening, marge-analyse en beslissingsondersteuning worden genoemd. Budgetopvolging hoort er ook bij, maar valt soms onder een aparte vraag over budgetbeheer. 🤖
 
 
+## Zie ook
+
+- **Triggert** (1): [[analytische-boekhouding]]

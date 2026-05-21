@@ -18,7 +18,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/gedeelde-wettelijk-voorbehouden-opdracht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Gedeelde wettelijk voorbehouden opdracht ⚖️
 
@@ -27,9 +27,12 @@ De gedeelde wettelijk voorbehouden opdracht is het tweede luik van het opdrachte
 > [!summary] Korte inhoud
 > Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie).
 
+> [!info] Specialisaties (6): [[effectennorm-opdracht]] · [[fusie-splitsing-controleopdracht]] · [[inbreng-in-natura-verslag]] · [[omzetting-vennootschap-opdracht]] · [[ontbinding-vereffening-opdracht]] · [[quasi-inbreng-verslag]]
+
 Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie). Voorbeelden: inbreng in natura, quasi-inbreng, omzetting van rechtsvorm, ontbinding-vereffening. Geldt enkel als er geen commissaris is — heeft de vennootschap er één, dan voert die de opdracht uit.
 
 _Bron: ITAA KMO-controlenorm §2 (definitie + ratione materiae)_
+
 
 
 > [!info] Uitzondering op: [[wettelijke-controleopdracht-commissaris]]
@@ -60,7 +63,7 @@ Rotex Roeselare NV (met commissaris Wolters & Partners) doet een quasi-inbreng �
 
 _Grondslag: ITAA KMO-controlenorm §2_
 
-### Catalogus van typische voorbehouden verrichtingen 🤖
+### Catalogus van typische voorbehouden verrichtingen 🔗
 
 WVV-events die een gedeeld voorbehouden verslag vereisen: (1) inbreng in natura + quasi-inbreng (WVV art. 5:7, 7:7), (2) omzetting van rechtsvorm (WVV Boek 14), (3) fusie en splitsing (WVV art. 12:25 e.v.), (4) ontbinding-vereffening (WVV art. 2:71 e.v.), (5) effectenverrichtingen onder de effectennorm (uitgifte aandelen, converteerbare obligaties, opheffing voorkeurrecht).
 

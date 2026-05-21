@@ -1,0 +1,14 @@
+{% set conf_label = onderdeel.confidence | default('inferred') | confidence_label %}
+### {{ onderdeel.titel | default(onderdeel.element_id | default('')) }} {{ conf_label }}
+
+{% if onderdeel.beschrijving %}
+{{ onderdeel.beschrijving }}
+
+{% endif %}
+{% if onderdeel.bron is defined and onderdeel.bron %}
+_Bron: {{ onderdeel.bron.short | default(onderdeel.bron) }}_
+
+{% endif %}
+{% for weergave in onderdeel.weergaven | default([]) %}
+{% include 'partials/weergave.md.j2' %}
+{% endfor %}

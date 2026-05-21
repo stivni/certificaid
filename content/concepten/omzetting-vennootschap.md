@@ -20,7 +20,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/omzetting-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Omzetting van een vennootschap ⚖️
 
@@ -31,9 +31,12 @@ De omzetting bevindt zich op het kruispunt van vennootschapsrecht en accountants
 
 > [!info] Behoort tot: [[bijzondere-verslagen-overzicht]]
 
+> [!info] Bestaat uit (2): [[controleverslag-omzetting]] · [[voorstel-omzetting-vennootschap]]
+
 Omzetting van een vennootschap is de operatie waarbij een vennootschap haar rechtsvorm wijzigt (bv. BV → NV, CV → BV, VOF → BV) zonder dat haar rechtspersoonlijkheid wordt onderbroken. De vennootschap behoudt haar boekhouding, haar contracten en haar fiscale identiteit; alleen het juridisch kleed wijzigt. Boek 14 WVV regelt de nationale omzetting (Hoofdstuk 2) en de grensoverschrijdende omzetting (Hoofdstuk 3, sinds 2023). De procedure vereist een staat van activa en passiva, een verslag van het bestuursorgaan, een controleverslag van de commissaris of, bij afwezigheid, van een bedrijfsrevisor of gecertificeerd accountant, een gekwalificeerd AV-besluit en een notariële akte.
 
 _Bron: WVV art. 14:1-14:14_
+
 
 
 ## Bouwstenen
@@ -151,7 +154,7 @@ _Grondslag: WVV art. 14:15-14:42_
 <h3 id="wanneer-kom-je-het-tegen">Wanneer kom je het tegen?</h3>
 
 > [!tip]- Wanneer kom je het tegen?
-> Een BV die groeit en aandelen wil uitgeven aan externe investeerders → omzetting naar NV. Een VOF waarin een vennoot afhaakt en de overblijvers persoonlijke aansprakelijkheid willen beperken → omzetting naar BV. Een vereniging (vzw) die commerciële activiteiten ontwikkelt → soms omzetting naar coöperatieve. 🤖
+> Een BV die groeit en aandelen wil uitgeven aan externe investeerders → omzetting naar NV. Een VOF waarin een vennoot afhaakt en de overblijvers persoonlijke aansprakelijkheid willen beperken → omzetting naar BV. Een vereniging (vzw) die commerciële activiteiten ontwikkelt → soms omzetting naar coöperatieve. 🔗
 
 <h3 id="rol-van-de-gecertificeerd-accountant">Rol van de gecertificeerd accountant</h3>
 
@@ -162,15 +165,15 @@ _Grondslag: WVV art. 14:15-14:42_
 ## Valkuilen
 
 > [!warning]- Verifieer dat de staat van activa en passiva niet ouder is dan drie maanden op de AV-datum.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bij omzetting naar NV: check dat het aangegeven kapitaal niet hoger is dan het nettoactief.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Vergeet niet dat het bestuursverslag (art. 14:5) een afzonderlijk verslag is, niet hetzelfde als het accountantsverslag.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

@@ -15,9 +15,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/materieel-belang-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Materieel belang (materialiteit) in een audit 🤖
+# Materieel belang (materialiteit) in een audit 🔗
 
 Materieel belang (materialiteit) is de drempel waarboven afwijkingen — qua bedrag of qua aard — de economische beslissingen van gebruikers van de financiële overzichten beïnvloeden. Het is een kerngrootheid die zowel bij planning (waar moet ik testen?) als bij de oordeelsvorming (zijn niet-gecorrigeerde afwijkingen samen materieel?) optreedt. Een tweede dimensie — diepgaande invloed — bepaalt of een materiële afwijking tot oordeel met voorbehoud (geïsoleerd) of afkeurend oordeel (alles-doordringend) leidt.
 
@@ -29,12 +29,13 @@ Materieel belang is de drempel waarboven een afwijking — afzonderlijk of gezam
 _Bron: ITAA KMO-controlenorm Bijlage 1 + §117_
 
 
+
 ## In de praktijk
 
 <h3 id="twee-dimensies-kwantitatief-en-kwalitatief">Twee dimensies: kwantitatief én kwalitatief</h3>
 
 > [!tip]- Twee dimensies: kwantitatief én kwalitatief
-> Een afwijking kan materieel zijn op basis van cijfers (bv. € 100.000 op een omzet van € 2.000.000), OF op basis van haar aard (bv. een fraudegeval — ook al is het bedrag klein). De auditor weegt beide. 🤖
+> Een afwijking kan materieel zijn op basis van cijfers (bv. € 100.000 op een omzet van € 2.000.000), OF op basis van haar aard (bv. een fraudegeval — ook al is het bedrag klein). De auditor weegt beide. 🔗
 
 <h3 id="gebruik-bij-planning-vs-oordeel">Gebruik bij planning vs. oordeel</h3>
 
@@ -50,7 +51,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §117_
 ## Valkuilen
 
 > [!warning]- Materialiteit is GEEN audit-toleranciegrens onder dewelke een fraude mag worden genegeerd
-> ⚠️ Materialiteit is GEEN audit-toleranciegrens onder dewelke een fraude mag worden genegeerd. Voor signaleringen van fraude of niet-naleving van wet- en regelgeving geldt de materialiteitsdrempel niet absoluut — kwalitatieve overwegingen kunnen kleine bedragen materieel maken. 🤖
+> ⚠️ Materialiteit is GEEN audit-toleranciegrens onder dewelke een fraude mag worden genegeerd. Voor signaleringen van fraude of niet-naleving van wet- en regelgeving geldt de materialiteitsdrempel niet absoluut — kwalitatieve overwegingen kunnen kleine bedragen materieel maken. 🔗
 >
 > _Bron: ITAA KMO-controlenorm §117_
 
@@ -60,7 +61,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §117_
 
 - **Vereist kennis van**: [[afwijking-van-materieel-belang]]
 - **Vereist kennis van**: [[]]
-
+- **Wordt voorondersteld in** (8): [[afwijking-van-materieel-belang]] · [[beoordelen-getrouw-beeld-en-regelmatigheid]] · [[controleoordeel-types]] · [[controleverslag-elementen]] · [[fouten-ic]] · [[fraude-versus-fout]] · [[getrouw-beeld-controle]] · [[opstellen-controleverslag-en-formuleren-oordeel]]
 ## Voorbeelden
 
 Sofie Janssens bepaalt voor Rotex Roeselare NV een materialiteit van 5 % op het resultaat vóór belasting (€ 2.000.000 × 5 % = € 100.000). Afwijkingen ≥ € 100.000 zijn 'materieel'; daaronder maar > € 5.000 (=5 % van materialiteit) worden gerapporteerd op een misstatement-log. Onder € 5.000 niet getest.

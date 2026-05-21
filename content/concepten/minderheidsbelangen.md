@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/minderheidsbelangen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Belangen van derden (minderheidsbelangen) ⚖️
 
@@ -27,9 +27,12 @@ Een eigen-vermogenscomponent in de geconsolideerde jaarrekening onder het Belgis
 
 > [!info] Behoort tot: [[integrale-consolidatie]]
 
+> [!info] Bestaat uit (2): [[belangenpercentage]] · [[integrale-consolidatie]]
+
 Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring. Op de geconsolideerde balans verschijnt dat als 'Belangen van derden' aan passiefzijde; in de geconsolideerde resultatenrekening als 'Aandeel van derden in het resultaat'. Dit fenomeen ontstaat enkel bij integrale consolidatie van een dochter waarvan de moeder minder dan 100 % bezit.
 
 _Bron: KB WVV art. 3:137 (resultaat); art. 3:130 (herberekening)_
+
 
 
 ## Berekening
@@ -224,7 +227,7 @@ Resultaat: In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzij
 <h3 id="negatief-aandeel-van-derden">Negatief aandeel van derden</h3>
 
 > [!tip]- Negatief aandeel van derden
-> Maakt een dochter een verlies en consolideert de moeder integraal, dan kan het derden-aandeel ook negatief uitkomen (waardoor 'Belangen van derden' op de balans afneemt). Anders dan bij vermogensmutatie (waar de boekwaarde niet onder nul mag gaan) wordt bij integrale consolidatie het volledige resultaat opgenomen, en het derden-deel volgt naar evenredigheid — ook in min. 🤖
+> Maakt een dochter een verlies en consolideert de moeder integraal, dan kan het derden-aandeel ook negatief uitkomen (waardoor 'Belangen van derden' op de balans afneemt). Anders dan bij vermogensmutatie (waar de boekwaarde niet onder nul mag gaan) wordt bij integrale consolidatie het volledige resultaat opgenomen, en het derden-deel volgt naar evenredigheid — ook in min. 🔗
 
 
 ## Valkuilen

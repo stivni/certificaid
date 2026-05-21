@@ -17,9 +17,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/indemnification-overname.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Vrijwaringsmechanisme in overnameovereenkomst 🤖
+# Vrijwaringsmechanisme in overnameovereenkomst 🔗
 
 De vrijwaring vertaalt een R&W-schending in een betaalverplichting. Onder Belgisch recht moet ze contractueel uitgewerkt worden — er is geen standaardregime. De kalibratie via de minimis, basket, cap en termijn weerspiegelt de risicoverdeling tussen koper en verkoper.
 
@@ -29,6 +29,7 @@ De vrijwaring vertaalt een R&W-schending in een betaalverplichting. Onder Belgis
 > [!info] Behoort tot: [[overnameovereenkomst]]
 
 Een vrijwaringsclausule (indemnification) verplicht de verkoper om de koper (en/of de doelvennootschap) schadeloos te stellen voor verlies dat voortvloeit uit een schending van een verklaring of waarborg, of uit een specifiek vermeld risico, binnen contractueel afgebakende beperkingen.
+
 
 
 ## Bouwstenen
@@ -114,18 +115,18 @@ _Grondslag: IBA-MA-Belgium-2022-EN §5.2.6 Seller protections_
 ## Valkuilen
 
 > [!warning]- Maak duidelijk of de basket 'tipping' of 'deductible' is — verschil van vele tienduizenden euro's.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Sluit fraude uitdrukkelijk uit van alle beperkingen — anders zou een rechter de cap kunnen toepassen ook bij kwade trouw.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Getriggerd door**: [[representations-and-warranties]]
-
+- **Wordt voorondersteld in** (5): [[begeleiden-due-diligence-overname]] · [[due-diligence-overname]] · [[escrow-en-zekerheidsmechanismen-overname]] · [[overnameovereenkomst]] · [[representations-and-warranties]]
 ## Voorbeelden
 
 ### Vrijwaringsstructuur SPA Brugse Brouwerij BV

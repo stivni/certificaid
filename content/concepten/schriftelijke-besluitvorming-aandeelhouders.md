@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/schriftelijke-besluitvorming-aandeelhouders.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Schriftelijke besluitvorming door aandeelhouders ⚖️
 
@@ -30,6 +30,7 @@ De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot d
 _Bron: WVV art. 5:85 (BV), 6:71 (CV), 7:133 (NV)_
 
 
+
 > [!info] Uitzondering op: [[bijeenroeping-algemene-vergadering]]
 
 ## Voorwaarden / uitzonderingen
@@ -39,7 +40,7 @@ _Bron: WVV art. 5:85 (BV), 6:71 (CV), 7:133 (NV)_
 ## Valkuilen
 
 > [!warning]- Lijst van stemgerechtigden actueel houden — bij overdracht net vóór de tekening kan eenparigheid onbedoeld breken.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Statutenwijziging? Stop met de schriftelijke procedure — boek een notaris.

@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/risico-inschatting-organisatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Risico-inschatting binnen de organisatie (COSO-component 2) 🤖
+# Risico-inschatting binnen de organisatie (COSO-component 2) 🔗
 
 Risico-inschatting van de organisatie is COSO-component 2 — het management identificeert, analyseert en prioriteert risico's voor het halen van doelstellingen. Voor de stagiair is dit conceptueel het bedrijfs-pendant van wat hij in zijn audit-rol zelf doet (audit risk assessment): de cliënt heeft zijn eigen risk-register en de auditor toetst of het effectief werkt. Examen-vragen vragen vaak het onderscheid bedrijfs-risicobeheer (ERM) versus audit-risicomodel.
 
@@ -29,9 +29,10 @@ Risico-inschatting van de organisatie is COSO-component 2 — het management ide
 Risico-inschatting binnen de organisatie is het proces waarmee het management risico's identificeert die het halen van doelstellingen kunnen belemmeren, deze risico's analyseert (waarschijnlijkheid × impact) en beslist welke worden vermeden, gemitigeerd, gedeeld of geaccepteerd. Het is COSO-component 2 en drijft de keuze van welke controle-activiteiten (component 3) nodig zijn.
 
 
+
 ## Bouwstenen
 
-### Drie stappen — identificeren, analyseren, behandelen 🤖
+### Drie stappen — identificeren, analyseren, behandelen 🔗
 
 (1) Identificeren: wat zou het halen van een doel kunnen verhinderen? (2) Analyseren: hoe waarschijnlijk is het, wat is de impact? (3) Behandelen: vermijden, verminderen, overdragen (verzekeren), accepteren.
 
@@ -42,7 +43,7 @@ Risico-inschatting binnen de organisatie is het proces waarmee het management ri
 
 _Grondslag: COSO ERM + ISO 31000_
 
-### Risk-appetite versus risk-tolerance 🤖
+### Risk-appetite versus risk-tolerance 🔗
 
 Risk-appetite = strategisch niveau van risico dat de raad bereid is te lopen. Risk-tolerance = operationele afwijking die acceptabel is binnen die appetite.
 
@@ -54,7 +55,7 @@ Risk-appetite = strategisch niveau van risico dat de raad bereid is te lopen. Ri
 
 _Grondslag: COSO ERM 2017_
 
-### Risk-register als operationeel artefact 🤖
+### Risk-register als operationeel artefact 🔗
 
 Lijst van geïdentificeerde risico's, eigenaars, controles, residueel risico, opvolgindicatoren — typisch in Excel of GRC-tool.
 
@@ -82,10 +83,13 @@ _Grondslag: COSO ERM + ISO 31000_
 ## Valkuilen
 
 > [!warning]- Risico-inschatting verwarren met risico-inventaris
-> ⚠️ Risico-inschatting verwarren met risico-inventaris. Inventaris = lijst. Inschatting = ook prioritering, analyse, behandelingsbesluit. 🤖
+> ⚠️ Risico-inschatting verwarren met risico-inventaris. Inventaris = lijst. Inschatting = ook prioritering, analyse, behandelingsbesluit. 🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[cyberrisico-ic]] · [[uitvoering-interne-controle]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV beheert directeur Pieter Vermeulen een risk-register met 12 risico's: top 3 = (a) afhankelijkheid van één hoofdklant (40% omzet), (b) vergrijzing technische ploeg, (c) cyber-risico ERP-systeem. Voor elk: waarschijnlijkheid (1-5), impact (1-5), mitigerende controle, eigenaar, review-datum.

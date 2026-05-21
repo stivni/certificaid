@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/faillissement.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Faillissement ⚖️
 
@@ -27,14 +27,17 @@ Faillissement is het sluitstuk van Boek XX WER: gereserveerd voor ondernemingen 
 
 > [!info] Behoort tot: [[insolventieprocedures-belgie]]
 
+> [!info] Bestaat uit (6): [[curator-faillissement]] · [[kwijtschelding-natuurlijke-persoon-gefailleerde]] · [[rechter-commissaris-insolventie]] · [[rehabilitatie-gefailleerde]] · [[verdachte-periode-faillissement]] · [[voorwaarden-faillietverklaring]]
+
 Insolventieprocedure waarbij de **insolventierechtbank** het vermogen van een onderneming die op duurzame wijze is opgehouden te betalen en wier krediet geschokt is, onder de bevoegdheid van een **curator** plaatst. De curator beheert en vereffent dat vermogen en verdeelt de opbrengst onder de schuldeisers volgens hun rangorde. De faillissementsprocedure wordt geopend bij vonnis na aangifte van de schuldenaar zelf of op dagvaarding van een of meer schuldeisers, het openbaar ministerie, of een voorlopig bewindvoerder.
 
 _Bron: WER art. XX.98, XX.100_
 
 
+
 ## Bouwstenen
 
-### Voorwaarden voor faillietverklaring 🤖
+### Voorwaarden voor faillietverklaring 🔗
 
 Twee cumulatieve voorwaarden: (1) **duurzame staking van betaling** — niet één onbetaalde factuur maar een structureel onvermogen om opeisbare schulden te voldoen — en (2) **geschokt krediet** — schuldeisers verlenen geen verdere termijnen. Beide moeten samen vervuld zijn.
 
@@ -107,22 +110,22 @@ _Grondslag: WER art. XX.170, XX.171_
 <h3 id="verplicht-binnen-een-maand">Verplicht binnen één maand</h3>
 
 > [!tip]- Verplicht binnen één maand
-> Een schuldenaar die voldoet aan de voorwaarden van faillissement, moet zelf aangifte doen binnen één maand. Het bestuursorgaan van een vennootschap dat dit nalaat, riskeert persoonlijke aansprakelijkheid voor de bijkomende schulden die in die tussentijd ontstaan (voortzetting verlieslatende activiteit, art. XX.225/2:56 WVV). 🤖
+> Een schuldenaar die voldoet aan de voorwaarden van faillissement, moet zelf aangifte doen binnen één maand. Het bestuursorgaan van een vennootschap dat dit nalaat, riskeert persoonlijke aansprakelijkheid voor de bijkomende schulden die in die tussentijd ontstaan (voortzetting verlieslatende activiteit, art. XX.225/2:56 WVV). 🔗
 
 <h3 id="voor-de-accountant">Voor de accountant</h3>
 
 > [!tip]- Voor de accountant
-> De accountant levert vaak de definitieve afsluitingsbalans tot de datum van faillissement, helpt de schuldvordering van de cliënt indienen in andere faillissementen, en assisteert de curator bij het in beheer nemen van de boeken. 🤖
+> De accountant levert vaak de definitieve afsluitingsbalans tot de datum van faillissement, helpt de schuldvordering van de cliënt indienen in andere faillissementen, en assisteert de curator bij het in beheer nemen van de boeken. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Onderscheid duurzame staking van betaling van een tijdelijk liquiditeitsprobleem. Eén onbetaalde factuur of een betwiste schuld zijn geen voldoende grond.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Voor rechtspersonen volgt na sluiting altijd ontbinding — geen kwijtschelding van het schuldensaldo.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -131,7 +134,7 @@ _Grondslag: WER art. XX.170, XX.171_
 - **Getriggerd door**: [[voorwaarden-faillietverklaring]]
 - **Vereist kennis van**: [[beroepsverbod-na-insolventie]]
 - **Vereist kennis van**: [[rehabilitatie-gefailleerde]]
-
+- **Wordt voorondersteld in** (1): [[exit-routes-onderneming-overzicht]]- **Triggert** (2): [[beroepsverbod-na-insolventie]] · [[besloten-voorbereiding-faillissement]]
 ## Voorbeelden
 
 ### Faillissement Verffabriek Veurne BV

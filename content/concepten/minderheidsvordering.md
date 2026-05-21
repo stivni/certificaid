@@ -13,9 +13,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/minderheidsvordering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Minderheidsvordering 🤖
+# Minderheidsvordering 🔗
 
 De minderheidsvordering is de **subrogatoire aansprakelijkheidsactie**: een minderheidsaandeelhouder vordert namens en voor rekening van de vennootschap schadevergoeding tegen bestuurders of leden van de raad van toezicht. Zij is het correctief op de meerderheidsregel waarmee de algemene vergadering kwijting kan verlenen — kreeg een minderheid die kwijting niet binnengehaald, dan kan zij de vordering alsnog instellen. BV en NV hebben elk een eigen regime; de geschadepartij blijft in beide gevallen de vennootschap, niet de aandeelhouder zelf.
 
@@ -25,6 +25,7 @@ De minderheidsvordering is de **subrogatoire aansprakelijkheidsactie**: een mind
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 Een minderheidsvordering is een aansprakelijkheidsvordering tegen bestuurders (of leden van de raad van toezicht of vereffenaars) die een minderheidsaandeelhouder voor rekening van de vennootschap instelt wanneer de algemene vergadering de kwijting niet of op ongeldige wijze heeft goedgekeurd. De eventuele schadevergoeding komt aan de vennootschap toe — niet aan de eisende aandeelhouders.
+
 
 
 ## Bouwstenen
@@ -110,15 +111,15 @@ _Grondslag: WVV art. 5:105; art. 7:159_
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -126,7 +127,7 @@ _Grondslag: WVV art. 5:105; art. 7:159_
 
 - **Vereist kennis van**: [[bestuurdersaansprakelijkheid]]
 - **Vereist kennis van**: [[kwijting-bestuurder]]
-
+- **Wordt voorondersteld in** (1): [[agenderingsrecht-aandeelhouder]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

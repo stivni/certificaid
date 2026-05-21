@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wettige-redenen-ontbinding.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Wettige redenen voor gerechtelijke ontbinding 🤖
+# Wettige redenen voor gerechtelijke ontbinding 🔗
 
 Art. 2:73 WVV laat de voorzitter ondernemingsrechtbank een vennootschap ontbinden 'om wettige redenen'. Het criterium is strenger dan de 'gegronde redenen' van de uittredings- en uitsluitingsvordering: niet de samenwerking maar de **normale voortzetting van de zaken zelf** moet onmogelijk zijn geworden.
 
@@ -26,6 +26,7 @@ Art. 2:73 WVV laat de voorzitter ondernemingsrechtbank een vennootschap ontbinde
 > [!info] Behoort tot: [[gerechtelijke-ontbinding]]
 
 Wettige redenen voor gerechtelijke ontbinding zijn omstandigheden die de normale voortzetting van de zaken van de vennootschap onmogelijk maken. De wet noemt expliciet twee voorbeelden: (i) **grove verzuim van verplichtingen** door een vennoot/aandeelhouder, (ii) **kwaal die hem onmogelijk maakt zijn verplichtingen uit te voeren**, én voegt toe 'alle andere gevallen' waarin de voortzetting onmogelijk is — typisch een **diepgaande en blijvende onenigheid tussen aandeelhouders of vennoten**.
+
 
 
 ## In de praktijk
@@ -42,11 +43,11 @@ Wettige redenen voor gerechtelijke ontbinding zijn omstandigheden die de normale
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

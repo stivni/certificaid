@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/berekenen-interpreteren-budgetverschillen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Berekenen en interpreteren van budgetverschillen (verschillenboekhouding) 🤖
+# Berekenen en interpreteren van budgetverschillen (verschillenboekhouding) 🔗
 
 Competentie waarmee de stagiair budgetverschillen splitst, kwantificeert en interpreteert: totaal-verschil decomposeren in prijs- en hoeveelheidcomponenten (materiaal), tarief- en efficiëntiecomponenten (arbeid), volume- en bestedingsverschil (overhead). Eindproduct: een verschillen-rapport per kostencentrum dat aanwijst wélke factor moet bijgestuurd worden — verkoop (volume), inkoop (materiaalprijs), HR (tarief), productie (efficiëntie). Sluit aan op de vijfde fase van budgetprocedure (periodieke opvolging) en is hartstuk van management-stuurinformatie.
+
 
 
 ## Stappen

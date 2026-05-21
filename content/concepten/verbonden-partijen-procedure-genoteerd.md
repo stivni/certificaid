@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verbonden-partijen-procedure-genoteerd.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Verbonden-partijen-procedure in de genoteerde NV ⚖️
 
@@ -28,6 +28,7 @@ Naast de algemene belangenconflict-procedure (art. 7:96 / 7:115) voorziet het WV
 Voor elke beslissing of verrichting die tot de bevoegdheid van de raad van bestuur (of in een duaal model van de raad van toezicht) van een genoteerde NV behoort en die verband houdt met een 'verbonden partij' in de zin van de internationale standaarden voor jaarrekeningen (IAS 24, op grond van Verordening (EG) 1606/2002), past de raad een procedure toe met advies van een onafhankelijk comité, mededeling aan de markt en, in het geval van het duale model, verwijzing van directieraad naar raad van toezicht. De procedure is niet vereist voor verrichtingen met dochtervennootschappen, behalve als de ultieme controlerende natuurlijke of rechtspersoon rechtstreeks of onrechtstreeks ≥ 25 % bezit in die dochter.
 
 _Bron: WVV art. 7:97 (monistisch), art. 7:116-7:117 (duaal)_
+
 
 
 > [!info] Uitzondering op: [[belangenconflict-bestuurder]]
@@ -46,7 +47,7 @@ _Bron: WVV art. 7:97 (monistisch), art. 7:116-7:117 (duaal)_
 ## Valkuilen
 
 > [!warning]- Verwar de algemene belangenconflict-procedure (art. 7:96) niet met de verbonden-partijen-procedure (art. 7:97). De eerste geldt voor alle NV's en kijkt naar het persoonlijk belang van de bestuurder; de tweede geldt enkel voor genoteerde NV's en kijkt naar de relatie met een verbonden partij in de IAS 24-zin.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

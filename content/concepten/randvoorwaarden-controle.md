@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/randvoorwaarden-controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Randvoorwaarden voor een controle (preconditions) ⚖️
 
@@ -28,6 +28,7 @@ Vóór de aanvaarding van een audit-opdracht (en vervolgens doorlopend) toetst d
 _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 
+
 ## In de praktijk
 
 <h3 id="drie-management-verantwoordelijkheden">Drie management-verantwoordelijkheden</h3>
@@ -38,7 +39,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 <h3 id="gevolg-bij-ontbreken">Gevolg bij ontbreken</h3>
 
 > [!tip]- Gevolg bij ontbreken
-> Wanneer de randvoorwaarden niet voldaan zijn (cliënt weigert verantwoordelijkheid te erkennen, gebruikt niet-aanvaardbaar stelsel) moet de auditor de opdracht weigeren of de scope materieel beperken. 🤖
+> Wanneer de randvoorwaarden niet voldaan zijn (cliënt weigert verantwoordelijkheid te erkennen, gebruikt niet-aanvaardbaar stelsel) moet de auditor de opdracht weigeren of de scope materieel beperken. 🔗
 
 
 ## Valkuilen
@@ -50,7 +51,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 
 > [!warning]- Het 'aanvaardbaar stelsel inzake financiële verslaggeving' is meestal evident (BE-GAAP, IFRS, vzw-stelsel) — maar bij niche-stelsels (specia…
-> ⚠️ Het 'aanvaardbaar stelsel inzake financiële verslaggeving' is meestal evident (BE-GAAP, IFRS, vzw-stelsel) — maar bij niche-stelsels (special purpose framework, bijzondere reportagewijze) moet de auditor expliciet beoordelen of het stelsel aanvaardbaar is. Niet elk stelsel dat de cliënt voorstelt is geldig. 🤖
+> ⚠️ Het 'aanvaardbaar stelsel inzake financiële verslaggeving' is meestal evident (BE-GAAP, IFRS, vzw-stelsel) — maar bij niche-stelsels (special purpose framework, bijzondere reportagewijze) moet de auditor expliciet beoordelen of het stelsel aanvaardbaar is. Niet elk stelsel dat de cliënt voorstelt is geldig. 🔗
 >
 > _Bron: ISA 210 §6, ITAA KMO-controlenorm Bijlage 1_
 
@@ -59,7 +60,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[opdrachtbrief-accountant]]
-- **Wordt voorondersteld in** (3): [[aanvaarden-audit-opdracht]] · [[opvolging-voorganger-accountant]] · [[verwerven-kennis-van-clientonderneming-audit]]
+- **Wordt voorondersteld in** (1): [[verwerven-kennis-van-clientonderneming-audit]]
 ## Voorbeelden
 
 Vooraleer Wolters & Partners CVBA de audit van Meubelzaak Mertens BV aanvaardt, vergewist Sofie Janssens zich ervan dat (1) de jaarrekening volgens Belgisch jaarrekeningenrecht / KB WVV wordt opgesteld (aanvaardbaar stelsel) en (2) de zaakvoerder erkent zijn verantwoordelijkheden voor de jaarrekening, de IC, en het verschaffen van toegang/informatie.

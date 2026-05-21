@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuur-bv-cv-werkwijze.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Werkwijze van het bestuur in BV en CV ⚖️
 
@@ -30,6 +30,7 @@ Standaardregel in BV en CV: elke bestuurder oefent afzonderlijk de volle bestuur
 _Bron: WVV art. 5:73, § 1; 6:61, § 1_
 
 
+
 ## Bouwstenen
 
 ### Standaard: ieder bestuurder alleen bevoegd ⚖️
@@ -40,7 +41,7 @@ Tenzij de statuten anders bepalen, mag elke bestuurder van een BV of CV elke han
 
 
 
-Bij Brugse Brouwerij BV (statuten zwijgen over bestuur) kan elke individuele bestuurder een leverancier contracteren of de bank een betalingsopdracht geven, zonder eerst een vergadering bijeen te roepen. _(Brugse Brouwerij BV)_ 🤖
+Bij Brugse Brouwerij BV (statuten zwijgen over bestuur) kan elke individuele bestuurder een leverancier contracteren of de bank een betalingsopdracht geven, zonder eerst een vergadering bijeen te roepen. _(Brugse Brouwerij BV)_ 🔗
 
 _Grondslag: WVV art. 5:73, § 1, eerste lid; 6:61, § 1, eerste lid_
 
@@ -52,7 +53,7 @@ De statuten kunnen de bevoegdheid van elke bestuurder beperken (bv. "investering
 
 
 
-De statuten van Meubelzaak Mertens BV stellen dat alleen Sofie Janssens financiële verbintenissen boven € 50.000 mag aangaan. Marleen De Cock tekent toch een lening van € 80.000 bij de bank. De bank kan de BV aanspreken (de beperking is niet tegenwerpelijk), maar Marleen heeft een bestuursfout begaan jegens de BV. _(Meubelzaak Mertens BV, Sofie Janssens, Marleen De Cock)_ 🤖
+De statuten van Meubelzaak Mertens BV stellen dat alleen Sofie Janssens financiële verbintenissen boven € 50.000 mag aangaan. Marleen De Cock tekent toch een lening van € 80.000 bij de bank. De bank kan de BV aanspreken (de beperking is niet tegenwerpelijk), maar Marleen heeft een bestuursfout begaan jegens de BV. _(Meubelzaak Mertens BV, Sofie Janssens, Marleen De Cock)_ 🔗
 
 _Grondslag: WVV art. 5:73, § 1, tweede tot vierde lid; 6:61, § 1, tweede tot vierde lid_
 
@@ -86,7 +87,7 @@ Standaard kan elke bestuurder de BV of CV alleen vertegenwoordigen, ook in recht
 
 
 
-De statuten van Brugse Brouwerij BV, bekendgemaakt in de bijlage bij het Belgisch Staatsblad, vereisen voor verbintenissen boven € 25.000 de gezamenlijke handtekening van twee bestuurders. Marleen De Cock tekent alleen een leveringscontract van € 60.000. De leverancier kan zich niet beroepen op de schijn-bevoegdheid: de clausule is openbaar gemaakt en tegenwerpelijk. _(Brugse Brouwerij BV, Marleen De Cock)_ 🤖
+De statuten van Brugse Brouwerij BV, bekendgemaakt in de bijlage bij het Belgisch Staatsblad, vereisen voor verbintenissen boven € 25.000 de gezamenlijke handtekening van twee bestuurders. Marleen De Cock tekent alleen een leveringscontract van € 60.000. De leverancier kan zich niet beroepen op de schijn-bevoegdheid: de clausule is openbaar gemaakt en tegenwerpelijk. _(Brugse Brouwerij BV, Marleen De Cock)_ 🔗
 
 _Grondslag: WVV art. 5:73, § 2; 6:61, § 2; 2:18_
 
@@ -100,11 +101,11 @@ _Grondslag: WVV art. 5:73, § 2; 6:61, § 2; 2:18_
 ## Valkuilen
 
 > [!warning]- Lees altijd eerst de statuten voor je conclusies trekt over wie alleen mag tekenen. De wettelijke standaardregel verschilt fundamenteel tussen NV en BV/CV.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Beperk je interne taakverdeling tot bestuursaansprakelijkheid-niveau — vertrouw niet op zo'n clausule om de vennootschap aan derden te ontbinden van een verbintenis.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

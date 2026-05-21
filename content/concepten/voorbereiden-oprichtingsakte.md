@@ -15,11 +15,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorbereiden-oprichtingsakte.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Voorbereiden van de oprichtingsakte en statuten 🤖
+# Voorbereiden van de oprichtingsakte en statuten 🔗
 
 Operationele competentie: vóór het notarispassagewerk de inhoud van de oprichtingsakte voorbereiden — statuten redigeren of reviewen, verplichte wettelijke vermeldingen (art. 2:8 + boek-specifieke artikelen 5:11-5:12 BV, 7:13-7:14 NV) invullen, en de oprichters klaarmaken voor de authentieke akte.
+
 
 
 ## In de praktijk

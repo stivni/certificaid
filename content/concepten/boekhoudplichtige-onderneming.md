@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/boekhoudplichtige-onderneming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Boekhoudplichtige onderneming ⚖️
 
@@ -26,6 +26,7 @@ Eerste filter in élk boekhouddossier: is deze entiteit überhaupt onderworpen a
 Een boekhoudplichtige onderneming is — luidens WER art. III.82 — iedere onderneming die onder het toepassingsgebied van Boek III WER valt en dus verplicht is een boekhouding te voeren. Dit omvat: alle rechtspersonen naar Belgisch recht, elke natuurlijke persoon met een zelfstandige beroepsactiviteit, en elke organisatie zonder rechtspersoonlijkheid met een economisch doel.
 
 _Bron: WER art. III.82, § 1_
+
 
 
 ## Bouwstenen
@@ -72,7 +73,7 @@ _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 <h3 id="boekhoudplicht-versus-jaarrekening-plicht">Boekhoudplicht versus jaarrekening-plicht</h3>
 
 > [!tip]- Boekhoudplicht versus jaarrekening-plicht
-> Boekhoudplicht (WER) = je moet boeken. Jaarrekening-plicht (WVV) = je moet die boeken jaarlijks samenbrengen in een gestructureerde jaarrekening en die openbaar maken. Niet elk boekhoudplichtige is jaarrekening-plichtig: eenmanszaken met dubbele boekhouding bv. moeten geen jaarrekening neerleggen. 🤖
+> Boekhoudplicht (WER) = je moet boeken. Jaarrekening-plicht (WVV) = je moet die boeken jaarlijks samenbrengen in een gestructureerde jaarrekening en die openbaar maken. Niet elk boekhoudplichtige is jaarrekening-plichtig: eenmanszaken met dubbele boekhouding bv. moeten geen jaarrekening neerleggen. 🔗
 
 > [!tip]- Herkennen op het examen
 > Praktijk Persenaire (eenmanszaak) → wél boekhouden, géén jaarrekening neerleggen bij NBB.
@@ -82,7 +83,7 @@ _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 
 - **Getriggerd door**: [[wetboek-economisch-recht-boek-iii]]
 - **Vereist kennis van**: [[dubbel-boekhouden]]
-
+- **Wordt voorondersteld in** (2): [[vennootschapsvormen-typologie]] · [[wetboek-economisch-recht-boek-iii]]
 ## Voorbeelden
 
 Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming.

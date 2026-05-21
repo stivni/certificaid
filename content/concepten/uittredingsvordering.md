@@ -13,9 +13,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uittredingsvordering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Uittredingsvordering 🤖
+# Uittredingsvordering 🔗
 
 De uittredingsvordering is het instrument van **de weglopende vennoot**: een aandeelhouder die de samenwerking onleefbaar vindt, kan in rechte vorderen dat zijn mede-aandeelhouders zijn aandelen overnemen. Anders dan bij ontbinding blijft de vennootschap dus voortbestaan; anders dan bij uitsluiting is hij zelf de eiser. Het instrument bestaat sinds de wet van 1995 (vroegere W. Venn. art. 642 e.v.) en zit nu in WVV Boek 2 Titel 7 voor BV en NV.
 
@@ -25,6 +25,7 @@ De uittredingsvordering is het instrument van **de weglopende vennoot**: een aan
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 Een uittredingsvordering laat een aandeelhouder gerechtelijk vorderen dat **andere aandeelhouders** (op wie de gegronde redenen betrekking hebben) zijn effecten overnemen tegen een door de rechter vast te stellen prijs. Iedere aandeelhouder kan de vordering instellen — er geldt **geen drempel** — mits hij gegronde redenen aanvoert die de andere aandeelhouder(s) raken.
+
 
 
 ## Bouwstenen
@@ -105,14 +106,17 @@ _Grondslag: WVV art. 2:60_
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[gegronde-redenen-vennootschapsgeschil]]
 ## Voorbeelden
 
 ### Uittreding na uitsluiting van bestuur
@@ -125,7 +129,7 @@ Famke Vermeulen houdt 35% in Brugse Brouwerij BV, Tobias De Smet 65%. Tobias sch
 2. Famke dagvaardt Tobias én Brugse Brouwerij BV voor de voorzitter van de ondernemingsrechtbank van haar zetel, zetelend zoals in kort geding.
 3. Famke voert als gegronde redenen aan: systematische uitsluiting bestuur, manifeste belangenverstrengeling rond eigen bezoldiging, blokkering minderheidsrechten.
 4. De voorzitter beoordeelt of de feiten de samenwerking onleefbaar maken; bij gegrondheid beveelt hij overdracht door Famke aan Tobias en bepaalt hij de prijs.
-🤖
+🔗
 
 
 

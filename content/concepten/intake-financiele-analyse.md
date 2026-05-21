@@ -17,9 +17,9 @@ node_type: procedure
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/intake-financiele-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Intake (scoping) van financiële analyse 🤖
+# Intake (scoping) van financiële analyse 🔗
 
 Eerste stap in elke financiële analyse-opdracht: scope vastleggen (vanuit welk perspectief? voor welke beslissing?), informatie verzamelen (jaarrekening + bestuursverslag + sectordata), en de analyse-aanpak afstemmen op het doel. Zonder expliciete scope-document is de analyse vatbaar voor verkeerde interpretatie.
 
@@ -31,12 +31,13 @@ Vóór ratio's te berekenen, identificeer de scope: vanuit welke gebruikerspersp
 _Bron: Algemene financial-analysis-doctrine_
 
 
+
 ## In de praktijk
 
 <h3 id="1.3.II.A">Scope expliciteren beschermt de analist</h3>
 
 > [!tip]- Scope expliciteren beschermt de analist
-> Een analyse zonder scope-document loopt het risico om verkeerd geïnterpreteerd te worden. Een opdrachtbrief met expliciete scope is beste deontologische praktijk. 🤖
+> Een analyse zonder scope-document loopt het risico om verkeerd geïnterpreteerd te worden. Een opdrachtbrief met expliciete scope is beste deontologische praktijk. 🔗
 
 
 ## Stappen

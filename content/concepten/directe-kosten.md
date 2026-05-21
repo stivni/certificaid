@@ -15,9 +15,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/directe-kosten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Directe kosten 🤖
+# Directe kosten 🔗
 
 Directe kosten zijn kosten die op een ondubbelzinnige en economisch verantwoorde manier rechtstreeks aan één kostendrager (product, order, klant) kunnen worden toegewezen — geen verdeelsleutel nodig. CBN 132/7 §2.1 bouwt op dit begrip in de wettelijke definitie van de vervaardigingsprijs: directe productiekosten + evenredig deel indirecte productiekosten. De tegenpool is indirecte kosten.
 
@@ -29,6 +29,7 @@ Directe kosten zijn kosten die op een ondubbelzinnige en economisch verantwoorde
 Directe kosten zijn kosten die op een ondubbelzinnige en economisch verantwoorde manier rechtstreeks aan één specifieke kostendrager (product, opdracht, dienst) kunnen worden toegewezen, zonder verdeelsleutel. Typische voorbeelden: grondstoffen die in een welomschreven order zijn verwerkt, en arbeidsuren die rechtstreeks aan dat order zijn besteed.
 
 _Bron: CBN 132/7 §2.1 — 'productiekosten die rechtstreeks aan het individueel product kunnen worden toegerekend'_
+
 
 
 ## In de praktijk

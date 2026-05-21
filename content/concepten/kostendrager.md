@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kostendrager.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Kostendrager 🤖
+# Kostendrager 🔗
 
 Een kostendrager is het object waarvan je de kostprijs wil weten — product, productlijn, dienst, opdracht, klant, project of markt-segment. Alle kosten convergeren uiteindelijk naar kostendragers: directe kosten via toewijzing, indirecte kosten via kostencentra en verdeelsleutels. De keuze van granulariteit (per stuk, per order, per klant, per productlijn) bepaalt de bruikbaarheid van de analytische cijfers.
 
@@ -28,6 +28,7 @@ Een kostendrager is het object waarvan je de kostprijs wil weten — product, pr
 Een kostendrager is het object waarvan je de kostprijs wil weten: een product, productlijn, dienst, opdracht, klant, project of markt-segment. Alle kosten convergeren uiteindelijk naar kostendragers — direct via toewijzing, indirect via verdeling over kostencentra.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## In de praktijk
@@ -44,6 +45,9 @@ _Bron: Management accounting — bron-gap_
 > _Trigger_: Examen-vraag op organisatie: identificeer of de eenheid 'afdeling' is of 'product/klant'.
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[analytische-boekhouding]]
 ## Voorbeelden
 
 Yperse Werkplaats BV definieert kostendragers per productlijn: 'ruwwol-garen 50 kg' (kostprijs € 38/eenheid), 'gewoven stoffenrol 100 m' (€ 145/eenheid), 'tapijt standaardmaat' (€ 18/stuk). Voor projectwerk: 'order Brugse Boutique mei 20X1' als afzonderlijke kostendrager.

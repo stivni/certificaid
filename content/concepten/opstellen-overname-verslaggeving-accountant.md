@@ -16,11 +16,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-overname-verslaggeving-accountant.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van accountantsverslagen bij overdracht (inbreng, quasi-inbreng, fusie, splitsing) 🤖
+# Opstellen van accountantsverslagen bij overdracht (inbreng, quasi-inbreng, fusie, splitsing) 🔗
 
 Operationele competentie waarbij de gecertificeerd accountant — wanneer geen commissaris is aangesteld — het wettelijk verplichte verslag opstelt bij overdrachtsverrichtingen: inbreng in natura (Boek 5/6/7 WVV), quasi-inbreng (eveneens Boek 5/6/7), fusie of splitsing (Boek 12 WVV). De drie verslagen delen een methodologische kern (waardering + verslagvereisten) maar verschillen in scope en bestemmeling.
+
 
 
 ## In de praktijk

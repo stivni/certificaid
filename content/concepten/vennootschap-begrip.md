@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vennootschap-begrip.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vennootschap (juridisch begrip) ⚖️
 
@@ -22,9 +22,12 @@ Het Wetboek van vennootschappen en verenigingen (WVV, 2019) start met één alge
 > [!summary] Korte inhoud
 > Een vennootschap is een rechtshandeling waarbij één of meer personen — vennoten genoemd — een inbreng doen, een vermogen vormen en zich engageren om één of meer welbepaalde activiteiten uit te oefenen, met als doel aan de vennoten een rechtstreeks of onrechtstreeks vermogensvoord….
 
+> [!info] Specialisaties (5): [[besloten-vennootschap-bv]] · [[cooperatieve-vennootschap-cv]] · [[maatschap-rechtsvorm]] · [[naamloze-vennootschap-nv]] · [[personenvennootschap-met-rechtspersoonlijkheid]]
+
 Een vennootschap is een rechtshandeling waarbij één of meer personen — vennoten genoemd — een inbreng doen, een vermogen vormen en zich engageren om één of meer welbepaalde activiteiten uit te oefenen, met als doel aan de vennoten een rechtstreeks of onrechtstreeks vermogensvoordeel uit te keren of te bezorgen (WVV art. 1:1).
 
 _Bron: WVV art. 1:1_
+
 
 
 ## In de praktijk
@@ -58,7 +61,7 @@ _Bron: WVV art. 1:1_
 
 - **Vereist kennis van**: [[inbreng-vennootschap]]
 - **Vereist kennis van**: [[rechtspersoonlijkheid-vennootschap]]
-
+- **Wordt voorondersteld in** (4): [[inbreng-vennootschap]] · [[onbeperkte-aansprakelijkheid-vennoot]] · [[rechtspersoonlijkheid-vennootschap]] · [[vennoot-vs-aandeelhouder]]
 ## Voorbeelden
 
 Pieter Vermeulen richt **Oprichtingen Oostende BV** alleen op, met een inbreng van € 25.000 in geld. Hij is enige aandeelhouder. Aan de drie elementen is voldaan: inbreng, vermogen (afgescheiden van zijn privévermogen), winstoogmerk (toekomstige dividenden voor hemzelf). _(Pieter Vermeulen, Oprichtingen Oostende BV)_

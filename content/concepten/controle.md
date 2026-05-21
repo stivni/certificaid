@@ -19,7 +19,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Controle ⚖️
 
@@ -28,14 +28,17 @@ Het sleutelbegrip van het Belgische vennootschapsrecht (WVV) waarop de hele groe
 > [!summary] Korte inhoud
 > De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen.
 
+> [!info] Specialisaties (3): [[exclusieve-controle]] · [[gezamenlijke-controle]] · [[invloed-van-betekenis]]
+
 De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen. Controle is het kernbegrip dat bepaalt of een vennootschap als moeder geldt en dus verplicht is om te consolideren.
 
 _Bron: WVV art. 1:14, § 2_
 
 
+
 ## Bouwstenen
 
-### Controle in rechte 🤖
+### Controle in rechte 🔗
 
 Controle die rechtstreeks uit objectieve juridische elementen volgt: meerderheid van de stemrechten, het recht om de meerderheid van de bestuurders te benoemen, statutaire macht of een stemovereenkomst. Onweerlegbaar — er valt niets meer aan te tonen.
 
@@ -65,7 +68,7 @@ _Grondslag: KB WVV art. 3:98_
 <h3 id="hoe-lees-je-controle-in-een-examenopgave">Hoe lees je 'controle' in een examenopgave</h3>
 
 > [!tip]- Hoe lees je 'controle' in een examenopgave
-> De controlevraag staat los van het belangenpercentage (kapitaal). Bij een stemrechtmeerderheid (> 50 %) is er onweerlegbaar exclusieve controle in rechte. Bij ≤ 50 % stemrechten kan er nog controle in feite zijn (twee-vergaderingen-test) of gezamenlijke controle (op grond van een aandeelhoudersovereenkomst). 🤖
+> De controlevraag staat los van het belangenpercentage (kapitaal). Bij een stemrechtmeerderheid (> 50 %) is er onweerlegbaar exclusieve controle in rechte. Bij ≤ 50 % stemrechten kan er nog controle in feite zijn (twee-vergaderingen-test) of gezamenlijke controle (op grond van een aandeelhoudersovereenkomst). 🔗
 
 > [!tip]- Herkennen op het examen
 > Opgave 'Aurelia Holding NV bezit 40 % van Brugse Brouwerij BV' zonder mention van stemovereenkomsten → meestal geen controle → vermogensmutatie of geen consolidatie, geen integrale consolidatie.
@@ -73,7 +76,7 @@ _Grondslag: KB WVV art. 3:98_
 <h3 id="gevolg-voor-consolidatiemethode">Gevolg voor consolidatiemethode</h3>
 
 > [!tip]- Gevolg voor consolidatiemethode
-> Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeenschappelijke dochter) → in regel evenredige consolidatie, of vermogensmutatie als het bedrijf niet nauw met de groep is geïntegreerd. Invloed van betekenis (geassocieerde onderneming, geen controle) → vermogensmutatiemethode. 🤖
+> Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeenschappelijke dochter) → in regel evenredige consolidatie, of vermogensmutatie als het bedrijf niet nauw met de groep is geïntegreerd. Invloed van betekenis (geassocieerde onderneming, geen controle) → vermogensmutatiemethode. 🔗
 
 > [!tip]- Herkennen op het examen
 > De controle-vraag bepaalt de keuze tussen drie consolidatietechnieken; niet het kale percentage.
@@ -99,7 +102,7 @@ _Grondslag: KB WVV art. 3:98_
 
 
 > [!warning]- Controle in feite kan ook bij beperkte participaties bestaan
-> ⚠️ Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan de twee-vergaderingen-test voor je 'geen controle' besluit bij <50 %. 🤖
+> ⚠️ Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan de twee-vergaderingen-test voor je 'geen controle' besluit bij <50 %. 🔗
 >
 > _Bron: KB WVV art. 3:98_
 
@@ -109,7 +112,7 @@ _Grondslag: KB WVV art. 3:98_
 
 - **Vereist kennis van**: [[consolidatieverplichting]]
 - **Getriggerd door**: [[integrale-consolidatie]]
-
+- **Wordt voorondersteld in** (10): [[belangenpercentage]] · [[consolidatiekring]] · [[consolidatieverplichting]] · [[consortium]] · [[controlepercentage]] · [[controleverwerving-methodes]] · [[dochteronderneming]] · [[moedervennootschap]] · [[uitkoopbod-squeeze-out]] · [[verplicht-overnamebod]]
 ## Voorbeelden
 
 Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → onweerlegbaar controle in rechte → Brugse is dochter van Aurelia, Aurelia is consolidatieplichtig.

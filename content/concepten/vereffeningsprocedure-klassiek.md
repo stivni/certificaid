@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereffeningsprocedure-klassiek.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Klassieke vereffeningsprocedure ⚖️
 
@@ -23,10 +23,15 @@ De klassieke procedure veronderstelt dat tussen ontbinding en sluiting **tijd ve
 > [!summary] Korte inhoud
 > De **klassieke vereffeningsprocedure** is het standaardpad om een ontbonden vennootschap af te wikkelen wanneer niet alle voorwaarden van art. 2:80 WVV (vereffening in één akte) zijn vervuld.
 
+> [!info] Bestaat uit (3): [[omstandige-staat-vereffening]] · [[sluiting-vereffening]] · [[vereffenaar]]
+
 De **klassieke vereffeningsprocedure** is het standaardpad om een ontbonden vennootschap af te wikkelen wanneer niet alle voorwaarden van art. 2:80 WVV (vereffening in één akte) zijn vervuld. Zij doorloopt vijf fasen: (1) ontbindingsbesluit met staat van activa en passiva, (2) benoeming en bekendmaking vereffenaar, (3) tegeldemaking van activa en betaling van schulden, (4) halfjaarlijkse rapportage aan de griffie (eerste jaar) of jaarlijkse jaarrekening (vanaf het tweede jaar), en (5) cijfermatig verslag, AV-goedkeuring en sluiting met bekendmaking.
 
 _Bron: WVV boek 2, titel 8, hoofdstuk 1 — afdeling vereffening_
 
+
+
+> [!info] Uitzonderingen (1): [[vereffening-in-een-akte]]
 
 ## Bouwstenen
 
@@ -97,7 +102,7 @@ _Grondslag: WVV art. 2:90 (BV/CV/NV); art. 2:100; art. 2:102_
 ## Valkuilen
 
 > [!warning]- **Herroeping vóór sluiting blijft mogelijk.** Tot zolang de sluiting van de vereffening niet door de AV is uitgesproken, kan een nieuwe AV b…
-> ⚠️ **Herroeping vóór sluiting blijft mogelijk.** Tot zolang de sluiting van de vereffening niet door de AV is uitgesproken, kan een nieuwe AV beslissen om de vereffening te beëindigen en de vennootschap terug operationeel te maken (mits de vereffeningsboeken zorgvuldig worden afgesloten). Praktisch zeldzaam, maar conceptueel mogelijk. 🤖
+> ⚠️ **Herroeping vóór sluiting blijft mogelijk.** Tot zolang de sluiting van de vereffening niet door de AV is uitgesproken, kan een nieuwe AV beslissen om de vereffening te beëindigen en de vennootschap terug operationeel te maken (mits de vereffeningsboeken zorgvuldig worden afgesloten). Praktisch zeldzaam, maar conceptueel mogelijk. 🔗
 
 
 
@@ -105,7 +110,7 @@ _Grondslag: WVV art. 2:90 (BV/CV/NV); art. 2:100; art. 2:102_
 
 - **Vereist kennis van**: [[vereffening]]
 - **Vereist kennis van**: [[vereffenaar]]
-
+- **Wordt voorondersteld in** (3): [[adviseren-ontbindingsroute-vennootschap]] · [[begeleiden-vereffening-vennootschap]] · [[vereffening]]
 ## Bronnen
 
 [^1]: `CBN-2022-04__sec_vereffening-na-vrijwillige-ontbinding`

@@ -17,11 +17,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bepalen-vervaardigingsprijs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Bepalen van de vervaardigingsprijs 🤖
+# Bepalen van de vervaardigingsprijs 🔗
 
 Competentie waarmee de stagiair de wettelijke vervaardigingsprijs van zelf-vervaardigde voorraad bepaalt volgens KB 21.10.2018 art. 22 + CBN 132/7 §2.1: aanschaffingsprijs grondstoffen + directe productiekosten + evenredig deel indirecte productiekosten. Centrale toepassing in PO 1.8 — gevraagde uitkomst is een voorraadwaarde op de balans die juridisch verdedigbaar is. De stagiair moet expliciete keuzes maken over full vs. direct costing, behandeling van onderbezetting en uitsluiting van commerciële en administratieve kost.
+
 
 
 ## Stappen

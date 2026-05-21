@@ -19,11 +19,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-master-budget.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van een master-budget (operationeel + financieel) 🤖
+# Opstellen van een master-budget (operationeel + financieel) 🔗
 
 Competentie waarmee de stagiair een master-budget consolideert uit de afzonderlijke deelbudgetten (verkoop, productie, materiaal-inkoop, arbeid, overhead, investeringen, kasstroom) en de drie pro-forma overzichten oplevert: pro-forma resultatenrekening, pro-forma balans, pro-forma kasstroomtabel. Vereist consistentie tussen deelbudgetten (verkoop drijft productieplan; productieplan drijft inkoop en arbeid) en realistische aannames over loonindexering, prijsverandering grondstoffen en betalingstermijnen. Eindpunt van de budgetprocedure (1.8.VI.C).
+
 
 
 ## Stappen

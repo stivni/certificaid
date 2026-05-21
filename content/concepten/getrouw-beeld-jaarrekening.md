@@ -26,7 +26,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/getrouw-beeld-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Getrouw beeld van de jaarrekening ⚖️
 
@@ -37,9 +37,12 @@ Externe gebruikers (aandeelhouders, kredietverleners, fiscus, werknemers) moeten
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]] · Specialisatie van: [[getrouw-beeld]]
 
+> [!info] Bestaat uit (5): [[consistentiebeginsel]] · [[doelstellingen-financiele-analyse]] · [[materieel-belang-jaarrekening]] · [[oprechtheidsbeginsel]] · [[volledigheidsbeginsel]]
+
 De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Volstaat de toepassing van de regels in titel 2 en 3 van het uitvoeringsbesluit niet om dat beeld te geven, dan moeten in de toelichting bijkomende inlichtingen worden verstrekt.
 
 _Bron: KB WVV art. 3:1_
+
 
 
 ## Bouwstenen
@@ -86,7 +89,7 @@ _Grondslag: CBN-2018/15 §6_
 <h3 id="1.3.taak.1">Vertrekpunt voor financiële analyse</h3>
 
 > [!tip]- Vertrekpunt voor financiële analyse
-> Bij de analyse van de jaarrekening van een cliënt vertrek je altijd vanuit de aanname dat de jaarrekening een getrouw beeld geeft. Twijfels over dat getrouwe beeld (bv. een commissaris met onthoudende verklaring) maken de ratio's onbetrouwbaar. 🤖
+> Bij de analyse van de jaarrekening van een cliënt vertrek je altijd vanuit de aanname dat de jaarrekening een getrouw beeld geeft. Twijfels over dat getrouwe beeld (bv. een commissaris met onthoudende verklaring) maken de ratio's onbetrouwbaar. 🔗
 
 > [!tip]- Herkennen op het examen
 > Ratio's berekenen zonder eerst de toelichting te lezen is een examenvalkuil — de toelichting kan correcties bevatten die ratio's omkeren.
@@ -119,7 +122,7 @@ _Grondslag: CBN-2018/15 §6_
 
 - **Vereist kennis van**: [[materieel-belang-jaarrekening]]
 - **Getriggerd door**: [[voorzichtigheidsbeginsel]]
-
+- **Wordt voorondersteld in** (5): [[aanvullende-boekhoudbeginselen]] · [[bestuursverslag]] · [[commissaris-toezicht-jaarrekening]] · [[jaarrekening-als-studieobject]] · [[niet-in-balans-opgenomen-rechten-verplichtingen]]
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3`

@@ -14,11 +14,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-verslag-fusie-splitsing-ruilverhouding.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van het verslag bij fusie, splitsing of gelijkgestelde verrichting in een vennootschap zonder commissaris 🤖
+# Opstellen van het verslag bij fusie, splitsing of gelijkgestelde verrichting in een vennootschap zonder commissaris 🔗
 
 Bij fusie (door overneming of door oprichting van een nieuwe vennootschap), splitsing (volledig of partieel, door overneming of door oprichting) of gelijkgestelde verrichtingen onder Boek 12 WVV moet — wanneer er geen commissaris is — een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant een schriftelijk verslag over het fusie- of splitsingsvoorstel opstellen. Kernverklaring: of de ruilverhouding (en bij grensoverschrijdende verrichtingen de geldelijke vergoeding) 'al dan niet relevant en redelijk' is. Dit verslag complementeert de bestaande competentie [[opstellen-overname-verslaggeving-accountant]] en focust specifiek op de ruilverhouding-beoordeling als wettelijk voorbehouden taak.
+
 
 
 ## In de praktijk

@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rechtspraak-boekhoudrecht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Rechtspraak inzake boekhoudrecht ⚖️
 
@@ -30,9 +30,10 @@ Het geheel van rechterlijke uitspraken (Hof van Cassatie, hoven van beroep, rech
 _Bron: Algemene rechtsleer + WER art. II.1_
 
 
+
 ## Bouwstenen
 
-### Twee rollen: interpreteren + sanctioneren 🤖
+### Twee rollen: interpreteren + sanctioneren 🔗
 
 Rechtspraak (1) geeft uitleg aan open normen (wat is 'voorzichtigheid'? wat is een 'getrouw beeld'?) en (2) sanctioneert overtredingen — fiscaal, civielrechtelijk en strafrechtelijk.
 
@@ -44,7 +45,7 @@ Vraag: 'Wanneer is een waardevermindering verplicht?' → KB-WVV zegt 'bij waard
 
 _Grondslag: Algemene rechtsleer; Hof van Cassatie_
 
-### Drie rechtsgebieden raken boekhoudrecht 🤖
+### Drie rechtsgebieden raken boekhoudrecht 🔗
 
 (1) Burgerlijk: aansprakelijkheid bestuurders/accountants, geschillen met aandeelhouders. (2) Fiscaal: betwistingen over de aftrekbaarheid van een kost of de waardering van een actief. (3) Strafrechtelijk: valse jaarrekening, bedrieglijke boekhouding (art. 492bis Sw, art. 196 Sw).
 
@@ -56,7 +57,7 @@ Robert Vandenberghe (minderheidsaandeelhouder) verdenkt het bestuur van een veel
 
 _Grondslag: Sw art. 492bis (valse jaarrekening); WVV bestuurdersaansprakelijkheid_
 
-### Cassatie als richtinggevend 🤖
+### Cassatie als richtinggevend 🔗
 
 Het Hof van Cassatie spreekt zich uit over rechtspunten en bindt de feitenrechters niet rechtstreeks, maar zijn arresten zijn richtinggevend. Voor open normen (getrouw beeld, continuïteit) is Cassatie-rechtspraak de eerste referentie.
 
@@ -74,7 +75,7 @@ _Grondslag: Hof van Cassatie; Gerechtelijk Wetboek_
 <h3 id="wanneer-raadpleeg-ik-rechtspraak">Wanneer raadpleeg ik rechtspraak?</h3>
 
 > [!tip]- Wanneer raadpleeg ik rechtspraak?
-> Bij open normen (getrouw beeld, voorzichtigheid, continuïteit) of bij grensgevallen (aansprakelijkheid bestuurder, afwijken van KB-regel om getrouw beeld te bewaren). Tijdschriften als 'Tijdschrift voor Rechtspersoon en Vennootschap', 'Comptabilité et Fiscalité Pratiques' en 'Tax Audit & Accountancy' bundelen relevante uitspraken. 🤖
+> Bij open normen (getrouw beeld, voorzichtigheid, continuïteit) of bij grensgevallen (aansprakelijkheid bestuurder, afwijken van KB-regel om getrouw beeld te bewaren). Tijdschriften als 'Tijdschrift voor Rechtspersoon en Vennootschap', 'Comptabilité et Fiscalité Pratiques' en 'Tax Audit & Accountancy' bundelen relevante uitspraken. 🔗
 
 > [!tip]- Herkennen op het examen
 > Vraag met expliciete 'wat zou de rechter zeggen?'-component of 'aansprakelijkheid'-thema → rechtspraak relevant.
@@ -83,13 +84,13 @@ _Grondslag: Hof van Cassatie; Gerechtelijk Wetboek_
 ## Valkuilen
 
 > [!warning]- Rechtspraak bindt enkel de partijen in dat specifieke geschil
-> ⚠️ Rechtspraak bindt enkel de partijen in dat specifieke geschil. Maar in fiscale en boekhoudkundige zaken volgt de praktijk wel de Cassatie-lijn — bij afwijken loop je een sterk risico op vernietiging in beroep. 🤖
+> ⚠️ Rechtspraak bindt enkel de partijen in dat specifieke geschil. Maar in fiscale en boekhoudkundige zaken volgt de praktijk wel de Cassatie-lijn — bij afwijken loop je een sterk risico op vernietiging in beroep. 🔗
 >
 > _Bron: Algemene rechtsleer_
 
 
 > [!warning]- Niet elke uitspraak is 'rechtspraak' in de doctrinaire zin
-> ⚠️ Niet elke uitspraak is 'rechtspraak' in de doctrinaire zin. Eerstelijns vonnissen zijn gezagsarmer dan arresten van het hof van beroep, en die zijn op hun beurt gezagsarmer dan Cassatie-arresten. 🤖
+> ⚠️ Niet elke uitspraak is 'rechtspraak' in de doctrinaire zin. Eerstelijns vonnissen zijn gezagsarmer dan arresten van het hof van beroep, en die zijn op hun beurt gezagsarmer dan Cassatie-arresten. 🔗
 >
 > _Bron: Algemene rechtsleer_
 

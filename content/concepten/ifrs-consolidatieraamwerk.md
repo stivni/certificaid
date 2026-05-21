@@ -17,9 +17,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ifrs-consolidatieraamwerk.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12) 🤖
+# IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12) 🔗
 
 Het internationale parallel naast het Belgische KB WVV-consolidatieregime, verplicht voor genoteerde groepen en geconsolideerde rekeningen van banken/verzekeraars. Het bouwt voort op de control-definitie van IFRS 10 en gebruikt IFRS 3 (acquisitie), IFRS 11 (joint arrangements) en IFRS 12 (toelichtingen) als bouwstenen.
 
@@ -29,6 +29,7 @@ Het internationale parallel naast het Belgische KB WVV-consolidatieregime, verpl
 De verzameling IAS/IFRS-standaarden die het wettelijk kader bepalen voor een geconsolideerde jaarrekening onder IFRS. Voor consolidatie zijn vier standaarden centraal: IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde jaarrekeningen + definitie van controle), IFRS 11 (gezamenlijke regelingen) en IFRS 12 (informatieverschaffing over belangen). Voor een Belgische moeder geldt dit raamwerk in twee gevallen: (a) verplicht wanneer ze beursgenoteerd is op een gereglementeerde EU-markt (Verordening 1606/2002 art. 4); (b) vrijwillig wanneer haar bestuursorgaan op basis van KB WVV art. 3:104, § 2 onherroepelijk voor IFRS-consolidatie kiest.
 
 _Bron: EU Verordening 1606/2002 jo. KB WVV art. 3:104, § 2_
+
 
 
 ## Bouwstenen
@@ -63,7 +64,7 @@ _Grondslag: KB WVV art. 3:104, § 2_
 <h3 id="verschillen-met-belgisch-boekhoudrecht-overzichtsniveau">Verschillen met Belgisch boekhoudrecht — overzichtsniveau</h3>
 
 > [!tip]- Verschillen met Belgisch boekhoudrecht — overzichtsniveau
-> De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-corpus opgenomen. Op overzichtsniveau zijn deze verschillen examen-relevant: (a) IFRS 10 definieert controle ruimer dan WVV art. 1:14, op basis van 'power, exposure to variable returns en de mogelijkheid om die returns te beïnvloeden' — minder mechanisch dan de stemrechtentests; (b) IFRS 11 schaft evenredige consolidatie af voor 'joint ventures' (enkel vermogensmutatie), maar behoudt ze voor 'joint operations'; (c) IFRS 3 vereist 'full goodwill'-meting (volledige reële waarde van de overname); negatieve goodwill (bargain purchase) wordt onmiddellijk in resultaat geboekt — anders dan onder BEGAAP; (d) IFRS 12 vereist uitgebreide informatieverschaffing over alle deelnemingen. 🤖
+> De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-corpus opgenomen. Op overzichtsniveau zijn deze verschillen examen-relevant: (a) IFRS 10 definieert controle ruimer dan WVV art. 1:14, op basis van 'power, exposure to variable returns en de mogelijkheid om die returns te beïnvloeden' — minder mechanisch dan de stemrechtentests; (b) IFRS 11 schaft evenredige consolidatie af voor 'joint ventures' (enkel vermogensmutatie), maar behoudt ze voor 'joint operations'; (c) IFRS 3 vereist 'full goodwill'-meting (volledige reële waarde van de overname); negatieve goodwill (bargain purchase) wordt onmiddellijk in resultaat geboekt — anders dan onder BEGAAP; (d) IFRS 12 vereist uitgebreide informatieverschaffing over alle deelnemingen. 🔗
 
 > [!tip]- Herkennen op het examen
 > Bij een examenvraag over IFRS-consolidatie: ga eerst na of het over een genoteerde groep gaat (verplicht IFRS) of over een vrijwillige IFRS-keuze; verifieer dat een specifieke regel uit het Cijferzakboekje of uit aangereikte tekst komt — er worden geen geheugenvragen over IFRS-paragraafnummers verwacht.
@@ -77,7 +78,7 @@ _Grondslag: KB WVV art. 3:104, § 2_
 ## Valkuilen
 
 > [!warning]- Detailvragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden…
-> ⚠️ Detailvragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden onderbouwd. De volledige tekst van die IFRS-standaarden zit niet in het corpus; CBN-verwijzingen blijven beperkt. Bij IFRS-examenvragen: focus op de structuur (verplicht voor genoteerden via Verordening 1606/2002; vrijwillig via KB WVV art. 3:104, § 2) en op overzichtsniveau-verschillen met BEGAAP — geen detailparagrafen uit het hoofd leren. 🤖
+> ⚠️ Detailvragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden onderbouwd. De volledige tekst van die IFRS-standaarden zit niet in het corpus; CBN-verwijzingen blijven beperkt. Bij IFRS-examenvragen: focus op de structuur (verplicht voor genoteerden via Verordening 1606/2002; vrijwillig via KB WVV art. 3:104, § 2) en op overzichtsniveau-verschillen met BEGAAP — geen detailparagrafen uit het hoofd leren. 🔗
 >
 > _Bron: Certificaid-corpus-status_
 
@@ -86,7 +87,7 @@ _Grondslag: KB WVV art. 3:104, § 2_
 ## Zie ook
 
 - **Getriggerd door**: [[consolidatieverplichting]]
-
+- **Wordt voorondersteld in** (1): [[goodwill-be-gaap]]
 ## Voorbeelden
 
 Aurelia Holding NV is beursgenoteerd op Euronext Brussels → verplicht IFRS-consolidatie (Verordening 1606/2002 art. 4). In de toelichting van de geconsolideerde jaarrekening verwijst Aurelia naar de gebruikte IFRS-standaarden (IFRS 3, 10, 11, 12).

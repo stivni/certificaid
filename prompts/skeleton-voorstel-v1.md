@@ -30,16 +30,24 @@ Na wave-approval worden orphan v1.x-records (geen 2.0-doel) gedeleted via record
 
 ---
 
-## 3. Tools (MCP `certificaid-rag`)
+## 3. Tools (MCP `certificaid-rag` + `certificaid-tarieven`)
 
 Bevragen gebeurt **on-demand** via MCP-tools, niet via vooraf-gebundelde initial-ctx:
 
-**Bronnen + bestaande records**:
+**Bronnen + bestaande records** (`certificaid-rag`):
 - `lees_anchor_bundle(po_id)` — TDKs voor het programmaonderdeel
 - `zoek_bronnen(query, top_k, bron_rollen, rerank=false)` — bronnen-RAG. **Houd `rerank=false`** (default) — skeleton-voorstel is exploratie, geen precisie-claim-fase. Rerank kost ~30 CPU-forward-passes per call.
 - `zoek_concepten(query, top_k)` — bestaande v1.x-records (alleen voor de zoekruimte-stap E)
 - `lees_record(record_id)` — volledige JSON van een bestaand record (alleen indien echt nodig)
 - `check_record_bestaat(record_id)` — naam-collision-detectie
+
+**Tarief-records** (`certificaid-tarieven`, ADR-026):
+- `lijst_tabellen(bron_id?, type_filter?)` — overzicht van tarief-tabellen (Cijfers-Tarieven en almanaks).
+- `zoek_tabellen(query, top_k)` — vrije-tekst zoek over tabel-titels en dimensie-/kolom-labels.
+- `lees_tabel(record_id)` — volledig JSON-record met cellen, voetnoten, bron-referentie.
+- `query_tabel(record_id, filters)` — type-aware lookup (coordinaten voor decision_matrix, kolom-substring voor tariefschijven).
+
+Gebruik voor PO's met **tarief- of drempel-relevante** stof (fiscaal 2.x, sociaal 3.x, vennootschap 4.x). Doe minimaal één `zoek_tabellen`-call in stap A voor zulke PO's om te kijken welke tabel-records er al staan — dat informeert de concept-identificatie (bv. een fiche "schenkingsrechten Vlaanderen rechte lijn" heeft een natuurlijke koppeling met record `schenkingsrechten-vlaanderen-onroerend-rechte-lijn`).
 
 **Gedeelde candidates-DB** (voor dedup-op-write met andere skeleton-passes die parallel of eerder liepen):
 - `zoek_kandidaten(query, top_k, min_similarity)` — embedding-similarity over candidates-DB. **Gebruik vóór elk `voorstel_kandidaat`** om te zien of een andere PO al iets vergelijkbaars heeft voorgesteld.
@@ -107,8 +115,8 @@ Antwoord top-down op de vraag: **welke 2.0-fiches moeten bestaan voor een stagia
 ```
 
 Per `voorstel_kandidaat`:
-- **fiche_id**: slug zoals 'obligatielening' · 'inkoop-eigen-aandelen' (zonder NV/BV-suffix tenzij echt nodig)
-- **kind**: `instrument` · `operatie` · `procedure` · `regime`/`fiscale-regeling` · `ratio` · `kader` · `familie` · `begripscluster` · `balanspost` (open tag-set)
+- **fiche_id**: slug zoals 'obligatielening' · 'inkoop-eigen-aandelen'. **Volg ADR-025 §4bis Regel 1**: geen kind-suffix (-kader/-familie/-procedure), geen bron-naam (IAS-X/IFRS-X/ISA-X) in fiche-naam, geen NV/BV-suffix tenzij echt nodig
+- **kind**: `instrument` · `operatie` · `procedure` · `regime`/`fiscale-regeling` · `ratio` · `kader` · `familie` · `begripscluster` · `balanspost` (open tag-set — zie ADR-025 §4bis Regel 7)
 - **primary_po**: PO waar het fiche primair thuishoort (kan jouw eigen PO zijn of anders bij cross-PO)
 - **voorgesteld_door_po**: jouw eigen PO
 - **motivatie**: 1-2 zinnen
@@ -127,13 +135,30 @@ Per `voorstel_kandidaat`:
 Voor concepten die verwant lijken:
 - ≥ 3 verwante concepten met **fundamenteel verschillende mechanismes** → voorstel **familie-fiche** (bv. leasing: financieel vs operationeel hebben echt andere kwalificatie + boekhouding)
 - Principes/discipline die in meerdere fiches herhaald zouden worden → voorstel **kader-fiche**
+- **VERPLICHT bij familie-voorstel**: definieer onmiddellijk welke leden in de `edges_voorgesteld["heeft_lid"]` lijst horen (ADR-025 §4bis Regel 4). Geen familie zonder leden — die wordt onleesbaar voor extract-agent.
 
-**Anti-patroon — NV/BV-pair-trap**: vermijd het maken van twee aparte fiches voor varianten van hetzelfde concept per vennootschapsvorm. Voorbeelden:
-- `kapitaalverhoging-nv` + `kapitaalverhoging-bv` → **één fiche `kapitaalverhoging`** met expliciete sub-sectie "Verschillen NV/BV"
+**Anti-patroon — pair-trap**: vermijd het maken van aparte fiches voor varianten van hetzelfde concept (ADR-025 §4bis Regel 2 — "prefer merge, split alleen als VERIFY zegt te verschillend"). Voorbeelden:
+- `kapitaalverhoging-nv` + `kapitaalverhoging-bv` → **één fiche `kapitaalverhoging`** met sub-sectie "Verschillen NV/BV"
 - `inkoop-eigen-aandelen-nv` + `-bv` → **één fiche** met sub-secties
 - `vereffening-klassiek` + `vereffening-in-een-akte` → **één fiche** met modaliteits-sub-secties
+- `fiscale-procedure-vlabel` + `-brufis` + `-spw-fiscalite` → **één fiche `gewestelijke-fiscale-procedure`** met Vl/Br/Wa-vergelijkingsmatrix
 
 Regel: bij **verschillen binnen één concept** = sub-secties; bij **fundamenteel verschillende mechanismes** = familie + leden.
+
+### Stap C+ — Naming + consolidatie-discipline (ADR-025 §4bis)
+
+Voordat je `voorstel_kandidaat` aanroept, check tegen de 8 consolidatie-regels van [ADR-025 §4bis](../docs/adr/ADR-025-schema-20-didactische-conceptlaag.md):
+
+1. **Naam = concept, niet kind, niet bron** — geen suffix `-kader`/`-familie`/`-procedure`; geen `ias-X`/`ifrs-X`/`isa-X` in fiche-naam
+2. **Pair-trap** — prefer merge, één-fiche-met-matrix
+3. **Audit-procedures = rol×perspectief-cellen** — geen aparte `audit-X` fiche voor onderwerp X; cel `externe auditor` in X-fiche
+4. **Familie = leden in dezelfde voorstel-call** — geen ghost-families
+5. **Granulariteit** — bouwstenen IN ouder-concept; richtsnoer ~20-25 fiches per PO
+6. **Cross-PO-completeness** — bij eerste aanraking ALLE PO-perspectieven; latere PO's vullen aan via `aanvul_kandidaat`
+7. **Open kind** — nieuwe `kind` mag, maar via explicit rationale
+8. **Geen schema-jargon in body** — `linked_anchors`/`node_type` alleen in frontmatter
+
+Als je een kandidaat aan het voorstellen bent die deze regels overtreedt: stop, herdenk, en kies de regel-conforme variant.
 
 ### Stap D — TDK-dekking-check
 

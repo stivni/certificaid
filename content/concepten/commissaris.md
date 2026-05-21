@@ -14,7 +14,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/commissaris.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Commissaris ⚖️
 
@@ -26,6 +26,7 @@ De commissaris is de **wettelijke jaarlijkse controleur** van de jaarrekening �
 Een commissaris is een door de algemene vergadering benoemde bedrijfsrevisor (IBR-lid) die de wettelijke jaarlijkse controle uitvoert op de jaarrekening en jaarverslag van de vennootschap. De commissaris vormt zich een onafhankelijk oordeel over het getrouw beeld van de jaarrekening en rapporteert daarover aan de algemene vergadering via een verslag (commissarisverslag).
 
 _Bron: WVV art. 3:72-3:97_
+
 
 
 ## Bouwstenen
@@ -54,7 +55,7 @@ Sofie Janssens controleert Rotex Roeselare NV's jaarrekening 2024 → toetst aan
 
 _Grondslag: WVV art. 3:75_
 
-### Drie soorten oordeel in het verslag 🤖
+### Drie soorten oordeel in het verslag 🔗
 
 (1) Goedkeurend oordeel — jaarrekening geeft getrouw beeld. (2) Oordeel met voorbehoud — getrouw beeld behalve voor enkele punten. (3) Afkeurend oordeel of onthouding — jaarrekening geeft geen getrouw beeld of geen voldoende bewijsstukken beschikbaar. De keuze hangt af van de aard en grootte van de gevonden afwijkingen (materialiteit).
 
@@ -108,7 +109,7 @@ _Grondslag: WVV art. 3:73 + Wet 7 december 2016_
 
 - **Vereist kennis van**: [[ibr]]
 - **Getriggerd door**: [[groottecriteria-jaarrekening]]
-
+- **Wordt voorondersteld in** (4): [[bedrijfsrevisor]] · [[externe-controle]] · [[ibr]] · [[wettelijke-controleopdracht-commissaris]]
 ## Voorbeelden
 
 Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders.

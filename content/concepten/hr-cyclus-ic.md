@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/hr-cyclus-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# HR-cyclus en interne controle 🤖
+# HR-cyclus en interne controle 🔗
 
 De HR-cyclus omvat aanwerving, contractbeheer, tijdsregistratie, loonberekening, uitbetaling en uitdiensttreding. Interne controle focust op fictieve werknemers (ghost employees), foute loonparameters en niet-aangegeven voordelen — klassieke fraude-vectoren. AVG-gevoeligheid van personeelsdata vereist gerichte technische maatregelen. Stagiairs komen dit tegen bij audits met sociaal secretariaat-uitbesteding (typisch Acerta, Securex, SD Worx) en bij anti-witwas-controles op cash-loonbetalingen.
 
@@ -26,6 +26,7 @@ De HR-cyclus omvat aanwerving, contractbeheer, tijdsregistratie, loonberekening,
 > [!info] Behoort tot: [[cyclus-analyse-ic]]
 
 Interne controle in de HR-cyclus is het geheel van maatregelen die de stadia aanwerving → tijdsregistratie → loonberekening → betaling → uitdiensttreding beheersen, met als doel ghost employees, loonmanipulatie en parameter-fouten te voorkomen of te detecteren.
+
 
 
 ## Bouwstenen
@@ -183,7 +184,7 @@ flowchart LR
   end
 ```
 
-🤖
+🔗
 
 
 

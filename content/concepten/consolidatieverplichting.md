@@ -20,7 +20,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/consolidatieverplichting.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Consolidatieverplichting ⚖️
 
@@ -33,6 +33,9 @@ Elke moeder die — alleen of samen met een andere — één of meer dochters co
 
 _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 
+
+
+> [!info] Uitzonderingen (2): [[groep-van-beperkte-omvang]] · [[vrijstelling-subconsolidatie]]
 
 ## In de praktijk
 
@@ -77,7 +80,7 @@ _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 ## Zie ook
 
 - **Vereist kennis van**: [[controle]]
-
+- **Wordt voorondersteld in** (2): [[controle]] · [[uniforme-waarderingsregels-consolidatie]]- **Triggert** (6): [[eu-harmonisatie-jaarrekeningenrecht]] · [[geconsolideerd-jaarverslag]] · [[geconsolideerde-jaarrekening]] · [[groottecriteria-consolidatie]] · [[ifrs-consolidatieraamwerk]] · [[moedervennootschap]]
 ## Voorbeelden
 
 Aurelia Holding NV controleert Brugse Brouwerij BV (90 %) en Bouwwerf Beerse BV (70 %); samen 380 personeelsleden, 50 mln EUR omzet, 35 mln EUR balans → drempels overschreden → Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken, laten controleren en neerleggen bij de NBB.

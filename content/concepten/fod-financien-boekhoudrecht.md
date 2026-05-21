@@ -13,7 +13,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/fod-financien-boekhoudrecht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # FOD Financiën (boekhoudrechtelijke rol) ⚖️
 
@@ -25,6 +25,7 @@ De FOD Financiën heeft twee raakpunten met boekhoudrecht: (1) fiscale inkomsten
 De Federale Overheidsdienst Financiën (FOD Financiën) is het federale ministerie verantwoordelijk voor fiscaliteit. Voor het boekhoudrecht heeft de FOD Financiën twee raakvlakken: (1) fiscale controle op de boekhouding (recht op inzage van boeken en stukken, art. 315 WIB), (2) afstemming tussen boekhoudkundig en fiscaal resultaat (start-aangifte van fiscale resultaat = boekhoudkundig resultaat).
 
 _Bron: WIB art. 315 + 322_
+
 
 
 ## Bouwstenen
@@ -41,7 +42,7 @@ Controle bij Rotex Roeselare NV → controleur vraagt alle bankuittreksels 2023 
 
 _Grondslag: WIB art. 315_
 
-### Boekhouding ↔ fiscale aangifte 🤖
+### Boekhouding ↔ fiscale aangifte 🔗
 
 Het boekhoudkundig resultaat is het vertrekpunt voor de fiscale aangifte. Vandaaruit worden specifieke fiscale correcties toegevoegd (niet-aftrekbare kosten, vrijgestelde inkomsten, fiscale meerwaarden). Boekhoud-fout → fiscale fout.
 
@@ -53,7 +54,7 @@ Meubelzaak Mertens BV boekt restaurantkost € 800 → boekhoudkundig kost. Fisc
 
 _Grondslag: WIB art. 24-25; primauteit boekhouding voor fiscus_
 
-### Onderscheid commissaris ↔ fiscale controleur 🤖
+### Onderscheid commissaris ↔ fiscale controleur 🔗
 
 Commissaris controleert getrouw beeld + wettelijkheid jaarrekening voor aandeelhouders. Fiscale controleur controleert correcte berekening belastbare basis voor de fiscus. Twee aparte controles, met aparte bevoegdheden.
 
@@ -71,7 +72,7 @@ _Grondslag: Algemene rechtsbeginselen + beroepsgeheim_
 <h3 id="wanneer-is-fod-financien-actor-in-een-boekhoud-dossier">Wanneer is FOD Financiën actor in een boekhoud-dossier?</h3>
 
 > [!tip]- Wanneer is FOD Financiën actor in een boekhoud-dossier?
-> Drie kerngebieden waar de stagiair-GA FOD Financiën als tegenpartij ontmoet: (1) **inkomstenbelastingen** (vennootschapsbelasting, personenbelasting met aanslag op jaarlijkse aangifte); (2) **btw-administratie** (driemaandelijkse of maandelijkse btw-aangiften en btw-controle); (3) **bedrijfsvoorheffing en roerende voorheffing** (loon- en dividend-aangiftes). De boekhouding levert de basis voor alle drie. 🤖
+> Drie kerngebieden waar de stagiair-GA FOD Financiën als tegenpartij ontmoet: (1) **inkomstenbelastingen** (vennootschapsbelasting, personenbelasting met aanslag op jaarlijkse aangifte); (2) **btw-administratie** (driemaandelijkse of maandelijkse btw-aangiften en btw-controle); (3) **bedrijfsvoorheffing en roerende voorheffing** (loon- en dividend-aangiftes). De boekhouding levert de basis voor alle drie. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examenvraag 'wie ontvangt de vennootschapsbelasting-aangifte?' → FOD Financiën (BIZTAX). 'Wie controleert de btw?' → FOD Financiën, btw-administratie.
@@ -87,7 +88,7 @@ _Grondslag: Algemene rechtsbeginselen + beroepsgeheim_
 <h3 id="boekhouding-fiscale-aangifte">Boekhouding ↔ fiscale aangifte</h3>
 
 > [!tip]- Boekhouding ↔ fiscale aangifte
-> Het boekhoudkundig resultaat is het vertrekpunt voor de fiscale aangifte (primauteit van de boekhouding tenzij de fiscale wet anders bepaalt). Specifieke fiscale correcties (verworpen uitgaven, DBI-aftrek, fiscale meerwaarden, investeringsaftrek) worden toegevoegd. Een boekhoudfout werkt zo automatisch door in de fiscale aangifte. 🤖
+> Het boekhoudkundig resultaat is het vertrekpunt voor de fiscale aangifte (primauteit van de boekhouding tenzij de fiscale wet anders bepaalt). Specifieke fiscale correcties (verworpen uitgaven, DBI-aftrek, fiscale meerwaarden, investeringsaftrek) worden toegevoegd. Een boekhoudfout werkt zo automatisch door in de fiscale aangifte. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examenvraag 'fiscaal vertrekpunt' → boekhoudkundig resultaat → daarop fiscale correcties.
@@ -107,11 +108,11 @@ _Grondslag: Algemene rechtsbeginselen + beroepsgeheim_
 ## Valkuilen
 
 > [!warning]- FOD Financiën is geen 'algemene boekhoudpolitie' — haar mandaat is fiscaal, niet boekhoudrechtelijk. Zij toetst de boekhouding aan de fiscale wet, niet aan KB-WVV of CBN-adviezen rechtstreeks.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Beroepsgeheim accountant/commissaris versus fiscaal inzagerecht: WIB art. 315 verplicht de **belastingplichtige** tot inzage, niet de externe accountant. Verzoeken aan de accountant rechtstreeks zijn gelimiteerd door beroepsgeheim (Wet 17 maart 2019).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

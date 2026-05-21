@@ -16,14 +16,19 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/integrale-consolidatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Integrale consolidatie 🤖
+# Integrale consolidatie 🔗
 
 De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De activa, passiva, rechten, verplichtingen, opbrengsten en kosten van de moeder en van haar exclusief gecontroleerde dochters worden integraal opgenomen (voor 100 %); het deel dat toebehoort aan derden (minderheidsaandeelhouders) wordt afzonderlijk gepresenteerd in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).
 
 > [!info] Behoort tot: [[consolidatieverschil]] · [[minderheidsbelangen]] · [[consolidatiemethodes-vergelijking]]
 
+> [!info] Bestaat uit (4): [[consolidatieverschil]] · [[eerste-consolidatie]] · [[intragroep-eliminaties]] · [[minderheidsbelangen]]
+
+
+
+> [!info] Uitzonderingen (1): [[consolidatiekring]]
 
 ## Bouwstenen
 
@@ -366,7 +371,7 @@ Resultaat: In de geconsolideerde balans staan de € 3.000.000 activa en € 1.0
 ## Zie ook
 
 - **Getriggerd door**: [[exclusieve-controle]]
-
+- **Wordt voorondersteld in** (1): [[horizontale-consolidatie]]- **Triggert** (6): [[belangenpercentage]] · [[controle]] · [[controlepercentage]] · [[dochteronderneming]] · [[exclusieve-controle]] · [[intragroep-eliminaties]]
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3_98`

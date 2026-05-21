@@ -1,0 +1,10 @@
+[
+  {"loser": "ifrs-conceptueel-raamwerk", "winner": "ifrs", "reason": "C2.2 — IASB Conceptual Framework wordt sectie IN ifrs-fiche"},
+  {"loser": "ifrs-toepassing-belgie", "winner": "ifrs", "reason": "C2.3 — BE-scope IFRS wordt sectie IN ifrs-fiche"},
+  {"loser": "eerste-toepassing-ifrs", "winner": "ifrs", "reason": "C2.4 — eerste-toepassing (IFRS-1) wordt sectie IN ifrs-fiche"},
+  {"loser": "ias-1-presentatie", "winner": "ifrs", "reason": "C2 — presentatie-norm van IFRS-jaarrekening wordt sectie IN ifrs-fiche (en perspectief in jaarrekening-fiche)"},
+  {"loser": "ifrs-consolidatieraamwerk", "winner": "geconsolideerde-jaarrekening", "reason": "C2 — IFRS-consolidatieperspectief wordt sectie IN geconsolideerde-jaarrekening-fiche"},
+  {"loser": "audit-van-geconsolideerde-jaarrekening", "winner": "geconsolideerde-jaarrekening", "reason": "C5 — audit van geconsolideerde-jaarrekening hoort als boekhouder/commissaris × consolidatie rol×perspectief-cel IN het fiche zelf, niet als losse fiche"},
+  {"loser": "ias-2-voorraden-ifrs", "winner": "voorraden", "reason": "C2 — IFRS-perspectief op voorraden wordt sectie IN bestaande voorraden-balanspost"},
+  {"loser": "ifrs-16-leases", "winner": "leasing", "reason": "C2 — IFRS-16-perspectief op leases wordt sectie IN leasing-familie"}
+]

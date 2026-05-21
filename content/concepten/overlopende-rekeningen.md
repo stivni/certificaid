@@ -18,7 +18,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/overlopende-rekeningen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Overlopende rekeningen ⚖️
 
@@ -30,6 +30,7 @@ Kosten en opbrengsten **toerekenen aan het juiste boekjaar** (matching), ook al 
 **Balansrekeningen** die het verschil tussen kasstroom en economische toerekening zichtbaar maken aan het eind van het boekjaar. Twee paren: (1) **Over te dragen kosten** (490, actief): al betaalde kosten die op een volgend boekjaar betrekking hebben — vooruitbetaalde huur, premie verzekering 12 maanden. (2) **Verkregen opbrengsten** (491, actief): opbrengsten verdiend in lopend jaar maar nog niet ontvangen — bv. te ontvangen rente. (3) **Toe te rekenen kosten** (492, passief): kosten die op lopend jaar slaan maar nog niet zijn betaald — bv. december-elektriciteit, gewerkte uren personeel. (4) **Over te dragen opbrengsten** (493, passief): ontvangen bedragen die op volgend jaar betrekking hebben — bv. vooruitbetaalde abonnementen.
 
 _Bron: KB WVV art. 3:60; MAR klasse 49_
+
 
 
 ## Bouwstenen
@@ -102,7 +103,7 @@ _Grondslag: KB WVV art. 3:60_
 ## Valkuilen
 
 > [!warning]- Overlopende rekeningen (klasse 49) zijn iets ANDERS dan handelsschulden of -vorderingen (klasse 4)
-> ⚠️ Overlopende rekeningen (klasse 49) zijn iets ANDERS dan handelsschulden of -vorderingen (klasse 4). Toe te rekenen kosten (492) ≠ leveranciersschuld (44) — de leveranciersschuld vereist een factuur; toe te rekenen kost wordt geboekt op basis van schatting/contract als de factuur nog niet binnen is en GEEN aparte 'te ontvangen factuur'-status heeft. 🤖
+> ⚠️ Overlopende rekeningen (klasse 49) zijn iets ANDERS dan handelsschulden of -vorderingen (klasse 4). Toe te rekenen kosten (492) ≠ leveranciersschuld (44) — de leveranciersschuld vereist een factuur; toe te rekenen kost wordt geboekt op basis van schatting/contract als de factuur nog niet binnen is en GEEN aparte 'te ontvangen factuur'-status heeft. 🔗
 >
 > _Bron: MAR_
 
@@ -112,7 +113,7 @@ _Grondslag: KB WVV art. 3:60_
 
 - **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
 - **Getriggerd door**: [[eindejaarsverrichtingen]]
-
+- **Wordt voorondersteld in** (1): [[schulden]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV betaalt op 1 oktober 20X1 een verzekeringspremie van € 4.800 voor 12 maanden vooruit (oktober 20X1 — september 20X2). 3 maanden in 20X1 (€ 1.200), 9 maanden in 20X2 (€ 3.600). Boeking op 1/10: Debet 61 Kosten € 4.800 / Credit 550 Bank € 4.800. Cut-off 31/12: Debet 490 Over te dragen kosten € 3.600 / Credit 61 Kosten € 3.600. Resultaat 20X1 belast met € 1.200, niet met € 4.800.

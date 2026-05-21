@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/exit-mechanismen-sha.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Exit- en deadlock-mechanismen in aandeelhoudersovereenkomsten ⚖️
 
@@ -29,6 +29,7 @@ Een aandeelhoudersovereenkomst is doorgaans voor lange duur (10 jaar of meer). A
 Verzamelterm voor **contractuele clausules** die de **uitstap** van een aandeelhouder of de **ontbinding van een patstelling** (deadlock) regelen: **put- en callopties**, **Russian roulette**, **Texas shoot-out**, **good/bad leaver-regelingen** en **deadlock-resolutie**. Doel: een onderhandelde, voorspelbare uitstap mogelijk maken zonder te moeten teruggrijpen naar een **gerechtelijke uittreding** (art. 2:60 WVV voor de BV; ook ontbinding wegens gegronde redenen).
 
 _Bron: IBA SHA-Guide 2024 §8, §11, §13_
+
 
 
 ## Bouwstenen
@@ -118,14 +119,17 @@ _Grondslag: IBA SHA-Guide 2024 §13_
 ## Valkuilen
 
 > [!warning]- Een **Russian roulette** in een SHA tussen twee partijen met **zeer ongelijke financiële slagkracht** geeft de rijke partij een **structureel voordeel**: zij kan altijd het 'fair' bod doen en kopen, terwijl de armere partij niet kan kopen en dus verplicht verkoopt. Bij dergelijke onbalans → kies eerder voor onafhankelijke deskundige + put/call.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Definieer good/bad-leaver-events **uitputtend en objectief**. Vage termen als 'ernstig disfunctioneren' leiden tot **eindeloze betwistingen** op het moment dat de waardering moet vastgesteld worden.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
+## Zie ook
+
+- **Triggert** (1): [[deadlock-vennootschap]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

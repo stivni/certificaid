@@ -17,7 +17,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/consolidatiekring.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Consolidatiekring ⚖️
 
@@ -26,9 +26,12 @@ Een operationeel kernbegrip uit het Belgische boekhoudrecht-consolidatieregime (
 > [!summary] Korte inhoud
 > De lijst van vennootschappen die in de geconsolideerde jaarrekening worden opgenomen: de moeder en al haar dochters.
 
+> [!info] Bestaat uit (3): [[dochteronderneming]] · [[geassocieerde-onderneming]] · [[moedervennootschap]]
+
 De lijst van vennootschappen die in de geconsolideerde jaarrekening worden opgenomen: de moeder en al haar dochters. In bepaalde gevallen mag of moet een dochter buiten de lijst worden gehouden; dan wordt zij doorgaans via de vermogensmutatiemethode opgenomen. Natuurlijke personen horen nooit in de consolidatiekring — die zijn geen dochteronderneming in de zin van het WVV.
 
 _Bron: KB WVV art. 3:96 (algemeen)_
+
 
 
 > [!info] Uitzondering op: [[integrale-consolidatie]]
@@ -123,7 +126,7 @@ _Grondslag: KB WVV art. 3:100_
 ## Zie ook
 
 - **Vereist kennis van**: [[controle]]
-
+- **Wordt voorondersteld in** (3): [[geconsolideerde-jaarrekening]] · [[vrijstelling-subconsolidatie]] · [[wijziging-consolidatiekring]]
 ## Voorbeelden
 
 Aurelia Holding NV controleert Brugse Brouwerij BV (100 %) en Drukkerij Dendermonde BV (25 %, invloed van betekenis). Consolidatiekring = Aurelia + Brugse; Drukkerij Dendermonde komt erbij via vermogensmutatie.

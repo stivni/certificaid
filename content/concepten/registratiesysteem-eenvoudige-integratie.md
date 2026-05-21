@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/registratiesysteem-eenvoudige-integratie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Eenvoudige integratie (registratiesysteem) 🤖
+# Eenvoudige integratie (registratiesysteem) 🔗
 
 Bij eenvoudige integratie neemt elke deelnemer of elke onderneming in eigen boekhouding rechtstreeks zijn aandeel in de kosten en opbrengsten op — zonder aparte 'tussen-boekhouding'. In analytische context betekent het: kosten en opbrengsten worden meteen aan de kostendrager toegerekend zonder extra registratielaag.
 
 > [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
+
 
 
 ## Bouwstenen

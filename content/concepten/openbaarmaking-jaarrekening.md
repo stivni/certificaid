@@ -14,9 +14,9 @@ node_type: procedure
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/openbaarmaking-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Openbaarmaking van de jaarrekening 🤖
+# Openbaarmaking van de jaarrekening 🔗
 
 De openbaarmaking is de **wettelijke neerleggingsplicht** bij de NBB-Balanscentrale (en bij griffie voor sommige stukken). Voor stagiair-GA cruciaal om termijnen, vorm (XBRL-tags), sancties (administratieve geldboete + civielrechtelijke aansprakelijkheid bestuurders) en kanaal-onderscheid te beheersen.
 
@@ -24,6 +24,7 @@ De openbaarmaking is de **wettelijke neerleggingsplicht** bij de NBB-Balanscentr
 > Elke vennootschap, vereniging of stichting met jaarrekening-plicht moet haar goedgekeurde jaarrekening (en, indien van toepassing, jaarverslag, commissarisverslag, geconsolideerde jaarrekening, sociaal balans) elektronisch neerleggen bij de Balanscentrale van de Nationale Bank va….
 
 Elke vennootschap, vereniging of stichting met jaarrekening-plicht moet haar goedgekeurde jaarrekening (en, indien van toepassing, jaarverslag, commissarisverslag, geconsolideerde jaarrekening, sociaal balans) elektronisch neerleggen bij de Balanscentrale van de Nationale Bank van België binnen 30 dagen na goedkeuring door de algemene vergadering, en uiterlijk 7 maanden na afsluiting van het boekjaar.
+
 
 
 ## In de praktijk
@@ -112,7 +113,7 @@ Iedere internetgebruiker tikt naam of ondernemingsnummer in → ziet alle neerge
 
 
 > [!warning]- Een gewijzigde jaarrekening na de eerste neerlegging vereist een nieuwe neerlegging met een gemotiveerd 'verbeterd exemplaar'
-> ⚠️ Een gewijzigde jaarrekening na de eerste neerlegging vereist een nieuwe neerlegging met een gemotiveerd 'verbeterd exemplaar'. Niet zomaar een tweede bestand uploaden — formele procedure vereist. 🤖
+> ⚠️ Een gewijzigde jaarrekening na de eerste neerlegging vereist een nieuwe neerlegging met een gemotiveerd 'verbeterd exemplaar'. Niet zomaar een tweede bestand uploaden — formele procedure vereist. 🔗
 >
 > _Bron: KB-WVV art. 3:113_
 
@@ -122,7 +123,7 @@ Iedere internetgebruiker tikt naam of ondernemingsnummer in → ziet alle neerge
 
 - **Vereist kennis van**: [[nationale-bank-belgie]]
 - **Getriggerd door**: [[wetboek-vennootschappen-verenigingen]]
-
+- **Wordt voorondersteld in** (2): [[griffies-ondernemingsrechtbank]] · [[nationale-bank-belgie]]- **Triggert** (1): [[samenstelling-statutaire-jaarrekening]]
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3_82`

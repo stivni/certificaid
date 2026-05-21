@@ -17,9 +17,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gebruikers-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Gebruikers van de jaarrekening 🤖
+# Gebruikers van de jaarrekening 🔗
 
 De jaarrekening kent meerdere primaire gebruikers — aandeelhouders, kredietverleners, leveranciers, werknemers, fiscus, overheid — elk met een ander informatie-belang. Geen analyse is goed of slecht in het abstracte: ze is goed of slecht vanuit het perspectief van een specifieke gebruiker.
 
@@ -31,9 +31,10 @@ De jaarrekening wordt opgesteld voor en gebruikt door verschillende belanghebben
 _Bron: ITAA-examenprogramma 1.3.I.B_
 
 
+
 ## Bouwstenen
 
-### Aandeelhouders en vennoten 🤖
+### Aandeelhouders en vennoten 🔗
 
 Bestuderen winstgevendheid, dividend-potentieel en rendement op hun ingezet kapitaal. ROE en groei van het eigen vermogen zijn primair.
 
@@ -45,7 +46,7 @@ Een aandeelhouder van Rotex Roeselare NV vergelijkt het rendement op zijn aandel
 
 _Grondslag: Vakdoctrine + anker 1.3.I.B_
 
-### Kredietverleners (banken, leveranciers) 🤖
+### Kredietverleners (banken, leveranciers) 🔗
 
 Beoordelen of de onderneming de afgesproken aflossingen en intresten kan betalen, of het bedrag van de openstaande factuur veilig is.
 
@@ -57,7 +58,7 @@ Een bank evalueert een kredietaanvraag van Rotex Roeselare NV op basis van debt-
 
 _Grondslag: Vakdoctrine + anker 1.3.I.B_
 
-### Werknemers en sociale partners 🤖
+### Werknemers en sociale partners 🔗
 
 Geïnteresseerd in continuïteit van de onderneming en evolutie van personeelskosten en winstgevendheid (mogelijke bron voor bonussen of arbeidsvoorwaarden).
 
@@ -81,7 +82,7 @@ De fiscus baseert haar aanslag vennootschapsbelasting op het belastbaar resultaa
 
 _Grondslag: WIB92 art. 321/1, 13°_
 
-### Klanten en leveranciers 🤖
+### Klanten en leveranciers 🔗
 
 Leveranciers checken kredietwaardigheid vóór openstaande betalingstermijnen. Klanten checken continuïteit (vooral bij langlopende contracten).
 
@@ -93,7 +94,7 @@ Een leverancier overweegt of hij Meubelzaak Mertens BV nog op 60 dagen wil lever
 
 _Grondslag: Vakdoctrine_
 
-### Het brede publiek 🤖
+### Het brede publiek 🔗
 
 Door neerlegging bij de Nationale Bank van België wordt de jaarrekening voor iedereen toegankelijk. Onderzoekers, journalisten, vakbonden, concurrenten gebruiken haar voor markt- of beleidsstudies.
 
@@ -111,13 +112,13 @@ _Grondslag: WVV + KB WVV (publicatie)_
 <h3 id="1.3.I.B">Gebruikersperspectief bepaalt ratio-keuze</h3>
 
 > [!tip]- Gebruikersperspectief bepaalt ratio-keuze
-> Een 'goede analyse' bestaat niet abstract — ze is goed of slecht vanuit een specifiek gebruikersperspectief. Begin elke analyse met de vraag: voor wie analyseer ik? 🤖
+> Een 'goede analyse' bestaat niet abstract — ze is goed of slecht vanuit een specifiek gebruikersperspectief. Begin elke analyse met de vraag: voor wie analyseer ik? 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Belangen van gebruikers kunnen tegenstrijdig zijn
-> ⚠️ Belangen van gebruikers kunnen tegenstrijdig zijn. Een hoog dividend (aandeelhoudersgunstig) vermindert de buffer voor schuldeisers. De jaarrekening dient ze allemaal, maar de analyse interpreteert vanuit één perspectief tegelijk. 🤖
+> ⚠️ Belangen van gebruikers kunnen tegenstrijdig zijn. Een hoog dividend (aandeelhoudersgunstig) vermindert de buffer voor schuldeisers. De jaarrekening dient ze allemaal, maar de analyse interpreteert vanuit één perspectief tegelijk. 🔗
 >
 > _Bron: Financial analysis_
 
@@ -126,7 +127,7 @@ _Grondslag: WVV + KB WVV (publicatie)_
 ## Zie ook
 
 - **Vereist kennis van**: [[doelstellingen-financiele-analyse]]
-
+- **Wordt voorondersteld in** (1): [[intake-financiele-analyse]]
 ## Bronnen
 
 [^1]: `CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen__sec_a-algemeen`

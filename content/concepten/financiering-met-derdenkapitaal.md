@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiering-met-derdenkapitaal.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Financiering met derdenkapitaal (vreemd vermogen) ⚖️
 
@@ -28,6 +28,7 @@ Vreemd vermogen op de passiefzijde: bankleningen, obligatieleningen, leverancier
 Financiering met derdenkapitaal omvat alle middelen die de onderneming aantrekt van externe schuldeisers: banken (bankleningen), obligatiehouders (obligatieleningen), leveranciers (handelsschulden), de fiscus (uitgestelde belastingen) en het personeel (sociale schulden). Op de balans: rubrieken 16-19 (schulden op meer dan 1 jaar) + 42-48 (schulden op ten hoogste 1 jaar).
 
 _Bron: KB WVV jaarrekeningschema rubrieken 16/19 + 42/48_
+
 
 
 ## Bouwstenen

@@ -16,13 +16,16 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/evenredige-consolidatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Evenredige consolidatie (proportionele consolidatie) 🤖
+# Evenredige consolidatie (proportionele consolidatie) 🔗
 
 Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
+
+> [!info] Bestaat uit (1): [[intragroep-eliminaties]]
+
 
 
 ## Bouwstenen
@@ -51,7 +54,7 @@ Cardinal koopt haar 50 %-belang in Filmstudio Florence voor € 1.500.000; pro-r
 
 _Grondslag: KB WVV art. 3:140, a_
 
-### Geen 'Belangen van derden'-post 🤖
+### Geen 'Belangen van derden'-post 🔗
 
 Bij evenredige consolidatie verschijnt er geen post 'Belangen van derden' of 'Aandeel van derden in het resultaat'. Het deel buiten je groep neem je gewoon niet op — er valt dus niets af te zonderen.
 
@@ -268,7 +271,7 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 a
 
 
 > [!warning]- Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %
-> ⚠️ Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %. Andere bronnen (oudere W.Venn., IFRS 11) kennen andere regels; in WVV-context geldt de pro-rata-eliminatie. 🤖
+> ⚠️ Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %. Andere bronnen (oudere W.Venn., IFRS 11) kennen andere regels; in WVV-context geldt de pro-rata-eliminatie. 🔗
 >
 > _Bron: KB WVV art. 3:140, a_
 
@@ -277,7 +280,7 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 a
 ## Zie ook
 
 - **Getriggerd door**: [[gezamenlijke-controle]]
-
+- **Triggert** (2): [[gemeenschappelijke-dochteronderneming]] · [[gezamenlijke-controle]]
 ## Voorbeelden
 
 Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'.

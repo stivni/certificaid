@@ -15,7 +15,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/curator-faillissement.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Curator in een faillissement ⚖️
 
@@ -29,6 +29,7 @@ Curatoren staan op een lijst van gerechtsmandatarissen die de ondernemingsrechtb
 Gerechtsmandataris die door de insolventierechtbank bij het vonnis van faillietverklaring wordt aangesteld om het vermogen van de gefailleerde te **beheren** en te **vereffenen** en de opbrengst te verdelen onder de schuldeisers. De curator is geen partij in het faillissement maar een orgaan dat de boedel vertegenwoordigt. Hij handelt onder toezicht van de rechter-commissaris.
 
 _Bron: WER art. XX.98, XX.104_
+
 
 
 ## In de praktijk
@@ -46,16 +47,19 @@ _Bron: WER art. XX.98, XX.104_
 <h3 id="voor-de-clientel-accountant">Voor de cliëntel-accountant</h3>
 
 > [!tip]- Voor de cliëntel-accountant
-> De accountant die de boekhouding hield, levert vaak de definitieve afsluitingsbalans tot datum faillissement aan de curator en helpt bij het identificeren van debiteuren en activa. Hij heeft een professionele samenwerkings-relatie met de curator — geen tegenstellingsrelatie. 🤖
+> De accountant die de boekhouding hield, levert vaak de definitieve afsluitingsbalans tot datum faillissement aan de curator en helpt bij het identificeren van debiteuren en activa. Hij heeft een professionele samenwerkings-relatie met de curator — geen tegenstellingsrelatie. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Verwar curator niet met **vereffenaar** (vereffening na ontbinding, WVV art. 2:79 e.v.) of met **vereffeningsdeskundige** (overdracht onder gerechtelijk gezag, WER art. XX.94). Verschillende benoemingsbron, verschillende bevoegdheden.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[insolventiefunctionaris]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vervaardigingsprijs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Vervaardigingsprijs ⚖️
 
@@ -28,6 +28,7 @@ De vervaardigingsprijs is de wettelijke ondergrens voor voorraadwaardering van z
 De vervaardigingsprijs van producten omvat (a) de aanschaffingsprijs van de gebruikte grondstoffen, verbruiksgoederen en hulpstoffen, (b) de productiekosten die rechtstreeks aan het individuele product kunnen worden toegerekend (directe productiekosten), en (c) het evenredig deel van de productiekosten die slechts onrechtstreeks aan het individuele product kunnen worden toegerekend (indirecte productiekosten). De opname van (c) is een keuze die in de waarderingsregels wordt vastgelegd: 'full costing' (alle (c) opnemen) of 'direct costing' (enkel het variabele deel of niets opnemen).
 
 _Bron: CBN 132/7 §2.1 jo. CBN 2012/15 jo. KB 21.10.2018 art. 22_
+
 
 
 ## Bouwstenen
@@ -175,6 +176,9 @@ Bereken een verdeelsleutel-tarief per kostencentrum en pas dat toe op de product
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[kostprijs-per-eenheid]] · [[voorraadwaardering]]
 ## Bronnen
 
 [^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs`

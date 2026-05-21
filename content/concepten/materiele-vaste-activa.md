@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/materiele-vaste-activa.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Materiële vaste activa ⚖️
 
@@ -23,9 +23,12 @@ De grootste categorie vaste activa bij productie- en handelsondernemingen — be
 > [!summary] Korte inhoud
 > **Lichamelijke** activa die de onderneming aanhoudt voor gebruik in de productie of levering van goederen of diensten, voor verhuur aan derden of voor bestuurlijke doeleinden.
 
+> [!info] Specialisaties (2): [[materiele-vaste-activa-ifrs]] · [[opsplitsing-eigendom]]
+
 **Lichamelijke** activa die de onderneming aanhoudt voor gebruik in de productie of levering van goederen of diensten, voor verhuur aan derden of voor bestuurlijke doeleinden. Het MAR groepeert ze onder rubrieken 22 — 26: (22) terreinen en gebouwen, (23) installaties, machines en uitrusting, (24) meubilair en rollend materieel, (25) vaste activa in leasing, (26) andere materiële vaste activa (incl. buiten gebruik gesteld). Materiële vaste activa met beperkte gebruiksduur worden afgeschreven; activa met onbeperkte gebruiksduur (terreinen) krijgen indien nodig waardeverminderingen.
 
 _Bron: MAR + KB WVV art. 3:18 — 3:23_
+
 
 
 ## Bouwstenen
@@ -84,7 +87,7 @@ _Grondslag: CBN 2021/09_
 <h3 id="onderscheid-terrein-gebouw-bij-notariele-akte">Onderscheid terrein/gebouw bij notariële akte</h3>
 
 > [!tip]- Onderscheid terrein/gebouw bij notariële akte
-> Bij aankoop van een bebouwd onroerend goed worden terreinen en gebouwen samen aangeschaft, maar voor de boekhouding moeten ze gesplitst worden. Splitsing op basis van werkelijke waardeverhouding (vaak in akte vermeld of door schatter bepaald). 🤖
+> Bij aankoop van een bebouwd onroerend goed worden terreinen en gebouwen samen aangeschaft, maar voor de boekhouding moeten ze gesplitst worden. Splitsing op basis van werkelijke waardeverhouding (vaak in akte vermeld of door schatter bepaald). 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen: 'aankoop pand € 600.000, akte vermeldt grond 30 % / opstal 70 %' → 220 € 180.000 + 221 € 420.000.
@@ -109,7 +112,7 @@ _Grondslag: CBN 2021/09_
 
 - **Vereist kennis van**: [[afschrijvingen]]
 - **Vereist kennis van**: [[leasing]]
-
+- **Wordt voorondersteld in** (2): [[leasing]] · [[wijziging-boekhoudkundig-referentiestelsel]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV bezit: terrein € 320.000 (rubriek 220), gebouw € 480.000 (221), snij-installaties € 145.000 (230), machines en gereedschap € 218.000 (231), kantoormeubilair € 22.000 (240) en bedrijfswagens € 65.000 (242). Totaal bruto-aanschaffingswaarde € 1.250.000; netto-boekwaarde na cumul. afschrijvingen € 815.000 op de balans onder rubriek III 'Materiële vaste activa'.

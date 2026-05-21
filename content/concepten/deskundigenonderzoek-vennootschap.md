@@ -13,9 +13,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/deskundigenonderzoek-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Deskundigenonderzoek in een vennootschap 🤖
+# Deskundigenonderzoek in een vennootschap 🔗
 
 Het deskundigenonderzoek (vroeger 'expertise minoritaire') is het **lichte instrument** uit het arsenaal van de minderheid: één of meer aandeelhouders kunnen de rechter vragen om een deskundige aan te stellen die de boeken en de bestuurshandelingen onderzoekt. Het levert geen rechtstreekse veroordeling op, maar de bevindingen kunnen kwijting blokkeren, een minderheidsvordering ondersteunen of de pijnpunten objectiveren in een geschillenregeling-procedure.
 
@@ -25,6 +25,7 @@ Het deskundigenonderzoek (vroeger 'expertise minoritaire') is het **lichte instr
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 Op verzoek van één of meer aandeelhouders die **ten minste 10%** van de uitgegeven aandelen bezitten, kan de voorzitter van de ondernemingsrechtbank, in kort geding, **één of meer deskundigen aanstellen** om de boeken en de rekeningen van de vennootschap én de verrichtingen van haar organen na te zien, **indien er aanwijzingen zijn dat de belangen van de vennootschap op ernstige wijze in gevaar komen of dreigen te komen**.
+
 
 
 ## In de praktijk
@@ -41,15 +42,15 @@ Op verzoek van één of meer aandeelhouders die **ten minste 10%** van de uitgeg
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Voorbeelden
 
-Famke Vermeulen houdt 12% in Brugse Brouwerij BV en vermoedt dat de bestuurder-meerderheidsaandeelhouder onroerend goed van de vennootschap onder de marktwaarde aan zichzelf verkocht heeft. Zij verzoekt de voorzitter ondernemingsrechtbank een deskundige aan te stellen om de transacties tussen de vennootschap en haar bestuurder over de laatste drie boekjaren na te zien. 🤖
+Famke Vermeulen houdt 12% in Brugse Brouwerij BV en vermoedt dat de bestuurder-meerderheidsaandeelhouder onroerend goed van de vennootschap onder de marktwaarde aan zichzelf verkocht heeft. Zij verzoekt de voorzitter ondernemingsrechtbank een deskundige aan te stellen om de transacties tussen de vennootschap en haar bestuurder over de laatste drie boekjaren na te zien. 🔗
 

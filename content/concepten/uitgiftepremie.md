@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitgiftepremie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Uitgiftepremie ⚖️
 
@@ -28,6 +28,7 @@ Een hybride post: boekhoudkundig geen reserve (rubriek 11, niet 13), juridisch w
 Het **verschil tussen de uitgifteprijs van nieuwe aandelen** bij een kapitaalverhoging en de **fractiewaarde** (of vroeger 'nominale waarde'). Geboekt op rekening 11 'Uitgiftepremies' onder eigen middelen. Een uitgiftepremie is GEEN reserve in de zin van de wet: ze wordt fiscaal en boekhoudkundig met **kapitaal/eigen vermogensinbreng gelijkgesteld** voor wat betreft beschermingsregels — maar staat in een afzonderlijke balansrubriek voor transparantie.
 
 _Bron: CBN 2021/01 — Uitgiftepremie_
+
 
 
 ## Bouwstenen
@@ -74,7 +75,7 @@ _Grondslag: CBN 2021/01_
 <h3 id="fiscaal-gelijkgesteld-met-kapitaal">Fiscaal gelijkgesteld met kapitaal</h3>
 
 > [!tip]- Fiscaal gelijkgesteld met kapitaal
-> Voor fiscale doeleinden (notionele intrestaftrek tot 2023, VVPRbis, lage tarieven KMO's) wordt uitgiftepremie samen met kapitaal genomen als 'gestort kapitaal'. Belangrijk voor de berekening van de toepasselijke fiscale gunstregimes. 🤖
+> Voor fiscale doeleinden (notionele intrestaftrek tot 2023, VVPRbis, lage tarieven KMO's) wordt uitgiftepremie samen met kapitaal genomen als 'gestort kapitaal'. Belangrijk voor de berekening van de toepasselijke fiscale gunstregimes. 🔗
 
 
 > [!info]- Niet verwarren met [[wettelijke-reserve]]
@@ -92,6 +93,9 @@ _Grondslag: CBN 2021/01_
 
 
 
+## Zie ook
+
+- **Triggert** (1): [[kapitaalwijziging]]
 ## Voorbeelden
 
 Oprichtingen Oostende BV heeft kapitaal € 50.000 verdeeld over 500 aandelen (fractiewaarde € 100). De BV gaat door een kapitaalverhoging via uitgifte van 200 nieuwe aandelen aan € 250 per stuk. Inbreng = 200 × € 250 = € 50.000. Hiervan: 200 × € 100 = € 20.000 naar kapitaal (rekening 100), en 200 × € 150 = € 30.000 naar uitgiftepremie (rekening 11). Nieuw eigen vermogen: kapitaal € 70.000 + uitgiftepremie € 30.000.

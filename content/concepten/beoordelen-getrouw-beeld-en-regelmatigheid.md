@@ -15,11 +15,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beoordelen-getrouw-beeld-en-regelmatigheid.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Beoordelen van regelmatigheid, waarachtigheid en getrouw beeld van de jaarrekening 🤖
+# Beoordelen van regelmatigheid, waarachtigheid en getrouw beeld van de jaarrekening 🔗
 
 Deze competentie bundelt wat de stagiair moet kunnen bij het beoordelen van de jaarrekening op haar drie wettelijke eigenschappen: regelmatigheid (in overeenstemming met het boekhoud- en jaarrekeningenrecht), waarachtigheid (geen materiële afwijkingen), en getrouw beeld (juiste weergave van vermogen, financiële toestand en resultaat). Deze drie samen vormen het toetsingsobject van het uiteindelijke controleoordeel.
+
 
 
 ## Stappen

@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/professioneel-kritische-instelling.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Professioneel-kritische instelling ⚖️
 
@@ -27,6 +27,7 @@ Professioneel-kritische instelling (professional skepticism) is een wettelijk ve
 De beroepsbeoefenaar plant en voert de opdracht uit vanuit een professioneel-kritische instelling (professional skepticism): een onderzoekende houding, alert zijn op omstandigheden die kunnen wijzen op afwijkingen door fouten of fraude, en kritische evaluatie van controle-informatie. Hij neemt informatie niet zonder meer voor waar aan.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1 + §42_
+
 
 
 ## In de praktijk
@@ -50,7 +51,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §42_
 
 ## Zie ook
 
-- **Wordt voorondersteld in** (2): [[boekhoudkundige-schattingen-audit]] · [[toepassen-professional-skepticism-en-deontologie-audit]]
+- **Wordt voorondersteld in** (3): [[boekhoudkundige-schattingen-audit]] · [[fraude-versus-fout]] · [[toepassen-professional-skepticism-en-deontologie-audit]]
 ## Voorbeelden
 
 De CFO van Rotex Roeselare NV vertelt Sofie Janssens dat de voorraadwaardering klopt 'volgens onze gebruikelijke methode'. Vanuit een professioneel-kritische instelling vraagt Sofie de methode op schrift, controleert ze tegen vorig jaar, en test ze op een steekproef — ze gelooft de mondelinge bevestiging niet zonder onderbouwing.

@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/inherent-risico.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Inherent risico ⚖️
 
@@ -29,12 +29,13 @@ Inherent risico is de vatbaarheid van een bewering (over een transactiestroom, r
 _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 
+
 ## In de praktijk
 
 <h3 id="risicofactoren-die-inherent-risico-verhogen">Risicofactoren die inherent risico verhogen</h3>
 
 > [!tip]- Risicofactoren die inherent risico verhogen
-> Complexiteit van transacties, schattingen, oordeelsvorming, niet-routinematige transacties, technologische verandering, regelgevende complexiteit, fraudedruk, beursnotering. 🤖
+> Complexiteit van transacties, schattingen, oordeelsvorming, niet-routinematige transacties, technologische verandering, regelgevende complexiteit, fraudedruk, beursnotering. 🔗
 
 
 > [!info]- Niet verwarren met [[intern-beheersingsrisico]]
@@ -43,9 +44,6 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 > _Trigger_: Examen: praat de opgave over de complexiteit van de transacties zelf → inherent risico. Praat ze over zwakheden in de interne controleprocessen → intern beheersingsrisico.
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[uitvoeren-risico-inschatting-en-materialiteit-audit]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV is het inherent risico op voorraadwaardering hoog: complexe productie-eenheid + lange productielijnen met work-in-progress + technologie die verouderd kan zijn. Bij Meubelzaak Mertens BV (handelsvoorraden in showroom) is het inherent risico lager: telbare stuks met aankoopfacturen.

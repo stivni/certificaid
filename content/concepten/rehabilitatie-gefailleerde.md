@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rehabilitatie-gefailleerde.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Rehabilitatie van de gefailleerde ⚖️
 
@@ -30,6 +30,7 @@ De gefailleerde **natuurlijke persoon** die **geen kwijtschelding** heeft verkre
 _Bron: WER art. XX.237-XX.241_
 
 
+
 ## In de praktijk
 
 <h3 id="procedure">Procedure</h3>
@@ -40,12 +41,12 @@ _Bron: WER art. XX.237-XX.241_
 <h3 id="effect-opheffing-verbodsbepalingen">Effect — opheffing verbodsbepalingen</h3>
 
 > [!tip]- Effect — opheffing verbodsbepalingen
-> Door de rehabilitatie worden de uit het faillissement voortvloeiende **verbodsbepalingen** (beroepsverbod ex art. XX.229) opgeheven. De gefailleerde kan opnieuw bestuurdersmandaten aanvaarden en een onderneming uitbaten. De rehabilitatie heeft **geen retroactief karakter** — de schuldeisers blijven betaalde, maar de toekomstige beperkingen vallen weg. 🤖
+> Door de rehabilitatie worden de uit het faillissement voortvloeiende **verbodsbepalingen** (beroepsverbod ex art. XX.229) opgeheven. De gefailleerde kan opnieuw bestuurdersmandaten aanvaarden en een onderneming uitbaten. De rehabilitatie heeft **geen retroactief karakter** — de schuldeisers blijven betaalde, maar de toekomstige beperkingen vallen weg. 🔗
 
 <h3 id="niet-voor-rechtspersonen">Niet voor rechtspersonen</h3>
 
 > [!tip]- Niet voor rechtspersonen
-> Rehabilitatie is een **persoonlijke remedie** voor de natuurlijke-personen-gefailleerde. Een failliete vennootschap wordt na het faillissement ontbonden en houdt op te bestaan — er valt niets te rehabiliteren. Voor bestuurders/zaakvoerders die persoonlijk een verbod hebben opgelopen (art. XX.229 §2) staat dezelfde route open: integrale betaling en verzoek. 🤖
+> Rehabilitatie is een **persoonlijke remedie** voor de natuurlijke-personen-gefailleerde. Een failliete vennootschap wordt na het faillissement ontbonden en houdt op te bestaan — er valt niets te rehabiliteren. Voor bestuurders/zaakvoerders die persoonlijk een verbod hebben opgelopen (art. XX.229 §2) staat dezelfde route open: integrale betaling en verzoek. 🔗
 
 
 ## Voorwaarden / uitzonderingen
@@ -56,18 +57,18 @@ _Bron: WER art. XX.237-XX.241_
 ## Valkuilen
 
 > [!warning]- Niet verwarren met **kwijtschelding** (art. XX.173 WER, voor natuurlijke personen onmiddellijk na faillissement). Kwijtschelding **vermindert de schulden** — wat overblijft hoeft niet meer betaald te worden. Rehabilitatie veronderstelt net **dat alles betaald is** en heft alleen het stigma en de verbodsbepalingen op.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Een rehabilitatie schrapt geen **strafrechtelijke** veroordeling. Indien de gefailleerde ook strafrechtelijk werd veroordeeld (bv. bedrieglijk faillissement, art. 489-XX Strafwetboek), staat daarvoor een afzonderlijke **strafrechtelijke eerherstel**-procedure open (Wetboek van Strafvordering art. 621-634).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[ondernemingsrechtbank-bevoegdheid-insolventie]]
-
+- **Wordt voorondersteld in** (1): [[faillissement]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

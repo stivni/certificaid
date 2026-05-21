@@ -19,7 +19,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aanschaffingswaarde.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Aanschaffingswaarde ⚖️
 
@@ -31,6 +31,7 @@ De aanschaffingswaarde is de **basiswaarde** waaraan elk actief de boekhouding b
 De **basiswaarde** waartegen elk actiefbestanddeel bij verwerving in de boekhouding wordt opgenomen, vóór aftrek van afschrijvingen en waardeverminderingen. De aanschaffingswaarde kan **drie vormen** aannemen: (1) de **aanschaffingsprijs** bij aankoop van een derde (inclusief bijkomende kosten), (2) de **vervaardigingsprijs** bij eigen productie (directe + variabele indirecte productiekosten), of (3) de **inbrengwaarde** wanneer een actief als inbreng in natura in de vennootschap wordt opgenomen (KB WVV art. 3:13 — 3:15).
 
 _Bron: KB WVV art. 3:13 — 3:15_
+
 
 
 ## Bouwstenen
@@ -98,7 +99,7 @@ _Grondslag: KB WVV art. 3:13 + bestendigheid_
 ## Valkuilen
 
 > [!warning]- Niet alle 'kosten verbonden met de aankoop' mogen mee in de aanschaffingswaarde
-> ⚠️ Niet alle 'kosten verbonden met de aankoop' mogen mee in de aanschaffingswaarde. Wel: invoerrechten, transport, installatie, niet-aftrekbare BTW. Niet: financieringskosten (intrest op aankoopkrediet), opleiding personeel, marketing-launch — die zijn gewone bedrijfskosten van het lopende jaar. 🤖
+> ⚠️ Niet alle 'kosten verbonden met de aankoop' mogen mee in de aanschaffingswaarde. Wel: invoerrechten, transport, installatie, niet-aftrekbare BTW. Niet: financieringskosten (intrest op aankoopkrediet), opleiding personeel, marketing-launch — die zijn gewone bedrijfskosten van het lopende jaar. 🔗
 >
 > _Bron: KB WVV art. 3:13 + CBN 2010/15_
 
@@ -107,7 +108,7 @@ _Grondslag: KB WVV art. 3:13 + bestendigheid_
 ## Zie ook
 
 - **Vereist kennis van**: [[afschrijvingen]]
-
+- **Wordt voorondersteld in** (1): [[afschrijvingen]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt een snij-installatie voor € 28.500 excl. BTW; bijkomende installatiekosten € 1.250 en transport € 750. Aanschaffingswaarde = € 28.500 + € 1.250 + € 750 = € 30.500 — dat is de basis waarop afschrijvingen worden berekend en die op de balans verschijnt onder rubriek 23 'Installaties, machines en uitrusting'.

@@ -14,9 +14,9 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/commissaris-toezicht-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Commissaris (extern toezicht op jaarrekening) 🤖
+# Commissaris (extern toezicht op jaarrekening) 🔗
 
 De commissaris is de bedrijfsrevisor die de wettelijke controle van de jaarrekening uitvoert in vennootschappen die de groottecriteria overschrijden of OOB zijn. Hij wordt benoemd door de algemene vergadering voor drie boekjaren (hernieuwbaar) en geeft een controleverklaring volgens ISA 700 (herzien). Voor de financiële analist (PO 1.3) is het type oordeel in het commissarisverslag een primair signaal over de betrouwbaarheid van de cijfers; voor de audit-stagiair (PO 1.6) is de commissaris het sluitstuk van de externe-controle-keten.
 
@@ -28,9 +28,10 @@ Een commissaris is een bedrijfsrevisor (lid van het IBR) die door de algemene ve
 _Bron: WVV (boek 3) + Wet revisoraat_
 
 
+
 ## Bouwstenen
 
-### Onthouding versus goedkeuring versus afkeurend 🤖
+### Onthouding versus goedkeuring versus afkeurend 🔗
 
 De commissaris geeft één van vier verklaringen af: goedkeurend (zonder voorbehoud), met voorbehoud, afkeurend, of onthoudend (geen verklaring kunnen geven).
 
@@ -60,13 +61,13 @@ _Grondslag: CBN-2020/09_
 <h3 id="1.3.I.D">Eerst commissarisverslag lezen</h3>
 
 > [!tip]- Eerst commissarisverslag lezen
-> Bij elke analyse: lees eerst het commissarisverslag (verklaring van het type). Een goedkeurende verklaring zonder voorbehoud = ratio's mogen vertrouwd worden. Voorbehoud, afkeurend of onthoudend = pas op met de cijfers. 🤖
+> Bij elke analyse: lees eerst het commissarisverslag (verklaring van het type). Een goedkeurende verklaring zonder voorbehoud = ratio's mogen vertrouwd worden. Voorbehoud, afkeurend of onthoudend = pas op met de cijfers. 🔗
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[belangenconflict-bestuurder]]
 ## Bronnen
 
 [^1]: `WVV__art_9_17`

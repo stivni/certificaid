@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/werkprogramma-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Werkprogramma / werkschema audit ⚖️
 
@@ -29,6 +29,7 @@ Het werkprogramma (controleprogramma in ISA 300-terminologie) is de tweede laag 
 Een werkprogramma (of werkschema) is een schriftelijke beschrijving van de controlewerkzaamheden die uitgevoerd zullen worden — met aanduiding van wanneer en hoe ze gebeuren en hoeveel tijd ze in beslag nemen. Het is de uitvoeringsblauwdruk van de audit: per assertie, per rekeningsaldo of per transactiestroom geeft het werkprogramma aan welke procedures de auditor zal toepassen.
 
 _Bron: ITAA Algemene controlenorm §3_
+
 
 
 ## In de praktijk

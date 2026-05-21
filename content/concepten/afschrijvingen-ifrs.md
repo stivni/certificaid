@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/afschrijvingen-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Afschrijvingen onder IFRS (IAS 16 + IAS 38) 🤖
+# Afschrijvingen onder IFRS (IAS 16 + IAS 38) 🔗
 
 Onder IFRS is afschrijving (IAS 16 alinea 6, IAS 38 alinea 8) de **stelselmatige toerekening van het afschrijfbaar bedrag** van een actief **over zijn gebruiksduur**. Het afschrijfbaar bedrag = kostprijs (of geherwaardeerde waarde) − **restwaarde**. De gebruikte methode moet 'een afspiegeling zijn van het patroon volgens welk de toekomstige economische voordelen van het actief naar verwachting zullen worden verbruikt' (IAS 16 alinea 60). Drie veelvoorkomende methoden: lineair, degressief, en op basis van verbruikte werkeenheden. De entiteit moet **jaarlijks** restwaarde, gebruiksduur en afschrijvingsmethode herzien (alinea 51 + 61); aanpassingen zijn schattingswijzigingen (IAS 8, prospectief). Een methode op basis van **opbrengsten** is voor materiële vaste activa NIET toegestaan (alinea 62A) — opbrengsten weerspiegelen prijs en volume, niet het verbruik van het actief.
 
 > [!info] Behoort tot: [[materiele-vaste-activa-ifrs]] · Specialisatie van: [[afschrijvingen]]
+
 
 
 ## Bouwstenen
@@ -182,6 +183,9 @@ _Resultaat in EUR_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[materiele-vaste-activa-ifrs]]
 ## Bronnen
 
 [^1]: `IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname`

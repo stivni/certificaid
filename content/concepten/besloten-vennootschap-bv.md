@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/besloten-vennootschap-bv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Besloten vennootschap (BV) ⚖️
 
@@ -25,9 +25,12 @@ De BV is sinds het WVV (2019) de **standaard-rechtsvorm** voor de Belgische KMO.
 
 > [!info] Specialisatie van: [[vennootschap-begrip]]
 
+> [!info] Bestaat uit (6): [[alarmbelprocedure]] · [[inkoop-eigen-aandelen-bv]] · [[kapitaalverhoging-bv]] · [[liquiditeitstest-bv]] · [[uitkering-uit-eigen-vermogen-bv]] · [[vennootschapsconflict]] · Specialisaties (1): [[statutaire-uittreding-bv]]
+
 De besloten vennootschap is een vennootschap **zonder kapitaal** waarin de aandeelhouders slechts hun inbreng verbinden (WVV art. 5:1). Ze wordt opgericht door één of meer personen, vereist een notariële oprichtingsakte met financieel plan, en de aandelen zijn principieel niet vrij overdraagbaar (vandaar 'besloten').
 
 _Bron: WVV art. 5:1_
+
 
 
 ## Bouwstenen
@@ -98,7 +101,7 @@ _Grondslag: WVV art. 5:142, 5:143_
 <h3 id="voor-de-stagiair-accountant">Voor de stagiair-accountant</h3>
 
 > [!tip]- Voor de stagiair-accountant
-> Standaard-cliëntdossier. Bij oprichting: controleer financieel plan + correctheid van uitkeringstests bij elke dividenduitkering. Op de jaarrekening: dubbele boekhouding, NBB-publicatie (verkort schema voor klein), let op niet-uitkeerbare reserves. 🤖
+> Standaard-cliëntdossier. Bij oprichting: controleer financieel plan + correctheid van uitkeringstests bij elke dividenduitkering. Op de jaarrekening: dubbele boekhouding, NBB-publicatie (verkort schema voor klein), let op niet-uitkeerbare reserves. 🔗
 
 
 ## Valkuilen
@@ -114,7 +117,7 @@ _Grondslag: WVV art. 5:142, 5:143_
 
 - **Vereist kennis van**: [[beperkte-aansprakelijkheid-vennoot]]
 - **Vereist kennis van**: [[inbreng-vennootschap]]
-
+- **Wordt voorondersteld in** (1): [[uitkeringstest-vergelijking-bv-nv]]
 ## Voorbeelden
 
 **Meubelzaak Mertens BV** met twee aandeelhouders (Pieter en Marleen, elk 50%), inbreng € 25.000 elk, financieel plan ondertekend, geen wettelijk minimum vereist. Statuten voorzien voorkooprecht bij overdracht van aandelen aan derden. _(Meubelzaak Mertens BV, Pieter Vermeulen, Marleen De Cock)_

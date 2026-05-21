@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controle-begrip-algemeen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Controle — begrip algemeen ⚖️
 
@@ -27,6 +27,9 @@ Het woord 'controle' is in het ITAA-programma ambigu en de bron van veel examen-
 
 _Bron: WVV art. 1:14 (voor betekenis 2) + ITAA-norm-kmo-controlenorm Bijlage 1 (voor betekenis 1)_
 
+
+
+> [!info] Uitzonderingen (1): [[individueel-controlerecht-aandeelhouder]]
 
 ## Bouwstenen
 
@@ -42,7 +45,7 @@ In ITAA-normen en Belgische audit-praktijk wordt 'interne controle' steeds vaker
 
 _Grondslag: ITAA-norm-kmo-controlenorm §97 + ISA 315 vertaalconventie_
 
-### Drie controlemomenten — preventief, detectief, correctief 🤖
+### Drie controlemomenten — preventief, detectief, correctief 🔗
 
 Preventief = voorkomt fout vóór ze optreedt (autorisatie vóór betaling). Detectief = vindt fout achteraf (afpunten bankafschrift). Correctief = herstelt of voorkomt herhaling (boekingscorrectie, procedure-update).
 
@@ -53,7 +56,7 @@ Preventief = voorkomt fout vóór ze optreedt (autorisatie vóór betaling). Det
 
 _Grondslag: IC-doctrine (COSO)_
 
-### Handmatig versus geautomatiseerd 🤖
+### Handmatig versus geautomatiseerd 🔗
 
 Handmatige controle = menselijke handeling (visuele check, paraaf). Geautomatiseerde controle = systeem-regel (ERP-validatie, drempelblokkering).
 
@@ -72,6 +75,9 @@ _Grondslag: IC-doctrine_
 > _Trigger_: Examen-context: gaat het over jaarrekening / IC / audit? → betekenis (1). Gaat het over consolidatie / groepen / belangenpercentage? → betekenis (2).
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[controleproces-organisatie]] · [[individueel-controlerecht-aandeelhouder]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV: 'Sofie Janssens controleert de aankoopfacturen' = betekenis (1), zij verifieert. 'Aurelia Holding NV oefent controle uit op Brugse Brouwerij BV' = betekenis (2), zij beheert beslissend (WVV art. 1:14). Beide gebruiken het woord 'controle' — verschillende juridische ladingen.

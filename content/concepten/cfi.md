@@ -13,9 +13,9 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/cfi.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Cel voor Financiële Informatieverwerking (CFI) 🤖
+# Cel voor Financiële Informatieverwerking (CFI) 🔗
 
 De CFI is de federale meldautoriteit voor het Belgische antiwitwasregime. Zij staat tussen de meldingsplichtigen (financiële instellingen, accountants, revisors, notarissen, advocaten, vastgoedmakelaars, ...) en het strafrechtelijk apparaat: meldingen gaan eerst naar de CFI, niet rechtstreeks naar het parket. Voor de gecertificeerd accountant is de CFI de unieke geadresseerde van elke vermoedensmelding op grond van de Antiwitwaswet van 18 september 2017.
 
@@ -25,6 +25,7 @@ De CFI is de federale meldautoriteit voor het Belgische antiwitwasregime. Zij st
 De Cel voor Financiële Informatieverwerking (CFI/CTIF) is een onafhankelijke administratieve autoriteit, opgericht bij de Antiwitwaswet (Wet 18 september 2017, art. 76 e.v.), die de meldingen van vermoedens van witwassen en terrorismefinanciering ontvangt, analyseert en — bij voldoende ernstige aanwijzingen — overmaakt aan het federaal parket of de procureur des Konings.
 
 _Bron: Wet 18 september 2017 art. 76 e.v._
+
 
 
 ## Bouwstenen
@@ -90,11 +91,14 @@ _Grondslag: Wet 18 september 2017 art. 55_
 ## Valkuilen
 
 > [!warning]- Verwarring met de FSMA: de FSMA doet markttoezicht (beursgenoteerden, financiële sector), de CFI doet antiwitwas
-> ⚠️ Verwarring met de FSMA: de FSMA doet markttoezicht (beursgenoteerden, financiële sector), de CFI doet antiwitwas. Een vermoedensmelding gaat NOOIT naar de FSMA. 🤖
+> ⚠️ Verwarring met de FSMA: de FSMA doet markttoezicht (beursgenoteerden, financiële sector), de CFI doet antiwitwas. Een vermoedensmelding gaat NOOIT naar de FSMA. 🔗
 
 
 > [!warning]- Denken dat de CFI sancties oplegt aan de melder bij wanmelding
-> ⚠️ Denken dat de CFI sancties oplegt aan de melder bij wanmelding. De CFI sanctioneert niet rechtstreeks; tuchtsancties tegen de accountant komen van het ITAA, niet van de CFI. 🤖
+> ⚠️ Denken dat de CFI sancties oplegt aan de melder bij wanmelding. De CFI sanctioneert niet rechtstreeks; tuchtsancties tegen de accountant komen van het ITAA, niet van de CFI. 🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[antiwitwasmeldingsplicht-accountant]]

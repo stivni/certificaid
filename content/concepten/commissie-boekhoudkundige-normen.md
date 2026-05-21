@@ -14,7 +14,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/commissie-boekhoudkundige-normen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Commissie voor Boekhoudkundige Normen (CBN) ⚖️
 
@@ -26,6 +26,7 @@ De CBN is de federale adviescommissie die het Belgisch boekhoudrecht **doctrinai
 De CBN is een federale adviescommissie die het Belgisch boekhoudrecht doctrinaire toelichting geeft. Ze publiceert adviezen over de toepassing van de boekhoudwetten op concrete vraagstukken. De Commissie is in 1975 opgericht en heeft een wettelijke opdracht — maar haar adviezen binden de adressaten niet.
 
 _Bron: CBN-advies 14/1 — Adviesbevoegdheid_
+
 
 
 ## Bouwstenen
@@ -60,7 +61,7 @@ _Grondslag: CBN-advies 14/1_
 <h3 id="hoe-vind-je-een-cbn-advies">Hoe vind je een CBN-advies?</h3>
 
 > [!tip]- Hoe vind je een CBN-advies?
-> Adviezen staan op de website van de CBN (cnc-cbn.be), chronologisch genummerd per jaar. Voor de stagiair: zoek op trefwoord (bv. 'voorzichtigheid', 'fusie', 'leasing') om relevante adviezen te vinden. 🤖
+> Adviezen staan op de website van de CBN (cnc-cbn.be), chronologisch genummerd per jaar. Voor de stagiair: zoek op trefwoord (bv. 'voorzichtigheid', 'fusie', 'leasing') om relevante adviezen te vinden. 🔗
 
 > [!tip]- Herkennen op het examen
 > Een examenvraag verwijst soms naar 'CBN-advies 20XX/YY' — dat is de officiële verwijzing.

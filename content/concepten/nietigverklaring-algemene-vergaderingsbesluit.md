@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/nietigverklaring-algemene-vergaderingsbesluit.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Nietigverklaring van een algemene-vergaderingsbesluit 🤖
+# Nietigverklaring van een algemene-vergaderingsbesluit 🔗
 
 De algemene vergadering is soeverein binnen haar bevoegdheden, maar haar besluiten zijn vernietigbaar wanneer zij **formele gebreken** vertonen (oproeping, quorum, meerderheid) of wanneer zij **inhoudelijk misbruik maken van de meerderheid**. De WVV bundelt de nietigheidsgronden in art. 2:42 e.v. — een vaak overzicht-vergeten figuur die in conflicten een snelle remedie kan bieden vóór zwaardere instrumenten worden ingezet.
 
@@ -26,6 +26,7 @@ De algemene vergadering is soeverein binnen haar bevoegdheden, maar haar besluit
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 Een besluit van de algemene vergadering is **nietig of vernietigbaar** wanneer (i) de oproepings-, agenda-, quorum- of meerderheidsregels werden geschonden, (ii) de stemming aangetast is door bedrog of een ernstige procedure-onregelmatigheid die het resultaat heeft kunnen beïnvloeden, of (iii) het besluit **misbruik van meerderheid** uitmaakt — d.w.z. uitsluitend werd genomen om de minderheid te benadelen zonder redelijk vennootschapsbelang.
+
 
 
 ## In de praktijk
@@ -41,11 +42,11 @@ Een besluit van de algemene vergadering is **nietig of vernietigbaar** wanneer (
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -56,5 +57,5 @@ Een besluit van de algemene vergadering is **nietig of vernietigbaar** wanneer (
 
 ## Voorbeelden
 
-Tobias De Smet (65% in Brugse Brouwerij BV) laat de AV beslissen om jaarlijks € 200.000 bestuurdersvergoeding aan zichzelf toe te kennen en geen dividend uit te keren, terwijl de vennootschap winstgevend is. Famke Vermeulen (35%) vordert nietigverklaring wegens misbruik van meerderheid en krijgt gelijk: het besluit ontneemt haar elk economisch voordeel uit haar aandeelhouderschap zonder dat een redelijk vennootschapsbelang dit rechtvaardigt. 🤖
+Tobias De Smet (65% in Brugse Brouwerij BV) laat de AV beslissen om jaarlijks € 200.000 bestuurdersvergoeding aan zichzelf toe te kennen en geen dividend uit te keren, terwijl de vennootschap winstgevend is. Famke Vermeulen (35%) vordert nietigverklaring wegens misbruik van meerderheid en krijgt gelijk: het besluit ontneemt haar elk economisch voordeel uit haar aandeelhouderschap zonder dat een redelijk vennootschapsbelang dit rechtvaardigt. 🔗
 

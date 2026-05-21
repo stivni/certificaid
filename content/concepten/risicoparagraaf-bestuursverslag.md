@@ -17,7 +17,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/risicoparagraaf-bestuursverslag.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Risicoparagraaf in het bestuursverslag ⚖️
 
@@ -31,6 +31,7 @@ WVV-verplichte rubriek in het bestuursverslag waarin het bestuursorgaan de voorn
 Het bestuursverslag bevat een beschrijving van de voornaamste risico's en onzekerheden waarmee de onderneming geconfronteerd wordt, met inbegrip van de doelstellingen en het beleid inzake het beheer van financiële risico's (prijsrisico, kredietrisico, liquiditeitsrisico en kasstroomrisico) en het hedge-accountingbeleid.
 
 _Bron: Richtlijn 2013/34/EU art. 19, lid 1 + lid 2, e)_
+
 
 
 ## Bouwstenen
@@ -65,7 +66,7 @@ _Grondslag: Richtlijn 2013/34/EU art. 19, lid 2, e), i)_
 <h3 id="1.3.I.E">Vaak waar de analist het verschil maakt</h3>
 
 > [!tip]- Vaak waar de analist het verschil maakt
-> Cijferanalyse alleen mist toekomstgerichte risico's. De risicoparagraaf is de plaats waar de analist vooruitzichten en bedreigingen vindt — vaak doorslaggevend voor een kredietbeslissing of investeringsadvies. 🤖
+> Cijferanalyse alleen mist toekomstgerichte risico's. De risicoparagraaf is de plaats waar de analist vooruitzichten en bedreigingen vindt — vaak doorslaggevend voor een kredietbeslissing of investeringsadvies. 🔗
 
 
 ## Valkuilen
@@ -77,6 +78,9 @@ _Grondslag: Richtlijn 2013/34/EU art. 19, lid 2, e), i)_
 
 
 
+## Zie ook
+
+- **Triggert** (1): [[falen-van-de-onderneming]]
 ## Bronnen
 
 [^1]: `Richtlijn-2013-34-EU__art_19__sub_lid1-lid2`

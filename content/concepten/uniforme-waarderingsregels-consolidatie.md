@@ -16,7 +16,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uniforme-waarderingsregels-consolidatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Uniforme waarderingsregels in de consolidatie ⚖️
 
@@ -30,6 +30,7 @@ Een coherentie-beginsel in het Belgische boekhoudrecht-consolidatieregime (KB WV
 Voor haar geconsolideerde jaarrekening past de moeder dezelfde waarderingsregels toe als voor haar enkelvoudige jaarrekening (onverminderd KB WVV art. 3:118). In uitzonderingsgevallen mag je afwijken, op voorwaarde dat de gehanteerde regels nog steeds met het wettelijk kader stroken; afwijkingen motiveer je in de toelichting. De waarderingsregels moeten van jaar tot jaar identiek blijven en stelselmatig worden toegepast.
 
 _Bron: KB WVV art. 3:116 jo. art. 3:117_
+
 
 
 > [!info] Uitzondering op: [[geconsolideerde-jaarrekening]]

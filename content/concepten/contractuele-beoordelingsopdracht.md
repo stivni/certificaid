@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/contractuele-beoordelingsopdracht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Contractuele beoordelingsopdracht ⚖️
 
@@ -27,6 +27,7 @@ Een contractuele beoordelingsopdracht (review) is een lichtere variant van de co
 Een contractuele beoordelingsopdracht (ook 'review' of 'beperkt nazicht') is een assurance-opdracht waarbij de beroepsbeoefenaar een beperkte mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie. Hij formuleert een conclusie in negatieve vorm: 'er zijn ons geen aanwijzingen gebleken dat ...'.
 
 _Bron: ITAA KMO-controlenorm §2_
+
 
 
 ## Bouwstenen

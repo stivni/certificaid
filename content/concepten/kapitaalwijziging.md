@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kapitaalwijziging.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Kapitaalwijziging (verhoging en vermindering) ⚖️
 
@@ -25,9 +25,12 @@ Het paraplu-regime voor elke wijziging aan het wettelijke vermogensanker — ver
 
 > [!info] Behoort tot: [[eigen-middelen]]
 
+> [!info] Specialisaties (4): [[kapitaalverhoging-bv]] · [[kapitaalverhoging-nv]] · [[kapitaalvermindering-nv]] · [[nettoactieftest]]
+
 Een **wijziging van het maatschappelijk kapitaal** (NV) of de **eigen vermogensinbreng** (BV). Twee richtingen: (1) **kapitaalverhoging** — door inbreng in geld, in natura, of door incorporatie van reserves/uitgiftepremies, (2) **kapitaalvermindering** — door werkelijke terugbetaling aan aandeelhouders of door verliesaanzuivering. Boekhoudkundig: aanpassing rekening 100 'Geplaatst kapitaal' (of 'Eigen vermogensinbreng'). Beide vereisen statutenwijziging (notariële akte) en hebben beschermingsregels voor schuldeisers.
 
 _Bron: WVV art. 7:177 — 7:218 (NV); 5:120 — 5:154 (BV)_
+
 
 
 ## In de praktijk
@@ -127,7 +130,7 @@ Een kapitaalvermindering met werkelijke terugbetaling moet eerst gepubliceerd wo
 ## Zie ook
 
 - **Getriggerd door**: [[uitgiftepremie]]
-
+- **Triggert** (1): [[eigen-aandelen]]
 ## Voorbeelden
 
 Oprichtingen Oostende BV (kapitaal € 50.000) verhoogt door uitgifte van 200 nieuwe aandelen aan € 250 — totaal inbreng € 50.000 (200 × € 100 naar kapitaal, 200 × € 150 naar uitgiftepremie). Boekingen: Debet 550 Bank € 50.000 / Credit 100 Eigen vermogensinbreng € 20.000 + Credit 11 Uitgiftepremies € 30.000.

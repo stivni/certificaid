@@ -14,15 +14,16 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/gegevensgerichte-werkzaamheden.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Gegevensgerichte werkzaamheden (substantive procedures) 🤖
+# Gegevensgerichte werkzaamheden (substantive procedures) 🔗
 
 Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken. Twee soorten: detailcontroles (transactiestromen, rekeningsaldi, toelichtingen) en gegevensgerichte cijferanalyses.
 
 > [!info] Behoort tot: [[assurance-informatie]]
 
 > [!info] Bestaat uit (1): [[cijferanalyses-audit]]
+
 
 
 ## Bouwstenen

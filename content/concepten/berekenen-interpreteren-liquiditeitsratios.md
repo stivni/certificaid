@@ -15,11 +15,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/berekenen-interpreteren-liquiditeitsratios.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Berekenen en interpreteren van de liquiditeitsratio's 🤖
+# Berekenen en interpreteren van de liquiditeitsratio's 🔗
 
 Competentie om vanuit de analytische balans de liquiditeitsratio's (current, quick, cash) te berekenen en in evolutie en sectorvergelijking te interpreteren. De stagiair leert dat één ratio nooit volstaat — current + quick moeten samen gelezen worden.
+
 
 
 ## Stappen

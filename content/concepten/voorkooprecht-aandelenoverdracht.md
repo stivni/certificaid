@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorkooprecht-aandelenoverdracht.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Voorkooprecht bij aandelenoverdracht ⚖️
 
@@ -29,6 +29,7 @@ Het **voorkooprecht bij overdracht** is een van de twee Belgische 'preemption ri
 Een **clausule** (statutair of in een aandeelhoudersovereenkomst) die bepaalt dat een aandeelhouder, vooraleer hij zijn aandelen aan een **derde** mag verkopen, deze **eerst moet aanbieden** aan de **andere aandeelhouders** — **tegen dezelfde voorwaarden** als het externe bod (of tegen een vooraf overeengekomen formule). Pas als zij niet binnen de termijn opteren, is de verkoop aan de derde toegestaan.
 
 _Bron: WVV art. 7:78 § 1, vierde lid; IBA SHA-Guide 2024 §8_
+
 
 
 ## In de praktijk
@@ -57,7 +58,7 @@ _Bron: WVV art. 7:78 § 1, vierde lid; IBA SHA-Guide 2024 §8_
 
 ## Voorbeelden
 
-Cardinal Group NV ontvangt een bod van Energiehuis Evergem BV op haar 50% in Constructies Cattoir BV voor € 1.200.000. Het voorkooprecht in de SHA verplicht Cardinal om dit bod eerst aan Aurelia Holding NV (mede-aandeelhouder) aan te bieden. Aurelia heeft 60 dagen om voor € 1.200.000 aan dezelfde voorwaarden over te nemen. Doet ze dat niet → verkoop aan Energiehuis Evergem BV staat vrij. _(Cardinal Group NV, Energiehuis Evergem BV, Constructies Cattoir BV, Aurelia Holding NV)_ 🤖
+Cardinal Group NV ontvangt een bod van Energiehuis Evergem BV op haar 50% in Constructies Cattoir BV voor € 1.200.000. Het voorkooprecht in de SHA verplicht Cardinal om dit bod eerst aan Aurelia Holding NV (mede-aandeelhouder) aan te bieden. Aurelia heeft 60 dagen om voor € 1.200.000 aan dezelfde voorwaarden over te nemen. Doet ze dat niet → verkoop aan Energiehuis Evergem BV staat vrij. _(Cardinal Group NV, Energiehuis Evergem BV, Constructies Cattoir BV, Aurelia Holding NV)_ 🔗
 
 ## Bronnen
 

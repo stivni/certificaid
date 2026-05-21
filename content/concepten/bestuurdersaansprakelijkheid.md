@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuurdersaansprakelijkheid.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bestuurdersaansprakelijkheid ⚖️
 
@@ -31,9 +31,10 @@ Bestuurdersaansprakelijkheid is het spiegelbeeld van de **beperkte aansprakelijk
 _Bron: WVV art. 2:51, 2:56-2:58 — Boek XX WER_
 
 
+
 ## Bouwstenen
 
-### Drie aansprakelijkheidsporen 🤖
+### Drie aansprakelijkheidsporen 🔗
 
 Een bestuurder kan op **drie sporen** worden aangesproken: (a) **contractueel** jegens de vennootschap voor schending van het mandaat (art. 2:51 WVV — behoorlijke vervulling van de opdracht); (b) **buitencontractueel** jegens derden voor fouten die schade berokkenen aan iemand buiten het mandaat (art. 1382 BW oud / art. 6.5 Boek 6 BW); (c) **specifieke WVV/WER-regimes** voor afgebakende situaties (oprichtersfout, onrechtmatige uitkering, sociale schulden bij faillissement).
 
@@ -56,7 +57,7 @@ Wanneer een raad van bestuur of een bestuursorgaan **collegiaal** beslist, zijn 
 
 _Grondslag: WVV art. 2:51, art. 5:78, 6:66, 7:122_
 
-### Marginale toetsing (business judgment) 🤖
+### Marginale toetsing (business judgment) 🔗
 
 Een bestuurder begaat geen fout wanneer zijn beslissing **binnen de redelijke marge** valt die een normaal voorzichtig en zorgvuldig bestuurder in dezelfde omstandigheden zou hebben genomen. De rechter toetst **marginaal**: hij beoordeelt niet de wijsheid van de keuze achteraf, maar of geen kennelijk onredelijke beslissing werd genomen op basis van de op dat moment beschikbare informatie.
 
@@ -95,18 +96,18 @@ _Grondslag: WER art. XX.225-XX.226; WIB92 art. 442quater_
 <h3 id="volgorde-van-toetsing-in-een-dossier">Volgorde van toetsing in een dossier</h3>
 
 > [!tip]- Volgorde van toetsing in een dossier
-> Bij een schadeclaim onderzoekt de accountant achtereenvolgens: (1) Welke spoor? Vennootschapsvordering, derdenvordering of specifiek regime? (2) Welk regime? Mandaatfout (2:51), specifieke uitkeringsfout (5:144/6:117/7:228), of insolventie-regime (XX.225-227 WER)? (3) Schade en oorzakelijk verband? (4) Welke schilden? Marginale toetsing, melding van dissent, cap, kwijting, D&O-verzekering? 🤖
+> Bij een schadeclaim onderzoekt de accountant achtereenvolgens: (1) Welke spoor? Vennootschapsvordering, derdenvordering of specifiek regime? (2) Welk regime? Mandaatfout (2:51), specifieke uitkeringsfout (5:144/6:117/7:228), of insolventie-regime (XX.225-227 WER)? (3) Schade en oorzakelijk verband? (4) Welke schilden? Marginale toetsing, melding van dissent, cap, kwijting, D&O-verzekering? 🔗
 
 <h3 id="rol-van-de-gecertificeerd-accountant">Rol van de gecertificeerd accountant</h3>
 
 > [!tip]- Rol van de gecertificeerd accountant
-> De accountant adviseert het bestuursorgaan **preventief** bij gevoelige besluiten (nettoactieftest, liquiditeitstest, financieel plan bij oprichting). Hij waarschuwt voor aansprakelijkheidsrisico's en eist dat de **substantiering** (cijfermateriaal, ratio-toets, business plan) in de notulen wordt vastgelegd — dat is later het **bewijsmateriaal** dat de bestuurder zich op redelijke gronden heeft gebaseerd. 🤖
+> De accountant adviseert het bestuursorgaan **preventief** bij gevoelige besluiten (nettoactieftest, liquiditeitstest, financieel plan bij oprichting). Hij waarschuwt voor aansprakelijkheidsrisico's en eist dat de **substantiering** (cijfermateriaal, ratio-toets, business plan) in de notulen wordt vastgelegd — dat is later het **bewijsmateriaal** dat de bestuurder zich op redelijke gronden heeft gebaseerd. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Begrijp dat 'kwijting verleend' **niet** betekent: 'aansprakelijkheid uitgesloten'. Kwijting dooft enkel de vordering van de **vennootschap zelf** — schuldeisers, de fiscus, de RSZ en derden behouden hun vorderingsrechten.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- De **cap** van art. 2:56 is **niet** vorm-onafhankelijk een vast bedrag — hij is gekoppeld aan balanstotaal en omzet, en hij geldt **niet** bij opzet, bedrog, zware fout of bij de specifieke sociale-/fiscale-schulden-aansprakelijkheid.
@@ -123,7 +124,7 @@ _Grondslag: WER art. XX.225-XX.226; WIB92 art. 442quater_
 - **Vereist kennis van**: [[]]
 - **Vereist kennis van**: [[]]
 - **Getriggerd door**: [[]]
-
+- **Wordt voorondersteld in** (2): [[minderheidsvordering]] · [[vennootschapsvordering]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

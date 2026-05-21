@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kwijting-bestuurder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Kwijting van de bestuurder (decharge) ⚖️
 
@@ -28,6 +28,7 @@ Kwijting is **één van de drie schilden** rond de bestuurdersaansprakelijkheid 
 _Bron: WVV art. 7:149 (NV); vergelijkbaar voor BV/CV_
 
 
+
 ## In de praktijk
 
 <h3 id="voorwaarden-voor-geldigheid">Voorwaarden voor geldigheid</h3>
@@ -38,12 +39,12 @@ _Bron: WVV art. 7:149 (NV); vergelijkbaar voor BV/CV_
 <h3 id="reikwijdte-enkel-vennootschapsvordering">Reikwijdte: enkel vennootschapsvordering</h3>
 
 > [!tip]- Reikwijdte: enkel vennootschapsvordering
-> De kwijting dooft enkel de vordering van de **vennootschap zelf** — schuldeisers, individuele aandeelhouders die persoonlijk schade lijden, de RSZ, de fiscus en andere derden behouden hun eigen vorderingsrechten **onverkort**. 🤖
+> De kwijting dooft enkel de vordering van de **vennootschap zelf** — schuldeisers, individuele aandeelhouders die persoonlijk schade lijden, de RSZ, de fiscus en andere derden behouden hun eigen vorderingsrechten **onverkort**. 🔗
 
 <h3 id="effect-op-insolventie-aansprakelijkheid">Effect op insolventie-aansprakelijkheid</h3>
 
 > [!tip]- Effect op insolventie-aansprakelijkheid
-> Kwijting heeft **geen effect** op de specifieke insolventie-aansprakelijkheden (XX.225-XX.227 WER, art. 442quater WIB92) — die zijn vorderingen jegens **derden** (curator namens de boedel, RSZ, fiscus). 🤖
+> Kwijting heeft **geen effect** op de specifieke insolventie-aansprakelijkheden (XX.225-XX.227 WER, art. 442quater WIB92) — die zijn vorderingen jegens **derden** (curator namens de boedel, RSZ, fiscus). 🔗
 
 <h3 id="kwijting-bij-mandaatswissel">Kwijting bij mandaatswissel</h3>
 
@@ -54,7 +55,7 @@ _Bron: WVV art. 7:149 (NV); vergelijkbaar voor BV/CV_
 ## Valkuilen
 
 > [!warning]- Kwijting is **geen bevrijdende verklaring** in de strikte zin — zij is een afstand van de vennootschapsvordering met beperkte reikwijdte. Bij twijfel: lees ze als 'de vennootschap zal mij niet meer aanspreken voor het beheer over 20XX', niet als 'ik ben beschermd'.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Begrijp dat de kwijting **ongeldig** kan worden verklaard wanneer de jaarrekening onjuist of onvolledig was — dat is een typische verweerstrategie van de curator in bestuurdersaansprakelijkheidsprocedures.
@@ -70,10 +71,10 @@ _Bron: WVV art. 7:149 (NV); vergelijkbaar voor BV/CV_
 
 - **Vereist kennis van**: [[]]
 - **Vereist kennis van**: [[]]
-
+- **Wordt voorondersteld in** (3): [[gewone-algemene-vergadering]] · [[minderheidsvordering]] · [[vennootschapsvordering]]
 ## Voorbeelden
 
-**Brugse Brouwerij BV** verleent op de jaarvergadering van mei 20X2 kwijting aan bestuurder **Marleen De Cock** voor het boekjaar 20X1. In juni 20X2 wordt de BV failliet verklaard. De curator stelt vast dat Marleen in september 20X1 onrechtmatig een dividend heeft laten uitkeren. **De kwijting beschermt Marleen niet** — de curator vordert namens de boedel, niet namens de vennootschap, en de schuldeisers die door de uitkering benadeeld zijn behouden hun derdenvordering. _(Brugse Brouwerij BV, Marleen De Cock)_ 🤖
+**Brugse Brouwerij BV** verleent op de jaarvergadering van mei 20X2 kwijting aan bestuurder **Marleen De Cock** voor het boekjaar 20X1. In juni 20X2 wordt de BV failliet verklaard. De curator stelt vast dat Marleen in september 20X1 onrechtmatig een dividend heeft laten uitkeren. **De kwijting beschermt Marleen niet** — de curator vordert namens de boedel, niet namens de vennootschap, en de schuldeisers die door de uitkering benadeeld zijn behouden hun derdenvordering. _(Brugse Brouwerij BV, Marleen De Cock)_ 🔗
 
 ## Bronnen
 

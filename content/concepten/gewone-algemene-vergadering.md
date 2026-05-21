@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gewone-algemene-vergadering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Gewone algemene vergadering (jaarvergadering) ⚖️
 
@@ -28,6 +28,7 @@ De gewone algemene vergadering is de jaarlijkse zitting waar de aandeelhouders d
 De gewone algemene vergadering is de jaarlijkse vergadering die het WVV verplicht voorschrijft. Zij behandelt minstens de jaarrekening en stemt afzonderlijk over (a) de goedkeuring van die jaarrekening en (b) de kwijting van bestuurders en, in voorkomend geval, van de commissaris. Andere agendapunten binnen haar gewone bevoegdheid kunnen mee worden behandeld (bv. bestemming van het resultaat, herbenoemingen, bezoldigingen).
 
 _Bron: WVV art. 5:96 (BV), 6:81 (CV), 7:147 (NV)_
+
 
 
 ## Bouwstenen
@@ -69,11 +70,11 @@ _Grondslag: WVV art. 5:99 (BV), 6:84 (CV), 7:150 (NV)_
 ## Valkuilen
 
 > [!warning]- Plan de AV-datum niet later dan zes maanden na boekjaareinde — de jaarrekening moet binnen die termijn worden goedgekeurd én neergelegd.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Schrap kwijting niet als 'formaliteit'. Bij latere aansprakelijkheidsbetwistingen is een geldige kwijting een sterke verweerlijn voor de bestuurder.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

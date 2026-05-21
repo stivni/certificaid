@@ -1,0 +1,921 @@
+{
+  "id": "dbi-aftrek",
+  "naam": "DBI-aftrek (Definitief Belaste Inkomsten — art. 202-205 WIB92)",
+  "node_type": "fiscale-regeling",
+  "schema_version": "2.0",
+  "status": "seed",
+  "primary_po": "2.3",
+  "linked_anchors": [
+    "2.3.II.B",
+    "2.3.II.F",
+    "2.3.taak.3",
+    "2.8.XV"
+  ],
+  "dekt_tdks": [
+    "2.3.II.B",
+    "2.3.II.F",
+    "2.8.XV",
+    "2.8.XVII"
+  ],
+  "cross_po": true,
+  "_provenance": {
+    "extractor_run": "concept-extractie-v5-2026-05-21T06:20:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "2.3.II.F",
+    "linked_anchors": [
+      "2.3.II.B",
+      "2.3.II.F",
+      "2.3.taak.3",
+      "2.8.XV"
+    ],
+    "reviewed_by": null,
+    "wave_id": "wave-0a-pilot-20260521"
+  },
+  "definitie": {
+    "text": "**Definitief Belaste Inkomsten** (DBI) is de Belgische vennootschapsbelasting-techniek waarmee een vennootschap die dividenden ontvangt van een dochter-vennootschap die zelf al normaal werd belast, deze dividenden voor **100%** uit haar belastbare basis mag aftrekken — mits drie cumulatieve voorwaarden vervuld zijn (deelnemingsdrempel + aanhoudtermijn + taxatievoorwaarde). Doel: **economische dubbele belasting** op dezelfde vennootschapswinst voorkomen wanneer ze door een keten van vennootschappen reist.",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WIB92 art. 202-205"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WIB92__art_202__sub_1deg-3deg",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WIB92__art_203__sub_1deg-6deg",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "wat_er_economisch_echt_gebeurt": {
+    "text": "Een vennootschapswinst wordt **één keer** belast: bij de dochter. Wanneer die dochter haar netto-winst als dividend uitkeert aan haar moedervennootschap, zou diezelfde winst zonder DBI **een tweede keer** belast worden bij de moeder (dividend = belastbaar bestanddeel art. 24 WIB92). De DBI-aftrek herstelt dit door het ontvangen dividend in eerste orde uit de belastbare grondslag te lichten — *na* gewone aftrek beroepskosten, *vóór* overgedragen verliezen.\n\nEconomisch is DBI géén vrijstelling van het dividend zelf — het is een **technische aftrek** uit de belastbare winst, in een wettelijk vastgelegde volgorde (art. 207 WIB92). Als de winst van het belastbaar tijdperk onvoldoende is om de aftrek volledig op te slorpen, kan het overschot **overgedragen** worden naar volgende belastbare tijdperken (sinds wet 25 dec 2017). Dit lost het oude probleem op dat DBI in een verliesjaar verloren ging.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WIB92__art_202__sub_1deg-3deg",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WIB92__art_205",
+          "version": "rag-v1"
+        },
+        {
+          "id": "WIB92__art_207",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      "vennootschapsbelasting-kader",
+      "belastbare-grondslag-vennootschapsbelasting"
+    ],
+    "kader": "vennootschapsbelasting-kader",
+    "naast_relevant": [
+      "vvprbis",
+      "liquidatiereserve",
+      "moedervennootschap",
+      "dochteronderneming"
+    ],
+    "volgkennis": [
+      "meerwaarde-aandelen-venb",
+      "verworpen-uitgaven"
+    ]
+  },
+  "wanneer_van_toepassing": {
+    "introductie": "DBI is geen keuze maar een **automatisch werkend regime**: zodra een vennootschap-aandeelhouder een dividend ontvangt en de drie cumulatieve voorwaarden vervuld zijn, is de aftrek van toepassing. De accountant moet dus per dividend-ontvangst de voorwaarden **toetsen** — niet de regeling 'kiezen'.",
+    "voor_wie": {
+      "text": "Elke **binnenlandse vennootschap** die onderworpen is aan de vennootschapsbelasting en die dividenden ontvangt van een andere vennootschap. Typisch:\n- **Holdingvennootschappen** die deelnemingen aanhouden in operationele dochters.\n- **Operationele vennootschappen** met een minderheidsparticipatie in een joint-venture of leverancier/klant.\n- **Familiale moedervennootschappen** in een KMO-groepstructuur.",
+      "confidence": "vuistregel"
+    },
+    "wanneer_wel": [
+      {
+        "regel": "Dividend van een **binnenlandse dochter** die zelf vennootschapsbelasting betaalt — taxatievoorwaarde automatisch vervuld.",
+        "rationale": "De Belgische dochter is by-definition onderworpen aan VenB tegen het gemene tarief — art. 203 §1 1° vereist enkel uitsluiting van niet-belaste of gunstig-belaste vennootschappen.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_203__sub_1deg-6deg",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      },
+      {
+        "regel": "Dividend van een **EU-dochter** waarvan de moeder ≥ 10 % bezit gedurende ≥ 1 jaar.",
+        "rationale": "De moeder-dochterrichtlijn 2011/96/EU verplicht België als lidstaat van de moeder om de dubbele belasting weg te nemen (vrijstellings- of credit-methode) — België koos vrijstelling via art. 202-205 WIB92.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "EU-Richtlijn-moeder-dochter-2011-96__art_4",
+              "version": "rag-v1"
+            },
+            {
+              "id": "EU-Richtlijn-moeder-dochter-2011-96__art_3",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      },
+      {
+        "regel": "Dividend van een **niet-EU-dochter** uit een verdragsland zonder gunstig regime, met deelnemingsdrempel + aanhoudtermijn vervuld.",
+        "rationale": "Buiten EU geldt geen richtlijn-verplichting, maar art. 202-203 WIB92 maken geen onderscheid naar herkomst zolang de taxatievoorwaarde vervuld is.",
+        "confidence": "inferred"
+      }
+    ],
+    "wanneer_niet": [
+      {
+        "regel": "Dochter is gevestigd in een **belastingparadijs** of een land met **aanzienlijk gunstigere** gemeenrechtelijke belasting (nominaal tarief < 15 % of effectief gemiddeld tarief < 15 %).",
+        "rationale": "Art. 203 §1 1° sluit dit expliciet uit; ratio: DBI mag geen kanaal worden voor witwas-via-laag-belast-buitenland.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_203__sub_1deg-6deg",
+              "version": "rag-v1"
+            },
+            {
+              "id": "WIB92__art_203__sub_7deg-1deg",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      },
+      {
+        "regel": "Dochter staat op de **EU-lijst van niet-coöperatieve rechtsgebieden** op einde belastbaar tijdperk.",
+        "rationale": "Sinds 2018 expliciet toegevoegd aan art. 203 §1 1° — automatische uitsluiting.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_203__sub_1deg-6deg",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      },
+      {
+        "regel": "Dividend afkomstig van een **kunstmatige rechtshandeling** waarvan een hoofddoel was de DBI of de moeder-dochter-richtlijn-voordelen te bekomen.",
+        "rationale": "Art. 203 §1 7° + algemene anti-misbruik-bepaling — sluit DBI uit bij structuren zonder economische substantie.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_203__sub_7deg-1deg",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      },
+      {
+        "regel": "Dividend uit een **inrichting in het buitenland** waarvan de winst krachtens een dubbelbelasting-verdrag is vrijgesteld.",
+        "rationale": "Art. 205 §1 — DBI niet bovenop bestaande vrijstelling stapelen.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_205",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      }
+    ],
+    "hoofdrisico": {
+      "text": "**Verlies van de aftrek door een gemiste voorwaarde** — typisch: de aandelen worden verkocht **vóór** het verstrijken van de éénjaars-aanhoudtermijn, of de moeder krijgt het dividend uitgekeerd terwijl ze haar 10%-deelneming net heeft afgebouwd. Gevolg: het hele dividend valt terug in de belastbare grondslag — een tarief-impact van **25 %** op het bruto-dividend.",
+      "confidence": "vuistregel"
+    },
+    "hoofdvoordeel": {
+      "text": "**Volledige neutralisatie van de dubbele belasting** binnen een groepsstructuur — winst kan zonder fiscale erosie van dochter naar moeder doorvloeien, wat **kapitaal-allocatie** en **dividend-cascade** in een holdingstructuur economisch viable maakt.",
+      "confidence": "vuistregel"
+    }
+  },
+  "hoe_het_werkt": {
+    "intro": "De DBI-aftrek werkt in twee tijden: (1) bepaal het **aftrekbare bedrag** (art. 202 + 204), (2) trek het af van de winst volgens de wettelijke **volgorde** (art. 207). De toets aan de drie voorwaarden gebeurt **per dividend** (per uitkering) — niet per boekjaar.",
+    "onderdelen": [
+      {
+        "element_id": "aftrekpercentage-100-procent",
+        "inhoud_type": "regel",
+        "titel": "Aftrekpercentage: 100 %",
+        "beschrijving": "Sinds wet van 25 december 2017 (aanslagjaar 2019) bedraagt het DBI-aftrekpercentage **100 %** van het bruto-dividend (vroeger 95 %). Vóór die hervorming bleef 5 % van het dividend belastbaar — die 'restbelasting' is nu volledig weggewerkt.",
+        "confidence": "vuistregel",
+        "weergaven": [
+          {
+            "type": "proza",
+            "text": "100 % aftrek = volledige neutralisatie binnen de moeder. Dit aligneert België met de meeste EU-lidstaten die ook 100 % toepassen onder de moeder-dochter-richtlijn."
+          }
+        ]
+      },
+      {
+        "element_id": "voorwaarde-1-deelnemingsdrempel",
+        "inhoud_type": "voorwaarde",
+        "titel": "Voorwaarde 1 — Deelnemingsdrempel (art. 202 §2 1°)",
+        "beschrijving": "De moeder bezit op datum van toekenning/betaalbaarstelling van het dividend ofwel **≥ 10 %** van het kapitaal van de uitkerende vennootschap, ofwel een deelneming met een **aanschaffingswaarde ≥ 2 500 000 EUR**. De twee criteria zijn alternatief — één volstaat.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WIB92 art. 202 §2 1° (drempel uit art. 264/1 §1)"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_202__sub_1deg-3deg",
+              "version": "rag-v1"
+            },
+            {
+              "id": "WIB92__art_264/1",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "tabel": {
+              "kolommen": [
+                "Criterium",
+                "Drempel",
+                "Toepassingsmoment"
+              ],
+              "rijen": [
+                [
+                  "Kapitaalpercentage",
+                  "≥ 10 %",
+                  "datum toekenning/betaalbaarstelling dividend"
+                ],
+                [
+                  "Aanschaffingswaarde",
+                  "≥ 2 500 000 EUR",
+                  "datum toekenning/betaalbaarstelling dividend"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "element_id": "voorwaarde-2-aanhoudtermijn",
+        "inhoud_type": "voorwaarde",
+        "titel": "Voorwaarde 2 — Aanhoudtermijn 1 jaar in volle eigendom",
+        "beschrijving": "De aandelen worden of werden gedurende een **ononderbroken periode van ten minste één jaar** in **volle eigendom** behouden — én ze hebben de **aard van financiële vaste activa**. De termijn mag vóór of na de uitkering vol lopen (wettelijk: 'worden of werden behouden'), maar de aftrek wordt pas definitief wanneer de éénjaars-termijn vervuld is.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WIB92 art. 202 §2 2°"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "Wet-voorafgaande-beslissingen-2002__art_9",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "text": "**Volle eigendom** = niet enkel naakte eigendom of vruchtgebruik. Bij splitsing van eigendomsrechten (bv. successieplanning) kan de DBI verloren gaan voor de vruchtgebruiker. **Financiële vaste activa** = boekhoudkundige rubriek 28 — dwz aandelen aangehouden met intentie van duurzame band (KB WVV art. 3:89). Aandelen in geldbeleggingen (rubriek 51) kwalificeren niet."
+          }
+        ]
+      },
+      {
+        "element_id": "voorwaarde-3-taxatievoorwaarde",
+        "inhoud_type": "voorwaarde",
+        "titel": "Voorwaarde 3 — Taxatievoorwaarde (art. 203)",
+        "beschrijving": "De uitkerende vennootschap mag **niet** onder een van de uitsluitings-categorieën van art. 203 §1 vallen. Zes hoofdcategorieën:\n1. Vennootschappen niet onderworpen aan VenB of buitenlandse gelijkaardige belasting.\n2. Vennootschappen in een land met aanzienlijk gunstiger gemeenrechtelijke belasting (nominaal tarief < 15 % of effectief gemiddeld tarief < 15 %).\n3. Vennootschappen op de EU-lijst van niet-coöperatieve rechtsgebieden.\n4. Bepaalde financierings-, thesaurie- of beleggingsvennootschappen met afwijkend regime.\n5. Doorgift-vennootschappen die zelf voor het dividend geen aftrek-recht zouden hebben (anti-cascade-bepaling).\n6. Kunstmatige rechtshandelingen opgezet om DBI/richtlijnvoordeel te bekomen (anti-misbruik).",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WIB92 art. 203 §1"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_203__sub_1deg-6deg",
+              "version": "rag-v1"
+            },
+            {
+              "id": "WIB92__art_203__sub_7deg-1deg",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "vuistregel",
+            "text": "🧭 **Geen-cascade-regel**: ook wanneer alle individuele schakels op zich aan de voorwaarden voldoen, kan een dividend dat **doorheen** een uitsluitings-vennootschap is gestroomd (bv. via een tussenholding in een laag-belast land) zijn DBI-recht verliezen — art. 203 §3."
+          }
+        ]
+      },
+      {
+        "element_id": "aftrekbaar-bedrag-bruto-grossing-up",
+        "inhoud_type": "mechanisme",
+        "titel": "Aftrekbaar bedrag = bruto-dividend (art. 204)",
+        "beschrijving": "Art. 204: het aftrekbare bedrag is het **geïnde of verkregen bedrag, eventueel vermeerderd met de roerende voorheffing (RV) of fictieve RV**. Praktisch: men 'gross-up't het netto-ontvangen dividend tot het bruto-bedrag waarvan inhouding plaatsvond — die bruto-grondslag is het bedrag dat de winst in en uit gaat.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WIB92 art. 204"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_204",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tabel": {
+              "kolommen": [
+                "Stap",
+                "Bedrag"
+              ],
+              "rijen": [
+                [
+                  "Netto-dividend ontvangen",
+                  "70 000 EUR"
+                ],
+                [
+                  "RV ingehouden door dochter (30 %)",
+                  "30 000 EUR"
+                ],
+                [
+                  "Bruto-dividend (= aftrekbaar onder DBI)",
+                  "100 000 EUR"
+                ],
+                [
+                  "Belastbare grondslag-impact",
+                  "+100 000 (dividend in winst) − 100 000 (DBI-aftrek) = 0"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "element_id": "aftrekvolgorde-art-207",
+        "inhoud_type": "procedure",
+        "titel": "Volgorde van de aftrek (art. 207)",
+        "beschrijving": "DBI wordt afgetrokken in **eerste orde** uit de winst van het belastbaar tijdperk — vóór innovatie-aftrek, vóór NID, vóór overgedragen verliezen. Wettelijke volgorde (art. 207 lid 2):\n1. Aftrek art. 202-205 (DBI) — uitsluitend lopende DBI, niet overgedragen.\n2. Aftrek art. 543 (octrooi-inkomsten — uitdovend).\n3. Aftrek art. 205/1-205/4 (innovatie-inkomsten).\n4. Aftrek voor risicokapitaal (NID).\n5. Overgedragen DBI.\n6. Overgedragen verliezen.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WIB92 art. 207"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_207",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Bepaal winst van belastbaar tijdperk na art. 199 (vrijgestelde inkomsten)",
+              "Pas correcties art. 205 §2 toe (verworpen kosten + giften terugnemen voor DBI-grondslag)",
+              "Trek DBI van lopend tijdperk af (in eerste orde)",
+              "Pas vervolgens innovatie, NID, overgedragen DBI, overgedragen verliezen toe",
+              "Restant winst → VenB-tarief"
+            ]
+          }
+        ]
+      },
+      {
+        "element_id": "overdracht-dbi-overschot",
+        "inhoud_type": "regel",
+        "titel": "Overdracht DBI-overschot (sinds wet 25 dec 2017)",
+        "beschrijving": "Als de winst van het belastbaar tijdperk onvoldoende is om de DBI volledig op te slorpen, mag het **niet-gebruikte deel** worden overgedragen naar volgende belastbare tijdperken — zonder tijdslimiet. Vóór 2017 ging dit overschot definitief verloren in verliesjaren. Belangrijk om holding-structuren te beschermen tegen 'verloren' DBI in cyclische winstjaren.",
+        "confidence": "vuistregel",
+        "weergaven": [
+          {
+            "type": "proza",
+            "text": "De overdracht is geconditioneerd: enkel het deel dat niet onder de minimum-belastbare-basis ('art. 207 cap', 'Fairness Tax 2.0') valt, kan worden gebruikt."
+          }
+        ]
+      },
+      {
+        "element_id": "uitbreiding-meerwaarde-aandelen",
+        "inhoud_type": "regel",
+        "titel": "Uitbreiding naar meerwaarden op aandelen (art. 192)",
+        "beschrijving": "Art. 192 koppelt de vrijstelling van **meerwaarden op aandelen** aan de DBI-voorwaarden: een meerwaarde is volledig vrijgesteld in de mate dat de eventuele dividenden op die aandelen onder DBI zouden vallen (taxatievoorwaarde art. 203 + 10%/2,5 mio + 1 jaar volle eigendom). Eén en hetzelfde voorwaardenset bepaalt dus zowel de dividenden- als de meerwaarden-vrijstelling.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WIB92 art. 192 §1"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WIB92__art_192",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "tabel": {
+              "kolommen": [
+                "Voorwaarde",
+                "DBI-dividend (art. 202)",
+                "Meerwaarde aandelen (art. 192)"
+              ],
+              "rijen": [
+                [
+                  "Taxatievoorwaarde art. 203",
+                  "Ja",
+                  "Ja"
+                ],
+                [
+                  "Deelnemingsdrempel 10 % of 2,5 mio EUR",
+                  "Ja",
+                  "Ja"
+                ],
+                [
+                  "Aanhoudtermijn 1 jaar in volle eigendom",
+                  "Ja",
+                  "Ja"
+                ],
+                [
+                  "Aftrek-/vrijstellingspercentage",
+                  "100 %",
+                  "100 %"
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "rol_van_de_accountant": {
+    "intro": "DBI raakt drie typische perspectieven: de **ontvangende moedervennootschap** (cliënt), de **uitkerende dochter** (vaak ook cliënt of zusterdossier) en de **auditor** die de jaarrekening van de moeder of dochter controleert. Voor de aandeelhouder-natuurlijke-persoon is DBI niet rechtstreeks relevant — wel via VVPRbis en RV.",
+    "perspectieven": [
+      {
+        "perspectief_id": "ontvangende-moedervennootschap",
+        "titel": "🏢 Ontvangende moedervennootschap (cliënt)",
+        "rollen": [
+          {
+            "rol": "🎯 Adviseur",
+            "elementen": [
+              {
+                "element_id": "voorwaarden-screening-vooraf",
+                "inhoud_type": "procedure",
+                "titel": "Pre-investerings-screening van de dochter",
+                "beschrijving": "Vóór de moeder beslist om een dochter te verwerven of haar deelneming uit te breiden naar 10 %, screen de **taxatievoorwaarde**: is de dochter aan een normaal regime onderworpen? Onderzoek het fiscale woonplaats-land, het nominale en effectieve VenB-tarief, en check de EU-lijst van niet-coöperatieve rechtsgebieden.",
+                "confidence": "vuistregel",
+                "weergaven": [
+                  {
+                    "type": "stappenlijst",
+                    "stappen": [
+                      "Vraag fiscale woonplaats-attest dochter op",
+                      "Onderzoek nominaal tarief vs 15%-drempel art. 203 §1 1°",
+                      "Check EU-lijst niet-coöperatieve rechtsgebieden actuele versie",
+                      "Bij gunstig regime: documenteer afweging — DBI gaat verloren",
+                      "Adviseer eventueel rechtsvorm-aanpassing of houdststructuur-wijziging"
+                    ]
+                  }
+                ]
+              },
+              {
+                "element_id": "houdtermijn-bewaken",
+                "inhoud_type": "risico",
+                "titel": "Houdtermijn bewaken bij voorgenomen verkoop",
+                "beschrijving": "Wanneer de moeder een verkoop van haar deelneming overweegt **vóór** 1 jaar volle eigendom, waarschuw expliciet voor verlies van DBI op alle tussentijdse dividenden + verlies van art. 192-vrijstelling op de meerwaarde zelf. Reken het tarief-effect (typisch 25 %) door in de scenario-analyse.",
+                "confidence": "vuistregel"
+              }
+            ]
+          },
+          {
+            "rol": "📋 Boekhouder",
+            "elementen": [
+              {
+                "element_id": "boeking-ontvangen-dividend-met-dbi",
+                "inhoud_type": "berekening",
+                "titel": "Boekhoudkundige verwerking ontvangen dividend onder DBI",
+                "beschrijving": "Het dividend wordt boekhoudkundig **bruto** geboekt als opbrengst van financiële vaste activa (rekening 750). De RV-inhouding is een verrekenbare vordering op de fiscus (rekening 412 — terug te vorderen belastingen of 416 — diverse vorderingen). De DBI-aftrek zelf gebeurt **buiten de boekhouding** — in de fiscale aangifte (vak 'Aftrek DBI').",
+                "confidence": "inferred",
+                "weergaven": [
+                  {
+                    "type": "boeking",
+                    "moment": "Bij ontvangst dividend",
+                    "rekeningen": [
+                      {
+                        "rek": "550",
+                        "naam": "Bank",
+                        "debet": 70000
+                      },
+                      {
+                        "rek": "412",
+                        "naam": "Te verrekenen RV",
+                        "debet": 30000
+                      },
+                      {
+                        "rek": "750",
+                        "naam": "Opbrengsten financiële vaste activa",
+                        "credit": 100000
+                      }
+                    ]
+                  },
+                  {
+                    "type": "proza",
+                    "text": "⚠️ Voor moeder-dochterdividenden binnen de EU (≥ 10 % + 1 jaar) wordt geen RV ingehouden (art. 264/1 + EU-richtlijn art. 5) — netto = bruto, geen rekening 412."
+                  }
+                ]
+              },
+              {
+                "element_id": "dossier-bijhouden-financieel-vaste-activa",
+                "inhoud_type": "procedure",
+                "titel": "Documentatie 'aard financieel vast actief' bewaken",
+                "beschrijving": "Houd in het permanent fiscaal dossier per deelneming bij: aanschaffingsdatum, aanschaffingswaarde, kapitaalpercentage en intentie van duurzaam aanhouden (FVA-classificatie). Verschuiving van rubriek 28 naar rubriek 51 (geldbeleggingen) breekt de DBI-aanspraak — markeer als kritiek aandachtspunt bij heroverweging van strategische beslissingen.",
+                "confidence": "vuistregel"
+              }
+            ]
+          },
+          {
+            "rol": "📑 Fiscaal",
+            "elementen": [
+              {
+                "element_id": "aangifte-vak-dbi",
+                "inhoud_type": "procedure",
+                "titel": "Aangifte VenB — opvulling DBI-vakken",
+                "beschrijving": "In het aangifteformulier VenB wordt het bruto-dividend opgenomen in de **belastbare basis** (vak resultaat) én apart als **aftrekbaar onder DBI** (specifiek aftrekvak met onderscheid Belgische / EU / niet-EU-oorsprong). Bijlage 275-DBI documenteert per deelneming: identiteit dochter, kapitaalpercentage, aanschaffingsdatum, bruto-dividend, claim-onder-art. 202.",
+                "confidence": "vuistregel"
+              },
+              {
+                "element_id": "art-205-beperking",
+                "inhoud_type": "regel",
+                "titel": "Beperking tot winstrestant (art. 205 §2)",
+                "beschrijving": "De DBI-aftrek wordt **beperkt** tot het bedrag van de winst dat overblijft na art. 199 verminderd met o.a. niet-aftrekbare giften, bepaalde art. 53-kosten (6° tot 11°, 14°, 21° tot 24°), niet-aftrekbare interesten (art. 54-55) en aanvullende premies. Praktisch: bepaalde **verworpen uitgaven** mogen niet weggemoffeld worden via DBI.",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "wet",
+                  "short": "WIB92 art. 205 §2"
+                },
+                "_provenance": {
+                  "inputs": [
+                    {
+                      "id": "WIB92__art_205",
+                      "version": "rag-v1"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief_id": "uitkerende-dochter",
+        "titel": "🏭 Uitkerende dochter (cliënt of zusterdossier)",
+        "rollen": [
+          {
+            "rol": "📑 Fiscaal",
+            "elementen": [
+              {
+                "element_id": "rv-vrijstelling-moeder-dochter",
+                "inhoud_type": "regel",
+                "titel": "RV-vrijstelling bij uitkering aan EU-moeder (art. 264/1)",
+                "beschrijving": "Wanneer de dochter een dividend uitkeert aan een EU-moeder of een verdragslandsmoeder die ≥ 10 % deelneming aanhoudt gedurende ≥ 1 jaar, wordt **géén roerende voorheffing** ingehouden. Voorwaarden: rechtsvorm uit bijlage I-A richtlijn 2011/96/EU, fiscaal inwoner van EER of verdragsland met inlichtingenuitwisseling. Bij minder dan 10 % maar aanschaffingswaarde ≥ 2 500 000 EUR geldt een soortgelijke vrijstelling.",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "wet",
+                  "short": "WIB92 art. 264/1 §1; Richtlijn 2011/96/EU art. 5"
+                },
+                "_provenance": {
+                  "inputs": [
+                    {
+                      "id": "WIB92__art_264/1",
+                      "version": "rag-v1"
+                    },
+                    {
+                      "id": "EU-Richtlijn-moeder-dochter-2011-96__art_5",
+                      "version": "rag-v1"
+                    }
+                  ]
+                }
+              },
+              {
+                "element_id": "attest-moederstatus",
+                "inhoud_type": "procedure",
+                "titel": "Attest moederstatus opvragen vóór RV-vrijstelling",
+                "beschrijving": "De dochter moet vóór uitkering een attest van de moeder ontvangen waarin: (1) deelnemingspercentage of aanschaffingswaarde, (2) datum van verkrijging in volle eigendom, (3) fiscale woonplaats, (4) bevestiging dat de aandelen op uitkeringsdatum ≥ 1 jaar in eigendom zijn. Zonder attest = RV moet ingehouden worden, moeder kan ze later in haar VenB-aangifte terugvragen indien voorwaarden alsnog vervuld bleken.",
+                "confidence": "vuistregel"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief_id": "auditor-commissaris",
+        "titel": "🔍 Auditor / Commissaris",
+        "rollen": [
+          {
+            "rol": "🔍 Controleur",
+            "elementen": [
+              {
+                "element_id": "audit-dbi-claim",
+                "inhoud_type": "procedure",
+                "titel": "Controle DBI-claim in jaarrekening + fiscale aangifte",
+                "beschrijving": "Controleer per gekrediteerde DBI: (1) bestaan van het dividend (bankuittreksel + AV-beslissing dochter), (2) classificatie dochter als FVA (rubriek 28), (3) deelnemingsdrempel-bewijs (aandeelhoudersregister + transactie-historiek), (4) aanhoudtermijn (verwervingsdatum), (5) taxatievoorwaarde (jaarrekening dochter of attest), (6) afwezigheid van uitsluitingsgrond art. 203. Bij grensoverschrijdende dividenden: bevestig dat dochter onder bijlage I richtlijn valt of dat verdragsland met inlichtingenuitwisseling van toepassing is.",
+                "confidence": "vuistregel"
+              },
+              {
+                "element_id": "audit-fiscaal-risico",
+                "inhoud_type": "risico",
+                "titel": "Fiscaal risico bij twijfel art. 203 taxatievoorwaarde",
+                "beschrijving": "Wanneer bij grensoverschrijdende structuren onduidelijkheid bestaat over de toepassing van art. 203 (bv. bij hybride entiteiten of complexe holdingstructuren), overweeg: (a) voorziening voor uitgesteld belasting-risico, (b) toelichting in jaarrekening, (c) eventueel ruling-aanvraag bij DVB. Een achteraf afgewezen DBI leidt tot bijbelasting tegen 25 % VenB + 6,75 % belastingvermeerdering bij gebrek aan voldoende voorafbetalingen.",
+                "confidence": "vuistregel"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "veelvoorkomende_verwarringen": [
+    {
+      "verwarring": "DBI vs Moeder-dochterrichtlijn",
+      "uitleg": "De **EU-moeder-dochterrichtlijn 2011/96/EU** is een Europese richtlijn die elke EU-lidstaat verplicht om dubbele belasting weg te nemen — ze laat lidstaten kiezen tussen vrijstellings- en credit-methode. **DBI** is de Belgische uitvoering van die verplichting via aftrek-methode. De voorwaarden vallen grotendeels samen (10 % + 1 jaar), maar art. 202-203 WIB92 gaat verder: DBI geldt ook voor niet-EU-dividenden en kent eigen Belgische uitzonderingen (art. 203 §1 7° anti-misbruik).",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-Richtlijn-moeder-dochter-2011-96__art_4",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "verwarring": "DBI vs VVPRbis",
+      "uitleg": "**DBI** werkt op niveau van de **ontvangende vennootschap** (verlaagt VenB-grondslag). **VVPRbis** werkt op niveau van de **ontvangende natuurlijke persoon** (verlaagt roerende voorheffing van 30 % naar 20 %/15 %). Beide regimes raken dezelfde dividend-stroom in een typische KMO-keten (Dochter → Holding-moeder → Aandeelhouder-NP), maar grijpen op verschillende schakels in. Voor een vennootschap-aandeelhouder is VVPRbis irrelevant — DBI doet het werk al volledig.",
+      "confidence": "inferred"
+    },
+    {
+      "verwarring": "Aftrek vs vrijstelling",
+      "uitleg": "DBI is technisch een **aftrek** (winstcorrectie na opname in belastbare basis), géén vrijstelling (waarbij het dividend nooit in de basis komt). Praktisch gevolg: DBI vereist altijd **voldoende winst** om op te slorpen; sinds 2017 lost de overdraagbaarheid dit op. Een vrijstelling zou geen winstrestant nodig hebben. Belangrijk voor interpretatie van art. 207-volgorde en interactie met andere aftrekken.",
+      "confidence": "vuistregel"
+    },
+    {
+      "verwarring": "DBI vs FBB (forfaitair gedeelte buitenlandse belasting)",
+      "uitleg": "**DBI** schakelt de dividend-belasting uit op winstniveau. **FBB** (art. 285-289 WIB92) is een verrekenbaar belastingkrediet voor *intresten en royalty's* uit het buitenland — een ander instrument, andere belastbare bestanddelen, andere techniek (verrekening na tariefberekening i.p.v. aftrek voor tariefberekening).",
+      "confidence": "vuistregel"
+    }
+  ],
+  "alternatieven_zelfde_doel": {
+    "intro": "Andere technieken om dubbele belasting op grensoverschrijdende of binnenlandse winstdoorgift te vermijden of te verzachten:",
+    "items": [
+      {
+        "naam": "Verrekening buitenlandse belasting onder dubbelbelasting-verdrag",
+        "uitleg": "Credit-methode in plaats van vrijstelling — bilaterale verdragen kunnen DBI vervangen of aanvullen voor specifieke landen.",
+        "edge_target": null
+      },
+      {
+        "naam": "Liquidatiereserve",
+        "uitleg": "Geen alternatief voor DBI maar voor de aandeelhouder-NP: 10 % anticipatieve heffing + 5 % RV bij uitkering ≥ 5 jaar — komt na DBI in de uitkeringsketen.",
+        "edge_target": "liquidatiereserve"
+      },
+      {
+        "naam": "VVPRbis",
+        "uitleg": "Voor aandeelhouder-NP van een KMO; raakt de RV bij eind-uitkering, niet de DBI op tussenliggend dividend.",
+        "edge_target": "vvprbis"
+      }
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      {
+        "titel": "Pre-investerings-screening dochter op taxatievoorwaarde",
+        "anker": "#voorwaarden-screening-vooraf"
+      },
+      {
+        "titel": "Deelnemingsdrempel toetsen (10 % of 2,5 mio EUR)",
+        "anker": "#voorwaarde-1-deelnemingsdrempel"
+      },
+      {
+        "titel": "Aanhoudtermijn 1 jaar in volle eigendom bewaken",
+        "anker": "#voorwaarde-2-aanhoudtermijn"
+      },
+      {
+        "titel": "Taxatievoorwaarde art. 203 toetsen",
+        "anker": "#voorwaarde-3-taxatievoorwaarde"
+      },
+      {
+        "titel": "Bruto-dividend grossing-up (art. 204)",
+        "anker": "#aftrekbaar-bedrag-bruto-grossing-up"
+      },
+      {
+        "titel": "DBI invoegen in aftrekvolgorde art. 207",
+        "anker": "#aftrekvolgorde-art-207"
+      },
+      {
+        "titel": "Boekhoudkundige verwerking dividend + DBI buiten boekhouding",
+        "anker": "#boeking-ontvangen-dividend-met-dbi"
+      },
+      {
+        "titel": "RV-vrijstelling bij moeder-dochter (EU)",
+        "anker": "#rv-vrijstelling-moeder-dochter"
+      },
+      {
+        "titel": "DBI-aangifte vakken + bijlage 275-DBI",
+        "anker": "#aangifte-vak-dbi"
+      },
+      {
+        "titel": "Auditcontrole DBI-claim in jaarrekening",
+        "anker": "#audit-dbi-claim"
+      }
+    ],
+    "termen_alfabetisch": [
+      {
+        "term": "Aanhoudtermijn 1 jaar",
+        "anker": "#voorwaarde-2-aanhoudtermijn"
+      },
+      {
+        "term": "Aftrekvolgorde art. 207",
+        "anker": "#aftrekvolgorde-art-207"
+      },
+      {
+        "term": "Belastingparadijs-uitsluiting",
+        "anker": "#voorwaarde-3-taxatievoorwaarde"
+      },
+      {
+        "term": "Deelnemingsdrempel",
+        "anker": "#voorwaarde-1-deelnemingsdrempel"
+      },
+      {
+        "term": "EU-lijst niet-coöperatieve rechtsgebieden",
+        "anker": "#voorwaarde-3-taxatievoorwaarde"
+      },
+      {
+        "term": "Financieel vast actief (FVA)",
+        "anker": "#voorwaarde-2-aanhoudtermijn"
+      },
+      {
+        "term": "Grossing-up (art. 204)",
+        "anker": "#aftrekbaar-bedrag-bruto-grossing-up"
+      },
+      {
+        "term": "Moeder-dochterrichtlijn 2011/96/EU",
+        "anker": "#rv-vrijstelling-moeder-dochter"
+      },
+      {
+        "term": "Overdracht DBI-overschot",
+        "anker": "#overdracht-dbi-overschot"
+      },
+      {
+        "term": "Taxatievoorwaarde art. 203",
+        "anker": "#voorwaarde-3-taxatievoorwaarde"
+      }
+    ],
+    "formules": [
+      {
+        "naam": "Bruto-dividend (DBI-grondslag)",
+        "expressie": "netto-ontvangen + ingehouden RV (eventueel + fictieve RV)"
+      },
+      {
+        "naam": "Belastbare-grondslag-impact",
+        "expressie": "+bruto-dividend (in winst) − DBI-aftrek = 0 bij vervulde voorwaarden"
+      }
+    ],
+    "regimes": [
+      {
+        "regime": "vennootschapsbelasting-kader",
+        "edge": "valt_onder_kader"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "type": "lid_van",
+      "target_id": "vennootschapsbelasting-kader",
+      "target_status": "pending"
+    },
+    {
+      "type": "valt_onder_kader",
+      "target_id": "belastbare-grondslag-vennootschapsbelasting",
+      "target_status": "pending"
+    },
+    {
+      "type": "beïnvloedt",
+      "target_id": "uitkering-aan-aandeelhouders",
+      "target_status": "pending"
+    },
+    {
+      "type": "beïnvloedt",
+      "target_id": "meerwaarde-aandelen-venb",
+      "target_status": "pending"
+    },
+    {
+      "type": "verward_met",
+      "target_id": "vvprbis",
+      "target_status": "pending"
+    },
+    {
+      "type": "verward_met",
+      "target_id": "moeder-dochter-richtlijn",
+      "target_status": "pending"
+    },
+    {
+      "type": "gerelateerd",
+      "target_id": "liquidatiereserve",
+      "target_status": "pending"
+    },
+    {
+      "type": "gerelateerd",
+      "target_id": "abnormale-goedgunstige-voordelen",
+      "target_status": "pending"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "moedervennootschap",
+      "target_status": "exists"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "dochteronderneming",
+      "target_status": "exists"
+    }
+  ],
+  "bronnen_en_verwijzingen": {
+    "grounded": [
+      {
+        "ref": "WIB92 art. 202 §1 1°-3°",
+        "chunk": "WIB92__art_202__sub_1deg-3deg"
+      },
+      {
+        "ref": "WIB92 art. 203 §1 1°-7°",
+        "chunk": "WIB92__art_203__sub_1deg-6deg"
+      },
+      {
+        "ref": "WIB92 art. 203 §1 7° en §2 (anti-misbruik)",
+        "chunk": "WIB92__art_203__sub_7deg-1deg"
+      },
+      {
+        "ref": "WIB92 art. 204 (grossing-up)",
+        "chunk": "WIB92__art_204"
+      },
+      {
+        "ref": "WIB92 art. 205 (beperking + buitenlandse inrichting)",
+        "chunk": "WIB92__art_205"
+      },
+      {
+        "ref": "WIB92 art. 207 (aftrekvolgorde)",
+        "chunk": "WIB92__art_207"
+      },
+      {
+        "ref": "WIB92 art. 192 §1 (meerwaarde-vrijstelling gekoppeld aan DBI)",
+        "chunk": "WIB92__art_192"
+      },
+      {
+        "ref": "WIB92 art. 264/1 §1 (RV-vrijstelling moeder-dochter)",
+        "chunk": "WIB92__art_264/1"
+      },
+      {
+        "ref": "WIB92 art. 282/1 (RV-verrekening uitsluiting bij sommige DBI)",
+        "chunk": "WIB92__art_282/1"
+      },
+      {
+        "ref": "Richtlijn 2011/96/EU art. 1, 3, 4, 5, 7 (moeder-dochterrichtlijn)",
+        "chunk": "EU-Richtlijn-moeder-dochter-2011-96__art_3"
+      },
+      {
+        "ref": "Wet 24 dec 2002 art. 9-10 (historische drempel 1,2 mio EUR — vervangen)",
+        "chunk": "Wet-voorafgaande-beslissingen-2002__art_9"
+      }
+    ],
+    "te_verifieren": [
+      "Exacte aanslagjaar-datum van wijziging 95 % → 100 % DBI (vermoedelijk aj. 2019 — wet 25 dec 2017)",
+      "Exact aangifte-vakken in formulier VenB 275.1 voor DBI-claim per categorie",
+      "Bijlage 275-DBI: structuur per dividend-type — invulinstructies te controleren in Com.IB",
+      "Actuele EU-lijst van niet-coöperatieve rechtsgebieden (versie 2026)",
+      "Wisselwerking met Pillar Two (15 % minimum-tax) — kan taxatievoorwaarde art. 203 obsoleet maken?"
+    ],
+    "cross_record_edges_actief": [
+      "lid_van → vennootschapsbelasting-kader (kader-record nog te creëren)",
+      "verward_met → vvprbis (record nog te creëren)",
+      "beïnvloedt → meerwaarde-aandelen-venb (record nog te creëren)"
+    ]
+  },
+  "iteratie_log": [
+    {
+      "versie": "v1 (huidige) — schema 2.0 pilot",
+      "datum": "2026-05-21",
+      "opmerkingen": "Eerste fiscale-regeling-record onder schema 2.0 zonder mockup. Inspiratie genomen uit vvprbis-v1.md voor sectie-architectuur (Wanneer van toepassing / Hoe het werkt / Veelvoorkomende verwarringen / Alternatieven). Element-vocabulaire met inhoud_type + weergaven gebruikt zoals in ADR-025 §6. Rol × perspectief beperkt tot drie perspectieven (moeder, dochter, auditor) — aandeelhouder-NP is niet rechtstreeks relevant voor DBI. Cross-PO completeness via 2.8.XV (internationale dubbele belasting). Centrale ontbrekers gelogd: vennootschapsbelasting-kader, belastbare-grondslag-vennootschapsbelasting, vvprbis, meerwaarde-aandelen-venb, abnormale-goedgunstige-voordelen — allemaal als edge target_status pending."
+    }
+  ]
+}

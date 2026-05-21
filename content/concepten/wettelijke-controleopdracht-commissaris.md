@@ -16,7 +16,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/wettelijke-controleopdracht-commissaris.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Wettelijke controleopdracht (commissaris-mandaat) ⚖️
 
@@ -30,11 +30,12 @@ Een wettelijke controleopdracht is een door of krachtens de wet aan de commissar
 _Bron: WVV art. 3:72 jo. Wet 7 december 2016 (revisorenwet)_
 
 
+
 > [!info] Uitzonderingen (1): [[gedeelde-wettelijk-voorbehouden-opdracht]]
 
 ## Voorwaarden / uitzonderingen
 
-- De vennootschap overschrijdt meer dan één van de groottecriteria (50 werknemers / € 11.250.000 omzet / € 6.000.000 balanstotaal) gedurende twee opeenvolgende boekjaren, of is een Public Interest Entity (genoteerd, financiële instelling). 🤖
+- De vennootschap overschrijdt meer dan één van de groottecriteria (50 werknemers / € 11.250.000 omzet / € 6.000.000 balanstotaal) gedurende twee opeenvolgende boekjaren, of is een Public Interest Entity (genoteerd, financiële instelling). 🔗
 > [!info]- Niet verwarren met [[contractuele-controleopdracht]]
 > Wettelijke controle = opgelegd door wet, voorbehouden aan bedrijfsrevisor, normenkader ISA + Wet 2016. Contractuele controle = vrijwillig, ook door gecertificeerd accountant onder de ITAA KMO-controlenorm.
 >

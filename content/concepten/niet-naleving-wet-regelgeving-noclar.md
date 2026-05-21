@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/niet-naleving-wet-regelgeving-noclar.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Niet-naleving wet- en regelgeving (NOCLAR) 🤖
+# Niet-naleving wet- en regelgeving (NOCLAR) 🔗
 
 NOCLAR ('non-compliance with laws and regulations') is het audit- en deontologische kader voor het herkennen van en omgaan met inbreuken op wet- en regelgeving door de cliënt-onderneming. Het kader staat in ISA 250 (Revised — geldend vanaf 2018) voor de externe auditor en in IESBA Code Section 360 voor alle beroepsbeoefenaars (accountants, fiscalisten, interne auditoren). Voor de Belgische stagiair-accountant raakt NOCLAR aan drie andere domeinen: antiwitwasmeldingsplicht (specifieke wet), klokkenluiderregeling (intern kanaal), en de algemene fraude-detectie (ISA 240).
 
@@ -29,6 +29,7 @@ NOCLAR ('non-compliance with laws and regulations') is het audit- en deontologis
 Niet-naleving (non-compliance) zijn handelingen van of door management, met de governance belast, werknemers of derden onder leiding van de onderneming, die wet- of regelgeving overtreden — opzettelijk of onopzettelijk. De auditor moet voldoende kennis hebben van de toepasselijke wet- en regelgeving om materiële afwijkingen in de jaarrekening door non-compliance te identificeren, te beoordelen en te rapporteren.
 
 _Bron: ISA 250 (Revised) §11-§12_
+
 
 
 ## Bouwstenen

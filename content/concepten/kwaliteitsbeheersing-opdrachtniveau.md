@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/kwaliteitsbeheersing-opdrachtniveau.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Kwaliteitsbeheersing op opdrachtniveau ⚖️
 
@@ -25,6 +25,7 @@ Sinds 2022 vervangt ISA 220 (herzien) het oudere quality-control-paradigma door 
 Kwaliteitsbeheersing op opdrachtniveau is het geheel aan procedures dat de opdrachtpartner toepast om redelijke zekerheid te verkrijgen dat de individuele audit-opdracht voldoet aan de professionele standaarden, de wettelijke vereisten en het kwaliteitsmanagementsysteem van het kantoor (ISQM 1). De opdrachtpartner behoudt de eindverantwoordelijkheid en kan geen verantwoordingsplicht delegeren — wel taken.
 
 _Bron: ISA 220 (herzien) §9, §13 + ITAA KMO-controlenorm §29-§31_
+
 
 
 ## Bouwstenen
@@ -152,7 +153,7 @@ _Grondslag: ISA 220 (herzien) §41 + ISA 230 §A7_
 - **Vereist kennis van**: [[]]
 - **Vereist kennis van**: [[]]
 - **Vereist kennis van**: [[]]
-- **Wordt voorondersteld in** (3): [[aanvaarden-audit-opdracht]] · [[communiceren-met-bestuur-en-auditcomite]] · [[documenteren-auditdossier]]
+- **Wordt voorondersteld in** (1): [[intern-kwaliteitsmanagement-kantoor]]
 ## Voorbeelden
 
 Sofie Janssens is opdrachtpartner voor de audit van Rotex Roeselare NV. Zij leidt het team van 5, controleert de werkpapieren van elke junior, bespreekt elke significante professionele oordeelsvorming en laat een onafhankelijke kwaliteitsreviewer (collega-partner Pieter Vermeulen) het dossier herlezen vóór ondertekening van het verslag.

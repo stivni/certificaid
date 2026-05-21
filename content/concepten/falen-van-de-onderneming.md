@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/falen-van-de-onderneming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Falen van de onderneming (financiële diagnose) 🤖
+# Falen van de onderneming (financiële diagnose) 🔗
 
 Falen wijst op het structurele onvermogen om verbintenissen na te komen. Het manifesteert zich eerst in dalende rentabiliteit, daarna in solvabiliteitserosie en uiteindelijk in acute liquiditeitsproblemen. Identificatie ervan via financiële diagnose (ratio-analyse + kwantitatieve modellen) is een kernopdracht van de gecertificeerd accountant in de rol van vertrouwensadviseur.
 
@@ -26,6 +26,7 @@ Falen wijst op het structurele onvermogen om verbintenissen na te komen. Het man
 Falen van de onderneming is de toestand waarin de onderneming niet meer in staat is haar verbintenissen na te komen — vaak voorafgegaan door een geleidelijke verslechtering van rentabiliteit, solvabiliteit en liquiditeit. Het juridische sluitstuk is faillissement of gerechtelijke reorganisatie; de analist herkent de signalen vooraf.
 
 _Bron: Financiële diagnose_
+
 
 
 ## Bouwstenen
@@ -60,7 +61,7 @@ _Grondslag: Vakdoctrine + bestuursverslag risicoparagraaf (KB WVV)_
 <h3 id="1.9.VI.A">Verschil met continuïteitsoordeel (audit)</h3>
 
 > [!tip]- Verschil met continuïteitsoordeel (audit)
-> Het 'falen' uit financiële analyse is een breder economisch concept; het 'continuïteitsoordeel' uit audit (going concern) is een formeel oordeel binnen 12 maanden post-balans dat de commissaris in zijn verslag moet vermelden. De ratio-signalen vormen de basis voor beide, maar de implicaties verschillen. 🤖
+> Het 'falen' uit financiële analyse is een breder economisch concept; het 'continuïteitsoordeel' uit audit (going concern) is een formeel oordeel binnen 12 maanden post-balans dat de commissaris in zijn verslag moet vermelden. De ratio-signalen vormen de basis voor beide, maar de implicaties verschillen. 🔗
 
 
 ## Valkuilen
@@ -77,7 +78,7 @@ _Grondslag: Vakdoctrine + bestuursverslag risicoparagraaf (KB WVV)_
 - **Vereist kennis van**: [[kwantitatieve-financiele-diagnose]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
 - **Getriggerd door**: [[risicoparagraaf-bestuursverslag]]
-
+- **Wordt voorondersteld in** (1): [[interpretatie-financiele-ratios]]- **Triggert** (2): [[kwantitatieve-financiele-diagnose]] · [[ohlson-o-score]]
 ## Bronnen
 
 [^1]: `anchor-1.9.VI.A`

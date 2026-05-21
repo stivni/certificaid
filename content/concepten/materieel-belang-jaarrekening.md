@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/materieel-belang-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Materieel belang (materiality) ⚖️
 
@@ -29,6 +29,7 @@ Materieel belang (materiality) is de drempel waarboven een fout of weglating de 
 Een element heeft materieel belang als 'redelijkerwijze kan worden verwacht dat de weglating of onjuiste vermelding ervan de beslissingen die een gebruiker op basis van de financiële overzichten van een onderneming neemt, zou kunnen beïnvloeden'. Het materieel belang van afzonderlijke posten wordt beoordeeld in de context van andere gelijkaardige posten.
 
 _Bron: Richtlijn 2013/34/EU art. 2, 16)_
+
 
 
 ## Bouwstenen
@@ -63,18 +64,18 @@ _Grondslag: Richtlijn 2013/34/EU art. 2, 16)_
 <h3 id="1.3.I.A">Drempelpercentages (vuistregels)</h3>
 
 > [!tip]- Drempelpercentages (vuistregels)
-> Auditors gebruiken vuistregels: 0,5–1 % van de omzet, 5 % van het resultaat vóór belasting, 1–2 % van balanstotaal. Eindbeslissing blijft professionele oordeelsvorming. 🤖
+> Auditors gebruiken vuistregels: 0,5–1 % van de omzet, 5 % van het resultaat vóór belasting, 1–2 % van balanstotaal. Eindbeslissing blijft professionele oordeelsvorming. 🔗
 
 <h3 id="1.3.I.A">Materialiteit + aard samen</h3>
 
 > [!tip]- Materialiteit + aard samen
-> Een kwantitatief klein bedrag kan kwalitatief materieel zijn — bv. een transactie met een bestuurder, een fraude-element, een sanctie. De aard van de transactie kan materialiteit verhogen onafhankelijk van het bedrag. 🤖
+> Een kwantitatief klein bedrag kan kwalitatief materieel zijn — bv. een transactie met een bestuurder, een fraude-element, een sanctie. De aard van de transactie kan materialiteit verhogen onafhankelijk van het bedrag. 🔗
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[niet-in-balans-opgenomen-rechten-verplichtingen]]
-
+- **Wordt voorondersteld in** (2): [[cijferanalyses-controle-norm]] · [[getrouw-beeld-jaarrekening]]
 ## Bronnen
 
 [^1]: `Richtlijn-2013-34-EU__art_2__sub_b__dup2`

@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gegronde-redenen-vennootschapsgeschil.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Gegronde redenen in vennootschapsgeschillen 🤖
+# Gegronde redenen in vennootschapsgeschillen 🔗
 
 Zowel de uittredingsvordering, de uitsluitingsvordering als de gerechtelijke ontbinding hangen af van **gegronde** (uittreding/uitsluiting) of **wettige** (ontbinding) redenen. Het concept is jurisprudentieel ingevuld en vereist een feitenbeoordeling die de rechter ruim mag voeren.
 
@@ -26,6 +26,7 @@ Zowel de uittredingsvordering, de uitsluitingsvordering als de gerechtelijke ont
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 Gegronde redenen zijn zwaarwichtige feiten of omstandigheden die zich in de persoon of het gedrag van de verweerder situeren en die de normale voortzetting van de vennootschapsrelatie tussen aandeelhouders onleefbaar of overdreven bezwarend maken. Bij **uitsluiting** moeten de redenen objectief de verweerder raken; bij **uittreding** moeten zij in de andere aandeelhouder(s) gelegen zijn. Niet vereist is dat sprake is van een fout of misdrijf — een diepgaand persoonlijk antagonisme volstaat soms.
+
 
 
 ## In de praktijk
@@ -42,11 +43,11 @@ Gegronde redenen zijn zwaarwichtige feiten of omstandigheden die zich in de pers
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

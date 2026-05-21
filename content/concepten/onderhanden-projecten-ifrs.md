@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/onderhanden-projecten-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Onderhanden projecten in opdracht van derden — onder IFRS 15 ⚖️
 
@@ -27,6 +27,7 @@ gegenereerd_op: '2026-05-18'
 Sinds de inwerkingtreding van IFRS 15 op 1 januari 2018 is IAS 11 — Construction Contracts ingetrokken. **Onderhanden projecten in opdracht van derden** (bouwprojecten, infrastructuurprojecten, specifiek-gemaakte goederen of diensten) vallen nu onder de algemene regel van IFRS 15. De kernvraag wordt: voldoet de prestatieverplichting aan de criteria van **opname over een periode** (alinea 35)? Drie criteria, waarvan minstens één moet vervuld zijn: (a) klant ontvangt en consumeert gelijktijdig de voordelen naarmate de entiteit presteert; (b) prestaties creëren of versterken een actief waarover de klant zeggenschap heeft naarmate dat actief wordt gecreëerd of versterkt; (c) prestaties creëren geen actief met een alternatieve gebruiksmogelijkheid voor de entiteit én de entiteit heeft een afdwingbaar recht op betaling voor reeds verrichte prestaties. Bij vervulling over een periode: opbrengstopname via een **outputmethode** (geleverde eenheden, mijlpalen) of **inputmethode** (kosten gemaakt / totaal verwachte kosten; gewerkte uren) — alinea 41 + B14-B19. Voor de vroegere IAS 11-techniek (percentage-of-completion via kosten-input) gaat in essentie de inputmethode.
 
 _Bron: IFRS 15 alinea 35-37 + 41_
+
 
 
 ## Bouwstenen
@@ -43,7 +44,7 @@ Cattoir's productie-eenheid bouwen voor Zelena Bio: prestaties zijn gelijkmatig 
 
 _Grondslag: IFRS 15 alinea B15 + B18_
 
-### Verwacht verlies — onmiddellijk opnemen 🤖
+### Verwacht verlies — onmiddellijk opnemen 🔗
 
 Wanneer de **totale verwachte kosten** van het contract hoger zijn dan de **totale transactieprijs**, ontstaat een verwacht verlies. Onder IFRS 15 wordt het verlies opgenomen via IAS 37 (onerous contracts) of via de gewone IFRS 15-opname, niet apart als 'voorziening'. Het netto-effect: de boekhoudkundige opname van het verlies gebeurt zodra het verlies waarschijnlijk en betrouwbaar schatbaar is — niet pas bij opleveringen.
 

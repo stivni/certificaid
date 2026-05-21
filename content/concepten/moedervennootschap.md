@@ -18,7 +18,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/moedervennootschap.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Moedervennootschap ⚖️
 
@@ -34,12 +34,13 @@ Een vennootschap die controle uitoefent over een andere vennootschap (de dochter
 _Bron: WVV art. 1:15, 1° jo. art. 3:22_
 
 
+
 ## In de praktijk
 
 <h3 id="onderscheid-moeder-versus-moeder-die-effectief-consolideert">Onderscheid moeder versus moeder-die-effectief-consolideert</h3>
 
 > [!tip]- Onderscheid moeder versus moeder-die-effectief-consolideert
-> Elke moeder is in beginsel consolidatieplichtig, maar niet elke moeder consolideert effectief. Zo kan een tussenliggende moeder vrijgesteld zijn van subconsolidatie wanneer haar eigen moeder hogerop al consolideert (en aan de voorwaarden voldoet). 'Moeder die consolideert' is dus een rol binnen één concrete oefening; 'moeder' tout court is een juridisch statuut. Voorbeeld-keten: Kappers Köln GmbH (top-moeder) → Aurelia Holding NV (tussen-moeder) → Brugse Brouwerij BV. Zowel Kappers als Aurelia zijn moeder; alleen Kappers consolideert effectief (Aurelia geniet vrijstelling subconsolidatie). 🤖
+> Elke moeder is in beginsel consolidatieplichtig, maar niet elke moeder consolideert effectief. Zo kan een tussenliggende moeder vrijgesteld zijn van subconsolidatie wanneer haar eigen moeder hogerop al consolideert (en aan de voorwaarden voldoet). 'Moeder die consolideert' is dus een rol binnen één concrete oefening; 'moeder' tout court is een juridisch statuut. Voorbeeld-keten: Kappers Köln GmbH (top-moeder) → Aurelia Holding NV (tussen-moeder) → Brugse Brouwerij BV. Zowel Kappers als Aurelia zijn moeder; alleen Kappers consolideert effectief (Aurelia geniet vrijstelling subconsolidatie). 🔗
 
 > [!tip]- Herkennen op het examen
 > Bij een groepsketen: identificeer eerst alle moeder-relaties; bepaal pas daarna wie effectief moet consolideren.

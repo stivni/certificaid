@@ -14,7 +14,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rechter-commissaris-insolventie.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Rechter-commissaris in een faillissement ⚖️
 
@@ -30,6 +30,7 @@ Rechter van de insolventierechtbank (voorzitter uitgezonderd) die in het vonnis 
 _Bron: WER art. XX.104_
 
 
+
 ## In de praktijk
 
 <h3 id="wanneer-machtiging-vragen">Wanneer machtiging vragen?</h3>
@@ -38,6 +39,9 @@ _Bron: WER art. XX.104_
 > Voor verkoop van onroerende goederen, voor het inlossen van een pand ten gunste van de boedel (XX.181), voor dadingen, en voor uitdelingen aan schuldeisers. Kleinere beheersdaden gebeuren zonder voorafgaande machtiging. ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[insolventiefunctionaris]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

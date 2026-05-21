@@ -21,7 +21,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/antiwitwasmeldingsplicht-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Antiwitwasmeldingsplicht voor de accountant ⚖️
 
@@ -33,6 +33,7 @@ Voor de stagiair die zich afvraagt waarom een 'gewone' accountant zich plots als
 De antiwitwasmeldingsplicht is het geheel van verplichtingen dat de Wet van 18 september 2017 (omzetting van de vierde en vijfde Europese antiwitwasrichtlijn) oplegt aan accountants en belastingadviseurs als 'onderworpen entiteiten'. De kern: (1) een interne organisatie opzetten met een AMLCO, (2) een algemene risicobeoordeling maken, (3) cliëntonderzoek (Customer Due Diligence) uitvoeren bij elke nieuwe relatie en periodiek tijdens de relatie, (4) verdachte verrichtingen onderwerpen aan een specifieke analyse en (5) vermoedens van witwassen of financiering van terrorisme melden aan de Cel voor Financiële Informatieverwerking (CFI).
 
 _Bron: ITAA-norm AWW (geconsolideerd) punt 1.1_
+
 
 
 ## Bouwstenen
@@ -127,19 +128,19 @@ _Grondslag: Wet 18 september 2017 art. 60 + ITAA-norm AWW punt 6_
 ## Valkuilen
 
 > [!warning]- Meld via de CFI, niet direct aan politie of parket — directe melding doorbreekt het anonimiteitskanaal.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Tipping-off (cliënt waarschuwen) is een aparte strafrechtelijke inbreuk, ook bij goede bedoelingen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Vermoeden ≠ zekerheid. De drempel is een redelijk vermoeden van witwassen, niet bewezen feit.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Identificatie UBO via UBO-register is verplicht — kopie identiteitskaart bestuurder is niet voldoende.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -148,7 +149,7 @@ _Grondslag: Wet 18 september 2017 art. 60 + ITAA-norm AWW punt 6_
 - **Vereist kennis van**: [[cfi]]
 - **Vereist kennis van**: [[beroepsgeheim-accountant]]
 - **Vereist kennis van**: [[itaa]]
-
+- **Wordt voorondersteld in** (4): [[fraude]] · [[itaa-normen-ic]] · [[niet-naleving-wet-regelgeving-noclar]] · [[wettelijk-kader-ic]]
 ## Bronnen
 
 [^1]: `ITAA-norm-aww-geconsolideerd__sec_2-organisatie-en-interne-controle`

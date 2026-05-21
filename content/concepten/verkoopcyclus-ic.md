@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/verkoopcyclus-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Verkoopcyclus en interne controle 🤖
+# Verkoopcyclus en interne controle 🔗
 
 De verkoopcyclus is de keten van order tot inning van klantvorderingen. Interne controle focust op vermijden van fictieve omzet, niet-gefactureerde leveringen, oneigenlijke kortingen en oninbare vorderingen. Cut-off rond balansdatum is kritisch voor de juistheid van de resultatenrekening. Stagiairs komen dit tegen bij walkthroughs van het sales-proces en bij analytische review van DSO-evolutie.
 
@@ -26,6 +26,7 @@ De verkoopcyclus is de keten van order tot inning van klantvorderingen. Interne 
 > [!info] Behoort tot: [[cyclus-analyse-ic]]
 
 Interne controle in de verkoopcyclus is het geheel van maatregelen die de stadia order → kredietacceptatie → levering → facturatie → inning beheersen, met als doel fictieve omzet, niet-gefactureerde leveringen, cut-off-fouten en oninbare vorderingen te voorkomen of te detecteren.
+
 
 
 ## Bouwstenen
@@ -198,7 +199,7 @@ Rotex Roeselare NV is een grote NV (volledig schema). Salesdirecteur Robert Vand
 | 451 — Verschuldigde btw | 178500 |  |
 | 400 — Handelsvorderingen |  | 1028500 |
 
-🤖
+🔗
 
 
 

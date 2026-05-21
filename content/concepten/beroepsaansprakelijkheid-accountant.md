@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/beroepsaansprakelijkheid-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Beroepsaansprakelijkheid van de accountant ⚖️
 
@@ -28,12 +28,13 @@ De beroepsbeoefenaar is aansprakelijk volgens het gemeen recht voor de uitvoerin
 _Bron: Wet ITAA 2019 art. 44_
 
 
+
 ## In de praktijk
 
 <h3 id="civielrechtelijk-vs-tuchtrechtelijk-twee-sporen">Civielrechtelijk vs. tuchtrechtelijk: twee sporen</h3>
 
 > [!tip]- Civielrechtelijk vs. tuchtrechtelijk: twee sporen
-> Civielrechtelijke aansprakelijkheid (gemeen recht, art. 44 Wet ITAA) = schadevergoeding aan de cliënt of derden. Tuchtrechtelijke aansprakelijkheid (KB plichtenleer + ITAA-tuchtinstanties) = sancties (waarschuwing, schrapping). Twee verschillende sporen, kunnen samen lopen. 🤖
+> Civielrechtelijke aansprakelijkheid (gemeen recht, art. 44 Wet ITAA) = schadevergoeding aan de cliënt of derden. Tuchtrechtelijke aansprakelijkheid (KB plichtenleer + ITAA-tuchtinstanties) = sancties (waarschuwing, schrapping). Twee verschillende sporen, kunnen samen lopen. 🔗
 
 
 ## Voorwaarden / uitzonderingen
@@ -59,7 +60,7 @@ _Bron: Wet ITAA 2019 art. 44_
 ## Zie ook
 
 - **Vereist kennis van**: [[opdrachtbrief-accountant]]
-- **Wordt voorondersteld in** (1): [[opdrachtbrief-accountant]]
+
 ## Voorbeelden
 
 Wolters & Partners CVBA voert een contractuele controle uit bij Meubelzaak Mertens BV. De opdrachtbrief beperkt de aansprakelijkheid tot drie keer het ereloon. Geldig — maar enkel voor gewone fouten, niet voor bedrog. Bij een wettelijk voorbehouden opdracht (bv. inbreng in natura) zou zo'n beperkingsclausule nietig zijn.

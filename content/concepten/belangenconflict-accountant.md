@@ -17,7 +17,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/belangenconflict-accountant.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Belangenconflict van de externe accountant ⚖️
 
@@ -33,12 +33,13 @@ Het is de externe accountant verboden om — rechtstreeks of onrechtstreeks — 
 _Bron: KB plichtenleer art. 11_
 
 
+
 ## In de praktijk
 
 <h3 id="triggers-voor-belangenconflict">Triggers voor belangenconflict</h3>
 
 > [!tip]- Triggers voor belangenconflict
-> Tegelijk werken voor twee partijen met tegengestelde belangen (bv. verkoper én koper), financieel belang in de gecontroleerde onderneming, familiale relatie met de leiding, of een mandaat in de cliënt-vennootschap. 🤖
+> Tegelijk werken voor twee partijen met tegengestelde belangen (bv. verkoper én koper), financieel belang in de gecontroleerde onderneming, familiale relatie met de leiding, of een mandaat in de cliënt-vennootschap. 🔗
 
 <h3 id="geldt-voor-vennoten-en-medewerkers">Geldt voor vennoten en medewerkers</h3>
 
@@ -46,6 +47,9 @@ _Bron: KB plichtenleer art. 11_
 > Het belangenconflict van een vennoot of vaste medewerker besmet de hele accountantsvennootschap. Toets dus altijd ook de positie van vennoten en medewerkers, niet alleen die van de opdrachtpartner. ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[accountantsrol-bij-vennootschapsconflict]] · [[toepassen-professional-skepticism-en-deontologie-audit]]
 ## Voorbeelden
 
 Sofie Janssens controleert Meubelzaak Mertens BV. Halfweg de opdracht vraagt de zaakvoerder haar ook om een verkoop te bemiddelen tussen zijn vennootschap en een koper waarvoor zij ook fiscaal advies geeft. Belangenconflict → opdracht weigeren of zich terugtrekken uit één van beide rollen.

@@ -14,7 +14,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/herstructureringsdeskundige.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Herstructureringsdeskundige ⚖️
 
@@ -30,6 +30,7 @@ Een **gerechtsmandataris** die de ondernemingsrechtbank aanstelt om een ondernem
 _Bron: WER art. XX.30, XX.83/22_
 
 
+
 ## In de praktijk
 
 <h3 id="wanneer-kom-je-hem-tegen">Wanneer kom je hem tegen?</h3>
@@ -40,7 +41,7 @@ _Bron: WER art. XX.30, XX.83/22_
 <h3 id="verhouding-tot-het-bestuur">Verhouding tot het bestuur</h3>
 
 > [!tip]- Verhouding tot het bestuur
-> Hij vervangt het bestuur niet. De zaakvoerders en bestuurders blijven de vennootschap besturen — de herstructureringsdeskundige adviseert, bemiddelt en rapporteert. Dit verschilt fundamenteel van de **curator** (die in een faillissement het bestuur volledig vervangt) en van de **gerechtelijk bewindvoerder** (die het bestuur geheel of gedeeltelijk overneemt). 🤖
+> Hij vervangt het bestuur niet. De zaakvoerders en bestuurders blijven de vennootschap besturen — de herstructureringsdeskundige adviseert, bemiddelt en rapporteert. Dit verschilt fundamenteel van de **curator** (die in een faillissement het bestuur volledig vervangt) en van de **gerechtelijk bewindvoerder** (die het bestuur geheel of gedeeltelijk overneemt). 🔗
 
 <h3 id="vertrouwelijkheid">Vertrouwelijkheid</h3>
 
@@ -51,14 +52,17 @@ _Bron: WER art. XX.30, XX.83/22_
 ## Valkuilen
 
 > [!warning]- Niet verwarren met de **curator** of de **gerechtelijk bewindvoerder**. Curator komt pas bij faillissement (post-staking-van-betaling); gerechtelijk bewindvoerder neemt het bestuur over bij voorlopige maatregelen (art. XX.31). De herstructureringsdeskundige is een lichter, vroeger instrument zonder bestuursvervanging.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- De voorwaarde voor aanstelling is **dreigende insolventie**, niet feitelijke staking van betaling. Wacht niet tot de cliënt aan de faillissementsdrempel staat — dan is de besloten procedure niet meer beschikbaar.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[gerechtelijke-reorganisatie]] · [[insolventiefunctionaris]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

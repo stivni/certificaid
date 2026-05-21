@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controleproces-organisatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Controleproces in de organisatie 🤖
+# Controleproces in de organisatie 🔗
 
 Het generieke 'controleproces' (PDCA-cyclus: plan-do-check-act) is een management-doctrine die het examenprogramma binnenbrengt om interne controle af te zetten tegen ruimere bedrijfssturing. Voor de stagiair: dit is geen wettelijk verplicht model, maar je moet de cyclische logica herkennen als je een management-letter schrijft of een advies geeft over interne controle. De vijf stappen (doelstellen → middelen → uitvoeren → vergelijken → bijsturen) zijn ook de ruggengraat van budgetcontrole, kostenanalyse en variantieanalyse.
 
@@ -27,9 +27,10 @@ Het generieke 'controleproces' (PDCA-cyclus: plan-do-check-act) is een managemen
 Het controleproces in een organisatie is de cyclische bedrijfsvoerings-routine waarin het management doelen vastlegt, middelen toewijst, uitvoering meet, afwijkingen analyseert en bijstuurt — een algemene plan-do-check-act-cyclus die het kader vormt waarin interne controle als specifiek risicobeheers-instrument inpast.
 
 
+
 ## Bouwstenen
 
-### Doelstellingen vastleggen 🤖
+### Doelstellingen vastleggen 🔗
 
 Definieer wat moet worden bereikt — SMART (specifiek, meetbaar, aanvaardbaar, realistisch, tijdsgebonden).
 
@@ -43,7 +44,7 @@ Definieer wat moet worden bereikt — SMART (specifiek, meetbaar, aanvaardbaar, 
 
 _Grondslag: Managementcontrole-doctrine_
 
-### Plan + middelen toewijzen 🤖
+### Plan + middelen toewijzen 🔗
 
 Budget, mensen, technologie toewijzen aan elk doel.
 
@@ -55,7 +56,7 @@ Budget, mensen, technologie toewijzen aan elk doel.
 
 _Grondslag: Managementcontrole-doctrine_
 
-### Uitvoeren + meten 🤖
+### Uitvoeren + meten 🔗
 
 Werkelijke prestaties registreren via informatiesysteem.
 
@@ -67,7 +68,7 @@ Werkelijke prestaties registreren via informatiesysteem.
 
 _Grondslag: Managementcontrole-doctrine_
 
-### Vergelijken + analyseren afwijkingen 🤖
+### Vergelijken + analyseren afwijkingen 🔗
 
 Werkelijk vs gepland; analyseer oorzaken van afwijking > drempel.
 
@@ -79,7 +80,7 @@ Werkelijk vs gepland; analyseer oorzaken van afwijking > drempel.
 
 _Grondslag: Variantieanalyse_
 
-### Bijsturen 🤖
+### Bijsturen 🔗
 
 Actie ondernemen op basis van analyse: doel wijzigen, middelen aanpassen, proces verbeteren.
 
@@ -112,7 +113,7 @@ _Grondslag: ITAA-norm-kmo-controlenorm §70-§72 (planning)_
 ## Valkuilen
 
 > [!warning]- Examen-val: 'controleproces' verwarren met 'interne controle'
-> ⚠️ Examen-val: 'controleproces' verwarren met 'interne controle'. Controleproces is breed managementsturen; IC is gericht op risico-mitigatie binnen dat proces. 🤖
+> ⚠️ Examen-val: 'controleproces' verwarren met 'interne controle'. Controleproces is breed managementsturen; IC is gericht op risico-mitigatie binnen dat proces. 🔗
 
 
 

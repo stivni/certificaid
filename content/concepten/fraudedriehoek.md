@@ -17,7 +17,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/fraudedriehoek.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Fraude-driehoek (motief – gelegenheid – rationalisatie) ⚖️
 
@@ -31,6 +31,7 @@ De fraude-driehoek (Donald Cressey, 1953) is het diagnostische kader dat ISA 240
 De fraude-driehoek beschrijft drie voorwaarden die samen aanwezig zijn wanneer fraude wordt gepleegd: (1) een stimulans of druk om te frauderen (motief), (2) een waargenomen gelegenheid om de interne beheersing te doorbreken, en (3) een rechtvaardiging waarmee de pleger de handeling voor zichzelf aanvaardbaar maakt. Het wegnemen van één element verkleint significant het fraude-risico — en daarom mikt sterke IC vooral op het verkleinen van gelegenheid.
 
 _Bron: ISA 240 §A1_
+
 
 
 ## Bouwstenen
@@ -82,13 +83,13 @@ _Grondslag: ISA 240 §A1 + Cressey (1953)_
 <h3 id="ic-ontwerp-implicatie">IC-ontwerp-implicatie</h3>
 
 > [!tip]- IC-ontwerp-implicatie
-> Een goed IC-systeem verkleint primair de 'gelegenheid' via functiescheiding, controle-instrumenten en monitoring. Motief en rationalisatie worden indirect verkleind via tone-at-the-top, gedragscode, transparante remuneratie, eerlijke targets. 🤖
+> Een goed IC-systeem verkleint primair de 'gelegenheid' via functiescheiding, controle-instrumenten en monitoring. Motief en rationalisatie worden indirect verkleind via tone-at-the-top, gedragscode, transparante remuneratie, eerlijke targets. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Eén element zien betekent NIET dat fraude is gepleegd — het is een waarschuwing dat de gelegenheid bestaat of de druk hoog is
-> ⚠️ Eén element zien betekent NIET dat fraude is gepleegd — het is een waarschuwing dat de gelegenheid bestaat of de druk hoog is. Bewijs van opzet blijft vereist alvorens 'fraude' te kwalificeren. 🤖
+> ⚠️ Eén element zien betekent NIET dat fraude is gepleegd — het is een waarschuwing dat de gelegenheid bestaat of de druk hoog is. Bewijs van opzet blijft vereist alvorens 'fraude' te kwalificeren. 🔗
 
 
 
@@ -96,7 +97,7 @@ _Grondslag: ISA 240 §A1 + Cressey (1953)_
 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Vereist kennis van**: [[controle-omgeving]]
-
+- **Wordt voorondersteld in** (4): [[fraude]] · [[fraude-versus-fout]] · [[frauderisicofactoren]] · [[it-audit-procedures]]
 ## Voorbeelden
 
 ### De drie elementen bij Yperse Werkplaats BV

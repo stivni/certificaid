@@ -20,7 +20,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/intern-kwaliteitsmanagement-kantoor.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Intern kwaliteitsmanagement op kantoorniveau ⚖️
 
@@ -32,6 +32,7 @@ Voor de stagiair die zich afvraagt waarom de boekhoudkundige termen 'kwaliteitsm
 Een kwaliteitsmanagementsysteem op kantoorniveau is het geheel van beleidslijnen en procedures dat een beroepskantoor opzet, implementeert en in werking stelt om aan zichzelf een redelijke mate van zekerheid te verschaffen dat het kantoor en zijn personeel beroepsactiviteiten uitoefenen in overeenstemming met het toepasselijke wettelijk, reglementair en normatief kader. De Belgische ITAA-norm 'Intern Kwaliteitsmanagement' (in werking 3 september 2025, toepassing uiterlijk 1 januari 2026) operationaliseert dit op kantoorniveau, parallel aan de internationale ISQM 1.
 
 _Bron: ITAA-norm Intern Kwaliteitsmanagement art. 4_
+
 
 
 ## Bouwstenen
@@ -113,15 +114,15 @@ _Grondslag: ITAA-norm Intern Kwaliteitsmanagement art. 16 + KB 9 december 2019_
 ## Valkuilen
 
 > [!warning]- Onderscheid kantoor-niveau (ISQM 1 / ITAA-norm IKM) van opdracht-niveau (ISA 220 herzien). Verwar de twee niet.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Het systeem moet 'redelijke mate van zekerheid' bieden — niet absolute. Geen enkel systeem garandeert nulfouten.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Eindverantwoordelijkheid ligt bij de leiding, niet bij een 'kwaliteits-medewerker'. Een eenmanskantoor mag de rollen combineren; vanaf 10 beroepsbeoefenaars gelden strengere functiescheidings-eisen (cf. AMLCO-regeling).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -129,7 +130,7 @@ _Grondslag: ITAA-norm Intern Kwaliteitsmanagement art. 16 + KB 9 december 2019_
 
 - **Vereist kennis van**: [[kwaliteitsbeheersing-opdrachtniveau]]
 - **Vereist kennis van**: [[iesba-code-of-ethics]]
-
+- **Wordt voorondersteld in** (1): [[itaa-normen-ic]]
 ## Bronnen
 
 [^1]: `ITAA-norm-intern-kwaliteitsmanagement__sec_definities`

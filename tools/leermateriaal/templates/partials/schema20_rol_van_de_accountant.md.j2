@@ -1,0 +1,38 @@
+## Rol van de accountant
+
+{% if rol_van_de_accountant.intro %}
+{{ rol_van_de_accountant.intro }}
+
+{% endif %}
+{% for perspectief in rol_van_de_accountant.perspectieven | default([]) %}
+{% set heeft_elementen = namespace(waarde=false) %}
+{% for rol in perspectief.rollen | default([]) %}
+{% if rol.elementen | default([]) | length > 0 %}{% set heeft_elementen.waarde = true %}{% endif %}
+{% endfor %}
+{% if heeft_elementen.waarde %}
+### {{ perspectief.titel | default(perspectief.perspectief_id | default('')) }}
+
+{% for rol in perspectief.rollen | default([]) %}
+{% if rol.elementen | default([]) | length > 0 %}
+#### {{ rol.rol }}
+
+{% for element in rol.elementen %}
+{% set conf_label = element.confidence | default('inferred') | confidence_label %}
+##### {{ element.titel | default(element.element_id | default('')) }} {{ conf_label }}
+
+{% if element.beschrijving %}
+{{ element.beschrijving }}
+
+{% endif %}
+{% if element.bron is defined and element.bron %}
+_Bron: {{ element.bron.short | default(element.bron) }}_
+
+{% endif %}
+{% for weergave in element.weergaven | default([]) %}
+{% include 'partials/weergave.md.j2' %}
+{% endfor %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}

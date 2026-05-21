@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/taakverdeling-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Taakverdeling binnen interne controle 🤖
+# Taakverdeling binnen interne controle 🔗
 
 Taakverdeling is het concrete instrumentarium (organogram, functiebeschrijving, procuratie-tabel) waarmee een onderneming functiescheiding operationeel maakt. Het examenprogramma 1.7.VIII.B vraagt het te kennen als implementatie-laag onder de vier-functies-doctrine. Bij personeelswissel of organisatorische herschikking is een actuele taakverdeling cruciaal voor IC-continuïteit — verouderde functiebeschrijvingen zijn voor de auditor een rood vlag.
 
@@ -26,6 +26,7 @@ Taakverdeling is het concrete instrumentarium (organogram, functiebeschrijving, 
 > [!info] Behoort tot: [[uitvoering-interne-controle]]
 
 Taakverdeling is het bewust opdelen van werk over verschillende personen zodat (1) verantwoordelijkheden duidelijk zijn, (2) functiescheiding wordt gerealiseerd, en (3) elke medewerker zijn gedeelte van het IC-systeem kent. Drie kerninstrumenten dragen het: functiebeschrijving, organogram en procuratie-tabel.
+
 
 
 ## In de praktijk
@@ -38,12 +39,12 @@ Taakverdeling is het bewust opdelen van werk over verschillende personen zodat (
 <h3 id="functiebeschrijving-is-ic-evidence">Functiebeschrijving is IC-evidence</h3>
 
 > [!tip]- Functiebeschrijving is IC-evidence
-> Een actuele functiebeschrijving (gedateerd, getekend door rolhouder + leidinggevende) is voor de externe auditor één van de eerste evidences van IC-design. Ontbreekt of is verouderd: rood vlag. Goede praktijk: jaarlijkse review en actualisatie. 🤖
+> Een actuele functiebeschrijving (gedateerd, getekend door rolhouder + leidinggevende) is voor de externe auditor één van de eerste evidences van IC-design. Ontbreekt of is verouderd: rood vlag. Goede praktijk: jaarlijkse review en actualisatie. 🔗
 
 <h3 id="procuratie-tabel-als-sluitstuk">Procuratie-tabel als sluitstuk</h3>
 
 > [!tip]- Procuratie-tabel als sluitstuk
-> De procuratie-tabel (volmachten-tabel) regelt de autoriteit: wie mag namens de vennootschap aangaan, tot welk bedrag, met of zonder co-tekenaar. Een goed gedocumenteerde procuratie-tabel maakt functiescheiding afdwingbaar en is bovendien een formeel vereiste voor bankrelaties en notariële handelingen. 🤖
+> De procuratie-tabel (volmachten-tabel) regelt de autoriteit: wie mag namens de vennootschap aangaan, tot welk bedrag, met of zonder co-tekenaar. Een goed gedocumenteerde procuratie-tabel maakt functiescheiding afdwingbaar en is bovendien een formeel vereiste voor bankrelaties en notariële handelingen. 🔗
 
 
 ## Valkuilen
@@ -60,7 +61,7 @@ Taakverdeling is het bewust opdelen van werk over verschillende personen zodat (
 ## Zie ook
 
 - **Vereist kennis van**: [[functiescheiding]]
-
+- **Wordt voorondersteld in** (1): [[uitvoering-interne-controle]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV documenteert HR per functie: taken (5-10 bullets), verantwoordelijkheden (autoriseren wat tot welk bedrag), rapporteringslijn, vereiste competenties. Bij personeelswissel: nieuwe medewerker leest functiebeschrijving en weet exact wat van haar verwacht wordt — minder gat in IC tijdens overdracht.

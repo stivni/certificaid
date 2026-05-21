@@ -20,13 +20,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rentabiliteit-totaal-activa-roa.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Rentabiliteit van het totaal der activa (ROA) 🤖
+# Rentabiliteit van het totaal der activa (ROA) 🔗
 
 Meten welk rendement de onderneming behaalt op het totaal van haar bezittingen — onafhankelijk van hoe ze die bezittingen heeft gefinancierd. ROA staat voor 'Return On Assets' (rentabiliteit totaal der activa). Het toont de economische rentabiliteit zonder vertekening door belasting- of financieringsstructuur.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
+
 
 
 ## Bouwstenen
@@ -236,6 +237,9 @@ Resultaat: ROA van 13 % toont een gezonde economische winstgevendheid op de bedr
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[cashflow-analyse]]
 ## Bronnen
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-totaal-van-de-activa-voorbeeldmethoden`

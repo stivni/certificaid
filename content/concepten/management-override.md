@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/management-override.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Doorbreking door management (management override) ⚖️
 
@@ -30,6 +30,7 @@ Management override is het bewust omzeilen van bestaande interne controle door p
 _Bron: ITAA KMO-controlenorm Bijlage 1 — 'doorbreken van het systeem'_
 
 
+
 ## In de praktijk
 
 - Bij audit van een KMO is management override extra waarschijnlijk wegens kleine teams en dominante eigenaar-bestuurder. Vaste fraud-procedure: random sample journal entries einde jaar.
@@ -38,18 +39,18 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 — 'doorbreken van het systeem'_
 ## Valkuilen
 
 > [!warning]- Aannemen dat 'management is integer dus zal niet override doen'
-> ⚠️ Aannemen dat 'management is integer dus zal niet override doen'. Audit-standaarden (ISA 240) vereisen dat je het risico AANNEEMT en compenserende procedures uitvoert — los van persoonlijke perceptie van integriteit. 🤖
+> ⚠️ Aannemen dat 'management is integer dus zal niet override doen'. Audit-standaarden (ISA 240) vereisen dat je het risico AANNEEMT en compenserende procedures uitvoert — los van persoonlijke perceptie van integriteit. 🔗
 
 
 > [!warning]- Management override verwarren met functiescheidingsfout
-> ⚠️ Management override verwarren met functiescheidingsfout. Override = bestaande IC bewust omzeild door iemand met gezag; functiescheidingsfout = onvolledig ontworpen IC. Verschil is wie de oorzaak draagt — beleid versus ontwerp. 🤖
+> ⚠️ Management override verwarren met functiescheidingsfout. Override = bestaande IC bewust omzeild door iemand met gezag; functiescheidingsfout = onvolledig ontworpen IC. Verschil is wie de oorzaak draagt — beleid versus ontwerp. 🔗
 
 
 
 ## Zie ook
 
 - **Getriggerd door**: [[fraude]]
-
+- **Wordt voorondersteld in** (3): [[fraude]] · [[frauderisicofactoren]] · [[kenmerken-interne-controle]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV is de procedure dat alle aankoopfacturen > € 25.000 dubbel getekend worden. Eigenaar-bestuurder Wim Vermeulen tekent in december alleen een factuur van € 80.000 voor 'consultancy' van een vriend en boekt ze in 20X3. Klassiek management-override-rood-signaal: substantieve bedragen einde jaar, vriendschapsrelatie, ontbrekende dubbele paraaf, vage prestatie-omschrijving.

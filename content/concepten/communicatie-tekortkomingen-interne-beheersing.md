@@ -23,7 +23,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/communicatie-tekortkomingen-interne-beheersing.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Communicatie van tekortkomingen in de interne beheersing ⚖️
 
@@ -35,6 +35,7 @@ Voor de stagiair die zich afvraagt of een gevonden controle-zwakte 'gewoon noter
 Tijdens een externe controle geïdentificeerde tekortkomingen in de interne beheersing moeten op passende wijze aan de met governance belaste personen en het management worden meegedeeld. ISA 265 onderscheidt 'tekortkomingen' (interne beheersingsmaatregel die afwijkingen niet tijdig kan voorkomen of detecteren) van 'significante tekortkomingen' (voldoende belangrijk om de aandacht van governance te verdienen). Significante tekortkomingen moeten schriftelijk worden meegedeeld; andere tekortkomingen worden minstens aan het management gecommuniceerd indien zij voldoende belangrijk zijn.
 
 _Bron: ISA 265 paragrafen 5-6, 9-10_
+
 
 
 ## Bouwstenen
@@ -105,15 +106,15 @@ _Grondslag: ISA 265 paragraaf 11_
 ## Valkuilen
 
 > [!warning]- Onderscheid duidelijk: 'tekortkoming' (alle) vs 'significante tekortkoming' (subset, vereist governance-mededeling).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Schriftelijk = schriftelijk. Mondelinge mededeling alleen voldoet niet voor significante tekortkomingen aan governance.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Vermeld expliciet dat het auditdoel een oordeel over de financiële overzichten was — niet een oordeel over de IC-effectiviteit.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -121,7 +122,7 @@ _Grondslag: ISA 265 paragraaf 11_
 
 - **Vereist kennis van**: [[evaluatie-interne-controle]]
 - **Vereist kennis van**: [[auditcomite]]
-
+- **Wordt voorondersteld in** (1): [[isa-standaarden-ic]]
 ## Bronnen
 
 [^1]: `ISA-265__sec_definities`

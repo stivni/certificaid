@@ -17,7 +17,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financieel-plan-oprichting.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Financieel plan bij oprichting van een kapitaalvennootschap ⚖️
 
@@ -29,6 +29,7 @@ Het financieel plan is een verplicht oprichtingsdocument dat oprichters van een 
 Document met prognoses en onderbouwing waarmee de oprichters van een kapitaalvennootschap (BV, CV, NV) vóór de oprichting verantwoorden dat het aanvangsvermogen toereikend is voor de voorgenomen activiteit over een periode van ten minste twee jaar.
 
 _Bron: WVV art. 5:4, art. 6:5, art. 7:3_
+
 
 
 ## Bouwstenen
@@ -139,15 +140,15 @@ _Grondslag: WVV art. 5:16 2°, art. 7:18 2°_
 ## Valkuilen
 
 > [!warning]- Geen template zonder vennootschapsspecifiek onderbouwen — een copy-paste plan met sector-gemiddeldes maar zonder eigen hypothesen biedt geen bescherming tegen oprichtersaansprakelijkheid.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bij een dienst-BV met laag werkkapitaal: vermeld expliciet dat de cliënten op 30-60 dagen betalen en bouw dat in de cashprognose in — anders verschijnt het tekort pas in maand 3 als reële verrassing.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Een 'optimistisch' scenario zonder pessimistische tegenpool werkt tegen de oprichter — toon een bandbreedte.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -175,7 +176,7 @@ Pieter Vermeulen start een nieuwe BV in textielimport. Hij brengt € 25.000 in 
 5. Begroting jaar 2: omzet € 360.000, EBITDA ca. € 45.000.
 6. Hypothesen: gemiddelde orderwaarde € 5.500, klant-betaaltermijn 60 dagen, leveranciers 30 dagen.
 7. Conclusie van het plan: het aanvangsvermogen van € 25.000 EV + € 50.000 LT-krediet is toereikend voor de eerste twee jaar — verwachte cumulatieve kasstroom blijft positief.
-🤖
+🔗
 
 
 

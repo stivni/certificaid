@@ -43,9 +43,10 @@ Je krijgt:
 - `rapport_pad`: pad
 
 Verbreed met:
-- Bronnen-RAG (toetsen van claims)
-- Concept-RAG (cross-record consistentie)
+- Bronnen-RAG (toetsen van claims) via `certificaid-rag.zoek_bronnen`
+- Concept-RAG (cross-record consistentie) via `certificaid-rag.zoek_concepten` / `lees_record`
 - Bron-MD's bij discrepantie
+- **Tarief-records** (ADR-026) via `certificaid-tarieven.zoek_tabellen` / `lees_tabel` / `query_tabel` — voor records die getalsmatige tarief-, drempel- of decision-matrix-claims doen. Een ⚖️-claim als "BTW-tarief voor renovatie aan privé > 50% door btw-plichtige vennootschap is 6%" moet traceerbaar zijn naar een tarief-record (bv. `btw-facturatie-bouw-vennootschappen`), niet enkel naar wettekst. Markdown-versie van Cijfers-Tarieven is `needs-rework` en niet meer geldige grounding-bron — de records-laag is.
 
 ---
 
@@ -57,10 +58,11 @@ Verbreed met:
 
 **Aanpak**:
 1. Per element met `confidence: grounded`: query bronnen-RAG met de claim
-2. Als geen bron-chunk de claim ondersteunt → suggestie `hallucinatie_risico` met severity `suggestion`
-3. Als bron-chunk de claim **actief tegenspreekt** → suggestie `tegenstrijdig_met_bron` met severity `error` (sterker signaal dan suggestion — refinement-pass moet `confidence: tegenstrijdig` ❌ zetten op het element)
-4. Bij ⚠️-claims: geen check (al gemarkeerd als onzeker)
-5. Bij 🧭-claims: spot-check op tegenstrijdigheid met bronnen — als de vuistregel *tegen* een bron-claim ingaat → suggestie `vuistregel_tegenstrijdig` met severity `error`
+2. **Als de claim een tarief/drempel/decision-matrix bevat**: query óók `certificaid-tarieven` — zoek de relevante tabel met `zoek_tabellen`, lees ze met `lees_tabel` of `query_tabel`, en bevestig dat de cel-waarde matcht. Mismatch → suggestie `tarief_tegenstrijdig` met severity `error`. Geen tarief-record vindbaar voor een numerieke claim → suggestie `tarief_grounding_ontbreekt` met severity `suggestion` (mogelijk staat het in een nog-niet-geëxtraheerde tabel).
+3. Als geen bron-chunk de claim ondersteunt → suggestie `hallucinatie_risico` met severity `suggestion`
+4. Als bron-chunk de claim **actief tegenspreekt** → suggestie `tegenstrijdig_met_bron` met severity `error` (sterker signaal dan suggestion — refinement-pass moet `confidence: tegenstrijdig` ❌ zetten op het element)
+5. Bij ⚠️-claims: geen check (al gemarkeerd als onzeker)
+6. Bij 🧭-claims: spot-check op tegenstrijdigheid met bronnen — als de vuistregel *tegen* een bron-claim ingaat → suggestie `vuistregel_tegenstrijdig` met severity `error`
 
 **Vuistregel**: 5 % hallucinatie-risico is normaal voor LLM-output; > 15 % is signaal voor prompt-aanpassing.
 
@@ -127,6 +129,33 @@ Verbreed met:
 - Bestaat er minstens één familie-fiche per groep verwante records? (bv. 3+ ratio's → kader `jaarrekeninganalyse` moet bestaan)
 - Voor instrument/operatie kinds: zijn alternatieven met `Familie & alternatieven`-sectie expliciet?
 - Voor regimes/fiscale-regelingen: zijn ze gemarkeerd als `beïnvloedt` of `beïnvloed_door` op alle relevante instrumenten?
+
+### G — Consolidatie-regels (ADR-025 §4bis)
+
+**Doel**: detecteer overtredingen van de 8 consolidatie-regels die uit de empirische skeleton-fase (2026-05-21) zijn vastgelegd.
+
+**Per-record-checks**:
+
+| Regel | Detectie | Categorie + severity |
+|---|---|---|
+| 1 — Geen kind-suffix in naam | `fiche_id` eindigt op `-kader` / `-familie` / `-procedure` terwijl `kind` overeenkomt | `naming-regel-1`, `prio_hoog` |
+| 1 — Geen bron in naam | `fiche_id` bevat `ias-`/`ifrs-`/`isa-` patroon (tenzij bron *is* het concept) | `naming-regel-1`, `prio_midden` |
+| 2 — Pair-trap | Twee+ fiches met dezelfde stam en variant-suffix (`-nv`/`-bv`/`-vlabel`/`-brufis`/`-bgaap`) | `pair-trap-regel-2`, `prio_hoog` — voorstel merge |
+| 3 — Audit-procedure als losse fiche | `kind=procedure` met naam beginnend op `audit-X` waar `X`-fiche bestaat | `audit-procedure-regel-3`, `prio_midden` — voorstel verplaats naar cel in X-fiche |
+| 4 — Familie zonder leden | `kind=familie` met lege `edges.heeft_lid` | `familie-zonder-leden-regel-4`, `prio_hoog` |
+| 5 — Granulariteit | Een PO heeft > 30 fiches **EN** > 5 kaders | `granulariteit-regel-5`, `prio_laag` — voorstel review |
+| 5 — Fluffy meta-kader | `kind=kader` met body < 500 chars en geen eigen mechaniek (alleen "wat dit is") | `fluffy-kader-regel-5`, `prio_midden` — voorstel merge in ouder-fiche |
+| 6 — Cross-PO-fragmentatie | Twee records met sterk overlappende `linked_anchors` over verschillende PO's | `cross-po-duplicate-regel-6`, `prio_hoog` — voorstel merge |
+| 8 — Schema-jargon in body | Body-tekst bevat `linked_anchors[`, `node_type=`, `kind=` of PO-codes (regex `\d\.\d+\.[IVX]+`) | `schema-jargon-regel-8`, `prio_laag` |
+
+**Merge-first guideline** (toegevoegd 2026-05-21): bij twijfel tussen merge-of-split-suggestie altijd **eerst merge voorstellen**. Splitsen alleen aanbevelen als de geïnspecteerde records:
+- Wezenlijk verschillende mechanismes hebben (niet alleen verschillende perspectieven of contexten)
+- Samen meer dan 8000 woorden zouden tellen (te lang om in één fiche behapbaar te houden)
+- Verschillende rol×perspectief-doelgroepen hebben die niet overlappen
+
+Voor pair-trap-detection (regel 2): NIET aanbevelen om twee aparte fiches te maken; WEL voorstellen om varianten als sub-secties of als rol×perspectief-uitsplitsing inside één fiche te plaatsen.
+
+**Voor IFRS-3-bedrijfscombinatie ↔ fusie-achtig**: prefer merge in bestaand operatie-fiche; suggereer splitsing alleen na user-instructie of als er een specifieke conceptueel verschil is dat in één fiche niet werkbaar wordt.
 
 ---
 

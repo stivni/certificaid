@@ -10,6 +10,7 @@ linked_anchors:
 - 1.6.III.A
 - 1.6.taak.1
 - 1.7.I.D
+- 1.7.V
 - 1.7.V.A
 - 1.7.V.B
 - 1.7.V.C
@@ -23,7 +24,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gebruik-werk-interne-auditors-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Gebruikmaken van de werkzaamheden van interne auditors bij externe controle ⚖️
 
@@ -35,6 +36,7 @@ Voor de stagiair die zich afvraagt waarom een externe controle wordt afgestemd o
 De externe auditor kan onder strikte voorwaarden gebruikmaken van het werk van de interne auditfunctie van de gecontroleerde entiteit. Twee vormen worden onderscheiden: (a) het gebruikmaken van het reguliere werk van de interne auditfunctie als onderdeel van de eigen controle-informatie, en (b) het inschakelen van interne auditors voor directe ondersteuning onder de aansturing en het toezicht van de externe auditor. De externe auditor behoudt in beide gevallen de ongedeelde verantwoordelijkheid voor het controleoordeel.
 
 _Bron: ISA 610 (herzien 2013) paragrafen 1-2, 11_
+
 
 
 ## Bouwstenen
@@ -116,15 +118,15 @@ _Grondslag: ISA 610 (herzien 2013) paragrafen 36-37 + ISA 260 (herzien)_
 ## Valkuilen
 
 > [!warning]- Eerst de drie evaluatiecriteria checken — objectiviteit, competentie, systematische benadering. Pas dan beslissen over aard en omvang van gebruik.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bij hoog inherent risico of significante aangelegenheden: de externe auditor blijft de hoofdtester.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bij directe ondersteuning: aansturing + toezicht + (her)beoordeling van een deel van het werk zijn alle drie verplicht.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -132,7 +134,7 @@ _Grondslag: ISA 610 (herzien 2013) paragrafen 36-37 + ISA 260 (herzien)_
 
 - **Vereist kennis van**: [[interne-audit]]
 - **Vereist kennis van**: [[functie-interne-auditor]]
-
+- **Wordt voorondersteld in** (1): [[isa-standaarden-ic]]
 ## Bronnen
 
 [^1]: `ISA-610-herzien__sec_inleiding`

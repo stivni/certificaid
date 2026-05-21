@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bedrijfsresultaat.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Bedrijfsresultaat (bedrijfskosten en bedrijfsopbrengsten) ⚖️
 
@@ -29,6 +29,7 @@ Het bedrijfsresultaat is de **operationele kern** van de resultatenrekening — 
 Het verschil tussen **bedrijfsopbrengsten** (klasse 7, hoofdzakelijk omzet en voorraadwijzigingen) en **bedrijfskosten** (klasse 6, hoofdzakelijk handelsgoederen/grond- en hulpstoffen, diensten en diverse goederen, bezoldigingen + sociale lasten, afschrijvingen, waardeverminderingen, voorzieningen, andere bedrijfskosten). Geeft weer wat de onderneming presteert in haar **kernactiviteit** — vóór financiële en niet-recurrente posten.
 
 _Bron: MAR klasse 6 + 7_
+
 
 
 ## Bouwstenen
@@ -87,7 +88,7 @@ _Grondslag: MAR klasse 63 + 64_
 <h3 id="brutomarge-en-ebitda-als-afgeleide-ratio-s">Brutomarge en EBITDA als afgeleide ratio's</h3>
 
 > [!tip]- Brutomarge en EBITDA als afgeleide ratio's
-> Brutomarge = omzet − klasse 60 (aankopen) − voorraadwijziging. EBITDA = bedrijfsresultaat + afschrijvingen + waardeverminderingen + voorzieningen — toevoegingen. Twee veelgebruikte indicatoren bij ratio-analyse en kredietbeoordeling. 🤖
+> Brutomarge = omzet − klasse 60 (aankopen) − voorraadwijziging. EBITDA = bedrijfsresultaat + afschrijvingen + waardeverminderingen + voorzieningen — toevoegingen. Twee veelgebruikte indicatoren bij ratio-analyse en kredietbeoordeling. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen: EBITDA = klasse 70+71+72+74 − 60 − 61 − 62 − 64 (zonder klasse 63 niet-kas).
@@ -102,7 +103,7 @@ _Grondslag: MAR klasse 63 + 64_
 ## Valkuilen
 
 > [!warning]- Voorraadwijziging is een onderdeel van de bedrijfsopbrengsten (rekening 71) bij stijging van voorraad gereed product/goederen in bewerking,…
-> ⚠️ Voorraadwijziging is een onderdeel van de bedrijfsopbrengsten (rekening 71) bij stijging van voorraad gereed product/goederen in bewerking, MAAR een correctie op de aankopen (rekening 609) bij voorraadwijziging grondstoffen. Onderscheid is essentieel voor correct bedrijfsresultaat. 🤖
+> ⚠️ Voorraadwijziging is een onderdeel van de bedrijfsopbrengsten (rekening 71) bij stijging van voorraad gereed product/goederen in bewerking, MAAR een correctie op de aankopen (rekening 609) bij voorraadwijziging grondstoffen. Onderscheid is essentieel voor correct bedrijfsresultaat. 🔗
 >
 > _Bron: MAR klasse 60 + 71_
 

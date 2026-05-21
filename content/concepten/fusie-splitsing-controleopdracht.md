@@ -19,7 +19,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/fusie-splitsing-controleopdracht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Verslag bij fusie of splitsing van vennootschappen ⚖️
 
@@ -33,6 +33,7 @@ Het fusie-/splitsingsverslag is één van de gedeelde wettelijk voorbehouden opd
 Het verslag bij fusie of splitsing is een gedeelde wettelijk voorbehouden opdracht (commissaris, bedrijfsrevisor of — bij afwezigheid van commissaris — gecertificeerd accountant) waarbij de beroepsbeoefenaar nagaat of de inlichtingen in het fusie- of splitsingsvoorstel en de bestuursverslagen de algemene vergadering toelaten met volkomen kennis van zaken te beslissen. Hij verklaart inzonderheid in welke mate de aandelen-ruilverhouding redelijk is vanuit het standpunt van de aandeelhouders van de vennootschap aan wie hij verslag uitbrengt.
 
 _Bron: ITAA-norm Fusie en splitsing §2_
+
 
 
 ## Bouwstenen
@@ -87,6 +88,9 @@ _Grondslag: ITAA-norm Fusie en splitsing §2.2_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (3): [[adviseren-overdrachtsroute-onderneming]] · [[exit-routes-onderneming-overzicht]] · [[opstellen-overname-verslaggeving-accountant]]
 ## Voorbeelden
 
 Brugse Brouwerij BV (gewaardeerd op € 4.500.000) wordt opgesplitst in een operationele BV (€ 3.500.000) en een vastgoed-BV (€ 1.000.000). Geen commissaris benoemd. De algemene vergadering benoemt Sofie Janssens (gecertificeerd accountant). Zij toetst de waarderingsmethodes uit het splitsingsvoorstel, concludeert dat de toewijzing van aandelen aan de bestaande aandeelhouders (4:1-verhouding) redelijk is, en levert haar verslag aan de buitengewone algemene vergadering.

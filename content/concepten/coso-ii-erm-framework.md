@@ -15,11 +15,12 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/coso-ii-erm-framework.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# COSO II — Enterprise Risk Management 🤖
+# COSO II — Enterprise Risk Management 🔗
 
 COSO II breidt COSO I uit naar Enterprise Risk Management — een geïntegreerde benadering van risicobeheer die strategie, prestaties en cultuur in één framework brengt. Centraal: risicobeheer is geen afzonderlijke functie maar verweven in elke strategische beslissing. Herziening 2017 verlegt klemtoon naar 'risk in strategy setting' en 'risk appetite'.
+
 
 
 ## Bouwstenen

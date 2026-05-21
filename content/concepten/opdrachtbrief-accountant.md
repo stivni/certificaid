@@ -18,7 +18,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/opdrachtbrief-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Opdrachtbrief van de accountant ⚖️
 
@@ -30,6 +30,7 @@ De opdrachtbrief is in België verplicht voor elke contractuele opdracht van een
 De opdrachtbrief is het schriftelijk contract tussen cliënt en beroepsbeoefenaar dat de scope, ereloon, wederzijdse verplichtingen, aansprakelijkheid en beroepsgeheim vastlegt. Voor elke contractuele opdracht verplicht — ondertekend vóór de uitvoering — en hét juridisch fundament voor zowel honoreringsdiscussies als aansprakelijkheidsbeperking.
 
 _Bron: ITAA-norm Opdrachtbrief §1_
+
 
 
 ## Bouwstenen
@@ -114,7 +115,7 @@ _Grondslag: ITAA-norm Opdrachtbrief §7_
 ## Zie ook
 
 - **Vereist kennis van**: [[]]
-
+- **Wordt voorondersteld in** (3): [[accountantsrol-bij-vennootschapsconflict]] · [[beroepsaansprakelijkheid-accountant]] · [[randvoorwaarden-controle]]- **Triggert** (1): [[contractuele-controleopdracht]]
 ## Voorbeelden
 
 Wolters & Partners CVBA stelt voor Meubelzaak Mertens BV een opdrachtbrief op vóór de start van de jaarlijkse boekhoudkundige opdracht: scope (organisatie boekhouding + jaarrekening + fiscale aangifte), termijnen (jaarrekening klaar tegen 30 april), ereloon (€ 8.500 forfait + uurtarief boven scope), aansprakelijkheidsplafond (drie keer ereloon, niet bij bedrog).

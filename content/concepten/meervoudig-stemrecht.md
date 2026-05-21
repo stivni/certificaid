@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/meervoudig-stemrecht.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Meervoudig stemrecht en dubbel stemrecht ⚖️
 
@@ -29,6 +29,7 @@ Eén van de meest opvallende vernieuwingen van het WVV (2019): de **vrijheid** o
 **Meervoudig stemrecht** geeft aan bepaalde **soorten aandelen** **meer dan één stem** per aandeel — bij niet-genoteerde NV's en BV's kunnen de statuten dit **vrij** regelen (art. 5:42, 7:52 WVV). In **genoteerde NV's** is enkel een **dubbel stemrecht** mogelijk: aandelen die **minstens 2 jaar** op naam bij dezelfde aandeelhouder zijn, krijgen automatisch **2 stemmen** (art. 7:53 WVV — **loyauteitsstemrecht**).
 
 _Bron: WVV art. 5:42, 7:51, 7:52, 7:53_
+
 
 
 ## In de praktijk
@@ -57,7 +58,7 @@ _Bron: WVV art. 5:42, 7:51, 7:52, 7:53_
 ## Valkuilen
 
 > [!warning]- Bij de **berekening van het 95%-drempel** voor het **uitkoopbod** (art. 7:82) wordt **geen rekening gehouden** met meervoudig stemrecht. De 95%-drempel slaat op het **aantal effecten met stemrecht**, niet op het aantal stemmen. Anders zou een houder van weinig aandelen maar veel stemmen de squeeze-out kunnen forceren.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -67,7 +68,7 @@ _Bron: WVV art. 5:42, 7:51, 7:52, 7:53_
 
 ## Voorbeelden
 
-Aurelia Holding NV heeft 1.000 aandelen klasse A (10 stemmen elk, gehouden door oprichter Pieter Vermeulen) en 9.000 aandelen klasse B (1 stem elk, gehouden door investeerders). Stemmenverhouding: Pieter = 10.000 stemmen vs investeerders = 9.000 — Pieter bezit slechts **10% van het kapitaal** maar oefent **53% van de stemrechten** uit. Klassiek voorbeeld van controleverwerving via meervoudig stemrecht zonder meerderheid van het kapitaal. _(Aurelia Holding NV, Pieter Vermeulen)_ 🤖
+Aurelia Holding NV heeft 1.000 aandelen klasse A (10 stemmen elk, gehouden door oprichter Pieter Vermeulen) en 9.000 aandelen klasse B (1 stem elk, gehouden door investeerders). Stemmenverhouding: Pieter = 10.000 stemmen vs investeerders = 9.000 — Pieter bezit slechts **10% van het kapitaal** maar oefent **53% van de stemrechten** uit. Klassiek voorbeeld van controleverwerving via meervoudig stemrecht zonder meerderheid van het kapitaal. _(Aurelia Holding NV, Pieter Vermeulen)_ 🔗
 
 ## Bronnen
 

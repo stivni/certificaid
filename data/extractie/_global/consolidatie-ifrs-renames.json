@@ -1,0 +1,13 @@
+[
+  {"old": "ifrs-verordening", "new": "ifrs", "reason": "C2.1 — IFRS-verordening is bron; we maken er de hoofdfiche IFRS-kader van waarin andere IFRS-aspecten mergen"},
+  {"old": "ias-16-materiele-vaste-activa-ifrs", "new": "materiele-vaste-activa", "reason": "C2.5 — regel B: concept verborgen in bron (zou later balanspost-kind moeten worden)"},
+  {"old": "ias-38-immateriele-activa-ifrs", "new": "immateriele-vaste-activa", "reason": "C2.6 — regel B (idem)"},
+  {"old": "ifrs-15-opbrengsten", "new": "opbrengstverantwoording", "reason": "C2.9 — regel B: concept (opbrengstverantwoording) is breder dan IFRS-15"},
+  {"old": "ifrs-3-bedrijfscombinatie", "new": "bedrijfscombinatie", "reason": "C2 — regel B: 'bedrijfscombinatie' is concept, IFRS-3 is bron daarvan"},
+  {"old": "ifrs-10-control-test", "new": "controle-test-deelneming", "reason": "C2 — regel B"},
+  {"old": "ifrs-11-gezamenlijke-regelingen", "new": "gezamenlijke-regelingen", "reason": "C2 — regel B"},
+  {"old": "ifrs-12-disclosures-belangen", "new": "toelichting-belangen-in-andere-entiteiten", "reason": "C2 — regel B"},
+  {"old": "ifrs-eerste-toepassing", "new": "eerste-toepassing-ifrs", "reason": "C2 — IFRS achtervoegsel: 'eerste toepassing' is concept, IFRS-1 specificeert de regels"},
+  {"old": "audit-groepsrekening-isa-600", "new": "audit-van-geconsolideerde-jaarrekening", "reason": "C5 — naam zonder bron-ref; pre-merge naam (mergt straks naar perspectief-cel in geconsolideerde-jaarrekening)"},
+  {"old": "geconsolideerde-jaarrekening-bgaap", "new": "geconsolideerde-jaarrekening", "reason": "C2 — BGAAP-suffix weg; wordt hoofdfiche met BGAAP+IFRS-perspectieven inside"}
+]

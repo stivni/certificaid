@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/informatiesysteem-onderneming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Informatiesysteem van de onderneming 🤖
+# Informatiesysteem van de onderneming 🔗
 
 Het informatiesysteem (boekhoud-IT, ERP, rapportagestructuren) is in PO 1.7 een aparte invalshoek omdat IC-effectiviteit erop staat of valt. Voor de stagiair komt dit terug in elke audit-opdracht: ISA 315 verplicht hem om vóór risk assessment het informatiesysteem te doorgronden. In adviesopdrachten is dit waar 'IT-general-controls' binnenkomen — toegangsbeheer, change management, back-ups. Examen-vragen testen de koppeling IS ↔ COSO-component 'informatie en communicatie'.
 
@@ -27,7 +27,10 @@ Het informatiesysteem (boekhoud-IT, ERP, rapportagestructuren) is in PO 1.7 een 
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[stromen-onderneming]]
+
 Het informatiesysteem is het geheel van procedures, mensen, software en hardware dat data in een onderneming verzamelt, verwerkt, opslaat en distribueert. Voor interne controle is het cruciaal: zonder betrouwbare informatie kan het management niet sturen, kan de boekhouding niet kloppen en kan de externe auditor niet steunen op de cijfers.
+
 
 
 ## Bouwstenen
@@ -55,7 +58,7 @@ Het IS van de financiële verslaggeving initieert, registreert, verwerkt en rapp
 
 _Grondslag: ISA 315 (herzien-2019) Bijlage 3 §15_
 
-### Application controls versus IT-general-controls 🤖
+### Application controls versus IT-general-controls 🔗
 
 Application controls = controles binnen één applicatie (validatieregels, autorisatieworkflows). IT-general-controls = controles op de IT-omgeving zelf (toegangsbeheer, change management, back-up).
 
@@ -95,7 +98,7 @@ _Grondslag: ISA 315 Bijlage 3 §17_
 ## Valkuilen
 
 > [!warning]- Examen-val: alle IT-issues bij 'application controls' onderbrengen
-> ⚠️ Examen-val: alle IT-issues bij 'application controls' onderbrengen. Een zwak wachtwoordbeleid is GEEN application control — het is een IT-general-control. Beide zijn nodig. 🤖
+> ⚠️ Examen-val: alle IT-issues bij 'application controls' onderbrengen. Een zwak wachtwoordbeleid is GEEN application control — het is een IT-general-control. Beide zijn nodig. 🔗
 
 
 
@@ -104,7 +107,7 @@ _Grondslag: ISA 315 Bijlage 3 §17_
 - **Vereist kennis van**: [[geinformatiseerde-omgeving-ic]]
 - **Vereist kennis van**: [[it-general-controls]]
 - **Vereist kennis van**: [[it-application-controls]]
-
+- **Wordt voorondersteld in** (1): [[informatie-en-communicatie-ic]]
 ## Voorbeelden
 
 Yperse Werkplaats BV werkt met Odoo ERP. Inkoopfacturen worden gescand en automatisch gematcht met bestelbon en goederenontvangst (application controls); de IT-verantwoordelijke heeft alleen Pieter Vermeulen + Sofie Janssens admin-rechten gegeven (IT-general-control toegangsbeheer); wekelijkse externe back-up via versleutelde cloud.

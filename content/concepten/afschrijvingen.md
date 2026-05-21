@@ -20,7 +20,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/afschrijvingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Afschrijvingen ⚖️
 
@@ -31,9 +31,12 @@ De aanschaffingswaarde van vaste activa met beperkte gebruiksduur **systematisch
 
 > [!info] Specialisatie van: [[voorzichtigheidsbeginsel]]
 
+> [!info] Specialisaties (1): [[afschrijvingen-ifrs]]
+
 Bedragen ten laste van de resultatenrekening genomen met betrekking tot **oprichtingskosten** en **immateriële en materiële vaste activa met beperkte gebruiksduur**, om hetzij de aanschaffingswaarde te spreiden over de waarschijnlijke gebruiksduur, hetzij de kost te nemen op het ogenblik waarop ze worden aangegaan (KB WVV art. 3:23). Het afschrijvingsplan wordt vastgesteld door het bestuursorgaan en samengevat in de toelichting. De gecumuleerde afschrijvingen worden in mindering gebracht van de actiefposten waarop ze betrekking hebben.
 
 _Bron: KB WVV art. 3:23_
+
 
 
 ## Bouwstenen
@@ -217,7 +220,7 @@ Fiscaal versneld: dubbele lineaire jaartranche tot lineair lager wordt. Economis
 ## Valkuilen
 
 > [!warning]- Afschrijving spreidt de KOST in de RR, NIET de waarde van het actief
-> ⚠️ Afschrijving spreidt de KOST in de RR, NIET de waarde van het actief. De boekwaarde op de balans is een afgeleide. Stoppen met afschrijven 'omdat het actief eigenlijk niet zoveel waard meer is' is een fout — dat hoort via niet-recurrente afschrijving of waardevermindering. 🤖
+> ⚠️ Afschrijving spreidt de KOST in de RR, NIET de waarde van het actief. De boekwaarde op de balans is een afgeleide. Stoppen met afschrijven 'omdat het actief eigenlijk niet zoveel waard meer is' is een fout — dat hoort via niet-recurrente afschrijving of waardevermindering. 🔗
 >
 > _Bron: KB WVV art. 3:23_
 
@@ -226,7 +229,7 @@ Fiscaal versneld: dubbele lineaire jaartranche tot lineair lager wordt. Economis
 ## Zie ook
 
 - **Vereist kennis van**: [[aanschaffingswaarde]]
-
+- **Wordt voorondersteld in** (5): [[aanschaffingswaarde]] · [[leasing]] · [[materiele-vaste-activa]] · [[opsplitsing-eigendom]] · [[overige-kosten]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt een snij-installatie voor € 30.500 met geschatte gebruiksduur van 5 jaar. Lineaire afschrijving = € 30.500 / 5 = € 6.100 per jaar. Eind jaar 1: Debet 6302 Afschrijvingen materiële vaste activa € 6.100 / Credit 2309 Afschrijvingen op installaties € 6.100. Op de balans staat de netto-boekwaarde aan eind jaar 1 op € 30.500 − € 6.100 = € 24.400.

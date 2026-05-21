@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/jaarrekening-vzw-stichting.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Jaarrekening van VZW, IVZW en stichtingen ⚖️
 
@@ -29,6 +29,7 @@ VZW's, IVZW's en stichtingen hebben **eigen** jaarrekeningregels (WVV Boek 9 + K
 VZW's, IVZW's en stichtingen hebben eigen jaarrekening-regels (WVV Boek 9 + KB-WVV art. 3:184 e.v.). Drie regimes naargelang grootte: (1) zeer kleine VZW — vereenvoudigde boekhouding (enkel kasboeken). (2) Kleine VZW — verkort vennootschap-achtig schema, aangepast aan vereniging. (3) Grote VZW — volledig schema. Specifiek: geen kapitaal maar 'fondsen'; resultaat als overschot of tekort, niet als winst.
 
 _Bron: KB-WVV art. 3:184 e.v._
+
 
 
 ## Bouwstenen

@@ -1,0 +1,438 @@
+{
+  "id": "investeringsaftrek",
+  "naam": "Investeringsaftrek",
+  "node_type": "fiscale-regeling",
+  "schema_version": "2.0",
+  "primary_po": "2.3",
+  "linked_anchors": [
+    "2.3.II.B",
+    "2.3.taak.3"
+  ],
+  "dekt_tdks": [
+    "2.3.II.B",
+    "2.3.taak.3"
+  ],
+  "cross_po": 1,
+  "edges_voorgesteld": {
+    "lid_van": [
+      "belastbare-grondslag-vennootschapsbelasting"
+    ],
+    "verward_met": [
+      "innovatie-aftrek",
+      "afschrijvingen"
+    ],
+    "beïnvloed_door": [
+      "kleine-vennootschap"
+    ]
+  },
+  "_provenance": {
+    "extract_wave_id": "wave-full2pass-test-20260521",
+    "schema_version": "2.0",
+    "primaire_bronnen": [
+      "WIB92 art. 68-75 (PB)",
+      "WIB92 art. 201, 207 (VEN)",
+      "WIB92 art. 72 (overdraagbaarheid)",
+      "CBN-advies 134/3 (boekhoudkundige verwerking)"
+    ],
+    "confidence_history": [
+      {
+        "datum": "2026-05-21",
+        "agent": "claude-sonnet-4-6",
+        "wave": "wave-full2pass-test-20260521",
+        "opmerking": "Full-2-pass extract. Driesporen-regime (art. 69 WIB92) grounded. Overdraagbaarheid (art. 72) via 1 gerichte zoek_bronnen(rerank=true). Percentages voor VEN grootte-afhankelijk gedekt via art. 201. Hervorming 2025 gemarkeerd als te_verifieren voor specifieke inwerkingtreding vanaf aanslagjaar 2027. Art. 69/2 (gespreide aftrek kwalificerende activa) partim gebaseerd op art. 70 tekst; exacte activalijst als te_verifieren."
+      }
+    ]
+  },
+  "definitie": {
+    "text": "De investeringsaftrek laat ondernemingen toe om een percentage van de aanschaffings- of beleggingswaarde van nieuwe materiële en immateriële vaste activa die in België voor de beroepswerkzaamheid worden gebruikt, eenmalig of gespreid vrij te stellen van de belastbare winst.",
+    "confidence": "grounded",
+    "source": "WIB92 art. 68 — definitie investeringsaftrek"
+  },
+  "wat_er_economisch_echt_gebeurt": {
+    "text": "Een onderneming investeert in nieuwe bedrijfsmiddelen en mag naast de gewone afschrijvingen nog een bijkomend percentage van de aanschaffingswaarde fiscaal aftrekken. Die aftrek verlaagt de belastbare grondslag in het jaar van investering (of gespreid over de afschrijvingsperiode), zodat de belastingdruk op dat moment daalt — als een overheidsbonus op investeren.\n\nSinds aanslagjaar 2026 (hervorming 2025) bestaan drie sporen: (1) een gewone basisaftrek (10%) voor gewone nieuwe activa bij kleine vennootschappen en zelfstandigen, met een toeslag van 10 procentpunt voor digitale activa; (2) een verhoogde thematische aftrek (40% voor kleine vennootschappen, 30% voor grote) voor kwalificerende groene of energiebesparende activa; en (3) een technologie-aftrek (13,5%) voor specifieke innovatieve activa. Voor een grote vennootschap is de basisaftrek nul — zij profiteren alleen van de thematische of technologie-aftrek.\n\nWanneer de winst in een jaar onvoldoende is om de aftrek volledig te benutten, wordt het saldo overgedragen naar volgende belastbare tijdperken (onbeperkt in tijd).",
+    "confidence": "inferred",
+    "toelichting": "Economische synthese op basis van WIB92 art. 68-70, 72, 201. De 10%-toeslag voor digitale activa is letterlijk in art. 69 derde lid. Het nul-percentage voor grote vennootschappen bij de basisaftrek volgt uit art. 201 §1 2°. Overdraagbaarheid: art. 72 PB (geldt ook VEN via art. 201)."
+  },
+  "wanneer_van_toepassing": {
+    "voor_wie": {
+      "text": "Zelfstandigen (PB: winst en baten, art. 68-77 WIB92) en vennootschappen (VEN: art. 201 WIB92). Kleine vennootschappen genieten altijd de basisaftrek; grote vennootschappen enkel de thematische of technologie-aftrek.",
+      "confidence": "grounded",
+      "source": "WIB92 art. 68 (PB) + art. 201 §1 (VEN)"
+    },
+    "wanneer_wel": [
+      {
+        "text": "Materiële of immateriële vaste activa in nieuwe staat verkregen of tot stand gebracht",
+        "confidence": "grounded",
+        "source": "WIB92 art. 68 eerste lid"
+      },
+      {
+        "text": "Activa worden in België gebruikt voor de beroepswerkzaamheid",
+        "confidence": "grounded",
+        "source": "WIB92 art. 68 eerste lid"
+      },
+      {
+        "text": "Activa zijn afschrijfbaar over minstens 3 belastbare tijdperken",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 4°"
+      },
+      {
+        "text": "Activa worden uitsluitend beroepsmatig gebruikt",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 1°"
+      }
+    ],
+    "wanneer_niet": [
+      {
+        "text": "Activa niet uitsluitend voor de beroepswerkzaamheid — gemengd gebruik is uitgesloten",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 1°"
+      },
+      {
+        "text": "Activa verkregen om het gebruiksrecht via leasing, erfpacht of opstal aan een derde over te dragen en door die derde afschrijfbaar zijn",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 2°"
+      },
+      {
+        "text": "Activa waarvan het gebruiksrecht anderszins is overgedragen aan een andere belastingplichtige die niet zelf aan de IA-voorwaarden voldoet",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 3°"
+      },
+      {
+        "text": "Niet-afschrijfbare activa of activa met afschrijvingstermijn korter dan 3 belastbare tijdperken",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 4°"
+      },
+      {
+        "text": "Personenwagens en auto's voor dubbel gebruik (met uitzondering van taxi's en rijschoolvoertuigen)",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 5°"
+      },
+      {
+        "text": "Bijkomende aankoopkosten en onrechtstreekse productiekosten die niet samen met het actief worden afgeschreven",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 6°"
+      },
+      {
+        "text": "Activa gebaseerd op of gebruik makend van voor het milieu en klimaat schadelijke stoffen (klimaat- en milieu-uitsluitingslijst), voor zover de basisaftrek betreft",
+        "confidence": "grounded",
+        "source": "WIB92 art. 75 7°"
+      },
+      {
+        "text": "Wanneer winst op forfaitaire grondslagen wordt bepaald waarbij afschrijvingen forfaitair zijn inbegrepen (tenzij specifiek energiebesparing-activa)",
+        "confidence": "grounded",
+        "source": "WIB92 art. 74"
+      },
+      {
+        "text": "Grote vennootschappen (VEN): geen basisaftrek (0%)",
+        "confidence": "grounded",
+        "source": "WIB92 art. 201 §1 2°"
+      }
+    ],
+    "hoofdrisico": {
+      "text": "Vervreemding of gebruik-overdracht van het actief binnen 3 jaar kan leiden tot terugname van de aftrek en meerwaardeproblematiek. De investeringsaftrek telt niet mee in de boekwaarde voor latere meerwaarden.",
+      "confidence": "grounded",
+      "source": "WIB92 art. 73 + art. 75 3°"
+    },
+    "hoofdvoordeel": {
+      "text": "Directe verlaging van de belastbare grondslag met een percentage boven op de normale afschrijvingen — in feite een renteloze belastingvrijstelling op het investeringsbedrag, overdraagbaar bij onvoldoende winst.",
+      "confidence": "inferred",
+      "toelichting": "Synthese van art. 68 (vrijstelling) + art. 72 (overdraagbaarheid)."
+    }
+  },
+  "hoe_het_werkt": {
+    "intro": "De investeringsaftrek werkt via drie aftrekcategorieën. De belastingplichtige kiest per actief slechts één categorie. Het basismechanisme: aftrek = aanschaffings-/beleggingswaarde × toepasselijk percentage. De aftrek kan eenmalig of gespreid over de afschrijvingsperiode worden toegepast.",
+    "onderdelen": [
+      {
+        "id": "drie-sporen-regime",
+        "titel": "Drie aftrekcategorieën (sinds aanslagjaar 2026)",
+        "confidence": "grounded",
+        "source": "WIB92 art. 69 eerste lid + art. 201 (VEN)",
+        "elementen": [
+          {
+            "element_id": "basisaftrek",
+            "inhoud_type": "tabel",
+            "titel": "Spoor 1 — Basisaftrek (art. 69, 1°)",
+            "beschrijving": "Percentage van de aanschaffings- of beleggingswaarde van gewone nieuwe activa.\n\n| Belastingplichtige | Percentage |\n|---|---|\n| Kleine vennootschap / zelfstandige (PB) | 10% |\n| Kleine vennootschap — digitale activa | 20% (10% + 10% toeslag) |\n| Grote vennootschap | 0% (geen basisaftrek) |",
+            "confidence": "grounded",
+            "source": "WIB92 art. 69 1° + derde lid; art. 201 §1 1° en 2°",
+            "weergaven": [
+              {
+                "formaat": "tabel",
+                "beschrijving": "Percentages basisaftrek per type belastingplichtige"
+              }
+            ]
+          },
+          {
+            "element_id": "thematische-aftrek",
+            "inhoud_type": "tekst",
+            "titel": "Spoor 2 — Verhoogde thematische aftrek (art. 69, 2°)",
+            "beschrijving": "Voor kwalificerende groene, energiebesparende of andere thematische activa (opgenomen op de thematische-investeringslijst). Percentage: 40% voor kleine vennootschappen en PB; 30% voor grote vennootschappen (tot aanslagjaar 2026 — ⚠️ vanaf aanslagjaar 2027 wordt art. 201 §2 opgeheven, exacte opvolger te verifiëren).",
+            "confidence": "grounded",
+            "source": "WIB92 art. 69 eerste lid 2° + art. 201 §2",
+            "weergaven": []
+          },
+          {
+            "element_id": "technologie-aftrek",
+            "inhoud_type": "tekst",
+            "titel": "Spoor 3 — Technologie-aftrek (art. 69, 3°)",
+            "beschrijving": "Voor specifieke innovatieve of technologische activa. Percentage: 13,5%. Altijd eenmalig toe te passen (geen gespreide variant beschikbaar voor dit spoor).",
+            "confidence": "grounded",
+            "source": "WIB92 art. 69 eerste lid 3°",
+            "weergaven": []
+          }
+        ]
+      },
+      {
+        "id": "eenmalig-vs-gespreid",
+        "titel": "Eenmalig vs gespreid",
+        "confidence": "grounded",
+        "source": "WIB92 art. 68-70",
+        "elementen": [
+          {
+            "element_id": "eenmalige-aftrek",
+            "inhoud_type": "tekst",
+            "titel": "Eenmalige aftrek (standaard)",
+            "beschrijving": "De aftrek wordt in het belastbare tijdperk van verkrijging of tot-stand-brenging van de activa in één keer verricht. In de VEN-context is de basisaftrek (spoor 1) altijd eenmalig: de wet stelt expliciet dat deze aftrek altijd in één keer wordt toegepast.",
+            "confidence": "grounded",
+            "source": "WIB92 art. 201 §1 laatste lid (VEN: basisaftrek altijd eenmalig)",
+            "weergaven": []
+          },
+          {
+            "element_id": "gespreide-aftrek",
+            "inhoud_type": "tekst",
+            "titel": "Gespreide aftrek (optioneel, voor specifieke activa)",
+            "beschrijving": "De belastingplichtige kan opteren voor spreiding over de afschrijvingsperiode. Bij gespreide aftrek wordt een eenvormig percentage van 20,5% toegepast op de jaarlijks aangenomen afschrijvingen. Gespreide aftrek is enkel mogelijk voor de in art. 69/2, 2° bedoelde vaste activa (⚠️ exacte activalist te verifiëren in KB/WIB92). De keuze voor eenmalig of gespreid is definitief per actief.",
+            "confidence": "grounded",
+            "source": "WIB92 art. 70",
+            "weergaven": []
+          }
+        ]
+      },
+      {
+        "id": "overdraagbaarheid",
+        "titel": "Overdraagbaarheid bij onvoldoende winst",
+        "confidence": "grounded",
+        "source": "WIB92 art. 72",
+        "elementen": [
+          {
+            "element_id": "overdracht-regeling",
+            "inhoud_type": "tekst",
+            "titel": "Onbeperkte overdraagbaarheid",
+            "beschrijving": "Indien een belastbaar tijdperk geen of onvoldoende winst of baten oplevert om de investeringsaftrek te kunnen verrichten, wordt de voor dat belastbaar tijdperk niet verleende vrijstelling achtereenvolgens overgedragen op de winst of baten van de volgende belastbare tijdperken. Er is geen maximale overdrachtstermijn.",
+            "confidence": "grounded",
+            "source": "WIB92 art. 72",
+            "weergaven": []
+          }
+        ]
+      },
+      {
+        "id": "boekhoudkundige-verwerking",
+        "titel": "Boekhoudkundige verwerking",
+        "confidence": "grounded",
+        "source": "CBN-advies 134/3",
+        "elementen": [
+          {
+            "element_id": "geen-aparte-boeking",
+            "inhoud_type": "tekst",
+            "titel": "Geen aparte boeking van de investeringsaftrek",
+            "beschrijving": "De investeringsaftrek heeft boekhoudkundig enkel tot gevolg dat het bedrag van de op de winst van het boekjaar te betalen belastingen wordt verminderd. Er is geen aparte boeking van de investeringsaftrek als zodanig vereist in de jaarrekening.",
+            "confidence": "grounded",
+            "source": "CBN-advies 134/3",
+            "weergaven": []
+          }
+        ]
+      },
+      {
+        "id": "meerwaarden-interactie",
+        "titel": "Interactie met latere meerwaarden",
+        "confidence": "grounded",
+        "source": "WIB92 art. 73",
+        "elementen": [
+          {
+            "element_id": "ia-niet-in-boekwaarde",
+            "inhoud_type": "tekst",
+            "titel": "IA verlaagt de fiscale boekwaarde niet",
+            "beschrijving": "De investeringsaftrek komt niet in aanmerking voor het bepalen van de latere meerwaarden of minderwaarden op de activa waarvoor hij werd verleend. De fiscale afschrijvingsbasis voor meerwaarden blijft ongewijzigd — de IA is een vrijstelling, geen extra afschrijving.",
+            "confidence": "grounded",
+            "source": "WIB92 art. 73",
+            "weergaven": []
+          }
+        ]
+      }
+    ]
+  },
+  "rol_van_de_accountant": {
+    "perspectieven": [
+      {
+        "actor": "KMO-handelsonderneming",
+        "emoji": "🏪",
+        "rollen": [
+          {
+            "rol": "fiscaal adviseur",
+            "emoji": "🏛",
+            "taken": [
+              "Investeringsplan fiscaal screenen: welk spoor (basis / thematisch / technologie) is optimaal?",
+              "Keuze eenmalig vs gespreid berekenen in functie van winstpositie en cashflownood",
+              "Controleren of activa voldoen aan alle voorwaarden (nieuw, afschrijfbaar >3j, uitsluitend beroepsmatig)",
+              "Overdraagbare IA-saldi bewaken in aangifte",
+              "Cumulatieverbod met belastingkrediet O&O signaleren bij R&D-activa"
+            ],
+            "elementen": [
+              {
+                "element_id": "spoor-keuze",
+                "inhoud_type": "vuistregel",
+                "titel": "Spoor-selectie per actief",
+                "beschrijving": "Kies per actief het hoogste beschikbare percentage. Thematisch (40%) > Technologie (13,5%) > Basis (10/20%). Controleer of het actief op de thematische- of technologielijst staat vóór de aankoop.",
+                "confidence": "vuistregel",
+                "weergaven": []
+              },
+              {
+                "element_id": "grootte-drempel",
+                "inhoud_type": "tekst",
+                "titel": "KMO-voordeel: basisaftrek 10%",
+                "beschrijving": "Kleine vennootschappen (art. 1:24 WVV) hebben recht op 10% basisaftrek; grote vennootschappen niet. Bij grensgevallen (net boven de KMO-drempel) is de grootte-toetsing het eerste aandachtspunt.",
+                "confidence": "grounded",
+                "source": "WIB92 art. 201 §1 1°-2°",
+                "weergaven": []
+              }
+            ]
+          },
+          {
+            "rol": "boekhouder",
+            "emoji": "📋",
+            "taken": [
+              "Opgave investeringsaftrek (bijlage bij aangifte) correct invullen en tijdig indienen",
+              "Overdraagbare saldi bewaken in de aangifte-werksheet (opgemaakt per aanslagjaar)",
+              "Bevestigen dat activering op balans correct is (nieuwstaat, geen aankoopkosten los van actief afgeschreven)",
+              "Belastingvermindering in boekhouding verwerken (vermindering belasting op resultaat — geen aparte IA-rekening)"
+            ],
+            "elementen": [
+              {
+                "element_id": "aangifte-opgave",
+                "inhoud_type": "tekst",
+                "titel": "Verplichte bijlage investeringsaftrek bij aangifte",
+                "beschrijving": "Bij de aangifte in de vennootschapsbelasting moet een door de Minister van Financiën vastgesteld opgaveformulier worden gevoegd voor het aanslagjaar van de investering en elk volgend aanslagjaar tot het saldo uitgeput is.",
+                "confidence": "grounded",
+                "source": "WIB92 art. 194quater §5 (per analogie investeringsreserve) + bestendig advies; opgave-verplichting IA zelf: ⚠️ te verifiëren in specifieke KB",
+                "weergaven": []
+              }
+            ]
+          },
+          {
+            "rol": "adviseur",
+            "emoji": "🎯",
+            "taken": [
+              "Investeringsbeslissing kaderen: fiscale besparing IA meegeven als ROI-component",
+              "Timing van investering afstemmen op belastbaar tijdperk met voldoende winst (anders overdracht, maar latere aftrek)",
+              "Samenloop met investeringssubsidies bespreken — subsidies verlagen de aanschaffingswaarde voor IA niet automatisch"
+            ],
+            "elementen": [
+              {
+                "element_id": "timing-advies",
+                "inhoud_type": "vuistregel",
+                "titel": "Investeer vóór jaareinde bij voldoende winst",
+                "beschrijving": "IA wordt verleend in het jaar van verkrijging of tot-stand-brenging. Investeer vóór het jaareinde als de winst dat jaar hoog is. Bij verwacht verlies is onbeperkte overdracht beschikbaar, maar aftrek kan ook bewust uitgesteld worden tot een winstjaar.",
+                "confidence": "vuistregel",
+                "weergaven": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "actor": "grote vennootschap",
+        "emoji": "🏭",
+        "rollen": [
+          {
+            "rol": "fiscaal adviseur",
+            "emoji": "🏛",
+            "taken": [
+              "Basisaftrek is nul — focus uitsluitend op thematische (30%) en technologie-aftrek (13,5%)",
+              "Thematische-investeringslijst screenen voor elk investeringsproject",
+              "Cumul-verbod met innovatie-aftrek bewaken: O&O-activa die onder IA-technologie vallen én innovatie-inkomsten genereren vereisen afzonderlijke beoordeling"
+            ],
+            "elementen": [
+              {
+                "element_id": "grote-venn-nul-basis",
+                "inhoud_type": "tekst",
+                "titel": "Grote vennootschappen: basisaftrek = 0%",
+                "beschrijving": "Art. 201 §1 2° WIB92: voor vaste activa verkregen of tot stand gebracht door een vennootschap die niet als kleine vennootschap wordt aangemerkt, bedraagt de basisaftrek 0%. Enkel de thematische en technologie-sporen zijn beschikbaar.",
+                "confidence": "grounded",
+                "source": "WIB92 art. 201 §1 2°",
+                "weergaven": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "actor": "zelfstandige (eenmanszaak PB)",
+        "emoji": "👤",
+        "rollen": [
+          {
+            "rol": "fiscaal adviseur",
+            "emoji": "🏛",
+            "taken": [
+              "PB-versie (art. 68-77) volledig van toepassing — inclusief basisaftrek 10%",
+              "Gespreide aftrek (art. 70) overwegen voor activa met lange afschrijvingstermijn bij stabiel inkomensprofiel",
+              "Samenloop PB-investeringsaftrek met PO 2.2 (personenbelasting) bewaken — zelfde regelgeving, andere aangiftecontext"
+            ],
+            "elementen": [
+              {
+                "element_id": "pb-specifiek",
+                "inhoud_type": "tekst",
+                "titel": "PB-versie: art. 68-77 WIB92 (identiek mechanisme, altijd basisaftrek)",
+                "beschrijving": "De PB-versie van de investeringsaftrek (winst en baten) werkt op identieke grondslag als de VEN-versie. De basisaftrek van 10% geldt altijd voor zelfstandigen — het nul-percentage van grote vennootschappen is niet van toepassing in PB. Cross-PO: zie ook PO 2.2.",
+                "confidence": "grounded",
+                "source": "WIB92 art. 68 (PB) + art. 201 (VEN)",
+                "weergaven": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      "afschrijvingen (lineair, degressief, pro-rata temporis)",
+      "vaste activa activering en waardering",
+      "belastbare grondslag vennootschapsbelasting (aftrekvolgorde)"
+    ],
+    "kader": [
+      "belastbare-grondslag-vennootschapsbelasting"
+    ],
+    "naast_relevant": [
+      "innovatie-aftrek",
+      "kleine-vennootschap",
+      "dbi-aftrek"
+    ],
+    "volgkennis": [
+      "belastingkrediet voor onderzoek en ontwikkeling (O&O — alternatief voor IA technologie-aftrek)"
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      "Kwalificerende investeringen herkennen (voorwaarden art. 68 + uitsluitingen art. 75)",
+      "Juist aftrekspoor kiezen (basis / thematisch / technologie) per belastingplichtige-type",
+      "Eenmalige vs gespreide aftrek afwegen",
+      "Overdraagbare saldi berekenen en bewaken",
+      "Boekhoudkundige verwerking kennen (geen aparte boeking, enkel belastingvermindering)",
+      "Interactie met meerwaarden begrijpen (IA verlaagt fiscale boekwaarde niet)"
+    ],
+    "termen_alfabetisch": [
+      "aanschaffingswaarde",
+      "afschrijvingsperiode (minimaal 3 belastbare tijdperken)",
+      "basisaftrek",
+      "eenmalige aftrek",
+      "gespreide aftrek",
+      "investeringsaftrek",
+      "klimaat- en milieu-uitsluitingslijst",
+      "kleine vennootschap",
+      "overdraagbaarheid",
+      "technologie-aftrek",
+      "thematische aftrek",
+      "verhoogde thematische aftrek"
+    ]
+  }
+}

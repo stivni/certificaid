@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/materiaalkosten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Materiaalkosten ⚖️
 
@@ -28,6 +28,7 @@ Materiaalkosten zijn kosten verbonden aan het verwerven, opslaan en verbruiken v
 Materiaalkosten zijn kosten verbonden aan het verwerven, opslaan en verbruiken van grondstoffen, hulpstoffen, halffabrikaten en handelsgoederen. In de analytische boekhouding worden ze opgesplitst in aankoopprijs (vermenigvuldigd met verbruikte hoeveelheid) en bijkomende kosten (transport, douane, opslag).
 
 _Bron: CBN 132/7 — Boeking en waardering van voorraden_
+
 
 
 ## Bouwstenen
@@ -79,7 +80,7 @@ Yperse Werkplaats BV houdt gemiddeld € 350.000 wolvoorraad aan. Bij kapitaalko
 ## Zie ook
 
 - **Vereist kennis van**: [[voorraadwaardering]]
-
+- **Wordt voorondersteld in** (1): [[voorraadwaardering]]
 ## Bronnen
 
 [^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad`

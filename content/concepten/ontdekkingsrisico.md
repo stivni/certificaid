@@ -13,9 +13,9 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ontdekkingsrisico.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Ontdekkingsrisico 🤖
+# Ontdekkingsrisico 🔗
 
 Ontdekkingsrisico is de enige risicocomponent die de auditor zelf kan beïnvloeden. Het is de kans dat zijn werkzaamheden een afwijking van materieel belang niet opsporen. Door aard, timing en omvang van zijn procedures aan te passen — meer of minder werk, gerichter selecteren, beter timen — stuurt hij dit risico naar het niveau dat het auditrisicomodel vraagt.
 
@@ -29,6 +29,7 @@ Ontdekkingsrisico is het risico dat de door de beroepsbeoefenaar uitgevoerde con
 _Bron: ITAA KMO-controlenorm Bijlage 1 (Controlerisico) + §96_
 
 
+
 ## In de praktijk
 
 <h3 id="steekproefrisico-als-sub-component">Steekproefrisico als sub-component</h3>
@@ -37,9 +38,6 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Controlerisico) + §96_
 > Ontdekkingsrisico bevat onder meer steekproefrisico (de conclusie op basis van een steekproef kan verschillen van die op de hele populatie). Dat is onvermijdelijk wanneer niet 100 % wordt getest. ⚖️
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[uitvoeren-risico-inschatting-en-materialiteit-audit]]
 ## Voorbeelden
 
 Sofie Janssens wil het controlerisico op € 5 % houden. Het inherent en intern beheersingsrisico op voorraden van Rotex Roeselare NV samen schat zij in op 18 %. Het ontdekkingsrisico mag dus maximaal 5 % / 18 % ≈ 28 % bedragen → ze plant uitgebreide voorraadtellingen + cut-off-testen + analytical procedures.

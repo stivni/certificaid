@@ -19,7 +19,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vennootschapsvormen-typologie.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Typologie van vennootschaps- en verenigingsvormen ⚖️
 
@@ -31,6 +31,7 @@ Het WVV onderscheidt verschillende vennootschaps- en verenigingsvormen (BV, NV, 
 Het WVV onderscheidt verschillende vennootschapsvormen (rechtspersonen met winstoogmerk) en verenigingsvormen (rechtspersonen zonder of met sociaal oogmerk). Voor het boekhoudrecht zijn de vorm-keuze en de keuze tussen rechtspersoonlijkheid en geen rechtspersoonlijkheid bepalend: rechtspersonen volgen altijd dubbele boekhouding + jaarrekening-plicht; verenigingen volgen aangepaste schema's.
 
 _Bron: WVV Boek 1 + Boeken 5-11_
+
 
 
 ## Bouwstenen
@@ -108,7 +109,7 @@ _Grondslag: WVV Boeken 15-16_
 
 - **Vereist kennis van**: [[wetboek-vennootschappen-verenigingen]]
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
-
+- **Wordt voorondersteld in** (3): [[bestuursorgaan]] · [[jaarrekening-vzw-stichting]] · [[vennootschapsvormen-vergelijking]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV (besloten vennootschap, beperkte aansprakelijkheid) → dubbele boekhouding, jaarrekening verkort schema. Tom Lefèvre's maatschap (geen rechtspersoonlijkheid) → onbeperkte aansprakelijkheid vennoten, alleen boekhoudplicht (geen jaarrekening bij NBB).

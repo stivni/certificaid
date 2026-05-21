@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/schuldvergelijking-tijdens-opschorting.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Schuldvergelijking tijdens opschorting ⚖️
 
@@ -29,30 +29,31 @@ Compensatie tussen een **schuldvordering die in de opschorting valt** (ontstaan 
 _Bron: WER art. XX.55_
 
 
+
 ## In de praktijk
 
 <h3 id="typisch-geval-van-verknochtheid">Typisch geval van verknochtheid</h3>
 
 > [!tip]- Typisch geval van verknochtheid
-> Een leverancier levert vóór de opschorting goederen (vordering in opschorting) en koopt na de opschorting goederen terug van de schuldenaar (nieuwe schuld). Beide zijn verknocht: ze vloeien voort uit één doorlopende leveringsrelatie en mogen worden gecompenseerd. 🤖
+> Een leverancier levert vóór de opschorting goederen (vordering in opschorting) en koopt na de opschorting goederen terug van de schuldenaar (nieuwe schuld). Beide zijn verknocht: ze vloeien voort uit één doorlopende leveringsrelatie en mogen worden gecompenseerd. 🔗
 
 <h3 id="typisch-geval-van-geen-verknochtheid">Typisch geval van géén verknochtheid</h3>
 
 > [!tip]- Typisch geval van géén verknochtheid
-> Een bank heeft een openstaand krediet aan de schuldenaar (vordering in opschorting) en de schuldenaar stort tijdens de opschorting nieuw geld op een depositorekening. De bank mag dit nieuwe geld **niet** afhouden tegen het oude krediet — die twee verhoudingen zijn niet voldoende verknocht. 🤖
+> Een bank heeft een openstaand krediet aan de schuldenaar (vordering in opschorting) en de schuldenaar stort tijdens de opschorting nieuw geld op een depositorekening. De bank mag dit nieuwe geld **niet** afhouden tegen het oude krediet — die twee verhoudingen zijn niet voldoende verknocht. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Verknochtheid is een **rechtsfeitelijke** beoordeling — geen vaste regel. De rechter beoordeelt of de twee schulden voortvloeien uit dezelfde rechtsverhouding of nauw samenhangen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[gerechtelijke-reorganisatie]]
-
+- **Wordt voorondersteld in** (2): [[gerechtelijke-reorganisatie]] · [[opschorting-betaling-gerechtelijke-reorganisatie]]
 ## Voorbeelden
 
 Brugse Brouwerij BV is in gerechtelijke reorganisatie. Distributeur Energiehuis Evergem BV heeft een openstaande factuur van vóór de opschorting (€ 45.000) en koopt tijdens de opschorting nog vaten bier (€ 18.000 nieuwe schuld). Omdat beide voortvloeien uit dezelfde distributierelatie — zelfde contract, zelfde rekeningnummer — zijn ze verknocht en mag Energiehuis Evergem de € 18.000 inhouden op de oude vordering. _(Brugse Brouwerij BV, Energiehuis Evergem BV)_

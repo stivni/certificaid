@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wetboek-vennootschappen-verenigingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Wetboek van Vennootschappen en Verenigingen (WVV) ⚖️
 
@@ -26,9 +26,12 @@ Het WVV (wet van 23 maart 2019) codificeert vennootschaps- én verenigingsrecht.
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]]
 
+> [!info] Bestaat uit (3): [[bestuursorgaan]] · [[jaarverslag]] · [[transfer-bedrijfstak-algemeenheid]] · Specialisaties (1): [[kb-wvv-uitvoering]]
+
 Het Wetboek van Vennootschappen en Verenigingen (WVV) — wet van 23 maart 2019 — is de Belgische codificatie van het vennootschapsrecht én het verenigingsrecht. Boek 3 ('Jaarrekening, geconsolideerde jaarrekening en openbaarmakingsformaliteiten') bevat de boekhoudkundige verplichtingen die specifiek voor vennootschappen en verenigingen gelden, bovenop de algemene boekhoudplicht uit het WER.
 
 _Bron: WVV, wet van 23 maart 2019_
+
 
 
 ## Bouwstenen
@@ -75,7 +78,7 @@ _Grondslag: WVV art. 1:14 tot art. 1:25_
 <h3 id="wvv-staat-in-itaa-lex">WVV staat in ITAA-LEX</h3>
 
 > [!tip]- WVV staat in ITAA-LEX
-> De relevante artikelen van het WVV Boek 1 (definities) en Boek 3 (jaarrekening) zijn opgenomen in de ITAA-LEX. Op het examen kun je dus opzoeken; uit het hoofd kennen hoeft niet, maar weten waar te zoeken wel. 🤖
+> De relevante artikelen van het WVV Boek 1 (definities) en Boek 3 (jaarrekening) zijn opgenomen in de ITAA-LEX. Op het examen kun je dus opzoeken; uit het hoofd kennen hoeft niet, maar weten waar te zoeken wel. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examenvraag over controle, grootteklasse of jaarrekening-schema → eerst WVV Boek 1 (definitie), dan WVV Boek 3 of KB-WVV (uitwerking).
@@ -92,6 +95,9 @@ _Grondslag: WVV art. 1:14 tot art. 1:25_
 > _Trigger_: Vraag over een eenmanszaak (Praktijk Persenaire) → WER. Vraag over een NV of vzw → WVV.
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[vennootschapsvormen-typologie]]- **Triggert** (2): [[groottecriteria-jaarrekening]] · [[openbaarmaking-jaarrekening]]
 ## Voorbeelden
 
 Rotex Roeselare NV moet als grote NV haar jaarrekening in volledig schema neerleggen — verplichting uit WVV Boek 3, uitgewerkt in KB-WVV.

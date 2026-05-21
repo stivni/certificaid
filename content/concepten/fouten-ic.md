@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/fouten-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Fouten in IC-context ⚖️
 
@@ -28,6 +28,7 @@ Een 'fout' in IC- en audit-context is ISA 450 §4(a)'s niet-frauduleuze afwijkin
 Een fout is een onopzettelijke afwijking in de boekhouding, rapportering of bedrijfsvoering — door vergissing, onkunde, slordigheid of slecht ontworpen proces. Onderscheidt zich van fraude door het ontbreken van opzet. ISA 450 §4(a) classificeert fouten als één van de twee oorzaken van een 'afwijking' tussen jaarrekening en stelsel. IC moet zoveel mogelijk fouten preventief vermijden (procedures, checks) en residuele fouten detecteren (afstemmingen, analyses).
 
 _Bron: ISA 450 §4(a)_
+
 
 
 ## Bouwstenen
@@ -56,7 +57,7 @@ Alle geïdentificeerde fouten worden door de auditor geaccumuleerd, behalve fout
 
 _Grondslag: ISA 450 §5 + §A2-§A6_
 
-### IC-respons — preventief versus detectief 🤖
+### IC-respons — preventief versus detectief 🔗
 
 Een goede IC voorkomt fouten primair door procedure-design (automatische plausibility checks, vereiste velden in ERP, drempelwaardes met manuele review, vier-ogen-principe op kritische posten). Wat preventief niet wordt afgevangen, moet detectief worden opgepikt: maandelijkse afstemmingen (bank ↔ grootboek), cijferanalyses (trends, ratio's), spotcheck-samples door een supervisor.
 

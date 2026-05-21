@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/step-acquisition.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Step acquisition (trapsgewijze verwerving) ⚖️
 
@@ -29,6 +29,7 @@ Een transactiepatroon in het Belgische boekhoudrecht-consolidatieregime (KB WVV 
 Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter. Bij elke trap controleer je of de kwalificatie verandert (geen invloed → invloed van betekenis → controle). Verandert ze, dan schakelt ook de consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale of evenredige consolidatie).
 
 _Bron: CBN 2013/3 — De boekhoudkundige verwerking van step acquisitions (update)_
+
 
 
 ## Bouwstenen

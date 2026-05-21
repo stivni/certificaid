@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoeren-horizontale-verticale-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Uitvoeren van een horizontale en verticale analyse van de jaarrekening 🤖
+# Uitvoeren van een horizontale en verticale analyse van de jaarrekening 🔗
 
 Competentie om balans en resultatenrekening over meerdere jaren te lezen via twee complementaire technieken: horizontaal (evolutie van elke post over de tijd) en verticaal (elke post als percentage van een referentietotaal). Samen tonen ze structuur én dynamiek en vormen ze de standaard-startpunt voor elke ratio-analyse.
+
 
 
 ## Stappen

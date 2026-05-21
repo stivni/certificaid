@@ -17,9 +17,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/fraudetypologie-acfe.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Fraudetypologie ACFE (drie hoofdtypen) 🤖
+# Fraudetypologie ACFE (drie hoofdtypen) 🔗
 
 De Association of Certified Fraud Examiners (ACFE) onderscheidt drie wezenlijk verschillende fraude-types — elk met eigen modus operandi, eigen red flags en eigen detectie-methodes. ISA 240 §A2 benoemt expliciet de eerste twee (frauduleuze financiële verslaggeving + oneigenlijke toeëigening van activa). Voor de stagiair is dit dé taxonomie om bij een gemeld fraudegeval het type te identificeren en de gepaste auditor- of IC-respons te kiezen.
 
@@ -29,6 +29,7 @@ De Association of Certified Fraud Examiners (ACFE) onderscheidt drie wezenlijk v
 > [!info] Behoort tot: [[fraude]]
 
 De ACFE-fraudetypologie verdeelt fraude in drie wezenlijk verschillende categorieën: (1) frauduleuze financiële verslaggeving — manipulatie van jaarrekening om beeld te verbeteren; (2) oneigenlijke toeëigening van activa (asset misappropriation) — verduistering van geld, voorraad, immaterieel; (3) corruption — omkoping, belangenconflicten, kickbacks. Elk type vraagt eigen preventie + detectie.
+
 
 
 ## Bouwstenen
@@ -78,20 +79,20 @@ _Grondslag: ISA 240 §A6 + ACFE Report to the Nations_
 <h3 id="type-bepaalt-detectiestrategie">Type bepaalt detectiestrategie</h3>
 
 > [!tip]- Type bepaalt detectiestrategie
-> Elk type wordt op een andere plek detecteerd: financiële vervalsing in de jaarrekening-analyse (cijfertests, cut-off); asset misappropriation in kasprocessen + voorraad; corruption in leveranciers-due-diligence + klokkenluiders. Een fraude-detectie-strategie die alle drie negeert, mist het meeste. 🤖
+> Elk type wordt op een andere plek detecteerd: financiële vervalsing in de jaarrekening-analyse (cijfertests, cut-off); asset misappropriation in kasprocessen + voorraad; corruption in leveranciers-due-diligence + klokkenluiders. Een fraude-detectie-strategie die alle drie negeert, mist het meeste. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Een corruption-geval kan een 'cleane' jaarrekening hebben — een externe auditor die alleen rekent en niet vraagt naar leverancier-relaties z…
-> ⚠️ Een corruption-geval kan een 'cleane' jaarrekening hebben — een externe auditor die alleen rekent en niet vraagt naar leverancier-relaties zal het niet vinden. Audit-procedures moeten alle drie types adresseren. 🤖
+> ⚠️ Een corruption-geval kan een 'cleane' jaarrekening hebben — een externe auditor die alleen rekent en niet vraagt naar leverancier-relaties zal het niet vinden. Audit-procedures moeten alle drie types adresseren. 🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[klokkenluiderregeling]]
-
+- **Wordt voorondersteld in** (2): [[fraude]] · [[fraude-versus-fout]]
 ## Bronnen
 
 [^1]: `ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2`

@@ -16,7 +16,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereffenaarsaansprakelijkheid.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vereffenaarsaansprakelijkheid ⚖️
 
@@ -32,12 +32,13 @@ De **vereffenaar** is tegenover de vennootschap gehouden tot een **behoorlijke v
 _Bron: WVV art. 2:96 (algemeen) — art. 2:106 (kwijting)_
 
 
+
 ## In de praktijk
 
 <h3 id="typische-foutkernen">Typische foutkernen</h3>
 
 > [!tip]- Typische foutkernen
-> De drie meest gevoelige punten: (a) **deficitaire vereffening** zonder respect voor de bevestigingsprocedure (art. 2:80 WVV — voorrang van schuldeisers), (b) **fictieve omstandige staat** of foutieve waardering activa (art. 2:71), (c) onvolledige aflossing van **fiscale of sociale schulden** vóór tussentijdse uitkeringen aan aandeelhouders. 🤖
+> De drie meest gevoelige punten: (a) **deficitaire vereffening** zonder respect voor de bevestigingsprocedure (art. 2:80 WVV — voorrang van schuldeisers), (b) **fictieve omstandige staat** of foutieve waardering activa (art. 2:71), (c) onvolledige aflossing van **fiscale of sociale schulden** vóór tussentijdse uitkeringen aan aandeelhouders. 🔗
 
 <h3 id="kwijting-van-de-vereffenaar">Kwijting van de vereffenaar</h3>
 
@@ -47,15 +48,15 @@ _Bron: WVV art. 2:96 (algemeen) — art. 2:106 (kwijting)_
 
 ## Voorwaarden / uitzonderingen
 
-- {'voorwaarde': '**Fout** in de uitvoering van de vereffeningsopdracht (bv. het te vroeg uitkeren aan aandeelhouders zonder alle schuldeisers te hebben voldaan, of het verzuim om de **omstandige staat** correct op te maken).', 'confidence': 'inferred-from-aggregation', '_provenance': {'inputs': [{'id': 'WVV__art_2_75', 'sha256': None, 'version': 'rag-v1'}]}} 🤖
-- {'voorwaarde': '**Schade** voor de vennootschap, voor schuldeisers of voor andere derden.', 'confidence': 'inferred'} 🤖
-- {'voorwaarde': '**Oorzakelijk verband** tussen fout en schade.', 'confidence': 'inferred'} 🤖
+- {'voorwaarde': '**Fout** in de uitvoering van de vereffeningsopdracht (bv. het te vroeg uitkeren aan aandeelhouders zonder alle schuldeisers te hebben voldaan, of het verzuim om de **omstandige staat** correct op te maken).', 'confidence': 'inferred-from-aggregation', '_provenance': {'inputs': [{'id': 'WVV__art_2_75', 'sha256': None, 'version': 'rag-v1'}]}} 🔗
+- {'voorwaarde': '**Schade** voor de vennootschap, voor schuldeisers of voor andere derden.', 'confidence': 'inferred'} 🔗
+- {'voorwaarde': '**Oorzakelijk verband** tussen fout en schade.', 'confidence': 'inferred'} 🔗
 - {'uitzondering': 'Een vereffenaar wordt van zijn aansprakelijkheid **ontheven** voor fouten of overtredingen waaraan hij **geen deel** heeft gehad, indien hij de fout of overtreding heeft **gemeld** aan de algemene vergadering of, in geval van gerechtelijke ontbinding, aan de rechtbank.', 'confidence': 'grounded', '_provenance': {'inputs': [{'id': 'WVV__art_2_75', 'sha256': None, 'version': 'rag-v1'}]}} ⚖️
-- {'uitzondering': "De **cap** van art. 2:56 WVV geldt **ook voor vereffenaars** (de cap-tekst spreekt uitdrukkelijk van 'lid van een bestuursorgaan of dagelijks bestuurder'; de doctrine breidt dit door analogie uit naar vereffenaars die door de AV werden benoemd — bij gerechtelijke vereffenaar is de positie minder duidelijk).", 'confidence': 'inferred'} 🤖
+- {'uitzondering': "De **cap** van art. 2:56 WVV geldt **ook voor vereffenaars** (de cap-tekst spreekt uitdrukkelijk van 'lid van een bestuursorgaan of dagelijks bestuurder'; de doctrine breidt dit door analogie uit naar vereffenaars die door de AV werden benoemd — bij gerechtelijke vereffenaar is de positie minder duidelijk).", 'confidence': 'inferred'} 🔗
 ## Valkuilen
 
 > [!warning]- Behandel de vereffenaarsaansprakelijkheid **niet** als 'gewone bestuurdersaansprakelijkheid in een ander hoofdstuk' — de bredere kring van begunstigden (uitdrukkelijke schuldeisersaansprakelijkheid) en de standaard-hoofdelijkheid maken het regime zwaarder.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -63,7 +64,7 @@ _Bron: WVV art. 2:96 (algemeen) — art. 2:106 (kwijting)_
 
 - **Vereist kennis van**: [[]]
 - **Vereist kennis van**: [[]]
-
+- **Wordt voorondersteld in** (3): [[begeleiden-vereffening-vennootschap]] · [[bevestiging-vereffenaar-deficitaire-vereffening]] · [[signaleren-risicos-overdracht-of-ontbinding]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

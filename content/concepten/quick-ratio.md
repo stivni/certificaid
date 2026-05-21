@@ -17,13 +17,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/quick-ratio.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Quick ratio (liquiditeit in enge zin, zuurtegraad) 🤖
+# Quick ratio (liquiditeit in enge zin, zuurtegraad) 🔗
 
 Strengere liquiditeitstoets: kan de vennootschap haar korte schulden betalen zónder dat ze voorraden moet verkopen? Voorraden zijn vaak niet snel cash te maken, vooral bij specifieke goederen of dalende vraag. Ook bekend als 'acid test' of 'zuurtegraad'.
 
 > [!info] Behoort tot: [[liquiditeitsratio]]
+
 
 
 ## Bouwstenen
@@ -148,7 +149,7 @@ Resultaat: Quick ratio van 1,375 = de korte schulden zijn 1,375 keer gedekt door
 ## Valkuilen
 
 > [!warning]- Niet elke vordering ≤ 1 jaar is in de praktijk snel cash
-> ⚠️ Niet elke vordering ≤ 1 jaar is in de praktijk snel cash. Twijfelachtige debiteuren (waarvan waardeverminderingen werden geboekt) zijn al gecorrigeerd, maar trage betalers blijven aan boord. Combineer quick ratio met de rotatie van handelsvorderingen. 🤖
+> ⚠️ Niet elke vordering ≤ 1 jaar is in de praktijk snel cash. Twijfelachtige debiteuren (waarvan waardeverminderingen werden geboekt) zijn al gecorrigeerd, maar trage betalers blijven aan boord. Combineer quick ratio met de rotatie van handelsvorderingen. 🔗
 >
 > _Bron: Financial analysis_
 

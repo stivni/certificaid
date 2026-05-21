@@ -14,11 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/coso-i-framework.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# COSO I — Internal Control Integrated Framework 🤖
+# COSO I — Internal Control Integrated Framework 🔗
 
 COSO I is het internationaal meest gebruikte referentiekader voor interne controle. Bevat een gestructureerde aanpak met drie doelstellingen (operationeel, rapportering, compliance), vijf componenten (controle-omgeving, risico-inschatting, beheersactiviteiten, informatie & communicatie, monitoring) en 17 onderliggende principes (sinds herziening 2013). Doel: hulpmiddel voor management en externe stakeholders om IC te ontwerpen en te beoordelen.
+
+> [!info] Bestaat uit (1): [[verspilling]]
+
 
 
 ## Bouwstenen
@@ -60,7 +63,7 @@ _Grondslag: COSO 2013 herziening_
 
 
 > [!warning]- Controle-omgeving = de 'toon aan de top', cultuur, ethische waarden, governance-structuur — soft. Controle-activiteiten = concrete procedures (autorisaties, reconciliaties, segregation of duties) — hard. Beide nodig, niet inwisselbaar.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Monitoring is breder: ongoing monitoring (continue zelfcontroles binnen processen) + separate evaluations (periodieke aparte beoordelingen, waarvan interne audit één vorm is) + rapportering van tekortkomingen. Alle drie nodig.

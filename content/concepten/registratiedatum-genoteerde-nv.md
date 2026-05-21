@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/registratiedatum-genoteerde-nv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Registratiedatum bij genoteerde NV ⚖️
 
@@ -28,6 +28,7 @@ De registratiedatum bepaalt op welke peildatum de aandeelhouderspositie wordt va
 De registratiedatum is de wettelijke peildatum — de veertiende dag vóór de algemene vergadering om vierentwintig uur Belgisch uur — waarop de hoedanigheid van aandeelhouder van een genoteerde NV wordt vastgesteld voor het uitoefenen van het deelname- en stemrecht. Wie op die datum aandelen op zijn naam heeft staan (in het register of op de effectenrekening) verwerft het deelnamerecht, ook al verkoopt hij die aandelen nadien.
 
 _Bron: WVV art. 7:134, § 2_
+
 
 
 ## In de praktijk
@@ -45,7 +46,7 @@ _Bron: WVV art. 7:134, § 2_
 ## Zie ook
 
 - **Vereist kennis van**: [[naamloze-vennootschap-nv]]
-
+- **Wordt voorondersteld in** (1): [[aanwezigheidsrecht-algemene-vergadering]]
 ## Voorbeelden
 
 Aurelia Holding NV is genoteerd. AV gepland op 20 mei. Registratiedatum: 6 mei 24u. Wie op die avond aandelen op zijn rekening heeft staan, mag deelnemen. Robert Vandenberghe verkoopt op 8 mei zijn aandelen — toch behoudt hij stemrecht voor de AV van 20 mei. _(Aurelia Holding NV, Robert Vandenberghe)_

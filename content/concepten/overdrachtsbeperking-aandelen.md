@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/overdrachtsbeperking-aandelen.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Overdrachtsbeperking op aandelen ⚖️
 
@@ -26,9 +26,12 @@ In de NV zijn aandelen in beginsel **vrij overdraagbaar**, in de BV zijn ze van 
 
 > [!info] Behoort tot: [[aandeelhoudersovereenkomst]]
 
+> [!info] Bestaat uit (1): [[voorkooprecht-aandelenoverdracht]]
+
 Een **overdrachtsbeperking** is een **statutaire of contractuele clausule** die perken stelt aan de mogelijkheid om aandelen, inschrijvingsrechten of certificaten **onder de levenden of bij overlijden** over te dragen. Statutaire beperkingen zijn tegenwerpelijk aan **iedereen** (ook derden te goeder trouw); louter contractuele (SHA-)beperkingen alleen aan de **ondertekenaars** (en aan derden die ervan **kennis** hadden).
 
 _Bron: WVV art. 7:78 (NV); art. 5:67 (BV)_
+
 
 
 ## Bouwstenen
@@ -41,7 +44,7 @@ Een clausule die aandeelhouders verbiedt om hun aandelen **gedurende een bepaald
 
 
 
-Bij oprichting van Constructies Cattoir BV spreken Aurelia Holding NV en Cardinal Group NV een **5-jarige lock-up** af: geen van beide partijen mag in die periode aandelen verkopen. Verantwoording: stabilisatie van de joint venture in de opstartfase. _(Constructies Cattoir BV, Aurelia Holding NV, Cardinal Group NV)_ 🤖
+Bij oprichting van Constructies Cattoir BV spreken Aurelia Holding NV en Cardinal Group NV een **5-jarige lock-up** af: geen van beide partijen mag in die periode aandelen verkopen. Verantwoording: stabilisatie van de joint venture in de opstartfase. _(Constructies Cattoir BV, Aurelia Holding NV, Cardinal Group NV)_ 🔗
 
 _Grondslag: WVV art. 7:78 § 1; IBA SHA-Guide 2024 §8_
 
@@ -117,7 +120,7 @@ _Grondslag: WVV art. 7:78 § 1, vierde lid_
 ## Valkuilen
 
 > [!warning]- Vraag bij een aandelenoverdracht in een **NV met statutaire goedkeurings- of voorkoopclausule**: is er een **lopende of recent gestarte procedure**? Voorbij **6 maanden** is de beperking van rechtswege uitgewerkt — verkoop mag dan vrij.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

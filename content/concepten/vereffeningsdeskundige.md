@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereffeningsdeskundige.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vereffeningsdeskundige ⚖️
 
@@ -28,6 +28,7 @@ De vereffeningsdeskundige past binnen het bredere insolventiestelsel van Boek XX
 De vereffeningsdeskundige is een specifieke insolventiefunctionaris die de ondernemingsrechtbank aanstelt bij een procedure van gerechtelijke reorganisatie door overdracht onder gerechtelijk gezag (Boek XX WER, titel V, hoofdstuk 4). Hij organiseert en realiseert de overdracht van het geheel of een deel van de activa en activiteiten van de schuldenaar in diens naam en voor diens rekening, zoekt biedingen, beoordeelt offertes, sluit overeenkomsten en verdeelt de opbrengst onder de schuldeisers met inachtneming van hun voorrang. Sinds de hervorming van 7 juni 2023 vervangt de term "vereffeningsdeskundige" de oudere term "gerechtsmandataris" in deze specifieke rol.
 
 _Bron: WER art. XX.85 §1, art. XX.88, art. XX.90, art. XX.92_
+
 
 
 ## In de praktijk
@@ -51,14 +52,17 @@ _Bron: WER art. XX.85 §1, art. XX.88, art. XX.90, art. XX.92_
 ## Valkuilen
 
 > [!warning]- Verwar vereffeningsdeskundige (XX.85, overdracht onder gerechtelijk gezag) niet met herstructureringsdeskundige (XX.30, voorlopige maatregel buiten GRO).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Verwar vereffeningsdeskundige (Boek XX WER, insolventie) niet met vereffenaar (WVV art. 2:79 e.v., ontbinding vennootschap).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[insolventiefunctionaris]] · [[overdracht-onder-gerechtelijk-gezag]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

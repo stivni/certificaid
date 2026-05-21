@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/toelichtingsvereisten-jaarrekening-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Toelichtingsvereisten IFRS-jaarrekening — structuur en inhoud ⚖️
 
@@ -27,6 +27,7 @@ gegenereerd_op: '2026-05-18'
 De toelichting bij de IFRS-jaarrekening (IAS 1 alinea 112-138) is geen optioneel addendum maar een **integraal deel** van de jaarrekening. Verplichte inhoud (alinea 112): (a) **verklaring van overeenstemming** met IFRS-en; (b) **samenvatting van significante grondslagen voor financiële verslaggeving** (welke keuzes — kostprijs vs. herwaardering, FIFO vs. gewogen gemiddelde, gevolgde IFRS-en); (c) **ondersteunende informatie** voor posten in balans, totaalresultaat, mutatieoverzicht en kasstroomoverzicht — in dezelfde volgorde als die overzichten; (d) **andere informatie** zoals voorwaardelijke verplichtingen, contractuele verbintenissen, niet-financiële informatie (alinea 137-138 — bv. risico- en kapitaalbeheer). Structuur (alinea 114): systematisch geordend; elke post in de overzichten met kruisverwijzing naar gerelateerde toelichting. Materialiteit (alinea 31): specifieke IFRS-vereiste informatie mag worden weggelaten als ze niet materieel is.
 
 _Bron: IAS 1 alinea 112-138_
+
 
 
 ## Bouwstenen

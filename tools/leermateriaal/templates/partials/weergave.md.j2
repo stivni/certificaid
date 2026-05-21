@@ -1,0 +1,64 @@
+{% set wtype = weergave.type | default('') %}
+{% if wtype == 'proza' %}
+{{ weergave.text }}
+
+{% elif wtype == 'vuistregel' %}
+{{ weergave.text }}
+
+{% elif wtype == 'vergelijkingstabel' %}
+{% set tbl = weergave.tabel %}
+{% if tbl %}
+| {{ tbl.kolommen | join(' | ') }} |
+| {{ tbl.kolommen | map('replace', tbl.kolommen[0], '---') | map('regex_replace', '.+', '---') | join(' | ') }} |
+{% for rij in tbl.rijen %}
+| {{ rij | join(' | ') }} |
+{% endfor %}
+
+{% endif %}
+{% elif wtype == 'berekening' %}
+{% set tbl = weergave.tabel %}
+{% if tbl %}
+| {{ tbl.kolommen | join(' | ') }} |
+| {{ tbl.kolommen | map('regex_replace', '.+', '---') | join(' | ') }} |
+{% for rij in tbl.rijen %}
+| {{ rij | join(' | ') }} |
+{% endfor %}
+
+{% endif %}
+{% elif wtype == 'boeking' %}
+{% if weergave.moment %}
+*{{ weergave.moment }}*
+
+{% endif %}
+| Rekening | Naam | Debet | Credit |
+|---:|---|---:|---:|
+{% for rek in weergave.rekeningen %}
+| {{ rek.rek }} | {{ rek.naam }} | {{ rek.debet if rek.debet is defined else '—' }} | {{ rek.credit if rek.credit is defined else '—' }} |
+{% endfor %}
+
+{% elif wtype == 'stappenlijst' %}
+{% for stap in weergave.stappen %}
+{{ loop.index }}. {{ stap }}
+{% endfor %}
+
+{% elif wtype == 'beslisboom' %}
+{{ weergave.data | default('') }}
+
+{% elif wtype == 'balans_snapshot' or wtype == 'balans-snapshot' %}
+{{ weergave.data | default('') }}
+
+{% elif wtype == 't_rekening' or wtype == 't-rekening' %}
+{{ weergave.data | default('') }}
+
+{% elif wtype == 'formule' %}
+{{ weergave.formule | default(weergave.text | default('')) }}
+
+{% else %}
+{% if weergave.text %}
+{{ weergave.text }}
+
+{% elif weergave.data %}
+{{ weergave.data }}
+
+{% endif %}
+{% endif %}

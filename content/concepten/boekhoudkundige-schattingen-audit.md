@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/boekhoudkundige-schattingen-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Boekhoudkundige schattingen (audit-perspectief) ⚖️
 
@@ -25,6 +25,7 @@ Een groot deel van de jaarrekening berust op schattingen: voorzieningen, afschri
 Een boekhoudkundige schatting is een benadering van een bedrag wanneer het niet mogelijk is dat bedrag nauwkeurig te bepalen. Voorbeelden: voorzieningen voor geschillen, oninbare vorderingen, restwaarde van vaste activa, gebruiksduren van immateriële activa. Schattingsonzekerheid is het inherente gebrek aan precisie bij zulke benaderingen.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1 (Schattingen + Schattingsonzekerheid) + §114_
+
 
 
 ## Valkuilen

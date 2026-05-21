@@ -17,7 +17,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/horizontale-consolidatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Horizontale consolidatie ⚖️
 
@@ -31,6 +31,7 @@ De consolidatietechniek voor consortia onder het Belgische boekhoudrecht (KB WVV
 De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium. De leden van het consortium en hun eigen dochters worden via integrale consolidatie samengevoegd (KB WVV art. 3:124, 1° jo. WVV art. 3:24). De posten van het eigen vermogen blijven per lid zichtbaar (beschikbare/onbeschikbare reserves behouden hun karakter — WVV art. 3:30, § 2).
 
 _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
+
 
 
 ## In de praktijk
@@ -215,7 +216,7 @@ Verwijder alle wederzijdse vorderingen, schulden, verkopen, aankopen, intra-groe
 
 - **Getriggerd door**: [[consortium]]
 - **Vereist kennis van**: [[integrale-consolidatie]]
-
+- **Triggert** (1): [[consortium]]
 ## Voorbeelden
 
 Industria Antwerpen NV en Jachthaven Jezus-Eik NV staan onder gemeenschappelijke leiding van Pieter Vermeulen, zonder dat één van beide vennootschap de andere controleert → horizontale consolidatie: hun balansen, resultatenrekeningen en eigen-vermogensposten worden integraal samengevoegd in één geconsolideerde jaarrekening; de reserves van elk lid blijven afzonderlijk zichtbaar.

@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bijzondere-algemene-vergadering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Bijzondere algemene vergadering 🤖
+# Bijzondere algemene vergadering 🔗
 
 De bijzondere algemene vergadering wordt buiten de jaarlijkse vergadering bijeengeroepen voor materies die tot de gewone bevoegdheid van de AV behoren, maar geen statutenwijziging of kapitaalverrichting inhouden. Zij volgt dezelfde aanwezigheids- en meerderheidsregels als de gewone vergadering en heeft geen notariële tussenkomst nodig. In de praktijk komt zij vooral voor bij benoeming of ontslag van bestuurders, instellen van een vennootschapsvordering, of dringende beslissingen tussen twee jaarvergaderingen in.
 
@@ -30,10 +30,11 @@ Een bijzondere algemene vergadering is een algemene vergadering die niet de jaar
 _Bron: WVV art. 5:83, 5:88 (BV); 7:126, 7:134 (NV)_
 
 
+
 ## Valkuilen
 
 > [!warning]- Check vooraf of het agendapunt geen statutenwijziging vereist — bv. wijziging van een vertegenwoordigingsclausule is wél statutair en hoort op de buitengewone AV.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

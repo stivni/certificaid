@@ -20,11 +20,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opzetten-controleactiviteiten-en-monitoring.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Opzetten van controle-activiteiten en monitoringsmechanismen 🤖
+# Opzetten van controle-activiteiten en monitoringsmechanismen 🔗
 
 Deze competentie operationaliseert COSO-componenten 3 (beheersactiviteiten) + 5 (monitoring) als concrete stagiair-handeling: ontwerp het control-portfolio van een organisatie (preventief en detectief, manueel en geautomatiseerd), koppel evidence-middelen, organiseer reconciliaties en bouw monitoring op twee niveaus (doorlopend + periodiek). Methodologie volgt uit ITAA-controlenorm §97–98 + COSO 2013. Examen-vraagstellingen toetsen typisch een case waar de stagiair een control-design-tabel moet opstellen voor een gegeven risico-set.
+
 
 
 ## Stappen

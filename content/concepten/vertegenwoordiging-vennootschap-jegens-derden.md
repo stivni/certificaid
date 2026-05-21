@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vertegenwoordiging-vennootschap-jegens-derden.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vertegenwoordiging van de vennootschap jegens derden ⚖️
 
@@ -30,6 +30,7 @@ De vennootschap is verbonden door de handelingen van het bestuursorgaan, van de 
 _Bron: WVV art. 5:74 (BV), 6:62 (CV), 7:94 (NV monistisch), 7:112 (NV duaal)_
 
 
+
 ## Voorwaarden / uitzonderingen
 
 - {'tekst': "Statutaire vertegenwoordigingsclausules (bv. 'twee bestuurders gezamenlijk') zijn aan derden tegenwerpelijk onder de voorwaarden van artikel 2:18 (bekendmaking in de bijlage bij het Belgisch Staatsblad of het rechtspersonenregister).", 'confidence': 'grounded', 'source': {'type': 'wet', 'short': 'WVV art. 5:73, § 2; 7:93, § 2'}, '_provenance': {'inputs': [{'id': 'WVV__art_5_59', 'sha256': None, 'version': 'rag-v1'}]}} ⚖️
@@ -38,7 +39,7 @@ _Bron: WVV art. 5:74 (BV), 6:62 (CV), 7:94 (NV monistisch), 7:112 (NV duaal)_
 ## Valkuilen
 
 > [!warning]- De ultra-vires-bescherming geldt enkel jegens derden. Tussen de bestuurder en de vennootschap blijft een handeling buiten het voorwerp een bestuursfout die aansprakelijkheid kan opleveren.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bekendmaking van de statuten in het Staatsblad is geen voldoende bewijs van wetenschap bij de derde — de wet eist concreet bewijs dat de derde 'wist of moest weten'.
@@ -50,7 +51,7 @@ _Bron: WVV art. 5:74 (BV), 6:62 (CV), 7:94 (NV monistisch), 7:112 (NV duaal)_
 
 - **Vereist kennis van**: [[dagelijks-bestuur]]
 - **Vereist kennis van**: [[rechtspersoon-bestuurder-vaste-vertegenwoordiger]]
-
+- **Wordt voorondersteld in** (5): [[belangenconflict-bestuurder-bv-cv]] · [[bestuur-bv-cv-werkwijze]] · [[bevoegdheid-bestuursorgaan]] · [[dagelijks-bestuur]] · [[rechtspersoon-bestuurder-vaste-vertegenwoordiger]]
 ## Voorbeelden
 
 ### Ultra-vires-handeling van een gedelegeerd bestuurder
@@ -62,7 +63,7 @@ Pieter Vermeulen, gedelegeerd bestuurder van Uitgeverij Ukkel NV (voorwerp: 'uit
 1. Vraag: lag de handeling buiten het voorwerp? Een vrachtwagen voor boekenvervoer past redelijkerwijs binnen 'verspreiden' — twijfelachtig of dit überhaupt ultra vires is.
 2. Stel dat de rechter wel oordeelt dat het buiten het voorwerp valt: artikel 7:94 verbindt de NV in beginsel tóch, behalve als zij bewijst dat de leverancier ervan wist of moest weten.
 3. De leverancier deed normale due diligence (KBO-check, statutenverwijzing in zijn standaardcontract) — zonder concreet bewijs van zijn kwade trouw blijft de NV gebonden.
-🤖
+🔗
 
 
 

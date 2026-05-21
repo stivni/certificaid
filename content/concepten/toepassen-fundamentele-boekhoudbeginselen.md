@@ -14,11 +14,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toepassen-fundamentele-boekhoudbeginselen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toepassen van de fundamentele boekhoudbeginselen op een concrete verrichting 🤖
+# Toepassen van de fundamentele boekhoudbeginselen op een concrete verrichting 🔗
 
 De competentie die de losse beginselen (regelmatigheid, voorzichtigheid, getrouw beeld, continuïteit, onveranderlijkheid, matching) verbindt tot één **professioneel oordeel** over een concrete verrichting. Voor een stagiair-GA: typisch examenscenario waarbij meerdere beginselen tegelijk getoetst worden en de juiste hiërarchie + uitkomst moet worden onderbouwd.
+
 
 
 ## Stappen

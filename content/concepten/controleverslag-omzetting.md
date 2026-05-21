@@ -17,7 +17,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controleverslag-omzetting.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Controleverslag bij omzetting van een vennootschap ⚖️
 
@@ -31,6 +31,7 @@ Het controleverslag is een wettelijk voorbehouden gedeelde opdracht: het monopol
 Bij elke omzetting van een vennootschap (Boek 14 WVV) moet een controleverslag worden opgesteld over de door het bestuursorgaan opgestelde staat van activa en passiva. Het verslag wordt opgemaakt door de commissaris of, bij afwezigheid van een commissaris, door een bedrijfsrevisor of gecertificeerd accountant aangewezen door het bestuursorgaan. De beroepsbeoefenaar beoordeelt of het nettoactief in alle van materieel belang zijnde opzichten niet overgewaardeerd is — een opdracht met beperkte mate van zekerheid. De conclusie van het verslag wordt verplicht in de notariële omzettingsakte opgenomen; bij ontbreken van het verslag is het AV-besluit tot omzetting nietig.
 
 _Bron: WVV art. 14:6, art. 14:7, art. 14:10_
+
 
 
 ## In de praktijk
@@ -57,7 +58,7 @@ _Bron: WVV art. 14:6, art. 14:7, art. 14:10_
 
 - **Vereist kennis van**: [[beperkte-mate-van-zekerheid]]
 - **Vereist kennis van**: [[confirmatiebrieven]]
-
+- **Wordt voorondersteld in** (2): [[omzetting-vennootschap]] · [[voorstel-omzetting-vennootschap]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

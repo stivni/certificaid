@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/externe-controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Externe controle ⚖️
 
@@ -29,9 +29,10 @@ Externe controle is een onafhankelijke beoordeling van de jaarrekening of andere
 _Bron: KB 1 maart 1998 plichtenleer art. 13, 17, 18_
 
 
+
 ## Bouwstenen
 
-### Wettelijke vs vrijwillige externe controle 🤖
+### Wettelijke vs vrijwillige externe controle 🔗
 
 Wettelijke externe controle = commissaris bij grote vennootschappen (WVV-criteria) of bepaalde regimes (bv. VZW boven drempel, beursgenoteerde entiteit). Vrijwillige externe controle = auditcliënt vraagt zelf een verklaring (bv. bankfinanciering, due diligence).
 
@@ -84,7 +85,7 @@ _Grondslag: ITAA KMO-controlenorm §97; ISA 330_
 ## Valkuilen
 
 > [!warning]- Verwarring met fiscale controle: de fiscus is óók 'extern' maar heeft een ander mandaat (toezicht op aangifte) en geen ISA-verplichting
-> ⚠️ Verwarring met fiscale controle: de fiscus is óók 'extern' maar heeft een ander mandaat (toezicht op aangifte) en geen ISA-verplichting. In het examen-jargon is 'externe controle' meestal de wettelijke audit door bedrijfsrevisor/commissaris, niet de fiscus. 🤖
+> ⚠️ Verwarring met fiscale controle: de fiscus is óók 'extern' maar heeft een ander mandaat (toezicht op aangifte) en geen ISA-verplichting. In het examen-jargon is 'externe controle' meestal de wettelijke audit door bedrijfsrevisor/commissaris, niet de fiscus. 🔗
 
 
 

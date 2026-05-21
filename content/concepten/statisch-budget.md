@@ -13,9 +13,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/statisch-budget.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Statisch budget 🤖
+# Statisch budget 🔗
 
 Een statisch budget is opgesteld voor één gepland activiteitenniveau en wordt niét aangepast aan latere wijzigingen in productie- of verkoopvolume. Het is de oorspronkelijke 'plan'-versie — bruikbaar voor jaarplanning en commitment naar bestuur, maar onbruikbaar voor eerlijke vergelijking met werkelijkheid als het volume afwijkt. Voor variantenanalyse herrekend men typisch naar een flexibel budget zodat volume-verschillen en efficiëntie-verschillen apart zichtbaar worden.
 
@@ -27,6 +27,7 @@ Een statisch budget is opgesteld voor één gepland activiteitenniveau en wordt 
 Een statisch budget is een budget dat opgesteld werd voor één gepland activiteitenniveau en niet wordt aangepast aan latere wijzigingen in productie- of verkoopvolume. Het is de oorspronkelijke 'plan'-versie zoals goedgekeurd in december.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## In de praktijk

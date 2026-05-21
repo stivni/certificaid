@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/beroepsgeheim-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Beroepsgeheim van de accountant ⚖️
 
@@ -26,6 +26,7 @@ Het beroepsgeheim van de accountant is strafrechtelijk verankerd (art. 458 Sw.) 
 De externe accountant is gebonden door het beroepsgeheim (art. 458 Strafwetboek). Hij mag vertrouwelijke informatie niet vrijwillig delen — ook niet bij een verhoor door politieambtenaar of openbaar ministerie. Uitzonderingen: getuigenis in rechte voor een rechter, eigen verdediging in een tuchtprocedure of ereloon-betwisting, wettelijke meldingsplicht (antiwitwas).
 
 _Bron: ITAA-deontologie-beroepsgeheim + art. 458 Strafwetboek_
+
 
 
 ## Voorwaarden / uitzonderingen
@@ -52,7 +53,7 @@ _Bron: ITAA-deontologie-beroepsgeheim + art. 458 Strafwetboek_
 
 - **Vereist kennis van**: [[]]
 - **Getriggerd door**: [[]]
-
+- **Wordt voorondersteld in** (3): [[antiwitwasmeldingsplicht-accountant]] · [[iesba-code-of-ethics]] · [[toepassen-professional-skepticism-en-deontologie-audit]]
 ## Voorbeelden
 
 Een politieambtenaar contacteert Sofie Janssens en vraagt naar de boekhouding van Meubelzaak Mertens BV in het kader van een fiscaal onderzoek. Sofie weigert vrijwillig te antwoorden — beroepsgeheim. Pas wanneer een onderzoeksrechter haar oproept, mag zij — en moet zij zelfs — verschijnen en de eed afleggen.

@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/insolventieprocedures-belgie.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Insolventieprocedures (Boek XX WER) ⚖️
 
@@ -24,9 +24,12 @@ Boek XX WER verving in 2018 de oude Wet Continuïteit Ondernemingen (WCO, 2009) 
 > [!summary] Korte inhoud
 > Het geheel van wettelijke procedures dat in werking treedt wanneer een onderneming haar schulden niet meer (kan) betaalt.
 
+> [!info]- Bestaat uit (9): [[besloten-voorbereiding-faillissement]] · [[faillissement]] · [[gerechtelijke-reorganisatie]] · [[insolventiefunctionaris]] · [[kamer-ondernemingen-in-moeilijkheden]] · [[ondernemingsrechtbank-bevoegdheid-insolventie]] · [[overdracht-onder-gerechtelijk-gezag]] · [[regsol-platform]] · [[vroegtijdige-waarschuwing-insolventie]]
+
 Het geheel van wettelijke procedures dat in werking treedt wanneer een onderneming haar schulden niet meer (kan) betaalt. Boek XX van het Wetboek van Economisch Recht (WER) — ingevoegd door de wet van 11 augustus 2017 — verzamelt drie procedure-families: **vroegtijdige waarschuwing en buitengerechtelijk minnelijk akkoord** (preventief), **gerechtelijke reorganisatie** (continuïteit beschermen) en **faillissement** (vereffening onder curator). Eén Boek geldt voor élke onderneming in de brede zin van art. I.1 WER: vennootschappen, vzw's, stichtingen, maatschappen én natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen.
 
 _Bron: WER Boek XX (art. XX.1 e.v.)_
+
 
 
 ## Bouwstenen
@@ -92,7 +95,7 @@ _Grondslag: WER art. XX.7, XX.14, XX.104_
 <h3 id="welke-procedure-wanneer">Welke procedure wanneer?</h3>
 
 > [!tip]- Welke procedure wanneer?
-> Liquiditeitsprobleem maar levensvatbare onderneming → gerechtelijke reorganisatie. Vermogensprobleem zonder uitzicht op herstel → faillissement. Spanning tussen één grote schuldeiser → buitengerechtelijk minnelijk akkoord. Bij twijfel zijn opeenvolgende procedures mogelijk (gerechtelijke reorganisatie die faalt → faillissement). 🤖
+> Liquiditeitsprobleem maar levensvatbare onderneming → gerechtelijke reorganisatie. Vermogensprobleem zonder uitzicht op herstel → faillissement. Spanning tussen één grote schuldeiser → buitengerechtelijk minnelijk akkoord. Bij twijfel zijn opeenvolgende procedures mogelijk (gerechtelijke reorganisatie die faalt → faillissement). 🔗
 
 <h3 id="boekhoudkundige-weerslag">Boekhoudkundige weerslag</h3>
 
@@ -104,7 +107,7 @@ _Grondslag: WER art. XX.7, XX.14, XX.104_
 
 - **Vereist kennis van**: [[continuiteitsbeginsel]]
 - **Vereist kennis van**: [[overdracht-onder-gerechtelijk-gezag]]
-
+- **Wordt voorondersteld in** (1): [[voorwaarden-faillietverklaring]]
 ## Voorbeelden
 
 ### Liquiditeitsschok bij Meubelzaak Mertens BV

@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/budgetprocedure.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Budgetprocedure 🤖
+# Budgetprocedure 🔗
 
 De budgetprocedure is het concrete vijf-fasen-proces (richtlijnen, decentrale ramen, consolidatie, goedkeuring, opvolging) waarmee een onderneming jaarlijks zijn budget opstelt en opvolgt. Eigenaarschap en doorlooptijden zijn cruciaal: een procedure die in november start raakt opgejaagd en levert zwakke ramingen. De vijfde fase (periodieke opvolging) verbindt budgetprocedure naadloos met verschillenboekhouding.
 
@@ -28,6 +28,7 @@ De budgetprocedure is het concrete vijf-fasen-proces (richtlijnen, decentrale ra
 Een budgetprocedure verloopt typisch in vijf opeenvolgende fasen: richtlijnen opstellen, decentraal ramen, consolidatie en confrontatie, goedkeuring en distributie, periodieke opvolging. Elke fase heeft een eigenaar en een doorlooptijd. Een degelijke procedure waarborgt dat alle afdelingen tijdig hun input leveren en dat het uiteindelijke budget intern gecommuniceerd is vóór het boekjaar start.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## Berekening
@@ -136,7 +137,7 @@ Maandelijks rapport budget vs. realisatie per kostencentrum. Bij significante af
 ## Zie ook
 
 - **Vereist kennis van**: [[verschillenboekhouding]]
-
+- **Wordt voorondersteld in** (1): [[master-budget]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

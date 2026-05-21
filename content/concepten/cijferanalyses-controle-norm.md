@@ -19,7 +19,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/cijferanalyses-controle-norm.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Cijferanalyses (controlenorm KMO) ⚖️
 
@@ -31,6 +31,7 @@ De ITAA-controlenorm legt op dat cijferanalyses verplicht worden uitgevoerd op d
 De beroepsbeoefenaar dient cijferanalyses uit te voeren (i) bij het identificeren en inschatten van de risico's van een afwijking van materieel belang, (ii) kan ze inzetten als gegevensgerichte controleprocedure, en (iii) voert ze uit aan het einde van de controle om een algehele conclusie te trekken over de vraag of de financiële overzichten consistent zijn met zijn inzicht in de KMO of kleine VZW.
 
 _Bron: ITAA-norm KMO-controlenorm §3.2.4 cijferanalyses §111_
+
 
 
 ## Bouwstenen

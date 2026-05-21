@@ -16,7 +16,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/geassocieerde-onderneming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Geassocieerde onderneming ⚖️
 
@@ -30,6 +30,7 @@ Een tussenpositie in het Belgische boekhoudrecht-consolidatieregime: een deelnem
 Een onderneming waarop een andere onderneming een invloed van betekenis heeft — maar niet voldoende om er controle over uit te oefenen. De geassocieerde is dus geen dochter en geen gemeenschappelijke dochter. Vermoeden: zodra de moeder 20 % of meer van de stemrechten houdt, wordt invloed van betekenis weerlegbaar vermoed.
 
 _Bron: WVV art. 1:22_
+
 
 
 ## In de praktijk
@@ -81,7 +82,7 @@ _Bron: WVV art. 1:22_
 
 - **Getriggerd door**: [[vermogensmutatiemethode]]
 - **Vereist kennis van**: [[invloed-van-betekenis]]
-
+- **Triggert** (1): [[invloed-van-betekenis]]
 ## Voorbeelden
 
 Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV; geen controle in feite, geen stemovereenkomst. → weerlegbaar invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → opname via vermogensmutatie in de geconsolideerde jaarrekening van Antwerpse.

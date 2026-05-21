@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belangenconflict-bestuurder-bv-cv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Belangenconflict van een bestuurder in BV en CV ⚖️
 
@@ -30,9 +30,10 @@ Het belangenconflict-regime in BV en CV verplicht een bestuurder met een rechtst
 _Bron: WVV art. 5:76, 5:77; 6:64, 6:65_
 
 
+
 ## Bouwstenen
 
-### Procedure: voorafgaande melding en onthouding 🤖
+### Procedure: voorafgaande melding en onthouding 🔗
 
 De bestuurder die een persoonlijk vermogensrechtelijk belang heeft dat strijdig is met het belang van de BV (of CV), brengt dit vóór de beraadslaging ter kennis van zijn medebestuurders. Wanneer er een college is, mag hij niet meebeslissen en niet meestemmen over de betrokken beslissing of verrichting. Wanneer elke bestuurder afzonderlijk bevoegd is (geen college), kan de bestuurder de handeling niet zelf stellen — ze moet aan de andere bestuurders of aan de algemene vergadering worden voorgelegd.
 
@@ -62,7 +63,7 @@ Wanneer de enige bestuurder tevens de enige aandeelhouder is, mag hij de besliss
 
 
 
-Pieter Vermeulen is enige bestuurder én enige aandeelhouder van Oprichtingen Oostende BV. Hij verkoopt zijn privé-vastgoed aan de BV voor € 400.000. Hij neemt deze verrichting en de prijsmotivering op in een bijzonder verslag dat samen met de jaarrekening wordt neergelegd; de commissaris (indien benoemd) beoordeelt de vermogensrechtelijke gevolgen. _(Oprichtingen Oostende BV, Pieter Vermeulen)_ 🤖
+Pieter Vermeulen is enige bestuurder én enige aandeelhouder van Oprichtingen Oostende BV. Hij verkoopt zijn privé-vastgoed aan de BV voor € 400.000. Hij neemt deze verrichting en de prijsmotivering op in een bijzonder verslag dat samen met de jaarrekening wordt neergelegd; de commissaris (indien benoemd) beoordeelt de vermogensrechtelijke gevolgen. _(Oprichtingen Oostende BV, Pieter Vermeulen)_ 🔗
 
 _Grondslag: WVV art. 5:77, § 1, tweede zin_
 

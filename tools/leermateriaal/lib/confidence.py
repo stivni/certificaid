@@ -15,8 +15,11 @@ MODE_CONFIDENCE_PRIORITY: list[str] = [
 
 _LABEL_MAP: dict[str, str] = {
     "grounded": "⚖️",
-    "inferred-from-aggregation": "🤖",
-    "inferred": "🤖",
+    "inferred-from-aggregation": "🔗",
+    "inferred": "🔗",
+    "vuistregel": "🧭",
+    "te_verifieren": "⚠️",
+    "tegenstrijdig": "❌",
 }
 
 # Velden op record-niveau die een confidence-waarde kunnen dragen
@@ -31,13 +34,20 @@ _CONFIDENCE_VELDEN: list[str] = [
 def label(confidence: str) -> str:
     """Geef het emoji-label voor een confidence-waarde.
 
+    Schema 2.0 confidence-labels:
+    - grounded      → ⚖️  (direct traceerbaar naar bron)
+    - inferred      → 🔗  (redenering uit bronnen-context)
+    - vuistregel    → 🧭  (beroepswijsheid, geen harde regel)
+    - te_verifieren → ⚠️  (bron ontbreekt of te verifiëren)
+    - tegenstrijdig → ❌  (tegenstrijdige bronnen)
+
     Args:
-        confidence: 'grounded', 'inferred-from-aggregation' of 'inferred'
+        confidence: confidence-waarde string
 
     Returns:
-        '⚖️' voor grounded, '🤖' voor alles anders
+        emoji-label, of '🔗' als onbekende waarde
     """
-    return _LABEL_MAP.get(confidence, "🤖")
+    return _LABEL_MAP.get(confidence, "🔗")
 
 
 def mode_confidence(record: dict) -> str:

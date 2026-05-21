@@ -15,9 +15,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/budgetboekhouding.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Budgetboekhouding 🤖
+# Budgetboekhouding 🔗
 
 De budgetboekhouding is het deel van de analytische boekhouding waarin de goedgekeurde budgetcijfers worden vastgelegd in aparte rekeningen — typisch in sub-rekeningen van klasse 90 in het Belgische MAR. Loopt parallel met de algemene en analytische boekhouding zodat realisaties rechtstreeks tegen budget vergelijkbaar zijn, wat de verschillenboekhouding mogelijk maakt. Sluitstuk tussen budgetprocedure (planning) en verschillenboekhouding (afwijkingsanalyse).
 
@@ -29,6 +29,7 @@ De budgetboekhouding is het deel van de analytische boekhouding waarin de goedge
 De budgetboekhouding is het deel van de analytische boekhouding waarin de goedgekeurde budgetbedragen worden vastgelegd in aparte rekeningen, zodat realisaties rechtstreeks tegen budget kunnen worden vergeleken. In het Belgische MAR (KB 21.10.2018, klasse 9 'vrij in te vullen') worden budgetcijfers typisch geregistreerd in sub-rekeningen van klasse 90 of in een aparte boekhoudkundige dimensie. De budgetboekhouding loopt parallel met de algemene en analytische boekhouding: dezelfde transacties worden zowel werkelijk (klasse 6, klasse 9) als budgetmatig (klasse 90-budget) geboekt, wat een directe oppositie 'budget − werkelijk' per kostencentrum oplevert.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## Bouwstenen

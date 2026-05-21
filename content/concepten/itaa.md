@@ -18,7 +18,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/itaa.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Instituut van de Belastingadviseurs en Accountants (ITAA) ⚖️
 
@@ -27,9 +27,12 @@ Het Instituut van de Belastingadviseurs en de Accountants (ITAA) is sinds de Wet
 > [!summary] Korte inhoud
 > Het ITAA (sinds 2020) is het Belgische beroepsinstituut voor accountants, gecertificeerd accountants, fiscalisten en belastingadviseurs.
 
+> [!info] Bestaat uit (1): [[gecertificeerd-accountant-ga]]
+
 Het ITAA (sinds 2020) is het Belgische beroepsinstituut voor accountants, gecertificeerd accountants, fiscalisten en belastingadviseurs. Het overneemt de taken van de vroegere IAB en BIBF. Het ITAA reguleert toegang tot het beroep (stage + bekwaamheidsexamen), legt deontologische normen op, houdt tucht en publiceert beroepsnormen.
 
 _Bron: Wet 17 maart 2019 (oprichting ITAA)_
+
 
 
 ## Bouwstenen
@@ -65,6 +68,9 @@ _Grondslag: Wet 17 maart 2019 + ITAA-normen_
 > _Trigger_: Examenvraag 'mag een ITAA-accountant commissarisopdracht uitvoeren?' → **neen** (alleen IBR-revisor). 'Mag een ITAA-gecertificeerd accountant een contractuele KMO-controle doen?' → ja (ITAA-KMO-controlenorm). 'Wie controleert de jaarrekening van een grote NV?' → commissaris-revisor → IBR. 'Wie helpt een KMO met boekhouding en aangiftes?' → accountant → ITAA.
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[antiwitwasmeldingsplicht-accountant]]
 ## Voorbeelden
 
 De gecertificeerd accountant die het bekwaamheidsexamen van het ITAA aflegt, krijgt na slagen het recht de beroepstitel te dragen — een wettelijk gereglementeerd beroep.

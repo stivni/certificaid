@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorraden.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Voorraden ⚖️
 
@@ -24,9 +24,12 @@ Het werkkapitaal-bestanddeel dat **gebruik vs verbruik** scheidt van vaste activ
 
 > [!info] Specialisatie van: [[voorzichtigheidsbeginsel]]
 
+> [!info] Specialisaties (1): [[voorraden-ifrs]]
+
 Activa die deel uitmaken van de bedrijfscyclus en die ofwel bij eerste gebruik worden geconsumeerd, ofwel worden verkocht — als zodanig of na een productieproces. Voorraden behoren tot de **vlottende activa** (rubriek 3 MAR). Subcategorieën: (30) grond- en hulpstoffen, (31) goederen in bewerking, (32) gereed product, (33) handelsgoederen, (34) onroerende goederen bestemd voor verkoop. Bij waardering: aanschaffingswaarde of vervaardigingsprijs getoetst aan markt- of realisatiewaarde — **laagste van de twee** geldt (voorzichtigheidsbeginsel).
 
 _Bron: CBN 132/7 — Boeking en waardering van voorraden_
+
 
 
 ## Bouwstenen
@@ -105,7 +108,7 @@ _Grondslag: CBN 132/7 + MAR klasse 71_
 <h3 id="fifo-bij-stijgende-prijzen-vs-lifo-bij-stijgende-prijzen">FIFO bij stijgende prijzen vs LIFO bij stijgende prijzen</h3>
 
 > [!tip]- FIFO bij stijgende prijzen vs LIFO bij stijgende prijzen
-> Bij stijgende inkoopprijzen geeft FIFO een hoger eindvoorraadwaarde (oudere/goedkopere kost in resultaat) en LIFO een lager. Het omgekeerde bij dalende prijzen. Methodekeuze heeft fiscaal en boekhoudkundig effect. 🤖
+> Bij stijgende inkoopprijzen geeft FIFO een hoger eindvoorraadwaarde (oudere/goedkopere kost in resultaat) en LIFO een lager. Het omgekeerde bij dalende prijzen. Methodekeuze heeft fiscaal en boekhoudkundig effect. 🔗
 
 
 ## Valkuilen
@@ -126,7 +129,7 @@ _Grondslag: CBN 132/7 + MAR klasse 71_
 ## Zie ook
 
 - **Vereist kennis van**: [[waardeverminderingen]]
-
+- **Wordt voorondersteld in** (1): [[bedrijfsresultaat]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV heeft op 31/12: grondstoffen (textiel, garen) € 28.500 (rekening 30), goederen in bewerking € 14.200 (31), gereed product (afgewerkte kledingstukken) € 87.300 (32). Markwaarde van een gedeelte gereed product (30 stuks oude collectie) ligt onder aanschaffingswaarde → waardevermindering € 4.500. Op de balans rubriek IV.Voorraden: € 28.500 + € 14.200 + (€ 87.300 − € 4.500) = € 125.500.

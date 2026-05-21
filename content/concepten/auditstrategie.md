@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/auditstrategie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Auditstrategie ⚖️
 
@@ -28,6 +28,7 @@ Bij elke controleopdracht moet de auditor een algehele controleaanpak vaststelle
 De auditstrategie is het overkoepelende plan voor de hele opdracht: ze bepaalt de reikwijdte, het tijdschema en de omvang, en geeft richtlijnen voor het opstellen van het werkprogramma. De strategie weegt opdrachtkenmerken, doelstellingen, professionele oordeelsfactoren, ervaring uit eerdere opdrachten, en de aard/timing/omvang van de benodigde middelen.
 
 _Bron: ITAA KMO-controlenorm §71-§72_
+
 
 
 ## In de praktijk

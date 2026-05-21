@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aanwezigheidsrecht-algemene-vergadering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Aanwezigheidsrecht op de algemene vergadering ⚖️
 
@@ -28,6 +28,7 @@ Het WVV omschrijft drie kringen rond de algemene vergadering: aandeelhouders met
 Het aanwezigheidsrecht is het recht om de algemene vergadering bij te wonen — fysiek, elektronisch op afstand of bij volmacht. Het WVV onderscheidt drie aanwezigheidsregimes: volwaardige aandeelhouders (stem- en spreekrecht), houders van andere effecten die met raadgevende stem mogen bijwonen, en derden die op grond van een eigen titel (commissaris, vertegenwoordiger van obligatiehouders, ondernemingsraad bij wettelijke controle) aanwezigheid kunnen opeisen. De statuten kunnen formaliteiten voor toelating opleggen (registratie vooraf, identificatie), maar mogen het kernrecht zelf niet uithollen.
 
 _Bron: WVV art. 5:86 (BV), 6:73 (CV), 7:122 (NV)_
+
 
 
 ## Bouwstenen
@@ -76,7 +77,7 @@ Wanneer voor een uitgifte of uitgifteprogramma vertegenwoordigers van obligatieh
 
 _Grondslag: WVV art. 7:155 (NV — vertegenwoordigers van obligatiehouders); art. 7:160 (notulen AV obligatiehouders)_
 
-### Bestuurders en derde-raadgevers 🤖
+### Bestuurders en derde-raadgevers 🔗
 
 De bestuurders nemen deel aan de algemene vergadering vanuit hun verantwoordingsplicht; ze hebben antwoordplicht op het vraagrecht van de aandeelhouders. Het WVV verbiedt niet dat een aandeelhouder zich op de zitting laat bijstaan door een raadgevende derde (advocaat, gecertificeerd accountant, financieel adviseur), maar dit recht is wettelijk niet expliciet erkend in de boeken 5–7; het wordt afgeleid uit het algemeen rechtsbeginsel van bijstand en de afwezigheid van een verbod. De statuten kunnen de modaliteiten (vooraankondiging, identificatie) regelen.
 
@@ -112,7 +113,7 @@ _Grondslag: WVV art. 3:83_
 
 
 > [!warning]- Bijstand door een gecertificeerd accountant of advocaat is geen ingebouwd recht — controleer altijd de statuten en geef vooraf bericht aan het bestuursorgaan.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -124,7 +125,7 @@ _Grondslag: WVV art. 3:83_
 ## Voorbeelden
 
 Op de gewone AV van Zelena Bio NV (genoteerd) zijn aanwezig: 12 stemgerechtigde aandeelhouders, één obligatiehoudersvertegenwoordiger, de commissaris en twee houders van inschrijvingsrechten. De laatste twee mogen meespreken maar tellen niet mee voor het quorum of de meerderheid. _(Zelena Bio NV)_ ⚖️
-Robert Vandenberghe, minderheidsaandeelhouder van Brugse Brouwerij BV, laat zich op de AV bijstaan door zijn advocaat Sofie Janssens. De voorzitter weigert haar toegang met verwijzing naar de statutaire registratielimieten — Robert protesteert en laat zijn voorbehoud in de notulen opnemen. _(Brugse Brouwerij BV, Robert Vandenberghe, Sofie Janssens)_ 🤖
+Robert Vandenberghe, minderheidsaandeelhouder van Brugse Brouwerij BV, laat zich op de AV bijstaan door zijn advocaat Sofie Janssens. De voorzitter weigert haar toegang met verwijzing naar de statutaire registratielimieten — Robert protesteert en laat zijn voorbehoud in de notulen opnemen. _(Brugse Brouwerij BV, Robert Vandenberghe, Sofie Janssens)_ 🔗
 
 ## Bronnen
 

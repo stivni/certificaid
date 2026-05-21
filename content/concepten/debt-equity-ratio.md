@@ -18,13 +18,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/debt-equity-ratio.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Debt-equity ratio (schuldgraad) 🤖
+# Debt-equity ratio (schuldgraad) 🔗
 
 Direct meten hoe groot de vreemde-vermogen-financiering is tegenover het eigen vermogen. Toont de hefboom: 1,5 betekent dat er € 1,50 vreemd vermogen tegenover elke € 1 eigen vermogen staat.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
+
 
 
 ## Bouwstenen
@@ -149,18 +150,21 @@ Resultaat: Schuldgraad 1,5 = € 1,50 schuld tegenover € 1 eigen vermogen. Voo
 ## Valkuilen
 
 > [!warning]- Voorzieningen tellen mee als vreemd vermogen — soms vergeten studenten ze
-> ⚠️ Voorzieningen tellen mee als vreemd vermogen — soms vergeten studenten ze. Ook overlopende rekeningen passief (vooral 'kosten te betalen') zijn schulden. 🤖
+> ⚠️ Voorzieningen tellen mee als vreemd vermogen — soms vergeten studenten ze. Ook overlopende rekeningen passief (vooral 'kosten te betalen') zijn schulden. 🔗
 >
 > _Bron: Financial analysis_
 
 
 > [!warning]- Soms zie je 'net debt to equity' — die variant trekt liquide middelen en geldbeleggingen af van het vreemd vermogen
-> ⚠️ Soms zie je 'net debt to equity' — die variant trekt liquide middelen en geldbeleggingen af van het vreemd vermogen. Niet gelijkstellen aan klassieke debt-equity zonder dat te vermelden. 🤖
+> ⚠️ Soms zie je 'net debt to equity' — die variant trekt liquide middelen en geldbeleggingen af van het vreemd vermogen. Niet gelijkstellen aan klassieke debt-equity zonder dat te vermelden. 🔗
 >
 > _Bron: Financial analysis_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[financiering-met-derdenkapitaal]] · [[ratio-covenants]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`

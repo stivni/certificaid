@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/buitengewone-algemene-vergadering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Buitengewone algemene vergadering ⚖️
 
@@ -25,9 +25,12 @@ De buitengewone algemene vergadering is de vergadering die statutenwijzigingen e
 
 > [!info] Behoort tot: [[algemene-vergadering]]
 
+> [!info] Bestaat uit (1): [[quorum-en-meerderheid-statutenwijziging]]
+
 De buitengewone algemene vergadering is de algemene vergadering die bevoegd is voor statutenwijzigingen (inclusief kapitaalbewegingen NV, wijziging voorwerp/doelen, omzetting van rechtsvorm, ontbinding). Zij vereist een notariële akte (uitgezonderd bepaalde verrichtingen in CV en de specifieke gevallen die de wet als onderhands behandelt) en hogere aanwezigheids- en meerderheidsdrempels dan de gewone AV.
 
 _Bron: WVV art. 5:100 (BV), 6:85 (CV), 7:153 (NV)_
+
 
 
 ## Bouwstenen
@@ -85,7 +88,7 @@ _Grondslag: WVV art. 5:101 (BV), 6:86 (CV), 7:154 (NV)_
 ## Zie ook
 
 - **Vereist kennis van**: [[quorum-en-meerderheid-statutenwijziging]]
-
+- **Wordt voorondersteld in** (1): [[notulen-algemene-vergadering]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

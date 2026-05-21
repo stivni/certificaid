@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/arbeidskosten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Arbeidskosten ⚖️
 
@@ -28,6 +28,7 @@ Arbeidskosten omvatten brutoloon plus alle werkgeverslasten (sociale zekerheid, 
 Arbeidskosten in analytische zin omvatten het brutoloon plus alle bijhorende werkgeverslasten (sociale zekerheid, vakantiegeld, eindejaarspremie, verzekering arbeidsongevallen, bedrijfsvoorheffing als doorstortingsplicht). Het bruto-loon alleen onderschat de werkelijke arbeidskost met typisch 25-40 %.
 
 _Bron: WIB92 art. 30-31 (begrip bezoldiging); KB MAR klasse 62_
+
 
 
 ## Bouwstenen
@@ -79,6 +80,9 @@ Bij Yperse Werkplaats BV registreren de naaisters elke ochtend via badge welk or
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[prijsverschil-arbeid]]
 ## Voorbeelden
 
 Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26.

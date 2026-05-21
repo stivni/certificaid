@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/onafhankelijkheid-externe-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Onafhankelijkheid van de externe accountant ⚖️
 
@@ -27,6 +27,7 @@ Onafhankelijkheid is de bestaansgrond van elke assurance-opdracht: zonder onafha
 De externe accountant moet een opdracht weigeren of stopzetten zodra hij invloeden, feiten of banden vaststelt die zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten. Onafhankelijkheid is een continue plicht, niet alleen bij aanvang van de opdracht.
 
 _Bron: KB plichtenleer art. 9_
+
 
 
 ## Voorwaarden / uitzonderingen
@@ -52,7 +53,7 @@ _Bron: KB plichtenleer art. 9_
 ## Zie ook
 
 - **Vereist kennis van**: [[]]
-
+- **Wordt voorondersteld in** (7): [[accountantsrol-bij-vennootschapsconflict]] · [[auditcomite]] · [[externe-auditor-relatie-ic]] · [[externe-controle]] · [[iesba-code-of-ethics]] · [[inbreng-in-natura-verslag]] · [[toepassen-professional-skepticism-en-deontologie-audit]]
 ## Voorbeelden
 
 Sofie Janssens treedt op als externe accountant van Meubelzaak Mertens BV. Halverwege het boekjaar stelt de zaakvoerder haar voor als bestuurder van een dochteronderneming. Conform KB plichtenleer art. 9 moet zij dit weigeren of de controleopdracht teruggeven — anders verliest zij haar onafhankelijkheid.

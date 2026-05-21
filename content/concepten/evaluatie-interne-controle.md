@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/evaluatie-interne-controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Evaluatie van de interne controle 🤖
+# Evaluatie van de interne controle 🔗
 
 Evaluatie van interne controle is de gestructureerde beoordeling van een IC-systeem op opzet (design), werking (operating) en efficiëntie. Wordt uitgevoerd door interne audit, externe consultant, externe accountant in adviesrol of via management self-assessment. Resultaat: rapport met bevindingen, root cause en remediation-plan.
 
@@ -26,6 +26,7 @@ Evaluatie van interne controle is de gestructureerde beoordeling van een IC-syst
 > [!info] Behoort tot: [[interne-controle]] · [[monitoring-interne-controle]]
 
 Evaluatie van interne controle is de systematische beoordeling of het IC-systeem (zowel het ontwerp van controles als hun uitvoering) effectief en efficiënt werkt om risico's te beheersen. Onderscheiden van toetsing van interne beheersing door de externe auditor: die laatste is gericht op assurance voor de jaarrekening-opinie, terwijl IC-evaluatie breder is en ook operationele/compliance-effectiviteit dekt.
+
 
 
 ## Bouwstenen
@@ -41,7 +42,7 @@ Voor de meeste ondernemingen géén algemene wettelijke verplichting om IC zelf 
 
 _Grondslag: ITAA-norm-kmo-controlenorm §97-§98_
 
-### Wie voert de evaluatie uit 🤖
+### Wie voert de evaluatie uit 🔗
 
 Vier mogelijke uitvoerders: (1) interne audit indien aanwezig (meest objectief intern); (2) externe consultant; (3) externe accountant in adviesrol (mits onafhankelijkheidsregels gerespecteerd bij gelijktijdige wettelijke controle); (4) self-assessment door management (minst objectief, wel waardevol).
 
@@ -109,13 +110,13 @@ Schriftelijk verslag met bevindingen + impact + aanbevelingen + actieplan + term
 <h3 id="wie-voert-de-evaluatie-uit">Wie voert de evaluatie uit</h3>
 
 > [!tip]- Wie voert de evaluatie uit
-> (1) Interne audit (indien aanwezig). (2) Externe consultant (bv. Xenon Expertise BV bij Yperse Werkplaats BV). (3) Externe accountant in adviesrol — let op onafhankelijkheidsregels bij gelijktijdige wettelijke controle. (4) Self-assessment door management — minst objectief maar wel waardevol als trigger. 🤖
+> (1) Interne audit (indien aanwezig). (2) Externe consultant (bv. Xenon Expertise BV bij Yperse Werkplaats BV). (3) Externe accountant in adviesrol — let op onafhankelijkheidsregels bij gelijktijdige wettelijke controle. (4) Self-assessment door management — minst objectief maar wel waardevol als trigger. 🔗
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[evaluatiecriteria-ic]]
-
+- **Wordt voorondersteld in** (4): [[auditrisico-in-ic-context]] · [[communicatie-tekortkomingen-interne-beheersing]] · [[evaluatiecriteria-ic]] · [[kwaliteitscriteria-interne-controle]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

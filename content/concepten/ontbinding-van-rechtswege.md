@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ontbinding-van-rechtswege.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Ontbinding van rechtswege 🤖
+# Ontbinding van rechtswege 🔗
 
 Ontbinding van rechtswege werkt **automatisch**: er is geen vonnis of AV-besluit voor nodig. Een vennootschap voor bepaalde duur eindigt op de in de statuten vermelde einddatum; een statutaire ontbindende voorwaarde (bv. 'de vennootschap wordt ontbonden indien Y uittreedt') treedt in werking zonder verdere formaliteit. In praktijk is deze grond zeldzaam — de meeste vennootschappen worden aangegaan voor onbepaalde duur en statutaire ontbindende voorwaarden zijn uitzonderlijk.
 
@@ -26,6 +26,7 @@ Ontbinding van rechtswege werkt **automatisch**: er is geen vonnis of AV-besluit
 > [!info] Behoort tot: [[ontbinding-vennootschap]]
 
 Een vennootschap wordt **van rechtswege** ontbonden door een door de wet omschreven feit of gebeurtenis, onverminderd bijzondere bepalingen elders in het WVV. De twee algemene gronden zijn: (1) het **verstrijken van de duur** waarvoor zij is aangegaan, en (2) het zich voordoen van een **statutaire ontbindende voorwaarde** waaraan de vennoten haar bestaan hebben gekoppeld.
+
 
 
 ## Voorwaarden / uitzonderingen

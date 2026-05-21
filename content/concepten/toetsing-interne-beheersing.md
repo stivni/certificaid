@@ -19,13 +19,14 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/toetsing-interne-beheersing.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toetsing van interne beheersing (test of controls) 🤖
+# Toetsing van interne beheersing (test of controls) 🔗
 
 Een toetsing van interne beheersing is een controlemaatregel die de auditor opzet om te evalueren of de interne beheersing van de cliënt werkt zoals beoogd — d.w.z. of zij afwijkingen op het niveau van beweringen voorkomt of tijdig ontdekt en corrigeert.
 
 > [!info] Behoort tot: [[assurance-informatie]]
+
 
 
 ## Bouwstenen
@@ -65,7 +66,7 @@ _Grondslag: ITAA KMO-controlenorm §98_
 ## Zie ook
 
 - **Vereist kennis van**: [[interne-controle]]
-
+- **Wordt voorondersteld in** (5): [[auditrisico-in-ic-context]] · [[externe-auditor-relatie-ic]] · [[externe-controle]] · [[kwaliteitscriteria-interne-controle]] · [[selecteren-en-uitvoeren-controle-instrumenten-audit]]- **Triggert** (2): [[intern-beheersingsrisico]] · [[interne-controle]]
 ## Voorbeelden
 
 Sofie Janssens wil bij Rotex Roeselare NV steunen op de IC rond aankopen. Zij test 25 willekeurig gekozen aankoopfacturen: voor elk gaat ze na of er drie handtekeningen op zitten (besteller, magazijnier, CFO) en of het bedrag binnen de delegatieprocuratie blijft. 0 fouten → IC werkt → minder substantive testing nodig.

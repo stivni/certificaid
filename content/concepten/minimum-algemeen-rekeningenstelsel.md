@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/minimum-algemeen-rekeningenstelsel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Minimum Algemeen Rekeningenstelsel (MAR) ⚖️
 
@@ -28,6 +28,7 @@ Het MAR (Minimum Algemeen Rekeningenstelsel) is het **verplicht uniforme rekenin
 Het Minimum Algemeen Rekeningenstelsel (MAR, ook 'algemeen rekeningenplan') is het verplicht uniforme rekeningenkader waarop elke Belgische dubbele boekhouding gestoeld is. Het bestaat uit zeven klassen (0 tot 7 of nauwer 1 tot 7 met klasse 0 voor niet-balansrubrieken). Elke rekening krijgt een uniek nummer; ondernemingen mogen verder onderverdelen, maar de hoofdcategorieën zijn vast.
 
 _Bron: KB-WVV art. 3:9 + bijlage MAR_
+
 
 
 ## Bouwstenen
@@ -56,7 +57,7 @@ Transport Tongeren BV onderscheidt voor analyse: 6100 'Onderhoud trucks', 6101 '
 
 _Grondslag: KB-WVV art. 3:9; CBN-advies 2010/20_
 
-### Aansluiting op jaarrekening-schema 🤖
+### Aansluiting op jaarrekening-schema 🔗
 
 Elke MAR-klasse correspondeert met een sectie van de balans of resultatenrekening. Balans: klasse 1 (passiva) + klassen 2-3-4-5 (activa). RR: klasse 6 (kosten) + klasse 7 (opbrengsten). Hierdoor produceert de boekhouding 'vanzelf' de jaarrekening-cijfers.
 
@@ -81,7 +82,7 @@ _Grondslag: KB-WVV bijlage 1 + MAR_
 ## Zie ook
 
 - **Vereist kennis van**: [[dubbel-boekhouden]]
-
+- **Wordt voorondersteld in** (1): [[proef-en-saldibalans]]
 ## Voorbeelden
 
 Aankoop koopwaren € 5.000 bij Meubelzaak Mertens BV → rekening 604000 'Aankopen koopwaren' (klasse 6, kosten). Klantbetaling op bank → rekening 550000 'Bank — zichtrekening' (klasse 5).

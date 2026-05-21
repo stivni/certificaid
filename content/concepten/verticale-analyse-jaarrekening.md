@@ -21,11 +21,12 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verticale-analyse-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Verticale analyse (percentageanalyse, common-size) 🤖
+# Verticale analyse (percentageanalyse, common-size) 🔗
 
 De samenstelling van balans en resultatenrekening uitdrukken in procenten van een gemeenschappelijke noemer (balanstotaal voor de balans, omzet voor de resultatenrekening). Zo wordt vergelijking tussen ondernemingen van verschillende grootte mogelijk.
+
 
 
 ## Bouwstenen
@@ -145,12 +146,15 @@ Resultaat: Brutomarge 40 % (na handelsgoederen); bedrijfsmarge 8,4 %; nettomarge
 ## Valkuilen
 
 > [!warning]- Bij vennootschappen zonder echte 'omzet' (financieel actief, holding) is omzet als noemer onbruikbaar
-> ⚠️ Bij vennootschappen zonder echte 'omzet' (financieel actief, holding) is omzet als noemer onbruikbaar. Gebruik dan 'bedrijfsopbrengsten' of een totaal-noemer. 🤖
+> ⚠️ Bij vennootschappen zonder echte 'omzet' (financieel actief, holding) is omzet als noemer onbruikbaar. Gebruik dan 'bedrijfsopbrengsten' of een totaal-noemer. 🔗
 >
 > _Bron: Financial analysis_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[analytische-balans]]
 ## Bronnen
 
 [^1]: `anchor-1.3.I.C`

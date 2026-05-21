@@ -15,13 +15,14 @@ node_type: competentie
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/opvolging-voorganger-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Opvolging van een collega-accountant 🤖
+# Opvolging van een collega-accountant 🔗
 
 Wanneer een stagiair of accountant een nieuwe opdracht aanvaardt waarbij een andere accountant of bedrijfsrevisor de cliënt eerder bediende, treedt de confraterniteits-plicht in werking. KB plichtenleer art. 25 en ITAA Algemene controlenorm §5 schrijven voor dat de opvolger vóór aanvaarding contact opneemt met de voorganger en parallelle accountants schriftelijk informeert. Deze competentie operationaliseert die plicht stap-voor-stap.
 
 > [!info] Behoort tot: [[]]
+
 
 
 ## Stappen

@@ -15,11 +15,12 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/interpretatie-financiele-ratios.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Interpretatie en evaluatie van financiële ratio's (bekwaamheid) 🤖
+# Interpretatie en evaluatie van financiële ratio's (bekwaamheid) 🔗
 
 Een ratio interpreteren betekent: cijfer naast benchmark plaatsen, vergelijken over tijd, vergelijken over sector, en de cijfer-uitkomst vertalen naar een betekenisvolle diagnose voor het bedrijfsmodel. Niet 'is 1,45 goed of slecht?' maar 'wat betekent 1,45 in deze sector, in dit business model, in deze evolutie?'.
+
 
 
 ## In de praktijk
@@ -27,7 +28,7 @@ Een ratio interpreteren betekent: cijfer naast benchmark plaatsen, vergelijken o
 <h3 id="1.9.V.E">Verschil met PO 1.3 (toelating)</h3>
 
 > [!tip]- Verschil met PO 1.3 (toelating)
-> PO 1.3 leerde de ratio's te berekenen (formule + voorbeeld). PO 1.9.V.E (bekwaamheid) toetst of de student zelfstandig een diagnose kan formuleren uit een set ratio's — niet 'wat is ratio X?' maar 'wat is de financiële gezondheid van deze onderneming?'. 🤖
+> PO 1.3 leerde de ratio's te berekenen (formule + voorbeeld). PO 1.9.V.E (bekwaamheid) toetst of de student zelfstandig een diagnose kan formuleren uit een set ratio's — niet 'wat is ratio X?' maar 'wat is de financiële gezondheid van deze onderneming?'. 🔗
 
 
 ## Stappen

@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vennoot-vs-aandeelhouder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vennoot versus aandeelhouder ⚖️
 
@@ -27,12 +27,13 @@ Klein maar niet triviaal terminologisch onderscheid in het WVV. Boek 1 gebruikt 
 _Bron: MvT WVV art. 1:1_
 
 
+
 ## In de praktijk
 
 <h3 id="waarom-maakt-het-verschil">Waarom maakt het verschil?</h3>
 
 > [!tip]- Waarom maakt het verschil?
-> De term verraadt vaak het regime: 'vennoten' in een personenvennootschap → typisch hoofdelijke aansprakelijkheid, persoonlijke binding, geen vrije overdracht. 'Aandeelhouders' in een kapitaalvennootschap → typisch beperkte aansprakelijkheid, aandelen als verhandelbaar effect. Bij dossier-analyse: de gebruikte term in de oprichtingsakte is een eerste hint over de rechtsvorm. 🤖
+> De term verraadt vaak het regime: 'vennoten' in een personenvennootschap → typisch hoofdelijke aansprakelijkheid, persoonlijke binding, geen vrije overdracht. 'Aandeelhouders' in een kapitaalvennootschap → typisch beperkte aansprakelijkheid, aandelen als verhandelbaar effect. Bij dossier-analyse: de gebruikte term in de oprichtingsakte is een eerste hint over de rechtsvorm. 🔗
 
 <h3 id="in-wvv-artikelen">In WVV-artikelen</h3>
 
@@ -43,7 +44,7 @@ _Bron: MvT WVV art. 1:1_
 ## Zie ook
 
 - **Vereist kennis van**: [[vennootschap-begrip]]
-
+- **Wordt voorondersteld in** (2): [[stemrecht-aandeelhouder]] · [[voorkeurrecht-aandeelhouder]]
 ## Voorbeelden
 
 In **Meubelzaak Mertens BV** zijn Pieter en Marleen **aandeelhouders** — ze houden aandelen, hebben beperkte aansprakelijkheid. In een maatschap tussen dezelfde twee personen zijn ze **vennoten** — geen aandelen, onbeperkte aansprakelijkheid, persoonlijke binding. _(Meubelzaak Mertens BV, Pieter Vermeulen, Marleen De Cock)_

@@ -17,11 +17,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toepassen-uniforme-waarderingsregels.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers 🤖
+# Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers 🔗
 
 Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). De stagiair identificeert waarderingsverschillen tussen groepsleden en brengt de enkelvoudige cijfers in lijn met de groeps-waarderingsregels vóór ze de eliminaties en aggregaties uitvoert.
+
 
 
 ## Stappen

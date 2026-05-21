@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/groottecriteria-consolidatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Groottecriteria voor de consolidatievrijstelling ⚖️
 
@@ -27,6 +27,7 @@ Een proportionaliteits-uitzondering op de consolidatieverplichting in het Belgis
 Een moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen wanneer haar groep hoogstens één van de groottecriteria van WVV art. 1:26, § 1 overschrijdt. Je toetst op geconsolideerde basis of, via de vereenvoudigde methode, op geaggregeerde basis (dan worden de drempels met 20 % verhoogd). De drie criteria: jaaromzet, balanstotaal en jaargemiddelde personeel. Deze toets op geconsolideerde basis geldt in principe alleen voor moeders.
 
 _Bron: WVV art. 1:26 jo. art. 1:24_
+
 
 
 ## In de praktijk
@@ -67,7 +68,7 @@ _Bron: WVV art. 1:26 jo. art. 1:24_
 ## Valkuilen
 
 > [!warning]- De drempels zijn niet vast in de tijd
-> ⚠️ De drempels zijn niet vast in de tijd. Ze worden periodiek verhoogd (CBN 2024/07 documenteert een aanpassing). De bedragen uit CBN 2017/15 of CBN 2022/03 zijn op examen-moment mogelijk niet meer actueel. Examen-strategie: leer de drie criteria en de twee berekeningsmethoden — de actuele bedragen vind je in het Cijferzakboekje dat tijdens het examen beschikbaar is. 🤖
+> ⚠️ De drempels zijn niet vast in de tijd. Ze worden periodiek verhoogd (CBN 2024/07 documenteert een aanpassing). De bedragen uit CBN 2017/15 of CBN 2022/03 zijn op examen-moment mogelijk niet meer actueel. Examen-strategie: leer de drie criteria en de twee berekeningsmethoden — de actuele bedragen vind je in het Cijferzakboekje dat tijdens het examen beschikbaar is. 🔗
 >
 > _Bron: CBN 2024/07_
 
@@ -83,7 +84,7 @@ _Bron: WVV art. 1:26 jo. art. 1:24_
 
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[groep-van-beperkte-omvang]]
-
+- **Wordt voorondersteld in** (1): [[groep-van-beperkte-omvang]]
 ## Voorbeelden
 
 Aurelia Holding NV met dochter Gent Garantie BV: geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR, 180 personeelsleden. Slechts één drempel (personeel) overschreden → vrijstelling consolidatieplicht (groep van beperkte omvang).

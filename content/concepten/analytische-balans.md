@@ -21,16 +21,17 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/analytische-balans.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Analytische balans (herstructureringsschema) 🤖
+# Analytische balans (herstructureringsschema) 🔗
 
 De wettelijke balans omvormen tot een herwerkt schema dat de analyse vereenvoudigt: activa gerangschikt naar liquiditeit, passiva naar opeisbaarheid; bepaalde posten geherklasseerd zodat economisch verband en risico zichtbaar worden.
 
 
+
 ## Bouwstenen
 
-### Activa naar liquiditeit 🤖
+### Activa naar liquiditeit 🔗
 
 Sorteer activa van minst naar meest liquide: vaste activa eerst, voorraden, vorderingen, geldbeleggingen, liquide middelen. Wettelijk schema volgt deze logica al.
 
@@ -42,7 +43,7 @@ Rotex Roeselare NV: € 18.000.000 vaste activa (vastliggend) — € 2.500.000 
 
 _Grondslag: Vakdoctrine + KB WVV balansschema_
 
-### Passiva naar opeisbaarheid 🤖
+### Passiva naar opeisbaarheid 🔗
 
 Sorteer passiva van minst naar meest opeisbaar: eigen vermogen (niet opeisbaar), voorzieningen, schulden > 1 jaar, schulden ≤ 1 jaar. Wettelijk schema volgt deze logica.
 
@@ -54,7 +55,7 @@ Rotex Roeselare NV: € 12.000.000 EV — € 1.000.000 voorzieningen — € 13
 
 _Grondslag: Vakdoctrine + KB WVV balansschema_
 
-### Herklassificaties voor analyse 🤖
+### Herklassificaties voor analyse 🔗
 
 De analist past soms herklassificaties toe: vorderingen > 1 jaar van vaste activa naar 'overig'; uitgestelde belastingen splitsen tussen schuld en EV; onuitkeerbare reserves zichtbaar maken. Doel: economisch realistische klasse.
 
@@ -72,13 +73,13 @@ _Grondslag: Vakdoctrine_
 <h3 id="1.3.I.C">Documenteer herklassificaties</h3>
 
 > [!tip]- Documenteer herklassificaties
-> Een analyse die afwijkt van de wettelijke balans moet die afwijking documenteren — anders is ze niet reproduceerbaar en niet vergelijkbaar. 🤖
+> Een analyse die afwijkt van de wettelijke balans moet die afwijking documenteren — anders is ze niet reproduceerbaar en niet vergelijkbaar. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Twee analisten kunnen tot verschillende analytische balansen komen voor dezelfde wettelijke balans
-> ⚠️ Twee analisten kunnen tot verschillende analytische balansen komen voor dezelfde wettelijke balans. Vóór ratio's berekenen → de gehanteerde methodologie expliciet vermelden. Anders zijn ratio's niet vergelijkbaar. 🤖
+> ⚠️ Twee analisten kunnen tot verschillende analytische balansen komen voor dezelfde wettelijke balans. Vóór ratio's berekenen → de gehanteerde methodologie expliciet vermelden. Anders zijn ratio's niet vergelijkbaar. 🔗
 >
 > _Bron: Financial analysis_
 
@@ -88,7 +89,7 @@ _Grondslag: Vakdoctrine_
 
 - **Vereist kennis van**: [[verticale-analyse-jaarrekening]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[herstructurering-resultatenrekening]]
 ## Bronnen
 
 [^1]: `anchor-1.3.I.C`

@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/significant-risico-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Significant risico (audit) ⚖️
 
@@ -28,6 +28,7 @@ Significante risico's zijn risico's waarvoor de auditor in zijn risico-inschatti
 Een significant risico is een onderkend en ingeschat risico op een afwijking van materieel belang waaraan — volgens het oordeel van de beroepsbeoefenaar — tijdens de controle SPECIALE aandacht moet worden besteed. Voor zulke risico's altijd substantive procedures plannen, ook als de IC sterk lijkt.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1 + §93_
+
 
 
 ## In de praktijk

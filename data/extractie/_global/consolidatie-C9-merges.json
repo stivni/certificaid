@@ -1,0 +1,8 @@
+[
+  {"loser": "doelstellingen-financiele-analyse", "winner": "jaarrekeninganalyse", "reason": "C9 — bouwstenen-collapse: doelstellingen-financiele-analyse is een sub-aspect van jaarrekeninganalyse-kader, niet een apart denkraam"},
+  {"loser": "instrumenten-financiele-analyse", "winner": "jaarrekeninganalyse", "reason": "C9 — bouwstenen-collapse: instrumenten zijn middel-binnen-discipline, geen aparte discipline"},
+  {"loser": "betrokken-partijen-jaarrekening", "winner": "jaarrekening", "reason": "C9 — bouwstenen-collapse: gebruikers van jaarrekening is sub-sectie van jaarrekening-fiche zelf"},
+  {"loser": "toezichtsorganen-jaarrekening", "winner": "jaarrekening", "reason": "C9 — bouwstenen-collapse: toezicht op jaarrekening hoort in jaarrekening-fiche"},
+  {"loser": "jaarrekening-schema", "winner": "jaarrekening", "reason": "C9 — bouwstenen-collapse: schema-presentatie is integraal onderdeel van jaarrekening-fiche"},
+  {"loser": "eu-jaarrekeningenrichtlijn", "winner": "jaarrekening", "reason": "C9 — bouwstenen-collapse: EU-bron-context wordt sectie 'Bronnen' in jaarrekening-fiche (regel B uit naming-regels)"}
+]

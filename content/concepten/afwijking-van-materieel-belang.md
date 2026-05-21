@@ -18,9 +18,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/afwijking-van-materieel-belang.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Afwijking van materieel belang 🤖
+# Afwijking van materieel belang 🔗
 
 Een afwijking van materieel belang is wat de auditor in zijn werk effectief detecteert (of vermoedt) — het is de uitkomst-zijde van de materialiteitsbeoordeling, waar `materieel-belang-audit` de drempel-zijde is. Afwijkingen kunnen ontstaan uit fout, fraude of een niet-gecorrigeerde schatting; ze worden afzonderlijk én gezamenlijk geëvalueerd. De aanwezigheid van een afwijking van materieel belang (niet-gecorrigeerd) is de directe trigger voor een aangepast oordeel onder ISA 705.
 
@@ -32,12 +32,13 @@ Een afwijking van materieel belang is een afwijking (of niet-gerapporteerde toel
 _Bron: ISA 450 §4(a) + ISA 705 (herzien) §4-§7_
 
 
+
 ## In de praktijk
 
 <h3 id="drie-bronnen">Drie bronnen</h3>
 
 > [!tip]- Drie bronnen
-> Afwijkingen ontstaan uit (1) feitelijke fout (bv. dubbel geboekte factuur), (2) verschil van oordeel met het management over een schatting (bv. waardevermindering op klant), of (3) onvolledige/ontbrekende toelichting. De auditor classificeert ze om het management gericht aan te spreken. 🤖
+> Afwijkingen ontstaan uit (1) feitelijke fout (bv. dubbel geboekte factuur), (2) verschil van oordeel met het management over een schatting (bv. waardevermindering op klant), of (3) onvolledige/ontbrekende toelichting. De auditor classificeert ze om het management gericht aan te spreken. 🔗
 
 <h3 id="geaggregeerd-evalueren">Geaggregeerd evalueren</h3>
 
@@ -65,7 +66,7 @@ _Bron: ISA 450 §4(a) + ISA 705 (herzien) §4-§7_
 
 
 > [!warning]- Een kwalitatief materiële afwijking kan een klein bedrag dragen
-> ⚠️ Een kwalitatief materiële afwijking kan een klein bedrag dragen. Voorbeelden: fraude (zelfs € 5.000), bewuste afwijking van waarderingsregels, transactie met een verbonden partij die niet wordt toegelicht. De kwantitatieve drempel geldt hier niet — kwalitatieve factoren prevaleren. 🤖
+> ⚠️ Een kwalitatief materiële afwijking kan een klein bedrag dragen. Voorbeelden: fraude (zelfs € 5.000), bewuste afwijking van waarderingsregels, transactie met een verbonden partij die niet wordt toegelicht. De kwantitatieve drempel geldt hier niet — kwalitatieve factoren prevaleren. 🔗
 >
 > _Bron: ISA 450 + ITAA KMO-controlenorm Bijlage 1_
 
@@ -75,7 +76,7 @@ _Bron: ISA 450 §4(a) + ISA 705 (herzien) §4-§7_
 
 - **Vereist kennis van**: [[materieel-belang-audit]]
 - **Getriggerd door**: [[aangepast-oordeel]]
-
+- **Wordt voorondersteld in** (6): [[continuiteitsveronderstelling-audit]] · [[controleoordeel-types]] · [[controleverslag-elementen]] · [[fouten-ic]] · [[materieel-belang-audit]] · [[regelmatigheid-jaarrekening-audit]]- **Triggert** (1): [[aangepast-oordeel]]
 ## Voorbeelden
 
 Sofie Janssens auditeert Rotex Roeselare NV met materialiteit van € 100.000. Zij stelt vast: (a) één deelneming € 250.000 te hoog gewaardeerd → materiële afwijking, niet diepgaand → oordeel met voorbehoud; (b) bij Naaiatelier Ninove BV vindt zij € 1.200.000 systematische overwaardering van voorraden → materieel én diepgaand → afkeurend oordeel.

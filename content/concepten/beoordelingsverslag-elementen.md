@@ -13,7 +13,7 @@ node_type: procedure
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/beoordelingsverslag-elementen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Elementen van het beoordelingsverslag (review report) ⚖️
 
@@ -23,6 +23,7 @@ gegenereerd_op: '2026-05-18'
 De beroepsbeoefenaar brengt een geschreven en gedateerd beoordelingsverslag uit dat de volgende elementen bevat: een titel, de geadresseerde en eventueel de beoogde gebruiker, identificatie van de gecontroleerde financiële overzichten, een korte beschrijving van de opdracht (uit de opdrachtbrief), een paragraaf met de verantwoordelijkheden van het management én van de beroepsbeoefenaar, een beschrijving van de uitgevoerde procedures, een conclusie, de plaats van ondertekening en de naam van de beroepsbeoefenaar. De opdrachtbrief kan mits akkoord worden bijgevoegd.
 
 _Bron: ITAA KMO-controlenorm §150_
+
 
 
 ## In de praktijk

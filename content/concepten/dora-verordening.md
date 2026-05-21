@@ -15,9 +15,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/dora-verordening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Digital Operational Resilience Act (DORA) 🤖
+# Digital Operational Resilience Act (DORA) 🔗
 
 DORA is een rechtstreeks werkende EU-verordening die digitale operationele weerbaarheid oplegt aan de financiële sector. Sinds 17 januari 2025 moeten financiële entiteiten ICT-risico's beheersen volgens een uniform Europees kader, in plaats van de eerdere lappendeken van nationale prudentiële vereisten. Voor de gecertificeerd accountant relevant omdat ICT-risicobeheer raakt aan de interne controle (PO 1.7) en omdat externe ICT-leveranciers van financiële cliënten plots onder Europees toezicht vallen.
 
@@ -27,6 +27,7 @@ DORA is een rechtstreeks werkende EU-verordening die digitale operationele weerb
 Financiële entiteiten in de EU moeten een geïntegreerd kader voor digitale operationele weerbaarheid implementeren rond vijf pijlers: (1) ICT-risicobeheer, (2) ICT-incidenten classificeren en rapporteren, (3) digitale weerbaarheid testen (waaronder threat-led penetration testing), (4) ICT-derdenrisico beheersen, en (5) informatiedeling over cyberbedreigingen. Verordening (EU) 2022/2554, toepasselijk sinds 17 januari 2025.
 
 _Bron: Verordening (EU) 2022/2554 (DORA)_
+
 
 
 ## In de praktijk
@@ -55,11 +56,11 @@ _Bron: Verordening (EU) 2022/2554 (DORA)_
 ## Valkuilen
 
 > [!warning]- DORA is een verordening, NIS-2 een richtlijn
-> ⚠️ DORA is een verordening, NIS-2 een richtlijn. Verordening = rechtstreeks toepasselijk zonder omzetting; richtlijn = nationale omzettingswet nodig. Verkeerd kwalificeren leidt tot fouten over directe werking. 🤖
+> ⚠️ DORA is een verordening, NIS-2 een richtlijn. Verordening = rechtstreeks toepasselijk zonder omzetting; richtlijn = nationale omzettingswet nodig. Verkeerd kwalificeren leidt tot fouten over directe werking. 🔗
 
 
 > [!warning]- Denken dat DORA enkel de bank zelf raakt — kritieke ICT-leveranciers (cloud, software-as-a-service, datacenter) vallen óók onder Europees ov…
-> ⚠️ Denken dat DORA enkel de bank zelf raakt — kritieke ICT-leveranciers (cloud, software-as-a-service, datacenter) vallen óók onder Europees oversight, ook als zij zelf geen financiële entiteit zijn. 🤖
+> ⚠️ Denken dat DORA enkel de bank zelf raakt — kritieke ICT-leveranciers (cloud, software-as-a-service, datacenter) vallen óók onder Europees oversight, ook als zij zelf geen financiële entiteit zijn. 🔗
 
 
 

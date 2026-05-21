@@ -17,9 +17,9 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kamer-ondernemingen-in-moeilijkheden.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Kamer voor ondernemingen in moeilijkheden 🤖
+# Kamer voor ondernemingen in moeilijkheden 🔗
 
 Bij elke ondernemingsrechtbank is een Kamer voor ondernemingen in moeilijkheden die signalen detecteert (negatief nettoactief, vervallen schulden, dagvaardingen, …) en de bestuurder uitnodigt voor een coachend gesprek. Voor de analist is een oproeping een rode vlag — onafhankelijk van wat de jaarrekening cijfermatig laat zien.
 
@@ -33,9 +33,10 @@ Een gespecialiseerde kamer binnen de ondernemingsrechtbank die proactief onderzo
 _Bron: Boek XX WER (insolventie)_
 
 
+
 ## Bouwstenen
 
-### Vroege detectie van moeilijkheden 🤖
+### Vroege detectie van moeilijkheden 🔗
 
 De kamer fungeert als vroegtijdig waarschuwingsmechanisme. Niet bestraffend maar coachend: een gesprek dat moet helpen om herstelmaatregelen te overwegen (Gerechtelijke Reorganisatie, vrijwillig akkoord).
 
@@ -53,14 +54,14 @@ _Grondslag: Boek XX WER_
 <h3 id="1.3.I.D">Signaal voor financiële analyse</h3>
 
 > [!tip]- Signaal voor financiële analyse
-> Een onderneming die opgeroepen werd door de kamer is een rood vlag voor de analist — onafhankelijk van wat de jaarrekening laat zien. Toegankelijke informatie via dossier griffies of openbare bronnen. 🤖
+> Een onderneming die opgeroepen werd door de kamer is een rood vlag voor de analist — onafhankelijk van wat de jaarrekening laat zien. Toegankelijke informatie via dossier griffies of openbare bronnen. 🔗
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[vroegtijdige-waarschuwing-insolventie]]
 - **Getriggerd door**: [[vroegtijdige-waarschuwing-insolventie]]
-
+- **Wordt voorondersteld in** (1): [[vroegtijdige-waarschuwing-insolventie]]
 ## Bronnen
 
 [^1]: `anchor-1.3.I.D`

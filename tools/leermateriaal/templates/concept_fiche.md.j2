@@ -49,6 +49,10 @@ _Bron: {{ hoofdveld.source.short }}_
 {% include 'partials/rationale_callout.md.j2' %}
 {% endif %}
 
+{% if record.schema_version == '2.0' %}
+{% include 'partials/schema20_secties.md.j2' %}
+{% endif %}
+
 {% set edges_uitzondering_op = edges | selectattr('type', 'equalto', 'uitzondering-op') | list %}
 {% if edges_uitzondering_op %}
 > [!info] Uitzondering op: {% for e in edges_uitzondering_op %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}
@@ -204,6 +208,7 @@ _Bron: {{ hoofdveld.source.short }}_
 {% include 'partials/voorbeelden.md.j2' %}
 
 {% endif %}
+{% if record.schema_version != '2.0' %}
 {% set heeft_voorbeeld = namespace(waarde=false) %}
 {% if record.voorbeeld_inline %}{% set heeft_voorbeeld.waarde = true %}{% endif %}
 {% if record.voorbeelden %}{% set heeft_voorbeeld.waarde = true %}{% endif %}
@@ -218,6 +223,7 @@ _Bron: {{ hoofdveld.source.short }}_
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
+{% endif %}
 {% endif %}
 {% endif %}
 {% if chunk_ids %}

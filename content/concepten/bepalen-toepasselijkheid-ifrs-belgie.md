@@ -16,9 +16,10 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/bepalen-toepasselijkheid-ifrs-belgie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Bepalen of een onderneming IFRS moet of mag toepassen in België 🤖
+# Bepalen of een onderneming IFRS moet of mag toepassen in België 🔗
+
 
 
 ## Stappen

@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorkeurrecht-aandeelhouder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Voorkeurrecht van de aandeelhouder ⚖️
 
@@ -24,9 +24,12 @@ Een minderheidsbescherming bij kapitaal- of inbrengverhoging: zonder voorkeurrec
 
 > [!info] Behoort tot: [[kapitaalverhoging-nv]] · [[kapitaalverhoging-bv]]
 
+> [!info] Bestaat uit (1): [[meervoudig-stemrecht]]
+
 Het **recht van een bestaande aandeelhouder** om bij een uitgifte van nieuwe aandelen, converteerbare obligaties of inschrijvingsrechten **in te schrijven naar verhouding van zijn bestaand belang** (pro rata), gedurende een minimale wettelijke termijn. Doel: bescherming tegen ongewenste verwatering van stem- en winstrechten. Kan onder voorwaarden door de algemene vergadering worden beperkt of opgeheven.
 
 _Bron: WVV art. 7:188 (NV), art. 5:130 (BV)_
+
 
 
 ## In de praktijk
@@ -55,17 +58,17 @@ _Bron: WVV art. 7:188 (NV), art. 5:130 (BV)_
 ## Valkuilen
 
 > [!warning]- Een opheffing van het voorkeurrecht **zonder** bestuursverslag of zonder commissarisverslag is in beginsel **nietig**. Vraag beide documenten op vooraleer mee te tekenen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[vennoot-vs-aandeelhouder]]
-
+- **Wordt voorondersteld in** (2): [[kapitaalverhoging-nv]] · [[opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht]]
 ## Voorbeelden
 
-Aurelia Holding NV (twee aandeelhouders: Pieter Vermeulen 60 %, Robert Vandenberghe 40 %) geeft 5.000 nieuwe aandelen uit. Voorkeurrecht: Pieter mag inschrijven op 3.000 nieuwe aandelen, Robert op 2.000. Als Robert niet inschrijft binnen 15 dagen, mogen die 2.000 aandelen aan een derde worden aangeboden — Pieters belang stijgt dan van 60 % naar bijvoorbeeld 87 %. _(Aurelia Holding NV, Pieter Vermeulen, Robert Vandenberghe)_ 🤖
+Aurelia Holding NV (twee aandeelhouders: Pieter Vermeulen 60 %, Robert Vandenberghe 40 %) geeft 5.000 nieuwe aandelen uit. Voorkeurrecht: Pieter mag inschrijven op 3.000 nieuwe aandelen, Robert op 2.000. Als Robert niet inschrijft binnen 15 dagen, mogen die 2.000 aandelen aan een derde worden aangeboden — Pieters belang stijgt dan van 60 % naar bijvoorbeeld 87 %. _(Aurelia Holding NV, Pieter Vermeulen, Robert Vandenberghe)_ 🔗
 
 ## Bronnen
 

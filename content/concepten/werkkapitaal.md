@@ -18,9 +18,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/werkkapitaal.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Werkkapitaal (working capital) 🤖
+# Werkkapitaal (working capital) 🔗
 
 Werkkapitaal = vlottende activa − schulden op ten hoogste een jaar (absolute tegenhanger van de current ratio als verhouding). Het meet hoeveel cash er overblijft als alle korte schulden zouden moeten betaald worden uit vlottende activa. De werkkapitaalbehoefte (vorderingen + voorraden − leveranciers) toont hoeveel er nodig is — verschil tussen werkkapitaal en behoefte = netto-kaspositie.
 
@@ -32,6 +32,7 @@ Werkkapitaal = vlottende activa − schulden op ten hoogste een jaar (absolute t
 Werkkapitaal is het verschil tussen vlottende activa en schulden op ten hoogste een jaar. Het toont de absolute buffer waarmee de onderneming haar lopende activiteiten kan financieren zonder beroep te doen op nieuwe schulden.
 
 _Bron: Algemene financial-analysis-doctrine_
+
 
 
 ## Bouwstenen
@@ -71,7 +72,7 @@ _Grondslag: Vakdoctrine_
 <h3 id="1.3.II.C">Evolutie volgen</h3>
 
 > [!tip]- Evolutie volgen
-> Een stijgend werkkapitaal kan komen door winstaccumulatie (goed) of door oplopende voorraden / trage debiteuren (slecht). Decomponeer altijd waar de stijging vandaan komt. 🤖
+> Een stijgend werkkapitaal kan komen door winstaccumulatie (goed) of door oplopende voorraden / trage debiteuren (slecht). Decomponeer altijd waar de stijging vandaan komt. 🔗
 
 
 > [!info]- Niet verwarren met [[current-ratio]]
@@ -88,12 +89,15 @@ _Grondslag: Vakdoctrine_
 ## Valkuilen
 
 > [!warning]- Een positief werkkapitaal kan misleiden als de samenstelling slecht is (vooral voorraden + dubieuze vorderingen)
-> ⚠️ Een positief werkkapitaal kan misleiden als de samenstelling slecht is (vooral voorraden + dubieuze vorderingen). Combineer altijd met quick ratio en de rotatie van voorraden/vorderingen. 🤖
+> ⚠️ Een positief werkkapitaal kan misleiden als de samenstelling slecht is (vooral voorraden + dubieuze vorderingen). Combineer altijd met quick ratio en de rotatie van voorraden/vorderingen. 🔗
 >
 > _Bron: Financial analysis_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (4): [[altman-z-score]] · [[behoefte-aan-bedrijfskapitaal]] · [[current-ratio]] · [[ohlson-o-score]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`

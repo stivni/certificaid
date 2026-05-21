@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/delegatie-en-supervisie-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Delegatie en supervisie binnen het auditteam ⚖️
 
@@ -27,6 +27,7 @@ Delegatie is operationeel onmisbaar — geen partner kan een controle van enige 
 Delegatie en supervisie regelen hoe de opdrachtpartner taken toewijst aan teamleden en hoe hij hun werk aanstuurt, daarop toezicht houdt en het reviewt. Aansturing geeft instructies vooraf, toezicht volgt het werk tijdens uitvoering, review controleert na uitvoering. De aard, timing en omvang van elk worden bepaald door competentie van het teamlid, complexiteit van het werk en ingeschat risico.
 
 _Bron: ISA 220 (herzien) §29-§31_
+
 
 
 ## Bouwstenen
@@ -101,7 +102,7 @@ _Grondslag: KB plichtenleer art. 17_
 ## Valkuilen
 
 > [!warning]- Een junior alleen op een complex gebied zetten zonder concrete instructies vooraf
-> ⚠️ Een junior alleen op een complex gebied zetten zonder concrete instructies vooraf. Het werk wordt 'iets', maar levert geen audit-conclusie op — herwerk nodig. 🤖
+> ⚠️ Een junior alleen op een complex gebied zetten zonder concrete instructies vooraf. Het werk wordt 'iets', maar levert geen audit-conclusie op — herwerk nodig. 🔗
 >
 > _Bron: ISA 220 (herzien) §29 + §A95_
 

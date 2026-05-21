@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/europees-boekhoudrecht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Europees boekhoudrecht ⚖️
 
@@ -28,6 +28,7 @@ Het Belgisch boekhoudrecht is in laatste instantie afgeleid van **Europese instr
 De Europese rechtsbronnen die het Belgisch boekhoudrecht aansturen. Twee instrumenten: verordeningen (rechtstreeks geldig in alle lidstaten — bv. IAS-verordening 1606/2002 voor beursgenoteerde groepen) en richtlijnen (lidstaat moet omzetten in eigen wet — bv. Richtlijn 2013/34/EU).
 
 _Bron: Richtlijn 2013/34/EU art. 1_
+
 
 
 ## Bouwstenen
@@ -56,7 +57,7 @@ Richtlijn 2013/34/EU is in België omgezet via aanpassingen aan het WVV en het K
 
 _Grondslag: Richtlijn 2013/34/EU art. 1; omzetting in WVV Boek 3_
 
-### Twee sporen voor jaarrekening 🤖
+### Twee sporen voor jaarrekening 🔗
 
 Voor de jaarrekening lopen twee Europese sporen parallel: (1) Richtlijn 2013/34/EU — Belgisch GAAP voor gewone ondernemingen, (2) IAS-verordening 1606/2002 — IFRS voor geconsolideerde jaarrekening van beursgenoteerde groepen.
 
@@ -74,7 +75,7 @@ _Grondslag: Richtlijn 2013/34/EU + Verordening 1606/2002_
 <h3 id="hoe-herken-je-europese-basis-in-een-belgische-regel">Hoe herken je Europese basis in een Belgische regel?</h3>
 
 > [!tip]- Hoe herken je Europese basis in een Belgische regel?
-> Veel definities en grootteklassen in het WVV komen letterlijk uit Richtlijn 2013/34/EU. Bij twijfel over de bedoeling van een Belgische regel kun je teruggrijpen naar de Europese tekst — die heet 'richtlijnconforme interpretatie'. 🤖
+> Veel definities en grootteklassen in het WVV komen letterlijk uit Richtlijn 2013/34/EU. Bij twijfel over de bedoeling van een Belgische regel kun je teruggrijpen naar de Europese tekst — die heet 'richtlijnconforme interpretatie'. 🔗
 
 > [!tip]- Herkennen op het examen
 > Veelgebruikte signaalwoorden: 'Public Interest Entity (PIE)', 'micro-onderneming', 'kleine vennootschap' — deze definities zijn EU-geharmoniseerd.
@@ -89,12 +90,15 @@ _Grondslag: Richtlijn 2013/34/EU + Verordening 1606/2002_
 ## Valkuilen
 
 > [!warning]- Belgisch GAAP is geen 'kopie' van Richtlijn 2013/34/EU
-> ⚠️ Belgisch GAAP is geen 'kopie' van Richtlijn 2013/34/EU. België maakt bewuste keuzes binnen de richtlijn-marge (bv. de keuze om de microschema-categorie wel of niet toe te passen). Dus niet automatisch Europese voorbeelden gebruiken; check altijd het Belgisch KB. 🤖
+> ⚠️ Belgisch GAAP is geen 'kopie' van Richtlijn 2013/34/EU. België maakt bewuste keuzes binnen de richtlijn-marge (bv. de keuze om de microschema-categorie wel of niet toe te passen). Dus niet automatisch Europese voorbeelden gebruiken; check altijd het Belgisch KB. 🔗
 >
 > _Bron: Richtlijn 2013/34/EU_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[fsma]] · [[public-interest-entity]]
 ## Voorbeelden
 
 Rotex Roeselare NV is beursgenoteerd → moet IFRS toepassen op haar geconsolideerde jaarrekening (rechtstreekse werking IAS-verordening 1606/2002). Voor haar enkelvoudige jaarrekening blijft Belgisch GAAP gelden (geïmplementeerde Richtlijn 2013/34/EU).

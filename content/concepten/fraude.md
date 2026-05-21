@@ -2,146 +2,195 @@
 title: Fraude
 tags:
 - concept
-- cluster
-- po-1-7
+- begripscluster
+- po-1-6
 linked_anchors:
-- 1.7.VI.B
-- 1.7.VI
+- 1.6.II.B
+- 1.6.III.E
+- 1.6.I.B
 programmaonderdelen:
-- '1.7'
+- '1.6'
 confidence: grounded
-node_type: cluster
+node_type: begripscluster
 status: seed
-schema_version: '1.6'
+schema_version: '2.0'
 gegenereerd_uit: data/concepten/records/fraude.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Fraude ⚖️
 
-Fraude is volgens ISA 240 §12(a) een opzettelijke handeling door management, governance-leden, werknemers of derden waarbij misleiding wordt gebruikt voor onrechtmatig voordeel. Het is hét centrale risico-fenomeen voor interne controle én audit: ISA 240 wijdt er een volledige standaard aan met specifieke procedures, en COSO-component 3 (beheersactiviteiten) is grotendeels gericht op preventie. Voor de stagiair is dit een prioritair concept — examenvragen toetsen kennis van de fraude-driehoek (Cressey), de ACFE-typologie, het belang van functiescheiding als IC-respons en de strafrechtelijke gevolgen (Strafwetboek art. 479 + 488).
-
 > [!summary] Korte inhoud
-> Fraude is volgens ISA 240 §12(a) een opzettelijke handeling door één of meer leden van het management, met governance belaste personen, werknemers of derden, waarbij gebruik wordt gemaakt van misleiding teneinde een onrechtmatig of onwettig voordeel te verkrijgen.
+> Fraude is een opzettelijke handeling door een of meer leden van het management, met governance belaste personen, werknemers of derden, waarbij gebruik wordt gemaakt van misleiding teneinde een onrechtmatig of onwettig voordeel te verkrijgen.
 
-> [!info] Behoort tot: [[fraude-versus-fout]]
+Fraude is een opzettelijke handeling door een of meer leden van het management, met governance belaste personen, werknemers of derden, waarbij gebruik wordt gemaakt van misleiding teneinde een onrechtmatig of onwettig voordeel te verkrijgen.
 
-Fraude is volgens ISA 240 §12(a) een opzettelijke handeling door één of meer leden van het management, met governance belaste personen, werknemers of derden, waarbij gebruik wordt gemaakt van misleiding teneinde een onrechtmatig of onwettig voordeel te verkrijgen. In tegenstelling tot een fout is er opzet — manipulatie van informatie, oneigenlijke toeëigening van activa, of corruptie. Strafrechtelijk vaak gekwalificeerd als oplichting (Strafwetboek art. 479), informaticabedrog (art. 488), valsheid in geschriften of misbruik van vertrouwen.
-
-_Bron: ISA 240 §12(a) + Strafwetboek 2024 Boek 2 art. 479 + 488_
-
-
-## Bouwstenen
-
-### Verantwoordelijkheid voor preventie en detectie ⚖️
-
-ISA 240 §4 stelt vast: PRIMAIRE verantwoordelijkheid ligt bij management + governance — niet bij de externe auditor. De auditor moet redelijke zekerheid geven dat de jaarrekening vrij is van materiële afwijkingen door fraude, maar wordt niet geacht alle fraude te ontdekken.
-
-**Waarom?** Belangrijk om de 'expectation gap' te begrijpen — wat een belanghebbende verwacht van de auditor (fraude-detectie volledig) verschilt van wat de norm vereist (redelijke zekerheid op materiële afwijking).
+_Bron: _
 
 
 
+## Wat er economisch echt gebeurt 🔗
 
-_Grondslag: ISA 240 §4 + ITAA KMO-controlenorm §74_
-
-### Twee gepresumeerde significante fraude-risico's ⚖️
-
-ISA 240 §26 + §32 verplichten de auditor om sowieso twee fraude-risico's als significant te behandelen: (i) frauderisico in opbrengstverantwoording (tenzij weerlegd met argumentatie) en (ii) management-override van de interne beheersing. Geen audit kan deze overslaan.
-
-**Waarom?** Deze twee dekken de meest voorkomende fraude-patronen: opbrengst-padding (frauduleuze financiële verslaggeving) en bestuurders-bypass van IC. Hun verplichte behandeling vormt een audit-veiligheidsnet.
+Iemand binnen of rondom de onderneming gebruikt zijn positie, kennis of toegang om opzettelijk een onjuist beeld te scheppen — in de cijfers, in een transactie of in een document — met als doel een voordeel te halen of een verlies te verbergen. Het onderscheidende kenmerk is **opzet en misleiding**: dat scheidt fraude van een gewone fout (vergissing, foutieve schatting, verkeerde verwerking). Economisch komt het in twee hoofdvormen voor: (i) **frauduleuze financiële verslaggeving** — de jaarrekening wordt 'mooier' gemaakt om winstverwachtingen, convenanten, koers, bonus of overnameprijs te beschermen; (ii) **oneigenlijke toe-eigening van activa** — geld, voorraad of betalingsstromen verlaten de onderneming via fictieve facturen, valse onkostennota's, kasdiefstal, niet-geregistreerde verkopen of doorsluisrekeningen. Een derde, vaak ondergesneeuwde vorm, is **corruptie** (omkoping, kickbacks, ongeoorloofde voordelen aan beslissers). Fraude raakt drie rechtsgebieden tegelijk: het is een **strafrechtelijk** misdrijf (valsheid in geschriften, oplichting, misbruik van vennootschapsgoederen), een **AWW-trigger** (de fraude-opbrengst is criminele oorsprong, dus elke navolgende beweging is witwassen) en een **audit-risico** dat de jaarrekening materieel misleidt.
 
 
+## Voorkennis & leespad
+
+- **Lees eerst** (voorvereisten):
+  [[auditrisicomodel]]
+  [[interne-controle-elementen]]
+  [[controleopdracht-cyclus]]
+
+- **Past binnen kader**:
+  [[antiwitwas-verplichtingen-accountant]]
+  [[aansprakelijkheid-accountant-revisor]]
+
+- **Naast deze fiche relevant**:
+  [[frauderisicofactoren]]
+  [[toepassen-professional-skepticism-en-deontologie-audit]]
+  [[communicatie-met-governance]]
+  [[verbonden-partijen]]
+
+- **Bij vervolgvragen**:
+  [[risicoanalyse-audit]]
+  [[journal-entry-testing]]
+  [[going-concern-evaluatie]]
 
 
-_Grondslag: ISA 240 §26 + §32_
-
-### Klokkenluider-kanaal als detectie-mechanisme ⚖️
-
-Tips zijn volgens ACFE-studies het meest effectieve fraude-detectie-mechanisme (~40% van detecties). De Belgische klokkenluiderswet van 28 november 2022 verplicht middelgrote en grote ondernemingen een intern meldkanaal op te zetten.
-
-**Waarom?** Een organisatie zonder kanaal mist het sterkste signaal. Met kanaal: anoniem of vertrouwelijk, onafhankelijk van management — anders wordt het ondoeltreffend.
+## Wanneer van toepassing
 
 
-**In de praktijk**: Voor ondernemingen ≥ 50 werknemers: verplicht intern kanaal (telefoon, e-mail, online-platform), behandeld door onafhankelijke meldfunctionaris, met ontvangstbevestiging binnen 7 dagen + feedback binnen 3 maanden + vergeldingsverbod.
+### Voor wie
+
+Voor elke onderneming, vzw of stichting waarvoor een accountant boekt, adviseert, controleert of fiscaal werk doet. De fraude-bril is permanent aan — niet alleen bij vermoeden. ISA 240 verplicht een **professioneel-kritische instelling** doorheen de hele opdracht, ook als de auditor het management eerlijk en integer acht. 
 
 
-_Grondslag: Wet 28 november 2022 klokkenluiders_
+### Wanneer wel
 
-### Voorbeeld-controlewerkzaamheden bij fraude-respons (ISA 240 bijlage 2) ⚖️
+-  Elke controleopdracht (commissaris, ISA-audit): fraude-risico-analyse is verplicht (ISA 240).
 
-Onverwachte/onaangekondigde locatiebezoeken (verrassings-voorraadopnames, surprise kasopnames); voorraadopnames eisen op of vlak voor balansdatum; wijziging van controleaanpak in lopend jaar (mondelinge bevestigingen naast schriftelijke, gerichte met-naam-genoemde correspondenten); detail-evaluatie van kwartaaleinde- of jaareinde-aanpassingsboekingen; journaalboeking-analyse op ongebruikelijke patronen.
+-  Elke onderworpen entiteit onder de AWW 2017 — externe leden ITAA zijn onderworpen: cliëntenidentificatie, waakzaamheid, melding aan CFI bij vermoeden van witwassen.
 
-**Waarom?** Routinematige werkzaamheden zijn voorspelbaar voor een frauduleus management — verrassing en wijziging van patroon zijn instrumenten om manipulatie alsnog zichtbaar te maken. ISA 240 §32(a) maakt journaalboeking-analyse zelfs verplicht bij elke audit (gepresumeerd significant fraude-risico: management-override).
+-  Bij significante druk op management (winstdoelstellingen, convenanten, beursnotering, op handen zijnde verkoop).
 
+-  Bij zwakke functiescheiding of dominante CEO/eigenaar zonder tegengewicht (management override-risico).
 
-**In de praktijk**: Een commissaris die jaarlijks dezelfde steekproef uit de aankoop-cyclus trekt, geeft een frauder een leidraad. Een rotatie van steekproef-segmenten en een onaangekondigde kasopname half maart maken het detectie-risico voor de pleger aanzienlijk hoger.
+-  Bij signalen uit Bijlage 3 ISA 240: discrepanties in boekingen, laatminuut-correcties, onverklaarde tips, klachten van werknemers, vertraging in antwoorden van management.
 
-Sofie Janssens plant bij Yperse Werkplaats BV een onaangekondigd bezoek voor kasopname op 15 april. De aankoopcyclus-steekproef trekt ze nu willekeurig per kwartaal in plaats van zoals vorige jaren één keer in december — zo dekt ze ook periodes waar het management mogelijk minder controle uitoefent.
-
-_Grondslag: ISA 240 bijlage 2 + ISA 240 §32(a)_
-
-
-## In de praktijk
-
-<h3 id="verantwoordelijkheid-voor-preventie-en-detectie">Verantwoordelijkheid voor preventie en detectie</h3>
-
-> [!tip]- Verantwoordelijkheid voor preventie en detectie
-> Preventie en detectie van fraude is primair de verantwoordelijkheid van management + governance (raad van bestuur). De externe auditor heeft een verantwoordelijkheid om 'redelijke zekerheid' te geven dat de jaarrekening vrij is van materiële afwijkingen door fraude (ISA 240) — maar niet om alle fraude te ontdekken. Verwarring hierover leidt tot 'expectation gap'. ⚖️
-
-<h3 id="bijzondere-aandacht-voor-management-override">Bijzondere aandacht voor management-override</h3>
-
-> [!tip]- Bijzondere aandacht voor management-override
-> Het management bevindt zich in een unieke positie om de interne beheersing te doorbreken — dit is een gepresumeerd significant risico (ISA 240 §32). Concrete audit-procedures: journaalboeking-analyse, schattings-review, ongebruikelijke transacties onderzoeken. ⚖️
+-  Bij contante stromen, doorsluisrekeningen, facturen-zonder-economische-substantie, leverancier-aankoop direct gevolgd door verkoop met kleine marge.
 
 
-## Valkuilen
+### Wanneer niet
 
-> [!warning]- Expectation gap: belanghebbenden verwachten vaak dat een audit ALLE fraude opspoort
-> ⚠️ Expectation gap: belanghebbenden verwachten vaak dat een audit ALLE fraude opspoort. De norm vereist alleen 'redelijke zekerheid' op materiële afwijking — een fraude onder de materialiteitsdrempel of zonder discrepantie-indicatoren wordt niet noodzakelijk gedetecteerd. Communiceer dit expliciet in opdrachtbrief en management-vergaderingen. ⚖️
+-  Niet voor onopzettelijke fouten — die vallen onder de gewone afwijking-werkzaamheden (geen ISA 240-respons nodig).
 
+-  AWW-melding niet wanneer informatie verkregen is bij rechtspositie-bepaling of verdediging in rechtsgeding (uitzondering art. 53 AWW — beroepsgeheim blijft gelden).
 
-> [!warning]- Een corruption-geval (kickbacks, belangenconflicten) kan een rekenkundig zuivere jaarrekening achterlaten — de leverancier is bestaand en le…
-> ⚠️ Een corruption-geval (kickbacks, belangenconflicten) kan een rekenkundig zuivere jaarrekening achterlaten — de leverancier is bestaand en levert echt, alleen de prijs is structureel te hoog. Routine-cijferanalyses missen dit; alleen leverancier-due-diligence, prijsbenchmarking en klokkenluider-signalen leggen het bloot (zie [[fraudetypologie-acfe]] §corruption). 🤖
-
-
-> [!warning]- Vermenging met ISA 250 (niet-naleving van wet- en regelgeving): niet elke wets-overtreding is fraude, en omgekeerd
-> ⚠️ Vermenging met ISA 250 (niet-naleving van wet- en regelgeving): niet elke wets-overtreding is fraude, en omgekeerd. ISA 250 dekt non-compliance breder (arbeidsveiligheid, milieu, mededinging); ISA 240 dekt opzettelijke misleiding met financieel voordeel. Bij witwasvermoeden komen beide samen met de meldplicht aan de CFI (Wet 18 september 2017). ⚖️
+-  De auditor moet de onderliggende criminele activiteit **niet** zelf identificeren of bewijzen — een onderbouwd vermoeden volstaat voor CFI-melding.
 
 
+### Hoofdrisico
 
-## Zie ook
-
-- **Vereist kennis van**: [[fraudedriehoek]]
-- **Vereist kennis van**: [[fraudetypologie-acfe]]
-- **Vereist kennis van**: [[frauderisicofactoren]]
-- **Vereist kennis van**: [[klokkenluiderregeling]]
-- **Vereist kennis van**: [[functiescheiding]]
-- **Vereist kennis van**: [[management-override]]
-- **Vereist kennis van**: [[antiwitwasmeldingsplicht-accountant]]
-
-## Voorbeelden
-
-### Schaduwleveranciers-fraude bij Yperse Werkplaats BV
-
-_Personages: Yperse Werkplaats BV, Sofie Janssens_
-
-Bij Yperse Werkplaats BV manipuleert een aankoper systematisch leveranciersfacturen: hij richt een schaduwfirma op, factureert fictieve consultancy en boekt de betaling op zijn rekening. Strafrechtelijk: oplichting (art. 479) + valsheid in geschriften + misbruik van vertrouwen. Detectie pas na bezoek nieuwe externe auditor Sofie Janssens (cijferanalyse + leveranciers-due-diligence).
-
-Type: oneigenlijke toeëigening van activa + corruption (eigen schaduwfirma).
-Fraude-driehoek: motief (privé-schulden), gelegenheid (aankoop-tekenbevoegdheid zonder tweede review onder € 50.000), rationalisatie (uit melding nà ontslag).
-Detectie: cijferanalyse opbrengst/inkoop-marge per cyclus + KBO-due-diligence nieuwe leveranciers.
-Reactie: arbeidsrechtelijk (ontslag om dringende reden) + civielrechtelijk (terugvordering) + strafrechtelijk (aangifte parket) + CFI-melding (witwas-element).
+**Management override of controls** — het management kan elke interne controle doorbreken (manuele boekingen na afsluiting, eenzijdige schattingsaanpassingen, oneigenlijke journal entries). ISA 240 beschouwt dit als een **vermoed risico in elke audit** en eist verplichte werkzaamheden (journal-entry testing, schattingen-review, ongebruikelijke transacties), ongeacht risico-inschatting elders. ⚖️
 
 
-## Bronnen
+## Hoe het werkt
 
-[^1]: `ISA-240__sec_definities`
-[^2]: `Strafwetboek2024-boek2__art_479`
-[^3]: `Strafwetboek2024-boek2__art_488`
-[^4]: `ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif`
-[^5]: `ISA-240__sec_vereisten_2_part3`
-[^6]: `ISA-240__sec_bijlage-2_part2`
-[^7]: `ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part7`
-[^8]: `ISA-240__sec_inleiding`
-[^9]: `ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2`
-[^10]: `ISA-250-herzien__sec_inleiding_2_part2`
-[^11]: `ISA-450__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part3`
+Fraude begrijp je via drie lagen: **de drijvers** (waarom mensen frauderen — de fraude-driehoek), **de typologie** (welke vormen je in de praktijk tegenkomt), en **het juridische kader** (welke wettelijke kapstokken erop staan en welke meldingsplichten dat triggert). Pas met die drie lagen kun je als accountant je rol bepalen — controleren, melden, adviseren of weigeren.
+
+### Fraude vs fout — de scheidslijn van het opzet 🔗
+
+### De fraude-driehoek — drijvers van het frauduleus gedrag 🔗
+
+### Typologie — drie hoofdvormen in de praktijk 🔗
+
+### Juridisch kader — strafrecht, AWW en tucht 🔗
+
+
+## Rol van de accountant
+
+### 
+
+#### externe auditor
+
+##### ISA 240 §32-33 — verplichte werkzaamheden in elke audit ⚖️
+
+Ongeacht de risico-inschatting moet je altijd: (a) journaalposten en aanpassingen testen die in de financiële overzichten zijn verwerkt; (b) boekhoudkundige schattingen op bias beoordelen, inclusief een retrospectieve review van vorige schattingen; (c) de bedrijfslogica van significante transacties buiten normale bedrijfsuitoefening evalueren.
+
+##### Professioneel-kritische instelling — gedurende de hele opdracht ⚖️
+
+Vraag je voortdurend af of de verkregen informatie en controle-informatie wijst op een mogelijke materiële afwijking door fraude. Ook bij integer management: accepteer geen verklaring of bewijs zonder kritische onderbouwing. Verhoog onvoorspelbaarheid in je werkzaamheden om die-vertrouwd-zijn-met-de-controle te neutraliseren.
+
+#### interne-controle-adviseur
+
+##### Drie minimum-controles tegen werknemersfraude in KMO 🧭
+
+Zelfs in de kleinste structuur drie controles afdwingen: (1) bankreconciliatie door iemand zonder betalingsmandaat (vaak: zaakvoerder zelf, niet de boekhouder); (2) onafhankelijke voorraad-spotcheck minstens kwartaal; (3) bedrijfsleider tekent persoonlijk leveranciers-master-changes (nieuw IBAN, nieuwe leverancier). Voor 80% van de typische KMO-asset-misappropriation is dit voldoende afschrikking.
+
+### 
+
+#### externe auditor
+
+##### Communicatie met audit-comité — ISA 240 §40-43 ⚖️
+
+Bij geïdentificeerde fraude of vermoeden van fraude: communiceer tijdig met het juiste governance-niveau. Als management mogelijk betrokken is: rechtstreeks naar audit-comité of raad van bestuur. Schriftelijke communicatie aanbevolen voor materiele bevindingen. Overweeg ook wettelijke meldingsplichten buiten de entiteit (toezichthouder, CFI).
+
+### 
+
+#### interne-controle-adviseur
+
+##### Melding aan CFI = immuniteit op drie sporen ⚖️
+
+Een naar behoren te goeder trouw aan de CFI gedane melding geeft de melder strafrechtelijke, burgerlijke én tuchtrechtelijke immuniteit (AWW art. 57). De cliënt mag niet op de hoogte gebracht worden van de melding (tipping-off-verbod, AWW art. 55). Het beroepsgeheim wijkt — behalve bij rechtspositie-bepaling of rechtsgeding-verdediging (AWW art. 53).
+
+### 
+
+#### fiscaal adviseur
+
+##### Drie-staps-grens — optimalisatie, misbruik, fraude 🧭
+
+**Optimalisatie**: gebruik van legale keuzes binnen de wet (DBI-aftrek, VVPR, opsplitsing diensten). **Fiscaal misbruik** (art. 344 §1 WIB): rechtshandelingen die uitsluitend belastingvoordeel beogen en in strijd zijn met doel van de wet — fiscus kan herkwalificeren. **Fraude**: opzettelijke wetsovertreding — verzwijgen omzet, valse aankoopfacturen, fictieve buitenlandse vennootschap, dubbele boekhouding. Voor de fiscaal adviseur ligt de **morele én juridische** grens vóór de derde categorie.
+
+
+
+
+## Wat dit record dekt
+
+### Behandelde competenties (chronologisch)
+
+1. Fraude onderscheiden van fout op basis van opzet
+2. Fraude-driehoek toepassen op een concrete cliëntsituatie
+3. Drie hoofdtypes fraude herkennen (FFR, asset misappropriation, corruptie)
+4. Verplichte ISA 240-werkzaamheden uitvoeren (JET, schattingen, management override)
+5. AWW-meldingsplicht aan CFI correct toepassen, inclusief uitzonderingen
+6. Beroepsgeheim-uitzondering en immuniteit van art. 57 AWW kennen
+7. Strafrechtelijke kwalificatie van fraudefiguren benoemen (Sw. art. 451 valsheid, art. 479 oplichting, MvT WVV art. 3:44)
+8. Tucht- en aansprakelijkheidsrisico's voor de accountant bij niet-naleving inschatten
+
+### Behandelde termen (alfabetisch)
+
+- AMLCO
+- asset misappropriation
+- AWW 2017
+- Bedrieglijk opzet
+- CFI (Cel voor Financiële Informatieverwerking)
+- Fraude
+- Fraude-driehoek
+- Frauderisicofactoren
+- Frauduleuze financiële verslaggeving
+- Gelegenheid
+- ISA 240
+- Journal-entry testing (JET)
+- Management override
+- Misleiding
+- Oneigenlijke toe-eigening
+- Oogmerk om te schaden
+- Oplichting (Sw. art. 479)
+- Professioneel-kritische instelling
+- Rationalisatie
+- Stimulans of druk
+- Tipping-off-verbod
+- Valsheid in geschriften (Sw. art. 451)
+- Valsheid in jaarrekening (MvT WVV art. 3:44)
+- Witwassen
+
+

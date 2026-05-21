@@ -19,11 +19,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/identificeren-fouten-fraude-verspilling.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Identificeren van fouten, fraude en verspilling in een organisatie 🤖
+# Identificeren van fouten, fraude en verspilling in een organisatie 🔗
 
 Deze competentie is taakgebonden onder 1.7.taak.1 ('opzetten en onderhouden van interne controle') en behandelt het scharnier waar de stagiair-accountant onregelmatigheden moet kunnen classificeren — fout, fraude of verspilling — en de gepaste reactie kan kiezen. De drie types vragen wezenlijk verschillende vervolgacties: foutcorrectie + procesoptimalisatie (fout), onderzoek + sanctie + meldingsplichten (fraude), procesinitiatieven (verspilling). Examen-vraagstellingen toetsen typisch een case waarin de stagiair eerst moet classificeren, dan handelen.
+
 
 
 ## Stappen

@@ -19,7 +19,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/intern-beheersingsrisico.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Intern beheersingsrisico ⚖️
 
@@ -33,6 +33,7 @@ Intern beheersingsrisico is het risico dat de interne beheersing van de cliënt 
 Intern beheersingsrisico is het risico dat een afwijking die kan optreden in een bewering (over een transactiestroom, rekeningsaldo of toelichting) — afzonderlijk of samen met andere van materieel belang — niet wordt voorkomen of niet tijdig wordt gedetecteerd en hersteld door de interne beheersing van de cliënt.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1_
+
 
 
 ## Bouwstenen
@@ -76,7 +77,7 @@ _Grondslag: ISA 330 §8_
 <h3 id="onmogelijk-volledig-nul">Onmogelijk volledig nul</h3>
 
 > [!tip]- Onmogelijk volledig nul
-> Zelfs een sterke interne beheersing kan niet alle risico's elimineren — beperkingen zoals management override, menselijke fout en cost-benefit-afwegingen blijven. Intern beheersingsrisico > 0 is dus normaal. 🤖
+> Zelfs een sterke interne beheersing kan niet alle risico's elimineren — beperkingen zoals management override, menselijke fout en cost-benefit-afwegingen blijven. Intern beheersingsrisico > 0 is dus normaal. 🔗
 
 <h3 id="steunen-op-interne-beheersing-testen-verplicht">Steunen op interne beheersing → testen verplicht</h3>
 

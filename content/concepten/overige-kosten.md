@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/overige-kosten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Overige kosten (diensten, diverse goederen, afschrijvingen) ⚖️
 
@@ -28,6 +28,7 @@ Overige kosten in een analytische boekhouding zijn alle productie- en exploitati
 Overige kosten in een analytische boekhouding zijn alle productie- en exploitatiekosten die geen materiaal of arbeid zijn: diensten en diverse goederen (huur, energie, telecom, externe consultants, onderhoud), afschrijvingen op productie-activa, verzekeringen, en eventueel provisies voor toekomstige kosten. In de algemene boekhouding zitten ze grotendeels op rekeningen 61, 63 en 64.
 
 _Bron: KB 21.10.2018 Bijlage 1 MAR — klasse 61, 63, 64_
+
 
 
 ## Bouwstenen

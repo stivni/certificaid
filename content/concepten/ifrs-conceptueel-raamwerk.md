@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ifrs-conceptueel-raamwerk.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# IFRS Conceptueel Raamwerk (IASB Conceptual Framework) 🤖
+# IFRS Conceptueel Raamwerk (IASB Conceptual Framework) 🔗
 
 Anchor 1.5.IV 'Algemeen kader' van het ITAA-examenprogramma verwijst naar dit Conceptual Framework als het overkoepelend interpretatief kader voor de IFRS-jaarrekening. Het raamwerk is **principle-based**: het geeft definities en kwalitatieve criteria maar geen rekenkundige regels — die staan in de individuele standaarden (IAS, IFRS). De stagiair moet het kennen om twee redenen: (a) bij examenvragen over 'waarom IFRS' (objectief getrouw beeld voor investeerders) en (b) bij interpretatie van een IFRS-standaard die niet expliciet ingaat op een nieuw fenomeen — de fallback-hierarchie in IAS 8 §10-12 wijst dan naar het Conceptual Framework.
 
@@ -29,9 +29,10 @@ Het **IFRS Conceptueel Raamwerk** (IASB Conceptual Framework for Financial Repor
 _Bron: IASB Conceptual Framework 2018 — algemeen_
 
 
+
 ## Bouwstenen
 
-### Doelstelling van financiële verslaggeving 🤖
+### Doelstelling van financiële verslaggeving 🔗
 
 De **doelstelling** is het verstrekken van financiële informatie over de rapporterende entiteit die nuttig is voor bestaande en potentiële **investeerders, kredietverstrekkers en andere geldschieters** bij hun beslissingen over het ter beschikking stellen van middelen aan de entiteit. Het Conceptual Framework benoemt deze gebruikers expliciet als **primair publiek** — niet de fiscus, niet de overheid, niet werknemers (al hebben die ook secundair belang).
 
@@ -43,7 +44,7 @@ De **doelstelling** is het verstrekken van financiële informatie over de rappor
 
 _Grondslag: IASB Conceptual Framework 2018, hoofdstuk 1 §1.2-1.10_
 
-### Kwalitatieve kenmerken — fundamenteel en versterkend 🤖
+### Kwalitatieve kenmerken — fundamenteel en versterkend 🔗
 
 Nuttige financiële informatie heeft twee **fundamentele** kwalitatieve kenmerken die altijd vervuld moeten zijn: (a) **relevantie** — informatie die een verschil kan maken in beslissingen (voorspellende waarde of bevestigende waarde); (b) **getrouwe weergave** (faithful representation) — volledig, neutraal, vrij van fouten. Daarnaast vier **versterkende** kenmerken die de bruikbaarheid verhogen: (c) **vergelijkbaarheid** (comparability) tussen entiteiten en perioden; (d) **verifieerbaarheid** (verifiability) — onafhankelijke waarnemers komen tot dezelfde conclusie; (e) **tijdigheid** (timeliness) — informatie beschikbaar voordat beslissingen vervallen; (f) **begrijpelijkheid** (understandability) — duidelijk en bondig gepresenteerd, voor gebruikers met redelijke basiskennis.
 
@@ -55,7 +56,7 @@ Nuttige financiële informatie heeft twee **fundamentele** kwalitatieve kenmerke
 
 _Grondslag: IASB Conceptual Framework 2018, hoofdstuk 2 §2.4-2.38_
 
-### Vijf elementen van de jaarrekening 🤖
+### Vijf elementen van de jaarrekening 🔗
 
 Het raamwerk definieert vijf elementen: (a) **activum** — een huidige economische middel beheerd door de entiteit als gevolg van gebeurtenissen uit het verleden (waarbij een economisch middel een recht is dat het potentieel heeft om economische voordelen te genereren); (b) **verplichting** — een huidige plicht van de entiteit om een economisch middel over te dragen als gevolg van gebeurtenissen uit het verleden; (c) **eigen vermogen** — het residueel belang in de activa na aftrek van alle verplichtingen; (d) **opbrengst** (income) — toename van activa of afname van verplichtingen die leidt tot een toename van eigen vermogen anders dan bijdragen van eigenaars; (e) **last** (expense) — afname van activa of toename van verplichtingen die leidt tot een afname van eigen vermogen anders dan uitkeringen aan eigenaars.
 
@@ -67,7 +68,7 @@ Het raamwerk definieert vijf elementen: (a) **activum** — een huidige economis
 
 _Grondslag: IASB Conceptual Framework 2018, hoofdstuk 4 §4.1-4.78_
 
-### Opname-criteria (recognition) 🤖
+### Opname-criteria (recognition) 🔗
 
 Een item dat aan een element-definitie voldoet, wordt **opgenomen** op de balans of in resultaat als opname **relevante informatie** verstrekt én een **getrouwe weergave** is. Het oude opname-criterium 'probable inflow of economic benefits' werd in 2018 vervangen door een meer expliciete kosten-baten-afweging: wat is de meerwaarde van opname versus de meet-onzekerheid? Items met zeer hoge meet-onzekerheid (bv. langetermijn-juridische claims) mogen om die reden niet opgenomen worden, ook al voldoen ze aan de definitie.
 
@@ -78,7 +79,7 @@ Een item dat aan een element-definitie voldoet, wordt **opgenomen** op de balans
 
 _Grondslag: IASB Conceptual Framework 2018, hoofdstuk 5 §5.1-5.25_
 
-### Waarderingsgrondslagen (measurement bases) 🤖
+### Waarderingsgrondslagen (measurement bases) 🔗
 
 Het raamwerk benoemt vier categorieën waarderingsgrondslagen: (a) **historische kostprijs** (historical cost) — bedrag betaald bij verwerving, eventueel aangepast voor afschrijving, impairment of betalingsstroom; (b) **reële waarde** (fair value, IFRS 13) — prijs ontvangen bij vervreemding tussen marktdeelnemers op meetdatum; (c) **bedrijfswaarde** (value in use, voor activa) of **vervullingswaarde** (fulfilment value, voor verplichtingen) — contante waarde van toekomstige kasstromen uit gebruik resp. vervulling; (d) **lopende kostprijs** (current cost) — actuele aanschaffingsprijs op meetdatum. De keuze hangt af van het soort actief/verplichting en de informatiebehoefte van gebruikers — geen één-grondslag-past-overal.
 
@@ -90,7 +91,7 @@ Het raamwerk benoemt vier categorieën waarderingsgrondslagen: (a) **historische
 
 _Grondslag: IASB Conceptual Framework 2018, hoofdstuk 6 §6.1-6.95_
 
-### Presentatie en toelichting + kapitaal-concepten 🤖
+### Presentatie en toelichting + kapitaal-concepten 🔗
 
 Hoofdstuk 7 (presentatie) en hoofdstuk 8 (kapitaal- en kapitaalbehouds-concepten) geven hoogniveau-richtlijnen over hoe informatie wordt gepresenteerd (gegroepeerd, geclassificeerd, vergeleken over perioden) en over twee concepten van kapitaalbehoud: **financieel** kapitaalbehoud (winst = stijging nominaal eigen vermogen na uitkeringen) versus **fysiek** kapitaalbehoud (winst = stijging van de productiecapaciteit). De meeste IFRS-rapporteurs gebruiken financieel kapitaalbehoud in geldeenheden van algemene koopkracht.
 
@@ -116,17 +117,17 @@ _Grondslag: IASB Conceptual Framework 2018, hoofdstuk 7-8_
 ## Valkuilen
 
 > [!warning]- Het Conceptual Framework is **geen standaard**: een afwijking ervan in een IFRS-standaard wint van het raamwerk
-> ⚠️ Het Conceptual Framework is **geen standaard**: een afwijking ervan in een IFRS-standaard wint van het raamwerk. De volgorde in IAS 8 §10-12 is: (1) specifieke IFRS-standaard; (2) bij afwezigheid: vereisten in andere IFRS-standaarden over vergelijkbare items; (3) Conceptual Framework. Het raamwerk is dus een fallback, geen primaire bron. 🤖
+> ⚠️ Het Conceptual Framework is **geen standaard**: een afwijking ervan in een IFRS-standaard wint van het raamwerk. De volgorde in IAS 8 §10-12 is: (1) specifieke IFRS-standaard; (2) bij afwezigheid: vereisten in andere IFRS-standaarden over vergelijkbare items; (3) Conceptual Framework. Het raamwerk is dus een fallback, geen primaire bron. 🔗
 >
 > _Bron: IAS 8 §10-12 hierarchy of guidance_
 
 
 > [!warning]- De 2018-revisie verwierp **voorzichtigheid in asymmetrische zin** als zelfstandig kenmerk — neutraliteit is wat telt
-> ⚠️ De 2018-revisie verwierp **voorzichtigheid in asymmetrische zin** als zelfstandig kenmerk — neutraliteit is wat telt. Stagiairs die de oude IFRS-Framework-versie (1989) bestudeerden, herinneren zich 'prudence' wel als kenmerk; in de 2018-versie is het ingebed in 'neutralität with prudence' = voorzichtigheid bij oordelen onder onzekerheid, maar geen systematisch onderschatten van activa of overschatten van verplichtingen. 🤖
+> ⚠️ De 2018-revisie verwierp **voorzichtigheid in asymmetrische zin** als zelfstandig kenmerk — neutraliteit is wat telt. Stagiairs die de oude IFRS-Framework-versie (1989) bestudeerden, herinneren zich 'prudence' wel als kenmerk; in de 2018-versie is het ingebed in 'neutralität with prudence' = voorzichtigheid bij oordelen onder onzekerheid, maar geen systematisch onderschatten van activa of overschatten van verplichtingen. 🔗
 
 
 > [!warning]- Het Conceptual Framework is **niet door de EU geëndosseerd** als zodanig — dat doet de EU alleen voor de standaarden zelf (IAS, IFRS, IFRIC,…
-> ⚠️ Het Conceptual Framework is **niet door de EU geëndosseerd** als zodanig — dat doet de EU alleen voor de standaarden zelf (IAS, IFRS, IFRIC, SIC) via Verordening 1606/2002. Het raamwerk geldt indirect, via de standaarden die ernaar verwijzen en via IAS 8-fallback. 🤖
+> ⚠️ Het Conceptual Framework is **niet door de EU geëndosseerd** als zodanig — dat doet de EU alleen voor de standaarden zelf (IAS, IFRS, IFRIC, SIC) via Verordening 1606/2002. Het raamwerk geldt indirect, via de standaarden die ernaar verwijzen en via IAS 8-fallback. 🔗
 
 
 

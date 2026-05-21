@@ -2,6 +2,7 @@
 
 **Status**: Draft
 **Datum**: 2026-05-21
+**Laatste revisie**: 2026-05-21 — §4 rol-set herzien van 7 naar 5 rollen (vóór bulk-extract); `eigen-kantoor`-perspectief toegevoegd
 **Vervangt deels**: ADR-007 schema 1.5/1.6 (didactische top-laag + element-vocabulaire + nieuwe kinds)
 **Bouwt op**: ADR-007 (conceptmodel), ADR-008 (concept-extractie), ADR-019 (records-API)
 **Gerelateerd**: ADR-010 (drie lagen + collapsibility), ADR-006 (RAG-strategie)
@@ -113,8 +114,20 @@ Naast de zes bestaande `node_type`'s (begrip · regel · cluster · synthese · 
 
 `rol_van_de_accountant` wordt een **gestructureerde matrix**, niet een vrije lijst. Twee niveaus:
 
-- **Klant-perspectief** (voor wie zit de accountant aan tafel) — typisch 2–4 per record: uitgever · belegger NP · belegger venn. · auditor (extern) · bestuur · …
-- **Rol** binnen dat perspectief — uit een vaste set: `adviseur` · `boekhouder` · `begeleider` · `fiscaal` · `controleur` · `curator` · `forensisch`
+- **Perspectief** (wie zit aan de andere kant van de tafel — of: voor wiens kantoor werkt de accountant). Twee soorten:
+  - **Klant-type-perspectieven** — typisch 2–4 per record: uitgever · belegger NP · belegger venn. · auditor (extern) · bestuur · KMO-handelsonderneming · familiale holding · beursgenoteerde onderneming · vzw · …
+  - **`eigen-kantoor`-perspectief** (toegevoegd 2026-05-21) — de accountant past iets toe op zijn eigen praktijk, niet op een cliënt. Vooral PO 4.0-relevant: AWW-eigen-kantoor-procedures, ITAA-deontologie-naleving, ITAA-kwaliteitstoetsing, GDPR-eigen-kantoor. Voor concepten waar de accountant zélf onderhevig is aan een regeling.
+- **Rol** binnen dat perspectief — uit een **vaste set van 5** (revised 2026-05-21):
+  - **`adviseur`** — strategisch/operationeel advies + begeleiding (algemeen toepasbaar; inclusief klant-begeleiding bij insolventie of faillissement)
+  - **`boekhouder`** — boekings-uitvoering, MAR-toepassing, jaarrekening-opmaak (PO 1.1/1.2; ook afsluitende rekeningen voor curator bij faillissement)
+  - **`externe auditor`** — commissaris-mandaat, assurance-opdrachten, controleverklaring; inclusief fraude-detectie-verantwoordelijkheid (ISA 240) en frauderisico-evaluatie (PO 1.6)
+  - **`interne-controle-adviseur`** — interne-controle-systemen ontwerpen of evalueren voor cliënt. **Niet de in-house interne-audit-functie zelf** (PO 1.7)
+  - **`fiscaal adviseur`** — fiscaal advies + aangifte-opmaak + fiscale procedure (PO 2.x)
+
+Geen aparte rollen voor compliance, curator, of forensisch werk:
+- **Compliance-werk**: AWW-cliëntonderzoek (`adviseur` of `externe auditor`) of AWW-eigen-kantoor (perspectief `eigen-kantoor` × `interne-controle-adviseur`)
+- **Curator** is een externe actor in faillissement-context, geen rol-van-de-accountant. Wat de accountant doet bij klant-faillissement valt onder `adviseur` of `boekhouder`
+- **Forensisch** werk binnen audit-mandaat valt onder `externe auditor` (ISA 240); specialistische forensische opdrachten buiten de basis-rol-set worden in body vermeld waar relevant
 
 Per cel: takenpakket + elementen (recursief; mag boekingen + balans-snapshots + berekeningen bevatten). Lege cellen worden niet getoond.
 
@@ -134,12 +147,91 @@ JSON-vorm:
         },
         { "rol": "boekhouder", "emoji": "📋", "elementen": [ ... ] }
       ]
+    },
+    {
+      "actor": "eigen-kantoor",
+      "emoji": "🏛️",
+      "rollen": [
+        {
+          "rol": "interne-controle-adviseur",
+          "emoji": "🛡️",
+          "taken": ["KYC-procedures eigen kantoor", "UBO-register-update", "..."],
+          "elementen": [ ... ]
+        }
+      ]
     }
   ]
 }
 ```
 
-**Vuistregel "voor wie werkt de accountant"** als extract-heuristic — agent vraagt zich bij elk concept af welke klant-perspectieven raken + welke rollen zinvol zijn. Geen lege cellen.
+**Vuistregel "voor wie werkt de accountant"** als extract-heuristic — agent vraagt zich bij elk concept af welke perspectieven raken (klant-types + evt. `eigen-kantoor`) + welke rollen binnen elk perspectief zinvol zijn. Geen lege cellen.
+
+**Render-implicatie**: bij de samenvatting van PO 1.6 (externe controle) wordt automatisch elk record met cel `rol=externe-auditor` opgenomen; voor PO 1.7 (interne controle): elk record met cel `rol=interne-controle-adviseur`. Voor PO 4.0: elk record met perspectief `eigen-kantoor`. Dat maakt PO-samenvattingen deterministisch te genereren uit de fiche-set.
+
+### 4bis. Naming- en consolidatie-regels (toegevoegd 2026-05-21 na empirische skeleton-fase)
+
+De eerste skeleton-pass over 19 programmaonderdelen leverde 425 kandidaten op, waarvan ~30 duplicaten, fluffy meta-kaders of pair-trap-overtredingen. Onderstaande regels zijn de **lessen-leerlingen** geformaliseerd als guidelines voor alle skeleton/extract/verify-passes.
+
+#### Regel 1 — Fiche-naam = concept-naam, niet kind-naam, niet bron-naam
+
+- **GEEN kind-suffix in `fiche_id`**: schrap `-kader`, `-familie`, `-procedure`. De kind staat in frontmatter (`node_type`). Voorbeeld: `registratiebelasting-kader` → `registratiebelasting`.
+- **Bron-referenties (IAS-X, IFRS-X, ISA-X) horen in body als bron, niet in fiche-naam**. Het concept zit *verborgen* in de bron — de fiche dekt het concept. Voorbeeld: `ifrs-15-opbrengsten` → `opbrengstverantwoording` (met IFRS-15 als bron in body); `ias-2-voorraden-ifrs` → merge in bestaande `voorraden` met IFRS-perspectief.
+- **Uitzondering**: als de bron *letterlijk* het concept IS, dan mag het. Voorbeeld: `ifrs` (= de EU-Verordening + Conceptueel Framework als koepelconcept).
+
+#### Regel 2 — Pair-trap: één fiche met vergelijkingsmatrix is de default
+
+- Bij varianten op één concept (NV/BV, drie gewesten Vl/Br/Wa, BGAAP/IFRS, …): **één fiche met perspectief-uitsplitsing inside**, niet aparte fiches per variant.
+- Splitsen alleen als één variant écht zoveel complexiteit toevoegt dat de hoofdfiche onleesbaar wordt.
+- Beslissing om te splitsen valt niet *vooraf* (in skeleton) maar *post-hoc* (via VERIFY of mens-review).
+- Default flow: **prefer merge, split alleen als VERIFY of mens-review besluit "te verschillend"**.
+
+#### Regel 3 — Rol × perspectief is de kapstok voor "wat doet de accountant"
+
+- "Hoe doet de accountant X" → rol×perspectief-cel **IN het X-fiche**, niet als aparte `audit-X`-fiche of `aangifte-X`-fiche.
+- Specifiek voorbeeld: `audit-van-geconsolideerde-jaarrekening` werd in skeleton als losse procedure-fiche voorgesteld; correct is: cel `externe auditor × consolidatie-perspectief` IN `geconsolideerde-jaarrekening`.
+- "Wat doet de accountant zelf" (AWW eigen kantoor, ITAA-deontologie-naleving, GDPR-eigen-kantoor): perspectief `eigen-kantoor`, geen aparte rol of fiche.
+
+#### Regel 4 — Families krijgen leden-edges in dezelfde pass
+
+- Een familie zonder `heeft_lid`-edges is incompleet en onleesbaar.
+- Schrijf familie + leden + edges in één extract-pass (niet later).
+- Vermijd "ghost families" zoals `controlemaatregelen` zonder gedefinieerde leden.
+- Edges via `heeft_lid` op familie + `lid_van` op elke lid (bidirectioneel).
+
+#### Regel 5 — Granulariteit: grover-is-beter, split alleen als nodig
+
+- Bouwstenen van een concept horen **in** het ouder-concept, niet als losse meta-kaders.
+- Voorbeeld: `doelstellingen-financiele-analyse` + `instrumenten-financiele-analyse` zijn onderdelen van `jaarrekeninganalyse`, geen aparte kaders.
+- Een fiche dat alleen "wat het is" zonder eigen mechaniek of domein-werking = **signal voor merge** in een groter concept.
+- Per-PO richtsnoer: ~20-25 fiches, niet 40+. Overschrijding is OK als het PO inhoudelijk dat vereist (BTW kan ~30 zijn door fragmentatie van regimes).
+
+#### Regel 6 — Cross-PO-completeness in eerste extract-pass
+
+- Bij eerste aanraking van een concept: **ALLE PO-perspectieven** (boekhoud + fiscaal + audit + advies + eigen-kantoor) in één extract-pass.
+- Latere PO's die hetzelfde concept raken: vullen aan via `aanvul_kandidaat`, schrijven geen aparte fiche.
+- Reden: latere re-extracten zijn duurder dan grondig eerste werk.
+
+#### Regel 7 — Open `kind` tag-set, met discipline
+
+- Nieuwe `kind`-waarden zijn toegestaan (open tag-set).
+- Worden voorgesteld via VERIFY-flag of expliciete rationale in extract-output.
+- Schema-validator waarschuwt bij onbekend kind, blokkeert niet.
+- Tijdens skeleton: gebruik bestaande set tenzij echt nieuw type concept; anders explicieten in motivatie.
+
+#### Regel 8 — Schema-jargon blijft in frontmatter
+
+- `kind`, `linked_anchors`, `node_type`, `_provenance` enzovoort: alleen in frontmatter, nooit in body-tekst.
+- In body-tekst gebruik je gewone Nederlandstalige termen ("Dit kader beschrijft …" — niet "Deze kader-node valt onder PO 1.6.II.A").
+- PO-codes (1.6.II.A) blijven in frontmatter; render-laag bouwt PO-navigatie automatisch.
+
+#### Toepassings-loop
+
+| Fase | Toepassing |
+|---|---|
+| **Skeleton-voorstel** | Volg regels 1-7 preventief tijdens skeleton-fase (skeleton-voorstel-v1.md) |
+| **Concept-extractie** | Volg regels 1-8 tijdens record-schrijven (concept-extractie-v5.md) |
+| **VERIFY** | Detecteer overtredingen + voorstel consolidatie of split (concept-verify-v3.md) |
+| **Mens-review** | Bevestig of weerleg merge/split-voorstellen na VERIFY |
 
 ### 5. Confidence-vocabulaire (uniform)
 

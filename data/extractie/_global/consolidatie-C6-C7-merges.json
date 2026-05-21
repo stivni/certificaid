@@ -1,0 +1,7 @@
+[
+  {"loser": "fiscale-procedure-brussel-brufis", "winner": "gewestelijke-fiscale-procedure", "reason": "C7 — pair-trap fix: BR-procedure wordt sub-perspectief in gewestelijke-fiscale-procedure"},
+  {"loser": "fiscale-procedure-wallonie-spw-fiscalite", "winner": "gewestelijke-fiscale-procedure", "reason": "C7 — pair-trap fix: WA-procedure wordt sub-perspectief"},
+  {"loser": "onafhankelijkheid-en-deontologie", "winner": "onafhankelijkheid", "reason": "C6 — harde duplicaat-merge over PO 1.6 (audit-context) en PO 4.0 (deontologie-context)"},
+  {"loser": "interne-beheersing-evaluatie", "winner": "interne-controle-coso", "reason": "C6 — procedure HOE accountant IC evalueert wordt rol×perspectief-cel IN het kader-fiche (audit-perspectief op IC)"},
+  {"loser": "bijzondere-verslagen-accountant", "winner": "bijzondere-verslagen-vennootschapsverrichtingen", "reason": "C6 — user-instructie: 'accountant' is evident in deze context; meta-overzicht-fiche kan opgaan in de bestaande familie (later per individueel verslag herverdelen)"}
+]

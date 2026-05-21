@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bijeenroeping-algemene-vergadering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bijeenroeping van de algemene vergadering ⚖️
 
@@ -25,10 +25,15 @@ De bijeenroeping bepaalt wie de AV samenroept, op welke manier dat gebeurt en wa
 
 > [!info] Behoort tot: [[algemene-vergadering]]
 
+> [!info] Bestaat uit (1): [[agenderingsrecht-aandeelhouder]]
+
 De bijeenroeping is de formele uitnodiging van de aandeelhouders en andere stemgerechtigden tot de algemene vergadering. Het bestuursorgaan en, in voorkomend geval, de commissaris doen die oproep en bepalen de agenda. De oproeping wordt minstens vijftien dagen vóór de vergadering meegedeeld; in een NV gebeurt zij bovendien via aankondiging in het Belgisch Staatsblad en een nationaal blad (tenzij alle effecten op naam zijn). Een tweede bijeenroeping vereist een minimumtermijn van tien dagen.
 
 _Bron: WVV art. 5:83 (BV), 7:126–7:127 (NV)_
 
+
+
+> [!info] Uitzonderingen (1): [[schriftelijke-besluitvorming-aandeelhouders]]
 
 ## Bouwstenen
 
@@ -54,7 +59,7 @@ De raad van bestuur, de enige bestuurder of de raad van toezicht en, in voorkome
 
 _Grondslag: WVV art. 7:126, 7:127, § 1_
 
-### Bijeenroeping in de NV genoteerd 🤖
+### Bijeenroeping in de NV genoteerd 🔗
 
 Voor een genoteerde NV gelden bijkomende termijnen en kanalen (30 dagen vóór de AV, mededeling via Staatsblad én media die brede verspreiding waarborgen; aandelen op naam, certificaathouders met medewerking, bestuurders en commissaris worden expliciet meegedeeld). De oproeping bevat onder meer agenda, deelnameformaliteiten, registratiedatum en stem-op-afstand-modaliteiten.
 
@@ -80,11 +85,11 @@ _Grondslag: WVV art. 5:83, eerste lid; 5:100, eerste lid; 7:126, 7:153_
 ## Valkuilen
 
 > [!warning]- Verifieer voor elke oproeping of alle wettelijke kanalen werden gebruikt — in de NV worden Staatsblad én nationaal blad regelmatig vergeten bij vennootschappen die historisch enkel met houders op naam werkten.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bewaar bewijs van mededeling (e-mail, verzendlijst) — bij latere betwisting moet de vennootschap kunnen aantonen dat de oproepingstermijn werd gerespecteerd.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

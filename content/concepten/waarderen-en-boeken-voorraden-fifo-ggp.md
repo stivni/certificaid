@@ -14,11 +14,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/waarderen-en-boeken-voorraden-fifo-ggp.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Waarderen en boeken van voorraden volgens FIFO of gewogen gemiddelde 🤖
+# Waarderen en boeken van voorraden volgens FIFO of gewogen gemiddelde 🔗
 
 De toepassingscompetentie op de voorraad-waardering: FIFO en gewogen gemiddelde geven onder inflatie verschillende resultaten — FIFO toont een hogere voorraadwaarde en winst, gewogen gemiddelde een gedempte resultaatcurve. Voor een stagiair-GA: typisch examenscenario waar dezelfde voorraadbewegingen onder beide methodes worden uitgewerkt en de winsteffecten getoond.
+
 
 
 ## Stappen

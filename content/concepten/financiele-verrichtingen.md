@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiele-verrichtingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Financiële verrichtingen (kosten + opbrengsten) ⚖️
 
@@ -27,6 +27,7 @@ De resultatenrekening-categorie die scheiding maakt tussen 'inkomen uit de bedri
 **Kosten en opbrengsten** uit de **financiële activiteit** van de onderneming: intresten op leningen en deposito's, kosten op leningen, opbrengsten/verliezen op effecten en deelnemingen, wisselkoersverschillen. Klasse 65 (financiële kosten) en 75 (financiële opbrengsten). Strikt gescheiden van het bedrijfsresultaat zodat de gebruiker operationele en financiële prestatie kan onderscheiden. Het verschil tussen klasse 75 en 65 = **financieel resultaat**.
 
 _Bron: MAR klasse 65 + 75_
+
 
 
 ## Bouwstenen

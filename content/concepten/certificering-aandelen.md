@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/certificering-aandelen.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Certificering van aandelen (STAK) ⚖️
 
@@ -26,6 +26,7 @@ Certificering is een **scheidingstechniek**: het juridische eigenaarschap van de
 Een **contractuele verrichting** waarbij de **aandelen** (of obligaties, inschrijvingsrechten) van een vennootschap worden overgedragen aan een **emittent** (typisch een **administratiekantoor** of stichting), die in ruil **certificaten** uitgeeft aan de oorspronkelijke aandeelhouders. De emittent oefent **juridisch** alle rechten uit — waaronder het **stemrecht** — terwijl de certificaathouders de **economische opbrengsten** (dividenden, terugbetaling kapitaal, vereffeningsoverschot) ontvangen.
 
 _Bron: WVV art. 7:61 (NV); art. 5:48 (BV); MvT bij art. 484_
+
 
 
 ## Bouwstenen
@@ -73,7 +74,7 @@ Certificering is een **contractuele verrichting** tussen emittent en certificaat
 
 _Grondslag: MvT bij art. 484 W.Venn._
 
-### Toepassingen — opvolging en werknemers­participatie 🤖
+### Toepassingen — opvolging en werknemers­participatie 🔗
 
 Twee dominante gebruiks-cases: (1) **familiale opvolging**: ouders schenken certificaten aan kinderen — kinderen krijgen **dividenden en meerwaarde**, ouders behouden via het administratie­kantoor het **stemrecht** en de **controle** over het bedrijf; (2) **werknemersparticipatie**: werknemers krijgen certificaten met economische rechten maar **geen stemrecht** in de AV.
 
@@ -95,13 +96,13 @@ _Grondslag: MvT bij art. 484; doctrine_
 <h3 id="bestuur-van-de-emittent-de-echte-controlerende">Bestuur van de emittent = de echte controlerende</h3>
 
 > [!tip]- Bestuur van de emittent = de echte controlerende
-> Wie de **emittent** bestuurt, heeft **de facto** de stem­macht. In familiale planning: de stichters worden levenslang bestuurder van het administratiekantoor om controle te behouden, en regelen via de statuten van die stichting de opvolging. 🤖
+> Wie de **emittent** bestuurt, heeft **de facto** de stem­macht. In familiale planning: de stichters worden levenslang bestuurder van het administratiekantoor om controle te behouden, en regelen via de statuten van die stichting de opvolging. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Certificering is **contractueel** — de certificeringsvoorwaarden bepalen of de certificaten **al dan niet omwisselbaar** zijn. Lees deze voorwaarden voor je schenking of fiscale planning adviseert: een **niet-omwisselbaar certificaat** heeft een **lagere waarde** dan een direct aandeel.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -123,7 +124,7 @@ Pieter Vermeulen bezit 100% van Aurelia Holding NV. Hij wil zijn drie kinderen (
 3. Pieter **schenkt** de certificaten aan zijn kinderen. Kinderen ontvangen **dividend** en zullen bij **vereffening** het netto-actief krijgen.
 4. **STAK** (= Pieter als bestuurder) blijft stemmen op de AV van Aurelia — Pieter behoudt **operationele controle**.
 5. Bij overlijden van Pieter regelt de **statutaire opvolging** van STAK Aurelia (bv. via bestuurdersbenoeming-clausule) wie de stem­macht voortzet.
-🤖
+🔗
 
 
 

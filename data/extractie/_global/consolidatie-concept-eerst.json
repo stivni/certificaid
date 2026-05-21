@@ -1,0 +1,17 @@
+[
+  {
+    "loser": "fraude-overweging-audit",
+    "winner": "fraude",
+    "reason": "C-extension: audit-procedure wordt rol×perspectief-cel in concept-fiche"
+  },
+  {
+    "loser": "verbonden-partijen-audit",
+    "winner": "verbonden-partijen",
+    "reason": "C-extension"
+  },
+  {
+    "loser": "boekhoudkundige-schattingen-audit",
+    "winner": "boekhoudkundige-schattingen",
+    "reason": "C-extension"
+  }
+]

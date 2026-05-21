@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/inbreng-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Inbreng in een vennootschap ⚖️
 
@@ -22,9 +22,12 @@ Een vennootschap ontstaat pas wanneer de vennoten een **inbreng** doen (WVV art.
 > [!summary] Korte inhoud
 > Een inbreng is wat een vennoot bijdraagt aan de vennootschap in ruil voor maatschappelijke rechten (aandelen, deelbewijzen, vennotenaandeel).
 
+> [!info] Bestaat uit (1): [[inbreng-in-natura]]
+
 Een inbreng is wat een vennoot bijdraagt aan de vennootschap in ruil voor maatschappelijke rechten (aandelen, deelbewijzen, vennotenaandeel). Drie soorten worden onderscheiden: **inbreng in geld**, **inbreng in natura** (lichamelijke of onlichamelijke goederen), en **inbreng in nijverheid** (arbeid, kennis, dienstverlening).
 
 _Bron: WVV art. 1:1, art. 4:1_
+
 
 
 ## In de praktijk
@@ -57,7 +60,7 @@ _Bron: WVV art. 1:1, art. 4:1_
 ## Zie ook
 
 - **Vereist kennis van**: [[vennootschap-begrip]]
-
+- **Wordt voorondersteld in** (7): [[beperkte-aansprakelijkheid-vennoot]] · [[besloten-vennootschap-bv]] · [[inbreng-in-natura]] · [[kapitaalverhoging-bv]] · [[kapitaalverhoging-nv]] · [[naamloze-vennootschap-nv]] · [[vennootschap-begrip]]
 ## Voorbeelden
 
 ### Oprichting Oprichtingen Oostende BV met gemengde inbreng

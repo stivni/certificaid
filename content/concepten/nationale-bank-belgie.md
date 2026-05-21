@@ -14,7 +14,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/nationale-bank-belgie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Nationale Bank van België (NBB) ⚖️
 
@@ -26,6 +26,7 @@ De NBB-Balanscentrale is de **centrale autoriteit voor neerlegging van jaarreken
 De Nationale Bank van België (NBB) is de Belgische centrale bank. Voor het boekhoudrecht is haar Balanscentrale de centrale autoriteit voor openbaarmaking van jaarrekeningen: elke Belgische vennootschap moet haar jaarrekening daar neerleggen volgens vaste modellen. De NBB beheert ook macro-economische statistieken op basis van deze data.
 
 _Bron: KB-WVV art. 3:104 (openbaarmaking)_
+
 
 
 ## Bouwstenen
@@ -72,7 +73,7 @@ _Grondslag: WVV art. 2:74; KB tarifering toeslagen_
 <h3 id="public-access-via-centrale-voor-balansen">Public access via Centrale voor Balansen</h3>
 
 > [!tip]- Public access via Centrale voor Balansen
-> Alle neergelegde jaarrekeningen zijn publiek raadpleegbaar — een belangrijke transparantie-laag. Kredietverleners, journalisten en concurrenten kunnen de balans en resultatenrekening van élke Belgische vennootschap inkijken. 🤖
+> Alle neergelegde jaarrekeningen zijn publiek raadpleegbaar — een belangrijke transparantie-laag. Kredietverleners, journalisten en concurrenten kunnen de balans en resultatenrekening van élke Belgische vennootschap inkijken. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examenvraag 'Waar kan een derde de jaarrekening van X inkijken?' → NBB-Balanscentrale.
@@ -81,7 +82,7 @@ _Grondslag: WVV art. 2:74; KB tarifering toeslagen_
 ## Zie ook
 
 - **Vereist kennis van**: [[openbaarmaking-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[openbaarmaking-jaarrekening]]
 ## Voorbeelden
 
 Rotex Roeselare NV moet binnen 30 dagen na de algemene vergadering haar jaarrekening (volledig schema) elektronisch neerleggen bij de NBB-Balanscentrale.

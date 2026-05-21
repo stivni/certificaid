@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/feitelijk-bestuurder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Feitelijk bestuurder ⚖️
 
@@ -28,12 +28,13 @@ Een **feitelijk bestuurder** is een persoon die — zonder formeel als lid van h
 _Bron: WVV art. 2:56 — WER art. XX.225-XX.227_
 
 
+
 ## In de praktijk
 
 <h3 id="aanwijzingen-van-feitelijk-bestuur">Aanwijzingen van feitelijk bestuur</h3>
 
 > [!tip]- Aanwijzingen van feitelijk bestuur
-> Cumulatief beoordeeld: ondertekening van belangrijke contracten, instructies geven aan personeel en aan de officiële bestuurders, controle over de bankrekening (volmacht), aanwezigheid bij beslissende vergaderingen zonder formele uitnodiging, exclusief beslissingsrecht in de praktijk over investeringen of personeel. 🤖
+> Cumulatief beoordeeld: ondertekening van belangrijke contracten, instructies geven aan personeel en aan de officiële bestuurders, controle over de bankrekening (volmacht), aanwezigheid bij beslissende vergaderingen zonder formele uitnodiging, exclusief beslissingsrecht in de praktijk over investeringen of personeel. 🔗
 
 <h3 id="gevolgen-voor-aansprakelijkheid">Gevolgen voor aansprakelijkheid</h3>
 
@@ -44,7 +45,7 @@ _Bron: WVV art. 2:56 — WER art. XX.225-XX.227_
 ## Valkuilen
 
 > [!warning]- Niet elke **invloedrijke aandeelhouder** is feitelijk bestuurder. Een aandeelhouder die enkel via de algemene vergadering stemt blijft binnen zijn aandeelhoudersrol — feitelijk bestuur vereist **executieve handelingen** die normalerwijs aan het bestuursorgaan toekomen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -54,7 +55,7 @@ _Bron: WVV art. 2:56 — WER art. XX.225-XX.227_
 
 ## Voorbeelden
 
-**Pieter Vermeulen** is enige aandeelhouder van **Brugse Brouwerij BV** maar weigert formeel bestuurder te worden. Zijn vrouw is in de statuten benoemd als enige zaakvoerder. In werkelijkheid neemt Pieter alle commerciële, personeel- en investeringsbeslissingen, en verschijnt hij steeds bij de bank. Bij een latere faillietverklaring zal de curator de feitelijke-bestuurder-kwalificatie inroepen om Pieter persoonlijk aan te spreken onder art. XX.225-XX.226 WER. _(Pieter Vermeulen, Brugse Brouwerij BV)_ 🤖
+**Pieter Vermeulen** is enige aandeelhouder van **Brugse Brouwerij BV** maar weigert formeel bestuurder te worden. Zijn vrouw is in de statuten benoemd als enige zaakvoerder. In werkelijkheid neemt Pieter alle commerciële, personeel- en investeringsbeslissingen, en verschijnt hij steeds bij de bank. Bij een latere faillietverklaring zal de curator de feitelijke-bestuurder-kwalificatie inroepen om Pieter persoonlijk aan te spreken onder art. XX.225-XX.226 WER. _(Pieter Vermeulen, Brugse Brouwerij BV)_ 🔗
 
 ## Bronnen
 

@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/alarmbelprocedure.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Alarmbelprocedure ⚖️
 
@@ -29,6 +29,7 @@ De alarmbelprocedure is de spiegel-procedure van de uitkeringstests: waar nettoa
 De **alarmbelprocedure** is een dwingend wettelijk waarschuwingsmechanisme dat in werking treedt zodra het bestuursorgaan vaststelt dat het vermogen van de vennootschap onder een kritieke drempel zakt of dat de continuïteit ernstig in het gedrang dreigt te komen. Het bestuur moet binnen een korte termijn de algemene vergadering bijeenroepen, een bijzonder bestuursverslag opstellen waarin het maatregelen voorstelt (eventueel ontbinding, maar niet als enige optie), en die maatregelen ter beslissing voorleggen. De drempels en exacte mechaniek verschillen per rechtsvorm: in de NV blijft de procedure kapitaalgebonden (nettoactief versus geplaatst kapitaal), terwijl ze in BV en CV — kapitaalloze rechtsvormen — gebaseerd is op de twee uitkeringstests (negatief nettoactief en liquiditeitstest 12 maanden), naar analogie van de regels inzake uitkeringen aan de aandeelhouders.
 
 _Bron: CBN-advies 2021/14 §Nettoactief; MvT WVV art. 312_
+
 
 
 ## Bouwstenen
@@ -148,7 +149,7 @@ _Grondslag: CBN-advies 2021/14 §Continuïteit en waarderingsregels; KB WVV art.
 - **Vereist kennis van**: [[nettoactieftest]]
 - **Vereist kennis van**: [[liquiditeitstest-bv]]
 - **Getriggerd door**: [[continuiteitsbeginsel]]
-
+- **Triggert** (2): [[inkoop-eigen-aandelen-bv]] · [[inkoop-eigen-aandelen-nv]]
 ## Voorbeelden
 
 ### Alarmbel bij Brugse Brouwerij BV — liquiditeits-trigger

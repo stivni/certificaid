@@ -34,6 +34,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-024](ADR-024-visuele-llm-interpretatie-examenvragen.md) | Visuele LLM-interpretatie van examenvragen via per-vraag artefacten | Accepted |
 | [ADR-025](ADR-025-schema-20-didactische-conceptlaag.md) | Schema 2.0 — didactische concept-laag (rol × perspectief · element-vocabulaire · kader/familie kinds) | Draft |
 | [ADR-026](ADR-026-tarief-records-vision-extractie.md) | Tarief-records via vision-extractie + MCP-lookup | Draft |
+| [ADR-027](ADR-027-bundle-aware-extract-architectuur.md) | Bundle-aware extract (2-pass) + daemon v2.0 (batching, gating, concurrent index) | Accepted |
 
 ## Roadmap
 
@@ -50,8 +51,10 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | ETL-pipeline aanpassen (extractor of transformer) | ADR-005 §3 (extractors), §4 (transformers), §1 (determinisme) — vergeet snapshot-vangnet niet (`tests/test_pipeline_snapshots*.py`) |
 | RAG-index bouwen of bevragen | ADR-006 (RAG-strategie) |
 | Concept-record maken of aanvullen | ADR-007 (model, schema 1.1) **→ ADR-025 voor schema 2.0**, ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling), ADR-018 (embedding-daemon voor live duplicate-check), ADR-019 (records-API als enige schrijfweg) |
-| Schema 2.0 concept-record (rol × perspectief, kader/familie) | ADR-025 + `prompts/concept-extractie-v5.md` + `prompts/concept-verify-v3.md` |
-| Fase 2 herextract-pilot starten | `docs/pilot-fase2-pipeline.md` (werkdoc) + ADR-025 §migratie |
+| Schema 2.0 concept-record (rol × perspectief, kader/familie) | ADR-025 + `prompts/concept-extractie-v5.md` (legacy) of `prompts/concept-extractie-v5-bundle.md` (bundle-aware, default voor bulk) + `prompts/concept-verify-v3.md` |
+| Bundle-aware extract (2-pass) — bulk-extract | ADR-027 — `tools/extractie/build_context_bundle.py` (single), `tools/extractie/build_bundles_batch.py` (bulk), `prompts/concept-extractie-v5-bundle.md` |
+| Daemon-throughput-tuning of restart | ADR-018 + ADR-027 — `tools/extractie/embedding_daemon.py` (v2.0 met batching/gating), config in `tools/extractie/daemon_config.yaml`, hot-reload `launchctl kickstart -k gui/$(id -u)/com.certificaid.embedding-daemon` |
+| Fase 2 herextract-pilot starten | `docs/pilot-fase2-pipeline.md` (werkdoc) + ADR-025 §migratie + ADR-027 voor extract-architectuur |
 | Concept-record hernoemen of verwijderen | ADR-019 (`rename_record` / `delete_record` — geen directe disk-ops) |
 | Embedding-daemon starten/stoppen/diagnose | ADR-018 |
 | Concept-record opslaan, hernoemen of verwijderen (disk + RAG) | ADR-019 (records-API) |
@@ -64,6 +67,9 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | Leermateriaal-snapshot publiceren | ADR-010 (snapshots), ADR-002 (kenniselement-dekkingscheck) |
 | Tutor-antwoord debuggen | ADR-010 (tutor live), ADR-006 (RAG), ADR-007 (graph-walks) |
 | Iets reprocessen na bron-wijziging | ADR-003 (workflow), ADR-004 (provenance / stale-cascade) |
+| Tarief- of drempel-record schrijven / trusten | ADR-026 — `tools/lib/tarieven_api.py` (`save_record`, `mark_trusted`, `audit_parity`) |
+| Tarief-tabel uit tabel-zware PDF extraheren | ADR-026 §3 — chunker `tools/tarieven/chunk_pdf.py` + extract-prompt `prompts/tarief-extractie-v1.md` + verify-prompt `prompts/tarief-verify-v1.md` |
+| Tarief-records raadplegen vanuit een agent | ADR-026 §5 — MCP-server `certificaid-tarieven` (4 tools: lijst/zoek/lees/query) in `.mcp.json` |
 
 ## Wanneer een nieuw ADR aanmaken?
 

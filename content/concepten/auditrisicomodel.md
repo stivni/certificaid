@@ -18,13 +18,14 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/auditrisicomodel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Auditrisicomodel (controlerisico) 🤖
+# Auditrisicomodel (controlerisico) 🔗
 
 Het auditrisicomodel structureert de risico-aanpak van de auditor. Het controlerisico — het risico dat de auditor een verkeerd oordeel geeft terwijl de financiële overzichten een materiële afwijking bevatten — wordt opgesplitst in drie componenten: inherent risico, intern beheersingsrisico en ontdekkingsrisico. De auditor stuurt het ontdekkingsrisico (= hoeveel werk hij doet) op basis van zijn inschatting van de eerste twee.
 
-> [!info] Bestaat uit (3): [[inherent-risico]] · [[intern-beheersingsrisico]] · [[ontdekkingsrisico]] · Specialisaties (1): [[auditrisico-1-7-context]]
+> [!info] Bestaat uit (3): [[inherent-risico]] · [[intern-beheersingsrisico]] · [[ontdekkingsrisico]] · Specialisaties (1): [[auditrisico-in-ic-context]]
+
 
 
 ## Bouwstenen
@@ -40,7 +41,7 @@ Inherent risico (vatbaarheid van een bewering voor afwijking vóór interne behe
 
 _Grondslag: ITAA KMO-controlenorm Bijlage 1_
 
-### Wat de auditor kan beïnvloeden 🤖
+### Wat de auditor kan beïnvloeden 🔗
 
 Enkel het ontdekkingsrisico. Inherent en intern beheersingsrisico zijn EIGENSCHAPPEN van de cliënt — de auditor schat ze in, hij verlaagt ze niet.
 
@@ -80,7 +81,7 @@ _Resultaat in % / kans_
 
 ## Zie ook
 
-- **Wordt voorondersteld in** (4): [[materieel-belang-audit]] · [[redelijke-mate-van-zekerheid]] · [[risico-inschatting-audit]] · [[uitvoeren-risico-inschatting-en-materialiteit-audit]]
+- **Wordt voorondersteld in** (3): [[isa-standaarden-ic]] · [[redelijke-mate-van-zekerheid]] · [[risico-inschatting-audit]]
 ## Bronnen
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`

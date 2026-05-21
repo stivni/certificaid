@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controle-omgeving.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Controle-omgeving (COSO-component 1) 🤖
+# Controle-omgeving (COSO-component 1) 🔗
 
 De controle-omgeving is COSO-component 1 en het fundament waarop de andere vier rusten. Voor de stagiair komt dit als eerste vraag bij risk assessment (ISA 315): hoe is de tone at the top? Een zwakke controle-omgeving maakt sterke procedures (component 3) zinloos — ze worden routinematig omzeild. Examen-vragen testen of je dit verband legt: 'op welk niveau van COSO situeer je integriteit van het management?'.
 
@@ -30,9 +30,10 @@ De controle-omgeving is COSO-component 1 en het fundament waarop de andere vier 
 De controle-omgeving is het geheel van waarden, integriteit, ethiek en cultuur dat in een onderneming heerst, vastgesteld door het bestuur en gedragen door alle medewerkers. Het is het fundament waarop alle andere IC-componenten rusten — een slechte controle-omgeving maakt de andere componenten waardeloos. Kernidee: 'tone at the top'.
 
 
+
 ## Bouwstenen
 
-### Vijf principes (COSO 2013) 🤖
+### Vijf principes (COSO 2013) 🔗
 
 (1) Integriteit en ethische waarden, (2) bestuur en toezicht, (3) bevoegdheid en verantwoordelijkheid, (4) competentie en HR-beleid, (5) accountability voor IC-verantwoordelijkheden.
 
@@ -43,7 +44,7 @@ De controle-omgeving is het geheel van waarden, integriteit, ethiek en cultuur d
 
 _Grondslag: COSO 2013 + ISA 315 (herzien-2019)_
 
-### HR-beleid als zichtbare hefboom 🤖
+### HR-beleid als zichtbare hefboom 🔗
 
 Aanwerving, training, beoordeling, beloning en sanctionering van personeel — wie wordt aangeworven, gepromoveerd en hoe wordt prestatie beloond.
 
@@ -55,7 +56,7 @@ Aanwerving, training, beoordeling, beloning en sanctionering van personeel — w
 
 _Grondslag: COSO 2013_
 
-### Bestuurseffectiviteit 🤖
+### Bestuurseffectiviteit 🔗
 
 Werking van raad van bestuur en eventueel auditcomité: vergaderfrequentie, expertise, onafhankelijkheid, betrokkenheid bij IC-evaluatie.
 
@@ -78,14 +79,14 @@ _Grondslag: WVV + Code Buysse (governance KMO)_
 ## Valkuilen
 
 > [!warning]- Controle-omgeving zien als 'zacht' en daarom minder belangrijk dan procedures
-> ⚠️ Controle-omgeving zien als 'zacht' en daarom minder belangrijk dan procedures. Empirisch: meer fraude wordt veroorzaakt door zwakke omgeving dan door zwakke procedures. 🤖
+> ⚠️ Controle-omgeving zien als 'zacht' en daarom minder belangrijk dan procedures. Empirisch: meer fraude wordt veroorzaakt door zwakke omgeving dan door zwakke procedures. 🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[ethiek-organisatie-ic]]
-
+- **Wordt voorondersteld in** (1): [[fraudedriehoek]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV (familiale BV): RvB met 5 leden (3 familie, 2 onafhankelijken Pieter Vermeulen en Sofie Janssens), vergadert kwartaal, doorlicht jaarlijks risk register; HR-beleid eist deontologie-training bij indiensttreding; bonusstructuur weegt 60% omzet, 40% kwaliteit + procesnaleving.

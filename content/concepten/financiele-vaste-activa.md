@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiele-vaste-activa.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Financiële vaste activa ⚖️
 
@@ -25,6 +25,7 @@ Onderscheid tussen financiële vaste activa (duurzaam oogmerk, rubriek 28) en ge
 **Vorderingen en deelnemingen** die de onderneming aanhoudt **om duurzaam de bedrijfsuitoefening** van een andere onderneming **te ondersteunen** of om er duurzame band mee te onderhouden. Het MAR groepeert ze onder rubriek 28: (280) Deelnemingen in verbonden ondernemingen, (281) Vorderingen op verbonden ondernemingen, (282) Deelnemingen in ondernemingen waarmee een deelnemingsverhouding bestaat, (283) Vorderingen op die ondernemingen, (284) Andere aandelen, (285/8) Andere vorderingen. Waardering aan **aanschaffingsprijs** (niet aan marktwaarde); afwaardering bij duurzame minderwaarde of ontwaarding.
 
 _Bron: CBN 2017/11 + CBN 147/1_
+
 
 
 ## Bouwstenen

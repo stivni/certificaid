@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/omstandige-staat-vereffening.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Omstandige staat van de vereffening ⚖️
 
@@ -31,6 +31,7 @@ De **omstandige staat** is een tussentijds verslag dat de vereffenaar in de **7e
 _Bron: WVV art. 2:86_
 
 
+
 ## In de praktijk
 
 <h3 id="verschil-eerste-vs-latere-jaren">Verschil eerste vs latere jaren</h3>
@@ -39,6 +40,9 @@ _Bron: WVV art. 2:86_
 > **Eerste jaar** (maanden 7 en 13): tweemaal een omstandige staat per halfjaar bij de griffie. **Tweede jaar en volgende**: één jaarrekening per boekjaar, opgesteld volgens KB WVV (voor BV/CV/NV met discontinuïteitswaardering) en goedgekeurd door de AV. ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[begeleiden-vereffening-vennootschap]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

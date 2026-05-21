@@ -15,11 +15,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/boeken-resultaatverwerking-en-bestemming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Boeken van resultaatverwerking en bestemming (reserves, dividenden, belasting) 🤖
+# Boeken van resultaatverwerking en bestemming (reserves, dividenden, belasting) 🔗
 
 Vertaalt de eindjaars-beslissing van de algemene vergadering (welk deel naar reserves, welk deel als dividend, welk deel overgedragen) in boekingen. Voor een stagiair-GA: het is de competentie die ervoor zorgt dat het eigen vermogen op de openingsbalans van het volgend boekjaar correct is — en daarmee dat de wettelijke reserve-verplichting en de uitkeerbaarheidstoets bewaakt blijven.
+
 
 
 ## Stappen

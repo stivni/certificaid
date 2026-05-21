@@ -17,7 +17,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/met-governance-belaste-personen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Met governance belaste personen ⚖️
 
@@ -29,6 +29,7 @@ Met governance belaste personen zijn de personen of organen die toezien op de st
 De met governance belaste personen zijn de persoon (personen) of organisatie(s) — bv. de bestuurders van een vennootschap — die verantwoordelijk zijn voor het uitoefenen van toezicht op de strategische aansturing van de onderneming en op haar verantwoordingsverplichtingen. Hun verantwoordelijkheid omvat het toezicht op het proces van financiële verslaggeving.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1_
+
 
 
 ## In de praktijk
@@ -47,7 +48,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[]]
-
+- **Wordt voorondersteld in** (1): [[kennis-van-onderneming-omgeving]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV: de bestuurders Marleen De Cock, Pieter Vermeulen en Robert Vandenberghe samen vormen 'de met governance belaste personen'. Bij Meubelzaak Mertens BV (eenpersoons-BV): de zaakvoerder is tegelijk eigenaar-bestuurder.

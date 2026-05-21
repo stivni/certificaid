@@ -17,9 +17,10 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/verwerken-leasing-ifrs-lessee.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Verwerken van een leaseovereenkomst onder IFRS 16 als lessee (right-of-use + lease-verplichting) 🤖
+# Verwerken van een leaseovereenkomst onder IFRS 16 als lessee (right-of-use + lease-verplichting) 🔗
+
 
 
 ## Stappen

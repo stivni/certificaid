@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/letter-of-intent-overname.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Letter of intent / term sheet (overname) 🤖
+# Letter of intent / term sheet (overname) 🔗
 
 De letter of intent (LOI) is het document waarin koper en verkoper de essentiële parameters van een overname vastleggen vóór de due diligence en de uitonderhandelde overnameovereenkomst. Belangrijk in de Belgische context: het Belgisch recht beoordeelt de bindende kracht naar de inhoud (consensus over essentialia) en niet naar de benaming of disclaimers.
 
@@ -26,6 +26,7 @@ De letter of intent (LOI) is het document waarin koper en verkoper de essentiël
 > [!info] Behoort tot: [[overnameovereenkomst]]
 
 Een letter of intent is een schriftelijke voor-overeenkomst tussen koper en verkoper waarin de hoofdlijnen van een beoogde overname worden vastgelegd (object, indicatieve prijs, structuur, tijdspad, exclusiviteit, vertrouwelijkheid). Hij kan geheel of gedeeltelijk bindend zijn — dit hangt af van de inhoud en niet van de naam van het document.
+
 
 
 ## In de praktijk
@@ -41,15 +42,15 @@ Een letter of intent is een schriftelijke voor-overeenkomst tussen koper en verk
 ## Valkuilen
 
 > [!warning]- Voorzie expliciet welke clausules bindend zijn en welke niet — en houd de niet-bindende elementen vaag (prijsvork in plaats van vaste prijs).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Hou rekening met de pre-contractuele zorgvuldigheidsplicht: onverantwoorde afbreking na vergevorderde onderhandelingen kan tot schadevergoeding leiden.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Beperk exclusiviteit in tijd én gebied, anders is de clausule moeilijk afdwingbaar.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -58,7 +59,7 @@ Een letter of intent is een schriftelijke voor-overeenkomst tussen koper en verk
 - **Vereist kennis van**: [[confidentiality-overname]]
 - **Vereist kennis van**: [[due-diligence-overname]]
 - **Vereist kennis van**: [[precontractuele-aansprakelijkheid-overname]]
-
+- **Wordt voorondersteld in** (3): [[confidentiality-overname]] · [[overnameovereenkomst]] · [[precontractuele-aansprakelijkheid-overname]]
 ## Voorbeelden
 
 Aurelia Holding NV en Pieter Vermeulen ondertekenen een LOI over de overname van Brugse Brouwerij BV: indicatieve prijs € 4–5 mln onder voorbehoud van due diligence, exclusiviteit van 12 weken (bindend), vertrouwelijkheid 2 jaar (bindend), beoogde signing-datum binnen 16 weken (niet-bindend).

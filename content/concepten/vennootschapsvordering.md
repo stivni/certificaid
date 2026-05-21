@@ -13,9 +13,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vennootschapsvordering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Vennootschapsvordering 🤖
+# Vennootschapsvordering 🔗
 
 De vennootschapsvordering is de **klassieke aansprakelijkheidsactie** waarover de algemene vergadering zelf beslist. Zij staat tegenover de minderheidsvordering: bij de vennootschapsvordering is het de meerderheid die de bestuurder aanspreekt namens de vennootschap; bij de minderheidsvordering doet de minderheid dat in haar plaats omdat de meerderheid kwijting verleende.
 
@@ -25,6 +25,7 @@ De vennootschapsvordering is de **klassieke aansprakelijkheidsactie** waarover d
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 Een vennootschapsvordering is een aansprakelijkheidsvordering die de **algemene vergadering** beslist in te stellen tegen leden van het bestuursorgaan, leden van de raad van toezicht, vereffenaars of commissarissen wegens een fout begaan bij de uitoefening van hun functie. De algemene vergadering kan één of meer **lasthebbers** aanstellen om de vordering te voeren. In het **duaal bestuur** (NV) beslist de raad van toezicht over de vordering tegen leden van de directieraad.
+
 
 
 ## In de praktijk
@@ -41,11 +42,11 @@ Een vennootschapsvordering is een aansprakelijkheidsvordering die de **algemene 
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -56,5 +57,5 @@ Een vennootschapsvordering is een aansprakelijkheidsvordering die de **algemene 
 
 ## Voorbeelden
 
-Na een overname van Brugse Brouwerij BV blijkt dat de vorige bestuurder ongedekte voorschotten van € 350.000 aan zichzelf had toegekend. De nieuwe meerderheid laat de algemene vergadering een vennootschapsvordering instellen en stelt een gespecialiseerde advocaat aan als lasthebber. 🤖
+Na een overname van Brugse Brouwerij BV blijkt dat de vorige bestuurder ongedekte voorschotten van € 350.000 aan zichzelf had toegekend. De nieuwe meerderheid laat de algemene vergadering een vennootschapsvordering instellen en stelt een gespecialiseerde advocaat aan als lasthebber. 🔗
 

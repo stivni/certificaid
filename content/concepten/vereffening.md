@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereffening.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vereffening van een vennootschap ⚖️
 
@@ -30,12 +30,13 @@ Het **wettelijk geregelde proces** waarbij een vennootschap haar bedrijfsactivit
 _Bron: WVV boek 2, titel 8 — vereffening_
 
 
+
 ## In de praktijk
 
 <h3 id="belastbaarheid-liquidatiebonus">Belastbaarheid liquidatiebonus</h3>
 
 > [!tip]- Belastbaarheid liquidatiebonus
-> De liquidatiebonus (= ontvangen bedrag − fiscaal gestort kapitaal) wordt fiscaal behandeld als dividend → 30 % roerende voorheffing voor natuurlijke personen (verlaagd 15 % bij VVPR-bis-statuut). Belangrijk fiscaal aspect bij ontbinding. 🤖
+> De liquidatiebonus (= ontvangen bedrag − fiscaal gestort kapitaal) wordt fiscaal behandeld als dividend → 30 % roerende voorheffing voor natuurlijke personen (verlaagd 15 % bij VVPR-bis-statuut). Belangrijk fiscaal aspect bij ontbinding. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen: 'aandeelhouder krijgt € 80.000 bij vereffening; oorspronkelijk € 50.000 ingebracht' → liquidatiebonus € 30.000 belast als dividend.
@@ -146,7 +147,7 @@ Na betaling van alle schulden + sluitingskosten: het resterende eigen vermogen (
 - **Vereist kennis van**: [[voorzieningen]]
 - **Vereist kennis van**: [[vereffeningsprocedure-klassiek]]
 - **Vereist kennis van**: [[vereffenaar]]
-
+- **Wordt voorondersteld in** (2): [[ontbinding-vennootschap]] · [[vereffeningsprocedure-klassiek]]- **Triggert** (1): [[continuiteitsbeginsel]]
 ## Voorbeelden
 
 Verffabriek Veurne BV (kapitaal € 100.000, beschikbare reserves € 25.000, overgedragen verlies € −18.000 → netto-actief € 107.000) wordt op 15 oktober ontbonden. Vereffenaar Pieter Vermeulen aangesteld. Liquidatie: machines verkocht € 38.000 (boekwaarde € 62.000 → minderwaarde € 24.000), voorraad € 18.500 (boekwaarde € 24.000), klanten geïnd € 42.000, leveranciers betaald € 35.000, vereffeningskosten € 12.000. Liquidatiebonus = aan aandeelhouders te verdelen overschot na alle aflossingen.

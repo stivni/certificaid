@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rechten-verplichtingen-buiten-balans.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Rechten en verplichtingen buiten balans ⚖️
 
@@ -25,9 +25,12 @@ Een aanvulling op de balans-paragrafen: rechten en verplichtingen die op balansd
 
 > [!info] Behoort tot: [[regelmatige-boekhouding]]
 
+> [!info] Specialisaties (2): [[klasse-0-niet-in-balans]] · [[niet-in-balans-opgenomen-rechten-verplichtingen]]
+
 **Rechten en verplichtingen** die op balansdatum bestaan maar GEEN actief- of passiefbestanddeel vormen in de zin van het KB WVV (geen vermogensbestanddeel met onmiddellijke balansimpact). Bv. zekerheden gesteld door of voor derden, persoonlijke borgstellingen, ontvangen of gegeven garanties, termijnovereenkomsten, lopende rechtsgedingen waarvan de uitkomst nog onzeker is, optieovereenkomsten. **MAR klasse 0** voorziet aparte rekeningen; ze verschijnen niet in de balans maar moeten WEL in de toelichting worden vermeld voor de volledigheid van de jaarrekening.
 
 _Bron: MAR klasse 0; KB WVV_
+
 
 
 ## Bouwstenen
@@ -68,7 +71,7 @@ Aurelia Holding NV borgstelling € 850.000: Debet 010 Persoonlijke zekerheden v
 
 _Grondslag: MAR klasse 0_
 
-### Migratie naar balans bij realisatie 🤖
+### Migratie naar balans bij realisatie 🔗
 
 Wanneer een recht/verplichting concretiseert (borgsteller wordt aangesproken, optie wordt uitgeoefend, geschil leidt tot vonnis), wordt het bedrag uit klasse 0 verwijderd en als een echte boeking op de balans of in RR opgenomen.
 
@@ -107,7 +110,7 @@ _Grondslag: MAR + algemene boekhoudkundige verwerking_
 
 
 > [!warning]- Onderscheid met voorzieningen (klasse 16): voorziening = waarschijnlijke verplichting die de balans WEL raakt; klasse 0 = recht/verplichting…
-> ⚠️ Onderscheid met voorzieningen (klasse 16): voorziening = waarschijnlijke verplichting die de balans WEL raakt; klasse 0 = recht/verplichting die de balans (nog) NIET raakt. Bij stijgende waarschijnlijkheid kantelt klasse 0 → voorziening. 🤖
+> ⚠️ Onderscheid met voorzieningen (klasse 16): voorziening = waarschijnlijke verplichting die de balans WEL raakt; klasse 0 = recht/verplichting die de balans (nog) NIET raakt. Bij stijgende waarschijnlijkheid kantelt klasse 0 → voorziening. 🔗
 >
 > _Bron: CBN 0003/02 + CBN 2018/25_
 

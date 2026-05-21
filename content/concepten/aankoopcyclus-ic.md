@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/aankoopcyclus-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Aankoopcyclus en interne controle 🤖
+# Aankoopcyclus en interne controle 🔗
 
 De aankoopcyclus is de keten die loopt van behoefte tot betaling van een leverancier. Interne controle in deze cyclus richt zich op het voorkomen van ongeoorloofde aankopen, fictieve leveranciers en dubbele betalingen. Drempelautorisaties, functiescheiding en de three-way match (bestelbon ↔ leveringsbon ↔ factuur) vormen de ruggengraat. Stagiairs komen dit tegen bij walkthroughs van procurement-processen en bij KMO-controle-opdrachten waar de aankoopstroom een hoog frauderisico draagt.
 
@@ -26,6 +26,7 @@ De aankoopcyclus is de keten die loopt van behoefte tot betaling van een leveran
 > [!info] Behoort tot: [[cyclus-analyse-ic]]
 
 Interne controle in de aankoopcyclus is het geheel van organisatorische en geautomatiseerde maatregelen die de stadia behoefte → bestelling → ontvangst → factuur → betaling beheersen, met als doel ongeautoriseerde of fictieve aankopen, dubbele betalingen en kickbacks te voorkomen of te detecteren.
+
 
 
 ## Bouwstenen
@@ -237,7 +238,7 @@ flowchart LR
   M -->|leveringsbon ontbreekt| BLOK[Geblokkeerd voor betaling]
 ```
 
-🤖
+🔗
 
 
 

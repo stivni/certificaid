@@ -18,11 +18,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toepassen-professional-skepticism-en-deontologie-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toepassen van professional skepticism en deontologische normen tijdens de audit 🤖
+# Toepassen van professional skepticism en deontologische normen tijdens de audit 🔗
 
 Deze competentie omspant de doorlopende attitude-componenten van een externe controle-opdracht: onafhankelijkheid bewaken, belangenconflicten beheersen, beroepsgeheim respecteren met begrip van de wettelijke uitzonderingen, en professioneel-kritische instelling toepassen in concrete oordeelsvorming. Wettelijk verankerd in Wet ITAA 2019 art. 14 + KB 1998 plichtenleer + ITAA-normen + art. 458 Strafwetboek; de invulling van waarborgmaatregelen en challenge-procedures is praktijkbeleid + persoonlijke oordeelsvorming.
+
 
 
 ## Stappen

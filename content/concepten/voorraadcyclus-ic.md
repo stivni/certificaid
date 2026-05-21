@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/voorraadcyclus-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Voorraadcyclus en interne controle 🤖
+# Voorraadcyclus en interne controle 🔗
 
 Voorraadbeheer combineert administratieve controles (perpetuele registraties, bin cards) met fysieke controles (afgesloten magazijnen, toegangsbeheer, tellingen). Verschillen tussen administratieve en fysieke voorraad triggeren onderzoek en boekingen. Stagiairs komen dit tegen bij bijwoning van jaareinde-inventarisaties (ISA 501) en bij audits met hoog fysiek-risicoprofiel.
 
@@ -26,6 +26,7 @@ Voorraadbeheer combineert administratieve controles (perpetuele registraties, bi
 > [!info] Behoort tot: [[cyclus-analyse-ic]]
 
 Interne controle in de voorraadcyclus is het geheel van fysieke en administratieve maatregelen die de stadia ingang, bewaring, uitgang en telling beheersen, met als doel diefstal, verkeerde waardering en telmiss te voorkomen of te detecteren.
+
 
 
 ## Bouwstenen
@@ -153,7 +154,7 @@ Cycle counts maandelijks; volledige inventaris jaarlijks; telling door iemand an
 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Vereist kennis van**: [[productiecyclus-ic]]
-
+- **Wordt voorondersteld in** (1): [[productiecyclus-ic]]
 ## Voorbeelden
 
 ### Voorraadtelling met onafhankelijke teller bij Verffabriek Veurne BV
@@ -176,7 +177,7 @@ Verffabriek Veurne BV is in vereffening en moet op 31/12 een formele voorraadopn
 | 6420 — Andere bedrijfskosten _(Ongeboekt verlies — aangifte)_ | 6110 |  |
 | 33 — Voorraad gereed product |  | 15510 |
 
-🤖
+🔗
 
 
 

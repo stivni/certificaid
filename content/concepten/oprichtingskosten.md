@@ -17,7 +17,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/oprichtingskosten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Oprichtingskosten ⚖️
 
@@ -29,6 +29,7 @@ Oprichtingskosten zijn de kosten van **oprichting, kapitaalverhoging of herstruc
 Kosten verbonden met de **oprichting, verdere ontwikkeling of herstructurering** van een vennootschap, in het bijzonder: (a) kosten van oprichting of kapitaalverhoging (notariskosten, registratierechten, advies), (b) kosten bij uitgifte van leningen (bankkosten, noteringskosten, publicatiekosten bij obligatieleningen), (c) herstructureringskosten met duurzame impact op rentabiliteit. De onderneming kan **kiezen** ze als kost te boeken in het jaar zelf, OF ze te activeren onder rubriek 20 'Oprichtingskosten' aan de actiefzijde van de balans en af te schrijven over **minstens 5 jaar** (jaarlijkse tranche ≥ 20 %; KB WVV art. 3:36 + 3:37).
 
 _Bron: KB WVV art. 3:36 jo. art. 3:37_
+
 
 
 ## Bouwstenen
@@ -232,7 +233,7 @@ Resultaat: Op de balans staat in jaar 1 onder rubriek 20: aanschaffingswaarde �
 ## Zie ook
 
 - **Getriggerd door**: [[obligatielening]]
-
+- **Triggert** (1): [[obligatielening]]
 ## Voorbeelden
 
 Oprichtingen Oostende BV wordt opgericht met notariskosten € 3.200, advieskosten € 1.800, registratierechten € 600 → totaal € 5.600 oprichtingskosten. De BV kiest om te activeren op rekening 200 'Kosten van oprichting en kapitaalverhoging' aan de actiefzijde. Afschrijvingsplan: 20 % per jaar = € 1.120/jaar gedurende 5 jaar. Eerste jaar: Debet 6300 Afschrijvingen oprichtingskosten € 1.120 / Credit 2009 Afschrijvingen op oprichtingskosten € 1.120.

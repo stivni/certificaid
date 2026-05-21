@@ -15,13 +15,14 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/componentenbenadering.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Componentenbenadering — afschrijving per onderdeel 🤖
+# Componentenbenadering — afschrijving per onderdeel 🔗
 
 De componentenbenadering (IAS 16 alinea 43-47) verplicht een entiteit om elk **bestanddeel** (component) van een materieel vast actief met een **substantiële kostprijs** in verhouding tot de totale kostprijs van het actief **afzonderlijk af te schrijven** wanneer dat bestanddeel een andere gebruiksduur of een ander verbruikspatroon heeft dan de rest van het actief. Componenten met dezelfde gebruiksduur én methode mogen gegroepeerd worden. Overige bestanddelen (zonder substantieel deel in de kostprijs) mogen samen worden afgeschreven volgens een 'rest'-categorie, met benaderingstechnieken indien nodig.
 
 > [!info] Behoort tot: [[materiele-vaste-activa-ifrs]]
+
 
 
 ## Bouwstenen

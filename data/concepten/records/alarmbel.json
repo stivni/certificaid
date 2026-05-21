@@ -1,0 +1,689 @@
+{
+  "id": "alarmbel",
+  "schema_version": "2.0",
+  "kind": "procedure",
+  "naam": "Alarmbelprocedure",
+  "naam_alternatief": "procédure de la sonnette d'alarme",
+  "primary_po": "3.0",
+  "linked_anchors": [
+    "3.0.IV.D"
+  ],
+  "status": "draft",
+  "definitie": {
+    "text": "De alarmbelprocedure is een dwingend wettelijk mechanisme dat het bestuursorgaan verplicht de algemene vergadering bijeen te roepen zodra het vermogen of de liquiditeit van de vennootschap onder een wettelijke drempel zakt, op straffe van omgekeerde bewijslast bij bestuurdersaansprakelijkheid.",
+    "source": "WVV art. 5:153 (BV/CV) / art. 7:228 (NV)",
+    "confidence": "grounded"
+  },
+  "economische_substantie": {
+    "text": "Een vennootschap die fors verlies maakt of waarvan de kasstroom opdroegt, hoeft niet onmiddellijk failliet te zijn — maar haar aandeelhouders en schuldeisers moeten weten wat er gaande is en de kans krijgen in te grijpen. De alarmbel dwingt het bestuur om de situatie openbaar te maken binnen een strikte termijn en de aandeelhouders een beslissing voor te leggen: verdergaan met herstelplan, ontbinden, of fuseren. Niet-naleving keert de bewijslast om: de bestuurder moet bewijzen dat de schade aan derden niet het gevolg is van zijn nalatigheid.",
+    "confidence": "inferred"
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      "nettoactieftest",
+      "liquiditeitstest-bv",
+      "continuiteitsbeginsel"
+    ],
+    "kader": "vennootschapsrechtelijk-kader-wvv",
+    "naast_relevant": [
+      "ontbinding-en-vereffening",
+      "gerechtelijke-reorganisatie"
+    ],
+    "volgkennis": [
+      "aansprakelijkheid-oprichters-bestuurders"
+    ]
+  },
+  "wanneer_getriggerd": {
+    "inhoud_type": "drempel",
+    "beschrijving": "De alarmbelprocedure start op het moment dat het bestuursorgaan vaststelt — of krachtens wet of statuten had moeten vaststellen — dat één van de drempels is overschreden. De drempels verschillen naargelang de rechtsvorm.",
+    "confidence": "grounded",
+    "source": "WVV art. 5:153 §1-§2 (BV/CV); art. 7:228 §1-§2 (NV)",
+    "weergaven": [
+      {
+        "type": "vergelijkingstabel",
+        "tabel": {
+          "kolommen": [
+            "Criterium",
+            "BV / CV (kapitaalloos)",
+            "NV (kapitaalhoudend)"
+          ],
+          "rijen": [
+            [
+              "Trigger 1 — solvabiliteit",
+              "Netto-actief negatief of dreigt negatief te worden",
+              "Netto-actief gedaald tot < helft geplaatst kapitaal (verlies-oorzaak vereist)"
+            ],
+            [
+              "Trigger 2 — liquiditeit",
+              "Vennootschap kan schulden komende 12 maanden niet voldoen (liquiditeitstest art. 5:143)",
+              "Niet van toepassing (NV kent geen zelfstandige liquiditeits-trigger)"
+            ],
+            [
+              "Tweede drempel",
+              "—",
+              "Netto-actief < kwart kapitaal: minderheid van 25 % kan zelf ontbinding stemmen"
+            ],
+            [
+              "Minimumkapitaal-grens",
+              "Niet van toepassing",
+              "Netto-actief < € 61.500: iedere belanghebbende kan gerechtelijke ontbinding vorderen (art. 7:229)"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "hoe_het_werkt": {
+    "onderdelen": [
+      {
+        "element_id": "triggervastlegging",
+        "inhoud_type": "stap",
+        "titel": "Stap 1 — Vaststelling door het bestuursorgaan",
+        "beschrijving": "Het bestuursorgaan stelt vast — of had krachtens wettelijke of statutaire bepalingen moeten vaststellen — dat een drempel is overschreden. De wet koppelt de verplichting aan het moment van vaststelling of het moment waarop vastgesteld had moeten worden (objectieve lat: het bestuur kan de ogen niet sluiten).",
+        "confidence": "grounded",
+        "source": "WVV art. 5:153 §1; art. 7:228 §1; MvT WVV art. 312",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Detecitie kan voortvloeien uit: (a) opmaken van de jaarrekening; (b) tussentijdse staat van actief en passief; (c) halfjaarlijkse staat aan de commissaris; (d) driemaandelijkse staat aan de ondernemingsraad; (e) elk ander moment waarop de wet of statuten een financieel overzicht vereisen. Los van de alarmbeldrempels geldt ook de continue continuïteitsplicht: zodra gewichtige en overeenstemmende feiten de continuïteit kunnen bedreigen, moet het bestuur beraadslagen (WVV art. 2:52)."
+          }
+        ]
+      },
+      {
+        "element_id": "bijeenroeping-av",
+        "inhoud_type": "stap",
+        "titel": "Stap 2 — Bijeenroeping algemene vergadering binnen twee maanden",
+        "beschrijving": "Het bestuursorgaan roept de algemene vergadering bijeen binnen een termijn van ten hoogste twee maanden na de vaststelling. De agenda vermeldt expliciet het bijzonder verslag en de voorgestelde maatregelen.",
+        "confidence": "grounded",
+        "source": "WVV art. 5:153 §1 / art. 7:228 §3",
+        "weergaven": [
+          {
+            "type": "tijdslijn",
+            "stappen": [
+              {
+                "moment": "T₀",
+                "beschrijving": "Vaststelling drempeloverschrijding"
+              },
+              {
+                "moment": "T₀ + 2 maanden max.",
+                "beschrijving": "AV bijeengeroepen (uiterste termijn)"
+              },
+              {
+                "moment": "AV-datum",
+                "beschrijving": "Beraadslaging + beslissing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "element_id": "bijzonder-verslag",
+        "inhoud_type": "stap",
+        "titel": "Stap 3 — Bijzonder bestuursverslag",
+        "beschrijving": "Tenzij het bestuursorgaan de ontbinding van de vennootschap voorstelt (art. 5:135 / art. 7:228 §3), stelt het een bijzonder verslag op met de maatregelen die het voorstelt om de continuïteit te vrijwaren. Ontbinding is één van de opties, niet de enige. Het verslag wordt bij de agenda gevoegd en verzonden aan de aandeelhouders. Ontbreekt het verslag, dan zijn de besluiten van de AV nietig.",
+        "confidence": "grounded",
+        "source": "WVV art. 5:153 §3 / art. 7:228 §3",
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Analyse van de oorzaken van de vermogensdaling of liquiditeitsklem",
+              "Voorstel van herstelmaatregelen (bv. kapitaalverhoging, herstructurering, aandeelhouderslening, verkoop niet-strategische activa, gerechtelijke reorganisatie, vrijwillige ontbinding)",
+              "Onderbouwing waarom de voorgestelde maatregel de continuïteit herstelt",
+              "Opname van het verslag in de agenda; kopie verzonden overeenkomstig art. 5:63 / 7:132"
+            ]
+          }
+        ]
+      },
+      {
+        "element_id": "av-beslissing",
+        "inhoud_type": "stap",
+        "titel": "Stap 4 — Beraadslaging en beslissing door de AV",
+        "beschrijving": "De algemene vergadering beraadslaagt en beslist over de voorgestelde maatregelen. De meerderheid voor de beslissing hangt af van de gekozen maatregel: een gewone maatregel vereist een gewone meerderheid, een statutenwijziging (bv. kapitaalverhoging) vereist een bijzondere meerderheid, ontbinding vereist een gekwalificeerde meerderheid.",
+        "confidence": "grounded",
+        "source": "WVV art. 5:153 §1 / art. 7:228 §3; MvT WVV art. 312",
+        "weergaven": [
+          {
+            "type": "beslisboom",
+            "knooppunten": [
+              {
+                "vraag": "Welke maatregel wordt voorgesteld?",
+                "takken": [
+                  {
+                    "antwoord": "Ontbinding",
+                    "uitkomst": "Beslissing met bijzondere meerderheid (2/3 aanwezig/vertegenwoordigd bij NV/BV voor ontbinding)"
+                  },
+                  {
+                    "antwoord": "Statutenwijziging (bv. kapitaalverhoging)",
+                    "uitkomst": "Twee derde meerderheid aanwezig/vertegenwoordigd"
+                  },
+                  {
+                    "antwoord": "Andere maatregel (bv. aandeelhouderslening)",
+                    "uitkomst": "Gewone meerderheid"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "element_id": "cooldown",
+        "inhoud_type": "regel",
+        "titel": "Cooldown van één jaar",
+        "beschrijving": "Na naleving van de procedure is het bestuursorgaan pas ten vroegste één jaar later opnieuw verplicht de AV bijeen te roepen voor dezelfde reden. Als de toestand intussen verder verslechtert tot een tweede drempel (bv. netto-actief onder een kwart van het kapitaal bij de NV), herstart de cyclus onmiddellijk.",
+        "confidence": "grounded",
+        "source": "WVV art. 5:153 §3 lid 2 / art. 7:228 §3",
+        "weergaven": [
+          {
+            "type": "proza"
+          }
+        ]
+      },
+      {
+        "element_id": "sanctie-bewijslast",
+        "inhoud_type": "risico",
+        "titel": "Sanctie — omgekeerde bewijslast",
+        "beschrijving": "Wordt de AV niet conform de wet bijeengeroepen of het bijzonder verslag niet opgesteld, dan wordt vermoed dat alle schade die derden lijden het gevolg is van het uitblijven van de procedure. Dit vermoeden is weerlegbaar (het bestuur kan bewijzen dat de schade niet aan het verzuim te wijten is), maar de bewijslast keert om. Het vermoeden geldt voor schade aan derden, niet automatisch voor interne schadeclaims.",
+        "confidence": "grounded",
+        "source": "WVV art. 5:153 §4 / art. 7:228 §5; IBA Minority Shareholder Rights Belgium 2022 §Niet-naleving",
+        "weergaven": [
+          {
+            "type": "proza"
+          }
+        ]
+      }
+    ]
+  },
+  "rol_van_de_accountant": [
+    {
+      "perspectief": "BV-bestuur",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "element_id": "bv-adviseur-signalering",
+              "inhoud_type": "procedure",
+              "titel": "Proactief signaleren en drempel-monitoring",
+              "beschrijving": "De accountant bewaakt bij het opmaken van de (ontwerp)jaarrekening of tussentijdse staat of één van de twee BV-triggers dreigt te worden bereikt: (a) netto-actief negatief of bijna negatief; (b) liquiditeitstest 12 maanden negatief. Bij naderende drempel informeert hij het bestuur ruim vóór de formele vaststellingstermijn zodat de twee-maands-klok niet onnodig snel begint te lopen.",
+              "confidence": "vuistregel",
+              "weergaven": [
+                {
+                  "type": "proza"
+                }
+              ]
+            },
+            {
+              "element_id": "bv-adviseur-herstelplan",
+              "inhoud_type": "keuze",
+              "titel": "Ondersteuning bij scenario-analyse herstelplan",
+              "beschrijving": "De accountant helpt het bestuur bij het opstellen van het bijzonder verslag: hij becijfert de haalbaarheid van elk herstelscenario (aandeelhouderslening, activa-verkoop, gerechtelijke reorganisatie) en kwantificeert de impact op het netto-actief en de 12-maands-liquiditeitsprojectie.",
+              "confidence": "vuistregel",
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "tabel": {
+                    "kolommen": [
+                      "Scenario",
+                      "Impact netto-actief",
+                      "Impact liquiditeit 12M",
+                      "Complexiteit"
+                    ],
+                    "rijen": [
+                      [
+                        "Aandeelhouderslening",
+                        "Geen directe impact (schuld stijgt)",
+                        "Positief (cash instroomt)",
+                        "Laag"
+                      ],
+                      [
+                        "Kapitaalverhoging",
+                        "Positief (EV stijgt)",
+                        "Positief",
+                        "Middel (AV, notaris)"
+                      ],
+                      [
+                        "Verkoop niet-strategische activa",
+                        "Mogelijk positief",
+                        "Positief",
+                        "Hoog (taxatie, timing)"
+                      ],
+                      [
+                        "Gerechtelijke reorganisatie",
+                        "Neutraal kort-termijn",
+                        "Ademruimte via WCO-moratorium",
+                        "Hoog (rechtbank)"
+                      ],
+                      [
+                        "Vrijwillige ontbinding",
+                        "N.v.t.",
+                        "N.v.t.",
+                        "Hoog (vereffening)"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "element_id": "bv-boekhouder-nettoactief",
+              "inhoud_type": "berekening",
+              "titel": "Berekening netto-actief voor drempel-toets BV",
+              "beschrijving": "Netto-actief = totaal activa − voorzieningen − schulden. Bij de BV wordt het getal vergeleken met nul (negatief = trigger). Oprichtings- en O&O-kosten worden in beginsel in aftrek gebracht tenzij uitzonderingsclausule in toelichting gemotiveerd is.",
+              "confidence": "grounded",
+              "source": "WVV art. 5:153 §1 jo. art. 5:142; MvT WVV art. 5:133",
+              "weergaven": [
+                {
+                  "type": "formule-expressie",
+                  "expressie": "Netto-actief = Σ activa − Σ voorzieningen − Σ schulden"
+                },
+                {
+                  "type": "balans-snapshot",
+                  "moment": "Referentiedatum drempel-toets BV",
+                  "actief": [
+                    {
+                      "label": "Totale activa",
+                      "bedrag": "X"
+                    }
+                  ],
+                  "passief": [
+                    {
+                      "label": "Voorzieningen",
+                      "bedrag": "−P"
+                    },
+                    {
+                      "label": "Schulden",
+                      "bedrag": "−S"
+                    },
+                    {
+                      "label": "Eigen vermogen (netto-actief)",
+                      "bedrag": "X − P − S"
+                    }
+                  ],
+                  "trigger": "Netto-actief < 0 → alarmbel BV solvabiliteitstest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perspectief": "NV-bestuur",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "element_id": "nv-adviseur-signalering",
+              "inhoud_type": "procedure",
+              "titel": "Monitoring netto-actief versus kapitaal (NV)",
+              "beschrijving": "Bij de NV vergelijkt de accountant het netto-actief met de helft en het kwart van het geplaatst kapitaal. Belangrijk: bij de NV is een 'geleden verlies' vereist als oorzaak — een daling door uitkering triggert de alarmbel niet (dat is de nettoactieftest). Hij bewaakt ook de € 61.500-grens voor gerechtelijke ontbinding.",
+              "confidence": "grounded",
+              "source": "WVV art. 7:228 §1; CBN-advies 2021/14 §Kapitaalhoudende vennootschappen",
+              "weergaven": [
+                {
+                  "type": "beslisboom",
+                  "knooppunten": [
+                    {
+                      "vraag": "Is de daling veroorzaakt door geleden verlies?",
+                      "takken": [
+                        {
+                          "antwoord": "Nee (bv. door uitkering)",
+                          "uitkomst": "Geen alarmbel NV — beoordeel nettoactieftest"
+                        },
+                        {
+                          "antwoord": "Ja",
+                          "uitkomst": "Vergelijk netto-actief met ½ kapitaal en ¼ kapitaal"
+                        }
+                      ]
+                    },
+                    {
+                      "vraag": "Netto-actief < ½ kapitaal?",
+                      "takken": [
+                        {
+                          "antwoord": "Nee",
+                          "uitkomst": "Geen alarmbel"
+                        },
+                        {
+                          "antwoord": "Ja",
+                          "uitkomst": "Alarmbel: AV bijeenroepen binnen 2 maanden"
+                        }
+                      ]
+                    },
+                    {
+                      "vraag": "Netto-actief < ¼ kapitaal?",
+                      "takken": [
+                        {
+                          "antwoord": "Nee",
+                          "uitkomst": "Normale alarmbel-procedure"
+                        },
+                        {
+                          "antwoord": "Ja",
+                          "uitkomst": "Verhoogd risico: 25%-minderheid kan zelf ontbinding stemmen"
+                        }
+                      ]
+                    },
+                    {
+                      "vraag": "Netto-actief < € 61.500?",
+                      "takken": [
+                        {
+                          "antwoord": "Ja",
+                          "uitkomst": "Gerechtelijke ontbinding mogelijk op verzoek belanghebbende (art. 7:229)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "element_id": "nv-boekhouder-nettoactief",
+              "inhoud_type": "berekening",
+              "titel": "Berekening netto-actief voor drempel-toets NV",
+              "beschrijving": "Netto-actief NV = totaal activa − voorzieningen − schulden (en in beginsel ook de niet-afgeschreven oprichtings- en O&O-kosten in aftrek). Vergelijking: met ½ geplaatst kapitaal (eerste drempel) en ¼ geplaatst kapitaal (tweede drempel). Geplaatst kapitaal = passiefpost I.A.1 uit de jaarrekening.",
+              "confidence": "grounded",
+              "source": "WVV art. 7:228 §1; WVV art. 7:212 (definitie netto-actief NV)",
+              "weergaven": [
+                {
+                  "type": "berekening",
+                  "tabel": {
+                    "kolommen": [
+                      "Post",
+                      "Bedrag"
+                    ],
+                    "rijen": [
+                      [
+                        "Totale activa",
+                        "A"
+                      ],
+                      [
+                        "Af: voorzieningen",
+                        "−P"
+                      ],
+                      [
+                        "Af: schulden",
+                        "−S"
+                      ],
+                      [
+                        "Af: niet-afgeschreven oprichtingskosten (behoudens uitzondering)",
+                        "−K"
+                      ],
+                      [
+                        "= Netto-actief",
+                        "A − P − S − K"
+                      ],
+                      [
+                        "½ × geplaatst kapitaal (eerste drempel)",
+                        "½ C"
+                      ],
+                      [
+                        "¼ × geplaatst kapitaal (tweede drempel)",
+                        "¼ C"
+                      ],
+                      [
+                        "Trigger 1: netto-actief < ½ C",
+                        "→ alarmbel"
+                      ],
+                      [
+                        "Trigger 2: netto-actief < ¼ C",
+                        "→ minderheidsontbinding mogelijk"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perspectief": "vennootschap-met-commissaris",
+      "rollen": [
+        {
+          "rol": "externe auditor",
+          "elementen": [
+            {
+              "element_id": "commissaris-continuiteit",
+              "inhoud_type": "procedure",
+              "titel": "Commissaris-verslag en continuïteitsplicht",
+              "beschrijving": "De commissaris controleert de staat van activa en passiva die het bestuur als referentiedocument gebruikt voor de alarmbeldrempel-toets (WVV art. 5:142 lid 2 — bij BV/CV). Zijn jaarverslag moet aandacht besteden aan feiten die de continuïteit ernstig in gevaar kunnen brengen (WVV art. 3:75 §3 — 'going concern'-paragraaf). Stelt hij vast dat de alarmbel hätte moeten aanslaan maar het bestuur heeft nagelaten de AV bijeen te roepen, dan moet hij het bestuur aanmanen; bij uitblijven van reactie kan hij zelf de AV bijeenroepen.",
+              "confidence": "grounded",
+              "source": "WVV art. 3:75 §3; WVV art. 5:142 lid 2; WVV art. 3:68",
+              "weergaven": [
+                {
+                  "type": "proza"
+                }
+              ]
+            },
+            {
+              "element_id": "commissaris-eigen-bijeenroeping",
+              "inhoud_type": "regel",
+              "titel": "Eigen bijeenroepingsrecht commissaris",
+              "beschrijving": "De commissaris kan de algemene vergadering zelf bijeenroepen wanneer het bestuursorgaan in gebreke blijft (WVV art. 3:68). Dit is een ultimum remedium — de commissaris gebruikt dit enkel na aanmaning van het bestuur die vruchteloos bleef.",
+              "confidence": "grounded",
+              "source": "WVV art. 3:68",
+              "weergaven": [
+                {
+                  "type": "proza"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "veelvoorkomende_verwarringen": [
+    {
+      "element_id": "verwarring-nettoactieftest-vs-alarmbel",
+      "inhoud_type": "valkuil",
+      "verwarring": "Alarmbel verwarren met de nettoactieftest (ex-ante uitkeringsbarrière)",
+      "uitleg": "De nettoactieftest (art. 5:142 BV / 7:212 NV) is een ex-ante barrière: 'mag deze uitkering doorgaan?'. De alarmbelprocedure is ex-post detectie: 'het vermogen is al gedaald — wat moet het bestuur nu doen?'. Beide gebruiken het netto-actief-concept, maar als barrière versus als trigger. Examenvraag: 'het bestuur wil dividend uitkeren' → nettoactieftest. 'Het nettoactief is gedaald' → alarmbelprocedure.",
+      "confidence": "grounded",
+      "source": "WVV art. 5:142-5:153; CBN-advies 2021/14"
+    },
+    {
+      "element_id": "verwarring-nv-verlies-vereist",
+      "inhoud_type": "valkuil",
+      "verwarring": "Bij NV: alarmbel ook toepassen bij daling door uitkering",
+      "uitleg": "Bij de NV moet de daling van het netto-actief het gevolg zijn van een geleden verlies. Een daling door een dividend of inkoop eigen aandelen triggert de alarmbel niet — dat valt onder de nettoactieftest ex ante. Ontbreekt een 'verlies-oorzaak', dan geen alarmbel.",
+      "confidence": "grounded",
+      "source": "WVV art. 7:228 §1; CBN-advies 2021/14 §Kapitaalhoudende vennootschappen"
+    },
+    {
+      "element_id": "verwarring-bv-alleen-solvabiliteit",
+      "inhoud_type": "valkuil",
+      "verwarring": "Bij BV: enkel netto-actief checken en liquiditeitstest vergeten",
+      "uitleg": "De BV kent twee onafhankelijke triggers: netto-actief negatief (solvabiliteitstest) én 12-maands-liquiditeitstest. Een positief netto-actief sluit de alarmbel niet uit — de vennootschap kan perfect solvabel zijn maar toch illiquide. Beide testen lopen onafhankelijk.",
+      "confidence": "grounded",
+      "source": "WVV art. 5:153 §1-§2"
+    },
+    {
+      "element_id": "verwarring-vzw",
+      "inhoud_type": "valkuil",
+      "verwarring": "Alarmbelprocedure toepassen op VZW",
+      "uitleg": "Verenigingen en stichtingen kennen geen alarmbelprocedure. Zij vallen onder de algemene continuïteitsplicht van WVV art. 2:52, maar niet onder de specifieke drempel- en termijnregels van art. 5:153 of 7:228.",
+      "confidence": "grounded",
+      "source": "WVV art. 2:52; CBN-advies 2021/14 voetnoot 4"
+    },
+    {
+      "element_id": "verwarring-bewijslast-intern",
+      "inhoud_type": "valkuil",
+      "verwarring": "Omgekeerde bewijslast ook voor interne schadeclaims aannemen",
+      "uitleg": "Het weerlegbaar vermoeden van causaliteit geldt enkel voor schade geleden door derden (schuldeisers, leveranciers, ...). Voor interne aansprakelijkheidsvorderingen (aandeelhouders vs. bestuurder) geldt de normale bewijslastsplitsing.",
+      "confidence": "grounded",
+      "source": "WVV art. 5:153 §4 / 7:228 §5"
+    }
+  ],
+  "familie_en_alternatieven": {
+    "alternatieven": [
+      {
+        "naam": "Gerechtelijke reorganisatie (WCO)",
+        "verschil": "Formele insolventieprocedure via rechtbank; alarmbel is een interne vennootschapsrechtelijke procedure die de WCO kan voorafgaan of er naast lopen.",
+        "confidence": "inferred"
+      },
+      {
+        "naam": "WVV art. 2:52 continuïteitsplicht",
+        "verschil": "Algemene plicht van het bestuursorgaan bij elke ernstige continuïteitsbedreiging, ongeacht drempels. De alarmbel is een specifieke, drempelgebonden uitwerking van deze plicht.",
+        "confidence": "grounded",
+        "source": "WVV art. 2:52"
+      }
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      {
+        "titel": "Alarmbel-triggers monitoren bij (ontwerp)jaarrekening",
+        "anker": "#bv-boekhouder-nettoactief"
+      },
+      {
+        "titel": "Bestuur adviseren over herstelscenario's",
+        "anker": "#bv-adviseur-herstelplan"
+      },
+      {
+        "titel": "Bijzonder verslag beoordelen als commissaris",
+        "anker": "#commissaris-continuiteit"
+      },
+      {
+        "titel": "Sanctie-risico bij niet-naleving inschatten",
+        "anker": "#sanctie-bewijslast"
+      }
+    ],
+    "termen_alfabetisch": [
+      {
+        "term": "bijzonder verslag",
+        "anker": "#bijzonder-verslag"
+      },
+      {
+        "term": "bijeenroeping AV",
+        "anker": "#bijeenroeping-av"
+      },
+      {
+        "term": "cooldown één jaar",
+        "anker": "#cooldown"
+      },
+      {
+        "term": "geleden verlies (NV-vereiste)",
+        "anker": "#nv-adviseur-signalering"
+      },
+      {
+        "term": "gerechtelijke ontbinding € 61.500",
+        "anker": "#nv-adviseur-signalering"
+      },
+      {
+        "term": "liquiditeitstest 12 maanden (BV)",
+        "anker": "#bv-boekhouder-nettoactief"
+      },
+      {
+        "term": "netto-actief negatief (BV-trigger)",
+        "anker": "#bv-boekhouder-nettoactief"
+      },
+      {
+        "term": "netto-actief < ½ kapitaal (NV-trigger)",
+        "anker": "#nv-boekhouder-nettoactief"
+      },
+      {
+        "term": "netto-actief < ¼ kapitaal (NV-tweede drempel)",
+        "anker": "#nv-boekhouder-nettoactief"
+      },
+      {
+        "term": "omgekeerde bewijslast",
+        "anker": "#sanctie-bewijslast"
+      },
+      {
+        "term": "procédure de la sonnette d'alarme",
+        "anker": "#alarmbel"
+      }
+    ],
+    "formules": [
+      {
+        "naam": "Netto-actief (algemeen)",
+        "expressie": "Σ activa − Σ voorzieningen − Σ schulden"
+      },
+      {
+        "naam": "Drempel NV eerste trigger",
+        "expressie": "netto-actief < ½ × geplaatst kapitaal"
+      },
+      {
+        "naam": "Drempel NV tweede trigger",
+        "expressie": "netto-actief < ¼ × geplaatst kapitaal"
+      }
+    ],
+    "regimes": []
+  },
+  "edges": [
+    {
+      "type": "valt_onder_kader",
+      "target": "vennootschapsrechtelijk-kader-wvv"
+    },
+    {
+      "type": "vergelijkt_met",
+      "target": "nettoactieftest",
+      "facet": {
+        "aspect": "ex-ante barrière versus ex-post detectie vermogensdaling"
+      }
+    },
+    {
+      "type": "vereist_kennis_van",
+      "target": "nettoactieftest"
+    },
+    {
+      "type": "vereist_kennis_van",
+      "target": "liquiditeitstest-bv"
+    },
+    {
+      "type": "vereist_kennis_van",
+      "target": "continuiteitsbeginsel"
+    },
+    {
+      "type": "gerelateerd",
+      "target": "ontbinding-en-vereffening"
+    },
+    {
+      "type": "gerelateerd",
+      "target": "aansprakelijkheid-oprichters-bestuurders"
+    },
+    {
+      "type": "gerelateerd",
+      "target": "gerechtelijke-reorganisatie"
+    }
+  ],
+  "_provenance": {
+    "schema_version": "2.0",
+    "extractor_run": "concept-extractie-v5-wave-bench-sonnet-20260521",
+    "model": "claude-sonnet-4-6",
+    "primary_po": "3.0",
+    "anchor_id": "3.0.IV.D",
+    "linked_anchors": [
+      "3.0.IV.D"
+    ],
+    "reviewed_by": null,
+    "bronnen_gebruikt": [
+      "WVV art. 5:153 (BV/CV alarmbel)",
+      "WVV art. 7:228 (NV alarmbel)",
+      "WVV art. 7:229 (gerechtelijke ontbinding NV < 61.500)",
+      "WVV art. 3:68 (commissaris bijeenroepingsrecht)",
+      "WVV art. 3:75 §3 (commissaris going-concern-paragraaf)",
+      "WVV art. 2:52 (continuïteitsplicht bestuur)",
+      "MvT WVV art. 312 (ratio en aanpassing BV-procedure)",
+      "MvT WVV art. 5:133 (tekst BV-procedure)",
+      "IBA Minority Shareholder Rights Belgium 2022 §Drempelwaarden en §Niet-naleving",
+      "CBN-advies 2021/14 (netto-actief, frequentie, continuïteit)"
+    ],
+    "near_duplicate_check": "Bestaand v1.6 record 'alarmbelprocedure' gelezen als content-inspiratie. Nieuwe fiche 'alarmbel' is schema 2.0-herextract met element-vocabulaire, weergaven[], rol×perspectief matrix en confidence per element.",
+    "creation_reason": "Schema 2.0-pilot Wave bench-sonnet-20260521. Kandidaat 'alarmbel' in candidates-DB, primary_po=3.0, kind=procedure."
+  }
+}

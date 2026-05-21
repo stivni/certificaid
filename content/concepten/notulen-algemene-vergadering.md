@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/notulen-algemene-vergadering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Notulen van de algemene vergadering ⚖️
 
@@ -28,6 +28,7 @@ De notulen vormen het schriftelijke geheugen van de algemene vergadering: ze leg
 De notulen van de algemene vergadering zijn de schriftelijke vastlegging van haar verloop en besluiten, opgesteld door of onder verantwoordelijkheid van het bureau van de vergadering en ondertekend door de leden van het bureau en door de aandeelhouders die erom verzoeken. Kopieën voor derden worden ondertekend door één of meer vertegenwoordigingsbevoegde leden van het bestuursorgaan. Voor besluiten van de buitengewone algemene vergadering (statutenwijziging, kapitaalwijziging in de NV, fusie/splitsing, ontbinding) zijn de notulen een notariële akte.
 
 _Bron: WVV art. 5:93 (BV), 6:79 (CV), 7:128 (NV)_
+
 
 
 ## Bouwstenen

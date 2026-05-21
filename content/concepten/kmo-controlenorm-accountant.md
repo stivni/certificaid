@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/kmo-controlenorm-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # KMO-controlenorm voor de externe accountant ⚖️
 
@@ -30,6 +30,7 @@ De KMO-controlenorm is de gedetailleerde ITAA-uitwerking voor contractuele contr
 De KMO-controlenorm is het gedetailleerd normenkader dat de externe accountant gebruikt bij contractuele controle- en beoordelingsopdrachten op de jaarrekening van kleine vennootschappen en kleine vzw's. Geïnspireerd door ISA-standaarden maar aangepast aan de KMO-realiteit. Bevat regels voor opdrachtaanvaarding, planning, risico-inschatting, werkzaamheden, documentatie, oordeel en verslag.
 
 _Bron: ITAA-norm KMO-controlenorm_
+
 
 
 ## Bouwstenen
@@ -63,7 +64,7 @@ _Grondslag: ITAA KMO-controlenorm Bijlage 1_
 - Geldt NIET voor: wettelijke controleopdrachten van de commissaris (art. 16/1 W. Venn. / WVV art. 3:72), niet voor opdrachten exclusief voorbehouden aan de bedrijfsrevisor, en niet voor opdrachten op andere dan historische financiële informatie. ⚖️
 ## Zie ook
 
-- **Wordt voorondersteld in** (1): [[toepassen-professional-skepticism-en-deontologie-audit]]
+- **Wordt voorondersteld in** (3): [[itaa-normen-ic]] · [[toepassen-professional-skepticism-en-deontologie-audit]] · [[wettelijk-kader-ic]]
 ## Voorbeelden
 
 Wolters & Partners CVBA voert een contractuele audit uit op Meubelzaak Mertens BV (omzet € 4.500.000, balanstotaal € 1.800.000 — kleine vennootschap). Sofie Janssens past de KMO-controlenorm toe: aanvaardingsfase, opdrachtbrief, risico-inschatting, gegevensgerichte werkzaamheden, oordeelsvorming en commissarisverslag-equivalent.

@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/algemene-vergadering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Algemene vergadering ⚖️
 
@@ -24,9 +24,12 @@ De algemene vergadering is het orgaan van de aandeelhouders dat beslist over fun
 > [!summary] Korte inhoud
 > De algemene vergadering is het collegiaal orgaan waarin de aandeelhouders (of vennoten bij een CV) hun door de wet en de statuten voorbehouden bevoegdheden uitoefenen.
 
+> [!info]- Bestaat uit (12): [[aanwezigheidsrecht-algemene-vergadering]] · [[belangenconflict-aandeelhouder]] · [[bijeenroeping-algemene-vergadering]] · [[bijzondere-algemene-vergadering]] · [[buitengewone-algemene-vergadering]] · [[gewone-algemene-vergadering]] · [[notulen-algemene-vergadering]] · [[registratiedatum-genoteerde-nv]] · [[schriftelijke-besluitvorming-aandeelhouders]] · [[stemrecht-aandeelhouder]] · [[volmacht-algemene-vergadering]] · [[vraagrecht-aandeelhouder]]
+
 De algemene vergadering is het collegiaal orgaan waarin de aandeelhouders (of vennoten bij een CV) hun door de wet en de statuten voorbehouden bevoegdheden uitoefenen. Zij komt minstens één keer per jaar bijeen (de gewone algemene vergadering of jaarvergadering) en kan daarnaast als bijzondere of buitengewone vergadering worden samengeroepen. Beslissingen worden vastgelegd in notulen en kennen hun eigen aanwezigheids- en meerderheidsregels afhankelijk van het soort besluit en de vennootschapsvorm.
 
 _Bron: WVV art. 5:80–5:102 (BV), 6:69–6:87 (CV), 7:123–7:155 (NV)_
+
 
 
 ## Bouwstenen
@@ -85,7 +88,7 @@ _Grondslag: WVV art. 5:90, 5:93 (BV), 6:76, 6:79 (CV), 7:138, 7:141 (NV)_
 ## Zie ook
 
 - **Vereist kennis van**: [[bevoegdheid-bestuursorgaan]]
-
+- **Wordt voorondersteld in** (4): [[nietigverklaring-algemene-vergaderingsbesluit]] · [[opschorting-besluit-vennootschap]] · [[stemovereenkomst]] · [[vennootschapsconflict]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

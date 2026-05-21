@@ -18,9 +18,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoering-interne-controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Uitvoering van interne controle — aanpak 🤖
+# Uitvoering van interne controle — aanpak 🔗
 
 Dit cluster bundelt de algemene aanpak voor het uitvoeren van interne controle op organisatie-niveau — generieke stappen die geen onderdeel zijn van één specifieke COSO-component maar de orchestratie ervan vormen. Voor KMO's geen wettelijke implementatie-verplichting (uitgezonderd organisaties van openbaar belang via WVV + Corporate Governance Code); voor de wettelijke commissaris-controle wel verplicht: ITAA-controlenorm §47 vereist dat de beroepsbeoefenaar de IC begrijpt. Methodologie volgt uit COSO 2013 + IIA-doctrine. Voor de stagiair het procedurele complement van [[opzetten-controleactiviteiten-en-monitoring]] (de competentie-zijde) — hier de descriptieve aanpak.
 
@@ -29,12 +29,15 @@ Dit cluster bundelt de algemene aanpak voor het uitvoeren van interne controle o
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[taakverdeling-ic]]
+
 De uitvoering van interne controle is de structurele aanpak waarmee een organisatie haar IC-systeem opzet, onderhoudt en bijstuurt. De aanpak doorloopt vijf fasen: doelstellingen + risico's identificeren, bestaande controles in kaart brengen, taakverdeling vastleggen, opvolging en monitoring inrichten, evaluatie en bijsturing. Het is regime-overstijgend — geldt voor KMO én grote onderneming, met proportionele aanpassing.
+
 
 
 ## Bouwstenen
 
-### Doelstellingen + risico's identificeren 🤖
+### Doelstellingen + risico's identificeren 🔗
 
 Definieer wat de onderneming wil bereiken (financieel, operationeel, compliance) en welke risico's dat verhinderen.
 
@@ -49,7 +52,7 @@ Definieer wat de onderneming wil bereiken (financieel, operationeel, compliance)
 
 _Grondslag: COSO ERM-doctrine_
 
-### Bestaande controles in kaart brengen 🤖
+### Bestaande controles in kaart brengen 🔗
 
 Documenteer welke controles al bestaan in elk proces — niet wat zou moeten zijn maar wat IS.
 
@@ -64,7 +67,7 @@ Documenteer welke controles al bestaan in elk proces — niet wat zou moeten zij
 
 _Grondslag: COSO-doctrine + audit-walkthrough-practice_
 
-### Taakverdeling vastleggen 🤖
+### Taakverdeling vastleggen 🔗
 
 Bepaal wie wat doet (1.7.VIII.B): autoriseren, uitvoeren, bewaren, registreren — zoveel mogelijk gescheiden over verschillende personen.
 
@@ -79,7 +82,7 @@ Bepaal wie wat doet (1.7.VIII.B): autoriseren, uitvoeren, bewaren, registreren �
 
 _Grondslag: Vier-functies-doctrine_
 
-### Opvolging en monitoring inrichten 🤖
+### Opvolging en monitoring inrichten 🔗
 
 Zet KPI's en monitoring-routines op (1.7.VIII.C, F): wie kijkt na, hoe vaak, met welke trigger voor escalatie.
 
@@ -94,7 +97,7 @@ Zet KPI's en monitoring-routines op (1.7.VIII.C, F): wie kijkt na, hoe vaak, met
 
 _Grondslag: COSO monitoring-component_
 
-### Evaluatie + bijsturing 🤖
+### Evaluatie + bijsturing 🔗
 
 Evalueer (1.7.VIII.F + 1.7.XI) of het IC-systeem nog werkt zoals beoogd. Pas aan waar tekort, vereenvoudig waar overhead.
 

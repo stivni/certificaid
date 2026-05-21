@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/jaarrekening-componenten-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Componenten van een IFRS-jaarrekening ⚖️
 
@@ -24,9 +24,12 @@ gegenereerd_op: '2026-05-18'
 
 > [!info] Behoort tot: [[jaarrekening-presentatie]]
 
+> [!info] Bestaat uit (5): [[balans-presentatie-ifrs]] · [[mutatieoverzicht-eigen-vermogen-ifrs]] · [[presentatiebeginselen-jaarrekening-ifrs]] · [[toelichtingsvereisten-jaarrekening-ifrs]] · [[totaalresultaat-ifrs]]
+
 Onder IAS 1 — Presentatie van de jaarrekening bestaat een volledige IFRS-jaarrekening uit **vijf vaste componenten**: (1) een overzicht van de financiële positie aan het eind van de periode (de 'IFRS-balans'); (2) een overzicht van het totaalresultaat over de periode (winst of verlies + overige onderdelen van het totaalresultaat, samen of in twee afzonderlijke overzichten); (3) een mutatieoverzicht van het eigen vermogen; (4) een kasstroomoverzicht (vereisten in IAS 7); en (5) de toelichting met grondslagen voor financiële verslaggeving en andere materiële informatie. Daarbij hoort verplicht vergelijkende informatie over de voorgaande periode, en in specifieke gevallen (eerste IFRS-toepassing, retroactieve aanpassing, herclassificatie) ook een derde balans (openingsbalans van de vergelijkende periode). De entiteit mag andere namen gebruiken voor de overzichten — bv. 'overzicht van gerealiseerde en niet-gerealiseerde resultaten' in plaats van 'overzicht van het totaalresultaat'.
 
 _Bron: IAS 1 alinea 10_
+
 
 
 ## Bouwstenen
@@ -129,6 +132,9 @@ _Grondslag: IAS 1 alinea 7 + 117_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[ifrs-eerste-toepassing]] · [[presenteren-jaarrekening-ifrs]]
 ## Voorbeelden
 
 De geconsolideerde IFRS-jaarrekening 2027 van Zelena Bio NV (eerste IFRS-jaar) bevat: (1) overzicht financiële positie per 31 december 2027 + per 31 december 2026; (2) overzicht totaalresultaat 2027 + 2026; (3) mutatieoverzicht eigen vermogen 2027 + 2026; (4) kasstroomoverzicht 2027 + 2026; (5) toelichting met grondslagen, segment-informatie, leasing-uitsplitsing, etc. Omdat 2027 het eerste IFRS-jaar is, hoort er ook een derde balans bij — de openingsbalans per 1 januari 2026 (overgangsdatum, IFRS 1).

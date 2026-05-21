@@ -22,7 +22,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/iesba-code-of-ethics.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # IESBA International Code of Ethics for Professional Accountants ⚖️
 
@@ -34,6 +34,7 @@ Voor wie zich afvraagt waarom alle deontologische regels van het ITAA, KB plicht
 De IESBA Code of Ethics is de internationale deontologische code voor accountants, opgesteld door de International Ethics Standards Board for Accountants (IESBA). De code definieert vijf fundamentele beginselen die elke beroepsbeoefenaar moet naleven en beschrijft een conceptueel raamwerk waarmee bedreigingen voor die beginselen worden geïdentificeerd, beoordeeld en weggewerkt. De code vormt de internationale basis waarop nationale deontologische regels (in België: KB plichtenleer en ITAA-normen) zijn gebaseerd.
 
 _Bron: IESBA Code of Ethics 2024 — Section 110, paragraaf 110.1 A1_
+
 
 
 ## Bouwstenen
@@ -98,15 +99,15 @@ _Grondslag: IESBA Code of Ethics 2024 — Section 100, paragrafen 100.1 A1_
 ## Valkuilen
 
 > [!warning]- Identificeer eerst het type bedreiging vóór je over waarborgen praat.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Onafhankelijkheid (independence) is een aparte set vereisten bóvenop de vijf fundamentele beginselen, alleen voor audit- en assurance-opdrachten (Part 4A en 4B van de code).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- De code geldt voor élke professionele activiteit van de accountant, ook adviesopdrachten, samenstelling, fiscaal advies — niet alleen audit.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -114,7 +115,7 @@ _Grondslag: IESBA Code of Ethics 2024 — Section 100, paragrafen 100.1 A1_
 
 - **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
 - **Vereist kennis van**: [[beroepsgeheim-accountant]]
-
+- **Wordt voorondersteld in** (3): [[functie-interne-auditor]] · [[intern-kwaliteitsmanagement-kantoor]] · [[isa-standaarden-ic]]
 ## Bronnen
 
 [^1]: `IESBA-code-of-ethics-2024__sec_part-1-fundamental-principles`

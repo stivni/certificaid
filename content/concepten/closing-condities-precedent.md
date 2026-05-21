@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/closing-condities-precedent.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opschortende voorwaarden bij overname (closing conditions) 🤖
+# Opschortende voorwaarden bij overname (closing conditions) 🔗
 
 Tussen signing en closing moeten typisch een aantal opschortende voorwaarden vervuld worden vooraleer de eigendom kan overgaan en de prijs betaald wordt. Belgisch recht stelt eisen aan de geldigheid van die voorwaarden: ze moeten extern en incidenteel zijn. Voor accountants en juristen is dit de fase waarin regulatoire approvals en interim covenants samenkomen.
 
@@ -25,7 +25,10 @@ Tussen signing en closing moeten typisch een aantal opschortende voorwaarden ver
 
 > [!info] Behoort tot: [[overnameovereenkomst]]
 
+> [!info] Bestaat uit (1): [[material-adverse-change-clausule]]
+
 Opschortende voorwaarden (conditions precedent of CPs) zijn voorwaarden die in de overnameovereenkomst worden gestipuleerd en waarvan de vervulling vereist is voordat closing — de daadwerkelijke uitvoering van de overdracht — kan plaatsvinden.
+
 
 
 ## Bouwstenen
@@ -111,14 +114,14 @@ _Grondslag: IBA-MA-Belgium-2022-EN §6.1.2_
 ## Valkuilen
 
 > [!warning]- Hou de signing-to-closing-periode zo kort mogelijk én ga niet in 'gun-jumping': koper mag de target nog niet operationeel sturen vóór mededingingsgoedkeuring.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[due-diligence-overname]]
-
+- **Wordt voorondersteld in** (2): [[begeleiden-due-diligence-overname]] · [[overnameovereenkomst]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

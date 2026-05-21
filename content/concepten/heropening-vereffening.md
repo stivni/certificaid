@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/heropening-vereffening.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Heropening van de vereffening 🤖
+# Heropening van de vereffening 🔗
 
 Heropening corrigeert een **deficitaire sluiting** (de schuldeisers werden niet integraal voldaan) wanneer achteraf blijkt dat er nog vermogen was. Zij is geen tweede kans voor de vennootschap zelf — die blijft juridisch verdwenen — maar een **uitsluitend op vermogensrecovery gerichte procedure** voor de onbetaalde schuldeisers. De boekhoudkundige verwerking (CBN-advies 2024/09) verloopt buiten een normale jaarrekening: openings-balans op de datum van de heropening, met de vergeten activa en de openstaande schuldvorderingen.
 
@@ -24,6 +24,7 @@ Heropening corrigeert een **deficitaire sluiting** (de schuldeisers werden niet 
 > Wanneer na de sluiting van de vereffening **één of meer actieve vermogensbestanddelen werden vergeten**, kan elke schuldeiser wiens schuldvordering niet integraal werd voldaan de **heropening** van de vereffening vorderen (art. 2:95 § 1 WVV voor vennootschappen; art. 2:125 voor V….
 
 Wanneer na de sluiting van de vereffening **één of meer actieve vermogensbestanddelen werden vergeten**, kan elke schuldeiser wiens schuldvordering niet integraal werd voldaan de **heropening** van de vereffening vorderen (art. 2:95 § 1 WVV voor vennootschappen; art. 2:125 voor VZW/IVZW; art. 2:138 analoog). De vordering wordt ingesteld tegen de vereffenaar die laatst in functie was; de rechtbank kan ook een andere vereffenaar aanwijzen. Heropening is uitsluitend mogelijk wanneer de waarde van het vergeten actief de **kosten van de heropening overtreft**.
+
 
 
 > [!info] Uitzondering op: [[sluiting-vereffening]]
@@ -54,6 +55,9 @@ Wanneer na de sluiting van de vereffening **één of meer actieve vermogensbesta
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[begeleiden-vereffening-vennootschap]] · [[signaleren-risicos-overdracht-of-ontbinding]]- **Triggert** (1): [[sluiting-vereffening]]
 ## Voorbeelden
 
 ### Heropening Verffabriek Veurne BV (model CBN 2024/09)

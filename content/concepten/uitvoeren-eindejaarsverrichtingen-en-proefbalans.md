@@ -15,11 +15,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoeren-eindejaarsverrichtingen-en-proefbalans.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Uitvoeren van eindejaarsverrichtingen en opmaken van proefbalans 🤖
+# Uitvoeren van eindejaarsverrichtingen en opmaken van proefbalans 🔗
 
 De brug-competentie tussen de dagelijkse boekhouding en de jaarrekening: inventaris, afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen worden samen in één eindjaars-cyclus afgewerkt. Voor een stagiair-GA: de proefbalans vóór en na eindjaarsverrichtingen is een vast examen-artefact dat de volledigheid en juistheid van de cyclus toetst.
+
 
 
 ## Stappen

@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bevoegdheid-bestuursorgaan.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Residuaire bevoegdheid van het bestuursorgaan ⚖️
 
@@ -31,6 +31,7 @@ Het bestuursorgaan is bevoegd om alle handelingen te verrichten die nodig of die
 _Bron: WVV art. 5:73 (BV), 6:61 (CV), 7:93 (NV monistisch), 7:110 (NV duaal — directieraad)_
 
 
+
 ## Voorwaarden / uitzonderingen
 
 - {'tekst': 'Handelingen die de wet uitdrukkelijk aan de algemene vergadering toekent (statutenwijziging, kapitaalverhoging, ontbinding, kwijting, benoeming van bestuurders en commissaris) vallen buiten de bestuursbevoegdheid.', 'confidence': 'grounded', 'source': {'type': 'wet', 'short': 'WVV art. 5:73, 6:61, 7:93'}, '_provenance': {'inputs': [{'id': 'WVV__art_5_59', 'sha256': None, 'version': 'rag-v1'}, {'id': 'WVV__art_6_51', 'sha256': None, 'version': 'rag-v1'}]}} ⚖️
@@ -39,14 +40,14 @@ _Bron: WVV art. 5:73 (BV), 6:61 (CV), 7:93 (NV monistisch), 7:110 (NV duaal — 
 ## Valkuilen
 
 > [!warning]- Onderzoek altijd de statuten op bevoegdheidsbeperkingen — die kunnen intern relevant zijn voor de aansprakelijkheidsbeoordeling, ook al zijn ze niet tegenwerpelijk aan derden.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[vertegenwoordiging-vennootschap-jegens-derden]]
-
+- **Wordt voorondersteld in** (1): [[algemene-vergadering]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

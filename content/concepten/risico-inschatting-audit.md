@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/risico-inschatting-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Risico-inschatting (audit) ⚖️
 
@@ -24,11 +24,12 @@ Risico-inschatting is de planningsfase waarin de auditor begrijpt waar afwijking
 > [!summary] Korte inhoud
 > De beroepsbeoefenaar identificeert en schat de risico's op een afwijking van materieel belang in op het niveau van de financiële overzichten én op het niveau van de beweringen (assertions), als gevolg van fraude of fouten.
 
-> [!info] Bestaat uit (2): [[cijferanalyses-audit]] · [[significant-risico-audit]]
+> [!info] Bestaat uit (1): [[cijferanalyses-audit]]
 
 De beroepsbeoefenaar identificeert en schat de risico's op een afwijking van materieel belang in op het niveau van de financiële overzichten én op het niveau van de beweringen (assertions), als gevolg van fraude of fouten. Hij doet dit door inzicht te verwerven in de cliënt en haar omgeving — inclusief de interne beheersing.
 
 _Bron: ITAA KMO-controlenorm §74-§77_
+
 
 
 ## Bouwstenen
@@ -55,7 +56,7 @@ De auditor verwerft inzicht via (1) bevragingen bij management en met governance
 
 _Grondslag: ITAA KMO-controlenorm §76-§77_
 
-### Risico-matrix als artefact 🤖
+### Risico-matrix als artefact 🔗
 
 Het werkproduct is een risico-matrix: rijen = balansrubrieken/transactiestromen, kolommen = beweringen, cellen = inschatting (laag/midden/hoog) met onderliggende argumenten. Die matrix stuurt het werkprogramma.
 
@@ -102,7 +103,7 @@ _Grondslag: ITAA KMO-controlenorm §77 + §95_
 
 - **Vereist kennis van**: [[auditrisicomodel]]
 - **Getriggerd door**: [[auditplanning]]
-- **Wordt voorondersteld in** (6): [[auditplanning]] · [[beweringen-audit]] · [[kennis-van-onderneming-omgeving]] · [[opstellen-auditstrategie-en-werkprogramma]] · [[uitvoeren-risico-inschatting-en-materialiteit-audit]] · [[verwerven-kennis-van-clientonderneming-audit]]
+- **Wordt voorondersteld in** (3): [[beweringen-audit]] · [[kennis-van-onderneming-omgeving]] · [[verwerven-kennis-van-clientonderneming-audit]]- **Triggert** (1): [[frauderisicofactoren]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV verwerft Sofie Janssens inzicht door bevragingen bij de CFO + de productieleider, doorlezen van het beleid, cijferanalyses op de afgelopen drie boekjaren, en een rondgang op de werkvloer. Daaruit identificeert ze drie risicogebieden: voorraadwaardering, een aanhangig fiscaal geschil, en het hoge ondernemingskrediet.

@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bevestiging-vereffenaar-deficitaire-vereffening.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bevestiging van de vereffenaar bij deficitaire vereffening ⚖️
 
@@ -27,6 +27,7 @@ De bevestiging is een **rechterlijke filter** tussen het AV-besluit en de rechts
 **Bevestiging van de vereffenaar** is de tussenkomst van de **voorzitter van de ondernemingsrechtbank** die vereist is wanneer uit de staat van activa en passiva blijkt dat **niet alle schuldeisers volledig kunnen worden terugbetaald** (deficitaire vereffening). In dat geval kan de door de AV (of door de statuten) benoemde vereffenaar **pas geldig optreden nadat de voorzitter zijn benoeming heeft bevestigd** (art. 2:84 WVV, oude nummering art. 2:79). De bevestiging volgt pas wanneer de voorzitter heeft vastgesteld dat de vereffenaar **alle waarborgen van competentie en integriteit** biedt. Een afzonderlijke **homologatie** is bovendien vereist voor kandidaten met fiscale of strafrechtelijke antecedenten of een niet-gerehabiliteerd faillissement.
 
 _Bron: WVV art. 2:84_
+
 
 
 ## Bouwstenen
@@ -92,12 +93,12 @@ _Grondslag: WVV art. 2:84, voorlaatste lid + MvT art. 2:84, § 3_
 <h3 id="hoe-herken-je-de-bevestigingsplicht">Hoe herken je de bevestigingsplicht?</h3>
 
 > [!tip]- Hoe herken je de bevestigingsplicht?
-> Lees de staat van activa en passiva (3 maanden vóór de AV). Tel de passiva-zijde op buiten de schulden aan aandeelhouders. Vergelijk met de activa aan **discontinuïteitswaarde**. Is het verschil negatief? Dan is de vereffening deficitair en moet de vereffenaar bevestigd worden. Tip: vraag ook het verslag van het bestuursorgaan op (art. 2:71, § 2) — daar wordt het deficiet vaak expliciet besproken. 🤖
+> Lees de staat van activa en passiva (3 maanden vóór de AV). Tel de passiva-zijde op buiten de schulden aan aandeelhouders. Vergelijk met de activa aan **discontinuïteitswaarde**. Is het verschil negatief? Dan is de vereffening deficitair en moet de vereffenaar bevestigd worden. Tip: vraag ook het verslag van het bestuursorgaan op (art. 2:71, § 2) — daar wordt het deficiet vaak expliciet besproken. 🔗
 
 <h3 id="wat-doe-je-als-accountant-tussen-av-besluit-en-bevestiging">Wat doe je als accountant tussen AV-besluit en bevestiging?</h3>
 
 > [!tip]- Wat doe je als accountant tussen AV-besluit en bevestiging?
-> Vraag de vereffenaar om zich te beperken tot **bewarende handelingen** (boekhouding voortzetten, inventaris opmaken, lopende verbintenissen honoreren). Vermijd verkopen van activa of betalingen aan aandeelhouders — die kunnen door de voorzitter **nietig** worden verklaard als kennelijk in strijd met de rechten van derden. 🤖
+> Vraag de vereffenaar om zich te beperken tot **bewarende handelingen** (boekhouding voortzetten, inventaris opmaken, lopende verbintenissen honoreren). Vermijd verkopen van activa of betalingen aan aandeelhouders — die kunnen door de voorzitter **nietig** worden verklaard als kennelijk in strijd met de rechten van derden. 🔗
 
 
 ## Valkuilen

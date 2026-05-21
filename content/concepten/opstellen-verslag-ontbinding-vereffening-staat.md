@@ -15,11 +15,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-verslag-ontbinding-vereffening-staat.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van het verslag over de staat van activa en passiva bij vrijwillige ontbinding of ontbinding-en-sluiting-in-één-akte 🤖
+# Opstellen van het verslag over de staat van activa en passiva bij vrijwillige ontbinding of ontbinding-en-sluiting-in-één-akte 🔗
 
 Bij vrijwillige ontbinding van een BV, CV, NV, SE of SCE eist art. 2:71 WVV een staat van activa en passiva (datum ≤ 3 maanden vóór AV) waarover de commissaris of, bij ontbreken, een bedrijfsrevisor of gecertificeerd accountant verslag uitbrengt. Bij ontbinding-en-sluiting-in-één-akte komt daarbij het bijkomende verslag onder art. 2:80, lid 1, 2° WVV. Het verslag beoordeelt de getrouwheid van de staat en kan voorbehoud formuleren over overwaardering. De aanstellingsbevoegdheid ligt bij het bestuursorgaan (of bij ontstentenis bij de AV).
+
 
 
 ## In de praktijk

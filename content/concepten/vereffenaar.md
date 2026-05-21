@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereffenaar.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vereffenaar ⚖️
 
@@ -29,6 +29,7 @@ De vereffenaar is **niet zomaar een bestuurder in andere rol** — hij krijgt ee
 De **vereffenaar** is de persoon (natuurlijk of rechtspersoon) die de **ontbonden vennootschap** vertegenwoordigt en haar vermogen afwikkelt tijdens de vereffeningsfase. Hij treedt in de plaats van het bestuursorgaan voor alle handelingen die nodig of dienstig zijn voor de vereffening (art. 2:78 WVV). Eén of meer vereffenaars kunnen worden aangesteld; bij meerdere kan elk individueel handelend bevoegd zijn, tenzij anders bepaald.
 
 _Bron: WVV art. 2:75 — 2:79_
+
 
 
 ## In de praktijk
@@ -75,7 +76,7 @@ _Bron: WVV art. 2:75 — 2:79_
 ## Zie ook
 
 - **Vereist kennis van**: [[bestuursorgaan]]
-
+- **Wordt voorondersteld in** (5): [[begeleiden-vereffening-vennootschap]] · [[gerechtelijke-ontbinding]] · [[vereffening]] · [[vereffeningsprocedure-klassiek]] · [[vrijwillige-ontbinding]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/managementcontrole.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Managementcontrole 🤖
+# Managementcontrole 🔗
 
 Managementcontrole is in het ITAA-programma de paraplu waaronder interne controle, controllership en performance management vallen — het is wat de directie doet om sturing te geven, niet wat de boekhouder rapporteert. Voor de stagiair is dit conceptueel belangrijk om verwarring te vermijden in adviezen: wanneer een cliënt vraagt 'mijn IC werkt niet' bedoelt hij vaak 'mijn sturingscyclus werkt niet'. Examen-vragen testen vooral het onderscheid IC versus managementcontrole.
 
@@ -26,9 +26,10 @@ Managementcontrole is in het ITAA-programma de paraplu waaronder interne control
 Managementcontrole is het proces waarmee het management van een onderneming zorgt dat middelen efficiënt en doeltreffend worden ingezet om de strategische doelstellingen te halen. Het werkt met budgetten, KPI's, periodieke rapportering en bijsturing. Een breder begrip dan boekhoudkundige controle: het gaat ook over operationele performance en strategische uitvoering.
 
 
+
 ## Bouwstenen
 
-### Drie instrumenten: budget, KPI, variantieanalyse 🤖
+### Drie instrumenten: budget, KPI, variantieanalyse 🔗
 
 Budget = vooruitkijkende doelstelling; KPI = gestandaardiseerde meting; variantieanalyse = systematische vergelijking werkelijk versus gepland.
 
@@ -40,7 +41,7 @@ Budget = vooruitkijkende doelstelling; KPI = gestandaardiseerde meting; varianti
 
 _Grondslag: Managementcontrole-doctrine (Anthony, Merchant)_
 
-### Strategisch versus operationeel niveau 🤖
+### Strategisch versus operationeel niveau 🔗
 
 Strategische managementcontrole = jaarlijks tot meerjarig, focus op marktpositie en investeringen. Operationele managementcontrole = maandelijks/wekelijks, focus op procesefficiëntie.
 
@@ -71,14 +72,14 @@ _Grondslag: Anthony-onderscheid (strategic / management / operational control)_
 ## Valkuilen
 
 > [!warning]- Managementcontrole en interne controle verwarren is dé klassieke beginnersfout
-> ⚠️ Managementcontrole en interne controle verwarren is dé klassieke beginnersfout. Geheugensteun: 'managementcontrole = stuur, interne controle = beveilig'. 🤖
+> ⚠️ Managementcontrole en interne controle verwarren is dé klassieke beginnersfout. Geheugensteun: 'managementcontrole = stuur, interne controle = beveilig'. 🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[interne-controle]]
-
+- **Wordt voorondersteld in** (1): [[controleproces-organisatie]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV stelt directeur Pieter Vermeulen jaarlijks een budget op per kostencentrum (Spinnerij, Weverij, Confectie). Elke maand vergelijkt hij werkelijke met begrote cijfers, bespreekt afwijkingen > 5% met de afdelingschefs en stuurt bij. Dit is managementcontrole — geen boekhouding, geen audit.

@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/variabele-kosten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Variabele kosten 🤖
+# Variabele kosten 🔗
 
 Variabele kosten veranderen proportioneel mee met productie- of verkoopvolume — grondstoffen, productie-arbeid bij stuktarief, energie per machine-uur. Hun totaal stijgt evenredig bij meer output; de kost per eenheid blijft (idealiter) constant. Variabele kosten zijn de basis voor contributiemarge (verkoopprijs − variabele kost), direct costing en break-even-redenering. CBN 2012/15 §waarderingsaspecten bij direct costing erkent het concept voor voorraadwaardering bij bestellingen in uitvoering.
 
@@ -30,6 +30,7 @@ Variabele kosten veranderen proportioneel mee met productie- of verkoopvolume �
 Variabele kosten zijn kosten die proportioneel mee veranderen met het productie- of verkoopvolume. Hun totaal stijgt bij meer output; per eenheid blijven ze (binnen een relevante range) constant.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## In de praktijk
@@ -65,7 +66,7 @@ _Bron: Management accounting — bron-gap_
 
 - **Vereist kennis van**: [[contributiemarge]]
 - **Vereist kennis van**: [[direct-costing]]
-
+- **Wordt voorondersteld in** (4): [[break-even-analyse]] · [[contributiemarge]] · [[kostenanalyse-make-or-buy]] · [[marginale-kostprijs]]
 ## Voorbeelden
 
 Yperse Werkplaats BV verwerkt € 8 wol per tapijt en heeft € 5 variabele machine-energie per stuk. Bij 10.000 tapijten: totale variabele kost € 130.000. Bij 12.000 tapijten: € 156.000. Per stuk blijft het € 13.

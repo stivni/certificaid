@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rechtspersoonlijkheid-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Rechtspersoonlijkheid van een vennootschap ⚖️
 
@@ -25,6 +25,7 @@ Het WVV onderscheidt vennootschappen *met* en *zonder* rechtspersoonlijkheid (WV
 Rechtspersoonlijkheid betekent dat de vennootschap juridisch als een **zelfstandige drager** van rechten en plichten wordt erkend, met een eigen vermogen, eigen contracten en eigen aansprakelijkheid, los van de natuurlijke of rechtspersonen die haar oprichtten of leiden.
 
 _Bron: WVV art. 1:5_
+
 
 
 ## In de praktijk
@@ -42,7 +43,7 @@ _Bron: WVV art. 1:5_
 <h3 id="wat-verandert-door-rechtspersoonlijkheid">Wat verandert door rechtspersoonlijkheid?</h3>
 
 > [!tip]- Wat verandert door rechtspersoonlijkheid?
-> Concreet: de rechtspersoon contracteert zelf, opent rekeningen op haar naam, is eigenaar van haar activa, heeft een eigen domicilie (zetel), staat alleen ingeschreven in de KBO (Kruispuntbank van Ondernemingen), heeft een eigen BTW- en RSZ-nummer. Schuldeisers van de rechtspersoon kunnen verhaal halen op haar vermogen, niet automatisch op het privévermogen van de vennoten — al hangt dat af van de aansprakelijkheidsregeling van de vorm. 🤖
+> Concreet: de rechtspersoon contracteert zelf, opent rekeningen op haar naam, is eigenaar van haar activa, heeft een eigen domicilie (zetel), staat alleen ingeschreven in de KBO (Kruispuntbank van Ondernemingen), heeft een eigen BTW- en RSZ-nummer. Schuldeisers van de rechtspersoon kunnen verhaal halen op haar vermogen, niet automatisch op het privévermogen van de vennoten — al hangt dat af van de aansprakelijkheidsregeling van de vorm. 🔗
 
 
 ## Valkuilen
@@ -63,7 +64,7 @@ _Bron: WVV art. 1:5_
 ## Zie ook
 
 - **Vereist kennis van**: [[vennootschap-begrip]]
-
+- **Wordt voorondersteld in** (2): [[vennootschap-begrip]] · [[vennootschapsvormen-vergelijking]]
 ## Voorbeelden
 
 **Aurelia Holding NV** koopt een gebouw: de NV staat als eigenaar in het hypothecair register. Een **maatschap** tussen Pieter Vermeulen en Marleen De Cock kan formeel geen gebouw kopen op naam van de maatschap — het komt in onverdeeldheid op naam van de vennoten. _(Aurelia Holding NV, Pieter Vermeulen, Marleen De Cock)_

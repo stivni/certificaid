@@ -19,7 +19,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/niet-in-balans-opgenomen-rechten-verplichtingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Niet in de balans opgenomen rechten en verplichtingen ⚖️
 
@@ -30,9 +30,12 @@ Sommige rechten en verplichtingen verschijnen niet in de balans (bv. een afgegev
 
 > [!info] Specialisatie van: [[rechten-verplichtingen-buiten-balans]]
 
+> [!info] Bestaat uit (1): [[klasse-0-niet-in-balans]]
+
 In de toelichting worden per soort de rechten en verplichtingen vermeld die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze in de toelichting vermeld.
 
 _Bron: KB W.Venn. art. 25 §3 — herhaald in KB WVV via Richtlijn 2013/34/EU art. 16, 1, d_
+
 
 
 ## Bouwstenen
@@ -120,7 +123,7 @@ _Grondslag: CBN-2017/07 §niet-limitativiteit_
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
-
+- **Wordt voorondersteld in** (2): [[materieel-belang-jaarrekening]] · [[rechten-verplichtingen-buiten-balans]]
 ## Bronnen
 
 [^1]: `CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_vermelding-van-rechten-en-verplichtingen-in-de-toelichting`

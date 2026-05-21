@@ -1,0 +1,267 @@
+{
+  "id": "innovatie-aftrek",
+  "naam": "Aftrek voor innovatie-inkomsten",
+  "node_type": "fiscale-regeling",
+  "schema_version": "2.0",
+  "primary_po": "2.3",
+  "linked_anchors": [
+    "2.3.II.B"
+  ],
+  "dekt_tdks": [
+    "2.3.II.B"
+  ],
+  "cross_po": 0,
+  "edges_voorgesteld": {
+    "lid_van": [
+      "belastbare-grondslag-vennootschapsbelasting"
+    ],
+    "is_uitzondering_op": [
+      "aftrekbare-beroepskosten-venb"
+    ],
+    "verward_met": [
+      "octrooi-aftrek",
+      "investeringsaftrek"
+    ]
+  },
+  "_provenance": {
+    "extract_wave_id": "wave-bundle-test-sonnet-20260521",
+    "schema_version": "2.0",
+    "primaire_bronnen": [
+      "WIB92 art. 205/1-205/4",
+      "CBN-advies 2018/01"
+    ],
+    "confidence_history": [
+      {
+        "datum": "2026-05-21",
+        "agent": "claude-sonnet-4-6",
+        "wave": "wave-bundle-test-sonnet-20260521",
+        "opmerking": "Greenfield extract uit WIB92 + CBN 2018/01. Nexus-formule en documentatieverplichting volledig gedekt. Boekhoudkundige verwerking tijdelijke vrijstelling gebaseerd op CBN 2018/01."
+      }
+    ]
+  },
+  "definitie": {
+    "text": "De aftrek voor innovatie-inkomsten laat vennootschappen toe om 85% van de netto-innovatie-inkomsten uit kwalificerende intellectuele eigendomsrechten in mindering te brengen van hun belastbare winst, gecorrigeerd via de nexus-formule.",
+    "confidence": "grounded",
+    "source": {
+      "short": "WIB92 art. 205/1 §1",
+      "full": "WIB92 art. 205/1 §1 — Aftrek voor innovatie-inkomsten (Wet 3 augustus 2016)"
+    }
+  },
+  "wat_er_economisch_echt_gebeurt": {
+    "inhoud": "Een vennootschap die inkomsten behaalt uit een octrooi, kwekersrecht, auteursrechtelijk beschermde software, weesgeneesmiddel of gelijkaardig intellectueel eigendomsrecht, betaalt effectief slechts vennootschapsbelasting op 15% van die netto-inkomsten. De overige 85% wordt van de belastbare grondslag afgetrokken — mits de vennootschap het intellectueel eigendomsrecht (deels) zelf heeft ontwikkeld. De nexus-formule corrigeert dit: wie IP heeft uitbesteed of aangekocht zonder eigen onderzoek en ontwikkeling draait op voor een lagere aftrek. Zo beloont het regime echt eigen O&O-inspanning en niet louter IP-structurering.",
+    "confidence": "inferred",
+    "toelichting": "Economische werking samengesteld uit WIB92 art. 205/1 (85%-aftrek) + art. 205/3 (nexus-breuk). De 15%-effectief-belaste-restfractie is een rekenkundige redenering, niet letterlijk zo vermeld in de wet."
+  },
+  "wanneer_van_toepassing": {
+    "voor_wie": {
+      "tekst": "Vennootschappen (of bijkantoren van buitenlandse vennootschappen) die belastbare innovatie-inkomsten hebben uit kwalificerende intellectuele eigendomsrechten. Zowel KMO als grote vennootschappen; geen omzetdrempel.",
+      "confidence": "grounded",
+      "bron": "CBN-advies 2018/01 — Inleiding"
+    },
+    "wanneer_wel": [
+      {
+        "tekst": "Octrooi of aanvullend beschermingscertificaat (ABC) — niet gebruikt voor verkoop aan onafhankelijke derden voor 1 januari 2007",
+        "confidence": "grounded",
+        "bron": "WIB92 art. 205/1 §1 1° a)"
+      },
+      {
+        "tekst": "Kwekersrecht — aanvraag ingediend ten vroegste op 1 juli 2016 of verworven na 30 juni 2016",
+        "confidence": "grounded",
+        "bron": "WIB92 art. 205/1 §1 1° b)"
+      },
+      {
+        "tekst": "Weesgeneesmiddel — ingeschreven in het Europees Register, beperkt tot de eerste 10 jaar, aanvraag ten vroegste 1 juli 2016",
+        "confidence": "grounded",
+        "bron": "WIB92 art. 205/1 §1 1° c)"
+      },
+      {
+        "tekst": "Auteursrechtelijk beschermde software",
+        "confidence": "grounded",
+        "bron": "CBN-advies 2018/01 — Bedrag van de aftrek"
+      },
+      {
+        "tekst": "Data- of marktexclusiviteit (gewasbescherming/geneesmiddelen) — toegekend na 30 juni 2016, beperkt tot eerste 11 jaar",
+        "confidence": "grounded",
+        "bron": "WIB92 art. 205/1 §1 1° d)"
+      },
+      {
+        "tekst": "Intellectueel eigendomsrecht in aanvraag — tijdelijke vrijstelling mogelijk via onaantastbaarheidsvoorwaarde",
+        "confidence": "grounded",
+        "bron": "CBN-advies 2018/01 — Het intellectueel eigendomsrecht is in aanvraag maar is nog niet ontstaan"
+      }
+    ],
+    "wanneer_niet": [
+      {
+        "tekst": "Inkomsten uit handelsmerk, knowhow of handelsgeheimen kwalificeren niet als intellectueel eigendomsrecht in de zin van art. 205/1",
+        "confidence": "grounded",
+        "bron": "WIB92 art. 205/1 §1 1° — limitatieve opsomming"
+      },
+      {
+        "tekst": "Vennootschappen die uitsluitend via aankoop of uitbesteding aan een verbonden onderneming IP hebben verworven, zonder enige eigen kwalificerende O&O-uitgaven, krijgen een nexus-breuk van 0 en dus geen aftrek",
+        "confidence": "inferred",
+        "bron": "WIB92 art. 205/3 (nexus-breuk: teller = kwalificerende uitgaven)"
+      },
+      {
+        "tekst": "De aftrek voor octrooi-inkomsten (oud regime, uitdovend) en de innovatie-aftrek kunnen niet tegelijk voor hetzelfde IP in hetzelfde belastbaar tijdperk worden toegepast",
+        "confidence": "grounded",
+        "bron": "WIB92 art. 205/2 §1"
+      }
+    ]
+  },
+  "inhoud_type": "fiscale-aftrek",
+  "weergaven": [
+    {
+      "naam": "Berekeningsschema",
+      "beschrijving": "Stap-voor-stap berekening van het aftrekbedrag",
+      "elementen": [
+        {
+          "stap": 1,
+          "naam": "Netto-innovatie-inkomsten",
+          "formule": "Bruto innovatie-inkomsten minus in kosten opgenomen kwalificerende uitgaven (art. 205/1 3°)",
+          "per_ip_recht": true,
+          "confidence": "grounded",
+          "bron": "WIB92 art. 205/1 3° + art. 205/2 §1"
+        },
+        {
+          "stap": 2,
+          "naam": "Nexus-breuk",
+          "formule": "min(1; (kwalificerende uitgaven x 1,30) / globale uitgaven)",
+          "toelichting": "Kwalificerende uitgaven = eigen O&O + O&O bij onafhankelijke derden. Globale uitgaven = kwalificerende + uitbesteed aan verbonden onderneming + verwerving-IP. Uplift van 30% op teller, met plafond op noemer.",
+          "confidence": "grounded",
+          "bron": "WIB92 art. 205/3 §1 + art. 205/1 4°-5°"
+        },
+        {
+          "stap": 3,
+          "naam": "Aftrekbedrag",
+          "formule": "85% x netto-innovatie-inkomsten x nexus-breuk",
+          "confidence": "grounded",
+          "bron": "WIB92 art. 205/1 §1 + CBN-advies 2018/01 — Bedrag van de aftrek"
+        },
+        {
+          "stap": 4,
+          "naam": "Overdracht bij onvoldoende winst",
+          "formule": "Niet-benutte aftrek overdraagbaar naar volgende belastbare tijdperken (onbeperkt in tijd)",
+          "confidence": "grounded",
+          "bron": "WIB92 art. 205/1 §1 alinea 2"
+        },
+        {
+          "stap": 5,
+          "naam": "Alternatief: omzetting in belastingkrediet",
+          "formule": "Keuze mogelijk om aftrek (deels) om te zetten in niet-terugbetaalbaar belastingkrediet (art. 289decies + 292ter)",
+          "confidence": "grounded",
+          "bron": "WIB92 art. 205/1 §1 alinea 3"
+        }
+      ]
+    },
+    {
+      "naam": "Clustering-uitzondering",
+      "beschrijving": "Wanneer per-IP-berekening niet haalbaar is, kan de innovatie-aftrek per type product/dienst of groep van producten/diensten worden berekend",
+      "confidence": "grounded",
+      "bron": "WIB92 art. 205/2 §1 + art. 205/4 §1"
+    }
+  ],
+  "rol_van_de_accountant": {
+    "adviseur": {
+      "KMO-handelsonderneming": {
+        "perspectief": "De adviseur signaleert proactief welke producten of processen van de KMO kwalificerend IP genereren (software, octrooien) en berekent de potentiele belastingbesparing. Hij beoordeelt of de nexus-breuk voldoende hoog is om het regime zinvol te maken.",
+        "confidence": "vuistregel"
+      },
+      "familiale holding": {
+        "perspectief": "Bij IP-overdrachten binnen een familiale groep (IP-box-structuur) controleert de adviseur of de nexus-formule niet nul uitkomt wegens louter IP-aankoop zonder eigen O&O. Risico: arm's length-voorwaarden en nexus-breuk reduceren aftrek.",
+        "confidence": "inferred",
+        "bron": "WIB92 art. 205/3 + art. 205/1 3° (arm's length)"
+      }
+    },
+    "boekhouder": {
+      "KMO-handelsonderneming": {
+        "perspectief": "Correct bijhouden van kwalificerende O&O-kosten per afzonderlijk intellectueel eigendomsrecht op aparte kostenrekening — dit is de basis voor de nexus-noemer en de documentatieverplichting. Bij aanvraag-fase: boeking van de tijdelijke vrijgestelde reserve op afzonderlijke passief-rekening (onaantastbaarheidsvoorwaarde). Bij IP-verlening: omzetting naar definitieve aftrek.",
+        "confidence": "grounded",
+        "bron": "CBN-advies 2018/01 — Fiscale documentatieverplichting + Het intellectueel eigendomsrecht is in aanvraag maar is nog niet ontstaan"
+      }
+    },
+    "fiscaal adviseur": {
+      "KMO-handelsonderneming": {
+        "perspectief": "Berekening en optimalisering van de nexus-breuk, keuze tussen aftrek en omzetting in belastingkrediet (art. 289decies), tijdige indiening van de aangifte met opgave, en aanleg van het documentatiedossier per IP-recht voor de administratie.",
+        "confidence": "grounded",
+        "bron": "WIB92 art. 205/1 §1 + CBN-advies 2018/01 — Fiscale documentatieverplichting"
+      },
+      "familiale holding": {
+        "perspectief": "Analyse van de intercompany-royalty's: enkel royalty's van onafhankelijke derden of interne licentie-inkomsten die aan arm's length-prijs zijn vastgesteld, tellen mee als innovatie-inkomsten. Overdracht van oud octrooi-aftrek naar innovatie-aftrek-regime: overgangsperiode bewaken.",
+        "confidence": "inferred",
+        "bron": "WIB92 art. 205/1 3° + art. 205/2 §1 (overgang octrooi-aftrek)"
+      }
+    }
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      {
+        "fiche": "vennootschapsbelasting",
+        "reden": "Structuur belastbare grondslag Ven.B. — de innovatie-aftrek zit in de aftrekken-fase van de basket-aanpak"
+      },
+      {
+        "fiche": "belastbare-grondslag-vennootschapsbelasting",
+        "reden": "Volgorde aftrekken (art. 207): innovatie-aftrek staat in het lijstje samen met DBI, notionele interest, enz."
+      }
+    ],
+    "kader": [
+      {
+        "fiche": "intellectuele-eigendomsrechten",
+        "reden": "Definitie van kwalificerende IP-rechten is de toegangspoort tot het regime"
+      }
+    ],
+    "naast_relevant": [
+      {
+        "fiche": "octrooi-aftrek",
+        "reden": "Uitdovend voorloper-regime (voor 1 juli 2016) — verward-met relatie"
+      },
+      {
+        "fiche": "investeringsaftrek",
+        "reden": "Andere O&O-gerelateerde aftrek op Ven.B.-niveau — verward-met relatie"
+      },
+      {
+        "fiche": "dbi-aftrek",
+        "reden": "Analoog structureel concept: aftrek op specifieke inkomstenstroom van de belastbare grondslag"
+      }
+    ],
+    "volgkennis": [
+      {
+        "fiche": "belastingkrediet-voor-innovatie-inkomsten",
+        "reden": "Alternatieve omzetting van de innovatie-aftrek naar belastingkrediet (art. 289decies)"
+      }
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      "Herkennen welke intellectuele eigendomsrechten kwalificeren voor de innovatie-aftrek",
+      "Berekenen van de nexus-breuk en het aftrekbedrag",
+      "Beoordelen van de impact van uitbestede versus eigen O&O op de nexus-formule",
+      "Toepassen van de onaantastbaarheidsvoorwaarde bij IP-aanvraag-fase",
+      "Kiezen tussen aftrek en omzetting in belastingkrediet",
+      "Organiseren van de boekhoudkundige documentatie per IP-recht",
+      "Signaleren van het overgangsregime (octrooi-aftrek naar innovatie-aftrek)"
+    ],
+    "termen_alfabetisch": [
+      "aanvullend beschermingscertificaat (ABC)",
+      "aftrek voor innovatie-inkomsten",
+      "arm's length",
+      "auteursrechtelijk beschermde software",
+      "BEPS-actieplan",
+      "belastingkrediet voor innovatie-inkomsten",
+      "clustering",
+      "data- en marktexclusiviteit",
+      "globale uitgaven",
+      "intellectueel eigendomsrecht",
+      "kwalificerende uitgaven",
+      "kwekersrecht",
+      "netto-innovatie-inkomsten",
+      "nexus-formule",
+      "onaantastbaarheidsvoorwaarde",
+      "octrooi",
+      "octrooi-aftrek (uitdovend)",
+      "onderzoek en ontwikkeling (O&O)",
+      "overdraagbaarheid",
+      "tijdelijke vrijstelling",
+      "weesgeneesmiddel"
+    ]
+  }
+}

@@ -14,11 +14,12 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kostenanalyse-make-or-buy.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Make-or-buy-analyse 🤖
+# Make-or-buy-analyse 🔗
 
 De make-or-buy-analyse vergelijkt de kost van zelf produceren met de kost van uitbesteden, gericht op de relevante kosten (vermijdbare kosten bij uitbesteden vs. inkoopprijs + transactiekost). Sunk costs en niet-vermijdbare overhead doen niet ter zake.
+
 
 
 ## Bouwstenen
@@ -115,4 +116,4 @@ Twee à drie scenario's: pessimistisch (volume daalt 20 %), basis, optimistisch.
 
 - **Vereist kennis van**: [[marginale-kostprijs]]
 - **Vereist kennis van**: [[variabele-kosten]]
-
+- **Wordt voorondersteld in** (1): [[sunk-cost]]

@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beroepsverbod-na-insolventie.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Beroepsverbod na faillissement ⚖️
 
@@ -28,6 +28,7 @@ De insolventierechtbank kan, naar aanleiding van een faillissement, een gefaille
 _Bron: WER art. XX.229-XX.232_
 
 
+
 ## In de praktijk
 
 <h3 id="wie-kan-het-verbod-vorderen">Wie kan het verbod vorderen?</h3>
@@ -38,7 +39,7 @@ _Bron: WER art. XX.229-XX.232_
 <h3 id="effect-op-de-clientenportefeuille">Effect op de cliëntenportefeuille</h3>
 
 > [!tip]- Effect op de cliëntenportefeuille
-> Een bestuurder of zaakvoerder met een beroepsverbod kan **geen mandaat meer aanvaarden** in een vennootschap. Voor de accountant: dit is een element van **acceptatie- en continuatiebeoordeling** van het cliëntdossier — een veroordeelde mag geen bestuurdersfunctie meer bekleden, dus bestaande mandaten moeten beëindigd worden en nieuwe verzoeken geweigerd. 🤖
+> Een bestuurder of zaakvoerder met een beroepsverbod kan **geen mandaat meer aanvaarden** in een vennootschap. Voor de accountant: dit is een element van **acceptatie- en continuatiebeoordeling** van het cliëntdossier — een veroordeelde mag geen bestuurdersfunctie meer bekleden, dus bestaande mandaten moeten beëindigd worden en nieuwe verzoeken geweigerd. 🔗
 
 <h3 id="bekendmaking-en-duur">Bekendmaking en duur</h3>
 
@@ -62,15 +63,15 @@ _Bron: WER art. XX.229-XX.232_
 ## Valkuilen
 
 > [!warning]- Het beroepsverbod is **geen automatisch gevolg van faillissement**. Een te goeder trouw gefailleerde — die zijn boekhouding correct heeft gevoerd en tijdig aangifte heeft gedaan — krijgt **geen** verbod en kan zelfs onmiddellijk een nieuwe onderneming opstarten.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Het **burgerlijk beroepsverbod** uit Boek XX WER is iets anders dan het **strafrechtelijk beroepsverbod** uit het Strafwetboek (oud art. 1bis KB 24/10/1996; nieuw art. 48 en 57 Strafwetboek 2024). Beide kunnen cumulatief van toepassing zijn bij ernstige feiten, maar volgen verschillende procedures en hebben verschillende gevolgen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Het verbod treft niet alleen de gefailleerde natuurlijke persoon, maar ook **bestuurders/zaakvoerders van de gefailleerde rechtspersoon** die persoonlijk de boekhoudverplichtingen hebben verzuimd (art. XX.229 §2).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -78,7 +79,7 @@ _Bron: WER art. XX.229-XX.232_
 
 - **Getriggerd door**: [[faillissement]]
 - **Vereist kennis van**: [[bestuurdersaansprakelijkheid-bij-insolventie]]
-
+- **Wordt voorondersteld in** (1): [[faillissement]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

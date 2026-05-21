@@ -20,11 +20,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/implementeren-functiescheiding-transactiecycli.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Implementeren van functiescheiding op kritieke transactiecycli 🤖
+# Implementeren van functiescheiding op kritieke transactiecycli 🔗
 
 Deze competentie vertaalt het abstracte vier-functies-principe naar een concrete inrichting van transactiecycli (aankoop, verkoop, kas/bank, loon, voorraad). De stagiair moet per cyclus de functietoewijzingsmatrix kunnen opstellen, SOD-conflicten kunnen detecteren, compenserende controles kunnen ontwerpen en ERP-rolprofielen kunnen valideren. Examen-vragen testen vaak een KMO-context waarin volledige scheiding niet haalbaar is.
+
 
 
 ## Stappen

@@ -19,11 +19,12 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/historische-evolutie-financiele-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Historische evolutie in financiële analyse 🤖
+# Historische evolutie in financiële analyse 🔗
 
 Een ratio of kengetal pas interpreteren in het licht van de eigen historiek over meerdere boekjaren (typisch 3 tot 5). Trends zijn vaak informatiever dan momentopnames — een verslechterende solvabiliteit is alarmerender dan een statisch lage solvabiliteit.
+
 
 
 ## Bouwstenen
@@ -40,7 +41,7 @@ Voor Rotex Roeselare NV: vraag boekjaren 20W7 t.e.m. 20X1. Constateer dat solvab
 
 _Grondslag: Vakdoctrine_
 
-### Onderscheid eenmalig effect van structurele trend 🤖
+### Onderscheid eenmalig effect van structurele trend 🔗
 
 Identificeer eenmalige gebeurtenissen (overname, herstructurering, uitzonderlijke voorziening) die de cijfers in één boekjaar fors raakten. Filter die uit voor een zuivere trendanalyse.
 
@@ -58,14 +59,14 @@ _Grondslag: Vakdoctrine_
 <h3 id="1.3.II.A">Combineer met sectorvergelijking</h3>
 
 > [!tip]- Combineer met sectorvergelijking
-> Een verslechterende trend in absolute zin kan toch positief zijn als de sector nog sterker verslechtert — relatief gewonnen. Plaats elke conclusie in beide dimensies. 🤖
+> Een verslechterende trend in absolute zin kan toch positief zijn als de sector nog sterker verslechtert — relatief gewonnen. Plaats elke conclusie in beide dimensies. 🔗
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[sectorvergelijking-financiele-analyse]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[sectorvergelijking-financiele-analyse]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.A`

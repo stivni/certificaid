@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/intragroep-eliminaties.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Intragroep-eliminaties ⚖️
 
@@ -30,6 +30,7 @@ Een centraal correctie-mechanisme in het Belgische boekhoudrecht-consolidatiereg
 Bij het opstellen van de geconsolideerde jaarrekening moet je alle onderlinge opbrengsten en kosten, vorderingen en schulden, en niet-gerealiseerde winsten of verliezen tussen groepsleden schrappen. Anders zou dezelfde transactie dubbel verschijnen, en zou de groep winst boeken op verkopen aan zichzelf — winst die economisch nog niet is gerealiseerd buiten de groep.
 
 _Bron: KB WVV art. 3:134 jo. art. 3:136_
+
 
 
 ## Berekening
@@ -238,7 +239,7 @@ Resultaat: Geconsolideerde balans: voorraden en reserves elk −€ 60.000. Geco
 <h3 id="verkocht-actief-vs-verkochte-dienst">Verkocht actief vs. verkochte dienst</h3>
 
 > [!tip]- Verkocht actief vs. verkochte dienst
-> Bij intra-groepsverkoop van een actief dat bij de koper nog op de balans staat (voorraad, materieel actief), schrap je zowel de winst (kostprijs, opbrengsten) als de boekwaarde-aanpassing. Bij intra-groepsdiensten (administratie, beheersvergoedingen) volstaat het wederzijds schrappen van opbrengsten en kosten — er is geen impact op activa want de dienst is al verbruikt. 🤖
+> Bij intra-groepsverkoop van een actief dat bij de koper nog op de balans staat (voorraad, materieel actief), schrap je zowel de winst (kostprijs, opbrengsten) als de boekwaarde-aanpassing. Bij intra-groepsdiensten (administratie, beheersvergoedingen) volstaat het wederzijds schrappen van opbrengsten en kosten — er is geen impact op activa want de dienst is al verbruikt. 🔗
 
 > [!tip]- Herkennen op het examen
 > Vraag: zit het verkochte actief op balansdatum nog binnen de groep? Ja → ook marge-eliminatie in actief. Nee → enkel P&L-eliminatie.
@@ -246,7 +247,7 @@ Resultaat: Geconsolideerde balans: voorraden en reserves elk −€ 60.000. Geco
 <h3 id="belastinggevolgen-op-intragroep-winst">Belastinggevolgen op intragroep-winst</h3>
 
 > [!tip]- Belastinggevolgen op intragroep-winst
-> Bij eliminatie van een intra-groepswinst kan een tijdelijk belastingverschil ontstaan: de winst is fiscaal al belast (bij de verkopende dochter), maar bij consolidatie ongerealiseerd. KB WVV art. 3:119 regelt de behandeling van dat belastingverschil bij consolidatie. 🤖
+> Bij eliminatie van een intra-groepswinst kan een tijdelijk belastingverschil ontstaan: de winst is fiscaal al belast (bij de verkopende dochter), maar bij consolidatie ongerealiseerd. KB WVV art. 3:119 regelt de behandeling van dat belastingverschil bij consolidatie. 🔗
 
 
 ## Stappen

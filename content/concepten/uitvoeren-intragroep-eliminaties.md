@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoeren-intragroep-eliminaties.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden 🤖
+# Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden 🔗
 
 Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). De stagiair elimineert onderlinge vorderingen, schulden, kosten, opbrengsten en niet-gerealiseerde winsten, en berekent vervolgens het aandeel van derden in resultaat en eigen vermogen.
+
 
 
 ## Stappen

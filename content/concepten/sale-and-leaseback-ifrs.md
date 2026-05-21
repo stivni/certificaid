@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/sale-and-leaseback-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Sale-and-leaseback onder IFRS (IFRS 16) ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 Een **sale-and-leaseback** (verkoop-en-terugleasing) is een samengestelde transactie waarbij één onderneming (de **verkoper-lessee**) een actief verkoopt aan een andere onderneming (de **koper-lessor**) en datzelfde actief onmiddellijk van de koper terugleaset (alinea 98). Economisch is het een financieringstechniek: de verkoper-lessee genereert liquiditeit door eigendom over te dragen, maar blijft het actief gebruiken via een lease. IFRS 16 verwerkt het in twee stappen: eerst beoordelen of de overdracht überhaupt **een verkoop is volgens IFRS 15-criteria** (alinea 99 — vooral het 'zeggenschap'-criterium), en dan op basis daarvan kiezen tussen twee verwerkingspaden. Onder BE-GAAP geldt artikel 63 KB W.Venn.: de meerwaarde uit de overdracht wordt **uitgesteld** via een overlopende rekening en jaarlijks in resultaat genomen naar verhouding van de afschrijving van het geleasde goed — de transactie wordt economisch als één geheel beschouwd.
 
 _Bron: IFRS 16 alinea 98-103_
+
 
 
 ## Bouwstenen

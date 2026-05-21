@@ -15,18 +15,21 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wijziging-consolidatiekring.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Wijziging van de consolidatiekring 🤖
+# Wijziging van de consolidatiekring 🔗
 
 Een verzamelthema in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): elke wijziging in de samenstelling van de groep tussen twee boekjaren — verwerving, vervreemding, status-wissel, uittreding. Doel: tonen welke verschillen tussen openingsbalans en vergelijkende cijfers structureel zijn en welke louter van wijziging-in-kring komen.
 
 > [!summary] Korte inhoud
 > Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren.
 
+> [!info] Specialisaties (2): [[eerste-consolidatie]] · [[step-acquisition]]
+
 Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren. Vijf typische gevallen: (1) opname van een nieuw verworven dochter (eerste consolidatie); (2) wegvallen van een verkochte of geliquideerde dochter; (3) verschuiving van kwalificatie (van geassocieerde naar dochter via step-acquisition, of omgekeerd); (4) wijziging van het type controle (van gezamenlijk naar exclusief of omgekeerd); (5) opname van een voorheen uitgesloten dochter. Elk geval vraagt specifieke boekhoudkundige verwerkingen: berekening van een (eventueel nieuw) consolidatieverschil, herbeoordeling van waarderingsregels en aanpassing van de vergelijkende cijfers in de toelichting.
 
 _Bron: KB WVV art. 3:129, 3:132, 3:152_
+
 
 
 ## Bouwstenen

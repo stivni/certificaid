@@ -1,0 +1,272 @@
+{# ============================================================
+   Schema 2.0 secties — ingevoegd door concept_fiche.md.j2
+   wanneer record.schema_version == '2.0'
+   ============================================================ #}
+
+{# --- Wat er economisch echt gebeurt --- #}
+{% set echt = record.wat_er_economisch_echt_gebeurt %}
+{% if echt %}
+{% set echt_text = echt.text if echt is mapping and echt.text else (echt.inhoud if echt is mapping and echt.inhoud else (echt | string if echt is not mapping else '')) %}
+{% set echt_conf = echt.confidence | default('inferred') | confidence_label if echt is mapping else '' %}
+{% if echt_text %}
+## Wat er economisch echt gebeurt {{ echt_conf }}
+
+{{ echt_text }}
+
+{% endif %}
+{% endif %}
+
+{# --- Voorkennis & leespad --- #}
+{% set leespad = record.voorkennis_leespad %}
+{% if leespad %}
+## Voorkennis & leespad
+
+{% set voorvereisten = leespad.voorvereisten | default([]) %}
+{% if voorvereisten %}
+- **Lees eerst** (voorvereisten):
+{% for item in voorvereisten %}
+{% if item is mapping %}
+  [[{{ item.fiche }}]]{% if item.reden %} — {{ item.reden }}{% endif %}
+{% else %}
+  [[{{ item }}]]
+{% endif %}
+{% endfor %}
+
+{% endif %}
+{% set kader = leespad.kader %}
+{% if kader %}
+{% if kader is string %}
+- **Past binnen kader**: [[{{ kader }}]]
+{% elif kader is iterable %}
+- **Past binnen kader**:
+{% for item in kader %}
+{% if item is mapping %}
+  [[{{ item.fiche }}]]{% if item.reden %} — {{ item.reden }}{% endif %}
+{% else %}
+  [[{{ item }}]]
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% endif %}
+{% set naast_relevant = leespad.naast_relevant | default([]) %}
+{% if naast_relevant %}
+- **Naast deze fiche relevant**:
+{% for item in naast_relevant %}
+{% if item is mapping %}
+  [[{{ item.fiche }}]]{% if item.reden %} — {{ item.reden }}{% endif %}
+{% else %}
+  [[{{ item }}]]
+{% endif %}
+{% endfor %}
+
+{% endif %}
+{% set volgkennis = leespad.volgkennis | default([]) %}
+{% if volgkennis %}
+- **Bij vervolgvragen**:
+{% for item in volgkennis %}
+{% if item is mapping %}
+  [[{{ item.fiche }}]]{% if item.reden %} — {{ item.reden }}{% endif %}
+{% else %}
+  [[{{ item }}]]
+{% endif %}
+{% endfor %}
+
+{% endif %}
+{% endif %}
+
+{# --- Wanneer van toepassing --- #}
+{% set wanneer = record.wanneer_van_toepassing %}
+{% if wanneer %}
+## Wanneer van toepassing
+
+{% if wanneer.introductie %}
+{{ wanneer.introductie }}
+
+{% endif %}
+
+{# Voor wie #}
+{% set voor_wie = wanneer.voor_wie %}
+{% if voor_wie %}
+### Voor wie
+
+{% if voor_wie is mapping %}
+{% set vw_text = voor_wie.text | default(voor_wie.tekst | default('')) %}
+{% set vw_conf = voor_wie.confidence | default('') | confidence_label if voor_wie.confidence is defined else '' %}
+{{ vw_text }} {{ vw_conf }}
+{% else %}
+{{ voor_wie }}
+{% endif %}
+
+{% endif %}
+
+{# Wanneer wel #}
+{% set wanneer_wel = wanneer.wanneer_wel | default([]) %}
+{% if wanneer_wel %}
+### Wanneer wel
+
+{% for item in wanneer_wel %}
+{% set item_conf = item.confidence | default('inferred') | confidence_label if item is mapping else '' %}
+{% set item_tekst = item.regel | default(item.tekst | default(item.text | default(''))) if item is mapping else item %}
+- {{ item_conf }} {{ item_tekst }}
+{% set item_rationale = item.rationale | default('') if item is mapping else '' %}
+{% if item_rationale %}
+  _{{ item_rationale }}_
+{% endif %}
+
+{% endfor %}
+{% endif %}
+
+{# Wanneer niet #}
+{% set wanneer_niet = wanneer.wanneer_niet | default([]) %}
+{% if wanneer_niet %}
+### Wanneer niet
+
+{% for item in wanneer_niet %}
+{% set item_conf = item.confidence | default('inferred') | confidence_label if item is mapping else '' %}
+{% set item_tekst = item.regel | default(item.tekst | default(item.text | default(''))) if item is mapping else item %}
+- {{ item_conf }} {{ item_tekst }}
+{% set item_rationale = item.rationale | default('') if item is mapping else '' %}
+{% if item_rationale %}
+  _{{ item_rationale }}_
+{% endif %}
+
+{% endfor %}
+{% endif %}
+
+{# Hoofdrisico en hoofdvoordeel #}
+{% set hoofdrisico = wanneer.hoofdrisico %}
+{% if hoofdrisico %}
+### Hoofdrisico
+
+{% set hr_text = hoofdrisico.text | default(hoofdrisico.tekst | default(hoofdrisico | string)) %}
+{% set hr_conf = hoofdrisico.confidence | default('') | confidence_label if hoofdrisico is mapping and hoofdrisico.confidence is defined else '' %}
+{{ hr_text }} {{ hr_conf }}
+
+{% endif %}
+{% set hoofdvoordeel = wanneer.hoofdvoordeel %}
+{% if hoofdvoordeel %}
+### Hoofdvoordeel
+
+{% set hv_text = hoofdvoordeel.text | default(hoofdvoordeel.tekst | default(hoofdvoordeel | string)) %}
+{% set hv_conf = hoofdvoordeel.confidence | default('') | confidence_label if hoofdvoordeel is mapping and hoofdvoordeel.confidence is defined else '' %}
+{{ hv_text }} {{ hv_conf }}
+
+{% endif %}
+{% endif %}
+
+{# --- Hoe het werkt --- #}
+{% set hoe = record.hoe_het_werkt %}
+{% if hoe %}
+## Hoe het werkt
+
+{% if hoe.intro %}
+{{ hoe.intro }}
+
+{% endif %}
+{% for onderdeel in hoe.onderdelen | default([]) %}
+{% include 'partials/schema20_onderdeel.md.j2' %}
+{% endfor %}
+{% endif %}
+
+{# --- Rol van de accountant (schema 2.0 structuur) --- #}
+{% set rol = record.rol_van_de_accountant %}
+{% if rol and rol.perspectieven is defined %}
+{% set rol_van_de_accountant = rol %}
+{% include 'partials/schema20_rol_van_de_accountant.md.j2' %}
+{% elif rol and rol is mapping %}
+{# Fallback: innovatie-aftrek gebruikt een vlakker schema zonder perspectieven-array #}
+## Rol van de accountant
+
+{% for rol_naam, perspectieven in rol.items() %}
+{% if rol_naam != 'intro' and perspectieven is mapping %}
+### {{ rol_naam | capitalize | replace('_', ' ') }}
+
+{% for perspectief_naam, inhoud in perspectieven.items() %}
+{% if inhoud is mapping %}
+#### {{ perspectief_naam }}
+
+{% set p_text = inhoud.perspectief | default(inhoud.text | default('')) %}
+{% set p_conf = inhoud.confidence | default('') | confidence_label if inhoud.confidence is defined else '' %}
+{{ p_text }} {{ p_conf }}
+{% if inhoud.bron %}
+
+_Bron: {{ inhoud.bron }}_
+{% endif %}
+
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{# --- Veelvoorkomende verwarringen --- #}
+{% set verwarringen = record.veelvoorkomende_verwarringen %}
+{% if verwarringen %}
+## Veelvoorkomende verwarringen
+
+{% for item in verwarringen %}
+{% set conf_label = item.confidence | default('inferred') | confidence_label if item is mapping else '' %}
+### {{ item.verwarring | default('') }} {{ conf_label }}
+
+{{ item.uitleg | default('') }}
+
+{% endfor %}
+{% endif %}
+
+{# --- Alternatieven --- #}
+{% set alt = record.alternatieven_zelfde_doel %}
+{% if alt %}
+## Alternatieven (zelfde doel)
+
+{% if alt.intro %}
+{{ alt.intro }}
+
+{% endif %}
+{% for item in alt['items'] | default([]) %}
+- **{{ item.naam }}** — {{ item.uitleg }}{% if item.edge_target %} → [[{{ item.edge_target }}]]{% endif %}
+
+{% endfor %}
+{% endif %}
+
+{# --- Wat dit record dekt --- #}
+{% set dekt = record.wat_dit_record_dekt %}
+{% if dekt %}
+## Wat dit record dekt
+
+{% set competenties = dekt.competenties_chronologisch | default([]) %}
+{% if competenties %}
+### Behandelde competenties (chronologisch)
+
+{% for item in competenties %}
+{% if item is mapping %}
+{{ loop.index }}. **{{ item.titel }}**{% if item.anker %} — zie [{{ item.titel }}]({{ item.anker }}){% endif %}
+{% else %}
+{{ loop.index }}. {{ item }}
+{% endif %}
+{% endfor %}
+
+{% endif %}
+{% set termen = dekt.termen_alfabetisch | default([]) %}
+{% if termen %}
+### Behandelde termen (alfabetisch)
+
+{% for item in termen %}
+{% if item is mapping %}
+- **{{ item.term }}**{% if item.anker %} — zie [↑]({{ item.anker }}){% endif %}
+{% else %}
+- {{ item }}
+{% endif %}
+{% endfor %}
+
+{% endif %}
+{% set formules = dekt.formules | default([]) %}
+{% if formules %}
+### Behandelde formules
+
+{% for formule in formules %}
+- {{ formule }}
+{% endfor %}
+
+{% endif %}
+{% endif %}

@@ -18,11 +18,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/signaleren-risicos-overdracht-of-ontbinding.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Signaleren van risico's bij overdracht of ontbinding (aansprakelijkheid, kapitaalbescherming, fiscaal) 🤖
+# Signaleren van risico's bij overdracht of ontbinding (aansprakelijkheid, kapitaalbescherming, fiscaal) 🔗
 
 Risico-signalerende competentie: bij elke overdracht- of ontbindingsverrichting wijst de gecertificeerd accountant cliënt-bestuurders, vereffenaars of aandeelhouders op aansprakelijkheidsrisico's (bestuurder, vereffenaar, koper), kapitaalbeschermings-overtredingen (BV-uitkeringstests), fiscale klimsporen (latente claims, change-of-control fiscale gevolgen) en insolventie-rode-vlaggen die de gekozen route invalideren.
+
 
 
 ## In de praktijk

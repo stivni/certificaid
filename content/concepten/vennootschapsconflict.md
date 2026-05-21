@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vennootschapsconflict.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Vennootschapsconflict 🤖
+# Vennootschapsconflict 🔗
 
 Vennootschappen zijn duurzame samenwerkingsverbanden tussen aandeelhouders, bestuurders en organen — maar net die duurzaamheid maakt conflicten quasi-onvermijdelijk. De wetgever heeft daarom in de WVV (Boek 2 Titel 7 voor BV/NV) en in de boekspecifieke regimes voor BV/NV/CV een arsenaal aan rechtsfiguren voorzien om geschillen te ontmijnen, een vennoot uit te kopen of de vennootschap te ontbinden. Dit clusterrecord biedt de overkoepelende kaart van die instrumenten; specifieke rechtsfiguren krijgen een eigen record.
 
@@ -26,7 +26,10 @@ Vennootschappen zijn duurzame samenwerkingsverbanden tussen aandeelhouders, best
 
 > [!info] Behoort tot: [[besloten-vennootschap-bv]] · [[naamloze-vennootschap-nv]]
 
+> [!info]- Bestaat uit (16): [[accountantsrol-bij-vennootschapsconflict]] · [[alternatieve-geschilbeslechting-vennootschap]] · [[beslisboom-remedie-vennootschapsconflict]] · [[deadlock-vennootschap]] · [[deskundigenonderzoek-vennootschap]] · [[gegronde-redenen-vennootschapsgeschil]] · [[minderheidsvordering]] · [[misbruik-van-meerderheid]] · [[misbruik-van-minderheid]] · [[nietigverklaring-algemene-vergaderingsbesluit]] · [[opschorting-besluit-vennootschap]] · [[statutaire-uittreding-bv]] · [[uitsluitingsvordering]] · [[uittredingsvordering]] · [[vennootschapsvordering]] · [[vergelijking-vorderingen-vennootschapsconflict]]
+
 Een vennootschapsconflict is een aanhoudend geschil binnen, of rond de werking van, een vennootschap dat de normale besluitvorming of voortzetting van de zaken bemoeilijkt. Het kan ontstaan tussen aandeelhouders onderling (typisch meerderheid-minderheid of deadlock 50/50), tussen aandeelhouders en het bestuur, of tussen verschillende bestuursorganen.
+
 
 
 ## Bouwstenen
@@ -78,7 +81,7 @@ De WVV biedt vijf hoofdfiguren: **minderheidsvordering** (aansprakelijkheidsacti
 
 _Grondslag: WVV art. 2:60–2:69 (geschillenregeling), art. 5:104 e.v., art. 7:157 e.v., art. 2:73_
 
-### Contractuele en alternatieve geschilbeslechting 🤖
+### Contractuele en alternatieve geschilbeslechting 🔗
 
 Naast wettelijke vorderingen worden conflicten ook contractueel of buitengerechtelijk opgelost: **deadlock-clausules in de aandeelhoudersovereenkomst** (Russian roulette, Texas shoot-out, koop-of-verkoop-aanbod), **arbitrage**, **mediation** en **expertise**.
 
@@ -105,15 +108,15 @@ _Grondslag: Aandeelhoudersovereenkomst — vrijheid van overeenkomst (art. 1101 
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

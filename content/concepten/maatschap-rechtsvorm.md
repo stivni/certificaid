@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/maatschap-rechtsvorm.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Maatschap ⚖️
 
@@ -29,6 +29,7 @@ De maatschap is de oudste en eenvoudigste vennootschapsvorm: een **overeenkomst*
 De maatschap is een **overeenkomst** waarbij twee of meer personen zich verbinden om hun nijverheid, geld of andere lichamelijke of onlichamelijke goederen in gemeenschap te brengen, met het oogmerk het rechtstreekse of onrechtstreekse vermogensvoordeel dat daaruit kan ontstaan met elkaar te delen (WVV art. 4:1). Zij heeft **geen rechtspersoonlijkheid** (WVV art. 1:5 §1).
 
 _Bron: WVV art. 4:1, 1:5 §1_
+
 
 
 ## Bouwstenen
@@ -77,7 +78,7 @@ De maatschap is **stil** wanneer de zaakvoerder in eigen naam optreedt en derden
 
 _Grondslag: WVV art. 4:1, art. 4:14 lid 2_
 
-### Boekhoudplicht zonder jaarrekening-publicatie 🤖
+### Boekhoudplicht zonder jaarrekening-publicatie 🔗
 
 De maatschap is boekhoudplichtig als onderneming (WER Boek III), maar moet géén jaarrekening neerleggen bij de NBB. Praktisch volgt zij een vereenvoudigde of dubbele boekhouding naargelang omzet, maar de jaarrekening blijft intern.
 
@@ -94,12 +95,12 @@ _Grondslag: WER Boek III; WVV Boek 3 niet van toepassing_
 <h3 id="wanneer-kies-je-een-maatschap">Wanneer kies je een maatschap?</h3>
 
 > [!tip]- Wanneer kies je een maatschap?
-> Vrije beroepers die samen praktijk voeren maar geen kapitaalrisico willen scheiden (vroegere 'burgerlijke vennootschap'). Of: familieleden die een effectenportefeuille of een onroerend-goed-portefeuille samen beheren met behoud van persoonlijke fiscale transparantie. De maatschap is **fiscaal transparant** voor de inkomstenbelasting — winsten worden rechtstreeks belast bij de vennoten in hun personenbelasting, niet bij de maatschap zelf. 🤖
+> Vrije beroepers die samen praktijk voeren maar geen kapitaalrisico willen scheiden (vroegere 'burgerlijke vennootschap'). Of: familieleden die een effectenportefeuille of een onroerend-goed-portefeuille samen beheren met behoud van persoonlijke fiscale transparantie. De maatschap is **fiscaal transparant** voor de inkomstenbelasting — winsten worden rechtstreeks belast bij de vennoten in hun personenbelasting, niet bij de maatschap zelf. 🔗
 
 <h3 id="voor-de-stagiair-accountant">Voor de stagiair-accountant</h3>
 
 > [!tip]- Voor de stagiair-accountant
-> Cliënten met een 'familiale maatschap' kom je vaak tegen in vermogensplanning. Voor de boekhouding: vraag de vennootschapsovereenkomst op (geen statuten in formele zin), check de bestuurs- en winstdelingsregels, en let op de **fiscale transparantie** — de maatschap zelf dient geen vennootschapsbelasting-aangifte in, maar de vennoten declareren hun aandeel in hun PB. 🤖
+> Cliënten met een 'familiale maatschap' kom je vaak tegen in vermogensplanning. Voor de boekhouding: vraag de vennootschapsovereenkomst op (geen statuten in formele zin), check de bestuurs- en winstdelingsregels, en let op de **fiscale transparantie** — de maatschap zelf dient geen vennootschapsbelasting-aangifte in, maar de vennoten declareren hun aandeel in hun PB. 🔗
 
 
 ## Valkuilen

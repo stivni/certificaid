@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ifrs-eerste-toepassing.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Eerste toepassing van IFRS (IFRS 1) ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 De **eerste toepassing van IFRS** is de eenmalige overgang waarbij een onderneming voor het eerst een jaarrekening uitbrengt met expliciete en onvoorwaardelijke verklaring van overeenstemming met de IFRSs. Op een vooraf bepaalde **datum van overgang naar IFRS** — de begindatum van de vergelijkende periode — stelt de onderneming een volledig IFRS-conforme openingsbalans op. Alle activa en verplichtingen worden geherwaardeerd, geherclassificeerd of opgenomen alsof IFRS altijd al gold; het verschil met de oude grondslagen wordt rechtstreeks in de ingehouden winsten geboekt.
 
 _Bron: IFRS 1 alinea's 1-7_
+
 
 
 ## Berekening
@@ -165,7 +166,7 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 <h3 id="wanneer-kom-je-dit-tegen">Wanneer kom je dit tegen?</h3>
 
 > [!tip]- Wanneer kom je dit tegen?
-> Bij een Belgische beursgenoteerde groep die voor het eerst een IFRS-geconsolideerde jaarrekening publiceert, bij een dochter die overstapt omdat de buitenlandse moeder IFRS rapporteert, of bij een onderneming die uit een IFRS-stelsel terugkeert naar BE-GAAP en later opnieuw overstapt. 🤖
+> Bij een Belgische beursgenoteerde groep die voor het eerst een IFRS-geconsolideerde jaarrekening publiceert, bij een dochter die overstapt omdat de buitenlandse moeder IFRS rapporteert, of bij een onderneming die uit een IFRS-stelsel terugkeert naar BE-GAAP en later opnieuw overstapt. 🔗
 
 <h3 id="wat-is-de-drie-perioden-presentatie">Wat is de drie-perioden-presentatie?</h3>
 
@@ -211,7 +212,7 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 
 - **Getriggerd door**: [[verplichte-ifrs-eu-beursgenoteerden]]
 - **Vereist kennis van**: [[jaarrekening-componenten-ifrs]]
-
+- **Wordt voorondersteld in** (2): [[bepalen-toepasselijkheid-ifrs-belgie]] · [[uitvoeren-eerste-toepassing-ifrs]]- **Triggert** (1): [[verplichte-ifrs-eu-beursgenoteerden]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

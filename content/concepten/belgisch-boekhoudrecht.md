@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belgisch-boekhoudrecht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Belgisch boekhoudrecht ⚖️
 
@@ -23,14 +23,17 @@ Het Belgisch boekhoudrecht is het hele regelkader dat bepaalt **hoe je een boekh
 > [!summary] Korte inhoud
 > Het geheel van regels in België dat bepaalt hoe een onderneming haar boekhouding moet voeren en haar jaarrekening moet opstellen, openbaar maken en bewaren.
 
+> [!info] Bestaat uit (6): [[cbn-adviezen]] · [[europees-boekhoudrecht]] · [[kb-wvv-uitvoering]] · [[rechtspraak-boekhoudrecht]] · [[wetboek-economisch-recht-boek-iii]] · [[wetboek-vennootschappen-verenigingen]]
+
 Het geheel van regels in België dat bepaalt hoe een onderneming haar boekhouding moet voeren en haar jaarrekening moet opstellen, openbaar maken en bewaren. Het bestaat uit gelaagde rechtsbronnen: Europese richtlijnen en verordeningen, federale wetten (WER en WVV), uitvoerende koninklijke besluiten, CBN-adviezen en rechtspraak.
 
 _Bron: WER art. III.82-III.95_
 
 
+
 ## Bouwstenen
 
-### Vier rechtsbron-lagen 🤖
+### Vier rechtsbron-lagen 🔗
 
 Het boekhoudrecht zit op vier niveaus: (1) Europese verordeningen en richtlijnen, (2) Belgische wetten (WER, WVV), (3) uitvoerende koninklijke besluiten (vooral KB-WVV), (4) CBN-adviezen en rechtspraak ter interpretatie.
 
@@ -72,7 +75,7 @@ _Grondslag: WER art. III.82; CBN-advies 2022/14_
 <h3 id="welke-bron-raadpleeg-ik-eerst">Welke bron raadpleeg ik eerst?</h3>
 
 > [!tip]- Welke bron raadpleeg ik eerst?
-> Stel een concrete boekhoudvraag → klim de hiërarchie af. (1) Is er een Europese verordening met directe werking? (2) Wat zegt het WER of WVV? (3) Is er een uitvoerend KB met een gedetailleerde regel? (4) Is er een CBN-advies dat de regel interpreteert? 🤖
+> Stel een concrete boekhoudvraag → klim de hiërarchie af. (1) Is er een Europese verordening met directe werking? (2) Wat zegt het WER of WVV? (3) Is er een uitvoerend KB met een gedetailleerde regel? (4) Is er een CBN-advies dat de regel interpreteert? 🔗
 
 > [!tip]- Herkennen op het examen
 > Examenvraag 'Welke bron primeert?' → altijd hoogste-in-hiërarchie kiezen.
@@ -80,7 +83,7 @@ _Grondslag: WER art. III.82; CBN-advies 2022/14_
 <h3 id="itaa-lex-als-examen-tool">ITAA-LEX als examen-tool</h3>
 
 > [!tip]- ITAA-LEX als examen-tool
-> Op het ITAA-examen krijgt de stagiair de ITAA-LEX (wettekstenbundel). Daarin staan de relevante wetteksten en KB's — niet alle CBN-adviezen. Voor advies-gevoelige vraagstukken: ken het bestaan van het advies en het kernidee, niet de exacte randnummers. 🤖
+> Op het ITAA-examen krijgt de stagiair de ITAA-LEX (wettekstenbundel). Daarin staan de relevante wetteksten en KB's — niet alle CBN-adviezen. Voor advies-gevoelige vraagstukken: ken het bestaan van het advies en het kernidee, niet de exacte randnummers. 🔗
 
 > [!tip]- Herkennen op het examen
 > ITAA-LEX bevat WER Boek III, WVV Boek 3, KB-WVV; CBN-adviezen worden meestal niet integraal opgenomen.
@@ -95,7 +98,7 @@ _Grondslag: WER art. III.82; CBN-advies 2022/14_
 
 
 > [!warning]- WER en WVV niet door elkaar halen
-> ⚠️ WER en WVV niet door elkaar halen. WER (Boek III) regelt de boekhoudplicht in het algemeen (alle ondernemingen). WVV regelt specifiek de jaarrekening van vennootschappen en verenigingen. Een vraag over 'welke boeken moet ik bijhouden?' zit in WER; een vraag over 'welk schema voor mijn jaarrekening?' zit in WVV + KB-WVV. 🤖
+> ⚠️ WER en WVV niet door elkaar halen. WER (Boek III) regelt de boekhoudplicht in het algemeen (alle ondernemingen). WVV regelt specifiek de jaarrekening van vennootschappen en verenigingen. Een vraag over 'welke boeken moet ik bijhouden?' zit in WER; een vraag over 'welk schema voor mijn jaarrekening?' zit in WVV + KB-WVV. 🔗
 >
 > _Bron: WER Boek III + WVV Boek 3_
 

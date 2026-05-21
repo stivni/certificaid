@@ -18,7 +18,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/effectennorm-opdracht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Verslag bij effectenverrichting (effectennorm) ⚖️
 
@@ -32,6 +32,7 @@ Wanneer een vennootschap nieuwe aandelen uitgeeft, converteerbare obligaties uit
 De effectennorm-opdracht is een gedeelde wettelijk voorbehouden beoordelingsopdracht bij specifieke vennootschapsrechtelijke verrichtingen — uitgifte van nieuwe aandelen, converteerbare obligaties of inschrijvingsrechten, wijziging of opheffing van het voorkeurrecht, en wijziging van de rechten verbonden aan aandelensoorten. De beroepsbeoefenaar verschaft een beperkte mate van zekerheid over of de financiële en boekhoudkundige gegevens in het bestuursverslag in alle van materieel belang zijnde opzichten getrouw en voldoende zijn, zodat de aandeelhouders met geïnformeerde toestemming (informed consent) kunnen beslissen.
 
 _Bron: ITAA-norm Effectennorm §II.2_
+
 
 
 ## Bouwstenen

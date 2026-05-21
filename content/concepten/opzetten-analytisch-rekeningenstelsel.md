@@ -19,11 +19,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opzetten-analytisch-rekeningenstelsel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers 🤖
+# Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers 🔗
 
 Competentie waarmee de stagiair een analytisch rekeningenstelsel in klasse 9 (KB 21.10.2018, vrije invulling) opzet: kostensoorten verbinden met kostencentra en kostendragers, kiezen tussen registratiesystemen (eenvoudige integratie, proportionele integratie, waarderingsneutraal — CBN 3/3), en de aansluiting met de algemene boekhouding (klasse 6, 7) waarborgen. De keuzes moeten in de waarderingsregels worden vastgelegd en consistent toegepast om de cijfers van budget en verschillen-rapportering betrouwbaar te houden.
+
 
 
 ## Stappen

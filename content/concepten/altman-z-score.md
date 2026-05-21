@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/altman-z-score.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Altman Z-score (faillissement-predictiemodel) 🤖
+# Altman Z-score (faillissement-predictiemodel) 🔗
 
 Het Altman Z-model voorspelt het faillissementsrisico van een onderneming via een gewogen lineaire combinatie van vijf ratio's. Een lage Z-waarde signaleert verhoogd faillissementsrisico binnen 2 jaar; een hoge Z-waarde wijst op financiële gezondheid. Belangrijk: het is een discriminantmodel, geen waarschijnlijkheidsuitspraak.
 
 > [!info] Behoort tot: [[kwantitatieve-financiele-diagnose]]
+
 
 
 ## Bouwstenen

@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/proef-en-saldibalans.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Proef- en saldibalans ⚖️
 
@@ -27,6 +27,7 @@ De proef- en saldibalans is de **transitielijst** tussen boekjaar en jaarrekenin
 De proef- en saldibalans is een lijst van alle rekeningen uit de boekhouding, met per rekening: het totaal van de debetboekingen, het totaal van de creditboekingen, en het saldo (debet of credit). Ze wordt minstens één keer per jaar opgemaakt (vóór jaarafsluiting) en is het vertrekpunt voor het samenstellen van de jaarrekening.
 
 _Bron: CBN-advies 174/1 — Regelmatige boekhouding_
+
 
 
 ## Bouwstenen
@@ -43,7 +44,7 @@ Rekening 400 Klanten: debet € 850.000, credit € 720.000 → saldo debet € 
 
 _Grondslag: CBN-advies 174/1_
 
-### Drie functies 🤖
+### Drie functies 🔗
 
 (1) Controlefunctie — debet = credit toont dat geen boeking is misgegaan. (2) Brugfunctie — saldi worden gebruikt om balans en RR op te stellen. (3) Periodieke status — interne tussentijdse rapportering (vaak maandelijks).
 
@@ -55,7 +56,7 @@ Bestuurder van Rotex Roeselare NV vraagt elke maand de proef- en saldibalans →
 
 _Grondslag: Praktijk + CBN-advies 174/1_
 
-### Voor → na eindejaarsverrichtingen 🤖
+### Voor → na eindejaarsverrichtingen 🔗
 
 Eerst maakt men een **voorlopige** proef- en saldibalans op vóór eindejaarsverrichtingen. Daarna worden eindejaarsboekingen (afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen) toegevoegd. Resultaat = **definitieve** proef- en saldibalans → vertrekpunt jaarrekening.
 
@@ -83,7 +84,7 @@ _Grondslag: WER art. III.85; CBN-advies 174/1_
 
 - **Vereist kennis van**: [[minimum-algemeen-rekeningenstelsel]]
 - **Getriggerd door**: [[dubbel-boekhouden]]
-
+- **Triggert** (1): [[eindejaarsverrichtingen]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV maakt eind 2024 een proef- en saldibalans op: rekening 604 Aankopen toont debet € 230.000, credit € 0, saldo € 230.000 debet. Som debet alle rekeningen = som credit alle rekeningen → balans in evenwicht.

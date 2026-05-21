@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ondernemingsrechtbank-bevoegdheid-insolventie.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bevoegdheid ondernemingsrechtbank bij insolventie ⚖️
 
@@ -30,6 +30,7 @@ De insolventierechtbank gelegen in het rechtsgebied waar de schuldenaar zijn **c
 _Bron: WER art. XX.12 § 1_
 
 
+
 ## Voorwaarden / uitzonderingen
 
 - {'tekst': 'Vennootschappen en rechtspersonen: COMI = plaats van de zetel, behoudens tegenbewijs. Vermoeden geldt enkel als de zetel in de drie maanden vóór de aanvraag niet naar een ander rechtsgebied is verplaatst.', 'grondslag': 'WER art. XX.12 § 1, tweede lid', 'confidence': 'grounded', '_provenance': {'inputs': [{'id': 'WER__art_XX_12', 'sha256': None, 'version': 'rag-v1'}]}} ⚖️
@@ -40,18 +41,18 @@ _Bron: WER art. XX.12 § 1_
 ## Valkuilen
 
 > [!warning]- Controleer altijd of de zetel in de drie maanden vóór de aanvraag verplaatst is. Bij recente verplaatsing **werkt het vermoeden niet** en moet de werkelijke COMI bewezen worden (locatie operaties, hoofdactiviteit, contactpunt voor schuldeisers).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Voor concerns: dien procedures parallel aan bij dezelfde rechtbank wanneer de moeder al een procedure heeft. De rechtbank kan dan één gemeenschappelijke insolventiefunctionaris aanstellen (XX.13), wat coördinatie en kosten significant verbetert.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[voorwaarden-faillietverklaring]]
-
+- **Wordt voorondersteld in** (3): [[homologatie-collectief-akkoord]] · [[overdracht-onder-gerechtelijk-gezag]] · [[rehabilitatie-gefailleerde]]
 ## Voorbeelden
 
 ### COMI-test met recente zetelverplaatsing

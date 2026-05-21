@@ -16,9 +16,10 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/toetsen-bijzondere-waardevermindering-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toetsen van een actief op bijzondere waardevermindering onder IFRS (IAS 36) 🤖
+# Toetsen van een actief op bijzondere waardevermindering onder IFRS (IAS 36) 🔗
+
 
 
 ## Stappen

@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toegevoegde-waarde-financiele-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toegevoegde waarde (economische maatstaf in financiële analyse) 🤖
+# Toegevoegde waarde (economische maatstaf in financiële analyse) 🔗
 
 Toegevoegde waarde meet de welvaart die de onderneming zelf creëert door productie of dienstverlening, los van de waarde die ze inkoopt bij derden. Het is de economische bovenbouw van de resultatenrekening: hoeveel waarde voegt de onderneming toe aan de aangekochte goederen en diensten?
 
 > [!info] Behoort tot: [[ratio-vier-doelen-vergelijking]]
+
 
 
 ## Bouwstenen
@@ -106,7 +107,7 @@ _Resultaat in EUR/VTE_
 ## Zie ook
 
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[herstructurering-resultatenrekening]]
 ## Bronnen
 
 [^1]: `anchor-1.9.V.A`

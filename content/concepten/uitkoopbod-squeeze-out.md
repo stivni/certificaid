@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitkoopbod-squeeze-out.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Uitkoopbod (squeeze-out) — 95%-drempel ⚖️
 
@@ -29,6 +29,7 @@ Bij een vergaande controleverwerving (≥ 95%) wordt het in stand houden van een
 Een **eenzijdig recht** van de **95%-aandeelhouder** om **alle resterende stemrecht-verlenende effecten** **op te kopen** met **consignatie van de prijs** — zelfs zonder instemming van de minderheidshouders. Geldt voor niet-genoteerde NV's; voor genoteerde NV's bestaat een parallelle squeeze-out na openbaar bod onder de OBW 2007.
 
 _Bron: WVV art. 7:82_
+
 
 
 ## In de praktijk
@@ -61,7 +62,7 @@ _Bron: WVV art. 7:82_
 ## Valkuilen
 
 > [!warning]- Een aandeelhouder die **niet wil verkopen** moet **expliciet en schriftelijk** te kennen geven dat hij geen afstand wenst te doen. **Stilzwijgen = van rechtswege overdracht** met consignatie van de prijs.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -72,7 +73,7 @@ _Bron: WVV art. 7:82_
 
 ## Voorbeelden
 
-Aurelia Holding NV bezit 96% van de aandelen van een niet-genoteerde NV, Brugse Brouwerij NV. De resterende 4% zijn verspreid over 12 historische minderheidsaandeelhouders. Aurelia lanceert een uitkoopbod (art. 7:82): 10 van de 12 stemmen toe; de 2 verzettende minderheidsaandeelhouders worden voor de **rechtbank** gebracht, die de **billijke prijs** vaststelt. Na afloop gaan ook hun aandelen van rechtswege over, met consignatie van de vastgestelde prijs. _(Aurelia Holding NV, Brugse Brouwerij BV)_ 🤖
+Aurelia Holding NV bezit 96% van de aandelen van een niet-genoteerde NV, Brugse Brouwerij NV. De resterende 4% zijn verspreid over 12 historische minderheidsaandeelhouders. Aurelia lanceert een uitkoopbod (art. 7:82): 10 van de 12 stemmen toe; de 2 verzettende minderheidsaandeelhouders worden voor de **rechtbank** gebracht, die de **billijke prijs** vaststelt. Na afloop gaan ook hun aandelen van rechtswege over, met consignatie van de vastgestelde prijs. _(Aurelia Holding NV, Brugse Brouwerij BV)_ 🔗
 
 ## Bronnen
 

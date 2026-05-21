@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuursorgaan.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bestuursorgaan ⚖️
 
@@ -27,9 +27,12 @@ Het bestuursorgaan is het wettelijk orgaan dat een vennootschap bestuurt en haar
 
 > [!info] Behoort tot: [[wetboek-vennootschappen-verenigingen]]
 
+> [!info]- Bestaat uit (5): [[belangenconflict-bestuurder]] · [[bevoegdheid-bestuursorgaan]] · [[dagelijks-bestuur]] · [[rechtspersoon-bestuurder-vaste-vertegenwoordiger]] · [[vertegenwoordiging-vennootschap-jegens-derden]] · Specialisaties (4): [[bestuur-bv-cv-werkwijze]] · [[duaal-bestuur]] · [[enige-bestuurder]] · [[monistisch-bestuur]]
+
 Het bestuursorgaan is het door de wet en de statuten aangewezen orgaan dat instaat voor het algemeen bestuur van een vennootschap: het neemt de strategische en operationele beslissingen die niet aan de algemene vergadering zijn voorbehouden, en vertegenwoordigt de vennootschap jegens derden. De concrete vormgeving van het bestuursorgaan hangt af van de vennootschapsvorm en, voor de NV, van een statutaire keuze tussen een monistisch en een duaal model.
 
 _Bron: WVV art. 5:70, 6:58, 7:85, 7:104_
+
 
 
 ## Bouwstenen
@@ -64,7 +67,7 @@ De NV kent drie wettelijk geregelde bestuursmodellen, die de statuten moeten kie
 
 
 
-Aurelia Holding NV kiest in haar statuten voor een monistisch model: een raad van bestuur met drie bestuurders (Pieter Vermeulen, Sofie Janssens en Marleen De Cock). De algemene vergadering benoemt hen voor vier jaar; hun mandaat is hernieuwbaar. _(Aurelia Holding NV, Pieter Vermeulen, Sofie Janssens, Marleen De Cock)_ 🤖
+Aurelia Holding NV kiest in haar statuten voor een monistisch model: een raad van bestuur met drie bestuurders (Pieter Vermeulen, Sofie Janssens en Marleen De Cock). De algemene vergadering benoemt hen voor vier jaar; hun mandaat is hernieuwbaar. _(Aurelia Holding NV, Pieter Vermeulen, Sofie Janssens, Marleen De Cock)_ 🔗
 
 _Grondslag: WVV art. 7:85 (raad van bestuur), art. 7:101 (enige bestuurder), art. 7:104-7:107 (duaal bestuur)_
 
@@ -88,7 +91,7 @@ _Grondslag: WVV art. 9:5 e.v. (vzw) en art. 11:5 e.v. (stichting)_
 ## Zie ook
 
 - **Vereist kennis van**: [[vennootschapsvormen-typologie]]
-
+- **Wordt voorondersteld in** (4): [[belangenconflict-bestuurder-vzw-stichting]] · [[ontbinding-vennootschap]] · [[vennootschapsconflict]] · [[vereffenaar]]
 ## Bronnen
 
 [^1]: `WVV__art_5_60`

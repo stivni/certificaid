@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/microvennootschap.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Microvennootschap (WVV art. 1:25) ⚖️
 
@@ -28,6 +28,7 @@ Een microvennootschap is een **kleine vennootschap onder de strengere micro-drem
 Een microvennootschap is een kleine vennootschap die ook nog onder de strengere micro-drempels blijft (personeelsbezetting ≤ 10, omzet excl. BTW ≤ € 900.000, balanstotaal ≤ € 450.000) én géén moeder- of dochtervennootschap is. Mag het microschema (KB-WVV bijlage 3) gebruiken — het meest beknopte jaarrekening-model.
 
 _Bron: WVV art. 1:25_
+
 
 
 ## Bouwstenen

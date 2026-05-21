@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aangepast-oordeel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Aangepast oordeel (modified opinion) 🤖
+# Aangepast oordeel (modified opinion) 🔗
 
 Een aangepast (modified) oordeel is een verzamelterm voor de drie controleoordeel-types die afwijken van het standaard goedkeurende oordeel zonder voorbehoud: oordeel met voorbehoud, afkeurend oordeel, oordeelonthouding. De keuze tussen de drie wordt gestuurd door twee assen: (1) bron — afwijking in de financiële overzichten vs. scope-beperking; (2) intensiteit — materieel maar geïsoleerd vs. materieel én diepgaand. Bij elk aangepast oordeel hoort een ‘Basis voor het oordeel’-paragraaf vóór de oordeelsparagraaf in het controleverslag.
 
@@ -30,18 +30,19 @@ Een aangepast oordeel is elk oordeel dat AFWIJKT van een goedkeurend oordeel zon
 _Bron: ISA 705 (herzien) §4 + ITAA KMO-controlenorm §118_
 
 
+
 ## In de praktijk
 
 <h3 id="basis-voor-het-oordeel-apart-vermelden">Basis voor het oordeel apart vermelden</h3>
 
 > [!tip]- Basis voor het oordeel apart vermelden
-> Bij elk aangepast oordeel komt een paragraaf 'Basis voor het oordeel met voorbehoud / afkeurend oordeel / onthouding van oordeel' VÓÓR de oordeelsparagraaf, met uitleg over de aard en het bedrag (waar mogelijk) van de afwijking of scope-beperking. 🤖
+> Bij elk aangepast oordeel komt een paragraaf 'Basis voor het oordeel met voorbehoud / afkeurend oordeel / onthouding van oordeel' VÓÓR de oordeelsparagraaf, met uitleg over de aard en het bedrag (waar mogelijk) van de afwijking of scope-beperking. 🔗
 
 
 ## Zie ook
 
 - **Getriggerd door**: [[afwijking-van-materieel-belang]]
-
+- **Wordt voorondersteld in** (1): [[opstellen-controleverslag-en-formuleren-oordeel]]- **Triggert** (1): [[afwijking-van-materieel-belang]]
 ## Voorbeelden
 
 Bij Naaiatelier Ninove BV ontdekt Sofie Janssens dat de continuïteitsveronderstelling materieel onzeker is én onvoldoende toegelicht. Eén stevige afwijking → oordeel met voorbehoud (aangepast oordeel).

@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/tabel-waardemutaties.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Tabel van waardemutaties (mutatietabel vaste activa) 🤖
+# Tabel van waardemutaties (mutatietabel vaste activa) 🔗
 
 De tabel van waardemutaties toont voor elke rubriek vaste activa de bewegingen van het boekjaar: aanschaffingen, desinvesteringen, overdrachten, afschrijvingen, waardeverminderingen en hun terugnemingen. Ze verbindt de openingsbalans met de eindbalans en is bron voor de kasstroomanalyse.
 
 > [!info] Behoort tot: [[jaarrekening-als-studieobject]]
+
 
 
 ## Bouwstenen

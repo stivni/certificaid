@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ontbinding-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Ontbinding van een vennootschap ⚖️
 
@@ -23,9 +23,12 @@ Ontbinding is de scharnier waar het accountantswerk inhoudelijk verandert: de **
 > [!summary] Korte inhoud
 > **Ontbinding** is de juridische gebeurtenis die een einde maakt aan de normale werking van een vennootschap en de **vereffeningsfase** opent.
 
+> [!info] Bestaat uit (3): [[gerechtelijke-ontbinding]] · [[ontbinding-van-rechtswege]] · [[vrijwillige-ontbinding]]
+
 **Ontbinding** is de juridische gebeurtenis die een einde maakt aan de normale werking van een vennootschap en de **vereffeningsfase** opent. De vennootschap **blijft als rechtspersoon bestaan** voor de duur van haar vereffening (art. 2:76 WVV), maar haar bedrijfsdoel verschuift naar het te gelde maken van activa, betalen van schulden en verdelen van het saldo. Art. 2:70 WVV onderscheidt drie ontbindingsgronden: besluit van de algemene vergadering (vrijwillig), van rechtswege, of door een gerechtelijke beslissing. De ontbinding heeft de **afsluiting van het boekjaar** tot gevolg.
 
 _Bron: WVV art. 2:70 — 2:76_
+
 
 
 ## Bouwstenen
@@ -80,7 +83,7 @@ _Grondslag: KB WVV art. 3:6, § 2; CBN 2018/18_
 <h3 id="hoe-herken-je-een-ontbindingsdossier">Hoe herken je een ontbindingsdossier?</h3>
 
 > [!tip]- Hoe herken je een ontbindingsdossier?
-> De cliënt vraagt om een verslag op een **staat van activa en passiva** of om de opdracht voorzien in art. 2:71, § 2 WVV. De accountant moet dan eerst vaststellen welke ontbindingsgrond aan de orde is — die bepaalt of er een AV-besluit voorligt, een vonnis, of een statutaire einddatum. 🤖
+> De cliënt vraagt om een verslag op een **staat van activa en passiva** of om de opdracht voorzien in art. 2:71, § 2 WVV. De accountant moet dan eerst vaststellen welke ontbindingsgrond aan de orde is — die bepaalt of er een AV-besluit voorligt, een vonnis, of een statutaire einddatum. 🔗
 
 
 ## Valkuilen
@@ -103,7 +106,7 @@ _Grondslag: KB WVV art. 3:6, § 2; CBN 2018/18_
 - **Getriggerd door**: [[continuiteitsbeginsel]]
 - **Vereist kennis van**: [[vereffening]]
 - **Vereist kennis van**: [[bestuursorgaan]]
-
+- **Wordt voorondersteld in** (3): [[adviseren-ontbindingsroute-vennootschap]] · [[exit-routes-onderneming-overzicht]] · [[opstellen-verslag-ontbinding-vereffening-staat]]
 ## Voorbeelden
 
 Verffabriek Veurne BV stopt met haar activiteit. De algemene vergadering van 30 september 20N1 beslist tot ontbinding (vrijwillig) en stelt vereffenaar Pieter Vermeulen aan. Op 30 september wordt het boekjaar afgesloten en de staat van activa en passiva opgesteld in discontinuïteit. De vennootschap blijft bestaan als **Verffabriek Veurne BV in vereffening** tot de sluiting van de vereffening, vermoedelijk in 20N2. _(Verffabriek Veurne BV, Pieter Vermeulen)_

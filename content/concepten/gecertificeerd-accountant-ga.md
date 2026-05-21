@@ -18,7 +18,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gecertificeerd-accountant-ga.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Gecertificeerd accountant (GA) ⚖️
 
@@ -32,6 +32,7 @@ De gecertificeerd accountant (GA) is het beroep dat door het ITAA wordt georgani
 Een gecertificeerd accountant (GA) is een door het ITAA (Instituut van de Belastingadviseurs en de Accountants) erkend beroepsbeoefenaar bevoegd voor het organiseren van boekhouding, opmaken van jaarrekeningen, fiscaal advies en — in een aantal gevallen, in monopolie of gedeeld met de bedrijfsrevisor — voor opdrachten met attestering of expertiseverslag bestemd voor derden.
 
 _Bron: Wet 17 maart 2019 (ITAA-wet) art. 3_
+
 
 
 ## Bouwstenen
@@ -60,6 +61,9 @@ Wolters & Partners CVBA kan voor Meubelzaak Mertens BV een contractuele audit do
 _Grondslag: ITAA KMO-controlenorm §4 + Wet 7 december 2016_
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (3): [[algemene-controlenorm-accountant]] · [[tuchtrechtelijke-aansprakelijkheid-accountant]] · [[wettelijke-verklaring-gecertificeerd-accountant]]
 ## Voorbeelden
 
 Sofie Janssens is gecertificeerd accountant bij Wolters & Partners. Zij organiseert de boekhouding van Meubelzaak Mertens BV, stelt de fiscale aangifte op en voert vrijwillig een contractuele controle uit op de jaarrekening 2025 — geen commissariaat (dat is voorbehouden aan de bedrijfsrevisor).

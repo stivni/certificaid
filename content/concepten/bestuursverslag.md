@@ -22,7 +22,7 @@ node_type: procedure
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuursverslag.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Bestuursverslag (jaarverslag) ⚖️
 
@@ -31,9 +31,12 @@ Voor grote vennootschappen is het bestuursverslag het document waarin het bestuu
 > [!summary] Korte inhoud
 > Het bestuursorgaan stelt een bestuursverslag op dat een getrouw overzicht geeft van de ontwikkeling, de resultaten en de positie van de onderneming, alsmede een beschrijving van de voornaamste risico's en onzekerheden.
 
+> [!info] Bestaat uit (2): [[corporate-governance-verklaring]] · [[risicoparagraaf-bestuursverslag]]
+
 Het bestuursorgaan stelt een bestuursverslag op dat een getrouw overzicht geeft van de ontwikkeling, de resultaten en de positie van de onderneming, alsmede een beschrijving van de voornaamste risico's en onzekerheden. Het overzicht moet evenwichtig en volledig zijn, in verhouding tot omvang en complexiteit van het bedrijf.
 
 _Bron: Richtlijn 2013/34/EU art. 19, lid 1_
+
 
 
 ## In de praktijk
@@ -41,7 +44,7 @@ _Bron: Richtlijn 2013/34/EU art. 19, lid 1_
 <h3 id="1.3.I.E">Tegenhanger van de cijfers — vaak waar de analist begint</h3>
 
 > [!tip]- Tegenhanger van de cijfers — vaak waar de analist begint
-> Een goede analist leest eerst het bestuursverslag voor context, dan pas de cijfers. Het verslag duidt waarom de cijfers zo evolueerden — zonder die duiding zijn de ratio's slechts cijfers. 🤖
+> Een goede analist leest eerst het bestuursverslag voor context, dan pas de cijfers. Het verslag duidt waarom de cijfers zo evolueerden — zonder die duiding zijn de ratio's slechts cijfers. 🔗
 
 <h3 id="1.3.I.E">Vrijstelling voor kleine ondernemingen</h3>
 
@@ -150,7 +153,7 @@ Voor genoteerde vennootschappen (en sommige andere): een verklaring inzake corpo
 ## Valkuilen
 
 > [!warning]- Bestuursverslag dat alleen herhaalt wat in de jaarrekening staat is waardeloos — én niet conform
-> ⚠️ Bestuursverslag dat alleen herhaalt wat in de jaarrekening staat is waardeloos — én niet conform. De richtlijn vraagt 'analyse', niet 'beschrijving van cijfers'. Bij audit/review: meld 'inhoudsloos bestuursverslag' als opmerking. 🤖
+> ⚠️ Bestuursverslag dat alleen herhaalt wat in de jaarrekening staat is waardeloos — én niet conform. De richtlijn vraagt 'analyse', niet 'beschrijving van cijfers'. Bij audit/review: meld 'inhoudsloos bestuursverslag' als opmerking. 🔗
 >
 > _Bron: Richtlijn 2013/34/EU art. 19_
 
@@ -165,7 +168,7 @@ Voor genoteerde vennootschappen (en sommige andere): een verklaring inzake corpo
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
-
+- **Wordt voorondersteld in** (1): [[algemene-vergadering-toezichtsfunctie]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

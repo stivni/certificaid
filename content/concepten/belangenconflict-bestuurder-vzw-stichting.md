@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belangenconflict-bestuurder-vzw-stichting.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Belangenconflict van een bestuurder in vzw en stichting ⚖️
 
@@ -28,6 +28,7 @@ Het WVV onderwerpt ook vzw's en stichtingen aan een belangenconflict-regeling, m
 Het belangenconflict-regime voor vzw's (art. 9:8) en stichtingen (art. 11:8-11:9) verplicht een bestuurder met een rechtstreeks of onrechtstreeks vermogensrechtelijk belang dat strijdig is met dat van de vereniging of stichting om dit vooraf mee te delen en zich te onthouden van beraadslaging en stemming. Het bestuursorgaan mag de beslissing niet delegeren. Het verschil met vennootschappen ligt in (a) de drempel waarboven het bestuursorgaan een gemotiveerd verslag in het jaarverslag opneemt, en (b) de afwezigheid van een AV in de stichting waardoor een eigen vangnet geldt.
 
 _Bron: WVV art. 9:8; 11:8, 11:9_
+
 
 
 ## Bouwstenen
@@ -51,7 +52,7 @@ Wanneer een vzw op de balansdatum van het laatst afgesloten boekjaar meer dan é
 
 
 
-VZW Quelle de Vie overschrijdt twee groottedrempels van art. 3:47, § 2. Een bestuurder verhuurt zijn privé-pand aan de vzw voor € 24.000 per jaar. Het bestuursorgaan beschrijft in de notulen de huurvoorwaarden, vergelijkt ze met marktcondities en motiveert dat de prijs marktconform is; het verslag wordt samen met de jaarrekening neergelegd. _(VZW Quelle de Vie)_ 🤖
+VZW Quelle de Vie overschrijdt twee groottedrempels van art. 3:47, § 2. Een bestuurder verhuurt zijn privé-pand aan de vzw voor € 24.000 per jaar. Het bestuursorgaan beschrijft in de notulen de huurvoorwaarden, vergelijkt ze met marktcondities en motiveert dat de prijs marktconform is; het verslag wordt samen met de jaarrekening neergelegd. _(VZW Quelle de Vie)_ 🔗
 
 _Grondslag: WVV art. 9:8, § 1, vierde tot zesde lid; 3:47, § 2_
 

@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/master-budget.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Master-budget (geconsolideerd budget) 🤖
+# Master-budget (geconsolideerd budget) 🔗
 
 Het master-budget is het geconsolideerde geheel van alle deelbudgetten (verkoop, productie, materiaal-inkoop, arbeid, overhead, investeringen, kasstroom), uitgedrukt in drie pro-forma overzichten: resultatenrekening, balans en kasstroomtabel. Eindpunt van de budgetprocedure: het integreert top-down doelstellingen met bottom-up afdelings-input tot een consistente set financiële projecties voor het bestuur. Voor de stagiair: master-budget is hét overzichtsdocument dat alle deelbudgetten samenbrengt; de pro-forma-jaarrekening laat zien wat de onderneming bij plan-realisatie zou opleveren.
 
@@ -28,6 +28,7 @@ Het master-budget is het geconsolideerde geheel van alle deelbudgetten (verkoop,
 Het master-budget is het geconsolideerde geheel van alle deelbudgetten, uitgedrukt in drie geprojecteerde financiële overzichten: pro-forma resultatenrekening, pro-forma balans en pro-forma kasstroomtabel voor het komende boekjaar. Het bestaat uit een operationeel budget (verkopen, productie, kosten, resultaat) en een financieel budget (kasstromen, investeringen, financiering).
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## Bouwstenen

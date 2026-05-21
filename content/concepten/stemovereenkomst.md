@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/stemovereenkomst.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Stemovereenkomst tussen aandeelhouders ⚖️
 
@@ -31,12 +31,13 @@ Een **stemovereenkomst** (of stemafspraak) is een contractuele afspraak tussen t
 _Bron: WVV art. 5:46 § 1_
 
 
+
 ## In de praktijk
 
 <h3 id="bv-vs-nv">BV vs NV</h3>
 
 > [!tip]- BV vs NV
-> De **letterlijke wetstekst** (art. 5:46) staat in het BV-boek; voor de NV geldt via systematische verwijzing en doorwerking (zie ook art. 7:155 voor soortklasses) dezelfde regeling. In de praktijk worden BV- en NV-stemafspraken **identiek** opgesteld. 🤖
+> De **letterlijke wetstekst** (art. 5:46) staat in het BV-boek; voor de NV geldt via systematische verwijzing en doorwerking (zie ook art. 7:155 voor soortklasses) dezelfde regeling. In de praktijk worden BV- en NV-stemafspraken **identiek** opgesteld. 🔗
 
 <h3 id="sancties-bij-schending">Sancties bij schending</h3>
 
@@ -53,7 +54,7 @@ _Bron: WVV art. 5:46 § 1_
 ## Valkuilen
 
 > [!warning]- Vermijd elke clausule die de aandeelhouder verplicht om **systematisch** de voorstellen van het bestuur goed te keuren — dat valt onder de absolute nietigheidsgrond van art. 5:46 § 1, 3°.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -61,10 +62,10 @@ _Bron: WVV art. 5:46 § 1_
 
 - **Vereist kennis van**: [[stemrecht-aandeelhouder]]
 - **Vereist kennis van**: [[algemene-vergadering]]
-
+- **Wordt voorondersteld in** (1): [[voordrachtrecht-bestuurder]]
 ## Voorbeelden
 
-Robert Vandenberghe (15%) en Pieter Vermeulen (15%) tekenen een stemafspraak voor 8 jaar: vóór elke algemene vergadering van Aurelia Holding NV beraden zij zich, en stemmen ze gezamenlijk in de zin die hun **interne meerderheid** kiest. Samen vormen ze zo een **blok van 30%** dat in de praktijk een blocking minority kan zijn op statutenwijzigingen. _(Aurelia Holding NV, Robert Vandenberghe, Pieter Vermeulen)_ 🤖
+Robert Vandenberghe (15%) en Pieter Vermeulen (15%) tekenen een stemafspraak voor 8 jaar: vóór elke algemene vergadering van Aurelia Holding NV beraden zij zich, en stemmen ze gezamenlijk in de zin die hun **interne meerderheid** kiest. Samen vormen ze zo een **blok van 30%** dat in de praktijk een blocking minority kan zijn op statutenwijzigingen. _(Aurelia Holding NV, Robert Vandenberghe, Pieter Vermeulen)_ 🔗
 
 ## Bronnen
 

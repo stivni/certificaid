@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vroegtijdige-waarschuwing-insolventie.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vroegtijdige waarschuwing bij insolventie ⚖️
 
@@ -26,9 +26,12 @@ De vroegtijdige waarschuwing is de eerste lijn van het Belgische insolventiestel
 
 > [!info] Behoort tot: [[insolventieprocedures-belgie]]
 
+> [!info] Bestaat uit (1): [[meldingsplicht-accountant-continuiteit]]
+
 Het systeem van **knipperlichten** dat Boek XX WER instelt om ondernemingen in financiële moeilijkheden vroegtijdig op te sporen. Veroordelende vonnissen wegens onbetaalde schulden, achterstallige RSZ-bijdragen en niet-betaalde btw worden automatisch doorgemeld aan de griffie van de ondernemingsrechtbank. Externe accountants, bedrijfsrevisoren en erkende boekhouders hebben een eigen meldingsplicht voor gewichtige en overeenstemmende continuïteits-feiten. De **Kamer voor ondernemingen in moeilijkheden** verwerkt deze signalen.
 
 _Bron: WER art. XX.21, XX.23_
+
 
 
 ## Bouwstenen
@@ -55,7 +58,7 @@ De Rijksdienst voor Sociale Zekerheid bezorgt elk kwartaal een lijst van werkgev
 
 _Grondslag: WER art. XX.23 § 2_
 
-### Knipperlicht 3: btw-achterstand 🤖
+### Knipperlicht 3: btw-achterstand 🔗
 
 Idem voor btw-schulden: de FOD Financiën bezorgt kwartaaloverzichten van schuldenaren met onbetaalde btw aan de griffie van de bevoegde ondernemingsrechtbank.
 
@@ -105,18 +108,18 @@ _Grondslag: WER art. XX.29/1_
 <h3 id="wat-de-accountant-moet-kunnen-documenteren">Wat de accountant moet kunnen documenteren</h3>
 
 > [!tip]- Wat de accountant moet kunnen documenteren
-> Bij twijfel over de continuïteit: schriftelijk verslag aan het bestuursorgaan met concrete feiten (cijfermatige analyse, verloren contracten, schuldevolutie), bewijs van ontvangst, en termijn van één maand voor antwoord. Pas daarna eventueel melding aan de voorzitter van de ondernemingsrechtbank — niet sneller. 🤖
+> Bij twijfel over de continuïteit: schriftelijk verslag aan het bestuursorgaan met concrete feiten (cijfermatige analyse, verloren contracten, schuldevolutie), bewijs van ontvangst, en termijn van één maand voor antwoord. Pas daarna eventueel melding aan de voorzitter van de ondernemingsrechtbank — niet sneller. 🔗
 
 <h3 id="rode-vlag-bij-financiele-analyse">Rode vlag bij financiële analyse</h3>
 
 > [!tip]- Rode vlag bij financiële analyse
-> Een onderneming die door de Kamer is opgeroepen, is een sterk signaal voor analisten — onafhankelijk van wat de jaarrekening cijfermatig laat zien. Informatie over oproepingen is niet publiek toegankelijk, maar achterstallige neerlegging of RSZ-achterstand is dat wél. 🤖
+> Een onderneming die door de Kamer is opgeroepen, is een sterk signaal voor analisten — onafhankelijk van wat de jaarrekening cijfermatig laat zien. Informatie over oproepingen is niet publiek toegankelijk, maar achterstallige neerlegging of RSZ-achterstand is dat wél. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Verwar de meldingsplicht aan de cliënt (verplicht bij gewichtige feiten) met de melding aan de ondernemingsrechtbank (facultatief, na één maand).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -125,7 +128,7 @@ _Grondslag: WER art. XX.29/1_
 - **Vereist kennis van**: [[kamer-ondernemingen-in-moeilijkheden]]
 - **Vereist kennis van**: [[meldingsplicht-accountant-continuiteit]]
 - **Vereist kennis van**: [[continuiteitsbeginsel]]
-
+- **Wordt voorondersteld in** (1): [[kamer-ondernemingen-in-moeilijkheden]]- **Triggert** (1): [[kamer-ondernemingen-in-moeilijkheden]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

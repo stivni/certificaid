@@ -13,9 +13,9 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ondernemingsraad-sociaal-economische-info.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Ondernemingsraad — sociaal-economische informatie 🤖
+# Ondernemingsraad — sociaal-economische informatie 🔗
 
 In vennootschappen met een ondernemingsraad heeft die OR recht op uitgebreide sociaal-economische en financiële informatie: basisinformatie bij installatie, jaarinformatie binnen drie maanden na boekjaar, en trimestriële periodieke informatie. De OR keurt de jaarrekening niet goed maar geeft advies — een informatiekanaal naast aandeelhouders en commissaris.
 
@@ -27,9 +27,10 @@ De ondernemingsraad is een paritair orgaan (vertegenwoordigers werkgever + werkn
 _Bron: Belgisch arbeidsrecht — sociale dialoog_
 
 
+
 ## Bouwstenen
 
-### Drie soorten informatie 🤖
+### Drie soorten informatie 🔗
 
 (i) Basisinformatie (eenmalig bij installatie OR), (ii) jaarinformatie (binnen 3 maanden na boekjaar — uitgebreide financiële en operationele gegevens), (iii) periodieke informatie (trimestrieel).
 
@@ -47,7 +48,7 @@ _Grondslag: KB 27 november 1973 + paritaire akkoorden_
 <h3 id="1.3.I.D">Ondernemingsraad ≠ algemene vergadering</h3>
 
 > [!tip]- Ondernemingsraad ≠ algemene vergadering
-> De OR krijgt informatie en geeft advies; zij keurt niet de jaarrekening goed (dat doet de AV). Wel kunnen vakbonden via de OR vragen om uitleg bij gecijfertabellen. 🤖
+> De OR krijgt informatie en geeft advies; zij keurt niet de jaarrekening goed (dat doet de AV). Wel kunnen vakbonden via de OR vragen om uitleg bij gecijfertabellen. 🔗
 
 
 ## Bronnen

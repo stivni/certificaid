@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wettelijke-reserve.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Wettelijke reserve ⚖️
 
@@ -28,6 +28,7 @@ De wettelijk verplichte buffer in het eigen vermogen die de uitkeerbaarheid en d
 **Verplichte jaarlijkse afhouding** van **5 % van de nettowinst** voor de **wettelijke reserve**, totdat deze reserve **10 % van het maatschappelijk kapitaal** bereikt (NV) of **één tiende van de eigen vermogensinbreng** (BV). Geboekt op rekening 130 'Wettelijke reserve'. Niet uitkeerbaar zolang ze niet boven het wettelijk minimum staat. De afhouding wordt opgenomen in de winstbestemming bij goedkeuring jaarrekening door algemene vergadering (WVV art. 7:211, § 1; 5:200).
 
 _Bron: WVV art. 7:211 (NV); 5:200 (BV)_
+
 
 
 ## Bouwstenen
@@ -56,7 +57,7 @@ Meubelzaak Mertens BV met wettelijke reserve € 5.600 (boven minimum € 5.000)
 
 _Grondslag: WVV art. 7:211_
 
-### Bij verlies: geen afhouding, maar reserve blijft staan 🤖
+### Bij verlies: geen afhouding, maar reserve blijft staan 🔗
 
 In een verliesjaar is er geen winst om uit te houden. De wettelijke reserve blijft op haar boekwaarde staan. Pas wanneer de cumulatieve verliezen het bestaande overgedragen resultaat overschrijden, kan de wettelijke reserve eventueel worden aangewend om verlies te dekken (uitzonderlijk).
 
@@ -202,7 +203,7 @@ Min(5 % × nettowinst, minimum − huidige reserve).
 ## Zie ook
 
 - **Getriggerd door**: [[resultaatverwerking]]
-
+- **Wordt voorondersteld in** (3): [[boekjaar-eindprocedure-checklist]] · [[nettoactieftest]] · [[resultaatverwerking]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV heeft kapitaal/eigen vermogensinbreng € 50.000 → wettelijk minimum wettelijke reserve = 10 % × € 50.000 = € 5.000. Wettelijke reserve op 1/1 = € 3.500. Winst 20X1 = € 42.000. Verplichte afhouding = 5 % × € 42.000 = € 2.100. Boeking: Debet 6921 Toevoeging aan wettelijke reserve € 2.100 / Credit 130 Wettelijke reserve € 2.100. Saldo eind 20X1: € 5.600 — boven minimum, dus volgend jaar geen verplichte afhouding meer.

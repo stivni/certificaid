@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verplicht-overnamebod.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Verplicht openbaar overnamebod (30%-drempel) ⚖️
 
@@ -28,6 +28,7 @@ Bij **genoteerde** Belgische vennootschappen is **controleverwerving** niet zoma
 Een **wettelijke verplichting**, opgelegd door de Wet van 1 april 2007 op de openbare overnamebiedingen, om bij overschrijden van de 30%-drempel in een genoteerde vennootschap een **integrale uitstapmogelijkheid** te bieden aan alle andere effectenhouders.
 
 _Bron: Wet 1 april 2007 op de openbare overnamebiedingen, art. 5; KB 27 april 2007_
+
 
 
 ## In de praktijk
@@ -64,7 +65,7 @@ _Bron: Wet 1 april 2007 op de openbare overnamebiedingen, art. 5; KB 27 april 20
 ## Valkuilen
 
 > [!warning]- Wie via een **complexe structuur** (holding, fonds, samenwerkingsverband) voorzichtig wil opbouwen, moet de regels rond **onderling overleg** en **indirecte verwerving** kennen. Stemafspraken met andere aandeelhouders kunnen het bod **vroegtijdig activeren**.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -73,10 +74,10 @@ _Bron: Wet 1 april 2007 op de openbare overnamebiedingen, art. 5; KB 27 april 20
 - **Vereist kennis van**: [[controle]]
 - **Vereist kennis van**: [[naamloze-vennootschap-nv]]
 - **Vereist kennis van**: [[fsma]]
-
+- **Wordt voorondersteld in** (1): [[sell-out-minderheid]]
 ## Voorbeelden
 
-Industria Antwerpen NV (genoteerde NV) heeft een verspreid aandeelhouder­schap. Aurelia Holding NV verwerft via beurstransacties geleidelijk een belang en passeert op 14 oktober de **30%-drempel** door een laatste pakket van 2% te kopen. Vanaf dat moment moet Aurelia **binnen de wettelijke termijn** een **openbaar bod** uitbrengen op alle resterende aandelen van Industria, tegen minstens de hoogste prijs die zij in de afgelopen 12 maanden voor Industria-aandelen heeft betaald. _(Industria Antwerpen NV, Aurelia Holding NV)_ 🤖
+Industria Antwerpen NV (genoteerde NV) heeft een verspreid aandeelhouder­schap. Aurelia Holding NV verwerft via beurstransacties geleidelijk een belang en passeert op 14 oktober de **30%-drempel** door een laatste pakket van 2% te kopen. Vanaf dat moment moet Aurelia **binnen de wettelijke termijn** een **openbaar bod** uitbrengen op alle resterende aandelen van Industria, tegen minstens de hoogste prijs die zij in de afgelopen 12 maanden voor Industria-aandelen heeft betaald. _(Industria Antwerpen NV, Aurelia Holding NV)_ 🔗
 
 ## Bronnen
 

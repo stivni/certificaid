@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/consistentiebeginsel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Consistentiebeginsel ⚖️
 
@@ -28,6 +28,7 @@ Het consistentiebeginsel (bestendigheid van waarderingsregels) zegt: gebruik dez
 Het consistentiebeginsel (of 'bestendigheid van waarderingsregels') verlangt dat een vennootschap haar waarderingsregels van boekjaar tot boekjaar identiek toepast. Wijzigt zij haar regels: dan moet ze dat motiveren in de toelichting en de impact op het resultaat en de financiële positie kwantificeren.
 
 _Bron: KB-WVV art. 3:6_
+
 
 
 ## Bouwstenen
@@ -77,6 +78,9 @@ _Grondslag: KB-WVV art. 3:7_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[aanvullende-boekhoudbeginselen]] · [[waarderingsregels-jaarrekening]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV waardeert haar grondstoffen sinds altijd via FIFO. In 2024 wil zij overstappen naar gewogen gemiddelde → moet motiveren in toelichting + impact (bv. 'voorraad-waardering daalt met € 45.000, resultaat met € 32.000 na belasting').

@@ -19,7 +19,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/omzetting-vennootschap-opdracht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Verslag bij omzetting van een vennootschap ⚖️
 
@@ -30,9 +30,12 @@ Bij elke omzetting van rechtsvorm (BV → NV, NV → CV, ...) eist het WVV een v
 
 > [!info] Specialisatie van: [[gedeelde-wettelijk-voorbehouden-opdracht]]
 
+> [!info] Bestaat uit (1): [[controleverslag-omzetting]]
+
 Het verslag bij omzetting van vennootschap is een gedeelde wettelijk voorbehouden beoordelingsopdracht: de gecertificeerd accountant of bedrijfsrevisor (bij afwezigheid van commissaris) beoordeelt de staat van activa en passiva die het bestuursorgaan opstelt vóór de omzetting van de rechtsvorm, en vermeldt inzonderheid of het nettoactief, in alle van materieel belang zijnde opzichten, niet overgewaardeerd is. Het is een beoordelingsopdracht met beperkte mate van zekerheid.
 
 _Bron: ITAA-norm Omzetting vennootschap §II.2_
+
 
 
 ## Bouwstenen
@@ -81,7 +84,7 @@ _Grondslag: ITAA-norm Omzetting §17_
 ## Zie ook
 
 - **Vereist kennis van**: [[beperkte-mate-van-zekerheid]]
-
+- **Wordt voorondersteld in** (1): [[omzetting-vennootschap]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV wil omzetten naar NV om toegang te krijgen tot beursfinanciering. Geen commissaris. De zaakvoerder vraagt Sofie Janssens (gecertificeerd accountant) om de wettelijke beoordelingsopdracht. Zij toetst de staat van actief en passief per 31 augustus 2025 en concludeert in negatieve vorm: 'op basis van onze beoordelingswerkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat het nettoactief van € 1.250.000 in alle van materieel belang zijnde opzichten overgewaardeerd zou zijn.'

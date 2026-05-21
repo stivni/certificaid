@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kwalificeren-jaarrekeningregime-vzw-stichting.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Kwalificeren welk boekhoud- en jaarrekeningregime van toepassing is op een VZW, IVZW of stichting 🤖
+# Kwalificeren welk boekhoud- en jaarrekeningregime van toepassing is op een VZW, IVZW of stichting 🔗
 
 VZW-dossiers vergen een aparte cascade: drempels checken voor 'zeer klein' (vereenvoudigde boekhouding), 'klein' (verkort schema) of 'groot' (volledig schema). Voor de stagiair-GA belangrijk om niet automatisch het vennootschapsregime over te nemen — VZW heeft eigen drempels (WVV Boek 3 + Boek 9 + KB-WVV art. 3:184 e.v.).
+
 
 
 ## Stappen

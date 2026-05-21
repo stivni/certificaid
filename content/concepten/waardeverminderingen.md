@@ -22,7 +22,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/waardeverminderingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Waardeverminderingen ⚖️
 
@@ -34,6 +34,7 @@ Correcties boeken op de aanschaffingswaarde van actiefbestanddelen om rekening t
 Onder **waardeverminderingen** verstaat men de correcties op de aanschaffingswaarde van actiefbestanddelen — andere dan die met beperkte gebruiksduur (waarvoor afschrijvingen gelden) — om rekening te houden met al dan niet als definitief aan te merken ontwaardingen bij het afsluiten van het boekjaar. Toepassing: terreinen (onbeperkt), financiële vaste activa, voorraden, handelsvorderingen, geldbeleggingen. De gecumuleerde waardeverminderingen worden in mindering gebracht van de actiefposten waarop ze betrekking hebben (KB WVV art. 3:23, lid 2).
 
 _Bron: KB WVV art. 3:23_
+
 
 
 ## Bouwstenen
@@ -62,7 +63,7 @@ Op de balans van Meubelzaak Mertens BV: rekening 400 Handelsdebiteuren € 145.0
 
 _Grondslag: MAR + KB WVV art. 3:23_
 
-### Terugname als ontwaarding wegvalt 🤖
+### Terugname als ontwaarding wegvalt 🔗
 
 Wanneer de oorzaak van de ontwaarding wegvalt (klant betaalt alsnog, voorraadprijs herstelt, financiële markt veert op), wordt de eerder geboekte waardevermindering teruggenomen ten gunste van het resultaat.
 
@@ -100,12 +101,15 @@ _Grondslag: KB WVV art. 3:23 + algemene voorzichtigheid_
 ## Valkuilen
 
 > [!warning]- Waardevermindering is GEEN voorziening
-> ⚠️ Waardevermindering is GEEN voorziening. Waardevermindering = correctie op een specifiek actief (vordering, voorraad, terrein). Voorziening = passief-post voor een toekomstig risico of last (rechtsgeding, herstelling). Examen: 'reservering voor een toekomstig gerechtelijk verlies' → voorziening, niet waardevermindering. 🤖
+> ⚠️ Waardevermindering is GEEN voorziening. Waardevermindering = correctie op een specifiek actief (vordering, voorraad, terrein). Voorziening = passief-post voor een toekomstig risico of last (rechtsgeding, herstelling). Examen: 'reservering voor een toekomstig gerechtelijk verlies' → voorziening, niet waardevermindering. 🔗
 >
 > _Bron: KB WVV art. 3:11 (voorzieningen) vs. 3:23 (waardeverminderingen)_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[bedrijfsvorderingen]] · [[voorraden]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV heeft een handelsvordering van € 18.000 op klant X. Op balansdatum 31/12 wordt klant X dubbel aangemaand zonder reactie; advocaat schat 70 % verlies. Waardevermindering = 70 % × € 18.000 = € 12.600. Boeking: Debet 6340 Waardeverminderingen op handelsvorderingen € 12.600 / Credit 409 Geboekte waardeverminderingen op handelsvorderingen € 12.600.

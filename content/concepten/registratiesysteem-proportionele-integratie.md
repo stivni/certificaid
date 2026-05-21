@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/registratiesysteem-proportionele-integratie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Proportionele integratie (registratiesysteem) 🤖
+# Proportionele integratie (registratiesysteem) 🔗
 
 Bij proportionele integratie worden kosten en opbrengsten 'rubriek per rubriek, proportioneel met het aandeel' opgenomen. CBN 3/3 formuleert dit voor tijdelijke verenigingen; in analytische boekhouding wordt het analoog toegepast wanneer een gemeenschappelijke kost over meerdere centra of dragers pro-rata moet worden verdeeld.
 
 > [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
+
 
 
 ## Bouwstenen

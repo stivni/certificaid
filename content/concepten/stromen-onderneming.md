@@ -15,9 +15,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/stromen-onderneming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Stromen in de onderneming 🤖
+# Stromen in de onderneming 🔗
 
 Het stromen-begrip is in PO 1.7 cruciaal omdat IC-ontwerp begint bij stroom-analyse: waar ontstaat een transactie, langs welke handen passeert ze, waar wordt ze geregistreerd? Voor de stagiair is dit de brug naar cyclusanalyse (PO 1.6 audit): elke aankoop-, verkoop-, voorraad- of personeels-cyclus volgt een stroom. Examen-vragen vragen vaak om controles aan stroompunten te koppelen ('waar in deze stroom zou je een vier-ogen-controle inbouwen?').
 
@@ -29,9 +29,10 @@ Het stromen-begrip is in PO 1.7 cruciaal omdat IC-ontwerp begint bij stroom-anal
 Stromen zijn de bewegingen van goederen, geld of informatie door de onderneming. Voor IC kritisch omdat elke stroom potentiële uitlek-, verlies- of manipulatiepunten heeft. Drie hoofdstromen: (1) fysieke (goederen, voorraad), (2) financiële (geld, vorderingen, schulden), (3) informatie (documenten, data). De drie moeten onderling afgestemd zijn — bij elke fysieke beweging hoort een informatie- en typisch ook financiële tegenpost.
 
 
+
 ## Bouwstenen
 
-### Drie hoofdstromen — fysiek, financieel, informatie 🤖
+### Drie hoofdstromen — fysiek, financieel, informatie 🔗
 
 Fysieke stroom = goederen en personen (productieflow, voorraad, magazijn). Financiële stroom = geld (vorderingen, schulden, kas, bank). Informatiestroom = documenten en data (bestelbonnen, facturen, boekhoudgegevens).
 
@@ -42,7 +43,7 @@ Fysieke stroom = goederen en personen (productieflow, voorraad, magazijn). Finan
 
 _Grondslag: Bedrijfsvoerings-doctrine + ISA 315 cyclus-aanpak_
 
-### Aansluitingspunten als IC-hot-spots 🤖
+### Aansluitingspunten als IC-hot-spots 🔗
 
 Waar twee stromen elkaar kruisen (bv. goederenontvangst ↔ inboeking factuur, betaling ↔ bankafschrift) is het natuurlijke punt voor controle. Aansluitingsbreuken (bv. ontvangst zonder bon, betaling zonder factuur) zijn de meest voorkomende foutbron.
 
@@ -54,7 +55,7 @@ Waar twee stromen elkaar kruisen (bv. goederenontvangst ↔ inboeking factuur, b
 
 _Grondslag: Cyclus-doctrine_
 
-### Stromen mappen op cycli (aankoop / verkoop / voorraad / HR) 🤖
+### Stromen mappen op cycli (aankoop / verkoop / voorraad / HR) 🔗
 
 In de IC-praktijk worden stromen niet apart bekeken, maar per bedrijfscyclus geïntegreerd: aankoopcyclus = bestelstroom + ontvangstreglement + factuurverwerking + betalingsstroom; verkoopcyclus = orderstroom + leveringsstroom + facturatiestroom + ontvangststroom; voorraadcyclus = mutatiestroom + telstroom + waarderingsstroom. Elke cyclus stelt eigen risico's en eigen controles.
 
@@ -78,7 +79,7 @@ _Grondslag: ISA 315 cyclus-aanpak + IC-doctrine_
 ## Valkuilen
 
 > [!warning]- Stromen alleen denken als 'goederenstromen' (productie-bias)
-> ⚠️ Stromen alleen denken als 'goederenstromen' (productie-bias). In diensten-bedrijven dragen vooral informatie- en financiële stromen het IC-ontwerp. 🤖
+> ⚠️ Stromen alleen denken als 'goederenstromen' (productie-bias). In diensten-bedrijven dragen vooral informatie- en financiële stromen het IC-ontwerp. 🔗
 
 
 

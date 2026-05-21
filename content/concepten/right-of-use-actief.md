@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/right-of-use-actief.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Right-of-use-actief (gebruiksrecht-actief) onder IFRS 16 ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 Het **met een gebruiksrecht overeenstemmende actief** (right-of-use asset, ROU) is het actief dat een lessee onder IFRS 16 op zijn balans opneemt: het **recht om gedurende de leaseperiode het onderliggende activum te gebruiken**. Niet de eigendom van het actief zelf, wel het exclusieve gebruiksrecht voor de overeengekomen duur. Bij eerste opname (aanvangsdatum) tegen kostprijs (IFRS 16 alinea 23): waarde van de leaseverplichting + leasebetalingen vóór aanvangsdatum (minus incentives) + initiële directe kosten + ontmantelings- en herstelkosten. Na eerste opname volgens het **kostprijsmodel** (alinea 30): afschrijving + bijzondere waardeverminderingen, eventueel aangepast voor herwaarderingen van de leaseverplichting. Alternatieve modellen: reëlewaardemodel als ROU vastgoedbelegging is (IAS 40), herwaarderingsmodel als de onderliggende activacategorie onder IAS 16 wordt geherwaardeerd.
 
 _Bron: IFRS 16 alinea 22-25, 30_
+
 
 
 ## Bouwstenen

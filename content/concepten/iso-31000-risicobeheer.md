@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/iso-31000-risicobeheer.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# ISO 31000 — Risk Management Guidelines 🤖
+# ISO 31000 — Risk Management Guidelines 🔗
 
 ISO 31000 is een generieke, sectoronafhankelijke standaard voor risk management. Bestaat uit drie hoofddelen: principes (8 stuks, bv. value creation, integrated, structured, customized), framework (organisatorische inbedding), en proces (identification → analysis → evaluation → treatment → monitoring). Niet certificeerbaar (anders dan ISO 9001) — referentiekader, geen audit-standaard.
 
@@ -24,6 +24,7 @@ ISO 31000 is een generieke, sectoronafhankelijke standaard voor risk management.
 > ISO 31000 is een internationale, generieke en sectoronafhankelijke standaard voor risicomanagement, uitgegeven door de ISO (International Organization for Standardization).
 
 ISO 31000 is een internationale, generieke en sectoronafhankelijke standaard voor risicomanagement, uitgegeven door de ISO (International Organization for Standardization). De huidige versie dateert uit 2018. De standaard is niet certificeerbaar — het is een referentiekader dat principes, een framework voor organisatorische inbedding en een proces aanreikt.
+
 
 
 ## Bouwstenen

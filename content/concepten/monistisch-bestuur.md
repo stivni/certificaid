@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/monistisch-bestuur.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Monistisch bestuur — raad van bestuur ⚖️
 
@@ -28,6 +28,7 @@ Het monistische bestuursmodel is in de NV het standaardmodel: één collegiaal b
 Bij een monistisch bestuursmodel berust het bestuur van de vennootschap bij één bestuursorgaan: de raad van bestuur in de NV (collegiaal, minstens drie leden), of het bestuursorgaan in de BV en CV. Dit orgaan oefent alle bevoegdheden uit die de wet niet aan de algemene vergadering toewijst, en is bevoegd voor zowel de strategie als de operationele leiding. Het kan binnen zijn aansprakelijkheid adviserende comités oprichten en het dagelijks bestuur delegeren.
 
 _Bron: WVV art. 7:85, 7:93, 7:94, 7:98_
+
 
 
 ## Bouwstenen

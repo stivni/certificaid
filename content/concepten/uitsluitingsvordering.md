@@ -13,9 +13,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitsluitingsvordering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Uitsluitingsvordering 🤖
+# Uitsluitingsvordering 🔗
 
 De uitsluitingsvordering is het tegengestelde van de uittreding: hier zijn het **andere aandeelhouders die een storende aandeelhouder eruit willen**. Het instrument vereist een gekwalificeerde drempel (30%) om misbruik door een willekeurige minderheid te voorkomen. Net als de uittreding zit het in WVV Boek 2 Titel 7 en geldt het enkel voor niet-genoteerde BV en NV.
 
@@ -25,6 +25,7 @@ De uitsluitingsvordering is het tegengestelde van de uittreding: hier zijn het *
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 Een uitsluitingsvordering is een gerechtelijke vordering waarbij één of meer aandeelhouders die samen **ten minste 30% van de stemmen** (of, bij de NV, 30% van het kapitaal naar nominale of fractiewaarde) vertegenwoordigen, om **gegronde redenen** vorderen dat een andere aandeelhouder zijn effecten aan de eisers overdraagt.
+
 
 
 ## Bouwstenen
@@ -99,14 +100,17 @@ _Grondslag: WVV art. 5:155_
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[gegronde-redenen-vennootschapsgeschil]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

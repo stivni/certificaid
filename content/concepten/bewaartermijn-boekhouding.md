@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bewaartermijn-boekhouding.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Bewaartermijn van boeken en verantwoordingsstukken ⚖️
 
@@ -28,6 +28,7 @@ De wet legt op hoe lang boekhoudstukken bewaard moeten blijven: zeven jaar voor 
 Boeken (dagboeken, centraal boek, inventarisboek) en verantwoordingsstukken (facturen, kasstukken, bankuittreksels) moeten gedurende 7 jaar bewaard worden, te rekenen vanaf 1 januari volgend op het afsluiten van het boekjaar waarop ze betrekking hebben. Voor stukken zonder bewijswaarde tegenover derden volstaat 3 jaar. Elektronische bewaring is toegelaten mits leesbaarheid en authenticiteit gewaarborgd blijven.
 
 _Bron: WER art. III.86_
+
 
 
 ## Bouwstenen
@@ -44,7 +45,7 @@ Meubelzaak Mertens BV scant facturen in PDF → mag papier vernietigen mits PDF-
 
 _Grondslag: WER art. III.86; CBN-advies 2016/22_
 
-### Wettelijke uitzonderingen — andere termijnen 🤖
+### Wettelijke uitzonderingen — andere termijnen 🔗
 
 BTW-stukken: 7 jaar (WBTW art. 60). Personeelsdossiers: 5 jaar na uitdiensttreding. Vastgoedstukken bij meerwaarde-belasting: 15 jaar. Fiscale aangiften aanvulling: 7 jaar standaard, 10 jaar bij ernstige fraude. Bij strafrechtelijk onderzoek: geen verjaring.
 
@@ -68,12 +69,15 @@ _Grondslag: Diverse wetten + WBTW art. 60_
 ## Valkuilen
 
 > [!warning]- Een vrijwillig kortere bewaring is geen verdediging tegen fiscale controle
-> ⚠️ Een vrijwillig kortere bewaring is geen verdediging tegen fiscale controle. Stelt de fiscus dat de boekhouding niet voorgelegd kan worden → forfaitaire aanslag mogelijk + boete. 🤖
+> ⚠️ Een vrijwillig kortere bewaring is geen verdediging tegen fiscale controle. Stelt de fiscus dat de boekhouding niet voorgelegd kan worden → forfaitaire aanslag mogelijk + boete. 🔗
 >
 > _Bron: WER art. III.86 + WIB_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[fod-financien-boekhoudrecht]]
 ## Voorbeelden
 
 Boekjaar Meubelzaak Mertens BV afgesloten 31/12/2024 → bewaartermijn loopt vanaf 1/1/2025 tot 31/12/2031 (7 jaar). Alle facturen, kasstukken, dagboeken moeten tot eind 2031 raadpleegbaar blijven.

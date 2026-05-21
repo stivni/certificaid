@@ -13,7 +13,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/liquiditeitstest-bv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Liquiditeitstest (BV/CV) ⚖️
 
@@ -29,12 +29,13 @@ Het besluit van de algemene vergadering tot uitkering heeft slechts uitwerking n
 _Bron: WVV art. 5:143 (BV), 6:116 (CV)_
 
 
+
 ## In de praktijk
 
 <h3 id="wat-hoort-in-het-bestuursverslag">Wat hoort in het bestuursverslag?</h3>
 
 > [!tip]- Wat hoort in het bestuursverslag?
-> Historische cijfers (resultaten, kasstroom over recente boekjaren), prospectieve cijfers (begroting, liquiditeitsplan over 12 maanden), aannames (verwachte verkopen, openstaande kredieten, vervaltermijnen van schulden), en de conclusie dat de vennootschap ondanks de uitkering aan haar betalingsverplichtingen kan blijven voldoen. 🤖
+> Historische cijfers (resultaten, kasstroom over recente boekjaren), prospectieve cijfers (begroting, liquiditeitsplan over 12 maanden), aannames (verwachte verkopen, openstaande kredieten, vervaltermijnen van schulden), en de conclusie dat de vennootschap ondanks de uitkering aan haar betalingsverplichtingen kan blijven voldoen. 🔗
 
 <h3 id="aansprakelijkheidsknop">Aansprakelijkheidsknop</h3>
 
@@ -52,22 +53,22 @@ _Bron: WVV art. 5:143 (BV), 6:116 (CV)_
 ## Valkuilen
 
 > [!warning]- De liquiditeitstest is **niet** de bestuurder die 'oké' zegt — het is een **gemotiveerd schriftelijk verslag** dat onder de bestuurdersaansprakelijkheid valt en bij audit door de commissaris gerecenseerd wordt.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Twaalf maanden = **rolling horizon vanaf de betalingsdatum**, niet vanaf het AV-besluit. Bij grote uitkeringen die over meerdere maanden gespreid worden, schuift de toetshorizon mee.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Voor de NV bestaat er **geen** liquiditeitstest. De nettoactieftest alleen is daar voldoende. Verwar dit niet bij een vergelijkende vraag.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[nettoactieftest]]
-
+- **Wordt voorondersteld in** (7): [[alarmbelprocedure]] · [[inkoop-eigen-aandelen-bv]] · [[interimdividend]] · [[signaleren-risicos-overdracht-of-ontbinding]] · [[statutaire-uittreding-bv]] · [[uitkering-uit-eigen-vermogen-bv]] · [[uitkeringstest-vergelijking-bv-nv]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

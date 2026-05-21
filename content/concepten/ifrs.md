@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # IFRS — International Financial Reporting Standards ⚖️
 
@@ -29,6 +29,7 @@ Het internationaal boekhoudkundig referentiestelsel uitgegeven door de IASB (Int
 **IFRS** (International Financial Reporting Standards) is het principle-based boekhoudkundig referentiestelsel uitgegeven door de IASB. Het bestaat uit ongeveer 40 standaarden (IAS 1 t/m IAS 41 en IFRS 1 t/m IFRS 17, inclusief de meest recente standaarden). In de EU is IFRS verplicht voor de geconsolideerde jaarrekening van EU-beursgenoteerden (via Verordening 1606/2002), en optioneel voor Belgische kredietinstellingen en vrijwillige toepassers.
 
 _Bron: EU-Verordening 1606/2002_
+
 
 
 ## In de praktijk

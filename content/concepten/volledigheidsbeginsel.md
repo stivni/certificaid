@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/volledigheidsbeginsel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Volledigheidsbeginsel (boekhouding) ⚖️
 
@@ -29,6 +29,7 @@ Het volledigheidsbeginsel verlangt dat álle verrichtingen, bezittingen, vorderi
 Het volledigheidsbeginsel verlangt dat álle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen van de onderneming in de boekhouding worden opgenomen. Ook niet-balansvorderingen en -verplichtingen (zoals gegeven of ontvangen waarborgen, voorwaardelijke verplichtingen) moeten in de toelichting vermeld worden. Niets weglaten.
 
 _Bron: WER art. III.83; KB-WVV art. 3:1_
+
 
 
 ## Bouwstenen
@@ -81,7 +82,7 @@ _Grondslag: WER art. III.83_
 ## Zie ook
 
 - **Vereist kennis van**: [[inventaris]]
-
+- **Wordt voorondersteld in** (1): [[toelichting-jaarrekening]]
 ## Voorbeelden
 
 Rotex Roeselare NV heeft een hypotheek toegekend op een pand ten gunste van haar bank → wordt vermeld in de toelichting onder 'Niet in de balans opgenomen rechten en verplichtingen' (rubriek 9, klasse 0), ook al staat het niet op de balans zelf.

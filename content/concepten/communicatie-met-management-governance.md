@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/communicatie-met-management-governance.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Communicatie met management en met governance belaste personen ⚖️
 
@@ -26,6 +26,7 @@ Communicatie is geen formaliteit op het einde van de audit maar een doorlopende 
 De auditor onderhoudt tijdens de hele opdracht twee parallelle communicatiestromen: één met het dagelijks management (CFO, boekhoudchef, interne controleur) over operationele aspecten, en één met de met governance belaste personen (raad van bestuur, auditcomité) over strategische aangelegenheden en significante bevindingen. ISA 260 (herzien) en de ITAA KMO-controlenorm §63-§67 vereisen tijdige, gedocumenteerde communicatie van verantwoordelijkheden, scope, timing, planningsoverzicht, vaststellingen en oordeel.
 
 _Bron: ISA 260 (herzien) + ITAA KMO-controlenorm §63-§67_
+
 
 
 ## Bouwstenen
@@ -100,7 +101,7 @@ _Grondslag: ITAA KMO-controlenorm §67, ISA 265_
 
 
 > [!warning]- Onderwerpen die op governance-niveau horen, enkel met het operationele management bespreken
-> ⚠️ Onderwerpen die op governance-niveau horen, enkel met het operationele management bespreken. Tekortkomingen in IC die het bestuur moet kennen, mogen niet 'op het niveau van de boekhouder' blijven hangen. 🤖
+> ⚠️ Onderwerpen die op governance-niveau horen, enkel met het operationele management bespreken. Tekortkomingen in IC die het bestuur moet kennen, mogen niet 'op het niveau van de boekhouder' blijven hangen. 🔗
 >
 > _Bron: ISA 260 (herzien) doelstelling_
 

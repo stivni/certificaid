@@ -21,7 +21,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/getrouw-beeld.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Getrouw beeld ⚖️
 
@@ -32,9 +32,12 @@ Het getrouw-beeld-beginsel is het **eindbeginsel** van het Belgisch boekhoudrech
 
 > [!info] Behoort tot: [[boekhoudbeginselen-overzicht]]
 
+> [!info] Specialisaties (1): [[getrouw-beeld-jaarrekening]]
+
 De jaarrekening moet **een getrouw beeld** geven van het vermogen, de financiële positie en het resultaat van de onderneming (Richtlijn 2013/34/EU art. 4, lid 3; KB 21/10/2018 art. 3:1). Als de toepassing van de waarderingsregels in een uitzonderlijk geval geen getrouw beeld geeft, **moet** ervan worden afgeweken — met motivering in de toelichting. Het getrouw beeld is de uiteindelijke toets bovenop alle andere beginselen.
 
 _Bron: KB 21/10/2018 art. 3:1; Richtlijn 2013/34/EU art. 4_
+
 
 
 ## Bouwstenen
@@ -105,7 +108,7 @@ _Grondslag: Richtlijn 2013/34/EU art. 6, lid 1, c); KB 21/10/2018 art. 3:6_
 ## Zie ook
 
 - **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
-
+- **Wordt voorondersteld in** (1): [[eu-harmonisatie-jaarrekeningenrecht]]
 ## Voorbeelden
 
 Rotex Roeselare NV bezit een grond met aanschaffingswaarde € 1.200.000. Na een rampschade is de werkelijke waarde gezakt tot € 650.000. Het strikt volgen van 'aanschaffingswaarde − afschrijving' geeft geen getrouw beeld → uitzonderlijke waardevermindering van € 550.000 wordt geboekt, met motivering in de toelichting.

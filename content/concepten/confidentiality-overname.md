@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/confidentiality-overname.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Vertrouwelijkheidsovereenkomst bij overname 🤖
+# Vertrouwelijkheidsovereenkomst bij overname 🔗
 
 De NDA opent de pre-contractuele fase: zonder vertrouwelijkheidsbescherming geeft een verkoper geen gevoelige informatie vrij. In België is er wel een algemene confidentialiteitsplicht uit goede trouw, maar de contractuele NDA is veel afdwingbaarder.
 
@@ -28,6 +28,7 @@ De NDA opent de pre-contractuele fase: zonder vertrouwelijkheidsbescherming geef
 > [!info] Behoort tot: [[overnameovereenkomst]]
 
 Een vertrouwelijkheidsovereenkomst (non-disclosure agreement, NDA) is het contract waarin partijen zich verbinden om informatie die ze in het kader van overnamebesprekingen ontvangen niet te gebruiken voor andere doeleinden en niet aan derden mee te delen, gedurende een bepaalde periode.
+
 
 
 ## In de praktijk
@@ -43,18 +44,18 @@ Een vertrouwelijkheidsovereenkomst (non-disclosure agreement, NDA) is het contra
 ## Valkuilen
 
 > [!warning]- Definieer 'vertrouwelijke informatie' breed maar met uitzonderingen (reeds publieke info, ontwikkeld zonder gebruik, rechterlijke vereiste).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Stem GDPR-aspecten af bij overdracht van persoonsgegevens tijdens DD.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[letter-of-intent-overname]]
-
+- **Wordt voorondersteld in** (4): [[begeleiden-due-diligence-overname]] · [[due-diligence-overname]] · [[letter-of-intent-overname]] · [[overnameovereenkomst]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

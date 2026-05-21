@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/it-general-controls.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # IT general controls (ITGC) ⚖️
 
@@ -30,6 +30,7 @@ IT general controls (ITGC) zijn de overkoepelende interne controles op de IT-omg
 IT general controls (ITGC) zijn interne controles op het niveau van de gehele IT-omgeving (applicaties, databases, besturingssysteem, netwerk) die de integriteit van financiële informatie beschermen door ongeautoriseerde toegang, ongecontroleerde programma-wijzigingen en falen van IT-activiteiten te voorkomen of te detecteren.
 
 _Bron: ISA 315 (herzien-2019) Bijlage 6_
+
 
 
 ## Bouwstenen
@@ -108,7 +109,7 @@ _Grondslag: ISA 315 (herzien-2019) Bijlage 6 par. 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[functiescheiding]]
-
+- **Wordt voorondersteld in** (6): [[cyberrisico-ic]] · [[geinformatiseerde-omgeving-ic]] · [[informatiesysteem-onderneming]] · [[it-application-controls]] · [[it-audit-procedures]] · [[nis-2-richtlijn]]
 ## Bronnen
 
 [^1]: `ISA-315-herzien-2019__sec_bijlage-6_part2`

@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/opdrachtgerichte-kwaliteitsbeoordeling.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Opdrachtgerichte kwaliteitsbeoordeling (EQR) ⚖️
 
@@ -27,6 +27,7 @@ EQR is sinds 2022 verankerd in ISQM 2 (een aparte ISQM-standaard naast ISQM 1). 
 Een opdrachtgerichte kwaliteitsbeoordeling (EQR) is een objectieve evaluatie van de significante oordeelsvormingen van het opdrachtteam en van de bereikte conclusies, uitgevoerd door een opdrachtgerichte kwaliteitsbeoordelaar — een partner of andere geschikte persoon binnen of buiten het kantoor — en voltooid op of vóór de datum van het opdrachtrapport.
 
 _Bron: ISA 220 (herzien) §12(b)-(c) + ISQM 2_
+
 
 
 ## Bouwstenen
@@ -97,7 +98,7 @@ _Grondslag: ISA 220 (herzien) §41 + ISQM 2 §27_
 <h3 id="eqr-partner-review">EQR ≠ partner-review</h3>
 
 > [!tip]- EQR ≠ partner-review
-> Partner-review = de opdrachtpartner reviewt het werk van zijn team. EQR = onafhankelijke partner-buiten-team reviewt de oordeelsvormingen van die opdrachtpartner. 🤖
+> Partner-review = de opdrachtpartner reviewt het werk van zijn team. EQR = onafhankelijke partner-buiten-team reviewt de oordeelsvormingen van die opdrachtpartner. 🔗
 
 
 > [!info]- Niet verwarren met [[]]

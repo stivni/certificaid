@@ -20,13 +20,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rentabiliteit-eigen-vermogen-roe.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Rentabiliteit van het eigen vermogen (ROE) 🤖
+# Rentabiliteit van het eigen vermogen (ROE) 🔗
 
 Meten welk rendement de onderneming behaalt op het eigen vermogen — het kapitaal dat de aandeelhouders hebben ingezet of laten staan. ROE staat voor 'Return On Equity'. Het kerngetal voor aandeelhouders die willen weten of hun ingezet kapitaal voldoende oplevert.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
+
 
 
 ## Bouwstenen
@@ -232,13 +233,13 @@ Resultaat: Een netto-ROE van 20,8 % is sterk; verschil met bruto-ROE (35 %) sign
 ## Valkuilen
 
 > [!warning]- Een hoog ROE kan komen door een laag eigen vermogen (hefboomeffect met veel schuld), niet door sterke winstgevendheid
-> ⚠️ Een hoog ROE kan komen door een laag eigen vermogen (hefboomeffect met veel schuld), niet door sterke winstgevendheid. Combineer ROE altijd met solvabiliteit en ROA voor een eerlijk beeld. 🤖
+> ⚠️ Een hoog ROE kan komen door een laag eigen vermogen (hefboomeffect met veel schuld), niet door sterke winstgevendheid. Combineer ROE altijd met solvabiliteit en ROA voor een eerlijk beeld. 🔗
 >
 > _Bron: Financial analysis_
 
 
 > [!warning]- Neem het eigen vermogen op afsluitingsdatum — niet op aanvangsdatum
-> ⚠️ Neem het eigen vermogen op afsluitingsdatum — niet op aanvangsdatum. Sommige varianten werken met gemiddeld eigen vermogen ((begin + einde) / 2); vermeld in de toelichting welke variant je gebruikt. 🤖
+> ⚠️ Neem het eigen vermogen op afsluitingsdatum — niet op aanvangsdatum. Sommige varianten werken met gemiddeld eigen vermogen ((begin + einde) / 2); vermeld in de toelichting welke variant je gebruikt. 🔗
 >
 > _Bron: Financial analysis_
 
@@ -247,7 +248,7 @@ Resultaat: Een netto-ROE van 20,8 % is sterk; verschil met bruto-ROE (35 %) sign
 ## Zie ook
 
 - **Vereist kennis van**: [[cashflow-analyse]]
-
+- **Wordt voorondersteld in** (2): [[cashflow-analyse]] · [[financiering-met-eigen-vermogen]]
 ## Bronnen
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden`

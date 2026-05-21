@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/externe-bevestiging-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Externe bevestiging (audit) ⚖️
 
@@ -27,6 +27,7 @@ Externe bevestiging is een van de meest betrouwbare controle-instrumenten: de au
 Externe bevestigingen zijn assurance-informatie verkregen in de vorm van een rechtstreekse schriftelijke reactie van een derde partij (de bevestigende partij) aan de beroepsbeoefenaar — op papier, elektronisch of op andere drager. De auditor zelf selecteert en verzendt deze; de cliënt mag de inhoud niet onderscheppen of beïnvloeden.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1 + §89_
+
 
 
 ## Bouwstenen

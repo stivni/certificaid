@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/verplichte-ifrs-eu-beursgenoteerden.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Verplichte IFRS voor EU-beursgenoteerden — geconsolideerde jaarrekening ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 Voor elk boekjaar dat begint op of na **1 januari 2005** moet een onderneming die onder het recht van een EU-lidstaat valt haar **geconsolideerde** jaarrekening opstellen volgens de door de Europese Commissie goedgekeurde internationale standaarden (endorsed IAS/IFRS) wanneer haar effecten op de balansdatum zijn toegelaten tot de handel op een **gereglementeerde markt** van een lidstaat (in de zin van Richtlijn 93/22/EEG, nu MiFID II). De verplichting raakt **uitsluitend de geconsolideerde** jaarrekening — de enkelvoudige (statutaire) jaarrekening van de moedervennootschap valt onder het nationale boekhoudrecht van de lidstaat. Lidstaten mogen het toepassingsgebied uitbreiden (art. 5): zij mogen ook beursgenoteerde ondernemingen toestaan of verplichten hun **enkelvoudige** jaarrekening onder IFRS op te stellen, en zij mogen IFRS openstellen voor niet-beursgenoteerde ondernemingen.
 
 _Bron: Verordening (EG) 1606/2002 art. 4 + art. 5_
+
 
 
 ## Drempelwaarden
@@ -67,7 +68,7 @@ _Bron: Verordening (EG) 1606/2002 art. 4 + art. 5_
 
 - **Vereist kennis van**: [[endorsement-procedure-eu]]
 - **Getriggerd door**: [[ifrs-eerste-toepassing]]
-- **Wordt voorondersteld in** (1): [[endorsement-procedure-eu]]- **Triggert** (1): [[ifrs-eerste-toepassing]]
+- **Wordt voorondersteld in** (3): [[endorsement-procedure-eu]] · [[ifrs]] · [[ifrs-conceptueel-raamwerk]]- **Triggert** (1): [[ifrs-eerste-toepassing]]
 ## Voorbeelden
 
 Zelena Bio NV is genoteerd op Euronext Brussel (gereglementeerde markt) en valt onder Belgisch recht. Vanaf boekjaar 2005 stelt zij haar **geconsolideerde** jaarrekening (omzet groep € 350.000.000) op onder endorsed IFRS. Haar **enkelvoudige** jaarrekening blijft onder KB WVV vallen — België heeft van art. 5-optie geen gebruik gemaakt voor enkelvoudige rekeningen.

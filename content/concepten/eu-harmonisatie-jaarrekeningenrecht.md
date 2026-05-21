@@ -14,16 +14,19 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/eu-harmonisatie-jaarrekeningenrecht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # EU-harmonisatie van het jaarrekeningenrecht ⚖️
 
 > [!summary] Korte inhoud
 > Het Europese kader dat de **minimuminhoud** en de **gemeenschappelijke beginselen** voor de jaarrekening en de geconsolideerde jaarrekening van vennootschappen vastlegt, met de bedoeling de financiële verslaggeving in de hele Europese Unie vergelijkbaar te maken.
 
+> [!info] Bestaat uit (2): [[belgisch-gaap]] · [[ifrs]]
+
 Het Europese kader dat de **minimuminhoud** en de **gemeenschappelijke beginselen** voor de jaarrekening en de geconsolideerde jaarrekening van vennootschappen vastlegt, met de bedoeling de financiële verslaggeving in de hele Europese Unie vergelijkbaar te maken. Het is niet één wettekst maar een **tweesporig systeem**: een richtlijn die per lidstaat in nationaal recht moet worden omgezet (Richtlijn 2013/34/EU), naast een verordening die rechtstreeks IFRS oplegt voor beursgenoteerde geconsolideerde rekeningen (Verordening 1606/2002). De richtlijn werkt via **coördinatiemaatregelen** op de nationale wettelijke en bestuursrechtelijke bepalingen — niet via rechtstreekse toepassing op ondernemingen.
 
 _Bron: Richtlijn 2013/34/EU art. 1_
+
 
 
 ## Bouwstenen
@@ -114,7 +117,7 @@ _Grondslag: Richtlijn 2013/34/EU art. 48 lid 1_
 ## Valkuilen
 
 > [!warning]- Citeer in een audit-dossier of toelichting **nooit** de richtlijn als rechtsgrond — gebruik de Belgische omzetting (WVV-artikel of KB WVV-ar…
-> ⚠️ Citeer in een audit-dossier of toelichting **nooit** de richtlijn als rechtsgrond — gebruik de Belgische omzetting (WVV-artikel of KB WVV-artikel). De richtlijn is geen rechtsregel voor de Belgische onderneming zelf. 🤖
+> ⚠️ Citeer in een audit-dossier of toelichting **nooit** de richtlijn als rechtsgrond — gebruik de Belgische omzetting (WVV-artikel of KB WVV-artikel). De richtlijn is geen rechtsregel voor de Belgische onderneming zelf. 🔗
 >
 > _Bron: Algemene Europese rechtsleer_
 
@@ -126,7 +129,7 @@ _Grondslag: Richtlijn 2013/34/EU art. 48 lid 1_
 
 
 > [!warning]- Lidstaat-opties zijn geen automatische verplichting
-> ⚠️ Lidstaat-opties zijn geen automatische verplichting. Wanneer een richtlijntekst zegt 'de lidstaten kunnen …', is de bepaling pas relevant nadat je hebt vastgesteld dat België de optie heeft overgenomen (zoek in WVV/KB WVV). 🤖
+> ⚠️ Lidstaat-opties zijn geen automatische verplichting. Wanneer een richtlijntekst zegt 'de lidstaten kunnen …', is de bepaling pas relevant nadat je hebt vastgesteld dat België de optie heeft overgenomen (zoek in WVV/KB WVV). 🔗
 >
 > _Bron: Richtlijn 2013/34/EU art. 4 lid 1, art. 8_
 

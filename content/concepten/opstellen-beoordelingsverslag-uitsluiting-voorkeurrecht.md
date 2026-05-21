@@ -15,11 +15,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van het beoordelingsverslag bij uitgifte met uitsluiting of beperking van het voorkeurrecht 🤖
+# Opstellen van het beoordelingsverslag bij uitgifte met uitsluiting of beperking van het voorkeurrecht 🔗
 
 Wanneer een BV (art. 5:121 WVV) of NV (art. 7:179 WVV) nieuwe aandelen, converteerbare obligaties of inschrijvingsrechten uitgeeft en daarbij het voorkeurrecht van de bestaande aandeelhouders wil uitsluiten of beperken — eventueel ten gunste van één of meerdere bepaalde personen — moet het bestuursorgaan een verantwoording opstellen en, indien er geen commissaris is, een bedrijfsrevisor of gecertificeerd accountant een beoordelingsverslag uitbrengen. Het verslag beoordeelt of de financiële en boekhoudkundige gegevens in het bestuursverslag 'in alle van materieel belang zijnde opzichten getrouw en voldoende' zijn om de algemene vergadering geïnformeerd te laten beslissen.
+
 
 
 ## In de praktijk

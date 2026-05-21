@@ -28,7 +28,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kleine-vennootschap.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Kleine vennootschap (WVV art. 1:24) ⚖️
 
@@ -39,9 +39,12 @@ Voor de stagiair die zich afvraagt waarom 'klein' zo'n breed gebruikt onderschei
 
 > [!info] Specialisatie van: [[groottecriteria-jaarrekening]]
 
+> [!info] Specialisaties (1): [[microvennootschap]]
+
 Een kleine vennootschap is een vennootschap met rechtspersoonlijkheid die op balansdatum maximaal één van de groottecriteria overschrijdt (WVV art. 1:24): personeelsbezetting ≤ 50, omzet excl. BTW ≤ € 11.250.000, balanstotaal ≤ € 6.000.000. Geniet vereenvoudigingen: verkort schema, vrijstelling jaarverslag, vrijstelling commissaris (tenzij groepsbreed groot).
 
 _Bron: WVV art. 1:24_
+
 
 
 ## Bouwstenen
@@ -105,23 +108,23 @@ _Grondslag: WVV art. 1:24 § 5_
 ## Valkuilen
 
 > [!warning]- Test eerst PIE-statuut. Een beursgenoteerde KMO is automatisch PIE en wordt voor jaarrekening behandeld als groot — geen klein-statuut.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Drie drempels, één-criterium-overschrijding: een klein-statuut behoudt men ZOLANG niet méér dan ÉÉN drempel wordt overschreden. Twee drempels overschrijden → niet langer klein.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bij wijziging van statuut: het nieuwe regime begint op het derde boekjaar, niet onmiddellijk in het overschrijdings-jaar.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bij groep-relatie: cijfers worden op geconsolideerde basis getest, niet individueel.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Drempels worden uitgedrukt in EUR exclusief BTW (omzet) en absoluut bedrag (balanstotaal). Het personeelsbestand is FTE-equivalent over het boekjaar.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

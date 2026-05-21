@@ -15,9 +15,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ethiek-organisatie-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Ethiek in de organisatie (IC-context) 🤖
+# Ethiek in de organisatie (IC-context) 🔗
 
 Ethiek in een onderneming is in PO 1.7 het 'zachte' luik van interne controle — de cultuur die procedures hun werking geeft. Voor de stagiair-accountant raakt dit twee dingen: (a) zijn eigen beroepsethiek (IESBA, ITAA-deontologie) — onafhankelijkheid en integriteit als beroepsbeoefenaar; (b) de ethiek-evaluatie bij de cliënt — als de tone at the top zwak is, zijn alle harde controles tactisch te omzeilen. Examen-vragen verwijzen vaak naar 'integriteit van het management' als hoeksteen van risk assessment (ISA 315).
 
@@ -27,6 +27,7 @@ Ethiek in een onderneming is in PO 1.7 het 'zachte' luik van interne controle �
 > [!info] Behoort tot: [[interne-controle]]
 
 Ethiek in een onderneming is het geheel van waarden en gedragsregels dat bepaalt wat acceptabel handelen is — voorbij wat de wet strikt verplicht. In IC-context is ethiek de 'zachte' dimensie van het systeem: zonder ethische grondhouding (integriteit, eerlijkheid, voorbeeldgedrag van management) blijven procedures dode letter. De 'tone at the top' is de kern van de controle-omgeving (COSO-component 1).
+
 
 
 ## Bouwstenen
@@ -43,7 +44,7 @@ De ITAA-deontologie volgt het IESBA Code of Ethics — vijf fundamentele princip
 
 _Grondslag: ITAA-norm-kmo-controlenorm §25 + IESBA Code 2024 Section 100/200_
 
-### Tone at the top 🤖
+### Tone at the top 🔗
 
 De houding, integriteit en ethische waarden van het topmanagement bepalen wat in de organisatie acceptabel handelen is — méér dan welke geschreven gedragscode dan ook.
 
@@ -54,7 +55,7 @@ De houding, integriteit en ethische waarden van het topmanagement bepalen wat in
 
 _Grondslag: COSO-component 1 (controle-omgeving)_
 
-### Gedragscode + sanctiebeleid 🤖
+### Gedragscode + sanctiebeleid 🔗
 
 Geschreven code (verwacht gedrag, conflicten, geschenken, klokkenluiding) gecombineerd met geloofwaardig sanctiebeleid bij overtreding.
 
@@ -66,7 +67,7 @@ Geschreven code (verwacht gedrag, conflicten, geschenken, klokkenluiding) gecomb
 
 _Grondslag: COSO 2013 + ITAA-deontologie_
 
-### Klokkenluiderkanaal 🤖
+### Klokkenluiderkanaal 🔗
 
 Vertrouwelijke meldweg voor personeel om vermoedens van fraude, integriteitsschendingen of regeloverschrijdingen te melden — los van hiërarchische lijn.
 
@@ -91,6 +92,9 @@ _Grondslag: Klokkenluidersrichtlijn EU 2019/1937 + Belgische uitvoering_
 > Voor accountants en bedrijfsrevisoren is ethiek geregeld in het KB van 1 maart 1998 (plichtenleer) — onafhankelijkheid, geheimhouding, professionele zorgvuldigheid. Bij een externe controleopdracht is dit niet 'zacht' maar afdwingbaar. ⚖️
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[controle-omgeving]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV ondertekent elk personeelslid bij indiensttreding de gedragscode (anti-omkoping, vertrouwelijkheidsclausule, melding van conflicten). Vertrouwenspersoon Anna Vermeulen krijgt 2-3 meldingen per jaar; één leidde in 20X3 tot ontslag van een aankoper wegens kickback-vermoeden.

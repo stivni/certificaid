@@ -1,0 +1,4 @@
+[
+  {"old": "fiscale-procedure-gewestelijk-vlabel", "new": "gewestelijke-fiscale-procedure", "reason": "C7 — pair-trap fix PO 2.7: maak de Vlabel-fiche het hoofdfiche (rename), brussel + wallonie mergen er straks in"},
+  {"old": "onafhankelijkheid-accountant", "new": "onafhankelijkheid", "reason": "C6 — regel B: 'accountant' is evident in context; onafhankelijkheid wordt het hoofdfiche, onafhankelijkheid-en-deontologie mergt er in"}
+]

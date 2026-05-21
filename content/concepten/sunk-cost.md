@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/sunk-cost.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Sunk cost (reeds gemaakte kost) 🤖
+# Sunk cost (reeds gemaakte kost) 🔗
 
 Een sunk cost is een al gemaakte, onomkeerbare kost — een uitgave die niet meer door een toekomstige beslissing beïnvloed kan worden. Sunk costs zijn principieel irrelevant voor beslissingen over de toekomst (extra-order accepteren, project stopzetten, machine vervangen). Toch worden ze in praktijk vaak meegeteld vanuit psychologische reden ('we hebben er al zoveel in gestoken') — een klassieke beslissingsbias.
 
@@ -26,6 +26,7 @@ Een sunk cost is een al gemaakte, onomkeerbare kost — een uitgave die niet mee
 Een sunk cost is een kost die al gemaakt is en onomkeerbaar — niet meer te beïnvloeden door een toekomstige beslissing. Sunk costs zijn nooit relevant voor beslissingen over de toekomst (extra-order, make-or-buy, stopzetting).
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## In de praktijk

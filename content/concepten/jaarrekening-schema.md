@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/jaarrekening-schema.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Jaarrekening-schema (volledig, verkort, micro) ⚖️
 
@@ -26,9 +26,12 @@ Het jaarrekening-schema is de **voorgeschreven opbouw en presentatie** van balan
 
 > [!info] Behoort tot: [[kb-wvv-uitvoering]] · [[jaarrekening-presentatie]] · Specialisatie van: [[jaarrekening]]
 
+> [!info] Bestaat uit (2): [[sociale-balans]] · [[toelichting-jaarrekening]] · Specialisaties (1): [[jaarrekening-vzw-stichting]]
+
 Het 'schema' van een jaarrekening is de voorgeschreven opbouw en presentatie van balans, resultatenrekening en toelichting. Het KB-WVV onderscheidt drie modellen: volledig (bijlage 1, voor grote vennootschappen), verkort (bijlage 2, voor kleine vennootschappen) en micro (bijlage 3, voor microvennootschappen). Verenigingen hebben aparte bijlagen.
 
 _Bron: KB-WVV art. 3:2 + bijlagen 1-3_
+
 
 
 ## Bouwstenen
@@ -95,7 +98,7 @@ _Grondslag: KB-WVV art. 3:184 e.v._
 <h3 id="wijziging-schema-door-grootte-verandering">Wijziging schema door grootte-verandering</h3>
 
 > [!tip]- Wijziging schema door grootte-verandering
-> Wanneer een vennootschap haar groottecategorie verlaat (twee opeenvolgende boekjaren overschrijding), moet ze voor het volgende boekjaar overstappen naar het bijhorende schema. De cijfers van het vorige boekjaar moeten in het nieuwe schema worden herhaald voor vergelijkbaarheid. 🤖
+> Wanneer een vennootschap haar groottecategorie verlaat (twee opeenvolgende boekjaren overschrijding), moet ze voor het volgende boekjaar overstappen naar het bijhorende schema. De cijfers van het vorige boekjaar moeten in het nieuwe schema worden herhaald voor vergelijkbaarheid. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen-scenario 'X is klein in 2024 maar groot in 2025+2026' → vanaf 2027 volledig schema; vergelijkende cijfers 2026 ook in volledig schema presenteren.
@@ -104,7 +107,7 @@ _Grondslag: KB-WVV art. 3:184 e.v._
 ## Zie ook
 
 - **Getriggerd door**: [[groottecriteria-jaarrekening]]
-
+- **Wordt voorondersteld in** (2): [[groottecriteria-jaarrekening]] · [[samenstelling-statutaire-jaarrekening]]
 ## Voorbeelden
 
 Rotex Roeselare NV (grote) → volledig schema. Meubelzaak Mertens BV (klein) → verkort schema. Oprichtingen Oostende BV (micro, geen dochter) → microschema.

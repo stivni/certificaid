@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/naamloze-vennootschap-nv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Naamloze vennootschap (NV) ⚖️
 
@@ -25,9 +25,12 @@ De NV is de **vorm voor grotere ondernemingen** en de standaardvorm voor beursge
 
 > [!info] Specialisatie van: [[vennootschap-begrip]]
 
+> [!info] Bestaat uit (5): [[alarmbelprocedure]] · [[inkoop-eigen-aandelen-nv]] · [[kapitaalverhoging-nv]] · [[kapitaalvermindering-nv]] · [[vennootschapsconflict]]
+
 De naamloze vennootschap is een vennootschap **met een kapitaal** waarin de aandeelhouders slechts hun inbreng verbinden (WVV art. 7:1). Ze heeft een minimumkapitaal van € 61.500 dat volledig moet worden geplaatst bij oprichting (WVV art. 7:2).
 
 _Bron: WVV art. 7:1, 7:2_
+
 
 
 ## Bouwstenen
@@ -93,7 +96,7 @@ _Grondslag: WVV art. 3:10 e.v._
 <h3 id="voor-de-stagiair-accountant">Voor de stagiair-accountant</h3>
 
 > [!tip]- Voor de stagiair-accountant
-> Bij NV-cliënten: dubbele boekhouding verplicht, volledig schema bij grote NV, commissaris-controle vaak verplicht (zie groottecriteria PO 1.x). Let op kapitaalveranderingen — kapitaalvermindering vereist procedure met schuldeisersbescherming (WVV art. 7:208). Beursgenoteerde NV's volgen IFRS voor geconsolideerde rekeningen. 🤖
+> Bij NV-cliënten: dubbele boekhouding verplicht, volledig schema bij grote NV, commissaris-controle vaak verplicht (zie groottecriteria PO 1.x). Let op kapitaalveranderingen — kapitaalvermindering vereist procedure met schuldeisersbescherming (WVV art. 7:208). Beursgenoteerde NV's volgen IFRS voor geconsolideerde rekeningen. 🔗
 
 
 > [!info]- Niet verwarren met [[]]
@@ -115,7 +118,7 @@ _Grondslag: WVV art. 3:10 e.v._
 
 - **Vereist kennis van**: [[beperkte-aansprakelijkheid-vennoot]]
 - **Vereist kennis van**: [[inbreng-vennootschap]]
-
+- **Wordt voorondersteld in** (5): [[certificering-aandelen]] · [[registratiedatum-genoteerde-nv]] · [[uitkeringstest-vergelijking-bv-nv]] · [[uitkoopbod-squeeze-out]] · [[verplicht-overnamebod]]
 ## Voorbeelden
 
 **Rotex Roeselare NV** met kapitaal € 1.500.000, 1.200 aandeelhouders, niet-genoteerd. Volledig schema jaarrekening, commissaris (Wolters & Partners CVBA), collegiale raad van bestuur met 5 bestuurders. **Zelena Bio NV** is beursgenoteerd: IFRS-consolidatie, duaal bestuursmodel, jaarverslag conform Belgische Corporate Governance Code 2020. _(Rotex Roeselare NV, Zelena Bio NV, Wolters & Partners CVBA)_

@@ -21,7 +21,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/resultatenrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Resultatenrekening ⚖️
 
@@ -32,9 +32,12 @@ Een van de drie verplichte stukken van de jaarrekening — naast balans en toeli
 
 > [!info] Behoort tot: [[jaarrekening]]
 
+> [!info] Bestaat uit (3): [[bedrijfsresultaat]] · [[financiele-verrichtingen]] · [[niet-recurrente-verrichtingen]]
+
 Het **periodieke overzicht** van alle kosten (klasse 6) en opbrengsten (klasse 7) van een boekjaar, geordend volgens rubrieken die het resultaat opbouwen in vier blokken: (1) **bedrijfsresultaat** (operationele activiteit), (2) **financieel resultaat** (kosten en opbrengsten van financieringsverrichtingen), (3) **niet-recurrent resultaat** (uitzonderlijke posten sinds KB 21/10/2018), (4) **belastingen** (vennootschapsbelasting, regularisaties, uitgestelde belastingen). Tussensaldi worden als 'subtotalen' getoond: bedrijfsresultaat → resultaat vóór belastingen → resultaat van het boekjaar. Onderdeel van de jaarrekening (KB WVV bijlagen 2, 3, 4 volgens schema-grootte).
 
 _Bron: KB WVV art. 3:90 — 3:95 (resultatenrekening); bijlage 2 (volledig schema)_
+
 
 
 ## Bouwstenen

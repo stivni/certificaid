@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vrijwillige-ontbinding.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Vrijwillige ontbinding 🤖
+# Vrijwillige ontbinding 🔗
 
 Vrijwillige ontbinding is de meest voorkomende ontbindingsvorm in de praktijk: de aandeelhouders willen de activiteit stopzetten en de vennootschap uit het rechtsverkeer halen. De accountant speelt hier een centrale rol — art. 2:71 § 2 WVV verplicht het bestuursorgaan om een **staat van activa en passiva** op te maken en daarover **een verslag door een commissaris, bedrijfsrevisor of gecertificeerd accountant** te laten opstellen, voorafgaand aan het ontbindingsbesluit.
 
@@ -25,7 +25,10 @@ Vrijwillige ontbinding is de meest voorkomende ontbindingsvorm in de praktijk: d
 
 > [!info] Behoort tot: [[ontbinding-vennootschap]]
 
+> [!info] Bestaat uit (1): [[staat-van-activa-en-passiva-ontbinding]]
+
 Een BV, CV, NV, SE of SCE kan op elk ogenblik worden ontbonden door een **besluit van de algemene vergadering**, met inachtneming van de wettelijke vormvereisten, aanwezigheidsquorum en versterkte meerderheid (typisch **4/5 van de uitgebrachte stemmen** — zie art. 5:84 BV, 6:70, § 2 CV, 7:132 NV). De ontbinding wordt vastgelegd in een **notariële akte** (behoudens VOF/CommV).
+
 
 
 ## Voorwaarden / uitzonderingen
@@ -35,7 +38,7 @@ Een BV, CV, NV, SE of SCE kan op elk ogenblik worden ontbonden door een **beslui
 - **Verslag van een commissaris, bedrijfsrevisor of gecertificeerd accountant** over die staat. De beroepsbeoefenaar verklaart of de staat van activa en passiva op alle materiële punten een **getrouw beeld** geeft. Het verslag bevat een paragraaf ter benadrukking van de verantwoordelijkheden van het bestuursorgaan. ⚖️
 - **Versterkte meerderheid** op de AV: bij BV/CV/NV typisch 4/5 van de uitgebrachte stemmen op een AV waar minstens de helft van het kapitaal of de aandelen aanwezig of vertegenwoordigd is. ⚖️
 - **Notariële akte** met bekendmaking in de Bijlagen bij het Belgisch Staatsblad (behoudens VOF/CommV waar onderhandse vorm volstaat). ⚖️
-- Voor **personenvennootschappen zonder rechtspersoonlijkheid** (maatschap) gelden afwijkende regels; voor **VOF en CommV** is in principe geen notariële akte vereist, wel een akkoord conform de statuten. 🤖
+- Voor **personenvennootschappen zonder rechtspersoonlijkheid** (maatschap) gelden afwijkende regels; voor **VOF en CommV** is in principe geen notariële akte vereist, wel een akkoord conform de statuten. 🔗
 ## Valkuilen
 
 > [!warning]- **De staat van activa en passiva mag niet ouder zijn dan drie maanden** op het ogenblik van de AV. De ITAA-norm verplicht de beroepsbeoefena…
@@ -51,7 +54,7 @@ Een BV, CV, NV, SE of SCE kan op elk ogenblik worden ontbonden door een **beslui
 
 - **Vereist kennis van**: [[staat-van-activa-en-passiva-ontbinding]]
 - **Vereist kennis van**: [[vereffenaar]]
-
+- **Wordt voorondersteld in** (1): [[adviseren-ontbindingsroute-vennootschap]]
 ## Voorbeelden
 
 ### Vrijwillige ontbinding Verffabriek Veurne BV

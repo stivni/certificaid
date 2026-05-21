@@ -17,7 +17,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/geinformatiseerde-omgeving-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Interne controle in een geïnformatiseerde omgeving ⚖️
 
@@ -28,9 +28,12 @@ Interne controle in een geïnformatiseerde omgeving combineert klassieke organis
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (3): [[cyberrisico-ic]] · [[it-application-controls]] · [[it-general-controls]]
+
 Interne controle in een geïnformatiseerde omgeving omvat alle maatregelen die de betrouwbaarheid, integriteit en beschikbaarheid van data in ICT-systemen waarborgen. Twee lagen vormen de kern: IT general controls die de IT-omgeving beheersen (toegang, change, operations) en application controls die binnen specifieke applicaties werken (input, processing, output).
 
 _Bron: ISA 315 (herzien-2019) Bijlage 5 + Bijlage 6_
+
 
 
 ## Bouwstenen
@@ -134,7 +137,7 @@ _Grondslag: ISA 315 (herzien-2019) Bijlage 6 §change management + IIA Standard 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Vereist kennis van**: [[avg-interne-controle]]
 - **Vereist kennis van**: [[cyberrisico-ic]]
-
+- **Wordt voorondersteld in** (3): [[avg-interne-controle]] · [[controlemiddelen-ic]] · [[informatiesysteem-onderneming]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV draait alles op ERP (Odoo). IT general controls: serverroom op slot (fysieke beveiliging), userprofielen met rol-gebaseerde rechten (toegangsbeheer), nightly back-up naar externe site (continuïteit), test/productie-scheiding bij upgrades (change management). Application controls binnen Odoo: dubbele invoer-validatie op IBAN, automatische btw-berekening, drempel-autorisaties.

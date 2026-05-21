@@ -18,7 +18,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/dochteronderneming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Dochteronderneming ⚖️
 
@@ -32,6 +32,7 @@ Een centrale rol in het Belgische vennootschapsrecht-groepsregime (WVV): elke en
 Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent. In het WVV is 'dochteronderneming' ruimer dan 'dochtervennootschap': het omvat ook elke instelling naar Belgisch of buitenlands recht — al dan niet openbaar, met of zonder winstoogmerk — zolang ze een commerciële, financiële of industriële activiteit uitoefent. Daardoor kunnen ook verenigingen en stichtingen tot de consolidatiekring horen, op voorwaarde dat een vennootschap er controle over heeft.
 
 _Bron: WVV art. 1:15, 2° jo. art. 3:22_
+
 
 
 ## In de praktijk

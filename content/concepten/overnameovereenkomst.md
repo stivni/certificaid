@@ -17,16 +17,19 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/overnameovereenkomst.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Overnameovereenkomst 🤖
+# Overnameovereenkomst 🔗
 
 De overnameovereenkomst is het centrale contract waarmee de eigendom van een onderneming verandert. In België draait het rond twee transactietypes (asset deal of share deal) en is het — anders dan in common-law-systemen — geen 'self-contained' document: het Belgisch contractenrecht en het WVV vullen aan wat het contract niet regelt. Voor de accountant is het contract het scharnier waarop de boekenresultaten van de due diligence in juridische en financiële bescherming omslaan.
 
 > [!summary] Korte inhoud
 > Een overnameovereenkomst is een contract waarmee de verkoper (vendor) de aandelen van een doelvennootschap (share deal) of bepaalde activa en passiva ervan (asset deal) overdraagt aan een koper, in ruil voor een prijs in geld of in eigen aandelen.
 
+> [!info]- Bestaat uit (14): [[asset-deal-versus-share-deal]] · [[closing-condities-precedent]] · [[confidentiality-overname]] · [[due-diligence-overname]] · [[escrow-en-zekerheidsmechanismen-overname]] · [[indemnification-overname]] · [[letter-of-intent-overname]] · [[material-adverse-change-clausule]] · [[niet-afwervingsbeding-overname]] · [[non-compete-overname]] · [[precontractuele-aansprakelijkheid-overname]] · [[purchase-price-mechanismen]] · [[representations-and-warranties]] · [[transfer-bedrijfstak-algemeenheid]]
+
 Een overnameovereenkomst is een contract waarmee de verkoper (vendor) de aandelen van een doelvennootschap (share deal) of bepaalde activa en passiva ervan (asset deal) overdraagt aan een koper, in ruil voor een prijs in geld of in eigen aandelen. Naast de prijs regelt het de bescherming van de koper via verklaringen en waarborgen, vrijwaringen, closing-condities, post-closing-verbintenissen en eventueel een prijsaanpassings- of earn-out-mechanisme.
+
 
 
 ## Bouwstenen
@@ -137,15 +140,15 @@ _Grondslag: [[non-compete-overname]]; IBA-MA-Belgium-2022-EN §5.2.9 post-closin
 ## Valkuilen
 
 > [!warning]- Onderhandel R&W cap, basket en duur expliciet uit — defaults zijn er niet onder Belgisch recht.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Hou rekening met de B2B-wet (WER art. VI.91/3): contractueel evenwicht is geen luxe, een rechter kan clausules nietig verklaren.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Een 'non-binding' LOI is bindend onder Belgisch recht zodra partijen het eens zijn over de essentiële elementen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -159,7 +162,7 @@ _Grondslag: [[non-compete-overname]]; IBA-MA-Belgium-2022-EN §5.2.9 post-closin
 - **Vereist kennis van**: [[closing-condities-precedent]]
 - **Vereist kennis van**: [[non-compete-overname]]
 - **Vereist kennis van**: [[confidentiality-overname]]
-
+- **Wordt voorondersteld in** (2): [[adviseren-overdrachtsroute-onderneming]] · [[begeleiden-waardering-onderneming-bij-overdracht]]
 ## Voorbeelden
 
 ### Overname Brugse Brouwerij BV door Aurelia Holding NV

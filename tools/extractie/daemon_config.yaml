@@ -1,0 +1,43 @@
+# Configuratie voor de Certificaid embedding-daemon (ADR-018)
+#
+# Pas waarden aan en herstart de daemon om ze van kracht te laten worden:
+#   launchctl kickstart -k gui/$(id -u)/com.certificaid.embedding-daemon
+#
+# Of direct:
+#   python tools/extractie/embedding_daemon.py --port 8765
+
+# --- Request-batching voor rerank (optimalisatie 1) ---
+rerank_batch:
+  # Maximum wachttijd (seconden) om extra requests te bundelen in één forward-pass.
+  # Lager = minder latentie per request, minder bundel-winst.
+  # Hoger = meer bundel-winst bij hoge concurrency, hogere eerste-request-latentie.
+  window_sec: 0.15          # 150ms
+
+  # Maximaal aantal requests per batch. Boven dit aantal start de batch direct.
+  max_size: 8
+
+# --- Gating: sla rerank over bij sterke bi-encoder score (optimalisatie 2) ---
+gating:
+  # Activeer gating (true = rerank overslaan indien bi-encoder voldoende zeker is)
+  enabled: true
+
+  # Minimale bi-encoder score voor top-1 om rerank over te slaan.
+  # Conservatief default: 0.80. Hoger = minder gating, betere kwaliteit-garantie.
+  top1_threshold: 0.80
+
+  # Minimale bi-encoder score voor de alternatieven (top-2 en top-3).
+  # Zorgt dat gating alleen optreedt als het verschil top-1 vs. rest klein is
+  # (dichte alternatieven = bi-encoder heeft het al goed gedaan).
+  alt_threshold: 0.65
+
+  # Dynamische top_k-uitbreiding: als scores binnen deze marge van elkaar liggen,
+  # worden maximaal extra_k extra resultaten teruggegeven zodat de agent keuze heeft.
+  margin: 0.05
+  extra_k: 3
+
+# --- Index-writes (optimalisatie 3) ---
+index_write:
+  # Maximaal aantal gelijktijdige index-schrijf-threads.
+  # Embedding-berekening is CPU/MPS-bound; echte parallel-winst is beperkt maar
+  # locking-overhead (wachten op andere model-calls) verdwijnt.
+  max_workers: 4

@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opsplitsing-eigendom.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Opsplitsing eigendom (vruchtgebruik, opstal, erfpacht) ⚖️
 
@@ -27,6 +27,7 @@ Een fiscaal en boekhoudkundig regime dat vooral voor onroerend goed (bedrijfslei
 **Zakelijke rechten op onroerende goederen** waarbij de **volle eigendom wordt opgesplitst** in twee tijdelijk gescheiden rechten: (1) het **vruchtgebruik** — recht om het goed te gebruiken en de vruchten te trekken, met onderhoudsplicht (BW art. 578), en (2) de **blote eigendom** — eigendomsrecht zonder gebruiksrecht zolang vruchtgebruik loopt. Soortgelijke constructies: **opstalrecht** (recht om gebouwen op andermans grond op te richten) en **erfpacht** (langdurig gebruiksrecht op vreemde grond). Boekhoudkundig: vruchtgebruik op rekening 221 (gebouw) of 250-252 'Zakelijke rechten' afhankelijk van type.
 
 _Bron: CBN 2015/05 — Zakelijke rechten op onroerende goederen_
+
 
 
 ## Bouwstenen

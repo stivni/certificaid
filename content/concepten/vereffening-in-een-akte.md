@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereffening-in-een-akte.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Vereffening in één akte 🤖
+# Vereffening in één akte 🔗
 
 De vereffening in één akte — in de praktijk vaak 'turbo-vereffening' genoemd — wordt aangewend wanneer een vennootschap aan het einde van haar levensloop **geen externe schuldeisers meer heeft** en de aandeelhouders snel en goedkoop uit het rechtsverkeer willen. Het ontbreken van een vereffenaar én van een vereffeningsfase betekent dat de **klassieke verslagcyclus** (omstandige staten, jaarrekening in vereffening, cijfermatig verslag) ontvalt. Eén accountantsverslag op de staat van activa en passiva volstaat.
 
@@ -24,6 +24,7 @@ De vereffening in één akte — in de praktijk vaak 'turbo-vereffening' genoemd
 > Overeenkomstig **art. 2:80 WVV** kunnen de ontbinding en de sluiting van de vereffening in **één notariële akte** worden samengebracht, mits drie strikte voorwaarden cumulatief zijn vervuld: (1) geen vereffenaar wordt benoemd, (2) alle schulden zijn betaald of de nodige gelden zi….
 
 Overeenkomstig **art. 2:80 WVV** kunnen de ontbinding en de sluiting van de vereffening in **één notariële akte** worden samengebracht, mits drie strikte voorwaarden cumulatief zijn vervuld: (1) geen vereffenaar wordt benoemd, (2) alle schulden zijn betaald of de nodige gelden zijn geconsigneerd, en (3) alle aandeelhouders zijn aanwezig of vertegenwoordigd op de AV en hebben schriftelijk ingestemd met de procedure.
+
 
 
 > [!info] Uitzondering op: [[vereffeningsprocedure-klassiek]]
@@ -52,7 +53,7 @@ Overeenkomstig **art. 2:80 WVV** kunnen de ontbinding en de sluiting van de vere
 ## Zie ook
 
 - **Vereist kennis van**: [[staat-van-activa-en-passiva-ontbinding]]
-
+- **Wordt voorondersteld in** (3): [[adviseren-ontbindingsroute-vennootschap]] · [[exit-routes-onderneming-overzicht]] · [[opstellen-verslag-ontbinding-vereffening-staat]]
 ## Voorbeelden
 
 ### Turbo-vereffening BV Z (CBN-advies 2022/06)

@@ -16,9 +16,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/representations-and-warranties.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Verklaringen en waarborgen 🤖
+# Verklaringen en waarborgen 🔗
 
 Verklaringen en waarborgen vormen de juridische ruggengraat van de koperbescherming in een overnameovereenkomst, vooral bij share deals. Het Belgisch verkooprecht geeft de aandelenkoper nauwelijks automatische bescherming — vandaar de centrale rol van de contractueel uitgewerkte R&W. Voor de accountant zijn de financiële R&W cruciaal: ze koppelen de jaarrekening aan een aansprakelijkheidsmechanisme.
 
@@ -28,6 +28,7 @@ Verklaringen en waarborgen vormen de juridische ruggengraat van de koperbescherm
 > [!info] Behoort tot: [[overnameovereenkomst]]
 
 Verklaringen en waarborgen (representations and warranties, R&W) zijn contractuele verklaringen van de verkoper dat bepaalde feiten over de doelvennootschap of de over te dragen activa op een welbepaalde datum waar, volledig, nauwkeurig en niet-misleidend zijn. Een schending van een R&W activeert het vrijwaringsmechanisme.
+
 
 
 ## Bouwstenen
@@ -102,15 +103,15 @@ _Grondslag: IBA-MA-Belgium-2022-EN §5.2.6 Seller protections_
 ## Valkuilen
 
 > [!warning]- Wees expliciet over wat de disclosure schedule beïnvloedt: alleen specifiek vermelde items of ook 'fair disclosure' in de data room?
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Beperk knowledge qualifiers tot expliciet genoemde personen + reasonable enquiry-plicht.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Koppel financiële R&W aan de specifieke jaarrekening-versie (datum, getekend exemplaar) — vermijd referenties die latere correcties laten.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -118,7 +119,7 @@ _Grondslag: IBA-MA-Belgium-2022-EN §5.2.6 Seller protections_
 
 - **Vereist kennis van**: [[indemnification-overname]]
 - **Getriggerd door**: [[due-diligence-overname]]
-
+- **Wordt voorondersteld in** (4): [[adviseren-overdrachtsroute-onderneming]] · [[begeleiden-due-diligence-overname]] · [[due-diligence-overname]] · [[overnameovereenkomst]]- **Triggert** (1): [[indemnification-overname]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

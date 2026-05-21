@@ -15,9 +15,9 @@ node_type: procedure
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/eindejaarsverrichtingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Eindejaarsverrichtingen (jaarafsluiting) 🤖
+# Eindejaarsverrichtingen (jaarafsluiting) 🔗
 
 De eindejaarsverrichtingen (afsluitingsboekingen) zijn de boekingen die de boekhoudkundige cijfers tot **economische waarheid** brengen op balansdatum: afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen, periodisering. Voor de stagiair-GA is dit het meest praktische thema van PO 1.2 — examen-cases vertrekken vaak vanuit één missing eindejaarsverrichting.
 
@@ -27,12 +27,13 @@ De eindejaarsverrichtingen (afsluitingsboekingen) zijn de boekingen die de boekh
 Voor het opstellen van de jaarrekening moeten de eindejaarsverrichtingen (ook 'inventarisboekingen' of 'afsluitingsboekingen') worden uitgevoerd. Dit zijn boekingen die de boekhouding aanvullen om de positie op balansdatum correct weer te geven: afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen, herwaarderingen, eindvoorraad en herklasseringen.
 
 
+
 ## In de praktijk
 
 <h3 id="volgorde-matters">Volgorde matters</h3>
 
 > [!tip]- Volgorde matters
-> Beste praktijk: eerst inventariseren, dan afschrijvingen, dan waardeverminderingen, dan voorzieningen, dan overlopende rekeningen, dan eindvoorraad. Zo bouw je systematisch het correcte beeld op. 🤖
+> Beste praktijk: eerst inventariseren, dan afschrijvingen, dan waardeverminderingen, dan voorzieningen, dan overlopende rekeningen, dan eindvoorraad. Zo bouw je systematisch het correcte beeld op. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen-scenario 'voer eindejaarsverrichtingen uit' → ga deze volgorde af, niet random.
@@ -215,7 +216,7 @@ Sluit alle resultaatrekeningen (klasse 6 en 7) af tegen rekening 14 'Overgedrage
 - **Vereist kennis van**: [[inventaris]]
 - **Vereist kennis van**: [[waarderingsregels-jaarrekening]]
 - **Getriggerd door**: [[proef-en-saldibalans]]
-
+- **Wordt voorondersteld in** (1): [[samenstelling-statutaire-jaarrekening]]- **Triggert** (6): [[balans]] · [[inventaris]] · [[jaarrekening]] · [[overlopende-rekeningen]] · [[resultaatverwerking]] · [[resultatenrekening]]
 ## Bronnen
 
 [^1]: `CBN-0007-04-opmaken-van-de-inventaris__sec_inleiding`

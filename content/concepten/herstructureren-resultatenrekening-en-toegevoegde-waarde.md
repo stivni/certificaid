@@ -17,11 +17,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/herstructureren-resultatenrekening-en-toegevoegde-waarde.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Herstructureren van de resultatenrekening en isoleren van de toegevoegde waarde 🤖
+# Herstructureren van de resultatenrekening en isoleren van de toegevoegde waarde 🔗
 
 Operationele competentie: de wettelijke resultatenrekening herwerken naar de vier blokken (bedrijfs-, financieel, uitzonderlijk, belastingen) en binnen het bedrijfsblok de toegevoegde waarde isoleren. Vraagt extra werk voor verkort/microschema waar bepaalde rubrieken samengevoegd zijn — accountant moet desaggregatie reconstrueren via toelichtingsstaten.
+
 
 
 ## Stappen

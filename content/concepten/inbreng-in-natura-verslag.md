@@ -13,9 +13,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/inbreng-in-natura-verslag.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Verslag bij inbreng in natura 🤖
+# Verslag bij inbreng in natura 🔗
 
 Een onderneming kan kapitaal vormen of verhogen door geld in te brengen (inbreng in geld) of door iets anders dan geld — een gebouw, een handelsfonds, vorderingen, knowhow (inbreng in natura). Bij inbreng in natura ontstaat een waarderingsrisico: de inbrenger kan de waarde van zijn goederen overdrijven en zo aandelen ontvangen die meer vertegenwoordigen dan hij werkelijk heeft ingebracht. Het WVV (art. 5:7 voor BV, 7:7 voor NV) eist daarom een onafhankelijk verslag van een externe accountant of bedrijfsrevisor (of de commissaris) dat de waardering toetst en aan de oprichtingsakte wordt gehecht. Bij vennootschappen met commissaris is het zijn opdracht; anders gedeeld monopolie GA / bedrijfsrevisor.
 
@@ -27,6 +27,7 @@ Een onderneming kan kapitaal vormen of verhogen door geld in te brengen (inbreng
 Het verslag bij inbreng in natura is een wettelijk voorbehouden opdracht waarbij een gecertificeerd accountant of bedrijfsrevisor (bij afwezigheid van commissaris) een verslag opstelt over de waardering van goederen of een bedrijfstak die als kapitaalinbreng worden ingebracht in een vennootschap, vóór de oprichtingsakte of de akte van kapitaalverhoging. De beroepsbeoefenaar verifieert of de toegepaste waardering ten minste overeenkomt met de te emitteren aandelen, zodat schuldeisers en mede-aandeelhouders niet benadeeld worden door een gefingeerde kapitaalvorming.
 
 _Bron: WVV art. 5:7 (BV) en art. 7:7 (NV)_
+
 
 
 ## Bouwstenen
@@ -42,7 +43,7 @@ De beroepsbeoefenaar identificeert wat precies wordt ingebracht: lijst van goede
 
 _Grondslag: WVV art. 5:7 §1_
 
-### Toetsing waarderingsmethode 🤖
+### Toetsing waarderingsmethode 🔗
 
 Toets of de toegepaste waarderingsmethode (markt, DCF, herwaarderingsbasis, expert-rapport) passend is voor de aard van de inbreng en consistent toegepast.
 
@@ -65,7 +66,7 @@ Vergelijk de waardering met het aantal en de fractiewaarde van de te emitteren a
 
 _Grondslag: WVV art. 5:7 §3_
 
-### Conclusie en deponering bij notaris 🤖
+### Conclusie en deponering bij notaris 🔗
 
 Schriftelijk verslag met identificatie, omschrijving, waardering, conclusie en handtekening. Wordt aan de oprichtingsakte of kapitaalverhogingsakte gehecht door de notaris en mee gedeponeerd bij de griffie binnen 15 dagen voor publicatie in het Belgisch Staatsblad.
 
@@ -87,7 +88,7 @@ _Grondslag: WVV art. 5:7 + KB plichtenleer art. 18 + ITAA-norm Opdrachtbrief_
 ## Valkuilen
 
 > [!warning]- Bij vastgoed of complexe activa: de accountant kan steunen op een expert-rapport maar moet de redelijkheid van de waardering bevestigen — ni…
-> ⚠️ Bij vastgoed of complexe activa: de accountant kan steunen op een expert-rapport maar moet de redelijkheid van de waardering bevestigen — niet zelf vastgoed waarderen zonder vastgoed-expertise. 🤖
+> ⚠️ Bij vastgoed of complexe activa: de accountant kan steunen op een expert-rapport maar moet de redelijkheid van de waardering bevestigen — niet zelf vastgoed waarderen zonder vastgoed-expertise. 🔗
 >
 > _Bron: ITAA-vakdoctrine + KB plichtenleer art. 14 (bekwaamheid)_
 
@@ -102,7 +103,7 @@ _Grondslag: WVV art. 5:7 + KB plichtenleer art. 18 + ITAA-norm Opdrachtbrief_
 ## Zie ook
 
 - **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
-
+- **Wordt voorondersteld in** (4): [[inbreng-in-natura]] · [[kapitaalverhoging-bv]] · [[kapitaalverhoging-nv]] · [[opstellen-overname-verslaggeving-accountant]]
 ## Voorbeelden
 
 ### Inbreng van een productiehal bij oprichting van een dochter

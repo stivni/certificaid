@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuurdersaansprakelijkheidsverzekering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bestuurdersaansprakelijkheidsverzekering (D&O) ⚖️
 
@@ -28,6 +28,7 @@ Een **bestuurdersaansprakelijkheidsverzekering** (in de praktijk: **D&O-polis**)
 _Bron: WVV art. 2:57 §3 (uitdrukkelijke uitzondering)_
 
 
+
 > [!info] Uitzondering op: [[]]
 
 ## In de praktijk
@@ -35,17 +36,17 @@ _Bron: WVV art. 2:57 §3 (uitdrukkelijke uitzondering)_
 <h3 id="wat-dekt-de-polis-typisch">Wat dekt de polis typisch</h3>
 
 > [!tip]- Wat dekt de polis typisch
-> Schadevergoeding wegens **bestuursfout** (mandaatfout art. 2:51, fouten jegens derden, fouten bij belangenconflictbehandeling), **verdedigingskosten** (advocaten, experts) en — afhankelijk van de polis — onderzoeken door toezichthouders. Standaarduitsluitingen: opzet, bedrog, persoonlijke vermogensverrijking, boetes en sancties met strafrechtelijk karakter. 🤖
+> Schadevergoeding wegens **bestuursfout** (mandaatfout art. 2:51, fouten jegens derden, fouten bij belangenconflictbehandeling), **verdedigingskosten** (advocaten, experts) en — afhankelijk van de polis — onderzoeken door toezichthouders. Standaarduitsluitingen: opzet, bedrog, persoonlijke vermogensverrijking, boetes en sancties met strafrechtelijk karakter. 🔗
 
 <h3 id="wat-dekt-de-polis-niet">Wat dekt de polis NIET</h3>
 
 > [!tip]- Wat dekt de polis NIET
-> **Sociale schulden** (XX.226 WER) en **fiscale schulden** (442quater WIB92, 93undecies C btw-Wb) zijn doorgaans **niet verzekerbaar** — niet alleen polis-uitsluiting, ook omdat verzekering tegen wettelijke verhaalsversterkers de ratio (prikkel voor correcte afhouding van voorheffingen) zou uithollen. **Strafrechtelijke** boetes blijven steeds persoonlijk. 🤖
+> **Sociale schulden** (XX.226 WER) en **fiscale schulden** (442quater WIB92, 93undecies C btw-Wb) zijn doorgaans **niet verzekerbaar** — niet alleen polis-uitsluiting, ook omdat verzekering tegen wettelijke verhaalsversterkers de ratio (prikkel voor correcte afhouding van voorheffingen) zou uithollen. **Strafrechtelijke** boetes blijven steeds persoonlijk. 🔗
 
 <h3 id="polisstructuur">Polisstructuur</h3>
 
 > [!tip]- Polisstructuur
-> Drie luiken: **Side A** dekt de bestuurder rechtstreeks wanneer de vennootschap niet of niet meer kan vrijwaren (typisch bij faillissement); **Side B** vergoedt de vennootschap wanneer zij — binnen de wettelijke grenzen — toch een veroordeling voorschiet; **Side C** dekt aansprakelijkheid van de vennootschap zelf in bepaalde effecten-gerelateerde dossiers (vooral voor beursgenoteerden). 🤖
+> Drie luiken: **Side A** dekt de bestuurder rechtstreeks wanneer de vennootschap niet of niet meer kan vrijwaren (typisch bij faillissement); **Side B** vergoedt de vennootschap wanneer zij — binnen de wettelijke grenzen — toch een veroordeling voorschiet; **Side C** dekt aansprakelijkheid van de vennootschap zelf in bepaalde effecten-gerelateerde dossiers (vooral voor beursgenoteerden). 🔗
 
 
 ## Valkuilen
@@ -57,7 +58,7 @@ _Bron: WVV art. 2:57 §3 (uitdrukkelijke uitzondering)_
 
 ## Voorbeelden
 
-**Zelena Bio NV** (beursgenoteerd) sluit een D&O-polis af met een limiet van € 25 mln. Bestuurder **Sofie Janssens** wordt door minderheidsaandeelhouders aangesproken voor schade door een laattijdige koersgevoelige melding. De polis betaalt advocatenkosten (Side A) en, na veroordeling, de schadevergoeding tot de polislimiet. _(Zelena Bio NV, Sofie Janssens)_ 🤖
+**Zelena Bio NV** (beursgenoteerd) sluit een D&O-polis af met een limiet van € 25 mln. Bestuurder **Sofie Janssens** wordt door minderheidsaandeelhouders aangesproken voor schade door een laattijdige koersgevoelige melding. De polis betaalt advocatenkosten (Side A) en, na veroordeling, de schadevergoeding tot de polislimiet. _(Zelena Bio NV, Sofie Janssens)_ 🔗
 
 ## Bronnen
 

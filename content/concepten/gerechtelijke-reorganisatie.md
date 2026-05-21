@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gerechtelijke-reorganisatie.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Gerechtelijke reorganisatie ⚖️
 
@@ -26,9 +26,12 @@ De gerechtelijke reorganisatie verving in 2009 het oude gerechtelijk akkoord en 
 
 > [!info] Behoort tot: [[insolventieprocedures-belgie]]
 
+> [!info] Bestaat uit (5): [[boekhoudkundige-verwerking-insolventie-akkoord]] · [[buitengerechtelijk-minnelijk-akkoord]] · [[herstructureringsdeskundige]] · [[homologatie-collectief-akkoord]] · [[opschorting-betaling-gerechtelijke-reorganisatie]]
+
 Insolventieprocedure die onder toezicht van de **insolventierechtbank** de continuïteit beoogt van het geheel of een gedeelte van een onderneming in moeilijkheden of van haar activiteiten. De schuldenaar geniet een **opschorting** (moratorium) op middelen van tenuitvoerlegging door schuldeisers. Boek XX kent drie varianten: **minnelijk akkoord** met twee of meer schuldeisers, **collectief akkoord** via een door schuldeisers gestemd en door de rechtbank gehomologeerd reorganisatieplan, en **overdracht onder gerechtelijk gezag** (verkoop door een vereffeningsdeskundige).
 
 _Bron: WER Titel V/I en V/II_
+
 
 
 ## Bouwstenen
@@ -130,7 +133,7 @@ _Grondslag: WER art. XX.60, XX.61_
 - **Vereist kennis van**: [[schuldvergelijking-tijdens-opschorting]]
 - **Vereist kennis van**: [[homologatie-collectief-akkoord]]
 - **Vereist kennis van**: [[herstructureringsdeskundige]]
-
+- **Wordt voorondersteld in** (2): [[exit-routes-onderneming-overzicht]] · [[schuldvergelijking-tijdens-opschorting]]
 ## Voorbeelden
 
 ### Collectief akkoord bij Transport Tongeren BV

@@ -17,11 +17,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/begeleiden-inbreng-bij-oprichting.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Begeleiden van de inbreng in geld en in natura bij oprichting 🤖
+# Begeleiden van de inbreng in geld en in natura bij oprichting 🔗
 
 Operationele competentie: de oprichter begeleiden bij het correct uitvoeren van de inbreng — voor geld via deponering op een geblokkeerde rekening vóór de notariële akte, voor natura via revisorenverslag en oprichtersverslag. Doel: vermijden van nietigheid van de akte en van oprichtersaansprakelijkheid voor kennelijke overwaardering.
+
 
 
 ## In de praktijk

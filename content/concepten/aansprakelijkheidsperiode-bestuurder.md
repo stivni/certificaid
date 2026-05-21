@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aansprakelijkheidsperiode-bestuurder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Aansprakelijkheidsperiode van de bestuurder ⚖️
 
@@ -31,6 +31,7 @@ Een bestuurder is **persoonlijk aansprakelijk** voor fouten die hij begaat **ter
 _Bron: WVV art. 2:52 §2 — CBN-advies 2020/09 voorbeelden 1 en 2_
 
 
+
 ## In de praktijk
 
 <h3 id="mandaatswissel-rond-jaarafsluiting">Mandaatswissel rond jaarafsluiting</h3>
@@ -41,7 +42,7 @@ _Bron: WVV art. 2:52 §2 — CBN-advies 2020/09 voorbeelden 1 en 2_
 <h3 id="ontslag-versus-bekendmaking">Ontslag versus bekendmaking</h3>
 
 > [!tip]- Ontslag versus bekendmaking
-> Intern (jegens de vennootschap en mede-bestuurders) is het ontslag onmiddellijk werkzaam. Tegenover **derden te goeder trouw** geldt het pas vanaf de **publicatie in het Belgisch Staatsblad**: zolang dat niet is gebeurd, kan een derde nog vorderen alsof de bestuurder in functie was. Praktische consequentie voor de ontslagnemende bestuurder: aandringen op snelle bekendmaking is een persoonlijk beschermings­belang. 🤖
+> Intern (jegens de vennootschap en mede-bestuurders) is het ontslag onmiddellijk werkzaam. Tegenover **derden te goeder trouw** geldt het pas vanaf de **publicatie in het Belgisch Staatsblad**: zolang dat niet is gebeurd, kan een derde nog vorderen alsof de bestuurder in functie was. Praktische consequentie voor de ontslagnemende bestuurder: aandringen op snelle bekendmaking is een persoonlijk beschermings­belang. 🔗
 
 
 ## Voorwaarden / uitzonderingen
@@ -49,11 +50,11 @@ _Bron: WVV art. 2:52 §2 — CBN-advies 2020/09 voorbeelden 1 en 2_
 - {'voorwaarde': 'Bestuurder was **in functie** op het moment van de gewraakte beslissing of nalatigheid', 'rationale': "Art. 2:52 §2 WVV koppelt persoonlijke aansprakelijkheid aan 'fouten begaan in de uitoefening van hun opdracht' — wie geen bestuurder is, oefent geen opdracht uit.", 'confidence': 'grounded', '_provenance': {'inputs': [{'id': 'MvT-WVV-2018__art_2_113', 'sha256': None, 'version': 'rag-v1'}]}} ⚖️
 - {'voorwaarde': 'Voor jaarrekening-aansprakelijkheid: in functie op datum van **vaststelling door bestuursorgaan**', 'rationale': "CBN 2020/09 (voorbeelden 1 en 2): de bestuurder die de jaarrekening vaststelt draagt er de verantwoordelijkheid voor — ook al was hij dat boekjaar nog niet in functie. Wie ontslag nam vóór vaststelling, is geen 'auteur' meer.", 'confidence': 'grounded', '_provenance': {'inputs': [{'id': 'CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris__sec_voorbeeld-1', 'sha256': None, 'version': 'rag-v1'}, {'id': 'CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris__sec_voorbeeld-2', 'sha256': None, 'version': 'rag-v1'}]}} ⚖️
 - {'uitzondering': '**Feitelijk bestuurder**: ook zonder formele benoeming aansprakelijk voor de periode waarin hij **werkelijke bestuursbevoegdheid** uitoefende', 'grondslag': "WVV art. 2:52 §2 — uitbreiding tot 'alle andere personen die werkelijke bestuursbevoegdheid hebben of hebben gehad'", 'confidence': 'grounded', '_provenance': {'inputs': [{'id': 'MvT-WVV-2018__art_2_113', 'sha256': None, 'version': 'rag-v1'}]}} ⚖️
-- {'uitzondering': '**Tegenstelbaarheid jegens derden**: zolang het ontslag niet is bekendgemaakt in het Belgisch Staatsblad, kunnen derden te goeder trouw zich nog op het mandaat beroepen (zie WVV art. 2:18 — bekendmaking als algemeen tegenstelbaarheidsregime)', 'grondslag': 'WVV art. 2:18 (algemeen tegenstelbaarheidsregime — niet in bundle, breed gekend leerstuk)', 'confidence': 'inferred'} 🤖
+- {'uitzondering': '**Tegenstelbaarheid jegens derden**: zolang het ontslag niet is bekendgemaakt in het Belgisch Staatsblad, kunnen derden te goeder trouw zich nog op het mandaat beroepen (zie WVV art. 2:18 — bekendmaking als algemeen tegenstelbaarheidsregime)', 'grondslag': 'WVV art. 2:18 (algemeen tegenstelbaarheidsregime — niet in bundle, breed gekend leerstuk)', 'confidence': 'inferred'} 🔗
 ## Valkuilen
 
 > [!warning]- Onderscheid **bestuursfouten van het boekjaar** (gebonden aan wie toen in functie was) van **jaarrekening-aansprakelijkheid** (gebonden aan wie bij vaststelling in functie was). De stagiair verwart deze twee tijdslijnen vaak.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Een **feitelijk bestuurder** wordt voor de aansprakelijkheidsperiode niet beoordeeld op de formele benoeming maar op de **feitelijke uitoefening** van bestuursmacht — vraag bij een dossier altijd: wie nam werkelijk de beslissingen, ongeacht het officiële organogram?

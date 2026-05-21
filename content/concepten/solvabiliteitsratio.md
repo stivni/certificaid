@@ -20,13 +20,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/solvabiliteitsratio.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Solvabiliteitsratio 🤖
+# Solvabiliteitsratio 🔗
 
 Meten welk aandeel van de balans gefinancierd is met eigen vermogen — een maatstaf voor structurele schokbestendigheid op middellange en lange termijn. Een vennootschap met hoge solvabiliteit kan tegenslag (verliezen, waardeverminderingen) opvangen zonder direct in betalingsproblemen te komen.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
+
 
 
 ## Bouwstenen
@@ -172,12 +173,15 @@ Resultaat: Solvabiliteit 40 % geldt als sterk: 4 op 10 euro op de balans is met 
 ## Valkuilen
 
 > [!warning]- Bij ondernemingen met overgedragen verliezen of negatieve reserves daalt het eigen vermogen, soms onder nul
-> ⚠️ Bij ondernemingen met overgedragen verliezen of negatieve reserves daalt het eigen vermogen, soms onder nul. Solvabiliteitsratio kan dan negatief worden — duidt op een technisch faillissementsrisico (alarmbel-procedure WVV). 🤖
+> ⚠️ Bij ondernemingen met overgedragen verliezen of negatieve reserves daalt het eigen vermogen, soms onder nul. Solvabiliteitsratio kan dan negatief worden — duidt op een technisch faillissementsrisico (alarmbel-procedure WVV). 🔗
 >
 > _Bron: Financial analysis_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (5): [[altman-z-score]] · [[financiering-met-derdenkapitaal]] · [[financiering-met-eigen-vermogen]] · [[ohlson-o-score]] · [[ratio-covenants]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`

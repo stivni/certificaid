@@ -13,7 +13,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorstel-omzetting-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Voorstel tot omzetting van een vennootschap ⚖️
 
@@ -29,6 +29,7 @@ Vóór de algemene vergadering die over de omzetting beslist, moet het bestuurso
 _Bron: WVV art. 14:3, art. 14:5, art. 14:6_
 
 
+
 ## Voorwaarden / uitzonderingen
 
 - {'voorwaarde': 'Staat van activa en passiva niet ouder dan drie maanden', 'uitleg': 'De staat moet afgesloten zijn binnen drie maanden vóór de AV die over de omzetting beslist. Oudere staten zijn onbruikbaar.', 'grondslag': 'WVV art. 14:3'} 
@@ -37,14 +38,14 @@ _Bron: WVV art. 14:3, art. 14:5, art. 14:6_
 ## Valkuilen
 
 > [!warning]- Het bestuursverslag is een afzonderlijk document, los van het accountantsverslag.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[controleverslag-omzetting]]
-
+- **Wordt voorondersteld in** (1): [[omzetting-vennootschap]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

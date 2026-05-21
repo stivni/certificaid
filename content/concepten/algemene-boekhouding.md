@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/algemene-boekhouding.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Algemene boekhouding ⚖️
 
@@ -26,6 +26,7 @@ De algemene boekhouding is het wettelijk verplichte registratiesysteem dat alle 
 De algemene boekhouding is het wettelijk verplichte registratiesysteem waarin alle financiële transacties van de onderneming chronologisch en systematisch worden vastgelegd volgens het Minimum Algemeen Rekeningstelsel (KB 21.10.2018, Bijlage 1). Output: jaarrekening (balans, resultatenrekening, toelichting) voor externe verslaggeving. Organiseert kosten en opbrengsten in klasse 6 en 7 per kostensoort (60, 61, 62, ...).
 
 _Bron: KB 21.10.2018 (boekhoudkundige verplichtingen) — MAR Bijlage 1_
+
 
 
 > [!info]- Niet verwarren met [[analytische-boekhouding]]

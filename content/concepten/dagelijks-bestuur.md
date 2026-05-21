@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/dagelijks-bestuur.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Dagelijks bestuur ⚖️
 
@@ -29,6 +29,7 @@ Het dagelijks bestuur is de gedelegeerde uitvoeringsbevoegdheid voor handelingen
 Het dagelijks bestuur omvat alle handelingen en beslissingen die niet verder reiken dan de behoeften van het dagelijks leven van de vennootschap, evenals handelingen en beslissingen die door hun gering belang of hun spoedeisend karakter de tussenkomst van het bestuursorgaan (raad van bestuur, enige bestuurder of directieraad) niet rechtvaardigen. Het bestuursorgaan kan het dagelijks bestuur — én de vertegenwoordigingsbevoegdheid voor zover die dat bestuur betreft — opdragen aan een of meer personen die elk alleen, gezamenlijk of als college optreden. Het bestuursorgaan dat het orgaan van dagelijks bestuur heeft aangesteld, is belast met het toezicht erop.
 
 _Bron: WVV art. 5:79 (BV), 6:67 (CV), 7:121 (NV)_
+
 
 
 ## Bouwstenen
@@ -86,17 +87,17 @@ _Grondslag: WVV art. 5:79, 6:67, 7:121_
 ## Valkuilen
 
 > [!warning]- Maak het onderscheid tussen 'gedelegeerd bestuurder' (lid van het bestuursorgaan met bijkomende delegatie) en 'dagelijks-bestuurder zonder bestuursmandaat' (niet-bestuurder met aparte delegatie).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[vertegenwoordiging-vennootschap-jegens-derden]]
-
+- **Wordt voorondersteld in** (1): [[vertegenwoordiging-vennootschap-jegens-derden]]
 ## Voorbeelden
 
-Bouwwerf Beerse BV stelt Marleen De Cock aan als gedelegeerd bestuurder voor het dagelijks bestuur. Zij tekent dagelijks aankoopfacturen onder € 15.000, sluit korte-termijn-bestelorders en geeft instructies aan het personeel. Voor een aankoop van een nieuwe kraanwagen van € 280.000 verwijst zij de beslissing door naar het collegiaal bestuursorgaan — dat valt buiten haar dagelijkse opdracht. _(Bouwwerf Beerse BV, Marleen De Cock)_ 🤖
+Bouwwerf Beerse BV stelt Marleen De Cock aan als gedelegeerd bestuurder voor het dagelijks bestuur. Zij tekent dagelijks aankoopfacturen onder € 15.000, sluit korte-termijn-bestelorders en geeft instructies aan het personeel. Voor een aankoop van een nieuwe kraanwagen van € 280.000 verwijst zij de beslissing door naar het collegiaal bestuursorgaan — dat valt buiten haar dagelijkse opdracht. _(Bouwwerf Beerse BV, Marleen De Cock)_ 🔗
 
 ## Bronnen
 

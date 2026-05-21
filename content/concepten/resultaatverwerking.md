@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/resultaatverwerking.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Resultaatverwerking (winst- of verliesbestemming) ⚖️
 
@@ -25,6 +25,7 @@ Het eindjaars-paraplu-proces dat AV-besluit, wettelijke reserve-toets en uitkeer
 Het proces waarbij het boekhoudkundige resultaat na winstbelasting wordt verdeeld over de verschillende bestemmingen: opname van wettelijke reserve, vrije bestemming aan beschikbare reserves, dividenduitkering, vergoeding bestuurders, overdracht naar volgend boekjaar. De resultaatverwerking gebeurt formeel door **goedkeuring van de algemene vergadering** op voorstel van het bestuursorgaan; tot dan staat het resultaat als 'te bestemmen' (rekening 79 of voorlopig overgedragen).
 
 _Bron: WVV art. 7:211 + 5:142; KB WVV_
+
 
 
 ## In de praktijk
@@ -167,7 +168,7 @@ Algemene vergadering keurt de jaarrekening + winstbestemming goed. Dividend word
 - **Getriggerd door**: [[eindejaarsverrichtingen]]
 - **Vereist kennis van**: [[wettelijke-reserve]]
 - **Vereist kennis van**: [[eigen-middelen]]
-
+- **Triggert** (2): [[resultaat-categorisatie-beslisboom]] · [[wettelijke-reserve]]
 ## Bronnen
 
 [^1]: `MAR-ondernemingen__art_1`

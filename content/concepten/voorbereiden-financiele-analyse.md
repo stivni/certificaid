@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorbereiden-financiele-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Voorbereiden van een financiële analyse van de jaarrekening 🤖
+# Voorbereiden van een financiële analyse van de jaarrekening 🔗
 
 Competentie om vóór de eigenlijke ratio-analyse de opdracht goed te kaderen: opdrachtgever en doel identificeren, perimeter bepalen (enkelvoudige vs. geconsolideerde jaarrekening), beschikbare bronnen verzamelen en analytische balans opstellen. Zonder deze voorbereiding loopt elke analyse risico op verkeerde focus.
+
 
 
 ## Stappen

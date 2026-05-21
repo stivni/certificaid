@@ -17,9 +17,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/jaarrekening-presentatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Jaarrekeningpresentatie (regime-overstijgend) 🤖
+# Jaarrekeningpresentatie (regime-overstijgend) 🔗
 
 Het examenprogramma toetst onder PO 1.5.IV de IFRS-presentatie naast de BE-GAAP-presentatie uit PO 1.1. De stagiair moet kunnen wisselen tussen beide regimes en de regime-overstijgende kern herkennen: welke componenten verplicht zijn, welke classificatie-keuzes spelen, en hoe presentatiebeginselen (continuïteit, consistentie, materialiteit) doorlopend gelden onafhankelijk van het regime.
 
@@ -28,9 +28,12 @@ Het examenprogramma toetst onder PO 1.5.IV de IFRS-presentatie naast de BE-GAAP-
 
 > [!info] Behoort tot: [[jaarrekening]]
 
+> [!info] Bestaat uit (4): [[balans-presentatie-ifrs]] · [[be-gaap-vs-ifrs-overzicht]] · [[jaarrekening-componenten-ifrs]] · [[jaarrekening-schema]]
+
 Jaarrekeningpresentatie is het geheel van vormvereisten en presentatiebeginselen waaraan een jaarrekening voldoet zodat ze het getrouw beeld geeft van het vermogen, de financiële positie en het resultaat. Onder elk boekhoudregime (BE GAAP via KB WVV, IFRS via IAS 1) is dezelfde economische realiteit te presenteren, maar de gekozen indeling, classificatie-criteria en verplichte componenten verschillen wezenlijk.
 
 _Bron: Aggregatie BE GAAP (KB WVV bijlagen 1-3) + IFRS (IAS 1)_
+
 
 
 ## Bouwstenen

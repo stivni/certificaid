@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kostprijs-per-eenheid.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Kostprijs per eenheid 🤖
+# Kostprijs per eenheid 🔗
 
 De kostprijs per eenheid is het bedrag aan opgeofferde middelen per geproduceerd product, geleverde dienst of uitgevoerde order. Welke kosten erin zitten hangt van het gekozen kostprijsmodel af: wettelijke vervaardigingsprijs (CBN 132/7 — directe + indirecte productiekosten), volledige bedrijfskostprijs (intern, ook commercieel en administratief), of variabele kostprijs (alleen variabele kosten, voor direct-costing-marge-analyse). De stagiair moet expliciet kunnen aangeven welke variant gevraagd is.
 
@@ -28,6 +28,7 @@ De kostprijs per eenheid is het bedrag aan opgeofferde middelen per geproduceerd
 De kostprijs per eenheid is het bedrag aan opgeofferde middelen om één eenheid van een product, dienst of order te realiseren. De kostprijs kan een vervaardigingsprijs zijn (wettelijk, CBN 132/7), een volledige bedrijfskostprijs (interne, inclusief commercieel + administratief) of een variabele kostprijs (direct costing). De interpretatie hangt af van het beoogde gebruik (voorraadwaardering / verkoopprijszetting / beslissing).
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## Berekening

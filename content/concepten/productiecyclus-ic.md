@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/productiecyclus-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Productiecyclus en interne controle 🤖
+# Productiecyclus en interne controle 🔗
 
 De productiecyclus transformeert grondstoffen via arbeid en machine-uren naar afgewerkte producten. Interne controle focust op correcte voorraadregistratie, kostprijsberekening en kwaliteitscontrole. Voor productiebedrijven (industrie, ambacht, bestellingen in uitvoering) is dit doorgaans de meest risicovolle cyclus voor zowel waardering als fraude (afval-fraude, ghost-output). Stagiairs komen dit tegen bij audits van industriële klanten of CBN 132/7-toepassingen.
 
@@ -26,6 +26,7 @@ De productiecyclus transformeert grondstoffen via arbeid en machine-uren naar af
 > [!info] Behoort tot: [[cyclus-analyse-ic]]
 
 Interne controle in de productiecyclus is het geheel van maatregelen die de stadia productieplanning → grondstofuitgifte → fabricage → voorraad gereed product → kostprijsberekening beheersen, met als doel rendementsverlies, voorraadafwijkingen, foute kostenverdeling en niet-geboekt afval te voorkomen of te detecteren.
+
 
 
 ## Bouwstenen
@@ -160,7 +161,7 @@ Grondstoffenkost + directe arbeid + overhead toewijzen aan voltooide producten; 
 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Vereist kennis van**: [[voorraadcyclus-ic]]
-
+- **Wordt voorondersteld in** (1): [[voorraadcyclus-ic]]
 ## Voorbeelden
 
 ### BOM-variantie onthult ongeboekt afval bij Naaiatelier Ninove BV
@@ -193,7 +194,7 @@ flowchart TD
 | 6094 — Voorraadwijzigingen grondstoffen (afval) _(Niet-geboekt grondstoffenverbruik Q3)_ | 35280 |  |
 | 31 — Voorraden grondstoffen |  | 35280 |
 
-🤖
+🔗
 
 
 

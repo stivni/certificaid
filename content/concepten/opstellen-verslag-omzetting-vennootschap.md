@@ -14,11 +14,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-verslag-omzetting-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van het verslag over de staat van activa en passiva bij omzetting van een vennootschap (Boek 14 WVV) 🤖
+# Opstellen van het verslag over de staat van activa en passiva bij omzetting van een vennootschap (Boek 14 WVV) 🔗
 
 Bij omzetting van een vennootschap naar een andere rechtsvorm (bv. BVBA → BV, BV → NV, kapitaalhoudende naar kapitaalloze vennootschap, of grensoverschrijdende omzetting) eist Boek 14 WVV een verslag van de commissaris of, bij ontbreken, van een bedrijfsrevisor of gecertificeerd accountant over een staat van activa en passiva die niet ouder is dan drie maanden. Het verslag beoordeelt of het nettoactief al dan niet overgewaardeerd is. Bij grensoverschrijdende omzetting (art. 14:21 WVV) komt daar een beoordeling van de geldelijke vergoeding voor uittredende aandeelhouders bij.
+
 
 
 ## In de praktijk
@@ -144,7 +145,7 @@ Bezorg het verslag aan bestuursorgaan/notaris zodat het bij de akte van omzettin
 ## Zie ook
 
 - **Vereist kennis van**: [[onafhankelijkheid-bijzondere-mandataris]]
-
+- **Wordt voorondersteld in** (1): [[omzetting-vennootschap]]
 ## Voorbeelden
 
 

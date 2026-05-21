@@ -152,20 +152,20 @@ class TestConfidence:
 
         assert label("grounded") == "⚖️"
 
-    def test_label_inferred_geeft_robot(self) -> None:
+    def test_label_inferred_geeft_link(self) -> None:
         from tools.leermateriaal.lib.confidence import label
 
-        assert label("inferred") == "🤖"
+        assert label("inferred") == "🔗"
 
-    def test_label_inferred_from_aggregation_geeft_robot(self) -> None:
+    def test_label_inferred_from_aggregation_geeft_link(self) -> None:
         from tools.leermateriaal.lib.confidence import label
 
-        assert label("inferred-from-aggregation") == "🤖"
+        assert label("inferred-from-aggregation") == "🔗"
 
-    def test_label_onbekend_geeft_robot(self) -> None:
+    def test_label_onbekend_geeft_link(self) -> None:
         from tools.leermateriaal.lib.confidence import label
 
-        assert label("onbekend") == "🤖"
+        assert label("onbekend") == "🔗"
 
     def test_mode_confidence_op_fixture_record(self) -> None:
         from tools.leermateriaal.lib.confidence import mode_confidence
@@ -363,7 +363,7 @@ class TestRenderCompetentieFiche:
 
         md = render_competentie(FIXTURE_COMPETENTIE_VALIDE)
         assert "⚖️ 80%" in md
-        assert "🤖 20%" in md
+        assert "🔗 20%" in md
 
     def test_render_competentie_bevat_stap(self) -> None:
         from tools.leermateriaal.render_competentie_fiche import render_competentie

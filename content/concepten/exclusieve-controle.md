@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/exclusieve-controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Exclusieve controle 🤖
+# Exclusieve controle 🔗
 
 Een sub-vorm van controle in het Belgische vennootschapsrecht (WVV) — controle uitgeoefend door één vennootschap alleen, zonder gezamenlijk akkoord met andere vennoten. Het is het normaal-typische groepsverband dat integrale consolidatie als consolidatietechniek triggert.
 
@@ -30,6 +30,7 @@ Een sub-vorm van controle in het Belgische vennootschapsrecht (WVV) — controle
 De controle die één vennootschap alleen uitoefent over een andere — niet samen met andere vennoten. Exclusieve controle is onweerlegbaar wanneer een vennootschap (rechtstreeks of via dochters) meer dan de helft van de stemrechten in de andere vennootschap bezit, of het recht heeft om de meerderheid van de bestuurders te benoemen of te ontslaan.
 
 _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
+
 
 
 ## In de praktijk
@@ -45,7 +46,7 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 <h3 id="onderscheid-controle-in-rechte-vs-controle-in-feite">Onderscheid controle in rechte vs. controle in feite</h3>
 
 > [!tip]- Onderscheid controle in rechte vs. controle in feite
-> Controle in rechte = onweerlegbaar juridisch vermoeden, op basis van een meerderheid van de stemrechten of een statutair/contractueel recht om de meerderheid van de bestuurders te benoemen of te ontslaan. Controle in feite = afgeleid uit echte stem- en benoemingspatronen, zonder dat een onweerlegbaar criterium vervuld is. Examen-relevant: een opgave die zwijgt over een formele meerderheid maar zegt dat 'Aurelia tijdens de laatste twee algemene vergaderingen telkens al haar bestuurders heeft kunnen aanstellen' wijst op controle in feite — niet op gezamenlijke controle (die vereist een overeenkomst, zie CBN 2017/02). 🤖
+> Controle in rechte = onweerlegbaar juridisch vermoeden, op basis van een meerderheid van de stemrechten of een statutair/contractueel recht om de meerderheid van de bestuurders te benoemen of te ontslaan. Controle in feite = afgeleid uit echte stem- en benoemingspatronen, zonder dat een onweerlegbaar criterium vervuld is. Examen-relevant: een opgave die zwijgt over een formele meerderheid maar zegt dat 'Aurelia tijdens de laatste twee algemene vergaderingen telkens al haar bestuurders heeft kunnen aanstellen' wijst op controle in feite — niet op gezamenlijke controle (die vereist een overeenkomst, zie CBN 2017/02). 🔗
 
 > [!tip]- Herkennen op het examen
 > Geen formele >50 %-meerderheid maar dominante invloed op besluitvorming → toets controle in feite (KB WVV art. 3:98 jo. WVV art. 1:14, § 2).
@@ -79,9 +80,9 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 
 ## Voorwaarden / uitzonderingen
 
-- Bezit (rechtstreeks of via dochters) van meer dan de helft van de stemrechten in de andere vennootschap — dat is een onweerlegbaar vermoeden van controle in rechte. 🤖
-- Statutaire of contractuele macht om de meerderheid van de bestuurders of zaakvoerders te benoemen of te ontslaan — ook onweerlegbaar vermoeden van controle in rechte. 🤖
-- Controle in feite: tijdens de twee laatste algemene vergaderingen heeft de vennootschap met haar effectief uitgeoefende stemrechten de meerderheid van de bestuurders kunnen aanstellen. 🤖
+- Bezit (rechtstreeks of via dochters) van meer dan de helft van de stemrechten in de andere vennootschap — dat is een onweerlegbaar vermoeden van controle in rechte. 🔗
+- Statutaire of contractuele macht om de meerderheid van de bestuurders of zaakvoerders te benoemen of te ontslaan — ook onweerlegbaar vermoeden van controle in rechte. 🔗
+- Controle in feite: tijdens de twee laatste algemene vergaderingen heeft de vennootschap met haar effectief uitgeoefende stemrechten de meerderheid van de bestuurders kunnen aanstellen. 🔗
 > [!info]- Niet verwarren met [[gezamenlijke-controle]]
 > Exclusieve controle = één vennootschap beslist alleen. Gezamenlijke controle = beslissingen moeten verplicht samen met andere vennoten worden genomen (via overeenkomst). Exclusief → integrale consolidatie; gezamenlijk → evenredige consolidatie of vermogensmutatie.
 >
@@ -100,7 +101,7 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 ## Zie ook
 
 - **Getriggerd door**: [[integrale-consolidatie]]
-
+- **Wordt voorondersteld in** (1): [[controleverwerving-methodes]]- **Triggert** (1): [[integrale-consolidatie]]
 ## Voorbeelden
 
 Aurelia Holding NV bezit 80 % van de stemrechten in Brugse Brouwerij BV. → onweerlegbaar exclusieve controle in rechte (WVV art. 1:14, § 2) → integrale consolidatie van Brugse in de geconsolideerde jaarrekening van Aurelia.

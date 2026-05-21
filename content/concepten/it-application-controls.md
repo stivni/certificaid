@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/it-application-controls.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # IT application controls ⚖️
 
@@ -28,6 +28,7 @@ Application controls (toepassings-controles) zijn de geautomatiseerde of handmat
 IT application controls zijn de geautomatiseerde of handmatige controles ingebouwd in een specifieke IT-applicatie die toezien op invoer, verwerking en uitvoer van transacties, met als doel volledigheid, juistheid en autorisatie te waarborgen.
 
 _Bron: ISA 315 (herzien-2019) Bijlage 5_
+
 
 
 ## Bouwstenen
@@ -99,7 +100,7 @@ _Grondslag: ISA 315 Bijlage 5 par. 3_
 ## Zie ook
 
 - **Vereist kennis van**: [[it-general-controls]]
-
+- **Wordt voorondersteld in** (3): [[geinformatiseerde-omgeving-ic]] · [[informatiesysteem-onderneming]] · [[it-audit-procedures]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

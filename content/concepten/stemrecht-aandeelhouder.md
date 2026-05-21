@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/stemrecht-aandeelhouder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Stemrecht van de aandeelhouder ⚖️
 
@@ -30,6 +30,7 @@ Het stemrecht is het recht van een aandeelhouder om in de algemene vergadering z
 _Bron: WVV art. 7:140 (NV), 6:78 (CV)_
 
 
+
 ## In de praktijk
 
 - In de BV is meervoudig stemrecht een courante structureringstool — bv. familiale aandeelhouders die controle willen houden na een kapitaalverhoging waarbij investeerders binnenkomen.
@@ -38,14 +39,14 @@ _Bron: WVV art. 7:140 (NV), 6:78 (CV)_
 ## Valkuilen
 
 > [!warning]- Voor BV altijd de statuten consulteren — afwijkende stemrecht-structuren zijn de regel meer dan de uitzondering, zeker bij familiale of investeerdersgedreven vennootschappen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[vennoot-vs-aandeelhouder]]
-
+- **Wordt voorondersteld in** (7): [[aanwezigheidsrecht-algemene-vergadering]] · [[certificering-aandelen]] · [[meervoudig-stemrecht]] · [[notulen-algemene-vergadering]] · [[stemovereenkomst]] · [[volmacht-algemene-vergadering]] · [[vraagrecht-aandeelhouder]]
 ## Voorbeelden
 
 Brugse Brouwerij BV heeft 1.000 aandelen. De statuten kennen aan de aandelen van Pieter Vermeulen (200 stuks) een dubbel stemrecht toe. Op de AV beschikt hij over 400 stemmen, de andere 800 aandelen over één stem elk — totaal 1.200 stemmen. _(Brugse Brouwerij BV, Pieter Vermeulen)_

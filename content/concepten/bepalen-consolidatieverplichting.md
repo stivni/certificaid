@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bepalen-consolidatieverplichting.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen 🤖
+# Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen 🔗
 
 Een toepassingscompetentie binnen het Belgische vennootschapsrecht (WVV) — de gatekeeper-vraag vóór elke consolidatie-opdracht. De stagiair toetst of de moeder consolidatieplichtig is, of zij valt onder een vrijstelling (grootte, subconsolidatie), en welke entiteiten in de groottetoets meewegen.
+
 
 
 ## Stappen

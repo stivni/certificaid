@@ -18,7 +18,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ibr.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Instituut van de Bedrijfsrevisoren (IBR) ⚖️
 
@@ -27,9 +27,12 @@ Het Instituut van de Bedrijfsrevisoren (IBR / IRE in het Frans) is de federatie 
 > [!summary] Korte inhoud
 > Het Instituut van de Bedrijfsrevisoren (IBR) is het Belgisch beroepsinstituut voor revisoren — de beroepsbeoefenaars die wettelijke jaarrekening-controles uitvoeren.
 
+> [!info] Bestaat uit (1): [[bedrijfsrevisor]]
+
 Het Instituut van de Bedrijfsrevisoren (IBR) is het Belgisch beroepsinstituut voor revisoren — de beroepsbeoefenaars die wettelijke jaarrekening-controles uitvoeren. Het IBR reguleert de toegang tot het revisoraat (stage + bekwaamheidsexamen), houdt tucht en publiceert audit-normen die in lijn liggen met de internationale ISA-normen.
 
 _Bron: Wet 7 december 2016 (revisorenwet)_
+
 
 
 ## Bouwstenen
@@ -46,7 +49,7 @@ Bouwwerf Beerse BV groeit boven de groottedrempels → moet een commissaris aans
 
 _Grondslag: WVV art. 3:72; Wet 7 december 2016_
 
-### Drie kerntaken 🤖
+### Drie kerntaken 🔗
 
 (1) Toelating: bekwaamheidsexamen revisor + stage. (2) Tucht: deontologie + sancties (waarschuwing, schorsing, schrapping). (3) Normen: omzetting van ISA-normen tot Belgische audit-normen.
 
@@ -72,7 +75,7 @@ _Grondslag: Wet 7 december 2016_
 <h3 id="stage-en-examentraject-revisor">Stage- en examentraject revisor</h3>
 
 > [!tip]- Stage- en examentraject revisor
-> Toegang tot het beroep verloopt via een driejarige stage onder een IBR-revisor-stagemeester + slagen voor het bekwaamheidsexamen. Pas dan inschrijving in het IBR-register. Permanente vorming jaarlijks verplicht (min. 120 uur over 3 jaar). 🤖
+> Toegang tot het beroep verloopt via een driejarige stage onder een IBR-revisor-stagemeester + slagen voor het bekwaamheidsexamen. Pas dan inschrijving in het IBR-register. Permanente vorming jaarlijks verplicht (min. 120 uur over 3 jaar). 🔗
 
 > [!tip]- Herkennen op het examen
 > Belangrijk onderscheid met ITAA-gecertificeerd accountant: aparte stage, aparte examen, aparte tucht.
@@ -80,7 +83,7 @@ _Grondslag: Wet 7 december 2016_
 <h3 id="federaal-publiek-toezicht-via-ctr">Federaal publiek toezicht via CTR</h3>
 
 > [!tip]- Federaal publiek toezicht via CTR
-> Sinds 2017 staan de bedrijfsrevisoren onder publiek toezicht van het College van Toezicht op de Bedrijfsrevisoren (CTR), dat administratief bij de FSMA is ondergebracht. Het CTR doet kwaliteitsinspecties bij revisor-kantoren en kan tuchtdossiers initiëren. 🤖
+> Sinds 2017 staan de bedrijfsrevisoren onder publiek toezicht van het College van Toezicht op de Bedrijfsrevisoren (CTR), dat administratief bij de FSMA is ondergebracht. Het CTR doet kwaliteitsinspecties bij revisor-kantoren en kan tuchtdossiers initiëren. 🔗
 
 > [!tip]- Herkennen op het examen
 > Niet meer 'zelfregulering door IBR alleen' — er is een externe toezichthouder boven IBR (CTR).
@@ -95,18 +98,18 @@ _Grondslag: Wet 7 december 2016_
 ## Valkuilen
 
 > [!warning]- IBR-revisor (commissaris) en ITAA-gecertificeerd accountant zijn geen synoniemen — verschillende stages, verschillende examens, verschillende bevoegdheden.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Een vennootschap onder de groottedrempels kan vrijwillig een commissaris benoemen — die moet dan ook IBR-revisor zijn.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[commissaris]]
-
+- **Wordt voorondersteld in** (1): [[commissaris]]
 ## Voorbeelden
 
 Rotex Roeselare NV (grote NV) heeft de plicht een commissaris aan te stellen → die commissaris moet ingeschreven zijn bij het IBR (revisorenregister).

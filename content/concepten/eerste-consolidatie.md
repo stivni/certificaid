@@ -17,7 +17,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/eerste-consolidatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Eerste consolidatie ⚖️
 
@@ -31,6 +31,7 @@ Een sleutelmoment in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek
 Het moment waarop een nieuw verworven dochter (of een dochter die je voor het eerst gaat consolideren) voor het eerst in de geconsolideerde jaarrekening wordt opgenomen. Op dat ogenblik vergelijk je wat je voor de aandelen betaalde met jouw pro-rata aandeel in het eigen vermogen van de dochter op de datum van aankoop. Het verschil reken je zoveel mogelijk toe aan onder- of overgewaardeerde bezittingen en schulden van de dochter; het residu boek je als 'Consolidatieverschillen' — positief aan actiefzijde, negatief aan passiefzijde.
 
 _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
+
 
 
 ## In de praktijk
@@ -65,6 +66,9 @@ _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
 
 
 
+## Zie ook
+
+- **Triggert** (2): [[consolidatieverschil]] · [[step-acquisition]]
 ## Voorbeelden
 
 Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op die datum = € 1.500.000. Pro-rata aandeel = € 1.200.000; bruto-verschil = € 400.000, na toerekening € 250.000 aan ondergewaardeerde terreinen blijft € 150.000 als positief consolidatieverschil aan actiefzijde.

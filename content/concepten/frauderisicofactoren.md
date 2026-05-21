@@ -17,7 +17,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/frauderisicofactoren.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Frauderisicofactoren (ISA 240) ⚖️
 
@@ -31,6 +31,7 @@ ISA 240 §12(b) definieert 'frauderisicofactoren' als formele term: gebeurteniss
 Frauderisicofactoren zijn gebeurtenissen of omstandigheden die wijzen op een stimulans of druk om fraude te plegen, of die een gelegenheid scheppen om te frauderen. De auditor inventariseert deze factoren tijdens de risico-inschatting (ISA 240 §24) en weegt ze af bij het bepalen van de aard, timing en omvang van controlewerkzaamheden.
 
 _Bron: ISA 240 §12(b)_
+
 
 
 ## Bouwstenen
@@ -84,7 +85,7 @@ _Grondslag: ISA 240 §27 + ISA 315 §28_
 - **Vereist kennis van**: [[fraudedriehoek]]
 - **Vereist kennis van**: [[management-override]]
 - **Getriggerd door**: [[risico-inschatting-audit]]
-
+- **Wordt voorondersteld in** (1): [[fraude]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV identificeert externe auditor Sofie Janssens in een eerste audit-pass: (a) druk-factor — CFO heeft persoonlijke garantie op bankschuld; (b) gelegenheid-factor — boekhouder doet zowel input als reconciliatie kas-grootboek; (c) bijlage-3-indicator — twee handgeschreven correcties op de bankreconciliatie van december zonder duidelijke onderbouwing. Drie factoren in convergentie → fraude-significant-risico voor kasprocessen. Audit-respons: specifieke kas-procedures (surprise count, externe bankbevestigingen, periode-uitbreiding tot januari).

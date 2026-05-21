@@ -16,9 +16,10 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/uitvoeren-eerste-toepassing-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Uitvoeren van de eerste toepassing van IFRS overeenkomstig IFRS 1 🤖
+# Uitvoeren van de eerste toepassing van IFRS overeenkomstig IFRS 1 🔗
+
 
 
 ## Stappen
@@ -179,7 +180,7 @@ Maak in de eerste IFRS-jaarrekening de verplichte aansluitingen: EV op overgangs
 
 - **Vereist kennis van**: [[ifrs-eerste-toepassing]]
 - **Vereist kennis van**: [[stelselwissel-jaarrekening]]
-
+- **Wordt voorondersteld in** (2): [[bepalen-toepasselijkheid-ifrs-belgie]] · [[presenteren-jaarrekening-ifrs]]
 ## Voorbeelden
 
 

@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opschorting-besluit-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opschorting van een vennootschapsbesluit in kort geding 🤖
+# Opschorting van een vennootschapsbesluit in kort geding 🔗
 
 Naast de **definitieve nietigverklaring** (art. 2:42-2:45 WVV) — een lange bodemprocedure — voorziet de WVV in een **snelle, voorlopige remedie**: de **opschorting** van een besluit van een orgaan van de rechtspersoon door de voorzitter van de ondernemingsrechtbank, in kort geding (art. 2:46 WVV). Dit instrument is cruciaal in vennootschapsconflicten waar de uitvoering van een betwist besluit (bv. ontslag bestuurder, kapitaalverhoging, dividendloze winstbestemming) onomkeerbare schade dreigt te veroorzaken vóór een vonnis ten gronde valt. Het is de spoed-equivalent van de nietigverklaring — sneller, voorlopig, met behoud van het recht ten gronde.
 
@@ -26,6 +26,7 @@ Naast de **definitieve nietigverklaring** (art. 2:42-2:45 WVV) — een lange bod
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 De **voorzitter van de ondernemingsrechtbank** kan, in gevallen die hij **spoedeisend** acht en **op vordering van de rechtspersoon of een belanghebbende**, **in kort geding** de **opschorting** van een besluit van een orgaan (algemene vergadering, raad van bestuur, dagelijks bestuur) of van de algemene vergadering van obligatiehouders bevelen, indien de aangevoerde middelen de **nietigverklaring prima facie kunnen verantwoorden** (art. 2:46 WVV).
+
 
 
 ## In de praktijk
@@ -44,15 +45,15 @@ De **voorzitter van de ondernemingsrechtbank** kan, in gevallen die hij **spoede
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -62,5 +63,5 @@ De **voorzitter van de ondernemingsrechtbank** kan, in gevallen die hij **spoede
 
 ## Voorbeelden
 
-Karolien Demaerel (28% aandeelhouder) verneemt dat de algemene vergadering van Bouwwerken Vandekerckhove BV op 14 juni beslist heeft tot een kapitaalverhoging met uitsluiting van haar voorkeurrecht — beslissing genomen zonder dat het bijzonder verslag van het bestuursorgaan vooraf werd voorgelegd zoals art. 5:130 WVV vereist. De inschrijving op de nieuwe aandelen staat gepland voor 25 juni. Karolien vordert bij de voorzitter van de ondernemingsrechtbank Gent in kort geding de **opschorting** van de AV-beslissing tot een vonnis ten gronde valt. De voorzitter oordeelt dat de procedurele schending **prima facie** een nietigheidsgrond uitmaakt (art. 2:42, 1° WVV) en dat afwachten onomkeerbaar zou zijn (eens ingeschreven, moeilijk terug te draaien) — de opschorting wordt bevolen, de inschrijvingsoperatie wordt geblokkeerd, en Karolien stelt parallel een bodemprocedure tot nietigverklaring in. 🤖
+Karolien Demaerel (28% aandeelhouder) verneemt dat de algemene vergadering van Bouwwerken Vandekerckhove BV op 14 juni beslist heeft tot een kapitaalverhoging met uitsluiting van haar voorkeurrecht — beslissing genomen zonder dat het bijzonder verslag van het bestuursorgaan vooraf werd voorgelegd zoals art. 5:130 WVV vereist. De inschrijving op de nieuwe aandelen staat gepland voor 25 juni. Karolien vordert bij de voorzitter van de ondernemingsrechtbank Gent in kort geding de **opschorting** van de AV-beslissing tot een vonnis ten gronde valt. De voorzitter oordeelt dat de procedurele schending **prima facie** een nietigheidsgrond uitmaakt (art. 2:42, 1° WVV) en dat afwachten onomkeerbaar zou zijn (eens ingeschreven, moeilijk terug te draaien) — de opschorting wordt bevolen, de inschrijvingsoperatie wordt geblokkeerd, en Karolien stelt parallel een bodemprocedure tot nietigverklaring in. 🔗
 

@@ -31,9 +31,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/public-interest-entity.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Public Interest Entity (PIE) 🤖
+# Public Interest Entity (PIE) 🔗
 
 Voor de stagiair die zich afvraagt waarom 'PIE' zo vaak terugkomt in deontologie- en audit-vragen: de Europese wetgever heeft een tweelagenmodel gebouwd waarin entiteiten met groot maatschappelijk belang (beursgenoteerden, banken, verzekeraars) strenger gereguleerd worden dan gewone vennootschappen. Het PIE-statuut activeert IFRS-verplichting, strenger onafhankelijkheidsregime, partner-rotatie, auditcomité, en versterkt toezicht. Examenvragen rond audit-onafhankelijkheid en IFRS-toepassing leunen sterk op het PIE-onderscheid.
 
@@ -45,9 +45,10 @@ Een Public Interest Entity (PIE) is een vennootschap waarop strengere transparan
 _Bron: Richtlijn 2013/34/EU art. 2(1)_
 
 
+
 ## Bouwstenen
 
-### Vier categorieën PIE 🤖
+### Vier categorieën PIE 🔗
 
 (1) Vennootschappen waarvan effecten genoteerd zijn op een gereglementeerde markt in de EU. (2) Kredietinstellingen (banken). (3) Verzekeringsondernemingen. (4) Andere door de lidstaat aangewezen entiteiten van groot openbaar belang.
 
@@ -59,7 +60,7 @@ Beursgenoteerde holding op Euronext Brussels → PIE. Niet-genoteerde verzekerin
 
 _Grondslag: Richtlijn 2013/34/EU art. 2(1)_
 
-### Drie strengere regels 🤖
+### Drie strengere regels 🔗
 
 (1) IFRS-consolidatie verplicht (verordening 1606/2002). (2) Rotatie van revisor — een commissaris kan maximaal 10 jaar (eventueel verlengbaar met openbare aanbesteding) dezelfde PIE controleren. (3) Audit committee (auditcomité) verplicht in de raad van bestuur.
 
@@ -88,19 +89,19 @@ _Grondslag: Wet 7 december 2016 + Verordening (EU) 537/2014_
 ## Valkuilen
 
 > [!warning]- PIE-test eerst uitvoeren, groottecriteria daarna toepassen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Differentieer tussen 'beursgenoteerd' (gereglementeerde markt EU, zoals Euronext Brussels) en 'op MTF/groeimarkt' (zoals Euronext Growth). PIE-statuut geldt enkel voor gereglementeerde markt.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Verzekeringsondernemingen 'onder NBB-toezicht' zijn PIE, ook als ze niet beursgenoteerd zijn. Idem voor kredietinstellingen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Audit committee (auditcomité) is verplicht bij PIE — niet bij gewone grote vennootschappen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -108,7 +109,7 @@ _Grondslag: Wet 7 december 2016 + Verordening (EU) 537/2014_
 
 - **Vereist kennis van**: [[fsma]]
 - **Vereist kennis van**: [[europees-boekhoudrecht]]
-
+- **Wordt voorondersteld in** (3): [[fsma]] · [[verbonden-partijen-procedure-genoteerd]] · [[wettelijk-kader-ic]]
 ## Voorbeelden
 
 Een Belgisch beursgenoteerde bank → PIE (zowel beursgenoteerd als kredietinstelling). Verplicht: IFRS-consolidatie, FSMA-toezicht, rotatie revisor om de 10 jaar.

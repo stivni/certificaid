@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belgisch-gaap.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Belgisch GAAP ⚖️
 
@@ -28,6 +28,7 @@ Het Belgisch boekhoudkundig referentiestelsel zoals vastgelegd in het Wetboek va
 **Belgisch GAAP** (Generally Accepted Accounting Principles in België) is het rule-based boekhoudkundig referentiestelsel voor Belgische ondernemingen, gebaseerd op het WVV (Wetboek van vennootschappen en verenigingen) en het KB van uitvoering. Het schrijft vaste jaarrekening-schema's voor (volledig, verkort, micro) en hanteert het voorzichtigheidsbeginsel: winsten pas opnemen wanneer gerealiseerd, verliezen wanneer waarschijnlijk.
 
 _Bron: WVV + KB uitvoering_
+
 
 
 ## In de praktijk

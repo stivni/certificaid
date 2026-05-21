@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/break-even-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Break-even-analyse 🤖
+# Break-even-analyse 🔗
 
 De break-even-analyse (kosten-volume-winst-analyse, CVP) berekent welke omzet of welk volume nodig is om alle vaste kosten te dekken — het punt waarop de onderneming geen verlies en geen winst maakt. Aan dat volume betekent elke extra eenheid winst; eronder wordt verlies geleden.
 
 > [!info] Behoort tot: [[direct-costing]]
+
 
 
 ## Bouwstenen
@@ -217,4 +218,4 @@ Resultaat: Yperse moet jaarlijks minstens 17.022 tapijten verkopen om uit verlie
 - **Vereist kennis van**: [[contributiemarge]]
 - **Vereist kennis van**: [[vaste-kosten]]
 - **Vereist kennis van**: [[variabele-kosten]]
-
+- **Wordt voorondersteld in** (2): [[contributiemarge]] · [[vaste-kosten]]

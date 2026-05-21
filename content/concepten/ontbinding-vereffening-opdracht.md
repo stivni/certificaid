@@ -18,7 +18,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ontbinding-vereffening-opdracht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Ontbinding-vereffening opdracht van de gecertificeerd accountant ⚖️
 
@@ -34,6 +34,7 @@ De ontbinding-vereffening-opdracht is een door wet voorbehouden controleopdracht
 _Bron: ITAA-norm Ontbinding-vereffening §2 + IV_
 
 
+
 ## Bouwstenen
 
 ### Staat van actief en passief — max. 3 maanden oud ⚖️
@@ -47,7 +48,7 @@ De accountant beoordeelt een staat van actief en passief opgesteld door het best
 
 _Grondslag: ITAA-norm Ontbinding-vereffening §IV_
 
-### Continuïteitsbeginsel valt weg — aangepaste waardering 🤖
+### Continuïteitsbeginsel valt weg — aangepaste waardering 🔗
 
 Bij ontbinding stopt de going-concern-veronderstelling. De waarderingsregels worden aangepast naar een 'going-out-of-business'-perspectief: activa tegen liquidatiewaarde, voorzieningen voor vereffeningskosten en sociale verplichtingen.
 
@@ -86,7 +87,7 @@ _Grondslag: ITAA-norm Ontbinding-vereffening §IV.2_
 ## Valkuilen
 
 > [!warning]- Bij ontbinding moeten de waarderingsregels worden aangepast: het continuïteitsbeginsel valt weg en activa worden in een 'going-out-of-busine…
-> ⚠️ Bij ontbinding moeten de waarderingsregels worden aangepast: het continuïteitsbeginsel valt weg en activa worden in een 'going-out-of-business'-perspectief gewaardeerd. Het bestuursorgaan moet dit expliciet beslissen en motiveren — de accountant toetst of dit gebeurd is. 🤖
+> ⚠️ Bij ontbinding moeten de waarderingsregels worden aangepast: het continuïteitsbeginsel valt weg en activa worden in een 'going-out-of-business'-perspectief gewaardeerd. Het bestuursorgaan moet dit expliciet beslissen en motiveren — de accountant toetst of dit gebeurd is. 🔗
 >
 > _Bron: ITAA-norm Ontbinding-vereffening + KB WVV waarderingsregels_
 

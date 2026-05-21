@@ -1,9 +1,10 @@
 {
   "id": "aandeelhoudersovereenkomst",
-  "naam": "Aandeelhoudersovereenkomst (SHA)",
-  "node_type": "cluster",
-  "schema_version": "1.6",
+  "naam": "Aandeelhoudersovereenkomst (Shareholders' Agreement — SHA)",
+  "node_type": "kader",
+  "schema_version": "2.0",
   "status": "seed",
+  "primary_po": "3.0",
   "linked_anchors": [
     "3.0.VI",
     "3.0.VI.A",
@@ -11,240 +12,944 @@
     "3.0.VI.C",
     "3.0.VI.D"
   ],
+  "dekt_tdks": [
+    "3.0.VI",
+    "3.0.VI.A",
+    "3.0.VI.B",
+    "3.0.VI.C",
+    "3.0.VI.D"
+  ],
+  "cross_po": false,
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-20T08:40:16Z",
-    "model": "claude-opus-4-7",
+    "extractor_run": "concept-extractie-v5-bundle-2026-05-21T09:22:06Z",
+    "model": "claude-opus-4-7-1m",
     "anchor_id": "3.0.VI",
     "linked_anchors": [
-      "3.0.VI"
+      "3.0.VI",
+      "3.0.VI.A",
+      "3.0.VI.B",
+      "3.0.VI.C",
+      "3.0.VI.D"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "wave_id": "wave-bundle-test-opus-20260521",
+    "confidence_history": [
+      {
+        "versie": "v1",
+        "datum": "2026-05-21",
+        "bron_dekking": "IBA-SHA-Belgium-2024 (alle clausuletypes + tegenwerpelijkheid), WVV art. 5:29/5:46/6:45/7:48 (stemafspraken), MvT-WVV art. 7:67 en WVV art. 5:60/7:78 (overdrachtsbeperkingen)"
+      }
+    ]
   },
-  "situering": "De **statuten** van een vennootschap zijn openbaar en gelden voor élke aandeelhouder. Vaak willen aandeelhouders **bijkomende afspraken** maken — over stemgedrag, overdrachten, exits, conflictoplossing — die ze niet in de statuten willen openbaar maken, of die slechts tussen sommige aandeelhouders gelden. Daarvoor dient de **aandeelhoudersovereenkomst**: een **onderhands contract** dat de statuten aanvult of nuanceert. Belang in de praktijk: bij vrijwel elke vennootschap met meer dan één aandeelhouder, en zeker bij **joint ventures, familiebedrijven en private-equity-deals**.",
   "definitie": {
-    "text": "Een **schriftelijke overeenkomst tussen (een deel van) de aandeelhouders** waarin zij hun **onderlinge rechten en verplichtingen** regelen op een wijze die de statuten aanvult of nuanceert. Typische onderwerpen: **stemgedrag** op de algemene vergadering, **overdrachtsbeperkingen** (lock-up, voorkoop, goedkeuring), **exit-mechanismen** (drag-along, tag-along, put/call), samenstelling van de **raad van bestuur**, **dividendbeleid**, **deadlock-regeling** en **conflictoplossing**. De aandeelhoudersovereenkomst is een **privaat contract** — ze bindt alleen de partijen die haar hebben getekend en is in beginsel **niet openbaar**. De vennootschap zelf is er enkel door gebonden als zij de overeenkomst **mee-ondertekent**.",
+    "text": "De **aandeelhoudersovereenkomst** (Engels: *shareholders' agreement*, kort **SHA**) is een **contract tussen aandeelhouders** (en soms de vennootschap zelf) dat **bovenop de statuten** afspraken vastlegt over besluitvorming, overdracht van aandelen, bestuur, dividendbeleid, exit en geschillenbeslechting. Anders dan de statuten — die *erga omnes* werken (tegenstelbaar aan iedereen) — bindt de SHA in beginsel **enkel de ondertekenende partijen** (*inter partes*) en hun erfgenamen/rechtsopvolgers.",
     "confidence": "grounded",
     "source": {
-      "type": "doctrine",
-      "short": "IBA Guide on Shareholders' Agreements — Belgium 2024, vraag 1-3, 11; WVV (geen overkoepelende SHA-regeling, wel deel-regelingen art. 5:46, 7:78)"
+      "type": "rechtsleer-norm",
+      "short": "IBA Guide on Shareholders' Agreements — Belgium 2024 §3 en §11"
     },
     "_provenance": {
       "inputs": [
         {
-          "id": "IBA-SHA-Belgium-2024-NL__sec_1-zijn-aandeelhoudersovereenkomsten-in-belgie-gebruikelijk",
-          "sha256": null,
+          "id": "IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a",
           "version": "rag-v1"
         },
         {
-          "id": "IBA-SHA-Belgium-2024-NL__sec_2-aan-welke-formaliteiten-moeten-aandeelhoudersovereenkomste",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "IBA-SHA-Belgium-2024-NL__sec_11-welke-inhoud-bevatten-aandeelhoudersovereenkomsten-in-be",
-          "sha256": null,
+          "id": "IBA-SHA-Belgium-2024-NL__sec_11-welke-inhoud-bevatten-aandeelhoudersovereenkomsten-in-bel",
           "version": "rag-v1"
         }
       ]
     }
   },
-  "bouwstenen": [
-    {
-      "titel": "Privaat karakter en vertrouwelijkheid",
-      "wat": "Anders dan een statutenwijziging — die in **authentieke akte** moet en in het **Belgisch Staatsblad** wordt bekendgemaakt — kan een aandeelhoudersovereenkomst **onderhands** worden gesloten en blijft de **inhoud vertrouwelijk** tussen de partijen. Dat verklaart waarom partijen gevoelige afspraken (waarderings­formules, stemafspraken, leaver-clausules) liever in de SHA dan in de statuten plaatsen.",
-      "waarom": "Strategische en commerciële vertrouwelijkheid: tegenpartijen, concurrenten en derden hoeven niet te weten welke stemblokken bestaan of hoe het belang van een investeerder bij vertrek wordt gewaardeerd.",
-      "in_praktijk": "Toch worden de **kernclausules** vaak parallel ook in de statuten opgenomen om ze tegenwerpelijk te maken aan derden.",
-      "grondslag": "IBA SHA-Guide 2024 §2, §10",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "IBA-SHA-Belgium-2024-NL__sec_2-aan-welke-formaliteiten-moeten-aandeelhoudersovereenkomste",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "IBA-SHA-Belgium-2024-NL__sec_10-wat-zijn-de-motieven-om-in-belgie-een-aandeelhoudersove",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+  "wat_er_economisch_echt_gebeurt": {
+    "text": "Een vennootschap heeft twee lagen van spelregels: de **statuten** (publiek, neergelegd bij KBO, bindend voor wie ook in contact treedt met de vennootschap) en de **aandeelhoudersovereenkomst** (privaat contract tussen specifieke aandeelhouders). De statuten zijn het 'minimum-spel' dat het WVV vereist; de SHA voegt de **fijnregeling** toe waar de aandeelhouders elkaar niet op de statuten willen of kunnen vertrouwen — bijvoorbeeld:\n\n- Een **minderheidsaandeelhouder** wil zekerheid dat hij bij verkoop kan mee-exiten (tag-along) en niet achterblijft in een vennootschap waar hij plots een onbekende meerderheidsaandeelhouder naast zich krijgt.\n- Een **meerderheidsaandeelhouder** wil zekerheid dat hij bij verkoop een 100 % deal kan sluiten zonder dat een minderheid blokkeert (drag-along).\n- **Familie- of stichter-aandeelhouders** willen tijdelijk verhinderen dat aandelen worden verkocht (lock-up) totdat de onderneming op kruissnelheid is.\n- Een **investeerder** (bv. PE-fonds) wil voordrachtrechten in de raad van bestuur en vetorechten op strategische beslissingen — fijner dan wat de statutaire AV-regels bieden.\n\nDe SHA is dus géén alternatief voor de statuten maar een **aanvulling**: ze laat de aandeelhouders hun onderlinge verhoudingen contractueel in detail regelen zonder die afspraken publiek te moeten neerleggen, en zonder de vennootschap-zelf te binden (tenzij de vennootschap mee-ondertekent). Belangrijk gevolg: bij schending is de **sanctie meestal schadevergoeding**, niet de nietigheid of automatische correctie van de gedraging — al laten gerichte clausules (en het WVV-art. 5:60 / 7:78) soms ook **niet-tegenwerpelijkheid** van een overdracht toe.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a",
+          "version": "rag-v1"
+        },
+        {
+          "id": "IBA-SHA-Belgium-2024-NL__sec_11-welke-inhoud-bevatten-aandeelhoudersovereenkomsten-in-bel",
+          "version": "rag-v1"
+        },
+        {
+          "id": "MvT-WVV-2018__art_5_4_part2",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "wanneer_van_toepassing": {
+    "introductie": "Een SHA is geen wettelijk verplicht document — ze is **optioneel** en wordt gesloten wanneer aandeelhouders een fijnregeling willen die boven het WVV en de statuten uitgaat. Typisch op vier momenten: bij **oprichting** (familie-startup met meerdere stichters), bij **kapitaalverhoging met externe investeerder**, bij **overname door PE-fonds**, en in **familiebedrijven met opvolgingsplanning**.",
+    "voor_wie": {
+      "text": "Alle vennootschappen met meer dan één aandeelhouder waar de aandeelhouders elkaar onderling **contractuele zekerheid** willen geven die de statuten niet bieden. Concreet:\n- **KMO's met meerdere stichters** — onderlinge exit-regeling en deadlock-resolutie.\n- **Familiebedrijven** — onvervreemdbaarheid + voorkooprecht binnen de familie + opvolgingsregels.\n- **Vennootschappen met externe investeerder** (PE/venture capital) — voordrachtrechten, anti-dilutie, exit-rechten.\n- **Joint ventures** — bestuursvertegenwoordiging + dead-lock + exit-mechanismen tussen partners.",
+      "confidence": "vuistregel"
     },
-    {
-      "titel": "Vier categorieën clausules",
-      "wat": "Een doorgaans gestructureerde SHA bevat vier hoofdcategorieën: (1) **overdracht van aandelen** (lock-up, voorkooprecht, goedkeuring, tag-along, drag-along, exit-clausules); (2) **uitoefening van macht** in de vennootschap (samenstelling raad van bestuur, beslissingsprocedures); (3) **verdeling van winst en verlies**; (4) **conflictoplossing en deadlock**.",
-      "waarom": "Deze vier blokken dekken samen de hele levenscyclus van een aandeelhouders­relatie — van toetreden, samenwerken en winst delen tot mogelijk uitstappen of botsen.",
-      "grondslag": "IBA SHA-Guide 2024 §11",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "IBA-SHA-Belgium-2024-NL__sec_11-welke-inhoud-bevatten-aandeelhoudersovereenkomsten-in-be",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
+    "wanneer_wel": [
+      {
+        "regel": "Wanneer aandeelhouders **overdrachtsbeperkingen** willen die verder gaan dan de statuten (bv. tijdelijke onvervreemdbaarheid, voorkooprecht, drag/tag-along).",
+        "rationale": "WVV art. 5:60 (BV), art. 6:54 (CV) en art. 7:78 (NV) staan uitdrukkelijk toe dat overdrachtsbeperkingen niet enkel in de statuten maar ook in 'overeenkomsten' worden opgenomen — de wetgever erkent de SHA dus expliciet als rechtsgeldig instrument.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WVV__art_7_60",
+              "version": "rag-v1"
+            },
+            {
+              "id": "MvT-WVV-2018__art_7_151",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      },
+      {
+        "regel": "Wanneer aandeelhouders een **stemafspraak** willen maken (stembinding, voorgedragen kandidaat-bestuurders, blok-stemmen).",
+        "rationale": "WVV art. 5:29 (BV), art. 6:45 (CV) en art. 7:48 (NV) bevestigen dat overeenkomsten de uitoefening van het stemrecht mogen regelen, mits beperkt in tijd en niet strijdig met het vennootschapsbelang.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WVV__art_5_37",
+              "version": "rag-v1"
+            },
+            {
+              "id": "WVV__art_6_39",
+              "version": "rag-v1"
+            },
+            {
+              "id": "MvT-WVV-2018__art_7_131",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      },
+      {
+        "regel": "Wanneer aandeelhouders fijnere **bestuurs- of dividendregels** willen dan de statuten — bv. voordrachtrecht voor X bestuurders, verplichte uitkering van Y % van de winst.",
+        "rationale": "Statuten kunnen dit ook, maar zijn publiek en wijzigen vereist AV met versterkte meerderheid + notaris. SHA biedt dezelfde regeling privé en wijzigbaar door consensus van partijen.",
+        "confidence": "inferred"
+      },
+      {
+        "regel": "Wanneer **exit-mechanismen** nodig zijn (put/call-opties, dead-lock-resolutie, Russian roulette, Texas shoot-out).",
+        "rationale": "Statuten regelen weinig over exit; de WVV-uittreding (art. 5:154 BV) is een statutaire optie maar minder fijn dan een contractuele put/call op vooraf afgesproken waarderingsformules.",
+        "confidence": "inferred"
       }
-    },
-    {
-      "titel": "Contractuele afdwingbaarheid en tegenwerpelijkheid",
-      "wat": "De aandeelhoudersovereenkomst bindt **uitsluitend de ondertekenende partijen** (en hun erfgenamen). Een **derde-koper** van aandelen is in beginsel **niet** gebonden, **tenzij** hij de overeenkomst onderschreef (via een **toetredingsovereenkomst**) of er **kennis** van had. Recente rechtspraak aanvaardt nochtans dat schending van bv. een **voorkooprechtsclausule** door een **te kwader trouw** handelende koper kan leiden tot **nietigheid** van de overdracht.",
-      "waarom": "Een SHA is een **persoonlijk recht** tussen partijen, geen statutair (zakelijk) recht; tegenwerpelijkheid aan derden is daarom uitzonderlijk en hangt af van kennis of openbaarheid.",
-      "in_praktijk": "Daarom worden kernbeperkingen (lock-up, voorkoop) ook in de **statuten** opgenomen — statutaire beperkingen zijn wél tegenwerpelijk aan elke verkrijger.",
-      "grondslag": "IBA SHA-Guide 2024 §3; WVV art. 7:78 § 2",
+    ],
+    "wanneer_niet": [
+      {
+        "regel": "Bij een **eenpersoons-vennootschap** (één aandeelhouder).",
+        "rationale": "Een SHA vereist minstens twee contracterende partijen; bij één aandeelhouder is er niemand om mee te contracteren — alle regels lopen via de statuten of unilaterale beslissingen.",
+        "confidence": "inferred"
+      },
+      {
+        "regel": "Wanneer de gewenste afspraak **tegenstelbaar aan de vennootschap of derden** moet zijn (bv. bestuursbevoegdheid wijzigen, kapitaal verhogen).",
+        "rationale": "De SHA bindt enkel de ondertekenende partijen — de vennootschap en haar organen zijn niet gehouden tenzij de vennootschap zelf de SHA mede-ondertekent. Voor wat *erga omnes* moet werken: statuten gebruiken.",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      },
+      {
+        "regel": "Bij een **stembinding zonder tijdslimiet** of een binding aan instructies van de vennootschap zelf.",
+        "rationale": "WVV art. 5:29/7:48 verklaart deze nietig — een SHA die zulke clausules bevat is op dat punt ongeldig (zonder de rest noodzakelijk te besmetten).",
+        "confidence": "grounded",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "MvT-WVV-2018__art_5_102",
+              "version": "rag-v1"
+            },
+            {
+              "id": "MvT-WVV-2018__art_7_131",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      }
+    ],
+    "hoofdrisico": {
+      "text": "**Beperkte afdwingbaarheid bij schending**: omdat de SHA *inter partes* werkt, leidt een schending in beginsel tot **schadevergoeding**, niet tot ongedaanmaking van de gedraging. Een aandeelhouder die zijn aandelen verkoopt met miskenning van een SHA-voorkooprecht heeft de SHA geschonden, maar de overdracht zelf is burgerrechtelijk geldig — tenzij de overdrachtsbeperking ook in de **statuten** is opgenomen of het overdrachtsverbod uitdrukkelijk *aan de vennootschap tegenstelbaar* is gemaakt (WVV art. 5:60 §2 / 7:78 §2). Een tweede risico is de **schending van de tijdsbeperking of het vennootschapsbelang** voor stemafspraken — dan is de clausule (en de op grond ervan uitgebrachte stem) nietig (WVV art. 5:29 §2 / 7:48 §2).",
       "confidence": "grounded",
       "_provenance": {
         "inputs": [
           {
             "id": "IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a",
-            "sha256": null,
             "version": "rag-v1"
           },
           {
-            "id": "WVV__art_7_60",
-            "sha256": null,
+            "id": "MvT-WVV-2018__art_5_4_part2",
             "version": "rag-v1"
           }
         ]
       }
     },
+    "hoofdvoordeel": {
+      "text": "**Maatwerk + vertrouwelijkheid**: de SHA laat aandeelhouders complexe verhoudingen contractueel regelen (drag/tag, dead-lock, voordrachtrechten, exit) zonder die afspraken publiek bij de KBO neer te leggen. Wijzigingen vereisen geen notariële statutenwijziging, enkel consensus van partijen. Voor familiebedrijven, JV's en PE-deals is dit vaak de **enige werkbare** manier om alle commerciële beslissingen vast te leggen.",
+      "confidence": "vuistregel"
+    }
+  },
+  "hoe_het_werkt": {
+    "intro": "Een SHA is doorgaans gestructureerd in **vier clausule-categorieën** (IBA-classificatie): (1) overdrachtsclausules, (2) machts- en bestuursclausules, (3) winst- en verliesverdeling, (4) geschillen- en exit-clausules. Daarnaast bevatten zij algemene contractbepalingen (duur, looptijd, vertrouwelijkheid, toepasselijk recht). Dit kader-record beschrijft de **logica per categorie** — de individuele clausule-types (voorkooprecht, drag-along, etc.) krijgen in een latere golf hun eigen specifieke records.",
+    "onderdelen": [
+      {
+        "element_id": "sha-vs-statuten-positionering",
+        "inhoud_type": "regel",
+        "titel": "SHA versus statuten — de twee lagen",
+        "beschrijving": "De **statuten** zijn het publieke basisreglement van de vennootschap, neergelegd bij de KBO en *erga omnes* tegenstelbaar (bindend voor de vennootschap, haar organen en derden die ermee in contact komen). De **SHA** is een privaat contract dat enkel de ondertekenende aandeelhouders bindt (*inter partes*). De vennootschap zelf is **niet** door de SHA gebonden, tenzij ze de SHA mede-ondertekent.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "rechtsleer-norm",
+          "short": "IBA Guide on Shareholders' Agreements — Belgium 2024 §3"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "tabel": {
+              "kolommen": [
+                "Kenmerk",
+                "Statuten",
+                "Aandeelhoudersovereenkomst (SHA)"
+              ],
+              "rijen": [
+                [
+                  "Wijze van totstandkoming",
+                  "Notariële akte (voor NV/BV) + neerlegging KBO",
+                  "Onderhandse overeenkomst, eventueel met handtekening-attest"
+                ],
+                [
+                  "Publiciteit",
+                  "Publiek (KBO, BS-bijlagen)",
+                  "Privaat — niet publiek"
+                ],
+                [
+                  "Bindend voor",
+                  "Vennootschap, organen, alle aandeelhouders, derden (*erga omnes*)",
+                  "Enkel ondertekenende partijen + erfgenamen/rechtverkrijgenden (*inter partes*)"
+                ],
+                [
+                  "Wijziging",
+                  "AV met versterkte meerderheid + notaris + neerlegging",
+                  "Consensus van contractspartijen, vormvrij"
+                ],
+                [
+                  "Sanctie bij schending overdrachtsbeperking",
+                  "Overdracht niet-tegenwerpelijk aan vennootschap (art. 5:60 §2 / 7:78 §2)",
+                  "Schadevergoeding — overdracht blijft burgerrechtelijk geldig (tenzij overlap met statuten)"
+                ],
+                [
+                  "Geschikt voor",
+                  "Basisstructuur, kapitaal, organen, soorten effecten",
+                  "Fijnregeling overdracht/bestuur/exit/dividend tussen specifieke aandeelhouders"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "element_id": "categorie-1-overdrachtsclausules",
+        "inhoud_type": "regel",
+        "titel": "Categorie 1 — Clausules over overdracht van aandelen",
+        "beschrijving": "Deze clausules sturen **wie aan wie aandelen mag verkopen, wanneer, tegen welke prijs en met welke procedure**. Belangrijkste types: lock-up (tijdelijk overdrachtsverbod), goedkeuringsclausule (overdracht vereist consent), voorkooprecht (zittende aandeelhouders mogen eerst), tag-along (mee-verkooprecht voor minderheid), drag-along (mee-sleeprecht voor meerderheid), put/call-opties (verplicht aan- of verkooprecht onder voorwaarden). De WVV-grondslag voor contractuele overdrachtsbeperkingen is art. 5:60 (BV), art. 6:54 (CV) en art. 7:78 (NV) — onvervreemdbaarheidsclausules moeten door een rechtmatig belang gerechtvaardigd zijn (typisch in duur beperkt) en goedkeurings- of voorkoop-procedures mogen niet leiden tot een blokkering van méér dan 6 maanden.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WVV art. 5:60, 6:54, 7:78; IBA-Guide §8 en §13"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "WVV__art_7_60",
+              "version": "rag-v1"
+            },
+            {
+              "id": "MvT-WVV-2018__art_7_151",
+              "version": "rag-v1"
+            },
+            {
+              "id": "IBA-SHA-Belgium-2024-NL__sec_8-welke-mechanismen-staan-het-belgische-recht-toe-voor-de-re",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "tabel": {
+              "kolommen": [
+                "Type clausule",
+                "Wat ze doet",
+                "Wie heeft er baat bij",
+                "Wettelijke grens"
+              ],
+              "rijen": [
+                [
+                  "Lock-up / stand-still",
+                  "Verbiedt overdracht gedurende een bepaalde periode",
+                  "Stichters die continuïteit willen na investering",
+                  "Beperkt in tijd, gerechtvaardigd door vennootschapsbelang"
+                ],
+                [
+                  "Goedkeuringsclausule",
+                  "Overdracht vereist toestemming van AV of bestuur",
+                  "Familie/bestaande aandeelhouders die wie-erbij-komt willen filteren",
+                  "Bij weigering: 6-maanden zoektijd vooraleer onvervreemdbaarheid eindigt"
+                ],
+                [
+                  "Voorkooprecht (pre-emption)",
+                  "Zittende aandeelhouders krijgen eerst de kans om aan dezelfde prijs te kopen",
+                  "Bestaande aandeelhouders, vrijwaring eigenaarsstructuur",
+                  "Procedure max. 6 maanden"
+                ],
+                [
+                  "Tag-along (meekooprecht)",
+                  "Bij verkoop van meerderheid mag minderheid mee-verkopen aan dezelfde prijs",
+                  "Minderheidsaandeelhouder die niet bij vreemde meerderheid wil blijven",
+                  "Geldig als contractuele optie (geen WVV-grens)"
+                ],
+                [
+                  "Drag-along (meesleeprecht)",
+                  "Bij verkoop kan meerderheid minderheid dwingen mee te verkopen",
+                  "Meerderheidsaandeelhouder die 100 %-deal wil sluiten",
+                  "Geldig als contractuele optie; vaak gekoppeld aan minimumprijs-bescherming"
+                ],
+                [
+                  "Put-/call-opties",
+                  "Recht (geen plicht) om aandelen te (laten) verkopen onder voorwaarden",
+                  "Investeerder met exit-route, stichter met buy-out-mogelijkheid",
+                  "Vrij contractueel, mits prijsbepaling objectiveerbaar"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "element_id": "categorie-2-bestuursclausules",
+        "inhoud_type": "regel",
+        "titel": "Categorie 2 — Clausules over bestuur en stemafspraken",
+        "beschrijving": "Deze clausules sturen **wie in het bestuur zit, hoe wordt gestemd in AV en RvB, en welke beslissingen vetorecht hebben**. Typisch: voordrachtrecht voor een bestuurder per aandeelhouder of per categorie, vetorechten op vooraf gedefinieerde 'reserved matters' (statutenwijziging, kapitaalverhoging, grote investeringen, fusie/overname), quorum- en meerderheidsregels bovenop de wettelijke. **Stemafspraken** zijn geldig (WVV art. 5:29 / 6:45 / 7:48) op drie voorwaarden: (1) beperkt in tijd, (2) niet strijdig met het vennootschapsbelang, (3) geen binding aan instructies van de vennootschap of haar organen, en geen plicht om alle bestuursvoorstellen goed te keuren. Schending van deze grenzen → nietige overeenkomst én nietige stemmen (besluiten nietig tenzij de stem geen invloed had op de uitkomst).",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WVV art. 5:29, 6:45, 7:48; IBA-Guide §13"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "MvT-WVV-2018__art_7_131",
+              "version": "rag-v1"
+            },
+            {
+              "id": "MvT-WVV-2018__art_5_102",
+              "version": "rag-v1"
+            },
+            {
+              "id": "WVV__art_5_37",
+              "version": "rag-v1"
+            },
+            {
+              "id": "WVV__art_6_39",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "vuistregel",
+            "text": "🧭 **Drie 'kortsluitingen' van stemafspraken**: (a) onbeperkte duur → nietig (eis: tijdsbeperking, vaak gekoppeld aan een afzonderlijk doel zoals 'tot exit'); (b) binding aan instructies vennootschap → nietig; (c) verbintenis om *alle* bestuursvoorstellen goed te keuren → nietig. Goede stem-clausules zijn dus specifiek (welke beslissing) en duurbeperkt (bv. tot einde lock-up)."
+          }
+        ]
+      },
+      {
+        "element_id": "categorie-3-winst-en-financiering",
+        "inhoud_type": "regel",
+        "titel": "Categorie 3 — Clausules over financiering, winst en verlies",
+        "beschrijving": "Deze clausules regelen **hoe extra kapitaal wordt aangetrokken, hoe winst wordt verdeeld en hoe verliezen worden gedragen**. Typisch: dividend-policy (vast percentage van winst uitkeren, mits 'beschikbaar' onder WVV art. 5:142/7:212 dubbele test), anti-dilutie-bescherming (bij kapitaalverhoging mag bestaande aandeelhouder zijn percentage behouden), verplichte bijdragen bij verlies (capital calls), achtergestelde aandeelhouderslening-regelingen, ratchet-mechanismen voor PE-investeerders.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "rechtsleer-norm",
+          "short": "IBA Guide on Shareholders' Agreements — Belgium 2024 §11 en §13"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "IBA-SHA-Belgium-2024-NL__sec_11-welke-inhoud-bevatten-aandeelhoudersovereenkomsten-in-bel",
+              "version": "rag-v1"
+            },
+            {
+              "id": "IBA-SHA-Belgium-2024-NL__sec_13-wat-zijn-de-meest-voorkomende-clausuletypes-in-aandeelhou",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "text": "Een dividend-policy in de SHA bindt enkel de aandeelhouders — niet de vennootschap of de AV. Praktisch verbinden de aandeelhouders zich ertoe om in de AV *vóór* een uitkering te stemmen. Wettelijke uitkeerbaarheidstesten (netto-actief- en liquiditeitstest in BV/CV; netto-actief-test in NV) blijven dwingend en gaan voor."
+          }
+        ]
+      },
+      {
+        "element_id": "categorie-4-exit-en-geschillen",
+        "inhoud_type": "regel",
+        "titel": "Categorie 4 — Exit- en geschillenclausules",
+        "beschrijving": "Deze clausules regelen **hoe partijen uit elkaar gaan bij conflict, deadlock of geplande exit**. Typisch: dead-lock-resolutie (mediation → arbitrage → buy-or-sell), Russian roulette (één partij stelt prijs, andere kiest tussen kopen of verkopen tegen die prijs), Texas shoot-out (beide bieden, hoogste wint), exit-IPO-clausules met drag-along, geschillenbeslechting via mediation, arbitrage of bevoegde rechtbank, niet-concurrentiebedingen post-exit. Deze clausules werken complementair aan de wettelijke **gerechtelijke geschillenregeling** in BV/NV (art. 2:60-2:69 WVV: uittreding en uitsluiting) — een goed opgestelde SHA voorkomt dat partijen daarop moeten terugvallen.",
+        "confidence": "inferred",
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "IBA-SHA-Belgium-2024-NL__sec_11-welke-inhoud-bevatten-aandeelhoudersovereenkomsten-in-bel",
+              "version": "rag-v1"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Dead-lock-trigger definieer (bv. RvB blokkeert ≥ 2 keer op zelfde reserved matter)",
+              "Cooling-off + mediation-fase (typisch 30-60 dagen)",
+              "Buy-or-sell-mechanisme (Russian roulette of Texas shoot-out)",
+              "Waarderingsformule (multiple van EBITDA, NAV, of onafhankelijke valuator)",
+              "Sluitings-procedure + niet-concurrentie post-exit"
+            ]
+          }
+        ]
+      },
+      {
+        "element_id": "tegenwerpelijkheid-en-afdwingbaarheid",
+        "inhoud_type": "regel",
+        "titel": "Tegenwerpelijkheid en afdwingbaarheid",
+        "beschrijving": "De SHA bindt **uitsluitend de partijen die ze ondertekenden** en hun erfgenamen/rechtverkrijgenden. De vennootschap-zelf is niet gebonden tenzij ze mede-ondertekent. Derden (bv. een externe koper) zijn niet verplicht de SHA te eerbiedigen — maar moeten wel rekening houden met **kennelijke wetenschap** ervan: een derde die wist of moest weten dat zijn aankoop een SHA-voorkooprecht schendt, kan onder bepaalde voorwaarden tot **derde-medeplichtigheid aan contractbreuk** worden veroordeeld. Voor overdrachtsclausules biedt het WVV bovendien (art. 5:60 §2 en 7:78 §2) de mogelijkheid om een overdracht in strijd met de overdrachtsregeling **niet-tegenwerpelijk aan de vennootschap of aan derden** te maken — maar enkel als die regels in de statuten of statutair gekoppeld zijn. Een puur contractuele SHA-clausule levert in beginsel enkel schadevergoeding op, geen ongedaanmaking.",
+        "confidence": "grounded",
+        "bron": {
+          "type": "wet",
+          "short": "WVV art. 5:60 §2, 7:78 §2; IBA-Guide §3"
+        },
+        "_provenance": {
+          "inputs": [
+            {
+              "id": "MvT-WVV-2018__art_5_4_part2",
+              "version": "rag-v1"
+            },
+            {
+              "id": "IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a",
+              "version": "rag-v1"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "rol_van_de_accountant": {
+    "intro": "De accountant is geen advocaat — het opstellen en redigeren van een SHA blijft kerntaak van de **bedrijfsjurist of corporate-advocaat**. De accountant grijpt wel aan op drie raakvlakken: (1) **structurering** (welke clausules zijn nodig om de gewenste eigenaars- en exit-architectuur economisch werkbaar te maken), (2) **waardering en financiële parameters** (prijsformules in put/call, drag/tag-protectie, ratchets), en (3) **impact op jaarrekening, controle en fiscaliteit** (mede-zeggenschap, consolidatie, deelnemings-vrijstelling DBI/meerwaarden, registratierechten bij optie-uitoefening). Voor de **accountant zelf** als eigen-kantoor speelt nog iets aparts: in een associatieformule binnen het ITAA-kader gelden eigen deontologische beperkingen voor SHA-clausules.",
+    "perspectieven": [
+      {
+        "perspectief_id": "kmo-met-meerdere-stichters",
+        "titel": "KMO met meerdere stichters (BV)",
+        "rollen": [
+          {
+            "rol": "🎯 Adviseur",
+            "elementen": [
+              {
+                "element_id": "sha-noodzaak-bespreken-bij-oprichting",
+                "inhoud_type": "procedure",
+                "titel": "SHA-noodzaak bespreken vóór oprichting",
+                "beschrijving": "Bij oprichting van een vennootschap met meerdere stichters: bespreek vóór de notariële akte of er een SHA nodig is, welke onderdelen erin horen, en wie deze opstelt (typisch de advocaat van de meerderheidsstichter of een gemeenschappelijk gekozen jurist). De accountant inventariseert de **commerciële behoefte** — wie wil welke bescherming? — en levert input over **financiële parameters** (waarderingsformule, dividend-policy, exit-prijs).",
+                "confidence": "vuistregel",
+                "weergaven": [
+                  {
+                    "type": "stappenlijst",
+                    "stappen": [
+                      "Vraag elke stichter naar zijn time-horizon en exit-verwachting",
+                      "Inventariseer wie kapitaal inbrengt en wie 'sweat equity'",
+                      "Bepaal of dividend-policy nodig is (cashflow-noden stichters)",
+                      "Bespreek dead-lock-risico bij 50/50-aandeelhouderschap",
+                      "Documenteer en verwijs naar advocaat voor redactie",
+                      "Lever input voor waarderingsformule op basis van plan/historiek"
+                    ]
+                  }
+                ]
+              },
+              {
+                "element_id": "waarderingsformule-put-call",
+                "inhoud_type": "voorwaarde",
+                "titel": "Waarderingsformule voor put/call objectiveerbaar maken",
+                "beschrijving": "Wanneer de SHA put-/call-opties bevat, moet de **prijs objectiveerbaar** zijn — anders is de optie ongeldig of leidt tot eindeloze discussie bij uitoefening. Typische opties: (a) vaste multiple van EBITDA, (b) onafhankelijke valuator volgens een vooraf beschreven methode, (c) gewogen gemiddelde van twee valuators met derde scheidsrechter. Adviseer cliënt over de impliciete waarderingsrisico's per methode (cyclische EBITDA, valuator-kostprijs, fairness-discount voor minderheidsbelang).",
+                "confidence": "vuistregel"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief_id": "familiale-holding",
+        "titel": "Familiale holding met opvolgingsplanning",
+        "rollen": [
+          {
+            "rol": "🎯 Adviseur",
+            "elementen": [
+              {
+                "element_id": "overdrachtsclausules-familie-en-derden",
+                "inhoud_type": "regel",
+                "titel": "Overdrachtsclausules familie-aandeelhouders: dubbele laag",
+                "beschrijving": "In een familieholding wil men typisch dat aandelen *binnen de familie* vrij overdraagbaar zijn (schenking aan kinderen) maar dat overdracht *aan derden* aan voorkoop en/of goedkeuring is onderworpen. Adviseer om deze regels **dubbel** te verankeren: in de statuten (voor erga omnes effect ten aanzien van de vennootschap) **én** in de SHA (voor schadevergoeding tussen familie-leden bij schending). De WVV art. 5:60 / 7:78 termijn-grenzen (6 maanden) zijn bindend voor de statutaire laag.",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "wet",
+                  "short": "WVV art. 5:60, 7:78; MvT WVV art. 7:67"
+                },
+                "_provenance": {
+                  "inputs": [
+                    {
+                      "id": "MvT-WVV-2018__art_7_151",
+                      "version": "rag-v1"
+                    },
+                    {
+                      "id": "WVV__art_7_60",
+                      "version": "rag-v1"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "rol": "📑 Fiscaal adviseur",
+            "elementen": [
+              {
+                "element_id": "sha-impact-dbi-meerwaarde-aandelen",
+                "inhoud_type": "risico",
+                "titel": "Impact SHA-overdrachtsbeperking op DBI-aanhoudtermijn en art. 192-vrijstelling",
+                "beschrijving": "Lock-up-clausules die aandelen 'vastzetten' kunnen ironisch genoeg de DBI- en art. 192-meerwaarde-vrijstelling **versterken** (aanhoudtermijn 1 jaar in volle eigendom is per definitie vervuld bij meerjarige lock-up). Maar **drag-along-uitoefening** kan een minderheidsaandeelhouder gedwongen doen verkopen *voor* de 1-jaars termijn vervuld is — verlies van DBI op tussentijdse dividenden + verlies van meerwaarde-vrijstelling. Documenteer dit risico in de SHA-onderhandeling: pas drag-along bv. enkel toe na 12 maanden.",
+                "confidence": "inferred"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief_id": "vennootschap-met-pe-investeerder",
+        "titel": "Vennootschap met PE-/venture-investeerder",
+        "rollen": [
+          {
+            "rol": "🎯 Adviseur",
+            "elementen": [
+              {
+                "element_id": "anti-dilutie-en-ratchet-uitleg",
+                "inhoud_type": "procedure",
+                "titel": "Anti-dilutie en ratchet-mechanismen helpen begrijpen",
+                "beschrijving": "Bij een investering door een PE-/VC-fonds bevat de SHA vaak anti-dilutie-clausules (full ratchet of weighted average) die de investeerder beschermen tegen 'down rounds'. Vertaal voor de stichter wat dit economisch betekent: bij een lagere vervolg-waardering wordt het % van de investeerder bijgepast — vaak ten koste van de stichter. Reken het effect concreet door op een aantal scenario's vóór ondertekening.",
+                "confidence": "vuistregel"
+              }
+            ]
+          },
+          {
+            "rol": "🔍 Externe auditor",
+            "elementen": [
+              {
+                "element_id": "sha-control-impact-consolidatie",
+                "inhoud_type": "regel",
+                "titel": "SHA-clausules → impact op control-analyse en consolidatie",
+                "beschrijving": "Voor de commissaris/auditor: SHA-clausules **kunnen het oordeel over control veranderen** (IFRS 10 / WVV art. 1:14). Voordrachtrechten voor meerderheid bestuurders, vetorechten op strategische beslissingen, drag-along of dead-lock-resolutie ten gunste van één partij — al deze zaken kunnen *de facto* control vestigen bij een aandeelhouder die op aandelen-basis minderheid is, of omgekeerd control wegnemen bij een meerderheidsaandeelhouder. Lees de SHA bij elke aanvaarding/voortzetting van een controle-opdracht en bij elke transactie waar consolidatie speelt.",
+                "confidence": "inferred"
+              },
+              {
+                "element_id": "audit-sha-presentatie-toelichting",
+                "inhoud_type": "procedure",
+                "titel": "SHA-bestaan + materiële clausules in toelichting opnemen",
+                "beschrijving": "Wanneer een SHA bestaat met materiële impact op control, dividend-policy of overdraagbaarheid: ga na of de jaarrekening dit voldoende toelicht. Voor consolidatie: documenteer in het werkdossier de control-analyse op basis van de SHA. Bij beursgenoteerde entiteiten of vennootschappen met publiek belang: vermeld in het verslag eventuele beperkingen op overdraagbaarheid die uit overeenkomsten voortvloeien (art. 3:6 KB WVV bestuursverslag).",
+                "confidence": "vuistregel"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief_id": "joint-venture-met-twee-partners",
+        "titel": "Joint venture (50/50)",
+        "rollen": [
+          {
+            "rol": "🎯 Adviseur",
+            "elementen": [
+              {
+                "element_id": "deadlock-resolutie-50-50",
+                "inhoud_type": "risico",
+                "titel": "Dead-lock-resolutie als overlevingsverzekering",
+                "beschrijving": "Bij een 50/50-JV is dead-lock een wiskundige zekerheid bij conflict. Een SHA zonder dead-lock-mechanisme leidt onvermijdelijk naar de gerechtelijke uittreding/uitsluiting (art. 2:60-2:69 WVV) — duur, duur in geld, en met onvoorspelbare uitkomst. Adviseer steeds een **expliciete dead-lock-cascade**: eerst mediation, dan een buy-or-sell (Russian roulette of Texas shoot-out), met **objectieve waardering** als fallback. Reken doorlooptijd en kosten van elke optie tevoren door — dat is wat een 50/50-partner motiveert om de cascade niet lichtvaardig te triggeren.",
+                "confidence": "vuistregel"
+              }
+            ]
+          },
+          {
+            "rol": "🔍 Interne-controle-adviseur",
+            "elementen": [
+              {
+                "element_id": "ic-segregation-of-duties-jv",
+                "inhoud_type": "regel",
+                "titel": "SHA-bestuursclausules → vertaling naar interne-controle-design",
+                "beschrijving": "SHA-clausules over reserved matters en voordrachtrechten bepalen mede wie welke bevoegdheid heeft binnen de JV. Vertaal deze contractuele machtsdeling in een **autorisatie-matrix** en **segregation-of-duties-schema**: welke handelingen vereisen unanieme RvB-goedkeuring, welke één bestuurder per kant, welke uitvoerend management. Een SHA die op papier macht deelt maar in IC-ontwerp niet wordt afgedwongen, biedt geen daadwerkelijke bescherming.",
+                "confidence": "inferred"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief_id": "eigen-kantoor",
+        "titel": "Eigen kantoor (accountantsvennootschap)",
+        "rollen": [
+          {
+            "rol": "🎯 Adviseur",
+            "elementen": [
+              {
+                "element_id": "sha-itaa-deontologie-stemafspraken",
+                "inhoud_type": "regel",
+                "titel": "SHA binnen accountantsvennootschap — deontologische grenzen",
+                "beschrijving": "Wanneer accountants een associatie aangaan via een vennootschap, kunnen SHA's worden gesloten over winstverdeling, bestuur en exit. **Deontologisch** moet de SHA echter het ITAA-statuut respecteren: de meerderheid van stemrechten en bestuur moet bij ITAA-leden liggen, beslissingen die de onafhankelijkheid raken kunnen niet contractueel aan een derde worden overgelaten, en de SHA mag de wettelijke beëindigingsrechten niet uitschakelen. Toets elke SHA-clausule tegen het toepasselijke ITAA-deontologisch reglement vóór ondertekening.",
+                "confidence": "te_verifieren",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "text": "⚠️ Concrete artikelen ITAA-deontologisch reglement over stemrechten in associatie-SHA's zijn te verifiëren bij vernieuwing van de reglementering — verwijs cliënt naar gespecialiseerd ITAA-deontologisch advies."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      "vennootschapsrechtelijk-kader-wvv",
+      "algemene-vergadering",
+      "bestuur-vennootschap"
+    ],
+    "kader": "vennootschapsrechtelijk-kader-wvv",
+    "naast_relevant": [
+      "statuten-vennootschap",
+      "soorten-aandelen",
+      "geschillenregeling-uittreding-uitsluiting",
+      "exit-planning-vennootschap"
+    ],
+    "volgkennis": [
+      "voorkooprecht-aandelen",
+      "drag-along-clausule",
+      "tag-along-clausule",
+      "lock-up-clausule",
+      "dead-lock-resolutie",
+      "put-call-optie-aandelen"
+    ]
+  },
+  "veelvoorkomende_verwarringen": [
     {
-      "titel": "Duur en beperkingen",
-      "wat": "Een aandeelhoudersovereenkomst kan voor **bepaalde** of **onbepaalde** duur worden gesloten. **Stand-still-clausules** (lock-up) en **stemafspraken** moeten echter altijd in de **tijd beperkt** zijn én moeten **verantwoord** zijn vanuit het **belang van de vennootschap** (art. 5:46 WVV; mutatis mutandis voor de NV). In de praktijk: doorgaans 10 jaar, met verlengingsmogelijkheid.",
-      "waarom": "De wetgever wil vermijden dat een aandeelhouder zich **eeuwig en onvoorwaardelijk** vastlegt — dat zou zijn vrijheid (en het vennootschapsbelang) ondermijnen.",
-      "grondslag": "WVV art. 5:46; IBA SHA-Guide 2024 §5",
+      "verwarring": "SHA vs statuten",
+      "uitleg": "Statuten zijn publiek + *erga omnes* + bindend voor de vennootschap; SHA is privaat + *inter partes* + bindt enkel ondertekenaars. Wat in beide kan, hoort vaak in de statuten als het erga omnes effect moet hebben (overdrachtsbeperking met niet-tegenwerpelijkheid) en in de SHA als het tussen partijen blijft (stemafspraak, dividend-policy).",
       "confidence": "grounded",
       "_provenance": {
         "inputs": [
           {
-            "id": "WVV__art_5_43",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "IBA-SHA-Belgium-2024-NL__sec_5-gelden-er-in-belgi-wettelijke-beperkingen-op-de-looptij",
-            "sha256": null,
+            "id": "IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a",
             "version": "rag-v1"
           }
         ]
       }
     },
     {
-      "titel": "Aanleidingen om een SHA te sluiten",
-      "wat": "Typische triggers: **oprichting van een joint venture**, **toetreding van een private-equity-investeerder**, **management buy-out / buy-in**, **familiale opvolging**, of **na verkoop van een controlerend belang** (om de samenleving tussen oude en nieuwe aandeelhouders te kaderen).",
-      "in_praktijk": "Bij elke deal die meerdere aandeelhouders met **uiteenlopende profielen** (belegger vs. familielid vs. operationeel manager) samenbrengt is een SHA vrijwel onmisbaar.",
-      "grondslag": "IBA SHA-Guide 2024 §12",
+      "verwarring": "Stemafspraak vs steminstructie van de vennootschap",
+      "uitleg": "Aandeelhouders mogen onderling afspreken hoe ze stemmen (mits tijdsbeperking + vennootschapsbelang). Wat **niet** kan: zich verbinden tegenover de vennootschap zelf om de voorstellen van haar organen blindelings goed te keuren — dat is nietig (WVV art. 5:29 §1 3° / 7:48 §1 3°). De grens loopt tussen 'tussen aandeelhouders' (OK) en 'tegenover de vennootschap of haar organen' (nietig).",
       "confidence": "grounded",
       "_provenance": {
         "inputs": [
           {
-            "id": "IBA-SHA-Belgium-2024-NL__sec_12-wat-bepaalt-de-inhoud-van-aandeelhoudersovereenkomsten",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Statuten of SHA — wat waar?",
-      "betekenis": "Wat **tegenwerpelijk aan derden** moet zijn (overdrachtsbeperkingen, stemrechten per aandelenklasse, bestuurssamenstelling-minima) hoort in de **statuten**. Wat **vertrouwelijk** moet blijven of slechts tussen sommige aandeelhouders geldt (waarderingsformules, leaver-clausules, kwantitatieve drempels, koppelingen aan KPI's) hoort in de **SHA**. Vaak werken partijen **gelaagd**: principes in de statuten, uitvoeringsmodaliteiten in de SHA.",
-      "confidence": "inferred-from-aggregation",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "IBA-SHA-Belgium-2024-NL__sec_2-aan-welke-formaliteiten-moeten-aandeelhoudersovereenkomste",
-            "sha256": null,
+            "id": "MvT-WVV-2018__art_7_131",
             "version": "rag-v1"
           },
           {
-            "id": "IBA-SHA-Belgium-2024-NL__sec_10-wat-zijn-de-motieven-om-in-belgie-een-aandeelhoudersove",
-            "sha256": null,
+            "id": "WVV__art_5_37",
             "version": "rag-v1"
           }
         ]
       }
     },
     {
-      "aspect": "Toetredingsovereenkomst",
-      "betekenis": "Bij een **aandelenoverdracht** wordt de **nieuwe aandeelhouder** doorgaans verplicht om **toe te treden** tot de bestaande SHA via een **toetredingsovereenkomst** (accession agreement) — anders verliezen de andere partijen de bescherming die de SHA biedt. De vervreemder is er in de SHA contractueel toe verbonden deze toetreding te bedingen.",
+      "verwarring": "Drag-along vs tag-along",
+      "uitleg": "**Drag-along** = meerderheid sleept minderheid mee in verkoop (bescherming meerderheid: 100 %-deal mogelijk). **Tag-along** = minderheid eist mee-verkoop wanneer meerderheid verkoopt (bescherming minderheid: geen onbekende nieuwe meerderheidsaandeelhouder). Vaak combineerd in dezelfde SHA: meerderheid krijgt drag, minderheid krijgt tag — twee kanten van dezelfde exit-bescherming.",
+      "confidence": "vuistregel"
+    },
+    {
+      "verwarring": "Schadevergoeding vs niet-tegenwerpelijkheid bij schending overdrachtsbeperking",
+      "uitleg": "**Puur contractuele SHA-clausule** geschonden → schadevergoeding, overdracht zelf blijft burgerrechtelijk geldig. **Statutaire overdrachtsbeperking** geschonden → overdracht niet tegenstelbaar aan de vennootschap of derden (art. 5:60 §2, 7:78 §2 WVV) — koper kan zijn aandeelhouderschap niet doen erkennen. Voor maximale bescherming: dubbele laag (statuten + SHA).",
       "confidence": "grounded",
-      "source": {
-        "short": "IBA SHA-Guide 2024 §3"
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MvT-WVV-2018__art_5_4_part2",
+            "version": "rag-v1"
+          }
+        ]
       }
     }
   ],
-  "voorbeelden": [
-    {
-      "vorm": "scenario",
-      "titel": "SHA bij joint venture Cardinal Group NV en Aurelia Holding NV",
-      "cast": [
-        "Cardinal Group NV",
-        "Aurelia Holding NV",
-        "Constructies Cattoir BV"
-      ],
-      "omschrijving": "Aurelia Holding NV en Cardinal Group NV richten samen Constructies Cattoir BV op (elk 50%). Ze tekenen een SHA voor 10 jaar.",
-      "stappen": [
-        "1. **Bestuur**: beide aandeelhouders mogen elk 2 bestuurders voordragen; bepaalde **gereserveerde beslissingen** (investering > € 500.000, dividend­beleid) vereisen unanimiteit.",
-        "2. **Overdracht**: 5 jaar **lock-up**; daarna **voorkooprecht** ten gunste van de andere partner; bij verkoop **tag-along** voor de niet-verkopende partner.",
-        "3. **Deadlock**: indien zes maanden lang geen overeenstemming over een gereserveerde beslissing, **Russian roulette**: één partij stelt prijs voor, de andere kiest tussen kopen of verkopen.",
-        "4. **Vertrouwelijkheid**: de SHA wordt niet bij de statuten bekendgemaakt; alleen de overdrachtsbeperkingen en bestuurssamenstelling zijn ook statutair vastgelegd."
-      ],
-      "confidence": "inferred"
-    }
-  ],
-  "valkuilen": [
-    {
-      "advies": "Controleer altijd of de **vennootschap zelf** de SHA heeft mee-ondertekend. Zo niet, is zij niet gebonden aan bv. dividend- of bestuurs­samenstelling-clausules — en kan de raad van bestuur juridisch correct beslissingen nemen die **conflict** opleveren met de SHA.",
-      "vaak_fout": "Aannemen dat 'de vennootschap moet zich houden aan wat de aandeelhouders afspraken'. Dat klopt **niet** zolang zij niet zelf partij is.",
-      "grondslag": "IBA SHA-Guide 2024 §3"
-    },
-    {
-      "advies": "Bij stem- of stand-still-afspraken: zet altijd een **duurbeperking** en een **verantwoording vanuit het vennootschapsbelang**. Anders riskeer je nietigheid.",
-      "vaak_fout": "Een 'levenslange' stemovereenkomst opstellen — die is op grond van art. 5:46 WVV ongeldig.",
-      "grondslag": "WVV art. 5:46 § 1"
-    }
-  ],
+  "alternatieven_zelfde_doel": {
+    "intro": "Andere wegen om aandeelhouders-verhoudingen te organiseren buiten een SHA:",
+    "items": [
+      {
+        "naam": "Versterkte statuten",
+        "uitleg": "Alle bij wet toegelaten regels (overdrachtsbeperking, soorten aandelen met verschillende stem-/winstrechten, vetorechten) in de statuten opnemen — voordeel: erga omnes effect; nadeel: publiek, wijziging vereist notaris + AV-meerderheid.",
+        "edge_target": "statuten-vennootschap"
+      },
+      {
+        "naam": "Soorten aandelen (multiple voting / preferente aandelen)",
+        "uitleg": "Statutaire creatie van verschillende soorten aandelen met meervoudig stemrecht, preferent dividend of preferent liquidatierecht — vervangt deels SHA-clausules over voordrachtrecht en dividend-prioriteit.",
+        "edge_target": "soorten-aandelen"
+      },
+      {
+        "naam": "Stichting Administratiekantoor (STAK) / certificering",
+        "uitleg": "Aandelen worden ingebracht in een aparte juridische entiteit die certificaten uitgeeft aan de begunstigden — stemrecht wordt gecentraliseerd bij de STAK. Vooral in familiestructuren als alternatief voor SHA-stemafspraken.",
+        "edge_target": null
+      },
+      {
+        "naam": "Wettelijke geschillenregeling (uittreding/uitsluiting)",
+        "uitleg": "Art. 2:60-2:69 WVV biedt gerechtelijke uittreding en uitsluiting als ultiem dead-lock-vangnet. Werkt zonder SHA, maar duurt lang en is onvoorspelbaar — een SHA-dead-lock-clausule is bijna altijd te verkiezen.",
+        "edge_target": "geschillenregeling-uittreding-uitsluiting"
+      }
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      {
+        "titel": "SHA-noodzaak bespreken bij oprichting/investering",
+        "anker": "#sha-noodzaak-bespreken-bij-oprichting"
+      },
+      {
+        "titel": "SHA versus statuten — gepaste laag kiezen",
+        "anker": "#sha-vs-statuten-positionering"
+      },
+      {
+        "titel": "Overdrachtsclausules (lock-up, voorkoop, drag, tag) ontwerpen",
+        "anker": "#categorie-1-overdrachtsclausules"
+      },
+      {
+        "titel": "Stemafspraken WVV-conform maken (tijdsgrens + belang)",
+        "anker": "#categorie-2-bestuursclausules"
+      },
+      {
+        "titel": "Dividend- en financieringsclausules ontwerpen",
+        "anker": "#categorie-3-winst-en-financiering"
+      },
+      {
+        "titel": "Dead-lock-cascade en exit-mechanismen structureren",
+        "anker": "#categorie-4-exit-en-geschillen"
+      },
+      {
+        "titel": "Waarderingsformule put/call objectiveerbaar maken",
+        "anker": "#waarderingsformule-put-call"
+      },
+      {
+        "titel": "Familieholding: dubbele laag (statuten + SHA) ontwerpen",
+        "anker": "#overdrachtsclausules-familie-en-derden"
+      },
+      {
+        "titel": "Fiscale impact SHA (DBI-aanhoudtermijn, art. 192) inschatten",
+        "anker": "#sha-impact-dbi-meerwaarde-aandelen"
+      },
+      {
+        "titel": "Audit-impact SHA op control-analyse en consolidatie",
+        "anker": "#sha-control-impact-consolidatie"
+      }
+    ],
+    "termen_alfabetisch": [
+      {
+        "term": "Anti-dilutie",
+        "anker": "#anti-dilutie-en-ratchet-uitleg"
+      },
+      {
+        "term": "Dead-lock",
+        "anker": "#categorie-4-exit-en-geschillen"
+      },
+      {
+        "term": "Drag-along",
+        "anker": "#categorie-1-overdrachtsclausules"
+      },
+      {
+        "term": "Goedkeuringsclausule",
+        "anker": "#categorie-1-overdrachtsclausules"
+      },
+      {
+        "term": "Inter partes",
+        "anker": "#sha-vs-statuten-positionering"
+      },
+      {
+        "term": "Lock-up / stand-still",
+        "anker": "#categorie-1-overdrachtsclausules"
+      },
+      {
+        "term": "Niet-tegenwerpelijkheid",
+        "anker": "#tegenwerpelijkheid-en-afdwingbaarheid"
+      },
+      {
+        "term": "Put-/call-optie",
+        "anker": "#categorie-1-overdrachtsclausules"
+      },
+      {
+        "term": "Reserved matters / vetorechten",
+        "anker": "#categorie-2-bestuursclausules"
+      },
+      {
+        "term": "Russian roulette / Texas shoot-out",
+        "anker": "#categorie-4-exit-en-geschillen"
+      },
+      {
+        "term": "Stemafspraak",
+        "anker": "#categorie-2-bestuursclausules"
+      },
+      {
+        "term": "Tag-along",
+        "anker": "#categorie-1-overdrachtsclausules"
+      },
+      {
+        "term": "Voorkooprecht (pre-emption)",
+        "anker": "#categorie-1-overdrachtsclausules"
+      }
+    ],
+    "regimes": [
+      {
+        "regime": "vennootschapsrechtelijk-kader-wvv",
+        "edge": "valt_onder_kader"
+      }
+    ]
+  },
   "edges": [
     {
-      "type": "vereist-kennis-van",
-      "target": "vennoot-vs-aandeelhouder",
-      "target_status": "resolved"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "naamloze-vennootschap-nv",
-      "target_status": "resolved"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "besloten-vennootschap-bv",
-      "target_status": "resolved"
-    },
-    {
-      "type": "verwijst-naar",
-      "target": "stemovereenkomst",
+      "type": "valt_onder_kader",
+      "target_id": "vennootschapsrechtelijk-kader-wvv",
       "target_status": "pending"
     },
     {
-      "type": "verwijst-naar",
-      "target": "overdrachtsbeperking-aandelen",
+      "type": "naast_relevant",
+      "target_id": "statuten-vennootschap",
       "target_status": "pending"
     },
     {
-      "type": "verwijst-naar",
-      "target": "exit-mechanismen-sha",
+      "type": "gerelateerd",
+      "target_id": "algemene-vergadering",
+      "target_status": "exists"
+    },
+    {
+      "type": "gerelateerd",
+      "target_id": "bestuur-vennootschap",
       "target_status": "pending"
     },
     {
-      "type": "vergelijkt-met",
-      "target": "statuten-vennootschap",
-      "facet": {
-        "aspect": "openbaar vs vertrouwelijk; bindend voor allen vs alleen partijen"
+      "type": "gerelateerd",
+      "target_id": "geschillenregeling-uittreding-uitsluiting",
+      "target_status": "pending"
+    },
+    {
+      "type": "gerelateerd",
+      "target_id": "exit-planning-vennootschap",
+      "target_status": "pending"
+    },
+    {
+      "type": "verward_met",
+      "target_id": "statuten-vennootschap",
+      "target_status": "pending"
+    },
+    {
+      "type": "beïnvloedt",
+      "target_id": "control-bepaling-consolidatie",
+      "target_status": "pending"
+    },
+    {
+      "type": "beïnvloedt",
+      "target_id": "dbi-aftrek",
+      "target_status": "exists"
+    }
+  ],
+  "bronnen_en_verwijzingen": {
+    "grounded": [
+      {
+        "ref": "IBA Guide on Shareholders' Agreements — Belgium 2024 §3 (tegenwerpelijkheid)",
+        "chunk": "IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a"
       },
-      "target_status": "pending"
+      {
+        "ref": "IBA Guide on Shareholders' Agreements — Belgium 2024 §8 (mechanismen overdracht)",
+        "chunk": "IBA-SHA-Belgium-2024-NL__sec_8-welke-mechanismen-staan-het-belgische-recht-toe-voor-de-re"
+      },
+      {
+        "ref": "IBA Guide on Shareholders' Agreements — Belgium 2024 §11 (typische inhoud)",
+        "chunk": "IBA-SHA-Belgium-2024-NL__sec_11-welke-inhoud-bevatten-aandeelhoudersovereenkomsten-in-bel"
+      },
+      {
+        "ref": "IBA Guide on Shareholders' Agreements — Belgium 2024 §13 (clausuletypes)",
+        "chunk": "IBA-SHA-Belgium-2024-NL__sec_13-wat-zijn-de-meest-voorkomende-clausuletypes-in-aandeelhou"
+      },
+      {
+        "ref": "WVV art. 5:29 (BV — stemafspraken)",
+        "chunk": "MvT-WVV-2018__art_5_102"
+      },
+      {
+        "ref": "WVV art. 5:46 (BV — aandelen zonder stemrecht, stemafspraken)",
+        "chunk": "WVV__art_5_37"
+      },
+      {
+        "ref": "WVV art. 6:45 (CV — stemafspraken)",
+        "chunk": "WVV__art_6_39"
+      },
+      {
+        "ref": "WVV art. 7:48 (NV — stemafspraken)",
+        "chunk": "MvT-WVV-2018__art_7_131"
+      },
+      {
+        "ref": "WVV art. 7:78 (NV — beperkingen overdraagbaarheid)",
+        "chunk": "WVV__art_7_60"
+      },
+      {
+        "ref": "MvT WVV art. 7:67 (NV — contractuele overdrachtsbeperkingen, 6-maanden-termijn)",
+        "chunk": "MvT-WVV-2018__art_7_151"
+      },
+      {
+        "ref": "MvT WVV art. 5:60 (BV — sanctie niet-tegenwerpelijkheid bij overdracht in strijd)",
+        "chunk": "MvT-WVV-2018__art_5_4_part2"
+      }
+    ],
+    "te_verifieren": [
+      "Concrete ITAA-deontologische reglementen over SHA's in associatie-vennootschappen (artikel-nummers)",
+      "Specifieke clausule-records (voorkooprecht, drag-along, tag-along, lock-up, put/call, dead-lock) — nog op te bouwen als aparte fiches",
+      "Praktische voorbeelden van waarderingsformules in Belgische SHA-praktijk (EBITDA-multiples, NAV, etc.)",
+      "Toepassing 'derde-medeplichtigheid aan contractbreuk' op SHA-schendingen — rechtspraak Hof van Cassatie"
+    ],
+    "cross_record_edges_actief": [
+      "valt_onder_kader → vennootschapsrechtelijk-kader-wvv (kader-record nog te creëren)",
+      "verward_met → statuten-vennootschap (record nog te creëren)",
+      "beïnvloedt → control-bepaling-consolidatie (record nog te creëren)",
+      "volgkennis → voorkooprecht-aandelen / drag-along / tag-along / lock-up / dead-lock-resolutie / put-call-optie-aandelen (allemaal nog te creëren — clausule-niveau)"
+    ]
+  },
+  "iteratie_log": [
+    {
+      "versie": "v1 (huidige) — schema 2.0 bundle-aware extract",
+      "datum": "2026-05-21",
+      "opmerkingen": "Eerste kader-fiche voor aandeelhoudersovereenkomst in schema 2.0. Geschreven met EXTRACT-v5-bundle prompt (compact bundle-aware variant): 4 vooraf-bepaalde queries uitgevoerd via mcp__certificaid-rag__zoek_bronnen (rerank=false), 0 extra rerank-queries nodig. Bronnen-bedekking: IBA-SHA-Belgium-2024-NL (alle clausule-typologie + tegenwerpelijkheid), WVV-tekst (art. 5:46, 6:45, 7:78) + MvT-WVV (art. 5:29/5:60/7:48/7:67) voor stemafspraken en overdrachtsbeperkingen. Structuur-discipline: kader-niveau gehouden — clausules zijn typologie/categorie, geen aparte sub-records per clausule (die volgen later). Rol×perspectief: 5 klant-perspectieven (KMO-stichters, familieholding, PE-investeerder, JV, eigen-kantoor) × 5-rol-set, dun bezet (~17 cellen op 25 mogelijke = ~68 % gevuld waar zinvol). Geen aanvul_kandidaat-MCP-call gedaan (bug). Cross-PO=false: SHA-thema valt volledig binnen PO 3.0 VI."
     }
   ]
 }

@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/staat-van-activa-en-passiva-ontbinding.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Staat van activa en passiva bij ontbinding ⚖️
 
@@ -28,6 +28,7 @@ De staat van activa en passiva is het **scharnierdocument** van de ontbindingspr
 De **staat van activa en passiva** bij ontbinding is een tussentijdse balans, opgesteld door het bestuursorgaan op een datum die **niet meer dan drie maanden vóór de AV** ligt die over de ontbinding zal beslissen (art. 2:71 § 2 WVV). Tenzij anders gemotiveerd wordt zij opgesteld in **discontinuïteit** (KB WVV art. 3:6 § 2): vaste activa naar realisatiewaarde, voorzieningen voor sluitingskosten, herklassering LT-schulden naar kort. De staat wordt door een **commissaris, bedrijfsrevisor of gecertificeerd accountant** gecontroleerd; diens verslag verklaart of zij op alle materiële punten een getrouw beeld geeft.
 
 _Bron: WVV art. 2:71, § 2_
+
 
 
 ## In de praktijk
@@ -53,7 +54,7 @@ _Bron: WVV art. 2:71, § 2_
 ## Zie ook
 
 - **Vereist kennis van**: [[continuiteitsbeginsel]]
-
+- **Wordt voorondersteld in** (5): [[begeleiden-vereffening-vennootschap]] · [[bevestiging-vereffenaar-deficitaire-vereffening]] · [[opstellen-verslag-ontbinding-vereffening-staat]] · [[vereffening-in-een-akte]] · [[vrijwillige-ontbinding]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

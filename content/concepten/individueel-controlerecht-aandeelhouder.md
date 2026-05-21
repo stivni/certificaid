@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/individueel-controlerecht-aandeelhouder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Individueel onderzoeks- en controlerecht van de aandeelhouder ⚖️
 
@@ -28,6 +28,7 @@ Wanneer een BV geen commissaris heeft benoemd, beschikt elke aandeelhouder indiv
 _Bron: WVV art. 3:101 (BV), art. 7:148 (NV)_
 
 
+
 > [!info] Uitzondering op: [[controle-begrip-algemeen]]
 
 ## In de praktijk
@@ -35,12 +36,12 @@ _Bron: WVV art. 3:101 (BV), art. 7:148 (NV)_
 <h3 id="wat-mag-de-aandeelhouder-concreet-doen">Wat mag de aandeelhouder concreet doen?</h3>
 
 > [!tip]- Wat mag de aandeelhouder concreet doen?
-> Inzage van facturen, bankafschriften, contracten, fiscale aangiften; ondervraging van bestuurders over specifieke verrichtingen; opvragen van werkdocumenten van de boekhouder. De bijgestane beroepsbeoefenaar werkt onder eigen verantwoordelijkheid en is gebonden aan beroepsgeheim. 🤖
+> Inzage van facturen, bankafschriften, contracten, fiscale aangiften; ondervraging van bestuurders over specifieke verrichtingen; opvragen van werkdocumenten van de boekhouder. De bijgestane beroepsbeoefenaar werkt onder eigen verantwoordelijkheid en is gebonden aan beroepsgeheim. 🔗
 
 <h3 id="wanneer-ingeroepen">Wanneer ingeroepen?</h3>
 
 > [!tip]- Wanneer ingeroepen?
-> Typisch bij vermoedens van mismanagement, conflicten tussen aandeelhouders (familievennootschap, partner-conflict), of voorbereiding van een aansprakelijkheidsvordering tegen bestuurders. 🤖
+> Typisch bij vermoedens van mismanagement, conflicten tussen aandeelhouders (familievennootschap, partner-conflict), of voorbereiding van een aansprakelijkheidsvordering tegen bestuurders. 🔗
 
 
 ## Voorwaarden / uitzonderingen
@@ -51,15 +52,15 @@ _Bron: WVV art. 3:101 (BV), art. 7:148 (NV)_
 ## Valkuilen
 
 > [!warning]- Geen drempelvereiste van 10% of meer — elke aandeelhouder kan het inroepen, ongeacht zijn deelneming.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Het recht bestaat alleen als er geen commissaris is.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- De bijstaande beroepsbeoefenaar moet erkende GA of bedrijfsrevisor zijn — niet een fiscalist of advocaat.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -69,7 +70,7 @@ _Bron: WVV art. 3:101 (BV), art. 7:148 (NV)_
 
 ## Voorbeelden
 
-Mathilde Maes bezit 30% van de aandelen van Brugse Brouwerij BV. De vennootschap heeft geen commissaris. Mathilde vermoedt dat haar mede-aandeelhouders zich onevenredig laten vergoeden via managementvergoedingen. Zij deelt aan de zaakvoerder mee dat zij zich zal laten bijstaan door gecertificeerd accountant Bart Daems voor inzage van de loonadministratie en de bestuurdersovereenkomsten. De vennootschap draagt de kosten van Bart Daems. _(Brugse Brouwerij BV, Mathilde Maes, Bart Daems)_ 🤖
+Mathilde Maes bezit 30% van de aandelen van Brugse Brouwerij BV. De vennootschap heeft geen commissaris. Mathilde vermoedt dat haar mede-aandeelhouders zich onevenredig laten vergoeden via managementvergoedingen. Zij deelt aan de zaakvoerder mee dat zij zich zal laten bijstaan door gecertificeerd accountant Bart Daems voor inzage van de loonadministratie en de bestuurdersovereenkomsten. De vennootschap draagt de kosten van Bart Daems. _(Brugse Brouwerij BV, Mathilde Maes, Bart Daems)_ 🔗
 
 ## Bronnen
 

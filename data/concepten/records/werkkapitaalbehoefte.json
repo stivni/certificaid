@@ -1,294 +1,692 @@
 {
   "id": "werkkapitaalbehoefte",
+  "schema_version": "2.0",
   "naam": "Werkkapitaalbehoefte (besoin en fonds de roulement, BFR)",
-  "node_type": "begrip",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.3.II.C",
-    "1.3.taak.1"
-  ],
   "naam_alternatief": [
     "Besoin en fonds de roulement (BFR)",
-    "Working capital requirement"
+    "Working capital requirement (WCR)",
+    "Behoeften aan bedrijfskapitaal"
+  ],
+  "kind": "ratio",
+  "primary_po": "1.3",
+  "linked_anchors": [
+    "1.3.I.A",
+    "1.3.II.C",
+    "1.9.IV.D"
+  ],
+  "status": "draft",
+  "definitie": {
+    "text": "De werkkapitaalbehoefte (BFR) is het bedrag aan permanente financiering dat de operationele cyclus van de onderneming structureel vraagt: de som van voorraden en handelsvorderingen, verminderd met de handelsschulden. Het meet hoeveel cash er vastzit in de cyclus tussen aankoop, productie, verkoop en inning — los van de beschikbare buffer op de balans.",
+    "confidence": "inferred",
+    "source": "vakdoctrine-financial-analysis"
+  },
+  "wat_economisch_echt_gebeurt": {
+    "text": "Elke onderneming met een operationele cyclus heeft cash nodig om die cyclus te overbruggen: je koopt grondstoffen (cash uit), je produceert, je verkoopt op krediet (cash nog niet binnen), je int — pas dan is de cyclus gesloten. Hoe langer die cyclus, hoe meer geld er permanent vastzit. De WKB meet precies die bindende cash. Leveranciers compenseren een deel: zij geven betalingsuitstel, waardoor hun schuld de behoefte verkleint. Het saldo — voorraden + vorderingen minus leveranciersschulden — is het bedrag dat de onderneming zelf moet financieren, ofwel via werkkapitaal (eigen balans-buffer) ofwel via extern krediet (kaskrediet, factoring). Dit is fundamenteel anders dan werkkapitaal (netto-bedrijfskapitaal): werkkapitaal = wat er beschikbaar is; WKB = wat er nodig is.",
+    "confidence": "inferred",
+    "source": "vakdoctrine-financial-analysis"
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      "werkkapitaal",
+      "voorraden",
+      "handelsvorderingen"
+    ],
+    "kader": "jaarrekeninganalyse",
+    "naast_relevant": [
+      "current-ratio",
+      "cash-conversion-cycle",
+      "solvabiliteitsratio"
+    ],
+    "volgkennis": [
+      "nettokas-positie",
+      "factoring",
+      "kaskrediet"
+    ]
+  },
+  "wanneer_gebruik_je_deze_ratio": {
+    "voor_wie": "🧭 Elke KMO met een operationele cyclus (handel, productie, diensten met voorraden). Minder relevant voor pure dienstenverleners zonder voorraden of handelsvorderingen.",
+    "wanneer_wel": [
+      "🧭 Wanneer je de liquiditeits-diagnose verder wilt doorgronden dan de current ratio alleen — WKB legt bloot waarom de liquiditeitspositie is wat ze is.",
+      "🧭 Wanneer de onderneming snel groeit — groei verhoogt de WKB automatisch; zonder extra financiering volgt een liquiditeitscrisis.",
+      "🧭 Wanneer de klant kaskrediet overweegt of heronderhandelt — WKB bepaalt de structurele behoefte, kaskrediet is de buffer bovenop."
+    ],
+    "wanneer_niet": [
+      "🧭 Voor pure dienstbedrijven zonder voorraden en met directe betaling: WKB is nagenoeg nul; liquiditeitsdiagnose via current ratio volstaat.",
+      "🧭 Als maatstaf voor rentabiliteit of solvabiliteit — WKB meet uitsluitend operationele cash-binding."
+    ],
+    "hoofdrisico": "🧭 WKB stijgt automatisch mee met de omzet — snelle groei zonder herfinanciering leidt tot liquiditeitscrisis ondanks winstgevende verkoop.",
+    "hoofdvoordeel": "🧭 WKB toont structureel liquiditeitsrisico dat de current ratio verbergt: een onderneming met voldoende vlottende activa kan toch een structureel tekort hebben als de WKB hoger is dan het werkkapitaal."
+  },
+  "hoe_het_werkt": {
+    "onderdelen": [
+      {
+        "titel": "Formule",
+        "elementen": [
+          {
+            "element_id": "formule-wkb",
+            "inhoud_type": "formule",
+            "titel": "Werkkapitaalbehoefte",
+            "beschrijving": "WKB = voorraden + handelsvorderingen − handelsschulden. Voorraden en handelsvorderingen binden cash; handelsschulden vrijgeven cash (leverancier financiert mee).",
+            "confidence": "inferred",
+            "source": "vakdoctrine-financial-analysis",
+            "weergaven": [
+              {
+                "type": "formule-expressie",
+                "expressie": "WKB = Voorraden + Handelsvorderingen − Handelsschulden"
+              },
+              {
+                "type": "tabel",
+                "titel": "MAR-rubrieken",
+                "kolommen": [
+                  "Component",
+                  "MAR-rubriek",
+                  "Effect op WKB"
+                ],
+                "rijen": [
+                  [
+                    "Voorraden",
+                    "VI (30/36)",
+                    "+"
+                  ],
+                  [
+                    "Handelsvorderingen",
+                    "VII.A.4 (40)",
+                    "+"
+                  ],
+                  [
+                    "Handelsschulden",
+                    "IX.C.1 (44)",
+                    "−"
+                  ]
+                ]
+              },
+              {
+                "type": "casus",
+                "omschrijving": "Rotex BV: voorraden € 2.500.000 + handelsvorderingen € 4.000.000 − handelsschulden € 1.800.000 = WKB € 4.700.000."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titel": "Verschil met werkkapitaal en nettokaspositie",
+        "elementen": [
+          {
+            "element_id": "verhouding-wkb-wk-nettokas",
+            "inhoud_type": "mechanisme",
+            "titel": "Driehoeksrelatie WKB — werkkapitaal — nettokas",
+            "beschrijving": "Werkkapitaal (netto-bedrijfskapitaal) = vlottende activa − schulden op ten hoogste een jaar. Dat is wat beschikbaar is. WKB = wat operationeel nodig is. Nettokaspositie = werkkapitaal − WKB. Positief = buffer; negatief = structureel tekort, op te vangen met kaskrediet.",
+            "confidence": "inferred",
+            "source": "vakdoctrine-financial-analysis",
+            "weergaven": [
+              {
+                "type": "vergelijkingstabel",
+                "kolommen": [
+                  "Concept",
+                  "Formule",
+                  "Vraag die het beantwoordt"
+                ],
+                "rijen": [
+                  [
+                    "Werkkapitaal (NWC)",
+                    "Vlottende activa − Schulden ≤ 1 jaar",
+                    "Wat is de balans-buffer?"
+                  ],
+                  [
+                    "WKB (BFR)",
+                    "Voorraden + Handelsvorderingen − Handelsschulden",
+                    "Wat heeft de operationele cyclus nodig?"
+                  ],
+                  [
+                    "Nettokas",
+                    "Werkkapitaal − WKB",
+                    "Heeft de onderneming een overschot of tekort?"
+                  ]
+                ]
+              },
+              {
+                "type": "casus",
+                "omschrijving": "Rotex BV: werkkapitaal € 4.000.000 − WKB € 4.700.000 = nettokas € −700.000 (tekort → kaskrediet vereist)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titel": "Sectorgebondenheid en negatieve WKB",
+        "elementen": [
+          {
+            "element_id": "sectorgebondenheid-wkb",
+            "inhoud_type": "vuistregel",
+            "titel": "WKB varieert sterk per sector",
+            "beschrijving": "Producenten en groothandels met lange klantkrediet-termijnen hebben typisch een hoge WKB. Retailers (cash-verkoop, korte voorraad, lang leveranciersuitstel) hebben een lage of negatieve WKB — de leverancier financiert de cyclus mee.",
+            "confidence": "vuistregel",
+            "source": "vakdoctrine-financial-analysis",
+            "weergaven": [
+              {
+                "type": "vergelijkingstabel",
+                "kolommen": [
+                  "Sector",
+                  "Typische WKB",
+                  "Verklaring"
+                ],
+                "rijen": [
+                  [
+                    "Productiebedrijf (lange cyclus)",
+                    "Hoog positief",
+                    "Lange doorlooptijd + klantkrediet"
+                  ],
+                  [
+                    "Groothandel",
+                    "Matig positief",
+                    "Voorraden + handelsvorderingen hoog"
+                  ],
+                  [
+                    "Retailer / supermarkt",
+                    "Negatief of nul",
+                    "Cash-verkoop + lang leveranciersuitstel"
+                  ],
+                  [
+                    "Pure dienstverlener",
+                    "Nagenoeg nul",
+                    "Weinig of geen voorraden"
+                  ]
+                ]
+              },
+              {
+                "type": "casus",
+                "omschrijving": "Supermarkt Mertens BV: voorraden € 200.000 + handelsvorderingen € 50.000 − handelsschulden € 600.000 = WKB € −350.000. Leveranciers financieren de cyclus."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titel": "WKB en omzetgroei",
+        "elementen": [
+          {
+            "element_id": "wkb-groei-relatie",
+            "inhoud_type": "mechanisme",
+            "titel": "Groeiende omzet verhoogt de WKB proportioneel",
+            "beschrijving": "De WKB groeit mee met de omzet: meer verkoop → meer voorraden + meer handelsvorderingen, bij gelijke betalingstermijnen. Ondernemingen die snel groeien zien hun WKB snel stijgen. Zonder aanvullende financiering (kaskrediet, kapitaalinjectie, factoring) dreigt liquiditeitscrisis ondanks winstgevende verkoop.",
+            "confidence": "grounded",
+            "source": "CBN-2011-13",
+            "bron_toelichting": "CBN-advies 2011/13 bevestigt: een sterke omzetstijging leidt tot bijkomende behoefte aan nettobedrijfskapitaal die extra financiering vereist.",
+            "weergaven": [
+              {
+                "type": "proza",
+                "tekst": "Als de omzet verdubbelt maar de betalingstermijnen gelijk blijven, verdubbelen ook de handelsvorderingen en voorraden. De WKB verdubbelt mee. Dit is de groei-val: een winstgevend bedrijf kan failliet gaan omdat het zijn eigen succes niet kan financieren."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titel": "Selectiviteit in de berekening",
+        "elementen": [
+          {
+            "element_id": "selectiviteit-wkb-componenten",
+            "inhoud_type": "regel",
+            "titel": "Alleen operationele componenten",
+            "beschrijving": "De WKB bevat uitsluitend de operationele cyclus-componenten: handelsvorderingen en handelsschulden, niet fiscale schulden, dividendschulden of financiële schulden ≤ 1 jaar. Brede schulden horen in werkkapitaal (current ratio), niet in WKB.",
+            "confidence": "inferred",
+            "source": "vakdoctrine-financial-analysis",
+            "weergaven": [
+              {
+                "type": "vergelijkingstabel",
+                "kolommen": [
+                  "Post",
+                  "In WKB?",
+                  "Toelichting"
+                ],
+                "rijen": [
+                  [
+                    "Handelsvorderingen (40)",
+                    "Ja",
+                    "Kern van de cyclus"
+                  ],
+                  [
+                    "Handelsschulden (44)",
+                    "Ja",
+                    "Leveranciers-buffer"
+                  ],
+                  [
+                    "Voorraden (30-36)",
+                    "Ja",
+                    "Kern van de cyclus"
+                  ],
+                  [
+                    "Fiscale schulden (45)",
+                    "Nee",
+                    "Niet-operationeel"
+                  ],
+                  [
+                    "Financiële schulden ≤ 1j (43)",
+                    "Nee",
+                    "Financiering, niet exploitatie"
+                  ],
+                  [
+                    "Dividendschulden (47)",
+                    "Nee",
+                    "Niet-operationeel"
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titel": "Decompositie via rotatieratio's",
+        "elementen": [
+          {
+            "element_id": "decompositie-rotatie",
+            "inhoud_type": "mechanisme",
+            "titel": "WKB-stijging verklaren via rotatieratio's",
+            "beschrijving": "Een stijgende WKB komt meestal uit (a) tragere voorraadrotatie, (b) langere klantkrediet-termijn, of (c) kortere leverancierskrediet-termijn. Combineer WKB altijd met rotatie-ratio's om het verklarend element te isoleren.",
+            "confidence": "inferred",
+            "source": "vakdoctrine-financial-analysis",
+            "weergaven": [
+              {
+                "type": "vergelijkingstabel",
+                "kolommen": [
+                  "Oorzaak WKB-stijging",
+                  "Diagnoseratio",
+                  "Actie"
+                ],
+                "rijen": [
+                  [
+                    "Tragere voorraadrotatie",
+                    "Voorraadrotatie (omzet / voorraden)",
+                    "Voorraadbeheer optimaliseren"
+                  ],
+                  [
+                    "Langere klant-termijn",
+                    "Klantdebettermijn (vord. / omzet × 365)",
+                    "Incassobeleid aanscherpen"
+                  ],
+                  [
+                    "Kortere lever-termijn",
+                    "Leverancierstermijn (schulden / aankopen × 365)",
+                    "Heronderhandelen betalingsuitstel"
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "rol_van_de_accountant": {
+    "perspectieven": [
+      {
+        "perspectief": "KMO-handelsonderneming",
+        "beschrijving": "Handels- of productiebedrijf met operationele cyclus",
+        "rollen": [
+          {
+            "rol": "adviseur",
+            "elementen": [
+              {
+                "element_id": "adviseur-kmo-diagnose",
+                "inhoud_type": "procedure",
+                "titel": "Liquiditeitsdiagnose uitvoeren",
+                "beschrijving": "1. Bereken WKB (voorraden + handelsvorderingen − handelsschulden). 2. Vergelijk met werkkapitaal. 3. Bereken nettokas (werkkapitaal − WKB). 4. Bij negatieve nettokas: bepaal structurele financieringsbehoefte. 5. Formuleer aanbeveling (kaskrediet-aanvraag, factoring, leveranciersuitstel heronderhandelen).",
+                "confidence": "inferred",
+                "source": "vakdoctrine-financial-analysis",
+                "weergaven": [
+                  {
+                    "type": "stappenlijst",
+                    "stappen": [
+                      "Bereken WKB op basis van jaarrekening of tussentijdse cijfers",
+                      "Vergelijk met beschikbaar werkkapitaal",
+                      "Bereken nettokas (= beschikbaar − nodig)",
+                      "Positief → voldoende buffer; negatief → structureel tekort",
+                      "Kwantificeer tekort en adviseer over dekking (kaskrediet / factoring / heronderhandelen)"
+                    ]
+                  }
+                ]
+              },
+              {
+                "element_id": "adviseur-kmo-groei",
+                "inhoud_type": "risico",
+                "titel": "Groei-trap: WKB-stijging bij omzetgroei",
+                "beschrijving": "🧭 Bij groeiende omzet: projecteer de WKB-stijging en wijs de klant op de financieringsbehoefte vóór de crisis optreedt. Een winstgevend bedrijf kan failliet gaan door liquiditeitstekort bij te snelle groei zonder herfinanciering.",
+                "confidence": "vuistregel",
+                "source": "vakdoctrine-financial-analysis",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "tekst": "Omzet stijgt 50% → WKB stijgt proportioneel → kaskrediet-limiet volstaat niet meer → klant benadert bank te laat. Proactief adviseren vóór de groeispurt."
+                  }
+                ]
+              },
+              {
+                "element_id": "adviseur-kmo-decompositie",
+                "inhoud_type": "procedure",
+                "titel": "WKB verbeteren via operationele knoppen",
+                "beschrijving": "🧭 Drie knoppen om WKB te verlagen: (1) voorraadbeheer optimaliseren (faster turnover), (2) klantdebettermijn inkorten (sneller incasso of factoring), (3) leveranciersuitstel verlengen (heronderhandelen betalingscondities).",
+                "confidence": "vuistregel",
+                "source": "vakdoctrine-financial-analysis",
+                "weergaven": [
+                  {
+                    "type": "vergelijkingstabel",
+                    "kolommen": [
+                      "Knop",
+                      "Maatregel",
+                      "Effect"
+                    ],
+                    "rijen": [
+                      [
+                        "Voorraadbeheer",
+                        "JIT-methode, betere planning",
+                        "Voorraden dalen → WKB daalt"
+                      ],
+                      [
+                        "Klantbeheer",
+                        "Stricter incasso, kortingen bij vroeg betalen",
+                        "Vorderingen dalen → WKB daalt"
+                      ],
+                      [
+                        "Leveranciersbeheer",
+                        "Langere betaaltermijn bedingen",
+                        "Schulden stijgen → WKB daalt"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief": "kredietverstrekker-perspectief",
+        "beschrijving": "Kredietgever of kredietbeoordelaar die de financieringsbehoefte beoordeelt",
+        "rollen": [
+          {
+            "rol": "adviseur",
+            "elementen": [
+              {
+                "element_id": "adviseur-krediet",
+                "inhoud_type": "mechanisme",
+                "titel": "Kaskrediet-behoefte kwantificeren",
+                "beschrijving": "🧭 De WKB is de theoretische basis voor de kaskrediet-limiet bij de bank. Negatieve nettokas geeft de minimale kredietbehoefte aan. De bank stelt aanvullende vereisten (zekerheid, covenanten).",
+                "confidence": "vuistregel",
+                "source": "vakdoctrine-financial-analysis",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "tekst": "Negatieve nettokas = structureel tekort. Dat is het startpunt voor de kaskrediet-aanvraag: toon de bank de WKB-berekening, de trend, en de projectie bij groeiscenario."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief": "beursgenoteerde-onderneming",
+        "beschrijving": "Grotere onderneming met going-concern-beoordeling",
+        "rollen": [
+          {
+            "rol": "externe auditor",
+            "elementen": [
+              {
+                "element_id": "auditor-going-concern",
+                "inhoud_type": "risico",
+                "titel": "WKB als going-concern-indicator",
+                "beschrijving": "Een structureel negatieve nettokaspositie (WKB > werkkapitaal) is een knipperlicht voor going-concern-twijfel. De auditor beoordeelt of de onderneming voldoende kredietfaciliteiten heeft om het structurele tekort te financieren, en of banken die faciliteiten zullen verlengen.",
+                "confidence": "inferred",
+                "source": "vakdoctrine-financial-analysis",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "tekst": "Auditaandachtspunten: Is de negatieve nettokas structureel of tijdelijk? Zijn er voldoende kredietfaciliteiten? Zijn er covenanten die onder druk staan bij verder dalende liquiditeit?"
+                  }
+                ]
+              },
+              {
+                "element_id": "auditor-decompositie-wkb",
+                "inhoud_type": "procedure",
+                "titel": "WKB controleren op consistentie en volledigheid",
+                "beschrijving": "Controleer of de WKB-componenten volledig zijn (alle handelsvorderingen, alle voorraden, alle handelsschulden). Check dat niet-operationele posten (fiscale schulden, financiële schulden ≤ 1 jaar) correct buiten de WKB zijn gelaten.",
+                "confidence": "inferred",
+                "source": "vakdoctrine-financial-analysis",
+                "weergaven": [
+                  {
+                    "type": "stappenlijst",
+                    "stappen": [
+                      "Verifieer volledigheid handelsvorderingen (rubriek 40)",
+                      "Verifieer volledigheid voorraden (rubriek 30-36)",
+                      "Verifieer volledigheid handelsschulden (rubriek 44)",
+                      "Sluit fiscale schulden (45) en financiële schulden (43) uit",
+                      "Vergelijk WKB met vorig jaar en sectorgemiddelde"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "veelvoorkomende_verwarringen": [
+    {
+      "verwarring": "WKB ≠ werkkapitaal",
+      "uitleg": "Werkkapitaal (netto-bedrijfskapitaal) = vlottende activa − schulden ≤ 1 jaar. Dat is de beschikbare buffer. WKB = voorraden + handelsvorderingen − handelsschulden. Dat is de operationele behoefte. Een hoog werkkapitaal is geen garantie: als de WKB nog hoger is, is er een structureel tekort.",
+      "edge": "verward_met → werkkapitaal"
+    },
+    {
+      "verwarring": "WKB = netto-werkkapitaal is een begripsverwarring die in de literatuur voorkomt",
+      "uitleg": "Sommige Nederlandstalige bronnen gebruiken netto-werkkapitaal als synoniem voor WKB (BFR-benadering). Anderen gebruiken netto-werkkapitaal als synoniem voor werkkapitaal (NWC-benadering). Lees altijd de formule, niet alleen de naam.",
+      "confidence": "inferred"
+    },
+    {
+      "verwarring": "Negatieve WKB is niet automatisch gunstig",
+      "uitleg": "Een negatieve WKB betekent dat leveranciers de cyclus financieren. Dat werkt zolang de leveranciers dat toestaan. Bij verstrenging (eis tot contante betaling) klapt de liquiditeitspositie in elkaar.",
+      "confidence": "inferred"
+    },
+    {
+      "verwarring": "WKB en current ratio meten hetzelfde",
+      "uitleg": "Current ratio = vlottende activa / schulden ≤ 1 jaar — brede balansverhouding. WKB = operationele cyclus-binding. Beide zijn complementair; een onderneming met current ratio > 1 kan toch een negatieve nettokaspositie hebben als de WKB hoog is.",
+      "edge": "verward_met → current-ratio"
+    }
+  ],
+  "familie_en_alternatieven": {
+    "kader": "jaarrekeninganalyse",
+    "verwante_ratios": [
+      {
+        "record": "werkkapitaal",
+        "relatie": "Beschikbare buffer tegenover operationele behoefte (WKB). Verschil = nettokas."
+      },
+      {
+        "record": "current-ratio",
+        "relatie": "Brede liquiditeitsratio (balans-gebaseerd). WKB is operationeel-gebaseerd."
+      },
+      {
+        "record": "cash-conversion-cycle",
+        "relatie": "Tijdsmaat voor de operationele cyclus; WKB is de geldbedrag-maat voor dezelfde cyclus."
+      },
+      {
+        "record": "solvabiliteitsratio",
+        "relatie": "Structuuranalyse (eigen vs vreemd vermogen). WKB is liquiditeitsanalyse."
+      }
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      {
+        "titel": "WKB berekenen uit jaarrekening",
+        "anker": "#formule-wkb"
+      },
+      {
+        "titel": "Verschil WKB versus werkkapitaal uitleggen",
+        "anker": "#verhouding-wkb-wk-nettokas"
+      },
+      {
+        "titel": "Nettokaspositie berekenen",
+        "anker": "#verhouding-wkb-wk-nettokas"
+      },
+      {
+        "titel": "Sectorgebondenheid beoordelen",
+        "anker": "#sectorgebondenheid-wkb"
+      },
+      {
+        "titel": "Groei-effect op WKB projecteren",
+        "anker": "#wkb-groei-relatie"
+      },
+      {
+        "titel": "WKB verbeteren via operationele knoppen",
+        "anker": "#adviseur-kmo-decompositie"
+      },
+      {
+        "titel": "Structureel liquiditeitstekort diagnosticeren",
+        "anker": "#adviseur-kmo-diagnose"
+      },
+      {
+        "titel": "WKB als going-concern-indicator beoordelen (auditor)",
+        "anker": "#auditor-going-concern"
+      }
+    ],
+    "termen_alfabetisch": [
+      {
+        "term": "besoin en fonds de roulement (BFR)",
+        "anker": "#formule-wkb"
+      },
+      {
+        "term": "cash conversion cycle",
+        "anker": "#familie_en_alternatieven"
+      },
+      {
+        "term": "handelsschulden",
+        "anker": "#formule-wkb"
+      },
+      {
+        "term": "handelsvorderingen",
+        "anker": "#formule-wkb"
+      },
+      {
+        "term": "kaskrediet",
+        "anker": "#adviseur-kmo-diagnose"
+      },
+      {
+        "term": "klantdebettermijn",
+        "anker": "#decompositie-rotatie"
+      },
+      {
+        "term": "leverancierstermijn",
+        "anker": "#decompositie-rotatie"
+      },
+      {
+        "term": "nettobedrijfskapitaal",
+        "anker": "#verhouding-wkb-wk-netkokas"
+      },
+      {
+        "term": "nettokas",
+        "anker": "#verhouding-wkb-wk-nettokas"
+      },
+      {
+        "term": "negatieve WKB",
+        "anker": "#sectorgebondenheid-wkb"
+      },
+      {
+        "term": "voorraden",
+        "anker": "#formule-wkb"
+      },
+      {
+        "term": "voorraadrotatie",
+        "anker": "#decompositie-rotatie"
+      },
+      {
+        "term": "werkkapitaalbehoefte",
+        "anker": "#formule-wkb"
+      },
+      {
+        "term": "working capital requirement (WCR)",
+        "anker": "#formule-wkb"
+      }
+    ],
+    "formules": [
+      {
+        "naam": "Werkkapitaalbehoefte",
+        "expressie": "WKB = Voorraden + Handelsvorderingen − Handelsschulden"
+      },
+      {
+        "naam": "Nettokaspositie",
+        "expressie": "Nettokas = Werkkapitaal − WKB"
+      }
+    ]
+  },
+  "bronnen_en_verwijzingen": {
+    "grounded": [
+      {
+        "source": "CBN-2011-13",
+        "beschrijving": "CBN-advies 2011/13 — overheidssubsidies: bevestigt dat een sterke omzetstijging leidt tot bijkomende behoefte aan nettobedrijfskapitaal die extra financiering vereist.",
+        "relevantie": "Grondslag voor groei-WKB-relatie (element wkb-groei-relatie)"
+      }
+    ],
+    "te_verifieren": [
+      "Exacte MAR-rubriek-nummers handelsvorderingen en handelsschulden (40 en 44 — te verifiëren met volledig schema)",
+      "Belgische sectorale WKB-benchmarks (NBB Centrale voor Balansen)",
+      "Verwijzing in KB van 30 januari 2001 (boekhoudrecht) naar nettobedrijfskapitaal als analytisch begrip"
+    ],
+    "vakdoctrine": [
+      "Ooghe H. & Van Wymeersch Ch. — Handboek financiële analyse van de onderneming (Intersentia)",
+      "Analyse en kritische beoordeling van de jaarrekening — ITAA-studiemateriaal PO 1.3"
+    ],
+    "cross_record_edges": [
+      {
+        "type": "onderdeel_van",
+        "target": "jaarrekeninganalyse",
+        "toelichting": "WKB is een liquiditeitsdiagnose-instrument binnen het kader jaarrekeninganalyse"
+      },
+      {
+        "type": "verward_met",
+        "target": "werkkapitaal",
+        "toelichting": "WKB (benodigd) vs werkkapitaal (beschikbaar) — klassieke didactische verwarring"
+      },
+      {
+        "type": "verward_met",
+        "target": "current-ratio",
+        "toelichting": "Beiden liquiditeitsanalyse maar andere reikwijdte: current ratio = breed/balans; WKB = operationeel/cyclus"
+      },
+      {
+        "type": "gerelateerd",
+        "target": "cash-conversion-cycle",
+        "toelichting": "CCC = tijdsmaat; WKB = bedragsmaat voor dezelfde operationele cyclus"
+      },
+      {
+        "type": "gerelateerd",
+        "target": "solvabiliteitsratio",
+        "toelichting": "Complementaire analyse: solvabiliteit = structuur; WKB = operationele liquiditeitsbinding"
+      }
+    ]
+  },
+  "iteratie_log": [
+    {
+      "versie": "2.0-draft",
+      "datum": "2026-05-21",
+      "model": "claude-sonnet-4-6",
+      "wave": "wave-bench-sonnet-20260521",
+      "wijzigingen": "Herextract van schema 1.6 naar schema 2.0. Didactische top-volgorde + rol×perspectief-structuur + element-vocabulaire (inhoud_type + weergaven). Cross-PO-anchors toegevoegd (1.9.IV.D). Groeirelatiedrempel verankerd via CBN-2011/13.",
+      "gaps": [
+        "jaarrekeninganalyse-kader bestaat nog niet — edge hangt; aan te maken in volgende wave",
+        "cash-conversion-cycle bestaat nog niet — edge hangt",
+        "nettokas-positie bestaat nog niet als apart record"
+      ]
+    }
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-19T-overnight-gap-fix",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.3.II.C",
-    "linked_anchors": [
+    "extractor_run": "concept-extractie-v5-wave-bench-sonnet-20260521",
+    "model": "claude-sonnet-4-6",
+    "anchor_ids": [
+      "1.3.I.A",
       "1.3.II.C",
-      "1.3.taak.1"
+      "1.9.IV.D"
     ],
-    "reviewed_by": null,
-    "bron_gap": "Geen Belgische trusted bron in de bundle. Standaard financial-analysis-doctrine (Ooghe & Van Wymeersch). Confidence: inferred-common-knowledge."
-  },
-  "situering": {
-    "text": "Werkkapitaalbehoefte = (voorraden + handelsvorderingen) − handelsschulden. Het meet hoeveel cash de operationele cyclus zelf vraagt om de tijd tussen aankoop, verkoop en betaling te overbruggen. Samen met werkkapitaal (de absolute buffer uit de balans) bepaalt het de netto-kaspositie: werkkapitaal − werkkapitaalbehoefte = nettokas. Wanneer werkkapitaalbehoefte groter is dan werkkapitaal, ontstaat een structureel liquiditeitstekort dat moet worden opgevangen met bankkrediet of leveranciersuitstel.",
-    "confidence": "inferred-from-aggregation",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Vakdoctrine financial analysis"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "aggregate",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
-  "definitie": {
-    "text": "De werkkapitaalbehoefte is het bedrag aan financiering dat de operationele cyclus van de onderneming nodig heeft: de som van voorraden en handelsvorderingen, verminderd met de handelsschulden. Het toont hoeveel cash er vastzit in de cyclus tussen aankoop, productie, verkoop en inning.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Algemene financial-analysis-doctrine"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.3.II.C",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
-  "bouwstenen": [
-    {
-      "titel": "Drie operationele componenten",
-      "wat": "Voorraden + handelsvorderingen − handelsschulden. De eerste twee binden cash (geld dat in voorraad of nog niet geïnd is); de handelsschulden vrijgeven cash (leveranciers financieren de cyclus mee).",
-      "waarom": "Hoe langer de productie- en inningscyclus, hoe meer middelen er nodig zijn om die te financieren tot het verkochte product effectief wordt betaald.",
-      "grondslag": "Vakdoctrine financial analysis",
-      "confidence": "inferred-common-knowledge",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Financial analysis"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.3.II.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Rotex Roeselare NV: voorraden € 2.500.000 + handelsvorderingen € 4.000.000 − handelsschulden € 1.800.000 = werkkapitaalbehoefte € 4.700.000."
-        }
-      ]
-    },
-    {
-      "titel": "Sectorgebonden",
-      "wat": "Een groothandel of producent met lange productiecyclus heeft een hoge werkkapitaalbehoefte; een supermarkt (kort houdbare voorraad, cash-verkoop) of dienstverlener heeft een lage of zelfs negatieve werkkapitaalbehoefte.",
-      "waarom": "Bedrijven die snel innen (cash bij verkoop) en traag betalen aan leveranciers, laten in feite de leverancier hun cyclus financieren — werkkapitaalbehoefte negatief.",
-      "grondslag": "Vakdoctrine",
-      "confidence": "inferred",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Financial analysis"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.3.II.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Supermarkt Mertens BV: voorraad € 200.000 + handelsvorderingen € 50.000 − handelsschulden € 600.000 = werkkapitaalbehoefte € −350.000. De leveranciers financieren de cyclus."
-        }
-      ]
-    }
-  ],
-  "berekeningsmethode": [
-    {
-      "naam": "Berekening werkkapitaalbehoefte",
-      "ratio": "De operationele cyclus (van aankoop tot inning) heeft permanent een hoeveelheid cash nodig. Voorraad en vorderingen binden cash; handelsschulden vrijgeven cash.",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Financial analysis"
-      },
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.3.II.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "formules": [
-        {
-          "id": "werkkapitaalbehoefte-formule",
-          "naam": "Werkkapitaalbehoefte",
-          "wiskunde": "werkkapitaalbehoefte = voorraden + handelsvorderingen − handelsschulden",
-          "variabelen": [
-            {
-              "symbool": "voorraden",
-              "betekenis": "Balanspost VI (voorraden en bestellingen in uitvoering)",
-              "eenheid": "EUR"
-            },
-            {
-              "symbool": "handelsvorderingen",
-              "betekenis": "Vorderingen op ten hoogste een jaar uit hoofde van handelstransacties (rubriek VII.A.4 handelsvorderingen)",
-              "eenheid": "EUR"
-            },
-            {
-              "symbool": "handelsschulden",
-              "betekenis": "Schulden op ten hoogste een jaar tegenover leveranciers (rubriek IX.C.1 handelsschulden)",
-              "eenheid": "EUR"
-            }
-          ],
-          "invulling_voorbeeld": {
-            "waarden": "Rotex: voorraden € 2.500.000; handelsvorderingen € 4.000.000; handelsschulden € 1.800.000",
-            "berekening": "€ 2.500.000 + € 4.000.000 − € 1.800.000 = € 4.700.000",
-            "eenheid_resultaat": "EUR"
-          }
-        },
-        {
-          "id": "nettokas-formule",
-          "naam": "Nettokaspositie",
-          "wiskunde": "nettokas = werkkapitaal − werkkapitaalbehoefte",
-          "afhankelijk_van": [
-            "werkkapitaalbehoefte-formule"
-          ],
-          "variabelen": [
-            {
-              "symbool": "werkkapitaal",
-              "betekenis": "Vlottende activa − schulden op ten hoogste een jaar (zie record [[werkkapitaal]])",
-              "eenheid": "EUR"
-            },
-            {
-              "symbool": "werkkapitaalbehoefte",
-              "betekenis": "Resultaat van de eerste formule",
-              "eenheid": "EUR"
-            }
-          ],
-          "invulling_voorbeeld": {
-            "waarden": "Rotex: werkkapitaal € 4.000.000; werkkapitaalbehoefte € 4.700.000",
-            "berekening": "€ 4.000.000 − € 4.700.000 = € −700.000",
-            "eenheid_resultaat": "EUR (negatief = liquiditeitstekort, op te vangen met bankkrediet)"
-          }
-        }
-      ]
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Liquiditeitstekort detecteren",
-      "betekenis": "De vergelijking werkkapitaal versus werkkapitaalbehoefte is de standaard-redenering voor liquiditeitsdiagnose. Werkkapitaal < werkkapitaalbehoefte = structureel liquiditeitstekort: de balans-buffer dekt de operationele behoefte niet en de onderneming moet noodzakelijk extern krediet aantrekken (kaskrediet, factoring, leveranciersuitstel).",
-      "anker_slug": "1.3.II.C",
-      "confidence": "inferred-common-knowledge",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Financial analysis"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.3.II.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "aspect": "Decompositie via rotatieratio's",
-      "betekenis": "Een stijgende werkkapitaalbehoefte komt meestal uit (a) tragere voorraadrotatie (voorraad blijft langer liggen), (b) langere klantkrediet-termijn (vorderingen stijgen sneller dan omzet), of (c) kortere leverancierskrediet-termijn. Combineer altijd met de rotatie-ratio's om te zien welk element verklarend is.",
-      "anker_slug": "1.3.II.C",
-      "confidence": "inferred",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Financial analysis"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.3.II.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "werkkapitaal",
-      "verschil": "Werkkapitaal = wat er is (balans-buffer: vlottende activa − korte schulden). Werkkapitaalbehoefte = wat er nodig is (operationele cyclus: voorraden + handelsvorderingen − handelsschulden). Verschil = nettokaspositie.",
-      "trigger": "Examenvraag 'beschikbaar versus benodigd werkkapitaal': beschikbaar = werkkapitaal; benodigd = werkkapitaalbehoefte.",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.3.II.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "Niet alle vorderingen en schulden horen in de berekening. Werkkapitaalbehoefte bevat alleen de operationele cyclus-componenten: handelsvorderingen en handelsschulden, niet bv. fiscale schulden, dividenduitkeringen of financiële schulden ≤ 1 jaar.",
-      "confidence": "inferred",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Financial analysis"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.3.II.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Een negatieve werkkapitaalbehoefte is niet automatisch goed: ze betekent dat de onderneming sterk afhankelijk is van leverancierskrediet. Bij verstrenging (leveranciers eisen contante betaling) klapt de operationele cyclus in elkaar.",
-      "confidence": "inferred",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Financial analysis"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.3.II.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "vergelijkt-met",
-      "target": "werkkapitaal",
-      "redenering": "Werkkapitaalbehoefte (benodigd uit cyclus) tegenover werkkapitaal (beschikbaar uit balans). Het verschil = nettokas.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "onderdeel-van",
-      "target": "liquiditeitsratio",
-      "redenering": "Werkkapitaalbehoefte is een liquiditeitsdiagnose-instrument naast de klassieke ratio's.",
-      "confidence": "inferred"
-    }
-  ]
+    "bundle": "data/extractie/_bundles/werkkapitaalbehoefte.json",
+    "reviewed_by": null
+  }
 }

@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/berekenen-interpreteren-rentabiliteitsratios.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Berekenen en interpreteren van de rentabiliteitsratio's 🤖
+# Berekenen en interpreteren van de rentabiliteitsratio's 🔗
 
 Competentie om de rentabiliteit van een onderneming te meten via ROE (eigen vermogen) en ROA (totaal activa), in netto en bruto vorm. De stagiair leert het verschil tussen bedrijfsrentabiliteit en netto rentabiliteit, en hoe het financiële hefboomeffect daartussen werkt.
+
 
 
 ## Stappen

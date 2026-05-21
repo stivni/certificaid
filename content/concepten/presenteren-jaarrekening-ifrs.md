@@ -16,9 +16,10 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/presenteren-jaarrekening-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Presenteren van een IFRS-jaarrekening (vijf componenten en presentatiebeginselen) 🤖
+# Presenteren van een IFRS-jaarrekening (vijf componenten en presentatiebeginselen) 🔗
+
 
 
 ## Stappen

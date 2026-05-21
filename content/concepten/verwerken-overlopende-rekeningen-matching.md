@@ -14,11 +14,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verwerken-overlopende-rekeningen-matching.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Verwerken van overlopende rekeningen volgens het matching-principe 🤖
+# Verwerken van overlopende rekeningen volgens het matching-principe 🔗
 
 De directe toepassing van het matching-principe op de eindbalans: kosten en opbrengsten horen in het boekjaar waarop ze betrekking hebben, niet wanneer de factuur valt of de betaling gebeurt. Voor een stagiair-GA: een terugkerende eindjaarsverrichting (toe te rekenen kosten 492, over te dragen kosten 490, idem voor opbrengsten op 491/493) waarvan vergeten boeking een direct effect heeft op het bedrijfsresultaat.
+
 
 
 ## Stappen

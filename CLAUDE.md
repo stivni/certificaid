@@ -6,15 +6,15 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 
 **Bij het examen beschikbaar**: ITAA-LEX (wettekstenbundel) + Cijferzakboekje (tarieven en bedragen). Wat getoetst wordt: concepten begrijpen, uitzonderingen herkennen, correct redeneren — niet cijfers uit het hoofd kennen.
 
-> **Status (2026-05-21)**: **Schema 2.0 in voorbereiding voor Fase 2 herextract-launch** (ADR-025).
-> Didactische conceptlaag met rol × perspectief structuur, element-vocabulaire (`inhoud_type` + `weergaven`), kader/familie kinds, vijf-niveau-confidence (⚖️ · 🔗 · 🧭 · ⚠️ · ❌).
-> Infrastructuur klaar: EXTRACT v5, VERIFY v3 (soft guidelines), skeleton-voorstel-v1, archive-script, MCP-server `certificaid-rag` met preload.
-> Acht referentie-mockups in [`content/experiment/`](content/experiment/).
-> **Volgende stap**: skeleton-voorstel-run op PO 1.1 in nieuwe sessie (MCP wordt dan geladen).
+> **Status (2026-05-21 — namiddag-update)**: **Schema 2.0 + bundle-aware extract gevalideerd, klaar voor bulk** (ADR-025 + ADR-027).
+> Skeleton voor alle 19 PO's: 404 kandidaten (van 425 na consolidatie — 21 duplicaten + naming + structurele merges).
+> Bundle-aware extract-architectuur (full 2-pass) + daemon v2.0 (request-batching, gating, concurrent index) live. Schema-discipline-prompt-update voorkomt Sonnet-pitfalls (platte-dict, top-level-weergaven, dict-source).
+> Acht referentie-mockups in [`content/experiment/`](content/experiment/) + tien geschreven schema-2.0-records (`data/concepten/records/`): aandeelhoudersovereenkomst, fraude, vennootschapsbelasting, dbi-aftrek, innovatie-aftrek, investeringsoftrek, werkkapitaalbehoefte, alarmbel, oeso-modelverdrag, voordelen-alle-aard. Plus 3 net-aangemaakte concept-fiches (fraude, verbonden-partijen, boekhoudkundige-schattingen).
+> 5-rol-set + `eigen-kantoor`-perspectief vastgelegd (ADR-025 §4 + §4bis).
+> **Volgende stap**: 6-parallel benchmark met full-2-pass-stack (liquidatiereserve, verbonden-partijen, kapitaalverhoging, roerend-inkomen-internationaal, boekhoudkundige-schattingen, faillissement) → meet of theoretische 60% tijdwinst gerealiseerd wordt → pilot Wave 0a relaunch.
 > Examen-deadline ca. 2026-05-30 — bronnen-werk loopt parallel (user).
-> Volledige sessie-handoff in [`docs/sessie-2026-05-21-schema-20-handoff.md`](docs/sessie-2026-05-21-schema-20-handoff.md).
 >
-> *Vorige status (2026-05-18)*: Schema 1.5 uitgerold over 430 records via EXTRACT v4. Wordt vervangen door schema 2.0 via herextract.
+> *Vorige status (2026-05-21 ochtend)*: Schema 2.0 in voorbereiding; volledige sessie-handoff in [`docs/sessie-2026-05-21-schema-20-handoff.md`](docs/sessie-2026-05-21-schema-20-handoff.md).
 
 ---
 
@@ -44,6 +44,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | **MCP-server `certificaid-tarieven`** (4 tools voor tarief-records) | [`tools/tarieven/mcp_server/`](tools/tarieven/mcp_server/) — `lijst_tabellen` · `zoek_tabellen` · `lees_tabel` · `query_tabel`. Schema: [`data/tarieven/SCHEMA.md`](data/tarieven/SCHEMA.md). ADR-026. |
 | **Tarief-record schrijven of trusten** | [`tools/lib/tarieven_api.py`](tools/lib/tarieven_api.py) — `save_record` · `mark_trusted` · `audit_parity`. CLI: `python3 -m tools.lib.tarieven_api audit / list / trust`. Pre-commit gate via `tests/test_tarieven_api.py`. |
 | **Tarief-extractie pipeline** (vision-extract van tabel-zware PDF naar JSON) | Chunker: `python3 -m tools.tarieven.chunk_pdf <bron-id>`. Extract-prompt: [`prompts/tarief-extractie-v1.md`](prompts/tarief-extractie-v1.md). Verify-prompt: [`prompts/tarief-verify-v1.md`](prompts/tarief-verify-v1.md). ADR-026 §3. |
+| **Aangifte-walkthrough bron schrijven** (PB-vakken, VenB) | Vision-handcrafted-extract via Sonnet-subagent met **twee bron-PDFs**: voorbereiding (codes) + toelichting (didactische blockquotes). Prompt: [`prompts/aangifte-handcrafted-v1.md`](prompts/aangifte-handcrafted-v1.md). **Belangrijk**: codes uitsluitend uit voorbereiding-PNG — geen training-kennis. Stijl-canonical: [`resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md`](resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md). |
 | **Archiveren v1.x records vóór 2.0-herextract** | `python3 -m tools.extractie.archive_voor_migratie --anchor-prefix <PO>` |
 | **Sessie-handoff Schema 2.0** | [`docs/sessie-2026-05-21-schema-20-handoff.md`](docs/sessie-2026-05-21-schema-20-handoff.md) — volledig overzicht voor nieuwe sessie |
 | Fase 2 herextract-pipeline | [`docs/pilot-fase2-pipeline.md`](docs/pilot-fase2-pipeline.md) |

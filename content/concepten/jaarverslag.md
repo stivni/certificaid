@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/jaarverslag.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Jaarverslag ⚖️
 
@@ -28,6 +28,7 @@ Het jaarverslag (bestuursverslag) is het toelichtend document **naast** de jaarr
 Het jaarverslag (ook 'bestuursverslag') is een toelichtend document dat het bestuursorgaan jaarlijks opstelt naast de jaarrekening. Het geeft een commentaar op de bedrijfsresultaten, de financiële positie, de belangrijke risico's en onzekerheden, en bevat niet-financiële informatie zoals milieubeleid en personeelsbeleid. Verplicht voor grote vennootschappen; vrijgesteld voor kleine en microvennootschappen.
 
 _Bron: WVV art. 3:32 (jaarverslag)_
+
 
 
 > [!info] Uitzondering op: [[groottecriteria-jaarrekening]]
@@ -58,7 +59,7 @@ Meubelzaak Mertens BV (klein) → geen jaarverslag; vermeldingen die anders in h
 
 _Grondslag: WVV art. 3:6, § 2_
 
-### Niet-financiële verklaring (CSRD-context) 🤖
+### Niet-financiële verklaring (CSRD-context) 🔗
 
 Sinds 2024 worden grote vennootschappen onder de CSRD (Corporate Sustainability Reporting Directive) verplicht een uitgebreide duurzaamheidsverklaring op te nemen volgens ESRS-standaarden. Dit vervangt de oude 'niet-financiële verklaring' uit Richtlijn 2014/95/EU.
 

@@ -14,11 +14,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/begeleiden-due-diligence-overname.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Begeleiden van due diligence bij overname (verkoper- of koperszijde) 🤖
+# Begeleiden van due diligence bij overname (verkoper- of koperszijde) 🔗
 
 Operationele competentie waarbij de gecertificeerd accountant het due-diligence-proces organiseert en uitvoert: vendor due diligence aan verkoperszijde (rapport voorbereiden voor potentiële kopers) of buy-side due diligence aan koperszijde (financial-tax-legal-HR-checks). Het DD-resultaat bepaalt de prijsformule, de R&W en eventuele earn-out- of escrow-clausules in de overnameovereenkomst.
+
 
 
 ## In de praktijk

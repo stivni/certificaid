@@ -15,11 +15,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/begeleiden-waardering-onderneming-bij-overdracht.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Begeleiden van de waardering van een onderneming bij overdracht 🤖
+# Begeleiden van de waardering van een onderneming bij overdracht 🔗
 
 Adviesopdracht waarbij de gecertificeerd accountant — niet als expert-waarderingsspecialist maar als financiële adviseur — de cliënt begeleidt bij het opzetten of beoordelen van een waarderingsoefening voor een transactie. Hij selecteert passende methoden (DCF, multiples, NAV), toetst de inputs op redelijkheid, en vertaalt de waarderingsuitkomst naar onderhandelingstactiek. Diepe waarderingstheorie zit elders (PO 1.3, 2.5); hier ligt de focus op toepassing in een M&A-context.
+
 
 
 ## In de praktijk

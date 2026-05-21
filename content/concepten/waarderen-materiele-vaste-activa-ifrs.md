@@ -16,9 +16,10 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/waarderen-materiele-vaste-activa-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Waarderen van materiële vaste activa onder IAS 16 (kostprijs- of herwaarderingsmodel) 🤖
+# Waarderen van materiële vaste activa onder IAS 16 (kostprijs- of herwaarderingsmodel) 🔗
+
 
 
 ## Stappen

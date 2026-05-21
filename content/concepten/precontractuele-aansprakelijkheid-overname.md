@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/precontractuele-aansprakelijkheid-overname.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Precontractuele aansprakelijkheid bij overname 🤖
+# Precontractuele aansprakelijkheid bij overname 🔗
 
 Tussen de eerste contactname en de uiteindelijke ondertekening van de overnameovereenkomst doorlopen partijen een onderhandelingstraject waar nog geen volwaardig contract bestaat. Belgisch recht legt hen niettemin een diligentieplicht op: wie onverantwoord afhaakt of misleidende informatie verstrekt, kan worden veroordeeld tot vergoeding van de geleden schade. Voor de stagiair is dit het kader dat de juridische draagwijdte van een intentieverklaring (LOI) en de gevolgen van een afgebroken due diligence bepaalt.
 
@@ -26,6 +26,7 @@ Tussen de eerste contactname en de uiteindelijke ondertekening van de overnameov
 > [!info] Behoort tot: [[overnameovereenkomst]]
 
 Precontractuele aansprakelijkheid is de gehoudenheid tot schadevergoeding die ontstaat wanneer een partij tijdens de onderhandelingen vóór het sluiten van een overeenkomst een fout begaat (onverantwoorde afbreking, schending van informatieplicht, gebrek aan goede trouw). De rechtsgrondslag is de algemene onrechtmatige-daadsregeling onder oud BW art. 1382 (culpa in contrahendo of, bij ontbreken van een lopende onderhandeling, culpa in non contrahendo); boek 5 van het nieuw BW codificeert de regels voor het verstrekken van informatie tijdens de precontractuele fase (art. 5.16).
+
 
 
 ## In de praktijk
@@ -42,15 +43,15 @@ Precontractuele aansprakelijkheid is de gehoudenheid tot schadevergoeding die on
 ## Valkuilen
 
 > [!warning]- Bouw onderhandelings-uitstapclausules expliciet in de LOI in: opschortende voorwaarden (financiering, due-diligence-bevindingen, regulatoire goedkeuring) maken afhaken legitiem.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Documenteer interne beslissingsprocessen en escalaties tijdens de onderhandelingen — bij latere betwisting kan dit aantonen dat de afbreking objectief gemotiveerd was.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Wees voorzichtig met disclosures: misleidende of onvolledige informatie tijdens de DD-fase kan de aansprakelijkheid op het positief contractbelang openzetten via aantasting van de toestemming (dwaling, bedrog).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -58,7 +59,7 @@ Precontractuele aansprakelijkheid is de gehoudenheid tot schadevergoeding die on
 
 - **Vereist kennis van**: [[letter-of-intent-overname]]
 - **Vereist kennis van**: [[due-diligence-overname]]
-
+- **Wordt voorondersteld in** (2): [[due-diligence-overname]] · [[letter-of-intent-overname]]
 ## Voorbeelden
 
 ### Afgebroken overname Brugse Brouwerij BV

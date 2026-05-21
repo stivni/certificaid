@@ -19,7 +19,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/onveranderlijkheid-boekingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Onveranderlijkheid van de boekingen ⚖️
 
@@ -33,6 +33,7 @@ Het onveranderlijkheidsbeginsel verbiedt dat een geboekte verrichting **onzichtb
 Een boeking mag **na inschrijving niet onzichtbaar gewijzigd, weggelaten of toegevoegd** worden. Wijzigingen zijn wel toegelaten, maar moeten **duidelijk leesbaar blijven** — het oorspronkelijke geschrevene én de correctie moeten allebei zichtbaar zijn. Hetzelfde geldt voor jaarrekening- en inventarisgegevens (WER art. III.84 jo. CBN 174/1).
 
 _Bron: WER art. III.84_
+
 
 
 ## Bouwstenen
@@ -79,7 +80,7 @@ _Grondslag: CBN 174/1_
 <h3 id="software-implementatie">Software-implementatie</h3>
 
 > [!tip]- Software-implementatie
-> Boekhoudsoftware moet wijzigingen aan reeds geboekte verrichtingen onmogelijk maken — of zichtbaar maken via een audit trail. Een 'update'-functie die overschrijft zonder log is in strijd met het beginsel. 🤖
+> Boekhoudsoftware moet wijzigingen aan reeds geboekte verrichtingen onmogelijk maken — of zichtbaar maken via een audit trail. Een 'update'-functie die overschrijft zonder log is in strijd met het beginsel. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen / fiscaal: vraag over de bewijskracht van een digitale boekhouding waar bedragen geretroactief zijn aangepast → onveranderlijkheid geschonden, bewijskracht aangetast.

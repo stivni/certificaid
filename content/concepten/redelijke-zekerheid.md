@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/redelijke-zekerheid.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Redelijke zekerheid ⚖️
 
@@ -29,6 +29,7 @@ Redelijke zekerheid is een kernbegrip dat door het ITAA-programma in twee aanver
 Redelijke zekerheid is een hoog (niet absoluut) zekerheidsniveau dat door interne controle of een controleopdracht wordt nagestreefd. Het impliceert aanvaarden dat een resterend (lage) kans op afwijking blijft bestaan — door menselijke fout, samenspanning, management override of kosten-baten-afweging. Tegenpool van 'absolute zekerheid' (onhaalbaar) en bovenste niveau van 'beperkte zekerheid' (review).
 
 _Bron: ITAA KMO-controlenorm Bijlage 1 + ISA 200_
+
 
 
 ## In de praktijk
@@ -45,10 +46,13 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + ISA 200_
 ## Valkuilen
 
 > [!warning]- 'Redelijke' verwarren met 'absolute' is dé klassieke examenval bij IC-vraagstelling
-> ⚠️ 'Redelijke' verwarren met 'absolute' is dé klassieke examenval bij IC-vraagstelling. Onthoud: niemand kan ooit 100% garanderen — niet de IC, niet de auditor. 🤖
+> ⚠️ 'Redelijke' verwarren met 'absolute' is dé klassieke examenval bij IC-vraagstelling. Onthoud: niemand kan ooit 100% garanderen — niet de IC, niet de auditor. 🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[fraude-versus-fout]] · [[kenmerken-interne-controle]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -14,11 +14,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-afschrijvingsplan-vaste-activa.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van het afschrijvingsplan voor materiële vaste activa 🤖
+# Opstellen van het afschrijvingsplan voor materiële vaste activa 🔗
 
 De jaarlijkse boekhoudkundige beslissing die het meerjaren-resultaat van de onderneming vormgeeft: nuttige levensduur, restwaarde en methode (lineair/degressief) worden bij eerste activering vastgelegd én jaarlijks getoetst. Voor een stagiair-GA: de keuze moet onderbouwd en consistent zijn over de jaren — een niet-gemotiveerde wijziging schendt de bestendigheid van methode en kan een fiscale herstelling uitlokken.
+
 
 
 ## Stappen

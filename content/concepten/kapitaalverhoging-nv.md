@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kapitaalverhoging-nv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Kapitaalverhoging bij de NV ⚖️
 
@@ -24,9 +24,12 @@ Een verhoging van het maatschappelijk kapitaal van een naamloze vennootschap is 
 
 > [!info] Behoort tot: [[naamloze-vennootschap-nv]] · Specialisatie van: [[kapitaalwijziging]]
 
+> [!info] Bestaat uit (1): [[voorkeurrecht-aandeelhouder]]
+
 **Verhoging van het kapitaal** van een naamloze vennootschap (NV) — waardoor het wettelijk vermogensanker wordt vergroot. Vier vormen: (1) **inbreng in geld**, (2) **inbreng in natura**, (3) **incorporatie van reserves of uitgiftepremies**, (4) uitgifte van **converteerbare obligaties** of **inschrijvingsrechten** (warrants) die later in kapitaal worden omgezet. Steeds vereist een statutenwijziging via de algemene vergadering, behoudens binnen de grenzen van het **toegestaan kapitaal** waar het bestuursorgaan zelfstandig mag beslissen.
 
 _Bron: WVV art. 7:177 ev._
+
 
 
 ## Bouwstenen
@@ -101,11 +104,11 @@ _Grondslag: WVV art. 7:177; MvT bij art. 312_
 ## Valkuilen
 
 > [!warning]- Een **inbreng in natura** zonder bedrijfsrevisorverslag is in beginsel nietig — ook indien de waarde 'kennelijk juist' is. Vraag het verslag steeds vooraf op.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bij **toegestaan kapitaal** moet het bestuursorgaan zich strikt aan de in de statuten opgenomen grenzen houden (bedrag, doel, geldigheidsduur). Overschrijding maakt de beslissing aanvechtbaar.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -114,7 +117,7 @@ _Grondslag: WVV art. 7:177; MvT bij art. 312_
 - **Vereist kennis van**: [[voorkeurrecht-aandeelhouder]]
 - **Vereist kennis van**: [[inbreng-vennootschap]]
 - **Vereist kennis van**: [[inbreng-in-natura-verslag]]
-
+- **Wordt voorondersteld in** (1): [[opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht]]
 ## Voorbeelden
 
 ### Aurelia Holding NV verhoogt kapitaal in geld met voorkeurrecht
@@ -128,7 +131,7 @@ Aurelia Holding NV (kapitaal € 1.000.000, verdeeld over 10.000 aandelen) wil �
 3. Voorkeurrecht open gedurende 15 dagen: Pieter krijgt recht op 3.000 nieuwe aandelen, Robert op 2.000.
 4. Beide schrijven volledig in en storten € 100 × 5.000 = € 500.000 op een geblokkeerde rekening.
 5. Notaris stelt vast dat de inschrijvingen en volstortingen plaatsvonden; statuten worden gewijzigd (kapitaal nu € 1.500.000) en bekendgemaakt.
-#### Boeking kapitaalverhoging in geld 🤖
+#### Boeking kapitaalverhoging in geld 🔗
 | Rekening | Debet | Credit |
 |---|---:|---:|
 | 550 — Geblokkeerde rekening kapitaalverhoging | 500000 |  |

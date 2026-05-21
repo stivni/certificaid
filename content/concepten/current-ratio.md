@@ -18,13 +18,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/current-ratio.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Current ratio (liquiditeit in ruime zin) 🤖
+# Current ratio (liquiditeit in ruime zin) 🔗
 
 Meten of de vennootschap genoeg vlottende activa heeft tegenover haar schulden op ten hoogste een jaar. De current ratio is de breedst gebruikte liquiditeitsratio in ruime zin.
 
 > [!info] Behoort tot: [[liquiditeitsratio]]
+
 
 
 ## Bouwstenen
@@ -180,7 +181,7 @@ Resultaat: Een current ratio van 2,0 wordt traditioneel als comfortabel gezien. 
 
 
 > [!warning]- Sommige balansen tonen 'Vorderingen op meer dan een jaar' onder vaste activa
-> ⚠️ Sommige balansen tonen 'Vorderingen op meer dan een jaar' onder vaste activa. Zorg dat je enkel vorderingen op ten hoogste een jaar in de teller meeneemt, anders overschat je de liquiditeit. 🤖
+> ⚠️ Sommige balansen tonen 'Vorderingen op meer dan een jaar' onder vaste activa. Zorg dat je enkel vorderingen op ten hoogste een jaar in de teller meeneemt, anders overschat je de liquiditeit. 🔗
 >
 > _Bron: Financial analysis_
 
@@ -189,7 +190,7 @@ Resultaat: Een current ratio van 2,0 wordt traditioneel als comfortabel gezien. 
 ## Zie ook
 
 - **Vereist kennis van**: [[werkkapitaal]]
-
+- **Wordt voorondersteld in** (1): [[ohlson-o-score]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`

@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/onderneming-begrip-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Onderneming (begrip in IC-context) ⚖️
 
@@ -26,6 +26,7 @@ Het ondernemingsbegrip is in PO 1.7 niet juridisch-technisch maar functioneel: a
 Het begrip 'onderneming' in IC-context is functioneel: elke organisatie die middelen (mensen, geld, technologie) combineert om een economische activiteit uit te oefenen. Het Belgische ondernemingsrecht (WER art. I.1, 1°) hanteert sinds 1 november 2018 een ruime definitie die drie categorieën omvat: (a) iedere natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent; (b) iedere rechtspersoon; (c) iedere andere organisatie zonder rechtspersoonlijkheid. Voor interne controle telt niet de juridische vorm maar de complexiteit van processen, transactievolume en risico.
 
 _Bron: WER art. I.1, 1° + CBN-2019-09_
+
 
 
 ## Bouwstenen
@@ -64,7 +65,7 @@ Niet de juridische vorm maar drie dimensies bepalen wat 'gepaste' IC is: sector 
 
 _Grondslag: ISA 315 (herzien-2019) — schaalbaarheid_
 
-### Klein-vs-groot onderscheid 🤖
+### Klein-vs-groot onderscheid 🔗
 
 Voor wettelijke verplichtingen (jaarrekening-schema, commissaris) telt het 'grote vennootschap'-statuut — minstens twee van: omzet > € 9 mio, balanstotaal > € 4,5 mio, VTE > 50.
 

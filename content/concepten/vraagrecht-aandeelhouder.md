@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vraagrecht-aandeelhouder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Vraagrecht van de aandeelhouder op de algemene vergadering ⚖️
 
@@ -28,6 +28,7 @@ Het WVV geeft elke aandeelhouder het recht om vóór of tijdens de algemene verg
 De leden van het bestuursorgaan en, voor de agendapunten waarover hij verslag uitbrengt, de commissaris geven antwoord op de vragen die hun door de aandeelhouders (of leden, in vzw-context) vooraf of tijdens de algemene vergadering, mondeling of schriftelijk worden gesteld en die verband houden met de agendapunten. Bestuurders en commissaris mogen antwoord weigeren wanneer de mededeling van de gegevens de vennootschap schade kan berokkenen of in strijd is met door hen of door de vennootschap aangegane vertrouwelijkheidsverbintenissen — voor de commissaris ook: zijn beroepsgeheim.
 
 _Bron: WVV art. 5:70 (BV), 6:77 (CV), 7:126 (NV), 9:18 (vzw)_
+
 
 
 ## In de praktijk
@@ -61,8 +62,8 @@ _Bron: WVV art. 5:70 (BV), 6:77 (CV), 7:126 (NV), 9:18 (vzw)_
 
 ## Voorbeelden
 
-Op de gewone AV van Brugse Brouwerij BV vraagt minderheidsaandeelhouder Robert Vandenberghe naar de details van een lopende onderhandeling met een potentiële overnemer. De bestuurders weigeren te antwoorden onder verwijzing naar de aangegane confidentialiteits­overeenkomst — de weigering wordt in de notulen vastgelegd met grondslag WVV art. 5:70. _(Brugse Brouwerij BV, Robert Vandenberghe)_ 🤖
-Op de gewone AV van Zelena Bio NV (genoteerd) krijgt de commissaris vooraf zeven schriftelijke vragen over de waardering van de voorraad. Hij groepeert zijn antwoord per onderwerp (drie groepen) en behandelt ze ter zitting. _(Zelena Bio NV)_ 🤖
+Op de gewone AV van Brugse Brouwerij BV vraagt minderheidsaandeelhouder Robert Vandenberghe naar de details van een lopende onderhandeling met een potentiële overnemer. De bestuurders weigeren te antwoorden onder verwijzing naar de aangegane confidentialiteits­overeenkomst — de weigering wordt in de notulen vastgelegd met grondslag WVV art. 5:70. _(Brugse Brouwerij BV, Robert Vandenberghe)_ 🔗
+Op de gewone AV van Zelena Bio NV (genoteerd) krijgt de commissaris vooraf zeven schriftelijke vragen over de waardering van de voorraad. Hij groepeert zijn antwoord per onderwerp (drie groepen) en behandelt ze ter zitting. _(Zelena Bio NV)_ 🔗
 
 ## Bronnen
 

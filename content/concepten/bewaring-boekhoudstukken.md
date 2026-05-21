@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bewaring-boekhoudstukken.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Bewaring van boekhoudkundige stukken ⚖️
 
@@ -28,6 +28,7 @@ Een formele verplichting uit het WER en het KB WVV die het skelet van de regelma
 Boeken, rekeningen en verantwoordingsstukken moeten gedurende **7 jaar** worden bewaard, te rekenen vanaf 1 januari volgend op het boekjaar waarop ze betrekking hebben (WER art. III.86). Verantwoordingsstukken die geen verband houden met boekhoudkundige verrichtingen mogen 3 jaar worden bewaard. Bewaring kan ook digitaal en in het buitenland, mits **rechtstreekse on-line toegankelijkheid** vanaf de Belgische bedrijfszetel.
 
 _Bron: WER art. III.86_
+
 
 
 ## Bouwstenen
@@ -86,12 +87,15 @@ _Grondslag: CBN 2010/14_
 ## Valkuilen
 
 > [!warning]- Vrijwillige vernietiging vóór de 7-jaars-termijn = schending boekhoudregelgeving + fiscaal probleem (controlbaarheid weg)
-> ⚠️ Vrijwillige vernietiging vóór de 7-jaars-termijn = schending boekhoudregelgeving + fiscaal probleem (controlbaarheid weg). Ook bij overstap van papier naar digitaal: oude papieren stukken niet vernietigen zonder eerst gecertificeerde digitale kopie maken. 🤖
+> ⚠️ Vrijwillige vernietiging vóór de 7-jaars-termijn = schending boekhoudregelgeving + fiscaal probleem (controlbaarheid weg). Ook bij overstap van papier naar digitaal: oude papieren stukken niet vernietigen zonder eerst gecertificeerde digitale kopie maken. 🔗
 >
 > _Bron: WER art. III.86_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[verantwoordingsstuk]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV moet de aankoopfacturen, verkoopfacturen, dagboeken en jaarrekening van boekjaar 20X1 (1/1 — 31/12/20X1) bewaren tot 31/12/20X8 (7 jaar vanaf 1/1/20X2). De BV kiest voor digitale archivering op een cloud-server in Frankrijk; vanuit de zetel te Ninove blijven alle documenten on-line consulteerbaar.

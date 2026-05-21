@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorbepaalde-kosten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Voorbepaalde kosten (standaardkostencalculatie) 🤖
+# Voorbepaalde kosten (standaardkostencalculatie) 🔗
 
 Voorbepaalde kosten (standaardkosten) zijn vooraf vastgelegde normbedragen voor materiaal, arbeid en overhead per eenheid product. Ze worden gebruikt om de werkelijke kosten meteen tegen een norm af te zetten en zo afwijkingen (verschillen) snel te detecteren. Dit ondersteunt budgetbeheer, kostencontrole en prijszetting.
 
 > [!info] Behoort tot: [[costing-methodes-vergelijking]]
+
 
 
 ## Bouwstenen
@@ -87,4 +88,4 @@ Yperse: standaard materiaal 1,2 kg × € 5 = € 6. Werkelijk: 1,3 kg × € 5,
 ## Zie ook
 
 - **Vereist kennis van**: [[verschillenboekhouding]]
-
+- **Wordt voorondersteld in** (1): [[verschillenboekhouding]]

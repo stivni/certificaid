@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/sell-out-minderheid.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Sell-out — uitkooprecht van de minderheids­aandeelhouder ⚖️
 
@@ -29,6 +29,7 @@ Spiegel van de squeeze-out: niet de meerderheid die de minderheid uitkoopt, maar
 Een **eenzijdig recht** van een **minderheidsaandeelhouder** in een **genoteerde** vennootschap om — na een openbaar overnamebod waarbij de bieder een zeer hoge deelneming bereikt — diens overgebleven effecten **te laten opkopen** door de bieder tegen dezelfde prijs als de biedprijs.
 
 _Bron: Wet 1 april 2007 op de openbare overnamebiedingen + KB 27 april 2007_
+
 
 
 ## In de praktijk
@@ -60,7 +61,7 @@ _Bron: Wet 1 april 2007 op de openbare overnamebiedingen + KB 27 april 2007_
 ## Valkuilen
 
 > [!warning]- Sell-out is **alleen** beschikbaar **na** een openbaar overnamebod — niet bij geleidelijke verwerving door private transacties. Wie de drempel bereikt zonder een bod te doen (uitzonderlijk), opent de squeeze-out-route maar **niet** de sell-out-route.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -71,7 +72,7 @@ _Bron: Wet 1 april 2007 op de openbare overnamebiedingen + KB 27 april 2007_
 
 ## Voorbeelden
 
-Aurelia Holding NV doet een vrijwillig overnamebod op Industria Antwerpen NV (genoteerde) voor € 42 per aandeel. Na het bod bezit Aurelia 96% van het kapitaal met stemrecht; 92% werd tijdens de biedingsperiode verworven. Sofie Janssens, een minderheids­aandeelhouder met 1.000 aandelen, was tijdens het bod op reis en ging niet in op het bod. Zij kan nu **binnen de wettelijke termijn** haar **sell-out recht** uitoefenen en eisen dat Aurelia haar 1.000 aandelen **alsnog overneemt aan € 42**. _(Aurelia Holding NV, Industria Antwerpen NV, Sofie Janssens)_ 🤖
+Aurelia Holding NV doet een vrijwillig overnamebod op Industria Antwerpen NV (genoteerde) voor € 42 per aandeel. Na het bod bezit Aurelia 96% van het kapitaal met stemrecht; 92% werd tijdens de biedingsperiode verworven. Sofie Janssens, een minderheids­aandeelhouder met 1.000 aandelen, was tijdens het bod op reis en ging niet in op het bod. Zij kan nu **binnen de wettelijke termijn** haar **sell-out recht** uitoefenen en eisen dat Aurelia haar 1.000 aandelen **alsnog overneemt aan € 42**. _(Aurelia Holding NV, Industria Antwerpen NV, Sofie Janssens)_ 🔗
 
 ## Bronnen
 

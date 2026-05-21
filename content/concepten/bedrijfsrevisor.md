@@ -19,9 +19,9 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bedrijfsrevisor.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Bedrijfsrevisor 🤖
+# Bedrijfsrevisor 🔗
 
 De bedrijfsrevisor is de tegenhanger van de gecertificeerd accountant aan de revisor-zijde: exclusief bevoegd voor de wettelijke controle van de jaarrekening (commissarismandaat), maar deelt voor andere wettelijk voorbehouden opdrachten het monopolie met de GA. Georganiseerd via het Instituut van de Bedrijfsrevisoren (IBR) en onder publiek toezicht van het College van Toezicht. Voor het bekwaamheidsexamen GA cruciaal: WAT mag enkel de revisor, WAT mogen beide?
 
@@ -33,6 +33,7 @@ De bedrijfsrevisor is de tegenhanger van de gecertificeerd accountant aan de rev
 Een bedrijfsrevisor is een natuurlijke of rechtspersoon die door het Instituut van de Bedrijfsrevisoren (IBR) is erkend en die exclusief bevoegd is voor de wettelijke controle van de jaarrekening van vennootschappen (commissaris-mandaat). Bedrijfsrevisoren staan onder publiek toezicht via het College van Toezicht.
 
 _Bron: Wet 7 december 2016 (revisorenwet)_
+
 
 
 ## Bouwstenen
@@ -60,7 +61,7 @@ Voor andere wettelijk voorbehouden opdrachten (inbreng in natura, omzetting, ont
 
 _Grondslag: Wet ITAA 2019 art. 3 jo. WVV_
 
-### Natuurlijke persoon ondertekent 🤖
+### Natuurlijke persoon ondertekent 🔗
 
 Wanneer de bedrijfsrevisor in een vennootschap (CVBA, BV ...) werkt, moet een natuurlijke persoon-bedrijfsrevisor als vaste vertegenwoordiger het verslag in eigen naam ondertekenen.
 

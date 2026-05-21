@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/intercalaire-interesten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Intercalaire interesten (financieringskosten tijdens bouw) 🤖
+# Intercalaire interesten (financieringskosten tijdens bouw) 🔗
 
 Wanneer een onderneming een vast actief (gebouw, productielijn, immaterieel actief) **zelf opbouwt** of laat bouwen, kan er een periode zijn waarin het actief nog niet bedrijfsklaar is maar al financieringskosten op leningen worden gemaakt. Deze rente op vreemd vermogen tijdens de bouwperiode heet de **intercalaire interest**. Art. 3:16 KB WVV laat toe — maar verplicht niet — dat deze rente in de **aanschaffingswaarde** wordt opgenomen voor zover ze betrekking heeft op de **periode voorafgaand aan de bedrijfsklaarheid**. Het is dus een **keuze-regel**: ofwel activeren als onderdeel van de aanschaffingswaarde (en mee afschrijven over de gebruiksduur), ofwel rechtstreeks in resultaat boeken als financiële kost (rekening 65). De keuze wordt bij de waarderingsregels in de toelichting vermeld.
 
@@ -26,6 +26,7 @@ Wanneer een onderneming een vast actief (gebouw, productielijn, immaterieel acti
 > [!info] Behoort tot: [[aanvullende-boekhoudbeginselen]]
 
 In de aanschaffingswaarde van immateriële en materiële vaste activa mag de rente op vreemd vermogen dat wordt gebruikt voor hun financiering worden opgenomen, doch slechts voor zover zij betrekking heeft op de periode welke de bedrijfsklaarheid van deze vaste activa voorafgaat (art. 3:16 lid 1 KB WVV).
+
 
 
 ## In de praktijk
@@ -38,7 +39,7 @@ In de aanschaffingswaarde van immateriële en materiële vaste activa mag de ren
 <h3 id="effect-op-jaarrekening">Effect op jaarrekening</h3>
 
 > [!tip]- Effect op jaarrekening
-> Activering verhoogt de boekwaarde van het actief én verschuift de kost van financiële kosten (rekening 65) naar afschrijvingen (rekening 63) over de gebruiksduur. Resultaat in jaar van bouw stijgt; resultaat in latere jaren daalt door extra afschrijving. Totale resultaat over de levensduur blijft gelijk — het is een tijdsverschuiving, geen blijvend verschil. 🤖
+> Activering verhoogt de boekwaarde van het actief én verschuift de kost van financiële kosten (rekening 65) naar afschrijvingen (rekening 63) over de gebruiksduur. Resultaat in jaar van bouw stijgt; resultaat in latere jaren daalt door extra afschrijving. Totale resultaat over de levensduur blijft gelijk — het is een tijdsverschuiving, geen blijvend verschil. 🔗
 
 
 ## Voorwaarden / uitzonderingen

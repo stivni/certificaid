@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/interimdividend.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Interimdividend ⚖️
 
@@ -28,6 +28,7 @@ Een tussentijdse dividenduitkering — niet op basis van een goedgekeurde jaarre
 Het **bestuursorgaan** is bevoegd tot uitkering van een **interimdividend** — d.w.z. een tussentijdse winstuitkering — wanneer de **statuten** die bevoegdheid expliciet delegeren, en binnen de grenzen van de uitkeringstests die ook gelden voor het jaarlijks dividend. Het interimdividend wordt geput uit de winst van het lopende boekjaar (verminderd met overgedragen verlies of vermeerderd met overgedragen winst), of uit de winst van het voorgaande boekjaar zolang de jaarrekening van dat boekjaar nog niet is goedgekeurd. **Onttrekking aan bestaande beschikbare reserves** vereist een AV-besluit (tussentijds dividend, geen interimdividend in strikte zin).
 
 _Bron: WVV art. 7:213 (NV); art. 5:141, 5:120 (BV)_
+
 
 
 ## In de praktijk
@@ -53,11 +54,11 @@ _Bron: WVV art. 7:213 (NV); art. 5:141, 5:120 (BV)_
 ## Valkuilen
 
 > [!warning]- Zonder **statutaire delegatie** is het bestuur niet bevoegd voor een interimdividend. Bij een nieuw cliëntdossier: lees eerst de statuten.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Voor de BV: vergeet de **liquiditeitstest** niet bij een interimdividend. De test geldt evenzeer voor interim als voor jaarlijks dividend.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -67,7 +68,7 @@ _Bron: WVV art. 7:213 (NV); art. 5:141, 5:120 (BV)_
 
 ## Voorbeelden
 
-Aurelia Holding NV heeft in haar statuten de bevoegdheid van het bestuur tot interimdividend gedelegeerd. In september beslist het bestuur tot uitkering van € 200.000 interim, op basis van een tussentijdse balans (nettoactief € 1.800.000, bodem € 1.500.000). De interim slaagt voor de nettoactieftest (€ 200.000 < € 300.000 marge) en wordt geboekt als schuld in rubriek 471. _(Aurelia Holding NV)_ 🤖
+Aurelia Holding NV heeft in haar statuten de bevoegdheid van het bestuur tot interimdividend gedelegeerd. In september beslist het bestuur tot uitkering van € 200.000 interim, op basis van een tussentijdse balans (nettoactief € 1.800.000, bodem € 1.500.000). De interim slaagt voor de nettoactieftest (€ 200.000 < € 300.000 marge) en wordt geboekt als schuld in rubriek 471. _(Aurelia Holding NV)_ 🔗
 
 ## Bronnen
 

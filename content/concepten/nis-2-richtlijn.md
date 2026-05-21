@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/nis-2-richtlijn.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# NIS 2-richtlijn (cybersecurity-kader) 🤖
+# NIS 2-richtlijn (cybersecurity-kader) 🔗
 
 De NIS 2-richtlijn is het nieuwe Europese kader voor cybersecurity-verplichtingen van organisaties in kritieke en belangrijke sectoren. Voor stagiair-accountants is dit relevant in twee rollen: als adviseur van cliënten die onder NIS 2 vallen (toetsen of cyberbeheersing op orde is), en als externe auditor (cyberrisico's en IT-controles als onderdeel van risk assessment, ISA 315). De richtlijn vervangt NIS 1 (2016) en breidt het toepassingsgebied fors uit. In België is de richtlijn omgezet door de Wet van 26 april 2024.
 
@@ -28,6 +28,7 @@ De NIS 2-richtlijn is het nieuwe Europese kader voor cybersecurity-verplichtinge
 Richtlijn (EU) 2022/2555 ('NIS 2') verplicht organisaties die onder haar toepassingsgebied vallen om risicogebaseerde cybersecurity-maatregelen te treffen, ernstige incidenten te melden aan de bevoegde autoriteit, en hun bestuursorgaan persoonlijk verantwoordelijk te maken voor cybersecurity-governance. In België is de richtlijn omgezet bij Wet van 26 april 2024; toezichthouder is het Centrum voor Cybersecurity België (CCB).
 
 _Bron: Richtlijn (EU) 2022/2555 + Wet 26 april 2024 (BE-omzetting)_
+
 
 
 ## In de praktijk

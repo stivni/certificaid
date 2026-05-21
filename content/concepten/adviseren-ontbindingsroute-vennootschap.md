@@ -15,11 +15,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/adviseren-ontbindingsroute-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Adviseren over de ontbindingsroute van een vennootschap (vrijwillig, gerechtelijk, één-akte, klassiek) 🤖
+# Adviseren over de ontbindingsroute van een vennootschap (vrijwillig, gerechtelijk, één-akte, klassiek) 🔗
 
 Adviesopdracht waarbij de gecertificeerd accountant met de cliënt-aandeelhouder de meest passende route kiest voor het beëindigen van een vennootschap: vrijwillige ontbinding (via algemene vergadering) of gerechtelijke ontbinding (rechtbank), en binnen vrijwillige ontbinding de keuze tussen klassieke vereffening (vereffenaar aangesteld, procedure-traject) of vereffening in één akte (art. 2:80 WVV — versnelde route bij eenvoudig saldo). De keuze heeft fiscale, kostprijs- en doorlooptijdgevolgen.
+
 
 
 ## In de praktijk

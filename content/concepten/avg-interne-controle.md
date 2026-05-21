@@ -16,7 +16,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/avg-interne-controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # AVG/GDPR in IC-context ⚖️
 
@@ -28,6 +28,7 @@ gegenereerd_op: '2026-05-18'
 De Algemene Verordening Gegevensbescherming (AVG/GDPR, Verordening (EU) 2016/679) + Wet 30 juli 2018 verplichten elke onderneming die persoonsgegevens verwerkt om passende technische en organisatorische maatregelen (TOM) te nemen voor de bescherming van die gegevens. Voor IC: privacy-gerelateerde controles vormen een eigen domein dat samenvalt met IT-general-controls (toegangsbeheer, encryptie, audit trails) en HR-gerelateerde procedures.
 
 _Bron: AVG art. 32 + Wet 30 juli 2018 art. 239_
+
 
 
 ## In de praktijk
@@ -51,7 +52,7 @@ _Bron: AVG art. 32 + Wet 30 juli 2018 art. 239_
 ## Zie ook
 
 - **Vereist kennis van**: [[geinformatiseerde-omgeving-ic]]
-- **Wordt voorondersteld in** (3): [[cyberrisico-ic]] · [[geinformatiseerde-omgeving-ic]] · [[hr-cyclus-ic]]
+- **Wordt voorondersteld in** (4): [[cyberrisico-ic]] · [[geinformatiseerde-omgeving-ic]] · [[hr-cyclus-ic]] · [[wettelijk-kader-ic]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV verwerkt HR persoonsgegevens (loongegevens, evaluaties, ziekteverzuim). AVG vereist: register van verwerkingsactiviteiten, toegangsbeperking (alleen HR en CFO), versleuteling bij transport, retentie-policy (max bewaartermijn), informatieplicht aan werknemer, antwoord op inzageverzoek binnen één maand.

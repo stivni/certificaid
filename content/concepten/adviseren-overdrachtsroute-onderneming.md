@@ -16,11 +16,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/adviseren-overdrachtsroute-onderneming.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Adviseren over de overdrachtsroute van een onderneming (asset deal, share deal, fusie, splitsing) 🤖
+# Adviseren over de overdrachtsroute van een onderneming (asset deal, share deal, fusie, splitsing) 🔗
 
 Vroegtijdige adviesopdracht waarbij de gecertificeerd accountant samen met de cliënt (verkoper of koper) de meest passende juridische en fiscale route kiest voor het overdragen van een onderneming: aandelen (share deal), activa (asset deal), of een vennootschapsrechtelijke herstructurering (fusie, splitsing, partiële splitsing, inbreng van bedrijfstak of algemeenheid uit Boek 12 WVV). De keuze stuurt aansprakelijkheid, fiscale impact en transactiekosten.
+
 
 
 ## In de praktijk

@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opvolging-verrichtingen-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Opvolging van verrichtingen 🤖
+# Opvolging van verrichtingen 🔗
 
 Opvolging van verrichtingen is de praktische uitwerking van detectieve IC: structureel nakijken of geboekte transacties echt hebben plaatsgevonden, juist zijn geregistreerd en in de juiste periode. Het is een werkpaard van monitoring (COSO-component 5) en levert tegelijk evidence waarop de externe auditor kan steunen (ISA 330 §4(a)). Voor de stagiair gaat het om de concrete technieken — bank-grootboek-afstemming, debiteurenbevestiging, voorraadtelling, cijferanalyses — en de organisatorische conditie: uitvoerder ≠ reviewer (functiescheiding op IC-zelf). Bij KMO neemt de externe accountant deze rol vaak gedeeltelijk over (ITAA-norm-kmo-controlenorm §97).
 
@@ -26,6 +26,7 @@ Opvolging van verrichtingen is de praktische uitwerking van detectieve IC: struc
 > [!info] Behoort tot: [[monitoring-interne-controle]]
 
 Opvolging van verrichtingen is het systematisch nakijken of geboekte transacties echt hebben plaatsgevonden, juist zijn geregistreerd en in de juiste periode geboekt. Het is detectieve IC — fouten en fraude ontdekken na de feiten. Concrete technieken: bank-grootboek-afstemming, debiteuren/crediteuren-leeftijdsanalyse en bevestiging, voorraadtelling, cijferanalyses (trends, ratio's, uitzonderingsoverzichten). Vormt onderdeel van COSO-component 5 (monitoring) en levert evidence waarop ISA 330 §4(a) leunt.
+
 
 
 ## Bouwstenen
@@ -87,12 +88,12 @@ _Grondslag: ISA 520 (cijferanalyses) + ISA 240 §32-§33 (journaalpost-testing)_
 <h3 id="frequentie-hangt-af-van-risico">Frequentie hangt af van risico</h3>
 
 > [!tip]- Frequentie hangt af van risico
-> Hoog-risico-stromen (kas, bank, materiaalvoorraad): maandelijks of zelfs wekelijks. Middel-risico (debiteuren, crediteuren): maandelijks. Laag-risico (immateriële activa): kwartaal of jaarlijks. Frequentie documenteren in IC-handboek. 🤖
+> Hoog-risico-stromen (kas, bank, materiaalvoorraad): maandelijks of zelfs wekelijks. Middel-risico (debiteuren, crediteuren): maandelijks. Laag-risico (immateriële activa): kwartaal of jaarlijks. Frequentie documenteren in IC-handboek. 🔗
 
 <h3 id="functiescheiding-op-de-opvolging-zelf">Functiescheiding op de opvolging zelf</h3>
 
 > [!tip]- Functiescheiding op de opvolging zelf
-> De persoon die de opvolging doet mag niet dezelfde zijn als degene die de transactie boekte of het bezit beheert. Anders dekt hij eigen fouten of fraude toe. Bij KMO: externe accountant of zaakvoerder neemt vaak de reviewer-rol. 🤖
+> De persoon die de opvolging doet mag niet dezelfde zijn als degene die de transactie boekte of het bezit beheert. Anders dekt hij eigen fouten of fraude toe. Bij KMO: externe accountant of zaakvoerder neemt vaak de reviewer-rol. 🔗
 
 
 ## Valkuilen
@@ -110,7 +111,7 @@ _Grondslag: ISA 520 (cijferanalyses) + ISA 240 §32-§33 (journaalpost-testing)_
 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Vereist kennis van**: [[beheersactiviteiten]]
-
+- **Wordt voorondersteld in** (1): [[uitvoering-interne-controle]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV doet boekhouder Cindy elke maand: (1) bank ↔ grootboek-afstemming (saldo's gelijk?), (2) debiteurenlijst per leeftijd (welke vorderingen > 60 dagen?), (3) voorraad spot-check (10 willekeurige artikelen), (4) cijferanalyse omzet/marge per kostencentrum. Afwijkingen meldt ze aan CFO David, die ze valideert en het rapport tekent.

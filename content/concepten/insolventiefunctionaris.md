@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/insolventiefunctionaris.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Insolventiefunctionaris ⚖️
 
@@ -26,9 +26,12 @@ De wetswijziging van 7 juni 2023 (in werking 1 september 2023) heeft de terminol
 
 > [!info] Behoort tot: [[insolventieprocedures-belgie]]
 
+> [!info] Bestaat uit (1): [[herstructureringsdeskundige]] · Specialisaties (2): [[curator-faillissement]] · [[vereffeningsdeskundige]]
+
 Overkoepelend begrip voor de natuurlijke personen die de insolventierechtbank aanstelt om als rechterlijk mandataris taken uit te voeren in een insolventieprocedure. Boek XX WER gebruikt sinds de hervorming van 2023 de verzamelterm **gerechtsmandataris** voor curator, gerechtelijk bewindvoerder, vereffeningsdeskundige (overdracht onder gerechtelijk gezag) en herstructureringsdeskundige. Een gerechtsmandataris staat ingeschreven op een lijst die de ondernemingsrechtbank bijhoudt; in praktijk zijn dit doorgaans advocaten gespecialiseerd in insolventie.
 
 _Bron: WER art. XX.13, XX.14_
+
 
 
 ## In de praktijk
@@ -46,13 +49,13 @@ _Bron: WER art. XX.13, XX.14_
 <h3 id="voor-de-accountant">Voor de accountant</h3>
 
 > [!tip]- Voor de accountant
-> Wanneer een cliënt failliet gaat, is de curator de tegenhanger voor alle communicatie over de boekhouding. Wanneer een cliënt een gerechtelijke reorganisatie aanvraagt: de gerechtsmandataris (vaak een gerechtelijk bewindvoerder of vereffeningsdeskundige) coördineert het herstel- of overdrachtstraject. Een accountant kan ook zelf optreden als medecurator bij faillissement van een beoefenaar van een vrij beroep. 🤖
+> Wanneer een cliënt failliet gaat, is de curator de tegenhanger voor alle communicatie over de boekhouding. Wanneer een cliënt een gerechtelijke reorganisatie aanvraagt: de gerechtsmandataris (vaak een gerechtelijk bewindvoerder of vereffeningsdeskundige) coördineert het herstel- of overdrachtstraject. Een accountant kan ook zelf optreden als medecurator bij faillissement van een beoefenaar van een vrij beroep. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Verwar de **insolventiefunctionaris** (gerechtelijk aangesteld in een procedure) niet met de **ondernemingsbemiddelaar** of de **gedelegeerd rechter / rechter-commissaris**. Insolventiefunctionarissen zijn buitenstaanders (advocaten/professionals); gedelegeerd rechter en rechter-commissaris zijn magistraten die toezicht houden.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

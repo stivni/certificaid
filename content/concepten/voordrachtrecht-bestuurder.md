@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voordrachtrecht-bestuurder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Voordrachtrecht voor bestuurszetel ⚖️
 
@@ -28,6 +28,7 @@ De wet vertrouwt de keuze van de bestuurders aan de algemene vergadering — bes
 Een **voordrachtrecht** is een clausule in de statuten of in een aandeelhoudersovereenkomst die aan een **specifieke aandeelhouder, groep van aandeelhouders of aandelenklasse** het recht toekent om voor één of meer **bestuursmandaten** **kandidaat-bestuurders** voor te dragen aan de algemene vergadering. De clausule werkt feitelijk als een **stemafspraak**: de andere aandeelhouders verbinden zich om enkel te stemmen voor de voorgedragen kandidaten. Het mechanisme heeft twee functies: (1) **vertegenwoordiging waarborgen** in de raad van bestuur en (2) via de aangewezen bestuurder **invloed** uitoefenen op de besluitvorming binnen de raad.
 
 _Bron: IBA Minority Shareholder Rights — Belgium 2022 §Voordracht kandidaat-bestuurders; IBA SHA-Guide 2024 §13-14_
+
 
 
 ## In de praktijk
@@ -56,11 +57,11 @@ _Bron: IBA Minority Shareholder Rights — Belgium 2022 §Voordracht kandidaat-b
 ## Valkuilen
 
 > [!warning]- Schrijf het voordrachtrecht **dubbelspoor** in: zowel in de statuten (gekoppeld aan een aandelenklasse — tegenwerpelijk aan derden) als in de SHA (vertrouwelijke voorwaarden zoals quorum en termijnen).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Eis dat de andere aandeelhouders zich expliciet verbinden om voor de voorgedragen kandidaten te stemmen, en koppel dat aan een **dwangsom**. Anders blijft de sanctie bij schending beperkt tot **schadevergoeding** ex post.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -80,7 +81,7 @@ Vacature ontstaat in de raad van bestuur (mandaatsbeëindiging of ontslag).
 Robert deelt binnen 14 dagen aan Aurelia twee kandidaten mee met cv en bevoegdheidsverklaring.
 Op de eerstvolgende algemene vergadering stemmen Robert en Aurelia conform de SHA voor één van de twee kandidaten.
 Indien Robert slechts één naam (of een schijnkandidaat) voorlegt: Aurelia kan het voordrachtrecht voor die vacature weigeren als rechtsmisbruik, en de raad-van-bestuur-default treedt in werking.
-🤖
+🔗
 
 
 

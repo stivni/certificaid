@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bepalen-behoefte-aan-bedrijfskapitaal.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Bepalen van de behoefte aan bedrijfskapitaal en de nettokas-positie 🤖
+# Bepalen van de behoefte aan bedrijfskapitaal en de nettokas-positie 🔗
 
 Operationele competentie: vanuit het herwerkt balansschema de behoefte aan bedrijfskapitaal (BBK) en het werkkapitaal (WK) berekenen, en uit het verschil de nettokas-positie afleiden. Resultaat is een diagnose van structurele liquiditeitsdruk en eventuele afhankelijkheid van kort krediet.
+
 
 
 ## Stappen

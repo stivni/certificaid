@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/invloed-van-betekenis.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Invloed van betekenis 🤖
+# Invloed van betekenis 🔗
 
 Een tussenpositie in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): macht om mee te beslissen zonder controle. Het begrip onderscheidt deelnemingen die equity-gemuteerd moeten worden van zuivere financiële beleggingen die op kostprijs blijven staan.
 
@@ -30,6 +30,7 @@ Een tussenpositie in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek
 De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beslissingen alleen of samen met anderen te kunnen sturen. Invloed van betekenis is het kwalificerende criterium voor een 'geassocieerde onderneming' (WVV art. 1:22): de moeder heeft een deelneming en spreekt mee over het beleid, maar oefent geen controle uit. Vanaf 20 % stemrechten geldt een weerlegbaar vermoeden van invloed van betekenis.
 
 _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
+
 
 
 ## In de praktijk
@@ -65,7 +66,7 @@ _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 ## Valkuilen
 
 > [!warning]- Het vermoeden bij ≥ 20 % is weerlegbaar
-> ⚠️ Het vermoeden bij ≥ 20 % is weerlegbaar. Kan de moeder bewijzen dat zij ondanks haar 20 %+ géén invloed van betekenis kan uitoefenen — bv. door statutaire beperkingen of door een dominante andere aandeelhouder die alle stemrechten effectief blokkeert — dan vervalt de kwalificatie als geassocieerde onderneming. 🤖
+> ⚠️ Het vermoeden bij ≥ 20 % is weerlegbaar. Kan de moeder bewijzen dat zij ondanks haar 20 %+ géén invloed van betekenis kan uitoefenen — bv. door statutaire beperkingen of door een dominante andere aandeelhouder die alle stemrechten effectief blokkeert — dan vervalt de kwalificatie als geassocieerde onderneming. 🔗
 >
 > _Bron: WVV art. 1:22, § 2_
 
@@ -75,7 +76,7 @@ _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 
 - **Getriggerd door**: [[geassocieerde-onderneming]]
 - **Getriggerd door**: [[vermogensmutatiemethode]]
-
+- **Wordt voorondersteld in** (1): [[geassocieerde-onderneming]]- **Triggert** (1): [[vermogensmutatiemethode]]
 ## Voorbeelden
 
 Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV en heeft een vertegenwoordiger in het bestuur. Geen controle (geen meerderheid, geen stemovereenkomst) → weerlegbaar vermoeden van invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → vermogensmutatie.

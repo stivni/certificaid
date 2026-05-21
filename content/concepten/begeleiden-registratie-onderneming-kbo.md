@@ -14,11 +14,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/begeleiden-registratie-onderneming-kbo.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Begeleiden van de registratie van een nieuwe onderneming (KBO, btw, UBO) 🤖
+# Begeleiden van de registratie van een nieuwe onderneming (KBO, btw, UBO) 🔗
 
 Operationele competentie: na de notariële akte de praktische registratie-stappen begeleiden waardoor de vennootschap volwaardig operationeel wordt — inschrijving in de Kruispuntbank van Ondernemingen (KBO), btw-identificatie, UBO-register, sociaal verzekeringsfonds en de bedrijfsvergunningen. Doel: vermijden dat de vennootschap factureert of activiteit ontplooit zonder de wettelijke registraties.
+
 
 
 ## In de praktijk

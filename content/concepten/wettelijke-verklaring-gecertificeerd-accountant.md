@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wettelijke-verklaring-gecertificeerd-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Wettelijke verklaring van de gecertificeerd accountant 🤖
+# Wettelijke verklaring van de gecertificeerd accountant 🔗
 
 De wettelijke verklaring van de gecertificeerd accountant (GA) is de verzamelterm voor de schriftelijke verslagen die de GA aflevert in opdrachten die hem door of krachtens de wet zijn toegewezen — buiten het commissaris-mandaat dat exclusief voor de bedrijfsrevisor is. Vorm-elementen worden gedeeld (oordeels-structuur, vier oordeelstypes), maar de wettelijke grondslag en het object verschillen per opdracht (effectenverrichting, inbreng in natura, omzetting, ontbinding-vereffening, fusie/splitsing). Het anchor 1.6.IV.B onderscheidt deze GA-verklaring nadrukkelijk van de certificering door de bedrijfsrevisor.
 
@@ -26,6 +26,7 @@ De wettelijke verklaring van de gecertificeerd accountant (GA) is de verzamelter
 Een wettelijke verklaring van de gecertificeerd accountant is een door of krachtens de wet voorgeschreven schriftelijke conclusie van een GA over een welomschreven boekhoudkundige aangelegenheid (jaarrekening voor niet-grote vennootschappen wanneer overeengekomen, staat van activa en passiva bij ontbinding, financiële gegevens bij een uitgifte van effecten, inbreng in natura, omzetting, fusie/splitsing, ...). De GA tekent persoonlijk (KB plichtenleer art. 18), bezorgt het verslag aan het ITAA voor confraternele controle (ITAA Algemene controlenorm §7) en kan een goedkeurend, voorbehouden, afkeurend of onthoudend oordeel formuleren (zelfde vier types als ISA 705).
 
 _Bron: Wet ITAA 2019 art. 3 + KB plichtenleer art. 18 + ITAA Algemene controlenorm §2 + §7_
+
 
 
 ## In de praktijk
@@ -61,7 +62,7 @@ _Bron: Wet ITAA 2019 art. 3 + KB plichtenleer art. 18 + ITAA Algemene controleno
 
 
 > [!warning]- De vier oordeelstypes (goedkeurend / voorbehoud / afkeurend / onthouding) gelden óók voor de wettelijke verklaring van de GA
-> ⚠️ De vier oordeelstypes (goedkeurend / voorbehoud / afkeurend / onthouding) gelden óók voor de wettelijke verklaring van de GA. Bij twijfel: kies bewust voor 'voorbehoud' of 'onthouding' — een goedkeurend oordeel met verborgen onzekerheid is een tuchtvergrijp. 🤖
+> ⚠️ De vier oordeelstypes (goedkeurend / voorbehoud / afkeurend / onthouding) gelden óók voor de wettelijke verklaring van de GA. Bij twijfel: kies bewust voor 'voorbehoud' of 'onthouding' — een goedkeurend oordeel met verborgen onzekerheid is een tuchtvergrijp. 🔗
 >
 > _Bron: ITAA-norm-ontbinding-vereffening §IV.1 + ITAA Algemene controlenorm §2_
 

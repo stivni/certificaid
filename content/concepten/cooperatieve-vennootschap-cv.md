@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/cooperatieve-vennootschap-cv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Coöperatieve vennootschap (CV) ⚖️
 
@@ -28,6 +28,7 @@ De CV is hervormd door het WVV 2019: ze is teruggebracht tot vennootschappen die
 De coöperatieve vennootschap heeft tot **voornaamste doel** aan de behoeften van haar aandeelhouders te voldoen en/of hun economische en sociale activiteiten te ontwikkelen, onder meer door met hen overeenkomsten te sluiten over de levering van goederen, het verrichten van diensten of de uitvoering van werken (WVV art. 6:1). Het is een rechtspersoon waarin de aandeelhouders slechts hun inbreng verbinden.
 
 _Bron: WVV art. 6:1_
+
 
 
 ## Bouwstenen
@@ -82,12 +83,12 @@ _Grondslag: WVV art. 8:5_
 <h3 id="wanneer-kies-je-voor-een-cv">Wanneer kies je voor een CV?</h3>
 
 > [!tip]- Wanneer kies je voor een CV?
-> Bedrijven met écht coöperatief doel: landbouwcoöperaties, energie-coöperaties (groene stroom), woningcoöperaties, werknemerscoöperaties. NIET meer voor 'gewone' KMO's die vroeger CVBA hadden — die werden in 2019 omgevormd naar BV. 🤖
+> Bedrijven met écht coöperatief doel: landbouwcoöperaties, energie-coöperaties (groene stroom), woningcoöperaties, werknemerscoöperaties. NIET meer voor 'gewone' KMO's die vroeger CVBA hadden — die werden in 2019 omgevormd naar BV. 🔗
 
 <h3 id="boekhoudkundig">Boekhoudkundig</h3>
 
 > [!tip]- Boekhoudkundig
-> Dubbele boekhouding verplicht, jaarrekening NBB. Bij variabel kapitaal: in- en uittredingen worden geboekt op aparte rubrieken van het eigen vermogen. De CV-erkenning-status (Nationale Raad voor de Coöperatie) moet vermeld worden indien aanwezig. 🤖
+> Dubbele boekhouding verplicht, jaarrekening NBB. Bij variabel kapitaal: in- en uittredingen worden geboekt op aparte rubrieken van het eigen vermogen. De CV-erkenning-status (Nationale Raad voor de Coöperatie) moet vermeld worden indien aanwezig. 🔗
 
 
 ## Valkuilen

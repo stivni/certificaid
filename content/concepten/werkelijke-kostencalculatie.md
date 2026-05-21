@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/werkelijke-kostencalculatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Werkelijke kostencalculatie (vastgestelde kosten) 🤖
+# Werkelijke kostencalculatie (vastgestelde kosten) 🔗
 
 Werkelijke kostencalculatie (synoniem: post-calculatie, vastgestelde kostencalculatie) berekent de kostprijs op basis van de werkelijk geboekte kosten, achteraf bekend uit de boekhouding. Tegenpool van voorbepaalde kostencalculatie (standaardkosten). Vereist een afgesloten boekhoudperiode vóór de kostprijs definitief is.
 
@@ -29,6 +29,7 @@ Werkelijke kostencalculatie (synoniem: post-calculatie, vastgestelde kostencalcu
 Werkelijke kostencalculatie (post-calculatie, vastgestelde kostencalculatie) berekent de kostprijs op basis van de werkelijk geboekte kosten — achteraf bekend uit de algemene boekhouding van de afgesloten periode. Tegenpool van voorbepaalde kostencalculatie (standaardkosten, vóóraf bepaald). Werkelijke kostencalculatie kan zowel met full costing als met direct costing gebeuren; het label slaat op de tijdsdimensie (achteraf), niet op de scope.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## Bouwstenen

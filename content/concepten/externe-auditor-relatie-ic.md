@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/externe-auditor-relatie-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Externe auditor en interne controle — relatie ⚖️
 
@@ -27,6 +27,7 @@ De externe auditor (commissaris, externe accountant met wettelijke controle-opdr
 De externe auditor (commissaris, externe accountant) controleert de jaarrekening voor derden en moet daartoe het IC-systeem van de cliënt begrijpen. Als hij op IC wil steunen, voert hij toetsingen uit (ITAA-norm-kmo-controlenorm §97). Sterke IC → minder substantieve werkzaamheden nodig → efficiënter audit-budget. Hij geeft ook feedback aan management over IC-tekortkomingen via 'management letter' (ISA 265).
 
 _Bron: ITAA-norm-kmo-controlenorm §97-§98 + ITAA-algemene-controlenorm §6_
+
 
 
 ## In de praktijk

@@ -17,9 +17,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/meldingsplicht-accountant-continuiteit.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Meldingsplicht accountant bij bedreigde continuïteit 🤖
+# Meldingsplicht accountant bij bedreigde continuïteit 🔗
 
 Een wettelijke uitzondering op het strafrechtelijk beroepsgeheim van accountancy- en revisorsberoepen. De wetgever vond dat beroepsbeoefenaars vaak als eersten zicht hebben op continuïteitsrisico's en wilde dat zij — na een gepaste interne stap — desnoods de ondernemingsrechtbank kunnen inlichten zonder strafrechtelijke aansprakelijkheid.
 
@@ -31,6 +31,7 @@ Een wettelijke uitzondering op het strafrechtelijk beroepsgeheim van accountancy
 De externe accountant, externe erkend boekhouder, externe erkend boekhouder-fiscalist en bedrijfsrevisor die in de uitoefening van hun opdracht **gewichtige en overeenstemmende feiten** vaststellen die de continuïteit van de economische activiteit van de schuldenaar in het gedrang kunnen brengen, **moeten** de schuldenaar (in voorkomend geval via zijn bestuursorgaan) hiervan schriftelijk en op omstandige wijze inlichten. Treft de schuldenaar binnen één maand na deze kennisgeving niet de nodige maatregelen om de continuïteit voor minstens twaalf maanden te waarborgen, dan **mag** de beoefenaar de voorzitter van de ondernemingsrechtbank schriftelijk inlichten. In dat geval is art. 458 Strafwetboek (beroepsgeheim) niet van toepassing.
 
 
+
 ## Voorwaarden / uitzonderingen
 
 - **Gewichtige en overeenstemmende feiten**: niet één geïsoleerd signaal, maar een patroon van objectieve indicatoren (cashflowverlies, kredietweigering, verlies grote klanten, achterstand RSZ/btw, negatief eigen vermogen). ⚖️
@@ -40,18 +41,18 @@ De externe accountant, externe erkend boekhouder, externe erkend boekhouder-fisc
 ## Valkuilen
 
 > [!warning]- De **eerste** stap — schriftelijke melding aan de cliënt — is verplicht; de **tweede** stap — melding aan de rechtbank — is een mogelijkheid, geen verplichting.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Documenteer beide stappen: aangetekende brief aan de cliënt (met ontvangstbevestiging) en, indien gemeld, ook de brief aan de voorzitter.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[continuiteitsbeginsel]]
-
+- **Wordt voorondersteld in** (1): [[vroegtijdige-waarschuwing-insolventie]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

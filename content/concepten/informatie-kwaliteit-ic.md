@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/informatie-kwaliteit-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Informatie en haar kwaliteitseisen 🤖
+# Informatie en haar kwaliteitseisen 🔗
 
 Informatiekwaliteit is in PO 1.7 de minimumvoorwaarde voor zinvolle managementbeslissing en betrouwbare rapportering. Voor de stagiair komt dit overal terug: ISA 500 stelt kwaliteitseisen aan audit-evidence; ISA 315 vereist dat hij beoordeelt of de cliënt-informatie betrouwbaar is; bij adviesopdrachten is dit waarom een KPI 'zonder bron' geen managementbeslissing kan dragen. Examen-vragen testen vooral de vijf criteria (relevant, betrouwbaar, tijdig, volledig, begrijpelijk) en hoe te toetsen.
 
@@ -28,9 +28,10 @@ Informatiekwaliteit is in PO 1.7 de minimumvoorwaarde voor zinvolle managementbe
 Informatie in IC-context is verwerkte data die geschikt is voor besluitvorming en rapportering. Voor bruikbaarheid moet ze voldoen aan kwaliteitseisen: (1) relevant — raakt de te nemen beslissing; (2) betrouwbaar — accuraat, neutraal, verifieerbaar; (3) tijdig — beschikbaar wanneer nodig; (4) volledig — geen kritieke ontbrekende elementen; (5) begrijpelijk — formaat past bij gebruiker.
 
 
+
 ## Bouwstenen
 
-### Vijf kwaliteitscriteria 🤖
+### Vijf kwaliteitscriteria 🔗
 
 (1) Relevant — raakt de beslissing. (2) Betrouwbaar — accuraat, neutraal, verifieerbaar. (3) Tijdig — op tijd voor de beslissing. (4) Volledig — geen kritieke elementen ontbreken. (5) Begrijpelijk — formaat past bij gebruiker.
 
@@ -41,7 +42,7 @@ Informatie in IC-context is verwerkte data die geschikt is voor besluitvorming e
 
 _Grondslag: ISA 315 Bijlage 3 §17 + algemene bedrijfsdoctrine_
 
-### Bron-traceerbaarheid 🤖
+### Bron-traceerbaarheid 🔗
 
 Voor elke beslissingscijfer moet de oorspronkelijke registratiebron achterhaalbaar zijn (audit trail).
 
@@ -69,10 +70,13 @@ _Grondslag: ISA 500 §6-§9_
 ## Valkuilen
 
 > [!warning]- Kwaliteit verwarren met volume: 'we hebben heel veel data' bewijst geen kwaliteit
-> ⚠️ Kwaliteit verwarren met volume: 'we hebben heel veel data' bewijst geen kwaliteit. Een rapport van 50 pagina's met onverifiabele cijfers is informatie-kwantiteit zonder kwaliteit. 🤖
+> ⚠️ Kwaliteit verwarren met volume: 'we hebben heel veel data' bewijst geen kwaliteit. Een rapport van 50 pagina's met onverifiabele cijfers is informatie-kwantiteit zonder kwaliteit. 🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[informatie-en-communicatie-ic]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV is een maandrapport drie weken te laat = niet tijdig → kan beslissingen niet sturen → niet bruikbaar voor IC. Als de gebruikte omzetgegevens steekproefachtig zijn en niet 100% van het boekjaar = niet volledig → vertekend beeld. Een rapport in technische jargon voor directie zonder financiële achtergrond = niet begrijpelijk → genegeerd.

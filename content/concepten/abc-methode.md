@@ -13,13 +13,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/abc-methode.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# ABC-methode (Activity Based Costing) 🤖
+# ABC-methode (Activity Based Costing) 🔗
 
 Activity Based Costing (ABC) verfijnt de kostentoewijzing door indirecte kosten niet via één algemene sleutel maar via meerdere activiteiten en cost drivers naar producten te verdelen. ABC herkent dat verschillende indirecte kosten verschillende oorzaken hebben (set-up versus productie-uren versus orderafhandeling) en wijst elke kost toe op basis van zijn eigen drijver. Resultaat: nauwkeuriger kostprijs, vooral voor producten met sterk verschillende complexiteit of seriegrootte.
 
 > [!info] Behoort tot: [[costing-methodes-vergelijking]] · Specialisatie van: [[volledige-kostencalculatie]]
+
 
 
 ## Bouwstenen
@@ -113,4 +114,4 @@ Yperse: order grootwarenhuis (5.000 tapijten, 1 omstelling, 1 verzending) → ov
 ## Zie ook
 
 - **Vereist kennis van**: [[verdeelsleutel]]
-
+- **Triggert** (2): [[indirecte-kosten]] · [[verdeelsleutel]]

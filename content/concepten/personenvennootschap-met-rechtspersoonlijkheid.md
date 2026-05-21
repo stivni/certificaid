@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/personenvennootschap-met-rechtspersoonlijkheid.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Personenvennootschappen met rechtspersoonlijkheid (VOF en CommV) ⚖️
 
@@ -28,6 +28,7 @@ VOF en CommV zijn de **kleinere zus van de maatschap** die wel rechtspersoonlijk
 De **VOF** (vennootschap onder firma) is een vennootschap met rechtspersoonlijkheid waarin alle vennoten onbeperkt en hoofdelijk aansprakelijk zijn voor de schulden. De **CommV** (commanditaire vennootschap) heeft twee soorten vennoten: gecommanditeerde (= beherende) vennoten met onbeperkte en hoofdelijke aansprakelijkheid, en commanditaire vennoten die zich beperken tot inbreng en niet aan het beheer deelnemen (WVV art. 4:22).
 
 _Bron: WVV art. 4:22, 1:5 §2_
+
 
 
 ## Bouwstenen
@@ -71,7 +72,7 @@ _Grondslag: WVV art. 3:9_
 <h3 id="wanneer-kies-je-een-vof-of-commv">Wanneer kies je een VOF of CommV?</h3>
 
 > [!tip]- Wanneer kies je een VOF of CommV?
-> VOF zelden bewust nog gekozen sinds 2019: de BV biedt vergelijkbare flexibiliteit zonder onbeperkte aansprakelijkheid. CommV blijft relevant in twee gevallen: (1) **managementvennootschappen** (advocaten, accountants) die de structuur 'actieve vennoot + passieve familieleden' willen aanhouden, (2) **familiale holdingstructuren** waar een ouder als gecommanditeerd vennoot de leiding houdt en kinderen als commanditairen instappen. 🤖
+> VOF zelden bewust nog gekozen sinds 2019: de BV biedt vergelijkbare flexibiliteit zonder onbeperkte aansprakelijkheid. CommV blijft relevant in twee gevallen: (1) **managementvennootschappen** (advocaten, accountants) die de structuur 'actieve vennoot + passieve familieleden' willen aanhouden, (2) **familiale holdingstructuren** waar een ouder als gecommanditeerd vennoot de leiding houdt en kinderen als commanditairen instappen. 🔗
 
 
 > [!info]- Niet verwarren met [[]]

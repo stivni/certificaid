@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/tijdelijke-handelsvennootschap-thv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Tijdelijke handelsvennootschap (THV) ⚖️
 
@@ -29,6 +29,7 @@ De THV is geen aparte rechtsvorm onder het WVV 2019 maar een **toepassing van de
 Een **tijdelijke handelsvennootschap** is een maatschap (vennootschap zonder rechtspersoonlijkheid) opgericht om één of meer bepaalde verrichtingen tot doel te hebben en op te houden zodra die verrichting is uitgevoerd. Onder het WVV 2019 wordt de THV niet langer als afzonderlijke vorm benoemd: ze valt terug op de algemene maatschap (WVV art. 4:1). De stille handelsvennootschap is haar verborgen variant — ze handelt via een lasthebber die in eigen naam optreedt voor rekening van de vennootschap.
 
 _Bron: WVV art. 4:1 + CBN-advies 3/3_
+
 
 
 ## Bouwstenen
@@ -54,7 +55,7 @@ Omdat de THV een maatschap is, heeft zij geen rechtspersoonlijkheid: zij heeft g
 
 **In de praktijk**: Voor de stagiair: bij twee BV-partners in een THV worden de winsten via WIB92 art. 29 toegerekend aan elke BV pro rata haar aandeel; de THV zelf dient geen aangifte vennootschapsbelasting in.
 
-Industria Antwerpen NV en Jachthaven Jezus-Eik NV richten een THV op voor de bouw van een jachthaven-uitbreiding (gunningsbedrag € 12.000.000, looptijd 18 maanden). De THV heeft geen KBO-nummer als rechtspersoon; beide partners boeken hun pro-rata-aandeel in opbrengsten en kosten in eigen jaarrekening. _(Industria Antwerpen NV, Jachthaven Jezus-Eik NV)_ 🤖
+Industria Antwerpen NV en Jachthaven Jezus-Eik NV richten een THV op voor de bouw van een jachthaven-uitbreiding (gunningsbedrag € 12.000.000, looptijd 18 maanden). De THV heeft geen KBO-nummer als rechtspersoon; beide partners boeken hun pro-rata-aandeel in opbrengsten en kosten in eigen jaarrekening. _(Industria Antwerpen NV, Jachthaven Jezus-Eik NV)_ 🔗
 
 _Grondslag: WVV art. 1:5 § 1, WIB92 art. 29_
 
@@ -104,11 +105,11 @@ _Grondslag: MvT WVV bij art. 1:2 (historische context), WVV art. 4:1_
 ## Valkuilen
 
 > [!warning]- Behandel de THV niet als een blijvende vennootschap: na afronding van de verrichting eindigt zij van rechtswege.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Vermeld de onbeperkt aansprakelijke deelname in de toelichting van de partner-jaarrekening (CBN 2017/16).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

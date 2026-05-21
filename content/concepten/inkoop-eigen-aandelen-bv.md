@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/inkoop-eigen-aandelen-bv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Inkoop van eigen aandelen door de BV ⚖️
 
@@ -28,6 +28,7 @@ Voor de BV gelden grotendeels dezelfde principes als voor de NV, maar de afwezig
 **Verwerving door de BV van haar eigen aandelen of certificaten** — gelijkgesteld met een uitkering en onderworpen aan dezelfde dubbele uitkeringstest (nettoactief + liquiditeit) die geldt voor elk dividend. Beslissing door de algemene vergadering met statutenwijzigingsmeerderheid, met machtiging aan het bestuursorgaan voor maximumprijs, aantal en termijn.
 
 _Bron: WVV art. 5:145-5:150_
+
 
 
 ## Bouwstenen
@@ -80,7 +81,7 @@ _Grondslag: WVV art. 5:149_
 ## Valkuilen
 
 > [!warning]- Vergeet bij een BV-inkoop niet de **liquiditeitstest** — de inkoop is een uitkering en de twee testen zijn cumulatief. Een geslaagde nettoactieftest is niet voldoende.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -92,7 +93,7 @@ _Grondslag: WVV art. 5:149_
 
 ## Voorbeelden
 
-Brugse Brouwerij BV koopt aandelen terug van een uitstappende aandeelhouder voor € 75.000. Bestuursorgaan stelt liquiditeitsverslag op (test slaagt). Boekhoudkundig: bank − € 75.000, eigen aandelen + € 75.000 op activa, gelijktijdig onbeschikbare reserve + € 75.000 op eigen vermogen. _(Brugse Brouwerij BV)_ 🤖
+Brugse Brouwerij BV koopt aandelen terug van een uitstappende aandeelhouder voor € 75.000. Bestuursorgaan stelt liquiditeitsverslag op (test slaagt). Boekhoudkundig: bank − € 75.000, eigen aandelen + € 75.000 op activa, gelijktijdig onbeschikbare reserve + € 75.000 op eigen vermogen. _(Brugse Brouwerij BV)_ 🔗
 
 ## Bronnen
 

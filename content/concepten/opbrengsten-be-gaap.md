@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opbrengsten-be-gaap.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Opbrengsten onder BE GAAP (realisatiebeginsel) ⚖️
 
@@ -26,6 +26,7 @@ Het realisatiebeginsel is de Belgische tegenhanger van het IFRS-15-vijfstappenmo
 Onder Belgisch boekhoudrecht worden opbrengsten erkend volgens het **realisatiebeginsel**: een opbrengst wordt geboekt zodra ze gerealiseerd is, dat wil zeggen wanneer de levering of dienstverrichting is voltrokken en de tegenprestatie redelijk zeker is. Dit principe sluit aan bij de algemene voorzichtigheidsregel — opbrengsten worden niet vooruitgenomen, kosten wel.
 
 _Bron: KB WVV art. 3:11 + art. 3:46_
+
 
 
 ## Bouwstenen
@@ -63,7 +64,7 @@ Vooruitontvangen bedragen voor toekomstige prestaties worden op de balans-passie
 
 _Grondslag: KB WVV art. 3:11; KB WVV bijlage 1 (rubriek 493)_
 
-### Geen specifiek vijf-stappen-protocol 🤖
+### Geen specifiek vijf-stappen-protocol 🔗
 
 Anders dan onder IFRS 15 schrijft BE GAAP geen gedetailleerd vijf-stappen-protocol voor (contract identificeren → prestatieverplichtingen identificeren → transactieprijs bepalen → toerekenen → erkennen bij voldoening). Het oordeel 'wanneer is gerealiseerd?' ligt bij het bestuur en de boekhouder, met algemene leidraad uit KB WVV en CBN-adviezen.
 
@@ -89,11 +90,11 @@ _Grondslag: KB WVV art. 3:11 (versus IFRS 15)_
 ## Valkuilen
 
 > [!warning]- Boek opbrengst op realisatiemoment, niet op factuur- of inningsdatum.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Toekomstige opbrengsten blijven op rekening 493 staan tot de prestatie geleverd is.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

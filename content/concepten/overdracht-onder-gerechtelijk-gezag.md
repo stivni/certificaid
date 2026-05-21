@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/overdracht-onder-gerechtelijk-gezag.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Overdracht onder gerechtelijk gezag ⚖️
 
@@ -28,6 +28,7 @@ Tot 2023 was de overdracht onder gerechtelijk gezag een variant van de gerechtel
 Insolventieprocedure waarbij de **ondernemingsrechtbank** beveelt dat het geheel of een gedeelte van de activiteiten van een onderneming in moeilijkheden wordt overgedragen aan een derde, met de bedoeling een **efficiënte vereffening** van de rechtspersoon te verzekeren met behoud van de continuïteit van de overgedragen activiteit. De rechtbank stelt daarvoor een **vereffeningsdeskundige** aan die de overdracht voorbereidt, kandidaten opspoort en het personeel informeert. De procedure is geregeld in Titel V/II van Boek XX WER (art. XX.84-XX.91).
 
 _Bron: WER art. XX.84-XX.91_
+
 
 
 ## Bouwstenen
@@ -89,12 +90,12 @@ _Grondslag: WER art. XX.84 §3_
 <h3 id="wanneer-kiezen-voor-dit-instrument">Wanneer kiezen voor dit instrument?</h3>
 
 > [!tip]- Wanneer kiezen voor dit instrument?
-> Wanneer de onderneming als entiteit niet meer levensvatbaar is (te zware schuldenlast, structurele verliezen) maar de **economische activiteit** wel commercieel interessant blijft voor een derde. Klassiek voorbeeld: een fabriek met goede klantenportefeuille maar onhoudbare schulden — een concurrent of investeerder neemt de productie-eenheid over zonder de schuldenlast. 🤖
+> Wanneer de onderneming als entiteit niet meer levensvatbaar is (te zware schuldenlast, structurele verliezen) maar de **economische activiteit** wel commercieel interessant blijft voor een derde. Klassiek voorbeeld: een fabriek met goede klantenportefeuille maar onhoudbare schulden — een concurrent of investeerder neemt de productie-eenheid over zonder de schuldenlast. 🔗
 
 <h3 id="rol-van-de-externe-accountant">Rol van de externe accountant</h3>
 
 > [!tip]- Rol van de externe accountant
-> Vóór de procedure: bijstaan bij het opstellen van het verzoekschrift en de financiële bijlagen (jaarrekening, lijst schuldeisers, prognose). Tijdens de procedure: documentatie aanleveren aan de vereffeningsdeskundige, due-diligence-pakket voor kandidaat-overnemers, in voorkomend geval de boekhoudkundige verwerking van de overdracht. 🤖
+> Vóór de procedure: bijstaan bij het opstellen van het verzoekschrift en de financiële bijlagen (jaarrekening, lijst schuldeisers, prognose). Tijdens de procedure: documentatie aanleveren aan de vereffeningsdeskundige, due-diligence-pakket voor kandidaat-overnemers, in voorkomend geval de boekhoudkundige verwerking van de overdracht. 🔗
 
 
 > [!info]- Niet verwarren met [[]]
@@ -111,11 +112,11 @@ _Grondslag: WER art. XX.84 §3_
 ## Valkuilen
 
 > [!warning]- **Vereffeningsdeskundige** ≠ **vereffenaar** (van de vennootschap). De vereffeningsdeskundige is een gerechtsmandataris in een insolventieprocedure (WER); een vereffenaar wordt aangesteld door de algemene vergadering bij ontbinding van een vennootschap (WVV art. 2:79-2:101).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Pas op voor de fiscale gevolgen bij de overnemer: een overdracht onder gerechtelijk gezag is geen overdracht van vrije wil; aansprakelijkheid voor fiscale en sociale schulden van de overdrager wordt door specifieke wetsbepalingen uitgesloten of beperkt — controleer de voorwaarden voor cliënten-overnemers.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -123,7 +124,7 @@ _Grondslag: WER art. XX.84 §3_
 
 - **Vereist kennis van**: [[vereffeningsdeskundige]]
 - **Vereist kennis van**: [[ondernemingsrechtbank-bevoegdheid-insolventie]]
-
+- **Wordt voorondersteld in** (1): [[insolventieprocedures-belgie]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/auditrisico-in-ic-context.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Auditrisico in IC-context ⚖️
 
@@ -28,6 +28,7 @@ Het auditrisicomodel (AR = IR × CR × DR) krijgt in IC-context een specifieke f
 Auditrisico is het risico dat de auditor een verkeerde controleverklaring afgeeft over een jaarrekening die in werkelijkheid materieel afwijkend is. Audit risico = Inherent risico × Intern beheersingsrisico × Detectierisico (zie [[auditrisicomodel]]). In de context van IC: hoe sterker het IC-systeem, hoe lager het intern beheersingsrisico, hoe minder substantief testwerk de auditor nodig heeft.
 
 _Bron: ITAA-norm-kmo-controlenorm Bijlage 1 + §97-§98_
+
 
 
 ## Bouwstenen
@@ -72,11 +73,11 @@ _Grondslag: ISA 315 (herzien-2019) §A33 + Schaalbaarheid_
 ## Valkuilen
 
 > [!warning]- CR ≠ IC
-> ⚠️ CR ≠ IC. CR is de risico-inschatting van de auditor; IC is de objectieve realiteit bij de cliënt. Een sterk IC verlaagt CR, maar een lage CR-inschatting is geen vervanging voor IC-werking — als IC tijdens het boekjaar verandert, moet CR opnieuw worden ingeschat. 🤖
+> ⚠️ CR ≠ IC. CR is de risico-inschatting van de auditor; IC is de objectieve realiteit bij de cliënt. Een sterk IC verlaagt CR, maar een lage CR-inschatting is geen vervanging voor IC-werking — als IC tijdens het boekjaar verandert, moet CR opnieuw worden ingeschat. 🔗
 
 
 > [!warning]- Ontdekkingsrisico (DR) staat los van IC — het is een eigenschap van de werkzaamheden van de auditor zelf
-> ⚠️ Ontdekkingsrisico (DR) staat los van IC — het is een eigenschap van de werkzaamheden van de auditor zelf. Een lager DR vergt méér en gerichtere substantieve werkzaamheden; IC kan DR niet beïnvloeden. 🤖
+> ⚠️ Ontdekkingsrisico (DR) staat los van IC — het is een eigenschap van de werkzaamheden van de auditor zelf. Een lager DR vergt méér en gerichtere substantieve werkzaamheden; IC kan DR niet beïnvloeden. 🔗
 
 
 

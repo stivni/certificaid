@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kapitaalverhoging-bv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bijkomende inbreng en uitgifte van aandelen bij de BV ⚖️
 
@@ -24,9 +24,12 @@ De besloten vennootschap (BV) kent **geen maatschappelijk kapitaal** meer sinds 
 
 > [!info] Behoort tot: [[besloten-vennootschap-bv]] · Specialisatie van: [[kapitaalwijziging]]
 
+> [!info] Bestaat uit (1): [[voorkeurrecht-aandeelhouder]]
+
 **Uitgifte van nieuwe aandelen of bijkomende inbreng** in een BV ter versterking van het eigen vermogen. Geen statutair kapitaalbedrag dat verhoogd wordt, maar wel een statutenwijziging wanneer de aandelenstructuur verandert (nieuwe aandelensoort, nieuwe aandeelhouder, gewijzigd aantal aandelen). Beslissing door de algemene vergadering, tenzij de statuten een delegatie aan het bestuursorgaan voorzien analoog aan het 'toegestaan kapitaal' bij de NV.
 
 _Bron: WVV art. 5:120 ev., art. 5:121_
+
 
 
 ## Bouwstenen
@@ -92,13 +95,13 @@ _Grondslag: WVV art. 5:8_
 <h3 id="wat-noteert-de-accountant-op-de-balans">Wat noteert de accountant op de balans?</h3>
 
 > [!tip]- Wat noteert de accountant op de balans?
-> Bijkomende inbreng wordt geboekt op rubriek 11 'Inbrengen' — uitgesplitst in 'beschikbaar' en (indien zo gekozen) 'statutair onbeschikbaar'. De rubriek 10 'Kapitaal' van vóór 2019 wordt bij de overstap omgezet naar 'Inbrengen — statutair onbeschikbaar' (wettelijk overgangsregime). 🤖
+> Bijkomende inbreng wordt geboekt op rubriek 11 'Inbrengen' — uitgesplitst in 'beschikbaar' en (indien zo gekozen) 'statutair onbeschikbaar'. De rubriek 10 'Kapitaal' van vóór 2019 wordt bij de overstap omgezet naar 'Inbrengen — statutair onbeschikbaar' (wettelijk overgangsregime). 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Schrijf en/of advieseer steeds **duidelijk in de notulen en in de statuten** of de bijkomende inbreng 'beschikbaar' of 'statutair onbeschikbaar' is. Zonder die keuze is de inbreng standaard beschikbaar en dus uitkeerbaar onder de nettoactieftest.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -106,7 +109,7 @@ _Grondslag: WVV art. 5:8_
 
 - **Vereist kennis van**: [[inbreng-vennootschap]]
 - **Vereist kennis van**: [[inbreng-in-natura-verslag]]
-
+- **Wordt voorondersteld in** (1): [[opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

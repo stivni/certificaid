@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bedrijfsvorderingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Bedrijfsvorderingen ⚖️
 
@@ -28,6 +28,7 @@ Bedrijfsvorderingen vormen samen met de voorraden de **operationele werkkapitaal
 **Vorderingen op derden** die voortkomen uit de gewone bedrijfsuitoefening (verkoop van goederen of diensten op krediet). Hoofdzakelijk **handelsdebiteuren** (rekening 400) plus te innen bedragen wegens leveringen of dienstprestaties. Op de balans gegroepeerd onder rubriek VII (vlottende activa, vorderingen op ten hoogste één jaar) en rubriek V (vorderingen op meer dan één jaar). Waardering: **nominale waarde** verminderd met geboekte **waardeverminderingen** in geval van onzekerheid over geheel of gedeeltelijke inbaarheid (KB WVV art. 3:46).
 
 _Bron: KB WVV art. 3:46_
+
 
 
 ## Bouwstenen
@@ -56,7 +57,7 @@ Klant X van Meubelzaak Mertens BV: vordering € 18.000, advocaat schat 70 % ver
 
 _Grondslag: KB WVV art. 3:46_
 
-### Definitief verlies: definitief afboeken 🤖
+### Definitief verlies: definitief afboeken 🔗
 
 Bij definitief verlies (faillissement met dividend 0, kwijtschelding) wordt de vordering definitief afgeboekt op rekening 642 'Niet-recurrente kosten op vlottende activa' of vergelijkbaar. De eerder geboekte waardevermindering wordt teruggenomen ter compensatie.
 
@@ -86,7 +87,7 @@ _Grondslag: CBN praktijk waardeverminderingen op verzekerde handelsvorderingen_
 <h3 id="hulpklantenrekening-analytische-opvolging">Hulpklantenrekening + analytische opvolging</h3>
 
 > [!tip]- Hulpklantenrekening + analytische opvolging
-> Per individuele klant wordt een hulpklantenrekening bijgehouden (de zogenoemde 'klantenfiche'). Het globaal-totaal van alle hulpklantenrekeningen moet gelijk zijn aan rekening 400 in de algemene boekhouding. Dit maakt aanmaning en inbaarheid-beoordeling per klant mogelijk. 🤖
+> Per individuele klant wordt een hulpklantenrekening bijgehouden (de zogenoemde 'klantenfiche'). Het globaal-totaal van alle hulpklantenrekeningen moet gelijk zijn aan rekening 400 in de algemene boekhouding. Dit maakt aanmaning en inbaarheid-beoordeling per klant mogelijk. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen: 'rekening 400 Handelsdebiteuren € 145.000' — dit is een totaalsaldo dat opgebouwd is uit individuele klantenfiches met elk hun eigen ouderdomsanalyse.
@@ -94,7 +95,7 @@ _Grondslag: CBN praktijk waardeverminderingen op verzekerde handelsvorderingen_
 <h3 id="ouderdomsbalans-als-basis-voor-waardevermindering">Ouderdomsbalans als basis voor waardevermindering</h3>
 
 > [!tip]- Ouderdomsbalans als basis voor waardevermindering
-> Bij afsluiting analyseert de boekhouder de openstaande vorderingen per ouderdomsbucket (< 30 d, 30-60 d, 60-90 d, > 90 d). Hoe ouder de vordering, hoe hoger het inbaarheidsrisico. Vaak gebruikt: vermoedelijke waardevermindering-percentages per bucket. 🤖
+> Bij afsluiting analyseert de boekhouder de openstaande vorderingen per ouderdomsbucket (< 30 d, 30-60 d, 60-90 d, > 90 d). Hoe ouder de vordering, hoe hoger het inbaarheidsrisico. Vaak gebruikt: vermoedelijke waardevermindering-percentages per bucket. 🔗
 
 
 > [!info]- Niet verwarren met [[vorderingen-meer-dan-1-jaar-aspect]]

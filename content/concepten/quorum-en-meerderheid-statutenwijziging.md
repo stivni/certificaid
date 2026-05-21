@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/quorum-en-meerderheid-statutenwijziging.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Quorum en meerderheid voor statutenwijziging ⚖️
 
@@ -28,6 +28,7 @@ Een statutenwijziging raakt het contract tussen vennootschap en aandeelhouders e
 Voor een statutenwijziging in BV, CV of NV gelden cumulatief: (a) de voorgestelde wijzigingen zijn nauwkeurig in de oproeping aangegeven; (b) de aanwezige of vertegenwoordigde aandeelhouders bezitten minstens de helft van de uitgegeven aandelen (BV/CV) of van het kapitaal (NV); (c) de wijziging wordt aangenomen met drie vierde van de uitgebrachte stemmen, waarbij onthoudingen niet meetellen in teller noch noemer. Voor wijziging van voorwerp of doelen wordt de meerderheid verzwaard tot vier vijfde. Bij gebrek aan aanwezigheidsquorum wordt een tweede vergadering bijeengeroepen die zonder quorum geldig beslist, mits dezelfde meerderheid.
 
 _Bron: WVV art. 5:100 (BV), 5:101 (voorwerpswijziging); 6:85, 6:86 (CV); 7:153, 7:154 (NV)_
+
 
 
 ## Drempelwaarden
@@ -55,6 +56,9 @@ _Bron: WVV art. 5:100 (BV), 5:101 (voorwerpswijziging); 6:85, 6:86 (CV); 7:153, 
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[buitengewone-algemene-vergadering]] · [[nietigverklaring-algemene-vergaderingsbesluit]]
 ## Voorbeelden
 
 ### Statutenwijziging Naaiatelier Ninove BV

@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/due-diligence-overname.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Due diligence bij overname 🤖
+# Due diligence bij overname 🔗
 
 Due diligence is het systematisch onderzoek dat een potentiële koper (en in auctions ook de verkoper) doet om de doelvennootschap of de over te dragen activa op risico's te screenen vóór de transactiedocumenten worden ondertekend. De bevindingen sturen de prijs, de verklaringen en waarborgen, de specifieke vrijwaringen en de keuze van opschortende voorwaarden. Voor de accountant is het de fase waarin financieel-fiscale risico's economisch geprijsd en juridisch ingedekt worden.
 
@@ -27,6 +27,7 @@ Due diligence is het systematisch onderzoek dat een potentiële koper (en in auc
 > [!info] Behoort tot: [[overnameovereenkomst]]
 
 Een due diligence is een gestructureerd, multidisciplinair onderzoek van de doelvennootschap of de over te dragen activa, waarbij koper (buy-side) of verkoper (vendor due diligence) de juridische, financiële, fiscale, commerciële, ESG en operationele situatie in kaart brengt om risico's te identificeren die de transactievoorwaarden en de prijs beïnvloeden.
+
 
 
 ## Bouwstenen
@@ -91,7 +92,7 @@ Bevindingen uit de due diligence sturen rechtstreeks: de prijs (correcties of ea
 
 _Grondslag: IBA-MA-Belgium-2022-EN §4.2_
 
-### Voor- en nadelen 🤖
+### Voor- en nadelen 🔗
 
 De due diligence biedt de koper inzicht in de risico's vóór ondertekening en levert de basis voor prijsbepaling, R&W en specifieke vrijwaringen. Tegelijk vraagt zij doorlooptijd, externe-adviseur-kosten en blokkeert zij andere alternatieven van de verkoper (exclusiviteit). Voor de verkoper biedt een vendor due diligence efficiëntie en grip op de boodschap, maar exposeert ook gevoelige informatie aan concurrent-bieders.
 
@@ -118,15 +119,15 @@ _Grondslag: IBA-MA-Belgium-2022-EN §3.1.1, §4.1, §4.2_
 ## Valkuilen
 
 > [!warning]- Documenteer welke informatie wel en niet werd opgenomen in de data room — disclosure-omvang bepaalt latere R&W-claims.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Splits de specifieke vrijwaringen voor gevonden risico's af van de algemene R&W — ze hebben typisch andere caps en termijnen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Onderzoek de target diepgaand op CAO 32bis-impact bij asset deals — automatische personeelsoverdracht kan een dealbreaker zijn.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -136,7 +137,7 @@ _Grondslag: IBA-MA-Belgium-2022-EN §3.1.1, §4.1, §4.2_
 - **Vereist kennis van**: [[indemnification-overname]]
 - **Vereist kennis van**: [[confidentiality-overname]]
 - **Vereist kennis van**: [[precontractuele-aansprakelijkheid-overname]]
-
+- **Wordt voorondersteld in** (7): [[adviseren-overdrachtsroute-onderneming]] · [[begeleiden-due-diligence-overname]] · [[closing-condities-precedent]] · [[letter-of-intent-overname]] · [[overnameovereenkomst]] · [[precontractuele-aansprakelijkheid-overname]] · [[purchase-price-mechanismen]]- **Triggert** (1): [[representations-and-warranties]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-analytische-balans.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van een analytische balans voor een vennootschap 🤖
+# Opstellen van een analytische balans voor een vennootschap 🔗
 
 Competentie om de officiële balans te herklasseren tot analytische balans: activa naar liquiditeitsgraad geordend, passiva naar opeisbaarheid. Deze herklassering is de basis voor élke ratioberekening — de officiële balans dient als juridisch document, de analytische balans als analyse-instrument.
+
 
 
 ## Stappen

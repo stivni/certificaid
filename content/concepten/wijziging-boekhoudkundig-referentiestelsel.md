@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/wijziging-boekhoudkundig-referentiestelsel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Wijziging van boekhoudkundig referentiestelsel naar BE GAAP (CBN 2022/08) ⚖️
 
@@ -27,6 +27,7 @@ gegenereerd_op: '2026-05-18'
 **CBN-advies 2022/08** behandelt de boekhoudkundige verwerking bij **wijziging van het boekhoudkundig referentiestelsel** wanneer een vennootschap, VZW, IVZW of stichting voor het eerst haar **statutaire jaarrekening** opstelt volgens het Belgisch boekhoudkundig referentiestelsel (BE GAAP) terwijl zij voordien een ander stelsel toepaste (typisch IFRS, maar het advies geldt voor elke overgang van een buitenlands stelsel naar BE GAAP). Het advies behandelt **uitsluitend de statutaire jaarrekening** — niet de geconsolideerde — en focust op **waarderingsverschillen** tussen het oude en het nieuwe stelsel, met bijzondere aandacht voor materiële vaste activa. De kern: het boekhoudkundig **continuïteitsbeginsel** blijft van toepassing — openingsbalans = eindbalans vorig boekjaar — maar de cijfers moeten **herwerkt** worden zodat de balans in lijn is met BE GAAP, en de vergelijkende cijfers van het voorafgaande boekjaar worden aangepast (concordantietabel in toelichting).
 
 _Bron: CBN 2022/08 — Inleiding + Standpunt van de Commissie_
+
 
 
 ## Bouwstenen
@@ -134,12 +135,12 @@ _Grondslag: CBN 2022/08 — Voorbeeld 2; KB WVV art. 3:13, art. 3:35 §1, art. 3
 <h3 id="werkstroom-in-vier-stappen">Werkstroom in vier stappen</h3>
 
 > [!tip]- Werkstroom in vier stappen
-> 1. **Inventariseer waarderingsverschillen** tussen oud stelsel en BE GAAP per balansrubriek (MVA, financiële vaste activa, geldbeleggingen, voorzieningen, leasingverplichtingen, ...). 2. **Pas continuïteitsbeginsel toe**, tenzij beide cumulatieve uitzonderingsvoorwaarden gelden. 3. **Herwerk** afwijkende posten via debet/credit op een EV-rekening naar keuze (rekening 10/11/132/133/14). 4. **Documenteer** in toelichting + concordantietabel voor het voorafgaande boekjaar. 🤖
+> 1. **Inventariseer waarderingsverschillen** tussen oud stelsel en BE GAAP per balansrubriek (MVA, financiële vaste activa, geldbeleggingen, voorzieningen, leasingverplichtingen, ...). 2. **Pas continuïteitsbeginsel toe**, tenzij beide cumulatieve uitzonderingsvoorwaarden gelden. 3. **Herwerk** afwijkende posten via debet/credit op een EV-rekening naar keuze (rekening 10/11/132/133/14). 4. **Documenteer** in toelichting + concordantietabel voor het voorafgaande boekjaar. 🔗
 
 <h3 id="signaal-in-clientdossier">Signaal in cliëntdossier</h3>
 
 > [!tip]- Signaal in cliëntdossier
-> Drie observaties wijzen op een mogelijk stelselwissel-naar-BE-GAAP: (1) een rubriek 28 of MVA die in de proefbalans hoger staat dan de fiscale aanschaffingswaarde + opvolgende investeringen, (2) een aandeelhoudersbesluit waarin de overstap naar BE GAAP wordt vastgelegd of een verlies van GVV-/banken-/verzekeraars-statuut, (3) een onverklaarde rubriek 12 *Herwaarderingsmeerwaarden* zonder onderliggende KB WVV art. 3:35 §1-verantwoording. Bij eender welke trigger: lees CBN 2022/08 erbij vóór de openingsbalans wordt opgesteld. 🤖
+> Drie observaties wijzen op een mogelijk stelselwissel-naar-BE-GAAP: (1) een rubriek 28 of MVA die in de proefbalans hoger staat dan de fiscale aanschaffingswaarde + opvolgende investeringen, (2) een aandeelhoudersbesluit waarin de overstap naar BE GAAP wordt vastgelegd of een verlies van GVV-/banken-/verzekeraars-statuut, (3) een onverklaarde rubriek 12 *Herwaarderingsmeerwaarden* zonder onderliggende KB WVV art. 3:35 §1-verantwoording. Bij eender welke trigger: lees CBN 2022/08 erbij vóór de openingsbalans wordt opgesteld. 🔗
 
 
 > [!info]- Niet verwarren met [[ifrs-eerste-toepassing]]

@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/getrouw-beeld-controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Getrouw beeld als controlecriterium ⚖️
 
@@ -27,6 +27,7 @@ Getrouw beeld is hét toetsingscriterium dat de externe accountant of revisor to
 Het getrouw beeld is het centrale beoordelingscriterium van de auditor: hij toetst of de financiële overzichten — in alle van materieel belang zijnde opzichten — een getrouw beeld geven van het vermogen, de financiële toestand en het resultaat van de onderneming, overeenkomstig het van toepassing zijnde stelsel inzake financiële verslaggeving.
 
 _Bron: KB WVV art. 3:1 + ITAA KMO-controlenorm §117_
+
 
 
 ## In de praktijk

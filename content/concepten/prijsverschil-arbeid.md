@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/prijsverschil-arbeid.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Tariefverschil en efficiëntieverschil bij arbeid 🤖
+# Tariefverschil en efficiëntieverschil bij arbeid 🔗
 
 Tariefverschil en efficiëntieverschil zijn de twee componenten van het arbeidskosten-verschil in een standaardkostencalculatie. Het totale verschil tussen werkelijke en standaard arbeidskost wordt gesplitst in (1) een tariefcomponent — werkelijk uurtarief versus standaard, gevolg van HR-/loonbeleid — en (2) een efficiëntiecomponent — gebruikte uren versus norm-uren, gevolg van productie-efficiëntie. Deze splitsing is de basis van verschillenboekhouding bij arbeid en wijst aan wélke factor sturing nodig heeft.
 
@@ -28,6 +28,7 @@ Tariefverschil en efficiëntieverschil zijn de twee componenten van het arbeidsk
 Bij arbeidskosten wordt het totaal verschil tussen werkelijke en standaard arbeidskost gesplitst in: tariefverschil = werkelijke uren × (werkelijk uurtarief − standaard uurtarief) en efficiëntieverschil = (werkelijke uren − standaarduren) × standaard uurtarief. Tariefverschil wijst op HR-/loon-oorzaak; efficiëntieverschil op productie-snelheid.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## Berekening

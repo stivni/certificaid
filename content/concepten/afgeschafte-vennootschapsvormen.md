@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/afgeschafte-vennootschapsvormen.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Afgeschafte vennootschapsvormen onder WVV 2019 ⚖️
 
@@ -28,6 +28,7 @@ Vier vormen werden afgeschaft door het WVV 2019 (art. 1:5 + MvT bij art. 1:2): d
 _Bron: MvT WVV art. 1:2_
 
 
+
 ## In de praktijk
 
 <h3 id="waarom-afgeschaft">Waarom afgeschaft?</h3>
@@ -38,7 +39,7 @@ _Bron: MvT WVV art. 1:2_
 <h3 id="overgangsregime">Overgangsregime</h3>
 
 > [!tip]- Overgangsregime
-> De WVV-overgangswet voorzag dat bestaande CVOA, Comm.VA, LV en ESV automatisch werden omgevormd naar een nabije nieuwe vorm (BV of CV of maatschap) na een uiterste datum (oorspronkelijk 1 januari 2024). Bij examen-vragen die feiten beschrijven uit vóór 2019: de oude vorm is correct; vragen die op 'huidige situatie' wijzen: hercoderen. 🤖
+> De WVV-overgangswet voorzag dat bestaande CVOA, Comm.VA, LV en ESV automatisch werden omgevormd naar een nabije nieuwe vorm (BV of CV of maatschap) na een uiterste datum (oorspronkelijk 1 januari 2024). Bij examen-vragen die feiten beschrijven uit vóór 2019: de oude vorm is correct; vragen die op 'huidige situatie' wijzen: hercoderen. 🔗
 
 
 ## Valkuilen

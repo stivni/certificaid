@@ -9,6 +9,16 @@
       "env": {
         "PYTHONUNBUFFERED": "1"
       }
+    },
+    "certificaid-tarieven": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "tools.tarieven.mcp_server.server"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
     }
   }
 }

@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/quasi-inbreng-verslag.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Verslag bij quasi-inbreng ⚖️
 
@@ -32,6 +32,7 @@ Het verslag bij quasi-inbreng is een wettelijk voorbehouden opdracht waarbij een
 _Bron: WVV art. 7:8-7:10; MvT art. 5:7 (afschaffing BV-regeling)_
 
 
+
 ## Bouwstenen
 
 ### Drempel-test NV (drie cumulatieve voorwaarden) ⚖️
@@ -45,7 +46,7 @@ Quasi-inbreng-verslag is enkel vereist als alle drie de drempels samen vervuld z
 
 _Grondslag: WVV art. 7:8 (drempels) + art. 7:9 (uitzonderingen)_
 
-### Werkprogramma identiek aan inbreng in natura 🤖
+### Werkprogramma identiek aan inbreng in natura 🔗
 
 Inhoudelijk volgt het verslag dezelfde stappen als bij inbreng in natura: identificatie, waarderingsmethode, redelijkheidstoets, conclusie over tegenprestatie versus waarde van het goed. Verschil zit in het juridisch moment, niet in de werkzaamheden.
 
@@ -99,7 +100,7 @@ _Grondslag: MvT art. 5:7; WVV art. 5:76-5:78 (belangenconflicten BV)_
 ## Valkuilen
 
 > [!warning]- De 2-jaar-termijn loopt vanaf de **verkrijging van de rechtspersoonlijkheid** (oprichting + neerlegging), niet vanaf de benoeming van de bes…
-> ⚠️ De 2-jaar-termijn loopt vanaf de **verkrijging van de rechtspersoonlijkheid** (oprichting + neerlegging), niet vanaf de benoeming van de bestuurder. Een bestuurder die na 18 maanden wordt benoemd en in maand 22 een goed verkoopt aan de vennootschap, valt nog steeds onder de quasi-inbreng-regels. 🤖
+> ⚠️ De 2-jaar-termijn loopt vanaf de **verkrijging van de rechtspersoonlijkheid** (oprichting + neerlegging), niet vanaf de benoeming van de bestuurder. Een bestuurder die na 18 maanden wordt benoemd en in maand 22 een goed verkoopt aan de vennootschap, valt nog steeds onder de quasi-inbreng-regels. 🔗
 >
 > _Bron: WVV art. 5:8 §1_
 
@@ -117,10 +118,13 @@ _Grondslag: MvT art. 5:7; WVV art. 5:76-5:78 (belangenconflicten BV)_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[opstellen-overname-verslaggeving-accountant]]
 ## Voorbeelden
 
-Antwerpse Investments NV werd opgericht in januari 2025 met een geplaatst kapitaal van € 500.000 (drempel 10 % = € 50.000). In oktober 2026 wil de vennootschap een vastgoed kopen van bestuurder Pieter Vermeulen voor € 75.000. Drempel-test: (1) binnen 2 jaar? ja (oktober 2026 < januari 2027); (2) oprichter/bestuurder? ja; (3) bedrag ≥ 10 % kapitaal? € 75.000 > € 50.000 → ja. Quasi-inbreng-verslag is vereist. De commissaris (of een door het bestuur aangewezen bedrijfsrevisor indien er geen commissaris is) toetst de waardering van het vastgoed (expert-rapport € 78.000) en concludeert dat de aankoopprijs van € 75.000 marktconform is en de vennootschap niet benadeelt. _(Antwerpse Investments NV)_ 🤖
-Brugse Brouwerij BV wil in november 2026 een bestelwagen kopen van haar bestuurder voor € 35.000. Anders dan in de NV is hier **geen quasi-inbreng-verslag vereist** — de regeling bestaat niet in de BV. Wel moet de belangenconflictenprocedure van art. 5:76 worden gevolgd: de betrokken bestuurder onthoudt zich van beraadslaging en stemming, het bestuur licht het belangenconflict toe in de notulen, en de verrichting wordt vermeld in het bestuursverslag (of bij een eenpersoons-BV in de AV-notulen). Dezelfde transactie in een NV zou — afhankelijk van het kapitaal — wel of niet een quasi-inbreng-verslag triggeren. _(Brugse Brouwerij BV)_ 🤖
+Antwerpse Investments NV werd opgericht in januari 2025 met een geplaatst kapitaal van € 500.000 (drempel 10 % = € 50.000). In oktober 2026 wil de vennootschap een vastgoed kopen van bestuurder Pieter Vermeulen voor € 75.000. Drempel-test: (1) binnen 2 jaar? ja (oktober 2026 < januari 2027); (2) oprichter/bestuurder? ja; (3) bedrag ≥ 10 % kapitaal? € 75.000 > € 50.000 → ja. Quasi-inbreng-verslag is vereist. De commissaris (of een door het bestuur aangewezen bedrijfsrevisor indien er geen commissaris is) toetst de waardering van het vastgoed (expert-rapport € 78.000) en concludeert dat de aankoopprijs van € 75.000 marktconform is en de vennootschap niet benadeelt. _(Antwerpse Investments NV)_ 🔗
+Brugse Brouwerij BV wil in november 2026 een bestelwagen kopen van haar bestuurder voor € 35.000. Anders dan in de NV is hier **geen quasi-inbreng-verslag vereist** — de regeling bestaat niet in de BV. Wel moet de belangenconflictenprocedure van art. 5:76 worden gevolgd: de betrokken bestuurder onthoudt zich van beraadslaging en stemming, het bestuur licht het belangenconflict toe in de notulen, en de verrichting wordt vermeld in het bestuursverslag (of bij een eenpersoons-BV in de AV-notulen). Dezelfde transactie in een NV zou — afhankelijk van het kapitaal — wel of niet een quasi-inbreng-verslag triggeren. _(Brugse Brouwerij BV)_ 🔗
 
 ## Bronnen
 

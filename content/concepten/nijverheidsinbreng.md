@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/nijverheidsinbreng.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Nijverheidsinbreng ⚖️
 
@@ -30,27 +30,28 @@ gegenereerd_op: '2026-05-20'
 _Bron: WVV art. 5:8 / 6:11 / 7:5_
 
 
+
 ## In de praktijk
 
 <h3 id="waarom-toegelaten-in-bv-cv-en-niet-in-nv">Waarom toegelaten in BV/CV en niet in NV?</h3>
 
 > [!tip]- Waarom toegelaten in BV/CV en niet in NV?
-> De BV en CV zijn vennootschappen **zonder kapitaalbegrip**: het maatschappelijk vermogen wordt soepeler bepaald, ze hebben geen minimumkapitaal. Nijverheidsinbreng past in dat soepele kader. De NV daarentegen is een kapitaalvennootschap met minimumkapitaal van € 61.500 — kapitaal moet volstort en objectief waardeerbaar zijn, dus arbeid (niet realiseerbaar bij vereffening) is uitgesloten. 🤖
+> De BV en CV zijn vennootschappen **zonder kapitaalbegrip**: het maatschappelijk vermogen wordt soepeler bepaald, ze hebben geen minimumkapitaal. Nijverheidsinbreng past in dat soepele kader. De NV daarentegen is een kapitaalvennootschap met minimumkapitaal van € 61.500 — kapitaal moet volstort en objectief waardeerbaar zijn, dus arbeid (niet realiseerbaar bij vereffening) is uitgesloten. 🔗
 
 <h3 id="wat-krijgt-de-inbrenger">Wat krijgt de inbrenger?</h3>
 
 > [!tip]- Wat krijgt de inbrenger?
-> Aandelen die niet meetellen voor de kapitaal-test bij uitkering (BV: nettoactieftest) maar wel stemrechten en winstrechten naar statutaire verhouding. Bij vereffening ontvangt de inbrenger pas iets na alle schuldeisers en kapitaalsoortige aandelen — nijverheidsinbreng is een 'achtergestelde' vorm. 🤖
+> Aandelen die niet meetellen voor de kapitaal-test bij uitkering (BV: nettoactieftest) maar wel stemrechten en winstrechten naar statutaire verhouding. Bij vereffening ontvangt de inbrenger pas iets na alle schuldeisers en kapitaalsoortige aandelen — nijverheidsinbreng is een 'achtergestelde' vorm. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Waardeer de nijverheidsinbreng in de oprichtingsakte (BV/CV) met motivering: anders bestaat geen objectief aanknopingspunt voor latere conflicten of voor de uitkeringstest.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Niet inzetten voor NV-oprichting. De NV vereist kapitaalinbreng in geld of in natura die objectief waardeerbaar en realiseerbaar is.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -58,8 +59,8 @@ _Bron: WVV art. 5:8 / 6:11 / 7:5_
 
 - **Vereist kennis van**: [[]]
 - **Vereist kennis van**: [[]]
-
+- **Wordt voorondersteld in** (1): [[inbreng-in-natura]]
 ## Voorbeelden
 
-Tom Lefèvre richt samen met een geldschieter een IT-consulting-BV op (Praktijk Persenaire BV). De geldschieter brengt € 50.000 in cash in; Tom brengt zijn vijf jaar IT-expertise en cliëntenbestand in als **nijverheidsinbreng**. Statuten waarderen Toms inbreng op € 50.000 — beide krijgen elk 50 % van de aandelen, maar Toms aandelen zijn nijverheidsaandelen en tellen niet mee voor de nettoactieftest bij latere uitkering. _(Tom Lefèvre, Praktijk Persenaire BV)_ 🤖
+Tom Lefèvre richt samen met een geldschieter een IT-consulting-BV op (Praktijk Persenaire BV). De geldschieter brengt € 50.000 in cash in; Tom brengt zijn vijf jaar IT-expertise en cliëntenbestand in als **nijverheidsinbreng**. Statuten waarderen Toms inbreng op € 50.000 — beide krijgen elk 50 % van de aandelen, maar Toms aandelen zijn nijverheidsaandelen en tellen niet mee voor de nettoactieftest bij latere uitkering. _(Tom Lefèvre, Praktijk Persenaire BV)_ 🔗
 

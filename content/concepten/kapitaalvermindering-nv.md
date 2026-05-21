@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kapitaalvermindering-nv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Kapitaalvermindering bij de NV ⚖️
 
@@ -28,6 +28,7 @@ Een vermindering van het maatschappelijk kapitaal raakt het wettelijk vermogensa
 **Vermindering van het maatschappelijk kapitaal** van een naamloze vennootschap (NV) — beslist door de algemene vergadering met statutenwijzigingsmeerderheid. Vier vormen: (1) **terugbetaling** aan aandeelhouders, (2) **vrijstelling van volstorting** van het saldo van de inbreng, (3) **aanzuivering van geleden verliezen** (boekhoudkundige vermindering zonder vermogensuitstroom), (4) **vorming van een reserve** ter dekking van een voorzienbaar verlies. Steeds via notariële akte en bekendmaking.
 
 _Bron: WVV art. 7:208-7:211_
+
 
 
 ## Bouwstenen
@@ -91,11 +92,11 @@ _Grondslag: WVV art. 7:211; CBN-advies 2021/02_
 ## Valkuilen
 
 > [!warning]- Bij een **werkelijke** vermindering: de uitbetaling **mag pas** na het verstrijken van de termijn van twee maanden én na afhandeling van zekerheidsverzoeken. Een te vroege uitbetaling is een uitkering in strijd met de wet, met terugbetalingsplicht.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Een **boekhoudkundige** vermindering (aanzuivering verlies) heeft géén schuldeisersbeschermingsprocedure. Verwar dit niet bij een examenvraag waarin de cliënt 'vermindert om verlies aan te zuiveren'.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -116,7 +117,7 @@ Aurelia Holding NV (kapitaal € 1.500.000) heeft een overcapacitaire kapitaalba
 3. Bekendmaking in de Bijlagen bij het Belgisch Staatsblad.
 4. Twee maanden lopen vanaf de bekendmaking. Schuldeisers met niet-opeisbare vorderingen kunnen zekerheid eisen.
 5. Na de termijn (en na afhandeling van eventuele zekerheidsverzoeken) wordt de € 500.000 effectief uitbetaald.
-#### Boeking terugbetaling kapitaalvermindering 🤖
+#### Boeking terugbetaling kapitaalvermindering 🔗
 | Rekening | Debet | Credit |
 |---|---:|---:|
 | 100 — Geplaatst kapitaal | 500000 |  |

@@ -14,13 +14,16 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/direct-costing.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Direct costing (gedeeltelijke kostencalculatie) 🤖
+# Direct costing (gedeeltelijke kostencalculatie) 🔗
 
 Direct costing (synoniem: variable costing, gedeeltelijke kostencalculatie) berekent een kostprijs die enkel directe en variabele kosten omvat. Vaste indirecte kosten worden niet op de kostendrager toegerekend maar direct als periodekost in de resultatenrekening geboekt. Doel: transparante zicht op variabele kostengedrag en contributiemarge per product — input voor break-even-analyse, prijsbeslissingen en make-or-buy.
 
 > [!info] Behoort tot: [[costing-methodes-vergelijking]]
+
+> [!info] Bestaat uit (2): [[break-even-analyse]] · [[contributiemarge]]
+
 
 
 ## Bouwstenen
@@ -88,7 +91,7 @@ Yperse Werkplaats BV in groeijaar: productie 12.000 tapijten, verkoop 10.000. Va
 ## Zie ook
 
 - **Vereist kennis van**: [[contributiemarge]]
-
+- **Wordt voorondersteld in** (1): [[variabele-kosten]]
 ## Bronnen
 
 [^1]: `CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing`

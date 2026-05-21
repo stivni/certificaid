@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/familiale-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Familiale vennootschap ⚖️
 
@@ -28,27 +28,28 @@ Een **familiale vennootschap** is een vennootschap die volgens de regionale fisc
 _Bron: Successie/Registratie-art. 60bis e.v._
 
 
+
 ## In de praktijk
 
 <h3 id="welk-doel-dient-deze-kwalificatie">Welk doel dient deze kwalificatie?</h3>
 
 > [!tip]- Welk doel dient deze kwalificatie?
-> Zonder familiale-vennootschap-regime betaal je tot 27 % schenkbelasting (in rechte lijn) of 30 % erfbelasting op aandelen. Met het regime: 0 % schenking of 3-7 % erfbelasting, mits de activiteit en de participatie behouden blijven. 🤖
+> Zonder familiale-vennootschap-regime betaal je tot 27 % schenkbelasting (in rechte lijn) of 30 % erfbelasting op aandelen. Met het regime: 0 % schenking of 3-7 % erfbelasting, mits de activiteit en de participatie behouden blijven. 🔗
 
 <h3 id="wanneer-kies-je-hiervoor">Wanneer kies je hiervoor?</h3>
 
 > [!tip]- Wanneer kies je hiervoor?
-> Bij familiale opvolging van een operationele KMO of vrije-beroep-praktijk. De accountant adviseert over de structurering: welke holding, hoeveel aandelen overdragen, welke continuïteitsverklaring opnemen. 🤖
+> Bij familiale opvolging van een operationele KMO of vrije-beroep-praktijk. De accountant adviseert over de structurering: welke holding, hoeveel aandelen overdragen, welke continuïteitsverklaring opnemen. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Check de activiteits-voorwaarde: een vennootschap met louter passieve beleggingen (immo, effecten) kwalificeert niet, ook niet als ze 'familie-aandeelhouders' heeft.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Continuïteitsvoorwaarde minstens 3 jaar (varieert per gewest) — bij vroegtijdige stop of kapitaalvermindering vervalt het gunstregime retroactief.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -58,5 +59,5 @@ _Bron: Successie/Registratie-art. 60bis e.v._
 
 ## Voorbeelden
 
-Marleen De Cock (75) wil haar BV Meubelzaak Mertens met een omzet van € 2.400.000 en eigen vermogen € 850.000 overdragen aan haar zoon Pieter Vermeulen. Onder het Vlaams gunstregime familiale vennootschap: schenking van de aandelen aan 0 % (voorheen 3 % bij hand-of-bankgift), op voorwaarde dat de activiteit minstens drie jaar wordt voortgezet en geen kapitaalvermindering wordt doorgevoerd in die periode. _(Marleen De Cock, Pieter Vermeulen, Meubelzaak Mertens BV)_ 🤖
+Marleen De Cock (75) wil haar BV Meubelzaak Mertens met een omzet van € 2.400.000 en eigen vermogen € 850.000 overdragen aan haar zoon Pieter Vermeulen. Onder het Vlaams gunstregime familiale vennootschap: schenking van de aandelen aan 0 % (voorheen 3 % bij hand-of-bankgift), op voorwaarde dat de activiteit minstens drie jaar wordt voortgezet en geen kapitaalvermindering wordt doorgevoerd in die periode. _(Marleen De Cock, Pieter Vermeulen, Meubelzaak Mertens BV)_ 🔗
 

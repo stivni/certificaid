@@ -19,7 +19,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/confirmatiebrieven.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Confirmatiebrieven ⚖️
 
@@ -31,6 +31,7 @@ Confirmatiebrieven zijn een controlemiddel met hoge bewijskracht: ze maken gebru
 Confirmatiebrieven (Engels: external confirmations, ook accountantsbevestigingen genoemd) zijn schriftelijke verklaringen die de accountant rechtstreeks bij een derde partij opvraagt om een element van de jaarrekening of een staat van activa en passiva te verifiëren. Typische adressaten zijn banken (saldi rekeningen, kredieten, waarborgen), klanten (openstaande vorderingen), leveranciers (openstaande schulden), advocaten (lopende geschillen) en notarissen (akten in voorbereiding). De accountant verzendt het verzoek met handtekening van het bestuursorgaan; het antwoord komt rechtstreeks naar hem terug.
 
 _Bron: ISA 505 'External Confirmations'_
+
 
 
 ## In de praktijk
@@ -54,18 +55,18 @@ _Bron: ISA 505 'External Confirmations'_
 ## Valkuilen
 
 > [!warning]- Beheer de verzending en ontvangst zelf — laat het verzoek niet door de cliënt verzenden.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Een ontvangen bevestiging via e-mail of fax vereist extra verificatie van de afzender.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[controlemiddelen-ic]]
-
+- **Wordt voorondersteld in** (1): [[controleverslag-omzetting]]
 ## Voorbeelden
 
 ### Bankbevestiging voor omzettingsopdracht
@@ -78,7 +79,7 @@ Brugse Brouwerij BV wil zich omzetten naar NV. De staat van activa en passiva ve
 2. Het bestuursorgaan van Brugse Brouwerij BV ondertekent de brief (toestemming voor de bank om informatie vrij te geven).
 3. Bart verzendt de brief; het antwoord komt rechtstreeks naar zijn kantoor.
 4. Bart vergelijkt het bankantwoord met de staat van activa en passiva en documenteert eventuele verschillen.
-🤖
+🔗
 
 
 

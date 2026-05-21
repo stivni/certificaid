@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/niet-recurrente-verrichtingen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Niet-recurrente verrichtingen ⚖️
 
@@ -28,6 +28,7 @@ De resultatenrekening-categorie die **éénmalige posten** afzondert zodat het b
 Kosten en opbrengsten die **niet voortvloeien uit de normale, herhalende bedrijfsuitoefening** van de onderneming en die op de resultatenrekening worden gepresenteerd in afzonderlijke rubrieken: **klasse 66** (niet-recurrente kosten) en **klasse 76** (niet-recurrente opbrengsten). Typisch: niet-recurrente afschrijvingen, meer- of minderwaarden op realisatie van vaste activa, herstructureringskosten, schade-uitkeringen, geschillenuitspraak. Sinds invoering KB 21/10/2018: 'niet-recurrent' vervangt het oude 'uitzonderlijk'.
 
 _Bron: MAR klasse 66 + 76; KB 21/10/2018_
+
 
 
 ## Bouwstenen
@@ -89,7 +90,7 @@ _Grondslag: KB 21/10/2018 — invoering 'niet-recurrent'_
 ## Valkuilen
 
 > [!warning]- Niet-recurrent ≠ uitzonderlijk in absolute zin
-> ⚠️ Niet-recurrent ≠ uitzonderlijk in absolute zin. Een herhaling om de 3-5 jaar (bv. grote reorganisatie) kan nog steeds niet-recurrent zijn als het geen onderdeel is van de normale jaarlijkse bedrijfsuitoefening. Beoordeling per geval. 🤖
+> ⚠️ Niet-recurrent ≠ uitzonderlijk in absolute zin. Een herhaling om de 3-5 jaar (bv. grote reorganisatie) kan nog steeds niet-recurrent zijn als het geen onderdeel is van de normale jaarlijkse bedrijfsuitoefening. Beoordeling per geval. 🔗
 >
 > _Bron: KB 21/10/2018_
 

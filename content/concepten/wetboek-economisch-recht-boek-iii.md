@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wetboek-economisch-recht-boek-iii.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Wetboek van Economisch Recht — Boek III (boekhouding) ⚖️
 
@@ -26,9 +26,12 @@ Het WER (Wetboek van Economisch Recht) is sinds 2014 de centrale codificatie van
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]]
 
+> [!info] Bestaat uit (1): [[bewaartermijn-boekhouding]]
+
 Het Wetboek van Economisch Recht (WER) is sinds 2014 de centrale Belgische codificatie van het economisch recht. Boek III (artikelen III.82 tot III.95) bevat de algemene boekhoudplicht: wie moet een boekhouding voeren, welk type (volledige dubbele of vereenvoudigde), welke boeken en bewaartermijnen. Dit boek bouwt voort op de oude Boekhoudwet van 17 juli 1975.
 
 _Bron: WER art. III.82 tot III.95_
+
 
 
 ## Bouwstenen
@@ -69,7 +72,7 @@ Boekjaar Meubelzaak Mertens BV afgesloten op 31 december 2024 → bewaartermijn 
 
 _Grondslag: WER art. III.86; KB van 12 september 1983_
 
-### Verhouding WER ↔ WVV 🤖
+### Verhouding WER ↔ WVV 🔗
 
 WER regelt de boekhoudplicht voor alle ondernemingen (ook eenmanszaken en VZW's). WVV regelt specifiek de jaarrekening van vennootschappen, verenigingen en stichtingen. Voor een vennootschap gelden beide: WER voor het boekhouden zelf, WVV voor de jaarrekening en openbaarmaking.
 
@@ -87,7 +90,7 @@ _Grondslag: WER Boek III + WVV Boek 3_
 <h3 id="welke-regels-staan-in-wer-en-welke-in-wvv">Welke regels staan in WER en welke in WVV?</h3>
 
 > [!tip]- Welke regels staan in WER en welke in WVV?
-> WER → 'wat moet ik boeken' (boekhoudplicht, dagboeken, inventaris, bewaring). WVV → 'wat doe ik met die boekhouding op het einde van het jaar' (jaarrekening-schema, jaarverslag, openbaarmaking, commissaris-controle). 🤖
+> WER → 'wat moet ik boeken' (boekhoudplicht, dagboeken, inventaris, bewaring). WVV → 'wat doe ik met die boekhouding op het einde van het jaar' (jaarrekening-schema, jaarverslag, openbaarmaking, commissaris-controle). 🔗
 
 > [!tip]- Herkennen op het examen
 > Vraag over een dagboek of een bewaartermijn → WER. Vraag over een jaarrekening-schema of een jaarverslag → WVV + KB-WVV.
@@ -97,7 +100,7 @@ _Grondslag: WER Boek III + WVV Boek 3_
 
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
 - **Getriggerd door**: [[dubbel-boekhouden]]
-
+- **Triggert** (1): [[boekhoudplichtige-onderneming]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV (handels-BV) is een 'onderneming' in de zin van WER art. III.82 → moet een dubbele boekhouding voeren volgens WER art. III.83.

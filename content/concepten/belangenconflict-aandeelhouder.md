@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belangenconflict-aandeelhouder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Belangenconflict van een aandeelhouder ⚖️
 
@@ -30,17 +30,21 @@ Aandeelhouders zonder stemrecht of aandeelhouders van wie het stemrecht is gesch
 _Bron: WVV art. 5:97, 7:139 (uitsluiting aandelen zonder stemrecht); meer specifieke stemverboden verspreid in het WVV_
 
 
+
 ## Voorwaarden / uitzonderingen
 
-- {'tekst': 'In tegenstelling tot de regeling voor bestuurders (art. 5:76, 7:96, 7:115) hoeft een aandeelhouder met een persoonlijk belang in de regel niet zelf de vergadering te verlaten of het belang in de notulen te documenteren — hij stemt in principe gewoon mee, tenzij de wet uitdrukkelijk een stemverbod oplegt.', 'confidence': 'inferred-from-aggregation', '_provenance': {'inputs': [{'id': 'WVV__art_5_77', 'sha256': None, 'version': 'rag-v1'}, {'id': 'MvT-WVV-2018__art_5_150', 'sha256': None, 'version': 'rag-v1'}]}} 🤖
-- {'tekst': 'Bij beslissingen over de vennootschapsvordering tegen een lid van het bestuursorgaan dat tevens aandeelhouder is, of bij de minderheidsvordering, gelden specifieke stem- en quorumregels die de schijn van partijdigheid wegnemen.', 'confidence': 'inferred'} 🤖
+- {'tekst': 'In tegenstelling tot de regeling voor bestuurders (art. 5:76, 7:96, 7:115) hoeft een aandeelhouder met een persoonlijk belang in de regel niet zelf de vergadering te verlaten of het belang in de notulen te documenteren — hij stemt in principe gewoon mee, tenzij de wet uitdrukkelijk een stemverbod oplegt.', 'confidence': 'inferred-from-aggregation', '_provenance': {'inputs': [{'id': 'WVV__art_5_77', 'sha256': None, 'version': 'rag-v1'}, {'id': 'MvT-WVV-2018__art_5_150', 'sha256': None, 'version': 'rag-v1'}]}} 🔗
+- {'tekst': 'Bij beslissingen over de vennootschapsvordering tegen een lid van het bestuursorgaan dat tevens aandeelhouder is, of bij de minderheidsvordering, gelden specifieke stem- en quorumregels die de schijn van partijdigheid wegnemen.', 'confidence': 'inferred'} 🔗
 ## Valkuilen
 
 > [!warning]- Verwar het belangenconflict-regime van de bestuurder niet met dat van de aandeelhouder. Bestuurders hebben een formele procedureplicht (verklaring, notuleren, in bepaalde gevallen niet-deelname); aandeelhouders niet — tenzij de wet expliciet een stemverbod oplegt.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[volmacht-algemene-vergadering]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

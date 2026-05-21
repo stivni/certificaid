@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verspilling.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Verspilling (rationeel gebruik van middelen) ⚖️
 
@@ -28,6 +28,7 @@ Verspilling is het derde kenniselement onder 1.7.VI naast fouten en fraude. Bij 
 Verspilling is het niet-optimaal inzetten van middelen door een onderneming — geen fraude (geen opzet om persoonlijk voordeel te halen) en geen boekhoudfout, maar wel ondoelmatig gebruik. Het tegengaan van verspilling is onderdeel van de IC-doelstelling 'effectiviteit en efficiëntie van de uitoefening van de activiteiten' zoals gedefinieerd in de ITAA KMO-controlenorm (bijlage 1) en in COSO 2013 (component 'beheersactiviteiten' i.f.v. operationele doelstellingen). Typische vormen: overstock, idle capacity, dubbele invoer, niet-gebruikte abonnementen of licenties.
 
 _Bron: ITAA KMO-controlenorm bijlage 1 §interne-beheersing + COSO 2013_
+
 
 
 ## Bouwstenen
@@ -74,7 +75,7 @@ _Grondslag: Management-control-vakdoctrine_
 <h3 id="onderscheid-t-o-v-fout-en-fraude">Onderscheid t.o.v. fout en fraude</h3>
 
 > [!tip]- Onderscheid t.o.v. fout en fraude
-> Verspilling is legaal en onopzettelijk-suboptimaal. Geen boekhoudkundige afwijking (de cijfers in de jaarrekening kloppen), geen wetsovertreding, geen misleiding. Wel value destruction — middelen die anders productief hadden kunnen worden ingezet. 🤖
+> Verspilling is legaal en onopzettelijk-suboptimaal. Geen boekhoudkundige afwijking (de cijfers in de jaarrekening kloppen), geen wetsovertreding, geen misleiding. Wel value destruction — middelen die anders productief hadden kunnen worden ingezet. 🔗
 
 <h3 id="rol-van-de-auditor-versus-rol-van-management">Rol van de auditor versus rol van management</h3>
 
@@ -85,7 +86,7 @@ _Grondslag: Management-control-vakdoctrine_
 ## Valkuilen
 
 > [!warning]- Verspilling als 'derde categorie' lijkt op fraude of fout te lijken — maar het is een fundamenteel ander concept: geen afwijking in registra…
-> ⚠️ Verspilling als 'derde categorie' lijkt op fraude of fout te lijken — maar het is een fundamenteel ander concept: geen afwijking in registratie, geen opzet, alleen suboptimale allocatie. Examen-valkuil: een casus met 'machinepark 30% onderbezet' is geen IC-falen in de zin van fout/fraude, wel een efficiëntie-issue. 🤖
+> ⚠️ Verspilling als 'derde categorie' lijkt op fraude of fout te lijken — maar het is een fundamenteel ander concept: geen afwijking in registratie, geen opzet, alleen suboptimale allocatie. Examen-valkuil: een casus met 'machinepark 30% onderbezet' is geen IC-falen in de zin van fout/fraude, wel een efficiëntie-issue. 🔗
 
 
 > [!warning]- De externe auditor kwalificeert nooit zijn opinie omwille van verspilling — assurance betreft de jaarrekening, niet de operationele efficiën…

@@ -18,9 +18,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ratio-covenants.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Ratiocovenants (financial covenants) 🤖
+# Ratiocovenants (financial covenants) 🔗
 
 Ratiocovenants zijn contractuele clausules in kredietovereenkomsten die de onderneming verbinden tot het respecteren van financiële drempels (max. debt-equity, min. solvabiliteit, min. interest coverage, …). Doorbreking triggert opeisbaarheid of strafrente. Voor de analist: een ratio die op zich sterk lijkt kan toch tegen een covenant-drempel aanleunen — het maakt covenant-clausules raadplegen tot een verplichte stap.
 
@@ -30,6 +30,7 @@ Ratiocovenants zijn contractuele clausules in kredietovereenkomsten die de onder
 Een ratiocovenant is een contractuele clausule (typisch in een bankkredietovereenkomst of obligatielening) die de kredietnemer verplicht om bepaalde financiële ratio's binnen een afgesproken bandbreedte te houden. Overschrijding triggert een 'event of default' — de bank kan onmiddellijke terugbetaling vragen of nieuwe condities opleggen.
 
 _Bron: Bankpraktijk en financieringsrecht_
+
 
 
 ## Bouwstenen
@@ -46,7 +47,7 @@ Rotex Roeselare NV heeft een lening van € 13.000.000 met covenant 'debt-equity
 
 _Grondslag: Bankpraktijk_
 
-### Testdatum en testfrequentie 🤖
+### Testdatum en testfrequentie 🔗
 
 De covenants worden getest op specifieke data (typisch elk kwartaal of semester), op basis van geconsolideerde of statutaire cijfers naar gelang afspraak.
 
@@ -64,13 +65,13 @@ _Grondslag: Bankpraktijk_
 <h3 id="1.3.I.D">Belangrijke check vóór analyse-conclusie</h3>
 
 > [!tip]- Belangrijke check vóór analyse-conclusie
-> Als de cliënt met de jaarrekening kredieten heeft uitstaan: vraag de covenant-clausules op. Een ratio die door financiële analyse 'sterk' lijkt, kan toch dicht bij een covenant-grens zitten en zo een risico vormen. 🤖
+> Als de cliënt met de jaarrekening kredieten heeft uitstaan: vraag de covenant-clausules op. Een ratio die door financiële analyse 'sterk' lijkt, kan toch dicht bij een covenant-grens zitten en zo een risico vormen. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Covenant-definities verschillen per kredietovereenkomst — 'EBITDA' kan bv. inclusief of exclusief uitzonderlijke posten zijn
-> ⚠️ Covenant-definities verschillen per kredietovereenkomst — 'EBITDA' kan bv. inclusief of exclusief uitzonderlijke posten zijn. Lees de definitielijst van de covenant-clausule, niet zomaar je standaard-ratio. 🤖
+> ⚠️ Covenant-definities verschillen per kredietovereenkomst — 'EBITDA' kan bv. inclusief of exclusief uitzonderlijke posten zijn. Lees de definitielijst van de covenant-clausule, niet zomaar je standaard-ratio. 🔗
 >
 > _Bron: Financieringsrecht_
 

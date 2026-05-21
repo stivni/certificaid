@@ -17,11 +17,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gebruiken-financiele-analyse-software.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Gebruiken van financiële-analyse-software voor ratio-set en sectorvergelijking 🤖
+# Gebruiken van financiële-analyse-software voor ratio-set en sectorvergelijking 🔗
 
 Operationele competentie: een gepaste tool kiezen (NBB-Online, Belfius Score, Graydon, ...), jaarrekeninggegevens importeren, automatisch berekende ratio-set lezen, sectorbenchmarking interpreteren en eindrapportage filteren op wat relevant is voor de specifieke analyse-vraag. Verantwoordelijk blijven voor selectie en interpretatie — software is geen black box.
+
 
 
 ## Stappen

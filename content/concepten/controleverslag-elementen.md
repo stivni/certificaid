@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controleverslag-elementen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Elementen van het controleverslag (revisieverslag) ⚖️
 
@@ -24,9 +24,12 @@ Het controleverslag is het zichtbare eindproduct waarmee de auditor zijn oordeel
 > [!summary] Korte inhoud
 > Het controleverslag (revisieverslag) is het schriftelijke eindproduct van een controleopdracht waarin de beroepsbeoefenaar (gecertificeerd accountant of bedrijfsrevisor) zijn oordeel formuleert over de financiële overzichten.
 
+> [!info] Bestaat uit (1): [[kernpunten-van-controle]]
+
 Het controleverslag (revisieverslag) is het schriftelijke eindproduct van een controleopdracht waarin de beroepsbeoefenaar (gecertificeerd accountant of bedrijfsrevisor) zijn oordeel formuleert over de financiële overzichten. ISA 700 (herzien) §§20-52 schrijft voor welke vaste rubrieken in welke volgorde aanwezig moeten zijn — van titel tot handtekening; ITAA-normen vullen aan met Belgische verplichtingen (afschrift naar het Instituut, vermelding andere prestaties, scope-grenzen).
 
 _Bron: ISA 700 (herzien) §§20-52 + ITAA Algemene controlenorm §2 + KMO-controlenorm §150_
+
 
 
 ## Bouwstenen
@@ -183,7 +186,7 @@ _Grondslag: ISA 700 (herzien) §§47-49 + KB plichtenleer art. 18_
 - **Vereist kennis van**: [[kernpunten-van-controle]]
 - **Vereist kennis van**: [[paragraaf-overige-aangelegenheden]]
 - **Vereist kennis van**: [[afwijking-van-materieel-belang]]
-
+- **Wordt voorondersteld in** (1): [[opstellen-controleverslag-en-formuleren-oordeel]]
 ## Voorbeelden
 
 Het controleverslag van Sofie Janssens over Rotex Roeselare NV bevat: titel ('Controleverslag van de externe accountant'), geadresseerde (de algemene vergadering), identificatie jaarrekening 2025, beschrijving van de opdracht uit de opdrachtbrief, paragraaf 'Verantwoordelijkheid van het management', paragraaf 'Verantwoordelijkheid van de accountant', oordeelsparagraaf, paragraaf ter benadrukking (continuïteit), datum, plaats van ondertekening, handtekening en hoedanigheid.

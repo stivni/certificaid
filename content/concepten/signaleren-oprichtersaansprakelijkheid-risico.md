@@ -14,11 +14,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/signaleren-oprichtersaansprakelijkheid-risico.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Signaleren van oprichtersaansprakelijkheid-risico's aan de cliënt 🤖
+# Signaleren van oprichtersaansprakelijkheid-risico's aan de cliënt 🔗
 
 Adviescompetentie: vóór de notariële akte de cliënt schriftelijk informeren over de drie hoofdgronden van oprichtersaansprakelijkheid (kennelijk ontoereikend aanvangsvermogen, kennelijke overwaardering inbreng in natura, onjuiste of ontbrekende akte-vermeldingen) en hoe het ontwerp van akte + financieel plan deze risico's afdekt. Doel: cliënt maakt geïnformeerde keuze; accountant bouwt dossier op tegen latere claims van onvoldoende advies.
+
 
 
 ## In de praktijk

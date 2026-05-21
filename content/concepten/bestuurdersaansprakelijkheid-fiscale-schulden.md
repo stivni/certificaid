@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuurdersaansprakelijkheid-fiscale-schulden.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Bestuurdersaansprakelijkheid voor fiscale schulden (bedrijfsvoorheffing, btw) 🤖
+# Bestuurdersaansprakelijkheid voor fiscale schulden (bedrijfsvoorheffing, btw) 🔗
 
 Net als bij de sociale schulden (XX.226 WER) wilde de wetgever de **fiscus** een **versterkte verhaalsmogelijkheid** geven — niet beperkt tot opzet maar geactiveerd door een **vermoeden** dat herhaalde niet-betaling oplevert. De regeling geldt **onafhankelijk** van een faillissement: ze kan ook lopen tijdens normale bedrijvigheid.
 
@@ -30,6 +30,7 @@ Bestuurders, zaakvoerders en personen met werkelijke bestuursbevoegdheid kunnen 
 _Bron: WIB92 art. 442quater; btw-Wetboek art. 93undecies C_
 
 
+
 > [!info] Uitzondering op: [[]]
 
 ## In de praktijk
@@ -37,13 +38,13 @@ _Bron: WIB92 art. 442quater; btw-Wetboek art. 93undecies C_
 <h3 id="procedure">Procedure</h3>
 
 > [!tip]- Procedure
-> De ontvanger spreekt de bestuurder aan via een **kennisgeving** waarbij aansprakelijkheid wordt aangekondigd. De bestuurder heeft een termijn om te reageren met tegenbewijs. Bij betwisting volgt eventueel gerechtelijke procedure voor de fiscale rechter. 🤖
+> De ontvanger spreekt de bestuurder aan via een **kennisgeving** waarbij aansprakelijkheid wordt aangekondigd. De bestuurder heeft een termijn om te reageren met tegenbewijs. Bij betwisting volgt eventueel gerechtelijke procedure voor de fiscale rechter. 🔗
 
 
 ## Voorwaarden / uitzonderingen
 
-- {'voorwaarde': '**Bestuursfout** die heeft bijgedragen tot de niet-betaling. Bij **herhaalde** niet-betaling (≥3 kwartalen bedrijfsvoorheffing of ≥2 vervaldagen btw in een referentieperiode) wordt de fout **vermoed**.', 'confidence': 'inferred'} 🤖
-- {'voorwaarde': '**Tegenbewijs** mogelijk: financiële moeilijkheden te wijten aan externe oorzaken (klant-faillissement, overmacht, betalingstermijnen door overheid), waar de bestuurder geen schuld aan heeft.', 'confidence': 'inferred'} 🤖
+- {'voorwaarde': '**Bestuursfout** die heeft bijgedragen tot de niet-betaling. Bij **herhaalde** niet-betaling (≥3 kwartalen bedrijfsvoorheffing of ≥2 vervaldagen btw in een referentieperiode) wordt de fout **vermoed**.', 'confidence': 'inferred'} 🔗
+- {'voorwaarde': '**Tegenbewijs** mogelijk: financiële moeilijkheden te wijten aan externe oorzaken (klant-faillissement, overmacht, betalingstermijnen door overheid), waar de bestuurder geen schuld aan heeft.', 'confidence': 'inferred'} 🔗
 ## Valkuilen
 
 > [!warning]- De cap van art. 2:56 WVV geldt **niet** voor fiscale-schulden-aansprakelijkheid — ook hier wilde de wetgever de fiscus volle verhaalsmogelijkheid geven.
@@ -51,7 +52,7 @@ _Bron: WIB92 art. 442quater; btw-Wetboek art. 93undecies C_
 
 
 > [!warning]- Begrijp dat de fout **vermoed** wordt bij herhaalde niet-betaling — de bewijslast ligt bij de bestuurder, niet bij de fiscus. Verweer steunt op het aantonen van externe oorzaken (faillissement van een grote klant, betalingsachterstand door overheid).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

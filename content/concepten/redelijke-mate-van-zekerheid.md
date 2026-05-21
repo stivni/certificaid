@@ -16,7 +16,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/redelijke-mate-van-zekerheid.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Redelijke mate van zekerheid ⚖️
 
@@ -28,6 +28,7 @@ Redelijke zekerheid is het zekerheidsniveau dat een controle (audit) oplevert �
 Een redelijke mate van zekerheid (reasonable assurance) is het hoogste praktisch haalbare niveau van zekerheid in een audit-opdracht. De beroepsbeoefenaar heeft voldoende en geschikte assurance-informatie verzameld om het controlerisico tot een vaktechnisch aanvaardbaar laag niveau terug te brengen, zodat hij een oordeel in positieve vorm kan tot uitdrukking brengen.
 
 _Bron: ITAA KMO-controlenorm §2 + §117_
+
 
 
 ## In de praktijk

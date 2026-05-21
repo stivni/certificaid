@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/goodwill-be-gaap.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Goodwill onder BE-GAAP (consolidatieverschil en verworven goodwill) ⚖️
 
@@ -26,6 +26,7 @@ Het cruciale BE-GAAP-kenmerk versus IFRS: goodwill wordt onder BE-GAAP **systema
 Onder Belgisch boekhoudrecht heeft 'goodwill' twee verschijningsvormen, met telkens een eigen wettelijke grondslag. **(1) Verworven goodwill in enkelvoudige rekening**: wanneer een onderneming bij overname meer betaalt dan de waarde van de overgenomen netto-activa, wordt het verschil opgenomen onder de **immateriële vaste activa** (rubriek III.2 'Goodwill', activa-zijde van de balans). Afschrijving volgens een passend plan op basis van art. 3:42 § 1 KB WVV. **(2) Positief consolidatieverschil**: bij eerste consolidatie van een dochter wordt het verschil tussen verkrijgingsprijs van de aandelen en het pro-rata-aandeel in het eigen vermogen — voor zover niet toerekenbaar aan onder- of overgewaardeerde activa/passiva — opgenomen onder de post **'Consolidatieverschillen'** van de geconsolideerde balans (art. 3:130). De afschrijving van deze positieve consolidatieverschillen wordt geregeld door art. 3:131 § 1: een passend afschrijvingsplan dat overeenstemt met de vermoedelijke gebruiksduur; **bij spreiding over meer dan vijf jaar moet dit worden gemotiveerd in de toelichting**.
 
 _Bron: KB WVV art. 3:130-3:131 + art. 3:38-3:42_
+
 
 
 ## Bouwstenen

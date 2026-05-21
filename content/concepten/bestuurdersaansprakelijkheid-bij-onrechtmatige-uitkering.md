@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bestuurdersaansprakelijkheid bij onrechtmatige uitkering ⚖️
 
@@ -31,12 +31,13 @@ Wanneer komt vast te staan dat de leden van het bestuursorgaan bij het besluit t
 _Bron: WVV art. 5:144 BV; 6:117 CV; 7:228 NV_
 
 
+
 ## In de praktijk
 
 <h3 id="verweer-via-de-notulen">Verweer via de notulen</h3>
 
 > [!tip]- Verweer via de notulen
-> Het bestuursorgaan beschermt zich door de **liquiditeitstest** te documenteren: cashflowprognose, ratio-analyses, scenario's bij verslechtering, beoordeling door de gecertificeerd accountant. Wanneer de bestuurder zich op deugdelijke cijfers heeft gebaseerd, ontbreekt het 'wisten of behoorden te weten'. 🤖
+> Het bestuursorgaan beschermt zich door de **liquiditeitstest** te documenteren: cashflowprognose, ratio-analyses, scenario's bij verslechtering, beoordeling door de gecertificeerd accountant. Wanneer de bestuurder zich op deugdelijke cijfers heeft gebaseerd, ontbreekt het 'wisten of behoorden te weten'. 🔗
 
 <h3 id="cumulatie-met-terugvordering">Cumulatie met terugvordering</h3>
 
@@ -51,7 +52,7 @@ _Bron: WVV art. 5:144 BV; 6:117 CV; 7:228 NV_
 ## Valkuilen
 
 > [!warning]- Onthoud dat de cap van art. 2:56 hier **doorbroken** wordt zodra sprake is van **zware fout** — de combinatie 'wist of behoorde te weten' + materiële schade wordt door rechtspraak vaak als zware fout gekwalificeerd.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -60,10 +61,10 @@ _Bron: WVV art. 5:144 BV; 6:117 CV; 7:228 NV_
 - **Vereist kennis van**: [[]]
 - **Vereist kennis van**: [[]]
 - **Vereist kennis van**: [[]]
-
+- **Wordt voorondersteld in** (1): [[signaleren-risicos-overdracht-of-ontbinding]]
 ## Voorbeelden
 
-**Brugse Brouwerij BV** keert in maart een dividend van € 200.000 uit. Het bestuursorgaan (waaronder **Marleen De Cock**) negeert dat de cashflowprognose in juni een tekort van € 150.000 voorspelt door grote leverancier-betalingen. In augustus kan de BV haar opeisbare schulden niet meer voldoen. Marleen en de andere bestuurders zijn hoofdelijk aansprakelijk voor de schade (art. 5:144 BV); de vennootschap kan bovendien de € 200.000 terugvorderen van de begunstigde aandeelhouders. _(Brugse Brouwerij BV, Marleen De Cock)_ 🤖
+**Brugse Brouwerij BV** keert in maart een dividend van € 200.000 uit. Het bestuursorgaan (waaronder **Marleen De Cock**) negeert dat de cashflowprognose in juni een tekort van € 150.000 voorspelt door grote leverancier-betalingen. In augustus kan de BV haar opeisbare schulden niet meer voldoen. Marleen en de andere bestuurders zijn hoofdelijk aansprakelijk voor de schade (art. 5:144 BV); de vennootschap kan bovendien de € 200.000 terugvorderen van de begunstigde aandeelhouders. _(Brugse Brouwerij BV, Marleen De Cock)_ 🔗
 
 ## Bronnen
 

@@ -16,7 +16,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beheersactiviteiten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Beheersactiviteiten (COSO-component 3) ⚖️
 
@@ -27,9 +27,12 @@ Beheersactiviteiten zijn COSO-component 3 — de concrete laag waar abstract ris
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[controlemiddelen-ic]]
+
 Beheersactiviteiten zijn de concrete procedures en handelingen die de onderneming inzet om de geïdentificeerde risico's te beheersen. Ze omvatten zowel preventieve (vóór de transactie) als detectieve (na de transactie) maatregelen, en kunnen manueel of geautomatiseerd zijn. Vormen samen COSO-component 3 — de uitvoerende laag van het IC-systeem.
 
 _Bron: ISA 315 (herzien-2019) §A86 + COSO 2013 component 3_
+
 
 
 ## Bouwstenen
@@ -73,7 +76,7 @@ _Grondslag: ISA 315 (herzien-2019) §13 + §A86_
 ## Zie ook
 
 - **Vereist kennis van**: [[functiescheiding]]
-
+- **Wordt voorondersteld in** (6): [[aankoopcyclus-ic]] · [[cyclus-analyse-ic]] · [[opvolging-verrichtingen-ic]] · [[preventief-versus-detecterende-controle]] · [[uitvoering-interne-controle]] · [[verkoopcyclus-ic]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV: (preventief) facturen > € 25.000 vereisen handtekening van CFO David; (detectief) maandelijkse afstemming bank-grootboek door iemand anders dan de boeker; (geautomatiseerd) ERP weigert input van prijs > 20% afwijking van laatste aankoopprijs zonder override.

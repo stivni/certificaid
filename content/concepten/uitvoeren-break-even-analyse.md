@@ -16,11 +16,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoeren-break-even-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge 🤖
+# Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge 🔗
 
 Competentie waarmee de stagiair een break-even-analyse uitvoert: bereken de minimale omzet of het minimale volume waarbij de onderneming uit kost is (totale opbrengst = totale kost), splits in vaste en variabele kosten, en interpreteer het resultaat strategisch — veiligheidsmarge, gevoeligheid voor prijswijziging, multi-product-mix met gewogen gemiddelde contributiemarge. Vereiste cumulatieve kennis: contributiemarge (verkoopprijs − variabele kost) als noemer van de break-even-formule, vaste kosten als teller, multi-product-mix als gevoeligheidsdimensie.
+
 
 
 ## Stappen

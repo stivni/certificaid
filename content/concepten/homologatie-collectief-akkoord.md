@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/homologatie-collectief-akkoord.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Homologatie van het collectief reorganisatieplan ⚖️
 
@@ -30,17 +30,18 @@ De insolventierechtbank **homologeert** het door de schuldeisers (en in voorkome
 _Bron: WER art. XX.79, XX.83/17, XX.83/38_
 
 
+
 ## In de praktijk
 
 <h3 id="effect-van-de-homologatie">Effect van de homologatie</h3>
 
 > [!tip]- Effect van de homologatie
-> Het plan wordt bindend voor **alle** betrokken schuldeisers — ook die tegenstemden, ook die niet stemden — voor de schulden die in het plan zijn opgenomen. Schulden die buiten het plan vallen (bv. nieuwe schulden of de uitgesloten categorieën van art. XX.73) blijven gewoon volledig opeisbaar. Bij niet-uitvoering kan de rechtbank het plan herroepen (art. XX.82). 🤖
+> Het plan wordt bindend voor **alle** betrokken schuldeisers — ook die tegenstemden, ook die niet stemden — voor de schulden die in het plan zijn opgenomen. Schulden die buiten het plan vallen (bv. nieuwe schulden of de uitgesloten categorieën van art. XX.73) blijven gewoon volledig opeisbaar. Bij niet-uitvoering kan de rechtbank het plan herroepen (art. XX.82). 🔗
 
 <h3 id="wat-doet-de-accountant-na-homologatie">Wat doet de accountant na homologatie?</h3>
 
 > [!tip]- Wat doet de accountant na homologatie?
-> De boekhoudkundige verwerking van de schuldverminderingen volgt CBN-advies 2018/18 en de algemene principes: de **kwijtschelding** wordt opgenomen als opbrengst (uitzonderlijk resultaat), de gehomologeerde uitstel-termijnen leiden tot reclassificatie van schulden op meer of minder dan één jaar. De waarderingsregels herstellen zich naar going-concern zodra het plan de continuïteit verzekert. 🤖
+> De boekhoudkundige verwerking van de schuldverminderingen volgt CBN-advies 2018/18 en de algemene principes: de **kwijtschelding** wordt opgenomen als opbrengst (uitzonderlijk resultaat), de gehomologeerde uitstel-termijnen leiden tot reclassificatie van schulden op meer of minder dan één jaar. De waarderingsregels herstellen zich naar going-concern zodra het plan de continuïteit verzekert. 🔗
 
 
 ## Voorwaarden / uitzonderingen
@@ -55,18 +56,18 @@ _Bron: WER art. XX.79, XX.83/17, XX.83/38_
 ## Valkuilen
 
 > [!warning]- De homologatie is **geen automatische bekrachtiging** van de stemming. De rechtbank toetst onafhankelijk de wettelijke vereisten. Bij grote ondernemingen kan zij zelfs **weigeren te homologeren** zelfs als alle klassen instemmen, indien de informatieverstrekking onvoldoende was.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Niet verwarren met **homologatie van een minnelijk akkoord** (buitengerechtelijk of in de besloten procedure, art. XX.83/29-XX.83/30). Bij een minnelijk akkoord is de homologatie veel beperkter — de rechter controleert geen schuldenaarstoets maar enkel of het akkoord rechtsgeldig tot stand kwam.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[ondernemingsrechtbank-bevoegdheid-insolventie]]
-
+- **Wordt voorondersteld in** (1): [[gerechtelijke-reorganisatie]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

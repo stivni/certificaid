@@ -15,9 +15,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/behoefte-aan-bedrijfskapitaal.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Behoefte aan bedrijfskapitaal (BBK) 🤖
+# Behoefte aan bedrijfskapitaal (BBK) 🔗
 
 De BBK toont de permanente liquiditeitsdruk uit de exploitatiecyclus: voorraden + vorderingen − leveranciersschulden. Combinatie met werkkapitaal levert de nettokas-positie: positief werkkapitaal − BBK = kassaldo. Centraal in liquiditeitsdiagnose voor productie- en handelsondernemingen.
 
@@ -29,6 +29,7 @@ De BBK toont de permanente liquiditeitsdruk uit de exploitatiecyclus: voorraden 
 De behoefte aan bedrijfskapitaal (BBK) is het bedrag dat de onderneming permanent moet financieren omdat haar exploitatiecyclus geld vastzet in voorraden en handelsvorderingen voordat zij van haar klanten betaling krijgt — vermindert door wat ze zelf op krediet bij leveranciers koopt.
 
 _Bron: Financiële analyse — Belgische vakliteratuur (Ooghe-Van Wymeersch, Vereeck e.a.)_
+
 
 
 ## Bouwstenen

@@ -15,9 +15,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/informatie-en-communicatie-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Informatie en communicatie (COSO-component 4) 🤖
+# Informatie en communicatie (COSO-component 4) 🔗
 
 Informatie en communicatie is COSO-component 4: de stromen die het IC-systeem operationeel maken. Voor de stagiair zijn dit twee zaken: (a) op systeemniveau — heeft de onderneming voldoende informatiekanalen (bottom-up, top-down, horizontaal) om risico's gemeld te krijgen; (b) op procesniveau — krijgen verantwoordelijken tijdig de cijfers die ze nodig hebben om bij te sturen. Examen-vragen testen of je deze component herkent én weet onderscheiden van pure IT (een ERP is geen 'informatie en communicatie', het is een middel ervoor).
 
@@ -26,7 +26,10 @@ Informatie en communicatie is COSO-component 4: de stromen die het IC-systeem op
 
 > [!info] Behoort tot: [[interne-controle]]
 
+> [!info] Bestaat uit (1): [[informatie-kwaliteit-ic]]
+
 Informatie en communicatie als COSO-component betekent dat relevante, betrouwbare, tijdige informatie tot bij de juiste personen geraakt — zowel naar boven (rapportering aan management), naar beneden (richtlijnen naar uitvoerders), als horizontaal (tussen afdelingen) en extern (naar stakeholders).
+
 
 
 ## Bouwstenen
@@ -42,7 +45,7 @@ Naar boven: rapportering aan management en bestuur. Naar onder: richtlijnen, ged
 
 _Grondslag: ISA 315 Bijlage 3 §18_
 
-### Communicatiekanalen en gedragscodes 🤖
+### Communicatiekanalen en gedragscodes 🔗
 
 Naast formele rapportering: gedragscodes, klokkenluiderskanalen, periodieke teamoverleg — elk een 'communicatiekanaal'.
 

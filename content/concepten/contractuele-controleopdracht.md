@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/contractuele-controleopdracht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Contractuele controleopdracht ⚖️
 
@@ -27,6 +27,7 @@ De contractuele controleopdracht is de niet-wettelijke audit van een jaarrekenin
 Een contractuele controleopdracht is een opdracht waarbij de gecertificeerd accountant (of bedrijfsrevisor) op verzoek van de cliënt — niet door wet opgelegd — een redelijke mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie zoals een jaarrekening. De beroepsbeoefenaar brengt een oordeel in positieve vorm tot uitdrukking ('de financiële overzichten geven een getrouw beeld').
 
 _Bron: ITAA KMO-controlenorm §2_
+
 
 
 ## Bouwstenen

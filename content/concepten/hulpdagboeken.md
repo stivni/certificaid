@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/hulpdagboeken.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Hulpdagboeken ⚖️
 
@@ -28,6 +28,7 @@ Hulpdagboeken zijn **gespecialiseerde dagboeken per verrichtingstype** (aankoop,
 Hulpdagboeken zijn gespecialiseerde dagboeken die per type verrichting worden bijgehouden, naast het centrale dagboek. Klassieke hulpdagboeken: aankoopdagboek, verkoopdagboek, financieel dagboek (per bankrekening + kas), diversen-dagboek. Hun saldi worden minstens maandelijks gecentraliseerd in het centraal boek.
 
 _Bron: CBN-advies 174/1_
+
 
 
 ## Bouwstenen
@@ -79,15 +80,15 @@ _Grondslag: WER art. III.84; CBN-advies 174/1_
 ## Valkuilen
 
 > [!warning]- Hulpdagboeken zijn niet hetzelfde als 'sub-rekeningen'. Een hulpdagboek is een chronologische registratie per type verrichting; sub-rekeningen zijn een verfijning binnen het rekeningenstelsel.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Centralisatie in centraal boek is verplicht **minstens maandelijks** (volledige dubbele boekhouding). Bij vereenvoudigde boekhouding mag het driemaandelijks.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Het diversen-dagboek is voor wat niet in aankoop/verkoop/financieel past — niet voor 'wat ik niet weet hoe te boeken'.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

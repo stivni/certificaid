@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/controledocumentatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Controledocumentatie / controledossier ⚖️
 
@@ -28,6 +28,7 @@ Controledocumentatie is meer dan administratie: het is het bewijs dat de auditor
 Controledocumentatie is de schriftelijke vastlegging van uitgevoerde controlewerkzaamheden, verkregen assurance-informatie en getrokken conclusies. Een controledossier bestaat uit één of meer mappen (fysiek of elektronisch) met alle vastleggingen van een specifieke controleopdracht.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1 + §43-§49 + ITAA Algemene Controlenorm §4_
+
 
 
 ## Bouwstenen
@@ -106,7 +107,7 @@ _Grondslag: ISA 230 §A14 + ITAA-onderwijspraktijk_
 ## Zie ook
 
 - **Vereist kennis van**: [[]]
-- **Wordt voorondersteld in** (3): [[documenteren-auditdossier]] · [[opstellen-auditstrategie-en-werkprogramma]] · [[werkprogramma-audit]]
+
 ## Voorbeelden
 
 Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie + risico-evaluatie, werkprogramma per cyclus, alle steekproeven (met testresultaten en evaluatie), correspondentie met derden, management-letters, vergaderingsverslagen met de directie, en het ondertekende controleverslag. Sofie Janssens bewaart het dossier 10 jaar.

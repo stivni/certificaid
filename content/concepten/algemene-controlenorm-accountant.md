@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/algemene-controlenorm-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Algemene controlenorm voor de externe accountant ⚖️
 
@@ -29,6 +29,7 @@ De Algemene controlenorm is de overkoepelende ITAA-norm die voor elke controleop
 De algemene controlenorm bundelt voor de gecertificeerd accountant de basisprincipes die voor elke controleopdracht gelden: bekwaamheid en onafhankelijkheid van de beroepsbeoefenaar, opstellen van een werkschema, bijhouden van werkdocumenten, opvolgingsregels bij overname van een opdracht, uitvoering van controlewerkzaamheden, opmaken van een verslag en toezicht via de Commissie van Toezicht. De norm is uitgevaardigd door het ITAA (voorheen IAB).
 
 _Bron: ITAA-norm Algemene controlenorm_
+
 
 
 ## Bouwstenen
@@ -65,7 +66,7 @@ _Grondslag: ITAA-norm-algemene-controlenorm (structuur)_
 ## Zie ook
 
 - **Vereist kennis van**: [[gecertificeerd-accountant-ga]]
-- **Wordt voorondersteld in** (1): [[toepassen-professional-skepticism-en-deontologie-audit]]
+- **Wordt voorondersteld in** (3): [[itaa-normen-ic]] · [[toepassen-professional-skepticism-en-deontologie-audit]] · [[wettelijk-kader-ic]]
 ## Voorbeelden
 
 Sofie Janssens voert een contractuele controle uit op de jaarrekening van Naaiatelier Ninove BV. Zij baseert haar werkzaamheden op (1) de wettekst die haar opdracht omschrijft, (2) de opdrachtbrief, (3) de algemene controlenorm van ITAA en (4) gespecialiseerde vakliteratuur — exact in die volgorde voorgeschreven door §1 van de norm.

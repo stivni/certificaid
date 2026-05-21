@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/balans-presentatie-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # IFRS-balanspresentatie — vlottend versus niet-vlottend ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 Het overzicht van de financiële positie (IFRS-balans) moet activa en verplichtingen splitsen in **vlottend** en **niet-vlottend** (alinea 60). Vlottend = de entiteit verwacht het actief te realiseren, te verkopen of te verbruiken binnen de normale bedrijfscyclus OF binnen 12 maanden na de verslagperiode, OF het is voornamelijk aangehouden om te verhandelen, OF het is een geldmiddel of kasequivalent zonder ruilbeperking (alinea 66). Een verplichting is vlottend onder analoge criteria — incl. wanneer de entiteit geen onvoorwaardelijk recht heeft om de afwikkeling met minstens 12 maanden uit te stellen (alinea 69). Een entiteit mag van deze splitsing afwijken naar een presentatie **op basis van liquiditeitsvolgorde** indien dat een betrouwbaarder en relevanter beeld geeft (typisch financiële instellingen). De minimumposten op het overzicht (alinea 54) zijn vastgelegd: 17 verplichte posten zoals materiële vaste activa, immateriële activa, voorraden, handelsvorderingen, geldmiddelen, voorzieningen, financiële verplichtingen, belastingverplichtingen, eigen vermogen — additionele posten en subtotalen mogen worden toegevoegd indien relevant.
 
 _Bron: IAS 1 alinea 54-69_
+
 
 
 ## Bouwstenen

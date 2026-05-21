@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/accountantsrol-bij-vennootschapsconflict.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Rol van de accountant bij een vennootschapsconflict bij de cliënt 🤖
+# Rol van de accountant bij een vennootschapsconflict bij de cliënt 🔗
 
 Wanneer in een vennootschap-cliënt **interne conflicten** uitbreken tussen aandeelhouders of binnen het bestuur, komt de externe accountant (boekhouder, accountant of commissaris) in een **wankel evenwicht** terecht: hij of zij heeft typisch contractuele banden met de **rechtspersoon** als cliënt, maar de strijdende partijen zijn de **natuurlijke personen** die de rechtspersoon besturen of beheersen. Hoe lang kan de accountant neutraal blijven, voor wie werkt hij eigenlijk, mag hij informatie aan één partij geven die de andere partij niet kent, en wat als hij zelf gedagvaard wordt? De ITAA-deontologie en IESBA-code geven daarvoor een **gelaagd antwoord**: identificeer het conflict, behoud onafhankelijkheid, bescherm het beroepsgeheim — maar besef dat het beroepsgeheim **niet absoluut** is wanneer de accountant zelf in het geding raakt.
 
@@ -26,6 +26,7 @@ Wanneer in een vennootschap-cliënt **interne conflicten** uitbreken tussen aand
 > [!info] Behoort tot: [[vennootschapsconflict]]
 
 Wanneer een vennootschapsconflict ontstaat bij een cliënt, geldt voor de accountant dat hij (1) zijn cliënt de **rechtspersoon** is en niet de individuele aandeelhouder of bestuurder, (2) hij een **belangenconflict** moet identificeren en evalueren zodra hij voor twee partijen werkt met tegengestelde belangen rond de betwiste materie (IESBA 210, KB 1998 art. 11), (3) hij **neutraal en gelijk** moet communiceren met alle organen van de rechtspersoon en geen partij mag kiezen, (4) hij gebonden blijft door het **beroepsgeheim** ten aanzien van derden — maar dat dit beroepsgeheim **wegvalt** wanneer hij zelf in rechte moet getuigen, zijn eigen contractuele aansprakelijkheid in het geding is of zijn erelonen worden betwist (KB 1998 art. 32, ITAA-deontologie-beroepsgeheim).
+
 
 
 ## In de praktijk
@@ -44,23 +45,23 @@ Wanneer een vennootschapsconflict ontstaat bij een cliënt, geldt voor de accoun
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -72,6 +73,6 @@ Wanneer een vennootschapsconflict ontstaat bij een cliënt, geldt voor de accoun
 
 ## Voorbeelden
 
-Accountantskantoor Vermeulen & Co BV behartigt de boekhouding van Drukkerij Cordonnier BV. De twee 50/50-aandeelhouders, Lukas Cordonnier en Margot Vermeulen, raken in een diepgaand conflict over de strategie. Lukas vraagt het kantoor om een waardering van de aandelen op te stellen ter onderbouwing van een uittredingsvordering tegen Margot. **Reactie van het kantoor**: dit is een typisch belangenconflict in de zin van IESBA 210.2 — werken voor één aandeelhouder tegen de andere binnen dezelfde materie waarover de vennootschap (de cliënt) zelf nog geen standpunt heeft. Het kantoor weigert de opdracht aan Lukas persoonlijk en stelt voor dat de aandelenwaardering ofwel (a) door het bestuursorgaan als geheel wordt besteld, ofwel (b) door een **onafhankelijke derde** wordt uitgevoerd. Voor zijn lopende boekhoudopdracht blijft het kantoor neutraal: rapportering aan het bestuursorgaan, niet aan één van beide aandeelhouders apart. 🤖
-Wanneer twee jaar later Lukas het kantoor dagvaardt wegens beweerde fouten in de jaarrekening 2024 — een dagvaarding die ook commercieel publiek wordt gemaakt — geldt: het kantoor **mag** ter eigen verdediging stukken voorleggen die normaal onder het beroepsgeheim van Drukkerij Cordonnier BV vallen (de boekhouding, eigen werkpapieren, briefwisseling), omdat zijn **eigen contractuele aansprakelijkheid** in het geding is (ITAA-deontologie-beroepsgeheim §'Op burgerrechtelijk vlak'). Het kantoor blijft wél verplicht tot **proportionaliteit**: enkel de stukken die strikt nodig zijn voor de verdediging worden vrijgegeven — geen volledige boekhouding-dump. 🤖
+Accountantskantoor Vermeulen & Co BV behartigt de boekhouding van Drukkerij Cordonnier BV. De twee 50/50-aandeelhouders, Lukas Cordonnier en Margot Vermeulen, raken in een diepgaand conflict over de strategie. Lukas vraagt het kantoor om een waardering van de aandelen op te stellen ter onderbouwing van een uittredingsvordering tegen Margot. **Reactie van het kantoor**: dit is een typisch belangenconflict in de zin van IESBA 210.2 — werken voor één aandeelhouder tegen de andere binnen dezelfde materie waarover de vennootschap (de cliënt) zelf nog geen standpunt heeft. Het kantoor weigert de opdracht aan Lukas persoonlijk en stelt voor dat de aandelenwaardering ofwel (a) door het bestuursorgaan als geheel wordt besteld, ofwel (b) door een **onafhankelijke derde** wordt uitgevoerd. Voor zijn lopende boekhoudopdracht blijft het kantoor neutraal: rapportering aan het bestuursorgaan, niet aan één van beide aandeelhouders apart. 🔗
+Wanneer twee jaar later Lukas het kantoor dagvaardt wegens beweerde fouten in de jaarrekening 2024 — een dagvaarding die ook commercieel publiek wordt gemaakt — geldt: het kantoor **mag** ter eigen verdediging stukken voorleggen die normaal onder het beroepsgeheim van Drukkerij Cordonnier BV vallen (de boekhouding, eigen werkpapieren, briefwisseling), omdat zijn **eigen contractuele aansprakelijkheid** in het geding is (ITAA-deontologie-beroepsgeheim §'Op burgerrechtelijk vlak'). Het kantoor blijft wél verplicht tot **proportionaliteit**: enkel de stukken die strikt nodig zijn voor de verdediging worden vrijgegeven — geen volledige boekhouding-dump. 🔗
 

@@ -17,7 +17,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/klasse-0-niet-in-balans.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Klasse 0 — niet in de balans opgenomen rekeningen ⚖️
 
@@ -31,6 +31,7 @@ Klasse 0 (rekeningen 00 tot 07) is een **dubbele rekeningenklasse buiten balans*
 Klasse 0 verzamelt de boekhoudrekeningen (rekeningen 00 tot 07) waarop de vennootschap haar niet in de balans opgenomen rechten en verplichtingen registreert. Deze rekeningen werken paarsgewijs (recht/verplichting met tegenrekening), volgens MAR (Minimum Algemeen Rekeningstelsel).
 
 _Bron: MAR-ondernemingen Klasse 0 — KB 21.10.2018 Bijlage 1; KB W.Venn. art. 97_
+
 
 
 ## Bouwstenen
@@ -65,9 +66,12 @@ _Grondslag: MAR Klasse 0_
 <h3 id="1.3.II.D">Audit-tracé voor toelichting</h3>
 
 > [!tip]- Audit-tracé voor toelichting
-> Bij controle of analyse: vergelijk altijd de klasse-0-saldi met wat in de toelichting staat. Verschil = signaal van incomplete vermelding. 🤖
+> Bij controle of analyse: vergelijk altijd de klasse-0-saldi met wat in de toelichting staat. Verschil = signaal van incomplete vermelding. 🔗
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[rechten-verplichtingen-buiten-balans]]
 ## Bronnen
 
 [^1]: `MAR-ondernemingen__art_0__sub_1deg-3deg`

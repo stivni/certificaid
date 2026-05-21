@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/continuiteitsveronderstelling-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Continuïteitsveronderstelling (audit-perspectief) ⚖️
 
@@ -28,6 +28,7 @@ De financiële overzichten worden opgesteld onder de veronderstelling dat de con
 _Bron: ITAA KMO-controlenorm Bijlage 1 (Continuïteitsveronderstelling) + §93_
 
 
+
 ## In de praktijk
 
 <h3 id="bij-twijfel-extra-werk">Bij twijfel: extra werk</h3>
@@ -38,7 +39,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Continuïteitsveronderstelling) + §93_
 <h3 id="drie-scenario-s-in-het-verslag">Drie scenario's in het verslag</h3>
 
 > [!tip]- Drie scenario's in het verslag
-> (1) Continuïteit OK → geen vermelding. (2) Materiële onzekerheid maar gerechtvaardigd → paragraaf ter benadrukking. (3) Continuïteit verbroken EN niet juist verwerkt → aangepast oordeel. 🤖
+> (1) Continuïteit OK → geen vermelding. (2) Materiële onzekerheid maar gerechtvaardigd → paragraaf ter benadrukking. (3) Continuïteit verbroken EN niet juist verwerkt → aangepast oordeel. 🔗
 
 
 ## Valkuilen
@@ -60,7 +61,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Continuïteitsveronderstelling) + §93_
 
 - **Vereist kennis van**: [[paragraaf-ter-benadrukking]]
 - **Vereist kennis van**: [[afwijking-van-materieel-belang]]
-
+- **Wordt voorondersteld in** (2): [[beoordelen-getrouw-beeld-en-regelmatigheid]] · [[verwerven-kennis-van-clientonderneming-audit]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV heeft twee jaar op rij verlies en een negatief eigen vermogen. Sofie Janssens vraagt aan het management een liquiditeitsbegroting op 18 maanden + onderbouwing van de geplande herfinanciering. Resultaat: redelijk plan met krediettoezegging van de bank → continuïteit blijft als veronderstelling aanvaardbaar, maar Sofie neemt een paragraaf ter benadrukking op in haar verslag over de materiële onzekerheid.

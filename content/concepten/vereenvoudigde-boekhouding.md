@@ -19,7 +19,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereenvoudigde-boekhouding.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Vereenvoudigde boekhouding ⚖️
 
@@ -30,9 +30,12 @@ Een **alternatief boekhoudregime** voor kleine ondernemingen onder de WER-drempe
 
 > [!info] Specialisatie van: [[regelmatige-boekhouding]]
 
+> [!info] Specialisaties (1): [[regelmatige-boekhouding]]
+
 Een **alternatieve boekhoudvorm** voor kleine ondernemingen onder de wettelijke drempelwaarden (WER art. III.85), die GEEN dubbele boekhouding vereist. In plaats van een rekeningstelsel met debet/credit gebruikt de onderneming **drie aparte dagboeken**: een financieel dagboek (bank en kas), een aankoopdagboek (alle uitgaven) en een verkoopdagboek (alle inkomsten). De jaarrekening is een vereenvoudigd schema (staat van ontvangsten en uitgaven + opgave van het vermogen).
 
 _Bron: WER art. III.85_
+
 
 
 ## Bouwstenen
@@ -109,7 +112,7 @@ _Grondslag: CBN 2019/10_
 ## Valkuilen
 
 > [!warning]- Vereenvoudigde boekhouding is GEEN 'minder strikte' boekhouding qua bewijswaarde
-> ⚠️ Vereenvoudigde boekhouding is GEEN 'minder strikte' boekhouding qua bewijswaarde. Ze blijft regelmatig moeten zijn (volledigheid, onveranderlijkheid, tijdsorde). Het verschil zit alleen in de structuur (drie dagboeken vs. rekeningstelsel), niet in de kwaliteitseisen. 🤖
+> ⚠️ Vereenvoudigde boekhouding is GEEN 'minder strikte' boekhouding qua bewijswaarde. Ze blijft regelmatig moeten zijn (volledigheid, onveranderlijkheid, tijdsorde). Het verschil zit alleen in de structuur (drie dagboeken vs. rekeningstelsel), niet in de kwaliteitseisen. 🔗
 >
 > _Bron: CBN 174/1 + CBN 2019/10_
 

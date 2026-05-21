@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opportuniteitskost.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Opportuniteitskost 🤖
+# Opportuniteitskost 🔗
 
 De opportuniteitskost is de waarde van het opgegeven alternatief — wat je had kunnen verdienen door dezelfde middelen (tijd, machine-uren, kapitaal, vloeroppervlakte) anders in te zetten. Niet boekhoudkundig vastgelegd, want geen uitgaande betaling, maar onmisbaar bij beslissingen waar middelen schaars zijn (make-or-buy, productmix bij capaciteitsbeperking, kapitaalinvestering). Stagiair-valkuil: opportuniteitskost niet meerekenen omdat ze 'niet in de boekhouding staat'.
 
@@ -26,6 +26,7 @@ De opportuniteitskost is de waarde van het opgegeven alternatief — wat je had 
 De opportuniteitskost is de waarde van het opgegeven alternatief — wat je had kunnen verdienen als je hetzelfde middel (tijd, machine, kapitaal) anders had ingezet. Niet boekhoudkundig geregistreerd; wel cruciaal voor beslissingen waar resources schaars zijn.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## In de praktijk

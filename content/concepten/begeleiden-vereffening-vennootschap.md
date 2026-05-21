@@ -15,11 +15,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/begeleiden-vereffening-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Begeleiden van de vereffening van een vennootschap (staat van activa/passiva tot sluiting) 🤖
+# Begeleiden van de vereffening van een vennootschap (staat van activa/passiva tot sluiting) 🔗
 
 Operationele competentie waarbij de gecertificeerd accountant — als adviseur van de vereffenaar of, bij wettelijk voorbehouden verslagen, als beroepsbeoefenaar die de staat van activa en passiva controleert — de vereffening van een vennootschap procedureel en boekhoudkundig begeleidt van de aanstelling van de vereffenaar tot de sluiting. Hij waakt over schuldeisersbescherming, juiste fiscale afhandeling en correcte uitkering van het saldo.
+
 
 
 ## In de praktijk

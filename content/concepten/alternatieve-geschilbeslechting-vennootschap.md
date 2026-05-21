@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/alternatieve-geschilbeslechting-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Alternatieve geschilbeslechting in vennootschapsconflicten 🤖
+# Alternatieve geschilbeslechting in vennootschapsconflicten 🔗
 
 Naast de gerechtelijke remedies en de SHA-exit-mechanismes wint **alternatieve geschilbeslechting** (ADR) terrein: arbitrage, mediation en bindende expertise leveren snellere, vertrouwelijke en relatie-bewarende oplossingen op. Een ADR-clausule in de statuten of de aandeelhoudersovereenkomst kan een geschil voorafgaand sturen.
 
@@ -29,9 +29,10 @@ Naast de gerechtelijke remedies en de SHA-exit-mechanismes wint **alternatieve g
 Alternatieve geschilbeslechting in vennootschapsconflicten omvat de niet-rechterlijke procedures waarbij partijen — meestal op basis van een contractuele clausule — een neutrale derde inschakelen om hun conflict op te lossen: **arbitrage** (bindend vonnis door arbiter(s)), **mediation** (gefaciliteerd onderhandelingsproces zonder bindende uitspraak) en **bindende expertise** (technische beslissing door deskundige, bijvoorbeeld over waardering).
 
 
+
 ## Bouwstenen
 
-### Arbitrage 🤖
+### Arbitrage 🔗
 
 Een arbitrageclausule onttrekt het geschil aan de overheidsrechter. Bij een vennootschapsgeschil tussen aandeelhouders geldt: de geschillenregeling van Boek 2 Titel 7 WVV is **deels arbitrabel** (vorderingen tot uittreding en uitsluiting van aandeelhouders kunnen geheel worden ondergebracht in arbitrage mits geldige clausule).
 
@@ -53,7 +54,7 @@ Een onafhankelijke bemiddelaar (erkend mediator) helpt partijen tot een overeeng
 
 _Grondslag: Gerechtelijk Wetboek art. 1723/1 e.v._
 
-### Bindende expertise voor waardering 🤖
+### Bindende expertise voor waardering 🔗
 
 Bij conflict over de **prijs** van uittredende of uitgesloten aandelen wijzen statuten/SHA vaak een derde-expert aan (bedrijfsrevisor, gecertificeerd accountant) die bindend de waarde bepaalt.
 

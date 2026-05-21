@@ -21,7 +21,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/inventaris.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Inventaris ⚖️
 
@@ -37,12 +37,13 @@ Het **gestructureerd overzicht** van alle bezittingen, vorderingen, schulden, ve
 _Bron: WER art. III.89_
 
 
+
 ## In de praktijk
 
 <h3 id="cut-off-rond-balansdatum">Cut-off rond balansdatum</h3>
 
 > [!tip]- Cut-off rond balansdatum
-> Goederen ontvangen vóór 31/12 horen in de voorraad, ook al komt de factuur in januari. Goederen verzonden vóór 31/12 horen niet meer in de voorraad, ook al wordt de verkoopfactuur pas in januari opgemaakt. Cut-off is de kritische bewaking rond balansdatum. 🤖
+> Goederen ontvangen vóór 31/12 horen in de voorraad, ook al komt de factuur in januari. Goederen verzonden vóór 31/12 horen niet meer in de voorraad, ook al wordt de verkoopfactuur pas in januari opgemaakt. Cut-off is de kritische bewaking rond balansdatum. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examenvraag: 'levering op 30/12 met factuur op 5/1' — boeking in 20X1 of 20X2?
@@ -177,7 +178,7 @@ De volledige inventaris en de jaarrekening worden overgeschreven in een inventar
 
 - **Getriggerd door**: [[eindejaarsverrichtingen]]
 - **Vereist kennis van**: [[waarderingsregels-jaarrekening]]
-
+- **Wordt voorondersteld in** (2): [[eindejaarsverrichtingen]] · [[volledigheidsbeginsel]]
 ## Bronnen
 
 [^1]: `CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden`

@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aansprakelijkheidsbeperking-bestuurder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Aansprakelijkheidsbeperking voor bestuurders (cap + exoneratieverbod) ⚖️
 
@@ -28,6 +28,7 @@ Het tweeluik beoogt **evenwicht**: enerzijds de bestuurder financieel beschermen
 Het WVV bouwt sinds 2019 een **tweeluik** voor de bestuurdersaansprakelijkheid op: (a) art. 2:56 voert een **wettelijke maximumlimiet (cap)** in voor het bedrag waarvoor een lid van een bestuursorgaan of een dagelijks bestuurder kan worden veroordeeld; (b) art. 2:57 verbiedt **contractuele of statutaire exoneratie- en vrijwaringsbedingen** die de cap verder zouden uithollen of die de vennootschap zelf zouden laten opdraaien voor de bestuurdersfout (art. 2:58 sanctioneert strijdige bedingen met niet-geschreven-verklaring).
 
 _Bron: WVV art. 2:56, 2:57, 2:58_
+
 
 
 > [!info] Uitzondering op: [[]] · [[]]
@@ -61,8 +62,8 @@ _Bron: WVV art. 2:56, 2:57, 2:58_
 
 ## Voorbeelden
 
-**Zelena Bio NV** (beursgenoteerd, balanstotaal € 250 mln, omzet € 180 mln) is een **organisatie van openbaar belang**: voor haar bestuurders geldt de **hoogste cap-categorie** ongeacht de hoogte van de schadeclaim — de wet zegt dat OOI-status het criterium balanstotaal/omzet overschrijdt. _(Zelena Bio NV)_ 🤖
-Bestuurder **Marleen De Cock** van **Brugse Brouwerij BV** wordt aangesproken voor € 800.000 schade door een onrechtmatige uitkering. Onderzoek wijst op een **zware fout** (nettoactieftest werd niet uitgevoerd). De cap van art. 2:56 biedt **geen bescherming** — de uitzondering 'zware fout' schakelt het plafond uit. Bovendien legt art. 5:144 WVV een specifieke hoofdelijke aansprakelijkheid op die **buiten** de cap valt. _(Marleen De Cock, Brugse Brouwerij BV)_ 🤖
+**Zelena Bio NV** (beursgenoteerd, balanstotaal € 250 mln, omzet € 180 mln) is een **organisatie van openbaar belang**: voor haar bestuurders geldt de **hoogste cap-categorie** ongeacht de hoogte van de schadeclaim — de wet zegt dat OOI-status het criterium balanstotaal/omzet overschrijdt. _(Zelena Bio NV)_ 🔗
+Bestuurder **Marleen De Cock** van **Brugse Brouwerij BV** wordt aangesproken voor € 800.000 schade door een onrechtmatige uitkering. Onderzoek wijst op een **zware fout** (nettoactieftest werd niet uitgevoerd). De cap van art. 2:56 biedt **geen bescherming** — de uitzondering 'zware fout' schakelt het plafond uit. Bovendien legt art. 5:144 WVV een specifieke hoofdelijke aansprakelijkheid op die **buiten** de cap valt. _(Marleen De Cock, Brugse Brouwerij BV)_ 🔗
 
 ## Bronnen
 

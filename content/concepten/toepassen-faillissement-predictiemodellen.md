@@ -17,11 +17,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toepassen-faillissement-predictiemodellen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toepassen van kwantitatieve faillissement-predictiemodellen (Altman Z en Ohlson O) 🤖
+# Toepassen van kwantitatieve faillissement-predictiemodellen (Altman Z en Ohlson O) 🔗
 
 Operationele competentie: input-ratio's berekenen voor Altman Z en Ohlson O, beide scores positioneren tegen hun referentiezone of probabiliteit, en de signalen vergelijken met de klassieke ratio-analyse. Modellen zijn complementair, niet vervangend — de gecertificeerd accountant gebruikt ze om de inschatting "early-warning" te objectiveren tegenover zichzelf en de klant.
+
 
 
 ## Stappen

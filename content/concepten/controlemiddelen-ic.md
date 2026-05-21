@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controlemiddelen-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Controlemiddelen — concrete instrumenten 🤖
+# Controlemiddelen — concrete instrumenten 🔗
 
 Controlemiddelen zijn de fysieke + digitale infrastructuur die beheersactiviteiten daadwerkelijk afdwingt — wat ISA 315 (herzien-2019) onderbrengt onder 'controle-instrumenten' van COSO-component 3. Voor de stagiair belangrijk om te begrijpen dat een control zonder middel niet uitvoerbaar én niet auditbaar is: zonder ondertekend formulier, ERP-flag, of audit-trail is er geen evidence en kan de auditor er niet op steunen (ISA 500 + ISA 330). Het examenprogramma 1.7.VIII.D vraagt de stagiair om concrete instrumenten te kunnen koppelen aan controle-doelen.
 
@@ -27,6 +27,7 @@ Controlemiddelen zijn de fysieke + digitale infrastructuur die beheersactiviteit
 > [!info] Behoort tot: [[beheersactiviteiten]]
 
 Controlemiddelen zijn de concrete instrumenten — documenten, fysieke beveiligingen, IT-functies, procedurele artefacten — waarmee beheersactiviteiten daadwerkelijk worden uitgevoerd. Het is de tastbare laag onder COSO-component 3: zonder middel kan een controle niet plaatsvinden én niet bewezen worden. Een sluitend IC-systeem combineert middelen uit alle vier categorieën (documenten, fysiek, IT, procedureel).
+
 
 
 ## Bouwstenen
@@ -87,12 +88,12 @@ _Grondslag: ITAA-norm-kmo-controlenorm §96-§97 (proportionele aanpak bij KMO)_
 <h3 id="mix-afhankelijk-van-risico-en-aard-proces">Mix afhankelijk van risico en aard proces</h3>
 
 > [!tip]- Mix afhankelijk van risico en aard proces
-> Geen one-size-fits-all: een kasontvangst-proces vraagt fysieke beveiligingen + dubbele telling (procedureel) + dagboek-registratie (documentair). Een online-aankoop vraagt vooral IT-instrumenten (drie-weg-match, krediet-check) + documenten (bestelbon-bewijs). Aanvullende procedurele controle als sluitstuk. 🤖
+> Geen one-size-fits-all: een kasontvangst-proces vraagt fysieke beveiligingen + dubbele telling (procedureel) + dagboek-registratie (documentair). Een online-aankoop vraagt vooral IT-instrumenten (drie-weg-match, krediet-check) + documenten (bestelbon-bewijs). Aanvullende procedurele controle als sluitstuk. 🔗
 
 <h3 id="middel-beheersactiviteit">Middel ≠ beheersactiviteit</h3>
 
 > [!tip]- Middel ≠ beheersactiviteit
-> Een handtekening (middel) is nog geen autorisatie (beheersactiviteit) tot er ook een norm bestaat wie tekent vanaf welk bedrag. Stagiair krijgt soms 'controle-instrumenten' vraag — vertaal eerst naar welke beheersactiviteit ze realiseren. 🤖
+> Een handtekening (middel) is nog geen autorisatie (beheersactiviteit) tot er ook een norm bestaat wie tekent vanaf welk bedrag. Stagiair krijgt soms 'controle-instrumenten' vraag — vertaal eerst naar welke beheersactiviteit ze realiseren. 🔗
 
 
 ## Valkuilen
@@ -110,7 +111,7 @@ _Grondslag: ITAA-norm-kmo-controlenorm §96-§97 (proportionele aanpak bij KMO)_
 
 - **Vereist kennis van**: [[geinformatiseerde-omgeving-ic]]
 - **Vereist kennis van**: [[functiescheiding]]
-
+- **Wordt voorondersteld in** (2): [[confirmatiebrieven]] · [[uitvoering-interne-controle]]
 ## Voorbeelden
 
 ### Controlemiddelen-mix bij Yperse Werkplaats BV (KMO)

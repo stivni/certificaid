@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/liquidatiebonus.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Liquidatiebonus ⚖️
 
@@ -30,17 +30,18 @@ De **liquidatiebonus** is het positieve verschil tussen het bedrag dat een aande
 _Bron: WIB92 art. 18, 2°ter + art. 269_
 
 
+
 ## In de praktijk
 
 <h3 id="berekening">Berekening</h3>
 
 > [!tip]- Berekening
-> Liquidatiebonus = **uitgekeerd bedrag − fiscaal gestort kapitaal**. Reserves (ook belast en niet-belast) zitten in het uitgekeerde bedrag maar zijn niet aftrekbaar — alleen het oorspronkelijk kapitaal verminderd met eventuele eerdere kapitaalverminderingen telt als 'fiscaal gestort'. 🤖
+> Liquidatiebonus = **uitgekeerd bedrag − fiscaal gestort kapitaal**. Reserves (ook belast en niet-belast) zitten in het uitgekeerde bedrag maar zijn niet aftrekbaar — alleen het oorspronkelijk kapitaal verminderd met eventuele eerdere kapitaalverminderingen telt als 'fiscaal gestort'. 🔗
 
 <h3 id="vvpr-bis-regime">VVPR-bis-regime</h3>
 
 > [!tip]- VVPR-bis-regime
-> Voor aandelen uitgegeven na 1 juli 2013 in kleine vennootschappen, mits voldaan aan storting-, wachttijd- en houdingsvoorwaarden, geldt een verlaagde voorheffing van 20 % (eerste verdeling) of **15 %** (vanaf derde boekjaar na inbreng) op dividenden — ook op de liquidatiebonus. 🤖
+> Voor aandelen uitgegeven na 1 juli 2013 in kleine vennootschappen, mits voldaan aan storting-, wachttijd- en houdingsvoorwaarden, geldt een verlaagde voorheffing van 20 % (eerste verdeling) of **15 %** (vanaf derde boekjaar na inbreng) op dividenden — ook op de liquidatiebonus. 🔗
 
 <h3 id="voorschot-op-verdeling">Voorschot op verdeling</h3>
 
@@ -51,10 +52,13 @@ _Bron: WIB92 art. 18, 2°ter + art. 269_
 ## Valkuilen
 
 > [!warning]- **Kapitaalverlies wordt geen fiscaal verlies.** Bij vereffening met tekort kan de aandeelhouder zijn ingebracht kapitaal niet als fiscaal ve…
-> ⚠️ **Kapitaalverlies wordt geen fiscaal verlies.** Bij vereffening met tekort kan de aandeelhouder zijn ingebracht kapitaal niet als fiscaal verlies aftrekken — het uitgekeerde bedrag kan lager zijn dan het fiscaal gestort kapitaal zonder dat dit een aftrekbaar verlies oplevert voor de natuurlijke persoon (anders voor vennootschap-aandeelhouder: minderwaarde op aandelen). 🤖
+> ⚠️ **Kapitaalverlies wordt geen fiscaal verlies.** Bij vereffening met tekort kan de aandeelhouder zijn ingebracht kapitaal niet als fiscaal verlies aftrekken — het uitgekeerde bedrag kan lager zijn dan het fiscaal gestort kapitaal zonder dat dit een aftrekbaar verlies oplevert voor de natuurlijke persoon (anders voor vennootschap-aandeelhouder: minderwaarde op aandelen). 🔗
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (3): [[adviseren-ontbindingsroute-vennootschap]] · [[begeleiden-vereffening-vennootschap]] · [[exit-routes-onderneming-overzicht]]
 ## Voorbeelden
 
 Aandeelhouder Pieter Vermeulen ontvangt bij de sluiting van Verffabriek Veurne BV een vereffeningssaldo van € 80.000. Fiscaal gestort kapitaal van zijn aandelen: € 50.000. Liquidatiebonus = € 30.000. Roerende voorheffing 30 % = € 9.000 ingehouden door de vennootschap; netto-uitkering Pieter = € 80.000 − € 9.000 = € 71.000. _(Verffabriek Veurne BV, Pieter Vermeulen)_

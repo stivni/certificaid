@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/buitengerechtelijk-minnelijk-akkoord.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Buitengerechtelijk minnelijk akkoord ⚖️
 
@@ -29,12 +29,13 @@ Vrijwillig akkoord waarbij de schuldenaar aan **minstens twee schuldeisers** een
 _Bron: WER art. XX.64 e.v._
 
 
+
 ## In de praktijk
 
 <h3 id="inhoud-van-het-akkoord">Inhoud van het akkoord</h3>
 
 > [!tip]- Inhoud van het akkoord
-> Typisch: gedeeltelijke kwijtschelding (haircut), uitstel van betaling, gespreide afbetaling, omzetting van schuld in kapitaal of achtergestelde schuld. Het akkoord is een privaatrechtelijk contract — geen wettelijk voorgeschreven inhoud. 🤖
+> Typisch: gedeeltelijke kwijtschelding (haircut), uitstel van betaling, gespreide afbetaling, omzetting van schuld in kapitaal of achtergestelde schuld. Het akkoord is een privaatrechtelijk contract — geen wettelijk voorgeschreven inhoud. 🔗
 
 <h3 id="beperking-relativiteit">Beperking — relativiteit</h3>
 
@@ -50,7 +51,7 @@ _Bron: WER art. XX.64 e.v._
 ## Valkuilen
 
 > [!warning]- Geen opschortingsbescherming — een individuele schuldeiser kan tijdens de onderhandeling perfect dagvaarden in faillissement. Voor opschortingsbescherming: schakel naar gerechtelijk minnelijk akkoord (XX.64) of besloten reorganisatie (XX.83/22).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

@@ -17,11 +17,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kwalificeren-boekhoudplichtige-onderneming.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Kwalificeren of een onderneming boekhoudplichtig is en welk type boekhouding zij moet voeren 🤖
+# Kwalificeren of een onderneming boekhoudplichtig is en welk type boekhouding zij moet voeren 🔗
 
 Eerste filter in elk boekhoudrechtelijk dossier: is deze onderneming **onder Boek III WER**? Zo ja, welk type boekhouding (dubbele of vereenvoudigde)? Voor de stagiair-GA basale instapcompetentie zonder dewelke geen verder advies mogelijk is.
+
 
 
 ## Stappen

@@ -16,7 +16,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/consortium.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Consortium (horizontale groep) ⚖️
 
@@ -25,9 +25,12 @@ Een groepsfiguur uit het Belgische vennootschapsrecht (WVV) die naast de klassie
 > [!summary] Korte inhoud
 > Een groep vennootschappen die niet door een moeder-dochter-relatie zijn verbonden, maar wel onder één gemeenschappelijke leiding staan.
 
+> [!info] Bestaat uit (1): [[horizontale-consolidatie]]
+
 Een groep vennootschappen die niet door een moeder-dochter-relatie zijn verbonden, maar wel onder één gemeenschappelijke leiding staan. In een gewone (verticale) groep moet de moeder consolideren. In een consortium is er geen moeder — de consolidatieplicht rust gezamenlijk bij de leden van het consortium: zij stellen samen één geconsolideerde jaarrekening en jaarverslag op en publiceren die.
 
 _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
+
 
 
 ## In de praktijk
@@ -74,7 +77,7 @@ _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 
 - **Getriggerd door**: [[horizontale-consolidatie]]
 - **Vereist kennis van**: [[controle]]
-
+- **Wordt voorondersteld in** (1): [[ifrs-toepassingsgebied-belgie]]- **Triggert** (1): [[horizontale-consolidatie]]
 ## Voorbeelden
 
 Industria Antwerpen NV en Jachthaven Jezus-Eik NV hebben geen onderlinge moeder-dochter-relatie, maar dezelfde meerderheid van bestuurders en dezelfde feitelijke leider (Pieter Vermeulen). → onweerlegbaar consortium → samen consolidatieplichtig.

@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/inkoop-eigen-aandelen-nv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Inkoop van eigen aandelen door de NV ⚖️
 
@@ -28,6 +28,7 @@ Eigen aandelen verwerven is voor schuldeisers een verkapte uitkering — de venn
 **Verwerving door de naamloze vennootschap van haar eigen aandelen, winstbewijzen of certificaten** — een transactie die gelijkstaat met een uitkering aan de verkopende aandeelhouder. Beslissing door de algemene vergadering met **bijzondere meerderheid** (80 % van de uitgebrachte stemmen, minstens helft van het kapitaal aanwezig) onder vooraf bepaalde voorwaarden (maximumprijs, termijn, modaliteiten). Het bestuursorgaan voert vervolgens uit binnen de AV-machtiging.
 
 _Bron: WVV art. 7:215-7:221_
+
 
 
 ## Bouwstenen
@@ -104,13 +105,13 @@ _Grondslag: WVV art. 7:219_
 <h3 id="boekhoudkundige-verwerking">Boekhoudkundige verwerking</h3>
 
 > [!tip]- Boekhoudkundige verwerking
-> Verkregen eigen aandelen worden op de activa onder een aparte rubriek opgenomen (12 of 502 voor genoteerde aandelen). Gelijktijdig wordt een onbeschikbare reserve gevormd op het eigen vermogen ter zelfde bedrag. 🤖
+> Verkregen eigen aandelen worden op de activa onder een aparte rubriek opgenomen (12 of 502 voor genoteerde aandelen). Gelijktijdig wordt een onbeschikbare reserve gevormd op het eigen vermogen ter zelfde bedrag. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Een inkoop is **geen** loutere balansbeweging. Verwerk steeds drie effecten: (1) cashflow naar de verkopende aandeelhouder, (2) eigen aandelen op de activa, (3) onbeschikbare reserve op het eigen vermogen. Een vergeten reserve maakt latere dividenduitkeringen ten onrechte mogelijk.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

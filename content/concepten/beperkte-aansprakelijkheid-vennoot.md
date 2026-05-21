@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beperkte-aansprakelijkheid-vennoot.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Beperkte aansprakelijkheid van vennoten/aandeelhouders ⚖️
 
@@ -27,6 +27,7 @@ Beperkte aansprakelijkheid betekent dat een aandeelhouder/vennoot tegenover de s
 _Bron: WVV art. 5:1, 6:1, 7:1_
 
 
+
 ## In de praktijk
 
 <h3 id="drie-vormen-met-beperkte-aansprakelijkheid">Drie vormen met beperkte aansprakelijkheid</h3>
@@ -37,7 +38,7 @@ _Bron: WVV art. 5:1, 6:1, 7:1_
 <h3 id="grenzen-bestuurdersaansprakelijkheid-blijft">Grenzen — bestuurdersaansprakelijkheid blijft</h3>
 
 > [!tip]- Grenzen — bestuurdersaansprakelijkheid blijft
-> Beperkte aansprakelijkheid geldt voor de aandeelhouder *in zijn hoedanigheid van aandeelhouder*. Bestuurders (vaak dezelfde personen in KMO's) kunnen wel persoonlijk aansprakelijk worden gesteld voor bestuursfouten — zie de bestuurdersaansprakelijkheidsregels in PO 3.0.VII. In een eenpersoons-BV is de oprichter dus beschermd als aandeelhouder, maar niet automatisch als bestuurder. 🤖
+> Beperkte aansprakelijkheid geldt voor de aandeelhouder *in zijn hoedanigheid van aandeelhouder*. Bestuurders (vaak dezelfde personen in KMO's) kunnen wel persoonlijk aansprakelijk worden gesteld voor bestuursfouten — zie de bestuurdersaansprakelijkheidsregels in PO 3.0.VII. In een eenpersoons-BV is de oprichter dus beschermd als aandeelhouder, maar niet automatisch als bestuurder. 🔗
 
 <h3 id="bij-oprichting-bestaat-een-tijdelijke-kwetsbaarheid">Bij oprichting bestaat een tijdelijke kwetsbaarheid</h3>
 
@@ -48,14 +49,14 @@ _Bron: WVV art. 5:1, 6:1, 7:1_
 ## Valkuilen
 
 > [!warning]- In de praktijk vragen banken bij KMO-kredietverlening vaak een **persoonlijke borgstelling** van de aandeelhouder-bestuurder
-> ⚠️ In de praktijk vragen banken bij KMO-kredietverlening vaak een **persoonlijke borgstelling** van de aandeelhouder-bestuurder. Dat doorbreekt de beperkte aansprakelijkheid contractueel — niet wettelijk, maar in de feiten leiden de twee tot hetzelfde resultaat. 🤖
+> ⚠️ In de praktijk vragen banken bij KMO-kredietverlening vaak een **persoonlijke borgstelling** van de aandeelhouder-bestuurder. Dat doorbreekt de beperkte aansprakelijkheid contractueel — niet wettelijk, maar in de feiten leiden de twee tot hetzelfde resultaat. 🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[inbreng-vennootschap]]
-
+- **Wordt voorondersteld in** (4): [[besloten-vennootschap-bv]] · [[cooperatieve-vennootschap-cv]] · [[naamloze-vennootschap-nv]] · [[vennootschapsvormen-vergelijking]]
 ## Voorbeelden
 
 **Meubelzaak Mertens BV** gaat failliet met € 250.000 schulden en € 50.000 activa. De twee aandeelhouders hebben elk € 18.500 ingebracht. Schuldeisers krijgen het saldo van de activa; de aandeelhouders verliezen hun inbreng maar hun privé-huis en spaargeld blijven onaangetast (mits geen bestuurdersfout). _(Meubelzaak Mertens BV)_

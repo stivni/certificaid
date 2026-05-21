@@ -14,7 +14,7 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/griffies-ondernemingsrechtbank.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Griffies van de ondernemingsrechtbank ⚖️
 
@@ -26,6 +26,7 @@ De griffies van de ondernemingsrechtbanken houden het **ondernemingsdossier** bi
 De griffies van de ondernemingsrechtbanken houden voor elke vennootschap en vereniging een ondernemingsdossier bij waarin oprichtingsakten, statutenwijzigingen, benoemingen van bestuurders, ontbindingsbesluiten en jaarrekening-vermeldingen worden neergelegd. Dit dossier is openbaar — derden kunnen het raadplegen.
 
 _Bron: KB-WVV art. 1:2_
+
 
 
 ## Bouwstenen
@@ -68,7 +69,7 @@ _Grondslag: WVV art. 3:10; KB-WVV art. 1:2_
 <h3 id="bron-voor-due-diligence">Bron voor due-diligence</h3>
 
 > [!tip]- Bron voor due-diligence
-> Bij een overname of kredietverlening checkt de adviseur het ondernemingsdossier bij de griffie: wie tekenbevoegd is, of er recente statutenwijzigingen zijn, of de vennootschap niet in ontbinding is. Dit dossier is publiek raadpleegbaar (gratis online via Centraal Register van Ondernemingen / Kruispuntbank van Ondernemingen). 🤖
+> Bij een overname of kredietverlening checkt de adviseur het ondernemingsdossier bij de griffie: wie tekenbevoegd is, of er recente statutenwijzigingen zijn, of de vennootschap niet in ontbinding is. Dit dossier is publiek raadpleegbaar (gratis online via Centraal Register van Ondernemingen / Kruispuntbank van Ondernemingen). 🔗
 
 > [!tip]- Herkennen op het examen
 > Casus 'verifieer of bestuurder Y nog tekenbevoegd is voor Aurelia Holding NV' → griffie-dossier raadplegen.
@@ -83,11 +84,11 @@ _Grondslag: WVV art. 3:10; KB-WVV art. 1:2_
 ## Valkuilen
 
 > [!warning]- De jaarrekening wordt **niet** bij de griffie neergelegd — alleen bij de NBB. Bij de griffie komt enkel een **vermelding** dat de jaarrekening neergelegd is.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Statutenwijzigingen (kapitaalverhoging, naamwijziging, ...) moeten zowel bij de griffie als in het Belgisch Staatsblad worden gepubliceerd — niet bij de NBB.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

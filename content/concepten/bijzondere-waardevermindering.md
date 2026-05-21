@@ -16,9 +16,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bijzondere-waardevermindering.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Bijzondere waardevermindering (regime-overstijgend) 🤖
+# Bijzondere waardevermindering (regime-overstijgend) 🔗
 
 Het examenprogramma toetst onder PO 1.5.V.A de IFRS-mechaniek (impairment-test, CGU, omkering) naast PO 1.1 de BE-GAAP-mechaniek (aanvullende afschrijving, waardevermindering). De stagiair moet beide regimes kennen én weten hoe ze functioneel hetzelfde economische probleem (boekwaarde > realiseerbare waarde) op verschillende manieren oplossen.
 
@@ -27,9 +27,12 @@ Het examenprogramma toetst onder PO 1.5.V.A de IFRS-mechaniek (impairment-test, 
 
 > [!info] Behoort tot: [[waarderingsregels-jaarrekening]]
 
+> [!info] Specialisaties (2): [[bijzondere-waardevermindering-be-gaap]] · [[bijzondere-waardevermindering-ifrs]]
+
 Bijzondere waardevermindering is de boekhoudkundige erkenning van een waardeverlies op een actief wanneer de realiseerbare of gebruikswaarde van dat actief lager ligt dan zijn boekhoudkundige restwaarde. Onder elk boekhoudregime is de logica gelijk: detecteer indicatoren, vergelijk boekwaarde met realiseerbare/gebruikswaarde, registreer het verschil als verlies of als aanvullende afschrijving. De rekenmethode en rapportering verschillen wezenlijk tussen IFRS (IAS 36 — formele test, expliciete CGU) en BE GAAP (KB WVV art. 3:42 — gebruikswaarde voor de vennootschap, principe-gebaseerd).
 
 _Bron: Aggregatie IAS 36 + KB WVV art. 3:42-3:43_
+
 
 
 ## Bouwstenen

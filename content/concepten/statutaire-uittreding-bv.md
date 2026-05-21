@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/statutaire-uittreding-bv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Statutaire uittreding en uitsluiting in de BV 🤖
+# Statutaire uittreding en uitsluiting in de BV 🔗
 
 Naast de gerechtelijke geschillenregeling (Boek 2 Titel 7) biedt de **BV** een uniek **statutair regime**: de statuten kunnen voorzien dat aandeelhouders ten laste van het vennootschapsvermogen kunnen uittreden, of dat de algemene vergadering een aandeelhouder kan uitsluiten. De NV kent dit niet — daar moet men steeds naar de rechter. Dit statutaire regime weerspiegelt het personalistische karakter van de BV.
 
@@ -27,6 +27,7 @@ Naast de gerechtelijke geschillenregeling (Boek 2 Titel 7) biedt de **BV** een u
 > [!info] Behoort tot: [[vennootschapsconflict]] · Specialisatie van: [[besloten-vennootschap-bv]]
 
 Het statutaire uittredings- en uitsluitingsregime van de BV (art. 5:154-5:156) laat de statuten bepalen dat een aandeelhouder ten laste van het vennootschapsvermogen kan uittreden of dat de algemene vergadering hem om wettige reden kan uitsluiten, met betaling van het **scheidingsaandeel** uit het vermogen van de vennootschap.
+
 
 
 ## Bouwstenen
@@ -102,11 +103,11 @@ _Grondslag: WVV art. 5:156_
 ## Valkuilen
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Valkuil
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

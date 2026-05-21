@@ -16,7 +16,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/enige-bestuurder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Enige bestuurder ⚖️
 
@@ -30,6 +30,7 @@ De enige bestuurder is in de NV een statutair alternatief voor de raad van bestu
 De enige bestuurder is de persoon die in een NV — krachtens een statutaire keuze — alleen de bestuursbevoegdheid van het bestuursorgaan uitoefent. Hij vervult alle taken die in een monistisch model aan de raad van bestuur toekomen, met aangepaste belangenconflict-procedures: hij legt persoonlijke belangenconflicten ter beslissing voor aan de algemene vergadering (art. 7:102). Wanneer de enige bestuurder een rechtspersoon is met een collegiaal bestuursorgaan, geldt de bestuurdersbelangenconflictenregel binnen die rechtspersoon.
 
 _Bron: WVV art. 7:101, 7:102_
+
 
 
 ## In de praktijk

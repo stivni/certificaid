@@ -15,13 +15,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/functiescheiding.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Functiescheiding 🤖
+# Functiescheiding 🔗
 
 Functiescheiding is binnen het examenprogramma 1.7.VII het hoeksteen-principe van preventieve IC: door autoriseren, uitvoeren, bewaren en registreren te splitsen ontstaat natuurlijke kruiscontrole en wordt fraude alleen mogelijk via samenspanning. De ISA-norm en de ITAA KMO-controlenorm erkennen het principe expliciet, maar erkennen ook dat een KMO niet altijd volledige scheiding kan realiseren — dan zijn compenserende controles (review door bovenliggende laag, externe accountant, IT-afdwinging) verplicht.
 
 > [!info] Behoort tot: [[interne-controle]]
+
 
 
 ## Bouwstenen
@@ -101,6 +102,9 @@ _Grondslag: ISA 315 (herzien-2019) Bijlage 6 §toegangsprivileges + functieschei
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (18): [[aankoopcyclus-ic]] · [[beheersactiviteiten]] · [[controlemiddelen-ic]] · [[cyclus-analyse-ic]] · [[fraude]] · [[fraudedriehoek]] · [[geinformatiseerde-omgeving-ic]] · [[hr-cyclus-ic]] · [[implementeren-functiescheiding-transactiecycli]] · [[interne-controle]] · [[it-general-controls]] · [[opvolging-verrichtingen-ic]] · [[preventief-versus-detecterende-controle]] · [[productiecyclus-ic]] · [[taakverdeling-ic]] · [[uitvoering-interne-controle]] · [[verkoopcyclus-ic]] · [[voorraadcyclus-ic]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV is een aankoop verdeeld over vier personen: (1) inkoper Anna autoriseert de bestelling, (2) magazijnier Bart neemt goederen in ontvangst, (3) boekhouder Cindy registreert de factuur, (4) financieel verantwoordelijke David tekent de betaling. Als één van hen iets verdraait, ontdekt iemand anders het in zijn kruiscontrole. Fraude vereist samenspanning van minstens twee — exponentieel moeilijker.

@@ -19,7 +19,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/continuiteitsbeginsel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Boekhoudkundig continuïteitsbeginsel (going concern) ⚖️
 
@@ -33,6 +33,7 @@ De jaarrekening wordt opgesteld onder de premisse dat de onderneming **haar bedr
 De jaarrekening wordt opgemaakt in de **veronderstelling dat de onderneming haar bedrijf zal voortzetten** (going concern). Dat is de standaardpremisse voor alle waarderingen: vaste activa worden afgeschreven over hun gebruiksduur, voorraden tegen aanschaffingswaarde, vorderingen tegen verwachte realisatiewaarde. Als die veronderstelling niet langer geldt (vereffening, stopzetting), gelden **bijzondere waarderingsregels**: vaste activa naar liquidatiewaarde, voorzieningen voor herstructureringskosten, etc.
 
 _Bron: CBN 2018/18 — Going concern waarderingsregels bij stopzetting_
+
 
 
 ## Bouwstenen
@@ -88,7 +89,7 @@ _Grondslag: CBN 2018/18 §verslaggeving_
 ## Valkuilen
 
 > [!warning]- Going concern is een **veronderstelling**, geen garantie
-> ⚠️ Going concern is een **veronderstelling**, geen garantie. Bestuurders kunnen niet schuilen achter 'we hebben going concern toegepast' als er duidelijke signalen waren (negatief eigen vermogen, herhaalde verliezen, betaalachterstand) — daar hoort een expliciete continuïteitsbeoordeling én toelichting bij. 🤖
+> ⚠️ Going concern is een **veronderstelling**, geen garantie. Bestuurders kunnen niet schuilen achter 'we hebben going concern toegepast' als er duidelijke signalen waren (negatief eigen vermogen, herhaalde verliezen, betaalachterstand) — daar hoort een expliciete continuïteitsbeoordeling én toelichting bij. 🔗
 >
 > _Bron: CBN 2018/18_
 
@@ -98,7 +99,7 @@ _Grondslag: CBN 2018/18 §verslaggeving_
 
 - **Vereist kennis van**: [[waarderingsregels-jaarrekening]]
 - **Getriggerd door**: [[vereffening]]
-
+- **Wordt voorondersteld in** (7): [[aanvullende-boekhoudbeginselen]] · [[boekhoudkundige-verwerking-insolventie-akkoord]] · [[insolventieprocedures-belgie]] · [[meldingsplicht-accountant-continuiteit]] · [[staat-van-activa-en-passiva-ontbinding]] · [[vroegtijdige-waarschuwing-insolventie]] · [[wijziging-boekhoudkundig-referentiestelsel]]- **Triggert** (3): [[alarmbelprocedure]] · [[ontbinding-vennootschap]] · [[vereffening]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt een naaimachine voor € 24.000 met geschatte gebruiksduur van 6 jaar. Onder going concern: afschrijving € 4.000/jaar, restwaarde aan eind van jaar 3 op de balans = € 12.000. Bij stopzetting in jaar 3 (uitzondering): waardering naar liquidatiewaarde, bv. tweedehandsmarkt € 7.500 → bijkomende afschrijving € 4.500 in jaar 3.

@@ -15,9 +15,9 @@ node_type: procedure
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/samenstelling-statutaire-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Samenstelling van de statutaire jaarrekening 🤖
+# Samenstelling van de statutaire jaarrekening 🔗
 
 Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van proef- en saldibalans en de eindejaarsverrichtingen, de **statutaire jaarrekening** op volgens het toepasselijke schema. Voor de stagiair-GA de procedurele kapstok van PO 1.2: deze procedure verbindt alle deelthema's (beginselen, schema, openbaarmaking, commissaris).
 
@@ -29,12 +29,13 @@ Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van proef- en 
 Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van de proef- en saldibalans en de uitgevoerde eindejaarsverrichtingen, de statutaire jaarrekening op volgens het toepasselijke schema (volledig / verkort / micro). De jaarrekening bevat balans, resultatenrekening, toelichting (+ sociale balans bij volledig en verkort schema) en wordt ter goedkeuring voorgelegd aan de algemene vergadering.
 
 
+
 ## In de praktijk
 
 <h3 id="volgorde-is-kritiek">Volgorde is kritiek</h3>
 
 > [!tip]- Volgorde is kritiek
-> Eerst groottecriteria → schema-keuze; daarna inventaris + eindejaarsverrichtingen; daarna definitieve PS-balans; daarna balans + RR + toelichting; daarna AV + NBB. Overslaan van een stap leidt tot een onvolledige jaarrekening. 🤖
+> Eerst groottecriteria → schema-keuze; daarna inventaris + eindejaarsverrichtingen; daarna definitieve PS-balans; daarna balans + RR + toelichting; daarna AV + NBB. Overslaan van een stap leidt tot een onvolledige jaarrekening. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen-scenario 'stel jaarrekening op' → volg deze zes-stappen-checklist.
@@ -160,7 +161,7 @@ Zie procedure-record [[openbaarmaking-jaarrekening]] voor detail.
 ## Valkuilen
 
 > [!warning]- Bij twijfel over groottecategorie: kies de strengere optie
-> ⚠️ Bij twijfel over groottecategorie: kies de strengere optie. Een 'micro' die eigenlijk klein is → te beperkt schema → mogelijke fiscale en commerciële sancties. Een 'klein' die eigenlijk micro is → onnodige administratieve last maar minder risico. 🤖
+> ⚠️ Bij twijfel over groottecategorie: kies de strengere optie. Een 'micro' die eigenlijk klein is → te beperkt schema → mogelijke fiscale en commerciële sancties. Een 'klein' die eigenlijk micro is → onnodige administratieve last maar minder risico. 🔗
 >
 > _Bron: WVV art. 1:24-1:25_
 

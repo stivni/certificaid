@@ -19,11 +19,12 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/sectorvergelijking-financiele-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Sectorvergelijking (benchmarking) 🤖
+# Sectorvergelijking (benchmarking) 🔗
 
 De ratio's en kengetallen van een onderneming plaatsen tegenover de mediaan of het gemiddelde van haar sector. Een ratio die in absolute zin lijkt zwak (of sterk), kan in sectorcontext normaal zijn. Sectorvergelijking maakt de analyse interpreteerbaar.
+
 
 
 ## Bouwstenen
@@ -58,13 +59,13 @@ _Grondslag: Vakdoctrine statistiek_
 <h3 id="1.3.II.A">Bronnen voor sectorcijfers</h3>
 
 > [!tip]- Bronnen voor sectorcijfers
-> Nationale Bank van België publiceert geaggregeerde sectorratios; sectorfederaties publiceren benchmark-rapporten; commerciële databases (Belfirst, Trends Top, ...) leveren peer-cijfers. 🤖
+> Nationale Bank van België publiceert geaggregeerde sectorratios; sectorfederaties publiceren benchmark-rapporten; commerciële databases (Belfirst, Trends Top, ...) leveren peer-cijfers. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Sectorgemiddelden kunnen verouderd zijn (publicatie 1-2 jaar na boekjaar)
-> ⚠️ Sectorgemiddelden kunnen verouderd zijn (publicatie 1-2 jaar na boekjaar). Houd rekening met die vertraging — vooral in conjunctuurgevoelige sectoren. 🤖
+> ⚠️ Sectorgemiddelden kunnen verouderd zijn (publicatie 1-2 jaar na boekjaar). Houd rekening met die vertraging — vooral in conjunctuurgevoelige sectoren. 🔗
 >
 > _Bron: Financial analysis_
 
@@ -73,7 +74,7 @@ _Grondslag: Vakdoctrine statistiek_
 ## Zie ook
 
 - **Vereist kennis van**: [[historische-evolutie-financiele-analyse]]
-
+- **Wordt voorondersteld in** (3): [[financiele-analyse-software]] · [[historische-evolutie-financiele-analyse]] · [[interpretatie-financiele-ratios]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.A`

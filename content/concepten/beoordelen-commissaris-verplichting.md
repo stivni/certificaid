@@ -15,11 +15,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beoordelen-commissaris-verplichting.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Beoordelen of een vennootschap een commissaris moet benoemen en welk regime van toepassing is 🤖
+# Beoordelen of een vennootschap een commissaris moet benoemen en welk regime van toepassing is 🔗
 
 Bij elke vennootschap moet de accountant in stap één bepalen of een commissaris vereist is — dit stuurt zowel het controle-regime als wie welk verslag levert. De toets is wettelijk strikt (WVV art. 3:72 e.v.) maar de praktijk vergt aandacht voor de groep-context: een verbonden kleine vennootschap kan toch commissaris-plichtig worden. Voor het examen is dit een klassiek camouflage-onderwerp omdat de uitzonderingen subtiel zijn.
+
 
 
 ## Stappen

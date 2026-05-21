@@ -13,13 +13,14 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/steekproef-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Steekproef bij een audit (audit sampling) 🤖
+# Steekproef bij een audit (audit sampling) 🔗
 
 Een steekproef bij een audit is het verrichten van controlewerkzaamheden op minder dan 100 % van de elementen binnen een relevante populatie, op zodanige wijze dat alle elementen geselecteerd kunnen worden. Het doel: een redelijke basis krijgen voor conclusies over de hele populatie zonder alles te testen.
 
 > [!info] Behoort tot: [[assurance-informatie]]
+
 
 
 ## In de praktijk

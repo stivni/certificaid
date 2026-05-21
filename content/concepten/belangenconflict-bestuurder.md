@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belangenconflict-bestuurder.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Belangenconflict van een bestuurder ⚖️
 
@@ -25,10 +25,15 @@ Wanneer een bestuurder een rechtstreeks of onrechtstreeks vermogensrechtelijk be
 
 > [!info] Behoort tot: [[bestuursorgaan]]
 
+> [!info] Specialisaties (3): [[belangenconflict-bestuurder-bv-cv]] · [[belangenconflict-bestuurder-vzw-stichting]] · [[verbonden-partijen-procedure-genoteerd]]
+
 Een belangenconflict van een bestuurder is een rechtstreeks of onrechtstreeks vermogensrechtelijk belang van die bestuurder dat strijdig is met het belang van de vennootschap, naar aanleiding van een beslissing of een verrichting die tot de bevoegdheid van het bestuursorgaan behoort. Het WVV verplicht in dat geval een procedure (mededeling, motivering in de notulen, soms voorlegging aan de algemene vergadering), met als doel beslissingen te beschermen tegen sturing in het persoonlijk belang van een bestuurder.
 
 _Bron: WVV art. 5:76, 6:64, 7:96, 7:102, 7:115_
 
+
+
+> [!info] Uitzonderingen (1): [[verbonden-partijen-procedure-genoteerd]]
 
 ## Bouwstenen
 
@@ -107,18 +112,18 @@ _Grondslag: WVV art. 7:96, § 2_
 ## Valkuilen
 
 > [!warning]- Beoordeel of het conflict 'vermogensrechtelijk' is — niet elk persoonlijk belang triggert de procedure. Een morele of reputatie-aanspraak (bv. een familielid als kandidaat) zonder vermogenseffect valt buiten art. 7:96.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- De uitzondering 'gebruikelijke verrichtingen aan marktvoorwaarden' is restrictief — een verkoop van privé-onroerend goed aan de NV is bijna nooit 'gebruikelijk' in deze zin.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[commissaris-toezicht-jaarrekening]]
-
+- **Wordt voorondersteld in** (2): [[enige-bestuurder]] · [[rechtspersoon-bestuurder-vaste-vertegenwoordiger]]
 ## Voorbeelden
 
 ### Bestuurder verkoopt onroerend goed aan de NV
@@ -132,7 +137,7 @@ Pieter Vermeulen, bestuurder van Rotex Roeselare NV, bezit privé een loods die 
 3. Pieter Vermeulen verlaat de zaal en neemt niet deel aan de beraadslaging noch aan de stemming.
 4. De raad neemt het besluit, motiveert in de notulen de aankoopprijs (verwijzing naar onafhankelijk schattingsverslag van € 740.000) en de vermogensrechtelijke gevolgen.
 5. Het notulendeel wordt integraal in het jaarverslag opgenomen. Commissaris Sofie Janssens beoordeelt de vermogensrechtelijke gevolgen in een afzonderlijke sectie van haar verslag.
-🤖
+🔗
 
 
 

@@ -14,13 +14,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ohlson-o-score.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Ohlson O-score (faillissement-predictiemodel via logit) 🤖
+# Ohlson O-score (faillissement-predictiemodel via logit) 🔗
 
 Het Ohlson O-model voorspelt de kans op faillissement via logistische regressie op negen variabelen uit de jaarrekening. Anders dan Altman geeft Ohlson een kansprobabiliteit (tussen 0 en 1) — niet een score-zone.
 
 > [!info] Behoort tot: [[kwantitatieve-financiele-diagnose]]
+
 
 
 ## Bouwstenen
@@ -55,7 +56,7 @@ _Grondslag: Ohlson (1980) + bankpraktijk_
 <h3 id="1.9.VI.B">Examen-positie</h3>
 
 > [!tip]- Examen-positie
-> Ohlson wordt op het examen vooral conceptueel bevraagd (kennis van het bestaan, verschil met Altman, type output = kans). De exacte 9-variabelen-formule is niet centraal — wel het inzicht 'logit i.p.v. discriminant' en 'kans i.p.v. zone'. 🤖
+> Ohlson wordt op het examen vooral conceptueel bevraagd (kennis van het bestaan, verschil met Altman, type output = kans). De exacte 9-variabelen-formule is niet centraal — wel het inzicht 'logit i.p.v. discriminant' en 'kans i.p.v. zone'. 🔗
 
 
 > [!info]- Niet verwarren met [[altman-z-score]]

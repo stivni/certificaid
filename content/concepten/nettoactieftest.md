@@ -13,7 +13,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/nettoactieftest.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Nettoactieftest ⚖️
 
@@ -24,9 +24,12 @@ Het hart van de kapitaalbescherming in het Wetboek van vennootschappen en vereni
 
 > [!info] Specialisatie van: [[kapitaalwijziging]]
 
+> [!info] Specialisaties (3): [[financiele-steunverlening]] · [[interimdividend]] · [[uitkering-uit-eigen-vermogen-bv]]
+
 Geen uitkering — dividend, tantième, inkoop eigen aandelen, financiële steunverlening of vergelijkbare verrichting — mag tot stand komen indien daardoor het **nettoactief** van de vennootschap zou dalen onder het niet-uitkeerbaar deel van het eigen vermogen. Voor de **besloten vennootschap (BV)** en de **coöperatieve vennootschap (CV)** is die bodem het **onbeschikbare eigen vermogen** (statutair onbeschikbare inbreng + onbeschikbare reserves). Voor de **naamloze vennootschap (NV)** is de bodem het **gestorte (of, indien hoger, opgevraagde) kapitaal** vermeerderd met de niet-uitkeerbare reserves.
 
 _Bron: WVV art. 5:142 (BV), 6:115 (CV), 7:212 (NV)_
+
 
 
 ## Bouwstenen
@@ -103,18 +106,18 @@ _Grondslag: WVV art. 5:142 lid 2, 7:212_
 ## Valkuilen
 
 > [!warning]- Reken **eerst** het niet-uitkeerbaar deel uit (inbreng-onbeschikbaar + alle wettelijke/statutaire reserves + niet-afgeschreven herwaarderingsmeerwaarden). De stagiair die start vanuit 'uitkeerbare reserves' op de balans loopt fout zodra een herwaarderingsmeerwaarde aanwezig is.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Voor de BV mag je **niet** alleen de nettoactieftest doen — de liquiditeitstest (art. 5:143) is een zelfstandige, cumulatieve tweede toets. De NV kent die tweede toets niet.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[wettelijke-reserve]]
-
+- **Wordt voorondersteld in** (7): [[alarmbelprocedure]] · [[inkoop-eigen-aandelen-bv]] · [[inkoop-eigen-aandelen-nv]] · [[kapitaalvermindering-nv]] · [[liquiditeitstest-bv]] · [[signaleren-risicos-overdracht-of-ontbinding]] · [[uitkeringstest-vergelijking-bv-nv]]
 ## Voorbeelden
 
 ### Nettoactieftest bij Brugse Brouwerij BV (BV-regime)
@@ -128,7 +131,7 @@ Brugse Brouwerij BV (BV-vorm) heeft op de balans: ingebrachte eigen middelen €
 3. Maximale uitkering = nettoactief − bodem = € 308.000 − € 88.000 = € 220.000.
 4. De voorgestelde uitkering van € 80.000 is binnen de bovengrens van de nettoactieftest — slaagt.
 5. Voor een BV slaagt de uitkering pas definitief wanneer ook de liquiditeitstest (art. 5:143) is doorlopen.
-#### Eigen vermogen Brugse Brouwerij BV vóór uitkering 🤖
+#### Eigen vermogen Brugse Brouwerij BV vóór uitkering 🔗
 
 
 

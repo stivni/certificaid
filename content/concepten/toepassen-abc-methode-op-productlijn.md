@@ -17,11 +17,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toepassen-abc-methode-op-productlijn.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toepassen van de ABC-methode (Activity Based Costing) op een productlijn 🤖
+# Toepassen van de ABC-methode (Activity Based Costing) op een productlijn 🔗
 
 Competentie waarmee de stagiair Activity-Based Costing (ABC) toepast op een product- of klantportfolio om de echte kostprijs te tonen — voorbij de traditionele overhead-verdeling met één algemene sleutel. De stagiair identificeert activiteiten (set-up, kwaliteitscontrole, orderbehandeling), wijst kosten aan activiteiten toe, kiest een cost driver per activiteit, berekent activity-rates en wijst toe per kostendrager. Hoofd-inzicht: laag-volume / hoog-complexiteit-producten worden in traditionele full costing typisch ondergerapporteerd; ABC legt deze 'verborgen' kost bloot.
+
 
 
 ## Stappen

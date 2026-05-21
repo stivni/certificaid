@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/transfer-bedrijfstak-algemeenheid.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Overdracht van bedrijfstak of algemeenheid (WVV) 🤖
+# Overdracht van bedrijfstak of algemeenheid (WVV) 🔗
 
 Bij asset deals biedt het WVV een specifieke procedure die rechten en plichten van een afgebakende activiteit (bedrijfstak) of van het geheel van activa en passiva (algemeenheid) automatisch laat overgaan op de overnemer. De keuze tussen ut singuli (één-voor-één) en ut universali (procedure-gebaseerd) bepaalt de zwaarte van de formaliteiten én de mate van automatische overdracht.
 
@@ -26,6 +26,7 @@ Bij asset deals biedt het WVV een specifieke procedure die rechten en plichten v
 > [!info] Behoort tot: [[overnameovereenkomst]] · [[wetboek-vennootschappen-verenigingen]]
 
 Een overdracht van bedrijfstak of algemeenheid is een WVV-procedure waarbij een vennootschap een operationeel zelfstandig opererende activiteitenkern (bedrijfstak) of het geheel van haar activa en passiva (algemeenheid) overdraagt, met de mogelijkheid dat alle rechten en plichten van rechtswege overgaan op de overnemer.
+
 
 
 ## Bouwstenen
@@ -108,6 +109,9 @@ _Grondslag: IBA-MA-Belgium-2022-EN §2.2.2 Joint and several liability, §6.1.2_
 - De accountant moet de boekhoudkundige verwerking begeleiden: bij overdracht ut universali gaan alle activa en passiva uit de boeken van de overdrager en in die van de overnemer — verschil tussen ontvangen prijs en netto-boekwaarde is meerwaarde/minderwaarde.
 - Btw-vrijstelling bij algemeenheid/bedrijfsafdeling vereist dat de overnemer de activiteit voortzet en de btw-positie van de overdrager overneemt (going concern-vereiste).
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[adviseren-overdrachtsroute-onderneming]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

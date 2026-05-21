@@ -15,9 +15,9 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/cyberrisico-ic.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Cyberrisico in IC-context 🤖
+# Cyberrisico in IC-context 🔗
 
 Cyberrisico is het risico van financiële, operationele of reputationele schade door cyber-incidenten zoals ransomware, phishing, datalekken en business interruption. Voor de internal-control-architectuur is het een specifieke risicocategorie die zowel technische (firewall, EDR, 2FA) als organisatorische (awareness, incident response) maatregelen vereist. Stagiairs herkennen dit thema bij audits van entiteiten met essentiële diensten (NIS-2) en bij AVG-meldingsplicht na datalek.
 
@@ -26,7 +26,10 @@ Cyberrisico is het risico van financiële, operationele of reputationele schade 
 
 > [!info] Behoort tot: [[geinformatiseerde-omgeving-ic]]
 
+> [!info] Bestaat uit (1): [[nis-2-richtlijn]]
+
 Cyberrisico is het risico van financiële, operationele of reputationele schade door cyber-incidenten — ongeautoriseerde toegang, ransomware, phishing, dataverlies, business interruption. Voor de interne controle vereist het specifieke technische en organisatorische maatregelen die de klassieke IC-componenten aanvullen.
+
 
 
 ## Bouwstenen
@@ -114,7 +117,7 @@ _Grondslag: ISA 315 (herzien-2019) Bijlage 6 par. 2(a) + 2(c)_
 - **Vereist kennis van**: [[avg-interne-controle]]
 - **Vereist kennis van**: [[it-general-controls]]
 - **Vereist kennis van**: [[risico-inschatting-organisatie]]
-
+- **Wordt voorondersteld in** (1): [[geinformatiseerde-omgeving-ic]]
 ## Voorbeelden
 
 Bij Yperse Werkplaats BV trof in 2025 een ransomware-aanval het ERP-systeem; productie lag 4 dagen stil, dataverlies € 35.000 herstel + omzetderving € 280.000. Post-incident: investering in EDR-systeem, 2FA voor alle externe toegang, maandelijkse phishing-trainingen, offline back-up off-site.

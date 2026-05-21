@@ -15,13 +15,16 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verschillenboekhouding.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Verschillenboekhouding 🤖
+# Verschillenboekhouding 🔗
 
 Verschillenboekhouding (variance accounting) registreert systematisch het verschil tussen werkelijke kost en budget- of standaardkost, en splitst dat verschil in oorzaakcomponenten (prijsverschil, hoeveelheidverschil, mix-verschil, efficiëntieverschil). Doel: snel lokaliseren waar afwijkingen vandaan komen om gericht bij te sturen.
 
 > [!info] Behoort tot: [[budgetbeheer]]
+
+> [!info] Bestaat uit (1): [[prijsverschil-arbeid]]
+
 
 
 ## Bouwstenen
@@ -124,4 +127,4 @@ Resultaat: € 76 ongunstig totaal, waarvan € 26 te wijten aan duurdere aankoo
 ## Zie ook
 
 - **Vereist kennis van**: [[voorbepaalde-kosten]]
-
+- **Wordt voorondersteld in** (4): [[budgetboekhouding]] · [[budgetprocedure]] · [[flexibel-budget]] · [[voorbepaalde-kosten]]

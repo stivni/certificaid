@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belangenpercentage.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Belangenpercentage 🤖
+# Belangenpercentage 🔗
 
 Een meetbegrip uit het Belgische boekhoudrecht-consolidatieregime (Boek 3, Titel 2 van het KB WVV). Samen met het controlepercentage onderbouwt het de kwalificatie van de relatie met een deelneming en de keuze van de consolidatietechniek. Waar controle de macht meet, meet het belangenpercentage het economisch winstrecht.
 
@@ -30,6 +30,7 @@ Een meetbegrip uit het Belgische boekhoudrecht-consolidatieregime (Boek 3, Titel
 Het deel van het kapitaal (en dus van het winstrecht) dat een moeder in een dochter of geassocieerde onderneming bezit. Bij een keten van vennootschappen wordt het belangenpercentage van schakel tot schakel vermenigvuldigd. Het belangenpercentage bepaalt welk stuk van het eigen vermogen en het resultaat van die andere onderneming aan de moeder mag worden toegerekend; het complement (1 − belangenpercentage) is het aandeel van derden bij integrale consolidatie.
 
 _Bron: KB WVV art. 3:137 (toepassing aandeel van derden)_
+
 
 
 ## Berekening
@@ -169,7 +170,7 @@ Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aan
 <h3 id="berekening-in-ketenstructuur">Berekening in ketenstructuur</h3>
 
 > [!tip]- Berekening in ketenstructuur
-> Belangenpercentages vermenigvuldigen zich langs een keten. Voorbeeld: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV, en Brugse Brouwerij BV bezit 60 % van Drukkerij Dendermonde BV → belang van Aurelia in Drukkerij Dendermonde = 0,80 × 0,60 = 48 %. 🤖
+> Belangenpercentages vermenigvuldigen zich langs een keten. Voorbeeld: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV, en Brugse Brouwerij BV bezit 60 % van Drukkerij Dendermonde BV → belang van Aurelia in Drukkerij Dendermonde = 0,80 × 0,60 = 48 %. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen-tabel 'X % van A, A heeft Y % van B' → belangenpercentage van X in B = X % × Y %.
@@ -189,7 +190,7 @@ Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aan
 ## Valkuilen
 
 > [!warning]- Belangenpercentage en controlepercentage worden vaak verward
-> ⚠️ Belangenpercentage en controlepercentage worden vaak verward. Een opgave die zegt 'Aurelia bezit 60 %' is dubbelzinnig — 60 % van de stemrechten (controle) of 60 % van het kapitaal (belang)? Bij gewone aandelen vallen die samen, bij preferente aandelen of certificaten kunnen ze uit elkaar lopen. 🤖
+> ⚠️ Belangenpercentage en controlepercentage worden vaak verward. Een opgave die zegt 'Aurelia bezit 60 %' is dubbelzinnig — 60 % van de stemrechten (controle) of 60 % van het kapitaal (belang)? Bij gewone aandelen vallen die samen, bij preferente aandelen of certificaten kunnen ze uit elkaar lopen. 🔗
 >
 > _Bron: Synthese examenpraktijk_
 
@@ -199,7 +200,7 @@ Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aan
 
 - **Vereist kennis van**: [[controle]]
 - **Getriggerd door**: [[integrale-consolidatie]]
-
+- **Wordt voorondersteld in** (1): [[minderheidsbelangen]]
 ## Voorbeelden
 
 Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → belangenpercentage = 80 %; aandeel van derden = 20 %.

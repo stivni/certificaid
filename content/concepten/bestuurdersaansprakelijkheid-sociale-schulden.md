@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuurdersaansprakelijkheid-sociale-schulden.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Bestuurdersaansprakelijkheid voor sociale schulden bij faillissement ⚖️
 
@@ -29,6 +29,7 @@ Deze 'twee-strikes-regel' is een **anti-recidive-mechanisme** tegen **stromancon
 Wanneer een vennootschap failliet wordt verklaard en zij op het ogenblik van de faillietverklaring **onbetaalde sociale bijdragen** (RSZ) heeft, kunnen de huidige of gewezen bestuurders, zaakvoerders, dagelijkse bestuurders, leden van een directieraad of raad van toezicht én **alle personen met werkelijke bestuursbevoegdheid** persoonlijk en **hoofdelijk** aansprakelijk worden gesteld voor het geheel of een deel van die bijdragen (inclusief verwijlinteresten), op vordering van de **RSZ** of de **curator**, indien zij in de **vijf jaar** voorafgaand aan het faillissement betrokken waren bij **minstens twee** faillissementen of vereffeningen met onbetaalde sociale bijdragen (art. XX.226 WER).
 
 _Bron: WER art. XX.226_
+
 
 
 > [!info] Uitzondering op: [[]]

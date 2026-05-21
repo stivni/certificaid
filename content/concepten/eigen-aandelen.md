@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/eigen-aandelen.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Beheer van eigen aandelen ⚖️
 
@@ -27,6 +27,7 @@ Een uitzonderingsregime binnen het eigen vermogen: een vennootschap die haar eig
 Een vennootschap kan onder strikte voorwaarden **haar eigen aandelen inkopen** en aanhouden in haar portefeuille. Boekhoudkundig: opname op rekening **50 'Eigen aandelen'** onder de geldbeleggingen (rubriek IX activa). **Parallel** wordt een **'Reserve voor eigen aandelen'** (rekening 1310, **onbeschikbare reserve**) aangelegd voor hetzelfde bedrag. Bij verkoop of vernietiging: tegenboeking. Maximaal toegelaten: meestal 20 % van het kapitaal (WVV).
 
 _Bron: WVV art. 7:215 — 7:218 (NV); 5:147 — 5:148 (BV)_
+
 
 
 ## Bouwstenen

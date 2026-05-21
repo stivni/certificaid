@@ -15,9 +15,9 @@ node_type: autoriteit
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/auditcomite.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Auditcomité 🤖
+# Auditcomité 🔗
 
 Een auditcomité is een gespecialiseerde commissie binnen de raad van bestuur die toezicht houdt op financiële verslaggeving, interne en externe audit, en risicobeheer. Verplicht voor organisaties van openbaar belang (beursgenoteerd, banken, verzekeraars); vrijwillig bij andere grote vennootschappen. Bij KMO's neemt het bestuursorgaan deze rol typisch zelf op. Het comité fungeert als brug tussen management, externe auditor en raad van bestuur.
 
@@ -27,6 +27,7 @@ Een auditcomité is een gespecialiseerde commissie binnen de raad van bestuur di
 > [!info] Behoort tot: [[drie-lijnen-model]]
 
 Een auditcomité is een gespecialiseerd comité binnen de raad van bestuur, samengesteld uit niet-uitvoerende bestuurders (waarvan minstens één onafhankelijk en met expertise in financiën of audit). Het comité houdt toezicht op de financiële verslaggeving, het IC-systeem, het werk van de interne en externe auditor, en op risicobeheer. Verplicht voor organisaties van openbaar belang en grote vennootschappen onder voorwaarden.
+
 
 
 ## Bouwstenen
@@ -43,7 +44,7 @@ Voor organisaties van openbaar belang (POBI: beursgenoteerd, kredietinstellingen
 
 _Grondslag: Richtlijn 2013/34/EU art. 34; WVV art. 7:99 (genoteerde NV's)_
 
-### Samenstelling: niet-uitvoerend, onafhankelijk, financieel expert 🤖
+### Samenstelling: niet-uitvoerend, onafhankelijk, financieel expert 🔗
 
 Het auditcomité bestaat uit niet-uitvoerende bestuurders. Minstens één lid is onafhankelijk en beschikt over deskundigheid op het gebied van boekhouding, audit of financiële verslaggeving. De voorzitter wordt aangeduid binnen het comité.
 
@@ -67,7 +68,7 @@ Het auditcomité is bij beursgenoteerde en grote entiteiten doorgaans dé subgro
 
 _Grondslag: ISA 260 (herzien) §11-12; ISA 610 (herzien) §36-37_
 
-### Schakelfunctie tussen drie controlelijnen 🤖
+### Schakelfunctie tussen drie controlelijnen 🔗
 
 Het auditcomité fungeert als brug tussen (a) het operationeel management en eerste/tweede lijn, (b) de interne audit (derde lijn), en (c) de externe commissaris. Het keurt het audit-charter, het jaarplan van interne audit en de aanstelling/vergoeding van de commissaris voor. Daarmee bewaakt het de onafhankelijkheid van beide audit-functies.
 
@@ -85,22 +86,22 @@ _Grondslag: Drie-lijnen-model (IIA Three Lines) + ISA 260_
 <h3 id="vier-kerntaken">Vier kerntaken</h3>
 
 > [!tip]- Vier kerntaken
-> (1) Toezicht op de financiële verslaggeving (jaarrekening, halfjaarrapport). (2) Toezicht op het IC- en risicobeheerssysteem. (3) Toezicht op interne audit (programma, bemensing, bevindingen). (4) Relatie met externe auditor (onafhankelijkheid, prestaties, niet-audit-diensten). 🤖
+> (1) Toezicht op de financiële verslaggeving (jaarrekening, halfjaarrapport). (2) Toezicht op het IC- en risicobeheerssysteem. (3) Toezicht op interne audit (programma, bemensing, bevindingen). (4) Relatie met externe auditor (onafhankelijkheid, prestaties, niet-audit-diensten). 🔗
 
 <h3 id="wettelijk-verplicht-voor">Wettelijk verplicht voor</h3>
 
 > [!tip]- Wettelijk verplicht voor
-> Organisaties van openbaar belang (beursgenoteerd, kredietinstellingen, verzekeraars) zijn verplicht een auditcomité op te richten. Andere grote vennootschappen kunnen vrijwillig of via Corporate Governance Code. KMO's hebben deze verplichting niet. 🤖
+> Organisaties van openbaar belang (beursgenoteerd, kredietinstellingen, verzekeraars) zijn verplicht een auditcomité op te richten. Andere grote vennootschappen kunnen vrijwillig of via Corporate Governance Code. KMO's hebben deze verplichting niet. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Auditcomité ≠ raad van bestuur
-> ⚠️ Auditcomité ≠ raad van bestuur. Het comité bereidt voor en adviseert; de raad neemt formele besluiten over jaarrekening, kwijting en commissaris-mandaat. Verwarring leidt tot examenfout 'het auditcomité keurt de jaarrekening goed' (fout — de raad doet dat na advies). 🤖
+> ⚠️ Auditcomité ≠ raad van bestuur. Het comité bereidt voor en adviseert; de raad neemt formele besluiten over jaarrekening, kwijting en commissaris-mandaat. Verwarring leidt tot examenfout 'het auditcomité keurt de jaarrekening goed' (fout — de raad doet dat na advies). 🔗
 
 
 > [!warning]- Bij KMO's zonder POBI-status bestaat geen wettelijke verplichting tot auditcomité
-> ⚠️ Bij KMO's zonder POBI-status bestaat geen wettelijke verplichting tot auditcomité. Verwacht geen examenpunt voor 'ontbrekend auditcomité' bij Yperse Werkplaats BV — wel bij een beursgenoteerde Rotex Roeselare NV. 🤖
+> ⚠️ Bij KMO's zonder POBI-status bestaat geen wettelijke verplichting tot auditcomité. Verwacht geen examenpunt voor 'ontbrekend auditcomité' bij Yperse Werkplaats BV — wel bij een beursgenoteerde Rotex Roeselare NV. 🔗
 
 
 
@@ -109,7 +110,7 @@ _Grondslag: Drie-lijnen-model (IIA Three Lines) + ISA 260_
 - **Vereist kennis van**: [[interne-audit]]
 - **Vereist kennis van**: [[functie-interne-auditor]]
 - **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
-
+- **Wordt voorondersteld in** (3): [[communicatie-tekortkomingen-interne-beheersing]] · [[functie-interne-auditor]] · [[interne-audit]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV (beursgenoteerd) telt het auditcomité 3 niet-uitvoerende bestuurders, waaronder Robert Vandenberghe (ex-CFO van een bank, onafhankelijk + financiële expertise). Het comité vergadert 4x per jaar, ontvangt het IA-rapport van Sofie Janssens, bespreekt management letter van commissaris Wolters & Partners CVBA, valideert de jaarrekening vóór ze naar de RvB gaat.

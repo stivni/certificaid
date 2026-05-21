@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorraadwaardering.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Voorraadwaardering (kostprijsmethoden) ⚖️
 
@@ -26,6 +26,7 @@ Voorraadwaardering bepaalt aan welke prijs verbruikt materiaal in de kostprijs g
 Voorraden worden gewaardeerd aan aanschaffingswaarde (gekochte goederen) of vervaardigingsprijs (zelf vervaardigde producten), eventueel verminderd tot lagere marktwaarde (laagstewaarderegel). Voor identieke goederen waarvan de prijs schommelt, wordt één van de wettelijk toegestane berekeningsmethoden consistent toegepast: individueel, gewogen gemiddelde of FIFO.
 
 _Bron: CBN-advies 132/7 — Boeking en waardering van voorraden_
+
 
 
 ## Bouwstenen
@@ -70,7 +71,7 @@ _Grondslag: CBN 132/7 §Marktwaarde_
 
 - **Vereist kennis van**: [[materiaalkosten]]
 - **Vereist kennis van**: [[vervaardigingsprijs]]
-
+- **Wordt voorondersteld in** (1): [[materiaalkosten]]
 ## Bronnen
 
 [^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-bewerking`

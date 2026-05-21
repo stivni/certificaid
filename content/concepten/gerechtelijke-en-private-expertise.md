@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gerechtelijke-en-private-expertise.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Gerechtelijke en private expertise door de gecertificeerd accountant ⚖️
 
@@ -27,12 +27,13 @@ Gerechtelijke en private expertise is een opdrachttype dat de Wet ITAA 2019 expl
 _Bron: Wet ITAA 2019 art. 3, 6°_
 
 
+
 ## In de praktijk
 
 <h3 id="twee-aparte-settings">Twee aparte settings</h3>
 
 > [!tip]- Twee aparte settings
-> Gerechtelijke expertise = rechter benoemt; expert is auxiliaire van het gerecht; tegensprekelijk dossier. Private expertise = partijen contracteren (bv. bij overname-geschil, fiscale procedure, scheiding); expert dient de aanstellende partij of bemiddelt tussen partijen. 🤖
+> Gerechtelijke expertise = rechter benoemt; expert is auxiliaire van het gerecht; tegensprekelijk dossier. Private expertise = partijen contracteren (bv. bij overname-geschil, fiscale procedure, scheiding); expert dient de aanstellende partij of bemiddelt tussen partijen. 🔗
 
 <h3 id="verslag-bestemd-voor-derden">Verslag bestemd voor derden</h3>
 
@@ -49,7 +50,7 @@ _Bron: Wet ITAA 2019 art. 3, 6°_
 ## Valkuilen
 
 > [!warning]- Bij gerechtelijke expertise blijft de beroepsbeoefenaar gebonden aan het beroepsgeheim, behalve voor de mededelingen die hij in zijn verslag…
-> ⚠️ Bij gerechtelijke expertise blijft de beroepsbeoefenaar gebonden aan het beroepsgeheim, behalve voor de mededelingen die hij in zijn verslag aan de rechter maakt (en die noodzakelijk zijn voor de opdracht). Hij mag dus niet alle stukken uit zijn cliëntdossier zomaar in het expertiseverslag opnemen; selectie volgens proportionaliteit en relevantie blijft een plicht. 🤖
+> ⚠️ Bij gerechtelijke expertise blijft de beroepsbeoefenaar gebonden aan het beroepsgeheim, behalve voor de mededelingen die hij in zijn verslag aan de rechter maakt (en die noodzakelijk zijn voor de opdracht). Hij mag dus niet alle stukken uit zijn cliëntdossier zomaar in het expertiseverslag opnemen; selectie volgens proportionaliteit en relevantie blijft een plicht. 🔗
 >
 > _Bron: ITAA-deontologie beroepsgeheim + Ger.W. art. 962_
 

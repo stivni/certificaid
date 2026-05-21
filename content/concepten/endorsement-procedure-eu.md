@@ -13,7 +13,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/endorsement-procedure-eu.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Endorsement-procedure — EU-goedkeuring van IFRS-standaarden ⚖️
 
@@ -23,6 +23,7 @@ gegenereerd_op: '2026-05-18'
 De **endorsement-procedure** is het Europese goedkeuringsmechanisme waarmee een IASB-standaard (IAS, IFRS of bijhorende SIC/IFRIC-interpretatie) wordt omgezet in EU-recht. Pas na endorsement door de Europese Commissie — en bekendmaking als afzonderlijke Commissie-verordening in het Publicatieblad — is een standaard rechtsgeldig toepasbaar binnen de EU. De Commissie wordt bijgestaan door een **regelgevend comité voor financiële verslaglegging** dat in de praktijk bekend staat als het Accounting Regulatory Committee (ARC). Goedkeuring kan alleen als de standaard niet in strijd is met het true-and-fair-view-beginsel uit de Belgische omzetting van de richtlijnen én voldoet aan de vier kwalitatieve criteria voor financiële informatie (begrijpelijkheid, relevantie, betrouwbaarheid, vergelijkbaarheid).
 
 _Bron: Verordening (EG) 1606/2002 art. 3 + art. 6_
+
 
 
 ## Bouwstenen
@@ -49,7 +50,7 @@ Naast de kwaliteitscriteria moet de standaard het **Europees openbaar belang** d
 
 _Grondslag: Verordening 1606/2002 art. 3 lid 2 (samenhang met overweging 9)_
 
-### Regelgevend comité (ARC) 🤖
+### Regelgevend comité (ARC) 🔗
 
 De Commissie wordt bij elke endorsement-beslissing bijgestaan door een **regelgevend comité voor financiële verslaglegging**, in de Europese praktijk bekend als het **Accounting Regulatory Committee (ARC)**. Het comité bestaat uit vertegenwoordigers van de lidstaten en stelt zijn eigen reglement van orde vast. De Commissie raadpleegt het comité regelmatig over lopende IASB-projecten (art. 7) en moet het tijdig informeren als zij voornemens is een standaard **niet** te endorsen.
 
@@ -93,7 +94,7 @@ _Grondslag: Verordening 1606/2002 art. 3 lid 4_
 
 
 > [!warning]- Verwar het **ARC** (politiek-regelgevend comité van de lidstaten) niet met **EFRAG** (European Financial Reporting Advisory Group — privaatr…
-> ⚠️ Verwar het **ARC** (politiek-regelgevend comité van de lidstaten) niet met **EFRAG** (European Financial Reporting Advisory Group — privaatrechtelijk technisch adviesorgaan dat de Commissie voorbereidende adviezen geeft). EFRAG adviseert; het ARC stemt. 🤖
+> ⚠️ Verwar het **ARC** (politiek-regelgevend comité van de lidstaten) niet met **EFRAG** (European Financial Reporting Advisory Group — privaatrechtelijk technisch adviesorgaan dat de Commissie voorbereidende adviezen geeft). EFRAG adviseert; het ARC stemt. 🔗
 >
 > _Bron: Europese institutionele praktijk_
 
@@ -108,7 +109,7 @@ _Grondslag: Verordening 1606/2002 art. 3 lid 4_
 ## Zie ook
 
 - **Vereist kennis van**: [[verplichte-ifrs-eu-beursgenoteerden]]
-- **Wordt voorondersteld in** (1): [[verplichte-ifrs-eu-beursgenoteerden]]
+- **Wordt voorondersteld in** (2): [[ifrs]] · [[verplichte-ifrs-eu-beursgenoteerden]]
 ## Voorbeelden
 
 ### Stilstaande klok bij niet-endorsed IFRS

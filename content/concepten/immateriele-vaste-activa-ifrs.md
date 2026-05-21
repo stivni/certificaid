@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/immateriele-vaste-activa-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Immateriële activa onder IFRS (IAS 38) ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 IAS 38 — Immateriële activa regelt de boekhoudkundige verwerking van **identificeerbare, niet-monetaire activa zonder fysieke vorm** (alinea 8). Drie cumulatieve definitie-eisen: (1) identificeerbaar — afscheidbaar OF voortkomend uit contractuele/juridische rechten; (2) entiteit heeft de zeggenschap (control); (3) toekomstige economische voordelen verwacht. Daarnaast twee opnamecriteria (alinea 21): waarschijnlijke instroom van economische voordelen + betrouwbaar bepaalbare kostprijs. Bij eerste opname tegen kostprijs (alinea 24). Na eerste opname: kostprijsmodel of herwaarderingsmodel (alinea 72-75) — maar herwaardering vereist een **actieve markt**, wat voor de meeste immateriële activa NIET het geval is. Twee scherpe regels: (a) **onderzoek wordt nooit geactiveerd** — kosten in winst of verlies (alinea 54-55); (b) **intern gegenereerde goodwill, merken, klantenbestanden mogen niet opgenomen worden** (alinea 48, 63). Voor afschrijving onderscheidt IAS 38 tussen activa met **beperkte gebruiksduur** (lineaire of andere methode, jaarlijks herzien) en **onbepaalde gebruiksduur** (geen afschrijving; jaarlijks impairment-test onder IAS 36).
 
 _Bron: IAS 38 alinea's 8, 12, 21, 24, 48, 54-57, 72_
+
 
 
 ## Bouwstenen
@@ -120,7 +121,7 @@ _Grondslag: IAS 38 alinea 33-35 + IFRS 3_
 ## Zie ook
 
 - **Vereist kennis van**: [[bijzondere-waardevermindering-ifrs]]
-
+- **Wordt voorondersteld in** (1): [[bijzondere-waardevermindering-ifrs]]
 ## Voorbeelden
 
 Zelena Bio NV ontwikkelt een nieuw farmaceutisch productieproces. Uitgaven 2025 totaal € 1.000.000, waarvan € 900.000 vóór 1 december 2025 (onderzoeksfase — als kost) en € 100.000 ná 1 december 2025 (ontwikkelingsfase — geactiveerd want zes criteria alinea 57 vervuld). Immaterieel actief op balans per 31 december 2025 = € 100.000.

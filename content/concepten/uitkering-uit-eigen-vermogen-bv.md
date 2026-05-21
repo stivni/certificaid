@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitkering-uit-eigen-vermogen-bv.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Uitkering uit eigen vermogen bij de BV (vermogensdistributie) ⚖️
 
@@ -28,6 +28,7 @@ Wat in de NV een **kapitaalvermindering** heet, is in de kapitaalloze BV een **u
 **Uitkering door de BV aan aandeelhouders uit het ingebracht eigen vermogen** (rubriek 11) — economisch het equivalent van een kapitaalvermindering bij de NV. Twee varianten: (1) uitkering uit **beschikbaar** ingebracht vermogen (lichtste procedure, zelfde regels als een dividend), (2) uitkering uit **statutair onbeschikbaar verklaard** ingebracht vermogen, wat eerst een **statutenwijziging** vereist om de onbeschikbaarheid op te heffen.
 
 _Bron: WVV art. 5:120-5:144 (cluster); afwezigheid van een tegenhanger voor art. 7:208-7:209_
+
 
 
 ## Bouwstenen
@@ -54,7 +55,7 @@ De onbeschikbaarheid komt uit de statuten. Om het vermogen uit te kunnen keren, 
 
 _Grondslag: WVV art. 5:100 (statutenwijziging); MvT-WVV bij art. 5:121_
 
-### Geen wettelijke schuldeiserszekerheidstermijn 🤖
+### Geen wettelijke schuldeiserszekerheidstermijn 🔗
 
 De BV kent **niet** de twee-maanden-procedure van art. 7:209 (NV). Schuldeisers worden uitsluitend beschermd door de **liquiditeitstest** — een gemotiveerd vooruitzicht dat de vennootschap haar schulden 12 maanden lang kan blijven betalen.
 
@@ -80,11 +81,11 @@ _Grondslag: WVV art. 5:144_
 ## Valkuilen
 
 > [!warning]- Voor het **vrijmaken** van statutair onbeschikbaar verklaard ingebracht vermogen is een **statutenwijziging** vereist. Een gewoon AV-besluit volstaat niet.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Anders dan bij de NV moeten schuldeisers **niet** twee maanden krijgen om zekerheid te eisen. De bescherming zit volledig in de liquiditeitstest — vandaar dat een degelijk vooruitzicht cruciaal is.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -106,7 +107,7 @@ Brugse Brouwerij BV (BV-vorm) heeft € 80.000 statutair onbeschikbaar verklaard
 4. Bestuursorgaan stelt liquiditeitsverslag op (12-maandenhorizon na uitkering); test slaagt.
 5. Nettoactieftest: nettoactief vóór uitkering € 308.000, bodem nu € 88.000 − € 40.000 (vrijgemaakt) = € 48.000. Marge = € 260.000. Slaagt.
 6. Uitbetaling kan onmiddellijk plaatsvinden — geen wettelijke wachttermijn zoals bij NV.
-#### Uitkering uit ingebracht vermogen 🤖
+#### Uitkering uit ingebracht vermogen 🔗
 | Rekening | Debet | Credit |
 |---|---:|---:|
 | 11 — Inbrengen (onbeschikbaar deel) _(vrijmaking via statutenwijziging)_ | 40000 |  |

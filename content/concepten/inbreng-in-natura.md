@@ -17,7 +17,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/inbreng-in-natura.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Inbreng in natura ⚖️
 
@@ -33,12 +33,13 @@ Een inbreng in natura is een inbreng in het kapitaal of vermogen van een vennoot
 _Bron: WVV art. 5:7 (BV), art. 6:8 (CV), art. 7:7 (NV)_
 
 
+
 ## In de praktijk
 
 <h3 id="verschil-tussen-de-inbreng-zelf-en-het-verslag">Verschil tussen de inbreng zelf en het verslag</h3>
 
 > [!tip]- Verschil tussen de inbreng zelf en het verslag
-> De inbreng in natura is de juridische operatie (overdracht van een goed tegen aandelen). Het verslag bij inbreng in natura is het accountantsdocument dat die operatie controleert. Examen-onderscheid: vraag naar 'de inbreng' = de operatie en regime; vraag naar 'het verslag' = de opdracht en methodologie van de beroepsbeoefenaar. 🤖
+> De inbreng in natura is de juridische operatie (overdracht van een goed tegen aandelen). Het verslag bij inbreng in natura is het accountantsdocument dat die operatie controleert. Examen-onderscheid: vraag naar 'de inbreng' = de operatie en regime; vraag naar 'het verslag' = de opdracht en methodologie van de beroepsbeoefenaar. 🔗
 
 <h3 id="wanneer-zonder-commissaris">Wanneer zonder commissaris?</h3>
 
@@ -57,15 +58,15 @@ _Bron: WVV art. 5:7 (BV), art. 6:8 (CV), art. 7:7 (NV)_
 ## Valkuilen
 
 > [!warning]- Onderscheid scherp tussen inbreng in natura en quasi-inbreng — twee verschillende regimes met eigen artikels.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Arbeid en diensten zijn nooit inbreng in het kapitaal.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Het controleverslag is geen waarderingsverslag — de waardering blijft de verantwoordelijkheid van het bestuursorgaan/oprichters.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -77,7 +78,7 @@ _Bron: WVV art. 5:7 (BV), art. 6:8 (CV), art. 7:7 (NV)_
 
 ## Voorbeelden
 
-Bij de oprichting van een nieuwe BV brengt Mathilde Maes haar handelsfonds in (klantenbestand, voorraad, machines) ter waarde van € 180.000. Zij ontvangt 180 aandelen met fractiewaarde € 1.000. Gecertificeerd accountant Bart Daems beoordeelt de waardering en bevestigt dat zij niet overgewaardeerd is. _(Mathilde Maes, Bart Daems)_ 🤖
+Bij de oprichting van een nieuwe BV brengt Mathilde Maes haar handelsfonds in (klantenbestand, voorraad, machines) ter waarde van € 180.000. Zij ontvangt 180 aandelen met fractiewaarde € 1.000. Gecertificeerd accountant Bart Daems beoordeelt de waardering en bevestigt dat zij niet overgewaardeerd is. _(Mathilde Maes, Bart Daems)_ 🔗
 
 ## Bronnen
 

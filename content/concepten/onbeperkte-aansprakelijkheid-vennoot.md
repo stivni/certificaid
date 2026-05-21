@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/onbeperkte-aansprakelijkheid-vennoot.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Onbeperkte aansprakelijkheid van vennoten ⚖️
 
@@ -25,6 +25,7 @@ Het spiegelbeeld van de beperkte aansprakelijkheid. In de maatschap, VOF en Comm
 Onbeperkte aansprakelijkheid betekent dat een vennoot tegenover schuldeisers van de vennootschap **persoonlijk en hoofdelijk** verbonden is voor de schulden — zijn aansprakelijkheid wordt niet begrensd door zijn inbreng en strekt zich uit tot zijn volledig persoonlijk vermogen. **Hoofdelijk** wil zeggen: elke vennoot kan voor het volledige bedrag worden aangesproken (niet alleen voor zijn aandeel).
 
 _Bron: WVV art. 4:14, 4:22; CBN 2017/16_
+
 
 
 ## In de praktijk
@@ -63,7 +64,7 @@ _Bron: WVV art. 4:14, 4:22; CBN 2017/16_
 ## Zie ook
 
 - **Vereist kennis van**: [[vennootschap-begrip]]
-
+- **Wordt voorondersteld in** (3): [[maatschap-rechtsvorm]] · [[personenvennootschap-met-rechtspersoonlijkheid]] · [[vennootschapsvormen-vergelijking]]
 ## Voorbeelden
 
 Een maatschap tussen Pieter Vermeulen, Marleen De Cock en Sam Janssens loopt vast met € 180.000 schuld. De leverancier eist de volle € 180.000 bij Pieter, ook al heeft hij maar 1/3 aandeel — hoofdelijkheid. Pieter betaalt en vordert € 60.000 elk terug van Marleen en Sam. _(Pieter Vermeulen, Marleen De Cock)_

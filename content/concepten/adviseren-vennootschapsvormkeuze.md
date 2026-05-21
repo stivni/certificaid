@@ -16,11 +16,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/adviseren-vennootschapsvormkeuze.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Adviseren over de keuze van vennootschapsvorm bij oprichting 🤖
+# Adviseren over de keuze van vennootschapsvorm bij oprichting 🔗
 
 Operationele adviesopdracht: vanuit het profiel van de cliënt (omvang, aantal partners, sector, aansprakelijkheidsbereidheid, fiscale verwachtingen) een onderbouwde aanbeveling formuleren voor één van de WVV-vennootschapsvormen — of voor het behoud van een eenmanszaak. Het advies vertrekt bij de niet-fiscale kerncriteria en eindigt bij de fiscale gevolgschatting.
+
 
 
 ## In de praktijk

@@ -14,9 +14,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/tuchtrechtelijke-aansprakelijkheid-accountant.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Tuchtrechtelijke aansprakelijkheid van de accountant 🤖
+# Tuchtrechtelijke aansprakelijkheid van de accountant 🔗
 
 Tuchtrechtelijke aansprakelijkheid is één van de drie sporen waarop een accountant kan worden aangesproken (naast civiel = schadevergoeding en strafrechtelijk = misdrijf). Doel is bescherming van het beroep en van het vertrouwen van het publiek, niet schadeloosstelling. Procedurele garanties: tegensprekelijk debat, mogelijkheid van beroep, geen bestraffing zonder bewezen inbreuk. Tuchtprocedure wordt gevoerd voor de tuchtinstanties van het ITAA.
 
@@ -28,18 +28,19 @@ De gecertificeerd accountant is onderworpen aan tuchtrechtelijke aansprakelijkhe
 _Bron: Wet ITAA 2019 + KB plichtenleer 1998_
 
 
+
 ## In de praktijk
 
 <h3 id="drie-sporen-civiel-tuchtrechtelijk-strafrechtelijk">Drie sporen — civiel, tuchtrechtelijk, strafrechtelijk</h3>
 
 > [!tip]- Drie sporen — civiel, tuchtrechtelijk, strafrechtelijk
-> Eén feit kan drie reacties opleveren: civiele schadeclaim van een gedupeerde cliënt (art. 44 Wet ITAA + gemeen recht), tuchtprocedure voor de ITAA-tuchtcommissie (schorsing/schrapping), strafrechtelijke vervolging (bv. valsheid in geschrifte, witwasmisdrijf-medeplichtigheid). Sporen lopen parallel en zijn niet wederzijds uitsluitend. 🤖
+> Eén feit kan drie reacties opleveren: civiele schadeclaim van een gedupeerde cliënt (art. 44 Wet ITAA + gemeen recht), tuchtprocedure voor de ITAA-tuchtcommissie (schorsing/schrapping), strafrechtelijke vervolging (bv. valsheid in geschrifte, witwasmisdrijf-medeplichtigheid). Sporen lopen parallel en zijn niet wederzijds uitsluitend. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Tuchtsanctie is niet beperkt door een aansprakelijkheidsclausule in de opdrachtbrief: contractuele aansprakelijkheidsbeperking geldt enkel c…
-> ⚠️ Tuchtsanctie is niet beperkt door een aansprakelijkheidsclausule in de opdrachtbrief: contractuele aansprakelijkheidsbeperking geldt enkel civielrechtelijk. Tuchtrechtelijk kan de accountant geschorst of geschrapt worden ongeacht wat in zijn opdrachtbrief staat. 🤖
+> ⚠️ Tuchtsanctie is niet beperkt door een aansprakelijkheidsclausule in de opdrachtbrief: contractuele aansprakelijkheidsbeperking geldt enkel civielrechtelijk. Tuchtrechtelijk kan de accountant geschorst of geschrapt worden ongeacht wat in zijn opdrachtbrief staat. 🔗
 >
 > _Bron: Wet ITAA 2019 art. 44 (analogie)_
 

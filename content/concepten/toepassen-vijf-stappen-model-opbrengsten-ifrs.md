@@ -16,9 +16,10 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/toepassen-vijf-stappen-model-opbrengsten-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Toepassen van het 5-stappen-model van IFRS 15 voor opbrengstenherkenning 🤖
+# Toepassen van het 5-stappen-model van IFRS 15 voor opbrengstenherkenning 🔗
+
 
 
 ## Stappen

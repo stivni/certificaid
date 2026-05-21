@@ -19,7 +19,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/dubbel-boekhouden.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Dubbel boekhouden ⚖️
 
@@ -30,9 +30,12 @@ Elke economische verrichting in twee gelijke kanten registreren (debet = credit)
 
 > [!info] Behoort tot: [[regelmatige-boekhouding]]
 
+> [!info] Bestaat uit (1): [[hulpdagboeken]]
+
 Een boekhoudtechniek waarin elke verrichting wordt geboekt in **minstens twee rekeningen**: een debet- en een creditzijde, voor exact hetzelfde totaalbedrag. De som van alle debetboekingen is altijd gelijk aan de som van alle creditboekingen. Hierdoor klopt de balans (Activa = Passief) per definitie en zijn rekenfouten meteen detecteerbaar. Voor boekhoudplichtige ondernemingen schrijft WER art. III.84 expliciet voor dat de boekhouding 'wordt gevoerd met inachtneming van de gebruikelijke regels van het dubbel boekhouden'.
 
 _Bron: WER art. III.84_
+
 
 
 ## Bouwstenen
@@ -195,7 +198,7 @@ Resultaat: De verkoop is volledig geregistreerd: omzet € 12.000 in de resultat
 <h3 id="proefbalans-als-controlewerktuig">Proefbalans als controlewerktuig</h3>
 
 > [!tip]- Proefbalans als controlewerktuig
-> Op elk moment kan een proefbalans worden opgemaakt: lijst van alle rekeningen met hun debet- en credittotalen. Het verschil moet altijd nul zijn. Bij afwijking: zoek de transcriptie- of berekenfout. 🤖
+> Op elk moment kan een proefbalans worden opgemaakt: lijst van alle rekeningen met hun debet- en credittotalen. Het verschil moet altijd nul zijn. Bij afwijking: zoek de transcriptie- of berekenfout. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examen: 'de proefbalans toont een debet-overschot van € 250 op X-rekening' — wijst op een eenzijdige boeking of telfout.
@@ -210,7 +213,7 @@ Resultaat: De verkoop is volledig geregistreerd: omzet € 12.000 in de resultat
 ## Valkuilen
 
 > [!warning]- Een enkelvoudige boeking ('ik schrijf € 100 op de bankrekening en klaar') is geen dubbel boekhouden
-> ⚠️ Een enkelvoudige boeking ('ik schrijf € 100 op de bankrekening en klaar') is geen dubbel boekhouden. De tegenpost moet expliciet zijn — wat is de andere kant van die € 100? (verkoop? lening? inbreng?). 🤖
+> ⚠️ Een enkelvoudige boeking ('ik schrijf € 100 op de bankrekening en klaar') is geen dubbel boekhouden. De tegenpost moet expliciet zijn — wat is de andere kant van die € 100? (verkoop? lening? inbreng?). 🔗
 >
 > _Bron: WER art. III.84 — afgeleid_
 
@@ -219,7 +222,7 @@ Resultaat: De verkoop is volledig geregistreerd: omzet € 12.000 in de resultat
 ## Zie ook
 
 - **Vereist kennis van**: [[dagboek]]
-
+- **Wordt voorondersteld in** (2): [[boekhoudplichtige-onderneming]] · [[minimum-algemeen-rekeningenstelsel]]- **Triggert** (2): [[proef-en-saldibalans]] · [[wetboek-economisch-recht-boek-iii]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV koopt voor € 1.250 (incl. BTW € 217) hout op factuur. Boeking: Debet 600 Aankopen € 1.033 + Debet 411 Terug te vorderen BTW € 217 / Credit 440 Leveranciers € 1.250. Debet totaal € 1.250 = Credit totaal € 1.250 ✓.

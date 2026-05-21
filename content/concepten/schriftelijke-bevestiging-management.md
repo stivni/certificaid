@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/schriftelijke-bevestiging-management.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Schriftelijke bevestiging van het management (management representation letter) ⚖️
 
@@ -30,14 +30,18 @@ Een schriftelijke bevestiging is een schriftelijke verklaring van het management
 _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 
+
 ## In de praktijk
 
 <h3 id="niet-vervangbaar-door-audit-werk">Niet vervangbaar door audit-werk</h3>
 
 > [!tip]- Niet vervangbaar door audit-werk
-> Een management representation letter is GEEN substantive audit evidence — het is een aanvulling, geen vervanging. Een bevestiging dat 'voorraden correct gewaardeerd zijn' compenseert geen ontbrekende inventarisatie. 🤖
+> Een management representation letter is GEEN substantive audit evidence — het is een aanvulling, geen vervanging. Een bevestiging dat 'voorraden correct gewaardeerd zijn' compenseert geen ontbrekende inventarisatie. 🔗
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[selecteren-en-uitvoeren-controle-instrumenten-audit]]
 ## Voorbeelden
 
 Aan het einde van de audit van Rotex 2025 vraagt Sofie Janssens een 'management representation letter' aan de CFO + de voorzitter RvB: bevestigingen over volledigheid van geschillen, alle relevante info verschaft, geen gekende fraude, gebruik van continuïteitsveronderstelling, juistheid van schattingen. De brief is ondertekend en gedateerd vóór de datum van het controleverslag.

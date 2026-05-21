@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/prestatieverplichting.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Prestatieverplichting (performance obligation) ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 Een **prestatieverplichting** (performance obligation, PO) is een belofte in een contract met een klant om aan die klant over te dragen: (a) een **onderscheiden** goed of dienst (of bundel van onderscheiden goederen of diensten); OF (b) een reeks van onderscheiden goederen of diensten die grotendeels hetzelfde zijn en hetzelfde patroon van overdracht aan de klant vertonen (IFRS 15 alinea 22). De PO is de **eenheid van rekening** voor opbrengstopname. Bij aanvang van het contract identificeert de entiteit ALLE PO's; vervolgens wordt de transactieprijs daaraan toegewezen en opname gebeurt PO per PO. Een goed/dienst is **onderscheiden** (alinea 27) als beide voorwaarden gelden: (1) klant kan ervan profiteren op zichzelf of met gemakkelijk beschikbare middelen — 'in staat onderscheiden te zijn'; (2) de belofte is **afzonderlijk identificeerbaar** binnen de context van het contract — geen significante integratie of substantiële wijziging met andere beloofde elementen.
 
 _Bron: IFRS 15 alinea 22 + 27_
+
 
 
 ## Bouwstenen

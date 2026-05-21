@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/leaseverplichting-ifrs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Leaseverplichting onder IFRS 16 ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 De **leaseverplichting** is de financiële verplichting die de lessee op de aanvangsdatum onder IFRS 16 op zijn balans opneemt: de **contante waarde van leasebetalingen die op aanvangsdatum nog niet zijn verricht** (alinea 26). Disconteringsvoet: **impliciete rentevoet van de leaseovereenkomst** indien gemakkelijk bepaalbaar; anders **marginale rentevoet van de lessee** (rentevoet die de lessee zou betalen om geleende middelen te krijgen voor een soortgelijke transactie). Na eerste opname (alinea 36): boekwaarde verhogen met rente op leaseverplichting (effectieve-rentemethode); boekwaarde verminderen met verrichte leasebetalingen; boekwaarde herwaarderen bij wijzigingen in leaseperiode, aankoopoptie-beoordeling, restwaardegaranties, of index/rentevoet-aanpassingen.
 
 _Bron: IFRS 16 alinea 26-43_
+
 
 
 ## Bouwstenen

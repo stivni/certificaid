@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kb-wvv-uitvoering.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # KB tot uitvoering van het WVV (KB-WVV) ⚖️
 
@@ -26,14 +26,17 @@ Het KB van 29 april 2019 (kortweg KB-WVV) werkt het WVV gedetailleerd uit. **Boe
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]] · Specialisatie van: [[wetboek-vennootschappen-verenigingen]]
 
+> [!info] Bestaat uit (3): [[jaarrekening-schema]] · [[minimum-algemeen-rekeningenstelsel]] · [[waarderingsregels-jaarrekening]]
+
 Het Koninklijk Besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (kortweg KB-WVV) werkt het WVV gedetailleerd uit. Boek 3 van het KB regelt het minimum algemeen rekeningenstelsel (MAR), de schema's van de jaarrekening (volledig/verkort/micro), de waarderingsregels, en de inhoud van de toelichting. Boek 3 vervangt het oude KB van 30 januari 2001.
 
 _Bron: KB van 29 april 2019, Boek 3_
 
 
+
 ## Bouwstenen
 
-### Vier blokken in KB-WVV Boek 3 🤖
+### Vier blokken in KB-WVV Boek 3 🔗
 
 (1) Algemeen — definities, MAR, schema-keuze. (2) Volledig, verkort en microschema — bijlagen met de rubrieken. (3) Waarderingsregels — aanschaffingswaarde, afschrijvingen, waardeverminderingen, herwaarderingen. (4) Toelichting — wat moet in de toelichting opgenomen worden.
 
@@ -87,7 +90,7 @@ _Grondslag: KB-WVV art. 3:184 e.v._
 <h3 id="hoe-lees-je-een-kb-wvv-artikel">Hoe lees je een KB-WVV-artikel?</h3>
 
 > [!tip]- Hoe lees je een KB-WVV-artikel?
-> KB-WVV-artikelen zijn genummerd in 'Boek:Titel' formaat (bv. art. 3:35). Eerste cijfer = boek, na : = artikel. Voor jaarrekening-vragen: artikelen 3:1 tot 3:200. 🤖
+> KB-WVV-artikelen zijn genummerd in 'Boek:Titel' formaat (bv. art. 3:35). Eerste cijfer = boek, na : = artikel. Voor jaarrekening-vragen: artikelen 3:1 tot 3:200. 🔗
 
 > [!tip]- Herkennen op het examen
 > Een verwijzing 'art. 3:127 KB-WVV' = artikel in Boek 3 van het uitvoeringsbesluit (consolidatie-context).

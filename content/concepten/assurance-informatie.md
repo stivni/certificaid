@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/assurance-informatie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Assurance-informatie (controle-informatie) ⚖️
 
@@ -24,11 +24,12 @@ Assurance-informatie (audit evidence) is de bouwstof waaruit het audit-oordeel w
 > [!summary] Korte inhoud
 > Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert.
 
-> [!info] Bestaat uit (5): [[externe-bevestiging-audit]] · [[gegevensgerichte-werkzaamheden]] · [[schriftelijke-bevestiging-management]] · [[steekproef-audit]] · [[toetsing-interne-beheersing]]
+> [!info] Bestaat uit (4): [[externe-bevestiging-audit]] · [[gegevensgerichte-werkzaamheden]] · [[steekproef-audit]] · [[toetsing-interne-beheersing]]
 
 Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert. Hij moet voldoende EN geschikte assurance-informatie verkrijgen — voldoende verwijst naar de hoeveelheid; geschikt naar de relevantie en betrouwbaarheid.
 
 _Bron: ITAA KMO-controlenorm §85-§86_
+
 
 
 ## Bouwstenen
@@ -85,7 +86,7 @@ _Grondslag: ITAA KMO-controlenorm §88_
 
 ## Zie ook
 
-- **Wordt voorondersteld in** (4): [[beoordelen-getrouw-beeld-en-regelmatigheid]] · [[controleverslag-elementen]] · [[documenteren-auditdossier]] · [[selecteren-en-uitvoeren-controle-instrumenten-audit]]
+- **Wordt voorondersteld in** (3): [[beoordelen-getrouw-beeld-en-regelmatigheid]] · [[controleverslag-elementen]] · [[selecteren-en-uitvoeren-controle-instrumenten-audit]]
 ## Voorbeelden
 
 Voor de bevestiging van handelsvorderingen van Rotex Roeselare NV vraagt Sofie Janssens externe bevestigingen aan de top 20 klanten (€ 4.500.000 op € 6.200.000 saldo). De ontvangen confirmaties + overige analytische procedures geven haar voldoende en geschikte assurance-informatie over het 'bestaan'-assertion.

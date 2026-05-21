@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/oprichtersaansprakelijkheid.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Oprichtersaansprakelijkheid ⚖️
 
@@ -28,6 +28,7 @@ Oprichtersaansprakelijkheid bestaat omdat de oprichters de **kapitaalbasis** vas
 **Oprichtersaansprakelijkheid** is het samenstel van regels waarbij personen die bij **oprichtingsakte** als oprichter zijn opgetreden (of als zodanig worden gelijkgesteld), **hoofdelijk** aansprakelijk worden gesteld jegens 'belanghebbenden' (vennootschap, aandeelhouders, schuldeisers) voor specifieke gebreken bij de oprichting en voor de schulden van de vennootschap als zij binnen **drie jaar** failliet gaat met een **kennelijk ontoereikend aanvangsvermogen** (art. 5:15-5:16 BV, art. 6:16-6:17 CV, art. 7:18 NV; voor de NV: art. 7:19 ook voor bestuurders bij quasi-inbreng).
 
 _Bron: WVV art. 5:14-5:16, 6:16-6:17, 7:18-7:20_
+
 
 
 ## Bouwstenen
@@ -82,17 +83,17 @@ _Grondslag: WVV art. 2:2_
 <h3 id="onderscheid-oprichter-inschrijver-vennoot">Onderscheid oprichter ↔ inschrijver-vennoot</h3>
 
 > [!tip]- Onderscheid oprichter ↔ inschrijver-vennoot
-> Bij de BV en de NV kunnen statutair bepaalde inschrijvers (die geen bestuursmandaat krijgen of die slechts een beperkte inbreng doen) worden uitgesloten van de kwalificatie als 'oprichter' — zij heten dan **gewone inschrijvers**. De oprichters in de strikte zin (degenen die het financieel plan opstellen en de oprichtingsakte tekenen) blijven de **aansprakelijkheidsdragers**. 🤖
+> Bij de BV en de NV kunnen statutair bepaalde inschrijvers (die geen bestuursmandaat krijgen of die slechts een beperkte inbreng doen) worden uitgesloten van de kwalificatie als 'oprichter' — zij heten dan **gewone inschrijvers**. De oprichters in de strikte zin (degenen die het financieel plan opstellen en de oprichtingsakte tekenen) blijven de **aansprakelijkheidsdragers**. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- De drie-jaars-aansprakelijkheid is **geen vermoeden van fout**, maar een eigen wettelijke grondslag: de wetgever kwalificeert het kennelijk ontoereikend aanvangsvermogen zelf als fout. Verweer dat 'we deden ons best' werkt enkel als het financieel plan **werkelijk redelijk en gestoffeerd** was op het ogenblik van de oprichting.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Het **financieel plan** (art. 5:4) is bewust opgemaakt om bij faillissement opvraagbaar te zijn. Onderschat het belang van deugdelijke onderbouwing niet — dit is hét exposé op grond waarvan de rechter de kennelijke ontoereikendheid beoordeelt.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
@@ -114,7 +115,7 @@ Pieter Vermeulen en Marleen De Cock richten **Oprichtingen Oostende BV** op met 
 1. De rechter onderzoekt of het aanvangsvermogen **kennelijk ontoereikend** was voor minstens twee jaar normale werking — gegeven het financieel plan dat zelf € 80.000 voorzag, is € 5.000 manifest onder de maat.
 2. De rechter stelt vast dat aan de voorwaarden van art. 5:16, 2° WVV is voldaan: faillissement binnen drie jaar + kennelijk ontoereikend aanvangsvermogen.
 3. De rechter veroordeelt Pieter Vermeulen en Marleen De Cock **hoofdelijk** tot vergoeding van de schulden van Oprichtingen Oostende BV, in een verhouding die hij vaststelt (bv. 70/30 op basis van hun aandeelhouderschap en hun rol in de besluitvorming).
-🤖
+🔗
 
 
 

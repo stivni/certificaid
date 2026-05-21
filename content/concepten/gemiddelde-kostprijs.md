@@ -13,9 +13,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gemiddelde-kostprijs.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Gemiddelde kostprijs 🤖
+# Gemiddelde kostprijs 🔗
 
 De gemiddelde kostprijs is totale kost (vaste + variabele) gedeeld door aantal eenheden — een lange-termijn-indicator voor 'wat kost een stuk inclusief overhead'. Bruikbaar voor prijszetting en algemene rendementsbeoordeling, niet voor korte-termijn-beslissingen (waar marginale kost en contributiemarge tellen). Vertekent bij sterke volume-schommelingen want vaste kost per stuk daalt met meer output.
 
@@ -25,6 +25,7 @@ De gemiddelde kostprijs is totale kost (vaste + variabele) gedeeld door aantal e
 De gemiddelde kostprijs is de totale kost (vaste én variabele kosten samen) gedeeld door het aantal geproduceerde eenheden. Geeft een indicatie van de 'kost per stuk' inclusief gedragen overhead — bruikbaar voor lange-termijn prijszetting.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## In de praktijk

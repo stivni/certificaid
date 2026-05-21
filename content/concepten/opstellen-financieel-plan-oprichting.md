@@ -14,11 +14,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-financieel-plan-oprichting.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van het financieel plan bij oprichting van een vennootschap 🤖
+# Opstellen van het financieel plan bij oprichting van een vennootschap 🔗
 
 Operationele competentie: vanuit het businessplan van de cliënt het wettelijk verplichte financieel plan opstellen (art. 5:4 BV / 6:5 CV / 7:3 NV) — inhoud invullen volgens de zes minimum-rubrieken, hypothesen expliciteren, en het document zo onderbouwen dat het oprichtersaansprakelijkheid voor kennelijk ontoereikend aanvangsvermogen vermijdt.
+
 
 
 ## In de praktijk

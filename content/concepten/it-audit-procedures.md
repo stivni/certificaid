@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/it-audit-procedures.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Audit-procedures in een IT-omgeving ⚖️
 
@@ -27,6 +27,7 @@ Wanneer de cliënt een complexe IT-omgeving gebruikt, moet de auditor zijn werkz
 Audit-procedures in een IT-omgeving zijn de werkzaamheden die de auditor specifiek aanpast aan geautomatiseerde verwerking: walkthroughs door geautomatiseerde controles, toetsen van ITGC, toetsen van geautomatiseerde toepassings-controles, en gegevensgerichte werkzaamheden uitgevoerd met computer-assisted audit techniques (CAATs) of data-analytics tools.
 
 _Bron: ISA 315 (herzien-2019) Bijlage 5 + ISA 330_
+
 
 
 ## Bouwstenen

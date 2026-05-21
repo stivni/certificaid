@@ -18,7 +18,7 @@ node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/samenstellingsopdracht.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Samenstellingsopdracht ⚖️
 
@@ -30,6 +30,7 @@ De samenstellingsopdracht (internationaal: compilation engagement) is in België
 Een samenstellingsopdracht (ISRS 4410) is een dienst zonder zekerheid: de gecertificeerd accountant past zijn vakkennis toe om het management bij te staan bij het opstellen en presenteren van historische financiële informatie zoals een jaarrekening. Er wordt géén oordeel en géén conclusie uitgebracht. De cliënt blijft verantwoordelijk voor de cijfers — de accountant 'compileert' enkel.
 
 _Bron: ITAA-norm Samenstellingsopdrachten (ISRS 4410 herzien)_
+
 
 
 ## Bouwstenen
@@ -94,6 +95,9 @@ _Grondslag: ITAA-norm Samenstellingsopdrachten (ISRS 4410) §Modellen van samens
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[itaa-normen-ic]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV doet haar boekhouding zelf maar wil hulp bij de jaarafsluiting. Sofie Janssens (gecertificeerd accountant) verwerkt afschrijvingen, herclassificeert posten en stelt de jaarrekening op in het wettelijk schema. Haar samenstellingsverslag vermeldt expliciet: 'wij hebben geen audit of beoordelingswerkzaamheden uitgevoerd — er is geen oordeel of conclusie'.

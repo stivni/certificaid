@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/stelselwissel-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Stelselwissel jaarrekening (BE GAAP ↔ IFRS) 🤖
+# Stelselwissel jaarrekening (BE GAAP ↔ IFRS) 🔗
 
 Bij beursintroductie of moederwissel (BE GAAP → IFRS) gebeurt de overgang via IFRS 1. Bij delisting of vrijwillige terugkeer (IFRS → BE GAAP) gebeurt de overgang via CBN-advies 2022/08. In beide gevallen zit de uitdaging in retroactieve herwerking versus prospectieve voortzetting: welke balansposten moeten herwerkt, welke disclosures verplicht.
 
@@ -25,9 +25,12 @@ Bij beursintroductie of moederwissel (BE GAAP → IFRS) gebeurt de overgang via 
 
 > [!info] Behoort tot: [[jaarrekening]]
 
+> [!info] Specialisaties (2): [[ifrs-eerste-toepassing]] · [[wijziging-boekhoudkundig-referentiestelsel]]
+
 Een stelselwissel is de eenmalige overgang van het ene boekhoudkundige referentiestelsel naar het andere — typisch tussen Belgisch GAAP en IFRS, in beide richtingen. De wissel gebeurt op een overgangsdatum waarop een openingsbalans wordt opgesteld onder het nieuwe stelsel, met expliciete aansluitingsverklaring tussen het oude en het nieuwe stelsel.
 
 _Bron: Synthese IFRS 1 + CBN 2022/08_
+
 
 
 ## Bouwstenen
@@ -77,6 +80,9 @@ _Grondslag: IFRS 1 alinea 24; CBN 2022/08 §Boekhoudkundige verwerking_
 > _Trigger_: Algemeen → 'welke aansluitingen vraagt elke wissel?'; IFRS-1-record → 'welke vrijstellingen kent IFRS 1?'
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (1): [[uitvoeren-eerste-toepassing-ifrs]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

@@ -15,7 +15,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/statuten-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Statuten van een vennootschap ⚖️
 
@@ -27,6 +27,7 @@ De statuten zijn het knooppunt tussen drie regimes: dwingend vennootschapsrecht 
 De statuten zijn de juridische basisakte van een vennootschap: het samenstel van regels waarmee oprichters de werking, het bestuur, de aandeelhoudersrechten, de winstverdeling en het voortbestaan van de vennootschap organiseren. Het WVV bepaalt per rechtsvorm welke vermeldingen verplicht in de statuten moeten staan (art. 5:12 BV, 6:13 CV, 7:13 NV) en welke beslissingen vereisen dat de statuten worden gewijzigd via notariële akte en publicatie in de bijlagen bij het Belgisch Staatsblad. Statuten zijn tegenwerpelijk aan derden vanaf bekendmaking en gelden binnen het wettelijk kader van Boeken 1-3 WVV (gemeenschappelijke bepalingen) en het specifieke Boek voor de gekozen rechtsvorm.
 
 _Bron: WVV art. 5:12 (BV), art. 6:13 (CV), art. 7:13 (NV)_
+
 
 
 ## Bouwstenen
@@ -66,7 +67,7 @@ Statutenwijziging vereist typisch een versterkt quorum (helft van het kapitaal o
 
 _Grondslag: WVV art. 5:100 (BV), art. 6:86 (CV), art. 7:153 (NV)_
 
-### Statutair versus extra-statutair 🤖
+### Statutair versus extra-statutair 🔗
 
 Sommige afspraken kunnen ofwel statutair (in de statuten, tegenwerpelijk aan derden en aan alle latere aandeelhouders) ofwel extra-statutair (in een aandeelhoudersovereenkomst, alleen tussen de ondertekenaars) worden vastgelegd. Voorbeelden van mogelijke statutaire bepalingen: overdrachtsbeperkingen, voorkeursrechten, soorten aandelen met bijzondere rechten.
 
@@ -96,22 +97,22 @@ _Grondslag: WVV art. 5:42 (BV), art. 7:71 (NV)_
 <h3 id="wanneer-raadpleeg-je-de-statuten">Wanneer raadpleeg je de statuten?</h3>
 
 > [!tip]- Wanneer raadpleeg je de statuten?
-> Bij elke wettelijk voorbehouden opdracht (oprichting, kapitaalverhoging, omzetting, fusie, ontbinding) — de statuten bepalen wie bevoegd is, welke meerderheid nodig is en welke voorafgaande formaliteiten gelden. Ook bij een eenvoudige jaarrekening: het boekjaar en de winstverdelingsregels staan in de statuten. 🤖
+> Bij elke wettelijk voorbehouden opdracht (oprichting, kapitaalverhoging, omzetting, fusie, ontbinding) — de statuten bepalen wie bevoegd is, welke meerderheid nodig is en welke voorafgaande formaliteiten gelden. Ook bij een eenvoudige jaarrekening: het boekjaar en de winstverdelingsregels staan in de statuten. 🔗
 
 <h3 id="statuten-versus-huishoudelijk-reglement">Statuten versus huishoudelijk reglement</h3>
 
 > [!tip]- Statuten versus huishoudelijk reglement
-> Het WVV laat sommige uitwerkingen toe in een huishoudelijk reglement (intern document, geen notariële akte, niet gepubliceerd) — bv. detailwerking van de raad. Onderscheid: statuten = juridisch bindend en publiek; reglement = praktisch werkdocument tussen de organen. 🤖
+> Het WVV laat sommige uitwerkingen toe in een huishoudelijk reglement (intern document, geen notariële akte, niet gepubliceerd) — bv. detailwerking van de raad. Onderscheid: statuten = juridisch bindend en publiek; reglement = praktisch werkdocument tussen de organen. 🔗
 
 
 ## Valkuilen
 
 > [!warning]- Lees zowel de statuten als de eventuele aandeelhoudersovereenkomst — de SHA kan tegenstrijdige afspraken bevatten.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Bij omzetting: de nieuwe statuten moeten tegelijk met de omzettingsakte worden vastgesteld (art. 14:9 WVV).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

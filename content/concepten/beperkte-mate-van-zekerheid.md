@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/beperkte-mate-van-zekerheid.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Beperkte mate van zekerheid ⚖️
 
@@ -29,6 +29,7 @@ Een beperkte mate van zekerheid (limited assurance) is het zekerheidsniveau bij 
 _Bron: ITAA KMO-controlenorm §2_
 
 
+
 ## In de praktijk
 
 <h3 id="werkzaamheden-vs-controle">Werkzaamheden vs. controle</h3>
@@ -40,7 +41,7 @@ _Bron: ITAA KMO-controlenorm §2_
 ## Zie ook
 
 - **Getriggerd door**: [[contractuele-beoordelingsopdracht]]
-- **Wordt voorondersteld in** (4): [[contractuele-beoordelingsopdracht]] · [[effectennorm-opdracht]] · [[omzetting-vennootschap-opdracht]] · [[ontbinding-vereffening-opdracht]]
+- **Wordt voorondersteld in** (6): [[contractuele-beoordelingsopdracht]] · [[controleverslag-omzetting]] · [[effectennorm-opdracht]] · [[omzetting-vennootschap]] · [[omzetting-vennootschap-opdracht]] · [[ontbinding-vereffening-opdracht]]
 ## Voorbeelden
 
 Sofie Janssens beoordeelt de tussentijdse cijfers van Naaiatelier Ninove BV per 30 juni 2025. Beperkte werkzaamheden (vooral cijferanalyses en bevragingen). Haar conclusie: 'op basis van onze beoordeling zijn ons geen feiten gebleken die ons doen geloven dat de tussentijdse cijfers geen getrouw beeld geven'.

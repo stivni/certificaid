@@ -13,9 +13,9 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opschorting-betaling-gerechtelijke-reorganisatie.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opschorting van betaling tijdens gerechtelijke reorganisatie 🤖
+# Opschorting van betaling tijdens gerechtelijke reorganisatie 🔗
 
 De opschorting is het hart van de gerechtelijke reorganisatie: zonder bescherming tegen uitvoeringsmaatregelen zou de schuldenaar geen ademruimte hebben om een akkoord uit te onderhandelen of een overnemer te zoeken. De rechtbank bepaalt de duur (tot 6 maanden, verlengbaar tot maximaal 12 maanden) — een strakke termijn om procedures niet eindeloos te laten lopen.
 
@@ -24,7 +24,10 @@ De opschorting is het hart van de gerechtelijke reorganisatie: zonder beschermin
 
 > [!info] Behoort tot: [[gerechtelijke-reorganisatie]]
 
+> [!info] Bestaat uit (1): [[schuldvergelijking-tijdens-opschorting]]
+
 Tijdens de **duur van de opschorting** kunnen voor schuldvorderingen in de opschorting geen middelen van tenuitvoerlegging (beslag, gedwongen verkoop) worden voortgezet of aangewend op de roerende of onroerende goederen van de schuldenaar. Tijdens diezelfde periode kan de schuldenaar **niet failliet worden verklaard**, behoudens op zijn eigen aangifte, en kan een rechtspersoon niet gerechtelijk worden ontbonden.
+
 
 
 ## Voorwaarden / uitzonderingen
@@ -36,14 +39,14 @@ Tijdens de **duur van de opschorting** kunnen voor schuldvorderingen in de opsch
 ## Valkuilen
 
 > [!warning]- Boekhoudkundig blijven schulden in opschorting bestaan tot ze door een gehomologeerd plan worden gewijzigd of kwijtgescholden. De opschorting bevriest enkel de uitvoering, niet de schuld zelf.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 
 ## Zie ook
 
 - **Vereist kennis van**: [[schuldvergelijking-tijdens-opschorting]]
-
+- **Wordt voorondersteld in** (1): [[gerechtelijke-reorganisatie]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

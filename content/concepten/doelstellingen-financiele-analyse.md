@@ -18,9 +18,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/doelstellingen-financiele-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Doelstellingen van financiële analyse 🤖
+# Doelstellingen van financiële analyse 🔗
 
 De analist transformeert de cijfers in een onderbouwd oordeel over de financiële gezondheid en risico's van de onderneming, vanuit het perspectief van een specifieke gebruiker (kredietverlener, aandeelhouder, manager).
 
@@ -29,9 +29,12 @@ De analist transformeert de cijfers in een onderbouwd oordeel over de financiël
 
 > [!info] Behoort tot: [[getrouw-beeld-jaarrekening]]
 
+> [!info] Bestaat uit (7): [[cashflow-analyse]] · [[debt-equity-ratio]] · [[getrouw-beeld-jaarrekening]] · [[liquiditeitsratio]] · [[rentabiliteit-eigen-vermogen-roe]] · [[rentabiliteit-totaal-activa-roa]] · [[solvabiliteitsratio]]
+
 De doelstellingen van financiële analyse zijn de specifieke vragen die de analyst over de jaarrekening wil beantwoorden: kan de onderneming haar korte schulden betalen (liquiditeit), is de schuldenstructuur houdbaar (solvabiliteit), levert de onderneming voldoende winst op het ingezet kapitaal (rendabiliteit), en groeit ze (activiteit/groei).
 
 _Bron: Financial analysis algemene consensus_
+
 
 
 ## Bouwstenen
@@ -90,7 +93,7 @@ _Grondslag: Vakdoctrine financial analysis_
 <h3 id="1.3.taak.1">Doelstelling kiezen vóór ratio's</h3>
 
 > [!tip]- Doelstelling kiezen vóór ratio's
-> Bepaal eerst vanuit welke gebruikersrol je analyseert (krediet, aandelen, intern beheer) — dat bepaalt welke doelen primair zijn en dus welke ratio's relevant. 🤖
+> Bepaal eerst vanuit welke gebruikersrol je analyseert (krediet, aandelen, intern beheer) — dat bepaalt welke doelen primair zijn en dus welke ratio's relevant. 🔗
 
 > [!tip]- Herkennen op het examen
 > Een ratio zonder doel-context is een nummer zonder betekenis.
@@ -99,12 +102,15 @@ _Grondslag: Vakdoctrine financial analysis_
 ## Valkuilen
 
 > [!warning]- De vier doelstellingen overlappen — een hoge solvabiliteit zegt niets als de rendabiliteit nul is (kapitaal staat dood)
-> ⚠️ De vier doelstellingen overlappen — een hoge solvabiliteit zegt niets als de rendabiliteit nul is (kapitaal staat dood). Verband leggen tussen de vier is de kern van de analyse, niet ze afzonderlijk afvinken. 🤖
+> ⚠️ De vier doelstellingen overlappen — een hoge solvabiliteit zegt niets als de rendabiliteit nul is (kapitaal staat dood). Verband leggen tussen de vier is de kern van de analyse, niet ze afzonderlijk afvinken. 🔗
 >
 > _Bron: Financial analysis_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (3): [[cijferanalyses-controle-norm]] · [[gebruikers-jaarrekening]] · [[intake-financiele-analyse]]
 ## Bronnen
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden`

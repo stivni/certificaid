@@ -16,11 +16,12 @@ node_type: competentie
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-openingsbalans-vennootschap.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Opstellen van de openingsbalans van een nieuwe vennootschap 🤖
+# Opstellen van de openingsbalans van een nieuwe vennootschap 🔗
 
 Operationele boekhoudkundige competentie: vanuit de oprichtingsakte de eerste boekingen (openingsbalans + boeken van inbrengen + boeken van oprichtingskosten) verrichten zodat de vennootschap met een conforme balans haar eerste boekjaar start. Doel: vertrekpositie correct vastleggen volgens BOK/KB WVV en consistent met het financieel plan.
+
 
 
 ## In de praktijk

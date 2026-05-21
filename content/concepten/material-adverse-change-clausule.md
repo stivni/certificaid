@@ -14,9 +14,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/material-adverse-change-clausule.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
-# Material Adverse Change-clausule (MAC) 🤖
+# Material Adverse Change-clausule (MAC) 🔗
 
 De MAC-clausule geeft de koper de mogelijkheid om uit het contract te stappen of de prijs aan te passen wanneer tussen signing en closing een wezenlijke negatieve gebeurtenis plaatsvindt. Sinds de COVID-19-pandemie is de definitie van wat 'MAC' is een gevoelig onderhandelpunt geworden in elke Belgische SPA.
 
@@ -26,6 +26,7 @@ De MAC-clausule geeft de koper de mogelijkheid om uit het contract te stappen of
 > [!info] Behoort tot: [[overnameovereenkomst]] · [[closing-condities-precedent]]
 
 Een Material Adverse Change-clausule is een contractuele bepaling die de koper toelaat om — wanneer zich tussen signing en closing een wezenlijke negatieve verandering voordoet in de business, activa, financiële toestand of vooruitzichten van de target — het contract op te zeggen, de closing op te schorten of de prijs te heronderhandelen.
+
 
 
 ## In de praktijk
@@ -41,11 +42,11 @@ Een Material Adverse Change-clausule is een contractuele bepaling die de koper t
 ## Valkuilen
 
 > [!warning]- Definieer kwantitatieve drempels expliciet — vage 'material' zonder cijfers leidt tot onzekerheid bij activering.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Onderscheid tussen 'MAC bij signing' (R&W betreffende afwezigheid van MAC sinds laatste audit) en 'MAC tussen signing en closing' (CP).
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

@@ -17,9 +17,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/interne-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Interne audit 🤖
+# Interne audit 🔗
 
 Interne audit is de derde verdedigingslijn van het drie-lijnen-model: een onafhankelijke evaluatie- en adviesfunctie binnen de onderneming. Onderscheidt zich van interne controle (de operationele procedures zelf) en externe audit (door commissaris voor derden). Wettelijk verplicht in financiële sector (NBB-toezicht) en beursgenoteerd; vrijwillig bij andere grote ondernemingen. ISA 610 regelt hoe de externe auditor op het werk van interne audit mag steunen.
 
@@ -28,7 +28,10 @@ Interne audit is de derde verdedigingslijn van het drie-lijnen-model: een onafha
 
 > [!info] Behoort tot: [[drie-lijnen-model]]
 
+> [!info] Bestaat uit (1): [[functie-interne-auditor]]
+
 Interne audit is een onafhankelijke, objectieve evaluatie- en adviesactiviteit binnen een onderneming die de werking van het interne-controle-systeem, het risicobeheer en de governance toetst. De interne auditor rapporteert hiërarchisch aan de hoogste leiding (raad van bestuur of auditcomité), niet aan het management van het proces dat hij beoordeelt — dat geeft hem zijn onafhankelijkheid binnen de onderneming.
+
 
 
 ## Bouwstenen
@@ -86,17 +89,17 @@ _Grondslag: IIA International Standard 1000, 1010_
 <h3 id="vier-kerntaken-interne-auditor">Vier kerntaken interne auditor</h3>
 
 > [!tip]- Vier kerntaken interne auditor
-> (1) Evaluatie van het IC-systeem: werkt het zoals beoogd? (2) Risicobeheer-evaluatie: zijn de juiste risico's geïdentificeerd en beheerst? (3) Governance-review: functioneren de overlegorganen correct? (4) Adviesrol: aanbevelingen voor verbetering. 🤖
+> (1) Evaluatie van het IC-systeem: werkt het zoals beoogd? (2) Risicobeheer-evaluatie: zijn de juiste risico's geïdentificeerd en beheerst? (3) Governance-review: functioneren de overlegorganen correct? (4) Adviesrol: aanbevelingen voor verbetering. 🔗
 
 <h3 id="onafhankelijkheid-binnen-de-onderneming">Onafhankelijkheid binnen de onderneming</h3>
 
 > [!tip]- Onafhankelijkheid binnen de onderneming
-> De interne auditor is werknemer maar staat hiërarchisch los van de gecontroleerde processen. Rapporteert rechtstreeks aan auditcomité of raad van bestuur, niet aan operationeel management. Mag geen taken uitvoeren in de cyclus die hij audit (anders zit hij zichzelf te beoordelen). 🤖
+> De interne auditor is werknemer maar staat hiërarchisch los van de gecontroleerde processen. Rapporteert rechtstreeks aan auditcomité of raad van bestuur, niet aan operationeel management. Mag geen taken uitvoeren in de cyclus die hij audit (anders zit hij zichzelf te beoordelen). 🔗
 
 <h3 id="wanneer-wettelijk-verplicht-in-belgie">Wanneer wettelijk verplicht in België</h3>
 
 > [!tip]- Wanneer wettelijk verplicht in België
-> Voor de meeste ondernemingen niet wettelijk verplicht — wel in financiële sector (banken, verzekeraars onder toezicht van NBB), beursgenoteerde vennootschappen (Code Buysse / Code 2020), en grote overheidsentiteiten. Yperse Werkplaats BV (KMO) heeft géén wettelijke verplichting; Rotex Roeselare NV (groot, beursgenoteerd) wel via de Corporate Governance Code. 🤖
+> Voor de meeste ondernemingen niet wettelijk verplicht — wel in financiële sector (banken, verzekeraars onder toezicht van NBB), beursgenoteerde vennootschappen (Code Buysse / Code 2020), en grote overheidsentiteiten. Yperse Werkplaats BV (KMO) heeft géén wettelijke verplichting; Rotex Roeselare NV (groot, beursgenoteerd) wel via de Corporate Governance Code. 🔗
 
 
 > [!info]- Niet verwarren met [[externe-controle]]
@@ -113,11 +116,11 @@ _Grondslag: IIA International Standard 1000, 1010_
 ## Valkuilen
 
 > [!warning]- Interne auditor ≠ interne controleur
-> ⚠️ Interne auditor ≠ interne controleur. De controleur zit ingebed in het proces (tekent facturen af, doet inventaris). De interne auditor evalueert achteraf of die controles werken — hij voert ze niet uit. 🤖
+> ⚠️ Interne auditor ≠ interne controleur. De controleur zit ingebed in het proces (tekent facturen af, doet inventaris). De interne auditor evalueert achteraf of die controles werken — hij voert ze niet uit. 🔗
 
 
 > [!warning]- Bij externe audit mag de externe auditor 'gebruik maken van' werk van interne audit (ISA 610) — maar blijft volledig verantwoordelijk voor z…
-> ⚠️ Bij externe audit mag de externe auditor 'gebruik maken van' werk van interne audit (ISA 610) — maar blijft volledig verantwoordelijk voor zijn eigen oordeel. Hij delegeert niet, hij steunt waar zinvol. 🤖
+> ⚠️ Bij externe audit mag de externe auditor 'gebruik maken van' werk van interne audit (ISA 610) — maar blijft volledig verantwoordelijk voor zijn eigen oordeel. Hij delegeert niet, hij steunt waar zinvol. 🔗
 
 
 > [!warning]- Belangrijk voor de externe accountant: hij mag geen interne audit-dienst leveren aan zijn eigen audit-cliënt waarbij hij management-verantwo…
@@ -130,7 +133,7 @@ _Grondslag: IIA International Standard 1000, 1010_
 ## Zie ook
 
 - **Vereist kennis van**: [[auditcomite]]
-
+- **Wordt voorondersteld in** (2): [[auditcomite]] · [[gebruik-werk-interne-auditors-audit]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor. Ze rapporteert aan het auditcomité van de raad van bestuur. In 2026 voert ze een review uit van de aankoopcyclus: ze test of de procedure 'drie handtekeningen + leverancier-due-diligence' systematisch wordt nageleefd. Ze rapporteert haar bevindingen aan het auditcomité, niet aan de aankoopdirecteur.

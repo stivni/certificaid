@@ -14,9 +14,9 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/cash-ratio.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Cash ratio (liquiditeit in strenge zin) 🤖
+# Cash ratio (liquiditeit in strenge zin) 🔗
 
 Cash ratio = (geldbeleggingen + liquide middelen) / schulden op ten hoogste een jaar. Het is de strengste liquiditeitstoets: ze meet hoeveel van de korte schulden onmiddellijk kunnen worden voldaan zonder beroep te doen op vorderingen of voorraden. In voorraadintensieve sectoren is dit de meest waardevolle van de drie liquiditeitsratio's omdat ze de illusie van liquiditeit door grote voorraden uitsluit.
 
@@ -28,6 +28,7 @@ Cash ratio = (geldbeleggingen + liquide middelen) / schulden op ten hoogste een 
 De cash ratio is de verhouding tussen de meest liquide vlottende activa (geldbeleggingen + liquide middelen) en de schulden op ten hoogste een jaar. Ze toont in welke mate de onderneming haar korte schulden onmiddellijk en zonder operationele tussenstappen zou kunnen voldoen.
 
 _Bron: Algemene financial-analysis-doctrine_
+
 
 
 ## Bouwstenen
@@ -175,7 +176,7 @@ Resultaat: Een cash ratio van 0,325 betekent dat Rotex met onmiddellijk beschikb
 <h3 id="1.3.II.C">Geen vaste norm</h3>
 
 > [!tip]- Geen vaste norm
-> Anders dan current ratio (norm rond 1-2) of quick ratio (norm rond 1) heeft cash ratio geen algemeen aanvaarde minimumwaarde. Bedrijven optimaliseren bewust hun kaspositie: te hoge cash = niet productief belegd; te lage cash = liquiditeitsrisico. Interpretatie gebeurt steeds sectorgebonden en samen met de andere twee ratio's. 🤖
+> Anders dan current ratio (norm rond 1-2) of quick ratio (norm rond 1) heeft cash ratio geen algemeen aanvaarde minimumwaarde. Bedrijven optimaliseren bewust hun kaspositie: te hoge cash = niet productief belegd; te lage cash = liquiditeitsrisico. Interpretatie gebeurt steeds sectorgebonden en samen met de andere twee ratio's. 🔗
 
 
 > [!info]- Niet verwarren met [[quick-ratio]]
@@ -198,7 +199,7 @@ Resultaat: Een cash ratio van 0,325 betekent dat Rotex met onmiddellijk beschikb
 
 
 > [!warning]- Geldbeleggingen onder rubriek VIII zijn niet altijd echt liquide
-> ⚠️ Geldbeleggingen onder rubriek VIII zijn niet altijd echt liquide. Termijndeposito's op meer dan 3 maanden of niet-beursgenoteerde participaties horen er soms in maar zijn niet onmiddellijk te gelde te maken. Controleer de toelichting bij de geldbeleggingen vóór je ze als cash beschouwt. 🤖
+> ⚠️ Geldbeleggingen onder rubriek VIII zijn niet altijd echt liquide. Termijndeposito's op meer dan 3 maanden of niet-beursgenoteerde participaties horen er soms in maar zijn niet onmiddellijk te gelde te maken. Controleer de toelichting bij de geldbeleggingen vóór je ze als cash beschouwt. 🔗
 >
 > _Bron: Financial analysis_
 

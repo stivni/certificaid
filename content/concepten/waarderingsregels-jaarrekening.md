@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/waarderingsregels-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Waarderingsregels (algemeen) ⚖️
 
@@ -26,9 +26,12 @@ Waarderingsregels bepalen aan welke waarde een actief of passief op de balans ve
 
 > [!info] Behoort tot: [[kb-wvv-uitvoering]]
 
+> [!info] Bestaat uit (1): [[bijzondere-waardevermindering]]
+
 Waarderingsregels zijn de regels die bepalen aan welke waarde een actief of passief op de balans wordt opgenomen. Het KB-WVV (art. 3:35 e.v.) stelt het basisprincipe: aanschaffingswaarde (historische kost) als startpunt; daarna correcties (afschrijvingen, waardeverminderingen, herwaarderingen) volgens vastliggende methodes. Elke vennootschap legt haar eigen waarderingsregels expliciet vast in de toelichting bij de jaarrekening.
 
 _Bron: KB-WVV art. 3:35_
+
 
 
 ## Bouwstenen
@@ -103,7 +106,7 @@ _Grondslag: KB-WVV art. 3:35 § 4_
 
 - **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
 - **Vereist kennis van**: [[consistentiebeginsel]]
-
+- **Wordt voorondersteld in** (4): [[continuiteitsbeginsel]] · [[eindejaarsverrichtingen]] · [[inventaris]] · [[voorzichtigheidsbeginsel]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt op 1 maart 2024 een machine voor € 80.000 → boekwaarde initieel = aanschaffingswaarde € 80.000. Lineair afschrijven over 10 jaar = € 8.000 per jaar. Na 5 jaar: boekwaarde € 40.000.

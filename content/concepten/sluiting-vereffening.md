@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/sluiting-vereffening.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Sluiting van de vereffening ⚖️
 
@@ -25,10 +25,15 @@ Sluiting is **niet** het einde van alle juridische gevolgen: de aandeelhouders w
 
 > [!info] Behoort tot: [[vereffeningsprocedure-klassiek]]
 
+> [!info] Bestaat uit (1): [[liquidatiebonus]]
+
 De **sluiting van de vereffening** is de formele beëindiging van de vereffeningsfase — pas op dat ogenblik **houdt de vennootschap op te bestaan** als rechtspersoon. Zij wordt uitgesproken door de AV (bij vrijwillige ontbinding, art. 2:90 + 2:100 WVV) of door de rechtbank (bij gerechtelijke ontbinding, art. 2:101) op basis van een **cijfermatig verslag** opgemaakt door de vereffenaar, in voorkomend geval gecontroleerd door de commissaris. De sluiting wordt bekendgemaakt overeenkomstig de art. 2:6 + 2:12 WVV; de vennootschap wordt geschrapt uit het KBO.
 
 _Bron: WVV art. 2:90 — 2:104_
 
+
+
+> [!info] Uitzonderingen (1): [[heropening-vereffening]]
 
 ## Bouwstenen
 
@@ -97,7 +102,7 @@ _Grondslag: WVV art. 2:104; WIB92 art. 18, 2°ter_
 ## Zie ook
 
 - **Getriggerd door**: [[heropening-vereffening]]
-
+- **Wordt voorondersteld in** (1): [[begeleiden-vereffening-vennootschap]]
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

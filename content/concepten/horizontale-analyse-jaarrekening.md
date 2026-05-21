@@ -21,11 +21,12 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/horizontale-analyse-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Horizontale analyse (evolutie-analyse) 🤖
+# Horizontale analyse (evolutie-analyse) 🔗
 
 De evolutie van balans- en resultatenposten over meerdere boekjaren in kaart brengen. Elke post wordt uitgedrukt als verandering tegenover een basisjaar (in absolute euro's of in procenten), zodat trends zichtbaar worden.
+
 
 
 ## Bouwstenen
@@ -42,7 +43,7 @@ Rotex Roeselare NV: omzet 20X0 = € 45.000.000; omzet 20X1 = € 50.000.000. Ev
 
 _Grondslag: Vakdoctrine_
 
-### KB WVV verplicht vergelijkende cijfers 🤖
+### KB WVV verplicht vergelijkende cijfers 🔗
 
 Het Belgisch jaarrekeningenrecht verplicht het opnemen van de cijfers van het voorgaande boekjaar naast die van het lopende boekjaar — dat is de bouwsteen waarop horizontale analyse rust.
 
@@ -142,12 +143,15 @@ Resultaat: Voorraden groeien sneller dan omzet → vraag stelt zich of verkoop d
 ## Valkuilen
 
 > [!warning]- Bij sterk fluctuerende waarden krijgt een laag basisjaar gevolg op alle indexen — een 'goed' basisjaar (gemiddeld of pre-crisis) kiezen is e…
-> ⚠️ Bij sterk fluctuerende waarden krijgt een laag basisjaar gevolg op alle indexen — een 'goed' basisjaar (gemiddeld of pre-crisis) kiezen is essentieel. 🤖
+> ⚠️ Bij sterk fluctuerende waarden krijgt een laag basisjaar gevolg op alle indexen — een 'goed' basisjaar (gemiddeld of pre-crisis) kiezen is essentieel. 🔗
 >
 > _Bron: Financial analysis_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (5): [[analytische-balans]] · [[falen-van-de-onderneming]] · [[historische-evolutie-financiele-analyse]] · [[interpretatie-financiele-ratios]] · [[toegevoegde-waarde-financiele-analyse]]
 ## Bronnen
 
 [^1]: `anchor-1.3.I.C`

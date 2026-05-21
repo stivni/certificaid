@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/obligatielening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Obligatielening ⚖️
 
@@ -28,6 +28,7 @@ Een markt-financieringsvorm die alleen door grotere vennootschappen wordt gebrui
 Een **leningsovereenkomst** waarbij de vennootschap **obligaties** uitgeeft aan beleggers — verhandelbare schuldbewijzen met een vaste of variabele rente en een vooraf bepaalde looptijd (typisch 5 — 15 jaar). De vennootschap ontvangt het kapitaal en betaalt jaarlijkse coupons (rente) plus terugbetaling op vervaldag. Boekhoudkundig: rekening **170 'Obligatieleningen'** onder schulden op meer dan één jaar. Bijhorende kosten van uitgifte: rekening 201 (oprichtingskosten).
 
 _Bron: CBN 2019/07 — Boekhoudkundige verwerking van obligaties_
+
 
 
 ## Bouwstenen
@@ -85,7 +86,7 @@ _Grondslag: Boekhoudkundige verwerking_
 <h3 id="onderscheid-met-converteerbare-obligatie">Onderscheid met converteerbare obligatie</h3>
 
 > [!tip]- Onderscheid met converteerbare obligatie
-> Een converteerbare obligatie geeft de houder recht om op vervaldag te kiezen tussen terugbetaling of conversie in aandelen (volgens vooraf vastgelegde conversieratio). Boekhoudkundig deels behandeld als schuld (170), deels als kapitaalcomponent. 🤖
+> Een converteerbare obligatie geeft de houder recht om op vervaldag te kiezen tussen terugbetaling of conversie in aandelen (volgens vooraf vastgelegde conversieratio). Boekhoudkundig deels behandeld als schuld (170), deels als kapitaalcomponent. 🔗
 
 
 ## Valkuilen
@@ -100,7 +101,7 @@ _Grondslag: Boekhoudkundige verwerking_
 ## Zie ook
 
 - **Getriggerd door**: [[oprichtingskosten]]
-
+- **Triggert** (1): [[oprichtingskosten]]
 ## Voorbeelden
 
 Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar).

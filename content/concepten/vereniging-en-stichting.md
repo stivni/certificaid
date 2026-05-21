@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereniging-en-stichting.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Verenigingen en stichtingen (VZW, IVZW, stichting) ⚖️
 
@@ -26,6 +26,7 @@ Naast vennootschappen erkent het WVV verenigingen en stichtingen als rechtsvorme
 Een **vereniging** is een verbond van personen voor een gemeenschappelijk belangeloos doel (VZW = met rechtspersoonlijkheid, art. 9:1; feitelijke vereniging = zonder, art. 1:6). Een **stichting** is een rechtspersoon zonder leden, opgericht door één of meer stichters, waarvan het vermogen wordt bestemd voor een belangeloos doel (art. 1:3). Beide mogen geen vermogensvoordeel uitkeren aan leden, stichters of bestuurders.
 
 _Bron: WVV art. 1:3, 1:6, 9:1_
+
 
 
 ## Bouwstenen
@@ -96,7 +97,7 @@ _Grondslag: WVV art. 1:2, 1:3, 9:1_
 <h3 id="voor-de-stagiair-accountant">Voor de stagiair-accountant</h3>
 
 > [!tip]- Voor de stagiair-accountant
-> VZW-cliënten: aparte jaarrekening-schema's (klein, microvereniging, groot). Klein → vereenvoudigde boekhouding (kasontvangsten/uitgaven) onder drempels. Groot → dubbele boekhouding + jaarrekening-publicatie. Let bij audit op: niet-toegelaten uitkeringen (verdoken loon, bevoordeling van bestuurders), commerciële activiteit-verantwoording in jaarverslag. 🤖
+> VZW-cliënten: aparte jaarrekening-schema's (klein, microvereniging, groot). Klein → vereenvoudigde boekhouding (kasontvangsten/uitgaven) onder drempels. Groot → dubbele boekhouding + jaarrekening-publicatie. Let bij audit op: niet-toegelaten uitkeringen (verdoken loon, bevoordeling van bestuurders), commerciële activiteit-verantwoording in jaarverslag. 🔗
 
 
 ## Valkuilen

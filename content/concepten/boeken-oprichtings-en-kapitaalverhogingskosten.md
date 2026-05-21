@@ -15,11 +15,12 @@ node_type: competentie
 status: voorgesteld
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/boeken-oprichtings-en-kapitaalverhogingskosten.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Boeken van oprichtings- en kapitaalverhogingskosten en hun afschrijving 🤖
+# Boeken van oprichtings- en kapitaalverhogingskosten en hun afschrijving 🔗
 
 Een keuze-competentie: oprichtings- en kapitaalverhogingskosten mogen volgens KB WVV ofwel **direct als kost** worden geboekt, ofwel **geactiveerd** onder rubriek 20 met afschrijving over maximaal vijf jaar. Voor een stagiair-GA is dit de eerste boeking waar resultaat-spreiding via activering wordt afgewogen tegen onmiddellijke kostenname — een keuze met meerjareneffect op het bedrijfsresultaat.
+
 
 
 ## Stappen

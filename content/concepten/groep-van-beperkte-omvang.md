@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/groep-van-beperkte-omvang.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Groep van beperkte omvang ⚖️
 
@@ -27,6 +27,7 @@ Een proportionaliteits-classificatie uit het Belgische vennootschapsrecht (WVV) 
 Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art. 1:26, § 1 overschrijdt: jaaromzet, balanstotaal en jaargemiddelde personeel. Een vennootschap die deel uitmaakt van een groep van beperkte omvang is in principe vrijgesteld van de plicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen.
 
 _Bron: WVV art. 1:26, § 1_
+
 
 
 > [!info] Uitzondering op: [[consolidatieverplichting]]
@@ -63,7 +64,7 @@ _Bron: WVV art. 1:26, § 1_
 
 
 > [!warning]- Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 ove…
-> ⚠️ Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 over de actualisering van drempels en overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels en de impact-regels. 🤖
+> ⚠️ Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 over de actualisering van drempels en overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels en de impact-regels. 🔗
 >
 > _Bron: CBN 2024/07_
 
@@ -72,7 +73,7 @@ _Bron: WVV art. 1:26, § 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[groottecriteria-consolidatie]]
-
+- **Wordt voorondersteld in** (1): [[groottecriteria-consolidatie]]
 ## Voorbeelden
 
 Aurelia Holding NV (moeder) + Gent Garantie BV (dochter) hebben samen geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR en 180 personeelsleden. Slechts één drempel (personeel) overschreden → groep van beperkte omvang → Aurelia is vrijgesteld van geconsolideerde jaarrekening + jaarverslag.

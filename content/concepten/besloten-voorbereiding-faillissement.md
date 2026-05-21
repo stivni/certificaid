@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/besloten-voorbereiding-faillissement.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Besloten voorbereiding van het faillissement (pre-pack) ⚖️
 
@@ -28,6 +28,7 @@ Ingevoegd door de wet van 7 juni 2023 (omzetting EU-Restructuring-richtlijn) als
 Vertrouwelijke procedure waarin een schuldenaar die meent in staat van faillissement te verkeren, de bevoegde rechtbank vraagt om de overgang van het geheel of een gedeelte van zijn activa en activiteiten **voor te bereiden** vóór de eigenlijke faillietverklaring. De rechtbank wijst een **beoogd curator** en **beoogd rechter-commissaris** aan voor maximaal 30 dagen (eenmaal verlengbaar). De procedure verloopt achter gesloten deuren en wordt niet bekendgemaakt.
 
 _Bron: WER art. XX.97/1 — XX.97/5_
+
 
 
 ## Bouwstenen
@@ -82,13 +83,13 @@ _Grondslag: WER art. XX.97/5_
 <h3 id="voor-wie-geschikt">Voor wie geschikt?</h3>
 
 > [!tip]- Voor wie geschikt?
-> Vooral middelgrote ondernemingen met identificeerbare overnamewaarde (machines, klantcontracten, merknaam) en serieuze overnamekandidaten in zicht. Voor pure kleinschalige BV's met enkel verlieslatende activiteit zonder overnemingspotentieel: gewoon faillissement is sneller en goedkoper. 🤖
+> Vooral middelgrote ondernemingen met identificeerbare overnamewaarde (machines, klantcontracten, merknaam) en serieuze overnamekandidaten in zicht. Voor pure kleinschalige BV's met enkel verlieslatende activiteit zonder overnemingspotentieel: gewoon faillissement is sneller en goedkoper. 🔗
 
 
 ## Zie ook
 
 - **Getriggerd door**: [[faillissement]]
-
+- **Wordt voorondersteld in** (1): [[signaleren-risicos-overdracht-of-ontbinding]]
 ## Voorbeelden
 
 ### Pre-pack bij Naaiatelier Ninove BV

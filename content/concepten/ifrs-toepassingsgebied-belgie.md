@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ifrs-toepassingsgebied-belgie.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # IFRS-toepassingsgebied in België — wie moet en wie mag? ⚖️
 
@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 In België is IFRS-toepassing zeer beperkt. **Verplicht** is IFRS alleen voor de geconsolideerde jaarrekening van (1) op een gereglementeerde markt genoteerde Belgische ondernemingen, en (2) Belgische kredietinstellingen en verzekeringsondernemingen (op grond van sectorale toezichtsregels). **Toegestaan** (optie) is IFRS voor de geconsolideerde jaarrekening van een Belgische niet-beursgenoteerde moeder die uitdrukkelijk voor IFRS kiest en daarvoor toestemming krijgt — én voor de geconsolideerde jaarrekening van een consortium dat tot één enkel rapporteringsstelsel wil overgaan (Commissie voor Boekhoudkundige Normen, CBN, 2016/19). **Voor de enkelvoudige (statutaire) jaarrekening van een vennootschap** is IFRS in België niét toegestaan — die volgt altijd Belgisch GAAP (KB WVV).
 
 _Bron: EU-IFRS-verordening 1606/2002 art. 4 + CBN 2016/19_
+
 
 
 ## Bouwstenen
@@ -42,7 +43,7 @@ Antwerpse Investments NV (niet-beursgenoteerde holding, € 1.250.000.000 balans
 
 _Grondslag: EU-IFRS-verordening 1606/2002 art. 4 jo. art. 5; CBN 2016/19_
 
-### Enkelvoudig niveau: altijd Belgisch GAAP 🤖
+### Enkelvoudig niveau: altijd Belgisch GAAP 🔗
 
 De wettelijke (statutaire) jaarrekening van een Belgische vennootschap — die dient voor uitkeerbaarheid, kapitaalbescherming en fiscale aangifte — volgt **altijd** Belgisch GAAP. Geen optie om IFRS te kiezen voor enkelvoudige cijfers. (De negatieve claim — IFRS NIET toegestaan voor enkelvoudige jaarrekening — is afgeleid uit het ontbreken van een Belgische art. 5-omzetting van Verord. 1606/2002; geen rechtstreekse positieve regel.)
 
@@ -94,7 +95,7 @@ _Grondslag: CBN 2022/08 (BE-bestemming, statutair); IFRS 1 voor IFRS-bestemming_
 <h3 id="wat-ziet-de-stagiair-in-een-dossier">Wat ziet de stagiair in een dossier?</h3>
 
 > [!tip]- Wat ziet de stagiair in een dossier?
-> Drie concrete signalen waaruit een stagiair afleidt welk stelsel van toepassing is op een dossier: (1) **prospectus of jaarverslag** vermeldt 'gereglementeerde markt' of een notering op Euronext-hoofdmarkt → geconsolideerd onder IFRS; vermelding 'Euronext Growth' of 'MTF' → géén art. 4-verplichting. (2) **statuut van de moeder** in de bedrijfsfiche: erkend als kredietinstelling (NBB-licentie) of verzekeringsmaatschappij (FSMA) → geconsolideerd IFRS sectoraal verplicht. (3) **consortium-vermelding** in de toelichting bij de geconsolideerde jaarrekening → check CBN 2016/19 voor de keuze van het rapporteringsstelsel. 🤖
+> Drie concrete signalen waaruit een stagiair afleidt welk stelsel van toepassing is op een dossier: (1) **prospectus of jaarverslag** vermeldt 'gereglementeerde markt' of een notering op Euronext-hoofdmarkt → geconsolideerd onder IFRS; vermelding 'Euronext Growth' of 'MTF' → géén art. 4-verplichting. (2) **statuut van de moeder** in de bedrijfsfiche: erkend als kredietinstelling (NBB-licentie) of verzekeringsmaatschappij (FSMA) → geconsolideerd IFRS sectoraal verplicht. (3) **consortium-vermelding** in de toelichting bij de geconsolideerde jaarrekening → check CBN 2016/19 voor de keuze van het rapporteringsstelsel. 🔗
 
 
 ## Valkuilen
@@ -106,7 +107,7 @@ _Grondslag: CBN 2022/08 (BE-bestemming, statutair); IFRS 1 voor IFRS-bestemming_
 
 
 > [!warning]- Een Belgische niet-beursgenoteerde moeder mag NIET vrijwillig naar IFRS overschakelen voor haar enkelvoudige jaarrekening
-> ⚠️ Een Belgische niet-beursgenoteerde moeder mag NIET vrijwillig naar IFRS overschakelen voor haar enkelvoudige jaarrekening. Wil de moeder toch IFRS-cijfers? Dan moet zij ze als parallelle (informele) rapportering naast de wettelijke jaarrekening leveren. 🤖
+> ⚠️ Een Belgische niet-beursgenoteerde moeder mag NIET vrijwillig naar IFRS overschakelen voor haar enkelvoudige jaarrekening. Wil de moeder toch IFRS-cijfers? Dan moet zij ze als parallelle (informele) rapportering naast de wettelijke jaarrekening leveren. 🔗
 >
 > _Bron: Belgische praktijk_
 
@@ -115,7 +116,7 @@ _Grondslag: CBN 2022/08 (BE-bestemming, statutair); IFRS 1 voor IFRS-bestemming_
 ## Zie ook
 
 - **Vereist kennis van**: [[consortium]]
-
+- **Wordt voorondersteld in** (1): [[bepalen-toepasselijkheid-ifrs-belgie]]- **Triggert** (1): [[wijziging-boekhoudkundig-referentiestelsel]]
 ## Illustraties
 
 #### Beslisboom — welk stelsel voor welke Belgische jaarrekening? ⚖️

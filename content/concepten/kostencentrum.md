@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kostencentrum.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Kostencentrum 🤖
+# Kostencentrum 🔗
 
 Een kostencentrum is een organisatie-eenheid (afdeling, machinepark, kantoor, project) waaraan kosten worden toegerekend voor opvolging en verdeling naar kostendragers. Antwoordt op de vraag 'wáár wordt de kost gemaakt?' — tegenover kostendrager ('waarvoor?') en kostensoort ('wat voor kost?'). Klassieke onderverdeling: productiecentra (creëren toegevoegde waarde aan kostendragers), hulpcentra (ondersteunend, kosten verder verdelen naar productiecentra), bestuurscentra (algemeen overhead).
 
@@ -30,6 +30,7 @@ Een kostencentrum is een organisatie-eenheid (afdeling, machinepark, kantoor, pr
 Een kostencentrum is een organisatorische eenheid (afdeling, machine-groep, hulpdienst) waar kosten worden verzameld voordat ze worden doorverdeeld naar kostendragers of naar andere kostencentra. Het centrum heeft een verantwoordelijke en een eigen budget; het is de plek waar je 'wie is verantwoordelijk?' kunt beantwoorden.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## Bouwstenen
@@ -74,7 +75,7 @@ Marleen De Cock leidt de Confectie van Yperse Werkplaats BV. Haar Q3-rapport: bu
 
 - **Vereist kennis van**: [[verdeelsleutel]]
 - **Vereist kennis van**: [[budgetbeheer]]
-
+- **Wordt voorondersteld in** (2): [[analytische-boekhouding]] · [[rekeningenstelsel-analytisch]]
 ## Voorbeelden
 
 Yperse Werkplaats BV organiseert drie hoofdkostencentra: Spinnerij (jaarbudget € 1.450.000), Weverij (€ 1.200.000) en Confectie (€ 950.000). Daarnaast hulpkostencentra: Onderhoud, Kwaliteitscontrole, Algemene leiding. De Spinnerij draagt haar kosten uiteindelijk over op het kostendrager 'partij ruwwol-garen 50 kg'.

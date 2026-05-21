@@ -13,7 +13,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/paragraaf-overige-aangelegenheden.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Paragraaf inzake overige aangelegenheden ⚖️
 
@@ -25,6 +25,7 @@ Een paragraaf inzake overige aangelegenheden (other matter, ISA 706) is bedoeld 
 Een paragraaf inzake overige aangelegenheden (other matter) is een paragraaf in de controleverklaring die verwijst naar een aangelegenheid die NIET in de financiële overzichten is gepresenteerd of toegelicht, maar die — naar het oordeel van de beroepsbeoefenaar — relevant is voor het begrip van de controle, de verantwoordelijkheden van de beroepsbeoefenaar of de controleverklaring zelf.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1_
+
 
 
 > [!info]- Niet verwarren met [[paragraaf-ter-benadrukking]]
@@ -53,6 +54,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 
 
+## Zie ook
+
+- **Wordt voorondersteld in** (2): [[controleverslag-elementen]] · [[opstellen-controleverslag-en-formuleren-oordeel]]
 ## Voorbeelden
 
 Sofie Janssens audit de jaarrekening 2025 van Rotex maar treedt voor het eerst op (vorige jaar werd door een andere auditor gecertificeerd). Zij neemt een paragraaf 'overige aangelegenheden' op die de gebruiker informeert dat de vergelijkende cijfers 2024 door een collega-auditor werden gecontroleerd.

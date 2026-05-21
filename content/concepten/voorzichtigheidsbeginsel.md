@@ -20,7 +20,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorzichtigheidsbeginsel.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Voorzichtigheidsbeginsel ⚖️
 
@@ -31,9 +31,12 @@ Bij waardering werkt de onderneming **oprecht, voorzichtig en te goeder trouw**:
 
 > [!info] Behoort tot: [[boekhoudbeginselen-overzicht]]
 
+> [!info] Specialisaties (4): [[afschrijvingen]] · [[bedrijfsvorderingen]] · [[voorraden]] · [[voorzieningen]]
+
 Bij waardering moet de onderneming **oprecht, voorzichtig en te goeder trouw** te werk gaan. Concreet: opbrengsten boek je pas als ze **zeker** zijn (realisatie); kosten en risico's boek je al wanneer ze **waarschijnlijk of zelfs alleen mogelijk** zijn (voorzichtigheid). Verliezen die op balansdatum bekend zijn, worden meegenomen, ook als ze pas na balansdatum maar vóór goedkeuring zichtbaar worden. Stille meerwaarden (latente winsten) worden NIET geboekt.
 
 _Bron: CBN 2010/12 + CBN 2020/05_
+
 
 
 ## Bouwstenen
@@ -92,7 +95,7 @@ _Grondslag: KB 21/10/2018 art. 3:7_
 <h3 id="asymmetrie-tussen-kosten-en-opbrengsten">Asymmetrie tussen kosten en opbrengsten</h3>
 
 > [!tip]- Asymmetrie tussen kosten en opbrengsten
-> Het voorzichtigheidsbeginsel hanteert bewust een asymmetrie: kosten/risico's vroeg (al bij waarschijnlijkheid), opbrengsten laat (pas bij zekerheid). Dat is geen 'fout' maar een **kernkeuze** van het Belgisch boekhoudrecht. 🤖
+> Het voorzichtigheidsbeginsel hanteert bewust een asymmetrie: kosten/risico's vroeg (al bij waarschijnlijkheid), opbrengsten laat (pas bij zekerheid). Dat is geen 'fout' maar een **kernkeuze** van het Belgisch boekhoudrecht. 🔗
 
 > [!tip]- Herkennen op het examen
 > Examenvraag: 'Mag een verwachte winst worden geboekt?' Nee — alleen verwachte verliezen.
@@ -106,7 +109,7 @@ _Grondslag: KB 21/10/2018 art. 3:7_
 ## Valkuilen
 
 > [!warning]- Voorzichtigheid is niet pessimisme
-> ⚠️ Voorzichtigheid is niet pessimisme. Het beginsel verbiedt overdreven opbrengstboeking, maar evenmin onnodige onderwaardering. Stille reserves vrijwillig opbouwen door activa te laag te waarderen, is óók een schending van het getrouw beeld. 🤖
+> ⚠️ Voorzichtigheid is niet pessimisme. Het beginsel verbiedt overdreven opbrengstboeking, maar evenmin onnodige onderwaardering. Stille reserves vrijwillig opbouwen door activa te laag te waarderen, is óók een schending van het getrouw beeld. 🔗
 >
 > _Bron: KB 21/10/2018 art. 3:1 (getrouw beeld)_
 
@@ -115,7 +118,7 @@ _Grondslag: KB 21/10/2018 art. 3:7_
 ## Zie ook
 
 - **Vereist kennis van**: [[waarderingsregels-jaarrekening]]
-
+- **Wordt voorondersteld in** (6): [[aanvullende-boekhoudbeginselen]] · [[bijzondere-waardevermindering-be-gaap]] · [[getrouw-beeld]] · [[opbrengsten-be-gaap]] · [[overlopende-rekeningen]] · [[waarderingsregels-jaarrekening]]- **Triggert** (1): [[getrouw-beeld-jaarrekening]]
 ## Voorbeelden
 
 Meubelzaak Mertens BV heeft op 31/12 een vordering van € 18.000 op een klant in betalingsmoeilijkheden. Curator stelt dividend van 30 % in vooruitzicht: vordering wordt afgewaardeerd tot € 5.400 (waardevermindering € 12.600 als kost geboekt). Tegelijk staat een vastgoed van Mertens met boekwaarde € 240.000 op de markt voor € 320.000 — die stille meerwaarde wordt NIET als opbrengst geboekt zolang ze niet gerealiseerd is.

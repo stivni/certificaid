@@ -15,9 +15,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/contributiemarge.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Contributiemarge 🤖
+# Contributiemarge 🔗
 
 De contributiemarge is het verschil tussen verkoopprijs en variabele kost — per eenheid (eenheidscontributie in EUR) of als percentage van omzet (CM-ratio). Dit bedrag dekt eerst de vaste kosten en draagt daarna bij aan winst. Centraal in direct costing en break-even-analyse: zonder contributiemarge geen marge-redenering, geen extra-order-beslissing, geen multi-product-mix-optimalisatie.
 
@@ -29,6 +29,7 @@ De contributiemarge is het verschil tussen verkoopprijs en variabele kost — pe
 De contributiemarge is het verschil tussen verkoopprijs en variabele kost per eenheid (eenheidscontributie) of tussen omzet en totale variabele kosten (totale contributiemarge). Dit bedrag draagt eerst bij aan het dekken van de vaste kosten en daarna aan de winst.
 
 _Bron: Management accounting — bron-gap_
+
 
 
 ## Berekening
@@ -131,7 +132,7 @@ Praktisch voor multi-product-mix: een ratio van 35 % betekent dat 35 % van elke 
 
 - **Vereist kennis van**: [[variabele-kosten]]
 - **Vereist kennis van**: [[break-even-analyse]]
-
+- **Wordt voorondersteld in** (3): [[break-even-analyse]] · [[direct-costing]] · [[variabele-kosten]]
 ## Voorbeelden
 
 Yperse Werkplaats BV verkoopt een tapijt voor € 60 met variabele kost € 13 per stuk. Eenheidscontributie = € 60 − € 13 = € 47. Bij 10.000 stuks: totale contributiemarge € 470.000.

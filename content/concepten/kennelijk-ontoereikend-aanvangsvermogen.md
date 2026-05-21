@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kennelijk-ontoereikend-aanvangsvermogen.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Kennelijk ontoereikend aanvangsvermogen (drie-jaars-faillissementsaansprakelijkheid) ⚖️
 
@@ -30,17 +30,18 @@ Wanneer een vennootschap **failliet** wordt verklaard binnen **drie jaar** na de
 _Bron: WVV art. 5:16, 6:17, 7:18_
 
 
+
 ## In de praktijk
 
 <h3 id="bewijslast-van-de-curator">Bewijslast van de curator</h3>
 
 > [!tip]- Bewijslast van de curator
-> De **curator** (of de fiscus, RSZ, individuele schuldeiser via art. XX.227 of rechtstreeks) draagt de bewijslast van de kennelijke ontoereikendheid. Hij steunt in regel op (a) het **financieel plan** zelf (vergeleken met de werkelijke behoeften), (b) de **rentabiliteit van de eerste maanden** en (c) eventuele **experts-rapporten** over de minimale werkkapitaalbehoefte van de bedrijfstak. 🤖
+> De **curator** (of de fiscus, RSZ, individuele schuldeiser via art. XX.227 of rechtstreeks) draagt de bewijslast van de kennelijke ontoereikendheid. Hij steunt in regel op (a) het **financieel plan** zelf (vergeleken met de werkelijke behoeften), (b) de **rentabiliteit van de eerste maanden** en (c) eventuele **experts-rapporten** over de minimale werkkapitaalbehoefte van de bedrijfstak. 🔗
 
 <h3 id="verhouding-van-veroordeling">Verhouding van veroordeling</h3>
 
 > [!tip]- Verhouding van veroordeling
-> De rechter veroordeelt **niet automatisch** voor het geheel van de schulden — hij stelt een **verhouding** vast (bv. 50% of een vast bedrag) die in proportie staat tot het kennelijk tekort. Bij meerdere oprichters wordt **hoofdelijk** veroordeeld, maar de onderlinge verdeling kan in regres worden bepleit. 🤖
+> De rechter veroordeelt **niet automatisch** voor het geheel van de schulden — hij stelt een **verhouding** vast (bv. 50% of een vast bedrag) die in proportie staat tot het kennelijk tekort. Bij meerdere oprichters wordt **hoofdelijk** veroordeeld, maar de onderlinge verdeling kan in regres worden bepleit. 🔗
 
 
 ## Voorwaarden / uitzonderingen
@@ -51,7 +52,7 @@ _Bron: WVV art. 5:16, 6:17, 7:18_
 ## Valkuilen
 
 > [!warning]- Onderscheid 'kennelijk ontoereikend bij **oprichting**' (art. 5:16 — vermoeden van fout door oprichter) van 'kennelijk grove fout die bijgedragen heeft tot het faillissement' (art. XX.225 WER — bestuurders-aansprakelijkheid die op een later moment ontstaat). Verschillende grondslagen, verschillende dragers, verschillende termijnen.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

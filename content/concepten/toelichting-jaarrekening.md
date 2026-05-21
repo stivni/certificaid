@@ -16,7 +16,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toelichting-jaarrekening.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Toelichting bij de jaarrekening ⚖️
 
@@ -30,6 +30,7 @@ De toelichting is het **derde verplichte onderdeel** van de jaarrekening (naast 
 De toelichting is het derde verplichte onderdeel van de jaarrekening (naast balans en resultatenrekening). Ze geeft uitleg bij specifieke rubrieken, vermeldt waarderingsregels, niet in de balans opgenomen rechten en verplichtingen, vergoedingen bestuurders en commissaris, transacties met verbonden partijen, en alle informatie die nodig is om een getrouw beeld te geven.
 
 _Bron: KB-WVV art. 3:14-3:18_
+
 
 
 ## Bouwstenen
@@ -46,7 +47,7 @@ Toelichting van Naaiatelier Ninove BV bij rubriek voorraad: 'Grondstoffen worden
 
 _Grondslag: KB-WVV art. 3:14-3:18 + bijlagen_
 
-### Schema-afhankelijke rijkheid 🤖
+### Schema-afhankelijke rijkheid 🔗
 
 Volledig schema (groot) → ~ 20 verplichte rubrieken in toelichting. Verkort schema (klein) → ongeveer de helft. Microschema → minimaal: waarderingsregels + niet-balansrechten + bestuurdersvergoedingen.
 

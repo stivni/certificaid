@@ -22,7 +22,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/cashflow-analyse.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Cashflow (bedrijfscashflow) ⚖️
 
@@ -36,6 +36,7 @@ De cashflow (resultaat na belasting + afschrijvingen + waardeverminderingen + do
 Cashflow is het nettoresultaat na belastingen, verhoogd met de niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen). Het is een benadering van de cash die de onderneming uit haar eigen werking genereert, vóór investeringen of financieringsbeslissingen.
 
 _Bron: CBN-2011/14 §rentabiliteit eigen vermogen (cashflow-definitie)_
+
 
 
 ## Bouwstenen
@@ -52,7 +53,7 @@ Rotex Roeselare NV: nettowinst € 2.500.000 + afschrijvingen € 1.500.000 + wa
 
 _Grondslag: CBN-2011/14_
 
-### Cashflow als waarderingsfactor 🤖
+### Cashflow als waarderingsfactor 🔗
 
 Cashflow is een belangrijke factor in waardering: een onderneming met hoge cashflow heeft meer terugbetalingscapaciteit voor leningen en meer dividend-potentieel.
 
@@ -75,7 +76,7 @@ _Grondslag: Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)_
 <h3 id="1.3.II.B">Belgisch schema heeft geen kasstroomoverzicht verplicht</h3>
 
 > [!tip]- Belgisch schema heeft geen kasstroomoverzicht verplicht
-> Het Belgisch volledig schema bevat geen verplicht kasstroomoverzicht (anders dan IFRS). De analist berekent de cashflow zelf uit balans en resultatenrekening, of vertrouwt op de bedrijfscashflow zoals CBN-2011/14 die definieert. 🤖
+> Het Belgisch volledig schema bevat geen verplicht kasstroomoverzicht (anders dan IFRS). De analist berekent de cashflow zelf uit balans en resultatenrekening, of vertrouwt op de bedrijfscashflow zoals CBN-2011/14 die definieert. 🔗
 
 
 > [!info]- Niet verwarren met [[rentabiliteit-eigen-vermogen-roe]]
@@ -87,7 +88,7 @@ _Grondslag: Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)_
 ## Valkuilen
 
 > [!warning]- Niet alle niet-kaskosten zijn even structureel
-> ⚠️ Niet alle niet-kaskosten zijn even structureel. Een uitzonderlijke voorziening of waardevermindering kan de cashflow van één boekjaar fors verhogen zonder dat de onderliggende kasgeneratie wijzigt. Filter eenmalige effecten uit voor trendanalyse. 🤖
+> ⚠️ Niet alle niet-kaskosten zijn even structureel. Een uitzonderlijke voorziening of waardevermindering kan de cashflow van één boekjaar fors verhogen zonder dat de onderliggende kasgeneratie wijzigt. Filter eenmalige effecten uit voor trendanalyse. 🔗
 >
 > _Bron: Financial analysis_
 
@@ -97,7 +98,7 @@ _Grondslag: Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)_
 
 - **Vereist kennis van**: [[rentabiliteit-eigen-vermogen-roe]]
 - **Vereist kennis van**: [[rentabiliteit-totaal-activa-roa]]
-
+- **Wordt voorondersteld in** (1): [[rentabiliteit-eigen-vermogen-roe]]
 ## Bronnen
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden`

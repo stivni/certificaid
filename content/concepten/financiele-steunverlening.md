@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiele-steunverlening.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Financiële steunverlening voor verkrijging van eigen aandelen ⚖️
 
@@ -30,12 +30,13 @@ Een vennootschap mag slechts middelen voorschieten, leningen toestaan of zekerhe
 _Bron: WVV art. 5:152 (BV), 6:118 (CV), 7:227 (NV); MvT bij art. 7:213_
 
 
+
 ## In de praktijk
 
 <h3 id="klassieke-toepassing-management-buyout">Klassieke toepassing — management-buyout</h3>
 
 > [!tip]- Klassieke toepassing — management-buyout
-> Een MBO: de vennootschap leent geld aan de overnemende vehikel-NV om haar eigen aandelen te kopen. Onder strikte voorwaarden mogelijk, met bijzonder verslag en AV-besluit. Praktisch wordt vaak een gecombineerde structuur opgezet (acquisition holding + post-merger debt push down). 🤖
+> Een MBO: de vennootschap leent geld aan de overnemende vehikel-NV om haar eigen aandelen te kopen. Onder strikte voorwaarden mogelijk, met bijzonder verslag en AV-besluit. Praktisch wordt vaak een gecombineerde structuur opgezet (acquisition holding + post-merger debt push down). 🔗
 
 
 ## Voorwaarden / uitzonderingen
@@ -50,11 +51,11 @@ _Bron: WVV art. 5:152 (BV), 6:118 (CV), 7:227 (NV); MvT bij art. 7:213_
 ## Valkuilen
 
 > [!warning]- De drie procedurele vereisten (AV-besluit, bestuursverslag, onbeschikbare reserve) zijn **cumulatief**. Eén ontbrekend element maakt de steunverlening aanvechtbaar.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 > [!warning]- Vergeet niet dat de steun een **uitkering** is voor de nettoactieftest. Een steun die de bodem doorbreekt, is verboden.
-> ⚠️  🤖
+> ⚠️  🔗
 
 
 

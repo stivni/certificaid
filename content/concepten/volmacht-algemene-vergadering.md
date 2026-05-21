@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/volmacht-algemene-vergadering.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Volmacht op de algemene vergadering ⚖️
 
@@ -28,6 +28,7 @@ Een aandeelhouder die niet zelf op de AV kan zijn, kan zich laten vertegenwoordi
 De volmacht op de algemene vergadering is de machtiging die een aandeelhouder aan een natuurlijke of rechtspersoon verleent om sommige of alle van zijn rechten in de algemene vergadering uit te oefenen — het woord voeren, vragen stellen, stem uitbrengen. De volmachtdrager hoeft in beginsel geen aandeelhouder te zijn; in de BV en CV kunnen de statuten dit beperken, in de NV worden statutaire beperkingen voor niet geschreven gehouden. Het regime verschilt sterk tussen BV/CV (soepel), niet-genoteerde NV (kernregels) en genoteerde NV (strikte vorm-, transparantie- en belangenconflict­regels, FSMA-toezicht).
 
 _Bron: WVV art. 5:95 (BV), 6:80 (CV), 7:129–7:130, 7:132, 7:142–7:148 (NV)_
+
 
 
 ## Bouwstenen

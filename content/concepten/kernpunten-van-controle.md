@@ -15,7 +15,7 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kernpunten-van-controle.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Kernpunten van de controle (KAM) ⚖️
 
@@ -29,6 +29,7 @@ Kernpunten van de controle (KAM, key audit matters) is een uitvinding van ISA 70
 Kernpunten van de controle (KAM) zijn die aangelegenheden die — naar het professionele oordeel van de auditor — het meest significant waren in de controle van de financiële overzichten van het lopende boekjaar. Het zijn altijd aangelegenheden die met de met governance belaste personen (auditcomité) zijn besproken. Per kernpunt vermeldt de auditor (a) waarom de aangelegenheid in de controle significant was en (b) hoe de aangelegenheid in de controle is aangepakt.
 
 _Bron: ISA 701 §8-§10_
+
 
 
 ## In de praktijk
@@ -73,7 +74,7 @@ _Bron: ISA 701 §8-§10_
 ## Zie ook
 
 - **Vereist kennis van**: [[communiceren-met-bestuur-en-auditcomite]]
-
+- **Wordt voorondersteld in** (1): [[controleverslag-elementen]]
 ## Voorbeelden
 
 Rotex Roeselare NV is beursgenoteerd. Sofie Janssens identificeert drie KAM's: (1) waardering van de deelneming in een joint venture in Brazilië (complexe schatting, herwaardering bij volatiliteit), (2) opname van € 8.500.000 omzet uit langlopende contracten in Q4 (timing-risico), (3) waardevermindering van klant Brugse Brouwerij BV in opstart. Voor elk: 'waarom significant' + 'hoe aangepakt'.

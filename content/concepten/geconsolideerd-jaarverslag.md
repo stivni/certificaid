@@ -16,9 +16,9 @@ node_type: begrip
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/geconsolideerd-jaarverslag.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Geconsolideerd jaarverslag 🤖
+# Geconsolideerd jaarverslag 🔗
 
 Het narratieve sluitstuk naast de geconsolideerde jaarrekening binnen het Belgische vennootschapsrecht (WVV). Het verschaft externe gebruikers tekst-en-uitlegcontext — evolutie, risico's, vooruitzichten — die de cijfers alleen niet kunnen leveren, en is samen met de jaarrekening publicatieplichtig.
 
@@ -30,6 +30,7 @@ Het narratieve sluitstuk naast de geconsolideerde jaarrekening binnen het Belgis
 Het narratieve (toelichtende) verslag dat het bestuursorgaan samen met de geconsolideerde jaarrekening opmaakt, laat controleren en publiceert. Het beschrijft de evolutie van de zaken, het resultaat en de positie van de groep, gebeurtenissen na balansdatum, de voornaamste risico's, vooruitzichten, en alle informatie die de wet of behoorlijke ondernemingscommunicatie vereist. Bij een consortium maken de leden het samen op.
 
 _Bron: WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)_
+
 
 
 ## In de praktijk
@@ -67,7 +68,7 @@ _Bron: WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)_
 ## Valkuilen
 
 > [!warning]- De vrijstelling voor de geconsolideerde jaarrekening (bv. groep van beperkte omvang of vrijstelling subconsolidatie) omvat altijd ook de vri…
-> ⚠️ De vrijstelling voor de geconsolideerde jaarrekening (bv. groep van beperkte omvang of vrijstelling subconsolidatie) omvat altijd ook de vrijstelling voor het geconsolideerd jaarverslag. Je hebt niet twee verschillende vrijstellingen — ze vallen samen. 🤖
+> ⚠️ De vrijstelling voor de geconsolideerde jaarrekening (bv. groep van beperkte omvang of vrijstelling subconsolidatie) omvat altijd ook de vrijstelling voor het geconsolideerd jaarverslag. Je hebt niet twee verschillende vrijstellingen — ze vallen samen. 🔗
 >
 > _Bron: CBN 2022/11_
 

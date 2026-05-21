@@ -14,7 +14,7 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/duaal-bestuur.json
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 # Duaal bestuur — raad van toezicht en directieraad ⚖️
 
@@ -28,6 +28,7 @@ Het duale bestuursmodel is in de NV een statutair alternatief voor de raad van b
 Het duale bestuursmodel in de NV bestaat uit twee verplicht gescheiden collegiale organen: een raad van toezicht en een directieraad, elk met minstens drie leden. De raad van toezicht is exclusief bevoegd voor het algemeen beleid, de strategie, de vaststelling van de jaarrekening en de wettelijke verslagen, en houdt toezicht op de directieraad — die alle overige (operationele) bestuursbevoegdheden uitoefent en de vennootschap jegens derden vertegenwoordigt. Anders dan bij een monistische raad van bestuur met directiecomité, ontleent de directieraad zijn bevoegdheden rechtstreeks aan de wet, niet aan een delegatie.
 
 _Bron: WVV art. 7:104-7:117_
+
 
 
 ## Bouwstenen

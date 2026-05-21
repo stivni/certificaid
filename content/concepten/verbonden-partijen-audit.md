@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/verbonden-partijen-audit.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 # Verbonden partijen (audit-perspectief) ⚖️
 
@@ -26,6 +26,7 @@ Transacties met verbonden partijen (moeders, dochters, zusters, bestuurders en h
 De beroepsbeoefenaar verwerft voldoende inzicht in de relaties en transacties met verbonden partijen om (a) eventuele fraude-risicofactoren te onderkennen die uit zulke relaties voortkomen, en (b) op basis van de verzamelde assurance-informatie te besluiten of de financiële overzichten — voor zover beïnvloed door deze relaties — een getrouw beeld geven en correct rapporteren.
 
 _Bron: ITAA KMO-controlenorm §115_
+
 
 
 ## In de praktijk

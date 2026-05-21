@@ -17,13 +17,14 @@ node_type: cluster
 status: seed
 schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vermogensmutatiemethode.json
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
-# Vermogensmutatiemethode (equity method) 🤖
+# Vermogensmutatiemethode (equity method) 🔗
 
 Een deelneming verschijnt in de geconsolideerde jaarrekening niet activum-per-activum, maar als één samengevatte balanspost. Bij de eerste opname waardeer je die post aan jouw pro-rata aandeel in het eigen vermogen van de andere onderneming op de datum van aankoop. Daarna pas je die boekwaarde elk boekjaar aan met jouw aandeel in het resultaat en in directe wijzigingen van het eigen vermogen. Je gebruikt deze methode voor (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan de activiteit niet nauw geïntegreerd is in die van de moeder, en (c) dochters die uit de consolidatie zijn gelaten op grond van KB WVV art. 3:98 of art. 3:99.
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
+
 
 
 ## Bouwstenen
@@ -484,7 +485,7 @@ Resultaat: Hypothese 1: boekwaarde +€ 375.000 → € 687.500; resultaat verbe
 ## Zie ook
 
 - **Getriggerd door**: [[invloed-van-betekenis]]
-
+- **Triggert** (2): [[geassocieerde-onderneming]] · [[invloed-van-betekenis]]
 ## Voorbeelden
 
 Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata aandeel = 25 % × € 1.250.000 = € 312.500; positief consolidatieverschil = € 37.500. In jaar 1 maakt Drukkerij € 200.000 winst → pro-rata € 50.000 → boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000.
