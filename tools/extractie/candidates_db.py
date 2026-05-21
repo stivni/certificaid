@@ -521,6 +521,58 @@ def unmarkeer_gerealiseerd(fiche_id: str) -> dict[str, Any]:
     return {"actie": "ungemarkeerd", "fiche_id": fiche_id}
 
 
+def recente_activiteit(sinds_minuten: int = 5, limit: int = 50) -> list[dict[str, Any]]:
+    """
+    Geef recente DB-mutaties terug — voor live progress-monitoring.
+
+    Filtert op laatste_wijziging > now - sinds_minuten.
+    Returns compacte items: fiche_id, primary_po, kind, voorgesteld_door_pos, laatste_wijziging.
+    """
+    from datetime import timedelta
+    sinds = (datetime.now(timezone.utc) - timedelta(minutes=sinds_minuten)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    conn = _get_conn()
+    rows = conn.execute(
+        "SELECT fiche_id, primary_po, kind, voorgesteld_door_pos, laatste_wijziging, "
+        "aangemaakt_op, gerealiseerd "
+        "FROM candidates WHERE laatste_wijziging > ? "
+        "ORDER BY laatste_wijziging DESC LIMIT ?",
+        (sinds, limit),
+    ).fetchall()
+    result = []
+    for row in rows:
+        d = dict(row)
+        d["voorgesteld_door_pos"] = json.loads(d["voorgesteld_door_pos"])
+        d["nieuw"] = (d["aangemaakt_op"] == d["laatste_wijziging"])
+        result.append(d)
+    return result
+
+
+def progress_per_po() -> dict[str, dict[str, int]]:
+    """
+    Voor monitor-script: per-PO aantallen + statussen.
+
+    Telt voor elke PO uit voorgesteld_door_pos:
+    - aantal_voorstellen (records waar deze PO genoemd staat)
+    - aantal_primary (records waar deze PO primary is)
+    - aantal_gerealiseerd
+    """
+    conn = _get_conn()
+    rows = conn.execute(
+        "SELECT primary_po, voorgesteld_door_pos, gerealiseerd FROM candidates"
+    ).fetchall()
+    per_po: dict[str, dict[str, int]] = {}
+    for row in rows:
+        pos = json.loads(row["voorgesteld_door_pos"])
+        for po in pos:
+            stats = per_po.setdefault(po, {"primary": 0, "voorstellen": 0, "gerealiseerd": 0})
+            stats["voorstellen"] += 1
+            if po == row["primary_po"]:
+                stats["primary"] += 1
+            if row["gerealiseerd"]:
+                stats["gerealiseerd"] += 1
+    return per_po
+
+
 def statistieken() -> dict[str, Any]:
     """Snelle samenvatting van DB-state."""
     conn = _get_conn()
