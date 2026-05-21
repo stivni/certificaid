@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr12",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Interne controle: preventieve, repressieve en corrigerende maatregelen",
-  "themas": ["interne controle", "preventieve maatregelen", "repressieve maatregelen", "corrigerende maatregelen", "functiescheiding", "ICT-beveiliging", "handtekeningsbevoegdheid"],
-
+  "themas": [
+    "interne controle",
+    "preventieve maatregelen",
+    "repressieve maatregelen",
+    "corrigerende maatregelen",
+    "functiescheiding",
+    "ICT-beveiliging",
+    "handtekeningsbevoegdheid"
+  ],
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De interne controle heeft een preventief, repressief en corrigerend karakter. Kruis aan of deze voorbeelden een preventieve, repressieve of corrigerende maatregel zijn."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,9 +31,18 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Functiescheiding: preventief, repressief of corrigerend?",
       "opties": [
-        { "id": "a", "tekst": "Preventief" },
-        { "id": "b", "tekst": "Repressief" },
-        { "id": "c", "tekst": "Corrigerend" }
+        {
+          "id": "a",
+          "tekst": "Preventief"
+        },
+        {
+          "id": "b",
+          "tekst": "Repressief"
+        },
+        {
+          "id": "c",
+          "tekst": "Corrigerend"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -36,9 +53,18 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Periodieke inventarisaties: preventief, repressief of corrigerend?",
       "opties": [
-        { "id": "a", "tekst": "Preventief" },
-        { "id": "b", "tekst": "Repressief" },
-        { "id": "c", "tekst": "Corrigerend" }
+        {
+          "id": "a",
+          "tekst": "Preventief"
+        },
+        {
+          "id": "b",
+          "tekst": "Repressief"
+        },
+        {
+          "id": "c",
+          "tekst": "Corrigerend"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -49,9 +75,18 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Tussentijdse confirmaties: preventief, repressief of corrigerend?",
       "opties": [
-        { "id": "a", "tekst": "Preventief" },
-        { "id": "b", "tekst": "Repressief" },
-        { "id": "c", "tekst": "Corrigerend" }
+        {
+          "id": "a",
+          "tekst": "Preventief"
+        },
+        {
+          "id": "b",
+          "tekst": "Repressief"
+        },
+        {
+          "id": "c",
+          "tekst": "Corrigerend"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -62,9 +97,18 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "ICT beveiligingen: preventief, repressief of corrigerend?",
       "opties": [
-        { "id": "a", "tekst": "Preventief" },
-        { "id": "b", "tekst": "Repressief" },
-        { "id": "c", "tekst": "Corrigerend" }
+        {
+          "id": "a",
+          "tekst": "Preventief"
+        },
+        {
+          "id": "b",
+          "tekst": "Repressief"
+        },
+        {
+          "id": "c",
+          "tekst": "Corrigerend"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -75,9 +119,18 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Handtekeningsbevoegdheid: preventief, repressief of corrigerend?",
       "opties": [
-        { "id": "a", "tekst": "Preventief" },
-        { "id": "b", "tekst": "Repressief" },
-        { "id": "c", "tekst": "Corrigerend" }
+        {
+          "id": "a",
+          "tekst": "Preventief"
+        },
+        {
+          "id": "b",
+          "tekst": "Repressief"
+        },
+        {
+          "id": "c",
+          "tekst": "Corrigerend"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -88,9 +141,18 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Cijferbeoordeling: controle op brutomarges, controle op toegestane korting: preventief, repressief of corrigerend?",
       "opties": [
-        { "id": "a", "tekst": "Preventief" },
-        { "id": "b", "tekst": "Repressief" },
-        { "id": "c", "tekst": "Corrigerend" }
+        {
+          "id": "a",
+          "tekst": "Preventief"
+        },
+        {
+          "id": "b",
+          "tekst": "Repressief"
+        },
+        {
+          "id": "c",
+          "tekst": "Corrigerend"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -101,16 +163,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Solvabiliteitsonderzoek bij klantenacceptatie: preventief, repressief of corrigerend?",
       "opties": [
-        { "id": "a", "tekst": "Preventief" },
-        { "id": "b", "tekst": "Repressief" },
-        { "id": "c", "tekst": "Corrigerend" }
+        {
+          "id": "a",
+          "tekst": "Preventief"
+        },
+        {
+          "id": "b",
+          "tekst": "Repressief"
+        },
+        {
+          "id": "c",
+          "tekst": "Corrigerend"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Zeven maatregelen elk te classificeren als preventief/repressief/corrigerend. Elke maatregel is een aparte deelvraag met dezelfde drie opties. Matchingstructuur in tabel-formaat in de PDF.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

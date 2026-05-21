@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr20",
   "interpretatie_datum": "2026-05-21T10:18:00Z",
@@ -15,6 +15,9 @@
     "continuïteit",
     "externe accountant",
     "bedrijfsrevisor"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
   ],
   "context_blokken": [
     {
@@ -106,5 +109,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tien juist/fout-stellingen over de omzettingscontroleopdracht. tekst.txt bevat tabelfragmentering door PDF-rendering (stelling 6 loopt over twee tabelrijen); volledig gereconstrueerd op basis van inhoud. PNG pagina_02 bevestigt de 10 stellingen.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

@@ -1,16 +1,23 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr8",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Consolidatieverschillen: definitie en oorzaken",
-  "themas": ["consolidatieverschil", "goodwill consolidatie", "consolidatie", "overname", "waardering", "deelnemingen"],
-
+  "themas": [
+    "consolidatieverschil",
+    "goodwill consolidatie",
+    "consolidatie",
+    "overname",
+    "waardering",
+    "deelnemingen"
+  ],
+  "programmaonderdeel_ids": [
+    "1.4"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -29,7 +36,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag beslaat meerdere pagina's (4-6). Tekst.txt toont slechts de subvraag-beschrijvingen. PNG van pagina 5 toont vraag 4 volledig. Deelvraag b vraagt expliciet vier oorzaken.",
   "kwaliteits_flags": []

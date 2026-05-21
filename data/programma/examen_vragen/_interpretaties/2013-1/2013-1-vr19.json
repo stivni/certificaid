@@ -1,21 +1,27 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr19",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Opdrachtbrief bij omzetting van een vennootschap",
-  "themas": ["omzetting vennootschap", "opdrachtbrief", "ITAA-normen", "beroepsbeoefenaar", "wettelijke opdracht"],
-
+  "themas": [
+    "omzetting vennootschap",
+    "opdrachtbrief",
+    "ITAA-normen",
+    "beroepsbeoefenaar",
+    "wettelijke opdracht"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De normen inzake het verslag op te stellen bij de omzetting van een vennootschap stelt dat de beroepsbeoefenaar bij het aanvaarden van zijn opdracht over een behoorlijke opdrachtbrief dient te beschikken."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -34,7 +40,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 6. Twee deelvragen over de opdrachtbrief bij omzetting.",
   "kwaliteits_flags": []

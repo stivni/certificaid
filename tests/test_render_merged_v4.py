@@ -135,15 +135,27 @@ def test_themas_niet_publiek_zichtbaar(gerenderd):
 
 
 def test_herkomst_regel_aanwezig(gerenderd):
-    """Onder elke H2 staat een kleine italic herkomst-regel."""
-    # 2024-1 is herinnering → check herkomst-tekst
+    """Onder elke H2 staat een kleine italic herkomst-regel (met PO-tag)."""
+    # 2024-1 is herinnering → check herkomst-tekst (inclusief PO)
     inhoud_2024 = (OUTPUT_DIR / "2024-1.md").read_text(encoding="utf-8")
-    assert "*Examen 2024-1 (uit herinnering gereconstrueerd)*" in inhoud_2024, (
+    assert "Examen 2024-1 (uit herinnering gereconstrueerd)" in inhoud_2024, (
         "Herkomst-regel voor herinnering-examen ontbreekt"
     )
-    # 2013-1 is officieel → simpele herkomst
+    # 2013-1 is officieel → simpele herkomst + PO
     inhoud_2013 = (OUTPUT_DIR / "2013-1.md").read_text(encoding="utf-8")
-    assert "*Examen 2013-1*" in inhoud_2013, "Herkomst-regel voor officieel examen ontbreekt"
+    assert "Examen 2013-1 · PO " in inhoud_2013, (
+        "Herkomst-regel voor officieel examen (met PO-tag) ontbreekt"
+    )
+
+
+def test_po_tag_in_herkomst_regel(gerenderd):
+    """PO-tag is zichtbaar in elke herkomst-regel."""
+    import re
+    inhoud = (OUTPUT_DIR / "2013-2.md").read_text(encoding="utf-8")
+    # Voorbeeld: "*Examen 2013-2 · PO 1.6*" of "*Examen 2013-2 · PO 1.6 + 3.0*"
+    assert re.search(r"\*Examen 2013-2 · PO \d", inhoud), (
+        "Geen herkomst-regel met PO-tag gevonden"
+    )
 
 
 # ---------------------------------------------------------------------------

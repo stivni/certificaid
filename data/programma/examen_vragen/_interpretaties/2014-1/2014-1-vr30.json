@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr30",
   "interpretatie_datum": "2026-05-21T10:28:00Z",
@@ -15,6 +15,9 @@
     "EU",
     "Duitsland"
   ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -28,11 +31,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Duid de goede oplossing aan.",
       "opties": [
-        { "id": "a", "tekst": "De btw is niet van toepassing want de klant is een particulier, gevestigd buiten België." },
-        { "id": "b", "tekst": "De btw is niet van toepassing want de aannemer is gevestigd in een andere lidstaat dan de plaats van het werk." },
-        { "id": "c", "tekst": "De btw is van toepassing in België, want de aannemer is gevestigd in België." },
-        { "id": "d", "tekst": "De btw is van toepassing in Duitsland, want het onroerend goed is gelegen in Duitsland." },
-        { "id": "e", "tekst": "De btw is van toepassing in Oostenrijk, want de klant is Oostenrijker." }
+        {
+          "id": "a",
+          "tekst": "De btw is niet van toepassing want de klant is een particulier, gevestigd buiten België."
+        },
+        {
+          "id": "b",
+          "tekst": "De btw is niet van toepassing want de aannemer is gevestigd in een andere lidstaat dan de plaats van het werk."
+        },
+        {
+          "id": "c",
+          "tekst": "De btw is van toepassing in België, want de aannemer is gevestigd in België."
+        },
+        {
+          "id": "d",
+          "tekst": "De btw is van toepassing in Duitsland, want het onroerend goed is gelegen in Duitsland."
+        },
+        {
+          "id": "e",
+          "tekst": "De btw is van toepassing in Oostenrijk, want de klant is Oostenrijker."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

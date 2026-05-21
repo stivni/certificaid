@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr16",
   "interpretatie_datum": "2026-05-21T10:14:00Z",
@@ -14,6 +14,9 @@
     "raad van bestuur",
     "vennootschapsrecht"
   ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -23,13 +26,34 @@
       "type": "gegevens_tabel",
       "titel": "Passiva balans per 31/12/2013",
       "rijen": [
-        { "label": "100 Geplaatst kapitaal", "bedrag": 1000000 },
-        { "label": "130 Wettelijke reserve", "bedrag": 100000 },
-        { "label": "133 Beschikbare reserves", "bedrag": 5000000 },
-        { "label": "170 Verplichtingen op de secundaire markt", "bedrag": 6000000 },
-        { "label": "440 Handelsschulden", "bedrag": 500000 },
-        { "label": "450 Schulden m.b.t. belastingen, bezoldigingen en sociale lasten", "bedrag": 50000 },
-        { "label": "Totaal passiva", "bedrag": 12650000 }
+        {
+          "label": "100 Geplaatst kapitaal",
+          "bedrag": 1000000
+        },
+        {
+          "label": "130 Wettelijke reserve",
+          "bedrag": 100000
+        },
+        {
+          "label": "133 Beschikbare reserves",
+          "bedrag": 5000000
+        },
+        {
+          "label": "170 Verplichtingen op de secundaire markt",
+          "bedrag": 6000000
+        },
+        {
+          "label": "440 Handelsschulden",
+          "bedrag": 500000
+        },
+        {
+          "label": "450 Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+          "bedrag": 50000
+        },
+        {
+          "label": "Totaal passiva",
+          "bedrag": 12650000
+        }
       ]
     }
   ],
@@ -40,11 +64,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Wat adviseert u hem, als accountant en/of belastingconsulent?",
       "opties": [
-        { "id": "a", "tekst": "In de huidige stand van zaken, is de verrichting onmogelijk." },
-        { "id": "b", "tekst": "De kapitaalverhoging kan doorgevoerd worden tot beloop van 1.000.000 EUR." },
-        { "id": "c", "tekst": "U bent het ermee eens en neemt al contact op met de notaris." },
-        { "id": "d", "tekst": "De verrichting kan niet gedaan worden zonder een verslag van de raad van bestuur dat de verrichting van het toegestane kapitaal uiteenzet." },
-        { "id": "e", "tekst": "De vennootschap moet een algemene vergadering bijeenroepen om akte te nemen van de kapitaalverhoging onder de procedure van het toegestane kapitaal." }
+        {
+          "id": "a",
+          "tekst": "In de huidige stand van zaken, is de verrichting onmogelijk."
+        },
+        {
+          "id": "b",
+          "tekst": "De kapitaalverhoging kan doorgevoerd worden tot beloop van 1.000.000 EUR."
+        },
+        {
+          "id": "c",
+          "tekst": "U bent het ermee eens en neemt al contact op met de notaris."
+        },
+        {
+          "id": "d",
+          "tekst": "De verrichting kan niet gedaan worden zonder een verslag van de raad van bestuur dat de verrichting van het toegestane kapitaal uiteenzet."
+        },
+        {
+          "id": "e",
+          "tekst": "De vennootschap moet een algemene vergadering bijeenroepen om akte te nemen van de kapitaalverhoging onder de procedure van het toegestane kapitaal."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

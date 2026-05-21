@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2008-bibf",
   "vraag_id": "2008-bibf-vrH1",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
@@ -14,6 +14,9 @@
     "gewestelijk directeur",
     "art. 366 WIB",
     "art. 371 WIB"
+  ],
+  "programmaonderdeel_ids": [
+    "2.5"
   ],
   "context_blokken": [],
   "vragen": [

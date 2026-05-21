@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2008-bibf",
   "vraag_id": "2008-bibf-vrB1",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
@@ -13,6 +13,9 @@
     "verbonden vennootschappen",
     "financiële vaste activa",
     "aandelenaankoop"
+  ],
+  "programmaonderdeel_ids": [
+    "1.1"
   ],
   "context_blokken": [
     {

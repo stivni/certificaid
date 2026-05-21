@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr19",
   "interpretatie_datum": "2026-05-21T10:17:00Z",
@@ -15,6 +15,9 @@
     "omzetdrempel",
     "BVBA"
   ],
+  "programmaonderdeel_ids": [
+    "1.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -23,23 +26,71 @@
     {
       "type": "balans",
       "actief": {
-        "headers": ["Activa", "31/12/2013", "31/12/2012"],
+        "headers": [
+          "Activa",
+          "31/12/2013",
+          "31/12/2012"
+        ],
         "rows": [
-          ["Materiële vaste activa", "450.000,00", "455.000,00"],
-          ["Voorraad", "35.000,00", "30.000,00"],
-          ["Handelsvorderingen", "75.000,00", "85.000,00"],
-          ["Liquide middelen", "80.000,00", "45.000,00"],
-          ["Totaal", "640.000,00", "615.000,00"]
+          [
+            "Materiële vaste activa",
+            "450.000,00",
+            "455.000,00"
+          ],
+          [
+            "Voorraad",
+            "35.000,00",
+            "30.000,00"
+          ],
+          [
+            "Handelsvorderingen",
+            "75.000,00",
+            "85.000,00"
+          ],
+          [
+            "Liquide middelen",
+            "80.000,00",
+            "45.000,00"
+          ],
+          [
+            "Totaal",
+            "640.000,00",
+            "615.000,00"
+          ]
         ]
       },
       "passief": {
-        "headers": ["Passiva", "31/12/2013", "31/12/2012"],
+        "headers": [
+          "Passiva",
+          "31/12/2013",
+          "31/12/2012"
+        ],
         "rows": [
-          ["Kapitaal", "375.000,00", "375.000,00"],
-          ["Reserves", "175.000,00", "150.000,00"],
-          ["Handelsschulden", "45.000,00", "47.000,00"],
-          ["Belasting-, loon-, sociale schulden", "45.000,00", "43.000,00"],
-          ["Totaal", "640.000,00", "615.000,00"]
+          [
+            "Kapitaal",
+            "375.000,00",
+            "375.000,00"
+          ],
+          [
+            "Reserves",
+            "175.000,00",
+            "150.000,00"
+          ],
+          [
+            "Handelsschulden",
+            "45.000,00",
+            "47.000,00"
+          ],
+          [
+            "Belasting-, loon-, sociale schulden",
+            "45.000,00",
+            "43.000,00"
+          ],
+          [
+            "Totaal",
+            "640.000,00",
+            "615.000,00"
+          ]
         ]
       }
     },
@@ -47,10 +98,22 @@
       "type": "gegevens_tabel",
       "titel": "Omzetcijfers",
       "rijen": [
-        { "label": "Omzet 'Mise en Trop' 2013", "bedrag": 7450000 },
-        { "label": "Omzet 'Mise en Trop' 2012", "bedrag": 7350000 },
-        { "label": "Omzet 'Coté Pratique' 2013", "bedrag": 530000 },
-        { "label": "Omzet 'Coté Pratique' 2012", "bedrag": 520000 }
+        {
+          "label": "Omzet 'Mise en Trop' 2013",
+          "bedrag": 7450000
+        },
+        {
+          "label": "Omzet 'Mise en Trop' 2012",
+          "bedrag": 7350000
+        },
+        {
+          "label": "Omzet 'Coté Pratique' 2013",
+          "bedrag": 530000
+        },
+        {
+          "label": "Omzet 'Coté Pratique' 2012",
+          "bedrag": 520000
+        }
       ]
     }
   ],
@@ -61,11 +124,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Hoe luidt uw advies, op zicht van deze gegevens?",
       "opties": [
-        { "id": "a", "tekst": "U stelt vast dat de balans correct werd opgesteld en raadt hun aan zo voort te doen." },
-        { "id": "b", "tekst": "U adviseert hen om enkel de jaarrekening van vennootschap 'Mise en Trop' bvba volgens het volledig schema op te stellen." },
-        { "id": "c", "tekst": "U adviseert hen om de jaarrekeningen van beide vennootschappen volgens het volledig schema op te stellen." },
-        { "id": "d", "tekst": "U adviseert hen om enkel de jaarrekening van vennootschap 'Coté Pratique' bvba volgens het volledig schema op te stellen." },
-        { "id": "e", "tekst": "U adviseert hen om een geconsolideerde rekening bij de Nationale Bank neer te leggen." }
+        {
+          "id": "a",
+          "tekst": "U stelt vast dat de balans correct werd opgesteld en raadt hun aan zo voort te doen."
+        },
+        {
+          "id": "b",
+          "tekst": "U adviseert hen om enkel de jaarrekening van vennootschap 'Mise en Trop' bvba volgens het volledig schema op te stellen."
+        },
+        {
+          "id": "c",
+          "tekst": "U adviseert hen om de jaarrekeningen van beide vennootschappen volgens het volledig schema op te stellen."
+        },
+        {
+          "id": "d",
+          "tekst": "U adviseert hen om enkel de jaarrekening van vennootschap 'Coté Pratique' bvba volgens het volledig schema op te stellen."
+        },
+        {
+          "id": "e",
+          "tekst": "U adviseert hen om een geconsolideerde rekening bij de Nationale Bank neer te leggen."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -77,5 +155,9 @@
     "vermoedelijke_status": "eerste MC-optie die in tekst.txt als 'Antwoord' is gemarkeerd, maar dit is waarschijnlijk een fout antwoord dat als optie a fungeert"
   },
   "herinterpretatie_motivering": "MC-vraag met 5 opties. tekst.txt markeert optie a met 'Antwoord'-label — dit is een OCR-artefact van de antwoordruimte in het PDF, niet een correct antwoord. PNG pagina_13 bevestigt de balans en de vijf opties. Balans is een verkort schema (twee vennoten = verbonden). Omzetgrens-analyse: 'Mise en Trop' overschrijdt drempel, 'Coté Pratique' 25 halftijdse = 12,5 VTE.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar", "ocr_artefact", "antwoord_hint_aanwezig"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar",
+    "ocr_artefact",
+    "antwoord_hint_aanwezig"
+  ]
 }

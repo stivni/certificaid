@@ -1,21 +1,27 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr16",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Opdracht externe accountant bij ontbinding: staat van activa en passiva",
-  "themas": ["ontbinding vennootschap", "staat van activa en passiva", "opdracht externe accountant", "continuïteit", "Wetboek van Vennootschappen"],
-
+  "themas": [
+    "ontbinding vennootschap",
+    "staat van activa en passiva",
+    "opdracht externe accountant",
+    "continuïteit",
+    "Wetboek van Vennootschappen"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Het Wetboek van Vennootschappen voorziet in een procedure van ontbinding."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -42,7 +48,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. Drie deelvragen over de ontbindingsprocedure.",
   "kwaliteits_flags": []

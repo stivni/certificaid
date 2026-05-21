@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr25",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "BTW-aangifte roosters invullen: stopzetting, dienst buitenland, intracommunautaire overbrenging",
-  "themas": ["btw", "aangifte roosters", "stopzetting economische activiteit", "herziening aftrek", "diensten buitenland", "intracommunautaire overbrenging"],
-
+  "themas": [
+    "btw",
+    "aangifte roosters",
+    "stopzetting economische activiteit",
+    "herziening aftrek",
+    "diensten buitenland",
+    "intracommunautaire overbrenging"
+  ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Vermeld voor onderstaande handelingen het(de) rooster(s) van de btw-aangifte die moeten ingevuld worden en eveneens het(de) overeenkomstige bedrag(en). Bedragen exclusief btw."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -42,8 +49,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. De modelaangifte (roosters) staat in bijlage. Antwoordtabellen met ROOSTER / NR / BEDRAG staan in de tekst als antwoordsjabloon — dit zijn invulvakken, geen antwoorden. Tekst.txt trunceert deelvraag a-tekst licht; volledige tekst gereconstrueerd.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

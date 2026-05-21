@@ -1,16 +1,22 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr11",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Positief consolidatieverschil: definitie en oorzaken",
-  "themas": ["consolidatie", "consolidatieverschil", "goodwill", "overnamepremie", "geconsolideerde jaarrekening"],
-
+  "themas": [
+    "consolidatie",
+    "consolidatieverschil",
+    "goodwill",
+    "overnamepremie",
+    "geconsolideerde jaarrekening"
+  ],
+  "programmaonderdeel_ids": [
+    "1.4"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -29,7 +35,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt is beknopt maar beide deelvragen zijn volledig leesbaar. Twee open vragen over consolidatieverschillen.",
   "kwaliteits_flags": []

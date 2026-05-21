@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr9",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Procedure met functiescheiding voor kasbetalingen kleine kosten",
-  "themas": ["interne controle", "functiescheiding", "kas", "procedure", "BVBA", "kleine kosten"],
-
+  "themas": [
+    "interne controle",
+    "functiescheiding",
+    "kas",
+    "procedure",
+    "BVBA",
+    "kleine kosten"
+  ],
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Het secretariaat van de zaakvoerder van een familiale BVBA betaalt kleine kosten gemaakt door het personeel terug via een kas."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -26,7 +33,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 3. Enkelvoudige open vraag om een procedure te beschrijven met minimaal twee functiescheidingen.",
   "kwaliteits_flags": []

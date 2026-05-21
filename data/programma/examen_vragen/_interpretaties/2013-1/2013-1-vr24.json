@@ -1,14 +1,23 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr24",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Berekening belastbare grondslag vennootschapsbelasting: voordelen alle aard firmawagens",
-  "themas": ["vennootschapsbelasting", "belastbare grondslag", "voordelen alle aard", "firmawagens", "gebroken boekjaar", "overgedragen fiscale verliezen", "aangifte"],
-
+  "themas": [
+    "vennootschapsbelasting",
+    "belastbare grondslag",
+    "voordelen alle aard",
+    "firmawagens",
+    "gebroken boekjaar",
+    "overgedragen fiscale verliezen",
+    "aangifte"
+  ],
+  "programmaonderdeel_ids": [
+    "2.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -18,14 +27,25 @@
       "type": "gegevens_tabel",
       "titel": "Fiscaal resultaat na 1ste bewerking",
       "rijen": [
-        { "label": "Fiscaal resultaat na 1ste bewerking", "bedrag": 50000 },
-        { "label": "Aangroei reserves", "bedrag": 6000 },
-        { "label": "Verworpen uitgaven (incl. 17% x 100.000 VAA = 17.000)", "bedrag": 40000 },
-        { "label": "Uitgekeerde dividenden", "bedrag": 4000 }
+        {
+          "label": "Fiscaal resultaat na 1ste bewerking",
+          "bedrag": 50000
+        },
+        {
+          "label": "Aangroei reserves",
+          "bedrag": 6000
+        },
+        {
+          "label": "Verworpen uitgaven (incl. 17% x 100.000 VAA = 17.000)",
+          "bedrag": 40000
+        },
+        {
+          "label": "Uitgekeerde dividenden",
+          "bedrag": 4000
+        }
       ]
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -44,7 +64,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 4. De aangifte-bijlage staat in bijlage van het examen. Deelvraag b vereist het invullen van formuliervakjes.",
   "kwaliteits_flags": []

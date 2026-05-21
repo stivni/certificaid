@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr2",
   "interpretatie_datum": "2026-05-21T10:01:00Z",
@@ -14,6 +14,9 @@
     "kapitaal",
     "boekhouding"
   ],
+  "programmaonderdeel_ids": [
+    "1.1"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -27,10 +30,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Hoe dient zij de kapitaalverhoging door incorporatie bestaande reserves en de uitgiftepremie te verwerken in haar jaarrekening?",
       "opties": [
-        { "id": "a", "tekst": "Zij boekt zowel de onttrekking van haar reserves als de volledige kapitaalverhoging via de resultaatverwerking." },
-        { "id": "b", "tekst": "Zij boekt de reserves rechtstreeks over naar kapitaal. Ook de uitgiftepremie kan zij rechtstreeks overboeken naar kapitaal." },
-        { "id": "c", "tekst": "Zij boekt zowel de onttrekking van haar reserves als de kapitaalverhoging door de incorporatie via de resultaatverwerking. De uitgiftepremie kan zij rechtstreeks naar kapitaal overboeken." },
-        { "id": "d", "tekst": "Zij boekt de reserves rechtstreeks over naar kapitaal. De uitgiftepremie blijft als afzonderlijke rekening staan op haar passief." }
+        {
+          "id": "a",
+          "tekst": "Zij boekt zowel de onttrekking van haar reserves als de volledige kapitaalverhoging via de resultaatverwerking."
+        },
+        {
+          "id": "b",
+          "tekst": "Zij boekt de reserves rechtstreeks over naar kapitaal. Ook de uitgiftepremie kan zij rechtstreeks overboeken naar kapitaal."
+        },
+        {
+          "id": "c",
+          "tekst": "Zij boekt zowel de onttrekking van haar reserves als de kapitaalverhoging door de incorporatie via de resultaatverwerking. De uitgiftepremie kan zij rechtstreeks naar kapitaal overboeken."
+        },
+        {
+          "id": "d",
+          "tekst": "Zij boekt de reserves rechtstreeks over naar kapitaal. De uitgiftepremie blijft als afzonderlijke rekening staan op haar passief."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

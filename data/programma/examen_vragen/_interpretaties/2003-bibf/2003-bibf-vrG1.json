@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrG1",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
@@ -16,6 +16,9 @@
     "liberaliteiten",
     "belastbare basis"
   ],
+  "programmaonderdeel_ids": [
+    "2.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -24,25 +27,67 @@
     {
       "type": "balans",
       "actief": {
-        "headers": ["Rubriek", "Bedrag (EUR)"],
+        "headers": [
+          "Rubriek",
+          "Bedrag (EUR)"
+        ],
         "rows": [
-          ["Vaste Activa", "79.260"],
-          ["Financiële Activa", "30.000"],
-          ["Vlottende Activa", "20.000"],
-          ["TOTAAL ACTIVA", "129.260"]
+          [
+            "Vaste Activa",
+            "79.260"
+          ],
+          [
+            "Financiële Activa",
+            "30.000"
+          ],
+          [
+            "Vlottende Activa",
+            "20.000"
+          ],
+          [
+            "TOTAAL ACTIVA",
+            "129.260"
+          ]
         ]
       },
       "passief": {
-        "headers": ["Rubriek", "Bedrag (EUR)"],
+        "headers": [
+          "Rubriek",
+          "Bedrag (EUR)"
+        ],
         "rows": [
-          ["Onderschreven kapitaal", "18.600"],
-          ["Herwaarderingsmeerwaarden", "600"],
-          ["Wettelijke reserve", "1.860"],
-          ["Vrijgestelde reserve", "200"],
-          ["Beschikbare reserve", "16.000"],
-          ["Te bestemmen winst van het boekjaar", "62.000"],
-          ["Schulden op minder dan één jaar", "30.000"],
-          ["TOTAAL PASSIVA", "129.260"]
+          [
+            "Onderschreven kapitaal",
+            "18.600"
+          ],
+          [
+            "Herwaarderingsmeerwaarden",
+            "600"
+          ],
+          [
+            "Wettelijke reserve",
+            "1.860"
+          ],
+          [
+            "Vrijgestelde reserve",
+            "200"
+          ],
+          [
+            "Beschikbare reserve",
+            "16.000"
+          ],
+          [
+            "Te bestemmen winst van het boekjaar",
+            "62.000"
+          ],
+          [
+            "Schulden op minder dan één jaar",
+            "30.000"
+          ],
+          [
+            "TOTAAL PASSIVA",
+            "129.260"
+          ]
         ]
       }
     },
@@ -50,22 +95,52 @@
       "type": "gegevens_tabel",
       "titel": "Bijkomende gegevens — opbrengsten",
       "rijen": [
-        {"label": "Dividenden ontvangen van NV (80% kapitaalparticipatie)", "bedrag": 1200},
-        {"label": "Roerende voorheffing op dividenden", "bedrag": 400}
+        {
+          "label": "Dividenden ontvangen van NV (80% kapitaalparticipatie)",
+          "bedrag": 1200
+        },
+        {
+          "label": "Roerende voorheffing op dividenden",
+          "bedrag": 400
+        }
       ]
     },
     {
       "type": "gegevens_tabel",
       "titel": "Bijkomende gegevens — kosten (rekening 67/61/63/64)",
       "rijen": [
-        {"label": "67 — Belastingen op inkomsten en voorafbetalingen", "bedrag": 20000},
-        {"label": "67 — Roerende voorheffing", "bedrag": 400},
-        {"label": "61 — Autokosten", "bedrag": 1500},
-        {"label": "63 — Afschrijvingen auto", "bedrag": 3800},
-        {"label": "61 — Representatiekosten, restaurants enz.", "bedrag": 2000},
-        {"label": "63 — Afschrijvingen genoteerde meerwaarde op vaste activa (1ste boekjaar)", "bedrag": 60},
-        {"label": "61 — Liberaliteiten totaal (waarvan 80 EUR verantwoord door attest)", "bedrag": 160},
-        {"label": "64 — Onroerende voorheffing", "bedrag": 100}
+        {
+          "label": "67 — Belastingen op inkomsten en voorafbetalingen",
+          "bedrag": 20000
+        },
+        {
+          "label": "67 — Roerende voorheffing",
+          "bedrag": 400
+        },
+        {
+          "label": "61 — Autokosten",
+          "bedrag": 1500
+        },
+        {
+          "label": "63 — Afschrijvingen auto",
+          "bedrag": 3800
+        },
+        {
+          "label": "61 — Representatiekosten, restaurants enz.",
+          "bedrag": 2000
+        },
+        {
+          "label": "63 — Afschrijvingen genoteerde meerwaarde op vaste activa (1ste boekjaar)",
+          "bedrag": 60
+        },
+        {
+          "label": "61 — Liberaliteiten totaal (waarvan 80 EUR verantwoord door attest)",
+          "bedrag": 160
+        },
+        {
+          "label": "64 — Onroerende voorheffing",
+          "bedrag": 100
+        }
       ]
     }
   ],
@@ -81,5 +156,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Uitgebreide berekening/procedure voor aangifte vennootschapsbelasting. Balans gesplitst actief/passief. Gegevens gestructureerd als twee gegevens_tabellen (opbrengsten en kostenposten). Afschrijving genoteerde meerwaarde was OCR-truncated (60 was zichtbaar in PNG). PNG bevestigt de volledige structuur.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar", "ocr_artefact"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar",
+    "ocr_artefact"
+  ]
 }

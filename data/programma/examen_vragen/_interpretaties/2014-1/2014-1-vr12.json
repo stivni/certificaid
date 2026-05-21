@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr12",
   "interpretatie_datum": "2026-05-21T10:10:00Z",
@@ -13,6 +13,9 @@
     "controleverslag",
     "voorbehoud",
     "auditwerkzaamheden"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
   ],
   "context_blokken": [
     {
@@ -48,5 +51,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Drie open deelvragen. Deelvraag a vraagt ja/nee + redenering, vandaar motivatie_verwacht: true. Het 'Antwoord'-label in tekst.txt is een OCR-artefact (antwoordruimte in PDF), geen inhoudelijk element.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

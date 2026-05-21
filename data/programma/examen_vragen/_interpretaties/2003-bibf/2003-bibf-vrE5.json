@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrE5",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
@@ -13,6 +13,9 @@
     "exploitatiezetels",
     "bewaarplicht",
     "boekhoudverplichtingen"
+  ],
+  "programmaonderdeel_ids": [
+    "2.4"
   ],
   "context_blokken": [],
   "vragen": [

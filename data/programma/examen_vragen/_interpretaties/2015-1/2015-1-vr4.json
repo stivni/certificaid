@@ -1,21 +1,27 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr4",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Boekhoudkundige verwerking intercalaire interesten op investeringskrediet",
-  "themas": ["intercalaire interesten", "activering kosten", "vaste activa", "wachtrekening", "boekhoudreglementering"],
-
+  "themas": [
+    "intercalaire interesten",
+    "activering kosten",
+    "vaste activa",
+    "wachtrekening",
+    "boekhoudreglementering"
+  ],
+  "programmaonderdeel_ids": [
+    "1.1"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "In de boekhouding werd onder rubriek '499 – wachtrekening' een bedrag van 125.000,00 EUR opgenomen met de vermelding 'intercalaire interesten per 31/08/2014 op het investeringskrediet 15-237584-22'."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,17 +29,30 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welke van onderstaande instructies moet u aan de boekhouder geven om dit bedrag correct op te nemen?",
       "opties": [
-        { "id": "a", "tekst": "De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen." },
-        { "id": "b", "tekst": "De intercalaire interesten moeten op het actief van de balans worden geboekt." },
-        { "id": "c", "tekst": "De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden geboekt." },
-        { "id": "d", "tekst": "De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt." }
+        {
+          "id": "a",
+          "tekst": "De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen."
+        },
+        {
+          "id": "b",
+          "tekst": "De intercalaire interesten moeten op het actief van de balans worden geboekt."
+        },
+        {
+          "id": "c",
+          "tekst": "De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden geboekt."
+        },
+        {
+          "id": "d",
+          "tekst": "De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Optie D is in tekst.txt afgekapt (zonder slot). Uit de context van de andere opties is de strekking duidelijk: 'De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt.' Dit is een 4-optie MC-vraag (A t/m D).",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

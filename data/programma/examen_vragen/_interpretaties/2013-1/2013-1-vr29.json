@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr29",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Inkomstenbelasting grensoverschrijdende tewerkstelling: OESO-Modelverdrag",
-  "themas": ["internationaal belastingrecht", "OESO-Modelverdrag", "belastbaarheid in meerdere landen", "grensoverschrijdende tewerkstelling", "vaste inrichting", "arbeidsinkomen"],
-
+  "themas": [
+    "internationaal belastingrecht",
+    "OESO-Modelverdrag",
+    "belastbaarheid in meerdere landen",
+    "grensoverschrijdende tewerkstelling",
+    "vaste inrichting",
+    "arbeidsinkomen"
+  ],
+  "programmaonderdeel_ids": [
+    "2.8"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De heer B. is een natuurlijke persoon van Belgische nationaliteit, vrijgezel en zonder personen ten laste, en op fiscaal gebied inwoner van België. Hij is bediende bij een vennootschap naar Belgisch recht met een vaste inrichting in Frankrijk. Die Belgische vennootschap maakt deel uit van een internationale groep die ook een dochtervennootschap in Duitsland heeft. De heer B. zal drie dagen per week in België werken, één dag per week in Frankrijk voor de Franse vaste inrichting en één dag per week in Duitsland voor de Duitse vennootschap. De Belgische vennootschap verdeelt zijn loonkosten met het Frans bijkantoor. Met de Duitse vennootschap zal hij een afzonderlijke arbeidsovereenkomst sluiten."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -26,7 +33,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. De tekst beschrijft één deelvraag. De vraag verwijst expliciet naar OESO-Modelverdrag als referentiekader.",
   "kwaliteits_flags": []

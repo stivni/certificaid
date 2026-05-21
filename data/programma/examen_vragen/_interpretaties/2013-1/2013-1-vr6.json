@@ -1,16 +1,21 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr6",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Vermelding van minderheidsbelangen in de geconsolideerde resultatenrekening",
-  "themas": ["geconsolideerde jaarrekening", "minderheidsbelangen", "resultatenrekening consolidatie", "volledig geconsolideerde dochteronderneming"],
-
+  "themas": [
+    "geconsolideerde jaarrekening",
+    "minderheidsbelangen",
+    "resultatenrekening consolidatie",
+    "volledig geconsolideerde dochteronderneming"
+  ],
+  "programmaonderdeel_ids": [
+    "1.4"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -21,7 +26,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 4-5. Enkelvoudige vraag over post in geconsolideerde resultatenrekening voor minderheidsbelangen. Geen deelvragen.",
   "kwaliteits_flags": []

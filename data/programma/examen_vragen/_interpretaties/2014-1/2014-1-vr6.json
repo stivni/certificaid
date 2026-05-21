@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr6",
   "interpretatie_datum": "2026-05-21T10:04:00Z",
@@ -12,6 +12,9 @@
     "bedrijfskapitaal",
     "liquiditeit",
     "financiële analyse"
+  ],
+  "programmaonderdeel_ids": [
+    "1.3"
   ],
   "context_blokken": [],
   "vragen": [

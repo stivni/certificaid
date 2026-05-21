@@ -1,21 +1,27 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr2",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Boekhoudkundige verwerking stelsel werkloosheid met bedrijfstoeslag (brugpensioen)",
-  "themas": ["brugpensioen", "werkloosheid met bedrijfstoeslag", "voorzieningen", "personeelskosten", "boekhoudkundige verwerking"],
-
+  "themas": [
+    "brugpensioen",
+    "werkloosheid met bedrijfstoeslag",
+    "voorzieningen",
+    "personeelskosten",
+    "boekhoudkundige verwerking"
+  ],
+  "programmaonderdeel_ids": [
+    "1.1"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Werknemer de heer Janssens van vennootschap XYZ ontvangt ontslag op 5 december 2013 en kan vanaf 1 maart 2014 genieten van het stelsel werkloosheid met bedrijfstoeslag (oud brugpensioenstelsel). Vanaf 1 maart 2014 betaalt de vennootschap 2.000 EUR bruto per maand."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,18 +29,34 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Hoe wordt dit stelsel werkloosheid met bedrijfstoeslag verwerkt in de boekhouding?",
       "opties": [
-        { "id": "a", "tekst": "De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het moment dat zij zich voordoen." },
-        { "id": "b", "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag komen vanaf maart 2014 in de resultatenrekening. Een gedeelte van de voorziening wordt jaarlijks teruggenomen." },
-        { "id": "c", "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer." },
-        { "id": "d", "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht van de voorziening." },
-        { "id": "e", "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. Op het moment van het bereiken van de pensioengerechtigde leeftijd van de werknemer wordt de voorziening teruggenomen." }
+        {
+          "id": "a",
+          "tekst": "De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het moment dat zij zich voordoen."
+        },
+        {
+          "id": "b",
+          "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag komen vanaf maart 2014 in de resultatenrekening. Een gedeelte van de voorziening wordt jaarlijks teruggenomen."
+        },
+        {
+          "id": "c",
+          "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer."
+        },
+        {
+          "id": "d",
+          "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht van de voorziening."
+        },
+        {
+          "id": "e",
+          "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. Op het moment van het bereiken van de pensioengerechtigde leeftijd van de werknemer wordt de voorziening teruggenomen."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "De tekst.txt herhaalt de vraagstelling bij elke subvraag (A-E zijn de opties, geen aparte deelvragen). OCR-artifact: pdfplumber heeft elke optie als aparte subvraag weergegeven met de volledige vraagstelling als herhaling. Dit is één enkelvoudige MC-vraag.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

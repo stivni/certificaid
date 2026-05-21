@@ -1,14 +1,21 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr10",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Behoefte aan werkkapitaal: selectie van balansposten",
-  "themas": ["werkkapitaal", "bedrijfskapitaal", "nettobedrijfskapitaal", "balansposten", "financiële analyse"],
-
+  "themas": [
+    "werkkapitaal",
+    "bedrijfskapitaal",
+    "nettobedrijfskapitaal",
+    "balansposten",
+    "financiële analyse"
+  ],
+  "programmaonderdeel_ids": [
+    "1.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -18,30 +25,89 @@
       "type": "gegevens_tabel",
       "titel": "Balansposten te beoordelen voor behoefte aan werkkapitaal",
       "rijen": [
-        { "label": "Materiële vaste activa (22/27)", "bedrag": null },
-        { "label": "Financiële vaste activa (28)", "bedrag": null },
-        { "label": "Vorderingen op meer dan één jaar (29)", "bedrag": null },
-        { "label": "Voorraden (30/36)", "bedrag": null },
-        { "label": "Bestellingen in uitvoering (37)", "bedrag": null },
-        { "label": "Handelsvorderingen (40)", "bedrag": null },
-        { "label": "Overige vorderingen (41)", "bedrag": null },
-        { "label": "Geldbeleggingen (50/53)", "bedrag": null },
-        { "label": "Liquide middelen (54/58)", "bedrag": null },
-        { "label": "Overlopende rekeningen van het actief (490/1)", "bedrag": null },
-        { "label": "Eigen vermogen (10/15)", "bedrag": null },
-        { "label": "Voorzieningen en uitgestelde belastingen (16)", "bedrag": null },
-        { "label": "Schulden op meer dan één jaar (17)", "bedrag": null },
-        { "label": "Schulden op meer dan één jaar die binnen het jaar vervallen (42)", "bedrag": null },
-        { "label": "Financiële schulden (43)", "bedrag": null },
-        { "label": "Handelsschulden (44)", "bedrag": null },
-        { "label": "Ontvangen vooruitbetalingen (46)", "bedrag": null },
-        { "label": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten (45)", "bedrag": null },
-        { "label": "Overige schulden (47/48)", "bedrag": null },
-        { "label": "Overlopende rekeningen van het passief (492/3)", "bedrag": null }
+        {
+          "label": "Materiële vaste activa (22/27)",
+          "bedrag": null
+        },
+        {
+          "label": "Financiële vaste activa (28)",
+          "bedrag": null
+        },
+        {
+          "label": "Vorderingen op meer dan één jaar (29)",
+          "bedrag": null
+        },
+        {
+          "label": "Voorraden (30/36)",
+          "bedrag": null
+        },
+        {
+          "label": "Bestellingen in uitvoering (37)",
+          "bedrag": null
+        },
+        {
+          "label": "Handelsvorderingen (40)",
+          "bedrag": null
+        },
+        {
+          "label": "Overige vorderingen (41)",
+          "bedrag": null
+        },
+        {
+          "label": "Geldbeleggingen (50/53)",
+          "bedrag": null
+        },
+        {
+          "label": "Liquide middelen (54/58)",
+          "bedrag": null
+        },
+        {
+          "label": "Overlopende rekeningen van het actief (490/1)",
+          "bedrag": null
+        },
+        {
+          "label": "Eigen vermogen (10/15)",
+          "bedrag": null
+        },
+        {
+          "label": "Voorzieningen en uitgestelde belastingen (16)",
+          "bedrag": null
+        },
+        {
+          "label": "Schulden op meer dan één jaar (17)",
+          "bedrag": null
+        },
+        {
+          "label": "Schulden op meer dan één jaar die binnen het jaar vervallen (42)",
+          "bedrag": null
+        },
+        {
+          "label": "Financiële schulden (43)",
+          "bedrag": null
+        },
+        {
+          "label": "Handelsschulden (44)",
+          "bedrag": null
+        },
+        {
+          "label": "Ontvangen vooruitbetalingen (46)",
+          "bedrag": null
+        },
+        {
+          "label": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten (45)",
+          "bedrag": null
+        },
+        {
+          "label": "Overige schulden (47/48)",
+          "bedrag": null
+        },
+        {
+          "label": "Overlopende rekeningen van het passief (492/3)",
+          "bedrag": null
+        }
       ]
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -52,8 +118,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 3 van de sectie 'Analyse en kritische beoordeling'. De vraag bevat een tabel met 20 balansposten waarvoor de kandidaat 'ja' of 'nee' moet aanduiden. Dit is een open invulvraag (ja/nee per rubriek, met aftrekpunten). Weergegeven als gegevens_tabel voor de context + één open deelvraag.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

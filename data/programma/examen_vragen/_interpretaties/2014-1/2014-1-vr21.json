@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr21",
   "interpretatie_datum": "2026-05-21T10:19:00Z",
@@ -14,6 +14,9 @@
     "waardecorrectie",
     "omzettingsvereisten"
   ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -22,26 +25,71 @@
     {
       "type": "balans",
       "actief": {
-        "headers": ["Activa", "Bedrag"],
+        "headers": [
+          "Activa",
+          "Bedrag"
+        ],
         "rows": [
-          ["23 Installaties en machines", "20.000,00"],
-          ["28 Aandelen NV TURF", "24.000,00"],
-          ["28 Vordering NV TURF", "12.000,00"],
-          ["34 Voorraad", "25.000,00"],
-          ["55 Bank", "5.000,00"],
-          ["Totaal actief", "86.000,00"]
+          [
+            "23 Installaties en machines",
+            "20.000,00"
+          ],
+          [
+            "28 Aandelen NV TURF",
+            "24.000,00"
+          ],
+          [
+            "28 Vordering NV TURF",
+            "12.000,00"
+          ],
+          [
+            "34 Voorraad",
+            "25.000,00"
+          ],
+          [
+            "55 Bank",
+            "5.000,00"
+          ],
+          [
+            "Totaal actief",
+            "86.000,00"
+          ]
         ]
       },
       "passief": {
-        "headers": ["Passiva", "Bedrag"],
+        "headers": [
+          "Passiva",
+          "Bedrag"
+        ],
         "rows": [
-          ["10 Kapitaal", "10.000,00"],
-          ["13 Wettelijke reserves", "1.000,00"],
-          ["13 Beschikbare reserves", "15.000,00"],
-          ["17 Schulden LT", "15.000,00"],
-          ["42 Schulden KT", "5.000,00"],
-          ["44 Handelsschulden", "40.000,00"],
-          ["Totaal passief", "86.000,00"]
+          [
+            "10 Kapitaal",
+            "10.000,00"
+          ],
+          [
+            "13 Wettelijke reserves",
+            "1.000,00"
+          ],
+          [
+            "13 Beschikbare reserves",
+            "15.000,00"
+          ],
+          [
+            "17 Schulden LT",
+            "15.000,00"
+          ],
+          [
+            "42 Schulden KT",
+            "5.000,00"
+          ],
+          [
+            "44 Handelsschulden",
+            "40.000,00"
+          ],
+          [
+            "Totaal passief",
+            "86.000,00"
+          ]
         ]
       }
     }
@@ -66,5 +114,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Twee open deelvragen. tekst.txt bevat OCR-problemen bij de balans (scheiding actief/passief niet altijd duidelijk) — gereconstrueerd op basis van de bedragen in de tekst. De vordering op NV TURF bedraagt 12.000 EUR maar recupereerbaar is slechts 4.000 EUR (1/3). De aandelen NV TURF zijn vermoedelijk ook waardedaling. Deelvraag b vraagt naar een besluit + motivering.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar", "ocr_artefact"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar",
+    "ocr_artefact"
+  ]
 }

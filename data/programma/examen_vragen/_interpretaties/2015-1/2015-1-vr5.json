@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr5",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Boekhoudkundige verwerking kapitaalsubsidies",
-  "themas": ["kapitaalsubsidies", "interestsubsidies", "boekhoudkundige verwerking", "rekening 15", "rekening 753", "uitgestelde belastingen"],
-
+  "themas": [
+    "kapitaalsubsidies",
+    "interestsubsidies",
+    "boekhoudkundige verwerking",
+    "rekening 15",
+    "rekening 753",
+    "uitgestelde belastingen"
+  ],
+  "programmaonderdeel_ids": [
+    "1.1"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een vennootschap wenst te investeren in een nieuw productieapparaat. Kosten investering: 80.000 EUR. Mogelijke subsidie: 12.800 EUR, uitbetaald in twee stortingen van 40% en 60% in functie van het investeringsritme."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,18 +30,34 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "De vennootschap vraagt uw advies over de boekhoudkundige verwerking van de subsidie. Welke optie is correct?",
       "opties": [
-        { "id": "a", "tekst": "Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'." },
-        { "id": "b", "tekst": "Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 'Kapitaalsubsidies' en op rekening 1680 'Uitgestelde belastingen op kapitaalsubsidies' en zal daarop behouden blijven zolang het nieuwe productieapparaat niet is gerealiseerd." },
-        { "id": "c", "tekst": "De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'." },
-        { "id": "d", "tekst": "De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed." },
-        { "id": "e", "tekst": "De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed." }
+        {
+          "id": "a",
+          "tekst": "Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'."
+        },
+        {
+          "id": "b",
+          "tekst": "Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 'Kapitaalsubsidies' en op rekening 1680 'Uitgestelde belastingen op kapitaalsubsidies' en zal daarop behouden blijven zolang het nieuwe productieapparaat niet is gerealiseerd."
+        },
+        {
+          "id": "c",
+          "tekst": "De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'."
+        },
+        {
+          "id": "d",
+          "tekst": "De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed."
+        },
+        {
+          "id": "e",
+          "tekst": "De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Zelfde OCR-patroon: opties A-E door pdfplumber als subvragen weergegeven. Dit is één enkelvoudige MC-vraag.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr48",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Registratierechten blote eigendom en vruchtgebruik: belastbare grondslag",
-  "themas": ["registratierechten", "blote eigendom", "vruchtgebruik", "belastbare grondslag", "aanwas vruchtgebruik", "consolidatie eigendom"],
-
+  "themas": [
+    "registratierechten",
+    "blote eigendom",
+    "vruchtgebruik",
+    "belastbare grondslag",
+    "aanwas vruchtgebruik",
+    "consolidatie eigendom"
+  ],
+  "programmaonderdeel_ids": [
+    "2.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Echtpaar koopt blote eigendom van een onroerend goed voor 186.000 EUR; vruchtgebruik wordt voorbehouden door de verkoper (63 jaar). Blote eigenaar: 31 jaar. Verkoopwaarde volledig eigendom: 300.000 EUR. Enige jaren later staat de vruchtgebruiker (74 jaar) het vruchtgebruik af aan de blote eigenaar (42 jaar) voor 250.000 EUR. Verkoopwaarde nog steeds 300.000 EUR."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,11 +30,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welke waarde zal in aanmerking moeten worden genomen voor de berekening van de registratierechten bij de aankoop van de blote eigendom?",
       "opties": [
-        { "id": "a", "tekst": "186.000 EUR" },
-        { "id": "b", "tekst": "16% van 300.000 EUR" },
-        { "id": "c", "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn" },
-        { "id": "d", "tekst": "4 x 16% van 300.000 EUR" },
-        { "id": "e", "tekst": "300.000 EUR" }
+        {
+          "id": "a",
+          "tekst": "186.000 EUR"
+        },
+        {
+          "id": "b",
+          "tekst": "16% van 300.000 EUR"
+        },
+        {
+          "id": "c",
+          "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn"
+        },
+        {
+          "id": "d",
+          "tekst": "4 x 16% van 300.000 EUR"
+        },
+        {
+          "id": "e",
+          "tekst": "300.000 EUR"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -38,18 +60,34 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welke waarde moet in aanmerking worden genomen voor de berekening van de registratierechten bij de overdracht van het vruchtgebruik aan de blote eigenaar?",
       "opties": [
-        { "id": "a", "tekst": "300.000 EUR" },
-        { "id": "b", "tekst": "250.000 EUR" },
-        { "id": "c", "tekst": "436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote eigendom)" },
-        { "id": "d", "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn" },
-        { "id": "e", "tekst": "300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop van de bij de verkrijging van de blote eigendom betaalde rechten" }
+        {
+          "id": "a",
+          "tekst": "300.000 EUR"
+        },
+        {
+          "id": "b",
+          "tekst": "250.000 EUR"
+        },
+        {
+          "id": "c",
+          "tekst": "436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote eigendom)"
+        },
+        {
+          "id": "d",
+          "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn"
+        },
+        {
+          "id": "e",
+          "tekst": "300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop van de bij de verkrijging van de blote eigendom betaalde rechten"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 3 van de sectie 'Beginselen van registratie- en successierechten'. Twee MC-deelvragen (a en b) elk met 5 opties. Tekst.txt toont OCR-artefact waarbij optie E van deelvraag a werd weergegeven vóór de tekst van deelvraag b. De structuur is correct gereconstrueerd.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

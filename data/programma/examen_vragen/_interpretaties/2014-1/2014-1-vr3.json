@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr3",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
@@ -14,6 +14,9 @@
     "kapitaal",
     "afschrijvingen"
   ],
+  "programmaonderdeel_ids": [
+    "1.1"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -27,10 +30,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?",
       "opties": [
-        { "id": "a", "tekst": "de meerwaarde wordt op het passief van de balans behouden" },
-        { "id": "b", "tekst": "de meerwaarde mag niet op de balans worden behouden" },
-        { "id": "c", "tekst": "de meerwaarde moet geïncorporeerd worden in het kapitaal" },
-        { "id": "d", "tekst": "de meerwaarde moet gespreid over 5 jaar in resultaat genomen worden" }
+        {
+          "id": "a",
+          "tekst": "de meerwaarde wordt op het passief van de balans behouden"
+        },
+        {
+          "id": "b",
+          "tekst": "de meerwaarde mag niet op de balans worden behouden"
+        },
+        {
+          "id": "c",
+          "tekst": "de meerwaarde moet geïncorporeerd worden in het kapitaal"
+        },
+        {
+          "id": "d",
+          "tekst": "de meerwaarde moet gespreid over 5 jaar in resultaat genomen worden"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -41,10 +56,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?",
       "opties": [
-        { "id": "a", "tekst": "ofwel overboeking naar de reserves tot beloop van het nog niet afgeschreven bedrag van de meerwaarde, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde" },
-        { "id": "b", "tekst": "ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde" },
-        { "id": "c", "tekst": "ofwel overboeking naar de reserves, ofwel inlijving in het kapitaal tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde" },
-        { "id": "d", "tekst": "ofwel enkel overboeking naar de reserves" }
+        {
+          "id": "a",
+          "tekst": "ofwel overboeking naar de reserves tot beloop van het nog niet afgeschreven bedrag van de meerwaarde, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+        },
+        {
+          "id": "b",
+          "tekst": "ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+        },
+        {
+          "id": "c",
+          "tekst": "ofwel overboeking naar de reserves, ofwel inlijving in het kapitaal tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+        },
+        {
+          "id": "d",
+          "tekst": "ofwel enkel overboeking naar de reserves"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -55,10 +82,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag worden overgeboekt?",
       "opties": [
-        { "id": "a", "tekst": "25.000 EUR" },
-        { "id": "b", "tekst": "75.000 EUR" },
-        { "id": "c", "tekst": "50.000 EUR" },
-        { "id": "d", "tekst": "0 EUR" }
+        {
+          "id": "a",
+          "tekst": "25.000 EUR"
+        },
+        {
+          "id": "b",
+          "tekst": "75.000 EUR"
+        },
+        {
+          "id": "c",
+          "tekst": "50.000 EUR"
+        },
+        {
+          "id": "d",
+          "tekst": "0 EUR"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -69,10 +108,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had en in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een herwaardering van 100.000 EUR te boeken?",
       "opties": [
-        { "id": "a", "tekst": "de meerwaarde wordt op het passief van de balans op het credit van rekening 120 geboekt" },
-        { "id": "b", "tekst": "de meerwaarde wordt volledig in resultaat genomen" },
-        { "id": "c", "tekst": "de boeking van de meerwaarde is verboden" },
-        { "id": "d", "tekst": "de boeking van de meerwaarde is facultatief" }
+        {
+          "id": "a",
+          "tekst": "de meerwaarde wordt op het passief van de balans op het credit van rekening 120 geboekt"
+        },
+        {
+          "id": "b",
+          "tekst": "de meerwaarde wordt volledig in resultaat genomen"
+        },
+        {
+          "id": "c",
+          "tekst": "de boeking van de meerwaarde is verboden"
+        },
+        {
+          "id": "d",
+          "tekst": "de boeking van de meerwaarde is facultatief"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

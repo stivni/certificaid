@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr5",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Definities van financiële begrippen",
-  "themas": ["intrinsieke waarde", "fractiewaarde", "rendabiliteit bedrijfsactiva", "schuldgraad", "operationele cash flow", "financiële begrippen"],
-
+  "themas": [
+    "intrinsieke waarde",
+    "fractiewaarde",
+    "rendabiliteit bedrijfsactiva",
+    "schuldgraad",
+    "operationele cash flow",
+    "financiële begrippen"
+  ],
+  "programmaonderdeel_ids": [
+    "1.9"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Omschrijf de volgende begrippen:"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -58,7 +65,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 3. Zuivere definitievraag per begrip. Geen motivering gevraagd — antwoordvorm is inherent de definitie zelf.",
   "kwaliteits_flags": []

@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr10",
   "interpretatie_datum": "2026-05-21T10:08:00Z",
@@ -13,6 +13,9 @@
     "functiescheiding",
     "toegangsbeheer",
     "IT-controles"
+  ],
+  "programmaonderdeel_ids": [
+    "1.7"
   ],
   "context_blokken": [
     {

@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrJ2",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
@@ -12,6 +12,9 @@
     "opzegtermijn",
     "ontslagprocedure",
     "arbeidsovereenkomst"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
   ],
   "context_blokken": [],
   "vragen": [

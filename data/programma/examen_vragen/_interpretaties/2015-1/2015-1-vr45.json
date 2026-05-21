@@ -1,16 +1,22 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr45",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Fiscale procedure: onderzoekstermijn inzake btw",
-  "themas": ["btw", "onderzoekstermijn", "controletermijn", "fiscale procedure", "verjaringstermijn"],
-
+  "themas": [
+    "btw",
+    "onderzoekstermijn",
+    "controletermijn",
+    "fiscale procedure",
+    "verjaringstermijn"
+  ],
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -18,16 +24,27 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "De vraag peilt naar de onderzoekstermijn inzake btw. U analyseert:",
       "opties": [
-        { "id": "a", "tekst": "Dusdanig bestaan er geen specifieke bepalingen inzake controletermijnen, inzake btw, daar die gelijklopen met de specifieke verjaringstermijnen." },
-        { "id": "b", "tekst": "Het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 7 jaar." },
-        { "id": "c", "tekst": "Het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 15 jaar." },
-        { "id": "d", "tekst": "Geen van voorgaande antwoorden is juist." }
+        {
+          "id": "a",
+          "tekst": "Dusdanig bestaan er geen specifieke bepalingen inzake controletermijnen, inzake btw, daar die gelijklopen met de specifieke verjaringstermijnen."
+        },
+        {
+          "id": "b",
+          "tekst": "Het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 7 jaar."
+        },
+        {
+          "id": "c",
+          "tekst": "Het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 15 jaar."
+        },
+        {
+          "id": "d",
+          "tekst": "Geen van voorgaande antwoorden is juist."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 5 van de sectie 'Fiscale procedure'. 4-optie MC-vraag (A-D). De opties zijn geschreven als voortbordurende stellingen.",
   "kwaliteits_flags": []

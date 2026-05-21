@@ -1,16 +1,23 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr19",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Werkwijze confirmatie leverancierssaldi bij externe controle",
-  "themas": ["confirmatie", "leverancierssaldi", "steekproef", "externe controle", "confirmatiebrieven", "audit"],
-
+  "themas": [
+    "confirmatie",
+    "leverancierssaldi",
+    "steekproef",
+    "externe controle",
+    "confirmatiebrieven",
+    "audit"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -53,7 +60,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 5 van de sectie 'Accountantsonderzoek'. Vijf open deelvragen over de werkwijze bij confirmatie van leverancierssaldi.",
   "kwaliteits_flags": []

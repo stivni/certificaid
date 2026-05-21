@@ -1,16 +1,24 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr26",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Norm inzake controle bij voorstel tot ontbinding: specifieke gevallen",
-  "themas": ["ontbinding vennootschap", "norm IAB", "staat van activa en passiva", "alarmbelprocedure", "boekhoudkundige staat", "termijnen", "bijzondere mandaten"],
-
+  "themas": [
+    "ontbinding vennootschap",
+    "norm IAB",
+    "staat van activa en passiva",
+    "alarmbelprocedure",
+    "boekhoudkundige staat",
+    "termijnen",
+    "bijzondere mandaten"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -61,7 +69,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 2 van de sectie 'Vennootschapsrecht (bijzondere mandaten)'. Zes open deelvragen over specifieke norm-bepalingen bij voorstel tot ontbinding.",
   "kwaliteits_flags": []

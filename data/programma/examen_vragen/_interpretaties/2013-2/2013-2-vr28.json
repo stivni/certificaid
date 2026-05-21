@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr28",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Successierechten Luik: passief nalatenschap — aangenomen of niet",
-  "themas": ["successierechten", "nalatenschap", "passief nalatenschap", "begrafeniskosten", "schulden nalatenschap", "Waals recht", "erfgenamen"],
-
+  "themas": [
+    "successierechten",
+    "nalatenschap",
+    "passief nalatenschap",
+    "begrafeniskosten",
+    "schulden nalatenschap",
+    "Waals recht",
+    "erfgenamen"
+  ],
+  "programmaonderdeel_ids": [
+    "2.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Dhr. André, weduwnaar, is op 1 augustus 2012 tijdens de vakantie in Spanje overleden. Hij heeft 2 kinderen als erfgenaam: dochter Hélène en zoon Johan. Hij had zijn fiscale woonplaats in Luik.\n\nActief nalatenschap:\n1) Woonhuis in Luik: € 200.000\n2) Appartement in Middelkerke: € 100.000\n3) (Geblokkeerde) termijnrekening bij ING in Brussel: € 10.000\n4) Zichtrekening bij de Bank van de Post: € 1.000\n5) Stofferend huisraad in België: € 5.000\n\nGevraagd: dienen de passief-elementen te worden aangenomen of niet? Indien ze moeten worden verworpen, verklaar om welke reden(en)."
     }
   ],
-
   "vragen": [
     {
       "id": "p1",
@@ -98,8 +106,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tien passief-elementen die elk beoordeeld moeten worden (aangenomen/niet aangenomen + verklaring bij verwerping). Elke passief-post is een aparte deelvraag. De A/B/C-structuur in de PDF (Aangenomen/Niet aangenomen/Verklaar) is geïntegreerd in de open vraagstelling met motivatie_verwacht:true.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

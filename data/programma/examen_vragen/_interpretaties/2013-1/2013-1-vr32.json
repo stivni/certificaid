@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr32",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Directe belastingen procedure: inkohiering, aanwijzing belastingontduiking bij Snack on the Road",
-  "themas": ["vennootschapsbelasting", "fiscale procedure", "inkohiering", "belastingontduiking", "onderzoekstermijn", "aanwijzing"],
-
+  "themas": [
+    "vennootschapsbelasting",
+    "fiscale procedure",
+    "inkohiering",
+    "belastingontduiking",
+    "onderzoekstermijn",
+    "aanwijzing"
+  ],
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Op 5 februari 2013 wordt het proces-verbaal van de administratie van de btw overgezonden aan de controleur van de directe belastingen van de onderneming Snack on the Road. Die vennootschap sluit haar boekjaar af op 31 maart van het jaar. De controleur geeft kennis van de aanwijzingen inzake belastingontduiking en kondigt een controle ter plaatse aan op 20 februari 2013 met betrekking tot de op 31 maart afgesloten boekjaren 2005 tot 2012. Voor het aanslagjaar 2012 werd de aangifte in de vennootschapsbelasting bij de administratie ingediend op 20 september 2012."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -42,7 +49,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 3. Vervolg op de Snack on the Road-casus. Deelvraag c bevat 'Verklaar uw antwoord' — motivatie_verwacht true. Sectietitel 'JURIDISCHE EN BEROEPSNORMEN...' markeert einde van deze vraag.",
   "kwaliteits_flags": []

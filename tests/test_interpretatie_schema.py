@@ -16,7 +16,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 POC_SUBSET = REPO_ROOT / "data" / "programma" / "examen_vragen" / "_poc_subset.json"
 INTERP_DIR = REPO_ROOT / "data" / "programma" / "examen_vragen" / "_interpretaties"
 
-SCHEMA_VERSIE_EXPECTED = "1.1"
+SCHEMA_VERSIE_EXPECTED = "1.2"
 VALID_HERKOMST = {"officieel", "herinnering", "hybride"}
 VALID_VRAAGTYPE = {"open", "mc_keuze", "juist_fout", "onbekend"}
 VALID_VOLLEDIGHEID = {"volledig", "fragment", "topic_only"}
@@ -33,6 +33,7 @@ VERPLICHTE_TOP_VELDEN = {
     "vraag_herkomst", "vraag_onderwerp", "themas",
     "context_blokken", "vragen",
     "herinterpretatie_motivering", "kwaliteits_flags",
+    "programmaonderdeel_ids",
 }
 VERPLICHTE_VRAAG_VELDEN = {
     "id", "vraagtype", "motivatie_verwacht", "volledigheid",

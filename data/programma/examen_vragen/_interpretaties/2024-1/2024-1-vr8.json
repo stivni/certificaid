@@ -1,14 +1,26 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr8",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Vennootschapsbelasting",
-  "themas": ["fiscale verliezen", "overdraagbare verliezen", "fusie moeder-dochter", "DBI aftrek", "innovatie-inkomsten", "voorafbetalingen", "verlaagd tarief", "belastbare basis", "tantième", "besmette verworpen uitgaven"],
-
+  "themas": [
+    "fiscale verliezen",
+    "overdraagbare verliezen",
+    "fusie moeder-dochter",
+    "DBI aftrek",
+    "innovatie-inkomsten",
+    "voorafbetalingen",
+    "verlaagd tarief",
+    "belastbare basis",
+    "tantième",
+    "besmette verworpen uitgaven"
+  ],
+  "programmaonderdeel_ids": [
+    "2.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -23,7 +35,6 @@
       "tekst": "Deelvraag D (NV A casus): NV A, boekjaar afgesloten 31/12/22. Winst voor belasting = 100.000 euro (voor winstuitkering). Belgische belasting = 20.000 euro. De AV beslist om een tantième van 10.000 euro toe te kennen en een gewoon dividend van 20.000 euro uit te keren."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -75,12 +86,14 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": {
     "deelvraag_id": "d",
     "tekst": "100.000 – 10.000 tantième = 90.000 euro",
     "vermoedelijke_status": "stagiair-notitie van eigen antwoord"
   },
   "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A is topic_only: de concrete stellingen over overdraagbare fiscale verliezen zijn niet bewaard. Deelvraag B bevat twee sub-berekeningen (b1 en b2) met een gedeelde casuscontext. Deelvraag D bevat een antwoord-hint ('100.000 – 10.000 tantième = 90.000 euro') zichtbaar in de PNG — geflaged als antwoord_hint_in_vraag. Deelvraag E vraagt een opsomming van besmette verworpen uitgaven — modellering als open. 'Takxshelter' in tekst.txt is vermoedelijk typo voor 'taxshelter' maar onduidelijk — niet gecorrigeerd.",
-  "kwaliteits_flags": ["antwoord_hint_aanwezig", "subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig",
+    "subvraag_zonder_inhoud"
+  ]
 }

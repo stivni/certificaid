@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr37",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "BTW-statuut vzw met yoga, café en boekenverkoop",
-  "themas": ["btw-vrijstelling", "vzw", "sport", "onderwijs", "gemengde belastingplichtige", "btw-statuut", "artikel 44 WBTW"],
-
+  "themas": [
+    "btw-vrijstelling",
+    "vzw",
+    "sport",
+    "onderwijs",
+    "gemengde belastingplichtige",
+    "btw-statuut",
+    "artikel 44 WBTW"
+  ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Nieuw op te richten vzw met activiteiten: (1) yogalessen en relaxatieoefeningen voor mensen met burn-out; (2) café (geen maaltijden/snacks) uitsluitend open tijdens lessen, niet toegankelijk voor buiten, enkel niet-alcoholische dranken, jaaromzet < 10.000 EUR; (3) verkoop yoga-boeken, geschatte jaaromzet 4.000 EUR."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,16 +31,27 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Wat is het btw-statuut van de vzw?",
       "opties": [
-        { "id": "a", "tekst": "De vzw kan de vrijstelling van artikel 44, §2, 4° WBTW (onderwijs) inroepen, ook voor de bijkomende activiteiten. Ze heeft dan ook het statuut van vrijgestelde belastingplichtige, ze moet geen periodieke btw-aangiften indienen, maar kan ook geen recht op aftrek uitoefenen." },
-        { "id": "b", "tekst": "De vzw kan geen enkele vrijstelling inroepen, ze is onderworpen aan btw. Ze heeft het statuut van belastingplichtige met recht op aftrek en zal periodieke aangiften moeten indienen." },
-        { "id": "c", "tekst": "De vzw kan de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen, ook voor de bijkomende activiteiten. Ze heeft dan ook het statuut van vrijgestelde belastingplichtige, ze moet geen periodieke btw-aangiften indienen, maar kan ook geen recht op aftrek uitoefenen." },
-        { "id": "d", "tekst": "Voor de yogalessen kan de vzw de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen maar zal voor de bijkomende activiteiten (café en verkoop boeken) btw dienen aan te rekenen. Ze is dus een gemengde belastingplichtige, zal periodieke btw-aangiften indienen en zal gedeeltelijk recht op aftrek kunnen uitoefenen (verhoudingsgetal of werkelijk gebruik)." }
+        {
+          "id": "a",
+          "tekst": "De vzw kan de vrijstelling van artikel 44, §2, 4° WBTW (onderwijs) inroepen, ook voor de bijkomende activiteiten. Ze heeft dan ook het statuut van vrijgestelde belastingplichtige, ze moet geen periodieke btw-aangiften indienen, maar kan ook geen recht op aftrek uitoefenen."
+        },
+        {
+          "id": "b",
+          "tekst": "De vzw kan geen enkele vrijstelling inroepen, ze is onderworpen aan btw. Ze heeft het statuut van belastingplichtige met recht op aftrek en zal periodieke aangiften moeten indienen."
+        },
+        {
+          "id": "c",
+          "tekst": "De vzw kan de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen, ook voor de bijkomende activiteiten. Ze heeft dan ook het statuut van vrijgestelde belastingplichtige, ze moet geen periodieke btw-aangiften indienen, maar kan ook geen recht op aftrek uitoefenen."
+        },
+        {
+          "id": "d",
+          "tekst": "Voor de yogalessen kan de vzw de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen maar zal voor de bijkomende activiteiten (café en verkoop boeken) btw dienen aan te rekenen. Ze is dus een gemengde belastingplichtige, zal periodieke btw-aangiften indienen en zal gedeeltelijk recht op aftrek kunnen uitoefenen (verhoudingsgetal of werkelijk gebruik)."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 2 van de sectie 'BTW'. 4-optie MC-vraag (A-D).",
   "kwaliteits_flags": []

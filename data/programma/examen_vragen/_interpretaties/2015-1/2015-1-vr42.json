@@ -1,21 +1,27 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr42",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Fiscale procedure: bijzondere taxatietermijn op basis van buitenlandse inlichtingen",
-  "themas": ["taxatietermijn", "internationale informatie-uitwisseling", "dubbelbelastingverdrag", "fiscale procedure", "personenbelasting"],
-
+  "themas": [
+    "taxatietermijn",
+    "internationale informatie-uitwisseling",
+    "dubbelbelastingverdrag",
+    "fiscale procedure",
+    "personenbelasting"
+  ],
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Cliënt wordt ingelicht dat de administratie 18 maanden geleden van een buitenlandse belastingadministratie (met wie België een dubbelbelastingverdrag heeft gesloten) inlichtingen kreeg die uitwijzen dat uw cliënt in een aanslagjaar vier jaar voor het huidige geen correcte aangifte deed."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,16 +29,27 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "U analyseert: kan de administratie nog taxeren?",
       "opties": [
-        { "id": "a", "tekst": "Ja, op basis daarvan kan de administratie nog taxeren omdat er een bijzondere taxatietermijn loopt van 24 maanden te rekenen vanaf de datum waarop de Belgische administratie kennis heeft van de resultaten van de controle of het onderzoek." },
-        { "id": "b", "tekst": "Neen, op basis daarvan kan de administratie niet meer taxeren omdat de bijzondere taxatietermijn loopt van 12 maanden te rekenen vanaf de datum waarop de Belgische administratie kennis heeft van de resultaten van de controle of het onderzoek." },
-        { "id": "c", "tekst": "Neen, dat kan niet meer omdat alle taxatietermijnen verstreken zijn." },
-        { "id": "d", "tekst": "Neen, dat kan niet meer omdat de Belgische administratie geen aanslag mag vestigen, nà het verstrijken van de gewone driejarige of de verlengde zevenjarige aanslagtermijn." }
+        {
+          "id": "a",
+          "tekst": "Ja, op basis daarvan kan de administratie nog taxeren omdat er een bijzondere taxatietermijn loopt van 24 maanden te rekenen vanaf de datum waarop de Belgische administratie kennis heeft van de resultaten van de controle of het onderzoek."
+        },
+        {
+          "id": "b",
+          "tekst": "Neen, op basis daarvan kan de administratie niet meer taxeren omdat de bijzondere taxatietermijn loopt van 12 maanden te rekenen vanaf de datum waarop de Belgische administratie kennis heeft van de resultaten van de controle of het onderzoek."
+        },
+        {
+          "id": "c",
+          "tekst": "Neen, dat kan niet meer omdat alle taxatietermijnen verstreken zijn."
+        },
+        {
+          "id": "d",
+          "tekst": "Neen, dat kan niet meer omdat de Belgische administratie geen aanslag mag vestigen, nà het verstrijken van de gewone driejarige of de verlengde zevenjarige aanslagtermijn."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 2 van de sectie 'Fiscale procedure'. 4-optie MC-vraag (A-D).",
   "kwaliteits_flags": []

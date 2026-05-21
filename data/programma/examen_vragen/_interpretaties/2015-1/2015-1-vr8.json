@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr8",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Berekening financiële ratio's op basis van jaarrekening",
-  "themas": ["brutoverkoopmarge", "toegevoegde waarde", "personeelskosten", "nettorentabiliteit eigen vermogen", "voorraadrotatie", "financiële ratio's", "jaarrekening analyse"],
-
+  "themas": [
+    "brutoverkoopmarge",
+    "toegevoegde waarde",
+    "personeelskosten",
+    "nettorentabiliteit eigen vermogen",
+    "voorraadrotatie",
+    "financiële ratio's",
+    "jaarrekening analyse"
+  ],
+  "programmaonderdeel_ids": [
+    "1.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Op basis van de balans na winstverdeling en de resultatenrekening van een cliënt (zie bijlage). Uit de toelichting: (1) investeringen materiële vaste activa 452.835 EUR; (2) exploitatiesubsidies 1.288 EUR; (3) intrestsubsidies 14.214 EUR; (4) geen disconto ten laste; (5) gemiddeld 38,20 werknemers (VTE); (6) voorziening pensioenen teruggenomen voor 1.665 EUR; (7) te bestemmen winst integraal gereserveerd."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,10 +31,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Brutoverkoopmarge: welke berekening is correct?",
       "opties": [
-        { "id": "a", "tekst": "(1.479.283 + 425.554 + 804) x 100 / (8.034.747 + 344.153) = 22,74" },
-        { "id": "b", "tekst": "(1.417.747 + 425.554 + 804) x 100 / (8.365.788 - 1.600.244) = 27,26" },
-        { "id": "c", "tekst": "(1.479.283 + 425.554 + 804 – 1.665) x 100 / (8.034.747 + 344.153 – 1.288) = 22,73" },
-        { "id": "d", "tekst": "(968.829 + 425.554 + 804 – 1.665) x 100 / (8.365.788 – 1.288) = 16,66" }
+        {
+          "id": "a",
+          "tekst": "(1.479.283 + 425.554 + 804) x 100 / (8.034.747 + 344.153) = 22,74"
+        },
+        {
+          "id": "b",
+          "tekst": "(1.417.747 + 425.554 + 804) x 100 / (8.365.788 - 1.600.244) = 27,26"
+        },
+        {
+          "id": "c",
+          "tekst": "(1.479.283 + 425.554 + 804 – 1.665) x 100 / (8.034.747 + 344.153 – 1.288) = 22,73"
+        },
+        {
+          "id": "d",
+          "tekst": "(968.829 + 425.554 + 804 – 1.665) x 100 / (8.365.788 – 1.288) = 16,66"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -37,10 +57,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Personeelskosten ten opzichte van toegevoegde waarde: welke berekening is correct?",
       "opties": [
-        { "id": "a", "tekst": "(1.600.244 – 1.665) X 100 / (8.365.788 - 1.288 – 3.457.309 – 1.398.278) = 45,56" },
-        { "id": "b", "tekst": "1.600.244 x 100 / (8.365.788 – 3.457.309 – 1.398.278) = 45,59" },
-        { "id": "c", "tekst": "1.600.244 x 100 / 1.479.283 = 108,18" },
-        { "id": "d", "tekst": "(1.600.244 – 1.665) x 100 / (8.034.747 – 13.112 - 3.457.309 – 1.398.278 – 1.288) = 50,51" }
+        {
+          "id": "a",
+          "tekst": "(1.600.244 – 1.665) X 100 / (8.365.788 - 1.288 – 3.457.309 – 1.398.278) = 45,56"
+        },
+        {
+          "id": "b",
+          "tekst": "1.600.244 x 100 / (8.365.788 – 3.457.309 – 1.398.278) = 45,59"
+        },
+        {
+          "id": "c",
+          "tekst": "1.600.244 x 100 / 1.479.283 = 108,18"
+        },
+        {
+          "id": "d",
+          "tekst": "(1.600.244 – 1.665) x 100 / (8.034.747 – 13.112 - 3.457.309 – 1.398.278 – 1.288) = 50,51"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -51,10 +83,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Nettorentabiliteit van het eigen vermogen na belastingen: welke berekening is correct?",
       "opties": [
-        { "id": "a", "tekst": "968.829 x 100 / 10.274.463 = 9,43" },
-        { "id": "b", "tekst": "968.829 x 100 / 8.177.941 = 11,85" },
-        { "id": "c", "tekst": "1.417.747 x 100 / 10.274.463 = 13,80" },
-        { "id": "d", "tekst": "1.479.283 x 100 / 8.177.941 = 18,09" }
+        {
+          "id": "a",
+          "tekst": "968.829 x 100 / 10.274.463 = 9,43"
+        },
+        {
+          "id": "b",
+          "tekst": "968.829 x 100 / 8.177.941 = 11,85"
+        },
+        {
+          "id": "c",
+          "tekst": "1.417.747 x 100 / 10.274.463 = 13,80"
+        },
+        {
+          "id": "d",
+          "tekst": "1.479.283 x 100 / 8.177.941 = 18,09"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -65,17 +109,30 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen: welke berekening is correct?",
       "opties": [
-        { "id": "a", "tekst": "3.444.161 / 530.373 = 6,49" },
-        { "id": "b", "tekst": "3.457.309 / 530.373 = 6,52" },
-        { "id": "c", "tekst": "3.457.309 / 1.344.750 = 2,57" },
-        { "id": "d", "tekst": "3.444.161 / 1.344.750 = 2,56" }
+        {
+          "id": "a",
+          "tekst": "3.444.161 / 530.373 = 6,49"
+        },
+        {
+          "id": "b",
+          "tekst": "3.457.309 / 530.373 = 6,52"
+        },
+        {
+          "id": "c",
+          "tekst": "3.457.309 / 1.344.750 = 2,57"
+        },
+        {
+          "id": "d",
+          "tekst": "3.444.161 / 1.344.750 = 2,56"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Analyse en kritische beoordeling van de jaarrekening - Consolidatie'. Vier MC-deelvragen (a-d) elk met 4 opties (A-D). Kandidaat kruist per deelratio het juiste antwoord aan in een antwoordrooster.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

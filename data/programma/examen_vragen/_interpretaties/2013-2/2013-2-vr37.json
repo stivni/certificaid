@@ -1,21 +1,30 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr37",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Dossieroverdracht tussen confraters: stellingen juist/fout",
-  "themas": ["dossieroverdracht", "confrater", "erelonen", "boekhoudpakket", "historieken", "ontwerpen jaarverslag", "beroepsreglement", "ITAA"],
-
+  "themas": [
+    "dossieroverdracht",
+    "confrater",
+    "erelonen",
+    "boekhoudpakket",
+    "historieken",
+    "ontwerpen jaarverslag",
+    "beroepsreglement",
+    "ITAA"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "In de relatie met confraters wordt u soms geconfronteerd met het feit dat u een dossier overneemt of dat u zelf een dossier dient over te dragen. Welke van onderstaande stellingen zijn juist of fout?"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -50,8 +59,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vier juist/fout-stellingen over dossieroverdracht. Tekst.txt combineert deelvraag a en b in één blok — genegeerd, beide gereconstrueerd als separate deelvragen vanuit de PDF-tekst.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

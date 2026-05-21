@@ -1,21 +1,30 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr30",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Italiaans bijkantoor: verwerking verlies/winst in Belgische Ven.B en dubbelbelastingverdrag",
-  "themas": ["vaste inrichting", "dubbelbelastingverdrag", "OESO-modelverdrag", "vennootschapsbelasting", "buitenlands bijkantoor", "vrijstellingsmethode", "verliesverrekening", "voorafbetalingen"],
-
+  "themas": [
+    "vaste inrichting",
+    "dubbelbelastingverdrag",
+    "OESO-modelverdrag",
+    "vennootschapsbelasting",
+    "buitenlands bijkantoor",
+    "vrijstellingsmethode",
+    "verliesverrekening",
+    "voorafbetalingen"
+  ],
+  "programmaonderdeel_ids": [
+    "2.8"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een naamloze vennootschap naar Belgisch recht die haar boekjaar afsluit op 31 december, is in Italië actief via een bijkantoor dat goederen verkoopt aan in Italië gevestigde klanten. Het bijkantoor neemt bestellingen op, keurt ze goed, reikt facturen uit aan de klanten, levert de goederen en int de aan de klanten gefactureerde bedragen. Dit bijkantoor voert haar eigen boekhouding.\n\nHet Italiaans bijkantoor, dat in 2012 werd geopend en in datzelfde jaar zijn handelsactiviteiten aanvatte, heeft voor het jaar 2012 zowel boekhoudkundig als fiscaal verlies gemaakt. In 2013 doet het bijkantoor wel goede zaken zodat de rekeningen met een positief saldo zullen afsluiten, en wel met een winst die hoger is dan het in 2012 geleden verlies. Op belastinggebied in Italië zal het bijkantoor het totaal verlies van 2012 van de winst van 2013 aftrekken.\n\nDe Belgische vennootschap boekt in 2012 en 2013 winst met betrekking tot haar overige activiteiten die enkel in België plaatsvinden. Om het bedrag van de voorafbetalingen te bepalen die de Belgische vennootschap in 2012 en 2013 in België heeft gedaan, heeft zij geen rekening gehouden met het feit dat zij over een Italiaans bijkantoor beschikt. We veronderstellen dat er in België noch in Italië verworpen uitgaven zijn."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -34,8 +43,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt is fragmentarisch (begint midden in de casus). Volledige vraagstelling gereconstrueerd uit subvraag-labels en contextuele tekst. Deelvraag a vraagt expliciete motivatie met verwijzing naar OESO-modelverdrag.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

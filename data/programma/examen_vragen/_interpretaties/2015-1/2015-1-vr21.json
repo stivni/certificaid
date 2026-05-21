@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr21",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Omzetting bvba naar nv: vereisten en mogelijkheden voor kapitaalverhoging",
-  "themas": ["omzetting vennootschap", "bvba naar nv", "kapitaalverhoging", "minimum kapitaal", "rekening-courant", "vennootschapsrecht", "notariële akte"],
-
+  "themas": [
+    "omzetting vennootschap",
+    "bvba naar nv",
+    "kapitaalverhoging",
+    "minimum kapitaal",
+    "rekening-courant",
+    "vennootschapsrecht",
+    "notariële akte"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Eigen vermogen bvba: geplaatst kapitaal 18.550 EUR, wettelijke reserve 1.855 EUR, overgedragen winst 15.000 EUR. Zaakvoerder wenst omzetting naar nv. Heeft een rekening-courant met creditstand van 50.000 EUR (post 48 'andere schulden'). Accountant deelt mee dat omzetting in huidige stand niet mogelijk is. Cliënt meent dat het toch mogelijk moet zijn."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,17 +31,31 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welke mogelijkheid laat toe om de omzetting van bvba naar nv door te voeren?",
       "opties": [
-        { "id": "a", "tekst": "Een kapitaalverhoging doorvoeren in geld bij een notariële akte waarbij ook de rechtsvorm wordt gewijzigd." },
-        { "id": "b", "tekst": "Een deel van de rekening-courant als kapitaalverhoging opnemen mits een verslag van de accountant." },
-        { "id": "c", "tekst": "De accountant kan de gehele opdracht op zich nemen om deze omzetting mogelijk te maken en door te voeren." },
-        { "id": "d", "tekst": "Met het oog op de akte tot verhoging van het kapitaal heeft de notaris enkel een boekhoudkundige staat die maximum drie maanden oud is en een controleverslag nodig; er zijn geen andere stukken noch formaliteiten vereist." },
-        { "id": "e", "tekst": "Bij de omzetting van bvba naar nv bedraagt het minimum geplaatst kapitaal wel degelijk 61.500 EUR, maar het mag volgestort worden tot beloop van slechts 1/3." }
+        {
+          "id": "a",
+          "tekst": "Een kapitaalverhoging doorvoeren in geld bij een notariële akte waarbij ook de rechtsvorm wordt gewijzigd."
+        },
+        {
+          "id": "b",
+          "tekst": "Een deel van de rekening-courant als kapitaalverhoging opnemen mits een verslag van de accountant."
+        },
+        {
+          "id": "c",
+          "tekst": "De accountant kan de gehele opdracht op zich nemen om deze omzetting mogelijk te maken en door te voeren."
+        },
+        {
+          "id": "d",
+          "tekst": "Met het oog op de akte tot verhoging van het kapitaal heeft de notaris enkel een boekhoudkundige staat die maximum drie maanden oud is en een controleverslag nodig; er zijn geen andere stukken noch formaliteiten vereist."
+        },
+        {
+          "id": "e",
+          "tekst": "Bij de omzetting van bvba naar nv bedraagt het minimum geplaatst kapitaal wel degelijk 61.500 EUR, maar het mag volgestort worden tot beloop van slechts 1/3."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 2 van de sectie 'Vennootschapsrecht'. Enkelvoudige MC-vraag met 5 opties.",
   "kwaliteits_flags": []

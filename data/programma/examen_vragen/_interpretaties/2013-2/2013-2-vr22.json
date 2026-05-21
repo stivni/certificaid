@@ -1,21 +1,30 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr22",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Aftrekbare beroepskosten voor verplaatsingen: osteopaat met wagen en scooter",
-  "themas": ["beroepskosten", "verplaatsingskosten", "personenwagen", "CO2-aftrekbeperking", "scooter", "vrij beroep", "forfait vs. werkelijke kosten", "personenbelasting"],
-
+  "themas": [
+    "beroepskosten",
+    "verplaatsingskosten",
+    "personenwagen",
+    "CO2-aftrekbeperking",
+    "scooter",
+    "vrij beroep",
+    "forfait vs. werkelijke kosten",
+    "personenbelasting"
+  ],
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een osteopaat oefent zijn zelfstandige activiteit uit in 2 verschillende sectoren: bij privépatiënten (op hun thuisadres en in zijn praktijk) en als verzorger van een rugbyploeg.\n\nZijn beroepsmatige verplaatsingen zijn de volgende:\n- maandag tot vrijdag met zijn personenwagen:\n  - voormiddag: woonplaats → patiënten\n  - namiddag: patiënten → praktijk\n  - 's avonds: praktijk → woonplaats\n- zaterdag en zondag met zijn scooter:\n  - woonplaats → rugbyveld → woonplaats\n\nIn de loop van 2012 werd volgend aantal kilometers afgelegd:\nMet de personenwagen:\n- praktijk → woonplaats: 3.500 km (heen)\n- op huisbezoek bij patiënten: 15.000 km\n- jaartotaal = 27.500 km (alle niet-beroepsmatige km zijn per definitie privématig)\nMet de scooter:\n- woonplaats → rugbyveld: 2.500 km (heen en terug)\n- jaartotaal = 5.000 km (overige km = privématig)\n\nUiteenzetting van de kosten i.v.m. de personenauto (Toyota Prius benzine – 89 g CO2):\nRenting € 7.200 (Leasing € 5.000 + Verzekering € 1.000 + Verkeersbelasting € 300 + Onderhoud € 650 + Interest € 250)\nBrandstof: € 1.650\n\nUiteenzetting van de kosten i.v.m. de scooter (volledig afgeschreven, geen financiering):\nVerkeersbelasting € 100\nOnderhoud € 350\nVerzekering € 250\nBrandstof € 600"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -26,8 +35,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt bevat dubbele subvraag-rendering (a/b voor weekdagen/weekend, gevolgd door tweede a/b voor wagen/scooter km-overzicht). Dit zijn casus-context elementen, niet aparte deelvragen. De vraag is enkelvoudig: bereken aftrekbare beroepskosten. Alle context geïntegreerd in één context_blok.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

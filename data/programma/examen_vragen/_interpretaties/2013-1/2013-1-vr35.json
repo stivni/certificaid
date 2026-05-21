@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr35",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Onafhankelijkheid externe accountant: toegelaten en verboden activiteiten en mandaten",
-  "themas": ["onafhankelijkheid", "externe accountant", "belastingconsulent", "mandaat", "verzekeringsmakelaar", "patrimoniumvennootschap", "ITAA"],
-
+  "themas": [
+    "onafhankelijkheid",
+    "externe accountant",
+    "belastingconsulent",
+    "mandaat",
+    "verzekeringsmakelaar",
+    "patrimoniumvennootschap",
+    "ITAA"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "In het kader van de onafhankelijkheid zijn er een aantal activiteiten die expliciet werden uitgesloten als uit te voeren door een externe accountant en/of belastingconsulent of er zijn activiteiten die mits te voldoen aan een aantal voorwaarden toch kunnen uitgevoerd worden. Duid aan welke bewering juist of fout is."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -58,8 +66,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 4. 5 juist/fout-stellingen over onafhankelijkheidsregels. Kleine typo 'voort vloeit' in tekst gecorrigeerd naar 'voorttvloeit' — genormaliseerd.",
-  "kwaliteits_flags": ["typo_genormaliseerd"]
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
 }

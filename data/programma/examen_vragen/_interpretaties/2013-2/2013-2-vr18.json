@@ -1,21 +1,30 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr18",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "BVBA: rechten van minderheidsaandeelhouder bij vermoeden van verduisteringen",
-  "themas": ["minderheidsaandeelhouder", "BVBA", "zaakvoerder", "kwijting", "verduistering", "bijzondere opdracht", "aandeelhoudersrechten", "bijzondere meerderheid"],
-
+  "themas": [
+    "minderheidsaandeelhouder",
+    "BVBA",
+    "zaakvoerder",
+    "kwijting",
+    "verduistering",
+    "bijzondere opdracht",
+    "aandeelhoudersrechten",
+    "bijzondere meerderheid"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De heer en mevrouw X bezitten aandelen in de bvba 'Invest Plan', die actief is in de vastgoedsector. Hun aandeel in deze vennootschap bedraagt 11,3% van het totaal aantal aandelen. Tijdens de laatste algemene vergadering hadden zij zich tegen de twee zaakvoerders van de bvba gekeerd, want zij hadden vragen bij hun bestuur en hadden daarom de aan die zaakvoerders te verlenen kwijting niet goedgekeurd. Toen ze de hoop al bijna hadden laten varen in verband met de rechten die ze kunnen laten gelden, komen ze u raadplegen om te vernemen of er al dan niet een middel bestaat om de zaakvoerders te dwingen naar hen te luisteren, nu ze weet hebben van verduisteringen in de rekeningen van de vennootschap."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -26,7 +35,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige open vraag naar het beschikbare rechtsmiddel voor de minderheidsaandeelhouder (bijzondere opdracht/ad-hoc controle via artikel 168 BVBA). Vraag beslaat een groot PDF-segment (pagina's 7-26) maar de vraagstelling zelf is beperkt.",
   "kwaliteits_flags": []

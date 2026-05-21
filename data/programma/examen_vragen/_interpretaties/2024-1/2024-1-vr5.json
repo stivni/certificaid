@@ -1,21 +1,30 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr5",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Personenbelasting",
-  "themas": ["meewerkend echtgenoot", "ministatuut", "onroerend goed", "onroerende voorheffing", "gemeubeld verhuur", "kadastraal inkomen", "beroepsinkomsten", "progressief tarief"],
-
+  "themas": [
+    "meewerkend echtgenoot",
+    "ministatuut",
+    "onroerend goed",
+    "onroerende voorheffing",
+    "gemeubeld verhuur",
+    "kadastraal inkomen",
+    "beroepsinkomsten",
+    "progressief tarief"
+  ],
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Deelvraag C: ongehuwd belastingplichtige verhuurt een gemeubeld onroerend goed aan een natuurlijk persoon. KI = 1.500 euro. Opbrengst = 3.000,00 euro per kwartaal."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -50,7 +59,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Alle vier deelvragen hebben een herkenbare vraagstelling. De gegevens van deelvraag C (KI en opbrengst) zijn opgenomen in context_blokken als casus_context. Deelvraag A is juist/fout met een volledige stelling.",
   "kwaliteits_flags": []

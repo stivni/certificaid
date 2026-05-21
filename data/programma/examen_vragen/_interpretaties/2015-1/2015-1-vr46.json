@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr46",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Registratierechten Brussel: uitsluiting vermindering eigen woning",
-  "themas": ["registratierechten", "vermindering eigen woning", "Brussel", "abattement", "eigendomsvoorwaarde", "bewoning"],
-
+  "themas": [
+    "registratierechten",
+    "vermindering eigen woning",
+    "Brussel",
+    "abattement",
+    "eigendomsvoorwaarde",
+    "bewoning"
+  ],
+  "programmaonderdeel_ids": [
+    "2.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een echtpaar koopt in september 2014 een huis in het Brussels Hoofdstedelijk Gewest tegen de prijs van 255.000 EUR."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,17 +30,31 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Kies uit onderstaande lijst welke uitspraak de kopers GEEN recht geeft op een vermindering van de registratierechten.",
       "opties": [
-        { "id": "a", "tekst": "Het echtpaar verkrijgt de blote (naakte) eigendom van het goed en het vruchtgebruik zal aangekocht worden door de vennootschap waarvan de echtgenoot bedrijfsleider is. Het echtpaar zal het goed bewonen en zal belast worden op een voordeel van alle aard wegens de kosteloze beschikking over een woning." },
-        { "id": "b", "tekst": "Ten gevolge van een schenking door een oom is de echtgenote reeds eigenaar, in onverdeeldheid met haar broer en haar zus, van een in het Vlaams Gewest gelegen huis." },
-        { "id": "c", "tekst": "De echtgenote wil haar medische praktijk op het gelijkvloers van het gebouw inrichten (zij zal er haar beroepsactiviteit uitoefenen) en het gezin zal de twee hogere verdiepingen betrekken." },
-        { "id": "d", "tekst": "Aangezien het gebouw waarop de koop betrekking heeft momenteel verhuurd wordt tegen een uiterst lonende huurprijs (hoger dan de kost van de hypothecaire lening), beslist het echtpaar om de huurder zijn huurcontract tot einddatum te laten uitdoen, met name tot 31 december 2015." },
-        { "id": "e", "tekst": "Om de duur van de volledige renovatie van hun eigen woning te overbruggen, zullen de ouders van de echtgenote zich ook in deze woning vestigen en wordt deze woning voor tenminste 3 jaar hun domicilie." }
+        {
+          "id": "a",
+          "tekst": "Het echtpaar verkrijgt de blote (naakte) eigendom van het goed en het vruchtgebruik zal aangekocht worden door de vennootschap waarvan de echtgenoot bedrijfsleider is. Het echtpaar zal het goed bewonen en zal belast worden op een voordeel van alle aard wegens de kosteloze beschikking over een woning."
+        },
+        {
+          "id": "b",
+          "tekst": "Ten gevolge van een schenking door een oom is de echtgenote reeds eigenaar, in onverdeeldheid met haar broer en haar zus, van een in het Vlaams Gewest gelegen huis."
+        },
+        {
+          "id": "c",
+          "tekst": "De echtgenote wil haar medische praktijk op het gelijkvloers van het gebouw inrichten (zij zal er haar beroepsactiviteit uitoefenen) en het gezin zal de twee hogere verdiepingen betrekken."
+        },
+        {
+          "id": "d",
+          "tekst": "Aangezien het gebouw waarop de koop betrekking heeft momenteel verhuurd wordt tegen een uiterst lonende huurprijs (hoger dan de kost van de hypothecaire lening), beslist het echtpaar om de huurder zijn huurcontract tot einddatum te laten uitdoen, met name tot 31 december 2015."
+        },
+        {
+          "id": "e",
+          "tekst": "Om de duur van de volledige renovatie van hun eigen woning te overbruggen, zullen de ouders van de echtgenote zich ook in deze woning vestigen en wordt deze woning voor tenminste 3 jaar hun domicilie."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Beginselen van registratie- en successierechten'. Enkelvoudige MC-vraag met 5 opties; kandidaat kiest de uitspraak die GEEN recht geeft op vermindering.",
   "kwaliteits_flags": []

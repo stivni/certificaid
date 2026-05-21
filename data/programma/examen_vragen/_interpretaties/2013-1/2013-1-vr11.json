@@ -1,16 +1,21 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr11",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Belang van een budget voor de interne controleafdeling",
-  "themas": ["interne controle", "budget", "controleafdeling", "planning"],
-
+  "themas": [
+    "interne controle",
+    "budget",
+    "controleafdeling",
+    "planning"
+  ],
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -21,7 +26,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 6. Enkelvoudige open vraag.",
   "kwaliteits_flags": []

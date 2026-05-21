@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr33",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Antiwitwaswetgeving: compliance officer, beroepsbeoefenaars en meldingsplicht",
-  "themas": ["antiwitwaswetgeving", "compliance officer", "witwasverantwoordelijke", "beroepsbeoefenaar", "CFI", "meldingsplicht"],
-
+  "themas": [
+    "antiwitwaswetgeving",
+    "compliance officer",
+    "witwasverantwoordelijke",
+    "beroepsbeoefenaar",
+    "CFI",
+    "meldingsplicht"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "In het kader van de Antiwitwas-wetgeving wordt gesproken over een compliance officer of witwasverantwoordelijke. Deze dient te worden aangesteld als er binnen hetzelfde kantoor '10' beroepsbeoefenaars werkzaam zijn."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,17 +30,50 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Duid hieronder aan wie aanzien wordt als een beroepsbeoefenaar in het kader van de antiwitwas-wetgeving (meerdere antwoorden mogelijk).",
       "opties": [
-        { "id": "a", "tekst": "Bedrijfsrevisoren" },
-        { "id": "b", "tekst": "Stagiair bedrijfsrevisoren" },
-        { "id": "c", "tekst": "Externe Accountants - Belastingconsulenten" },
-        { "id": "d", "tekst": "Interne Accountants - Belastingconsulenten" },
-        { "id": "e", "tekst": "Stagiair Accountants - Belastingconsulenten" },
-        { "id": "f", "tekst": "Externe Belastingconsulenten" },
-        { "id": "g", "tekst": "Interne Belastingconsulenten" },
-        { "id": "h", "tekst": "Stagiair Belastingconsulenten" },
-        { "id": "i", "tekst": "Erkende Boekhouders - Fiscalisten" },
-        { "id": "j", "tekst": "Erkende Boekhouders" },
-        { "id": "k", "tekst": "Stagiair Boekhouders - Fiscalisten" }
+        {
+          "id": "a",
+          "tekst": "Bedrijfsrevisoren"
+        },
+        {
+          "id": "b",
+          "tekst": "Stagiair bedrijfsrevisoren"
+        },
+        {
+          "id": "c",
+          "tekst": "Externe Accountants - Belastingconsulenten"
+        },
+        {
+          "id": "d",
+          "tekst": "Interne Accountants - Belastingconsulenten"
+        },
+        {
+          "id": "e",
+          "tekst": "Stagiair Accountants - Belastingconsulenten"
+        },
+        {
+          "id": "f",
+          "tekst": "Externe Belastingconsulenten"
+        },
+        {
+          "id": "g",
+          "tekst": "Interne Belastingconsulenten"
+        },
+        {
+          "id": "h",
+          "tekst": "Stagiair Belastingconsulenten"
+        },
+        {
+          "id": "i",
+          "tekst": "Erkende Boekhouders - Fiscalisten"
+        },
+        {
+          "id": "j",
+          "tekst": "Erkende Boekhouders"
+        },
+        {
+          "id": "k",
+          "tekst": "Stagiair Boekhouders - Fiscalisten"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -63,7 +103,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. Deelvraag a is een MC met meerdere antwoorden mogelijk (checkboxlijst). Deelvraag c heeft een ja/neen-deel + een vervolgvraag bij 'ja'; het vervolggedeelte is eigenstandig (wat dient te gebeuren) — aparte deelvraag.",
   "kwaliteits_flags": []

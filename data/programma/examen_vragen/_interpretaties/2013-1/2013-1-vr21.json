@@ -1,21 +1,31 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr21",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Juist of fout: stellingen over personenbelasting",
-  "themas": ["personenbelasting", "voorafbetalingen", "bonificatie", "spaarrekening", "kadastraal inkomen", "beroepskosten", "auteursrechten", "rekening-courant", "herkwalificatie huur"],
-
+  "themas": [
+    "personenbelasting",
+    "voorafbetalingen",
+    "bonificatie",
+    "spaarrekening",
+    "kadastraal inkomen",
+    "beroepskosten",
+    "auteursrechten",
+    "rekening-courant",
+    "herkwalificatie huur"
+  ],
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Geef aan of volgende uitspraken waar of onwaar zijn."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -82,8 +92,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 3. 8 stellingen = 8 aparte deelvragen juist/fout. Tekst.txt trunceert deelvraag f en g in subvraag-blok — volledige stellingen overgenomen uit het gestructureerde deel van de tekst. Sectietitel 'VENNOOTSCHAPSBELASTING 20 PUNTEN' markeert einde van deze vraag.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

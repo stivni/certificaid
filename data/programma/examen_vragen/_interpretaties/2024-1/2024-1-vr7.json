@@ -1,16 +1,26 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr7",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "IFRS — voorraadwaardering, voorzichtigheidsprincipe en vaste activa",
-  "themas": ["IAS/IFRS", "voorraadwaardering", "FIFO", "LIFO", "gewogen gemiddelde", "voorzichtigheidsprincipe", "afschrijvingen", "leasing", "uitzonderlijke opbrengsten"],
-
+  "themas": [
+    "IAS/IFRS",
+    "voorraadwaardering",
+    "FIFO",
+    "LIFO",
+    "gewogen gemiddelde",
+    "voorzichtigheidsprincipe",
+    "afschrijvingen",
+    "leasing",
+    "uitzonderlijke opbrengsten"
+  ],
+  "programmaonderdeel_ids": [
+    "1.5"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a1",
@@ -117,8 +127,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A bevat 4 mc-stijl opties maar de vraag is 'juist/fout' per methode-combinatie — gemodelleerd als 4 juist/fout-deelvragen a1–a4. Deelvraag B bevat 4 stellingen over voorzichtigheidsprincipe (b1–b4). Deelvraag C bevat 4 stellingen over IAS/IFRS (c1–c4); c2 is fragment: de stelling over terrainskosten is onvolledig ('……?'). Typo 'Fifi' in tekst.txt gecorrigeerd naar 'FIFO' (optie A.2). Typo 'laesing' gecorrigeerd naar 'leasing' in D. 'VA' uitgeschreven als 'vaste activa'.",
-  "kwaliteits_flags": ["typo_genormaliseerd"]
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
 }

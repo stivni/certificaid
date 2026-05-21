@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr36",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Publiciteitsregels voor externe accountant en belastingconsulent",
-  "themas": ["publiciteit", "externe accountant", "belastingconsulent", "erelonen", "beroepsregels", "sectoren"],
-
+  "themas": [
+    "publiciteit",
+    "externe accountant",
+    "belastingconsulent",
+    "erelonen",
+    "beroepsregels",
+    "sectoren"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De externe accountant en/of belastingconsulent mag publiciteit voeren, doch dient zich te houden aan een aantal regels. Welke van de onderstaande stellingen is juist of fout?"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -50,7 +57,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 6. 4 juist/fout-stellingen over publiciteitsregels.",
   "kwaliteits_flags": []

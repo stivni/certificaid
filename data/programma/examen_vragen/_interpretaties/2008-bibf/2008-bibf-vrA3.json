@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2008-bibf",
   "vraag_id": "2008-bibf-vrA3",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
@@ -14,6 +14,9 @@
     "handelsgoederen",
     "voorraadwijziging",
     "jaarafsluiting"
+  ],
+  "programmaonderdeel_ids": [
+    "1.1"
   ],
   "context_blokken": [
     {

@@ -414,22 +414,33 @@ def _bouw_antwoorden_index(antwoord: dict[str, Any] | None) -> dict[str, dict[st
     }
 
 
-def _formatteer_herkomst(examen_id: str, vraag_herkomst: str) -> str:
-    """Formatteer een kleine italic-notitie over de herkomst van de vraag.
+def _formatteer_herkomst(
+    examen_id: str,
+    vraag_herkomst: str,
+    programmaonderdeel_ids: list[str] | None = None,
+) -> str:
+    """Formatteer een kleine italic-notitie over examen-herkomst + PO('s).
 
-    PRUTS: pas de notitie-string hier aan (bv. wikilink i.p.v. plain text,
-    andere herkomst-labels, fallback-tekst).
+    PRUTS: pas de notitie-string hier aan.
 
     Voorbeelden:
-      ("2013-1", "officieel")    → "Examen 2013-1"
-      ("2024-1", "herinnering")  → "Examen 2024-1 (uit herinnering gereconstrueerd)"
-      ("2014-1", "hybride")      → "Examen 2014-1 (hybride bron)"
+      ("2013-1", "officieel", ["1.7"])
+        → "Examen 2013-1 · PO 1.7"
+      ("2024-1", "herinnering", ["3.0"])
+        → "Examen 2024-1 (uit herinnering gereconstrueerd) · PO 3.0"
+      ("2013-2", "officieel", ["1.6", "3.0"])
+        → "Examen 2013-2 · PO 1.6 + 3.0"
     """
     if vraag_herkomst == "herinnering":
-        return f"Examen {examen_id} (uit herinnering gereconstrueerd)"
-    if vraag_herkomst == "hybride":
-        return f"Examen {examen_id} (hybride bron)"
-    return f"Examen {examen_id}"
+        basis = f"Examen {examen_id} (uit herinnering gereconstrueerd)"
+    elif vraag_herkomst == "hybride":
+        basis = f"Examen {examen_id} (hybride bron)"
+    else:
+        basis = f"Examen {examen_id}"
+    if programmaonderdeel_ids:
+        po_str = " + ".join(programmaonderdeel_ids)
+        return f"{basis} · PO {po_str}"
+    return basis
 
 
 def _render_vraag_eenheid(vraag: dict[str, Any], env: Environment | None = None) -> str:
@@ -444,6 +455,7 @@ def _render_vraag_eenheid(vraag: dict[str, Any], env: Environment | None = None)
     onderwerp = interpretatie.get("vraag_onderwerp", "")
     examen_id = interpretatie.get("examen_id", "")
     vraag_herkomst = interpretatie.get("vraag_herkomst", "officieel")
+    programmaonderdeel_ids = interpretatie.get("programmaonderdeel_ids") or []
     context_blokken = interpretatie.get("context_blokken", [])
     deelvragen = interpretatie.get("vragen", [])
 
@@ -453,7 +465,11 @@ def _render_vraag_eenheid(vraag: dict[str, Any], env: Environment | None = None)
     context_md = _render_context_blokken(context_blokken)
 
     # Herkomst-regel (PRUTS-punt zit in _formatteer_herkomst)
-    herkomst_regel = _formatteer_herkomst(examen_id, vraag_herkomst) if examen_id else ""
+    herkomst_regel = (
+        _formatteer_herkomst(examen_id, vraag_herkomst, programmaonderdeel_ids)
+        if examen_id
+        else ""
+    )
 
     # Deelvragen pre-renderen via subtemplate
     deelvragen_md = [

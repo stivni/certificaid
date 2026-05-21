@@ -1,35 +1,80 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr14",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Vennootschapsrecht: aandelen bij overlijden, vordering oninvorderbaar, oprichting S-BVBA",
-  "themas": ["BVBA", "aandelen bij overlijden", "erfopvolging", "overdracht aandelen", "oninvorderbare vordering", "S-BVBA", "oprichtersaansprakelijkheid"],
-
+  "themas": [
+    "BVBA",
+    "aandelen bij overlijden",
+    "erfopvolging",
+    "overdracht aandelen",
+    "oninvorderbare vordering",
+    "S-BVBA",
+    "oprichtersaansprakelijkheid"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "balans",
       "actief": {
-        "headers": ["Rubriek", "Bedrag"],
+        "headers": [
+          "Rubriek",
+          "Bedrag"
+        ],
         "rows": [
-          ["Materiële vaste activa", "25.000"],
-          ["Voorraden", "7.500"],
-          ["Vorderingen op < 1 jaar", "75.500"],
-          ["Liquide middelen", "12.500"],
-          ["TOTAAL", "120.500"]
+          [
+            "Materiële vaste activa",
+            "25.000"
+          ],
+          [
+            "Voorraden",
+            "7.500"
+          ],
+          [
+            "Vorderingen op < 1 jaar",
+            "75.500"
+          ],
+          [
+            "Liquide middelen",
+            "12.500"
+          ],
+          [
+            "TOTAAL",
+            "120.500"
+          ]
         ]
       },
       "passief": {
-        "headers": ["Rubriek", "Bedrag"],
+        "headers": [
+          "Rubriek",
+          "Bedrag"
+        ],
         "rows": [
-          ["Geplaatst kapitaal", "20.460"],
-          ["Overgedragen winst", "44.540"],
-          ["Leveranciers", "28.500"],
-          ["Belastingschulden", "27.000"],
-          ["TOTAAL", "120.500"]
+          [
+            "Geplaatst kapitaal",
+            "20.460"
+          ],
+          [
+            "Overgedragen winst",
+            "44.540"
+          ],
+          [
+            "Leveranciers",
+            "28.500"
+          ],
+          [
+            "Belastingschulden",
+            "27.000"
+          ],
+          [
+            "TOTAAL",
+            "120.500"
+          ]
         ]
       }
     },
@@ -46,7 +91,6 @@
       "tekst": "Deel III: Albert M, samen met een vriend, wil een S-BVBA oprichten onder de naam 'Renaissance'. Ze beschikken niet over de nodige liquide middelen."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -97,8 +141,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. Complexe vraag met drie delen en balans. Balans overgenomen van PNG. Instructie 'Verklaar uw antwoorden bondig' geïnterpreteerd als motivatie_verwacht true voor deelvragen a, b, c, d. Deel II is een aparte vraag zonder letter maar eigen inhoud. Deelstelling 'Antwoord' na Deel II in tekst.txt is antwoordruimte, geen vraag.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

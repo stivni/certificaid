@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr27",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Opdracht externe accountant bij omzetting NV naar BVBA: juist/fout stellingen",
-  "themas": ["omzetting vennootschap", "staat van activa en passiva", "externe accountant", "controleverslag", "werkzaamheden", "bijzondere mandaten"],
-
+  "themas": [
+    "omzetting vennootschap",
+    "staat van activa en passiva",
+    "externe accountant",
+    "controleverslag",
+    "werkzaamheden",
+    "bijzondere mandaten"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Externe accountant krijgt opdracht voor verslag over boekhoudkundige staat van activa en passiva bij omzetting NV Salami naar BVBA Salami. KMO-vennootschap, voornamelijk levensmiddelen invoer uit Italië."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -90,8 +97,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 3 van de sectie 'Vennootschapsrecht (bijzondere mandaten)'. Negen ja/nee-stellingen over de werkzaamheden van de externe accountant bij omzetting.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr46",
   "interpretatie_datum": "2026-05-21T10:44:00Z",
@@ -14,6 +14,9 @@
     "dossierplicht",
     "confrater",
     "dossieroverdracht"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
   ],
   "context_blokken": [
     {

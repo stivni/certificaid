@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrA2",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
@@ -14,6 +14,9 @@
     "handelsgoederen",
     "marktwaarde",
     "afprijzing"
+  ],
+  "programmaonderdeel_ids": [
+    "1.1"
   ],
   "context_blokken": [
     {
@@ -33,5 +36,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Eén deelvraag — boeking-instructie. Vraagtype 'open' want boeking is antwoord-vorm. Context bevat alle nodige gegevens: saldo's uit proef- en saldibalans, inventariswaarden, marktwaarde en afprijzingsbedrag. PNG bevestigt de tabelstructuur.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

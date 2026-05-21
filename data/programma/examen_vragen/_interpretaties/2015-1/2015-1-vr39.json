@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr39",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "BTW-verplichtingen bij tijdelijke overbrenging van goederen naar EU-lidstaat (niet-overbrenging)",
-  "themas": ["btw", "intracommunautaire overbrenging", "niet-overbrenging", "register niet-overbrengingen", "EU-handel", "tijdelijke overbrenging"],
-
+  "themas": [
+    "btw",
+    "intracommunautaire overbrenging",
+    "niet-overbrenging",
+    "register niet-overbrengingen",
+    "EU-handel",
+    "tijdelijke overbrenging"
+  ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De interne accountant van een Belgische onderneming rijdt maandelijks 2 dagen met zijn bedrijfswagen (Belgische nummerplaat) naar hun filiaal in Parijs om de boekhouding af te sluiten en de Franse btw-aangifte te doen. Hij beschikt over een laptop, gsm en leasewagen van zijn Belgische werkgever."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,16 +30,27 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Zijn er bepaalde btw-verplichtingen te vervullen door de Belgische onderneming i.v.m. de maandelijkse trip naar Parijs?",
       "opties": [
-        { "id": "a", "tekst": "Ja, het gaat om een overbrenging van goederen van de onderneming naar een andere lidstaat van de EU. De Belgische onderneming moet voor de overbrenging van de wagen, de laptop en de gsm een factuur opmaken aan het Franse filiaal." },
-        { "id": "b", "tekst": "Ja, het gaat om een overbrenging van eigen goederen van de onderneming naar een andere lidstaat van de EU. De Belgische onderneming moet voor deze overbrenging een 'overbrengingsstuk' aan zichzelf opmaken." },
-        { "id": "c", "tekst": "Ja, het gaat echter om een 'niet-overbrenging' van eigen goederen en hiervoor moet geen stuk worden opgemaakt maar wel telkens bij vertrek uit België een inschrijving in het register der niet-overbrengingen. De goederen moeten worden uitgeschreven uit dit register bij de terugkeer ervan naar België." },
-        { "id": "d", "tekst": "Neen, het gaat wel om een 'niet-overbrenging' van eigen goederen en er moet dus geen overbrengingsstuk worden gemaakt en bovendien staat de Administratie toe dat geen inschrijving in het register der niet-overbrengingen moet worden gedaan voor auto's, computers en gsm's." }
+        {
+          "id": "a",
+          "tekst": "Ja, het gaat om een overbrenging van goederen van de onderneming naar een andere lidstaat van de EU. De Belgische onderneming moet voor de overbrenging van de wagen, de laptop en de gsm een factuur opmaken aan het Franse filiaal."
+        },
+        {
+          "id": "b",
+          "tekst": "Ja, het gaat om een overbrenging van eigen goederen van de onderneming naar een andere lidstaat van de EU. De Belgische onderneming moet voor deze overbrenging een 'overbrengingsstuk' aan zichzelf opmaken."
+        },
+        {
+          "id": "c",
+          "tekst": "Ja, het gaat echter om een 'niet-overbrenging' van eigen goederen en hiervoor moet geen stuk worden opgemaakt maar wel telkens bij vertrek uit België een inschrijving in het register der niet-overbrengingen. De goederen moeten worden uitgeschreven uit dit register bij de terugkeer ervan naar België."
+        },
+        {
+          "id": "d",
+          "tekst": "Neen, het gaat wel om een 'niet-overbrenging' van eigen goederen en er moet dus geen overbrengingsstuk worden gemaakt en bovendien staat de Administratie toe dat geen inschrijving in het register der niet-overbrengingen moet worden gedaan voor auto's, computers en gsm's."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 4 van de sectie 'BTW'. 4-optie MC-vraag (A-D).",
   "kwaliteits_flags": []

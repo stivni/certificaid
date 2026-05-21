@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrF1",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
@@ -15,6 +15,9 @@
     "sociale bijdragen",
     "onroerende inkomsten"
   ],
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -24,20 +27,44 @@
       "type": "gegevens_tabel",
       "titel": "Kadastrale inkomens en revalorisatiecoëfficiënt",
       "rijen": [
-        {"label": "Woonhuis A — KI", "bedrag": 1050},
-        {"label": "Woonhuis B — KI", "bedrag": 1202},
-        {"label": "Revalorisatiecoëfficiënt (Art. 1 KBWIB 92)", "bedrag": 3.35}
+        {
+          "label": "Woonhuis A — KI",
+          "bedrag": 1050
+        },
+        {
+          "label": "Woonhuis B — KI",
+          "bedrag": 1202
+        },
+        {
+          "label": "Revalorisatiecoëfficiënt (Art. 1 KBWIB 92)",
+          "bedrag": 3.35
+        }
       ]
     },
     {
       "type": "gegevens_tabel",
       "titel": "Gegevens Vak II — bezoldigingen Heer Janssens",
       "rijen": [
-        {"label": "Jaarlijkse bruto bezoldiging", "bedrag": 30000},
-        {"label": "Sociale bijdrage voor rekening Heer Janssens, betaald door de NV (per trimester 1.200 EUR)", "bedrag": 4800},
-        {"label": "Netto bedrag mutualiteitbijdrage", "bedrag": 887},
-        {"label": "Ingehouden en doorgestorte bedrijfsvoorheffing", "bedrag": 4636},
-        {"label": "Voordelen van alle aard (auto)", "bedrag": 1500}
+        {
+          "label": "Jaarlijkse bruto bezoldiging",
+          "bedrag": 30000
+        },
+        {
+          "label": "Sociale bijdrage voor rekening Heer Janssens, betaald door de NV (per trimester 1.200 EUR)",
+          "bedrag": 4800
+        },
+        {
+          "label": "Netto bedrag mutualiteitbijdrage",
+          "bedrag": 887
+        },
+        {
+          "label": "Ingehouden en doorgestorte bedrijfsvoorheffing",
+          "bedrag": 4636
+        },
+        {
+          "label": "Voordelen van alle aard (auto)",
+          "bedrag": 1500
+        }
       ]
     }
   ],
@@ -53,5 +80,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Berekeningsvraag voor Vak II personenbelasting (bedrijfsleider). Gegevens gestructureerd als twee gegevens_tabellen: KI + revalorisatie, en de loongegevens. Forfaitaire beroepskosten staan als 'UIT TE REKENEN' in het bronmateriaal — dit is onderdeel van de berekening. Vraagtype 'open' (berekening). PNG bevestigt de opgegeven gegevens.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

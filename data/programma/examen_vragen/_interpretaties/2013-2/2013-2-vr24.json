@@ -1,14 +1,24 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr24",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten",
-  "themas": ["vennootschapsbelasting", "belastbaar resultaat", "verworpen uitgaven", "personenwagen aftrekbeperking", "KMO-tarief", "fiscaal verlies", "notionele intrestaftrek", "aanslagjaar 2013"],
-
+  "themas": [
+    "vennootschapsbelasting",
+    "belastbaar resultaat",
+    "verworpen uitgaven",
+    "personenwagen aftrekbeperking",
+    "KMO-tarief",
+    "fiscaal verlies",
+    "notionele intrestaftrek",
+    "aanslagjaar 2013"
+  ],
+  "programmaonderdeel_ids": [
+    "2.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -17,22 +27,66 @@
     {
       "type": "balans",
       "actief": {
-        "headers": ["Rubriek", "Jaar 2012", "Jaar 2011"],
+        "headers": [
+          "Rubriek",
+          "Jaar 2012",
+          "Jaar 2011"
+        ],
         "rows": [
-          ["Materiële vaste activa", "15.000", "20.000"],
-          ["Vorderingen < jaar", "100.000", "95.000"],
-          ["Liquide middelen", "30.000", "35.000"],
-          ["BALANSTOTAAL", "145.000", "150.000"]
+          [
+            "Materiële vaste activa",
+            "15.000",
+            "20.000"
+          ],
+          [
+            "Vorderingen < jaar",
+            "100.000",
+            "95.000"
+          ],
+          [
+            "Liquide middelen",
+            "30.000",
+            "35.000"
+          ],
+          [
+            "BALANSTOTAAL",
+            "145.000",
+            "150.000"
+          ]
         ]
       },
       "passief": {
-        "headers": ["Rubriek", "Jaar 2012", "Jaar 2011"],
+        "headers": [
+          "Rubriek",
+          "Jaar 2012",
+          "Jaar 2011"
+        ],
         "rows": [
-          ["Geplaatst kapitaal", "60.000", "60.000"],
-          ["Wettelijke reserve", "6.000", "6.000"],
-          ["Overgedragen resultaat", "-20.000", "-5.000"],
-          ["Schulden < jaar", "99.000", "89.000"],
-          ["BALANSTOTAAL", "145.000", "150.000"]
+          [
+            "Geplaatst kapitaal",
+            "60.000",
+            "60.000"
+          ],
+          [
+            "Wettelijke reserve",
+            "6.000",
+            "6.000"
+          ],
+          [
+            "Overgedragen resultaat",
+            "-20.000",
+            "-5.000"
+          ],
+          [
+            "Schulden < jaar",
+            "99.000",
+            "89.000"
+          ],
+          [
+            "BALANSTOTAAL",
+            "145.000",
+            "150.000"
+          ]
         ]
       }
     },
@@ -40,26 +94,73 @@
       "type": "gegevens_tabel",
       "titel": "Resultatenrekening 2012",
       "rijen": [
-        { "label": "Omzet", "bedrag": 256000 },
-        { "label": "Voordeel in natura personenwagens (opbrengst)", "bedrag": 10000 },
-        { "label": "Financiële opbrengsten", "bedrag": 5000 },
-        { "label": "Huur gebouwen", "bedrag": -25000 },
-        { "label": "Afschrijvingen", "bedrag": -5000 },
-        { "label": "Nutsvoorzieningen", "bedrag": -5000 },
-        { "label": "Erelonen", "bedrag": -5000 },
-        { "label": "Renting personenwagens – kapitaal", "bedrag": -50000 },
-        { "label": "Restaurantkosten", "bedrag": -5000 },
-        { "label": "Bezoldiging bedrijfsleider", "bedrag": -36000 },
-        { "label": "Brutobezoldiging personeel", "bedrag": -100000 },
-        { "label": "Patronale bijdragen", "bedrag": -35000 },
-        { "label": "Voordeel in natura personenwagens (kost)", "bedrag": -10000 },
-        { "label": "Intrest renting personenwagens", "bedrag": -5000 },
-        { "label": "Benzine personenwagens", "bedrag": -5000 },
-        { "label": "VERLIES", "bedrag": -15000 }
+        {
+          "label": "Omzet",
+          "bedrag": 256000
+        },
+        {
+          "label": "Voordeel in natura personenwagens (opbrengst)",
+          "bedrag": 10000
+        },
+        {
+          "label": "Financiële opbrengsten",
+          "bedrag": 5000
+        },
+        {
+          "label": "Huur gebouwen",
+          "bedrag": -25000
+        },
+        {
+          "label": "Afschrijvingen",
+          "bedrag": -5000
+        },
+        {
+          "label": "Nutsvoorzieningen",
+          "bedrag": -5000
+        },
+        {
+          "label": "Erelonen",
+          "bedrag": -5000
+        },
+        {
+          "label": "Renting personenwagens – kapitaal",
+          "bedrag": -50000
+        },
+        {
+          "label": "Restaurantkosten",
+          "bedrag": -5000
+        },
+        {
+          "label": "Bezoldiging bedrijfsleider",
+          "bedrag": -36000
+        },
+        {
+          "label": "Brutobezoldiging personeel",
+          "bedrag": -100000
+        },
+        {
+          "label": "Patronale bijdragen",
+          "bedrag": -35000
+        },
+        {
+          "label": "Voordeel in natura personenwagens (kost)",
+          "bedrag": -10000
+        },
+        {
+          "label": "Intrest renting personenwagens",
+          "bedrag": -5000
+        },
+        {
+          "label": "Benzine personenwagens",
+          "bedrag": -5000
+        },
+        {
+          "label": "VERLIES",
+          "bedrag": -15000
+        }
       ]
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -86,8 +187,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Omvangrijke berekenisvraag. Balans en resultatenrekening gestructureerd als aparte blokken. De resultatenrekening bevat zowel kosten als opbrengsten — weergegeven als gegevens_tabel met negatieve bedragen voor kosten.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

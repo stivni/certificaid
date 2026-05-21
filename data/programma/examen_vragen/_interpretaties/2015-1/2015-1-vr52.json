@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr52",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Erelonen accountant/belastingconsulent: juist/fout stellingen",
-  "themas": ["erelonen", "KB 1 maart 1998", "commissies", "opzegvergoeding", "deontologie", "accountant", "belastingconsulent"],
-
+  "themas": [
+    "erelonen",
+    "KB 1 maart 1998",
+    "commissies",
+    "opzegvergoeding",
+    "deontologie",
+    "accountant",
+    "belastingconsulent"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "In de artikelen 27 tot en met 29 van het KB van 1 maart 1998 worden de erelonen van de accountant en/of belastingconsulent behandeld."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -42,8 +50,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 2 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over erelonen. Kleine OCR-correctie: 'beëindigd' → 'beëindigt' (verkeerde vervoeging in tekst).",
-  "kwaliteits_flags": ["typo_genormaliseerd"]
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
 }

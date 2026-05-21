@@ -25,7 +25,7 @@ EXAMEN_DIR = REPO_ROOT / "data" / "programma" / "examen_vragen"
 SEGMENTEN_DIR = EXAMEN_DIR / "_segmenten"
 INTERP_DIR = EXAMEN_DIR / "_interpretaties"
 
-SCHEMA_VERSIE_EXPECTED = "1.1"
+SCHEMA_VERSIE_EXPECTED = "1.2"
 VALID_HERKOMST = {"officieel", "herinnering", "hybride"}
 VALID_VRAAGTYPE = {"open", "mc_keuze", "juist_fout", "onbekend"}
 VALID_VOLLEDIGHEID = {"volledig", "fragment", "topic_only"}
@@ -41,6 +41,13 @@ VERPLICHTE_TOP_VELDEN = {
     "vraag_herkomst", "vraag_onderwerp", "themas",
     "context_blokken", "vragen",
     "herinterpretatie_motivering", "kwaliteits_flags",
+    "programmaonderdeel_ids",
+}
+
+VALID_PO_CODES = {
+    "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9",
+    "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8",
+    "3.0", "4.0",
 }
 VERPLICHTE_VRAAG_VELDEN = {
     "id", "vraagtype", "motivatie_verwacht", "volledigheid",
@@ -243,6 +250,24 @@ def test_volledig_of_fragment_heeft_vraagstelling(path):
         assert isinstance(vs, str) and vs.strip(), (
             f"{path.stem} deelvraag {v['id']}: {v['volledigheid']} zonder vraagstelling"
         )
+
+
+@pytest.mark.parametrize("path", _alle_interpretaties(), ids=_id_for)
+def test_programmaonderdeel_ids(path):
+    """programmaonderdeel_ids: 1 of 2 entries, allemaal geldige PO-codes."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    po_ids = data["programmaonderdeel_ids"]
+    assert isinstance(po_ids, list)
+    assert 1 <= len(po_ids) <= 2, (
+        f"{path.stem}: programmaonderdeel_ids moet 1-2 entries hebben, kreeg {len(po_ids)}"
+    )
+    for code in po_ids:
+        assert code in VALID_PO_CODES, (
+            f"{path.stem}: ongeldige PO-code {code!r}"
+        )
+    assert len(po_ids) == len(set(po_ids)), (
+        f"{path.stem}: duplicate PO-codes in {po_ids}"
+    )
 
 
 @pytest.mark.parametrize("path", _alle_interpretaties(), ids=_id_for)

@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr23",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Gevolgen laattijdige bijeenroeping gewone algemene vergadering nv",
-  "themas": ["algemene vergadering", "nv", "laattijdige bijeenroeping", "aansprakelijkheid bestuurders", "vennootschapsrecht", "jaarrekening goedkeuring"],
-
+  "themas": [
+    "algemene vergadering",
+    "nv",
+    "laattijdige bijeenroeping",
+    "aansprakelijkheid bestuurders",
+    "vennootschapsrecht",
+    "jaarrekening goedkeuring"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De raad van bestuur van nv 'Option for the Future' (boekjaar afsluit op 31/12) roept de gewone algemene vergadering te laat bijeen: datum vastgesteld op 20/07/2014. De gedelegeerd bestuurder vraagt de externe accountant of de laattijdigheid gevolgen teweegbrengt."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,16 +30,27 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welk onderstaand antwoord is juist over de gevolgen van de laattijdige bijeenroeping?",
       "opties": [
-        { "id": "a", "tekst": "Geen probleem, aangezien de rekeningen toch door de gewone algemene vergadering zullen worden goedgekeurd." },
-        { "id": "b", "tekst": "De jaarrekening moet binnen zes maanden na afsluiting van het boekjaar ter goedkeuring aan de algemene vergadering worden voorgelegd, zo niet zal de door derden geleden schade, behoudens tegenbewijs, geacht worden voort te vloeien uit dit verzuim." },
-        { "id": "c", "tekst": "Aangezien de jaarrekening niet afgewerkt was, was het niet mogelijk om de algemene vergadering bijeen te roepen en stelt dit dus geen enkel probleem." },
-        { "id": "d", "tekst": "De Nationale Bank van België zal een boete opleggen wegens de laattijdige bijeenroeping van de gewone algemene vergadering." }
+        {
+          "id": "a",
+          "tekst": "Geen probleem, aangezien de rekeningen toch door de gewone algemene vergadering zullen worden goedgekeurd."
+        },
+        {
+          "id": "b",
+          "tekst": "De jaarrekening moet binnen zes maanden na afsluiting van het boekjaar ter goedkeuring aan de algemene vergadering worden voorgelegd, zo niet zal de door derden geleden schade, behoudens tegenbewijs, geacht worden voort te vloeien uit dit verzuim."
+        },
+        {
+          "id": "c",
+          "tekst": "Aangezien de jaarrekening niet afgewerkt was, was het niet mogelijk om de algemene vergadering bijeen te roepen en stelt dit dus geen enkel probleem."
+        },
+        {
+          "id": "d",
+          "tekst": "De Nationale Bank van België zal een boete opleggen wegens de laattijdige bijeenroeping van de gewone algemene vergadering."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 4 van de sectie 'Vennootschapsrecht'. 4-optie MC-vraag (A-D).",
   "kwaliteits_flags": []

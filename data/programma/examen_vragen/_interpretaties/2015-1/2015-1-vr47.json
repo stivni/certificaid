@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr47",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Successierechten: aangifte nalatenschap met opschortende voorwaarde",
-  "themas": ["successierechten", "nalatenschap", "aangifte", "opschortende voorwaarde", "aandelen", "termijnen", "actief/passief nalatenschap"],
-
+  "themas": [
+    "successierechten",
+    "nalatenschap",
+    "aangifte",
+    "opschortende voorwaarde",
+    "aandelen",
+    "termijnen",
+    "actief/passief nalatenschap"
+  ],
+  "programmaonderdeel_ids": [
+    "2.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Mevrouw Martin, weduwe, overleed op 20 februari 2014. Enige erfgenamen: 3 kinderen. Woonplaats altijd in het Vlaams Gewest, overlijden in het Waals Gewest. In december 2013 had zij een verplichting tot aankoop van 1.000 aandelen van een Belgische vennootschap tegen 17.000 EUR, onderworpen aan een opschortende voorwaarde die op datum van overlijden nog niet vervuld was. De opschortende voorwaarde werd vervuld op 9 juli 2014. Accountant ingeschakeld door de kinderen; ereloon: 2.420 EUR. De kinderen verkochten de aandelen voor 22.500 EUR."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,9 +31,18 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Op welke datum moest de aangifte van nalatenschap worden ingediend?",
       "opties": [
-        { "id": "a", "tekst": "Dinsdag 22 juli 2014" },
-        { "id": "b", "tekst": "Vrijdag 20 juni 2014" },
-        { "id": "c", "tekst": "Woensdag 20 augustus 2014" }
+        {
+          "id": "a",
+          "tekst": "Dinsdag 22 juli 2014"
+        },
+        {
+          "id": "b",
+          "tekst": "Vrijdag 20 juni 2014"
+        },
+        {
+          "id": "c",
+          "tekst": "Woensdag 20 augustus 2014"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -36,10 +53,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Vermeld het actief en het passief van de nalatenschap te aan te geven in de aangifte van nalatenschap ingediend binnen de sub a) gestelde termijn.",
       "opties": [
-        { "id": "a", "tekst": "Actief = 17.000 EUR – geen passief" },
-        { "id": "b", "tekst": "Actief = 22.500 EUR – geen passief" },
-        { "id": "c", "tekst": "Actief = 22.500 EUR – passief = 2.420 EUR" },
-        { "id": "d", "tekst": "Actief = 0 EUR – geen passief" }
+        {
+          "id": "a",
+          "tekst": "Actief = 17.000 EUR – geen passief"
+        },
+        {
+          "id": "b",
+          "tekst": "Actief = 22.500 EUR – geen passief"
+        },
+        {
+          "id": "c",
+          "tekst": "Actief = 22.500 EUR – passief = 2.420 EUR"
+        },
+        {
+          "id": "d",
+          "tekst": "Actief = 0 EUR – geen passief"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -50,15 +79,23 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welke is de uiterste datum voor de betaling van de successierechten?",
       "opties": [
-        { "id": "a", "tekst": "Dinsdag 22 juli 2014" },
-        { "id": "b", "tekst": "Woensdag 20 augustus 2014" },
-        { "id": "c", "tekst": "Maandag 22 september 2014" }
+        {
+          "id": "a",
+          "tekst": "Dinsdag 22 juli 2014"
+        },
+        {
+          "id": "b",
+          "tekst": "Woensdag 20 augustus 2014"
+        },
+        {
+          "id": "c",
+          "tekst": "Maandag 22 september 2014"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 2 van de sectie 'Beginselen van registratie- en successierechten'. Drie MC-deelvragen (a, b, c) elk met 3-4 opties.",
   "kwaliteits_flags": []

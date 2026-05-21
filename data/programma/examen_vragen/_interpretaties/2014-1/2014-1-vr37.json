@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr37",
   "interpretatie_datum": "2026-05-21T10:35:00Z",
@@ -14,6 +14,9 @@
     "vrijstellingsmethode",
     "verliesaftrek",
     "globale winst"
+  ],
+  "programmaonderdeel_ids": [
+    "2.8"
   ],
   "context_blokken": [
     {
@@ -41,5 +44,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Twee open deelvragen. Deelvraag a vraagt ja/nee — geen motivatie vereist op zichzelf maar deelvraag b is de volwaardige verklaring. tekst.txt bevat een afgebroken zin in de casus ('bilaterale modelovereenkomst tot het vermijden van dubbele belasting.') die behoort tot de vraag-inleiding, niet tot deelvraag b.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

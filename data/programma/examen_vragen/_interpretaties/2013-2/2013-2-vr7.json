@@ -1,16 +1,24 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr7",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Liquiditeitsratio's: betekenis en onderscheid ruime vs. enge zin",
-  "themas": ["liquiditeitsratio", "liquiditeit in ruime zin", "liquiditeit in enge zin", "current ratio", "quick ratio", "voorraden", "ratio-analyse"],
-
+  "themas": [
+    "liquiditeitsratio",
+    "liquiditeit in ruime zin",
+    "liquiditeit in enge zin",
+    "current ratio",
+    "quick ratio",
+    "voorraden",
+    "ratio-analyse"
+  ],
+  "programmaonderdeel_ids": [
+    "1.3"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -37,8 +45,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt is fragmentarisch (begint midden in de vraagstelling van deelvraag b). PNG van pagina 5 toont de volledige vraagstelling inclusief vraag 3 label. Deelvraag c is een eigenstandige verklaringsvraag (niet enkel motivatie bij b — het vraagt een uitleg van waarom het onderscheid bestaat).",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

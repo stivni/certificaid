@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr33",
   "interpretatie_datum": "2026-05-21T10:31:00Z",
@@ -14,6 +14,9 @@
     "B2C",
     "vestigingsplaats dienstverrichter"
   ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -27,11 +30,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Duid de goede oplossing aan.",
       "opties": [
-        { "id": "a", "tekst": "De btw is niet van toepassing want de klant is een particulier." },
-        { "id": "b", "tekst": "De Belgische btw is niet van toepassing, want het werk werd daadwerkelijk in Frankrijk uitgevoerd." },
-        { "id": "c", "tekst": "De Belgische btw is van toepassing, want de accountant, dienstverrichter, is gevestigd in België." },
-        { "id": "d", "tekst": "De btw is van toepassing in België, want de afnemer is gevestigd in België." },
-        { "id": "e", "tekst": "De btw is van toepassing in Frankrijk, plaats van de materiële verrichting van de dienst." }
+        {
+          "id": "a",
+          "tekst": "De btw is niet van toepassing want de klant is een particulier."
+        },
+        {
+          "id": "b",
+          "tekst": "De Belgische btw is niet van toepassing, want het werk werd daadwerkelijk in Frankrijk uitgevoerd."
+        },
+        {
+          "id": "c",
+          "tekst": "De Belgische btw is van toepassing, want de accountant, dienstverrichter, is gevestigd in België."
+        },
+        {
+          "id": "d",
+          "tekst": "De btw is van toepassing in België, want de afnemer is gevestigd in België."
+        },
+        {
+          "id": "e",
+          "tekst": "De btw is van toepassing in Frankrijk, plaats van de materiële verrichting van de dienst."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

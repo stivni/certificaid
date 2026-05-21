@@ -1,16 +1,24 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr9",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Fiscale procedure",
-  "themas": ["bericht van wijziging", "aangetekende zending", "termijnen", "verjaring", "vraag om inlichtingen", "bewaarplicht", "emigratie belastingplichtige"],
-
+  "themas": [
+    "bericht van wijziging",
+    "aangetekende zending",
+    "termijnen",
+    "verjaring",
+    "vraag om inlichtingen",
+    "bewaarplicht",
+    "emigratie belastingplichtige"
+  ],
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -53,7 +61,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Alle vijf deelvragen hebben een herkenbare, volledige vraagstelling. Vraag overspant twee pagina's (pagina 5 en 6) maar de vraaginhoud zelf staat volledig op pagina 5 (pagina 6 bevat enkel het einde van vraag 8 en het begin van vraag 10).",
   "kwaliteits_flags": []

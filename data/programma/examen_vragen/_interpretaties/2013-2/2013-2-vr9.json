@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr9",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Auditmethodes: soorten",
-  "themas": ["auditstrategie", "auditmethodes", "auditbewijsmiddelen", "inspectie", "observatie", "bevraging", "herberekening"],
-
+  "themas": [
+    "auditstrategie",
+    "auditmethodes",
+    "auditbewijsmiddelen",
+    "inspectie",
+    "observatie",
+    "bevraging",
+    "herberekening"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een auditprocedure is een gedetailleerde instructie voor het verzamelen van een bepaald auditbewijsmiddel."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -26,7 +34,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige open vraag. De introductiezin over auditprocedure is context, geen apart te beantwoorden vraag. Tekst.txt is duidelijk.",
   "kwaliteits_flags": []

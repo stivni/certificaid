@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr22",
   "interpretatie_datum": "2026-05-21T10:20:00Z",
@@ -14,6 +14,9 @@
     "PB",
     "aangifte"
   ],
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
   "context_blokken": [],
   "vragen": [
     {
@@ -22,11 +25,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welke personen, omschreven in onderstaande uitspraken, kunnen niet als persoon ten laste worden beschouwd?",
       "opties": [
-        { "id": "a", "tekst": "De afstammelingen van de belastingplichtige of zijn echtgenoot, met name de kinderen of geadopteerde kinderen, kleinkinderen, achterkleinkinderen, enz." },
-        { "id": "b", "tekst": "De kinderen ten laste genomen vóór hun meerderjarigheid (met name vóór de leeftijd van 18 jaar) en die de belastingplichtige(n) die de aangifte in de PB invult(len) volledig of hoofdzakelijk ten laste heeft(hebben)." },
-        { "id": "c", "tekst": "De ouders, grootouders of overgrootouders van de belastingplichtige of zijn echtgenoot." },
-        { "id": "d", "tekst": "De kinderen die op 1 januari van het aanslagjaar deel uitmaken van het gezin van de belastingplichtige." },
-        { "id": "e", "tekst": "Het kind ten laste van een alleenstaande dat, gedurende het aanslagjaar 2013 (inkomsten 2012), niet over een maximumbedrag bruto bestaansmiddelen van 3.737,50 euro beschikt." }
+        {
+          "id": "a",
+          "tekst": "De afstammelingen van de belastingplichtige of zijn echtgenoot, met name de kinderen of geadopteerde kinderen, kleinkinderen, achterkleinkinderen, enz."
+        },
+        {
+          "id": "b",
+          "tekst": "De kinderen ten laste genomen vóór hun meerderjarigheid (met name vóór de leeftijd van 18 jaar) en die de belastingplichtige(n) die de aangifte in de PB invult(len) volledig of hoofdzakelijk ten laste heeft(hebben)."
+        },
+        {
+          "id": "c",
+          "tekst": "De ouders, grootouders of overgrootouders van de belastingplichtige of zijn echtgenoot."
+        },
+        {
+          "id": "d",
+          "tekst": "De kinderen die op 1 januari van het aanslagjaar deel uitmaken van het gezin van de belastingplichtige."
+        },
+        {
+          "id": "e",
+          "tekst": "Het kind ten laste van een alleenstaande dat, gedurende het aanslagjaar 2013 (inkomsten 2012), niet over een maximumbedrag bruto bestaansmiddelen van 3.737,50 euro beschikt."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

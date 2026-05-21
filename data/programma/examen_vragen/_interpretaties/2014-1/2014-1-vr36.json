@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr36",
   "interpretatie_datum": "2026-05-21T10:34:00Z",
@@ -14,6 +14,9 @@
     "algemeen legataris",
     "bijzonder legataris",
     "aangifte nalatenschap"
+  ],
+  "programmaonderdeel_ids": [
+    "2.6"
   ],
   "context_blokken": [
     {
@@ -41,5 +44,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Twee open deelvragen over erfrecht. tekst.txt bevat OCR-artefacten bij de tabelkop (hoedanigheidscategorieën als lopende tekst). De hoedanigheidsopties zijn gereconstrueerd op basis van de tekst. PNG pagina_02 bevestigt de tabelstructuur.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar", "ocr_artefact"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar",
+    "ocr_artefact"
+  ]
 }

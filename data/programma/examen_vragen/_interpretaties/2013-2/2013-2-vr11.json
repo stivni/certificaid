@@ -1,16 +1,23 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr11",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Onthoudende verklaring: toepassingsvoorwaarden",
-  "themas": ["controleverklaring", "onthoudende verklaring", "disclaimer of opinion", "ISA", "auditopinie", "reikwijdtebeperking"],
-
+  "themas": [
+    "controleverklaring",
+    "onthoudende verklaring",
+    "disclaimer of opinion",
+    "ISA",
+    "auditopinie",
+    "reikwijdtebeperking"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -21,7 +28,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige open definitie/procedurevraag zonder subvragen.",
   "kwaliteits_flags": []

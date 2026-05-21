@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrE1",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
@@ -14,6 +14,9 @@
     "vereffenaar",
     "VZW",
     "permanente vorming"
+  ],
+  "programmaonderdeel_ids": [
+    "2.4"
   ],
   "context_blokken": [],
   "vragen": [
@@ -52,5 +55,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "De vraag verzoekt een kruisje te plaatsen bij economische activiteiten die geen recht geven op BTW-aftrek. Vier opties gepresenteerd als aanvink-lijst — vertaald als vier juist/fout-deelvragen met de stelling 'geeft geen recht op BTW-aftrek'. OCR-artefacten (cid:137) vervangen door de eigenlijke aanvinksymbolen. PNG bevestigt de vier opties.",
-  "kwaliteits_flags": ["ocr_artefact", "typo_genormaliseerd"]
+  "kwaliteits_flags": [
+    "ocr_artefact",
+    "typo_genormaliseerd"
+  ]
 }

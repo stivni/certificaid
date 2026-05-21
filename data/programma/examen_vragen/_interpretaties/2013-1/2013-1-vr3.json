@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr3",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Activering van ontwikkelingskosten voor een prototype",
-  "themas": ["immateriële vaste activa", "ontwikkelingskosten", "activering", "afschrijving", "commerciële haalbaarheid", "prototype"],
-
+  "themas": [
+    "immateriële vaste activa",
+    "ontwikkelingskosten",
+    "activering",
+    "afschrijving",
+    "commerciële haalbaarheid",
+    "prototype"
+  ],
+  "programmaonderdeel_ids": [
+    "1.1"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt kan worden in ondermeer fabrieken voor de verplaatsing van zware goederen. Zij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten doen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf werd geproduceerd en deels bij derden werd ontwikkeld. Zij heeft hiervoor volgende kosten gehad: [niet gespecificeerd in tekst — kosten vermeld op bijlage]"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -58,8 +65,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 4. Kosten-specificatie ontbreekt in tekst.txt (vermoedelijk tabel op bijlage). Vraag a bevat 'Motiveer uw antwoord' impliciet via context; motivatie_verwacht true gezet. Deelvraag b is zelfstandig (welke kosten) — eigen inhoud.",
-  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2008-bibf",
   "vraag_id": "2008-bibf-vrF1",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
@@ -14,6 +14,9 @@
     "enige woning",
     "erfenis",
     "onroerende goederen"
+  ],
+  "programmaonderdeel_ids": [
+    "2.2"
   ],
   "context_blokken": [
     {

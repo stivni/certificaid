@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr2",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Jaarrekening: bestuurdersvermelding en afschrijvingspercentage-wijziging",
-  "themas": ["jaarrekening", "bestuurders", "afschrijvingen", "economische levensduur", "openbaarmaking", "prospectief"],
-
+  "themas": [
+    "jaarrekening",
+    "bestuurders",
+    "afschrijvingen",
+    "economische levensduur",
+    "openbaarmaking",
+    "prospectief"
+  ],
+  "programmaonderdeel_ids": [
+    "1.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -36,8 +43,10 @@
       "topic_only_onderwerp": null
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt is onvolledig — enkel de subvraag-beschrijvingen zijn zichtbaar, de antwoordopties ontbreken in de tekst. PNG toont dat dit MC-vragen zijn (kruisjes in tabel), maar de antwoordopties zijn niet volledig leesbaar in de tekst. Verwerkt als open vragen (fragment) gezien de ontbrekende keuze-opties. De PNG toont dezelfde pagina als vr1 (startpagina), niet de juiste pagina met vr2-inhoud — OCR-probleem.",
-  "kwaliteits_flags": ["ocr_artefact", "subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "ocr_artefact",
+    "subvraag_zonder_inhoud"
+  ]
 }

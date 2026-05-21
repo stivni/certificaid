@@ -1,14 +1,21 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr22",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Fiscale gevolgen van een fout geboekte aankoopfactuur op voorraadwaardering",
-  "themas": ["vennootschapsbelasting", "voorraadwaardering", "fiscale controle", "kostprijs verkochte goederen", "belastbare grondslag"],
-
+  "themas": [
+    "vennootschapsbelasting",
+    "voorraadwaardering",
+    "fiscale controle",
+    "kostprijs verkochte goederen",
+    "belastbare grondslag"
+  ],
+  "programmaonderdeel_ids": [
+    "2.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -18,21 +25,48 @@
       "type": "gegevens_tabel",
       "titel": "Voorraadgegevens 2012",
       "rijen": [
-        { "label": "Beginvoorraad", "bedrag": 265 },
-        { "label": "Aantal aangekochte producten", "bedrag": 1810 },
-        { "label": "Aantal verkochte producten", "bedrag": 1775 },
-        { "label": "Eindvoorraad (stuks)", "bedrag": 280 },
-        { "label": "Aankoopprijs per stuk (EUR)", "bedrag": 200 },
-        { "label": "Verkoopprijs per stuk (EUR)", "bedrag": 250 }
+        {
+          "label": "Beginvoorraad",
+          "bedrag": 265
+        },
+        {
+          "label": "Aantal aangekochte producten",
+          "bedrag": 1810
+        },
+        {
+          "label": "Aantal verkochte producten",
+          "bedrag": 1775
+        },
+        {
+          "label": "Eindvoorraad (stuks)",
+          "bedrag": 280
+        },
+        {
+          "label": "Aankoopprijs per stuk (EUR)",
+          "bedrag": 200
+        },
+        {
+          "label": "Verkoopprijs per stuk (EUR)",
+          "bedrag": 250
+        }
       ]
     },
     {
       "type": "gegevens_tabel",
       "titel": "Resultatenrekening zoals geboekt",
       "rijen": [
-        { "label": "Omzet (1.775 stuks x € 250)", "bedrag": 443750 },
-        { "label": "Kostprijs verkochte goederen (265 + 1810 - 280) x € 200", "bedrag": -359000 },
-        { "label": "Brutowinst", "bedrag": 84750 }
+        {
+          "label": "Omzet (1.775 stuks x € 250)",
+          "bedrag": 443750
+        },
+        {
+          "label": "Kostprijs verkochte goederen (265 + 1810 - 280) x € 200",
+          "bedrag": -359000
+        },
+        {
+          "label": "Brutowinst",
+          "bedrag": 84750
+        }
       ]
     },
     {
@@ -40,7 +74,6 @@
       "tekst": "Naar aanleiding van het fiscale onderzoek over boekjaar 2012 stelt de controledienst vast dat de bvba een aankoopfactuur voor 20 producten heeft geboekt onder haar aankopen, terwijl de producten pas tijdens het volgende boekjaar 2013 door de leverancier werden geleverd. Aangezien die 20 producten niet zijn geteld op 31.12.2012, zijn zij niet opgenomen in de inventaris."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -51,8 +84,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. Enkelvoudige vraag over fiscale gevolgen van een fout geboekte factuur. Alle cijfergegevens gestructureerd als gegevens_tabellen.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

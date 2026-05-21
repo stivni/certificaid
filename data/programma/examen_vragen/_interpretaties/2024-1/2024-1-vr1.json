@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr1",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
@@ -16,6 +16,9 @@
     "ontbinding",
     "vereffening",
     "uittreding"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
   ],
   "context_blokken": [
     {
@@ -46,10 +49,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Vennootschap verliest rechtspersoonlijkheid:",
       "opties": [
-        { "id": "a", "tekst": "Bij ontbinding" },
-        { "id": "b", "tekst": "Bij publicatie van de ontbinding" },
-        { "id": "c", "tekst": "Bij de afsluit van de vereffening" },
-        { "id": "d", "tekst": "Bij akkoord van de vennoten" }
+        {
+          "id": "a",
+          "tekst": "Bij ontbinding"
+        },
+        {
+          "id": "b",
+          "tekst": "Bij publicatie van de ontbinding"
+        },
+        {
+          "id": "c",
+          "tekst": "Bij de afsluit van de vereffening"
+        },
+        {
+          "id": "d",
+          "tekst": "Bij akkoord van de vennoten"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -60,10 +75,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Bij welke rechtsvormen kunnen de uittreding/uitsluiting van een aandeelhouder statutair worden geregeld?",
       "opties": [
-        { "id": "a", "tekst": "BV en CV" },
-        { "id": "b", "tekst": "Alle behalve NV" },
-        { "id": "c", "tekst": "Alle behalve NV en BV" },
-        { "id": "d", "tekst": "NV, BV en CV" }
+        {
+          "id": "a",
+          "tekst": "BV en CV"
+        },
+        {
+          "id": "b",
+          "tekst": "Alle behalve NV"
+        },
+        {
+          "id": "c",
+          "tekst": "Alle behalve NV en BV"
+        },
+        {
+          "id": "d",
+          "tekst": "NV, BV en CV"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -71,5 +98,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment uit ITAA 2024 schriftelijk examen, onderdeel 'Vennootschapsrecht'. Vier deelvragen onder dit thema: A en B zijn open vragen in trefwoord-vorm (fragment-niveau — exacte vraagstelling onbekend, alleen het topic is bewaard zoals de student het herinnerde). C en D zijn complete MC-vragen met 4 opties elk. Geen modelantwoord aanwezig.",
-  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
 }

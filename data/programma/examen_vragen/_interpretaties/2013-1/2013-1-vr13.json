@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr13",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Interne controlemaatregelen bij vastgestelde onregelmatigheden door boekhouder",
-  "themas": ["interne controle", "fraude", "boekhouder", "functiescheiding", "onregelmatigheden", "maatregelen"],
-
+  "themas": [
+    "interne controle",
+    "fraude",
+    "boekhouder",
+    "functiescheiding",
+    "onregelmatigheden",
+    "maatregelen"
+  ],
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "NV SLA-BAK is een kleine onderneming met goede resultaten.\n\nDe boekhouder valt vrij plots ziek en hij zal gedurende langere tijd afwezig zijn. De bedrijfsleider wil tussentijdse cijfers en vraagt aan een extern accountant om een tussentijdse staat van activa en passiva op te stellen.\n\nDe externe accountant gaat over tot het opstellen van de tussentijdse staat en om de vorderingen op klanten te controleren, en vraagt aan een selectie van klanten om de openstaande saldi te confirmeren. Meerdere klanten waarvan men dacht dat ze nog geld moesten aan de onderneming, beweerden al betaald te hebben. Na bijkomende controle blijkt, dat de boekhouder een aantal betalingen had gebruikt om saldi van andere klanten aan te zuiveren. Hij kon dit doen aangezien de betalingen per cheque gebeurden. Het komt erop neer dat de boekhouder zichzelf een quasi permanent voorschot heeft bezorgd van ca. € 80.000.\n\nBij vergelijking met de balans van het laatste jaar blijkt dat een aantal oude openstaande leveranciers-schulden voor een totaal bedrag van € 200.000 uit de boekhouding verdwenen zijn. Na verder onderzoek blijkt de boekhouder dit bedrag op zijn rekening te hebben overgemaakt.\n\nNa een substantieel onderzoek wordt vastgesteld dat gedurende het laatste semester een groot aantal creditnota's was opgesteld voor relatief kleine bedragen voor bepaalde klanten. Deze creditnota's waren opgesteld door de boekhouder en uitbetaald op zijn bankrekening.\n\nVerder komt aan het licht dat de onkostennota's van een aantal collega's uitzonderlijk hoog waren de voorbije maanden. Toen zij hierover ondervraagd werden, bleken zij hier niet van op de hoogte. Een gedetailleerde analyse toonde aan dat de boekhouder deze onkostennota's had aangepast door een cijfer toe te voegen. Opnieuw had hij zichzelf het verschil uitgekeerd.\n\nVerder belde een klant om de terugbetaling te vragen van € 27.000, die hij 6 maanden geleden per ongeluk dubbel had betaald. In eerste instantie kon hier niet op ingegaan worden aangezien er in de boekhouding geen spoor van deze dubbele betaling was terug te vinden. Inderdaad, de boekhouder had deze dubbele betaling doorgestort naar zijn bankrekening."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -26,7 +33,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 7. Complexe casus met meerdere fraudegevallen. De vraag vraagt om 5 gevallen te beschrijven met probleem en maatregel. Eén deelvraag die meerdere deelantwoorden vereist. Casus_context tekst opgedeeld in 6 alinea's conform PDF-lay-out (lege regels tussen scene-breaks) — geen expliciete nummering of 'Vaststelling N'-labels, want de student moet de gevallen zelf identificeren uit het verhaal (§4.4bis).",
   "kwaliteits_flags": []

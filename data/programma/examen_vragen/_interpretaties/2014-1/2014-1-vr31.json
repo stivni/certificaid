@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr31",
   "interpretatie_datum": "2026-05-21T10:29:00Z",
@@ -14,6 +14,9 @@
     "curator",
     "vervoer van goederen"
   ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -27,11 +30,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Duid de goede oplossing aan.",
       "opties": [
-        { "id": "a", "tekst": "De btw is niet van toepassing want de kopers oefenen een economische activiteit uit en hebben een geldig btw-nummer." },
-        { "id": "b", "tekst": "De btw is niet van toepassing want de leverancier is failliet verklaard." },
-        { "id": "c", "tekst": "De btw is niet van toepassing want de goederen werden verkocht bij openbaar opbod en niet bij een onderhands contract." },
-        { "id": "d", "tekst": "De btw is van toepassing in België want de verkoper is in België gevestigd en de plaats van de levering is bij aankomst van het vervoer van de goederen naar de koper." },
-        { "id": "e", "tekst": "De btw is van toepassing in België want de verkoper is gevestigd in België en de plaats van de levering is bij vertrek van het vervoer." }
+        {
+          "id": "a",
+          "tekst": "De btw is niet van toepassing want de kopers oefenen een economische activiteit uit en hebben een geldig btw-nummer."
+        },
+        {
+          "id": "b",
+          "tekst": "De btw is niet van toepassing want de leverancier is failliet verklaard."
+        },
+        {
+          "id": "c",
+          "tekst": "De btw is niet van toepassing want de goederen werden verkocht bij openbaar opbod en niet bij een onderhands contract."
+        },
+        {
+          "id": "d",
+          "tekst": "De btw is van toepassing in België want de verkoper is in België gevestigd en de plaats van de levering is bij aankomst van het vervoer van de goederen naar de koper."
+        },
+        {
+          "id": "e",
+          "tekst": "De btw is van toepassing in België want de verkoper is gevestigd in België en de plaats van de levering is bij vertrek van het vervoer."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr34",
   "interpretatie_datum": "2026-05-21T10:32:00Z",
@@ -15,6 +15,9 @@
     "Groot-Brittannië",
     "verlegging heffing"
   ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -28,11 +31,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Duid de goede oplossing aan.",
       "opties": [
-        { "id": "a", "tekst": "Er is geen Belgische btw van toepassing, want de klant is een buitenlandse onderneming die in elk geval recht op aftrek zou hebben van de btw die haar door haar leverancier wordt aangerekend." },
-        { "id": "b", "tekst": "De Belgische btw is niet van toepassing want het betreft een kosteloos verspreid huis-aan-huisreclameblad en er bestaat een vrijstellingsregime voor kranten." },
-        { "id": "c", "tekst": "De btw is van toepassing in België, want de dienstverrichter is gevestigd in België." },
-        { "id": "d", "tekst": "De btw is van toepassing in België, want de publicatie van de advertentie is in een Belgische krant." },
-        { "id": "e", "tekst": "De btw is van toepassing in Groot-Brittannië, want de afnemer van de dienst is gevestigd in Groot-Brittannië en heeft daar een geldig btw-nummer." }
+        {
+          "id": "a",
+          "tekst": "Er is geen Belgische btw van toepassing, want de klant is een buitenlandse onderneming die in elk geval recht op aftrek zou hebben van de btw die haar door haar leverancier wordt aangerekend."
+        },
+        {
+          "id": "b",
+          "tekst": "De Belgische btw is niet van toepassing want het betreft een kosteloos verspreid huis-aan-huisreclameblad en er bestaat een vrijstellingsregime voor kranten."
+        },
+        {
+          "id": "c",
+          "tekst": "De btw is van toepassing in België, want de dienstverrichter is gevestigd in België."
+        },
+        {
+          "id": "d",
+          "tekst": "De btw is van toepassing in België, want de publicatie van de advertentie is in een Belgische krant."
+        },
+        {
+          "id": "e",
+          "tekst": "De btw is van toepassing in Groot-Brittannië, want de afnemer van de dienst is gevestigd in Groot-Brittannië en heeft daar een geldig btw-nummer."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

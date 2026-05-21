@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr14",
   "interpretatie_datum": "2026-05-21T10:12:00Z",
@@ -14,6 +14,9 @@
     "controledoelstellingen",
     "afloopcontrole",
     "bezoldigingen en sociale lasten"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
   ],
   "context_blokken": [
     {
@@ -57,5 +60,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vier open deelvragen. tekst.txt bevat wat OCR-artefacten (tussentitels als losse zinnen, bold-rendering van deelcasus-elementen). Deelvraag a bevat een impliciete redenering (volkomen controle vereist maar staat per 31/12/2013 ontvangen op 20/02 door interne boekhouder), vandaar motivatie_verwacht: true.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

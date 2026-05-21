@@ -62,9 +62,9 @@ Per examen-PDF wordt elke vraag in twee vormen geïsoleerd:
 
 PNGs **niet in git** standaard (gitignore `_segmenten/**/*.png`); regenereerbaar via `python3 -m tools.examen.isoleer_vragen --examen 2014-1`. Tekst en meta wél in git zodat de agent-input volledig versioneerbaar is zonder repo-bloat.
 
-### 3. Vraag-interpretatie-schema v1.1 (LLM, lokaal subagent)
+### 3. Vraag-interpretatie-schema v1.2 (LLM, lokaal subagent)
 
-Permanent artefact: `prompts/vraag-interpretatie-v1.md` (v1.1, 2026-05-21 — vervangt v1.0 op basis van POC-feedback).
+Permanent artefact: `prompts/vraag-interpretatie-v1.md` (v1.1 schema-shape, 2026-05-21 — POC-feedback verwerkt). Schema-bump v1.1 → v1.2 (2026-05-21) is additief: één nieuw veld `programmaonderdeel_ids: [string]` (1, max 2 PO-codes) op interpretatie-niveau, ingevuld via aparte classificatie-pass (`prompts/po-classificatie-v1.md`).
 
 **Conceptueel model**:
 - Top-niveau is **één PDF-vraag-eenheid** (zoals "Vraag 3 / 8 punten" — wat ITAA waardeert). Houdt `vraag_id`.
@@ -90,9 +90,10 @@ Permanent artefact: `prompts/vraag-interpretatie-v1.md` (v1.1, 2026-05-21 — ve
 
 ```json
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr10",
+  "programmaonderdeel_ids": ["1.3"],
   "interpretatie_datum": "2026-05-21T...",
   "interpretatie_model": "claude-opus-4-7",
   "vraag_herkomst": "officieel | herinnering | hybride",

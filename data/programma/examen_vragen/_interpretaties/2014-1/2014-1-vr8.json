@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr8",
   "interpretatie_datum": "2026-05-21T10:06:00Z",
@@ -14,6 +14,9 @@
     "groepsstructuur",
     "volledige consolidatie",
     "vermogensmutatiemethode"
+  ],
+  "programmaonderdeel_ids": [
+    "1.4"
   ],
   "context_blokken": [
     {
@@ -33,5 +36,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Open invuloefening met tabelstructuur. PNG pagina_07 toont het groepsschema duidelijk: M→A (70%), M→B (30%), A→B (60%), B→C (20%). De antwoordtabel heeft kolommen CONTROLEPERCENTAGE, BELANGENPERCENTAGE, CONSOLIDATIEMETHODE voor de relaties M in A, M in B en M in C. Dit is één geïntegreerde open deelvraag. Pagina's 8-12 bevatten de andere vragen van het examen.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

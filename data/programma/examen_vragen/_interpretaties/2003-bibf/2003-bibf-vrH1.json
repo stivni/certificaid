@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrH1",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
@@ -12,6 +12,9 @@
     "BTW-procedures",
     "belastingprocedure"
   ],
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
   "context_blokken": [],
   "vragen": [
     {
@@ -20,10 +23,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Binnen welke termijn dient een BTW-inregelstelling ingediend te worden?",
       "opties": [
-        {"id": "a", "tekst": "Er is geen enkele termijn voor zover de wettelijke verjaringstermijn niet verstreken is."},
-        {"id": "b", "tekst": "Op straffe van verval binnen de 3 kalendermaanden vanaf de invorderingstermijn."},
-        {"id": "c", "tekst": "Ten laatste aan het einde van de derde burgerlijke maand die volgt op de betekening van het dwangbevel."},
-        {"id": "d", "tekst": "Binnen de 30 dagen vanaf de datum van het overzicht van de regularisaties."}
+        {
+          "id": "a",
+          "tekst": "Er is geen enkele termijn voor zover de wettelijke verjaringstermijn niet verstreken is."
+        },
+        {
+          "id": "b",
+          "tekst": "Op straffe van verval binnen de 3 kalendermaanden vanaf de invorderingstermijn."
+        },
+        {
+          "id": "c",
+          "tekst": "Ten laatste aan het einde van de derde burgerlijke maand die volgt op de betekening van het dwangbevel."
+        },
+        {
+          "id": "d",
+          "tekst": "Binnen de 30 dagen vanaf de datum van het overzicht van de regularisaties."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -31,5 +46,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "MC-vraag met 4 opties. OCR-artefacten (cid:137) vervangen door de opties zoals zichtbaar op de PNG. Optie c bevat 'dwangbevel' — conform PNG correct overgenomen.",
-  "kwaliteits_flags": ["ocr_artefact", "typo_genormaliseerd"]
+  "kwaliteits_flags": [
+    "ocr_artefact",
+    "typo_genormaliseerd"
+  ]
 }

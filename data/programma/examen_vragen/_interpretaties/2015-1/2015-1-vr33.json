@@ -1,14 +1,22 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr33",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille",
-  "themas": ["vennootschapsbelasting", "belastbaar resultaat", "DBI-aftrek", "verlaagd tarief", "fiscaal overgedragen verlies", "meerwaarden effecten"],
-
+  "themas": [
+    "vennootschapsbelasting",
+    "belastbaar resultaat",
+    "DBI-aftrek",
+    "verlaagd tarief",
+    "fiscaal overgedragen verlies",
+    "meerwaarden effecten"
+  ],
+  "programmaonderdeel_ids": [
+    "2.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -18,13 +26,21 @@
       "type": "gegevens_tabel",
       "titel": "Beleggingsportefeuille per 31 december 2013",
       "rijen": [
-        { "label": "Aandelen ING: aanschaf 15/02/2011, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 13.000, verkoopkosten 250", "bedrag": null },
-        { "label": "Obligaties X: aanschaf 31/01/2013, aanschaffingswaarde 100.000, aankoopkosten 1.000, verkoop 15/05/2013 voor 120.000, verkoopkosten 1.200", "bedrag": null },
-        { "label": "Aandelen BNP Paribas: aanschaf 31/01/2013, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 12.000, verkoopkosten 200", "bedrag": null }
+        {
+          "label": "Aandelen ING: aanschaf 15/02/2011, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 13.000, verkoopkosten 250",
+          "bedrag": null
+        },
+        {
+          "label": "Obligaties X: aanschaf 31/01/2013, aanschaffingswaarde 100.000, aankoopkosten 1.000, verkoop 15/05/2013 voor 120.000, verkoopkosten 1.200",
+          "bedrag": null
+        },
+        {
+          "label": "Aandelen BNP Paribas: aanschaf 31/01/2013, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 12.000, verkoopkosten 200",
+          "bedrag": null
+        }
       ]
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -43,8 +59,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Vennootschapsbelasting'. Twee open berekeningsvragen. Deelvraag b vraagt expliciet een tabel van tarieven × belastbare bedragen.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

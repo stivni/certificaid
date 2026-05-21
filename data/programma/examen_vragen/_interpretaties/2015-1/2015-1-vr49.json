@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr49",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "OESO-modelverdrag: juist/niet waar stellingen over internationale belastingregels",
-  "themas": ["OESO-modelverdrag", "dubbelbelastingverdrag", "inwoner", "vaste inrichting", "pensioen ambtenaar", "onroerende inkomsten", "verrekenprijzen"],
-
+  "themas": [
+    "OESO-modelverdrag",
+    "dubbelbelastingverdrag",
+    "inwoner",
+    "vaste inrichting",
+    "pensioen ambtenaar",
+    "onroerende inkomsten",
+    "verrekenprijzen"
+  ],
+  "programmaonderdeel_ids": [
+    "2.8"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Vraag 1 van de sectie 'Beginselen van Europees en internationaal fiscaal recht'. Beantwoord de vragen met 'waar' of 'niet waar' op basis van de OESO-modelovereenkomst naar inkomen en vermogen."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -66,7 +74,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Beginselen van Europees en internationaal fiscaal recht'. Zes juist/niet-waar-stellingen over OESO-modelovereenkomst.",
   "kwaliteits_flags": []

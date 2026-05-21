@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr26",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "BTW-gevolgen: gebouw opslagplaats, personenwagen terbeschikkingstelling, verkoop tweedehandswagen",
-  "themas": ["btw", "onroerend goed", "herzieningstermijn", "personenwagen", "recht op aftrek", "privégebruik", "verkoop tweedehandswagen"],
-
+  "themas": [
+    "btw",
+    "onroerend goed",
+    "herzieningstermijn",
+    "personenwagen",
+    "recht op aftrek",
+    "privégebruik",
+    "verkoop tweedehandswagen"
+  ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Welke btw-gevolgen zijn verbonden aan de onderstaande gegevens: Geef hierbij een woordje uitleg (geen verwijzing naar artikelnummers) en vermeld de overeenkomstige bedragen. De nummers van de roosters van de btw-aangifte moet je niet vermelden."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -42,7 +50,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 3. Tekst.txt bevat het woord 'Antwoord' tussen deelvragen — dit zijn antwoordruimten, geen vragen. Deelvraag c bevat in de tekst de berekening '6.300 x 50% = 3.150' als onderdeel van de vraagstelling (gegeven, niet antwoord).",
   "kwaliteits_flags": []

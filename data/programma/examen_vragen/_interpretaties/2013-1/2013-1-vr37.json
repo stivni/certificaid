@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr37",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Termijn voor toezending controleverslag aan instituut: vereffening en omvorming",
-  "themas": ["controleverslag", "vereffening", "omvorming", "toezending instituut", "termijn", "externe accountant", "vennootschapswet"],
-
+  "themas": [
+    "controleverslag",
+    "vereffening",
+    "omvorming",
+    "toezending instituut",
+    "termijn",
+    "externe accountant",
+    "vennootschapswet"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Wanneer een externe accountant een door de vennootschapswet opgelegd en openbaar te maken controleverslag opstelt, dient hij hiervan een kopie over te maken aan het instituut."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -34,8 +42,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Dit segment beslaat pagina's 7-25. De vraag zelf staat op pagina 25 (bevestigd via PNG). Pagina's 7-24 zijn bijlagen (balansen, resultatenrekeningen) die bij andere vragen horen. De vraag over vereffening/omvorming is volledig leesbaar uit tekst.txt.",
-  "kwaliteits_flags": ["pagina_overslaat"]
+  "kwaliteits_flags": [
+    "pagina_overslaat"
+  ]
 }

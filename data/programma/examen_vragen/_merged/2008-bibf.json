@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2008-bibf.pdf",
   "examen_id": "2008-bibf",
-  "merge_datum": "2026-05-21T01:29:11+00:00",
+  "merge_datum": "2026-05-21T08:50:02+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -82,7 +82,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-opus-4-7",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "vakantiegeld",
           "afsluitingsboekingen",
@@ -140,7 +143,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "aankoopfactuur",
           "periodiciteit",
@@ -233,7 +239,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "voorraden",
           "grondstoffen",
@@ -285,7 +294,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "oprichtingskosten",
           "personenwagen",
@@ -344,7 +356,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "groepsvennootschappen",
           "deelnemingen",
@@ -395,7 +410,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "jaarrekening schema",
           "kleine vennootschap",
@@ -455,7 +473,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "commissaris",
           "ereloon",
@@ -514,7 +535,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "sociale balans",
           "personeelsopleiding",
@@ -560,7 +584,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.9"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "behoefte aan bedrijfskapitaal",
           "werkkapitaal",
@@ -627,7 +654,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.9"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "cashflow",
           "investeringskrediet",
@@ -678,7 +708,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "zelfstandige",
           "horeca",
@@ -730,7 +763,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "voorschotfactuur",
           "BTW factureringsplicht",
@@ -789,7 +825,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "BTW regime",
           "forfaitair regime",
@@ -846,7 +885,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "BTW aangifte",
           "periodieke aangifte",
@@ -932,7 +974,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "BTW aftrek",
           "verjaring recht op aftrek",
@@ -1014,7 +1059,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "hypothecaire lening",
           "intrestaftrek",
@@ -1080,7 +1128,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "onroerend inkomen",
           "kadastraal inkomen",
@@ -1164,7 +1215,10 @@
           "antwoord_hint_aanwezig",
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "dienstencheques",
           "belastingvermindering",
@@ -1221,7 +1275,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "scheiding van goederen",
           "hypothecaire lening",
@@ -1267,7 +1324,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "belastbaar tijdperk",
           "inkomsten van arbeid",
@@ -1331,7 +1391,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "vrijgesteld inkomen",
           "sociaal voordeel",
@@ -1395,7 +1458,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "aftrekbare besteding",
           "beschermde eigendommen",
@@ -1565,7 +1631,10 @@
           "subvraag_zonder_inhoud",
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.3"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "vennootschapsbelasting",
           "belastbare basis",
@@ -1619,7 +1688,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.5"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "bezwaar",
           "personenbelasting",
@@ -1673,7 +1745,10 @@
           "antwoord_hint_aanwezig",
           "typo_genormaliseerd"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.5"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "belasting op tekenen en indiciën",
           "vermogensaanwas",
@@ -1730,7 +1805,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.6"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "schenking",
           "effecten op naam",
@@ -1799,7 +1877,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "NV",
           "kapitaalverhoging",
@@ -1853,7 +1934,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "financieel plan",
           "oprichting vennootschap",
@@ -1921,7 +2005,10 @@
         "kwaliteits_flags": [
           "typo_genormaliseerd"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "BVBA",
           "zaakvoerder",
@@ -1967,7 +2054,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "gerechtelijk akkoord",
           "burgerlijke vennootschap",
@@ -2013,7 +2103,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "BVBA",
           "NV",
@@ -2079,7 +2172,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "ontslag om dringende reden",
           "arbeidsovereenkomst",
@@ -2146,7 +2242,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "onverenigbaarheid",
           "erkend boekhouder BIBF",
@@ -2203,7 +2302,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "deontologie",
           "klantenwerving",
@@ -2270,7 +2372,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "dossieroverdracht",
           "plichtenleer BIBF",
@@ -2336,7 +2441,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "tuchtstraf",
           "schorsing BIBF",
@@ -2403,7 +2511,10 @@
         "kwaliteits_flags": [
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "boekhoudvennootschap",
           "BIBF",

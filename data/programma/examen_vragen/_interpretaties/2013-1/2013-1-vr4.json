@@ -1,14 +1,22 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr4",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Berekening van financiële ratio's op basis van de jaarrekening",
-  "themas": ["nettobedrijfskapitaal", "brutoverkoopmarge", "personeelskosten", "toegevoegde waarde", "financiële ratio's", "jaarrekening analyse"],
-
+  "themas": [
+    "nettobedrijfskapitaal",
+    "brutoverkoopmarge",
+    "personeelskosten",
+    "toegevoegde waarde",
+    "financiële ratio's",
+    "jaarrekening analyse"
+  ],
+  "programmaonderdeel_ids": [
+    "1.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -18,13 +26,21 @@
       "type": "gegevens_tabel",
       "titel": "Bijkomende informatie uit toelichting",
       "rijen": [
-        { "label": "Investeringen in materiële vaste activa tijdens het boekjaar", "bedrag": 451692.38 },
-        { "label": "Kapitaalsubsidies aangerekend op de resultatenrekening", "bedrag": 56498.19 },
-        { "label": "Andere exploitatiesubsidies ontvangen", "bedrag": 0 }
+        {
+          "label": "Investeringen in materiële vaste activa tijdens het boekjaar",
+          "bedrag": 451692.38
+        },
+        {
+          "label": "Kapitaalsubsidies aangerekend op de resultatenrekening",
+          "bedrag": 56498.19
+        },
+        {
+          "label": "Andere exploitatiesubsidies ontvangen",
+          "bedrag": 0
+        }
       ]
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -51,7 +67,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "De balans en resultatenrekening bevinden zich in bijlage (niet in dit segment). Toelichting-gegevens staan in de vraagstelling. Te bestemmen winst werd integraal gereserveerd. motivatie_verwacht true omdat de vraag expliciet vraagt om de gebruikte cijfers te vermelden als motivatie.",
   "kwaliteits_flags": []

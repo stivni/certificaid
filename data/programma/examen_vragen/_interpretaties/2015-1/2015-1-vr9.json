@@ -1,16 +1,24 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr9",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Begripsomschrijving financiële analyse: intrinsieke waarde, fractiewaarde, rendabiliteit, schuldgraad, operationele cash flow",
-  "themas": ["intrinsieke waarde", "fractiewaarde", "netto rendabiliteit bedrijfsactiva", "algemene schuldgraad", "operationele cash flow", "financiële analyse", "begripsomschrijving"],
-
+  "themas": [
+    "intrinsieke waarde",
+    "fractiewaarde",
+    "netto rendabiliteit bedrijfsactiva",
+    "algemene schuldgraad",
+    "operationele cash flow",
+    "financiële analyse",
+    "begripsomschrijving"
+  ],
+  "programmaonderdeel_ids": [
+    "1.3"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -53,7 +61,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 2 van de sectie 'Analyse en kritische beoordeling'. Vijf open begripsomschrijvingen. Tekst.txt is beknopt maar de deelvragen zijn volledig leesbaar.",
   "kwaliteits_flags": []

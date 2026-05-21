@@ -1,14 +1,23 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr20",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Berekening stopzettingsmeerwaarden en aanslagvoet bij overlating handelszaak",
-  "themas": ["stopzettingsmeerwaarden", "personenbelasting", "overlating handelszaak", "aanslagvoet", "gebouw", "bestelwagen", "cliënteel"],
-
+  "themas": [
+    "stopzettingsmeerwaarden",
+    "personenbelasting",
+    "overlating handelszaak",
+    "aanslagvoet",
+    "gebouw",
+    "bestelwagen",
+    "cliënteel"
+  ],
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -18,26 +27,55 @@
       "type": "gegevens_tabel",
       "titel": "Verkoopprijs per bestanddeel",
       "rijen": [
-        { "label": "Verkoopprijs machines", "bedrag": 50000 },
-        { "label": "Verkoopprijs gebouw (volledig gebouw)", "bedrag": 800000 },
-        { "label": "Waarvan terrein", "bedrag": 200000 },
-        { "label": "Verkoopprijs bestelwagen", "bedrag": 25000 },
-        { "label": "Verkoopprijs cliënteel", "bedrag": 300000 }
+        {
+          "label": "Verkoopprijs machines",
+          "bedrag": 50000
+        },
+        {
+          "label": "Verkoopprijs gebouw (volledig gebouw)",
+          "bedrag": 800000
+        },
+        {
+          "label": "Waarvan terrein",
+          "bedrag": 200000
+        },
+        {
+          "label": "Verkoopprijs bestelwagen",
+          "bedrag": 25000
+        },
+        {
+          "label": "Verkoopprijs cliënteel",
+          "bedrag": 300000
+        }
       ]
     },
     {
       "type": "gegevens_tabel",
       "titel": "Winst tijdens de laatste jaren",
       "rijen": [
-        { "label": "2011", "bedrag": 35242 },
-        { "label": "2010", "bedrag": 17771 },
-        { "label": "2009", "bedrag": 28861 },
-        { "label": "2008", "bedrag": 30367 },
-        { "label": "2007", "bedrag": 21784 }
+        {
+          "label": "2011",
+          "bedrag": 35242
+        },
+        {
+          "label": "2010",
+          "bedrag": 17771
+        },
+        {
+          "label": "2009",
+          "bedrag": 28861
+        },
+        {
+          "label": "2008",
+          "bedrag": 30367
+        },
+        {
+          "label": "2007",
+          "bedrag": 21784
+        }
       ]
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -48,7 +86,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. Enkelvoudige berekeningsvraag. Alle gegevens staan in de casus. Commissieloon bemiddelaar is relevant voor netto-ontvangst maar niet voor bruto-meerwaarden. De 50/50-verhouding beroep/privé en de aankoopprijs 1985 zijn relevant voor de berekening per bestanddeel.",
   "kwaliteits_flags": []

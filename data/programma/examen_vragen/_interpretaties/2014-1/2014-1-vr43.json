@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr43",
   "interpretatie_datum": "2026-05-21T10:41:00Z",
@@ -14,6 +14,9 @@
     "onafhankelijkheid",
     "publiciteit",
     "tarieven"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
   ],
   "context_blokken": [
     {
@@ -57,5 +60,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vier open deelvragen over deontologische intredeprocedure. tekst.txt bevat OCR-artefacten (fragmenten van de casus-beschrijvingen als losse zinnen); gereconstrueerd op basis van de subvraag-labels en de tekst-context. Alle vier deelvragen vragen een toelichting, vandaar motivatie_verwacht: true.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

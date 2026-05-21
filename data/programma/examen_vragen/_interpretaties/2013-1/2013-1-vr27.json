@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr27",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Registratierechten: verplichte registratie, verantwoordelijke, termijn en belastbare grondslag",
-  "themas": ["registratierechten", "onroerend goed", "akte registratie", "belastbare grondslag", "termijn registratie", "notariële akte"],
-
+  "themas": [
+    "registratierechten",
+    "onroerend goed",
+    "akte registratie",
+    "belastbare grondslag",
+    "termijn registratie",
+    "notariële akte"
+  ],
+  "programmaonderdeel_ids": [
+    "2.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De heer Vandenbroucke, wonende in Nederland, verkoopt aan mevrouw Leroy, wonende in België, een in Leuven gelegen gemeubileerd appartement (mevrouw Leroy is al eigenaar van het appartement en wil er een duplex van maken). De optredende notaris is meester Vandewielen, notaris te Amsterdam. De akte wordt verleden op 17 december 2012. De verkoopprijs: € 300.000, waarvan € 25.000 voor het meubilair. De akte bevat volgende vermeldingen: (1) de verkoopwaarde van het appartement bedraagt € 250.000; (2) mw. Leroy is gehouden tot betaling van het ereloon van de notaris ten bedrage van € 5.000; (3) mw. Leroy is gehouden tot betaling van de achterstallige lasten van de mede-eigendom die van de heer Vandenbroucke worden gevorderd en tot op heden onbetaald gebleven zijn, ten bedrage van € 3.000."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,9 +30,18 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Moet die akte in België worden geregistreerd?",
       "opties": [
-        { "id": "a", "tekst": "Ja, het is verplicht" },
-        { "id": "b", "tekst": "Neen, het is niet nodig" },
-        { "id": "c", "tekst": "De registratie is een facultatieve formaliteit, maar wordt aanbevolen omdat ze in België een zekere datum verschaft" }
+        {
+          "id": "a",
+          "tekst": "Ja, het is verplicht"
+        },
+        {
+          "id": "b",
+          "tekst": "Neen, het is niet nodig"
+        },
+        {
+          "id": "c",
+          "tekst": "De registratie is een facultatieve formaliteit, maar wordt aanbevolen omdat ze in België een zekere datum verschaft"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -36,11 +52,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Indien ja, wie is ertoe gehouden de akte te laten registreren?",
       "opties": [
-        { "id": "a", "tekst": "Dhr. Vandenbroucke" },
-        { "id": "b", "tekst": "Mw. Leroy" },
-        { "id": "c", "tekst": "Mr. Vandewielen" },
-        { "id": "d", "tekst": "Dhr. Vandenbroucke en Mw. Leroy tezamen" },
-        { "id": "e", "tekst": "Die verantwoordelijkheid berust niet op een bepaalde persoon in het bijzonder, het voornaamste is dat de akte wordt geregistreerd." }
+        {
+          "id": "a",
+          "tekst": "Dhr. Vandenbroucke"
+        },
+        {
+          "id": "b",
+          "tekst": "Mw. Leroy"
+        },
+        {
+          "id": "c",
+          "tekst": "Mr. Vandewielen"
+        },
+        {
+          "id": "d",
+          "tekst": "Dhr. Vandenbroucke en Mw. Leroy tezamen"
+        },
+        {
+          "id": "e",
+          "tekst": "Die verantwoordelijkheid berust niet op een bepaalde persoon in het bijzonder, het voornaamste is dat de akte wordt geregistreerd."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -51,11 +82,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Zo ja, binnen welke termijn moet de akte ter registratie worden aangeboden?",
       "opties": [
-        { "id": "a", "tekst": "15 dagen" },
-        { "id": "b", "tekst": "1 maand" },
-        { "id": "c", "tekst": "2 maanden" },
-        { "id": "d", "tekst": "4 maanden" },
-        { "id": "e", "tekst": "Geen termijn voorzien" }
+        {
+          "id": "a",
+          "tekst": "15 dagen"
+        },
+        {
+          "id": "b",
+          "tekst": "1 maand"
+        },
+        {
+          "id": "c",
+          "tekst": "2 maanden"
+        },
+        {
+          "id": "d",
+          "tekst": "4 maanden"
+        },
+        {
+          "id": "e",
+          "tekst": "Geen termijn voorzien"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -66,20 +112,42 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Geef de belastbare grondslag in de registratierechten aan, indien de akte (al dan niet verplicht) voor de formaliteit van registratie wordt aangeboden.",
       "opties": [
-        { "id": "a", "tekst": "Geen, vast recht van 25 euro" },
-        { "id": "b", "tekst": "250.000 euro" },
-        { "id": "c", "tekst": "300.000 euro" },
-        { "id": "d", "tekst": "275.000 euro" },
-        { "id": "e", "tekst": "305.000 euro" },
-        { "id": "f", "tekst": "278.000 euro" },
-        { "id": "g", "tekst": "308.000 euro" }
+        {
+          "id": "a",
+          "tekst": "Geen, vast recht van 25 euro"
+        },
+        {
+          "id": "b",
+          "tekst": "250.000 euro"
+        },
+        {
+          "id": "c",
+          "tekst": "300.000 euro"
+        },
+        {
+          "id": "d",
+          "tekst": "275.000 euro"
+        },
+        {
+          "id": "e",
+          "tekst": "305.000 euro"
+        },
+        {
+          "id": "f",
+          "tekst": "278.000 euro"
+        },
+        {
+          "id": "g",
+          "tekst": "308.000 euro"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. Tekst.txt bevat MCQ-opties als lijsten met lege hokjes. Opties volledig gereconstrueerd uit de tekst. Deelvraag b heeft 5 opties waarvan de laatste een inhoudelijke stelling is. Deelvraag d heeft 7 bedragsopties.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr31",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Vrijstellingen van economische aard personenbelasting: onjuiste uitspraak",
-  "themas": ["investeringsaftrek", "vrijstellingen economische aard", "bijkomend personeel", "stage in onderneming", "gespreide investeringsaftrek", "personenbelasting"],
-
+  "themas": [
+    "investeringsaftrek",
+    "vrijstellingen economische aard",
+    "bijkomend personeel",
+    "stage in onderneming",
+    "gespreide investeringsaftrek",
+    "personenbelasting"
+  ],
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Vrijstellingen van economische aard: aftrek voor bijkomend personeel tewerkgesteld in de uitvoer en de integrale kwaliteitszorg, aftrek voor ander bijkomend personeel, aftrek voor stage in de onderneming, investeringsaftrek."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,17 +30,31 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Welke van onderstaande uitspraken is ONJUIST?",
       "opties": [
-        { "id": "a", "tekst": "Deze vrijstellingen kunnen toegepast worden ongeacht de belastingplichtige een vereenvoudigde dan wel een dubbele boekhouding voert. De aftrek van deze economische vrijstellingen is beperkt tot de resterende winst na aftrek van de beroepskosten (ze kunnen dus geen verlies tot gevolg hebben). Bij gebrek aan toereikende nettowinst is het niet-afgetrokken gedeelte van de drie eerste vrijstellingen van economische aard definitief verloren." },
-        { "id": "b", "tekst": "De vrijstelling voor ander bijkomend personeel wordt teruggenomen wanneer het totaal gemiddeld personeelsbestand tijdens het volgende jaar daalt. Om een definitief recht op de vrijstelling te verwerven, moet de tewerkstelling dus gedurende 2 jaar behouden blijven: het jaar waarvoor de toekenning wordt toegekend en het volgende jaar. Indien dit niet het geval is, moet de vrijstelling opnieuw in de belastbare winst worden opgenomen. De toegekende vrijstelling wordt echter niet teruggenomen wanneer in het jaar na dat waarin de vrijstelling werd toegekend een loonsverhoging wordt doorgevoerd die een overschrijding tot gevolg heeft van het maximumloon dat toegelaten is om voor de vrijstelling in aanmerking te komen." },
-        { "id": "c", "tekst": "Vrijstelling voor stage in de onderneming: de netto winst of baten van de werkgever worden vrijgesteld ten belope van 20% (40% vanaf 01/01/2014) van de als beroepskosten afgetrokken bezoldigingen, betaald voor de door de stagiair in het kader van zijn praktische opleiding geleverde prestaties in het jaar waarin de werkgever een stagebonus heeft bekomen." },
-        { "id": "d", "tekst": "Investeringsaftrek: de vaste activa waarvan het recht van gebruik overgedragen is aan een derde, zijn uit de investeringsaftrek gesloten. De wijze waarop dit recht is overgedragen, is niet van belang (verhuurd of kosteloos). Deze uitsluiting is niet van toepassing wanneer het recht van gebruik is overgedragen aan een andere natuurlijke persoon die deze vaste activa gebruikt om winst of baten te verwezenlijken en dit recht van gebruik, op zijn beurt, niet geheel of ten dele aan een derde overdraagt." },
-        { "id": "e", "tekst": "Gespreide investeringsaftrek: indien de onderneming op de eerste dag van het belastbare tijdperk waarin de activa zijn aangeschaft of tot stand gebracht minder dan 20 werknemers tewerkstelt, kan zij opteren voor de gespreide investeringsaftrek. Die aftrek wordt berekend door de op de betrokken investering fiscaal aanvaarde afschrijvingen met een bepaald percentage te vermenigvuldigen. Dit percentage is afhankelijk van het kalenderjaar waarin de investering is gedaan en blijft de hele afschrijvingsduur onveranderd, ongeacht het percentage voor de volgende jaren." }
+        {
+          "id": "a",
+          "tekst": "Deze vrijstellingen kunnen toegepast worden ongeacht de belastingplichtige een vereenvoudigde dan wel een dubbele boekhouding voert. De aftrek van deze economische vrijstellingen is beperkt tot de resterende winst na aftrek van de beroepskosten (ze kunnen dus geen verlies tot gevolg hebben). Bij gebrek aan toereikende nettowinst is het niet-afgetrokken gedeelte van de drie eerste vrijstellingen van economische aard definitief verloren."
+        },
+        {
+          "id": "b",
+          "tekst": "De vrijstelling voor ander bijkomend personeel wordt teruggenomen wanneer het totaal gemiddeld personeelsbestand tijdens het volgende jaar daalt. Om een definitief recht op de vrijstelling te verwerven, moet de tewerkstelling dus gedurende 2 jaar behouden blijven: het jaar waarvoor de toekenning wordt toegekend en het volgende jaar. Indien dit niet het geval is, moet de vrijstelling opnieuw in de belastbare winst worden opgenomen. De toegekende vrijstelling wordt echter niet teruggenomen wanneer in het jaar na dat waarin de vrijstelling werd toegekend een loonsverhoging wordt doorgevoerd die een overschrijding tot gevolg heeft van het maximumloon dat toegelaten is om voor de vrijstelling in aanmerking te komen."
+        },
+        {
+          "id": "c",
+          "tekst": "Vrijstelling voor stage in de onderneming: de netto winst of baten van de werkgever worden vrijgesteld ten belope van 20% (40% vanaf 01/01/2014) van de als beroepskosten afgetrokken bezoldigingen, betaald voor de door de stagiair in het kader van zijn praktische opleiding geleverde prestaties in het jaar waarin de werkgever een stagebonus heeft bekomen."
+        },
+        {
+          "id": "d",
+          "tekst": "Investeringsaftrek: de vaste activa waarvan het recht van gebruik overgedragen is aan een derde, zijn uit de investeringsaftrek gesloten. De wijze waarop dit recht is overgedragen, is niet van belang (verhuurd of kosteloos). Deze uitsluiting is niet van toepassing wanneer het recht van gebruik is overgedragen aan een andere natuurlijke persoon die deze vaste activa gebruikt om winst of baten te verwezenlijken en dit recht van gebruik, op zijn beurt, niet geheel of ten dele aan een derde overdraagt."
+        },
+        {
+          "id": "e",
+          "tekst": "Gespreide investeringsaftrek: indien de onderneming op de eerste dag van het belastbare tijdperk waarin de activa zijn aangeschaft of tot stand gebracht minder dan 20 werknemers tewerkstelt, kan zij opteren voor de gespreide investeringsaftrek. Die aftrek wordt berekend door de op de betrokken investering fiscaal aanvaarde afschrijvingen met een bepaald percentage te vermenigvuldigen. Dit percentage is afhankelijk van het kalenderjaar waarin de investering is gedaan en blijft de hele afschrijvingsduur onveranderd, ongeacht het percentage voor de volgende jaren."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 4 van de sectie 'Personenbelasting'. Enkelvoudige MC-vraag met 5 opties, kandidaat identificeert de ONJUISTE uitspraak.",
   "kwaliteits_flags": []

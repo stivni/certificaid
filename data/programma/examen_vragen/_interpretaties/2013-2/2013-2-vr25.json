@@ -1,14 +1,24 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr25",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Vennootschapsbelasting: aandelenportefeuille, DBI en belastbaar resultaat",
-  "themas": ["DBI-aftrek", "definitief belaste inkomsten", "meerwaarde aandelen", "minwaarde aandelen", "aandelenportefeuille", "vennootschapsbelasting", "belastbaar resultaat", "eigen vermogen"],
-
+  "themas": [
+    "DBI-aftrek",
+    "definitief belaste inkomsten",
+    "meerwaarde aandelen",
+    "minwaarde aandelen",
+    "aandelenportefeuille",
+    "vennootschapsbelasting",
+    "belastbaar resultaat",
+    "eigen vermogen"
+  ],
+  "programmaonderdeel_ids": [
+    "2.3"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -18,37 +28,99 @@
       "type": "gegevens_tabel",
       "titel": "Wijzigingen aandelenportefeuille boekjaar 2012",
       "rijen": [
-        { "label": "Colruyt (aanschaf 01/02/2010) — aanschafprijs", "bedrag": 15000 },
-        { "label": "Apple (aanschaf 01/03/2009) — aanschafprijs", "bedrag": 15000 },
-        { "label": "Apple — verkoopprijs (bruto) 28/02/2012", "bedrag": 20000 },
-        { "label": "Apple — kosten verkoop", "bedrag": -1000 },
-        { "label": "KBC (aanschaf 01/03/2009) — aanschafprijs", "bedrag": 10000 },
-        { "label": "KBC — verkoopprijs (bruto) 28/02/2012", "bedrag": 12000 },
-        { "label": "KBC — kosten verkoop", "bedrag": -500 },
-        { "label": "Electrabel (aanschaf 15/01/2012) — aanschafprijs", "bedrag": 10000 },
-        { "label": "Electrabel — verkoopprijs (bruto) 15/03/2012", "bedrag": 18000 },
-        { "label": "Electrabel — kosten verkoop", "bedrag": -1000 },
-        { "label": "Delhaize (aanschaf 15/01/2012) — aanschafprijs", "bedrag": 10000 },
-        { "label": "Delhaize — verkoopprijs (bruto) 15/03/2012", "bedrag": 8000 },
-        { "label": "Delhaize — kosten verkoop", "bedrag": -1000 }
+        {
+          "label": "Colruyt (aanschaf 01/02/2010) — aanschafprijs",
+          "bedrag": 15000
+        },
+        {
+          "label": "Apple (aanschaf 01/03/2009) — aanschafprijs",
+          "bedrag": 15000
+        },
+        {
+          "label": "Apple — verkoopprijs (bruto) 28/02/2012",
+          "bedrag": 20000
+        },
+        {
+          "label": "Apple — kosten verkoop",
+          "bedrag": -1000
+        },
+        {
+          "label": "KBC (aanschaf 01/03/2009) — aanschafprijs",
+          "bedrag": 10000
+        },
+        {
+          "label": "KBC — verkoopprijs (bruto) 28/02/2012",
+          "bedrag": 12000
+        },
+        {
+          "label": "KBC — kosten verkoop",
+          "bedrag": -500
+        },
+        {
+          "label": "Electrabel (aanschaf 15/01/2012) — aanschafprijs",
+          "bedrag": 10000
+        },
+        {
+          "label": "Electrabel — verkoopprijs (bruto) 15/03/2012",
+          "bedrag": 18000
+        },
+        {
+          "label": "Electrabel — kosten verkoop",
+          "bedrag": -1000
+        },
+        {
+          "label": "Delhaize (aanschaf 15/01/2012) — aanschafprijs",
+          "bedrag": 10000
+        },
+        {
+          "label": "Delhaize — verkoopprijs (bruto) 15/03/2012",
+          "bedrag": 8000
+        },
+        {
+          "label": "Delhaize — kosten verkoop",
+          "bedrag": -1000
+        }
       ]
     },
     {
       "type": "gegevens_tabel",
       "titel": "Eigen vermogen GOODLUCK",
       "rijen": [
-        { "label": "Geplaatst kapitaal (oprichting in speciën) — jaar 2012", "bedrag": 100000 },
-        { "label": "Geplaatst kapitaal (oprichting in speciën) — jaar 2011", "bedrag": 100000 },
-        { "label": "Wettelijke reserve — jaar 2012", "bedrag": 10000 },
-        { "label": "Wettelijke reserve — jaar 2011", "bedrag": 10000 },
-        { "label": "Beschikbare reserves — jaar 2012", "bedrag": 15000 },
-        { "label": "Beschikbare reserves — jaar 2011", "bedrag": 15000 },
-        { "label": "Overgedragen resultaat — jaar 2012", "bedrag": 20000 },
-        { "label": "Overgedragen resultaat — jaar 2011", "bedrag": 10000 }
+        {
+          "label": "Geplaatst kapitaal (oprichting in speciën) — jaar 2012",
+          "bedrag": 100000
+        },
+        {
+          "label": "Geplaatst kapitaal (oprichting in speciën) — jaar 2011",
+          "bedrag": 100000
+        },
+        {
+          "label": "Wettelijke reserve — jaar 2012",
+          "bedrag": 10000
+        },
+        {
+          "label": "Wettelijke reserve — jaar 2011",
+          "bedrag": 10000
+        },
+        {
+          "label": "Beschikbare reserves — jaar 2012",
+          "bedrag": 15000
+        },
+        {
+          "label": "Beschikbare reserves — jaar 2011",
+          "bedrag": 15000
+        },
+        {
+          "label": "Overgedragen resultaat — jaar 2012",
+          "bedrag": 20000
+        },
+        {
+          "label": "Overgedragen resultaat — jaar 2011",
+          "bedrag": 10000
+        }
       ]
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -59,8 +131,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige berekeningsvraag. Aandelenportefeuille-gegevens gestructureerd als gegevens_tabel. DBI-aftrek, meerwaarden en minwaarden op aandelen zijn de centrale thema's.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

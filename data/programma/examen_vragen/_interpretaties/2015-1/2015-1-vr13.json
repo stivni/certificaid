@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr13",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Controletechnieken interne audit op goederenbestand magazijn",
-  "themas": ["interne controle", "interne audit", "controletechnieken", "voorraadbeheer", "magazijn", "bewijsmateriaal"],
-
+  "themas": [
+    "interne controle",
+    "interne audit",
+    "controletechnieken",
+    "voorraadbeheer",
+    "magazijn",
+    "bewijsmateriaal"
+  ],
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De verantwoordelijke van de interne audit zal een aantal controletechnieken aanwenden om voldoende bewijsmateriaal te verzamelen over de toepassing en effectiviteit van de interne controlemaatregelen."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -26,7 +33,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 2 van de sectie 'Interne controle'. Enkelvoudige open vraag naar vier controletechnieken.",
   "kwaliteits_flags": []

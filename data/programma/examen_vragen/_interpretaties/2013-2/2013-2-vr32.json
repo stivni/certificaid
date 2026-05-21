@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr32",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Fiscale procedure: vraag om inlichtingen over een derde, regelmatigheid en termijn",
-  "themas": ["vraag om inlichtingen", "fiscale procedure", "derdenonderzoek", "antwoordtermijn", "staking", "overmacht", "WIB 1992"],
-
+  "themas": [
+    "vraag om inlichtingen",
+    "fiscale procedure",
+    "derdenonderzoek",
+    "antwoordtermijn",
+    "staking",
+    "overmacht",
+    "WIB 1992"
+  ],
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Één van uw cliënten – een verwarmingsinstallateur – ontvangt op 10 september 2013 een vraag om inlichtingen, luidende als volgt (NB: het gaat hier over een aanvraag van inlichtingen betreffende een derde):\n\"Gelieve mij de volgende inlichtingen mede te delen:\n- de volledige identiteit van al uw leveranciers bij wie u een verwarmingsketel van het type XYZ100 hebt aangekocht;\n- het aantal aangekochte verwarmingsketels bij elk van de betrokken leveranciers;\n- de aankoopprijs van de verwarmingsketels met vermelding van de eventuele korting die u hebt genoten.\"\nDe belastingplichtige krijgt een termijn van 10 dagen om de gevraagde inlichtingen te verstrekken.\n\nUw cliënt meldt u ook dat, op 15 september, de toegang tot het bedrijf volledig geblokkeerd werd door stakingspiketten en dat de onderhandelingen met de vakbonden zeker 2 weken zullen aanslepen."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -42,8 +50,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt fragmentarisch. Drie deelvragen over regelmatigheid, wettelijke termijn en praktische aanpak bij overmacht (staking). Alle drie vragen 'verklaar uw antwoord' → motivatie_verwacht:true.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

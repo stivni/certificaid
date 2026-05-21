@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr18",
   "interpretatie_datum": "2026-05-21T10:16:00Z",
@@ -15,6 +15,9 @@
     "vennootschapsrecht",
     "verificatieverslag"
   ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -24,32 +27,74 @@
       "type": "gegevens_tabel",
       "titel": "Resultaatverwerking jaarrekening 31/12/2013 (goedgekeurd AV 20/02/2014)",
       "rijen": [
-        { "label": "Resultaat van het boekjaar", "bedrag": 1000000 },
-        { "label": "Vergoeding van het kapitaal", "bedrag": 500000 },
-        { "label": "Toevoeging aan de overige reserves", "bedrag": 500000 }
+        {
+          "label": "Resultaat van het boekjaar",
+          "bedrag": 1000000
+        },
+        {
+          "label": "Vergoeding van het kapitaal",
+          "bedrag": 500000
+        },
+        {
+          "label": "Toevoeging aan de overige reserves",
+          "bedrag": 500000
+        }
       ]
     },
     {
       "type": "gegevens_tabel",
       "titel": "Tussentijdse situatie 31/03/2014",
       "rijen": [
-        { "label": "Totaal opbrengsten", "bedrag": 1200000 },
-        { "label": "Totaal kosten", "bedrag": 900000 },
-        { "label": "Winst van het kwartaal", "bedrag": 300000 }
+        {
+          "label": "Totaal opbrengsten",
+          "bedrag": 1200000
+        },
+        {
+          "label": "Totaal kosten",
+          "bedrag": 900000
+        },
+        {
+          "label": "Winst van het kwartaal",
+          "bedrag": 300000
+        }
       ]
     },
     {
       "type": "gegevens_tabel",
       "titel": "Passiva per 31/03/2014",
       "rijen": [
-        { "label": "100 Geplaatst kapitaal", "bedrag": 1000000 },
-        { "label": "130 Wettelijke reserve", "bedrag": 100000 },
-        { "label": "133 Beschikbare reserves", "bedrag": 5000000 },
-        { "label": "Resultaat van de periode", "bedrag": 300000 },
-        { "label": "170 Verplichtingen op de secundaire markt", "bedrag": 6000000 },
-        { "label": "440 Handelsschulden", "bedrag": 500000 },
-        { "label": "450 Schulden m.b.t. belastingen, bezoldigingen en sociale lasten", "bedrag": 50000 },
-        { "label": "Totaal", "bedrag": 12950000 }
+        {
+          "label": "100 Geplaatst kapitaal",
+          "bedrag": 1000000
+        },
+        {
+          "label": "130 Wettelijke reserve",
+          "bedrag": 100000
+        },
+        {
+          "label": "133 Beschikbare reserves",
+          "bedrag": 5000000
+        },
+        {
+          "label": "Resultaat van de periode",
+          "bedrag": 300000
+        },
+        {
+          "label": "170 Verplichtingen op de secundaire markt",
+          "bedrag": 6000000
+        },
+        {
+          "label": "440 Handelsschulden",
+          "bedrag": 500000
+        },
+        {
+          "label": "450 Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+          "bedrag": 50000
+        },
+        {
+          "label": "Totaal",
+          "bedrag": 12950000
+        }
       ]
     }
   ],
@@ -60,11 +105,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Hij vraagt u of het mogelijk is om geld uit de vennootschap te trekken door middel van een interimdividend. Wat raadt u hem aan?",
       "opties": [
-        { "id": "a", "tekst": "Dat hij geen bijkomende dividenden kan opnemen. Dat zou de vennootschap in gevaar kunnen brengen ten aanzien van het netto-actief." },
-        { "id": "b", "tekst": "Dat de opneming onmiddellijk kan gebeuren, aangezien ze na de neerlegging van de laatste balans gebeurt." },
-        { "id": "c", "tekst": "Dat hij zal moeten wachten tot in juli 2014." },
-        { "id": "d", "tekst": "Dat de dividenduitkering kan doorgevoerd worden op basis van de tussentijdse situatie van 31 maart 2014 en van een verificatieverslag opgesteld door een bedrijfsrevisor of een externe accountant." },
-        { "id": "e", "tekst": "Dat hij geen nieuwe dividenden mag opnemen, aangezien de algemene vergadering van 20 februari er al heeft uitgekeerd." }
+        {
+          "id": "a",
+          "tekst": "Dat hij geen bijkomende dividenden kan opnemen. Dat zou de vennootschap in gevaar kunnen brengen ten aanzien van het netto-actief."
+        },
+        {
+          "id": "b",
+          "tekst": "Dat de opneming onmiddellijk kan gebeuren, aangezien ze na de neerlegging van de laatste balans gebeurt."
+        },
+        {
+          "id": "c",
+          "tekst": "Dat hij zal moeten wachten tot in juli 2014."
+        },
+        {
+          "id": "d",
+          "tekst": "Dat de dividenduitkering kan doorgevoerd worden op basis van de tussentijdse situatie van 31 maart 2014 en van een verificatieverslag opgesteld door een bedrijfsrevisor of een externe accountant."
+        },
+        {
+          "id": "e",
+          "tekst": "Dat hij geen nieuwe dividenden mag opnemen, aangezien de algemene vergadering van 20 februari er al heeft uitgekeerd."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
@@ -72,5 +132,7 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige MC met 5 opties over interimdividend-procedure voor een NV zonder commissaris. De drie gegevenstabellen zijn gereconstrueerd vanuit tekst.txt, PNG pagina_04 bevestigt de nummers.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

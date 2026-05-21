@@ -1,14 +1,23 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr20",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Alarmbelprocedure bvba: advies bij verlies dat geplaatst kapitaal aantast",
-  "themas": ["alarmbelprocedure", "bvba", "netto-actief", "ontbinding", "kapitaalverlies", "vennootschapsrecht", "bijeenroeping algemene vergadering"],
-
+  "themas": [
+    "alarmbelprocedure",
+    "bvba",
+    "netto-actief",
+    "ontbinding",
+    "kapitaalverlies",
+    "vennootschapsrecht",
+    "bijeenroeping algemene vergadering"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -17,21 +26,51 @@
     {
       "type": "balans",
       "actief": {
-        "headers": ["Rubriek", "Bedrag"],
+        "headers": [
+          "Rubriek",
+          "Bedrag"
+        ],
         "rows": [
-          ["Materiële vaste activa", "3.000,00"],
-          ["Handelsvorderingen", "20.000,00"],
-          ["Liquide middelen", "1.000,00"],
-          ["Totaal activa", "24.000,00"]
+          [
+            "Materiële vaste activa",
+            "3.000,00"
+          ],
+          [
+            "Handelsvorderingen",
+            "20.000,00"
+          ],
+          [
+            "Liquide middelen",
+            "1.000,00"
+          ],
+          [
+            "Totaal activa",
+            "24.000,00"
+          ]
         ]
       },
       "passief": {
-        "headers": ["Rubriek", "Bedrag"],
+        "headers": [
+          "Rubriek",
+          "Bedrag"
+        ],
         "rows": [
-          ["Kapitaal", "6.000,00"],
-          ["Overgedragen verlies", "-4.000,00"],
-          ["Schulden op minder dan een jaar", "22.000,00"],
-          ["Totaal passiva", "24.000,00"]
+          [
+            "Kapitaal",
+            "6.000,00"
+          ],
+          [
+            "Overgedragen verlies",
+            "-4.000,00"
+          ],
+          [
+            "Schulden op minder dan een jaar",
+            "22.000,00"
+          ],
+          [
+            "Totaal passiva",
+            "24.000,00"
+          ]
         ]
       }
     },
@@ -39,19 +78,45 @@
       "type": "gegevens_tabel",
       "titel": "Resultatenrekening",
       "rijen": [
-        { "label": "Handelsgoederen (kost)", "bedrag": 150000 },
-        { "label": "Diensten en diverse goederen", "bedrag": 48000 },
-        { "label": "Afschrijvingen", "bedrag": 250 },
-        { "label": "Overige bedrijfskosten", "bedrag": 650 },
-        { "label": "Financiële kosten", "bedrag": 1000 },
-        { "label": "Verkopen", "bedrag": 200000 },
-        { "label": "Overige bedrijfsopbrengsten", "bedrag": 250 },
-        { "label": "Financiële opbrengsten", "bedrag": 300 },
-        { "label": "Winst van het boekjaar", "bedrag": 650 }
+        {
+          "label": "Handelsgoederen (kost)",
+          "bedrag": 150000
+        },
+        {
+          "label": "Diensten en diverse goederen",
+          "bedrag": 48000
+        },
+        {
+          "label": "Afschrijvingen",
+          "bedrag": 250
+        },
+        {
+          "label": "Overige bedrijfskosten",
+          "bedrag": 650
+        },
+        {
+          "label": "Financiële kosten",
+          "bedrag": 1000
+        },
+        {
+          "label": "Verkopen",
+          "bedrag": 200000
+        },
+        {
+          "label": "Overige bedrijfsopbrengsten",
+          "bedrag": 250
+        },
+        {
+          "label": "Financiële opbrengsten",
+          "bedrag": 300
+        },
+        {
+          "label": "Winst van het boekjaar",
+          "bedrag": 650
+        }
       ]
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -59,18 +124,34 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Wat kunt u de heer DUPONT, op basis van deze gegevens, adviseren?",
       "opties": [
-        { "id": "a", "tekst": "De toestand lijkt in orde. Er zijn geen bijkomende formaliteiten te vervullen." },
-        { "id": "b", "tekst": "Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te beslissen over de eventuele ontbinding en om eventueel andere maatregelen te nemen. En dit vóór 11 juni 2015." },
-        { "id": "c", "tekst": "Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste minimum van 6.200,00 EUR te brengen." },
-        { "id": "d", "tekst": "Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste minimum van 18.550,00 EUR te brengen." },
-        { "id": "e", "tekst": "Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te beslissen over de eventuele ontbinding en om eventueel andere maatregelen te nemen. En dit vóór 31 juli 2015." }
+        {
+          "id": "a",
+          "tekst": "De toestand lijkt in orde. Er zijn geen bijkomende formaliteiten te vervullen."
+        },
+        {
+          "id": "b",
+          "tekst": "Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te beslissen over de eventuele ontbinding en om eventueel andere maatregelen te nemen. En dit vóór 11 juni 2015."
+        },
+        {
+          "id": "c",
+          "tekst": "Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste minimum van 6.200,00 EUR te brengen."
+        },
+        {
+          "id": "d",
+          "tekst": "Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste minimum van 18.550,00 EUR te brengen."
+        },
+        {
+          "id": "e",
+          "tekst": "Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te beslissen over de eventuele ontbinding en om eventueel andere maatregelen te nemen. En dit vóór 31 juli 2015."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Vennootschapsrecht'. De balans en resultatenrekening zijn gereconstrueerd uit de tekst. Enkelvoudige MC-vraag.",
-  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
 }

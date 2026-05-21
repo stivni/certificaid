@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrC2",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
@@ -14,6 +14,9 @@
     "waardeverminderingen",
     "financieel beheer"
   ],
+  "programmaonderdeel_ids": [
+    "1.9"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -23,11 +26,26 @@
       "type": "gegevens_tabel",
       "titel": "Resultatenrekening (relevante posten)",
       "rijen": [
-        {"label": "Winst van het boekjaar", "bedrag": 2750},
-        {"label": "Afschrijvingen", "bedrag": 12100},
-        {"label": "Toevoegingen aan voorzieningen", "bedrag": 6300},
-        {"label": "Bestedingen van voorzieningen", "bedrag": -1650},
-        {"label": "Toevoegingen aan waardeverminderingen", "bedrag": 780}
+        {
+          "label": "Winst van het boekjaar",
+          "bedrag": 2750
+        },
+        {
+          "label": "Afschrijvingen",
+          "bedrag": 12100
+        },
+        {
+          "label": "Toevoegingen aan voorzieningen",
+          "bedrag": 6300
+        },
+        {
+          "label": "Bestedingen van voorzieningen",
+          "bedrag": -1650
+        },
+        {
+          "label": "Toevoegingen aan waardeverminderingen",
+          "bedrag": 780
+        }
       ]
     }
   ],

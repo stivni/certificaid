@@ -1,16 +1,24 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr3",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Interne controle",
-  "themas": ["verkoopcyclus", "interne controle", "KMO", "COSO model", "risicocategorieën", "controledoelstellingen", "conformiteit"],
-
+  "themas": [
+    "verkoopcyclus",
+    "interne controle",
+    "KMO",
+    "COSO model",
+    "risicocategorieën",
+    "controledoelstellingen",
+    "conformiteit"
+  ],
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -34,10 +42,22 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Over welke soort risico gaat het? (COSO model)",
       "opties": [
-        { "id": "a", "tekst": "Strategisch" },
-        { "id": "b", "tekst": "Informatie" },
-        { "id": "c", "tekst": "Operationeel" },
-        { "id": "d", "tekst": "Financieel" }
+        {
+          "id": "a",
+          "tekst": "Strategisch"
+        },
+        {
+          "id": "b",
+          "tekst": "Informatie"
+        },
+        {
+          "id": "c",
+          "tekst": "Operationeel"
+        },
+        {
+          "id": "d",
+          "tekst": "Financieel"
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "fragment"
@@ -52,8 +72,9 @@
       "topic_only_onderwerp": "Verkoopcyclus: doelstellingen (financieel, operationeel, conformiteit)"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag C heeft de vier risicocategorieën als opties maar er ontbreekt de concrete situatiebeschrijving waarop de vraag slaat — volledigheid: fragment. Deelvraag D geeft alleen een topic met drie subdomeinen, geen vraagstelling — topic_only.",
-  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
 }

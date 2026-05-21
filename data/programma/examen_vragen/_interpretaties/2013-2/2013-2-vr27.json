@@ -1,21 +1,30 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr27",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "BTW en personenwagens: aftrek bij zaakvoerder en werknemer",
-  "themas": ["BTW personenwagen", "beroepsmatig gebruik wagen", "zaakvoerder", "werknemer", "voordeel alle aard", "BTW-aftrek", "afdracht BTW", "forfait 35%"],
-
+  "themas": [
+    "BTW personenwagen",
+    "beroepsmatig gebruik wagen",
+    "zaakvoerder",
+    "werknemer",
+    "voordeel alle aard",
+    "BTW-aftrek",
+    "afdracht BTW",
+    "forfait 35%"
+  ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "BVBA 'A' (gewone belastingplichtige) stelt een nieuwe personenwagen ter beschikking van de zaakvoerder. De aankoopprijs bedraagt 25.000,00 EUR exclusief btw. De zaakvoerder gebruikt de wagen zowel voor privé- als voor beroepsdoeleinden. Tijdens het jaar 2013 heeft de zaakvoerder 25.250 km gereden. De afstand van de woning naar de bedrijfszetel van de vennootschap – enkele rit – bedraagt 40 km. De BVBA A wenst niet te opteren voor de methode van het algemeen forfait van 35%.\n\nBVBA 'B' (gewone belastingplichtige) stelt in 2013 een personenwagen ter beschikking aan haar enige werknemer. Op het maandelijkse loon wordt een bijdrage van 50,00 EUR ingehouden als vergoeding voor het privégebruik. De wagen wordt door de vennootschap in 2011 aangekocht voor de prijs van 25.000,00 EUR exclusief 21% btw.\nIn de loop van 2013 worden de volgende uitgaven gedaan m.b.t. de wagen:\n- Onderhoud en herstelling (excl. 21% btw): 750 EUR\n- Brandstof (excl. 21% btw): 1.500 EUR\n- Verzekering (vrijgesteld van btw): 1.000 EUR\n- Verkeersbelasting (vrijgesteld van btw): 300 EUR\nDe wagen wordt 40% beroepsmatig gebruikt."
     }
   ],
-
   "vragen": [
     {
       "id": "a1",
@@ -42,8 +51,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt is fragmentarisch (begint midden in casus A). Twee BVBA's: A met zaakvoerder, B met werknemer. Casus A heeft twee deelvragen (beroepsmatig gebruik, aftrekbare BTW). Casus B vraagt BTW-afdracht. Genummerd als a1, a2, b conform PDF-nummering 1, 2, 3.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

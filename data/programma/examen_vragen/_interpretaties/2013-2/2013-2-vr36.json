@@ -1,21 +1,30 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr36",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Antiwitwaswet: identificatie bij cliëntenacceptatie",
-  "themas": ["antiwitwaswet", "cliëntenacceptatie", "identificatie", "UBO-register", "uiteindelijk begunstigde", "zaakvoerder", "aandeelhouder", "identiteitsdocumenten"],
-
+  "themas": [
+    "antiwitwaswet",
+    "cliëntenacceptatie",
+    "identificatie",
+    "UBO-register",
+    "uiteindelijk begunstigde",
+    "zaakvoerder",
+    "aandeelhouder",
+    "identiteitsdocumenten"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Op uw kantoor biedt zich de heer Silan aan die u vertelt dat hij zaakvoerder is van de bvba Witwassen en dat de activiteit van deze bvba een keten van wassalons is. Hij vraagt dat u in de toekomst de boekhouding en alle daaraan verbonden activiteiten zou overnemen van een andere accountant-belastingconsulent. Uit het gesprek blijkt ook dat hijzelf geen aandelen van de vennootschap bezit, maar dat deze in handen zijn van de heer Black met 55% van de aandelen en de vennootschap nv White met 45% van de aandelen."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -42,7 +51,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Drie deelvragen over antiwitwaswet-identificatieplicht. Casus heeft interessante complexiteit: zaakvoerder = niet-aandeelhouder, aandeelhouders zijn een natuurlijke persoon (Black, 55%) en een vennootschap (nv White, 45%).",
   "kwaliteits_flags": []

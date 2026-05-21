@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr13",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Controleopdracht: betrouwbaarheid interne cijfers en voorraadcontrole",
-  "themas": ["controleopdracht", "interne boekhouder", "voorraadtelling", "controledoelstelling", "audittechniek", "risicoprofiel", "landbouwmachines"],
-
+  "themas": [
+    "controleopdracht",
+    "interne boekhouder",
+    "voorraadtelling",
+    "controledoelstelling",
+    "audittechniek",
+    "risicoprofiel",
+    "landbouwmachines"
+  ],
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "U wordt gevraagd om als extern accountant een controleopdracht uit te voeren bij de NV Fortunato. De interne boekhouder van de onderneming bezorgt de cijfers per 30 november 2013 (= de afsluitdatum conform de statuten). Op 2 december 2013 heeft u ter plaatse de voorraadtelling gevolgd en de getelde hoeveelheden akkoord verklaard. Het bedrijf is gespecialiseerd in de aan- en verkoop van landbouwmachines. Het risicoprofiel is laag gezien er volgens de testen een goede interne controle is voor wat aankopen, financieel en verkopen betreft."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -34,8 +42,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt toont deelvraag a als topic_only met onvolledig fragment, maar PNG en subvraag-labels geven de volledige vraagstelling. Deelvraag a vraagt expliciet uitleg (motivatie_verwacht: true). Deelvraag b vraagt specifiek één controledoelstelling + één techniek — dit is een open procedurevraag.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

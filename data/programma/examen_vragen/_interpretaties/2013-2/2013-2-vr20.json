@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr20",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Individueel controlerecht BVBA: stellingen juist/fout",
-  "themas": ["individueel controlerecht", "BVBA", "aandeelhoudersrechten", "buitenlandse aandeelhouder", "jaarvergadering", "vennootschapsrecht"],
-
+  "themas": [
+    "individueel controlerecht",
+    "BVBA",
+    "aandeelhoudersrechten",
+    "buitenlandse aandeelhouder",
+    "jaarvergadering",
+    "vennootschapsrecht"
+  ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een Franse vennootschap is voor 15% aandeelhouder in een Belgische vennootschap BVBA SUPERTOC. De Franse vennootschap vraagt je om in het kader van het individueel controlerecht ter plaatse inzage te nemen in de stukken van de BVBA SUPERTOC. Beantwoord met FOUT / JUIST volgende stellingen die slaan op voorgaande situatie."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -50,7 +57,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vier juist/fout stellingen over het individueel controlerecht in een BVBA met een buitenlandse (Franse) aandeelhouder van 15%. Elke stelling is een aparte deelvraag.",
   "kwaliteits_flags": []

@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr14",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Neerlegging jaarrekening: achterstand en gevolgen",
-  "themas": ["neerlegging jaarrekening", "Nationale Bank van België", "publicatieplicht", "sancties", "ontbinding", "advies aan cliënt"],
-
+  "themas": [
+    "neerlegging jaarrekening",
+    "Nationale Bank van België",
+    "publicatieplicht",
+    "sancties",
+    "ontbinding",
+    "advies aan cliënt"
+  ],
+  "programmaonderdeel_ids": [
+    "1.2"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Wat de bij de Nationale Bank van België neergelegde jaarrekeningen betreft, stelt u op 4 mei 2013 vast dat uw nieuwe cliënt, de bvba 'Mode Invest', de jaarrekeningen van de vier laatste boekjaren niet meer heeft neergelegd."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -34,7 +41,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Deelvraag b ('Waarom?') is een eigenstandige vraag die de juridische onderbouwing vraagt voor het advies in deelvraag a — geen pure motivatie-instructie bij a maar een aparte vraag naar de rechtsgrond. Beide deelvragen vereisen een zelfstandig antwoord.",
   "kwaliteits_flags": []

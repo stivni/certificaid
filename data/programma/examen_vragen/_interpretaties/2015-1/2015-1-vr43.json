@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr43",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Fiscale procedure: voorleggingsplicht bestelbonnen bij vennootschap",
-  "themas": ["bewaringsplicht", "voorlegginsgplicht", "bestelbonnen", "boekhouding", "fiscale procedure", "boekhoudwetgeving"],
-
+  "themas": [
+    "bewaringsplicht",
+    "voorlegginsgplicht",
+    "bestelbonnen",
+    "boekhouding",
+    "fiscale procedure",
+    "boekhoudwetgeving"
+  ],
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De administratie vraagt inzage in de bestelbonnen van uw cliënt die een onderneming voert onder vennootschapsvorm."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,16 +30,27 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "U analyseert: moeten de bestelbonnen worden voorgelegd?",
       "opties": [
-        { "id": "a", "tekst": "De administratie kan deze niet opvragen omdat de bewaringsplicht van de boeken en bescheiden enkel beperkt is tot de wettelijk verplichte boeken en bescheiden, en de bestelbons daar geen deel van uitmaken. Zij moeten dus niet worden voorgelegd." },
-        { "id": "b", "tekst": "Deze maken geen deel uit van de boekhouding en moeten niet worden voorgelegd." },
-        { "id": "c", "tekst": "Enkel wanneer zij elektronisch zijn opgesteld, moeten zij worden voorgelegd." },
-        { "id": "d", "tekst": "Deze maken deel uit van de boekhouding en moeten worden voorgelegd." }
+        {
+          "id": "a",
+          "tekst": "De administratie kan deze niet opvragen omdat de bewaringsplicht van de boeken en bescheiden enkel beperkt is tot de wettelijk verplichte boeken en bescheiden, en de bestelbons daar geen deel van uitmaken. Zij moeten dus niet worden voorgelegd."
+        },
+        {
+          "id": "b",
+          "tekst": "Deze maken geen deel uit van de boekhouding en moeten niet worden voorgelegd."
+        },
+        {
+          "id": "c",
+          "tekst": "Enkel wanneer zij elektronisch zijn opgesteld, moeten zij worden voorgelegd."
+        },
+        {
+          "id": "d",
+          "tekst": "Deze maken deel uit van de boekhouding en moeten worden voorgelegd."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 3 van de sectie 'Fiscale procedure'. 4-optie MC-vraag (A-D).",
   "kwaliteits_flags": []

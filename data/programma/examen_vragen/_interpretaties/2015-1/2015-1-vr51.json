@@ -1,16 +1,24 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr51",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Discretieplicht en beroepsgeheim accountant: juist/fout stellingen",
-  "themas": ["discretieplicht", "beroepsgeheim", "accountant", "interne accountant", "tuchtrecht", "deontologie", "IAB"],
-
+  "themas": [
+    "discretieplicht",
+    "beroepsgeheim",
+    "accountant",
+    "interne accountant",
+    "tuchtrecht",
+    "deontologie",
+    "IAB"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -37,7 +45,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over discretieplicht en beroepsgeheim.",
   "kwaliteits_flags": []

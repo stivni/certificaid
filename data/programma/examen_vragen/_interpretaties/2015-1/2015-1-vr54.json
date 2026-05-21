@@ -1,21 +1,29 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr54",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Opdracht externe accountant bij vereffening: onafhankelijkheid, bevoegdheid en witwasverplichting",
-  "themas": ["vereffening", "onafhankelijkheid", "controleopdracht", "externe accountant", "erkend boekhouder", "witwaswetgeving", "staat activa passiva"],
-
+  "themas": [
+    "vereffening",
+    "onafhankelijkheid",
+    "controleopdracht",
+    "externe accountant",
+    "erkend boekhouder",
+    "witwaswetgeving",
+    "staat activa passiva"
+  ],
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De heer FIXIT is reeds jaren de externe accountant van NV TRIAL. De gedelegeerde bestuurder wenst de vennootschap te vereffenen en geeft de heer FIXIT de opdracht dit te doen."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -42,7 +50,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 4 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over de opdracht bij vereffening.",
   "kwaliteits_flags": []

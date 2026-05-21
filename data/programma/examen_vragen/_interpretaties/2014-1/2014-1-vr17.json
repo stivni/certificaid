@@ -1,5 +1,5 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr17",
   "interpretatie_datum": "2026-05-21T10:15:00Z",
@@ -15,6 +15,9 @@
     "vennootschapsrecht",
     "lasthebber ad hoc"
   ],
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
@@ -28,11 +31,26 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Wat adviseert u hem, als accountant en/of belastingconsulent, met betrekking tot die verrichting?",
       "opties": [
-        { "id": "a", "tekst": "Dat de gevraagde prijs te hoog is, en hij hem moet terugbrengen tot de verkoopwaarde bij onderhandse verkoop." },
-        { "id": "b", "tekst": "Dat hij de verrichting kan doen maar hierover verslag moet uitbrengen in een stuk dat bij de jaarrekening moet worden gevoegd, en dat hij aansprakelijk is voor de eventuele schade die derden ten gevolge van de verrichting zouden kunnen lijden." },
-        { "id": "c", "tekst": "Dat het een gunstige verrichting is en dat hij contact moet opnemen met de notaris om de verkoop te laten acteren." },
-        { "id": "d", "tekst": "Dat de verrichting kan worden gedaan door een andere persoon (lasthebber ad hoc) die in zijn verslag vermeldt dat het bedrag van de verrichting niet nadelig is voor het vermogen van de vennootschap." },
-        { "id": "e", "tekst": "Dat de verrichting enkel kan worden gedaan wanneer beroep wordt gedaan op een bedrijfsrevisor om de waarde van het gebouw te bepalen en verslag uit te brengen over de omschreven verrichting." }
+        {
+          "id": "a",
+          "tekst": "Dat de gevraagde prijs te hoog is, en hij hem moet terugbrengen tot de verkoopwaarde bij onderhandse verkoop."
+        },
+        {
+          "id": "b",
+          "tekst": "Dat hij de verrichting kan doen maar hierover verslag moet uitbrengen in een stuk dat bij de jaarrekening moet worden gevoegd, en dat hij aansprakelijk is voor de eventuele schade die derden ten gevolge van de verrichting zouden kunnen lijden."
+        },
+        {
+          "id": "c",
+          "tekst": "Dat het een gunstige verrichting is en dat hij contact moet opnemen met de notaris om de verkoop te laten acteren."
+        },
+        {
+          "id": "d",
+          "tekst": "Dat de verrichting kan worden gedaan door een andere persoon (lasthebber ad hoc) die in zijn verslag vermeldt dat het bedrag van de verrichting niet nadelig is voor het vermogen van de vennootschap."
+        },
+        {
+          "id": "e",
+          "tekst": "Dat de verrichting enkel kan worden gedaan wanneer beroep wordt gedaan op een bedrijfsrevisor om de waarde van het gebouw te bepalen en verslag uit te brengen over de omschreven verrichting."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"

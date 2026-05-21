@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-21T01:27:47+00:00",
+  "merge_datum": "2026-05-21T08:50:02+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -22,7 +22,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "immateriële vaste activa",
           "materiële vaste activa",
@@ -164,7 +167,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.7"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "functiescheiding",
           "interne controle",
@@ -229,7 +235,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.6"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "controleverklaring",
           "onthoudende verklaring",
@@ -282,7 +291,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.7"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "interne controle",
           "preventieve maatregelen",
@@ -482,7 +494,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.6"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "controleopdracht",
           "interne boekhouder",
@@ -542,7 +557,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "neerlegging jaarrekening",
           "Nationale Bank van België",
@@ -731,7 +749,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "alarmbelprocedure",
           "netto actief",
@@ -793,7 +814,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "toegestaan kapitaal",
           "raad van bestuur",
@@ -855,7 +879,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "vennootschapsvorm",
           "NV",
@@ -929,7 +956,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "minderheidsaandeelhouder",
           "BVBA",
@@ -1039,7 +1069,11 @@
           "subvraag_zonder_inhoud",
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.6",
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "omzetting vennootschap",
           "CVBA",
@@ -1177,7 +1211,10 @@
           "ocr_artefact",
           "subvraag_zonder_inhoud"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "jaarrekening",
           "bestuurders",
@@ -1238,7 +1275,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "individueel controlerecht",
           "BVBA",
@@ -1315,7 +1355,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "onderhoudsuitkering",
           "kapitaal als alimentatie",
@@ -1393,7 +1436,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "beroepskosten",
           "verplaatsingskosten",
@@ -1446,7 +1492,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "gewaarborgd inkomen",
           "meerwaarde op bedrijfsactiva",
@@ -1660,7 +1709,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.3"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "vennootschapsbelasting",
           "belastbaar resultaat",
@@ -1827,7 +1879,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.3"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "DBI-aftrek",
           "definitief belaste inkomsten",
@@ -1880,7 +1935,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "BTW-herziening",
           "stopzetting activiteit",
@@ -1958,7 +2016,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "BTW personenwagen",
           "beroepsmatig gebruik wagen",
@@ -2029,7 +2090,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.6"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "successierechten",
           "nalatenschap",
@@ -2153,7 +2217,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.6"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "registratierechten",
           "onverdeeldheid",
@@ -2223,7 +2290,10 @@
         "kwaliteits_flags": [
           "tabel_in_pdf_zichtbaar"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "goodwill",
           "immateriële vaste activa",
@@ -2299,7 +2369,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.8"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "vaste inrichting",
           "dubbelbelastingverdrag",
@@ -2362,7 +2435,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.8"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "woonstaatheffing",
           "Spaarrenterichtlijn",
@@ -2424,7 +2500,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.5"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "vraag om inlichtingen",
           "fiscale procedure",
@@ -2492,7 +2571,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.5"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "bezwaarrecht",
           "roerende voorheffing",
@@ -2570,7 +2652,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "intracommunautaire verwerving",
           "BTW-opeisbaarheid",
@@ -2629,7 +2714,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "permanente vorming",
           "IAB",
@@ -2707,7 +2795,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "antiwitwaswet",
           "cliëntenacceptatie",
@@ -2778,7 +2869,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "dossieroverdracht",
           "confrater",
@@ -2855,7 +2949,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "monopolieopdracht",
           "onafhankelijkheid",
@@ -2938,7 +3035,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "voorzieningen",
           "groot onderhoud",
@@ -2997,7 +3097,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "ratio-analyse",
           "brutoverkoopmarge",
@@ -3065,7 +3168,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.9"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "netto bedrijfskapitaal",
           "werkkapitaal",
@@ -3112,7 +3218,10 @@
         "kwaliteits_flags": [
           "ocr_artefact"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "liquiditeitsratio",
           "liquiditeit in ruime zin",
@@ -3175,7 +3284,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "consolidatieverschil",
           "goodwill consolidatie",
@@ -3236,7 +3348,10 @@
         "interpretatie_datum": "2026-05-21T12:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.6"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "auditstrategie",
           "auditmethodes",

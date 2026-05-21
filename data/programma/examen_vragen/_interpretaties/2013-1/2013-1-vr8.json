@@ -1,21 +1,26 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-1",
   "vraag_id": "2013-1-vr8",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Doelstellingen van interne controle",
-  "themas": ["interne controle", "redelijke zekerheid", "bestuursorgaan", "controledoelstellingen"],
-
+  "themas": [
+    "interne controle",
+    "redelijke zekerheid",
+    "bestuursorgaan",
+    "controledoelstellingen"
+  ],
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "De interne controle wordt gedefinieerd als: 'Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te hebben over…'"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -26,7 +31,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. Enkelvoudige open vraag die vier elementen vraagt. Geen deelvragen.",
   "kwaliteits_flags": []

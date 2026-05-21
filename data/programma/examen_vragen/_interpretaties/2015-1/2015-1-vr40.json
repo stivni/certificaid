@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2015-1",
   "vraag_id": "2015-1-vr40",
   "interpretatie_datum": "2026-05-21T00:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "BTW bij driehoeksverkeer: factuurvermelding, btw-aangifte en intracommunautaire opgave",
-  "themas": ["driehoeksverkeer", "intracommunautaire levering", "btw-aangifte", "intracommunautaire opgave", "factuurvermelding", "btw"],
-
+  "themas": [
+    "driehoeksverkeer",
+    "intracommunautaire levering",
+    "btw-aangifte",
+    "intracommunautaire opgave",
+    "factuurvermelding",
+    "btw"
+  ],
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Belgische fabrikant verkoopt badkameraccessoires aan Nederlandse groothandel (geldig NL btw-nummer) met leveringsvoorwaarden franco Duitsland. Nederlandse groothandel verkoopt door aan Duitse groothandel (geldig DE btw-nummer) en vraagt de Belgische leverancier om rechtstreeks naar het magazijn van de Duitse klant te transporteren."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -23,17 +30,31 @@
       "vraagtype": "mc_keuze",
       "vraagstelling": "Wat vermeldt de Belgische onderneming op haar verkoopfactuur? In welk vak van de btw-aangifte neemt ze deze handeling op? Zijn er nog andere verplichtingen te vervullen?",
       "opties": [
-        { "id": "a", "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW (of artikel 146 btw Richtlijn 2006/112/EU).' De handeling wordt alleen opgenomen in vak 46 van haar btw-aangifte." },
-        { "id": "b", "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW (of artikel 146 btw Richtlijn 2006/112/EU).' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het NL btw-nummer van de Nederlandse afnemer en de code L (= levering)." },
-        { "id": "c", "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW.' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het DE btw-nummer van de uiteindelijke Duitse afnemer en de code L (=levering)." },
-        { "id": "d", "tekst": "Het gaat om vereenvoudigd driehoeksverkeer, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Driehoeksverkeer, artikel 25 quinquies WBTW, medecontractant aangeduid als schuldenaar, btw verlegd.' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het DE btw-nummer van de uiteindelijke Duitse afnemer en met vermelding dat het om driehoeksverkeer gaat (code T = triangulaire)." },
-        { "id": "e", "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Btw verlegd'. De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het NL btw-nummer van de Nederlandse afnemer (geen specifieke code)." }
+        {
+          "id": "a",
+          "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW (of artikel 146 btw Richtlijn 2006/112/EU).' De handeling wordt alleen opgenomen in vak 46 van haar btw-aangifte."
+        },
+        {
+          "id": "b",
+          "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW (of artikel 146 btw Richtlijn 2006/112/EU).' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het NL btw-nummer van de Nederlandse afnemer en de code L (= levering)."
+        },
+        {
+          "id": "c",
+          "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW.' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het DE btw-nummer van de uiteindelijke Duitse afnemer en de code L (=levering)."
+        },
+        {
+          "id": "d",
+          "tekst": "Het gaat om vereenvoudigd driehoeksverkeer, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Driehoeksverkeer, artikel 25 quinquies WBTW, medecontractant aangeduid als schuldenaar, btw verlegd.' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het DE btw-nummer van de uiteindelijke Duitse afnemer en met vermelding dat het om driehoeksverkeer gaat (code T = triangulaire)."
+        },
+        {
+          "id": "e",
+          "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Btw verlegd'. De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het NL btw-nummer van de Nederlandse afnemer (geen specifieke code)."
+        }
       ],
       "motivatie_verwacht": false,
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag 5 van de sectie 'BTW'. Enkelvoudige MC-vraag met 5 opties. Kandidaat kiest de correcte behandeling voor het driehoeksverkeer-scenario.",
   "kwaliteits_flags": []

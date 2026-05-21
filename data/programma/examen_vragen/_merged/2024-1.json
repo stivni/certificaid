@@ -1,7 +1,7 @@
 {
   "bron_pdf": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
   "examen_id": "2024-1",
-  "merge_datum": "2026-05-21T01:29:11+00:00",
+  "merge_datum": "2026-05-21T08:50:03+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -92,7 +92,10 @@
         "kwaliteits_flags": [
           "subvraag_zonder_inhoud"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "vennootschapsrecht",
           "WVV",
@@ -304,7 +307,10 @@
           "subvraag_zonder_inhoud",
           "antwoord_hint_aanwezig"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "financiële onafhankelijkheid",
           "ratio-analyse",
@@ -410,7 +416,10 @@
           "typo_genormaliseerd",
           "subvraag_zonder_inhoud"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.4"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "opeisbaarheid BTW",
           "factuurverplichting",
@@ -544,7 +553,10 @@
         "kwaliteits_flags": [
           "subvraag_zonder_inhoud"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.6"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "onafhankelijkheid",
           "controle opdracht",
@@ -646,7 +658,10 @@
         "kwaliteits_flags": [
           "subvraag_zonder_inhoud"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.7"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "verkoopcyclus",
           "interne controle",
@@ -738,7 +753,10 @@
         "kwaliteits_flags": [
           "subvraag_zonder_inhoud"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "3.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "ontbinding",
           "vereffening",
@@ -833,7 +851,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.2"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "meewerkend echtgenoot",
           "ministatuut",
@@ -907,7 +928,10 @@
         "kwaliteits_flags": [
           "subvraag_zonder_inhoud"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "4.0"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "ereloon",
           "commissielonen",
@@ -1054,7 +1078,10 @@
         "kwaliteits_flags": [
           "typo_genormaliseerd"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "1.5"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "IAS/IFRS",
           "voorraadwaardering",
@@ -1219,7 +1246,10 @@
           "antwoord_hint_aanwezig",
           "subvraag_zonder_inhoud"
         ],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.3"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "fiscale verliezen",
           "overdraagbare verliezen",
@@ -1310,7 +1340,10 @@
         "interpretatie_datum": "2026-05-21T00:00:00Z",
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
-        "schema_versie": "1.1",
+        "programmaonderdeel_ids": [
+          "2.5"
+        ],
+        "schema_versie": "1.2",
         "themas": [
           "bericht van wijziging",
           "aangetekende zending",

@@ -1,21 +1,28 @@
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2013-2",
   "vraag_id": "2013-2-vr4",
   "interpretatie_datum": "2026-05-21T12:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "officieel",
   "vraag_onderwerp": "Voorzieningen voor groot onderhoud (periodieke schilderwerken)",
-  "themas": ["voorzieningen", "groot onderhoud", "schilderwerken", "jaarrekening", "raming", "periodieke kosten"],
-
+  "themas": [
+    "voorzieningen",
+    "groot onderhoud",
+    "schilderwerken",
+    "jaarrekening",
+    "raming",
+    "periodieke kosten"
+  ],
+  "programmaonderdeel_ids": [
+    "1.1"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een onderneming laat om de acht jaar haar gebouwen herschilderen. De schilderwerken worden geschat op 40.000 euro."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -34,8 +41,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt is onvolledig (toont alleen de antwoordruimte-labels). PNG toont de volledige vraagstelling. Beide deelvragen zijn open procedurevragen over voorzieningen voor groot onderhoud.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }
