@@ -521,6 +521,23 @@ def unmarkeer_gerealiseerd(fiche_id: str) -> dict[str, Any]:
     return {"actie": "ungemarkeerd", "fiche_id": fiche_id}
 
 
+def lijst_gerealiseerd_in_wave(wave_id: str) -> list[str]:
+    """
+    Geef alle fiche_ids terug die gerealiseerd zijn met extract_wave_id == wave_id.
+
+    Gebruikt door records_api reindex-wave CLI om te bepalen welke records
+    opnieuw geïndexeerd moeten worden na een bulk-extract wave.
+
+    Returns: lijst van fiche_ids (strings), leeg als geen records gevonden.
+    """
+    conn = _get_conn()
+    rows = conn.execute(
+        "SELECT fiche_id FROM candidates WHERE extract_wave_id = ? AND gerealiseerd = 1",
+        (wave_id,),
+    ).fetchall()
+    return [row["fiche_id"] for row in rows]
+
+
 def recente_activiteit(sinds_minuten: int = 5, limit: int = 50) -> list[dict[str, Any]]:
     """
     Geef recente DB-mutaties terug — voor live progress-monitoring.

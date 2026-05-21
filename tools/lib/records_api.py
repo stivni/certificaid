@@ -36,6 +36,9 @@ Gebruik:
   python3 -m tools.lib.records_api audit --fix
   python3 -m tools.lib.records_api reindex-all
   python3 -m tools.lib.records_api reindex <concept_id>
+  python3 -m tools.lib.records_api save <pad> --bulk --wave-id <wave-tag>
+  python3 -m tools.lib.records_api reindex-wave <wave-tag>
+  python3 -m tools.lib.records_api reindex-wave <wave-tag> --dry-run
 """
 
 from __future__ import annotations
@@ -1218,6 +1221,7 @@ def _cli_save(
     wave_id: Optional[str],
     chroma_path: Optional[str],
     geen_rag: bool,
+    bulk: bool = False,
 ) -> int:
     """
     Laad een record uit een JSON-bestand en sla het op via save_record.
@@ -1229,15 +1233,21 @@ def _cli_save(
         python3 -m tools.lib.records_api save /tmp/<fiche_id>.json
         python3 -m tools.lib.records_api save /tmp/<fiche_id>.json --wave-id wave-001
         python3 -m tools.lib.records_api save /tmp/<fiche_id>.json --no-rag
+        python3 -m tools.lib.records_api save /tmp/<fiche_id>.json --bulk --wave-id wave-001
 
     Args:
         json_pad: pad naar JSON-bestand met het record-dict
         wave_id: optionele wave-tag voor candidates-DB realisatie-tracking (ADR-025)
         chroma_path: ChromaDB-pad (default: data/rag/main)
         geen_rag: als True → sla RAG-update over (--no-rag, voor batch-pipelines met latere reindex)
+        bulk: als True → impliceert geen_rag=True; voor parallelle bulk-extract waves.
+            Gebruik daarna `reindex-wave <wave-id>` om de wave-records batch-te-indexeren.
 
     Exit 0 bij succes, 1 bij fout.
     """
+    # --bulk impliceert --no-rag
+    if bulk:
+        geen_rag = True
     pad = Path(json_pad).resolve()
     if not pad.exists():
         print(f"[save] Bestand niet gevonden: {pad}", file=sys.stderr)
@@ -1255,8 +1265,9 @@ def _cli_save(
         return 1
 
     if geen_rag:
-        # --no-rag: schrijf alleen naar disk + render; skip daemon + candidates-DB
-        # Disk write
+        # --no-rag / --bulk: schrijf alleen naar disk + render; skip daemon-RAG-update.
+        # Bij --bulk + --wave-id: markeer de kandidaat wél als gerealiseerd in candidates-DB
+        # zodat reindex-wave de wave later kan ophalen voor batch-indexering.
         record_pad = _record_pad(concept_id)
         record_pad.parent.mkdir(parents=True, exist_ok=True)
         try:
@@ -1265,11 +1276,29 @@ def _cli_save(
                 encoding="utf-8",
             )
             _render_concept_fiche(record)
-            print(f"[save] Opgeslagen (disk + render, geen RAG): {concept_id}")
-            return 0
         except OSError as exc:
             print(f"[save] Disk-write mislukt voor {concept_id}: {exc}", file=sys.stderr)
             return 1
+
+        # Candidates-DB markering (alleen als wave_id meegegeven — voor reindex-wave)
+        if wave_id:
+            try:
+                from tools.extractie import candidates_db
+                candidates_db.markeer_gerealiseerd(
+                    concept_id,
+                    record_id=concept_id,
+                    extract_wave_id=wave_id,
+                )
+                wave_suffix = f" (wave: {wave_id})"
+            except Exception as cand_exc:
+                logger.debug("save --no-rag: candidate-markering overgeslagen voor %s: %s", concept_id, cand_exc)
+                wave_suffix = f" (wave: {wave_id}, kandidaat-markering overgeslagen)"
+        else:
+            wave_suffix = ""
+
+        bulk_label = "bulk, " if bulk else ""
+        print(f"[save] Opgeslagen ({bulk_label}disk + render, geen RAG{wave_suffix}): {concept_id}")
+        return 0
 
     resolved_chroma = chroma_path or _default_chroma_path()
     try:
@@ -1286,6 +1315,79 @@ def _cli_save(
         return 1
 
 
+def _cli_reindex_wave(wave_id: str, chroma_path: Optional[str], dry_run: bool) -> int:
+    """
+    Herindexeer alle records van een specifieke extract-wave in RAG.
+
+    Gebruikt na bulk-extract met --bulk / --no-rag: agents schrijven disk + render
+    maar slaan de daemon-RAG-update over om queue-contention te vermijden.
+    Na de wave roept de orchestrator dit commando aan om de N records te indexeren
+    in één doorgang, zodat de volgende wave `zoek_concepten` kan doen op vorige
+    wave-records.
+
+    Args:
+        wave_id: extract_wave_id om te re-indexeren (exact match op candidates-DB)
+        chroma_path: ChromaDB-pad (default: data/rag/main)
+        dry_run: als True → toont welke records geïndexeerd zouden worden, voert niets uit
+
+    Werkwijze:
+    1. Query candidates-DB op extract_wave_id == wave_id AND gerealiseerd == 1
+    2. Voor elk: read JSON van disk, POST naar daemon /index-concept
+    3. Rapporteer: aantal geïndexeerd, tijd, fouten
+
+    Exit 0 als alle records succesvol geïndexeerd (of dry-run). Exit 1 bij fouten.
+    """
+    import time
+
+    try:
+        from tools.extractie import candidates_db
+        fiche_ids = candidates_db.lijst_gerealiseerd_in_wave(wave_id)
+    except Exception as exc:
+        print(f"[reindex-wave] Candidates-DB niet bereikbaar: {exc}", file=sys.stderr)
+        return 1
+
+    if not fiche_ids:
+        print(f"[reindex-wave] Geen gerealiseerde records gevonden voor wave: {wave_id}")
+        return 0
+
+    print(f"[reindex-wave] {len(fiche_ids)} record(s) voor wave '{wave_id}':")
+    for fiche_id in sorted(fiche_ids):
+        print(f"  - {fiche_id}")
+
+    if dry_run:
+        print(f"\n[reindex-wave] --dry-run: geen indexering uitgevoerd.")
+        return 0
+
+    resolved_chroma = chroma_path or _default_chroma_path()
+    fouten = 0
+    start_totaal = time.monotonic()
+
+    for fiche_id in sorted(fiche_ids):
+        pad = _record_pad(fiche_id)
+        if not pad.exists():
+            print(f"  [reindex-wave] OVERGESLAGEN (niet op disk): {fiche_id}", file=sys.stderr)
+            fouten += 1
+            continue
+        start = time.monotonic()
+        try:
+            record = json.loads(pad.read_text(encoding="utf-8"))
+            _post_daemon("index-concept", {"record": record}, resolved_chroma)
+            duur = time.monotonic() - start
+            print(f"  [reindex-wave] OK ({duur:.1f}s): {fiche_id}")
+        except Exception as exc:
+            duur = time.monotonic() - start
+            print(f"  [reindex-wave] MISLUKT ({duur:.1f}s) {fiche_id}: {exc}", file=sys.stderr)
+            fouten += 1
+
+    totaal_duur = time.monotonic() - start_totaal
+    geslaagd = len(fiche_ids) - fouten
+    print(
+        f"\n[reindex-wave] Klaar: {geslaagd}/{len(fiche_ids)} geïndexeerd "
+        f"in {totaal_duur:.1f}s voor wave '{wave_id}'."
+    )
+    return 0 if fouten == 0 else 1
+
+
 def main() -> None:
     import argparse
 
@@ -1295,21 +1397,27 @@ def main() -> None:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Subcommands:
-  save <pad>        Laad record uit JSON-bestand en sla op via records-API.
-                    Vervangt python3 -c inline-pattern (faalt bij ≥5KB records).
-  audit             Controleer disk/RAG parity (read-only). Exit 0 = ok, 1 = drift.
-  audit --fix       Herstel drift: verwijder ghosts, reindex missing.
-  reindex-all       Indexeer alle disk-records opnieuw in RAG.
-  reindex <id>      Indexeer één record opnieuw in RAG.
+  save <pad>              Laad record uit JSON-bestand en sla op via records-API.
+                          Vervangt python3 -c inline-pattern (faalt bij ≥5KB records).
+  save <pad> --bulk       Bulk-modus: schrijf disk + render, skip daemon-RAG.
+                          Gebruik daarna reindex-wave <wave-id> voor batch-indexering.
+  audit                   Controleer disk/RAG parity (read-only). Exit 0 = ok, 1 = drift.
+  audit --fix             Herstel drift: verwijder ghosts, reindex missing.
+  reindex-all             Indexeer alle disk-records opnieuw in RAG.
+  reindex <id>            Indexeer één record opnieuw in RAG.
+  reindex-wave <wave-id>  Herindexeer alle records van een wave (na bulk-extract).
 
 Voorbeelden:
   python3 -m tools.lib.records_api save /tmp/mijn-concept.json
   python3 -m tools.lib.records_api save /tmp/mijn-concept.json --wave-id wave-001
   python3 -m tools.lib.records_api save /tmp/mijn-concept.json --no-rag
+  python3 -m tools.lib.records_api save /tmp/mijn-concept.json --bulk --wave-id wave-001
   python3 -m tools.lib.records_api audit
   python3 -m tools.lib.records_api audit --fix
   python3 -m tools.lib.records_api reindex-all
   python3 -m tools.lib.records_api reindex beroepsgeheim-gecertificeerd-accountant
+  python3 -m tools.lib.records_api reindex-wave wave-bench2-sonnet-liquidatiereserve-20260521
+  python3 -m tools.lib.records_api reindex-wave wave-bench2-sonnet-liquidatiereserve-20260521 --dry-run
 """,
     )
     parser.add_argument(
@@ -1344,6 +1452,17 @@ Voorbeelden:
         action="store_true",
         help="Sla RAG-index-update over (voor batch-pipelines met latere reindex via reindex-all).",
     )
+    save_parser.add_argument(
+        "--bulk",
+        dest="bulk",
+        action="store_true",
+        help=(
+            "Bulk-extract modus: impliceert --no-rag. Schrijft disk + render, skip daemon-RAG-update "
+            "om queue-contention bij parallelle agents te vermijden. "
+            "Bij --wave-id: markeert kandidaat als gerealiseerd in candidates-DB zodat "
+            "reindex-wave de wave later batch-kan-indexeren."
+        ),
+    )
 
     # audit
     audit_parser = subparsers.add_parser(
@@ -1372,6 +1491,24 @@ Voorbeelden:
         help="Concept-id (bestandsnaam zonder .json)",
     )
 
+    # reindex-wave <wave-id>
+    reindex_wave_parser = subparsers.add_parser(
+        "reindex-wave",
+        help=(
+            "Herindexeer alle records van een specifieke extract-wave in RAG. "
+            "Gebruik na bulk-extract met --bulk / --no-rag."
+        ),
+    )
+    reindex_wave_parser.add_argument(
+        "wave_id",
+        help="extract_wave_id om te re-indexeren (exact match op candidates-DB)",
+    )
+    reindex_wave_parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Toon welke records geïndexeerd zouden worden zonder iets uit te voeren.",
+    )
+
     args = parser.parse_args()
 
     if args.subcommand is None:
@@ -1386,6 +1523,7 @@ Voorbeelden:
             wave_id=args.wave_id,
             chroma_path=chroma,
             geen_rag=args.geen_rag,
+            bulk=args.bulk,
         ))
     elif args.subcommand == "audit":
         sys.exit(_cli_audit(chroma, fix=args.fix))
@@ -1393,6 +1531,12 @@ Voorbeelden:
         sys.exit(_cli_reindex_all(chroma))
     elif args.subcommand == "reindex":
         sys.exit(_cli_reindex_one(args.concept_id, chroma))
+    elif args.subcommand == "reindex-wave":
+        sys.exit(_cli_reindex_wave(
+            wave_id=args.wave_id,
+            chroma_path=chroma,
+            dry_run=args.dry_run,
+        ))
     else:
         parser.print_help()
         sys.exit(1)

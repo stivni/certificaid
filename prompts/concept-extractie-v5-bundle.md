@@ -33,7 +33,7 @@ Doe **geen herhaalcalls** voor deze data. Skip altijd:
 1. **Lees de bundle** (`/path/to/data/extractie/_bundles/<fiche_id>.json`)
 2. **Gebruik de bronnen-hits direct** uit `bronnen_resultaten[].hits` — **geen initiële zoek_bronnen-calls**
 3. **Schrijf fiche** volgens schema 2.0 top-volgorde (zie §3)
-4. **Max 1-3 extra `zoek_bronnen(rerank=true)`** alleen voor wettelijke ⚖️-claims waar bundle gaps heeft
+4. **Max 1 extra `zoek_bronnen(rerank=true)`** alleen voor ÉÉN wettelijke ⚖️-claim waar bundle een concreet gap heeft
 5. **Schrijf record naar `/tmp/<fiche_id>.json`** via Write-tool (clean JSON, geen Python-escape-issues)
 6. **Save + markeer via CLI** (één Bash-call):
    ```bash
@@ -48,9 +48,11 @@ Doe **geen herhaalcalls** voor deze data. Skip altijd:
 
 **Harde caps (full-2-pass):**
 - `zoek_bronnen` totaal: ≤ 3 (alleen eigen creatieve queries)
-- `zoek_bronnen(rerank=true)` totaal: ≤ 3
+- `zoek_bronnen(rerank=true)` totaal: **≤ 1** (gebruik alleen voor ÉÉN cruciale wettelijke ⚖️-claim met onzekerheid)
 - Bash: alleen voor save_record-uitvoering (geen exploration)
 - v1-reads: 0 (al in bundle)
+
+> **Rerank-discipline**: bundle bi-encoder is meestal voldoende — rerank alleen voor échte ambiguïteit-resolutie, niet als perfectie-streven. Elke extra `rerank=true`-call kost ~30-60s door cross-encoder overhead.
 
 ### 2b. Legacy (bundle.full_2pass == false — daemon was offline bij bundle-build)
 
@@ -60,7 +62,7 @@ Doe **geen herhaalcalls** voor deze data. Skip altijd:
 
 **Harde caps (legacy):**
 - `zoek_bronnen` totaal: ≤ 7 (4 inhaal-queries + 3 eigen)
-- `zoek_bronnen(rerank=true)` totaal: ≤ 2
+- `zoek_bronnen(rerank=true)` totaal: **≤ 1** (zie rerank-discipline hierboven)
 
 ---
 
