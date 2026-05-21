@@ -28,3 +28,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
 
 - [[concepten/index|Alle concepten]]
 - [[competenties/index|Alle competenties]]
+
+## Bronnen
+
+- [Cijfers & tarieven 2026 (ITAA) (PDF)](bronnen/cijfers-tarieven-2026.pdf)
