@@ -67,6 +67,32 @@ def _run_cli(*args: str, expect_fail: bool = False) -> subprocess.CompletedProce
     return res
 
 
+@pytest.fixture(scope="module", autouse=True)
+def _backup_restore_merged():
+    """Snapshot productie `_merged/`-state vóór tests, restore erna.
+
+    De merger-CLI schrijft naar de echte productie-dir; deze fixture
+    voorkomt dat de POC-subset-run de volledige `--alle`-uitrol-output
+    overschrijft. Bij tests die nooit gedraaid hebben is dit een no-op.
+    """
+    if not MERGED_DIR.exists():
+        yield
+        return
+    backup: dict[Path, bytes] = {}
+    for p in MERGED_DIR.glob("*.json"):
+        backup[p] = p.read_bytes()
+    try:
+        yield
+    finally:
+        # Cleanup test-artefacten die niet in backup zaten
+        for p in MERGED_DIR.glob("*.json"):
+            if p not in backup:
+                p.unlink()
+        # Restore originele content
+        for p, data in backup.items():
+            p.write_bytes(data)
+
+
 @pytest.fixture(scope="module")
 def run_cli():
     if not SUBSET_PATH.exists():
