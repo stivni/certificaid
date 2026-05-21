@@ -200,48 +200,13 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus -->') }}
 
-{% if examenfocus_groepen or voorbeeldvragen_synth %}
-{% for groep in examenfocus_groepen %}
-### {{ groep.naam }} 📃
-
-{% if groep.wat_getoetst_wordt %}
-{{ groep.wat_getoetst_wordt }}
-
-
-{% endif %}
-{% for v in groep.vragen %}
-{% if v.sub_vragen %}
-{% for sv in v.sub_vragen %}
-{% set type_label = {'j_f_set': 'juist/fout', 'mc': 'meerkeuze', 'open': 'open'}.get(sv.type, sv.type) %}
-> [!question]- ITAA {{ v.examen_id }} vraag {{ v.vraag_nr }}.{{ sv.sub_id }} · {{ type_label }} (tier {{ v.tier }})
-> {{ sv.stem | replace('\n', '\n> ') }}
-{% if sv.stellingen %}
->
-{% for st in sv.stellingen %}
-> - {{ st | replace('\n', '\n>   ') }}
-{% endfor %}
-{% endif %}
-{% if sv.opties %}
->
-{% for opt in sv.opties %}
-> - {{ opt | replace('\n', '\n>   ') }}
-{% endfor %}
-{% endif %}
+{% if vragen_v4_md or voorbeeldvragen_synth %}
+{% if vragen_v4_md %}
+{% for vraag_md in vragen_v4_md %}
+{{ vraag_md }}
 
 {% endfor %}
-{% else %}
-> [!question]- ITAA {{ v.examen_id }} vraag {{ v.vraag_nr }} (tier {{ v.tier }})
-> {{ v.vraag_tekst | replace('\n', '\n> ') }}
-{% if v.antwoord_motivering %}
->
-> > [!success]- Antwoord-motivering
-> > {{ v.antwoord_motivering | replace('\n', '\n> > ') }}
 {% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% endfor %}
 {% if voorbeeldvragen_synth %}
 ### Synthetische oefenvarianten 🤖
 
@@ -266,7 +231,7 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {% endif %}
 {% else %}
-<!-- TODO: geen examenfocus--*.json voor dit PO; genereer via tools/examen/genereer_examenfocus_uit_classificatie.py of laat een agent examenfocus-objecten curateren -->
+<!-- Geen examenvragen geclassificeerd voor dit programmaonderdeel (schema 4.0). -->
 
 {% endif %}
 

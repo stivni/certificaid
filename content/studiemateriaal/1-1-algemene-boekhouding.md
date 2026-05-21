@@ -19,12 +19,14 @@ gerelateerde_concepten:
 - boeken-voorzieningen-voor-risicos-en-kosten
 - boeken-waardeverminderingen-op-vorderingen-en-voorraden
 - boekhoudbeginselen-overzicht
+- boekhoudkundige-verwerking-insolventie-akkoord
 - boekjaar-eindprocedure-checklist
 - continuiteitsbeginsel
 - dagboek
 - dubbel-boekhouden
 - eigen-aandelen
 - eigen-middelen
+- financieel-plan-oprichting
 - financiele-vaste-activa
 - financiele-verrichtingen
 - geldbeleggingen
@@ -46,6 +48,7 @@ gerelateerde_concepten:
 - oprichtingskosten
 - opsplitsing-eigendom
 - opstellen-afschrijvingsplan-vaste-activa
+- opstellen-openingsbalans-vennootschap
 - overlopende-rekeningen
 - rechten-verplichtingen-buiten-balans
 - regelmatige-boekhouding
@@ -68,7 +71,7 @@ gerelateerde_concepten:
 - waarderen-en-boeken-voorraden-fifo-ggp
 - waardeverminderingen
 - wettelijke-reserve
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -96,21 +99,21 @@ gegenereerd_op: '2026-05-18'
 
 ## Leesgids
 
-De minicursus loopt van het redeneerkader naar de uitvoering en sluit met de afsluiting van het boekjaar. Eerst de beginselen die elke boeking dragen, dan de infrastructuur, daarna balanscomponenten en gewone bedrijfsuitoefening. Bijzondere transacties en de eindejaarscyclus staan op het einde — ze veronderstellen dat je de eerdere stukken beheerst. Lees lineair en gebruik de synthese-blokken als ankerpunten.
+<!-- TODO: Opus-glue leesgids -->
 
 ## Waarom dit programmaonderdeel telt
 
-Algemene boekhouding is de grondplaat van het hele beroep: zonder een [[regelmatige-boekhouding|regelmatige boekhouding]] kan geen enkele jaarrekening, fiscale aangifte of audit-conclusie op betrouwbare cijfers steunen. Op integratieniveau volstaat het niet om de boeking te plaatsen — je moet ze kunnen verdedigen via het [[continuiteitsbeginsel|continuïteits-]], [[voorzichtigheidsbeginsel|voorzichtigheids-]] en [[getrouw-beeld|getrouw-beeld-beginsel]]. De examenvragen toetsen zelden losse definities; ze toetsen of je een verrichting van begin tot eind kan doorlopen, tot en met de [[boekjaar-eindprocedure-checklist|afsluiting van het boekjaar]].
+<!-- TODO: Opus-glue waarom_po -->
 
 ## Wat doet een boekhouding? Van enkelvoudig naar dubbel, en waarom dat ertoe doet
 
-Een boekhouding is geen administratieve formaliteit maar een geordend geheugen: elke verrichting raakt minstens twee rekeningen via [[dubbel-boekhouden|dubbel boekhouden]], waardoor activa gelijk aan passiva per definitie klopt. Kleine ondernemingen onder de wettelijke drempel mogen werken met een [[vereenvoudigde-boekhouding|vereenvoudigde boekhouding]] in drie aparte dagboeken. Wie dat verschil doorgrondt, begrijpt waarom dubbel boekhouden onmisbaar wordt zodra voorraden, vaste activa en kapitaalbewegingen in beeld komen.
+<!-- TODO: Opus-glue oriëntatie -->
 
 ## De fundamentele beginselen: het redeneerkader achter elke boeking
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-De vier beginselen hieronder zijn het minimumkader bij elke twijfelvraag. Je doorgrondt hoe [[continuiteitsbeginsel|continuïteit]] en [[voorzichtigheidsbeginsel|voorzichtigheid]] samen de waardering sturen, terwijl [[getrouw-beeld|getrouw beeld]] de eindtoets is en [[onveranderlijkheid-boekingen|onveranderlijkheid]] de vormvereiste. Geen enkel beginsel staat op zichzelf — ze grijpen in elkaar in.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[continuiteitsbeginsel|Boekhoudkundig continuïteitsbeginsel (going concern)]] · `regel`
 - [[voorzichtigheidsbeginsel|Voorzichtigheidsbeginsel]] · `regel`
@@ -122,7 +125,7 @@ De vier beginselen hieronder zijn het minimumkader bij elke twijfelvraag. Je doo
 Synthese die de zeven boekhoudbeginselen in drie functionele lagen ordent: voorwaarden voor regelmatigheid (volledigheid, oprechtheid, onveranderlijkheid), waarderingssturing (continuïteit, voorzichtigheid, consistentie), en het eindbeginsel (getrouw beeld). Cruciaal voor stagiairs omdat losse memorisatie hier niet helpt — examenvragen toetsen welk beginsel doorslaggevend is bij conflicten (typisch: voorzichtigheid tegenover continuïteit).
 
 
-De tabel hieronder ordent de zeven beginselen volgens hun functie in de redenering: voorwaarden, waarderingssturing en eindtoets. Gebruik de "klassieke valkuil"-kolom als zelftest: als je elke valkuil kan herkennen, beheers je de scharnier tussen [[boekhoudbeginselen-overzicht|de beginselen]] en hun toepassing.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Beginsel | Functie | Primaire bron | Vraag die het beantwoordt | Klassieke valkuil |
 |---|---|---|---|---|
@@ -169,7 +172,7 @@ _Bouwt op_: [[continuiteitsbeginsel]] · [[voorzichtigheidsbeginsel]] · [[getro
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Achter elke boeking zit een [[verantwoordingsstuk|verantwoordingsstuk]] dat in een chronologisch [[dagboek|dagboek]] belandt en op balansdatum wordt geconfronteerd met de fysieke [[inventaris|inventaris]]. Daarna geldt nog de wettelijke [[bewaring-boekhoudstukken|bewaarplicht]] — geen detail, want bij fiscale controle of audit moet alles teruggevonden worden.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[verantwoordingsstuk|Verantwoordingsstuk]] · `begrip`
 - [[dagboek|Dagboek]] · `begrip`
@@ -180,7 +183,7 @@ Achter elke boeking zit een [[verantwoordingsstuk|verantwoordingsstuk]] dat in e
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Stap voor stap doorloop je de opzet: regime-kwalificatie, [[dagboek|dagboeken]], centralisatie, periodieke [[inventaris|inventaris]] en correcte [[bewaring-boekhoudstukken|bewaring]]. De regime-kwalificatie komt eerst — pas dan ken je het verplichte minimumpakket dagboeken en het [[minimum-algemeen-rekeningenstelsel|rekeningenstelsel]].
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/voeren-regelmatige-dubbele-boekhouding|→ Volledige procedure]]
 
@@ -188,7 +191,7 @@ Stap voor stap doorloop je de opzet: regime-kwalificatie, [[dagboek|dagboeken]],
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Je beschrijft eerst het boekingsfeit en toetst het dan aan [[continuiteitsbeginsel|continuïteit]], [[voorzichtigheidsbeginsel|voorzichtigheid]], [[getrouw-beeld|getrouw beeld]] en [[onveranderlijkheid-boekingen|onveranderlijkheid]]. Bij twijfel valt de procedure terug op het eindbeginsel.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/toepassen-fundamentele-boekhoudbeginselen|→ Volledige procedure]]
 
@@ -196,7 +199,7 @@ Je beschrijft eerst het boekingsfeit en toetst het dan aan [[continuiteitsbegins
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-De grootte-categorie bepaalt het jaarrekeningschema, de commissaris-plicht en de toelichtingsverplichtingen. Je doorgrondt het verband tussen de drie criteria van de [[kleine-vennootschap|kleine vennootschap]] en de praktische gevolgen.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[kleine-vennootschap|Kleine vennootschap (WVV art. 1:24)]] · `begrip`
 
@@ -204,7 +207,7 @@ De grootte-categorie bepaalt het jaarrekeningschema, de commissaris-plicht en de
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-De [[balans|balans]] toont het vermogen op één moment, de [[resultatenrekening|resultatenrekening]] de bewegingen over het boekjaar; samen vormen ze met de toelichting de [[jaarrekening|jaarrekening]]. Je doorgrondt waarom de balans ordent volgens liquiditeit en opeisbaarheid en waarom de resultatenrekening in vier blokken oploopt.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[balans|Balans (jaarrekening-component)]] · `cluster`
 - [[resultatenrekening|Resultatenrekening]] · `cluster`
@@ -214,7 +217,7 @@ De [[balans|balans]] toont het vermogen op één moment, de [[resultatenrekening
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Het routinematige hart van de boekhouding: omzet, kostprijs, btw, [[bedrijfsvorderingen|vorderingen]] en [[schulden|schulden]]. Het [[opbrengsten-be-gaap|realisatiebeginsel]] stuurt het boekmoment, zodat het [[bedrijfsresultaat|bedrijfsresultaat]] de werkelijke exploitatie weerspiegelt.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[bedrijfsvorderingen|Bedrijfsvorderingen]] · `begrip`
 - [[schulden|Schulden (LT en KT)]] · `cluster`
@@ -225,7 +228,7 @@ Het routinematige hart van de boekhouding: omzet, kostprijs, btw, [[bedrijfsvord
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Verifieer eerst de factuur op vorm en inhoud, boek dan via [[dubbel-boekhouden|dubbel boekhouden]] in het juiste [[dagboek|dagboek]] met aanwending van het [[minimum-algemeen-rekeningenstelsel|MAR]] voor aankoop, verkoop, btw en betaling. Factuur-verificatie is de stap die studenten op het examen het vaakst overslaan.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/boeken-aankoop-verkoop-met-btw|→ Volledige procedure]]
 
@@ -233,7 +236,7 @@ Verifieer eerst de factuur op vorm en inhoud, boek dan via [[dubbel-boekhouden|d
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Vaste activa worden duurzaam ingezet, gewaardeerd aan [[aanschaffingswaarde|aanschaffingswaarde]] en gespreid via [[afschrijvingen|afschrijvingen]] of bij duurzaam verlies gecorrigeerd via [[waardeverminderingen|waardeverminderingen]]. Je doorgrondt het onderscheid tussen [[materiele-vaste-activa|materiële]], [[immateriele-vaste-activa|immateriële]] en [[financiele-vaste-activa|financiële]] vaste activa.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[oprichtingskosten|Oprichtingskosten]] · `cluster`
 - [[aanschaffingswaarde|Aanschaffingswaarde]] · `begrip`
@@ -248,7 +251,7 @@ Vaste activa worden duurzaam ingezet, gewaardeerd aan [[aanschaffingswaarde|aans
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Scheid eerst [[oprichtingskosten|oprichtingskosten]] van eerste-werkings-kosten — alleen de eerste komen op rubriek 20 en worden afgeschreven binnen de marges van de [[afschrijvingen|afschrijvingsregels]]. Activeren of direct ten laste nemen is een professional-judgment-keuze.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/boeken-oprichtings-en-kapitaalverhogingskosten|→ Volledige procedure]]
 
@@ -256,7 +259,7 @@ Scheid eerst [[oprichtingskosten|oprichtingskosten]] van eerste-werkings-kosten 
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Vertrek vanuit de [[aanschaffingswaarde|aanschaffingswaarde]], schat levensduur en restwaarde, kies tussen lineair en degressief en leg de uitkomst vast in de [[waarderingsregels-jaarrekening|waarderingsregels]]. De plicht is wettelijk; de keuze van methode en levensduur is praktijkbeoordeling die bestendig moet worden toegepast.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-afschrijvingsplan-vaste-activa|→ Volledige procedure]]
 
@@ -264,7 +267,7 @@ Vertrek vanuit de [[aanschaffingswaarde|aanschaffingswaarde]], schat levensduur 
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-[[voorraden|Voorraden]] en [[geldbeleggingen|geldbeleggingen]] zijn de korte-termijn-tegenhangers van de vaste activa: ondersteuning van de bedrijfscyclus of tijdelijke parking van overtollige middelen. Zakt hun realiseerbare waarde duurzaam onder de boekwaarde, dan treedt de [[bijzondere-waardevermindering|bijzondere waardevermindering]] in werking — niet alleen op materiële activa.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[voorraden|Voorraden]] · `cluster`
 - [[geldbeleggingen|Geldbeleggingen en liquide middelen]] · `begrip`
@@ -274,7 +277,7 @@ Vertrek vanuit de [[aanschaffingswaarde|aanschaffingswaarde]], schat levensduur 
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Leg eerst per voorraadbeweging de [[aanschaffingswaarde|aanschaffingswaarde]] vast, kies dan tussen FIFO en gewogen gemiddelde en houd die bestendig aan. Beide methoden zijn toegelaten onder de [[waarderingsregels-jaarrekening|waarderingsregels]] maar leiden bij prijsschommelingen tot een ander [[voorraden|voorraadsaldo]] en dus een ander resultaat.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/waarderen-en-boeken-voorraden-fifo-ggp|→ Volledige procedure]]
 
@@ -282,7 +285,7 @@ Leg eerst per voorraadbeweging de [[aanschaffingswaarde|aanschaffingswaarde]] va
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Identificeer dubieuze [[bedrijfsvorderingen|vorderingen]] en overgewaardeerde [[voorraden|voorraadposten]], schat het verlies en boek de [[waardeverminderingen|waardevermindering]] onder het [[voorzichtigheidsbeginsel|voorzichtigheidsbeginsel]]. De praktijkbeoordeling zit in het criterium "dubieus" en het verlies-percentage.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/boeken-waardeverminderingen-op-vorderingen-en-voorraden|→ Volledige procedure]]
 
@@ -290,7 +293,7 @@ Identificeer dubieuze [[bedrijfsvorderingen|vorderingen]] en overgewaardeerde [[
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Aan de passiefzijde clusteren we [[eigen-middelen|eigen vermogen]] met zijn componenten — kapitaal, [[uitgiftepremie|uitgiftepremies]], [[wettelijke-reserve|wettelijke reserve]], andere reserves — naast de [[voorzieningen|voorzieningen voor risico's en kosten]]. Daarbij hoort de dynamiek van [[kapitaalwijziging|kapitaalverhogingen en -verminderingen]] en hun boekhoudkundige weerslag.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[eigen-middelen|Eigen middelen (eigen vermogen)]] · `cluster`
 - [[uitgiftepremie|Uitgiftepremie]] · `begrip`
@@ -302,7 +305,7 @@ Aan de passiefzijde clusteren we [[eigen-middelen|eigen vermogen]] met zijn comp
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Identificeer eerst de potentiële last, schat waarschijnlijkheid en bedrag, en leg bij voldoende zekerheid een [[voorzieningen|voorziening]] aan onder het [[voorzichtigheidsbeginsel|voorzichtigheidsbeginsel]]. Bij te grote onzekerheid schakel je terug naar [[rechten-verplichtingen-buiten-balans|rechten en verplichtingen buiten balans]].
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/boeken-voorzieningen-voor-risicos-en-kosten|→ Volledige procedure]]
 
@@ -310,7 +313,7 @@ Identificeer eerst de potentiële last, schat waarschijnlijkheid en bedrag, en l
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-[[overlopende-rekeningen|Overlopende rekeningen]] maken het verschil zichtbaar tussen kasstroom en economische toerekening: kosten en opbrengsten landen in het boekjaar waarop ze betrekking hebben, niet bij betaling of inning. Zonder hen klopt het [[bedrijfsresultaat|bedrijfsresultaat]] op periodebasis niet.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[overlopende-rekeningen|Overlopende rekeningen]] · `cluster`
 
@@ -318,7 +321,7 @@ Identificeer eerst de potentiële last, schat waarschijnlijkheid en bedrag, en l
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Identificeer periode-overschrijdende kosten en opbrengsten, bereken het pro-rata-deel en boek op de correcte [[overlopende-rekeningen|overlopende rekening]]. De [[waarderingsregels-jaarrekening|waarderingsregels]] verplichten de toerekening; het pro-rata-aandeel inschatten is jouw analyse.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/verwerken-overlopende-rekeningen-matching|→ Volledige procedure]]
 
@@ -326,7 +329,7 @@ Identificeer periode-overschrijdende kosten en opbrengsten, bereken het pro-rata
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-De resultatenrekening kent drie strikte categorieën: bedrijfs-, [[financiele-verrichtingen|financieel]] en [[niet-recurrente-verrichtingen|niet-recurrent]] resultaat. Een verkeerde categorisatie verstoort niet alleen de leesbaarheid van de [[resultatenrekening|resultatenrekening]], maar heeft ook fiscale gevolgen.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[financiele-verrichtingen|Financiële verrichtingen (kosten + opbrengsten)]] · `cluster`
 - [[niet-recurrente-verrichtingen|Niet-recurrente verrichtingen]] · `cluster`
@@ -336,7 +339,7 @@ De resultatenrekening kent drie strikte categorieën: bedrijfs-, [[financiele-ve
 Een visualisatie van de drie resultaten-categorieën (bedrijfs / financieel / niet-recurrent) die direct het camouflage-mechanisme in examenvragen aanpakt: voor elke verrichting moet eerst de aard worden bepaald, pas dan de klasse. Voor een stagiair-GA: studiehulp om de meest gemaakte categorisatie-fouten (rente op 61, meerwaarde op 75, wisselresultaat verkeerd) gestructureerd te vermijden.
 
 
-De [[resultaat-categorisatie-beslisboom|beslisboom hieronder]] vertaalt "normale exploitatie" naar concrete vragen — de categorie volgt uit de aard van de verrichting, niet uit het rekeningnummer.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Categorie | MAR-klassen | Wat hoort hier | Voorbeeld | Typische valkuil |
 |---|---|---|---|---|
@@ -373,7 +376,7 @@ _Bouwt op_: [[bedrijfsresultaat]] · [[financiele-verrichtingen]] · [[niet-recu
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Deze cluster bundelt transacties waar juridische vorm en economische realiteit uit elkaar lopen: [[leasing|leasing]], [[obligatielening|obligatieleningen]], [[eigen-aandelen|eigen aandelen]] en [[opsplitsing-eigendom|opsplitsing van eigendom]]. De reflex blijft dezelfde — economische substantie boven juridische schijn — en raakt ook de [[rechten-verplichtingen-buiten-balans|rechten en verplichtingen buiten balans]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[leasing|Leasing (financieel en operationeel)]] · `cluster`
 - [[obligatielening|Obligatielening]] · `cluster`
@@ -385,7 +388,7 @@ Deze cluster bundelt transacties waar juridische vorm en economische realiteit u
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Lees het leasingcontract, identificeer de kerngegevens en kwalificeer de [[leasing|leasing]] als financieel of operationeel. Financiële leasing landt op de balans bij de [[materiele-vaste-activa|materiële vaste activa]] met [[schulden|schuld]] en [[afschrijvingen|afschrijving]]; operationele leasing blijft huurkost.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/kwalificeren-en-boeken-leasing|→ Volledige procedure]]
 
@@ -393,7 +396,7 @@ Lees het leasingcontract, identificeer de kerngegevens en kwalificeer de [[leasi
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Vertrek vanuit het emissieprospectus en boek de [[obligatielening|obligatielening]] correct: nominale waarde versus uitgiftekoers, couponrente, eventueel uitgiftedisagio gespreid via [[overlopende-rekeningen|overlopende rekeningen]], en de aflossing als [[schulden|langlopende schuld]] die jaar na jaar verkortlopend wordt.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/boeken-uitgifte-en-aflossing-obligatielening|→ Volledige procedure]]
 
@@ -401,7 +404,7 @@ Vertrek vanuit het emissieprospectus en boek de [[obligatielening|obligatielenin
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Kwalificeer eerst het VZW-regime (microvereniging, klein of groot) en kies dan de boekhoudvorm — [[vereenvoudigde-boekhouding|vereenvoudigd]] of [[dubbel-boekhouden|dubbel]] — plus het [[jaarrekening-vzw-stichting|jaarrekeningschema]] dat erbij hoort.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/voeren-boekhouding-vzw-met-economische-activiteit|→ Volledige procedure]]
 
@@ -410,7 +413,7 @@ Kwalificeer eerst het VZW-regime (microvereniging, klein of groot) en kies dan d
 Synthese die per stap toont wat een vennootschap aan het einde van haar boekjaar moet doen: inventaris opmaken, eindejaarsverrichtingen boeken, proef- en saldibalans opstellen, jaarrekening voorbereiden, goedkeuren en openbaarmaken. Voor de stagiair-GA is dit de praktische ruggengraat van zijn eerste boekjaar-afsluitingen.
 
 
-De [[boekjaar-eindprocedure-checklist|veertien stappen hieronder]] vormen een vaste volgorde: pas na de eindejaarsverrichtingen kan je het resultaat vaststellen, pas na de algemene vergadering kan de jaarrekening klaar zijn. Gebruik de tabel als afvinkbare werkflow tijdens je eerste afsluitingen.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Stap | Wat | Wanneer | Concept-record | Output |
 |---|---|---|---|---|
@@ -478,7 +481,7 @@ _Bouwt op_: [[regelmatige-boekhouding]] · [[inventaris]] · [[overlopende-reken
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Na vaststelling van het resultaat bestemt de algemene vergadering het: dotatie aan de [[wettelijke-reserve|wettelijke reserve]], andere reserves, dividend of overdracht. Pas na deze [[resultaatverwerking|resultaatverwerking]] is de jaarrekening volledig invulbaar.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[resultaatverwerking|Resultaatverwerking (winst- of verliesbestemming)]] · `cluster`
 
@@ -486,7 +489,7 @@ Na vaststelling van het resultaat bestemt de algemene vergadering het: dotatie a
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Doorloop de eindejaars-checklist: [[inventaris|inventarisopname]], [[afschrijvingen|afschrijvingen]], [[waardeverminderingen|waardeverminderingen]], [[voorzieningen|voorzieningen]] en [[overlopende-rekeningen|overlopende rekeningen]]. De proefbalans is het controlepunt vóór je naar de [[jaarrekening|jaarrekening]] doorrolt.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/uitvoeren-eindejaarsverrichtingen-en-proefbalans|→ Volledige procedure]]
 
@@ -494,7 +497,7 @@ Doorloop de eindejaars-checklist: [[inventaris|inventarisopname]], [[afschrijvin
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Bereken eerst het te bestemmen resultaat, dan in vaste volgorde [[resultaatverwerking|vennootschapsbelasting, wettelijke reserve, beschikbare reserves, dividend en overdracht]] — de volgorde is wettelijk, de verhoudingen zijn AV-beslissing.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/boeken-resultaatverwerking-en-bestemming|→ Volledige procedure]]
 
@@ -502,7 +505,7 @@ Bereken eerst het te bestemmen resultaat, dan in vaste volgorde [[resultaatverwe
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-Wanneer de going-concern-aanname wegvalt, schakelt de [[vereffening|vereffening]] de boekhouding over op discontinuïteits-waardering. Je doorgrondt het verband tussen het wegvallen van het [[continuiteitsbeginsel|continuïteitsbeginsel]] en de gewijzigde [[waarderingsregels-jaarrekening|waarderingsregels]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[vereffening|Vereffening van een vennootschap]] · `cluster`
 
@@ -510,18 +513,18 @@ Wanneer de going-concern-aanname wegvalt, schakelt de [[vereffening|vereffening]
 
 > [!info] Hoort bij taak: De boekhouding voeren
 
-De [[jaarrekening-presentatie|jaarrekeningpresentatie]] gehoorzaamt aan dezelfde grondbeginselen onder elk regime, maar de vorm verschilt: BE GAAP via vaste schema's, IFRS met meer ruimte voor eigen indeling. Je doorgrondt de gemeenschappelijke kern los van het regime.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[jaarrekening-presentatie|Jaarrekeningpresentatie (regime-overstijgend)]] · `cluster`
 
 ## Reflectie: digitalisering, e-invoicing en de boekhouding van morgen
 
-De papieren basisregels blijven overeind, maar de vorm verschuift. Een [[verantwoordingsstuk|verantwoordingsstuk]] is vandaag vaker een gestructureerd elektronisch bestand; een [[dagboek|dagboek]] een database in een boekhoudpakket. De [[bewaring-boekhoudstukken|bewaarplicht]] verandert daardoor inhoudelijk niet, maar wel praktisch: digitale leesbaarheid en toegankelijkheid voor controle worden de nieuwe aandachtspunten.
+<!-- TODO: Opus-glue oriëntatie -->
 
 
 ## Synthese-stappenplan
 
-Begin met de regime-kwalificatie: [[vereenvoudigde-boekhouding|vereenvoudigde]] of [[dubbel-boekhouden|dubbele boekhouding]], en welk jaarrekeningschema past op de groottecriteria van de [[kleine-vennootschap|kleine vennootschap]]. Organiseer dan de infrastructuur: [[verantwoordingsstuk|verantwoordingsstukken]], [[dagboek|dagboeken]] en het [[minimum-algemeen-rekeningenstelsel|MAR]]. Boek de gewone bedrijfsuitoefening — aankopen, verkopen, btw, [[bedrijfsvorderingen|vorderingen]], [[schulden|schulden]] — onder het [[opbrengsten-be-gaap|realisatiebeginsel]]. Verwerk parallel de investeringen aan [[aanschaffingswaarde|aanschaffingswaarde]] met geplande [[afschrijvingen|afschrijvingen]] volgens de [[waarderingsregels-jaarrekening|waarderingsregels]]. Op balansdatum stel je de fysieke [[inventaris|inventaris]] op en boek je de eindejaarsverrichtingen: afschrijvingen, [[waardeverminderingen|waardeverminderingen]], [[voorzieningen|voorzieningen]] en [[overlopende-rekeningen|overlopende rekeningen]] — telkens onder het [[voorzichtigheidsbeginsel|voorzichtigheidsbeginsel]]. Stel de proefbalans op, identificeer [[niet-recurrente-verrichtingen|niet-recurrente verrichtingen]], boek de belasting en sluit klassen 6 en 7. De algemene vergadering bestemt het resultaat — [[wettelijke-reserve|wettelijke reserve]], beschikbare reserves, eventueel dividend — pas dan is de [[jaarrekening|jaarrekening]] opmaakbaar, klaar voor neerlegging en [[bewaring-boekhoudstukken|wettelijke bewaring]].
+<!-- TODO: Opus-glue synthese -->
 
 ## Cheatsheet
 
@@ -583,558 +586,540 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-Op integratieniveau toetst het examen of je een verrichting kan plaatsen in het juiste regime, de juiste resultaatcategorie en de juiste eindejaarsbehandeling — vaak in één gecombineerde casus. De vragen hieronder oefenen de denkpatronen waar stagiairs typisch struikelen.
+<!-- TODO: Opus-glue examenfocus -->
 
-### Wetgeving inzake de jaarrekening 📃
+> [!question]- Afsluitingsboekingen bij kapitaalsubsidie op een afschrijfbaar actief
+> *Examen 2003-bibf · PO 1.1*
+>
+> > Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %.
+>
+> Geef de afsluitingsboekingen voor de boekjaren 2002 en 2003.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > Casus-parameters: machine aangekocht in 2002 voor 100.000,00 EUR; kapitaalsubsidie 10.000,00 EUR definitief toegezegd in 2002 (twee schijven van 5.000,00 EUR in 2003 en 2004); afschrijving 10% lineair; belastingstarief 40%. Bij toezegging wordt de kapitaalsubsidie netto na uitgestelde belasting geboekt: 60% op rekening 15 (netto kapitaalsubsidie) en 40% op rekening 168 (uitgestelde belastingen). Jaarlijkse afschrijving machine: 10.000,00 EUR. Pro rata in resultaatname kapitaalsubsidie volgt het afschrijvingsritme: 10% per jaar van 10.000 = 1.000,00 EUR bruto, waarvan 600,00 EUR via 753 (in resultaat genomen kapitaalsubsidies) en 400,00 EUR via 780 (onttrekking aan uitgestelde belastingen). ⚠️ te verifiëren - rekeningnummers volgen het MAR; exacte codes te valideren. 🤖
+> > 
+> > | Zijde | Rekening | Naam | Bedrag |
+> > | --- | --- | --- | --- |
+> > | D | 416 | Diverse vorderingen - te ontvangen kapitaalsubsidie | 10.000 |
+> > | C | 15 | Kapitaalsubsidies (netto) | 6.000 |
+> > | C | 168 | Uitgestelde belastingen op kapitaalsubsidies | 4.000 | 🤖
+> > 
+> > 2002 (toezeggingsboeking, in de loop van het boekjaar): definitieve toezegging kapitaalsubsidie 10.000,00 EUR opgesplitst in netto-subsidie (60%) en uitgestelde belastingen (40%).
+> > 
+> > | Zijde | Rekening | Naam | Bedrag |
+> > | --- | --- | --- | --- |
+> > | D | 6302 | Afschrijvingen op materiele vaste activa | 10.000 |
+> > | C | 2309 | Geboekte afschrijvingen op installaties, machines en uitrusting | 10.000 | 🤖
+> > 
+> > Afsluitingsboeking 31/12/2002 - jaarlijkse afschrijving machine 10% x 100.000,00.
+> > 
+> > | Zijde | Rekening | Naam | Bedrag |
+> > | --- | --- | --- | --- |
+> > | D | 15 | Kapitaalsubsidies (netto) | 600 |
+> > | C | 753 | In resultaat genomen kapitaalsubsidies | 600 | 🤖
+> > 
+> > Afsluitingsboeking 31/12/2002 - pro rata in resultaatname van de netto kapitaalsubsidie (10% van 6.000,00).
+> > 
+> > | Zijde | Rekening | Naam | Bedrag |
+> > | --- | --- | --- | --- |
+> > | D | 168 | Uitgestelde belastingen op kapitaalsubsidies | 400 |
+> > | C | 780 | Onttrekking aan de uitgestelde belastingen | 400 | 🤖
+> > 
+> > Afsluitingsboeking 31/12/2002 - pro rata onttrekking aan uitgestelde belastingen (10% van 4.000,00).
+> > 
+> > | Zijde | Rekening | Naam | Bedrag |
+> > | --- | --- | --- | --- |
+> > | D | 6302 | Afschrijvingen op materiele vaste activa | 10.000 |
+> > | C | 2309 | Geboekte afschrijvingen op installaties, machines en uitrusting | 10.000 | 🤖
+> > 
+> > Afsluitingsboeking 31/12/2003 - jaarlijkse afschrijving machine.
+> > 
+> > | Zijde | Rekening | Naam | Bedrag |
+> > | --- | --- | --- | --- |
+> > | D | 15 | Kapitaalsubsidies (netto) | 600 |
+> > | C | 753 | In resultaat genomen kapitaalsubsidies | 600 | 🤖
+> > 
+> > Afsluitingsboeking 31/12/2003 - pro rata in resultaatname netto kapitaalsubsidie.
+> > 
+> > | Zijde | Rekening | Naam | Bedrag |
+> > | --- | --- | --- | --- |
+> > | D | 168 | Uitgestelde belastingen op kapitaalsubsidies | 400 |
+> > | C | 780 | Onttrekking aan de uitgestelde belastingen | 400 | 🤖
+> > 
+> > Afsluitingsboeking 31/12/2003 - pro rata onttrekking aan uitgestelde belastingen.
 
-> [!question]- ITAA 2013-1 vraag 2 (tier B)
-> Vraag 2 … / 6 punten
-> Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.
-> a) Onderneming A heeft een openstaande leveranciersschuld ten opzichte van
-> onderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze
-> schuld in te brengen als kapitaal.
-> Zij dient de volgende boeking (en) aan te brengen in haar boekhouding.
-> Antwoord
-> 
-> |  |  |
-> |---|---|
-> | Zij boekt de leverancierschuld ten opzichte van een resultatenrekening tegen.
-> Vervolgens zal zij via de resultaatverwerking een overboeking maken naar de
-> rubriek kapitaal. |  |
-> | Zij boekt de leverancierschuld rechtstreeks over naar de rubriek kapitaal. |  |
-> | Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal. |  |
-> 
-> b) Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren
-> door terugbetaling aan haar aandeelhouders.
-> Antwoord
-> 
-> |  |  |
-> |---|---|
-> | Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
-> betalen kapitaal en gaat over tot de uitbetaling van de gelden. |  |
-> | Zij boekt de vermindering van kapitaal ten opzichte van een rekening
-> resultaatverwerking. |  |
-> | Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
-> betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van
-> twee maanden na de publicatie in het Belgisch Staatsblad. |  |
-> | Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te
-> betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van
-> twee maanden na de notariële akte. |  |
-> 
-> c) Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel
-> die exclusieve juwelen verkoopt.
-> Antwoord
-> 
-> |  |  |
-> |---|---|
-> | Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar
-> dient geen jaarrekening neer te leggen. |  |
-> | Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
-> dient een jaarrekening met cijfers van de vaste inrichting neer te leggen. |  |
-> | Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
-> dient een jaarrekening van de buitenlandse onderneming in de vorm zoals
-> opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer
-> te leggen. |  |
-> | Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en
-> dient een jaarrekening van de buitenlandse onderneming en in voorkomend
-> geval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het
-> buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen. |  |
+> [!question]- Afsluitingsboekingen voor voorraden met waardeverminderingen
+> *Examen 2003-bibf · PO 1.1*
+>
+> > Op de proef- en saldibalans staan volgende bedragen: rekening 32 Goederen in bewerking (D) 500,00 EUR en rekening 34 Handelsgoederen (D) 7.000,00 EUR. De inventaris per einde boekjaar geeft: goederen in bewerking 400,00 EUR en handelsgoederen 8.500,00 EUR. Marktwaarde handelsgoederen: 8.250,00 EUR. Er werd ook vastgesteld dat bepaalde goederen moeten worden afgeprijsd voor een totaal bedrag van 75,00 EUR.
+>
+> Geef de afsluitingsboekingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
+> [!question]- Boeking van inrichtingskosten in gehuurde gebouwen
+> *Examen 2003-bibf · PO 1.1*
+>
+> > Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen.
+>
+> In welke post(en) worden deze kosten geboekt?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-### Wetgeving inzake de jaarrekening 📃
+> [!question]- Boeking van het vakantiegeld voor bedienden
+> *Examen 2008-bibf · PO 1.1*
+>
+> > In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR waarvan 10.000,00 EUR voor de eindejaarspremies.
+>
+> Boek het vakantiegeld verschuldigd voor 2007.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > Berekening forfaitaire voorziening vakantiegeld bedienden boekjaar 2007 volgens CBN-advies 148/3 (later bevestigd via CBN-advies 2018/22): vertrekbasis = bruto bezoldigingen bedienden - eindejaarspremies = 112.000,00 - 10.000,00 = 102.000,00 EUR. Forfaitair percentage = 18,20% x 102.000,00 = 18.564,00 EUR. ⚠️ te verifiëren - exacte percentage CBN-advies 148/3 (klassiek 18,20%, maar later geactualiseerd) te valideren tegen brondocument; rekeningnummers (623 vs 6202/6203, 456 'Te betalen vakantiegeld') te valideren tegen MAR. 🤖
+> > 
+> > | Zijde | Rekening | Naam | Bedrag |
+> > | --- | --- | --- | --- |
+> > | D | 623 | Andere personeelskosten - voorziening vakantiegeld bedienden | 18.564 |
+> > | C | 456 | Te betalen vakantiegeld | 18.564 | 🤖
+> > 
+> > Afsluitingsboeking 31/12/2007 - forfaitaire raming vakantiegeld bedienden: 18,20% x (112.000,00 - 10.000,00) = 18,20% x 102.000,00 = 18.564,00 EUR.
+>
+> Wanneer boekt u dit vakantiegeld?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > - De boeking wordt verricht als afsluitingsboeking op 31 december van het boekjaar waarin de bedienden de prestaties hebben verricht (in casu: 31/12/2007).
+> > - Reden: het vakantiegeld is een kost die economisch toerekenbaar is aan het boekjaar waarin het is opgebouwd door de prestaties, ook al wordt het pas in het volgende vakantiejaar (2008) effectief uitbetaald. Toepassing van het matching-beginsel.
+> > - Bij de effectieve uitbetaling in 2008 wordt de schuldrekening 456 'Te betalen vakantiegeld' tegengeboekt; afwijkingen tussen de forfaitaire raming 2007 en het werkelijk uitbetaalde bedrag in 2008 worden in 2008 via dezelfde personeelskostenrekening verwerkt (correctie van de raming). 🤖
+> > 
+> > Het voorzichtigheidsbeginsel en het matching-beginsel uit het Belgisch boekhoudrecht vereisen dat alle kosten die betrekking hebben op het boekjaar worden geboekt, ook als ze nog niet werden uitbetaald op afsluitdatum. Het vakantiegeld voor bedienden volgt economisch het jaar van de prestaties (2007), niet het jaar van de uitbetaling (2008). CBN-advies 148/3 (later bevestigd in CBN-advies 2018/22) geeft de forfaitaire ramingsmethode op afsluitdatum om dit consistent toe te passen. 🤖
 
-> [!question]- ITAA 2013-1 vraag 3 (tier B)
-> Vraag 3 … / 5 punten Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt kan worden in ondermeer fabrieken voor de verplaatsing van zware goederen. Zij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten doen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf werd geproduceerd en deels bij derden werd ontwikkeld. Zij heeft hiervoor volgende kosten gehad: - kosten van vooronderzoek: studiebureau’s 20.000 euro - ontwikkeling door derden 15.000 euro - aankopen van materiaal 180.000 euro - lonen van arbeiders inclusief patronale bijdragen 80.000 euro Gevraagd:
-> 
-> a) Kunnen deze kosten in aanmerking voor activering? Motiveer uw antwoord. Antwoord
-> 
-> b) Zo ja, welke van de bovenvermelde kosten? Antwoord
-> 
-> c) Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op te geven tot op 2 cijfers. Antwoord
-> 
-> d) Over hoeveel jaar dient de onderneming dit minimaal af te schrijven? Antwoord
-> 
-> e) Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet commercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet verder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals aankopen en personeelskosten. Antwoord
-> 
-> ANALYSE EN KRITISCHE BEOORDELING VAN DE 25 PUNTEN JAARREKENING - CONSOLIDATIE
+> [!question]- Boekhouding van een laattijdige aankoopfactuur over twee boekjaren
+> *Examen 2008-bibf · PO 1.1*
+>
+> > In januari 2008 ontvangt u een factuur voor 1.210,00 EUR BTW inbegrepen, met betrekking tot de levering in 2007 van publiciteitsartikelen.
+>
+> Wat boekt u in 2008 en, in voorkomend geval, in 2007?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
+> [!question]- Boeking van voorraadwijzigingen
+> *Examen 2008-bibf · PO 1.1*
+>
+> **Voorraden per 1 januari N**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Grondstoffen | 12.000 |
+> | Goederen in bewerking | 30.000 |
+> | Gereed product | 28.000 |
+> | Handelsgoederen | 6.000 |
+>
+> **Voorraden per 31 december N**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Grondstoffen | 17.000 |
+> | Goederen in bewerking | 26.000 |
+> | Gereed product | 31.000 |
+> | Handelsgoederen | 4.000 |
+>
+> Boek de voorraadwijzigingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-### Wetgeving inzake de jaarrekening 📃
+> [!question]- Boeking van oprichtingskosten en afschrijvingen bij een nieuwe vennootschap
+> *Examen 2008-bibf · PO 1.1*
+>
+> > Een kleine vennootschap heeft de rechtspersoonlijkheid verkregen op 1 maart 2008 en sluit haar eerste boekjaar af op 31 december 2008. De oprichtingskosten bedragen 1.200 EUR; ze werden per bank betaald op 10 maart en op het actief geboekt. Een personenwagen van 20.000 EUR exclusief BTW werd op 31 maart 2008 gekocht met een economische levensduur van vijf jaar.
+>
+> Boek beide verrichtingen (oprichtingskosten en aankoop personenwagen).
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Boek de afschrijvingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-> [!question]- ITAA 2013-2 vraag 1 (tier B)
-> Vraag 1 … / 3 punten
-> Onderneming “Softy” BVBA is één maand actief. Zij ontwikkelt software. De onderneming wil
-> de volgende transacties in haar boekhouding verwerken en vraagt u advies bij de verwerking
-> hiervan. Kruis het juiste antwoord aan.
-> a) Aankoop van 10 laptops met software Windows 8
-> Antwoord … / 1 punt
-> 
-> |  |  |
-> |---|---|
-> | Dient zij de Windows software bij de aanschaffingswaarde van de laptops op te
-> nemen? |  |
-> | Dient zij de Windows software bij de immateriële vaste activa op te nemen? |  |
-> 
-> b) Aankoop van boekhoudsoftware bij firma XYZ.
-> Antwoord … / 1 punt
-> 
-> |  |  |
-> |---|---|
-> | Kan zij dit opnemen in de rubriek materiële vaste activa? |  |
-> | Kan zij dit opnemen in de rubriek immateriële vaste activa? |  |
-> 
-> c) Zij koopt software X aan, die zij zonder enige wijziging doorverkoopt aan haar klanten
-> Antwoord … / 1 punt
-> 
-> |  |  |
-> |---|---|
-> | Te verwerken als handelsgoederen? |  |
-> | Te verwerken als bestelling in uitvoering? |  |
-> | Te verwerken als immateriële vaste activa? |  |
+> [!question]- Boeking van aandelenaankoop in een verbonden groepsstructuur
+> *Examen 2008-bibf · PO 1.1*
+>
+> > In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12% vertegenwoordigen van het stemrecht in C.
+>
+> Boek deze aankoop in de onderneming B.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
+> [!question]- Boekingen bij kapitaaloperaties en buitenlandse vaste inrichting
+> *Examen 2013-1 · PO 1.1*
+>
+> > Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.
+>
+> Onderneming A heeft een openstaande leveranciersschuld ten opzichte van onderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze schuld in te brengen als kapitaal. Zij dient de volgende boeking(en) aan te brengen in haar boekhouding.
+>
+> - **a)** Zij boekt de leveranciersschuld ten opzichte van een resultatenrekening tegen. Vervolgens zal zij via de resultaatverwerking een overboeking maken naar de rubriek kapitaal.
+> - **b)** Zij boekt de leveranciersschuld rechtstreeks over naar de rubriek kapitaal.
+> - **c)** Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren door terugbetaling aan haar aandeelhouders.
+>
+> - **a)** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden.
+> - **b)** Zij boekt de vermindering van kapitaal ten opzichte van een rekening resultaatverwerking.
+> - **c)** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van twee maanden na de publicatie in het Belgisch Staatsblad.
+> - **d)** Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van twee maanden na de notariële akte.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel die exclusieve juwelen verkoopt. Welke boekhouding dient zij te voeren?
+>
+> - **a)** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar dient geen jaarrekening neer te leggen.
+> - **b)** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening met cijfers van de vaste inrichting neer te leggen.
+> - **c)** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening van de buitenlandse onderneming in de vorm zoals opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen.
+> - **d)** Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening van de buitenlandse onderneming en in voorkomend geval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-### Wetgeving inzake de jaarrekening 📃
+> [!question]- Activering van ontwikkelingskosten voor een prototype
+> *Examen 2013-1 · PO 1.1*
+>
+> > Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt kan worden in ondermeer fabrieken voor de verplaatsing van zware goederen. Zij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten doen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf werd geproduceerd en deels bij derden werd ontwikkeld. Zij heeft hiervoor volgende kosten gehad: [niet gespecificeerd in tekst — kosten vermeld op bijlage]
+>
+> Kunnen deze kosten in aanmerking voor activering?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Zo ja, welke van de bovenvermelde kosten kunnen geactiveerd worden?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op te geven tot op 2 cijfers.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet commercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet verder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals aankopen en personeelskosten.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-> [!question]- ITAA 2013-2 vraag 3 (tier B)
-> Vraag 3 … / 4 punten
-> Vennootschap “ Final” BVBA heeft van vennootschap “DEF” een aantal activa gekocht, zoals
-> machines en voorraad. Deze activa hadden de volgende marktwaarde:
-> Machine A 15.000 euro
-> Machine B 25.000 euro
-> Voorraad 30.000 euro
-> Zij heeft in totaal 100.000 euro betaald. Het bedrag van 30.000 euro is de meerprijs die zij
-> betaald heeft voor de overname.
-> Gevraagd:
-> a) In welke rubriek van de jaarrekening zou u het bedrag van 30.000 euro meerprijs
-> verwerken? U hoeft geen rekeningnummer op te geven (enkel rubriek tot op twee
-> cijfers)
-> Antwoord … / 1 punt
-> b) Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven?
-> 
-> Antwoord … / 3 punten
-> 
-> |  | Ja /
-> Nee | Verklaar uw keuze met verwijzing naar de relevante bepalingen
-> van de wetgeving inzake de jaarrekening |
-> |---|---|---|
-> | 3 jaar |  |  |
-> | 5 jaar |  |  |
-> | 10 jaar |  |  |
+> [!question]- Boekhoudkundige verwerking van software-aankopen
+> *Examen 2013-2 · PO 1.1*
+>
+> > Onderneming 'Softy' BVBA is één maand actief. Zij ontwikkelt software. De onderneming wil de volgende transacties in haar boekhouding verwerken en vraagt u advies bij de verwerking hiervan. Kruis het juiste antwoord aan.
+>
+> Aankoop van 10 laptops met software Windows 8: hoe verwerkt u de Windows-software?
+>
+> - **a)** Dient zij de Windows software bij de aanschaffingswaarde van de laptops op te nemen?
+> - **b)** Dient zij de Windows software bij de immateriële vaste activa op te nemen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Aankoop van boekhoudsoftware bij firma XYZ: in welke rubriek wordt dit opgenomen?
+>
+> - **a)** Kan zij dit opnemen in de rubriek materiële vaste activa?
+> - **b)** Kan zij dit opnemen in de rubriek immateriële vaste activa?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Zij koopt software X aan, die zij zonder enige wijziging doorverkoopt aan haar klanten. Hoe te verwerken?
+>
+> - **a)** Te verwerken als handelsgoederen?
+> - **b)** Te verwerken als bestelling in uitvoering?
+> - **c)** Te verwerken als immateriële vaste activa?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
+> [!question]- Goodwill (meerprijs bij overname): rubricering en afschrijvingstermijn
+> *Examen 2013-2 · PO 1.1*
+>
+> > Vennootschap 'Final' BVBA heeft van vennootschap 'DEF' een aantal activa gekocht, zoals machines en voorraad. Deze activa hadden de volgende marktwaarde:
+> > - Machine A: 15.000 euro
+> > - Machine B: 25.000 euro
+> > - Voorraad: 30.000 euro
+> > Zij heeft in totaal 100.000 euro betaald. Het bedrag van 30.000 euro is de meerprijs die zij betaald heeft voor de overname.
+>
+> In welke rubriek van de jaarrekening zou u het bedrag van 30.000 euro meerprijs verwerken? U hoeft geen rekeningnummer op te geven (enkel rubriek tot op twee cijfers).
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven? Geef voor elke optie aan (Ja/Nee) en verklaar uw keuze met verwijzing naar de relevante bepalingen van de wetgeving inzake de jaarrekening.
+>
+> - **a)** 3 jaar
+> - **b)** 5 jaar
+> - **c)** 10 jaar
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-### Wetgeving inzake de jaarrekening 📃
+> [!question]- Voorzieningen voor groot onderhoud (periodieke schilderwerken)
+> *Examen 2013-2 · PO 1.1*
+>
+> > Een onderneming laat om de acht jaar haar gebouwen herschilderen. De schilderwerken worden geschat op 40.000 euro.
+>
+> Kan zij in haar jaarrekening hiermee al rekening houden? Op welke manier en voor welk bedrag zal zij dit doen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat indien na acht jaar de schilderwerken worden uitgevoerd, maar meer bedragen dan de raming van 40.000 euro?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-> [!question]- ITAA 2013-2 vraag 4 (tier B)
-> Vraag 4 … / 4 punten Een onderneming laat om de acht jaar haar gebouwen herschilderen. De schilderwerken worden geschat op 40.000 euro.
-> 
-> a) Kan zij in haar jaarrekening hiermee al rekening houden? Op welke manier en voor welk bedrag zal zij dit doen? Antwoord … / 2 punten
-> 
-> b) Wat indien na acht jaar de schilderwerken worden uitgevoerd, maar meer bedragen dan de raming van 40.000 euro? Antwoord … / 2 punten 25 PUNTEN ANALYSE EN KRITISCHE BEOORDELING VAN DE JAARREKENING - CONSOLIDATIE Bijlage: Balans
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2014-1 vraag 1 (tier B)
-> Vraag 1 … / 2 punten
-> Vennootschap PETRUS BVBA sluit haar jaarrekening af op 31 december. De vennootschap
-> wou gebruik maken van de nieuwe maatregel rond het vastklikken van reserves.
-> Op 20 december 2013 heeft een bijzondere algemene vergadering de beslissing genomen om
-> een gedeelte van de reserves uit te keren. Het gaat om een bruto bedrag van 1.000.000 EUR.
-> Deze uitkering zal gevolgd worden door een opname van deze reserves in kapitaal voor een
-> bedrag van 900.000 EUR.
-> De betaalbaarstelling is vastgesteld op 27 december 2013.
-> De vennootschap heeft de roerende voorheffing betaald op 2 januari 2014. Het nettodividend
-> werd rechtstreeks op een geblokkeerde bankrekening overgemaakt op 2 januari 2014. De
-> authentieke akte werd verleden op 24 januari 2014.
-> De toestand in haar eigen vermogen voor de genomen beslissing was als volgt:
-> 
+> [!question]- Vastklikken van reserves — verwerking in jaarrekening bij liquidatiereserve-maatregel
+> *Examen 2014-1 · PO 1.1*
+>
+> > Vennootschap PETRUS BVBA sluit haar jaarrekening af op 31 december. De vennootschap wou gebruik maken van de nieuwe maatregel rond het vastklikken van reserves. Op 20 december 2013 heeft een bijzondere algemene vergadering de beslissing genomen om een gedeelte van de reserves uit te keren (bruto 1.000.000 EUR). Deze uitkering zal gevolgd worden door een opname van deze reserves in kapitaal voor 900.000 EUR. De betaalbaarstelling is vastgesteld op 27 december 2013. De vennootschap heeft de roerende voorheffing betaald op 2 januari 2014. Het nettodividend werd rechtstreeks op een geblokkeerde bankrekening overgemaakt op 2 januari 2014. De authentieke akte werd verleden op 24 januari 2014.
+>
+> **Eigen vermogen vóór beslissing**
+>
+> | Label | Bedrag |
+> | --- | --- |
 > | Geplaatst kapitaal | 100.000 |
-> |---|---|
 > | Wettelijke reserve | 10.000 |
 > | Beschikbare reserves | 1.800.000 |
 > | Overgedragen winst | 1.000 |
-> 
-> Hoe zal de jaarrekening per 31 december 2013 eruit zien, zonder rekening te houden met het
-> resultaat van het boekjaar?
-> Antwoord
-> 
-> Het geplaatste kapitaal bedraagt 1.000.000 EUR.
-> 
-> Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 1.800.000 EUR.
-> We vinden in de resultaatverwerking “vergoeding van het kapitaal” voor 1.000.000 EUR, en
-> op een passiefrekening “dividenden over het boekjaar” voor eenzelfde bedrag.
-> 
-> Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 800.000 EUR. Er
-> staat in de resultaatverwerking “vergoeding van het kapitaal” voor 1.000.000 EUR, en op een
-> passiefrekening “dividenden over het boekjaar” voor een bedrag van 900.000 EUR,
-> “ingehouden voorheffing” 100.000 EUR.
-> 
-> Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 800.000 EUR. Er
-> staat wel in de resultaatverwerking “vergoeding van het kapitaal” voor 1.000.000 EUR. Op
-> het passief vinden we ook de rekening “Ontvangen voorschotten op kapitaal” voor een
-> bedrag van 900.000 EUR.
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2014-1 vraag 2 (tier B)
-> Vraag 2 … / 2 punten
-> 
-> Voor de vennootschap ABC is er een authentieke akte verleden voor een kapitaalverhoging. De kapitaalverhoging is doorgevoerd door enerzijds een incorporatie van bestaande reserves en anderzijds een inbreng in speciën. Voor dit laatste lag de uitgifteprijs van de nieuwe aandelen hoger dan de bestaande fractiewaarde van de aandelen. De uitgiftepremie werd ook geïncorporeerd in kapitaal. Hoe dient zij de kapitaalverhoging door incorporatie bestaande reserves en de uitgiftepremie te verwerken in haar jaarrekening ? Antwoord  Zij boekt zowel de onttrekking van haar reserves als de volledige kapitaalverhoging via de resultaatverwerking.  Zij boekt de reserves rechtstreeks over naar kapitaal. Ook de uitgiftepremie kan zij rechtstreeks overboeken naar kapitaal.  Zij boekt zowel de onttrekking van haar reserves als de kapitaalverhoging door de incorporatie via de resultaatverwerking. De uitgiftepremie kan zij rechtstreeks naar kapitaal overboeken.  Zij boekt de reserves rechtstreeks over naar kapitaal. De uitgiftepremie blijft als afzonderlijke rekening staan op haar passief.
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2014-1 vraag 3 (tier B)
-> Vraag 3 … / 8 punten Vennootschap Immo-C had in 1980 een herwaardering toegepast op een octrooi. De herwaardering bedroeg 25.000 EUR en werd op rekening 120 van het passief van de balans geboekt. Het octrooi werd oorspronkelijk verworven voor 75.000 EUR. Het octrooi is thans volledig afgeschreven. Op 15 december 2013 verkoopt Immo-C het octrooi tegen 100.000 EUR.
-> 
-> a) Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde? Antwoord  de meerwaarde wordt op het passief van de balans behouden  de meerwaarde mag niet op de balans worden behouden  de meerwaarde moet geïncorporeerd worden in het kapitaal  de meerwaarde moet gespreid over 5 jaar in resultaat genomen worden
-> 
-> b) Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde? Antwoord
-> 
->  ofwel overboeking naar de reserves tot beloop van het nog niet afgeschreven bedrag van de meerwaarde, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde  ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde  ofwel overboeking naar de reserves, ofwel inlijving in het kapitaal tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde  ofwel enkel overboeking naar de reserves
-> 
-> c) Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag worden overgeboekt? Antwoord  25.000 EUR  75.000 EUR  50.000 EUR  0 EUR
-> 
-> d) Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had en in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een herwaardering van 100.000 EUR te boeken? Antwoord …/ 2 punten  de meerwaarde wordt op het passief van de balans op het credit van rekening 120 geboekt  de meerwaarde wordt volledig in resultaat genomen  de boeking van de meerwaarde is verboden  de boeking van de meerwaarde is facultatief
 >
-> > [!success]- Antwoord-motivering
-> > Casus die KB WVV art. 3:35 (realisatie herwaarderingsmeerwaarde) toepast op een volledig afgeschreven octrooi dat wordt vervreemd.
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2014-1 vraag 4 (tier B)
-> Vraag 4 … / 3 punten Vennootschap Export heeft op 5 februari 2014 een goed verkocht tegen de prijs van 5.000.000 EUR. Het contract voorziet in de betaling van dit bedrag in 5 jaarlijkse stortingen van 1.000.000 EUR. Wegens de toegestane betalingstermijn, werd de verkoopprijs van het goed verhoogd met een interest van 4% per jaar. Die interest werd aldus berekend op 600.000 EUR. De toegepaste discontovoet bedraagt 9% (tarief toegepast op de kredietmarkt). Het disconto wordt vastgesteld op 404.706 EUR
-> 
-> a) Welk bedrag zult u in de omzet opnemen (boeking op 5 februari 2014)? Antwoord  5.000.000 EUR  5.600.000 EUR  4.400.000 EUR  4.595.294 EUR  5.404.706 EUR
-> 
-> b) Hoe worden de interest en het disconto uitgesplitst? Antwoord  de interest wordt op rekening 751 en het disconto op rekening 651 geboekt over de 5 terugbetalingstermijnen  bij de boeking van het contract (5 februari 2014) wordt de interest op rekening 70 - Omzet en het disconto op rekening 651 geboekt  de interest wordt geboekt op rekening 70 – Omzet en het disconto op rekening 751, volgens een door de Raad van Bestuur vastgesteld ritme maar over een periode die niet langer is dan 5 jaar  de interest wordt op rekening 751 en het disconto op rekening 751 geboekt over de 5 terugbetalingstermijnen  de interest en het disconto mogen niet worden gesplitst en moeten, bij de boeking van het contract (5 februari 2014), integraal op rekening 70 – Omzet worden geboekt ANALYSE EN KRITISCHE BEOORDELING VAN DE 25 PUNTEN JAARREKENING - CONSOLIDATIE
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2015-1 vraag 1.A · open (tier B)
-> 465.000 EUR
-
-> [!question]- ITAA 2015-1 vraag 1.B · open (tier B)
-> 470.000 EUR
-
-> [!question]- ITAA 2015-1 vraag 1.C · open (tier B)
-> 392.000 EUR
-
-> [!question]- ITAA 2015-1 vraag 1.D · open (tier B)
-> 420.000 EUR
-
-> [!question]- ITAA 2015-1 vraag 1.E · meerkeuze (tier B)
-> 452.000 EUR
+> Hoe zal de jaarrekening per 31 december 2013 eruit zien, zonder rekening te houden met het resultaat van het boekjaar?
 >
-> - Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en verkopen zijn geweest en de marktwaarde dan 455 EUR is?
-> - 465.000 EUR
-> - 470.000 EUR
-> - 392.000 EUR
-> - 420.000 EUR
-> - 637.000 EUR
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2015-1 vraag 2.A · open (tier B)
-> De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het moment dat zij zich voordoen.
-
-> [!question]- ITAA 2015-1 vraag 2.B · open (tier B)
-> Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag komen vanaf maart 2014 in de resultatenrekening. Een gedeelte van de voorziening wordt jaarlijks teruggenomen.
-
-> [!question]- ITAA 2015-1 vraag 2.C · open (tier B)
-> Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer.
-
-> [!question]- ITAA 2015-1 vraag 2.D · open (tier B)
-> Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht van de voorziening.
-
-> [!question]- ITAA 2015-1 vraag 2.E · open (tier B)
-> Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. Op het moment van het bereiken van de pensioengerechtigde leeftijd van de werknemer wordt de voorziening teruggenomen.
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2015-1 vraag 3.A · open (tier B)
-> De vennootschap boekt een waardevermindering op de vordering.
-
-> [!question]- ITAA 2015-1 vraag 3.B · open (tier B)
-> De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering.
-
-> [!question]- ITAA 2015-1 vraag 3.C · open (tier B)
-> De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente.
-
-> [!question]- ITAA 2015-1 vraag 3.D · open (tier B)
-> De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de nog verschuldigde rente die nog niet tot uiting was gebracht dienen uit te drukken. Zij boekt een waardevermindering voor de vordering en de rente.
-
-> [!question]- ITAA 2015-1 vraag 3.E · open (tier B)
-> De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente. Zij vermeldt in haar jaarrekening dat de inning onzeker is.
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2015-1 vraag 4.A · open (tier B)
-> De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen.
-
-> [!question]- ITAA 2015-1 vraag 4.B · open (tier B)
-> De intercalaire interesten moeten op het actief van de balans worden geboekt.
-
-> [!question]- ITAA 2015-1 vraag 4.C · open (tier B)
-> De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden geboekt.
-
-> [!question]- ITAA 2015-1 vraag 4.D · open (tier B)
-> De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt.
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2015-1 vraag 5.A · open (tier B)
-> Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 “Kapitaal- en interestsubsidies”.
-
-> [!question]- ITAA 2015-1 vraag 5.B · open (tier B)
-> Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 “Kapitaalsubsidies” en op rekening 1680 “Uitgestelde belastingen op kapitaalsubsidies” en zal daarop behouden blijven zolang het nieuwe productieapparaat niet is gerealiseerd.
-
-> [!question]- ITAA 2015-1 vraag 5.C · open (tier B)
-> De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 753 “Kapitaal- en interestsubsidies”.
-
-> [!question]- ITAA 2015-1 vraag 5.D · open (tier B)
-> De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 15 “Kapitaalsubsidies” en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed.
-
-> [!question]- ITAA 2015-1 vraag 5.E · open (tier B)
-> De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboekt worden op rekening 15 “Kapitaalsubsidies” en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed.
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2015-1 vraag 6.A · open (tier B)
-> De activering kan tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven.
-
-> [!question]- ITAA 2015-1 vraag 6.B · open (tier B)
-> De activering moet tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt om de uitgaven in kosten te nemen.
-
-> [!question]- ITAA 2015-1 vraag 6.C · open (tier B)
-> De activering moet tot uiting worden gebracht door het crediteren van de rekening 649 of 669.
-
-> [!question]- ITAA 2015-1 vraag 6.D · open (tier B)
-> De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669.
-
-> [!question]- ITAA 2015-1 vraag 6.E · open (tier B)
-> De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door het crediteren van de rekening 649 of 669.
-
-
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2015-1 vraag 7.A · open (tier B)
-> Het voorschot wordt geboekt op het debet van rekening 100.
-
-> [!question]- ITAA 2015-1 vraag 7.B · open (tier B)
-> Het voorschot wordt geboekt op het credit van rekening 19.
-
-> [!question]- ITAA 2015-1 vraag 7.C · open (tier B)
-> Het voorschot wordt geboekt op het debet van rekening 416 Diverse vorderingen.
-
-> [!question]- ITAA 2015-1 vraag 7.D · open (tier B)
-> Het voorschot wordt geboekt op het credit van rekening 101.
-
-> [!question]- ITAA 2015-1 vraag 7.E · open (tier B)
-> Het voorschot wordt geboekt op het debet van rekening 19.
-
-> [!question]- ITAA 2015-1 vraag 7.F · meerkeuze (tier B)
-> Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48.
+> - **a)** Het geplaatste kapitaal bedraagt 1.000.000 EUR.
+> - **b)** Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 1.800.000 EUR. We vinden in de resultaatverwerking 'vergoeding van het kapitaal' voor 1.000.000 EUR, en op een passiefrekening 'dividenden over het boekjaar' voor eenzelfde bedrag.
+> - **c)** Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 800.000 EUR. Er staat in de resultaatverwerking 'vergoeding van het kapitaal' voor 1.000.000 EUR, en op een passiefrekening 'dividenden over het boekjaar' voor een bedrag van 900.000 EUR, 'ingehouden voorheffing' 100.000 EUR.
+> - **d)** Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 800.000 EUR. Er staat wel in de resultaatverwerking 'vergoeding van het kapitaal' voor 1.000.000 EUR. Op het passief vinden we ook de rekening 'Ontvangen voorschotten op kapitaal' voor een bedrag van 900.000 EUR.
 >
-> - Bijlage: Balans
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-
-### A. Algemene boekhouding 📃
-
-> [!question]- ITAA 2003-bibf vraag A.1 (tier C)
-> A.1. Kapitaalsubsidies. Gedurende het boekjaar 2002 werd een machine aangekocht voor 100.000,00 euro. De overheid heeft in dat jaar een kapitaalsubsidie definitief toegezegd van 10.000 euro. Deze subsidies zullen in twee schijven van 5.000,00 euro worden betaald in het jaar 2003 en 2004. De machine wordt tegen 10 % afgeschreven. We gaan uit van een eenvormig belastingstarief van 40 %. Vraag : geef de afsluitingsboekingen voor de boekjaren 2002 en 2003. 5 PUNTEN
-
-
-### A. Algemene boekhouding 📃
-
-> [!question]- ITAA 2003-bibf vraag A.2 (tier C)
-> Op de proef- en saldibalans staan volgende bedragen: 32 Goederen in bewerking D 500,00 euro 34 Handelsgoederen D 7.000,00 euro De inventaris per einde boekjaar geeft - goederen in bewerking 400,00 - handelsgoederen 8.500,00 De marktprijs van de handelsgoederen bedraagt 8.250,00 euro. Er werd ook vastgesteld dat bepaalde goederen moeten afgeprijsd worden voor een totaal bedrag van 75,00 euro. Vraag : geef de afsluitingsboekingen. 5 PUNTEN
-
-
-### A. Algemene boekhouding 📃
-
-> [!question]- ITAA 2008-bibf vraag A.1 (tier C)
-> A.1 In 2007 bedragen de bruto bezoldigingen betaald aan de bedienden 112.000,00 EUR waarvan 10.000,00 EUR voor de eindejaarspremies. Boek het vakantiegeld verschuldigd voor 2007. Wanneer boekt u dit vakantiegeld?
+> [!question]- Kapitaalverhoging door incorporatie reserves en uitgiftepremie — boekhoudkundige verwerking
+> *Examen 2014-1 · PO 1.1*
 >
-> > [!success]- Antwoord-motivering
-> > Het vakantiegeld wordt berekend op 112.000 – 10.000 = 102.000 EUR Te betalen vakantiegeld: 18,8 % van 102.000 = 19.176,00 EUR 623 Voorzieningen vakantiegeld 19.176,00 456 Aan Vakantiegeld 19.176,00 Het te betalen vakantiegeld moet op 31 december 2007 worden geboekt.
-
-
-### A. Algemene boekhouding 📃
-
-> [!question]- ITAA 2008-bibf vraag A.2 (tier C)
-> A.2 In januari 2008, ontvangt u een factuur voor 1.210,00 EUR, BTW inbegrepen, m.b.t. de levering in 2007 van publiciteitsartikelen. Wat boekt u in 2008 en, in voorkomend geval, in 2007?
+> > Voor de vennootschap ABC is er een authentieke akte verleden voor een kapitaalverhoging. De kapitaalverhoging is doorgevoerd door enerzijds een incorporatie van bestaande reserves en anderzijds een inbreng in speciën. Voor dit laatste lag de uitgifteprijs van de nieuwe aandelen hoger dan de bestaande fractiewaarde van de aandelen. De uitgiftepremie werd ook geïncorporeerd in kapitaal.
 >
-> > [!success]- Antwoord-motivering
-> > In 2007: 61 Diensten en diverse goederen 1.000,00 444 Aan Te ontvangen facturen 1.000,00 In 2008 444 Te ontvangen facturen 1.000,00 411 Terug te vorderen BTW 210,00 440 Aan Leveranciers 1.210,00
-
-
-### A. Algemene boekhouding 📃
-
-> [!question]- ITAA 2008-bibf vraag A.3 (tier C)
-> A.3 De voorraden bedragen op 1 januari N: 12.000 EUR grondstoffen 30.000 EUR goederen in bewerking 28.000 EUR gereed produkt 6.000 EUR handelsgoederen Per 31 december N bedraagt voorraad: 17.000 EUR grondstoffen 26.000 EUR goederen in bewerking 31.000 EUR gereed produkt 4.000 EUR handelsgoederen Boek de voorraadwijzigingen.
+> Hoe dient zij de kapitaalverhoging door incorporatie bestaande reserves en de uitgiftepremie te verwerken in haar jaarrekening?
 >
-> > [!success]- Antwoord-motivering
-> > 300 Grondstoffen 5.000,00 6094 Voorraadwijziging van handelsgoederen 2.000,00 6090 Aan Voorraadwijziging van grondstoffen 5.000,00 340 Handelsgoederen 2.000,00 712 Voorraadwijziging van goederen in 4.000,00 bewerking 330 Gereed produkt 3.000,00 320 Aan Goederen in bewerking 4.000,00 713 Aan Voorraadwijziging gereed produkt 3.000,00
-
-
-### A. Algemene boekhouding 📃
-
-> [!question]- ITAA 2008-bibf vraag A.4 (tier C)
-> A.4 Een kleine vennootschap heeft de rechtspersoonlijkheid verkregen op 1 maart 2008 en ze sluit haar eerste boekjaar af op 31 december 2008. De oprichtingskosten bedragen 1.200 EUR; ze werden per bank betaald dd. 10 maart en op het actief geboekt. Een personenwagen van 20.000 EUR exclusief BTW werd op 31 maart 2008 gekocht met een economische levensduur van vijf jaar. Boek beide verrichtingen. Boek de afschrijvingen.
+> - **a)** Zij boekt zowel de onttrekking van haar reserves als de volledige kapitaalverhoging via de resultaatverwerking.
+> - **b)** Zij boekt de reserves rechtstreeks over naar kapitaal. Ook de uitgiftepremie kan zij rechtstreeks overboeken naar kapitaal.
+> - **c)** Zij boekt zowel de onttrekking van haar reserves als de kapitaalverhoging door de incorporatie via de resultaatverwerking. De uitgiftepremie kan zij rechtstreeks naar kapitaal overboeken.
+> - **d)** Zij boekt de reserves rechtstreeks over naar kapitaal. De uitgiftepremie blijft als afzonderlijke rekening staan op haar passief.
 >
-> > [!success]- Antwoord-motivering
-> > 200 Oprichtingskosten 1.200,00 550 Aan Bank 1.200,00 240 Meubilair en rollend materieel 22.100,00 411 Terug te vorderen BTW 2.100,00 440 Aan Leveranciers 24.200,00 6300 Afschrijvingen op oprichtingskosten 200,00 6302 Afschrijvingen op materiële vaste activa 3.683,33 2009 Aan Afschrijvingen op oprichtingskosten 200,00 2409 Àan Afschrijvingen op rollend materieel 3.683,33 Commentaar: een kleine vennootschap mag volledige annuïteiten afschrijven, maar het boekjaar telt slechts 10 maanden; bijgevolg moet de annuïteit met 10/12den worden vermenigvuldigd. De oprichtingskosten worden afgeschreven over een periode van maximum vijf jaar.
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2003-bibf vraag B.4 (tier C)
-> B.4. Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt? 2 PUNTEN
+> [!question]- Herwaarderingsmeerwaarden op immateriële vaste activa — verwerking bij realisatie en bij nieuwe herwaardering
+> *Examen 2014-1 · PO 1.1*
 >
-> > [!success]- Antwoord-motivering
-> > **Welke rekening?**
-> > 
-> > Onder het minimum-algemeen-rekeningstelsel (MAR) worden inrichtingskosten in gehuurde gebouwen geboekt op **rekening 264 "Inrichtingskosten van gehuurde gebouwen"** — een subrekening van klasse **26 "Andere materiële vaste activa"**. ⚖️
-> > 
-> > Andere MAR-subrekeningen in klasse 26:
-> > - 260 — Onroerende goederen aangehouden als reserve
-> > - 262 — Buiten gebruik of buiten exploitatie gestelde materiële vaste activa
-> > - **264 — Inrichtingskosten van gehuurde gebouwen** ⚖️
-> > 
-> > **Waarom in klasse 26 (Andere MVA) en niet 22 (Terreinen en gebouwen)?**
-> > 
-> > De gebouwen zélf zijn niet eigendom van de huurder — die kan dus geen 'Terreinen en gebouwen' (rek 22) op zijn balans hebben. Wat hij wél activeert zijn de **inrichtingswerken** die hij in andermans pand heeft uitgevoerd (verbouwingen, vaste inrichting, technische installaties die niet afkoppelbaar zijn). Die werken zijn **economisch eigendom** van de huurder voor de duur van de huur, ook al zijn ze juridisch onroerend door bestemming. 🤖
-> > 
-> > **Waardering en afschrijving**:
-> > 
-> > - Geactiveerd aan **aanschaffingsprijs** (alle directe kosten verbouwing + erelonen) ⚖️
-> > - Afschrijving over de **kortere** van:
-> >   - De **huurtermijn** (juridisch gegeven: bv. handelshuur 9 jaar, gewone huurovereenkomst 3 of 9 jaar)
-> >   - De **economische gebruiksduur** van de inrichtingen (bv. technische installaties 10 jaar)
-> >   
-> >   In de praktijk: vaak gelijk aan de huurtermijn want bij einde huur kan de huurder de inrichtingen niet meenemen. 🤖
-> > - Bij vroegtijdig einde huur: niet-afgeschreven saldo wordt **uitzonderlijk afgeschreven** (rek 663) of als verlies bij verkoop geboekt. 🤖
-> > 
-> > _Grondslag: [[materiele-vaste-activa]] §Bouwstenen — Onderverdeling klasse 26; KB MAR (KB 12 september 1983); KB WVV art. 3:38 + 3:42 (waardering MVA)._
-
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2008-bibf vraag B.1 (tier C)
-> B.1 In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12% vertegenwoordigen van het stemrecht in C. Boek deze aankoop in de onderneming B.
+> > Vennootschap Immo-C had in 1980 een herwaardering toegepast op een octrooi. De herwaardering bedroeg 25.000 EUR en werd op rekening 120 van het passief van de balans geboekt. Het octrooi werd oorspronkelijk verworven voor 75.000 EUR. Het octrooi is thans volledig afgeschreven. Op 15 december 2013 verkoopt Immo-C het octrooi tegen 100.000 EUR.
 >
-> > [!success]- Antwoord-motivering
-> > **Kwalificatie van de relatie** (stap 1):
-> > Vennootschap A controleert exclusief zowel B als C → B en C zijn beide dochters van A → B en C zijn **verbonden vennootschappen** (zustervennootschappen onder dezelfde moeder, WVV art. 1:20). ⚖️
-> > 
-> > **Kwalificatie van de aandelen** (stap 2):
-> > B koopt 12 % aandelen in C, waarmee een **duurzame band** tot stand komt met een verbonden onderneming. Onder het MAR (KB van 12 september 1983) worden aandelen die de onderneming aanhoudt om duurzaam de bedrijfsuitoefening van een andere onderneming te ondersteunen, geboekt onder rubriek **28 Financiële vaste activa**, subcategorie **280 Deelnemingen in verbonden ondernemingen**. ⚖️
-> > 
-> > **Waardering** (stap 3):
-> > De deelneming wordt geboekt aan **aanschaffingsprijs** — niet aan marktwaarde. Latere afwaardering enkel bij duurzame minderwaarde of ontwaarding (KB WVV art. 3:42 + art. 3:45). ⚖️
-> > 
-> > **Boeking in de onderneming B**:
-> > 
-> > ```
-> > Debet  280  Deelnemingen in verbonden ondernemingen   50.000,00
-> > Credit 550  Kredietinstellingen (Bank)                            50.000,00
-> > ```
-> > 
-> > 🤖 Tegenboeking 550 Bank verondersteld; indien de aankoop nog niet betaald is, zou de tegenboeking 489 'Overige diverse schulden' of een vergelijkbare schuld-rekening zijn. De vraagtekst specificeert geen betalingsvorm, default-aanname = cash via bankrekening.
-> > 
-> > _Grondslag: MAR-rubriek 28 (KB 12 september 1983, inmiddels geïntegreerd in KB WVV 2019 art. 3:42 + bijlage); WVV art. 1:20 voor de definitie van verbonden vennootschappen._
-> > 
-> > **Historische context**: deze vraag (2008) verwijst implicit naar de oude Wetboek van vennootschappen (vóór 2019). Onder huidige WVV (2019) is de oplossing identiek: art. 1:20 definieert verbonden vennootschappen, MAR-rekening 280 is ongewijzigd.
-
-
-### D. Organisatie van de boekhouding en de administratieve diensten van de onderneming 📃
-
-> [!question]- ITAA 2003-bibf vraag D.1 (tier C)
-> D.1 Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht , opteert hij bij de BTW administratie voor het statuut van normale trimesteriele BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Vraag: Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder trimester van hem wenst te ontvangen. 3 PUNTEN
-
-
-### D. Organisatie van de boekhouding en de administratieve diensten van de onderneming 📃
-
-> [!question]- ITAA 2003-bibf vraag D.2 (tier C)
-> D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Vraag: Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? 2 PUNTEN
-
-
-### D. Organisatie van de boekhouding en de administratieve diensten van de onderneming 📃
-
-> [!question]- ITAA 2008-bibf vraag D.1 (tier C)
-> D.1 Een persoon vestigt zich als zelfstandige om een taverne– restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW administratie voor het statuut van normale kwartaal BTW- belastingplichtige. Hij vraagt U om zijn boekhoudkundig dossier te beheren. Vanaf het beginstadium dient U zijn boekhouding te organiseren alsook hem duidelijk te maken op welke manier hij U hierin dient bij te staan. Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie U ieder kwartaal/jaar van hem wenst te ontvangen.
-> 
-> 1. bewaren van de geregistreerde kastickets
-> 
-> 2. bewaren van de btw bonnetjes (met datum, bedrag en aantal couverts)
-> 
-> 3. overzicht en overeenstemming van de betalingen met elektronische kaarten
-> 
-> 4. bijhouden van een ontvangstenboek met uitsplitsing per toepasselijk BTW tarief
-> 
-> a. ontvangsten aan 6 % voor meegenomen bereidingen
-> 
-> b. ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken
-> 
-> c. ontvangsten aan 21 % voor dranken die los werden verkocht
-> 
-> d. ontvangsten van de speelautomaten
-> 
-> e. ontvangsten van gebruik telefoon
-> 
-> 5. bijhouden van een kasboek (in, uit, saldo….)
-> 
-> 6. bewaren en klasseren van de verschillende bankuittreksels
-> 
-> 7. vermelding op bankuittreksels van de oorsprong of bestemming van de verschillende bankbewegingen
-> 
-> 8. bewaren en klasseren van de inkomende facturen op datum
-> 
-> 9. bewaren en klasseren (desgevallend) van de uitgaande facturen op datum 10.berekeningsdocument van de lonen door het sociaal secretariaat sociale balans op het einde van het boekjaar 11.inventaris op einde boekjaar 12.……..
+> Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?
 >
-> > [!success]- Antwoord-motivering
-> > 1. bewaren van de geregistreerde kastickets
-> > 
-> > 2. bewaren van de btw bonnetjes (met datum, bedrag en aantal couverts)
-> > 
-> > 3. overzicht en overeenstemming van de betalingen met elektronische kaarten
-> > 
-> > 4. bijhouden van een ontvangstenboek met uitsplitsing per toepasselijk BTW tarief a. ontvangsten aan 6 % voor meegenomen bereidingen b. ontvangsten aan 21 % voor ter plaatse geserveerde bereidingen en dranken c. ontvangsten aan 21 % voor dranken die los werden verkocht d. ontvangsten van de speelautomaten e. ontvangsten van gebruik telefoon
-> > 
-> > 5. bijhouden van een kasboek (in, uit, saldo….)
-> > 
-> > 6. bewaren en klasseren van de verschillende bankuittreksels
-> > 
-> > 7. vermelding op bankuittreksels van de oorsprong of bestemming van de verschillende bankbewegingen
-> > 
-> > 8. bewaren en klasseren van de inkomende facturen op datum
-> > 
-> > 9. bewaren en klasseren (desgevallend) van de uitgaande facturen op datum
-> > 
-> > 10. berekeningsdocument van de lonen door het sociaal secretariaat sociale balans op het einde van het boekjaar
-> > 
-> > 11. inventaris op einde boekjaar
-> > 
-> > 12. …….
-
-
-### D. Organisatie van de boekhouding en de administratieve diensten van de onderneming 📃
-
-> [!question]- ITAA 2008-bibf vraag D.2 (tier C)
-> D.2 Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding “voldaan” voor het totaal der uitgevoerde werken. Is er een reden om hem te adviseren zijn werkwijze aan te passen ? Welk zijn de documenten die hij dient te bewaren? - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden
+> - **a)** de meerwaarde wordt op het passief van de balans behouden
+> - **b)** de meerwaarde mag niet op de balans worden behouden
+> - **c)** de meerwaarde moet geïncorporeerd worden in het kapitaal
+> - **d)** de meerwaarde moet gespreid over 5 jaar in resultaat genomen worden
 >
-> > [!success]- Antwoord-motivering
-> > - De voorschotten moeten gefactureerd worden wanneer zij werden ontvangen, uiterlijk de vijfde werkdag van elke maand volgend op de ontvangst (art. 4 §1 §3 en KB 1) - Op het einde van de werken, moet enkel nog het resterende saldo worden gefactureerd - Alle opgemaakte offertes moeten bewaard worden onafhankelijk van het feit of de cliënt al dan niet inging op het aanbod. - Alle facturen dienen eveneens bewaard te worden
+> > [!success]- Antwoord (klik om te openen)
+> > **Antwoord: a**
+>
+> Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?
+>
+> - **a)** ofwel overboeking naar de reserves tot beloop van het nog niet afgeschreven bedrag van de meerwaarde, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde
+> - **b)** ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde
+> - **c)** ofwel overboeking naar de reserves, ofwel inlijving in het kapitaal tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde
+> - **d)** ofwel enkel overboeking naar de reserves
+>
+> > [!success]- Antwoord (klik om te openen)
+> > **Antwoord: b**
+>
+> Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag worden overgeboekt?
+>
+> - **a)** 25.000 EUR
+> - **b)** 75.000 EUR
+> - **c)** 50.000 EUR
+> - **d)** 0 EUR
+>
+> > [!success]- Antwoord (klik om te openen)
+> > **Antwoord: a**
+>
+> Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had en in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een herwaardering van 100.000 EUR te boeken?
+>
+> - **a)** de meerwaarde wordt op het passief van de balans op het credit van rekening 120 geboekt
+> - **b)** de meerwaarde wordt volledig in resultaat genomen
+> - **c)** de boeking van de meerwaarde is verboden
+> - **d)** de boeking van de meerwaarde is facultatief
+>
+> > [!success]- Antwoord (klik om te openen)
+> > **Antwoord: c**
 
+> [!question]- Verkoop op termijn met interest en disconto — omzetbedrag en boekhoudkundige uitsplitsing
+> *Examen 2014-1 · PO 1.1*
+>
+> > Vennootschap Export heeft op 5 februari 2014 een goed verkocht tegen de prijs van 5.000.000 EUR. Het contract voorziet in de betaling van dit bedrag in 5 jaarlijkse stortingen van 1.000.000 EUR. Wegens de toegestane betalingstermijn werd de verkoopprijs verhoogd met een interest van 4% per jaar, aldus berekend op 600.000 EUR. De toegepaste discontovoet bedraagt 9% (tarief toegepast op de kredietmarkt). Het disconto wordt vastgesteld op 404.706 EUR.
+>
+> Welk bedrag zult u in de omzet opnemen (boeking op 5 februari 2014)?
+>
+> - **a)** 5.000.000 EUR
+> - **b)** 5.600.000 EUR
+> - **c)** 4.400.000 EUR
+> - **d)** 4.595.294 EUR
+> - **e)** 5.404.706 EUR
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Hoe worden de interest en het disconto uitgesplitst?
+>
+> - **a)** De interest wordt op rekening 751 en het disconto op rekening 651 geboekt over de 5 terugbetalingstermijnen.
+> - **b)** Bij de boeking van het contract (5 februari 2014) wordt de interest op rekening 70 - Omzet en het disconto op rekening 651 geboekt.
+> - **c)** De interest wordt geboekt op rekening 70 – Omzet en het disconto op rekening 751, volgens een door de Raad van Bestuur vastgesteld ritme maar over een periode die niet langer is dan 5 jaar.
+> - **d)** De interest wordt op rekening 751 en het disconto op rekening 751 geboekt over de 5 terugbetalingstermijnen.
+> - **e)** De interest en het disconto mogen niet worden gesplitst en moeten, bij de boeking van het contract (5 februari 2014), integraal op rekening 70 – Omzet worden geboekt.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Voorraadwaardering FIFO-methode en lager-van-kostprijs-of-marktwaarde
+> *Examen 2015-1 · PO 1.1*
+>
+> > Onderneming XYZ verkoopt producten voor klein meubilair en hanteert de FIFO-methode. Aankopen en verkopen op één voorraadartikel in 2013: aankoop 15 januari 2013 van 1.000 stuks aan 350,00 EUR; aankoop 31 maart 2013 van 500 stuks aan 300,00 EUR; verkoop 31 mei 2013 van 100 stuks aan 480,00 EUR. Marktwaarde op 31 december 2013: 280,00 EUR per artikel. Marktwaarde op 30 april 2014: 300,00 EUR. Algemene vergadering: 5 mei 2014.
+>
+> Voor welke waarde neemt zij dit artikel op in haar voorraad per 31 december 2013?
+>
+> - **a)** 465.000 EUR
+> - **b)** 470.000 EUR
+> - **c)** 392.000 EUR
+> - **d)** 420.000 EUR
+> - **e)** 452.000 EUR
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en verkopen zijn geweest en de marktwaarde dan 455 EUR is?
+>
+> - **a)** 465.000 EUR
+> - **b)** 470.000 EUR
+> - **c)** 392.000 EUR
+> - **d)** 420.000 EUR
+> - **e)** 637.000 EUR
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Boekhoudkundige verwerking stelsel werkloosheid met bedrijfstoeslag (brugpensioen)
+> *Examen 2015-1 · PO 1.1*
+>
+> > Werknemer de heer Janssens van vennootschap XYZ ontvangt ontslag op 5 december 2013 en kan vanaf 1 maart 2014 genieten van het stelsel werkloosheid met bedrijfstoeslag (oud brugpensioenstelsel). Vanaf 1 maart 2014 betaalt de vennootschap 2.000 EUR bruto per maand.
+>
+> Hoe wordt dit stelsel werkloosheid met bedrijfstoeslag verwerkt in de boekhouding?
+>
+> - **a)** De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het moment dat zij zich voordoen.
+> - **b)** Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag komen vanaf maart 2014 in de resultatenrekening. Een gedeelte van de voorziening wordt jaarlijks teruggenomen.
+> - **c)** Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer.
+> - **d)** Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht van de voorziening.
+> - **e)** Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. Op het moment van het bereiken van de pensioengerechtigde leeftijd van de werknemer wordt de voorziening teruggenomen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Boekhoudkundige behandeling dubieuze vordering op meer dan één jaar bij faillissement klant
+> *Examen 2015-1 · PO 1.1*
+>
+> > Vennootschap XYZ heeft een machine verkocht aan een klant voor 121.000,00 EUR incl. 21% btw op 1 juli 2012. Betaling na drie jaar, rente 8% zesmaandelijks. Vordering op rekening 290000 'Handelsdebiteuren op meer dan één jaar'. Op 15/07/2013 worden financiële moeilijkheden van de klant bekend en vraagt de klant het faillissement aan.
+>
+> Wat zal de onderneming met de vordering op meer dan één jaar in haar boekhouding doen?
+>
+> - **a)** De vennootschap boekt een waardevermindering op de vordering.
+> - **b)** De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering.
+> - **c)** De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente.
+> - **d)** De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de nog verschuldigde rente die nog niet tot uiting was gebracht dienen uit te drukken. Zij boekt een waardevermindering voor de vordering en de rente.
+> - **e)** De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente. Zij vermeldt in haar jaarrekening dat de inning onzeker is.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Boekhoudkundige verwerking intercalaire interesten op investeringskrediet
+> *Examen 2015-1 · PO 1.1*
+>
+> > In de boekhouding werd onder rubriek '499 – wachtrekening' een bedrag van 125.000,00 EUR opgenomen met de vermelding 'intercalaire interesten per 31/08/2014 op het investeringskrediet 15-237584-22'.
+>
+> Welke van onderstaande instructies moet u aan de boekhouder geven om dit bedrag correct op te nemen?
+>
+> - **a)** De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen.
+> - **b)** De intercalaire interesten moeten op het actief van de balans worden geboekt.
+> - **c)** De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden geboekt.
+> - **d)** De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Boekhoudkundige verwerking kapitaalsubsidies
+> *Examen 2015-1 · PO 1.1*
+>
+> > Een vennootschap wenst te investeren in een nieuw productieapparaat. Kosten investering: 80.000 EUR. Mogelijke subsidie: 12.800 EUR, uitbetaald in twee stortingen van 40% en 60% in functie van het investeringsritme.
+>
+> De vennootschap vraagt uw advies over de boekhoudkundige verwerking van de subsidie. Welke optie is correct?
+>
+> - **a)** Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'.
+> - **b)** Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 'Kapitaalsubsidies' en op rekening 1680 'Uitgestelde belastingen op kapitaalsubsidies' en zal daarop behouden blijven zolang het nieuwe productieapparaat niet is gerealiseerd.
+> - **c)** De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'.
+> - **d)** De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed.
+> - **e)** De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Activering herstructureringskosten: tegenboekingmethode
+> *Examen 2015-1 · PO 1.1*
+>
+> > Vennootschap 'Koffie van het Noorden' herstructureert haar afdeling 'Fabricatie van Koffiemolens'. Kosten: ontmanteling bestaande productielijn 150.000 EUR, elektronische automatisatie nieuwe productielijn 300.000 EUR, technische werkloosheid fabriekspersoneel 250.000 EUR.
+>
+> Aan de hand van welke tegenboeking kunnen deze uitgaven naar het actief van de balans worden overgeboekt?
+>
+> - **a)** De activering kan tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven.
+> - **b)** De activering moet tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt om de uitgaven in kosten te nemen.
+> - **c)** De activering moet tot uiting worden gebracht door het crediteren van de rekening 649 of 669.
+> - **d)** De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669.
+> - **e)** De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door het crediteren van de rekening 649 of 669.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba
+> *Examen 2015-1 · PO 1.1*
+>
+> > Bij de vereffening van een bvba wordt een voorschot op het uiteindelijk te verdelen bedrag uitgekeerd.
+>
+> Welke van de onderstaande voorstellen geeft de juiste boekhoudkundige verwerking weer?
+>
+> - **a)** Het voorschot wordt geboekt op het debet van rekening 100.
+> - **b)** Het voorschot wordt geboekt op het credit van rekening 19.
+> - **c)** Het voorschot wordt geboekt op het debet van rekening 416 Diverse vorderingen.
+> - **d)** Het voorschot wordt geboekt op het credit van rekening 101.
+> - **e)** Het voorschot wordt geboekt op het debet van rekening 19.
+> - **f)** Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
 
 ## Competentie-index
@@ -1148,7 +1133,9 @@ Op integratieniveau toetst het examen of je een verrichting kan plaatsen in het 
 - [[competenties/boeken-uitgifte-en-aflossing-obligatielening|Boeken van uitgifte en aflossing van een obligatielening]]
 - [[competenties/boeken-waardeverminderingen-op-vorderingen-en-voorraden|Boeken van waardeverminderingen op vorderingen en voorraden]]
 - [[competenties/kwalificeren-en-boeken-leasing|Kwalificeren en boeken van leasing (operationeel vs financieel)]]
+- [[competenties/opstellen-openingsbalans-vennootschap|Opstellen van de openingsbalans van een nieuwe vennootschap]]
 - [[competenties/opstellen-afschrijvingsplan-vaste-activa|Opstellen van het afschrijvingsplan voor materiële vaste activa]]
+- [[competenties/opstellen-financieel-plan-oprichting|Opstellen van het financieel plan bij oprichting van een vennootschap]]
 - [[competenties/toepassen-fundamentele-boekhoudbeginselen|Toepassen van de fundamentele boekhoudbeginselen op een concrete verrichting]]
 - [[competenties/uitvoeren-eindejaarsverrichtingen-en-proefbalans|Uitvoeren van eindejaarsverrichtingen en opmaken van proefbalans]]
 - [[competenties/verwerken-overlopende-rekeningen-matching|Verwerken van overlopende rekeningen volgens het matching-principe]]
@@ -1179,10 +1166,12 @@ Op integratieniveau toetst het examen of je een verrichting kan plaatsen in het 
 - [[boeken-waardeverminderingen-op-vorderingen-en-voorraden|Boeken van waardeverminderingen op vorderingen en voorraden]] · `competentie`
 - [[boekhoudbeginselen-overzicht|Boekhoudbeginselen &mdash; overzicht]] · `synthese`
 - [[continuiteitsbeginsel|Boekhoudkundig continuïteitsbeginsel (going concern)]] · `regel`
+- [[boekhoudkundige-verwerking-insolventie-akkoord|Boekhoudkundige verwerking van een insolventie-akkoord]] · `regel`
 - [[boekjaar-eindprocedure-checklist|Boekjaar afsluiten &mdash; van proefbalans tot neerlegging]] · `synthese`
 - [[dagboek|Dagboek]] · `begrip`
 - [[dubbel-boekhouden|Dubbel boekhouden]] · `cluster`
 - [[eigen-middelen|Eigen middelen (eigen vermogen)]] · `cluster`
+- [[financieel-plan-oprichting|Financieel plan bij oprichting van een kapitaalvennootschap]] · `cluster`
 - [[financiele-vaste-activa|Financiële vaste activa]] · `begrip`
 - [[financiele-verrichtingen|Financiële verrichtingen (kosten + opbrengsten)]] · `cluster`
 - [[geldbeleggingen|Geldbeleggingen en liquide middelen]] · `begrip`
@@ -1203,6 +1192,7 @@ Op integratieniveau toetst het examen of je een verrichting kan plaatsen in het 
 - [[opbrengsten-be-gaap|Opbrengsten onder BE GAAP (realisatiebeginsel)]] · `cluster`
 - [[oprichtingskosten|Oprichtingskosten]] · `cluster`
 - [[opsplitsing-eigendom|Opsplitsing eigendom (vruchtgebruik, opstal, erfpacht)]] · `cluster`
+- [[opstellen-openingsbalans-vennootschap|Opstellen van de openingsbalans van een nieuwe vennootschap]] · `competentie`
 - [[opstellen-afschrijvingsplan-vaste-activa|Opstellen van het afschrijvingsplan voor materiële vaste activa]] · `competentie`
 - [[overlopende-rekeningen|Overlopende rekeningen]] · `cluster`
 - [[rechten-verplichtingen-buiten-balans|Rechten en verplichtingen buiten balans]] · `cluster`

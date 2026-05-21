@@ -81,7 +81,7 @@ gerelateerde_concepten:
 - waardeverminderingen
 - wetboek-economisch-recht-boek-iii
 - wetboek-vennootschappen-verenigingen
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -108,21 +108,21 @@ gegenereerd_op: '2026-05-18'
 
 ## Leesgids
 
-Deze minicursus bouwt van buiten naar binnen: eerst de [[rechtsbronnen-boekhoudrecht-piramide|rechtsbronnen]] en het [[autoriteiten-boekhoudrecht-landschap|autoriteiten-landschap]], dan de [[boekhoudplichtige-onderneming|boekhoudplicht]] en de [[vennootschapsgrootte-cascade|grootte-cascade]], en tot slot de [[samenstelling-statutaire-jaarrekening|jaarrekening]] met haar [[boekhoudbeginselen-overzicht|beginselen]] en [[openbaarmaking-jaarrekening|openbaarmaking]]. Op niveau *integratie* moet je deze concepten samen kunnen inzetten: een casus tegelijk juridisch (welke bron?), institutioneel (welke autoriteit?) én boekhoudkundig (welk beginsel?) ontleden.
+<!-- TODO: Opus-glue leesgids -->
 
 ## Waarom dit programmaonderdeel telt
 
-Het boekhoudrecht is het stelsel waarbinnen elke vennootschap haar economische werkelijkheid in cijfers giet — en dat stelsel ontleent zijn betrouwbaarheid aan het [[getrouw-beeld|getrouw beeld]] van de jaarrekening. Voor een gecertificeerd accountant is dit het werkterrein waarbinnen je elk cliëntendossier opent. Een verkeerde keuze bij de [[groottecriteria-jaarrekening|groottecriteria]] sleept meteen schema, jaarverslag, [[commissaris|commissaris]], [[sociale-balans|sociale balans]] en openbaarmakingstermijn mee. Een gemiste [[onveranderlijkheid-boekingen|correctie-discipline]] of vergeten [[volledigheidsbeginsel|buiten-balans-verplichting]] ondermijnt de [[regelmatige-boekhouding|regelmatigheid]] van de hele boekhouding. Het examen toetst dit op integratie-niveau: niet één regel kennen, maar regels in onderlinge spanning kunnen wegen.
+<!-- TODO: Opus-glue waarom_po -->
 
 ## Waarom een boekhoudrecht? Regelmatige en getrouwe boekhouding als spil
 
-Het [[belgisch-boekhoudrecht|Belgisch boekhoudrecht]] dwingt af dat elke onderneming haar verrichtingen vastlegt in een [[regelmatige-boekhouding|regelmatige boekhouding]] die uitmondt in een jaarrekening met [[getrouw-beeld|getrouw beeld]]. Die spil bedient tegelijk schuldeisers, fiscus, vennoten en — via [[openbaarmaking-jaarrekening|openbaarmaking]] — de markt zelf. Zonder gemeenschappelijke spelregels valt het hele economisch verkeer terug op privé-vertrouwen.
+<!-- TODO: Opus-glue oriëntatie -->
 
 ## Rechtsbronnen van het Belgisch boekhoudrecht: van EU tot rechtspraak
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Je leert in een dossier herkennen welke rechtsbron primair antwoord geeft: gaat het om een verplichting ([[wetboek-economisch-recht-boek-iii|WER Boek III]] / [[wetboek-vennootschappen-verenigingen|WVV]]), om een schema-rubriek ([[kb-wvv-uitvoering|KB-WVV]]), om een interpretatie ([[cbn-adviezen|CBN-adviezen]]) of om een twistgeval ([[rechtspraak-boekhoudrecht|rechtspraak]])? Het [[europees-boekhoudrecht|Europees boekhoudrecht]] zit erboven via richtlijnen en de IAS-verordening. Wie deze lagen door elkaar haalt, mist op examen de hardere regel hogerop.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[belgisch-boekhoudrecht|Belgisch boekhoudrecht]] · `begrip`
 - [[europees-boekhoudrecht|Europees boekhoudrecht]] · `begrip`
@@ -137,7 +137,7 @@ Je leert in een dossier herkennen welke rechtsbron primair antwoord geeft: gaat 
 Synthese van de **vijfgelaagde hiërarchie** waaruit het Belgisch boekhoudrecht ontstaat: EU-bronnen → WER + WVV → KB-WVV → CBN-adviezen → rechtspraak. Voor de stagiair onmisbaar om te weten waar je in welke vraag in moet duiken; conflict tussen lagen wordt opgelost van boven naar beneden.
 
 
-De tabel hieronder maakt de hiërarchie operationeel: per laag zie je wat je raadpleegt, met welke bindende kracht, en op welk soort vraag ze het sterkste antwoord biedt. De beslisboom toont de redeneer-as bij twijfel — niet alle vragen starten in dezelfde laag.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Laag | Bron | Bindende kracht | Voorbeeld | Hoe raadpleeg ik het op examen? |
 |---|---|---|---|---|
@@ -184,7 +184,7 @@ _Bouwt op_: [[belgisch-boekhoudrecht]] · [[europees-boekhoudrecht]] · [[wetboe
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Bij integratie-vragen moet je in een complexe casus stap voor stap kunnen verantwoorden welke bron je raadpleegt en waarom — start met het vraagtype kwalificeren, daal dan van wet via KB naar [[cbn-adviezen|CBN]] en eventueel [[rechtspraak-boekhoudrecht|rechtspraak]]. De volledige procedure schetst die afdaling op een herhaalbare manier.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/identificeren-rechtsbron-boekhoudrecht|→ Volledige procedure]]
 
@@ -192,7 +192,7 @@ Bij integratie-vragen moet je in een complexe casus stap voor stap kunnen verant
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Naast bronnen lopen er ook bevoegdheden door het boekhoudrecht: de [[commissie-boekhoudkundige-normen|CBN]] interpreteert, de [[nationale-bank-belgie|NBB]] ontvangt neerleggingen, de [[fsma|FSMA]] bewaakt markttransparantie, [[itaa|ITAA]] en [[ibr|IBR]] reglementeren de beroepen, de [[griffies-ondernemingsrechtbank|griffies]] beheren het ondernemingsdossier en de [[fod-financien-boekhoudrecht|FOD Financiën]] sluit fiscaal aan. Het examen camoufleert die afbakening graag — je moet bij elke vraag de juiste instantie eruit kunnen filteren.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[commissie-boekhoudkundige-normen|Commissie voor Boekhoudkundige Normen (CBN)]] · `autoriteit`
 - [[nationale-bank-belgie|Nationale Bank van België (NBB)]] · `autoriteit`
@@ -207,7 +207,7 @@ Naast bronnen lopen er ook bevoegdheden door het boekhoudrecht: de [[commissie-b
 Synthese-overzicht van de zeven autoriteiten die samen het Belgisch boekhoudrecht bewaken (CBN, NBB, FSMA, ITAA, IBR, griffies ondernemingsrechtbank, FOD Financiën). Voor stagiairs-GA cruciaal omdat de eerste vraag bij elk praktisch dossier is: 'naar welke autoriteit ga ik?' — examenvragen camoufleren regelmatig wie waarvoor bevoegd is.
 
 
-De matrix legt per autoriteit de bevoegdheid, de wettelijke basis en het toepassingsgebied naast elkaar; de beslisboom routeert een concrete cliënt-vraag naar de juiste instantie. Gebruik beide samen: in een dossier kunnen meerdere autoriteiten naast elkaar bevoegd zijn (typisch bij beursgenoteerde groepen).
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Autoriteit | Wat doet ze? | Wettelijke basis | Toepasselijk op | Wanneer raadpleeg ik haar? |
 |---|---|---|---|---|
@@ -254,7 +254,7 @@ _Bouwt op_: [[commissie-boekhoudkundige-normen]] · [[nationale-bank-belgie]] ·
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Op integratie-niveau moet je in een gemengde casus tegelijk meerdere autoriteiten kunnen activeren — typisch bij een beursgenoteerde groep waar [[fsma|FSMA]], [[nationale-bank-belgie|NBB]] en [[ibr|IBR]]-revisor samen optreden. De procedure leert je de routering systematisch op vraagtype te baseren.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/identificeren-administratieve-autoriteit|→ Volledige procedure]]
 
@@ -262,7 +262,7 @@ Op integratie-niveau moet je in een gemengde casus tegelijk meerdere autoriteite
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Hier zit de operationele kern van het boekhoudrecht: de [[boekhoudplichtige-onderneming|boekhoudplicht]], de keuze tussen [[dubbel-boekhouden|dubbele]] en [[vereenvoudigde-boekhouding|vereenvoudigde boekhouding]], en de drie technische pijlers ([[minimum-algemeen-rekeningenstelsel|MAR]], [[dagboek|dagboeken]], [[verantwoordingsstuk|verantwoordingsstukken]]) die samen de [[regelmatige-boekhouding|regelmatigheid]] dragen. Daar bovenop staan procedurele regels — [[onveranderlijkheid-boekingen|onveranderlijkheid]], [[bewaartermijn-boekhouding|bewaartermijn]] en [[eindejaarsverrichtingen|eindejaarsverrichtingen]] — die het cyclische karakter van een boekjaar vormgeven.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[boekhoudplichtige-onderneming|Boekhoudplichtige onderneming]] · `begrip`
 - [[regelmatige-boekhouding|Regelmatige boekhouding]] · `cluster`
@@ -283,7 +283,7 @@ Hier zit de operationele kern van het boekhoudrecht: de [[boekhoudplichtige-onde
 Synthese die per stap toont wat een vennootschap aan het einde van haar boekjaar moet doen: inventaris opmaken, eindejaarsverrichtingen boeken, proef- en saldibalans opstellen, jaarrekening voorbereiden, goedkeuren en openbaarmaken. Voor de stagiair-GA is dit de praktische ruggengraat van zijn eerste boekjaar-afsluitingen.
 
 
-De stappentabel en flowchart zetten de keten op één lijn — let vooral op de wettelijke timing-keten (boekjaar → AV → neerlegging) en op de [[eindejaarsverrichtingen|eindejaarsverrichtingen]] die direct uit de waarderingsbeginselen volgen. Wie de volgorde verstoort, breekt de logica van de jaarrekening.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Stap | Wat | Wanneer | Concept-record | Output |
 |---|---|---|---|---|
@@ -351,7 +351,7 @@ _Bouwt op_: [[regelmatige-boekhouding]] · [[inventaris]] · [[overlopende-reken
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Je leert in een casus de juridische vorm en omzet samen wegen om te kiezen tussen [[dubbel-boekhouden|dubbele boekhouding]] en [[vereenvoudigde-boekhouding|vereenvoudigde boekhouding]] — een rechtspersoon valt altijd onder dubbele boekhouding, een natuurlijke persoon onder de wettelijke drempel mag versimpelen. De procedure begeleidt die kwalificatie stap voor stap.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/kwalificeren-boekhoudplichtige-onderneming|→ Volledige procedure]]
 
@@ -359,7 +359,7 @@ Je leert in een casus de juridische vorm en omzet samen wegen om te kiezen tusse
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Voor verenigingen geldt een eigen drie-regime-cascade ([[jaarrekening-vzw-stichting|VZW-jaarrekening]]): zeer klein → vereenvoudigd, klein → verkort VZW-schema, groot → volledig VZW-schema. In een complexe casus moet je gelijktijdig de aard van de activiteiten en de drie grootte-criteria kunnen toetsen.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/kwalificeren-jaarrekeningregime-vzw-stichting|→ Volledige procedure]]
 
@@ -367,7 +367,7 @@ Voor verenigingen geldt een eigen drie-regime-cascade ([[jaarrekening-vzw-sticht
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Hier komen [[vennootschapsvormen-typologie|vorm-keuze]] en [[groottecriteria-jaarrekening|grootte-toets]] samen tot het allesbepalende beslispunt van het dossier: is de vennootschap [[microvennootschap|micro]], [[kleine-vennootschap|klein]] of groot? Die ene kwalificatie stuurt het [[jaarrekening-schema|jaarrekening-schema]] én het volledige cascade-pakket van verplichtingen aan. Voor [[jaarrekening-vzw-stichting|VZW's en stichtingen]] geldt een parallelle cascade met eigen drempels.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[vennootschapsvormen-typologie|Typologie van vennootschaps- en verenigingsvormen]] · `begrip`
 - [[groottecriteria-jaarrekening|Groottecriteria (jaarrekening-context)]] · `regel`
@@ -381,7 +381,7 @@ Hier komen [[vennootschapsvormen-typologie|vorm-keuze]] en [[groottecriteria-jaa
 Synthese die in één beslisboom toont hoe de groottecategorie (micro/klein/groot) doorwerkt op jaarrekening-schema, commissaris-verplichting, jaarverslag-plicht en consolidatieverplichting. Voor stagiair-GA praktische ruggengraat bij elk vennootschapsdossier.
 
 
-De vergelijkingstabel zet de zes parallelle verplichtingen per categorie naast elkaar; de beslisboom voegt de groep-context en de PIE-test toe. Wie alleen op schema-keuze focust, vergeet typisch de [[commissaris|commissaris]]-vrijstelling of de [[sociale-balans|sociale balans]].
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Aspect | [[microvennootschap\|Micro]] | [[kleine-vennootschap\|Klein]] | Groot |
 |---|---|---|---|
@@ -430,7 +430,7 @@ _Bouwt op_: [[groottecriteria-jaarrekening]] · [[kleine-vennootschap]] · [[mic
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Stap voor stap doorloop je de drie criteria op balansdatum, pas je de twee-opeenvolgende-boekjaren-regel toe en activeer je waar nodig de [[groottecriteria-jaarrekening|verbondenheidstoets]] op geconsolideerde basis. Vergeet bij twijfel niet de extra micro-voorwaarde (geen moeder of dochter zijn).
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/klasseren-vennootschap-naar-groottecategorie|→ Volledige procedure]]
 
@@ -438,7 +438,7 @@ Stap voor stap doorloop je de drie criteria op balansdatum, pas je de twee-opeen
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Eenmaal de [[groottecriteria-jaarrekening|grootteklasse]] bekend is, volgt het schema bijna deterministisch — maar je moet ook kunnen omgaan met overgangsperiodes en met de doorwerking op [[sociale-balans|sociale balans]] en [[toelichting-jaarrekening|toelichting]]. De procedure benoemt die randvoorwaarden expliciet.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/bepalen-jaarrekeningschema|→ Volledige procedure]]
 
@@ -446,7 +446,7 @@ Eenmaal de [[groottecriteria-jaarrekening|grootteklasse]] bekend is, volgt het s
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-De jaarrekening is geen rapport maar een samenstel: [[balans|balans]], [[resultatenrekening|resultatenrekening]] en [[toelichting-jaarrekening|toelichting]] vormen de kern, [[sociale-balans|sociale balans]] en [[bestuursverslag|bestuursverslag]] (synoniem [[jaarverslag|jaarverslag]]) komen er als verplichte aanvullingen bij. De [[samenstelling-statutaire-jaarrekening|samenstellingsprocedure]] vertrekt steeds van de [[proef-en-saldibalans|proef- en saldibalans]] na [[eindejaarsverrichtingen|eindejaarsverrichtingen]]. Vergeet ook de [[klasse-0-niet-in-balans|niet-balans-rubrieken]] niet — daar zit het stille volledigheidsrisico.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[jaarrekening-als-studieobject|Jaarrekening als studieobject van financiële analyse]] · `begrip`
 - [[samenstelling-statutaire-jaarrekening|Samenstelling van de statutaire jaarrekening]] · `procedure`
@@ -463,7 +463,7 @@ De jaarrekening is geen rapport maar een samenstel: [[balans|balans]], [[resulta
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-De [[boekhoudbeginselen-overzicht|beginselen]] zijn geen catechismus maar het kompas dat richting geeft wanneer de wet zwijgt of meerdere wegen openlaat. Vier waarderingsbeginselen ([[voorzichtigheidsbeginsel|voorzichtigheid]], [[continuiteitsbeginsel|continuïteit]], [[oprechtheidsbeginsel|oprechtheid]], [[consistentiebeginsel|consistentie]]) sturen de [[waarderingsregels-jaarrekening|waarderingsregels]] — uitgewerkt in [[aanschaffingswaarde|aanschaffingswaarde]], [[afschrijvingen|afschrijvingen]], [[waardeverminderingen|waardeverminderingen]], [[herwaarderingsmeerwaarden|herwaarderingen]], [[voorzieningen|voorzieningen]] en [[overlopende-rekeningen|overlopende rekeningen]]. Boven alles staat het [[getrouw-beeld|getrouw beeld]] als eindtoets.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[getrouw-beeld|Getrouw beeld]] · `regel`
 - [[getrouw-beeld-jaarrekening|Getrouw beeld van de jaarrekening]] · `regel`
@@ -486,7 +486,7 @@ De [[boekhoudbeginselen-overzicht|beginselen]] zijn geen catechismus maar het ko
 Naast de drie 'voorwaardelijke' boekhoudbeginselen (volledigheid, oprechtheid, onveranderlijkheid) zijn er vier aanvullende beginselen die de **waarderings- en presentatiekeuzes** sturen: voorzichtigheid, oprechtheid, continuïteit en consistentie. Ze staan niet in één wetsartikel maar zijn verspreid in KB-WVV art. 3:6 en 3:35 e.v. Voor het examen is dit cluster één van de meest getoetste theorie-blokken: vragen vertrekken meestal vanuit een concreet waarderings-dilemma en peilen welk beginsel je toepast.
 
 
-De vier beginselen werken complementair en remmen elkaar: [[voorzichtigheidsbeginsel|voorzichtigheid]] zonder [[oprechtheidsbeginsel|oprechtheid]] vervalt in stille reserves; [[continuiteitsbeginsel|continuïteit]] zonder [[consistentiebeginsel|consistentie]] maakt boekjaren onvergelijkbaar. In een waarderings-casus identificeer je dus eerst welk beginsel primair geactiveerd wordt — pas dan zoek je de uitwerking in de [[waarderingsregels-jaarrekening|waarderingsregels]].
+<!-- TODO: Opus-glue synthese-intro -->
 
 **Kerninzichten**:
 
@@ -500,7 +500,7 @@ _Bouwt op_: [[voorzichtigheidsbeginsel]] · [[oprechtheidsbeginsel]] · [[contin
 Synthese die de zeven boekhoudbeginselen in drie functionele lagen ordent: voorwaarden voor regelmatigheid (volledigheid, oprechtheid, onveranderlijkheid), waarderingssturing (continuïteit, voorzichtigheid, consistentie), en het eindbeginsel (getrouw beeld). Cruciaal voor stagiairs omdat losse memorisatie hier niet helpt — examenvragen toetsen welk beginsel doorslaggevend is bij conflicten (typisch: voorzichtigheid tegenover continuïteit).
 
 
-De tabel koppelt elk beginsel aan zijn primaire bron en de typische valkuil; de drie-lagen-flowchart maakt zichtbaar welke beginselen meer ondersteunend zijn (regelmatigheid) en welke meer richting geven (waardering), met [[getrouw-beeld|getrouw beeld]] als overkoepelende eindtoets.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Beginsel | Functie | Primaire bron | Vraag die het beantwoordt | Klassieke valkuil |
 |---|---|---|---|---|
@@ -547,7 +547,7 @@ _Bouwt op_: [[continuiteitsbeginsel]] · [[voorzichtigheidsbeginsel]] · [[getro
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-In een complexe casus moet je het waarderingsvraagstuk eerst typeren, dan de relevante beginselen activeren en hun onderlinge spanning wegen — typisch [[voorzichtigheidsbeginsel|voorzichtigheid]] tegen [[oprechtheidsbeginsel|oprechtheid]] of [[continuiteitsbeginsel|continuïteit]] tegen [[consistentiebeginsel|consistentie]]. De procedure laat zien hoe je tot een coherent oordeel komt zonder in fabriceren te vervallen.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/toepassen-boekhoudbeginselen-op-waarderingsvraagstuk|→ Volledige procedure]]
 
@@ -555,7 +555,7 @@ In een complexe casus moet je het waarderingsvraagstuk eerst typeren, dan de rel
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-De keten sluit op twee niveaus: intern via de [[commissaris|commissaris]] (verplicht bij grote vennootschappen en [[public-interest-entity|PIE's]]) en extern via [[openbaarmaking-jaarrekening|openbaarmaking]] bij de [[nationale-bank-belgie|NBB]]. Voor een gecertificeerd accountant is dit waar het hele dossier publiek wordt — getrouw beeld is hier geen abstract beginsel meer, maar een aansprakelijkheidsdrager.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[commissaris|Commissaris]] · `autoriteit`
 - [[public-interest-entity|Public Interest Entity (PIE)]] · `begrip`
@@ -565,7 +565,7 @@ De keten sluit op twee niveaus: intern via de [[commissaris|commissaris]] (verpl
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-In een complexe casus weeg je grootte én groep-context én eventueel PIE-statuut samen — een kleine vennootschap in een grote groep kan alsnog een [[commissaris|commissaris]] moeten benoemen. De procedure leert je dat onderscheid systematisch maken.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/beoordelen-commissaris-verplichting|→ Volledige procedure]]
 
@@ -573,18 +573,18 @@ In een complexe casus weeg je grootte én groep-context én eventueel PIE-statuu
 
 > [!info] Hoort bij taak: Opstellen van de individuele jaarrekening
 
-Stap voor stap stel je het neerleggingsdossier samen, dien je het tijdig in bij de [[nationale-bank-belgie|NBB]] en volg je technische rejects op. De procedure dwingt af dat je alle verplichte stukken (jaarrekening + eventueel [[jaarverslag|jaarverslag]] en commissarisverslag) consistent bundelt vóór neerlegging.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/uitvoeren-openbaarmaking-jaarrekening|→ Volledige procedure]]
 
 ## Reflectie: een levend rechtsdomein — CBN-adviezen in de praktijk
 
-Het boekhoudrecht oogt strak gecodificeerd, maar leeft door [[cbn-adviezen|CBN-adviezen]] die op nieuwe vraagstukken antwoorden. Een actueel dossier kan zelden gesloten worden met enkel [[wetboek-vennootschappen-verenigingen|WVV]] en [[kb-wvv-uitvoering|KB-WVV]] in de hand — thematisch CBN-adviezen raadplegen hoort tot het basisritueel. Het examen toetst die reflex impliciet door vragen waarbij de wettekst zwijgt en alleen de doctrine richting geeft.
+<!-- TODO: Opus-glue oriëntatie -->
 
 
 ## Synthese-stappenplan
 
-Een coherente werkwijze voor elk dossier uit dit programmaonderdeel. Begin met het [[identificeren-rechtsbron-boekhoudrecht|kwalificeren]] van het vraagtype: verplichting, schema, waardering of procedure? Stel dan de bron vast langs de [[rechtsbronnen-boekhoudrecht-piramide|piramide]] — start bij wet, daal af naar KB-WVV, raadpleeg [[cbn-adviezen|CBN]] bij interpretatieruimte. [[klasseren-vennootschap-naar-groottecategorie|Klasseer]] de onderneming op grootte (eventueel op geconsolideerde basis) en lees daaruit [[jaarrekening-schema|schema]] en cascade-verplichtingen af. Bij waarderings- of presentatievragen activeer je het juiste [[boekhoudbeginselen-overzicht|beginsel]]; bij conflict primeert het [[getrouw-beeld|getrouw beeld]]. Voor procedure-vragen volg je de [[boekjaar-eindprocedure-checklist|boekjaar-keten]] van proefbalans tot neerlegging en routeer je de externe stap naar de juiste [[autoriteiten-boekhoudrecht-landschap|autoriteit]]. Als de standaardregels onvoldoende blijken, hoort de afwijking thuis in de [[toelichting-jaarrekening|toelichting]].
+<!-- TODO: Opus-glue synthese -->
 
 ## Cheatsheet
 
@@ -649,198 +649,218 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-De examenvragen testen vooral je vermogen om in één casus tegelijk juridisch, institutioneel en boekhoudkundig te redeneren — typisch via groottecriteria, waarderingsdilemma's en formele vereisten zoals waarderingsregel-wijzigingen of [[vereenvoudigde-boekhouding|vereenvoudigde boekhouding]]. Verwacht meervoudige antwoorden: niet alleen *of* iets mag, maar *onder welke voorwaarden* en *welke verantwoording* in de toelichting hoort. Zoek de scharnier — het beginsel of de cascade — vóór je een specifiek antwoord kiest.
+<!-- TODO: Opus-glue examenfocus -->
 
-### Wetgeving inzake de jaarrekening 📃
-
-> [!question]- ITAA 2013-2 vraag 2 (tier B)
-> Vraag 2 … / 4 punten
-> Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.
-> a) Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er
-> werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het
-> afgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op:
-> 
-> Antwoord … / 2 punten
-> 
-> |  |  |
-> |---|---|
-> | Zij neemt enkel de nieuwe bestuurders op en diegene die in functie zijn
-> gebleven. |  |
-> | Zij neemt alle bestuurders op met vermelding van begin- en einddata (dus
-> nieuwe benoemde bestuurders en diegene die ontslag genomen hebben,
-> alsook diegene die zonder wijziging in functie zijn gebleven) |  |
-> | Zij neemt de bestuurders op die ontslag genomen hebben en diegene die
-> in functie zijn gebleven |  |
-> 
-> b) Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens
-> een langere economische levensduur.
-> Antwoord … / 2 punten
-> 
-> |  |  |
-> |---|---|
-> | Zij kan de afschrijvingsregels die bepaald werden bij de oprichting van de
-> vennootschap niet meer wijzigen. |  |
-> | Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De
-> vennootschap zal in haar jaarrekening bij de waarderingsregels melding
-> maken van de wijziging. |  |
-> | Zij kan de waarderingsregels wijzigen mits een formele beslissing van het
-> bestuursorgaan en een bekendmaking aan de fiscus. |  |
-> | Het bestuursorgaan dient hieromtrent een formele beslissing te nemen. De
-> vennootschap zal in haar jaarrekening bij de waarderingsregels niet enkel
-> melding maken van de wijziging met de verantwoording, maar ook van het
-> effect op het vermogen en het resultaat. |  |
-
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2003-bibf vraag B.1 (tier C)
-> B.1. Vraag: Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze? 3 PUNTEN
+> [!question]- Vereenvoudigde boekhouding: toepassingsgebied en inhoud
+> *Examen 2003-bibf · PO 1.2*
 >
-> > [!success]- Antwoord-motivering
-> > **Wie mag een vereenvoudigde boekhouding voeren?**
-> > 
-> > Onder Boek III WER (art. III.85) mogen kleine ondernemingen een vereenvoudigde boekhouding voeren. Concreet:
-> > - **Natuurlijke personen** met een zelfstandige beroepsactiviteit ⚖️
-> > - **VOF's en CommV's** (vennootschappen onder firma / gewone commanditaire vennootschappen) — geen rechtspersonen met beperkte aansprakelijkheid 🤖
-> > - Op voorwaarde dat de **jaaromzet onder een wettelijke drempel** blijft (historisch was die ca. € 500.000, sedert 2014 verhoogd; exacte cijfer in WER art. III.85 § 2 + uitvoerings-KB) 🤖
-> > 
-> > **Boekhoudplichtige ondernemingen** met rechtspersoonlijkheid (NV, BV, ...) moeten **altijd dubbel** boekhouden — vereenvoudigd is niet toegelaten. ⚖️
-> > 
-> > **Waaruit bestaat de vereenvoudigde boekhouding?**
-> > 
-> > Drie verplichte hulpdagboeken + één centraal boek ([[hulpdagboeken]] §Soorten):
-> > 
-> > 1. **Aankoopdagboek** — alle inkomende leveranciersfacturen + andere aankoopdocumenten ⚖️
-> > 2. **Verkoopdagboek** — alle uitgaande klantenfacturen + andere verkoop-documenten ⚖️
-> > 3. **Financieel dagboek** — alle bewegingen op bankrekeningen + kas (één dagboek per bankrekening + één voor kas) ⚖️
-> > 4. **Centraal boek** — periodieke centralisatie van de hulpdagboeken (zie vrB2 hieronder) ⚖️
-> > 
-> > **Wat ontbreekt** ten opzichte van een volledige dubbele boekhouding:
-> > - Geen algemeen rekeningstelsel (MAR) verplicht
-> > - Geen jaarrekening volgens schema KB WVV — wel een **vereenvoudigde fiscale staat** voor aangifte personenbelasting + BTW
-> > - Wel: bewaring van alle stukken (10 jaar) + inventaris
-> > 
-> > _Grondslag: WER art. III.82 + III.85; [[boekhoudplichtige-onderneming]]; [[hulpdagboeken]] §Centralisatie._
-> > 
-> > **Historische context** (vraag uit 2003): destijds gold het oude KB van 8 oktober 1976 en het Wetboek van vennootschappen. Inhoudelijk **identiek**: drie hulpdagboeken + driemaandelijkse centralisatie. Alleen omzet-drempels werden meerdere malen aangepast. 🤖
-
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2003-bibf vraag B.2 (tier C)
-> B.2. Vraag: Wat wordt in het "centraal boek" geregistreerd en in welke frequentie? 2 PUNTEN
+> Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze?
 >
-> > [!success]- Antwoord-motivering
-> > **Wat wordt in het centraal boek geregistreerd?**
-> > 
-> > Het centraal boek (algemeen dagboek) bevat de **geconsolideerde periodieke totalen** van alle hulpdagboeken — niet individuele transacties (die staan in de detail-dagboeken). Per periode wordt **één recapitulatieboeking** opgenomen die de saldi van elk hulpdagboek samenvat: ⚖️
-> > 
-> > - Totaal aankoopdagboek (per debetrekening + tegenpost crediteur)
-> > - Totaal verkoopdagboek (per creditrekening + tegenpost debiteur)
-> > - Totaal financieel dagboek (per bankrekening + kas)
-> > - Totaal diversen-dagboek (loonjournaal, afschrijvingsboekingen, correcties)
-> > 
-> > **Waarom?** Het centraal boek geeft het **globaal overzicht** dat moet aansluiten op het algemeen rekeningstelsel en uiteindelijk de jaarrekening. Hulpdagboeken zijn de detail-bronnen; het centraal boek de chronologische samenvatting. ⚖️
-> > 
-> > **Frequentie van centralisatie**:
-> > 
-> > - **Volledige dubbele boekhouding** (NV, BV, grote ondernemingen): **minstens maandelijks** ⚖️
-> > - **Vereenvoudigde boekhouding** (zie vrB1: kleine zelfstandigen, VOF's): **minstens driemaandelijks** ⚖️ — minder frequent toegestaan omdat de transactievolumes typisch lager zijn
-> > 
-> > **Wettelijke onderbouwing**: WER art. III.84-III.85 (vóór 2018: Wet boekhoudrecht 1975 art. 4) verplicht een chronologische registratie en periodieke centralisatie. CBN-advies 174/1 geeft de procedure-details. ⚖️
-> > 
-> > ⚠️ Het centraal boek is **niet** hetzelfde als het algemeen rekeningstelsel (MAR). MAR = nomenclatuur van rekeningen. Centraal boek = chronologische opslag van boekingen die naar het MAR worden geprojecteerd.
-> > 
-> > _Grondslag: WER art. III.84; CBN-advies 174/1; [[hulpdagboeken]] §Centralisatie minstens maandelijks._
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2003-bibf vraag B.3 (tier C)
-> B.3. Vraag: Welke activa mogen geherwaardeerd worden en onder welke voorwaarden? 5 PUNTEN
+> [!question]- Centraal boek: registratie-inhoud en frequentie
+> *Examen 2003-bibf · PO 1.2*
 >
-> > [!success]- Antwoord-motivering
-> > **Welke activa mogen geherwaardeerd worden?** Onder Belgisch boekhoudrecht (KB WVV art. 3:30 + art. 3:35):
-> > - **Materiële vaste activa** (gebouwen, terreinen, machines) ⚖️
-> > - **Immateriële vaste activa** (octrooien, merken, ontwikkelingskosten) — KB WVV art. 3:35 expliciet ⚖️
-> > - **Financiële vaste activa** — deelnemingen, vorderingen op verbonden ondernemingen ⚖️
-> > 
-> > Vlottende activa (voorraden, vorderingen op klanten, geldmiddelen) mogen NIET geherwaardeerd worden — voorzichtigheidsbeginsel verbiedt het boeken van latente meerwaarden buiten de strikt opgesomde uitzonderingen.
-> > 
-> > **Onder welke voorwaarden?** Drie **cumulatieve** voorwaarden (KB WVV art. 3:35):
-> > 
-> > 1. **Zeker** — de meerwaarde is niet hypothetisch, niet gebaseerd op een vermoeden, maar reëel en aantoonbaar. ⚖️
-> > 2. **Duurzaam** — geen tijdelijke marktschommeling of conjuncturele opwaartse beweging die wellicht zou kunnen terugkeren. ⚖️
-> > 3. **Onontbeerlijk voor de continuïteit** van de bedrijfsactiviteit — de boekhoudkundige waarde geeft anders een misleidend beeld; herwaardering corrigeert dat. ⚖️
-> > 
-> > **Boekhoudkundige gevolgen**:
-> > - Geboekt op rekening 12 'Herwaarderingsmeerwaarden' (eigen vermogen, niet-uitkeerbaar). ⚖️
-> > - Verantwoording in toelichting verplicht. ⚖️
-> > - Realisatie via afschrijvingen (gespreid) of bij vervreemding (eenmalig); kan ingelijfd worden in kapitaal of overgeboekt naar uitkeerbare reserves. ⚖️
-> > - Bij latere minderwaarde: uitboeking tot beloop van het nog niet afgeschreven bedrag.
-> > 
-> > **Historische context** (vraag uit 2003): de regels onder het toenmalige KB van 8 oktober 1976 en latere wijzigingen waren inhoudelijk **identiek** — zeker, duurzaam, onontbeerlijk. Alleen de artikelnummering is veranderd door de integratie in KB WVV 2019.
-> > 
-> > _Grondslag: KB WVV art. 3:30 + art. 3:35; [[herwaarderingsmeerwaarden]] §Strikte voorwaarden + §Toepassingsgebied._
-
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2003-bibf vraag B.5 (tier C)
-> B.5. Vraag: Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A.1 hierboven? 3 PUNTEN
-
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2008-bibf vraag B.2 (tier C)
-> B.2 De hierboven vermelde vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers, berekend in voltijdse equivalenten. Welk schema moet / mag de vennootschap A voor haar jaarrekening gebruiken? Welk schema moet / mag de vennootschap B voor haar jaarrekening gebruiken?
+> Wat wordt in het "centraal boek" geregistreerd en in welke frequentie?
 >
-> > [!success]- Antwoord-motivering
-> > **Stap 1: Groottecriteria-toets voor vennootschap A (afzonderlijk)**
-> > 
-> > A heeft 120 voltijdse equivalenten — dat overschrijdt de drempel voor 'klein' (≤ 50 werknemers). ⚖️ Omzet en balanstotaal van A zijn niet gegeven; **echter**, A is **moedervennootschap** (controleert B en C), wat de **verbondenheidstoets** activeert (WVV art. 1:24, § 5): de groottecriteria moeten worden getoetst op **geconsolideerde basis**, niet afzonderlijk. ⚖️
-> > 
-> > **Stap 2: Groottecriteria-toets voor vennootschap B (afzonderlijk)**
-> > 
-> > B heeft 5 voltijdse equivalenten en € 2.000.000 jaaromzet — beide ruim onder de 'klein'-drempels. Op zich zou B als 'klein' kwalificeren (mogelijk zelfs 'micro' indien balanstotaal ≤ € 450.000 en geen moeder/dochter). 🤖 Maar B is **dochter** van A → **automatisch geen micro** (WVV art. 1:25, § 2: een microvennootschap mag géén dochter zijn). ⚖️ Daarnaast moet ook B haar groottetoets op **geconsolideerde basis** doen (WVV art. 1:24, § 5). ⚖️
-> > 
-> > **Stap 3: Geconsolideerde toets voor de groep A + B (+ C)**
-> > 
-> > - Personeel geconsolideerd: A (120) + B (5) = minstens **125 voltijdse equivalenten** → ver boven de drempel 50 → criterium overschreden. ⚖️
-> > - Omzet en balanstotaal van A en C niet gegeven, maar 125 werknemers impliceert sterk dat omzet > € 11.250.000 (drempel klein). 🤖
-> > - Conclusie: geconsolideerd is de groep **groot** — minstens twee criteria (zeker personeel, zeer waarschijnlijk omzet) overschreden. ⚖️
-> > 
-> > **Stap 4: Gevolgen voor de jaarrekening**
-> > 
-> > Onder huidig recht (WVV art. 1:24-1:26 + KB WVV art. 3:1):
-> > 
-> > - **Vennootschap A** → groot (afzonderlijk én geconsolideerd) → **verplicht het volledig schema** te gebruiken. ⚖️
-> > - **Vennootschap B** → groot (op geconsolideerde basis, ook al is ze op zich klein) → **verplicht het volledig schema** te gebruiken. ⚖️
-> > 
-> > Geen vennootschap mag het verkort of microschema kiezen.
-> > 
-> > _Grondslag: WVV art. 1:24 (groottecriteria + verbondenheidstoets), WVV art. 1:25 (microvennootschap niet als dochter), KB WVV art. 3:1 e.v. (jaarrekeningschema-keuze)._
-> > 
-> > **Historische context**: deze vraag (2008) verwijst impliciet naar artikel 15 van het oude Wetboek van vennootschappen (vóór 2019). De inhoudelijke regel is **identiek** onder huidige WVV (verbondenheidstoets + drie criteria). Drempel-cijfers werden ondertussen aangepast (laatst: 2024-update) — de nieuwste 'klein'-drempels zijn 50 wn / € 11.250.000 omzet / € 6.000.000 balanstotaal.
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2008-bibf vraag B.3 (tier C)
-> B.3 De hierboven vermelde vennootschap A heeft 12.000 EUR, exclusief BTW, ereloon betaald voor de commissaris opdracht. In welke rubriek wordt deze bezoldiging geboekt? Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?
+> [!question]- Herwaardering van activa: voorwaarden en toepassingsgebied
+> *Examen 2003-bibf · PO 1.2*
 >
-> > [!success]- Antwoord-motivering
-> > De bezoldiging wordt geboekt onder rubriek 613 Diensten en diverse goederen In overeenstemming met artikel 134, § 2 Wetboek van vennootschappen, moet de bezoldiging van de commissaris worden vermeld in de toelichting bij de jaarrekening.
-
-
-### B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2008-bibf vraag B.4 (tier C)
-> B.4 In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers. In de veronderstelling dat personeelsleden, tijdens de diensturen, seminaries hebben gevolgd buiten de onderneming, hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?
+> Welke activa mogen geherwaardeerd worden en onder welke voorwaarden?
 >
-> > [!success]- Antwoord-motivering
-> > De totale kost van de bezoldiging voor de opleidingsuren moet worden gewaardeerd; de eventuele terugbetaalde verplaatsingskosten worden eraan toegevoegd alsook de deelnamekosten aan het seminarie.
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
+> [!question]- Toelichting bij kapitaalsubsidies: meldingen in de jaarrekening
+> *Examen 2003-bibf · PO 1.2*
+>
+> > Verwijzing naar geval A uit vraag A.1 (kapitaalsubsidie boekjaar 2002 op een afschrijfbaar actief).
+>
+> Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Schema jaarrekening: klein vs. volledig schema voor groepsvennootschappen
+> *Examen 2008-bibf · PO 1.2*
+>
+> > Vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers (voltijdse equivalenten).
+>
+> Welk schema moet/mag de vennootschap A voor haar jaarrekening gebruiken?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welk schema moet/mag de vennootschap B voor haar jaarrekening gebruiken?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Boeking en toelichting commissarisereloenen in de jaarrekening
+> *Examen 2008-bibf · PO 1.2*
+>
+> > Vennootschap A heeft 12.000 EUR exclusief BTW ereloon betaald voor de commissaris.
+>
+> In welke rubriek wordt deze bezoldiging geboekt?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Berekening opleidingskost in de sociale balans bij seminaries tijdens diensturen
+> *Examen 2008-bibf · PO 1.2*
+>
+> > Personeelsleden hebben, tijdens de diensturen, seminaries gevolgd buiten de onderneming. In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers.
+>
+> Hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Verantwoording van de waarderingsregels in jaarverslag of jaarrekening
+> *Examen 2013-1 · PO 1.2*
+>
+> > De besloten vennootschap met beperkte aansprakelijkheid XYZ heeft de volgende balans- en resultatenrekening.
+>
+> **Balans**
+>
+> **Actief**
+>
+> | Rubriek | Jaar 2012 | Jaar 2011 |
+> | --- | --- | --- |
+> | Materiële vaste activa | 105.000 | 100.000 |
+> | Vorderingen < jaar | 45.000 | 40.000 |
+> | Liquide middelen | 25.000 | 30.000 |
+> | TOTAAL | 175.000 | 170.000 |
+>
+> **Passief**
+>
+> | Rubriek | Jaar 2012 | Jaar 2011 |
+> | --- | --- | --- |
+> | Kapitaal | 65.000 | 65.000 |
+> | Reserves | 15.000 | 15.000 |
+> | Overgedragen resultaat | 5.000 | 10.000 |
+> | Schulden > jaar | 50.000 | 50.000 |
+> | Schulden < jaar | 40.000 | 30.000 |
+> | TOTAAL | 175.000 | 170.000 |
+>
+> **Resultatenrekening — Te bestemmen winst/verlies**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Te bestemmen winst/verlies — Jaar 2012 | -5.000 |
+> | Te bestemmen winst/verlies — Jaar 2011 | 15.000 |
+>
+> **Resultaatverwerking Jaar 2011**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Te bestemmen winst van het boekjaar | 15.000 |
+> | Overgedragen verlies vorig boekjaar | -5.000 |
+> | Over te dragen winst | 10.000 |
+>
+> **Resultaatverwerking Jaar 2012**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Te bestemmen verlies van het boekjaar | -5.000 |
+> | Overgedragen winst vorig boekjaar | 10.000 |
+> | Over te dragen winst | 5.000 |
+>
+> Dient deze vennootschap haar waarderingsregels te verantwoorden in haar jaarverslag, en indien zij geen jaarverslag dient op te stellen in haar jaarrekening in het jaar 2012?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > **_Ja, BVBA XYZ moet haar waarderingsregels verantwoorden in de jaarrekening voor het boekjaar 2012. Concreet: in de toelichting bij de jaarrekening (een BVBA met verkort schema heeft geen jaarverslagverplichting) moet worden gemotiveerd dat de toegepaste waarderingsregels ongewijzigd zijn gebleven, of - als ze zijn gewijzigd - moet de wijziging worden toegelicht inclusief de impact op het resultaat en het eigen vermogen._** 🤖
+> > 
+> > > De jaarrekening moet worden opgesteld volgens het bestendigheidsbeginsel (consistentiebeginsel): waarderingsregels moeten van jaar tot jaar identiek worden toegepast, tenzij dit niet langer leidt tot een getrouw beeld. Een wijziging moet expliciet worden vermeld en gemotiveerd. Bij een verkort schema gebeurt deze verantwoording in de toelichting bij de jaarrekening (de BVBA die voldoet aan de criteria voor het verkort schema is vrijgesteld van het jaarverslag). 🤖
+> > *Bron: KB W.Venn. art. 28 (oud) / KB WVV art. 3:6 - bestendigheidsbeginsel; art. 94 W.Venn. (oud) / art. 3:65 WVV - vrijstelling jaarverslag bij verkort schema*
+> > 
+> > Toetsing aan de criteria voor verkort schema (oud W.Venn., toepasselijk op boekjaar 2012): balanstotaal 175.000 EUR (drempel 3.650.000 EUR), schulden < jaar 40.000 EUR, geen omzetcijfer in casus. Op basis van de balans is XYZ ruim onder alle drempels - verkort schema en vrijstelling jaarverslag van toepassing. Verantwoording van de waarderingsregels (en eventuele wijzigingen) gebeurt dan in de toelichting bij de jaarrekening, niet in een afzonderlijk jaarverslag. Te bestemmen verlies 2012 (-5.000) blijft binnen de overgedragen winst (10.000) - geen verplichting tot bijzondere motivering van de continuiteit. Wel: voor 2012 is er een resultaatsdaling t.o.v. 2011 (+15.000 -> -5.000), wat een aanwijzing kan zijn om de waarderingsregels kritisch te herbekijken, maar dit verandert de verplichting niet. Conclusie: verantwoording is verplicht in de toelichting, in het verkort schema. Liefst beknopt en consistent met vorig boekjaar. Geen jaarverslag vereist. ⚠️ te verifiëren - exacte drempelwaarden voor verkort schema in boekjaar 2012 te valideren tegen het Cijferzakboekje (versie 2012/2013). 🤖
+
+> [!question]- Neerlegging jaarrekening: achterstand en gevolgen
+> *Examen 2013-2 · PO 1.2*
+>
+> > Wat de bij de Nationale Bank van België neergelegde jaarrekeningen betreft, stelt u op 4 mei 2013 vast dat uw nieuwe cliënt, de bvba 'Mode Invest', de jaarrekeningen van de vier laatste boekjaren niet meer heeft neergelegd.
+>
+> Wat zult u uw cliënt adviseren?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Waarom?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Jaarrekening: bestuurdersvermelding en afschrijvingspercentage-wijziging
+> *Examen 2013-2 · PO 1.2*
+>
+> > Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.
+>
+> Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het afgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op: welke bestuurders vermeldt zij?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens een langere economische levensduur. Hoe verwerkt zij dit?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Jaarrekening — volledig of verkort schema bij verbonden vennootschappen
+> *Examen 2014-1 · PO 1.2*
+>
+> > De heer LEGRAND Alexandre is samen met zijn broer Luigi vennoot in de vennootschappen 'Mise en Trop' bvba en 'Coté Pratique' bvba in Brussel. Vennootschap 'Mise en Trop' bvba stelt 39 voltijdse personeelsleden tewerk in de informaticasector. Vennootschap 'Coté Pratique' bvba stelt 25 personen, allen halftijds, tewerk in de poetshulpsector. Zij raadplegen u in verband met 'Mise en Trop' bvba om informatie te bekomen over hun op 31 december 2013 afgesloten jaarrekening.
+>
+> **Balans**
+>
+> **Actief**
+>
+> | Activa | 31/12/2013 | 31/12/2012 |
+> | --- | --- | --- |
+> | Materiële vaste activa | 450.000,00 | 455.000,00 |
+> | Voorraad | 35.000,00 | 30.000,00 |
+> | Handelsvorderingen | 75.000,00 | 85.000,00 |
+> | Liquide middelen | 80.000,00 | 45.000,00 |
+> | Totaal | 640.000,00 | 615.000,00 |
+>
+> **Passief**
+>
+> | Passiva | 31/12/2013 | 31/12/2012 |
+> | --- | --- | --- |
+> | Kapitaal | 375.000,00 | 375.000,00 |
+> | Reserves | 175.000,00 | 150.000,00 |
+> | Handelsschulden | 45.000,00 | 47.000,00 |
+> | Belasting-, loon-, sociale schulden | 45.000,00 | 43.000,00 |
+> | Totaal | 640.000,00 | 615.000,00 |
+>
+> **Omzetcijfers**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Omzet 'Mise en Trop' 2013 | 7.450.000 |
+> | Omzet 'Mise en Trop' 2012 | 7.350.000 |
+> | Omzet 'Coté Pratique' 2013 | 530.000 |
+> | Omzet 'Coté Pratique' 2012 | 520.000 |
+>
+> Hoe luidt uw advies, op zicht van deze gegevens?
+>
+> - **a)** U stelt vast dat de balans correct werd opgesteld en raadt hun aan zo voort te doen.
+> - **b)** U adviseert hen om enkel de jaarrekening van vennootschap 'Mise en Trop' bvba volgens het volledig schema op te stellen.
+> - **c)** U adviseert hen om de jaarrekeningen van beide vennootschappen volgens het volledig schema op te stellen.
+> - **d)** U adviseert hen om enkel de jaarrekening van vennootschap 'Coté Pratique' bvba volgens het volledig schema op te stellen.
+> - **e)** U adviseert hen om een geconsolideerde rekening bij de Nationale Bank neer te leggen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
 
 ## Competentie-index

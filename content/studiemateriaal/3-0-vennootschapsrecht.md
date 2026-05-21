@@ -208,7 +208,7 @@ gerelateerde_concepten:
 - vrijwillige-versus-gerechtelijke-ontbinding
 - vroegtijdige-waarschuwing-insolventie
 - wettige-redenen-ontbinding
-gegenereerd_op: '2026-05-20'
+gegenereerd_op: '2026-05-21'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -241,21 +241,19 @@ gegenereerd_op: '2026-05-20'
 
 ## Leesgids
 
-De minicursus volgt de levenscyclus van een [[vennootschap-begrip|vennootschap]]: eerst de bouwstenen (vormen, organen, statuten), dan de werking (algemene vergadering, kapitaal, uitkeringen), vervolgens de bewegingen (overname, conflict, omzetting) en ten slotte de uitstap (ontbinding, vereffening, insolventie). De drie eindrubrieken — taak 1 oprichting, taak 2 overdracht/ontbinding, taak 3 bijzondere mandaten — koppelen die kennis aan de concrete accountantsrollen. Lees thematisch wanneer je een dossier bij de hand hebt; lees per taak wanneer je je rol op het examen voorbereidt.
+<!-- TODO: Opus-glue leesgids -->
 
 ## Waarom dit programmaonderdeel telt
 
-Vennootschapsrecht is voor de gecertificeerd accountant geen achterhoede-vak maar het kader waarin elke andere opdracht zich afspeelt: wie tekent de jaarrekening, welke vergadering keurt ze goed, welke procedure dwingt een uitkering af, en welke aansprakelijkheid loopt het bestuursorgaan wanneer het misgaat. Het WVV van 2019 verving de oude opbouw door een **strakke residuair-bevoegdheidslogica** (de [[bevoegdheid-bestuursorgaan|residuaire bevoegdheid van het bestuursorgaan]]) en koppelde de [[besloten-vennootschap-bv|BV]] los van het kapitaalbegrip, met [[nettoactieftest|nettoactieftest]] en [[liquiditeitstest-bv|liquiditeitstest]] als nieuwe ankers. Daarnaast verschoof de bestuurders­aansprakelijkheid: een wettelijke [[aansprakelijkheidsbeperking-bestuurder|cap met exoneratieverbod]], een verzwaarde regeling bij insolventie en specifieke regimes voor fiscale en sociale schulden. Tegelijk integreerde Boek XX WER de [[insolventieprocedures-belgie|insolventieprocedures]] tot één continuüm waarin de accountant via de [[meldingsplicht-accountant-continuiteit|meldingsplicht bij bedreigde continuïteit]] een sleutelrol krijgt. Wie deze structuur niet beheerst, kan op het examen geen integratievraag oplossen.
+<!-- TODO: Opus-glue waarom_po -->
 
 ## Waarom vennootschapsrecht voor de accountant? Van oprichting tot exit
 
-Elke cliëntrelatie speelt zich af tussen twee polen: de oprichtingsakte aan de ene kant en de [[sluiting-vereffening|sluiting van de vereffening]] aan de andere. Daartussen ligt het werk van de accountant — verslagen bij [[inbreng-in-natura|inbreng in natura]], begeleiding bij een [[overnameovereenkomst|overnameovereenkomst]], adviseren bij een conflict, attesteren bij een [[omzetting-vennootschap|omzetting]]. De minicursus leert je die levensloop als één geheel zien, zodat je in een complexe casus de juiste fase, het juiste orgaan en het juiste instrument samen kunt inzetten.
+<!-- TODO: Opus-glue oriëntatie -->
 
 ## Basisbegrippen: wat is een vennootschap en wie zijn de spelers?
 
-Voor je rechtsvormen vergelijkt, moet je de bouwstenen onderscheiden: het [[vennootschap-begrip|vennootschap-begrip]] zelf, het verschil tussen [[rechtspersoonlijkheid-vennootschap|rechtspersoonlijkheid]] en geen rechtspersoonlijkheid, en het onderscheid [[vennoot-vs-aandeelhouder|vennoot versus aandeelhouder]]. Deze begrippen bepalen of het vermogen afgescheiden is ([[beperkte-aansprakelijkheid-vennoot|beperkte aansprakelijkheid]]) of niet ([[onbeperkte-aansprakelijkheid-vennoot|onbeperkte aansprakelijkheid]]), en wanneer rechters die afscherming uitzonderlijk doorbreken via een [[doorbraak-aansprakelijkheid|doorbraak]].
-
-Houd bij elk begrip in deze sectie één vraag voor ogen: welk gevolg heeft het voor het vermogen van de cliënt? De [[vennootschapsvormen-typologie|typologie]] in de volgende sectie hangt rechtstreeks aan deze keuzes vast.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[vennootschap-begrip|Vennootschap (juridisch begrip)]] · `begrip`
 - [[rechtspersoonlijkheid-vennootschap|Rechtspersoonlijkheid van een vennootschap]] · `begrip`
@@ -267,7 +265,7 @@ Houd bij elk begrip in deze sectie één vraag voor ogen: welk gevolg heeft het 
 
 ## De vennootschapsvormen onder het WVV: BV, NV, CV, maatschap, VZW en stichting
 
-Het WVV 2019 heeft het aantal rechtsvormen sterk teruggebracht: de [[besloten-vennootschap-bv|BV]] is de nieuwe default-vorm, de [[naamloze-vennootschap-nv|NV]] blijft voor grotere of beursgerichte structuren, en een aantal vormen werd [[afgeschafte-vennootschapsvormen|afgeschaft]]. In een casus moet je de vorm herkennen aan haar typische combinatie van rechtspersoonlijkheid, aansprakelijkheidsregime en winstoogmerk — pas dan kies je de juiste werkwijze voor het bestuur, de algemene vergadering en de uitkeringen.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[besloten-vennootschap-bv|Besloten vennootschap (BV)]] · `cluster`
 - [[naamloze-vennootschap-nv|Naamloze vennootschap (NV)]] · `cluster`
@@ -281,7 +279,7 @@ Het WVV 2019 heeft het aantal rechtsvormen sterk teruggebracht: de [[besloten-ve
 
 ## Statuten en inbreng — de oprichtingsdocumenten
 
-De [[statuten-vennootschap|statuten]] zijn het contract tussen vennoten én de regels van het huis voor het bestuur: ze bepalen wat dwingend volgt uit het WVV en wat partijen zelf invullen. De [[inbreng-vennootschap|inbreng]] is de tegenprestatie voor aandelen, en de wet schrijft voor [[inbreng-in-natura|inbreng in natura]] een revisorenverslag voor — een document dat je bij elke oprichting met inbreng in natura mee voorbereidt.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[statuten-vennootschap|Statuten van een vennootschap]] · `cluster`
 - [[inbreng-vennootschap|Inbreng in een vennootschap]] · `begrip`
@@ -293,7 +291,7 @@ De [[statuten-vennootschap|statuten]] zijn het contract tussen vennoten én de r
 Eén tabel die alle WVV-vormen langs vijf beslissingsdimensies zet. Voor de stagiair: hét overzicht om bij elke cliënt-keuze de relevante rechtsvorm aan te raden of te herkennen. Examenvraag-stijl: 'gegeven deze omstandigheden, welke vorm past?' — deze synthese geeft de coördinaten.
 
 
-Gebruik de tabel als filter: schakel achtereenvolgens [[rechtspersoonlijkheid-vennootschap|rechtspersoonlijkheid]], aansprakelijkheid en winstoogmerk in, dan blijft meestal één rechtsvorm over. De kerninzichten eronder vatten samen welke afweging je in 80% van de oprichtingsdossiers maakt.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -309,13 +307,13 @@ _Bouwt op_: [[maatschap-rechtsvorm]] · [[personenvennootschap-met-rechtspersoon
 
 > [!info] Hoort bij taak: Begeleiding bij de oprichting van een onderneming
 
-In een oprichtingsgesprek vertaal je de cliënt-context (omvang, aantal partners, kapitaalbehoefte, winstoogmerk) naar één concrete vormkeuze. De [[vennootschapsvormen-vergelijking|vergelijkingsmatrix]] geeft je de coördinaten; de volledige procedure hieronder ordent het gespreksverloop, de documentatie en de afweging.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/adviseren-vennootschapsvormkeuze|→ Volledige procedure]]
 
 ## Bestuur en vertegenwoordiging — wie beslist en wie tekent?
 
-In elke casus moet je twee dingen uit elkaar houden: wie binnen het [[bestuursorgaan|bestuursorgaan]] beslist (intern) en wie de vennootschap rechtsgeldig vertegenwoordigt jegens derden (extern). Het WVV koppelt aan het bestuur een [[bevoegdheid-bestuursorgaan|residuaire bevoegdheid]] — alles wat niet aan de algemene vergadering is toegewezen, hoort daar. Het bestuursmodel (enige bestuurder, monistisch, duaal of werkwijze BV/CV) zit in de statuten en bepaalt hoe handtekeningen verdeeld worden.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[bestuursorgaan|Bestuursorgaan]] · `cluster`
 - [[bestuur-bv-cv-werkwijze|Werkwijze van het bestuur in BV en CV]] · `cluster`
@@ -329,7 +327,7 @@ In elke casus moet je twee dingen uit elkaar houden: wie binnen het [[bestuursor
 
 ## Belangenconflicten van bestuurders — de procedure
 
-Het [[belangenconflict-bestuurder|belangenconflict-regime]] vraagt drie stappen die je per dossier afvinkt: vooraf melden, je onthouden, en het besluit verantwoorden in de notulen. De procedure verschilt naargelang de rechtsvorm — [[belangenconflict-bestuurder-bv-cv|BV en CV]] hebben hun eigen regime, [[belangenconflict-bestuurder-vzw-stichting|vzw en stichting]] een ander. Bij genoteerde NV's komt daarbovenop nog de [[verbonden-partijen-procedure-genoteerd|verbonden-partijen-procedure]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[belangenconflict-bestuurder|Belangenconflict van een bestuurder]] · `cluster`
 - [[belangenconflict-bestuurder-bv-cv|Belangenconflict van een bestuurder in BV en CV]] · `cluster`
@@ -341,7 +339,7 @@ Het [[belangenconflict-bestuurder|belangenconflict-regime]] vraagt drie stappen 
 De NV in het WVV kent drie alternatieve bestuursmodellen die de statuten exclusief kiezen: een collegiale raad van bestuur (monistisch), een enige bestuurder, of een duaal bestuur met een raad van toezicht en een directieraad. Voor BV en CV is er één model — een (al dan niet collegiaal) bestuursorgaan. Personenvennootschappen werken met zaakvoerders.
 
 
-Voor de accountant is dit overzicht het vertrekpunt bij elke statuten-lectuur: welk model is gekozen, en wie tekent dus de jaarrekening? De kerninzichten hieronder maken de exclusiviteit van de keuze en het fundamentele verschil tussen [[duaal-bestuur|duaal bestuur]] en het oude directiecomité expliciet.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -354,7 +352,7 @@ Voor de accountant is dit overzicht het vertrekpunt bij elke statuten-lectuur: w
 _Bouwt op_: [[monistisch-bestuur]] · [[duaal-bestuur]] · [[enige-bestuurder]] · [[bestuursorgaan]]
 ## Algemene vergadering — soorten, bijeenroeping en besluitvorming
 
-De [[algemene-vergadering|algemene vergadering]] is het collegiale orgaan waar de aandeelhouders hun voorbehouden bevoegdheden uitoefenen. Onderscheid de [[gewone-algemene-vergadering|gewone]] (jaarvergadering), de [[buitengewone-algemene-vergadering|buitengewone]] (notarieel, statutenwijziging) en de [[bijzondere-algemene-vergadering|bijzondere]] vergadering — elk met eigen vorm en agenda. Een correcte [[bijeenroeping-algemene-vergadering|bijeenroeping]] en sluitende [[notulen-algemene-vergadering|notulen]] zijn vormvereisten waaraan een besluit kan sneuvelen.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[algemene-vergadering|Algemene vergadering]] · `cluster`
 - [[gewone-algemene-vergadering|Gewone algemene vergadering (jaarvergadering)]] · `cluster`
@@ -368,7 +366,7 @@ De [[algemene-vergadering|algemene vergadering]] is het collegiale orgaan waar d
 
 ## Rechten en plichten van aandeelhouders op de algemene vergadering
 
-Naast het [[stemrecht-aandeelhouder|stemrecht]] heeft de aandeelhouder een [[vraagrecht-aandeelhouder|vraagrecht]] op de vergadering en, vanaf bepaalde drempels, een [[agenderingsrecht-aandeelhouder|agenderingsrecht]] om punten op de agenda te krijgen. Voor [[quorum-en-meerderheid-statutenwijziging|statutenwijzigingen]] gelden strengere drempels — kennen welke rechten en plichten van toepassing zijn, beslist of een besluit nietigverklaard kan worden.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[stemrecht-aandeelhouder|Stemrecht van de aandeelhouder]] · `begrip`
 - [[vraagrecht-aandeelhouder|Vraagrecht van de aandeelhouder op de algemene vergadering]] · `regel`
@@ -382,7 +380,7 @@ Naast het [[stemrecht-aandeelhouder|stemrecht]] heeft de aandeelhouder een [[vra
 Snelle vergelijking van de gewone, bijzondere en buitengewone algemene vergadering: vorm (onderhands of notarieel), agenda, frequentie en quorum/meerderheid. Helpt bij de eerste vraag in elk AV-dossier: 'welke soort moeten we organiseren?'.
 
 
-Begin altijd bij de agenda: wat moet beslist worden, bepaalt welke vergadering je organiseert en welke vormvereisten gelden. De [[buitengewone-algemene-vergadering|buitengewone]] vraagt een notaris, de [[gewone-algemene-vergadering|gewone]] niet — combineer ze in de praktijk efficiënt wanneer beide besluiten in één boekjaar moeten vallen.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -398,7 +396,7 @@ _Bouwt op_: [[algemene-vergadering]] · [[gewone-algemene-vergadering]] · [[bij
 Overzicht van de aanwezigheids- en meerderheidsregels in BV, CV en NV voor de drie hoofdtypes besluiten: gewone beslissing, statutenwijziging en wijziging van voorwerp/doelen. Voor stagiairs het meest aangevraagde tabelletje — zonder dit beslis je geen enkel AV-besluit correct.
 
 
-Twee veelgemaakte fouten vermijd je met deze tabel: in BV/CV reken je op 'uitgegeven aandelen', in NV op 'kapitaal'; en onthoudingen tellen nergens mee in teller of noemer. Voor [[quorum-en-meerderheid-statutenwijziging|statutenwijziging]] gelden zwaardere drempels dan voor een gewone beslissing — verwissel ze niet.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -415,7 +413,7 @@ _Bouwt op_: [[algemene-vergadering]] · [[buitengewone-algemene-vergadering]] ·
 De WVV-architectuur is residuair: het bestuursorgaan is bevoegd voor alle handelingen 'nodig of dienstig voor het voorwerp', behalve de materies die de wet expliciet aan de algemene vergadering toekent. Dit overzicht maakt de scherpe scheidslijn zichtbaar — essentieel voor de stagiair die in een dossier moet beslissen welk orgaan iets moet beslissen, welke formaliteiten gelden en welk vormvereiste van toepassing is.
 
 
-De hoofdregel is dat de [[algemene-vergadering|AV]] beslist over structuur en kapitaal, het [[bevoegdheid-bestuursorgaan|bestuursorgaan]] over de werking. Het toegestaan kapitaal is de belangrijke uitzondering, en statutaire bevoegdheidsbeperkingen werken intern maar niet jegens derden — twee nuances die in een casus snel het verschil maken.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -429,7 +427,7 @@ De hoofdregel is dat de [[algemene-vergadering|AV]] beslist over structuur en ka
 _Bouwt op_: [[algemene-vergadering]] · [[bevoegdheid-bestuursorgaan]] · [[buitengewone-algemene-vergadering]] · [[kwijting-bestuurder]] · [[kapitaalverhoging-nv]] · [[vrijwillige-ontbinding]]
 ## Kapitaal en eigen vermogen — verhoging, vermindering en inkoop
 
-Voor [[naamloze-vennootschap-nv|NV]] blijft het kapitaalbegrip overeind — [[kapitaalverhoging-nv|verhoging]] en [[kapitaalvermindering-nv|vermindering]] verlopen via statutenwijziging — terwijl de [[besloten-vennootschap-bv|BV]] sinds 2019 zonder kapitaal werkt: [[kapitaalverhoging-bv|bijkomende inbreng]] gebeurt via uitgifte van nieuwe aandelen. Bij elke ingreep op het eigen vermogen moet je het [[voorkeurrecht-aandeelhouder|voorkeurrecht]] respecteren of motiveren waarom je het uitsluit, en bij een [[quasi-inbreng-verslag|quasi-inbreng]] of [[financiele-steunverlening|financiële steunverlening]] gelden bijkomende verslagvereisten.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[kapitaalverhoging-bv|Bijkomende inbreng en uitgifte van aandelen bij de BV]] · `cluster`
 - [[kapitaalverhoging-nv|Kapitaalverhoging bij de NV]] · `cluster`
@@ -442,7 +440,7 @@ Voor [[naamloze-vennootschap-nv|NV]] blijft het kapitaalbegrip overeind — [[ka
 
 ## Uitkeringen en de twee testen — netto-actief en liquiditeit
 
-Elke [[uitkering-uit-eigen-vermogen-bv|vermogensdistributie]] in een BV moet door twee filters: de [[nettoactieftest|nettoactieftest]] (balansgebaseerd) en de [[liquiditeitstest-bv|liquiditeitstest]] (prospectief). Faalt één van beide, dan riskeert de bestuurder een [[bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering|aansprakelijkheid voor onrechtmatige uitkering]]. Bij ernstige kapitaalverlies activeer je daarbovenop de [[alarmbelprocedure|alarmbelprocedure]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[uitkering-uit-eigen-vermogen-bv|Uitkering uit eigen vermogen bij de BV (vermogensdistributie)]] · `cluster`
 - [[nettoactieftest|Nettoactieftest]] · `regel`
@@ -457,7 +455,7 @@ Elke [[uitkering-uit-eigen-vermogen-bv|vermogensdistributie]] in een BV moet doo
 Eén overzicht voor de stagiair die in een dossier moet weten welke procedure hij/zij moet volgen voor een uitkering aan aandeelhouders. Het verschil tussen BV-regime (geen kapitaal, dubbele test) en NV-regime (kapitaal als anker, enkelvoudige nettoactieftest) is dé bouwstone van het herziene WVV-kapitaalbeschermingsregime.
 
 
-Eerst het regime herkennen, dan pas de procedure activeren — dat is de volgorde waarmee je geen procedurefouten maakt. Bij een [[besloten-vennootschap-bv|BV]] doe je een tweestaps-procedure met bestuursverslag; bij een [[naamloze-vennootschap-nv|NV]] volstaat de balanscheck van de [[nettoactieftest|nettoactieftest]]. De [[liquiditeitstest-bv|liquiditeitstest]] is in de BV dé plek waar bestuurders persoonlijk blootstaan.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -471,7 +469,7 @@ Eerst het regime herkennen, dan pas de procedure activeren — dat is de volgord
 _Bouwt op_: [[nettoactieftest]] · [[liquiditeitstest-bv]] · [[besloten-vennootschap-bv]] · [[naamloze-vennootschap-nv]] · [[wettelijke-reserve]]
 ## Overnameovereenkomsten — pre-deal: LOI, due diligence en signing
 
-Voor de eigenlijke [[overnameovereenkomst|overnameovereenkomst]] ondertekend wordt, doorloop je drie pre-deal-fasen: een [[letter-of-intent-overname|letter of intent]] die de hoofdlijnen vastlegt, een [[confidentiality-overname|geheimhoudingsovereenkomst]] die de informatie-uitwisseling afdekt, en een [[due-diligence-overname|due diligence]] die de risico's in kaart brengt. In deze fase loop je risico op [[precontractuele-aansprakelijkheid-overname|precontractuele aansprakelijkheid]] — onderhandelingen afbreken kan, maar willekeurig afbreken niet.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[letter-of-intent-overname|Letter of intent / term sheet (overname)]] · `begrip`
 - [[confidentiality-overname|Vertrouwelijkheidsovereenkomst bij overname]] · `begrip`
@@ -481,7 +479,7 @@ Voor de eigenlijke [[overnameovereenkomst|overnameovereenkomst]] ondertekend wor
 
 ## Overnameovereenkomsten — deal-mechanica: prijs, garanties en closing
 
-De eigenlijke deal-architectuur draait om drie blokken: garanties van de verkoper ([[representations-and-warranties|verklaringen en waarborgen]] met bijhorende [[indemnification-overname|vrijwaring]]), de overgang van signing naar closing ([[closing-condities-precedent|opschortende voorwaarden]], eventueel een [[material-adverse-change-clausule|MAC-clausule]]) en zekerheidsmechanismen ([[escrow-en-zekerheidsmechanismen-overname|escrow]]). Daarbovenop komen post-closing-restricties als [[non-compete-overname|niet-concurrentie]] en [[niet-afwervingsbeding-overname|niet-afwerving]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[representations-and-warranties|Verklaringen en waarborgen]] · `cluster`
 - [[indemnification-overname|Vrijwaringsmechanisme in overnameovereenkomst]] · `cluster`
@@ -497,7 +495,7 @@ De eigenlijke deal-architectuur draait om drie blokken: garanties van de verkope
 De keuze tussen een share deal (overdracht van aandelen) en een asset deal (overdracht van geselecteerde activa, eventueel een bedrijfstak of algemeenheid) is een fundamentele structureringsbeslissing in elke private M&A-transactie. De fiscale, juridische en operationele gevolgen verschillen wezenlijk en sturen de hele contractarchitectuur. In de Belgische praktijk overheerst de share deal; asset deals zijn relevant bij carve-outs, distressed-targets en wanneer de koper niet alle activiteiten wenst.
 
 
-Begin de afweging bij twee assen: wie is de verkoper (natuurlijk persoon of vennootschap) en hoe gezond is de target. Bij gezonde targets stuurt fiscaliteit vaak naar share deal; bij distressed targets kiest een koper liever een asset deal om schulden achter te laten. Voor asset deals weeg je daarnaast af of je het regime van de [[transfer-bedrijfstak-algemeenheid|overdracht van bedrijfstak of algemeenheid]] activeert.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -516,7 +514,7 @@ _Bouwt op_: [[overnameovereenkomst]] · [[representations-and-warranties]] · [[
 Tussen het moment van prijsafspraak (signing) en het moment van betaling (closing) verandert de waarde van de doelvennootschap. Hoe dat verschil tussen partijen verdeeld wordt, bepaalt drie courante mechanismen: closing accounts (post-closing-aanpassing), locked box (geen aanpassing, met leakage-bescherming) en earn-out (deel van prijs gelinkt aan toekomstige performance). De accountant modelleert en bewaakt deze mechanismen.
 
 
-De keuze tussen de drie mechanismen volgt de aard van de target: stabiele cashflows lenen zich voor locked box, volatiele of seizoensgevoelige activiteiten voor closing accounts, en bij waardetwist over groei voor een earn-out. In een coherent advies prijs je vooraf in welke geschillenroute (typisch een [[overnameovereenkomst|derde-partij-expert]]) bij verschil van mening wordt gevolgd.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -531,7 +529,7 @@ De keuze tussen de drie mechanismen volgt de aard van de target: stabiele cashfl
 _Bouwt op_: [[overnameovereenkomst]] · [[due-diligence-overname]] · [[escrow-en-zekerheidsmechanismen-overname]]
 ## Aandeelhoudersovereenkomsten — vier categorieën clausules
 
-De [[aandeelhoudersovereenkomst|SHA]] vult de statuten aan met afspraken over [[overdrachtsbeperking-aandelen|overdrachtsbeperkingen]] (onder meer [[voorkooprecht-aandelenoverdracht|voorkoop]] en lock-up), [[stemovereenkomst|stemafspraken]], [[exit-mechanismen-sha|exit- en deadlock-mechanismen]] en specifieke rechten zoals [[voordrachtrecht-bestuurder|voordrachtrecht]] of [[meervoudig-stemrecht|meervoudig stemrecht]]. Een goede SHA pareert problemen voor ze opduiken — een gebrekkige SHA dwingt je later naar de gerechtelijke geschillenregeling.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[aandeelhoudersovereenkomst|Aandeelhoudersovereenkomst (SHA)]] · `cluster`
 - [[overdrachtsbeperking-aandelen|Overdrachtsbeperking op aandelen]] · `cluster`
@@ -544,7 +542,7 @@ De [[aandeelhoudersovereenkomst|SHA]] vult de statuten aan met afspraken over [[
 
 ## Controleverwerving in genoteerde vennootschappen — overnamebod, squeeze-out en sell-out
 
-In een genoteerde NV activeren drie drempels parallelle mechanismen: het [[verplicht-overnamebod|verplicht openbaar overnamebod]] vanaf de controledrempel, het [[uitkoopbod-squeeze-out|uitkoopbod]] vanaf de uitkoopdrempel, en het spiegelrecht via [[sell-out-minderheid|sell-out]] dat de minderheid laat meegaan. Wie controle verwerft in een beursgenoteerde structuur moet deze drempels vooraf modelleren.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[verplicht-overnamebod|Verplicht openbaar overnamebod (30%-drempel)]] · `regel`
 - [[uitkoopbod-squeeze-out|Uitkoopbod (squeeze-out) — 95%-drempel]] · `regel`
@@ -555,7 +553,7 @@ In een genoteerde NV activeren drie drempels parallelle mechanismen: het [[verpl
 Drag-along en tag-along zijn twee **spiegelmechanismes** in aandeelhouders­overeenkomsten die regelen wat gebeurt wanneer **één aandeelhouder** zijn aandelen wil verkopen aan een derde. Ze beschermen elk een **ander belang** — meerderheid respectievelijk minderheid — en worden vrijwel altijd **samen** opgenomen om een evenwicht te vinden tussen liquiditeit voor de exit-zoeker en bescherming voor de blijvers.
 
 
-In een [[aandeelhoudersovereenkomst|SHA]] horen deze twee clausules samen: drag-along voor de exit-garantie van de meerderheid, tag-along voor de mee-uitstap van de minderheid. In een dossier waar één van beide ontbreekt, signaleer dat aan de cliënt — onevenwicht zorgt later voor blokkades of conflict.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -571,7 +569,7 @@ _Bouwt op_: [[aandeelhoudersovereenkomst]] · [[overdrachtsbeperking-aandelen]] 
 Controle (art. 1:14 WVV) hoeft **niet** te betekenen dat je 50%+1 van de aandelen bezit. Het vennootschapsrecht erkent verschillende routes om **beslissende invloed** te verwerven op het beleid van een vennootschap, gaande van eenvoudige meerderheid tot subtiele constructies via houdstervennootschappen, certificering of stemafspraken. Wie controleverwerving evalueert moet **alle routes** kennen — bv. voor consolidatieplicht (1:15 WVV), verplicht overnamebod (30%), of het melden van een belangrijke deelneming.
 
 
-Werk in een dossier altijd top-down: breng eerst de volledige groep in kaart, tel directe én indirecte deelnemingen samen, en check vervolgens of een [[aandeelhoudersovereenkomst|SHA]], [[stemovereenkomst|stemovereenkomst]] of [[certificering-aandelen|certificering]] de feitelijke macht verschuift. Pas dan beoordeel je of een vermoeden van controle weerlegd kan worden.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -584,7 +582,7 @@ Werk in een dossier altijd top-down: breng eerst de volledige groep in kaart, te
 _Bouwt op_: [[controle]] · [[exclusieve-controle]] · [[gezamenlijke-controle]] · [[aandeelhoudersovereenkomst]] · [[stemovereenkomst]] · [[certificering-aandelen]] · [[meervoudig-stemrecht]]
 ## Bestuurdersaansprakelijkheid — grondslagen en periode
 
-Elk lid van het bestuursorgaan is gehouden tot een [[behoorlijke-vervulling-bestuursopdracht|behoorlijke vervulling van de bestuursopdracht]] — een schending is een mandaatfout. De [[aansprakelijkheidsperiode-bestuurder|aansprakelijkheidsperiode]] loopt vanaf aanvaarding tot ontslag, en het WVV koppelt daar een [[aansprakelijkheidsbeperking-bestuurder|cap met exoneratieverbod]] aan. Beoordeel in een casus altijd drie dingen: wie was bestuurder, wanneer werd de fout begaan, en wie kan vorderen — de vennootschap (via [[kwijting-bestuurder|kwijting]] uitdoofbaar) of derden (niet uitdoofbaar).
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[bestuurdersaansprakelijkheid|Bestuurdersaansprakelijkheid]] · `cluster`
 - [[oprichtersaansprakelijkheid|Oprichtersaansprakelijkheid]] · `cluster`
@@ -597,7 +595,7 @@ Elk lid van het bestuursorgaan is gehouden tot een [[behoorlijke-vervulling-best
 
 ## Verzwaarde aansprakelijkheid — fiscale schulden, sociale schulden en insolventie
 
-Naast de algemene mandaatfout staan vier verzwaarde regimes die bij insolventie of niet-doorstorten cumuleren: aansprakelijkheid voor [[bestuurdersaansprakelijkheid-fiscale-schulden|fiscale]] en [[bestuurdersaansprakelijkheid-sociale-schulden|sociale]] schulden, voor [[bestuurdersaansprakelijkheid-bij-insolventie|kennelijk grove fout]] bij faillissement, en de drie-jaars-aansprakelijkheid voor [[kennelijk-ontoereikend-aanvangsvermogen|kennelijk ontoereikend aanvangsvermogen]]. Deze regimes doorbreken in de regel de cap van art. 2:56.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[bestuurdersaansprakelijkheid-fiscale-schulden|Bestuurdersaansprakelijkheid voor fiscale schulden (bedrijfsvoorheffing, btw)]] · `regel`
 - [[bestuurdersaansprakelijkheid-sociale-schulden|Bestuurdersaansprakelijkheid voor sociale schulden bij faillissement]] · `regel`
@@ -609,7 +607,7 @@ Naast de algemene mandaatfout staan vier verzwaarde regimes die bij insolventie 
 Bestuurder, oprichter, vereffenaar en feitelijk bestuurder dragen **parallelle maar verschillende** aansprakelijkheidsregimes. Een examenvraag laat een stagiair vaak kiezen tussen deze grondslagen voor een gegeven casus — dit vergelijkingsoverzicht ordent de toets-elementen.
 
 
-De combinatie functie + tijdvak bepaalt welk regime van toepassing is: de [[oprichtersaansprakelijkheid|oprichter]] hangt aan het oprichtingsmoment, de bestuurder aan zijn mandaat, de [[vereffenaarsaansprakelijkheid|vereffenaar]] aan de vereffeningsopdracht, en de [[feitelijk-bestuurder|feitelijk bestuurder]] aan de periode van feitelijke macht. Houd in het achterhoofd dat de cap niet voor elk regime werkt en kwijting alleen tegenover de vennootschap helpt.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -625,7 +623,7 @@ _Bouwt op_: [[oprichtersaansprakelijkheid]] · [[behoorlijke-vervulling-bestuurs
 Insolventie opent een **batterij parallelle aansprakelijkheidsvorderingen** tegen bestuurders. Voor de stagiair is de moeilijkheid: weten **welke** regimes voor **welk schadebestanddeel** geactiveerd worden, **wie** de vorderingsbevoegde is, en of de cap van art. 2:56 al dan niet doorbroken wordt.
 
 
-Bij een dossier met bedreigde continuïteit moet je voor het bestuursorgaan één heldere boodschap formuleren: stoppen met uitkeren, beslissingen documenteren, en tijdig een [[gerechtelijke-reorganisatie|gerechtelijke reorganisatie]] of [[meldingsplicht-accountant-continuiteit|meldingsplicht]] activeren. Die acties dempen het cumuleren van de regimes hieronder.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -639,7 +637,7 @@ Bij een dossier met bedreigde continuïteit moet je voor het bestuursorgaan éé
 _Bouwt op_: [[bestuurdersaansprakelijkheid-bij-insolventie]] · [[bestuurdersaansprakelijkheid-sociale-schulden]] · [[bestuurdersaansprakelijkheid-fiscale-schulden]] · [[bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering]] · [[kennelijk-ontoereikend-aanvangsvermogen]]
 ## Vennootschapsgeschillen — begrippen en grondslagen
 
-Een [[vennootschapsconflict|vennootschapsconflict]] kan vele vormen aannemen: een [[deadlock-vennootschap|deadlock]] tussen 50/50-aandeelhouders, [[misbruik-van-meerderheid|misbruik van meerderheid]], [[misbruik-van-minderheid|misbruik van minderheid]] of fouten van het bestuur waarvoor een [[vennootschapsvordering|vennootschapsvordering]] passend is. De begrippen [[gegronde-redenen-vennootschapsgeschil|gegronde redenen]] en [[wettige-redenen-ontbinding|wettige redenen]] zijn drempel-begrippen die de keuze van remedie bepalen — leer ze uit elkaar te houden.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[vennootschapsconflict|Vennootschapsconflict]] · `cluster`
 - [[deadlock-vennootschap|Deadlock in een vennootschap]] · `begrip`
@@ -651,7 +649,7 @@ Een [[vennootschapsconflict|vennootschapsconflict]] kan vele vormen aannemen: ee
 
 ## Vorderingen en remedies — wettelijke en statutaire exits
 
-De WVV-geschillenregeling biedt vijf hoofdvorderingen: [[uitsluitingsvordering|uitsluiting]], [[uittredingsvordering|uittreding]], [[minderheidsvordering|minderheidsvordering]], [[nietigverklaring-algemene-vergaderingsbesluit|nietigverklaring]] van een besluit en [[deskundigenonderzoek-vennootschap|deskundigenonderzoek]]. In een BV met statutaire uittreding ([[statutaire-uittreding-bv|art. 5:154]]) gaat het contractuele pad voor het gerechtelijke. [[alternatieve-geschilbeslechting-vennootschap|Arbitrage of mediation]] kunnen sneller en discreter zijn, zeker als de [[aandeelhoudersovereenkomst|SHA]] een ADR-clausule bevat.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[uitsluitingsvordering|Uitsluitingsvordering]] · `cluster`
 - [[uittredingsvordering|Uittredingsvordering]] · `cluster`
@@ -664,7 +662,7 @@ De WVV-geschillenregeling biedt vijf hoofdvorderingen: [[uitsluitingsvordering|u
 
 ## Rol van de accountant in een vennootschapsconflict
 
-Bij een conflict bij de cliënt is de eerste vraag wie de cliënt eigenlijk is — de [[accountantsrol-bij-vennootschapsconflict|accountant heeft de rechtspersoon als cliënt]], niet een individuele aandeelhouder of bestuurder. Zodra je voor twee partijen werkt met tegengestelde belangen, kantelt het naar een [[belangenconflict-accountant|belangenconflict]] dat je moet identificeren en in regel brengen of de opdracht beëindigen.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[accountantsrol-bij-vennootschapsconflict|Rol van de accountant bij een vennootschapsconflict bij de cliënt]] · `regel`
 - [[belangenconflict-accountant|Belangenconflict van de externe accountant]] · `regel`
@@ -674,7 +672,7 @@ Bij een conflict bij de cliënt is de eerste vraag wie de cliënt eigenlijk is �
 De stagiair moet in één oogopslag kunnen kiezen tussen de vijf hoofdfiguren van de WVV-geschillenregeling. Deze synthese stelt drempel, actor, doel, bevoegde rechter en uitkomst per vordering naast elkaar — de typische examenvraag is een casus waarin het juiste instrument moet worden geïdentificeerd.
 
 
-Stuur in een casus via het doel: wil de cliënt zelf eruit, een ander eruit, schade aan de vennootschap rechtzetten, weten wat gebeurde, of de hele structuur beëindigen? Elk doel mapt op één hoofdfiguur, en ze laten zich combineren — een [[deskundigenonderzoek-vennootschap|deskundigenonderzoek]] kan bewijs leveren voor een latere [[minderheidsvordering|minderheidsvordering]] of [[uittredingsvordering|uittreding]].
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -692,7 +690,7 @@ _Bouwt op_: [[minderheidsvordering]] · [[uittredingsvordering]] · [[uitsluitin
 De typische cliëntvraag is open: 'er is ruzie in de vennootschap, wat kan ik doen?'. Deze beslisboom leidt de stagiair stap-voor-stap door de relevante vragen om het juiste instrument te identificeren. Geen jurisprudentieel mantra, maar een werkende routekaart.
 
 
-Werk in een vaste volgorde: eerst nakijken of de [[aandeelhoudersovereenkomst|SHA]] een exit- of arbitrageclausule biedt, dan of een [[statutaire-uittreding-bv|statutaire uittreding]] beschikbaar is, en pas daarna of een gerechtelijke vordering het juiste instrument is. Trapsgewijs escaleren — van licht ([[deskundigenonderzoek-vennootschap|deskundigenonderzoek]]) naar zwaar ([[gerechtelijke-ontbinding|ontbinding]]) — beschermt de cliënt tegen onnodige kosten.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -705,7 +703,7 @@ Werk in een vaste volgorde: eerst nakijken of de [[aandeelhoudersovereenkomst|SH
 _Bouwt op_: [[minderheidsvordering]] · [[uittredingsvordering]] · [[uitsluitingsvordering]] · [[deskundigenonderzoek-vennootschap]] · [[gerechtelijke-ontbinding]] · [[exit-mechanismen-sha]] · [[statutaire-uittreding-bv]]
 ## Ontbinding en vereffening — vrijwillig versus gerechtelijk
 
-[[ontbinding-vennootschap|Ontbinding]] kan op drie wegen: [[vrijwillige-ontbinding|vrijwillig]] (AV-beslissing, dominant in de praktijk), [[gerechtelijke-ontbinding|gerechtelijk]] (door de rechter op verzoek) of [[ontbinding-van-rechtswege|van rechtswege]] (bv. einde duurtijd). De keuze bepaalt wie de vereffenaar benoemt en welk verslag de accountant uitbrengt — twee elementen die je in een dossier vroeg moet vastleggen.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[ontbinding-vennootschap|Ontbinding van een vennootschap]] · `cluster`
 - [[vrijwillige-ontbinding|Vrijwillige ontbinding]] · `regel`
@@ -714,7 +712,7 @@ _Bouwt op_: [[minderheidsvordering]] · [[uittredingsvordering]] · [[uitsluitin
 
 ## Vereffeningsprocedure — klassieke procedure en de vereffenaar
 
-De [[vereffeningsprocedure-klassiek|klassieke vereffening]] is een procedurele tijdslijn: vanaf de [[staat-van-activa-en-passiva-ontbinding|staat van activa en passiva]] bij ontbinding, via [[omstandige-staat-vereffening|omstandige staten]] gedurende de procedure, naar de [[sluiting-vereffening|sluiting]]. De [[vereffenaar|vereffenaar]] tegeldemaakt activa, betaalt schuldeisers en deelt de [[liquidatiebonus|liquidatiebonus]] uit. Voor de accountant zijn [[confirmatiebrieven|confirmatiebrieven]] en de mogelijke [[heropening-vereffening|heropening]] aandachtspunten.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[vereffening|Vereffening van een vennootschap]] · `cluster`
 - [[vereffenaar|Vereffenaar]] · `begrip`
@@ -728,7 +726,7 @@ De [[vereffeningsprocedure-klassiek|klassieke vereffening]] is een procedurele t
 
 ## Bijzondere vereffeningsvarianten en aansprakelijkheid van de vereffenaar
 
-In specifieke omstandigheden bestaat de [[vereffening-in-een-akte|vereffening in één akte]] — drie cumulatieve voorwaarden moet je telkens aftoetsen voor je deze route adviseert. Wanneer de vereffening deficitair dreigt te zijn, is de [[bevestiging-vereffenaar-deficitaire-vereffening|bevestiging van de vereffenaar]] een vereiste. De [[vereffenaarsaansprakelijkheid|aansprakelijkheid van de vereffenaar]] werkt op vergelijkbare leest als die van de bestuurder en blijft een persoonlijk risico.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[vereffening-in-een-akte|Vereffening in één akte]] · `regel`
 - [[bevestiging-vereffenaar-deficitaire-vereffening|Bevestiging van de vereffenaar bij deficitaire vereffening]] · `regel`
@@ -738,7 +736,7 @@ In specifieke omstandigheden bestaat de [[vereffening-in-een-akte|vereffening in
 
 > [!info] Hoort bij taak: Uitvoeren van bijzondere mandaten in vennootschappen waar geen commissaris is aangesteld en waar men niet de gebruikelij…
 
-Een [[omzetting-vennootschap|omzetting]] laat de vennootschap voortleven onder een andere rechtsvorm, zonder ontbinding en zonder verlies van rechtspersoonlijkheid. Het traject vereist een [[voorstel-omzetting-vennootschap|voorstel tot omzetting]] en een [[controleverslag-omzetting|controleverslag]] door een externe controleur — voor de gecertificeerd accountant in een vennootschap zonder commissaris een typisch bijzonder mandaat.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[omzetting-vennootschap|Omzetting van een vennootschap]] · `cluster`
 - [[voorstel-omzetting-vennootschap|Voorstel tot omzetting van een vennootschap]] · `regel`
@@ -749,7 +747,7 @@ Een [[omzetting-vennootschap|omzetting]] laat de vennootschap voortleven onder e
 De drie ontbindingsgronden van art. 2:70 WVV (vrijwillig, van rechtswege, gerechtelijk) verschillen niet alleen in **wie initieert** maar ook in **wie de vereffenaar benoemt**, **welk verslag** de accountant uitbrengt en **hoe** de sluiting verloopt. Deze synthese geeft een examen-snelle vergelijking voor de twee meest voorkomende vormen (vrijwillig en gerechtelijk); ontbinding van rechtswege volgt in de praktijk altijd de vrijwillige-route (AV moet alsnog vereffenaar aanstellen).
 
 
-Bepaal in een dossier eerst welk pad van toepassing is: bij [[vrijwillige-ontbinding|vrijwillige ontbinding]] lever je ex ante een verslag op de staat van activa en passiva, bij [[gerechtelijke-ontbinding|gerechtelijke ontbinding]] beslist de rechter zonder voorafgaand accountantsverslag. Sluimerende vennootschappen lopen vaak via het gerechtelijke pad zonder klassieke vereffeningsfase.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -765,7 +763,7 @@ _Bouwt op_: [[ontbinding-vennootschap]] · [[vrijwillige-ontbinding]] · [[gerec
 Bij elke ontbindingsopdracht moet de accountant **eerst beslissen** of de vennootschap de procedure van art. 2:80 (vereffening in één akte) kan volgen. Als één van de drie voorwaarden niet is vervuld — niet alle schulden voldaan, geen unaniem akkoord, of er moet alsnog een vereffenaar worden aangesteld voor lopende handelingen — dan is de klassieke procedure verplicht. Deze synthese vergelijkt de twee paden op de aspecten die voor de stagiair-GA examen-kritisch zijn.
 
 
-Toets in deze volgorde: zijn er nog open schulden of niet-unaniem akkoord? Dan is de [[vereffeningsprocedure-klassiek|klassieke procedure]] verplicht. Anders kan [[vereffening-in-een-akte|vereffening in één akte]] op tafel — één verslag, één AV-beslissing, één notariële akte. De boekhoudkundige discontinuïteits-default geldt in beide paden — het verschil zit in de procedurele tijdslijn.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -778,7 +776,7 @@ Toets in deze volgorde: zijn er nog open schulden of niet-unaniem akkoord? Dan i
 _Bouwt op_: [[vereffeningsprocedure-klassiek]] · [[vereffening-in-een-akte]] · [[vereffenaar]] · [[ontbinding-vereffening-opdracht]]
 ## Insolventie WER Boek XX — actoren en kader
 
-Boek XX WER groepeert alle [[insolventieprocedures-belgie|insolventieprocedures]] tot één continuüm — van vroegtijdige waarschuwing tot faillissement. De [[ondernemingsrechtbank-bevoegdheid-insolventie|ondernemingsrechtbank]] is centraal bevoegd, met functionarissen als [[curator-faillissement|curator]], [[rechter-commissaris-insolventie|rechter-commissaris]] en [[herstructureringsdeskundige|herstructureringsdeskundige]]. Alle stukken lopen via [[regsol-platform|Regsol]]; de [[kamer-ondernemingen-in-moeilijkheden|Kamer voor ondernemingen in moeilijkheden]] volgt vroegsignalen op.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[insolventieprocedures-belgie|Insolventieprocedures (Boek XX WER)]] · `cluster`
 - [[ondernemingsrechtbank-bevoegdheid-insolventie|Bevoegdheid ondernemingsrechtbank bij insolventie]] · `regel`
@@ -792,7 +790,7 @@ Boek XX WER groepeert alle [[insolventieprocedures-belgie|insolventieprocedures]
 
 ## Vroegtijdige waarschuwing en alarmsignalen — de meldingsplicht van de accountant
 
-De accountant is een spilfiguur in de [[vroegtijdige-waarschuwing-insolventie|vroegtijdige waarschuwing]]: zodra signalen wijzen op bedreigde continuïteit, treedt de [[meldingsplicht-accountant-continuiteit|meldingsplicht]] in werking. Een [[buitengerechtelijk-minnelijk-akkoord|buitengerechtelijk minnelijk akkoord]] of een [[besloten-voorbereiding-faillissement|besloten voorbereiding (pre-pack)]] bieden discrete alternatieven om waarde te bewaren voor een formele procedure aangevraagd moet worden.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[vroegtijdige-waarschuwing-insolventie|Vroegtijdige waarschuwing bij insolventie]] · `cluster`
 - [[meldingsplicht-accountant-continuiteit|Meldingsplicht accountant bij bedreigde continuïteit]] · `regel`
@@ -801,7 +799,7 @@ De accountant is een spilfiguur in de [[vroegtijdige-waarschuwing-insolventie|vr
 
 ## Gerechtelijke reorganisatie — drie varianten
 
-[[gerechtelijke-reorganisatie|Gerechtelijke reorganisatie]] biedt de onderneming bescherming tegen schuldeisers via [[opschorting-betaling-gerechtelijke-reorganisatie|opschorting van betaling]] en kent drie hoofdvarianten: minnelijk akkoord, [[homologatie-collectief-akkoord|collectief akkoord]] en [[overdracht-onder-gerechtelijk-gezag|overdracht onder gerechtelijk gezag]]. Tijdens opschorting werkt [[schuldvergelijking-tijdens-opschorting|schuldvergelijking]] beperkt; voor het [[boekhoudkundige-verwerking-insolventie-akkoord|boeken van een akkoord]] gelden specifieke regels.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[gerechtelijke-reorganisatie|Gerechtelijke reorganisatie]] · `cluster`
 - [[opschorting-betaling-gerechtelijke-reorganisatie|Opschorting van betaling tijdens gerechtelijke reorganisatie]] · `regel`
@@ -812,7 +810,7 @@ De accountant is een spilfiguur in de [[vroegtijdige-waarschuwing-insolventie|vr
 
 ## Faillissement — voorwaarden, verloop en gevolgen
 
-[[faillissement|Faillissement]] treedt in zodra de [[voorwaarden-faillietverklaring|voorwaarden voor faillietverklaring]] vervuld zijn — duurzame staking van betaling én geschokt krediet — en activeert de [[verdachte-periode-faillissement|verdachte periode]] waarin sommige handelingen niet-tegenwerpelijk zijn. Voor de natuurlijke persoon-gefailleerde zijn [[kwijtschelding-natuurlijke-persoon-gefailleerde|kwijtschelding]] en [[rehabilitatie-gefailleerde|rehabilitatie]] de wegen terug; voor bestuurders kan een [[beroepsverbod-na-insolventie|beroepsverbod]] volgen.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[faillissement|Faillissement]] · `cluster`
 - [[voorwaarden-faillietverklaring|Voorwaarden voor faillietverklaring]] · `regel`
@@ -826,7 +824,7 @@ De accountant is een spilfiguur in de [[vroegtijdige-waarschuwing-insolventie|vr
 De accountant heeft een dubbele rol: cijfermatige diagnose én procedureel advies. Een verkeerde keuze (te vroeg faillissement, te laat minnelijk akkoord) verspilt waarde voor cliënt en schuldeisers. Deze beslisboom is een mentaal hulpinstrument — geen wettelijke verplichting tot één bepaalde route.
 
 
-Werk in een vaste volgorde: levensvatbaarheid van de kernactiviteit eerst, dan cashflow- en schuldpositie. Zit er nog levensvatbaarheid in, dan stuurt het cijfermateriaal naar [[buitengerechtelijk-minnelijk-akkoord|minnelijk akkoord]] of [[gerechtelijke-reorganisatie|gerechtelijke reorganisatie]]; zo niet, dan komt [[faillissement|faillissement]] in beeld — met de wettelijke aangifte-deadline om aansprakelijkheid voor voortzetting van een verlieslatende activiteit te vermijden.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -841,7 +839,7 @@ _Bouwt op_: [[insolventieprocedures-belgie]] · [[gerechtelijke-reorganisatie]] 
 De wetgever wilde een gradueel arsenaal: van licht en discreet (buitengerechtelijk minnelijk akkoord) tot zwaar en publiek (collectief akkoord, overdracht onder gerechtelijk gezag). De keuze hangt af van het aantal schuldeisers waarmee een akkoord moet worden gevonden, de behoefte aan opschortingsbescherming, en het belang van vertrouwelijkheid.
 
 
-Drie criteria sturen de keuze: schuldconcentratie (weinig schuldeisers → [[buitengerechtelijk-minnelijk-akkoord|minnelijk akkoord]]; veel kleinere → [[homologatie-collectief-akkoord|collectief akkoord]] dat ook tegenstemmers bindt), nood aan vertrouwelijkheid en de levensvatbaarheid van de entiteit zelf. Bij [[overdracht-onder-gerechtelijk-gezag|overdracht onder gerechtelijk gezag]] redt je de activiteit maar niet de juridische schil.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -857,7 +855,7 @@ _Bouwt op_: [[gerechtelijke-reorganisatie]] · [[opschorting-betaling-gerechteli
 
 > [!note] Voorbereidende kennis — fundament voor de taken hierna. Concretisering 1 van het examenprogramma: de accountant begeleidt de oprichting. De stagiair moet de oprichtingscyclus van A tot Z kunnen ophangen aan de juiste juridische en boekhoudkundige instrumenten — vennootschapsvormkeuze, financieel plan, inbrengverslag, oprichtingsakte, openingsbalans, KBO-registratie — en de bijhorende aansprakelijkheidsrisico's (oprichtersaansprakelijkheid, kennelijk-ontoereikend aanvangs- vermogen) onderkennen. Volgt het stappenplan in `oprichtingsproces-stappenplan`.
 
-Het [[financieel-plan-oprichting|financieel plan]] is het scharnierstuk van de oprichting — het anker voor het [[kennelijk-ontoereikend-aanvangsvermogen|drie-jaars-aanvangsvermogen-risico]]. In de competenties hierna werk je dit plan, de oprichtingsakte, de [[inbreng-in-natura|inbreng]] en de eerste [[opstellen-openingsbalans-vennootschap|openingsbalans]] stap voor stap uit.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[financieel-plan-oprichting|Financieel plan bij oprichting van een kapitaalvennootschap]] · `cluster`
 
@@ -866,7 +864,7 @@ Het [[financieel-plan-oprichting|financieel plan]] is het scharnierstuk van de o
 Synthese-overzicht voor de gecertificeerd accountant: de chronologische volgorde van de zeven hoofdtaken in een oprichtingsbegeleiding — van intake en vormkeuze tot operationele registratie en eerste boekhouding. Toont per fase de duur, de outputs en de afhankelijkheden, zodat de stagiair het hele proces als één pijplijn kan overzien.
 
 
-Lees het schema als één pijplijn met vier blokken voor de akte ([[adviseren-vennootschapsvormkeuze|vormkeuze]], [[opstellen-financieel-plan-oprichting|financieel plan]], [[begeleiden-inbreng-bij-oprichting|inbreng]], [[voorbereiden-oprichtingsakte|akte-ontwerp]]) en drie erna ([[begeleiden-registratie-onderneming-kbo|registraties]], [[opstellen-openingsbalans-vennootschap|openingsbalans]], opvolging). De aansprakelijkheidsmitigaties bouw je vóór de akte in — niet erna.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -884,7 +882,7 @@ _Bouwt op_: [[adviseren-vennootschapsvormkeuze]] · [[opstellen-financieel-plan-
 
 > [!info] Hoort bij taak: Begeleiding bij de oprichting van een onderneming
 
-Het [[financieel-plan-oprichting|financieel plan]] is hét document waaraan de rechter de oprichters drie jaar lang afmeet bij een eventueel faillissement — het moet onderbouwd, realistisch en gedateerd zijn. In de procedure hieronder werk je de scenarioschattingen, de financieringsstructuur en de samenhang met het [[kennelijk-ontoereikend-aanvangsvermogen|aanvangsvermogen-risico]] uit.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-financieel-plan-oprichting|→ Volledige procedure]]
 
@@ -892,7 +890,7 @@ Het [[financieel-plan-oprichting|financieel plan]] is hét document waaraan de r
 
 > [!info] Hoort bij taak: Begeleiding bij de oprichting van een onderneming
 
-De [[statuten-vennootschap|statuten]] worden verlijden in de notariële akte en bevatten een aantal wettelijk verplichte vermeldingen die je vooraf controleert. In de procedure hieronder werk je samen met de notaris het akteontwerp uit en doorloop je een check-list met statutaire keuzes die later moeilijk te wijzigen zijn.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/voorbereiden-oprichtingsakte|→ Volledige procedure]]
 
@@ -900,7 +898,7 @@ De [[statuten-vennootschap|statuten]] worden verlijden in de notariële akte en 
 
 > [!info] Hoort bij taak: Begeleiding bij de oprichting van een onderneming
 
-Bij een geld-inbreng volstaat de geblokkeerde rekening; bij [[inbreng-in-natura|inbreng in natura]] of [[nijverheidsinbreng|nijverheidsinbreng]] schakelt de procedure in een bedrijfsrevisor en stelt het bestuursorgaan een verantwoordingsverslag op. In de procedure hieronder ordent het stappenplan welke documenten in welke volgorde aan de notaris worden bezorgd.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/begeleiden-inbreng-bij-oprichting|→ Volledige procedure]]
 
@@ -908,7 +906,7 @@ Bij een geld-inbreng volstaat de geblokkeerde rekening; bij [[inbreng-in-natura|
 
 > [!info] Hoort bij taak: Begeleiding bij de oprichting van een onderneming
 
-De openingsbalans vertaalt de oprichtingsakte naar boekhoudkundige rubrieken: inbrengen, oprichtingskosten en eerste verbintenissen — in het WVV-schema. Pas dan kan de eerste boekhouding starten en kunnen latere uitkeringen via de [[nettoactieftest|nettoactieftest]] worden afgetoetst.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-openingsbalans-vennootschap|→ Volledige procedure]]
 
@@ -916,7 +914,7 @@ De openingsbalans vertaalt de oprichtingsakte naar boekhoudkundige rubrieken: in
 
 > [!info] Hoort bij taak: Begeleiding bij de oprichting van een onderneming
 
-Na het verlijden van de akte volgt een keten van administratieve registraties: KBO (via de notaris), btw-aangifte, UBO-registratie en aansluiting bij een sociaal verzekeringsfonds. Elke stap heeft eigen termijnen — een gemiste deadline kost de cliënt boetes en kan de start van de activiteit blokkeren.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/begeleiden-registratie-onderneming-kbo|→ Volledige procedure]]
 
@@ -924,7 +922,7 @@ Na het verlijden van de akte volgt een keten van administratieve registraties: K
 
 > [!info] Hoort bij taak: Begeleiding bij de oprichting van een onderneming
 
-[[oprichtersaansprakelijkheid|Oprichtersaansprakelijkheid]] is een risico dat je vóór de akte signaleert, niet erna — vooral bij [[kennelijk-ontoereikend-aanvangsvermogen|kennelijk ontoereikend aanvangsvermogen]] dat tot drie jaar na oprichting kan worden ingeroepen. In de procedure hieronder werk je een gedocumenteerde aansprakelijkheidsnota uit die de cliënt mee ondertekent.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/signaleren-oprichtersaansprakelijkheid-risico|→ Volledige procedure]]
 
@@ -932,7 +930,7 @@ Na het verlijden van de akte volgt een keten van administratieve registraties: K
 
 > [!note] Voorbereidende kennis — fundament voor de taken hierna. Concretisering 2 van het examenprogramma: de accountant adviseert bij overdracht (share deal of asset deal), overname (due diligence, waardering, closing) of ontbinding (vrijwillig of gerechtelijk, klassiek of in-één-akte). Cruciaal: weten welke route past bij welke situatie (synthese exit-routes), welke rol de accountant neemt (mandaat versus advies) en welk verslag of attest hij uitbrengt. Bij deze taak komen de clusters 3.0.V (overname), 3.0.VI (SHA), 3.0.VIII (conflict) en 3.0.IX (ontbinding) samen.
 
-Deze taak vraagt dat je vier routes samen in beeld houdt: [[asset-deal-versus-share-deal|share of asset deal]], [[ontbinding-vennootschap|ontbinding]] (vrijwillig of gerechtelijk), [[vereffening-in-een-akte|vereffening in één akte]] en [[gerechtelijke-reorganisatie|gerechtelijke reorganisatie]]. De keuze hangt af van vermogenssituatie, drijfveer (cash-out, opvolging, redden) en wettelijke randvoorwaarden — insolventie blokkeert de vrijwillige routes.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 
 ## Exit-routes voor een onderneming: vergelijking en beslisboom
@@ -940,7 +938,7 @@ Deze taak vraagt dat je vier routes samen in beeld houdt: [[asset-deal-versus-sh
 Synthese-overzicht over de manieren waarop een onderneming-vennootschap definitief uit de actieve sfeer kan: verkoop (asset of share deal), fusie of splitsing, opvolging (schenking/successie), vrijwillige ontbinding, gerechtelijke reorganisatie of faillissement. De keuze hangt af van vermogenssituatie, drijfveer eigenaar (cash-out, opvolging, redden) en wettelijke randvoorwaarden (insolventie blokkeert vrijwillige routes).
 
 
-Toets in een dossier eerst de solvabiliteit — insolventie sluit vrijwillige routes uit en duwt richting [[gerechtelijke-reorganisatie|gerechtelijke reorganisatie]] of [[faillissement|faillissement]]. Pas wanneer de vrijwillige sfeer open ligt, stuurt de drijfveer van de eigenaar (cash-out, opvolging, beëindigen) de keuze tussen verkoop, fusie/splitsing en ontbinding.
+<!-- TODO: Opus-glue synthese-intro -->
 
 
 
@@ -960,14 +958,14 @@ _Bouwt op_: [[asset-deal-versus-share-deal]] · [[overnameovereenkomst]] · [[fu
 De gecertificeerd accountant kan rond dezelfde verrichting twee fundamenteel verschillende rollen vervullen: (i) als adviseur en begeleider die het bestuursorgaan helpt de verrichting voor te bereiden (taak.2), of (ii) als bijzondere mandataris die het wettelijk verplichte verslag opstelt na onafhankelijke beoordeling (taak.3). Deze rollen zijn onverenigbaar in hetzelfde dossier voor dezelfde verrichting — wie heeft geadviseerd kan niet onafhankelijk verslag uitbrengen. Het onderscheid begrijpen is essentieel om opdracht-aanvaarding en onafhankelijkheid correct te beoordelen.
 
 
-Bij de opdracht-aanvaarding is dit de eerste vraag: ga ik [[opstellen-overname-verslaggeving-accountant|begeleidend werken]] of [[bijzondere-mandaten-accountant|als bijzondere mandataris]] verslag uitbrengen? De [[onafhankelijkheid-bijzondere-mandataris|onafhankelijkheidsregels]] dwingen je tot één rol per dossier — gemengde opdrachten vragen scheiding van kantoor of weigeren.
+<!-- TODO: Opus-glue synthese-intro -->
 
 _Bouwt op_: [[opstellen-overname-verslaggeving-accountant]] · [[bijzondere-mandaten-accountant]] · [[onafhankelijkheid-bijzondere-mandataris]]
 ## Adviseren over de overdrachtsroute van een onderneming
 
 > [!info] Hoort bij taak: Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming
 
-De overdrachtsroute kiezen vraagt een coherent oordeel tussen [[asset-deal-versus-share-deal|asset of share deal]], fusie, splitsing of een [[transfer-bedrijfstak-algemeenheid|overdracht van bedrijfstak]]. In de procedure hieronder werk je de fiscale, juridische en operationele dimensies samen uit en levert een onderbouwd advies dat de cliënt kan ondertekenen.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/adviseren-overdrachtsroute-onderneming|→ Volledige procedure]]
 
@@ -975,7 +973,7 @@ De overdrachtsroute kiezen vraagt een coherent oordeel tussen [[asset-deal-versu
 
 > [!info] Hoort bij taak: Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming
 
-De adviesvraag is: [[vrijwillige-ontbinding|vrijwillig]] of [[gerechtelijke-ontbinding|gerechtelijk]], en — als vrijwillig — [[vereffening-in-een-akte|in één akte]] of [[vereffeningsprocedure-klassiek|klassiek]]. In de procedure hieronder doorloop je een vaste check op de drie cumulatieve voorwaarden voor één-akte en bouw je het verslag dat het bestuursorgaan en de AV nodig hebben.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/adviseren-ontbindingsroute-vennootschap|→ Volledige procedure]]
 
@@ -983,7 +981,7 @@ De adviesvraag is: [[vrijwillige-ontbinding|vrijwillig]] of [[gerechtelijke-ontb
 
 > [!info] Hoort bij taak: Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming
 
-[[due-diligence-overname|Due diligence]] aan koperszijde brengt de risico's in kaart die later in [[representations-and-warranties|verklaringen en waarborgen]] en [[indemnification-overname|vrijwaring]] terugkomen; aan verkoperszijde bereid je het dossier voor (vendor due diligence) en stroomlijn je de informatie-uitwisseling. In de procedure hieronder werk je rol-afhankelijk per dimensie (financieel, fiscaal, juridisch).
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/begeleiden-due-diligence-overname|→ Volledige procedure]]
 
@@ -991,7 +989,7 @@ De adviesvraag is: [[vrijwillige-ontbinding|vrijwillig]] of [[gerechtelijke-ontb
 
 > [!info] Hoort bij taak: Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming
 
-De waardering is het scharnierstuk tussen [[due-diligence-overname|due diligence]] en [[purchase-price-mechanismen|prijsbepalingsmechanismen]]. In de procedure hieronder kies je een methodemix die past bij het profiel van de target — gewone KMO, groeibedrijf of asset-zware activiteit — en formuleer je een gemotiveerde bandbreedte die de cliënt naar de onderhandelingstafel kan meenemen.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/begeleiden-waardering-onderneming-bij-overdracht|→ Volledige procedure]]
 
@@ -999,7 +997,7 @@ De waardering is het scharnierstuk tussen [[due-diligence-overname|due diligence
 
 > [!info] Hoort bij taak: Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming
 
-Bij overdrachtsverrichtingen levert de accountant cijfermatige verslagen die aan derden worden afgegeven — voor [[inbreng-in-natura|inbreng in natura]], [[quasi-inbreng-verslag|quasi-inbreng]] of fusie/splitsing. In de procedure hieronder werk je per verslagtype de methodologie en de verslagstructuur uit; check vooraf de [[onafhankelijkheid-bijzondere-mandataris|onafhankelijkheidsvereisten]] zodra je een wettelijk verplicht verslag opmaakt.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-overname-verslaggeving-accountant|→ Volledige procedure]]
 
@@ -1007,7 +1005,7 @@ Bij overdrachtsverrichtingen levert de accountant cijfermatige verslagen die aan
 
 > [!info] Hoort bij taak: Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming
 
-De begeleiding loopt van de [[staat-van-activa-en-passiva-ontbinding|staat van activa en passiva]] vóór de AV tot de [[sluiting-vereffening|sluiting]] en, indien nodig, een eventuele [[heropening-vereffening|heropening]]. In de procedure hieronder ordent het stappenplan de cadans van [[omstandige-staat-vereffening|omstandige staten]], jaarrekening in vereffening en het cijfermatig sluitingsverslag.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/begeleiden-vereffening-vennootschap|→ Volledige procedure]]
 
@@ -1015,7 +1013,7 @@ De begeleiding loopt van de [[staat-van-activa-en-passiva-ontbinding|staat van a
 
 > [!info] Hoort bij taak: Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming
 
-Bij overdracht of ontbinding loop je drie risicodimensies samen door: [[bestuurdersaansprakelijkheid|bestuurdersaansprakelijkheid]] (onder meer bij [[bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering|onrechtmatige uitkering]]), kapitaalbescherming en fiscaal. In de procedure hieronder structureer je een signaleringsnota die de cliënt vóór de verrichting ondertekent — een document dat later het verschil maakt tussen begeleiding en aansprakelijkheid.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/signaleren-risicos-overdracht-of-ontbinding|→ Volledige procedure]]
 
@@ -1023,7 +1021,7 @@ Bij overdracht of ontbinding loop je drie risicodimensies samen door: [[bestuurd
 
 > [!note] Voorbereidende kennis — fundament voor de taken hierna. Concretisering 3 van het examenprogramma: de accountant treedt op als bijzondere mandataris voor wettelijk voorbehouden verslagen — inbrengverslag, quasi-inbrengverslag, uitsluiting voorkeurrecht, omzettingsverslag, fusie/splitsing-verslag, ontbindings- en vereffeningsstaat. Onafhankelijkheidsvereisten zijn strikt (onverenigbaar met advies of boekhoudopdracht voor dezelfde cliënt) — beslisboom in onderstaande synthese. Per mandaat een aparte competentie met verslagstructuur en methodologie.
 
-In een vennootschap zonder commissaris kan de gecertificeerd accountant de wettelijk verplichte controleverslagen uitbrengen, mits aan de [[onafhankelijkheid-bijzondere-mandataris|onafhankelijkheidsregels]] is voldaan. Het palet aan [[bijzondere-mandaten-accountant|bijzondere mandaten]] is breed — voor elk verslag gelden eigen wettelijke ankers (Boek 12 voor fusie/splitsing, Boek 14 voor omzetting, art. 2:71 en 2:80 voor ontbinding).
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[bijzondere-mandaten-accountant|Bijzondere wettelijke mandaten van de gecertificeerd accountant in vennootschappen zonder commissaris]] · `cluster`
 - [[onafhankelijkheid-bijzondere-mandataris|Onafhankelijkheid van de gecertificeerd accountant bij bijzondere wettelijke mandaten]] · `cluster`
@@ -1033,14 +1031,14 @@ In een vennootschap zonder commissaris kan de gecertificeerd accountant de wette
 Praktisch hulpinstrument om in concreto te bepalen of een gecertificeerd accountant een specifiek bijzonder mandaat in een vennootschap zonder commissaris kan en mag aanvaarden. Combineert de regels uit KB 1/3/1998 art. 10-13 met praktische triggervragen in volgorde van scherpheid.
 
 
-Werk de beslisboom door in deze volgorde: ben je gewoonlijk beroepsbeoefenaar of adviseur voor deze cliënt, en zo ja, raakt die rol aan dezelfde verrichting? Beantwoord die [[onafhankelijkheid-bijzondere-mandataris|onafhankelijkheids]]-vraag voordat je naar de inhoudelijke verslagvoorbereiding gaat.
+<!-- TODO: Opus-glue synthese-intro -->
 
 _Bouwt op_: [[onafhankelijkheid-bijzondere-mandataris]] · [[bijzondere-mandaten-accountant]]
 ## Verslag omzetting vennootschap (Boek 14 WVV)
 
 > [!info] Hoort bij taak: Uitvoeren van bijzondere mandaten in vennootschappen waar geen commissaris is aangesteld en waar men niet de gebruikelij…
 
-Bij een [[omzetting-vennootschap|omzetting]] in een vennootschap zonder commissaris brengt de gecertificeerd accountant het [[controleverslag-omzetting|controleverslag]] uit op de staat van activa en passiva. In de procedure hieronder werk je de verslagstructuur en de methodologie uit conform Boek 14 WVV.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-verslag-omzetting-vennootschap|→ Volledige procedure]]
 
@@ -1048,7 +1046,7 @@ Bij een [[omzetting-vennootschap|omzetting]] in een vennootschap zonder commissa
 
 > [!info] Hoort bij taak: Uitvoeren van bijzondere mandaten in vennootschappen waar geen commissaris is aangesteld en waar men niet de gebruikelij…
 
-Bij fusie en splitsing in een vennootschap zonder commissaris brengt de gecertificeerd accountant het verslag uit over de ruilverhouding en de gehanteerde waarderingsmethoden conform Boek 12 WVV. In de procedure hieronder werk je de aanpak per verrichtingstype uit en de samenhang met het [[opstellen-overname-verslaggeving-accountant|breder palet aan overdrachtsverslagen]].
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-verslag-fusie-splitsing-ruilverhouding|→ Volledige procedure]]
 
@@ -1056,7 +1054,7 @@ Bij fusie en splitsing in een vennootschap zonder commissaris brengt de gecertif
 
 > [!info] Hoort bij taak: Uitvoeren van bijzondere mandaten in vennootschappen waar geen commissaris is aangesteld en waar men niet de gebruikelij…
 
-Wanneer een kapitaalverhoging het [[voorkeurrecht-aandeelhouder|voorkeurrecht]] uitsluit of beperkt, vraagt de wet een beoordelingsverslag dat de uitgifteprijs en de motieven van het bestuursorgaan toetst (art. 5:121 BV, art. 7:179 NV). In de procedure hieronder werk je de waarderingsmethodologie en de verslagstructuur uit.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht|→ Volledige procedure]]
 
@@ -1064,18 +1062,18 @@ Wanneer een kapitaalverhoging het [[voorkeurrecht-aandeelhouder|voorkeurrecht]] 
 
 > [!info] Hoort bij taak: Uitvoeren van bijzondere mandaten in vennootschappen waar geen commissaris is aangesteld en waar men niet de gebruikelij…
 
-Bij [[vrijwillige-ontbinding|vrijwillige ontbinding]] (art. 2:71 WVV) en bij [[vereffening-in-een-akte|ontbinding-en-sluiting-in-één-akte]] (art. 2:80 WVV) levert de accountant het verslag op de staat van activa en passiva. In de procedure hieronder werk je per scenario de structuur uit volgens de ITAA-normbijlage en zorg je dat de cijferanalyse de drie cumulatieve voorwaarden voor één-akte ondubbelzinnig staaft.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-verslag-ontbinding-vereffening-staat|→ Volledige procedure]]
 
 ## Reflectie: vennootschapsrecht als gelaagd vakgebied — WVV, WER en de accountantspraktijk
 
-Vennootschapsrecht voor de gecertificeerd accountant is geen monoliet: het WVV draagt de organieke structuur, Boek XX WER pakt de insolventie-fase op, en daarnaast werken ITAA-normen, KB 1/3/1998 en de fiscale wetgeving op dezelfde verrichtingen in. In een complexe casus moet je deze lagen samen zien — een [[ontbinding-vennootschap|ontbinding]] activeert tegelijk WVV-vormvereisten, ITAA-verslagregels en fiscale gevolgen. Wie deze gelaagdheid niet beheerst, ziet alleen losse regels en geen samenhang. Het examen vraagt net het tegenovergestelde: de regels per laag herkennen én samen tot een coherent oordeel komen.
+<!-- TODO: Opus-glue oriëntatie -->
 
 
 ## Synthese-stappenplan
 
-In elk vennootschapsdossier kun je dezelfde redeneerketen aanhouden. Begin bij de [[vennootschapsvormen-typologie|rechtsvorm]] en haar [[statuten-vennootschap|statuten]]: ze bepalen welk bestuursmodel, welk uitkeringsregime en welke AV-procedures van toepassing zijn. Identificeer vervolgens het [[bestuursorgaan|bestuursorgaan]] en de spelregels voor de [[algemene-vergadering|algemene vergadering]] — welk orgaan beslist welk thema, en met welke [[quorum-en-meerderheid-statutenwijziging|quorum- en meerderheidsregels]]. Toets bij elke kapitaal- of uitkeringsoperatie systematisch de [[nettoactieftest|nettoactieftest]] en — voor BV/CV — de [[liquiditeitstest-bv|liquiditeitstest]], en wees alert op de [[alarmbelprocedure|alarmbelprocedure]] zodra het nettoactief in gevaar komt. Bij een conflict scan je de [[aandeelhoudersovereenkomst|SHA]] en de statutaire uittredingsclausules vóór je naar de [[vergelijking-vorderingen-vennootschapsconflict|gerechtelijke geschillenregeling]] grijpt. Voor een exit kies je tussen [[asset-deal-versus-share-deal|share of asset deal]], fusie/splitsing of [[ontbinding-vennootschap|ontbinding]] — eerst de solvabiliteit toetsen, dan de drijfveer van de eigenaar volgen. Bij bedreigde continuïteit activeer je de [[meldingsplicht-accountant-continuiteit|meldingsplicht]] en weeg je [[buitengerechtelijk-minnelijk-akkoord|minnelijk akkoord]] tegen [[gerechtelijke-reorganisatie|gerechtelijke reorganisatie]] en [[faillissement|faillissement]] af. Bewaak in elke fase de [[bestuurdersaansprakelijkheid|bestuurdersaansprakelijkheid]] en — wanneer je zelf een verslag opmaakt — de [[onafhankelijkheid-bijzondere-mandataris|onafhankelijkheid]] als bijzondere mandataris.
+<!-- TODO: Opus-glue synthese -->
 
 ## Cheatsheet
 
@@ -1137,9 +1135,899 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-Op integratie-niveau combineren examenvragen meestal meerdere bouwstenen in één casus — bijvoorbeeld een conflict tussen aandeelhouders dat raakt aan SHA, geschillenregeling én ontbinding, of een overdracht waarin asset-vs-share-keuze, [[onafhankelijkheid-bijzondere-mandataris|onafhankelijkheid]] en aansprakelijkheid samenkomen. Train je redeneerketen: identificeer rechtsvorm, organen, drempels en testen, en formuleer een coherent oordeel met de juiste instrumenten in de juiste volgorde.
+<!-- TODO: Opus-glue examenfocus -->
 
-<!-- TODO: geen examenfocus--*.json voor dit PO; genereer via tools/examen/genereer_examenfocus_uit_classificatie.py of laat een agent examenfocus-objecten curateren -->
+> [!question]- Omzetting eenmanszaak naar BVBA: formaliteiten en registratierechten
+> *Examen 2003-bibf · PO 2.6 + 3.0*
+>
+> > Een handelaar wenst zijn eenmanszaak om te zetten in een BVBA. Hij brengt in: gebouw (woon- en activiteitsgebouw) voor 200.000,00 EUR, materieel/apparatuur/meubilair voor 5.000,00 EUR, bestelwagen voor 10.000,00 EUR, gereed geld voor 10.000,00 EUR. De inbreng wordt vergoed met kapitaalaandelen voor 200.000,00 EUR en op rekening-courant voor 25.000,00 EUR.
+>
+> Geef de diverse formaliteiten (vennootschapsrechtelijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Geef aan hoeveel registratierechten hij zal betalen, wetende dat zijn inbreng als volgt vergoed wordt: met kapitaalaandelen voor 200.000,00 EUR en op rekening-courant voor 25.000,00 EUR.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Alarmbelprocedure bij verlies — verplichtingen vennootschap
+> *Examen 2003-bibf · PO 3.0*
+>
+> Wat zijn de verplichtingen van een vennootschap ingeval uit de balans een overgedragen verlies blijkt of uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Gevolgen van niet-neerlegging jaarrekening bij de NBB gedurende drie boekjaren
+> *Examen 2003-bibf · PO 3.0*
+>
+> Wat zijn de mogelijke gevolgen voor een vennootschap die gedurende drie opeenvolgende boekjaren haar jaarrekening niet heeft neergelegd bij de N.B.B.?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Procedure ontslag en opzegtermijn voor bedienden
+> *Examen 2003-bibf · PO 3.0*
+>
+> Welk is de procedure om een bediende te ontslaan en een opzegtermijn te geven?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Kapitaalverhoging NV zonder buitengewone algemene vergadering: mogelijkheid en voorwaarden
+> *Examen 2008-bibf · PO 3.0*
+>
+> > De raad van bestuur van een NV wenst over te gaan tot een kapitaalverhoging. Omdat de verhoging dringend is, wenst ze geen buitengewone algemene vergadering bijeen te roepen.
+>
+> Is het mogelijk om een kapitaalverhoging door te voeren zonder buitengewone algemene vergadering?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Indien u bevestigend antwoordt, wat zijn de voorwaarden?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Financieel plan bij oprichting: verplichting, doel en ontvanger
+> *Examen 2008-bibf · PO 3.0*
+>
+> Wanneer verplicht het Wetboek van vennootschappen een financieel plan op te stellen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat is het doel van een financieel plan?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Aan wie moet het financieel plan worden overhandigd?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Procedure tegenstrijdig belang voor zaakvoerder-enige vennoot van een BVBA
+> *Examen 2008-bibf · PO 3.0*
+>
+> > De zaakvoerder van een BVBA is de enige vennoot.
+>
+> Moet een procedure worden gevolgd wanneer de zaakvoerder bij een verrichting een belang heeft, van vermogensrechtelijke aard, dat strijdig is met de belangen van de vennootschap?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Gerechtelijk akkoord voor burgerlijke vennootschap met handelsvorm
+> *Examen 2008-bibf · PO 3.0*
+>
+> Kan een burgerlijke vennootschap die de rechtsvorm van een handelsvennootschap heeft aangenomen, een gerechtelijk akkoord bekomen? Verantwoord uw antwoord.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Aansprakelijkheid oprichters BVBA vs. NV
+> *Examen 2008-bibf · PO 3.0*
+>
+> Welk is de aansprakelijkheid van de oprichters van een BVBA?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welk verschil kan er zijn met een NV?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Ontslag om dringende reden: termijnen en opzegvergoeding
+> *Examen 2008-bibf · PO 3.0*
+>
+> > Bart trad op 1 februari 2001 in dienst bij een grootwarenhuisketen op basis van een arbeidsovereenkomst voor onbepaalde duur (voltijds, bediende). Bart maakte stelselmatig misbruik van zijn persoonlijke klantenkaart door er aankopen van klanten die hun kaart vergeten waren op te registreren, waardoor hij maandelijks waardevolle geschenken verdiende. Op vrijdag 14 december 2007 wordt de werkgever ingelicht door een collega (Bart is met verlof). Na zijn terugkeer wordt Bart geconfronteerd op vrijdag 21 december 2007 en bekent hij alles. De werkgever beslist tot ontslag om dringende reden.
+>
+> Op welke dag moet het ontslag om dringende reden uiterlijk worden betekend?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Indien de werkgever beslist om de motivering van het ontslag om dringende reden niet meteen te vermelden in de ontslagbrief zelf, maar wel in een tweede aangetekende brief: wanneer moet deze tweede, gemotiveerde brief ten laatste worden verstuurd? (De ontslagbrief werd aangetekend verstuurd op maandag 24 december 2007.)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Stel dat het ontslag om dringende reden één dag te laat werd betekend. Welke opzegvergoeding moet de werkgever dan betalen? Wat is het bruto bedrag en met hoeveel maanden (bruto) loon stemt deze opzegvergoeding overeen? (Bart verdient een bruto jaarloon van 27.000 EUR.)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Vennootschapsrecht: aandelen bij overlijden, vordering oninvorderbaar, oprichting S-BVBA
+> *Examen 2013-1 · PO 3.0*
+>
+> **Balans**
+>
+> **Actief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Materiële vaste activa | 25.000 |
+> | Voorraden | 7.500 |
+> | Vorderingen op < 1 jaar | 75.500 |
+> | Liquide middelen | 12.500 |
+> | TOTAAL | 120.500 |
+>
+> **Passief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Geplaatst kapitaal | 20.460 |
+> | Overgedragen winst | 44.540 |
+> | Leveranciers | 28.500 |
+> | Belastingschulden | 27.000 |
+> | TOTAAL | 120.500 |
+>
+> > Hierna volgt de balans van de bvba Avenir, afgesloten op 31/12/2012. Het aandeelhouderschap van deze bvba is sinds lang in handen van Paul X, met 50% van de aandelen, Jean Y met 45% van de aandelen, en Albert M die de resterende 5% aanhoudt, hetzij in totaal 186 aandelen. De statuten wijken niet af van het Wetboek van Vennootschappen. Maar Jean Y overlijdt jammerlijk en laat als enige erfgenaam zijn zoon Cedric Y na.
+>
+> > Deel II: Paul X stelt vast dat Jean de invordering van een zeer belangrijke klant had verwaarloosd en dat die klant ondertussen failliet verklaard is. Het bedrag van de vordering bedraagt 60.000 euro. Het blijkt dat die vordering al oninvorderbaar was vóór de afsluiting van de balans per 31/12/2012. Paul X raadpleegt u en vraagt wat er, vanuit juridisch standpunt, moet gedaan worden.
+>
+> > Deel III: Albert M, samen met een vriend, wil een S-BVBA oprichten onder de naam 'Renaissance'. Ze beschikken niet over de nodige liquide middelen.
+>
+> Wat zal er gebeuren met de aandelen (van Jean Y), nu zijn vader Jean overleden is?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Zal Cedric Y automatisch vennoot van de bvba worden?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> En hoe zit het met een eventuele overdracht van zijn aandelen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De vordering van 60.000 euro op de failliete klant was al oninvorderbaar vóór de afsluiting van de balans per 31/12/2012. Wat moet er, vanuit juridisch standpunt, gedaan worden?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Is het plan om een S-BVBA op te richten uitvoerbaar voor de twee vennoten (Albert M en zijn vriend, die niet over de nodige liquide middelen beschikken)?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welke is hun aansprakelijkheid als oprichter (van de S-BVBA)?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Omzetting van effecten aan toonder: maatregel, gevolgen 2014 en 2015
+> *Examen 2013-1 · PO 3.0*
+>
+> > Sinds 1 januari 2008 kunnen er geen nieuwe effecten aan toonder uitgegeven worden. De wetgever heeft gesteld dat uiterlijk op 31 december 2013 de effecten aan toonder moeten omgezet zijn.
+>
+> De wetgever heeft om de omzetten te versnellen reeds een maatregel genomen, een maatregel met een uitwerking in 2012 en/of 2013. Welke is deze maatregel en welke actie kon/kan men ondernemen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2015?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Alarmbelprocedure BVBA: toepasbaarheid in twee situaties
+> *Examen 2013-2 · PO 3.0*
+>
+> > Is, in de 2 onderstaande situaties de bijzondere procedure, de zogenaamde alarmbelprocedure, van toepassing voor de bvba 'Zonder Zorgen'? Kunt u voor elk geval en voor elk antwoord een bondige uitleg geven?
+>
+> **Balans**
+>
+> **Actief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Oprichtingskosten | 2.000,00 |
+> | Materiële vaste activa | 6.000,00 |
+> | Goederenvoorraad | 3.500,00 |
+> | Liquide middelen | 2.000,00 |
+> | TOTAAL ACTIEF | 13.500,00 |
+>
+> **Passief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Geplaatst kapitaal | 20.000,00 |
+> | Niet opgevraagd kapitaal | -12.000,00 |
+> | Overgedragen resultaat | 1.000,00 |
+> | Handelsschulden | 4.500,00 |
+> | TOTAAL PASSIEF | 13.500,00 |
+>
+> **Balans**
+>
+> **Actief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Oprichtingskosten | 2.000,00 |
+> | Materiële vaste activa | 6.000,00 |
+> | Goederenvoorraad | 3.500,00 |
+> | Liquide middelen | 2.000,00 |
+> | TOTAAL ACTIEF | 13.500,00 |
+>
+> **Passief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Geplaatst kapitaal | 20.000,00 |
+> | Niet opgevraagd kapitaal | -5.000,00 |
+> | Reserves | 3.000,00 |
+> | Overgedragen verlies | -9.500,00 |
+> | Resultaat periode | -4.500,00 |
+> | Handelsschulden | 9.500,00 |
+> | TOTAAL PASSIEF | 13.500,00 |
+>
+> Is de alarmbelprocedure van toepassing in de eerste situatie? Geef een bondige uitleg.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Is de alarmbelprocedure van toepassing in de tweede situatie? Geef een bondige uitleg.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- NV: toegestaan kapitaal en oprichtersaansprakelijkheid bij faillissement
+> *Examen 2013-2 · PO 3.0*
+>
+> > Als accountant en/of belastingconsulent van de in 2012 opgerichte nv 'Vivant' wordt u geraadpleegd door de drie aandeelhouders, tevens de bestuurders van de vennootschap, die een aantal vragen hebben omtrent hun toestand.
+>
+> De statuten van de vennootschap voorzien in de procedure van het 'Toegestaan kapitaal', dat bepaald is op € 500.000. Wie kan die procedure opstarten?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Na de oprichting van hun vennootschap zijn de oprichters hoofdelijk gehouden voor bepaalde verbintenissen, naar een verhouding die de rechter vaststelt, in geval van faillissement. Binnen welke periode is dit uitgesproken?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Vennootschapsvormen: kenmerken per vennootschapsvorm
+> *Examen 2013-2 · PO 3.0*
+>
+> > Kruis de juiste antwoorden aan in onderstaande tabel:
+> > 1. Welke vennootschap kan opgericht worden met een onderhandse akte?
+> > 2. Welke vennootschap kan winstbewijzen toekennen?
+> > 3. Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank van België?
+> > 4. Welke vennootschap moet een minimumkapitaal hebben?
+>
+> Duid per vennootschapsvorm (NV, BVBA, CVA, CVBA, CVOA, VOF) aan welk kenmerk van toepassing is: (1) oprichting met onderhandse akte, (2) winstbewijzen toekennen, (3) verplichte neerlegging jaarrekening NBB, (4) verplicht minimumkapitaal.
+>
+> - **a)** 1 - Oprichting met onderhandse akte mogelijk
+> - **b)** 2 - Winstbewijzen toekennen mogelijk
+> - **c)** 3 - Verplichte neerlegging jaarrekening bij NBB
+> - **d)** 4 - Verplicht minimumkapitaal
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- BVBA: rechten van minderheidsaandeelhouder bij vermoeden van verduisteringen
+> *Examen 2013-2 · PO 3.0*
+>
+> > De heer en mevrouw X bezitten aandelen in de bvba 'Invest Plan', die actief is in de vastgoedsector. Hun aandeel in deze vennootschap bedraagt 11,3% van het totaal aantal aandelen. Tijdens de laatste algemene vergadering hadden zij zich tegen de twee zaakvoerders van de bvba gekeerd, want zij hadden vragen bij hun bestuur en hadden daarom de aan die zaakvoerders te verlenen kwijting niet goedgekeurd. Toen ze de hoop al bijna hadden laten varen in verband met de rechten die ze kunnen laten gelden, komen ze u raadplegen om te vernemen of er al dan niet een middel bestaat om de zaakvoerders te dwingen naar hen te luisteren, nu ze weet hebben van verduisteringen in de rekeningen van de vennootschap.
+>
+> Bestaat er een middel voor dhr. en mevr. X om de zaakvoerders te dwingen naar hen te luisteren, nu ze weet hebben van verduisteringen in de rekeningen van de vennootschap? Indien dergelijk middel bestaat, geef het aan.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Omzettingsopdracht CVBA naar BVBA: onafhankelijkheid, correcties actief en verslag
+> *Examen 2013-2 · PO 1.6 + 3.0*
+>
+> > Een collega accountant die je kent van uw beroepsvereniging vraagt om uw tussenkomst bij de omzetting van een vennootschap van één van zijn klanten. Het betreft de CVBA Fortunito die wenst om te zetten naar de BVBA Roflexfort. Op vraag van uw collega zendt de interne boekhouder je daarvoor een proef- en saldibalans per 30/09/2013 (statutair boekjaar 01/01/2013-31/12/2013).
+>
+> **Staat activa en passiva per 30/09/2013**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Installaties (230000) | 32.000 |
+> | Afschrijving installaties (230900) |   |
+> | Aandelen O'Cool (280000) | 30.000 |
+> | Handelsdebiteuren (400000) | 215.100 |
+> | Terug te vorderen BTW (411000) | 6.020,17 |
+> | Bankrekening (550000) | 221.931,57 |
+> | Totaal activa | 505.051,74 |
+>
+> Kruis het juiste antwoord aan voor elk van de volgende stellingen:
+>
+> - **a)** Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort? (Ja/Nee)
+> - **b)** Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan omgezet worden in de BVBA Reflexfort? (Ja/Nee)
+> - **c)** Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren? (Ja/Nee)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Kan je werken op basis van een proef- en saldibalans zoals in bijlage? Verklaar uw antwoord.
+>
+> - **a)** Ja
+> - **b)** Nee
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wie draagt de verantwoordelijkheid over de verstrekte cijfers? Geef één voorbeeld waaruit deze verantwoordelijkheid kan blijken.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Geef drie voorbeelden van stukken die vereist zijn in elk werkdossier van een wettelijke opdracht die je opvraagt nog vóór je begint te cijferen en te controleren.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> > [!warning] Topic enkel — geen vraagstelling beschikbaar
+> > Onbekende deelvraag e (tekst ontbreekt in OCR — mogelijk verdere vereisten werkdossier of een bijkomende stap in de omzettingsprocedure)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Omschrijf en bereken de door te voeren correcties op de activaposten zoals deze voorkomen in de ontvangen cijfers per 30/09/2013 (enkel de correcties van het ACTIEF). Gebruik de staat activa en passiva, afschrijvingstabel, detail participatie en overzicht handelsvorderingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Als gevolg van uw vaststellingen en vereiste correcties moeten er vermeldingen komen in het besluit van je verslag. Geef twee vermeldingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Als gevolg van je vaststelling moet je een specifiek risico in je besluit opnemen. Geef de formulering ervan.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Individueel controlerecht BVBA: stellingen juist/fout
+> *Examen 2013-2 · PO 3.0*
+>
+> > Een Franse vennootschap is voor 15% aandeelhouder in een Belgische vennootschap BVBA SUPERTOC. De Franse vennootschap vraagt je om in het kader van het individueel controlerecht ter plaatse inzage te nemen in de stukken van de BVBA SUPERTOC. Beantwoord met FOUT / JUIST volgende stellingen die slaan op voorgaande situatie.
+>
+> Het individueel controlerecht kan niet uitgevoerd worden indien de Franse vennootschap minder dan 25% van de aandelen heeft.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Het individueel controlerecht geldt enkel voor Belgisch ingezetenen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Het individueel controlerecht kan enkel uitgeoefend worden in geval van betwistingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Het individueel controlerecht kan enkel uitgeoefend worden in voorbereiding van een jaarvergadering.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Vennootschapsvormen — kenmerken per vennootschapsvorm invullen (aansprakelijkheid, winstbewijzen, neerlegging, financieel plan)
+> *Examen 2014-1 · PO 3.0*
+>
+> > Kruis de juiste antwoorden aan in onderstaande tabel. De punten worden toegekend per kolom en de kolom dient volledig juist te zijn.
+>
+> In welke vennootschap zijn de vennoten/aandeelhouders hoofdelijk aansprakelijk voor de schulden van hun vennootschap? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welke vennootschap kan winstbewijzen toekennen? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank van België? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Voor welke soort vennootschap zijn de oprichters, vóór de oprichting, verplicht om een financieel plan op te stellen? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Toegestaan kapitaal — advies bij kapitaalverhoging door inlijving beschikbare reserves
+> *Examen 2014-1 · PO 3.0*
+>
+> > De gedelegeerd bestuurder van de nv PILOTE (opgericht in 1992) raadpleegt u. Hij wil een kapitaalverhoging doorvoeren door inlijving van de beschikbare reserves van 5.000.000 EUR via de procedure van het toegestane kapitaal. Hij overhandigt u de statuten (die nooit werden gewijzigd) en u stelt vast dat artikel 28 van de statuten in het toegestane kapitaal voorziet.
+>
+> **Passiva balans per 31/12/2013**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | 100 Geplaatst kapitaal | 1.000.000 |
+> | 130 Wettelijke reserve | 100.000 |
+> | 133 Beschikbare reserves | 5.000.000 |
+> | 170 Verplichtingen op de secundaire markt | 6.000.000 |
+> | 440 Handelsschulden | 500.000 |
+> | 450 Schulden m.b.t. belastingen, bezoldigingen en sociale lasten | 50.000 |
+> | Totaal passiva | 12.650.000 |
+>
+> Wat adviseert u hem, als accountant en/of belastingconsulent?
+>
+> - **a)** In de huidige stand van zaken, is de verrichting onmogelijk.
+> - **b)** De kapitaalverhoging kan doorgevoerd worden tot beloop van 1.000.000 EUR.
+> - **c)** U bent het ermee eens en neemt al contact op met de notaris.
+> - **d)** De verrichting kan niet gedaan worden zonder een verslag van de raad van bestuur dat de verrichting van het toegestane kapitaal uiteenzet.
+> - **e)** De vennootschap moet een algemene vergadering bijeenroepen om akte te nemen van de kapitaalverhoging onder de procedure van het toegestane kapitaal.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- BVBA — verkoop persoonlijk onroerend goed door enig vennoot-zaakvoerder aan vennootschap
+> *Examen 2014-1 · PO 3.0*
+>
+> > Dhr. LEVEQUE, enig vennoot en zaakvoerder van de bvba PETIT POIS (opgericht in 2009), wil het gebouw dat zijn persoonlijke eigendom is en door de bvba gebruikt wordt, aan de vennootschap verkopen voor 680.000 EUR. De vastgoedschatting geeft een verkoopwaarde bij onderhandse verkoop van 550.000 EUR en bij gedwongen verkoop van 400.000 EUR. Hij stelt als zaakvoerder een verslag op waarin hij uiteenzet waarom de verwerving van belang is voor de vennootschap.
+>
+> Wat adviseert u hem, als accountant en/of belastingconsulent, met betrekking tot die verrichting?
+>
+> - **a)** Dat de gevraagde prijs te hoog is, en hij hem moet terugbrengen tot de verkoopwaarde bij onderhandse verkoop.
+> - **b)** Dat hij de verrichting kan doen maar hierover verslag moet uitbrengen in een stuk dat bij de jaarrekening moet worden gevoegd, en dat hij aansprakelijk is voor de eventuele schade die derden ten gevolge van de verrichting zouden kunnen lijden.
+> - **c)** Dat het een gunstige verrichting is en dat hij contact moet opnemen met de notaris om de verkoop te laten acteren.
+> - **d)** Dat de verrichting kan worden gedaan door een andere persoon (lasthebber ad hoc) die in zijn verslag vermeldt dat het bedrag van de verrichting niet nadelig is voor het vermogen van de vennootschap.
+> - **e)** Dat de verrichting enkel kan worden gedaan wanneer beroep wordt gedaan op een bedrijfsrevisor om de waarde van het gebouw te bepalen en verslag uit te brengen over de omschreven verrichting.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Interimdividend — voorwaarden en procedure voor NV
+> *Examen 2014-1 · PO 3.0*
+>
+> > De heer KALO Ric, gedelegeerd bestuurder van de nv MINCALOR (handel in dieetproducten) en hoofdaandeelhouder, heeft een aanzienlijk geldbedrag nodig voor een privé-vastgoedverrichting. Hij toont u de statuten van de vennootschap die de raad van bestuur toelaten de geplande verrichting te doen. De vennootschap heeft geen commissaris.
+>
+> **Resultaatverwerking jaarrekening 31/12/2013 (goedgekeurd AV 20/02/2014)**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Resultaat van het boekjaar | 1.000.000 |
+> | Vergoeding van het kapitaal | 500.000 |
+> | Toevoeging aan de overige reserves | 500.000 |
+>
+> **Tussentijdse situatie 31/03/2014**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Totaal opbrengsten | 1.200.000 |
+> | Totaal kosten | 900.000 |
+> | Winst van het kwartaal | 300.000 |
+>
+> **Passiva per 31/03/2014**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | 100 Geplaatst kapitaal | 1.000.000 |
+> | 130 Wettelijke reserve | 100.000 |
+> | 133 Beschikbare reserves | 5.000.000 |
+> | Resultaat van de periode | 300.000 |
+> | 170 Verplichtingen op de secundaire markt | 6.000.000 |
+> | 440 Handelsschulden | 500.000 |
+> | 450 Schulden m.b.t. belastingen, bezoldigingen en sociale lasten | 50.000 |
+> | Totaal | 12.950.000 |
+>
+> Hij vraagt u of het mogelijk is om geld uit de vennootschap te trekken door middel van een interimdividend. Wat raadt u hem aan?
+>
+> - **a)** Dat hij geen bijkomende dividenden kan opnemen. Dat zou de vennootschap in gevaar kunnen brengen ten aanzien van het netto-actief.
+> - **b)** Dat de opneming onmiddellijk kan gebeuren, aangezien ze na de neerlegging van de laatste balans gebeurt.
+> - **c)** Dat hij zal moeten wachten tot in juli 2014.
+> - **d)** Dat de dividenduitkering kan doorgevoerd worden op basis van de tussentijdse situatie van 31 maart 2014 en van een verificatieverslag opgesteld door een bedrijfsrevisor of een externe accountant.
+> - **e)** Dat hij geen nieuwe dividenden mag opnemen, aangezien de algemene vergadering van 20 februari er al heeft uitgekeerd.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Omzetting NV naar BVBA — controleopdracht en juist/fout-stellingen
+> *Examen 2014-1 · PO 3.0*
+>
+> > De heer FIXIT is een externe accountant. De gedelegeerde bestuurder van vennootschap NV TRIAL wenst de vennootschap om te zetten in een BVBA en geeft de heer FIXIT de opdracht dit te doen. Opmerking: bij de vragen waar juist/fout moet geantwoord worden maak je bij voorkeur het vak onleesbaar dat niet uw antwoord is (= doorhalen wat niet past). Voor de puntentelling wordt er geen giscorrectie toegepast.
+>
+> Deze controleopdracht kan zowel door een externe accountant, bedrijfsrevisor als door een erkend boekhouder uitgevoerd worden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Tijdens de controleopdracht moet de externe accountant bij de vaststellingen van continuïteitsproblemen de cliënt aanschrijven en daarop wijzen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wanneer de vennootschap wordt omgezet van NV in een BVBA blijft haar rechtspersoonlijkheid onveranderd voortbestaan in de nieuwe vorm.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Bij de omzetting van NV in een BVBA kan in geval van unanimiteit bij de aandeelhouders vrijstelling worden verleend voor het opstellen van de verslagen en het controleverslag. Deze vrijstelling dient uitdrukkelijk in de notariële akte opgenomen te worden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De wijziging van een handelsvennootschap naar een burgerlijke vennootschap of omgekeerd valt eveneens onder de bepalingen van omzetting en vereist een controleverslag.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De te controleren tussentijdse staat moet worden opgemaakt rekening houdend met de waardecorrecties, pro rata kosten, afschrijvingen en voorraadwijzingen conform de waarderingsregels. Ook de voorraadwijzigingen dienen verwerkt te worden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De controle van de tussentijdse staat zal de beroepsbeoefenaar gebruik moeten maken van een werkprogramma waaruit zijn werkzaamheden moeten blijken.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De controle van de tussentijdse staat richt zich inzonderheid naar enige overwaardering van het netto-actief. Het netto-actief omvat het kapitaal en de reserves.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Het dossier moet een stuk of memorandum bevatten met betrekking tot de administratieve en boekhoudkundige organisatie.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wanneer de beroepsbeoefenaar vaststelt dat er een schuldvordering is op een vennoot dan moet de beroepsbeoefenaar dit in min corrigeren op het netto-actief.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Omzetting VOF naar BVBA — controleverslag bij faillissement debiteur
+> *Examen 2014-1 · PO 3.0*
+>
+> > Twee broers wensen hun VOF STORE om te zetten naar een BVBA. U krijgt de schriftelijke opdracht om het controleverslag op te stellen nodig voor de omzetting. Tijdens uw werkzaamheden onderzoekt u de vordering op NV TURF, die echter failliet blijkt te zijn en een definitief dividend geeft aan haar schuldeisers van één derde van de openstaande schulden, zijnde in dit geval 4.000,00 EUR.
+>
+> **Balans**
+>
+> **Actief**
+>
+> | Activa | Bedrag |
+> | --- | --- |
+> | 23 Installaties en machines | 20.000,00 |
+> | 28 Aandelen NV TURF | 24.000,00 |
+> | 28 Vordering NV TURF | 12.000,00 |
+> | 34 Voorraad | 25.000,00 |
+> | 55 Bank | 5.000,00 |
+> | Totaal actief | 86.000,00 |
+>
+> **Passief**
+>
+> | Passiva | Bedrag |
+> | --- | --- |
+> | 10 Kapitaal | 10.000,00 |
+> | 13 Wettelijke reserves | 1.000,00 |
+> | 13 Beschikbare reserves | 15.000,00 |
+> | 17 Schulden LT | 15.000,00 |
+> | 42 Schulden KT | 5.000,00 |
+> | 44 Handelsschulden | 40.000,00 |
+> | Totaal passief | 86.000,00 |
+>
+> Formuleer het besluit van het controleverslag. Welke berekening dien je te maken? Geef de gecorrigeerde balans.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Kan deze omzetting doorgaan?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Alarmbelprocedure bvba: advies bij verlies dat geplaatst kapitaal aantast
+> *Examen 2015-1 · PO 3.0*
+>
+> > De heer DUPONT, zaakvoerder en hoofdaandeelhouder van de S-bvba 'LA POINTE' (opgericht december 2009) komt op zaterdag 11 april 2015 om advies. Hij legt de jaarrekening per 31 december 2014 voor.
+>
+> **Balans**
+>
+> **Actief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Materiële vaste activa | 3.000,00 |
+> | Handelsvorderingen | 20.000,00 |
+> | Liquide middelen | 1.000,00 |
+> | Totaal activa | 24.000,00 |
+>
+> **Passief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Kapitaal | 6.000,00 |
+> | Overgedragen verlies | -4.000,00 |
+> | Schulden op minder dan een jaar | 22.000,00 |
+> | Totaal passiva | 24.000,00 |
+>
+> **Resultatenrekening**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Handelsgoederen (kost) | 150.000 |
+> | Diensten en diverse goederen | 48.000 |
+> | Afschrijvingen | 250 |
+> | Overige bedrijfskosten | 650 |
+> | Financiële kosten | 1.000 |
+> | Verkopen | 200.000 |
+> | Overige bedrijfsopbrengsten | 250 |
+> | Financiële opbrengsten | 300 |
+> | Winst van het boekjaar | 650 |
+>
+> Wat kunt u de heer DUPONT, op basis van deze gegevens, adviseren?
+>
+> - **a)** De toestand lijkt in orde. Er zijn geen bijkomende formaliteiten te vervullen.
+> - **b)** Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te beslissen over de eventuele ontbinding en om eventueel andere maatregelen te nemen. En dit vóór 11 juni 2015.
+> - **c)** Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste minimum van 6.200,00 EUR te brengen.
+> - **d)** Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste minimum van 18.550,00 EUR te brengen.
+> - **e)** Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te beslissen over de eventuele ontbinding en om eventueel andere maatregelen te nemen. En dit vóór 31 juli 2015.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Omzetting bvba naar nv: vereisten en mogelijkheden voor kapitaalverhoging
+> *Examen 2015-1 · PO 3.0*
+>
+> > Eigen vermogen bvba: geplaatst kapitaal 18.550 EUR, wettelijke reserve 1.855 EUR, overgedragen winst 15.000 EUR. Zaakvoerder wenst omzetting naar nv. Heeft een rekening-courant met creditstand van 50.000 EUR (post 48 'andere schulden'). Accountant deelt mee dat omzetting in huidige stand niet mogelijk is. Cliënt meent dat het toch mogelijk moet zijn.
+>
+> Welke mogelijkheid laat toe om de omzetting van bvba naar nv door te voeren?
+>
+> - **a)** Een kapitaalverhoging doorvoeren in geld bij een notariële akte waarbij ook de rechtsvorm wordt gewijzigd.
+> - **b)** Een deel van de rekening-courant als kapitaalverhoging opnemen mits een verslag van de accountant.
+> - **c)** De accountant kan de gehele opdracht op zich nemen om deze omzetting mogelijk te maken en door te voeren.
+> - **d)** Met het oog op de akte tot verhoging van het kapitaal heeft de notaris enkel een boekhoudkundige staat die maximum drie maanden oud is en een controleverslag nodig; er zijn geen andere stukken noch formaliteiten vereist.
+> - **e)** Bij de omzetting van bvba naar nv bedraagt het minimum geplaatst kapitaal wel degelijk 61.500 EUR, maar het mag volgestort worden tot beloop van slechts 1/3.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Alarmbelprocedure bvba: verplichtingen zaakvoerder bij ernstig verlies
+> *Examen 2015-1 · PO 3.0*
+>
+> > Zaakvoerder van bvba 'De Toekomst' (55% aandelen) overhandigt op 25 januari 2014 de financiële staten per 31/12/2013. Eigen vermogen: geplaatst kapitaal 18.600 EUR, wettelijke reserve 1.860 EUR, beschikbare reserve 100.000 EUR, overgedragen verlies -128.830 EUR. Netto eigen vermogen = -8.370 EUR (negatief).
+>
+> Welke opgesomde acties zijn correct als verplichtingen van de zaakvoerder ten aanzien van deze toestand?
+>
+> - **a)** Een buitengewone algemene vergadering bijeenroepen binnen de maand.
+> - **b)** Niets doen.
+> - **c)** De volgende algemene vergadering afwachten en de invereffeningstelling van de bvba voorstellen.
+> - **d)** Een bijzondere algemene vergadering bijeenroepen voor 25 maart om te beraadslagen en te besluiten over de ontbinding van de vennootschap en andere te nemen maatregelen.
+> - **e)** De vennoten verplichten om het kapitaal van de vennootschap te verhogen door inbrengen in geld.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Gevolgen laattijdige bijeenroeping gewone algemene vergadering nv
+> *Examen 2015-1 · PO 3.0*
+>
+> > De raad van bestuur van nv 'Option for the Future' (boekjaar afsluit op 31/12) roept de gewone algemene vergadering te laat bijeen: datum vastgesteld op 20/07/2014. De gedelegeerd bestuurder vraagt de externe accountant of de laattijdigheid gevolgen teweegbrengt.
+>
+> Welk onderstaand antwoord is juist over de gevolgen van de laattijdige bijeenroeping?
+>
+> - **a)** Geen probleem, aangezien de rekeningen toch door de gewone algemene vergadering zullen worden goedgekeurd.
+> - **b)** De jaarrekening moet binnen zes maanden na afsluiting van het boekjaar ter goedkeuring aan de algemene vergadering worden voorgelegd, zo niet zal de door derden geleden schade, behoudens tegenbewijs, geacht worden voort te vloeien uit dit verzuim.
+> - **c)** Aangezien de jaarrekening niet afgewerkt was, was het niet mogelijk om de algemene vergadering bijeen te roepen en stelt dit dus geen enkel probleem.
+> - **d)** De Nationale Bank van België zal een boete opleggen wegens de laattijdige bijeenroeping van de gewone algemene vergadering.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Kapitaalverhoging in natura bvba: vereiste verslagen bij inbreng aandelen
+> *Examen 2015-1 · PO 3.0*
+>
+> > De heer POULAIN, enig vennoot en zaakvoerder van bvba 'LE BON' (opgericht 16 november 2013) wenst het kapitaal van 20.000 EUR met 10.000 EUR te verhogen via inbreng van aandelen van nv CHARTER (verkregen 2 weken eerder, gewaardeerd op 10.000 EUR, geen herwaardering). Hij beschikt over een bijzonder verslag van het bestuursorgaan.
+>
+> Wat adviseert u hem?
+>
+> - **a)** Dat de verrichting niet kan doorgevoerd worden op basis van de bekomen gegevens.
+> - **b)** Dat hij noodzakelijk in het bezit moet zijn van een verslag van een bedrijfsrevisor, indien de vennootschap geen commissaris-revisor heeft. Dit verslag vermeldt de naam van de eigenaar van het goed dat de vennootschap wil verkrijgen, de beschrijving van dit goed, de vergoeding die werkelijk als tegenprestatie voor de verkrijging wordt verstrekt en de toegepaste waarderingsmethoden. Het geeft aan of de waarden waartoe deze waarderingsmethoden leiden, tenminste gelijk zijn aan de als tegenprestatie verstrekte vergoeding.
+> - **c)** Dat hij in het bezit moet zijn van een attest van de FSMA, met vermelding van de oorsprong van de eigendom van de aandelen, de waarde op de datum van verkrijging en de evolutie ervan over de 3 voorgaande jaren.
+> - **d)** Dat hij een verklaring moet opstellen met vermelding van de beschrijving van de inbreng, de naam van de eigenaar, de waarde en de herkomst van deze waardering en de verstrekte tegenprestatie en een attest dat er zich geen nieuwe omstandigheden hebben voorgedaan ten opzichte van de oorspronkelijke waardering.
+> - **e)** Dat het door het bestuursorgaan opgesteld bijzonder verslag volstaat en dat hij het aan de notaris moet bezorgen die de kapitaalverhoging zal vaststellen zoals bepaald bij artikel 75 van het Wetboek van vennootschappen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Doelstelling specifieke opdracht externe accountant bij omzetting vennootschap
+> *Examen 2015-1 · PO 3.0*
+>
+> Wat is of zijn de doelstelling(en) van de specifieke opdracht van de externe accountant bij de omzetting van een vennootschap?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Norm inzake controle bij voorstel tot ontbinding: specifieke gevallen
+> *Examen 2015-1 · PO 3.0*
+>
+> Hoe wordt in de staat van activa en passiva het resultaat van de lopende, nog niet afgesloten periode vermeld?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Het bestuursorgaan stelt de staat van activa en passiva enkel op in discontinuïteit. Wat moet de beroepsbeoefenaar in overweging nemen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat dient er te gebeuren met latente schulden (bv. vergoeding wegens contractbreuk) die niet in de staat van activa en passiva zijn opgenomen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat gebeurt er met de termijn van drie maand indien een bijeenroeping van een tweede algemene vergadering nodig is wegens het niet bereiken van het aanwezigheidsquorum?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Het voorstel tot ontbinding is het gevolg van de toepassing van de alarmbelprocedure. Heeft dit enig gevolg voor de termijnen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De beroepsbeoefenaar stelt in de loop van zijn controlewerkzaamheden een inbreuk vast op de boekhoudreglementering in verband met de opstelling van de boekhoudkundige staat. Wat dient de beroepsbeoefenaar te doen, moet er voorbehoud gemaakt worden of een onthouding?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Opdracht externe accountant bij omzetting NV naar BVBA: juist/fout stellingen
+> *Examen 2015-1 · PO 3.0*
+>
+> > Externe accountant krijgt opdracht voor verslag over boekhoudkundige staat van activa en passiva bij omzetting NV Salami naar BVBA Salami. KMO-vennootschap, voornamelijk levensmiddelen invoer uit Italië.
+>
+> De externe accountant moet de volledige identiteit van de leden van het bestuursorgaan opvragen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De externe accountant moet in zijn verslag een beoordeling van de administratieve en boekhoudkundige organisatie van de vennootschap vermelden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De externe accountant hanteert een risico-analyse om te beoordelen waar de zwakke punten van de interne procedure in de onderneming gesitueerd zijn.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De externe accountant moet zijn werkdossier door de raad van bestuur laten ondertekenen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De externe accountant moet de door het bestuursorgaan opgestelde staat van activa en passiva herwerken tot een nieuwe staat na zijn controlewerkzaamheden, alvorens deze ondertekend aan de notaris over te maken.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De externe accountant moet een bijkomende aansprakelijkheidsverzekering afsluiten om zijn aansprakelijkheid ingevolge zijn verslag in te dekken.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De externe accountant zal een nazicht doen of de waarderingsregels correct zijn toegepast.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De externe accountant moet altijd een voorbehoud maken als de klantenconfirmaties niet werden verstuurd.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De externe accountant moet akkoord hebben van de aandeelhouders alvorens zijn opdracht aan te vangen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Vennootschapsrecht — diverse vragen (BVBA-naar-BV-overgang, quasi-inbreng NV, verlies rechtspersoonlijkheid, statutaire uittreding/uitsluiting)
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 3.0*
+>
+> > Onderdeel '1 Vennootschapsrecht' uit het schriftelijk bekwaamheidsexamen ITAA 2024 — herinnerings-fragment met vier deelvragen onder éénzelfde thema.
+>
+> BVBA naar BV volgens nieuw WVV. Aandeelhouder vrij van volstorting van het niet volstort kapitaal. Liquidatietest nodig?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > **_Ja, een liquiditeitstest is vereist. Bij de overgang BVBA -> BV onder het WVV wordt het bestaande (volstort) kapitaal van de BVBA van rechtswege omgezet in een onbeschikbare eigenvermogensrekening van de BV; het niet-volstort kapitaal wordt eveneens omgezet in een onbeschikbare reserve voor het niet-opgevraagde gedeelte. Wanneer de aandeelhouder vrij wordt gesteld van de volstortingsplicht, gebeurt dit door een uitkering-equivalente verrichting (vermindering van het eigen vermogen ten gunste van de aandeelhouder), die volgens art. 5:142-5:143 WVV onderworpen is aan zowel de nettoactieftest (balanstest) als de liquiditeitstest._** 🤖
+> > 
+> > > Onder het WVV werkt de BV met een 'onbeschikbaar eigen vermogen' in plaats van een wettelijk minimumkapitaal. Elke uitkering uit dit eigen vermogen - waaronder een vrijstelling van volstortingsplicht voor het niet-opgevraagde kapitaal, omdat dit de facto het eigen vermogen vermindert - vereist een dubbele test: (i) nettoactieftest (art. 5:142 WVV) en (ii) liquiditeitstest door het bestuursorgaan (art. 5:143 WVV). 🤖
+> > *Bron: art. 5:142 WVV (nettoactieftest BV) en art. 5:143 WVV (liquiditeitstest BV); overgangsregeling art. 39 W. 23 maart 2019*
+> > 
+> > Bij een loutere omzetting BVBA -> BV zonder vermogenstransfer (kapitaal wordt enkel hernoemd tot 'inbreng' en gerubriceerd als onbeschikbaar) is er geen liquiditeitstest vereist - dat is een zuiver formele overgang. Pas wanneer een vermogenstransfer naar de aandeelhouder plaatsvindt - zoals een vrijstelling van de volstortingsplicht - komt het uitkeringsregime van de BV in beeld, inclusief de liquiditeitstest. ⚠️ te verifiëren - exacte interpretatie 'vrijstelling volstortingsplicht = uitkering' tegen art. 5:142-5:143 WVV en CBN/ITAA-praktijkgids te valideren. 🤖
+>
+> Quasi-inbreng in NV. Wie kan dit doen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > **_Een quasi-inbreng in een NV kan in principe door iedereen plaatsvinden die binnen de termijn van twee jaar na oprichting een vermogensbestanddeel aan de NV verkoopt voor een tegenwaarde van minstens 10% van het geplaatste kapitaal. Specifiek geviseerd door de quasi-inbrengregels van art. 7:8 WVV zijn echter de oprichters, bestuurders en aandeelhouders van de NV - voor verwervingen van vermogensbestanddelen die hen toebehoren._** 🤖
+> > 
+> > > De quasi-inbrengregeling onder het WVV (art. 7:8 voor de NV) beoogt te vermijden dat de regels rond inbreng in natura (bedrijfsrevisorverslag, jaarrekeningwaardering) worden omzeild door een goed eerst aan een derde over te dragen en het kort na oprichting alsnog door de NV te laten verwerven. De regeling viseert verwervingen van een vermogensbestanddeel toebehorend aan een oprichter, bestuurder of aandeelhouder, gedurende de eerste twee jaar na oprichting, tegen een tegenwaarde van minstens 10% van het geplaatste kapitaal. 🤖
+> > *Bron: art. 7:8 WVV (quasi-inbreng NV)*
+> > 
+> > Cumulatieve vereisten: (i) verwerving binnen twee jaar na oprichting NV; (ii) tegenwaarde >= 10% van het geplaatste kapitaal; (iii) tegenpartij is oprichter, bestuurder of aandeelhouder; (iv) bedrijfsrevisorverslag (controleverslag inbreng in natura) en goedkeuring algemene vergadering vereist. ⚠️ te verifiëren - exacte drempel (10%) en termijn (twee jaar) van art. 7:8 WVV te valideren tegen ITAA-LEX-versie geldig op examen-datum. 🤖
+>
+> Vennootschap verliest rechtspersoonlijkheid:
+>
+> - **a)** Bij ontbinding
+> - **b)** Bij publicatie van de ontbinding
+> - **c)** Bij de afsluit van de vereffening
+> - **d)** Bij akkoord van de vennoten
+>
+> > [!success]- Antwoord (klik om te openen)
+> > **Antwoord: c**
+>
+> Bij welke rechtsvormen kunnen de uittreding/uitsluiting van een aandeelhouder statutair worden geregeld?
+>
+> - **a)** BV en CV
+> - **b)** Alle behalve NV
+> - **c)** Alle behalve NV en BV
+> - **d)** NV, BV en CV
+>
+> > [!success]- Antwoord (klik om te openen)
+> > **Antwoord: c**
+
+> [!question]- Bijzondere mandaten — ontbinding, vereffening en omzetting
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 3.0*
+>
+> CV ontbonden door AV bij gewone meerderheid.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Vrijwillige ontbinding BV: verslag externe accountant is verplicht als de meerderheid van de aandeelhouders hierom vraagt.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> AV voor de vereffening van BV moet bij authentieke akte.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> AV voor het sluiten van de vereffening van BV moet bij authentieke akte.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> > [!warning] Topic enkel — geen vraagstelling beschikbaar
+> > Verschillende stellingen juist of fout ivm ontbinding en vereffening
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> > [!warning] Topic enkel — geen vraagstelling beschikbaar
+> > Verschillende stellingen juist of fout ivm omzettingen
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
 
 ## Competentie-index

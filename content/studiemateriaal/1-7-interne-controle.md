@@ -14,11 +14,13 @@ gerelateerde_concepten:
 - auditrisicomodel
 - avg-interne-controle
 - bedrijfsrevisor
+- begeleiden-inbreng-bij-oprichting
 - beheersactiviteiten
 - beoordelen-effectiviteit-ic-via-interne-audit
 - bijzondere-verslagen-overzicht
 - cfi
 - communicatie-tekortkomingen-interne-beheersing
+- confirmatiebrieven
 - controle-begrip-algemeen
 - controle-omgeving
 - controlemiddelen-ic
@@ -55,6 +57,7 @@ gerelateerde_concepten:
 - iesba-code-of-ethics
 - implementeren-functiescheiding-transactiecycli
 - inbreng-in-natura-verslag
+- inbreng-in-natura
 - informatie-en-communicatie-ic
 - informatie-kwaliteit-ic
 - informatiesysteem-onderneming
@@ -81,6 +84,7 @@ gerelateerde_concepten:
 - niet-naleving-wet-regelgeving-noclar
 - nis-2-richtlijn
 - omzetting-vennootschap-opdracht
+- omzetting-vennootschap
 - onderneming-begrip-ic
 - ontbinding-vereffening-opdracht
 - ontwerpen-intern-controlesysteem-coso
@@ -105,7 +109,7 @@ gerelateerde_concepten:
 - verspilling
 - voorraadcyclus-ic
 - wettelijk-kader-ic
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -134,22 +138,22 @@ gegenereerd_op: '2026-05-18'
 
 ## Leesgids
 
-De minicursus loopt van binnen naar buiten en van algemeen naar concreet. Eerst leer je de aard van [[interne-controle|interne controle]] kennen — de zes kenmerken, de actoren in het [[drie-lijnen-model|drie-lijnen-model]] en het [[coso-componenten-synthese|COSO-kader]]. Daarna doorloop je risico, transactiecycli, ISA-werk en de bijzondere verslagen waarin de gecertificeerd accountant zijn IC-oordeel materialiseert. Op het einde wacht een synthese-stappenplan plus een cheatsheet met de drempelwaarden en vergelijkingsparen die op het examen verwarring veroorzaken.
+<!-- TODO: Opus-glue leesgids -->
 
 ## Waarom dit programmaonderdeel telt
 
-Interne controle is geen apart vak naast boekhouding of audit — het is de ruggengraat waarop redelijke zekerheid rust. De externe auditor steunt op IC om zijn werk te beperken (ISA 315 en [[auditrisicomodel|auditrisicomodel]]), de wetgever bouwt er compliance-verplichtingen op (AVG, antiwitwas, klokkenluiders), en het management gebruikt IC om operationele én rapporterings­doelstellingen te beheersen. Als gecertificeerd accountant zit je op het kruispunt: je adviseert KMO's bij IC-ontwerp, je toetst IC tijdens contractuele opdrachten en je rapporteert tekortkomingen aan governance. Examenvragen testen vaak het samenspel: welke actor, welk COSO-component, welk wettelijk regime — geïntegreerd, niet apart.
+<!-- TODO: Opus-glue waarom_po -->
 
 ## Waarom interne controle? Van procedure naar systeem
 
-Een procedurelijst is een verzameling regels; een [[interne-controle|intern-controlesysteem]] is een organisme dat doelstellingen, risico's, cultuur en monitoring met elkaar verweeft. Wie IC nog leest als 'wie tekent welk papier' mist de kern: het is een continu proces, gedragen door mensen, dat slechts [[redelijke-zekerheid|redelijke zekerheid]] biedt over de realisatie van doelen. We bouwen die systeemblik geleidelijk op — eerst de kenmerken, dan de actoren, dan de vijf [[coso-componenten-synthese|COSO-componenten]] die het denkkader leveren voor elk concreet IC-vraagstuk.
+<!-- TODO: Opus-glue oriëntatie -->
 
 ## Kenmerken van interne controle
 
 De 'kenmerken' zijn de inherente eigenschappen van interne controle — eigenschappen die je móet kennen om realistisch over IC te oordelen. Voor de stagiair is dit de examenstof voor anchor 1.7.III: waarom IC nooit absolute zekerheid biedt, waarom mensen + cultuur centraal staan, en waarom IC moet schalen aan grootte. Deze synthese vat de zes hoofdkenmerken samen in één vergelijkingstabel zodat verwarring bij oppervlakkige stof-herhaling vermeden wordt.
 
 
-De zes [[kenmerken-interne-controle|kenmerken]] hangen niet los van elkaar — ze omschrijven samen waarom IC nooit een afdeling of project kan zijn. Lees de tabel als een zes-stappen-test die je in elk casus loslaat voordat je oordeelt over IC-kwaliteit.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Kenmerk | Wat het betekent | Wat het uitsluit |
 |---|---|---|
@@ -182,7 +186,7 @@ _Bouwt op_: [[interne-controle]] · [[controle-omgeving]] · [[functiescheiding]
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Voor je IC-vraagstukken kan integreren, moet je weten waarover je het hebt. Hier leer je de basisbegrippen samen inzetten: wat 'controle' betekent, wat een onderneming als IC-object onderscheidt van haar [[stromen-onderneming|stromen]] en haar [[informatiesysteem-onderneming|informatiesysteem]], en waarom [[ethiek-organisatie-ic|ethiek]] de stille premisse vormt onder elke procedure. Mis je hier één begrip, dan struikel je later bij elke casus.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[controle-begrip-algemeen|Controle — begrip algemeen]] · `begrip`
 - [[onderneming-begrip-ic|Onderneming (begrip in IC-context)]] · `begrip`
@@ -196,7 +200,7 @@ Voor je IC-vraagstukken kan integreren, moet je weten waarover je het hebt. Hier
 Interne controle is een gedeelde verantwoordelijkheid van meerdere actoren binnen én buiten de onderneming. Het drie-lijnen-model verdeelt de operationele rollen (lijn 1-3), met daarboven het bestuursorgaan (auditcomité, raad van bestuur) als oversight en externe assurance (commissaris, regulator) als externe controleur. Dit synthese-record maakt de rolverdeling expliciet — een stagiair moet voor elke IC-vraag kunnen identificeren WIE de actor is.
 
 
-Een geleidelijke lezing van de tabel onthult de IC-keten van uitvoering naar oversight. Bij KMO-casussen moet je leren herkennen welke lijnen zijn samengevoegd of uitbesteed, en wat dat betekent voor het residual risk — een sleutelvaardigheid op integratie-niveau.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Actor | Rol in IC | Onafhankelijk van? | Voorbeeld bij Rotex Roeselare NV |
 |---|---|---|---|
@@ -227,7 +231,7 @@ _Bouwt op_: [[interne-controle]] · [[interne-audit]] · [[externe-controle]] ·
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Hier zoomen we in op de organen en functies die het IC-systeem dragen. Je leert het verschil tussen [[managementcontrole|managementcontrole]] (sturing door directie zelf) en [[interne-audit|interne audit]] (onafhankelijke evaluatie), tussen de [[functie-interne-auditor|interne auditor]] en het [[auditcomite|auditcomité]] dat zijn werk valideert, en tussen interne en [[externe-controle|externe controle]]. Op het examen kruist de vraag vaak deze rollen — je moet ze niet alleen kennen maar in een casus correct kunnen plaatsen.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[managementcontrole|Managementcontrole]] · `begrip`
 - [[interne-audit|Interne audit]] · `cluster`
@@ -242,7 +246,7 @@ Hier zoomen we in op de organen en functies die het IC-systeem dragen. Je leert 
 De vijf COSO-componenten zijn het organiserend kader voor interne controle in de internationale praktijk én in ISA 315 (herzien-2019) — de standaard die elke auditor moet volgen bij risk assessment. Voor de stagiair is dit dé synthese die hij moet kunnen reproduceren: de vijf componenten in volgorde, met onderlinge afhankelijkheden (controle-omgeving als fundament, monitoring als afsluiting). Examen-vragen testen of hij elk component aan een concreet voorbeeld kan koppelen.
 
 
-Lees de tabel als een vijf-treden-architectuur: zonder fundament (omgeving) draagt geen activiteit; zonder feedback-loop (monitoring) verdampt elke procedure in de tijd. Bij integratie-casussen moet je de vijf componenten samen kunnen inzetten — niet één wegnemen omdat hij 'minder belangrijk' zou zijn.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Component | Wat | Kern-vraag | Voorbeeld bij Yperse Werkplaats BV |
 |---|---|---|---|
@@ -271,7 +275,7 @@ _Bouwt op_: [[controle-omgeving]] · [[risico-inschatting-organisatie]] · [[beh
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Hier bouw je een IC-systeem op vanaf nul volgens [[coso-componenten-synthese|COSO]] — stap voor stap doorlopen we de vijf componenten en plaatsen we bij elk component de keuzes die een adviseur in een KMO-casus moet motiveren. De volledige procedure beschrijft de overgang van risico-inventaris naar concrete beheersmaatregelen.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/ontwerpen-intern-controlesysteem-coso|→ Volledige procedure]]
 
@@ -279,7 +283,7 @@ Hier bouw je een IC-systeem op vanaf nul volgens [[coso-componenten-synthese|COS
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Risico is de motor van IC: zonder risico-inschatting heeft een procedure geen doel. Je leert het [[auditrisicomodel|auditrisicomodel]] hanteren als kompas — hoe het [[intern-beheersingsrisico|interne beheersingsrisico]] de detectie-inspanning stuurt — en hoe digitalisering het IC-landschap verschuift via [[geinformatiseerde-omgeving-ic|IT-controles]], [[cyberrisico-ic|cyberrisico's]] en de regelgevende laag van [[nis-2-richtlijn|NIS 2]] en [[dora-verordening|DORA]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[auditrisicomodel|Auditrisicomodel (controlerisico)]] · `cluster`
 - [[auditrisico-1-7-context]] — record niet gevonden
@@ -293,7 +297,7 @@ Risico is de motor van IC: zonder risico-inschatting heeft een procedure geen do
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-In een complexe casus moet je risico's niet alleen benoemen maar ook prioriteren in een risicomatrix die management kan onderschrijven. De procedure begeleidt je van scoping over identificatie en inschatting naar respons — geleidelijk, met de [[iso-31000-risicobeheer|ISO 31000]]-logica als ruggengraat.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/uitvoeren-risicoanalyse-organisatie|→ Volledige procedure]]
 
@@ -301,7 +305,7 @@ In een complexe casus moet je risico's niet alleen benoemen maar ook prioriteren
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-[[functiescheiding|Functiescheiding]] is het meest voorkomende IC-instrument én het eerste dat sneuvelt in een KMO-context. We werken een aanpak uit waarbij je per transactiecyclus de incompatibele rollen identificeert en compenserende controles oplegt waar volledige scheiding onhaalbaar is.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/implementeren-functiescheiding-transactiecycli|→ Volledige procedure]]
 
@@ -309,7 +313,7 @@ In een complexe casus moet je risico's niet alleen benoemen maar ook prioriteren
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-We doorgronden hier hoe abstracte beheersactiviteiten zich vertalen naar concrete [[uitvoering-interne-controle|uitvoering]] en [[controlemiddelen-ic|controlemiddelen]] — en hoe je via [[toetsing-interne-beheersing|toetsing]] vaststelt of die middelen ook werken. Het [[controleproces-organisatie|controleproces]] vormt de plan-do-check-act-cyclus waarin elke maatregel haar plaats vindt.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[uitvoering-interne-controle|Uitvoering van interne controle — aanpak]] · `cluster`
 - [[controleproces-organisatie|Controleproces in de organisatie]] · `cluster`
@@ -320,19 +324,19 @@ We doorgronden hier hoe abstracte beheersactiviteiten zich vertalen naar concret
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Stap voor stap doorlopen we hoe je per geïdentificeerd risico een passende mix van [[preventief-versus-detecterende-controle|preventieve en detectieve]] maatregelen kiest en deze in een blijvend [[monitoring-interne-controle|monitoringkader]] verankert. Je leert het samenspel inzetten: een sterke preventieve laag minimaliseert het werk van de detectieve laag.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opzetten-controleactiviteiten-en-monitoring|→ Volledige procedure]]
 
 ## fouten-en-fraude
 
-[[fraude-versus-fout|Fraude en fout]] vragen elk een eigen IC-respons: een [[fouten-ic|fout]] is onopzettelijk en wordt door routine-controles afgevangen, [[fraude|fraude]] is opzettelijk en vraagt diepere mechanismen zoals klokkenluiderskanalen, [[fraudedriehoek|fraude-driehoek-analyse]] en [[management-override|management-override-detectie]]. Daarnaast bestaat [[verspilling|verspilling]] als derde categorie — geen boekhoudfout, wel een efficiëntie-probleem dat IC kan opsporen.
+<!-- TODO: Opus-glue synthese-intro -->
 
 ## Identificeren van fouten, fraude en verspilling in een organisatie
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-In een complexe casus moet je het verschil tussen onopzettelijk en opzettelijk niet alleen typeren maar omzetten in een werkplan: welke [[frauderisicofactoren|risicofactoren]] activeer je, welke [[fraudetypologie-acfe|fraudetypologie]] past, welke meldroute volgt? De procedure brengt het samen.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/identificeren-fouten-fraude-verspilling|→ Volledige procedure]]
 
@@ -340,7 +344,7 @@ In een complexe casus moet je het verschil tussen onopzettelijk en opzettelijk n
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-[[niet-naleving-wet-regelgeving-noclar|NOCLAR]] en [[antiwitwasmeldingsplicht-accountant|antiwitwasmelding]] zijn twee compliance-stromen die de accountant binnen elke opdracht moet kunnen activeren. Je leert het verband: niet elke NOCLAR is een witwasvermoeden, maar elk witwasvermoeden vraagt melding aan de [[cfi|CFI]] — meldingsplicht wint dan van het beroepsgeheim.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[niet-naleving-wet-regelgeving-noclar|Niet-naleving wet- en regelgeving (NOCLAR)]] · `cluster`
 - [[cfi|Cel voor Financiële Informatieverwerking (CFI)]] · `autoriteit`
@@ -350,7 +354,7 @@ In een complexe casus moet je het verschil tussen onopzettelijk en opzettelijk n
 De cyclusbenadering splitst de bedrijfsvoering op in herkenbare transactie-stromen (aankoop, productie, verkoop, HR, voorraad) en evalueert de interne controle binnen elke cyclus apart. Het is een standaardmethode in zowel internal control design als in externe audit (walkthrough per cyclus). Stagiairs gebruiken cyclusanalyse om systematisch zwakke punten te identificeren en om hun controlewerkzaamheden te plannen.
 
 
-De tabel hieronder is een patroon-bibliotheek: elke cyclus kent zijn typische risico's en zijn structurele tegenhanger (three-way match voor aankoop, delivery-order-match voor verkoop). Bij een integratie-vraag combineer je deze patronen met functiescheiding en monitoring uit de COSO-laag.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Cyclus | Hoofdrisico's | Kritische IC-maatregelen |
 |---|---|---|
@@ -376,7 +380,7 @@ _Bouwt op_: [[aankoopcyclus-ic]] · [[verkoopcyclus-ic]] · [[productiecyclus-ic
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Hier zoomen we in op elke cyclus apart. Bij elke transactiecyclus moet je de drie vragen samen kunnen beantwoorden: welke risico's, welke kerncontroles, welke [[taakverdeling-ic|taakverdeling]]. De [[opvolging-verrichtingen-ic|opvolging van verrichtingen]] verbindt de cycli onderling — een aankoop genereert een voorraad-mutatie, een verkoop activeert een productie-aanvraag.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[aankoopcyclus-ic|Aankoopcyclus en interne controle]] · `cluster`
 - [[verkoopcyclus-ic|Verkoopcyclus en interne controle]] · `cluster`
@@ -391,7 +395,7 @@ Hier zoomen we in op elke cyclus apart. Bij elke transactiecyclus moet je de dri
 Het wettelijk kader voor interne controle in België is geen één-stuks-wet maar een lappendeken van bronnen die elk een aspect van IC reguleren: boekhoudkundige verplichtingen (KB 21.10.2018), audit-toetsing (ITAA-normen), plichtenleer (KB 1998 + Wet ITAA 2019), persoonsgegevens (AVG), klokkenluiders (Wet 28.11.2022), witwasbestrijding (Wet 18.09.2017), corporate governance (WVV + Codes), sector-specifiek (NBB, FSMA). Voor de stagiair is het examen-relevant om te weten welke bronnen van toepassing zijn op een gegeven onderneming: een KMO valt onder een lichter regime dan een beursgenoteerde of financiële onderneming. De toets is meestal: 'gegeven deze onderneming, welke IC-verplichtingen?'.
 
 
-De tabel is een beslisboom: classificeer eerst de onderneming (omvang, [[public-interest-entity|PIE-status]], sector) en map daarna de toepasselijke bronnen. Bij een integratie-vraag moet je ook de drie regelgevingslagen — algemene wetgeving, domeinwetten en beroepsnormen — samen kunnen inzetten.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Domein | Belgische bron | Toepassing IC |
 |---|---|---|
@@ -417,7 +421,7 @@ _Bouwt op_: [[interne-controle]] · [[kmo-controlenorm-accountant]] · [[algemen
 De ISA-standaarden zijn de internationale audit-grondwet voor de wettelijke controle van financiële overzichten — in België via koninklijk besluit overgenomen voor commissarisopdrachten. Voor de stagiair zijn de ISA's relevant in IC-context omdat verschillende ISA's expliciet IC-werk vereisen: ISA 315 begint elke audit met een begrip van de interne beheersing, ISA 330 vertaalt dat in toetsen, ISA 265 verplicht communicatie van tekortkomingen, ISA 610 regelt het gebruik van interne audit. De examen-vraag is meestal niet 'wat staat in ISA X?' maar 'welke ISA is van toepassing op deze situatie?'.
 
 
-Lees de tabel als een mapping van situatie naar standaard. De kerntrias voor IC-werk — risico-inschatting, response, rapportering — keert in elke audit-opdracht terug; bij integratie-casussen moet je de juiste ISA aan de juiste situatie kunnen koppelen zonder aarzelen.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | ISA-nummer | Titel | IC-relevantie |
 |---|---|---|
@@ -452,7 +456,7 @@ _Bouwt op_: [[interne-controle]] · [[auditrisicomodel]] · [[toetsing-interne-b
 De ITAA-normen vormen de Belgische operationele vertaling van de internationale audit- en kwaliteitsstandaarden naar de gecertificeerd accountant. Voor de stagiair is dit het kruispunt tussen ISA (internationaal) en eigen praktijk: welke norm geldt voor welk type opdracht (wettelijke controle, contractuele controle, samenstelling, bijzondere verslagen)? De normen leggen vast hoe de accountant interne controle benadert per opdrachttype, en welke documentatie- en kwaliteitsverwachtingen er gelden. Examen-vragen testen vaak het onderscheid algemene controlenorm versus KMO-controlenorm, of de toepassing van de norm intern kwaliteitsmanagement op het kantoor zelf.
 
 
-De tabel ordent de normen per opdrachttype. Onthoud dat het [[intern-kwaliteitsmanagement-kantoor|intern kwaliteitsmanagement]] over alle opdrachten heen werkt — een vraag over kantoorbeleid wijst altijd naar deze norm, terwijl een vraag over één audit-engagement over de controlenormen gaat.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | ITAA-norm | Domein | IC-aspect |
 |---|---|---|
@@ -476,7 +480,7 @@ _Bouwt op_: [[kmo-controlenorm-accountant]] · [[algemene-controlenorm-accountan
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-In een complexe casus toets je niet alleen of controles bestaan maar of ze effectief werken in de tijd. De procedure bouwt een coherent oordeel op uit [[evaluatiecriteria-ic|evaluatiecriteria]], steekproef-toetsing en walkthroughs — het inhoudelijke werk dat de interne auditor uit zijn [[functie-interne-auditor|functie]] verricht.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/beoordelen-effectiviteit-ic-via-interne-audit|→ Volledige procedure]]
 
@@ -484,7 +488,7 @@ In een complexe casus toets je niet alleen of controles bestaan maar of ze effec
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Een audit-bevinding is pas waardevol als ze bruikbaar is voor het [[auditcomite|auditcomité]] en het management. Je leert vaststellingen, oorzaken en aanbevelingen samen inzetten in een gestructureerd rapport — de procedure begeleidt je van bevindings-fiche naar finale managementsamenvatting.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-intern-audit-rapport|→ Volledige procedure]]
 
@@ -492,7 +496,7 @@ Een audit-bevinding is pas waardevol als ze bruikbaar is voor het [[auditcomite|
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-[[avg-interne-controle|AVG-verplichtingen]] zijn geen apart compliance-eiland — je leert ze inweven in het bestaande IC-systeem zodat technische en organisatorische maatregelen mee meeleven met de transactiecycli. De procedure beschrijft hoe je verwerkingsregister, DPIA en monitoring in COSO-componenten verankert.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/integreren-avg-compliance-in-ic|→ Volledige procedure]]
 
@@ -500,7 +504,7 @@ Een audit-bevinding is pas waardevol als ze bruikbaar is voor het [[auditcomite|
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Als externe adviseur bouw je een coherent oordeel op uit het bestaande IC, formuleer je aanbevelingen die het management kan onderschrijven, en bewaak je de grens met je [[opdrachtbrief-accountant|opdrachtbrief]] zodat geen onafhankelijkheids­conflict ontstaat — zeker wanneer dezelfde cliënt later een controleopdracht vraagt.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/adviseren-management-ic-design-als-externe-adviseur|→ Volledige procedure]]
 
@@ -509,7 +513,7 @@ Als externe adviseur bouw je een coherent oordeel op uit het bestaande IC, formu
 De gecertificeerd accountant en bedrijfsrevisor leveren naast het commissarisverslag een hele reeks 'bijzondere verslagen' af — telkens bij een specifieke vennootschapsrechtelijke verrichting (inbreng in natura, omzetting, fusie/splitsing, ontbinding, effectenuitgifte) of een specifieke contractuele opdracht. Elk type volgt een eigen ITAA-norm met eigen verslagmodel, maar deelt de basis-elementen (vier oordeelstypes, persoonlijke ondertekening, afschrift aan ITAA). Dit synthese-record geeft de typologie; de details staan in de individuele opdracht-records (PO 1.7).
 
 
-De tabel groepeert de verslagtypes naar zekerheid en aanleiding. In een integratie-casus moet je een gegeven verrichting (kapitaalverhoging, fusie, omzetting, vereffening) kunnen koppelen aan het juiste verslag, de juiste WVV-grondslag en de juiste ITAA-norm.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Type verslag | Wettelijke grondslag | Doel | Voorbeeld |
 |---|---|---|---|
@@ -534,18 +538,18 @@ _Bouwt op_: [[inbreng-in-natura-verslag]] · [[quasi-inbreng-verslag]] · [[effe
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-In een complexe casus combineer je IC-evaluatie met verslaglogica: een [[inbreng-in-natura-verslag|inbreng]], [[fusie-splitsing-controleopdracht|fusie]] of [[ontbinding-vereffening-opdracht|ontbinding]] vraagt elk specifieke werkzaamheden plus een eigen verslagmodel. De procedure begeleidt je van opdrachtaanvaarding via werkprogramma naar finaal getekend verslag.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-bijzondere-verslagen-en-ic-evaluaties|→ Volledige procedure]]
 
 ## Reflectie: interne controle als systeem, niet als procedurelijst
 
-Wie heel deze stof doorploegt, beseft dat [[interne-controle|IC]] geen optelsom is van losse procedures maar een organisch samenspel van cultuur, structuur, processen en oversight. De zes [[kenmerken-interne-controle|kenmerken]] zijn geen lijst om af te vinken — ze zijn de criteria waarmee je een systeem in zijn geheel kunt beoordelen. Op het examen herken je sterke kandidaten aan hun vermogen om bij een nieuwe casus eerst de systeem-blik te activeren (welke COSO-componenten worden geraakt, welke actoren bepalen wat) voor ze in detail duiken.
+<!-- TODO: Opus-glue oriëntatie -->
 
 
 ## Synthese-stappenplan
 
-Wanneer je in een examenvraag een IC-casus krijgt voorgelegd, volg dan dit werkschema. Classificeer eerst de onderneming op grootte, [[public-interest-entity|PIE-status]] en sector — die drie variabelen bepalen welk regime geldt. Identificeer vervolgens de actoren via het [[drie-lijnen-model|drie-lijnen-model]] en check of bij KMO's lijnen zijn samengeperst. Loop daarna de vijf [[coso-componenten-synthese|COSO-componenten]] door om vast te stellen waar het systeem rust of breekt. Per geïdentificeerd risico kies je een mix van [[preventief-versus-detecterende-controle|preventieve en detectieve]] maatregelen, ondersteund door [[functiescheiding|functiescheiding]] op kritieke transactiestappen. Onderzoek vervolgens of fouten-, fraude- of verspilling-signalen aanwezig zijn en welke meldroute geactiveerd moet worden ([[niet-naleving-wet-regelgeving-noclar|NOCLAR]], [[antiwitwasmeldingsplicht-accountant|antiwitwasmelding aan CFI]], [[communicatie-tekortkomingen-interne-beheersing|ISA 265-rapportering]]). Sluit af met de vraag welk verslagtype past bij de opdracht — commissarisverslag, bijzonder verslag, contractueel rapport — en welke ITAA-norm de werkzaamheden stuurt. Documenteer elk besluit zodat het auditspoor sluit.
+<!-- TODO: Opus-glue synthese -->
 
 ## Cheatsheet
 
@@ -608,9 +612,296 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-Examen-vragen voor PO 1.7 testen integratie: niet 'wat is COSO-component 3?' maar 'welke maatregel kies je gegeven deze KMO-context en welk regelgevingskader speelt mee?'. Verwacht casus-vragen waarbij actor-rol, COSO-component, transactiecyclus en wettelijk regime gecombineerd moeten worden. Let scherp op de vergelijkingsparen in de cheatsheet — daar wordt schijngelijkenis tot toets gemaakt.
+<!-- TODO: Opus-glue examenfocus -->
 
-<!-- TODO: geen examenfocus--*.json voor dit PO; genereer via tools/examen/genereer_examenfocus_uit_classificatie.py of laat een agent examenfocus-objecten curateren -->
+> [!question]- Analytische test op tussentijdse resultaten door de interne controleafdeling
+> *Examen 2013-1 · PO 1.7*
+>
+> > Het bedrijf koopt/verkoopt werfkranen.
+>
+> Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de interne controleafdeling kan uitgevoerd worden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Belang van een budget voor de interne controleafdeling
+> *Examen 2013-1 · PO 1.7*
+>
+> Wat is het belang van een budget voor de interne controleafdeling?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Externe bevestiging bij leveranciers door interne controleafdeling
+> *Examen 2013-1 · PO 1.7*
+>
+> Waarom zal de interne controleafdeling zich niet alleen steunen op de boekhouding maar ook periodiek schriftelijk confirmatie vragen bij leveranciers?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Interne controlemaatregelen bij vastgestelde onregelmatigheden door boekhouder
+> *Examen 2013-1 · PO 1.7*
+>
+> > NV SLA-BAK is een kleine onderneming met goede resultaten.
+> > 
+> > De boekhouder valt vrij plots ziek en hij zal gedurende langere tijd afwezig zijn. De bedrijfsleider wil tussentijdse cijfers en vraagt aan een extern accountant om een tussentijdse staat van activa en passiva op te stellen.
+> > 
+> > De externe accountant gaat over tot het opstellen van de tussentijdse staat en om de vorderingen op klanten te controleren, en vraagt aan een selectie van klanten om de openstaande saldi te confirmeren. Meerdere klanten waarvan men dacht dat ze nog geld moesten aan de onderneming, beweerden al betaald te hebben. Na bijkomende controle blijkt, dat de boekhouder een aantal betalingen had gebruikt om saldi van andere klanten aan te zuiveren. Hij kon dit doen aangezien de betalingen per cheque gebeurden. Het komt erop neer dat de boekhouder zichzelf een quasi permanent voorschot heeft bezorgd van ca. € 80.000.
+> > 
+> > Bij vergelijking met de balans van het laatste jaar blijkt dat een aantal oude openstaande leveranciers-schulden voor een totaal bedrag van € 200.000 uit de boekhouding verdwenen zijn. Na verder onderzoek blijkt de boekhouder dit bedrag op zijn rekening te hebben overgemaakt.
+> > 
+> > Na een substantieel onderzoek wordt vastgesteld dat gedurende het laatste semester een groot aantal creditnota's was opgesteld voor relatief kleine bedragen voor bepaalde klanten. Deze creditnota's waren opgesteld door de boekhouder en uitbetaald op zijn bankrekening.
+> > 
+> > Verder komt aan het licht dat de onkostennota's van een aantal collega's uitzonderlijk hoog waren de voorbije maanden. Toen zij hierover ondervraagd werden, bleken zij hier niet van op de hoogte. Een gedetailleerde analyse toonde aan dat de boekhouder deze onkostennota's had aangepast door een cijfer toe te voegen. Opnieuw had hij zichzelf het verschil uitgekeerd.
+> > 
+> > Verder belde een klant om de terugbetaling te vragen van € 27.000, die hij 6 maanden geleden per ongeluk dubbel had betaald. In eerste instantie kon hier niet op ingegaan worden aangezien er in de boekhouding geen spoor van deze dubbele betaling was terug te vinden. Inderdaad, de boekhouder had deze dubbele betaling doorgestort naar zijn bankrekening.
+>
+> Geef voor 5 van de hiervoor vermelde vaststellingen de formulering van het probleem en geef de te nemen maatregelen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Doelstellingen van interne controle
+> *Examen 2013-1 · PO 1.7*
+>
+> > De interne controle wordt gedefinieerd als: 'Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te hebben over…'
+>
+> Geef vier elementen aan waarover het bestuursorgaan een redelijke zekerheid wil bereiken via interne controle.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Procedure met functiescheiding voor kasbetalingen kleine kosten
+> *Examen 2013-1 · PO 1.7*
+>
+> > Het secretariaat van de zaakvoerder van een familiale BVBA betaalt kleine kosten gemaakt door het personeel terug via een kas.
+>
+> Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen voorkomen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Functiescheiding: indeling van activiteiten naar soort taak
+> *Examen 2013-2 · PO 1.7*
+>
+> > In het kader van scheiding van functies kunnen er 4 soorten taken worden onderkend: Autorisatie (1), bewaren van activa (2), registratie en rapportering (3) en controle procedures (4).
+> > Duid in onderstaande tabel aan welke soort taak bedoeld is.
+>
+> **Activiteiten en taakcategorieën**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Akkoord bestelling |   |
+> | Ontvangst van de goederen |   |
+> | Ontvangst van de factuur |   |
+> | Verificatie van de factuur |   |
+> | Aanmaak betalingsvoorstel |   |
+> | Controle betalingsvoorstel |   |
+> | Uitvoeren van de betaling |   |
+> | Aanmaak en onderhoud basisgegevens leveranciers |   |
+>
+> Duid voor elk van de acht activiteiten aan welke soort taak bedoeld is (1=Autorisatie, 2=Bewaren van activa, 3=Registratie en rapportering, 4=Controle procedures).
+>
+> - **a)** 1 - Autorisatie
+> - **b)** 2 - Bewaren van activa
+> - **c)** 3 - Registratie en rapportering
+> - **d)** 4 - Controle procedures
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Interne controle: preventieve, repressieve en corrigerende maatregelen
+> *Examen 2013-2 · PO 1.7*
+>
+> > De interne controle heeft een preventief, repressief en corrigerend karakter. Kruis aan of deze voorbeelden een preventieve, repressieve of corrigerende maatregel zijn.
+>
+> Functiescheiding: preventief, repressief of corrigerend?
+>
+> - **a)** Preventief
+> - **b)** Repressief
+> - **c)** Corrigerend
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Periodieke inventarisaties: preventief, repressief of corrigerend?
+>
+> - **a)** Preventief
+> - **b)** Repressief
+> - **c)** Corrigerend
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Tussentijdse confirmaties: preventief, repressief of corrigerend?
+>
+> - **a)** Preventief
+> - **b)** Repressief
+> - **c)** Corrigerend
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> ICT beveiligingen: preventief, repressief of corrigerend?
+>
+> - **a)** Preventief
+> - **b)** Repressief
+> - **c)** Corrigerend
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Handtekeningsbevoegdheid: preventief, repressief of corrigerend?
+>
+> - **a)** Preventief
+> - **b)** Repressief
+> - **c)** Corrigerend
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Cijferbeoordeling: controle op brutomarges, controle op toegestane korting: preventief, repressief of corrigerend?
+>
+> - **a)** Preventief
+> - **b)** Repressief
+> - **c)** Corrigerend
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Solvabiliteitsonderzoek bij klantenacceptatie: preventief, repressief of corrigerend?
+>
+> - **a)** Preventief
+> - **b)** Repressief
+> - **c)** Corrigerend
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Interne controle — risico's detecteren bij aanmaken klantenfiches door verkoopafdeling
+> *Examen 2014-1 · PO 1.7*
+>
+> > De verkoopafdeling maakt de nieuwe klantenfiches aan in het computersysteem op het moment dat de verkoper een door een nieuwe klant getekende bestelbon binnenbrengt.
+>
+> Detecteer drie risico's.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Interne controle — procedure opstellen voor terugbetaling kleine kosten met functiescheiding
+> *Examen 2014-1 · PO 1.7*
+>
+> > De secretaresse van de zaakvoerder betaalt kleine kosten gemaakt door het personeel terug via een kas.
+>
+> Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen in voorkomen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Interne controle — doelstellingen boekhoudkundige registratie: juist of fout
+> *Examen 2014-1 · PO 1.7*
+>
+> > Duid met een kruis aan of de volgende omschrijvingen juist of fout zijn in het kader van de algemene interne controle doelstellingen met betrekking tot de boekhoudkundige registratie.
+>
+> Transacties worden uitgevoerd in overeenstemming met de door het management vastgelegde bevoegdheidsverdelingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De toegang tot de activa is vrij voor elke medewerker in vast dienstverband.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Enkel de verrichtingen behorend tot het patrimonium van de onderneming worden geregistreerd.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De transacties worden in een door de boekhouder bepaalde periode in het informatiesysteem opgenomen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De boekhoudkundige informatie wordt geregeld vergeleken met de onderliggende inventaris en eventuele verschillen moeten niet verantwoord worden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Begripsverklaring controleactiviteiten: soorten en voorbeelden
+> *Examen 2015-1 · PO 1.7*
+>
+> > De controleactiviteiten kunnen op verschillende wijzen worden ingedeeld. Voor elke controleactiviteit dient een begripsverklaring en een voorbeeld gegeven te worden.
+>
+> Verklaar het begrip 'accountingcontrole en administratieve controle' en geef van elke controleactiviteit een voorbeeld.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Verklaar het begrip 'preventieve en repressieve controle' en geef van elke controleactiviteit een voorbeeld.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Controletechnieken interne audit op goederenbestand magazijn
+> *Examen 2015-1 · PO 1.7*
+>
+> > De verantwoordelijke van de interne audit zal een aantal controletechnieken aanwenden om voldoende bewijsmateriaal te verzamelen over de toepassing en effectiviteit van de interne controlemaatregelen.
+>
+> Geef vier controletechnieken die door de interne controleur kunnen toegepast worden op de goederen in het magazijn.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Operationele audit verkoopcyclus: classificatie doelstellingen naar financieel/operationeel/conformiteit
+> *Examen 2015-1 · PO 1.7*
+>
+> > Vraag 3 van de sectie 'Interne controle'. Schema met doelstellingen bij de operationele audit van de verkoopcyclus. Kandidaat duidt aan of elke doelstelling financieel, operationeel en/of conformiteitsaspect betreft (meerdere aspecten mogelijk).
+>
+> **Doelstellingen operationele audit verkoopcyclus**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Opstellen van een marketingstrategie |   |
+> | Behoud mogelijkheid tot tijdige levering tegen de laagst mogelijke distributiekost |   |
+> | Opvolging van marktbehoeften, introductie nieuwe producten en stopzetting van bestaande producten |   |
+> | Enkel toegestane verkooporders worden verwerkt |   |
+> | Alle verzonden goederen worden in de juiste periode correct gefactureerd |   |
+>
+> Duid bij elke doelstelling aan of het gaat om een financieel, en/of operationeel en/of conformiteitsaspect.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Interne controle
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.7*
+>
+> Wat zijn goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat is de hoofddoelstelling van de invoering van een interne controle in een KMO?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Over welke soort risico gaat het? (COSO model)
+>
+> - **a)** Strategisch
+> - **b)** Informatie
+> - **c)** Operationeel
+> - **d)** Financieel
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> > [!warning] Topic enkel — geen vraagstelling beschikbaar
+> > Verkoopcyclus: doelstellingen (financieel, operationeel, conformiteit)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
 
 ## Competentie-index
@@ -618,11 +909,13 @@ Examen-vragen voor PO 1.7 testen integratie: niet 'wat is COSO-component 3?' maa
 <div class="two-column-list">
 
 - [[competenties/adviseren-management-ic-design-als-externe-adviseur|Adviseren van het management bij IC-design als externe adviseur]]
+- [[competenties/begeleiden-inbreng-bij-oprichting|Begeleiden van de inbreng in geld en in natura bij oprichting]]
 - [[competenties/beoordelen-effectiviteit-ic-via-interne-audit|Beoordelen van de effectiviteit van een intern-controlesysteem (interne audit)]]
 - [[competenties/identificeren-fouten-fraude-verspilling|Identificeren van fouten, fraude en verspilling in een organisatie]]
 - [[competenties/implementeren-functiescheiding-transactiecycli|Implementeren van functiescheiding op kritieke transactiecycli]]
 - [[competenties/integreren-avg-compliance-in-ic|Integreren van AVG-compliance in het intern-controlesysteem]]
 - [[competenties/ontwerpen-intern-controlesysteem-coso|Ontwerpen van een intern-controlesysteem volgens de vijf COSO-componenten]]
+- [[competenties/opstellen-overname-verslaggeving-accountant|Opstellen van accountantsverslagen bij overdrachtsverrichtingen]]
 - [[competenties/opstellen-bijzondere-verslagen-en-ic-evaluaties|Opstellen van bijzondere verslagen en IC-evaluaties voor specifieke verrichtingen]]
 - [[competenties/opstellen-intern-audit-rapport|Opstellen van een intern-audit-rapport]]
 - [[competenties/opzetten-controleactiviteiten-en-monitoring|Opzetten van controle-activiteiten en monitoringsmechanismen]]
@@ -644,6 +937,7 @@ Examen-vragen voor PO 1.7 testen integratie: niet 'wat is COSO-component 3?' maa
 - [[auditrisico-in-ic-context|Auditrisico in IC-context]] · `begrip`
 - [[auditrisicomodel|Auditrisicomodel (controlerisico)]] · `cluster`
 - [[bedrijfsrevisor|Bedrijfsrevisor]] · `autoriteit`
+- [[begeleiden-inbreng-bij-oprichting|Begeleiden van de inbreng in geld en in natura bij oprichting]] · `competentie`
 - [[beheersactiviteiten|Beheersactiviteiten (COSO-component 3)]] · `cluster`
 - [[beoordelen-effectiviteit-ic-via-interne-audit|Beoordelen van de effectiviteit van een intern-controlesysteem (interne audit)]] · `competentie`
 - [[bijzondere-verslagen-overzicht|Bijzondere verslagen — overzicht]] · `synthese`
@@ -652,6 +946,7 @@ Examen-vragen voor PO 1.7 testen integratie: niet 'wat is COSO-component 3?' maa
 - [[coso-componenten-synthese|COSO-componenten — synthese-overzicht]] · `synthese`
 - [[cfi|Cel voor Financiële Informatieverwerking (CFI)]] · `autoriteit`
 - [[communicatie-tekortkomingen-interne-beheersing|Communicatie van tekortkomingen in de interne beheersing]] · `cluster`
+- [[confirmatiebrieven|Confirmatiebrieven]] · `begrip`
 - [[controle-begrip-algemeen|Controle — begrip algemeen]] · `begrip`
 - [[controle-omgeving|Controle-omgeving (COSO-component 1)]] · `begrip`
 - [[controlemiddelen-ic|Controlemiddelen — concrete instrumenten]] · `cluster`
@@ -686,6 +981,7 @@ Examen-vragen voor PO 1.7 testen integratie: niet 'wat is COSO-component 3?' maa
 - [[itaa-normen-ic|ITAA-normen en interne controle]] · `synthese`
 - [[identificeren-fouten-fraude-verspilling|Identificeren van fouten, fraude en verspilling in een organisatie]] · `competentie`
 - [[implementeren-functiescheiding-transactiecycli|Implementeren van functiescheiding op kritieke transactiecycli]] · `competentie`
+- [[inbreng-in-natura|Inbreng in natura]] · `regel`
 - [[informatie-en-communicatie-ic|Informatie en communicatie (COSO-component 4)]] · `begrip`
 - [[informatie-kwaliteit-ic|Informatie en haar kwaliteitseisen]] · `begrip`
 - [[informatiesysteem-onderneming|Informatiesysteem van de onderneming]] · `begrip`
@@ -706,6 +1002,7 @@ Examen-vragen voor PO 1.7 testen integratie: niet 'wat is COSO-component 3?' maa
 - [[monitoring-interne-controle|Monitoring (COSO-component 5)]] · `cluster`
 - [[nis-2-richtlijn|NIS 2-richtlijn (cybersecurity-kader)]] · `regel`
 - [[niet-naleving-wet-regelgeving-noclar|Niet-naleving wet- en regelgeving (NOCLAR)]] · `cluster`
+- [[omzetting-vennootschap|Omzetting van een vennootschap]] · `cluster`
 - [[onderneming-begrip-ic|Onderneming (begrip in IC-context)]] · `begrip`
 - [[ontbinding-vereffening-opdracht|Ontbinding-vereffening opdracht van de gecertificeerd accountant]] · `cluster`
 - [[ontwerpen-intern-controlesysteem-coso|Ontwerpen van een intern-controlesysteem volgens de vijf COSO-componenten]] · `competentie`

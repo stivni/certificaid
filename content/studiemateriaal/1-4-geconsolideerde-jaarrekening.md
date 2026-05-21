@@ -48,7 +48,7 @@ gerelateerde_concepten:
 - verwerken-wijziging-consolidatiekring
 - vrijstelling-subconsolidatie
 - wijziging-consolidatiekring
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -73,23 +73,22 @@ gegenereerd_op: '2026-05-18'
 
 ## Leesgids
 
-Deze minicursus volgt de natuurlijke werkvolgorde van een [[geconsolideerde-jaarrekening|consolidatiedossier]]: eerst de gatekeeper-vraag (moet er geconsolideerd worden?), dan het begrippenkader rond [[controle]], vervolgens de keuze van techniek per entiteit en ten slotte de feitelijke opbouw — eerste consolidatie, eliminaties en kringwijzigingen. De [[consolidatieplicht-beslisboom|beslisboom]] en de [[consolidatiemethodes-vergelijking|methodes-matrix]] zijn je twee scharnierpunten — keer ernaar terug zodra een examencasus je een nieuwe groepsstructuur voorlegt. De cheatsheet en de [[exclusieve-controle|drempelwaarden]] vat je vlak voor het examen samen.
-
+<!-- TODO: Opus-glue leesgids -->
 
 ## Waarom dit programmaonderdeel telt
 
-Een groep van vennootschappen kan op papier een gezond plaatje tonen terwijl de cijfers in werkelijkheid bestaan uit onderlinge verkopen en leningen tussen moeder en dochter. De [[geconsolideerde-jaarrekening|geconsolideerde jaarrekening]] herstelt het beeld door moeder + dochters voor te stellen alsof het één onderneming was. Voor een accountant betekent dat: kwalificeren (welke relatie is het?), kiezen (welke techniek hoort daarbij) én rekenen ([[intragroep-eliminaties|onderlinge stromen schrappen]], [[minderheidsbelangen|derden afzonderen]]). Het examen toetst dit als toepassings-stof — een diagram met percentages, een vraag naar de juiste methode — dus je moet de regel direct op een casus kunnen leggen.
+<!-- TODO: Opus-glue waarom_po -->
 
 ## Wat is consolideren? Waarom een geconsolideerde jaarrekening?
 
-Consolideren is de juridische pluraliteit van een groep economisch herleiden tot één geheel: de [[moedervennootschap|moeder]] en alle entiteiten waarover zij [[controle]] uitoefent worden samengevoegd, onderlinge transacties worden geschrapt en het aandeel dat aan andere aandeelhouders toekomt wordt apart getoond als [[minderheidsbelangen|belangen van derden]]. Je leert in dit programmaonderdeel die operatie stap voor stap toepassen — van het aftoetsen of er überhaupt een [[consolidatieverplichting]] is, tot de keuze van techniek per relatie en de boekhoudkundige uitwerking ervan.
+<!-- TODO: Opus-glue oriëntatie -->
 
 ## Moet ik consolideren? — Beslisboom
 
 Een beslisboom-synthese binnen het Belgische vennootschapsrecht (WVV) die de gatekeeper-vraag — bestaat er een consolidatieverplichting? — in afzonderlijke beslismomenten ontvouwt. Doel: de stagiair leren systematisch door grootte-, vrijstellings- en uitzonderings-gronden te gaan vooraleer hij aan de techniek begint.
 
 
-Voor je één regel boekt, doorloop je vijf parallelle toetsen die elk de [[consolidatieverplichting]] kunnen wegnemen. Werk je ze niet in volgorde af, dan riskeer je tijd te steken in een methode-keuze terwijl de moeder dankzij een vrijstelling helemaal niet hoeft te consolideren.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Stap | Toets | Welk concept? | Bij 'ja' | Bij 'nee' |
 |---|---|---|---|---|
@@ -132,7 +131,7 @@ _Bouwt op_: [[consolidatieverplichting]] · [[moedervennootschap]] · [[controle
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Voor je een methode kiest of een cijfer aanpakt, moet je een relatie kwalificeren. Je leert toepassen welk niveau van invloed je voor je hebt — [[exclusieve-controle]], [[gezamenlijke-controle]] of [[invloed-van-betekenis]] — en welke actor (dochter, gemeenschappelijke dochter, geassocieerde) daaruit volgt. Let bij elke casus op het scharnier tussen [[controle]] en [[invloed-van-betekenis]]: de eerste maakt iemand moeder en triggert consolidatie, de tweede leidt tot vermogensmutatie zonder consolidatieplicht.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[controle|Controle]] · `begrip`
 - [[moedervennootschap|Moedervennootschap]] · `begrip`
@@ -148,7 +147,7 @@ Voor je een methode kiest of een cijfer aanpakt, moet je een relatie kwalificere
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Je leert stap voor stap aftoetsen of de [[consolidatieverplichting]] bij een concrete vennootschap rust: heeft ze rechtspersoonlijkheid, oefent ze controle uit, en valt ze niet onder een vrijstelling als [[vrijstelling-subconsolidatie|subconsolidatie]] of [[groep-van-beperkte-omvang|groep van beperkte omvang]]? De procedure leidt je door de gatekeeper-toetsen vóór je aan techniek toekomt.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/bepalen-consolidatieverplichting|→ Volledige procedure]]
 
@@ -156,7 +155,7 @@ Je leert stap voor stap aftoetsen of de [[consolidatieverplichting]] bij een con
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Eens de plicht vaststaat, baken je de [[consolidatiekring]] af: welke entiteiten neem je integraal, evenredig of via vermogensmutatie op, en welke laat je gemotiveerd buiten de kring? Je leert toepassen welke gronden tot uitsluiting of weglating leiden en hoe je dat verantwoordt in de toelichting.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/afbakenen-consolidatiekring|→ Volledige procedure]]
 
@@ -164,7 +163,7 @@ Eens de plicht vaststaat, baken je de [[consolidatiekring]] af: welke entiteiten
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Stap voor stap leg je elke deelneming langs drie filters: bestaat er [[exclusieve-controle]], [[gezamenlijke-controle]] of slechts [[invloed-van-betekenis]]? Werk je met de wettelijke drempelvermoedens, dan kan een casus snel kantelen — een 50/50-aandeelhouderschap mét vennoten-overeenkomst leidt tot een andere kwalificatie dan zonder overeenkomst.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/kwalificeren-relatie-deelneming|→ Volledige procedure]]
 
@@ -172,7 +171,7 @@ Stap voor stap leg je elke deelneming langs drie filters: bestaat er [[exclusiev
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Bij een keten met meerdere schakels moet je twee verschillende sommen kunnen uitvoeren: [[controlepercentage]] (stemrechten — niet vermenigvuldigen door een gecontroleerde schakel) en [[belangenpercentage]] (kapitaalaandeel — wel doorlopend vermenigvuldigen). Je leert toepassen welke reken-conventie geldt en wanneer een keten "breekt" omdat er onderweg geen controle is.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/berekenen-controle-en-belangenpercentage|→ Volledige procedure]]
 
@@ -180,7 +179,7 @@ Bij een keten met meerdere schakels moet je twee verschillende sommen kunnen uit
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Drie technieken vullen de geconsolideerde jaarrekening: [[integrale-consolidatie]] voor dochters, [[evenredige-consolidatie]] voor gemeenschappelijke dochters en de [[vermogensmutatiemethode]] voor geassocieerden — met [[horizontale-consolidatie]] als vierde variant binnen een consortium. De keuze ligt vast in KB WVV, dus je hoeft niet te kiezen op basis van smaak — je past de juiste techniek toe op basis van de kwalificatie die je hierboven al maakte.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[integrale-consolidatie|Integrale consolidatie]] · `cluster`
 - [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `cluster`
@@ -192,7 +191,7 @@ Drie technieken vullen de geconsolideerde jaarrekening: [[integrale-consolidatie
 Een vergelijkende synthese binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) die de vier consolidatietechnieken — integraal, evenredig, equity en buitenkring — naast elkaar plaatst. Doel: de stagiair laten zien wélke techniek bij welke relatie hoort en wat het verschil oplevert in de gepresenteerde groepscijfers.
 
 
-Nu je weet hoe je een relatie kwalificeert, koppel je elke kwalificatie aan één techniek. Deze matrix toont in één oogopslag hoe activa, passiva en derden-belangen verschillend op de balans landen naargelang de gekozen methode — handig om te snel te kantelen tussen [[integrale-consolidatie]] en [[evenredige-consolidatie]] in een examencasus.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Methode | Voorwaarde | Op balans | Belangen van derden | Consolidatieverschil |
 |---|---|---|---|---|
@@ -228,7 +227,7 @@ _Bouwt op_: [[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[vermo
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Per entiteit in de [[consolidatiekring]] beslis je welke techniek je toepast — niet vanuit voorkeur, maar vanuit de kwalificatie die je daarvoor maakte. Een aandachtspunt is een [[gemeenschappelijke-dochteronderneming|gemeenschappelijke dochter]] die los van de groep opereert: dan kantelt de evenredige consolidatie naar [[vermogensmutatiemethode|vermogensmutatie]].
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/kiezen-consolidatiemethode|→ Volledige procedure]]
 
@@ -236,7 +235,7 @@ Per entiteit in de [[consolidatiekring]] beslis je welke techniek je toepast —
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Voor je de cijfers van de dochters optelt, harmoniseer je hun waarderingsregels: dezelfde [[uniforme-waarderingsregels-consolidatie|regels die de moeder enkelvoudig hanteert]] gelden ook geconsolideerd, behoudens uitzonderingen die je moet motiveren. Je leert toepassen welke correcties op de enkelvoudige cijfers nodig zijn en hoe je afwijkingen in de toelichting verantwoordt.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/toepassen-uniforme-waarderingsregels|→ Volledige procedure]]
 
@@ -244,7 +243,7 @@ Voor je de cijfers van de dochters optelt, harmoniseer je hun waarderingsregels:
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Bij elke nieuwe dochter werk je een [[eerste-consolidatie]] uit: je vergelijkt wat de moeder voor de aandelen betaalde met haar pro-rata aandeel in het eigen vermogen op aankoopdatum en je verklaart het verschil — eerst via stille meer- of minderwaarden op identificeerbare activa, dan residueel als [[consolidatieverschil]]. Werk de stappen netjes na, want elke afschrijving en elke toerekening dragen door naar de volgende boekjaren.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/uitvoeren-eerste-consolidatie|→ Volledige procedure]]
 
@@ -252,7 +251,7 @@ Bij elke nieuwe dochter werk je een [[eerste-consolidatie]] uit: je vergelijkt w
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Je leert [[intragroep-eliminaties|onderlinge stromen]] systematisch wegwerken — vorderingen tegen schulden, opbrengsten tegen kosten, niet-gerealiseerde winsten op voorraden of vaste activa — en het deel van het eigen vermogen en resultaat dat aan andere aandeelhouders toebehoort afzonderen als [[minderheidsbelangen|belangen van derden]]. Werk consequent met het [[belangenpercentage]] om dat derden-deel correct te berekenen.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/uitvoeren-intragroep-eliminaties|→ Volledige procedure]]
 
@@ -260,7 +259,7 @@ Je leert [[intragroep-eliminaties|onderlinge stromen]] systematisch wegwerken �
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Bij elke [[wijziging-consolidatiekring|kring-wijziging]] — een nieuwe verwerving, een verkoop, een [[step-acquisition|trapsgewijze opbouw]] of een kantel-moment van geassocieerde naar dochter — moet je de juiste verwerking toepassen: pas je een nieuwe eerste consolidatie toe, herwaardeer je het al gehouden belang, of werk je de overgang tussen technieken uit? Stap voor stap leg je vast wat er op aankoop- en op afsluitdatum gebeurt.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/verwerken-wijziging-consolidatiekring|→ Volledige procedure]]
 
@@ -268,7 +267,7 @@ Bij elke [[wijziging-consolidatiekring|kring-wijziging]] — een nieuwe verwervi
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Een groep publiceert niet enkel cijfers: de [[geconsolideerde-jaarrekening]] gaat samen met het [[geconsolideerd-jaarverslag]], het narratieve stuk waarin het bestuursorgaan de evolutie, risico's en vooruitzichten van de groep duidt. Je leert herkennen welke informatie waar thuishoort — getallen in de geconsolideerde jaarrekening, toelichting en context in het jaarverslag — en welke afsluitings- en publicatieregels gelden.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]] · `begrip`
 - [[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]] · `begrip`
@@ -277,14 +276,14 @@ Een groep publiceert niet enkel cijfers: de [[geconsolideerde-jaarrekening]] gaa
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Naast het Belgische KB WVV-regime bestaat het [[ifrs-consolidatieraamwerk|IFRS-raamwerk]] dat dezelfde vragen — wanneer consolideren, welke techniek, hoe omgaan met een gezamenlijke regeling — beantwoordt met een eigen logica via IFRS 3, 10, 11 en 12. Je leert herkennen wanneer dit raamwerk relevant wordt (typisch bij beursgenoteerde groepen of dochters die rapporteren onder IFRS) en op welke punten het afwijkt van de Belgische regeling.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]] · `begrip`
 
 
 ## Synthese-stappenplan
 
-Voor een groepsstructuur werk je end-to-end in deze volgorde. Toets eerst of er een [[consolidatieverplichting]] is — rechtspersoonlijkheid, controle, geen vrijstelling onder [[groep-van-beperkte-omvang|beperkte omvang]] of [[vrijstelling-subconsolidatie|subconsolidatie]]. Baken vervolgens de [[consolidatiekring]] af en kwalificeer elke deelneming via [[exclusieve-controle]], [[gezamenlijke-controle]] of [[invloed-van-betekenis]] — en koppel de kwalificatie aan een techniek. Voor ketens bereken je het [[controlepercentage]] (niet doorvermenigvuldigen door een gecontroleerde schakel) en het [[belangenpercentage]] (wel doorlopend vermenigvuldigen). Harmoniseer dan de waarderingsregels op de enkelvoudige cijfers. Werk de [[eerste-consolidatie]] uit voor nieuw verworven entiteiten en boek het residu als [[consolidatieverschil]]. Elimineer alle [[intragroep-eliminaties|onderlinge stromen]] en zonder het [[minderheidsbelangen|aandeel van derden]] af. Tot slot stel je de geconsolideerde jaarrekening en het jaarverslag op en motiveer je elke afwijking in de toelichting.
+<!-- TODO: Opus-glue synthese -->
 
 ## Cheatsheet
 
@@ -331,142 +330,69 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-Het examen toetst dit programmaonderdeel vooral via korte definitievragen (post-naam, drempelwaarde, maximale afwijking) en via diagram-casussen waarbij je controle- en belangenpercentages moet uitrekenen en de juiste techniek per entiteit kiezen. Verwacht dus dat één casus je dwingt om [[controlepercentage]] en [[belangenpercentage]] gescheiden te denken — en dat een vraag over [[consolidatieverschil]] zowel om de definitie als om de oorzaken kan vragen.
+<!-- TODO: Opus-glue examenfocus -->
 
-### Analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2013-1 vraag 3 (tier B)
-> Vraag 3 … / 3 punten Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochterondernemingen moet worden vermeld. Antwoord
+> [!question]- Vermelding van minderheidsbelangen in de geconsolideerde resultatenrekening
+> *Examen 2013-1 · PO 1.4*
 >
-> > [!success]- Antwoord-motivering
-> > Onder de post **"Aandeel van derden in het resultaat"** in de geconsolideerde resultatenrekening. ⚖️
-> > 
-> > - **Berekening van het bedrag**: (1 − belangenpercentage van de moeder) × resultaat van het boekjaar van de dochter. ⚖️
-> > - **Aard van de post**: het is een **resultaattoewijzende post**, geen kost en geen opbrengst — ze wordt afzonderlijk getoond ná het 'Resultaat van het boekjaar' om het deel dat aan de groep toekomt te scheiden van het deel dat aan minderheidsaandeelhouders toekomt. ⚖️
-> > - **Methode-conditionaliteit**: deze post bestaat **uitsluitend bij integrale consolidatie**. Bij evenredige consolidatie wordt het derden-deel niet opgenomen (geen aparte post); bij vermogensmutatie zit alleen het pro-rata moeder-aandeel in de balans (idem geen aparte post). De vraagtekst specificeert 'volledig geconsolideerde dochterondernemingen' → impliciet integrale consolidatie. ⚖️
-> > - **Schemacode**: de wet definieert geen vaste Romeinse-cijfer-code voor RR-posten in het geconsolideerd schema — enkel de post-naam. (Vergelijk met de balans, waar 'Belangen van derden' wel in een vaste post X. zit aan passiefzijde.) Dus 'post-naam' = 'post-aanduiding'. 🤖
-> > 
-> > _Grondslag: KB WVV art. 3:137 (afzondering derden-resultaat) jo. KB WVV art. 3:107 (vormvereisten geconsolideerde jaarrekening — afzonderlijke vermelding van belangen van derden zowel in balans als in resultatenrekening)._
-
-
-### Analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2013-1 vraag 4 (tier B)
-> Vraag 4 … / 3 punten De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ? Antwoord INTERNE CONTROLE EN ACCOUNTANTSONDERZOEK 50 PUNTEN
+> Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt u onder welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochterondernemingen moet worden vermeld.
 >
-> > [!success]- Antwoord-motivering
-> > **Maximaal 3 maanden** — vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening. ⚖️
-> > 
-> > **Voorwaarde voor toepassing**: deze afwijking is alleen toegestaan wanneer het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van een groepsvennootschap op de afsluitingsdatum van de geconsolideerde jaarrekening op te nemen, of wanneer dat de opstelling en publicatie van de geconsolideerde jaarrekening uitermate zou vertragen. ⚖️
-> > 
-> > **Verplichte motivering**: de afwijking moet gemotiveerd worden in de toelichting bij de geconsolideerde jaarrekening. ⚖️
-> > 
-> > _Grondslag: KB WVV art. 3:110, tweede lid: 'Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen.'_
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-
-### Analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2013-2 vraag 4 (tier B)
-> Vraag 4 … / 10 punten
-> 
-> a) Wat is een positief consolidatieverschil ? Antwoord … / 2 punten
-> 
-> b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ? Antwoord … / 8 punten
-> 
-> INTERNE CONTROLE EN ACCOUNTANTSONDERZOEK 50 PUNTEN
+> [!question]- Maximale afwijking afsluitingsdatum geconsolideerde jaarrekening
+> *Examen 2013-1 · PO 1.4*
 >
-> > [!success]- Antwoord-motivering
-> > Combinatievraag — definitie + opsomming. Zie subvragen[].antwoord_motivering per deelvraag.
-
-
-### Analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2014-1 vraag 3 (tier B)
-> Vraag 3 … / 3 punten De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ? Antwoord
+> De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?
 >
-> > [!success]- Antwoord-motivering
-> > **Maximaal 3 maanden** — vóór of na de afsluitingsdatum van de geconsolideerde jaarrekening. ⚖️
-> > 
-> > **Voorwaarde voor toepassing**: deze afwijking is alleen toegestaan wanneer het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van een groepsvennootschap op de afsluitingsdatum van de geconsolideerde jaarrekening op te nemen, of wanneer dat de opstelling en publicatie van de geconsolideerde jaarrekening uitermate zou vertragen. ⚖️
-> > 
-> > **Verplichte motivering**: de afwijking moet gemotiveerd worden in de toelichting bij de geconsolideerde jaarrekening. ⚖️
-> > 
-> > _Grondslag: KB WVV art. 3:110, tweede lid: 'Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen.'_
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-
-### Analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2014-1 vraag 4 (tier B)
-> Vraag 4 … / 9 punten
-> Vul onderstaande tabel aan op basis van volgende gegevens.
-> M
-> 70 % 30 %
-> 60 % 20 %
-> A B C
-> Antwoord
-> 
-> |  | CONTROLEPERCENTAGE | BELANGENPERCENTAGE | CONSOLIDATIEMETHODE |
-> |---|---|---|---|
-> | M IN A |  |  |  |
-> | M IN B |  |  |  |
-> | M IN C |  |  |  |
-> 
-> INTERNE CONTROLE 25 PUNTEN
+> [!question]- Consolidatieverschillen: definitie en oorzaken
+> *Examen 2013-2 · PO 1.4*
 >
-> > [!success]- Antwoord-motivering
-> > Op basis van de structuur in de vraagtekst (gestructureerde tabel + diagram):
-> > 
-> > **Aandeelhoudersketen** (interpretatie van het diagram "M / 70% 30% / 60% 20% / A B C"):
-> > - M heeft directe deelnemingen: **70 % in A** en **30 % in B**
-> > - A heeft een deelneming van **60 % in C**
-> > - B heeft een deelneming van **20 % in C**
-> > 
-> > **Toepassing van de regels** (zie [[berekenen-controle-en-belangenpercentage]] + [[kiezen-consolidatiemethode]] + [[kwalificeren-relatie-deelneming]]):
-> > 
-> > ### M in A
-> > - **Controlepercentage**: 70 % directe stemrechten > 50 % → **exclusieve controle in rechte** ⚖️
-> > - **Belangenpercentage**: 70 % (direct) ⚖️
-> > - **Consolidatiemethode**: **integrale consolidatie** (dochter onder exclusieve controle). Belangen van derden = 30 %. ⚖️
-> > 
-> > ### M in B
-> > - **Controlepercentage**: 30 % directe stemrechten — geen exclusieve controle (< 50 %), maar ≥ 20 % → **vermoeden van invloed van betekenis** (geassocieerde onderneming) ⚖️
-> > - **Belangenpercentage**: 30 % (direct) ⚖️
-> > - **Consolidatiemethode**: **vermogensmutatie** (equity method) ⚖️
-> > 
-> > ### M in C (via twee ketens)
-> > - **Keten via A**: M → 70 % → A → 60 % → C. M heeft exclusieve controle over A → de **volledige stemrechtpercentage van A in C telt** (controlepercentage wordt NIET vermenigvuldigd langs een keten van exclusieve controle). ⚖️ Controlebijdrage = **60 %**.
-> > - **Keten via B**: M → 30 % → B → 20 % → C. M heeft geen exclusieve controle over B (slechts invloed van betekenis) → **de keten breekt**: B's 20 % in C telt **niet** mee voor M's controlepercentage. ⚖️
-> > - **Controlepercentage**: 60 % (via A alleen) → exclusieve controle → **integrale consolidatie** ⚖️
-> > - **Belangenpercentage**: 70 % × 60 % + 30 % × 20 % = 42 % + 6 % = **48 %** (belang telt economisch via beide ketens, ook door geassocieerde). ⚖️
-> > - **Consolidatiemethode**: **integrale consolidatie** (omdat controle bestaat); belangen van derden = 52 %. ⚖️
-> > 
-> > ### Resultaat-tabel
-> > 
-> > | | Controlepercentage | Belangenpercentage | Consolidatiemethode |
-> > |---|---:|---:|---|
-> > | M in A | 70 % | 70 % | Integrale consolidatie |
-> > | M in B | 30 % | 30 % | Vermogensmutatie |
-> > | M in C | 60 % | 48 % | Integrale consolidatie |
-> > 
-> > _Grondslag: WVV art. 1:14 e.v. (exclusieve controle), KB WVV art. 3:96 (vermoeden invloed van betekenis), KB WVV art. 3:124 (integrale consolidatie), KB WVV art. 3:141 (vermogensmutatie). Voor de keten-rekenregels: vakdoctrinaire toepassing op basis van [[controlepercentage]] §rekenregel-keten en [[belangenpercentage]] §berekening-keten._
-> > 
-> > ⚠️ **Interpretatie van het diagram**: de vraagtekst toont een visueel boom-diagram met percentages dat niet als typed-tabel kon worden geëxtracteerd (zie record_gap_report — figuur-detectie is ADR-021 v2.1-scope). De interpretatie hierboven veronderstelt M moeder, A en B dochters, C kleindochter via A én B. Een alternatieve interpretatie (4 directe deelnemingen A, B, C, D) is niet consistent met de invul-tabel (die enkel M in A, B, C bevat). 🤖
-
-
-### Analyse en kritische beoordeling van de jaarrekening 📃
-
-> [!question]- ITAA 2015-1 vraag 4 (tier B)
-> Vraag 4 … / 6 punten
-> 
-> a) Wat is een positief consolidatieverschil ? Antwoord … / 2 punten
-> 
-> b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ? Antwoord … / 4 punten
-> 
-> INTERNE CONTROLE 25 PUNTEN
+> Wat is een positief consolidatieverschil?
 >
-> > [!success]- Antwoord-motivering
-> > Combinatievraag — definitie + opsomming. Zie subvragen[].antwoord_motivering per deelvraag.
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Geef de vier voornaamste oorzaken van positieve consolidatieverschillen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
+> [!question]- Geconsolideerde jaarrekening — maximale afwijking afsluitingsdatum
+> *Examen 2014-1 · PO 1.4*
+>
+> > De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken.
+>
+> Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Consolidatie — controlepercentage, belangenpercentage en consolidatiemethode bepalen
+> *Examen 2014-1 · PO 1.4*
+>
+> > Vul onderstaande tabel aan op basis van volgende gegevens. Groepsstructuur: M heeft 70% in A en 30% in B. A heeft 60% in B. B heeft 20% in C. (zie schema in PNG)
+>
+> Vul voor M in A, M in B en M in C telkens het controlepercentage, het belangenpercentage en de consolidatiemethode in.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Positief consolidatieverschil: definitie en oorzaken
+> *Examen 2015-1 · PO 1.4*
+>
+> Wat is een positief consolidatieverschil?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Geef de vier voornaamste oorzaken van positieve consolidatieverschillen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
 
 ## Competentie-index

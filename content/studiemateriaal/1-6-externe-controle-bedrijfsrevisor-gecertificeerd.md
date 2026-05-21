@@ -28,12 +28,14 @@ gerelateerde_concepten:
 - communicatie-met-management-governance
 - communicatie-tekortkomingen-interne-beheersing
 - communiceren-met-bestuur-en-auditcomite
+- confirmatiebrieven
 - continuiteitsveronderstelling-audit
 - contractuele-beoordelingsopdracht
 - contractuele-controleopdracht
 - controledocumentatie
 - controleoordeel-types
 - controleverslag-elementen
+- controleverslag-omzetting
 - delegatie-en-supervisie-audit
 - documenteren-auditdossier
 - effectennorm-opdracht
@@ -61,6 +63,7 @@ gerelateerde_concepten:
 - materieel-belang-audit
 - met-governance-belaste-personen
 - omzetting-vennootschap-opdracht
+- omzetting-vennootschap
 - onafhankelijkheid-externe-accountant
 - ontbinding-vereffening-opdracht
 - ontdekkingsrisico
@@ -94,7 +97,7 @@ gerelateerde_concepten:
 - werkprogramma-audit
 - wettelijke-controleopdracht-commissaris
 - wettelijke-verklaring-gecertificeerd-accountant
-gegenereerd_op: '2026-05-18'
+gegenereerd_op: '2026-05-21'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -118,21 +121,21 @@ gegenereerd_op: '2026-05-18'
 
 ## Leesgids
 
-Deze minicursus volgt de logica van een opdracht: eerst opdrachttype + wettelijk kader, dan de vier fasen van de [[auditcyclus-fasen-synthese|auditcyclus]] van aanvaarding tot verslag, tot slot deontologie, antiwitwas en communicatie. De twee vroege synthesetabellen — [[opdrachttypes-zekerheidsniveaus-synthese|opdrachttypes]] en fasen — zijn je mentale kapstok. Competentie-secties leggen procedure vast; thematische secties leveren de begripsbouwstenen.
+<!-- TODO: Opus-glue leesgids -->
 
 ## Waarom dit programmaonderdeel telt
 
-Externe controle is het paradepaardje van de assurance-keten: een derde verschaft gebruikers van de jaarrekening een onderbouwd oordeel. Op integratieniveau moet je in een complexe casus opdrachtsoort kiezen, risico's calibreren, instrumenten inzetten en uit de [[assurance-informatie|evidence]] een coherent oordeel destilleren. Twee pijlers dragen alles: het [[auditrisicomodel|auditrisicomodel]] bepaalt hoeveel werk nodig is, [[onafhankelijkheid-externe-accountant|onafhankelijkheid]] en [[professioneel-kritische-instelling|professioneel-kritische instelling]] bepalen of dat werk geloofwaardig is. Een GA beweegt zich in dezelfde normenruimte als de [[bedrijfsrevisor|bedrijfsrevisor]] — alleen het commissarismandaat blijft exclusief voor laatstgenoemde.
+<!-- TODO: Opus-glue waarom_po -->
 
 ## Waarom externe controle? Stakeholders, vertrouwen en de assurance-keten
 
-De financiële overzichten worden opgesteld door precies die partij over wiens prestaties ze rapporteren. Een onafhankelijke beroepsbeoefenaar die [[redelijke-mate-van-zekerheid|redelijke]] of [[beperkte-mate-van-zekerheid|beperkte zekerheid]] verschaft, doorbreekt die informatie-asymmetrie. Het zekerheidsniveau dat je levert, bepaalt de vorm van je oordeel — niet andersom.
+<!-- TODO: Opus-glue oriëntatie -->
 
 ## Wettelijk kader en normenhiërarchie: Wet ITAA, KB plichtenleer, ITAA-normen, ISA en IESBA
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Het normenstelsel werkt in lagen: wet en KB plichtenleer als basis, daarop de ITAA-normen — [[algemene-controlenorm-accountant|algemene controlenorm]] én [[kmo-controlenorm-accountant|KMO-controlenorm]] — en de [[iesba-code-of-ethics|IESBA-code]] als ethische bovenbouw. Voor het commissarismandaat schakelt het veld over naar de ISA-set; voor KMO-werk blijft de KMO-controlenorm het anker. In een casus moet je bepalen welke norm dwingend is en welke aanvullend.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[algemene-controlenorm-accountant|Algemene controlenorm voor de externe accountant]] · `cluster`
 - [[kmo-controlenorm-accountant|KMO-controlenorm voor de externe accountant]] · `cluster`
@@ -145,7 +148,7 @@ Het normenstelsel werkt in lagen: wet en KB plichtenleer als basis, daarop de IT
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-De [[bedrijfsrevisor|bedrijfsrevisor]] heeft het monopolie op de wettelijke jaarrekeningcontrole; [[gecertificeerd-accountant-ga|GA]] en revisor delen daarnaast een aantal door wet voorbehouden opdrachten ([[gedeelde-wettelijk-voorbehouden-opdracht|gedeeld monopolie]]). De [[met-governance-belaste-personen|met governance belaste personen]] zijn aan cliëntzijde de formele tegenpartij; grootte-classificatie ([[kleine-vennootschap|klein]] tot [[public-interest-entity|PIE]]) bepaalt welke regels strenger of soepeler zijn.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[bedrijfsrevisor|Bedrijfsrevisor]] · `autoriteit`
 - [[gecertificeerd-accountant-ga|Gecertificeerd accountant (GA)]] · `autoriteit`
@@ -159,7 +162,7 @@ De [[bedrijfsrevisor|bedrijfsrevisor]] heeft het monopolie op de wettelijke jaar
 Deze synthese vergelijkt de negen mogelijke opdrachttypes voor een GA of bedrijfsrevisor op één matrix: van geen zekerheid (samenstelling) tot redelijke zekerheid (controle), plus de WVV-event-opdrachten (fusie, splitsing, omzetting, effecten, ontbinding) en de gerechtelijke/private expertise. De keuze tussen de types is GEEN cliëntvoorkeur — ze wordt bepaald door (1) wettelijke verplichting + type event, (2) cliëntbehoefte, en (3) toepasselijke norm. Het verschil tussen positief oordeel en negatieve conclusie vloeit voort uit het zekerheidsniveau.
 
 
-In een casus is het type bepalen altijd je eerste zet: pas dan ligt vast welke norm geldt en welk soort uitspraak je doet. Lees de matrix verticaal — zekerheidsniveau naar oordeelsvorm — en horizontaal — trigger naar toepasselijke norm.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Opdrachttype | Zekerheidsniveau | Oordeel/Conclusie-vorm | Toepasselijke norm | Wie kan uitvoeren? | Typische triggerwoorden |
 |---|---|---|---|---|---|
@@ -203,7 +206,7 @@ _Bouwt op_: [[contractuele-controleopdracht]] · [[contractuele-beoordelingsopdr
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Niet elke cliënt vraagt om de volle [[redelijke-mate-van-zekerheid|redelijke zekerheid]]. Een [[contractuele-beoordelingsopdracht|beoordelingsopdracht]] geeft [[beperkte-mate-van-zekerheid|beperkte zekerheid]] met negatieve conclusie; een [[samenstellingsopdracht|samenstellingsopdracht]] verschaft geen zekerheid. Het [[beoordelingsverslag-elementen|beoordelingsverslag]] heeft bovendien een eigen rubrieken-stramien.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[redelijke-mate-van-zekerheid|Redelijke mate van zekerheid]] · `begrip`
 - [[beperkte-mate-van-zekerheid|Beperkte mate van zekerheid]] · `begrip`
@@ -214,7 +217,7 @@ Niet elke cliënt vraagt om de volle [[redelijke-mate-van-zekerheid|redelijke ze
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Bepaalde vennootschapsrechtelijke events triggeren een eigen voorbehouden opdracht: [[fusie-splitsing-controleopdracht|fusie of splitsing]], [[omzetting-vennootschap-opdracht|omzetting]], [[effectennorm-opdracht|effectenverrichting]], [[ontbinding-vereffening-opdracht|ontbinding-vereffening]]. [[gerechtelijke-en-private-expertise|Gerechtelijke en private expertise]] is voorbehouden aan de GA; de [[wettelijke-verklaring-gecertificeerd-accountant|wettelijke verklaring]] is het generieke vehikel voor GA-conclusies bij specifieke wettelijke triggers.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[ontbinding-vereffening-opdracht|Ontbinding-vereffening opdracht van de gecertificeerd accountant]] · `cluster`
 - [[fusie-splitsing-controleopdracht|Verslag bij fusie of splitsing van vennootschappen]] · `cluster`
@@ -227,7 +230,7 @@ Bepaalde vennootschapsrechtelijke events triggeren een eigen voorbehouden opdrac
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-De aanvaardingsfase test [[randvoorwaarden-controle|randvoorwaarden]], [[onafhankelijkheid-externe-accountant|onafhankelijkheid]] en — bij overname — de [[opvolging-voorganger-accountant|opvolging van de voorganger]]; pas daarna giet je de afspraken in een [[opdrachtbrief-accountant|opdrachtbrief]]. Stap voor stap doorlopen, want examen-casussen toetsen graag op een ontbrekende voortoets.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/aanvaarden-audit-opdracht|→ Volledige procedure]]
 
@@ -236,7 +239,7 @@ De aanvaardingsfase test [[randvoorwaarden-controle|randvoorwaarden]], [[onafhan
 De auditcyclus structureert de hele externe-controleopdracht in vier opeenvolgende, deels iteratieve fasen: aanvaarding, planning en risico-inschatting, uitvoering, oordeel en verslag. Deze synthese vergelijkt per fase het doel, de kern-output en de norm-referentie zodat de stagiair een mentaal model heeft waarop alle specifieke records (planning, werkprogramma, gegevensgerichte werkzaamheden, oordeelstypes, verslag-elementen) gehangen worden.
 
 
-Onthoud dat fase 3 terugkoppelt naar fase 2 zodra je tijdens uitvoering nieuwe risico's vindt — de cyclus is opeenvolgend maar niet star. Gebruik deze fasen-synthese als referentie wanneer een casus op één fase inzoomt.
+<!-- TODO: Opus-glue synthese-intro -->
 
 | Fase | Doel | Kern-output | Norm-referentie |
 |---|---|---|---|
@@ -263,7 +266,7 @@ _Bouwt op_: [[auditplanning]] · [[auditstrategie]] · [[werkprogramma-audit]] �
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-[[kennis-van-onderneming-omgeving|Kennis van de onderneming en haar omgeving]] is de fundering van de hele [[risico-inschatting-audit|risico-inschatting]]. Geleidelijk stap je van externe omgeving naar interne processen en markeer je verhoogde alertheid voor [[verbonden-partijen-audit|verbonden partijen]] of [[continuiteitsveronderstelling-audit|continuïteit]].
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/verwerven-kennis-van-clientonderneming-audit|→ Volledige procedure]]
 
@@ -271,7 +274,7 @@ _Bouwt op_: [[auditplanning]] · [[auditstrategie]] · [[werkprogramma-audit]] �
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Het [[auditrisicomodel|auditrisicomodel]] dwingt je [[inherent-risico|inherent risico]] en [[intern-beheersingsrisico|beheersingsrisico]] te wegen om je [[ontdekkingsrisico|ontdekkingsrisico]] doelbewust te calibreren. Parallel bepaal je [[materieel-belang-audit|materieel belang]] op overall- en performance-niveau, met extra aandacht voor [[significant-risico-audit|significante risico's]]. Stap voor stap leg je risicomatrix per [[beweringen-audit|bewering]] vast — die calibratie stuurt al je controle-instrumenten.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/uitvoeren-risico-inschatting-en-materialiteit-audit|→ Volledige procedure]]
 
@@ -279,7 +282,7 @@ Het [[auditrisicomodel|auditrisicomodel]] dwingt je [[inherent-risico|inherent r
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-[[fraude-versus-fout|Fraude verschilt fundamenteel van fout]] door het opzettelijke karakter. De [[fraudedriehoek|fraude-driehoek]] (motief, gelegenheid, rationalisatie) geeft je het detectie-raamwerk; de [[fraudetypologie-acfe|ACFE-typologie]] structureert wat je tegenkomt en de [[frauderisicofactoren|ISA 240-risicofactoren]] zijn de signalen die je actief moet zoeken.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[fraude-versus-fout|Fraude versus fout — onderscheid in audit en interne controle]] · `synthese`
 - [[fraudedriehoek|Fraude-driehoek (motief – gelegenheid – rationalisatie)]] · `begrip`
@@ -290,7 +293,7 @@ Het [[auditrisicomodel|auditrisicomodel]] dwingt je [[inherent-risico|inherent r
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Planning werkt op twee lagen: de [[auditstrategie|auditstrategie]] legt scope, timing en richting vast; het [[werkprogramma-audit|werkprogramma]] vertaalt dat per bewering naar concrete werkzaamheden. Vanuit risico-inschatting en materialiteit bouw je het stap voor stap op in het [[controledocumentatie|dossier]].
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-auditstrategie-en-werkprogramma|→ Volledige procedure]]
 
@@ -298,7 +301,7 @@ Planning werkt op twee lagen: de [[auditstrategie|auditstrategie]] legt scope, t
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-De auditor heeft een gesloten instrumentarium: [[toetsing-interne-beheersing|test of controls]], [[gegevensgerichte-werkzaamheden|gegevensgerichte werkzaamheden]], [[cijferanalyses-audit|cijferanalyses]], [[externe-bevestiging-audit|externe bevestigingen]], [[steekproef-audit|steekproeven]] en de [[schriftelijke-bevestiging-management|management representation letter]] aan het einde. Welke je inzet en hoe zwaar, hangt af van het risico per [[beweringen-audit|bewering]]; wat ze samen opleveren is je [[assurance-informatie|assurance-informatie]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[assurance-informatie|Assurance-informatie (controle-informatie)]] · `begrip`
 - [[toetsing-interne-beheersing|Toetsing van interne beheersing (test of controls)]] · `cluster`
@@ -313,7 +316,7 @@ De auditor heeft een gesloten instrumentarium: [[toetsing-interne-beheersing|tes
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Per [[beweringen-audit|bewering]] kies je een instrument-mix die je [[ontdekkingsrisico|ontdekkingsrisico]] tot een aanvaardbaar laag niveau terugbrengt. Bij hoog inherent risico of zwakke IC schuif je naar substantief; bij betrouwbare IC kan je deels op test of controls steunen.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/selecteren-en-uitvoeren-controle-instrumenten-audit|→ Volledige procedure]]
 
@@ -321,7 +324,7 @@ Per [[beweringen-audit|bewering]] kies je een instrument-mix die je [[ontdekking
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Drie gebieden vergen specifieke aandacht: [[boekhoudkundige-schattingen-audit|boekhoudkundige schattingen]] (schattingsonzekerheid + assumpties toetsen), [[specifieke-kwesties-automatisering-audit|automatisering]] (risico verschuift naar IT-controles), en onder strikte voorwaarden [[gebruik-werk-interne-auditors-audit|steunen op het werk van interne auditors]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[boekhoudkundige-schattingen-audit|Boekhoudkundige schattingen (audit-perspectief)]] · `begrip`
 - [[specifieke-kwesties-automatisering-audit|Specifieke kwesties bij automatisering (audit-perspectief)]] · `begrip`
@@ -331,7 +334,7 @@ Drie gebieden vergen specifieke aandacht: [[boekhoudkundige-schattingen-audit|bo
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-[[controledocumentatie|Controledocumentatie]] vraagt om een permanent dossier plus een lopend dossier per opdracht, met alle [[werkprogramma-audit|werkprogramma-stappen]], evidence en conclusies traceerbaar vastgelegd. Bewaarregels en samenstellingstermijn maken deel uit van de discipline.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/documenteren-auditdossier|→ Volledige procedure]]
 
@@ -339,7 +342,7 @@ Drie gebieden vergen specifieke aandacht: [[boekhoudkundige-schattingen-audit|bo
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Kwaliteit werkt op drie lagen: het [[intern-kwaliteitsmanagement-kantoor|kantoorbrede systeem]], de [[kwaliteitsbeheersing-opdrachtniveau|opdrachtbeheersing]] van de opdrachtpartner met [[delegatie-en-supervisie-audit|delegatie en supervisie]], en — voor risicovolle of PIE-opdrachten — een aparte [[opdrachtgerichte-kwaliteitsbeoordeling|EQR-review]]. Examenvragen testen vaak welke laag op welk niveau zit.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[controledocumentatie|Controledocumentatie / controledossier]] · `cluster`
 - [[kwaliteitsbeheersing-opdrachtniveau|Kwaliteitsbeheersing op opdrachtniveau]] · `cluster`
@@ -351,7 +354,7 @@ Kwaliteit werkt op drie lagen: het [[intern-kwaliteitsmanagement-kantoor|kantoor
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Het oordeel kent twee dimensies: [[regelmatigheid-jaarrekening-audit|regelmatigheid]] (conformiteit met het KB WVV-stelsel) en [[getrouw-beeld-controle|getrouw beeld]] — beide moeten kloppen. Daarbovenop houd je de [[continuiteitsveronderstelling-audit|continuïteitsveronderstelling]] tegen het licht en weeg je elke vaststelling tegen het [[materieel-belang-audit|materieel belang]].
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/beoordelen-getrouw-beeld-en-regelmatigheid|→ Volledige procedure]]
 
@@ -359,7 +362,7 @@ Het oordeel kent twee dimensies: [[regelmatigheid-jaarrekening-audit|regelmatigh
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-De [[controleoordeel-types|oordeelsmatrix]] werkt op twee assen: bron (afwijking of scope-beperking) en intensiteit (geïsoleerd of diepgaand). Daaruit volgen de varianten van [[aangepast-oordeel|aangepast oordeel]]. Daarnaast bestaan [[paragraaf-ter-benadrukking|emphasis of matter]], [[paragraaf-overige-aangelegenheden|other matter]] en — bij beursvennootschappen — [[kernpunten-van-controle|KAM]].
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[afwijking-van-materieel-belang|Afwijking van materieel belang]] · `begrip`
 - [[controleoordeel-types|Types van controleoordeel]] · `cluster`
@@ -372,7 +375,7 @@ De [[controleoordeel-types|oordeelsmatrix]] werkt op twee assen: bron (afwijking
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Het [[controleverslag-elementen|controleverslag]] kent dwingende rubrieken in vaste volgorde; de oordeelskeuze volgt strikt uit materialiteit en pervasiviteit. In een casus bouw je geleidelijk je oordeel op uit alle ongecorrigeerde afwijkingen en scope-beperkingen, en pas dan formuleer je verslag-tekst die er exact bij past.
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/opstellen-controleverslag-en-formuleren-oordeel|→ Volledige procedure]]
 
@@ -380,7 +383,7 @@ Het [[controleverslag-elementen|controleverslag]] kent dwingende rubrieken in va
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-De auditor moet weten wie [[met-governance-belaste-personen|met governance belast]] is en daar strategische bevindingen aan rapporteren — onderscheiden van de operationele lijn met management. Eerste vraag in een casus: aan wie wat, in welk medium, op welk moment?
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/communiceren-met-bestuur-en-auditcomite|→ Volledige procedure]]
 
@@ -388,7 +391,7 @@ De auditor moet weten wie [[met-governance-belaste-personen|met governance belas
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Naast het hoofdoordeel lopen er twee permanente kanalen mee: [[communicatie-met-management-governance|communicatie met management en governance]] over operationele én strategische aangelegenheden, en de specifieke plicht om [[communicatie-tekortkomingen-interne-beheersing|tekortkomingen in de interne beheersing]] gestructureerd te rapporteren — meteen de brug naar PO 1.7.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[communicatie-met-management-governance|Communicatie met management en met governance belaste personen]] · `cluster`
 - [[communicatie-tekortkomingen-interne-beheersing|Communicatie van tekortkomingen in de interne beheersing]] · `cluster`
@@ -397,7 +400,7 @@ Naast het hoofdoordeel lopen er twee permanente kanalen mee: [[communicatie-met-
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-[[professioneel-kritische-instelling|Professioneel-kritische instelling]] en [[professionele-oordeelsvorming|oordeelsvorming]] kleuren elke werkwijze tijdens de opdracht; geen aparte stap, maar continue alertheid. Bewaak [[onafhankelijkheid-externe-accountant|onafhankelijkheid]], vermijd [[belangenconflict-accountant|belangenconflicten]] en respecteer het [[beroepsgeheim-accountant|beroepsgeheim]].
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/toepassen-professional-skepticism-en-deontologie-audit|→ Volledige procedure]]
 
@@ -405,7 +408,7 @@ Naast het hoofdoordeel lopen er twee permanente kanalen mee: [[communicatie-met-
 
 > [!info] Hoort bij taak: Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en…
 
-Rond de audit hangt een handhavingskader: de [[antiwitwasmeldingsplicht-accountant|antiwitwasmeldingsplicht]] doorbreekt bij vermoedens van witwassen het beroepsgeheim. De [[tuchtrechtelijke-aansprakelijkheid-accountant|tuchtrechtelijke aansprakelijkheid]] loopt langs de ITAA-tuchtcommissies; de [[beroepsaansprakelijkheid-accountant|beroepsaansprakelijkheid]] langs het gemeen recht.
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[antiwitwasmeldingsplicht-accountant|Antiwitwasmeldingsplicht voor de accountant]] · `cluster`
 - [[tuchtrechtelijke-aansprakelijkheid-accountant|Tuchtrechtelijke aansprakelijkheid van de accountant]] · `regel`
@@ -413,12 +416,12 @@ Rond de audit hangt een handhavingskader: de [[antiwitwasmeldingsplicht-accounta
 
 ## Reflectie: kwaliteitscontrole, beroepsaansprakelijkheid en het levende beroep
 
-Externe controle is geen statisch boekje regels maar een levend beroep waar elke opdracht regels, oordeel en houding in elkaar schuift. Kwaliteitslagen, tucht en aansprakelijkheid houden het eerlijk; de geloofwaardigheid hangt af van wat jij doet met je [[professioneel-kritische-instelling|kritische instelling]] en [[onafhankelijkheid-externe-accountant|onafhankelijkheid]].
+<!-- TODO: Opus-glue oriëntatie -->
 
 
 ## Synthese-stappenplan
 
-Een end-to-end audit-opdracht doorloop je zo. Eerst bepaal je het [[opdrachttypes-zekerheidsniveaus-synthese|opdrachttype]] — daaruit volgen norm en zekerheidsniveau. Vervolgens toets je [[randvoorwaarden-controle|randvoorwaarden]], [[onafhankelijkheid-externe-accountant|onafhankelijkheid]] en eventuele [[opvolging-voorganger-accountant|opvolging]], en giet je de afspraken in een [[opdrachtbrief-accountant|opdrachtbrief]]. Je verwerft [[kennis-van-onderneming-omgeving|kennis van de cliënt]] en voert een [[risico-inschatting-audit|risico-inschatting]] uit met vastlegging van [[materieel-belang-audit|materieel belang]] en [[significant-risico-audit|significante risico's]]. Op die basis bouw je [[auditstrategie|auditstrategie]] en [[werkprogramma-audit|werkprogramma]]. In de uitvoering combineer je [[toetsing-interne-beheersing|test of controls]] en [[gegevensgerichte-werkzaamheden|gegevensgerichte werkzaamheden]] per [[beweringen-audit|bewering]], onderbouwd met [[externe-bevestiging-audit|externe bevestigingen]], [[cijferanalyses-audit|cijferanalyses]] en [[steekproef-audit|steekproeven]]; aan het einde vraag je een [[schriftelijke-bevestiging-management|management representation letter]] en evalueer je [[continuiteitsveronderstelling-audit|continuïteit]]. Tot slot weeg je [[regelmatigheid-jaarrekening-audit|regelmatigheid]] en [[getrouw-beeld-controle|getrouw beeld]] tegen het materieel belang om uit de [[controleoordeel-types|oordeelsmatrix]] te kiezen, schrijf je het [[controleverslag-elementen|controleverslag]] en sluit je het [[controledocumentatie|dossier]] tijdig af.
+<!-- TODO: Opus-glue synthese -->
 
 ## Cheatsheet
 
@@ -486,298 +489,381 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-Examenvragen toetsen typisch type, risico, instrument en oordeel samen in één casus. Let extra op de schijngelijkenissen [[contractuele-controleopdracht|controle]] versus [[contractuele-beoordelingsopdracht|beoordeling]], [[inherent-risico|inherent]] versus [[intern-beheersingsrisico|beheersingsrisico]], en tussen de oordeelsvarianten.
+<!-- TODO: Opus-glue examenfocus -->
 
-### Externe controle / accountantsonderzoek 📃
+> [!question]- Opdracht externe accountant bij ontbinding: staat van activa en passiva
+> *Examen 2013-1 · PO 1.6*
+>
+> > Het Wetboek van Vennootschappen voorziet in een procedure van ontbinding.
+>
+> Wat is het voorwerp en het doel van de opdracht van de externe accountant bij de ontbinding van een vennootschap?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wie stelt de staat van activa en passiva op bij ontbinding?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-> [!question]- ITAA 2024-1 vraag 2.A · open (tier A)
-> Stellingen juist of fout ivm onafhankelijkheid bij controle opdracht
+> [!question]- Controleverslag bij ontbinding: correcties op staat activa-passiva, controlesoort, ontbinding in één akte
+> *Examen 2013-1 · PO 1.6*
+>
+> > Op de boekhoudkundige staat van de BVBA HOLDING RICH komen nog diverse machines A voor. De zaakvoerders hebben een gemotiveerde, technisch en financieel onderbouwde waardering gemaakt van deze machines (totale waarde € 600.000) op basis van de berekening van de toekomstige kasstromen en op basis van het nut van de machines voor het bedrijf. Aan de hand van deze waardering werd door het college van zaakvoerders bij het opstellen van de boekhoudkundige staat van activa en passiva een herwaarderingsmeerwaarde geboekt. Anderzijds heeft de leverancier van de machines een bod gedaan om de machines A terug te kopen voor € 450.000, in dat geval moet er wel een revisie op de machines A gebeuren van € 10.000.
+>
+> **Balans**
+>
+> **Actief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Machines A | 200.000 |
+> | Machines A (herwaarderingsmeerwaarde) | 400.000 |
+> | Handelsvorderingen < 1 jaar | 100.000 |
+> | Bank | 20.000 |
+> | Totaal | 720.000 |
+>
+> **Passief**
+>
+> | Rubriek | Bedrag |
+> | --- | --- |
+> | Kapitaal | 20.000 |
+> | Herwaarderingsmeerwaarde | 400.000 |
+> | Overgedragen verlies | -50.000 |
+> | Resultaat v/d periode | 20.000 |
+> | Schulden > 1 jaar | 250.000 |
+> | Schulden < 1 jaar | 80.000 |
+> | Totaal | 720.000 |
+>
+> Als accountant krijg je de opdracht om uw controleverslag te maken op bovenstaande staat in het kader van de ontbinding van de vennootschap. Bestudeer deze staat en geef drie mogelijke correcties die moeten toegepast worden op deze staat.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welk soort controle ga je toepassen bij uw verslag inzake ontbinding?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Kan deze ontbinding in één akte ook gesloten worden? Leg uit.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-> [!question]- ITAA 2024-1 vraag 2.B · open (tier A)
-> Na acceptatie van de opdracht -> voldoende kennis verwerven, op welke wijze?
+> [!question]- Opmerkingen bij de ontbindingsprocedure van BVBA GOFORT
+> *Examen 2013-1 · PO 1.6*
+>
+> > Voor BVBA GOFORT werd een staat van activa en passiva afgesloten per 31/01/2013 opgesteld en ondertekend door de interne boekhouder, met het oog op de ontbinding van de vennootschap. De algemene vergadering wordt samengeroepen om te beslissen op 15/04/2013 bij notaris. Het controleverslag werd opgesteld door de externe accountant die niet de reguliere adviseur is op 14/04/2013. Alle aandeelhouders bevestigen hun aanwezigheid met uitzondering van een correct geïnformeerde vennoot met 10% van de aandelen en die vraagt aan de zaakvoerders om de vergadering met drie weken te verdagen gezien hij in het buitenland is op 15/04/2013.
+>
+> Geef drie opmerkingen bij de vorige opgave en geef aan wat er dient te gebeuren.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-> [!question]- ITAA 2024-1 vraag 2.C · open (tier A)
-> Volkomen controle volgens revisienormen
+> [!question]- Opdrachtbrief bij omzetting van een vennootschap
+> *Examen 2013-1 · PO 1.6*
+>
+> > De normen inzake het verslag op te stellen bij de omzetting van een vennootschap stelt dat de beroepsbeoefenaar bij het aanvaarden van zijn opdracht over een behoorlijke opdrachtbrief dient te beschikken.
+>
+> Wie ondertekent de opdrachtbrief?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Geef 3 elementen die minimaal in de opdrachtbrief dienen voor te komen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-> [!question]- ITAA 2024-1 vraag 2.D · open (tier A)
-> 4 algemene stellingen juist of fout
+> [!question]- Termijn voor toezending controleverslag aan instituut: vereffening en omvorming
+> *Examen 2013-1 · PO 1.6*
+>
+> > Wanneer een externe accountant een door de vennootschapswet opgelegd en openbaar te maken controleverslag opstelt, dient hij hiervan een kopie over te maken aan het instituut.
+>
+> Preciseer vanaf welk moment en binnen welke termijn het verslag moet verstuurd worden in het kader van een vereffening van een vennootschap.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Preciseer vanaf welk moment en binnen welke termijn het verslag moet verstuurd worden in het kader van een omvorming van een vennootschap.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
-> [!question]- ITAA 2024-1 vraag 2.E · meerkeuze (tier A)
+> [!question]- Onthoudende verklaring: toepassingsvoorwaarden
+> *Examen 2013-2 · PO 1.6*
+>
+> Wanneer dient een accountant een onthoudende verklaring af te geven?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Controleopdracht: betrouwbaarheid interne cijfers en voorraadcontrole
+> *Examen 2013-2 · PO 1.6*
+>
+> > U wordt gevraagd om als extern accountant een controleopdracht uit te voeren bij de NV Fortunato. De interne boekhouder van de onderneming bezorgt de cijfers per 30 november 2013 (= de afsluitdatum conform de statuten). Op 2 december 2013 heeft u ter plaatse de voorraadtelling gevolgd en de getelde hoeveelheden akkoord verklaard. Het bedrijf is gespecialiseerd in de aan- en verkoop van landbouwmachines. Het risicoprofiel is laag gezien er volgens de testen een goede interne controle is voor wat aankopen, financieel en verkopen betreft.
+>
+> Kunnen we ons baseren op de cijfers ontvangen van de interne boekhouder? Leg uit.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De telling van de voorraad (30/11/2013) hebben we fysiek kunnen meemaken. Welke controle doen we nu tijdens de controlewerkzaamheden op de voorraad landbouwmachines? Geef één controledoelstelling en één voorbeeld van de techniek die je daarvoor gaat toepassen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Omzettingsopdracht CVBA naar BVBA: onafhankelijkheid, correcties actief en verslag
+> *Examen 2013-2 · PO 1.6 + 3.0*
+>
+> > Een collega accountant die je kent van uw beroepsvereniging vraagt om uw tussenkomst bij de omzetting van een vennootschap van één van zijn klanten. Het betreft de CVBA Fortunito die wenst om te zetten naar de BVBA Roflexfort. Op vraag van uw collega zendt de interne boekhouder je daarvoor een proef- en saldibalans per 30/09/2013 (statutair boekjaar 01/01/2013-31/12/2013).
+>
+> **Staat activa en passiva per 30/09/2013**
+>
+> | Label | Bedrag |
+> | --- | --- |
+> | Installaties (230000) | 32.000 |
+> | Afschrijving installaties (230900) |   |
+> | Aandelen O'Cool (280000) | 30.000 |
+> | Handelsdebiteuren (400000) | 215.100 |
+> | Terug te vorderen BTW (411000) | 6.020,17 |
+> | Bankrekening (550000) | 221.931,57 |
+> | Totaal activa | 505.051,74 |
+>
+> Kruis het juiste antwoord aan voor elk van de volgende stellingen:
+>
+> - **a)** Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort? (Ja/Nee)
+> - **b)** Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan omgezet worden in de BVBA Reflexfort? (Ja/Nee)
+> - **c)** Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren? (Ja/Nee)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Kan je werken op basis van een proef- en saldibalans zoals in bijlage? Verklaar uw antwoord.
+>
+> - **a)** Ja
+> - **b)** Nee
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wie draagt de verantwoordelijkheid over de verstrekte cijfers? Geef één voorbeeld waaruit deze verantwoordelijkheid kan blijken.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Geef drie voorbeelden van stukken die vereist zijn in elk werkdossier van een wettelijke opdracht die je opvraagt nog vóór je begint te cijferen en te controleren.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> > [!warning] Topic enkel — geen vraagstelling beschikbaar
+> > Onbekende deelvraag e (tekst ontbreekt in OCR — mogelijk verdere vereisten werkdossier of een bijkomende stap in de omzettingsprocedure)
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Omschrijf en bereken de door te voeren correcties op de activaposten zoals deze voorkomen in de ontvangen cijfers per 30/09/2013 (enkel de correcties van het ACTIEF). Gebruik de staat activa en passiva, afschrijvingstabel, detail participatie en overzicht handelsvorderingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Als gevolg van uw vaststellingen en vereiste correcties moeten er vermeldingen komen in het besluit van je verslag. Geef twee vermeldingen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Als gevolg van je vaststelling moet je een specifiek risico in je besluit opnemen. Geef de formulering ervan.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Auditmethodes: soorten
+> *Examen 2013-2 · PO 1.6*
+>
+> > Een auditprocedure is een gedetailleerde instructie voor het verzamelen van een bepaald auditbewijsmiddel.
+>
+> Geef 4 soorten auditmethodes.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Audit — confirmatiebrieven: voorbehoud in verslag, remediëring en werkwijze
+> *Examen 2014-1 · PO 1.6*
+>
+> > Er worden onvoldoende antwoorden ontvangen op de confirmatie- of bevestigingsbrieven welke verzonden werden aan de klanten.
+>
+> Moeten we daarvoor een voorbehoud in ons verslag maken?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welke acties kan men ondernemen om aan dit onvoldoende aantal antwoorden te remediëren (geef twee voorbeelden)?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welke is de werkwijze nadat we onze selectie hebben gemaakt van de klanten aan dewelke de confirmatiebrieven worden verzonden: door wie zijn de confirmatiebrieven opgesteld en getekend, aan wie moeten de antwoorden opgestuurd worden, wie verzendt de confirmatiebrieven?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Audit — advocatenkosten als indicator voor rechtszaken en gevolg voor controleverslag
+> *Examen 2014-1 · PO 1.6*
+>
+> > Bij nazicht van de resultatenrekening komen we op de kostenrekening 'erelonen advocaat' ten belope van 12.000,00 EUR.
+>
+> Waarom is dit van belang voor het controleverslag?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Welke actie stel je voor?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Controleopdracht — voorbereiding, materialiteit, deelnemingen en afloopcontrole
+> *Examen 2014-1 · PO 1.6*
+>
+> > In het kader van een controleopdracht waarvoor een volkomen controle vereist is ontvangen we tijdens onze audit ter plaatse op 20/02/2014 van de interne boekhouder de boekhoudkundige staat per 31/12/2013. Alvorens over te gaan tot cijfercontroles hebben we de materialiteitsgrens berekend op 50.000 EUR.
+>
+> Kunnen we onze controleopdracht op deze cijfers afhandelen en ons besluit ondertekenen?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat is het belang, in het kader van deze opdracht, zoals hierboven beschreven, van het vastleggen van de materialiteitsgrens?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> De vennootschap voor dewelke wij deze controleopdracht verrichten, heeft een dochterbedrijf via aandelen aangekocht voor 300.000 EUR (code 28). Hoe pak je deze post aan? Geef 2 controledoelstellingen en 2 controletechnieken die hier kunnen toegepast worden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Gedurende deze controleopdracht, ga je een afloopcontrole uitvoeren op de post 'bezoldigingen en sociale lasten' (passief codes 454/9). Hoe voer je zo een controle uit, leg uit of werk een voorbeeld uit?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Aanvaardingsprocedure auditdossier: weigeringsgronden
+> *Examen 2015-1 · PO 1.6*
+>
+> Geef twee voorbeelden van situaties bij de aanvaardingsprocedure van de opdracht waarbij we het dossier mogelijks niet kunnen aanvaarden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Controledoelstellingen en -technieken op debet lopende rekening bij omzetting
+> *Examen 2015-1 · PO 1.6*
+>
+> > Tijdens werkzaamheden aan een controleverslag ivm een omzetting stelt de aangestelde accountant vast dat op het actief een debet lopende rekening op naam van de overleden vader van de zaakvoerders-aandeelhouders voorkomt.
+>
+> Geef twee controledoelstellingen die op dergelijk actief (debet lopende rekening) worden toegepast.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Geef kort weer voor elk van deze twee controledoelstellingen welke techniek of methodiek je toepast.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Controle na voorraadtelling en behandeling handelsvorderingsverschil
+> *Examen 2015-1 · PO 1.6*
+>
+> > Controleopdracht per 30 september 2014. Materialiteit: 100.000 EUR resultatenrekening / 70.000 EUR balansposten. Laag risicoprofiel. Voorraadtelling op 1 oktober 2014 fysiek gevolgd en akkoord verklaard. Stand: 23 januari 2015. (b) Bij nazicht handelsvorderingen wordt een confirmatie bekomen van een klant voor 121.000,00 EUR, terwijl de vordering in de boekhouding op 217.800,00 EUR staat. Bij de confirmatie zit een ontvangstbon van 29/09/2014 waaruit blijkt dat voor 80.000,00 EUR (excl. btw) fout geleverde goederen terug werden meegenomen.
+>
+> De telling van de voorraad (30/09/2014) hebben we fysiek kunnen meemaken en deze hoeveelheidstelling was in orde. Welke controle gaan we nu (23/01/2015) nog doen op de voorraad? Geef twee controledoelstellingen met telkens een voorbeeld van de techniek die je gaat toepassen.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Bij nazicht van de handelsvorderingen wordt een confirmatie bekomen van een klant voor 121.000,00 EUR, terwijl de vordering in de boekhouding op 217.800,00 EUR staat (80.000,00 EUR excl. btw fout geleverde goederen teruggenomen per 29/09/2014). Welke actie onderneem je als controlerende accountant: stel een correctieboeking voor, maak een voorbehoud (motiveer) of vraag de correctie te boeken in de heropening van volgend boekjaar?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Werkwijze confirmatie leverancierssaldi bij externe controle
+> *Examen 2015-1 · PO 1.6*
+>
+> Wat is representatief bij de selectie van leverancierssaldi voor confirmatie?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Hoe doe je de steekproef?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Hoe gebeurt de verzending van de confirmatiebrieven?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wie ontvangt de antwoorden?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Wat bij niet ontvangst van antwoorden?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Norm controle fusie- en splitsingsverrichtingen: verplichtingen bij meerdere beroepsbeoefenaars
+> *Examen 2015-1 · PO 1.6*
+>
+> > In de norm inzake de controle van fusie- en splitsingsverrichtingen van vennootschappen, zoals goedgekeurd door de raad van het IAB, zijn er drie verplichtingen voor de beroepsbeoefenaar wanneer de door de wet vereiste verslagen in de bij de fusie of splitsing betrokken vennootschappen door verschillende beroepsbeoefenaars moeten opgesteld worden.
+>
+> Geef twee van de drie verplichtingen voor de beroepsbeoefenaar wanneer de door de wet vereiste verslagen door verschillende beroepsbeoefenaars moeten opgesteld worden.
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+
+> [!question]- Externe controle
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.6*
+>
+> > [!warning] Topic enkel — geen vraagstelling beschikbaar
+> > Stellingen juist of fout ivm onafhankelijkheid bij controle opdracht
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> Na acceptatie van de opdracht: voldoende kennis verwerven, op welke wijze?
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> > [!warning] Topic enkel — geen vraagstelling beschikbaar
+> > Volkomen controle volgens revisienormen
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
+> > [!warning] Topic enkel — geen vraagstelling beschikbaar
+> > 4 algemene stellingen juist of fout
+>
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
+>
 > Bij een accountantsonderzoek wordt de materialiteitsdrempel:
 >
-> - Vastgesteld bij KB
-> - Door aandeelhouders van de vennootschap vastgesteld
-> - Bepaald op basis van omzet van de 2 laatste jaren
-> - Bepaald naargelang inherente risico’s + interne controle van de cliënt
-
-
-### Accountantsonderzoek 📃
-
-> [!question]- ITAA 2014-1 vraag 1 (tier B)
-> Vraag 1 … / 8 punten Er worden onvoldoende antwoorden ontvangen op de confirmatie- of bevestigingsbrieven welke verzonden werden aan de klanten.
-> 
-> a) Moeten we daarvoor een voorbehoud in ons verslag maken ?
-> 
-> Antwoord
-> 
-> b) Welke acties kan men ondernemen om aan dit onvoldoende aantal antwoorden te remediëren (geef twee voorbeelden)? Antwoord
-> 
-> c) Welke is de werkwijze nadat we onze selectie hebben gemaakt van de klanten aan dewelke de confirmatiebrieven worden verzonden : door wie zijn de confirmatiebrieven opgesteld en getekend, aan wie moeten de antwoorden opgestuurd worden, wie verzendt de confirmatiebrieven? Antwoord
-
-
-### Accountantsonderzoek 📃
-
-> [!question]- ITAA 2014-1 vraag 2 (tier B)
-> Vraag 2 … / 3 punten Bij nazicht van de resultatenrekening komen we op de kostenrekening “erelonen advocaat” ten belope van 12.000,00 EUR. Waarom is dit van belang voor het controleverslag? Welke actie stel je voor ? Antwoord
+> - **a)** Vastgesteld bij KB
+> - **b)** Door aandeelhouders van de vennootschap vastgesteld
+> - **c)** Bepaald op basis van omzet van de 2 laatste jaren
+> - **d)** Bepaald naargelang inherente risico's + interne controle van de cliënt
 >
-> > [!success]- Antwoord-motivering
-> > **Waarom is dit van belang voor het controleverslag?**
-> > 
-> > De aanwezigheid van een kostenpost "erelonen advocaat" van € 12.000 in de resultatenrekening is een **signaal** voor de auditor dat er **lopende of recent afgesloten juridische geschillen** zijn. ⚖️ Geschillen kunnen drie soorten effecten hebben op de jaarrekening:
-> > 
-> > 1. **Off-balance verplichting** (klasse 0 in toelichting): geschillen zonder zekere uitkomst worden vermeld bij de rechten en verplichtingen buiten balans ([[balans]] §In de praktijk — buiten-balans-vermelding). ⚖️
-> > 2. **Voorziening voor risico's en kosten** (rek 16 Voorzieningen): bij waarschijnlijk verlies → voorziening boeken op basis van de schatting van het bedrag (KB WVV art. 3:24-3:27). ⚖️
-> > 3. **Materiële afwijking** bij niet-vermelding of onder-geschatte voorziening → impact op het oordeel van de auditor.
-> > 
-> > **Welke acties moet de auditor ondernemen?**
-> > 
-> > 1. **Externe bevestiging vragen aan de advocaat** ([[externe-bevestiging-audit]] §Werkwijze): de advocaat is bij uitstek de externe partij die status, aard, en bedrag van de geschillen kan bevestigen. Schriftelijke confirmatie rechtstreeks aan auditor. ⚖️
-> > 2. **Toelichting nazien**: zijn alle hangende geschillen vermeld in de toelichting (off-balance + voorzieningen)? Vergelijk de erelonen-volume met de toelichting — onverhouding wijst op niet-vermelding. ⚖️
-> > 3. **Voorziening evalueren** ([[boekhoudkundige-schattingen-audit]]): bij materieel geschil + waarschijnlijk verlies → voorziening boeken op basis van de schatting. Auditor toetst de redelijkheid van de schatting (range van uitkomsten van de advocaat). ⚖️
-> > 4. **Continuïteit beoordelen**: een groot geschil kan continuïteit bedreigen. Bij materieel risico → assessing going concern (ISA 570). ⚖️
-> > 
-> > **Impact op het controleverslag**:
-> > 
-> > - **Niets aan de hand** (geschil gering, correct vermeld, voorziening adequaat) → geen impact, gewoon goedkeurend oordeel
-> > - **Materiële niet-vermelding of onder-voorziening** → mogelijke afwijking van materieel belang → oordeel met **voorbehoud** indien geïsoleerd, of **afkeurend** indien diepgaand (zie [[controleoordeel-types]]) ⚖️
-> > - **Onmogelijk om informatie te krijgen** (advocaat antwoordt niet, cliënt weigert) → scope-beperking → mogelijk **onthouding van oordeel** indien diepgaand ⚖️
-> > - **Materiële continuïteitsonzekerheid** → paragraaf 'Materiële onzekerheid m.b.t. continuïteit' in het verslag (ISA 570) ⚖️
-> > 
-> > ⚠️ Een ereloon van € 12.000 is **niet automatisch** materieel — afhankelijk van de bedrijfsgrootte en de materialiteitsdrempel. Maar het is een **trigger** om dieper te kijken, niet de afwijking zelf. 🤖
-> > 
-> > _Grondslag: [[externe-bevestiging-audit]]; [[boekhoudkundige-schattingen-audit]]; [[controleoordeel-types]]; ISA 501 §4-A6 (litigation & claims); ISA 505 (externe confirmaties); ISA 570 (continuïteit); KB WVV art. 3:24-3:27 (voorzieningen)._
-
-
-### Accountantsonderzoek 📃
-
-> [!question]- ITAA 2014-1 vraag 3 (tier B)
-> Vraag 3 … / 14 punten In het kader van een controleopdracht waarvoor een volkomen controle vereist is ontvangen we tijdens onze audit ter plaatse op 20/02/2014 van de interne boekhouder de boekhoudkundige staat per 31/12/2013. Zoals je weet moeten er voor we op de cijfers “afstormen” een aantal voorbereidende werken en checks verricht worden. Alvorens over te gaan tot cijfercontroles hebben we de materialiteitsgrens berekend op 50.000 EUR.
-> 
-> a) Kunnen we onze controleopdracht op deze cijfers afhandelen en ons besluit ondertekenen? Motiveer uw antwoord. Antwoord
-> 
-> b) Wat is het belang, in het kader van deze opdracht, zoals hierboven beschreven, van het vastleggen van de materialiteitsgrens? Antwoord
-> 
-> c) De vennootschap voor dewelke wij deze controleopdracht verrichten, heeft een dochterbedrijf via aandelen aangekocht voor 300.000 EUR (code 28). Hoe pak je deze post aan ? Geef 2 controledoelstellingen en 2 controletechnieken die hier kunnen toegepast worden. Antwoord
-> 
-> d) Gedurende deze controleopdracht, ga je een afloopcontrole uitvoeren op de post “bezoldigingen en sociale lasten” (passief codes 454/9) . Hoe voer je zo een controle uit, leg uit of werk een voorbeeld uit? Antwoord
-> 
-> VENNOOTSCHAPSRECHT 20 PUNTEN
-
-
-### Accountantsonderzoek 📃
-
-> [!question]- ITAA 2015-1 vraag 1 (tier B)
-> Vraag 1 … / 2 punten
-> Tijdens een controleopdracht bij een middelgrote onderneming, zonder commissaris en in
-> het kader van een contractueel beperkt nazicht stelt de externe accountant een aantal
-> verbeteringen (adjustments) voor.
-> a) Wanneer deze adjustments talrijk en substantieel zijn in bedrag, zou dit een probleem
-> kunnen veroorzaken in het bijzonder op het vlak van deontologische regels?
-> Antwoord … / 0,5 punt
-> 
-> |  |  |
-> |---|---|
-> |  | Ja |
-> |  | Neen |
-> 
-> b) Verklaar bondig.
-> Antwoord … / 1,5 punten
-
-
-### Accountantsonderzoek 📃
-
-> [!question]- ITAA 2015-1 vraag 2 (tier B)
-> Vraag 2 … / 4 punten Een eerste stap bij het auditwerk is de aanvaardingsprocedure van de opdracht. Geef twee voorbeelden van situaties bij deze procedure, waarbij we het dossier mogelijks niet kunnen aanvaarden. Antwoord
->
-> > [!success]- Antwoord-motivering
-> > Bij de aanvaardingsprocedure van een audit-opdracht moet de accountant verschillende randvoorwaarden toetsen ([[aanvaarden-audit-opdracht]] §Stappen 1-5). Situaties waarin het dossier **mogelijk niet kan worden aanvaard**:
-> > 
-> > ### Voorbeeld 1: Onafhankelijkheidsprobleem of belangenconflict
-> > 
-> > De accountant — zijn kantoor of zijn nauwe verwanten — hebben een band met de cliënt die de onafhankelijkheid in twijfel trekt:
-> > - Familiale band met de bestuurder/eigenaar
-> > - Significant financieel belang (aandelen, schulden, leningen)
-> > - Eerdere niet-audit-diensten die zelf-controle veroorzaken (bv. boekhouding gevoerd voor dezelfde cliënt)
-> > - Gerelateerde commerciële relaties (significant deel van de omzet komt van deze ene cliënt)
-> > 
-> > ⚖️ Schending van onafhankelijkheid leidt tot **tucht en nietigheid van het verslag** (Wet ITAA 2019 + KB 1998 plichtenleer art. 12 + IESBA Code of Ethics). De accountant **weigert** of trekt zich terug.
-> > 
-> > ### Voorbeeld 2: Cliënt erkent niet de drie basisverantwoordelijkheden van het management
-> > 
-> > Voor een audit moet het management ([[aanvaarden-audit-opdracht]] §1) erkennen:
-> > - Verantwoordelijkheid voor het opstellen van de jaarrekening conform het toepasselijke financieel rapporteringsstelsel ⚖️
-> > - Verantwoordelijkheid voor de interne beheersing die het opstellen mogelijk maakt zonder afwijking van materieel belang ⚖️
-> > - Verplichting om de accountant toegang te verschaffen tot alle relevante informatie en aanvullende inlichtingen ⚖️
-> > 
-> > Zonder die erkenning **mist de audit een referentiekader** en is een controle-oordeel onmogelijk te onderbouwen. → niet aanvaarden.
-> > 
-> > ### Aanvullende voorbeelden (niet in opsomming):
-> > - Toepasselijk rapporteringsstelsel niet aanvaardbaar (bv. exotisch zelfbedacht model in plaats van BE GAAP/IFRS)
-> > - Voorgaande accountant meldt fundamentele integriteitsbezwaren over het management (KB 1998 plichtenleer art. 17-18 — collegiaal contact verplicht)
-> > - Cliënt is geen toegestane juridische entiteit voor de opdracht (bv. een ad-hoc structuur zonder rechtspersoonlijkheid voor een wettelijke commissaris-controle)
-> > 
-> > _Grondslag: [[aanvaarden-audit-opdracht]] §Stappen 1-3; Wet ITAA 2019; KB 1998 plichtenleer art. 12 + 17-18; IESBA Code of Ethics._
-
-
-### Accountantsonderzoek 📃
-
-> [!question]- ITAA 2015-1 vraag 3 (tier B)
-> Vraag 3 … / 6 punten Tijdens de werkzaamheden aan een controleverslag ivm een omzetting stelt de aangestelde accountant vast dat op het actief een debet lopende rekening op naam van de overleden vader van de zaakvoerders-aandeelhouders voorkomt.
-> 
-> a) Geef twee (2) controledoelstellingen die op dergelijk actief worden toegepast?
-> 
-> b) Geef kort weer voor elk van deze twee (2) controledoelstellingen welke techniek of methodiek je toepast? Vul uw antwoorden in op volgend schema. Antwoord Controledoelstelling Techniek of methodiek
-> 
-> Debet lopende 1. 1. rekening
-> 
-> 2. 2.
-
-
-### Accountantsonderzoek 📃
-
-> [!question]- ITAA 2015-1 vraag 4 (tier B)
-> Vraag 4 … / 8 punten
-> Het is 23 januari 2015 en de onderneming heeft haar boekhouding afgesloten op
-> 30 september 2014 conform haar statuten. Op 1 oktober 2014 heeft u als controlerende
-> accountant de voorraadtelling gevolgd en u ermee akkoord verklaard. Het betreft hier een
-> Belgisch bedrijf dat in handen is van een Franse groep. Het bedrijf is gespecialiseerd in
-> hoogtechnologische gasleidingen. We berekenen een materialiteit van 100.000 EUR op de
-> resultatenrekening en 70.000 EUR op de balansposten.
-> Het risicoprofiel is laag gezien er een goede interne controle is voor wat de aankopen,
-> financiële verrichtingen en verkopen betreft.
-> a) De telling van de voorraad (30/09/2014) hebben we fysiek kunnen meemaken en deze
-> hoeveelheidstelling was in orde. Welke controle gaan we nu (23/01/2015) nog doen op
-> de voorraad ?
-> Geef twee controledoelstellingen met telkens een voorbeeld van de techniek die je
-> gaat toepassen.
-> Antwoord … / 6 punten
-> Vul uw antwoorden in op volgend schema.
-> 
-> | Controledoelstelling | Techniek |
-> |---|---|
-> | 1.
-> 2. | 1.
-> 2. |
-> 
-> b) Bij nazicht van de handelsvorderingen (onder toepassing van 21% BTW) wordt een
-> confirmatie bekomen van een klant voor 121.000,00 EUR, daar waar de vordering in de
-> boekhouding op 217.800,00 EUR staat. Bij de confirmatie zit een ontvangstbon
-> afgetekend op 29/09/2014 door de klant en de chauffeur die de levering heeft gedaan.
-> Op deze ontvangstbon staat de vermelding dat er voor 80.000,00 EUR (excl btw) aan
-> fout geleverde goederen terug zijn meegenomen.
-> Welke actie onderneem je als controlerende accountant:
->  Kies één van de drie mogelijkheden:
-> Antwoord … / 1 punt
-> 
-> |  |  |
-> |---|---|
-> |  | of je stelt een correctieboeking voor (geef dan de boeking) |
-> |  | of je maakt een voorbehoud (motiveer) |
-> |  | of vraag je de correctie te boeken in de heropening van
-> volgend boekjaar (geef dan de boeking). |
-> 
->  Verklaar bondig.
-> Antwoord … / 1 punt
-
-
-### Accountantsonderzoek 📃
-
-> [!question]- ITAA 2015-1 vraag 5 (tier B)
-> Vraag 5 … / 5 punten
-> Geef de werkwijze tijdens een externe controle om tot de confirmatie van een representatief
-> aantal leverancierssaldi te komen.
-> a) Wat is representatief?
-> Antwoord … / 1 punt
-> b) Hoe doe je de steekproef?
-> Antwoord … / 1 punt
-> c) Hoe gebeurt de verzending van de confirmatiebrieven?
-> Antwoord … / 1 punt
-> d) Wie ontvangt de antwoorden?
-> Antwoord … / 1 punt
-> e) Wat bij niet ontvangst van antwoorden?
-> Antwoord … / 1 punt
-> 
-> |  |  |  |  |  |
-> |---|---|---|---|---|
-> | VENNOOTSCHAPSRECHT |  |  | 20 PUNTEN |  |
-> |  |  |  |  | 20 PUNTEN |
-> 
-> Antwoorden
-> Plaats de letter van het juiste antwoord in onderstaande rooster.
-> 
-> | Vraag | 1 | 2 | 3 | 4 | 5 |
-> |---|---|---|---|---|---|
-> | Antwoord |  |  |  |  |  |
-> | Punten | 4 | 4 | 4 | 4 | 4 |
->
-> > [!success]- Antwoord-motivering
-> > Vraag betreft de werkwijze van externe bevestiging (confirmation) voor leverancierssaldi — vijf procedurestappen. Zie subvragen per stap.
-
-
-### Interne controle en accountantsonderzoek 📃
-
-> [!question]- ITAA 2013-2 vraag 3 (tier B)
-> Vraag 3 … / 8 punten Wanneer dient een accountant een onthoudende verklaring af te geven? Antwoord
->
-> > [!success]- Antwoord-motivering
-> > Een **onthouding van oordeel** (synoniem: 'disclaimer of opinion' in ISA-terminologie, 'onthoudende verklaring' in Belgische audit-praktijk) wordt afgegeven wanneer **cumulatief**:
-> > 
-> > 1. De accountant **onmogelijk** voldoende en geschikte assurance-informatie kan verkrijgen om de jaarrekening te onderbouwen — bv. door scope-beperking opgelegd door de cliënt, of door externe omstandigheden (boekhouding verloren, sleuteldocumenten ontoegankelijk). ⚖️
-> > 2. De **mogelijke effecten** van het ontbrekend bewijs op de jaarrekening **diepgaand** kunnen zijn — niet alleen materieel, maar zo verspreid dat ze het globale geloofwaardigheidsoordeel aantasten. ⚖️
-> > 
-> > **Vergelijk met andere oordeel-types**:
-> > - Goedkeurend zonder voorbehoud: jaarrekening geeft getrouw beeld, geen significante issues
-> > - Goedkeurend **met voorbehoud**: er is een materiële afwijking of scope-beperking, maar **niet diepgaand** (geïsoleerd) — accountant formuleert oordeel met expliciete uitzondering
-> > - **Afkeurend**: materiële afwijking + diepgaand (alles-doordringend) — accountant verklaart dat de jaarrekening geen getrouw beeld geeft
-> > - **Onthoudend**: onvoldoende bewijs + diepgaande mogelijke gevolgen — geen oordeel mogelijk
-> > 
-> > **Voorbeelden** van situaties die tot onthouding leiden:
-> > - Cliënt weigert toegang tot belangrijke contracten, bankrekeningen, of vorderingen-overzichten
-> > - Materiële voorraad-opname onmogelijk + geen alternatieve werkzaamheden mogelijk (vooral bij eerste-jaars audit)
-> > - Continuïteitsonzekerheid waarvoor management onvoldoende toelichting geeft en de auditor de impact niet kan kwantificeren
-> > 
-> > _Grondslag: ISA 705 (herzien) §10 + §A12-A14; ITAA KMO-controlenorm; [[controleoordeel-types]] §Onthouding van oordeel._
-
-
-### Interne controle en accountantsonderzoek 📃
-
-> [!question]- ITAA 2013-2 vraag 5 (tier B)
-> Vraag 5 … / 8 punten Je wordt gevraagd om als extern accountant een controleopdracht uit te voeren bij de NV Fortunato. De interne boekhouder van de onderneming bezorgt de cijfers per 30 november 2013 ( = de afsluitdatum conform de statuten). Op 2 december 2013 heb je ter plaatse de voorraadtelling gevolgd en je met de getelde hoeveelheden akkoord verklaard. Het bedrijf is gespecialiseerd in de aan- en verkoop van landbouwmachines. Het risicoprofiel is laag gezien er volgens onze testen een goede interne controle is voor wat aankopen, financieel en verkopen betreft.
-> 
-> a) Kunnen we ons baseren op de cijfers ontvangen van de interne boekhouder? Leg uit. Antwoord … / 4 punten
-> 
-> b) De telling van de voorraad (30/11/2013) hebben we fysiek kunnen meemaken. Welke controle doen we nu tijdens de controlewerkzaamheden op de voorraad landbouwmachines? Geef één controledoelstelling en één voorbeeld van de techniek die je daarvoor gaat toepassen. Antwoord … / 4 punten  Controledoelstelling:  Voorbeeld:
-> 
-> VENNOOTSCHAPSRECHT 20 PUNTEN
-
-
-### Interne controle en accountantsonderzoek 📃
-
-> [!question]- ITAA 2013-2 vraag 1 (tier B)
-> Vraag 1 … / 8 punten Een auditprocedure is een gedetailleerde instructie voor het verzamelen van een bepaald auditbewijsmiddel. Geef 4 soorten auditmethodes. Antwoord
->
-> > [!success]- Antwoord-motivering
-> > ISA 500 §A14-A25 ('audit evidence') somt **zeven** auditprocedure-types op om controle-informatie te verzamelen: inspectie, waarneming, externe bevestiging, herberekening, opnieuw uitvoeren, cijferanalyses, verzoeken om inlichtingen. ⚖️ De vraag vraagt vier **soorten auditmethodes** — de vier voornaamste zijn:
-> > 
-> > 1. **Inspectie** — het onderzoeken van vastleggingen, documenten (intern of extern, op papier of digitaal) of fysieke activa. Voorbeeld: factuur, bestelbon, contract, voorraad in magazijn. Levert bewijs over bestaan en (in beperkte mate) waardering. ⚖️
-> > 2. **Waarneming** — het gadeslaan van een proces of procedure die door anderen wordt uitgevoerd (bv. de auditor woont de jaarlijkse voorraadopname bij). Levert bewijs over de **uitvoering** van een controle op het moment van waarnemen — beperkt in tijd. ⚖️
-> > 3. **Externe bevestiging** — schriftelijke reactie rechtstreeks van een derde partij (bank, klant, leverancier, advocaat) aan de auditor (zie [[externe-bevestiging-audit]]). Hoogwaardige assurance wegens extern + onafhankelijk + schriftelijk. Vormen: positieve, negatieve, saldo-bevestiging. ⚖️
-> > 4. **Herberekening** — door de auditor zelf de wiskundige correctheid van documenten of registers verifiëren (bv. nakijken of een afschrijvingsplan klopt, BTW-totalen, salarisberekeningen). ⚖️
-> > 
-> > (De drie andere uit ISA 500 — opnieuw uitvoeren, cijferanalyses, verzoeken om inlichtingen — zijn ook auditmethodes, maar worden vaak als aanvullingen geclassificeerd of in een andere groepering geplaatst.)
-> > 
-> > _Grondslag: ISA 500 §A14-A25; ITAA KMO-controlenorm §89-92 voor externe bevestiging; record [[selecteren-en-uitvoeren-controle-instrumenten-audit]]._
-
+> > [!success]- Antwoord (klik om te openen)
+> > _Antwoord wacht op concept-laag._
 
 
 ## Competentie-index
@@ -823,10 +909,12 @@ Examenvragen toetsen typisch type, risico, instrument en oordeel samen in één 
 - [[communicatie-met-management-governance|Communicatie met management en met governance belaste personen]] · `cluster`
 - [[communicatie-tekortkomingen-interne-beheersing|Communicatie van tekortkomingen in de interne beheersing]] · `cluster`
 - [[communiceren-met-bestuur-en-auditcomite|Communiceren met audit-comité en bestuur over auditbevindingen]] · `competentie`
+- [[confirmatiebrieven|Confirmatiebrieven]] · `begrip`
 - [[continuiteitsveronderstelling-audit|Continuïteitsveronderstelling (audit-perspectief)]] · `regel`
 - [[contractuele-beoordelingsopdracht|Contractuele beoordelingsopdracht]] · `begrip`
 - [[contractuele-controleopdracht|Contractuele controleopdracht]] · `begrip`
 - [[controledocumentatie|Controledocumentatie / controledossier]] · `cluster`
+- [[controleverslag-omzetting|Controleverslag bij omzetting van een vennootschap]] · `regel`
 - [[delegatie-en-supervisie-audit|Delegatie en supervisie binnen het auditteam]] · `cluster`
 - [[documenteren-auditdossier|Documenteren van de revisiewerkzaamheden in het auditdossier]] · `competentie`
 - [[beoordelingsverslag-elementen|Elementen van het beoordelingsverslag (review report)]] · `procedure`
@@ -853,6 +941,7 @@ Examenvragen toetsen typisch type, risico, instrument en oordeel samen in één 
 - [[kwaliteitsbeheersing-opdrachtniveau|Kwaliteitsbeheersing op opdrachtniveau]] · `cluster`
 - [[materieel-belang-audit|Materieel belang (materialiteit) in een audit]] · `begrip`
 - [[met-governance-belaste-personen|Met governance belaste personen]] · `autoriteit`
+- [[omzetting-vennootschap|Omzetting van een vennootschap]] · `cluster`
 - [[onafhankelijkheid-externe-accountant|Onafhankelijkheid van de externe accountant]] · `regel`
 - [[ontbinding-vereffening-opdracht|Ontbinding-vereffening opdracht van de gecertificeerd accountant]] · `cluster`
 - [[ontdekkingsrisico|Ontdekkingsrisico]] · `begrip`
