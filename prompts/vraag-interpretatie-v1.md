@@ -155,6 +155,16 @@ Als de bron een hint of berekening bevat die er als antwoord uitziet (bv. `"Toen
 
 Duidelijke OCR-typo's (`"Fifi"` → `"FIFO"`) corrigeer je in de vraagstelling. Voeg `"typo_genormaliseerd"` toe aan `kwaliteits_flags` en noem de correcties in `herinterpretatie_motivering`.
 
+### 4.4bis. Lange casus — alinea's voor leesbaarheid, géén expliciete labeling
+
+Bij `casus_context`-tekst > ~200 woorden met meerdere scènes/gebeurtenissen: splits in alinea's (lege regel tussen logische scenes) zodat de tekst leesbaar wordt. Voorbeeld: een fraude-casus die meerdere onregelmatigheden beschrijft → alinea per onregelmatigheid.
+
+**Wat WEL doen**: blanke regels tussen logische blokken; vermijd één muur-van-tekst paragraaf.
+
+**Wat NIET doen**: nummeren, labelen ("Vaststelling 1:"), bullets, of semantische structuur opleggen die niet expliciet in de PDF staat. Als de vraag refereert aan "de N vaststellingen/gevallen/stellingen" en die NIET visueel gemarkeerd zijn in de PDF, is het pedagogisch de bedoeling dat de student ze zelf identificeert uit het verhaal — laat dat intact.
+
+Bij twijfel of de PDF labels heeft: PNG is waarheid.
+
 ### 4.5. Tabellen: visueel verifiëren via PNG
 
 `tekst.txt` knoeit met 2D-tabellen. Verifieer via de PNG.

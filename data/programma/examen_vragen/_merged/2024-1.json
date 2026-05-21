@@ -1,7 +1,7 @@
 {
   "bron_pdf": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
   "examen_id": "2024-1",
-  "merge_datum": "2026-05-21T00:54:34+00:00",
+  "merge_datum": "2026-05-21T01:29:11+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -391,6 +391,994 @@
         "vraag_id": "2024-1-vr10"
       },
       "vraag_id": "2024-1-vr10"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Deelvraag A (situatie): Rentenier liet een hybride dieselwagen onderhouden door de Porsche-garage Antwerpen (maandaangever). Onderhoud vond plaats op 27/4/N. De klant betaalde op 3/5/N. Op 30/4/N werd een factuur uitgereikt van 1.210 euro incl. BTW.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A is een volledige mc_keuze met 4 opties. Deelvraag B is topic_only: de concrete situatie voor de margeregeling is niet bewaard. Deelvraag C modelleert de 'alles juist of geen punten'-vraag als één juist/fout-deelvraag met de volledige lijst in de vraagstelling. Deelvraag D bevat 5 stellingen over VAT Refund — elk als afzonderlijke juist/fout-deelvraag (d1–d5). Deelvraag E vraagt per situatie (a–e) het BTW-tarief/stelsel — gemodelleerd als één open vraag met alle 5 gevallen in de vraagstelling. Typefout 'kalanderjaar' in tekst.txt gecorrigeerd naar 'kalenderjaar'. 'BP' staat voor belastingplichtige (niet uitgeschreven in vraagstelling om de beknoptheid te bewaren).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "typo_genormaliseerd",
+          "subvraag_zonder_inhoud"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "opeisbaarheid BTW",
+          "factuurverplichting",
+          "margeregeling",
+          "btw-aangifte",
+          "vrijstellingsregeling",
+          "VAT Refund",
+          "glazenwassen",
+          "BTW-tarief",
+          "verlegging heffing"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr11",
+        "vraag_onderwerp": "BTW",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Niet verplicht van factuur uit te reiken: BTW opeisbaar 3/5/N"
+              },
+              {
+                "id": "b",
+                "tekst": "Niet verplicht van factuur uit te reiken: BTW opeisbaar 30/4/N"
+              },
+              {
+                "id": "c",
+                "tekst": "Verplicht factuur: BTW opeisbaar 30/5/N"
+              },
+              {
+                "id": "d",
+                "tekst": "Verplicht factuur: BTW opeisbaar 30/4/N"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is de juiste situatie bij uitreiking van een factuur van 1.210 euro incl. BTW op 30/4/N (onderhoud 27/4/N, betaling 3/5/N, maandaangever)?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "Margeregeling: hoe opnemen in de btw-aangifte (gegeven situatie)",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vrijstellingsregeling is mogelijk voor de volgende activiteiten (alles juist of geen punten): a. Elektricien omzet 10.000 / b. Kapper omzet 15.000 / c. Diëtist vrijgestelde omzet 50.000, onderworpen omzet 15.000 / d. Schoonheidsspecialiste omzet 30.000 / e. Verhuur gastenkamers met ontbijt omzet 20.000.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d1",
+            "label_in_pdf": "D.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "VAT Refund: vrijgestelde belastingplichtige kan buitenlandse BTW terugvragen via VAT Refund.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d2",
+            "label_in_pdf": "D.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "VAT Refund: minimumbedrag vereist voor verzoek tot teruggave is 50 euro per kalenderjaar per lidstaat.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d3",
+            "label_in_pdf": "D.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "VAT Refund: minimumbedrag vereist voor verzoek tot teruggave is afhankelijk van de EU-lidstaat van het land van de belastingplichtige.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d4",
+            "label_in_pdf": "D.4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "VAT Refund: minimumbedrag vereist voor verzoek tot teruggave is afhankelijk van het land waarop de teruggave betrekking heeft.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d5",
+            "label_in_pdf": "D.5",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "VAT Refund: minimumbedrag voor verzoek is 400 euro per kalenderjaar per EU-lidstaat.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "E",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vermeld het BTW-tarief of stelsel dat wordt toegepast voor glazenwassen door een Belgische onderneming die gewone belastingplichtige is, voor elk van de volgende gevallen: a. BE gebouw, afnemer is BP die aangifte indient / b. BE gebouw, meer dan 10 jaar betrokken door BE particulier / c. BE gebouw, minder dan 10 jaar betrokken door BE particulier / d. BE gebouw, FR BP / e. BE gebouw, Zweedse BP afnemer.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr11 pagina 5",
+        "pagina_nummers": [
+          5
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr11"
+      },
+      "vraag_id": "2024-1-vr11"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl examen 2024-1. Deelvragen A, C en D zijn topic_only: alleen het onderwerp is bekend, geen volledige vraagstelling. Deelvraag B heeft een herkenbare open vraagstelling. Deelvraag E is een volledige mc_keuze met 4 opties conform de PNG.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "subvraag_zonder_inhoud"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "onafhankelijkheid",
+          "controle opdracht",
+          "kennis verwerven",
+          "volkomen controle",
+          "revisienormen",
+          "materialiteitsdrempel",
+          "accountantsonderzoek"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr2",
+        "vraag_onderwerp": "Externe controle",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "Stellingen juist of fout ivm onafhankelijkheid bij controle opdracht",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Na acceptatie van de opdracht: voldoende kennis verwerven, op welke wijze?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "Volkomen controle volgens revisienormen",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "4 algemene stellingen juist of fout",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "E",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Vastgesteld bij KB"
+              },
+              {
+                "id": "b",
+                "tekst": "Door aandeelhouders van de vennootschap vastgesteld"
+              },
+              {
+                "id": "c",
+                "tekst": "Bepaald op basis van omzet van de 2 laatste jaren"
+              },
+              {
+                "id": "d",
+                "tekst": "Bepaald naargelang inherente risico's + interne controle van de cliënt"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Bij een accountantsonderzoek wordt de materialiteitsdrempel:",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr2 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr2"
+      },
+      "vraag_id": "2024-1-vr2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag C heeft de vier risicocategorieën als opties maar er ontbreekt de concrete situatiebeschrijving waarop de vraag slaat — volledigheid: fragment. Deelvraag D geeft alleen een topic met drie subdomeinen, geen vraagstelling — topic_only.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "subvraag_zonder_inhoud"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "verkoopcyclus",
+          "interne controle",
+          "KMO",
+          "COSO model",
+          "risicocategorieën",
+          "controledoelstellingen",
+          "conformiteit"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr3",
+        "vraag_onderwerp": "Interne controle",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat zijn goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is de hoofddoelstelling van de invoering van een interne controle in een KMO?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Strategisch"
+              },
+              {
+                "id": "b",
+                "tekst": "Informatie"
+              },
+              {
+                "id": "c",
+                "tekst": "Operationeel"
+              },
+              {
+                "id": "d",
+                "tekst": "Financieel"
+              }
+            ],
+            "volledigheid": "fragment",
+            "vraagstelling": "Over welke soort risico gaat het? (COSO model)",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "Verkoopcyclus: doelstellingen (financieel, operationeel, conformiteit)",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr3 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr3"
+      },
+      "vraag_id": "2024-1-vr3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A bevat 4 concrete stellingen die elk als afzonderlijke juist/fout-deelvraag worden gemodelleerd (a1–a4), conform spec §4 (5 stellingen onder één paraplu = 5 deelvragen). Deelvragen B en C zijn topic_only: enkel onderwerp, geen stellingen bewaard in de herinnering.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "subvraag_zonder_inhoud"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "ontbinding",
+          "vereffening",
+          "omzetting",
+          "BV",
+          "CV",
+          "authentieke akte",
+          "bijzondere mandaten",
+          "WVV"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr4",
+        "vraag_onderwerp": "Bijzondere mandaten — ontbinding, vereffening en omzetting",
+        "vragen": [
+          {
+            "id": "a1",
+            "label_in_pdf": "A.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "CV ontbonden door AV bij gewone meerderheid.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "a2",
+            "label_in_pdf": "A.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vrijwillige ontbinding BV: verslag externe accountant is verplicht als de meerderheid van de aandeelhouders hierom vraagt.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "a3",
+            "label_in_pdf": "A.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "AV voor de vereffening van BV moet bij authentieke akte.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "a4",
+            "label_in_pdf": "A.4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "AV voor het sluiten van de vereffening van BV moet bij authentieke akte.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "Verschillende stellingen juist of fout ivm ontbinding en vereffening",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "Verschillende stellingen juist of fout ivm omzettingen",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr4 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr4"
+      },
+      "vraag_id": "2024-1-vr4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Deelvraag C: ongehuwd belastingplichtige verhuurt een gemeubeld onroerend goed aan een natuurlijk persoon. KI = 1.500 euro. Opbrengst = 3.000,00 euro per kwartaal.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Alle vier deelvragen hebben een herkenbare vraagstelling. De gegevens van deelvraag C (KI en opbrengst) zijn opgenomen in context_blokken als casus_context. Deelvraag A is juist/fout met een volledige stelling.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "meewerkend echtgenoot",
+          "ministatuut",
+          "onroerend goed",
+          "onroerende voorheffing",
+          "gemeubeld verhuur",
+          "kadastraal inkomen",
+          "beroepsinkomsten",
+          "progressief tarief"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr5",
+        "vraag_onderwerp": "Personenbelasting",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Van de toekenning aan de meewerkend echtgenoot, aangesloten ministatuut, wordt er een forfaitaire kostenaftrek van 5% in mindering gebracht.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Ik bezit een niet gemeubeld onroerend goed om te verhuren aan privépersoon als bewoning. De woning is door overstroming 6 maand niet verhuurd geweest. Wat met de Onroerende Voorheffing?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Ik ben ongehuwd en verhuur een gemeubeld onroerend goed aan een natuurlijk persoon (KI = 1.500 euro, opbrengst = 3.000,00 euro per kwartaal). Welke bedragen waar opnemen in de aangifte?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke beroepsinkomsten zijn niet aan het progressief belastingtarief onderworpen?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr5 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr5"
+      },
+      "vraag_id": "2024-1-vr5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A en B zijn volledige mc_keuze-vragen met resp. 4 en 5 opties conform PNG. Deelvraag C is topic_only: de concrete inhoud van de vragen over het openbaar register is niet bewaard. Deelvraag D heeft een herkenbare vraagstelling. Deelvraag E bevat 4 concrete AMLCO-stellingen — elk als afzonderlijke juist/fout-deelvraag gemodelleerd (e1–e4).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "subvraag_zonder_inhoud"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "ereloon",
+          "commissielonen",
+          "contante betalingen",
+          "antiwitwaswet",
+          "openbaar register",
+          "UBO register",
+          "AMLCO",
+          "witwaspreventie"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr6",
+        "vraag_onderwerp": "Deontologie en antiwitwaswetgeving",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Barema ITAA"
+              },
+              {
+                "id": "b",
+                "tekst": "Zelf vaststellen"
+              },
+              {
+                "id": "c",
+                "tekst": "Provisie/voorschotten zijn verboden"
+              },
+              {
+                "id": "d",
+                "tekst": "Kan bestaan uit commissielonen"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Ereloon accountant: welke stelling is juist?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Dienstverstrekkers, zoals accountants en belastingadviseurs mogen 2.500 EUR contante betaling ontvangen"
+              },
+              {
+                "id": "b",
+                "tekst": "Bij verkoop van een onroerend goed mag een notaris geen enkele betaling in contanten ontvangen"
+              },
+              {
+                "id": "c",
+                "tekst": "De drempel inzake contante betalingen is niet alleen van toepassing op contante betalingen maar ook op schenkingen"
+              },
+              {
+                "id": "d",
+                "tekst": "Indien de koper zich naar een postkantoor begeeft, waarbij de koper het bedrag van 5.000 EUR in contanten laat storten op de bankrekening van de handelaar, is dit in overeenstemming met de antiwitwaswetgeving"
+              },
+              {
+                "id": "e",
+                "tekst": "Er is ook een drempel van 3.000 EUR voor verrichtingen tussen consumenten onderling."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke stelling is fout?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "Vragen met betrekking tot het openbaar register",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vragen mbt UBO register: wie moet worden opgenomen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e1",
+            "label_in_pdf": "E.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "AMLCO moet intern verslag maken bij atypische verrichtingen.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "e2",
+            "label_in_pdf": "E.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "AMLCO moet intern verslag maken wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de klant.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "e3",
+            "label_in_pdf": "E.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "AMLCO moet intern verslag maken wanneer na het uitvoeren van de risicobeoordeling het kantoor beslist om de potentiële cliënt te weigeren wegens WG/FT risico.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "e4",
+            "label_in_pdf": "E.4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "AMLCO zal minstens om de 2 jaar een actualiteitsverslag opmaken.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr6 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr6"
+      },
+      "vraag_id": "2024-1-vr6"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A bevat 4 mc-stijl opties maar de vraag is 'juist/fout' per methode-combinatie — gemodelleerd als 4 juist/fout-deelvragen a1–a4. Deelvraag B bevat 4 stellingen over voorzichtigheidsprincipe (b1–b4). Deelvraag C bevat 4 stellingen over IAS/IFRS (c1–c4); c2 is fragment: de stelling over terrainskosten is onvolledig ('……?'). Typo 'Fifi' in tekst.txt gecorrigeerd naar 'FIFO' (optie A.2). Typo 'laesing' gecorrigeerd naar 'leasing' in D. 'VA' uitgeschreven als 'vaste activa'.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "IAS/IFRS",
+          "voorraadwaardering",
+          "FIFO",
+          "LIFO",
+          "gewogen gemiddelde",
+          "voorzichtigheidsprincipe",
+          "afschrijvingen",
+          "leasing",
+          "uitzonderlijke opbrengsten"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr7",
+        "vraag_onderwerp": "IFRS — voorraadwaardering, voorzichtigheidsprincipe en vaste activa",
+        "vragen": [
+          {
+            "id": "a1",
+            "label_in_pdf": "A.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Onder IAS/IFRS zijn volgende methoden mogelijk: FIFO, LIFO, gewogen gemiddelde, individueel.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "a2",
+            "label_in_pdf": "A.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Onder IAS/IFRS zijn volgende methoden mogelijk: FIFO, gewogen gemiddelde, individueel.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "a3",
+            "label_in_pdf": "A.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Onder IAS/IFRS zijn volgende methoden mogelijk: LIFO, gewogen gemiddelde, individueel.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "a4",
+            "label_in_pdf": "A.4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Onder IAS/IFRS zijn volgende methoden mogelijk: FIFO en gewogen gemiddelde.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b1",
+            "label_in_pdf": "B.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Richtlijn 2013/34/EU, opname waardering volgens voorzichtigheidsprincipe: winsten mogen slechts opgenomen worden voor zover zij op balansdatum gerealiseerd zijn.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b2",
+            "label_in_pdf": "B.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Richtlijn 2013/34/EU, opname waardering volgens voorzichtigheidsprincipe: verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar worden opgenomen, ook als die verplichting pas wordt bekend tussen balansdatum en de datum waarop de balans wordt opgesteld.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b3",
+            "label_in_pdf": "B.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Richtlijn 2013/34/EU, opname waardering volgens voorzichtigheidsprincipe: alle negatieve waardecorrecties worden opgenomen ongeacht of het boekjaar met winst of verlies wordt afgesloten.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b4",
+            "label_in_pdf": "B.4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Richtlijn 2013/34/EU, opname waardering volgens voorzichtigheidsprincipe: voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde vaste activa aan geherwaardeerde waarde op te nemen.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c1",
+            "label_in_pdf": "C.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Onder IAS/IFRS zijn degressieve afschrijvingen toegestaan.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c2",
+            "label_in_pdf": "C.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "fragment",
+            "vraagstelling": "Kosten voor voorbereiding van een terrein……?",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c3",
+            "label_in_pdf": "C.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Onder IAS/IFRS is het boeken van uitzonderlijke opbrengsten toegestaan.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c4",
+            "label_in_pdf": "C.4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Afschrijving op materiële vaste activa mag stopgezet worden wanneer de reële waarde van het actief groter is dan de boekwaarde.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe behandelen: operationele / financiële leasing?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr7 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr7"
+      },
+      "vraag_id": "2024-1-vr7"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "d",
+          "tekst": "100.000 – 10.000 tantième = 90.000 euro",
+          "vermoedelijke_status": "stagiair-notitie van eigen antwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Deelvraag B (fusie casus): Moeder A fuseert (neutraal) met Dochter B, waarin ze 100% bezit. Netto Actief van B = 100. Fiscale waarde van de participatie in B in de boekhouding van A = 20. Overgedragen fiscale verliezen van B = 30. Overdraagbare aftrek innovatie-inkomsten A = 40.",
+            "type": "casus_context"
+          },
+          {
+            "tekst": "Deelvraag C (VOF casus): Boekjaar N: 120.000 euro belastbare winst, alle voorwaarden voldaan voor verlaagd tarief 20%. VOF bestaat sinds 1/1/N-2, boekjaar is kalenderjaar.",
+            "type": "casus_context"
+          },
+          {
+            "tekst": "Deelvraag D (NV A casus): NV A, boekjaar afgesloten 31/12/22. Winst voor belasting = 100.000 euro (voor winstuitkering). Belgische belasting = 20.000 euro. De AV beslist om een tantième van 10.000 euro toe te kennen en een gewoon dividend van 20.000 euro uit te keren.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A is topic_only: de concrete stellingen over overdraagbare fiscale verliezen zijn niet bewaard. Deelvraag B bevat twee sub-berekeningen (b1 en b2) met een gedeelde casuscontext. Deelvraag D bevat een antwoord-hint ('100.000 – 10.000 tantième = 90.000 euro') zichtbaar in de PNG — geflaged als antwoord_hint_in_vraag. Deelvraag E vraagt een opsomming van besmette verworpen uitgaven — modellering als open. 'Takxshelter' in tekst.txt is vermoedelijk typo voor 'taxshelter' maar onduidelijk — niet gecorrigeerd.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig",
+          "subvraag_zonder_inhoud"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "fiscale verliezen",
+          "overdraagbare verliezen",
+          "fusie moeder-dochter",
+          "DBI aftrek",
+          "innovatie-inkomsten",
+          "voorafbetalingen",
+          "verlaagd tarief",
+          "belastbare basis",
+          "tantième",
+          "besmette verworpen uitgaven"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr8",
+        "vraag_onderwerp": "Vennootschapsbelasting",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": "Stellingen ivm overdraagbare fiscale verliezen",
+            "volledigheid": "topic_only",
+            "vraagstelling": null,
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b1",
+            "label_in_pdf": "B.a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoeveel bedraagt de meer- of minderwaarde die A zal realiseren op de deelneming in B ingevolge de moeder-dochter fusie?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b2",
+            "label_in_pdf": "B.b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Boekjaar N: 120.000 euro belastbare winst, alle voorwaarden voldaan voor verlaagd tarief 20%. VOF bestaat sinds 1/1/N-2, boekjaar is kalenderjaar. Wat met voorafbetalingen / vermeerderingen wegens onvoldoende voorafbetaling?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "NV A (boekjaar 31/12/22): winst voor belasting 100.000 euro, Belgische belasting 20.000 euro. AV beslist om tantième van 10.000 euro toe te kennen en gewoon dividend van 20.000 euro uit te keren. Hoeveel bedraagt de belastbare basis van A voor aanslagjaar 2023?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "E",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat zijn de 'besmette' verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr8 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr8"
+      },
+      "vraag_id": "2024-1-vr8"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2024-1",
+        "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Alle vijf deelvragen hebben een herkenbare, volledige vraagstelling. Vraag overspant twee pagina's (pagina 5 en 6) maar de vraaginhoud zelf staat volledig op pagina 5 (pagina 6 bevat enkel het einde van vraag 8 en het begin van vraag 10).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "bericht van wijziging",
+          "aangetekende zending",
+          "termijnen",
+          "verjaring",
+          "vraag om inlichtingen",
+          "bewaarplicht",
+          "emigratie belastingplichtige"
+        ],
+        "vraag_herkomst": "herinnering",
+        "vraag_id": "2024-1-vr9",
+        "vraag_onderwerp": "Fiscale procedure",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een bericht van wijziging wordt aangetekend verstuurd. Wat is de uiterlijke termijn?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een belastingplichtige verlaat België. Wat te doen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bij een bericht van wijziging is de verjaringstermijn nakende. Wat te doen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vraag om inlichtingen: wat is de termijn?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "E",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bewaarplicht: welke stukken moeten bewaard worden en wat is de bewaartermijn?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2024-1",
+        "karakter": "auto-isolatie 2024-1-vr9 pagina 5-6",
+        "pagina_nummers": [
+          5,
+          6
+        ],
+        "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2024-1-vr9"
+      },
+      "vraag_id": "2024-1-vr9"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2003-bibf.pdf",
   "examen_id": "2003-bibf",
-  "merge_datum": "2026-05-21T00:54:34+00:00",
+  "merge_datum": "2026-05-21T01:29:11+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -220,6 +220,1798 @@
         "vraag_id": "2003-bibf-vrA1"
       },
       "vraag_id": "2003-bibf-vrA1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Op de proef- en saldibalans staan volgende bedragen: rekening 32 Goederen in bewerking (D) 500,00 EUR en rekening 34 Handelsgoederen (D) 7.000,00 EUR. De inventaris per einde boekjaar geeft: goederen in bewerking 400,00 EUR en handelsgoederen 8.500,00 EUR. Marktwaarde handelsgoederen: 8.250,00 EUR. Er werd ook vastgesteld dat bepaalde goederen moeten worden afgeprijsd voor een totaal bedrag van 75,00 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Eén deelvraag — boeking-instructie. Vraagtype 'open' want boeking is antwoord-vorm. Context bevat alle nodige gegevens: saldo's uit proef- en saldibalans, inventariswaarden, marktwaarde en afprijzingsbedrag. PNG bevestigt de tabelstructuur.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "afsluitingsboekingen",
+          "voorraden",
+          "waardeverminderingen",
+          "goederen in bewerking",
+          "handelsgoederen",
+          "marktwaarde",
+          "afprijzing"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrA2",
+        "vraag_onderwerp": "Afsluitingsboekingen voor voorraden met waardeverminderingen",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "Vraag",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef de afsluitingsboekingen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrA2 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrA2"
+      },
+      "vraag_id": "2003-bibf-vrA2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Directe open vraag met twee onderdelen (wie mag + wat is het). Geen context-blok nodig — vraag is op zichzelf staand. Vraagtype 'open' (definitie/procedure).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "vereenvoudigde boekhouding",
+          "boekhoudwetgeving",
+          "ondernemingsvormen",
+          "boekhoudverplichtingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrB1",
+        "vraag_onderwerp": "Vereenvoudigde boekhouding: toepassingsgebied en inhoud",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "B.1 Vraag",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrB1 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrB1"
+      },
+      "vraag_id": "2003-bibf-vrB1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Directe open vraag met twee onderdelen (inhoud + frequentie). Vraagtype 'open' (definitie/procedure).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "centraal boek",
+          "vereenvoudigde boekhouding",
+          "boekhoudregistratie",
+          "frequentie"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrB2",
+        "vraag_onderwerp": "Centraal boek: registratie-inhoud en frequentie",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "B.2 Vraag",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrB2 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrB2"
+      },
+      "vraag_id": "2003-bibf-vrB2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Directe open vraag met twee onderdelen (welke activa + voorwaarden). Vraagtype 'open' (definitie/procedure).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "herwaardering",
+          "activa",
+          "herwaarderingsmeerwaarden",
+          "voorwaarden",
+          "jaarrekening"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrB3",
+        "vraag_onderwerp": "Herwaardering van activa: voorwaarden en toepassingsgebied",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "B.3 Vraag",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke activa mogen geherwaardeerd worden en onder welke voorwaarden?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrB3 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrB3"
+      },
+      "vraag_id": "2003-bibf-vrB3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Directe open vraag met één onderdeel (boekhoudpost). Vraagtype 'open' (procedure/classificatie). Casus-context voor het gehuurde-gebouwen-scenario.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "inrichtingskosten",
+          "gehuurde gebouwen",
+          "materiële vaste activa",
+          "boekhoudposten",
+          "balansclassificatie"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrB4",
+        "vraag_onderwerp": "Boeking van inrichtingskosten in gehuurde gebouwen",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "B.4 Vraag",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "In welke post(en) worden deze kosten geboekt?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrB4 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrB4"
+      },
+      "vraag_id": "2003-bibf-vrB4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Verwijzing naar geval A uit vraag A.1 (kapitaalsubsidie boekjaar 2002 op een afschrijfbaar actief).",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Open vraag over toelichtingsvereisten bij kapitaalsubsidies voor twee boekjaren. Bouwt voort op casus van vrA1 (geval A). Vraagtype 'open' (procedure). Context verwijst naar geval A.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "kapitaalsubsidie",
+          "toelichting jaarrekening",
+          "boekhoudverplichtingen",
+          "boekjaar 2002",
+          "boekjaar 2003"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrB5",
+        "vraag_onderwerp": "Toelichting bij kapitaalsubsidies: meldingen in de jaarrekening",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "B.5 Vraag",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrB5 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrB5"
+      },
+      "vraag_id": "2003-bibf-vrB5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "actief": {
+              "headers": [
+                "Rubriek",
+                "Bedrag (EUR)"
+              ],
+              "rows": [
+                [
+                  "Vaste activa",
+                  "150.040,00"
+                ],
+                [
+                  "Voorraden",
+                  "41.000,00"
+                ],
+                [
+                  "Vorderingen op < 1 jaar",
+                  "42.700,00"
+                ],
+                [
+                  "Geldbeleggingen",
+                  "10.000,00"
+                ],
+                [
+                  "Liquide middelen",
+                  "37.500,00"
+                ],
+                [
+                  "TOTAAL ACTIVA",
+                  "281.240,00"
+                ]
+              ]
+            },
+            "passief": {
+              "headers": [
+                "Rubriek",
+                "Bedrag (EUR)"
+              ],
+              "rows": [
+                [
+                  "Kapitaal",
+                  "100.000,00"
+                ],
+                [
+                  "Reserves",
+                  "50.400,00"
+                ],
+                [
+                  "Overgedragen winst",
+                  "2.750,00"
+                ],
+                [
+                  "Schulden op > 1 jaar",
+                  "51.000,00"
+                ],
+                [
+                  "Schulden op < 1 jaar",
+                  "77.090,00"
+                ],
+                [
+                  "TOTAAL PASSIVA",
+                  "281.240,00"
+                ]
+              ]
+            },
+            "type": "balans"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Vier berekeningsvragen op basis van een gedeelde balans. Vraagtype 'open' want berekening is antwoord-vorm. Balans opgesplitst in actief/passief conform schema v1.1. Liquide middelen zijn apart van geldbeleggingen — relevant voor acid test. PNG bevestigt de balansstructuur.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "netto bedrijfskapitaal",
+          "liquiditeitsratio",
+          "current ratio",
+          "acid test",
+          "solvabiliteitsratio",
+          "balansanalyse",
+          "financieel beheer"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrC1",
+        "vraag_onderwerp": "Financieel beheer: berekening liquiditeits- en solvabiliteitsratio's",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken het netto bedrijfskapitaal.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de ruime liquiditeitsratio (current ratio).",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de beperkte liquiditeitsratio (acid test).",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de solvabiliteitsratio.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrC1 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrC1"
+      },
+      "vraag_id": "2003-bibf-vrC1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Naast de balans van C.1 blijken volgende cijfers uit de resultatenrekening.",
+            "type": "casus_context"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 2750,
+                "label": "Winst van het boekjaar"
+              },
+              {
+                "bedrag": 12100,
+                "label": "Afschrijvingen"
+              },
+              {
+                "bedrag": 6300,
+                "label": "Toevoegingen aan voorzieningen"
+              },
+              {
+                "bedrag": -1650,
+                "label": "Bestedingen van voorzieningen"
+              },
+              {
+                "bedrag": 780,
+                "label": "Toevoegingen aan waardeverminderingen"
+              }
+            ],
+            "titel": "Resultatenrekening (relevante posten)",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Berekeningsvraag op basis van resultatenrekening-gegevens. Vraagtype 'open' want berekening is antwoord-vorm. Gegevens-blok als gegevens_tabel met label/bedrag-paren. Bouwt voort op de balans van C.1.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "operationele cash-flow",
+          "cash-flow analyse",
+          "afschrijvingen",
+          "voorzieningen",
+          "waardeverminderingen",
+          "financieel beheer"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrC2",
+        "vraag_onderwerp": "Berekening van de operationele cash-flow",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "C.2 Vraag",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de operationele cash-flow.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrC2 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrC2"
+      },
+      "vraag_id": "2003-bibf-vrC2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW-administratie voor het statuut van normale trimestriële BTW-belastingplichtige. Hij vraagt u om zijn boekhoudkundig dossier te beheren.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Open vraag met twee samenhangende onderdelen (wettelijke verplichtingen + documenten per trimester). Twee aspecten van dezelfde instructie, niet twee aparte deelvragen. Vraagtype 'open' (procedure). OCR-artefact 'BTW- belastingplichtige' gecorrigeerd.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW-verplichtingen",
+          "normale BTW-aangifte",
+          "trimestrieel",
+          "horecasector",
+          "zelfstandige",
+          "boekhouding organiseren",
+          "wettelijke verplichtingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrD1",
+        "vraag_onderwerp": "BTW-verplichtingen en boekhouding voor een zelfstandige horeca-uitbater",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "D.1 Vraag",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie u ieder trimester van hem wenst te ontvangen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrD1 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrD1"
+      },
+      "vraag_id": "2003-bibf-vrD1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding 'voldaan' voor het totaal der uitgevoerde werken.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Twee deelvragen: (a) advies over werkwijze — vraagt expliciet om redenering, motivatie_verwacht: true; (b) bewaarplicht documenten — afzonderlijk onderwerp. Vraagtype 'open' voor beide.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW-facturering",
+          "voorschotfacturen",
+          "schrijnwerker",
+          "aannemingswerken",
+          "factuurverplichtingen",
+          "bewaarplicht documenten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrD2",
+        "vraag_onderwerp": "BTW-factureringsverplichtingen bij voorschotfacturen voor schrijnwerkerswerken",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Vraag a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Is er een reden om hem te adviseren zijn werkwijze aan te passen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "Vraag b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk zijn de documenten die hij dient te bewaren?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrD2 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrD2"
+      },
+      "vraag_id": "2003-bibf-vrD2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "De vraag verzoekt een kruisje te plaatsen bij economische activiteiten die geen recht geven op BTW-aftrek. Vier opties gepresenteerd als aanvink-lijst — vertaald als vier juist/fout-deelvragen met de stelling 'geeft geen recht op BTW-aftrek'. OCR-artefacten (cid:137) vervangen door de eigenlijke aanvinksymbolen. PNG bevestigt de vier opties.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact",
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW-aftrekrecht",
+          "BTW-belastingplichtige",
+          "zaakvoerder",
+          "bestuurder",
+          "vereffenaar",
+          "VZW",
+          "permanente vorming"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrE1",
+        "vraag_onderwerp": "BTW-aftrekrecht: economische activiteiten zonder aftrekrecht",
+        "vragen": [
+          {
+            "id": "i1_1",
+            "label_in_pdf": "Stelling 1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een natuurlijke persoon 'zaakvoerder' van een BVBA geeft geen recht op BTW-aftrek.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "i1_2",
+            "label_in_pdf": "Stelling 2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een natuurlijke persoon 'bestuurder' van een NV geeft geen recht op BTW-aftrek.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "i1_3",
+            "label_in_pdf": "Stelling 3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een VZW die fiscale seminaries organiseert bestemd voor de economische beroepsbeoefenaars in het kader van de permanente vorming geeft geen recht op BTW-aftrek.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "i1_4",
+            "label_in_pdf": "Stelling 4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een natuurlijk persoon 'vereffenaar' van een CVBA geeft geen recht op BTW-aftrek.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrE1 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrE1"
+      },
+      "vraag_id": "2003-bibf-vrE1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Vier berekeningsgevallen voor aftrekbare BTW. Elk geval is een afzonderlijke berekeningsvraag (open). Antwoord dient in cijfers uitgedrukt te worden — dat is een antwoord-instructie, geen extra deelvraag. OCR-typefouten gecorrigeerd (514, 50 → 514,50; 10.000,00).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW-aftrek",
+          "brandstof",
+          "relatiegeschenken",
+          "medecontractant",
+          "intracommunautaire verwerving",
+          "accijnzen",
+          "personeelsgeschenken"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrE2",
+        "vraag_onderwerp": "Berekening aftrekbare BTW in diverse gevallen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Geval 1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk is de aftrekbare BTW op een factuur van 100,00 EUR BTW voor brandstof voor een auto die voor 25% voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75% privé)?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "Geval 2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk is de aftrekbare BTW op 514,50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf? Er is geen logo van de firma terug te vinden op de pennen.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "Geval 3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk is de aftrekbare BTW op een factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit 'bouwpromotor', met correcte toepassing van de regeling inzake de medecontractant (KB nr. 1, artikel 20)?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "Geval 4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk is de aftrekbare BTW bij een intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn aan 18,00 EUR per fles van een wijnboer in Frankrijk (totaal 2.700,00 EUR)? De Belgische accijnzen bedragen 4,00 EUR per fles (600,00 EUR totaal). De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrE2 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrE2"
+      },
+      "vraag_id": "2003-bibf-vrE2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Verrichtingen verricht in de loop van het jaar 2003, in hoofde van een BTW-belastingplichtige, ontvanger van BTW met recht op aftrek. Bij 'JA' dient het bedrag van de verschuldigde belasting vermeld te worden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrag te komen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Vier JA/NEEN-verrichtingen met bedrag-toelichting bij JA. Elk is een juist/fout-deelvraag. Motivatie_verwacht: true want het bedrag en de formule worden expliciet gevraagd bij JA-antwoord. Vraagstelling licht herschreven voor duidelijkheid; taalcorrecties (1.500, 00 → 1.500,00).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW-verschuldigdheid",
+          "afgeschreven bedrijfsmiddelen",
+          "voordeel alle aard",
+          "franchisesysteem",
+          "intracommunautaire levering",
+          "herziening BTW"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrE3",
+        "vraag_onderwerp": "BTW-verschuldigdheid bij diverse verrichtingen — ja/neen met bedrag",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Stelling 1",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper): BTW verschuldigd?",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "Stelling 2",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Voordeel van alle aard van 1.500,00 EUR voor het gebruik van een auto door een personeelslid: BTW verschuldigd?",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "Stelling 3",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Overschakeling van het normale regime naar het franchisesysteem waarbij bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR excl. 21% BTW (belasting die geheel werd afgetrokken): BTW verschuldigd?",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "Stelling 4",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Verkoop van goederen voor 10.000 EUR met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat: BTW verschuldigd?",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrE3 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrE3"
+      },
+      "vraag_id": "2003-bibf-vrE3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Vier datum/termijn-vragen voor specifieke BTW-verplichtingen. Elk geval vraagt een datum of tijdstip (open). Het antwoord is een datum of beschrijving van een termijn.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW-klantenlistings",
+          "BTW-voorschot december",
+          "formulier 604B",
+          "formulier 604C",
+          "BTW-deadlines",
+          "BTW-administratie"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrE4",
+        "vraag_onderwerp": "BTW-termijnen en deadlines voor diverse verplichtingen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Geval 1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is het wettelijk tijdstip of de uiterste datum voor de neerlegging van de jaarlijkse klantenlistings (onderworpen en geïdentificeerd bij de BTW)?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "Geval 2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is het wettelijk tijdstip of de uiterste datum voor de betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW-aangiftes doet?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "Geval 3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is het wettelijk tijdstip of de uiterste datum voor de afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) bij wijziging van effectief domicilie op 1 april 2003?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "Geval 4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is het wettelijk tijdstip of de uiterste datum voor de afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) bij definitieve stopzetting op 31 maart 2003?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrE4 pagina 5",
+        "pagina_nummers": [
+          5
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrE4"
+      },
+      "vraag_id": "2003-bibf-vrE4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Vier JUIST/FOUT-stellingen over het dagboek van ontvangsten. Elk is een aparte juist_fout-deelvraag. PNG bevestigt de vier stellingen. Geen motivering gevraagd — enkel omcirkelen.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "dagboek van ontvangsten",
+          "BTW-administratie",
+          "kassaregistratie",
+          "exploitatiezetels",
+          "bewaarplicht",
+          "boekhoudverplichtingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrE5",
+        "vraag_onderwerp": "Dagboek van ontvangsten — juist/fout stellingen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Stelling 1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "Stelling 2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "Stelling 3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "Stelling 4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW-aangifte op te stellen.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrE5 pagina 5",
+        "pagina_nummers": [
+          5
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrE5"
+      },
+      "vraag_id": "2003-bibf-vrE5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De Heer en Mevrouw Janssens zijn eigenaar van twee onroerende goederen: onroerend goed A (buiten de stad, woonhuis) en onroerend goed B (centrum van de stad). Zij hebben 4 kinderen van respectievelijk 12, 9, 7 en 4 jaar en wonen allen samen in huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt onroerend goed B van de familie Janssens voor een huurprijs van 15.000 EUR per jaar verhoogd met de onroerende voorheffing.",
+            "type": "casus_context"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 1050,
+                "label": "Woonhuis A — KI"
+              },
+              {
+                "bedrag": 1202,
+                "label": "Woonhuis B — KI"
+              },
+              {
+                "bedrag": 3.35,
+                "label": "Revalorisatiecoëfficiënt (Art. 1 KBWIB 92)"
+              }
+            ],
+            "titel": "Kadastrale inkomens en revalorisatiecoëfficiënt",
+            "type": "gegevens_tabel"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 30000,
+                "label": "Jaarlijkse bruto bezoldiging"
+              },
+              {
+                "bedrag": 4800,
+                "label": "Sociale bijdrage voor rekening Heer Janssens, betaald door de NV (per trimester 1.200 EUR)"
+              },
+              {
+                "bedrag": 887,
+                "label": "Netto bedrag mutualiteitbijdrage"
+              },
+              {
+                "bedrag": 4636,
+                "label": "Ingehouden en doorgestorte bedrijfsvoorheffing"
+              },
+              {
+                "bedrag": 1500,
+                "label": "Voordelen van alle aard (auto)"
+              }
+            ],
+            "titel": "Gegevens Vak II — bezoldigingen Heer Janssens",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Berekeningsvraag voor Vak II personenbelasting (bedrijfsleider). Gegevens gestructureerd als twee gegevens_tabellen: KI + revalorisatie, en de loongegevens. Forfaitaire beroepskosten staan als 'UIT TE REKENEN' in het bronmateriaal — dit is onderdeel van de berekening. Vraagtype 'open' (berekening). PNG bevestigt de opgegeven gegevens.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "personenbelasting",
+          "bedrijfsleider",
+          "bezoldigingen",
+          "voordelen alle aard",
+          "forfaitaire beroepskosten",
+          "sociale bijdragen",
+          "onroerende inkomsten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrF1",
+        "vraag_onderwerp": "Personenbelasting: belastbare basis bedrijfsleider (Vak II)",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "F.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van de opgegeven gegevens, inclusief de berekening van de forfaitaire beroepskosten.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrF1 pagina 5",
+        "pagina_nummers": [
+          5
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrF1"
+      },
+      "vraag_id": "2003-bibf-vrF1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De BVBA Albert legt een balans afgesloten op 31/12/2002 voor, voorafgaand aan de bestemming van het resultaat. De algemene vergadering van 17 mei 2003 beslist om het resultaat van het boekjaar te bestemmen: wettelijke reserve nihil (10% reeds bereikt), uitkering dividenden 40.000 EUR, toekenning beschikbare reserve 18.000 EUR, overgedragen winst 4.000 EUR.",
+            "type": "casus_context"
+          },
+          {
+            "actief": {
+              "headers": [
+                "Rubriek",
+                "Bedrag (EUR)"
+              ],
+              "rows": [
+                [
+                  "Vaste Activa",
+                  "79.260"
+                ],
+                [
+                  "Financiële Activa",
+                  "30.000"
+                ],
+                [
+                  "Vlottende Activa",
+                  "20.000"
+                ],
+                [
+                  "TOTAAL ACTIVA",
+                  "129.260"
+                ]
+              ]
+            },
+            "passief": {
+              "headers": [
+                "Rubriek",
+                "Bedrag (EUR)"
+              ],
+              "rows": [
+                [
+                  "Onderschreven kapitaal",
+                  "18.600"
+                ],
+                [
+                  "Herwaarderingsmeerwaarden",
+                  "600"
+                ],
+                [
+                  "Wettelijke reserve",
+                  "1.860"
+                ],
+                [
+                  "Vrijgestelde reserve",
+                  "200"
+                ],
+                [
+                  "Beschikbare reserve",
+                  "16.000"
+                ],
+                [
+                  "Te bestemmen winst van het boekjaar",
+                  "62.000"
+                ],
+                [
+                  "Schulden op minder dan één jaar",
+                  "30.000"
+                ],
+                [
+                  "TOTAAL PASSIVA",
+                  "129.260"
+                ]
+              ]
+            },
+            "type": "balans"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 1200,
+                "label": "Dividenden ontvangen van NV (80% kapitaalparticipatie)"
+              },
+              {
+                "bedrag": 400,
+                "label": "Roerende voorheffing op dividenden"
+              }
+            ],
+            "titel": "Bijkomende gegevens — opbrengsten",
+            "type": "gegevens_tabel"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 20000,
+                "label": "67 — Belastingen op inkomsten en voorafbetalingen"
+              },
+              {
+                "bedrag": 400,
+                "label": "67 — Roerende voorheffing"
+              },
+              {
+                "bedrag": 1500,
+                "label": "61 — Autokosten"
+              },
+              {
+                "bedrag": 3800,
+                "label": "63 — Afschrijvingen auto"
+              },
+              {
+                "bedrag": 2000,
+                "label": "61 — Representatiekosten, restaurants enz."
+              },
+              {
+                "bedrag": 60,
+                "label": "63 — Afschrijvingen genoteerde meerwaarde op vaste activa (1ste boekjaar)"
+              },
+              {
+                "bedrag": 160,
+                "label": "61 — Liberaliteiten totaal (waarvan 80 EUR verantwoord door attest)"
+              },
+              {
+                "bedrag": 100,
+                "label": "64 — Onroerende voorheffing"
+              }
+            ],
+            "titel": "Bijkomende gegevens — kosten (rekening 67/61/63/64)",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Uitgebreide berekening/procedure voor aangifte vennootschapsbelasting. Balans gesplitst actief/passief. Gegevens gestructureerd als twee gegevens_tabellen (opbrengsten en kostenposten). Afschrijving genoteerde meerwaarde was OCR-truncated (60 was zichtbaar in PNG). PNG bevestigt de volledige structuur.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar",
+          "ocr_artefact"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "vennootschapsbelasting",
+          "aangifte vennootschapsbelasting",
+          "definitief belaste inkomsten",
+          "DBI-aftrek",
+          "autokosten",
+          "afschrijvingen",
+          "liberaliteiten",
+          "belastbare basis"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrG1",
+        "vraag_onderwerp": "Vennootschapsbelasting: invullen aangifte en belastbare basis BVBA Albert",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "G.1 Opgave",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vul vak per vak de aangifte in de vennootschapsbelasting in op basis van de bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrG1 pagina 6",
+        "pagina_nummers": [
+          6
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrG1"
+      },
+      "vraag_id": "2003-bibf-vrG1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "MC-vraag met 4 opties. OCR-artefacten (cid:137) vervangen door de opties zoals zichtbaar op de PNG. Optie c bevat 'dwangbevel' — conform PNG correct overgenomen.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact",
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW-inregelstelling",
+          "bezwaartermijn",
+          "BTW-procedures",
+          "belastingprocedure"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrH1",
+        "vraag_onderwerp": "BTW-inregelstelling: wettelijke termijn",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "H.1",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Er is geen enkele termijn voor zover de wettelijke verjaringstermijn niet verstreken is."
+              },
+              {
+                "id": "b",
+                "tekst": "Op straffe van verval binnen de 3 kalendermaanden vanaf de invorderingstermijn."
+              },
+              {
+                "id": "c",
+                "tekst": "Ten laatste aan het einde van de derde burgerlijke maand die volgt op de betekening van het dwangbevel."
+              },
+              {
+                "id": "d",
+                "tekst": "Binnen de 30 dagen vanaf de datum van het overzicht van de regularisaties."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Binnen welke termijn dient een BTW-inregelstelling ingediend te worden?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrH1 pagina 6",
+        "pagina_nummers": [
+          6
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrH1"
+      },
+      "vraag_id": "2003-bibf-vrH1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De belastingplichtige heeft geen verzoek ingediend (en dus ook niet gekregen) teneinde een bijkomende termijn voor het indienen van de aangifte te bekomen. Hij doet zijn aangifte in de personenbelasting laattijdig.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Open vraag over rechtsgevolgen van laattijdige aangifte. Casus beschrijft de specifieke situatie (geen bijkomende termijn aangevraagd). Vraagtype 'open' (procedure/rechtsgevolgen).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "personenbelasting",
+          "aangifte",
+          "laattijdige aangifte",
+          "belastingprocedure",
+          "ambtshalve aanslag",
+          "belastingverhoging"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrH2",
+        "vraag_onderwerp": "Gevolgen van laattijdige personenbelasting-aangifte",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "H.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk zijn de gevolgen van het laattijdig toekomen van zijn aangifte bij de belastingadministratie?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrH2 pagina 7",
+        "pagina_nummers": [
+          7
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrH2"
+      },
+      "vraag_id": "2003-bibf-vrH2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Intracommunautaire verwervingen door een in België gevestigde restaurateur. De vraag betreft de heffing van Belgische accijnzen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Vier JA/NEEN-stellingen over accijnsheffing bij intracommunautaire verwervingen. Vertaald als vier juist_fout-deelvragen. Geen motivering gevraagd — enkel omcirkelen.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "accijnzen",
+          "intracommunautaire verwerving",
+          "horeca",
+          "sigaren",
+          "champagne",
+          "stookolie",
+          "hout"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrI1",
+        "vraag_onderwerp": "Accijnzen bij intracommunautaire verwervingen door restaurateur",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Stelling 1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Er worden in België accijnzen geheven op de aankoop van sigaren bij een winkel gevestigd in Nederland.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "Stelling 2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Er worden in België accijnzen geheven op champagne die gekocht werd bij een Franse producent in Frankrijk.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "Stelling 3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Er worden in België accijnzen geheven op stookolie afkomstig van Duitsland voor de verwarming van het restaurant.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "Stelling 4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Er worden in België accijnzen geheven op hout voor de open haard verkocht door een handelaar die gevestigd is in Frankrijk.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrI1 pagina 7",
+        "pagina_nummers": [
+          7
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrI1"
+      },
+      "vraag_id": "2003-bibf-vrI1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een handelaar wenst zijn eenmanszaak om te zetten in een BVBA. Hij brengt in: gebouw (woon- en activiteitsgebouw) voor 200.000,00 EUR, materieel/apparatuur/meubilair voor 5.000,00 EUR, bestelwagen voor 10.000,00 EUR, gereed geld voor 10.000,00 EUR. De inbreng wordt vergoed met kapitaalaandelen voor 200.000,00 EUR en op rekening-courant voor 25.000,00 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Twee deelvragen: (a) formaliteiten bij oprichting, (b) berekening registratierechten. Vraagtype 'open' voor beide. De inbreng-informatie zit reeds in de casus-context.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "omzetting eenmanszaak",
+          "BVBA-oprichting",
+          "inbreng",
+          "registratierechten",
+          "vennootschapsrecht",
+          "oprichtingsformaliteiten",
+          "rekening-courant"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrI2",
+        "vraag_onderwerp": "Omzetting eenmanszaak naar BVBA: formaliteiten en registratierechten",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef de diverse formaliteiten (vennootschapsrechtelijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef aan hoeveel registratierechten hij zal betalen, wetende dat zijn inbreng als volgt vergoed wordt: met kapitaalaandelen voor 200.000,00 EUR en op rekening-courant voor 25.000,00 EUR.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrI2 pagina 7",
+        "pagina_nummers": [
+          7
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrI2"
+      },
+      "vraag_id": "2003-bibf-vrI2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Open vraag over de wettelijke alarmbelprocedure. Vraagtype 'open' (procedure/verplichting). Geen context-blok nodig — vraag is op zichzelf staand.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "alarmbelprocedure",
+          "overgedragen verlies",
+          "verlies van het boekjaar",
+          "vennootschapsrecht",
+          "bijzondere algemene vergadering"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrI3",
+        "vraag_onderwerp": "Alarmbelprocedure bij verlies — verplichtingen vennootschap",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "I.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat zijn de verplichtingen van een vennootschap ingeval uit de balans een overgedragen verlies blijkt of uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrI3 pagina 7",
+        "pagina_nummers": [
+          7
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrI3"
+      },
+      "vraag_id": "2003-bibf-vrI3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Open vraag over rechtsgevolgen van niet-neerlegging. Vraagtype 'open' (procedure/rechtsgevolgen). Geen context-blok nodig.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "neerlegging jaarrekening",
+          "Nationale Bank van België",
+          "gerechtelijke ontbinding",
+          "vennootschapsrecht",
+          "publicatieplicht"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrI4",
+        "vraag_onderwerp": "Gevolgen van niet-neerlegging jaarrekening bij de NBB gedurende drie boekjaren",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "I.4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat zijn de mogelijke gevolgen voor een vennootschap die gedurende drie opeenvolgende boekjaren haar jaarrekening niet heeft neergelegd bij de N.B.B.?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrI4 pagina 8",
+        "pagina_nummers": [
+          8
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrI4"
+      },
+      "vraag_id": "2003-bibf-vrI4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Ten gevolge van het verlies van een grote klant kent een vennootschap grote financiële problemen. De bedrijfsleiders beslissen om hun bezoldigingen fors te verminderen gedurende een bepaalde periode. De bedrijfsleider betaalt zelf zijn trimestriële sociale bijdragen, berekend op basis van de ontvangen bezoldigingen in 2000. In 2003 is zijn bezoldiging fors verminderd in verhouding tot hetgeen hij ontving in 2000.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Open adviesvraag over sociale bijdragen bij gedaalde bezoldiging. Vraagtype 'open'. Casus legt het probleem (te hoge bijdragen op basis van refertejaar 2000) duidelijk uit.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "sociale bijdragen zelfstandige",
+          "bedrijfsleider",
+          "herziening sociale bijdragen",
+          "refertejaar",
+          "inkomensdaling",
+          "sociaal statuut zelfstandige"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrJ1",
+        "vraag_onderwerp": "Sociale bijdragen zelfstandige bedrijfsleider bij sterk gedaalde bezoldiging",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "J.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk advies zal u geven aan deze cliënt?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrJ1 pagina 8",
+        "pagina_nummers": [
+          8
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrJ1"
+      },
+      "vraag_id": "2003-bibf-vrJ1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Open procedurevraag over ontslag bediende. Vraagtype 'open' (procedure). Geen context-blok — vraag is generiek.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "arbeidsrecht",
+          "ontslag bediende",
+          "opzegtermijn",
+          "ontslagprocedure",
+          "arbeidsovereenkomst"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrJ2",
+        "vraag_onderwerp": "Procedure ontslag en opzegtermijn voor bedienden",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "J.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk is de procedure om een bediende te ontslaan en een opzegtermijn te geven?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrJ2 pagina 8",
+        "pagina_nummers": [
+          8
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrJ2"
+      },
+      "vraag_id": "2003-bibf-vrJ2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Open vraag over deontologische regels bij dossiertransfer. Vraagtype 'open' (procedure/regels). Beide perspectieven (overlater + overnemer) zijn onderdeel van dezelfde deelvraag, niet twee aparte vragen.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "deontologie",
+          "BIBF",
+          "dossiertransfer",
+          "overlater",
+          "overnemer",
+          "beroepsgeheim",
+          "collegialiteit"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrK1",
+        "vraag_onderwerp": "Deontologische regels bij dossiertransfer tussen BIBF-leden",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "K.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Beschrijf de deontologische regels en verplichtingen inzake overdracht van een dossier tussen twee confraters BIBF, zowel vanuit het perspectief van de overlater als vanuit het oogpunt van de overnemer van het dossier.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrK1 pagina 8",
+        "pagina_nummers": [
+          8
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrK1"
+      },
+      "vraag_id": "2003-bibf-vrK1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Verwijzing naar de regels geformuleerd in vraag K.1 (deontologische regels dossiertransfer tussen BIBF-leden).",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2003-bibf",
+        "herinterpretatie_motivering": "Vervolgvraag op K.1. Vraagt expliciet of de K.1-regels ook gelden bij transfer naar IAB/IBR-leden en om toelichting zo nodig — motivatie_verwacht: true. Vraagtype 'open' (vergelijking/procedure).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "deontologie",
+          "BIBF",
+          "IAB",
+          "IBR",
+          "dossiertransfer",
+          "interprofessionele samenwerking",
+          "collegialiteit"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2003-bibf-vrK2",
+        "vraag_onderwerp": "Deontologische regels dossiertransfer: toepassing bij IAB-accountant of IBR-bedrijfsrevisor",
+        "vragen": [
+          {
+            "id": "i1",
+            "label_in_pdf": "K.2",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Gelden dezelfde regels, zoals geformuleerd in uw antwoord op vraag K.1, tevens wanneer een dossier wordt overgenomen of overgedragen ten aanzien van een accountant IAB of een bedrijfsrevisor IBR? Zo nodig, geef meer toelichting.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2003-bibf",
+        "karakter": "auto-isolatie 2003-bibf-vrK2 pagina 8",
+        "pagina_nummers": [
+          8
+        ],
+        "pdf_bestand": "2003-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2003-bibf-vrK2"
+      },
+      "vraag_id": "2003-bibf-vrK2"
     }
   ]
 }

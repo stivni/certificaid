@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2008-bibf.pdf",
   "examen_id": "2008-bibf",
-  "merge_datum": "2026-05-21T00:54:34+00:00",
+  "merge_datum": "2026-05-21T01:29:11+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -124,6 +124,2347 @@
         "vraag_id": "2008-bibf-vrA1"
       },
       "vraag_id": "2008-bibf-vrA1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In januari 2008 ontvangt u een factuur voor 1.210,00 EUR BTW inbegrepen, met betrekking tot de levering in 2007 van publiciteitsartikelen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Enkelvoudige vraag met twee tijdsdimensies (2008 en 2007). Geen OCR-issues. Bedrag 1.210 EUR is inclusief BTW (21% → basis 1.000 EUR + 210 EUR BTW).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "aankoopfactuur",
+          "periodiciteit",
+          "BTW aftrek",
+          "over te dragen kosten",
+          "jaarafsluiting",
+          "publiciteitsartikelen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrA2",
+        "vraag_onderwerp": "Boekhouding van een laattijdige aankoopfactuur over twee boekjaren",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat boekt u in 2008 en, in voorkomend geval, in 2007?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrA2 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrA2"
+      },
+      "vraag_id": "2008-bibf-vrA2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "rijen": [
+              {
+                "bedrag": 12000,
+                "label": "Grondstoffen"
+              },
+              {
+                "bedrag": 30000,
+                "label": "Goederen in bewerking"
+              },
+              {
+                "bedrag": 28000,
+                "label": "Gereed product"
+              },
+              {
+                "bedrag": 6000,
+                "label": "Handelsgoederen"
+              }
+            ],
+            "titel": "Voorraden per 1 januari N",
+            "type": "gegevens_tabel"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 17000,
+                "label": "Grondstoffen"
+              },
+              {
+                "bedrag": 26000,
+                "label": "Goederen in bewerking"
+              },
+              {
+                "bedrag": 31000,
+                "label": "Gereed product"
+              },
+              {
+                "bedrag": 4000,
+                "label": "Handelsgoederen"
+              }
+            ],
+            "titel": "Voorraden per 31 december N",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "PNG bevestigt de getallenreeksen uit tekst.txt. Gegevens gestructureerd als twee gegevens_tabellen (begin- en eindvoorraden). Modelantwoord (rekeningnummers 300, 6094, 6090, 340, 712, 330, 320, 713) is NIET opgenomen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "voorraden",
+          "grondstoffen",
+          "goederen in bewerking",
+          "gereed product",
+          "handelsgoederen",
+          "voorraadwijziging",
+          "jaarafsluiting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrA3",
+        "vraag_onderwerp": "Boeking van voorraadwijzigingen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Boek de voorraadwijzigingen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrA3 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrA3"
+      },
+      "vraag_id": "2008-bibf-vrA3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een kleine vennootschap heeft de rechtspersoonlijkheid verkregen op 1 maart 2008 en sluit haar eerste boekjaar af op 31 december 2008. De oprichtingskosten bedragen 1.200 EUR; ze werden per bank betaald op 10 maart en op het actief geboekt. Een personenwagen van 20.000 EUR exclusief BTW werd op 31 maart 2008 gekocht met een economische levensduur van vijf jaar.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "PNG toont twee duidelijk afzonderlijke vraaginstructies: 'Boek beide verrichtingen' en 'Boek de afschrijvingen'. Modelantwoord (rekeningnummers 200, 550, 240, 411, 440) is NIET opgenomen. Twee deelvragen behouden omdat ze fundamenteel anders zijn (aankoopboeking vs. afschrijvingsboeking).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "oprichtingskosten",
+          "personenwagen",
+          "afschrijvingen",
+          "prorata temporis",
+          "eerste boekjaar",
+          "activa"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrA4",
+        "vraag_onderwerp": "Boeking van oprichtingskosten en afschrijvingen bij een nieuwe vennootschap",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A4a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Boek beide verrichtingen (oprichtingskosten en aankoop personenwagen).",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "A4b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Boek de afschrijvingen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrA4 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrA4"
+      },
+      "vraag_id": "2008-bibf-vrA4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12% vertegenwoordigen van het stemrecht in C.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Enkelvoudige boekingsvraag. De kwalificatie van de deelneming (verbonden vs. niet-verbonden, gegeven dat A de controle heeft over C en B een zuster is) is de kernkwestie. Geen OCR-problemen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "groepsvennootschappen",
+          "deelnemingen",
+          "stemrecht",
+          "verbonden vennootschappen",
+          "financiële vaste activa",
+          "aandelenaankoop"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrB1",
+        "vraag_onderwerp": "Boeking van aandelenaankoop in een verbonden groepsstructuur",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "B1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Boek deze aankoop in de onderneming B.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrB1 pagina 5",
+        "pagina_nummers": [
+          5
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrB1"
+      },
+      "vraag_id": "2008-bibf-vrB1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers (voltijdse equivalenten).",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Twee afzonderlijke deelvragen voor A en B. 'Motiveer' is impliciet in 'welk schema moet/mag' — beide deelvragen vereisen een verantwoording op basis van de criteria. motivatie_verwacht=true.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "jaarrekening schema",
+          "kleine vennootschap",
+          "grote vennootschap",
+          "groepsvennootschappen",
+          "publicatieplicht",
+          "omzetgrens",
+          "personeelsgrens"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrB2",
+        "vraag_onderwerp": "Schema jaarrekening: klein vs. volledig schema voor groepsvennootschappen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "B2a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk schema moet/mag de vennootschap A voor haar jaarrekening gebruiken?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B2b",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk schema moet/mag de vennootschap B voor haar jaarrekening gebruiken?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrB2 pagina 5",
+        "pagina_nummers": [
+          5
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrB2"
+      },
+      "vraag_id": "2008-bibf-vrB2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap A heeft 12.000 EUR exclusief BTW ereloon betaald voor de commissaris.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Twee deelvragen: rubricering en toelichtingsplicht. Tweede deelvraag vereist een verantwoord ja/nee. Geen OCR-problemen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "commissaris",
+          "ereloon",
+          "jaarrekening toelichting",
+          "rubriek 61",
+          "personeelskosten",
+          "diensten en diverse goederen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrB3",
+        "vraag_onderwerp": "Boeking en toelichting commissarisereloenen in de jaarrekening",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "B3a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "In welke rubriek wordt deze bezoldiging geboekt?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B3b",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrB3 pagina 6",
+        "pagina_nummers": [
+          6
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrB3"
+      },
+      "vraag_id": "2008-bibf-vrB3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Personeelsleden hebben, tijdens de diensturen, seminaries gevolgd buiten de onderneming. In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Enkelvoudige vraag over kostenberekening voor de sociale balans. Geen tabellen of OCR-issues.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "sociale balans",
+          "personeelsopleiding",
+          "seminarie",
+          "kostenberekening",
+          "loonkost",
+          "personeelsbeleid"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrB4",
+        "vraag_onderwerp": "Berekening opleidingskost in de sociale balans bij seminaries tijdens diensturen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "B4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrB4 pagina 6",
+        "pagina_nummers": [
+          6
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrB4"
+      },
+      "vraag_id": "2008-bibf-vrB4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Drie logisch onderscheiden deelvragen (definitie, berekening, maatregelen) in één continue zin. Elk is zelfstandig beantwoordbaar. Geen tabellen of OCR-issues.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "behoefte aan bedrijfskapitaal",
+          "werkkapitaal",
+          "financieel beheer",
+          "liquiditeit",
+          "voorraadbeheer",
+          "debiteurenbeheer"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrC1",
+        "vraag_onderwerp": "Behoefte aan bedrijfskapitaal: definitie, berekening en reductiemaatregelen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "C1a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat verstaat men met 'behoefte aan bedrijfskapitaal'?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "C1b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe wordt de behoefte aan bedrijfskapitaal berekend?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C1c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vanuit het oogpunt van financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrC1 pagina 6",
+        "pagina_nummers": [
+          6
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrC1"
+      },
+      "vraag_id": "2008-bibf-vrC1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een vennootschap heeft jaarlijks ongeveer 30.000,00 EUR cashflow. Ze betaalt jaarlijks 12.000,00 EUR kapitaalaflossingen op bestaande leningen. Voor een nieuwe investering van 100.000,00 EUR wenst ze van de bank een investeringskrediet te bekomen voor het volledige bedrag. De rentevoet bedraagt 5% per jaar. Ze wenst de nieuwe lening in 5 jaarlijkse gelijke schijven af te lossen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De vraag 'Wat is uw mening?' is een open adviesvraag die een berekening + beredeneerde conclusie vereist. motivatie_verwacht=true. Geen OCR-issues.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "cashflow",
+          "investeringskrediet",
+          "aflossingscapaciteit",
+          "schuldenlast",
+          "financiering",
+          "debt service coverage"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrC2",
+        "vraag_onderwerp": "Haalbaarheid van een investeringskrediet gezien cashflow en aflossingscapaciteit",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "C2",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is uw mening over de haalbaarheid van dit investeringskrediet?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrC2 pagina 7",
+        "pagina_nummers": [
+          7
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrC2"
+      },
+      "vraag_id": "2008-bibf-vrC2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na de administratieve formaliteiten opteert hij bij de BTW-administratie voor het statuut van normale kwartaal-BTW-belastingplichtige. Hij vraagt u zijn boekhoudkundig dossier te beheren.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De genummerde lijst (1-12) in de tekst is het modelantwoord (de 'verwachte antwoorden'). Dat is NIET opgenomen in context_blokken conform de instructie. De vraagstelling is de instructie aan het begin van het segment. Één enkelvoudige open vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "zelfstandige",
+          "horeca",
+          "BTW kwartaalaangever",
+          "boekhouding organiseren",
+          "kastickets",
+          "ontvangstboek",
+          "bewaarplicht"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrD1",
+        "vraag_onderwerp": "Boekhoudkundige organisatie en wettelijke verplichtingen voor een taverne-restaurant als BTW-plichtige",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "D1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden, alsook welke stukken/informatie u ieder kwartaal/jaar van hem wenst te ontvangen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrD1 pagina 7",
+        "pagina_nummers": [
+          7
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrD1"
+      },
+      "vraag_id": "2008-bibf-vrD1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een zelfstandige schrijnwerker stelt offertes op met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot vóór aanvang der werkzaamheden, een tweede voorschot halfweg, en het saldo bij voltooiing. Hij stelt vervolgens één factuur op met vermelding 'voldaan' voor het totaal der uitgevoerde werken.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De tekst na de twee vraagstellingen bevat het modelantwoord (met verwijzing naar art. 4 §1 §3 en KB 1). Dat is NIET opgenomen. Twee deelvragen: advies over werkwijze (met verantwoording) en bewaarplicht.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "voorschotfactuur",
+          "BTW factureringsplicht",
+          "schrijnwerker",
+          "bewaarplicht",
+          "KB nr. 1",
+          "aannemingsovereenkomst"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrD2",
+        "vraag_onderwerp": "BTW-factureringsplicht bij voorschotten en bewaarplicht documenten voor een schrijnwerker",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "D2a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Is er een reden om hem te adviseren zijn werkwijze aan te passen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "D2b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke zijn de documenten die hij dient te bewaren?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrD2 pagina 8",
+        "pagina_nummers": [
+          8
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrD2"
+      },
+      "vraag_id": "2008-bibf-vrD2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een cliënt, detailhandelaar in textielproducten, startte zijn activiteiten op 1/1/2006 en koos voor het forfaitaire BTW-regime. Alle BTW-aangiften werden tijdig ingediend en de verschuldigde BTW steeds stipt betaald. Gezien de succesvolle ontwikkeling van de activiteiten heeft u haar aangeraden om vanaf 01/04/2008 een maandelijkse BTW-aangifte in te dienen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De tabel met 'Op het vlak van... — Antwoord:' na de vraagstelling is het gepubliceerde modelantwoord. Dat is NIET opgenomen conform de instructie. PNG bevestigt dat modelantwoord in tabelvorm gepresenteerd wordt na de vraag. Enkelvoudige open vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW regime",
+          "forfaitair regime",
+          "maandelijkse aangifte",
+          "detailhandelaar",
+          "stock inventaris",
+          "BTW administratie"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrE1",
+        "vraag_onderwerp": "Gevolgen van switch van forfaitair naar maandelijks BTW-regime",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "E1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke zijn de concrete gevolgen van deze keuze? (Gelieve kort te antwoorden!)",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrE1 pagina 9",
+        "pagina_nummers": [
+          9
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrE1"
+      },
+      "vraag_id": "2008-bibf-vrE1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "Na elke vraag staan de ingevulde vakken en bedragen als antwoord: bv. vak 46=66.438,00; vak 00=8.000,00, vak 81=8.000,00, vak 03=413,22, vak 54=86,78; etc.",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Een handelaar (natuurlijke persoon) in nieuwe en tweedehandswagens verricht de volgende verrichtingen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De 'Vak Bedrag'-rijen na elke deelvraag zijn het gepubliceerde modelantwoord, NIET de vraagstelling zelf. PNG pagina 10 bevestigt dit. Vijf deelvragen op basis van vijf genummerde verrichtingen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW aangifte",
+          "periodieke aangifte",
+          "vakken",
+          "intracommunautaire levering",
+          "margeregeling",
+          "aftrekbeperking personenwagen",
+          "tweedehandswagens"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrE2",
+        "vraag_onderwerp": "BTW-aangifte vakken invullen voor diverse verrichtingen tweedehandswagenhandelaar",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "E2.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Nieuwe wagens werden geleverd en gefactureerd aan cliënten die onderworpen zijn aan de Luxemburgse BTW voor een bedrag van 66.438,00 €. Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "E2.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een personenwagen VOLVO werd aangekocht voor 8.000,00 € van een kinesist en doorverkocht voor 8.500,00 € aan een particulier. Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "E2.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een vrachtwagen MANN werd aangekocht voor 4.000,00 € van een bouwonderneming en blijft in stock. Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "E2.4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Aankoop van een wagen RENAULT die in de onderneming wordt geïnvesteerd: 24.644,00 € BTW inbegrepen (privégebruik 25%). Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "E2.5",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vervangingsstukken en kleine accessoires werden verkocht onder het regime van de vrijstelling van factuur en werden in het dagboek van ontvangsten ingeschreven (1.332,49 € waarvan 434,11 € aan BTW-tarief van 6%). Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrE2 pagina 9-10",
+        "pagina_nummers": [
+          9,
+          10
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrE2"
+      },
+      "vraag_id": "2008-bibf-vrE2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "Na elke subvraag staat het modelantwoord vermeld, o.a. 'Via de aangifte ... 3de jaar', 'Vrijstellingsregeling / Kwartaalaangifte', definitie BTW-eenheid, 'In Nederland Art. 21 §3, 7° d)'.",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Vier genummerde, thematisch onafhankelijke BTW-deelvragen. De antwoorden na elke vraag zijn modelantwoorden — NIET opgenomen. Deelvraag d vereist verantwoording met wetsreferentie (motivatie_verwacht=true).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "BTW aftrek",
+          "verjaring recht op aftrek",
+          "vrijstellingsregeling",
+          "BTW eenheid",
+          "territoriale bevoegdheid",
+          "dienstenprestaties",
+          "boekhouder BIBF"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrE3",
+        "vraag_onderwerp": "Diverse BTW-vraagstukken: aftrekverjaring, regime psycholoog, BTW-eenheid, territoriale BTW-bevoegdheid",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "E3.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke is de uiterste datum waarover u beschikt om de BTW af te trekken? (Gelieve precies te antwoorden!)",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "E3.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke is/zijn de BTW-regime(s) voor de BTW-aangiftes die u kan voorstellen aan een zelfstandige psychologe in bijberoep die een omzetcijfer van 4.312,00 € per jaar heeft?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "E3.3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Verklaar het principe van de BTW-eenheid (enkel het principe; de modaliteiten en de werking worden NIET gevraagd).",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "E3.4",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "U bent een zelfstandig boekhouder BIBF gevestigd in België en verricht boekhoudkundige prestaties in een onderneming gevestigd in Frankrijk, gefactureerd aan uw belastingplichtige cliënt gevestigd in Nederland. In welk land is de BTW verschuldigd — België, Frankrijk of Nederland? Verantwoord uw antwoord door te verwijzen naar het toepasselijke artikel uit het BTW-wetboek.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrE3 pagina 11",
+        "pagina_nummers": [
+          11
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrE3"
+      },
+      "vraag_id": "2008-bibf-vrE3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "Na elke scenario staan de uitgewerkte modelantwoorden (bv. 'Gewone intrestaftrek blijft / aanvullende intrestaftrek gaat verloren / Kapitaalaflossing: belastingvermindering voor bouwsparen blijft').",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Gert is ongehuwd en woont in Mechelen in een pand waarvan hij eigenaar is (KI 1.700). Gert erft in 2007 als enige zoon het huis van zijn ouders. Er zijn geen andere onroerende eigendommen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Twee scenario-deelvragen gebaseerd op datum hypothecaire lening (vóór/na de woonbonus-hervorming van 2005). Modelantwoorden zijn NIET opgenomen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "hypothecaire lening",
+          "intrestaftrek",
+          "bouwsparen",
+          "woonbonus",
+          "enige woning",
+          "erfenis",
+          "onroerende goederen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrF1",
+        "vraag_onderwerp": "Effect van erfenis bijkomend onroerend goed op hypothecaire aftrek en bouwsparen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "F1.1",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004: wat zijn de gevolgen van de erfenis op vlak van intrestaftrek en kapitaalaflossing?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "F1.2",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005: wat zijn de gevolgen van de erfenis op vlak van intrestaftrek en kapitaalaflossing?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrF1 pagina 12",
+        "pagina_nummers": [
+          12
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrF1"
+      },
+      "vraag_id": "2008-bibf-vrF1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "a",
+          "tekst": "Onroerend (1106) 150 (2106) 150 (zijnde 1.200 x 3/12 en dan 50/50) — Divers (1171) 0 (2171) 30.000",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Riet en Piet zijn gehuwd in het wettelijk stelsel en wonen in Etterbeek. Riet heeft van voor het huwelijk nog een appartement (KI 1.200) in Wemmel in persoonlijke eigendom dat verhuurd wordt. Het appartement stond te koop en wordt op 6 april 2007 verkocht; een belastbare meerwaarde van € 30.000 wordt gerealiseerd.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De getallen na 'Doe aangifte' zijn het modelantwoord met aangifte-codes. Niet opgenomen in vraagstelling. PNG bevestigt lay-out.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "onroerend inkomen",
+          "kadastraal inkomen",
+          "meerwaarde",
+          "belastbare meerwaarde",
+          "personenbelasting aangifte",
+          "wettelijk stelsel"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrF2",
+        "vraag_onderwerp": "Aangifte onroerend inkomen en belastbare meerwaarde bij verkoop appartement",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "F2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Doe aangifte van het onroerend inkomen en van de meerwaarde.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrF2 pagina 12",
+        "pagina_nummers": [
+          12
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrF2"
+      },
+      "vraag_id": "2008-bibf-vrF2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "a",
+          "tekst": "2.360 x 30% = 708; 1.000 x 30% = 300; 1.008 x 33.900/51.000 = 670,02; 1.008 x 17.100/51.000 = 337,98",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Een echtpaar heeft dienstencheques aangekocht: 3.000,00 EUR op naam van de aangever (max. AJ 2008: 2.360,00 EUR) en 1.000,00 EUR op naam van de partner.",
+            "type": "casus_context"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 33900,
+                "label": "Totaal netto-inkomen aangever"
+              },
+              {
+                "bedrag": -4000,
+                "label": "Aftrek onderhoudsgelden aangever"
+              },
+              {
+                "bedrag": 29900,
+                "label": "Gezamenlijk belastbaar inkomen aangever"
+              },
+              {
+                "bedrag": 17100,
+                "label": "Totaal netto-inkomen partner"
+              },
+              {
+                "bedrag": 17100,
+                "label": "Gezamenlijk belastbaar inkomen partner"
+              }
+            ],
+            "titel": "Inkomensgegevens",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De berekening na de gegevenstabel is het modelantwoord. PNG pagina 12 bevestigt dit. Gegevenstabel gestructureerd. Modelantwoord NIET opgenomen in vraagstelling.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig",
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "dienstencheques",
+          "belastingvermindering",
+          "personenbelasting",
+          "plafond",
+          "netto-inkomen",
+          "onderhoudsgelden"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrF3",
+        "vraag_onderwerp": "Berekening belastingvoordeel dienstencheques voor een echtpaar",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "F3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken het belastingvoordeel van de dienstencheques rekening houdend met de opgegeven gegevens.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrF3 pagina 12",
+        "pagina_nummers": [
+          12
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrF3"
+      },
+      "vraag_id": "2008-bibf-vrF3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "a",
+          "tekst": "Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15% van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15% van de aftrekbare besteding verloren (art. 105, 2° lid WIB).",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Wim is gehuwd met Inge in het stelsel van scheiding van goederen. Ze zijn zinnens een eerste huis te kopen. Gezien de zelfstandige activiteit van Inge stellen ze voor de aankoop niet in onverdeeldheid te doen, maar op naam van Wim alleen. Wim gaat voor de financiering een hypothecaire lening aan.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Adviesvraag met wettelijke verantwoording. De tekst na de vraag is het modelantwoord. NIET opgenomen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "scheiding van goederen",
+          "hypothecaire lening",
+          "woonbonus",
+          "gemeenschappelijke aanslag",
+          "minimumoverdracht 15%",
+          "art. 105 WIB"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrF4",
+        "vraag_onderwerp": "Gevolgen aankoop woning uitsluitend op naam van één echtgenoot voor hypothecaire aftrek",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "F4",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Waar moet u rekening mee houden wanneer Wim voor de financiering van de aankoop een hypothecaire lening aangaat?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrF4 pagina 13",
+        "pagina_nummers": [
+          13
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrF4"
+      },
+      "vraag_id": "2008-bibf-vrF4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Vier MC-opties geëxtraheerd. Geen aanduiding van het correcte antwoord in de tekst.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "belastbaar tijdperk",
+          "inkomsten van arbeid",
+          "tantième",
+          "meerwaarde",
+          "beschikbaarheidscriterium",
+          "personenbelasting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrF5",
+        "vraag_onderwerp": "Belastbaar tijdperk: welke stelling is juist?",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "F5",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Een uitgave in 2006 met betrekking tot een door een handelaar in 2007 te realiseren meerwaarde is een gezamenlijk belastbare winst van 2007."
+              },
+              {
+                "id": "b",
+                "tekst": "Een tantième dat op 15.04.2008 met betrekking tot de winst van het boekjaar 2007 toegekend is, is voor de bedrijfsleider een beroepsinkomen gerelateerd aan het belastbaar tijdperk 2007."
+              },
+              {
+                "id": "c",
+                "tekst": "Wanneer ingevolge een geschil met een (voormalig) werkgever een bezoldiging met betrekking tot de prestaties van 2007 pas in de loop van 2008 uitgekeerd wordt, is dat een belastbaar inkomen van 2007."
+              },
+              {
+                "id": "d",
+                "tekst": "Een advocaat maakt op 20.12.07 een ereloonnota van € 1.000,00 op voor geleverde prestaties. De klant betaalt op 10.01.08. De erelonen horen tot het belastbaar tijdperk 2007."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is juist inzake belastbaar tijdperk?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrF5 pagina 13",
+        "pagina_nummers": [
+          13
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrF5"
+      },
+      "vraag_id": "2008-bibf-vrF5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Enkelvoudige MC-vraag. Vier opties. Geen correcte-antwoord-aanduiding in de tekst.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "vrijgesteld inkomen",
+          "sociaal voordeel",
+          "resultaatgebonden bonus",
+          "fietsvergoeding",
+          "ziekte-uitkering",
+          "personenbelasting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrF6",
+        "vraag_onderwerp": "Vrijgesteld inkomen: welke is geen vrijgesteld inkomen?",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "F6",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Een sociaal voordeel"
+              },
+              {
+                "id": "b",
+                "tekst": "Een resultaatgebonden bonus van € 2.000,00"
+              },
+              {
+                "id": "c",
+                "tekst": "Een fietsvergoeding van € 0,15/km"
+              },
+              {
+                "id": "d",
+                "tekst": "Een wettelijke ziekte-uitkering"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is geen vrijgesteld inkomen?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrF6 pagina 13",
+        "pagina_nummers": [
+          13
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrF6"
+      },
+      "vraag_id": "2008-bibf-vrF6"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Enkelvoudige MC-vraag. Vier opties. Geen correcte-antwoord-aanduiding. PNG pagina 13 bevestigt dat vrF7 de laatste vraag op pagina 13 is, na F5 en F6.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "aftrekbare besteding",
+          "beschermde eigendommen",
+          "positief grootstedelijk beleid",
+          "renovatie woning",
+          "beveiligingsuitgaven",
+          "personenbelasting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrF7",
+        "vraag_onderwerp": "Aftrekbare besteding: welke uitgave vormt een aftrekbare besteding?",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "F7",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Uitgave voor het onderhoud en de restauratie van beschermde eigendommen"
+              },
+              {
+                "id": "b",
+                "tekst": "Een uitgave voor de vernieuwing van een woning in een zone voor positief grootstedelijk beleid"
+              },
+              {
+                "id": "c",
+                "tekst": "Uitgaven voor de vernieuwing van woningen die tegen een redelijke prijs verhuurd worden"
+              },
+              {
+                "id": "d",
+                "tekst": "Uitgaven ter beveiliging van een privéwoning tegen diefstal en brand"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke uitgave vormt een aftrekbare besteding?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrF7 pagina 13",
+        "pagina_nummers": [
+          13
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrF7"
+      },
+      "vraag_id": "2008-bibf-vrF7"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De vennootschap 'Green', een KMO overeenkomstig art. 15 §1 W.Venn., heeft als activiteit de handel in tuinmaterialen. Opgericht door twee natuurlijke personen die tevens bestuurder zijn. Belastbaar tijdperk: inkomsten 2007, aangifte 2008.",
+            "type": "casus_context"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 1509,
+                "label": "Belaste reserve geïncorporeerd in kapitaal (2000)"
+              },
+              {
+                "bedrag": 3300,
+                "label": "Investering verwarmingsinstallatie (energiebesparend, attest Vlaams Gewest)"
+              },
+              {
+                "bedrag": null,
+                "label": "Percentage investeringsaftrek energiebesparende maatregelen"
+              },
+              {
+                "bedrag": 3500,
+                "label": "Onderwaardering stock vastgesteld bij fiscale controle"
+              },
+              {
+                "bedrag": 250,
+                "label": "Verkeersbelasting bedrijfswagen"
+              },
+              {
+                "bedrag": 352,
+                "label": "Intresten op de lening bedrijfswagen"
+              },
+              {
+                "bedrag": 19500,
+                "label": "Afschrijvingen bedrijfswagen"
+              },
+              {
+                "bedrag": 570,
+                "label": "Niet-aftrekbare BTW bedrijfswagen"
+              },
+              {
+                "bedrag": 1250,
+                "label": "Diesel bedrijfswagen"
+              },
+              {
+                "bedrag": 1385,
+                "label": "Voordeel in natura (BTW incl., geen factuur)"
+              },
+              {
+                "bedrag": 2000,
+                "label": "Voorafbetalingen"
+              },
+              {
+                "bedrag": 3770,
+                "label": "Belastingsupplement"
+              },
+              {
+                "bedrag": -1433,
+                "label": "Regularisatie van belasting"
+              },
+              {
+                "bedrag": 852,
+                "label": "Uitgave voor onthaal cliënten"
+              },
+              {
+                "bedrag": 350,
+                "label": "Restaurantkosten"
+              },
+              {
+                "bedrag": 125,
+                "label": "Hotelkosten in Duitsland (overnachting)"
+              },
+              {
+                "bedrag": 125,
+                "label": "Taksen op de waterfactuur"
+              },
+              {
+                "bedrag": 50,
+                "label": "BTW-boete (niet indiening aangifte)"
+              },
+              {
+                "bedrag": 35,
+                "label": "Verwijlintresten laattijdige BTW-betaling Q3"
+              },
+              {
+                "bedrag": 1320,
+                "label": "Maaltijdcheques"
+              },
+              {
+                "bedrag": 450,
+                "label": "Kosten werkkledij (bescherming werknemers)"
+              },
+              {
+                "bedrag": 525,
+                "label": "Kosten maatpak bestuurder"
+              },
+              {
+                "bedrag": null,
+                "label": "Percentage notionele intrestaftrek (inkomstenjaar 2007)"
+              }
+            ],
+            "titel": "Fiscale gegevens vennootschap Green",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De bijgevoegde jaarrekening waarnaar verwezen wordt, is niet aanwezig in het segment (enkel de gegevensopsomming). volledigheid=fragment omdat de jaarrekening ontbreekt. De gegevensopsomming is wel volledig. PNG pagina 14 bevestigt alle vermelde bedragen. Investeringsaftrek=13,5% vermeld in de tekst.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "subvraag_zonder_inhoud",
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "vennootschapsbelasting",
+          "belastbare basis",
+          "investeringsaftrek",
+          "notionele intrestaftrek",
+          "verworpen uitgaven",
+          "aftrekbeperking bedrijfswagen",
+          "maaltijdcheques",
+          "KMO"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrG1",
+        "vraag_onderwerp": "Belastbare basis vennootschapsbelasting: fiscale aangifte voor KMO Green",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "G1",
+            "motivatie_verwacht": false,
+            "volledigheid": "fragment",
+            "vraagstelling": "Vervolledig de fiscale aangifte en bereken de belastbare basis in de vennootschapsbelasting op basis van de hierboven vermelde gegevens en de bijgevoegde jaarrekening. Het betreft de inkomsten 2007, aangifte 2008. Het percentage voor de toepassing van de notionele intrestaftrek voor dat inkomstenjaar bedraagt 4,281%.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrG1 pagina 14",
+        "pagina_nummers": [
+          14
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrG1"
+      },
+      "vraag_id": "2008-bibf-vrG1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "a",
+          "tekst": "Uiterlijk binnen 6 maanden vanaf verzending aanslagbiljet bij gewestelijk directeur (art. 366 WIB); per aangetekend schrijven met wetsartikelen, gemotiveerd en ondertekend (art. 371 WIB).",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "De tekst na de vraagstelling is het modelantwoord. NIET opgenomen in vraagstelling.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "bezwaar",
+          "personenbelasting",
+          "aanslag",
+          "termijn",
+          "gewestelijk directeur",
+          "art. 366 WIB",
+          "art. 371 WIB"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrH1",
+        "vraag_onderwerp": "Procedure en termijn voor bezwaarschrift personenbelasting",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "H1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe dient u een rechtsgeldig bezwaar in tegen een aanslag in de personenbelasting en binnen welke termijn dient dit te gebeuren?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrH1 pagina 15",
+        "pagina_nummers": [
+          15
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrH1"
+      },
+      "vraag_id": "2008-bibf-vrH1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "a",
+          "tekst": "Indien de fiscus in het bezit is van overeenstemmende en ernstige elementen en/of gegevens die een vermoeden scheppen dat de belastingplichtige tekort geschoten is in de aangifte van zijn belastbaar inkomen.",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Tekst na de vraagstelling is modelantwoord. NIET opgenomen. Dubbel 'tot een tot een' in tekst.txt = OCR-typo; gecorrigeerd in vraagstelling.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig",
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "belasting op tekenen en indiciën",
+          "vermogensaanwas",
+          "aangifte",
+          "fiscale controle",
+          "directe belastingen",
+          "aanwijzingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrH2",
+        "vraag_onderwerp": "Belasting op tekenen en indiciën: voorwaarden",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "H2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "In welke omstandigheden kan de fiscale administratie (directe belastingen) overgaan tot een belasting op basis van tekenen en indiciën?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrH2 pagina 15",
+        "pagina_nummers": [
+          15
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrH2"
+      },
+      "vraag_id": "2008-bibf-vrH2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "Schenking via Nederlandse notaris (geen schenkingsrechten, maar successierechten bij overlijden binnen 3 jaar) en schenking aan 3% tarief in Vlaanderen (dochter betaalt 9.000 euro).",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "U (woonachtig in Gent) wil uw effecten op naam ter waarde van 300.000 euro schenken aan uw dochter van 22 jaar (woonachtig in Leuven) tegen een zo laag mogelijke fiscale kost.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Drie deelvragen uit één continue vraagstelling. Modelantwoord volgt direct na de vraag. NIET opgenomen. Twee-pagina segment (p.15-16).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "schenking",
+          "effecten op naam",
+          "schenkingsrechten",
+          "Nederlandse notaris",
+          "successierechten",
+          "overlijdensrisico 3 jaar",
+          "Vlaams tarief"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrH3",
+        "vraag_onderwerp": "Schenking van effecten aan dochter: mogelijkheden, schenkingsrechten en risico's",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "H3a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke zijn uw mogelijkheden?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "H3b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wie betaalt de schenkingsrechten en hoeveel (in euro)?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "H3c",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Zitten er addertjes onder het gras?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrH3 pagina 15-16",
+        "pagina_nummers": [
+          15,
+          16
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrH3"
+      },
+      "vraag_id": "2008-bibf-vrH3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De raad van bestuur van een NV wenst over te gaan tot een kapitaalverhoging. Omdat de verhoging dringend is, wenst ze geen buitengewone algemene vergadering bijeen te roepen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Twee deelvragen: ja/nee met verantwoording, gevolgd door de voorwaarden. Geen modelantwoord in de tekst.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "NV",
+          "kapitaalverhoging",
+          "raad van bestuur",
+          "toegestaan kapitaal",
+          "algemene vergadering",
+          "vennootschapsrecht"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrI1",
+        "vraag_onderwerp": "Kapitaalverhoging NV zonder buitengewone algemene vergadering: mogelijkheid en voorwaarden",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "I1a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Is het mogelijk om een kapitaalverhoging door te voeren zonder buitengewone algemene vergadering?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "I1b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Indien u bevestigend antwoordt, wat zijn de voorwaarden?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrI1 pagina 17",
+        "pagina_nummers": [
+          17
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrI1"
+      },
+      "vraag_id": "2008-bibf-vrI1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Drie logisch onderscheiden deelvragen in één zin. Elk is zelfstandig beantwoordbaar. Geen modelantwoord in de tekst.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "financieel plan",
+          "oprichting vennootschap",
+          "Wetboek van vennootschappen",
+          "notaris",
+          "aansprakelijkheid oprichters"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrI2",
+        "vraag_onderwerp": "Financieel plan bij oprichting: verplichting, doel en ontvanger",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "I2a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wanneer verplicht het Wetboek van vennootschappen een financieel plan op te stellen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "I2b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is het doel van een financieel plan?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "I2c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Aan wie moet het financieel plan worden overhandigd?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrI2 pagina 17",
+        "pagina_nummers": [
+          17
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrI2"
+      },
+      "vraag_id": "2008-bibf-vrI2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De zaakvoerder van een BVBA is de enige vennoot.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Ja/nee-vraag met juridische verantwoording vereist (motivatie_verwacht=true). OCR-typo 'vermogenrechtelijke' → gecorrigeerd naar 'vermogensrechtelijke'.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "BVBA",
+          "zaakvoerder",
+          "tegenstrijdig belang",
+          "enige vennoot",
+          "art. 259 W.Venn.",
+          "deontologie bestuurder"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrI3",
+        "vraag_onderwerp": "Procedure tegenstrijdig belang voor zaakvoerder-enige vennoot van een BVBA",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "I3",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Moet een procedure worden gevolgd wanneer de zaakvoerder bij een verrichting een belang heeft, van vermogensrechtelijke aard, dat strijdig is met de belangen van de vennootschap?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrI3 pagina 18",
+        "pagina_nummers": [
+          18
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrI3"
+      },
+      "vraag_id": "2008-bibf-vrI3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Ja/nee met wettelijke verantwoording. 'Verantwoord' is geïntegreerd als motivatie_verwacht=true, niet als aparte deelvraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "gerechtelijk akkoord",
+          "burgerlijke vennootschap",
+          "handelsvennootschap",
+          "faillissement",
+          "WCO",
+          "rechtsvorm"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrI4",
+        "vraag_onderwerp": "Gerechtelijk akkoord voor burgerlijke vennootschap met handelsvorm",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "I4",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Kan een burgerlijke vennootschap die de rechtsvorm van een handelsvennootschap heeft aangenomen, een gerechtelijk akkoord bekomen? Verantwoord uw antwoord.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrI4 pagina 18",
+        "pagina_nummers": [
+          18
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrI4"
+      },
+      "vraag_id": "2008-bibf-vrI4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Twee deelvragen: aansprakelijkheid BVBA en vergelijking met NV. Geen modelantwoord in de tekst.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "BVBA",
+          "NV",
+          "oprichtersaansprakelijkheid",
+          "financieel plan",
+          "quasi-inbreng",
+          "vennootschapsrecht",
+          "aansprakelijkheid"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrI5",
+        "vraag_onderwerp": "Aansprakelijkheid oprichters BVBA vs. NV",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "I5a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk is de aansprakelijkheid van de oprichters van een BVBA?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "I5b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk verschil kan er zijn met een NV?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrI5 pagina 18",
+        "pagina_nummers": [
+          18
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrI5"
+      },
+      "vraag_id": "2008-bibf-vrI5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "1: Woensdag 26 december 2007 (3 werkdagen na kennisname, zon- en feestdagen niet meegerekend). 2: Vrijdag 28 december 2007 (3 werkdagen na ontslag). 3: Opzegvergoeding = 6 maanden loon = 13.500 EUR bruto.",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Bart trad op 1 februari 2001 in dienst bij een grootwarenhuisketen op basis van een arbeidsovereenkomst voor onbepaalde duur (voltijds, bediende). Bart maakte stelselmatig misbruik van zijn persoonlijke klantenkaart door er aankopen van klanten die hun kaart vergeten waren op te registreren, waardoor hij maandelijks waardevolle geschenken verdiende. Op vrijdag 14 december 2007 wordt de werkgever ingelicht door een collega (Bart is met verlof). Na zijn terugkeer wordt Bart geconfronteerd op vrijdag 21 december 2007 en bekent hij alles. De werkgever beslist tot ontslag om dringende reden.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Drie genummerde deelvragen over ontslag om dringende reden. Modelantwoorden na elke deelvraag zijn NIET opgenomen. PNG pagina 19 bevestigt de structuur. 'Antwoord:' na elke subvraag is gepubliceerd modelantwoord.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "ontslag om dringende reden",
+          "arbeidsovereenkomst",
+          "termijn betekening",
+          "motivering ontslagbrief",
+          "opzegvergoeding",
+          "bediende"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrJ1",
+        "vraag_onderwerp": "Ontslag om dringende reden: termijnen en opzegvergoeding",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "J1.1",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Op welke dag moet het ontslag om dringende reden uiterlijk worden betekend?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "J1.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Indien de werkgever beslist om de motivering van het ontslag om dringende reden niet meteen te vermelden in de ontslagbrief zelf, maar wel in een tweede aangetekende brief: wanneer moet deze tweede, gemotiveerde brief ten laatste worden verstuurd? (De ontslagbrief werd aangetekend verstuurd op maandag 24 december 2007.)",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "J1.3",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Stel dat het ontslag om dringende reden één dag te laat werd betekend. Welke opzegvergoeding moet de werkgever dan betalen? Wat is het bruto bedrag en met hoeveel maanden (bruto) loon stemt deze opzegvergoeding overeen? (Bart verdient een bruto jaarloon van 27.000 EUR.)",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrJ1 pagina 19",
+        "pagina_nummers": [
+          19
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrJ1"
+      },
+      "vraag_id": "2008-bibf-vrJ1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De afgevaardigd bestuurder van een NV gespecialiseerd in de voedingsnijverheid, waarvan u al jaren de boekhouding voert, vraagt u of u geen deel wenst uit te maken van de raad van bestuur van zijn onderneming.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Adviesvraag over onverenigbaarheid. De vraag vereist een gemotiveerd antwoord met verwijzing naar de plichtenleer. motivatie_verwacht=true.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "onverenigbaarheid",
+          "erkend boekhouder BIBF",
+          "bestuurder NV",
+          "deontologie",
+          "plichtenleer",
+          "onafhankelijkheid"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrK1",
+        "vraag_onderwerp": "Onverenigbaarheid bestuursmandaat NV met beroep als erkend boekhouder-fiscalist",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "K1",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat antwoordt u aan uw cliënt?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrK1 pagina 20",
+        "pagina_nummers": [
+          20
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrK1"
+      },
+      "vraag_id": "2008-bibf-vrK1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "Verboden — art. 23 (ronselen verboden), art. 16 (confrater niet schaden), art. 4 (eerlijkheid en waardigheid).",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Je bent stagiair BIBF. Bij de overdracht van een dossier stuurt jouw voorganger Patrick per ongeluk een bestandje mee met al zijn klanten, hun adresgegevens, ondernemingsnummer, telefoonnummer en de prijzen die hij hanteert. Heel wat klanten ken je en je zou hun boekhouding willen overnemen voor een lager prijsje.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Twee deelvragen: beoordeling + artikel-referenties. Modelantwoord volgt na de tweede vraag. NIET opgenomen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "deontologie",
+          "klantenwerving",
+          "plichtenleer BIBF",
+          "art. 23",
+          "art. 16",
+          "art. 4",
+          "stagiair BIBF",
+          "ronselen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrK2",
+        "vraag_onderwerp": "Deontologische beoordeling: gebruik van vertrouwelijke klantenlijst van confrater",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "K2a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Is dit deontologisch toegelaten of verboden?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "K2b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "In welke artikelen van de plichtenleer vind je het antwoord hierop?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrK2 pagina 20",
+        "pagina_nummers": [
+          20
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrK2"
+      },
+      "vraag_id": "2008-bibf-vrK2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "Art. 17 (aangetekende kennisgeving voorganger, aandringen op betaling honoraria, inventaris in 2 exemplaren). Art. 13 alinea 3 (commissie verboden).",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Je bent stagiair BIBF. Nico, een vriend van je oudere broer Paul (bankier bij Dexia), wenst dat je de boekhouding van zijn restaurant overneemt. Nico had tot 3 maanden geleden zijn boekhouding bij Bernard.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Twee deelvragen: overdrachtsplichten en verbod aanbrengcommissie. Modelantwoorden na de vraagstellingen zijn NIET opgenomen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "dossieroverdracht",
+          "plichtenleer BIBF",
+          "art. 17",
+          "art. 13",
+          "aanbrengcommissie",
+          "stagiair",
+          "voorafgaande kennisgeving confrater"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrK3",
+        "vraag_onderwerp": "Dossieroverdracht en aanbrengcommissie: plichtenleer BIBF-stagiair",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "K3a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat verplicht de plichtenleer u, en hoe zal u de overgang van het dossier laten verlopen? Citeer tevens de toepasselijke artikelen uit de plichtenleer.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "K3b",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Je bent dermate tevreden dat je je aanbrengende broer een commissievergoeding wenst te betalen uit dank. Hoe pak je dit aan en op basis van welk artikel van de plichtenleer?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrK3 pagina 21",
+        "pagina_nummers": [
+          21
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrK3"
+      },
+      "vraag_id": "2008-bibf-vrK3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "1) Art. 12 (cliënteel informeren bij schorsing van minstens 1 maand). 2) Art. 5 (bijdrage), art. 9 (gevraagde inlichtingen), art. 14 (verzekering beroepsaansprakelijkheid), art. 15 (beroepsvervolmaking).",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "Rik is stagiair geworden nadat hij betrapt werd op illegale uitoefening. In 2006: slechts 14 uren beroepsvervolmaking gevolgd (te weinig), lidgeld niet betaald, bijdrage beroepsaansprakelijkheidsverzekering niet betaald. De assessor dagvaardde hem voor de Kamer; hij verscheen niet, ondanks tijdige oproeping voor de openbare zitting, en reageerde niet op brieven. De Kamer spreekt op 3 november 2007 een tuchtstraf van 3 maanden schorsing uit. Rik gaat niet in beroep. Op 3 januari 2008 belt een klant om de BTW-aangifte Q4/2007 te vragen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Twee deelvragen: specifiek artikel voor klantcommunicatie en opsomming overtredingen. Modelantwoorden na de vragen zijn NIET opgenomen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "tuchtstraf",
+          "schorsing BIBF",
+          "art. 12",
+          "plichtenleer",
+          "beroepsvervolmaking",
+          "lidgeld",
+          "verzekering beroepsaansprakelijkheid",
+          "kamer van beroep"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrK4",
+        "vraag_onderwerp": "Tuchtstraf schorsing BIBF: verplichtingen naar cliënten en overtredingen plichtenleer",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "K4.1",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk artikel van de plichtenleer moet Rik inroepen naar zijn cliënt toe, en wat verplicht dat artikel hem te doen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "K4.2",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Noem minstens 3 artikelen van de plichtenleer die Rik had overtreden, zoals vastgesteld bij de zitting van de Kamer.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrK4 pagina 21",
+        "pagina_nummers": [
+          21
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrK4"
+      },
+      "vraag_id": "2008-bibf-vrK4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": {
+          "deelvraag_id": "alle",
+          "tekst": "a) Enkel BIBF-activiteiten, geen handel (art. 7+8 KB). b) Enkel Philippe en Isabelle (zaakvoerders moeten BIBF-lid zijn, art. 8 §5). c) Neen, minstens 80% moet in handen zijn van BIBF-leden of stagiairs (art. 8 §4). d) Ja, stagiairs mogen zaakvoerder/aandeelhouder zijn mits minstens 80%-regel en samen met stagemeester of andere erkende boekhouder (art. 1+2 §2 KB).",
+          "vermoedelijke_status": "gepubliceerd modelantwoord"
+        },
+        "context_blokken": [
+          {
+            "tekst": "De echtgenoten Philippe en Isabelle, beiden erkend boekhouder(-fiscalist), hebben twee zonen (Frans en Jan) en één dochter (Mathilde), allen meerderjarig en nog studerend. Ze wensen een boekhoudvennootschap op te richten conform het KB van 15/2/2005 betreffende de uitoefening van het beroep van erkend boekhouder(-fiscalist) in het kader van een rechtspersoon.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2008-bibf",
+        "herinterpretatie_motivering": "Vier deelvragen over oprichting boekhoudvennootschap. Uitgebreide modelantwoorden na elke deelvraag zijn NIET opgenomen. Twee-pagina segment (p. 22-23).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "antwoord_hint_aanwezig"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "boekhoudvennootschap",
+          "BIBF",
+          "KB 15/02/2005",
+          "doelomschrijving",
+          "zaakvoerder",
+          "aandelenverdeling",
+          "stagiair BIBF",
+          "meerderheidsregel 80%"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2008-bibf-vrK5",
+        "vraag_onderwerp": "Oprichting boekhoudvennootschap BIBF: doel, zaakvoerders, aandelenverdeling en stagiair",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "K5a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke zijn de specifieke aandachtspunten voor de doelomschrijving van de boekhoudvennootschap?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "K5b",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Indien zij opteren voor een BVBA: wie kan tot zaakvoerder worden benoemd?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "K5c",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Is volgende verdeling van de aandelen mogelijk: Philippe 35%, Isabelle 35%, Frans, Jan en Mathilde elk 10%? Licht uw antwoord toe.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "K5d",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "De oudste zoon start na zijn studies een BIBF-stage. Kan hij op dat ogenblik zaakvoerder/bestuurder worden? Kan hij tevens 50% van de aandelen verwerven?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2008-bibf",
+        "karakter": "auto-isolatie 2008-bibf-vrK5 pagina 22-23",
+        "pagina_nummers": [
+          22,
+          23
+        ],
+        "pdf_bestand": "2008-bibf.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2008-bibf-vrK5"
+      },
+      "vraag_id": "2008-bibf-vrK5"
     }
   ]
 }
