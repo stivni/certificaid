@@ -721,6 +721,14 @@ def save_record(
             render_exc,
         )
 
+    # Stap 4: markeer candidate als gerealiseerd (ADR-025 §wave-planning).
+    # Try/except: candidates-DB is afgeleid; fout blokkeert save_record NIET.
+    try:
+        from tools.extractie import candidates_db
+        candidates_db.markeer_gerealiseerd(concept_id, record_id=concept_id)
+    except Exception as cand_exc:  # noqa: BLE001
+        logger.debug("save_record: candidate-markering overgeslagen voor %s: %s", concept_id, cand_exc)
+
     logger.info("save_record: %s opgeslagen (disk + RAG + content)", concept_id)
 
 
@@ -950,6 +958,14 @@ def delete_record(
 
     # Stap 3: verwijder markdown-fiche (ADR-019 §"Content-sync")
     _verwijder_concept_fiche(record_id, content_dir=content_dir)
+
+    # Stap 4: unmarkeer candidate (ADR-025 §wave-planning). Try/except: zie save_record.
+    try:
+        from tools.extractie import candidates_db
+        candidates_db.unmarkeer_gerealiseerd(record_id)
+    except Exception as cand_exc:  # noqa: BLE001
+        logger.debug("delete_record: candidate-unmarkering overgeslagen voor %s: %s", record_id, cand_exc)
+
     logger.info("delete_record: %s verwijderd (disk + RAG + content)", record_id)
 
 

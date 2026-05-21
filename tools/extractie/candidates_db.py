@@ -68,12 +68,34 @@ CREATE TABLE IF NOT EXISTS candidates (
     rationale_per_po TEXT NOT NULL DEFAULT '{}',
     aanvullings_log TEXT NOT NULL DEFAULT '[]',
     aangemaakt_op TEXT NOT NULL,
-    laatste_wijziging TEXT NOT NULL
+    laatste_wijziging TEXT NOT NULL,
+    -- Realisatie-tracking (ingevuld bij Fase 2 record-write)
+    gerealiseerd INTEGER NOT NULL DEFAULT 0,
+    gerealiseerd_als_record_id TEXT,
+    gerealiseerd_op TEXT,
+    extract_wave_id TEXT
 );
 
 CREATE INDEX IF NOT EXISTS ix_candidates_kind ON candidates(kind);
 CREATE INDEX IF NOT EXISTS ix_candidates_primary_po ON candidates(primary_po);
+-- ix_candidates_gerealiseerd wordt aangemaakt in _migrate_schema na ALTER TABLE
 """
+
+
+def _migrate_schema(conn: sqlite3.Connection) -> None:
+    """Voeg nieuwe kolommen toe aan bestaande DBs (idempotent)."""
+    existing_cols = {row[1] for row in conn.execute("PRAGMA table_info(candidates)").fetchall()}
+    migrations = [
+        ("gerealiseerd", "ALTER TABLE candidates ADD COLUMN gerealiseerd INTEGER NOT NULL DEFAULT 0"),
+        ("gerealiseerd_als_record_id", "ALTER TABLE candidates ADD COLUMN gerealiseerd_als_record_id TEXT"),
+        ("gerealiseerd_op", "ALTER TABLE candidates ADD COLUMN gerealiseerd_op TEXT"),
+        ("extract_wave_id", "ALTER TABLE candidates ADD COLUMN extract_wave_id TEXT"),
+    ]
+    for col, sql in migrations:
+        if col not in existing_cols:
+            conn.execute(sql)
+    conn.execute("CREATE INDEX IF NOT EXISTS ix_candidates_gerealiseerd ON candidates(gerealiseerd)")
+    conn.commit()
 
 
 def _get_conn() -> sqlite3.Connection:
@@ -88,6 +110,7 @@ def _get_conn() -> sqlite3.Connection:
         conn.execute("PRAGMA synchronous=NORMAL")
         conn.execute("PRAGMA busy_timeout=30000")
         conn.executescript(SCHEMA_SQL)
+        _migrate_schema(conn)
         conn.commit()
         _local.conn = conn
     return conn
@@ -398,8 +421,16 @@ def lijst_kandidaten(
     po_id: str | None = None,
     kind: str | None = None,
     cross_po_only: bool = False,
+    gerealiseerd: bool | None = None,
 ) -> list[dict[str, Any]]:
-    """Filter-view over de candidates-DB."""
+    """
+    Filter-view over de candidates-DB.
+
+    gerealiseerd:
+      None  → alles
+      False → alleen openstaande kandidaten (extract nog niet gedaan)
+      True  → alleen al-gerealiseerde kandidaten (record bestaat)
+    """
     conn = _get_conn()
     sql = "SELECT * FROM candidates WHERE 1=1"
     params: list[Any] = []
@@ -411,9 +442,83 @@ def lijst_kandidaten(
         params.append(kind)
     if cross_po_only:
         sql += " AND cross_po = 1"
+    if gerealiseerd is True:
+        sql += " AND gerealiseerd = 1"
+    elif gerealiseerd is False:
+        sql += " AND gerealiseerd = 0"
     sql += " ORDER BY primary_po, kind, fiche_id"
     rows = conn.execute(sql, params).fetchall()
     return [_row_to_dict(row) for row in rows]
+
+
+def markeer_gerealiseerd(
+    fiche_id: str,
+    record_id: str | None = None,
+    extract_wave_id: str | None = None,
+) -> dict[str, Any]:
+    """
+    Markeer een kandidaat als gerealiseerd (record geschreven).
+
+    Aangeroepen door:
+    - records_api.save_record() hook bij iedere write (real-time)
+    - sync_candidates_met_records.py als vangnet
+
+    Idempotent: meerdere calls hebben geen verkeerd effect.
+    Als de kandidaat niet bestaat: return error (geen INSERT — kandidaat moet
+    eerst via skeleton-pass bestaan).
+    """
+    conn = _get_conn()
+    cur = conn.cursor()
+    row = cur.execute("SELECT fiche_id FROM candidates WHERE fiche_id = ?", (fiche_id,)).fetchone()
+    if row is None:
+        return {"error": f"Kandidaat niet gevonden: {fiche_id}. Skeleton-pass eerst nodig."}
+
+    record_id = record_id or fiche_id
+    now = _now()
+    cur.execute(
+        """
+        UPDATE candidates SET
+            gerealiseerd = 1,
+            gerealiseerd_als_record_id = COALESCE(?, gerealiseerd_als_record_id),
+            gerealiseerd_op = COALESCE(gerealiseerd_op, ?),
+            extract_wave_id = COALESCE(?, extract_wave_id),
+            laatste_wijziging = ?
+        WHERE fiche_id = ?
+        """,
+        (record_id, now, extract_wave_id, now, fiche_id),
+    )
+    conn.commit()
+    return {
+        "actie": "gemarkeerd_gerealiseerd",
+        "fiche_id": fiche_id,
+        "record_id": record_id,
+        "extract_wave_id": extract_wave_id,
+    }
+
+
+def unmarkeer_gerealiseerd(fiche_id: str) -> dict[str, Any]:
+    """
+    Zet gerealiseerd-vlag terug naar 0 (voor delete-record of rollback).
+
+    Gebruikt door records_api.delete_record() hook + bij wave-rollback.
+    """
+    conn = _get_conn()
+    cur = conn.cursor()
+    row = cur.execute("SELECT fiche_id FROM candidates WHERE fiche_id = ?", (fiche_id,)).fetchone()
+    if row is None:
+        return {"error": f"Kandidaat niet gevonden: {fiche_id}"}
+    cur.execute(
+        """
+        UPDATE candidates SET
+            gerealiseerd = 0,
+            gerealiseerd_als_record_id = NULL,
+            laatste_wijziging = ?
+        WHERE fiche_id = ?
+        """,
+        (_now(), fiche_id),
+    )
+    conn.commit()
+    return {"actie": "ungemarkeerd", "fiche_id": fiche_id}
 
 
 def statistieken() -> dict[str, Any]:
@@ -425,11 +530,19 @@ def statistieken() -> dict[str, Any]:
     ).fetchall()
     cross_po_count = conn.execute("SELECT COUNT(*) FROM candidates WHERE cross_po = 1").fetchone()[0]
     met_embedding = conn.execute("SELECT COUNT(*) FROM candidates WHERE embedding IS NOT NULL").fetchone()[0]
+    gerealiseerd_count = conn.execute("SELECT COUNT(*) FROM candidates WHERE gerealiseerd = 1").fetchone()[0]
+    per_wave = conn.execute(
+        "SELECT extract_wave_id, COUNT(*) AS n FROM candidates "
+        "WHERE extract_wave_id IS NOT NULL GROUP BY extract_wave_id"
+    ).fetchall()
     return {
         "totaal": totaal,
         "per_kind": {row["kind"]: row["n"] for row in per_kind},
         "cross_po": cross_po_count,
         "met_embedding": met_embedding,
+        "gerealiseerd": gerealiseerd_count,
+        "openstaand": totaal - gerealiseerd_count,
+        "per_extract_wave": {row["extract_wave_id"]: row["n"] for row in per_wave},
         "db_path": str(DB_PATH.relative_to(ROOT)),
     }
 

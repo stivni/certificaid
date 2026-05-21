@@ -325,9 +325,16 @@ def _aanvul_kandidaat(fiche_id: str, po_id: str, veld: str, waarde, rationale: s
     return json.dumps(result, indent=2, ensure_ascii=False)
 
 
-def _lijst_kandidaten(po_id: str | None = None, kind: str | None = None, cross_po_only: bool = False) -> str:
+def _lijst_kandidaten(
+    po_id: str | None = None,
+    kind: str | None = None,
+    cross_po_only: bool = False,
+    gerealiseerd: bool | None = None,
+) -> str:
     """Filter-view over de candidates-DB."""
-    cands = candidates_db.lijst_kandidaten(po_id=po_id, kind=kind, cross_po_only=cross_po_only)
+    cands = candidates_db.lijst_kandidaten(
+        po_id=po_id, kind=kind, cross_po_only=cross_po_only, gerealiseerd=gerealiseerd
+    )
     # Compacte representatie
     compact = []
     for c in cands:
@@ -338,12 +345,26 @@ def _lijst_kandidaten(po_id: str | None = None, kind: str | None = None, cross_p
             "voorgesteld_door_pos": c["voorgesteld_door_pos"],
             "cross_po": c["cross_po"],
             "dekt_tdks": c["dekt_tdks"],
+            "gerealiseerd": c.get("gerealiseerd"),
+            "gerealiseerd_als_record_id": c.get("gerealiseerd_als_record_id"),
         })
     return json.dumps({
         "totaal": len(compact),
         "kandidaten": compact,
-        "filter": {"po_id": po_id, "kind": kind, "cross_po_only": cross_po_only},
+        "filter": {"po_id": po_id, "kind": kind, "cross_po_only": cross_po_only, "gerealiseerd": gerealiseerd},
     }, indent=2, ensure_ascii=False)
+
+
+def _markeer_kandidaat_gerealiseerd(
+    fiche_id: str,
+    record_id: str | None = None,
+    extract_wave_id: str | None = None,
+) -> str:
+    """Markeer een kandidaat als gerealiseerd (record geschreven)."""
+    result = candidates_db.markeer_gerealiseerd(
+        fiche_id=fiche_id, record_id=record_id, extract_wave_id=extract_wave_id
+    )
+    return json.dumps(result, indent=2, ensure_ascii=False)
 
 
 # ---------------------------------------------------------------------------
@@ -554,14 +575,39 @@ async def list_tools() -> list[Tool]:
         ),
         Tool(
             name="lijst_kandidaten",
-            description="Filter-view over de candidates-DB (compacte representatie zonder logs).",
+            description=(
+                "Filter-view over de candidates-DB (compacte representatie zonder logs). "
+                "Gebruik gerealiseerd=False bij re-runs om alleen openstaande kandidaten te zien."
+            ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "po_id": {"type": "string"},
                     "kind": {"type": "string"},
                     "cross_po_only": {"type": "boolean", "default": False},
+                    "gerealiseerd": {
+                        "type": "boolean",
+                        "description": "true = alleen gerealiseerd; false = alleen openstaand; weglaten = alles",
+                    },
                 },
+            },
+        ),
+        Tool(
+            name="markeer_kandidaat_gerealiseerd",
+            description=(
+                "Markeer een kandidaat als gerealiseerd (record geschreven). "
+                "Wordt typisch automatisch gedaan door records-API save_record hook; "
+                "deze tool is voor expliciete markering door extract-agents of voor "
+                "het tagging van een wave-id (extract_wave_id parameter)."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "fiche_id": {"type": "string"},
+                    "record_id": {"type": "string", "description": "Default = fiche_id"},
+                    "extract_wave_id": {"type": "string", "description": "bv. 'wave-0a-2026-05-21'"},
+                },
+                "required": ["fiche_id"],
             },
         ),
     ]
@@ -627,6 +673,13 @@ async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
                 po_id=arguments.get("po_id"),
                 kind=arguments.get("kind"),
                 cross_po_only=arguments.get("cross_po_only", False),
+                gerealiseerd=arguments.get("gerealiseerd"),
+            )
+        elif name == "markeer_kandidaat_gerealiseerd":
+            result = _markeer_kandidaat_gerealiseerd(
+                fiche_id=arguments["fiche_id"],
+                record_id=arguments.get("record_id"),
+                extract_wave_id=arguments.get("extract_wave_id"),
             )
         else:
             result = json.dumps({"error": f"Onbekende tool: {name}"})
