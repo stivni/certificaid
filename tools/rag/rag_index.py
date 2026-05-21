@@ -1,9 +1,10 @@
 """
 RAG-index builder voor de Certificaid kennisbank.
 
-Indexeert twee ChromaDB-collections (ADR-006):
+Indexeert drie ChromaDB-collections (ADR-006):
   - bronnen   : wetteksten + normen + adviezen samen, met `bron_rol`-metadata
   - concepten : concept-records + competentie-records, één chunk per record (ADR-006 §5)
+  - vragen    : examenvraag-interpretaties, één chunk per vraag (schema v1.2)
 
 Chunking per brontype (ADR-006 §4):
   - wettekst : per artikel (`## Art.`); breadcrumb-prefix + gestructureerd path
@@ -19,10 +20,18 @@ Chunking concepten-collectie (ADR-006 §5):
     schema_version, confidence_summary, bron_shorts, linked_concepts, extractor_run
   - Drop-and-rebuild bij elke run (ADR-006 §5.6)
 
+Chunking vragen-collectie:
+  - Eenheid: één chunk per interpretatie-JSON (data/programma/examen_vragen/_interpretaties/<examen>/<vraag>.json)
+  - Chunk-id: `vraag:<vraag_id>` (bv. `vraag:2013-1-vr13`)
+  - Embed-tekst: onderwerp + themas + vraagstellingen + context-blokken samengevoegd
+  - Metadata: vraag_id, examen_id, vraag_herkomst, programmaonderdeel_ids, vraagtypes, themas, node_type
+  - Drop-and-rebuild bij elke run
+
 Chunk-id-stabiliteit (ADR-006 §3.1):
   - wettekst : `<bron-stem>__art_<nr>`       bv. Antiwitwaswet-2017__art_5
   - norm      : `<bron-stem>__sec_<slug>`
   - advies    : `<bron-stem>` (één chunk) of `<bron-stem>__sec_<slug>` (gesplitst)
+  - vraag     : `vraag:<vraag_id>`
 
 Device auto-detect:
   MPS (Apple Silicon) > CUDA > CPU. Override via --device.
@@ -35,6 +44,7 @@ Gebruik:
   python tools/rag/rag_index.py --bron-rol norm              # alleen normen
   python tools/rag/rag_index.py --scope path/to/<programmaonderdeel>-bronnen-scope.yaml
   python tools/rag/rag_index.py --add-concepten              # concept- + competentie-records indexeren (drop-and-rebuild)
+  python tools/rag/rag_index.py --add-vragen                 # examenvraag-interpretaties indexeren (drop-and-rebuild)
   python tools/rag/rag_index.py --reset                      # verwijder en herbouw
   python tools/rag/rag_index.py --device cpu                 # forceer device
 """
@@ -83,6 +93,7 @@ BRON_DIRS = {
     "advies":   ROOT / "resources" / "bronnen" / "adviezen",
 }
 CONCEPTS_DIR = ROOT / "data" / "concepten" / "records"
+VRAGEN_DIR = ROOT / "data" / "programma" / "examen_vragen" / "_interpretaties"
 
 MIN_CHUNK_CHARS = 100
 # Aligneren met MPS_MAX_SEQ_LENGTH (2048 tokens ≈ 8K chars) zodat elke char
@@ -1977,6 +1988,147 @@ def index_concepten(collection, batch_size: int = 200):
 
 
 # ---------------------------------------------------------------------------
+# Vragen-collection
+# ---------------------------------------------------------------------------
+
+def _compose_vraag_tekst(record: dict) -> str:
+    """Stel deterministisch de embed-tekst samen voor een examenvraag-interpretatie.
+
+    Formaat:
+      {vraag_onderwerp}
+
+      Thema's: {themas}
+
+      Vraagstellingen:
+      - {deelvraag.vraagstelling} ...
+
+      Context: {context_blokken samengevoegd}
+    """
+    lines: list[str] = []
+
+    onderwerp = record.get("vraag_onderwerp", "")
+    if onderwerp:
+        lines.append(onderwerp)
+
+    themas = record.get("themas", [])
+    if themas:
+        lines.append("")
+        lines.append(f"Thema's: {', '.join(themas[:10])}")
+
+    vragen = record.get("vragen", [])
+    if vragen:
+        lines.append("")
+        lines.append("Vraagstellingen:")
+        for deelvraag in vragen:
+            if not isinstance(deelvraag, dict):
+                continue
+            vraagstelling = deelvraag.get("vraagstelling", "")
+            if vraagstelling:
+                lines.append(f"- {vraagstelling}")
+
+    context_blokken = record.get("context_blokken", [])
+    context_delen: list[str] = []
+    for blok in context_blokken:
+        if not isinstance(blok, dict):
+            continue
+        blok_type = blok.get("type", "")
+        if blok_type == "casus_context":
+            tekst = blok.get("tekst", "")
+            if tekst:
+                context_delen.append(tekst)
+        elif blok_type == "gegevens_tabel":
+            titel = blok.get("titel", "")
+            if titel:
+                context_delen.append(titel)
+            rijen = blok.get("rijen", [])
+            if rijen:
+                context_delen.append(str(rijen)[:400])
+        elif blok_type == "balans":
+            for kant in ("actief", "passief"):
+                headers = blok.get(f"{kant}_headers", [])
+                if headers:
+                    context_delen.append(", ".join(str(h) for h in headers[:5]))
+
+    if context_delen:
+        lines.append("")
+        lines.append("Context:")
+        lines.append(" ".join(context_delen)[:3000])
+
+    return "\n".join(lines)
+
+
+def index_vragen(collection, batch_size: int = 200):
+    """Indexeer examenvraag-interpretaties conform vragen-collection design.
+
+    Drop-and-rebuild: de collectie wordt altijd vervangen.
+    Bronnen: data/programma/examen_vragen/_interpretaties/<examen>/<vraag>.json (schema v1.2)
+    Eenheid: één chunk per interpretatie-JSON.
+    """
+    ids: list[str] = []
+    texts: list[str] = []
+    metadatas: list[dict] = []
+
+    if not VRAGEN_DIR.exists():
+        print(f"  WAARSCHUWING: {VRAGEN_DIR} bestaat niet — geen vragen geïndexeerd")
+        return
+
+    alle_bestanden = sorted(VRAGEN_DIR.rglob("*.json"))
+    if not alle_bestanden:
+        print(f"  Geen interpretatie-JSONs in {VRAGEN_DIR}")
+        return
+
+    for pad in tqdm(alle_bestanden, desc="examenvragen"):
+        try:
+            record = json.loads(pad.read_text())
+        except Exception as exc:
+            print(f"  Overgeslagen {pad.name}: {exc}")
+            continue
+
+        vraag_id = record.get("vraag_id", pad.stem)
+        examen_id = record.get("examen_id", pad.parent.name)
+
+        embed_tekst = _compose_vraag_tekst(record)
+        if not embed_tekst.strip():
+            print(f"  → skip {vraag_id}: lege embed-tekst")
+            continue
+
+        # Metadata — alle velden als strings/comma-separated strings (ChromaDB eis)
+        po_ids_list = record.get("programmaonderdeel_ids", [])
+        programmaonderdeel_ids_str = ",".join(str(p) for p in po_ids_list)
+
+        vragen = record.get("vragen", [])
+        vraagtypes_set: list[str] = []
+        seen_types: set[str] = set()
+        for deelvraag in vragen:
+            if not isinstance(deelvraag, dict):
+                continue
+            vt = deelvraag.get("vraagtype", "")
+            if vt and vt not in seen_types:
+                seen_types.add(vt)
+                vraagtypes_set.append(vt)
+        vraagtypes_str = ",".join(vraagtypes_set)
+
+        themas = record.get("themas", [])
+        themas_str = ",".join(str(t) for t in themas[:10])
+
+        ids.append(f"vraag:{vraag_id}")
+        texts.append(embed_tekst)
+        metadatas.append({
+            "vraag_id":               vraag_id,
+            "examen_id":              examen_id,
+            "vraag_herkomst":         record.get("vraag_herkomst", ""),
+            "programmaonderdeel_ids": programmaonderdeel_ids_str,
+            "vraagtypes":             vraagtypes_str,
+            "themas":                 themas_str,
+            "node_type":              "vraag",
+        })
+
+    if ids:
+        _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
+    print(f"  {len(ids)} chunks geïndexeerd uit {len(alle_bestanden)} interpretatie-JSONs")
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -1990,6 +2142,10 @@ def main():
                         help="Indexeer alle records (drop-and-rebuild, ADR-006 §5.6). "
                              "Indexeert data/concepten/records/*.json (concept én competentie, schema 1.5), "
                              "één chunk per record.")
+    parser.add_argument("--add-vragen", action="store_true",
+                        help="Indexeer examenvraag-interpretaties (drop-and-rebuild). "
+                             "Indexeert data/programma/examen_vragen/_interpretaties/**/*.json (schema v1.2), "
+                             "één chunk per vraag.")
     parser.add_argument("--reset", action="store_true",
                         help="Verwijder en herbouw de collection(s)")
     parser.add_argument("--device", choices=["mps", "cuda", "cpu"],
@@ -2018,6 +2174,11 @@ def main():
         print("  → concepten-collectie wordt vervangen (ADR-006 §5.6 drop-and-rebuild)")
         col, client = get_collection(client, chroma_path, "concepten", ef, reset=True)
         index_concepten(col, batch_size=batch_size)
+    elif args.add_vragen:
+        print("\n→ Indexeer collection: vragen")
+        print("  → vragen-collectie wordt vervangen (drop-and-rebuild)")
+        col, client = get_collection(client, chroma_path, "vragen", ef, reset=True)
+        index_vragen(col, batch_size=batch_size)
     else:
         print("\n→ Indexeer collection: bronnen")
         col, client = get_collection(client, chroma_path, "bronnen", ef, reset=args.reset)

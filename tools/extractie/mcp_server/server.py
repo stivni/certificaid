@@ -159,6 +159,73 @@ def _zoek_concepten(query: str, top_k: int = 10) -> str:
     return _formatteer_resultaten(results[:top_k], max_text_chars=2000)
 
 
+def _zoek_vragen(
+    query: str,
+    top_k: int = 5,
+    programmaonderdeel_id: str | None = None,
+    vraag_herkomst: str | None = None,
+) -> str:
+    """
+    Bevraag de vragen-RAG (examenvraag-interpretaties, schema v1.2).
+
+    Optionele filters:
+      - programmaonderdeel_id: bv. "1.7" — filtert op programmaonderdeel_ids-metadata
+        (comma-separated string; match als de opgegeven id erin voorkomt via $contains)
+      - vraag_herkomst: "officieel" | "herinnering" | "hybride"
+
+    Returns: compacte lijst van vraag-metadata + similarity-score (geen chunk-tekst).
+    """
+    client, ef, _ = _get_retrieval_stack()
+    cols = open_collections(client, ef, ["vragen"])
+    if not cols:
+        return json.dumps({"error": "vragen-collection niet beschikbaar — run eerst: python3 -m tools.rag.rag_index --add-vragen"})
+
+    # Bouw where-filter op basis van optionele parameters
+    where_filters: list[dict] = []
+    if programmaonderdeel_id:
+        # programmaonderdeel_ids is comma-separated string, bv. "1.6,3.0"
+        # ChromaDB $contains zoekt substring — werkt voor "1.7" in "1.7" en "1.6,1.7"
+        where_filters.append({"programmaonderdeel_ids": {"$contains": programmaonderdeel_id}})
+    if vraag_herkomst:
+        where_filters.append({"vraag_herkomst": {"$eq": vraag_herkomst}})
+
+    where = None
+    if len(where_filters) == 1:
+        where = where_filters[0]
+    elif len(where_filters) > 1:
+        where = {"$and": where_filters}
+
+    col = cols["vragen"]
+    count = col.count()
+    if count == 0:
+        return json.dumps({"error": "vragen-collection is leeg"})
+
+    res = col.query(
+        query_texts=[query],
+        n_results=min(top_k, count),
+        include=["metadatas", "distances"],
+        where=where,
+    )
+
+    output = []
+    for meta, dist, cid in zip(
+        res["metadatas"][0],
+        res["distances"][0],
+        res["ids"][0],
+    ):
+        score = round(1 - dist, 4)
+        output.append({
+            "vraag_id":               meta.get("vraag_id", cid),
+            "examen_id":              meta.get("examen_id", ""),
+            "vraag_herkomst":         meta.get("vraag_herkomst", ""),
+            "programmaonderdeel_ids": meta.get("programmaonderdeel_ids", ""),
+            "vraagtypes":             meta.get("vraagtypes", ""),
+            "themas":                 meta.get("themas", ""),
+            "similarity_score":       score,
+        })
+    return json.dumps(output, indent=2, ensure_ascii=False)
+
+
 def _lees_record(record_id: str) -> str:
     """Lees JSON-record on-demand. Geen RAG-roundtrip nodig."""
     pad = RECORDS_DIR / f"{record_id}.json"
@@ -421,6 +488,40 @@ async def list_tools() -> list[Tool]:
             },
         ),
         Tool(
+            name="zoek_vragen",
+            description=(
+                "Bevraag de examenvragen-RAG (schema v1.2-interpretaties). "
+                "Returns top-K vragen met vraag_id, examen_id, PO-ids, themas en "
+                "similarity-score (geen chunk-tekst — compact voor agent-gebruik). "
+                "Optioneel filteren op programmaonderdeel_id (bv. '1.7') of "
+                "vraag_herkomst ('officieel'/'herinnering'/'hybride')."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "Semantische query, bv. 'fraude door boekhouder interne controle'",
+                    },
+                    "top_k": {
+                        "type": "integer",
+                        "description": "Aantal resultaten (default 5, max 20)",
+                        "default": 5,
+                    },
+                    "programmaonderdeel_id": {
+                        "type": "string",
+                        "description": "Optioneel filter op PO, bv. '1.7' of '2.4'",
+                    },
+                    "vraag_herkomst": {
+                        "type": "string",
+                        "description": "Optioneel filter: 'officieel' | 'herinnering' | 'hybride'",
+                        "enum": ["officieel", "herinnering", "hybride"],
+                    },
+                },
+                "required": ["query"],
+            },
+        ),
+        Tool(
             name="zoek_concepten",
             description=(
                 "Bevraag de concepten-RAG voor near-duplicate-check of "
@@ -623,6 +724,13 @@ async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
                 top_k=arguments.get("top_k", 10),
                 bron_rollen=arguments.get("bron_rollen"),
                 rerank=arguments.get("rerank", False),
+            )
+        elif name == "zoek_vragen":
+            result = _zoek_vragen(
+                query=arguments["query"],
+                top_k=arguments.get("top_k", 5),
+                programmaonderdeel_id=arguments.get("programmaonderdeel_id"),
+                vraag_herkomst=arguments.get("vraag_herkomst"),
             )
         elif name == "zoek_concepten":
             result = _zoek_concepten(
