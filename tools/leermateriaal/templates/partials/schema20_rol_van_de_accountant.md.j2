@@ -10,11 +10,23 @@
 {% if rol.elementen | default([]) | length > 0 %}{% set heeft_elementen.waarde = true %}{% endif %}
 {% endfor %}
 {% if heeft_elementen.waarde %}
-### {{ perspectief.titel | default(perspectief.perspectief_id | default('')) }}
+{% set perspectief_label = perspectief.actor | default(perspectief.naam | default(perspectief.klant | default(perspectief.perspectief | default(perspectief.titel | default(perspectief.perspectief_id | default('')))))) %}
+{% set perspectief_emoji = perspectief.emoji | default('') %}
+### {% if perspectief_emoji %}{{ perspectief_emoji }} {% endif %}{{ perspectief_label | capitalize }}
 
 {% for rol in perspectief.rollen | default([]) %}
 {% if rol.elementen | default([]) | length > 0 %}
-#### {{ rol.rol }}
+{% set rol_label = rol.rol | default('') %}
+{% set rol_emoji = rol.emoji | default('') %}
+{% if not rol_emoji %}
+{% if 'adviseur' in rol_label and 'fiscaal' in rol_label %}{% set rol_emoji = '💰' %}
+{% elif 'boekhouder' in rol_label %}{% set rol_emoji = '📋' %}
+{% elif 'externe auditor' in rol_label or 'auditor' in rol_label %}{% set rol_emoji = '🔍' %}
+{% elif 'interne-controle' in rol_label or 'interne controle' in rol_label %}{% set rol_emoji = '🛡️' %}
+{% elif 'adviseur' in rol_label %}{% set rol_emoji = '🎯' %}
+{% endif %}
+{% endif %}
+#### {% if rol_emoji %}{{ rol_emoji }} {% endif %}{{ rol_label }}
 
 {% for element in rol.elementen %}
 {% set conf_label = element.confidence | default('inferred') | confidence_label %}
@@ -24,7 +36,10 @@
 {{ element.beschrijving }}
 
 {% endif %}
-{% if element.bron is defined and element.bron %}
+{% if element.source is defined and element.source %}
+_Bron: {{ element.source.short | default(element.source) }}_
+
+{% elif element.bron is defined and element.bron %}
 _Bron: {{ element.bron.short | default(element.bron) }}_
 
 {% endif %}

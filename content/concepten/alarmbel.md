@@ -21,7 +21,7 @@ gegenereerd_op: '2026-05-21'
 
 De alarmbelprocedure is een dwingend wettelijk mechanisme dat het bestuursorgaan verplicht de algemene vergadering bijeen te roepen zodra het vermogen of de liquiditeit van de vennootschap onder een wettelijke drempel zakt, op straffe van omgekeerde bewijslast bij bestuurdersaansprakelijkheid.
 
-_Bron: _
+_Bron: WVV art. 5:153 (BV/CV) / art. 7:228 (NV)_
 
 
 
@@ -56,6 +56,8 @@ Het bestuursorgaan stelt vast — of had krachtens wettelijke of statutaire bepa
 
 Het bestuursorgaan roept de algemene vergadering bijeen binnen een termijn van ten hoogste twee maanden na de vaststelling. De agenda vermeldt expliciet het bijzonder verslag en de voorgestelde maatregelen.
 
+
+
 ### Stap 3 — Bijzonder bestuursverslag ⚖️
 
 Tenzij het bestuursorgaan de ontbinding van de vennootschap voorstelt (art. 5:135 / art. 7:228 §3), stelt het een bijzonder verslag op met de maatregelen die het voorstelt om de continuïteit te vrijwaren. Ontbinding is één van de opties, niet de enige. Het verslag wordt bij de agenda gevoegd en verzonden aan de aandeelhouders. Ontbreekt het verslag, dan zijn de besluiten van de AV nietig.
@@ -81,6 +83,94 @@ Na naleving van de procedure is het bestuursorgaan pas ten vroegste één jaar l
 
 Wordt de AV niet conform de wet bijeengeroepen of het bijzonder verslag niet opgesteld, dan wordt vermoed dat alle schade die derden lijden het gevolg is van het uitblijven van de procedure. Dit vermoeden is weerlegbaar (het bestuur kan bewijzen dat de schade niet aan het verzuim te wijten is), maar de bewijslast keert om. Het vermoeden geldt voor schade aan derden, niet automatisch voor interne schadeclaims.
 
+
+
+
+## Rol van de accountant
+
+### Bv-bestuur
+
+#### 🎯 adviseur
+
+##### Proactief signaleren en drempel-monitoring 🧭
+
+De accountant bewaakt bij het opmaken van de (ontwerp)jaarrekening of tussentijdse staat of één van de twee BV-triggers dreigt te worden bereikt: (a) netto-actief negatief of bijna negatief; (b) liquiditeitstest 12 maanden negatief. Bij naderende drempel informeert hij het bestuur ruim vóór de formele vaststellingstermijn zodat de twee-maands-klok niet onnodig snel begint te lopen.
+
+
+
+##### Ondersteuning bij scenario-analyse herstelplan 🧭
+
+De accountant helpt het bestuur bij het opstellen van het bijzonder verslag: hij becijfert de haalbaarheid van elk herstelscenario (aandeelhouderslening, activa-verkoop, gerechtelijke reorganisatie) en kwantificeert de impact op het netto-actief en de 12-maands-liquiditeitsprojectie.
+
+| Scenario | Impact netto-actief | Impact liquiditeit 12M | Complexiteit |
+| --- | --- | --- | --- |
+| Aandeelhouderslening | Geen directe impact (schuld stijgt) | Positief (cash instroomt) | Laag |
+| Kapitaalverhoging | Positief (EV stijgt) | Positief | Middel (AV, notaris) |
+| Verkoop niet-strategische activa | Mogelijk positief | Positief | Hoog (taxatie, timing) |
+| Gerechtelijke reorganisatie | Neutraal kort-termijn | Ademruimte via WCO-moratorium | Hoog (rechtbank) |
+| Vrijwillige ontbinding | N.v.t. | N.v.t. | Hoog (vereffening) |
+
+#### 📋 boekhouder
+
+##### Berekening netto-actief voor drempel-toets BV ⚖️
+
+Netto-actief = totaal activa − voorzieningen − schulden. Bij de BV wordt het getal vergeleken met nul (negatief = trigger). Oprichtings- en O&O-kosten worden in beginsel in aftrek gebracht tenzij uitzonderingsclausule in toelichting gemotiveerd is.
+
+_Bron: WVV art. 5:153 §1 jo. art. 5:142; MvT WVV art. 5:133_
+
+Netto-actief = Σ activa − Σ voorzieningen − Σ schulden
+
+
+
+### Nv-bestuur
+
+#### 🎯 adviseur
+
+##### Monitoring netto-actief versus kapitaal (NV) ⚖️
+
+Bij de NV vergelijkt de accountant het netto-actief met de helft en het kwart van het geplaatst kapitaal. Belangrijk: bij de NV is een 'geleden verlies' vereist als oorzaak — een daling door uitkering triggert de alarmbel niet (dat is de nettoactieftest). Hij bewaakt ook de € 61.500-grens voor gerechtelijke ontbinding.
+
+_Bron: WVV art. 7:228 §1; CBN-advies 2021/14 §Kapitaalhoudende vennootschappen_
+
+
+
+#### 📋 boekhouder
+
+##### Berekening netto-actief voor drempel-toets NV ⚖️
+
+Netto-actief NV = totaal activa − voorzieningen − schulden (en in beginsel ook de niet-afgeschreven oprichtings- en O&O-kosten in aftrek). Vergelijking: met ½ geplaatst kapitaal (eerste drempel) en ¼ geplaatst kapitaal (tweede drempel). Geplaatst kapitaal = passiefpost I.A.1 uit de jaarrekening.
+
+_Bron: WVV art. 7:228 §1; WVV art. 7:212 (definitie netto-actief NV)_
+
+| Post | Bedrag |
+| --- | --- |
+| Totale activa | A |
+| Af: voorzieningen | −P |
+| Af: schulden | −S |
+| Af: niet-afgeschreven oprichtingskosten (behoudens uitzondering) | −K |
+| = Netto-actief | A − P − S − K |
+| ½ × geplaatst kapitaal (eerste drempel) | ½ C |
+| ¼ × geplaatst kapitaal (tweede drempel) | ¼ C |
+| Trigger 1: netto-actief < ½ C | → alarmbel |
+| Trigger 2: netto-actief < ¼ C | → minderheidsontbinding mogelijk |
+
+### Vennootschap-met-commissaris
+
+#### 🔍 externe auditor
+
+##### Commissaris-verslag en continuïteitsplicht ⚖️
+
+De commissaris controleert de staat van activa en passiva die het bestuur als referentiedocument gebruikt voor de alarmbeldrempel-toets (WVV art. 5:142 lid 2 — bij BV/CV). Zijn jaarverslag moet aandacht besteden aan feiten die de continuïteit ernstig in gevaar kunnen brengen (WVV art. 3:75 §3 — 'going concern'-paragraaf). Stelt hij vast dat de alarmbel hätte moeten aanslaan maar het bestuur heeft nagelaten de AV bijeen te roepen, dan moet hij het bestuur aanmanen; bij uitblijven van reactie kan hij zelf de AV bijeenroepen.
+
+_Bron: WVV art. 3:75 §3; WVV art. 5:142 lid 2; WVV art. 3:68_
+
+
+
+##### Eigen bijeenroepingsrecht commissaris ⚖️
+
+De commissaris kan de algemene vergadering zelf bijeenroepen wanneer het bestuursorgaan in gebreke blijft (WVV art. 3:68). Dit is een ultimum remedium — de commissaris gebruikt dit enkel na aanmaning van het bestuur die vruchteloos bleef.
+
+_Bron: WVV art. 3:68_
 
 
 

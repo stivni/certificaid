@@ -204,7 +204,7 @@ _Bron: WIB92 art. 192 §1_
 
 DBI raakt drie typische perspectieven: de **ontvangende moedervennootschap** (cliënt), de **uitkerende dochter** (vaak ook cliënt of zusterdossier) en de **auditor** die de jaarrekening van de moeder of dochter controleert. Voor de aandeelhouder-natuurlijke-persoon is DBI niet rechtstreeks relevant — wel via VVPRbis en RV.
 
-### 🏢 Ontvangende moedervennootschap (cliënt)
+### 🏢 ontvangende moedervennootschap (cliënt)
 
 #### 🎯 Adviseur
 
@@ -254,7 +254,7 @@ De DBI-aftrek wordt **beperkt** tot het bedrag van de winst dat overblijft na ar
 
 _Bron: WIB92 art. 205 §2_
 
-### 🏭 Uitkerende dochter (cliënt of zusterdossier)
+### 🏭 uitkerende dochter (cliënt of zusterdossier)
 
 #### 📑 Fiscaal
 
@@ -268,7 +268,7 @@ _Bron: WIB92 art. 264/1 §1; Richtlijn 2011/96/EU art. 5_
 
 De dochter moet vóór uitkering een attest van de moeder ontvangen waarin: (1) deelnemingspercentage of aanschaffingswaarde, (2) datum van verkrijging in volle eigendom, (3) fiscale woonplaats, (4) bevestiging dat de aandelen op uitkeringsdatum ≥ 1 jaar in eigendom zijn. Zonder attest = RV moet ingehouden worden, moeder kan ze later in haar VenB-aangifte terugvragen indien voorwaarden alsnog vervuld bleken.
 
-### 🔍 Auditor / Commissaris
+### 🔍 auditor / commissaris
 
 #### 🔍 Controleur
 

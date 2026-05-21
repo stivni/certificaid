@@ -24,8 +24,6 @@ gegenereerd_op: '2026-05-21'
 > [!summary] Korte inhoud
 > De **aandeelhoudersovereenkomst** (Engels: *shareholders' agreement*, kort **SHA**) is een **contract tussen aandeelhouders** (en soms de vennootschap zelf) dat **bovenop de statuten** afspraken vastlegt over besluitvorming, overdracht van aandelen, bestuur, dividendbeleid, exit….
 
-> [!info] Bestaat uit (5): [[drag-along-tag-along]] · [[exit-mechanismen-sha]] · [[overdrachtsbeperking-aandelen]] · [[stemovereenkomst]] · [[voordrachtrecht-bestuurder]]
-
 De **aandeelhoudersovereenkomst** (Engels: *shareholders' agreement*, kort **SHA**) is een **contract tussen aandeelhouders** (en soms de vennootschap zelf) dat **bovenop de statuten** afspraken vastlegt over besluitvorming, overdracht van aandelen, bestuur, dividendbeleid, exit en geschillenbeslechting. Anders dan de statuten — die *erga omnes* werken (tegenstelbaar aan iedereen) — bindt de SHA in beginsel **enkel de ondertekenende partijen** (*inter partes*) en hun erfgenamen/rechtsopvolgers.
 
 _Bron: IBA Guide on Shareholders' Agreements — Belgium 2024 §3 en §11_
@@ -189,7 +187,7 @@ _Bron: WVV art. 5:60 §2, 7:78 §2; IBA-Guide §3_
 
 De accountant is geen advocaat — het opstellen en redigeren van een SHA blijft kerntaak van de **bedrijfsjurist of corporate-advocaat**. De accountant grijpt wel aan op drie raakvlakken: (1) **structurering** (welke clausules zijn nodig om de gewenste eigenaars- en exit-architectuur economisch werkbaar te maken), (2) **waardering en financiële parameters** (prijsformules in put/call, drag/tag-protectie, ratchets), en (3) **impact op jaarrekening, controle en fiscaliteit** (mede-zeggenschap, consolidatie, deelnemings-vrijstelling DBI/meerwaarden, registratierechten bij optie-uitoefening). Voor de **accountant zelf** als eigen-kantoor speelt nog iets aparts: in een associatieformule binnen het ITAA-kader gelden eigen deontologische beperkingen voor SHA-clausules.
 
-### KMO met meerdere stichters (BV)
+### Kmo met meerdere stichters (bv)
 
 #### 🎯 Adviseur
 
@@ -218,13 +216,13 @@ In een familieholding wil men typisch dat aandelen *binnen de familie* vrij over
 
 _Bron: WVV art. 5:60, 7:78; MvT WVV art. 7:67_
 
-#### 📑 Fiscaal adviseur
+#### 🎯 📑 Fiscaal adviseur
 
 ##### Impact SHA-overdrachtsbeperking op DBI-aanhoudtermijn en art. 192-vrijstelling 🔗
 
 Lock-up-clausules die aandelen 'vastzetten' kunnen ironisch genoeg de DBI- en art. 192-meerwaarde-vrijstelling **versterken** (aanhoudtermijn 1 jaar in volle eigendom is per definitie vervuld bij meerjarige lock-up). Maar **drag-along-uitoefening** kan een minderheidsaandeelhouder gedwongen doen verkopen *voor* de 1-jaars termijn vervuld is — verlies van DBI op tussentijdse dividenden + verlies van meerwaarde-vrijstelling. Documenteer dit risico in de SHA-onderhandeling: pas drag-along bv. enkel toe na 12 maanden.
 
-### Vennootschap met PE-/venture-investeerder
+### Vennootschap met pe-/venture-investeerder
 
 #### 🎯 Adviseur
 
@@ -232,7 +230,7 @@ Lock-up-clausules die aandelen 'vastzetten' kunnen ironisch genoeg de DBI- en ar
 
 Bij een investering door een PE-/VC-fonds bevat de SHA vaak anti-dilutie-clausules (full ratchet of weighted average) die de investeerder beschermen tegen 'down rounds'. Vertaal voor de stichter wat dit economisch betekent: bij een lagere vervolg-waardering wordt het % van de investeerder bijgepast — vaak ten koste van de stichter. Reken het effect concreet door op een aantal scenario's vóór ondertekening.
 
-#### 🔍 Externe auditor
+#### 🔍 🔍 Externe auditor
 
 ##### SHA-clausules → impact op control-analyse en consolidatie 🔗
 
@@ -250,7 +248,7 @@ Wanneer een SHA bestaat met materiële impact op control, dividend-policy of ove
 
 Bij een 50/50-JV is dead-lock een wiskundige zekerheid bij conflict. Een SHA zonder dead-lock-mechanisme leidt onvermijdelijk naar de gerechtelijke uittreding/uitsluiting (art. 2:60-2:69 WVV) — duur, duur in geld, en met onvoorspelbare uitkomst. Adviseer steeds een **expliciete dead-lock-cascade**: eerst mediation, dan een buy-or-sell (Russian roulette of Texas shoot-out), met **objectieve waardering** als fallback. Reken doorlooptijd en kosten van elke optie tevoren door — dat is wat een 50/50-partner motiveert om de cascade niet lichtvaardig te triggeren.
 
-#### 🔍 Interne-controle-adviseur
+#### 🎯 🔍 Interne-controle-adviseur
 
 ##### SHA-bestuursclausules → vertaling naar interne-controle-design 🔗
 
@@ -304,9 +302,6 @@ Andere wegen om aandeelhouders-verhoudingen te organiseren buiten een SHA:
 
 - **Anti-dilutie** — zie [↑](#anti-dilutie-en-ratchet-uitleg)- **Dead-lock** — zie [↑](#categorie-4-exit-en-geschillen)- **Drag-along** — zie [↑](#categorie-1-overdrachtsclausules)- **Goedkeuringsclausule** — zie [↑](#categorie-1-overdrachtsclausules)- **Inter partes** — zie [↑](#sha-vs-statuten-positionering)- **Lock-up / stand-still** — zie [↑](#categorie-1-overdrachtsclausules)- **Niet-tegenwerpelijkheid** — zie [↑](#tegenwerpelijkheid-en-afdwingbaarheid)- **Put-/call-optie** — zie [↑](#categorie-1-overdrachtsclausules)- **Reserved matters / vetorechten** — zie [↑](#categorie-2-bestuursclausules)- **Russian roulette / Texas shoot-out** — zie [↑](#categorie-4-exit-en-geschillen)- **Stemafspraak** — zie [↑](#categorie-2-bestuursclausules)- **Tag-along** — zie [↑](#categorie-1-overdrachtsclausules)- **Voorkooprecht (pre-emption)** — zie [↑](#categorie-1-overdrachtsclausules)
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[statuten-vennootschap]]
 ## Bronnen
 
 [^1]: `IBA-SHA-Belgium-2024-NL__sec_3-kunnen-aandeelhoudersovereenkomsten-worden-tegengeworpen-a`

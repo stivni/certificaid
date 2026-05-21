@@ -24,7 +24,7 @@ gegenereerd_op: '2026-05-21'
 
 Fraude is een opzettelijke handeling door een of meer leden van het management, met governance belaste personen, werknemers of derden, waarbij gebruik wordt gemaakt van misleiding teneinde een onrechtmatig of onwettig voordeel te verkrijgen.
 
-_Bron: _
+_Bron: ISA 240, par. 12(a) — Definities_
 
 
 
@@ -99,52 +99,124 @@ Fraude begrijp je via drie lagen: **de drijvers** (waarom mensen frauderen — d
 
 ### Fraude vs fout — de scheidslijn van het opzet 🔗
 
+#### Opzet is het onderscheid ⚖️
+
+Een fout is onopzettelijk (vergissing, slechte schatting, foutieve interpretatie van een norm). Fraude is **opzettelijk** — er is een wil tot misleiden en een doel om voordeel te verkrijgen of nadeel te ontkomen. De economische impact op de jaarrekening kan identiek zijn; de juridische, deontologische en audit-respons is dat niet. De auditor stelt vast wat er gebeurde; over schuld/intentie oordeelt uiteindelijk de rechter.
+
+_Bron: ISA 240, par. 2-3_
+
 ### De fraude-driehoek — drijvers van het frauduleus gedrag 🔗
+
+#### Druk × Gelegenheid × Rationalisatie ⚖️
+
+Bij elke vorm van fraude — frauduleuze financiële verslaggeving of oneigenlijke toe-eigening — zijn drie omstandigheden gewoonlijk samen aanwezig:
+
+- **Stimulans of druk** (incentive/pressure): winstdoelstellingen die niet gehaald worden, bonusafhankelijkheid, persoonlijke schulden, levensstijl boven stand, dreigend verlies van baan of beursnotering.
+- **Waargenomen gelegenheid** (opportunity): zwakke interne controle, dominante positie, vertrouwensrelatie, IT-toegang buiten taak, slechte functiescheiding, mogelijkheid tot management override.
+- **Rationalisatie** (attitude/justification): morele zelf-rechtvaardiging — 'ik leen het maar even', 'ik heb het verdiend', 'iedereen doet het', 'het bedrijf merkt het toch niet'.
+
+Hoe sterker elke pijler, hoe groter het frauderisico. De auditor vertaalt dit naar concrete **frauderisicofactoren** — gebeurtenissen of omstandigheden die wijzen op druk, gelegenheid of rationalisatie. Bijlage 1 van ISA 240 geeft uitgebreide voorbeelden voor beide hoofdtypes.
+
+_Bron: ISA 240, par. A1 + Bijlage 1_
 
 ### Typologie — drie hoofdvormen in de praktijk 🔗
 
+#### Frauduleuze financiële verslaggeving (FFR) ⚖️
+
+Opzettelijk onjuiste of weggelaten bedragen of toelichtingen in de jaarrekening om gebruikers te misleiden. Typisch gepleegd door **management** (vaak via management override): vervroegd of fictief boeken van opbrengsten, uitstellen van kosten, overschatte voorraden, onderschatte voorzieningen, manipulatie van schattingen (afschrijvingen, waardeverminderingen), niet-onthulling van verbonden partijen. Drijver is meestal: bonus, koers, convenant, prognose. Hoofdrisico-zone in ISA 240: **revenue recognition** wordt als vermoed risico beschouwd.
+
+_Bron: ISA 240, par. 26 + Bijlage 1_
+
+#### Oneigenlijke toe-eigening van activa (asset misappropriation) ⚖️
+
+Diefstal van activa van de onderneming — vaak door **werknemers**, soms door management. Vormen: kasdiefstal, niet-geregistreerde verkopen (omzet wordt niet geboekt en cash gaat in eigen zak), fictieve leveranciers en valse facturen, valse onkostennota's, oneigenlijk gebruik van bedrijfsmiddelen, payroll-fraude (spookmedewerkers), inkoopkickbacks. Vaak verhuld door valse boekingen om sporen te wissen. Individuele bedragen lijken klein, maar cumulatief kunnen ze materieel zijn.
+
+_Bron: ISA 240, Bijlage 1 + Bijlage 3_
+
+#### Corruptie en omkoping 🔗
+
+Misbruik van macht in zakelijke relaties voor persoonlijk gewin: omkoping van inkopers, kickbacks van leveranciers, conflict of interest niet-gemeld, ongeoorloofde betalingen aan ambtenaren of vakbondsdelegees. Vaak verborgen achter consultancy-facturen, 'commissies', dummy-vennootschappen, contante stromen. ISA 240 behandelt corruptie via de algemene fraude-aanpak; specifieke regimes (FCPA, UK Bribery Act, EU-richtlijn) leggen extra verplichtingen op aan grote en internationale ondernemingen.
+
 ### Juridisch kader — strafrecht, AWW en tucht 🔗
+
+#### Belgisch strafrecht — de drie hoofdfiguren ⚖️
+
+Fraude is geen apart misdrijf, maar valt onder een reeks bestaande strafbepalingen:
+
+- **Valsheid in geschriften en gebruik van valse stukken**: opzettelijk produceren of vervalsen van een geschrift met bewijswaarde, of het gebruiken van zo'n stuk, met bedrieglijk opzet of oogmerk om te schaden (Sw. art. 451-452 nieuw Strafwetboek 2024; vroeger Sw. art. 193 e.v.).
+- **Oplichting** (Sw. art. 479 nieuw): met bedrieglijk opzet een onrechtmatig economisch voordeel verwerven via valse namen, valse hoedanigheden of listige kunstgrepen.
+- **Valsheid in de jaarrekening** (MvT WVV art. 3:44): wie met bedrieglijk opzet of oogmerk om te schaden valsheid pleegt in de wettelijke of statutair voorgeschreven jaarrekening — straffen tot 10 jaar opsluiting.
+
+Daarnaast: misbruik van vennootschapsgoederen, bedrieglijke bankbreuk, fiscale fraude (Wet 1980 Witwas + WIB-bepalingen).
+
+_Bron: Strafwetboek 2024 art. 451, 452, 479; oude Sw. art. 193, 213; MvT WVV art. 3:44_
+
+#### AWW — fraude triggert witwas-melding ⚖️
+
+Elke geldstroom afkomstig van een **criminele activiteit** is per definitie witwassen zodra ze wordt omgezet, verhuld of gebruikt (AWW art. 2). Fraude (oplichting, valsheid in jaarrekening, fiscale fraude) is een **onderliggend misdrijf**. Externe leden ITAA moeten — wanneer ze in het kader van hun beroepsactiviteit een **vermoeden** krijgen dat geldmiddelen, verrichtingen of feiten verband houden met witwassen of financiering van terrorisme — daarover melding doen aan de **CFI** (Cel voor Financiële Informatieverwerking) (AWW art. 47). Belangrijk: het volstaat een vermoeden te hebben — de onderliggende criminele activiteit zelf moet de accountant **niet** identificeren of bewijzen.
+
+_Bron: AWW 2017 art. 2, 47; ITAA-Handleiding interne procedures AWW art. 19_
+
+#### CFI-melding doorbreekt beroepsgeheim ⚖️
+
+Het beroepsgeheim van de accountant (art. 458 Sw.) wijkt voor de AWW-meldingsplicht: art. 57 AWW geeft de melder **strafrechtelijke, burgerrechtelijke én tuchtrechtelijke immuniteit**. De uitzondering geldt niet wanneer de informatie verkregen is in het kader van rechtspositie-bepaling of verdediging in een rechtsgeding (art. 53 AWW) — daar primeert het beroepsgeheim.
+
+_Bron: AWW 2017 art. 47, 53, 57; ITAA-deontologie-beroepsgeheim §10_
+
+#### Tuchtrechtelijke gevolgen voor de accountant ⚖️
+
+Niet-naleving van de AWW-procedures (cliëntidentificatie, waakzaamheid, interne procedures, melding) leidt naast administratieve sancties van het ITAA-toezicht ook tot **tuchtrechtelijke vervolging**. Bij medeplichtigheid aan de fraude zelf (bv. bewust meewerken aan valse jaarrekening) komt daar strafrechtelijke en burgerrechtelijke aansprakelijkheid bovenop. Een naar behoren gemaakte CFI-melding daarentegen geeft volledige immuniteit op alle drie sporen.
+
+_Bron: AWW 2017 art. 57; ITAA-deontologie-beroepsgeheim §10_
 
 
 ## Rol van de accountant
 
-### 
+### 🏪 Kmo-handelsonderneming
 
-#### externe auditor
+#### 🔍 externe auditor
 
 ##### ISA 240 §32-33 — verplichte werkzaamheden in elke audit ⚖️
 
 Ongeacht de risico-inschatting moet je altijd: (a) journaalposten en aanpassingen testen die in de financiële overzichten zijn verwerkt; (b) boekhoudkundige schattingen op bias beoordelen, inclusief een retrospectieve review van vorige schattingen; (c) de bedrijfslogica van significante transacties buiten normale bedrijfsuitoefening evalueren.
 
+_Bron: ISA 240, par. 32_
+
 ##### Professioneel-kritische instelling — gedurende de hele opdracht ⚖️
 
 Vraag je voortdurend af of de verkregen informatie en controle-informatie wijst op een mogelijke materiële afwijking door fraude. Ook bij integer management: accepteer geen verklaring of bewijs zonder kritische onderbouwing. Verhoog onvoorspelbaarheid in je werkzaamheden om die-vertrouwd-zijn-met-de-controle te neutraliseren.
 
-#### interne-controle-adviseur
+_Bron: ISA 240, par. 13-15 + A8-A10_
+
+#### 🛡️ interne-controle-adviseur
 
 ##### Drie minimum-controles tegen werknemersfraude in KMO 🧭
 
 Zelfs in de kleinste structuur drie controles afdwingen: (1) bankreconciliatie door iemand zonder betalingsmandaat (vaak: zaakvoerder zelf, niet de boekhouder); (2) onafhankelijke voorraad-spotcheck minstens kwartaal; (3) bedrijfsleider tekent persoonlijk leveranciers-master-changes (nieuw IBAN, nieuwe leverancier). Voor 80% van de typische KMO-asset-misappropriation is dit voldoende afschrikking.
 
-### 
+### 🏛 Beursgenoteerde of grote vennootschap
 
-#### externe auditor
+#### 🔍 externe auditor
 
 ##### Communicatie met audit-comité — ISA 240 §40-43 ⚖️
 
 Bij geïdentificeerde fraude of vermoeden van fraude: communiceer tijdig met het juiste governance-niveau. Als management mogelijk betrokken is: rechtstreeks naar audit-comité of raad van bestuur. Schriftelijke communicatie aanbevolen voor materiele bevindingen. Overweeg ook wettelijke meldingsplichten buiten de entiteit (toezichthouder, CFI).
 
-### 
+_Bron: ISA 240, par. 40-43_
 
-#### interne-controle-adviseur
+### 🏛️ Eigen-kantoor
+
+#### 🛡️ interne-controle-adviseur
 
 ##### Melding aan CFI = immuniteit op drie sporen ⚖️
 
 Een naar behoren te goeder trouw aan de CFI gedane melding geeft de melder strafrechtelijke, burgerlijke én tuchtrechtelijke immuniteit (AWW art. 57). De cliënt mag niet op de hoogte gebracht worden van de melding (tipping-off-verbod, AWW art. 55). Het beroepsgeheim wijkt — behalve bij rechtspositie-bepaling of rechtsgeding-verdediging (AWW art. 53).
 
-### 
+_Bron: AWW 2017 art. 47, 53, 55, 57; ITAA-deontologie-beroepsgeheim §10_
 
-#### fiscaal adviseur
+### 🧾 Cliënt waar fiscale fraude aan de orde is
+
+#### 📐 fiscaal adviseur
 
 ##### Drie-staps-grens — optimalisatie, misbruik, fraude 🧭
 

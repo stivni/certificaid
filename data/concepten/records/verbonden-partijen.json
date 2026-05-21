@@ -1,0 +1,965 @@
+{
+  "id": "verbonden-partijen",
+  "naam": "Verbonden partijen",
+  "schema_version": "2.0",
+  "kind": "begripscluster",
+  "status": "draft",
+  "primary_po": "1.1",
+  "linked_anchors": [
+    "1.1.II.R",
+    "1.6.II.A",
+    "1.6.II.B",
+    "2.3",
+    "2.8"
+  ],
+  "tags": [
+    "verbonden-partijen",
+    "toelichting",
+    "audit",
+    "ISA-550",
+    "IAS-24",
+    "transfer-pricing",
+    "art-26-WIB92",
+    "belangenconflict"
+  ],
+  "definitie": {
+    "tekst": "Een verbonden partij is een natuurlijke persoon of entiteit die door zeggenschap, gezamenlijke zeggenschap, invloed van betekenis of een andere band van wederzijdse afhankelijkheid een relatie heeft met de verslaggevende entiteit die de onafhankelijkheid van hun transacties beïnvloedt of kan beïnvloeden.",
+    "confidence": "grounded",
+    "bron": {
+      "type": "wettekst",
+      "ref": "IAS-24#art-9"
+    }
+  },
+  "economische_substantie": {
+    "tekst": "Verbonden partijen handelen niet als onafhankelijke marktpartijen: de 'arm's length'-veronderstelling die vrije marktprijsvorming veronderstelt, geldt niet automatisch. Transacties kunnen plaatsvinden zonder marktconforme prijs of zelfs zonder tegenprestatie — bewust of door samenspanning. Dit creëert risico's op onjuiste resultaatmeting (verkoper boekt winst die economisch niet reëel is), onzichtbare vermogensverschuivingen (kapitaalverstrekking via lage prijzen), en informatieve lacunes voor gebruikers van de jaarrekening.",
+    "confidence": "inferred",
+    "bron": [
+      {
+        "type": "wettekst",
+        "ref": "IAS-24#par-5-8"
+      },
+      {
+        "type": "norm",
+        "ref": "ISA-550#par-2"
+      }
+    ]
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      "jaarrekening",
+      "toelichting-jaarrekening",
+      "consolidatie-grondslagen",
+      "groep-van-beperkte-omvang"
+    ],
+    "naast_relevant": [
+      "transfer-pricing",
+      "abnormale-goedgunstige-voordelen",
+      "intragroep-eliminaties",
+      "risicoanalyse-audit",
+      "fraude"
+    ],
+    "volgkennis": [
+      "verbonden-partijen-procedure-genoteerd",
+      "deelnemingen"
+    ]
+  },
+  "onderdelen": [
+    {
+      "element_id": "definitie-verbonden-partij-kaderschema",
+      "inhoud_type": "begrip",
+      "titel": "Wie is een verbonden partij? — drie referentiekaders naast elkaar",
+      "confidence": "grounded",
+      "beschrijving": "Drie kaders hanteren elk een eigen definitie. Ze overlappen maar zijn niet identiek. De accountant moet altijd aangeven welk kader van toepassing is.",
+      "bron": [
+        {
+          "type": "wettekst",
+          "ref": "WVV#art-1-20"
+        },
+        {
+          "type": "wettekst",
+          "ref": "IAS-24#art-9"
+        },
+        {
+          "type": "wettekst",
+          "ref": "WIB92#art-26"
+        }
+      ],
+      "weergaven": [
+        {
+          "type": "vergelijkingstabel",
+          "label": "Definitie per kader",
+          "kolommen": [
+            "Kader",
+            "Toepassingsgebied",
+            "Kern van de definitie",
+            "Wat er uniek is"
+          ],
+          "rijen": [
+            [
+              "WVV art. 1:20",
+              "BGAAP — Belgische vennootschappen",
+              "Verbonden vennootschappen: (a) dochters waarover controlebevoegdheid, (b) moeder die controle uitoefent, (c) consortium-leden, (d) andere vennootschappen onder controle van a/b/c die bestuursorgaan kent.",
+              "Koppelt aan controlebevoegdheid (WVV-definitie). Personen verbonden met een persoon = analoog via dezelfde test."
+            ],
+            [
+              "IAS 24 (IFRS)",
+              "IFRS-jaarrekening — geconsolideerd en enkelvoudig",
+              "Verbonden partij = entiteit of persoon die zeggenschap, gezamenlijke zeggenschap of invloed van betekenis uitoefent op de verslaggevende entiteit, of omgekeerd; of die tot dezelfde groep behoort; of sleutelfunctionaris / nauwe verwant van sleutelfunctionaris.",
+              "Breder: omvat ook geassocieerde deelnemingen, joint ventures, pensioenregelingen, managemententiteiten en naaste familieleden van sleutelfunctionarissen."
+            ],
+            [
+              "WIB92 art. 26",
+              "Fiscaal — vennootschapsbelasting",
+              "Band van wederzijdse afhankelijkheid (direct of indirect). Voordelen verleend aan buitenlandse belastingplichtigen met gunstigere belastingregeling vallen altijd onder correctiemechanisme.",
+              "Gericht op resultaatcorrectie bij abnormale of goedgunstige voordelen. Niet een definitie van 'verbonden partij' maar een afhankelijkheidscriterium voor de fiscale correctie."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "niet-verbonden-partijen",
+      "inhoud_type": "uitzondering",
+      "titel": "Wie is NIET een verbonden partij (IAS 24 negatieve lijst)",
+      "confidence": "grounded",
+      "bron": {
+        "type": "wettekst",
+        "ref": "IAS-24#par-11"
+      },
+      "beschrijving": "IAS 24 par. 11 sluit expliciet uit: (a) twee entiteiten die enkel een gemeenschappelijke directeur hebben; (b) twee joint-venture-deelnemers die alleen de JV gemeenschappelijk hebben; (c) kredietverschaffers, vakbonden, nutsmaatschappijen en overheidsinstellingen puur op basis van normale handelstransacties; (d) klanten, leveranciers of agenten louter omwille van economische afhankelijkheid.",
+      "weergaven": [
+        {
+          "type": "proza",
+          "tekst": "Veelgemaakte vergissing: een grote klant die 60 % van de omzet uitmaakt is geen verbonden partij louter omwille van die economische afhankelijkheid. De definitie vereist zeggenschap of invloed van betekenis, niet omzetconcentratie."
+        }
+      ]
+    },
+    {
+      "element_id": "soorten-transacties",
+      "inhoud_type": "begrip",
+      "titel": "Soorten transacties met verbonden partijen",
+      "confidence": "grounded",
+      "bron": {
+        "type": "wettekst",
+        "ref": "IAS-24#par-21"
+      },
+      "beschrijving": "IAS 24 par. 21 somt de toelichting-plichtige transactietypes op.",
+      "weergaven": [
+        {
+          "type": "stappenlijst",
+          "items": [
+            "In- of verkoop van goederen (gereed of niet-gereed)",
+            "In- of verkoop van materiële vaste activa en andere activa",
+            "Verrichten of ontvangen van diensten",
+            "Leaseovereenkomsten",
+            "Overdracht van onderzoek en ontwikkeling",
+            "Overdrachten via licentieovereenkomsten",
+            "Financieringsovereenkomsten (leningen, kapitaalstortingen in geld of in natura)",
+            "Verstrekken van garanties of zekerheden",
+            "Verbintenissen voor toekomstige gebeurtenissen",
+            "Afwikkeling van verplichtingen voor rekening van de andere partij"
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "toelichtings-eisen-bgaap",
+      "inhoud_type": "regel",
+      "titel": "Toelichtingsverplichtingen onder BGAAP",
+      "confidence": "grounded",
+      "bron": [
+        {
+          "type": "wettekst",
+          "ref": "WVV-KB#art-3-66"
+        },
+        {
+          "type": "cbn",
+          "ref": "CBN-advies-2010-1"
+        }
+      ],
+      "beschrijving": "Onder BGAAP (KB WVV) geldt een gedifferentieerd systeem afhankelijk van de grootte van de vennootschap.",
+      "weergaven": [
+        {
+          "type": "vergelijkingstabel",
+          "label": "Toelichting VP-transacties BGAAP",
+          "kolommen": [
+            "Categorie",
+            "Verplichting",
+            "Drempel / uitzondering"
+          ],
+          "rijen": [
+            [
+              "Genoteerde vennootschappen + grote vennootschappen (meer dan 1 criterion art. 1:24)",
+              "In de toelichting: aard van de relatie, bedrag van de transactie, uitstaande saldi, gegeven of ontvangen garanties, voorzieningen voor dubieuze vorderingen.",
+              "Uitzondering: transacties tussen volledig in eigendom zijnde groepsleden hoeven niet afzonderlijk opgenomen."
+            ],
+            [
+              "Naamloze vennootschappen (niet groot, niet genoteerd)",
+              "Enkel transacties van enige betekenis, buiten normale marktvoorwaarden, met voornaamste aandeelhouders en leden bestuursorganen.",
+              "Materialiteitsdrempel: weglaten mag als geen invloed op economische beslissingen gebruikers."
+            ],
+            [
+              "Kleine vennootschappen (BV/NV)",
+              "Geen afzonderlijke VP-toelichtingsplicht onder verkort schema.",
+              "Maar: bestuursorgaan-bezoldigingen en kredietverlening aan bestuurders blijven meldplichtig onder andere bepalingen."
+            ]
+          ]
+        },
+        {
+          "type": "proza",
+          "tekst": "CBN-advies 2010/1 verduidelijkt 'transactie buiten normale marktvoorwaarden' = transactie niet at arm's length. Mededeling dat transacties marktconform zijn, mag alleen als dit aantoonbaar is (IAS 24 par. 23)."
+        }
+      ]
+    },
+    {
+      "element_id": "toelichtings-eisen-ifrs",
+      "inhoud_type": "regel",
+      "titel": "Toelichtingsverplichtingen onder IFRS (IAS 24)",
+      "confidence": "grounded",
+      "bron": {
+        "type": "wettekst",
+        "ref": "IAS-24#par-13-24"
+      },
+      "beschrijving": "IAS 24 vereist toelichting over alle transacties en uitstaande saldi met verbonden partijen, gegroepeerd per categorie.",
+      "weergaven": [
+        {
+          "type": "vergelijkingstabel",
+          "label": "Verplichte toelichting per categorie (IAS 24 par. 19)",
+          "kolommen": [
+            "Categorie",
+            "Te vermelden"
+          ],
+          "rijen": [
+            [
+              "Moedermaatschappij",
+              "Naam + eventueel hogere moeder die publieke geconsolideerde JR opstelt"
+            ],
+            [
+              "Entiteiten met gezamenlijke zeggenschap of invloed van betekenis",
+              "Aard relatie + bedragen transacties + uitstaande saldi"
+            ],
+            [
+              "Dochterondernemingen",
+              "Naam; transacties worden geëlimineerd in geconsolideerde JR"
+            ],
+            [
+              "Geassocieerde deelnemingen",
+              "Aard relatie + transactiebedragen + uitstaande saldi"
+            ],
+            [
+              "Joint ventures",
+              "Idem geassocieerde deelnemingen"
+            ],
+            [
+              "Sleutelfunctionarissen bestuur (zelf + moeder)",
+              "Beloning uitgesplitst: kortetermijn / na uitdiensttreding / langetermijn / ontslag / aandelenplan"
+            ],
+            [
+              "Andere verbonden partijen",
+              "Aard + bedragen"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "rol_van_de_accountant": {
+    "perspectieven": [
+      {
+        "perspectief": "KMO / familievennootschap",
+        "rollen": [
+          {
+            "rol": "boekhouder",
+            "label": "📋 Boekhouder — toelichting opstellen",
+            "elementen": [
+              {
+                "element_id": "boekhouder-kmo-identificatie",
+                "inhoud_type": "procedure",
+                "titel": "Stap 1 — verbonden partijen inventariseren",
+                "confidence": "inferred",
+                "beschrijving": "Begin van het boekjaar: bestuursorgaan vraagt wie de verbonden partijen zijn (aandeelhouders ≥ 20 %, gecontroleerde vennootschappen, familieleden in key management). Bewaar de lijst als werkdocument.",
+                "weergaven": [
+                  {
+                    "type": "stappenlijst",
+                    "items": [
+                      "Vraag bestuursorgaan: wie zijn de aandeelhouders met controlebevoegdheid of invloed van betekenis?",
+                      "Identificeer moeder-/dochtervennootschappen (WVV art. 1:20)",
+                      "Identificeer sleutelfunctionarissen en hun naaste familieleden (IAS 24 indien IFRS; BGAAP: bestuurders en voornaamste aandeelhouders)",
+                      "Inventariseer lopende transacties: leningen RC, dienstverlening, huur, IP-licenties",
+                      "Controleer of transacties marktconform zijn (at arm's length check)"
+                    ]
+                  }
+                ]
+              },
+              {
+                "element_id": "boekhouder-kmo-toelichting",
+                "inhoud_type": "procedure",
+                "titel": "Stap 2 — toelichting samenstellen (BGAAP verkort/volledig schema)",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "cbn",
+                  "ref": "CBN-advies-2010-1"
+                },
+                "beschrijving": "Kleine vennootschappen (verkort schema): geen aparte VP-staat verplicht. Grote of genoteerde vennootschappen: staat met per-categorie-informatie verplicht.",
+                "weergaven": [
+                  {
+                    "type": "tabel",
+                    "label": "Minimuminhoud staat VP-transacties (grote vennootschappen BGAAP)",
+                    "kolommen": [
+                      "Te vermelden element",
+                      "Voorbeeld"
+                    ],
+                    "rijen": [
+                      [
+                        "Aard van de relatie",
+                        "Moedervennootschap / mede-aandeelhouder / bestuurder"
+                      ],
+                      [
+                        "Bedrag van de transactie",
+                        "€ 150.000 — managementvergoeding"
+                      ],
+                      [
+                        "Uitstaande saldi (te vorderen / te betalen)",
+                        "RC moeder: € 80.000 te betalen per 31/12"
+                      ],
+                      [
+                        "Zekerheden gegeven of ontvangen",
+                        "Moeder stelt zakelijk pand als waarborg voor banklening dochter"
+                      ],
+                      [
+                        "Waardering van de transactie",
+                        "Marktconform / niet-marktconform + motivering"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "element_id": "boekhouder-kmo-rc-verwerking",
+                "inhoud_type": "mechanisme",
+                "titel": "Rekening-courant met verbonden partij — boekhoudkundige verwerking",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "wettekst",
+                  "ref": "WVV-KB#art-3-37"
+                },
+                "beschrijving": "Rekening-courant (RC) tussen aandeelhouder en vennootschap is een technisch instrument voor kasverkeer maar ook een potentieel VP-risico. Classificeer correct op balans: vorderingen op meer dan één jaar (rek. 28x) of op korte termijn (rek. 40x / 44x). Rente is verplicht te markeren als marktconform of niet-marktconform.",
+                "weergaven": [
+                  {
+                    "type": "boeking",
+                    "scenario": "Aandeelhouder leent aan vennootschap (RC-credit aandeelhouder)",
+                    "rekeningen": [
+                      {
+                        "rek": "550",
+                        "naam": "Bankrekening",
+                        "debet": 50000
+                      },
+                      {
+                        "rek": "4890",
+                        "naam": "Schulden aan verbonden partijen (< 1 jaar)",
+                        "credit": 50000
+                      }
+                    ]
+                  },
+                  {
+                    "type": "proza",
+                    "tekst": "⚠️ RC zonder rente of onder marktrentevoet = potentieel abnormaal voordeel (WIB92 art. 26). Zie fiscaal-perspectief hieronder."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rol": "fiscaal-adviseur",
+            "label": "💰 Fiscaal adviseur — art. 26 WIB92 + transfer pricing",
+            "elementen": [
+              {
+                "element_id": "fiscaal-art26-wib92",
+                "inhoud_type": "regel",
+                "titel": "Art. 26 WIB92 — abnormale of goedgunstige voordelen",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "wettekst",
+                  "ref": "WIB92#art-26"
+                },
+                "beschrijving": "Wanneer een in België gevestigde onderneming een abnormaal of goedgunstig voordeel verleent aan een verbonden partij (band van wederzijdse afhankelijkheid), wordt dit voordeel bij haar eigen winst gevoegd — tenzij het voordeel al belastbaar is bij de ontvanger.",
+                "weergaven": [
+                  {
+                    "type": "vergelijkingstabel",
+                    "label": "Art. 26 WIB92 — driehoek: verlener, ontvanger, correctie",
+                    "kolommen": [
+                      "Situatie",
+                      "Gevolg voor verlener",
+                      "Gevolg voor ontvanger"
+                    ],
+                    "rijen": [
+                      [
+                        "Voordeel verleend aan Belgische verbonden partij — voordeel is belastbaar bij ontvanger",
+                        "Geen bijvoeging bij eigen winst verlener (compenserende belasting bij ontvanger)",
+                        "Voordeel opgenomen in belastbare basis ontvanger"
+                      ],
+                      [
+                        "Voordeel verleend aan buitenlandse verbonden partij met band van afhankelijkheid (art. 26 lid 2 1°)",
+                        "Bijvoeging bij eigen winst verlener — altijd, ook als belastbaar bij ontvanger",
+                        "Buitenlandse belasting van ontvanger is irrelevant voor Belgische correctie"
+                      ],
+                      [
+                        "Voordeel aan entiteit in belastingparadijs (art. 26 lid 2 2°)",
+                        "Bijvoeging bij eigen winst — altijd",
+                        "Ontvanger in low-tax jurisdictie"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "proza",
+                    "tekst": "🧭 Vuistregel: RC-debet aandeelhouder zonder rente of managementfees ver onder marktwaarde zijn klassieke toepassingsgevallen van art. 26. Documenteer steeds de prijsstelling en de marktconformiteitstoets."
+                  }
+                ]
+              },
+              {
+                "element_id": "fiscaal-transfer-pricing",
+                "inhoud_type": "principe",
+                "titel": "Transfer pricing — arm's length-principe voor internationale groepen",
+                "confidence": "inferred",
+                "bron": [
+                  {
+                    "type": "wettekst",
+                    "ref": "WIB92#art-185-2"
+                  }
+                ],
+                "beschrijving": "Voor internationale groepen: intercompany-transacties (goederen, diensten, IP, financiering) moeten plaatsvinden tegen arm's length-prijzen. België past dit toe via WIB92 art. 185 §2 (correctie bij abnormale voordelen naar buitenlandse groepsleden) en de verplichting tot transfer-pricing-documentatie (CbCR, master file, local file) voor grote groepen.",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "tekst": "⚠️ Transfer-pricing-documentatieverplichtingen (CbCR-drempel, master file / local file) zijn complex en groepsgroot-afhankelijk. Raadpleeg specifiek fiscaal adviseur voor internationale groepen."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief": "Grote vennootschap / groepsvennootschap",
+        "rollen": [
+          {
+            "rol": "boekhouder",
+            "label": "📋 Boekhouder — geconsolideerde toelichting + intragroep-eliminaties",
+            "elementen": [
+              {
+                "element_id": "boekhouder-groep-consolidatie",
+                "inhoud_type": "procedure",
+                "titel": "Intragroep-transacties in consolidatie",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "wettekst",
+                  "ref": "IAS-24#par-4"
+                },
+                "beschrijving": "In de geconsolideerde jaarrekening worden intragroep-transacties en saldi geëlimineerd (IAS 24 par. 4 + IFRS 10). De geconsolideerde toelichting vermeldt nog wel transacties met buiten de consolidatiekring vallende verbonden partijen (geassocieerde deelnemingen, joint ventures, sleutelfunctionarissen).",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "tekst": "Moeder-dochter lening verdwijnt uit de geconsolideerde balans. De interestlast bij de dochter en het interestinkomen bij de moeder elimineren elkaar. Maar: een lening van de moeder aan een geassocieerde deelneming (40 %-belang) elimineert niet — die staat volledig in de geconsolideerde toelichting als VP-transactie."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rol": "externe-auditor",
+            "label": "🔍 Externe auditor / commissaris — ISA 550",
+            "elementen": [
+              {
+                "element_id": "auditor-isa550-doelstellingen",
+                "inhoud_type": "regel",
+                "titel": "ISA 550 — doelstellingen van de auditor",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "norm",
+                  "ref": "ISA-550#par-9"
+                },
+                "beschrijving": "ISA 550 par. 9: de auditor moet (a) voldoende inzicht verwerven in relaties en transacties met verbonden partijen om frauderisicofactoren te herkennen en te beoordelen of de financiële overzichten een getrouw beeld geven; en (b) als het verslaggevingsstelsel VP-vereisten bevat: voldoende en geschikte controle-informatie verzamelen dat VP-relaties en -transacties correct zijn aangewezen, verwerkt en toegelicht.",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "tekst": "ISA 550 is van toepassing op controles van financiële overzichten over verslagperioden die aanvangen op of na 15 december 2009."
+                  }
+                ]
+              },
+              {
+                "element_id": "auditor-isa550-risico-inschattingsprocedures",
+                "inhoud_type": "procedure",
+                "titel": "Risico-inschattingswerkzaamheden VP (ISA 550 par. 11-17)",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "norm",
+                  "ref": "ISA-550#par-11-17"
+                },
+                "beschrijving": "De auditor voert specifieke procedures uit om inzicht te verwerven in VP-relaties.",
+                "weergaven": [
+                  {
+                    "type": "stappenlijst",
+                    "items": [
+                      "Bespreking opdrachtteam (ISA 315 + ISA 240): zijn financiële overzichten vatbaar voor afwijkingen via VP? (par. 12)",
+                      "Inlichtingen bij management: identiteit VP's, aard relaties, transacties tijdens de periode (par. 13)",
+                      "Inzicht in interne beheersmaatregelen voor VP-identificatie, -verwerking en -autorisatie (par. 14)",
+                      "Alert blijven bij inspectie van vastleggingen: notulen, bankbevestigingen, juridische correspondentie (par. 15)",
+                      "Bij significante transacties buiten normale bedrijfsvoering: navragen of VP's betrokken zijn (par. 16)",
+                      "Relevante VP-informatie delen binnen het opdrachtteam (par. 17)"
+                    ]
+                  }
+                ]
+              },
+              {
+                "element_id": "auditor-isa550-fraude-risico",
+                "inhoud_type": "risico",
+                "titel": "VP-transacties als fraude-vehicle — rode vlaggen",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "norm",
+                  "ref": "ISA-550#par-5-7"
+                },
+                "beschrijving": "ISA 550 par. 5-7: verbonden partijen bieden meer gelegenheid tot samenspanning, verhulling of manipulatie. De auditor behandelt aangewezen significante transacties buiten de normale bedrijfsvoering als indicator voor een significant risico op fraude.",
+                "weergaven": [
+                  {
+                    "type": "vergelijkingstabel",
+                    "label": "Rode vlaggen bij VP-transacties",
+                    "kolommen": [
+                      "Rode vlag",
+                      "Mogelijke verklaring",
+                      "Auditreactie"
+                    ],
+                    "rijen": [
+                      [
+                        "Transactie zonder duidelijke commerciële logica",
+                        "Vermogensoverheveling, winstverschuiving",
+                        "Documenteer doelstelling; vraag schriftelijke bevestiging management"
+                      ],
+                      [
+                        "Prijs ver buiten marktbereik (te hoog of te laag)",
+                        "Abnormaal voordeel, transfer-pricing probleem",
+                        "Vergelijk met marktprijzen; schakel eventueel expert in"
+                      ],
+                      [
+                        "Complexe constructie via meerdere tussenliggende entiteiten",
+                        "Verhulling van uiteindelijke begunstigde",
+                        "Doorgrond de economische substantie; identificeer uiteindelijke verbonden partij"
+                      ],
+                      [
+                        "VP niet eerder gemeld door management",
+                        "Onbekendheid of bewuste verzwijging",
+                        "Herzie volledigheid VP-lijst; overweeg implicaties voor betrouwbaarheid management"
+                      ],
+                      [
+                        "Transactie vlak voor of na balansdatum",
+                        "Window dressing, resultaatbeïnvloeding",
+                        "Analyseer economische tijdstippen; controleer kasstromen"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "element_id": "auditor-isa550-evaluatie-toelichting",
+                "inhoud_type": "procedure",
+                "titel": "Evaluatie administratieve verwerking en toelichting (ISA 550 par. 25)",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "norm",
+                  "ref": "ISA-550#par-25"
+                },
+                "beschrijving": "De auditor evalueert of geïdentificeerde VP-relaties en -transacties correct zijn opgenomen in de financiële overzichten conform het van toepassing zijnde verslaggevingsstelsel (BGAAP of IFRS).",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "tekst": "Specifiek: zijn de toelichting-plichtige elementen per categorie opgenomen (bedragen, aard relatie, uitstaande saldi, zekerheden)? Is de bewering 'marktconform' aantoonbaar onderbouwd? Zijn eerder niet-gerapporteerde VP-transacties die de auditor ontdekte nu alsnog correct verwerkt?"
+                  }
+                ]
+              },
+              {
+                "element_id": "auditor-isa550-governance-communicatie",
+                "inhoud_type": "procedure",
+                "titel": "Communicatie met governance (ISA 550 par. 27)",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "norm",
+                  "ref": "ISA-550#par-27"
+                },
+                "beschrijving": "Significante bevindingen over VP-transacties (ontdekte niet-gemelde VP's, fraude-indicatoren, materiële toelichting-tekortkomingen) worden meegedeeld aan de met governance belaste personen.",
+                "weergaven": [
+                  {
+                    "type": "proza",
+                    "tekst": "In Belgische context: communicatie aan de raad van bestuur / raad van commissarissen. Commissaris vermeldt in zijn verslag afzonderlijk zijn bevindingen over VP-transacties bij aanwezigheid van een tegenstrijdig belang (WVV art. 7:96 §1 voor NV)."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief": "Vennootschapsrechtelijk — NV / BV",
+        "rollen": [
+          {
+            "rol": "begeleider",
+            "label": "⚖️ Begeleider / corporate governance — belangenconflict-procedure",
+            "elementen": [
+              {
+                "element_id": "vennootschapsrecht-belangenconflict-nv",
+                "inhoud_type": "procedure",
+                "titel": "Belangenconflict bestuurder NV (WVV art. 7:96)",
+                "confidence": "grounded",
+                "bron": {
+                  "type": "wettekst",
+                  "ref": "WVV#art-7-96"
+                },
+                "beschrijving": "Wanneer een bestuurder van een NV een rechtstreeks of onrechtstreeks belang heeft dat strijdig is met het vennootschapsbelang bij een bestuursbeslissing: (1) melding aan andere bestuurders vóór besluit; (2) verklaring in notulen; (3) omschrijving in jaarverslag of bijlage bij neerlegging jaarrekening; (4) commissaris beoordeelt vermogensrechtelijke gevolgen in afzonderlijke sectie van zijn verslag; (5) bestuurder met conflict neemt niet deel aan beraadslagingen of stemming.",
+                "weergaven": [
+                  {
+                    "type": "stappenlijst",
+                    "items": [
+                      "Bestuurder meldt tegenstrijdig belang vóór raad van bestuur beslist",
+                      "Verklaring + toelichting aard belang in notulen raad van bestuur",
+                      "Deel van de notulen opgenomen in jaarverslag of neergelegd stuk",
+                      "Commissaris beoordeelt vermogensrechtelijke gevolgen in zijn verslag (afzonderlijke sectie)",
+                      "Betrokken bestuurder: geen deelname aan beraadslaging of stemming"
+                    ]
+                  },
+                  {
+                    "type": "proza",
+                    "tekst": "🧭 Uitzondering: procedure niet van toepassing als beslissing betrekking heeft op gebruikelijke verrichtingen onder normale marktvoorwaarden (WVV art. 7:96 §3 — 'gewoonlijk gelden voor soortgelijke verrichtingen'). En: niet van toepassing bij ≥ 95 %-deelneming in de tegenpartij."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "veelvoorkomende_verwarringen": [
+    {
+      "element_id": "verwarring-economische-versus-juridische-definitie",
+      "inhoud_type": "valkuil",
+      "titel": "Juridische vorm ≠ economische realiteit",
+      "confidence": "grounded",
+      "bron": {
+        "type": "wettekst",
+        "ref": "IAS-24#par-10"
+      },
+      "beschrijving": "IAS 24 par. 10 vereist uitdrukkelijk dat de economische realiteit van de relatie in acht wordt genomen, niet louter de juridische vorm. Een aandeelhouder die via een familiestichting 100 % controle uitoefent maar juridisch geen aandelen houdt, is toch een verbonden partij.",
+      "weergaven": [
+        {
+          "type": "proza",
+          "tekst": "Formeel-juridische check is niet voldoende. Vraag altijd: wie heeft de facto zeggenschap?"
+        }
+      ]
+    },
+    {
+      "element_id": "verwarring-bgaap-versus-ifrs-definitie",
+      "inhoud_type": "valkuil",
+      "titel": "BGAAP-definitie (WVV 1:20) is enger dan IAS 24",
+      "confidence": "inferred",
+      "beschrijving": "WVV art. 1:20 focust op controlebevoegdheid en consortium. IAS 24 omvat ook invloed van betekenis, geassocieerde deelnemingen, sleutelfunctionarissen en hun families, en managemententiteiten. Een geassocieerde deelneming (20-50 %) is een verbonden partij onder IAS 24 maar mogelijk niet onder WVV art. 1:20 tenzij er controle is.",
+      "weergaven": [
+        {
+          "type": "proza",
+          "tekst": "Bij overschakeling van BGAAP naar IFRS neemt de kring van verbonden partijen doorgaans toe. Controleer op transitiedatum de volledigheid van de VP-lijst opnieuw."
+        }
+      ]
+    },
+    {
+      "element_id": "verwarring-arm-length-bewering",
+      "inhoud_type": "valkuil",
+      "titel": "'Marktconform' zeggen volstaat niet",
+      "confidence": "grounded",
+      "bron": {
+        "type": "wettekst",
+        "ref": "IAS-24#par-23"
+      },
+      "beschrijving": "IAS 24 par. 23: de vermelding dat een VP-transactie plaatsvond onder voorwaarden gelijkwaardig aan normale marktvoorwaarden mag alleen worden gemaakt als dit aantoonbaar kan worden gestaafd. Zonder onderbouwing is de vermelding misleidend.",
+      "weergaven": [
+        {
+          "type": "proza",
+          "tekst": "Praktisch: houd marktprijsvergelijkingen bij voor management fees, huurprijzen, rentevoeten op RC. Bewijs is de verantwoordelijkheid van de onderneming, niet de auditor."
+        }
+      ]
+    },
+    {
+      "element_id": "verwarring-economische-afhankelijkheid",
+      "inhoud_type": "valkuil",
+      "titel": "Grote klant / leverancier ≠ verbonden partij",
+      "confidence": "grounded",
+      "bron": {
+        "type": "wettekst",
+        "ref": "IAS-24#par-11-d"
+      },
+      "beschrijving": "Een klant die 70 % van de omzet vertegenwoordigt, is geen verbonden partij louter op basis van die economische afhankelijkheid (IAS 24 par. 11d). Vereist is zeggenschap of invloed van betekenis.",
+      "weergaven": [
+        {
+          "type": "proza",
+          "tekst": "Maar: als dezelfde klant ook 30 % van de aandelen bezit én actief het beleid beïnvloedt, is hij wel een verbonden partij wegens invloed van betekenis."
+        }
+      ]
+    }
+  ],
+  "familie_en_alternatieven": {
+    "gerelateerde_begrippen": [
+      {
+        "id": "transfer-pricing",
+        "relatie": "verdieping fiscaal aspect — arm's length-documentatieplicht voor internationale groepen"
+      },
+      {
+        "id": "abnormale-goedgunstige-voordelen",
+        "relatie": "fiscaal correctiemechanisme bij niet-marktconforme VP-transacties (art. 26 WIB92)"
+      },
+      {
+        "id": "intragroep-eliminaties",
+        "relatie": "boekhoudkundige verwerking VP-transacties in geconsolideerde jaarrekening"
+      },
+      {
+        "id": "groep-van-beperkte-omvang",
+        "relatie": "vrijstelling consolidatieplicht — maar VP-toelichting blijft"
+      },
+      {
+        "id": "fraude",
+        "relatie": "VP-relaties als gelegenheidsstructuur (ISA 240 + ISA 550)"
+      },
+      {
+        "id": "verbonden-partijen-procedure-genoteerd",
+        "relatie": "specifieke procedure voor significante VP-transacties bij genoteerde vennootschappen (WVV art. 7:97)"
+      }
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      {
+        "titel": "Identificeren wie een verbonden partij is (BGAAP vs IFRS vs fiscaal)",
+        "anker": "#definitie-verbonden-partij-kaderschema"
+      },
+      {
+        "titel": "VP-inventaris opstellen bij begin van een opdracht",
+        "anker": "#boekhouder-kmo-identificatie"
+      },
+      {
+        "titel": "Toelichtingsstaat VP-transacties samenstellen (BGAAP, groot schema)",
+        "anker": "#toelichtings-eisen-bgaap"
+      },
+      {
+        "titel": "RC-aandeelhouder correct boekhoudkundig en fiscaal kwalificeren",
+        "anker": "#boekhouder-kmo-rc-verwerking"
+      },
+      {
+        "titel": "Art. 26 WIB92 toepassen — abnormale voordelen toevoegen aan winst",
+        "anker": "#fiscaal-art26-wib92"
+      },
+      {
+        "titel": "Risico-inschattingswerkzaamheden VP uitvoeren (ISA 550 par. 11-17)",
+        "anker": "#auditor-isa550-risico-inschattingsprocedures"
+      },
+      {
+        "titel": "Rode vlaggen bij VP-transacties herkennen en auditreactie bepalen",
+        "anker": "#auditor-isa550-fraude-risico"
+      },
+      {
+        "titel": "Evalueren of VP-toelichting volledig en correct is",
+        "anker": "#auditor-isa550-evaluatie-toelichting"
+      },
+      {
+        "titel": "Belangenconflict-procedure bestuurder NV begeleiden (WVV art. 7:96)",
+        "anker": "#vennootschapsrecht-belangenconflict-nv"
+      }
+    ],
+    "termen_alfabetisch": [
+      {
+        "term": "arm's length",
+        "anker": "#toelichtings-eisen-bgaap"
+      },
+      {
+        "term": "abnormale voordelen",
+        "anker": "#fiscaal-art26-wib92"
+      },
+      {
+        "term": "band van wederzijdse afhankelijkheid",
+        "anker": "#fiscaal-art26-wib92"
+      },
+      {
+        "term": "bestuurder-transactie",
+        "anker": "#vennootschapsrecht-belangenconflict-nv"
+      },
+      {
+        "term": "commissaris-verslag VP",
+        "anker": "#auditor-isa550-governance-communicatie"
+      },
+      {
+        "term": "consortium",
+        "anker": "#definitie-verbonden-partij-kaderschema"
+      },
+      {
+        "term": "controlebevoegdheid",
+        "anker": "#definitie-verbonden-partij-kaderschema"
+      },
+      {
+        "term": "fraude-vehicle VP",
+        "anker": "#auditor-isa550-fraude-risico"
+      },
+      {
+        "term": "geassocieerde deelneming",
+        "anker": "#definitie-verbonden-partij-kaderschema"
+      },
+      {
+        "term": "goedgunstige voordelen",
+        "anker": "#fiscaal-art26-wib92"
+      },
+      {
+        "term": "IAS 24",
+        "anker": "#toelichtings-eisen-ifrs"
+      },
+      {
+        "term": "ISA 550",
+        "anker": "#auditor-isa550-doelstellingen"
+      },
+      {
+        "term": "invloed van betekenis",
+        "anker": "#definitie-verbonden-partij-kaderschema"
+      },
+      {
+        "term": "joint venture",
+        "anker": "#definitie-verbonden-partij-kaderschema"
+      },
+      {
+        "term": "marktconformiteitstoets",
+        "anker": "#verwarring-arm-length-bewering"
+      },
+      {
+        "term": "rekening-courant aandeelhouder",
+        "anker": "#boekhouder-kmo-rc-verwerking"
+      },
+      {
+        "term": "significante transactie buiten normale bedrijfsvoering",
+        "anker": "#auditor-isa550-risico-inschattingsprocedures"
+      },
+      {
+        "term": "sleutelfunctionarissen (key management)",
+        "anker": "#definitie-verbonden-partij-kaderschema"
+      },
+      {
+        "term": "transfer pricing",
+        "anker": "#fiscaal-transfer-pricing"
+      },
+      {
+        "term": "verbonden vennootschap (WVV art. 1:20)",
+        "anker": "#definitie-verbonden-partij-kaderschema"
+      }
+    ],
+    "formules": [],
+    "regimes": [
+      {
+        "regime": "abnormale-goedgunstige-voordelen",
+        "edge": "valt_onder_regime"
+      },
+      {
+        "regime": "transfer-pricing",
+        "edge": "valt_onder_regime"
+      }
+    ]
+  },
+  "bronnen_en_verwijzingen": {
+    "grounded": [
+      {
+        "ref": "WVV#art-1-20",
+        "omschrijving": "Definitie verbonden vennootschappen en personen (BGAAP-kader)"
+      },
+      {
+        "ref": "WVV#art-7-96",
+        "omschrijving": "Belangenconflict-procedure bestuurder NV — meldplicht, notulen, commissarisverslag"
+      },
+      {
+        "ref": "IAS-24",
+        "omschrijving": "Informatieverschaffing over verbonden partijen — volledige norm (IFRS-kader)"
+      },
+      {
+        "ref": "ISA-550",
+        "omschrijving": "Controlestandaard verbonden partijen — doelstellingen, risico-inschatting, fraude"
+      },
+      {
+        "ref": "WIB92#art-26",
+        "omschrijving": "Abnormale of goedgunstige voordelen — bijvoeging bij eigen winst"
+      },
+      {
+        "ref": "CBN-advies-2010-1",
+        "omschrijving": "Interpretatie openbaarmaking VP-transacties buiten normale marktvoorwaarden (BGAAP)"
+      }
+    ],
+    "te_verifieren": [
+      {
+        "claim": "KB WVV artikelnummers voor de toelichtingsverplichtingen (art. 3:66 e.v.)",
+        "reden": "Exacte artikelnummers KB WVV voor VP-toelichting nog te verifiëren in de volledige tekst van het KB"
+      },
+      {
+        "claim": "Transfer-pricing-documentatieverplichtingen (CbCR, master file, local file) — drempels en exacte verwijzingen",
+        "reden": "Domein transfer pricing is uitgebreid en vraagt eigen fiche — hier als signaalverwijzing"
+      },
+      {
+        "claim": "WVV art. 7:97 — procedure grote VP-transacties genoteerde NV (commissarisverslag + AV-goedkeuring)",
+        "reden": "Procedure genoteerde vennootschappen is eigen fiche (verbonden-partijen-procedure-genoteerd); cross-link volstaat hier"
+      }
+    ],
+    "cross_record_edges": [
+      {
+        "edge": "gerelateerd",
+        "naar": "transfer-pricing"
+      },
+      {
+        "edge": "gerelateerd",
+        "naar": "abnormale-goedgunstige-voordelen"
+      },
+      {
+        "edge": "gerelateerd",
+        "naar": "intragroep-eliminaties"
+      },
+      {
+        "edge": "gerelateerd",
+        "naar": "fraude"
+      },
+      {
+        "edge": "gerelateerd",
+        "naar": "risicoanalyse-audit"
+      },
+      {
+        "edge": "gerelateerd",
+        "naar": "groep-van-beperkte-omvang"
+      },
+      {
+        "edge": "gerelateerd",
+        "naar": "verbonden-partijen-procedure-genoteerd"
+      },
+      {
+        "edge": "vervangt_gedeeltelijk",
+        "naar": "verbonden-partijen-audit"
+      }
+    ]
+  },
+  "_provenance": {
+    "extractor_run": "wave-bench2-sonnet-verbonden-partijen-20260521",
+    "model": "claude-sonnet-4-6",
+    "anchor_id": "1.1.II.R",
+    "dekt_ook_anchors": [
+      "1.6.II.A",
+      "1.6.II.B",
+      "2.3",
+      "2.8"
+    ],
+    "bundle_gebruikt": "data/extractie/_bundles/verbonden-partijen.json",
+    "bronnen_geraadpleegd": [
+      "WVV#art-1-20",
+      "WVV#art-7-96",
+      "IAS-24-informatieverschaffing-over-verbonden-partijen",
+      "ISA-550-verbonden-partijen",
+      "WIB92#art-26",
+      "CBN-advies-2010-1"
+    ],
+    "reviewed_by": null,
+    "schema": "2.0"
+  }
+}

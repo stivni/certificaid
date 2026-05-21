@@ -23,7 +23,7 @@ gegenereerd_op: '2026-05-21'
 
 De investeringsaftrek laat ondernemingen toe om een percentage van de aanschaffings- of beleggingswaarde van nieuwe materiële en immateriële vaste activa die in België voor de beroepswerkzaamheid worden gebruikt, eenmalig of gespreid vrij te stellen van de belastbare winst.
 
-_Bron: _
+_Bron: WIB92 art. 68 — definitie investeringsaftrek_
 
 
 
@@ -110,20 +110,74 @@ De investeringsaftrek werkt via drie aftrekcategorieën. De belastingplichtige k
 
 ### Drie aftrekcategorieën (sinds aanslagjaar 2026) ⚖️
 
+#### Spoor 1 — Basisaftrek (art. 69, 1°) ⚖️
+
+Percentage van de aanschaffings- of beleggingswaarde van gewone nieuwe activa.
+
+| Belastingplichtige | Percentage |
+|---|---|
+| Kleine vennootschap / zelfstandige (PB) | 10% |
+| Kleine vennootschap — digitale activa | 20% (10% + 10% toeslag) |
+| Grote vennootschap | 0% (geen basisaftrek) |
+
+_Bron: WIB92 art. 69 1° + derde lid; art. 201 §1 1° en 2°_
+
+#### Spoor 2 — Verhoogde thematische aftrek (art. 69, 2°) ⚖️
+
+Voor kwalificerende groene, energiebesparende of andere thematische activa (opgenomen op de thematische-investeringslijst). Percentage: 40% voor kleine vennootschappen en PB; 30% voor grote vennootschappen (tot aanslagjaar 2026 — ⚠️ vanaf aanslagjaar 2027 wordt art. 201 §2 opgeheven, exacte opvolger te verifiëren).
+
+_Bron: WIB92 art. 69 eerste lid 2° + art. 201 §2_
+
+#### Spoor 3 — Technologie-aftrek (art. 69, 3°) ⚖️
+
+Voor specifieke innovatieve of technologische activa. Percentage: 13,5%. Altijd eenmalig toe te passen (geen gespreide variant beschikbaar voor dit spoor).
+
+_Bron: WIB92 art. 69 eerste lid 3°_
+
 ### Eenmalig vs gespreid ⚖️
+
+#### Eenmalige aftrek (standaard) ⚖️
+
+De aftrek wordt in het belastbare tijdperk van verkrijging of tot-stand-brenging van de activa in één keer verricht. In de VEN-context is de basisaftrek (spoor 1) altijd eenmalig: de wet stelt expliciet dat deze aftrek altijd in één keer wordt toegepast.
+
+_Bron: WIB92 art. 201 §1 laatste lid (VEN: basisaftrek altijd eenmalig)_
+
+#### Gespreide aftrek (optioneel, voor specifieke activa) ⚖️
+
+De belastingplichtige kan opteren voor spreiding over de afschrijvingsperiode. Bij gespreide aftrek wordt een eenvormig percentage van 20,5% toegepast op de jaarlijks aangenomen afschrijvingen. Gespreide aftrek is enkel mogelijk voor de in art. 69/2, 2° bedoelde vaste activa (⚠️ exacte activalist te verifiëren in KB/WIB92). De keuze voor eenmalig of gespreid is definitief per actief.
+
+_Bron: WIB92 art. 70_
 
 ### Overdraagbaarheid bij onvoldoende winst ⚖️
 
+#### Onbeperkte overdraagbaarheid ⚖️
+
+Indien een belastbaar tijdperk geen of onvoldoende winst of baten oplevert om de investeringsaftrek te kunnen verrichten, wordt de voor dat belastbaar tijdperk niet verleende vrijstelling achtereenvolgens overgedragen op de winst of baten van de volgende belastbare tijdperken. Er is geen maximale overdrachtstermijn.
+
+_Bron: WIB92 art. 72_
+
 ### Boekhoudkundige verwerking ⚖️
 
+#### Geen aparte boeking van de investeringsaftrek ⚖️
+
+De investeringsaftrek heeft boekhoudkundig enkel tot gevolg dat het bedrag van de op de winst van het boekjaar te betalen belastingen wordt verminderd. Er is geen aparte boeking van de investeringsaftrek als zodanig vereist in de jaarrekening.
+
+_Bron: CBN-advies 134/3_
+
 ### Interactie met latere meerwaarden ⚖️
+
+#### IA verlaagt de fiscale boekwaarde niet ⚖️
+
+De investeringsaftrek komt niet in aanmerking voor het bepalen van de latere meerwaarden of minderwaarden op de activa waarvoor hij werd verleend. De fiscale afschrijvingsbasis voor meerwaarden blijft ongewijzigd — de IA is een vrijstelling, geen extra afschrijving.
+
+_Bron: WIB92 art. 73_
 
 
 ## Rol van de accountant
 
-### 
+### 🏪 Kmo-handelsonderneming
 
-#### fiscaal adviseur
+#### 🏛 fiscaal adviseur
 
 ##### Spoor-selectie per actief 🧭
 
@@ -133,33 +187,41 @@ Kies per actief het hoogste beschikbare percentage. Thematisch (40%) > Technolog
 
 Kleine vennootschappen (art. 1:24 WVV) hebben recht op 10% basisaftrek; grote vennootschappen niet. Bij grensgevallen (net boven de KMO-drempel) is de grootte-toetsing het eerste aandachtspunt.
 
-#### boekhouder
+_Bron: WIB92 art. 201 §1 1°-2°_
+
+#### 📋 boekhouder
 
 ##### Verplichte bijlage investeringsaftrek bij aangifte ⚖️
 
 Bij de aangifte in de vennootschapsbelasting moet een door de Minister van Financiën vastgesteld opgaveformulier worden gevoegd voor het aanslagjaar van de investering en elk volgend aanslagjaar tot het saldo uitgeput is.
 
-#### adviseur
+_Bron: WIB92 art. 194quater §5 (per analogie investeringsreserve) + bestendig advies; opgave-verplichting IA zelf: ⚠️ te verifiëren in specifieke KB_
+
+#### 🎯 adviseur
 
 ##### Investeer vóór jaareinde bij voldoende winst 🧭
 
 IA wordt verleend in het jaar van verkrijging of tot-stand-brenging. Investeer vóór het jaareinde als de winst dat jaar hoog is. Bij verwacht verlies is onbeperkte overdracht beschikbaar, maar aftrek kan ook bewust uitgesteld worden tot een winstjaar.
 
-### 
+### 🏭 Grote vennootschap
 
-#### fiscaal adviseur
+#### 🏛 fiscaal adviseur
 
 ##### Grote vennootschappen: basisaftrek = 0% ⚖️
 
 Art. 201 §1 2° WIB92: voor vaste activa verkregen of tot stand gebracht door een vennootschap die niet als kleine vennootschap wordt aangemerkt, bedraagt de basisaftrek 0%. Enkel de thematische en technologie-sporen zijn beschikbaar.
 
-### 
+_Bron: WIB92 art. 201 §1 2°_
 
-#### fiscaal adviseur
+### 👤 Zelfstandige (eenmanszaak pb)
+
+#### 🏛 fiscaal adviseur
 
 ##### PB-versie: art. 68-77 WIB92 (identiek mechanisme, altijd basisaftrek) ⚖️
 
 De PB-versie van de investeringsaftrek (winst en baten) werkt op identieke grondslag als de VEN-versie. De basisaftrek van 10% geldt altijd voor zelfstandigen — het nul-percentage van grote vennootschappen is niet van toepassing in PB. Cross-PO: zie ook PO 2.2.
+
+_Bron: WIB92 art. 68 (PB) + art. 201 (VEN)_
 
 
 

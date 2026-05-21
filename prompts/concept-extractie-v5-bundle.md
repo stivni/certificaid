@@ -75,11 +75,61 @@ Schrijf records met deze structuur (zie ADR-025 voor details):
 5. **`hoe_het_werkt`** — `intro` + `onderdelen[]` met geneste `weergaven[]`. Element-vocabulaire (`inhoud_type` + `weergaven[]`) hoort **GENEST binnen `hoe_het_werkt.onderdelen[].elementen[]`**, niet als top-level veld.
 6. **`rol_van_de_accountant`** — gestructureerde matrix (zie §4 + §4bis voor canonieke structuur)
 7. **`voorkennis_leespad`** — `voorvereisten`, `kader`, `naast_relevant`, `volgkennis`
-8. **`wat_dit_record_dekt`** — competenties_chronologisch + termen_alfabetisch
+8. **`veelvoorkomende_verwarringen`** *(verplicht waar relevant — bv. wanneer verschil met gelijkluidend concept didactisch belangrijk is)* — array van `{concept, verschil}` of beschrijvende paragrafen
+9. **`familie_en_alternatieven`** *(verplicht voor instrument/operatie/regime/fiscale-regeling)* — leden van familie + alternatieve concepten die hetzelfde doel dienen
+10. **`bronnen_en_verwijzingen`** *(verplicht)* — gestructureerd: `grounded[]` (lijst ⚖️-bronnen met `ref` + `art_of_par`), `te_verifieren[]` (lijst ⚠️-items), `edges[]` (cross-record `lid_van`/`heeft_lid`/`gerelateerd`/`verward_met`)
+11. **`wat_dit_record_dekt`** — competenties_chronologisch + termen_alfabetisch
 
 **Veld-namen strikt**:
 - Gebruik `text` voor body-tekst (niet `inhoud`, niet `tekst`)
 - Gebruik `source` als string voor bron-citation (niet als dict — daemon-fix 2026-05-21 ondersteunt beide vormen, maar **string is de canonical schema 2.0-vorm**)
+- Gebruik `actor` voor perspectief-naam (niet `naam` of `klant` — render-template verwacht `actor`)
+- Gebruik `emoji`-veld op perspectief en op rol (bv. `"emoji": "🏢"` voor uitgever-vennootschap, `"emoji": "📋"` voor boekhouder) — render-template gebruikt deze in headers
+
+**Rol-emoji-conventies** (gebruik deze defaults):
+- `adviseur` → 🎯
+- `boekhouder` → 📋
+- `externe auditor` → 🔍
+- `interne-controle-adviseur` → 🛡️
+- `fiscaal adviseur` → 💰
+
+### 3bis. Vuistregels (🧭) — wanneer wél gebruiken
+
+**Verplicht ⚠️ als signaal**: agents zijn vaak té conservatief en gebruiken 0 vuistregels — dat ondermijnt de didactische waarde. ADR-025 §confidence zegt expliciet dat **🧭 wel toegestaan** is voor:
+
+- **"Wanneer kies je dit?"** — selectie-advies (wanneer wel/niet, voor wie)
+- **"Hoofdrisico"** — waar de stagiair moet opletten
+- **"Hoofdvoordeel"** — wat het concept écht oplost
+- **Strategische signaal-zinnen** in `adviseur`-cellen — bv. "verlieslatende vennootschappen kunnen overwegen om vóór ontbinding eerst groepsbijdrage toe te passen indien…"
+- **Speelruimte** — wanneer wet ruimte laat voor interpretatie
+- **Sectoroverwegingen** — bv. "voor handelsondernemingen ligt de drempel typisch op…"
+- **Empirische beroepswijsheid** zonder harde bron — als de wet niets zegt maar praktijk wel
+
+**Niet toegestaan**: 🧭 voor procedures, cijfers, tarieven, drempels die uit wet/KB komen, wettelijke voorwaarden, rekening-codes. Daar geldt ⚖️ (met bron) of ⚠️ (te verifiëren).
+
+**Streef-distributie** (voor kader/familie/fiscale-regeling-fiches met strategisch advies):
+- 50-70% ⚖️ grounded
+- 15-25% 🔗 inferred
+- **10-25% 🧭 vuistregel** ← niet 0%!
+- 0-10% ⚠️ te_verifieren
+
+### 3ter. `weergaven[]` — concrete didactische blokken
+
+Element-vocabulaire is **niet decoratief** — elke `inhoud_type` heeft één of meer `weergaven[]` met concrete didactische output. Voorbeelden per type:
+
+| Concept-type | inhoud_type | weergave-types (gebruik!) |
+|---|---|---|
+| Boekhoudregel | `mechanisme` | `boeking` (rekening-codes, debet/credit), `t-rekening`, `balans-snapshot` |
+| Formule | `formule` | `formule-expressie` (LaTeX-achtig), `berekening` (concreet getal) |
+| Vergelijking | `vergelijking` | `vergelijkingstabel` (cols=alternatieven, rows=aspecten) |
+| Stappen | `procedure` | `stappenlijst` (genummerd), `tijdslijn` |
+| Beslissing | `keuze` | `beslisboom`, `vergelijkingstabel` |
+| Voorbeeld | `casus` | `tabel` + `proza` (mini-case-study) |
+| Drempel/regel | `drempel` | `tabel` (waarde + bron + sinds-wanneer) |
+
+**Anti-pattern**: één lange tekstuele `proza`-weergave die alles uitlegt. **Patroon**: één concept-eenheid (= element) met meerdere weergaven (proza-uitleg + boeking + balans-snapshot) — render-template toont ze als zustertabbladen of geneste blokken.
+
+**Voor `hoe_het_werkt.onderdelen[]`**: elk onderdeel HOORT `weergaven[]` te hebben (geen titel-only). Als je geen weergave hebt, is het onderdeel waarschijnlijk niet didactisch genoeg — overweeg om het in een ander onderdeel te integreren.
 
 ---
 

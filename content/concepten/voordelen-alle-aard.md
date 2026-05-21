@@ -25,7 +25,8 @@ gegenereerd_op: '2026-05-21'
 
 Voordelen van alle aard zijn anders dan in geld verkregen vergoedingen die een werknemer of bedrijfsleider ontvangt uit hoofde of naar aanleiding van zijn beroepswerkzaamheid — ze worden gelijkgesteld met belastbaar beroepsinkomen, gewaardeerd tegen werkelijke waarde of een wettelijk forfait.
 
-_Bron: _
+_Bron: WIB92#art-36_
+
 
 
 > [!todo] Voorbeeld ontbreekt voor dit concept

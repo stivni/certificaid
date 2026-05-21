@@ -37,7 +37,7 @@
 {{ hoofdveld.text }}
 {% if hoofdveld.source is defined and hoofdveld.source %}
 
-_Bron: {{ hoofdveld.source.short }}_
+_Bron: {{ hoofdveld.source.short | default(hoofdveld.source) }}_
 {% endif %}
 {% else %}
 {{ hoofdveld }}

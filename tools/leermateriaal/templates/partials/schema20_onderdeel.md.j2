@@ -12,3 +12,23 @@ _Bron: {{ onderdeel.bron.short | default(onderdeel.bron) }}_
 {% for weergave in onderdeel.weergaven | default([]) %}
 {% include 'partials/weergave.md.j2' %}
 {% endfor %}
+{% for element in onderdeel.elementen | default([]) %}
+{% set element_conf_label = element.confidence | default('inferred') | confidence_label %}
+#### {{ element.titel | default(element.element_id | default('')) }} {{ element_conf_label }}
+
+{% if element.beschrijving %}
+{{ element.beschrijving }}
+
+{% endif %}
+{% if element.source is defined and element.source %}
+_Bron: {{ element.source.short | default(element.source) }}_
+
+{% endif %}
+{% if element.bron is defined and element.bron %}
+_Bron: {{ element.bron.short | default(element.bron) }}_
+
+{% endif %}
+{% for weergave in element.weergaven | default([]) %}
+{% include 'partials/weergave.md.j2' %}
+{% endfor %}
+{% endfor %}

@@ -1,0 +1,499 @@
+{
+  "id": "kapitaalverhoging",
+  "naam": "Kapitaalverhoging",
+  "node_type": "operatie",
+  "schema_version": "2.0",
+  "status": "seed",
+  "primary_po": "1.1",
+  "linked_anchors": [
+    "1.1.II.A",
+    "1.1.II.T",
+    "3.0.taak.3"
+  ],
+  "dekt_tdks": [
+    "1.1.II.T"
+  ],
+  "cross_po": true,
+  "edges_voorgesteld": {
+    "vereist": [
+      "eigen-vermogen",
+      "oprichtingskosten"
+    ],
+    "gerelateerd": [
+      "uitgifte-aandelen",
+      "voorkeurrecht",
+      "inbreng-in-natura",
+      "toegestaan-kapitaal"
+    ]
+  },
+  "_provenance": {
+    "extractor_run": "concept-extractie-v5-bundle-wave-bench2-sonnet-20260521",
+    "model": "claude-sonnet-4-6",
+    "bundle": "data/extractie/_bundles/kapitaalverhoging.json",
+    "anchor_ids": [
+      "1.1.II.A",
+      "1.1.II.T",
+      "3.0.taak.3"
+    ],
+    "reviewed_by": null,
+    "confidence_history": [
+      {
+        "versie": "v1",
+        "datum": "2026-05-21",
+        "bron_dekking": "WVV art. 7:177 ev. (NV), WVV art. 5:120 ev. (BV), MvT-WVV art. 7:165/7:172/7:174/7:176/7:179, CBN-advies 2013/17 (boekhoudkundige verwerking), WIB92 art. 269 (VVPRbis)"
+      }
+    ]
+  },
+  "definitie": {
+    "text": "Een **kapitaalverhoging** is de operatie waarbij het maatschappelijk kapitaal van een naamloze vennootschap (NV) of de coöperatieve vennootschap (CV) wordt verhoogd, of waarbij bij de besloten vennootschap (BV) — die geen wettelijk kapitaalbegrip kent — nieuwe aandelen worden uitgegeven of een bijkomende inbreng wordt gedaan ter versterking van het eigen vermogen. Drie vormen bestaan: (1) **inbreng in geld**, (2) **inbreng in natura**, en (3) **incorporatie van reserves of uitgiftepremies** (omzetting van bestaand eigen vermogen in geplaatst kapitaal of in een niet-beschikbare inbreng-rubriek bij de BV).",
+    "confidence": "grounded",
+    "source": "WVV art. 7:177 (NV) en art. 5:120 (BV)"
+  },
+  "wat_er_economisch_echt_gebeurt": {
+    "text": "Bij een kapitaalverhoging stroomt er **nieuw eigen vermogen** de vennootschap in (inbreng in geld of natura) of wordt **bestaand eigen vermogen hergeëtiketteerd** (incorporatie van reserves): vrije reserves of overgedragen winst worden onbeschikbaar gemaakt door ze te boeken als geplaatst kapitaal (NV/CV) of als wettelijke onbeschikbare inbreng-rubriek (BV). Het economisch effect verschilt per vorm:\n\n- **Inbreng in geld**: de onderneming ontvangt liquiditeiten. Bestaande aandeelhouders worden beschermd door het **voorkeurrecht** — zij mogen pro rata inschrijven vóór derden.\n- **Inbreng in natura**: de onderneming ontvangt een actief (gebouw, deelneming, schuldvordering...). Waardering door een **bedrijfsrevisor** is verplicht (NV: commissaris of aangewezen revisor) zodat de inbreng niet overgewaardeerd wordt ten nadele van bestaande aandeelhouders en schuldeisers.\n- **Incorporatie reserves**: geen nieuwe middelen — de vennootschap maakt winstreserves 'vast' (ze kunnen niet langer worden uitgekeerd als dividend totdat het kapitaal wordt verminderd). Beschermt schuldeisers; versterkt de uitstraling van het eigen vermogen op de balans.\n\nVoor de BV is het verschil met de NV cruciaal: er is **geen kapitaalbedrag in de statuten** meer. De inbreng-rubriek is wel onbeschikbaar (art. 5:121 WVV), maar het getal staat niet in de statuten. Praktisch gevolg: een bijkomende inbreng bij BV kan sneller en goedkoper — geen notariële akte vereist tenzij de aandelenstructuur verandert.\n\nBij een NV is de kapitaalverhoging **altijd een statutenwijziging** en vereist een **bijzondere AV** met aanwezigheids- en meerderheidsvereisten. De akte moet authentiek (notarieel) zijn en worden neergelegd en bekendgemaakt."
+  },
+  "wanneer_van_toepassing": {
+    "voor_wie": {
+      "text": "Voor elke vennootschap (NV, BV, CV) die haar eigen vermogen wil versterken, nieuwe aandeelhouders wil opnemen, of schulden wil omzetten in aandelenkapitaal. De procedure en formaliteiten verschillen wezenlijk per rechtsvorm."
+    },
+    "wanneer_wel": [
+      "Groeifinancering: nieuwe investeerder of aandeelhouder treedt toe en brengt geld in",
+      "Solvabiliteitsherstel: eigen vermogen staat onder druk (alarmbel-situatie) en schuldeisers eisen versterking",
+      "Inbreng van een onderneming of deelneming in natura als overname-structuur",
+      "Omzetting van een aandeelhouderslening in kapitaal (debt-to-equity swap)",
+      "VVPRbis-kwalificatie activeren: nieuwe aandelen bij kapitaalverhoging kwalificeren voor verlaagd tarief RV"
+    ],
+    "wanneer_niet": [
+      "Wanneer de aandeelhouder eigen middelen beschikbaar stelt via een achtergestelde lening (rekening-courant) — dan is er geen uitgifte van nieuwe aandelen",
+      "Wanneer een NV eigen aandelen inkoopt (omgekeerde operatie)",
+      "Bij incorporatie van een herwaarderingsmeerwaarde — dit is geen kapitaalverhoging in de wettelijke zin"
+    ],
+    "hoofdrisico": {
+      "text": "Verwateringsrisico voor bestaande aandeelhouders (voorkeurrecht moet formeel worden uitgeoefend of opgeheven); overwaarderings-risico bij inbreng in natura (bedrijfsrevisorverslag is een essentieel beschermingsmechanisme)."
+    },
+    "hoofdvoordeel": {
+      "text": "Versterkt de solvabiliteit zonder schulden te creëren, en kan VVPRbis-voordeel activeren voor toekomstige dividenden."
+    }
+  },
+  "hoe_het_werkt": {
+    "intro": "De procedure verschilt per rechtsvorm (NV strenger dan BV) en per inbreng-type (natura vereist revisorverslag). Hieronder de drie vormen, de NV-procedure als referentie, de BV-vereenvoudigingen en de boekhoudkundige verwerking.",
+    "onderdelen": [
+      {
+        "titel": "Drie vormen van inbreng",
+        "elementen": [
+          {
+            "element_id": "drie-vormen-inbreng",
+            "inhoud_type": "taxonomie",
+            "titel": "Inbreng in geld, in natura, incorporatie reserves",
+            "beschrijving": "De drie juridisch onderscheiden vormen van kapitaalverhoging hebben elk een andere procedure en boekhoudkundige verwerking.",
+            "confidence": "grounded",
+            "source": "WVV art. 7:177 en 7:193 ev. (NV); art. 5:120 en 5:133 ev. (BV)",
+            "weergaven": [
+              {
+                "type": "tabel",
+                "titel": "Vergelijking drie vormen",
+                "kolommen": [
+                  "Vorm",
+                  "Nieuw vermogen?",
+                  "Revisorverslag?",
+                  "Voorkeurrecht?",
+                  "Typisch gebruik"
+                ],
+                "rijen": [
+                  [
+                    "Inbreng in geld",
+                    "Ja",
+                    "Nee (tenzij BV-delegatie)",
+                    "Ja (NV/BV — kan worden opgeheven)",
+                    "Groei, nieuwe aandeelhouder, VVPRbis"
+                  ],
+                  [
+                    "Inbreng in natura",
+                    "Ja",
+                    "Ja (verplicht)",
+                    "Ja (kan worden opgeheven)",
+                    "Inbreng bedrijfstak, deelneming, onroerend goed"
+                  ],
+                  [
+                    "Incorporatie reserves",
+                    "Nee",
+                    "Nee",
+                    "N.v.t.",
+                    "Solvabiliteitssignalering, balansoptimalisatie"
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titel": "NV — procedure (referentie)",
+        "elementen": [
+          {
+            "element_id": "nv-procedure-statutenwijziging",
+            "inhoud_type": "procedure",
+            "titel": "Bijzondere AV + notariële akte (NV)",
+            "beschrijving": "Bij de NV vereist elke kapitaalverhoging een statutenwijziging: de bijzondere algemene vergadering met ten minste 50 % aanwezigheid van het kapitaal en 75 % meerderheid van de uitgebrachte stemmen. Het besluit wordt vastgelegd bij authentieke akte (notaris), neergelegd en bekendgemaakt. Uitzondering: het bestuursorgaan mag zelfstandig beslissen binnen de grenzen van het **toegestaan kapitaal** (de AV delegeert vooraf de bevoegdheid, max. 5 jaar hernieuwbaar).",
+            "confidence": "grounded",
+            "source": "WVV art. 7:177 en art. 7:185",
+            "weergaven": [
+              {
+                "type": "stappenlijst",
+                "stappen": [
+                  "Bestuur stelt bestuursverslag op met verantwoording van de verrichting en de uitgifteprijs",
+                  "Commissaris of bedrijfsrevisor stelt verslag op (verplicht bij inbreng in natura of bij opheffing voorkeurrecht)",
+                  "Bijzondere AV bijeengeroepen: agenda vermeldt statutenwijziging en evt. opheffing voorkeurrecht",
+                  "AV beslist met vereiste aanwezigheid (50% kapitaal) en meerderheid (75%)",
+                  "Notariële akte vastgesteld en ondertekend",
+                  "Neerlegging bij griffie en bekendmaking in Belgisch Staatsblad (art. 2:8 + 2:14 WVV)"
+                ]
+              }
+            ]
+          },
+          {
+            "element_id": "nv-voorkeurrecht",
+            "inhoud_type": "voorwaarde",
+            "titel": "Voorkeurrecht aandeelhouders bij NV — geld-inbreng",
+            "beschrijving": "Bij uitgifte van nieuwe aandelen in geld hebben bestaande aandeelhouders het recht om pro rata in te schrijven vóór derden, gedurende ten minste 15 dagen na openstelling van de inschrijving. De uitgifte en het tijdvak worden vooraf bekendgemaakt. Het voorkeurrecht kan worden beperkt of opgeheven door de AV in het belang van de vennootschap, mits verantwoording in het bestuurs- en commissarisverslag.",
+            "confidence": "grounded",
+            "source": "WVV art. 7:188 en art. 7:191-7:192",
+            "weergaven": [
+              {
+                "type": "vuistregel-box",
+                "tekst": "Unanimiteit volstaat ook: als alle aandeelhouders aanwezig zijn en allen afstand doen van hun voorkeurrecht in de authentieke akte, is er geen formele opheffingsprocedure nodig."
+              }
+            ]
+          },
+          {
+            "element_id": "nv-inbreng-natura-revisorverslag",
+            "inhoud_type": "voorwaarde",
+            "titel": "Bedrijfsrevisorverslag bij inbreng in natura (NV)",
+            "beschrijving": "Bij inbreng in natura stelt het bestuursorgaan een bijzonder verslag op (beschrijving en verantwoording van de inbreng) en stelt de commissaris — of, bij diens ontstentenis, een door het bestuursorgaan aangewezen bedrijfsrevisor — een verslag op met zijn beoordeling van de waardering. De verrichtingen worden omgedraaid ten opzichte van het vroegere recht: eerst bestuursverslag, dan revisoren-beoordeling. Het revisorverslag is onderdeel van de verslagen die de AV goedkeurt.",
+            "confidence": "grounded",
+            "source": "MvT-WVV art. 7:197 (toelichting bij art. 7:195 WVV); WVV art. 7:197"
+          }
+        ]
+      },
+      {
+        "titel": "BV — vereenvoudigingen t.o.v. NV",
+        "elementen": [
+          {
+            "element_id": "bv-geen-kapitaalbegrip",
+            "inhoud_type": "begrip",
+            "titel": "BV: bijkomende inbreng, geen kapitaalverhoging in strikt juridische zin",
+            "beschrijving": "De BV heeft geen maatschappelijk kapitaalbedrag in de statuten. Wat economisch een 'kapitaalverhoging' heet, is juridisch een **bijkomende inbreng met uitgifte van nieuwe aandelen** (art. 5:120 WVV) of een bijkomende storting zonder uitgifte (art. 5:121 WVV). De ingebrachte bedragen kunnen als **wettelijke onbeschikbare inbreng-rubriek** worden geboekt (eigen vermogen-rubriek 10, analogie met geplaatst kapitaal bij NV). Geen statutenwijziging vereist als het aantal en de soort aandelen niet verandert.",
+            "confidence": "grounded",
+            "source": "WVV art. 5:120-5:121; MvT-WVV art. 306"
+          },
+          {
+            "element_id": "bv-delegatie-bestuursorgaan",
+            "inhoud_type": "voorwaarde",
+            "titel": "BV: delegatie aan bestuursorgaan mogelijk (art. 5:134 WVV)",
+            "beschrijving": "Net als bij het 'toegestaan kapitaal' bij de NV kunnen de BV-statuten het bestuursorgaan machtigen om aandelen uit te geven, converteerbare obligaties of inschrijvingsrechten. De artikelen 5:120 en 5:121 tot 5:133 zijn van toepassing op uitgifte door het bestuursorgaan (art. 5:137 WVV).",
+            "confidence": "grounded",
+            "source": "WVV art. 5:137"
+          }
+        ]
+      },
+      {
+        "titel": "Boekhoudkundige verwerking",
+        "elementen": [
+          {
+            "element_id": "boeking-geld-inbreng-nv",
+            "inhoud_type": "boeking",
+            "titel": "Boekingen bij inbreng in geld (NV) — geplaatst kapitaal + agio",
+            "beschrijving": "Bij kapitaalverhoging door inbreng in geld worden de ontvangen bedragen eerst geboekt als 'ingeschreven maar niet-volgestort kapitaal' (rekening 100) of als vordering op aandeelhouders (456) tot volstorting. Bij volledige volstorting: debet liquide middelen (550), credit geplaatst kapitaal (100). Wanneer de uitgifteprijs boven de nominale fractiewaarde ligt, wordt het surplus geboekt als uitgiftepremie (rekening 111). Kosten van de verrichting (notariskosten, publicatiekosten) worden als oprichtingskosten geactiveerd (rekening 20) of rechtstreeks ten laste van het resultaat gebracht.",
+            "confidence": "grounded",
+            "source": "CBN-advies 2013/17 (boeking bij formele kapitaalverhoging); MAR",
+            "weergaven": [
+              {
+                "type": "boeking-schema",
+                "boekingen": [
+                  {
+                    "omschrijving": "Inschrijving op nieuwe aandelen (vordering op aandeelhouder)",
+                    "debet": "456 Nog op te roepen kapitaal",
+                    "credit": "100 Geplaatst kapitaal"
+                  },
+                  {
+                    "omschrijving": "Surplus boven fractiewaarde (agio)",
+                    "debet": "456 Nog op te roepen kapitaal",
+                    "credit": "111 Uitgiftepremies"
+                  },
+                  {
+                    "omschrijving": "Volstorting door aandeelhouder",
+                    "debet": "550 Kredietinstellingen",
+                    "credit": "456 Nog op te roepen kapitaal"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "element_id": "boeking-incorporatie-reserves",
+            "inhoud_type": "boeking",
+            "titel": "Boekingen bij incorporatie van reserves",
+            "beschrijving": "Bij incorporatie van reserves in het kapitaal worden de beschikbare reserves (rekening 133) of de overgedragen winst (rekening 140) omgeboekt naar geplaatst kapitaal (rekening 100). Er stroomt geen nieuw geld de vennootschap in. De vrij beschikbare reserves worden onbeschikbaar. CBN-advies 2013/17 beschrijft ook de tussenstap via 'ontvangen voorschotten op kapitaal' (489X) voor de periode tussen AV-besluit en formele kapitaalverhoging.",
+            "confidence": "grounded",
+            "source": "CBN-advies 2013/17 §Effectieve kapitaalverhoging en §Boeking bij formele kapitaalverhoging",
+            "weergaven": [
+              {
+                "type": "boeking-schema",
+                "boekingen": [
+                  {
+                    "omschrijving": "AV-besluit: dividend toekennen (tussenstap bij dividendinbreng in kapitaal)",
+                    "debet": "489X Ontvangen voorschotten op kapitaal",
+                    "credit": "100 Geplaatst kapitaal"
+                  },
+                  {
+                    "omschrijving": "Incorporatie beschikbare reserves",
+                    "debet": "133 Beschikbare reserves",
+                    "credit": "100 Geplaatst kapitaal"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "element_id": "boeking-inbreng-natura",
+            "inhoud_type": "boeking",
+            "titel": "Boekingen bij inbreng in natura",
+            "beschrijving": "Bij inbreng in natura wordt het ingebrachte actief geboekt tegen de door de revisor goedgekeurde waarde. De tegenrekening is geplaatst kapitaal (100) + eventuele uitgiftepremie (111). Bijzonder geval: inbreng van een schuldvordering uitgedrukt in vreemde valuta — de CBN-advies 152/3 bepaalt dat de vordering moet worden omgerekend op de datum van de inbreng, en het wisselresultaat ten laste of ten bate van het resultaat valt.",
+            "confidence": "grounded",
+            "source": "CBN-advies 152/3; CBN-advies 152/2"
+          }
+        ]
+      },
+      {
+        "titel": "Fiscale aspecten",
+        "elementen": [
+          {
+            "element_id": "vvprbis-kwalificatie",
+            "inhoud_type": "voorwaarde",
+            "titel": "VVPRbis: verlaagd RV-tarief voor dividenden op nieuwe aandelen",
+            "beschrijving": "Dividenden op aandelen uitgegeven bij **inbreng in geld** — bij oprichting of kapitaalverhoging — kunnen onder het VVPRbis-regime vallen (WIB92 art. 269, §2). Voorwaarden: (1) aandelen op naam, (2) ononderbroken in volle eigendom gehouden sinds uitgifte, (3) uitgifte vanaf 1 juli 2013, (4) inbreng in geld (niet in natura, niet incorporatie), (5) dividend niet afkomstig van belaste reserves die reeds aan verlaagd tarief werden onderworpen (art. 537 WIB92). Tarieven: 20 % RV op dividenden voor het tweede boekjaar na het inbreng-boekjaar, 15 % RV voor volgende boekjaren.",
+            "confidence": "grounded",
+            "source": "WIB92 art. 269, §2, 4°-7° en tweede lid 1°-2°",
+            "weergaven": [
+              {
+                "type": "tabel",
+                "titel": "VVPRbis-tarieven per dividendjaar",
+                "kolommen": [
+                  "Wanneer uitgekeerd?",
+                  "RV-tarief"
+                ],
+                "rijen": [
+                  [
+                    "1e boekjaar na inbreng-boekjaar",
+                    "Standaard 30 % — VVPRbis n.v.t."
+                  ],
+                  [
+                    "2e boekjaar na inbreng-boekjaar",
+                    "20 %"
+                  ],
+                  [
+                    "3e boekjaar en later",
+                    "15 %"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "element_id": "abnormale-uitgifteprijs",
+            "inhoud_type": "risico",
+            "titel": "Fiscaal risico abnormale uitgifteprijs — art. 26 WIB92",
+            "beschrijving": "Wanneer nieuwe aandelen worden uitgegeven aan een prijs die afwijkt van de marktwaarde (te laag of te hoog), kan de fiscus art. 26 WIB92 inroepen (abnormale of goedgunstige voordelen). Wordt de prijs te laag vastgesteld ten voordele van een derde aandeelhouder, dan kan het verschil als een belastbaar voordeel worden geherkwalificeerd bij de vennootschap. Omgekeerd: een te hoge uitgifteprijs kan een verkapte meerwaarde maskeren.",
+            "confidence": "te_verifieren",
+            "source": "WIB92 art. 26 — toepassingsrichtsnoeren per geval te verifiëren"
+          }
+        ]
+      }
+    ]
+  },
+  "rol_van_de_accountant": {
+    "intro": "De accountant speelt bij kapitaalverhoging afhankelijk van zijn mandaat een andere rol: als boekhouder verwerkt hij de verrichting, als adviseur begeleidt hij de structurekeuze, als externe auditor levert hij het revisorverslag (bij inbreng in natura), en als fiscaal adviseur optimaliseert hij het RV-tarief via VVPRbis.",
+    "perspectieven": [
+      {
+        "perspectief": "KMO-handelsonderneming (BV)",
+        "beschrijving": "Groeiende onderneming die nieuwe aandeelhouder opneemt of eigen vermogen versterkt",
+        "rollen": [
+          {
+            "rol": "adviseur",
+            "elementen": [
+              {
+                "element_id": "adviseur-kmo-structurekeuze",
+                "inhoud_type": "procedure",
+                "titel": "Structurekeuze: geld vs. natura vs. incorporatie reserves",
+                "beschrijving": "Begeleid de cliënt bij de keuze tussen de drie vormen. Incorporatie reserves is snel en goedkoop maar creëert geen nieuwe liquiditeiten. Inbreng in geld activeert VVPRbis en brengt nieuw geld binnen. Inbreng in natura kan fiscaal neutraal zijn (geen meerwaardeheffing bij bepaalde inbrengen) maar vereist revisorverslag en is trager.",
+                "confidence": "vuistregel",
+                "weergaven": [
+                  {
+                    "type": "beslissingsboom",
+                    "stappen": [
+                      "Is nieuw geld nodig? → Geld-inbreng (overweeg VVPRbis)",
+                      "Is er een actief beschikbaar (gebouw, deelneming)? → Natura (revisorverslag plannen)",
+                      "Wil aandeelhouder eigen vermogen verstevigen zonder nieuw geld? → Incorporatie reserves",
+                      "Is nieuwe aandeelhouder een investeerder? → Beoordeel verwateringsimpact op bestaande aandeelhouders"
+                    ]
+                  }
+                ]
+              },
+              {
+                "element_id": "adviseur-kmo-vvprbis-planning",
+                "inhoud_type": "vuistregel",
+                "titel": "VVPRbis tijdig plannen",
+                "beschrijving": "Het VVPRbis-voordeel geldt enkel voor aandelen uitgegeven bij inbreng in **geld**. Wanneer de cliënt liquiditeiten heeft en solvabiliteit wil versterken, is een formele kapitaalverhoging in geld (ook al gaat het geld meteen terug als lening) verkieslijker boven incorporatie van een rekening-courant-schuld, mits de antimisbruiktoets wordt doorstaan.",
+                "confidence": "vuistregel"
+              }
+            ]
+          },
+          {
+            "rol": "boekhouder",
+            "elementen": [
+              {
+                "element_id": "boekhouder-kmo-verwerking",
+                "inhoud_type": "procedure",
+                "titel": "Boekhoudkundige verwerking van de kapitaalverhoging",
+                "beschrijving": "Verwerk de kapitaalverhoging in drie stappen: (1) bij AV-besluit: debet 456 / credit 100 (+ 111 bij agio); (2) bij volstorting: debet 550 / credit 456; (3) kosten: keuze activering rekening 20 (oprichtingskosten, max. 5 jaar lineair af te schrijven) of onmiddellijk ten laste resultaat. Controleer de staat van het kapitaal in de toelichting bij de jaarrekening.",
+                "confidence": "grounded",
+                "source": "CBN-advies 2013/17; MAR rekeningen 100, 111, 456, 550",
+                "weergaven": [
+                  {
+                    "type": "stappenlijst",
+                    "stappen": [
+                      "AV-besluit ontvangen: boek 456 Nog op te roepen kapitaal / 100 Geplaatst kapitaal (+ 111 agio)",
+                      "Volstorting ontvangen: boek 550 Bankrekening / 456 Nog op te roepen kapitaal",
+                      "Kosten verrichting: keuze rekening 20 (activeren) of 643 (onmiddellijk ten laste)",
+                      "Staat van het kapitaal bijwerken in toelichting jaarrekening"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rol": "fiscaal adviseur",
+            "elementen": [
+              {
+                "element_id": "fiscaal-kmo-vvprbis-checklist",
+                "inhoud_type": "voorwaarde",
+                "titel": "VVPRbis-kwalificatiechecklist",
+                "beschrijving": "Controleer alle voorwaarden vóór de kapitaalverhoging: (1) aandelen op naam, (2) inbreng in geld (niet in natura, niet incorporatie), (3) uitgifte na 1 juli 2013, (4) aandelen ononderbroken in volle eigendom bij dezelfde aandeelhouder, (5) inbreng niet afkomstig van belaste reserves via art. 537. Leg de checklist schriftelijk vast in het dossier.",
+                "confidence": "grounded",
+                "source": "WIB92 art. 269, §2, 4°-7°"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "perspectief": "Familiale holding (NV of BV)",
+        "beschrijving": "Holding die deelneming inbrengt of nieuwe aandeelhouder opneemt via gestructureerde kapitaalverhoging",
+        "rollen": [
+          {
+            "rol": "adviseur",
+            "elementen": [
+              {
+                "element_id": "adviseur-holding-voorkeurrecht",
+                "inhoud_type": "procedure",
+                "titel": "Voorkeurrecht beheren bij toetreding nieuwe investeerder",
+                "beschrijving": "Bij NV: bestaande aandeelhouders hebben wettelijk voorkeurrecht (art. 7:188 WVV). Bij toetreding van nieuwe investeerder moet het voorkeurrecht worden opgeheven door de AV (75 % meerderheid bij NV), mits verantwoording in bestuurs- en commissarisverslag. Bij BV: vergelijkbaar maar procedureel lichter. Adviseer over timing (toegestaan kapitaal vs. buitengewone AV) en kosten.",
+                "confidence": "grounded",
+                "source": "WVV art. 7:191 (NV); WVV art. 5:128 (BV analoog)"
+              }
+            ]
+          },
+          {
+            "rol": "externe auditor",
+            "elementen": [
+              {
+                "element_id": "auditor-holding-inbreng-natura",
+                "inhoud_type": "procedure",
+                "titel": "Commissarisverslag bij inbreng deelneming in natura",
+                "beschrijving": "Bij inbreng in natura (bv. overdracht deelneming van ene holdingtak aan andere) stelt de commissaris een verslag op over de beschrijving en waardering van de inbreng door het bestuursorgaan. Het verslag beoordeelt of de gehanteerde waarderingsmethode past bij de aard van het actief en of de inbrengwaarde niet is overschat. Dit verslag is onderdeel van de authentieke akte en de bekendmaking.",
+                "confidence": "grounded",
+                "source": "WVV art. 7:197; MvT-WVV art. 600"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      "eigen-vermogen",
+      "oprichtingskosten",
+      "algemene-vergadering"
+    ],
+    "kader": "vennootschapsrecht-boekhoudkundige-verwerking",
+    "naast_relevant": [
+      "voorkeurrecht",
+      "inbreng-in-natura",
+      "toegestaan-kapitaal",
+      "VVPRbis",
+      "alarmbel"
+    ],
+    "volgkennis": [
+      "kapitaalvermindering",
+      "liquidatiereserve",
+      "fusie-en-splitsing"
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      {
+        "titel": "Drie vormen van kapitaalverhoging onderscheiden (geld, natura, incorporatie)",
+        "anker": "#drie-vormen-inbreng"
+      },
+      {
+        "titel": "NV-procedure benoemen (bijzondere AV, notariële akte, bekendmaking)",
+        "anker": "#nv-procedure-statutenwijziging"
+      },
+      {
+        "titel": "Voorkeurrecht uitleggen en opheffingsprocedure schetsen",
+        "anker": "#nv-voorkeurrecht"
+      },
+      {
+        "titel": "Revisorverslag bij inbreng in natura situeren (wie, wanneer, inhoud)",
+        "anker": "#nv-inbreng-natura-revisorverslag"
+      },
+      {
+        "titel": "Verschil BV (bijkomende inbreng) versus NV (kapitaalverhoging) verklaren",
+        "anker": "#bv-geen-kapitaalbegrip"
+      },
+      {
+        "titel": "Boekingen kapv. in geld verwerken (456/100/111/550)",
+        "anker": "#boeking-geld-inbreng-nv"
+      },
+      {
+        "titel": "Boekingen incorporatie reserves verwerken (133/140 → 100)",
+        "anker": "#boeking-incorporatie-reserves"
+      },
+      {
+        "titel": "VVPRbis-kwalificatievoorwaarden benoemen en toepassen",
+        "anker": "#vvprbis-kwalificatie"
+      }
+    ],
+    "termen_alfabetisch": [
+      "agio (uitgiftepremie)",
+      "bedrijfsrevisorverslag",
+      "besloten vennootschap (BV) — bijkomende inbreng",
+      "bijzondere algemene vergadering",
+      "debt-to-equity swap",
+      "geplaatst kapitaal (rekening 100)",
+      "incorporatie van reserves",
+      "inbreng in geld",
+      "inbreng in natura",
+      "naamloze vennootschap (NV) — kapitaalverhoging",
+      "notariële akte",
+      "onbeschikbare inbreng-rubriek (BV)",
+      "oprichtingskosten (rekening 20)",
+      "toegestaan kapitaal",
+      "uitgiftepremie (rekening 111)",
+      "VVPRbis (verlaagd RV-tarief)",
+      "voorkeurrecht"
+    ]
+  }
+}

@@ -26,7 +26,7 @@ gegenereerd_op: '2026-05-21'
 
 Het **OESO-Modelverdrag** (OECD Model Tax Convention on Income and on Capital — versie 21 november 2017) is een **template-verdrag** dat de OESO publiceert als blauwdruk voor bilaterale dubbelbelastingverdragen (DBV's). Het levert (i) een **gestandaardiseerde hoofdstuk-structuur**, (ii) **uniforme begrippen** (inwoner, vaste inrichting, ondernemingswinst, …), (iii) **toewijzingsregels per inkomstencategorie** en (iv) **uitgebreide officiële commentaar** die als interpretatiegids fungeert. Het modelverdrag is **niet bindend** — het wordt bindend pas wanneer twee staten het (al dan niet aangepast) in een bilateraal DBV opnemen.
 
-_Bron: _
+_Bron: OECD Model Tax Convention on Income and on Capital — Condensed Version 21 November 2017 (incl. commentary)_
 
 
 
@@ -155,9 +155,9 @@ _Bron: MLI 2016 + Explanatory Statement 2016_
 
 DBV-werk komt typisch op tafel bij twee perspectieven: (1) een **Belgische vennootschap met buitenlandse activiteit** (outbound) — investering in een dochter, oprichten van een buitenlandse vaste inrichting, expat-tewerkstelling; (2) een **buitenlandse vennootschap met activiteit in België** (inbound) — verkoop op de BE-markt, secondment van personeel, dividend-stroom naar moeder. De accountant is hoofdzakelijk **fiscaal adviseur** in beide perspectieven; de boekhoudkundige verwerking volgt het verdrag maar wordt in afzonderlijke lid-fiches behandeld.
 
-### 🇧🇪 Belgische vennootschap met buitenlandse activiteit (outbound)
+### 🇧🇪 belgische vennootschap met buitenlandse activiteit (outbound)
 
-#### 💰 Fiscaal adviseur
+#### 🎯 💰 Fiscaal adviseur
 
 ##### Verdragsanalyse bij internationale structurering 🧭
 
@@ -196,9 +196,9 @@ Vóór de juridische opzet wordt de **vormkeuze** strategisch besproken met de k
 | Exit/verkoop | Aandelenverkoop (vrijgesteld onder art. 192) | Activa-verkoop (volledig belastbaar) |
 | Aansprakelijkheid | Beperkt tot dochter-vermogen | Volledig bij moeder |
 
-### 🌍 Buitenlandse vennootschap met BE-activiteit (inbound)
+### 🌍 buitenlandse vennootschap met be-activiteit (inbound)
 
-#### 💰 Fiscaal adviseur
+#### 🎯 💰 Fiscaal adviseur
 
 ##### BE-vaste-inrichting screening en aangifte (BNI/ven) 🔗
 

@@ -25,7 +25,7 @@ gegenereerd_op: '2026-05-21'
 
 De werkkapitaalbehoefte (BFR) is het bedrag aan permanente financiering dat de operationele cyclus van de onderneming structureel vraagt: de som van voorraden en handelsvorderingen, verminderd met de handelsschulden. Het meet hoeveel cash er vastzit in de cyclus tussen aankoop, productie, verkoop en inning — los van de beschikbare buffer op de balans.
 
-_Bron: _
+_Bron: vakdoctrine-financial-analysis_
 
 
 
@@ -55,26 +55,74 @@ _Bron: _
 
 ### Formule 🔗
 
+#### Werkkapitaalbehoefte 🔗
+
+WKB = voorraden + handelsvorderingen − handelsschulden. Voorraden en handelsvorderingen binden cash; handelsschulden vrijgeven cash (leverancier financiert mee).
+
+_Bron: vakdoctrine-financial-analysis_
+
+WKB = Voorraden + Handelsvorderingen − Handelsschulden
+
+
+
 ### Verschil met werkkapitaal en nettokaspositie 🔗
+
+#### Driehoeksrelatie WKB — werkkapitaal — nettokas 🔗
+
+Werkkapitaal (netto-bedrijfskapitaal) = vlottende activa − schulden op ten hoogste een jaar. Dat is wat beschikbaar is. WKB = wat operationeel nodig is. Nettokaspositie = werkkapitaal − WKB. Positief = buffer; negatief = structureel tekort, op te vangen met kaskrediet.
+
+_Bron: vakdoctrine-financial-analysis_
+
+
 
 ### Sectorgebondenheid en negatieve WKB 🔗
 
+#### WKB varieert sterk per sector 🧭
+
+Producenten en groothandels met lange klantkrediet-termijnen hebben typisch een hoge WKB. Retailers (cash-verkoop, korte voorraad, lang leveranciersuitstel) hebben een lage of negatieve WKB — de leverancier financiert de cyclus mee.
+
+_Bron: vakdoctrine-financial-analysis_
+
+
+
 ### WKB en omzetgroei 🔗
+
+#### Groeiende omzet verhoogt de WKB proportioneel ⚖️
+
+De WKB groeit mee met de omzet: meer verkoop → meer voorraden + meer handelsvorderingen, bij gelijke betalingstermijnen. Ondernemingen die snel groeien zien hun WKB snel stijgen. Zonder aanvullende financiering (kaskrediet, kapitaalinjectie, factoring) dreigt liquiditeitscrisis ondanks winstgevende verkoop.
+
+_Bron: CBN-2011-13_
+
+
 
 ### Selectiviteit in de berekening 🔗
 
+#### Alleen operationele componenten 🔗
+
+De WKB bevat uitsluitend de operationele cyclus-componenten: handelsvorderingen en handelsschulden, niet fiscale schulden, dividendschulden of financiële schulden ≤ 1 jaar. Brede schulden horen in werkkapitaal (current ratio), niet in WKB.
+
+_Bron: vakdoctrine-financial-analysis_
+
 ### Decompositie via rotatieratio's 🔗
+
+#### WKB-stijging verklaren via rotatieratio's 🔗
+
+Een stijgende WKB komt meestal uit (a) tragere voorraadrotatie, (b) langere klantkrediet-termijn, of (c) kortere leverancierskrediet-termijn. Combineer WKB altijd met rotatie-ratio's om het verklarend element te isoleren.
+
+_Bron: vakdoctrine-financial-analysis_
 
 
 ## Rol van de accountant
 
-### 
+### Kmo-handelsonderneming
 
-#### adviseur
+#### 🎯 adviseur
 
 ##### Liquiditeitsdiagnose uitvoeren 🔗
 
 1. Bereken WKB (voorraden + handelsvorderingen − handelsschulden). 2. Vergelijk met werkkapitaal. 3. Bereken nettokas (werkkapitaal − WKB). 4. Bij negatieve nettokas: bepaal structurele financieringsbehoefte. 5. Formuleer aanbeveling (kaskrediet-aanvraag, factoring, leveranciersuitstel heronderhandelen).
+
+_Bron: vakdoctrine-financial-analysis_
 
 1. Bereken WKB op basis van jaarrekening of tussentijdse cijfers
 2. Vergelijk met beschikbaar werkkapitaal
@@ -86,35 +134,45 @@ _Bron: _
 
 🧭 Bij groeiende omzet: projecteer de WKB-stijging en wijs de klant op de financieringsbehoefte vóór de crisis optreedt. Een winstgevend bedrijf kan failliet gaan door liquiditeitstekort bij te snelle groei zonder herfinanciering.
 
+_Bron: vakdoctrine-financial-analysis_
+
 
 
 ##### WKB verbeteren via operationele knoppen 🧭
 
 🧭 Drie knoppen om WKB te verlagen: (1) voorraadbeheer optimaliseren (faster turnover), (2) klantdebettermijn inkorten (sneller incasso of factoring), (3) leveranciersuitstel verlengen (heronderhandelen betalingscondities).
 
-### 
+_Bron: vakdoctrine-financial-analysis_
 
-#### adviseur
+### Kredietverstrekker-perspectief
+
+#### 🎯 adviseur
 
 ##### Kaskrediet-behoefte kwantificeren 🧭
 
 🧭 De WKB is de theoretische basis voor de kaskrediet-limiet bij de bank. Negatieve nettokas geeft de minimale kredietbehoefte aan. De bank stelt aanvullende vereisten (zekerheid, covenanten).
 
+_Bron: vakdoctrine-financial-analysis_
 
 
-### 
 
-#### externe auditor
+### Beursgenoteerde-onderneming
+
+#### 🔍 externe auditor
 
 ##### WKB als going-concern-indicator 🔗
 
 Een structureel negatieve nettokaspositie (WKB > werkkapitaal) is een knipperlicht voor going-concern-twijfel. De auditor beoordeelt of de onderneming voldoende kredietfaciliteiten heeft om het structurele tekort te financieren, en of banken die faciliteiten zullen verlengen.
+
+_Bron: vakdoctrine-financial-analysis_
 
 
 
 ##### WKB controleren op consistentie en volledigheid 🔗
 
 Controleer of de WKB-componenten volledig zijn (alle handelsvorderingen, alle voorraden, alle handelsschulden). Check dat niet-operationele posten (fiscale schulden, financiële schulden ≤ 1 jaar) correct buiten de WKB zijn gelaten.
+
+_Bron: vakdoctrine-financial-analysis_
 
 1. Verifieer volledigheid handelsvorderingen (rubriek 40)
 2. Verifieer volledigheid voorraden (rubriek 30-36)

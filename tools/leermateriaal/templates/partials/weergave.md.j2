@@ -50,8 +50,30 @@
 {% elif wtype == 't_rekening' or wtype == 't-rekening' %}
 {{ weergave.data | default('') }}
 
-{% elif wtype == 'formule' %}
-{{ weergave.formule | default(weergave.text | default('')) }}
+{% elif wtype == 'formule' or wtype == 'formule-expressie' %}
+{{ weergave.formule | default(weergave.expressie | default(weergave.text | default(''))) }}
+
+{% elif wtype == 'tabel' %}
+{% set tbl = weergave.tabel %}
+{% if tbl %}
+| {{ tbl.kolommen | join(' | ') }} |
+| {{ tbl.kolommen | map('regex_replace', '.+', '---') | join(' | ') }} |
+{% for rij in tbl.rijen %}
+| {{ rij | join(' | ') }} |
+{% endfor %}
+
+{% elif weergave.data %}
+{{ weergave.data }}
+
+{% endif %}
+{% elif wtype == 'tijdslijn' %}
+{{ weergave.data | default(weergave.text | default('')) }}
+
+{% elif wtype == 'casus' %}
+{% if weergave.titel %}_{{ weergave.titel }}_
+
+{% endif %}
+{{ weergave.tekst | default(weergave.text | default(weergave.data | default(''))) }}
 
 {% else %}
 {% if weergave.text %}

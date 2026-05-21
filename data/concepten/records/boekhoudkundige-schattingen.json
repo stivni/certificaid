@@ -1,0 +1,437 @@
+{
+  "id": "boekhoudkundige-schattingen",
+  "naam": "Boekhoudkundige schattingen",
+  "node_type": "begripscluster",
+  "schema_version": "2.0",
+  "primary_po": "1.1",
+  "linked_anchors": [
+    "1.1.I.B",
+    "1.1.II.X",
+    "1.6.II.B",
+    "1.6.II.C"
+  ],
+  "dekt_tdks": [
+    "1.6.II.B",
+    "1.6.II.C"
+  ],
+  "cross_po": [
+    "1.5",
+    "1.6"
+  ],
+  "edges_voorgesteld": {
+    "gerelateerd": [
+      "voorzieningen-voor-risicos-en-kosten",
+      "waardeverminderingen",
+      "afschrijvingen",
+      "jaarrekening",
+      "fraude",
+      "risicoanalyse-audit",
+      "schriftelijke-bevestiging-management",
+      "communicatie-met-governance"
+    ],
+    "valt_onder_kader": [
+      "boekhoudkundige-beginselen",
+      "controleopdracht-cyclus",
+      "auditrisicomodel"
+    ]
+  },
+  "_provenance": {
+    "extract_wave_id": "wave-bench2-opus-boekhoudkundige-schattingen-20260521",
+    "extracted_at_iso": "2026-05-21T12:57:02Z",
+    "extractor": "concept-extractie-v5-bundle (Opus)",
+    "model": "claude-opus-4-7",
+    "bundle_path": "data/extractie/_bundles/boekhoudkundige-schattingen.json",
+    "confidence_history": [
+      {
+        "iso": "2026-05-21T12:57:02Z",
+        "actie": "initial_extract",
+        "samenvatting": "Multi-PO begripscluster (1.1 jaarrekening-beginselen + 1.5 jaarrekening + 1.6 audit). Gegrond op CBN-advies 2018/25 voorzieningen, KB 30 januari 2001 art. 50, IAS 8 §32-38, ISA 540 (herzien), ITAA KMO-controlenorm §114. Merge-in van v1-record `boekhoudkundige-schattingen-audit`."
+      }
+    ]
+  },
+  "definitie": {
+    "text": "Een boekhoudkundige schatting is een benadering van een geldbedrag in de jaarrekening dat niet rechtstreeks waarneembaar is en dus moet worden geschat — gebaseerd op oordeelsvorming en veronderstellingen die uitgaan van de meest recente betrouwbare informatie op de balansdatum. Schattingsonzekerheid is het inherente gebrek aan precisie dat zo'n benadering meebrengt.",
+    "confidence": "grounded",
+    "source": "IAS 8 §32 (Verordening (EU) 2023/1803); ITAA KMO-controlenorm Bijlage 1 — Schattingen + Schattingsonzekerheid"
+  },
+  "wat_er_economisch_echt_gebeurt": {
+    "text": "Een groot deel van de jaarrekening berust niet op vaststaande feiten maar op een **inschatting van de toekomst** of van **onzekere uitkomsten**: hoeveel van mijn klantenvorderingen ga ik écht innen? Hoe lang gaat deze machine nog mee? Hoeveel kost het me om dat hangend geschil af te wikkelen? Telkens vraagt de wet of de boekhoudnorm dat het bestuur een **beste schatting** maakt — geen vaststelling van een feit, maar een oordeelsvorming gebaseerd op de meest recente betrouwbare informatie op balansdatum, ondersteund door ervaring met soortgelijke transacties en, waar nodig, door expert-rapporten. Schatten brengt **drie risicofactoren** mee: **schattingsonzekerheid** (de uitkomst kan binnen een redelijk interval liggen), **subjectiviteit** (verschillende redelijke schatters komen tot verschillende cijfers) en **complexiteit** (méér variabelen → méér ruimte voor methode-keuzes). Die ruimte creëert tegelijk een gat voor **management-bias** — bewust of onbewust verschuiven naar de schatting die de winst, het eigen vermogen of de bonus het best dient. Daarom is *elk* schattingsproces tegelijk een waarderingstechniek (boekhouder) én een audit-risico (commissaris) én een communicatie-uitdaging (toelichting voor de externe lezer).",
+    "confidence": "inferred"
+  },
+  "wanneer_van_toepassing": {
+    "voor_wie": {
+      "text": "Voor elke onderneming, vzw of stichting die een jaarrekening volgens Belgisch boekhoudrecht (KB 30 januari 2001 / KB WVV 29 april 2019) of volgens IFRS opmaakt. Het bestuur **moet** schatten waar de norm dit oplegt — niet schatten is geen optie. De externe accountant of commissaris moet bij assurance-opdrachten beoordelen of de schattingen redelijk zijn én of de toelichting erover adequaat is."
+    },
+    "wanneer_wel": [
+      "Bij elke balanspost die niet rechtstreeks waarneembaar is: voorzieningen (CBN 2018/25), waardeverminderingen op vorderingen, voorraden of vaste activa, afschrijvingstermijnen en restwaardes, garantieverplichtingen, pensioenverplichtingen, geschillen-uitkomsten.",
+      "Bij elke reële-waarde-waardering onder IFRS (IFRS 13): financiële instrumenten, biologische activa, vastgoedbeleggingen, bedrijfscombinaties (goodwill/PPA).",
+      "Bij elke wijziging in omstandigheden waar nieuwe informatie beschikbaar is — een schatting moet dan worden herzien (IAS 8 §34).",
+      "Bij elke controleopdracht: de auditor moet schattingsrisico's apart identificeren en specifieke werkzaamheden plannen (ISA 540 herzien)."
+    ],
+    "wanneer_niet": [
+      "Niet voor posten die rechtstreeks waarneembaar of contractueel vaststaand zijn (afgesloten facturen, bevestigde bankstanden, gerealiseerde verkopen aan vaste prijs).",
+      "Niet voor een wijziging van **grondslag** (accounting policy) — dat is een methodische keuze met retrospectieve verwerking, niet een schattingsherziening die prospectief gaat (IAS 8 §16-22 vs §34-38).",
+      "Niet als alternatief voor het opnemen van een verplichting die wél bestaat: 'we wisten het niet zeker' is geen rechtvaardiging om een voorziening helemaal niet aan te leggen — onder het voorzichtigheidsbeginsel moet de **beste schatting** geboekt worden."
+    ],
+    "hoofdrisico": {
+      "text": "**Management-bias** — schattingen zijn de natuurlijke landingsplek voor opportunistische winststuring: voorzieningen te laag in een verliesjaar (om verlies te beperken), of te hoog in een winstjaar (cookie jar reserves, om de volgende jaren te steunen); afschrijvingstermijnen verlengen vlak voor een convenant-meetdatum; oninbare-vorderingen-percentage neerwaarts aanpassen om EBIT te halen. ISA 540 (herzien) beschouwt indicaties van mogelijke tendentie als een **eigenstandig risico-domein** dat met retrospective review en algehele evaluatie moet worden afgedekt.",
+      "confidence": "grounded",
+      "source": "ISA 540 (herzien), par. 20 + A133-A136 — Indicaties voor mogelijke tendentie bij het management"
+    }
+  },
+  "hoe_het_werkt": {
+    "intro": "Schattingen begrijp je in vier lagen: **wat het is** (en hoe het verschilt van een grondslag), **welke posten ermee gemaakt worden**, **hoe een schatting wijzigt** (prospectief, niet retrospectief), en **hoe de auditor erop reageert** via het risico-spectrum van ISA 540 herzien. Een vijfde laag — **disclosure** — is geen randzaak maar een wezenlijk deel van de plicht: een onzekere schatting zonder toelichting is een misleidende schatting.",
+    "onderdelen": [
+      {
+        "titel": "Wat is een schatting — en het onderscheid met een grondslag",
+        "elementen": [
+          {
+            "element_id": "schatting-vs-grondslag",
+            "inhoud_type": "kerngedachte",
+            "titel": "Schatting = benadering van bedrag, grondslag = waarderingsregel",
+            "beschrijving": "Een **grondslag voor financiële verslaggeving** (accounting policy) is de **regel** zelf: 'we waarderen voorraden tegen FIFO', 'we schrijven gebouwen lineair af over 30 jaar'. Een **schatting** is een **getal** dat we binnen die regel moeten benaderen omdat het niet rechtstreeks waarneembaar is: 'wat is de opbrengstwaarde van die voorraad?', 'hoeveel resterende gebruiksduur?'. Het onderscheid is cruciaal want het bepaalt de verwerking bij wijziging: een **grondslagwijziging** wordt **retrospectief** verwerkt (alle vergelijkende cijfers herrekenen, IAS 8 §22), een **schattingswijziging** wordt **prospectief** verwerkt (alleen vanaf de wijziging, IAS 8 §36).",
+            "confidence": "grounded",
+            "source": "IAS 8 §32-38 (Verordening (EU) 2023/1803)",
+            "weergaven": []
+          }
+        ]
+      },
+      {
+        "titel": "Typische schattingen in de jaarrekening",
+        "elementen": [
+          {
+            "element_id": "typen-schattingen-voorbeelden",
+            "inhoud_type": "lijst",
+            "titel": "Twaalf klassieke schattingsposten",
+            "beschrijving": "ISA 540 (herzien) en IAS 8 noemen als terugkerende voorbeelden: (1) **voorziening voor verwachte kredietverliezen** op handelsvorderingen en kredieten (ECL, IFRS 9 / waardeverminderingen klanten in BE-GAAP); (2) **opbrengstwaarde van voorraden** (incourantheid, slow-movers); (3) **afschrijvingen** — gebruiksduur en restwaarde van materiële en immateriële vaste activa; (4) **bijzondere waardeverminderingen** op activa met lange levensduur (impairment-test); (5) **voorzieningen voor garantieverplichtingen**; (6) **voorzieningen voor lopende rechtszaken**; (7) **pensioenverplichtingen** (actuariële assumpties); (8) **op aandelen gebaseerde betalingen**; (9) **reële waarde van financiële instrumenten** (niveau 2-3 IFRS 13); (10) **goodwill en immateriële activa** verworven in bedrijfscombinaties (PPA); (11) **verzekeringscontract-verplichtingen** (IFRS 17 — scenario's en kasstroom-kansen); (12) **uitgestelde belastingvorderingen** (recoverability-toets).",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien) A1 + IAS 8 §32",
+            "weergaven": []
+          },
+          {
+            "element_id": "voorzieningen-beste-schatting",
+            "inhoud_type": "regel",
+            "titel": "Voorziening = beste schatting (BE-GAAP)",
+            "beschrijving": "Onder BE-GAAP bepaalt artikel 50 van het KB van 30 januari 2001 (omgezet via WVV-KB): **'een voorziening op balansdatum vertegenwoordigt de beste schatting van de kosten die als waarschijnlijk worden beschouwd of, in geval van een verplichting, de beste schatting van het bedrag dat vereist is om die verplichting op de balansdatum na te komen'**. Dit is de Belgische omzetting van art. 12 Richtlijn 2013/34, inhoudelijk consistent met IAS 37.36. CBN-advies 2018/25 voegt toe: de schatting moet **omzichtig en te goeder trouw** plaatsvinden, gebaseerd op oordeelsvorming door het bestuur, op de meest recente betrouwbare informatie, en eventueel aangevuld met externe expert-rapporten. Gebeurtenissen na balansdatum die licht werpen op de toestand op balansdatum moeten in de schatting worden meegenomen.",
+            "confidence": "grounded",
+            "source": "KB 30 januari 2001 art. 50; CBN-advies 2018/25 — Bedrag; IAS 37.36"
+          }
+        ]
+      },
+      {
+        "titel": "Schattingsonzekerheid en disclosure",
+        "elementen": [
+          {
+            "element_id": "schattingsonzekerheid",
+            "inhoud_type": "kerngedachte",
+            "titel": "Onzekerheid is geen excuus — wel een toelichtingsplicht",
+            "beschrijving": "Niet de **omvang** van het geboekte bedrag bepaalt het risico op afwijking, maar de **breedte van het interval van redelijkerwijs mogelijke uitkomsten**. ISA 540 noemt dit het **interval van redelijkerwijs mogelijke waarderingsresultaten**. Hoe groter dat interval, hoe hoger het inherent risico (combinatie van schattingsonzekerheid, subjectiviteit en complexiteit). Wanneer de onzekerheid significant is, eist het toepasselijke verslaggevingsstelsel **expliciete toelichting** over de aard van de schatting, de gebruikte assumpties, de gevoeligheid voor wijzigingen en de bron van de gegevens. Een schatting zonder adequate toelichting is een misleidende schatting — ook al is het cijfer 'redelijk'.",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien), par. A73-A75; IAS 1.125-129 (analoog)",
+            "weergaven": []
+          },
+          {
+            "element_id": "gebeurtenissen-na-balansdatum",
+            "inhoud_type": "regel",
+            "titel": "Events after the balance sheet date verfijnen de schatting",
+            "beschrijving": "Bij het maken én bij het auditen van een schatting moeten gebeurtenissen na balansdatum die **licht werpen op de toestand op balansdatum** worden meegenomen — bijvoorbeeld: een rechterlijke uitspraak in januari die de uitkomst van een hangend geschil bevestigt, een faillissement van een klant kort na jaarafsluiting dat aantoont dat de vordering oninbaar was, een verkoopprijs gerealiseerd na balansdatum die de incourantheid van voorraad bevestigt. Gebeurtenissen die nieuwe omstandigheden creëren (bv. brand na 31/12) raken de schatting van het oude jaar niet — die horen onder toelichtende post-balance-sheet events.",
+            "confidence": "grounded",
+            "source": "CBN-advies 2018/25 — Bedrag; ISA 560 / ISA 540 'Events'-aanpak"
+          }
+        ]
+      },
+      {
+        "titel": "Schattingswijziging — prospectief verwerken",
+        "elementen": [
+          {
+            "element_id": "wijziging-schatting-prospectief",
+            "inhoud_type": "regel",
+            "titel": "Nieuwe informatie = nieuwe schatting, geen retrospectie",
+            "beschrijving": "Een schattingswijziging is het gevolg van **nieuwe informatie of nieuwe ontwikkelingen** — niet van een correctie van een fout. Voorbeelden: gebruiksduur van een machine verlengen omdat onderhoudshistoriek dat rechtvaardigt; afschrijvingspercentage van dubieuze vorderingen verhogen omdat de inningsstatistiek verslechtert. Verwerking: **prospectief** — alleen in de periode van de wijziging en eventueel toekomstige perioden. Vergelijkende cijfers worden **niet** herrekend (IAS 8 §36). Belangrijk in de toelichting vermelden indien materieel (IAS 8 §39). Een wijziging die in werkelijkheid een **correctie van een fout** is (foutieve verwerking eerder), moet wél **retrospectief** rechtgezet worden (IAS 8 §42).",
+            "confidence": "grounded",
+            "source": "IAS 8 §34-39",
+            "weergaven": []
+          }
+        ]
+      },
+      {
+        "titel": "Audit-aanpak — ISA 540 (herzien) in vier stappen",
+        "elementen": [
+          {
+            "element_id": "risico-inschatting-volgens-ISA-540-spectrum",
+            "inhoud_type": "kerngedachte",
+            "titel": "Stap 1 — inherent risico op een spectrum",
+            "beschrijving": "ISA 540 (herzien, 2018) plaatst elke schatting op een **spectrum van inherent risico**, gevormd door drie risicofactoren: **schattingsonzekerheid**, **subjectiviteit** en **complexiteit**. Een eenvoudige schatting van vakantiegeldverplichting voor een KMO zit aan de lage kant; een impairment-test op een acquisitie of een niveau-3-reële-waarde zit aan de hoge kant. De auditor beoordeelt waar elke schatting zit en plant de risico-respons in verhouding (proportionaliteit / schaalbaarheid, ISA 540 par. A20-A22).",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien), par. 2 + Bijlage — Inherente risicofactoren",
+            "weergaven": []
+          },
+          {
+            "element_id": "methode-assumpties-data",
+            "inhoud_type": "procedure",
+            "titel": "Stap 2 — methode, significante assumpties, data toetsen",
+            "beschrijving": "De auditor verkrijgt inzicht in en evalueert hoe het management de schatting maakt: (i) **methode** — past die bij het stelsel en bij de aard van de post? Bestendig toegepast?; (ii) **significante assumpties** — zijn ze redelijk in het licht van marktgegevens, historische data, sectorconsensus? Worden alternatieven overwogen?; (iii) **gegevens** — bron, geschiktheid, volledigheid, integriteit (inclusief IT-aspecten), consistentie met voorgaande perioden. Voor elke laag eist ISA 540 documentatie waarom de auditor de keuze redelijk acht.",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien), par. 13(h) + A44-A48",
+            "weergaven": []
+          },
+          {
+            "element_id": "drie-aanpakken-developing-an-estimate-testing-management-events-after",
+            "inhoud_type": "procedure",
+            "titel": "Stap 3 — drie aanpakken voor de risico-respons",
+            "beschrijving": "ISA 540 herzien biedt drie complementaire aanpakken die in combinatie ingezet worden, evenredig aan het ingeschatte risico: **(a) Testing how management made the estimate** — het schattingsproces van management nalopen, methode en data hertoetsen, sensitiviteit beoordelen; **(b) Developing an auditor's point estimate or range** — een eigen schatting of redelijk interval bouwen en de uitkomst van management daarmee vergelijken (afwijking buiten interval = bevinding); **(c) Events occurring up to the date of the auditor's report** — gebeurtenissen ná balansdatum gebruiken die de toestand op balansdatum verduidelijken (bv. inning vordering, gerechtelijke uitspraak, gerealiseerde verkoopprijs). Voor high-inherent-risk-schattingen (een Significant Risk) is een **stand-back** en aanvullende controle bovenop één enkele aanpak vaak nodig.",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien), par. 18 + A95-A132",
+            "weergaven": []
+          },
+          {
+            "element_id": "retrospective-review",
+            "inhoud_type": "procedure",
+            "titel": "Stap 4 — retrospective review",
+            "beschrijving": "Bij **risico-inschatting** moet de auditor een **retrospective review** uitvoeren: kijk hoe de schattingen van vorige perioden zijn uitgekomen — was de voorziening voor het rechtsgeding toereikend? Bleek de inschatting van de oninbaarheid kloppend? Systematische over- of onderschatting in één richting is een **indicator van management-bias** en moet bij de algehele evaluatie meewegen. De review beoogt het schattingsproces te begrijpen, niet de toenmalige schatting met kennis van nu te 'second-guessen' (ISA 540 par. 14 + A88-A94).",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien), par. 14 + A88-A94"
+          },
+          {
+            "element_id": "management-bias-en-fraude-link",
+            "inhoud_type": "kerngedachte",
+            "titel": "Bias-indicatoren overlappen met ISA 240",
+            "beschrijving": "Indicaties van **mogelijke tendentie bij het management** zijn een eigen aandachtspunt onder ISA 540 (par. 32(b), A133-A136) én een verplicht onderdeel van de fraude-respons onder ISA 240 (schattingen testen op management override). Voorbeelden: schattingen die jaar na jaar net binnen banking covenants vallen; late wijzigingen in schattingsmethoden zonder feitelijke aanleiding; selectief gebruik van assumpties (alleen die welke uitkomen). De auditor evalueert deze indicaties **cumulatief** — individueel kunnen ze onschuldig zijn, samen kunnen ze op een patroon wijzen.",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien), par. 32(b) + A133-A136; ISA 240, par. 32(c) — verplicht testen van schattingen op management override"
+          },
+          {
+            "element_id": "communicatie-toelichtingen-ISA-540",
+            "inhoud_type": "regel",
+            "titel": "Stap 5 — toelichting beoordelen + communiceren met governance",
+            "beschrijving": "De auditor moet beoordelen of de **toelichtingen** over schattingen en schattingsonzekerheid adequaat zijn binnen het verslaggevingsstelsel — niet alleen het cijfer toetsen. Aspecten van schattingen worden gecommuniceerd met de met governance belaste personen onder ISA 260 (herzien) par. 16(a): aard, materialiteit, gevoeligheid, range, eventuele bevindingen rond bias. Bij significante schattingsonzekerheid kan dit doorwerken in de **Key Audit Matters** van de controleverklaring (ISA 701).",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien), par. 31-33; ISA 260 (herzien) par. 16(a); ITAA KMO-controlenorm §114"
+          }
+        ]
+      },
+      {
+        "titel": "BE-GAAP versus IFRS — accent en discipline",
+        "elementen": [
+          {
+            "element_id": "begaap-vs-ifrs-schattingen",
+            "inhoud_type": "vergelijking",
+            "titel": "Voorzichtigheid centraal in BE-GAAP, fair value centraal in IFRS",
+            "beschrijving": "**BE-GAAP** vertrekt vanuit het voorzichtigheidsbeginsel (KB 30 januari 2001 / WVV-KB): historische kostprijs is de regel, herwaarderingen zijn uitzondering, schattingen leiden tot **voorzieningen** en **waardeverminderingen** zodra een verlies waarschijnlijk is. **IFRS** verlaat vaker historische kost voor **reële waarde** (IFRS 13) — financiële instrumenten, vastgoedbeleggingen, biologische activa, bedrijfscombinaties — waardoor het aandeel van schattingen op niveau 2 (waarneembare input) en niveau 3 (niet-waarneembare input) groter is en de schattingsonzekerheid prominenter. **IAS 8** legt expliciet de regel vast voor schattingswijzigingen (prospectief) versus grondslagwijzigingen en fouten (retrospectief) — een onderscheid dat ook onder BE-GAAP geldt maar minder gecodificeerd is. **IFRS 17** verzekeringscontracten en IFRS 9 ECL zijn extreme voorbeelden waar de hele waardering een schattingsoefening is met kansgewogen scenario's (probability-weighted expected cash flows).",
+            "confidence": "inferred",
+            "weergaven": []
+          }
+        ]
+      },
+      {
+        "titel": "Stress-test en range — instrument bij hoge onzekerheid",
+        "elementen": [
+          {
+            "element_id": "stress-test-en-range",
+            "inhoud_type": "procedure",
+            "titel": "Range bouwen om puntschatting te toetsen",
+            "beschrijving": "Voor schattingen met hoge inherente onzekerheid (impairment, geschillen, ECL): bouw een **auditor's range** met realistische ondergrens en bovengrens door significante assumpties één voor één naar plausibele alternatieven te schuiven (sensitiviteitsanalyse). Een **management point estimate** binnen het interval = redelijk; daarbuiten = bevinding die ofwel uitleg vraagt, ofwel een correctievoorstel. Voor zeer onzekere schattingen kan ISA 540 vragen om de toelichting in de jaarrekening expliciet te toetsen op communicatie van de **gevoeligheid** voor wijzigingen in assumpties (IAS 1.125-129 of NL-equivalent in toelichting).",
+            "confidence": "grounded",
+            "source": "ISA 540 (herzien), par. A111-A129"
+          }
+        ]
+      }
+    ]
+  },
+  "rol_van_de_accountant": {
+    "perspectieven": [
+      {
+        "actor": "KMO-handelsonderneming",
+        "emoji": "🏪",
+        "rollen": [
+          {
+            "rol": "boekhouder",
+            "emoji": "📋",
+            "taken": [
+              "Inventariswerk eindeboekjaar: schattingen per balansrubriek opbouwen (oninbare klanten, voorraadincourantheid, voorzieningen, restwaarden)",
+              "Waardeverminderingen op handelsvorderingen boeken op rekening 409 (geboekte waardeverminderingen) tegen 634 (waardeverminderingen op handelsvorderingen — kosten)",
+              "Voorziening voor risico's en kosten boeken op rekening 16x (voorzieningen) tegen 6353/6354 (toevoeging aan voorzieningen)",
+              "Afschrijvingstabel jaarlijks herzien: indicaties dat gebruiksduur of restwaarde wijzigt → prospectieve aanpassing (rekening 630)",
+              "Waarderingsregels in de toelichting bij de jaarrekening actualiseren en de schattingsmethoden documenteren",
+              "Voor elke materiële schatting een onderbouwingsdossier samenstellen (bron, methode, alternatieven, beslissing)"
+            ],
+            "elementen": [
+              {
+                "element_id": "voorzichtigheid-bij-twijfel",
+                "inhoud_type": "vuistregel",
+                "titel": "Bij twijfel = voorzichtige schatting",
+                "beschrijving": "Het voorzichtigheidsbeginsel (KB WVV / KB 30 januari 2001) vereist dat in onzekerheid voorzichtig wordt geraamd: latente verliezen boeken zodra ze waarschijnlijk zijn, latente winsten pas wanneer gerealiseerd. Concrete vertaling: als je tussen twee redelijke schattingen twijfelt, kies de schatting die de winst niet flatteert. Niet de laagste — wel de meest verdedigbare voor wie skeptisch leest.",
+                "confidence": "grounded",
+                "source": "KB 30 januari 2001 art. 32 (voorzichtigheid); CBN-advies 2018/25",
+                "weergaven": []
+              }
+            ]
+          },
+          {
+            "rol": "adviseur",
+            "emoji": "🎯",
+            "taken": [
+              "Bij vaststelling van waarderingsregels: schattingsmethoden documenteren en bestendig toepassen (permanentiebeginsel)",
+              "Eindeboekjaar-sparring met klant: lijst doorlopen van posten die schatting vragen + nieuwe ontwikkelingen die schattingen beïnvloeden (faillissement klant, gewijzigde marktwaarden, hangende geschillen)",
+              "Wijziging van schatting tijdig signaleren en correct verwerken — prospectief, niet retrospectief, en met toelichtingsverplichting indien materieel"
+            ],
+            "elementen": []
+          }
+        ]
+      },
+      {
+        "actor": "Grote of beursgenoteerde vennootschap (IFRS-context)",
+        "emoji": "🏛",
+        "rollen": [
+          {
+            "rol": "externe auditor",
+            "emoji": "🔍",
+            "taken": [
+              "Schattingen apart identificeren als risico-domein bij planning, met inschatting op het ISA 540-spectrum (onzekerheid × subjectiviteit × complexiteit)",
+              "Voor Significant Risks (impairment, level-3 fair value, ECL, IFRS 17): combinatie van methode-test + onafhankelijk gebouwde range + retrospective review",
+              "Specialisten inschakelen (waardeerders, actuarissen, juridisch expert) waar de schatting buiten kerncompetentie audit-team valt",
+              "Indicaties van management bias systematisch documenteren en cumulatief evalueren in de algehele afsluiting",
+              "Disclosure-adequaatheid in de toelichting kritisch beoordelen — sensitiviteits- en assumptie-vermelding, IAS 1.125-129",
+              "Schattingen-bevindingen communiceren met audit-comité (ISA 260 par. 16(a)) en KAM-overweging maken (ISA 701)"
+            ],
+            "elementen": [
+              {
+                "element_id": "isa-540-significant-risk-stand-back",
+                "inhoud_type": "procedure",
+                "titel": "Stand-back bij schattingen met significant risk",
+                "beschrijving": "Voor schattingen met hoge schattingsonzekerheid die als significant risk zijn aangemerkt, vereist ISA 540 dat de auditor een **stand-back** maakt: zijn de verkregen controle-informatie en de redelijkheid van de assumpties cumulatief voldoende? Volstaan toelichtingen in de jaarrekening om de onzekerheid en de gevoeligheid eerlijk over te brengen? Zo niet → modificatie van het oordeel overwegen, of additionele werkzaamheden uitvoeren. Documenteer expliciet hoe je tot je conclusie kwam over zowel het cijfer als de toelichting.",
+                "confidence": "grounded",
+                "source": "ISA 540 (herzien), par. 33-37 + A137-A144",
+                "weergaven": []
+              },
+              {
+                "element_id": "schriftelijke-bevestiging-schattingen",
+                "inhoud_type": "regel",
+                "titel": "Schriftelijke bevestiging van management over schattingen",
+                "beschrijving": "ISA 540 vereist dat de auditor schriftelijke bevestigingen van het management verkrijgt over de redelijkheid van de gemaakte significante assumpties bij schattingen — als onderdeel van de algemene management representations (ISA 580). Dit vervangt audit-werkzaamheden niet, maar bevestigt dat het management de verantwoordelijkheid voor de gemaakte schatting bewust opneemt.",
+                "confidence": "grounded",
+                "source": "ISA 540 (herzien), par. 37; ISA 580"
+              }
+            ]
+          },
+          {
+            "rol": "adviseur",
+            "emoji": "🎯",
+            "taken": [
+              "Bij complexe schattings-domeinen (impairment, PPA bij bedrijfscombinatie, IFRS 9 ECL, IFRS 17 model): waarderingsbeleid mee uitwerken vóór de balansdatum",
+              "Methode-keuze documenteren en consistent toepassen — wijziging beargumenteren met feitelijke aanleiding",
+              "Disclosure-templates voorbereiden die voldoen aan IAS 1.125-129 (significant judgements + estimation uncertainty)"
+            ],
+            "elementen": []
+          }
+        ]
+      },
+      {
+        "actor": "KMO — controle door commissaris of vrijwillige assurance",
+        "emoji": "🔎",
+        "rollen": [
+          {
+            "rol": "externe auditor",
+            "emoji": "🔍",
+            "taken": [
+              "Schaalbaarheid van ISA 540 toepassen: voor eenvoudige schattingen (vakantiegeld, kortlopende voorzieningen) volstaan beperkte werkzaamheden (ISA 540 par. A20-A22)",
+              "Voor materiële schattingen (geschillen, oninbare vorderingen, voorraad-incourantheid): minstens één van de drie aanpakken (testing management / point estimate / events after)",
+              "Retrospective review op de schattingen van vorige boekjaren — patronen van over- of onderschatting opsporen",
+              "Voldoende assurance verkrijgen over (a) redelijkheid van het bedrag én (b) adequaatheid van de toelichting (ITAA KMO-controlenorm §114)",
+              "Indien schattingen niet onderbouwbaar zijn → professioneel-kritische instelling activeren, méér evidence vragen, eventueel bevinding rapporteren"
+            ],
+            "elementen": [
+              {
+                "element_id": "itaa-kmo-controlenorm-schattingen",
+                "inhoud_type": "regel",
+                "titel": "ITAA KMO-controlenorm §114 — twee assurance-vragen",
+                "beschrijving": "De beroepsbeoefenaar moet voldoende en geschikte assurance-informatie verkrijgen over: **(1) of de in de financiële overzichten opgenomen of toegelichte boekhoudkundige schattingen redelijk zijn**; én **(2) of de daarop betrekking hebbende toelichtingen adequaat zijn**, binnen de context van het toepasselijke stelsel inzake financiële verslaggeving. Beide vragen krijgen een ja/nee-conclusie in het dossier.",
+                "confidence": "grounded",
+                "source": "ITAA KMO-controlenorm §114",
+                "weergaven": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "voorkennis_leespad": {
+    "voorvereisten": [
+      "boekhoudkundige-beginselen",
+      "jaarrekening",
+      "voorzichtigheidsbeginsel"
+    ],
+    "kader": [
+      "controleopdracht-cyclus",
+      "auditrisicomodel"
+    ],
+    "naast_relevant": [
+      "voorzieningen-voor-risicos-en-kosten",
+      "waardeverminderingen",
+      "afschrijvingen",
+      "fraude",
+      "schriftelijke-bevestiging-management",
+      "communicatie-met-governance"
+    ],
+    "volgkennis": [
+      "impairment-test",
+      "ifrs-13-fair-value",
+      "ifrs-9-ecl",
+      "key-audit-matters"
+    ]
+  },
+  "wat_dit_record_dekt": {
+    "competenties_chronologisch": [
+      "Schatting onderscheiden van grondslag en weten welk verwerkingsregime (prospectief vs retrospectief) van toepassing is",
+      "Typische schattingsposten in de jaarrekening herkennen (voorzieningen, waardeverminderingen, afschrijvingen, fair value)",
+      "Het voorzichtigheids- en specialiteitsbeginsel correct toepassen bij waarderingsschattingen onder BE-GAAP",
+      "Een voorziening bouwen volgens art. 50 KB en CBN-advies 2018/25 (beste schatting + omzichtig + meest recente informatie)",
+      "Een schattingswijziging correct prospectief verwerken en de noodzakelijke toelichting opnemen (IAS 8)",
+      "Het inherent-risico-spectrum van ISA 540 toepassen (schattingsonzekerheid × subjectiviteit × complexiteit)",
+      "De drie ISA 540-aanpakken (testing management / auditor point estimate of range / events after) gericht inzetten",
+      "Een retrospective review uitvoeren en gebruiken als bias-indicator",
+      "Management bias detecteren en cumulatief evalueren (overlap met ISA 240 management override)",
+      "Adequaatheid van toelichtingen over schattingen beoordelen onder BE-GAAP / IFRS",
+      "Significant risk schattingen onderscheiden en de stand-back van ISA 540 toepassen",
+      "Schriftelijke bevestiging van management over significante assumpties verkrijgen (ISA 540 + ISA 580)"
+    ],
+    "termen_alfabetisch": [
+      "Auditor's point estimate of range",
+      "Beste schatting",
+      "BE-GAAP",
+      "Boekhoudkundige schatting",
+      "Complexiteit",
+      "Developing an estimate",
+      "Disclosure schattingsonzekerheid",
+      "Events after the balance sheet date",
+      "Grondslag voor financiële verslaggeving",
+      "IAS 8",
+      "IFRS 13 reële waarde",
+      "Inherent risico — spectrum",
+      "ISA 540 (herzien)",
+      "ITAA KMO-controlenorm §114",
+      "Key Audit Matters (KAM)",
+      "Management bias / tendentie",
+      "Management override",
+      "Permanentiebeginsel",
+      "Prospectieve verwerking",
+      "Puntschatting (point estimate)",
+      "Range (interval van redelijkerwijs mogelijke uitkomsten)",
+      "Retrospective review",
+      "Retrospectieve verwerking",
+      "Schaalbaarheid ISA 540",
+      "Schattingsonzekerheid",
+      "Schattingswijziging",
+      "Significant risk",
+      "Specialiteitsbeginsel (matching)",
+      "Stand-back",
+      "Subjectiviteit",
+      "Testing how management made the estimate",
+      "Voorziening voor risico's en kosten",
+      "Voorzichtigheidsbeginsel",
+      "Waardeverminderingen",
+      "Wijziging van schatting"
+    ]
+  }
+}

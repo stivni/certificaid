@@ -2,158 +2,169 @@
 title: Faillissement
 tags:
 - concept
-- cluster
+- procedure
 - po-3-0
 linked_anchors:
-- 3.0.X
-- 3.0.X.A
 - 3.0.X.E
-- 3.0.X.F
 programmaonderdelen:
 - '3.0'
 confidence: grounded
-node_type: cluster
+node_type: procedure
 status: seed
-schema_version: '1.6'
+schema_version: '2.0'
 gegenereerd_uit: data/concepten/records/faillissement.json
 gegenereerd_op: '2026-05-21'
 ---
 # Faillissement ⚖️
 
-Faillissement is het sluitstuk van Boek XX WER: gereserveerd voor ondernemingen waarbij continuïteit niet meer realistisch is. De wetgever beoogt gelijke behandeling van schuldeisers en een geordende vereffening — geen straf maar een collectieve regeling. Voor de accountant is faillissement het moment van afsluiting van de boeken, indienen van schuldvorderingen en (voor een natuurlijke persoon-gefailleerde) begeleiden naar kwijtschelding.
-
 > [!summary] Korte inhoud
-> Insolventieprocedure waarbij de **insolventierechtbank** het vermogen van een onderneming die op duurzame wijze is opgehouden te betalen en wier krediet geschokt is, onder de bevoegdheid van een **curator** plaatst.
+> Faillissement is de collectieve insolventieprocedure waarbij het vermogen van een schuldenaar die op duurzame wijze heeft opgehouden te betalen en wiens krediet geschokt is, onder bevoegdheid van een curator wordt geplaatst om dat vermogen te beheren, te vereffenen en de opbrengs….
 
-> [!info] Behoort tot: [[insolventieprocedures-belgie]]
+Faillissement is de collectieve insolventieprocedure waarbij het vermogen van een schuldenaar die op duurzame wijze heeft opgehouden te betalen en wiens krediet geschokt is, onder bevoegdheid van een curator wordt geplaatst om dat vermogen te beheren, te vereffenen en de opbrengst onder de schuldeisers te verdelen.
 
-> [!info] Bestaat uit (6): [[curator-faillissement]] · [[kwijtschelding-natuurlijke-persoon-gefailleerde]] · [[rechter-commissaris-insolventie]] · [[rehabilitatie-gefailleerde]] · [[verdachte-periode-faillissement]] · [[voorwaarden-faillietverklaring]]
+_Bron: _
 
-Insolventieprocedure waarbij de **insolventierechtbank** het vermogen van een onderneming die op duurzame wijze is opgehouden te betalen en wier krediet geschokt is, onder de bevoegdheid van een **curator** plaatst. De curator beheert en vereffent dat vermogen en verdeelt de opbrengst onder de schuldeisers volgens hun rangorde. De faillissementsprocedure wordt geopend bij vonnis na aangifte van de schuldenaar zelf of op dagvaarding van een of meer schuldeisers, het openbaar ministerie, of een voorlopig bewindvoerder.
 
-_Bron: WER art. XX.98, XX.100_
 
+## Wat er economisch echt gebeurt 🔗
 
+Wanneer een onderneming structureel niet meer aan haar opeisbare schulden kan voldoen en geen nieuw krediet meer kan ophalen, neemt de samenleving het roer over: het bestuur verliest de zeggenschap over het vermogen en een rechtbank-gemandateerde curator gaat de onderneming geordend ontmantelen. Het doel is dubbel: (i) **gelijke behandeling van schuldeisers** — door één persoon (de curator) alle activa te laten innen en volgens een wettelijke rangregeling te verdelen wordt voorkomen dat de snelste of agressiefste schuldeiser alles meeneemt; (ii) **economisch herstel** — door de activiteit netjes te liquideren of (sinds 2023) via pre-pack stilzwijgend voor te bereiden, kunnen levensvatbare onderdelen worden overgedragen en kan de ondernemer (zo het een natuurlijke persoon is) na de procedure schuldenvrij opnieuw beginnen. Er ontstaat een **boedel**: alle activa van de gefailleerde worden samengetrokken, alle niet-vervallen schulden worden opeisbaar (art. XX.116), lopende contracten kunnen door de curator worden verdergezet of opgezegd, en de gefailleerde verliest het beheer maar blijft (als natuurlijke persoon) leven van wat de rechter-commissaris hem als levensonderhoud toekent (art. XX.141). Voor de schuldeisers verandert hun individuele vordering in een **vordering in de boedel** die ze moeten aangeven binnen 30 dagen na faillietverklaring (art. XX.104) en die pas wordt voldaan via uitdelingslijsten, in volgorde van rang.
 
-## Bouwstenen
 
-### Voorwaarden voor faillietverklaring 🔗
+## Voorkennis & leespad
 
-Twee cumulatieve voorwaarden: (1) **duurzame staking van betaling** — niet één onbetaalde factuur maar een structureel onvermogen om opeisbare schulden te voldoen — en (2) **geschokt krediet** — schuldeisers verlenen geen verdere termijnen. Beide moeten samen vervuld zijn.
+- **Lees eerst** (voorvereisten):
+  [[insolventierecht-wer-boek-xx]]
+  [[alarmbel]]
 
-**Waarom?** Voorkomen dat een tijdelijk liquiditeitsprobleem of een betwiste schuld al tot faillissement leidt.
+- **Past binnen kader**:
+  [[insolventierecht-wer-boek-xx]]
 
+- **Naast deze fiche relevant**:
+  [[gerechtelijke-reorganisatie]]
+  [[aansprakelijkheid-oprichters-bestuurders]]
 
+- **Bij vervolgvragen**:
+  [[rehabilitatie-en-beroepsverbod]]
 
 
-_Grondslag: WER art. XX.99 (impliciet in XX.100)_
+## Wanneer van toepassing
 
-### Aangifte versus dagvaarding ⚖️
 
-Het faillissement kan worden aangevraagd op **aangifte van de schuldenaar** zelf (verplicht binnen één maand na staking van betaling) óf op **dagvaarding** door één of meerdere schuldeisers, het openbaar ministerie of een voorlopig bewindvoerder. De insolventierechtbank kan haar beslissing 15 dagen opschorten om de schuldenaar toe te laten gerechtelijke reorganisatie aan te vragen.
+### Voor wie
 
-**Waarom?** Geeft de schuldenaar een laatste kans tot herstel en voorkomt dat schuldeisers via dagvaarding een onnodig faillissement uitlokken.
+Faillissement geldt voor elke **onderneming** in de zin van art. I.1 WER: zowel natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen, als rechtspersonen (vennootschappen, vzw's, stichtingen), en bepaalde organisaties zonder rechtspersoonlijkheid. Vrije beroepen (incl. accountants) vallen er sinds 2018 ook onder. Voor de accountant zit zijn cliënt ofwel in de positie van **gefailleerde** (debiteur die begeleid moet worden vóór/bij aangifte) of in de positie van **schuldeiser** (klant die een vordering moet aangeven en de impact moet boeken). 
 
 
+### Wanneer wel
 
+-  De schuldenaar heeft **op duurzame wijze opgehouden te betalen** (niet één enkele wanbetaling, maar structurele staking) — vereiste 1 (WER art. XX.99).
 
-_Grondslag: WER art. XX.100, XX.101_
+-  **Het krediet is geschokt**: leveranciers, banken en andere kredietgevers geven geen krediet meer of trekken het in — vereiste 2 (WER art. XX.99).
 
-### Organen van het faillissement ⚖️
+-  De schuldenaar **moet zelf aangifte doen binnen één maand** na het ophouden te betalen, via elektronische aangifte in het Centraal Register Solvabiliteit (WER art. XX.102).
 
-De insolventierechtbank benoemt in het vonnis van faillietverklaring één of meer **curatoren** (gerechtsmandatarissen op een lijst) en één of meer **rechters-commissarissen** (rechters van de insolventierechtbank, voorzitter uitgezonderd). De curatoren beheren actief, de rechter-commissaris houdt rechterlijk toezicht.
+-  Dagvaarding tot faillietverklaring kan ook door een schuldeiser, het openbaar ministerie, de voorlopig bewindvoerder of een buitenlandse curator (WER art. XX.100).
 
-**Waarom?** Scheiding tussen uitvoerende vereffening (curator) en rechterlijk toezicht (rechter-commissaris) borgt evenwicht tussen voortvarendheid en controle.
+-  Bij een lopende **besloten voorbereiding van het faillissement** (pre-pack, sinds 2023): als de schuldenaar binnen de termijn niets onderneemt, wordt het faillissement uitgesproken (WER art. XX.97/5).
 
 
+### Wanneer niet
 
-In het vonnis dat Verffabriek Veurne BV failliet verklaart, benoemt de insolventierechtbank Sofie Janssens als curator en wijst rechter X als rechter-commissaris aan.
+-  Niet bij tijdelijke betalingsmoeilijkheden zonder geschokt krediet — daar past eerder een minnelijke regeling of gerechtelijke reorganisatie (boek XX titel V).
 
-_Grondslag: WER art. XX.104_
+-  Niet zolang een verzoekschrift gerechtelijke reorganisatie hangende is — de aangifte-verplichting wordt dan opgeschort (WER art. XX.102).
 
-### Verloop: aangifte schuldvorderingen, vereffening, sluiting ⚖️
+-  De rechtbank kan haar beslissing 15 dagen opschorten om de schuldenaar toe te laten alsnog gerechtelijke reorganisatie te vragen of een overnemer een overdracht te laten voorbereiden (WER art. XX.101).
 
-Schuldeisers doen binnen 30 dagen aangifte van hun schuldvordering in het register. De curator stelt een eerste proces-verbaal van verificatie op (tussen 5 en 30 dagen na de aangifte-termijn). Vervolgens vereffent hij het vermogen (verkoop activa, inning vorderingen), doet uitdelingen onder rechterlijk toezicht, en vraagt na voltooiing de sluiting van het faillissement aan.
 
-**Waarom?** Strakke termijnen versnellen de afwikkeling en geven schuldeisers procedurele duidelijkheid.
+### Hoofdrisico
 
+**Te laat aangeven**: niet binnen één maand aangifte doen is een fout die kan leiden tot bestuurdersaansprakelijkheid voor kennelijk grove fout (art. XX.225) of weigering van kwijtschelding (XX.173 §3). Voor de accountant-adviseur is dit het kritieke tijdsvenster: het moment ophouden te betalen vaststellen, de cliënt op zijn aangifteplicht wijzen en, zo nodig, helpen de elektronische aangifte voor te bereiden. ⚖️
 
+### Hoofdvoordeel
 
+**Schone lei voor de natuurlijke persoon**: de gefailleerde natuurlijke persoon wordt bij sluiting van het faillissement bevrijd van zijn restschulden (kwijtschelding), behalve onderhoudsschulden en schulden uit lichamelijk letsel. Dit is een fundamentele bescherming die toelaat een nieuwe activiteit op te starten zonder de oude schulden mee te dragen. ⚖️
 
-_Grondslag: WER art. XX.104, XX.166, XX.170_
 
-### Onmiddellijke effecten op het vermogen ⚖️
+## Hoe het werkt
 
-Vanaf het vonnis verliest de gefailleerde de **beschikking** over zijn vermogen (buiten bezitstelling). Alle openstaande beslagen worden geschorst. Alle aan de gefailleerde verschuldigde geldsommen worden geïnd door de curator. De curator neemt onmiddellijk de boeken in beheer.
+Een faillissement loopt in een vast aantal fasen: (1) een **trigger** — ofwel aangifte door de schuldenaar, ofwel dagvaarding, ofwel een afgelopen pre-pack; (2) het **vonnis van faillietverklaring** dat de curator en de rechter-commissaris aanstelt en alle effecten meteen activeert; (3) een **bekendmakings- en aangifte-fase** waarin schuldeisers 30 dagen krijgen om hun vordering aan te geven; (4) **beheer en vereffening van de boedel** door de curator onder toezicht van de rechter-commissaris; (5) **schuldverificatie en uitdeling** volgens wettelijke rang; en (6) **sluiting** van het faillissement met, voor de natuurlijke persoon, kwijtschelding van restschulden. Daarnaast bestaat sinds 2023 de **besloten voorbereiding** (pre-pack): een stilzwijgende voorfase om een doorstart of nette afwikkeling te organiseren vóór de formele faillietverklaring.
 
-**Waarom?** Vermijdt dat de gefailleerde activa onttrekt of bepaalde schuldeisers bevoordeelt na de faillietverklaring.
+### Voorwaarden: opgehouden te betalen + geschokt krediet 🔗
 
+### Trigger: aangifte (1 maand-termijn) of dagvaarding 🔗
 
+### Vonnis van faillietverklaring 🔗
 
+### Besloten voorbereiding (pre-pack, sinds 1 september 2023) 🔗
 
-_Grondslag: WER art. XX.120, XX.132, XX.144, XX.147_
+### Gevolgen van de faillietverklaring 🔗
 
-### Sluiting en kwijtschelding (natuurlijke persoon) ⚖️
+### Beheer en vereffening van de boedel 🔗
 
-Na vereffening en uitdeling vraagt de curator de sluiting van het faillissement. Voor een **natuurlijke persoon-gefailleerde** kan op verzoek kwijtschelding van het saldo van de schulden worden uitgesproken — tenzij hij kennelijke grove fouten heeft begaan die tot het faillissement bijdroegen of bewust onjuiste inlichtingen heeft verstrekt. Rechtspersonen krijgen geen kwijtschelding maar worden ontbonden.
+### Schuldverificatie en uitdeling 🔗
 
-**Waarom?** Geeft de natuurlijke persoon een tweede kans (fresh start), terwijl rechtspersonen na vereffening hun bestaan beëindigen.
+### Sluiting en kwijtschelding 🔗
 
 
+## Rol van de accountant
 
+### 
 
-_Grondslag: WER art. XX.170, XX.171_
+#### adviseur
 
+##### Hoe het moment van staking van betaling vaststellen 🧭
 
-## In de praktijk
+Het moment 'opgehouden te betalen' is feitelijk en cumulatief: er is structurele wanbetaling (meerdere opeisbare schulden onbetaald) **én** er is geen reëel krediet meer beschikbaar. Werkindicatoren in de praktijk: openstaande sociale en fiscale schulden meerdere kwartalen, opzeg van kredietlijnen door de bank, leveranciers die uitsluitend nog op voorafbetaling werken, beslag door schuldeisers. Documenteer deze elementen schriftelijk — ze worden later door de curator gebruikt om de **tijdstip-staking** te bepalen (kan door de rechtbank tot maximum 6 maanden vóór de faillietverklaring worden teruggetrokken — relevant voor de verdachte periode en eventuele nietigverklaringen).
 
-<h3 id="verplicht-binnen-een-maand">Verplicht binnen één maand</h3>
+### 
 
-> [!tip]- Verplicht binnen één maand
-> Een schuldenaar die voldoet aan de voorwaarden van faillissement, moet zelf aangifte doen binnen één maand. Het bestuursorgaan van een vennootschap dat dit nalaat, riskeert persoonlijke aansprakelijkheid voor de bijkomende schulden die in die tussentijd ontstaan (voortzetting verlieslatende activiteit, art. XX.225/2:56 WVV). 🔗
+#### boekhouder
 
-<h3 id="voor-de-accountant">Voor de accountant</h3>
+##### BTW-recuperatie bij faillissement schuldenaar ⚠️
 
-> [!tip]- Voor de accountant
-> De accountant levert vaak de definitieve afsluitingsbalans tot de datum van faillissement, helpt de schuldvordering van de cliënt indienen in andere faillissementen, en assisteert de curator bij het in beheer nemen van de boeken. 🔗
+De BTW betaald aan de Staat over een verkoop aan een nadien failliet verklaarde klant kan worden teruggevraagd zodra de oninbaarheid vaststaat. Bij faillissement geldt het **vonnis van faillietverklaring zelf** als bewijs dat het verlies van de vordering vaststaat voor het chirografaire gedeelte — geen aparte beslissing van de curator vereist (administratieve interpretatie, art. 77 §1, 7° WBTW).
 
 
-## Valkuilen
 
-> [!warning]- Onderscheid duurzame staking van betaling van een tijdelijk liquiditeitsprobleem. Eén onbetaalde factuur of een betwiste schuld zijn geen voldoende grond.
-> ⚠️  🔗
 
+## Wat dit record dekt
 
-> [!warning]- Voor rechtspersonen volgt na sluiting altijd ontbinding — geen kwijtschelding van het schuldensaldo.
-> ⚠️  🔗
+### Behandelde competenties (chronologisch)
 
+1. Vaststellen of een onderneming voldoet aan de twee voorwaarden voor faillissement (duurzaam opgehouden te betalen + geschokt krediet)
+2. Cliënt-debiteur begeleiden bij de tijdige aangifte (één-maand-termijn) of bij de keuze voor besloten voorbereiding / gerechtelijke reorganisatie
+3. Boekhouding en stukken overdrachtsklaar maken voor de curator vanaf het vonnis van faillietverklaring
+4. Cliënt-schuldeiser begeleiden bij aangifte van schuldvordering binnen 30 dagen en bij waardevermindering / BTW-recuperatie
+5. Bestuurder informeren over zijn aansprakelijkheidsrisico's (kennelijk grove fout, beroepsverbod, weigering kwijtschelding)
 
+### Behandelde termen (alfabetisch)
 
-## Zie ook
+- Aangifte van staking van betaling
+- Beheer en vereffening van de boedel
+- Beroepsverbod
+- Besloten voorbereiding van het faillissement (pre-pack)
+- Bevoorrechte versus chirografaire schuldeisers
+- Boedel
+- Buitenbezitstelling
+- Centraal Register Solvabiliteit (RegSol)
+- Curator
+- Dagvaarding tot faillietverklaring
+- Gefailleerde
+- Geschokt krediet
+- Kennelijk grove fout
+- Kwijtschelding van restschulden
+- Memorie van de curator
+- Ondernemingsrechtbank / insolventierechtbank
+- Opgehouden te betalen
+- Proces-verbaal van verificatie
+- Rechter-commissaris
+- Schuldvordering in de boedel
+- Sluiting van het faillissement
+- Tijdstip van staking van betaling
+- Uitdelingslijst
+- Verbodsbepalingen
+- Vonnis van faillietverklaring
 
-- **Getriggerd door**: [[voorwaarden-faillietverklaring]]
-- **Vereist kennis van**: [[beroepsverbod-na-insolventie]]
-- **Vereist kennis van**: [[rehabilitatie-gefailleerde]]
-- **Wordt voorondersteld in** (1): [[exit-routes-onderneming-overzicht]]- **Triggert** (2): [[beroepsverbod-na-insolventie]] · [[besloten-voorbereiding-faillissement]]
-## Voorbeelden
 
-### Faillissement Verffabriek Veurne BV
-
-_Personages: Verffabriek Veurne BV_
-
-Verffabriek Veurne BV heeft 8 maanden geen RSZ betaald en zijn bank weigert verder krediet. Het bestuur dient zelf aangifte van faillissement in. De insolventierechtbank verklaart de BV failliet op 15 maart, benoemt Sofie Janssens als curator en rechter D als rechter-commissaris. Schuldeisers krijgen tot 14 april om aangifte van hun schuldvordering te doen. De curator verkoopt het bedrijfspand en de voorraad, int de openstaande klantenvorderingen en doet uitdelingen volgens rangorde (RSZ en btw als voorrecht). Na 18 maanden vraagt de curator de sluiting; aangezien het een rechtspersoon is, wordt Verffabriek Veurne BV ontbonden.
-
-
-## Bronnen
-
-[^1]: `WER__art_XX_132`
-[^2]: `WER__art_XX_133`
-[^3]: `WER__art_XX_190`
-[^4]: `WER__art_XX_134`
-[^5]: `WER__art_XX_136`
-[^6]: `WER__art_XX_186`
-[^7]: `WER__art_XX_189`
-[^8]: `WER__art_XX_149`
-[^9]: `WER__art_XX_158`
-[^10]: `WER__art_XX_167`
-[^11]: `WER__art_XX_170`
