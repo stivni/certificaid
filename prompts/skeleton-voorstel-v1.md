@@ -32,13 +32,21 @@ Na wave-approval worden orphan v1.x-records (geen 2.0-doel) gedeleted via record
 
 ## 3. Tools (MCP `certificaid-rag`)
 
-Bevragen gebeurt **on-demand** via vijf MCP-tools, niet via vooraf-gebundelde initial-ctx:
+Bevragen gebeurt **on-demand** via MCP-tools, niet via vooraf-gebundelde initial-ctx:
 
+**Bronnen + bestaande records**:
 - `lees_anchor_bundle(po_id)` — TDKs voor het programmaonderdeel
 - `zoek_bronnen(query, top_k, bron_rollen, rerank=false)` — bronnen-RAG. **Houd `rerank=false`** (default) — skeleton-voorstel is exploratie, geen precisie-claim-fase. Rerank kost ~30 CPU-forward-passes per call.
 - `zoek_concepten(query, top_k)` — bestaande v1.x-records (alleen voor de zoekruimte-stap E)
-- `lees_record(record_id)` — volledige JSON van een bestaand record (alleen indien echt nodig om een concept-gap-signaal te begrijpen)
+- `lees_record(record_id)` — volledige JSON van een bestaand record (alleen indien echt nodig)
 - `check_record_bestaat(record_id)` — naam-collision-detectie
+
+**Gedeelde candidates-DB** (voor dedup-op-write met andere skeleton-passes die parallel of eerder liepen):
+- `zoek_kandidaten(query, top_k, min_similarity)` — embedding-similarity over candidates-DB. **Gebruik vóór elk `voorstel_kandidaat`** om te zien of een andere PO al iets vergelijkbaars heeft voorgesteld.
+- `lees_kandidaat(fiche_id)` — volledige kandidaat-record met aanvullings_log
+- `voorstel_kandidaat(fiche_id, kind, primary_po, voorgesteld_door_po, motivatie, ...)` — insert-or-merge. Bij bestaande id: append anchors/edges/hints + voeg deze PO toe aan voorgesteld_door_pos
+- `aanvul_kandidaat(fiche_id, po_id, veld, waarde)` — partiële update voor enkele aanvulling (anchor · tdk · edge · dependency · hint · rol · verwacht_onderdeel)
+- `lijst_kandidaten(po_id, kind, cross_po_only)` — overzicht
 
 ---
 
@@ -75,15 +83,42 @@ Je krijgt voor één programmaonderdeel (bv. `1.1`):
 2. Bevraag bronnen-RAG voor sleutel-bronnen op het terrein
 3. Lees alle non-deprecated referentie-mockups in `content/experiment/`
 
-### Stap B — Concept-identificatie (de output)
+### Stap B — Concept-identificatie + DB-write (per fiche)
 
-Antwoord op de vraag: **welke 2.0-fiches moeten bestaan voor een stagiair-GA die dit programmaonderdeel bestrijkt?**
+Antwoord top-down op de vraag: **welke 2.0-fiches moeten bestaan voor een stagiair-GA die dit programmaonderdeel bestrijkt?**
 
-Per fiche:
-- **Naam** (voorgesteld 2.0-fiche-id)
-- **Kind** (`instrument` · `operatie` · `procedure` · `regime`/`fiscale-regeling` · `ratio` · `kader` · `familie` · `begripscluster`)
-- **Korte motivatie** (1-2 zinnen)
-- **Verwante TDK(s)** die het dekt
+**Voor elke geïdentificeerde fiche, volg deze flow** — niet in batch maar fiche-per-fiche, want het signaal "is er al iets vergelijkbaars" beïnvloedt latere keuzes:
+
+```
+1. zoek_kandidaten(naam + korte motivatie, top_k=5)
+2. Bekijk top-3 hits:
+   - score > 0.85 én exact zelfde concept (andere PO heeft het al voorgesteld):
+        → aanvul_kandidaat(fiche_id, po_id=jouwPO, veld='anchor', waarde=jouwAnchor)
+        → aanvul_kandidaat met TDKs uit jouw PO
+        → Schrijf in jouw markdown-rapport: "hergebruikt uit PO X"
+        → KLAAR met deze fiche
+   - score 0.60-0.85 (mogelijk variant, niet identiek):
+        → lees_kandidaat(top_hit_id) om volledige rationale te zien
+        → Beslis: extend (zelfde concept) OF voorstel met edge 'gerelateerd' / 'verward_met'
+   - score < 0.60 of geen hits:
+        → voorstel_kandidaat met volledige metadata (zie hieronder)
+```
+
+Per `voorstel_kandidaat`:
+- **fiche_id**: slug zoals 'obligatielening' · 'inkoop-eigen-aandelen' (zonder NV/BV-suffix tenzij echt nodig)
+- **kind**: `instrument` · `operatie` · `procedure` · `regime`/`fiscale-regeling` · `ratio` · `kader` · `familie` · `begripscluster` · `balanspost` (open tag-set)
+- **primary_po**: PO waar het fiche primair thuishoort (kan jouw eigen PO zijn of anders bij cross-PO)
+- **voorgesteld_door_po**: jouw eigen PO
+- **motivatie**: 1-2 zinnen
+- **linked_anchors**: jouw PO-anchors die hieraan raken
+- **dekt_tdks**: TDK-ids die deze fiche dekt
+- **cross_po**: true als je weet dat andere PO's ook raken
+- **verwachte_onderdelen**: lijst van te-extracten onderdelen
+- **edges_voorgesteld**: bv. `{"lid_van": ["lange-termijn-financiering"], "beïnvloed_door": ["ebitda-regel"]}`
+- **depends_on_fiches**: andere 2.0-fiches die eerst moeten bestaan (kaders typisch)
+- **v1_hints**: bestaande v1.x-record-ids als content-inspiratie voor extract-agents
+- **rol_perspectieven**: lijst klant-perspectieven die relevant zijn
+- **rationale**: waarom dit fiche specifiek vanuit jouw PO wordt voorgesteld
 
 ### Stap C — Familie/kader-detectie
 
@@ -120,11 +155,13 @@ Geen formele "mapping-tabel" produceren — alleen signalen per v1-record dat bl
 
 ---
 
-## 6. Output-formaat — DUAL (markdown + JSON)
+## 6. Output-formaat
 
-Schrijf **twee bestanden** met dezelfde timestamp:
+**De gedeelde candidates-DB is de bron van waarheid** — alle structurele data
+zit daar (`data/extractie/candidates.sqlite3`). De skeleton-pass schrijft
+daarnaast één markdown-rapport voor mens-overzicht per PO.
 
-### Bestand 1 — Markdown (voor mens-review)
+### Bestand — Markdown (voor mens-review)
 
 Pad: `data/extractie/<PO>/skeleton-voorstel-<timestamp>.md`
 
@@ -243,57 +280,22 @@ Geen formele mapping-verplichting — alleen signalen voor wave-agents.
 
 ---
 
-### Bestand 2 — JSON (voor consolidatie-pass + wave-planning)
-
-Pad: `data/extractie/<PO>/skeleton-voorstel-<timestamp>.json`
-
-Schema:
-
-```json
-{
-  "po_id": "1.1",
-  "datum": "2026-05-21T...",
-  "fiches": [
-    {
-      "fiche_id": "obligatielening",
-      "kind": "instrument",
-      "primary_po": "1.1",
-      "linked_anchors_voorgesteld": ["1.1.II.V", "1.1.II.J", "1.4.III.B"],
-      "dekt_tdks": ["1.1.II.V"],
-      "cross_po": true,
-      "motivatie_kort": "Lange-termijn-schuldfinanciering...",
-      "verwachte_onderdelen": ["nominaal-coupon-looptijd", "uitgiftekosten", "agio-disagio", "prorata", "vervaldag"],
-      "edges_voorgesteld": {
-        "lid_van": ["lange-termijn-financiering"],
-        "is_uitzondering_op": [],
-        "beïnvloed_door": ["ebitda-regel-198-1"],
-        "verward_met": ["DBI"]
-      },
-      "depends_on_fiches": ["lange-termijn-financiering"],
-      "v1_hints": ["obligatielening", "prorata-intrest-schulden", "boeken-uitgifte-en-aflossing-obligatielening"],
-      "geschatte_lengte": "groot",
-      "rol_perspectieven_voorgesteld": ["vennootschap-uitgever", "belegger-np", "belegger-venn", "auditor"]
-    }
-  ],
-  "open_vragen": [...],
-  "tdk_dekking_status": {...}
-}
-```
-
-Reden: globale wave-planning-script kan uit alle 19 PO-JSONs een dependency-graph + dedup-pass maken. Markdown is voor mens; JSON voor machine.
-
 ---
 
 ## 8. Stappen
 
-1. Lees alle TDKs voor het programmaonderdeel uit `data/programma/anchors.json`
-2. Bevraag bronnen-RAG voor sleutel-bronnen op het terrein (sample-chunks van wetteksten/KB/CBN/normen)
+1. Lees alle TDKs voor het programmaonderdeel uit `data/programma/anchors.json` via `lees_anchor_bundle`
+2. Bevraag bronnen-RAG voor sleutel-bronnen op het terrein (`zoek_bronnen` met `rerank=false`)
 3. Lees ALLE non-deprecated referentie-mockups in `content/experiment/` voor kind-patronen
-4. **Top-down concept-identificatie** (stap B): welke 2.0-fiches moeten bestaan?
-5. Familie/kader-detectie (stap C) — let op NV/BV-pair-trap
-6. TDK-dekking-check (stap D)
-7. **Extra zoekruimte via concept-RAG** (stap E): vergelijk je top-down-resultaat met bestaande v1.x-records → echte gap / wordt onderdeel / vervalt
-8. Schrijf **markdown-rapport én JSON-bestand** in formaten §6
-9. Log "open vragen" prominent voor mens-review
+4. **Top-down concept-identificatie + DB-write per fiche** (stap B):
+   - Voor elke geïdentificeerde fiche: eerst `zoek_kandidaten` om te zien wat andere PO-passes al hebben → dan `aanvul_kandidaat` (extend bestaand) OF `voorstel_kandidaat` (nieuw)
+5. Familie/kader-detectie (stap C) — let op NV/BV-pair-trap; voeg edges toe via `aanvul_kandidaat` of in initiële voorstel
+6. TDK-dekking-check (stap D) — bevraag `lijst_kandidaten(po_id=jouwPO)` voor eindcheck
+7. **Extra zoekruimte via concept-RAG** (stap E): bevraag bestaande v1.x-records voor gaps die jouw top-down miste
+8. Schrijf markdown-rapport in formaat §6 met:
+   - Welke fiches je hebt voorgesteld (nieuw vs aanvulling)
+   - Open vragen voor mens-review
+   - TDK-dekking-status
+9. **Geen JSON-output meer** — de candidates-DB is bron van waarheid.
 
-Output: twee bestanden (markdown + JSON). Geen wijzigingen aan records of RAG.
+Output: één markdown-rapport voor mens-review + DB-mutaties. Geen wijzigingen aan records of RAG.

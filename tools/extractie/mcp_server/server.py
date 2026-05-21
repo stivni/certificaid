@@ -56,6 +56,7 @@ from tools.lib.retrieval import (  # noqa: E402
     retrieve_and_rerank,
     _retrieve_candidates,
 )
+from tools.extractie import candidates_db  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
@@ -233,6 +234,119 @@ def _check_record_bestaat(record_id: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Skeleton-candidates DB tool-implementaties (ADR-025 §wave-planning)
+# ---------------------------------------------------------------------------
+
+def _embed_text(text: str) -> list[float]:
+    """Genereer bge-m3-embedding voor een string via de retrieval-stack."""
+    _, ef, _ = _get_retrieval_stack()
+    emb = ef([text])[0]
+    if hasattr(emb, "tolist"):
+        return emb.tolist()
+    return list(emb)
+
+
+def _zoek_kandidaten(query: str, top_k: int = 10, min_similarity: float = 0.0) -> str:
+    """Embedding-similarity-search over de candidates-DB."""
+    emb = _embed_text(query)
+    hits = candidates_db.zoek_kandidaten(emb, top_k=top_k, min_similarity=min_similarity)
+    # Compacte representatie — geen volledige aanvullings_log etc.
+    compact = []
+    for h in hits:
+        compact.append({
+            "fiche_id": h["fiche_id"],
+            "kind": h["kind"],
+            "primary_po": h["primary_po"],
+            "similarity_score": round(h["similarity_score"], 4),
+            "motivatie": h["motivatie"][:300],
+            "voorgesteld_door_pos": h["voorgesteld_door_pos"],
+            "cross_po": h["cross_po"],
+            "dekt_tdks": h["dekt_tdks"],
+        })
+    return json.dumps(compact, indent=2, ensure_ascii=False)
+
+
+def _lees_kandidaat(fiche_id: str) -> str:
+    """Volledige kandidaat-record."""
+    result = candidates_db.lees_kandidaat(fiche_id)
+    if result is None:
+        return json.dumps({"error": f"Kandidaat niet gevonden: {fiche_id}"})
+    return json.dumps(result, indent=2, ensure_ascii=False)
+
+
+def _voorstel_kandidaat(
+    fiche_id: str,
+    kind: str,
+    primary_po: str,
+    voorgesteld_door_po: str,
+    motivatie: str = "",
+    linked_anchors: list[str] | None = None,
+    dekt_tdks: list[str] | None = None,
+    cross_po: bool = False,
+    verwachte_onderdelen: list[str] | None = None,
+    edges_voorgesteld: dict | None = None,
+    depends_on_fiches: list[str] | None = None,
+    v1_hints: list[str] | None = None,
+    rol_perspectieven: list[str] | None = None,
+    rationale: str = "",
+    skip_embedding: bool = False,
+) -> str:
+    """Insert-or-merge een kandidaat. Embedding wordt automatisch berekend uit fiche_id + motivatie."""
+    embedding = None
+    if not skip_embedding:
+        text = f"{fiche_id}. {motivatie}".strip(". ")
+        if text:
+            embedding = _embed_text(text)
+    result = candidates_db.voorstel_kandidaat(
+        fiche_id=fiche_id,
+        kind=kind,
+        primary_po=primary_po,
+        voorgesteld_door_po=voorgesteld_door_po,
+        linked_anchors=linked_anchors,
+        dekt_tdks=dekt_tdks,
+        cross_po=cross_po,
+        motivatie=motivatie,
+        verwachte_onderdelen=verwachte_onderdelen,
+        edges_voorgesteld=edges_voorgesteld,
+        depends_on_fiches=depends_on_fiches,
+        v1_hints=v1_hints,
+        rol_perspectieven=rol_perspectieven,
+        embedding=embedding,
+        rationale=rationale,
+    )
+    return json.dumps(result, indent=2, ensure_ascii=False)
+
+
+def _aanvul_kandidaat(fiche_id: str, po_id: str, veld: str, waarde, rationale: str = "") -> str:
+    """Partiële update van bestaande kandidaat (anchor, tdk, edge, dependency, hint, rol, verwacht_onderdeel)."""
+    result = candidates_db.aanvul_kandidaat(
+        fiche_id=fiche_id, po_id=po_id, veld=veld, waarde=waarde, rationale=rationale
+    )
+    return json.dumps(result, indent=2, ensure_ascii=False)
+
+
+def _lijst_kandidaten(po_id: str | None = None, kind: str | None = None, cross_po_only: bool = False) -> str:
+    """Filter-view over de candidates-DB."""
+    cands = candidates_db.lijst_kandidaten(po_id=po_id, kind=kind, cross_po_only=cross_po_only)
+    # Compacte representatie
+    compact = []
+    for c in cands:
+        compact.append({
+            "fiche_id": c["fiche_id"],
+            "kind": c["kind"],
+            "primary_po": c["primary_po"],
+            "voorgesteld_door_pos": c["voorgesteld_door_pos"],
+            "cross_po": c["cross_po"],
+            "dekt_tdks": c["dekt_tdks"],
+        })
+    return json.dumps({
+        "totaal": len(compact),
+        "kandidaten": compact,
+        "filter": {"po_id": po_id, "kind": kind, "cross_po_only": cross_po_only},
+    }, indent=2, ensure_ascii=False)
+
+
+# ---------------------------------------------------------------------------
 # MCP-server setup
 # ---------------------------------------------------------------------------
 
@@ -359,6 +473,97 @@ async def list_tools() -> list[Tool]:
                 "required": ["record_id"],
             },
         ),
+        # ---- Skeleton-candidates DB (ADR-025 §wave-planning) ----
+        Tool(
+            name="zoek_kandidaten",
+            description=(
+                "Embedding-similarity-search over de gedeelde skeleton-candidates-DB. "
+                "Gebruik VOORDAT je voorstel_kandidaat aanroept om te zien of een "
+                "vergelijkbare fiche al door een andere PO-skeleton-pass is voorgesteld. "
+                "Bij score > 0.85: overweeg aanvul_kandidaat i.p.v. nieuw voorstel."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "Naam + korte motivatie van de kandidaat, bv. 'obligatielening lange-termijn schuldfinanciering'",
+                    },
+                    "top_k": {"type": "integer", "default": 10},
+                    "min_similarity": {"type": "number", "default": 0.0},
+                },
+                "required": ["query"],
+            },
+        ),
+        Tool(
+            name="lees_kandidaat",
+            description="Lees volledige kandidaat-record (inclusief aanvullings_log en rationale_per_po).",
+            inputSchema={
+                "type": "object",
+                "properties": {"fiche_id": {"type": "string"}},
+                "required": ["fiche_id"],
+            },
+        ),
+        Tool(
+            name="voorstel_kandidaat",
+            description=(
+                "Insert-or-merge een 2.0-fiche-kandidaat in de gedeelde DB. "
+                "Bij bestaand fiche_id wordt gemerged (anchors/tdks/edges/hints union; "
+                "voorgesteld_door_pos append; cross_po=true bij 2+ PO's). "
+                "Embedding wordt automatisch berekend uit fiche_id + motivatie via bge-m3."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "fiche_id": {"type": "string", "description": "Slug, bv. 'obligatielening'"},
+                    "kind": {"type": "string", "description": "instrument · operatie · procedure · regime · ratio · kader · familie · begripscluster · balanspost"},
+                    "primary_po": {"type": "string", "description": "PO waar dit fiche primair thuishoort, bv. '1.1'"},
+                    "voorgesteld_door_po": {"type": "string", "description": "PO van de huidige skeleton-pass"},
+                    "motivatie": {"type": "string"},
+                    "linked_anchors": {"type": "array", "items": {"type": "string"}},
+                    "dekt_tdks": {"type": "array", "items": {"type": "string"}},
+                    "cross_po": {"type": "boolean", "default": False},
+                    "verwachte_onderdelen": {"type": "array", "items": {"type": "string"}},
+                    "edges_voorgesteld": {"type": "object", "description": "{'lid_van': [...], 'beïnvloed_door': [...]}"},
+                    "depends_on_fiches": {"type": "array", "items": {"type": "string"}},
+                    "v1_hints": {"type": "array", "items": {"type": "string"}, "description": "v1.x-record-ids als content-inspiratie voor extract-agents"},
+                    "rol_perspectieven": {"type": "array", "items": {"type": "string"}},
+                    "rationale": {"type": "string", "description": "Waarom dit fiche vanuit deze PO wordt voorgesteld"},
+                },
+                "required": ["fiche_id", "kind", "primary_po", "voorgesteld_door_po", "motivatie"],
+            },
+        ),
+        Tool(
+            name="aanvul_kandidaat",
+            description=(
+                "Partiële update van een bestaande kandidaat. Append-only logging. "
+                "Veld kan zijn: 'anchor' · 'tdk' · 'dependency' · 'hint' · 'rol' · 'verwacht_onderdeel' (waarde = string) "
+                "of 'edge' (waarde = {'edge_type': 'doel_fiche_id'})."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "fiche_id": {"type": "string"},
+                    "po_id": {"type": "string"},
+                    "veld": {"type": "string", "enum": ["anchor", "tdk", "edge", "dependency", "hint", "rol", "verwacht_onderdeel"]},
+                    "waarde": {"description": "string of object afhankelijk van veld"},
+                    "rationale": {"type": "string"},
+                },
+                "required": ["fiche_id", "po_id", "veld", "waarde"],
+            },
+        ),
+        Tool(
+            name="lijst_kandidaten",
+            description="Filter-view over de candidates-DB (compacte representatie zonder logs).",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "po_id": {"type": "string"},
+                    "kind": {"type": "string"},
+                    "cross_po_only": {"type": "boolean", "default": False},
+                },
+            },
+        ),
     ]
 
 
@@ -384,6 +589,45 @@ async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
             result = _lees_anchor_bundle(po_id=arguments["po_id"])
         elif name == "check_record_bestaat":
             result = _check_record_bestaat(record_id=arguments["record_id"])
+        elif name == "zoek_kandidaten":
+            result = _zoek_kandidaten(
+                query=arguments["query"],
+                top_k=arguments.get("top_k", 10),
+                min_similarity=arguments.get("min_similarity", 0.0),
+            )
+        elif name == "lees_kandidaat":
+            result = _lees_kandidaat(fiche_id=arguments["fiche_id"])
+        elif name == "voorstel_kandidaat":
+            result = _voorstel_kandidaat(
+                fiche_id=arguments["fiche_id"],
+                kind=arguments["kind"],
+                primary_po=arguments["primary_po"],
+                voorgesteld_door_po=arguments["voorgesteld_door_po"],
+                motivatie=arguments.get("motivatie", ""),
+                linked_anchors=arguments.get("linked_anchors"),
+                dekt_tdks=arguments.get("dekt_tdks"),
+                cross_po=arguments.get("cross_po", False),
+                verwachte_onderdelen=arguments.get("verwachte_onderdelen"),
+                edges_voorgesteld=arguments.get("edges_voorgesteld"),
+                depends_on_fiches=arguments.get("depends_on_fiches"),
+                v1_hints=arguments.get("v1_hints"),
+                rol_perspectieven=arguments.get("rol_perspectieven"),
+                rationale=arguments.get("rationale", ""),
+            )
+        elif name == "aanvul_kandidaat":
+            result = _aanvul_kandidaat(
+                fiche_id=arguments["fiche_id"],
+                po_id=arguments["po_id"],
+                veld=arguments["veld"],
+                waarde=arguments["waarde"],
+                rationale=arguments.get("rationale", ""),
+            )
+        elif name == "lijst_kandidaten":
+            result = _lijst_kandidaten(
+                po_id=arguments.get("po_id"),
+                kind=arguments.get("kind"),
+                cross_po_only=arguments.get("cross_po_only", False),
+            )
         else:
             result = json.dumps({"error": f"Onbekende tool: {name}"})
     except KeyError as e:
