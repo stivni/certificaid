@@ -1,0 +1,36 @@
+{#- Template voor één vraag-eenheid (H2 + onderwerp + themas + context + deelvragen + divider).
+   Aanpasbare secties zijn gemarkeerd met "PRUTS:" commentaar.
+
+   Variabelen:
+     vraag_id         — string (bv. "2024-1-vr1")
+     onderwerp        — string (mag leeg zijn)
+     themas_str       — pre-rendered tag-string (mag leeg zijn; separator + tag-syntax via _formatteer_themas())
+     context_md       — pre-rendered markdown-string (mag leeg zijn)
+     deelvragen_md    — list[str] pre-rendered markdown per deelvraag
+-#}
+{# PRUTS: H2-anchor — pas prefix of anchor-syntax aan naar wens #}
+## {{ vraag_id }}
+
+{# PRUTS: Onderwerp-style — huidig: bold. Alternatieven: italic, callout, gewoon tekst #}
+{% if onderwerp %}
+**{{ onderwerp }}**
+
+{% endif %}
+{# PRUTS: Themas — themas_str is pre-rendered door Python (separator + tag-syntax).
+   Separator wijzigen: pas _formatteer_themas() aan in render_merged_v4.py.
+   Tag-syntax (backticks, hashtags, ...): idem. #}
+{% if themas_str %}
+*Thema's*: {{ themas_str }}
+
+{% endif %}
+{# PRUTS: Context — huidig: direct als blok ingevoegd vóór deelvragen #}
+{% if context_md %}
+{{ context_md }}
+
+{% endif %}
+{# Deelvragen: volgorde en scheiding zijn aanpasbaar #}
+{% for deelvraag_md in deelvragen_md %}
+{{ deelvraag_md }}
+
+{% endfor %}
+---

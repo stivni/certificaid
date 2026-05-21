@@ -17,7 +17,8 @@ Schema 4.0 structuur per vraag:
       "segment_meta": { ... }
     }
 
-Geen Jinja, geen Claude API. Pure deterministisch, idempotent.
+Templates in tools/examen/templates/ (Jinja2).
+Deterministisch, idempotent.
 """
 from __future__ import annotations
 
@@ -27,9 +28,12 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
+from jinja2 import Environment, FileSystemLoader
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 MERGED_DIR = REPO_ROOT / "data" / "programma" / "examen_vragen" / "_merged"
 OUTPUT_DIR = REPO_ROOT / "content" / "voorbeeldexamens"
+TEMPLATES_DIR = Path(__file__).resolve().parent / "templates"
 
 _CONFIDENCE_ICOON: dict[str, str] = {
     "grounded": "⚖️",
@@ -357,50 +361,42 @@ def _render_antwoord_callout(
 # ---------------------------------------------------------------------------
 
 
-def _render_deelvraag(
+def _render_deelvraag_data(
     deelvraag: dict[str, Any],
     vraag_antwoord: dict[str, Any] | None,
+    env: Environment,
 ) -> str:
-    """Render één deelvraag (H3 + vraagstelling + mc-opties + antwoord-callout)."""
+    """Bereid deelvraag-data voor en delegeer naar _deelvraag.md.j2."""
     label = deelvraag.get("label_in_pdf") or deelvraag.get("id", "?")
     motivatie_verwacht = deelvraag.get("motivatie_verwacht", False)
     volledigheid = deelvraag.get("volledigheid", "volledig")
     vraagtype = deelvraag.get("vraagtype", "open")
+    vraagstelling = (deelvraag.get("vraagstelling") or "").strip() or None
 
-    motivatie_hint = " *(motivering vereist)*" if motivatie_verwacht else ""
-    header = f"### Vraag {label}{motivatie_hint}"
+    # MC-opties: normaliseer naar list[dict] met id en tekst
+    opties_raw = deelvraag.get("opties", []) or []
+    opties = [
+        {"id": o.get("id", "?"), "tekst": (o.get("tekst") or "").strip()}
+        for o in opties_raw
+    ]
 
-    delen: list[str] = [header, ""]
+    topic_only_onderwerp = deelvraag.get("topic_only_onderwerp", "") or ""
 
-    # Vraagstelling: skip bij topic_only of als None
-    if volledigheid != "topic_only":
-        vraagstelling = (deelvraag.get("vraagstelling") or "").strip()
-        if vraagstelling:
-            delen.append(vraagstelling)
-            delen.append("")
+    # Complexe antwoord-callout blijft in Python
+    antwoord_callout_md = _render_antwoord_callout(deelvraag, vraag_antwoord)
 
-    # MC-opties als bullet-lijst
-    if vraagtype == "mc_keuze":
-        opties = deelvraag.get("opties", [])
-        for optie in opties:
-            optie_id = optie.get("id", "?")
-            optie_tekst = (optie.get("tekst") or "").strip()
-            delen.append(f"- **{optie_id}**: {optie_tekst}")
-        if opties:
-            delen.append("")
-
-    # Topic-only warning callout (geen collapsed)
-    if volledigheid == "topic_only":
-        topic_onderwerp = deelvraag.get("topic_only_onderwerp", "")
-        warning_body = topic_onderwerp
-        delen.append(_callout("warning", "Topic only", warning_body))
-        delen.append("")
-
-    # Antwoord-callout (altijd aanwezig, collapsed)
-    delen.append(_render_antwoord_callout(deelvraag, vraag_antwoord))
-    delen.append("")
-
-    return "\n".join(delen).rstrip()
+    tmpl = env.get_template("_deelvraag.md.j2")
+    uitvoer = tmpl.render(
+        label=label,
+        motivatie_verwacht=motivatie_verwacht,
+        volledigheid=volledigheid,
+        vraagtype=vraagtype,
+        vraagstelling=vraagstelling,
+        opties=opties,
+        topic_only_onderwerp=topic_only_onderwerp,
+        antwoord_callout_md=antwoord_callout_md,
+    )
+    return uitvoer.rstrip()
 
 
 # ---------------------------------------------------------------------------
@@ -419,8 +415,20 @@ def _bouw_antwoorden_index(antwoord: dict[str, Any] | None) -> dict[str, dict[st
     }
 
 
-def _render_vraag_eenheid(vraag: dict[str, Any]) -> str:
-    """Render één vraag-eenheid (H2 + context + deelvragen)."""
+def _formatteer_themas(themas: list[str]) -> str:
+    """Formatteer themas als tag-rij.
+
+    PRUTS: pas separator of tag-syntax hier aan.
+    Huidig: backtick-tags gescheiden door " · ".
+    """
+    return " · ".join(f"`{t}`" for t in themas)
+
+
+def _render_vraag_eenheid(vraag: dict[str, Any], env: Environment | None = None) -> str:
+    """Bereid vraag-eenheid-data voor en delegeer naar _vraag_eenheid.md.j2."""
+    if env is None:
+        env = _get_env()
+
     vraag_id = vraag["vraag_id"]
     interpretatie = vraag.get("interpretatie", {})
     antwoord = vraag.get("antwoord")
@@ -432,38 +440,62 @@ def _render_vraag_eenheid(vraag: dict[str, Any]) -> str:
 
     antwoorden_index = _bouw_antwoorden_index(antwoord)
 
-    delen: list[str] = []
-
-    # H2 anchor
-    delen.append(f"## {vraag_id}")
-    delen.append("")
-
-    # Onderwerp
-    if onderwerp:
-        delen.append(f"**{onderwerp}**")
-        delen.append("")
-
-    # Themas als tags (inline)
-    if themas:
-        tags_str = " · ".join(f"`{t}`" for t in themas)
-        delen.append(f"*Thema's*: {tags_str}")
-        delen.append("")
-
-    # Context-blokken
+    # Complexe context-blokken blijven in Python
     context_md = _render_context_blokken(context_blokken)
-    if context_md.strip():
-        delen.append(context_md)
-        delen.append("")
 
-    # Deelvragen
-    for deelvraag in deelvragen:
-        deelvraag_id = deelvraag.get("id", "?")
-        vraag_antwoord = antwoorden_index.get(deelvraag_id)
-        delen.append(_render_deelvraag(deelvraag, vraag_antwoord))
-        delen.append("")
+    # Themas-string (PRUTS-punt zit in _formatteer_themas)
+    themas_str = _formatteer_themas(themas) if themas else ""
 
-    delen.append("---")
-    return "\n".join(delen)
+    # Deelvragen pre-renderen via subtemplate
+    deelvragen_md = [
+        _render_deelvraag_data(dv, antwoorden_index.get(dv.get("id", "?")), env)
+        for dv in deelvragen
+    ]
+
+    tmpl = env.get_template("_vraag_eenheid.md.j2")
+    return tmpl.render(
+        vraag_id=vraag_id,
+        onderwerp=onderwerp,
+        themas_str=themas_str,
+        context_md=context_md.strip(),
+        deelvragen_md=deelvragen_md,
+    ).rstrip()
+
+
+# ---------------------------------------------------------------------------
+# Jinja2 Environment
+# ---------------------------------------------------------------------------
+
+
+def _get_env() -> Environment:
+    """Maak Jinja2-environment met FileSystemLoader op templates-map."""
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATES_DIR)),
+        autoescape=False,
+        keep_trailing_newline=True,
+        trim_blocks=True,
+        lstrip_blocks=True,
+    )
+    return env
+
+
+# ---------------------------------------------------------------------------
+# Data-voorbereiding voor index-pagina
+# ---------------------------------------------------------------------------
+
+
+def _bereken_herkomst(vragen: list[dict[str, Any]]) -> str:
+    """Bepaal meest-voorkomende herkomst; 'hybride' bij mix."""
+    herkomsten = [
+        v.get("interpretatie", {}).get("vraag_herkomst", "")
+        for v in vragen
+        if v.get("interpretatie")
+    ]
+    if not herkomsten:
+        return "?"
+    if len(set(herkomsten)) > 1:
+        return "hybride"
+    return herkomsten[0]
 
 
 # ---------------------------------------------------------------------------
@@ -472,44 +504,30 @@ def _render_vraag_eenheid(vraag: dict[str, Any]) -> str:
 
 
 def _render_examen_pagina(data: dict[str, Any]) -> str:
-    """Render één examen naar een volledige markdown-pagina."""
+    """Render één examen naar een volledige markdown-pagina via Jinja2-template."""
+    env = _get_env()
+    tmpl = env.get_template("examen_pagina.md.j2")
+
     examen_id = data.get("examen_id", "?")
-    bron_pdf = data.get("bron_pdf", "")
     vragen = data.get("vragen", [])
     vandaag = date.today().isoformat()
 
-    delen: list[str] = []
+    # Render vraag-eenheden via subtemplate (complex blokken blijven in Python)
+    vraag_eenheden_md = [_render_vraag_eenheid(v, env) for v in vragen]
 
-    # Frontmatter
-    delen.append("---")
-    delen.append(f"title: Voorbeeldexamen {examen_id}")
-    delen.append(f"description: Examenvragen {examen_id} — schema 4.0 render.")
-    delen.append("tags: [examen, voorbeeldvragen]")
-    delen.append("gegenereerd_uit: tools/examen/render_merged_v4.py")
-    delen.append(f"gegenereerd_op: {vandaag}")
-    delen.append("---")
-    delen.append("")
-
-    # H1 titel
-    delen.append(f"# Voorbeeldexamen {examen_id}")
-    delen.append("")
-
-    if bron_pdf:
-        delen.append(f"*Bron*: {bron_pdf}")
-        delen.append("")
-
-    # Statistieken
     totaal = len(vragen)
     met_antwoord = sum(1 for v in vragen if v.get("antwoord") is not None)
-    delen.append(f"**{totaal} vraag-eenheden** — {met_antwoord} met antwoord")
-    delen.append("")
 
-    # Vraag-eenheden
-    for vraag in vragen:
-        delen.append(_render_vraag_eenheid(vraag))
-        delen.append("")
-
-    return "\n".join(delen).rstrip() + "\n"
+    inhoud = tmpl.render(
+        examen_id=examen_id,
+        bron_pdf=data.get("bron_pdf", ""),
+        vragen=vragen,
+        vandaag=vandaag,
+        totaal=totaal,
+        met_antwoord=met_antwoord,
+        vraag_eenheden_md=vraag_eenheden_md,
+    )
+    return inhoud.rstrip() + "\n"
 
 
 # ---------------------------------------------------------------------------
@@ -518,56 +536,26 @@ def _render_examen_pagina(data: dict[str, Any]) -> str:
 
 
 def _render_index_pagina(examen_data_list: list[dict[str, Any]]) -> str:
-    """Render de index-pagina met overzichtstabel."""
+    """Render de index-pagina met overzichtstabel via Jinja2-template."""
+    env = _get_env()
+    tmpl = env.get_template("index_pagina.md.j2")
+
     vandaag = date.today().isoformat()
 
-    delen: list[str] = []
-
-    delen.append("---")
-    delen.append("title: Voorbeeldexamens")
-    delen.append(
-        "description: Overzicht van alle voorbeeldexamens met examenvragen "
-        "(schema 4.0, ADR-024)."
-    )
-    delen.append("tags: [examen, voorbeeldvragen, overzicht]")
-    delen.append("gegenereerd_uit: tools/examen/render_merged_v4.py")
-    delen.append(f"gegenereerd_op: {vandaag}")
-    delen.append("---")
-    delen.append("")
-
-    delen.append("# Voorbeeldexamens")
-    delen.append("")
-    delen.append(
-        "Overzicht van alle beschikbare voorbeeldexamens. "
-        "Elke pagina toont de vraag-eenheden met context-blokken, "
-        "deelvragen en (waar beschikbaar) uitgewerkte antwoorden. "
-        "Antwoord-callouts zijn standaard ingeklapt — klik om te openen."
-    )
-    delen.append("")
-
-    # Tabel
-    delen.append("| Examen | Vraag-eenheden | Herkomst | Pagina |")
-    delen.append("| --- | ---: | --- | --- |")
-
+    examen_meta = []
     for data in sorted(examen_data_list, key=lambda d: d.get("examen_id", "")):
-        examen_id = data.get("examen_id", "?")
         vragen = data.get("vragen", [])
-        totaal = len(vragen)
-        # Herkomst: meest voorkomende
-        herkomsten = [
-            v.get("interpretatie", {}).get("vraag_herkomst", "")
-            for v in vragen
-            if v.get("interpretatie")
-        ]
-        herkomst = herkomsten[0] if herkomsten else "?"
-        if len(set(herkomsten)) > 1:
-            herkomst = "hybride"
-        link = f"[[{examen_id}]]"
-        delen.append(f"| {examen_id} | {totaal} | {herkomst} | {link} |")
+        examen_meta.append({
+            "examen_id": data.get("examen_id", "?"),
+            "totaal": len(vragen),
+            "herkomst": _bereken_herkomst(vragen),
+        })
 
-    delen.append("")
-
-    return "\n".join(delen).rstrip() + "\n"
+    inhoud = tmpl.render(
+        examen_meta=examen_meta,
+        vandaag=vandaag,
+    )
+    return inhoud.rstrip() + "\n"
 
 
 # ---------------------------------------------------------------------------

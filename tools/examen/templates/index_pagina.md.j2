@@ -1,0 +1,22 @@
+{# Render de index-pagina: frontmatter + tabel met links per examen.
+   Variabelen:
+     examen_meta — gesorteerde lijst van dicts met examen_id, totaal, herkomst
+     vandaag     — datum-string (ISO formaat, gegenereerd door Python)
+#}
+---
+title: Voorbeeldexamens
+description: Overzicht van alle voorbeeldexamens met examenvragen (schema 4.0, ADR-024).
+tags: [examen, voorbeeldvragen, overzicht]
+gegenereerd_uit: tools/examen/render_merged_v4.py
+gegenereerd_op: {{ vandaag }}
+---
+
+# Voorbeeldexamens
+
+Overzicht van alle beschikbare voorbeeldexamens. Elke pagina toont de vraag-eenheden met context-blokken, deelvragen en (waar beschikbaar) uitgewerkte antwoorden. Antwoord-callouts zijn standaard ingeklapt — klik om te openen.
+
+| Examen | Vraag-eenheden | Herkomst | Pagina |
+| --- | ---: | --- | --- |
+{% for meta in examen_meta %}
+| {{ meta.examen_id }} | {{ meta.totaal }} | {{ meta.herkomst }} | [[{{ meta.examen_id }}]] |
+{% endfor %}
