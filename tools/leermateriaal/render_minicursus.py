@@ -190,10 +190,10 @@ def render_skeleton(
 ) -> str:
     """Render het deterministisch skeleton van de minicursus.
 
-    Examenvragen worden uitsluitend via data/exam_focus/*.json en
-    data/voorbeeldvragen-synthetisch/*.json geladen (ADR-009 §6 mode A).
-    De examenfocus-binding-lib doet de filter en sortering; deze functie
-    geeft alleen door.
+    Examenvragen worden geladen via tools.leermateriaal.lib.examenfocus_v4_binding
+    uit _merged/<examen>.json (schema 4.0 ADR-024), gefilterd op
+    programmaonderdeel_ids. De binding-helper bouwt per vraag een nested
+    collapsible callout met context + deelvragen + antwoord.
 
     Args:
         programmaonderdeel_id: bv. '1.4'
@@ -281,12 +281,6 @@ def render_skeleton(
         laad_vragen_voor_po,
         render_vraag_callout,
     )
-    # Oude synthetische voorbeeldvragen (nog geen v4-equivalent)
-    from tools.leermateriaal.lib.examenfocus_binding import laad_voorbeeldvragen_synthetisch
-    po_record_ids = {r.get("id") for r in records} | {c.get("id") for c in competenties}
-    po_record_ids.discard(None)
-    examenfocus_groepen: list = []  # v3-groepen niet meer gebruikt; lege lijst voor backward-compat
-    voorbeeldvragen_synth = laad_voorbeeldvragen_synthetisch(po_record_ids)
 
     # V4: laad vragen voor dit programmaonderdeel en pre-render naar markdown-strings
     vragen_v4 = laad_vragen_voor_po(programmaonderdeel_id)
@@ -338,8 +332,6 @@ def render_skeleton(
         po_taken=po_taken,
         hoofdstuk_taak_markers=hoofdstuk_taak_markers,
         taak_dekking=taak_dekking,
-        examenfocus_groepen=examenfocus_groepen,
-        voorbeeldvragen_synth=voorbeeldvragen_synth,
         vragen_v4_md=vragen_v4_md,
     )
 
@@ -497,7 +489,7 @@ def main() -> None:
     if open_gaps:
         print(f"[minicursus] {len(open_gaps)} open gaps gevonden — worden vermeld in skeleton.")
 
-    # Skeleton renderen (examenvragen via data/exam_focus/*.json — ADR-009 §6 mode A)
+    # Skeleton renderen (examenvragen via _merged/*.json schema 4.0 — ADR-024)
     skeleton = render_skeleton(
         programmaonderdeel_id=programmaonderdeel_id,
         leerpad=leerpad,

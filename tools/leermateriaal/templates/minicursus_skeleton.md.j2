@@ -200,36 +200,11 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus -->') }}
 
-{% if vragen_v4_md or voorbeeldvragen_synth %}
 {% if vragen_v4_md %}
 {% for vraag_md in vragen_v4_md %}
 {{ vraag_md }}
 
 {% endfor %}
-{% endif %}
-{% if voorbeeldvragen_synth %}
-### Synthetische oefenvarianten 🤖
-
-> [!info] AI-gegenereerd op basis van patronen × concepten van dit programmaonderdeel. Gebruik als oefening, niet als toetssteen voor wat het examen letterlijk vraagt.
-
-
-{% for v in voorbeeldvragen_synth %}
-> [!question]- 🤖 {{ v.patroon_naam | default(v.id) }} · synthetische variant
-> {{ v.vraag_tekst | replace('\n', '\n> ') }}
-{% if v.voorbeeld_oplossing %}
->
-> > [!success]- Voorbeeld-oplossing 🤖
-> > {{ v.voorbeeld_oplossing | replace('\n', '\n> > ') }}
-{% endif %}
-{% if v.redenering %}
->
-> > [!tip]- Redenering 🤖
-> > {{ v.redenering | replace('\n', '\n> > ') }}
-{% endif %}
-
-{% endfor %}
-
-{% endif %}
 {% else %}
 <!-- Geen examenvragen geclassificeerd voor dit programmaonderdeel (schema 4.0). -->
 
