@@ -186,20 +186,19 @@ python3 -m tools.extractie.tail_agent <agent-id-prefix> --watch  # leesbare even
 
 ## 4. Pending werk
 
-### Optie A — MCP-server in-process bronnen (mogelijk al klaar)
+### Optie A — MCP-server lazy-init bi-encoder vs reranker ✅ KLAAR
 
-**Agent**: `afdb61a10c3b6f2ba` was lopend bij sessie-einde.
+**Commit**: `8eb0e0a6` — `tools/extractie/mcp_server/server.py`
 
-**Doel**: `mcp__certificaid-rag__zoek_bronnen` in-process maken (voor rerank=false). Eliminate daemon-HTTP per call → 6-parallel agents zonder queue.
+**Belangrijke vondst**: MCP-server was al volledig in-process voor `zoek_bronnen`. Bench2-queue-contention kwam niet van MCP→daemon-HTTP. Wat A wel deed:
+- Gesplitste lazy-init: `_bi_stack` (bge-m3) bij 1e `zoek_bronnen`-call, `_reranker_obj` (CrossEncoder) pas bij 1e `rerank=true`-call
+- ~300 MB RAM-besparing per parallel-agent (1.8 GB voor 6 parallel)
+- Startup 3-5s sneller per agent
+- Graceful fallback als CrossEncoder-load faalt
 
-**Check bij sessie-start**:
-1. `git log --oneline -20` — staat er een commit van vandaag voor MCP-server-modificatie?
-2. Of: check `.claude/worktrees/agent-afdb61a10c3b6f2ba/` — bestaat die nog?
-3. Of: lees `tools/extractie/mcp_server/server.py` op aanwezigheid van `_INPROC_RETRIEVAL_STACK` of vergelijkbaar
+**Activering**: vereist nieuwe Claude Code-sessie — Claude Code spawnt MCP-server bij sessie-start volgens `.mcp.json`. **Bij start van deze nieuwe sessie is A al actief.**
 
-**Als A klaar maar nog in worktree**: kopieer files + commit + push. MCP-server-modificatie vereist nieuwe sessie om actief te worden — dat is NU.
-
-**Als A niet klaar of niet bevredigend**: oude HTTP-pad blijft werken (backwards-compat). Geen blocker.
+**Implicatie voor bench2-bottleneck**: de 5+ min queue bij 3-parallel rerank moet andere oorzaak hebben — mogelijk MPS-GPU-resource-sharing, of save_record daemon-write-queue. Voor diagnose: run benchmark in nieuwe sessie en vergelijk daemon-vs-MCP-loads tijdens 6-parallel.
 
 ### Wave-extract plan (volgende-sessie)
 
