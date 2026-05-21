@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr23",
+  "interpretatie_datum": "2026-05-21T10:21:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting — huwelijksquotiënt: onjuiste stelling herkennen",
+  "themas": [
+    "personenbelasting",
+    "huwelijksquotiënt",
+    "gezamenlijke aangifte",
+    "beroepsinkomsten",
+    "belastingvoordeel",
+    "PB"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 2",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke van onderstaande uitspraken is niet juist?",
+      "opties": [
+        { "id": "a", "tekst": "Het huwelijksquotiënt is een regel die enkel de belastingplichtigen betreft die een gezamenlijke aangifte moeten indienen." },
+        { "id": "b", "tekst": "Wanneer één van beide echtgenoten geen beroepsinkomsten of onroerende inkomsten heeft, wordt hem, in toepassing van het huwelijksquotiënt, 30% van de gemeenschappelijke beroepsinkomsten met een maximum van 9.810 euro (aanslagjaar 2013) toegekend." },
+        { "id": "c", "tekst": "Het doel van het huwelijksquotiënt is de belasting te verlagen door een gedeelte van de inkomsten van de 'rijkere' echtgenoot of wettelijk samenwonende virtueel toe te rekenen aan de echtgenoot of de wettelijk samenwonende met de geringste inkomsten. Daaruit volgt dat de belastingdruk van de eerste belastingplichtige afneemt, terwijl deze van de tweede door het effect van de progressiviteit van de belasting, minder toeneemt." },
+        { "id": "d", "tekst": "Het huwelijksquotiënt heeft geen uitwerking indien de aanslag daardoor wordt verhoogd: het huwelijksquotiënt moet dus altijd een maatregel in het voordeel van de belastingplichtige blijven." },
+        { "id": "e", "tekst": "Wanneer de beroepsinkomsten afkomstig zijn van verschillende categorieën van beroepsinkomsten, wordt het huwelijksquotiënt geacht in dezelfde verhouding uit diezelfde categorieën van beroepsinkomsten te zijn samengesteld." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag die de onjuiste stelling over het huwelijksquotiënt zoekt. Optie b bevat een specifiek bedrag (9.810 EUR aanslagjaar 2013) en percentage (30%); optie a mist de uitbreiding tot wettelijk samenwonenden.",
+  "kwaliteits_flags": []
+}

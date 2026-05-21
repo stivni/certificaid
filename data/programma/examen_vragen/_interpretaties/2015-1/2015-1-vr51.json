@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr51",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Discretieplicht en beroepsgeheim accountant: juist/fout stellingen",
+  "themas": ["discretieplicht", "beroepsgeheim", "accountant", "interne accountant", "tuchtrecht", "deontologie", "IAB"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In tegenstelling tot het beroepsgeheim is de discretieplicht ook van toepassing op de interne accountants en/of belastingconsulenten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Schending van het beroepsgeheim kan enkel tuchtrechtelijke maatregelen tot gevolg hebben.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De accountant en/of de belastingconsulent pleegt een inbreuk tegen de discretieplicht wanneer hij de Raad van het Instituut in kennis zou stellen van vertrouwelijke gegevens van zijn werkgever als alle andere middelen zijn uitgeput.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 1 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over discretieplicht en beroepsgeheim.",
+  "kwaliteits_flags": []
+}

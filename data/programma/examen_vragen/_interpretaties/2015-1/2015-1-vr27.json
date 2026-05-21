@@ -1,0 +1,97 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr27",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Opdracht externe accountant bij omzetting NV naar BVBA: juist/fout stellingen",
+  "themas": ["omzetting vennootschap", "staat van activa en passiva", "externe accountant", "controleverslag", "werkzaamheden", "bijzondere mandaten"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Externe accountant krijgt opdracht voor verslag over boekhoudkundige staat van activa en passiva bij omzetting NV Salami naar BVBA Salami. KMO-vennootschap, voornamelijk levensmiddelen invoer uit Italië."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant moet de volledige identiteit van de leden van het bestuursorgaan opvragen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant moet in zijn verslag een beoordeling van de administratieve en boekhoudkundige organisatie van de vennootschap vermelden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant hanteert een risico-analyse om te beoordelen waar de zwakke punten van de interne procedure in de onderneming gesitueerd zijn.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant moet zijn werkdossier door de raad van bestuur laten ondertekenen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant moet de door het bestuursorgaan opgestelde staat van activa en passiva herwerken tot een nieuwe staat na zijn controlewerkzaamheden, alvorens deze ondertekend aan de notaris over te maken.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "f",
+      "label_in_pdf": "f",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant moet een bijkomende aansprakelijkheidsverzekering afsluiten om zijn aansprakelijkheid ingevolge zijn verslag in te dekken.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "g",
+      "label_in_pdf": "g",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant zal een nazicht doen of de waarderingsregels correct zijn toegepast.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "h",
+      "label_in_pdf": "h",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant moet altijd een voorbehoud maken als de klantenconfirmaties niet werden verstuurd.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "i",
+      "label_in_pdf": "i",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant moet akkoord hebben van de aandeelhouders alvorens zijn opdracht aan te vangen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 3 van de sectie 'Vennootschapsrecht (bijzondere mandaten)'. Negen ja/nee-stellingen over de werkzaamheden van de externe accountant bij omzetting.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

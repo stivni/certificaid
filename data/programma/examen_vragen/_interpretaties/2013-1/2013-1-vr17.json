@@ -1,0 +1,74 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr17",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Controleverslag bij ontbinding: correcties op staat activa-passiva, controlesoort, ontbinding in één akte",
+  "themas": ["ontbinding vennootschap", "staat van activa en passiva", "herwaarderingsmeerwaarde", "controleverslag accountant", "continuïteit", "ontbinding in één akte"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Op de boekhoudkundige staat van de BVBA HOLDING RICH komen nog diverse machines A voor. De zaakvoerders hebben een gemotiveerde, technisch en financieel onderbouwde waardering gemaakt van deze machines (totale waarde € 600.000) op basis van de berekening van de toekomstige kasstromen en op basis van het nut van de machines voor het bedrijf. Aan de hand van deze waardering werd door het college van zaakvoerders bij het opstellen van de boekhoudkundige staat van activa en passiva een herwaarderingsmeerwaarde geboekt. Anderzijds heeft de leverancier van de machines een bod gedaan om de machines A terug te kopen voor € 450.000, in dat geval moet er wel een revisie op de machines A gebeuren van € 10.000."
+    },
+    {
+      "type": "balans",
+      "actief": {
+        "headers": ["Rubriek", "Bedrag"],
+        "rows": [
+          ["Machines A", "200.000"],
+          ["Machines A (herwaarderingsmeerwaarde)", "400.000"],
+          ["Handelsvorderingen < 1 jaar", "100.000"],
+          ["Bank", "20.000"],
+          ["Totaal", "720.000"]
+        ]
+      },
+      "passief": {
+        "headers": ["Rubriek", "Bedrag"],
+        "rows": [
+          ["Kapitaal", "20.000"],
+          ["Herwaarderingsmeerwaarde", "400.000"],
+          ["Overgedragen verlies", "-50.000"],
+          ["Resultaat v/d periode", "20.000"],
+          ["Schulden > 1 jaar", "250.000"],
+          ["Schulden < 1 jaar", "80.000"],
+          ["Totaal", "720.000"]
+        ]
+      }
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Als accountant krijg je de opdracht om uw controleverslag te maken op bovenstaande staat in het kader van de ontbinding van de vennootschap. Bestudeer deze staat en geef drie mogelijke correcties die moeten toegepast worden op deze staat.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Welk soort controle ga je toepassen bij uw verslag inzake ontbinding?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Kan deze ontbinding in één akte ook gesloten worden? Leg uit.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 3. Balans overgenomen uit tekst (OCR geeft redelijke tabel). Herwaardering van € 400.000 bij te corrigeren element. Vraag c heeft 'Leg uit' — motivatie_verwacht true. Tekst bevat OCR-artefact 'Machines A (herwaarderingsmeerw)' gecorrigeerd naar volledige term.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar", "typo_genormaliseerd"]
+}

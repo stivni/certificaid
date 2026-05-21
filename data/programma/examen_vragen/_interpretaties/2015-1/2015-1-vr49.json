@@ -1,0 +1,73 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr49",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "OESO-modelverdrag: juist/niet waar stellingen over internationale belastingregels",
+  "themas": ["OESO-modelverdrag", "dubbelbelastingverdrag", "inwoner", "vaste inrichting", "pensioen ambtenaar", "onroerende inkomsten", "verrekenprijzen"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vraag 1 van de sectie 'Beginselen van Europees en internationaal fiscaal recht'. Beantwoord de vragen met 'waar' of 'niet waar' op basis van de OESO-modelovereenkomst naar inkomen en vermogen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een natuurlijke persoon die geen dubbele nationaliteit bezit en die door beide overeenkomstsluitende staten bij een overeenkomst tot vermijding van dubbele belasting als inwoner wordt beschouwd, zal in de staat waarvan hij de nationaliteit heeft steeds op zijn wereldinkomen worden belast zonder andere criteria in aanmerking te nemen. Deze persoon bezit de nationaliteit van één van beide hiervoor beoogde overeenkomstsluitende staten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een pensioen dat door België aan een natuurlijk persoon van Belgische nationaliteit wordt betaald ter zake van een vroegere dienstbetrekking als ambtenaar van een Federale Overheidsdienst zal niet meer in België belastbaar zijn, indien deze natuurlijke persoon inwoner wordt van een land waarmee België een overeenkomst tot voorkoming van dubbele belasting heeft gesloten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een steengroeve is slechts een vaste inrichting, indien de uitbatingsduur ervan 6 maanden overschrijdt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De overeenkomsten tot voorkoming van dubbele belasting, die volgens de hierboven bedoelde modelovereenkomst afgesloten zijn, gelden voor de successierechten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Voor een natuurlijke persoon die inwoner is van één van de overeenkomstsluitende staten, zijn de onroerende inkomsten verkregen in de andere staat, uitsluitend belastbaar in die andere staat (met name de bronstaat).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "f",
+      "label_in_pdf": "f",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Als een vaste inrichting van een onderneming, die inwoner is van een andere overeenkomstsluitende staat, een supplement in de inkomstenbelasting wordt opgelegd naar aanleiding van een controle op de verrekenprijzen toegepast op de goederen- of dienstenstromen tussen die vaste inrichting en haar hoofdzetel in de andere overeenkomstsluitende staat, zal er sprake zijn van juridisch dubbele belasting en is dit onvermijdbaar.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 1 van de sectie 'Beginselen van Europees en internationaal fiscaal recht'. Zes juist/niet-waar-stellingen over OESO-modelovereenkomst.",
+  "kwaliteits_flags": []
+}

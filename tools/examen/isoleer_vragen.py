@@ -1,6 +1,6 @@
 """Vraag-isolatie (ADR-024 §2): deterministische segmenten per examenvraag.
 
-Per vraag in `_poc_subset.json` schrijft deze tool drie artefacten naar
+Per vraag schrijft deze tool drie artefacten naar
 `data/programma/examen_vragen/_segmenten/<examen_id>/<vraag_id>/`:
 
 - `tekst.txt`     — hergebruikt het bestaande `vraagtekst`-veld uit
@@ -8,20 +8,36 @@ Per vraag in `_poc_subset.json` schrijft deze tool drie artefacten naar
                     aanwezig) worden achteraan geconcat met
                     `=== subvraag X ===`-headers.
 - `pagina_NN.png` — `pdfplumber.Page.to_image(resolution=200)` voor elke
-                    pagina in de range uit `_poc_subset.json` (1-geïndexeerd,
-                    inclusief).
+                    pagina in de range (1-geïndexeerd, inclusief).
 - `meta.json`     — examen_id, vraag_id, pagina_nummers (list[int]),
                     pdf_bestand, karakter, rationale, bbox_hint=None.
 
+Twee bronnen voor de pagina-range:
+
+1. **POC-subset** (default): leest `_poc_subset.json` met expliciete
+   `pagina_van` / `pagina_tot` per vraag.
+2. **--alle**: autodetectie uit `<examen>.json`. Per examen worden de vragen
+   op `pdf_pagina` gesorteerd; voor vraag i is `pagina_van = pdf_pagina[i]`
+   en `pagina_tot = pdf_pagina[i+1] - 1` (of `aantal_pdf_paginas` voor de
+   laatste). Als `pdf_pagina[i+1] == pdf_pagina[i]`, valt `pagina_tot` terug
+   op `pagina_van` (overlap tussen vragen op dezelfde pagina is OK).
+   Vragen zonder `pdf_pagina` worden geskipt met een waarschuwing.
+   `aantal_pdf_paginas` wordt uit de PDF zelf gelezen (top-level veld is
+   doorgaans `None`).
+
 Idempotent: bestaande PNGs worden niet opnieuw gerenderd; tekst.txt en
-meta.json worden alleen herschreven als de inhoud verandert.
+meta.json worden alleen herschreven als de inhoud verandert. POC- en
+--alle-modus schrijven naar dezelfde paden — runs herschrijven elkaars
+output alleen als de inhoud verschilt.
 
 Geen LLM, geen netwerk, geen aanpassingen aan bestaande `<examen>.json`.
 
 CLI:
-    python3 -m tools.examen.isoleer_vragen                  # hele subset
-    python3 -m tools.examen.isoleer_vragen --examen 2024-1  # alle subset-vragen van één PDF
+    python3 -m tools.examen.isoleer_vragen                   # POC-subset
+    python3 -m tools.examen.isoleer_vragen --examen 2024-1   # POC-subset, één examen
     python3 -m tools.examen.isoleer_vragen --vraag 2013-1-vr1
+    python3 -m tools.examen.isoleer_vragen --alle            # alle vragen, autodetect
+    python3 -m tools.examen.isoleer_vragen --alle --examen 2024-1
 """
 from __future__ import annotations
 
@@ -52,6 +68,99 @@ def _laad_subset() -> list[dict]:
 def _laad_examen_json(examen_id: str) -> dict:
     p = EXAMEN_VRAGEN_DIR / f"{examen_id}.json"
     return json.loads(p.read_text(encoding="utf-8"))
+
+
+def _vind_examen_ids() -> list[str]:
+    """Alle examen-IDs die een `<id>.json` in examen_vragen-dir hebben.
+
+    Skipt files met `_`-prefix (zoals `_poc_subset.json`) en `*-labels.json`.
+    """
+    ids: list[str] = []
+    for p in sorted(EXAMEN_VRAGEN_DIR.glob("*.json")):
+        naam = p.stem
+        if naam.startswith("_"):
+            continue
+        if naam.endswith("-labels"):
+            continue
+        ids.append(naam)
+    return ids
+
+
+def _aantal_pdf_paginas(pdf_pad: Path) -> int:
+    with pdfplumber.open(str(pdf_pad)) as pdf:
+        return len(pdf.pages)
+
+
+def _autodetect_entries(examen_id: str) -> tuple[list[dict], list[str]]:
+    """Bepaal per vraag een (pagina_van, pagina_tot) op basis van pdf_pagina.
+
+    Sorteert vragen op `pdf_pagina` ascending. Voor vraag i op pagina P:
+    - pagina_van = P
+    - pagina_tot = max(P, next_pdf_pagina - 1) bij volgende vraag
+    - pagina_tot = aantal_pdf_paginas voor de laatste
+
+    Vragen zonder `pdf_pagina` (None / ontbrekend) worden geskipt; hun
+    vraag_ids komen in de waarschuwingen-lijst terecht.
+    """
+    cfg = EXAMEN_CONFIGS_V2.get(examen_id)
+    if not cfg:
+        raise RuntimeError(f"Geen EXAMEN_CONFIGS_V2-entry voor {examen_id}")
+    pdf_pad = PDF_DIR / cfg["pdf_bestand"]
+    if not pdf_pad.is_file():
+        raise FileNotFoundError(f"PDF ontbreekt: {pdf_pad}")
+
+    examen_doc = _laad_examen_json(examen_id)
+    vragen = examen_doc.get("vragen", [])
+
+    waarschuwingen: list[str] = []
+    bruikbaar: list[tuple[int, str]] = []  # (pdf_pagina, vraag_id)
+    for v in vragen:
+        vid = v.get("id") or v.get("vraag_id")
+        pp = v.get("pdf_pagina")
+        if not vid:
+            waarschuwingen.append(f"vraag zonder id in {examen_id}.json (skip)")
+            continue
+        if pp is None:
+            waarschuwingen.append(f"{vid}: geen pdf_pagina (skip)")
+            continue
+        try:
+            pp_int = int(pp)
+        except (TypeError, ValueError):
+            waarschuwingen.append(f"{vid}: pdf_pagina={pp!r} niet-numeriek (skip)")
+            continue
+        bruikbaar.append((pp_int, vid))
+
+    if not bruikbaar:
+        return [], waarschuwingen
+
+    # Stable sort op pdf_pagina; vraag_id als tiebreak voor reproduceerbaarheid
+    bruikbaar.sort(key=lambda x: (x[0], x[1]))
+
+    pdf_paginas = _aantal_pdf_paginas(pdf_pad)
+
+    entries: list[dict] = []
+    for i, (pp, vid) in enumerate(bruikbaar):
+        if i + 1 < len(bruikbaar):
+            volgende_pp = bruikbaar[i + 1][0]
+            if volgende_pp == pp:
+                pagina_tot = pp
+            else:
+                pagina_tot = max(pp, volgende_pp - 1)
+        else:
+            pagina_tot = max(pp, pdf_paginas)
+        entries.append(
+            {
+                "examen_id": examen_id,
+                "vraag_id": vid,
+                "pagina_van": pp,
+                "pagina_tot": pagina_tot,
+                "karakter": f"auto-isolatie {vid} pagina {pp}"
+                if pp == pagina_tot
+                else f"auto-isolatie {vid} pagina {pp}-{pagina_tot}",
+                "rationale": "alle-vragen-modus",
+            }
+        )
+    return entries, waarschuwingen
 
 
 def _vind_vraag(examen_doc: dict, vraag_id: str) -> Optional[dict]:
@@ -220,24 +329,54 @@ def isoleer_vraag(entry: dict) -> dict[str, Any]:
 
 def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Vraag-isolatie POC (ADR-024 §2): tekst.txt + pagina_NN.png + meta.json per vraag.",
+        description="Vraag-isolatie (ADR-024 §2): tekst.txt + pagina_NN.png + meta.json per vraag.",
     )
     parser.add_argument("--examen", help="Beperk tot één examen_id (bv. 2024-1).")
     parser.add_argument("--vraag", help="Beperk tot één vraag_id (bv. 2013-1-vr1).")
+    parser.add_argument(
+        "--alle",
+        action="store_true",
+        help="Verwerk ALLE vragen in alle examen-JSONs (autodetect pagina-range).",
+    )
     args = parser.parse_args(argv)
 
-    subset = _laad_subset()
-    if args.examen:
-        subset = [e for e in subset if e["examen_id"] == args.examen]
-    if args.vraag:
-        subset = [e for e in subset if e["vraag_id"] == args.vraag]
-    if not subset:
-        print("Geen subset-entries match het filter.", file=sys.stderr)
+    entries: list[dict]
+    waarschuwingen: list[str] = []
+
+    if args.alle:
+        examen_ids = _vind_examen_ids()
+        if args.examen:
+            examen_ids = [e for e in examen_ids if e == args.examen]
+        if not examen_ids:
+            print("Geen examen-JSONs gevonden.", file=sys.stderr)
+            return 1
+        # POC-vraag-IDs nooit aanraken in --alle-modus: hun karakter/rationale
+        # zijn handgepenned en mogen niet door auto-isolatie overschreven worden.
+        poc_vraag_ids = {e["vraag_id"] for e in _laad_subset()} if SUBSET_PATH.exists() else set()
+        entries = []
+        for eid in examen_ids:
+            eid_entries, eid_warns = _autodetect_entries(eid)
+            entries.extend(e for e in eid_entries if e["vraag_id"] not in poc_vraag_ids)
+            waarschuwingen.extend(eid_warns)
+        if args.vraag:
+            entries = [e for e in entries if e["vraag_id"] == args.vraag]
+    else:
+        entries = _laad_subset()
+        if args.examen:
+            entries = [e for e in entries if e["examen_id"] == args.examen]
+        if args.vraag:
+            entries = [e for e in entries if e["vraag_id"] == args.vraag]
+
+    if not entries:
+        print("Geen entries match het filter.", file=sys.stderr)
         return 1
 
     SEGMENTEN_DIR.mkdir(parents=True, exist_ok=True)
 
-    for entry in subset:
+    for w in waarschuwingen:
+        print(f"[WARN ] {w}", file=sys.stderr)
+
+    for entry in entries:
         rapport = isoleer_vraag(entry)
         veranderd = rapport["tekst_gewijzigd"] or rapport["meta_gewijzigd"]
         status = "WRITE" if veranderd else "SKIP "

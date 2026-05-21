@@ -1,0 +1,65 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr15",
+  "interpretatie_datum": "2026-05-21T10:13:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsvormen — kenmerken per vennootschapsvorm invullen (aansprakelijkheid, winstbewijzen, neerlegging, financieel plan)",
+  "themas": [
+    "vennootschapsvormen",
+    "aansprakelijkheid vennoten",
+    "winstbewijzen",
+    "neerlegging jaarrekening",
+    "financieel plan",
+    "NV",
+    "BVBA",
+    "CVA",
+    "CVBA",
+    "CVOA",
+    "VOF"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Kruis de juiste antwoorden aan in onderstaande tabel. De punten worden toegekend per kolom en de kolom dient volledig juist te zijn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "col1",
+      "label_in_pdf": "Kolom 1",
+      "vraagtype": "open",
+      "vraagstelling": "In welke vennootschap zijn de vennoten/aandeelhouders hoofdelijk aansprakelijk voor de schulden van hun vennootschap? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "col2",
+      "label_in_pdf": "Kolom 2",
+      "vraagtype": "open",
+      "vraagstelling": "Welke vennootschap kan winstbewijzen toekennen? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "col3",
+      "label_in_pdf": "Kolom 3",
+      "vraagtype": "open",
+      "vraagstelling": "Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank van België? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "col4",
+      "label_in_pdf": "Kolom 4",
+      "vraagtype": "open",
+      "vraagstelling": "Voor welke soort vennootschap zijn de oprichters, vóór de oprichting, verplicht om een financieel plan op te stellen? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Invulmatrix met 6 vennootschapsvormen × 4 kolommen. Elke kolom is een afzonderlijke deelvraag. De vraag vraagt om aanvinken (juist/fout per cel), maar de scoringstechniek (per volledige kolom) maakt dit feitelijk een open invuloefening. Weergegeven als 4 open deelvragen per kolom.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

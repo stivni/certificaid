@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr34",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Uitzonderingen op het beroepsgeheim in het strafwetboek",
+  "themas": ["beroepsgeheim", "strafwetboek", "uitzonderingen", "externe accountant", "belastingconsulent"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In het kader van het beroepsgeheim zijn twee uitzonderingen ingeschreven in het strafwetboek, waarbij de externe accountant en/of belastingconsulent het beroepsgeheim naast zich neer kan leggen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Om welke twee uitzonderingen op het beroepsgeheim gaat het, zoals ingeschreven in het strafwetboek?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 3. Enkelvoudige open vraag over twee uitzonderingen op het beroepsgeheim.",
+  "kwaliteits_flags": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr17",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsvormen: kenmerken per vennootschapsvorm",
+  "themas": ["vennootschapsvorm", "NV", "BVBA", "CVA", "CVBA", "CVOA", "VOF", "minimumkapitaal", "winstbewijzen", "onderhandse akte", "jaarrekening neerlegging"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Kruis de juiste antwoorden aan in onderstaande tabel:\n1. Welke vennootschap kan opgericht worden met een onderhandse akte?\n2. Welke vennootschap kan winstbewijzen toekennen?\n3. Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank van België?\n4. Welke vennootschap moet een minimumkapitaal hebben?"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": null,
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Duid per vennootschapsvorm (NV, BVBA, CVA, CVBA, CVOA, VOF) aan welk kenmerk van toepassing is: (1) oprichting met onderhandse akte, (2) winstbewijzen toekennen, (3) verplichte neerlegging jaarrekening NBB, (4) verplicht minimumkapitaal.",
+      "opties": [
+        { "id": "a", "tekst": "1 - Oprichting met onderhandse akte mogelijk" },
+        { "id": "b", "tekst": "2 - Winstbewijzen toekennen mogelijk" },
+        { "id": "c", "tekst": "3 - Verplichte neerlegging jaarrekening bij NBB" },
+        { "id": "d", "tekst": "4 - Verplicht minimumkapitaal" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Matrix-vraag: 6 vennootschapsvormen × 4 kenmerken. Gemodelleerd als één mc_keuze-deelvraag met de vier kenmerken als opties. Per vennootschapsvorm worden meerdere kenmerken aangevinkt (multiselect in de tabel).",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

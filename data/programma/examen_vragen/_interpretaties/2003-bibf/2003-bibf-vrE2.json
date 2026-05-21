@@ -1,0 +1,56 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE2",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Berekening aftrekbare BTW in diverse gevallen",
+  "themas": [
+    "BTW-aftrek",
+    "brandstof",
+    "relatiegeschenken",
+    "medecontractant",
+    "intracommunautaire verwerving",
+    "accijnzen",
+    "personeelsgeschenken"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Geval 1",
+      "vraagtype": "open",
+      "vraagstelling": "Welk is de aftrekbare BTW op een factuur van 100,00 EUR BTW voor brandstof voor een auto die voor 25% voor de beroepsactiviteit van zelfstandig boekhouder gebruikt wordt (75% privé)?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "Geval 2",
+      "vraagtype": "open",
+      "vraagstelling": "Welk is de aftrekbare BTW op 514,50 EUR BTW op een aankoopfactuur van 50 pennen (49,00 EUR per stuk excl. BTW) bestemd om uit te delen aan de goede klanten van een staalindustriebedrijf? Er is geen logo van de firma terug te vinden op de pennen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "Geval 3",
+      "vraagtype": "open",
+      "vraagstelling": "Welk is de aftrekbare BTW op een factuur van 10.000,00 EUR als belastbare basis, exclusief BTW, voor de reiniging van een gebouw dat verhuurd wordt door een NV met als economische activiteit 'bouwpromotor', met correcte toepassing van de regeling inzake de medecontractant (KB nr. 1, artikel 20)?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "Geval 4",
+      "vraagtype": "open",
+      "vraagstelling": "Welk is de aftrekbare BTW bij een intracommunautaire verwerving door een fabriek van 150 flessen identieke wijn aan 18,00 EUR per fles van een wijnboer in Frankrijk (totaal 2.700,00 EUR)? De Belgische accijnzen bedragen 4,00 EUR per fles (600,00 EUR totaal). De flessen zijn een eindejaarsgeschenk voor het personeel, dat elk 1 fles ontvangt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier berekeningsgevallen voor aftrekbare BTW. Elk geval is een afzonderlijke berekeningsvraag (open). Antwoord dient in cijfers uitgedrukt te worden — dat is een antwoord-instructie, geen extra deelvraag. OCR-typefouten gecorrigeerd (514, 50 → 514,50; 10.000,00).",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

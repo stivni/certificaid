@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrD1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boekhoudkundige organisatie en wettelijke verplichtingen voor een taverne-restaurant als BTW-plichtige",
+  "themas": [
+    "zelfstandige",
+    "horeca",
+    "BTW kwartaalaangever",
+    "boekhouding organiseren",
+    "kastickets",
+    "ontvangstboek",
+    "bewaarplicht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na de administratieve formaliteiten opteert hij bij de BTW-administratie voor het statuut van normale kwartaal-BTW-belastingplichtige. Hij vraagt u zijn boekhoudkundig dossier te beheren."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "D1",
+      "vraagtype": "open",
+      "vraagstelling": "Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden, alsook welke stukken/informatie u ieder kwartaal/jaar van hem wenst te ontvangen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "De genummerde lijst (1-12) in de tekst is het modelantwoord (de 'verwachte antwoorden'). Dat is NIET opgenomen in context_blokken conform de instructie. De vraagstelling is de instructie aan het begin van het segment. Één enkelvoudige open vraag.",
+  "kwaliteits_flags": []
+}

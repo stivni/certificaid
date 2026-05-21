@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr12",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Begripsverklaring controleactiviteiten: soorten en voorbeelden",
+  "themas": ["interne controle", "controleactiviteiten", "accountingcontrole", "administratieve controle", "preventieve controle", "repressieve controle"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De controleactiviteiten kunnen op verschillende wijzen worden ingedeeld. Voor elke controleactiviteit dient een begripsverklaring en een voorbeeld gegeven te worden."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Verklaar het begrip 'accountingcontrole en administratieve controle' en geef van elke controleactiviteit een voorbeeld.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Verklaar het begrip 'preventieve en repressieve controle' en geef van elke controleactiviteit een voorbeeld.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 1 van de sectie 'Interne controle'. Twee open deelvragen met verklaring + voorbeeld. De vraagstelling in tekst.txt is helder.",
+  "kwaliteits_flags": []
+}

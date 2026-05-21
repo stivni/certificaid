@@ -1,0 +1,47 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrC1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Behoefte aan bedrijfskapitaal: definitie, berekening en reductiemaatregelen",
+  "themas": [
+    "behoefte aan bedrijfskapitaal",
+    "werkkapitaal",
+    "financieel beheer",
+    "liquiditeit",
+    "voorraadbeheer",
+    "debiteurenbeheer"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "C1a",
+      "vraagtype": "open",
+      "vraagstelling": "Wat verstaat men met 'behoefte aan bedrijfskapitaal'?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "C1b",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe wordt de behoefte aan bedrijfskapitaal berekend?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "C1c",
+      "vraagtype": "open",
+      "vraagstelling": "Vanuit het oogpunt van financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie logisch onderscheiden deelvragen (definitie, berekening, maatregelen) in één continue zin. Elk is zelfstandig beantwoordbaar. Geen tabellen of OCR-issues.",
+  "kwaliteits_flags": []
+}

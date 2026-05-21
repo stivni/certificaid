@@ -1,0 +1,35 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrB5",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Toelichting bij kapitaalsubsidies: meldingen in de jaarrekening",
+  "themas": [
+    "kapitaalsubsidie",
+    "toelichting jaarrekening",
+    "boekhoudverplichtingen",
+    "boekjaar 2002",
+    "boekjaar 2003"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Verwijzing naar geval A uit vraag A.1 (kapitaalsubsidie boekjaar 2002 op een afschrijfbaar actief)."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "B.5 Vraag",
+      "vraagtype": "open",
+      "vraagstelling": "Welke meldingen moeten in de toelichting gedaan worden voor het boekjaar 2002 en 2003 voor de kapitaalsubsidies van geval A?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Open vraag over toelichtingsvereisten bij kapitaalsubsidies voor twee boekjaren. Bouwt voort op casus van vrA1 (geval A). Vraagtype 'open' (procedure). Context verwijst naar geval A.",
+  "kwaliteits_flags": []
+}

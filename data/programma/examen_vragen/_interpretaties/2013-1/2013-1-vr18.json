@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr18",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Opmerkingen bij de ontbindingsprocedure van BVBA GOFORT",
+  "themas": ["ontbinding vennootschap", "staat van activa en passiva", "controleverslag", "algemene vergadering", "vennoot minderheid", "verdaging vergadering"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Voor BVBA GOFORT werd een staat van activa en passiva afgesloten per 31/01/2013 opgesteld en ondertekend door de interne boekhouder, met het oog op de ontbinding van de vennootschap. De algemene vergadering wordt samengeroepen om te beslissen op 15/04/2013 bij notaris. Het controleverslag werd opgesteld door de externe accountant die niet de reguliere adviseur is op 14/04/2013. Alle aandeelhouders bevestigen hun aanwezigheid met uitzondering van een correct geïnformeerde vennoot met 10% van de aandelen en die vraagt aan de zaakvoerders om de vergadering met drie weken te verdagen gezien hij in het buitenland is op 15/04/2013."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Geef drie opmerkingen bij de vorige opgave en geef aan wat er dient te gebeuren.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 4. Enkelvoudige open vraag die drie opmerkingen vraagt bij een probleemcasus.",
+  "kwaliteits_flags": []
+}

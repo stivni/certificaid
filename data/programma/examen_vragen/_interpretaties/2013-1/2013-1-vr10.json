@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr10",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Analytische test op tussentijdse resultaten door de interne controleafdeling",
+  "themas": ["interne controle", "analytische test", "tussentijdse resultaten", "werfkranen"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Het bedrijf koopt/verkoopt werfkranen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de interne controleafdeling kan uitgevoerd worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 4. Enkelvoudige open vraag om één voorbeeld van een analytische test te geven.",
+  "kwaliteits_flags": []
+}

@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr12",
+  "interpretatie_datum": "2026-05-21T10:10:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Audit — confirmatiebrieven: voorbehoud in verslag, remediëring en werkwijze",
+  "themas": [
+    "audit",
+    "confirmatiebrieven",
+    "debiteurenbevestiging",
+    "controleverslag",
+    "voorbehoud",
+    "auditwerkzaamheden"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Er worden onvoldoende antwoorden ontvangen op de confirmatie- of bevestigingsbrieven welke verzonden werden aan de klanten."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Moeten we daarvoor een voorbehoud in ons verslag maken?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Welke acties kan men ondernemen om aan dit onvoldoende aantal antwoorden te remediëren (geef twee voorbeelden)?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Welke is de werkwijze nadat we onze selectie hebben gemaakt van de klanten aan dewelke de confirmatiebrieven worden verzonden: door wie zijn de confirmatiebrieven opgesteld en getekend, aan wie moeten de antwoorden opgestuurd worden, wie verzendt de confirmatiebrieven?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie open deelvragen. Deelvraag a vraagt ja/nee + redenering, vandaar motivatie_verwacht: true. Het 'Antwoord'-label in tekst.txt is een OCR-artefact (antwoordruimte in PDF), geen inhoudelijk element.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

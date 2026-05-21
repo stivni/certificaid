@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr38",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Monopolieopdrachten: onafhankelijkheid extern vs. intern accountant",
+  "themas": ["monopolieopdracht", "onafhankelijkheid", "extern accountant", "intern accountant", "omvormingsverslag", "individueel controlerecht", "tableau", "beroepsincompatibiliteit"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Kan u in volgende situatie als externe accountant een monopolieopdracht aanvaarden?"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "U bent werkzaam in een accountantskantoor en één van uw collega accountants binnen hetzelfde kantoor vraagt om een verslag op te maken in het kader van een omvorming van één van de dossiers die hij opvolgt. Kan u deze monopolieopdracht aanvaarden? Licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.",
+      "opties": [
+        { "id": "a", "tekst": "Ja" },
+        { "id": "b", "tekst": "Neen" }
+      ],
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "U bent ingeschreven op het tableau van interne accountants en bent in die functie werkzaam als bediende in een bedrijf. Eén van de aandeelhouders spreekt u aan om een opdracht uit te voeren in het kader van de individuele onderzoeks- en controlebevoegdheid van vennoten. Er is geen commissaris-revisor aangesteld. Kan u deze monopolieopdracht aanvaarden? Licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.",
+      "opties": [
+        { "id": "a", "tekst": "Ja" },
+        { "id": "b", "tekst": "Neen" }
+      ],
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee mc_keuze-vragen (Ja/Nee) elk met verplichte toelichting. 'Licht kort toe' integreert als motivatie_verwacht:true op elk van beide deelvragen.",
+  "kwaliteits_flags": []
+}

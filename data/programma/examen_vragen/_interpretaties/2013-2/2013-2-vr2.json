@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr2",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Jaarrekening: bestuurdersvermelding en afschrijvingspercentage-wijziging",
+  "themas": ["jaarrekening", "bestuurders", "afschrijvingen", "economische levensduur", "openbaarmaking", "prospectief"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het afgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op: welke bestuurders vermeldt zij?",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment",
+      "topic_only_onderwerp": null
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens een langere economische levensduur. Hoe verwerkt zij dit?",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment",
+      "topic_only_onderwerp": null
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Tekst.txt is onvolledig — enkel de subvraag-beschrijvingen zijn zichtbaar, de antwoordopties ontbreken in de tekst. PNG toont dat dit MC-vragen zijn (kruisjes in tabel), maar de antwoordopties zijn niet volledig leesbaar in de tekst. Verwerkt als open vragen (fragment) gezien de ontbrekende keuze-opties. De PNG toont dezelfde pagina als vr1 (startpagina), niet de juiste pagina met vr2-inhoud — OCR-probleem.",
+  "kwaliteits_flags": ["ocr_artefact", "subvraag_zonder_inhoud"]
+}

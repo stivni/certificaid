@@ -1,0 +1,31 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI4",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Gerechtelijk akkoord voor burgerlijke vennootschap met handelsvorm",
+  "themas": [
+    "gerechtelijk akkoord",
+    "burgerlijke vennootschap",
+    "handelsvennootschap",
+    "faillissement",
+    "WCO",
+    "rechtsvorm"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "I4",
+      "vraagtype": "open",
+      "vraagstelling": "Kan een burgerlijke vennootschap die de rechtsvorm van een handelsvennootschap heeft aangenomen, een gerechtelijk akkoord bekomen? Verantwoord uw antwoord.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Ja/nee met wettelijke verantwoording. 'Verantwoord' is geïntegreerd als motivatie_verwacht=true, niet als aparte deelvraag.",
+  "kwaliteits_flags": []
+}

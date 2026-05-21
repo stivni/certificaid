@@ -1,0 +1,54 @@
+**Welke btw gevolgen zijn verbonden aan de onderstaande gegevens:
+Geef hierbij een woordje uitleg (geen verwijzing naar artikelnummers) en vermeld
+overeenkomstig(e) bedrag(en).**
+
+De nummers van de roosters van de btw-aangifte moet je niet
+vermelden.
+a) A, een handelaar in computers richt een gebouw op in 2012 (= opslagplaats van
+goederen) (in gebruik name op 01.07.2012).
+Facturen 2011 : 250 000,00
+Facturen 2012 : 250 000,00
+Het gebouw wordt verkocht op 01 mei 2016 voor een bedrag van
+520 000,00 (€ 450 000,00 voor het gebouw en € 70 000,00 voor de grond) aan B.
+B zal in de toekomst het gebouw verhuren aan A.
+Wat zijn de gevolgen inzake btw in hoofde van A ?
+
+> b) Een btw-plichtige vennootschap koopt in 2013 een nieuwe personenwagen aan die
+gratis ter beschikking wordt gesteld aan een personeelslid.
+De aankoopprijs van de wagen bedraagt € 30 000,00 (excl. btw). Het personeelslid mag
+de wagen ook voor privédoeleinden gebruiken.
+Bij aankoop werd het beroepsgebruik geraamd op 60%. Einde 2013 bleek het
+effectieve beroepsgebruik 30% te zijn.
+
+**Antwoord
+c) In 2008 : aankoop van een personenwagen door een btw-belastingplichtige BVBA voor
+€ 30 000,00 + € 6 300,00 btw.**
+
+(in 2008 uitgeoefend recht op aftrek : 6 300,00 x 50% = 3 150,00)
+In 2013 : verkoop van die wagen voor € 8 000,00 (excl. btw).
+Wat zijn de btw gevolgen bij verkoop van de wagen in 2013?
+
+=== subvraag a) ===
+A, een handelaar in computers richt een gebouw op in 2012 (= opslagplaats van
+goederen) (in gebruik name op 01.07.2012).
+Facturen 2011 : 250 000,00
+Facturen 2012 : 250 000,00
+Het gebouw wordt verkocht op 01 mei 2016 voor een bedrag van
+520 000,00 (€ 450 000,00 voor het gebouw en € 70 000,00 voor de grond) aan B.
+B zal in de toekomst het gebouw verhuren aan A.
+Wat zijn de gevolgen inzake btw in hoofde van A ?
+
+=== subvraag b) ===
+Een btw-plichtige vennootschap koopt in 2013 een nieuwe personenwagen aan die
+gratis ter beschikking wordt gesteld aan een personeelslid.
+De aankoopprijs van de wagen bedraagt € 30 000,00 (excl. btw). Het personeelslid mag
+de wagen ook voor privédoeleinden gebruiken.
+Bij aankoop werd het beroepsgebruik geraamd op 60%. Einde 2013 bleek het
+effectieve beroepsgebruik 30% te zijn.
+
+=== subvraag c) ===
+In 2008 : aankoop van een personenwagen door een btw-belastingplichtige BVBA voor
+€ 30 000,00 + € 6 300,00 btw.
+(in 2008 uitgeoefend recht op aftrek : 6 300,00 x 50% = 3 150,00)
+In 2013 : verkoop van die wagen voor € 8 000,00 (excl. btw).
+Wat zijn de btw gevolgen bij verkoop van de wagen in 2013?

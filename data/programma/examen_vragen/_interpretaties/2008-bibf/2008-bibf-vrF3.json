@@ -1,0 +1,69 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF3",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Berekening belastingvoordeel dienstencheques voor een echtpaar",
+  "themas": [
+    "dienstencheques",
+    "belastingvermindering",
+    "personenbelasting",
+    "plafond",
+    "netto-inkomen",
+    "onderhoudsgelden"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een echtpaar heeft dienstencheques aangekocht: 3.000,00 EUR op naam van de aangever (max. AJ 2008: 2.360,00 EUR) en 1.000,00 EUR op naam van de partner."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Inkomensgegevens",
+      "rijen": [
+        {
+          "label": "Totaal netto-inkomen aangever",
+          "bedrag": 33900
+        },
+        {
+          "label": "Aftrek onderhoudsgelden aangever",
+          "bedrag": -4000
+        },
+        {
+          "label": "Gezamenlijk belastbaar inkomen aangever",
+          "bedrag": 29900
+        },
+        {
+          "label": "Totaal netto-inkomen partner",
+          "bedrag": 17100
+        },
+        {
+          "label": "Gezamenlijk belastbaar inkomen partner",
+          "bedrag": 17100
+        }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "F3",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken het belastingvoordeel van de dienstencheques rekening houdend met de opgegeven gegevens.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "a",
+    "tekst": "2.360 x 30% = 708; 1.000 x 30% = 300; 1.008 x 33.900/51.000 = 670,02; 1.008 x 17.100/51.000 = 337,98",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "De berekening na de gegevenstabel is het modelantwoord. PNG pagina 12 bevestigt dit. Gegevenstabel gestructureerd. Modelantwoord NIET opgenomen in vraagstelling.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig",
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

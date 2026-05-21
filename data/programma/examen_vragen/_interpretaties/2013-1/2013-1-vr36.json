@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr36",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Publiciteitsregels voor externe accountant en belastingconsulent",
+  "themas": ["publiciteit", "externe accountant", "belastingconsulent", "erelonen", "beroepsregels", "sectoren"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De externe accountant en/of belastingconsulent mag publiciteit voeren, doch dient zich te houden aan een aantal regels. Welke van de onderstaande stellingen is juist of fout?"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent mag geen vergelijkende studie maken van de erelonen die collega's in zijn buurt aanrekenen in vergelijking met de erelonen die hij zelf aanrekent.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent mag zijn diensten aan sterk verminderde prijzen aanbieden om op die manier de nieuwe klant aan zich te binden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent mag, zoals dat gebruikelijk is bij andere sectoren, een opsomming geven van enkele van zijn belangrijke klanten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent mag opgeven in welke sectoren hij werkzaam is om zo een potentiële klant inzicht te geven in zijn bekwaamheden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 6. 4 juist/fout-stellingen over publiciteitsregels.",
+  "kwaliteits_flags": []
+}

@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr35",
+  "interpretatie_datum": "2026-05-21T10:33:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Notarieel recht — aanwijzing van persoon bij compromis (sterkmaking) en registratie",
+  "themas": [
+    "notarieel recht",
+    "aanwijzing van persoon",
+    "sterkmaking",
+    "compromis",
+    "authentieke akte",
+    "registratie",
+    "registratierecht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De BVBA Mokka wil het aanpalende terrein aankopen maar wil vermijden dat de eigenaar de prijs verhoogt als hij weet dat de BVBA geïnteresseerd is. De zaakvoerder vraagt zijn neef (zonder band met de BVBA, onbekend bij de eigenaar) om een bod te doen. De eigenaar stemt in en sluit een onderhandse verkoopovereenkomst met de neef. De neef verklaart dat hij het goed koopt voor zichzelf of enige andere later aan te wijzen persoon."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 1",
+      "vraagtype": "open",
+      "vraagstelling": "Welke oplossing zult u hem voorstellen? Zet uw antwoord uiteen en vermeld: (1) welke akte(n) moet(en) worden verleden, vermeld de akte(n) met gebruikmaking van de geëigende terminologie; (2) welke de partijen zijn die deze akte(n) moeten ondertekenen; (3) welke vorm (onderhandse of authentieke akte) deze akte(n) zal (zullen) aannemen; (4) of die akte(n) moet(en) worden onderworpen aan de formaliteit van registratie; (5) indien die akte(n) moet(en) worden geregistreerd, welk tarief zal worden toegepast (vermeld alleen vast recht of evenredig recht en niet het percentage).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige open vraag met vijf sub-instructies die deel uitmaken van de vraagstelling (geen aparte deelvragen). De casus behandelt het mechanisme van de aanwijzing van persoon (sterkmaking) bij onroerend-goedtransacties.",
+  "kwaliteits_flags": []
+}

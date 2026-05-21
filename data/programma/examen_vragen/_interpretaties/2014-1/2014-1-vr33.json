@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr33",
+  "interpretatie_datum": "2026-05-21T10:31:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW — plaatsbepaling dienst accountant aan particulier (B2C, algemene regel)",
+  "themas": [
+    "BTW",
+    "plaatsbepaling dienst",
+    "accountant",
+    "particulier",
+    "B2C",
+    "vestigingsplaats dienstverrichter"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Julien, bediende bij een bank in België, doet een beroep op een in Charleroi gevestigde zelfstandige accountant (gewone belastingplichtige) om zijn belastingaangifte op te stellen. De accountant stelt die belastingaangifte op in de trein, op weg naar een conferentie in Parijs, en wel tijdens het gedeelte van de reisweg afgelegd in Frankrijk, en rekent Julien 500 EUR aan voor zijn werk."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 4",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Duid de goede oplossing aan.",
+      "opties": [
+        { "id": "a", "tekst": "De btw is niet van toepassing want de klant is een particulier." },
+        { "id": "b", "tekst": "De Belgische btw is niet van toepassing, want het werk werd daadwerkelijk in Frankrijk uitgevoerd." },
+        { "id": "c", "tekst": "De Belgische btw is van toepassing, want de accountant, dienstverrichter, is gevestigd in België." },
+        { "id": "d", "tekst": "De btw is van toepassing in België, want de afnemer is gevestigd in België." },
+        { "id": "e", "tekst": "De btw is van toepassing in Frankrijk, plaats van de materiële verrichting van de dienst." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag over BTW-plaatsbepaling dienst in B2C-context. Algemene regel B2C: vestigingsplaats dienstverrichter. Materiële uitvoeringsplaats is niet relevant voor de algemene dienstregel.",
+  "kwaliteits_flags": []
+}

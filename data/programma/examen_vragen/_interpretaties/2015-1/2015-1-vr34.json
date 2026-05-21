@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr34",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsbelasting: abnormale voordelen en impact op belastbare winst",
+  "themas": ["abnormale voordelen", "DBI-aftrek", "notionele intrestaftrek", "investeringsaftrek", "belastbare winst", "vennootschapsbelasting", "transfer pricing"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vennootschap ABC realiseert in belastbaar tijdperk 2013 een fiscale winst (1ste bewerking) van 500.000 EUR. Rechten: DBI-aftrek 480.000 EUR, notionele intrestaftrek 200.000 EUR, investeringsaftrek 20.000 EUR. De fiscus bewijst dat de vennootschap handelsgoederen kocht bij een verbonden bedrijf tegen een prijs die 50.000 EUR beneden de normale marktprijs ligt. Aanslagjaar 2014."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Hoeveel bedraagt de belastbare winst?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 2 van de sectie 'Vennootschapsbelasting'. De tekst.txt heeft twee deelvragen (a en b), maar b is 'Geef een korte verklaring' — een pure motivatie-instructie bij a. Geïntegreerd via motivatie_verwacht: true.",
+  "kwaliteits_flags": []
+}

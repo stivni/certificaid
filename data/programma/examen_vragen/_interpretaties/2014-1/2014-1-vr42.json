@@ -1,0 +1,68 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr42",
+  "interpretatie_datum": "2026-05-21T10:40:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Kwaliteitstoetsing ITAA — soort toetsing herkennen voor gegeven situaties",
+  "themas": [
+    "kwaliteitstoetsing",
+    "ITAA",
+    "periodieke toetsing",
+    "thematische toetsing",
+    "vervolgtoetsing",
+    "incidententoetsing",
+    "antiwitwaswetgeving"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Het principe van de kwaliteitstoetsing is dat iedere accountant om de zeven jaar op kantoorniveau gecontroleerd wordt (periodieke toetsing). Daarnaast zijn er drie andere soorten: de vervolgtoetsing, de thematische toetsing en de incidententoetsing."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Er wordt aangekondigd om een controle te doen in verband met de toepassing van de antiwitwaswetgeving. Welk soort toetsing?",
+      "opties": [
+        { "id": "a", "tekst": "Vervolgtoetsing" },
+        { "id": "b", "tekst": "Thematische toetsing" },
+        { "id": "c", "tekst": "Incidententoetsing" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Ingevolge voorgaande toetsing op de toepassing van de antiwitwaswetgeving heeft men vastgesteld dat in verschillende dossiers de attesten uiteindelijke begunstigde ontbreken en men kondigt aan om dit opnieuw te komen controleren. Welk soort toetsing?",
+      "opties": [
+        { "id": "a", "tekst": "Vervolgtoetsing" },
+        { "id": "b", "tekst": "Thematische toetsing" },
+        { "id": "c", "tekst": "Incidententoetsing" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Er wordt een klacht neergelegd door een confrater in verband met het niet of onvolledig overdragen van een dossier. Welk soort toetsing?",
+      "opties": [
+        { "id": "a", "tekst": "Vervolgtoetsing" },
+        { "id": "b", "tekst": "Thematische toetsing" },
+        { "id": "c", "tekst": "Incidententoetsing" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie MC-deelvragen met telkens dezelfde drie opties. tekst.txt toont a en b met hun opties maar deelvraag c staat alleen in de subvraag-labels (geen opties in tekst.txt); deelvraag c is gereconstrueerd met dezelfde drie opties op basis van de structuur. PNG pagina_02 zou dit kunnen bevestigen maar is niet beschikbaar voor verificatie.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

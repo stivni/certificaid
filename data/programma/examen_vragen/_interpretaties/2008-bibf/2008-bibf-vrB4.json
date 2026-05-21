@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrB4",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Berekening opleidingskost in de sociale balans bij seminaries tijdens diensturen",
+  "themas": [
+    "sociale balans",
+    "personeelsopleiding",
+    "seminarie",
+    "kostenberekening",
+    "loonkost",
+    "personeelsbeleid"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Personeelsleden hebben, tijdens de diensturen, seminaries gevolgd buiten de onderneming. In de sociale balans heeft een rubriek betrekking op de kosten van de vennootschap voor de opleiding van de werknemers."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "B4",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe gaat u de kost bepalen die in de sociale balans moet worden vermeld?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige vraag over kostenberekening voor de sociale balans. Geen tabellen of OCR-issues.",
+  "kwaliteits_flags": []
+}

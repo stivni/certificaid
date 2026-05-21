@@ -1,0 +1,42 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF4",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Gevolgen aankoop woning uitsluitend op naam van één echtgenoot voor hypothecaire aftrek",
+  "themas": [
+    "scheiding van goederen",
+    "hypothecaire lening",
+    "woonbonus",
+    "gemeenschappelijke aanslag",
+    "minimumoverdracht 15%",
+    "art. 105 WIB"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Wim is gehuwd met Inge in het stelsel van scheiding van goederen. Ze zijn zinnens een eerste huis te kopen. Gezien de zelfstandige activiteit van Inge stellen ze voor de aankoop niet in onverdeeldheid te doen, maar op naam van Wim alleen. Wim gaat voor de financiering een hypothecaire lening aan."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "F4",
+      "vraagtype": "open",
+      "vraagstelling": "Waar moet u rekening mee houden wanneer Wim voor de financiering van de aankoop een hypothecaire lening aangaat?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "a",
+    "tekst": "Zodra een gemeenschappelijke aanslag gevestigd wordt, dient minstens 15% van de aftrekbare besteding bij de partner aangegeven worden. Vermits Wim de enige eigenaar is, gaat die 15% van de aftrekbare besteding verloren (art. 105, 2° lid WIB).",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Adviesvraag met wettelijke verantwoording. De tekst na de vraag is het modelantwoord. NIET opgenomen.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

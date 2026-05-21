@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI3",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Procedure tegenstrijdig belang voor zaakvoerder-enige vennoot van een BVBA",
+  "themas": [
+    "BVBA",
+    "zaakvoerder",
+    "tegenstrijdig belang",
+    "enige vennoot",
+    "art. 259 W.Venn.",
+    "deontologie bestuurder"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De zaakvoerder van een BVBA is de enige vennoot."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "I3",
+      "vraagtype": "open",
+      "vraagstelling": "Moet een procedure worden gevolgd wanneer de zaakvoerder bij een verrichting een belang heeft, van vermogensrechtelijke aard, dat strijdig is met de belangen van de vennootschap?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Ja/nee-vraag met juridische verantwoording vereist (motivatie_verwacht=true). OCR-typo 'vermogenrechtelijke' → gecorrigeerd naar 'vermogensrechtelijke'.",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
+}

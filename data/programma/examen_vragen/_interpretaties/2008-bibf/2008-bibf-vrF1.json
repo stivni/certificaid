@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Effect van erfenis bijkomend onroerend goed op hypothecaire aftrek en bouwsparen",
+  "themas": [
+    "hypothecaire lening",
+    "intrestaftrek",
+    "bouwsparen",
+    "woonbonus",
+    "enige woning",
+    "erfenis",
+    "onroerende goederen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Gert is ongehuwd en woont in Mechelen in een pand waarvan hij eigenaar is (KI 1.700). Gert erft in 2007 als enige zoon het huis van zijn ouders. Er zijn geen andere onroerende eigendommen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "F1.1",
+      "vraagtype": "open",
+      "vraagstelling": "Indien Gert een hypothecaire lening heeft afgesloten op 13.03.2004: wat zijn de gevolgen van de erfenis op vlak van intrestaftrek en kapitaalaflossing?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "F1.2",
+      "vraagtype": "open",
+      "vraagstelling": "Indien Gert deze hypothecaire lening afgesloten had op 13.03.2005: wat zijn de gevolgen van de erfenis op vlak van intrestaftrek en kapitaalaflossing?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "Na elke scenario staan de uitgewerkte modelantwoorden (bv. 'Gewone intrestaftrek blijft / aanvullende intrestaftrek gaat verloren / Kapitaalaflossing: belastingvermindering voor bouwsparen blijft').",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Twee scenario-deelvragen gebaseerd op datum hypothecaire lening (vóór/na de woonbonus-hervorming van 2005). Modelantwoorden zijn NIET opgenomen.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

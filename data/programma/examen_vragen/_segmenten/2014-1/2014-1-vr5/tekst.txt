@@ -1,0 +1,65 @@
+_In bijlage vindt U de balans na winstverdeling en de resultatenrekening van een cliënt._
+
+Kruis
+het juiste antwoord aan voor de ratio’s van het BOEKJAAR.
+Uit de toelichting tot de jaarrekening blijkt o.a. dat :
+1. Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor
+361 869,98 EUR;
+2. Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415,00
+EUR;
+3. Er intrestsubsidies werden aangerekend op de resultatenrekening voor een bedrag
+van 6 000,00 EUR;
+
+4. Er geen disconto ten laste van de onderneming bij de verhandeling van vorderingen
+geboekt werd;
+5. Er gemiddeld 38,20 werknemers (voltijds equivalent) tewerkgesteld waren;
+6. De te bestemmen winst van het boekjaar integraal gereserveerd werd.
+
+
+(7 441 663 – 3 185 295 – 1 192 317) : 38,20 = 80 210,76
+
+(7 441 663 – 415 – 3 185 295 – 1 192 317) : 38,20 = 80 199,90
+
+(7 441 663 – 3 185 295 – 1 192 317 – 1 548 647) : 38,20 = 39 670,26
+
+(7 441 663 – 3 185 295 – 1 192 317 – 436 469 – 879) : 38,20 = 68 761,86
+
+
+1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 – 1 210 536 = 6 648 695
+
+120 000 + 1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 – 1 210 536 = 6 768 695
+
+1 371 010 + 1 739 806 +2 200 000 + 2 548 415 + 2 704 – 1 210 536 – 39 932 = 6 611 467
+
+120 000 + 1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 + 2 704 – 1 210 536 – 39 932
+= 6 731 467
+
+
+((877 279 + 46 934 + 211 950 – 6 000) : 9 081 054) % = 12,45
+
+((577 279 + 109 642 + 185 720 – 6 000) : 9 081 054) % = 9,54
+
+((877 279 + 46 934 + 211 950) : 9 081 054) % = 12,51
+
+((577 279 + 109 642 + 211 950 – 6 000) : 9 081 054) % = 9,83
+
+
+(1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 + 2 704) : (1 210 536 + 39 932) = 6,29
+
+(1 739 806 + 2 200 000 + 2 548 415) : 1 210 536 = 5,36
+
+(1 371 010 + 1 739 806 + 2 200 000 + 2 548 415) : 1 210 536 = 6, 49
+
+(1 739 806 + 2 200 000 + 2 548 415 + 2 704) : (1 210 536 + 39 932) = 5,19
+
+=== subvraag a) ===
+Bruto toegevoegde waarde per werknemer
+
+=== subvraag b) ===
+Nettobedrijfskapitaal
+
+=== subvraag c) ===
+Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten
+
+=== subvraag d) ===
+Liquiditeit in enge zin

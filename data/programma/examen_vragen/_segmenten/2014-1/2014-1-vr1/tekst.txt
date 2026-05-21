@@ -1,0 +1,38 @@
+Vraag 1 … / 2 punten
+Vennootschap PETRUS BVBA sluit haar jaarrekening af op 31 december. De vennootschap
+wou gebruik maken van de nieuwe maatregel rond het vastklikken van reserves.
+Op 20 december 2013 heeft een bijzondere algemene vergadering de beslissing genomen om
+een gedeelte van de reserves uit te keren. Het gaat om een bruto bedrag van 1.000.000 EUR.
+Deze uitkering zal gevolgd worden door een opname van deze reserves in kapitaal voor een
+bedrag van 900.000 EUR.
+De betaalbaarstelling is vastgesteld op 27 december 2013.
+De vennootschap heeft de roerende voorheffing betaald op 2 januari 2014. Het nettodividend
+werd rechtstreeks op een geblokkeerde bankrekening overgemaakt op 2 januari 2014. De
+authentieke akte werd verleden op 24 januari 2014.
+De toestand in haar eigen vermogen voor de genomen beslissing was als volgt:
+
+| Geplaatst kapitaal | 100.000 |
+|---|---|
+| Wettelijke reserve | 10.000 |
+| Beschikbare reserves | 1.800.000 |
+| Overgedragen winst | 1.000 |
+
+Hoe zal de jaarrekening per 31 december 2013 eruit zien, zonder rekening te houden met het
+resultaat van het boekjaar?
+Antwoord
+
+Het geplaatste kapitaal bedraagt 1.000.000 EUR.
+
+Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 1.800.000 EUR.
+We vinden in de resultaatverwerking “vergoeding van het kapitaal” voor 1.000.000 EUR, en
+op een passiefrekening “dividenden over het boekjaar” voor eenzelfde bedrag.
+
+Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 800.000 EUR. Er
+staat in de resultaatverwerking “vergoeding van het kapitaal” voor 1.000.000 EUR, en op een
+passiefrekening “dividenden over het boekjaar” voor een bedrag van 900.000 EUR,
+“ingehouden voorheffing” 100.000 EUR.
+
+Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 800.000 EUR. Er
+staat wel in de resultaatverwerking “vergoeding van het kapitaal” voor 1.000.000 EUR. Op
+het passief vinden we ook de rekening “Ontvangen voorschotten op kapitaal” voor een
+bedrag van 900.000 EUR.

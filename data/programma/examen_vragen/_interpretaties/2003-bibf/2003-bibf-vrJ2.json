@@ -1,0 +1,30 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrJ2",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Procedure ontslag en opzegtermijn voor bedienden",
+  "themas": [
+    "arbeidsrecht",
+    "ontslag bediende",
+    "opzegtermijn",
+    "ontslagprocedure",
+    "arbeidsovereenkomst"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "J.2",
+      "vraagtype": "open",
+      "vraagstelling": "Welk is de procedure om een bediende te ontslaan en een opzegtermijn te geven?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Open procedurevraag over ontslag bediende. Vraagtype 'open' (procedure). Geen context-blok — vraag is generiek.",
+  "kwaliteits_flags": []
+}

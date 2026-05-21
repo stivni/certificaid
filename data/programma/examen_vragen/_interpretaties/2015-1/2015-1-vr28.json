@@ -1,0 +1,35 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr28",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Beroepsverliezen personenbelasting: onjuiste uitspraken identificeren",
+  "themas": ["beroepsverliezen", "personenbelasting", "verliesoverdracht", "huwelijksquotiënt", "meewerkinkomen", "aftrek beroepskosten"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Beroepsverliezen. Geef aan welke van onderstaande uitspraken ONJUIST is.",
+      "opties": [
+        { "id": "a", "tekst": "Wanneer in een welbepaalde beroepswerkzaamheid, na aftrek van de beroepskosten, een verlies overblijft, wordt dat eerst afgetrokken van de beroepsinkomsten die dezelfde belastingplichtige tijdens hetzelfde belastbare tijdperk uit andere beroepswerkzaamheden heeft verkregen." },
+        { "id": "b", "tekst": "De aftrek van een beroepsverlies wordt eerst proportioneel toegerekend aan de gezamenlijk belaste beroepsinkomsten en het saldo wordt vervolgens proportioneel verdeeld over de afzonderlijk belaste beroepsinkomsten." },
+        { "id": "c", "tekst": "Wanneer de positieve beroepsinkomsten van een belastingplichtige ontoereikend zijn om de beroepsverliezen van de huidige en de vorige belastbare tijdperken aan te zuiveren, wordt het saldo toegerekend aan de positieve beroepsinkomsten van de andere echtgenoot, behalve wanneer de echtgenoten gehuwd zijn onder het stelsel van scheiding van goederen." },
+        { "id": "d", "tekst": "Wanneer alle mogelijkheden om de beroepsverliezen aan te rekenen uitgeput zijn voor een belastbaar tijdperk, wordt het saldo overgedragen naar het volgende jaar en afgetrokken van de positieve beroepsinkomsten van dat jaar." },
+        { "id": "e", "tekst": "Indien de echtgenoot waaraan een huwelijksquotiënt wordt toegekend al een meewerkinkomen ontvangt dat geheel of volledig opgeslorpt wordt door de aanzuivering van beroepsverliezen, moet het huwelijksquotiënt worden verminderd met de beroepsverliezen die aan het meewerkinkomen werden toegerekend." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 1 van de sectie 'Personenbelasting' (aanslagjaar 2014 – inkomsten 2013). Enkelvoudige MC-vraag met 5 opties, kandidaat identificeert de ONJUISTE uitspraak.",
+  "kwaliteits_flags": []
+}

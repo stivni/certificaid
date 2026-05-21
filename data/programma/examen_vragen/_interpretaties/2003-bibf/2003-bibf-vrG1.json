@@ -1,0 +1,85 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrG1",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsbelasting: invullen aangifte en belastbare basis BVBA Albert",
+  "themas": [
+    "vennootschapsbelasting",
+    "aangifte vennootschapsbelasting",
+    "definitief belaste inkomsten",
+    "DBI-aftrek",
+    "autokosten",
+    "afschrijvingen",
+    "liberaliteiten",
+    "belastbare basis"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De BVBA Albert legt een balans afgesloten op 31/12/2002 voor, voorafgaand aan de bestemming van het resultaat. De algemene vergadering van 17 mei 2003 beslist om het resultaat van het boekjaar te bestemmen: wettelijke reserve nihil (10% reeds bereikt), uitkering dividenden 40.000 EUR, toekenning beschikbare reserve 18.000 EUR, overgedragen winst 4.000 EUR."
+    },
+    {
+      "type": "balans",
+      "actief": {
+        "headers": ["Rubriek", "Bedrag (EUR)"],
+        "rows": [
+          ["Vaste Activa", "79.260"],
+          ["Financiële Activa", "30.000"],
+          ["Vlottende Activa", "20.000"],
+          ["TOTAAL ACTIVA", "129.260"]
+        ]
+      },
+      "passief": {
+        "headers": ["Rubriek", "Bedrag (EUR)"],
+        "rows": [
+          ["Onderschreven kapitaal", "18.600"],
+          ["Herwaarderingsmeerwaarden", "600"],
+          ["Wettelijke reserve", "1.860"],
+          ["Vrijgestelde reserve", "200"],
+          ["Beschikbare reserve", "16.000"],
+          ["Te bestemmen winst van het boekjaar", "62.000"],
+          ["Schulden op minder dan één jaar", "30.000"],
+          ["TOTAAL PASSIVA", "129.260"]
+        ]
+      }
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Bijkomende gegevens — opbrengsten",
+      "rijen": [
+        {"label": "Dividenden ontvangen van NV (80% kapitaalparticipatie)", "bedrag": 1200},
+        {"label": "Roerende voorheffing op dividenden", "bedrag": 400}
+      ]
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Bijkomende gegevens — kosten (rekening 67/61/63/64)",
+      "rijen": [
+        {"label": "67 — Belastingen op inkomsten en voorafbetalingen", "bedrag": 20000},
+        {"label": "67 — Roerende voorheffing", "bedrag": 400},
+        {"label": "61 — Autokosten", "bedrag": 1500},
+        {"label": "63 — Afschrijvingen auto", "bedrag": 3800},
+        {"label": "61 — Representatiekosten, restaurants enz.", "bedrag": 2000},
+        {"label": "63 — Afschrijvingen genoteerde meerwaarde op vaste activa (1ste boekjaar)", "bedrag": 60},
+        {"label": "61 — Liberaliteiten totaal (waarvan 80 EUR verantwoord door attest)", "bedrag": 160},
+        {"label": "64 — Onroerende voorheffing", "bedrag": 100}
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "G.1 Opgave",
+      "vraagtype": "open",
+      "vraagstelling": "Vul vak per vak de aangifte in de vennootschapsbelasting in op basis van de bovenstaande cijfergegevens teneinde de belastbare basis in de vennootschapsbelasting vast te stellen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Uitgebreide berekening/procedure voor aangifte vennootschapsbelasting. Balans gesplitst actief/passief. Gegevens gestructureerd als twee gegevens_tabellen (opbrengsten en kostenposten). Afschrijving genoteerde meerwaarde was OCR-truncated (60 was zichtbaar in PNG). PNG bevestigt de volledige structuur.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar", "ocr_artefact"]
+}

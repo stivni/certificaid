@@ -1,0 +1,70 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr4",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Bijzondere mandaten — ontbinding, vereffening en omzetting",
+  "themas": ["ontbinding", "vereffening", "omzetting", "BV", "CV", "authentieke akte", "bijzondere mandaten", "WVV"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a1",
+      "label_in_pdf": "A.1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "CV ontbonden door AV bij gewone meerderheid.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "a2",
+      "label_in_pdf": "A.2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Vrijwillige ontbinding BV: verslag externe accountant is verplicht als de meerderheid van de aandeelhouders hierom vraagt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "a3",
+      "label_in_pdf": "A.3",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "AV voor de vereffening van BV moet bij authentieke akte.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "a4",
+      "label_in_pdf": "A.4",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "AV voor het sluiten van de vereffening van BV moet bij authentieke akte.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "B",
+      "vraagtype": "juist_fout",
+      "vraagstelling": null,
+      "motivatie_verwacht": false,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Verschillende stellingen juist of fout ivm ontbinding en vereffening"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "C",
+      "vraagtype": "juist_fout",
+      "vraagstelling": null,
+      "motivatie_verwacht": false,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Verschillende stellingen juist of fout ivm omzettingen"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A bevat 4 concrete stellingen die elk als afzonderlijke juist/fout-deelvraag worden gemodelleerd (a1–a4), conform spec §4 (5 stellingen onder één paraplu = 5 deelvragen). Deelvragen B en C zijn topic_only: enkel onderwerp, geen stellingen bewaard in de herinnering.",
+  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+}

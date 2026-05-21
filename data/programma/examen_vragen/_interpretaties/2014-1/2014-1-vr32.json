@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr32",
+  "interpretatie_datum": "2026-05-21T10:30:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW — boekhoudster in bijberoep: BTW-plicht en belastingplichtige hoedanigheid",
+  "themas": [
+    "BTW",
+    "belastingplichtige",
+    "bijberoep",
+    "zelfstandige",
+    "kleine onderneming vrijstelling",
+    "dienstverlening"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Sophie, intern boekhoudster bij de firma ElectroStar in Brussel, doet sinds een jaar als zelfstandige in bijberoep (na haar dagtaak) de boekhouding van de firma Libro. In 2013 ontvangt ze daarvoor 1.500 EUR per maand. In haar aangifte in de personenbelasting geeft zij dit bedrag aan onder de diverse inkomsten."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 3",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Duid de goede oplossing aan.",
+      "opties": [
+        { "id": "a", "tekst": "De btw is niet van toepassing, want Sophie is geen btw-belastingplichtige. Ze handelt in het verlengde van haar job als werknemer en ze is dus niet zelfstandig." },
+        { "id": "b", "tekst": "De btw is niet van toepassing, want in haar aangifte in de personenbelasting geeft Sophie dit bedrag aan als diverse inkomsten." },
+        { "id": "c", "tekst": "De btw is niet van toepassing, want Sophie kan vrijgesteld worden van de btw gelet op het geringe bedrag van haar omzet." },
+        { "id": "d", "tekst": "De btw is van toepassing, want het betreft een dienst verricht door een als zodanig handelend zelfstandig belastingplichtige." },
+        { "id": "e", "tekst": "De btw is van toepassing, want het betreft een levering van goederen verricht door een als zodanig handelend zelfstandig belastingplichtige." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag over BTW-statuut van een persoon die in bijberoep een economische activiteit uitoefent. tekst.txt heeft een 'Antwoord'-label bij optie a — dit is OCR-artefact van de antwoordruimte, geen correcte aanduiding.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

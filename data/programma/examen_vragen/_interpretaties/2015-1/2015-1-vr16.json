@@ -1,0 +1,28 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr16",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Aanvaardingsprocedure auditdossier: weigeringsgronden",
+  "themas": ["aanvaardingsprocedure", "audit", "opdrachtaanvaarding", "onafhankelijkheid", "beroepsethiek", "accountantsonderzoek"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "open",
+      "vraagstelling": "Geef twee voorbeelden van situaties bij de aanvaardingsprocedure van de opdracht waarbij we het dossier mogelijks niet kunnen aanvaarden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 2 van de sectie 'Accountantsonderzoek'. Enkelvoudige open vraag naar twee weigeringsgronden bij opdrachtaanvaarding.",
+  "kwaliteits_flags": []
+}

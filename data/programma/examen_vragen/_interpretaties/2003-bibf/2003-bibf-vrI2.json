@@ -1,0 +1,45 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrI2",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Omzetting eenmanszaak naar BVBA: formaliteiten en registratierechten",
+  "themas": [
+    "omzetting eenmanszaak",
+    "BVBA-oprichting",
+    "inbreng",
+    "registratierechten",
+    "vennootschapsrecht",
+    "oprichtingsformaliteiten",
+    "rekening-courant"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een handelaar wenst zijn eenmanszaak om te zetten in een BVBA. Hij brengt in: gebouw (woon- en activiteitsgebouw) voor 200.000,00 EUR, materieel/apparatuur/meubilair voor 5.000,00 EUR, bestelwagen voor 10.000,00 EUR, gereed geld voor 10.000,00 EUR. De inbreng wordt vergoed met kapitaalaandelen voor 200.000,00 EUR en op rekening-courant voor 25.000,00 EUR."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de diverse formaliteiten (vennootschapsrechtelijke, sociale, fiscale, administratieve...) aan die nodig zijn voor en na het verlijden van de oprichtingsakte.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Geef aan hoeveel registratierechten hij zal betalen, wetende dat zijn inbreng als volgt vergoed wordt: met kapitaalaandelen voor 200.000,00 EUR en op rekening-courant voor 25.000,00 EUR.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee deelvragen: (a) formaliteiten bij oprichting, (b) berekening registratierechten. Vraagtype 'open' voor beide. De inbreng-informatie zit reeds in de casus-context.",
+  "kwaliteits_flags": []
+}

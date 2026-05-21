@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Onverenigbaarheid bestuursmandaat NV met beroep als erkend boekhouder-fiscalist",
+  "themas": [
+    "onverenigbaarheid",
+    "erkend boekhouder BIBF",
+    "bestuurder NV",
+    "deontologie",
+    "plichtenleer",
+    "onafhankelijkheid"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De afgevaardigd bestuurder van een NV gespecialiseerd in de voedingsnijverheid, waarvan u al jaren de boekhouding voert, vraagt u of u geen deel wenst uit te maken van de raad van bestuur van zijn onderneming."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "K1",
+      "vraagtype": "open",
+      "vraagstelling": "Wat antwoordt u aan uw cliënt?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Adviesvraag over onverenigbaarheid. De vraag vereist een gemotiveerd antwoord met verwijzing naar de plichtenleer. motivatie_verwacht=true.",
+  "kwaliteits_flags": []
+}

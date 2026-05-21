@@ -1,0 +1,4 @@
+Een auditprocedure is een gedetailleerde instructie voor het verzamelen van een bepaald
+auditbewijsmiddel.
+
+**Geef 4 soorten auditmethodes.**

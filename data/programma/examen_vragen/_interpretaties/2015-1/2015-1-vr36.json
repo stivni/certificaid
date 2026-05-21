@@ -1,0 +1,40 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr36",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW bij verkoop nieuwbouw: vergelijking BTW-stelsel vs. registratierecht",
+  "themas": ["btw nieuwbouw", "toevallige btw-belastingplichtige", "registratierechten", "verkoop woning", "btw aftrek", "Brussel"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Cliënt eigenaar van woning in Brussels Hoofdstedelijk Gewest. Grond aangekocht in 2006 voor 200.000 EUR (alle kosten inbegrepen). Bouw gestart in 2011, totale kostprijs 363.000 EUR (300.000 + 63.000 btw). Eerste ingebruikname: 1 juni 2013. Koper biedt 650.000 EUR inclusief alle belastingen. Notariskosten buiten beschouwing te laten."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Wat is voor uw cliënt de meest voordelige mogelijkheid?",
+      "opties": [
+        { "id": "a", "tekst": "De verkoper kan opteren als toevallige btw-belastingplichtige, zodanig dat hij de woning+grond onder het btw-stelsel kan verkopen en de btw op de oprichting in aftrek kan brengen. De winst op deze verkoop voor de cliënt zal het hoogst zijn." },
+        { "id": "b", "tekst": "Alhoewel de verkoper kan opteren als toevallige btw-belastingplichtige, is het beter om dit niet te doen en om de verkoop (grond+gebouw) onder Registratierecht te laten doorgaan. De winst op de verkoop onder Registratierecht zal voor de cliënt het hoogst zijn." },
+        { "id": "c", "tekst": "Alhoewel de verkoper kan opteren als toevallige btw-belastingplichtige, is het beter om dit niet te doen en om de verkoop (grond+gebouw) onder Registratierecht te laten doorgaan. De winst op de verkoop onder Registratierecht zal voor de cliënt het hoogst zijn omdat hij ook nog een deel van de vroeger betaalde Registratierechten kan verrekenen." },
+        { "id": "d", "tekst": "Er is geen mogelijkheid meer om de verkoop onder btw te laten plaatsvinden gezien de termijn voor het uitoefenen van de optie voor toevallige btw-belastingplichtige verstreken is." },
+        { "id": "e", "tekst": "De voordeligste situatie is de verkoop van de grond onder Registratierecht te laten plaatsvinden en de verkoop van de woning onder btw mits het uitoefenen van een optie als toevallige btw-belastingplichtige." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 1 van de sectie 'Belasting over de toegevoegde waarde'. Enkelvoudige MC-vraag met 5 opties. Kandidaat kiest meest voordelige mogelijkheid voor de verkoper.",
+  "kwaliteits_flags": []
+}

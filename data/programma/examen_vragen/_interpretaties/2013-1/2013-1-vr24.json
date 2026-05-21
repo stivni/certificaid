@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr24",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Berekening belastbare grondslag vennootschapsbelasting: voordelen alle aard firmawagens",
+  "themas": ["vennootschapsbelasting", "belastbare grondslag", "voordelen alle aard", "firmawagens", "gebroken boekjaar", "overgedragen fiscale verliezen", "aangifte"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een vennootschap heeft een boekjaar van 1 oktober 2011 tot en met 30 september 2012. In de periode tussen 1 januari 2012 tot en met 30 september 2012 zijn de belastbare voordelen van alle aard uit firmawagens voor de personeelsleden en de bedrijfsleiders van de vennootschap gelijk aan 100.000,00 euro. Al deze voordelen zijn belastbaar in de personenbelasting in hoofde van de genieters. De vennootschap beschikt over overgedragen fiscale verliezen voor aanslagjaar 2012 van 13.000,00 euro."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Fiscaal resultaat na 1ste bewerking",
+      "rijen": [
+        { "label": "Fiscaal resultaat na 1ste bewerking", "bedrag": 50000 },
+        { "label": "Aangroei reserves", "bedrag": 6000 },
+        { "label": "Verworpen uitgaven (incl. 17% x 100.000 VAA = 17.000)", "bedrag": 40000 },
+        { "label": "Uitgekeerde dividenden", "bedrag": 4000 }
+      ]
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Bepaal in onderstaande hypothese de belastbare grondslag van deze vennootschap.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Vul de bijgevoegde onderdelen van de aangifte in.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 4. De aangifte-bijlage staat in bijlage van het examen. Deelvraag b vereist het invullen van formuliervakjes.",
+  "kwaliteits_flags": []
+}

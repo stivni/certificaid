@@ -1,0 +1,39 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr28",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Successierechten bij verzaking aan nalatenschap door legataris",
+  "themas": ["successierechten", "nalatenschap", "legataris", "verzaking", "erfgename", "tarief successierechten"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer André, sinds meer dan 10 jaar weduwnaar, is overleden en laat als enige wettige erfgename zijn dochter Anne na. Korte tijd vóór zijn overlijden heeft de heer André een authentiek testament opgesteld (neergelegd bij een notaris) waarin hij mevrouw Michèle, met wie hij samenleeft, als algemeen legataris aanstelt. Wanneer mevrouw Michèle verneemt dat zij tot algemeen legataris is aangesteld, uit zij de wens om aan de nalatenschap te verzaken, want zij beschouwt de beslissing van de heer André jegens zijn dochter als een onrechtvaardigheid."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Hoe zal de ontvanger van de successierechten dit geval behandelen?",
+      "opties": [
+        { "id": "a", "tekst": "Mevrouw Michèle kan niet verzaken aan de nalatenschap, want het testament is authentiek. Zij zal het volledig netto actief van de nalatenschap ontvangen. Het toegepaste tarief is het tarief tussen personen zonder enige graad van verwantschap." },
+        { "id": "b", "tekst": "Anne zal het volledig netto actief van de nalatenschap ontvangen. Het toegepaste tarief is het tarief in rechte lijn, met de aftrek voorzien voor de erfgenaam in rechte lijn." },
+        { "id": "c", "tekst": "Aangezien de staat niet mag benadeeld worden ten gevolge van de verzaking, zal Anne de rechten verschuldigd zijn die hadden moeten betaald worden zonder verzaking aan de nalatenschap. Anne zal dus het volledig netto actief van de nalatenschap ontvangen. Het toegepaste tarief is het tarief tussen personen zonder enige graad van verwantschap." },
+        { "id": "d", "tekst": "Het testament kan op burgerrechtelijk gebied worden aangevochten. Anne kan inroepen dat zij, bij de uitvoering van het testament, haar recht op het voorbehouden gedeelte had kunnen laten gelden. Anne zal het volledig netto actief van de nalatenschap ontvangen. Het toegepaste tarief is het tarief in rechte lijn, voor de helft van de nalatenschap, en het tarief tussen personen zonder enige graad van verwantschap, voor de andere helft van de nalatenschap." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 3. Enkelvoudige MC-vraag met 4 opties. Opties volledig gereconstrueerd uit de tekst.",
+  "kwaliteits_flags": []
+}

@@ -1,0 +1,62 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr1",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boekhoudkundige verwerking van software-aankopen",
+  "themas": ["immateriële vaste activa", "materiële vaste activa", "software", "aanschaffingswaarde", "handelsgoederen", "bestelling in uitvoering", "BVBA"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Onderneming 'Softy' BVBA is één maand actief. Zij ontwikkelt software. De onderneming wil de volgende transacties in haar boekhouding verwerken en vraagt u advies bij de verwerking hiervan. Kruis het juiste antwoord aan."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Aankoop van 10 laptops met software Windows 8: hoe verwerkt u de Windows-software?",
+      "opties": [
+        { "id": "a", "tekst": "Dient zij de Windows software bij de aanschaffingswaarde van de laptops op te nemen?" },
+        { "id": "b", "tekst": "Dient zij de Windows software bij de immateriële vaste activa op te nemen?" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Aankoop van boekhoudsoftware bij firma XYZ: in welke rubriek wordt dit opgenomen?",
+      "opties": [
+        { "id": "a", "tekst": "Kan zij dit opnemen in de rubriek materiële vaste activa?" },
+        { "id": "b", "tekst": "Kan zij dit opnemen in de rubriek immateriële vaste activa?" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Zij koopt software X aan, die zij zonder enige wijziging doorverkoopt aan haar klanten. Hoe te verwerken?",
+      "opties": [
+        { "id": "a", "tekst": "Te verwerken als handelsgoederen?" },
+        { "id": "b", "tekst": "Te verwerken als bestelling in uitvoering?" },
+        { "id": "c", "tekst": "Te verwerken als immateriële vaste activa?" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie deelvragen elk met aparte MC-opties zoals zichtbaar op PNG. De tekst.txt bevat een dubbele sectie met subvraag-rendering onderaan — genegeerd ten voordele van de hoofdtekst. Elke deelvraag is een keuze-vraag waarbij juiste antwoord wordt aangevinkt.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK5",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Oprichting boekhoudvennootschap BIBF: doel, zaakvoerders, aandelenverdeling en stagiair",
+  "themas": [
+    "boekhoudvennootschap",
+    "BIBF",
+    "KB 15/02/2005",
+    "doelomschrijving",
+    "zaakvoerder",
+    "aandelenverdeling",
+    "stagiair BIBF",
+    "meerderheidsregel 80%"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De echtgenoten Philippe en Isabelle, beiden erkend boekhouder(-fiscalist), hebben twee zonen (Frans en Jan) en één dochter (Mathilde), allen meerderjarig en nog studerend. Ze wensen een boekhoudvennootschap op te richten conform het KB van 15/2/2005 betreffende de uitoefening van het beroep van erkend boekhouder(-fiscalist) in het kader van een rechtspersoon."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "K5a",
+      "vraagtype": "open",
+      "vraagstelling": "Welke zijn de specifieke aandachtspunten voor de doelomschrijving van de boekhoudvennootschap?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "K5b",
+      "vraagtype": "open",
+      "vraagstelling": "Indien zij opteren voor een BVBA: wie kan tot zaakvoerder worden benoemd?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "K5c",
+      "vraagtype": "open",
+      "vraagstelling": "Is volgende verdeling van de aandelen mogelijk: Philippe 35%, Isabelle 35%, Frans, Jan en Mathilde elk 10%? Licht uw antwoord toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "K5d",
+      "vraagtype": "open",
+      "vraagstelling": "De oudste zoon start na zijn studies een BIBF-stage. Kan hij op dat ogenblik zaakvoerder/bestuurder worden? Kan hij tevens 50% van de aandelen verwerven?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "a) Enkel BIBF-activiteiten, geen handel (art. 7+8 KB). b) Enkel Philippe en Isabelle (zaakvoerders moeten BIBF-lid zijn, art. 8 §5). c) Neen, minstens 80% moet in handen zijn van BIBF-leden of stagiairs (art. 8 §4). d) Ja, stagiairs mogen zaakvoerder/aandeelhouder zijn mits minstens 80%-regel en samen met stagemeester of andere erkende boekhouder (art. 1+2 §2 KB).",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Vier deelvragen over oprichting boekhoudvennootschap. Uitgebreide modelantwoorden na elke deelvraag zijn NIET opgenomen. Twee-pagina segment (p. 22-23).",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

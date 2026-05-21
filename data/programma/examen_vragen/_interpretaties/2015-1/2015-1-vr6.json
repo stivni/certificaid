@@ -1,0 +1,40 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr6",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Activering herstructureringskosten: tegenboekingmethode",
+  "themas": ["herstructureringskosten", "activering kosten", "immateriële activa", "rekening 649", "rekening 669", "rekeningen 61-62", "boekhoudkundige verwerking"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vennootschap 'Koffie van het Noorden' herstructureert haar afdeling 'Fabricatie van Koffiemolens'. Kosten: ontmanteling bestaande productielijn 150.000 EUR, elektronische automatisatie nieuwe productielijn 300.000 EUR, technische werkloosheid fabriekspersoneel 250.000 EUR."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Aan de hand van welke tegenboeking kunnen deze uitgaven naar het actief van de balans worden overgeboekt?",
+      "opties": [
+        { "id": "a", "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven." },
+        { "id": "b", "tekst": "De activering moet tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt om de uitgaven in kosten te nemen." },
+        { "id": "c", "tekst": "De activering moet tot uiting worden gebracht door het crediteren van de rekening 649 of 669." },
+        { "id": "d", "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669." },
+        { "id": "e", "tekst": "De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door het crediteren van de rekening 649 of 669." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Zelfde OCR-patroon als voorgaande vragen. Één enkelvoudige MC-vraag met opties A-E.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

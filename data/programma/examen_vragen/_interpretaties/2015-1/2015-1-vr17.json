@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr17",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Controledoelstellingen en -technieken op debet lopende rekening bij omzetting",
+  "themas": ["controleverslag", "omzetting vennootschap", "lopende rekening", "controledoelstellingen", "controletechnieken", "accountantsonderzoek"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Tijdens werkzaamheden aan een controleverslag ivm een omzetting stelt de aangestelde accountant vast dat op het actief een debet lopende rekening op naam van de overleden vader van de zaakvoerders-aandeelhouders voorkomt."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Geef twee controledoelstellingen die op dergelijk actief (debet lopende rekening) worden toegepast.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Geef kort weer voor elk van deze twee controledoelstellingen welke techniek of methodiek je toepast.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 3 van de sectie 'Accountantsonderzoek'. Twee deelvragen die samen betrekking hebben op het schema 'controledoelstelling / techniek'. Deelvraag b is een eigenstandige vervolgvraag (eigen inhoud: welke techniek), niet een pure motivatie-instructie.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

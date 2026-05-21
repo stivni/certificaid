@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr30",
+  "interpretatie_datum": "2026-05-21T10:28:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW — plaatsbepaling dienst onroerend werk in andere EU-lidstaat (B2C)",
+  "themas": [
+    "BTW",
+    "plaatsbepaling dienst",
+    "onroerend werk",
+    "particuliere klant",
+    "B2C",
+    "EU",
+    "Duitsland"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een in Welkenraedt gevestigde onderneming, gespecialiseerd in dakwerken, bouwt het dakgebinte en de dakbedekking van een zwembad in München (Duitsland), tegen de prijs van 10.000 EUR. De eigenaar is een Oostenrijkse particulier."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 1",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Duid de goede oplossing aan.",
+      "opties": [
+        { "id": "a", "tekst": "De btw is niet van toepassing want de klant is een particulier, gevestigd buiten België." },
+        { "id": "b", "tekst": "De btw is niet van toepassing want de aannemer is gevestigd in een andere lidstaat dan de plaats van het werk." },
+        { "id": "c", "tekst": "De btw is van toepassing in België, want de aannemer is gevestigd in België." },
+        { "id": "d", "tekst": "De btw is van toepassing in Duitsland, want het onroerend goed is gelegen in Duitsland." },
+        { "id": "e", "tekst": "De btw is van toepassing in Oostenrijk, want de klant is Oostenrijker." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag over BTW-plaatsbepaling voor onroerend werk (dienst met betrekking tot onroerend goed) in B2C-context. Plaatsbepalingsregel: ligging van het onroerend goed.",
+  "kwaliteits_flags": []
+}

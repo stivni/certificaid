@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr34",
+  "interpretatie_datum": "2026-05-21T10:32:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW — plaatsbepaling reclame-advertentie voor buitenlandse BTW-plichtige (B2B)",
+  "themas": [
+    "BTW",
+    "plaatsbepaling dienst",
+    "reclame",
+    "advertentie",
+    "B2B",
+    "Groot-Brittannië",
+    "verlegging heffing"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een in Londen gevestigde hotelonderneming, belastingplichtige in Groot-Brittannië met Brits btw-nummer, bestelt bij het Brussels reclameblad Publi-Magazine een advertentie voor 2.000 EUR. Publi-Magazine is een kosteloos verspreid huis-aan-huisreclameblad dat zijn inkomsten haalt uit betaalde reclameadvertenties."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 5",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Duid de goede oplossing aan.",
+      "opties": [
+        { "id": "a", "tekst": "Er is geen Belgische btw van toepassing, want de klant is een buitenlandse onderneming die in elk geval recht op aftrek zou hebben van de btw die haar door haar leverancier wordt aangerekend." },
+        { "id": "b", "tekst": "De Belgische btw is niet van toepassing want het betreft een kosteloos verspreid huis-aan-huisreclameblad en er bestaat een vrijstellingsregime voor kranten." },
+        { "id": "c", "tekst": "De btw is van toepassing in België, want de dienstverrichter is gevestigd in België." },
+        { "id": "d", "tekst": "De btw is van toepassing in België, want de publicatie van de advertentie is in een Belgische krant." },
+        { "id": "e", "tekst": "De btw is van toepassing in Groot-Brittannië, want de afnemer van de dienst is gevestigd in Groot-Brittannië en heeft daar een geldig btw-nummer." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag over BTW-plaatsbepaling reclame-dienst in B2B-context. Algemene B2B-regel: vestigingsplaats afnemer. De afnemer is in GB gevestigd en heeft GB btw-nummer.",
+  "kwaliteits_flags": []
+}

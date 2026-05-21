@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr24",
+  "interpretatie_datum": "2026-05-21T10:22:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting — onroerende inkomsten: onmogelijke situatie herkennen",
+  "themas": [
+    "personenbelasting",
+    "onroerende inkomsten",
+    "kadastraal inkomen",
+    "eigen woning",
+    "verhuur",
+    "herkwalificatie huur",
+    "revalorisatiecoëfficiënt"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Paul en Jeanne, zonder kinderen, bezitten een in België gelegen gebouw met een niet-geïndexeerd kadastraal inkomen (KI) van 5.000 EUR. Het gebouw werd in 2002 aangekocht met een hypothecaire lening die een belastingvoordeel oplevert. De fiscale behandeling van dit gebouw is afhankelijk van het gebruik ervan."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 3",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke van de hierna omschreven situaties is onmogelijk?",
+      "opties": [
+        { "id": "a", "tekst": "Het gebouw wordt betrokken als eigen woonhuis en wordt niet aangegeven, want het geniet de vrijstellingsregeling." },
+        { "id": "b", "tekst": "Het gebouw wordt gedeeltelijk gebruikt voor de beroepswerkzaamheid van Paul en geeft aanleiding tot een vrijstelling op het gedeelte van het KI dat overeenkomt met dit beroepsgebruik." },
+        { "id": "c", "tekst": "Het gebouw wordt gemeubileerd verhuurd en 100% van het KI is onderworpen aan de personenbelasting." },
+        { "id": "d", "tekst": "Het gebouw wordt verhuurd aan een vzw voor de promotie van de film en het onroerend inkomen is dus belastbaar op basis van de huur en de huurlasten." },
+        { "id": "e", "tekst": "Paul verhuurt het gebouw tegen een maandelijkse huurprijs van 500 euro aan de vennootschap waarvan hij de zaakvoerder is, zonder dat dit aanleiding geeft tot herkwalificatie van de huur tot beroepsinkomsten (revalorisatiecoëfficiënt: 4,10 – aanslagjaar 2013)." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag die de onmogelijke situatie zoekt bij onroerend goed behandeling in PB. Optie e bevat een berekening-hint (500 EUR/maand × 4,10 revalorisatiecoëfficiënt).",
+  "kwaliteits_flags": []
+}

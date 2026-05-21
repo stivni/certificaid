@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr35",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Permanente vorming IAB: verhoudingsregel, aard en wettelijke grondslag",
+  "themas": ["permanente vorming", "IAB", "erkende vormingsoperator", "verplichte opleiding", "verhoudingsregel", "ITAA", "beroepsnormen"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een lid IAB heeft in 2013 volgende vormingsactiviteiten gevolgd:\n1) een seminarie georganiseerd door het IAB,\n2) een opleiding die werd verstrekt door het kantoor van accountants en belastingconsulenten waar hij werkzaam is en die geen erkenning als vormingsoperator aanvroeg,\n3) enkele seminaries gevolgd bij erkende vormingsoperatoren."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Dient dit lid een bepaalde verhouding in acht te nemen inzake de duur van de bovenstaande seminaries?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Is de permanente vorming voor accountants en belastingconsulenten een op te volgen aanbeveling van het Instituut of is het een verplichting?",
+      "opties": [
+        { "id": "a", "tekst": "Aanbeveling" },
+        { "id": "b", "tekst": "Verplichting" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Motiveer uw antwoord op vraag b met verwijzingen naar tenminste 2 relevante teksten.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Deelvraag c vraagt motivatie bij deelvraag b maar is een eigenstandige vraag (verwijzing naar 2 wetteksten vereist). Gemodelleerd als aparte open deelvraag met motivatie_verwacht:true.",
+  "kwaliteits_flags": []
+}

@@ -1,0 +1,74 @@
+Vraag 1 … / 8 punten
+In bijlage vindt U de balans na winstverdeling en de resultatenrekening van een cliënt. Kruis
+het juiste antwoord aan voor de ratio’s van het BOEKJAAR.
+Uit de toelichting tot de jaarrekening blijkt o.a. dat :
+1. Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor
+452 835 EUR;
+2. Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 1 288 EUR;
+3. Er intrestsubsidies werden aangerekend op de resultatenrekening voor een bedrag
+van 14 214 EUR;
+4. Er geen disconto ten laste van de onderneming bij de verhandeling van vorderingen
+geboekt werd;
+5. Er gemiddeld 38,20 werknemers (voltijds equivalent) tewerkgesteld waren;
+6. Er een voorziening voor pensioenen werd teruggenomen voor een bedrag van
+1 665 EUR;
+7. De te bestemmen winst van het boekjaar integraal gereserveerd werd.
+Antwoorden
+Plaats de letter van het juiste antwoord in onderstaande rooster.
+
+| Vraag | a | b | c | d |
+|---|---|---|---|---|
+| Antwoord |  |  |  |  |
+| Punten | 2 | 2 | 2 | 2 |
+
+a) Brutoverkoopmarge
+A. (1 479 283 + 425 554 + 804) x 100 / (8 034 747 + 344 153) = 22,74
+B. (1 417 747 + 425 554 + 804) x 100 / (8 365 788 - 1 600 244) = 27,26
+C. (1 479 283 + 425 554 + 804 – 1 665) x 100 / (8 034 747 + 344 153 – 1 288) = 22,73
+D. (968 829 + 425 554 + 804 – 1 665) x 100 / (8 365 788 – 1 288) = 16,66
+b) Personeelskosten ten opzichte van toegevoegde waarde
+A. (1 600 244 – 1 665) X 100 / (8 365 788 - 1 288 – 3 457 309 – 1 398 278) = 45,56
+B. 1 600 244 x 100 / (8 365 788 – 3 457 309 – 1 398 278) = 45,59
+C. 1 600 244 x 100 / 1 479 283 = 108,18
+D. (1 600 244 – 1 665) x 100 / (8 034 747 – 13 112 - 3 457 309 – 1 398 278 – 1 288) =
+50,51
+
+c) Nettorentabiliteit van het eigen vermogen na belastingen
+A. 968 829 x 100 / 10 274 463 = 9,43
+B. 968 829 x 100 / 8 177 941 = 11,85
+C. 1 417 747 x 100 / 10 274 463 = 13,80
+D. 1 479 283 x 100 / 8 177 941 = 18,09
+d) Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen
+A. 3 444 161 / 530 373 = 6,49
+B. 3 457 309 / 530 373 = 6,52
+C. 3 457 309 / 1 344 750 = 2,57
+D. 3 444 161 / 1 344 750 = 2,56
+
+=== subvraag a) ===
+Brutoverkoopmarge
+A. (1 479 283 + 425 554 + 804) x 100 / (8 034 747 + 344 153) = 22,74
+B. (1 417 747 + 425 554 + 804) x 100 / (8 365 788 - 1 600 244) = 27,26
+C. (1 479 283 + 425 554 + 804 – 1 665) x 100 / (8 034 747 + 344 153 – 1 288) = 22,73
+D. (968 829 + 425 554 + 804 – 1 665) x 100 / (8 365 788 – 1 288) = 16,66
+
+=== subvraag b) ===
+Personeelskosten ten opzichte van toegevoegde waarde
+A. (1 600 244 – 1 665) X 100 / (8 365 788 - 1 288 – 3 457 309 – 1 398 278) = 45,56
+B. 1 600 244 x 100 / (8 365 788 – 3 457 309 – 1 398 278) = 45,59
+C. 1 600 244 x 100 / 1 479 283 = 108,18
+D. (1 600 244 – 1 665) x 100 / (8 034 747 – 13 112 - 3 457 309 – 1 398 278 – 1 288) =
+50,51
+
+=== subvraag c) ===
+Nettorentabiliteit van het eigen vermogen na belastingen
+A. 968 829 x 100 / 10 274 463 = 9,43
+B. 968 829 x 100 / 8 177 941 = 11,85
+C. 1 417 747 x 100 / 10 274 463 = 13,80
+D. 1 479 283 x 100 / 8 177 941 = 18,09
+
+=== subvraag d) ===
+Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen
+A. 3 444 161 / 530 373 = 6,49
+B. 3 457 309 / 530 373 = 6,52
+C. 3 457 309 / 1 344 750 = 2,57
+D. 3 444 161 / 1 344 750 = 2,56

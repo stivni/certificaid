@@ -1,0 +1,58 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrJ1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Ontslag om dringende reden: termijnen en opzegvergoeding",
+  "themas": [
+    "ontslag om dringende reden",
+    "arbeidsovereenkomst",
+    "termijn betekening",
+    "motivering ontslagbrief",
+    "opzegvergoeding",
+    "bediende"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Bart trad op 1 februari 2001 in dienst bij een grootwarenhuisketen op basis van een arbeidsovereenkomst voor onbepaalde duur (voltijds, bediende). Bart maakte stelselmatig misbruik van zijn persoonlijke klantenkaart door er aankopen van klanten die hun kaart vergeten waren op te registreren, waardoor hij maandelijks waardevolle geschenken verdiende. Op vrijdag 14 december 2007 wordt de werkgever ingelicht door een collega (Bart is met verlof). Na zijn terugkeer wordt Bart geconfronteerd op vrijdag 21 december 2007 en bekent hij alles. De werkgever beslist tot ontslag om dringende reden."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "J1.1",
+      "vraagtype": "open",
+      "vraagstelling": "Op welke dag moet het ontslag om dringende reden uiterlijk worden betekend?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "J1.2",
+      "vraagtype": "open",
+      "vraagstelling": "Indien de werkgever beslist om de motivering van het ontslag om dringende reden niet meteen te vermelden in de ontslagbrief zelf, maar wel in een tweede aangetekende brief: wanneer moet deze tweede, gemotiveerde brief ten laatste worden verstuurd? (De ontslagbrief werd aangetekend verstuurd op maandag 24 december 2007.)",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "J1.3",
+      "vraagtype": "open",
+      "vraagstelling": "Stel dat het ontslag om dringende reden één dag te laat werd betekend. Welke opzegvergoeding moet de werkgever dan betalen? Wat is het bruto bedrag en met hoeveel maanden (bruto) loon stemt deze opzegvergoeding overeen? (Bart verdient een bruto jaarloon van 27.000 EUR.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "1: Woensdag 26 december 2007 (3 werkdagen na kennisname, zon- en feestdagen niet meegerekend). 2: Vrijdag 28 december 2007 (3 werkdagen na ontslag). 3: Opzegvergoeding = 6 maanden loon = 13.500 EUR bruto.",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Drie genummerde deelvragen over ontslag om dringende reden. Modelantwoorden na elke deelvraag zijn NIET opgenomen. PNG pagina 19 bevestigt de structuur. 'Antwoord:' na elke subvraag is gepubliceerd modelantwoord.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

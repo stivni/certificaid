@@ -1,0 +1,34 @@
+Vraag 2 … / 10 punten
+De vennootschap GOODLUCK heeft een deel van haar middelen geïnvesteerd in een
+aandelenportefeuille.
+In het boekjaar 2012 zijn er de volgende wijzigingen geweest:
+
+| Datum
+aanschaf | Omschrijving | Bedrag | Datum
+verkoop | Verkoopprijs
+(bruto) | Kosten
+verkoop |
+|---|---|---|---|---|---|
+| 01/02/2010 | Colruyt | 15.000 |  |  |  |
+| 01/03/2009 | Apple | 15.000 | 28/02/2012 | 20.000 | 1.000 |
+| 01/03/2009 | KBC | 10.000 | 28/02/2012 | 12.000 | 500 |
+| 15/01/2012 | Electrabel | 10.000 | 15/03/2012 | 18.000 | 1.000 |
+| 15/01/2012 | Delhaize | 10.000 | 15/03/2012 | 8.000 | 1.000 |
+
+De vennootschap heeft het volgende eigen vermogen:
+
+|  | Jaar 2012 | Jaar 2011 |
+|---|---|---|
+| Geplaatst kapitaal:
+oprichting in speciën | 100.000 | 100.000 |
+| Wettelijke reserve | 10.000 | 10.000 |
+| Beschikbare reserves | 15.000 | 15.000 |
+| Overgedragen resultaat | 20.000 | 10.000 |
+
+Zij heeft ook nog een overgedragen fiscaal verlies van 2.000. Zij heeft geen recht op notionele
+intrestaftrek.
+Gevraagd:
+Doe de nodige berekeningen om het belastbaar resultaat van deze vennootschap te bepalen.
+De vennootschap kan niet genieten van de progressieve tarieven. Geef op welk bedrag aan
+welk tarief belastbaar wordt.
+BELASTING OVER DE TOEGEVOEGDE WAARDE 15 PUNTEN

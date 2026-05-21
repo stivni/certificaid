@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrC2",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Haalbaarheid van een investeringskrediet gezien cashflow en aflossingscapaciteit",
+  "themas": [
+    "cashflow",
+    "investeringskrediet",
+    "aflossingscapaciteit",
+    "schuldenlast",
+    "financiering",
+    "debt service coverage"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een vennootschap heeft jaarlijks ongeveer 30.000,00 EUR cashflow. Ze betaalt jaarlijks 12.000,00 EUR kapitaalaflossingen op bestaande leningen. Voor een nieuwe investering van 100.000,00 EUR wenst ze van de bank een investeringskrediet te bekomen voor het volledige bedrag. De rentevoet bedraagt 5% per jaar. Ze wenst de nieuwe lening in 5 jaarlijkse gelijke schijven af te lossen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "C2",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is uw mening over de haalbaarheid van dit investeringskrediet?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "De vraag 'Wat is uw mening?' is een open adviesvraag die een berekening + beredeneerde conclusie vereist. motivatie_verwacht=true. Geen OCR-issues.",
+  "kwaliteits_flags": []
+}

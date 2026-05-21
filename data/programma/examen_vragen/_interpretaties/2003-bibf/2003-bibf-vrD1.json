@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrD1",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-verplichtingen en boekhouding voor een zelfstandige horeca-uitbater",
+  "themas": [
+    "BTW-verplichtingen",
+    "normale BTW-aangifte",
+    "trimestrieel",
+    "horecasector",
+    "zelfstandige",
+    "boekhouding organiseren",
+    "wettelijke verplichtingen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW-administratie voor het statuut van normale trimestriële BTW-belastingplichtige. Hij vraagt u om zijn boekhoudkundig dossier te beheren."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "D.1 Vraag",
+      "vraagtype": "open",
+      "vraagstelling": "Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie u ieder trimester van hem wenst te ontvangen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Open vraag met twee samenhangende onderdelen (wettelijke verplichtingen + documenten per trimester). Twee aspecten van dezelfde instructie, niet twee aparte deelvragen. Vraagtype 'open' (procedure). OCR-artefact 'BTW- belastingplichtige' gecorrigeerd.",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

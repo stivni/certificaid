@@ -1,0 +1,61 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr43",
+  "interpretatie_datum": "2026-05-21T10:41:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologie — intredeprocedure nieuwe klant: punten van akkoord/niet-akkoord",
+  "themas": [
+    "deontologie",
+    "intredeprocedure",
+    "opdrachtaanvaarding",
+    "contactname voorganger",
+    "onafhankelijkheid",
+    "publiciteit",
+    "tarieven"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Op uw kantoor biedt zich een nieuwe klant aan die de opvolging van zijn vennootschap wil laten overnemen door uw kantoor. Geef aan wanneer u zich niet akkoord kan verklaren met de besproken punten en licht kort toe waarom."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Hij toont u een overzicht van openstaande facturen bij uw voorganger en een kopij van een overschrijving voor het globale bedrag om aan te tonen dat alle schulden werden voldaan aan uw voorganger, en deelt u mee dat het niet meer nodig is om uw collega te contacteren. Kan u hiermee akkoord gaan? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Gezien het 15 april is vraagt hij u om onmiddellijk te starten met het boeken van het eerste kwartaal van zijn boekjaar zodat de BTW-aangifte tijdig kan ingediend worden en hij tijdig zijn BTW-schuld kan voldoen. Kan u hiermee akkoord gaan? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Hij vertelt u dat zijn keuze op uw kantoor is gevallen omdat u op uw site een vergelijking heeft gemaakt van de door u aangerekende uurlonen in vergelijking met uw collega's in de buurt en als goedkoopste uit deze vergelijking komt. Kan u hiermee akkoord gaan? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Tijdens jullie gesprek laat u ook weten dat u zetelt in verschillende commissies binnen het Instituut en daardoor soms sneller op de hoogte bent van bepaalde wijzigingen. Kan u hiermee akkoord gaan? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier open deelvragen over deontologische intredeprocedure. tekst.txt bevat OCR-artefacten (fragmenten van de casus-beschrijvingen als losse zinnen); gereconstrueerd op basis van de subvraag-labels en de tekst-context. Alle vier deelvragen vragen een toelichting, vandaar motivatie_verwacht: true.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

@@ -1,0 +1,25 @@
+_In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt._
+
+**Bereken de gevraagde ratio’s telkens voor het BOEKJAAR.**
+
+U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening
+als motivatie van uw antwoord.
+U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.
+Uit de toelichting tot de jaarrekening blijkt o.a. dat :
+1) Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor
+361 869,98 euro;
+2) Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415 euro;
+3) Er geen intrestsubsidies zijn;
+4) Er werd geen disconto ten laste van de onderneming bij de verhandeling van
+vorderingen geboekt;
+5) Er werden geen belastingen geboekt op het resultaat van vorige boekjaren;
+6) De te bestemmen winst van het boekjaar integraal gereserveerd werd.
+
+=== subvraag a) ===
+Brutoverkoopmarge (%)
+
+=== subvraag b) ===
+Nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%)
+
+=== subvraag c) ===
+Liquiditeit in ruime zin

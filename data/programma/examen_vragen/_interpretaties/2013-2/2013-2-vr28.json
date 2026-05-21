@@ -1,0 +1,105 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr28",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Successierechten Luik: passief nalatenschap — aangenomen of niet",
+  "themas": ["successierechten", "nalatenschap", "passief nalatenschap", "begrafeniskosten", "schulden nalatenschap", "Waals recht", "erfgenamen"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Dhr. André, weduwnaar, is op 1 augustus 2012 tijdens de vakantie in Spanje overleden. Hij heeft 2 kinderen als erfgenaam: dochter Hélène en zoon Johan. Hij had zijn fiscale woonplaats in Luik.\n\nActief nalatenschap:\n1) Woonhuis in Luik: € 200.000\n2) Appartement in Middelkerke: € 100.000\n3) (Geblokkeerde) termijnrekening bij ING in Brussel: € 10.000\n4) Zichtrekening bij de Bank van de Post: € 1.000\n5) Stofferend huisraad in België: € 5.000\n\nGevraagd: dienen de passief-elementen te worden aangenomen of niet? Indien ze moeten worden verworpen, verklaar om welke reden(en)."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "p1",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "De factuur van de begrafenisondernemer (inclusief repatriëringskosten van het lichaam, totaal € 10.000): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p2",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Vliegticket voor Hélène, haar echtgenoot en de kinderen: terugkeer uit Italië om aanwezig te kunnen zijn op de begrafenis (€ 2.000): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p3",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Factuur voor de huur van ceremoniekledij door Hélène en haar gezin, gedragen op de begrafenis (€ 1.000): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p4",
+      "label_in_pdf": "4",
+      "vraagtype": "open",
+      "vraagstelling": "Factuur voor de bloemen op de begrafenisplechtigheid (€ 750): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p5",
+      "label_in_pdf": "5",
+      "vraagtype": "open",
+      "vraagstelling": "Ereloon van de notaris die het 'attest van erfopvolging' heeft opgesteld (€ 250): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p6",
+      "label_in_pdf": "6",
+      "vraagtype": "open",
+      "vraagstelling": "Johan heeft op 15 oktober 2012 de stookolietank van het huis in Luik laten vullen om het tijdens de wintermaanden te kunnen verwarmen (€ 2.500): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p7",
+      "label_in_pdf": "7",
+      "vraagtype": "open",
+      "vraagstelling": "Bedrag verschuldigd aan de mede-eigendom van het appartement (afrekening 30/08/2012, afgesloten op 30/06/2012, datum algemene vergadering) (€ 3.000): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p8",
+      "label_in_pdf": "8",
+      "vraagtype": "open",
+      "vraagstelling": "Ereloonnota van 5 augustus 2012 van advocaat belast met invordering onbetaalde huur appartement Middelkerke (vonnis 15/07/2012, niet meer vatbaar voor beroep) (€ 1.200): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p9",
+      "label_in_pdf": "9",
+      "vraagtype": "open",
+      "vraagstelling": "Lening door de overledene aangegaan bij zijn dochter Hélène, verantwoord door een schuldbekentenis (€ 2.000): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "p10",
+      "label_in_pdf": "10",
+      "vraagtype": "open",
+      "vraagstelling": "Saldo van een lening door de overledene aangegaan bij zijn zoon Johan, aangewend voor vervanging van een venster in het huis in Luik, verantwoord door een schuldbekentenis (€ 4.000): aangenomen of niet aangenomen als passief?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Tien passief-elementen die elk beoordeeld moeten worden (aangenomen/niet aangenomen + verklaring bij verwerping). Elke passief-post is een aparte deelvraag. De A/B/C-structuur in de PDF (Aangenomen/Niet aangenomen/Verklaar) is geïntegreerd in de open vraagstelling met motivatie_verwacht:true.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

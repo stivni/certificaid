@@ -1,0 +1,60 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr19",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Werkwijze confirmatie leverancierssaldi bij externe controle",
+  "themas": ["confirmatie", "leverancierssaldi", "steekproef", "externe controle", "confirmatiebrieven", "audit"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is representatief bij de selectie van leverancierssaldi voor confirmatie?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe doe je de steekproef?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe gebeurt de verzending van de confirmatiebrieven?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Wie ontvangt de antwoorden?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "open",
+      "vraagstelling": "Wat bij niet ontvangst van antwoorden?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 5 van de sectie 'Accountantsonderzoek'. Vijf open deelvragen over de werkwijze bij confirmatie van leverancierssaldi.",
+  "kwaliteits_flags": []
+}

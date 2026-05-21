@@ -48,6 +48,32 @@ def _laad_subset() -> list[dict[str, Any]]:
     return json.loads(SUBSET_PATH.read_text(encoding="utf-8"))["selectie"]
 
 
+def _discover_alle_interpretaties() -> list[dict[str, Any]]:
+    """Bouw entry-lijst uit alle interpretatie-bestanden onder `_interpretaties/`.
+
+    Geeft `[{examen_id, vraag_id}, ...]` terug — alle vragen die effectief
+    een interpretatie hebben. Schema-compatibel met `_laad_subset()`-output,
+    extra subset-velden (karakter, rationale) ontbreken hier maar zijn
+    optioneel.
+    """
+    if not INTERPRETATIES_DIR.exists():
+        raise MergerError(
+            f"Interpretaties-map ontbreekt: {INTERPRETATIES_DIR}"
+        )
+    entries: list[dict[str, Any]] = []
+    for examen_dir in sorted(INTERPRETATIES_DIR.iterdir()):
+        if not examen_dir.is_dir():
+            continue
+        examen_id = examen_dir.name
+        for pad in sorted(examen_dir.glob("*.json")):
+            entries.append({"examen_id": examen_id, "vraag_id": pad.stem})
+    if not entries:
+        raise MergerError(
+            f"Geen interpretaties gevonden onder {INTERPRETATIES_DIR}"
+        )
+    return entries
+
+
 def _groepeer_per_examen(
     selectie: list[dict[str, Any]],
 ) -> dict[str, list[dict[str, Any]]]:
@@ -65,11 +91,15 @@ def _lees_json(pad: Path) -> dict[str, Any]:
 
 
 def _bouw_examen_payload(
-    examen_id: str, entries: list[dict[str, Any]]
+    examen_id: str,
+    entries: list[dict[str, Any]],
+    antwoord_optioneel: bool = False,
 ) -> dict[str, Any]:
     """Bouwt de payload (zonder `merge_datum`) voor één examen.
 
-    Faalt fail-loud op de eerste ontbrekende interpretatie / antwoord / meta.
+    Faalt fail-loud op de eerste ontbrekende interpretatie / meta. Bij
+    `antwoord_optioneel=True` wordt een ontbrekend antwoord-bestand niet
+    als fout behandeld — `antwoord` wordt dan `None` in de output.
     """
     vragen: list[dict[str, Any]] = []
     bron_pdf: str | None = None
@@ -85,25 +115,32 @@ def _bouw_examen_payload(
             raise MergerError(
                 f"interpretatie ontbreekt voor {vraag_id}: {interp_pad}"
             )
-        if not antwoord_pad.is_file():
-            raise MergerError(
-                f"antwoord ontbreekt voor {vraag_id}: {antwoord_pad}"
-            )
         if not meta_pad.is_file():
             raise MergerError(
                 f"segment-meta ontbreekt voor {vraag_id}: {meta_pad}"
             )
 
+        antwoord: dict[str, Any] | None
+        if antwoord_pad.is_file():
+            antwoord = _lees_json(antwoord_pad)
+        elif antwoord_optioneel:
+            antwoord = None
+        else:
+            raise MergerError(
+                f"antwoord ontbreekt voor {vraag_id}: {antwoord_pad}"
+            )
+
         interpretatie = _lees_json(interp_pad)
-        antwoord = _lees_json(antwoord_pad)
         segment_meta = _lees_json(meta_pad)
 
-        # sanity-check: vraag_id moet matchen in elk artefact
+        # sanity-check: vraag_id moet matchen in elk aanwezig artefact
         for naam, data in [
             ("interpretatie", interpretatie),
             ("antwoord", antwoord),
             ("segment_meta", segment_meta),
         ]:
+            if data is None:
+                continue
             if data.get("vraag_id") != vraag_id:
                 raise MergerError(
                     f"vraag_id-mismatch in {naam} voor {vraag_id}: "
@@ -168,9 +205,13 @@ def _schrijf_atomair(pad: Path, tekst: str) -> None:
     tmp.replace(pad)
 
 
-def merge_examen(examen_id: str, entries: list[dict[str, Any]]) -> Path:
+def merge_examen(
+    examen_id: str,
+    entries: list[dict[str, Any]],
+    antwoord_optioneel: bool = False,
+) -> Path:
     """Merge één examen. Geeft het pad naar de geschreven (of ongewijzigde) file."""
-    payload = _bouw_examen_payload(examen_id, entries)
+    payload = _bouw_examen_payload(examen_id, entries, antwoord_optioneel)
     out_pad = MERGED_DIR / f"{examen_id}.json"
 
     if out_pad.is_file():
@@ -195,27 +236,40 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--examen",
-        help="Beperk tot één examen-id (bv. 2024-1). Default: alle examens "
-        "in _poc_subset.json.",
+        help="Beperk tot één examen-id (bv. 2024-1).",
+    )
+    parser.add_argument(
+        "--alle",
+        action="store_true",
+        help="Gebruik alle interpretaties onder _interpretaties/ (auto-discovery) "
+        "i.p.v. _poc_subset.json. Default: POC-subset.",
     )
     args = parser.parse_args(argv)
 
     try:
-        selectie = _laad_subset()
+        if args.alle:
+            selectie = _discover_alle_interpretaties()
+        else:
+            selectie = _laad_subset()
         per_examen = _groepeer_per_examen(selectie)
 
         if args.examen:
             if args.examen not in per_examen:
+                bron = "interpretaties-folder" if args.alle else "POC-subset"
                 raise MergerError(
-                    f"examen {args.examen!r} niet in POC-subset; "
+                    f"examen {args.examen!r} niet in {bron}; "
                     f"beschikbaar: {sorted(per_examen)}"
                 )
             doel = {args.examen: per_examen[args.examen]}
         else:
             doel = per_examen
 
+        # In --alle-modus zijn antwoorden optioneel (uitrolfase: alleen
+        # interpretaties zijn voltooid, antwoorden volgen later na RAG).
+        antwoord_optioneel = bool(args.alle)
+
         for examen_id in sorted(doel):
-            pad = merge_examen(examen_id, doel[examen_id])
+            pad = merge_examen(examen_id, doel[examen_id], antwoord_optioneel)
             print(f"[merge] {examen_id} -> {pad.relative_to(REPO_ROOT)}")
     except MergerError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

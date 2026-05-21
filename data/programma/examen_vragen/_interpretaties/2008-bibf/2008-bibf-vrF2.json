@@ -1,0 +1,42 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF2",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Aangifte onroerend inkomen en belastbare meerwaarde bij verkoop appartement",
+  "themas": [
+    "onroerend inkomen",
+    "kadastraal inkomen",
+    "meerwaarde",
+    "belastbare meerwaarde",
+    "personenbelasting aangifte",
+    "wettelijk stelsel"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Riet en Piet zijn gehuwd in het wettelijk stelsel en wonen in Etterbeek. Riet heeft van voor het huwelijk nog een appartement (KI 1.200) in Wemmel in persoonlijke eigendom dat verhuurd wordt. Het appartement stond te koop en wordt op 6 april 2007 verkocht; een belastbare meerwaarde van € 30.000 wordt gerealiseerd."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "F2",
+      "vraagtype": "open",
+      "vraagstelling": "Doe aangifte van het onroerend inkomen en van de meerwaarde.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "a",
+    "tekst": "Onroerend (1106) 150 (2106) 150 (zijnde 1.200 x 3/12 en dan 50/50) — Divers (1171) 0 (2171) 30.000",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "De getallen na 'Doe aangifte' zijn het modelantwoord met aangifte-codes. Niet opgenomen in vraagstelling. PNG bevestigt lay-out.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

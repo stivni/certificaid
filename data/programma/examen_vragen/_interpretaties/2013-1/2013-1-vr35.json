@@ -1,0 +1,65 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr35",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Onafhankelijkheid externe accountant: toegelaten en verboden activiteiten en mandaten",
+  "themas": ["onafhankelijkheid", "externe accountant", "belastingconsulent", "mandaat", "verzekeringsmakelaar", "patrimoniumvennootschap", "ITAA"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In het kader van de onafhankelijkheid zijn er een aantal activiteiten die expliciet werden uitgesloten als uit te voeren door een externe accountant en/of belastingconsulent of er zijn activiteiten die mits te voldoen aan een aantal voorwaarden toch kunnen uitgevoerd worden. Duid aan welke bewering juist of fout is."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent mag, mits voorafgaande vraag aan het instituut, een activiteit van verzekeringsmakelaar uitoefenen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent mag geen makelaar in krediet- en beleggingsverrichtingen zijn.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent kan een bestuursmandaat waarnemen in een commerciële vennootschap met winstoogmerk, en dit zonder voorafgaande toestemming van de raad van het instituut indien dit mandaat voorttvloeit uit een rechterlijke beslissing.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent mag, mits te voldoen aan gestelde voorwaarden, tegelijkertijd zoveel mandaten van onafhankelijke bestuurder waarnemen als hij/zij het wenst, zolang de voorwaarden van bekwaamheid en beschikbaarheid vervuld blijven.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een externe accountant en/of belastingconsulent zal nooit een toestemming krijgen om een mandaat op te nemen in een zuivere patrimoniumvennootschap.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 4. 5 juist/fout-stellingen over onafhankelijkheidsregels. Kleine typo 'voort vloeit' in tekst gecorrigeerd naar 'voorttvloeit' — genormaliseerd.",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

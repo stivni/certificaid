@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr39",
+  "interpretatie_datum": "2026-05-21T10:37:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Fiscale procedure — vraag om inlichtingen van derden: regelmatigheid, termijn en overmacht",
+  "themas": [
+    "fiscale procedure",
+    "vraag om inlichtingen",
+    "derdeninlichtingen",
+    "antwoordtermijn",
+    "overmacht",
+    "wateroverlast",
+    "WIB"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Eén van uw cliënten – de BVBA 'Souris' die een winkel uitbaat van informaticamateriaal – ontvangt op 2 februari 2014 een vraag om inlichtingen met betrekking tot derden (leveranciers van 'Sumsang'-schermen type 123ZXY): volledige identiteit, aantal aangekochte schermen per leverancier, aankoopprijs en eventuele korting. De belastingplichtige krijgt een termijn van 12 dagen. Op 10 februari 2014 werd de toegang tot het bedrijf volledig afgesloten wegens wateroverlast en een termijn van 3 weken is nodig om de lokalen te herstellen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Is deze vraag om inlichtingen regelmatig voor wat de aard van de gevraagde inlichtingen betreft?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Is de antwoordtermijn wettelijk?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe moet tewerk gegaan worden om binnen de gestelde termijn te antwoorden, aangezien het momenteel niet mogelijk is om de vereiste stukken te raadplegen?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie open deelvragen over fiscale procedure. Elke deelvraag vraagt een verklaring (regelmatig? wettelijk? hoe te handelen?), vandaar motivatie_verwacht: true voor alle drie.",
+  "kwaliteits_flags": []
+}

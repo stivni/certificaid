@@ -1,0 +1,21 @@
+Een bvba verschaft volgende gegevens over de waardering van haar goederenvoorraad voor
+het jaar 2012 (we beperken ons tot één bepaald type product) :
+De bedragen zijn exclusief btw.
+Beginvoorraad = 265 stuks
+Aantal aangekochte producten = 1 810 stuks
+Aantal verkochte producten = 1 775 stuks
+Eindvoorraad = 280 stuks
+Aankoopprijs 200,00 EUR/stuk
+Verkoopprijs 250,00 EUR/stuk
+Op de balans verschijnt een eindvoorraad met een waarde van 56 000,00 euro ( 280 stuks x
+200,00 euro/stuk). De resultatenrekening vertoont een bruto-exploitatiewinst gelijk aan
+84 750,00 euro:
+Omzet 1 775,00/stuk x 250 stuks = 443 750,00
+-kostprijs verkochte goederen (265st + 1810st – 280st) x 200,00 = - 359 000,00
+Brutowinst = 84 750,00
+Naar aanleiding van het fiscale onderzoek over boekjaar 2012 stelt de controledienst vast dat
+de bvba een aankoopfactuur voor 20 producten heeft geboekt onder haar aankopen, terwijl
+de producten pas tijdens het volgende boekjaar 2013 door de leverancier werden geleverd.
+Aangezien die 20 producten niet zijn geteld op 31.12.2012, zijn zij niet opgenomen in de
+inventaris.
+Wat zijn de fiscale gevolgen van die fiscale controle?

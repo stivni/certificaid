@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr1",
+  "interpretatie_datum": "2026-05-21T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vastklikken van reserves — verwerking in jaarrekening bij liquidatiereserve-maatregel",
+  "themas": [
+    "liquidatiereserve",
+    "vastklikken van reserves",
+    "kapitaalverhoging",
+    "resultaatverwerking",
+    "dividenden",
+    "roerende voorheffing",
+    "eigen vermogen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vennootschap PETRUS BVBA sluit haar jaarrekening af op 31 december. De vennootschap wou gebruik maken van de nieuwe maatregel rond het vastklikken van reserves. Op 20 december 2013 heeft een bijzondere algemene vergadering de beslissing genomen om een gedeelte van de reserves uit te keren (bruto 1.000.000 EUR). Deze uitkering zal gevolgd worden door een opname van deze reserves in kapitaal voor 900.000 EUR. De betaalbaarstelling is vastgesteld op 27 december 2013. De vennootschap heeft de roerende voorheffing betaald op 2 januari 2014. Het nettodividend werd rechtstreeks op een geblokkeerde bankrekening overgemaakt op 2 januari 2014. De authentieke akte werd verleden op 24 januari 2014."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Eigen vermogen vóór beslissing",
+      "rijen": [
+        { "label": "Geplaatst kapitaal", "bedrag": 100000 },
+        { "label": "Wettelijke reserve", "bedrag": 10000 },
+        { "label": "Beschikbare reserves", "bedrag": 1800000 },
+        { "label": "Overgedragen winst", "bedrag": 1000 }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 1",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Hoe zal de jaarrekening per 31 december 2013 eruit zien, zonder rekening te houden met het resultaat van het boekjaar?",
+      "opties": [
+        { "id": "a", "tekst": "Het geplaatste kapitaal bedraagt 1.000.000 EUR." },
+        { "id": "b", "tekst": "Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 1.800.000 EUR. We vinden in de resultaatverwerking 'vergoeding van het kapitaal' voor 1.000.000 EUR, en op een passiefrekening 'dividenden over het boekjaar' voor eenzelfde bedrag." },
+        { "id": "c", "tekst": "Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 800.000 EUR. Er staat in de resultaatverwerking 'vergoeding van het kapitaal' voor 1.000.000 EUR, en op een passiefrekening 'dividenden over het boekjaar' voor een bedrag van 900.000 EUR, 'ingehouden voorheffing' 100.000 EUR." },
+        { "id": "d", "tekst": "Het geplaatste kapitaal bedraagt 100.000 EUR, de beschikbare reserves 800.000 EUR. Er staat wel in de resultaatverwerking 'vergoeding van het kapitaal' voor 1.000.000 EUR. Op het passief vinden we ook de rekening 'Ontvangen voorschotten op kapitaal' voor een bedrag van 900.000 EUR." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige MC-vraag met 4 opties over verwerking vastklikken-maatregel per 31/12/2013. De PNG bevestigt de 4 opties en de eigenvermogenstabel. Kapitaalverhoging via authentieke akte (24/01/2014) valt buiten boekjaar 2013, dus 'ontvangen voorschotten op kapitaal' is het kernverschil met optie c.",
+  "kwaliteits_flags": []
+}

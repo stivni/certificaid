@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr5",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Personenbelasting",
+  "themas": ["meewerkend echtgenoot", "ministatuut", "onroerend goed", "onroerende voorheffing", "gemeubeld verhuur", "kadastraal inkomen", "beroepsinkomsten", "progressief tarief"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Deelvraag C: ongehuwd belastingplichtige verhuurt een gemeubeld onroerend goed aan een natuurlijk persoon. KI = 1.500 euro. Opbrengst = 3.000,00 euro per kwartaal."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Van de toekenning aan de meewerkend echtgenoot, aangesloten ministatuut, wordt er een forfaitaire kostenaftrek van 5% in mindering gebracht.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "B",
+      "vraagtype": "open",
+      "vraagstelling": "Ik bezit een niet gemeubeld onroerend goed om te verhuren aan privépersoon als bewoning. De woning is door overstroming 6 maand niet verhuurd geweest. Wat met de Onroerende Voorheffing?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "C",
+      "vraagtype": "open",
+      "vraagstelling": "Ik ben ongehuwd en verhuur een gemeubeld onroerend goed aan een natuurlijk persoon (KI = 1.500 euro, opbrengst = 3.000,00 euro per kwartaal). Welke bedragen waar opnemen in de aangifte?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "D",
+      "vraagtype": "open",
+      "vraagstelling": "Welke beroepsinkomsten zijn niet aan het progressief belastingtarief onderworpen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Alle vier deelvragen hebben een herkenbare vraagstelling. De gegevens van deelvraag C (KI en opbrengst) zijn opgenomen in context_blokken als casus_context. Deelvraag A is juist/fout met een volledige stelling.",
+  "kwaliteits_flags": []
+}

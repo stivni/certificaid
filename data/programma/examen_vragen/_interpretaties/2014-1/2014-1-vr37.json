@@ -1,0 +1,45 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr37",
+  "interpretatie_datum": "2026-05-21T10:35:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Internationaal belastingrecht — vaste inrichting en OESO-modelovereenkomst: verliesaftrek en globale winst",
+  "themas": [
+    "internationaal belastingrecht",
+    "vaste inrichting",
+    "OESO-modelovereenkomst",
+    "dubbele belasting",
+    "vrijstellingsmethode",
+    "verliesaftrek",
+    "globale winst"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een Belgische verblijfhoudende vennootschap is in Italië actief via een vaste inrichting (VI). Tussen Italië en België geldt een bilaterale overeenkomst tot het vermijden van dubbele belasting. Jaar 1: VI Italië verlies 1.000 / Belgische verrichtingen winst 2.000 / Totale winst 1.000. Jaar 2: VI Italië winst 1.000 / Belgische verrichtingen winst 2.000 / Totale winst 3.000. De financieel directeur meldt dat voor jaar 2, de Belgische vennootschap belast zal worden op een winst van 4.000, terwijl de boekhoudkundige winst slechts 3.000 bedraagt."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Is dat juist: ja of neen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Verklaar uw antwoord op grond van de beginselen van de door de OESO ontwikkelde bilaterale modelovereenkomst tot het vermijden van dubbele belasting.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee open deelvragen. Deelvraag a vraagt ja/nee — geen motivatie vereist op zichzelf maar deelvraag b is de volwaardige verklaring. tekst.txt bevat een afgebroken zin in de casus ('bilaterale modelovereenkomst tot het vermijden van dubbele belasting.') die behoort tot de vraag-inleiding, niet tot deelvraag b.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

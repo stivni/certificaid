@@ -1,0 +1,39 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr26",
+  "interpretatie_datum": "2026-05-21T10:24:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting — meerwaarden belastbaar aan 33%: correcte categorie herkennen",
+  "themas": [
+    "personenbelasting",
+    "meerwaarden",
+    "afzonderlijke aanslagvoet",
+    "33%",
+    "vaste activa",
+    "stopzetting",
+    "gedwongen vervreemding"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 5",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke hieronder omschreven meerwaarden zijn belastbaar tegen de afzonderlijke aanslagvoet van 33%, tenzij de samenvoeging voordeliger is?",
+      "opties": [
+        { "id": "a", "tekst": "Meerwaarden verwezenlijkt op activa die niet voor de uitoefening van de beroepswerkzaamheid werden gebruikt en betrekking hebben op immateriële of materiële vaste activa." },
+        { "id": "b", "tekst": "Meerwaarden op materiële vaste activa die bij de verwezenlijking ervan minder dan 5 jaar voor de uitoefening van de beroepswerkzaamheid werden gebruikt." },
+        { "id": "c", "tekst": "Meerwaarden op immateriële vaste activa bij gedwongen vervreemding en met inachtneming van het 'fiscaal maximumbedrag' gelijk aan het inkomen van de laatste vier jaren." },
+        { "id": "d", "tekst": "Meerwaarden op immateriële vaste activa bij vervreemding door een belastingplichtige van meer dan 60 jaar en met inachtneming van het 'fiscaal maximumbedrag' gelijk aan het inkomen van de laatste vier jaren." },
+        { "id": "e", "tekst": "Meerwaarden op immateriële vaste activa bij stopzetting van de werkzaamheid en met inachtneming van het 'fiscaal maximumbedrag' gelijk aan de belastbare nettowinst of -baten van de laatste vier jaren." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag over meerwaarden-taxatie. Sleutelverschillen: aard van activum, gebruiksduur, leeftijd belastingplichtige, vrijwillige versus gedwongen vervreemding, en de omschrijving van het fiscaal maximumbedrag.",
+  "kwaliteits_flags": []
+}

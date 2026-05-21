@@ -1,0 +1,11 @@
+**Welke zijn de vakken in de periodieke BTW aangifte die moeten ingevuld worden voor de volgende verrichtingen, die werden gedaan door een handelaar (natuurlijke persoon) in nieuwe en tweedehandswagens?**
+
+1. Nieuwe wagens werden geleverd en gefactureerd aan cliënten die onderworpen zijn aan de Luxemburgse BTW voor een bedrag van 66.438,00 € : Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 46 66.438,00
+
+2. Een personenwagen van het merk VOLVO werd aangekocht voor een bedrag van 8.000,00 € van een kinesist en werd daarna doorverkocht voor de prijs van 8.500,00 € aan een particulier : Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 00 8.000,00 81 8.000,00 03 413,22 54 86,78
+
+3. Een vrachtwagen van het merk MANN werd aangekocht voor 4.000,00 € van een bouwonderneming en blijft in stock. Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 81 4.000,00 59 840,00
+
+4. Aankoop van een wagen RENAULT die in de onderneming wordt geïnvesteerd : 24.644,00 € BTW inbegrepen (Privé gebruik 25%). Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 83 16.344,48 59 2138,53
+
+5. Vervangingsstukken en kleine accessoires werden verkocht onder het regime van de vrijstelling van factuur en werden in het dagboek van ontvangsten ingeschreven (1.332,49 € waarvan 434,11 € aan BTW tarief van 6%). Vak Bedrag Vak Bedrag Vak Bedrag Vak Bedrag 01 409,54 03 742,46 54 180,49

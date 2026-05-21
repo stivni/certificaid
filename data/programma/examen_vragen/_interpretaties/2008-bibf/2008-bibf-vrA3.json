@@ -1,0 +1,79 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrA3",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boeking van voorraadwijzigingen",
+  "themas": [
+    "voorraden",
+    "grondstoffen",
+    "goederen in bewerking",
+    "gereed product",
+    "handelsgoederen",
+    "voorraadwijziging",
+    "jaarafsluiting"
+  ],
+  "context_blokken": [
+    {
+      "type": "gegevens_tabel",
+      "titel": "Voorraden per 1 januari N",
+      "rijen": [
+        {
+          "label": "Grondstoffen",
+          "bedrag": 12000
+        },
+        {
+          "label": "Goederen in bewerking",
+          "bedrag": 30000
+        },
+        {
+          "label": "Gereed product",
+          "bedrag": 28000
+        },
+        {
+          "label": "Handelsgoederen",
+          "bedrag": 6000
+        }
+      ]
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Voorraden per 31 december N",
+      "rijen": [
+        {
+          "label": "Grondstoffen",
+          "bedrag": 17000
+        },
+        {
+          "label": "Goederen in bewerking",
+          "bedrag": 26000
+        },
+        {
+          "label": "Gereed product",
+          "bedrag": 31000
+        },
+        {
+          "label": "Handelsgoederen",
+          "bedrag": 4000
+        }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A3",
+      "vraagtype": "open",
+      "vraagstelling": "Boek de voorraadwijzigingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG bevestigt de getallenreeksen uit tekst.txt. Gegevens gestructureerd als twee gegevens_tabellen (begin- en eindvoorraden). Modelantwoord (rekeningnummers 300, 6094, 6090, 340, 712, 330, 320, 713) is NIET opgenomen.",
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

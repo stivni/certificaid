@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr23",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting: vier stellingen over specifieke situaties",
+  "themas": ["gewaarborgd inkomen", "meerwaarde op bedrijfsactiva", "herbeleggingsvoorwaarde", "forfaitaire beroepskosten", "vrij beroep", "buitenlands pensioen", "progressievoorbehoud"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Geef aan of volgende uitspraken waar of niet waar zijn. Zet een kruisje bij het juiste antwoord."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Anna is advocate. In 2012 heeft zij gedurende 6 maanden niet kunnen werken wegens een ernstige ziekte. Omdat zij een verzekering van het type 'gewaarborgd inkomen' had afgesloten, heeft zij een vergoeding ontvangen om haar inkomstenderving te compenseren. Die vergoeding zal afzonderlijk belast worden tegen de aanslagvoet van 33%, voor zover ze niet meer bedraagt dan de nettobaten over de vier laatste jaren.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "André is loodgieter en heeft in de loop van 2012 een machine verkocht en daarop een meerwaarde behaald. Hij heeft de machine in 2004 in nieuwe staat aangekocht. Indien André de verkoopprijs van de machine herbelegt, zal de meerwaarde gespreid worden belast tegen de aanslagvoet van 16,5%.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De aftrek van forfaitaire beroepskosten is mogelijk voor de bezoldigingen van werknemers en de bezoldigingen van bedrijfsleiders, maar is niet mogelijk voor de baten van vrije beroepen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer een belastingplichtige een rustpensioen uit het buitenland ontvangt, is dit in België nooit belastbaar, maar komt het wel in aanmerking voor de berekening van het progressievoorbehoud.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier duidelijke waar/niet-waar stellingen over diverse personenbelasting-situaties. Elke stelling is een aparte deelvraag.",
+  "kwaliteits_flags": []
+}

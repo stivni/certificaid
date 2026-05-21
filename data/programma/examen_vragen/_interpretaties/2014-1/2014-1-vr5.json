@@ -1,0 +1,84 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr5",
+  "interpretatie_datum": "2026-05-21T10:03:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Financiële ratio's berekenen op basis van jaarrekening — toegevoegde waarde, nettobedrijfskapitaal, rentabiliteit, liquiditeit",
+  "themas": [
+    "financiële ratio's",
+    "bruto toegevoegde waarde per werknemer",
+    "nettobedrijfskapitaal",
+    "nettorentabiliteit",
+    "liquiditeit in enge zin",
+    "jaarrekening analyse"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Kruis het juiste antwoord aan voor de ratio's van het boekjaar. Uit de toelichting tot de jaarrekening blijkt o.a. dat: (1) er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361.869,98 EUR; (2) er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415,00 EUR; (3) er intrestsubsidies werden aangerekend op de resultatenrekening voor een bedrag van 6.000,00 EUR; (4) er geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt werd; (5) er gemiddeld 38,20 werknemers (voltijds equivalent) tewerkgesteld waren; (6) de te bestemmen winst van het boekjaar integraal gereserveerd werd."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Bruto toegevoegde waarde per werknemer",
+      "opties": [
+        { "id": "a", "tekst": "(7.441.663 – 3.185.295 – 1.192.317) : 38,20 = 80.210,76" },
+        { "id": "b", "tekst": "(7.441.663 – 415 – 3.185.295 – 1.192.317) : 38,20 = 80.199,90" },
+        { "id": "c", "tekst": "(7.441.663 – 3.185.295 – 1.192.317 – 1.548.647) : 38,20 = 39.670,26" },
+        { "id": "d", "tekst": "(7.441.663 – 3.185.295 – 1.192.317 – 436.469 – 879) : 38,20 = 68.761,86" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Nettobedrijfskapitaal",
+      "opties": [
+        { "id": "a", "tekst": "1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 – 1.210.536 = 6.648.695" },
+        { "id": "b", "tekst": "120.000 + 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 – 1.210.536 = 6.768.695" },
+        { "id": "c", "tekst": "1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704 – 1.210.536 – 39.932 = 6.611.467" },
+        { "id": "d", "tekst": "120.000 + 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704 – 1.210.536 – 39.932 = 6.731.467" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten",
+      "opties": [
+        { "id": "a", "tekst": "((877.279 + 46.934 + 211.950 – 6.000) : 9.081.054) % = 12,45" },
+        { "id": "b", "tekst": "((577.279 + 109.642 + 185.720 – 6.000) : 9.081.054) % = 9,54" },
+        { "id": "c", "tekst": "((877.279 + 46.934 + 211.950) : 9.081.054) % = 12,51" },
+        { "id": "d", "tekst": "((577.279 + 109.642 + 211.950 – 6.000) : 9.081.054) % = 9,83" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Liquiditeit in enge zin",
+      "opties": [
+        { "id": "a", "tekst": "(1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704) : (1.210.536 + 39.932) = 6,29" },
+        { "id": "b", "tekst": "(1.739.806 + 2.200.000 + 2.548.415) : 1.210.536 = 5,36" },
+        { "id": "c", "tekst": "(1.371.010 + 1.739.806 + 2.200.000 + 2.548.415) : 1.210.536 = 6,49" },
+        { "id": "d", "tekst": "(1.739.806 + 2.200.000 + 2.548.415 + 2.704) : (1.210.536 + 39.932) = 5,19" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier MC-deelvragen (a-d) over financiële ratio's. De jaarrekening zelf is als bijlage bij het examen gevoegd maar niet in het segment opgenomen — de berekeningsopties bevatten de cijfers die nodig zijn. PNG pagina_02 en 06 bevestigen de vier deelvragen en hun opties.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr55",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologie: aandelen Luxemburgs belastingkantoor + onderaanneming in België",
+  "themas": ["deontologie", "onafhankelijkheid", "aandelen houden", "onderaanneming", "beroepsnormen", "IAB", "belastingconsulent"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "U bent belastingconsulent, lid van het IAB, ingeschreven op de deellijst van de externe leden. Twee personen richten een vennootschap naar Luxemburgs recht op die belastingadvies verstrekt in het Groothertogdom Luxemburg en een kantoor met medewerkers opent in België. Ze zijn niet van plan de vennootschap te laten erkennen door het IAB. Het Belgische kantoor zal in België de benaming 'belastingconsulent' gebruiken. Zij vragen u:"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Mag u intekenen op aandelen (voor 15% van het kapitaal) van hun vennootschap naar Luxemburgs recht, zonder betrokken te zijn bij het bestuur van die vennootschap?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Mag u hen bij de opstart begeleiden door hen, zo nodig, als zelfstandige onderaannemer bij te staan in moeilijke zaken in België?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 5 van de sectie 'Juridische en beroepsnormen'. Twee ja/nee-vragen elk met afzonderlijke motivering (expliciete 'Verklaar uw antwoord' per deelvraag). motivatie_verwacht: true voor beide.",
+  "kwaliteits_flags": []
+}

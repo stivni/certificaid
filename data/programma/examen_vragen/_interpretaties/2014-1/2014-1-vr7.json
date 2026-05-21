@@ -1,0 +1,34 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr7",
+  "interpretatie_datum": "2026-05-21T10:05:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Geconsolideerde jaarrekening — maximale afwijking afsluitingsdatum",
+  "themas": [
+    "geconsolideerde jaarrekening",
+    "afsluitingsdatum",
+    "consolidatie",
+    "vennootschapsrecht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 3",
+      "vraagtype": "open",
+      "vraagstelling": "Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige open vraag. PNG pagina_07 bevestigt de formulering. Het antwoord is een feitelijk gegeven (3 maanden), maar dit is een interpretatie-artefact, geen modelantwoord.",
+  "kwaliteits_flags": []
+}

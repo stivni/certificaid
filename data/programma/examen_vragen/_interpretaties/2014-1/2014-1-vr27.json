@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr27",
+  "interpretatie_datum": "2026-05-21T10:25:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting — aftrekbare uitgaven: onjuiste stelling herkennen (aanslagjaar 2013)",
+  "themas": [
+    "personenbelasting",
+    "aftrekbare uitgaven",
+    "kinderopvang",
+    "onderhoudsuitkeringen",
+    "belastbaar tijdperk",
+    "PB aanslagjaar 2013"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 6",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke van onderstaande uitspraken is niet juist voor het aanslagjaar 2013?",
+      "opties": [
+        { "id": "a", "tekst": "De uitgaven die recht geven op belastingverminderingen mogen nog niet afgetrokken zijn bij de vaststelling van de netto-inkomsten, zo niet kunnen ze niet in aanmerking worden genomen." },
+        { "id": "b", "tekst": "De uitgaven gedaan voor de oppas van één of meer kinderen, jonger dan 12 jaar, die ten laste zijn van de belastingplichtige, zijn aftrekbaar met inachtneming van een maximumbedrag." },
+        { "id": "c", "tekst": "80% van de onderhoudsuitkeringen die de belastingplichtige regelmatig heeft betaald aan personen die niet deel uitmaken van zijn gezin, wanneer ze zijn betaald ter uitvoering van een verplichting op grond van het Burgerlijk of het Gerechtelijk Wetboek of van de wet van 23 november 1998 tot invoering van de wettelijke samenwoning, zomede 80% van de kapitalen die zulke uitkeringen vervangen, zijn aftrekbaar." },
+        { "id": "d", "tekst": "De uitgaven die aftrekbaar zijn van de gezamenlijke netto-inkomsten, worden verhoudingsgewijs toegerekend aan de verschillende inkomstencategorieën." },
+        { "id": "e", "tekst": "De aftrekbare bestedingen zijn alleen aftrekbaar van de inkomsten van het belastbaar tijdperk waarin ze werkelijk zijn betaald." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag met 5 opties. De vraag heeft 14 PNG-pagina's (18-31) wat excessief is voor één enkelvoudige MC-vraag — vermoedelijk omvat het segment meerdere pagina's van het examen. De tekst van de vraag is volledig en eenduidig.",
+  "kwaliteits_flags": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr15",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologische implicaties van talrijke adjustments bij contractueel beperkt nazicht",
+  "themas": ["deontologie", "onafhankelijkheid", "adjustments", "contractueel nazicht", "externe accountant", "eigen werk controleren"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Tijdens een controleopdracht bij een middelgrote onderneming zonder commissaris, in het kader van een contractueel beperkt nazicht, stelt de externe accountant een aantal verbeteringen (adjustments) voor."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer deze adjustments talrijk en substantieel zijn in bedrag, zou dit een probleem kunnen veroorzaken in het bijzonder op het vlak van deontologische regels.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 1 van de sectie 'Accountantsonderzoek'. Twee delen in de PDF: (a) ja/nee-vraag (0,5 punt) en (b) verklaar bondig (1,5 punt). Deelvraag b is een pure motivatie-instructie bij a en wordt geïntegreerd via motivatie_verwacht: true. Geen aparte deelvraag b.",
+  "kwaliteits_flags": []
+}

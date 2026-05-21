@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK2",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologische beoordeling: gebruik van vertrouwelijke klantenlijst van confrater",
+  "themas": [
+    "deontologie",
+    "klantenwerving",
+    "plichtenleer BIBF",
+    "art. 23",
+    "art. 16",
+    "art. 4",
+    "stagiair BIBF",
+    "ronselen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Je bent stagiair BIBF. Bij de overdracht van een dossier stuurt jouw voorganger Patrick per ongeluk een bestandje mee met al zijn klanten, hun adresgegevens, ondernemingsnummer, telefoonnummer en de prijzen die hij hanteert. Heel wat klanten ken je en je zou hun boekhouding willen overnemen voor een lager prijsje."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "K2a",
+      "vraagtype": "open",
+      "vraagstelling": "Is dit deontologisch toegelaten of verboden?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "K2b",
+      "vraagtype": "open",
+      "vraagstelling": "In welke artikelen van de plichtenleer vind je het antwoord hierop?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "Verboden — art. 23 (ronselen verboden), art. 16 (confrater niet schaden), art. 4 (eerlijkheid en waardigheid).",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Twee deelvragen: beoordeling + artikel-referenties. Modelantwoord volgt na de tweede vraag. NIET opgenomen.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

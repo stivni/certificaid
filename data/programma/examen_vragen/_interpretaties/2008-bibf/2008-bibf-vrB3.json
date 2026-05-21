@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrB3",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boeking en toelichting commissarisereloenen in de jaarrekening",
+  "themas": [
+    "commissaris",
+    "ereloon",
+    "jaarrekening toelichting",
+    "rubriek 61",
+    "personeelskosten",
+    "diensten en diverse goederen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vennootschap A heeft 12.000 EUR exclusief BTW ereloon betaald voor de commissaris."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "B3a",
+      "vraagtype": "open",
+      "vraagstelling": "In welke rubriek wordt deze bezoldiging geboekt?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "B3b",
+      "vraagtype": "open",
+      "vraagstelling": "Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee deelvragen: rubricering en toelichtingsplicht. Tweede deelvraag vereist een verantwoord ja/nee. Geen OCR-problemen.",
+  "kwaliteits_flags": []
+}

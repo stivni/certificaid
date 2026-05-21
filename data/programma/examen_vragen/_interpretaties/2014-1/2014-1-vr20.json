@@ -1,0 +1,110 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr20",
+  "interpretatie_datum": "2026-05-21T10:18:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Omzetting NV naar BVBA — controleopdracht en juist/fout-stellingen",
+  "themas": [
+    "omzetting vennootschap",
+    "NV naar BVBA",
+    "controleopdracht",
+    "tussentijdse staat",
+    "netto-actief",
+    "continuïteit",
+    "externe accountant",
+    "bedrijfsrevisor"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer FIXIT is een externe accountant. De gedelegeerde bestuurder van vennootschap NV TRIAL wenst de vennootschap om te zetten in een BVBA en geeft de heer FIXIT de opdracht dit te doen. Opmerking: bij de vragen waar juist/fout moet geantwoord worden maak je bij voorkeur het vak onleesbaar dat niet uw antwoord is (= doorhalen wat niet past). Voor de puntentelling wordt er geen giscorrectie toegepast."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "stelling 1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Deze controleopdracht kan zowel door een externe accountant, bedrijfsrevisor als door een erkend boekhouder uitgevoerd worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "stelling 2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Tijdens de controleopdracht moet de externe accountant bij de vaststellingen van continuïteitsproblemen de cliënt aanschrijven en daarop wijzen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "stelling 3",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer de vennootschap wordt omgezet van NV in een BVBA blijft haar rechtspersoonlijkheid onveranderd voortbestaan in de nieuwe vorm.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "stelling 4",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Bij de omzetting van NV in een BVBA kan in geval van unanimiteit bij de aandeelhouders vrijstelling worden verleend voor het opstellen van de verslagen en het controleverslag. Deze vrijstelling dient uitdrukkelijk in de notariële akte opgenomen te worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "stelling 5",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De wijziging van een handelsvennootschap naar een burgerlijke vennootschap of omgekeerd valt eveneens onder de bepalingen van omzetting en vereist een controleverslag.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "f",
+      "label_in_pdf": "stelling 6",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De te controleren tussentijdse staat moet worden opgemaakt rekening houdend met de waardecorrecties, pro rata kosten, afschrijvingen en voorraadwijzingen conform de waarderingsregels. Ook de voorraadwijzigingen dienen verwerkt te worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "g",
+      "label_in_pdf": "stelling 7",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De controle van de tussentijdse staat zal de beroepsbeoefenaar gebruik moeten maken van een werkprogramma waaruit zijn werkzaamheden moeten blijken.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "h",
+      "label_in_pdf": "stelling 8",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De controle van de tussentijdse staat richt zich inzonderheid naar enige overwaardering van het netto-actief. Het netto-actief omvat het kapitaal en de reserves.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "i",
+      "label_in_pdf": "stelling 9",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het dossier moet een stuk of memorandum bevatten met betrekking tot de administratieve en boekhoudkundige organisatie.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "j",
+      "label_in_pdf": "stelling 10",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer de beroepsbeoefenaar vaststelt dat er een schuldvordering is op een vennoot dan moet de beroepsbeoefenaar dit in min corrigeren op het netto-actief.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Tien juist/fout-stellingen over de omzettingscontroleopdracht. tekst.txt bevat tabelfragmentering door PDF-rendering (stelling 6 loopt over twee tabelrijen); volledig gereconstrueerd op basis van inhoud. PNG pagina_02 bevestigt de 10 stellingen.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

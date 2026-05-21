@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr35",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsbelasting: aanspraak op verlaagd basistarief via bedrijfsleidersbezoldiging",
+  "themas": ["verlaagd tarief vennootschapsbelasting", "bedrijfsleidersbezoldiging", "tantième", "rekening-courant", "voordeel alle aard", "huur privévastgoed", "vennootschapsbelasting"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "BVBA ABC met enige bedrijfsleider. Gegevens: periodieke bezoldiging 2013: 24.000 EUR; tantième toegekend op AV 13/04/2014: 10.000 EUR; lening bedrijfsleider + partner: 100.000 EUR aan 4% (marktconform), betaalde intrest 2013: 4.000 EUR; verhuur privé villa (KI 2.500, onverdeeldheid 50/50) aan BVBA: 2.000 EUR/maand; voordeel alle aard bedrijfswagen: 2.852,40 EUR (forfaitair), aangerekend via rekening-courant (geboekt op 416 R/C Bedrijfsleider debet en 743/451 credit). Belastbaar resultaat > 36.000 EUR."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "open",
+      "vraagstelling": "Kan BVBA ABC aanspraak maken op het verminderd basistarief, in de veronderstelling dat alle andere voorwaarden zijn voldaan en het belastbaar resultaat meer bedraagt dan 36.000,00 EUR? Doe de nodige berekeningen en geef enige commentaar.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 3 van de sectie 'Vennootschapsbelasting'. Open berekeningsvraag met expliciet gevraagde commentaar (motivatie_verwacht: true). De complexe gegevens zijn in de casus_context weergegeven.",
+  "kwaliteits_flags": []
+}

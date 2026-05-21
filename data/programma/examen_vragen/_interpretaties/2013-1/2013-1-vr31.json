@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr31",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-procedure: verjaringstermijnen en aanwijzing belastingontduiking bij controle 'Snack on the Road'",
+  "themas": ["btw", "verjaringstermijn", "belastingontduiking", "controle", "aanwijzing", "fiscale procedure", "btw-tarief"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De onderneming 'Snack on the Road' exploiteert een foodservice langs de autosnelweg. Bij een niet aangekondigde btw-controle op 27 januari 2013 doen de controleurs zich voor als gewone klanten. De kassier maakt de rekening zonder te vragen of de aankoop bestemd is voor verbruik ter plaatse of om mee te nemen. De btw wordt aangerekend tegen 6%. De controleur neemt plaats om zijn eten ter plaatse te verbruiken. Drie dagen later ontvangt Snack on the Road een proces-verbaal van vaststelling, gedateerd op 27 januari 2013, vermeldend dat de btw op alle aankopen tegen 6% wordt berekend, ook als de waar ter plaatse verbruikt wordt. In een afzonderlijke brief van dezelfde dag kondigt de administratie een grondige controle aan over de periode van 1 januari 2005 tot 27 januari 2013, met verwijzing naar het proces-verbaal maar zonder omschrijving van de vastgestelde feiten. De controle is voorzien voor 20 februari 2013."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Vermeld de normale verjaringstermijn van de vordering tot voldoening van de belasting (btw). Vanaf welke dag begint deze verjaringstermijn te lopen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Vermeld de normale verjaringstermijn van de vordering tot voldoening van de belasting in geval van belastingontduiking (btw). Vanaf welke dag begint deze verjaringstermijn te lopen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Vermeld, in bovenstaand voorbeeld, het laatste jaar tot waar de administratie, vanaf 27 januari 2013, kan teruggaan om controle uit te oefenen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Is de brief die de grondige controle aankondigt een aanwijzing van belastingontduiking?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 2. De tekst.txt bevat gefragmenteerde subvraag-omschrijvingen voor a en b. Volledige vraagstelling gereconstrueerd uit de context. Deelvraag d impliceert motivering door de aard van de vraag (is / is niet).",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

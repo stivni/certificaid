@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr31",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Woonstaatheffing Luxemburg: aangifte in België en terugbetaling overschot",
+  "themas": ["woonstaatheffing", "Spaarrenterichtlijn", "dubbelbelastingverdrag", "Luxemburg", "roerende inkomsten", "aangifte personenbelasting", "verrekening bronheffing"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een natuurlijke persoon die als particulier handelt en fiscaal als een inwoner van België wordt beschouwd, zet u de volgende toestand uiteen: hij houdt een bankrekening aan in het Groothertogdom Luxemburg en heeft in 2013 op die rekening in het Groothertogdom interesten van obligaties geïnd. Die interesten werden in het Groothertogdom Luxemburg onderworpen aan de 'Woonstaatheffing'. Betrokkene zal die interesten in 2014 in België aangeven in zijn aangifte in de personenbelasting."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe moet hij die 'Woonstaatheffing' in zijn Belgische belastingaangifte voor het aanslagjaar 2014, inkomsten 2013, behandelen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Zal het overschot van die woonstaatheffing ten opzichte van de verschuldigde Belgische belasting in België worden terugbetaald?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Tekst.txt fragmentarisch (begint midden in de vraagstelling). Volledige casus gereconstrueerd. Deelvraag a en b zijn eigenstandige procedurevragen over de fiscale behandeling van de woonstaatheffing in de Belgische aangifte.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

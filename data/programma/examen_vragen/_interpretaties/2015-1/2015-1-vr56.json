@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr56",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Norm controle fusie- en splitsingsverrichtingen: verplichtingen bij meerdere beroepsbeoefenaars",
+  "themas": ["fusie", "splitsing", "norm IAB", "controleverslag", "beroepsbeoefenaars", "samenwerking accountants"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In de norm inzake de controle van fusie- en splitsingsverrichtingen van vennootschappen, zoals goedgekeurd door de raad van het IAB, zijn er drie verplichtingen voor de beroepsbeoefenaar wanneer de door de wet vereiste verslagen in de bij de fusie of splitsing betrokken vennootschappen door verschillende beroepsbeoefenaars moeten opgesteld worden."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "open",
+      "vraagstelling": "Geef twee van de drie verplichtingen voor de beroepsbeoefenaar wanneer de door de wet vereiste verslagen door verschillende beroepsbeoefenaars moeten opgesteld worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 6 (laatste) van de sectie 'Juridische en beroepsnormen'. Enkelvoudige open vraag naar 2 van 3 verplichtingen uit de IAB-norm.",
+  "kwaliteits_flags": []
+}

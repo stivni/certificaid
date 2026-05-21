@@ -1,0 +1,112 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr19",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Omzettingsopdracht CVBA naar BVBA: onafhankelijkheid, correcties actief en verslag",
+  "themas": ["omzetting vennootschap", "CVBA", "BVBA", "onafhankelijkheid", "proef- en saldibalans", "verantwoordelijkheid cliënt", "werkdossier", "correcties actief", "omzettingsverslag"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een collega accountant die je kent van uw beroepsvereniging vraagt om uw tussenkomst bij de omzetting van een vennootschap van één van zijn klanten. Het betreft de CVBA Fortunito die wenst om te zetten naar de BVBA Roflexfort. Op vraag van uw collega zendt de interne boekhouder je daarvoor een proef- en saldibalans per 30/09/2013 (statutair boekjaar 01/01/2013-31/12/2013)."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Staat activa en passiva per 30/09/2013",
+      "rijen": [
+        { "label": "Installaties (230000)", "bedrag": 32000 },
+        { "label": "Afschrijving installaties (230900)", "bedrag": null },
+        { "label": "Aandelen O'Cool (280000)", "bedrag": 30000 },
+        { "label": "Handelsdebiteuren (400000)", "bedrag": 215100.0 },
+        { "label": "Terug te vorderen BTW (411000)", "bedrag": 6020.17 },
+        { "label": "Bankrekening (550000)", "bedrag": 221931.57 },
+        { "label": "Totaal activa", "bedrag": 505051.74 }
+      ]
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Kruis het juiste antwoord aan voor elk van de volgende stellingen:",
+      "opties": [
+        { "id": "a", "tekst": "Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort? (Ja/Nee)" },
+        { "id": "b", "tekst": "Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan omgezet worden in de BVBA Reflexfort? (Ja/Nee)" },
+        { "id": "c", "tekst": "Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren? (Ja/Nee)" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Kan je werken op basis van een proef- en saldibalans zoals in bijlage? Verklaar uw antwoord.",
+      "opties": [
+        { "id": "a", "tekst": "Ja" },
+        { "id": "b", "tekst": "Nee" }
+      ],
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Wie draagt de verantwoordelijkheid over de verstrekte cijfers? Geef één voorbeeld waaruit deze verantwoordelijkheid kan blijken.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Geef drie voorbeelden van stukken die vereist zijn in elk werkdossier van een wettelijke opdracht die je opvraagt nog vóór je begint te cijferen en te controleren.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "open",
+      "vraagstelling": null,
+      "motivatie_verwacht": false,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Onbekende deelvraag e (tekst ontbreekt in OCR — mogelijk verdere vereisten werkdossier of een bijkomende stap in de omzettingsprocedure)"
+    },
+    {
+      "id": "f",
+      "label_in_pdf": "f",
+      "vraagtype": "open",
+      "vraagstelling": "Omschrijf en bereken de door te voeren correcties op de activaposten zoals deze voorkomen in de ontvangen cijfers per 30/09/2013 (enkel de correcties van het ACTIEF). Gebruik de staat activa en passiva, afschrijvingstabel, detail participatie en overzicht handelsvorderingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "g",
+      "label_in_pdf": "g",
+      "vraagtype": "open",
+      "vraagstelling": "Als gevolg van uw vaststellingen en vereiste correcties moeten er vermeldingen komen in het besluit van je verslag. Geef twee vermeldingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "h",
+      "label_in_pdf": "h",
+      "vraagtype": "open",
+      "vraagstelling": "Als gevolg van je vaststelling moet je een specifiek risico in je besluit opnemen. Geef de formulering ervan.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Omvangrijke vraag met 8 deelvragen (a t/m h). Deelvraag e is niet leesbaar in tekst.txt — gemarkeerd als topic_only. Deelvraag a heeft drie Ja/Nee stellingen, gemodelleerd als mc_keuze met drie opties. Deelvraag b heeft Ja/Nee met verklaring. De statentabel met activa opgenomen als gegevens_tabel.",
+  "kwaliteits_flags": ["ocr_artefact", "subvraag_zonder_inhoud", "tabel_in_pdf_zichtbaar"]
+}

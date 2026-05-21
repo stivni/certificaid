@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrJ1",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Sociale bijdragen zelfstandige bedrijfsleider bij sterk gedaalde bezoldiging",
+  "themas": [
+    "sociale bijdragen zelfstandige",
+    "bedrijfsleider",
+    "herziening sociale bijdragen",
+    "refertejaar",
+    "inkomensdaling",
+    "sociaal statuut zelfstandige"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Ten gevolge van het verlies van een grote klant kent een vennootschap grote financiële problemen. De bedrijfsleiders beslissen om hun bezoldigingen fors te verminderen gedurende een bepaalde periode. De bedrijfsleider betaalt zelf zijn trimestriële sociale bijdragen, berekend op basis van de ontvangen bezoldigingen in 2000. In 2003 is zijn bezoldiging fors verminderd in verhouding tot hetgeen hij ontving in 2000."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "J.1",
+      "vraagtype": "open",
+      "vraagstelling": "Welk advies zal u geven aan deze cliënt?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Open adviesvraag over sociale bijdragen bij gedaalde bezoldiging. Vraagtype 'open'. Casus legt het probleem (te hoge bijdragen op basis van refertejaar 2000) duidelijk uit.",
+  "kwaliteits_flags": []
+}

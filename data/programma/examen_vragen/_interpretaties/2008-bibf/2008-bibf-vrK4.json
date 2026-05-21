@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK4",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Tuchtstraf schorsing BIBF: verplichtingen naar cliënten en overtredingen plichtenleer",
+  "themas": [
+    "tuchtstraf",
+    "schorsing BIBF",
+    "art. 12",
+    "plichtenleer",
+    "beroepsvervolmaking",
+    "lidgeld",
+    "verzekering beroepsaansprakelijkheid",
+    "kamer van beroep"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Rik is stagiair geworden nadat hij betrapt werd op illegale uitoefening. In 2006: slechts 14 uren beroepsvervolmaking gevolgd (te weinig), lidgeld niet betaald, bijdrage beroepsaansprakelijkheidsverzekering niet betaald. De assessor dagvaardde hem voor de Kamer; hij verscheen niet, ondanks tijdige oproeping voor de openbare zitting, en reageerde niet op brieven. De Kamer spreekt op 3 november 2007 een tuchtstraf van 3 maanden schorsing uit. Rik gaat niet in beroep. Op 3 januari 2008 belt een klant om de BTW-aangifte Q4/2007 te vragen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "K4.1",
+      "vraagtype": "open",
+      "vraagstelling": "Welk artikel van de plichtenleer moet Rik inroepen naar zijn cliënt toe, en wat verplicht dat artikel hem te doen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "K4.2",
+      "vraagtype": "open",
+      "vraagstelling": "Noem minstens 3 artikelen van de plichtenleer die Rik had overtreden, zoals vastgesteld bij de zitting van de Kamer.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "1) Art. 12 (cliënteel informeren bij schorsing van minstens 1 maand). 2) Art. 5 (bijdrage), art. 9 (gevraagde inlichtingen), art. 14 (verzekering beroepsaansprakelijkheid), art. 15 (beroepsvervolmaking).",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Twee deelvragen: specifiek artikel voor klantcommunicatie en opsomming overtredingen. Modelantwoorden na de vragen zijn NIET opgenomen.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

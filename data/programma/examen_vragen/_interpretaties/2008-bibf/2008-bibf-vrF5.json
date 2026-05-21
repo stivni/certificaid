@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF5",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Belastbaar tijdperk: welke stelling is juist?",
+  "themas": [
+    "belastbaar tijdperk",
+    "inkomsten van arbeid",
+    "tantième",
+    "meerwaarde",
+    "beschikbaarheidscriterium",
+    "personenbelasting"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "F5",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Wat is juist inzake belastbaar tijdperk?",
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Een uitgave in 2006 met betrekking tot een door een handelaar in 2007 te realiseren meerwaarde is een gezamenlijk belastbare winst van 2007."
+        },
+        {
+          "id": "b",
+          "tekst": "Een tantième dat op 15.04.2008 met betrekking tot de winst van het boekjaar 2007 toegekend is, is voor de bedrijfsleider een beroepsinkomen gerelateerd aan het belastbaar tijdperk 2007."
+        },
+        {
+          "id": "c",
+          "tekst": "Wanneer ingevolge een geschil met een (voormalig) werkgever een bezoldiging met betrekking tot de prestaties van 2007 pas in de loop van 2008 uitgekeerd wordt, is dat een belastbaar inkomen van 2007."
+        },
+        {
+          "id": "d",
+          "tekst": "Een advocaat maakt op 20.12.07 een ereloonnota van € 1.000,00 op voor geleverde prestaties. De klant betaalt op 10.01.08. De erelonen horen tot het belastbaar tijdperk 2007."
+        }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier MC-opties geëxtraheerd. Geen aanduiding van het correcte antwoord in de tekst.",
+  "kwaliteits_flags": []
+}

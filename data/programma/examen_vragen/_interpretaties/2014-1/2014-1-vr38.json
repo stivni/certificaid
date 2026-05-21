@@ -1,0 +1,45 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr38",
+  "interpretatie_datum": "2026-05-21T10:36:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Fusie-richtlijn — aftrekbaarheid fiscale verliezen Belgische vennootschap na overname door Duitse vennootschap",
+  "themas": [
+    "fusie-richtlijn",
+    "grensoverschrijdende fusie",
+    "fiscale verliezen",
+    "verliesoverdracht",
+    "Richtlijn 2009/133/EG",
+    "Belgisch recht",
+    "Duits recht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een vennootschap naar Belgisch recht, zonder bijkantoor noch vaste inrichting in het buitenland, wordt overgenomen door een vennootschap naar Duits recht. De Belgische vennootschap had verrekenbare fiscale verliezen die zij nog niet van de latere winsten had kunnen aftrekken."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Zullen die fiscale verliezen kunnen worden afgetrokken van de na de fusie verwezenlijkte winsten? Beoordeel elk van de volgende drie scenario's (ja/neen): (1) uitsluitend op de in België verwezenlijkte winsten, overeenkomstig de in België toepasselijke regels betreffende fusies; (2) op de winsten van de overnemende Duitse vennootschap, ongeacht die in België of in Duitsland worden verwezenlijkt; (3) op de winsten van de overnemende Duitse vennootschap die in Duitsland worden verwezenlijkt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Verklaar uw antwoord op grond van de op deze toestand toepasselijke beginselen en verwijs naar de toepasselijke bepaling van Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 voor fusies, splitsingen, enz. met betrekking tot vennootschappen uit de Europese Unie (volgens de erin vastgestelde voorwaarden).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee deelvragen. Deelvraag a bevat drie ja/neen-sub-scenario's — weergegeven als één open deelvraag met de drie scenario's uitgeschreven in de vraagstelling. De drie afzonderlijke ja/neen-tabellen in tekst.txt zijn fusie-scenario's binnen één vraag.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

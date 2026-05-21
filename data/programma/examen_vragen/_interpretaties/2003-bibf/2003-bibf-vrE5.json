@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE5",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Dagboek van ontvangsten — juist/fout stellingen",
+  "themas": [
+    "dagboek van ontvangsten",
+    "BTW-administratie",
+    "kassaregistratie",
+    "exploitatiezetels",
+    "bewaarplicht",
+    "boekhoudverplichtingen"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Stelling 1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het dagboek van de ontvangsten mag op losse bladen worden bijgehouden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "Stelling 2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het dagboek van de ontvangsten is facultatief wanneer de ontvangsten worden geregistreerd via een kassa die deze registratie uitvoert.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "Stelling 3",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een restaurant dat drie exploitatiezetels heeft, dient drie aparte dagboeken van ontvangsten bij te houden en dient deze te centraliseren in één centraal dagboek.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "Stelling 4",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een dagboek van de ontvangsten mag door de zelfstandige boekhouder meegenomen worden naar zijn bureau voor een periode die nodig is om de periodieke BTW-aangifte op te stellen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier JUIST/FOUT-stellingen over het dagboek van ontvangsten. Elk is een aparte juist_fout-deelvraag. PNG bevestigt de vier stellingen. Geen motivering gevraagd — enkel omcirkelen.",
+  "kwaliteits_flags": []
+}

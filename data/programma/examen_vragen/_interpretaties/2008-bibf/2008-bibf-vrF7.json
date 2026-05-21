@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF7",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Aftrekbare besteding: welke uitgave vormt een aftrekbare besteding?",
+  "themas": [
+    "aftrekbare besteding",
+    "beschermde eigendommen",
+    "positief grootstedelijk beleid",
+    "renovatie woning",
+    "beveiligingsuitgaven",
+    "personenbelasting"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "F7",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke uitgave vormt een aftrekbare besteding?",
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Uitgave voor het onderhoud en de restauratie van beschermde eigendommen"
+        },
+        {
+          "id": "b",
+          "tekst": "Een uitgave voor de vernieuwing van een woning in een zone voor positief grootstedelijk beleid"
+        },
+        {
+          "id": "c",
+          "tekst": "Uitgaven voor de vernieuwing van woningen die tegen een redelijke prijs verhuurd worden"
+        },
+        {
+          "id": "d",
+          "tekst": "Uitgaven ter beveiliging van een privéwoning tegen diefstal en brand"
+        }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige MC-vraag. Vier opties. Geen correcte-antwoord-aanduiding. PNG pagina 13 bevestigt dat vrF7 de laatste vraag op pagina 13 is, na F5 en F6.",
+  "kwaliteits_flags": []
+}

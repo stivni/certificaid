@@ -1,0 +1,139 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrG1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Belastbare basis vennootschapsbelasting: fiscale aangifte voor KMO Green",
+  "themas": [
+    "vennootschapsbelasting",
+    "belastbare basis",
+    "investeringsaftrek",
+    "notionele intrestaftrek",
+    "verworpen uitgaven",
+    "aftrekbeperking bedrijfswagen",
+    "maaltijdcheques",
+    "KMO"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De vennootschap 'Green', een KMO overeenkomstig art. 15 §1 W.Venn., heeft als activiteit de handel in tuinmaterialen. Opgericht door twee natuurlijke personen die tevens bestuurder zijn. Belastbaar tijdperk: inkomsten 2007, aangifte 2008."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Fiscale gegevens vennootschap Green",
+      "rijen": [
+        {
+          "label": "Belaste reserve geïncorporeerd in kapitaal (2000)",
+          "bedrag": 1509
+        },
+        {
+          "label": "Investering verwarmingsinstallatie (energiebesparend, attest Vlaams Gewest)",
+          "bedrag": 3300
+        },
+        {
+          "label": "Percentage investeringsaftrek energiebesparende maatregelen",
+          "bedrag": null
+        },
+        {
+          "label": "Onderwaardering stock vastgesteld bij fiscale controle",
+          "bedrag": 3500
+        },
+        {
+          "label": "Verkeersbelasting bedrijfswagen",
+          "bedrag": 250
+        },
+        {
+          "label": "Intresten op de lening bedrijfswagen",
+          "bedrag": 352
+        },
+        {
+          "label": "Afschrijvingen bedrijfswagen",
+          "bedrag": 19500
+        },
+        {
+          "label": "Niet-aftrekbare BTW bedrijfswagen",
+          "bedrag": 570
+        },
+        {
+          "label": "Diesel bedrijfswagen",
+          "bedrag": 1250
+        },
+        {
+          "label": "Voordeel in natura (BTW incl., geen factuur)",
+          "bedrag": 1385
+        },
+        {
+          "label": "Voorafbetalingen",
+          "bedrag": 2000
+        },
+        {
+          "label": "Belastingsupplement",
+          "bedrag": 3770
+        },
+        {
+          "label": "Regularisatie van belasting",
+          "bedrag": -1433
+        },
+        {
+          "label": "Uitgave voor onthaal cliënten",
+          "bedrag": 852
+        },
+        {
+          "label": "Restaurantkosten",
+          "bedrag": 350
+        },
+        {
+          "label": "Hotelkosten in Duitsland (overnachting)",
+          "bedrag": 125
+        },
+        {
+          "label": "Taksen op de waterfactuur",
+          "bedrag": 125
+        },
+        {
+          "label": "BTW-boete (niet indiening aangifte)",
+          "bedrag": 50
+        },
+        {
+          "label": "Verwijlintresten laattijdige BTW-betaling Q3",
+          "bedrag": 35
+        },
+        {
+          "label": "Maaltijdcheques",
+          "bedrag": 1320
+        },
+        {
+          "label": "Kosten werkkledij (bescherming werknemers)",
+          "bedrag": 450
+        },
+        {
+          "label": "Kosten maatpak bestuurder",
+          "bedrag": 525
+        },
+        {
+          "label": "Percentage notionele intrestaftrek (inkomstenjaar 2007)",
+          "bedrag": null
+        }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "G1",
+      "vraagtype": "open",
+      "vraagstelling": "Vervolledig de fiscale aangifte en bereken de belastbare basis in de vennootschapsbelasting op basis van de hierboven vermelde gegevens en de bijgevoegde jaarrekening. Het betreft de inkomsten 2007, aangifte 2008. Het percentage voor de toepassing van de notionele intrestaftrek voor dat inkomstenjaar bedraagt 4,281%.",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "De bijgevoegde jaarrekening waarnaar verwezen wordt, is niet aanwezig in het segment (enkel de gegevensopsomming). volledigheid=fragment omdat de jaarrekening ontbreekt. De gegevensopsomming is wel volledig. PNG pagina 14 bevestigt alle vermelde bedragen. Investeringsaftrek=13,5% vermeld in de tekst.",
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud",
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

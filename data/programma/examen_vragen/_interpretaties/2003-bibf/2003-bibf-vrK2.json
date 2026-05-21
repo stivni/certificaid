@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrK2",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologische regels dossiertransfer: toepassing bij IAB-accountant of IBR-bedrijfsrevisor",
+  "themas": [
+    "deontologie",
+    "BIBF",
+    "IAB",
+    "IBR",
+    "dossiertransfer",
+    "interprofessionele samenwerking",
+    "collegialiteit"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Verwijzing naar de regels geformuleerd in vraag K.1 (deontologische regels dossiertransfer tussen BIBF-leden)."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "K.2",
+      "vraagtype": "open",
+      "vraagstelling": "Gelden dezelfde regels, zoals geformuleerd in uw antwoord op vraag K.1, tevens wanneer een dossier wordt overgenomen of overgedragen ten aanzien van een accountant IAB of een bedrijfsrevisor IBR? Zo nodig, geef meer toelichting.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vervolgvraag op K.1. Vraagt expliciet of de K.1-regels ook gelden bij transfer naar IAB/IBR-leden en om toelichting zo nodig — motivatie_verwacht: true. Vraagtype 'open' (vergelijking/procedure).",
+  "kwaliteits_flags": []
+}

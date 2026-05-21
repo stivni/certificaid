@@ -1,0 +1,75 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrE2",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-aangifte vakken invullen voor diverse verrichtingen tweedehandswagenhandelaar",
+  "themas": [
+    "BTW aangifte",
+    "periodieke aangifte",
+    "vakken",
+    "intracommunautaire levering",
+    "margeregeling",
+    "aftrekbeperking personenwagen",
+    "tweedehandswagens"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een handelaar (natuurlijke persoon) in nieuwe en tweedehandswagens verricht de volgende verrichtingen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "E2.1",
+      "vraagtype": "open",
+      "vraagstelling": "Nieuwe wagens werden geleverd en gefactureerd aan cliënten die onderworpen zijn aan de Luxemburgse BTW voor een bedrag van 66.438,00 €. Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "E2.2",
+      "vraagtype": "open",
+      "vraagstelling": "Een personenwagen VOLVO werd aangekocht voor 8.000,00 € van een kinesist en doorverkocht voor 8.500,00 € aan een particulier. Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "E2.3",
+      "vraagtype": "open",
+      "vraagstelling": "Een vrachtwagen MANN werd aangekocht voor 4.000,00 € van een bouwonderneming en blijft in stock. Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "E2.4",
+      "vraagtype": "open",
+      "vraagstelling": "Aankoop van een wagen RENAULT die in de onderneming wordt geïnvesteerd: 24.644,00 € BTW inbegrepen (privégebruik 25%). Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "E2.5",
+      "vraagtype": "open",
+      "vraagstelling": "Vervangingsstukken en kleine accessoires werden verkocht onder het regime van de vrijstelling van factuur en werden in het dagboek van ontvangsten ingeschreven (1.332,49 € waarvan 434,11 € aan BTW-tarief van 6%). Welke zijn de vakken in de periodieke BTW-aangifte die moeten ingevuld worden, met vermelding van de bedragen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "Na elke vraag staan de ingevulde vakken en bedragen als antwoord: bv. vak 46=66.438,00; vak 00=8.000,00, vak 81=8.000,00, vak 03=413,22, vak 54=86,78; etc.",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "De 'Vak Bedrag'-rijen na elke deelvraag zijn het gepubliceerde modelantwoord, NIET de vraagstelling zelf. PNG pagina 10 bevestigt dit. Vijf deelvragen op basis van vijf genummerde verrichtingen.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr46",
+  "interpretatie_datum": "2026-05-21T10:44:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologie — verslag van omvorming op verzoek van confrater: akkoord of niet (juist/fout)",
+  "themas": [
+    "deontologie",
+    "omvormingsverslag",
+    "onafhankelijkheid",
+    "opdrachtsaanvaarding",
+    "dossierplicht",
+    "confrater",
+    "dossieroverdracht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een confrater, die bij u in de gemeente is gevestigd, vraagt u als extern accountant voor één van zijn klanten een verslag van omvorming te willen opmaken. Geef aan of u met volgende stellingen akkoord kan gaan of niet."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "U kan deze opdracht aanvaarden gezien er, buiten het feit dat u in dezelfde gemeente gevestigd is, verder geen enkele link is tussen uw kantoor en het kantoor van uw confrater.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "U kan de opdrachtgevende klant bijstaan bij het opmaken van de staat van activa en passiva.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Door de uitvoering van deze opdracht heeft de opdrachtgevende klant de beslissing genomen om zijn dossier onmiddellijk na de omvorming aan uw kantoor toe te vertrouwen, waarin u kan toestemmen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het verslag dat u heeft opgemaakt moet ter beschikking gehouden worden van het Instituut en moet onmiddellijk worden overgemaakt op het ogenblik dat dit gevraagd wordt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Uw confrater heeft met kennis van zaken een volledig dossier aangemaakt met betrekking tot de omvorming. Gezien deze voorbereidende werkzaamheden beslist u om zelf geen dossier aan te leggen en vraagt u uw confrater het dossier ter beschikking te houden indien nodig voor een controle door het Instituut.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vijf juist/fout-stellingen over deontologische grenzen bij omvormingsopdracht. PNG-pagina's 13-17 tonen het bredere examenblad. Stelling c raakt de problematiek van onverenigbaarheid tussen controlefunctie en opvolging van de klant.",
+  "kwaliteits_flags": []
+}

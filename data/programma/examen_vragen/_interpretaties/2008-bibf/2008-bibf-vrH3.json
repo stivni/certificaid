@@ -1,0 +1,59 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrH3",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Schenking van effecten aan dochter: mogelijkheden, schenkingsrechten en risico's",
+  "themas": [
+    "schenking",
+    "effecten op naam",
+    "schenkingsrechten",
+    "Nederlandse notaris",
+    "successierechten",
+    "overlijdensrisico 3 jaar",
+    "Vlaams tarief"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "U (woonachtig in Gent) wil uw effecten op naam ter waarde van 300.000 euro schenken aan uw dochter van 22 jaar (woonachtig in Leuven) tegen een zo laag mogelijke fiscale kost."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "H3a",
+      "vraagtype": "open",
+      "vraagstelling": "Welke zijn uw mogelijkheden?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "H3b",
+      "vraagtype": "open",
+      "vraagstelling": "Wie betaalt de schenkingsrechten en hoeveel (in euro)?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "H3c",
+      "vraagtype": "open",
+      "vraagstelling": "Zitten er addertjes onder het gras?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "Schenking via Nederlandse notaris (geen schenkingsrechten, maar successierechten bij overlijden binnen 3 jaar) en schenking aan 3% tarief in Vlaanderen (dochter betaalt 9.000 euro).",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Drie deelvragen uit één continue vraagstelling. Modelantwoord volgt direct na de vraag. NIET opgenomen. Twee-pagina segment (p.15-16).",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

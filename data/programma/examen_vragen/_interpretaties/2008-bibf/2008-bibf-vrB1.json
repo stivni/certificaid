@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrB1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boeking van aandelenaankoop in een verbonden groepsstructuur",
+  "themas": [
+    "groepsvennootschappen",
+    "deelnemingen",
+    "stemrecht",
+    "verbonden vennootschappen",
+    "financiële vaste activa",
+    "aandelenaankoop"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In een groep controleert vennootschap A twee dochters B en C. Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12% vertegenwoordigen van het stemrecht in C."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "B1",
+      "vraagtype": "open",
+      "vraagstelling": "Boek deze aankoop in de onderneming B.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige boekingsvraag. De kwalificatie van de deelneming (verbonden vs. niet-verbonden, gegeven dat A de controle heeft over C en B een zuster is) is de kernkwestie. Geen OCR-problemen.",
+  "kwaliteits_flags": []
+}

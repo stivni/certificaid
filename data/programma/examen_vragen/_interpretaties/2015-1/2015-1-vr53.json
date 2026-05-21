@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr53",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Limiet contante betalingen en meldingsplicht CFI witwaswetgeving",
+  "themas": ["contante betalingen", "limiet cash", "witwaswetgeving", "CFI-melding", "antiwitwas", "externe belastingconsulent"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Klant is eigenaar van een meubelhandel en stelt vragen over maximale contante betalingen in verschillende gevallen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Uw klant, een meubelhandel, stelt u de volgende vraag: hoeveel mag de klant van de meubelhandel in contanten betalen in de volgende gevallen? (1) Klant koopt meubel van 2.800 EUR; (2) klant koopt meubel van 5.800 EUR; (3) klant koopt meubel van 5.800 EUR en betaalt in 2 schijven van 2.900 EUR; (4) klant koopt meubel van 11.000 EUR en betaalt in 2 schijven van 5.500 EUR.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "U stelt bij één van uw klanten een overtreding vast van de limiet op toegestane betalingen in contanten. Moet u als extern belastingconsulent een melding doen aan de CFI in het kader van de preventieve witwaswetgeving?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 3 van de sectie 'Juridische en beroepsnormen'. Twee deelvragen: (a) open berekening/toepassingsvraag per scenario; (b) ja/nee-vraag met motivering. Deelvraag b is niet louter een motivatie van a maar een eigenstandige vraag over meldingsplicht.",
+  "kwaliteits_flags": []
+}

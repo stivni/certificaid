@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK3",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Dossieroverdracht en aanbrengcommissie: plichtenleer BIBF-stagiair",
+  "themas": [
+    "dossieroverdracht",
+    "plichtenleer BIBF",
+    "art. 17",
+    "art. 13",
+    "aanbrengcommissie",
+    "stagiair",
+    "voorafgaande kennisgeving confrater"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Je bent stagiair BIBF. Nico, een vriend van je oudere broer Paul (bankier bij Dexia), wenst dat je de boekhouding van zijn restaurant overneemt. Nico had tot 3 maanden geleden zijn boekhouding bij Bernard."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "K3a",
+      "vraagtype": "open",
+      "vraagstelling": "Wat verplicht de plichtenleer u, en hoe zal u de overgang van het dossier laten verlopen? Citeer tevens de toepasselijke artikelen uit de plichtenleer.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "K3b",
+      "vraagtype": "open",
+      "vraagstelling": "Je bent dermate tevreden dat je je aanbrengende broer een commissievergoeding wenst te betalen uit dank. Hoe pak je dit aan en op basis van welk artikel van de plichtenleer?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "Art. 17 (aangetekende kennisgeving voorganger, aandringen op betaling honoraria, inventaris in 2 exemplaren). Art. 13 alinea 3 (commissie verboden).",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Twee deelvragen: overdrachtsplichten en verbod aanbrengcommissie. Modelantwoorden na de vraagstellingen zijn NIET opgenomen.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

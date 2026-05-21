@@ -1,0 +1,60 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE3",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-verschuldigdheid bij diverse verrichtingen — ja/neen met bedrag",
+  "themas": [
+    "BTW-verschuldigdheid",
+    "afgeschreven bedrijfsmiddelen",
+    "voordeel alle aard",
+    "franchisesysteem",
+    "intracommunautaire levering",
+    "herziening BTW"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Verrichtingen verricht in de loop van het jaar 2003, in hoofde van een BTW-belastingplichtige, ontvanger van BTW met recht op aftrek. Bij 'JA' dient het bedrag van de verschuldigde belasting vermeld te worden alsook, in voorkomend geval, de eenvoudige formule om tot dit bedrag te komen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Stelling 1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Verkoop in België van een volledig afgeschreven computer voor 100,00 EUR (prijs betaald door de koper): BTW verschuldigd?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "Stelling 2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Voordeel van alle aard van 1.500,00 EUR voor het gebruik van een auto door een personeelslid: BTW verschuldigd?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "Stelling 3",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Overschakeling van het normale regime naar het franchisesysteem waarbij bureaumateriaal werd aangeschaft in de loop van het jaar 2000 voor 500,00 EUR excl. 21% BTW (belasting die geheel werd afgetrokken): BTW verschuldigd?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "Stelling 4",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Verkoop van goederen voor 10.000 EUR met levering in Duitsland voor een cliënt die daar een belangrijke detailhandel uitbaat: BTW verschuldigd?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier JA/NEEN-verrichtingen met bedrag-toelichting bij JA. Elk is een juist/fout-deelvraag. Motivatie_verwacht: true want het bedrag en de formule worden expliciet gevraagd bij JA-antwoord. Vraagstelling licht herschreven voor duidelijkheid; taalcorrecties (1.500, 00 → 1.500,00).",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

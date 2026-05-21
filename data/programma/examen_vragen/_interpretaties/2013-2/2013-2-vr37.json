@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr37",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Dossieroverdracht tussen confraters: stellingen juist/fout",
+  "themas": ["dossieroverdracht", "confrater", "erelonen", "boekhoudpakket", "historieken", "ontwerpen jaarverslag", "beroepsreglement", "ITAA"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In de relatie met confraters wordt u soms geconfronteerd met het feit dat u een dossier overneemt of dat u zelf een dossier dient over te dragen. Welke van onderstaande stellingen zijn juist of fout?"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Indien een cliënt al uw erelonen nog niet heeft betaald, bent u toch verplicht om het dossier over te dragen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer u de boekhouding heeft gevoerd voor uw cliënt in een boekhoudpakket dat door u als accountant werd aangekocht, dient u de historieken en dagboeken niet te overhandigen aan de vertrekkende klant.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Als uw nieuwe cliënt u meedeelt dat hij reeds contact heeft genomen met uw voorganger, dient u zelf geen initiatief meer te nemen om de confrater te contacteren of een brief te schrijven.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer u reeds ontwerpen opstelde van jaarverslagen of notulen van algemene vergaderingen, dient u deze steeds te overhandigen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier juist/fout-stellingen over dossieroverdracht. Tekst.txt combineert deelvraag a en b in één blok — genegeerd, beide gereconstrueerd als separate deelvragen vanuit de PDF-tekst.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

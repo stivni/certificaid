@@ -1,0 +1,45 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrB2",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Schema jaarrekening: klein vs. volledig schema voor groepsvennootschappen",
+  "themas": [
+    "jaarrekening schema",
+    "kleine vennootschap",
+    "grote vennootschap",
+    "groepsvennootschappen",
+    "publicatieplicht",
+    "omzetgrens",
+    "personeelsgrens"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vennootschap B stelt 5 voltijdse equivalenten tewerk en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A telt 120 werknemers (voltijdse equivalenten)."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "B2a",
+      "vraagtype": "open",
+      "vraagstelling": "Welk schema moet/mag de vennootschap A voor haar jaarrekening gebruiken?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "B2b",
+      "vraagtype": "open",
+      "vraagstelling": "Welk schema moet/mag de vennootschap B voor haar jaarrekening gebruiken?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee afzonderlijke deelvragen voor A en B. 'Motiveer' is impliciet in 'welk schema moet/mag' — beide deelvragen vereisen een verantwoording op basis van de criteria. motivatie_verwacht=true.",
+  "kwaliteits_flags": []
+}

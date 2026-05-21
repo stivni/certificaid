@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrE1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Gevolgen van switch van forfaitair naar maandelijks BTW-regime",
+  "themas": [
+    "BTW regime",
+    "forfaitair regime",
+    "maandelijkse aangifte",
+    "detailhandelaar",
+    "stock inventaris",
+    "BTW administratie"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een cliënt, detailhandelaar in textielproducten, startte zijn activiteiten op 1/1/2006 en koos voor het forfaitaire BTW-regime. Alle BTW-aangiften werden tijdig ingediend en de verschuldigde BTW steeds stipt betaald. Gezien de succesvolle ontwikkeling van de activiteiten heeft u haar aangeraden om vanaf 01/04/2008 een maandelijkse BTW-aangifte in te dienen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "E1",
+      "vraagtype": "open",
+      "vraagstelling": "Welke zijn de concrete gevolgen van deze keuze? (Gelieve kort te antwoorden!)",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "De tabel met 'Op het vlak van... — Antwoord:' na de vraagstelling is het gepubliceerde modelantwoord. Dat is NIET opgenomen conform de instructie. PNG bevestigt dat modelantwoord in tabelvorm gepresenteerd wordt na de vraag. Enkelvoudige open vraag.",
+  "kwaliteits_flags": []
+}

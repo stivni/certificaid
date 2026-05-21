@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Voorraadwaardering FIFO-methode en lager-van-kostprijs-of-marktwaarde",
+  "themas": ["FIFO", "voorraadwaardering", "marktwaarde", "waardevermindering voorraden", "ereignis na balansdatum", "jaarrekening"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Onderneming XYZ verkoopt producten voor klein meubilair en hanteert de FIFO-methode. Aankopen en verkopen op één voorraadartikel in 2013: aankoop 15 januari 2013 van 1.000 stuks aan 350,00 EUR; aankoop 31 maart 2013 van 500 stuks aan 300,00 EUR; verkoop 31 mei 2013 van 100 stuks aan 480,00 EUR. Marktwaarde op 31 december 2013: 280,00 EUR per artikel. Marktwaarde op 30 april 2014: 300,00 EUR. Algemene vergadering: 5 mei 2014."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Voor welke waarde neemt zij dit artikel op in haar voorraad per 31 december 2013?",
+      "opties": [
+        { "id": "a", "tekst": "465.000 EUR" },
+        { "id": "b", "tekst": "470.000 EUR" },
+        { "id": "c", "tekst": "392.000 EUR" },
+        { "id": "d", "tekst": "420.000 EUR" },
+        { "id": "e", "tekst": "452.000 EUR" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en verkopen zijn geweest en de marktwaarde dan 455 EUR is?",
+      "opties": [
+        { "id": "a", "tekst": "465.000 EUR" },
+        { "id": "b", "tekst": "470.000 EUR" },
+        { "id": "c", "tekst": "392.000 EUR" },
+        { "id": "d", "tekst": "420.000 EUR" },
+        { "id": "e", "tekst": "637.000 EUR" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Tekst.txt bevat OCR-duplicaten van antwoordletters (E. 452.000 EUR en E. 637.000 EUR bovenaan, vóór de eigenlijke subvragen). Dit zijn de kopteksten van de antwoordopties die pdfplumber dubbel heeft weergegeven. De eigenlijke structuur bestaat uit twee MC-subvragen met elk 5 opties A-E.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

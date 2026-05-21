@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrA2",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Afsluitingsboekingen voor voorraden met waardeverminderingen",
+  "themas": [
+    "afsluitingsboekingen",
+    "voorraden",
+    "waardeverminderingen",
+    "goederen in bewerking",
+    "handelsgoederen",
+    "marktwaarde",
+    "afprijzing"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Op de proef- en saldibalans staan volgende bedragen: rekening 32 Goederen in bewerking (D) 500,00 EUR en rekening 34 Handelsgoederen (D) 7.000,00 EUR. De inventaris per einde boekjaar geeft: goederen in bewerking 400,00 EUR en handelsgoederen 8.500,00 EUR. Marktwaarde handelsgoederen: 8.250,00 EUR. Er werd ook vastgesteld dat bepaalde goederen moeten worden afgeprijsd voor een totaal bedrag van 75,00 EUR."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "Vraag",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de afsluitingsboekingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Eén deelvraag — boeking-instructie. Vraagtype 'open' want boeking is antwoord-vorm. Context bevat alle nodige gegevens: saldo's uit proef- en saldibalans, inventariswaarden, marktwaarde en afprijzingsbedrag. PNG bevestigt de tabelstructuur.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

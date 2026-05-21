@@ -161,7 +161,7 @@ Duidelijke OCR-typo's (`"Fifi"` → `"FIFO"`) corrigeer je in de vraagstelling. 
 
 - **Balans** als `{type: "balans", actief: {...}, passief: {...}}` met aparte sub-tabellen — niet ACTIEF/PASSIEF naast elkaar in één tabel.
 - **Resultatenrekening** als één tabel met rubrieken in logische volgorde.
-- **Gegevens-blokken** (resultaatverwerking, kostenstaten, ...) als `{type: "gegevens_tabel", titel: "...", rijen: [{label, bedrag}]}` — geen platte tekst-strings.
+- **Gegevens-blokken** (resultaatverwerking, kostenstaten, ...) als `{type: "gegevens_tabel", titel: "...", rijen: [{label, bedrag}]}` — geen platte tekst-strings. `bedrag` mag `null` zijn voor niet-numerieke rijen (datum-markers, attribute-opsommingen, narrative items).
 
 ### 4.6. Officieel ≠ kritiekloos overnemen
 

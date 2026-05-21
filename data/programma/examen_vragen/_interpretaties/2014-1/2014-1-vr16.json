@@ -1,0 +1,56 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr16",
+  "interpretatie_datum": "2026-05-21T10:14:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Toegestaan kapitaal — advies bij kapitaalverhoging door inlijving beschikbare reserves",
+  "themas": [
+    "toegestaan kapitaal",
+    "kapitaalverhoging",
+    "inlijving reserves",
+    "statuten",
+    "raad van bestuur",
+    "vennootschapsrecht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De gedelegeerd bestuurder van de nv PILOTE (opgericht in 1992) raadpleegt u. Hij wil een kapitaalverhoging doorvoeren door inlijving van de beschikbare reserves van 5.000.000 EUR via de procedure van het toegestane kapitaal. Hij overhandigt u de statuten (die nooit werden gewijzigd) en u stelt vast dat artikel 28 van de statuten in het toegestane kapitaal voorziet."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Passiva balans per 31/12/2013",
+      "rijen": [
+        { "label": "100 Geplaatst kapitaal", "bedrag": 1000000 },
+        { "label": "130 Wettelijke reserve", "bedrag": 100000 },
+        { "label": "133 Beschikbare reserves", "bedrag": 5000000 },
+        { "label": "170 Verplichtingen op de secundaire markt", "bedrag": 6000000 },
+        { "label": "440 Handelsschulden", "bedrag": 500000 },
+        { "label": "450 Schulden m.b.t. belastingen, bezoldigingen en sociale lasten", "bedrag": 50000 },
+        { "label": "Totaal passiva", "bedrag": 12650000 }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 2",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Wat adviseert u hem, als accountant en/of belastingconsulent?",
+      "opties": [
+        { "id": "a", "tekst": "In de huidige stand van zaken, is de verrichting onmogelijk." },
+        { "id": "b", "tekst": "De kapitaalverhoging kan doorgevoerd worden tot beloop van 1.000.000 EUR." },
+        { "id": "c", "tekst": "U bent het ermee eens en neemt al contact op met de notaris." },
+        { "id": "d", "tekst": "De verrichting kan niet gedaan worden zonder een verslag van de raad van bestuur dat de verrichting van het toegestane kapitaal uiteenzet." },
+        { "id": "e", "tekst": "De vennootschap moet een algemene vergadering bijeenroepen om akte te nemen van de kapitaalverhoging onder de procedure van het toegestane kapitaal." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige MC-vraag met 5 opties. De statuten werden nooit gewijzigd (opgericht 1992) — relevant voor de vraag of het maximumbedrag van het toegestane kapitaal (gelijk aan het geplaatst kapitaal) al uitgeput is. PNG pagina_02 bevestigt de opties.",
+  "kwaliteits_flags": []
+}

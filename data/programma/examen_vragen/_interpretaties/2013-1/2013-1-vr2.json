@@ -1,0 +1,66 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr2",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boekingen bij kapitaaloperaties en buitenlandse vaste inrichting",
+  "themas": ["leveranciersschuld", "kapitaalinbreng", "kapitaalvermindering", "vaste inrichting", "boekhoudkundige verwerking", "boeking"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Onderneming A heeft een openstaande leveranciersschuld ten opzichte van onderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze schuld in te brengen als kapitaal. Zij dient de volgende boeking(en) aan te brengen in haar boekhouding.",
+      "opties": [
+        { "id": "a", "tekst": "Zij boekt de leveranciersschuld ten opzichte van een resultatenrekening tegen. Vervolgens zal zij via de resultaatverwerking een overboeking maken naar de rubriek kapitaal." },
+        { "id": "b", "tekst": "Zij boekt de leveranciersschuld rechtstreeks over naar de rubriek kapitaal." },
+        { "id": "c", "tekst": "Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren door terugbetaling aan haar aandeelhouders.",
+      "opties": [
+        { "id": "a", "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden." },
+        { "id": "b", "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening resultaatverwerking." },
+        { "id": "c", "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van twee maanden na de publicatie in het Belgisch Staatsblad." },
+        { "id": "d", "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van twee maanden na de notariële akte." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel die exclusieve juwelen verkoopt. Welke boekhouding dient zij te voeren?",
+      "opties": [
+        { "id": "a", "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar dient geen jaarrekening neer te leggen." },
+        { "id": "b", "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening met cijfers van de vaste inrichting neer te leggen." },
+        { "id": "c", "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening van de buitenlandse onderneming in de vorm zoals opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen." },
+        { "id": "d", "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening van de buitenlandse onderneming en in voorkomend geval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 2 uit de sectie Wetgeving inzake de jaarrekening. PNG bevestigt MC-antwoordvakjes voor a, b en c. Opties volledig leesbaar uit PNG pagina 3.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

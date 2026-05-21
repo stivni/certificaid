@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr25",
+  "interpretatie_datum": "2026-05-21T10:23:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting — diverse inkomsten art. 90 1° WIB 1992: correcte categorie herkennen",
+  "themas": [
+    "personenbelasting",
+    "diverse inkomsten",
+    "artikel 90 WIB 1992",
+    "belastbare inkomsten",
+    "occasionele verrichtingen",
+    "speculatieve meerwaarden"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 4",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke van de hierna omschreven inkomsten vallen onder de categorie van de diverse inkomsten bedoeld in artikel 90, 1° WIB 1992?",
+      "opties": [
+        { "id": "a", "tekst": "Erelonen voor advies verstrekt buiten het kader van een echt beroep." },
+        { "id": "b", "tekst": "Prijzen van tombola's en toegelaten loterijen, met inbegrip van de Nationale Loterij." },
+        { "id": "c", "tekst": "Winsten van occasionele verrichtingen op de beurs, zowel de effectenbeurs als de termijnbeurs." },
+        { "id": "d", "tekst": "De interesten ontvangen bij laattijdige betaling van de prijs van de goederen, aan een belastingplichtige die zijn beroepswerkzaamheid volledig en definitief heeft stopgezet." },
+        { "id": "e", "tekst": "De prijzen gewonnen in publiciteitswedstrijden en -spelen die o.m. worden georganiseerd door of aangekondigd via de pers, de radio of de televisie." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag over specifiek artikel 90 1° WIB. De opties omvatten andere diverse inkomenscategorieën als misleiders.",
+  "kwaliteits_flags": []
+}

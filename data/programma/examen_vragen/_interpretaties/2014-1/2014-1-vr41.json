@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr41",
+  "interpretatie_datum": "2026-05-21T10:39:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-procedure — vraag om inlichtingen door BTW-administratie aan accountantskantoor over klant",
+  "themas": [
+    "BTW-procedure",
+    "vraag om inlichtingen",
+    "beroepsgeheim",
+    "accountantskantoor",
+    "derden",
+    "antwoordplicht",
+    "termijn"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De BTW-controle stuurt aan een accountantskantoor een schriftelijke vraag om inlichtingen m.b.t. de BTW-activiteiten van een van de klanten (vennootschap) van het kantoor."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 3",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Moet het kantoor hierop antwoorden en binnen welke termijn?",
+      "opties": [
+        { "id": "a", "tekst": "Het accountantskantoor is verplicht tot geheimhouding en mag niet antwoorden op de vraag om inlichtingen." },
+        { "id": "b", "tekst": "Het accountantskantoor kan op de vraag om inlichtingen antwoorden maar moet voorafgaandelijk schriftelijke toestemming hebben van zijn klant." },
+        { "id": "c", "tekst": "Eenieder is verplicht om op vraag van de BTW-administratie mondeling of schriftelijk inlichtingen te verschaffen over zijn eigen toestand maar ook over de toestand van derden. Er is geen wettelijke termijn voorzien binnen dewelke moet worden geantwoord." },
+        { "id": "d", "tekst": "Het accountantskantoor is verplicht om binnen de 20 dagen te antwoorden op een vraag om inlichtingen." },
+        { "id": "e", "tekst": "Het accountantskantoor is verplicht om op de vraag om inlichtingen te antwoorden, maar alleen indien de vragen betrekking hebben op haar eigen toestand. Het antwoord moet binnen 1 maand worden gegeven." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige MC-vraag met 5 opties over BTW-informatieverplichting. De sleutelvraag is of het beroepsgeheim van accountants de informatieplicht richting BTW-administratie opzij zet.",
+  "kwaliteits_flags": []
+}

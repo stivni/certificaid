@@ -1,0 +1,32 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrK1",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologische regels bij dossiertransfer tussen BIBF-leden",
+  "themas": [
+    "deontologie",
+    "BIBF",
+    "dossiertransfer",
+    "overlater",
+    "overnemer",
+    "beroepsgeheim",
+    "collegialiteit"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "K.1",
+      "vraagtype": "open",
+      "vraagstelling": "Beschrijf de deontologische regels en verplichtingen inzake overdracht van een dossier tussen twee confraters BIBF, zowel vanuit het perspectief van de overlater als vanuit het oogpunt van de overnemer van het dossier.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Open vraag over deontologische regels bij dossiertransfer. Vraagtype 'open' (procedure/regels). Beide perspectieven (overlater + overnemer) zijn onderdeel van dezelfde deelvraag, niet twee aparte vragen.",
+  "kwaliteits_flags": []
+}

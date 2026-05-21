@@ -1,0 +1,59 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr4",
+  "interpretatie_datum": "2026-05-21T10:02:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Verkoop op termijn met interest en disconto — omzetbedrag en boekhoudkundige uitsplitsing",
+  "themas": [
+    "verkoop op termijn",
+    "betalingsuitstel",
+    "interest",
+    "disconto",
+    "omzet",
+    "rekening 751",
+    "rekening 651"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vennootschap Export heeft op 5 februari 2014 een goed verkocht tegen de prijs van 5.000.000 EUR. Het contract voorziet in de betaling van dit bedrag in 5 jaarlijkse stortingen van 1.000.000 EUR. Wegens de toegestane betalingstermijn werd de verkoopprijs verhoogd met een interest van 4% per jaar, aldus berekend op 600.000 EUR. De toegepaste discontovoet bedraagt 9% (tarief toegepast op de kredietmarkt). Het disconto wordt vastgesteld op 404.706 EUR."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welk bedrag zult u in de omzet opnemen (boeking op 5 februari 2014)?",
+      "opties": [
+        { "id": "a", "tekst": "5.000.000 EUR" },
+        { "id": "b", "tekst": "5.600.000 EUR" },
+        { "id": "c", "tekst": "4.400.000 EUR" },
+        { "id": "d", "tekst": "4.595.294 EUR" },
+        { "id": "e", "tekst": "5.404.706 EUR" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Hoe worden de interest en het disconto uitgesplitst?",
+      "opties": [
+        { "id": "a", "tekst": "De interest wordt op rekening 751 en het disconto op rekening 651 geboekt over de 5 terugbetalingstermijnen." },
+        { "id": "b", "tekst": "Bij de boeking van het contract (5 februari 2014) wordt de interest op rekening 70 - Omzet en het disconto op rekening 651 geboekt." },
+        { "id": "c", "tekst": "De interest wordt geboekt op rekening 70 – Omzet en het disconto op rekening 751, volgens een door de Raad van Bestuur vastgesteld ritme maar over een periode die niet langer is dan 5 jaar." },
+        { "id": "d", "tekst": "De interest wordt op rekening 751 en het disconto op rekening 751 geboekt over de 5 terugbetalingstermijnen." },
+        { "id": "e", "tekst": "De interest en het disconto mogen niet worden gesplitst en moeten, bij de boeking van het contract (5 februari 2014), integraal op rekening 70 – Omzet worden geboekt." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee MC-deelvragen a en b met respectievelijk 5 opties elk. PNG (pagina_04 en pagina_05) bevestigt de opsomming van opties. tekst.txt groepeert de opties correct maar mist expliciete labels; toewijzing aan a of b is gedaan op basis van volgorde in PDF.",
+  "kwaliteits_flags": []
+}

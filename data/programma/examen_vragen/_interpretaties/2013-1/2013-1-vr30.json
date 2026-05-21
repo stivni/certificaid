@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr30",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Toepasselijkheid Moeder-dochterrichtlijn en Interest-royaltyrichtlijn: Belgisch-Hongaarse situatie",
+  "themas": ["EU-richtlijnen", "moeder-dochterrichtlijn", "interest-royaltyrichtlijn", "bronheffing", "deelneming", "Hongarije"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Uw cliënt en zijn echtgenote zijn de enige aandeelhouders van een naamloze vennootschap naar Belgisch recht. Hun schoonbroer bezit 97% van de aandelen van een handelsvennootschap naar Hongaars recht. De resterende 3% van het kapitaal van die Hongaarse vennootschap is in bezit van de Belgische naamloze vennootschap. De Belgische en de Hongaarse vennootschappen worden volledig gescheiden beheerd. Deze toestand bestaat sinds 2001. In 2010 heeft de Belgische NV een lening toegestaan aan de Hongaarse vennootschap. In 2012 heeft de Belgische vennootschap dividenden van de Hongaarse vennootschap geïnd. De Hongaarse fiscus eist de inhouding van een bronheffing op de interesten en op de dividenden."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a_moeder_dochter",
+      "label_in_pdf": "a (Moeder-dochterrichtlijn)",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Is de Moeder-dochterrichtlijn van toepassing op de beschreven situatie?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "a_interest_royalty",
+      "label_in_pdf": "a (Interest-royaltyrichtlijn)",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Is de Interest-royaltyrichtlijn van toepassing op de beschreven situatie?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Verklaar uw antwoord door te verwijzen naar de bepalingen van die Europese richtlijnen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 3. Deelvraag a bevat twee afzonderlijke ja/neen-vragen per richtlijn — elk als aparte deelvraag gemodelleerd als juist_fout (ja of neen). Deelvraag b is een eigenstandige motiveringsdeelvraag met eigen inhoud (verwijzing naar bepalingen van de richtlijnen).",
+  "kwaliteits_flags": []
+}

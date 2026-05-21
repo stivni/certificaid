@@ -1,0 +1,19 @@
+Op de proef- en saldibalans staan volgende bedragen:
+
+| Rekening | Naam | Zijde | Bedrag |
+|---|---|---|---|
+| 32 | Goederen in bewerking | D | 500.00 |
+| 34 | Handelsgoederen | D | 7000.00 |
+
+De inventaris per einde boekjaar geeft
+
+- goederen in bewerking: 400.00 EUR
+- handelsgoederen: 8500.00 EUR
+
+Marktwaarde handelsgoederen: 8250.00 EUR
+
+Er werd ook vastgesteld dat bepaalde goederen moeten
+
+Aanpassing (afprijzing): 75.00 EUR
+
+**geef de afsluitingsboekingen.**

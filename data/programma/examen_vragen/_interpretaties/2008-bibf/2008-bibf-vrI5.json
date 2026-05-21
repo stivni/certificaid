@@ -1,0 +1,40 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI5",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Aansprakelijkheid oprichters BVBA vs. NV",
+  "themas": [
+    "BVBA",
+    "NV",
+    "oprichtersaansprakelijkheid",
+    "financieel plan",
+    "quasi-inbreng",
+    "vennootschapsrecht",
+    "aansprakelijkheid"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "I5a",
+      "vraagtype": "open",
+      "vraagstelling": "Welk is de aansprakelijkheid van de oprichters van een BVBA?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "I5b",
+      "vraagtype": "open",
+      "vraagstelling": "Welk verschil kan er zijn met een NV?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee deelvragen: aansprakelijkheid BVBA en vergelijking met NV. Geen modelantwoord in de tekst.",
+  "kwaliteits_flags": []
+}

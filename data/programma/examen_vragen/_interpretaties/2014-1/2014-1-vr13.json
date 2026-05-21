@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr13",
+  "interpretatie_datum": "2026-05-21T10:11:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Audit — advocatenkosten als indicator voor rechtszaken en gevolg voor controleverslag",
+  "themas": [
+    "audit",
+    "controleverslag",
+    "rechtszaken",
+    "voorzieningen",
+    "erelonen advocaat",
+    "auditwerkzaamheden"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Bij nazicht van de resultatenrekening komen we op de kostenrekening 'erelonen advocaat' ten belope van 12.000,00 EUR."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Waarom is dit van belang voor het controleverslag?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Welke actie stel je voor?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee open deelvragen. De vraagstelling combineert twee afzonderlijke vragen in één tekst; gesplitst in deelvragen a en b conform de inhoudelijke structuur.",
+  "kwaliteits_flags": []
+}

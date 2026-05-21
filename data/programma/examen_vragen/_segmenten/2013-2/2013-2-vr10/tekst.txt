@@ -1,0 +1,16 @@
+Vraag 2 … / 12 punten
+In het kader van scheiding van functies kunnen er 4 soorten taken worden onderkend :
+Autorisatie (1), bewaren van activa (2), registratie en rapportering (3) en controle procedures
+(4)
+Duid in onderstaande tabel aan welke soort taak bedoeld is.
+
+| ACTIVITEIT | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Akkoord bestelling |  |  |  |  |
+| Ontvangst van de goederen |  |  |  |  |
+| Ontvangst van de factuur |  |  |  |  |
+| Verificatie van de factuur |  |  |  |  |
+| Aanmaak betalingsvoorstel |  |  |  |  |
+| Controle betalingsvoorstel |  |  |  |  |
+| Uitvoeren van de betaling |  |  |  |  |
+| Aanmaak en onderhoud basisgegevens leveranciers |  |  |  |  |

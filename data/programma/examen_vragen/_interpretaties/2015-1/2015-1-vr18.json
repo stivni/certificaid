@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr18",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Controle na voorraadtelling en behandeling handelsvorderingsverschil",
+  "themas": ["voorraadcontrole", "controledoelstellingen", "handelsvorderingen", "confirmatie", "correctieboeking", "voorbehoud", "accountantsonderzoek"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Controleopdracht per 30 september 2014. Materialiteit: 100.000 EUR resultatenrekening / 70.000 EUR balansposten. Laag risicoprofiel. Voorraadtelling op 1 oktober 2014 fysiek gevolgd en akkoord verklaard. Stand: 23 januari 2015. (b) Bij nazicht handelsvorderingen wordt een confirmatie bekomen van een klant voor 121.000,00 EUR, terwijl de vordering in de boekhouding op 217.800,00 EUR staat. Bij de confirmatie zit een ontvangstbon van 29/09/2014 waaruit blijkt dat voor 80.000,00 EUR (excl. btw) fout geleverde goederen terug werden meegenomen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "De telling van de voorraad (30/09/2014) hebben we fysiek kunnen meemaken en deze hoeveelheidstelling was in orde. Welke controle gaan we nu (23/01/2015) nog doen op de voorraad? Geef twee controledoelstellingen met telkens een voorbeeld van de techniek die je gaat toepassen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Bij nazicht van de handelsvorderingen wordt een confirmatie bekomen van een klant voor 121.000,00 EUR, terwijl de vordering in de boekhouding op 217.800,00 EUR staat (80.000,00 EUR excl. btw fout geleverde goederen teruggenomen per 29/09/2014). Welke actie onderneem je als controlerende accountant: stel een correctieboeking voor, maak een voorbehoud (motiveer) of vraag de correctie te boeken in de heropening van volgend boekjaar?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 4 van de sectie 'Accountantsonderzoek'. Twee eigenstandige deelvragen. Deelvraag b vereist keuze + motivering (verklaar bondig), vandaar motivatie_verwacht: true.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

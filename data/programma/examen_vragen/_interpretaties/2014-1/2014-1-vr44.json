@@ -1,0 +1,69 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr44",
+  "interpretatie_datum": "2026-05-21T10:42:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologie — samenwerkingsverbanden: middelenvennootschap en professionele vennootschap (juist/fout)",
+  "themas": [
+    "deontologie",
+    "samenwerkingsverbanden",
+    "middelenvennootschap",
+    "professionele vennootschap",
+    "IAB",
+    "zaakvoerder",
+    "stagiair"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In het kader van de samenwerkingsverbanden zijn er sinds 2010 een aantal nieuwe regels. Zeg voor de onderstaande gevallen of deze situatie juist of fout is."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een middelenvennootschap kan enkel opgericht worden met confraters IAB.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De stemrechten van een professionele vennootschap mogen niet aangehouden worden door een belangengroepering die de uitoefening van het beroep in gedrang brengt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer de professionele vennootschap een vennootschap heeft als zaakvoerder, dan dient deze vennootschap vertegenwoordigd te worden door een natuurlijk persoon accountant en/of belastingconsulent.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Stagiairs accountant/belastingconsulent mogen nooit zaakvoerder zijn van een professionele vennootschap.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Indien er slechts twee zaakvoerders/bestuurders zijn moeten deze allebei lid zijn van het IAB.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vijf juist/fout-stellingen over samenwerkingsverbanden. tekst.txt toont deelvragen a-c expliciet maar d en e zijn samengevloeid in de subvraag-labels. PNG pagina_03 bevestigt alle vijf stellingen.",
+  "kwaliteits_flags": []
+}

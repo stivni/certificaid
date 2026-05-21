@@ -1,0 +1,3 @@
+De verkoopafdeling maakt de nieuwe klantenfiches aan in het computersysteem op het
+moment dat de verkoper een door een nieuwe klant getekende bestelbon binnenbrengt.
+Detecteer drie risico's.

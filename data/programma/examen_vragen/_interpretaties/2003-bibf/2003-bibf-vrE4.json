@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE4",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-termijnen en deadlines voor diverse verplichtingen",
+  "themas": [
+    "BTW-klantenlistings",
+    "BTW-voorschot december",
+    "formulier 604B",
+    "formulier 604C",
+    "BTW-deadlines",
+    "BTW-administratie"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Geval 1",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is het wettelijk tijdstip of de uiterste datum voor de neerlegging van de jaarlijkse klantenlistings (onderworpen en geïdentificeerd bij de BTW)?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "Geval 2",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is het wettelijk tijdstip of de uiterste datum voor de betaling van een verschuldigd voorschot op de verrichtingen van december voor een belastingplichtige die maandelijkse BTW-aangiftes doet?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "Geval 3",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is het wettelijk tijdstip of de uiterste datum voor de afgifte van de verklaring inzake wijziging van activiteit (formulier 604 B) bij wijziging van effectief domicilie op 1 april 2003?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "Geval 4",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is het wettelijk tijdstip of de uiterste datum voor de afgifte van een verklaring tot stopzetting van alle economische activiteit (formulier 604 C) bij definitieve stopzetting op 31 maart 2003?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier datum/termijn-vragen voor specifieke BTW-verplichtingen. Elk geval vraagt een datum of tijdstip (open). Het antwoord is een datum of beschrijving van een termijn.",
+  "kwaliteits_flags": []
+}

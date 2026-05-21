@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr45",
+  "interpretatie_datum": "2026-05-21T10:43:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologie — onafhankelijkheid externe accountant: verboden mandaten en opdrachten (juist/fout)",
+  "themas": [
+    "deontologie",
+    "onafhankelijkheid",
+    "externe accountant",
+    "bestuursmandaat",
+    "KB 1 maart 1998",
+    "commerciële vennootschap",
+    "interne accountant"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In het KB van 1 maart 1998 wordt eveneens de onafhankelijkheid van de externe accountant/belastingconsulent behandeld. In dat kader wordt er ook gesproken over mandaten en opdrachten die men niet mag aanvaarden. Geef hierna aan of de stellingen juist of fout zijn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Mits voorafgaande toestemming van de Raad kan een bestuursmandaat worden opgenomen in een commerciële vennootschap.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Mits voorafgaande toestemming kan hij een mandaat als onafhankelijke of externe bestuurder vervullen in een vennootschap, waarin zijn of haar echtgeno(o)t(e) stemrechten heeft.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De interne accountant en/of belastingconsulent valt niet onder de onafhankelijkheidsverplichtingen gezien hij gebonden is door een arbeidsovereenkomst en dus steeds de opdrachten van zijn werkgever moet volgen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie juist/fout-stellingen over onafhankelijkheid. PNG pagina_04 bevestigt de drie stellingen.",
+  "kwaliteits_flags": []
+}

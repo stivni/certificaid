@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr54",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Opdracht externe accountant bij vereffening: onafhankelijkheid, bevoegdheid en witwasverplichting",
+  "themas": ["vereffening", "onafhankelijkheid", "controleopdracht", "externe accountant", "erkend boekhouder", "witwaswetgeving", "staat activa passiva"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer FIXIT is reeds jaren de externe accountant van NV TRIAL. De gedelegeerde bestuurder wenst de vennootschap te vereffenen en geeft de heer FIXIT de opdracht dit te doen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De heer FIXIT kan dit begeleiden maar mag de controleopdracht op de staat van activa en passiva niet uitvoeren wegens een verbod gebaseerd op de onafhankelijkheid.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Deze controleopdracht kan zowel door een externe accountant, bedrijfsrevisor als door een erkend boekhouder uitgevoerd worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De externe accountant die dergelijke controleopdracht zal uitvoeren moet ook aan de verplichtingen gesteld door de witwaswetgeving voldoen en zorgen voor de identificatie van de bestuurder(s) en de vennootschap.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 4 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over de opdracht bij vereffening.",
+  "kwaliteits_flags": []
+}

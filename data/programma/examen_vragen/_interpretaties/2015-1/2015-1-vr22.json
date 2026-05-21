@@ -1,0 +1,40 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr22",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Alarmbelprocedure bvba: verplichtingen zaakvoerder bij ernstig verlies",
+  "themas": ["alarmbelprocedure", "bvba", "netto-actief", "eigen vermogen", "bijzondere algemene vergadering", "ontbinding", "vennootschapsrecht"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Zaakvoerder van bvba 'De Toekomst' (55% aandelen) overhandigt op 25 januari 2014 de financiële staten per 31/12/2013. Eigen vermogen: geplaatst kapitaal 18.600 EUR, wettelijke reserve 1.860 EUR, beschikbare reserve 100.000 EUR, overgedragen verlies -128.830 EUR. Netto eigen vermogen = -8.370 EUR (negatief)."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke opgesomde acties zijn correct als verplichtingen van de zaakvoerder ten aanzien van deze toestand?",
+      "opties": [
+        { "id": "a", "tekst": "Een buitengewone algemene vergadering bijeenroepen binnen de maand." },
+        { "id": "b", "tekst": "Niets doen." },
+        { "id": "c", "tekst": "De volgende algemene vergadering afwachten en de invereffeningstelling van de bvba voorstellen." },
+        { "id": "d", "tekst": "Een bijzondere algemene vergadering bijeenroepen voor 25 maart om te beraadslagen en te besluiten over de ontbinding van de vennootschap en andere te nemen maatregelen." },
+        { "id": "e", "tekst": "De vennoten verplichten om het kapitaal van de vennootschap te verhogen door inbrengen in geld." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 3 van de sectie 'Vennootschapsrecht'. Enkelvoudige MC-vraag met 5 opties. Het netto eigen vermogen is negatief (18.600 + 1.860 + 100.000 - 128.830 = -8.370 EUR), wat de alarmbelprocedure triggert.",
+  "kwaliteits_flags": []
+}

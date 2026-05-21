@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrH1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Procedure en termijn voor bezwaarschrift personenbelasting",
+  "themas": [
+    "bezwaar",
+    "personenbelasting",
+    "aanslag",
+    "termijn",
+    "gewestelijk directeur",
+    "art. 366 WIB",
+    "art. 371 WIB"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "H1",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe dient u een rechtsgeldig bezwaar in tegen een aanslag in de personenbelasting en binnen welke termijn dient dit te gebeuren?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "a",
+    "tekst": "Uiterlijk binnen 6 maanden vanaf verzending aanslagbiljet bij gewestelijk directeur (art. 366 WIB); per aangetekend schrijven met wetsartikelen, gemotiveerd en ondertekend (art. 371 WIB).",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "De tekst na de vraagstelling is het modelantwoord. NIET opgenomen in vraagstelling.",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr20",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Individueel controlerecht BVBA: stellingen juist/fout",
+  "themas": ["individueel controlerecht", "BVBA", "aandeelhoudersrechten", "buitenlandse aandeelhouder", "jaarvergadering", "vennootschapsrecht"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een Franse vennootschap is voor 15% aandeelhouder in een Belgische vennootschap BVBA SUPERTOC. De Franse vennootschap vraagt je om in het kader van het individueel controlerecht ter plaatse inzage te nemen in de stukken van de BVBA SUPERTOC. Beantwoord met FOUT / JUIST volgende stellingen die slaan op voorgaande situatie."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het individueel controlerecht kan niet uitgevoerd worden indien de Franse vennootschap minder dan 25% van de aandelen heeft.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het individueel controlerecht geldt enkel voor Belgisch ingezetenen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het individueel controlerecht kan enkel uitgeoefend worden in geval van betwistingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het individueel controlerecht kan enkel uitgeoefend worden in voorbereiding van een jaarvergadering.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier juist/fout stellingen over het individueel controlerecht in een BVBA met een buitenlandse (Franse) aandeelhouder van 15%. Elke stelling is een aparte deelvraag.",
+  "kwaliteits_flags": []
+}

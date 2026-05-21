@@ -1,0 +1,61 @@
+Een osteopaat oefent zijn zelfstandige activiteit uit in 2 verschillende sectoren: bij
+privépatiënten (op hun thuisadres en in zijn praktijk) en als verzorger van een rugbyploeg.
+Zijn beroepsmatige verplaatsingen zijn de volgende:
+
+- voormiddag: woonplaats -> patiënten
+- namiddag: patiënten -> praktijk
+- ’s avonds: praktijk -> woonplaats
+
+- woonplaats -> rugbyveld -> woonplaats
+In de loop van 2012 werd volgend aantal kilometers afgelegd:
+
+- praktijk -> woonplaats: 3.500 km (heen)
+- op huisbezoek bij patiënten: 15.000 km
+- jaartotaal = 27.500 km (alle niet-beroepsmatige km zijn per definitie privématig)
+
+- woonplaats -> rugbyveld: 2.500 (heen en terug)
+- jaartotaal = 5.000 km (overige km = privématig)
+Uiteenzetting van de kosten i.v.m. de personenauto (Toyota Prius benzine – 89 g CO2):
+Renting € 7.200 (Leasing € 5.000 + Verzekering € 1.000 + Verkeersbelasting € 300 +
+Onderhoud € 650 + Interest € 250 )
+Brandstof: € 1.650
+Uiteenzetting van de kosten i.v.m. de scooter (volledig afgeschreven, geen financiering):
+Verkeersbelasting € 100
+Onderhoud € 350
+Verzekering € 250
+Brandstof € 600
+Bereken het bedrag van de aftrekbare beroepskosten i.v.m. de verplaatsingen en geef het
+detail van deze berekeningen. (NB: u dient geen rekening te houden met de implicaties van
+de btw). U dient de oplossing te kiezen die voor de belastingplichtige het voordeligst uitkomt.
+Antwoord …
+
+=== subvraag a) ===
+van maandag tot vrijdag met zijn personenwagen:
+- voormiddag: woonplaats -> patiënten
+- namiddag: patiënten -> praktijk
+- ’s avonds: praktijk -> woonplaats
+
+=== subvraag b) ===
+zaterdag en zondag met zijn scooter
+- woonplaats -> rugbyveld -> woonplaats
+In de loop van 2012 werd volgend aantal kilometers afgelegd:
+
+=== subvraag a) ===
+met de personenwagen
+- praktijk -> woonplaats: 3.500 km (heen)
+- op huisbezoek bij patiënten: 15.000 km
+- jaartotaal = 27.500 km (alle niet-beroepsmatige km zijn per definitie privématig)
+
+=== subvraag b) ===
+met de scooter
+- woonplaats -> rugbyveld: 2.500 (heen en terug)
+- jaartotaal = 5.000 km (overige km = privématig)
+Uiteenzetting van de kosten i.v.m. de personenauto (Toyota Prius benzine – 89 g CO2):
+Renting € 7.200 (Leasing € 5.000 + Verzekering € 1.000 + Verkeersbelasting € 300 +
+Onderhoud € 650 + Interest € 250 )
+Brandstof: € 1.650
+Uiteenzetting van de kosten i.v.m. de scooter (volledig afgeschreven, geen financiering):
+Verkeersbelasting € 100
+Onderhoud € 350
+Verzekering € 250
+Brandstof € 600

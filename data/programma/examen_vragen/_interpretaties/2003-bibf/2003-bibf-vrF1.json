@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrF1",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting: belastbare basis bedrijfsleider (Vak II)",
+  "themas": [
+    "personenbelasting",
+    "bedrijfsleider",
+    "bezoldigingen",
+    "voordelen alle aard",
+    "forfaitaire beroepskosten",
+    "sociale bijdragen",
+    "onroerende inkomsten"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De Heer en Mevrouw Janssens zijn eigenaar van twee onroerende goederen: onroerend goed A (buiten de stad, woonhuis) en onroerend goed B (centrum van de stad). Zij hebben 4 kinderen van respectievelijk 12, 9, 7 en 4 jaar en wonen allen samen in huis A. De Heer Janssens is afgevaardigd bestuurder van een NV. Deze NV huurt onroerend goed B van de familie Janssens voor een huurprijs van 15.000 EUR per jaar verhoogd met de onroerende voorheffing."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Kadastrale inkomens en revalorisatiecoëfficiënt",
+      "rijen": [
+        {"label": "Woonhuis A — KI", "bedrag": 1050},
+        {"label": "Woonhuis B — KI", "bedrag": 1202},
+        {"label": "Revalorisatiecoëfficiënt (Art. 1 KBWIB 92)", "bedrag": 3.35}
+      ]
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Gegevens Vak II — bezoldigingen Heer Janssens",
+      "rijen": [
+        {"label": "Jaarlijkse bruto bezoldiging", "bedrag": 30000},
+        {"label": "Sociale bijdrage voor rekening Heer Janssens, betaald door de NV (per trimester 1.200 EUR)", "bedrag": 4800},
+        {"label": "Netto bedrag mutualiteitbijdrage", "bedrag": 887},
+        {"label": "Ingehouden en doorgestorte bedrijfsvoorheffing", "bedrag": 4636},
+        {"label": "Voordelen van alle aard (auto)", "bedrag": 1500}
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "F.1",
+      "vraagtype": "open",
+      "vraagstelling": "Stel de belastbare basis van de inkomsten van de Heer Janssens als bedrijfsleider vast (Vak II) aan de hand van de opgegeven gegevens, inclusief de berekening van de forfaitaire beroepskosten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Berekeningsvraag voor Vak II personenbelasting (bedrijfsleider). Gegevens gestructureerd als twee gegevens_tabellen: KI + revalorisatie, en de loongegevens. Forfaitaire beroepskosten staan als 'UIT TE REKENEN' in het bronmateriaal — dit is onderdeel van de berekening. Vraagtype 'open' (berekening). PNG bevestigt de opgegeven gegevens.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr9",
+  "interpretatie_datum": "2026-05-21T10:07:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Interne controle — doelstellingen boekhoudkundige registratie: juist of fout",
+  "themas": [
+    "interne controle",
+    "boekhoudkundige registratie",
+    "controledoelstellingen",
+    "bevoegdheidsverdeling",
+    "toegang activa",
+    "volledigheid registratie"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Duid met een kruis aan of de volgende omschrijvingen juist of fout zijn in het kader van de algemene interne controle doelstellingen met betrekking tot de boekhoudkundige registratie."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Transacties worden uitgevoerd in overeenstemming met de door het management vastgelegde bevoegdheidsverdelingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "B",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De toegang tot de activa is vrij voor elke medewerker in vast dienstverband.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "C",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Enkel de verrichtingen behorend tot het patrimonium van de onderneming worden geregistreerd.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "D",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De transacties worden in een door de boekhouder bepaalde periode in het informatiesysteem opgenomen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "E",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De boekhoudkundige informatie wordt geregeld vergeleken met de onderliggende inventaris en eventuele verschillen moeten niet verantwoord worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vijf juist/fout-stellingen over interne controle doelstellingen. tekst.txt geeft de stellingen duidelijk genoeg; PNG bevestigt de indeling. Geen motivatie vereist.",
+  "kwaliteits_flags": []
+}

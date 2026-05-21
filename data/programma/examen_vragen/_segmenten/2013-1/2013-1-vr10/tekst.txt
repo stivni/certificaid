@@ -1,0 +1,2 @@
+Geef één voorbeeld van een analytische test welke op tussentijdse resultaten door de
+interne controleafdeling (het bedrijf koopt/verkoopt werfkranen) kan uitgevoerd worden

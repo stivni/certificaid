@@ -1,0 +1,46 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr3",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Goodwill (meerprijs bij overname): rubricering en afschrijvingstermijn",
+  "themas": ["goodwill", "immateriële vaste activa", "overname", "afschrijving", "meerprijs", "jaarrekening", "wettelijke bepalingen"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vennootschap 'Final' BVBA heeft van vennootschap 'DEF' een aantal activa gekocht, zoals machines en voorraad. Deze activa hadden de volgende marktwaarde:\n- Machine A: 15.000 euro\n- Machine B: 25.000 euro\n- Voorraad: 30.000 euro\nZij heeft in totaal 100.000 euro betaald. Het bedrag van 30.000 euro is de meerprijs die zij betaald heeft voor de overname."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "In welke rubriek van de jaarrekening zou u het bedrag van 30.000 euro meerprijs verwerken? U hoeft geen rekeningnummer op te geven (enkel rubriek tot op twee cijfers).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven? Geef voor elke optie aan (Ja/Nee) en verklaar uw keuze met verwijzing naar de relevante bepalingen van de wetgeving inzake de jaarrekening.",
+      "opties": [
+        { "id": "a", "tekst": "3 jaar" },
+        { "id": "b", "tekst": "5 jaar" },
+        { "id": "c", "tekst": "10 jaar" }
+      ],
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Deelvraag b is een Ja/Nee-tabel met motivatie-kolom voor drie opties (3/5/10 jaar). Behandeld als mc_keuze met motivatie_verwacht omdat de kandidaat per optie moet aangeven of het al dan niet geldig is en dit moet motiveren. Deelvraag b combineert feitelijk selectie en argumentatie.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

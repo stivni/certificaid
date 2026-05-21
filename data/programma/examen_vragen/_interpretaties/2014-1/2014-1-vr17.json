@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr17",
+  "interpretatie_datum": "2026-05-21T10:15:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BVBA — verkoop persoonlijk onroerend goed door enig vennoot-zaakvoerder aan vennootschap",
+  "themas": [
+    "tegenstrijdig belang",
+    "BVBA",
+    "zaakvoerder",
+    "onroerend goed",
+    "tegenstrijdig belang procedure",
+    "vennootschapsrecht",
+    "lasthebber ad hoc"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Dhr. LEVEQUE, enig vennoot en zaakvoerder van de bvba PETIT POIS (opgericht in 2009), wil het gebouw dat zijn persoonlijke eigendom is en door de bvba gebruikt wordt, aan de vennootschap verkopen voor 680.000 EUR. De vastgoedschatting geeft een verkoopwaarde bij onderhandse verkoop van 550.000 EUR en bij gedwongen verkoop van 400.000 EUR. Hij stelt als zaakvoerder een verslag op waarin hij uiteenzet waarom de verwerving van belang is voor de vennootschap."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 3",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Wat adviseert u hem, als accountant en/of belastingconsulent, met betrekking tot die verrichting?",
+      "opties": [
+        { "id": "a", "tekst": "Dat de gevraagde prijs te hoog is, en hij hem moet terugbrengen tot de verkoopwaarde bij onderhandse verkoop." },
+        { "id": "b", "tekst": "Dat hij de verrichting kan doen maar hierover verslag moet uitbrengen in een stuk dat bij de jaarrekening moet worden gevoegd, en dat hij aansprakelijk is voor de eventuele schade die derden ten gevolge van de verrichting zouden kunnen lijden." },
+        { "id": "c", "tekst": "Dat het een gunstige verrichting is en dat hij contact moet opnemen met de notaris om de verkoop te laten acteren." },
+        { "id": "d", "tekst": "Dat de verrichting kan worden gedaan door een andere persoon (lasthebber ad hoc) die in zijn verslag vermeldt dat het bedrag van de verrichting niet nadelig is voor het vermogen van de vennootschap." },
+        { "id": "e", "tekst": "Dat de verrichting enkel kan worden gedaan wanneer beroep wordt gedaan op een bedrijfsrevisor om de waarde van het gebouw te bepalen en verslag uit te brengen over de omschreven verrichting." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige MC met 5 opties. Sleutelproblemen: enig vennoot-zaakvoerder = tegenstrijdig belang procedure; prijs boven schattingswaarde; BVBA heeft geen commissaris. PNG pagina_03 bevestigt de opties.",
+  "kwaliteits_flags": []
+}

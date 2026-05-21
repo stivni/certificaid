@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr28",
+  "interpretatie_datum": "2026-05-21T10:26:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsbelasting — gespreide taxatie meerwaarde op gebouw",
+  "themas": [
+    "vennootschapsbelasting",
+    "gespreide taxatie",
+    "meerwaarde",
+    "onroerend goed",
+    "vrijgestelde reserves",
+    "herinvestering",
+    "kleine vennootschap"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een kantoorgebouw werd door vennootschap ABC gekocht in 1985. Aanschaffingswaarde: 1.000.000 EUR. Afschrijvingen: 750.000 EUR. Boekwaarde: 250.000 EUR. Na schatting (kosten: 8.000 EUR), publiciteit (5.000 EUR) en makelaar (20.000 EUR) werd het gebouw verkocht voor 325.000 EUR op 15 november 2012. De vennootschap wenst gespreide taxatie. In 2011 werd een ander gebouw gekocht voor 280.000 EUR (80.000 EUR grondwaarde, 200.000 EUR constructiewaarde), afschrijvingspercentage 3% lineair. De vennootschap is een kleine vennootschap in de zin van artikel 15 W.Venn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de fiscale meerwaarde die in aanmerking komt voor gespreide taxatie.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "De vennootschap heeft de meerwaarde verwerkt als gespreide taxatie in haar jaarrekening. Welke bedragen van de gespreide meerwaarde zullen in de jaarrekening van 31 december 2012 overgeboekt worden naar de resultatenrekeningen als onttrekking? U dient rekening te houden met een belastingtarief van 33,99%. Geef een detail van uw berekening.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Welk bedrag zal in de aangifte vennootschapsbelasting aanslagjaar 2013 ingevuld worden in het vak vrijgestelde reserves als gespreid te belasten meerwaarde? Geef een detail van uw berekening.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie open berekening-deelvragen over gespreide taxatie. tekst.txt bevat twee vragen (a en b) met antwoord-ruimtes — gereconstrueerd. De vraagstelling van b bevat ook de tekst 'Geef een detail van uw berekening' — dit is een instructie die deel is van de vraag, geen aparte deelvraag.",
+  "kwaliteits_flags": []
+}

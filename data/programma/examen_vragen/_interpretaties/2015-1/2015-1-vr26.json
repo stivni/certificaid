@@ -1,0 +1,68 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr26",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Norm inzake controle bij voorstel tot ontbinding: specifieke gevallen",
+  "themas": ["ontbinding vennootschap", "norm IAB", "staat van activa en passiva", "alarmbelprocedure", "boekhoudkundige staat", "termijnen", "bijzondere mandaten"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe wordt in de staat van activa en passiva het resultaat van de lopende, nog niet afgesloten periode vermeld?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Het bestuursorgaan stelt de staat van activa en passiva enkel op in discontinuïteit. Wat moet de beroepsbeoefenaar in overweging nemen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Wat dient er te gebeuren met latente schulden (bv. vergoeding wegens contractbreuk) die niet in de staat van activa en passiva zijn opgenomen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Wat gebeurt er met de termijn van drie maand indien een bijeenroeping van een tweede algemene vergadering nodig is wegens het niet bereiken van het aanwezigheidsquorum?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "open",
+      "vraagstelling": "Het voorstel tot ontbinding is het gevolg van de toepassing van de alarmbelprocedure. Heeft dit enig gevolg voor de termijnen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "f",
+      "label_in_pdf": "f",
+      "vraagtype": "open",
+      "vraagstelling": "De beroepsbeoefenaar stelt in de loop van zijn controlewerkzaamheden een inbreuk vast op de boekhoudreglementering in verband met de opstelling van de boekhoudkundige staat. Wat dient de beroepsbeoefenaar te doen, moet er voorbehoud gemaakt worden of een onthouding?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 2 van de sectie 'Vennootschapsrecht (bijzondere mandaten)'. Zes open deelvragen over specifieke norm-bepalingen bij voorstel tot ontbinding.",
+  "kwaliteits_flags": []
+}

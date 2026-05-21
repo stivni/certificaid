@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr6",
+  "interpretatie_datum": "2026-05-21T10:04:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Nettothesaurie — begrip omschrijven en positief saldo interpreteren",
+  "themas": [
+    "nettothesaurie",
+    "thesaurie",
+    "bedrijfskapitaal",
+    "liquiditeit",
+    "financiële analyse"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Omschrijf het begrip 'nettothesaurie'.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee open deelvragen over nettothesaurie. PNG pagina_07 bevestigt de exacte formulering van beide deelvragen.",
+  "kwaliteits_flags": []
+}

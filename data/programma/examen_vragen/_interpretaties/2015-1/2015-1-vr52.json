@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr52",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Erelonen accountant/belastingconsulent: juist/fout stellingen",
+  "themas": ["erelonen", "KB 1 maart 1998", "commissies", "opzegvergoeding", "deontologie", "accountant", "belastingconsulent"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In de artikelen 27 tot en met 29 van het KB van 1 maart 1998 worden de erelonen van de accountant en/of belastingconsulent behandeld."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De accountant en/of belastingconsulent dient met een vast uurloon te werken en mag zijn ereloon dus niet afhankelijk stellen van de aard, het belang, de complexiteit, omvang en reikwijdte van de opdracht.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Mits goedkeuring van de raad mag een accountant en/of belastingconsulent commissies ontvangen voor tussenkomst en transacties van andere partijen met een cliënt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Indien voorzien in de opdrachtbrief kan er een opzegvergoeding voorzien worden indien de cliënt de overeenkomst beëindigt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 2 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over erelonen. Kleine OCR-correctie: 'beëindigd' → 'beëindigt' (verkeerde vervoeging in tekst).",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

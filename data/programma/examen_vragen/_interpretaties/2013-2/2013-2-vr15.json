@@ -1,0 +1,91 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr15",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Alarmbelprocedure BVBA: toepasbaarheid in twee situaties",
+  "themas": ["alarmbelprocedure", "netto actief", "eigen vermogen", "continuïteit", "BVBA", "kapitaal", "niet-opgevraagd kapitaal"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Is, in de 2 onderstaande situaties de bijzondere procedure, de zogenaamde alarmbelprocedure, van toepassing voor de bvba 'Zonder Zorgen'? Kunt u voor elk geval en voor elk antwoord een bondige uitleg geven?"
+    },
+    {
+      "type": "balans",
+      "titel": "Eerste situatie",
+      "actief": {
+        "headers": ["Rubriek", "Bedrag"],
+        "rows": [
+          ["Oprichtingskosten", "2.000,00"],
+          ["Materiële vaste activa", "6.000,00"],
+          ["Goederenvoorraad", "3.500,00"],
+          ["Liquide middelen", "2.000,00"],
+          ["TOTAAL ACTIEF", "13.500,00"]
+        ]
+      },
+      "passief": {
+        "headers": ["Rubriek", "Bedrag"],
+        "rows": [
+          ["Geplaatst kapitaal", "20.000,00"],
+          ["Niet opgevraagd kapitaal", "-12.000,00"],
+          ["Overgedragen resultaat", "1.000,00"],
+          ["Handelsschulden", "4.500,00"],
+          ["TOTAAL PASSIEF", "13.500,00"]
+        ]
+      }
+    },
+    {
+      "type": "balans",
+      "titel": "Tweede situatie",
+      "actief": {
+        "headers": ["Rubriek", "Bedrag"],
+        "rows": [
+          ["Oprichtingskosten", "2.000,00"],
+          ["Materiële vaste activa", "6.000,00"],
+          ["Goederenvoorraad", "3.500,00"],
+          ["Liquide middelen", "2.000,00"],
+          ["TOTAAL ACTIEF", "13.500,00"]
+        ]
+      },
+      "passief": {
+        "headers": ["Rubriek", "Bedrag"],
+        "rows": [
+          ["Geplaatst kapitaal", "20.000,00"],
+          ["Niet opgevraagd kapitaal", "-5.000,00"],
+          ["Reserves", "3.000,00"],
+          ["Overgedragen verlies", "-9.500,00"],
+          ["Resultaat periode", "-4.500,00"],
+          ["Handelsschulden", "9.500,00"],
+          ["TOTAAL PASSIEF", "13.500,00"]
+        ]
+      }
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Is de alarmbelprocedure van toepassing in de eerste situatie? Geef een bondige uitleg.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Is de alarmbelprocedure van toepassing in de tweede situatie? Geef een bondige uitleg.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee balansen uit de tekst gestructureerd als aparte balans-blokken. De vraag vraagt per situatie of de alarmbelprocedure van toepassing is + uitleg. Gemodelleerd als twee open deelvragen met motivatie_verwacht:true.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr14",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsrecht: aandelen bij overlijden, vordering oninvorderbaar, oprichting S-BVBA",
+  "themas": ["BVBA", "aandelen bij overlijden", "erfopvolging", "overdracht aandelen", "oninvorderbare vordering", "S-BVBA", "oprichtersaansprakelijkheid"],
+
+  "context_blokken": [
+    {
+      "type": "balans",
+      "actief": {
+        "headers": ["Rubriek", "Bedrag"],
+        "rows": [
+          ["Materiële vaste activa", "25.000"],
+          ["Voorraden", "7.500"],
+          ["Vorderingen op < 1 jaar", "75.500"],
+          ["Liquide middelen", "12.500"],
+          ["TOTAAL", "120.500"]
+        ]
+      },
+      "passief": {
+        "headers": ["Rubriek", "Bedrag"],
+        "rows": [
+          ["Geplaatst kapitaal", "20.460"],
+          ["Overgedragen winst", "44.540"],
+          ["Leveranciers", "28.500"],
+          ["Belastingschulden", "27.000"],
+          ["TOTAAL", "120.500"]
+        ]
+      }
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Hierna volgt de balans van de bvba Avenir, afgesloten op 31/12/2012. Het aandeelhouderschap van deze bvba is sinds lang in handen van Paul X, met 50% van de aandelen, Jean Y met 45% van de aandelen, en Albert M die de resterende 5% aanhoudt, hetzij in totaal 186 aandelen. De statuten wijken niet af van het Wetboek van Vennootschappen. Maar Jean Y overlijdt jammerlijk en laat als enige erfgenaam zijn zoon Cedric Y na."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Deel II: Paul X stelt vast dat Jean de invordering van een zeer belangrijke klant had verwaarloosd en dat die klant ondertussen failliet verklaard is. Het bedrag van de vordering bedraagt 60.000 euro. Het blijkt dat die vordering al oninvorderbaar was vóór de afsluiting van de balans per 31/12/2012. Paul X raadpleegt u en vraagt wat er, vanuit juridisch standpunt, moet gedaan worden."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Deel III: Albert M, samen met een vriend, wil een S-BVBA oprichten onder de naam 'Renaissance'. Ze beschikken niet over de nodige liquide middelen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Wat zal er gebeuren met de aandelen (van Jean Y), nu zijn vader Jean overleden is?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Zal Cedric Y automatisch vennoot van de bvba worden?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "En hoe zit het met een eventuele overdracht van zijn aandelen?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "deel2",
+      "label_in_pdf": "Deel II",
+      "vraagtype": "open",
+      "vraagstelling": "De vordering van 60.000 euro op de failliete klant was al oninvorderbaar vóór de afsluiting van de balans per 31/12/2012. Wat moet er, vanuit juridisch standpunt, gedaan worden?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Is het plan om een S-BVBA op te richten uitvoerbaar voor de twee vennoten (Albert M en zijn vriend, die niet over de nodige liquide middelen beschikken)?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "open",
+      "vraagstelling": "Welke is hun aansprakelijkheid als oprichter (van de S-BVBA)?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 2. Complexe vraag met drie delen en balans. Balans overgenomen van PNG. Instructie 'Verklaar uw antwoorden bondig' geïnterpreteerd als motivatie_verwacht true voor deelvragen a, b, c, d. Deel II is een aparte vraag zonder letter maar eigen inhoud. Deelstelling 'Antwoord' na Deel II in tekst.txt is antwoordruimte, geen vraag.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

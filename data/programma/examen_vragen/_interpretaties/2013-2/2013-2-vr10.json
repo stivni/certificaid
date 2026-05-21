@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr10",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Functiescheiding: indeling van activiteiten naar soort taak",
+  "themas": ["functiescheiding", "interne controle", "autorisatie", "bewaring van activa", "registratie", "controlprocedures", "aankoopproces"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In het kader van scheiding van functies kunnen er 4 soorten taken worden onderkend: Autorisatie (1), bewaren van activa (2), registratie en rapportering (3) en controle procedures (4).\nDuid in onderstaande tabel aan welke soort taak bedoeld is."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Activiteiten en taakcategorieën",
+      "rijen": [
+        { "label": "Akkoord bestelling", "bedrag": null },
+        { "label": "Ontvangst van de goederen", "bedrag": null },
+        { "label": "Ontvangst van de factuur", "bedrag": null },
+        { "label": "Verificatie van de factuur", "bedrag": null },
+        { "label": "Aanmaak betalingsvoorstel", "bedrag": null },
+        { "label": "Controle betalingsvoorstel", "bedrag": null },
+        { "label": "Uitvoeren van de betaling", "bedrag": null },
+        { "label": "Aanmaak en onderhoud basisgegevens leveranciers", "bedrag": null }
+      ]
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": null,
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Duid voor elk van de acht activiteiten aan welke soort taak bedoeld is (1=Autorisatie, 2=Bewaren van activa, 3=Registratie en rapportering, 4=Controle procedures).",
+      "opties": [
+        { "id": "a", "tekst": "1 - Autorisatie" },
+        { "id": "b", "tekst": "2 - Bewaren van activa" },
+        { "id": "c", "tekst": "3 - Registratie en rapportering" },
+        { "id": "d", "tekst": "4 - Controle procedures" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Matchingvraag: 8 activiteiten elk toe te wijzen aan één van 4 taakcategorieën. Gemodelleerd als mc_keuze met de vier categorieën als opties (per activiteit één optie kiezen). De gegevens_tabel bevat de activiteiten maar geen bedragen — bedrag-veld gebruikt als null placeholder.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

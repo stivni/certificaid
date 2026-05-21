@@ -1,0 +1,86 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr8",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Vennootschapsbelasting",
+  "themas": ["fiscale verliezen", "overdraagbare verliezen", "fusie moeder-dochter", "DBI aftrek", "innovatie-inkomsten", "voorafbetalingen", "verlaagd tarief", "belastbare basis", "tantième", "besmette verworpen uitgaven"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Deelvraag B (fusie casus): Moeder A fuseert (neutraal) met Dochter B, waarin ze 100% bezit. Netto Actief van B = 100. Fiscale waarde van de participatie in B in de boekhouding van A = 20. Overgedragen fiscale verliezen van B = 30. Overdraagbare aftrek innovatie-inkomsten A = 40."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Deelvraag C (VOF casus): Boekjaar N: 120.000 euro belastbare winst, alle voorwaarden voldaan voor verlaagd tarief 20%. VOF bestaat sinds 1/1/N-2, boekjaar is kalenderjaar."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Deelvraag D (NV A casus): NV A, boekjaar afgesloten 31/12/22. Winst voor belasting = 100.000 euro (voor winstuitkering). Belgische belasting = 20.000 euro. De AV beslist om een tantième van 10.000 euro toe te kennen en een gewoon dividend van 20.000 euro uit te keren."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "juist_fout",
+      "vraagstelling": null,
+      "motivatie_verwacht": false,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Stellingen ivm overdraagbare fiscale verliezen"
+    },
+    {
+      "id": "b1",
+      "label_in_pdf": "B.a",
+      "vraagtype": "open",
+      "vraagstelling": "Hoeveel bedraagt de meer- of minderwaarde die A zal realiseren op de deelneming in B ingevolge de moeder-dochter fusie?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b2",
+      "label_in_pdf": "B.b",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "C",
+      "vraagtype": "open",
+      "vraagstelling": "Boekjaar N: 120.000 euro belastbare winst, alle voorwaarden voldaan voor verlaagd tarief 20%. VOF bestaat sinds 1/1/N-2, boekjaar is kalenderjaar. Wat met voorafbetalingen / vermeerderingen wegens onvoldoende voorafbetaling?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "D",
+      "vraagtype": "open",
+      "vraagstelling": "NV A (boekjaar 31/12/22): winst voor belasting 100.000 euro, Belgische belasting 20.000 euro. AV beslist om tantième van 10.000 euro toe te kennen en gewoon dividend van 20.000 euro uit te keren. Hoeveel bedraagt de belastbare basis van A voor aanslagjaar 2023?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "E",
+      "vraagtype": "open",
+      "vraagstelling": "Wat zijn de 'besmette' verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "d",
+    "tekst": "100.000 – 10.000 tantième = 90.000 euro",
+    "vermoedelijke_status": "stagiair-notitie van eigen antwoord"
+  },
+  "herinterpretatie_motivering": "Herinnering-stijl 2024-1. Deelvraag A is topic_only: de concrete stellingen over overdraagbare fiscale verliezen zijn niet bewaard. Deelvraag B bevat twee sub-berekeningen (b1 en b2) met een gedeelde casuscontext. Deelvraag D bevat een antwoord-hint ('100.000 – 10.000 tantième = 90.000 euro') zichtbaar in de PNG — geflaged als antwoord_hint_in_vraag. Deelvraag E vraagt een opsomming van besmette verworpen uitgaven — modellering als open. 'Takxshelter' in tekst.txt is vermoedelijk typo voor 'taxshelter' maar onduidelijk — niet gecorrigeerd.",
+  "kwaliteits_flags": ["antwoord_hint_aanwezig", "subvraag_zonder_inhoud"]
+}

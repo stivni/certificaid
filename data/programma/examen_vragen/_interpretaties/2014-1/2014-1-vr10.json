@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr10",
+  "interpretatie_datum": "2026-05-21T10:08:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Interne controle — risico's detecteren bij aanmaken klantenfiches door verkoopafdeling",
+  "themas": [
+    "interne controle",
+    "risico-analyse",
+    "klantenfiches",
+    "functiescheiding",
+    "toegangsbeheer",
+    "IT-controles"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De verkoopafdeling maakt de nieuwe klantenfiches aan in het computersysteem op het moment dat de verkoper een door een nieuwe klant getekende bestelbon binnenbrengt."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag",
+      "vraagtype": "open",
+      "vraagstelling": "Detecteer drie risico's.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige open vraag waarbij drie risico's gedetecteerd moeten worden. De casus is helder en volledig in tekst.txt.",
+  "kwaliteits_flags": []
+}

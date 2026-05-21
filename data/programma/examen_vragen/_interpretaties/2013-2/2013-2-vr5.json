@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr5",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Ratio-analyse: brutoverkoopmarge, nettorentabiliteit en liquiditeit",
+  "themas": ["ratio-analyse", "brutoverkoopmarge", "nettorentabiliteit", "liquiditeit", "jaarrekening", "balans", "resultatenrekening"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt.\n\nBereken de gevraagde ratio's telkens voor het BOEKJAAR.\nU dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord.\nU dient uw antwoord uit te drukken tot TWEE cijfers na de komma.\n\nUit de toelichting tot de jaarrekening blijkt o.a. dat:\n1) Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361.869,98 euro;\n2) Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415 euro;\n3) Er geen intrestsubsidies zijn;\n4) Er werd geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt;\n5) Er werden geen belastingen geboekt op het resultaat van vorige boekjaren;\n6) De te bestemmen winst van het boekjaar integraal gereserveerd werd."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de brutoverkoopmarge (%).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de liquiditeit in ruime zin.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Balans en resultatenrekening zitten in bijlage (niet in dit segment). De zes toelichting-items zijn beschikbaar in tekst.txt en vormen de rekencontext. Alle drie deelvragen zijn berekeningsvragen (open).",
+  "kwaliteits_flags": []
+}

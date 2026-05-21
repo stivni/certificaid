@@ -1,0 +1,40 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr24",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Kapitaalverhoging in natura bvba: vereiste verslagen bij inbreng aandelen",
+  "themas": ["kapitaalverhoging", "inbreng in natura", "bedrijfsrevisor", "bijzonder verslag", "bvba", "vennootschapsrecht", "aandelen als inbreng"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer POULAIN, enig vennoot en zaakvoerder van bvba 'LE BON' (opgericht 16 november 2013) wenst het kapitaal van 20.000 EUR met 10.000 EUR te verhogen via inbreng van aandelen van nv CHARTER (verkregen 2 weken eerder, gewaardeerd op 10.000 EUR, geen herwaardering). Hij beschikt over een bijzonder verslag van het bestuursorgaan."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Wat adviseert u hem?",
+      "opties": [
+        { "id": "a", "tekst": "Dat de verrichting niet kan doorgevoerd worden op basis van de bekomen gegevens." },
+        { "id": "b", "tekst": "Dat hij noodzakelijk in het bezit moet zijn van een verslag van een bedrijfsrevisor, indien de vennootschap geen commissaris-revisor heeft. Dit verslag vermeldt de naam van de eigenaar van het goed dat de vennootschap wil verkrijgen, de beschrijving van dit goed, de vergoeding die werkelijk als tegenprestatie voor de verkrijging wordt verstrekt en de toegepaste waarderingsmethoden. Het geeft aan of de waarden waartoe deze waarderingsmethoden leiden, tenminste gelijk zijn aan de als tegenprestatie verstrekte vergoeding." },
+        { "id": "c", "tekst": "Dat hij in het bezit moet zijn van een attest van de FSMA, met vermelding van de oorsprong van de eigendom van de aandelen, de waarde op de datum van verkrijging en de evolutie ervan over de 3 voorgaande jaren." },
+        { "id": "d", "tekst": "Dat hij een verklaring moet opstellen met vermelding van de beschrijving van de inbreng, de naam van de eigenaar, de waarde en de herkomst van deze waardering en de verstrekte tegenprestatie en een attest dat er zich geen nieuwe omstandigheden hebben voorgedaan ten opzichte van de oorspronkelijke waardering." },
+        { "id": "e", "tekst": "Dat het door het bestuursorgaan opgesteld bijzonder verslag volstaat en dat hij het aan de notaris moet bezorgen die de kapitaalverhoging zal vaststellen zoals bepaald bij artikel 75 van het Wetboek van vennootschappen." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 5 van de sectie 'Vennootschapsrecht'. Enkelvoudige MC-vraag met 5 opties.",
+  "kwaliteits_flags": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI1",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Kapitaalverhoging NV zonder buitengewone algemene vergadering: mogelijkheid en voorwaarden",
+  "themas": [
+    "NV",
+    "kapitaalverhoging",
+    "raad van bestuur",
+    "toegestaan kapitaal",
+    "algemene vergadering",
+    "vennootschapsrecht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De raad van bestuur van een NV wenst over te gaan tot een kapitaalverhoging. Omdat de verhoging dringend is, wenst ze geen buitengewone algemene vergadering bijeen te roepen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "I1a",
+      "vraagtype": "open",
+      "vraagstelling": "Is het mogelijk om een kapitaalverhoging door te voeren zonder buitengewone algemene vergadering?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "I1b",
+      "vraagtype": "open",
+      "vraagstelling": "Indien u bevestigend antwoordt, wat zijn de voorwaarden?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee deelvragen: ja/nee met verantwoording, gevolgd door de voorwaarden. Geen modelantwoord in de tekst.",
+  "kwaliteits_flags": []
+}

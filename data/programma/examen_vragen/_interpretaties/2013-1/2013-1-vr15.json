@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr15",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Omzetting van effecten aan toonder: maatregel, gevolgen 2014 en 2015",
+  "themas": ["effecten aan toonder", "dematerialisatie", "omzettingstermijn", "verjaring", "Wetboek van Vennootschappen"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Sinds 1 januari 2008 kunnen er geen nieuwe effecten aan toonder uitgegeven worden. De wetgever heeft gesteld dat uiterlijk op 31 december 2013 de effecten aan toonder moeten omgezet zijn."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "De wetgever heeft om de omzetten te versnellen reeds een maatregel genomen, een maatregel met een uitwerking in 2012 en/of 2013. Welke is deze maatregel en welke actie kon/kan men ondernemen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2015?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 3. Tekst.txt bevat een fragment 'een maatregel met een uitwerking in 2012 en/of 2013. Welke is deze maatregel.' buiten subvraag-blok — dit is de OCR-duplicaat van vraag a. Geïntegreerd in deelvraag a. Titelsectie 'VENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN)' markeert volgende sectie.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

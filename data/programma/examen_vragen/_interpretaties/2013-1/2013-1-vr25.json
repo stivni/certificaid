@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr25",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-aangifte roosters invullen: stopzetting, dienst buitenland, intracommunautaire overbrenging",
+  "themas": ["btw", "aangifte roosters", "stopzetting economische activiteit", "herziening aftrek", "diensten buitenland", "intracommunautaire overbrenging"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vermeld voor onderstaande handelingen het(de) rooster(s) van de btw-aangifte die moeten ingevuld worden en eveneens het(de) overeenkomstige bedrag(en). Bedragen exclusief btw."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Een gewone belastingplichtige zet op 15 januari 2012 zijn economische activiteit stop. Op het ogenblik van deze definitieve stopzetting bevat het bedrijfspatrimonium nog een bestelwagen (aangekocht in 2011 voor € 30.000 + 21% btw, nu € 20.000 waard) en het bedrijfsgebouw (aangekocht in 2006 voor € 250.000 + 21% btw, nu € 350.000 waard). Vermeld de roosters van de btw-aangifte en de overeenkomstige bedragen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Een Belgische belastingplichtige betaalt op 10 januari 2013 aan een Japans bedrijf de som van € 5.000 voor de uitvoering van een grote promotiecampagne op Japans grondgebied. Vermeld de roosters van de btw-aangifte en de overeenkomstige bedragen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Een Belgische belastingplichtige verzendt op 15 mei 2012 een partij handelsgoederen vanuit haar magazijn te Utrecht (Nederland) naar haar hoofdzetel te Antwerpen. De goederen werden drie maanden geleden aangekocht in Nederland voor € 1.250, exclusief Nederlandse btw. Dezelfde dag maakt de Belgische belastingplichtige een transfertdocument op. Vermeld de roosters van de btw-aangifte en de overeenkomstige bedragen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 2. De modelaangifte (roosters) staat in bijlage. Antwoordtabellen met ROOSTER / NR / BEDRAG staan in de tekst als antwoordsjabloon — dit zijn invulvakken, geen antwoorden. Tekst.txt trunceert deelvraag a-tekst licht; volledige tekst gereconstrueerd.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

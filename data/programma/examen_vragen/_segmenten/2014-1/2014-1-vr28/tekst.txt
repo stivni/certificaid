@@ -1,0 +1,44 @@
+> Een kantoorgebouw was door de vennootschap ABC gekocht in het jaar 1985. Volgende
+gegevens zijn terug te vinden in de afschrijvingstabel:
+Aanschaffingwaarde 1.000.000,00 EUR
+Afschrijvingen - 750.000,00 EUR
+Boekwaarde 250.000,00 EUR
+De vennootschap probeerde, na schatting door een deskundige, het gebouw eerst zelf te
+koop aan te bieden. Gezien dit geen resultaat opleverde, werd uiteindelijk een makelaar
+ingeschakeld om het gebouw te verkopen.
+De kosten hiervan bedroegen:
+Schatting 8.000,00 EUR
+Publiciteit 5.000,00 EUR
+Makelaar 20.000,00 EUR
+Na tussenkomst van de makelaar werd het gebouw uiteindelijk verkocht voor een waarde van
+325.000,00 EUR op 15 november 2012.
+De vennootschap zou graag de meerwaarde gespreid willen laten belasten.
+Overzicht verrichte investeringen:
+Zij had in het jaar 2011 reeds een ander gebouw gekocht voor een waarde van 280.000,00
+EUR, waarvan 80.000,00 EUR grondwaarde en 200.000,00 constructiewaarde. Het
+afschrijvingspercentage bedraagt 3% lineair. De vennootschap is een kleine vennootschap in
+de zin van artikel 15 van het Wetboek van Vennootschappen.
+Gevraagd:
+
+**Welke bedragen van de gespreide meerwaarde zullen in de jaarrekening van 31
+december 2012 overgeboekt worden naar de resultatenrekeningen als onttrekking?**
+
+U dient rekening te houden met een belastingtarief van 33,99 %.
+
+**Geef een detail van uw berekening.**
+
+=== subvraag a) ===
+Bereken de fiscale meerwaarde die in aanmerking komt voor gespreide taxatie.
+
+=== subvraag b) ===
+De vennootschap heeft de meerwaarde verwerkt als gespreide taxatie in haar
+jaarrekening.
+Welke bedragen van de gespreide meerwaarde zullen in de jaarrekening van 31
+december 2012 overgeboekt worden naar de resultatenrekeningen als onttrekking?
+U dient rekening te houden met een belastingtarief van 33,99 %.
+Geef een detail van uw berekening.
+
+=== subvraag c) ===
+Welk bedrag zal in de aangifte vennootschapsbelasting aanslagjaar 2013 ingevuld
+worden in het vak vrijgestelde reserves als gespreid te belasten meerwaarde?
+Geef een detail van uw berekening.

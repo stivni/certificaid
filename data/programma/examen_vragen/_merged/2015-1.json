@@ -1,0 +1,4246 @@
+{
+  "bron_pdf": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+  "examen_id": "2015-1",
+  "merge_datum": "2026-05-21T00:54:34+00:00",
+  "schema_versie": "4.0",
+  "tool": "merge-examen-artefacten",
+  "vragen": [
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Onderneming XYZ verkoopt producten voor klein meubilair en hanteert de FIFO-methode. Aankopen en verkopen op één voorraadartikel in 2013: aankoop 15 januari 2013 van 1.000 stuks aan 350,00 EUR; aankoop 31 maart 2013 van 500 stuks aan 300,00 EUR; verkoop 31 mei 2013 van 100 stuks aan 480,00 EUR. Marktwaarde op 31 december 2013: 280,00 EUR per artikel. Marktwaarde op 30 april 2014: 300,00 EUR. Algemene vergadering: 5 mei 2014.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Tekst.txt bevat OCR-duplicaten van antwoordletters (E. 452.000 EUR en E. 637.000 EUR bovenaan, vóór de eigenlijke subvragen). Dit zijn de kopteksten van de antwoordopties die pdfplumber dubbel heeft weergegeven. De eigenlijke structuur bestaat uit twee MC-subvragen met elk 5 opties A-E.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "FIFO",
+          "voorraadwaardering",
+          "marktwaarde",
+          "waardevermindering voorraden",
+          "ereignis na balansdatum",
+          "jaarrekening"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr1",
+        "vraag_onderwerp": "Voorraadwaardering FIFO-methode en lager-van-kostprijs-of-marktwaarde",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "465.000 EUR"
+              },
+              {
+                "id": "b",
+                "tekst": "470.000 EUR"
+              },
+              {
+                "id": "c",
+                "tekst": "392.000 EUR"
+              },
+              {
+                "id": "d",
+                "tekst": "420.000 EUR"
+              },
+              {
+                "id": "e",
+                "tekst": "452.000 EUR"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Voor welke waarde neemt zij dit artikel op in haar voorraad per 31 december 2013?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "465.000 EUR"
+              },
+              {
+                "id": "b",
+                "tekst": "470.000 EUR"
+              },
+              {
+                "id": "c",
+                "tekst": "392.000 EUR"
+              },
+              {
+                "id": "d",
+                "tekst": "420.000 EUR"
+              },
+              {
+                "id": "e",
+                "tekst": "637.000 EUR"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en verkopen zijn geweest en de marktwaarde dan 455 EUR is?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr1 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr1"
+      },
+      "vraag_id": "2015-1-vr1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vraag 3 van de sectie 'Analyse en kritische beoordeling van de jaarrekening'. Bij elk foutief of ontbrekend antwoord wordt 1 punt afgetrokken.",
+            "type": "casus_context"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": null,
+                "label": "Materiële vaste activa (22/27)"
+              },
+              {
+                "bedrag": null,
+                "label": "Financiële vaste activa (28)"
+              },
+              {
+                "bedrag": null,
+                "label": "Vorderingen op meer dan één jaar (29)"
+              },
+              {
+                "bedrag": null,
+                "label": "Voorraden (30/36)"
+              },
+              {
+                "bedrag": null,
+                "label": "Bestellingen in uitvoering (37)"
+              },
+              {
+                "bedrag": null,
+                "label": "Handelsvorderingen (40)"
+              },
+              {
+                "bedrag": null,
+                "label": "Overige vorderingen (41)"
+              },
+              {
+                "bedrag": null,
+                "label": "Geldbeleggingen (50/53)"
+              },
+              {
+                "bedrag": null,
+                "label": "Liquide middelen (54/58)"
+              },
+              {
+                "bedrag": null,
+                "label": "Overlopende rekeningen van het actief (490/1)"
+              },
+              {
+                "bedrag": null,
+                "label": "Eigen vermogen (10/15)"
+              },
+              {
+                "bedrag": null,
+                "label": "Voorzieningen en uitgestelde belastingen (16)"
+              },
+              {
+                "bedrag": null,
+                "label": "Schulden op meer dan één jaar (17)"
+              },
+              {
+                "bedrag": null,
+                "label": "Schulden op meer dan één jaar die binnen het jaar vervallen (42)"
+              },
+              {
+                "bedrag": null,
+                "label": "Financiële schulden (43)"
+              },
+              {
+                "bedrag": null,
+                "label": "Handelsschulden (44)"
+              },
+              {
+                "bedrag": null,
+                "label": "Ontvangen vooruitbetalingen (46)"
+              },
+              {
+                "bedrag": null,
+                "label": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten (45)"
+              },
+              {
+                "bedrag": null,
+                "label": "Overige schulden (47/48)"
+              },
+              {
+                "bedrag": null,
+                "label": "Overlopende rekeningen van het passief (492/3)"
+              }
+            ],
+            "titel": "Balansposten te beoordelen voor behoefte aan werkkapitaal",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Analyse en kritische beoordeling'. De vraag bevat een tabel met 20 balansposten waarvoor de kandidaat 'ja' of 'nee' moet aanduiden. Dit is een open invulvraag (ja/nee per rubriek, met aftrekpunten). Weergegeven als gegevens_tabel voor de context + één open deelvraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "werkkapitaal",
+          "bedrijfskapitaal",
+          "nettobedrijfskapitaal",
+          "balansposten",
+          "financiële analyse"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr10",
+        "vraag_onderwerp": "Behoefte aan werkkapitaal: selectie van balansposten",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke van de onderstaande balansposten (met code) neemt u op in de berekening 'behoefte aan werkkapitaal (of bedrijfskapitaal)'? Duid bij elke code 'ja of nee' aan.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr10 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr10"
+      },
+      "vraag_id": "2015-1-vr10"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Tekst.txt is beknopt maar beide deelvragen zijn volledig leesbaar. Twee open vragen over consolidatieverschillen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "consolidatie",
+          "consolidatieverschil",
+          "goodwill",
+          "overnamepremie",
+          "geconsolideerde jaarrekening"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr11",
+        "vraag_onderwerp": "Positief consolidatieverschil: definitie en oorzaken",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is een positief consolidatieverschil?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef de vier voornaamste oorzaken van positieve consolidatieverschillen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr11 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr11"
+      },
+      "vraag_id": "2015-1-vr11"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De controleactiviteiten kunnen op verschillende wijzen worden ingedeeld. Voor elke controleactiviteit dient een begripsverklaring en een voorbeeld gegeven te worden.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Interne controle'. Twee open deelvragen met verklaring + voorbeeld. De vraagstelling in tekst.txt is helder.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "interne controle",
+          "controleactiviteiten",
+          "accountingcontrole",
+          "administratieve controle",
+          "preventieve controle",
+          "repressieve controle"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr12",
+        "vraag_onderwerp": "Begripsverklaring controleactiviteiten: soorten en voorbeelden",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Verklaar het begrip 'accountingcontrole en administratieve controle' en geef van elke controleactiviteit een voorbeeld.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Verklaar het begrip 'preventieve en repressieve controle' en geef van elke controleactiviteit een voorbeeld.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr12 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr12"
+      },
+      "vraag_id": "2015-1-vr12"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De verantwoordelijke van de interne audit zal een aantal controletechnieken aanwenden om voldoende bewijsmateriaal te verzamelen over de toepassing en effectiviteit van de interne controlemaatregelen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Interne controle'. Enkelvoudige open vraag naar vier controletechnieken.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "interne controle",
+          "interne audit",
+          "controletechnieken",
+          "voorraadbeheer",
+          "magazijn",
+          "bewijsmateriaal"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr13",
+        "vraag_onderwerp": "Controletechnieken interne audit op goederenbestand magazijn",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef vier controletechnieken die door de interne controleur kunnen toegepast worden op de goederen in het magazijn.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr13 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr13"
+      },
+      "vraag_id": "2015-1-vr13"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vraag 3 van de sectie 'Interne controle'. Schema met doelstellingen bij de operationele audit van de verkoopcyclus. Kandidaat duidt aan of elke doelstelling financieel, operationeel en/of conformiteitsaspect betreft (meerdere aspecten mogelijk).",
+            "type": "casus_context"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": null,
+                "label": "Opstellen van een marketingstrategie"
+              },
+              {
+                "bedrag": null,
+                "label": "Behoud mogelijkheid tot tijdige levering tegen de laagst mogelijke distributiekost"
+              },
+              {
+                "bedrag": null,
+                "label": "Opvolging van marktbehoeften, introductie nieuwe producten en stopzetting van bestaande producten"
+              },
+              {
+                "bedrag": null,
+                "label": "Enkel toegestane verkooporders worden verwerkt"
+              },
+              {
+                "bedrag": null,
+                "label": "Alle verzonden goederen worden in de juiste periode correct gefactureerd"
+              }
+            ],
+            "titel": "Doelstellingen operationele audit verkoopcyclus",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Interne controle'. Invulvraag op basis van een schema met 5 doelstellingen en drie audit-aspecten. Weergegeven als open invulvraag met gegevens_tabel voor de doelstellingen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "operationele audit",
+          "verkoopcyclus",
+          "auditdoelstellingen",
+          "financieel aspect",
+          "operationeel aspect",
+          "conformiteitsaspect"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr14",
+        "vraag_onderwerp": "Operationele audit verkoopcyclus: classificatie doelstellingen naar financieel/operationeel/conformiteit",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Duid bij elke doelstelling aan of het gaat om een financieel, en/of operationeel en/of conformiteitsaspect.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr14 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr14"
+      },
+      "vraag_id": "2015-1-vr14"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Tijdens een controleopdracht bij een middelgrote onderneming zonder commissaris, in het kader van een contractueel beperkt nazicht, stelt de externe accountant een aantal verbeteringen (adjustments) voor.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Accountantsonderzoek'. Twee delen in de PDF: (a) ja/nee-vraag (0,5 punt) en (b) verklaar bondig (1,5 punt). Deelvraag b is een pure motivatie-instructie bij a en wordt geïntegreerd via motivatie_verwacht: true. Geen aparte deelvraag b.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "deontologie",
+          "onafhankelijkheid",
+          "adjustments",
+          "contractueel nazicht",
+          "externe accountant",
+          "eigen werk controleren"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr15",
+        "vraag_onderwerp": "Deontologische implicaties van talrijke adjustments bij contractueel beperkt nazicht",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wanneer deze adjustments talrijk en substantieel zijn in bedrag, zou dit een probleem kunnen veroorzaken in het bijzonder op het vlak van deontologische regels.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr15 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr15"
+      },
+      "vraag_id": "2015-1-vr15"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Accountantsonderzoek'. Enkelvoudige open vraag naar twee weigeringsgronden bij opdrachtaanvaarding.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "aanvaardingsprocedure",
+          "audit",
+          "opdrachtaanvaarding",
+          "onafhankelijkheid",
+          "beroepsethiek",
+          "accountantsonderzoek"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr16",
+        "vraag_onderwerp": "Aanvaardingsprocedure auditdossier: weigeringsgronden",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef twee voorbeelden van situaties bij de aanvaardingsprocedure van de opdracht waarbij we het dossier mogelijks niet kunnen aanvaarden.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr16 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr16"
+      },
+      "vraag_id": "2015-1-vr16"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Tijdens werkzaamheden aan een controleverslag ivm een omzetting stelt de aangestelde accountant vast dat op het actief een debet lopende rekening op naam van de overleden vader van de zaakvoerders-aandeelhouders voorkomt.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Accountantsonderzoek'. Twee deelvragen die samen betrekking hebben op het schema 'controledoelstelling / techniek'. Deelvraag b is een eigenstandige vervolgvraag (eigen inhoud: welke techniek), niet een pure motivatie-instructie.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "controleverslag",
+          "omzetting vennootschap",
+          "lopende rekening",
+          "controledoelstellingen",
+          "controletechnieken",
+          "accountantsonderzoek"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr17",
+        "vraag_onderwerp": "Controledoelstellingen en -technieken op debet lopende rekening bij omzetting",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef twee controledoelstellingen die op dergelijk actief (debet lopende rekening) worden toegepast.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef kort weer voor elk van deze twee controledoelstellingen welke techniek of methodiek je toepast.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr17 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr17"
+      },
+      "vraag_id": "2015-1-vr17"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Controleopdracht per 30 september 2014. Materialiteit: 100.000 EUR resultatenrekening / 70.000 EUR balansposten. Laag risicoprofiel. Voorraadtelling op 1 oktober 2014 fysiek gevolgd en akkoord verklaard. Stand: 23 januari 2015. (b) Bij nazicht handelsvorderingen wordt een confirmatie bekomen van een klant voor 121.000,00 EUR, terwijl de vordering in de boekhouding op 217.800,00 EUR staat. Bij de confirmatie zit een ontvangstbon van 29/09/2014 waaruit blijkt dat voor 80.000,00 EUR (excl. btw) fout geleverde goederen terug werden meegenomen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 4 van de sectie 'Accountantsonderzoek'. Twee eigenstandige deelvragen. Deelvraag b vereist keuze + motivering (verklaar bondig), vandaar motivatie_verwacht: true.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "voorraadcontrole",
+          "controledoelstellingen",
+          "handelsvorderingen",
+          "confirmatie",
+          "correctieboeking",
+          "voorbehoud",
+          "accountantsonderzoek"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr18",
+        "vraag_onderwerp": "Controle na voorraadtelling en behandeling handelsvorderingsverschil",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De telling van de voorraad (30/09/2014) hebben we fysiek kunnen meemaken en deze hoeveelheidstelling was in orde. Welke controle gaan we nu (23/01/2015) nog doen op de voorraad? Geef twee controledoelstellingen met telkens een voorbeeld van de techniek die je gaat toepassen.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bij nazicht van de handelsvorderingen wordt een confirmatie bekomen van een klant voor 121.000,00 EUR, terwijl de vordering in de boekhouding op 217.800,00 EUR staat (80.000,00 EUR excl. btw fout geleverde goederen teruggenomen per 29/09/2014). Welke actie onderneem je als controlerende accountant: stel een correctieboeking voor, maak een voorbehoud (motiveer) of vraag de correctie te boeken in de heropening van volgend boekjaar?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr18 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr18"
+      },
+      "vraag_id": "2015-1-vr18"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 5 van de sectie 'Accountantsonderzoek'. Vijf open deelvragen over de werkwijze bij confirmatie van leverancierssaldi.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "confirmatie",
+          "leverancierssaldi",
+          "steekproef",
+          "externe controle",
+          "confirmatiebrieven",
+          "audit"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr19",
+        "vraag_onderwerp": "Werkwijze confirmatie leverancierssaldi bij externe controle",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is representatief bij de selectie van leverancierssaldi voor confirmatie?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe doe je de steekproef?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe gebeurt de verzending van de confirmatiebrieven?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wie ontvangt de antwoorden?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "e",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat bij niet ontvangst van antwoorden?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr19 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr19"
+      },
+      "vraag_id": "2015-1-vr19"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Werknemer de heer Janssens van vennootschap XYZ ontvangt ontslag op 5 december 2013 en kan vanaf 1 maart 2014 genieten van het stelsel werkloosheid met bedrijfstoeslag (oud brugpensioenstelsel). Vanaf 1 maart 2014 betaalt de vennootschap 2.000 EUR bruto per maand.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "De tekst.txt herhaalt de vraagstelling bij elke subvraag (A-E zijn de opties, geen aparte deelvragen). OCR-artifact: pdfplumber heeft elke optie als aparte subvraag weergegeven met de volledige vraagstelling als herhaling. Dit is één enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "brugpensioen",
+          "werkloosheid met bedrijfstoeslag",
+          "voorzieningen",
+          "personeelskosten",
+          "boekhoudkundige verwerking"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr2",
+        "vraag_onderwerp": "Boekhoudkundige verwerking stelsel werkloosheid met bedrijfstoeslag (brugpensioen)",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het moment dat zij zich voordoen."
+              },
+              {
+                "id": "b",
+                "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag komen vanaf maart 2014 in de resultatenrekening. Een gedeelte van de voorziening wordt jaarlijks teruggenomen."
+              },
+              {
+                "id": "c",
+                "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer."
+              },
+              {
+                "id": "d",
+                "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht van de voorziening."
+              },
+              {
+                "id": "e",
+                "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. Op het moment van het bereiken van de pensioengerechtigde leeftijd van de werknemer wordt de voorziening teruggenomen."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe wordt dit stelsel werkloosheid met bedrijfstoeslag verwerkt in de boekhouding?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr2 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr2"
+      },
+      "vraag_id": "2015-1-vr2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De heer DUPONT, zaakvoerder en hoofdaandeelhouder van de S-bvba 'LA POINTE' (opgericht december 2009) komt op zaterdag 11 april 2015 om advies. Hij legt de jaarrekening per 31 december 2014 voor.",
+            "type": "casus_context"
+          },
+          {
+            "actief": {
+              "headers": [
+                "Rubriek",
+                "Bedrag"
+              ],
+              "rows": [
+                [
+                  "Materiële vaste activa",
+                  "3.000,00"
+                ],
+                [
+                  "Handelsvorderingen",
+                  "20.000,00"
+                ],
+                [
+                  "Liquide middelen",
+                  "1.000,00"
+                ],
+                [
+                  "Totaal activa",
+                  "24.000,00"
+                ]
+              ]
+            },
+            "passief": {
+              "headers": [
+                "Rubriek",
+                "Bedrag"
+              ],
+              "rows": [
+                [
+                  "Kapitaal",
+                  "6.000,00"
+                ],
+                [
+                  "Overgedragen verlies",
+                  "-4.000,00"
+                ],
+                [
+                  "Schulden op minder dan een jaar",
+                  "22.000,00"
+                ],
+                [
+                  "Totaal passiva",
+                  "24.000,00"
+                ]
+              ]
+            },
+            "type": "balans"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 150000,
+                "label": "Handelsgoederen (kost)"
+              },
+              {
+                "bedrag": 48000,
+                "label": "Diensten en diverse goederen"
+              },
+              {
+                "bedrag": 250,
+                "label": "Afschrijvingen"
+              },
+              {
+                "bedrag": 650,
+                "label": "Overige bedrijfskosten"
+              },
+              {
+                "bedrag": 1000,
+                "label": "Financiële kosten"
+              },
+              {
+                "bedrag": 200000,
+                "label": "Verkopen"
+              },
+              {
+                "bedrag": 250,
+                "label": "Overige bedrijfsopbrengsten"
+              },
+              {
+                "bedrag": 300,
+                "label": "Financiële opbrengsten"
+              },
+              {
+                "bedrag": 650,
+                "label": "Winst van het boekjaar"
+              }
+            ],
+            "titel": "Resultatenrekening",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Vennootschapsrecht'. De balans en resultatenrekening zijn gereconstrueerd uit de tekst. Enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "alarmbelprocedure",
+          "bvba",
+          "netto-actief",
+          "ontbinding",
+          "kapitaalverlies",
+          "vennootschapsrecht",
+          "bijeenroeping algemene vergadering"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr20",
+        "vraag_onderwerp": "Alarmbelprocedure bvba: advies bij verlies dat geplaatst kapitaal aantast",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De toestand lijkt in orde. Er zijn geen bijkomende formaliteiten te vervullen."
+              },
+              {
+                "id": "b",
+                "tekst": "Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te beslissen over de eventuele ontbinding en om eventueel andere maatregelen te nemen. En dit vóór 11 juni 2015."
+              },
+              {
+                "id": "c",
+                "tekst": "Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste minimum van 6.200,00 EUR te brengen."
+              },
+              {
+                "id": "d",
+                "tekst": "Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste minimum van 18.550,00 EUR te brengen."
+              },
+              {
+                "id": "e",
+                "tekst": "Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te beslissen over de eventuele ontbinding en om eventueel andere maatregelen te nemen. En dit vóór 31 juli 2015."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat kunt u de heer DUPONT, op basis van deze gegevens, adviseren?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr20 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr20"
+      },
+      "vraag_id": "2015-1-vr20"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Eigen vermogen bvba: geplaatst kapitaal 18.550 EUR, wettelijke reserve 1.855 EUR, overgedragen winst 15.000 EUR. Zaakvoerder wenst omzetting naar nv. Heeft een rekening-courant met creditstand van 50.000 EUR (post 48 'andere schulden'). Accountant deelt mee dat omzetting in huidige stand niet mogelijk is. Cliënt meent dat het toch mogelijk moet zijn.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Vennootschapsrecht'. Enkelvoudige MC-vraag met 5 opties.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "omzetting vennootschap",
+          "bvba naar nv",
+          "kapitaalverhoging",
+          "minimum kapitaal",
+          "rekening-courant",
+          "vennootschapsrecht",
+          "notariële akte"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr21",
+        "vraag_onderwerp": "Omzetting bvba naar nv: vereisten en mogelijkheden voor kapitaalverhoging",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Een kapitaalverhoging doorvoeren in geld bij een notariële akte waarbij ook de rechtsvorm wordt gewijzigd."
+              },
+              {
+                "id": "b",
+                "tekst": "Een deel van de rekening-courant als kapitaalverhoging opnemen mits een verslag van de accountant."
+              },
+              {
+                "id": "c",
+                "tekst": "De accountant kan de gehele opdracht op zich nemen om deze omzetting mogelijk te maken en door te voeren."
+              },
+              {
+                "id": "d",
+                "tekst": "Met het oog op de akte tot verhoging van het kapitaal heeft de notaris enkel een boekhoudkundige staat die maximum drie maanden oud is en een controleverslag nodig; er zijn geen andere stukken noch formaliteiten vereist."
+              },
+              {
+                "id": "e",
+                "tekst": "Bij de omzetting van bvba naar nv bedraagt het minimum geplaatst kapitaal wel degelijk 61.500 EUR, maar het mag volgestort worden tot beloop van slechts 1/3."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke mogelijkheid laat toe om de omzetting van bvba naar nv door te voeren?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr21 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr21"
+      },
+      "vraag_id": "2015-1-vr21"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Zaakvoerder van bvba 'De Toekomst' (55% aandelen) overhandigt op 25 januari 2014 de financiële staten per 31/12/2013. Eigen vermogen: geplaatst kapitaal 18.600 EUR, wettelijke reserve 1.860 EUR, beschikbare reserve 100.000 EUR, overgedragen verlies -128.830 EUR. Netto eigen vermogen = -8.370 EUR (negatief).",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Vennootschapsrecht'. Enkelvoudige MC-vraag met 5 opties. Het netto eigen vermogen is negatief (18.600 + 1.860 + 100.000 - 128.830 = -8.370 EUR), wat de alarmbelprocedure triggert.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "alarmbelprocedure",
+          "bvba",
+          "netto-actief",
+          "eigen vermogen",
+          "bijzondere algemene vergadering",
+          "ontbinding",
+          "vennootschapsrecht"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr22",
+        "vraag_onderwerp": "Alarmbelprocedure bvba: verplichtingen zaakvoerder bij ernstig verlies",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Een buitengewone algemene vergadering bijeenroepen binnen de maand."
+              },
+              {
+                "id": "b",
+                "tekst": "Niets doen."
+              },
+              {
+                "id": "c",
+                "tekst": "De volgende algemene vergadering afwachten en de invereffeningstelling van de bvba voorstellen."
+              },
+              {
+                "id": "d",
+                "tekst": "Een bijzondere algemene vergadering bijeenroepen voor 25 maart om te beraadslagen en te besluiten over de ontbinding van de vennootschap en andere te nemen maatregelen."
+              },
+              {
+                "id": "e",
+                "tekst": "De vennoten verplichten om het kapitaal van de vennootschap te verhogen door inbrengen in geld."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke opgesomde acties zijn correct als verplichtingen van de zaakvoerder ten aanzien van deze toestand?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr22 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr22"
+      },
+      "vraag_id": "2015-1-vr22"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De raad van bestuur van nv 'Option for the Future' (boekjaar afsluit op 31/12) roept de gewone algemene vergadering te laat bijeen: datum vastgesteld op 20/07/2014. De gedelegeerd bestuurder vraagt de externe accountant of de laattijdigheid gevolgen teweegbrengt.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 4 van de sectie 'Vennootschapsrecht'. 4-optie MC-vraag (A-D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "algemene vergadering",
+          "nv",
+          "laattijdige bijeenroeping",
+          "aansprakelijkheid bestuurders",
+          "vennootschapsrecht",
+          "jaarrekening goedkeuring"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr23",
+        "vraag_onderwerp": "Gevolgen laattijdige bijeenroeping gewone algemene vergadering nv",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Geen probleem, aangezien de rekeningen toch door de gewone algemene vergadering zullen worden goedgekeurd."
+              },
+              {
+                "id": "b",
+                "tekst": "De jaarrekening moet binnen zes maanden na afsluiting van het boekjaar ter goedkeuring aan de algemene vergadering worden voorgelegd, zo niet zal de door derden geleden schade, behoudens tegenbewijs, geacht worden voort te vloeien uit dit verzuim."
+              },
+              {
+                "id": "c",
+                "tekst": "Aangezien de jaarrekening niet afgewerkt was, was het niet mogelijk om de algemene vergadering bijeen te roepen en stelt dit dus geen enkel probleem."
+              },
+              {
+                "id": "d",
+                "tekst": "De Nationale Bank van België zal een boete opleggen wegens de laattijdige bijeenroeping van de gewone algemene vergadering."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk onderstaand antwoord is juist over de gevolgen van de laattijdige bijeenroeping?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr23 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr23"
+      },
+      "vraag_id": "2015-1-vr23"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De heer POULAIN, enig vennoot en zaakvoerder van bvba 'LE BON' (opgericht 16 november 2013) wenst het kapitaal van 20.000 EUR met 10.000 EUR te verhogen via inbreng van aandelen van nv CHARTER (verkregen 2 weken eerder, gewaardeerd op 10.000 EUR, geen herwaardering). Hij beschikt over een bijzonder verslag van het bestuursorgaan.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 5 van de sectie 'Vennootschapsrecht'. Enkelvoudige MC-vraag met 5 opties.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "kapitaalverhoging",
+          "inbreng in natura",
+          "bedrijfsrevisor",
+          "bijzonder verslag",
+          "bvba",
+          "vennootschapsrecht",
+          "aandelen als inbreng"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr24",
+        "vraag_onderwerp": "Kapitaalverhoging in natura bvba: vereiste verslagen bij inbreng aandelen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Dat de verrichting niet kan doorgevoerd worden op basis van de bekomen gegevens."
+              },
+              {
+                "id": "b",
+                "tekst": "Dat hij noodzakelijk in het bezit moet zijn van een verslag van een bedrijfsrevisor, indien de vennootschap geen commissaris-revisor heeft. Dit verslag vermeldt de naam van de eigenaar van het goed dat de vennootschap wil verkrijgen, de beschrijving van dit goed, de vergoeding die werkelijk als tegenprestatie voor de verkrijging wordt verstrekt en de toegepaste waarderingsmethoden. Het geeft aan of de waarden waartoe deze waarderingsmethoden leiden, tenminste gelijk zijn aan de als tegenprestatie verstrekte vergoeding."
+              },
+              {
+                "id": "c",
+                "tekst": "Dat hij in het bezit moet zijn van een attest van de FSMA, met vermelding van de oorsprong van de eigendom van de aandelen, de waarde op de datum van verkrijging en de evolutie ervan over de 3 voorgaande jaren."
+              },
+              {
+                "id": "d",
+                "tekst": "Dat hij een verklaring moet opstellen met vermelding van de beschrijving van de inbreng, de naam van de eigenaar, de waarde en de herkomst van deze waardering en de verstrekte tegenprestatie en een attest dat er zich geen nieuwe omstandigheden hebben voorgedaan ten opzichte van de oorspronkelijke waardering."
+              },
+              {
+                "id": "e",
+                "tekst": "Dat het door het bestuursorgaan opgesteld bijzonder verslag volstaat en dat hij het aan de notaris moet bezorgen die de kapitaalverhoging zal vaststellen zoals bepaald bij artikel 75 van het Wetboek van vennootschappen."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat adviseert u hem?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr24 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr24"
+      },
+      "vraag_id": "2015-1-vr24"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Vennootschapsrecht (bijzondere mandaten)'. Enkelvoudige open vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "omzetting vennootschap",
+          "bijzondere mandaten",
+          "externe accountant",
+          "controleverslag",
+          "staat van activa en passiva",
+          "vennootschapsrecht"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr25",
+        "vraag_onderwerp": "Doelstelling specifieke opdracht externe accountant bij omzetting vennootschap",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is of zijn de doelstelling(en) van de specifieke opdracht van de externe accountant bij de omzetting van een vennootschap?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr25 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr25"
+      },
+      "vraag_id": "2015-1-vr25"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Vennootschapsrecht (bijzondere mandaten)'. Zes open deelvragen over specifieke norm-bepalingen bij voorstel tot ontbinding.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "ontbinding vennootschap",
+          "norm IAB",
+          "staat van activa en passiva",
+          "alarmbelprocedure",
+          "boekhoudkundige staat",
+          "termijnen",
+          "bijzondere mandaten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr26",
+        "vraag_onderwerp": "Norm inzake controle bij voorstel tot ontbinding: specifieke gevallen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe wordt in de staat van activa en passiva het resultaat van de lopende, nog niet afgesloten periode vermeld?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Het bestuursorgaan stelt de staat van activa en passiva enkel op in discontinuïteit. Wat moet de beroepsbeoefenaar in overweging nemen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat dient er te gebeuren met latente schulden (bv. vergoeding wegens contractbreuk) die niet in de staat van activa en passiva zijn opgenomen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat gebeurt er met de termijn van drie maand indien een bijeenroeping van een tweede algemene vergadering nodig is wegens het niet bereiken van het aanwezigheidsquorum?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "e",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Het voorstel tot ontbinding is het gevolg van de toepassing van de alarmbelprocedure. Heeft dit enig gevolg voor de termijnen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "f",
+            "label_in_pdf": "f",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De beroepsbeoefenaar stelt in de loop van zijn controlewerkzaamheden een inbreuk vast op de boekhoudreglementering in verband met de opstelling van de boekhoudkundige staat. Wat dient de beroepsbeoefenaar te doen, moet er voorbehoud gemaakt worden of een onthouding?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr26 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr26"
+      },
+      "vraag_id": "2015-1-vr26"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Externe accountant krijgt opdracht voor verslag over boekhoudkundige staat van activa en passiva bij omzetting NV Salami naar BVBA Salami. KMO-vennootschap, voornamelijk levensmiddelen invoer uit Italië.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Vennootschapsrecht (bijzondere mandaten)'. Negen ja/nee-stellingen over de werkzaamheden van de externe accountant bij omzetting.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "omzetting vennootschap",
+          "staat van activa en passiva",
+          "externe accountant",
+          "controleverslag",
+          "werkzaamheden",
+          "bijzondere mandaten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr27",
+        "vraag_onderwerp": "Opdracht externe accountant bij omzetting NV naar BVBA: juist/fout stellingen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant moet de volledige identiteit van de leden van het bestuursorgaan opvragen.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant moet in zijn verslag een beoordeling van de administratieve en boekhoudkundige organisatie van de vennootschap vermelden.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant hanteert een risico-analyse om te beoordelen waar de zwakke punten van de interne procedure in de onderneming gesitueerd zijn.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant moet zijn werkdossier door de raad van bestuur laten ondertekenen.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "e",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant moet de door het bestuursorgaan opgestelde staat van activa en passiva herwerken tot een nieuwe staat na zijn controlewerkzaamheden, alvorens deze ondertekend aan de notaris over te maken.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "f",
+            "label_in_pdf": "f",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant moet een bijkomende aansprakelijkheidsverzekering afsluiten om zijn aansprakelijkheid ingevolge zijn verslag in te dekken.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "g",
+            "label_in_pdf": "g",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant zal een nazicht doen of de waarderingsregels correct zijn toegepast.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "h",
+            "label_in_pdf": "h",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant moet altijd een voorbehoud maken als de klantenconfirmaties niet werden verstuurd.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "i",
+            "label_in_pdf": "i",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant moet akkoord hebben van de aandeelhouders alvorens zijn opdracht aan te vangen.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr27 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr27"
+      },
+      "vraag_id": "2015-1-vr27"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Personenbelasting' (aanslagjaar 2014 – inkomsten 2013). Enkelvoudige MC-vraag met 5 opties, kandidaat identificeert de ONJUISTE uitspraak.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "beroepsverliezen",
+          "personenbelasting",
+          "verliesoverdracht",
+          "huwelijksquotiënt",
+          "meewerkinkomen",
+          "aftrek beroepskosten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr28",
+        "vraag_onderwerp": "Beroepsverliezen personenbelasting: onjuiste uitspraken identificeren",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Wanneer in een welbepaalde beroepswerkzaamheid, na aftrek van de beroepskosten, een verlies overblijft, wordt dat eerst afgetrokken van de beroepsinkomsten die dezelfde belastingplichtige tijdens hetzelfde belastbare tijdperk uit andere beroepswerkzaamheden heeft verkregen."
+              },
+              {
+                "id": "b",
+                "tekst": "De aftrek van een beroepsverlies wordt eerst proportioneel toegerekend aan de gezamenlijk belaste beroepsinkomsten en het saldo wordt vervolgens proportioneel verdeeld over de afzonderlijk belaste beroepsinkomsten."
+              },
+              {
+                "id": "c",
+                "tekst": "Wanneer de positieve beroepsinkomsten van een belastingplichtige ontoereikend zijn om de beroepsverliezen van de huidige en de vorige belastbare tijdperken aan te zuiveren, wordt het saldo toegerekend aan de positieve beroepsinkomsten van de andere echtgenoot, behalve wanneer de echtgenoten gehuwd zijn onder het stelsel van scheiding van goederen."
+              },
+              {
+                "id": "d",
+                "tekst": "Wanneer alle mogelijkheden om de beroepsverliezen aan te rekenen uitgeput zijn voor een belastbaar tijdperk, wordt het saldo overgedragen naar het volgende jaar en afgetrokken van de positieve beroepsinkomsten van dat jaar."
+              },
+              {
+                "id": "e",
+                "tekst": "Indien de echtgenoot waaraan een huwelijksquotiënt wordt toegekend al een meewerkinkomen ontvangt dat geheel of volledig opgeslorpt wordt door de aanzuivering van beroepsverliezen, moet het huwelijksquotiënt worden verminderd met de beroepsverliezen die aan het meewerkinkomen werden toegerekend."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Beroepsverliezen. Geef aan welke van onderstaande uitspraken ONJUIST is.",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr28 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr28"
+      },
+      "vraag_id": "2015-1-vr28"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een belastingplichtige is eigenaar van een in het buitenland gelegen onroerend goed (geen eigen woning, in het desbetreffende land geen theoretische huurwaarde). Aanslagjaar 2014.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Personenbelasting'. Enkelvoudige MC-vraag met 5 opties, kandidaat kiest de JUISTE uitspraak.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "buitenlands onroerend goed",
+          "personenbelasting",
+          "huurwaarde",
+          "dubbelbelastingverdrag",
+          "aangifte",
+          "onroerende inkomsten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr29",
+        "vraag_onderwerp": "Aangifte buitenlands onroerend goed personenbelasting: juiste uitspraak",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Het bedrag dat in de aangifte moet worden vermeld, wordt berekend volgens de volgende formule: de huurwaarde, verminderd met de buitenlandse belastingen die werkelijk de inkomsten van het goed in kwestie hebben bezwaard. Het aldus bekomen bedrag mag nog verminderd worden met een forfait van 40% dat geacht wordt de verschillende kosten, zoals verzekeringen, herstellingen enz., te dekken."
+              },
+              {
+                "id": "b",
+                "tekst": "Indien het onroerend goed niet wordt verhuurd, komt de huurwaarde in principe overeen met de gemiddelde jaarlijkse huuropbrengst die het onroerend goed tijdens het vorige jaar had kunnen opbrengen, wanneer het verhuurd zou geweest zijn. Deze huurwaarde omvat zowel de eigenlijke huur als de huurvoordelen."
+              },
+              {
+                "id": "c",
+                "tekst": "Indien het onroerend goed verhuurd is voor beroepsdoeleinden, is het aan te geven bedrag het hoogste van: ofwel de brutohuur, vermeerderd met de huurvoordelen en verminderd met de buitenlandse belastingen die deze goederen hebben bezwaard, ofwel de brutohuur x 2/3 x de revalorisatiecoëfficiënt (4,19 voor het aanslagjaar 2014)."
+              },
+              {
+                "id": "d",
+                "tekst": "Indien het in het buitenland gelegen goed niet door de belastingplichtige werd betrokken, noch door de belastingplichtige werd verhuurd, moet er dus niets vermeld worden in de belastingaangifte."
+              },
+              {
+                "id": "e",
+                "tekst": "De inkomsten van onroerende goederen gelegen in een land waarmee België geen dubbelbelastingverdrag heeft gesloten, zijn in België belastbaar, maar slechts tot beloop van 50% van het bedrag ervan."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke van onderstaande uitspraken is JUIST?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr29 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr29"
+      },
+      "vraag_id": "2015-1-vr29"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap XYZ heeft een machine verkocht aan een klant voor 121.000,00 EUR incl. 21% btw op 1 juli 2012. Betaling na drie jaar, rente 8% zesmaandelijks. Vordering op rekening 290000 'Handelsdebiteuren op meer dan één jaar'. Op 15/07/2013 worden financiële moeilijkheden van de klant bekend en vraagt de klant het faillissement aan.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Zelfde OCR-patroon als vr2: de opties A-E worden door pdfplumber als aparte subvragen weergegeven met de volledige casus-tekst herhaald. Dit is één enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "vorderingen op lange termijn",
+          "dubieuze vorderingen",
+          "waardevermindering",
+          "rente op vorderingen",
+          "faillissement klant",
+          "overboeking vorderingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr3",
+        "vraag_onderwerp": "Boekhoudkundige behandeling dubieuze vordering op meer dan één jaar bij faillissement klant",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De vennootschap boekt een waardevermindering op de vordering."
+              },
+              {
+                "id": "b",
+                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering."
+              },
+              {
+                "id": "c",
+                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente."
+              },
+              {
+                "id": "d",
+                "tekst": "De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de nog verschuldigde rente die nog niet tot uiting was gebracht dienen uit te drukken. Zij boekt een waardevermindering voor de vordering en de rente."
+              },
+              {
+                "id": "e",
+                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente. Zij vermeldt in haar jaarrekening dat de inning onzeker is."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat zal de onderneming met de vordering op meer dan één jaar in haar boekhouding doen?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr3 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr3"
+      },
+      "vraag_id": "2015-1-vr3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Personenbelasting'. Enkelvoudige MC-vraag met 5 opties, kandidaat identificeert de ONJUISTE uitspraak.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "belastingverminderingen",
+          "aftrekbare bestedingen",
+          "kinderoppas",
+          "onderhoudsuitkeringen",
+          "giften",
+          "pensioensparen",
+          "dienstencheques",
+          "personenbelasting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr30",
+        "vraag_onderwerp": "Aftrekbare bestedingen en belastingverminderingen personenbelasting: onjuiste uitspraak",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De kosten voor kinderoppas zijn sinds het aanslagjaar 2013 geen aftrekbare bestedingen meer. Die kosten geven sinds het aanslagjaar 2013 daarentegen recht op een belastingvermindering. Indien die belastingvermindering meer bedraagt dan het bedrag van de verschuldigde belasting, wordt het bedrag in meer omgezet in een terugbetaalbaar belastingkrediet."
+              },
+              {
+                "id": "b",
+                "tekst": "Wanneer een gemeenschappelijke aanslag wordt gevestigd, worden de onderhoudsuitkeringen die door één echtgenoot persoonlijk verschuldigd zijn, bij voorrang aangerekend op het totale netto-inkomen van die echtgenoot en het eventuele saldo wordt op het totale netto-inkomen van de andere echtgenoot aangerekend."
+              },
+              {
+                "id": "c",
+                "tekst": "De door iedere echtgenoot werkelijk gedane giften worden opgeteld en het totaalbedrag ervan geeft recht op een belastingvermindering van 45%. De belastingvermindering wordt evenredig omgedeeld in functie van het belastbare inkomen van elk der echtgenoten ten opzichte van de som van het belastbare inkomen van de beide echtgenoten."
+              },
+              {
+                "id": "d",
+                "tekst": "Een belastingplichtige kan voor hetzelfde tijdperk de vermindering voor pensioensparen niet samen verkrijgen met de vermindering voor verwerving van werkgeversaandelen."
+              },
+              {
+                "id": "e",
+                "tekst": "Iedere echtgenoot moet het bedrag van zijn betalingen voor de aankoop van dienstencheques vermelden. In geval van een gemeenschappelijke aanslag wordt de belastingvermindering voor dienstencheques evenredig omgedeeld in functie van het belastbaar inkomen van elk der echtgenoten ten opzichte van de som van de belastbare inkomsten van de beide echtgenoten."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef aan welke uitspraak ONJUIST is, met betrekking tot de aftrekbare bestedingen en de uitgaven die recht geven op een belastingvermindering.",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr30 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr30"
+      },
+      "vraag_id": "2015-1-vr30"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vrijstellingen van economische aard: aftrek voor bijkomend personeel tewerkgesteld in de uitvoer en de integrale kwaliteitszorg, aftrek voor ander bijkomend personeel, aftrek voor stage in de onderneming, investeringsaftrek.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 4 van de sectie 'Personenbelasting'. Enkelvoudige MC-vraag met 5 opties, kandidaat identificeert de ONJUISTE uitspraak.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "investeringsaftrek",
+          "vrijstellingen economische aard",
+          "bijkomend personeel",
+          "stage in onderneming",
+          "gespreide investeringsaftrek",
+          "personenbelasting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr31",
+        "vraag_onderwerp": "Vrijstellingen van economische aard personenbelasting: onjuiste uitspraak",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Deze vrijstellingen kunnen toegepast worden ongeacht de belastingplichtige een vereenvoudigde dan wel een dubbele boekhouding voert. De aftrek van deze economische vrijstellingen is beperkt tot de resterende winst na aftrek van de beroepskosten (ze kunnen dus geen verlies tot gevolg hebben). Bij gebrek aan toereikende nettowinst is het niet-afgetrokken gedeelte van de drie eerste vrijstellingen van economische aard definitief verloren."
+              },
+              {
+                "id": "b",
+                "tekst": "De vrijstelling voor ander bijkomend personeel wordt teruggenomen wanneer het totaal gemiddeld personeelsbestand tijdens het volgende jaar daalt. Om een definitief recht op de vrijstelling te verwerven, moet de tewerkstelling dus gedurende 2 jaar behouden blijven: het jaar waarvoor de toekenning wordt toegekend en het volgende jaar. Indien dit niet het geval is, moet de vrijstelling opnieuw in de belastbare winst worden opgenomen. De toegekende vrijstelling wordt echter niet teruggenomen wanneer in het jaar na dat waarin de vrijstelling werd toegekend een loonsverhoging wordt doorgevoerd die een overschrijding tot gevolg heeft van het maximumloon dat toegelaten is om voor de vrijstelling in aanmerking te komen."
+              },
+              {
+                "id": "c",
+                "tekst": "Vrijstelling voor stage in de onderneming: de netto winst of baten van de werkgever worden vrijgesteld ten belope van 20% (40% vanaf 01/01/2014) van de als beroepskosten afgetrokken bezoldigingen, betaald voor de door de stagiair in het kader van zijn praktische opleiding geleverde prestaties in het jaar waarin de werkgever een stagebonus heeft bekomen."
+              },
+              {
+                "id": "d",
+                "tekst": "Investeringsaftrek: de vaste activa waarvan het recht van gebruik overgedragen is aan een derde, zijn uit de investeringsaftrek gesloten. De wijze waarop dit recht is overgedragen, is niet van belang (verhuurd of kosteloos). Deze uitsluiting is niet van toepassing wanneer het recht van gebruik is overgedragen aan een andere natuurlijke persoon die deze vaste activa gebruikt om winst of baten te verwezenlijken en dit recht van gebruik, op zijn beurt, niet geheel of ten dele aan een derde overdraagt."
+              },
+              {
+                "id": "e",
+                "tekst": "Gespreide investeringsaftrek: indien de onderneming op de eerste dag van het belastbare tijdperk waarin de activa zijn aangeschaft of tot stand gebracht minder dan 20 werknemers tewerkstelt, kan zij opteren voor de gespreide investeringsaftrek. Die aftrek wordt berekend door de op de betrokken investering fiscaal aanvaarde afschrijvingen met een bepaald percentage te vermenigvuldigen. Dit percentage is afhankelijk van het kalenderjaar waarin de investering is gedaan en blijft de hele afschrijvingsduur onveranderd, ongeacht het percentage voor de volgende jaren."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke van onderstaande uitspraken is ONJUIST?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr31 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr31"
+      },
+      "vraag_id": "2015-1-vr31"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 5 van de sectie 'Personenbelasting'. Enkelvoudige MC-vraag met 5 opties, kandidaat identificeert de ONJUISTE uitspraak.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "roerende inkomsten",
+          "roerende voorheffing",
+          "spaarrekening",
+          "auteursrechten",
+          "personenbelasting",
+          "woonstaatheffing"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr32",
+        "vraag_onderwerp": "Belasting roerende inkomsten personenbelasting: onjuiste uitspraak",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Bij een niet-gereglementeerde spaarrekening moet op de volledige interestopbrengst een roerende voorheffing van 25% worden betaald."
+              },
+              {
+                "id": "b",
+                "tekst": "De eerste schijf (tot 56.450 EUR) van de inkomsten als auteursrechten, en die kunnen beschouwd worden als roerende inkomsten, is onderworpen aan het tarief van 25%."
+              },
+              {
+                "id": "c",
+                "tekst": "De aangegeven roerende inkomsten worden, naargelang het geval, ofwel afzonderlijk belast tegen een aanslagvoet die overeenstemt met het tarief van de roerende voorheffing, ofwel met de andere inkomsten samengevoegd, indien dit voor de belastingplichtige voordeliger uitkomt."
+              },
+              {
+                "id": "d",
+                "tekst": "De ingehouden roerende voorheffing wordt verrekend noch teruggegeven indien de belastingplichtige beroepsinkomsten verkrijgt die bij overeenkomst zijn vrijgesteld en niet in aanmerking komen voor de berekening van de belasting op zijn andere inkomsten."
+              },
+              {
+                "id": "e",
+                "tekst": "Het aan te geven bedrag is het werkelijk geïnd bedrag, vóór aftrek van de innings- en bewaringskosten, maar na inhouding van de roerende voorheffing en, in voorkomend geval, vóór inhouding van de woonstaatheffing."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef aan welke van onderstaande uitspraken ONJUIST is, met betrekking tot de belasting van de roerende inkomsten.",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr32 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr32"
+      },
+      "vraag_id": "2015-1-vr32"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap ABC heeft een beleggingsportefeuille. Resultaat boekjaar 22.150 EUR: verkoop beleggingen 25.000 EUR, aankoopkosten 1.200 EUR, verkoopkosten 1.650 EUR. Geen andere kosten en opbrengsten. Vennootschap voldoet aan criteria art. 15 W.Venn. Fiscaal overgedragen verlies van 10.000 EUR van aanslagjaar 2013. Geen recht op notionele intrestaftrek. Niet voldaan aan voorwaarden verlaagd tarief. Aanslagjaar 2014.",
+            "type": "casus_context"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": null,
+                "label": "Aandelen ING: aanschaf 15/02/2011, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 13.000, verkoopkosten 250"
+              },
+              {
+                "bedrag": null,
+                "label": "Obligaties X: aanschaf 31/01/2013, aanschaffingswaarde 100.000, aankoopkosten 1.000, verkoop 15/05/2013 voor 120.000, verkoopkosten 1.200"
+              },
+              {
+                "bedrag": null,
+                "label": "Aandelen BNP Paribas: aanschaf 31/01/2013, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 12.000, verkoopkosten 200"
+              }
+            ],
+            "titel": "Beleggingsportefeuille per 31 december 2013",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Vennootschapsbelasting'. Twee open berekeningsvragen. Deelvraag b vraagt expliciet een tabel van tarieven × belastbare bedragen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "vennootschapsbelasting",
+          "belastbaar resultaat",
+          "DBI-aftrek",
+          "verlaagd tarief",
+          "fiscaal overgedragen verlies",
+          "meerwaarden effecten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr33",
+        "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bepaal het belastbare resultaat voor aanslagjaar 2014. De vennootschap heeft geen recht op notionele intrestaftrek.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef op welke tarieven van toepassing zijn EN op welk bedrag van het belastbare resultaat. Kies voor de meest voordelige verdeling. De vennootschap voldoet niet aan de voorwaarden voor verlaagd tarief.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr33 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr33"
+      },
+      "vraag_id": "2015-1-vr33"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap ABC realiseert in belastbaar tijdperk 2013 een fiscale winst (1ste bewerking) van 500.000 EUR. Rechten: DBI-aftrek 480.000 EUR, notionele intrestaftrek 200.000 EUR, investeringsaftrek 20.000 EUR. De fiscus bewijst dat de vennootschap handelsgoederen kocht bij een verbonden bedrijf tegen een prijs die 50.000 EUR beneden de normale marktprijs ligt. Aanslagjaar 2014.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Vennootschapsbelasting'. De tekst.txt heeft twee deelvragen (a en b), maar b is 'Geef een korte verklaring' — een pure motivatie-instructie bij a. Geïntegreerd via motivatie_verwacht: true.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "abnormale voordelen",
+          "DBI-aftrek",
+          "notionele intrestaftrek",
+          "investeringsaftrek",
+          "belastbare winst",
+          "vennootschapsbelasting",
+          "transfer pricing"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr34",
+        "vraag_onderwerp": "Vennootschapsbelasting: abnormale voordelen en impact op belastbare winst",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoeveel bedraagt de belastbare winst?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr34 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr34"
+      },
+      "vraag_id": "2015-1-vr34"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "BVBA ABC met enige bedrijfsleider. Gegevens: periodieke bezoldiging 2013: 24.000 EUR; tantième toegekend op AV 13/04/2014: 10.000 EUR; lening bedrijfsleider + partner: 100.000 EUR aan 4% (marktconform), betaalde intrest 2013: 4.000 EUR; verhuur privé villa (KI 2.500, onverdeeldheid 50/50) aan BVBA: 2.000 EUR/maand; voordeel alle aard bedrijfswagen: 2.852,40 EUR (forfaitair), aangerekend via rekening-courant (geboekt op 416 R/C Bedrijfsleider debet en 743/451 credit). Belastbaar resultaat > 36.000 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Vennootschapsbelasting'. Open berekeningsvraag met expliciet gevraagde commentaar (motivatie_verwacht: true). De complexe gegevens zijn in de casus_context weergegeven.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "verlaagd tarief vennootschapsbelasting",
+          "bedrijfsleidersbezoldiging",
+          "tantième",
+          "rekening-courant",
+          "voordeel alle aard",
+          "huur privévastgoed",
+          "vennootschapsbelasting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr35",
+        "vraag_onderwerp": "Vennootschapsbelasting: aanspraak op verlaagd basistarief via bedrijfsleidersbezoldiging",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Kan BVBA ABC aanspraak maken op het verminderd basistarief, in de veronderstelling dat alle andere voorwaarden zijn voldaan en het belastbaar resultaat meer bedraagt dan 36.000,00 EUR? Doe de nodige berekeningen en geef enige commentaar.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr35 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr35"
+      },
+      "vraag_id": "2015-1-vr35"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Cliënt eigenaar van woning in Brussels Hoofdstedelijk Gewest. Grond aangekocht in 2006 voor 200.000 EUR (alle kosten inbegrepen). Bouw gestart in 2011, totale kostprijs 363.000 EUR (300.000 + 63.000 btw). Eerste ingebruikname: 1 juni 2013. Koper biedt 650.000 EUR inclusief alle belastingen. Notariskosten buiten beschouwing te laten.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Belasting over de toegevoegde waarde'. Enkelvoudige MC-vraag met 5 opties. Kandidaat kiest meest voordelige mogelijkheid voor de verkoper.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "btw nieuwbouw",
+          "toevallige btw-belastingplichtige",
+          "registratierechten",
+          "verkoop woning",
+          "btw aftrek",
+          "Brussel"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr36",
+        "vraag_onderwerp": "BTW bij verkoop nieuwbouw: vergelijking BTW-stelsel vs. registratierecht",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De verkoper kan opteren als toevallige btw-belastingplichtige, zodanig dat hij de woning+grond onder het btw-stelsel kan verkopen en de btw op de oprichting in aftrek kan brengen. De winst op deze verkoop voor de cliënt zal het hoogst zijn."
+              },
+              {
+                "id": "b",
+                "tekst": "Alhoewel de verkoper kan opteren als toevallige btw-belastingplichtige, is het beter om dit niet te doen en om de verkoop (grond+gebouw) onder Registratierecht te laten doorgaan. De winst op de verkoop onder Registratierecht zal voor de cliënt het hoogst zijn."
+              },
+              {
+                "id": "c",
+                "tekst": "Alhoewel de verkoper kan opteren als toevallige btw-belastingplichtige, is het beter om dit niet te doen en om de verkoop (grond+gebouw) onder Registratierecht te laten doorgaan. De winst op de verkoop onder Registratierecht zal voor de cliënt het hoogst zijn omdat hij ook nog een deel van de vroeger betaalde Registratierechten kan verrekenen."
+              },
+              {
+                "id": "d",
+                "tekst": "Er is geen mogelijkheid meer om de verkoop onder btw te laten plaatsvinden gezien de termijn voor het uitoefenen van de optie voor toevallige btw-belastingplichtige verstreken is."
+              },
+              {
+                "id": "e",
+                "tekst": "De voordeligste situatie is de verkoop van de grond onder Registratierecht te laten plaatsvinden en de verkoop van de woning onder btw mits het uitoefenen van een optie als toevallige btw-belastingplichtige."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is voor uw cliënt de meest voordelige mogelijkheid?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr36 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr36"
+      },
+      "vraag_id": "2015-1-vr36"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Nieuw op te richten vzw met activiteiten: (1) yogalessen en relaxatieoefeningen voor mensen met burn-out; (2) café (geen maaltijden/snacks) uitsluitend open tijdens lessen, niet toegankelijk voor buiten, enkel niet-alcoholische dranken, jaaromzet < 10.000 EUR; (3) verkoop yoga-boeken, geschatte jaaromzet 4.000 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'BTW'. 4-optie MC-vraag (A-D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "btw-vrijstelling",
+          "vzw",
+          "sport",
+          "onderwijs",
+          "gemengde belastingplichtige",
+          "btw-statuut",
+          "artikel 44 WBTW"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr37",
+        "vraag_onderwerp": "BTW-statuut vzw met yoga, café en boekenverkoop",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De vzw kan de vrijstelling van artikel 44, §2, 4° WBTW (onderwijs) inroepen, ook voor de bijkomende activiteiten. Ze heeft dan ook het statuut van vrijgestelde belastingplichtige, ze moet geen periodieke btw-aangiften indienen, maar kan ook geen recht op aftrek uitoefenen."
+              },
+              {
+                "id": "b",
+                "tekst": "De vzw kan geen enkele vrijstelling inroepen, ze is onderworpen aan btw. Ze heeft het statuut van belastingplichtige met recht op aftrek en zal periodieke aangiften moeten indienen."
+              },
+              {
+                "id": "c",
+                "tekst": "De vzw kan de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen, ook voor de bijkomende activiteiten. Ze heeft dan ook het statuut van vrijgestelde belastingplichtige, ze moet geen periodieke btw-aangiften indienen, maar kan ook geen recht op aftrek uitoefenen."
+              },
+              {
+                "id": "d",
+                "tekst": "Voor de yogalessen kan de vzw de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen maar zal voor de bijkomende activiteiten (café en verkoop boeken) btw dienen aan te rekenen. Ze is dus een gemengde belastingplichtige, zal periodieke btw-aangiften indienen en zal gedeeltelijk recht op aftrek kunnen uitoefenen (verhoudingsgetal of werkelijk gebruik)."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is het btw-statuut van de vzw?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr37 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr37"
+      },
+      "vraag_id": "2015-1-vr37"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Uitbater van een lokale supermarkt verbruikt zelf etenswaren die moeilijk verkoopbaar zijn (beschadigde verpakking of vervaldatum nadert). Hij gaat de producten zelf verbruiken in plaats van te verkopen met afslag of te vernietigen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'BTW'. Enkelvoudige MC-vraag met 5 opties.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "btw",
+          "eigen verbruik",
+          "onttrekking voorraad",
+          "maatstaf van heffing",
+          "handelaar",
+          "btw-verplichting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr38",
+        "vraag_onderwerp": "BTW-verplichting bij eigen verbruik van producten door supermarktuitbater",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Neen, eigen verbruik van vervallen producten is toegelaten."
+              },
+              {
+                "id": "b",
+                "tekst": "Ja, hij moet een stuk opmaken aan zichzelf en de btw voldoen op de verkoopprijs van de producten die hij onttrekt uit zijn voorraad."
+              },
+              {
+                "id": "c",
+                "tekst": "Ja, hij moet een stuk opmaken aan zichzelf en de btw voldoen op een verminderde waarde, namelijk de aankoopprijs van de goederen op het moment van de onttrekking en rekening houdend met de staat waarin ze zich bevinden."
+              },
+              {
+                "id": "d",
+                "tekst": "Ja, hij moet de btw die hij oorspronkelijk op de aankoop van de producten heeft afgetrokken terugstorten via een herziening."
+              },
+              {
+                "id": "e",
+                "tekst": "Neen, dit is geen handeling onder bezwarende titel, want hij betaalt niet voor het onttrekken van de producten."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Moet de winkelier de btw regelen?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr38 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr38"
+      },
+      "vraag_id": "2015-1-vr38"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De interne accountant van een Belgische onderneming rijdt maandelijks 2 dagen met zijn bedrijfswagen (Belgische nummerplaat) naar hun filiaal in Parijs om de boekhouding af te sluiten en de Franse btw-aangifte te doen. Hij beschikt over een laptop, gsm en leasewagen van zijn Belgische werkgever.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 4 van de sectie 'BTW'. 4-optie MC-vraag (A-D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "btw",
+          "intracommunautaire overbrenging",
+          "niet-overbrenging",
+          "register niet-overbrengingen",
+          "EU-handel",
+          "tijdelijke overbrenging"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr39",
+        "vraag_onderwerp": "BTW-verplichtingen bij tijdelijke overbrenging van goederen naar EU-lidstaat (niet-overbrenging)",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Ja, het gaat om een overbrenging van goederen van de onderneming naar een andere lidstaat van de EU. De Belgische onderneming moet voor de overbrenging van de wagen, de laptop en de gsm een factuur opmaken aan het Franse filiaal."
+              },
+              {
+                "id": "b",
+                "tekst": "Ja, het gaat om een overbrenging van eigen goederen van de onderneming naar een andere lidstaat van de EU. De Belgische onderneming moet voor deze overbrenging een 'overbrengingsstuk' aan zichzelf opmaken."
+              },
+              {
+                "id": "c",
+                "tekst": "Ja, het gaat echter om een 'niet-overbrenging' van eigen goederen en hiervoor moet geen stuk worden opgemaakt maar wel telkens bij vertrek uit België een inschrijving in het register der niet-overbrengingen. De goederen moeten worden uitgeschreven uit dit register bij de terugkeer ervan naar België."
+              },
+              {
+                "id": "d",
+                "tekst": "Neen, het gaat wel om een 'niet-overbrenging' van eigen goederen en er moet dus geen overbrengingsstuk worden gemaakt en bovendien staat de Administratie toe dat geen inschrijving in het register der niet-overbrengingen moet worden gedaan voor auto's, computers en gsm's."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Zijn er bepaalde btw-verplichtingen te vervullen door de Belgische onderneming i.v.m. de maandelijkse trip naar Parijs?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr39 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr39"
+      },
+      "vraag_id": "2015-1-vr39"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In de boekhouding werd onder rubriek '499 – wachtrekening' een bedrag van 125.000,00 EUR opgenomen met de vermelding 'intercalaire interesten per 31/08/2014 op het investeringskrediet 15-237584-22'.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Optie D is in tekst.txt afgekapt (zonder slot). Uit de context van de andere opties is de strekking duidelijk: 'De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt.' Dit is een 4-optie MC-vraag (A t/m D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "intercalaire interesten",
+          "activering kosten",
+          "vaste activa",
+          "wachtrekening",
+          "boekhoudreglementering"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr4",
+        "vraag_onderwerp": "Boekhoudkundige verwerking intercalaire interesten op investeringskrediet",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen."
+              },
+              {
+                "id": "b",
+                "tekst": "De intercalaire interesten moeten op het actief van de balans worden geboekt."
+              },
+              {
+                "id": "c",
+                "tekst": "De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden geboekt."
+              },
+              {
+                "id": "d",
+                "tekst": "De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke van onderstaande instructies moet u aan de boekhouder geven om dit bedrag correct op te nemen?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr4 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr4"
+      },
+      "vraag_id": "2015-1-vr4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Belgische fabrikant verkoopt badkameraccessoires aan Nederlandse groothandel (geldig NL btw-nummer) met leveringsvoorwaarden franco Duitsland. Nederlandse groothandel verkoopt door aan Duitse groothandel (geldig DE btw-nummer) en vraagt de Belgische leverancier om rechtstreeks naar het magazijn van de Duitse klant te transporteren.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 5 van de sectie 'BTW'. Enkelvoudige MC-vraag met 5 opties. Kandidaat kiest de correcte behandeling voor het driehoeksverkeer-scenario.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "driehoeksverkeer",
+          "intracommunautaire levering",
+          "btw-aangifte",
+          "intracommunautaire opgave",
+          "factuurvermelding",
+          "btw"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr40",
+        "vraag_onderwerp": "BTW bij driehoeksverkeer: factuurvermelding, btw-aangifte en intracommunautaire opgave",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW (of artikel 146 btw Richtlijn 2006/112/EU).' De handeling wordt alleen opgenomen in vak 46 van haar btw-aangifte."
+              },
+              {
+                "id": "b",
+                "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW (of artikel 146 btw Richtlijn 2006/112/EU).' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het NL btw-nummer van de Nederlandse afnemer en de code L (= levering)."
+              },
+              {
+                "id": "c",
+                "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Vrijgestelde intracommunautaire levering artikel 39bis WBTW.' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het DE btw-nummer van de uiteindelijke Duitse afnemer en de code L (=levering)."
+              },
+              {
+                "id": "d",
+                "tekst": "Het gaat om vereenvoudigd driehoeksverkeer, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Driehoeksverkeer, artikel 25 quinquies WBTW, medecontractant aangeduid als schuldenaar, btw verlegd.' De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het DE btw-nummer van de uiteindelijke Duitse afnemer en met vermelding dat het om driehoeksverkeer gaat (code T = triangulaire)."
+              },
+              {
+                "id": "e",
+                "tekst": "Het gaat om een intracommunautaire levering, vrijgesteld van btw. De Belgische onderneming vermeldt op de verkoopfactuur 'Btw verlegd'. De handeling wordt opgenomen in vak 46 van haar btw-aangifte en in haar intracommunautaire opgave met het NL btw-nummer van de Nederlandse afnemer (geen specifieke code)."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat vermeldt de Belgische onderneming op haar verkoopfactuur? In welk vak van de btw-aangifte neemt ze deze handeling op? Zijn er nog andere verplichtingen te vervullen?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr40 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr40"
+      },
+      "vraag_id": "2015-1-vr40"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In een aanslagjaar in de personenbelasting, 5 jaar vóór het huidige aanslagjaar, wenst de administratie onderzoekshandelingen te stellen bij uw cliënt.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Fiscale procedure'. 4-optie MC-vraag (A-D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "onderzoekstermijn",
+          "personenbelasting",
+          "fiscale procedure",
+          "verlengde aanslagtermijn",
+          "fraude"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr41",
+        "vraag_onderwerp": "Fiscale procedure: onderzoekstermijn personenbelasting 5 jaar geleden",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Dat kan de administratie zonder beperking."
+              },
+              {
+                "id": "b",
+                "tekst": "Dat kan de administratie sowieso niet meer."
+              },
+              {
+                "id": "c",
+                "tekst": "Dat kan de administratie mits voorafgaande kennisgeving van de indiciën van fraude aan uw cliënt."
+              },
+              {
+                "id": "d",
+                "tekst": "Dat kan de administratie uitsluitend met het oog op een taxatie tekenen en indiciën."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "U analyseert: wat kan de administratie doen?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr41 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr41"
+      },
+      "vraag_id": "2015-1-vr41"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Cliënt wordt ingelicht dat de administratie 18 maanden geleden van een buitenlandse belastingadministratie (met wie België een dubbelbelastingverdrag heeft gesloten) inlichtingen kreeg die uitwijzen dat uw cliënt in een aanslagjaar vier jaar voor het huidige geen correcte aangifte deed.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Fiscale procedure'. 4-optie MC-vraag (A-D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "taxatietermijn",
+          "internationale informatie-uitwisseling",
+          "dubbelbelastingverdrag",
+          "fiscale procedure",
+          "personenbelasting"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr42",
+        "vraag_onderwerp": "Fiscale procedure: bijzondere taxatietermijn op basis van buitenlandse inlichtingen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Ja, op basis daarvan kan de administratie nog taxeren omdat er een bijzondere taxatietermijn loopt van 24 maanden te rekenen vanaf de datum waarop de Belgische administratie kennis heeft van de resultaten van de controle of het onderzoek."
+              },
+              {
+                "id": "b",
+                "tekst": "Neen, op basis daarvan kan de administratie niet meer taxeren omdat de bijzondere taxatietermijn loopt van 12 maanden te rekenen vanaf de datum waarop de Belgische administratie kennis heeft van de resultaten van de controle of het onderzoek."
+              },
+              {
+                "id": "c",
+                "tekst": "Neen, dat kan niet meer omdat alle taxatietermijnen verstreken zijn."
+              },
+              {
+                "id": "d",
+                "tekst": "Neen, dat kan niet meer omdat de Belgische administratie geen aanslag mag vestigen, nà het verstrijken van de gewone driejarige of de verlengde zevenjarige aanslagtermijn."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "U analyseert: kan de administratie nog taxeren?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr42 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr42"
+      },
+      "vraag_id": "2015-1-vr42"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De administratie vraagt inzage in de bestelbonnen van uw cliënt die een onderneming voert onder vennootschapsvorm.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Fiscale procedure'. 4-optie MC-vraag (A-D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "bewaringsplicht",
+          "voorlegginsgplicht",
+          "bestelbonnen",
+          "boekhouding",
+          "fiscale procedure",
+          "boekhoudwetgeving"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr43",
+        "vraag_onderwerp": "Fiscale procedure: voorleggingsplicht bestelbonnen bij vennootschap",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De administratie kan deze niet opvragen omdat de bewaringsplicht van de boeken en bescheiden enkel beperkt is tot de wettelijk verplichte boeken en bescheiden, en de bestelbons daar geen deel van uitmaken. Zij moeten dus niet worden voorgelegd."
+              },
+              {
+                "id": "b",
+                "tekst": "Deze maken geen deel uit van de boekhouding en moeten niet worden voorgelegd."
+              },
+              {
+                "id": "c",
+                "tekst": "Enkel wanneer zij elektronisch zijn opgesteld, moeten zij worden voorgelegd."
+              },
+              {
+                "id": "d",
+                "tekst": "Deze maken deel uit van de boekhouding en moeten worden voorgelegd."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "U analyseert: moeten de bestelbonnen worden voorgelegd?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr43 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr43"
+      },
+      "vraag_id": "2015-1-vr43"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 4 van de sectie 'Fiscale procedure'. 4-optie MC-vraag (A-D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "dwangbevel",
+          "tenuitvoerlegging",
+          "verzet",
+          "rechtbank eerste aanleg",
+          "fiscale procedure",
+          "invordering"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr44",
+        "vraag_onderwerp": "Fiscale procedure: tenuitvoerlegging dwangbevel stuiten",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Een bezwaarschrift bij de gewestelijke directie."
+              },
+              {
+                "id": "b",
+                "tekst": "Een verzoekschrift, verzet voor de rechtbank van eerste aanleg, fiscale kamer."
+              },
+              {
+                "id": "c",
+                "tekst": "Een beroep bij de bevoegde controledienst."
+              },
+              {
+                "id": "d",
+                "tekst": "Een voorziening bij de Raad van State."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "De tenuitvoerlegging van een dwangbevel kan slechts worden gestuit door:",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr44 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr44"
+      },
+      "vraag_id": "2015-1-vr44"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 5 van de sectie 'Fiscale procedure'. 4-optie MC-vraag (A-D). De opties zijn geschreven als voortbordurende stellingen.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "btw",
+          "onderzoekstermijn",
+          "controletermijn",
+          "fiscale procedure",
+          "verjaringstermijn"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr45",
+        "vraag_onderwerp": "Fiscale procedure: onderzoekstermijn inzake btw",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Dusdanig bestaan er geen specifieke bepalingen inzake controletermijnen, inzake btw, daar die gelijklopen met de specifieke verjaringstermijnen."
+              },
+              {
+                "id": "b",
+                "tekst": "Het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 7 jaar."
+              },
+              {
+                "id": "c",
+                "tekst": "Het voorgaande antwoord is fout, want de onderzoekstermijn inzake btw bedraagt altijd 15 jaar."
+              },
+              {
+                "id": "d",
+                "tekst": "Geen van voorgaande antwoorden is juist."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "De vraag peilt naar de onderzoekstermijn inzake btw. U analyseert:",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr45 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr45"
+      },
+      "vraag_id": "2015-1-vr45"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een echtpaar koopt in september 2014 een huis in het Brussels Hoofdstedelijk Gewest tegen de prijs van 255.000 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Beginselen van registratie- en successierechten'. Enkelvoudige MC-vraag met 5 opties; kandidaat kiest de uitspraak die GEEN recht geeft op vermindering.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "registratierechten",
+          "vermindering eigen woning",
+          "Brussel",
+          "abattement",
+          "eigendomsvoorwaarde",
+          "bewoning"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr46",
+        "vraag_onderwerp": "Registratierechten Brussel: uitsluiting vermindering eigen woning",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Het echtpaar verkrijgt de blote (naakte) eigendom van het goed en het vruchtgebruik zal aangekocht worden door de vennootschap waarvan de echtgenoot bedrijfsleider is. Het echtpaar zal het goed bewonen en zal belast worden op een voordeel van alle aard wegens de kosteloze beschikking over een woning."
+              },
+              {
+                "id": "b",
+                "tekst": "Ten gevolge van een schenking door een oom is de echtgenote reeds eigenaar, in onverdeeldheid met haar broer en haar zus, van een in het Vlaams Gewest gelegen huis."
+              },
+              {
+                "id": "c",
+                "tekst": "De echtgenote wil haar medische praktijk op het gelijkvloers van het gebouw inrichten (zij zal er haar beroepsactiviteit uitoefenen) en het gezin zal de twee hogere verdiepingen betrekken."
+              },
+              {
+                "id": "d",
+                "tekst": "Aangezien het gebouw waarop de koop betrekking heeft momenteel verhuurd wordt tegen een uiterst lonende huurprijs (hoger dan de kost van de hypothecaire lening), beslist het echtpaar om de huurder zijn huurcontract tot einddatum te laten uitdoen, met name tot 31 december 2015."
+              },
+              {
+                "id": "e",
+                "tekst": "Om de duur van de volledige renovatie van hun eigen woning te overbruggen, zullen de ouders van de echtgenote zich ook in deze woning vestigen en wordt deze woning voor tenminste 3 jaar hun domicilie."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Kies uit onderstaande lijst welke uitspraak de kopers GEEN recht geeft op een vermindering van de registratierechten.",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr46 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr46"
+      },
+      "vraag_id": "2015-1-vr46"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Mevrouw Martin, weduwe, overleed op 20 februari 2014. Enige erfgenamen: 3 kinderen. Woonplaats altijd in het Vlaams Gewest, overlijden in het Waals Gewest. In december 2013 had zij een verplichting tot aankoop van 1.000 aandelen van een Belgische vennootschap tegen 17.000 EUR, onderworpen aan een opschortende voorwaarde die op datum van overlijden nog niet vervuld was. De opschortende voorwaarde werd vervuld op 9 juli 2014. Accountant ingeschakeld door de kinderen; ereloon: 2.420 EUR. De kinderen verkochten de aandelen voor 22.500 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Beginselen van registratie- en successierechten'. Drie MC-deelvragen (a, b, c) elk met 3-4 opties.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "successierechten",
+          "nalatenschap",
+          "aangifte",
+          "opschortende voorwaarde",
+          "aandelen",
+          "termijnen",
+          "actief/passief nalatenschap"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr47",
+        "vraag_onderwerp": "Successierechten: aangifte nalatenschap met opschortende voorwaarde",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Dinsdag 22 juli 2014"
+              },
+              {
+                "id": "b",
+                "tekst": "Vrijdag 20 juni 2014"
+              },
+              {
+                "id": "c",
+                "tekst": "Woensdag 20 augustus 2014"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Op welke datum moest de aangifte van nalatenschap worden ingediend?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Actief = 17.000 EUR – geen passief"
+              },
+              {
+                "id": "b",
+                "tekst": "Actief = 22.500 EUR – geen passief"
+              },
+              {
+                "id": "c",
+                "tekst": "Actief = 22.500 EUR – passief = 2.420 EUR"
+              },
+              {
+                "id": "d",
+                "tekst": "Actief = 0 EUR – geen passief"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Vermeld het actief en het passief van de nalatenschap te aan te geven in de aangifte van nalatenschap ingediend binnen de sub a) gestelde termijn.",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Dinsdag 22 juli 2014"
+              },
+              {
+                "id": "b",
+                "tekst": "Woensdag 20 augustus 2014"
+              },
+              {
+                "id": "c",
+                "tekst": "Maandag 22 september 2014"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke is de uiterste datum voor de betaling van de successierechten?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr47 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr47"
+      },
+      "vraag_id": "2015-1-vr47"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Echtpaar koopt blote eigendom van een onroerend goed voor 186.000 EUR; vruchtgebruik wordt voorbehouden door de verkoper (63 jaar). Blote eigenaar: 31 jaar. Verkoopwaarde volledig eigendom: 300.000 EUR. Enige jaren later staat de vruchtgebruiker (74 jaar) het vruchtgebruik af aan de blote eigenaar (42 jaar) voor 250.000 EUR. Verkoopwaarde nog steeds 300.000 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Beginselen van registratie- en successierechten'. Twee MC-deelvragen (a en b) elk met 5 opties. Tekst.txt toont OCR-artefact waarbij optie E van deelvraag a werd weergegeven vóór de tekst van deelvraag b. De structuur is correct gereconstrueerd.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "registratierechten",
+          "blote eigendom",
+          "vruchtgebruik",
+          "belastbare grondslag",
+          "aanwas vruchtgebruik",
+          "consolidatie eigendom"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr48",
+        "vraag_onderwerp": "Registratierechten blote eigendom en vruchtgebruik: belastbare grondslag",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "186.000 EUR"
+              },
+              {
+                "id": "b",
+                "tekst": "16% van 300.000 EUR"
+              },
+              {
+                "id": "c",
+                "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn"
+              },
+              {
+                "id": "d",
+                "tekst": "4 x 16% van 300.000 EUR"
+              },
+              {
+                "id": "e",
+                "tekst": "300.000 EUR"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke waarde zal in aanmerking moeten worden genomen voor de berekening van de registratierechten bij de aankoop van de blote eigendom?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "300.000 EUR"
+              },
+              {
+                "id": "b",
+                "tekst": "250.000 EUR"
+              },
+              {
+                "id": "c",
+                "tekst": "436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote eigendom)"
+              },
+              {
+                "id": "d",
+                "tekst": "Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn"
+              },
+              {
+                "id": "e",
+                "tekst": "300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop van de bij de verkrijging van de blote eigendom betaalde rechten"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke waarde moet in aanmerking worden genomen voor de berekening van de registratierechten bij de overdracht van het vruchtgebruik aan de blote eigenaar?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr48 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr48"
+      },
+      "vraag_id": "2015-1-vr48"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vraag 1 van de sectie 'Beginselen van Europees en internationaal fiscaal recht'. Beantwoord de vragen met 'waar' of 'niet waar' op basis van de OESO-modelovereenkomst naar inkomen en vermogen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Beginselen van Europees en internationaal fiscaal recht'. Zes juist/niet-waar-stellingen over OESO-modelovereenkomst.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "OESO-modelverdrag",
+          "dubbelbelastingverdrag",
+          "inwoner",
+          "vaste inrichting",
+          "pensioen ambtenaar",
+          "onroerende inkomsten",
+          "verrekenprijzen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr49",
+        "vraag_onderwerp": "OESO-modelverdrag: juist/niet waar stellingen over internationale belastingregels",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een natuurlijke persoon die geen dubbele nationaliteit bezit en die door beide overeenkomstsluitende staten bij een overeenkomst tot vermijding van dubbele belasting als inwoner wordt beschouwd, zal in de staat waarvan hij de nationaliteit heeft steeds op zijn wereldinkomen worden belast zonder andere criteria in aanmerking te nemen. Deze persoon bezit de nationaliteit van één van beide hiervoor beoogde overeenkomstsluitende staten.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een pensioen dat door België aan een natuurlijk persoon van Belgische nationaliteit wordt betaald ter zake van een vroegere dienstbetrekking als ambtenaar van een Federale Overheidsdienst zal niet meer in België belastbaar zijn, indien deze natuurlijke persoon inwoner wordt van een land waarmee België een overeenkomst tot voorkoming van dubbele belasting heeft gesloten.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een steengroeve is slechts een vaste inrichting, indien de uitbatingsduur ervan 6 maanden overschrijdt.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De overeenkomsten tot voorkoming van dubbele belasting, die volgens de hierboven bedoelde modelovereenkomst afgesloten zijn, gelden voor de successierechten.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "e",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Voor een natuurlijke persoon die inwoner is van één van de overeenkomstsluitende staten, zijn de onroerende inkomsten verkregen in de andere staat, uitsluitend belastbaar in die andere staat (met name de bronstaat).",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "f",
+            "label_in_pdf": "f",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Als een vaste inrichting van een onderneming, die inwoner is van een andere overeenkomstsluitende staat, een supplement in de inkomstenbelasting wordt opgelegd naar aanleiding van een controle op de verrekenprijzen toegepast op de goederen- of dienstenstromen tussen die vaste inrichting en haar hoofdzetel in de andere overeenkomstsluitende staat, zal er sprake zijn van juridisch dubbele belasting en is dit onvermijdbaar.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr49 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr49"
+      },
+      "vraag_id": "2015-1-vr49"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een vennootschap wenst te investeren in een nieuw productieapparaat. Kosten investering: 80.000 EUR. Mogelijke subsidie: 12.800 EUR, uitbetaald in twee stortingen van 40% en 60% in functie van het investeringsritme.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Zelfde OCR-patroon: opties A-E door pdfplumber als subvragen weergegeven. Dit is één enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "kapitaalsubsidies",
+          "interestsubsidies",
+          "boekhoudkundige verwerking",
+          "rekening 15",
+          "rekening 753",
+          "uitgestelde belastingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr5",
+        "vraag_onderwerp": "Boekhoudkundige verwerking kapitaalsubsidies",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'."
+              },
+              {
+                "id": "b",
+                "tekst": "Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 'Kapitaalsubsidies' en op rekening 1680 'Uitgestelde belastingen op kapitaalsubsidies' en zal daarop behouden blijven zolang het nieuwe productieapparaat niet is gerealiseerd."
+              },
+              {
+                "id": "c",
+                "tekst": "De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'."
+              },
+              {
+                "id": "d",
+                "tekst": "De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed."
+              },
+              {
+                "id": "e",
+                "tekst": "De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "De vennootschap vraagt uw advies over de boekhoudkundige verwerking van de subsidie. Welke optie is correct?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr5 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr5"
+      },
+      "vraag_id": "2015-1-vr5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Ivzw met maatschappelijke zetel in België wenst een caritatieve vzw gevestigd in Spanje (met waardevolle landeigendommen) over te nemen. Na de verrichting: ivzw beschikt naast hoofdzetel in België ook over uitbatingszetel in Spanje. De overname zou in Spanje aanleiding geven tot belastingheffing over meerwaarden op onroerende goederen. Vraag: is toepassing van richtlijn 2009/133/EG mogelijk met vrijstelling van belasting?",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Beginselen van Europees en internationaal fiscaal recht'. Twee delen in de PDF: (a) ja/nee-vraag (2 punt) en (b) motiveer uw antwoord (2 punten). Deelvraag b is een pure motivatie-instructie bij a → geïntegreerd via motivatie_verwacht: true.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "EU-fusierichtlijn",
+          "ivzw",
+          "overname",
+          "vrijstelling meerwaarde",
+          "Spanje",
+          "onroerende goederen",
+          "Europees fiscaal recht"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr50",
+        "vraag_onderwerp": "EU-fusierichtlijn 2009/133/EG: toepassing op overname door ivzw",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Kan deze transactie met toepassing van richtlijn 2009/133/EG van de Raad van 19 oktober 2009 uitgevoerd worden met vrijstelling van belasting?",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr50 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr50"
+      },
+      "vraag_id": "2015-1-vr50"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over discretieplicht en beroepsgeheim.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "discretieplicht",
+          "beroepsgeheim",
+          "accountant",
+          "interne accountant",
+          "tuchtrecht",
+          "deontologie",
+          "IAB"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr51",
+        "vraag_onderwerp": "Discretieplicht en beroepsgeheim accountant: juist/fout stellingen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "In tegenstelling tot het beroepsgeheim is de discretieplicht ook van toepassing op de interne accountants en/of belastingconsulenten.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Schending van het beroepsgeheim kan enkel tuchtrechtelijke maatregelen tot gevolg hebben.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De accountant en/of de belastingconsulent pleegt een inbreuk tegen de discretieplicht wanneer hij de Raad van het Instituut in kennis zou stellen van vertrouwelijke gegevens van zijn werkgever als alle andere middelen zijn uitgeput.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr51 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr51"
+      },
+      "vraag_id": "2015-1-vr51"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In de artikelen 27 tot en met 29 van het KB van 1 maart 1998 worden de erelonen van de accountant en/of belastingconsulent behandeld.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over erelonen. Kleine OCR-correctie: 'beëindigd' → 'beëindigt' (verkeerde vervoeging in tekst).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "typo_genormaliseerd"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "erelonen",
+          "KB 1 maart 1998",
+          "commissies",
+          "opzegvergoeding",
+          "deontologie",
+          "accountant",
+          "belastingconsulent"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr52",
+        "vraag_onderwerp": "Erelonen accountant/belastingconsulent: juist/fout stellingen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De accountant en/of belastingconsulent dient met een vast uurloon te werken en mag zijn ereloon dus niet afhankelijk stellen van de aard, het belang, de complexiteit, omvang en reikwijdte van de opdracht.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Mits goedkeuring van de raad mag een accountant en/of belastingconsulent commissies ontvangen voor tussenkomst en transacties van andere partijen met een cliënt.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Indien voorzien in de opdrachtbrief kan er een opzegvergoeding voorzien worden indien de cliënt de overeenkomst beëindigt.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr52 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr52"
+      },
+      "vraag_id": "2015-1-vr52"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Klant is eigenaar van een meubelhandel en stelt vragen over maximale contante betalingen in verschillende gevallen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 3 van de sectie 'Juridische en beroepsnormen'. Twee deelvragen: (a) open berekening/toepassingsvraag per scenario; (b) ja/nee-vraag met motivering. Deelvraag b is niet louter een motivatie van a maar een eigenstandige vraag over meldingsplicht.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "contante betalingen",
+          "limiet cash",
+          "witwaswetgeving",
+          "CFI-melding",
+          "antiwitwas",
+          "externe belastingconsulent"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr53",
+        "vraag_onderwerp": "Limiet contante betalingen en meldingsplicht CFI witwaswetgeving",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Uw klant, een meubelhandel, stelt u de volgende vraag: hoeveel mag de klant van de meubelhandel in contanten betalen in de volgende gevallen? (1) Klant koopt meubel van 2.800 EUR; (2) klant koopt meubel van 5.800 EUR; (3) klant koopt meubel van 5.800 EUR en betaalt in 2 schijven van 2.900 EUR; (4) klant koopt meubel van 11.000 EUR en betaalt in 2 schijven van 5.500 EUR.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "U stelt bij één van uw klanten een overtreding vast van de limiet op toegestane betalingen in contanten. Moet u als extern belastingconsulent een melding doen aan de CFI in het kader van de preventieve witwaswetgeving?",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr53 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr53"
+      },
+      "vraag_id": "2015-1-vr53"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De heer FIXIT is reeds jaren de externe accountant van NV TRIAL. De gedelegeerde bestuurder wenst de vennootschap te vereffenen en geeft de heer FIXIT de opdracht dit te doen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 4 van de sectie 'Juridische en beroepsnormen'. Drie juist/fout-stellingen over de opdracht bij vereffening.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "vereffening",
+          "onafhankelijkheid",
+          "controleopdracht",
+          "externe accountant",
+          "erkend boekhouder",
+          "witwaswetgeving",
+          "staat activa passiva"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr54",
+        "vraag_onderwerp": "Opdracht externe accountant bij vereffening: onafhankelijkheid, bevoegdheid en witwasverplichting",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De heer FIXIT kan dit begeleiden maar mag de controleopdracht op de staat van activa en passiva niet uitvoeren wegens een verbod gebaseerd op de onafhankelijkheid.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Deze controleopdracht kan zowel door een externe accountant, bedrijfsrevisor als door een erkend boekhouder uitgevoerd worden.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De externe accountant die dergelijke controleopdracht zal uitvoeren moet ook aan de verplichtingen gesteld door de witwaswetgeving voldoen en zorgen voor de identificatie van de bestuurder(s) en de vennootschap.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr54 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr54"
+      },
+      "vraag_id": "2015-1-vr54"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "U bent belastingconsulent, lid van het IAB, ingeschreven op de deellijst van de externe leden. Twee personen richten een vennootschap naar Luxemburgs recht op die belastingadvies verstrekt in het Groothertogdom Luxemburg en een kantoor met medewerkers opent in België. Ze zijn niet van plan de vennootschap te laten erkennen door het IAB. Het Belgische kantoor zal in België de benaming 'belastingconsulent' gebruiken. Zij vragen u:",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 5 van de sectie 'Juridische en beroepsnormen'. Twee ja/nee-vragen elk met afzonderlijke motivering (expliciete 'Verklaar uw antwoord' per deelvraag). motivatie_verwacht: true voor beide.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "deontologie",
+          "onafhankelijkheid",
+          "aandelen houden",
+          "onderaanneming",
+          "beroepsnormen",
+          "IAB",
+          "belastingconsulent"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr55",
+        "vraag_onderwerp": "Deontologie: aandelen Luxemburgs belastingkantoor + onderaanneming in België",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Mag u intekenen op aandelen (voor 15% van het kapitaal) van hun vennootschap naar Luxemburgs recht, zonder betrokken te zijn bij het bestuur van die vennootschap?",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Mag u hen bij de opstart begeleiden door hen, zo nodig, als zelfstandige onderaannemer bij te staan in moeilijke zaken in België?",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr55 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr55"
+      },
+      "vraag_id": "2015-1-vr55"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In de norm inzake de controle van fusie- en splitsingsverrichtingen van vennootschappen, zoals goedgekeurd door de raad van het IAB, zijn er drie verplichtingen voor de beroepsbeoefenaar wanneer de door de wet vereiste verslagen in de bij de fusie of splitsing betrokken vennootschappen door verschillende beroepsbeoefenaars moeten opgesteld worden.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 6 (laatste) van de sectie 'Juridische en beroepsnormen'. Enkelvoudige open vraag naar 2 van 3 verplichtingen uit de IAB-norm.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "fusie",
+          "splitsing",
+          "norm IAB",
+          "controleverslag",
+          "beroepsbeoefenaars",
+          "samenwerking accountants"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr56",
+        "vraag_onderwerp": "Norm controle fusie- en splitsingsverrichtingen: verplichtingen bij meerdere beroepsbeoefenaars",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef twee van de drie verplichtingen voor de beroepsbeoefenaar wanneer de door de wet vereiste verslagen door verschillende beroepsbeoefenaars moeten opgesteld worden.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr56 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr56"
+      },
+      "vraag_id": "2015-1-vr56"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap 'Koffie van het Noorden' herstructureert haar afdeling 'Fabricatie van Koffiemolens'. Kosten: ontmanteling bestaande productielijn 150.000 EUR, elektronische automatisatie nieuwe productielijn 300.000 EUR, technische werkloosheid fabriekspersoneel 250.000 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Zelfde OCR-patroon als voorgaande vragen. Één enkelvoudige MC-vraag met opties A-E.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "herstructureringskosten",
+          "activering kosten",
+          "immateriële activa",
+          "rekening 649",
+          "rekening 669",
+          "rekeningen 61-62",
+          "boekhoudkundige verwerking"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr6",
+        "vraag_onderwerp": "Activering herstructureringskosten: tegenboekingmethode",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven."
+              },
+              {
+                "id": "b",
+                "tekst": "De activering moet tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt om de uitgaven in kosten te nemen."
+              },
+              {
+                "id": "c",
+                "tekst": "De activering moet tot uiting worden gebracht door het crediteren van de rekening 649 of 669."
+              },
+              {
+                "id": "d",
+                "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669."
+              },
+              {
+                "id": "e",
+                "tekst": "De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door het crediteren van de rekening 649 of 669."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Aan de hand van welke tegenboeking kunnen deze uitgaven naar het actief van de balans worden overgeboekt?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr6 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr6"
+      },
+      "vraag_id": "2015-1-vr6"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Bij de vereffening van een bvba wordt een voorschot op het uiteindelijk te verdelen bedrag uitgekeerd.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Deze vraag heeft 6 opties (A t/m F) in plaats van de gebruikelijke 5. De meta vermeldt pagina's 4-37, wat erop duidt dat pdfplumber de bijlage (balans) meenam in het segment. De vraag zelf staat op pagina 4 en betreft een enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "vereffening",
+          "bvba",
+          "liquidatie",
+          "voorschot liquidatiesaldo",
+          "rekening 19",
+          "rekening 100",
+          "boekhoudkundige verwerking"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr7",
+        "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Het voorschot wordt geboekt op het debet van rekening 100."
+              },
+              {
+                "id": "b",
+                "tekst": "Het voorschot wordt geboekt op het credit van rekening 19."
+              },
+              {
+                "id": "c",
+                "tekst": "Het voorschot wordt geboekt op het debet van rekening 416 Diverse vorderingen."
+              },
+              {
+                "id": "d",
+                "tekst": "Het voorschot wordt geboekt op het credit van rekening 101."
+              },
+              {
+                "id": "e",
+                "tekst": "Het voorschot wordt geboekt op het debet van rekening 19."
+              },
+              {
+                "id": "f",
+                "tekst": "Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke van de onderstaande voorstellen geeft de juiste boekhoudkundige verwerking weer?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr7 pagina 4-37",
+        "pagina_nummers": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr7"
+      },
+      "vraag_id": "2015-1-vr7"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Op basis van de balans na winstverdeling en de resultatenrekening van een cliënt (zie bijlage). Uit de toelichting: (1) investeringen materiële vaste activa 452.835 EUR; (2) exploitatiesubsidies 1.288 EUR; (3) intrestsubsidies 14.214 EUR; (4) geen disconto ten laste; (5) gemiddeld 38,20 werknemers (VTE); (6) voorziening pensioenen teruggenomen voor 1.665 EUR; (7) te bestemmen winst integraal gereserveerd.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Analyse en kritische beoordeling van de jaarrekening - Consolidatie'. Vier MC-deelvragen (a-d) elk met 4 opties (A-D). Kandidaat kruist per deelratio het juiste antwoord aan in een antwoordrooster.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "schema_versie": "1.1",
+        "themas": [
+          "brutoverkoopmarge",
+          "toegevoegde waarde",
+          "personeelskosten",
+          "nettorentabiliteit eigen vermogen",
+          "voorraadrotatie",
+          "financiële ratio's",
+          "jaarrekening analyse"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr8",
+        "vraag_onderwerp": "Berekening financiële ratio's op basis van jaarrekening",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "(1.479.283 + 425.554 + 804) x 100 / (8.034.747 + 344.153) = 22,74"
+              },
+              {
+                "id": "b",
+                "tekst": "(1.417.747 + 425.554 + 804) x 100 / (8.365.788 - 1.600.244) = 27,26"
+              },
+              {
+                "id": "c",
+                "tekst": "(1.479.283 + 425.554 + 804 – 1.665) x 100 / (8.034.747 + 344.153 – 1.288) = 22,73"
+              },
+              {
+                "id": "d",
+                "tekst": "(968.829 + 425.554 + 804 – 1.665) x 100 / (8.365.788 – 1.288) = 16,66"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Brutoverkoopmarge: welke berekening is correct?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "(1.600.244 – 1.665) X 100 / (8.365.788 - 1.288 – 3.457.309 – 1.398.278) = 45,56"
+              },
+              {
+                "id": "b",
+                "tekst": "1.600.244 x 100 / (8.365.788 – 3.457.309 – 1.398.278) = 45,59"
+              },
+              {
+                "id": "c",
+                "tekst": "1.600.244 x 100 / 1.479.283 = 108,18"
+              },
+              {
+                "id": "d",
+                "tekst": "(1.600.244 – 1.665) x 100 / (8.034.747 – 13.112 - 3.457.309 – 1.398.278 – 1.288) = 50,51"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Personeelskosten ten opzichte van toegevoegde waarde: welke berekening is correct?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "968.829 x 100 / 10.274.463 = 9,43"
+              },
+              {
+                "id": "b",
+                "tekst": "968.829 x 100 / 8.177.941 = 11,85"
+              },
+              {
+                "id": "c",
+                "tekst": "1.417.747 x 100 / 10.274.463 = 13,80"
+              },
+              {
+                "id": "d",
+                "tekst": "1.479.283 x 100 / 8.177.941 = 18,09"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Nettorentabiliteit van het eigen vermogen na belastingen: welke berekening is correct?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "3.444.161 / 530.373 = 6,49"
+              },
+              {
+                "id": "b",
+                "tekst": "3.457.309 / 530.373 = 6,52"
+              },
+              {
+                "id": "c",
+                "tekst": "3.457.309 / 1.344.750 = 2,57"
+              },
+              {
+                "id": "d",
+                "tekst": "3.444.161 / 1.344.750 = 2,56"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen: welke berekening is correct?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr8 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr8"
+      },
+      "vraag_id": "2015-1-vr8"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Analyse en kritische beoordeling'. Vijf open begripsomschrijvingen. Tekst.txt is beknopt maar de deelvragen zijn volledig leesbaar.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "schema_versie": "1.1",
+        "themas": [
+          "intrinsieke waarde",
+          "fractiewaarde",
+          "netto rendabiliteit bedrijfsactiva",
+          "algemene schuldgraad",
+          "operationele cash flow",
+          "financiële analyse",
+          "begripsomschrijving"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr9",
+        "vraag_onderwerp": "Begripsomschrijving financiële analyse: intrinsieke waarde, fractiewaarde, rendabiliteit, schuldgraad, operationele cash flow",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'intrinsieke waarde'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'fractiewaarde'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'netto rendabiliteit van de bedrijfsactiva'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'algemene schuldgraad'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "e",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'operationele cash flow voor belastingen'.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr9 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr9"
+      },
+      "vraag_id": "2015-1-vr9"
+    }
+  ]
+}

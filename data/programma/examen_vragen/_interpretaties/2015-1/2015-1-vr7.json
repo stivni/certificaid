@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr7",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
+  "themas": ["vereffening", "bvba", "liquidatie", "voorschot liquidatiesaldo", "rekening 19", "rekening 100", "boekhoudkundige verwerking"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Bij de vereffening van een bvba wordt een voorschot op het uiteindelijk te verdelen bedrag uitgekeerd."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke van de onderstaande voorstellen geeft de juiste boekhoudkundige verwerking weer?",
+      "opties": [
+        { "id": "a", "tekst": "Het voorschot wordt geboekt op het debet van rekening 100." },
+        { "id": "b", "tekst": "Het voorschot wordt geboekt op het credit van rekening 19." },
+        { "id": "c", "tekst": "Het voorschot wordt geboekt op het debet van rekening 416 Diverse vorderingen." },
+        { "id": "d", "tekst": "Het voorschot wordt geboekt op het credit van rekening 101." },
+        { "id": "e", "tekst": "Het voorschot wordt geboekt op het debet van rekening 19." },
+        { "id": "f", "tekst": "Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Deze vraag heeft 6 opties (A t/m F) in plaats van de gebruikelijke 5. De meta vermeldt pagina's 4-37, wat erop duidt dat pdfplumber de bijlage (balans) meenam in het segment. De vraag zelf staat op pagina 4 en betreft een enkelvoudige MC-vraag.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

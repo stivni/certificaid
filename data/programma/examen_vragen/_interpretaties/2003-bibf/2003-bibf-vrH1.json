@@ -1,0 +1,35 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrH1",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-inregelstelling: wettelijke termijn",
+  "themas": [
+    "BTW-inregelstelling",
+    "bezwaartermijn",
+    "BTW-procedures",
+    "belastingprocedure"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "H.1",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Binnen welke termijn dient een BTW-inregelstelling ingediend te worden?",
+      "opties": [
+        {"id": "a", "tekst": "Er is geen enkele termijn voor zover de wettelijke verjaringstermijn niet verstreken is."},
+        {"id": "b", "tekst": "Op straffe van verval binnen de 3 kalendermaanden vanaf de invorderingstermijn."},
+        {"id": "c", "tekst": "Ten laatste aan het einde van de derde burgerlijke maand die volgt op de betekening van het dwangbevel."},
+        {"id": "d", "tekst": "Binnen de 30 dagen vanaf de datum van het overzicht van de regularisaties."}
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag met 4 opties. OCR-artefacten (cid:137) vervangen door de opties zoals zichtbaar op de PNG. Optie c bevat 'dwangbevel' — conform PNG correct overgenomen.",
+  "kwaliteits_flags": ["ocr_artefact", "typo_genormaliseerd"]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr36",
+  "interpretatie_datum": "2026-05-21T10:34:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Erfrecht/successierecht — hoedanigheid begiftigden en aangifte nalatenschap",
+  "themas": [
+    "erfrecht",
+    "successierecht",
+    "testament",
+    "legataris",
+    "algemeen legataris",
+    "bijzonder legataris",
+    "aangifte nalatenschap"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer Janssens is in België overleden op 12 augustus 2012. Bij zijn overlijden was hij gehuwd met Anne en had het echtpaar slechts één dochter (meerderjarig op dag van overlijden). De echtgenoten waren gehuwd onder het stelsel van de scheiding van goederen. De heer Janssens heeft een testament nagelaten: (1) het geheel van de roerende goederen komt toe aan mw. Tanghe (verpleegster tijdens ziekte); (2) de personenauto komt toe aan Frédérique Martin (nicht van de overledene); (3) de volledige nalatenschap, na aftrek van de hiervoor vermelde goederen, komt toe aan mw. Cambier (jeugdvriendin van de heer Janssens)."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Duid in de tabel de hoedanigheid aan van: echtgenote, dochter, mevr. Tanghe, mevr. Martin, mevr. Cambier. Mogelijke hoedanigheden: wettelijke erfgenaam, algemeen legataris, algemeen legataris onder algemene titel, begiftigde onder algemene titel, bijzonder legataris.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Vermeld wie de verplichting heeft een aangifte in de successierechten in te leveren voor: echtgenote, dochter, mevr. Tanghe, mevr. Martin, mevr. Cambier.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee open deelvragen over erfrecht. tekst.txt bevat OCR-artefacten bij de tabelkop (hoedanigheidscategorieën als lopende tekst). De hoedanigheidsopties zijn gereconstrueerd op basis van de tekst. PNG pagina_02 bevestigt de tabelstructuur.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar", "ocr_artefact"]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr14",
+  "interpretatie_datum": "2026-05-21T10:12:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Controleopdracht — voorbereiding, materialiteit, deelnemingen en afloopcontrole",
+  "themas": [
+    "controleopdracht",
+    "volkscontrole",
+    "materialiteitsgrens",
+    "deelnemingen",
+    "controledoelstellingen",
+    "afloopcontrole",
+    "bezoldigingen en sociale lasten"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In het kader van een controleopdracht waarvoor een volkomen controle vereist is ontvangen we tijdens onze audit ter plaatse op 20/02/2014 van de interne boekhouder de boekhoudkundige staat per 31/12/2013. Alvorens over te gaan tot cijfercontroles hebben we de materialiteitsgrens berekend op 50.000 EUR."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Kunnen we onze controleopdracht op deze cijfers afhandelen en ons besluit ondertekenen?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is het belang, in het kader van deze opdracht, zoals hierboven beschreven, van het vastleggen van de materialiteitsgrens?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "De vennootschap voor dewelke wij deze controleopdracht verrichten, heeft een dochterbedrijf via aandelen aangekocht voor 300.000 EUR (code 28). Hoe pak je deze post aan? Geef 2 controledoelstellingen en 2 controletechnieken die hier kunnen toegepast worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Gedurende deze controleopdracht, ga je een afloopcontrole uitvoeren op de post 'bezoldigingen en sociale lasten' (passief codes 454/9). Hoe voer je zo een controle uit, leg uit of werk een voorbeeld uit?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier open deelvragen. tekst.txt bevat wat OCR-artefacten (tussentitels als losse zinnen, bold-rendering van deelcasus-elementen). Deelvraag a bevat een impliciete redenering (volkomen controle vereist maar staat per 31/12/2013 ontvangen op 20/02 door interne boekhouder), vandaar motivatie_verwacht: true.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

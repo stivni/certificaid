@@ -1,0 +1,62 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrE3",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Diverse BTW-vraagstukken: aftrekverjaring, regime psycholoog, BTW-eenheid, territoriale BTW-bevoegdheid",
+  "themas": [
+    "BTW aftrek",
+    "verjaring recht op aftrek",
+    "vrijstellingsregeling",
+    "BTW eenheid",
+    "territoriale bevoegdheid",
+    "dienstenprestaties",
+    "boekhouder BIBF"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "E3.1",
+      "vraagtype": "open",
+      "vraagstelling": "Welke is de uiterste datum waarover u beschikt om de BTW af te trekken? (Gelieve precies te antwoorden!)",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "E3.2",
+      "vraagtype": "open",
+      "vraagstelling": "Welke is/zijn de BTW-regime(s) voor de BTW-aangiftes die u kan voorstellen aan een zelfstandige psychologe in bijberoep die een omzetcijfer van 4.312,00 € per jaar heeft?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "E3.3",
+      "vraagtype": "open",
+      "vraagstelling": "Verklaar het principe van de BTW-eenheid (enkel het principe; de modaliteiten en de werking worden NIET gevraagd).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "E3.4",
+      "vraagtype": "open",
+      "vraagstelling": "U bent een zelfstandig boekhouder BIBF gevestigd in België en verricht boekhoudkundige prestaties in een onderneming gevestigd in Frankrijk, gefactureerd aan uw belastingplichtige cliënt gevestigd in Nederland. In welk land is de BTW verschuldigd — België, Frankrijk of Nederland? Verantwoord uw antwoord door te verwijzen naar het toepasselijke artikel uit het BTW-wetboek.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "Na elke subvraag staat het modelantwoord vermeld, o.a. 'Via de aangifte ... 3de jaar', 'Vrijstellingsregeling / Kwartaalaangifte', definitie BTW-eenheid, 'In Nederland Art. 21 §3, 7° d)'.",
+    "vermoedelijke_status": "gepubliceerd modelantwoord"
+  },
+  "herinterpretatie_motivering": "Vier genummerde, thematisch onafhankelijke BTW-deelvragen. De antwoorden na elke vraag zijn modelantwoorden — NIET opgenomen. Deelvraag d vereist verantwoording met wetsreferentie (motivatie_verwacht=true).",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

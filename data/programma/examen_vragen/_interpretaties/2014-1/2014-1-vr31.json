@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr31",
+  "interpretatie_datum": "2026-05-21T10:29:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW — openbare verkoop faillissement: plaatsbepaling levering van goederen",
+  "themas": [
+    "BTW",
+    "openbare verkoop",
+    "faillissement",
+    "plaatsbepaling levering",
+    "curator",
+    "vervoer van goederen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een fabrikant van industriële aanhangwagens, een gewone belastingplichtige gevestigd in Vilvoorde, wordt failliet verklaard. De voorraad aanhangwagens en het exploitatiemateriaal worden op verzoek van de curator openbaar verkocht. De kopers zijn Belgische gewone belastingplichtigen die zelf instaan voor het ophalen en vervoeren van de door hen gekochte loten."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 2",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Duid de goede oplossing aan.",
+      "opties": [
+        { "id": "a", "tekst": "De btw is niet van toepassing want de kopers oefenen een economische activiteit uit en hebben een geldig btw-nummer." },
+        { "id": "b", "tekst": "De btw is niet van toepassing want de leverancier is failliet verklaard." },
+        { "id": "c", "tekst": "De btw is niet van toepassing want de goederen werden verkocht bij openbaar opbod en niet bij een onderhands contract." },
+        { "id": "d", "tekst": "De btw is van toepassing in België want de verkoper is in België gevestigd en de plaats van de levering is bij aankomst van het vervoer van de goederen naar de koper." },
+        { "id": "e", "tekst": "De btw is van toepassing in België want de verkoper is gevestigd in België en de plaats van de levering is bij vertrek van het vervoer." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "MC-vraag over BTW bij openbare verkoop na faillissement. Sleutelregel: faillissement heft BTW-plicht niet op; plaatsbepaling vervoer door koper.",
+  "kwaliteits_flags": []
+}

@@ -1,0 +1,47 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrC2",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Berekening van de operationele cash-flow",
+  "themas": [
+    "operationele cash-flow",
+    "cash-flow analyse",
+    "afschrijvingen",
+    "voorzieningen",
+    "waardeverminderingen",
+    "financieel beheer"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Naast de balans van C.1 blijken volgende cijfers uit de resultatenrekening."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Resultatenrekening (relevante posten)",
+      "rijen": [
+        {"label": "Winst van het boekjaar", "bedrag": 2750},
+        {"label": "Afschrijvingen", "bedrag": 12100},
+        {"label": "Toevoegingen aan voorzieningen", "bedrag": 6300},
+        {"label": "Bestedingen van voorzieningen", "bedrag": -1650},
+        {"label": "Toevoegingen aan waardeverminderingen", "bedrag": 780}
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "C.2 Vraag",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de operationele cash-flow.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Berekeningsvraag op basis van resultatenrekening-gegevens. Vraagtype 'open' want berekening is antwoord-vorm. Gegevens-blok als gegevens_tabel met label/bedrag-paren. Bouwt voort op de balans van C.1.",
+  "kwaliteits_flags": []
+}

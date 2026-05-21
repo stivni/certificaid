@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr14",
+  "interpretatie_datum": "2026-05-21T00:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Operationele audit verkoopcyclus: classificatie doelstellingen naar financieel/operationeel/conformiteit",
+  "themas": ["operationele audit", "verkoopcyclus", "auditdoelstellingen", "financieel aspect", "operationeel aspect", "conformiteitsaspect"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vraag 3 van de sectie 'Interne controle'. Schema met doelstellingen bij de operationele audit van de verkoopcyclus. Kandidaat duidt aan of elke doelstelling financieel, operationeel en/of conformiteitsaspect betreft (meerdere aspecten mogelijk)."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Doelstellingen operationele audit verkoopcyclus",
+      "rijen": [
+        { "label": "Opstellen van een marketingstrategie", "bedrag": null },
+        { "label": "Behoud mogelijkheid tot tijdige levering tegen de laagst mogelijke distributiekost", "bedrag": null },
+        { "label": "Opvolging van marktbehoeften, introductie nieuwe producten en stopzetting van bestaande producten", "bedrag": null },
+        { "label": "Enkel toegestane verkooporders worden verwerkt", "bedrag": null },
+        { "label": "Alle verzonden goederen worden in de juiste periode correct gefactureerd", "bedrag": null }
+      ]
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "–",
+      "vraagtype": "open",
+      "vraagstelling": "Duid bij elke doelstelling aan of het gaat om een financieel, en/of operationeel en/of conformiteitsaspect.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 3 van de sectie 'Interne controle'. Invulvraag op basis van een schema met 5 doelstellingen en drie audit-aspecten. Weergegeven als open invulvraag met gegevens_tabel voor de doelstellingen.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

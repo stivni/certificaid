@@ -1,0 +1,32 @@
+Vraag 3 … / 6 punten
+Welke van de onderstaande elementen neemt U op in de berekening “behoefte aan
+werkkapitaal (of bedrijfskapitaal)”?
+Duid bij elke code “ja of nee” aan. Bij elk foutief antwoord of ontbrekend antwoord, wordt er
+één punt afgetrokken.
+
+Antwoord … / punten
+
+|  | Code | Ja | Neen |
+|---|---|---|---|
+| Materiële vaste activa | 22/27 |  |  |
+| Financiële vaste activa | 28 |  |  |
+| Vorderingen op meer dan één jaar | 29 |  |  |
+| Voorraden | 30/36 |  |  |
+| Bestellingen in uitvoering | 37 |  |  |
+| Handelsvorderingen | 40 |  |  |
+| Overige vorderingen | 41 |  |  |
+| Geldbeleggingen | 50/53 |  |  |
+| Liquide middelen | 54/58 |  |  |
+| Overlopende rekeningen van het actief | 490/1 |  |  |
+| Eigen vermogen | 10/15 |  |  |
+| Voorzieningen en uitgestelde belastingen | 16 |  |  |
+| Schulden op meer dan één jaar | 17 |  |  |
+| Schulden op meer dan één jaar die binnen het jaar
+vervallen | 42 |  |  |
+| Financiële schulden | 43 |  |  |
+| Handelsschulden | 44 |  |  |
+| Ontvangen vooruitbetalingen | 46 |  |  |
+| Schulden m.b.t. belastingen, bezoldigingen en sociale
+lasten | 45 |  |  |
+| Overige schulden | 47/48 |  |  |
+| Overlopende rekeningen van het passief | 492/3 |  |  |

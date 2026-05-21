@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr21",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Eenmalige onderhoudsuitkering als kapitaal: belasting ex-echtgenoot en aftrek",
+  "themas": ["onderhoudsuitkering", "kapitaal als alimentatie", "echtscheiding", "personenbelasting", "belastbare basis", "afzonderlijke belasting", "aftrekbaarheid"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Dhr. en mevr. Martin zijn in de loop van 2012 gescheiden met onderlinge toestemming. Dhr. Martin is geboren op 15 juli 1963 en mevr. Martin op 10 juni 1975. Er werd overeengekomen dat dhr. Martin op 1 december 2012 een éénmalige onderhoudsuitkering onder de vorm van een kapitaal van € 100.000 aan zijn ex-echtgenote zou betalen. (NB: alle wettelijke voorwaarden op het gebied van de onderhoudsplicht zijn vervuld.)"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken het bedrag dat voor het aanslagjaar 2013 op naam van mevr. Martin zal belast worden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Moet het bedrag voor de volgende aanslagjaren gewijzigd worden? Zo ja, in welke mate?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Gedurende hoeveel jaren zal er ten name van mevr. Martin een belasting worden gevestigd? Geef het aantal betrokken aanslagjaren of het jaar waarnaar het laatste betrokken aanslagjaar wordt genoemd.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken het bedrag dat bij dhr. Martin aftrekbaar zal zijn voor het aanslagjaar 2013. Het gaat om het bedrag dat in rekening wordt gebracht in de berekening van de belasting van dhr. Martin, en niet om het bedrag dat in de aangifte wordt ingevuld.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Tekst.txt fragmentarisch (antwoord-labels voor deelvraag a/b/c zichtbaar). Volledige vraagstelling gereconstrueerd uit de subvraag-labels. Vier berekenings- en procedurevragen over de fiscale behandeling van een éénmalige onderhoudsuitkering als kapitaal.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

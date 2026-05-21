@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr6",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Netto bedrijfskapitaal: manieren om het te verhogen",
+  "themas": ["netto bedrijfskapitaal", "werkkapitaal", "liquiditeit", "financiering", "balansstructuur"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Bij de bespreking van de jaarrekening deelt u aan uw cliënt mede dat het netto bedrijfskapitaal van zijn vennootschap zeer laag is. Hij vraagt u hoe hij het netto bedrijfskapitaal kan verhogen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": null,
+      "vraagtype": "open",
+      "vraagstelling": "Geef drie voorbeelden van maatregelen om het netto bedrijfskapitaal te verhogen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Enkelvoudige open vraag, geen subvragen. Gevraagd worden drie concrete voorbeelden.",
+  "kwaliteits_flags": []
+}

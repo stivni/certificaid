@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr33",
+  "interpretatie_datum": "2026-05-21T12:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Bezwaarrecht: vier stellingen over wie bezwaar kan indienen",
+  "themas": ["bezwaarrecht", "roerende voorheffing", "erfgenamen", "echtscheiding", "ambtshalve aanslag", "fiscale procedure", "rechtbank eerste aanleg"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Geef aan of onderstaande uitspraken waar of niet waar zijn."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Met betrekking tot de roerende voorheffing, kan enkel de schuldenaar van de voorheffing (degene die de voorheffing moet inhouden) een bezwaarschrift indienen. De verkrijger van de inkomsten waarop de voorheffing werd ingehouden, kan dit recht niet uitoefenen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Indien een belastingplichtige overlijdt en twee kinderen nalaat, en slechts één van die kinderen bezwaar indient tegen de ten name van de overledene gevestigde belasting, geldt zijn bezwaarschrift voor het geheel van de aanslag en voor alle erfgenamen samen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De echtgescheiden echtgenoot heeft de mogelijkheid om bezwaar in te dienen tegen een aanslag die betrekking heeft op een aanslagjaar voor de uitspraak van de echtscheiding, zelfs indien de andere echtgenoot dit niet heeft gedaan, maar wel op voorwaarde dat de belasting op de goederen van de indiener van het bezwaarschrift wordt ingevorderd.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer de belastingplichtige ambtshalve is aangeslagen en de directeur zes maanden na ontvangst van het bezwaarschrift nog geen beslissing heeft genomen, kan de belastingplichtige het geschil, te allen tijde, voor de rechtbank van eerste aanleg brengen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier waar/niet-waar stellingen over bezwaarrecht. Elke stelling is een aparte deelvraag.",
+  "kwaliteits_flags": []
+}
