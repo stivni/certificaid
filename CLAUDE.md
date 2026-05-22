@@ -6,13 +6,25 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 
 **Bij het examen beschikbaar**: ITAA-LEX (wettekstenbundel) + Cijferzakboekje (tarieven en bedragen). Wat getoetst wordt: concepten begrijpen, uitzonderingen herkennen, correct redeneren — niet cijfers uit het hoofd kennen.
 
-> **Status (2026-05-23)**: **Schema 2.1 v1.5 design afgerond, implementatie in progress** (ADR-029 + [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md)).
-> 21 v1.5-besluiten vastgelegd: drop 9 velden (`andere_talen`, `dekt_tdks`, `tags`, `cross_po`, `primary_po`, `element.beschrijving`, `element.verwijst_naar`, `keuzekader`, `voorbeeld_inline/voorbeeld_case`); hernoemingen (`linked_anchors → ankers`, `text → tekst`, `component → subconcept`, `rollen_per_perspectief → accountant_perspectieven`); `kern`-wrapper voor definitie/substantie/rationale; fractale element-recursie; nieuwe arrays `valkuilen[]`, `speelruimtes[]`, `syntheses[]`; trim enums (12 `inhoud_types`, 11 `weergave_types`); 7-operaties operations-model (`beschrijven`, `claims_checken`, `relaties_aanvullen`, `accountant_perspectief`, `didactisch_verrijken`, `kandidaat_review`, `leespad_aanvullen`).
-> **Migratie 396 records v1.4 → v1.5** door parallelle agent uitgevoerd en door user gemerged. Schema + scripts + prompts updates lopen parallel.
-> **Volgende stap**: wave-2 `beschrijven`-operatie op 371 lege records (12-parallel Sonnet, ~1.5u wall-clock geschat) + render-sessie kick-off met geüpdatete [`docs/render-laag.md`](docs/render-laag.md).
-> Examen-deadline ca. 2026-05-30 — bronnen-werk loopt parallel (user).
->
-> *Vorige status (2026-05-21 namiddag)*: Schema 2.0 + bundle-aware extract gevalideerd; 16 schema-2.0-records geschreven, bulk-optimalisaties live (ADR-025 + ADR-027). Vervangen door schema 2.1 v1.5.
+**Actuele status + openstaand werk**: zie [`docs/TODO.md`](docs/TODO.md). De huidige hoofdactiviteit is **Fase 7** (schema 2.1 v1.5 + extractie v6 + render-laag-revisie). Examen-deadline ca. 2026-05-30.
+
+---
+
+## Doc-discipline — welk document is waarvoor?
+
+Bij twijfel "waar zoek ik X?": deze tabel beslist. Pak nooit een handoff of memory voor info die in een ADR of TODO hoort.
+
+| Doc-type | Locatie | Rol | Levensduur |
+|---|---|---|---|
+| **ADR** | `docs/adr/ADR-NNN-*.md` | Architectuurbeslissing — de waarheid over een keuze + rationale | Permanent (kan superseded worden door later ADR) |
+| **Schrijfregels** | `docs/concept-schrijfregels.md`, `docs/studiemateriaal-schrijfregels.md` | Inhoudelijke conventie — hoe content geschreven moet | Permanent (incrementeel bijgewerkt) |
+| **Werkpakket-spec** | `docs/schema-v15-besluit.md`, `docs/render-laag.md` | Gedetailleerde spec voor een lopende implementatie-ronde | Tot werkpakket klaar; daarna bevroren of geabsorbeerd in ADR |
+| **TODO / roadmap** | `docs/TODO.md`, `docs/roadmap.md` | Openstaand werk + fase-status — *de* status-bron | Levend |
+| **Prompt** | `prompts/<naam>.md` of `prompts/multipass/<operatie>.md` | Uitvoeringsinstructie aan een (Sonnet) agent | Eén canonieke versie per type; oude versies weg |
+| **Memory** | `~/.claude/projects/.../memory/` | Evergreen gedragsregels + design-rationale die niet in een ADR leeft | Levend; bij stale → archive/ |
+| **Handoff / sessie-md** | n.v.t. | **Bestaat niet**. Sessie-handoffs worden niet als permanente docs bewaard — info gaat naar TODO/ADR. | n.v.t. |
+
+Regel 9 ("geen leftovers") geldt voor docs evenzeer als voor code: superseded ADR → `docs/adr/archive/`, oude prompt-versie → `git rm`, sessie-handoff → info redistribueren + weg.
 
 ---
 
@@ -20,30 +32,27 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 
 | Taak | Zie |
 |---|---|
-| Roadmap & fase-status | [`docs/roadmap.md`](docs/roadmap.md) |
-| Openstaand werk overzicht / TODO | [`docs/TODO.md`](docs/TODO.md) — Fase 3 (PO 1.x content-review, in uitvoering) · Fase 4 (Bronnen-uitbreiding) · Fase 5 (Andere PO's) · Fase 6 (Render-laag) |
-| Concept-record schrijven of bewerken (records-API) | [`tools/lib/records_api.py`](tools/lib/records_api.py) — `save_record` / `rename_record` / `delete_record` / `audit_parity`. Atomair disk + RAG + content. Pre-commit hook. ADR-019. |
-| EXTRACT v4-werk (concept-extractie) | Laad [`prompts/concept-extractie-v4.md`](prompts/concept-extractie-v4.md) in Opus-subagent + initial-ctx (anchor + records + bundle uit matches.sqlite3 + chunks) |
-| Daemon-status / restart | `curl localhost:8765/health` · `launchctl kickstart -k gui/$(id -u)/com.certificaid.embedding-daemon` |
+| Openstaand werk + fase-status | [`docs/TODO.md`](docs/TODO.md) |
+| Roadmap (architectuur-evolutie) | [`docs/roadmap.md`](docs/roadmap.md) |
 | Architectuurbeslissing opzoeken of toevoegen | [`docs/adr/INDEX.md`](docs/adr/INDEX.md) |
-| Bronnen-overzicht (type + trust-status per bron) | [`resources/bronnen/INDEX.md`](resources/bronnen/INDEX.md) — auto-gegenereerd via `python3 tools/lib/bronnen_index.py --force`; machine-leesbaar in `data/bronnen-index.json` |
+| **Schema 2.1 v1.5 concept-record schrijven** | [ADR-029](docs/adr/ADR-029-schema-21-operaties-model.md) + canonieke spec [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md) + schema [`data/concepten/schema-2.1.schema.json`](data/concepten/schema-2.1.schema.json) |
+| **Operatie toepassen op schema 2.1-record** (extractie v6) | ADR-029 §Operaties-model — 7 operaties: `beschrijven` · `claims_checken` · `relaties_aanvullen` · `accountant_perspectief` · `didactisch_verrijken` · `kandidaat_review` · `leespad_aanvullen`. Prompts: [`prompts/multipass/`](prompts/multipass/) |
+| **Render-laag schema 2.1 v1.5** | [`docs/render-laag.md`](docs/render-laag.md) — werkpakket-spec; werk-tracking in TODO.md §Fase 7 |
+| **Skeleton-voorstel (pre-extractie stap 0)** | [`prompts/skeleton-voorstel-v1.md`](prompts/skeleton-voorstel-v1.md) — Opus-subagent met MCP-tools |
+| Concept-record schrijven of bewerken (records-API) | [`tools/lib/records_api.py`](tools/lib/records_api.py) — `save_record` / `rename_record` / `delete_record` / `audit_parity`. Atomair disk + RAG + content. Pre-commit hook. ADR-019. |
+| Concept-/competentie-schrijfregels (taxonomie, taal, edges) | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) *(wordt herzien voor schema 2.1)* |
+| Daemon-status / restart | `curl localhost:8765/health` · `launchctl kickstart -k gui/$(id -u)/com.certificaid.embedding-daemon` |
+| **MCP-server `certificaid-rag`** (on-demand retrieval) | [`tools/extractie/mcp_server/`](tools/extractie/mcp_server/) — `zoek_bronnen` · `zoek_concepten` · `zoek_vragen` · `lees_record` · `lees_anchor_bundle` · `check_record_bestaat` + candidates-DB tools. Config: [`.mcp.json`](.mcp.json) |
+| **MCP-server `certificaid-tarieven`** (tarief-records) | [`tools/tarieven/mcp_server/`](tools/tarieven/mcp_server/) — `lijst_tabellen` · `zoek_tabellen` · `lees_tabel` · `query_tabel`. ADR-026. |
+| Bronnen-overzicht (type + trust-status per bron) | [`resources/bronnen/INDEX.md`](resources/bronnen/INDEX.md) — auto-gegenereerd; machine-leesbaar in `data/bronnen-index.json` |
+| Bron als trusted markeren + RAG verversen | `python3 -m tools.etl.mark_trusted --refresh` (ADR-005 §9) |
 | Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
-| Trust-status zetten + index/bundles in één klap verversen | `tools/etl/mark_trusted.py --refresh` (of direct `python3 -m tools.etl.refresh_rag_and_matches`) — ADR-005 §9 |
-| RAG-index herbouwen of bevragen | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` *(wacht op Fase 2)* |
-| **Examenvragen indexeren** (vragen-collection) | `python3 -m tools.rag.rag_index --add-vragen` — indexeert 253 interpretatie-JSONs uit `data/programma/examen_vragen/_interpretaties/` (schema v1.2), drop-and-rebuild |
-| **Examenvragen semantisch zoeken** | MCP-tool `zoek_vragen` in `certificaid-rag` — args: `query`, `top_k=5`, optioneel `programmaonderdeel_id`, `vraag_herkomst` |
-| **Render leermateriaal** (concept-fiches, competentie-fiches, minicursus) | `tools/leermateriaal/` — ADR-007 schema 1.3, ADR-008 Fase D+E, ADR-010 §drie-lagen |
-| Concept- of competentie-record schrijven | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) — taxonomie, granulariteit, edges, taal, afkortingen *(v1.5/1.6 — wordt herzien voor 2.0)* |
-| **Schema 2.1 v1.5 concept-record schrijven** | [ADR-029](docs/adr/ADR-029-schema-21-operaties-model.md) + canonieke spec [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md) + schema [`data/concepten/schema-2.1.schema.json`](data/concepten/schema-2.1.schema.json). Velden: `ankers` (was `linked_anchors`), `tekst` (was `text`), `inhoud.kern.{definitie,substantie,rationale}`, `accountant_perspectieven`, `valkuilen[]`, `speelruimtes[]`, `syntheses[]`. |
-| **Operatie toepassen op schema 2.1-record** | ADR-029 §Operaties-model — 7 operaties: `beschrijven` · `claims_checken` · `relaties_aanvullen` · `accountant_perspectief` · `didactisch_verrijken` · `kandidaat_review` · `leespad_aanvullen`. Prompts: [`prompts/multipass/`](prompts/multipass/) (in update voor v1.5). |
-| **Render-laag schema 2.1 v1.5** | [`docs/render-laag.md`](docs/render-laag.md) — render-todos, label-mapping per `concept_type`, confidence-iconen, fractale element-recursie. |
-| **Skeleton-voorstel (pre-pilot stap 0)** | [`prompts/skeleton-voorstel-v1.md`](prompts/skeleton-voorstel-v1.md) — Opus-subagent met MCP-tools |
-| **MCP-server `certificaid-rag`** (tools voor on-demand retrieval) | [`tools/extractie/mcp_server/`](tools/extractie/mcp_server/) — `zoek_bronnen` · `zoek_concepten` · `zoek_vragen` · `lees_record` · `lees_anchor_bundle` · `check_record_bestaat` + candidates-DB tools. Geconfigureerd in [`.mcp.json`](.mcp.json) |
-| **MCP-server `certificaid-tarieven`** (4 tools voor tarief-records) | [`tools/tarieven/mcp_server/`](tools/tarieven/mcp_server/) — `lijst_tabellen` · `zoek_tabellen` · `lees_tabel` · `query_tabel`. Schema: [`data/tarieven/SCHEMA.md`](data/tarieven/SCHEMA.md). ADR-026. |
-| **Tarief-record schrijven of trusten** | [`tools/lib/tarieven_api.py`](tools/lib/tarieven_api.py) — `save_record` · `mark_trusted` · `audit_parity`. CLI: `python3 -m tools.lib.tarieven_api audit / list / trust`. Pre-commit gate via `tests/test_tarieven_api.py`. |
-| **Tarief-extractie pipeline** (vision-extract van tabel-zware PDF naar JSON) | Chunker: `python3 -m tools.tarieven.chunk_pdf <bron-id>`. Extract-prompt: [`prompts/tarief-extractie-v1.md`](prompts/tarief-extractie-v1.md). Verify-prompt: [`prompts/tarief-verify-v1.md`](prompts/tarief-verify-v1.md). ADR-026 §3. |
-| **Aangifte-walkthrough bron schrijven** (PB-vakken, VenB) | Vision-handcrafted-extract via Sonnet-subagent met **twee bron-PDFs**: voorbereiding (codes) + toelichting (didactische blockquotes). Prompt: [`prompts/aangifte-handcrafted-v1.md`](prompts/aangifte-handcrafted-v1.md). **Belangrijk**: codes uitsluitend uit voorbereiding-PNG — geen training-kennis. Stijl-canonical: [`resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md`](resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md). |
-| **Archiveren v1.x records vóór 2.0-herextract** | `python3 -m tools.extractie.archive_voor_migratie --anchor-prefix <PO>` |
+| **Examenvragen indexeren / zoeken** | `python3 -m tools.rag.rag_index --add-vragen` · MCP-tool `zoek_vragen` (args: `query`, `top_k=5`, optioneel `programmaonderdeel_id`) |
+| **Render leermateriaal** (fiches + minicursus) | `tools/leermateriaal/` — ADR-007, ADR-010 *(schema 2.0; render-laag voor schema 2.1 v1.5 in [`docs/render-laag.md`](docs/render-laag.md))* |
+| **Tarief-record schrijven of trusten** | [`tools/lib/tarieven_api.py`](tools/lib/tarieven_api.py) — `save_record` · `mark_trusted` · `audit_parity`. ADR-026. |
+| **Tarief-extractie pipeline** (vision-extract) | Chunker: `python3 -m tools.tarieven.chunk_pdf <bron-id>`. Prompts: `prompts/tarief-extractie-v1.md` + `prompts/tarief-verify-v1.md`. ADR-026 §3. |
+| **Aangifte-walkthrough bron schrijven** (PB-vakken, VenB) | Vision-handcrafted-extract met **twee bron-PDFs** (voorbereiding + toelichting). Prompt: `prompts/aangifte-handcrafted-v1.md`. ADR-028. Stijl-canonical: `resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md`. |
+| EXTRACT v4 — legacy schema 1.6-flow | `prompts/concept-extractie-v4.md` *(legacy — schema 2.1 v1.5 + multipass-operaties is canoniek)* |
 
 ---
 
@@ -73,7 +82,7 @@ Deze regels gelden bij elke sessie en elke agent:
 
 8. **Geen afkortingen in code, docs en schema's.** Volledige namen overal: `programmaonderdeel` (niet `PO`), `kenniselement` (niet `TDK`), enzovoort. Geldt voor bestandsnamen, veldnamen, mapnamen, ADR-titels en commit-messages. In een gesprek met de gebruiker zijn afkortingen wél OK — daar gaat snelheid boven volledigheid.
 
-9. **Geen leftovers — ongebruikte code weg.** Scripts, modules, tests, frontmatter-velden en docstring-verwijzingen die geen functie meer hebben gaan weg (`git rm`), niet "voor later". One-off migratie- en backfill-scripts worden verwijderd zodra ze hun werk gedaan hebben. ADRs en docstrings die naar verwijderde code refereren worden in dezelfde commit bijgewerkt. Bij twijfel: kort vragen, anders weg.
+9. **Geen leftovers — ongebruikte code en docs weg.** Scripts, modules, tests, frontmatter-velden, docstring-verwijzingen, sessie-handoffs en superseded ADRs die geen functie meer hebben gaan weg (`git rm`) of naar archive/, niet "voor later". One-off migratie- en backfill-scripts worden verwijderd zodra ze hun werk gedaan hebben. ADRs en docstrings die naar verwijderde code refereren worden in dezelfde commit bijgewerkt. Bij twijfel: kort vragen, anders weg.
 
 ---
 
@@ -83,58 +92,58 @@ Deze regels gelden bij elke sessie en elke agent:
 
 ```
 certificaid/
-├── CLAUDE.md                    # Deze wegwijzer
+├── CLAUDE.md                    # Deze wegwijzer + doc-discipline + 9 absolute regels
 ├── docs/
-│   ├── concept-schrijfregels.md  # Inhoudelijke conventies voor concept- en competentie-records
-│   └── adr/                    # Architecture Decision Records
+│   ├── TODO.md                  # Openstaand werk + fase-status (source-of-truth)
+│   ├── roadmap.md               # Architectuur-evolutie (high-level)
+│   ├── adr/                     # Architecture Decision Records
+│   │   ├── INDEX.md             # ADR-index + taak→ADR mapping
+│   │   └── archive/             # Superseded ADRs + bevroren werkdocs
+│   ├── schema-v15-besluit.md    # Canonieke spec schema 2.1 v1.5
+│   ├── render-laag.md           # Werkpakket-spec render-laag (Fase 7)
+│   ├── concept-schrijfregels.md       # Inhoudelijke conventies concept- en competentie-records
+│   ├── studiemateriaal-schrijfregels.md
+│   └── examenpatronen-ontwerp.md
+├── prompts/                     # Uitvoeringsinstructies voor agents (één canonieke versie per type)
+│   ├── multipass/               # Schema 2.1 v1.5 operatie-prompts (extractie v6)
+│   ├── concept-extractie-v4.md  # Legacy schema 1.6
+│   ├── skeleton-voorstel-v1.md
+│   ├── aangifte-handcrafted-v1.md
+│   └── tarief-{extractie,verify}-v1.md
 ├── content/
-│   ├── programmaonderdelen/    # Programmaonderdeel-fiches (catalogus per vak, legacy)
-│   ├── concepten/              # Concept-fiches (deterministisch gegenereerd, ADR-007/010)
-│   ├── competenties/           # Competentie-fiches (deterministisch gegenereerd, ADR-007/010)
-│   ├── studiemateriaal/        # Minicursussen per PO (skeleton + Opus-glue)
-│   ├── materie/                # Materie-fiches (concepten, legacy)
-│   └── bronnen/                # Primaire bronnen als site-content
+│   ├── concepten/               # Concept-fiches (rendered)
+│   ├── competenties/            # Competentie-fiches (rendered)
+│   ├── studiemateriaal/         # Minicursussen per programmaonderdeel
+│   ├── experiment/              # Schema-mockups (referentie)
+│   ├── voorbeeldexamens/        # Voorbeeldexamen-fiches
+│   └── bronnen/                 # Primaire bronnen als site-content
 ├── resources/
-│   ├── bronnen/                # Doorzoekbare bronbestanden (grep/Read)
-│   │   ├── wetteksten/         # Wetteksten als markdown
-│   │   ├── normen/             # ITAA-normen
-│   │   └── adviezen/           # CBN-adviezen
-│   ├── source_config.yaml      # Enige bron van waarheid voor alle bronnen
-│   └── po-builder-prompt.md    # Startbericht po-builder scheduled agent (legacy)
+│   ├── bronnen/                 # Doorzoekbare bronbestanden (wetteksten/, normen/, adviezen/)
+│   └── source_config.yaml       # Enige bron-van-waarheid voor alle bronnen
 ├── tools/
-│   ├── download/               # Bron ophalen (CBN-adviezen, ITAA-normen)
-│   ├── etl/                    # PDF/HTML → markdown wetteksten + reprocessing
-│   ├── rag/                    # ChromaDB-index bouwen + bevragen
-│   ├── extractie/              # Concept- en keyword-extractie
-│   ├── leermateriaal/          # Drie-lagen render-tooling (ADR-007/008/010)
-│   │   ├── lib/                # Helpers (confidence, wikilinks, frontmatter, jinja_env, validate)
-│   │   ├── templates/          # Jinja2-templates (concept_fiche, competentie_fiche, minicursus)
-│   │   ├── render_concept_fiche.py
-│   │   ├── render_competentie_fiche.py
-│   │   ├── render_minicursus.py
-│   │   ├── propose_competenties.py  # Fase D subagent-runner
-│   │   └── propose_leerpad.py      # Fase E subagent-runner
-│   ├── examen/                 # Examenpatronen + question review
-│   ├── export/                 # Externe exports (NotebookLM)
-│   └── lib/                    # Gedeelde bibliotheken (retrieval, cleanup)
-├── tutor/app.py                # Streamlit tutor
+│   ├── download/                # Bron ophalen
+│   ├── etl/                     # PDF/HTML → markdown + reprocessing
+│   ├── rag/                     # ChromaDB-index bouwen + bevragen
+│   ├── extractie/               # Concept-extractie (incl. embedding_daemon, MCP-server)
+│   ├── tarieven/                # Tarief-extractie (MCP-server + chunk_pdf)
+│   ├── leermateriaal/           # Render-tooling (legacy schema 2.0; revisie in Fase 7)
+│   ├── examen/                  # Examenpatronen + question review
+│   ├── export/                  # Externe exports (NotebookLM)
+│   └── lib/                     # Gedeelde bibliotheken (records_api, tarieven_api, retrieval)
+├── tutor/app.py                 # Streamlit tutor
 ├── data/
-│   ├── bronnen-index.json      # Bronnen-index (top-level, auto-gegenereerd)
-│   ├── programma/              # Examenprogramma-input
-│   │   ├── programma.json      # Bron van waarheid: alle 19 PO's
-│   │   ├── anchors.json        # Per-anchor verrijking (ADR-008)
-│   │   ├── exam_patterns/
-│   │   └── examen_vragen/
-│   ├── etl/                    # ETL-werk op bronnen
-│   │   └── qa/                 # QA-rapporten (gitignored)
-│   ├── rag/                    # ChromaDB-instance (gitignored, herbouwbaar)
-│   │   └── main/               # Hoofd-index over alle trusted bronnen
-│   ├── concepten/              # Kennislaag + history
-│   │   ├── records/            # Concept records (gegit)
-│   │   ├── competenties/       # Competentie-YAML's (schema 1.0, ADR-007)
-│   │   ├── leerpaden/          # Leerpad-YAML's per PO (schema 1.0, ADR-007)
-│   │   └── _archive/           # Archief (gitignored)
-│   └── extractie/              # Werkfolder extractie-pipeline (incl. gaps.json — unified feedback-stroom)
+│   ├── bronnen-index.json       # Bronnen-index (top-level, auto-gegenereerd)
+│   ├── programma/               # Examenprogramma-input (programma.json + anchors.json + examen_vragen/)
+│   ├── concepten/
+│   │   ├── records/             # Schema 2.1 v1.5 records (396 stuks)
+│   │   ├── schema-2.1.schema.json
+│   │   ├── competenties/        # Competentie-YAML's
+│   │   ├── leerpaden/           # Leerpad-YAML's per programmaonderdeel
+│   │   └── _archive/            # Pre-2.1 records (gitignored)
+│   ├── tarieven/                # Tarief-records (Cijferzakboekje, ADR-026)
+│   ├── etl/qa/                  # QA-rapporten (gitignored)
+│   ├── rag/                     # ChromaDB-instance (gitignored, herbouwbaar)
+│   └── extractie/               # Werkfolder extractie-pipeline
 └── .github/workflows/deploy.yml
 ```
 
