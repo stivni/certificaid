@@ -34,12 +34,12 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-024](ADR-024-visuele-llm-interpretatie-examenvragen.md) | Visuele LLM-interpretatie van examenvragen via per-vraag artefacten | Accepted |
 | [ADR-025](archive/ADR-025-schema-20-didactische-conceptlaag.md) | Schema 2.0 — didactische concept-laag (rol × perspectief · element-vocabulaire · kader/familie kinds) | Superseded — vervangen door ADR-029 |
 | [ADR-026](ADR-026-tarief-records-vision-extractie.md) | Tarief-records via vision-extractie + MCP-lookup | Draft |
-| [ADR-027](ADR-027-bundle-aware-extract-architectuur.md) | Bundle-aware extract (2-pass) + daemon v2.0 (batching, gating, concurrent index) | Accepted — bundle-prompt verplaatst naar `prompts/multipass/` (zie ADR-029) |
+| [ADR-027](ADR-027-bundle-aware-extract-architectuur.md) | Bundle-aware extract (2-pass) + daemon v2.0 (batching, gating, concurrent index) | Accepted — bundle-prompt verplaatst naar `prompts/operaties/` (zie ADR-029) |
 | [ADR-029](ADR-029-schema-21-operaties-model.md) | Schema 2.1 (v1.5) — didactische conceptlaag + operations-model (`beschrijven`, `claims_checken`, `relaties_aanvullen`, `accountant_perspectief`, `didactisch_verrijken`, `kandidaat_review`, `leespad_aanvullen`) | Draft |
 
 ## Roadmap
 
-[`docs/roadmap.md`](../roadmap.md) — fasering, DoD per fase, POC-strategie. Werkdocument, geen ADR.
+[`docs/TODO.md`](../TODO.md) — openstaand werk + fase-status + mindset-principes (incl. POC vertical-slice + "never done"-DoD). Werkdocument, geen ADR.
 
 ## Taak → relevante ADRs
 
@@ -52,9 +52,9 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | ETL-pipeline aanpassen (extractor of transformer) | ADR-005 §3 (extractors), §4 (transformers), §1 (determinisme) — vergeet snapshot-vangnet niet (`tests/test_pipeline_snapshots*.py`) |
 | RAG-index bouwen of bevragen | ADR-006 (RAG-strategie) |
 | Concept-record maken of aanvullen | ADR-007 (model) → **ADR-029 voor schema 2.1 v1.5** (canoniek), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling), ADR-018 (embedding-daemon voor live duplicate-check), ADR-019 (records-API als enige schrijfweg) |
-| Schema 2.1 v1.5 concept-record (kern-wrapper, fractale elementen, valkuilen/speelruimtes/syntheses, accountant_perspectieven) | ADR-029 + `docs/schema-v15-besluit.md` (canonieke spec) + `data/concepten/schema-2.1.schema.json` + operatie-prompts in `prompts/multipass/` |
+| Schema 2.1 v1.5 concept-record (kern-wrapper, fractale elementen, valkuilen/speelruimtes/syntheses, accountant_perspectieven) | ADR-029 + `docs/schema-v15-besluit.md` (canonieke spec) + `data/concepten/schema-2.1.schema.json` + operatie-prompts in `prompts/operaties/` |
 | Operatie toepassen op concept-record (`beschrijven`, `claims_checken`, `relaties_aanvullen`, `accountant_perspectief`, `didactisch_verrijken`, `kandidaat_review`, `leespad_aanvullen`) | ADR-029 §Operaties-model — `tools/extractie/multi_pass_extract.py operate --operatie <naam>` |
-| Bundle-aware extract (2-pass — historisch v5; bundle-concepten leven door in multipass-operaties) | ADR-027 (rationale + daemon v2.0) — `tools/extractie/build_context_bundle.py`, `tools/extractie/build_bundles_batch.py` |
+| Bundle-aware extract (2-pass — historisch v5; bundle-concepten leven door in operaties-pipeline) | ADR-027 (rationale + daemon v2.0) — `tools/extractie/build_context_bundle.py`, `tools/extractie/build_bundles_batch.py` |
 | Daemon-throughput-tuning of restart | ADR-018 + ADR-027 — `tools/extractie/embedding_daemon.py` (v2.0 met batching/gating), config in `tools/extractie/daemon_config.yaml`, hot-reload `launchctl kickstart -k gui/$(id -u)/com.certificaid.embedding-daemon` |
 | Concept-record hernoemen of verwijderen | ADR-019 (`rename_record` / `delete_record` — geen directe disk-ops) |
 | Embedding-daemon starten/stoppen/diagnose | ADR-018 |

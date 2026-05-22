@@ -227,10 +227,8 @@ bevat · valt_onder · triggert · beinvloed_door · vereist · is_uitzondering_
    - `keuzekader` → `syntheses[0]` met `type: keuzekader`
    - `gebruikscontext.trigger_start/einde/voordeel/risico` naar arrays
 
-3. **Prompts updaten**:
-   - `prompts/multipass/run-1-draft.md` → naar `beschrijven`-operatie-prompt
-   - Andere run-prompts naar operatie-naam
-   - Schema-comments-driven (kortere prompts mogelijk)
+3. **Prompts updaten** ✅ (2026-05-23):
+   - `prompts/multipass/` verwijderd; vervangen door `prompts/operaties/` — 5 slanke operatie-prompts (schema-driven, 60-93 regels elk).
 
 4. **Scripts updaten**:
    - `skeleton_from_candidate.py`: gebruik nieuwe `ankers`, `kern.definitie`-structuur, etc.
@@ -253,8 +251,8 @@ bevat · valt_onder · triggert · beinvloed_door · vereist · is_uitzondering_
 | `tools/extractie/build_records_index.py` | Index-builder | Update veldnamen |
 | `tools/extractie/multi_pass_extract.py` | Orchestrator-helper | Update rapport-velden |
 | `tools/extractie/migrate_records_to_v14.py` | Vorige migratie | Template voor v15 |
-| `prompts/multipass/run-1-draft.md` | Beschrijven-prompt | Update naar nieuwe schema-structuur |
-| `prompts/multipass/run-{2,3,4,5}-*.md` | Andere operatie-prompts | Update |
+| `prompts/operaties/beschrijven.md` | Beschrijven-prompt | Klaar (slanke rewrite 2026-05-23) |
+| `prompts/operaties/{accountant_perspectief,didactisch_verrijken,relaties_aanvullen,claims_checken}.md` | Andere operatie-prompts | Klaar (slanke rewrite 2026-05-23) |
 | `docs/adr/ADR-029-schema-21-operaties-model.md` | Operaties-model ADR | Update voor v1.5 |
 | `docs/render-laag.md` | Render-laag spec | Werkpakket Fase 7 |
 | `docs/adr/archive/schema-feedback-22mei.md` | Discussietracker | Bevroren (historisch) |
@@ -287,7 +285,7 @@ E3 (rol-element sturing) is op 2026-05-23 gepromoveerd van "uitgesteld / light-t
 
 **Documentatie van deze regel**:
 - Schema: `$comment` op `inhoud.elementen` + `$defs/perspectief` + `$defs/rol_invulling` in `data/concepten/schema-2.1.schema.json`
-- Prompts: secties "Plaatsingsregel" in `prompts/multipass/run-1-draft.md` + `run-2-rollen.md`
+- Prompts: secties "Plaatsingsregel" in `prompts/operaties/beschrijven.md` + `prompts/operaties/accountant_perspectief.md`
 - ADR: zie ADR-029 §E3 (geüpdatet)
 
 **Open (wave-2)**: diepere per-rol-element-typering — bv. of `boekhouder.elementen[]` altijd één `weergave_type=boeking` moet hebben. Empirisch evalueren na ≥ 50 ingevulde records.

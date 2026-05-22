@@ -98,7 +98,7 @@ Voor de 396 nieuwe skelet-records: born-on-2.1, geen migratie.
 ## Gevolgen
 
 - **`tools/extractie/multi_pass_extract.py`** vervangen door `operate`-CLI met operatie-naam als arg
-- **`prompts/multipass/`** → `prompts/operaties/<naam>.md`
+- **`prompts/operaties/<naam>.md`** — 5 slanke operatie-prompts (schema-driven, 60-93 regels elk; `prompts/multipass/` verwijderd 2026-05-23)
 - **`metadata.changelog[].operatie`** verplicht (na deze ADR)
 - Validator hoeft niet aangepast: schema 2.1 is operatie-agnostisch
 - ADR-025 §schema-2.0-records-fields verouderd — verwijst nu naar dit ADR
@@ -202,7 +202,7 @@ Vuistregels per rol:
 
 Concept-intrinsieke procedures (wettelijke termijn, dwingende formaliteiten als onderdeel van een verrichting) blijven in `inhoud.elementen`. Bij dubbeling: kruisverwijs via `relaties[]` op de claim, niet dupliceren.
 
-**Documentatie**: `$comment` op `inhoud.elementen` + `$defs/perspectief` + `$defs/rol_invulling` in schema; "Plaatsingsregel"-secties in `prompts/multipass/run-1-draft.md` + `run-2-rollen.md`; samengevat in `docs/schema-v15-besluit.md`.
+**Documentatie**: `$comment` op `inhoud.elementen` + `$defs/perspectief` + `$defs/rol_invulling` in schema; "Plaatsingsregel"-secties in `prompts/operaties/beschrijven.md` + `prompts/operaties/accountant_perspectief.md`; samengevat in `docs/schema-v15-besluit.md`.
 
 **Open (na wave-2)**: diepere per-rol-element-typering — bv. of `rol=boekhouder.elementen[]` altijd één `weergave_type=boeking` moet hebben. Empirisch evalueren met ≥ 50 ingevulde records. Hier blijft licht-prompt-discipline gelden.
 

@@ -19,8 +19,8 @@ Bij twijfel "waar zoek ik X?": deze tabel beslist. Pak nooit een handoff of memo
 | **ADR** | `docs/adr/ADR-NNN-*.md` | Architectuurbeslissing — de waarheid over een keuze + rationale | Permanent (kan superseded worden door later ADR) |
 | **Schrijfregels** | `docs/concept-schrijfregels.md`, `docs/studiemateriaal-schrijfregels.md` | Inhoudelijke conventie — hoe content geschreven moet | Permanent (incrementeel bijgewerkt) |
 | **Werkpakket-spec** | `docs/schema-v15-besluit.md`, `docs/render-laag.md` | Gedetailleerde spec voor een lopende implementatie-ronde | Tot werkpakket klaar; daarna bevroren of geabsorbeerd in ADR |
-| **TODO / roadmap** | `docs/TODO.md`, `docs/roadmap.md` | Openstaand werk + fase-status — *de* status-bron | Levend |
-| **Prompt** | `prompts/<naam>.md` of `prompts/multipass/<operatie>.md` | Uitvoeringsinstructie aan een (Sonnet) agent | Eén canonieke versie per type; oude versies weg |
+| **TODO / roadmap** | `docs/TODO.md` | Openstaand werk + fase-status + mindset-principes — *de* status-bron. Voltooid werk leeft hier niet (zie ADR/git). | Levend |
+| **Prompt** | `prompts/<naam>.md` of `prompts/operaties/<operatie>.md` | Uitvoeringsinstructie aan een (Sonnet) agent | Eén canonieke versie per type; oude versies weg |
 | **Memory** | `~/.claude/projects/.../memory/` | Evergreen gedragsregels + design-rationale die niet in een ADR leeft | Levend; bij stale → archive/ |
 | **Handoff / sessie-md** | n.v.t. | **Bestaat niet**. Sessie-handoffs worden niet als permanente docs bewaard — info gaat naar TODO/ADR. | n.v.t. |
 
@@ -32,11 +32,10 @@ Regel 9 ("geen leftovers") geldt voor docs evenzeer als voor code: superseded AD
 
 | Taak | Zie |
 |---|---|
-| Openstaand werk + fase-status | [`docs/TODO.md`](docs/TODO.md) |
-| Roadmap (architectuur-evolutie) | [`docs/roadmap.md`](docs/roadmap.md) |
+| Openstaand werk + fase-status + mindset | [`docs/TODO.md`](docs/TODO.md) |
 | Architectuurbeslissing opzoeken of toevoegen | [`docs/adr/INDEX.md`](docs/adr/INDEX.md) |
 | **Schema 2.1 v1.5 concept-record schrijven** | [ADR-029](docs/adr/ADR-029-schema-21-operaties-model.md) + canonieke spec [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md) + schema [`data/concepten/schema-2.1.schema.json`](data/concepten/schema-2.1.schema.json) |
-| **Operatie toepassen op schema 2.1-record** (extractie v6) | ADR-029 §Operaties-model — 7 operaties: `beschrijven` · `claims_checken` · `relaties_aanvullen` · `accountant_perspectief` · `didactisch_verrijken` · `kandidaat_review` · `leespad_aanvullen`. Prompts: [`prompts/multipass/`](prompts/multipass/) |
+| **Operatie toepassen op schema 2.1-record** (extractie v6) | ADR-029 §Operaties-model — 7 operaties: `beschrijven` · `claims_checken` · `relaties_aanvullen` · `accountant_perspectief` · `didactisch_verrijken` · `kandidaat_review` · `leespad_aanvullen`. Prompts: [`prompts/operaties/`](prompts/operaties/) |
 | **Render-laag schema 2.1 v1.5** | [`docs/render-laag.md`](docs/render-laag.md) — werkpakket-spec; werk-tracking in TODO.md §Fase 7 |
 | **Skeleton-voorstel (pre-extractie stap 0)** | [`prompts/skeleton-voorstel-v1.md`](prompts/skeleton-voorstel-v1.md) — Opus-subagent met MCP-tools |
 | Concept-record schrijven of bewerken (records-API) | [`tools/lib/records_api.py`](tools/lib/records_api.py) — `save_record` / `rename_record` / `delete_record` / `audit_parity`. Atomair disk + RAG + content. Pre-commit hook. ADR-019. |
@@ -53,7 +52,7 @@ Regel 9 ("geen leftovers") geldt voor docs evenzeer als voor code: superseded AD
 | **Tarief-record schrijven of trusten** | [`tools/lib/tarieven_api.py`](tools/lib/tarieven_api.py) — `save_record` · `mark_trusted` · `audit_parity`. ADR-026. |
 | **Tarief-extractie pipeline** (vision-extract) | Chunker: `python3 -m tools.tarieven.chunk_pdf <bron-id>`. Prompts: `prompts/tarief-extractie-v1.md` + `prompts/tarief-verify-v1.md`. ADR-026 §3. |
 | **Aangifte-walkthrough bron schrijven** (PB-vakken, VenB) | Vision-handcrafted-extract met **twee bron-PDFs** (voorbereiding + toelichting). Prompt: `prompts/aangifte-handcrafted-v1.md`. ADR-028. Stijl-canonical: `resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md`. |
-| EXTRACT v4 — legacy schema 1.6-flow | `prompts/concept-extractie-v4.md` *(legacy — schema 2.1 v1.5 + multipass-operaties is canoniek)* |
+| EXTRACT v4 — legacy schema 1.6-flow | `prompts/concept-extractie-v4.md` *(legacy — schema 2.1 v1.5 + operatie-prompts is canoniek)* |
 
 ---
 
@@ -96,7 +95,6 @@ certificaid/
 ├── CLAUDE.md                    # Deze wegwijzer + doc-discipline + 9 absolute regels
 ├── docs/
 │   ├── TODO.md                  # Openstaand werk + fase-status (source-of-truth)
-│   ├── roadmap.md               # Architectuur-evolutie (high-level)
 │   ├── adr/                     # Architecture Decision Records
 │   │   ├── INDEX.md             # ADR-index + taak→ADR mapping
 │   │   └── archive/             # Superseded ADRs + bevroren werkdocs
@@ -105,7 +103,7 @@ certificaid/
 │   ├── concept-schrijfregels.md       # Inhoudelijke conventies concept- en competentie-records
 │   ├── studiemateriaal-schrijfregels.md
 ├── prompts/                     # Uitvoeringsinstructies voor agents (één canonieke versie per type)
-│   ├── multipass/               # Schema 2.1 v1.5 operatie-prompts (extractie v6)
+│   ├── operaties/               # Schema 2.1 v1.5 operatie-prompts (extractie v6)
 │   ├── concept-extractie-v4.md  # Legacy schema 1.6
 │   ├── skeleton-voorstel-v1.md
 │   ├── aangifte-handcrafted-v1.md

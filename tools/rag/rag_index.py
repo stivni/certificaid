@@ -36,7 +36,7 @@ Chunk-id-stabiliteit (ADR-006 §3.1):
 Device auto-detect:
   MPS (Apple Silicon) > CUDA > CPU. Override via --device.
 
-Scope-modus (POC vertical-slice, zie roadmap.md Fase 2):
+Scope-modus (POC vertical-slice, zie docs/TODO.md §Mindset):
   --scope path/to/<programmaonderdeel>-bronnen-scope.yaml
 
 Gebruik:

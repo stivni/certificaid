@@ -36,5 +36,5 @@ cross-cutting: reprocessing (ADR-003), provenance (ADR-004)
 ## Gevolgen
 
 - Elke laag heeft eigen DoD, eigen regressietests en eigen stale-mechaniek (ADR-003).
-- Volgorde van bouwen ≠ volgorde van afhankelijkheden: één POC-vertical-slice doorloopt alle lagen, daarna verbreding (zie [`roadmap.md`](../roadmap.md)).
+- Volgorde van bouwen ≠ volgorde van afhankelijkheden: één POC-vertical-slice doorloopt alle lagen, daarna verbreding (zie [`docs/TODO.md`](../TODO.md) §Mindset).
 - Beslissingen in deze ADR-stack zijn samen het architectuurkader; afwijken vereist een nieuwe ADR.
