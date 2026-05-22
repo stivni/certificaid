@@ -1,196 +1,120 @@
 ---
-title: Current ratio (liquiditeit in ruime zin)
+title: "Current ratio"
+concept_type: "ratio"
+schema_version: "2.1"
+status: "seed"
 tags:
-- concept
-- cluster
-- po-1-3
-- po-1-9
-linked_anchors:
-- 1.3.II.C
-- 1.3.taak.1
-- 1.9.V.D
-- 1.9.taak.1
-programmaonderdelen:
-- '1.3'
-- '1.9'
-confidence: inferred
-node_type: cluster
-status: seed
-schema_version: '1.6'
-gegenereerd_uit: data/concepten/records/current-ratio.json
-gegenereerd_op: '2026-05-21'
+  - concept
+  - schema-2.1
+  - ongeverifieerd
+gegenereerd_uit: "data/concepten/records/current-ratio.json"
 ---
-# Current ratio (liquiditeit in ruime zin) 🔗
 
-Meten of de vennootschap genoeg vlottende activa heeft tegenover haar schulden op ten hoogste een jaar. De current ratio is de breedst gebruikte liquiditeitsratio in ruime zin.
+# Current ratio
 
-> [!info] Behoort tot: [[liquiditeitsratio]]
+_Ratio_
 
+Model: `claude-sonnet-4-6` · Wave: `quick-pass-run1-20260522`
 
+> [!warning] ⚠️ Seed-fiche — claims niet gevalideerd
+> Deze fiche is automatisch gegenereerd uit één extractie-pas (`beschrijven`) zonder bron-validatie. Claims zijn overwegend `🤖 verondersteld` en kunnen hallucinaties bevatten. Gebruik **niet** voor examenvoorbereiding zolang `claims_checken` niet is uitgevoerd.
 
-## Bouwstenen
+**Afk.**: CR — **Synoniemen**: vlottende-activaratio · liquiditeitsratio in ruime zin
 
-### Vlottende activa tegenover korte schulden 🤖
+## Voorkennis & leespad
 
-Tel alle vlottende activa op (voorraden, handelsvorderingen, geldbeleggingen, liquide middelen) en deel door de schulden op ten hoogste een jaar.
+**Voorvereisten**: [[voorraden]] · [[handelsvorderingen]] · [[schulden-op-korte-termijn]] · [[geldbeleggingen-en-liquide-middelen]]
+**Naast relevant**: [[quick-ratio]] · [[cash-ratio]] · [[werkkapitaalbehoefte]]
+**Volgkennis**: [[jaarrekeninganalyse]] · [[faillissementspredictie-modellen]]
 
-**Waarom?** Als de vennootschap morgen al haar korte schulden moest betalen, kan ze dan voldoende cash genereren uit haar vlottende activa? Een verhouding van meer dan 1 betekent: theoretisch wel.
-
-
-
-Rotex Roeselare NV: vlottende activa € 8.000.000; schulden op ten hoogste een jaar € 4.000.000. Current ratio = € 8.000.000 / € 4.000.000 = 2,0.
-
-_Grondslag: Vakdoctrine financial analysis_
+## Gebruikscontext
 
 
-## Berekening
+**✅ Voor**
+- 🤖  <small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+- 🤖  <small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+- 🤖  <small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+- 🤖  <small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-### Berekening current ratio
+**🟢 Indicaties**
+- 🤖  <small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+- 🤖  <small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+- 🤖  <small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+- 🤖  <small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-**Current ratio** 
-```
-current ratio = vlottende activa / schulden op ten hoogste een jaar
-```
+## Inhoud
 
-| Symbool | Betekenis | Eenheid |
-|---|---|---|
-| `vlottende activa` | Voorraden + vorderingen ≤ 1 jaar + geldbeleggingen + liquide middelen + overlopende rekeningen actief | EUR |
-| `schulden op ten hoogste een jaar` | Passief-rubriek IX (financiële, handels, fiscale, sociale en andere schulden ≤ 1 jaar) + overlopende rekeningen passief | EUR |
+### Formule  
+_`formule`_
 
-**Voorbeeld-invulling**: Rotex: vlottende activa € 8.000.000; korte schulden € 4.000.000
+#### Weergave · `formule_expressie` 🤖
 
-```
-€ 8.000.000 / € 4.000.000 = 2,0
-```
-
-_Resultaat in verhoudingsgetal_
-*De vlottende activa zijn middelen die binnen het jaar (typisch) cash worden; de korte schulden moeten binnen het jaar betaald worden. Een veilige verhouding geeft buffer voor onverwachte tegenslagen.*
-
-### 1. Tel vlottende activa op
-
-Som de balansposten: voorraden + handelsvorderingen + andere vorderingen op ten hoogste een jaar + geldbeleggingen + liquide middelen + overlopende rekeningen actiefzijde.
-
-**Waarom?** Dit is de buffer waarmee de onderneming haar korte verplichtingen kan dekken.
-
-**📥 Input**:
-- Balans (actief) → **Voorraden, vorderingen, geldbeleggingen, liquide middelen** _(boekhoudkundig-bedrag)_
-
-**📤 Output**:
-- Werkblad → **Totaal vlottende activa** _(boekhoudkundig-bedrag)_
-
-**🛠️ Hoe**:
-
-1. Open de balans van Rotex Roeselare NV.
-2. Tel rubriek VI (voorraden + bestellingen) + VII (vorderingen op ten hoogste een jaar) + VIII (geldbeleggingen) + IX (liquide middelen) + X (overlopende rekeningen).
-3. Voor Rotex: € 2.500.000 + € 4.000.000 + € 500.000 + € 800.000 + € 200.000 = € 8.000.000.
-
-
-**Grondslag**: Vakdoctrine + KB WVV balansschema
-
-### 2. Lees schulden op ten hoogste een jaar
-
-Neem rubriek IX van de passiefzijde 'Schulden op ten hoogste een jaar' (financiële schulden ≤ 1 jaar, handelsschulden, fiscale en sociale schulden, andere) + overlopende rekeningen passiefzijde.
-
-**Waarom?** Dit zijn de verplichtingen die binnen 12 maanden moeten worden voldaan.
-
-**📥 Input**:
-- Balans (passief) → **Schulden op ten hoogste een jaar** _(boekhoudkundig-bedrag)_
-
-**📤 Output**:
-- Werkblad → **Totaal korte schulden** _(boekhoudkundig-bedrag)_
-
-**🛠️ Hoe**:
-
-1. Open passiefzijde balans Rotex.
-2. Lees rubriek IX totaal (€ 3.800.000) + overlopende rekeningen passief (€ 200.000) = € 4.000.000.
-
-
-**Grondslag**: KB WVV balansschema
-
-### 3. Bereken de verhouding
-
-Deel de vlottende activa door de korte schulden.
-
-**Waarom?** Geeft één getal — boven 1 = positief, onder 1 = signaal van mogelijk liquiditeitsprobleem.
-
-**📥 Input**:
-- Werkblad → **Teller en noemer** _(boekhoudkundig-bedrag)_
-
-**📤 Output**:
-- Ratio-tabel → **Current ratio** _(verhoudingsgetal)_
-
-**🛠️ Hoe**:
-
-1. € 8.000.000 / € 4.000.000 = 2,0.
-2. Plaats in vergelijking: vorig jaar 1,7; sectormediaan 1,5. Conclusie: liquiditeit verbeterd, sterker dan sector.
-
-
-> [!example]- Voorbeeld: Rotex Roeselare NV — boekjaar 20X1
-> Rotex Roeselare NV — boekjaar 20X1.
->
-> 1. **Inputgegevens balans** 📊
->
->    | Rotex Roeselare NV — extractie balans      | Bedrag (€) |
->    |--------------------------------------------|-----------:|
->    | Voorraden                                  |  2.500.000 |
->    | Handelsvorderingen ≤ 1 jaar                |  4.000.000 |
->    | Geldbeleggingen                            |    500.000 |
->    | Liquide middelen                           |    800.000 |
->    | Overlopende rekeningen (actief)            |    200.000 |
->    | **Totaal vlottende activa**                | **8.000.000** |
->    | Schulden ≤ 1 jaar (incl. overlopende pass) |  4.000.000 |
->
-> 2. **Berekening current ratio** 🧮
->
->    Current ratio = € 8.000.000 / € 4.000.000 = **2,0**
->
-
-**Grondslag**: Vakdoctrine financial analysis
-
-**Voorbeeld**: Rotex Roeselare NV: vlottende activa € 8.000.000; schulden op ten hoogste een jaar € 4.000.000.
-
-```
-Current ratio = € 8.000.000 / € 4.000.000 = 2,0.
+```json
+{
+  "expressie": "CR = Vlottende activa / Schulden op korte termijn",
+  "eenheid": "dimensieloos (verhouding)"
+}
 ```
 
-Resultaat: Een current ratio van 2,0 wordt traditioneel als comfortabel gezien. Lager dan 1 betekent dat de korte schulden de vlottende activa overschrijden — een waarschuwingssignaal.
+### Teller — vlottende activa 🤖  
+_`subconcept`_
 
-## In de praktijk
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-<h3 id="1.3.II.C">Een waarde van 1 of meer is ondergrens</h3>
+### Noemer — schulden op korte termijn 🤖  
+_`subconcept`_
 
-> [!tip]- Een waarde van 1 of meer is ondergrens
-> Onder 1 = vlottende activa kleiner dan korte schulden = signaal van mogelijk acuut betalingsprobleem. Boven 2 = ruime liquiditeitsbuffer maar kan ook signaleren dat middelen niet productief worden ingezet. 🤖
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-> [!tip]- Herkennen op het examen
-> Examenanalyse: niet alleen 'ratio = 2,0' maar plaats in evolutie + sectorvergelijking + samen met de quick ratio.
+### Interpretatie — drempelwaarden 🤖  
+_`vuistregel`_
 
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-> [!info]- Niet verwarren met [[quick-ratio]]
-> Current ratio neemt alle vlottende activa, ook voorraden. Quick ratio (zuurtegraad) sluit voorraden uit omdat die niet zo snel cash worden. Bij voorraadintensieve sectoren (groothandel, productie) ligt current ratio veel hoger dan quick ratio.
->
-> _Trigger_: Examenvraag 'liquiditeit in ruime / enge zin?': ruim = current; eng = quick.
+### Beperking — voorraden zijn niet altijd liquide 🤖  
+_`mechanisme`_
 
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-## Valkuilen
+### Sectorafhankelijkheid 🤖  
+_`vuistregel`_
 
-> [!warning]- Een hoge current ratio is niet automatisch goed
-> ⚠️ Een hoge current ratio is niet automatisch goed. Bij overdreven voorraden of trage handelsvorderingen is de liquiditeit cijfermatig sterk maar operationeel zwak. Check altijd de quick ratio en de rotatie van voorraden/vorderingen. 🤖
->
-> _Bron: Financial analysis_
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+### Relatie met werkkapitaalbehoefte 🤖  
+_`mechanisme`_
 
-> [!warning]- Sommige balansen tonen 'Vorderingen op meer dan een jaar' onder vaste activa
-> ⚠️ Sommige balansen tonen 'Vorderingen op meer dan een jaar' onder vaste activa. Zorg dat je enkel vorderingen op ten hoogste een jaar in de teller meeneemt, anders overschat je de liquiditeit. 🔗
->
-> _Bron: Financial analysis_
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+### Beperking — momentopname op balansdatum 🤖  
+_`mechanisme`_
 
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-## Zie ook
+## Relaties
 
-- **Vereist kennis van**: [[werkkapitaal]]
-- **Wordt voorondersteld in** (1): [[ohlson-o-score]]
-## Bronnen
-
-[^1]: `anchor-1.3.II.C`
+### `vergelijkbaar_met`
+- [[quick-ratio]] — De quick ratio sluit voorraden uit de teller uit, waardoor een strengere liquiditeitsmeting ontstaat; de current ratio is ruimer en overschat de liquiditeit als de voorraden illiquide zijn.
+    - **Gelijkenissen**:
+        - Beide meten kortetermijnliquiditeit als verhouding van activa tot schulden op korte termijn.
+        - Beide zijn gebaseerd op balanswaarden per afsluitdatum.
+    - **Verschillen**:
+        - Quick ratio sluit voorraden (en soms overlopende posten) uit.
+        - Current ratio is altijd ≥ quick ratio voor dezelfde onderneming.
+    - ⚠️ **Verwarringsrisico**: Studenten gebruiken de termen soms door elkaar; de keuze hangt af van hoe liquide de voorraden zijn.
+- [[cash-ratio]] — De cash ratio is de meest conservatieve liquiditeitsratio: alleen geldbeleggingen en liquide middelen in de teller. Relevant bij acute liquiditeitsnood.
+    - **Gelijkenissen**:
+        - Beide zijn liquiditeitsratios die kortlopende schulden als noemer gebruiken.
+    - **Verschillen**:
+        - Cash ratio bevat enkel de meest liquide activa; current ratio bevat alle vlottende activa.
+        - Cash ratio < quick ratio ≤ current ratio voor dezelfde onderneming.
+    - ⚠️ **Verwarringsrisico**: De drie liquiditeitsratios worden soms verward; ze vormen een spectrum van liquiditeitsstringentie.
+### `beinvloed_door`
+- [[werkkapitaalbehoefte]] 🤖 — Een stijgende werkkapitaalbehoefte druk de current ratio omlaag als de financiering niet mee groeit.
+- [[voorraden]] 🤖 — Omvang en liquiditeit van de voorraden bepalen mede de betrouwbaarheid van de current ratio als liquiditeitsmaatstaf.
+- [[schulden-op-korte-termijn]] 🤖 — Elke toename van de kortlopende schulden (bv. herschikking van langlopend naar kortlopend deel) vermindert de current ratio direct.
+### `valt_onder`
+- [[jaarrekeninganalyse]] 🤖
+### `triggert`
+- [[faillissementspredictie-modellen]] 🤖 — Een structureel lage current ratio is een van de inputvariabelen in modellen zoals Altman Z-score en Daelen-model voor faillissementspreventie.
+- [[continuiteit-going-concern]] 🤖 — Een aanhoudend lage of dalende current ratio is een indicator die de auditor in overweging neemt bij de beoordeling van de going-concern-veronderstelling.

@@ -1,863 +1,437 @@
 ---
-title: "Concept-index"
+title: "Concepten (schema 2.1)"
 tags:
   - catalogus
-gegenereerd_op: '2026-05-20'
 ---
 
-# Concept-index
+# Concepten — schema 2.1 (in opbouw)
 
-Alle concept-records, gegroepeerd per programmaonderdeel. Een concept kan in meerdere PO's voorkomen via `linked_anchors`.
+Nieuwe didactische conceptlaag, gestuurd door [`schema 2.1`](https://github.com/stivni/certificaid/blob/main/data/concepten/schema-2.1.schema.json) (ADR-025 + ADR-029). Bron-JSON in `data/concepten/records/`.
 
-**Totaal**: 674 concept-records over 10 programmaonderdelen.
+**Stand van zaken**: 396 records — 396 gevuld (100%), 0 stub. Met `claims_checken`: 0.
 
-## 1.1 Algemene boekhouding (66 records)
+> [!warning] Render is voor **inspectie**, niet voor studie
+> Vrijwel alle claims zijn nog `🤖 verondersteld` (één-pas-extractie). Gebruik niet voor examenvoorbereiding zolang records geen `claims_checken` doorlopen hebben. Oude schema 2.0-fiches: [Archief](_archive/).
 
-<div class="two-column-list">
+## Legenda
 
-- [[aanschaffingswaarde|Aanschaffingswaarde]] · `begrip`
-- [[afschrijvingen|Afschrijvingen]] · `cluster`
-- [[balans|Balans (jaarrekening-component)]] · `cluster`
-- [[resultaat-categorisatie-beslisboom|Bedrijfs- · financieel · niet-recurrent &mdash; in welke categorie hoort deze verrichting?]] · `synthese`
-- [[bedrijfsresultaat|Bedrijfsresultaat (bedrijfskosten en bedrijfsopbrengsten)]] · `cluster`
-- [[bedrijfsvorderingen|Bedrijfsvorderingen]] · `begrip`
-- [[eigen-aandelen|Beheer van eigen aandelen]] · `cluster`
-- [[bewaring-boekhoudstukken|Bewaring van boekhoudkundige stukken]] · `regel`
-- [[bijzondere-waardevermindering|Bijzondere waardevermindering (regime-overstijgend)]] · `cluster`
-- [[boeken-aankoop-verkoop-met-btw|Boeken van een aankoop en verkoop met btw en betaling]] · `competentie`
-- [[boeken-voorzieningen-voor-risicos-en-kosten|Boeken van een voorziening voor risico's en kosten]] · `competentie`
-- [[boeken-oprichtings-en-kapitaalverhogingskosten|Boeken van oprichtings- en kapitaalverhogingskosten en hun afschrijving]] · `competentie`
-- [[boeken-resultaatverwerking-en-bestemming|Boeken van resultaatverwerking en bestemming (reserves, dividenden, belasting)]] · `competentie`
-- [[boeken-uitgifte-en-aflossing-obligatielening|Boeken van uitgifte en aflossing van een obligatielening]] · `competentie`
-- [[boeken-waardeverminderingen-op-vorderingen-en-voorraden|Boeken van waardeverminderingen op vorderingen en voorraden]] · `competentie`
-- [[boekhoudbeginselen-overzicht|Boekhoudbeginselen &mdash; overzicht]] · `synthese`
-- [[continuiteitsbeginsel|Boekhoudkundig continuïteitsbeginsel (going concern)]] · `regel`
-- [[boekhoudkundige-verwerking-insolventie-akkoord|Boekhoudkundige verwerking van een insolventie-akkoord]] · `regel`
-- [[boekjaar-eindprocedure-checklist|Boekjaar afsluiten &mdash; van proefbalans tot neerlegging]] · `synthese`
-- [[dagboek|Dagboek]] · `begrip`
-- [[dubbel-boekhouden|Dubbel boekhouden]] · `cluster`
-- [[eigen-middelen|Eigen middelen (eigen vermogen)]] · `cluster`
-- [[financieel-plan-oprichting|Financieel plan bij oprichting van een kapitaalvennootschap]] · `cluster`
-- [[financiele-vaste-activa|Financiële vaste activa]] · `begrip`
-- [[financiele-verrichtingen|Financiële verrichtingen (kosten + opbrengsten)]] · `cluster`
-- [[geldbeleggingen|Geldbeleggingen en liquide middelen]] · `begrip`
-- [[getrouw-beeld|Getrouw beeld]] · `regel`
-- [[herwaarderingsmeerwaarden|Herwaarderingsmeerwaarden]] · `cluster`
-- [[immateriele-vaste-activa|Immateriële vaste activa]] · `begrip`
-- [[inventaris|Inventaris]] · `cluster`
-- [[jaarrekening|Jaarrekening (synthesedocumenten)]] · `cluster`
-- [[jaarrekening-presentatie|Jaarrekeningpresentatie (regime-overstijgend)]] · `cluster`
-- [[kapitaalwijziging|Kapitaalwijziging (verhoging en vermindering)]] · `cluster`
-- [[kleine-vennootschap|Kleine vennootschap (WVV art. 1:24)]] · `begrip`
-- [[kwalificeren-en-boeken-leasing|Kwalificeren en boeken van leasing (operationeel vs financieel)]] · `competentie`
-- [[leasing|Leasing (financieel en operationeel)]] · `cluster`
-- [[materiele-vaste-activa|Materiële vaste activa]] · `begrip`
-- [[niet-recurrente-verrichtingen|Niet-recurrente verrichtingen]] · `cluster`
-- [[obligatielening|Obligatielening]] · `cluster`
-- [[onveranderlijkheid-boekingen|Onveranderlijkheid van de boekingen]] · `regel`
-- [[opbrengsten-be-gaap|Opbrengsten onder BE GAAP (realisatiebeginsel)]] · `cluster`
-- [[oprichtingskosten|Oprichtingskosten]] · `cluster`
-- [[opsplitsing-eigendom|Opsplitsing eigendom (vruchtgebruik, opstal, erfpacht)]] · `cluster`
-- [[opstellen-openingsbalans-vennootschap|Opstellen van de openingsbalans van een nieuwe vennootschap]] · `competentie`
-- [[opstellen-afschrijvingsplan-vaste-activa|Opstellen van het afschrijvingsplan voor materiële vaste activa]] · `competentie`
-- [[overlopende-rekeningen|Overlopende rekeningen]] · `cluster`
-- [[rechten-verplichtingen-buiten-balans|Rechten en verplichtingen buiten balans]] · `cluster`
-- [[regelmatige-boekhouding|Regelmatige boekhouding]] · `cluster`
-- [[resultaatverwerking|Resultaatverwerking (winst- of verliesbestemming)]] · `cluster`
-- [[resultatenrekening|Resultatenrekening]] · `cluster`
-- [[schulden|Schulden (LT en KT)]] · `cluster`
-- [[toepassen-fundamentele-boekhoudbeginselen|Toepassen van de fundamentele boekhoudbeginselen op een concrete verrichting]] · `competentie`
-- [[uitgiftepremie|Uitgiftepremie]] · `begrip`
-- [[uitvoeren-eindejaarsverrichtingen-en-proefbalans|Uitvoeren van eindejaarsverrichtingen en opmaken van proefbalans]] · `competentie`
-- [[verantwoordingsstuk|Verantwoordingsstuk]] · `begrip`
-- [[vereenvoudigde-boekhouding|Vereenvoudigde boekhouding]] · `begrip`
-- [[vereffening|Vereffening van een vennootschap]] · `cluster`
-- [[verwerken-overlopende-rekeningen-matching|Verwerken van overlopende rekeningen volgens het matching-principe]] · `competentie`
-- [[voeren-boekhouding-vzw-met-economische-activiteit|Voeren van de boekhouding van een VZW met economische activiteit]] · `competentie`
-- [[voeren-regelmatige-dubbele-boekhouding|Voeren van een regelmatige dubbele boekhouding voor een onderneming]] · `competentie`
-- [[voorraden|Voorraden]] · `cluster`
-- [[voorzichtigheidsbeginsel|Voorzichtigheidsbeginsel]] · `regel`
-- [[voorzieningen|Voorzieningen voor risico's en kosten]] · `cluster`
-- [[waarderen-en-boeken-voorraden-fifo-ggp|Waarderen en boeken van voorraden volgens FIFO of gewogen gemiddelde]] · `competentie`
-- [[waardeverminderingen|Waardeverminderingen]] · `cluster`
-- [[wettelijke-reserve|Wettelijke reserve]] · `regel`
+- ✅ = gevuld (heeft `inhoud`)
+- 🌱 = stub (alleen metadata)
+- 📖 geciteerd · 🔗 afgeleid · 🤖 verondersteld (ai) · 🧠 verondersteld (mens) · ❓ betwijfeld · ❌ weerlegd
 
-</div>
+## Verrichtingen (17/17)
 
-## 1.2 Boekhoudrecht en jaarrekeningenrecht (76 records)
+- ✅ [[eerste-consolidatie|Eerste consolidatie]] · PO ?
+- ✅ [[eliminatie-intercompany|Eliminatie intercompany]] · PO ?
+- ✅ [[evenredige-consolidatie|Evenredige consolidatie]] · PO ?
+- ✅ [[fusie|Fusie]] · PO ?
+- ✅ [[herwaardering-vast-actief|Herwaardering vast actief]] · PO ?
+- ✅ [[inbreng-onroerend-in-vennootschap|Inbreng onroerend in vennootschap]] · PO ?
+- ✅ [[inbreng-van-bedrijfstak-of-algemeenheid|Inbreng van bedrijfstak of algemeenheid]] · PO ?
+- ✅ [[inkoop-eigen-aandelen|Inkoop eigen aandelen]] · PO ?
+- ✅ [[integrale-consolidatie|Integrale consolidatie]] · PO ?
+- ✅ [[kapitaalverhoging|Kapitaalverhoging]] · PO ?
+- ✅ [[kapitaalvermindering|Kapitaalvermindering]] · PO ?
+- ✅ [[omrekening-buitenlandse-dochter|Omrekening buitenlandse dochter]] · PO ?
+- ✅ [[ontbinding-en-vereffening|Ontbinding en vereffening]] · PO ?
+- ✅ [[splitsing|Splitsing]] · PO ?
+- ✅ [[uitkering-aan-aandeelhouders|Uitkering aan aandeelhouders]] · PO ?
+- ✅ [[vermogensmutatiemethode|Vermogensmutatiemethode]] · PO ?
+- ✅ [[wijziging-consolidatiekring|Wijziging consolidatiekring]] · PO ?
 
-<div class="two-column-list">
+## Procedures (87/87)
 
-- [[aanschaffingswaarde|Aanschaffingswaarde]] · `begrip`
-- [[aanvullende-boekhoudbeginselen|Aanvullende boekhoudbeginselen (voorzichtigheid, oprechtheid, continuïteit, consistentie)]] · `synthese`
-- [[afschrijvingen|Afschrijvingen]] · `cluster`
-- [[balans|Balans (jaarrekening-component)]] · `cluster`
-- [[belgisch-boekhoudrecht|Belgisch boekhoudrecht]] · `begrip`
-- [[beoordelen-commissaris-verplichting|Beoordelen of een vennootschap een commissaris moet benoemen en welk regime van toepassing is]] · `competentie`
-- [[bepalen-jaarrekeningschema|Bepalen welk jaarrekening-schema (volledig, verkort, micro) een vennootschap moet gebruiken]] · `competentie`
-- [[bestuursverslag|Bestuursverslag (jaarverslag)]] · `procedure`
-- [[bewaartermijn-boekhouding|Bewaartermijn van boeken en verantwoordingsstukken]] · `regel`
-- [[boekhoudbeginselen-overzicht|Boekhoudbeginselen &mdash; overzicht]] · `synthese`
-- [[continuiteitsbeginsel|Boekhoudkundig continuïteitsbeginsel (going concern)]] · `regel`
-- [[boekhoudplichtige-onderneming|Boekhoudplichtige onderneming]] · `begrip`
-- [[boekjaar-eindprocedure-checklist|Boekjaar afsluiten &mdash; van proefbalans tot neerlegging]] · `synthese`
-- [[cbn-adviezen|CBN-adviezen]] · `begrip`
-- [[commissaris|Commissaris]] · `autoriteit`
-- [[commissie-boekhoudkundige-normen|Commissie voor Boekhoudkundige Normen (CBN)]] · `autoriteit`
-- [[consistentiebeginsel|Consistentiebeginsel]] · `regel`
-- [[dagboek|Dagboek]] · `begrip`
-- [[dubbel-boekhouden|Dubbel boekhouden]] · `cluster`
-- [[eindejaarsverrichtingen|Eindejaarsverrichtingen (jaarafsluiting)]] · `procedure`
-- [[europees-boekhoudrecht|Europees boekhoudrecht]] · `begrip`
-- [[fod-financien-boekhoudrecht|FOD Financiën (boekhoudrechtelijke rol)]] · `autoriteit`
-- [[fsma|Financial Services and Markets Authority (FSMA)]] · `autoriteit`
-- [[getrouw-beeld|Getrouw beeld]] · `regel`
-- [[getrouw-beeld-jaarrekening|Getrouw beeld van de jaarrekening]] · `regel`
-- [[griffies-ondernemingsrechtbank|Griffies van de ondernemingsrechtbank]] · `autoriteit`
-- [[groottecriteria-jaarrekening|Groottecriteria (jaarrekening-context)]] · `regel`
-- [[herwaarderingsmeerwaarden|Herwaarderingsmeerwaarden]] · `cluster`
-- [[hulpdagboeken|Hulpdagboeken]] · `begrip`
-- [[identificeren-administratieve-autoriteit|Identificeren van de juiste administratieve autoriteit bij een boekhoudrechtelijke vraag]] · `competentie`
-- [[identificeren-rechtsbron-boekhoudrecht|Identificeren van de toepasselijke rechtsbron bij een vraag uit het boekhoudrecht]] · `competentie`
-- [[ibr|Instituut van de Bedrijfsrevisoren (IBR)]] · `autoriteit`
-- [[itaa|Instituut van de Belastingadviseurs en Accountants (ITAA)]] · `autoriteit`
-- [[inventaris|Inventaris]] · `cluster`
-- [[jaarrekening-als-studieobject|Jaarrekening als studieobject van financiële analyse]] · `begrip`
-- [[jaarrekening-vzw-stichting|Jaarrekening van VZW, IVZW en stichtingen]] · `begrip`
-- [[jaarrekening-schema|Jaarrekening-schema (volledig, verkort, micro)]] · `begrip`
-- [[jaarverslag|Jaarverslag]] · `begrip`
-- [[kb-wvv-uitvoering|KB tot uitvoering van het WVV (KB-WVV)]] · `begrip`
-- [[klasse-0-niet-in-balans|Klasse 0 — niet in de balans opgenomen rekeningen]] · `begrip`
-- [[klasseren-vennootschap-naar-groottecategorie|Klasseren van een vennootschap als micro, klein of groot volgens de groottecriteria]] · `competentie`
-- [[kleine-vennootschap|Kleine vennootschap (WVV art. 1:24)]] · `begrip`
-- [[kwalificeren-boekhoudplichtige-onderneming|Kwalificeren of een onderneming boekhoudplichtig is en welk type boekhouding zij moet voeren]] · `competentie`
-- [[kwalificeren-jaarrekeningregime-vzw-stichting|Kwalificeren welk boekhoud- en jaarrekeningregime van toepassing is op een VZW, IVZW of stichting]] · `competentie`
-- [[microvennootschap|Microvennootschap (WVV art. 1:25)]] · `begrip`
-- [[minimum-algemeen-rekeningenstelsel|Minimum Algemeen Rekeningenstelsel (MAR)]] · `begrip`
-- [[nationale-bank-belgie|Nationale Bank van België (NBB)]] · `autoriteit`
-- [[niet-in-balans-opgenomen-rechten-verplichtingen|Niet in de balans opgenomen rechten en verplichtingen]] · `regel`
-- [[onveranderlijkheid-boekingen|Onveranderlijkheid van de boekingen]] · `regel`
-- [[openbaarmaking-jaarrekening|Openbaarmaking van de jaarrekening]] · `procedure`
-- [[oprechtheidsbeginsel|Oprechtheidsbeginsel (boekhouding)]] · `regel`
-- [[oprichtingskosten|Oprichtingskosten]] · `cluster`
-- [[overlopende-rekeningen|Overlopende rekeningen]] · `cluster`
-- [[proef-en-saldibalans|Proef- en saldibalans]] · `begrip`
-- [[public-interest-entity|Public Interest Entity (PIE)]] · `begrip`
-- [[rechtsbronnen-boekhoudrecht-piramide|Rechtsbronnen-piramide van het Belgisch boekhoudrecht]] · `synthese`
-- [[rechtspraak-boekhoudrecht|Rechtspraak inzake boekhoudrecht]] · `begrip`
-- [[regelmatige-boekhouding|Regelmatige boekhouding]] · `cluster`
-- [[resultatenrekening|Resultatenrekening]] · `cluster`
-- [[samenstelling-statutaire-jaarrekening|Samenstelling van de statutaire jaarrekening]] · `procedure`
-- [[sociale-balans|Sociale balans]] · `begrip`
-- [[toelichting-jaarrekening|Toelichting bij de jaarrekening]] · `begrip`
-- [[toepassen-boekhoudbeginselen-op-waarderingsvraagstuk|Toepassen van de boekhoudbeginselen op een concreet waarderingsvraagstuk]] · `competentie`
-- [[vennootschapsvormen-typologie|Typologie van vennootschaps- en verenigingsvormen]] · `begrip`
-- [[uitvoeren-openbaarmaking-jaarrekening|Uitvoeren van de openbaarmaking van de jaarrekening bij de Nationale Bank]] · `competentie`
-- [[vennootschapsgrootte-cascade|Vennootschapsgrootte-cascade: micro &mdash; klein &mdash; groot]] · `synthese`
-- [[verantwoordingsstuk|Verantwoordingsstuk]] · `begrip`
-- [[vereenvoudigde-boekhouding|Vereenvoudigde boekhouding]] · `begrip`
-- [[volledigheidsbeginsel|Volledigheidsbeginsel (boekhouding)]] · `regel`
-- [[voorzichtigheidsbeginsel|Voorzichtigheidsbeginsel]] · `regel`
-- [[voorzieningen|Voorzieningen voor risico's en kosten]] · `cluster`
-- [[waarderingsregels-jaarrekening|Waarderingsregels (algemeen)]] · `begrip`
-- [[waardeverminderingen|Waardeverminderingen]] · `cluster`
-- [[wetboek-economisch-recht-boek-iii|Wetboek van Economisch Recht — Boek III (boekhouding)]] · `begrip`
-- [[wetboek-vennootschappen-verenigingen|Wetboek van Vennootschappen en Verenigingen (WVV)]] · `begrip`
-- [[autoriteiten-boekhoudrecht-landschap|Wie controleert wat? — Het autoriteiten-landschap van het Belgisch boekhoudrecht]] · `synthese`
+- ✅ [[aangifte-nalatenschap|Aangifte nalatenschap]] · PO ?
+- ✅ [[aangifte-pb|Aangifte personenbelasting]] · PO ?
+- ✅ [[aangifte-vennootschapsbelasting|Aangifte vennootschapsbelasting]] · PO ?
+- ✅ [[aankoopcyclus-ic|Aankoopcyclus interne controle]] · PO ?
+- ✅ [[aanslag-cyclus|Aanslag cyclus]] · PO ?
+- ✅ [[aanslagbiljet-pb|Aanslagbiljet pb]] · PO ?
+- ✅ [[abc-methode|Abc methode]] · PO ?
+- ✅ [[alarmbel|Alarmbel]] · PO ?
+- ✅ [[audit-afronding|Audit afronding]] · PO ?
+- ✅ [[begeleiding-vestigingsplaats-en-regionale-heffingen-bij-opstart|Begeleiding vestigingsplaats en regionale heffingen bij opstart]] · PO ?
+- ✅ [[belangenconflict-bestuur|Belangenconflict bestuur]] · PO ?
+- ✅ [[belastbare-grondslag-vennootschapsbelasting|Belastbare grondslag vennootschapsbelasting]] · PO ?
+- ✅ [[belastingberekening-pb|Belastingberekening pb]] · PO ?
+- ✅ [[bezwaarprocedure-fiscaal|Bezwaarprocedure fiscaal]] · PO ?
+- ✅ [[break-even-analyse|Break even analyse]] · PO ?
+- ✅ [[btw-aangifte|Btw aangifte]] · PO ?
+- ✅ [[btw-controle-en-geschillen|Btw controle en geschillen]] · PO ?
+- ✅ [[btw-herziening-bedrijfsmiddelen|Btw herziening bedrijfsmiddelen]] · PO ?
+- ✅ [[buitenlandse-winst-en-verlies|Buitenlandse winst en verlies]] · PO ?
+- ✅ [[cijferanalyse|Cijferanalyse]] · PO ?
+- ✅ [[clientenonderzoek-aww|Clientenonderzoek aww]] · PO ?
+- ✅ [[communicatie-met-governance|Communicatie met governance]] · PO ?
+- ✅ [[controle-test-deelneming|Controle test deelneming]] · PO ?
+- ✅ [[controleplanning|Controleplanning]] · PO ?
+- ✅ [[country-by-country-reporting|Country by country reporting]] · PO ?
+- ✅ [[delegatie-en-supervisie-audit|Delegatie en supervisie audit]] · PO ?
+- ✅ [[direct-costing|Direct costing]] · PO ?
+- ✅ [[due-diligence|Due diligence]] · PO ?
+- ✅ [[eindejaarsverrichtingen|Eindejaarsverrichtingen]] · PO ?
+- ✅ [[evaluatie-interne-controle|Evaluatie interne controle]] · PO ?
+- ✅ [[externe-bevestiging|Externe bevestiging]] · PO ?
+- ✅ [[financiele-analyse-software|Financiele analyse software]] · PO ?
+- ✅ [[financiele-diagnose|Financiele diagnose]] · PO ?
+- ✅ [[fiscale-bemiddelingsprocedure|Fiscale bemiddelingsprocedure]] · PO ?
+- ✅ [[fiscale-controle|Fiscale controle]] · PO ?
+- ✅ [[fiscale-procedure-pb|Fiscale procedure pb]] · PO ?
+- ✅ [[full-costing|Full costing]] · PO ?
+- ✅ [[functiescheiding|Functiescheiding]] · PO ?
+- ✅ [[gerechtelijke-fase-fiscaal|Gerechtelijke fase fiscaal]] · PO ?
+- ✅ [[gerechtelijke-reorganisatie|Gerechtelijke reorganisatie]] · PO ?
+- ✅ [[gewestelijke-fiscale-procedure|Gewestelijke fiscale procedure]] · PO ?
+- ✅ [[hr-cyclus-ic|Hr cyclus ic]] · PO ?
+- ✅ [[intentieverklaring-letter-of-intent|Intentieverklaring letter of intent]] · PO ?
+- ✅ [[invorderingsprocedure-fiscaal|Invorderingsprocedure fiscaal]] · PO ?
+- ✅ [[jaarlijkse-inventaris|Jaarlijkse inventaris]] · PO ?
+- ✅ [[kamers-voor-ondernemingen-in-moeilijkheden|Kamers voor ondernemingen in moeilijkheden]] · PO ?
+- ✅ [[kwalificatie-controle-deelneming|Kwalificatie controle deelneming]] · PO ?
+- ✅ [[kwaliteitstoetsing-itaa|Kwaliteitstoetsing itaa]] · PO ?
+- ✅ [[lokale-belasting-reglement|Lokale belasting reglement]] · PO ?
+- ✅ [[mandaat-accountant-fiscus|Mandaat accountant fiscus]] · PO ?
+- ✅ [[map|Map]] · PO ?
+- ✅ [[marginale-analyse|Marginale analyse]] · PO ?
+- ✅ [[masterbudget|Masterbudget]] · PO ?
+- ✅ [[melding-verdachte-transactie-cfi|Melding verdachte transactie cfi]] · PO ?
+- ✅ [[niet-naleving-wet-regelgeving-audit|Niet naleving wet regelgeving audit]] · PO ?
+- ✅ [[omzetting-vennootschap|Omzetting vennootschap]] · PO ?
+- ✅ [[ondernemingsbemiddelaar|Ondernemingsbemiddelaar]] · PO ?
+- ✅ [[ontwerp-interne-controle|Ontwerp interne controle]] · PO ?
+- ✅ [[opdrachtaanvaarding-en-opdrachtbrief|Opdrachtaanvaarding en opdrachtbrief]] · PO ?
+- ✅ [[openbaarmaking-jaarrekening|Openbaarmaking jaarrekening]] · PO ?
+- ✅ [[opmaak-geconsolideerde-jaarrekening|Opmaak geconsolideerde jaarrekening]] · PO ?
+- ✅ [[oprichting-vennootschap|Oprichting vennootschap]] · PO ?
+- ✅ [[opstart-btw-formaliteiten|Opstart btw formaliteiten]] · PO ?
+- ✅ [[permanente-vorming-accountant|Permanente vorming accountant]] · PO ?
+- ✅ [[productiecyclus-ic|Productiecyclus ic]] · PO ?
+- ✅ [[quasi-inbreng|Quasi inbreng]] · PO ?
+- ✅ [[registratieformaliteit-akten|Registratieformaliteit akten]] · PO ?
+- ✅ [[resultaatverwerking|Resultaatverwerking]] · PO ?
+- ✅ [[risicoanalyse-audit|Risicoanalyse audit]] · PO ?
+- ✅ [[schriftelijke-bevestiging-management|Schriftelijke bevestiging management]] · PO ?
+- ✅ [[standaardkostenmethode|Standaardkostenmethode]] · PO ?
+- ✅ [[starterscoaching-pb|Starterscoaching pb]] · PO ?
+- ✅ [[steekproef-audit|Steekproef audit]] · PO ?
+- ✅ [[stopzetting-btw|Stopzetting btw]] · PO ?
+- ✅ [[tuchtprocedure-itaa|Tuchtprocedure itaa]] · PO ?
+- ✅ [[variantieanalyse|Variantieanalyse]] · PO ?
+- ✅ [[verkoopcyclus-ic|Verkoopcyclus ic]] · PO ?
+- ✅ [[vertegenwoordiging-belastingadministratie|Vertegenwoordiging belastingadministratie]] · PO ?
+- ✅ [[vertegenwoordiging-bij-gewestelijke-en-lokale-fiscus|Vertegenwoordiging bij gewestelijke en lokale fiscus]] · PO ?
+- ✅ [[voorafbetalingen-pb|Voorafbetalingen pb]] · PO ?
+- ✅ [[voorafbetalingen-vennootschapsbelasting|Voorafbetalingen vennootschapsbelasting]] · PO ?
+- ✅ [[voorafgaande-beslissing-dvb|Voorafgaande beslissing dvb]] · PO ?
+- ✅ [[voorraadcyclus-ic|Voorraadcyclus ic]] · PO ?
+- ✅ [[waarderingsregels-vastlegging|Waarderingsregels vastlegging]] · PO ?
+- ✅ [[werkprogramma-audit|Werkprogramma audit]] · PO ?
+- ✅ [[wettelijke-controle-jaarrekening|Wettelijke controle jaarrekening]] · PO ?
+- ✅ [[winst-naar-herkomst|Winst naar herkomst]] · PO ?
 
-</div>
+## Kaders (165/165)
 
-## 1.3 Analyse en kritische beoordeling van de jaarrekening (47 records)
+- ✅ [[aangifteplicht-fiscaal|Aangifteplicht fiscaal]] · PO ?
+- ✅ [[aanslagtermijnen-fiscaal|Aanslagtermijnen fiscaal]] · PO ?
+- ✅ [[aansprakelijkheid-accountant-revisor|Aansprakelijkheid accountant revisor]] · PO ?
+- ✅ [[aansprakelijkheid-oprichters-bestuurders|Aansprakelijkheid oprichters en bestuurders]] · PO ?
+- ✅ [[accijnzen-basis|Accijnzen basis]] · PO ?
+- ✅ [[aftrekbare-beroepskosten-venb|Aftrekbare beroepskosten vennootschapsbelasting]] · PO ?
+- ✅ [[algemene-vergadering|Algemene vergadering]] · PO ?
+- ✅ [[analytische-boekhouding|Analytische boekhouding]] · PO ?
+- ✅ [[assurance-opdracht-types|Assurance opdracht types]] · PO ?
+- ✅ [[atad-richtlijn|Atad richtlijn]] · PO ?
+- ✅ [[audit-bewijs-verzamelen|Audit bewijs verzamelen]] · PO ?
+- ✅ [[audit-it-omgeving|Audit it omgeving]] · PO ?
+- ✅ [[auditcomite|Auditcomite]] · PO ?
+- ✅ [[auditrisicomodel|Auditrisicomodel]] · PO ?
+- ✅ [[autoriteiten-boekhoudrecht|Autoriteiten boekhoudrecht]] · PO ?
+- ✅ [[be-gaap-vs-ifrs-verschillen|Be gaap vs ifrs verschillen]] · PO ?
+- ✅ [[bedrijfskosten-en-bedrijfsopbrengsten|Bedrijfskosten en bedrijfsopbrengsten]] · PO ?
+- ✅ [[beginselen-behoorlijk-bestuur-fiscaal|Beginselen behoorlijk bestuur fiscaal]] · PO ?
+- ✅ [[belasting-definitie-en-functies|Belasting definitie en functies]] · PO ?
+- ✅ [[belasting-niet-inwoners|Belasting niet inwoners]] · PO ?
+- ✅ [[beps-actieplan|Beps actieplan]] · PO ?
+- ✅ [[beroepsgeheim-accountant|Beroepsgeheim accountant]] · PO ?
+- ✅ [[beroepskosten-regime-pb|Beroepskosten regime pb]] · PO ?
+- ✅ [[bestuur-vennootschap|Bestuur vennootschap]] · PO ?
+- ✅ [[bgaap|Bgaap]] · PO ?
+- ✅ [[bijzondere-aanslagen-venb|Bijzondere aanslagen venb]] · PO ?
+- ✅ [[bijzondere-verslagen-vennootschapsverrichtingen|Bijzondere verslagen vennootschapsverrichtingen]] · PO ?
+- ✅ [[boekhoudbeginselen|Boekhoudbeginselen]] · PO ?
+- ✅ [[boekhoudkundig-fiscaal-attachment|Boekhoudkundig fiscaal attachment]] · PO ?
+- ✅ [[boekhoudkundige-schattingen|Boekhoudkundige schattingen]] · PO ?
+- ✅ [[boekhoudplichtige-onderneming|Boekhoudplichtige onderneming]] · PO ?
+- ✅ [[btw-aftrek|Btw aftrek]] · PO ?
+- ✅ [[btw-belastingplichtige|Btw belastingplichtige]] · PO ?
+- ✅ [[btw-grensoverschrijdend|Btw grensoverschrijdend]] · PO ?
+- ✅ [[btw-stelsel|Btw stelsel]] · PO ?
+- ✅ [[btw-tarieven|Btw tarieven]] · PO ?
+- ✅ [[btw-vastgoed|Btw vastgoed]] · PO ?
+- ✅ [[btw-vrijstellingen|Btw vrijstellingen]] · PO ?
+- ✅ [[budgetbeheer|Budgetbeheer]] · PO ?
+- ✅ [[businessmodel-en-strategie-inzicht-accountant|Businessmodel en strategie inzicht accountant]] · PO ?
+- ✅ [[commissaris-mandaat-en-statuut|Commissaris mandaat en statuut]] · PO ?
+- ✅ [[communicatie-met-stakeholders|Communicatie met stakeholders]] · PO ?
+- ✅ [[consolidatiekring|Consolidatiekring]] · PO ?
+- ✅ [[consolidatiemethoden|Consolidatiemethoden]] · PO ?
+- ✅ [[consolidatieverschil-goodwill|Consolidatieverschil goodwill]] · PO ?
+- ✅ [[continuiteit-going-concern|Continuiteit going concern]] · PO ?
+- ✅ [[controle-activiteiten-coso|Controle activiteiten coso]] · PO ?
+- ✅ [[controle-omgeving-coso|Controle omgeving coso]] · PO ?
+- ✅ [[controle-vennootschapsrecht|Controle vennootschapsrecht]] · PO ?
+- ✅ [[controlemaatregelen|Controlemaatregelen]] · PO ?
+- ✅ [[controleopdracht-cyclus|Controleopdracht cyclus]] · PO ?
+- ✅ [[cyclus-analyse|Cyclus analyse]] · PO ?
+- ✅ [[deontologie-accountant|Deontologie accountant]] · PO ?
+- ✅ [[digitalisering-accountantskantoor|Digitalisering accountantskantoor]] · PO ?
+- ✅ [[douaneprocedures-btw-invoer|Douaneprocedures btw invoer]] · PO ?
+- ✅ [[douanewaarde|Douanewaarde]] · PO ?
+- ✅ [[dubbele-boekhouding|Dubbele boekhouding]] · PO ?
+- ✅ [[erfbelasting|Erfbelasting]] · PO ?
+- ✅ [[erfrecht|Erfrecht]] · PO ?
+- ✅ [[eu-fiscale-richtlijnen|Eu fiscale richtlijnen]] · PO ?
+- ✅ [[exit-planning-vennootschap|Exit planning vennootschap]] · PO ?
+- ✅ [[externe-audit-commissaris|Externe audit commissaris]] · PO ?
+- ✅ [[factuur-btw|Factuur btw]] · PO ?
+- ✅ [[faillissementspredictie-modellen|Faillissementspredictie modellen]] · PO ?
+- ✅ [[federale-belastingverminderingen-pb|Federale belastingverminderingen pb]] · PO ?
+- ✅ [[financiele-verrichtingen-categorie|Financiele verrichtingen categorie]] · PO ?
+- ✅ [[fiscaal-rechtelijk|Fiscaal rechtelijk]] · PO ?
+- ✅ [[fiscale-aandachtspunten-herstructurering|Fiscale aandachtspunten herstructurering]] · PO ?
+- ✅ [[fiscale-actoren|Fiscale actoren]] · PO ?
+- ✅ [[fiscale-beginselen|Fiscale beginselen]] · PO ?
+- ✅ [[fiscale-bewijsmiddelen|Fiscale bewijsmiddelen]] · PO ?
+- ✅ [[fiscale-procedure-belastingplichtige|Fiscale procedure belastingplichtige]] · PO ?
+- ✅ [[fiscale-residentie|Fiscale residentie]] · PO ?
+- ✅ [[fiscale-sancties|Fiscale sancties]] · PO ?
+- ✅ [[fouten-en-fraude-cluster|Fouten en fraude cluster]] · PO ?
+- ✅ [[fraude|Fraude]] · PO ?
+- ✅ [[free-cash-flow|Free cash flow]] · PO ?
+- ✅ [[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]] · PO ?
+- ✅ [[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]] · PO ?
+- ✅ [[gemeentebelastingen-sui-generis|Gemeentebelastingen sui generis]] · PO ?
+- ✅ [[gewest-fiscaliteit-registratie-en-successie|Gewest fiscaliteit registratie en successie]] · PO ?
+- ✅ [[gewestelijke-belastingverminderingen-pb|Gewestelijke belastingverminderingen pb]] · PO ?
+- ✅ [[gewestelijke-en-lokale-fiscaliteit|Gewestelijke en lokale fiscaliteit]] · PO ?
+- ✅ [[gewestelijke-fiscale-autonomie|Gewestelijke fiscale autonomie]] · PO ?
+- ✅ [[gezamenlijke-regelingen|Gezamenlijke regelingen]] · PO ?
+- ✅ [[governance-actoren-ic|Governance actoren ic]] · PO ?
+- ✅ [[groottecategorie-vennootschap|Groottecategorie vennootschap]] · PO ?
+- ✅ [[groottecategorie-vereniging|Groottecategorie vereniging]] · PO ?
+- ✅ [[huwelijksvermogensrecht|Huwelijksvermogensrecht]] · PO ?
+- ✅ [[ifrs|Ifrs]] · PO ?
+- ✅ [[immateriele-vaste-activa|Immateriele vaste activa]] · PO ?
+- ✅ [[indeling-belastingen|Indeling belastingen]] · PO ?
+- ✅ [[informatie-communicatie-coso|Informatie communicatie coso]] · PO ?
+- ✅ [[inkomstencategorieen-pb|Inkomstencategorieen pb]] · PO ?
+- ✅ [[insolventierecht-wer-boek-xx|Insolventierecht wer boek xx]] · PO ?
+- ✅ [[internationaal-fiscaal|Internationaal fiscaal]] · PO ?
+- ✅ [[internationale-structurering-vennootschap|Internationale structurering vennootschap]] · PO ?
+- ✅ [[internationale-tewerkstelling|Internationale tewerkstelling]] · PO ?
+- ✅ [[interne-audit|Interne audit]] · PO ?
+- ✅ [[interne-controle-coso|Interne controle coso]] · PO ?
+- ✅ [[interpretatie-fiscale-wet|Interpretatie fiscale wet]] · PO ?
+- ✅ [[it-controles-cluster|It controles cluster]] · PO ?
+- ✅ [[itaa-beroepsorganisatie|Itaa beroepsorganisatie]] · PO ?
+- ✅ [[jaarrekening|Jaarrekening]] · PO ?
+- ✅ [[jaarrekeninganalyse|Jaarrekeninganalyse]] · PO ?
+- ✅ [[jaarverslag|Jaarverslag]] · PO ?
+- ✅ [[jaarverslag-bestuursorgaan|Jaarverslag bestuursorgaan]] · PO ?
+- ✅ [[kadastraal-inkomen|Kadastraal inkomen]] · PO ?
+- ✅ [[kantoor-organisatie-accountant|Kantoor organisatie accountant]] · PO ?
+- ✅ [[kapitaalbescherming-en-winstverdeling|Kapitaalbescherming en winstverdeling]] · PO ?
+- ✅ [[kasstroom-analyse|Kasstroom analyse]] · PO ?
+- ✅ [[keuze-rechtsvorm-fiscaal|Keuze rechtsvorm fiscaal]] · PO ?
+- ✅ [[kostencomponenten|Kostencomponenten]] · PO ?
+- ✅ [[kostentypologie|Kostentypologie]] · PO ?
+- ✅ [[kostprijsmethoden|Kostprijsmethoden]] · PO ?
+- ✅ [[kwaliteitsmanagement-opdracht|Kwaliteitsmanagement opdracht]] · PO ?
+- ✅ [[leasing|Leasing]] · PO ?
+- ✅ [[levering-en-dienst-btw|Levering en dienst btw]] · PO ?
+- ✅ [[lokale-fiscale-autonomie|Lokale fiscale autonomie]] · PO ?
+- ✅ [[maatstaf-van-heffing-btw|Maatstaf van heffing btw]] · PO ?
+- ✅ [[managementcontrole-fiche|Managementcontrole fiche]] · PO ?
+- ✅ [[materialiteit-audit|Materialiteit audit]] · PO ?
+- ✅ [[materiele-vaste-activa|Materiele vaste activa]] · PO ?
+- ✅ [[minderheidsbelangen|Minderheidsbelangen]] · PO ?
+- ✅ [[monitoring-coso|Monitoring coso]] · PO ?
+- ✅ [[niet-concurrentiebeding|Niet concurrentiebeding]] · PO ?
+- ✅ [[niet-in-balans-rechten-en-verplichtingen|Niet in balans rechten en verplichtingen]] · PO ?
+- ✅ [[niet-recurrente-verrichtingen-categorie|Niet recurrente verrichtingen categorie]] · PO ?
+- ✅ [[normenkader-audit|Normenkader audit]] · PO ?
+- ✅ [[oeso-modelverdrag|Oeso modelverdrag]] · PO ?
+- ✅ [[onafhankelijkheid|Onafhankelijkheid]] · PO ?
+- ✅ [[onderhoudsuitkering-cluster|Onderhoudsuitkering cluster]] · PO ?
+- ✅ [[opbrengstverantwoording|Opbrengstverantwoording]] · PO ?
+- ✅ [[opeisbaarheid-btw|Opeisbaarheid btw]] · PO ?
+- ✅ [[opsplitsing-eigendom|Opsplitsing eigendom]] · PO ?
+- ✅ [[overnameovereenkomst-spa|Overnameovereenkomst spa]] · PO ?
+- ✅ [[personenbelasting|Personenbelasting]] · PO ?
+- ✅ [[plaats-van-handeling-btw|Plaats van handeling btw]] · PO ?
+- ✅ [[professionele-oordeelsvorming-en-skepticism|Professionele oordeelsvorming en skepticism]] · PO ?
+- ✅ [[rechtsvormen-belgie|Rechtsvormen belgie]] · PO ?
+- ✅ [[referentiestelsels-ic|Referentiestelsels ic]] · PO ?
+- ✅ [[registratiebelasting|Registratiebelasting]] · PO ?
+- ✅ [[rehabilitatie-en-beroepsverbod|Rehabilitatie en beroepsverbod]] · PO ?
+- ✅ [[risico-inschatting-coso|Risico inschatting coso]] · PO ?
+- ✅ [[risicogebaseerde-benadering-aww|Risicogebaseerde benadering aww]] · PO ?
+- ✅ [[roerend-inkomen-internationaal|Roerend inkomen internationaal]] · PO ?
+- ✅ [[schadeloosstellingsbeding|Schadeloosstellingsbeding]] · PO ?
+- ✅ [[sociale-balans|Sociale balans]] · PO ?
+- ✅ [[successieplanning|Successieplanning]] · PO ?
+- ✅ [[taxatieprocedure|Taxatieprocedure]] · PO ?
+- ✅ [[toegevoegde-waarde|Toegevoegde waarde]] · PO ?
+- ✅ [[toelichting-belangen-in-andere-entiteiten|Toelichting belangen in andere entiteiten]] · PO ?
+- ✅ [[toepassingsgebied-belasting|Toepassingsgebied belasting]] · PO ?
+- ✅ [[toepassingsgebied-vennootschapsbelasting|Toepassingsgebied vennootschapsbelasting]] · PO ?
+- ✅ [[transfer-pricing|Transfer pricing]] · PO ?
+- ✅ [[ubo-register|Ubo register]] · PO ?
+- ✅ [[vaste-activa|Vaste activa]] · PO ?
+- ✅ [[vaste-inrichting|Vaste inrichting]] · PO ?
+- ✅ [[vennootschapsbelasting|Vennootschapsbelasting]] · PO ?
+- ✅ [[vennootschapsgeschillen|Vennootschapsgeschillen]] · PO ?
+- ✅ [[vennootschapsrechtelijk-kader-wvv|Vennootschapsrechtelijk kader wvv]] · PO ?
+- ✅ [[verklaringen-en-garanties-rw|Verklaringen en garanties rw]] · PO ?
+- ✅ [[verworpen-uitgaven|Verworpen uitgaven]] · PO ?
+- ✅ [[voordelen-alle-aard|Voordelen alle aard]] · PO ?
+- ✅ [[voorheffingen-en-verrekeningen-venb|Voorheffingen en verrekeningen venb]] · PO ?
 
-<div class="two-column-list">
+## Regimes (78/78)
 
-- [[algemene-vergadering-toezichtsfunctie|Algemene vergadering — toezichtsfunctie op jaarrekening]] · `autoriteit`
-- [[analytische-balans|Analytische balans (herstructureringsschema)]] · `cluster`
-- [[beoordelen-bestuursverslag-en-niet-financiele-info|Beoordelen van het bestuursverslag en de niet-financiële informatie]] · `competentie`
-- [[beoordelen-werkkapitaal-en-kasstroom|Beoordelen van het werkkapitaal en de kasstroom van een onderneming]] · `competentie`
-- [[berekenen-interpreteren-liquiditeitsratios|Berekenen en interpreteren van de liquiditeitsratio's]] · `competentie`
-- [[berekenen-interpreteren-rentabiliteitsratios|Berekenen en interpreteren van de rentabiliteitsratio's]] · `competentie`
-- [[berekenen-interpreteren-solvabiliteitsratios|Berekenen en interpreteren van de solvabiliteitsratio's]] · `competentie`
-- [[bestuursverslag|Bestuursverslag (jaarverslag)]] · `procedure`
-- [[cash-ratio|Cash ratio (liquiditeit in strenge zin)]] · `cluster`
-- [[cashflow-analyse|Cashflow (bedrijfscashflow)]] · `begrip`
-- [[cijferanalyses-controle-norm|Cijferanalyses (controlenorm KMO)]] · `regel`
-- [[commissaris-toezicht-jaarrekening|Commissaris (extern toezicht op jaarrekening)]] · `autoriteit`
-- [[confronteren-toelichting-en-off-balance|Confronteren van de financiële analyse met de toelichting en off-balance posten]] · `competentie`
-- [[corporate-governance-verklaring|Corporate-governance-verklaring]] · `procedure`
-- [[current-ratio|Current ratio (liquiditeit in ruime zin)]] · `cluster`
-- [[ratio-vier-doelen-vergelijking|De vier analyse-doelen en hun ratio's — overzicht]] · `synthese`
-- [[debt-equity-ratio|Debt-equity ratio (schuldgraad)]] · `cluster`
-- [[doelstellingen-financiele-analyse|Doelstellingen van financiële analyse]] · `begrip`
-- [[formuleren-financiele-diagnose-en-adviezen|Formuleren van een financiële diagnose en concrete verbeteradviezen]] · `competentie`
-- [[gebruikers-jaarrekening|Gebruikers van de jaarrekening]] · `begrip`
-- [[getrouw-beeld-jaarrekening|Getrouw beeld van de jaarrekening]] · `regel`
-- [[historische-evolutie-financiele-analyse|Historische evolutie in financiële analyse]] · `cluster`
-- [[horizontale-analyse-jaarrekening|Horizontale analyse (evolutie-analyse)]] · `cluster`
-- [[intake-financiele-analyse|Intake (scoping) van financiële analyse]] · `procedure`
-- [[jaarrekening-als-studieobject|Jaarrekening als studieobject van financiële analyse]] · `begrip`
-- [[kamer-ondernemingen-in-moeilijkheden|Kamer voor ondernemingen in moeilijkheden]] · `autoriteit`
-- [[klasse-0-niet-in-balans|Klasse 0 — niet in de balans opgenomen rekeningen]] · `begrip`
-- [[liquiditeitsratio|Liquiditeitsratio (begrip)]] · `begrip`
-- [[materieel-belang-jaarrekening|Materieel belang (materiality)]] · `regel`
-- [[meldingsplicht-accountant-continuiteit|Meldingsplicht accountant bij bedreigde continuïteit]] · `regel`
-- [[niet-in-balans-opgenomen-rechten-verplichtingen|Niet in de balans opgenomen rechten en verplichtingen]] · `regel`
-- [[ondernemingsraad-sociaal-economische-info|Ondernemingsraad — sociaal-economische informatie]] · `autoriteit`
-- [[opstellen-analytische-balans|Opstellen van een analytische balans voor een vennootschap]] · `competentie`
-- [[positioneren-toezichtsorganen-rond-jaarrekening|Positioneren van de toezichtsorganen rond de jaarrekening]] · `competentie`
-- [[quick-ratio|Quick ratio (liquiditeit in enge zin, zuurtegraad)]] · `cluster`
-- [[ratio-covenants|Ratiocovenants (financial covenants)]] · `begrip`
-- [[rentabiliteit-eigen-vermogen-roe|Rentabiliteit van het eigen vermogen (ROE)]] · `cluster`
-- [[rentabiliteit-totaal-activa-roa|Rentabiliteit van het totaal der activa (ROA)]] · `cluster`
-- [[risicoparagraaf-bestuursverslag|Risicoparagraaf in het bestuursverslag]] · `regel`
-- [[sectorvergelijking-financiele-analyse|Sectorvergelijking (benchmarking)]] · `cluster`
-- [[solvabiliteitsratio|Solvabiliteitsratio]] · `cluster`
-- [[uitvoeren-horizontale-verticale-analyse|Uitvoeren van een horizontale en verticale analyse van de jaarrekening]] · `competentie`
-- [[verticale-analyse-jaarrekening|Verticale analyse (percentageanalyse, common-size)]] · `cluster`
-- [[voorbereiden-financiele-analyse|Voorbereiden van een financiële analyse van de jaarrekening]] · `competentie`
-- [[liquiditeitstoets-beslisboom|Welke liquiditeitstoets gebruik ik? — Beslisboom]] · `synthese`
-- [[werkkapitaal|Werkkapitaal (working capital)]] · `begrip`
-- [[werkkapitaalbehoefte|Werkkapitaalbehoefte (besoin en fonds de roulement, BFR)]] · `begrip`
+- ✅ [[aanvullende-gemeentebelasting-pb|Aanvullende gemeentebelasting pb]] · PO ?
+- ✅ [[abnormale-goedgunstige-voordelen|Abnormale of goedgunstige voordelen]] · PO ?
+- ✅ [[administratieve-boete-fiscaal|Administratieve boete fiscaal]] · PO ?
+- ✅ [[aftrekbare-bestedingen-pb|Aftrekbare bestedingen pb]] · PO ?
+- ✅ [[algemene-anti-misbruik-bepaling|Algemene anti misbruik bepaling]] · PO ?
+- ✅ [[antiwitwas-verplichtingen-accountant|Antiwitwas verplichtingen accountant]] · PO ?
+- ✅ [[bedrijfsleidersbezoldiging-pb|Bedrijfsleidersbezoldiging pb]] · PO ?
+- ✅ [[bedrijfsvoorheffing|Bedrijfsvoorheffing]] · PO ?
+- ✅ [[belasting-inverkeerstelling|Belasting inverkeerstelling]] · PO ?
+- ✅ [[belastingverhoging-fiscaal|Belastingverhoging fiscaal]] · PO ?
+- ✅ [[belastingvrije-som|Belastingvrije som]] · PO ?
+- ✅ [[beroepsinkomen-pb|Beroepsinkomen pb]] · PO ?
+- ✅ [[bijzonder-regime-buitenlandse-kaderleden|Bijzonder regime buitenlandse kaderleden]] · PO ?
+- ✅ [[btw-bedrijfswagen|Btw bedrijfswagen]] · PO ?
+- ✅ [[btw-bonnen-vouchers|Btw bonnen vouchers]] · PO ?
+- ✅ [[btw-eenheid|Btw eenheid]] · PO ?
+- ✅ [[consolidatieverplichting-bgaap|Consolidatieverplichting bgaap]] · PO ?
+- ✅ [[diverse-inkomsten-pb|Diverse inkomsten pb]] · PO ?
+- ✅ [[driehoeksverkeer-vereenvoudiging|Driehoeksverkeer vereenvoudiging]] · PO ?
+- ✅ [[ebitda-aftrekbeperking|Ebitda aftrekbeperking]] · PO ?
+- ✅ [[eigen-werkzaamheid-btw|Eigen werkzaamheid btw]] · PO ?
+- ✅ [[eigen-woning-fiscaal|Eigen woning fiscaal]] · PO ?
+- ✅ [[erfbelasting-tarieven-en-vrijstellingen|Erfbelasting tarieven en vrijstellingen]] · PO ?
+- ✅ [[exit-belasting|Exit belasting]] · PO ?
+- ✅ [[fictiebepalingen-erfbelasting|Fictiebepalingen erfbelasting]] · PO ?
+- ✅ [[fiscaal-vertegenwoordiger-btw|Fiscaal vertegenwoordiger btw]] · PO ?
+- ✅ [[fiscale-fusie-splitsing|Fiscale fusie splitsing]] · PO ?
+- ✅ [[fiscale-fusierichtlijn|Fiscale fusierichtlijn]] · PO ?
+- ✅ [[fiscale-regularisatie-en-buitenlandse-goederen|Fiscale regularisatie en buitenlandse goederen]] · PO ?
+- ✅ [[fiscale-strafrechtelijke-sanctie|Fiscale strafrechtelijke sanctie]] · PO ?
+- ✅ [[forfaitair-gedeelte-buitenlandse-belasting|Forfaitair gedeelte buitenlandse belasting]] · PO ?
+- ✅ [[forfaitaire-regeling-btw|Forfaitaire regeling btw]] · PO ?
+- ✅ [[geactiveerde-rente|Geactiveerde rente]] · PO ?
+- ✅ [[geheime-commissielonen|Geheime commissielonen]] · PO ?
+- ✅ [[gemeentelijke-opcentiemen-onroerende-voorheffing|Gemeentelijke opcentiemen onroerende voorheffing]] · PO ?
+- ✅ [[gezinssituatie-pb|Gezinssituatie pb]] · PO ?
+- ✅ [[gunstregime-familiale-onderneming|Gunstregime familiale onderneming]] · PO ?
+- ✅ [[huwelijksquotient|Huwelijksquotient]] · PO ?
+- ✅ [[hypotheekrecht|Hypotheekrecht]] · PO ?
+- ✅ [[interest-royalty-richtlijn|Interest royalty richtlijn]] · PO ?
+- ✅ [[internationaal-onroerend-goed|Internationaal onroerend goed]] · PO ?
+- ✅ [[investeringsaftrek|Investeringsaftrek]] · PO ?
+- ✅ [[juridische-constructie-cayman|Juridische constructie cayman]] · PO ?
+- ✅ [[kinderen-ten-laste|Kinderen ten laste]] · PO ?
+- ✅ [[leegstandsheffing-bedrijfsruimten|Leegstandsheffing bedrijfsruimten]] · PO ?
+- ✅ [[liquidatiereserve|Liquidatiereserve]] · PO ?
+- ✅ [[margeregeling-tweedehands|Margeregeling tweedehands]] · PO ?
+- ✅ [[meerwaarde-aandelen-venb|Meerwaarde aandelen venb]] · PO ?
+- ✅ [[moeder-dochterrichtlijn|Moeder dochterrichtlijn]] · PO ?
+- ✅ [[notionele-interestaftrek|Notionele interestaftrek]] · PO ?
+- ✅ [[onroerend-inkomen-pb|Onroerend inkomen pb]] · PO ?
+- ✅ [[onroerende-voorheffing|Onroerende voorheffing]] · PO ?
+- ✅ [[optie-btw-verhuur-vastgoed|Optie btw verhuur vastgoed]] · PO ?
+- ✅ [[oss-regeling|Oss regeling]] · PO ?
+- ✅ [[overdracht-algemeenheid-btw|Overdracht algemeenheid btw]] · PO ?
+- ✅ [[overgedragen-verliezen|Overgedragen verliezen]] · PO ?
+- ✅ [[planbatenheffing|Planbatenheffing]] · PO ?
+- ✅ [[provinciale-belastingen|Provinciale belastingen]] · PO ?
+- ✅ [[roerend-inkomen-pb|Roerend inkomen pb]] · PO ?
+- ✅ [[roerende-voorheffing|Roerende voorheffing]] · PO ?
+- ✅ [[schenkbelasting|Schenkbelasting]] · PO ?
+- ✅ [[stopzettingsmeerwaarde-pb|Stopzettingsmeerwaarde pb]] · PO ?
+- ✅ [[uniforme-waarderingsregels-consolidatie|Uniforme waarderingsregels consolidatie]] · PO ?
+- ✅ [[verdeelrecht|Verdeelrecht]] · PO ?
+- ✅ [[vereenvoudigde-boekhouding-regime|Vereenvoudigde boekhouding regime]] · PO ?
+- ✅ [[vereffening-fiscaal|Vereffening fiscaal]] · PO ?
+- ✅ [[verkeersbelasting|Verkeersbelasting]] · PO ?
+- ✅ [[verkooprecht|Verkooprecht]] · PO ?
+- ✅ [[verlaagd-tarief-kleine-vennootschap|Verlaagd tarief kleine vennootschap]] · PO ?
+- ✅ [[verleggingsregeling|Verleggingsregeling]] · PO ?
+- ✅ [[verworpen-uitgaven-autokosten|Verworpen uitgaven autokosten]] · PO ?
+- ✅ [[vrijstelling-gezinswoning|Vrijstelling gezinswoning]] · PO ?
+- ✅ [[vrijstelling-met-progressievoorbehoud|Vrijstelling met progressievoorbehoud]] · PO ?
+- ✅ [[vrijstellingsregeling-kleine-onderneming|Vrijstellingsregeling kleine onderneming]] · PO ?
+- ✅ [[vvprbis|Vvprbis]] · PO ?
+- ✅ [[vzw-stichting-boekhoudregime|Vzw stichting boekhoudregime]] · PO ?
+- ✅ [[werknemersbezoldiging-pb|Werknemersbezoldiging pb]] · PO ?
+- ✅ [[winst-baten-zelfstandige-pb|Winst baten zelfstandige pb]] · PO ?
 
-</div>
+## Instrumenten (24/24)
 
-## 1.4 Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening (42 records)
+- ✅ [[achtergestelde-lening|Achtergestelde lening]] · PO ?
+- ✅ [[banklening-investeringskrediet|Banklening investeringskrediet]] · PO ?
+- ✅ [[bv-rechtsvorm|Bv rechtsvorm]] · PO ?
+- ✅ [[controleverklaring|Controleverklaring]] · PO ?
+- ✅ [[cv-rechtsvorm|Cv rechtsvorm]] · PO ?
+- ✅ [[deelneming-financieel-vast-actief|Deelneming financieel vast actief]] · PO ?
+- ✅ [[dubbelbelastingverdrag|Dubbelbelastingverdrag]] · PO ?
+- ✅ [[eigen-aandelen|Eigen aandelen]] · PO ?
+- ✅ [[erfpacht-en-opstal|Erfpacht en opstal]] · PO ?
+- ✅ [[financiele-leasing|Financiele leasing]] · PO ?
+- ✅ [[holding-successieplanning|Holding successieplanning]] · PO ?
+- ✅ [[levensverzekering-successieplanning|Levensverzekering successieplanning]] · PO ?
+- ✅ [[maatschap-rechtsvorm|Maatschap rechtsvorm]] · PO ?
+- ✅ [[maatschap-successieplanning|Maatschap successieplanning]] · PO ?
+- ✅ [[mli-instrument|Mli instrument]] · PO ?
+- ✅ [[nv-rechtsvorm|Nv rechtsvorm]] · PO ?
+- ✅ [[operationele-leasing|Operationele leasing]] · PO ?
+- ✅ [[patrimoniumvennootschap|Patrimoniumvennootschap]] · PO ?
+- ✅ [[revisiedossier|Revisiedossier]] · PO ?
+- ✅ [[schenking-met-voorbehoud-vruchtgebruik|Schenking met voorbehoud vruchtgebruik]] · PO ?
+- ✅ [[testament-instrument|Testament instrument]] · PO ?
+- ✅ [[vof-commv-rechtsvorm|Vof commv rechtsvorm]] · PO ?
+- ✅ [[vruchtgebruik-en-blote-eigendom|Vruchtgebruik en blote eigendom]] · PO ?
+- ✅ [[vzw-rechtsvorm|Vzw rechtsvorm]] · PO ?
 
-<div class="two-column-list">
+## Balansposten (10/10)
 
-- [[afbakenen-consolidatiekring|Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden]] · `competentie`
-- [[minderheidsbelangen|Belangen van derden (minderheidsbelangen)]] · `cluster`
-- [[belangenpercentage|Belangenpercentage]] · `begrip`
-- [[bepalen-consolidatieverplichting|Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen]] · `competentie`
-- [[berekenen-controle-en-belangenpercentage|Berekenen van controle- en belangenpercentage in een ketenstructuur]] · `competentie`
-- [[consolidatiekring|Consolidatiekring]] · `begrip`
-- [[consolidatieverplichting|Consolidatieverplichting]] · `regel`
-- [[consolidatieverschil|Consolidatieverschil]] · `cluster`
-- [[consortium|Consortium (horizontale groep)]] · `begrip`
-- [[controle|Controle]] · `begrip`
-- [[controlepercentage|Controlepercentage]] · `begrip`
-- [[consolidatiemethodes-vergelijking|De vier consolidatiemethodes vergeleken]] · `synthese`
-- [[dochteronderneming|Dochteronderneming]] · `begrip`
-- [[eerste-consolidatie|Eerste consolidatie]] · `cluster`
-- [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `cluster`
-- [[exclusieve-controle|Exclusieve controle]] · `begrip`
-- [[geassocieerde-onderneming|Geassocieerde onderneming]] · `begrip`
-- [[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]] · `begrip`
-- [[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]] · `begrip`
-- [[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]] · `begrip`
-- [[gezamenlijke-controle|Gezamenlijke controle]] · `begrip`
-- [[groep-van-beperkte-omvang|Groep van beperkte omvang]] · `begrip`
-- [[groottecriteria-consolidatie|Groottecriteria voor de consolidatievrijstelling]] · `regel`
-- [[horizontale-consolidatie|Horizontale consolidatie]] · `cluster`
-- [[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]] · `begrip`
-- [[integrale-consolidatie|Integrale consolidatie]] · `cluster`
-- [[intragroep-eliminaties|Intragroep-eliminaties]] · `cluster`
-- [[invloed-van-betekenis|Invloed van betekenis]] · `begrip`
-- [[kiezen-consolidatiemethode|Kiezen van de toe te passen consolidatietechniek per entiteit]] · `competentie`
-- [[kleine-vennootschap|Kleine vennootschap (WVV art. 1:24)]] · `begrip`
-- [[kwalificeren-relatie-deelneming|Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)]] · `competentie`
-- [[moedervennootschap|Moedervennootschap]] · `begrip`
-- [[consolidatieplicht-beslisboom|Moet ik consolideren? — Beslisboom]] · `synthese`
-- [[step-acquisition|Step acquisition (trapsgewijze verwerving)]] · `cluster`
-- [[toepassen-uniforme-waarderingsregels|Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers]] · `competentie`
-- [[uitvoeren-eerste-consolidatie|Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming]] · `competentie`
-- [[uitvoeren-intragroep-eliminaties|Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden]] · `competentie`
-- [[uniforme-waarderingsregels-consolidatie|Uniforme waarderingsregels in de consolidatie]] · `regel`
-- [[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `cluster`
-- [[verwerken-wijziging-consolidatiekring|Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)]] · `competentie`
-- [[vrijstelling-subconsolidatie|Vrijstelling van subconsolidatie]] · `regel`
-- [[wijziging-consolidatiekring|Wijziging van de consolidatiekring]] · `cluster`
+- ✅ [[eigen-vermogen|Eigen vermogen]] · PO ?
+- ✅ [[geldbeleggingen-en-liquide-middelen|Geldbeleggingen en liquide middelen]] · PO ?
+- ✅ [[handelsvorderingen|Handelsvorderingen]] · PO ?
+- ✅ [[oprichtingskosten|Oprichtingskosten]] · PO ?
+- ✅ [[overlopende-rekeningen|Overlopende rekeningen]] · PO ?
+- ✅ [[personeelskosten|Personeelskosten]] · PO ?
+- ✅ [[schulden-op-korte-termijn|Schulden op korte termijn]] · PO ?
+- ✅ [[voorraden|Voorraden]] · PO ?
+- ✅ [[voorzieningen-en-uitgestelde-belastingen|Voorzieningen en uitgestelde belastingen]] · PO ?
+- ✅ [[vorderingen-op-meer-dan-een-jaar|Vorderingen op meer dan een jaar]] · PO ?
 
-</div>
+## Ratio's (15/15)
 
-## 1.5 Beginselen van de Europese wetgeving en internationale boekhoudkundige normen (54 records)
-
-<div class="two-column-list">
-
-- [[bijzondere-waardevermindering-be-gaap|Aanvullende afschrijving en waardevermindering onder BE-GAAP (art. 3:42 KB WVV)]] · `cluster`
-- [[afschrijvingen-ifrs|Afschrijvingen onder IFRS (IAS 16 + IAS 38)]] · `cluster`
-- [[presentatiebeginselen-jaarrekening-ifrs|Algemene presentatiebeginselen IFRS-jaarrekening]] · `regel`
-- [[balans|Balans (jaarrekening-component)]] · `cluster`
-- [[belgisch-gaap|Belgisch GAAP]] · `begrip`
-- [[be-gaap-vs-ifrs-overzicht|Belgisch GAAP versus IFRS — overzicht van hoofdverschillen]] · `synthese`
-- [[bepalen-toepasselijkheid-ifrs-belgie|Bepalen of een onderneming IFRS moet of mag toepassen in België]] · `competentie`
-- [[bijzondere-waardevermindering|Bijzondere waardevermindering (regime-overstijgend)]] · `cluster`
-- [[bijzondere-waardevermindering-ifrs|Bijzondere waardevermindering onder IFRS (IAS 36)]] · `cluster`
-- [[boekhoudbeginselen-overzicht|Boekhoudbeginselen &mdash; overzicht]] · `synthese`
-- [[jaarrekening-componenten-ifrs|Componenten van een IFRS-jaarrekening]] · `begrip`
-- [[componentenbenadering|Componentenbenadering — afschrijving per onderdeel]] · `cluster`
-- [[consolidatieverplichting|Consolidatieverplichting]] · `regel`
-- [[correctie-jaarrekening-ifrs|Correctie van de jaarrekening — IAS 8 versus CBN 2020/12]] · `cluster`
-- [[eu-harmonisatie-jaarrekeningenrecht|EU-harmonisatie van het jaarrekeningenrecht]] · `cluster`
-- [[ifrs-eerste-toepassing|Eerste toepassing van IFRS (IFRS 1)]] · `cluster`
-- [[endorsement-procedure-eu|Endorsement-procedure — EU-goedkeuring van IFRS-standaarden]] · `cluster`
-- [[getrouw-beeld|Getrouw beeld]] · `regel`
-- [[goodwill-be-gaap|Goodwill onder BE-GAAP (consolidatieverschil en verworven goodwill)]] · `cluster`
-- [[groottecriteria-jaarrekening|Groottecriteria (jaarrekening-context)]] · `regel`
-- [[herwaarderingsmodel-ifrs|Herwaarderingsmodel onder IFRS (IAS 16)]] · `cluster`
-- [[ifrs-16-lessee-vs-lessor-overzicht|IFRS 16 — lessee versus lessor (overzicht)]] · `synthese`
-- [[ifrs-conceptueel-raamwerk|IFRS Conceptueel Raamwerk (IASB Conceptual Framework)]] · `cluster`
-- [[ifrs|IFRS — International Financial Reporting Standards]] · `begrip`
-- [[balans-presentatie-ifrs|IFRS-balanspresentatie — vlottend versus niet-vlottend]] · `regel`
-- [[ifrs-toepassingsgebied-belgie|IFRS-toepassingsgebied in België — wie moet en wie mag?]] · `regel`
-- [[immateriele-vaste-activa-ifrs|Immateriële activa onder IFRS (IAS 38)]] · `regel`
-- [[intercalaire-interesten|Intercalaire interesten (financieringskosten tijdens bouw)]] · `regel`
-- [[jaarrekening|Jaarrekening (synthesedocumenten)]] · `cluster`
-- [[jaarrekening-presentatie|Jaarrekeningpresentatie (regime-overstijgend)]] · `cluster`
-- [[leaseverplichting-ifrs|Leaseverplichting onder IFRS 16]] · `begrip`
-- [[leasing-ifrs|Leasing onder IFRS (IFRS 16) — lessee-perspectief]] · `cluster`
-- [[lessee-vs-lessor-leasing-ifrs|Lessee versus lessor onder IFRS 16 — overzicht en asymmetrie]] · `synthese`
-- [[materiele-vaste-activa-ifrs|Materiële vaste activa onder IFRS (IAS 16)]] · `regel`
-- [[mutatieoverzicht-eigen-vermogen-ifrs|Mutatieoverzicht eigen vermogen (IFRS)]] · `begrip`
-- [[onderhanden-projecten-ifrs|Onderhanden projecten in opdracht van derden — onder IFRS 15]] · `regel`
-- [[opbrengsten-ifrs|Opbrengsten onder IFRS (IFRS 15) — 5-stappen-model]] · `cluster`
-- [[presenteren-jaarrekening-ifrs|Presenteren van een IFRS-jaarrekening (vijf componenten en presentatiebeginselen)]] · `competentie`
-- [[prestatieverplichting|Prestatieverplichting (performance obligation)]] · `begrip`
-- [[public-interest-entity|Public Interest Entity (PIE)]] · `begrip`
-- [[resultatenrekening|Resultatenrekening]] · `cluster`
-- [[right-of-use-actief|Right-of-use-actief (gebruiksrecht-actief) onder IFRS 16]] · `begrip`
-- [[sale-and-leaseback-ifrs|Sale-and-leaseback onder IFRS (IFRS 16)]] · `cluster`
-- [[stelselwissel-jaarrekening|Stelselwissel jaarrekening (BE GAAP ↔ IFRS)]] · `cluster`
-- [[toelichtingsvereisten-jaarrekening-ifrs|Toelichtingsvereisten IFRS-jaarrekening — structuur en inhoud]] · `regel`
-- [[toepassen-vijf-stappen-model-opbrengsten-ifrs|Toepassen van het 5-stappen-model van IFRS 15 voor opbrengstenherkenning]] · `competentie`
-- [[toetsen-bijzondere-waardevermindering-ifrs|Toetsen van een actief op bijzondere waardevermindering onder IFRS (IAS 36)]] · `competentie`
-- [[uitvoeren-eerste-toepassing-ifrs|Uitvoeren van de eerste toepassing van IFRS overeenkomstig IFRS 1]] · `competentie`
-- [[verplichte-ifrs-eu-beursgenoteerden|Verplichte IFRS voor EU-beursgenoteerden — geconsolideerde jaarrekening]] · `regel`
-- [[verwerken-leasing-ifrs-lessee|Verwerken van een leaseovereenkomst onder IFRS 16 als lessee (right-of-use + lease-verplichting)]] · `competentie`
-- [[voorraden-ifrs|Voorraden onder IFRS (IAS 2)]] · `regel`
-- [[waarderen-materiele-vaste-activa-ifrs|Waarderen van materiële vaste activa onder IAS 16 (kostprijs- of herwaarderingsmodel)]] · `competentie`
-- [[wijziging-boekhoudkundig-referentiestelsel|Wijziging van boekhoudkundig referentiestelsel naar BE GAAP (CBN 2022/08)]] · `cluster`
-- [[totaalresultaat-ifrs|Winst of verlies en overige onderdelen van het totaalresultaat (IFRS)]] · `begrip`
-
-</div>
-
-## 1.6 Externe controle (92 records)
-
-<div class="two-column-list">
-
-- [[aangepast-oordeel|Aangepast oordeel (modified opinion)]] · `begrip`
-- [[aanvaarden-audit-opdracht|Aanvaarden van een audit-opdracht en opmaken van de opdrachtbrief]] · `competentie`
-- [[afwijking-van-materieel-belang|Afwijking van materieel belang]] · `begrip`
-- [[algemene-controlenorm-accountant|Algemene controlenorm voor de externe accountant]] · `cluster`
-- [[antiwitwasmeldingsplicht-accountant|Antiwitwasmeldingsplicht voor de accountant]] · `cluster`
-- [[assurance-informatie|Assurance-informatie (controle-informatie)]] · `begrip`
-- [[auditcyclus-fasen-synthese|Auditcyclus — vier fasen vergeleken]] · `synthese`
-- [[auditplanning|Auditplanning]] · `cluster`
-- [[auditrisicomodel|Auditrisicomodel (controlerisico)]] · `cluster`
-- [[auditstrategie|Auditstrategie]] · `begrip`
-- [[bedrijfsrevisor|Bedrijfsrevisor]] · `autoriteit`
-- [[belangenconflict-accountant|Belangenconflict van de externe accountant]] · `regel`
-- [[beoordelen-getrouw-beeld-en-regelmatigheid|Beoordelen van regelmatigheid, waarachtigheid en getrouw beeld van de jaarrekening]] · `competentie`
-- [[beperkte-mate-van-zekerheid|Beperkte mate van zekerheid]] · `begrip`
-- [[beroepsaansprakelijkheid-accountant|Beroepsaansprakelijkheid van de accountant]] · `regel`
-- [[beroepsgeheim-accountant|Beroepsgeheim van de accountant]] · `regel`
-- [[beweringen-audit|Beweringen (assertions) in een audit]] · `begrip`
-- [[boekhoudkundige-schattingen-audit|Boekhoudkundige schattingen (audit-perspectief)]] · `begrip`
-- [[cijferanalyses-audit|Cijferanalyses bij een audit]] · `cluster`
-- [[communicatie-met-management-governance|Communicatie met management en met governance belaste personen]] · `cluster`
-- [[communicatie-tekortkomingen-interne-beheersing|Communicatie van tekortkomingen in de interne beheersing]] · `cluster`
-- [[communiceren-met-bestuur-en-auditcomite|Communiceren met audit-comité en bestuur over auditbevindingen]] · `competentie`
-- [[confirmatiebrieven|Confirmatiebrieven]] · `begrip`
-- [[continuiteitsveronderstelling-audit|Continuïteitsveronderstelling (audit-perspectief)]] · `regel`
-- [[contractuele-beoordelingsopdracht|Contractuele beoordelingsopdracht]] · `begrip`
-- [[contractuele-controleopdracht|Contractuele controleopdracht]] · `begrip`
-- [[controledocumentatie|Controledocumentatie / controledossier]] · `cluster`
-- [[controleverslag-omzetting|Controleverslag bij omzetting van een vennootschap]] · `regel`
-- [[delegatie-en-supervisie-audit|Delegatie en supervisie binnen het auditteam]] · `cluster`
-- [[documenteren-auditdossier|Documenteren van de revisiewerkzaamheden in het auditdossier]] · `competentie`
-- [[beoordelingsverslag-elementen|Elementen van het beoordelingsverslag (review report)]] · `procedure`
-- [[controleverslag-elementen|Elementen van het controleverslag (revisieverslag)]] · `cluster`
-- [[externe-bevestiging-audit|Externe bevestiging (audit)]] · `cluster`
-- [[fraude-versus-fout|Fraude versus fout — onderscheid in audit en interne controle]] · `synthese`
-- [[fraudedriehoek|Fraude-driehoek (motief – gelegenheid – rationalisatie)]] · `begrip`
-- [[frauderisicofactoren|Frauderisicofactoren (ISA 240)]] · `begrip`
-- [[fraudetypologie-acfe|Fraudetypologie ACFE (drie hoofdtypen)]] · `begrip`
-- [[gebruik-werk-interne-auditors-audit|Gebruikmaken van de werkzaamheden van interne auditors bij externe controle]] · `cluster`
-- [[gecertificeerd-accountant-ga|Gecertificeerd accountant (GA)]] · `autoriteit`
-- [[gedeelde-wettelijk-voorbehouden-opdracht|Gedeelde wettelijk voorbehouden opdracht]] · `begrip`
-- [[gegevensgerichte-werkzaamheden|Gegevensgerichte werkzaamheden (substantive procedures)]] · `cluster`
-- [[gerechtelijke-en-private-expertise|Gerechtelijke en private expertise door de gecertificeerd accountant]] · `begrip`
-- [[getrouw-beeld-controle|Getrouw beeld als controlecriterium]] · `regel`
-- [[iesba-code-of-ethics|IESBA International Code of Ethics for Professional Accountants]] · `autoriteit`
-- [[inherent-risico|Inherent risico]] · `begrip`
-- [[intern-beheersingsrisico|Intern beheersingsrisico]] · `begrip`
-- [[intern-kwaliteitsmanagement-kantoor|Intern kwaliteitsmanagement op kantoorniveau]] · `cluster`
-- [[kmo-controlenorm-accountant|KMO-controlenorm voor de externe accountant]] · `cluster`
-- [[kennis-van-onderneming-omgeving|Kennis van de onderneming en haar omgeving]] · `cluster`
-- [[kernpunten-van-controle|Kernpunten van de controle (KAM)]] · `begrip`
-- [[kleine-vennootschap|Kleine vennootschap (WVV art. 1:24)]] · `begrip`
-- [[kwaliteitsbeheersing-opdrachtniveau|Kwaliteitsbeheersing op opdrachtniveau]] · `cluster`
-- [[materieel-belang-audit|Materieel belang (materialiteit) in een audit]] · `begrip`
-- [[met-governance-belaste-personen|Met governance belaste personen]] · `autoriteit`
-- [[omzetting-vennootschap|Omzetting van een vennootschap]] · `cluster`
-- [[onafhankelijkheid-externe-accountant|Onafhankelijkheid van de externe accountant]] · `regel`
-- [[ontbinding-vereffening-opdracht|Ontbinding-vereffening opdracht van de gecertificeerd accountant]] · `cluster`
-- [[ontdekkingsrisico|Ontdekkingsrisico]] · `begrip`
-- [[opdrachtbrief-accountant|Opdrachtbrief van de accountant]] · `cluster`
-- [[opdrachtgerichte-kwaliteitsbeoordeling|Opdrachtgerichte kwaliteitsbeoordeling (EQR)]] · `cluster`
-- [[opdrachttypes-zekerheidsniveaus-synthese|Opdrachttypes en zekerheidsniveaus vergeleken]] · `synthese`
-- [[opstellen-auditstrategie-en-werkprogramma|Opstellen van de auditstrategie en het werkprogramma]] · `competentie`
-- [[opstellen-controleverslag-en-formuleren-oordeel|Opstellen van het controleverslag en formuleren van het oordeel]] · `competentie`
-- [[opvolging-voorganger-accountant|Opvolging van een collega-accountant]] · `competentie`
-- [[paragraaf-overige-aangelegenheden|Paragraaf inzake overige aangelegenheden]] · `begrip`
-- [[paragraaf-ter-benadrukking|Paragraaf ter benadrukking van bepaalde aangelegenheden]] · `begrip`
-- [[professioneel-kritische-instelling|Professioneel-kritische instelling]] · `regel`
-- [[professionele-oordeelsvorming|Professionele oordeelsvorming]] · `regel`
-- [[public-interest-entity|Public Interest Entity (PIE)]] · `begrip`
-- [[randvoorwaarden-controle|Randvoorwaarden voor een controle (preconditions)]] · `regel`
-- [[redelijke-mate-van-zekerheid|Redelijke mate van zekerheid]] · `begrip`
-- [[regelmatigheid-jaarrekening-audit|Regelmatigheid van de jaarrekening (audit-perspectief)]] · `regel`
-- [[risico-inschatting-audit|Risico-inschatting (audit)]] · `cluster`
-- [[samenstellingsopdracht|Samenstellingsopdracht]] · `cluster`
-- [[schriftelijke-bevestiging-management|Schriftelijke bevestiging van het management (management representation letter)]] · `begrip`
-- [[selecteren-en-uitvoeren-controle-instrumenten-audit|Selecteren en uitvoeren van controle-instrumenten (test of controls + gegevensgerichte werkzaamheden)]] · `competentie`
-- [[significant-risico-audit|Significant risico (audit)]] · `begrip`
-- [[specifieke-kwesties-automatisering-audit|Specifieke kwesties bij automatisering (audit-perspectief)]] · `begrip`
-- [[steekproef-audit|Steekproef bij een audit (audit sampling)]] · `cluster`
-- [[toepassen-professional-skepticism-en-deontologie-audit|Toepassen van professional skepticism en deontologische normen tijdens de audit]] · `competentie`
-- [[toetsing-interne-beheersing|Toetsing van interne beheersing (test of controls)]] · `cluster`
-- [[tuchtrechtelijke-aansprakelijkheid-accountant|Tuchtrechtelijke aansprakelijkheid van de accountant]] · `regel`
-- [[controleoordeel-types|Types van controleoordeel]] · `cluster`
-- [[uitvoeren-risico-inschatting-en-materialiteit-audit|Uitvoeren van risico-inschatting en bepalen van het materieel belang in een audit]] · `competentie`
-- [[verbonden-partijen-audit|Verbonden partijen (audit-perspectief)]] · `regel`
-- [[effectennorm-opdracht|Verslag bij effectenverrichting (effectennorm)]] · `cluster`
-- [[fusie-splitsing-controleopdracht|Verslag bij fusie of splitsing van vennootschappen]] · `cluster`
-- [[omzetting-vennootschap-opdracht|Verslag bij omzetting van een vennootschap]] · `cluster`
-- [[verwerven-kennis-van-clientonderneming-audit|Verwerven van kennis van de cliënt en zijn omgeving in een audit-opdracht]] · `competentie`
-- [[werkprogramma-audit|Werkprogramma / werkschema audit]] · `begrip`
-- [[wettelijke-controleopdracht-commissaris|Wettelijke controleopdracht (commissaris-mandaat)]] · `begrip`
-- [[wettelijke-verklaring-gecertificeerd-accountant|Wettelijke verklaring van de gecertificeerd accountant]] · `begrip`
-
-</div>
-
-## 1.7 Interne controle (104 records)
-
-<div class="two-column-list">
-
-- [[avg-interne-controle|AVG/GDPR in IC-context]] · `regel`
-- [[aankoopcyclus-ic|Aankoopcyclus en interne controle]] · `cluster`
-- [[actoren-interne-controle|Actoren van interne controle]] · `synthese`
-- [[adviseren-management-ic-design-als-externe-adviseur|Adviseren van het management bij IC-design als externe adviseur]] · `competentie`
-- [[antiwitwasmeldingsplicht-accountant|Antiwitwasmeldingsplicht voor de accountant]] · `cluster`
-- [[it-audit-procedures|Audit-procedures in een IT-omgeving]] · `cluster`
-- [[auditcomite|Auditcomité]] · `autoriteit`
-- [[auditrisico-in-ic-context|Auditrisico in IC-context]] · `begrip`
-- [[auditrisicomodel|Auditrisicomodel (controlerisico)]] · `cluster`
-- [[bedrijfsrevisor|Bedrijfsrevisor]] · `autoriteit`
-- [[begeleiden-inbreng-bij-oprichting|Begeleiden van de inbreng in geld en in natura bij oprichting]] · `competentie`
-- [[beheersactiviteiten|Beheersactiviteiten (COSO-component 3)]] · `cluster`
-- [[beoordelen-effectiviteit-ic-via-interne-audit|Beoordelen van de effectiviteit van een intern-controlesysteem (interne audit)]] · `competentie`
-- [[bijzondere-verslagen-overzicht|Bijzondere verslagen — overzicht]] · `synthese`
-- [[coso-i-framework|COSO I — Internal Control Integrated Framework]] · `cluster`
-- [[coso-ii-erm-framework|COSO II — Enterprise Risk Management]] · `cluster`
-- [[coso-componenten-synthese|COSO-componenten — synthese-overzicht]] · `synthese`
-- [[cfi|Cel voor Financiële Informatieverwerking (CFI)]] · `autoriteit`
-- [[communicatie-tekortkomingen-interne-beheersing|Communicatie van tekortkomingen in de interne beheersing]] · `cluster`
-- [[confirmatiebrieven|Confirmatiebrieven]] · `begrip`
-- [[controle-begrip-algemeen|Controle — begrip algemeen]] · `begrip`
-- [[controle-omgeving|Controle-omgeving (COSO-component 1)]] · `begrip`
-- [[controlemiddelen-ic|Controlemiddelen — concrete instrumenten]] · `cluster`
-- [[controleproces-organisatie|Controleproces in de organisatie]] · `cluster`
-- [[cyberrisico-ic|Cyberrisico in IC-context]] · `cluster`
-- [[cyclus-analyse-ic|Cyclusanalyse bij interne controle]] · `synthese`
-- [[dora-verordening|Digital Operational Resilience Act (DORA)]] · `regel`
-- [[management-override|Doorbreking door management (management override)]] · `begrip`
-- [[drie-lijnen-model|Drie-lijnen-model (Three Lines of Defense)]] · `cluster`
-- [[ethiek-organisatie-ic|Ethiek in de organisatie (IC-context)]] · `begrip`
-- [[evaluatie-interne-controle|Evaluatie van de interne controle]] · `cluster`
-- [[evaluatiecriteria-ic|Evaluatiecriteria voor interne controle]] · `begrip`
-- [[externe-auditor-relatie-ic|Externe auditor en interne controle — relatie]] · `begrip`
-- [[externe-controle|Externe controle]] · `begrip`
-- [[fouten-ic|Fouten in IC-context]] · `cluster`
-- [[fraude|Fraude]] · `cluster`
-- [[fraude-versus-fout|Fraude versus fout — onderscheid in audit en interne controle]] · `synthese`
-- [[fraudedriehoek|Fraude-driehoek (motief – gelegenheid – rationalisatie)]] · `begrip`
-- [[frauderisicofactoren|Frauderisicofactoren (ISA 240)]] · `begrip`
-- [[fraudetypologie-acfe|Fraudetypologie ACFE (drie hoofdtypen)]] · `begrip`
-- [[functie-interne-auditor|Functie van de interne auditor]] · `autoriteit`
-- [[functiescheiding|Functiescheiding]] · `cluster`
-- [[gebruik-werk-interne-auditors-audit|Gebruikmaken van de werkzaamheden van interne auditors bij externe controle]] · `cluster`
-- [[gecertificeerd-accountant-ga|Gecertificeerd accountant (GA)]] · `autoriteit`
-- [[gedeelde-wettelijk-voorbehouden-opdracht|Gedeelde wettelijk voorbehouden opdracht]] · `begrip`
-- [[hr-cyclus-ic|HR-cyclus en interne controle]] · `cluster`
-- [[iesba-code-of-ethics|IESBA International Code of Ethics for Professional Accountants]] · `autoriteit`
-- [[isa-standaarden-ic|ISA-standaarden in IC-context]] · `synthese`
-- [[iso-31000-risicobeheer|ISO 31000 — Risk Management Guidelines]] · `cluster`
-- [[it-application-controls|IT application controls]] · `cluster`
-- [[it-general-controls|IT general controls (ITGC)]] · `cluster`
-- [[itaa-normen-ic|ITAA-normen en interne controle]] · `synthese`
-- [[identificeren-fouten-fraude-verspilling|Identificeren van fouten, fraude en verspilling in een organisatie]] · `competentie`
-- [[implementeren-functiescheiding-transactiecycli|Implementeren van functiescheiding op kritieke transactiecycli]] · `competentie`
-- [[inbreng-in-natura|Inbreng in natura]] · `regel`
-- [[informatie-en-communicatie-ic|Informatie en communicatie (COSO-component 4)]] · `begrip`
-- [[informatie-kwaliteit-ic|Informatie en haar kwaliteitseisen]] · `begrip`
-- [[informatiesysteem-onderneming|Informatiesysteem van de onderneming]] · `begrip`
-- [[ibr|Instituut van de Bedrijfsrevisoren (IBR)]] · `autoriteit`
-- [[itaa|Instituut van de Belastingadviseurs en Accountants (ITAA)]] · `autoriteit`
-- [[integreren-avg-compliance-in-ic|Integreren van AVG-compliance in het intern-controlesysteem]] · `competentie`
-- [[intern-beheersingsrisico|Intern beheersingsrisico]] · `begrip`
-- [[intern-kwaliteitsmanagement-kantoor|Intern kwaliteitsmanagement op kantoorniveau]] · `cluster`
-- [[interne-audit|Interne audit]] · `cluster`
-- [[interne-controle|Interne controle]] · `cluster`
-- [[geinformatiseerde-omgeving-ic|Interne controle in een geïnformatiseerde omgeving]] · `cluster`
-- [[kenmerken-interne-controle|Kenmerken van interne controle]] · `synthese`
-- [[kleine-vennootschap|Kleine vennootschap (WVV art. 1:24)]] · `begrip`
-- [[klokkenluiderregeling|Klokkenluiderregeling (interne meldkanaal)]] · `regel`
-- [[kwaliteitscriteria-interne-controle|Kwaliteitscriteria van interne controle]] · `synthese`
-- [[managementcontrole|Managementcontrole]] · `begrip`
-- [[met-governance-belaste-personen|Met governance belaste personen]] · `autoriteit`
-- [[monitoring-interne-controle|Monitoring (COSO-component 5)]] · `cluster`
-- [[nis-2-richtlijn|NIS 2-richtlijn (cybersecurity-kader)]] · `regel`
-- [[niet-naleving-wet-regelgeving-noclar|Niet-naleving wet- en regelgeving (NOCLAR)]] · `cluster`
-- [[omzetting-vennootschap|Omzetting van een vennootschap]] · `cluster`
-- [[onderneming-begrip-ic|Onderneming (begrip in IC-context)]] · `begrip`
-- [[ontbinding-vereffening-opdracht|Ontbinding-vereffening opdracht van de gecertificeerd accountant]] · `cluster`
-- [[ontwerpen-intern-controlesysteem-coso|Ontwerpen van een intern-controlesysteem volgens de vijf COSO-componenten]] · `competentie`
-- [[opdrachtbrief-accountant|Opdrachtbrief van de accountant]] · `cluster`
-- [[opstellen-bijzondere-verslagen-en-ic-evaluaties|Opstellen van bijzondere verslagen en IC-evaluaties voor specifieke verrichtingen]] · `competentie`
-- [[opstellen-intern-audit-rapport|Opstellen van een intern-audit-rapport]] · `competentie`
-- [[opvolging-verrichtingen-ic|Opvolging van verrichtingen]] · `cluster`
-- [[opzetten-controleactiviteiten-en-monitoring|Opzetten van controle-activiteiten en monitoringsmechanismen]] · `competentie`
-- [[preventief-versus-detecterende-controle|Preventieve versus detecterende interne controle]] · `synthese`
-- [[productiecyclus-ic|Productiecyclus en interne controle]] · `cluster`
-- [[public-interest-entity|Public Interest Entity (PIE)]] · `begrip`
-- [[redelijke-zekerheid|Redelijke zekerheid]] · `begrip`
-- [[risico-inschatting-organisatie|Risico-inschatting binnen de organisatie (COSO-component 2)]] · `cluster`
-- [[samenstellingsopdracht|Samenstellingsopdracht]] · `cluster`
-- [[stromen-onderneming|Stromen in de onderneming]] · `begrip`
-- [[taakverdeling-ic|Taakverdeling binnen interne controle]] · `begrip`
-- [[toetsing-interne-beheersing|Toetsing van interne beheersing (test of controls)]] · `cluster`
-- [[uitvoeren-risicoanalyse-organisatie|Uitvoeren van een risico-identificatie en -analyse voor het IC-systeem]] · `competentie`
-- [[uitvoering-interne-controle|Uitvoering van interne controle — aanpak]] · `cluster`
-- [[verkoopcyclus-ic|Verkoopcyclus en interne controle]] · `cluster`
-- [[effectennorm-opdracht|Verslag bij effectenverrichting (effectennorm)]] · `cluster`
-- [[fusie-splitsing-controleopdracht|Verslag bij fusie of splitsing van vennootschappen]] · `cluster`
-- [[inbreng-in-natura-verslag|Verslag bij inbreng in natura]] · `cluster`
-- [[omzetting-vennootschap-opdracht|Verslag bij omzetting van een vennootschap]] · `cluster`
-- [[quasi-inbreng-verslag|Verslag bij quasi-inbreng]] · `cluster`
-- [[verspilling|Verspilling (rationeel gebruik van middelen)]] · `cluster`
-- [[voorraadcyclus-ic|Voorraadcyclus en interne controle]] · `cluster`
-- [[wettelijk-kader-ic|Wettelijk kader voor interne controle in België]] · `synthese`
-
-</div>
-
-## 1.8 Analytische boekhouding en management accounting (53 records)
-
-<div class="two-column-list">
-
-- [[abc-methode|ABC-methode (Activity Based Costing)]] · `cluster`
-- [[algemene-boekhouding|Algemene boekhouding]] · `begrip`
-- [[analytische-boekhouding|Analytische boekhouding]] · `begrip`
-- [[arbeidskosten|Arbeidskosten]] · `begrip`
-- [[bepalen-vervaardigingsprijs|Bepalen van de vervaardigingsprijs]] · `competentie`
-- [[berekenen-interpreteren-budgetverschillen|Berekenen en interpreteren van budgetverschillen (verschillenboekhouding)]] · `competentie`
-- [[break-even-analyse|Break-even-analyse]] · `cluster`
-- [[budgetbeheer|Budgetbeheer]] · `cluster`
-- [[budgetboekhouding|Budgetboekhouding]] · `begrip`
-- [[budget-cyclus|Budgetcyclus]] · `synthese`
-- [[budgetprocedure|Budgetprocedure]] · `cluster`
-- [[contributiemarge|Contributiemarge]] · `begrip`
-- [[direct-costing|Direct costing (gedeeltelijke kostencalculatie)]] · `cluster`
-- [[directe-kosten|Directe kosten]] · `begrip`
-- [[doelstellingen-analytische-boekhouding|Doelstellingen van de analytische boekhouding]] · `cluster`
-- [[registratiesysteem-eenvoudige-integratie|Eenvoudige integratie (registratiesysteem)]] · `cluster`
-- [[flexibel-budget|Flexibel budget]] · `begrip`
-- [[gemiddelde-kostprijs|Gemiddelde kostprijs]] · `begrip`
-- [[indirecte-kosten|Indirecte kosten]] · `begrip`
-- [[costing-methodes-vergelijking|Kostencalculatiemethoden vergeleken]] · `synthese`
-- [[kostencentrum|Kostencentrum]] · `begrip`
-- [[kostendrager|Kostendrager]] · `begrip`
-- [[kostensoort|Kostensoort]] · `begrip`
-- [[kostprijs-per-eenheid|Kostprijs per eenheid]] · `begrip`
-- [[kostenanalyse-make-or-buy|Make-or-buy-analyse]] · `cluster`
-- [[marginale-kostprijs|Marginale kostprijs]] · `begrip`
-- [[master-budget|Master-budget (geconsolideerd budget)]] · `begrip`
-- [[materiaalkosten|Materiaalkosten]] · `begrip`
-- [[opportuniteitskost|Opportuniteitskost]] · `begrip`
-- [[opstellen-master-budget|Opstellen van een master-budget (operationeel + financieel)]] · `competentie`
-- [[opzetten-analytisch-rekeningenstelsel|Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers]] · `competentie`
-- [[overige-kosten|Overige kosten (diensten, diverse goederen, afschrijvingen)]] · `begrip`
-- [[registratiesysteem-proportionele-integratie|Proportionele integratie (registratiesysteem)]] · `cluster`
-- [[rekeningenstelsel-analytisch|Rekeningenstelsel voor analytische boekhouding (klasse 9)]] · `begrip`
-- [[statisch-budget|Statisch budget]] · `begrip`
-- [[sunk-cost|Sunk cost (reeds gemaakte kost)]] · `begrip`
-- [[prijsverschil-arbeid|Tariefverschil en efficiëntieverschil bij arbeid]] · `begrip`
-- [[toepassen-abc-methode-op-productlijn|Toepassen van de ABC-methode (Activity Based Costing) op een productlijn]] · `competentie`
-- [[toepassen-volledige-kostencalculatie|Toepassen van de volledige kostencalculatie (full costing) op een productie-eenheid]] · `competentie`
-- [[toepassen-direct-costing-en-contributiemarge|Toepassen van direct costing en contributiemarge-analyse]] · `competentie`
-- [[typologie-van-kosten|Typologie van kosten]] · `synthese`
-- [[uitvoeren-break-even-analyse|Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge]] · `competentie`
-- [[uitvoeren-make-or-buy-beslissing|Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse]] · `competentie`
-- [[variabele-kosten|Variabele kosten]] · `begrip`
-- [[vaste-kosten|Vaste kosten]] · `begrip`
-- [[verdeelsleutel|Verdeelsleutel]] · `begrip`
-- [[verschillenboekhouding|Verschillenboekhouding]] · `cluster`
-- [[vervaardigingsprijs|Vervaardigingsprijs]] · `regel`
-- [[volledige-kostencalculatie|Volledige kostencalculatie (full costing)]] · `cluster`
-- [[voorbepaalde-kosten|Voorbepaalde kosten (standaardkostencalculatie)]] · `cluster`
-- [[voorraadwaardering|Voorraadwaardering (kostprijsmethoden)]] · `regel`
-- [[registratiesysteem-waarderingsneutraal|Waarderingsneutraal registratiesysteem]] · `cluster`
-- [[werkelijke-kostencalculatie|Werkelijke kostencalculatie (vastgestelde kosten)]] · `cluster`
-
-</div>
-
-## 1.9 Financiële analyse en fundamentele principes van financieel bedrijfsbeheer (44 records)
-
-<div class="two-column-list">
-
-- [[altman-z-score|Altman Z-score (faillissement-predictiemodel)]] · `cluster`
-- [[analytische-balans|Analytische balans (herstructureringsschema)]] · `cluster`
-- [[behoefte-aan-bedrijfskapitaal|Behoefte aan bedrijfskapitaal (BBK)]] · `begrip`
-- [[bepalen-behoefte-aan-bedrijfskapitaal|Bepalen van de behoefte aan bedrijfskapitaal en de nettokas-positie]] · `competentie`
-- [[bestuursverslag|Bestuursverslag (jaarverslag)]] · `procedure`
-- [[cashflow-analyse|Cashflow (bedrijfscashflow)]] · `begrip`
-- [[cijferanalyses-controle-norm|Cijferanalyses (controlenorm KMO)]] · `regel`
-- [[current-ratio|Current ratio (liquiditeit in ruime zin)]] · `cluster`
-- [[ratio-vier-doelen-vergelijking|De vier analyse-doelen en hun ratio's — overzicht]] · `synthese`
-- [[debt-equity-ratio|Debt-equity ratio (schuldgraad)]] · `cluster`
-- [[doelstellingen-financiele-analyse|Doelstellingen van financiële analyse]] · `begrip`
-- [[falen-van-de-onderneming|Falen van de onderneming (financiële diagnose)]] · `cluster`
-- [[financiering-met-derdenkapitaal|Financiering met derdenkapitaal (vreemd vermogen)]] · `begrip`
-- [[financiering-met-eigen-vermogen|Financiering met eigen vermogen]] · `begrip`
-- [[financiele-analyse-software|Financiële-analyse-software (IT-tools)]] · `begrip`
-- [[gebruiken-financiele-analyse-software|Gebruiken van financiële-analyse-software voor ratio-set en sectorvergelijking]] · `competentie`
-- [[gebruikers-jaarrekening|Gebruikers van de jaarrekening]] · `begrip`
-- [[getrouw-beeld-jaarrekening|Getrouw beeld van de jaarrekening]] · `regel`
-- [[herstructureren-resultatenrekening-en-toegevoegde-waarde|Herstructureren van de resultatenrekening en isoleren van de toegevoegde waarde]] · `competentie`
-- [[herstructurering-resultatenrekening|Herstructurering van de resultatenrekening]] · `cluster`
-- [[historische-evolutie-financiele-analyse|Historische evolutie in financiële analyse]] · `cluster`
-- [[horizontale-analyse-jaarrekening|Horizontale analyse (evolutie-analyse)]] · `cluster`
-- [[intake-financiele-analyse|Intake (scoping) van financiële analyse]] · `procedure`
-- [[interpretatie-financiele-ratios|Interpretatie en evaluatie van financiële ratio's (bekwaamheid)]] · `cluster`
-- [[jaarrekening-als-studieobject|Jaarrekening als studieobject van financiële analyse]] · `begrip`
-- [[kasstroomoverzicht-drie-segmenten|Kasstroomoverzicht — operationeel, investerings- en financierings-kasstroom]] · `synthese`
-- [[kwantitatieve-financiele-diagnose|Kwantitatieve modellen voor financiële diagnose — overzicht]] · `synthese`
-- [[liquiditeitsratio|Liquiditeitsratio (begrip)]] · `begrip`
-- [[ohlson-o-score|Ohlson O-score (faillissement-predictiemodel via logit)]] · `cluster`
-- [[opstellen-driesegmenten-kasstroomoverzicht|Opstellen van een drie-segmenten-kasstroomoverzicht (CFO, CFI, CFF)]] · `competentie`
-- [[quick-ratio|Quick ratio (liquiditeit in enge zin, zuurtegraad)]] · `cluster`
-- [[ratio-covenants|Ratiocovenants (financial covenants)]] · `begrip`
-- [[rentabiliteit-eigen-vermogen-roe|Rentabiliteit van het eigen vermogen (ROE)]] · `cluster`
-- [[rentabiliteit-totaal-activa-roa|Rentabiliteit van het totaal der activa (ROA)]] · `cluster`
-- [[risicoparagraaf-bestuursverslag|Risicoparagraaf in het bestuursverslag]] · `regel`
-- [[sectorvergelijking-financiele-analyse|Sectorvergelijking (benchmarking)]] · `cluster`
-- [[solvabiliteitsratio|Solvabiliteitsratio]] · `cluster`
-- [[stellen-bekwaamheid-financiele-diagnose|Stellen van een complete bekwaamheid-financiële diagnose met aanbevelingen aan het management]] · `competentie`
-- [[tabel-waardemutaties|Tabel van waardemutaties (mutatietabel vaste activa)]] · `cluster`
-- [[toegevoegde-waarde-financiele-analyse|Toegevoegde waarde (economische maatstaf in financiële analyse)]] · `cluster`
-- [[toepassen-faillissement-predictiemodellen|Toepassen van kwantitatieve faillissement-predictiemodellen (Altman Z en Ohlson O)]] · `competentie`
-- [[verticale-analyse-jaarrekening|Verticale analyse (percentageanalyse, common-size)]] · `cluster`
-- [[liquiditeitstoets-beslisboom|Welke liquiditeitstoets gebruik ik? — Beslisboom]] · `synthese`
-- [[werkkapitaal|Werkkapitaal (working capital)]] · `begrip`
-
-</div>
-
-## 3.0 Vennootschaps- en verenigingsrecht en insolventiewetgeving (203 records)
-
-<div class="two-column-list">
-
-- [[aandeelhoudersovereenkomst|Aandeelhoudersovereenkomst (SHA)]] · `cluster`
-- [[aansprakelijkheidsbeperking-bestuurder|Aansprakelijkheidsbeperking voor bestuurders (cap + exoneratieverbod)]] · `regel`
-- [[aansprakelijkheidsgrondslagen-bestuur-vergelijking|Aansprakelijkheidsgrondslagen in het bestuur — vergelijking oprichter / bestuurder / vereffenaar / feitelijk bestuurder]] · `synthese`
-- [[aansprakelijkheidsperiode-bestuurder|Aansprakelijkheidsperiode van de bestuurder]] · `regel`
-- [[aanwezigheidsrecht-algemene-vergadering|Aanwezigheidsrecht op de algemene vergadering]] · `cluster`
-- [[adviseren-vennootschapsvormkeuze|Adviseren over de keuze van vennootschapsvorm bij oprichting]] · `competentie`
-- [[adviseren-ontbindingsroute-vennootschap|Adviseren over de ontbindingsroute van een vennootschap (vrijwillig, gerechtelijk, één-akte, klassiek)]] · `competentie`
-- [[adviseren-overdrachtsroute-onderneming|Adviseren over de overdrachtsroute van een onderneming (asset deal, share deal, fusie, splitsing)]] · `competentie`
-- [[afgeschafte-vennootschapsvormen|Afgeschafte vennootschapsvormen onder WVV 2019]] · `begrip`
-- [[agenderingsrecht-aandeelhouder|Agenderingsrecht van aandeelhouders]] · `regel`
-- [[alarmbelprocedure|Alarmbelprocedure]] · `cluster`
-- [[algemene-vergadering|Algemene vergadering]] · `cluster`
-- [[alternatieve-geschilbeslechting-vennootschap|Alternatieve geschilbeslechting in vennootschapsconflicten]] · `cluster`
-- [[asset-deal-versus-share-deal|Asset deal versus share deal]] · `synthese`
-- [[begeleiden-inbreng-bij-oprichting|Begeleiden van de inbreng in geld en in natura bij oprichting]] · `competentie`
-- [[begeleiden-registratie-onderneming-kbo|Begeleiden van de registratie van een nieuwe onderneming (KBO, btw, UBO)]] · `competentie`
-- [[begeleiden-vereffening-vennootschap|Begeleiden van de vereffening van een vennootschap (staat van activa/passiva tot sluiting)]] · `competentie`
-- [[begeleiden-waardering-onderneming-bij-overdracht|Begeleiden van de waardering van een onderneming bij overdracht]] · `competentie`
-- [[begeleiden-due-diligence-overname|Begeleiden van due diligence bij overname (verkoper- of koperszijde)]] · `competentie`
-- [[behoorlijke-vervulling-bestuursopdracht|Behoorlijke vervulling van de bestuursopdracht]] · `regel`
-- [[belangenconflict-accountant|Belangenconflict van de externe accountant]] · `regel`
-- [[belangenconflict-aandeelhouder|Belangenconflict van een aandeelhouder]] · `regel`
-- [[belangenconflict-bestuurder|Belangenconflict van een bestuurder]] · `cluster`
-- [[belangenconflict-bestuurder-bv-cv|Belangenconflict van een bestuurder in BV en CV]] · `cluster`
-- [[belangenconflict-bestuurder-vzw-stichting|Belangenconflict van een bestuurder in vzw en stichting]] · `cluster`
-- [[beperkte-aansprakelijkheid-vennoot|Beperkte aansprakelijkheid van vennoten/aandeelhouders]] · `begrip`
-- [[beroepsverbod-na-insolventie|Beroepsverbod na faillissement]] · `regel`
-- [[beslisboom-remedie-vennootschapsconflict|Beslisboom voor remedie-keuze bij een vennootschapsconflict]] · `synthese`
-- [[onafhankelijkheids-beslisboom-bijzondere-mandaten|Beslisboom — mag ik dit bijzonder mandaat aanvaarden?]] · `synthese`
-- [[besloten-vennootschap-bv|Besloten vennootschap (BV)]] · `cluster`
-- [[besloten-voorbereiding-faillissement|Besloten voorbereiding van het faillissement (pre-pack)]] · `cluster`
-- [[bestuurdersaansprakelijkheid|Bestuurdersaansprakelijkheid]] · `cluster`
-- [[bestuurdersaansprakelijkheid-bij-insolventie|Bestuurdersaansprakelijkheid bij insolventie (kennelijk grove fout)]] · `regel`
-- [[bestuurdersaansprakelijkheid-bij-onrechtmatige-uitkering|Bestuurdersaansprakelijkheid bij onrechtmatige uitkering]] · `regel`
-- [[bestuurdersaansprakelijkheid-fiscale-schulden|Bestuurdersaansprakelijkheid voor fiscale schulden (bedrijfsvoorheffing, btw)]] · `regel`
-- [[bestuurdersaansprakelijkheid-sociale-schulden|Bestuurdersaansprakelijkheid voor sociale schulden bij faillissement]] · `regel`
-- [[bestuurdersaansprakelijkheidsverzekering|Bestuurdersaansprakelijkheidsverzekering (D&O)]] · `begrip`
-- [[bestuursmodel-vennootschap|Bestuursmodellen voor de vennootschap — vergelijking]] · `synthese`
-- [[bestuursorgaan|Bestuursorgaan]] · `cluster`
-- [[bevestiging-vereffenaar-deficitaire-vereffening|Bevestiging van de vereffenaar bij deficitaire vereffening]] · `regel`
-- [[ondernemingsrechtbank-bevoegdheid-insolventie|Bevoegdheid ondernemingsrechtbank bij insolventie]] · `regel`
-- [[synthese-bevoegdheidsverdeling-av-vs-bestuur|Bevoegdheidsverdeling AV vs. bestuursorgaan — synthese]] · `synthese`
-- [[bijeenroeping-algemene-vergadering|Bijeenroeping van de algemene vergadering]] · `cluster`
-- [[kapitaalverhoging-bv|Bijkomende inbreng en uitgifte van aandelen bij de BV]] · `cluster`
-- [[bijzondere-algemene-vergadering|Bijzondere algemene vergadering]] · `begrip`
-- [[bijzondere-mandaten-accountant|Bijzondere wettelijke mandaten van de gecertificeerd accountant in vennootschappen zonder commissaris]] · `cluster`
-- [[boekhoudkundige-verwerking-insolventie-akkoord|Boekhoudkundige verwerking van een insolventie-akkoord]] · `regel`
-- [[buitengerechtelijk-minnelijk-akkoord|Buitengerechtelijk minnelijk akkoord]] · `begrip`
-- [[buitengewone-algemene-vergadering|Buitengewone algemene vergadering]] · `cluster`
-- [[certificering-aandelen|Certificering van aandelen (STAK)]] · `cluster`
-- [[confirmatiebrieven|Confirmatiebrieven]] · `begrip`
-- [[controleverslag-omzetting|Controleverslag bij omzetting van een vennootschap]] · `regel`
-- [[cooperatieve-vennootschap-cv|Coöperatieve vennootschap (CV)]] · `cluster`
-- [[curator-faillissement|Curator in een faillissement]] · `autoriteit`
-- [[dagelijks-bestuur|Dagelijks bestuur]] · `cluster`
-- [[deadlock-vennootschap|Deadlock in een vennootschap]] · `begrip`
-- [[deskundigenonderzoek-vennootschap|Deskundigenonderzoek in een vennootschap]] · `regel`
-- [[doorbraak-aansprakelijkheid|Doorbraak van aansprakelijkheid]] · `begrip`
-- [[synthese-soorten-algemene-vergadering|Drie soorten algemene vergadering — synthese]] · `synthese`
-- [[duaal-bestuur|Duaal bestuur — raad van toezicht en directieraad]] · `cluster`
-- [[due-diligence-overname|Due diligence bij overname]] · `cluster`
-- [[enige-bestuurder|Enige bestuurder]] · `begrip`
-- [[escrow-en-zekerheidsmechanismen-overname|Escrow en zekerheidsmechanismen bij overname]] · `cluster`
-- [[exit-mechanismen-sha|Exit- en deadlock-mechanismen in aandeelhoudersovereenkomsten]] · `cluster`
-- [[exit-routes-onderneming-overzicht|Exit-routes voor een onderneming: vergelijking en beslisboom]] · `synthese`
-- [[faillissement|Faillissement]] · `cluster`
-- [[familiale-vennootschap|Familiale vennootschap]] · `begrip`
-- [[feitelijk-bestuurder|Feitelijk bestuurder]] · `begrip`
-- [[financieel-plan-oprichting|Financieel plan bij oprichting van een kapitaalvennootschap]] · `cluster`
-- [[financiele-steunverlening|Financiële steunverlening voor verkrijging van eigen aandelen]] · `regel`
-- [[gegronde-redenen-vennootschapsgeschil|Gegronde redenen in vennootschapsgeschillen]] · `begrip`
-- [[gerechtelijke-ontbinding|Gerechtelijke ontbinding]] · `regel`
-- [[gerechtelijke-reorganisatie|Gerechtelijke reorganisatie]] · `cluster`
-- [[gewone-algemene-vergadering|Gewone algemene vergadering (jaarvergadering)]] · `cluster`
-- [[heropening-vereffening|Heropening van de vereffening]] · `regel`
-- [[herstructureringsdeskundige|Herstructureringsdeskundige]] · `autoriteit`
-- [[homologatie-collectief-akkoord|Homologatie van het collectief reorganisatieplan]] · `regel`
-- [[inbreng-vennootschap|Inbreng in een vennootschap]] · `begrip`
-- [[inbreng-in-natura|Inbreng in natura]] · `regel`
-- [[individueel-controlerecht-aandeelhouder|Individueel onderzoeks- en controlerecht van de aandeelhouder]] · `regel`
-- [[inkoop-eigen-aandelen-bv|Inkoop van eigen aandelen door de BV]] · `cluster`
-- [[inkoop-eigen-aandelen-nv|Inkoop van eigen aandelen door de NV]] · `cluster`
-- [[insolventiefunctionaris|Insolventiefunctionaris]] · `begrip`
-- [[insolventieprocedures-belgie|Insolventieprocedures (Boek XX WER)]] · `cluster`
-- [[insolventietriage-beslisboom|Insolventietriage — beslisboom]] · `synthese`
-- [[interimdividend|Interimdividend]] · `regel`
-- [[kamer-ondernemingen-in-moeilijkheden|Kamer voor ondernemingen in moeilijkheden]] · `autoriteit`
-- [[kapitaalverhoging-nv|Kapitaalverhoging bij de NV]] · `cluster`
-- [[kapitaalvermindering-nv|Kapitaalvermindering bij de NV]] · `cluster`
-- [[kennelijk-ontoereikend-aanvangsvermogen|Kennelijk ontoereikend aanvangsvermogen (drie-jaars-faillissementsaansprakelijkheid)]] · `regel`
-- [[klassieke-versus-een-akte-vereffening|Klassieke vereffening vs vereffening in één akte]] · `synthese`
-- [[vereffeningsprocedure-klassiek|Klassieke vereffeningsprocedure]] · `cluster`
-- [[kwijting-bestuurder|Kwijting van de bestuurder (decharge)]] · `begrip`
-- [[kwijtschelding-natuurlijke-persoon-gefailleerde|Kwijtschelding van de natuurlijke persoon-gefailleerde]] · `regel`
-- [[letter-of-intent-overname|Letter of intent / term sheet (overname)]] · `begrip`
-- [[liquidatiebonus|Liquidatiebonus]] · `begrip`
-- [[liquiditeitstest-bv|Liquiditeitstest (BV/CV)]] · `regel`
-- [[maatschap-rechtsvorm|Maatschap]] · `cluster`
-- [[material-adverse-change-clausule|Material Adverse Change-clausule (MAC)]] · `begrip`
-- [[meervoudig-stemrecht|Meervoudig stemrecht en dubbel stemrecht]] · `begrip`
-- [[drag-along-tag-along|Meesleeprecht (drag-along) versus meekooprecht (tag-along)]] · `synthese`
-- [[meldingsplicht-accountant-continuiteit|Meldingsplicht accountant bij bedreigde continuïteit]] · `regel`
-- [[controleverwerving-methodes|Methodes om controle over een vennootschap te verwerven]] · `synthese`
-- [[minderheidsvordering|Minderheidsvordering]] · `cluster`
-- [[misbruik-van-meerderheid|Misbruik van meerderheid]] · `begrip`
-- [[misbruik-van-minderheid|Misbruik van minderheid]] · `begrip`
-- [[monistisch-bestuur|Monistisch bestuur — raad van bestuur]] · `cluster`
-- [[naamloze-vennootschap-nv|Naamloze vennootschap (NV)]] · `cluster`
-- [[nettoactieftest|Nettoactieftest]] · `regel`
-- [[niet-afwervingsbeding-overname|Niet-afwervingsbeding bij overname]] · `regel`
-- [[non-compete-overname|Niet-concurrentiebeding bij overname]] · `regel`
-- [[nietigverklaring-algemene-vergaderingsbesluit|Nietigverklaring van een algemene-vergaderingsbesluit]] · `regel`
-- [[nijverheidsinbreng|Nijverheidsinbreng]] · `begrip`
-- [[notulen-algemene-vergadering|Notulen van de algemene vergadering]] · `cluster`
-- [[omstandige-staat-vereffening|Omstandige staat van de vereffening]] · `begrip`
-- [[omzetting-vennootschap|Omzetting van een vennootschap]] · `cluster`
-- [[onafhankelijkheid-bijzondere-mandataris|Onafhankelijkheid van de gecertificeerd accountant bij bijzondere wettelijke mandaten]] · `cluster`
-- [[onbeperkte-aansprakelijkheid-vennoot|Onbeperkte aansprakelijkheid van vennoten]] · `begrip`
-- [[mandaat-versus-advies-rol-accountant|Onderscheid tussen advies- en mandaatrol van de accountant bij vennootschapsrechtelijke verrichtingen]] · `synthese`
-- [[ontbinding-vennootschap|Ontbinding van een vennootschap]] · `cluster`
-- [[ontbinding-van-rechtswege|Ontbinding van rechtswege]] · `regel`
-- [[oprichtersaansprakelijkheid|Oprichtersaansprakelijkheid]] · `cluster`
-- [[closing-condities-precedent|Opschortende voorwaarden bij overname (closing conditions)]] · `cluster`
-- [[opschorting-betaling-gerechtelijke-reorganisatie|Opschorting van betaling tijdens gerechtelijke reorganisatie]] · `regel`
-- [[opschorting-besluit-vennootschap|Opschorting van een vennootschapsbesluit in kort geding]] · `regel`
-- [[opstellen-overname-verslaggeving-accountant|Opstellen van accountantsverslagen bij overdracht (inbreng, quasi-inbreng, fusie, splitsing)]] · `competentie`
-- [[opstellen-openingsbalans-vennootschap|Opstellen van de openingsbalans van een nieuwe vennootschap]] · `competentie`
-- [[opstellen-beoordelingsverslag-uitsluiting-voorkeurrecht|Opstellen van het beoordelingsverslag bij uitgifte met uitsluiting of beperking van het voorkeurrecht]] · `competentie`
-- [[opstellen-financieel-plan-oprichting|Opstellen van het financieel plan bij oprichting van een vennootschap]] · `competentie`
-- [[opstellen-verslag-fusie-splitsing-ruilverhouding|Opstellen van het verslag bij fusie, splitsing of gelijkgestelde verrichting in een vennootschap zonder commissaris]] · `competentie`
-- [[opstellen-verslag-omzetting-vennootschap|Opstellen van het verslag over de staat van activa en passiva bij omzetting van een vennootschap (Boek 14 WVV)]] · `competentie`
-- [[opstellen-verslag-ontbinding-vereffening-staat|Opstellen van het verslag over de staat van activa en passiva bij vrijwillige ontbinding of ontbinding-en-sluiting-in-één-akte]] · `competentie`
-- [[overdracht-onder-gerechtelijk-gezag|Overdracht onder gerechtelijk gezag]] · `cluster`
-- [[transfer-bedrijfstak-algemeenheid|Overdracht van bedrijfstak of algemeenheid (WVV)]] · `cluster`
-- [[overdrachtsbeperking-aandelen|Overdrachtsbeperking op aandelen]] · `cluster`
-- [[overnameovereenkomst|Overnameovereenkomst]] · `cluster`
-- [[personenvennootschap-met-rechtspersoonlijkheid|Personenvennootschappen met rechtspersoonlijkheid (VOF en CommV)]] · `cluster`
-- [[precontractuele-aansprakelijkheid-overname|Precontractuele aansprakelijkheid bij overname]] · `begrip`
-- [[purchase-price-mechanismen|Prijsbepalingsmechanismen in overnameovereenkomsten]] · `synthese`
-- [[synthese-quorum-meerderheid-algemene-vergadering|Quorum en meerderheid in de algemene vergadering — synthese per rechtsvorm]] · `synthese`
-- [[quorum-en-meerderheid-statutenwijziging|Quorum en meerderheid voor statutenwijziging]] · `regel`
-- [[rechter-commissaris-insolventie|Rechter-commissaris in een faillissement]] · `autoriteit`
-- [[rechtspersoonlijkheid-vennootschap|Rechtspersoonlijkheid van een vennootschap]] · `begrip`
-- [[registratiedatum-genoteerde-nv|Registratiedatum bij genoteerde NV]] · `begrip`
-- [[regsol-platform|Regsol — centraal register insolventie]] · `begrip`
-- [[rehabilitatie-gefailleerde|Rehabilitatie van de gefailleerde]] · `regel`
-- [[bevoegdheid-bestuursorgaan|Residuaire bevoegdheid van het bestuursorgaan]] · `regel`
-- [[accountantsrol-bij-vennootschapsconflict|Rol van de accountant bij een vennootschapsconflict bij de cliënt]] · `regel`
-- [[schriftelijke-besluitvorming-aandeelhouders|Schriftelijke besluitvorming door aandeelhouders]] · `regel`
-- [[schuldvergelijking-tijdens-opschorting|Schuldvergelijking tijdens opschorting]] · `begrip`
-- [[sell-out-minderheid|Sell-out — uitkooprecht van de minderheids­aandeelhouder]] · `regel`
-- [[signaleren-oprichtersaansprakelijkheid-risico|Signaleren van oprichtersaansprakelijkheid-risico's aan de cliënt]] · `competentie`
-- [[signaleren-risicos-overdracht-of-ontbinding|Signaleren van risico's bij overdracht of ontbinding (aansprakelijkheid, kapitaalbescherming, fiscaal)]] · `competentie`
-- [[sluiting-vereffening|Sluiting van de vereffening]] · `cluster`
-- [[staat-van-activa-en-passiva-ontbinding|Staat van activa en passiva bij ontbinding]] · `begrip`
-- [[oprichtingsproces-stappenplan|Stappenplan voor de begeleiding van een vennootschapsoprichting]] · `synthese`
-- [[statutaire-uittreding-bv|Statutaire uittreding en uitsluiting in de BV]] · `cluster`
-- [[statuten-vennootschap|Statuten van een vennootschap]] · `cluster`
-- [[stemovereenkomst|Stemovereenkomst tussen aandeelhouders]] · `regel`
-- [[stemrecht-aandeelhouder|Stemrecht van de aandeelhouder]] · `begrip`
-- [[tijdelijke-handelsvennootschap-thv|Tijdelijke handelsvennootschap (THV)]] · `cluster`
-- [[vennootschapsvormen-typologie|Typologie van vennootschaps- en verenigingsvormen]] · `begrip`
-- [[uitkering-uit-eigen-vermogen-bv|Uitkering uit eigen vermogen bij de BV (vermogensdistributie)]] · `cluster`
-- [[uitkeringstest-vergelijking-bv-nv|Uitkeringstest BV vs NV — vergelijking]] · `synthese`
-- [[uitkoopbod-squeeze-out|Uitkoopbod (squeeze-out) — 95%-drempel]] · `regel`
-- [[uitsluitingsvordering|Uitsluitingsvordering]] · `cluster`
-- [[uittredingsvordering|Uittredingsvordering]] · `cluster`
-- [[gerechtelijke-reorganisatie-varianten-vergelijking|Varianten van gerechtelijke reorganisatie — vergelijking]] · `synthese`
-- [[rechtspersoon-bestuurder-vaste-vertegenwoordiger|Vaste vertegenwoordiger van een rechtspersoon-bestuurder]] · `begrip`
-- [[vennoot-vs-aandeelhouder|Vennoot versus aandeelhouder]] · `begrip`
-- [[vennootschap-begrip|Vennootschap (juridisch begrip)]] · `begrip`
-- [[vennootschapsconflict|Vennootschapsconflict]] · `cluster`
-- [[vennootschapsvordering|Vennootschapsvordering]] · `begrip`
-- [[verbonden-partijen-procedure-genoteerd|Verbonden-partijen-procedure in de genoteerde NV]] · `regel`
-- [[verdachte-periode-faillissement|Verdachte periode bij faillissement]] · `regel`
-- [[vereffenaar|Vereffenaar]] · `begrip`
-- [[vereffenaarsaansprakelijkheid|Vereffenaarsaansprakelijkheid]] · `regel`
-- [[vereffening-in-een-akte|Vereffening in één akte]] · `regel`
-- [[vereffening|Vereffening van een vennootschap]] · `cluster`
-- [[vereffeningsdeskundige|Vereffeningsdeskundige]] · `begrip`
-- [[vereniging-en-stichting|Verenigingen en stichtingen (VZW, IVZW, stichting)]] · `cluster`
-- [[vennootschapsvormen-vergelijking|Vergelijking van de Belgische vennootschaps- en verenigingsvormen]] · `synthese`
-- [[vergelijking-vorderingen-vennootschapsconflict|Vergelijking van de gerechtelijke vorderingen bij een vennootschapsconflict]] · `synthese`
-- [[representations-and-warranties|Verklaringen en waarborgen]] · `cluster`
-- [[verplicht-overnamebod|Verplicht openbaar overnamebod (30%-drempel)]] · `regel`
-- [[quasi-inbreng-verslag|Verslag bij quasi-inbreng]] · `cluster`
-- [[vertegenwoordiging-vennootschap-jegens-derden|Vertegenwoordiging van de vennootschap jegens derden]] · `regel`
-- [[confidentiality-overname|Vertrouwelijkheidsovereenkomst bij overname]] · `begrip`
-- [[verzwaarde-aansprakelijkheid-bij-insolventie-overzicht|Verzwaarde aansprakelijkheid bij insolventie — overzicht regimes]] · `synthese`
-- [[volmacht-algemene-vergadering|Volmacht op de algemene vergadering]] · `cluster`
-- [[voorbereiden-oprichtingsakte|Voorbereiden van de oprichtingsakte en statuten]] · `competentie`
-- [[voordrachtrecht-bestuurder|Voordrachtrecht voor bestuurszetel]] · `regel`
-- [[voorkeurrecht-aandeelhouder|Voorkeurrecht van de aandeelhouder]] · `begrip`
-- [[voorkooprecht-aandelenoverdracht|Voorkooprecht bij aandelenoverdracht]] · `begrip`
-- [[voorstel-omzetting-vennootschap|Voorstel tot omzetting van een vennootschap]] · `regel`
-- [[voorwaarden-faillietverklaring|Voorwaarden voor faillietverklaring]] · `regel`
-- [[vraagrecht-aandeelhouder|Vraagrecht van de aandeelhouder op de algemene vergadering]] · `regel`
-- [[indemnification-overname|Vrijwaringsmechanisme in overnameovereenkomst]] · `cluster`
-- [[vrijwillige-ontbinding|Vrijwillige ontbinding]] · `regel`
-- [[vrijwillige-versus-gerechtelijke-ontbinding|Vrijwillige vs gerechtelijke ontbinding]] · `synthese`
-- [[vroegtijdige-waarschuwing-insolventie|Vroegtijdige waarschuwing bij insolventie]] · `cluster`
-- [[bestuur-bv-cv-werkwijze|Werkwijze van het bestuur in BV en CV]] · `cluster`
-- [[wettige-redenen-ontbinding|Wettige redenen voor gerechtelijke ontbinding]] · `begrip`
-
-</div>
+- ✅ [[brutomarge|Brutomarge]] · PO ?
+- ✅ [[cash-conversion-cycle|Cash conversion cycle]] · PO ?
+- ✅ [[cash-ratio|Cash ratio]] · PO ?
+- ✅ [[current-ratio|Current ratio]] · PO ?
+- ✅ [[ebitda-marge|Ebitda marge]] · PO ?
+- ✅ [[interest-coverage-ratio|Interest coverage ratio]] · PO ?
+- ✅ [[nettomarge|Nettomarge]] · PO ?
+- ✅ [[omloopsnelheid-klanten|Omloopsnelheid klanten]] · PO ?
+- ✅ [[omloopsnelheid-leveranciers|Omloopsnelheid leveranciers]] · PO ?
+- ✅ [[omloopsnelheid-voorraad|Omloopsnelheid voorraad]] · PO ?
+- ✅ [[quick-ratio|Quick ratio]] · PO ?
+- ✅ [[rentabiliteit-eigen-vermogen|Rentabiliteit eigen vermogen]] · PO ?
+- ✅ [[rentabiliteit-totaal-activa|Rentabiliteit totaal activa]] · PO ?
+- ✅ [[schuldgraad|Schuldgraad]] · PO ?
+- ✅ [[werkkapitaalbehoefte|Werkkapitaalbehoefte]] · PO ?

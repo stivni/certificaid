@@ -1,105 +1,159 @@
 ---
-title: Algemene vergadering
+title: "Algemene vergadering"
+concept_type: "kader"
+schema_version: "2.1"
+status: "seed"
 tags:
-- concept
-- cluster
-- po-3-0
-linked_anchors:
-- 3.0.III
-- 3.0.III.A
-- 3.0.III.B
-programmaonderdelen:
-- '3.0'
-confidence: grounded
-node_type: cluster
-status: seed
-schema_version: '1.6'
-gegenereerd_uit: data/concepten/records/algemene-vergadering.json
-gegenereerd_op: '2026-05-21'
+  - concept
+  - schema-2.1
+  - ongeverifieerd
+gegenereerd_uit: "data/concepten/records/algemene-vergadering.json"
 ---
-# Algemene vergadering ⚖️
 
-De algemene vergadering is het orgaan van de aandeelhouders dat beslist over fundamentele aangelegenheden van de vennootschap die buiten het dagdagelijkse bestuur vallen: jaarrekening, kwijting, statutenwijzigingen, kapitaalbewegingen, ontbinding en benoeming. Onder het WVV is haar bevoegdheid wettelijk afgebakend (de zogenaamde voorbehouden materies); alle overige beslissingen behoren residuair tot het bestuursorgaan. De spelregels rond bijeenroeping, agenda, deelname, stemming en notulering zijn strikt geregeld om minderheidsaandeelhouders een redelijke positie te garanderen.
+# Algemene vergadering
 
-> [!summary] Korte inhoud
-> De algemene vergadering is het collegiaal orgaan waarin de aandeelhouders (of vennoten bij een CV) hun door de wet en de statuten voorbehouden bevoegdheden uitoefenen.
+_Kader_
 
-> [!info]- Bestaat uit (12): [[aanwezigheidsrecht-algemene-vergadering]] · [[belangenconflict-aandeelhouder]] · [[bijeenroeping-algemene-vergadering]] · [[bijzondere-algemene-vergadering]] · [[buitengewone-algemene-vergadering]] · [[gewone-algemene-vergadering]] · [[notulen-algemene-vergadering]] · [[registratiedatum-genoteerde-nv]] · [[schriftelijke-besluitvorming-aandeelhouders]] · [[stemrecht-aandeelhouder]] · [[volmacht-algemene-vergadering]] · [[vraagrecht-aandeelhouder]]
+Model: `claude-sonnet-4-6` · Wave: `quick-pass-run1-20260522`
 
-De algemene vergadering is het collegiaal orgaan waarin de aandeelhouders (of vennoten bij een CV) hun door de wet en de statuten voorbehouden bevoegdheden uitoefenen. Zij komt minstens één keer per jaar bijeen (de gewone algemene vergadering of jaarvergadering) en kan daarnaast als bijzondere of buitengewone vergadering worden samengeroepen. Beslissingen worden vastgelegd in notulen en kennen hun eigen aanwezigheids- en meerderheidsregels afhankelijk van het soort besluit en de vennootschapsvorm.
+> [!warning] ⚠️ Seed-fiche — claims niet gevalideerd
+> Deze fiche is automatisch gegenereerd uit één extractie-pas (`beschrijven`) zonder bron-validatie. Claims zijn overwegend `🤖 verondersteld` en kunnen hallucinaties bevatten. Gebruik **niet** voor examenvoorbereiding zolang `claims_checken` niet is uitgevoerd.
 
-_Bron: WVV art. 5:80–5:102 (BV), 6:69–6:87 (CV), 7:123–7:155 (NV)_
+**Afk.**: AV
 
+## Voorkennis & leespad
 
+**Voorvereisten**: [[vennootschapsrechtelijk-kader-wvv]] · [[rechtsvormen-belgie]]
+**Naast relevant**: [[bestuur-vennootschap]] · [[commissaris-mandaat-en-statuut]] · [[jaarrekening]] · [[kapitaalbescherming-en-winstverdeling]]
+**Volgkennis**: [[resultaatverwerking]] · [[alarmbel]] · [[bijzondere-verslagen-vennootschapsverrichtingen]]
 
-## Bouwstenen
+## Inhoud
 
-### Voorbehouden bevoegdheden ⚖️
+### Soorten algemene vergadering 🤖  
+_`begrip`_
 
-Het WVV reserveert bepaalde materies exclusief voor de algemene vergadering: statutenwijziging, kapitaalverhoging en -vermindering (NV), wijziging van het voorwerp of de doelen, benoeming en ontslag van bestuurders, goedkeuring van de jaarrekening, kwijting, ontbinding en vereffening, en de wijziging van soorten aandelen. Alle andere bevoegdheden behoren residuair toe aan het bestuursorgaan.
+#### Gewone algemene vergadering (jaarvergadering)  
+_`begrip`_
 
-**Waarom?** Deze afbakening beschermt aandeelhouders tegen bestuursingrepen in hun vermogen (kapitaal, soorten aandelen) en in hun statutaire afspraken.
+#### Buitengewone algemene vergadering  
+_`begrip`_
 
+#### Bijzondere algemene vergadering  
+_`begrip`_
 
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+### Exclusieve bevoegdheden 🤖  
+_`regel`_
 
-_Grondslag: WVV art. 5:73 (BV), 6:61 (CV), 7:93 (NV) — residuaire bestuursbevoegdheid; tegenhanger in de AV-hoofdstukken_
+#### Goedkeuring jaarrekening 🤖  
+_`regel`_
 
-### Drie soorten algemene vergadering ⚖️
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-De gewone algemene vergadering (jaarvergadering) komt jaarlijks samen op de in de statuten bepaalde dag voor de jaarrekening en kwijting. Een bijzondere algemene vergadering wordt buiten dat moment samengeroepen voor andere materies binnen haar gewone bevoegdheid. Een buitengewone algemene vergadering vereist een notariële akte en is nodig voor statutenwijzigingen, kapitaalbewegingen en de meeste fundamentele beslissingen.
+#### Statutenwijziging 🤖  
+_`regel`_
 
-**Waarom?** Het onderscheid bepaalt vorm (notarieel of niet), publicatieverplichtingen en quorum-/meerderheidsregels.
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+#### Benoeming en ontslag bestuurders en commissarissen 🤖  
+_`regel`_
 
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+#### Kwijting aan bestuurders en commissarissen 🤖  
+_`regel`_
 
-_Grondslag: WVV art. 5:96 (BV gewone), 5:100 (BV buitengewone), 6:81, 6:85 (CV), 7:147, 7:153 (NV)_
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-### Eénhoofdige vennootschap ⚖️
+#### Vrijwillige ontbinding en vereffening 🤖  
+_`regel`_
 
-Telt de vennootschap slechts één aandeelhouder, dan oefent die persoon zelf de bevoegdheden van de algemene vergadering uit. Hij kan die bevoegdheden niet overdragen aan iemand anders, en zijn beslissingen worden vastgelegd in een register op de zetel.
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-**Waarom?** Vermijdt dat de formele AV-procedures een dode letter worden bij solo-vennootschappen, terwijl de schriftelijke vastlegging traceerbaarheid en rechtszekerheid waarborgt.
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+### Quorum en meerderheidsvereisten 🤖  
+_`regel`_
 
+#### Gewone vergadering — geen quorum 🤖  
+_`regel`_
 
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-_Grondslag: WVV art. 5:82 (BV), 7:125 (NV), 5:94 (BV-register), 7:141 §2 (NV-register)_
+#### Buitengewone vergadering — quorum en bijzondere meerderheid ❓  
+_`regel`_
 
-### Notulen en publicatie ⚖️
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-Van elke algemene vergadering wordt een aanwezigheidslijst bijgehouden en worden notulen opgemaakt en ondertekend door het bureau en de aandeelhouders die erom verzoeken. Voor genoteerde NV's vermelden de notulen per besluit het aantal voor-, tegen- en onthoudingsstemmen, en wordt deze informatie binnen 15 dagen op de vennootschapswebsite gepubliceerd. Beslissingen van een buitengewone AV (statutenwijziging, kapitaalwijziging) worden in een notariële akte vastgelegd en neergelegd op de ondernemingsrechtbank.
+#### Stemrecht en stemloze aandelen 🤖  
+_`regel`_
 
-**Waarom?** Notulen zijn het bewijsstuk van de genomen beslissingen; transparantie over stemverhoudingen versterkt het toezicht van minderheid en markt.
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+### Bijeenroeping 🤖  
+_`stap`_
 
+#### Bevoegdheid tot bijeenroeping 🤖  
+_`regel`_
 
-_Grondslag: WVV art. 5:90, 5:93 (BV), 6:76, 6:79 (CV), 7:138, 7:141 (NV)_
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
+#### Oproepingstermijn ❓  
+_`regel`_
 
-## In de praktijk
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-- De jaarvergadering is voor stagiairs het meest concrete contact met de AV: jaarrekening + kwijting + bestemming van het resultaat in één zitting.
-- Een buitengewone AV vergt altijd een notaris — boek tijdig in, want kortere oproepingstermijnen halen lukt zelden zonder gebreken.
-- Bij een éénpersoonsvennootschap blijven schriftelijke beslissingen verplicht, ook al lijkt het overbodig — zonder register is er geen bewijs voor de bank, fiscus of overnemer.
+#### Recht om agendapunten toe te voegen ❓  
+_`regel`_
 
-## Zie ook
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-- **Vereist kennis van**: [[bevoegdheid-bestuursorgaan]]
-- **Wordt voorondersteld in** (4): [[nietigverklaring-algemene-vergaderingsbesluit]] · [[opschorting-besluit-vennootschap]] · [[stemovereenkomst]] · [[vennootschapsconflict]]
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
 
-## Bronnen
+### Notulen en publicatieverplichtingen 🤖  
+_`stap`_
 
-[^1]: `WVV__art_5_64`
-[^2]: `WVV__art_6_71`
-[^3]: `WVV__art_7_115`
-[^4]: `WVV__art_6_51`
-[^5]: `WVV__art_5_71`
-[^6]: `WVV__art_5_77`
-[^7]: `WVV__art_6_68`
-[^8]: `WVV__art_7_99`
-[^9]: `WVV__art_5_67`
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+
+### Alarmbelprocedure op de algemene vergadering 🤖  
+_`mechanisme`_
+
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+
+### Elektronische vergadering en schriftelijke besluitvorming 🤖  
+_`regel`_
+
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+
+### Rol van de commissaris op de algemene vergadering 🤖  
+_`begrip`_
+
+<small>📚 claude-sonnet-4-6 — _ai_model_ — (2026-05-22)</small>
+
+## Relaties
+
+### `valt_onder`
+- [[vennootschapsrechtelijk-kader-wvv]] 🤖 — De algemene vergadering is een orgaan dat zijn bevoegdheden en werking ontleent aan het WVV.
+### `bevat`
+- [[alarmbel]] 🤖 — De alarmbelprocedure verplicht het bestuursorgaan een (buitengewone) algemene vergadering bijeen te roepen.
+### `goedgekeurd_door`
+- [[jaarrekening]] 🤖 — De jaarrekening wordt formeel goedgekeurd door de gewone algemene vergadering.
+### `vergelijkbaar_met`
+- [[bestuur-vennootschap]] 🤖 — Beide zijn vennootschapsorganen, maar met fundamenteel andere bevoegdheden en samenstelling.
+    - **Gelijkenissen**:
+        - Beide zijn organen van de vennootschap erkend door het WVV
+        - Beide kunnen aansprakelijk worden gesteld
+    - **Verschillen**:
+        - Algemene vergadering = aandeelhouders (eigendomsperspectief); bestuursorgaan = bestuurders (beheersperspectief)
+        - Algemene vergadering beslist over fundamentele kwesties; bestuursorgaan beheert de dagelijkse en strategische werking
+        - Bestuursorgaan is permanent; algemene vergadering vergadert periodiek
+    - ⚠️ **Verwarringsrisico**: Verwarring over wie bevoegd is: bestuurders bereiden voor maar kunnen de jaarrekening niet goedkeuren — dat is voorbehouden aan de aandeelhouders.
+### `gecontroleerd_door`
+- [[commissaris-mandaat-en-statuut]] 🤖 — De commissaris rapporteert aan de algemene vergadering en zijn mandaat wordt door de algemene vergadering verleend.
+### `triggert`
+- [[resultaatverwerking]] 🤖 — De beslissing over de winstverdeling (dividend, reservering) wordt genomen op de gewone algemene vergadering en triggert de boekhoudkundige verwerking.
+### `vereist`
+- [[bijzondere-verslagen-vennootschapsverrichtingen]] 🤖 — Bij bepaalde beslissingen op een buitengewone algemene vergadering (kapitaalverhoging, inbreng, fusie) zijn bijzondere verslagen van het bestuursorgaan en/of de commissaris verplicht.
