@@ -1,305 +1,52 @@
 {
   "id": "voorraadcyclus-ic",
-  "naam": "Voorraadcyclus en interne controle",
-  "naam_alternatief": "inventory control — fysieke en administratieve voorraad",
-  "node_type": "cluster",
-  "schema_version": "1.5",
-  "status": "seed",
-  "linked_anchors": [
-    "1.7.IX.E",
-    "1.7.IX"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-wave2-1.7.IX-20260518T202323Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.7.IX.E",
-    "dekt_ook_anchors": [
-      "1.7.IX"
+  "naam": {
+    "primair": "Voorraadcyclus ic"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      }
     ],
-    "reviewed_by": null,
-    "bron_gap": "Inventarisatieplicht art. III.89 WER + KB 21.10.2018; ISA 501 dekt voorraadwaarneming.",
-    "last_touched_at": "2026-05-18T20:24:03.037888Z"
+    "ankers": [
+      "1.7.IX.E"
+    ]
   },
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
-  "migrated_from_procedure_at": "2026-05-18T18:37:09Z",
-  "situering": "Voorraadbeheer combineert administratieve controles (perpetuele registraties, bin cards) met fysieke controles (afgesloten magazijnen, toegangsbeheer, tellingen). Verschillen tussen administratieve en fysieke voorraad triggeren onderzoek en boekingen. Stagiairs komen dit tegen bij bijwoning van jaareinde-inventarisaties (ISA 501) en bij audits met hoog fysiek-risicoprofiel.",
-  "definitie": {
-    "text": "Interne controle in de voorraadcyclus is het geheel van fysieke en administratieve maatregelen die de stadia ingang, bewaring, uitgang en telling beheersen, met als doel diefstal, verkeerde waardering en telmiss te voorkomen of te detecteren.",
-    "confidence": "inferred-common-knowledge",
-    "_provenance": {
-      "inputs": []
-    }
-  },
-  "verplichting": "Jaarlijkse inventarisplicht (art. III.89 WER + KB 21.10.2018). Bij externe controle: auditor woont voorraadopname bij (ISA 501 par. 4).",
-  "bouwstenen": [
-    {
-      "titel": "Fysieke beveiliging van het magazijn",
-      "wat": "Het magazijn is afgesloten; toegang is beperkt tot magazijnpersoneel via badge; camerabewaking dekt ingang en hoge-waarde-zones.",
-      "waarom": "Een open magazijn maakt directe diefstal mogelijk voor elke medewerker.",
-      "in_praktijk": "Badge-toegang met log per persoon per uur; camera bij ingang en op zones met dure artikelen; buiten kantooruren is het magazijn verzegeld.",
-      "grondslag": "Fysieke-beveiliging-doctrine",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "titel": "Permanente voorraad in het ERP",
-      "wat": "Elke ingang en uitgang wordt direct geboekt; het ERP toont saldo per artikel en locatie in real-time.",
-      "waarom": "Zonder permanente voorraad worden verschillen pas bij de jaarlijkse telling ontdekt, vaak te laat om de oorzaak te traceren.",
-      "grondslag": "Voorraadbeheer-doctrine",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "titel": "Periodieke en jaarlijkse inventaris met scheiding teller-bewaarder",
-      "wat": "Cycle counts (steekproef) lopen maandelijks; een volledige inventaris gebeurt jaarlijks; de teller is altijd iemand anders dan de magazijnier.",
-      "waarom": "Tellen door de magazijnier laat niemand toe zijn fouten of diefstal te ontdekken; onafhankelijkheid is essentieel.",
-      "in_praktijk": "Maandelijks 10 procent van artikelen wisselend; jaarlijks een volledige telling met externe persoon, bijvoorbeeld een medewerker boekhouding.",
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Bij Yperse Werkplaats BV telt boekhouder Cindy Demeyer eind december de magazijnvoorraad samen met externe auditor Sofie Janssens; magazijnier Bart Vandenberghe begeleidt maar telt zelf niet. Verschillen van meer dan 500 euro per artikel worden onderzocht en geboekt.",
-          "cast": [
-            "Yperse Werkplaats BV",
-            "Cindy Demeyer",
-            "Sofie Janssens",
-            "Bart Vandenberghe"
-          ],
-          "confidence": "inferred-common-knowledge"
-        }
-      ],
-      "grondslag": "KB 21.10.2018 + ISA 501 par. 4 (waarneming voorraadopname)",
-      "confidence": "grounded",
-      "source": {
-        "type": "norm",
-        "short": "ISA 501 par. 4"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ISA-501__sec_vereisten",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "berekeningsmethode": [
-    {
-      "naam": "Procesgang voorraadcyclus — stappen + IC-haakpunten",
-      "stappen": [
-        {
-          "nr": 1,
-          "titel": "Fysieke bewaking en toegangscontrole",
-          "wat": "Magazijn op slot; toegang beperkt tot magazijnpersoneel via badge; camerabewaking bij waardevolle voorraad.",
-          "waarom": "Open magazijn is een directe diefstal-mogelijkheid voor elke medewerker.",
-          "input": [
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Voorraadcyclus ic",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
             {
-              "artefact": "Toegangsbeleid",
-              "veld": "rollen",
-              "type": "interne-richtlijn"
-            }
-          ],
-          "output": [
-            {
-              "artefact": "Toegangslog",
-              "veld": "wie wanneer",
-              "type": "logbestand"
-            }
-          ],
-          "hoe": "1. Badge-toegang met log per persoon per uur.\n2. Camerabewaking ingang en hoge-waarde-zones.\n3. Verzegeling buiten kantooruren.",
-          "grondslag": "Fysieke-beveiliging-doctrine"
-        },
-        {
-          "nr": 2,
-          "titel": "Permanente voorraad in ERP",
-          "wat": "Elke ingang en uitgang van voorraad direct boeken; saldo zichtbaar in real-time.",
-          "waarom": "Zonder permanente voorraad worden verschillen pas bij jaarlijkse telling ontdekt.",
-          "input": [
-            {
-              "artefact": "Ingang/uitgang-event",
-              "veld": "scan",
-              "type": "ERP-event"
-            }
-          ],
-          "output": [
-            {
-              "artefact": "Voorraadsaldo",
-              "veld": "per artikel-locatie",
-              "type": "ERP-saldo"
-            }
-          ],
-          "hoe": "1. Magazijnier scant elke beweging.\n2. ERP houdt saldo per artikel en locatie.\n3. Discrepantie tussen sticker en saldo: direct opvolgen.",
-          "grondslag": "Voorraadbeheer-doctrine"
-        },
-        {
-          "nr": 3,
-          "titel": "Periodieke en jaarlijkse inventaris",
-          "wat": "Cycle counts maandelijks; volledige inventaris jaarlijks; telling door iemand anders dan magazijnier.",
-          "waarom": "Tellen door magazijnier laat niemand toe zijn fouten of diefstal te ontdekken.",
-          "input": [
-            {
-              "artefact": "Voorraadsaldo ERP",
-              "veld": "te tellen artikelen",
-              "type": "ERP-rapport"
-            }
-          ],
-          "output": [
-            {
-              "artefact": "Inventaris-rapport + boekingen",
-              "veld": "verschillen",
-              "type": "boeking"
-            }
-          ],
-          "hoe": "1. Maandelijks: 10 procent van artikelen wisselend tellen.\n2. Jaarlijks: volledige telling met externe persoon.\n3. Verschillen boven drempel: onderzoeken + boeking + actieplan.",
-          "grondslag": "KB 21.10.2018 + ISA 501 par. 4"
-        }
-      ]
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "Magazijnier die zelf telt is geen onafhankelijke controle. Vereiste: tweede persoon, idealiter uit andere afdeling of een externe partij.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "text": "Bestellingen in uitvoering (rekening 37) hebben een eigen waarderingsproblematiek volgens CBN 132/7 - niet zomaar als voorraad behandelen.",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 132/7"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-132-7-voorraden-en-bestellingen-in-uitvoering__sec_begrip",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Slow-movers en obsolete voorraad worden vaak niet afgewaardeerd: voorraadinventaris bevestigt alleen aanwezigheid, niet realiseerbare waarde. Vereiste: afzonderlijke obsolete-analyse op basis van laatste mutatiedatum.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "target": "cyclus-analyse-ic",
-      "redenering": "Voorraadcyclus is een van de vijf hoofdcycli."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "functiescheiding",
-      "redenering": "Bewaring en telling moeten gescheiden zijn."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "productiecyclus-ic",
-      "redenering": "Output van productie is input voorraad."
-    },
-    {
-      "type": "verwijst-naar",
-      "facet": {
-        "aspect": "ERP-permanente-voorraad, badge-toegang, cycle-count-rapportering"
-      },
-      "target": "it-application-controls",
-      "redenering": "ERP-permanente-voorraad, badge-toegang, cycle-count-rapportering"
-    },
-    {
-      "type": "verwijst-naar",
-      "facet": {
-        "aspect": "voorraaddiefstal als asset-misappropriation"
-      },
-      "target": "fraudetypologie-acfe",
-      "redenering": "voorraaddiefstal als asset-misappropriation"
-    },
-    {
-      "type": "verwijst-naar",
-      "facet": {
-        "aspect": "fysieke voorraad als input voor waardering"
-      },
-      "target": "voorraadwaardering",
-      "redenering": "fysieke voorraad als input voor waardering"
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "scenario",
-      "titel": "Voorraadtelling met onafhankelijke teller bij Verffabriek Veurne BV",
-      "cast": [
-        "Verffabriek Veurne BV",
-        "Pieter Vermeulen",
-        "Sofie Janssens"
-      ],
-      "omschrijving": "Verffabriek Veurne BV is in vereffening en moet op 31/12 een formele voorraadopname doen vóór de balans. Magazijnier Pieter Vermeulen mag niet zelf tellen — de auditrichtlijn vereist een onafhankelijke teller. Auditor Sofie Janssens woont de telling bij (ISA 501 §4). De ERP-permanente-voorraad toont 4.200 vaten verf van type 'Marine-blauw', de fysieke telling levert 3.870 vaten op — een verschil van 330 vaten × € 47 = € 15.510.",
-      "stappen": [
-        "1. Vooraf: Sofie kiest 30 hoge-waarde-artikelen voor onafhankelijke recount (substantieve test); Pieter weet niet welke vooraf.",
-        "2. Tijdens telling: cycle-count-blad per zone, teller en hertel-er parafereren elk blad — bouwsteen 'Periodieke en jaarlijkse inventaris met scheiding teller-bewaarder'.",
-        "3. Verschillen-analyse: 200 vaten blijken legitiem (lekkage tijdens transport, niet geboekt — bouwsteen 'Permanente voorraad in het ERP' niet correct gevoed); 130 vaten ontbreken zonder traceerbare reden.",
-        "4. Boekhoudkundige verwerking: voorraad-aanpassing € 9.400 (legitieme lekkage) als bijzondere kost; € 6.110 als geheim verlies hangende inbraakaangifte.",
-        "5. Vereffeningsimpact: voorraad op vereffeningsbalans bedraagt na correctie 3.870 vaten × € 47 = € 181.890 in plaats van € 197.400."
-      ],
-      "illustraties": [
-        {
-          "type": "balans-fragment",
-          "titel": "Voorraad-correctie op vereffeningsbalans",
-          "posten": [
-            {
-              "omschrijving": "Voorraad gereed product (ERP-saldo voor telling)",
-              "bedrag": 197400
-            },
-            {
-              "omschrijving": "Correctie lekkage tijdens transport",
-              "bedrag": -9400
-            },
-            {
-              "omschrijving": "Correctie ongeboekt verlies (onderzoek lopende)",
-              "bedrag": -6110
-            },
-            {
-              "omschrijving": "Voorraad gereed product na fysieke telling",
-              "bedrag": 181890
-            }
-          ]
-        },
-        {
-          "type": "boeking",
-          "titel": "Correctieboeking voor de twee verschilcomponenten",
-          "rijen": [
-            {
-              "rekening": "6300 — Bijzondere kosten — voorraadverliezen",
-              "debet": 9400,
-              "credit": null,
-              "omschrijving": "Lekkage transport — legitiem"
-            },
-            {
-              "rekening": "6420 — Andere bedrijfskosten",
-              "debet": 6110,
-              "credit": null,
-              "omschrijving": "Ongeboekt verlies — aangifte"
-            },
-            {
-              "rekening": "33 — Voorraad gereed product",
-              "debet": null,
-              "credit": 15510
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
             }
           ]
         }
-      ],
-      "confidence": "inferred"
+      }
     }
-  ]
+  },
+  "relaties": [],
+  "concept_type": "procedure"
 }

@@ -1,175 +1,55 @@
 {
   "id": "financiele-analyse-software",
-  "naam": "Financiële-analyse-software (IT-tools)",
-  "node_type": "begrip",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.9.VII",
-    "1.9.VII.A",
-    "1.9.VII.B",
-    "1.9.VII.C"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.9.VII.A",
-    "dekt_ook_anchors": [
+  "naam": {
+    "primair": "Financiele analyse software"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      }
+    ],
+    "ankers": [
       "1.9.VII",
+      "1.9.VII.A",
       "1.9.VII.B",
       "1.9.VII.C"
-    ],
-    "reviewed_by": null,
-    "bron_gap": "Geen wettelijke of normatieve bron — commerciële tools in de Belgische markt. Common knowledge in vakkundige praktijk.",
-    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
-    "touched_at": "2026-05-19T00:00:00Z"
+    ]
   },
-  "definitie": {
-    "text": "Financiële-analyse-software is software die jaarrekening-gegevens importeert (uit NBB-Centrale voor Balansen of XBRL-bestanden), automatisch ratio's berekent, sector-benchmarking levert en visuele rapporten genereert. Voorbeelden in de Belgische markt: NBB-Online (gratis), Belfius Score, Graydon, Roularta Bel-First, Ondernemingsdatabank.",
-    "confidence": "inferred",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Belgische beroepspraktijk"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.9.VII.A",
-          "sha256": null,
-          "version": "rag-v1"
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Financiele analyse software",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
-    }
-  },
-  "bouwstenen": [
-    {
-      "titel": "Functionaliteit: import, ratio, sectorvergelijking, rapport",
-      "wat": "Vier kernfuncties: (1) import van jaarrekening (XBRL of manuele invoer); (2) automatische ratio-berekening (alle ratio's uit PO 1.9.V); (3) sectorvergelijking via NACE-code op NBB-databank; (4) genereren van een diagnose-rapport (grafische trends + scores).",
-      "waarom": "De accountant gebruikt deze tools om handmatig rekenwerk te vermijden en om gevalideerde sector-benchmarks te krijgen die alleen via abonnement of NBB-databank beschikbaar zijn.",
-      "grondslag": "Beroepspraktijk",
-      "confidence": "inferred",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Beroepspraktijk financiële analyse"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.9.VII.B",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "De accountant van Rotex Roeselare NV upload de jaarrekening 20X3 in Bel-First; krijgt automatisch ratio's voor liquiditeit, solvabiliteit, rentabiliteit + Altman Z-score + sector-rapport op 5 jaar."
-        }
-      ]
-    },
-    {
-      "titel": "Interpretatie blijft mensenwerk",
-      "wat": "De software produceert cijfers; de interpretatie blijft een accountancytaak. Een tool kan niet beslissen of een afwijking versus sector een signaal is van management-keuze (specialisatie) of van zwakte (slecht beheer).",
-      "waarom": "Examen-relevant: de tool is een hulpmiddel, geen vervanger. De student moet de output van een tool kunnen lezen én bevragen — niet blind overnemen.",
-      "grondslag": "Beroepspraktijk",
-      "confidence": "inferred",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Beroepspraktijk"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.9.VII.C",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Bel-First signaleert dat Rotex Roeselare NV een current-ratio van 1,45 heeft tegenover sector-gemiddelde 1,80. De accountant onderzoekt: voorraad-strategie? betalingstermijn klanten? Beide kunnen verklaring zijn."
-        }
-      ]
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Belgische marktspelers",
-      "betekenis": "Vier veel gebruikte tools in Vlaanderen: (1) NBB-Online (gratis, ratio's op individuele onderneming); (2) Bel-First (Bureau van Dijk/Moody's, sectorvergelijking); (3) Graydon (kredietratings, betaalmoraliteit); (4) Belfius Score (banksector, screening kredietaanvragen). Voor het examen is herkenning van categorieën belangrijker dan productnamen.",
-      "anker_slug": "1.9.VII.A",
-      "confidence": "inferred",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Belgische beroepspraktijk"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.9.VII.A",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
       }
     }
-  ],
-  "valkuilen": [
-    {
-      "text": "Een tool gebruikt vaak verkortte definities. Een ratio in Bel-First kan licht afwijken van een ratio in een handboek omdat de software één wettelijk eenduidige formule kiest. Bij twijfel altijd de formule-definitie in de tool-documentatie controleren — vooral voor cashflow- en solvabiliteits-ratio's waar definities variëren.",
-      "confidence": "inferred",
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Beroepspraktijk"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "anchor-1.9.VII.B",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "vereist-kennis-van",
-      "target": "sectorvergelijking-financiele-analyse",
-      "redenering": "Sector-benchmarking is een kernfunctie van financiële-analyse-software.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "ratio-vier-doelen-vergelijking",
-      "redenering": "Tools berekenen automatisch de ratio's uit de vier doel-categorieën.",
-      "confidence": "inferred"
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
-  "situering": {
-    "text": "IT-tools die jaarrekeninggegevens uit NBB-Centrale voor Balansen of XBRL importeren, ratio-set automatisch berekenen, sectorbenchmarks toevoegen en grafische rapporten genereren. Maken de mechanische berekening snel — de stagiair blijft verantwoordelijk voor selectie, interpretatie en aanbeveling. Voorbeelden: NBB-Online, Belfius Score, Graydon, Roularta Trends.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Belgische marktpraktijk financiële analyse"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.9.VII",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
   },
-  "naam_alternatief": [
-    "Financial analysis software",
-    "Logiciel d'analyse financière"
-  ],
-  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
+  "relaties": [],
+  "concept_type": "procedure"
 }

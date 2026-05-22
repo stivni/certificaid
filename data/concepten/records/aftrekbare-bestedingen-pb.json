@@ -1,0 +1,494 @@
+{
+  "id": "aftrekbare-bestedingen-pb",
+  "naam": {
+    "primair": "Aftrekbare bestedingen pb",
+    "synoniemen": [
+      "persoonlijke aftrekken",
+      "aftrekbare uitgaven personenbelasting"
+    ],
+    "vertaling": {
+      "fr": "Dépenses déductibles IPP",
+      "nl": "Aftrekbare bestedingen in de personenbelasting"
+    }
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "quick-pass-run1-20260522",
+      "extract_prompt": "prompts/multipass/run-1-draft.md",
+      "iteratie": "v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 17)"
+      }
+    ],
+    "ankers": [
+      "2.2.XI",
+      "2.2.XVI"
+    ]
+  },
+  "inhoud": {
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "personenbelasting",
+        "inkomstencategorieen-pb",
+        "belastingvrije-som"
+      ],
+      "kader": "personenbelasting",
+      "naast_relevant": [
+        "federale-belastingverminderingen-pb",
+        "gewestelijke-belastingverminderingen-pb",
+        "onderhoudsuitkering-cluster"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Elke belastingplichtige in de personenbelasting die in het belastbaar tijdperk erkende giften heeft gedaan, onderhoudsuitkeringen heeft betaald of kosten voor kinderopvang heeft gedragen."
+        }
+      ],
+      "niet_voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Beroepskosten komen niet in aanmerking als aftrekbare besteding: die worden afgetrokken van het beroepsinkomen zelf, vóór de berekening van het netto beroepsinkomen."
+        }
+      ],
+      "voordeel": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Vermindering van de belastbare basis vóór de progressieve tarieven worden toegepast, zodat elke euro aftrek meer belastingvoordeel oplevert naarmate het inkomen in een hogere schijf valt."
+        }
+      ],
+      "risico": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Onterechte aftrek (onvoldoende bewijs, niet-erkende instelling, overschrijding plafonds) leidt tot belastingverhoging en nalatigheidsintresten; bij opzet riskeert men fiscale strafrechtelijke sancties."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Het regime is toepasselijk op rijksinwoners (en daarmee gelijkgestelde niet-inwoners) die in de aangifte personenbelasting een of meer van de wettelijke categorieën aftrekbare bestedingen vermelden."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "giften-erkende-instellingen",
+        "naam": {
+          "primair": "Giften aan erkende instellingen"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Giften in geld aan door de FOD Financiën erkende instellingen (onderwijs, cultuur, wetenschappelijk onderzoek, ontwikkelingshulp) zijn aftrekbaar ten belope van 10 % van het totale netto-inkomen, met een absoluut maximum dat jaarlijks geïndexeerd wordt. De instelling moet een fiscaal attest afleveren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "betaalde-onderhoudsuitkeringen",
+        "naam": {
+          "primair": "Betaalde onderhoudsuitkeringen"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Onderhoudsuitkeringen die op grond van het Burgerlijk Wetboek of een rechterlijke beslissing worden betaald aan een persoon die geen deel uitmaakt van het gezin, zijn voor 80 % aftrekbaar als besteding. Het volledige betaalde bedrag moet worden vermeld; de fiscus past de 80 %-beperking automatisch toe.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kinderopvangkosten",
+        "naam": {
+          "primair": "Kinderopvangkosten"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "betwijfeld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Kosten voor kinderopvang in erkende opvangplaatsen (Kind en Gezin, ONE, IIKW) zijn aftrekbaar voor kinderen jonger dan 14 jaar (of 21 jaar bij handicap), met een jaarlijks geïndexeerd maximum per kind per dag. Aftrek als besteding is een alternatief voor de belastingvermindering; de belastingplichtige kiest de meest voordelige toepassing.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "plafonds-en-indexering",
+        "naam": {
+          "primair": "Plafonds en jaarlijkse indexering"
+        },
+        "inhoud_type": "drempel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De meeste aftrekbare bestedingen zijn begrensd door een absoluut bedrag of een percentage van het totale netto-inkomen, en worden jaarlijks geïndexeerd. Overschrijding van het plafond leidt tot verlies van het surplus — een niet-benut deel kan niet worden overgedragen naar een volgend aanslagjaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijslast-en-attesten",
+        "naam": {
+          "primair": "Bewijslast en fiscale attesten"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige draagt de bewijslast: hij moet kunnen aantonen dat de uitgave effectief is gedaan, aan de wettelijke voorwaarden voldoet en door een geldig fiscaal attest of gerechtelijk stuk wordt gestaafd. Ontbrekend bewijs leidt tot verwerping van de aftrek bij controle.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "positie-in-belastingberekening",
+        "naam": {
+          "primair": "Positie in de belastingberekening"
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Aftrekbare bestedingen worden in mindering gebracht op het totale netto-inkomen (som van de vier netto-inkomens) vóór de belastingvrije som en de progressieve tarieven worden toegepast. Ze zijn dus geen vermindering van de belasting zelf (tax credit), maar een vermindering van de berekeningsbasis (tax deduction).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderscheid-aftrek-versus-vermindering",
+        "naam": {
+          "primair": "Onderscheid aftrek versus belastingvermindering"
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Een aftrekbare besteding vermindert de belastbare basis (voordeel = bedrag × marginaal tarief); een belastingvermindering vermindert de berekende belasting met een vast percentage of forfaitair bedrag. Bij hogere inkomens levert een aftrekbare besteding meer voordeel op dan een equivalente vermindering aan het basispercentage.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Aftrekbare bestedingen zijn een limitatieve categorie van particuliere uitgaven die in de personenbelasting in mindering worden gebracht op het totale netto-inkomen, vóór de toepassing van de belastingvrije som en de belastingberekening. Het gaat om uitgaven die de wetgever beleidsmatig fiscaal wil aanmoedigen, zoals giften, onderhoudsuitkeringen en kinderopvang."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Door aftrekbare bestedingen af te trekken van het totale netto-inkomen daalt de belastbare basis vóór de progressieve tarieven worden toegepast, waardoor de belastingdruk op het netto-inkomen vermindert."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De wetgever wil bepaald maatschappelijk gewenst gedrag fiscaal stimuleren — giften aan erkende instellingen, het betalen van onderhoudsgeld, en kinderopvang — zonder die te laten kwalificeren als beroepskosten. Door ze als aparte categorie te plaatsen ná de berekening van de vier netto-inkomens maar vóór de belastingberekening, geldt de aftrek over het gezamenlijk belastbare inkomen en niet per inkomensstroom afzonderlijk. Dit maakt het systeem eenvoudiger te beheren maar beperkt tegelijk de aftrek tot effectief betaalde en bewezen bedragen."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting",
+      "toelichting": "Aftrekbare bestedingen zijn een deelregime binnen de personenbelasting, specifiek voor de fase van de basisberekening.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "federale-belastingverminderingen-pb",
+      "toelichting": "Beide verminderen de belastingdruk in de personenbelasting, maar aftrekbare bestedingen werken op de grondslag (vóór tarieven), terwijl federale belastingverminderingen werken op de berekende belasting zelf.",
+      "gelijkenissen": [
+        "Beide zijn fiscale incentives in de personenbelasting",
+        "Beide vereisen bewijsstukken en voldoen aan wettelijke voorwaarden"
+      ],
+      "verschillen": [
+        "Aftrekbare bestedingen verminderen de belastbare basis; belastingverminderingen verminderen de berekende belasting",
+        "Voordeel van aftrekbare bestedingen is afhankelijk van het marginale tarief; belastingverminderingen geven een vast procentueel voordeel"
+      ],
+      "verwarring_risico": "Studenten en stagiairs verwarren de twee categorieën omdat beide 'de belasting verlagen', maar de technische werking verschilt fundamenteel.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gewestelijke-belastingverminderingen-pb",
+      "toelichting": "Gewestelijke belastingverminderingen werken eveneens op de berekende belasting (niet op de grondslag) en zijn bevoegdheid van de gewesten; aftrekbare bestedingen zijn federale materie.",
+      "gelijkenissen": [
+        "Beide verlagen de effectieve belastingdruk in de personenbelasting"
+      ],
+      "verschillen": [
+        "Aftrekbare bestedingen = federaal, werken op grondslag; gewestelijke verminderingen = gewestelijk, werken op berekende belasting"
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "onderhoudsuitkering-cluster",
+      "toelichting": "De aftrekbaarheid van onderhoudsuitkeringen als besteding wordt bepaald door de burgerrechtelijke en fiscale voorwaarden uit het onderhoudsuitkering-cluster.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aangifte-pb",
+      "toelichting": "De aftrekbare bestedingen worden effectief gerealiseerd via de codes in de aangifte personenbelasting; zonder correcte aangifte vervalt het recht.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    }
+  ],
+  "concept_type": "regime"
+}

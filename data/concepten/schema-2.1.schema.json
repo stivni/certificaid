@@ -1,0 +1,542 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certificaid.local/schemas/concept-record-2.1-v1.5.schema.json",
+  "title": "Certificaid concept-record schema 2.1 (v1.5)",
+  "description": "Canonical schema voor concept-records. Bron-van-waarheid voor validator, normalisator en agent-prompt. Veldnamen Nederlands; JSON Schema mechanica Engels. v1.5 herzieningen: kern-wrapper voor definitie/substantie/rationale; veldnaam-uniformisering tekst (was text), ankers (was linked_anchors), subconcept (was component), accountant_perspectieven (was rollen_per_perspectief); arrays voor trigger_start/einde/voordeel/risico; valkuilen/speelruimtes/syntheses op concept-niveau; inhoud_type-enum afgeslankt (12 ipv 19); weergave-enum afgeslankt (11 ipv 14); rijke $comment/description voor agent-zelfsturing.",
+
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "naam", "concept_type", "metadata", "inhoud", "relaties"],
+
+  "properties": {
+    "id":           { "$ref": "#/$defs/concept_id" },
+    "naam":         { "$ref": "#/$defs/naam_blok" },
+    "concept_type": { "$ref": "#/$defs/concept_type" },
+
+    "metadata":     { "$ref": "#/$defs/metadata" },
+    "inhoud":       { "$ref": "#/$defs/inhoud" },
+    "relaties":     {
+      "type": "array",
+      "items": { "$ref": "#/$defs/relatie" },
+      "description": "Top-level concept-naar-concept graafrelaties. Voor claim-niveau (inline) relaties, zie tekst.relaties[]."
+    }
+  },
+
+  "$defs": {
+
+    "concept_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$",
+      "description": "Kebab-case slug. Geen extensie. Komt overeen met bestandsnaam zonder .json."
+    },
+
+    "canonical_ref": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9](#[a-z0-9][a-z0-9-]*[a-z0-9])?$",
+      "description": "Referentie naar concept (id) of naar element binnen concept (id#element_id)."
+    },
+
+    "concept_type": {
+      "type": "string",
+      "enum": [
+        "instrument",
+        "verrichting",
+        "procedure",
+        "balanspost",
+        "ratio",
+        "regime",
+        "methode",
+        "kader",
+        "principe",
+        "actor"
+      ],
+      "$comment": "Discriminator voor render-labels en operaties. Kies het type dat het didactisch karakter van het concept best vat: instrument (concreet contract/document/middel), verrichting (eenmalige handeling/transactie), procedure (gestructureerde meerstaps-flow met wettelijke volgorde), balanspost (boekhoudkundige rubriek), ratio (afgeleide indicator/verhoudingsgetal), regime (fiscaal/juridisch keuze-stelsel), methode (analytische techniek/aanpak), kader (normatief geheel van regels), principe (abstract beginsel met normatieve kracht), actor (persoon/orgaan/instelling)."
+    },
+
+    "naam_blok": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primair"],
+      "properties": {
+        "primair":    { "type": "string", "minLength": 1, "description": "Belangrijkste Nederlandstalige naam. Gebruik singular tenzij het concept inherent meervoud is." },
+        "afkorting":  { "type": "string", "description": "Korte vorm (bv. VenB, WVV). Geen punten." },
+        "synoniemen": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Alternatieve benamingen die in bronnen voorkomen. Bedoeld voor zoek-matching, niet voor weergave."
+        },
+        "vertaling": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "ISO-639-1-code → naam in die taal. Doorgaans 'fr' voor Belgische context."
+        }
+      },
+      "$comment": "v1.5: 'andere_talen' is hernoemd naar 'vertaling' (kortere naam, duidelijker semantiek)."
+    },
+
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "status", "ankers", "provenance"],
+      "properties": {
+        "schema_version": { "const": "2.1" },
+        "status": {
+          "type": "string",
+          "enum": ["seed", "gevalideerd", "te_herzien"],
+          "description": "Handmatige status-flag voor user-bedoeling. Voor mechanische history zie 'changelog'."
+        },
+        "ankers": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1,
+          "description": "Anchors uit het ITAA-programma die dit concept dekt. Eerste anchor is de primaire/leidende. Vorm: '<PO>.<sectie>.<sub>' (bv. '3.0.IV.D')."
+        },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "changelog":  { "$ref": "#/$defs/changelog" }
+      },
+      "$comment": "v1.5: 'primary_po', 'linked_anchors', 'dekt_tdks', 'tags' en 'cross_po' zijn gedropt. Primaire PO is afleidbaar uit eerste anker (split op '.'); dekt_tdks was redundant; tags onbenut; cross_po afleidbaar uit anker-prefix-set."
+    },
+
+    "provenance": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["model", "wave_id"],
+      "properties": {
+        "model":           { "type": "string", "minLength": 1, "description": "Model of script dat het record initieel aanmaakte." },
+        "wave_id":         { "type": "string", "minLength": 1, "description": "Batch-identifier voor traceability." },
+        "extract_prompt":  { "type": "string" },
+        "bundle_used":     { "type": "string" },
+        "primary_bronnen": { "type": "array", "items": { "type": "string" } },
+        "mcp_calls":       { "type": "integer", "minimum": 0 },
+        "rerank_calls":    { "type": "integer", "minimum": 0 },
+        "iteratie":        { "type": "string" }
+      }
+    },
+
+    "changelog": {
+      "type": "array",
+      "description": "Geordende historiek van operaties op het record. Mechanisch beheerd (records-API of orchestrator). Elke entry = één operatie-uitvoer.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["operatie", "timestamp"],
+        "properties": {
+          "operatie": {
+            "type": "string",
+            "description": "Operatie-naam. Bekend: skeleton · beschrijven · claims_checken · relaties_aanvullen · accountant_perspectief · didactisch_verrijken · kandidaat_review · cijfer_validatie · examenvragen_aansluiting · consistentie_check · volledigheid_check · migrate-v14-v15 (cf. ADR-029). Andere namen toegestaan voor toekomstige uitbreiding."
+          },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "model":     { "type": "string" },
+          "wave_id":   { "type": "string" },
+          "wijziging": { "type": "string" },
+          "metriek":   { "type": "object", "additionalProperties": true }
+        }
+      }
+    },
+
+    "inhoud": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Hoofdinhoud van het concept. 'kern' verplicht (≥1 van definitie/substantie/rationale). Andere blokken optioneel — agent vult wat zinvol is voor dit concept.",
+      "required": ["kern"],
+      "properties": {
+        "kern":                      { "$ref": "#/$defs/kern" },
+        "voorkennis_leespad":        { "$ref": "#/$defs/voorkennis_leespad" },
+        "gebruikscontext":           { "$ref": "#/$defs/gebruikscontext" },
+        "elementen": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/element" },
+          "$comment": "PLAATSINGSREGEL — 'wat-is-het' hoort hier; 'wat-doet-de-accountant' hoort onder accountant_perspectieven. Elementen beschrijven het concept zelf: mechanisme, sub-concepten, wettelijke voorwaarden, formules, stappen die intrinsiek zijn aan het concept (bv. schuldeisersbeschermingsprocedure bij kapitaalvermindering — geldt ongeacht wie kijkt). NIET hier: boekhoudkundige verwerking (= rol=boekhouder), audit-procedures (= rol=auditor), aangifte-stappen (= rol=fiscaal), advies-checklist (= rol=adviseur), begeleidings-stappen (= rol=begeleider). Litmus: 'gebeurt dit ongeacht of er een accountant bij betrokken is?' → ja → element; → nee/alleen-als-accountant-handelt → accountant_perspectieven."
+        },
+        "voorbeelden":               { "type": "array", "items": { "$ref": "#/$defs/voorbeeld" } },
+        "valkuilen":                 { "type": "array", "items": { "$ref": "#/$defs/valkuil" } },
+        "speelruimtes":              { "type": "array", "items": { "$ref": "#/$defs/speelruimte" } },
+        "accountant_perspectieven":  { "type": "array", "items": { "$ref": "#/$defs/perspectief" } },
+        "syntheses":                 { "type": "array", "items": { "$ref": "#/$defs/synthese" } }
+      }
+    },
+
+    "kern": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Drie complementaire kern-vragen over het concept. Ten minste één veld moet aanwezig zijn. 'definitie' = wat IS het (juridisch hard of zacht). 'substantie' = wat betekent het economisch/praktisch. 'rationale' = waarom werkt het zo (ratio legis).",
+      "anyOf": [
+        { "required": ["definitie"] },
+        { "required": ["substantie"] },
+        { "required": ["rationale"] }
+      ],
+      "properties": {
+        "definitie":  { "$ref": "#/$defs/tekst" },
+        "substantie": { "$ref": "#/$defs/tekst" },
+        "rationale":  { "$ref": "#/$defs/tekst" }
+      }
+    },
+
+    "tekst": {
+      "$comment": "Universeel claim-blokje. Veldnaam 'tekst' (v1.5; was 'text' in v1.4). Bron-van-eenheid voor definitie/substantie/rationale, contextitems en inline-tekstblokken.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tekst", "grondslag"],
+      "properties": {
+        "tekst":       { "type": "string", "minLength": 1, "description": "De claim zelf. Nederlandstalig, didactisch geformuleerd, ≤300 woorden voor leesbaarheid." },
+        "grondslag":   { "$ref": "#/$defs/grondslag" },
+        "rationale":   { "type": "string", "description": "Optionele uitleg waarom deze claim relevant of correct is — typisch een korte zin." },
+        "weergaven":   { "type": "array", "items": { "$ref": "#/$defs/weergave" }, "description": "Visualisaties die deze claim ondersteunen (tabel, boeking, formule, etc.)." },
+        "relaties":    { "type": "array", "items": { "$ref": "#/$defs/relatie" }, "description": "Inline-relaties vanaf deze claim naar andere concepten/elementen." }
+      }
+    },
+
+    "grondslag": {
+      "$comment": "Confidence-label + bronnen voor één claim. Bronnen ALTIJD ≥ 1 — ook 'betwijfeld' komt ergens vandaan (AI/mens als bron). 'checked_at' + 'claim_hash' worden door factcheck-run gezet en stellen latere runs in staat re-check te skippen wanneer claim_hash ongewijzigd. 'weerlegging' = uitleg waarom claim weerlegd is (alleen voor confidence='weerlegd').",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["confidence", "bronnen"],
+      "properties": {
+        "confidence": { "$ref": "#/$defs/confidence_token" },
+        "bronnen": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/bron_ref" }
+        },
+        "checked_at": {
+          "type": "string",
+          "description": "ISO-8601 datum of timestamp. Gezet door factcheck-run wanneer claim tegen primaire bronnen is gevalideerd."
+        },
+        "claim_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{8,}$",
+          "description": "Hash van claim-tekst (sha256 of korter prefix). Idempotent re-check skipt wanneer hash ongewijzigd sinds checked_at."
+        },
+        "weerlegging": {
+          "type": "string",
+          "description": "Uitleg waarom claim weerlegd is, met verwijzing naar tegensprekende bron. Alleen relevant voor confidence='weerlegd'."
+        }
+      }
+    },
+
+    "confidence_token": {
+      "type": "string",
+      "enum": ["geciteerd", "afgeleid", "verondersteld", "betwijfeld", "weerlegd"],
+      "$comment": "Render-iconen: geciteerd=📖, afgeleid=🔗, verondersteld=🤖 (ai_model bron) of 🧠 (mens bron), betwijfeld=❓, weerlegd=❌. 'geciteerd' = (quasi-)letterlijk in bron incl. parafrasering; 'afgeleid' = logische conclusie uit meerdere bronnen; 'verondersteld' = aanname met redelijke zekerheid zonder citaat; 'betwijfeld' = expliciete twijfel; 'weerlegd' = bron tegenspreekt maar claim nog niet gecorrigeerd. Tijdens 'beschrijven'-operatie alleen 'verondersteld' en 'betwijfeld' toegestaan."
+    },
+
+    "bron_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type":     { "$ref": "#/$defs/bron_type" },
+        "id":       { "type": "string" },
+        "naam":     { "type": "string" },
+        "ref":      { "type": "string", "description": "Specifieke verwijzing binnen de bron (art-nummer, advies-code, ISA-nummer, etc.). Verplicht voor primaire bronnen (wettekst/kb/cbn/norm/richtlijn/circulaire/modelverdrag)." },
+        "datum":    { "type": "string", "description": "ISO-date of -datetime. Verplicht voor ai_model/mens-bronnen (= wanneer kennis geuit)." },
+        "context":  { "type": "string" },
+        "flag":     { "type": "string" }
+      },
+      "allOf": [
+        {
+          "$comment": "Primaire bronnen vereisen 'ref'.",
+          "if": {
+            "properties": { "type": { "enum": ["wettekst", "kb", "cbn", "norm", "richtlijn", "circulaire", "modelverdrag"] } },
+            "required": ["type"]
+          },
+          "then": { "required": ["ref"] }
+        },
+        {
+          "$comment": "AI/mens-bronnen vereisen 'datum' + 'naam'.",
+          "if": {
+            "properties": { "type": { "enum": ["ai_model", "mens"] } },
+            "required": ["type"]
+          },
+          "then": { "required": ["datum", "naam"] }
+        }
+      ]
+    },
+
+    "bron_type": {
+      "type": "string",
+      "enum": [
+        "wettekst",
+        "kb",
+        "cbn",
+        "advies",
+        "norm",
+        "richtlijn",
+        "circulaire",
+        "rechtspraak",
+        "modelverdrag",
+        "tarief",
+        "aangifte",
+        "ai_model",
+        "mens"
+      ]
+    },
+
+    "voorkennis_leespad": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Pedagogisch leespad — welke concepten kennen voor / naast / na dit concept. Optioneel; ingevuld door aparte 'leespad_aanvullen'-operatie.",
+      "properties": {
+        "voorvereisten":  { "type": "array", "items": { "$ref": "#/$defs/canonical_ref" }, "description": "Verplicht eerst begrijpen." },
+        "kader":          { "$ref": "#/$defs/canonical_ref", "description": "Overkoepelend concept dat dit concept plaatst." },
+        "naast_relevant": { "type": "array", "items": { "$ref": "#/$defs/canonical_ref" }, "description": "Parallelle concepten, niet vereist maar verhelderend." },
+        "volgkennis":     { "type": "array", "items": { "$ref": "#/$defs/canonical_ref" }, "description": "Concepten die op dit voortbouwen." }
+      }
+    },
+
+    "gebruikscontext": {
+      "$comment": "Plat — render-laag bepaalt welke koppels samen tonen. Alle sub-velden zijn arrays in v1.5 (was singular voor trigger_start/einde/voordeel/risico in v1.4).",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "voor":              { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Wanneer past dit concept toe — typische gebruikssituaties." },
+        "niet_voor":         { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Wanneer NIET — situaties waar het concept misplaatst is." },
+        "voorwaarden":       { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Cumulatieve vereisten voor toepasselijkheid." },
+        "uitsluitingen":     { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Categorieën die expliciet uitgesloten zijn." },
+        "indicaties":        { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Signalen die wijzen op toepasselijkheid." },
+        "contra_indicaties": { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Signalen die wijzen op niet-toepasselijkheid." },
+        "trigger_start":     { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Wat triggert de aanvang van deze procedure/regime." },
+        "trigger_einde":     { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Wat triggert het einde / de afronding." },
+        "voordeel":          { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Voordelen van toepassing." },
+        "risico":            { "type": "array", "items": { "$ref": "#/$defs/tekst" }, "description": "Risico's bij (verkeerde) toepassing of bij niet-toepassing." }
+      }
+    },
+
+    "element": {
+      "$comment": "Recursief bouwblok. Fractale shape: gelijke 'kern'-wrapper als top-level inhoud. Geen 'beschrijving' meer (v1.4-veld) — gebruik kern.definitie of kern.substantie. Geen 'verwijst_naar' meer — gebruik relaties[] via tekst-blokken.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "naam", "inhoud_type", "kern"],
+      "properties": {
+        "id":            { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
+        "naam":          { "$ref": "#/$defs/naam_blok" },
+        "inhoud_type":   { "$ref": "#/$defs/inhoud_type" },
+        "kern":          { "$ref": "#/$defs/kern" },
+        "grondslag":     { "$ref": "#/$defs/grondslag", "description": "Optionele grondslag voor het bestaan van dit element zelf (los van zijn kern.definitie/substantie/rationale)." },
+        "weergaven":     { "type": "array", "items": { "$ref": "#/$defs/weergave" } },
+        "elementen":     { "type": "array", "items": { "$ref": "#/$defs/element" }, "description": "Recursieve sub-elementen. Geadviseerd max 3 niveaus diepte." },
+        "voorbeelden":   { "type": "array", "items": { "$ref": "#/$defs/voorbeeld" } },
+        "valkuilen":     { "type": "array", "items": { "$ref": "#/$defs/valkuil" } },
+        "speelruimtes":  { "type": "array", "items": { "$ref": "#/$defs/speelruimte" } }
+      }
+    },
+
+    "inhoud_type": {
+      "type": "string",
+      "enum": [
+        "begrip",
+        "stap",
+        "drempel",
+        "regel",
+        "uitzondering",
+        "vuistregel",
+        "mechanisme",
+        "risico",
+        "formule",
+        "principe",
+        "subconcept",
+        "beperking"
+      ],
+      "$comment": "v1.5: 12 types (was 19). Per-waarde uitleg (agent kiest type per element):\n• 'begrip' — definiërende term, focus op WAT het is (bv. 'verbonden vennootschap').\n• 'stap' — stap in een sequentie (wet-gedreven OF aanpak-cyclus, samengevoegd v1.5).\n• 'drempel' — kwantitatieve grens (% / bedrag / aantal jaren) die regime-overgang triggert.\n• 'regel' — algemene normstelling met juridische kracht. INCLUDE: cumulatieve voorwaarden (v1.4 'voorwaarde'-type).\n• 'uitzondering' — afwijking van algemene regel voor specifiek geval.\n• 'vuistregel' — beroepswijsheid zonder formele bron, expert-rule-of-thumb.\n• 'mechanisme' — hoe iets economisch/juridisch werkt. INCLUDE: naast-elkaar-zettingen van varianten (v1.4 'vergelijking'-type).\n• 'risico' — wat kan misgaan + voor wie.\n• 'formule' — wiskundige uitdrukking of berekenings-recept. INCLUDE: uitgewerkte berekeningen (v1.4 'berekening'-type).\n• 'principe' — abstract beginsel met normatieve kracht.\n• 'subconcept' — sub-onderdeel van het concept (was v1.4 'component').\n• 'beperking' — inherente zwakte/beperking van een indicator, methode of concept (NIEUW v1.5).\n\nGedropt v1.5 met mapping:\nprocedure_stap + stap_in_cyclus → stap\ncomponent → subconcept\nberekening → formule\nvoorwaarde → regel\nvergelijking → mechanisme\neigenschap → begrip\nvalkuil → mechanisme (concept-niveau 'valkuilen[]' is de juiste plek voor didactische valkuilen)\nmoment_in_tijd → geen mapping (niet in gebruik)\nkeuze → vuistregel of mechanisme (niet in gebruik)"
+    },
+
+    "weergave": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type":      { "$ref": "#/$defs/weergave_type" },
+        "grondslag": { "$ref": "#/$defs/grondslag" }
+      },
+      "additionalProperties": true,
+      "$comment": "Type-specifieke payload niet centraal gevalideerd (sub-schemas TBD na v1.5 voor boeking/balans_snapshot/tabel). Grondslag is optioneel."
+    },
+
+    "weergave_type": {
+      "type": "string",
+      "enum": [
+        "proza",
+        "tabel",
+        "boeking",
+        "balans_snapshot",
+        "resultatenrekening_snapshot",
+        "stappenlijst",
+        "tijdslijn",
+        "vergelijkingstabel",
+        "formule_expressie",
+        "berekening",
+        "beslisboom"
+      ],
+      "$comment": "v1.5: 11 types (was 14). Gedropt: t_rekening (variant van boeking), voorbeeld (was geen weergave maar zelfstandig blok), diagram (te vaag), casus (was tussenstap richting voorbeeld). 'berekening' = uitgewerkte stappen met getallen die naar resultaat leiden (vaak in tabel-vorm). 'formule_expressie' = wiskunde-uitdrukking zonder concrete getallen. 'beslisboom' = if/then-flow voor render."
+    },
+
+    "voorbeeld": {
+      "$comment": "Unified voorbeeld-shape (v1.5: was 'voorbeeld'-met-id én 'voorbeeld_inline'-zonder-id in v1.4). 'titel' verplicht; 'id' optioneel (nodig voor top-level voorbeelden die ankerbaar moeten zijn).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["titel"],
+      "properties": {
+        "id":         { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
+        "titel":      { "type": "string", "minLength": 1, "description": "Korte titel ('BV Optima — terugbetaling overtollig kapitaal')." },
+        "context":    { "type": "string", "description": "Optioneel intro ('NV ABC heeft 3 aandeelhouders...')." },
+        "grondslag":  { "$ref": "#/$defs/grondslag" },
+        "weergaven":  { "type": "array", "items": { "$ref": "#/$defs/weergave" } },
+        "elementen":  { "type": "array", "items": { "$ref": "#/$defs/element" } }
+      }
+    },
+
+    "valkuil": {
+      "$comment": "Didactisch: typische denkfout of misvatting bij dit concept. Concept-niveau v1.5 (was 'valkuil' als inhoud_type voor elementen in v1.4 — dat was de verkeerde laag).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["titel", "verkeerde_assumptie", "kernpunt", "grondslag"],
+      "properties": {
+        "titel":               { "type": "string", "minLength": 1, "description": "Kort kenmerkend titeltje van de valkuil." },
+        "verkeerde_assumptie": { "type": "string", "minLength": 1, "description": "Wat denken studenten of practitioners vaak verkeerd?" },
+        "kernpunt":            { "type": "string", "minLength": 1, "description": "Effectief te volgen principe — wat is wel correct." },
+        "grondslag":           { "$ref": "#/$defs/grondslag" }
+      }
+    },
+
+    "speelruimte": {
+      "$comment": "Didactisch: wat kun je vrij kiezen binnen de wet/regel? Toont alternatieven en helpt de student de keuze-ruimte begrijpen.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["titel", "opties", "grondslag"],
+      "properties": {
+        "titel":     { "type": "string", "minLength": 1, "description": "Korte aanduiding van de keuze-as ('Spreidingsmethode disagio/agio')." },
+        "opties": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["keuze"],
+            "properties": {
+              "keuze":   { "type": "string", "minLength": 1 },
+              "voordeel":{ "type": "string" },
+              "nadeel":  { "type": "string" }
+            }
+          }
+        },
+        "vuistregel": { "type": "string", "description": "Praktijk-advies bij de keuze." },
+        "grondslag":  { "$ref": "#/$defs/grondslag" }
+      }
+    },
+
+    "synthese": {
+      "$comment": "Synthetische didactische structuur. Vervangt v1.4 'keuzekader' (nu één type onder vele). Type-discriminator bepaalt de inhoud-payload-vorm; sub-schemas per type zijn TBD.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "inhoud"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["keuzekader", "tijdslijn", "beslisboom", "matrix", "dashboard"]
+        },
+        "intro":  { "type": "string" },
+        "inhoud": { "type": "object", "additionalProperties": true, "description": "Type-afhankelijke payload. Voor 'keuzekader': {assen[], vergelijkingstabel?}. Andere types: TBD." }
+      }
+    },
+
+    "perspectief": {
+      "$comment": "Accountant-perspectief: WAT-DOET-DE-ACCOUNTANT vanuit een bepaalde positie (bv. uitgever-vennootschap, aandeelhouder, eigen-kantoor) en welke rol vervult hij daarbij? Dit is dé plek voor handelings-kennis. PLAATSINGSREGEL (spiegel van inhoud.elementen): boekhoudkundige verwerking + rekening-codes + boekingsmomenten → rol=boekhouder; audit-procedures + risico-drempels + controle-aandachtspunten → rol=auditor; aangifte-codes + fiscale optimalisatie-stappen → rol=fiscaal; advies-checklist + alternatieven-afweging → rol=adviseur; begeleidings-stappen bij transactie/procedure → rol=begeleider. Concept-intrinsieke procedures (wettelijke termijn, schuldeisersbescherming) horen NIET hier, maar in inhoud.elementen. v1.5: 'rollen_per_perspectief' (wrapper) gedropt; nu rechtstreeks array van perspectieven onder inhoud.accountant_perspectieven.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "naam", "rollen"],
+      "properties": {
+        "id":     { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
+        "naam":   { "$ref": "#/$defs/naam_blok" },
+        "intro":  { "type": "string" },
+        "rollen": { "type": "array", "items": { "$ref": "#/$defs/rol_invulling" } }
+      }
+    },
+
+    "rol_invulling": {
+      "$comment": "Invulling van één rol binnen een perspectief. Elementen hieronder beschrijven specifiek wat DEZE rol doet (bv. rol=boekhouder.elementen[] = boekingen, balans-impact, timing). Concept-intrinsieke decompositie blijft op top-level inhoud.elementen — niet hier dupliceren.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rol", "elementen"],
+      "properties": {
+        "rol":       { "$ref": "#/$defs/rol_enum" },
+        "elementen": { "type": "array", "items": { "$ref": "#/$defs/element" } }
+      }
+    },
+
+    "rol_enum": {
+      "type": "string",
+      "enum": [
+        "adviseur",
+        "boekhouder",
+        "begeleider",
+        "fiscaal",
+        "auditor"
+      ],
+      "$comment": "v1.5: 5 rollen (was 8). Gedropt: bestuurder/curator/forensisch — dat zijn personae binnen perspectief, niet accountant-rollen."
+    },
+
+    "relatie": {
+      "$comment": "Concept-naar-concept relatie. Top-level relaties[] = grafe-relaties. Inline-relaties via tekst.relaties[] voor claim-niveau.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "target"],
+      "properties": {
+        "type":   { "$ref": "#/$defs/relatie_type" },
+        "target": { "$ref": "#/$defs/canonical_ref" },
+        "grondslag": { "$ref": "#/$defs/grondslag" },
+        "toelichting": {
+          "oneOf": [
+            { "type": "string" },
+            { "$ref": "#/$defs/tekst" }
+          ]
+        },
+        "gelijkenissen":     { "type": "array", "items": { "type": "string" } },
+        "verschillen":       { "type": "array", "items": { "type": "string" } },
+        "verwarring_risico": { "type": "string" },
+        "render_hint": {
+          "type": "string",
+          "enum": ["als_keuze", "als_glossarium", "als_waarschuwing"]
+        }
+      },
+      "allOf": [
+        {
+          "$comment": "Rijke comparatieve velden alleen toegestaan voor type=vergelijkbaar_met.",
+          "if": {
+            "properties": { "type": { "not": { "const": "vergelijkbaar_met" } } },
+            "required": ["type"]
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                { "required": ["gelijkenissen"] },
+                { "required": ["verschillen"] },
+                { "required": ["verwarring_risico"] },
+                { "required": ["render_hint"] }
+              ]
+            }
+          }
+        }
+      ]
+    },
+
+    "relatie_type": {
+      "type": "string",
+      "enum": [
+        "bevat",
+        "valt_onder",
+        "triggert",
+        "beinvloed_door",
+        "vereist",
+        "is_uitzondering_op",
+        "niet_combineerbaar_met",
+        "vergelijkbaar_met",
+        "uitgevoerd_door",
+        "gecontroleerd_door",
+        "gepubliceerd_via",
+        "goedgekeurd_door",
+        "gedocumenteerd_in",
+        "alternatief_referentiestelsel"
+      ],
+      "$comment": "Auto-derive omgekeerden (render-time, NIET hier opnemen): getriggerd_door, beinvloedt, voorwaarde_voor, heeft_uitzondering."
+    }
+  }
+}

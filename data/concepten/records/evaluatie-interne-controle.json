@@ -1,144 +1,54 @@
 {
   "id": "evaluatie-interne-controle",
-  "naam": "Evaluatie van de interne controle",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.7.VIII.F",
-    "1.7.XI"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-VIII",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.7.VIII.F",
-    "dekt_ook_anchors": [
-      "1.7.XI"
+  "naam": {
+    "primair": "Evaluatie interne controle"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      }
     ],
-    "reviewed_by": null,
-    "bron_gap": "Generieke IC-evaluatiecriteria (effectivity, efficiency, opzet/werking) zijn vakdoctrine. ITAA-norm raakt aan toetsing van IC door externe auditor.",
-    "linked_anchors_voor": [
+    "ankers": [
       "1.7.VIII.F",
-      "1.7.XI"
-    ],
-    "note": "Wave2 — edges naar monitoring-interne-controle en evaluatiecriteria-ic; situering al object.",
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T19:55Z",
-    "touched_at": "2026-05-18T20:19:00Z"
+      "1.7.XI",
+      "1.7.XIII"
+    ]
   },
-  "in_praktijk": [
-    {
-      "aspect": "Wie voert de evaluatie uit",
-      "betekenis": "(1) Interne audit (indien aanwezig). (2) Externe consultant (bv. Xenon Expertise BV bij Yperse Werkplaats BV). (3) Externe accountant in adviesrol — let op onafhankelijkheidsregels bij gelijktijdige wettelijke controle. (4) Self-assessment door management — minst objectief maar wel waardevol als trigger.",
-      "confidence": "inferred",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "target": "interne-controle",
-      "redenering": "Evaluatie is monitoring-component (COSO 5)."
-    },
-    {
-      "type": "vergelijkt-met",
-      "target": "toetsing-interne-beheersing",
-      "redenering": "Toetsing door externe auditor is gerelateerd maar specifieker (binnen ISA-kader)."
-    },
-    {
-      "type": "onderdeel-van",
-      "target": "monitoring-interne-controle",
-      "redenering": "Evaluatie is de geformaliseerde vorm van afzonderlijke monitoring (COSO-component 5)."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "evaluatiecriteria-ic",
-      "redenering": "Een IC-evaluatie steunt op vooraf gedefinieerde evaluatiecriteria (opzet, werking, efficiëntie, ...)."
-    },
-    {
-      "type": "verwijst-naar",
-      "target": "opvolging-verrichtingen-ic",
-      "redenering": "Opvolging van verrichtingen levert tijdens evaluatie evidence over operating effectiveness."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
-  "situering": {
-    "text": "Evaluatie van interne controle is de gestructureerde beoordeling van een IC-systeem op opzet (design), werking (operating) en efficiëntie. Wordt uitgevoerd door interne audit, externe consultant, externe accountant in adviesrol of via management self-assessment. Resultaat: rapport met bevindingen, root cause en remediation-plan.",
-    "confidence": "inferred",
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
-          "version": "rag-v1"
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Evaluatie interne controle",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
-    }
-  },
-  "definitie": {
-    "text": "Evaluatie van interne controle is de systematische beoordeling of het IC-systeem (zowel het ontwerp van controles als hun uitvoering) effectief en efficiënt werkt om risico's te beheersen. Onderscheiden van toetsing van interne beheersing door de externe auditor: die laatste is gericht op assurance voor de jaarrekening-opinie, terwijl IC-evaluatie breder is en ook operationele/compliance-effectiviteit dekt.",
-    "confidence": "inferred",
-    "_provenance": {
-      "inputs": []
-    }
-  },
-  "bouwstenen": [
-    {
-      "titel": "Wanneer wettelijk verplicht",
-      "wat": "Voor de meeste ondernemingen géén algemene wettelijke verplichting om IC zelf te evalueren. Wel: de externe auditor moet IC-werking begrijpen (ITAA-norm-kmo-controlenorm §97). Voor organisaties van openbaar belang + grote vennootschappen: jaarlijkse zelfbeoordeling via auditcomité.",
-      "waarom": "Stagiair moet weten dat IC-evaluatie typisch praktijk-gedreven is, niet wettekst-gedreven — behalve bij OOB.",
-      "grondslag": "ITAA-norm-kmo-controlenorm §97-§98",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Wie voert de evaluatie uit",
-      "wat": "Vier mogelijke uitvoerders: (1) interne audit indien aanwezig (meest objectief intern); (2) externe consultant; (3) externe accountant in adviesrol (mits onafhankelijkheidsregels gerespecteerd bij gelijktijdige wettelijke controle); (4) self-assessment door management (minst objectief, wel waardevol).",
-      "waarom": "Keuze-afhankelijk van ondernemingsgrootte, sector en kosten-baten.",
-      "grondslag": "IIA-praktijk + ITAA-deontologie",
-      "confidence": "inferred",
-      "_provenance": {
-        "inputs": []
       }
     }
-  ],
-  "berekeningsmethode": [
-    {
-      "naam": "IC-evaluatie-procedure (drie hoofdstappen)",
-      "stappen": [
-        {
-          "nr": 1,
-          "titel": "Bepaal evaluatiecriteria",
-          "wat": "Definieer waarop je IC zal beoordelen: opzet (is procedure goed ontworpen?), werking (wordt ze nageleefd?), effectiviteit (vermijdt ze risico's?), efficiëntie (kost ze niet meer dan ze oplevert?).",
-          "waarom": "Een IC-evaluatie zonder vooraf gestelde criteria wordt vaag — niet objectief beoordeelbaar.",
-          "hoe": "1. Lijst per proces 3-5 criteria op.\n2. Maak ze meetbaar (% naleving, # afwijkingen).\n3. Stel drempel voor 'voldoende'.\n4. Documenteer in evaluatieprotocol.",
-          "grondslag": "COSO + ITAA-norm-kmo-controlenorm §97"
-        },
-        {
-          "nr": 2,
-          "titel": "Verzamel evidence",
-          "wat": "Documentanalyse + interviews + walkthroughs + steekproeven (test of controls). Vergelijkbaar met externe-audit-aanpak.",
-          "waarom": "Een evaluatie zonder bewijs is een opinie — niet acceptabel.",
-          "hoe": "1. Selecteer steekproef transacties per proces.\n2. Volg elke transactie door alle controles.\n3. Documenteer afwijkingen.\n4. Interview procesverantwoordelijken over afwijkingen.",
-          "grondslag": "ITAA-norm-kmo-controlenorm §97-§98"
-        },
-        {
-          "nr": 3,
-          "titel": "Rapport + aanbevelingen",
-          "wat": "Schriftelijk verslag met bevindingen + impact + aanbevelingen + actieplan + termijn + eigenaar.",
-          "waarom": "Een evaluatie zonder follow-up is verspilling van tijd.",
-          "hoe": "1. Classificeer bevindingen (kritisch / belangrijk / verbetering).\n2. Bespreek conceptrapport met procesverantwoordelijken.\n3. Stel actieplan op met termijnen.\n4. Rapporteer aan directie / auditcomité.\n5. Volg op na 3-6 maanden.",
-          "grondslag": "IIA Standards"
-        }
-      ]
-    }
-  ],
-  "migrated_procedure_to_cluster_at": "2026-05-18"
+  },
+  "relaties": [],
+  "concept_type": "procedure"
 }

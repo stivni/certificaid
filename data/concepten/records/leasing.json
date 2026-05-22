@@ -1,276 +1,54 @@
 {
   "id": "leasing",
-  "naam": "Leasing (financieel en operationeel)",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.1.II.W",
-    "1.1.II.B"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.1.II.W",
-    "dekt_ook_anchors": [
-      "1.1.II.B"
-    ],
-    "reviewed_by": null,
-    "po11_touchup_2026_05_18": {
-      "uitgevoerd_op": "2026-05-18T21:55Z",
-      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
-      "changes": [
-        "naam_alternatief+",
-        "situering+",
-        "schema->1.6"
-      ]
-    },
-    "po11_overnight_gap_fix_2026_05_19": {
-      "uitgevoerd_op": "2026-05-19T00:00:00Z",
-      "run_id": "overnight-gap-fix-PO-1.1-2026-05-19",
-      "changes": [
-        "vergelijkingspaar huur: target ontbreekt, hernoemd naar -aspect; geen apart huur-record gemaakt (geen examenrelevantie als zelfstandig concept)"
-      ]
-    }
+  "naam": {
+    "primair": "Leasing"
   },
-  "definitie": {
-    "text": "Een overeenkomst waarbij een **leasinggever** het gebruik van een goed (auto, machine, gebouw) afstaat aan een **leasingnemer** tegen periodieke vergoeding. Twee soorten met fundamenteel verschillende boekhoudkundige verwerking: (1) **Financiële leasing** — de leasingvergoedingen dekken de **integrale wedersamenstelling van het kapitaal** dat de gever in het goed investeerde (plus rente). Economisch een aankoop met financiering → activering bij leasingnemer (rubriek 25 MVA in leasing). (2) **Operationele leasing** — vergoedingen dekken NIET de integrale wedersamenstelling. Economisch een huur → kost in resultaat bij leasingnemer.",
-    "confidence": "grounded",
-    "source": {
-      "type": "advies",
-      "short": "CBN 2015/04 — Leasing + KB WVV art. 3:43 (oud art. 95 KB W.Venn.)"
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
     },
-    "references": [
+    "changelog": [
       {
-        "type": "wet",
-        "short": "MAR rubrieken 25 + 172"
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
       },
       {
-        "type": "advies",
-        "short": "CBN 2021/05 — Behandeling kwijtschelding huur Covid-19"
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
       }
     ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-2015-04-leasing__sec_algemene-principes",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19__sec_boekhoudkundige-verwerking-van-de-tijdelijke-niet-betaling-v",
-          "sha256": null,
-          "version": "rag-v1"
+    "ankers": [
+      "1.1.II.W",
+      "1.5.V.C",
+      "1.5.IV.C"
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Leasing",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
+      }
     }
   },
-  "bouwstenen": [
-    {
-      "titel": "Criterium financiële vs operationele leasing",
-      "wat": "Een leasing is **financieel** wanneer de contractueel te storten termijnen (naast rente en kosten) de **integrale wedersamenstelling** dekken van het kapitaal dat de gever in het goed heeft geïnvesteerd. Voor roerende leasings met koopoptie: de optieprijs telt mee als ze maximaal **15 % vertegenwoordigt** van het geïnvesteerde kapitaal. Boven 15 %: operationeel.",
-      "waarom": "Het criterium volgt de economische werkelijkheid: als de gebruiker uiteindelijk alle waarde van het goed betaalt + zelfs gebruik kan uitkopen tegen een lage prijs, is het de facto een aankoop. Boekhouding moet die economische werkelijkheid weergeven (substance over form).",
-      "grondslag": "KB WVV art. 3:43 (oud KB art. 95)",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/04"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-04-leasing__sec_algemene-principes",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Transport Tongeren BV vrachtwagen € 85.000, koopoptie € 5.000 (5,9 %) → financieel. Alternatief: koopoptie € 17.500 (20,6 % > 15 %) → operationeel."
-        }
-      ]
-    },
-    {
-      "titel": "Financiële leasing — boekhoudkundige verwerking bij leasingnemer",
-      "wat": "(a) Aanvang: actief op rubriek 25 ('MVA in leasing') tegen aanschaffingswaarde (= geïnvesteerd kapitaal) + leasingschuld op rubriek 172 voor zelfde bedrag. (b) Per annuïteit: splitsing kapitaal (vermindering schuld) + rente (financiële kost). (c) Afschrijving van het geleasde actief volgens normale regels voor het soort goed (cfr. eigen MVA). (d) Bij optielichting: overboeking van rubriek 25 naar relevante MVA-rubriek.",
-      "waarom": "Het actief is economisch dat van de leasingnemer; symmetrische schuld toont financiering. Substance over form.",
-      "grondslag": "CBN 2015/04",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/04"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-04-leasing__sec_boekingen-tijdens-de-looptijd-van-het-leasingcontract",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Transport Tongeren BV jaar 1: jaarlijkse annuïteit € 18.500 (kapitaal € 17.000 + intrest € 1.500). Boeking: Debet 172 Leasingschulden € 17.000 + Debet 650 Intresten € 1.500 / Credit 550 Bank € 18.500. Tegelijk afschrijving vrachtwagen: € 85.000 / 5 jaar = € 17.000 → Debet 6302 / Credit 2529."
-        }
-      ]
-    },
-    {
-      "titel": "Operationele leasing — boekhoudkundige verwerking",
-      "wat": "Goed blijft op de balans van de leasinggever; de leasingnemer boekt de vergoedingen rechtstreeks als **kost** (rubriek 61 'Diensten en diverse goederen'). Geen activum op balans, geen schuld. Soortgelijk aan huur.",
-      "waarom": "Economisch is operationele leasing dichter bij huur dan bij aankoop; de leasingnemer gebruikt het goed maar 'bezit' het niet. Eenvoudige presentatie volstaat.",
-      "grondslag": "CBN 2015/04",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/04"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19__sec_boekhoudkundige-verwerking-van-de-tijdelijke-niet-betaling-v",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Meubelzaak Mertens BV huurt een bestelwagen via operationele leasing aan € 480/maand. Maandelijks: Debet 6105 Huur voertuigen € 480 / Credit 550 Bank € 480. Geen activum, geen schuld op balans."
-        }
-      ]
-    },
-    {
-      "titel": "Toelichting — verplichte vermeldingen",
-      "wat": "In de toelichting bij de jaarrekening: (a) staat MVA in leasing (aanschaffingswaarde, mutaties, afschrijvingen, nettoboekwaarde) per categorie, (b) staat schulden in leasing met uitsplitsing naar resterende looptijd, (c) rechten op aankoop, (d) samenvatting waarderingsregels, (e) algemene beschrijving leasingvoorwaarden.",
-      "grondslag": "CBN 2015/04",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/04"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-04-leasing__sec_informatieverschaffing-in-de-toelichting-bij-de-jaarrekening",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Transport Tongeren BV toelichting: 'Rubriek III.D Materiële vaste activa in leasing: aanschaffingswaarde € 85.000 (vrachtwagen), cumul. afschr. € 34.000 (na 2 jaar), nettowaarde € 51.000. Leasingschuld 172: oorspr. € 85.000, resterend € 51.000, waarvan € 17.000 binnen jaar en € 34.000 op meer dan jaar.'"
-        }
-      ]
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Tijdelijke niet-betaling (Covid-context)",
-      "betekenis": "Bij Covid-kwijtscheldingen: voor operationele leasing geen huur geboekt tijdens opschortingsperiode; voor financiële leasing hangt af van overeenkomst (vaak alleen hoofdsom opgeschort, intrest blijft lopen).",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2021/05"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19__sec_boekhoudkundige-verwerking-van-de-tijdelijke-niet-betaling-v",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "De **15 %-regel** voor de koopoptie geldt ALLEEN voor roerende goederen. Voor onroerende goederen (gebouwen) zijn andere criteria van toepassing. Examen: 'leasing van een gebouw met koopoptie 8 %' — niet automatisch financieel; bekijk volledige criteria.",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/04"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-04-leasing__sec_algemene-principes",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Belgisch boekhoudrecht hanteert een **andere financiële leasing-definitie dan IFRS 16**. Onder IFRS 16 worden bijna alle leasings geactiveerd; in België blijft de splitsing financieel/operationeel volgens KB WVV-criteria gelden.",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/04"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-04-leasing__sec_algemene-principes",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "huur-versus-leasing-aspect",
-      "verschil": "Operationele leasing en huur zijn boekhoudkundig vrijwel identiek (kost in RR, geen activum/schuld). Verschil ligt juridisch (huurovereenkomst vs leasecontract) en in mogelijke koopoptie.",
-      "trigger": "Examen: 'gewone huur kantoor € 1.500/maand' = kostenrekening 61. 'leasing met optie tot aankoop' = onderzoek of optie ≤ 15 % → financieel of operationeel.",
-      "_target_status": "aspect-zonder-eigen-record"
-    }
-  ],
-  "edges": [
-    {
-      "type": "vereist-kennis-van",
-      "target": "materiele-vaste-activa",
-      "redenering": "Financiële leasing activeert het actief onder rubriek 25 MVA: leasing als fenomeen is geen regime-specialisatie van MVA, maar veronderstelt MVA-kennis (v4 §9 correctie)."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "afschrijvingen",
-      "redenering": "Geleased actief wordt afgeschreven volgens normale MVA-regels."
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Transport Tongeren BV neemt een vrachtwagen (werkelijke waarde € 85.000) in financiële leasing voor 5 jaar; jaarlijkse vergoeding € 18.500 (kapitaal € 17.000 + intrest € 1.500) + koopoptie € 5.000 (5,9 % van € 85.000 < 15 %, dus financieel). Boekingen aanvang: Debet 252 MVA in leasing — meubilair/rollend € 85.000 / Credit 172 Leasingschulden € 85.000. Per jaar: Debet 172 € 17.000 + Debet 650 Intresten € 1.500 / Credit 550 Bank € 18.500; en afschrijving Debet 6302 € 17.000 / Credit 2529 € 17.000 (lineair 5 jaar)."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
-  "edges_cleanup_log": [
-    {
-      "pass": "concept-extractie-v4-1.5.V",
-      "reason": "vergelijkt-met -> sale-and-leaseback-ifrs verwijderd: sale-and-leaseback is een leasing-substructuur (al onder leasing-ifrs via onderdeel-van), geen verwarring-risico-paar (v4 §9)."
-    },
-    {
-      "pass": "concept-extractie-v4-1.5.V",
-      "reason": "Onjuiste specialisatie-van -> materiele-vaste-activa gemigreerd naar vereist-kennis-van: leasing is geen regime-/subtype-specialisatie van MVA."
-    }
-  ],
-  "naam_alternatief": "lease / leasing",
-  "situering": {
-    "text": "De Belgische GAAP-classificatie loopt fundamenteel anders dan IFRS — financieel/operationeel hangt af van wedersamenstellings-criterium, niet van risico-overdracht. Voor een stagiair-GA: cruciaal om beide regimes uit elkaar te houden en het juiste te kiezen volgens het toepasselijke kader (B-GAAP voor de meeste KMO's, IFRS bij genoteerd of consoliderende moeder).",
-    "confidence": "inferred-from-aggregation",
-    "_provenance": {
-      "tool": "po11-touchup-2026-05-18",
-      "uitgevoerd_op": "2026-05-18T21:55Z",
-      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
-    }
-  }
+  "relaties": [],
+  "concept_type": "kader"
 }

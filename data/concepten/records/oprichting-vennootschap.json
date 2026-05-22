@@ -1,0 +1,696 @@
+{
+  "id": "oprichting-vennootschap",
+  "naam": {
+    "primair": "Oprichting vennootschap",
+    "synoniemen": [
+      "vennootschapsoprichting",
+      "incorporatie"
+    ],
+    "vertaling": {
+      "fr": "Constitution de société",
+      "en": "Incorporation"
+    }
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "quick-pass-run1-20260522",
+      "extract_prompt": "prompts/multipass/run-1-draft.md",
+      "mcp_calls": 0,
+      "iteratie": "v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 33)"
+      }
+    ],
+    "ankers": [
+      "3.0.taak.1"
+    ]
+  },
+  "inhoud": {
+    "gebruikscontext": {
+      "trigger_start": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "De oprichtingsprocedure start op het moment dat de oprichters beslissen om een vennootschap op te richten en zich tot een notaris of (voor BV via onderhandse akte) tot een gecertificeerd accountant wenden voor de voorbereiding van de vereiste documenten."
+        }
+      ],
+      "trigger_einde": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "De procedure is afgerond wanneer de vennootschap is ingeschreven in de KBO en beschikt over een ondernemingsnummer, een btw-nummer (na btw-identificatie), en een bankrekeningnummer; en de eerste boekhoudkundige verrichtingen (inbreng, kapitaalopening) zijn geboekt."
+        }
+      ],
+      "voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Ondernemers die een nieuwe economische activiteit starten en aansprakelijkheidsbescherming, vermogensscheiding of specifieke fiscale voordelen willen."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Bestaande eenmanszaken of maatschappen die hun aansprakelijkheid willen beperken of de overdraagbaarheid van hun bedrijf willen verbeteren door inbrenging van bedrijfstak."
+        }
+      ],
+      "indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Meerdere aandeelhouders die hun inbreng formeel willen regelen via een aandeelhoudersovereenkomst naast de statuten."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Oprichters die inbrengen in natura doen (bv. onroerend goed, handelsfonds): vereist revisorsverslag en bijzonder verslag."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "keuze-rechtsvorm",
+        "naam": {
+          "primair": "Stap 1 — Keuze van de rechtsvorm"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Oprichters kiezen de meest geschikte rechtsvormvorm (BV, NV, CV, VOF, CommV, …) op basis van aansprakelijkheid, fiscaliteit, bestuursstructuur en financieringsbehoeften.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "financieel-plan",
+        "naam": {
+          "primair": "Stap 2 — Opmaak financieel plan"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "Het financieel plan is een verplicht document bij de oprichting van een BV, NV of CV dat de oprichters moeten opstellen en aan de notaris overhandigen vóór de oprichting. Het bevat een beschrijving van de geplande activiteiten, een pro forma openingsbalans, een geprojecteerde resultatenrekening en kasstroomoverzicht voor minimaal twee jaar, en een toelichting van de gehanteerde hypothesen."
+          },
+          "rationale": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "Het financieel plan dient als bewijs dat de vennootschap bij oprichting voldoende gefinancierd is voor haar geplande activiteiten. Ingeval van faillissement binnen drie jaar na oprichting kunnen oprichters persoonlijk aansprakelijk worden gesteld indien het plan kennelijk ontoereikend was — dit is de 'oprichtersaansprakelijkheid'."
+          }
+        }
+      },
+      {
+        "id": "inbreng-en-kapitaalstorting",
+        "naam": {
+          "primair": "Stap 3 — Inbreng en kapitaalstorting"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "inbreng-in-natura-verslag",
+            "naam": {
+              "primair": "Revisorsverslag inbreng in natura"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Wanneer oprichters vermogensbestanddelen anders dan geld inbrengen (onroerend goed, handelsfonds, aandelen), moet een bedrijfsrevisor de waarde van de inbreng schriftelijk bevestigen vóór de oprichtingsakte.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Oprichters storten het ingebrachte kapitaal of inbreng in natura vóór de oprichtingsakte. Bij geldelijke inbreng: minimum te volstorten bedrag op een geblokkeerde bankrekening. Bij inbreng in natura: revisoraal verslag vereist.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "oprichtingsakte-en-statuten",
+        "naam": {
+          "primair": "Stap 4 — Oprichtingsakte en statuten"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "De oprichtingsakte is de authentieke (of onderhandse bij BV-oprichting zonder notaris) akte die de statuten van de vennootschap bevat en de oprichters juridisch verbindt. De notaris verlijdt de akte en controleert de wettigheid van het financieel plan en de inbreng."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "De statuten bepalen minstens: naam, zetel, doel, duur, kapitaal of inbreng, aandelen/deelbewijzen, bestuur en beslissingsquorums, en winstverdeling."
+          }
+        }
+      },
+      {
+        "id": "neerlegging-en-bekendmaking",
+        "naam": {
+          "primair": "Stap 5 — Neerlegging en bekendmaking"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De oprichtingsakte wordt neergelegd bij de griffie van de bevoegde ondernemingsrechtbank. De notaris (of de vennootschap zelf bij onderhandse akte) bezorgt een uittreksel voor bekendmaking in het Belgisch Staatsblad. De vennootschap verkrijgt rechtspersoonlijkheid vanaf de datum van neerlegging.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kbo-inschrijving-en-btw",
+        "naam": {
+          "primair": "Stap 6 — KBO-inschrijving en btw-identificatie"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Na de neerlegging wordt de vennootschap ingeschreven in de Kruispuntbank van Ondernemingen (KBO) en ontvangt een ondernemingsnummer. Vervolgens wordt zij geïdentificeerd als btw-plichtige (bij Centrepoint of via aangifte) en als werkgever bij de RSZ (indien personeel).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "eerste-boekhoudkundige-inrichting",
+        "naam": {
+          "primair": "Stap 7 — Eerste boekhoudkundige inrichting"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "openingsbalans-boeking",
+            "naam": {
+              "primair": "Boeking openingsbalans bij geldelijke inbreng"
+            },
+            "inhoud_type": "stap",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Debet: 550 Kredietinstellingen (of 550 Geblokkeerde rekening) / Credit: 100 Geplaatst kapitaal. Na vrijgave van de geblokkeerde rekening: Debet 550 Bankrekening / Credit 550 Geblokkeerde rekening.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "waarderingsregels-inrichten",
+            "naam": {
+              "primair": "Vastlegging waarderingsregels"
+            },
+            "inhoud_type": "stap",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "De Raad van bestuur stelt de waarderingsregels vast en vermeldt deze in de toelichting van de eerste jaarrekening. De accountant adviseert over grondslagen die passen bij de sector en activiteit.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Na oprichting richt de accountant de boekhouding in: keuze van rekeningenstelsel (MAR), openingsbalans verwerken, inbrengboekingen verwerken, en vastleggen van de waarderingsregels in het boekhoudkundig beleid.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aansprakelijkheid-oprichters",
+        "naam": {
+          "primair": "Oprichtersaansprakelijkheid"
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "Oprichters van een BV, NV of CV kunnen persoonlijk en hoofdelijk aansprakelijk worden gesteld voor de schulden van de vennootschap die zijn ontstaan in de eerste drie jaar na oprichting, indien de vennootschap failliet gaat en het financieel plan kennelijk ontoereikend was voor de normale bedrijfsuitoefening gedurende minimaal twee jaar."
+          },
+          "rationale": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "De oprichtersaansprakelijkheid prikkelt oprichters (en hun adviseurs) om een realistisch financieel plan op te stellen. Een accountant die het financieel plan opstelt of adviseert loopt zelf ook deontologisch en aansprakelijkheidsrisico als het plan bewust of nalatig te optimistisch is."
+          }
+        }
+      }
+    ],
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De oprichting van een vennootschap is de juridische procedure waarbij één of meer oprichters een nieuwe rechtspersoon tot stand brengen door het sluiten van een oprichtingsakte, gevolgd door bekendmaking en inschrijving in de Kruispuntbank van Ondernemingen. Vanaf de datum van neerlegging van de oprichtingsakte bij de griffie van de ondernemingsrechtbank heeft de vennootschap rechtspersoonlijkheid."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Bij oprichting brengen de oprichters kapitaal of andere vermogensbestanddelen in de vennootschap in, verkrijgen zij aandelen of deelbewijzen als tegenprestatie, en scheidt het vennootschapsvermogen zich juridisch af van het privévermogen van de aandeelhouders."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De oprichtingsprocedure beschermt toekomstige schuldeisers: de wetgever eist een financieel plan, kapitaalstorting en bekendmaking zodat derden de solvabiliteit van de nieuwe entiteit kunnen beoordelen. De notariële akte (bij NV en BV met kapitaal) borgt authenticiteit en bewijskracht. Accountants worden bij oprichting geraadpleegd voor het financieel plan (verplicht inhoudsvereiste bij BV/NV/CV), de waardering van inbreng in natura (revisoraal verslag), de keuze van de rechtsvorm (fiscaal en bestuursmatig), en de eerste boekhoudkundige inrichting."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrechtelijk-kader-wvv",
+      "toelichting": "Oprichting is geregeld in het Wetboek van Vennootschappen en Verenigingen (WVV).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "rechtsvormen-belgie",
+      "toelichting": "De keuze van een rechtsvorm is een verplichte stap vóór oprichting.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "opstart-btw-formaliteiten",
+      "toelichting": "De oprichting van een vennootschap triggert de btw-identificatieprocedure.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "openbaarmaking-jaarrekening",
+      "toelichting": "Elke vennootschap opent een boekjaar na oprichting en moet na het eerste boekjaar haar jaarrekening neerleggen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "keuze-rechtsvorm-fiscaal",
+      "toelichting": "De fiscale consequenties van de gekozen rechtsvorm bepalen mede welke oprichtingsvorm het meest geschikt is.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "omzetting-vennootschap",
+      "toelichting": "Omzetting wijzigt de rechtsvorm zonder nieuwe oprichting; oprichting creëert een volledig nieuwe rechtspersoon.",
+      "gelijkenissen": [
+        "Beide procedures worden notarieel verleden",
+        "Beide vereisen een financieel plan of bijzonder verslag"
+      ],
+      "verschillen": [
+        "Bij oprichting ontstaat een nieuwe rechtspersoon; bij omzetting blijft dezelfde rechtspersoon bestaan onder nieuwe vorm",
+        "Bij oprichting is er geen overgang van activa/passiva — die worden ingebracht; bij omzetting gaan alle rechten en plichten automatisch over"
+      ],
+      "verwarring_risico": "Stagiairs verwarren soms 'omzetting' met 'heroprichting' — omzetting is fiscaal en juridisch neutrale continuïteit, oprichting niet.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-van-bedrijfstak-of-algemeenheid",
+      "toelichting": "Inbreng van bedrijfstak wordt soms gecombineerd met oprichting van een nieuwe vennootschap.",
+      "gelijkenissen": [
+        "Beide vereisen revisoraal verslag bij inbreng in natura",
+        "Beide impliceren vermogensoverdracht aan een vennootschap"
+      ],
+      "verschillen": [
+        "Inbreng van bedrijfstak is een afzonderlijke verrichting die ook kan plaatsvinden in een bestaande vennootschap",
+        "Bij pure geldoprichting is geen revisoraal verslag vereist"
+      ],
+      "verwarring_risico": "Inbreng van bedrijfstak bij oprichting combineert twee procedures — elk met eigen formaliteiten.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "registratieformaliteit-akten",
+      "toelichting": "De oprichtingsakte is onderworpen aan registratieformaliteiten (registratierecht of vrijstelling afhankelijk van rechtsvorm en inbreng).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aansprakelijkheid-oprichters-bestuurders",
+      "toelichting": "Het risico op oprichtersaansprakelijkheid beïnvloedt de inhoud en zorgvuldigheid van het financieel plan.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    }
+  ],
+  "concept_type": "procedure"
+}

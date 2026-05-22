@@ -1,377 +1,53 @@
 {
   "id": "wijziging-consolidatiekring",
-  "naam": "Wijziging van de consolidatiekring",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.4.I.G",
-    "1.4.II.D",
-    "1.4.taak.1"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.4.I.G",
-    "dekt_ook_anchors": [
-      "1.4.II.D",
-      "1.4.taak.1"
-    ],
-    "reviewed_by": null,
-    "schema_1_4_migration": {
-      "uitgevoerd_op": "2026-05-16T00:11Z",
-      "tool": "migrate_schema_1_4.py",
-      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
-      "pending_mens_review": [
-        "stagiair-toon-rewrite (regel 6)",
-        "cast-namen in voorbeelden (regel 7)",
-        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
-        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
-        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
-      ]
-    },
-    "jargon_pass3": {
-      "uitgevoerd_op": "2026-05-16T00:17Z",
-      "tool": "jargon_pass3.py",
-      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
-      "aantal_substituties": 1
-    },
-    "deep_rewrite_2026_05_16": {
-      "door": "deep-rewrite-batch-2-concepten",
-      "op": "2026-05-16T04:15Z",
-      "velden_gewijzigd": [
-        "definitie.text (stagiair-toon)",
-        "voorbeeld_inline op record-niveau (cast Aurelia)",
-        "bouwstenen[*].wat (stagiair-toon) + waarom + voorbeeld_inline",
-        "in_praktijk[*].betekenis (stagiair-toon)",
-        "valkuilen[*].text (stagiair-toon)",
-        "edges: dubbel contrasteert-met → bevat + specialisatie-van"
-      ]
-    },
-    "po14_touchup_2026_05_18": {
-      "uitgevoerd_op": "2026-05-18T21:19Z",
-      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
-      "changes": [
-        "schema 1.5→1.6",
-        "deprecated edges -3",
-        "naam_alternatief",
-        "situering+"
-      ]
-    }
+  "naam": {
+    "primair": "Wijziging consolidatiekring"
   },
-  "definitie": {
-    "text": "Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren. Vijf typische gevallen: (1) opname van een nieuw verworven dochter (eerste consolidatie); (2) wegvallen van een verkochte of geliquideerde dochter; (3) verschuiving van kwalificatie (van geassocieerde naar dochter via step-acquisition, of omgekeerd); (4) wijziging van het type controle (van gezamenlijk naar exclusief of omgekeerd); (5) opname van een voorheen uitgesloten dochter. Elk geval vraagt specifieke boekhoudkundige verwerkingen: berekening van een (eventueel nieuw) consolidatieverschil, herbeoordeling van waarderingsregels en aanpassing van de vergelijkende cijfers in de toelichting.",
-    "confidence": "inferred-from-aggregation",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV art. 3:129, 3:132, 3:152"
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
     },
-    "references": [
+    "changelog": [
       {
-        "type": "kb",
-        "short": "KB WVV art. 3:129 (datum bepaling EV bij eerste opname)"
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
       },
       {
-        "type": "kb",
-        "short": "KB WVV art. 3:132 (gedeeltelijke realisatie aandelen)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:152 (vergelijkbaarheid bedragen vorig boekjaar)"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2013/3 — Step acquisitions (update)"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2017/15 — Common control transactions"
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
       }
     ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "KB-WVV-2019__art_3_101",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_104",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    },
-    "_corrected_from": [
-      {
-        "field": "text",
-        "from": "Elke aanpassing aan de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren: opname van een nieuw verworven dochter (eerste consolidatie), wegname van een vervreemde of geliquideerde dochter (de- of buitenkringstelling), verschuiving van kwalificatie (van geassocieerde naar dochter via step acquisition, of omgekeerd), wijziging van de mate van controle (van gezamenlijk naar exclusief of omgekeerd), en kringintegratie van voorheen uitgesloten dochters. Wijzigingen vereisen specifieke boekhoudkundige verwerkingen: berekening van een (al dan niet nieuw) consolidatieverschil, herbeoordeling van waarderingsregels, en aanpassing van de vergelijkende informatie in de toelichting.",
-        "reason": "Stagiair-toon: genummerde lijst i.p.v. één lange zin (regel 6)."
-      }
+    "ankers": [
+      "1.4.I.G",
+      "1.4.II.D"
     ]
   },
-  "bouwstenen": [
-    {
-      "titel": "Eerste consolidatie van een nieuwe dochter",
-      "wat": "Bij een nieuwe dochter bepaal je het eigen vermogen op datum van aankoop (of een nabijzijnde datum — KB WVV art. 3:129); je berekent en boekt het consolidatieverschil; je neemt de activa en schulden voor 100 % op (integraal) of pro-rata (evenredig).",
-      "waarom": "Een nieuwe dochter brengt nieuwe balansen en resultaten in de groep — die moeten op een vast moment (de aankoopdatum) geijkt worden, zodat latere wijzigingen van het eigen vermogen niet meer in het consolidatieverschil belanden.",
-      "grondslag": "KB WVV art. 3:127 — 3:130",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:127 — 3:130"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_101",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": {
-        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
-        "oude_wat": "Vaststelling van het eigen vermogen van de dochter op datum van aankoop (of nabijzijnde datum, KB WVV art. 3:129); berekening en boeking van het consolidatieverschil; overname van activa/passiva voor 100 % bij integrale consolidatie of pro-rata bij evenredige consolidatie.",
-        "reden": "Stagiair-toon + waarom + cast-voorbeeld (regels 6 + 7 + 11)."
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Aurelia koopt op 1 januari 20X1 100 % van Bouwwerf Beerse BV voor 500 (EV Bouwwerf op aankoopdatum = 450) → consolidatieverschil 50 → eerste consolidatie als nieuwe integrale dochter."
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Wijziging consolidatiekring",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "titel": "Step acquisition — opwaartse wijziging",
-      "wat": "Verhoging van een belang in een geassocieerde of dochter, met drie mogelijke kantelpunten: (a) van 'geen invloed' → invloed van betekenis (start vermogensmutatie); (b) van invloed van betekenis → controle (van vermogensmutatie naar integrale consolidatie); (c) verhoging binnen dezelfde kwalificatie (geen technique-switch, wel nieuw consolidatieverschil op het bijkomend belang).",
-      "waarom": "Elk kantelpunt vereist een aparte boekhoudkundige behandeling — anders glijdt het ene regime in het andere zonder zichtbaar moment van overgang, en zou de jaarrekening de werkelijke verandering verbergen.",
-      "grondslag": "CBN 2013/3",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2013/3"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": {
-        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
-        "oude_wat": "Verhoging van een belang in een geassocieerde of dochter, met mogelijke kantelpunten: (a) van 'geen invloed' naar invloed van betekenis (start vermogensmutatie); (b) van invloed van betekenis naar controle (overgang van vermogensmutatie naar integrale consolidatie); (c) verhoging binnen dezelfde kwalificatie (geen wijziging van techniek, wel nieuw consolidatieverschil op het bijkomend belang).",
-        "reden": "Stagiair-toon + waarom + cast (regels 6 + 7 + 11)."
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie). Antwerpse koopt 35 % bij → totaal 60 % → kantelpunt naar exclusieve controle → vanaf nu integrale consolidatie."
-        }
-      ]
-    },
-    {
-      "titel": "Vervreemding of vermindering van belang",
-      "wat": "Bij gehele of gedeeltelijke verkoop van aandelen van een dochter in de consolidatiekring, boek je het overblijvende consolidatieverschil af in verhouding tot de verkochte aandelen (KB WVV art. 3:132).",
-      "waarom": "Het consolidatieverschil hoort bij de aangehouden aandelen. Verkopen die aandelen, dan moet ook het bijbehorende consolidatieverschil pro-rata verdwijnen — anders houd je goodwill aan voor een belang dat je niet meer hebt.",
-      "grondslag": "KB WVV art. 3:132",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:132"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_104",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": {
-        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
-        "oude_wat": "Bij gehele of gedeeltelijke realisatie van de aandelen van een in de consolidatie opgenomen dochter wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132).",
-        "reden": "Stagiair-toon + waarom + cast-voorbeeld (regels 6 + 7 + 11)."
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Aurelia heeft een resterend consolidatieverschil van 60 op haar 80 %-belang in Brugse Brouwerij BV. Aurelia verkoopt 40 % aan een derde → 60 × (40 %/80 %) = 30 wordt afgeboekt."
-        }
-      ]
-    },
-    {
-      "titel": "Common control transactions",
-      "wat": "Bij transacties onder gemeenschappelijke leiding (bv. een dochter wordt herschikt binnen dezelfde groep) gelden bijzondere regels: omdat de economische controle uiteindelijk niet verandert, mag in beginsel geen nieuwe goodwill ontstaan en zet je de bestaande historische cijfers verder (CBN 2017/15).",
-      "waarom": "De economische werkelijkheid is dat de groep met zichzelf transacteert; opnieuw goodwill creëren zou een fictieve waardetoename suggereren die er economisch niet is.",
-      "grondslag": "CBN 2017/15",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2017/15"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": {
-        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
-        "oude_wat": "Bij transacties onder gemeenschappelijke leiding (bv. overdracht van een dochter binnen dezelfde groep) gelden bijzondere regels: omdat de uiteindelijke economische controle ongewijzigd blijft, mag in beginsel geen nieuwe goodwill worden gegenereerd en blijven de historische cijfers behouden (CBN 2017/15).",
-        "reden": "Stagiair-toon + waarom + cast-voorbeeld (regels 6 + 7 + 11)."
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Binnen de groep Aurelia: Aurelia verkoopt haar 100 %-belang in Bouwwerf Beerse BV aan een zustervennootschap. Beide vennootschappen blijven onder dezelfde uiteindelijke controle → geen nieuw consolidatieverschil; historische cijfers van Bouwwerf Beerse worden voortgezet."
-        }
-      ]
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Vergelijkbaarheid van de cijfers",
-      "betekenis": "Wijzigingen in de consolidatiekring tasten de vergelijkbaarheid tussen het lopende en het vorige boekjaar aan. Zijn de bedragen van het vorige boekjaar niet meer vergelijkbaar, dan moet de toelichting voldoende informatie geven om alsnog een zinvolle vergelijking te maken (KB WVV art. 3:152).",
-      "herkenningspunt": "In een examen-toelichting staat vaak expliciet 'de cijfers van het vorige boekjaar zijn aangepast ingevolge de wijziging van de consolidatiekring'.",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:152"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_122",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "aspect": "Datum bepaling EV bij eerste consolidatie",
-      "betekenis": "Regel: het eigen vermogen van de dochter bepaal je op de aankoopdatum (KB WVV art. 3:129). Bij een eerste geconsolideerde jaarrekening of bij eerste opname van een vroeger niet-geconsolideerde dochter mag je de aanvangsdatum van het boekjaar gebruiken (in plaats van de exacte aankoopdatum).",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:129"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_101",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
       }
     }
-  ],
-  "vergelijkingsparen": [],
-  "valkuilen": [
-    {
-      "text": "Een wijziging van de consolidatiekring vraagt ofwel een retro-actieve aanpassing van de vergelijkende cijfers, ofwel een toelichting bij niet-vergelijkbaarheid (KB WVV art. 3:152). Een examenvraag kan dit toetsen door te vragen hoe de cijfers van het vorige boekjaar moeten worden aangepast na een acquisitie of een vervreemding.",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:152"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_122",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Bij een common control-transactie (herstructurering binnen het concern) ontstaat geen nieuw consolidatieverschil — de eerder bestaande historische cijfers worden voortgezet (CBN 2017/15). Belangrijke uitzondering op de regel dat eerste consolidatie altijd een nieuw consolidatieverschil triggert.",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2017/15"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "getriggerd-door",
-      "target": "consolidatieverschil",
-      "redenering": "Het consolidatieverschil is een typisch boekhoudkundig gevolg van een wijziging in de consolidatiekring — in het bijzonder bij eerste consolidatie of step-acquisition.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'getriggerd-door'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "consolidatiekring",
-      "redenering": "Een wijziging veronderstelt een gedefinieerde consolidatiekring — zonder dat begrip kan je geen wijziging begrijpen of boeken.",
-      "confidence": "inferred"
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Aurelia Holding NV consolideerde in 20X0 enkel Brugse Brouwerij BV. In 20X1 koopt ze 100 % van Bouwwerf Beerse BV → eerste consolidatie van Bouwwerf Beerse → wijziging consolidatiekring → toelichting bevat vergelijkende cijfers waarin Bouwwerf Beerse niet meedeed in 20X0."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
-  "naam_alternatief": "change in consolidation scope",
-  "situering": {
-    "text": "Een verzamelthema in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): elke wijziging in de samenstelling van de groep tussen twee boekjaren — verwerving, vervreemding, status-wissel, uittreding. Doel: tonen welke verschillen tussen openingsbalans en vergelijkende cijfers structureel zijn en welke louter van wijziging-in-kring komen.",
-    "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV Boek 3, Titel 2"
-    },
-    "_provenance": {
-      "tool": "po14-touchup-2026-05-18",
-      "uitgevoerd_op": "2026-05-18T21:19Z",
-      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
-    }
-  }
+  },
+  "relaties": [],
+  "concept_type": "verrichting"
 }

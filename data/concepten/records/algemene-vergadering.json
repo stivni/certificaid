@@ -1,198 +1,962 @@
 {
   "id": "algemene-vergadering",
-  "naam": "Algemene vergadering",
-  "node_type": "cluster",
-  "naam_alternatief": [
-    "AV",
-    "aandeelhoudersvergadering"
-  ],
-  "situering": {
-    "text": "De algemene vergadering is het orgaan van de aandeelhouders dat beslist over fundamentele aangelegenheden van de vennootschap die buiten het dagdagelijkse bestuur vallen: jaarrekening, kwijting, statutenwijzigingen, kapitaalbewegingen, ontbinding en benoeming. Onder het WVV is haar bevoegdheid wettelijk afgebakend (de zogenaamde voorbehouden materies); alle overige beslissingen behoren residuair tot het bestuursorgaan. De spelregels rond bijeenroeping, agenda, deelname, stemming en notulering zijn strikt geregeld om minderheidsaandeelhouders een redelijke positie te garanderen.",
-    "confidence": "grounded",
-    "source": {
-      "type": "wet",
-      "short": "WVV — Boeken 5, 6, 7 (Hoofdstuk 2 \"Algemene vergadering van aandeelhouders\")"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "WVV__art_5_64",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "WVV__art_6_71",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "WVV__art_7_115",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
+  "naam": {
+    "primair": "Algemene vergadering",
+    "afkorting": "AV",
+    "vertaling": {
+      "fr": "Assemblée générale",
+      "en": "General meeting"
     }
   },
-  "definitie": {
-    "text": "De algemene vergadering is het collegiaal orgaan waarin de aandeelhouders (of vennoten bij een CV) hun door de wet en de statuten voorbehouden bevoegdheden uitoefenen. Zij komt minstens één keer per jaar bijeen (de gewone algemene vergadering of jaarvergadering) en kan daarnaast als bijzondere of buitengewone vergadering worden samengeroepen. Beslissingen worden vastgelegd in notulen en kennen hun eigen aanwezigheids- en meerderheidsregels afhankelijk van het soort besluit en de vennootschapsvorm.",
-    "confidence": "grounded",
-    "source": {
-      "type": "wet",
-      "short": "WVV art. 5:80–5:102 (BV), 6:69–6:87 (CV), 7:123–7:155 (NV)"
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "quick-pass-run1-20260522",
+      "extract_prompt": "prompts/multipass/run-1-draft.md",
+      "mcp_calls": 0,
+      "iteratie": "v1"
     },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "WVV__art_5_64",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "WVV__art_6_71",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "WVV__art_7_115",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
-  "bouwstenen": [
-    {
-      "titel": "Voorbehouden bevoegdheden",
-      "wat": "Het WVV reserveert bepaalde materies exclusief voor de algemene vergadering: statutenwijziging, kapitaalverhoging en -vermindering (NV), wijziging van het voorwerp of de doelen, benoeming en ontslag van bestuurders, goedkeuring van de jaarrekening, kwijting, ontbinding en vereffening, en de wijziging van soorten aandelen. Alle andere bevoegdheden behoren residuair toe aan het bestuursorgaan.",
-      "waarom": "Deze afbakening beschermt aandeelhouders tegen bestuursingrepen in hun vermogen (kapitaal, soorten aandelen) en in hun statutaire afspraken.",
-      "grondslag": "WVV art. 5:73 (BV), 6:61 (CV), 7:93 (NV) — residuaire bestuursbevoegdheid; tegenhanger in de AV-hoofdstukken",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_5_64",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "WVV__art_6_51",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Drie soorten algemene vergadering",
-      "wat": "De gewone algemene vergadering (jaarvergadering) komt jaarlijks samen op de in de statuten bepaalde dag voor de jaarrekening en kwijting. Een bijzondere algemene vergadering wordt buiten dat moment samengeroepen voor andere materies binnen haar gewone bevoegdheid. Een buitengewone algemene vergadering vereist een notariële akte en is nodig voor statutenwijzigingen, kapitaalbewegingen en de meeste fundamentele beslissingen.",
-      "waarom": "Het onderscheid bepaalt vorm (notarieel of niet), publicatieverplichtingen en quorum-/meerderheidsregels.",
-      "grondslag": "WVV art. 5:96 (BV gewone), 5:100 (BV buitengewone), 6:81, 6:85 (CV), 7:147, 7:153 (NV)",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_5_71",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "WVV__art_5_77",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "WVV__art_6_68",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "WVV__art_7_99",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Eénhoofdige vennootschap",
-      "wat": "Telt de vennootschap slechts één aandeelhouder, dan oefent die persoon zelf de bevoegdheden van de algemene vergadering uit. Hij kan die bevoegdheden niet overdragen aan iemand anders, en zijn beslissingen worden vastgelegd in een register op de zetel.",
-      "waarom": "Vermijdt dat de formele AV-procedures een dode letter worden bij solo-vennootschappen, terwijl de schriftelijke vastlegging traceerbaarheid en rechtszekerheid waarborgt.",
-      "grondslag": "WVV art. 5:82 (BV), 7:125 (NV), 5:94 (BV-register), 7:141 §2 (NV-register)",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_5_67",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Notulen en publicatie",
-      "wat": "Van elke algemene vergadering wordt een aanwezigheidslijst bijgehouden en worden notulen opgemaakt en ondertekend door het bureau en de aandeelhouders die erom verzoeken. Voor genoteerde NV's vermelden de notulen per besluit het aantal voor-, tegen- en onthoudingsstemmen, en wordt deze informatie binnen 15 dagen op de vennootschapswebsite gepubliceerd. Beslissingen van een buitengewone AV (statutenwijziging, kapitaalwijziging) worden in een notariële akte vastgelegd en neergelegd op de ondernemingsrechtbank.",
-      "waarom": "Notulen zijn het bewijsstuk van de genomen beslissingen; transparantie over stemverhoudingen versterkt het toezicht van minderheid en markt.",
-      "grondslag": "WVV art. 5:90, 5:93 (BV), 6:76, 6:79 (CV), 7:138, 7:141 (NV)",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_5_71",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "WVV__art_5_77",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "in_praktijk": [
-    "De jaarvergadering is voor stagiairs het meest concrete contact met de AV: jaarrekening + kwijting + bestemming van het resultaat in één zitting.",
-    "Een buitengewone AV vergt altijd een notaris — boek tijdig in, want kortere oproepingstermijnen halen lukt zelden zonder gebreken.",
-    "Bij een éénpersoonsvennootschap blijven schriftelijke beslissingen verplicht, ook al lijkt het overbodig — zonder register is er geen bewijs voor de bank, fiscus of overnemer."
-  ],
-  "edges": [
-    {
-      "type": "vergelijkt-met",
-      "target": "bestuursorgaan",
-      "facets": {
-        "aspect": "Bevoegdheidsverdeling vennootschap"
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
       },
-      "target_status": "resolved"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "bevoegdheid-bestuursorgaan",
-      "target_status": "resolved"
-    },
-    {
-      "type": "verwijst-naar",
-      "target": "algemene-vergadering-toezichtsfunctie",
-      "redenering": "PO 1.3-perspectief: AV als toezichtsorgaan op de jaarrekening — zelfde orgaan, andere lens.",
-      "target_status": "resolved"
-    }
-  ],
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "3.0.III",
-    "3.0.III.A",
-    "3.0.III.B"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-20T12:34:12Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "3.0.III",
-    "linked_anchors": [
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 31)"
+      }
+    ],
+    "ankers": [
       "3.0.III",
       "3.0.III.A",
-      "3.0.III.B"
+      "3.0.III.B",
+      "3.0.III.C",
+      "3.0.VIII.D"
+    ]
+  },
+  "inhoud": {
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "vennootschapsrechtelijk-kader-wvv",
+        "rechtsvormen-belgie"
+      ],
+      "naast_relevant": [
+        "bestuur-vennootschap",
+        "commissaris-mandaat-en-statuut",
+        "jaarrekening",
+        "kapitaalbescherming-en-winstverdeling"
+      ],
+      "volgkennis": [
+        "resultaatverwerking",
+        "alarmbel",
+        "bijzondere-verslagen-vennootschapsverrichtingen"
+      ]
+    },
+    "elementen": [
+      {
+        "id": "soorten-vergadering",
+        "naam": {
+          "primair": "Soorten algemene vergadering"
+        },
+        "inhoud_type": "begrip",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "gewone-av",
+            "naam": {
+              "primair": "Gewone algemene vergadering (jaarvergadering)"
+            },
+            "inhoud_type": "begrip",
+            "kern": {
+              "definitie": {
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                },
+                "tekst": "De gewone (jaarlijkse) algemene vergadering wordt verplicht gehouden binnen zes maanden na afsluiting van het boekjaar en keurt de jaarrekening goed, beslist over de kwijting van bestuurders en commissarissen, en stelt de winstverdeling vast."
+              }
+            }
+          },
+          {
+            "id": "buitengewone-av",
+            "naam": {
+              "primair": "Buitengewone algemene vergadering"
+            },
+            "inhoud_type": "begrip",
+            "kern": {
+              "definitie": {
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                },
+                "tekst": "Een buitengewone algemene vergadering wordt belegd voor elke statutenwijziging (naam, zetel, doel, kapitaal, rechtsvorm) en vereist in principe authentieke akte voor NV/BV."
+              }
+            }
+          },
+          {
+            "id": "bijzondere-av",
+            "naam": {
+              "primair": "Bijzondere algemene vergadering"
+            },
+            "inhoud_type": "begrip",
+            "kern": {
+              "definitie": {
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                },
+                "tekst": "Een bijzondere algemene vergadering behandelt specifieke categorieën van aandelen of vennoten (bv. stemrechtloze aandelen) wanneer een beslissing hun rechten specifiek raakt."
+              }
+            }
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Het WVV onderscheidt drie soorten: de gewone (jaarvergadering), de buitengewone en de bijzondere algemene vergadering.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "exclusieve-bevoegdheden",
+        "naam": {
+          "primair": "Exclusieve bevoegdheden"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "bevoegdheid-jaarrekening",
+            "naam": {
+              "primair": "Goedkeuring jaarrekening"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "De goedkeuring van de jaarrekening en de vaststelling van de resultaatsbestemming zijn voorbehouden aan de gewone algemene vergadering.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "bevoegdheid-statutenwijziging",
+            "naam": {
+              "primair": "Statutenwijziging"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Elke wijziging van de statuten vereist een buitengewone algemene vergadering; voor NV en BV is een notariële akte verplicht.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "bevoegdheid-benoeming",
+            "naam": {
+              "primair": "Benoeming en ontslag bestuurders en commissarissen"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "De benoeming, herbenoeming en het ontslag van bestuurders (en eventueel commissarissen) zijn exclusief voorbehouden aan de algemene vergadering, tenzij de statuten een afwijking toestaan voor de eerste bestuurders bij oprichting.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "bevoegdheid-kwijting",
+            "naam": {
+              "primair": "Kwijting aan bestuurders en commissarissen"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "De jaarlijkse kwijting ontslaat bestuurders en commissarissen van aansprakelijkheid voor het voorbije boekjaar voor feiten die aan de vergadering bekend waren; zij heeft geen effect voor verzwegen of onbekende feiten.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "bevoegdheid-ontbinding",
+            "naam": {
+              "primair": "Vrijwillige ontbinding en vereffening"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "De vrijwillige ontbinding van de vennootschap is een exclusieve bevoegdheid van de algemene vergadering en vereist de procedure van een buitengewone algemene vergadering.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Het WVV reserveert een aantal beslissingen voor de algemene vergadering die niet aan het bestuursorgaan kunnen worden gedelegeerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "quorum-en-meerderheden",
+        "naam": {
+          "primair": "Quorum en meerderheidsvereisten"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "quorum-gewone",
+            "naam": {
+              "primair": "Gewone vergadering — geen quorum"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Voor de gewone algemene vergadering geldt in principe geen aanwezigheidsquorum; beslissingen worden genomen bij gewone meerderheid van de uitgebrachte stemmen.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "quorum-buitengewone",
+            "naam": {
+              "primair": "Buitengewone vergadering — quorum en bijzondere meerderheid"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Voor een buitengewone algemene vergadering geldt een aanwezigheidsquorum van minstens de helft van het kapitaal (of de aandelen) en een bijzondere meerderheid van drie kwart van de uitgebrachte stemmen; bij niet-bereiken van het quorum kan een tweede vergadering worden bijeengeroepen zonder quorumvereiste maar met behoud van de drie-kwart-meerderheid.",
+                "grondslag": {
+                  "confidence": "betwijfeld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "stemrecht",
+            "naam": {
+              "primair": "Stemrecht en stemloze aandelen"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Elk aandeel geeft in beginsel recht op één stem (one share, one vote), maar het WVV laat voor de BV toe om meervoudig stemrecht of stemrechtloze aandelen te creëren via de statuten.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Quorum en meerderheidsvereisten",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bijeenroeping",
+        "naam": {
+          "primair": "Bijeenroeping"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "bevoegdheid-bijeenroeping",
+            "naam": {
+              "primair": "Bevoegdheid tot bijeenroeping"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Het bestuursorgaan, de commissaris of de aandeelhouders die minstens één tiende van de aandelen bezitten kunnen de algemene vergadering bijeenroepen.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "oproepingstermijn",
+            "naam": {
+              "primair": "Oproepingstermijn"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "De oproeping moet worden verstuurd minstens vijftien dagen vóór de vergadering (voor NV en grote BV via aangetekend schrijven of elektronisch) en moet de agenda vermelden.",
+                "grondslag": {
+                  "confidence": "betwijfeld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "agendapunt-aandeelhouders",
+            "naam": {
+              "primair": "Recht om agendapunten toe te voegen"
+            },
+            "inhoud_type": "regel",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Aandeelhouders die samen minstens drie procent van de aandelen bezitten, kunnen vragen om agendapunten toe te voegen of voorstellen van besluit in te dienen, mits zij dit tijdig (minstens 22 dagen voor de vergadering) doen.",
+                "grondslag": {
+                  "confidence": "betwijfeld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Bijeenroeping",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "notulen-en-publicatie",
+        "naam": {
+          "primair": "Notulen en publicatieverplichtingen"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Van elke vergadering worden notulen opgemaakt die worden bewaard in een register. Bepaalde beslissingen (statutenwijziging, ontbinding) moeten worden neergelegd bij de griffie van de ondernemingsrechtbank en gepubliceerd in het Belgisch Staatsblad.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "alarmbel-procedure-av",
+        "naam": {
+          "primair": "Alarmbelprocedure op de algemene vergadering"
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer het netto-actief daalt tot minder dan de helft (of een kwart) van het maatschappelijk kapitaal of het minimumkapitaal, is het bestuursorgaan verplicht een buitengewone algemene vergadering bijeen te roepen om te beraadslagen over de ontbinding of de continuering van de vennootschap.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "elektronische-vergadering",
+        "naam": {
+          "primair": "Elektronische vergadering en schriftelijke besluitvorming"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Het WVV laat toe dat aandeelhouders deelnemen via elektronische communicatiemiddelen; voor de BV (niet-beursgenoteerd) is ook unaniem schriftelijk besluit mogelijk voor alle bevoegdheden van de algemene vergadering, behalve voor notariële aktes.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rol-commissaris-av",
+        "naam": {
+          "primair": "Rol van de commissaris op de algemene vergadering"
+        },
+        "inhoud_type": "begrip",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De commissaris legt zijn controleverslag voor aan de algemene vergadering, is aanwezig bij de goedkeuring van de jaarrekening, en beantwoordt vragen van aandeelhouders over zijn verslag; zijn mandaat wordt door de algemene vergadering verleend voor drie jaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      }
     ],
-    "reviewed_by": null
-  }
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De algemene vergadering is het hoogste beslissingsorgaan van een vennootschap, samengesteld uit alle aandeelhouders of vennoten, dat de bevoegdheid heeft over fundamentele beslissingen zoals statutenwijziging, winstbestemming, benoeming en ontslag van bestuurders en commissarissen, en ontbinding van de vennootschap. Zij vergadert minstens één keer per jaar (de gewone jaarvergadering) om de jaarrekening goed te keuren."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De algemene vergadering belichaamt het eigendomsrecht van aandeelhouders: zij verschaffen kapitaal en dragen ondernemingsrisico, en hebben daarom inspraak in de meest fundamentele beslissingen. De wet (WVV) stelt een minimumkader vast van exclusieve bevoegdheden om de aandeelhouders te beschermen tegen beslissingen die hun vermogenspositie of zeggenschap fundamenteel wijzigen zonder hun toestemming. Voor een accountant-adviseur is de algemene vergadering het moment waarop de jaarrekening formeel wordt goedgekeurd, de resultaatsbestemming vaststaat, en eventueel de commissaris-revisor wordt benoemd of zijn verslag uitbrengt."
+      }
+    },
+    "syntheses": [
+      {
+        "type": "keuzekader",
+        "inhoud": {
+          "assen": [
+            {
+              "vraag": "Betreft de beslissing een wijziging van de statuten of een fundamentele herstructurering?",
+              "richtingen": [
+                {
+                  "richting": "Ja → buitengewone of bijzondere algemene vergadering vereist (quorum + bijzondere meerderheid + notariële akte)",
+                  "leidt_naar": "algemene-vergadering#buitengewone-av"
+                },
+                {
+                  "richting": "Nee → gewone algemene vergadering volstaat (geen quorum, gewone meerderheid)",
+                  "leidt_naar": "algemene-vergadering#gewone-av"
+                }
+              ]
+            },
+            {
+              "vraag": "Raakt de beslissing de rechten van een specifieke aandelensoort?",
+              "richtingen": [
+                {
+                  "richting": "Ja → bijzondere algemene vergadering van die categorie vereist naast de algemene vergadering",
+                  "leidt_naar": "algemene-vergadering#bijzondere-av"
+                },
+                {
+                  "richting": "Nee → standaardregels toepassen",
+                  "leidt_naar": "algemene-vergadering#quorum-en-meerderheden"
+                }
+              ]
+            }
+          ],
+          "vergelijkingstabel": {
+            "kolommen": [
+              "Type",
+              "Aanwezigheidsquorum",
+              "Vereiste meerderheid",
+              "Notariële akte"
+            ],
+            "rijen": [
+              [
+                "Gewone AV",
+                "Geen",
+                "Gewone meerderheid (> 50%)",
+                "Neen"
+              ],
+              [
+                "Buitengewone AV (1e bijeenroeping)",
+                "≥ 50% kapitaal/aandelen",
+                "≥ 75% uitgebrachte stemmen",
+                "Ja (NV/BV)"
+              ],
+              [
+                "Buitengewone AV (2e bijeenroeping)",
+                "Geen",
+                "≥ 75% uitgebrachte stemmen",
+                "Ja (NV/BV)"
+              ],
+              [
+                "Bijzondere AV",
+                "Zelfde als buitengewone",
+                "Zelfde als buitengewone",
+                "Zie beslissing"
+              ]
+            ]
+          }
+        },
+        "intro": "De soort algemene vergadering bepaalt het toepasselijk quorum, de vereiste meerderheid en de formaliteiten."
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrechtelijk-kader-wvv",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      },
+      "toelichting": "De algemene vergadering is een orgaan dat zijn bevoegdheden en werking ontleent aan het WVV."
+    },
+    {
+      "type": "bevat",
+      "target": "alarmbel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      },
+      "toelichting": "De alarmbelprocedure verplicht het bestuursorgaan een (buitengewone) algemene vergadering bijeen te roepen."
+    },
+    {
+      "type": "goedgekeurd_door",
+      "target": "jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening wordt formeel goedgekeurd door de gewone algemene vergadering."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "bestuur-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      },
+      "toelichting": "Beide zijn vennootschapsorganen, maar met fundamenteel andere bevoegdheden en samenstelling.",
+      "gelijkenissen": [
+        "Beide zijn organen van de vennootschap erkend door het WVV",
+        "Beide kunnen aansprakelijk worden gesteld"
+      ],
+      "verschillen": [
+        "Algemene vergadering = aandeelhouders (eigendomsperspectief); bestuursorgaan = bestuurders (beheersperspectief)",
+        "Algemene vergadering beslist over fundamentele kwesties; bestuursorgaan beheert de dagelijkse en strategische werking",
+        "Bestuursorgaan is permanent; algemene vergadering vergadert periodiek"
+      ],
+      "verwarring_risico": "Verwarring over wie bevoegd is: bestuurders bereiden voor maar kunnen de jaarrekening niet goedkeuren — dat is voorbehouden aan de aandeelhouders."
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "commissaris-mandaat-en-statuut",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      },
+      "toelichting": "De commissaris rapporteert aan de algemene vergadering en zijn mandaat wordt door de algemene vergadering verleend."
+    },
+    {
+      "type": "triggert",
+      "target": "resultaatverwerking",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      },
+      "toelichting": "De beslissing over de winstverdeling (dividend, reservering) wordt genomen op de gewone algemene vergadering en triggert de boekhoudkundige verwerking."
+    },
+    {
+      "type": "vereist",
+      "target": "bijzondere-verslagen-vennootschapsverrichtingen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      },
+      "toelichting": "Bij bepaalde beslissingen op een buitengewone algemene vergadering (kapitaalverhoging, inbreng, fusie) zijn bijzondere verslagen van het bestuursorgaan en/of de commissaris verplicht."
+    }
+  ],
+  "concept_type": "kader"
 }

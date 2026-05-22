@@ -1,275 +1,52 @@
 {
   "id": "gerechtelijke-reorganisatie",
-  "naam": "Gerechtelijke reorganisatie",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "3.0.X",
-    "3.0.X.A",
-    "3.0.X.D"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-20T07:41:05Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "3.0.X",
-    "linked_anchors": [
-      "3.0.X"
+  "naam": {
+    "primair": "Gerechtelijke reorganisatie"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      }
     ],
-    "reviewed_by": null
+    "ankers": [
+      "3.0.X.D"
+    ]
   },
-  "definitie": {
-    "text": "Insolventieprocedure die onder toezicht van de **insolventierechtbank** de continuïteit beoogt van het geheel of een gedeelte van een onderneming in moeilijkheden of van haar activiteiten. De schuldenaar geniet een **opschorting** (moratorium) op middelen van tenuitvoerlegging door schuldeisers. Boek XX kent drie varianten: **minnelijk akkoord** met twee of meer schuldeisers, **collectief akkoord** via een door schuldeisers gestemd en door de rechtbank gehomologeerd reorganisatieplan, en **overdracht onder gerechtelijk gezag** (verkoop door een vereffeningsdeskundige).",
-    "confidence": "grounded",
-    "source": {
-      "type": "wet",
-      "short": "WER Titel V/I en V/II"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "WER__art_XX_50",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "WER__art_XX_81",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
-          "sha256": null,
-          "version": "rag-v1"
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Gerechtelijke reorganisatie",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
+      }
     }
   },
-  "situering": {
-    "text": "De gerechtelijke reorganisatie verving in 2009 het oude gerechtelijk akkoord en kreeg in 2017 zijn plaats in Boek XX WER. Sinds 1 september 2023 (omzetting EU-Restructuring-richtlijn 2019/1023) kent ze ook een **besloten** variant: een vertrouwelijke procedure voor de fase vóór publieke aankondiging. Voor de accountant is de keuze tussen een minnelijk en collectief akkoord een kernadvies: het minnelijk akkoord werkt enkel tegen de **instemmende schuldeisers**, het gehomologeerde collectief akkoord bindt **alle opschortings-schuldeisers**.",
-    "confidence": "inferred-from-aggregation",
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "WER__art_XX_98",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
-  "bouwstenen": [
-    {
-      "titel": "Toegangsvoorwaarde — dreigende insolventie",
-      "wat": "De schuldenaar moet aantonen dat er sprake is van **dreigende insolventie**: zonder de procedure zou hij in een redelijke termijn niet meer kunnen voldoen aan zijn opeisbare schulden. Hij hoeft niet al feitelijk gestopt te zijn met betalen.",
-      "waarom": "Vroege ingreep verhoogt de slaagkans en beschermt de schuldeisers tegen verdere waardevernietiging.",
-      "grondslag": "WER art. XX.83/22 § 4",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WER__art_XX_98",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Variant 1: buitengerechtelijk minnelijk akkoord",
-      "wat": "Volledig **buitengerechtelijk**: de schuldenaar onderhandelt met minstens twee schuldeisers en bepaalt vrij de inhoud van het akkoord. Geen rechter, geen publiciteit. Het akkoord werkt enkel tussen de instemmende partijen; niet-deelnemende schuldeisers blijven hun rechten behouden.",
-      "waarom": "Snel en discreet voor ondernemingen waar slechts enkele grote schuldeisers hoeven mee te werken.",
-      "grondslag": "WER art. XX.64 e.v.",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_inleiding",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Variant 2: gerechtelijk minnelijk akkoord",
-      "wat": "Onder toezicht van de rechtbank en met opschortingsbescherming. Twee of meer schuldeisers stemmen ermee in. Verschilt van het buitengerechtelijk minnelijk akkoord doordat de schuldenaar tijdens onderhandelingen wettelijk beschermd is tegen uitvoeringsmaatregelen.",
-      "waarom": "Combinatie van snelheid van een minnelijk akkoord met de wettelijke bescherming van een opschorting.",
-      "grondslag": "WER art. XX.64, XX.83/22 (besloten variant)",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WER__art_XX_98",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Variant 3: collectief akkoord (reorganisatieplan)",
-      "wat": "De schuldenaar legt een **reorganisatieplan** voor aan al zijn opschortings-schuldeisers. Schuldeisers worden ingedeeld in categorieën met voldoende gedeelde belangen. Een dubbele meerderheid (meerderheid in elke categorie, of cross-class cram-down bij grote ondernemingen sinds 2023) is vereist. De rechtbank **homologeert** het plan na een belang-van-de-schuldeisers-toets, waarna het **alle** opschortings-schuldeisers bindt — ook de tegenstemmers.",
-      "waarom": "Voorkomt dat één tegenstemmende schuldeiser het herstel van een levensvatbare onderneming blokkeert.",
-      "grondslag": "WER art. XX.67, XX.83/14, XX.83/17",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WER__art_XX_95",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Variant 4: overdracht onder gerechtelijk gezag",
-      "wat": "De rechtbank stelt een **vereffeningsdeskundige** aan die het geheel of een gedeelte van de onderneming verkoopt. Het bedrijf zelf kan opgaan in de koper; de juridische entiteit blijft achter met de niet-overgenomen schulden en wordt veelal nadien failliet verklaard. Werknemers en activa gaan over, schulden niet (behoudens uitzonderingen).",
-      "waarom": "Redt levensvatbare activiteit en werkgelegenheid zelfs als de juridische entiteit zelf niet meer kan worden gered.",
-      "grondslag": "WER art. XX.84 e.v., XX.94",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WER__art_XX_123",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "WER__art_XX_112",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Besloten gerechtelijke reorganisatie (sinds 2023)",
-      "wat": "Op eenzijdig verzoek van de schuldenaar stelt de voorzitter van de ondernemingsrechtbank een **herstructureringsdeskundige** aan om vertrouwelijk een minnelijk of collectief akkoord voor te bereiden. De procedure verloopt **niet publiek** — geen bekendmaking in het Staatsblad. Toegankelijk wanneer er sprake is van dreigende insolventie.",
-      "waarom": "Beschermt commerciële relaties en de reputatie van de onderneming tijdens kritieke onderhandelingen.",
-      "grondslag": "WER art. XX.83/22 (ingevoegd door W 7 juni 2023)",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WER__art_XX_98",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Wijziging van het doel tijdens de procedure",
-      "wat": "De schuldenaar kan tijdens de opschorting de rechtbank vragen om het **doel van de procedure** te wijzigen — bv. van collectief akkoord naar overdracht onder gerechtelijk gezag — of de procedure (gedeeltelijk) te beëindigen.",
-      "waarom": "Geeft flexibiliteit om bij voortschrijdend inzicht naar de juiste exit-route te schakelen.",
-      "grondslag": "WER art. XX.60, XX.61",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WER__art_XX_58",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "WER__art_XX_59",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Reikwijdte van de opschorting",
-      "betekenis": "De opschorting bevriest alle middelen van tenuitvoerlegging op de **roerende én onroerende** goederen van de schuldenaar voor schuldvorderingen die vóór de opschorting bestonden. Schulden die ná de opschorting ontstaan (bv. nieuwe leveranciersleveringen), vallen erbuiten.",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WER__art_XX_50",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "aspect": "Intrekking en gevolgen faillissement",
-      "betekenis": "Wordt de schuldenaar tijdens of na de reorganisatie failliet verklaard, dan vervalt het reorganisatieplan van rechtswege. Reeds uitgevoerde betalingen en verrichtingen blijven echter geldig — schuldeisers verliezen dus niet wat al was uitgekeerd.",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WER__art_XX_112",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "WER__art_XX_81",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "scenario",
-      "titel": "Collectief akkoord bij Transport Tongeren BV",
-      "cast": [
-        "Transport Tongeren BV"
-      ],
-      "omschrijving": "Transport Tongeren BV heeft 80 schuldeisers — vooral leasing- en brandstofleveranciers — en kan zonder herstructurering niet voldoen aan de leasinglasten. Een minnelijk akkoord met enkele schuldeisers volstaat niet. De BV vraagt een gerechtelijke reorganisatie via collectief akkoord aan, verkrijgt een opschorting van 6 maanden en legt een reorganisatieplan voor: 60% afbetaling van de niet-bevoorrechte schulden over 5 jaar, verlaging leasingtarieven door heronderhandeling. Na stemming in de schuldeiscategorieën en homologatie door de rechtbank bindt het plan alle opschortings-schuldeisers — ook de drie leveranciers die tegenstemden."
-    }
-  ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "target": "insolventieprocedures-belgie"
-    },
-    {
-      "type": "vergelijkt-met",
-      "target": "faillissement",
-      "aspect": "continuïteit versus vereffening"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "opschorting-betaling-gerechtelijke-reorganisatie"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "schuldvergelijking-tijdens-opschorting"
-    },
-    {
-      "type": "verwijst-naar",
-      "target": "regsol-platform"
-    },
-    {
-      "type": "verwijst-naar",
-      "target": "insolventiefunctionaris"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "homologatie-collectief-akkoord"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "herstructureringsdeskundige"
-    },
-    {
-      "type": "vergelijkt-met",
-      "target": "overdracht-onder-gerechtelijk-gezag",
-      "aspect": "voortbestaan-rechtspersoon versus enkel-activiteit"
-    }
-  ]
+  "relaties": [],
+  "concept_type": "procedure"
 }

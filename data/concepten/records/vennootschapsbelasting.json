@@ -1,531 +1,57 @@
 {
   "id": "vennootschapsbelasting",
-  "naam": "Vennootschapsbelasting",
-  "node_type": "concept",
-  "kind": "kader",
-  "schema_version": "2.0",
-  "primary_po": "2.3",
-  "linked_anchors": [
-    "2.3.taak.3",
-    "2.3.taak.4",
-    "2.3.II",
-    "2.3.II.A",
-    "2.3.II.B",
-    "2.3.II.H"
-  ],
-  "dekt_tdks": [
-    "2.3.II",
-    "2.3.II.A",
-    "2.3.II.B",
-    "2.3.II.H",
-    "2.3.taak.3",
-    "2.3.taak.4"
-  ],
-  "cross_po": 0,
-  "edges_voorgesteld": {
-    "lid_van": [
-      "fiscale-beginselen"
+  "naam": {
+    "primair": "Vennootschapsbelasting"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      }
     ],
-    "heeft_lid": [
-      "toepassingsgebied-vennootschapsbelasting",
-      "belastbare-grondslag-vennootschapsbelasting",
-      "verworpen-uitgaven",
-      "dbi-aftrek",
-      "innovatie-aftrek",
-      "notionele-interestaftrek",
-      "investeringsaftrek",
-      "overgedragen-verliezen",
-      "verlaagd-tarief-kleine-vennootschap",
-      "aangifte-vennootschapsbelasting",
-      "voorafbetalingen-vennootschapsbelasting",
-      "bijzondere-aanslag-geheime-commissielonen"
-    ],
-    "verward_met": [
-      "personenbelasting",
-      "rechtspersonenbelasting-kader",
-      "belasting-niet-inwoners"
-    ],
-    "vereist_kennis_van": [
-      "boekhoudkundig-resultaat",
-      "fiscaal-rechtelijk"
+    "ankers": [
+      "2.3.taak.3",
+      "2.3.taak.4",
+      "2.3.II",
+      "2.3.II.A",
+      "2.3.II.B",
+      "2.3.II.H"
     ]
   },
-  "_provenance": {
-    "extract_wave_id": "wave-bench-opus-20260521",
-    "extract_prompt": "concept-extractie-v5-bundle.md",
-    "schema": "ADR-025 v2.0 + §4bis",
-    "bundle_path": "data/extractie/_bundles/vennootschapsbelasting.json",
-    "confidence_history": [
-      {
-        "tijd": "2026-05-21T10:05:00Z",
-        "actie": "initial-extract",
-        "extractor": "Opus 4.7 (1M)",
-        "n_grounded": 14,
-        "n_inferred": 5,
-        "n_vuistregel": 3,
-        "n_te_verifieren": 2
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Vennootschapsbelasting",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
       }
-    ]
-  },
-  "definitie": {
-    "text": "De vennootschapsbelasting is de Belgische inkomstenbelasting die binnenlandse vennootschappen en daarmee gelijkgestelde organismen verschuldigd zijn over hun wereldwijd behaalde winst, geregeld in Titel III van het WIB92 (art. 179 e.v.).",
-    "confidence": "grounded",
-    "source": "WIB92 art. 179: \"Aan de vennootschapsbelasting zijn de binnenlandse vennootschappen onderworpen en de organismen voor de financiering van pensioenen bedoeld in artikel 8 van de wet van 27 oktober 2006.\""
-  },
-  "wat_er_economisch_echt_gebeurt": {
-    "text": "Een vennootschap die in België haar maatschappelijke zetel, voornaamste inrichting of zetel van bestuur heeft, wordt fiscaal behandeld als een autonome belastingplichtige — los van haar aandeelhouders. De Belgische staat heft een belasting op de winst die de vennootschap dat boekjaar gegenereerd heeft, ongeacht of die winst wordt uitgekeerd of in de vennootschap blijft. Conceptueel werkt het in drie stappen: (1) je vertrekt van de jaarrekening — de boekhoudkundige winst die volgens het Belgische boekhoudrecht is opgesteld vormt het startpunt (principle of attachment); (2) op die winst pas je een vastgelegde reeks fiscale correcties toe — eerst verwerpingen die de winst verhogen (verworpen uitgaven, abnormale voordelen), dan aftrekken in een wettelijk voorgeschreven volgorde (DBI, innovatie-aftrek, investeringsaftrek, overgedragen verliezen, NIA) — om tot de belastbare grondslag te komen; (3) op die grondslag pas je het tarief toe (gewoon 25 %, of verlaagd 20 % op de eerste 100.000 EUR voor kleine vennootschappen die aan de toegangsvoorwaarden van art. 215 voldoen), trek je voorheffingen en voorafbetalingen af en blijft de te betalen belasting (of een tegoed). De cyclus verloopt per aanslagjaar: het boekjaar levert de winst, de vennootschap dient binnen zeven maanden na boekjaarafsluiting een aangifte in (Biztax), de fiscus vestigt de aanslag via inkohiering, en pas dan is de schuld definitief.",
-    "confidence": "grounded",
-    "source": "WIB92 art. 179 (belastingplicht), art. 183 (winstbegrip via personenbelasting-regels), art. 185 e.v. (grondslag), art. 207 (volgorde aftrekken), art. 215 (tarief), art. 310 (aangiftetermijn)."
-  },
-  "wanneer_van_toepassing": {
-    "voor_wie": {
-      "text": "Elke binnenlandse vennootschap — d.w.z. een vennootschap met rechtspersoonlijkheid die haar maatschappelijke zetel, voornaamste inrichting of zetel van bestuur in België heeft en die zich bezighoudt met een exploitatie of met verrichtingen van winstgevende aard — valt automatisch onder de vennootschapsbelasting. Daarnaast zijn organismen voor de financiering van pensioenen (OFP's) onderworpen. Specifieke vrijstellingen (art. 180-182) zorgen dat bepaalde publieke en quasi-publieke entiteiten buiten het regime vallen, en bepaalde vzw's en gelijkgestelde rechtspersonen vallen onder de rechtspersonenbelasting i.p.v. de vennootschapsbelasting (art. 220).",
-      "confidence": "grounded",
-      "source": "WIB92 art. 179-180-181-182; afbakening met rechtspersonenbelasting via art. 220."
-    },
-    "wanneer_wel": [
-      {
-        "text": "BV, NV, CV, VOF, Comm.V en andere handelsvennootschappen met Belgische zetel die een winstgevende activiteit uitoefenen.",
-        "confidence": "grounded",
-        "source": "WIB92 art. 179 j° art. 2, § 1, 5°."
-      },
-      {
-        "text": "Buitenlandse vennootschappen die hun werkelijke zetel naar België verplaatsen — vanaf dat ogenblik worden zij binnenlandse vennootschap.",
-        "confidence": "inferred",
-        "source": "Combinatie WIB92 art. 2, § 1, 5°, b (woonplaatscriterium) + administratieve commentaar."
-      },
-      {
-        "text": "Vennootschappen in vereffening blijven onderworpen aan de vennootschapsbelasting tot de sluiting van de vereffening — meerwaarden bij verdeling van het vermogen behoren tot de belastbare winst.",
-        "confidence": "grounded",
-        "source": "WIB92 art. 208."
-      }
-    ],
-    "wanneer_niet": [
-      {
-        "text": "Vzw's en stichtingen zonder winstoogmerk vallen in principe onder de rechtspersonenbelasting, niet onder de vennootschapsbelasting — tenzij ze een onderneming exploiteren of zich bezighouden met winstgevende verrichtingen die niet als bijkomstig kwalificeren.",
-        "confidence": "grounded",
-        "source": "WIB92 art. 181 + art. 220, 3°."
-      },
-      {
-        "text": "Buitenlandse vennootschappen zonder Belgische zetel of Belgische inrichting vallen niet onder de vennootschapsbelasting; een buitenlandse vennootschap met een Belgische inrichting valt onder de belasting niet-inwoners (BNI/ven.).",
-        "confidence": "grounded",
-        "source": "WIB92 art. 227, 2° + art. 233."
-      },
-      {
-        "text": "Bepaalde publieke entiteiten en gelijkgestelden (Staat, Gemeenschappen, Gewesten, provincies, gemeenten, NMBS, …) zijn uitdrukkelijk vrijgesteld.",
-        "confidence": "grounded",
-        "source": "WIB92 art. 180."
-      }
-    ],
-    "hoofdrisico": {
-      "text": "Verkeerd inschatten dat een entiteit onder de rechtspersonenbelasting valt terwijl zij feitelijk een winstgevende exploitatie heeft, leidt tot een herkwalificatie naar de vennootschapsbelasting met heel andere aangifteverplichtingen, hogere tarieven en mogelijke belastingverhogingen. Omgekeerd kan een geforceerde keuze voor de vennootschapsvorm (zonder dat de fiscale voordelen de hogere complexiteit en sociale bijdragen-impact dekken) duurder uitvallen dan een eenmanszaak.",
-      "confidence": "vuistregel"
-    },
-    "hoofdvoordeel": {
-      "text": "Het tarief van 20 % op de eerste 100.000 EUR voor kleine vennootschappen — bovenop de aftrekken voor investeringen, innovatie en DBI — maakt de vennootschapsbelasting structureel goedkoper dan de progressieve personenbelasting (tot 50 %) zodra de winst stabiel boven ca. 40.000-50.000 EUR per jaar ligt en de winst niet integraal aan de bedrijfsleider moet uitgekeerd worden.",
-      "confidence": "vuistregel"
     }
   },
-  "hoe_het_werkt": {
-    "intro": "De berekening van de vennootschapsbelasting verloopt via een vaste keten: boekhoudkundig resultaat → fiscaal resultaat (na verwerpingen en uitsluitingen) → opbouw belastbare grondslag (acht bewerkingen in voorgeschreven volgorde) → tarieftoepassing → verrekening van voorheffingen en voorafbetalingen → te betalen saldo of terugbetaling. Deze keten is de ruggengraat waar alle specifieke regimes (DBI, NIA, innovatie-aftrek, investeringsaftrek, overgedragen verliezen, liquidatiereserve, voorafbetalingen-bonificatie) zich op enten.",
-    "onderdelen": [
-      {
-        "titel": "1. Subjectieve belastingplicht vaststellen",
-        "intro": "Eerst bepaal je of de entiteit überhaupt onder de vennootschapsbelasting valt en niet onder een ander regime (rechtspersonenbelasting, belasting niet-inwoners).",
-        "elementen": [
-          {
-            "element_id": "criteria-binnenlandse-vennootschap",
-            "inhoud_type": "criteria",
-            "titel": "Drie cumulatieve criteria",
-            "beschrijving": "Een binnenlandse vennootschap is een vennootschap met (1) rechtspersoonlijkheid, (2) maatschappelijke zetel, voornaamste inrichting of zetel van bestuur in België, en (3) een activiteit gericht op exploitatie of winstgevende verrichtingen.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 2, § 1, 5° j° art. 179.",
-            "weergaven": []
-          },
-          {
-            "element_id": "scope-uitsluitingen",
-            "inhoud_type": "vuistregel",
-            "titel": "Snel-check bij twijfel",
-            "beschrijving": "Is er een winstoogmerk én een echte exploitatie? → vennootschapsbelasting. Is het een vzw met louter ledenactiviteiten en bijkomstige inkomsten? → rechtspersonenbelasting. Is de zetel buiten België én is er geen Belgische inrichting? → geen Belgische heffing. Is er een Belgische vaste inrichting van een buitenlandse vennootschap? → belasting niet-inwoners.",
-            "confidence": "vuistregel",
-            "weergaven": []
-          }
-        ]
-      },
-      {
-        "titel": "2. Boekhoudkundig resultaat als startpunt",
-        "intro": "Het fiscaal recht knoopt aan bij het boekhoudrecht: het belastbaar resultaat vertrekt van de winst zoals die in de jaarrekening verschijnt, opgesteld volgens het Belgische boekhoudrecht. Dit is het 'principle of attachment'.",
-        "elementen": [
-          {
-            "element_id": "principle-of-attachment",
-            "inhoud_type": "principe",
-            "titel": "Aanknoping bij de jaarrekening",
-            "beschrijving": "De fiscale winst wordt vastgesteld volgens dezelfde regels als de winst inzake personenbelasting (art. 183 WIB92), maar in de praktijk vertrekt de aangifte vanuit de goedgekeurde jaarrekening. Boekhoudkundige keuzes (afschrijvingsritme, voorzieningen, waarderingsregels) hebben dus directe fiscale impact, behoudens uitdrukkelijke afwijkingen in de fiscale wet.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 183 + art. 320/1 (verplichting boekhouding overeenkomstig Belgisch boekhoudrecht) + art. 310 (aangifte op basis van goedgekeurde jaarrekening).",
-            "weergaven": []
-          },
-          {
-            "element_id": "fiscale-correcties",
-            "inhoud_type": "principe",
-            "titel": "Boekhoudkundige winst ≠ fiscale winst",
-            "beschrijving": "Het fiscaal resultaat wijkt af van de boekhoudkundige winst telkens de wet expliciet anders bepaalt — bijvoorbeeld: verworpen uitgaven (boetes, niet-aftrekbare autokosten, restaurantkosten boven plafond), abnormale of goedgunstige voordelen, onderwaardering activa / overwaardering passiva, vrijgestelde meerwaarden onder onaantastbaarheidsvoorwaarde, voorzieningen die fiscaal niet aanvaard zijn.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 24-26 (winstbegrip), art. 198 (verworpen uitgaven), art. 47 (gespreide belasting meerwaarden), art. 79 (abnormale voordelen).",
-            "weergaven": []
-          }
-        ]
-      },
-      {
-        "titel": "3. Opbouw belastbare grondslag — opeenvolging der bewerkingen",
-        "intro": "Vanuit het gecorrigeerde fiscaal resultaat verloopt de opbouw via een wettelijk vastgelegde volgorde (art. 74 KB/WIB92 + art. 206/1 t.e.m. 207/2 WIB92). Die volgorde is dwingend: aftrekken in de verkeerde volgorde plaatsen leidt tot een verkeerde grondslag.",
-        "elementen": [
-          {
-            "element_id": "acht-bewerkingen",
-            "inhoud_type": "procedure",
-            "titel": "De keten van bewerkingen (vereenvoudigd)",
-            "beschrijving": "(1) Fiscaal resultaat = boekhoudwinst + verworpen uitgaven + abnormale voordelen + uitgekeerde dividenden. (2) Verdeling naar herkomst (Belgisch / verdrag / niet-verdrag) — relevant voor latere vrijstellingen. (3) Aftrek vrijgestelde elementen (giften, vrijgestelde meerwaarden, vrijgestelde reserves). (4) Aftrek DBI (art. 202-205). (5) Aftrek innovatie-inkomsten (art. 205/1-205/4). (6) Investeringsaftrek (art. 68-77). (7) Aftrek overgedragen DBI / overgedragen innovatie. (8) Aftrek vorige verliezen (art. 206) + notionele-interestaftrek (NIA, art. 205bis-novies). Bewerkingen 4-8 zijn onderworpen aan de 'korf-regel' (minimumbelastbare basis art. 207, 6e lid): boven 1 mio EUR fiscaal resultaat kan maximaal 70 % van het overschot worden weggewerkt door bepaalde aftrekken — zo blijft altijd een minimumbasis effectief belastbaar.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 206/1 t.e.m. 207/2 + art. 74 KB/WIB92.",
-            "weergaven": [
-              {
-                "type": "stroomschema_tekst",
-                "stappen": [
-                  "Boekhoudwinst (na belasting → vóór belasting opnieuw maken)",
-                  "+ Verworpen uitgaven (DNA's)",
-                  "+ Uitgekeerde dividenden",
-                  "= Eerste resultaat (gecorrigeerd fiscaal resultaat)",
-                  "− Vrijgestelde elementen (giften, vrijgestelde reserves)",
-                  "− DBI",
-                  "− Innovatie-aftrek",
-                  "− Investeringsaftrek",
-                  "− Overgedragen DBI / innovatie",
-                  "− Vorige verliezen + NIA (binnen korf-regel)",
-                  "= Belastbare grondslag"
-                ]
-              }
-            ]
-          },
-          {
-            "element_id": "korf-regel-minimumbasis",
-            "inhoud_type": "uitzondering",
-            "titel": "Korf-regel — minimumbelastbare basis",
-            "beschrijving": "Boven 1 mio EUR fiscaal resultaat na bewerkingen 1-3 kunnen overgedragen DBI, overgedragen innovatie, NIA en vorige verliezen samen maximaal 70 % van het overschot wegwerken. Het resterende deel blijft effectief belastbaar. Doel: vermijden dat structureel winstgevende vennootschappen via gestapelde aftrekken jarenlang geen belasting betalen.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 207, 6e en 7e lid.",
-            "weergaven": []
-          }
-        ]
-      },
-      {
-        "titel": "4. Tarieftoepassing",
-        "intro": "Op de belastbare grondslag wordt het tarief toegepast: gewoon 25 % sinds aanslagjaar 2021; verlaagd 20 % op de eerste 100.000 EUR voor kleine vennootschappen die aan vier cumulatieve voorwaarden voldoen.",
-        "elementen": [
-          {
-            "element_id": "gewoon-tarief-25",
-            "inhoud_type": "tarief",
-            "titel": "Gewoon tarief = 25 %",
-            "beschrijving": "Het tarief van de vennootschapsbelasting bedraagt 25 % op de volledige belastbare grondslag, behoudens de hieronder vermelde uitzonderingen voor kleine vennootschappen.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 215, eerste lid.",
-            "weergaven": []
-          },
-          {
-            "element_id": "verlaagd-tarief-20",
-            "inhoud_type": "tarief",
-            "titel": "Verlaagd tarief = 20 % op eerste 100.000 EUR",
-            "beschrijving": "Voor vennootschappen die als 'kleine vennootschap' kwalificeren (WVV art. 1:24) en bovendien voldoen aan de cumulatieve toegangsvoorwaarden van art. 215, derde lid, geldt 20 % op de eerste schijf van 0 tot 100.000 EUR belastbare grondslag. Boven 100.000 EUR: 25 %. Toegangsvoorwaarden (kort): (1) geen financiële vennootschap (meer dan 50 % beleggingsportefeuille in andere vennootschappen), (2) geen aandelen voor meer dan 50 % in handen van andere vennootschappen, (3) minimumbezoldiging aan ten minste één bedrijfsleider-natuurlijke persoon van 45.000 EUR — of, indien lager, ten minste gelijk aan het belastbaar resultaat, (4) geen erkende coöperatieve uitzondering — zie art. 215 voor de exacte tekst.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 215, tweede en derde lid + WVV art. 1:24 voor de kwalificatie kleine vennootschap.",
-            "weergaven": [
-              {
-                "type": "rekenvoorbeeld",
-                "scenario": "Kleine vennootschap X heeft een belastbare grondslag van 150.000 EUR.",
-                "berekening": "Eerste 100.000 EUR × 20 % = 20.000 EUR. Schijf 100.000-150.000 EUR (= 50.000) × 25 % = 12.500 EUR. Totaal = 32.500 EUR. Bij gewoon tarief (zonder kwalificatie) zou de belasting 150.000 × 25 % = 37.500 EUR bedragen — verschil = 5.000 EUR voordeel."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "titel": "5. Aangifte- en aanslagcyclus",
-        "intro": "Eens de belasting berekend is, volgt een vaste compliance-cyclus: aangifte indienen, verrekenen van voorheffingen en voorafbetalingen, de fiscus vestigt de aanslag via inkohiering.",
-        "elementen": [
-          {
-            "element_id": "aangiftetermijn",
-            "inhoud_type": "termijn",
-            "titel": "Uiterste aangiftedatum",
-            "beschrijving": "Voor binnenlandse vennootschappen wordt de uiterste indieningsdatum vastgesteld op de laatste dag van de zevende maand volgend op de afsluiting van het boekjaar. De aangifte moet gebaseerd zijn op de goedgekeurde jaarrekening (algemene vergadering moet dus eerst plaatsgevonden hebben). In de praktijk publiceert de FOD Financiën jaarlijks een 'tolerantie-datum' bij Biztax-storingen of release-vertragingen.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 310, eerste lid.",
-            "weergaven": [
-              {
-                "type": "rekenvoorbeeld",
-                "scenario": "Boekjaar = kalenderjaar 2025 (afsluiting 31-12-2025).",
-                "berekening": "Uiterste aangifte = laatste dag van de 7e maand volgend op afsluiting = 31 juli 2026. AV moet vóór die datum de jaarrekening goedgekeurd hebben."
-              }
-            ]
-          },
-          {
-            "element_id": "aanslagjaar-vs-boekjaar",
-            "inhoud_type": "principe",
-            "titel": "Aanslagjaar = jaar volgend op afsluiting",
-            "beschrijving": "Het aanslagjaar is in de regel het jaar waarin het boekjaar wordt afgesloten + 1 (bij kalenderjaar). Bij gebroken boekjaren geldt: het aanslagjaar is het jaar waarin het boekjaar wordt afgesloten. Het aanslagjaar bepaalt welke versie van de wetgeving toepasselijk is (lex anno).",
-            "confidence": "inferred",
-            "source": "WIB92 art. 360 (algemene regel aanslagjaar) — afgeleid uit standaardpraktijk.",
-            "weergaven": []
-          },
-          {
-            "element_id": "verrekening-voorheffingen",
-            "inhoud_type": "procedure",
-            "titel": "Voorheffingen en voorafbetalingen",
-            "beschrijving": "Op de berekende basisbelasting worden verrekend: (a) roerende voorheffing op ontvangen dividenden/interesten, (b) fictieve roerende voorheffing waar van toepassing, (c) FBB (forfaitair gedeelte buitenlandse belasting) op buitenlandse inkomsten, (d) de voorafbetalingen die de vennootschap in de loop van het boekjaar heeft uitgevoerd. Onvoldoende voorafbetalingen leiden tot een vermeerdering (boete-achtige opslag); voldoende voorafbetalingen kunnen de vermeerdering volledig neutraliseren of zelfs een bonificatie opleveren.",
-            "confidence": "grounded",
-            "source": "WIB92 art. 276-296 (verrekeningen) + art. 218 + art. 157-168 (voorafbetalingen-regime).",
-            "weergaven": []
-          },
-          {
-            "element_id": "inkohiering",
-            "inhoud_type": "procedure",
-            "titel": "Vestiging van de aanslag (inkohiering)",
-            "beschrijving": "Op basis van de aangifte (of na controle/wijziging) vestigt de fiscus de definitieve aanslag in een kohier. Pas vanaf inkohiering is de belasting opeisbaar; van inkohiering loopt ook de gewone aanslagtermijn (drie jaar vanaf 1 januari aanslagjaar — art. 354) en de bezwaartermijn (één jaar vanaf de verzending van het aanslagbiljet — art. 371).",
-            "confidence": "grounded",
-            "source": "WIB92 art. 353-359 (aanslagtermijnen) + art. 371 (bezwaartermijn).",
-            "weergaven": []
-          }
-        ]
-      }
-    ]
-  },
-  "rol_van_de_accountant": {
-    "perspectieven": [
-      {
-        "actor": "KMO-handelsonderneming",
-        "emoji": "🏪",
-        "rollen": [
-          {
-            "rol": "fiscaal adviseur",
-            "emoji": "📐",
-            "taken": [
-              "Belastbare grondslag opbouwen volgens correcte volgorde der bewerkingen",
-              "Beoordelen toegang verlaagd tarief 20 % (4 voorwaarden art. 215)",
-              "Optimaliseren timing dividenduitkering vs liquidatiereserve",
-              "Inschatten impact aftrek-stapeling onder korf-regel"
-            ],
-            "elementen": [
-              {
-                "element_id": "kmo-tarief-check",
-                "inhoud_type": "checklist",
-                "titel": "Toegangscheck verlaagd tarief 20 %",
-                "beschrijving": "Bij elke aangifte vier voorwaarden afvinken: (1) kwalificeert de vennootschap als 'kleine vennootschap' onder WVV art. 1:24 (groottecriteria balans/omzet/personeel — gemiddeld 2 boekjaren)? (2) Is de beleggingswaarde van aandelen in andere vennootschappen ≤ 50 % van de fiscale eigen middelen? (3) Zijn de aandelen niet voor > 50 % in handen van een andere vennootschap? (4) Wordt aan ten minste één bedrijfsleider-natuurlijke persoon een bezoldiging van ≥ 45.000 EUR (of ≥ belastbaar resultaat indien lager) toegekend? Eén voorwaarde niet vervuld = volledig naar 25 %.",
-                "confidence": "grounded",
-                "source": "WIB92 art. 215, derde lid + WVV art. 1:24.",
-                "weergaven": []
-              },
-              {
-                "element_id": "kmo-minimumbezoldiging-trade-off",
-                "inhoud_type": "vuistregel",
-                "titel": "Trade-off minimumbezoldiging 45.000 EUR",
-                "beschrijving": "Een bezoldiging van 45.000 EUR aan de bedrijfsleider in PB kost (incl. sociale bijdragen) ruwweg 18.000-22.000 EUR. Het tariefvoordeel ven.B. op 100.000 EUR (5 % × 100.000 = 5.000 EUR) volstaat zelden om die kost goed te maken — de minimumbezoldiging wordt fiscaal alleen interessant als ze toch al uitgekeerd zou worden. Bij beperkte winst (< 100.000 EUR) en geen behoefte aan uitkering: bewust opteren voor 25 % kan netto goedkoper zijn.",
-                "confidence": "vuistregel",
-                "weergaven": []
-              }
-            ]
-          },
-          {
-            "rol": "boekhouder",
-            "emoji": "📋",
-            "taken": [
-              "Jaarrekening tijdig afsluiten zodat aangifte voor 7e maand kan",
-              "Aangifte-input verzamelen: DNA-lijst, dividenden, voorafbetalingen, voorheffingen",
-              "Boekingen belasting voor en na inkohiering (67xx vs 77xx)"
-            ],
-            "elementen": [
-              {
-                "element_id": "boeking-geraamde-belasting",
-                "inhoud_type": "boeking",
-                "titel": "Boeking geraamde vennootschapsbelasting",
-                "beschrijving": "Bij jaarafsluiting wordt de geraamde verschuldigde belasting geboekt op rekening 6700 (Geraamde belastingen op het resultaat) tegen 4500 (Geraamde belastingschulden). Na inkohiering wordt het verschil met de werkelijke aanslag verwerkt op 6711/7711 (Belastingen op resultaat vorige boekjaren).",
-                "confidence": "vuistregel",
-                "weergaven": []
-              },
-              {
-                "element_id": "voorafbetalingen-boeking",
-                "inhoud_type": "boeking",
-                "titel": "Voorafbetalingen registreren",
-                "beschrijving": "Voorafbetalingen worden geboekt op 4120 (Voorafbetalingen op belastingen) bij betaling. Bij afsluiting compenseer je 4120 tegen de geraamde belastingschuld 4500. Wettelijke vermenigvuldigingscoëfficiënten en kwartaal-deadlines (VA1 t/m VA4) komen uit het tarievenzakboekje / KB/WIB92.",
-                "confidence": "vuistregel",
-                "weergaven": []
-              }
-            ]
-          },
-          {
-            "rol": "adviseur",
-            "emoji": "🎯",
-            "taken": [
-              "Keuze rechtsvorm bij start (eenmanszaak vs vennootschap)",
-              "Inschatten breekpunt waarop ven.B. fiscaal goedkoper wordt dan PB"
-            ],
-            "elementen": [
-              {
-                "element_id": "breekpunt-eenmanszaak-vennootschap",
-                "inhoud_type": "vuistregel",
-                "titel": "Globaal breekpunt PB vs ven.B.",
-                "beschrijving": "Onder ca. 40.000-50.000 EUR jaarlijkse winst die volledig uit de zaak naar privé moet, blijft een eenmanszaak meestal netto goedkoper (geen dubbele heffing). Boven dat niveau, en bij winst die deels in de vennootschap kan blijven (reservevorming, latere uitkering via liquidatiereserve aan 10 % + roerende voorheffing), wint de vennootschap. Exacte cijfers hangen af van leeftijd, gezinslast en sociale-bijdragen-historiek — altijd doorrekenen.",
-                "confidence": "vuistregel",
-                "weergaven": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "actor": "grote vennootschap of vennootschap-groep",
-        "emoji": "🏢",
-        "rollen": [
-          {
-            "rol": "fiscaal adviseur",
-            "emoji": "📐",
-            "taken": [
-              "Aftrek-stapeling optimaliseren onder korf-regel (art. 207)",
-              "DBI- en NIA-strategie afstemmen op groepsstructuur",
-              "Verrekening FBB en buitenlandse winst correct toepassen",
-              "Voorafbetalingen plannen om vermeerdering te neutraliseren"
-            ],
-            "elementen": [
-              {
-                "element_id": "korf-regel-strategie",
-                "inhoud_type": "vuistregel",
-                "titel": "Korf-regel = effectief tarief-vloer ~7,5 %",
-                "beschrijving": "Boven 1 mio EUR resultaat wordt 30 % van het overschot effectief belast aan 25 % → effectieve minimumdruk ≈ 7,5 % op het overschot, zelfs met onbeperkte overgedragen aftrekken. Dit zet een natuurlijke grens op het 'eeuwig uitstellen' via aftrek-stapeling en moet expliciet in de meerjaren-planning zitten.",
-                "confidence": "inferred",
-                "source": "Afleiding uit WIB92 art. 207, 6e lid (70 %-regel).",
-                "weergaven": []
-              }
-            ]
-          },
-          {
-            "rol": "externe auditor",
-            "emoji": "🔍",
-            "taken": [
-              "Latente belasting evalueren (uitgestelde belastingvorderingen / -schulden)",
-              "Beoordeling van fiscale voorzieningen en betwiste aanslagen (IAS 12 / BGAAP)",
-              "Controle op consistente toepassing van waarderingsregels (impact op fiscale grondslag)",
-              "Aangifte-controle: completeness van DNA's, abnormale voordelen, overgedragen aftrekken"
-            ],
-            "elementen": [
-              {
-                "element_id": "latente-belasting",
-                "inhoud_type": "principe",
-                "titel": "Latente belasting op tijdelijke verschillen",
-                "beschrijving": "Tijdelijke verschillen tussen boekhoudkundige en fiscale waarde (versnelde afschrijvingen, vrijgestelde reserves onder onaantastbaarheidsvoorwaarde, overgedragen verliezen) genereren latente belastingschulden of -vorderingen. Onder BGAAP optioneel/beperkt vermeld; onder IFRS (IAS 12) verplicht herkend en herzien bij tariefswijzigingen. Bij elke ven.B.-tariefswijziging moeten alle latente posten herrekend worden.",
-                "confidence": "te_verifieren",
-                "source": "IAS 12 + CBN-advies over uitgestelde belastingen — concrete boeking-mechaniek niet in extract-bundle aanwezig, te verifiëren tegen CBN-advies 2017/14 of opvolger.",
-                "weergaven": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "actor": "buitenlandse moedervennootschap met Belgische dochter",
-        "emoji": "🌍",
-        "rollen": [
-          {
-            "rol": "fiscaal adviseur",
-            "emoji": "📐",
-            "taken": [
-              "Dividendstroom dochter→moeder structureren onder moeder-dochter-richtlijn",
-              "DBI-regime bij moeder vs vrijstelling roerende voorheffing aan de bron",
-              "Pijler 2 / GloBE-impact inschatten op effectief tarief van de groep",
-              "Verrekenprijzen documenteren (art. 185, § 2 + DAC6)"
-            ],
-            "elementen": [
-              {
-                "element_id": "pijler-2-impact",
-                "inhoud_type": "principe",
-                "titel": "Pijler 2 als bovengrens-correctie",
-                "beschrijving": "Voor multinationale groepen met geconsolideerde omzet ≥ 750 mio EUR geldt het Pijler 2 / GloBE-regime: indien het effectief tarief in een jurisdictie onder 15 % zakt (bijvoorbeeld door cumulatieve aftrekken, NIA, innovatie-aftrek), wordt een bijheffing geheven om tot 15 % te komen. Dit ondergraaft een deel van de Belgische aftrek-architectuur voor de allergrootste groepen. Voor de stagiair GA in een KMO-context blijft dit zeldzaam, maar het bestaat.",
-                "confidence": "grounded",
-                "source": "Wet 19 december 2023 houdende de invoering van een minimumbelasting voor multinationale ondernemingen en omvangrijke binnenlandse groepen (Pijler 2 / GloBE).",
-                "weergaven": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "voorkennis_leespad": {
-    "voorvereisten": [
-      "fiscale-beginselen",
-      "boekhoudkundig-resultaat",
-      "jaarrekening-kader"
-    ],
-    "kader": [
-      "personenbelasting",
-      "rechtspersonenbelasting-kader",
-      "belasting-niet-inwoners"
-    ],
-    "naast_relevant": [
-      "wvv-vennootschapsvormen",
-      "minimumbelasting-pijler-2"
-    ],
-    "volgkennis": [
-      "toepassingsgebied-vennootschapsbelasting",
-      "belastbare-grondslag-vennootschapsbelasting",
-      "verworpen-uitgaven",
-      "dbi-aftrek",
-      "innovatie-aftrek",
-      "investeringsaftrek",
-      "notionele-interestaftrek",
-      "overgedragen-verliezen",
-      "verlaagd-tarief-kleine-vennootschap",
-      "aangifte-vennootschapsbelasting",
-      "voorafbetalingen-vennootschapsbelasting",
-      "bijzondere-aanslag-geheime-commissielonen",
-      "liquidatiereserve"
-    ]
-  },
-  "wat_dit_record_dekt": {
-    "competenties_chronologisch": [
-      "Beoordelen of een entiteit onder de vennootschapsbelasting valt (vs RPB, vs BNI)",
-      "Boekhoudkundig resultaat omzetten naar fiscaal resultaat via correcte verwerpingen",
-      "Belastbare grondslag opbouwen volgens de wettelijke volgorde der bewerkingen",
-      "Korf-regel correct toepassen bij gestapelde aftrekken boven 1 mio EUR",
-      "Toegang verlaagd tarief 20 % beoordelen via 4 cumulatieve voorwaarden",
-      "Aangiftecyclus respecteren: boekjaar → AV → aangifte binnen 7 maanden → inkohiering",
-      "Voorheffingen en voorafbetalingen verrekenen op de basisbelasting",
-      "Aanslag- en bezwaartermijnen inschatten"
-    ],
-    "termen_alfabetisch": [
-      "aanslagjaar",
-      "aangifte vennootschapsbelasting",
-      "abnormaal of goedgunstig voordeel",
-      "belastbare grondslag",
-      "binnenlandse vennootschap",
-      "Biztax",
-      "boekhoudkundig resultaat",
-      "DBI",
-      "DNA (dépenses non admises) / verworpen uitgaven",
-      "FBB (forfaitair gedeelte buitenlandse belasting)",
-      "GloBE / Pijler 2",
-      "gewoon tarief (25 %)",
-      "inkohiering",
-      "innovatie-aftrek",
-      "investeringsaftrek",
-      "kleine vennootschap (WVV art. 1:24)",
-      "korf-regel / minimumbelastbare basis",
-      "notionele-interestaftrek (NIA)",
-      "OFP (organisme voor financiering van pensioenen)",
-      "opeenvolging der bewerkingen",
-      "principle of attachment",
-      "rechtspersonenbelasting (afbakening)",
-      "vermenigvuldiging wegens onvoldoende voorafbetalingen",
-      "verlaagd tarief 20 %",
-      "voorafbetaling (VA1-VA4)",
-      "voorheffing (roerende, fictieve, FBB)",
-      "WIB92 Titel III"
-    ]
-  }
+  "relaties": [],
+  "concept_type": "kader"
 }

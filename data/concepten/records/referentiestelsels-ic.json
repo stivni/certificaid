@@ -1,0 +1,59 @@
+{
+  "id": "referentiestelsels-ic",
+  "naam": {
+    "primair": "Referentiestelsels ic"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      }
+    ],
+    "ankers": [
+      "1.7.XII",
+      "1.7.XII.A",
+      "1.7.XII.B",
+      "1.7.XII.C",
+      "1.7.XII.D",
+      "1.7.XII.E",
+      "1.7.XII.G",
+      "1.7.XII.H"
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Referentiestelsels ic",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [],
+  "concept_type": "kader"
+}

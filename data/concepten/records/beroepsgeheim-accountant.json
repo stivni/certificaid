@@ -1,163 +1,53 @@
 {
   "id": "beroepsgeheim-accountant",
-  "naam": "Beroepsgeheim van de accountant",
-  "node_type": "regel",
-  "schema_version": "1.5",
-  "status": "seed",
-  "linked_anchors": [
-    "1.6.I.B",
-    "1.6.III.E"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.6.I",
-    "linked_anchors": [
-      "1.6.I.B",
-      "1.6.III.E"
+  "naam": {
+    "primair": "Beroepsgeheim accountant"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      }
     ],
-    "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
-    "last_extract_pass": "concept-extractie-v4-2026-05-18T17:35Z",
-    "last_extract_at": "2026-05-18T17:35:00Z",
-    "edge_key_migrated": "2026-05-18"
+    "ankers": [
+      "4.0.I.D",
+      "4.0.taak.2"
+    ]
   },
-  "main_rule": {
-    "text": "De externe accountant is gebonden door het beroepsgeheim (art. 458 Strafwetboek). Hij mag vertrouwelijke informatie niet vrijwillig delen — ook niet bij een verhoor door politieambtenaar of openbaar ministerie. Uitzonderingen: getuigenis in rechte voor een rechter, eigen verdediging in een tuchtprocedure of ereloon-betwisting, wettelijke meldingsplicht (antiwitwas).",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA-deontologie-beroepsgeheim + art. 458 Strafwetboek"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-deontologie-beroepsgeheim__sec_wanneer-de-accountant-of-de-belastingadviseur-persoonlijk-be",
-          "sha256": null,
-          "version": "rag-v1"
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Beroepsgeheim accountant",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
+      }
     }
   },
-  "voorwaarden": [
-    {
-      "text": "Uitzondering 1 — getuigenis in rechte: voor een rechter (onderzoeksrechter, strafrechter, burgerlijke rechter) mag de accountant onthullen, mits de rechter beoordeelt of de informatie effectief onder het beroepsgeheim valt.",
-      "source": {
-        "type": "norm",
-        "short": "ITAA-deontologie-beroepsgeheim"
-      },
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ITAA-deontologie-beroepsgeheim__sec_wanneer-de-accountant-of-de-belastingadviseur-persoonlijk-be",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Uitzondering 2 — eigen verdediging: het beroepsgeheim geldt niet wanneer de accountant zich moet verdedigen tegen aansprakelijkheidsclaims of erelonen-betwistingen.",
-      "source": {
-        "type": "norm",
-        "short": "ITAA-deontologie-beroepsgeheim"
-      },
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ITAA-deontologie-beroepsgeheim__sec_wanneer-de-accountant-of-de-belastingadviseur-persoonlijk-be",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Uitzondering 3 — wettelijke meldingsplicht: antiwitwaswet (CFI-meldingen), DAC6 (grensoverschrijdende fiscale constructies). Hier prevaleert de meldingsplicht.",
-      "source": {
-        "type": "norm",
-        "short": "ITAA-deontologie-beroepsgeheim"
-      },
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ITAA-deontologie-beroepsgeheim__sec_wanneer-de-accountant-of-de-belastingadviseur-persoonlijk-be",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "De accountant mag NIET vrijwillig een onrechtmatige daad van zijn klant melden bij de gerechtelijke autoriteiten — beroepsgeheim primeert. Wel mag hij de klant intern waarschuwen; die waarschuwingen kunnen niet tegen de klant worden gebruikt.",
-      "confidence": "grounded",
-      "source": {
-        "type": "norm",
-        "short": "ITAA-deontologie-beroepsgeheim"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ITAA-deontologie-beroepsgeheim__sec_wanneer-de-accountant-of-de-belastingadviseur-persoonlijk-be",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Werkdocumenten + controledossier zijn gedekt door het beroepsgeheim — ze blijven eigendom van de accountant en mogen niet zomaar aan derden worden afgegeven.",
-      "confidence": "grounded",
-      "source": {
-        "type": "norm",
-        "short": "ITAA Algemene controlenorm §4"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "vereist-kennis-van",
-      "redenering": "Het beroepsgeheim is een wezenlijke pijler van het statuut van de gecertificeerd accountant.",
-      "target_id": "gecertificeerd-accountant-ga"
-    },
-    {
-      "type": "vergelijkt-met",
-      "redenering": "Twee deontologische pijlers: discretie tegenover derden (beroepsgeheim) versus oordeels- en wilsvrijheid tegenover de cliënt (onafhankelijkheid). Vaak verward in examen-casussen.",
-      "facet": {
-        "aspect": "deontologische-pijler"
-      },
-      "target_id": "onafhankelijkheid-externe-accountant"
-    },
-    {
-      "type": "getriggerd-door",
-      "redenering": "Antiwitwas-meldingsplicht (CFI) is een wettelijke uitzondering die het beroepsgeheim doorbreekt — record nog niet aanwezig.",
-      "facet": {
-        "conditie": "vermoeden-witwasoperatie"
-      },
-      "target_status": "pending",
-      "target_id": "antiwitwasmeldingsplicht-accountant"
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Een politieambtenaar contacteert Sofie Janssens en vraagt naar de boekhouding van Meubelzaak Mertens BV in het kader van een fiscaal onderzoek. Sofie weigert vrijwillig te antwoorden — beroepsgeheim. Pas wanneer een onderzoeksrechter haar oproept, mag zij — en moet zij zelfs — verschijnen en de eed afleggen."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
-  "situering": "Het beroepsgeheim van de accountant is strafrechtelijk verankerd (art. 458 Sw.) en deontologisch uitgewerkt (KB plichtenleer + ITAA-deontologische gids). Het is een PLICHT (niet alleen een recht) om vertrouwelijke informatie van de cliënt niet vrijwillig prijs te geven. Drie scherpe uitzonderingen: getuigenis voor een rechter, eigen verdediging, en wettelijke meldingsplichten (CFI antiwitwas, DAC6). Cruciaal voor het vertrouwensmandaat tussen accountant en cliënt — en voor de bescherming van controledocumentatie."
+  "relaties": [],
+  "concept_type": "kader"
 }

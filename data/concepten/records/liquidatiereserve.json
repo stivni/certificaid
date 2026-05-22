@@ -1,744 +1,737 @@
 {
   "id": "liquidatiereserve",
-  "schema_version": "2.0",
-  "kind": "fiscale-regeling",
-  "status": "draft",
-  "primary_po": "2.3",
-  "linked_anchors": [
-    "2.3.II.F",
-    "2.3.II.I",
-    "2.3.taak.2",
-    "2.3.taak.3"
-  ],
-  "titel": "Liquidatiereserve",
-  "subtitel": "Anticipatieve heffing bij aanleg + verlaagde RV bij uitkering — art. 184quater WIB92",
-  "tags": [
-    "fiscale-regeling",
-    "dividendpolitiek",
-    "kmo",
-    "vennootschapsbelasting",
-    "uitkeringsregimes"
-  ],
-  "definitie": {
-    "text": "De liquidatiereserve is een facultatief fiscaal regime waarbij een kleine vennootschap een gedeelte of het geheel van haar boekhoudkundige winst na belasting boekt naar een afzonderlijke passiefrekening, tegen betaling van een anticipatieve aanslag van 10 % — waarna uitkering aan aandeelhouders bij ontbinding vrijgesteld is van roerende voorheffing, of bij tussentijdse uitkering na 5 jaar slechts 5 % roerende voorheffing verschuldigd is.",
-    "confidence": "grounded",
-    "bron": "WIB92 art. 184quater"
-  },
-  "wat_er_economisch_echt_gebeurt": {
-    "text": "De vennootschap betaalt vandaag 10 % belasting op haar jaarwinst na vennootschapsbelasting als anticipatieve heffing — een soort vooruitbetaling op de latere uitkering. In ruil daarvoor zijn de gereserveerde bedragen bij effectieve uitkering slechts belast aan 5 % roerende voorheffing (na 5 jaar wachttijd) of 0 % bij vereffening, in plaats van het standaardtarief van 30 %. Het totale belastingeffect over de twee fasen bedraagt economisch gezien ca. 13,64 % (10 % + 5 % op het resterende 90 %) versus 30 % standaard — een aanzienlijk voordeel voor aandeelhouders-natuurlijke-personen die niet onmiddellijk liquiditeiten nodig hebben. Voor aandeelhouders-vennootschappen is het regime minder aantrekkelijk omdat DBI-aftrek dikwijls een betere piste is.",
-    "confidence": "inferred",
-    "bron_context": [
-      "WIB92 art. 184quater",
-      "WIB92 art. 219quater",
-      "WIB92 art. 269 §1 8°",
-      "WIB92 art. 21 11°"
-    ]
-  },
-  "voorkennis_leespad": {
-    "voorvereisten": [
-      "vennootschapsbelasting",
-      "kleine-vennootschap",
-      "roerende-voorheffing-dividend"
+  "naam": {
+    "primair": "Liquidatiereserve",
+    "synoniemen": [
+      "VVPR-bis alternatief voor liquidatie"
     ],
-    "kader": "vennootschapsbelasting",
-    "naast_relevant": [
-      "vvprbis",
-      "dividenduitkering",
-      "liquidatiebonus"
-    ],
-    "volgkennis": [
-      "vereffening",
-      "kapitaalvermindering"
-    ]
-  },
-  "wanneer_is_dit_van_toepassing": {
-    "voor_wie": {
-      "text": "Kleine vennootschappen (art. 1:24 WVV) waarvan de aandeelhouders overwegend natuurlijke personen zijn die op lange termijn winst willen ophopen en uitkeren bij ontbinding of na een wachttermijn.",
-      "confidence": "grounded",
-      "bron": "WIB92 art. 184quater lid 1 juncto WVV art. 1:24"
-    },
-    "wanneer_wel": [
-      {
-        "regel": "Vennootschap heeft jaarlijks belastbare winst en aandeelhouders hebben geen onmiddellijke dividendbehoefte.",
-        "rationale": "— anticipatieve 10 % is geen verloren kost als de uitkering uiteindelijk plaatsvindt; de netto RV-besparing is 25 % (30 % - 5 %) op het bedrag.",
-        "confidence": "vuistregel"
-      },
-      {
-        "regel": "Exit-planning bij familiale KMO: aandeelhouder-zaakvoerder plant ontbinding binnen 10-15 jaar.",
-        "rationale": "— bij ontbinding is liquidatiebonus uit liquidatiereserve vrijgesteld van roerende voorheffing (art. 21 11° WIB92).",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 21 11°"
-      },
-      {
-        "regel": "Alternatief wanneer vennootschap niet voldoet aan VVPRbis-voorwaarden (bv. aandelen niet volledig in geld gestort).",
-        "rationale": "— liquidatiereserve stelt andere voorwaarden dan VVPRbis; geen vereiste van inbreng in geld.",
-        "confidence": "inferred"
-      }
-    ],
-    "wanneer_niet": [
-      {
-        "regel": "Wanneer de vennootschap geen kleine vennootschap is (groot, beursgenoteerd, boven art. 1:24 WVV-drempels).",
-        "rationale": "— regime is wettelijk voorbehouden aan kleine vennootschappen.",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 184quater lid 1"
-      },
-      {
-        "regel": "Wanneer de aandeelhouder een vennootschap is die DBI-aftrek kan genieten.",
-        "rationale": "— bij aandeelhouder-vennootschap werkt DBI-aftrek als quasi-vrijstelling; liquidatiereserve voegt weinig toe en kost 10 % vooraf.",
-        "confidence": "inferred"
-      },
-      {
-        "regel": "Wanneer de vennootschap aandelen of deelbewijzen van een Carried interest vehikel bezit.",
-        "rationale": "— wettelijke uitsluiting; zelfs het jaar van definitieve vervreemding telt mee.",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 184quater laatste lid"
-      }
-    ],
-    "hoofdvoordeel": {
-      "text": "Effectief gecombineerd tarief van ca. 13,64 % (10 % + 5 %) bij uitkering na 5 jaar, versus 30 % standaard — besparing tot 16,36 procentpunt.",
-      "confidence": "inferred"
-    },
-    "hoofdrisico": {
-      "text": "De 10 % anticipatieve aanslag is definitief en niet terugbetaalbaar, ook al wordt de liquidatiereserve later aangetast door verliezen of gedwongen uitkering vóór de 5-jaarstermijn (dan geldt 15 % roerende voorheffing, en is de netto fiscale kost hoger dan standaard 30 %).",
-      "confidence": "grounded",
-      "bron": "WIB92 art. 219quater + art. 269 §1 8°"
+    "vertaling": {
+      "fr": "Réserve de liquidation",
+      "nl": "Liquidatiereserve"
     }
   },
-  "hoe_het_werkt": {
-    "onderdelen": [
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "quick-pass-run1-20260522",
+      "extract_prompt": "prompts/multipass/run-1-draft.md",
+      "iteratie": "v1",
+      "mcp_calls": 0
+    },
+    "changelog": [
       {
-        "element_id": "aanleg-liquidatiereserve",
-        "inhoud_type": "mechanisme",
-        "titel": "Fase 1 — Aanleg: anticipatieve aanslag van 10 %",
-        "beschrijving": "Bij de jaarlijkse resultaatverwerking beslist de algemene vergadering om een gedeelte of het geheel van de boekhoudkundige winst na belasting (code 9905 jaarrekening NBB) over te boeken naar een afzonderlijke passiefrekening (subrekening per jaar van aanleg). Tegelijk wordt een afzonderlijke aanslag van 10 % gevestigd op het aangelegde bedrag. Deze aanslag staat los van de gewone vennootschapsbelasting en wordt samen met die belasting ingekohierd. De aanslag is definitief — niet verrekenbaar en niet terugbetaalbaar.",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 184quater + art. 219quater; CBN-advies 2015/2 §Algemeen",
-        "weergaven": [
-          {
-            "type": "stappenlijst",
-            "stappen": [
-              "1. Bestuursorgaan stelt jaarrekening op en bepaalt te bestemmen winst (code 9905).",
-              "2. Algemene vergadering keurt jaarrekening goed, inclusief bestemming naar liquidatiereserve.",
-              "3. Liquidatiereserve wordt geboekt op afzonderlijke passiefrekening (rek. 133X per jaar).",
-              "4. Bijzondere aangifte ingediend + 10 % afzonderlijke aanslag betaald.",
-              "5. Opgave gevoegd bij aangifte vennootschapsbelasting (model minister van Financiën)."
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 24)"
+      }
+    ],
+    "ankers": [
+      "2.3.II.F",
+      "2.3.II.I",
+      "2.3.taak.3"
+    ]
+  },
+  "inhoud": {
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "verlaagd-tarief-kleine-vennootschap",
+        "roerende-voorheffing",
+        "vennootschapsbelasting",
+        "resultaatverwerking"
+      ],
+      "naast_relevant": [
+        "vvprbis",
+        "uitkering-aan-aandeelhouders",
+        "ontbinding-en-vereffening"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
             ]
           },
-          {
-            "type": "boeking",
-            "label": "Aanleg liquidatiereserve (CBN 2015/2 voorbeeld 1: aanleg 1.200, aanslag 120)",
-            "rekeningen": [
+          "tekst": "Kleine vennootschappen (in de zin van artikel 1:24 WVV) die winst na belasting willen parkeren met oog op latere ontbinding of voordelig dividend."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
               {
-                "rek": "6921",
-                "naam": "Toevoeging aan de overige reserves",
-                "debet": 1200,
-                "credit": null
-              },
-              {
-                "rek": "133X",
-                "naam": "Beschikbare reserves art. 184quater WIB92 (boekjaar N)",
-                "debet": null,
-                "credit": 1200
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
               }
-            ],
-            "noot": "De afzonderlijke aanslag van 10 % (hier 120) wordt geboekt als een bijzondere last (sub 6702 geraamde belastingen). Bron: CBN 2015/2."
+            ]
           },
-          {
-            "type": "berekening",
-            "label": "Berekening afzonderlijke aanslag bij aanleg",
-            "formule": "Afzonderlijke aanslag = 10 % x boekhoudkundige winst na belasting (na aftrek gewone VenB, vóór aanslag liquidatiereserve). NB: de aanslag van 10 % vermindert zelf ook de grondslag: formule is 10/110 x netto-winst-voor-aanslag als het de volledige winst betreft.",
-            "voorbeeld": "Winst 2.000, gewone VenB 570, volledige winst naar liquidatiereserve: aanslag = 10/110 x (2.000-570) = 130. Liquidatiereserve = 2.000-570-130 = 1.300."
-          }
-        ]
-      },
+          "tekst": "Vennootschappen waar de aandeelhouder een langetermijnhorizon heeft en niet op korte termijn dividend wenst te ontvangen."
+        }
+      ],
+      "niet_voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Grote en middelgrote vennootschappen — de liquidatiereserve is uitdrukkelijk voorbehouden aan kleine vennootschappen in de zin van de vennootschappenwetgeving."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Aandeelhouders die op korte termijn (minder dan 5 jaar) een dividend nodig hebben, want dan bedraagt de aanvullende roerende voorheffing 20 % bovenop de reeds betaalde 10 %."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "De vennootschap moet op het moment van de aanleg kwalificeren als kleine vennootschap conform artikel 1:24 WVV (criteria: balanstotaal, netto-omzet, gemiddeld personeelsbestand)."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Alleen de netto-boekhoudkundige winst na belastingen van het boekjaar kan worden aangelegd als liquidatiereserve; eerder gevormde reserves kunnen niet worden omgezet (tenzij via afzonderlijke omvormingsregeling met bijzondere aanslag van 10 %)."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "De bijzondere aanslag van 10 % is verschuldigd op het ogenblik van de boeking van de liquidatiereserve (aangifte vennootschapsbelasting van het boekjaar van aanleg)."
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Liquidatiereserve en VVPR-bis kunnen beide toegepast worden, maar leiden tot verschillende fiscale trajecten; de keuze is afhankelijk van de timing van uitkering."
+        }
+      ],
+      "voordeel": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Bij uitkering na ontbinding is de liquidatiereserve volledig vrijgesteld van roerende voorheffing; de totale fiscale druk bedraagt dan maximaal de bijzondere aanslag van 10 % plus het gewone vennootschapsbelastingtarief, wat voor kleine vennootschappen aanzienlijk gunstiger kan zijn dan de gewone roerende voorheffing van 30 %."
+        }
+      ],
+      "risico": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Indien de vennootschap vroegtijdig dividend uitkeert (minder dan 5 jaar na aanleg), bedraagt de bijkomende roerende voorheffing 20 %, wat de totale fiscale kost op 30 % brengt — gelijk aan het gewone tarief zonder enig voordeel van het regime."
+        }
+      ]
+    },
+    "elementen": [
       {
-        "element_id": "wachttermijn-fifo",
-        "inhoud_type": "regel",
-        "titel": "FIFO-regel: oudste reserves worden eerst aangetast",
-        "beschrijving": "Indien een gedeelte van de liquidatiereserve wordt aangetast, worden de oudst gevormde reserves geacht eerst te zijn aangetast. Dit is wettelijk vastgelegd en bepaalt het tarief dat van toepassing is bij uitkering. Het is de reden waarom de CBN aanbeveelt om per jaar van aanleg een afzonderlijke subrekening bij te houden.",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 184quater lid 4; CBN-advies 2015/2 §Vorming"
-      },
-      {
-        "element_id": "uitkering-na-5-jaar",
-        "inhoud_type": "mechanisme",
-        "titel": "Fase 2a — Uitkering na 5 jaar: 5 % roerende voorheffing",
-        "beschrijving": "Wanneer de liquidatiereserve wordt uitgedeeld als dividend en de reserve al gedurende minstens 5 jaar op de afzonderlijke rekening is gebleven (te rekenen vanaf de laatste dag van het belastbaar tijdperk van aanleg), bedraagt de roerende voorheffing 5 %. Gecombineerd met de 10 % anticipatieve aanslag bedraagt het totale fiscale gewicht ca. 13,64 % op de originele winst.",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 269 §1 8°; CBN 2015/2 voetnoot 14",
+        "id": "aanleg-liquidatiereserve",
+        "naam": {
+          "primair": "Aanleg van de liquidatiereserve"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
         "weergaven": [
           {
             "type": "boeking",
-            "label": "Uitkering na 5 jaar (RV 5 %) — voorbeeld: uitkering 1.200",
-            "rekeningen": [
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "regels": [
               {
-                "rek": "694",
-                "naam": "Vergoeding van het kapitaal",
-                "debet": 1200,
-                "credit": null
+                "debet": "Resultaatverwerking (winst te bestemmen)",
+                "credit": "Liquidatiereserve (passief)",
+                "bedrag": "X"
               },
               {
-                "rek": "470",
-                "naam": "Dividenden en tantièmes over vorige boekjaren",
-                "debet": null,
-                "credit": 1140
-              },
-              {
-                "rek": "453",
-                "naam": "Ingehouden voorheffingen (5 % van 1.200)",
-                "debet": null,
-                "credit": 60
+                "debet": "Bijzondere aanslag op liquidatiereserve (belastingkost)",
+                "credit": "Te betalen belastingen",
+                "bedrag": "0,10 × X"
               }
             ],
-            "noot": "Bron: CBN-advies 2015/2 §Boeking bij toekenning of betaalbaarstelling."
+            "toelichting": "De bijzondere aanslag van 10 % wordt verwerkt als een bijkomende vennootschapsbelasting in de aangifte van het aanlagjaar."
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "Aanleg van de liquidatiereserve is de boeking waarbij een bedrag uit de netto-boekhoudkundige winst na belastingen van het lopende boekjaar wordt overgebracht naar een afzonderlijke reserve op het passief, gelijktijdig met het aanvaarden van een bijzondere aanslag van 10 %."
+          }
+        }
+      },
+      {
+        "id": "bijzondere-aanslag-10pct",
+        "naam": {
+          "primair": "Bijzondere aanslag van 10 %"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "rationale": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "De bijzondere aanslag vertegenwoordigt het fiscale 'toegangsgeld' tot het regime: door vooraf 10 % te betalen, koopt de vennootschap het recht om later bij liquidatie geen roerende voorheffing te betalen. Dit is een bewuste keuze van de wetgever om het systeem budgetneutraal te houden op langere termijn."
           },
+          "definitie": {
+            "tekst": "Een afzonderlijke belasting van 10 % op de aangelegde liquidatiereserve, opeisbaar in het aanlagjaar en geboekt als aanvullende vennootschapsbelasting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitkering-bij-liquidatie",
+        "naam": {
+          "primair": "Uitkering bij effectieve liquidatie (ontbinding)"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "Bij uitkering van de liquidatiereserve in het kader van de ontbinding en vereffening van de vennootschap is geen roerende voorheffing verschuldigd op het bedrag van de reserve (exclusief bijzondere aanslag, die al eerder betaald werd)."
+          }
+        }
+      },
+      {
+        "id": "uitkering-als-dividend-voor-5-jaar",
+        "naam": {
+          "primair": "Uitkering als dividend vóór 5 jaar na aanleg"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "rationale": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "De sanctie van 20 % (wat de totale last op 30 % brengt, gelijk aan het gewone tarief) ontmoedigt misbruik: een vennootschap die snel dividend wil uitkeren heeft geen voordeel van het regime, terwijl een vennootschap met een echte lange-termijn-intentie beloond wordt met de lagere last bij liquidatie."
+          },
+          "definitie": {
+            "tekst": "Wordt de liquidatiereserve uitgedeeld als dividend binnen de 5 jaar na aanleg (exclusief het jaar van aanleg), dan is 20 % aanvullende roerende voorheffing verschuldigd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitkering-als-dividend-na-5-jaar",
+        "naam": {
+          "primair": "Uitkering als dividend na 5 jaar na aanleg"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "rationale": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "tekst": "De 5 %-drempel na vijf jaar is een compromis: de aandeelhouder geniet een gunstiger tarief dan het gewone 30 % (totale kost 10 % + 5 % = ca. 14,5 % effectief op de gereserveerde winst na VenB), maar betaalt toch iets meer dan bij werkelijke liquidatie."
+          },
+          "definitie": {
+            "tekst": "Wordt de liquidatiereserve uitgedeeld als dividend na minstens 5 jaar (exclusief het jaar van aanleg), dan is slechts 5 % aanvullende roerende voorheffing verschuldigd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "omvorming-bestaande-reserves",
+        "naam": {
+          "primair": "Omvorming van bestaande belaste reserves (intern liquidatie-dividend)"
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "betwijfeld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22",
+              "context": "Overgangsregeling had een beperkte toepassingsperiode; details en huidige beschikbaarheid onzeker."
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Een afzonderlijke overgangsregeling liet vennootschappen toe om bestaande belaste reserves om te vormen naar liquidatiereserve door uitkering als dividend gevolgd door onmiddellijke herinbreng, met een bijzondere aanslag van 10 %.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22",
+                  "context": "Overgangsregeling had een beperkte toepassingsperiode; details en huidige beschikbaarheid onzeker."
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-verwerking-10pct",
+        "naam": {
+          "primair": "Boekhoudkundige verwerking bijzondere aanslag"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "weergaven": [
           {
-            "type": "vergelijkingstabel",
-            "label": "Netto-uitkering per scenario (bruto winst 1.000 voor aanleg)",
+            "type": "tabel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
             "kolommen": [
               "Scenario",
-              "Belasting fase 1",
-              "Belasting fase 2 (RV)",
-              "Netto aandeelhouder"
+              "Bijzondere aanslag",
+              "Aanvullende RV bij uitkering",
+              "Totale fiscale kost"
             ],
             "rijen": [
               [
-                "Standaard dividend (30 %)",
-                "VenB (~25 %)",
-                "30 % op 750",
-                "525"
+                "Uitkering bij liquidatie (ontbinding)",
+                "10 %",
+                "0 %",
+                "10 % (+ gewone VenB)"
               ],
               [
-                "Liquidatiereserve na 5 jaar",
-                "10 % anticipatief",
-                "5 % op 900",
-                "855"
+                "Uitkering als dividend na ≥ 5 jaar",
+                "10 %",
+                "5 %",
+                "~14,5 % (+ gewone VenB)"
               ],
               [
-                "Liquidatiereserve bij ontbinding",
-                "10 % anticipatief",
-                "0 % (art. 21 11°)",
-                "900"
+                "Uitkering als dividend < 5 jaar",
+                "10 %",
+                "20 %",
+                "~27 % (+ gewone VenB)"
+              ],
+              [
+                "Gewoon dividend (geen regime)",
+                "—",
+                "30 %",
+                "30 % RV (+ gewone VenB)"
               ]
-            ],
-            "noot": "Vereenvoudigd; VenB-tarief voor kleine vennootschappen te verifiëren. RV-bedragen zijn indicatief."
+            ]
           }
-        ]
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "De bijzondere aanslag van 10 % wordt boekhoudkundig verwerkt als een bijkomende belastingkost in het jaar van aanleg, en opgenomen in de aangifte vennootschapsbelasting als afzonderlijke belasting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
       },
       {
-        "element_id": "uitkering-voor-5-jaar",
+        "id": "kleine-vennootschap-voorwaarde",
+        "naam": {
+          "primair": "Kleine vennootschap als toepassingscriterium"
+        },
         "inhoud_type": "regel",
-        "titel": "Fase 2b — Uitkering binnen 5 jaar: 15 % roerende voorheffing",
-        "beschrijving": "Wordt de liquidatiereserve uitgedeeld als dividend vóórdat de reserve 5 jaar oud is, bedraagt de roerende voorheffing 15 %. Gecombineerd met de 10 % anticipatieve aanslag wordt de effectieve belastingdruk hoger dan bij een gewone dividenduitkering aan 30 %. Dit is het voornaamste risico bij onverwachte vroegtijdige uitkering.",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 269 §1 8°",
-        "weergaven": [
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De liquidatiereserve staat alleen open voor vennootschappen die op het moment van aanleg kwalificeren als kleine vennootschap; bij verlies van die status voor toekomstige boekjaren mag voor die boekjaren geen nieuwe liquidatiereserve worden aangelegd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De liquidatiereserve is een fiscaal regime waarmee een kleine vennootschap een deel van haar netto-boekhoudkundige winst na belasting omzet in een afzonderlijke reserve, zodat die bij effectieve liquidatie zonder bijkomende roerende voorheffing aan de aandeelhouders kan worden uitgekeerd. Bij aanleg betaalt de vennootschap een bijzondere aanslag van 10 % vennootschapsbelasting; bij uitkering vóór liquidatie is afhankelijk van de wachttijd bijkomend 5 % of 20 % roerende voorheffing verschuldigd."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De vennootschap betaalt op het moment van aanleg een bijzondere aanslag van 10 % op de gereserveerde winst; bij latere uitkering als dividend (vóór liquidatie) is nog 5 % of 20 % aanvullende roerende voorheffing verschuldigd, terwijl uitkering bij effectieve ontbinding volledig vrij van roerende voorheffing geschiedt."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Het regime biedt kleine vennootschappen een alternatief voor de VVPR-bis-regeling: in plaats van een verlaagd tarief roerende voorheffing op dividenden te verkrijgen via nieuwe aandelen, worden winsten fiscaal vast geparkeerd in een reserve. De achterliggende logica is dat aandeelhouders van kleine vennootschappen een langetermijnhorizon hebben — zij wachten doorgaans tot de ontbinding om te genieten van de volledige vrijstelling. De wetgever stimuleert zo bestendiging van kapitaal in de vennootschap en ontmoedigt snelle winstuitkeringen; tegelijk biedt het zekerheid over de fiscale kost van toekomstige liquidatieoverschotten."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vvprbis",
+      "toelichting": "Beide regimes verlagen de fiscale kost voor aandeelhouders van kleine vennootschappen, maar via verschillende mechanismen: VVPR-bis via nieuwe aandelen en verlaagd RV-tarief (15 % of 20 %), liquidatiereserve via winstparkering met bijzondere aanslag en vrijstelling bij liquidatie.",
+      "gelijkenissen": [
+        "Beide gericht op kleine vennootschappen",
+        "Beide verminderen de totale fiscale druk op winstuitkering",
+        "Beide zijn niet van rechtswege: de vennootschap maakt een keuze"
+      ],
+      "verschillen": [
+        "VVPR-bis vereist nieuwe inbreng (aandelen na 1 juli 2013); liquidatiereserve is beschikbaar voor alle kleine vennootschappen",
+        "VVPR-bis geeft onmiddellijk verlaagd tarief; liquidatiereserve vereist wachten of aanvaarden van hogere kost bij vroeg uitkeren",
+        "Liquidatiereserve is volledig vrij van RV bij liquidatie; VVPR-bis niet"
+      ],
+      "verwarring_risico": "Studenten verwarren de twee regimes omdat beide een verlaagd RV-tarief vermelden; het onderscheid in toelatingsvoorwaarden en toepassingsmechanisme is cruciaal.",
+      "render_hint": "als_keuze",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
           {
-            "type": "berekening",
-            "label": "Break-even analyse: wanneer is vroegtijdige uitkering onvoordelig?",
-            "formule": "Effectief tarief vroegtijdig = 10 % + 15 % × (1 - 10 %) = 10 % + 13,5 % = 23,5 %. Standaard RV = 30 %. Dus nog steeds goedkoper, maar marge is krap. Bron: redenering op basis van wettekst."
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
           }
         ]
-      },
-      {
-        "element_id": "uitkering-bij-ontbinding",
-        "inhoud_type": "mechanisme",
-        "titel": "Fase 2c — Uitkering bij ontbinding: vrijgesteld van roerende voorheffing",
-        "beschrijving": "Wanneer de liquidatiereserve wordt verdeeld ten gevolge van de ontbinding (vereffening) van de vennootschap, is geen roerende voorheffing verschuldigd. De liquidatiebonus die voortkomt uit de liquidatiereserve is vrijgesteld op grond van art. 21 11° WIB92. Dit maakt de liquidatiereserve tot het meest efficiënte instrument voor exit-planning via vereffening.",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 21 11°; CBN 2015/2 §Boeking — noot 15"
-      },
-      {
-        "element_id": "carried-interest-uitsluiting",
-        "inhoud_type": "uitzondering",
-        "titel": "Uitsluiting: carried interest vehikel",
-        "beschrijving": "Een vennootschap kan de liquidatiereserve niet aanleggen zolang zij aandelen of deelbewijzen van een Carried interest vehikel bezit, met inbegrip van het jaar van definitieve vervreemding. Dit is een anti-misbruikbepaling.",
-        "confidence": "grounded",
-        "bron": "WIB92 art. 184quater laatste lid"
       }
-    ]
-  },
-  "perspectieven": [
-    {
-      "perspectief_id": "kmo-vennootschap-uitkerend",
-      "naam": "KMO-vennootschap (uitkerende partij)",
-      "rollen": [
-        {
-          "rol": "boekhouder",
-          "label": "Boekhouder",
-          "onderdelen": [
-            {
-              "element_id": "boekhouder-aanleg",
-              "inhoud_type": "procedure",
-              "titel": "Aanleg: boeking bij resultaatverwerking",
-              "beschrijving": "Bij de jaarlijkse afsluiting wordt de beslissing van de algemene vergadering om liquidatiereserve aan te leggen verwerkt in de resultaatverwerking. De CBN beveelt aan om afzonderlijke subrekeningen per jaar van aanleg bij te houden (bv. 133.2026, 133.2027 ...) zodat de 5-jaartermijn per schijf correct is te volgen.",
-              "confidence": "grounded",
-              "bron": "CBN-advies 2015/2 §Vorming + §Boeking",
-              "weergaven": [
-                {
-                  "type": "boeking",
-                  "label": "Aanleg 1.200 liquidatiereserve + afzonderlijke aanslag 120 (10 %)",
-                  "rekeningen": [
-                    {
-                      "rek": "6921",
-                      "naam": "Toevoeging aan de overige reserves",
-                      "debet": 1200,
-                      "credit": null
-                    },
-                    {
-                      "rek": "133X",
-                      "naam": "Beschikbare reserves art. 184quater (boekjaar N)",
-                      "debet": null,
-                      "credit": 1200
-                    },
-                    {
-                      "rek": "6702",
-                      "naam": "Geraamde belastingen — afzonderlijke aanslag LR",
-                      "debet": 120,
-                      "credit": null
-                    },
-                    {
-                      "rek": "450",
-                      "naam": "Belastingen en heffingen",
-                      "debet": null,
-                      "credit": 120
-                    }
-                  ]
-                },
-                {
-                  "type": "stappenlijst",
-                  "stappen": [
-                    "1. Controleer dat vennootschap kwalificeert als kleine vennootschap (art. 1:24 WVV).",
-                    "2. Bepaal boekhoudkundige winst na belasting (code 9905 NBB-model).",
-                    "3. Overleg met bestuur welk bedrag als liquidatiereserve wordt aangelegd.",
-                    "4. Boek liquidatiereserve op afzonderlijke subrekening per boekjaar.",
-                    "5. Bereken 10 % afzonderlijke aanslag en boek die apart.",
-                    "6. Voeg opgave toe aan aangifte vennootschapsbelasting.",
-                    "7. Geef toelichting in jaarrekening over toestand en ouderdom liquidatiereserves."
-                  ]
-                }
-              ]
-            },
-            {
-              "element_id": "boekhouder-uitkering",
-              "inhoud_type": "procedure",
-              "titel": "Uitkering: boeking RV-inhouding bij dividenduitkering",
-              "beschrijving": "Bij uitkering van de liquidatiereserve als dividend wordt de juiste roerende voorheffing ingehouden: 5 % na 5 jaar, 15 % voor 5 jaar. De FIFO-regel bepaalt welke schijf aangetast wordt. Bij vereffening: geen roerende voorheffing inhouden.",
-              "confidence": "grounded",
-              "bron": "CBN-advies 2015/2 §Boeking bij toekenning; WIB92 art. 269 §1 8°",
-              "weergaven": [
-                {
-                  "type": "boeking",
-                  "label": "Uitkering 1.200 na 5 jaar (RV 5 % = 60)",
-                  "rekeningen": [
-                    {
-                      "rek": "694",
-                      "naam": "Vergoeding van het kapitaal",
-                      "debet": 1200,
-                      "credit": null
-                    },
-                    {
-                      "rek": "470",
-                      "naam": "Dividenden en tantièmes te betalen",
-                      "debet": null,
-                      "credit": 1140
-                    },
-                    {
-                      "rek": "453",
-                      "naam": "Ingehouden voorheffingen (RV 5 %)",
-                      "debet": null,
-                      "credit": 60
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "element_id": "boekhouder-toelichting-jaarrekening",
-              "inhoud_type": "verplichting",
-              "titel": "Toelichting jaarrekening",
-              "beschrijving": "De CBN beveelt aan dat in de toelichting bij de jaarrekening informatie wordt gegeven over de toestand van de liquidatiereserves en over de ouderdom ervan (per jaar van aanleg). Dit is nodig om de FIFO-toepassing en het toepasselijke tarief bij latere uitkering te kunnen documenteren.",
-              "confidence": "grounded",
-              "bron": "CBN-advies 2015/2 §Vorming (aanbeveling)"
-            }
-          ]
-        },
-        {
-          "rol": "fiscaal-adviseur",
-          "label": "Fiscaal adviseur",
-          "onderdelen": [
-            {
-              "element_id": "fiscaal-adviseur-timing",
-              "inhoud_type": "keuze",
-              "titel": "Timing-keuze: aanleggen vs niet aanleggen vs VVPRbis",
-              "beschrijving": "De kernvraag voor de fiscaal adviseur is of de cliënt de 10 % anticipatieve aanslag vandaag wil betalen in ruil voor een lagere RV later. De keuze hangt af van: (1) liquiditeitspositie van de vennootschap, (2) verwachte ontbindingshorizon, (3) status van VVPRbis-aandelen, (4) aandeelhoudersprofiel (NP vs vennootschap). De regimes VVPRbis en liquidatiereserve zijn niet combineerbaar op dezelfde reserves — dit is de sleutelkeuze.",
-              "confidence": "inferred",
-              "weergaven": [
-                {
-                  "type": "beslisboom",
-                  "stappen": [
-                    "Is de vennootschap een kleine vennootschap (art. 1:24 WVV)? Nee → liquidatiereserve niet mogelijk.",
-                    "Zijn de aandeelhouders overwegend NP? Nee → overweeg DBI-route via holding.",
-                    "Heeft de vennootschap VVPRbis-gekwalificeerde aandelen? Ja → vergelijk 15 % (VVPRbis na 3 jaar) vs 5 % (LR na 5 jaar) + 10 % vooraf.",
-                    "Is de exitstermijn > 5 jaar? Ja → liquidatiereserve kan interessant zijn. Nee → VVPRbis of standaard dividend."
-                  ]
-                }
-              ]
-            },
-            {
-              "element_id": "fiscaal-adviseur-exit-planning",
-              "inhoud_type": "keuze",
-              "titel": "Exit-planning via liquidatiereserve",
-              "beschrijving": "Bij een familiale KMO waarbij de aandeelhouder-bestuurder op termijn de vennootschap wil ontbinden, is de liquidatiereserve het meest efficiënte uitkeringsregime: bij vereffening is de liquidatiebonus uit liquidatiereserve vrijgesteld van roerende voorheffing. Gecombineerd met de 10 % anticipatieve aanslag bedraagt het totale fiscale gewicht 10 %, versus 30 % bij gewone liquidatiebonus. Jaarlijkse aanleg opbouwen werkt als pensioensparen op vennootschapsniveau.",
-              "confidence": "inferred"
-            },
-            {
-              "element_id": "fiscaal-adviseur-carried-interest-check",
-              "inhoud_type": "voorwaarde",
-              "titel": "Pre-check: carried interest vehikel",
-              "beschrijving": "Controleer vóór aanleg of de vennootschap (al dan niet onrechtstreeks) aandelen of deelbewijzen van een Carried interest vehikel aanhoudt. Indien ja, is aanleg van liquidatiereserve niet mogelijk in dat jaar (inclusief het jaar van definitieve vervreemding).",
-              "confidence": "grounded",
-              "bron": "WIB92 art. 184quater laatste lid"
-            }
-          ]
-        },
-        {
-          "rol": "adviseur",
-          "label": "Algemeen adviseur (exit-planning)",
-          "onderdelen": [
-            {
-              "element_id": "adviseur-holding-structuur",
-              "inhoud_type": "keuze",
-              "titel": "Holding-context: liquidatiereserve voor vennootschap-aandeelhouder?",
-              "beschrijving": "Wanneer de aandeelhouder zelf een holding-vennootschap is, speelt de liquidatiereserve een beperktere rol. De holdingvennootschap ontvangt het dividend; dit dividend is in principe belastbaar in de vennootschapsbelasting van de holding, maar DBI-aftrek kan het effectief vrijstellen. De 10 % anticipatieve aanslag is dan een onnodige kost. Liquidatiereserve is primarily gericht op directe NP-aandeelhouders.",
-              "confidence": "inferred"
-            },
-            {
-              "element_id": "adviseur-familiaal",
-              "inhoud_type": "vuistregel",
-              "titel": "Vuistregel: jaarlijks aanleggen als discipline",
-              "beschrijving": "Voor een stabiele KMO met regelmatige jaarwinst loont het om jaarlijks een vaste schijf als liquidatiereserve aan te leggen, zelfs als de exitdatum nog ver weg is. Dit creëert een progressief opgebouwde reserve die bij ontbinding vrijgesteld is. De 10 % jaarlijkse kost is de prijs voor de latere vrijstelling.",
-              "confidence": "vuistregel"
-            }
-          ]
-        }
-      ]
     },
     {
-      "perspectief_id": "aandeelhouder-np",
-      "naam": "Aandeelhouder — natuurlijke persoon",
-      "rollen": [
-        {
-          "rol": "boekhouder",
-          "label": "Boekhouder (PB-aangifte)",
-          "onderdelen": [
-            {
-              "element_id": "aandeelhouder-np-ontvangst",
-              "inhoud_type": "mechanisme",
-              "titel": "Ontvangst dividend uit liquidatiereserve",
-              "beschrijving": "De aandeelhouder-NP ontvangt het nettodividend na inhouding van 5 % roerende voorheffing (na 5 jaar) of 0 % (bij ontbinding). De roerende voorheffing is bevrijdend — geen verdere aangifte vereist in de personenbelasting, tenzij de aandeelhouder vrijwillig opteert voor aangifte.",
-              "confidence": "inferred"
-            }
-          ]
-        }
-      ]
+      "type": "vereist",
+      "target": "verlaagd-tarief-kleine-vennootschap",
+      "toelichting": "Enkel kleine vennootschappen mogen liquidatiereserve aanleggen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
     },
     {
-      "perspectief_id": "eigen-kantoor-fiscaal",
-      "naam": "Accountant — eigen kantoor",
-      "rollen": [
-        {
-          "rol": "fiscaal-adviseur",
-          "label": "Fiscaal adviseur (proactief dossierwerk)",
-          "onderdelen": [
-            {
-              "element_id": "eigen-kantoor-jaarlijkse-check",
-              "inhoud_type": "vuistregel",
-              "titel": "Jaarlijkse check bij alle KMO-cliënten",
-              "beschrijving": "De accountant controleert jaarlijks bij alle kleine vennootschappen: (1) voldoet de cliënt nog aan KMO-criteria? (2) Is er voldoende winst na belasting? (3) Werd er al een liquidatiereserve aangelegd en hoe oud is die? (4) Nadert een schijf de 5-jaarstermijn? Dit zijn proactieve signalen die de adviseur moet oppikken.",
-              "confidence": "vuistregel"
-            }
-          ]
-        }
-      ]
+      "type": "beinvloed_door",
+      "target": "resultaatverwerking",
+      "toelichting": "De liquidatiereserve wordt aangelegd als onderdeel van de resultaatverwerking na afsluit van het boekjaar.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "ontbinding-en-vereffening",
+      "toelichting": "Bij effectieve ontbinding en vereffening wordt de liquidatiereserve vrijgesteld van RV; het regime is fiscaal het meest voordelig bij effectieve liquidatie.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "roerende-voorheffing",
+      "toelichting": "Het regime beïnvloedt de verschuldigde roerende voorheffing: 0 % bij liquidatie, 5 % na ≥ 5 jaar, of 20 % bij vroege uitkering.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschapsbelasting",
+      "toelichting": "De bijzondere aanslag van 10 % maakt deel uit van de vennootschapsbelasting-aangifte en wordt in dat kader opgelegd en ingevorderd.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "uitkering-aan-aandeelhouders",
+      "toelichting": "De regels voor uitkering aan aandeelhouders (winstuitkeringstest, balanstest) gelden ook voor dividenduitkering uit de liquidatiereserve.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
     }
   ],
-  "veelvoorkomende_verwarringen": [
-    {
-      "element_id": "verwarring-vvprbis",
-      "inhoud_type": "valkuil",
-      "verwarring": "Liquidatiereserve vs VVPRbis",
-      "uitleg": "Beide regimes verlagen de roerende voorheffing bij uitkering, maar ze zijn niet combineerbaar op dezelfde reserves en werken fundamenteel anders. VVPRbis verlaagt de RV op dividend uit vers ingebracht kapitaal (15 % na 3 boekjaren na inbreng), zonder anticipatieve aanslag. Liquidatiereserve verlaagt via een anticipatieve 10 % aanslag bij aanleg tot 5 % RV na 5 jaar (of 0 % bij ontbinding). De keuze is definitief per schijf winst.",
-      "confidence": "grounded",
-      "bron": "WIB92 art. 184quater vs WIB92 art. 269 §2"
-    },
-    {
-      "element_id": "verwarring-liquidatiebonus",
-      "inhoud_type": "valkuil",
-      "verwarring": "Liquidatiereserve vs gewone liquidatiebonus",
-      "uitleg": "De gewone liquidatiebonus (verschil vereffeningssaldo minus fiscaal gestort kapitaal) is belastbaar aan 30 % roerende voorheffing. De liquidatiebonus die voortkomt uit een liquidatiereserve is vrijgesteld (art. 21 11°). Dit onderscheid is cruciaal bij vereffening: de vereffenaar moet weten welk gedeelte van het eigen vermogen kwalificeert als liquidatiereserve.",
-      "confidence": "grounded",
-      "bron": "WIB92 art. 18 2°ter + art. 21 11°"
-    },
-    {
-      "element_id": "verwarring-aanslag-kost",
-      "inhoud_type": "valkuil",
-      "verwarring": "Afzonderlijke aanslag van 10 % is aftrekbaar als beroepskost",
-      "uitleg": "De afzonderlijke aanslag van 10 % op de liquidatiereserve is GEEN belasting op winst in de klassieke zin; ze wordt geboekt als overige belasting (sub 6702). Ze is definitief verworven door de Staat — niet verrekenbaar met de gewone vennootschapsbelasting en eventuele overschotten zijn niet terugbetaalbaar. Aftrekbaarheid als beroepskost: te verifiëren.",
-      "confidence": "grounded",
-      "bron": "CBN-advies 2015/2 §Algemeen voetnoot 8; WIB92 art. 219quater"
-    },
-    {
-      "element_id": "verwarring-fifo-timing",
-      "inhoud_type": "valkuil",
-      "verwarring": "5-jaar wachttijd berekend vanaf aanleg, niet vanaf uitkering",
-      "uitleg": "De 5-jaartermijn loopt vanaf de laatste dag van het belastbaar tijdperk waarin de liquidatiereserve werd aangelegd. Een reserve aangelegd op 31/12/2025 wordt 5 jaar oud op 31/12/2030. Uitkeringen in 2031 komen dus in aanmerking voor 5 % RV. FIFO bepaalt welke schijf wordt aangetast.",
-      "confidence": "grounded",
-      "bron": "WIB92 art. 269 §1 8°; CBN-advies 2015/2 §Vorming"
-    }
-  ],
-  "niet_van_toepassing_op": [
-    {
-      "uitsluiting": "Grote vennootschappen en niet-KMO's",
-      "bron": "WIB92 art. 184quater lid 1",
-      "confidence": "grounded"
-    },
-    {
-      "uitsluiting": "Vennootschappen met aandelen in een Carried interest vehikel (ook het jaar van vervreemding)",
-      "bron": "WIB92 art. 184quater laatste lid",
-      "confidence": "grounded"
-    },
-    {
-      "uitsluiting": "Reserves die niet uit boekhoudkundige winst na belasting (code 9905) stammen — bv. herwaarderingsmeerwaarden of ingebracht kapitaal",
-      "bron": "WIB92 art. 184quater lid 2",
-      "confidence": "grounded"
-    },
-    {
-      "uitsluiting": "Aandeelhouders-vennootschappen waarbij DBI-aftrek toepasbaar is: liquidatiereserve voegt dan weinig toe aan het fiscale voordeel",
-      "confidence": "inferred"
-    }
-  ],
-  "familie_en_alternatieven": [
-    {
-      "alternatief": "vvprbis",
-      "doel": "Verlaagd RV-tarief op dividend uit vers ingebracht kapitaal",
-      "onderscheid": "VVPRbis: geen anticipatieve aanslag; tarief 15 % na 3 boekjaren; beperkt tot vers geld-inbreng. Liquidatiereserve: 10 % anticipatief + 5 % na 5 jaar; op alle jaarwinsten van KMO.",
-      "confidence": "grounded"
-    },
-    {
-      "alternatief": "dividenduitkering",
-      "doel": "Standaard dividend",
-      "onderscheid": "30 % RV; geen wachttermijn; geen bijkomende aanslag.",
-      "confidence": "grounded"
-    },
-    {
-      "alternatief": "kapitaalvermindering",
-      "doel": "Terugbetaling ingebracht kapitaal",
-      "onderscheid": "Terugbetaling gestort kapitaal: vrij van RV. Uit reserves: behandeld als dividend.",
-      "confidence": "inferred"
-    },
-    {
-      "alternatief": "liquidatiebonus",
-      "doel": "Uitkering bij ontbinding",
-      "onderscheid": "Gewone liquidatiebonus: 30 % RV. Liquidatiebonus uit liquidatiereserve: 0 % RV. Cruciaal verschil bij exit-planning.",
-      "confidence": "grounded",
-      "bron": "WIB92 art. 21 11°"
-    }
-  ],
-  "wat_dit_record_dekt": {
-    "competenties_chronologisch": [
-      {
-        "titel": "KMO-status van cliënt toetsen (art. 1:24 WVV)",
-        "anker": "#kmo-vennootschap-uitkerend"
-      },
-      {
-        "titel": "Beslissen of liquidatiereserve aanleggen zinvol is (timing-analyse)",
-        "anker": "#fiscaal-adviseur-timing"
-      },
-      {
-        "titel": "Aanleg boekhoudkundig verwerken (afzonderlijke subrekening per jaar)",
-        "anker": "#boekhouder-aanleg"
-      },
-      {
-        "titel": "Afzonderlijke aanslag 10 % berekenen en aangeven",
-        "anker": "#aanleg-liquidatiereserve"
-      },
-      {
-        "titel": "FIFO-regel toepassen bij uitkering (oudste schijf eerst)",
-        "anker": "#wachttermijn-fifo"
-      },
-      {
-        "titel": "Uitkering na 5 jaar boekhoudkundig verwerken (5 % RV)",
-        "anker": "#boekhouder-uitkering"
-      },
-      {
-        "titel": "Uitkering bij ontbinding verwerken (0 % RV)",
-        "anker": "#uitkering-bij-ontbinding"
-      },
-      {
-        "titel": "Exit-planning adviseren via jaarlijkse opbouw liquidatiereserve",
-        "anker": "#fiscaal-adviseur-exit-planning"
-      },
-      {
-        "titel": "Toelichting jaarrekening over liquidatiereserves opstellen",
-        "anker": "#boekhouder-toelichting-jaarrekening"
-      }
-    ],
-    "termen_alfabetisch": [
-      {
-        "term": "afzonderlijke aanslag (10 %)",
-        "anker": "#aanleg-liquidatiereserve"
-      },
-      {
-        "term": "anticipatieve heffing",
-        "anker": "#aanleg-liquidatiereserve"
-      },
-      {
-        "term": "bijzondere liquidatiereserve (aanslagjaren 2013-2014)",
-        "anker": "#aanleg-liquidatiereserve"
-      },
-      {
-        "term": "boekhoudkundige winst na belasting (code 9905)",
-        "anker": "#aanleg-liquidatiereserve"
-      },
-      {
-        "term": "carried interest vehikel",
-        "anker": "#carried-interest-uitsluiting"
-      },
-      {
-        "term": "FIFO-regel liquidatiereserve",
-        "anker": "#wachttermijn-fifo"
-      },
-      {
-        "term": "kleine vennootschap",
-        "anker": "#kmo-vennootschap-uitkerend"
-      },
-      {
-        "term": "liquidatiebonus uit liquidatiereserve",
-        "anker": "#verwarring-liquidatiebonus"
-      },
-      {
-        "term": "liquidatiereserve",
-        "anker": "#definitie"
-      },
-      {
-        "term": "roerende voorheffing 5 %",
-        "anker": "#uitkering-na-5-jaar"
-      },
-      {
-        "term": "roerende voorheffing 15 % (voor 5 jaar)",
-        "anker": "#uitkering-voor-5-jaar"
-      },
-      {
-        "term": "vrijstelling bij vereffening",
-        "anker": "#uitkering-bij-ontbinding"
-      }
-    ],
-    "formules": [
-      {
-        "naam": "Afzonderlijke aanslag bij volledige aanleg",
-        "expressie": "Aanslag = 10/110 × (boekhoudkundige winst na gewone VenB)"
-      },
-      {
-        "naam": "Effectief gecombineerd tarief na 5 jaar",
-        "expressie": "10 % + 5 % × (1 − 10 %) = 14,5 % [of ~13,64 % als de aanslag zelf meetelt in de basis]"
-      }
-    ],
-    "regimes": [
-      {
-        "regime": "liquidatiereserve",
-        "edge": "is_fiscale_regeling"
-      },
-      {
-        "regime": "vvprbis",
-        "edge": "verward_met"
-      },
-      {
-        "regime": "liquidatiebonus-vrijstelling",
-        "edge": "gerelateerd"
-      }
-    ]
-  },
-  "bronnen_en_verwijzingen": {
-    "grounded": [
-      {
-        "ref": "WIB92 art. 184quater",
-        "type": "wettekst",
-        "beschrijving": "Basisartikel liquidatiereserve: definitie, voorwaarden, FIFO-regel, carried interest uitsluiting"
-      },
-      {
-        "ref": "WIB92 art. 219quater",
-        "type": "wettekst",
-        "beschrijving": "Afzonderlijke aanslag van 10 % op de aangelegde liquidatiereserve"
-      },
-      {
-        "ref": "WIB92 art. 269 §1 8°",
-        "type": "wettekst",
-        "beschrijving": "Tarief roerende voorheffing: 5 % na 5 jaar, 15 % voor 5 jaar"
-      },
-      {
-        "ref": "WIB92 art. 21 11°",
-        "type": "wettekst",
-        "beschrijving": "Vrijstelling van RV voor liquidatiebonus uit liquidatiereserve bij ontbinding"
-      },
-      {
-        "ref": "CBN-advies 2015/2",
-        "type": "advies",
-        "beschrijving": "Boekhoudkundige verwerking liquidatiereserve (art. 184quater WIB92): aanleg, boekingen, voorbeelden"
-      },
-      {
-        "ref": "CBN-advies 2015/6",
-        "type": "advies",
-        "beschrijving": "Boekhoudkundige verwerking bijzondere liquidatiereserve (art. 541 WIB92 — aanslagjaren 2013-2014)"
-      }
-    ],
-    "te_verifieren": [
-      "Exacte aftrekbaarheid afzonderlijke aanslag als beroepskost in VenB",
-      "KMO-drempels art. 1:24 WVV op huidige stand (omzet, balans, personeel)",
-      "Standaard VenB-tarief kleine vennootschappen (voor vergelijkingstabel)",
-      "Interactie met VVPRbis bij hybride aandeelhoudersstructuur",
-      "Formulier en termijn bijzondere aangifte afzonderlijke aanslag",
-      "Regels bij overdracht aandelen: verliest de liquidatiereserve haar fiscale kwalificatie?"
-    ],
-    "cross_record_edges": {
-      "lid_van": [
-        "vennootschapsbelasting"
-      ],
-      "beïnvloedt": [
-        "uitkering-aan-aandeelhouders",
-        "liquidatiebonus"
-      ],
-      "verward_met": [
-        "vvprbis",
-        "liquidatiebonus"
-      ],
-      "vereist_kwalificatie": [
-        "kleine-vennootschap"
-      ],
-      "gerelateerd": [
-        "dbi-aftrek",
-        "dividenduitkering",
-        "kapitaalvermindering",
-        "vereffening"
-      ]
-    }
-  },
-  "_provenance": {
-    "model": "claude-sonnet-4-6",
-    "extract_prompt": "concept-extractie-v5",
-    "wave_id": "wave-bench2-sonnet-liquidatiereserve-20260521",
-    "bundle_used": "data/extractie/_bundles/liquidatiereserve.json",
-    "bundle_full_2pass": true,
-    "primary_bronnen": [
-      "WIB92 art. 184quater",
-      "WIB92 art. 219quater",
-      "WIB92 art. 269 §1 8°",
-      "WIB92 art. 21 11°",
-      "CBN-advies 2015/2",
-      "CBN-advies 2015/6"
-    ],
-    "mcp_calls": 3,
-    "zoek_bronnen_calls": 0,
-    "iteratie": "v1"
-  }
+  "concept_type": "regime"
 }

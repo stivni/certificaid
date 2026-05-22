@@ -1,0 +1,555 @@
+{
+  "id": "aansprakelijkheid-oprichters-bestuurders",
+  "naam": {
+    "primair": "Aansprakelijkheid oprichters en bestuurders",
+    "synoniemen": [
+      "Bestuurdersaansprakelijkheid",
+      "Oprichtersaansprakelijkheid"
+    ],
+    "vertaling": {
+      "fr": "Responsabilité des fondateurs et administrateurs",
+      "en": "Liability of founders and directors"
+    }
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "quick-pass-run1-20260522",
+      "extract_prompt": "prompts/multipass/run-1-draft.md",
+      "iteratie": "v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 16)"
+      }
+    ],
+    "ankers": [
+      "3.0.VII",
+      "3.0.VII.A",
+      "3.0.VII.B"
+    ]
+  },
+  "inhoud": {
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "vennootschapsrechtelijk-kader-wvv",
+        "rechtsvormen-belgie",
+        "bestuur-vennootschap"
+      ],
+      "naast_relevant": [
+        "kapitaalbescherming-en-winstverdeling",
+        "continuiteit-going-concern",
+        "alarmbel",
+        "insolventierecht-wer-boek-xx",
+        "fraude"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Beoordeling van risico's bij oprichting van een vennootschap (financieel plan, kapitaaltoereikendheid)."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Advisering aan cliënten over bestuurdersaansprakelijkheid en risico-beheer (D&O-verzekering, decharge)."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Audit-context: risico-inschatting bij going-concern twijfel en mogelijke alarmbel- of insolventieprocedures."
+        }
+      ],
+      "risico": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Onvoldoende kennis van de aansprakelijkheidsregels kan ertoe leiden dat bestuurders die cliënt zijn geen tijdige maatregelen nemen (decharge, D&O-verzekering, alarmbel), waardoor de gecertificeerd accountant zelf ook aansprakelijk gesteld kan worden voor gebrekkig advies."
+        }
+      ],
+      "indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "De vennootschap heeft onvoldoende beginkapitaal of een ondeugdelijk financieel plan (oprichtersaansprakelijkheid)."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Een bestuurder heeft de alarmbel-procedure niet nageleefd of heeft kennelijk grove schuld begaan."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "De vennootschap wordt failliet verklaard en er zijn aanwijzingen van foutief bestuur."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "oprichtersaansprakelijkheid",
+        "naam": {
+          "primair": "Oprichtersaansprakelijkheid"
+        },
+        "inhoud_type": "begrip",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Oprichters van een BV, NV of CV zijn jegens benadeelde derden hoofdelijk aansprakelijk voor verbintenissen die de vennootschap is aangegaan binnen drie jaar na oprichting, indien de vennootschap binnen die periode failliet is verklaard en het beginkapitaal bij oprichting kennelijk ontoereikend was voor de normale uitoefening van de geplande bedrijvigheid gedurende ten minste twee jaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "financieel-plan-bij-oprichting",
+        "naam": {
+          "primair": "Financieel plan bij oprichting"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Bij oprichting van een BV of NV moet de notaris een financieel plan ontvangen dat aantoont dat het beginvermogen toereikend is voor de geplande activiteiten gedurende ten minste twee jaar. Bij faillissement binnen drie jaar wordt dit plan door de curator of rechtbank beoordeeld als bewijs voor de toereikendheid van het startkapitaal.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "interne-bestuurdersaansprakelijkheid",
+        "naam": {
+          "primair": "Interne bestuurdersaansprakelijkheid"
+        },
+        "inhoud_type": "begrip",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Bestuurders zijn tegenover de vennootschap aansprakelijk voor fouten begaan bij de uitoefening van hun opdracht (artikel 2:56 WVV). De maatstaf is de zorgvuldigheid van een normaal voorzichtig bestuurder die in dezelfde omstandigheden handelt. Enkel de vennootschap (of de curator bij faillissement) kan deze vordering instellen; individuele aandeelhouders kunnen een afgeleide vordering instellen namens de vennootschap.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "externe-bestuurdersaansprakelijkheid",
+        "naam": {
+          "primair": "Externe bestuurdersaansprakelijkheid"
+        },
+        "inhoud_type": "begrip",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Derden (crediteuren, leveranciers, werknemers) kunnen bestuurders persoonlijk aanspreken voor een fout die zij begaan hebben in de uitoefening van hun mandaat, mits die fout een aquiliaanse fout is (artikel 1382 BW oud / artikel 6.1 nieuw BW) die hun persoonlijk wordt toegerekend en die buiten de gewone bestuursfout valt. Naast de gemeenrechtelijke aansprakelijkheid geldt ook de specifieke aansprakelijkheid voor schending van het WVV of de statuten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aansprakelijkheidsplafond-wvv",
+        "naam": {
+          "primair": "Aansprakelijkheidsplafond (WVV)"
+        },
+        "inhoud_type": "drempel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Het WVV heeft een maximumbedrag ingevoerd voor de aansprakelijkheid van bestuurders, afhankelijk van de omvang van de vennootschap (artikel 2:57 WVV). Voor micro-vennootschappen geldt een plafond van 125.000 euro; voor kleine vennootschappen 250.000 euro; voor grote vennootschappen 1.000.000 euro en hoger, naar rato van de omzet en het balanstotaal. Het plafond geldt niet bij bedrieglijk opzet, grove schuld, of schending van bepaalde specifieke verplichtingen (fiscale, sociale schulden na faillissement).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aansprakelijkheid-fiscale-en-sociale-schulden",
+        "naam": {
+          "primair": "Aansprakelijkheid voor fiscale en sociale schulden"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "betwijfeld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Buiten de algemene bestuurdersaansprakelijkheid geldt een specifieke hoofdelijke aansprakelijkheid voor bestuurders die herhaaldelijk niet-betaling van btw of bedrijfsvoorheffing hebben laten voortduren (artikelen 51 en 53 WBTW en artikel 272 WIB 92 voor de bedrijfsvoorheffing, resp. artikel 1441-1 Gerechtelijk Wetboek voor RSZ). De oorzakelijkheidseis is minder streng: het volstaat dat de bestuurder wist of moest weten van de herhaalde niet-betaling.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "decharge-en-verjaring",
+        "naam": {
+          "primair": "Decharge en verjaring"
+        },
+        "inhoud_type": "begrip",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De algemene vergadering kan bestuurders décharge verlenen voor de uitoefening van hun mandaat gedurende het voorbije boekjaar. Décharge dekt alleen bekende feiten en beschermt niet bij fraude of onjuiste informatieverstrekking. Vorderingen tot interne aansprakelijkheid verjaren in principe na vijf jaar na de gelaakte feiten of na ontdekking ervan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De aansprakelijkheid van oprichters en bestuurders omvat het geheel van wettelijke verplichtingen op grond waarvan oprichters en bestuurders van vennootschappen persoonlijk aansprakelijk kunnen worden gesteld voor schade die zij aan de vennootschap, de aandeelhouders of derden toebrengen door fouten bij de oprichting of in het bestuur. Het Wetboek van vennootschappen en verenigingen (WVV) onderscheidt daartoe enerzijds de oprichtersaansprakelijkheid (artikelen 5:16 e.v., 6:9 e.v., 7:8 e.v. WVV) en anderzijds de bestuurdersaansprakelijkheid (artikelen 2:56–2:57 WVV en soortgelijke bepalingen per rechtsvorm)."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Oprichters en bestuurders die tekort schieten in hun wettelijke verplichtingen of de vennootschap schade berokkenen riskeren persoonlijk en in solidum aansprakelijk gesteld te worden door de vennootschap, individuele aandeelhouders of benadeelde derden."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Vennootschappen genieten rechtspersoonlijkheid, maar die bescherming is niet absoluut. Oprichters en bestuurders oefenen feitelijk de macht uit binnen de vennootschap en kunnen de belangen van aandeelhouders, crediteuren en derden schaden. Het WVV creëert daarom een genuanceerd aansprakelijkheidsstelsel dat enerzijds ondernemerschap niet te zwaar belast (mildere norm voor bestuurders: lichte interne en externe fout), maar anderzijds misbruik sanctioneert (manifeste grove schuld, bedrieglijk karakter, schending van WVV of statuten). Zo wordt het evenwicht bewaard tussen ondernemersvrijheid en bescherming van de betrokken partijen."
+      }
+    },
+    "syntheses": [
+      {
+        "type": "keuzekader",
+        "inhoud": {
+          "assen": [
+            {
+              "vraag": "Is de betrokkene oprichter of bestuurder?",
+              "richtingen": [
+                {
+                  "richting": "Oprichter",
+                  "leidt_naar": "aansprakelijkheid-oprichters-bestuurders#oprichtersaansprakelijkheid"
+                },
+                {
+                  "richting": "Bestuurder",
+                  "leidt_naar": "aansprakelijkheid-oprichters-bestuurders#interne-bestuurdersaansprakelijkheid"
+                }
+              ]
+            },
+            {
+              "vraag": "Wie stelt de vordering in?",
+              "richtingen": [
+                {
+                  "richting": "De vennootschap of curator",
+                  "leidt_naar": "aansprakelijkheid-oprichters-bestuurders#interne-bestuurdersaansprakelijkheid"
+                },
+                {
+                  "richting": "Een derde (crediteur, leverancier)",
+                  "leidt_naar": "aansprakelijkheid-oprichters-bestuurders#externe-bestuurdersaansprakelijkheid"
+                }
+              ]
+            },
+            {
+              "vraag": "Betreft het onbetaalde fiscale of sociale schulden (btw, bedrijfsvoorheffing, RSZ)?",
+              "richtingen": [
+                {
+                  "richting": "Ja",
+                  "leidt_naar": "aansprakelijkheid-oprichters-bestuurders#aansprakelijkheid-fiscale-en-sociale-schulden"
+                },
+                {
+                  "richting": "Neen",
+                  "leidt_naar": "aansprakelijkheid-oprichters-bestuurders#aansprakelijkheidsplafond-wvv"
+                }
+              ]
+            }
+          ],
+          "vergelijkingstabel": {
+            "kolommen": [
+              "Regime",
+              "Wie kan vorderen?",
+              "Foutdrempel",
+              "Plafond van toepassing?"
+            ],
+            "rijen": [
+              [
+                "Oprichtersaansprakelijkheid",
+                "Benadeelde derden / curator",
+                "Kennelijk ontoereikend kapitaal",
+                "Neen"
+              ],
+              [
+                "Interne bestuurdersaansprakelijkheid",
+                "Vennootschap / curator / aandeelhouders (afgeleide vordering)",
+                "Bestuursfout (normaal voorzichtig bestuurder)",
+                "Ja (art. 2:57 WVV)"
+              ],
+              [
+                "Externe bestuurdersaansprakelijkheid",
+                "Derden",
+                "Aquiliaanse fout buiten gewone bestuursfout",
+                "Ja (art. 2:57 WVV)"
+              ],
+              [
+                "Fiscale/sociale aansprakelijkheid",
+                "Fiscus / RSZ",
+                "Herhaalde niet-betaling (kennis of weten)",
+                "Neen"
+              ]
+            ]
+          }
+        },
+        "intro": "Dit kader omvat twee grote regimes: oprichtersaansprakelijkheid en bestuurdersaansprakelijkheid. Gebruik onderstaande vragen om te bepalen welk subregeime van toepassing is."
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrechtelijk-kader-wvv",
+      "toelichting": "De aansprakelijkheidsregels voor oprichters en bestuurders zijn ingebed in het WVV-kader."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "alarmbel",
+      "toelichting": "Niet-naleving van de alarmbel-procedure door het bestuursorgaan kan bestuurdersaansprakelijkheid activeren bij latere insolventie."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "continuiteit-going-concern",
+      "toelichting": "Twijfel over continuiteit verhoogt het risico op bestuurdersaansprakelijkheid; bestuurders moeten tijdig handelen."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "insolventierecht-wer-boek-xx",
+      "toelichting": "Bij faillissement kan de curator namens de failliete boedel interne aansprakelijkheid instellen, en de oprichtersaansprakelijkheid wordt getoetst."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "aansprakelijkheid-accountant-revisor",
+      "toelichting": "Beide betreffen beroepsaansprakelijkheid jegens vennootschap en derden, maar voor verschillende rollen.",
+      "gelijkenissen": [
+        "Beide omvatten interne en externe aansprakelijkheid",
+        "Beide kennen een plafond (WVV resp. beroepsverzekering)"
+      ],
+      "verschillen": [
+        "Bestuurder handelt in naam van de vennootschap; accountant/revisor handelt als onafhankelijk mandataris",
+        "Maatstaf voor bestuurder: normaal voorzichtig bestuurder; voor revisor: ISA-normen en ITAA-deontologie"
+      ],
+      "verwarring_risico": "Studenten verwarren soms de aansprakelijkheidsregels voor bestuurders met die voor commissarissen/revisoren."
+    },
+    {
+      "type": "triggert",
+      "target": "fraude",
+      "toelichting": "Fraude door bestuurders (bedrieglijk opzet) sluit de toepassing van het aansprakelijkheidsplafond uit en opent bijkomende strafrechtelijke aansprakelijkheid."
+    },
+    {
+      "type": "vereist",
+      "target": "oprichting-vennootschap",
+      "toelichting": "Oprichtersaansprakelijkheid veronderstelt een geldige oprichting met financieel plan; die procedure is onderdeel van het concept oprichting-vennootschap."
+    }
+  ],
+  "concept_type": "kader"
+}

@@ -1,139 +1,53 @@
 {
   "id": "sociale-balans",
-  "naam": "Sociale balans",
-  "node_type": "begrip",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.2.IV.C",
-    "1.2.IV"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.2.IV.C",
-    "dekt_ook_anchors": [
+  "naam": {
+    "primair": "Sociale balans"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      }
+    ],
+    "ankers": [
+      "1.2.IV.C",
       "1.2.IV"
-    ],
-    "reviewed_by": null
+    ]
   },
-  "definitie": {
-    "text": "De sociale balans is een afzonderlijk onderdeel van de jaarrekening (naast balans, RR en toelichting) dat informatie bevat over de tewerkstelling in de onderneming: aantal werknemers, evolutie, opleidingen, arbeidsregimes en personeelskosten. Verplicht voor vennootschappen met werknemers; ingedeeld in verkort en volledig sociale-balans-schema afhankelijk van grootteklasse.",
-    "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB-WVV bijlage 1 + bijlage 2 (sociale balans)"
-    },
-    "references": [
-      {
-        "type": "wet",
-        "short": "KB van 4 augustus 1996 (sociaal balans, vandaag in KB-WVV)"
-      },
-      {
-        "type": "kb",
-        "short": "KB-WVV bijlage 1, deel IV"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "KB-WVV-2019__art_3_82",
-          "sha256": null,
-          "version": "rag-v1"
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Sociale balans",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
-    }
-  },
-  "bouwstenen": [
-    {
-      "titel": "Drie hoofdsecties",
-      "wat": "(1) Werknemers ingeschreven in personeelsregister: aantal, VTE, arbeidsregime, opleidingen, kosten. (2) Personeelsverloop: in- en uitstroom, gemiddelde leeftijd. (3) Onkostenstructuur: brutolonen, sociale lasten, voordelen, bedrijfswagens.",
-      "waarom": "Voor stakeholders (vakbond, ondernemingsraad, bestuurder, overheid) is het personeelsbeleid een belangrijk facet — afzonderlijk gerapporteerd.",
-      "grondslag": "KB-WVV bijlage 1, deel IV",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB-WVV bijlage 1"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_82",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Naaiatelier Ninove BV's sociale balans toont: 22 werknemers, waarvan 18 productie en 4 administratie; € 850.000 loonkost; gemiddeld 12 opleidingsuren per medewerker."
-        }
-      ]
-    },
-    {
-      "titel": "Wie moet sociale balans neerleggen?",
-      "wat": "Alle vennootschappen met werknemers — kleine vennootschappen krijgen een verkort sociale-balans-model, grote het volledige model. Microvennootschappen zijn vrijgesteld (geen sociale balans in microschema).",
-      "waarom": "Eenmanszaak zonder personeel of micro-vennootschap → te lichte structuur om sociale balans op te leggen.",
-      "grondslag": "KB-WVV bijlagen 1-2; geen sociaal balans in bijlage 3",
-      "confidence": "inferred-from-aggregation",
-      "source": {
-        "type": "kb",
-        "short": "KB-WVV bijlagen"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_82",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Meubelzaak Mertens BV (12 werknemers, klein) → verkort sociaal-balans-schema. Oprichtingen Oostende BV (4 werknemers, micro) → geen sociaal balans."
-        }
-      ]
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Brug met DIMONA en RSZ",
-      "betekenis": "De sociale balans wordt gevoed door de informatie uit het personeelsregister, de DIMONA-aangiften en de RSZ-bijdragestaten. Voor een accountant: niet uit het hoofd schrijven maar uit de juiste payroll-bron halen.",
-      "herkenningspunt": "Examenvraag 'waar haalt boekhouder cijfers voor sociaal balans?' → loonadministratie + DIMONA + RSZ.",
-      "confidence": "inferred",
-      "source": {
-        "type": "wet",
-        "short": "Sociale zekerheidswet"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_82",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
       }
     }
-  ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "target": "jaarrekening-schema",
-      "redenering": "Sociale balans is component van volledig en verkort schema (niet micro).",
-      "confidence": "inferred"
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Rotex Roeselare NV's sociale balans 2024: gemiddelde personeelsbezetting 550 VTE, € 22M loonkosten, 4.500 opleidingsuren, 12% deeltijds, 88% voltijds."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
-  "situering": "De sociale balans is een **afzonderlijk onderdeel** van de jaarrekening met informatie over tewerkstelling (aantal werknemers, kosten, opleidingen). Verplicht voor vennootschappen die ten minste één werknemer tewerkstellen. Voor de stagiair-GA niet onder elk schema verplicht (microschema kent geen sociale balans).",
-  "naam_alternatief": "social balance sheet / bilan social"
+  },
+  "relaties": [],
+  "concept_type": "kader"
 }

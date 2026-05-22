@@ -1,233 +1,52 @@
 {
   "id": "hr-cyclus-ic",
-  "naam": "HR-cyclus en interne controle",
-  "naam_alternatief": "hire-to-retire (H2R) — payroll",
-  "node_type": "cluster",
-  "schema_version": "1.5",
-  "status": "seed",
-  "linked_anchors": [
-    "1.7.IX.D",
-    "1.7.IX"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-wave2-1.7.IX-20260518T202323Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.7.IX.D",
-    "dekt_ook_anchors": [
-      "1.7.IX"
-    ],
-    "reviewed_by": null,
-    "bron_gap": "Wet 3 juli 1978 (arbeidsovereenkomsten) en RSZ-wetgeving raken de cyclus. Loon-IC-doctrine zelf is vakdoctrine.",
-    "last_touched_at": "2026-05-18T20:24:21.214647Z"
+  "naam": {
+    "primair": "Hr cyclus ic"
   },
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
-  "migrated_from_procedure_at": "2026-05-18T18:35:30Z",
-  "situering": "De HR-cyclus omvat aanwerving, contractbeheer, tijdsregistratie, loonberekening, uitbetaling en uitdiensttreding. Interne controle focust op fictieve werknemers (ghost employees), foute loonparameters en niet-aangegeven voordelen — klassieke fraude-vectoren. AVG-gevoeligheid van personeelsdata vereist gerichte technische maatregelen. Stagiairs komen dit tegen bij audits met sociaal secretariaat-uitbesteding (typisch Acerta, Securex, SD Worx) en bij anti-witwas-controles op cash-loonbetalingen.",
-  "definitie": {
-    "text": "Interne controle in de HR-cyclus is het geheel van maatregelen die de stadia aanwerving → tijdsregistratie → loonberekening → betaling → uitdiensttreding beheersen, met als doel ghost employees, loonmanipulatie en parameter-fouten te voorkomen of te detecteren.",
-    "confidence": "inferred-common-knowledge",
-    "_provenance": {
-      "inputs": []
-    }
-  },
-  "verplichting": "Wet 3 juli 1978 op de arbeidsovereenkomsten; sociale zekerheidswetgeving (Dimona, RSZ-aangifte); AVG voor verwerking van personeelsgegevens.",
-  "bouwstenen": [
-    {
-      "titel": "Aanwerving-autorisatie en headcount-control",
-      "wat": "Vacatures worden alleen geopend op basis van een goedgekeurde headcount; de arbeidsovereenkomst wordt door een bevoegd persoon getekend.",
-      "waarom": "Zonder formele headcount-autorisatie ontstaan ghost employees of overstaffing zonder dat iemand het ziet.",
-      "in_praktijk": "HR opent geen vacature zonder schriftelijke goedkeuring van de algemeen directeur; de Dimona-aangifte wordt door HR gedaan, gescheiden van wie het loon berekent.",
-      "grondslag": "Sociale zekerheidswet + Wet arbeidsovereenkomsten 3 juli 1978",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
     },
-    {
-      "titel": "Tijdsregistratie en parameter-controle",
-      "wat": "Werktijd wordt vastgelegd en gevalideerd door een supervisor; loonparameters (basisloon, anciënniteit, premies) worden door een tweede persoon ingegeven en goedgekeurd.",
-      "waarom": "Manipulatie van uren of toelagen is een klassieke loonfraude; ingangscontrole sluit dit af.",
-      "grondslag": "RSZ-wetgeving + functiescheiding-doctrine",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "titel": "Functiescheiding HR-payroll-betaling",
-      "wat": "Wie aanwerft, wie loonparameters invoert en wie betaalt zijn drie verschillende personen of rollen.",
-      "waarom": "Bundeling van rollen laat een persoon toe een ghost employee aan te maken, te betalen én op eigen rekening te laten storten.",
-      "grondslag": "[[functiescheiding]] §toepassing-payroll",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "titel": "Cross-check met Dimona-lijst RSZ",
-      "wat": "Maandelijks wordt het aantal werknemers in payroll vergeleken met de Dimona-lijst van de RSZ.",
-      "waarom": "Een verschil tussen payroll en Dimona is een directe indicator voor ghost employees of niet-aangegeven werk.",
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Bij Yperse Werkplaats BV telt de Dimona-lijst 38 actieve werknemers, het payroll-bestand 41. Onderzoek wijst uit dat drie ex-werknemers in de overdraagperiode nog loon krijgen — herstellen + actieplan voor uitdiensttreding-controle.",
-          "cast": [
-            "Yperse Werkplaats BV"
-          ],
-          "confidence": "inferred-common-knowledge"
-        }
-      ],
-      "grondslag": "Anti-ghost-employee-doctrine",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "berekeningsmethode": [
-    {
-      "naam": "Procesgang HR-cyclus — stappen + IC-haakpunten",
-      "stappen": [
-        {
-          "nr": 1,
-          "titel": "Aanwerving en autorisatie",
-          "wat": "Vacature openzetten op basis van goedgekeurde headcount; aanwervingsproces met arbeidsovereenkomst.",
-          "waarom": "Zonder formele headcount-autorisatie ontstaan ghost employees of overstaffing.",
-          "input": [
-            {
-              "artefact": "Headcount-budget",
-              "veld": "goedgekeurde rollen",
-              "type": "managementdocument"
-            }
-          ],
-          "output": [
-            {
-              "artefact": "Dimona-aangifte + arbeidsovereenkomst",
-              "veld": "werknemer",
-              "type": "RSZ-record"
-            }
-          ],
-          "hoe": "1. HR opent vacature alleen op goedgekeurde rol.\n2. Arbeidsovereenkomst getekend door bevoegd persoon.\n3. Dimona-aangifte door HR, gescheiden van loonberekening.",
-          "grondslag": "Sociale zekerheidswet + Wet arbeidsovereenkomsten"
-        },
-        {
-          "nr": 2,
-          "titel": "Tijdsregistratie en loonberekening",
-          "wat": "Werktijd vastleggen; sociaal secretariaat berekent lonen op basis van contractgegevens en prestaties.",
-          "waarom": "Manipulatie van uren of toelagen is klassieke loonfraude.",
-          "input": [
-            {
-              "artefact": "Tijdsregistratie + parameter-bestand",
-              "veld": "uren, premies",
-              "type": "ERP-record"
-            }
-          ],
-          "output": [
-            {
-              "artefact": "Loonfiche",
-              "veld": "bruto, netto, RSZ",
-              "type": "loondocument"
-            }
-          ],
-          "hoe": "1. Operator klokt in/uit; supervisor valideert weeklijst.\n2. HR levert prestaties aan sociaal secretariaat.\n3. Sociaal secretariaat berekent loonfiches.",
-          "grondslag": "RSZ-wetgeving"
-        },
-        {
-          "nr": 3,
-          "titel": "Betaling en controle",
-          "wat": "Loonbetaling uitvoeren; vergelijking betalingen versus loonfiches; periodieke review werknemerslijst.",
-          "waarom": "Functiescheiding HR/payroll/betaling vermijdt ghost employees en uitbetaalde fictieve lonen.",
-          "input": [
-            {
-              "artefact": "Loonbestand sociaal secretariaat",
-              "veld": "bedragen, IBANs",
-              "type": "betalingsorder"
-            }
-          ],
-          "output": [
-            {
-              "artefact": "Bankuittreksel + loonjournaal",
-              "veld": "uitgevoerde betalingen",
-              "type": "boeking"
-            }
-          ],
-          "hoe": "1. CFO tekent loonbestand af vóór betaling.\n2. Maandelijks: vergelijk aantal werknemers in payroll versus Dimona-lijst RSZ.\n3. Jaarlijks: review actieve werknemerslijst door directie.",
-          "grondslag": "[[functiescheiding]] §payroll"
-        }
-      ]
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "Eenzelfde IBAN voor twee werknemers is een klassieke ghost-employee-indicator. Substantieve test: deduplicatie van IBANs in het payroll-masterbestand.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "text": "Voordelen alle aard (firmawagen, GSM, maaltijdcheques) zijn vaak onderbelicht in de loon-IC. Niet-aangegeven voordelen leiden tot bedrijfsleider-aansprakelijkheid bij fiscale controle.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "target": "cyclus-analyse-ic",
-      "redenering": "HR-cyclus is een van de vijf hoofdcycli."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "functiescheiding",
-      "redenering": "Aanwerven/parameters/betalen scheiding is essentieel."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "avg-interne-controle",
-      "redenering": "Personeelsdata is AVG-gevoelig — privacy-impact bij elke stap."
-    },
-    {
-      "type": "verwijst-naar",
-      "target": "fraudetypologie-acfe",
-      "redenering": "Ghost employees en payroll-fraude zijn klassieke ACFE-typologieën."
-    },
-    {
-      "type": "verwijst-naar",
-      "facet": {
-        "aspect": "geautomatiseerde Dimona-payroll-reconciliatie en SEPA-vier-ogen"
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
       },
-      "target": "it-application-controls",
-      "redenering": "geautomatiseerde Dimona-payroll-reconciliatie en SEPA-vier-ogen"
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "scenario",
-      "titel": "Dimona-cross-check ontmaskert ghost employee bij Transport Tongeren BV",
-      "cast": [
-        "Transport Tongeren BV",
-        "Robert Vandenberghe",
-        "Sofie Janssens"
-      ],
-      "omschrijving": "Transport Tongeren BV heeft 47 chauffeurs op de payroll. HR-verantwoordelijke Robert Vandenberghe verzorgt aanwerving, voert loonparameters in én is gemachtigd om de maandelijkse SEPA-betaalbestanden vrij te geven (drie rollen in één persoon). Auditor Sofie Janssens vergelijkt de payroll-lijst met de Dimona-lijst van de RSZ en stelt een verschil van 2 namen vast: twee 'chauffeurs' die wel loon en bedrijfsvoorheffing krijgen, maar nooit bij de RSZ werden aangegeven. Beide IBANs blijken op naam van Robert zelf te staan.",
-      "stappen": [
-        "1. Detectie: payroll-lijst (49 namen) versus Dimona-extract (47 namen) → 2 ghost employees.",
-        "2. IBAN-deduplicatie: van de 49 IBANs zijn er 2 identiek aan Roberts privé-IBAN (klassieke valkuil-indicator uit bouwsteen 'Cross-check met Dimona-lijst RSZ').",
-        "3. Berekening fraude: € 2.800 netto/maand × 2 employees × 18 maanden = € 100.800 + werkgeversbijdragen die niet werden gedaan = aanzienlijk bedrag.",
-        "4. IC-grond-oorzaak: bouwsteen 'Functiescheiding HR-payroll-betaling' volledig ineengeklapt — één persoon doet alle drie. Geen vierde-ogen-controle op SEPA-bestand voor verzending naar de bank.",
-        "5. Remediëring: HR-aanwerving naar de zaakvoerder; loonberekening door extern sociaal secretariaat; SEPA-betalingen vereisen vanaf nu twee bevoegde handtekeningen via tokens. Maandelijkse Dimona-payroll-reconciliatie geautomatiseerd."
-      ],
-      "illustraties": [
-        {
-          "type": "mermaid-diagram",
-          "caption": "Functiescheiding HR-cyclus — vier kritische rollen versus de Transport-Tongeren-anti-patroon",
-          "code": "flowchart LR\n  subgraph IDEAAL[Ideale functiescheiding]\n    A1[Aanwerving<br/>Zaakvoerder] --> P1[Payroll-invoer<br/>Soc. secretariaat] --> B1[SEPA-betaling<br/>Vier-ogen-controle] --> C1[Controle<br/>Externe boekhouder]\n  end\n  subgraph FOUT[Robert-anti-patroon]\n    A2[Aanwerving<br/>Robert] --> P2[Payroll-invoer<br/>Robert] --> B2[SEPA-betaling<br/>Robert]\n  end"
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      }
+    ],
+    "ankers": [
+      "1.7.IX.D"
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Hr cyclus ic",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ],
-      "confidence": "inferred"
+      }
     }
-  ]
+  },
+  "relaties": [],
+  "concept_type": "procedure"
 }

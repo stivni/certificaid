@@ -1,201 +1,54 @@
 {
   "id": "functiescheiding",
-  "naam": "Functiescheiding",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.7.VII",
-    "1.7.VIII.B",
-    "1.7.X.C"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-X-C",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.7.VII",
-    "dekt_ook_anchors": [
+  "naam": {
+    "primair": "Functiescheiding"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      }
+    ],
+    "ankers": [
+      "1.7.VII",
       "1.7.VIII.B",
       "1.7.X.C"
-    ],
-    "reviewed_by": null,
-    "bron_gap": "Functiescheiding als vier-functies-doctrine (autoriseren / uitvoeren / bewaren / registreren) is internationale audit-vakdoctrine. Geen specifiek Belgisch wetsartikel; ITAA-norm-kmo-controlenorm vermeldt IC-componenten generiek. Inferred-common-knowledge, met grondslag in COSO/ISA-context.",
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-18-wave1b2",
-    "touched_at": "2026-05-18T20:34:34Z",
-    "note": "Wave 2 PO 1.7.X.C — IT-context in_praktijk omgezet naar volwaardige bouwsteen 'Functiescheiding in IT-omgeving (RBAC + admin-uitzondering)' met voorbeelden."
+    ]
   },
-  "bouwstenen": [
-    {
-      "titel": "Vier kritische functies",
-      "wat": "Het audit-doctrinaire model verdeelt vier handelingen rond elke transactie over verschillende personen: (1) autoriseren — beslissen of een transactie mag plaatsvinden (bv. inkoop goedkeuren); (2) uitvoeren — de fysieke handeling doen (bestelling plaatsen, betaling initiëren); (3) bewaren — bezit van activa nemen (kas, magazijn, betaalmiddel); (4) registreren — boekhoudkundig vastleggen. ISA 315 Bijlage 3 §20 erkent autoriseren, vastleggen en bewaren expliciet; uitvoeren versus registreren is in de bredere doctrine als afzonderlijke functies losgemaakt.",
-      "waarom": "Als één persoon alle vier doet, kan hij fictieve transacties creëren én de boekhoudkundige sporen wissen zonder dat iemand het in de normale werking ziet.",
-      "grondslag": "ISA 315 (herzien-2019) Bijlage 3 §20",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ISA-315-herzien-2019__sec_bijlage-3_part5",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Bij Meubelzaak Mertens BV deed één werknemer kasontvangsten + bankreconciliatie + boekhouding. Detectie van € 15.000 verduistering kwam pas na 2 jaar — gemiste functiescheiding."
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Functiescheiding",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "titel": "Incompatibele combinaties",
-      "wat": "Combinaties die nooit bij één persoon mogen liggen: (a) kasontvangst + bankboekingen, (b) voorraadbeheer + voorraadtelling, (c) HR-aanmeldingen + loonberekening + uitbetaling, (d) goederontvangst + factuurgoedkeuring.",
-      "waarom": "Elke combinatie geeft één persoon de macht om een fictieve transactie te creëren en de boekhoudkundige bewijzen te wissen.",
-      "grondslag": "ISA 315 (herzien-2019) Bijlage 3 §20 (illustraties van verboden combinaties)",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ISA-315-herzien-2019__sec_bijlage-3_part5",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Combinatie 'HR-aanmelding + loonbetaling' = risico op fictieve werknemer ('ghost employee'). Bij Yperse Werkplaats BV maakt HR de loonberekening; CFO David tekent het bestand digitaal vóór upload naar de bank."
-        }
-      ]
-    },
-    {
-      "titel": "KMO-uitdaging",
-      "wat": "Bij kleine ondernemingen is volledige vier-functies-scheiding onmogelijk — er zijn niet genoeg mensen. Compensatie: meer betrokkenheid van de zaakvoerder (review van bankuittreksels, periodieke spot-checks) en externe revisie (boekhouder, accountant).",
-      "waarom": "Geen scheiding zonder compensatie = open deur voor fouten en fraude. De ITAA-norm-kmo-controlenorm erkent deze specifieke context.",
-      "grondslag": "ITAA-norm-kmo-controlenorm §96",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Bij Praktijk Persenaire (eenmanszaak vrij beroep) doet de zaakvoerder alles zelf. Compensatie: de externe accountant doet maandelijks een kasreconciliatie en bekijkt de bankafschriften."
-        }
-      ]
-    },
-    {
-      "titel": "Functiescheiding in IT-omgeving — RBAC en admin-uitzondering",
-      "wat": "Bij geautomatiseerde systemen wordt functiescheiding gerealiseerd via (1) Role-Based Access Control (RBAC): gebruikers krijgen rechten op basis van hun functie, niet ad hoc per persoon; (2) een SoD-matrix die alle combinaties van rollen toetst op incompatibiliteiten; (3) audit-trail-logging die elke transactie aan een gebruikersaccount koppelt; (4) scheiding tussen developer-rechten (test/dev-omgeving) en productie-rechten. De grote uitzondering: IT-administrators hebben technische rechten over alle rollen — daarvoor zijn aparte compenserende controles nodig (review van admin-acties door security officer, vier-ogen-principe op kritische admin-handelingen).",
-      "waarom": "ISA 315 (herzien-2019) Bijlage 6 §toegangsprivileges noemt expliciet 'controles over de toegang van beheerders of krachtige gebruikers' als apart aandachtspunt. Zonder RBAC-discipline ontstaan rechten-creep (cumulerende rechten over tijd) en gedeelde accounts (toegang aan onbekend identificeerbare persoon) — beide elimineren functiescheiding effectief.",
-      "in_praktijk": "Concrete inrichting: (a) jaarlijkse user-access-review per applicatie waar elke gebruiker tegen zijn functiebeschrijving wordt gematcht; (b) joiner-mover-leaver-proces dat rechten meebeweegt met functie-wijzigingen; (c) SoD-matrix als configureerbare check in het ERP (bv. SAP GRC, Oracle Risk Cloud) die conflicterende rol-toekenningen blokkeert; (d) admin-acties op kritische tabellen worden gelogd naar een write-once-storage waar de admin zelf geen toegang toe heeft.",
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Bij Yperse Werkplaats BV heeft inkoper Tom de rol 'Inkoop_Aanvragen' (bestelling indienen, niet goedkeuren); CFO David heeft 'Finance_Approval' (goedkeuren > € 5.000). RBAC sluit uit dat één persoon beide rollen heeft. Maandelijkse SoD-audit-script meldt elke rol-combinatie buiten de SoD-matrix aan compliance officer Helena.",
-          "confidence": "inferred-common-knowledge"
-        },
-        {
-          "vorm": "scenario",
-          "omschrijving": "Bij Rotex Roeselare NV bleek tijdens een ITGC-audit dat sysadmin Maarten DBA-rechten + financiële module-rechten + log-rotatie-beheer had — drie incompatibele admin-functies. Compenserende controle ontbrak. Remediatie: log-rotatie naar aparte rol bij security officer, DBA-acties geforceerd via change-ticket met dubbele goedkeuring.",
-          "confidence": "inferred-common-knowledge"
-        }
-      ],
-      "grondslag": "ISA 315 (herzien-2019) Bijlage 6 §toegangsprivileges + functiescheiding-doctrine",
-      "confidence": "grounded",
-      "source": {
-        "type": "norm",
-        "short": "ISA 315 (herzien-2019) Bijlage 6"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ISA-315-herzien-2019__sec_bijlage-6-overwegingen-voor-het-verwerven-van-inzicht-in-gen",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
       }
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Examen-herkenningspunt",
-      "betekenis": "Bij elke casus: teken een matrix [persoon × functie]. Markeer waar één persoon meer dan één van de vier functies heeft. Elke combinatie is potentieel zwakke IC.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "Functiescheiding op papier is niet hetzelfde als in werking. Test altijd of de scheiding daadwerkelijk wordt nageleefd — soms tekent één persoon namens 'iemand anders' bij afwezigheid, en dan valt het systeem.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "text": "Management override doorbreekt functiescheiding altijd. Specifieke detectie: ongebruikelijke journaalposten, periode-einde-aanpassingen, transacties met geliëerde partijen.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "target": "interne-controle",
-      "redenering": "Functiescheiding is de prototypische beheersactiviteit (COSO-component 3)."
-    },
-    {
-      "type": "verwijst-naar",
-      "target": "taakverdeling-ic",
-      "redenering": "Taakverdeling is het concrete instrument (organogram, functiebeschrijving, procuratie-tabel) dat functiescheiding implementeert."
-    },
-    {
-      "type": "verwijst-naar",
-      "target": "it-general-controls",
-      "redenering": "ITGC §toegangsprivileges is de IT-implementatie van functiescheiding (RBAC, admin-controles)."
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Bij Yperse Werkplaats BV is een aankoop verdeeld over vier personen: (1) inkoper Anna autoriseert de bestelling, (2) magazijnier Bart neemt goederen in ontvangst, (3) boekhouder Cindy registreert de factuur, (4) financieel verantwoordelijke David tekent de betaling. Als één van hen iets verdraait, ontdekt iemand anders het in zijn kruiscontrole. Fraude vereist samenspanning van minstens twee — exponentieel moeilijker."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
-  "situering": {
-    "text": "Functiescheiding is binnen het examenprogramma 1.7.VII het hoeksteen-principe van preventieve IC: door autoriseren, uitvoeren, bewaren en registreren te splitsen ontstaat natuurlijke kruiscontrole en wordt fraude alleen mogelijk via samenspanning. De ISA-norm en de ITAA KMO-controlenorm erkennen het principe expliciet, maar erkennen ook dat een KMO niet altijd volledige scheiding kan realiseren — dan zijn compenserende controles (review door bovenliggende laag, externe accountant, IT-afdwinging) verplicht.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ISA 315 (herzien-2019) Bijlage 3 §20"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ISA-315-herzien-2019__sec_bijlage-3_part5",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18",
-  "naam_alternatief": "segregation of duties (SoD)"
+  "relaties": [],
+  "concept_type": "procedure"
 }

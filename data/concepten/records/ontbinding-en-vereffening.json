@@ -1,0 +1,57 @@
+{
+  "id": "ontbinding-en-vereffening",
+  "naam": {
+    "primair": "Ontbinding en vereffening"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      }
+    ],
+    "ankers": [
+      "1.1.II.T",
+      "2.3.III.B",
+      "2.3.taak.2",
+      "3.0.IX",
+      "3.0.IX.A",
+      "3.0.IX.B"
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Ontbinding en vereffening",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [],
+  "concept_type": "verrichting"
+}

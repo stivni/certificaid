@@ -1,229 +1,52 @@
 {
   "id": "opsplitsing-eigendom",
-  "naam": "Opsplitsing eigendom (vruchtgebruik, opstal, erfpacht)",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.1.II.X"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.1.II.X",
-    "dekt_ook_anchors": [],
-    "reviewed_by": null,
-    "po11_touchup_2026_05_18": {
-      "uitgevoerd_op": "2026-05-18T21:55Z",
-      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
-      "changes": [
-        "naam_alternatief+",
-        "situering+",
-        "schema->1.6"
-      ]
-    }
+  "naam": {
+    "primair": "Opsplitsing eigendom"
   },
-  "definitie": {
-    "text": "**Zakelijke rechten op onroerende goederen** waarbij de **volle eigendom wordt opgesplitst** in twee tijdelijk gescheiden rechten: (1) het **vruchtgebruik** — recht om het goed te gebruiken en de vruchten te trekken, met onderhoudsplicht (BW art. 578), en (2) de **blote eigendom** — eigendomsrecht zonder gebruiksrecht zolang vruchtgebruik loopt. Soortgelijke constructies: **opstalrecht** (recht om gebouwen op andermans grond op te richten) en **erfpacht** (langdurig gebruiksrecht op vreemde grond). Boekhoudkundig: vruchtgebruik op rekening 221 (gebouw) of 250-252 'Zakelijke rechten' afhankelijk van type.",
-    "confidence": "grounded",
-    "source": {
-      "type": "advies",
-      "short": "CBN 2015/05 — Zakelijke rechten op onroerende goederen"
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
     },
-    "references": [
+    "changelog": [
       {
-        "type": "wet",
-        "short": "BW art. 578 e.v. (vruchtgebruik)"
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
       },
       {
-        "type": "wet",
-        "short": "MAR rubriek 22 (terreinen/gebouwen), 25 (zakelijke rechten)"
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
       }
     ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht__sec_definitie-en-kenmerken",
-          "sha256": null,
-          "version": "rag-v1"
+    "ankers": [
+      "1.1.II.X"
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Opsplitsing eigendom",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
+      }
     }
   },
-  "bouwstenen": [
-    {
-      "titel": "Tijdelijk karakter — eindigt bij dood of verloop",
-      "wat": "Vruchtgebruik is altijd **tijdelijk** en eindigt: (a) bij dood van de vruchtgebruiker (natuurlijk persoon), (b) bij ontbinding van de vruchtgebruiker (rechtspersoon — max **30 jaar**), (c) bij verstrijken van de overeengekomen termijn.",
-      "waarom": "Het zakelijk recht keert vroeg of laat terug naar de blote eigenaar — die kennis bepaalt de boekhoudkundige behandeling (afschrijving over de termijn).",
-      "grondslag": "BW art. 578, 619; CBN 2015/05",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/05"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht__sec_definitie-en-kenmerken",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Solaris Sint-Truiden BV (rechtspersoon) kan vruchtgebruik aanhouden max 30 jaar. Bij een contract van 20 jaar: afschrijving over 20 jaar (€ 320.000 / 20 = € 16.000/jaar)."
-        }
-      ]
-    },
-    {
-      "titel": "Vruchtgebruiker: afschrijving over de termijn",
-      "wat": "De vruchtgebruiker activeert de aanschaffingswaarde van het vruchtgebruik en schrijft het AF over de looptijd van het contract — niet de natuurlijke levensduur van het goed, maar de juridisch beperkte duur.",
-      "waarom": "Aan het eind van het vruchtgebruik valt het recht weg; er is geen restwaarde voor de vruchtgebruiker. Volledige afschrijving is dus noodzakelijk.",
-      "grondslag": "CBN 2015/05",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/05"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht__sec_boekingen-tijdens-de-looptijd-van-het-vruchtgebruik-in-hoofd",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Solaris vruchtgebruik 20 jaar: € 320.000 lineair afgeschreven = € 16.000/jaar. Na 20 jaar: nettoboekwaarde € 0; recht eindigt; blote eigenaar krijgt volle eigendom terug zonder vergoeding aan vruchtgebruiker."
-        }
-      ]
-    },
-    {
-      "titel": "Blote eigenaar: GEEN systematische afschrijving",
-      "wat": "Bij de blote eigenaar blijft het onroerend goed op de balans (proportioneel deel: bv. 33,3 % bij vruchtgebruik 66,7 %). Tijdens looptijd: **geen systematische afschrijving**. Alleen niet-recurrente afschrijving bij gewijzigde economische omstandigheden.",
-      "waarom": "De blote eigenaar krijgt aan het eind van het vruchtgebruik het volle gebruik terug; er is geen waardeverlies door tijdsverloop alleen. Pas bij externe schade of marktdaling: niet-recurrente afschrijving.",
-      "grondslag": "CBN 2015/05",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/05"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht__sec_boekingen-tijdens-de-looptijd-van-het-vruchtgebruik-in-hoofd",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Volle eigenaar verkocht vruchtgebruik 20 jaar voor € 320.000; behoudt blote eigendom € 160.000. Boekwaarde blote eigendom blijft € 160.000 op de balans, niet afgeschreven tijdens 20 jaar."
-        }
-      ]
-    },
-    {
-      "titel": "Vermenging — herverenigde volle eigendom",
-      "wat": "Wanneer vruchtgebruiker EN blote eigenaar in één hand komen (bv. vruchtgebruiker koopt de blote eigendom), eindigt het vruchtgebruik door **vermenging**. De aanschaffingswaarde van de nu herverenigde volle eigendom = som van: oorspronkelijke aanschaffingswaarde vruchtgebruik (al gedeeltelijk afgeschreven) + nieuwe aanschaffingswaarde blote eigendom.",
-      "waarom": "Twee gescheiden rechten worden weer één economisch geheel; de boekwaarde moet die samenstelling weergeven.",
-      "grondslag": "BW art. 617; CBN 2015/05",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/05"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht__sec_vruchtgebruiker-vermenging-door-de-verwerving-van-de-blote-e",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Solaris koopt na 10 jaar de blote eigendom voor € 200.000. Aanschaffingswaarde volle eigendom = nettoboekwaarde vruchtgebruik (€ 320.000 − 10 × € 16.000 = € 160.000) + € 200.000 = € 360.000. Afschrijvingsplan herzien voor het resterende gebouw."
-        }
-      ]
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Proportionele verdeling bij verkoop blote eigendom",
-      "betekenis": "Een volle eigenaar die de blote eigendom verkoopt, splitst zijn balanswaarde proportioneel: deel betreft het verkochte (blote eigendom → realisatie), deel betreft het behouden (vruchtgebruik). Indien vruchtgebruik 60 % vertegenwoordigt van volle eigendomwaarde: 60 % blijft, 40 % verkocht.",
-      "herkenningspunt": "Examen: verkoop vruchtgebruik 30 jaar voor € 240.000; werkelijke waarde volle eigendom € 400.000. Proportie blote eigendom = 60/400 = 15 % blijft, 60 % verkocht.",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/05"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht__sec_volle-eigenaar-overdracht-blote-eigendom",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "De blote eigenaar mag tijdens vruchtgebruik NIET systematisch afschrijven — een veelvoorkomende fout. Alleen niet-recurrente afschrijving bij externe waardevermindering.",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2015/05"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht__sec_boekingen-tijdens-de-looptijd-van-het-vruchtgebruik-in-hoofd",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "vergelijkingsparen": [],
-  "edges": [
-    {
-      "type": "specialisatie-van",
-      "target": "materiele-vaste-activa",
-      "redenering": "Vruchtgebruik en opstal worden onder rubriek 22 of 25 geboekt afhankelijk van type."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "afschrijvingen",
-      "redenering": "Termijn-gebonden recht → afschrijving over de looptijd."
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Solaris Sint-Truiden BV koopt voor 20 jaar het vruchtgebruik op een handelsruimte voor € 320.000 (totale waarde volle eigendom € 480.000 → vruchtgebruik 66,7 %; blote eigendom € 160.000 bij verkoper). Boeking Solaris: Debet 220 Terreinen (vruchtgebruik gedeelte) of 250 Zakelijke rechten op onroerende goederen € 320.000 / Credit 550 Bank € 320.000. Afschrijving over 20 jaar = € 16.000/jaar."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
-  "naam_alternatief": "split ownership (usufruct, building right, long lease)",
-  "situering": {
-    "text": "Een fiscaal en boekhoudkundig regime dat vooral voor onroerend goed (bedrijfsleider koopt vruchtgebruik, vennootschap blote eigendom) of erfpacht- en opstalconstructies wordt gebruikt. Voor een stagiair-GA: belangrijk om het afschrijvingsregime (vruchtgebruiker schrijft af over de termijn, blote eigenaar niet) correct toe te passen en de overgang bij afloop boekhoudkundig te plaatsen.",
-    "confidence": "inferred-from-aggregation",
-    "_provenance": {
-      "tool": "po11-touchup-2026-05-18",
-      "uitgevoerd_op": "2026-05-18T21:55Z",
-      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
-    }
-  }
+  "relaties": [],
+  "concept_type": "kader"
 }

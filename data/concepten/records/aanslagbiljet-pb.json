@@ -1,0 +1,455 @@
+{
+  "id": "aanslagbiljet-pb",
+  "naam": {
+    "primair": "Aanslagbiljet pb",
+    "synoniemen": [
+      "aanslagkohier PB",
+      "belastingafrekening personenbelasting"
+    ],
+    "vertaling": {
+      "fr": "Avertissement-extrait de rôle IPP",
+      "en": "Tax assessment notice personal income tax"
+    }
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "quick-pass-run1-20260522",
+      "extract_prompt": "prompts/multipass/run-1-draft.md",
+      "iteratie": "v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 21)"
+      }
+    ],
+    "ankers": [
+      "2.2.XVII",
+      "2.2.taak.4",
+      "2.2.taak.5"
+    ]
+  },
+  "inhoud": {
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "aangifte-pb",
+        "belastingberekening-pb",
+        "voorheffingen-en-verrekeningen-venb"
+      ],
+      "kader": "fiscale-procedure-pb",
+      "naast_relevant": [
+        "aanslagtermijnen-fiscaal",
+        "aanslag-cyclus"
+      ],
+      "volgkennis": [
+        "bezwaarprocedure-fiscaal",
+        "invorderingsprocedure-fiscaal"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Belastingplichtigen die aangifte personenbelasting hebben ingediend en het resultaat willen begrijpen en controleren."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Accountants die cliënten begeleiden bij controle van de aanslag, beoordeling van het saldo en eventueel bezwaar."
+        }
+      ],
+      "trigger_start": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Verzending van het aanslagbiljet door de FOD Financiën (doorgaans juni–november van het aanslagjaar + 1, afhankelijk van de complexiteit van het dossier)."
+        }
+      ],
+      "trigger_einde": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Betaling van het saldo vóór de uiterste betaaldatum, of ontvangst van de teruggave; daarna sluit het aanslagjaar tenzij bezwaar of ambtshalve ontheffing loopt."
+        }
+      ],
+      "risico": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Laattijdige betaling leidt tot nalatigheidsinterest (momenteel 4% per jaar); een onopgemerkte fout in het aanslagbiljet die niet tijdig via bezwaar wordt aangevochten, wordt definitief."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "identificatiegegevens",
+        "naam": {
+          "primair": "Identificatiegegevens en aanslagjaar"
+        },
+        "inhoud_type": "subconcept",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Het aanslagbiljet vermeldt het rijksregisternummer en de naam van de belastingplichtige, het aanslagjaar (inkomsten van het vorige kalenderjaar) en het kohiernummer dat de aanslag uniek identificeert bij de belastingadministratie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belastbare-basis-samenvatting",
+        "naam": {
+          "primair": "Samenvatting belastbare basis"
+        },
+        "inhoud_type": "subconcept",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Het biljet geeft een beknopt overzicht van de inkomstencategorieën die in de aanslag zijn verwerkt (beroepsinkomsten, onroerende inkomsten, roerende inkomsten, diverse inkomsten) en de toegepaste aftrekken en verminderingen, zodat de belastingplichtige de berekening kan traceren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "berekening-verschuldigde-belasting",
+        "naam": {
+          "primair": "Berekening verschuldigde belasting"
+        },
+        "inhoud_type": "formule",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De brutoverschuldigde belasting wordt berekend op basis van de progressieve tarieven (25%–50%) en de federale belastingvrije som; vervolgens worden gemeentelijke opcentiemen, gewestelijke belastingverminderingen en andere correcties toegepast om tot de nettoverschuldigde belasting te komen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verrekening-voorheffingen",
+        "naam": {
+          "primair": "Verrekening voorheffingen en voorafbetalingen"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Van de nettoverschuldigde belasting worden afgetrokken: de bedrijfsvoorheffing (ingehouden door werkgever of uitbetalende instelling), de roerende voorheffing, de onroerende voorheffing (als verrekenbaar) en de vrijwillige voorafbetalingen die de belastingplichtige zelf deed. Het resultaat is het saldo: te betalen of terug te ontvangen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "betaaldatum-en-betalingsmodaliteiten",
+        "naam": {
+          "primair": "Uiterste betaaldatum en betalingsmodaliteiten"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Het aanslagbiljet vermeldt de uiterste datum voor betaling (doorgaans twee maanden na verzending) en de gestructureerde mededeling die bij de betaling moet worden vermeld; betaling na de vervaldatum genereert automatisch nalatigheidsinterest.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bezwaartermijn-en-rechtsmiddelen",
+        "naam": {
+          "primair": "Bezwaartermijn en rechtsmiddelen"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Vanaf de derde werkdag na verzending van het aanslagbiljet begint een bezwaartermijn van drie maanden te lopen; binnen die termijn kan de belastingplichtige een gemotiveerd bezwaar indienen bij de bevoegde gewestelijke directeur, wat de invordering niet schorst tenzij uitstel van betaling wordt gevraagd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ambtshalve-ontheffing",
+        "naam": {
+          "primair": "Ambtshalve ontheffing na verstrijken bezwaartermijn"
+        },
+        "inhoud_type": "uitzondering",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de bezwaartermijn verstreken is maar de belastingplichtige een materiële vergissing, dubbele belasting of nieuwe bescheiden ontdekt, kan hij nog een verzoek tot ambtshalve ontheffing indienen binnen vijf jaar na het aanslagjaar; dit is een gunstmaatregel, geen recht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Het aanslagbiljet voor de personenbelasting (ook: avertissement-extrait de rôle) is het officieel document waarmee de FOD Financiën de belastingplichtige in kennis stelt van de berekende personenbelasting voor een bepaald aanslagjaar, inclusief het te betalen saldo of terug te ontvangen bedrag. Het document vermeldt ook de uiterste betaaldatum en de rechtsmiddelen die openstaan tegen de aanslag."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Na verwerking van de ingediende aangifte (of ambtshalve aanslag) berekent de fiscus het nettobedrag aan verschuldigde personenbelasting, trekt alle voorheffingen en verrekeningen af en stuurt het resultaat als formeel aanslagbiljet naar de belastingplichtige."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Het aanslagbiljet sluit de fiscale cyclus van een aanslagjaar af: de aangifte is de input van de belastingplichtige, de berekening is het werk van de administratie, en het aanslagbiljet is het formele resultaat. Het document is tegelijkertijd een informatiedocument (hoeveel belasting, hoe berekend) en een rechtsdocument (het opent de termijn voor bezwaar en is de titel voor invordering). Voor de belastingplichtige en zijn accountant markeert de ontvangst ervan het moment waarop de aanslag 'opeisbaar' wordt en de termijn voor bezwaar begint te lopen — in de regel drie maanden na verzending."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure-pb",
+      "toelichting": "Het aanslagbiljet is de formele uitkomst van de aanslag-fase binnen de fiscale procedure voor de personenbelasting."
+    },
+    {
+      "type": "vereist",
+      "target": "aangifte-pb",
+      "toelichting": "De aangifte personenbelasting is de voorwaarde voor de gewone aanslag; zonder aangifte volgt een ambtshalve aanslag."
+    },
+    {
+      "type": "valt_onder",
+      "target": "aanslag-cyclus",
+      "toelichting": "Het aanslagbiljet markeert het sluitstuk van de jaarlijkse aanslag-cyclus."
+    },
+    {
+      "type": "triggert",
+      "target": "bezwaarprocedure-fiscaal",
+      "toelichting": "Ontvangst van het aanslagbiljet opent de bezwaartermijn van drie maanden."
+    },
+    {
+      "type": "triggert",
+      "target": "invorderingsprocedure-fiscaal",
+      "toelichting": "Bij niet-tijdige betaling van het saldo treedt de invorderingsprocedure in werking."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "belastingberekening-pb",
+      "toelichting": "De bedragen op het aanslagbiljet zijn het rechtstreekse resultaat van de belastingberekening personenbelasting."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aanslagtermijnen-fiscaal",
+      "toelichting": "De datum waarop het aanslagbiljet ten laatste mag worden verstuurd is begrensd door de wettelijke aanslagtermijnen."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "aangifte-vennootschapsbelasting",
+      "toelichting": "Het aanslagbiljet personenbelasting is het pendant van de aanslag vennootschapsbelasting; de systematiek (aangifte → aanslag → bezwaar) is gelijkaardig maar de berekeningsregels verschillen fundamenteel.",
+      "gelijkenissen": [
+        "Beide zijn formele overheidsbesluiten die een belastingschuld vaststellen",
+        "Bezwaartermijn van drie maanden geldt in beide gevallen"
+      ],
+      "verschillen": [
+        "PB kent progressieve tarieven en gemeentelijke opcentiemen; VenB kent een vlak tarief",
+        "PB-aanslag is persoonlijk; VenB-aanslag is op naam van de rechtspersoon"
+      ],
+      "verwarring_risico": "Studenten verwarren soms de aanslagtermijnen PB met die van VenB — de basisregels zijn gelijk maar de bijzondere verlengde termijnen kunnen afwijken."
+    }
+  ],
+  "concept_type": "procedure"
+}

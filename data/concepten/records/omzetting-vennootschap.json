@@ -1,268 +1,52 @@
 {
   "id": "omzetting-vennootschap",
-  "naam": "Omzetting van een vennootschap",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "3.0.IX",
-    "3.0.taak.3",
-    "1.6.I.A",
-    "1.7.taak.1"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-20T15:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "3.0.IX",
-    "linked_anchors": [
-      "3.0.IX",
-      "3.0.taak.3"
+  "naam": {
+    "primair": "Omzetting vennootschap"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      }
     ],
-    "reviewed_by": null
+    "ankers": [
+      "3.0.taak.3"
+    ]
   },
-  "definitie": {
-    "text": "Omzetting van een vennootschap is de operatie waarbij een vennootschap haar rechtsvorm wijzigt (bv. BV → NV, CV → BV, VOF → BV) zonder dat haar rechtspersoonlijkheid wordt onderbroken. De vennootschap behoudt haar boekhouding, haar contracten en haar fiscale identiteit; alleen het juridisch kleed wijzigt. Boek 14 WVV regelt de nationale omzetting (Hoofdstuk 2) en de grensoverschrijdende omzetting (Hoofdstuk 3, sinds 2023). De procedure vereist een staat van activa en passiva, een verslag van het bestuursorgaan, een controleverslag van de commissaris of, bij afwezigheid, van een bedrijfsrevisor of gecertificeerd accountant, een gekwalificeerd AV-besluit en een notariële akte.",
-    "confidence": "grounded",
-    "source": {
-      "type": "wet",
-      "short": "WVV art. 14:1-14:14"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "WVV__art_14_1",
-          "version": "rag-v1"
-        },
-        {
-          "id": "WVV__art_14_2",
-          "version": "rag-v1"
-        },
-        {
-          "id": "WVV__art_14_3",
-          "version": "rag-v1"
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Omzetting vennootschap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
+      }
     }
   },
-  "situering": "De omzetting bevindt zich op het kruispunt van vennootschapsrecht en accountantswerk: de wetgever heeft een waarborgmechanisme ingebouwd omdat een rechtsvormwijziging gevolgen kan hebben voor de aansprakelijkheid van vennoten (bv. VOF-vennoten verliezen niet hun aansprakelijkheid voor oude schulden) en voor de bescherming van het kapitaal (bij omzetting in een NV mag het aangegeven kapitaal niet hoger zijn dan het nettoactief). Het verslag over de staat van activa en passiva (art. 14:3 en 14:6 WVV) is een gedeelde wettelijk voorbehouden opdracht voor de gecertificeerd accountant of bedrijfsrevisor wanneer er geen commissaris is.",
-  "bouwstenen": [
-    {
-      "titel": "Continuïteit van rechtspersoonlijkheid",
-      "wat": "De vennootschap behoudt haar bestaande rechtspersoonlijkheid in de nieuwe vorm. Geen nieuwe vennootschap, geen liquidatie. Contracten, vergunningen, boekhouding lopen onverstoord door.",
-      "waarom": "Voorkomt dat een rechtsvormwijziging fiscaal en juridisch als ontbinding+oprichting wordt behandeld, met alle kosten van dien (registratierechten, herroeping vergunningen, contractbreuk).",
-      "in_praktijk": "Concreet: ondernemingsnummer blijft, rekeningnummers blijven, btw-nummer blijft. De accountant boekt geen openings- of slotbalans, alleen een wijziging van eigen-vermogensrubrieken indien nodig.",
-      "grondslag": "WVV art. 14:2",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_2",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Staat van activa en passiva",
-      "wat": "Het bestuursorgaan stelt een staat van activa en passiva op, afgesloten maximaal drie maanden vóór de algemene vergadering die over de omzetting beslist. Bij omzetting in een NV/SE/SCE mag het aangegeven kapitaal niet hoger zijn dan het nettoactief dat uit deze staat blijkt.",
-      "waarom": "Voorkomt dat een vennootschap kapitaal aangeeft dat in werkelijkheid niet aanwezig is (bescherming van toekomstige schuldeisers).",
-      "in_praktijk": "Vergelijkbaar met een tussentijdse balans, maar specifiek opgesteld voor de omzetting. Bij negatief nettoactief tegenover het in de staat opgenomen kapitaal moet dat expliciet vermeld worden.",
-      "grondslag": "WVV art. 14:3",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_3",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Controleverslag bedrijfsrevisor of gecertificeerd accountant",
-      "wat": "Naast de staat van activa en passiva moet een onafhankelijk verslag worden opgesteld door de commissaris of, bij afwezigheid van een commissaris, door een bedrijfsrevisor of een gecertificeerd accountant. Het verslag beoordeelt of het nettoactief in alle van materieel belang zijnde opzichten niet overgewaardeerd is — een opdracht met beperkte mate van zekerheid.",
-      "waarom": "Externe controle waarborgt de juistheid van de staat en beschermt schuldeisers en mede-aandeelhouders tegen verborgen overwaardering.",
-      "in_praktijk": "De accountant gebruikt cijferanalyses, vraagt verklaringen aan het management en doet selectieve controlewerkzaamheden. Conclusie luidt typisch: \"Op basis van ons nazicht is ons niets gebleken waaruit zou blijken dat het nettoactief overgewaardeerd is.\"",
-      "grondslag": "WVV art. 14:3, art. 14:6, art. 14:10",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_6",
-            "version": "rag-v1"
-          },
-          {
-            "id": "WVV__art_14_10",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Verslag van het bestuursorgaan",
-      "wat": "Het bestuursorgaan licht het omzettingsvoorstel toe in een schriftelijk verslag dat in de AV-agenda wordt vermeld. De staat van activa en passiva wordt aan dit verslag gevoegd.",
-      "waarom": "De aandeelhouders moeten op de hoogte zijn van de motivering, de gevolgen voor hun rechten en de eventuele financiële impact.",
-      "in_praktijk": "Het verslag bevat typisch: motivering van de keuze nieuwe rechtsvorm, gevolgen voor aandeelhouders (stemrechten, dividend, aansprakelijkheid), fiscale impact, ontwerp-statuten.",
-      "grondslag": "WVV art. 14:5",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_5",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "AV-besluit met versterkte meerderheid",
-      "wat": "De algemene vergadering beslist over de omzetting bij notariële akte. Aanwezigheidsquorum: ten minste de helft van het kapitaal (of stemrechten). Meerderheid: drie vierde van de uitgebrachte stemmen (onthoudingen niet meegerekend). Bij ontbreken van quorum kan een tweede vergadering beslissen zonder quorum-vereiste.",
-      "waarom": "Een rechtsvormwijziging raakt de fundamenten van de samenwerking tussen aandeelhouders — een versterkte meerderheid voorkomt dat een minderheid onder oude rechtsvorm wordt overruled.",
-      "in_praktijk": "De accountant adviseert om de stemming voor te bereiden met aandacht voor speciale stemrechten en winstbewijzen (artikel 14:8 §2 voorziet aparte regels).",
-      "grondslag": "WVV art. 14:8, art. 14:10",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_8",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Notariële akte en publiciteit",
-      "wat": "De omzetting moet op straffe van nietigheid bij authentieke (notariële) akte worden vastgesteld. De akte neemt de conclusie van het verslag van de commissaris/revisor/accountant over. Akte en nieuwe statuten worden samen neergelegd en bekendgemaakt in de bijlagen bij het Belgisch Staatsblad.",
-      "waarom": "Publiciteit informeert derden — schuldeisers, contractpartijen — over de nieuwe rechtsvorm die hun rechtsverhouding met de vennootschap beïnvloedt.",
-      "in_praktijk": "Tegelijk met de akte worden ook de volmachten en het verslag van de beroepsbeoefenaar neergelegd.",
-      "grondslag": "WVV art. 14:10",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_10",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Aansprakelijkheid bij overwaardering",
-      "wat": "De leden van het bestuursorgaan (en VOF/Comm.V-vennoten) zijn jegens derden hoofdelijk aansprakelijk voor: (1) het verschil tussen nettoactief na omzetting en het wettelijk minimumkapitaal van de nieuwe vorm, (2) overwaardering van het nettoactief in de staat, en (3) schade door nietigheid of onjuistheid van verplichte vermeldingen.",
-      "waarom": "Vormt het tegengewicht voor de verlichting van persoonlijke aansprakelijkheid die de nieuwe rechtsvorm typisch biedt — bestuurders kunnen zich niet achter de omzetting verschuilen.",
-      "grondslag": "WVV art. 14:12, art. 14:13",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_12",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Nietigheid bij ontbreken verslagen",
-      "wat": "Wanneer de verslagen die Boek 14 voorschrijft (bestuursverslag, accountantsverslag, staat van activa en passiva) ontbreken, is het AV-besluit tot omzetting nietig.",
-      "waarom": "De wetgever heeft de procedurele waarborgen als essentieel beschouwd — een omzetting zonder externe controle wordt niet getolereerd.",
-      "in_praktijk": "Examen-valkuil: een ontbrekend verslag van de gecertificeerd accountant ⇒ nietigheid van de hele omzetting, ook al is de notariële akte verleden.",
-      "grondslag": "WVV art. 14:7",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_7",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "titel": "Grensoverschrijdende omzetting (emigratie/immigratie)",
-      "wat": "Sinds 2023 voorziet Hoofdstuk 3 van Boek 14 een gestructureerde procedure voor zetelverplaatsing naar het buitenland (emigratie) of vanuit het buitenland naar België (immigratie), met continuïteit van rechtspersoonlijkheid. SE en SCE vallen buiten deze regeling (eigen Europese verordening).",
-      "waarom": "Implementatie van de EU-mobiliteitsrichtlijn (2019/2121) — biedt rechtszekerheid bij cross-border herstructureringen.",
-      "in_praktijk": "Praktisch zelden voor stagiairs, maar examen-bekend als bestaansvorm naast nationale omzetting. Vereist analoge documenten (voorstel, verslag, controleverslag) plus toetsing aan jurisdictie van bestemming.",
-      "grondslag": "WVV art. 14:15-14:42",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_15",
-            "version": "rag-v1"
-          },
-          {
-            "id": "WVV__art_14_16",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Wanneer kom je het tegen?",
-      "betekenis": "Een BV die groeit en aandelen wil uitgeven aan externe investeerders → omzetting naar NV. Een VOF waarin een vennoot afhaakt en de overblijvers persoonlijke aansprakelijkheid willen beperken → omzetting naar BV. Een vereniging (vzw) die commerciële activiteiten ontwikkelt → soms omzetting naar coöperatieve.",
-      "confidence": "inferred"
-    },
-    {
-      "aspect": "Rol van de gecertificeerd accountant",
-      "betekenis": "Wanneer de vennootschap geen commissaris heeft (typisch kmo), is de gecertificeerd accountant samen met de bedrijfsrevisor monopoliehouder van het controleverslag (art. 14:6 en 14:10 WVV). De cliënt verleent expliciet een schriftelijke opdracht; de accountant past de ITAA-norm Effectennorm-vergelijkbare procedure toe (beperkte mate van zekerheid).",
-      "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WVV__art_14_6",
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "valkuilen": [
-    {
-      "advies": "Verifieer dat de staat van activa en passiva niet ouder is dan drie maanden op de AV-datum.",
-      "vaak_fout": "Stagiair gebruikt de laatste jaarrekening (>3 maanden oud) als basis — verslag wordt afgekeurd.",
-      "grondslag": "WVV art. 14:3"
-    },
-    {
-      "advies": "Bij omzetting naar NV: check dat het aangegeven kapitaal niet hoger is dan het nettoactief.",
-      "vaak_fout": "Het kapitaalbedrag uit de oude BV wordt klakkeloos overgenomen, terwijl het nettoactief inmiddels lager is — schending art. 14:3 derde lid.",
-      "grondslag": "WVV art. 14:3"
-    },
-    {
-      "advies": "Vergeet niet dat het bestuursverslag (art. 14:5) een afzonderlijk verslag is, niet hetzelfde als het accountantsverslag.",
-      "vaak_fout": "Beide verslagen worden samengevoegd in één document — formeel gebrek dat nietigheid kan veroorzaken (art. 14:7)."
-    }
-  ],
-  "edges": [
-    {
-      "type": "vereist-kennis-van",
-      "target": "omzetting-vennootschap-opdracht"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "opstellen-verslag-omzetting-vennootschap"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "controleverslag-omzetting"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "voorstel-omzetting-vennootschap"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "beperkte-mate-van-zekerheid"
-    },
-    {
-      "type": "onderdeel-van",
-      "target": "bijzondere-verslagen-overzicht"
-    },
-    {
-      "type": "vergelijkt-met",
-      "target": "fusie-splitsing-controleopdracht",
-      "aspect": "andere herstructureringsoperaties"
-    }
-  ]
+  "relaties": [],
+  "concept_type": "procedure"
 }

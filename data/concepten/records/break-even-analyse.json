@@ -1,298 +1,52 @@
 {
   "id": "break-even-analyse",
-  "naam": "Break-even-analyse",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.8.III.D",
-    "1.8.III"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.8.III.D",
-    "dekt_ook_anchors": [
-      "1.8.III"
+  "naam": {
+    "primair": "Break even analyse"
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      }
     ],
-    "reviewed_by": null,
-    "bron_gap": "Break-even-analyse is management-accounting-doctrine. Belgisch boekhoudrecht definieert het concept niet rechtstreeks; geen trusted bron in de bundle."
+    "ankers": [
+      "1.8.III.D"
+    ]
   },
-  "bouwstenen": [
-    {
-      "titel": "Werking van het break-even-punt",
-      "wat": "Bij volume nul: vaste kosten worden niet gedekt — totaal verlies = vaste kosten. Bij elke verkochte eenheid komt een contributiemarge binnen die een stukje vaste kost dekt. Het break-even-volume is het aantal eenheden waarbij de totale contributiemarge precies gelijk is aan de totale vaste kosten.",
-      "waarom": "Geeft een aanvoelpunt voor 'hoe groot moet ons bedrijf minimaal zijn om uit verlies te raken?'",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse Werkplaats BV heeft vaste kosten € 800.000/jaar en eenheidscontributie € 47 per tapijt. Break-even = € 800.000 / € 47 = 17.022 tapijten/jaar. Daaronder = verlies; daarboven = winst."
-        }
-      ]
-    },
-    {
-      "titel": "In eenheden vs. in omzet",
-      "wat": "Break-even kan in stuks (vaste kost / eenheidscontributie) of in omzet (vaste kost / CM-ratio) worden uitgedrukt. Bij multi-product-mix is omzet-vorm handiger.",
-      "waarom": "Stuks helpt productie-planning; omzet helpt commercieel team.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse Werkplaats BV — break-even in stuks: € 800.000 / € 47 = 17.022 tapijten. In omzet: € 800.000 / 78,3 % = € 1.021.711."
-        }
-      ]
-    },
-    {
-      "titel": "Veiligheidsmarge",
-      "wat": "Verschil tussen verwachte verkoop en break-even, in % of in absolute eenheden. Een hoge veiligheidsmarge betekent dat de onderneming volume kan verliezen voordat ze in verlies komt.",
-      "waarom": "Risicoanalyse: hoe gevoelig is de onderneming voor volumedaling?",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse Werkplaats BV verwacht 22.000 tapijten te verkopen. Veiligheidsmarge = (22.000 − 17.022) / 22.000 = 22,6 %. Het volume mag met 22,6 % dalen voordat verlies optreedt."
-        }
-      ]
-    }
-  ],
-  "berekeningsmethode": [
-    {
-      "naam": "Break-even-berekening",
-      "ratio": "Op het break-even-punt: totale opbrengsten = totale kosten. Equivalent: contributiemarge × volume = vaste kosten.",
-      "stappen": [
-        {
-          "nr": 1,
-          "titel": "Splits kosten in vast en variabel",
-          "wat": "Identificeer welke kosten meebewegen met volume (variabel) en welke constant blijven (vast). Semi-variabele kosten splitsen.",
-          "hoe": "Klassieke aanpak: variabel = directe materiaal, directe variabele arbeid, variabele energie. Vast = huur, afschrijving, vaste lonen, verzekering.",
-          "grondslag": "[[typologie-van-kosten]]"
-        },
-        {
-          "nr": 2,
-          "titel": "Bereken eenheidscontributie",
-          "wat": "Verkoopprijs per eenheid − variabele kost per eenheid.",
-          "hoe": "Zie [[contributiemarge]] §berekening.",
-          "grondslag": "[[contributiemarge]]"
-        },
-        {
-          "nr": 3,
-          "titel": "Bereken break-even-volume",
-          "wat": "Vaste kosten gedeeld door eenheidscontributie geeft het minimumvolume.",
-          "hoe": "1. Tel alle vaste kosten op (productie, administratie, commercieel — voor de onderneming als geheel).\n2. Deel door eenheidscontributie.\n3. Rond naar boven af (gedeeltelijk product = niet verkocht).\n",
-          "voorbeeld": {
-            "scenario": "Yperse Werkplaats BV verkoopt tapijten aan € 60. Variabele kost per stuk € 13. Vaste kosten € 800.000/jaar.",
-            "substappen": [
-              {
-                "nr": 1,
-                "titel": "Eenheidscontributie",
-                "type": "berekening",
-                "data": "eenheidscontributie = € 60 − € 13 = **€ 47/stuk**"
-              },
-              {
-                "nr": 2,
-                "titel": "Break-even in stuks",
-                "type": "berekening",
-                "data": "BE-volume = € 800.000 / € 47 = **17.022 tapijten** (afgerond naar boven)"
-              },
-              {
-                "nr": 3,
-                "titel": "Break-even in omzet",
-                "type": "berekening",
-                "data": "CM-ratio = € 47 / € 60 = 78,3 %\nBE-omzet = € 800.000 / 78,3 % = **€ 1.021.711**\nControle: 17.022 × € 60 = € 1.021.320 (verschil door afronding)"
-              },
-              {
-                "nr": 4,
-                "titel": "Controle: totale opbrengsten = totale kosten",
-                "type": "berekening",
-                "data": "Bij 17.022 stuks:\n  Omzet            = 17.022 × € 60 =  **€ 1.021.320**\n  Variabele kost   = 17.022 × € 13 =  **€   221.286**\n  Vaste kost       =                  **€   800.000**\n  Totaal kost      =                  **€ 1.021.286**\n  Resultaat        =                  **€         34** (≈ 0; afrondingsverschil)"
-              }
-            ]
-          },
-          "grondslag": "Vakdoctrine"
-        }
-      ],
-      "formules": [
-        {
-          "id": "be-volume",
-          "naam": "Break-even-volume (in eenheden)",
-          "wiskunde": "BE-volume = vaste kosten / eenheidscontributie",
-          "afhankelijk_van": [
-            "eenheidscontributie"
-          ],
-          "variabelen": [
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Break even analyse",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
             {
-              "symbool": "vaste kosten",
-              "betekenis": "Totale vaste kosten van de onderneming (productie + administratie + commercieel)",
-              "eenheid": "EUR"
-            },
-            {
-              "symbool": "eenheidscontributie",
-              "betekenis": "Verkoopprijs − variabele kost per eenheid",
-              "eenheid": "EUR/stuk"
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
             }
-          ],
-          "invulling_voorbeeld": {
-            "waarden": "Yperse Werkplaats BV: vaste kosten € 800.000; eenheidscontributie € 47",
-            "berekening": "€ 800.000 / € 47 = 17.021,3 → 17.022 stuks",
-            "eenheid_resultaat": "stuks"
-          }
-        },
-        {
-          "id": "be-omzet",
-          "naam": "Break-even-omzet (in EUR)",
-          "wiskunde": "BE-omzet = vaste kosten / CM-ratio",
-          "afhankelijk_van": [
-            "contributiemarge-ratio"
-          ],
-          "variabelen": [
-            {
-              "symbool": "vaste kosten",
-              "betekenis": "Totale vaste kosten",
-              "eenheid": "EUR"
-            },
-            {
-              "symbool": "CM-ratio",
-              "betekenis": "Contributiemarge gedeeld door verkoopprijs",
-              "eenheid": "%"
-            }
-          ],
-          "invulling_voorbeeld": {
-            "waarden": "Yperse: vaste kosten € 800.000; CM-ratio 78,3 %",
-            "berekening": "€ 800.000 / 78,3 % = € 1.021.711",
-            "eenheid_resultaat": "EUR"
-          }
-        },
-        {
-          "id": "veiligheidsmarge",
-          "naam": "Veiligheidsmarge",
-          "wiskunde": "veiligheidsmarge = (verwachte verkoop − BE-volume) / verwachte verkoop",
-          "afhankelijk_van": [
-            "be-volume"
-          ],
-          "variabelen": [
-            {
-              "symbool": "verwachte verkoop",
-              "betekenis": "Geplande verkoop in eenheden of EUR",
-              "eenheid": "stuks of EUR"
-            },
-            {
-              "symbool": "BE-volume",
-              "betekenis": "Break-even-volume in zelfde eenheid",
-              "eenheid": "stuks of EUR"
-            }
-          ],
-          "invulling_voorbeeld": {
-            "waarden": "Yperse: verwacht 22.000 tapijten; BE = 17.022",
-            "berekening": "(22.000 − 17.022) / 22.000 = 22,6 %",
-            "eenheid_resultaat": "%"
-          }
+          ]
         }
-      ],
-      "concreet_voorbeeld": {
-        "scenario": "Yperse Werkplaats BV, productlijn tapijten: verkoopprijs € 60; variabele kost € 13/stuk; vaste kosten € 800.000/jaar.",
-        "berekening": "Eenheidscontributie = € 60 − € 13 = € 47. BE-volume = € 800.000 / € 47 = 17.022 stuks. BE-omzet = € 800.000 / 78,3 % = € 1.021.711.",
-        "resultaat": "Yperse moet jaarlijks minstens 17.022 tapijten verkopen om uit verlies te raken; daarboven levert elk stuk € 47 winst."
-      },
-      "source": {
-        "type": "vakdoctrine",
-        "short": "Management accounting — bron-gap"
-      },
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
       }
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Aannames",
-      "betekenis": "Break-even-analyse veronderstelt: (1) lineaire relatie tussen volume en kost/opbrengst, (2) verkoopprijs constant, (3) productmix constant, (4) vaste kosten constant binnen relevante range. Bij realiteit met staffelkortingen, capaciteitssprongen of mix-shift is de eenvoudige formule een benadering.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "aspect": "Doelwinst-volume",
-      "betekenis": "Variant: hoeveel volume om een doelwinst W te halen? Formule: (vaste kosten + W) / eenheidscontributie. Bij Yperse, doelwinst € 200.000: (800.000 + 200.000) / 47 = 21.277 stuks.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "Vergeten dat 'vaste kosten' ook commerciële en administratieve overhead bevat — niet enkel productie-vaste-kosten. Wie alleen productie-vaste-kosten in de teller stopt, krijgt een te optimistisch break-even-punt.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "text": "Semi-variabele kosten (basis-abonnement + verbruik) eerst splitsen via high-low-methode of regressie. Een 'semi-variabele' kost volledig vast of volledig variabel rekenen vertekent de break-even met 10-20 %.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "text": "Break-even-punt is een momentopname. Bij sterk seizoensgebonden verkopen of stijgende vaste kosten in de tijd moet de berekening per periode worden bijgehouden.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "vereist-kennis-van",
-      "target": "contributiemarge",
-      "redenering": "Noemer in BE-formule.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "vaste-kosten",
-      "redenering": "Teller in BE-formule.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "variabele-kosten",
-      "redenering": "Component van contributiemarge.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "onderdeel-van",
-      "target": "direct-costing",
-      "redenering": "Break-even is klassieke toepassing van direct costing.",
-      "confidence": "inferred"
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
-  "situering": {
-    "text": "De break-even-analyse (kosten-volume-winst-analyse, CVP) berekent welke omzet of welk volume nodig is om alle vaste kosten te dekken — het punt waarop de onderneming geen verlies en geen winst maakt. Aan dat volume betekent elke extra eenheid winst; eronder wordt verlies geleden.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Management accounting — bron-gap"
-    },
-    "_provenance": {
-      "inputs": []
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18",
-  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
-  "naam_alternatief": "break-even analysis / cost-volume-profit analysis"
+  "relaties": [],
+  "concept_type": "procedure"
 }

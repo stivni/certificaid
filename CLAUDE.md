@@ -6,15 +6,13 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 
 **Bij het examen beschikbaar**: ITAA-LEX (wettekstenbundel) + Cijferzakboekje (tarieven en bedragen). Wat getoetst wordt: concepten begrijpen, uitzonderingen herkennen, correct redeneren — niet cijfers uit het hoofd kennen.
 
-> **Status (2026-05-21 — namiddag-update)**: **Schema 2.0 + bundle-aware extract gevalideerd, klaar voor bulk** (ADR-025 + ADR-027).
-> Skeleton voor alle 19 PO's: 404 kandidaten (van 425 na consolidatie — 21 duplicaten + naming + structurele merges).
-> Bundle-aware extract-architectuur (full 2-pass) + daemon v2.0 (request-batching, gating, concurrent index) live. Schema-discipline-prompt-update voorkomt Sonnet-pitfalls (platte-dict, top-level-weergaven, dict-source).
-> Acht referentie-mockups in [`content/experiment/`](content/experiment/) + tien geschreven schema-2.0-records (`data/concepten/records/`): aandeelhoudersovereenkomst, fraude, vennootschapsbelasting, dbi-aftrek, innovatie-aftrek, investeringsoftrek, werkkapitaalbehoefte, alarmbel, oeso-modelverdrag, voordelen-alle-aard. Plus 3 net-aangemaakte concept-fiches (fraude, verbonden-partijen, boekhoudkundige-schattingen).
-> 5-rol-set + `eigen-kantoor`-perspectief vastgelegd (ADR-025 §4 + §4bis).
-> **Volgende stap**: 6-parallel benchmark met full-2-pass-stack (liquidatiereserve, verbonden-partijen, kapitaalverhoging, roerend-inkomen-internationaal, boekhoudkundige-schattingen, faillissement) → meet of theoretische 60% tijdwinst gerealiseerd wordt → pilot Wave 0a relaunch.
+> **Status (2026-05-23)**: **Schema 2.1 v1.5 design afgerond, implementatie in progress** (ADR-029 + [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md)).
+> 21 v1.5-besluiten vastgelegd: drop 9 velden (`andere_talen`, `dekt_tdks`, `tags`, `cross_po`, `primary_po`, `element.beschrijving`, `element.verwijst_naar`, `keuzekader`, `voorbeeld_inline/voorbeeld_case`); hernoemingen (`linked_anchors → ankers`, `text → tekst`, `component → subconcept`, `rollen_per_perspectief → accountant_perspectieven`); `kern`-wrapper voor definitie/substantie/rationale; fractale element-recursie; nieuwe arrays `valkuilen[]`, `speelruimtes[]`, `syntheses[]`; trim enums (12 `inhoud_types`, 11 `weergave_types`); 7-operaties operations-model (`beschrijven`, `claims_checken`, `relaties_aanvullen`, `accountant_perspectief`, `didactisch_verrijken`, `kandidaat_review`, `leespad_aanvullen`).
+> **Migratie 396 records v1.4 → v1.5** door parallelle agent uitgevoerd en door user gemerged. Schema + scripts + prompts updates lopen parallel.
+> **Volgende stap**: wave-2 `beschrijven`-operatie op 371 lege records (12-parallel Sonnet, ~1.5u wall-clock geschat) + render-sessie kick-off met geüpdatete [`docs/handoff-render-sessie.md`](docs/handoff-render-sessie.md).
 > Examen-deadline ca. 2026-05-30 — bronnen-werk loopt parallel (user).
 >
-> *Vorige status (2026-05-21 ochtend)*: Schema 2.0 in voorbereiding; volledige sessie-handoff in [`docs/sessie-2026-05-21-schema-20-handoff.md`](docs/sessie-2026-05-21-schema-20-handoff.md).
+> *Vorige status (2026-05-21 namiddag)*: Schema 2.0 + bundle-aware extract gevalideerd; 16 schema-2.0-records geschreven, bulk-optimalisaties live (ADR-025 + ADR-027). Vervangen door schema 2.1 v1.5.
 
 ---
 
@@ -38,7 +36,10 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | **Render leermateriaal** (concept-fiches, competentie-fiches, minicursus) | `tools/leermateriaal/` — ADR-007 schema 1.3, ADR-008 Fase D+E, ADR-010 §drie-lagen |
 | Concept- of competentie-record schrijven | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) — taxonomie, granulariteit, edges, taal, afkortingen *(v1.5/1.6 — wordt herzien voor 2.0)* |
 | Programmaonderdeel-build *(legacy)* | [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
-| **Schema 2.0 concept-record schrijven** | [ADR-025](docs/adr/ADR-025-schema-20-didactische-conceptlaag.md) + [`prompts/concept-extractie-v5.md`](prompts/concept-extractie-v5.md). Referentie: [`content/experiment/obligatielening-v7.md`](content/experiment/obligatielening-v7.md) |
+| **Schema 2.0 concept-record schrijven** *(legacy, supersede door 2.1)* | [ADR-025](docs/adr/ADR-025-schema-20-didactische-conceptlaag.md) + [`prompts/concept-extractie-v5.md`](prompts/concept-extractie-v5.md). Referentie: [`content/experiment/obligatielening-v7.md`](content/experiment/obligatielening-v7.md) |
+| **Schema 2.1 v1.5 concept-record schrijven** | [ADR-029](docs/adr/ADR-029-schema-21-operaties-model.md) + canonieke spec [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md) + schema [`data/concepten/schema-2.1.schema.json`](data/concepten/schema-2.1.schema.json). Velden: `ankers` (was `linked_anchors`), `tekst` (was `text`), `inhoud.kern.{definitie,substantie,rationale}`, `accountant_perspectieven`, `valkuilen[]`, `speelruimtes[]`, `syntheses[]`. |
+| **Operatie toepassen op schema 2.1-record** | ADR-029 §Operaties-model — 7 operaties: `beschrijven` · `claims_checken` · `relaties_aanvullen` · `accountant_perspectief` · `didactisch_verrijken` · `kandidaat_review` · `leespad_aanvullen`. Prompts: [`prompts/multipass/`](prompts/multipass/) (in update voor v1.5). |
+| **Render-laag schema 2.1 v1.5** | [`docs/handoff-render-sessie.md`](docs/handoff-render-sessie.md) — render-todos, label-mapping per `concept_type`, confidence-iconen, fractale element-recursie. |
 | **Skeleton-voorstel (pre-pilot stap 0)** | [`prompts/skeleton-voorstel-v1.md`](prompts/skeleton-voorstel-v1.md) — Opus-subagent met MCP-tools |
 | **MCP-server `certificaid-rag`** (tools voor on-demand retrieval) | [`tools/extractie/mcp_server/`](tools/extractie/mcp_server/) — `zoek_bronnen` · `zoek_concepten` · `zoek_vragen` · `lees_record` · `lees_anchor_bundle` · `check_record_bestaat` + candidates-DB tools. Geconfigureerd in [`.mcp.json`](.mcp.json) |
 | **MCP-server `certificaid-tarieven`** (4 tools voor tarief-records) | [`tools/tarieven/mcp_server/`](tools/tarieven/mcp_server/) — `lijst_tabellen` · `zoek_tabellen` · `lees_tabel` · `query_tabel`. Schema: [`data/tarieven/SCHEMA.md`](data/tarieven/SCHEMA.md). ADR-026. |

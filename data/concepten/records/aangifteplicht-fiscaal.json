@@ -1,0 +1,823 @@
+{
+  "id": "aangifteplicht-fiscaal",
+  "naam": {
+    "primair": "Aangifteplicht fiscaal",
+    "synoniemen": [
+      "belastingaangifte",
+      "fiscale aangifte",
+      "aangifte"
+    ],
+    "vertaling": {
+      "fr": "obligation déclarative fiscale",
+      "en": "tax filing obligation"
+    }
+  },
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "quick-pass-run1-20260522",
+      "extract_prompt": "prompts/multipass/run-1-draft.md",
+      "iteratie": "v1",
+      "mcp_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 33)"
+      }
+    ],
+    "ankers": [
+      "2.5.III",
+      "2.5.taak.3"
+    ]
+  },
+  "inhoud": {
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "fiscale-beginselen",
+        "fiscale-actoren",
+        "toepassingsgebied-belasting"
+      ],
+      "naast_relevant": [
+        "fiscale-procedure-belastingplichtige",
+        "taxatieprocedure",
+        "aanslagtermijnen-fiscaal"
+      ],
+      "volgkennis": [
+        "aangifte-pb",
+        "aangifte-vennootschapsbelasting",
+        "belasting-niet-inwoners"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Elke natuurlijke persoon die aan de personenbelasting onderworpen is (rijksinwoner met belastbare inkomsten) moet jaarlijks aangifte doen."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Elke vennootschap onderworpen aan vennootschapsbelasting is verplicht jaarlijks aangifte in te dienen, ook bij nihil-resultaat of verlies."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Niet-inwoners met Belgische beroepsinkomsten of onroerende inkomsten zijn onderworpen aan de belasting der niet-inwoners en dienen aangifte te doen."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "De aangifteplicht ontstaat van zodra de belastingplichtige belastbare inkomsten of vermogensbestanddelen heeft die onder het toepassingsgebied van een Belgische belasting vallen."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Ook bij verlies of nul-resultaat blijft de verplichting bestaan voor vennootschappen en zelfstandigen."
+        }
+      ],
+      "risico": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Laattijdige of onvolledige indiening leidt tot een ambtshalve aanslag, belastingverhogingen en nalatigheidsintresten; de accountant kan aansprakelijk worden gesteld indien hij het mandaat had."
+        }
+      ],
+      "indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Accountant ontvangt mandaat van cliënt voor indiening van de aangifte via MyMinfin (PB) of Biztax (VenB)."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "aangifte-soorten",
+        "naam": {
+          "primair": "Soorten belastingaangiften"
+        },
+        "inhoud_type": "begrip",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "aangifte-pb",
+            "naam": {
+              "primair": "Personenbelasting (PB)",
+              "afkorting": "PB"
+            },
+            "inhoud_type": "begrip",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Jaarlijkse aangifte door rijksinwoners (natuurlijke personen). Platform: MyMinfin (Tax-on-web). Indieningstermijn: eind juni (papier), eind juli (online), oktober voor mandatarissen.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "aangifte-venb",
+            "naam": {
+              "primair": "Vennootschapsbelasting (VenB)",
+              "afkorting": "VenB"
+            },
+            "inhoud_type": "begrip",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Jaarlijkse aangifte door in België gevestigde vennootschappen. Platform: Biztax. Indieningstermijn: 7 maanden na afsluiting boekjaar (minstens 1 maand na goedkeuring jaarrekening).",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "aangifte-rpb",
+            "naam": {
+              "primair": "Rechtspersonenbelasting (RPB)",
+              "afkorting": "RPB"
+            },
+            "inhoud_type": "begrip",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Aangifte door VZW's, stichtingen en andere rechtspersonen die niet aan VenB onderworpen zijn. Beperktere berekeningsgrondslag dan VenB.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "aangifte-bnib",
+            "naam": {
+              "primair": "Belasting der niet-inwoners — natuurlijke personen (BNI/nat)",
+              "afkorting": "BNI/nat"
+            },
+            "inhoud_type": "begrip",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Aangifte door niet-rijksinwoners met Belgische inkomstenbronnen. Structuur parallel aan PB maar beperkt tot Belgische bronnen.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "aangifte-bniv",
+            "naam": {
+              "primair": "Belasting der niet-inwoners — vennootschappen (BNI/ven)",
+              "afkorting": "BNI/ven"
+            },
+            "inhoud_type": "begrip",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "kern": {
+              "definitie": {
+                "tekst": "Aangifte door buitenlandse vennootschappen met een Belgische vaste inrichting of Belgische inkomstenbronnen.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-22"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Overzicht van de vier voornaamste Belgische belastingaangiften en hun toepassingsgebied.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "indieningstermijnen",
+        "naam": {
+          "primair": "Indieningstermijnen"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": [
+              "Belasting",
+              "Indieningstermijn (standaard)",
+              "Platform",
+              "Mandataris-termijn"
+            ],
+            "rijen": [
+              [
+                "PB",
+                "Eind juni (papier) / eind juli (online)",
+                "MyMinfin / Tax-on-web",
+                "Oktober (jaar na inkomstenjaar)"
+              ],
+              [
+                "VenB",
+                "7 maanden na afsluiting boekjaar (min. 1 maand na AV)",
+                "Biztax",
+                "Zelfde als vennootschap"
+              ],
+              [
+                "RPB",
+                "Zelfde als VenB",
+                "Biztax",
+                "Zelfde als rechtspersoon"
+              ],
+              [
+                "BNI/nat",
+                "Parallel aan PB",
+                "MyMinfin",
+                "Oktober"
+              ],
+              [
+                "BNI/ven",
+                "Parallel aan VenB",
+                "Biztax",
+                "Zelfde"
+              ]
+            ]
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "De termijnen zijn wettelijk vastgelegd maar worden jaarlijks gepreciseerd via KB of circulaire. Overschrijding leidt tot ambtshalve aanslag.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ambtshalve-aanslag",
+        "naam": {
+          "primair": "Ambtshalve aanslag bij niet-aangifte"
+        },
+        "inhoud_type": "risico",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer geen aangifte wordt ingediend of de aangifte onvolledig is, kan de administratie ambtshalve aanslaan op basis van tekenen en indiciën of een minimum belastbare basis. De bewijslast verschuift dan naar de belastingplichtige.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "elektronische-indiening",
+        "naam": {
+          "primair": "Elektronische indiening en mandaat"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Accountants dienen de aangifte in via een professioneel mandaat (MyMinfin voor PB; Biztax voor VenB/RPB). Het mandaat geeft de accountant recht om in naam van de cliënt in te dienen en documenten te raadplegen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "volledigheid-correctheid",
+        "naam": {
+          "primair": "Volledigheid en correctheid van de aangifte"
+        },
+        "inhoud_type": "principe",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige (of zijn mandataris) is verantwoordelijk voor de juistheid van alle ingevulde gegevens. Een foutieve aangifte kan leiden tot belastingverhogingen; een onjuiste aangifte te goeder trouw geeft soms recht op ontheffing van ambtshalve.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gegevensuitwisseling-derde",
+        "naam": {
+          "primair": "Vooraf ingevulde gegevens en gegevensuitwisseling"
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Werkgevers, financiële instellingen en andere derde-partijen sturen fiscale fiches naar de administratie (loonfiche, roerende voorheffing, ...). Die gegevens worden vooraf ingevuld in de PB-aangifte. De belastingplichtige controleert en vult aan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rechtzetting-aangifte",
+        "naam": {
+          "primair": "Rechtzetting van een ingediende aangifte"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Fouten of vergissingen in een reeds ingediende aangifte kunnen worden rechtgezet door een aanvullende aangifte of bezwaarschrift in te dienen, zolang de aanslagtermijn niet verstreken is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-fiches-derdenbetalers",
+        "naam": {
+          "primair": "Fiscale fiches door derden-betalers"
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Schuldenaren van bepaalde inkomsten (werkgevers, financiële instellingen, uitbetalende instellingen voor uitkeringen) zijn verplicht fiscale fiches op te maken en te bezorgen aan zowel de verkrijger als de administratie (bv. fiche 281.10, 281.20, 281.11).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De aangifteplicht is de wettelijke verplichting voor iedere belastingplichtige om tijdig en volledig een belastingaangifte in te dienen bij de bevoegde belastingadministratie, zodat de verschuldigde belasting kan worden berekend of gecontroleerd. Voor rechtspersonen betreft dit de aangifte in de vennootschapsbelasting of de rechtspersonenbelasting; voor natuurlijke personen de aangifte in de personenbelasting of de belasting der niet-inwoners."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Wie aangifte moet doen, ontvangt normaal een aangifteformulier (of uitnodiging via MyMinfin/Biztax) van de administratie; wie geen uitnodiging ontvangt maar wel belastbare inkomsten heeft, is verplicht zelf aangifte te vragen en in te dienen."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De aangifteplicht is de fundamentele schakel die het zelfaangiftestelsel van het Belgische belastingrecht draaiende houdt: de belastingplichtige berekent of laat berekenen wat hij verschuldigd is, de administratie verifieert en slaat aan. Zonder aangifte kan de fiscus enkel aanslaan op basis van tekenen en indiciën (ambtshalve aanslag), wat voor de belastingplichtige veel minder gunstig is. Voor een accountant is de aangifteplicht tegelijk een advies- en een uitvoeringsverantwoordelijkheid: hij moet de cliënt tijdig informeren over deadlines, de juiste belastingsoort kiezen, en controleren of alle rubrieken correct en volledig zijn ingevuld."
+      }
+    },
+    "syntheses": [
+      {
+        "type": "keuzekader",
+        "inhoud": {
+          "assen": [
+            {
+              "vraag": "Is de belastingplichtige een rijksinwoner (woonplaats of zetel van fortuin in België)?",
+              "richtingen": [
+                {
+                  "richting": "Ja — rijksinwoner",
+                  "leidt_naar": "aangifteplicht-fiscaal#aangifte-soorten"
+                },
+                {
+                  "richting": "Nee — niet-inwoner met Belgische bron",
+                  "leidt_naar": "belasting-niet-inwoners"
+                }
+              ]
+            },
+            {
+              "vraag": "Is de rijksinwoner een natuurlijke persoon of een rechtspersoon?",
+              "richtingen": [
+                {
+                  "richting": "Natuurlijke persoon",
+                  "leidt_naar": "aangifte-pb"
+                },
+                {
+                  "richting": "Vennootschap (onderworpen aan VenB)",
+                  "leidt_naar": "aangifte-vennootschapsbelasting"
+                },
+                {
+                  "richting": "Rechtspersoon zonder winstoogmerk (VZW, stichting...)",
+                  "leidt_naar": "aangifteplicht-fiscaal#aangifte-rpb"
+                }
+              ]
+            },
+            {
+              "vraag": "Is de niet-inwoner een natuurlijke persoon of een vennootschap?",
+              "richtingen": [
+                {
+                  "richting": "Natuurlijke persoon",
+                  "leidt_naar": "aangifteplicht-fiscaal#aangifte-bnib"
+                },
+                {
+                  "richting": "Vennootschap",
+                  "leidt_naar": "aangifteplicht-fiscaal#aangifte-bniv"
+                }
+              ]
+            }
+          ],
+          "vergelijkingstabel": {
+            "kolommen": [
+              "Belasting",
+              "Toepassingsgebied",
+              "Grondslag",
+              "Platform",
+              "Bijzonderheid"
+            ],
+            "rijen": [
+              [
+                "PB",
+                "Rijksinwoner — nat. persoon",
+                "Wereldwijd inkomen",
+                "MyMinfin",
+                "Vooraf ingevuld; gemeentebelasting bovenop"
+              ],
+              [
+                "VenB",
+                "In België gevestigde vennootschap",
+                "Belastbare winst na aftrekken",
+                "Biztax",
+                "Complexe correcties (verworpen uitgaven, aftrekken)"
+              ],
+              [
+                "RPB",
+                "Rechtspersoon zonder winstoogmerk",
+                "Beperkte grondslag (bv. vastgoedinkomen, inkomsten uit kapitaal)",
+                "Biztax",
+                "Geen aftrek beroepskosten"
+              ],
+              [
+                "BNI/nat",
+                "Niet-rijksinwoner — nat. persoon met Belgische bron",
+                "Belgische inkomsten",
+                "MyMinfin",
+                "Dbv-verdragen kunnen vrijstelling geven"
+              ],
+              [
+                "BNI/ven",
+                "Buitenlandse vennootschap met Belgische vaste inrichting/bron",
+                "Belgische winst",
+                "Biztax",
+                "Vaste inrichting bepaalt scope"
+              ]
+            ]
+          }
+        },
+        "intro": "Het kader bepaalt welk type belastingaangifte van toepassing is op een belastingplichtige. De twee hoofdassen zijn: (1) is de belastingplichtige een rijksinwoner of niet? en (2) is het een natuurlijke persoon of een rechtspersoon?"
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "aangifte-pb",
+      "toelichting": "Personenbelasting-aangifte is het uitvoeringsinstrument van de aangifteplicht voor rijksinwoners (nat. personen)."
+    },
+    {
+      "type": "bevat",
+      "target": "aangifte-vennootschapsbelasting",
+      "toelichting": "VenB-aangifte is het uitvoeringsinstrument voor vennootschappen."
+    },
+    {
+      "type": "bevat",
+      "target": "belasting-niet-inwoners",
+      "toelichting": "BNI is het regime voor niet-rijksinwoners; de aangifteplicht geldt ook hier."
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-actoren",
+      "toelichting": "Kennis van wie belastingplichtige is en wie de administratie is, is voorwaarde voor toepassing."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aanslagtermijnen-fiscaal",
+      "toelichting": "De aanslagtermijn bepaalt hoe lang na de aangifte de administratie nog kan aanslaan of rechtzetten."
+    },
+    {
+      "type": "triggert",
+      "target": "taxatieprocedure",
+      "toelichting": "Niet-indiening of onvolledige aangifte triggert de ambtshalve aanslagprocedure."
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-beginselen",
+      "toelichting": "Beginselen zoals legaliteitsbeginsel en rechtszekerheid vormen de grondslag van de aangifteplicht."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-procedure-belastingplichtige",
+      "toelichting": "Aangifte is de eerste stap in de bredere fiscale procedure (aangifte → aanslag → bezwaar → beroep).",
+      "gelijkenissen": [
+        "Beide zijn onderdeel van het fiscale controlesysteem",
+        "Beide raken de verhouding belastingplichtige–administratie"
+      ],
+      "verschillen": [
+        "Aangifteplicht is het indienen van gegevens; fiscale procedure omvat ook bezwaar, beroep, invordering",
+        "Aangifteplicht is een actieve plicht; procedurerechten zijn reactief"
+      ]
+    }
+  ],
+  "concept_type": "kader"
+}

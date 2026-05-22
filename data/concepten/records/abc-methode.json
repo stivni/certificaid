@@ -1,175 +1,456 @@
 {
   "id": "abc-methode",
-  "naam": "ABC-methode (Activity Based Costing)",
-  "node_type": "cluster",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.8.III.F"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.8.III.F",
-    "dekt_ook_anchors": [],
-    "reviewed_by": null,
-    "bron_gap": "ABC-methode is management-accounting-doctrine (Cooper-Kaplan jaren '80). Belgisch boekhoudrecht definieert het niet rechtstreeks. Stappen + cost-driver-concept zijn vakdoctrine, geen wettelijke basis."
-  },
-  "bouwstenen": [
-    {
-      "titel": "Stap 1: identificeer activiteiten",
-      "wat": "Splits het bedrijfsproces op in activiteiten (set-up, kwaliteitscontrole, inkooporder, klantadvies, verzending). Een activiteit is een herhaalbare handeling met meetbare kost.",
-      "waarom": "Eén overhead-pool is te grof; activiteiten geven granulariteit.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse Werkplaats BV identificeert in Confectie 5 activiteiten: (1) machine omstellen, (2) kwaliteitscontrole tapijt, (3) verpakken, (4) klant-callcenter, (5) verzending."
-        }
-      ]
-    },
-    {
-      "titel": "Stap 2: koppel kosten aan activiteiten",
-      "wat": "Verdeel de indirecte kosten over de activiteiten op basis van resource drivers (tijd, vloeroppervlakte, lonen). Elke activiteit krijgt een totale kost (cost pool).",
-      "waarom": "Bepaalt hoeveel elke activiteit kost om uit te voeren.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse Werkplaats BV: omstellen-activiteit kost € 180.000/jaar (loon 2 omstellers + machine-leegloop). Kwaliteitscontrole € 96.000/jaar (loon 2 kwaliteitscontroleurs)."
-        }
-      ]
-    },
-    {
-      "titel": "Stap 3: bepaal cost driver per activiteit",
-      "wat": "Voor elke activiteit kies een drijver die de inzet veroorzaakt: aantal set-ups, aantal kwaliteitscontroles, aantal verzonden orders.",
-      "waarom": "Causaal verband tussen activiteit en kostendrager wordt zichtbaar.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse Werkplaats BV — cost drivers: omstellen → aantal omstellingen (jaar: 1.200); kwaliteitscontrole → aantal gecontroleerde tapijten (jaar: 20.000); verzending → aantal orders (jaar: 800)."
-        }
-      ]
-    },
-    {
-      "titel": "Stap 4: bereken activity-rate",
-      "wat": "Cost pool per activiteit / totaal cost-driver-eenheden = kost per cost-driver-eenheid.",
-      "waarom": "Tarief om de activiteitenkost over kostendragers te verdelen.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse: omstellen-rate = € 180.000 / 1.200 = € 150 per omstelling. Kwaliteitscontrole-rate = € 96.000 / 20.000 = € 4,80 per tapijt. Verzending-rate = € 60.000 / 800 = € 75 per order."
-        }
-      ]
-    },
-    {
-      "titel": "Stap 5: wijs toe aan kostendragers",
-      "wat": "Voor elke kostendrager: tel het verbruik per activiteit op (aantal omstellingen, controles, orders). Vermenigvuldig met activity-rate.",
-      "waarom": "Geeft per kostendrager een toegerekende overhead die zijn werkelijk verbruik weerspiegelt.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse: order grootwarenhuis (5.000 tapijten, 1 omstelling, 1 verzending) → overhead = € 150 (omstellen) + 5.000 × € 4,80 (controle) + € 75 (verzending) = € 24.225 → € 4,85/tapijt overhead. Order boetiek-keten (200 tapijten, 1 omstelling, 1 verzending) → € 150 + 200×4,80 + 75 = € 1.185 → € 5,93/tapijt. Kleine order draagt méér per stuk — wat klassieke sleutel verbergt."
-        }
-      ]
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Wanneer ABC nuttig is",
-      "betekenis": "ABC loont vooral bij (1) hoog aandeel indirecte kosten (> 30 % van totale kosten), (2) diverse productmix met verschillende seriegroottes, (3) producten of klanten met sterk verschillende complexiteit. Bij een homogene productlijn met dominante directe kosten levert ABC weinig extra inzicht maar wel extra administratielast.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "aspect": "Verfijning, geen vervanging",
-      "betekenis": "ABC vervangt full costing niet conceptueel — het verfijnt de tweede stap (overhead-verdeling). De grootste meerwaarde zit in 'rare events' (omstellingen, complexe orders) die in traditionele sleutels onder de radar vallen.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "volledige-kostencalculatie",
-      "verschil": "Traditionele full costing: 1-2 verdeelsleutels per kostencentrum (typisch arbeidsuren of machine-uren). ABC: meerdere activiteiten per centrum, elk met eigen cost driver. ABC geeft accuratere kostprijs, vooral voor laag-volume-/hoog-complexiteit-producten die in klassieke aanpak ondergerapporteerd raken.",
-      "trigger": "Bij examen-vraag op kostprijs van klein order met veel omsteltijd: klassieke sleutel onderschat de overhead; ABC herstelt.",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "valkuilen": [
-    {
-      "text": "ABC is duur in opzet en onderhoud. Per activiteit moeten metingen worden bijgehouden — vaak 50-100 activiteiten in middelgrote ondernemingen. Voor KMO's vaak overgedimensioneerd; eenvoudiger systeem met 5-10 cost drivers volstaat (Time-Driven ABC).",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    },
-    {
-      "text": "ABC is geen wettelijke voorraadwaarderingsmethode in België — voor de jaarrekening blijft de wettelijke vervaardigingsprijs (CBN 132/7) gelden. ABC dient als interne informatie, niet voor voorraadwaardering in de balans (behalve indien resultaten dicht bij full costing liggen).",
-      "confidence": "inferred-common-knowledge",
-      "_provenance": {
-        "inputs": []
-      }
-    }
-  ],
-  "edges": [
-    {
-      "type": "specialisatie-van",
-      "target": "volledige-kostencalculatie",
-      "redenering": "ABC verfijnt de overhead-verdeling van full costing.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "verdeelsleutel",
-      "redenering": "Cost drivers zijn verfijnde verdeelsleutels.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "onderdeel-van",
-      "target": "costing-methodes-vergelijking",
-      "redenering": "Een van de hoofdmethodes.",
-      "confidence": "inferred"
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
-  "situering": {
-    "text": "Activity Based Costing (ABC) verfijnt de kostentoewijzing door indirecte kosten niet via één algemene sleutel maar via meerdere activiteiten en cost drivers naar producten te verdelen. ABC herkent dat verschillende indirecte kosten verschillende oorzaken hebben (set-up versus productie-uren versus orderafhandeling) en wijst elke kost toe op basis van zijn eigen drijver. Resultaat: nauwkeuriger kostprijs, vooral voor producten met sterk verschillende complexiteit of seriegrootte.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Cooper-Kaplan ABC-methode (management accounting) — bron-gap"
-    },
-    "_provenance": {
-      "inputs": []
+  "naam": {
+    "primair": "Abc methode",
+    "synoniemen": [
+      "Activity-Based Costing",
+      "ABC-kostprijsberekening"
+    ],
+    "vertaling": {
+      "en": "Activity-Based Costing (ABC)",
+      "fr": "Méthode des coûts par activité"
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18",
-  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
-  "naam_alternatief": "activity-based costing (ABC)"
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "quick-pass-run1-20260522",
+      "extract_prompt": "prompts/multipass/run-1-draft.md",
+      "iteratie": "v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 19)"
+      }
+    ],
+    "ankers": [
+      "1.8.III.F"
+    ]
+  },
+  "inhoud": {
+    "gebruikscontext": {
+      "trigger_start": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "De abc-methode wordt ingezet wanneer de onderneming vermoedt dat haar kostprijzen onbetrouwbaar zijn door een grote diversiteit in producten of klanten, of wanneer indirecte kosten een groot deel uitmaken van de totale kosten en de traditionele verdeelsleutels niet meer volstaan."
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Homogeen productengamma waarbij alle producten nagenoeg dezelfde activiteiten in gelijke mate verbruiken — de implementatiekost weegt dan niet op tegen de verfijning."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Kleine ondernemingen zonder voldoende data-infrastructuur om activiteiten en kostendrijvers betrouwbaar te meten."
+        }
+      ],
+      "indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Breed en heterogeen productengamma met sterk verschillende complexiteit en volumeprofiel."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Hoog aandeel indirecte kosten (overhead) ten opzichte van directe kosten — industriële, logistieke of dienstverlenende omgevingen."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Signalen van kruissubsidiëring: klanten of producten lijken winstgevend maar genereren disproportioneel veel overhead-activiteiten."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "stap-1-activiteitenanalyse",
+        "naam": {
+          "primair": "Stap 1 — Identificatie van activiteiten"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Alle relevante bedrijfsactiviteiten die indirecte kosten veroorzaken worden geïnventariseerd en benoemd, zoals inkoop, productieplanning, machine-omstelling, kwaliteitscontrole, klantenondersteuning en levering.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-2-kostenpools",
+        "naam": {
+          "primair": "Stap 2 — Vorming van activiteitenpools (cost pools)"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De indirecte kosten worden gegroepeerd per activiteit of verwante activiteitengroep: elke pool bevat alle kosten (personeel, machines, ruimte) die aan die activiteit zijn toe te schrijven.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3-kostendrijvers",
+        "naam": {
+          "primair": "Stap 3 — Bepaling van kostendrijvers (cost drivers)"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Per activiteitenpool wordt een kostendrijver gekozen die het verbruik van die activiteit het beste meet: aantal orders (voor inkoopactiviteit), aantal omstellingen (voor machine-omstelling), aantal klantencontacten (voor klantenservice).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-4-kostendrijvertarief",
+        "naam": {
+          "primair": "Stap 4 — Berekening van het kostendrijvertarief"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "formule": "Kostendrijvertarief = Totale poolkost / Totaal aantal kostendrijvereenheden"
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Het kostendrijvertarief per activiteit wordt berekend door de totale poolkost te delen door het totaal aantal kostendrijvereenheden in de periode (bijvoorbeeld: totale inkoopkosten ÷ totaal aantal inkooporders = kost per order).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-5-toewijzing-kostendragers",
+        "naam": {
+          "primair": "Stap 5 — Toewijzing van kosten aan kostendragers"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "formule": "Indirecte kost kostendrager = Σ (verbruik activiteit_i × kostendrijvertarief_i)"
+          }
+        ],
+        "kern": {
+          "definitie": {
+            "tekst": "Per product, dienst of klant (kostendrager) wordt het verbruik van elke activiteit gemeten en vermenigvuldigd met het kostendrijvertarief; de som over alle activiteiten levert de totale indirecte kost per kostendrager.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-6-beslissingsgebruik",
+        "naam": {
+          "primair": "Stap 6 — Interpretatie en beslissingsondersteunend gebruik"
+        },
+        "inhoud_type": "stap",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De abc-kostprijzen worden gebruikt voor prijszetting, productmixbeslissingen, klantenwinstgevendheidsanalyse en procesverbeteringsprojecten; de methode onthult welke activiteiten waarde toevoegen en welke kunnen worden vereenvoudigd of uitbesteed.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De abc-methode (Activity-Based Costing) is een kostprijsberekeningsmethode waarbij indirecte kosten niet via een algemene opslagpercentage worden verdeeld, maar worden toegewezen op basis van de activiteiten die de kostendragers (producten, diensten, klanten) effectief verbruiken. Per activiteit wordt een kostendrijver (cost driver) bepaald die de verbruikte hoeveelheid activiteit meet."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De onderneming groepeert haar indirecte kosten in activiteitenpools, meet het gebruik van elke activiteit met een kostendrijver, en verdeelt zo de kosten proportioneel aan het werkelijke verbruik per product of klant."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Traditionele kostprijsmethoden (full costing, direct costing) verdelen indirecte kosten via eenvoudige maatstaven zoals directe arbeidsuren of machineuren. Wanneer een onderneming een breed productengamma heeft met sterk uiteenlopende complexiteit, kunnen deze eenvoudige sleutels leiden tot structurele kruissubsidiëring: complexe, laag-volume producten worden te goedkoop gerekend, eenvoudige hoog-volume producten te duur. De abc-methode lost dit op door indirecte kosten te koppelen aan de concrete activiteiten (bestellen, kwaliteitscontrole, machine-omstelling, klantenondersteuning) die de kost daadwerkelijk veroorzaken. Het resultaat is een meer accuraat kostprijsplaatje dat betere beslissingen over productmix, prijszetting en procesoptimalisatie ondersteunt."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "kostprijsmethoden",
+      "toelichting": "De abc-methode is één van de kostprijsmethoden (kader) naast full costing en direct costing.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "full-costing",
+      "toelichting": "Beide methoden rekenen indirecte kosten toe aan producten, maar full costing gebruikt vereenvoudigde verdeelsleutels terwijl abc-methode activiteiten als tussenstation gebruikt.",
+      "gelijkenissen": [
+        "Beide wijzen indirecte kosten toe aan kostendragers.",
+        "Beide resulteren in een volledig kostprijsinzicht inclusief overhead."
+      ],
+      "verschillen": [
+        "Full costing gebruikt enkelvoudige verdeelsleutels (bv. directe arbeidsuren); abc-methode gebruikt meerdere activiteitsgebonden kostendrijvers.",
+        "Abc-methode is complexer in opzet maar levert accuratere kostprijzen bij diverse productenmix."
+      ],
+      "verwarring_risico": "Studenten verwarren soms 'full costing met meerdere kostenplaatsen' met abc-methode; het onderscheid zit in de keuze van de kostendrijver (activiteit vs. volumemaatstaf).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "direct-costing",
+      "toelichting": "Direct costing rekent enkel variabele kosten toe aan producten; abc-methode rekent ook vaste indirecte kosten via activiteiten toe — ander filosofisch vertrekpunt.",
+      "gelijkenissen": [
+        "Beide zijn kostprijsmethoden gericht op beslissingsondersteuning."
+      ],
+      "verschillen": [
+        "Direct costing sluit vaste kosten uit de productcalculatie; abc-methode includeert ze via activiteiten.",
+        "Direct costing is eenvoudiger in opzet; abc-methode is complexer maar vollediger."
+      ],
+      "verwarring_risico": "Verwarring bij de vraag of vaste kosten al dan niet worden toegerekend: direct costing = neen, abc = ja (maar via activiteiten, niet via volumemaatstaf).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "analytische-boekhouding",
+      "toelichting": "De abc-methode vereist een goed functionerende analytische boekhouding als databasis voor de identificatie en meting van activiteiten en kostendrijvers.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-22"
+          }
+        ]
+      }
+    }
+  ],
+  "concept_type": "procedure"
 }

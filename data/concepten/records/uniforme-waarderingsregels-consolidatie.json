@@ -1,341 +1,54 @@
 {
   "id": "uniforme-waarderingsregels-consolidatie",
-  "naam": "Uniforme waarderingsregels in de consolidatie",
-  "node_type": "regel",
-  "schema_version": "1.6",
-  "status": "seed",
-  "linked_anchors": [
-    "1.4.I.D",
-    "1.4.I.B",
-    "1.4.I.G",
-    "1.4.taak.1"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.4.I.D",
-    "dekt_ook_anchors": [
-      "1.4.I.B",
-      "1.4.I.G",
-      "1.4.taak.1"
-    ],
-    "reviewed_by": null,
-    "schema_1_4_migration": {
-      "uitgevoerd_op": "2026-05-16T00:11Z",
-      "tool": "migrate_schema_1_4.py",
-      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
-      "pending_mens_review": [
-        "stagiair-toon-rewrite (regel 6)",
-        "cast-namen in voorbeelden (regel 7)",
-        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
-        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
-        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
-      ]
-    },
-    "jargon_pass3": {
-      "uitgevoerd_op": "2026-05-16T00:17Z",
-      "tool": "jargon_pass3.py",
-      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
-      "aantal_substituties": 3
-    },
-    "deep_rewrite_2026_05_16": {
-      "door": "deep-rewrite-batch-2-concepten",
-      "op": "2026-05-16T04:05Z",
-      "velden_gewijzigd": [
-        "main_rule.text (stagiair-toon)",
-        "voorbeeld_inline op record-niveau (cliëntsituatie cast)",
-        "voorwaarden[*].text (stagiair-toon)",
-        "uitzonderingen[*].text (stagiair-toon)",
-        "in_praktijk[*].betekenis (stagiair-toon + cast)",
-        "valkuilen[*].text (stagiair-toon)",
-        "edges: contrasteert-met integrale-consolidatie → vereist-door"
-      ]
-    },
-    "po14_touchup_2026_05_18": {
-      "uitgevoerd_op": "2026-05-18T21:19Z",
-      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
-      "changes": [
-        "schema 1.5→1.6",
-        "naam_alternatief",
-        "situering+"
-      ]
-    }
+  "naam": {
+    "primair": "Uniforme waarderingsregels consolidatie"
   },
-  "main_rule": {
-    "text": "Voor haar geconsolideerde jaarrekening past de moeder dezelfde waarderingsregels toe als voor haar enkelvoudige jaarrekening (onverminderd KB WVV art. 3:118). In uitzonderingsgevallen mag je afwijken, op voorwaarde dat de gehanteerde regels nog steeds met het wettelijk kader stroken; afwijkingen motiveer je in de toelichting. De waarderingsregels moeten van jaar tot jaar identiek blijven en stelselmatig worden toegepast.",
-    "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV art. 3:116 jo. art. 3:117"
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
     },
-    "references": [
+    "changelog": [
       {
-        "type": "kb",
-        "short": "KB WVV art. 3:116 (uniformiteit met enkelvoudige)"
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
       },
       {
-        "type": "kb",
-        "short": "KB WVV art. 3:117 (stelselmatigheid in de tijd)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:118 (fiscale distorsies)"
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
       }
     ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "KB-WVV-2019__art_3_91",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_92",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_93",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    },
-    "_corrected_from": [
-      {
-        "field": "text",
-        "from": "De moedervennootschap moet, onverminderd KB WVV art. 3:118, voor haar geconsolideerde jaarrekening dezelfde waarderingsregels toepassen als voor haar enkelvoudige jaarrekening. In uitzonderingsgevallen mag van dit beginsel worden afgeweken op voorwaarde dat de gehanteerde regels stroken met het wettelijk kader; eventuele afwijkingen worden gemotiveerd in de toelichting. De waarderingsregels moeten van het ene boekjaar op het andere identiek blijven en stelselmatig worden toegepast.",
-        "reason": "Stagiair-toon (regel 6)."
-      }
+    "ankers": [
+      "1.4.I.A",
+      "1.4.II.A",
+      "1.9.taak.1"
     ]
   },
-  "voorwaarden": [
-    {
-      "text": "De moeder past in principe dezelfde waarderingsregels toe op de geconsolideerde jaarrekening als op haar enkelvoudige jaarrekening (KB WVV art. 3:116, lid 1).",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:116"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_91",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Afwijkingen zijn in uitzonderingsgevallen toegelaten, op voorwaarde dat de gebruikte regels nog binnen het wettelijk kader vallen (Titel 1 + Hoofdstuk Geconsolideerde jaarrekening) én dat ze in de toelichting worden gemotiveerd.",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:116, lid 2"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_91",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Stelselmatigheid in de tijd: de waarderingsregels blijven identiek van het ene boekjaar op het andere. Wijzigingen zijn alleen mogelijk bij een belangrijke verandering in bedrijf, vermogensstructuur, of economische/technologische omstandigheden (KB WVV art. 3:117).",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:117"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_92",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
-  "uitzonderingen": [
-    {
-      "text": "Fiscale distorsies (KB WVV art. 3:118): heeft de moeder of een dochter in haar enkelvoudige jaarrekening fiscaal grotere afschrijvingen of waardeverminderingen genomen dan economisch verantwoord, of een passief te ruim geboekt of gewaardeerd? Dan kan je die bestanddelen pas in de geconsolideerde jaarrekening opnemen nadat je de distorsie hebt teruggedraaid — tenzij het bedrag verwaarloosbaar is voor het getrouwe beeld (art. 3:105).",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:118"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_93",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": [
-        {
-          "field": "text",
-          "from": "Fiscale distorsies (KB WVV art. 3:118): wanneer in de enkelvoudige jaarrekening van de moedervennootschap of een in de consolidatie opgenomen dochter, overeenkomstig fiscale voorschriften, grotere afschrijvingen of waardeverminderingen werden toegepast dan economisch verantwoord, of passiva voor grotere bedragen werden geboekt/gevormd/gewaardeerd, kunnen die bestanddelen pas in de geconsolideerde jaarrekening worden opgenomen nadat de distorsies ongedaan zijn gemaakt — tenzij verwaarloosbaar gelet op het doel van art. 3:105.",
-          "reason": "Stagiair-toon: korte zinnen, jargon-substitutie (regel 6)."
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Uniforme waarderingsregels consolidatie",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
         }
-      ]
-    }
-  ],
-  "in_praktijk": [
-    {
-      "aspect": "Afstemming bij consortium-leden",
-      "betekenis": "Bij een consortium (zoals Industria Antwerpen NV + Jachthaven Jezus-Eik NV) stem je vóór de horizontale consolidatie de waarderingsregels van de leden op elkaar af. Verschillende leden hanteren mogelijk verschillende afschrijvingsregimes of voorraadwaarderingen — die werk je via aanpassingsboekingen om naar één set (CBN 2022/09 — stap 1).",
-      "herkenningspunt": "Examen-stappenplan consortium-consolidatie: stap 1 = waarderingsregels uniformeren.",
-      "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/09"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_stap-1",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": [
-        {
-          "field": "betekenis",
-          "from": "Bij een consortium worden, vooraleer wordt overgegaan tot de horizontale consolidatie, de waarderingsregels van de leden op elkaar afgestemd en worden de nodige aanpassingsboekingen uitgevoerd (CBN 2022/09 — stap 1).",
-          "reason": "Stagiair-toon + cast-namen (regels 6 + 7)."
-        }
-      ]
-    },
-    {
-      "aspect": "Afstemming bij buitenlandse dochters",
-      "betekenis": "Buitenlandse dochters die volgens een ander stelsel rapporteren (bv. Kappers Köln GmbH onder Duitse HGB), werk je voor de consolidatie om naar de waarderingsregels van de moeder. KB WVV art. 3:121 bevat daarnaast specifieke regels voor de omrekening van vreemde valuta (monetaire/niet-monetaire methode of slotkoersmethode).",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:121"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_96",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": [
-        {
-          "field": "betekenis",
-          "from": "Buitenlandse dochters die volgens een andere standaard rapporteren, moeten voor de consolidatie worden omgewerkt naar de waarderingsregels van de moeder. KB WVV art. 3:121 bevat daarnaast specifieke regels voor de omrekening van vreemde valuta (monetaire/niet-monetaire methode of slotkoersmethode).",
-          "reason": "Cast-naam Kappers Köln + stagiair-toon (regels 6 + 7)."
-        }
-      ]
-    }
-  ],
-  "vergelijkingsparen": [],
-  "valkuilen": [
-    {
-      "text": "Fiscaal versneld afgeschreven activa in de individuele jaarrekening van een dochter moet je voor de consolidatie corrigeren tot economisch verantwoorde bedragen — anders geeft de geconsolideerde jaarrekening een vertekend beeld van de groep (KB WVV art. 3:118). Bv. Brugse Brouwerij BV met fiscaal versnelde afschrijving op gebouwen → in de consolidatie rekenen tegen een langere economische levensduur.",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:118"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_93",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": [
-        {
-          "field": "text",
-          "from": "Fiscaal versnelde afschrijvingen in de individuele jaarrekening van een dochter moeten voor consolidatiedoeleinden worden 'gecorrigeerd' tot economisch verantwoorde bedragen — anders zou de geconsolideerde jaarrekening een vertekend beeld geven van de groepsresultaten (KB WVV art. 3:118).",
-          "reason": "Cast-voorbeeld + stagiair-toon (regels 6 + 7)."
-        }
-      ]
-    },
-    {
-      "text": "Een wijziging in waarderingsregels van het ene boekjaar op het andere is uitzonderlijk en je moet ze motiveren (KB WVV art. 3:117). Een 'gewone' beleidsvoorkeur is onvoldoende — er moet sprake zijn van een belangrijke wijziging in bedrijf, vermogensstructuur of omstandigheden.",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:117"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_92",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
       }
     }
-  ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "target": "geconsolideerde-jaarrekening",
-      "redenering": "Uniforme waarderingsregels zijn een fundamenteel deelaspect van de samenstelling van de geconsolideerde jaarrekening — niet een procedure op zich.",
-      "_corrected_from": {
-        "veld": "contrasteert-met integrale-consolidatie → onderdeel-van geconsolideerde-jaarrekening",
-        "reden": "Relatie is compositioneel: uniformeringsregels zijn een randvoorwaarde van de geconsolideerde jaarrekening, geen contrast met de specifieke consolidatietechniek."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_91",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "consolidatieverplichting",
-      "redenering": "Uniforme waarderingsregels worden pas relevant zodra er een consolidatieverplichting bestaat — anders is er geen geconsolideerde jaarrekening om regels op toe te passen.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "uitzondering-op",
-      "target": "geconsolideerde-jaarrekening",
-      "redenering": "Art. 3:118 KB WVV (fiscale distorsies) is een uitzondering die dwingt om af te wijken van de individuele jaarrekening — dat is op zich een uitzondering op de hoofdregel dat dezelfde regels worden toegepast.",
-      "confidence": "inferred"
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Brugse Brouwerij BV (dochter van Aurelia Holding NV) schreef haar gebouwen fiscaal versneld af (15 jaar). Voor de geconsolideerde jaarrekening werkt Aurelia die afschrijvingen om naar economisch verantwoorde duur (30 jaar), zodat alle gebouwen van de groep volgens dezelfde regels in de geconsolideerde balans staan."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
-  "naam_alternatief": "uniform accounting policies in consolidation",
-  "situering": {
-    "text": "Een coherentie-beginsel in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). Door dezelfde waarderingsregels op alle groepsleden toe te passen, ontstaat een geconsolideerd beeld dat economisch vergelijkbaar is — los van toevallige verschillen tussen de enkelvoudige boekhoudingen van dochters.",
-    "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV Boek 3, Titel 2"
-    },
-    "_provenance": {
-      "tool": "po14-touchup-2026-05-18",
-      "uitgevoerd_op": "2026-05-18T21:19Z",
-      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
-    }
-  }
+  },
+  "relaties": [],
+  "concept_type": "regime"
 }

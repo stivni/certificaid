@@ -1,91 +1,53 @@
 {
   "id": "schriftelijke-bevestiging-management",
-  "naam": "Schriftelijke bevestiging van het management (management representation letter)",
-  "node_type": "begrip",
-  "schema_version": "1.5",
-  "status": "seed",
-  "linked_anchors": [
-    "1.6.II.C",
-    "1.6.III.E"
-  ],
-  "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
-    "model": "claude-opus-4-7",
-    "anchor_id": "1.6.II.C",
-    "dekt_ook_anchors": [
-      "1.6.III.E"
-    ],
-    "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T17:00Z",
-    "situering_added_v4": "2026-05-18",
-    "edge_key_migrated": "2026-05-18"
+  "naam": {
+    "primair": "Schriftelijke bevestiging management"
   },
-  "definitie": {
-    "text": "Een schriftelijke bevestiging is een schriftelijke verklaring van het management — verstrekt aan de beroepsbeoefenaar — met als doel bepaalde aangelegenheden te bevestigen of andere assurance-informatie te onderbouwen. Schriftelijke bevestigingen omvatten NIET de financiële overzichten zelf, niet de daarin opgenomen beweringen en niet de onderliggende boekingen.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm Bijlage 1"
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "provenance": {
+      "model": "skeleton-from-candidate",
+      "wave_id": "skeleton-dump",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v0"
     },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
-  "in_praktijk": [
-    {
-      "aspect": "Niet vervangbaar door audit-werk",
-      "betekenis": "Een management representation letter is GEEN substantive audit evidence — het is een aanvulling, geen vervanging. Een bevestiging dat 'voorraden correct gewaardeerd zijn' compenseert geen ontbrekende inventarisatie.",
-      "confidence": "inferred-from-aggregation",
-      "source": {
-        "type": "norm",
-        "short": "ITAA KMO-controlenorm Bijlage 1"
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
       },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      }
+    ],
+    "ankers": [
+      "1.6.II.C",
+      "1.6.IV.A"
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Schriftelijke bevestiging management",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
       }
     }
-  ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "redenering": "Bron van assurance-informatie — laag in de hiërarchie.",
-      "target_id": "assurance-informatie"
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Aan het einde van de audit van Rotex 2025 vraagt Sofie Janssens een 'management representation letter' aan de CFO + de voorzitter RvB: bevestigingen over volledigheid van geschillen, alle relevante info verschaft, geen gekende fraude, gebruik van continuïteitsveronderstelling, juistheid van schattingen. De brief is ondertekend en gedateerd vóór de datum van het controleverslag."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
-  "situering": {
-    "text": "De schriftelijke bevestiging is een verklaring die het management aan het einde van de audit ondertekent over de verantwoordelijkheden, de volledigheid van de informatie en specifieke beweringen waarvoor andere assurance-informatie schaars is. ISA 580 maakt ze verplicht. Ze vervangt geen andere audit-procedures, maar documenteert managementverantwoordelijkheid en sluit het dossier af.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ISA 580"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ISA-580__sec_definities",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  }
+  },
+  "relaties": [],
+  "concept_type": "procedure"
 }
