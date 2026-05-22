@@ -1,22 +1,23 @@
-# Handoff — render-sessie schema 2.1 (v1.5)
+# Render-laag — schema 2.1 v1.5
 
-**Voor**: nieuwe Claude-sessie die de render-laag (Quartz/markdown) gaat aanpassen voor schema 2.1 v1.5
-**Status**: 23 mei 2026, na de v1.5-design-afronding + migratie van 396 records
+Spec voor de render-laag (Quartz/markdown) die concept-records van schema 2.1 v1.5 omzet naar leerbare fiches.
+
 **Bron-van-waarheid schema**: [`data/concepten/schema-2.1.schema.json`](../data/concepten/schema-2.1.schema.json)
 **Canonieke spec v1.5**: [`docs/schema-v15-besluit.md`](schema-v15-besluit.md) — geconsolideerd referentie-document met alle 21 besluiten + finale structuur + operations-model
-**Voorgeschiedenis-ADR**: [`docs/adr/ADR-025-schema-20-didactische-conceptlaag.md`](adr/ADR-025-schema-20-didactische-conceptlaag.md) + [`docs/adr/ADR-029-schema-21-operaties-model.md`](adr/ADR-029-schema-21-operaties-model.md)
+**Design-rationale**: [`docs/adr/ADR-029-schema-21-operaties-model.md`](adr/ADR-029-schema-21-operaties-model.md)
+**Werk-tracking**: [`docs/TODO.md`](TODO.md) §Fase 7
 
 ---
 
-## TL;DR voor de render-sessie
+## Kernprincipes voor de render-laag
 
-1. **Schema 2.1 v1.5 is de finale data-laag** — 600+ legacy schema 2.0 records gearchiveerd; **396 records** zijn na user-merge van de parallelle migratie-agent gemigreerd van v1.4 naar v1.5.
-2. **Render-laag moet abstracte schema-keys mappen naar Nederlandse labels** — schema heeft `mechanisme` (niet "hoe het werkt"), `gebruikscontext` (niet "wanneer kies je dit"). Render kent labels per `concept_type`.
+1. **Schema 2.1 v1.5 is de finale data-laag** — 396 records in v1.5-shape (legacy v2.0 records in `data/concepten/_archive/`).
+2. **Render-laag mapt abstracte schema-keys naar Nederlandse labels** — schema heeft `mechanisme` (niet "hoe het werkt"), `gebruikscontext` (niet "wanneer kies je dit"). Render kent labels per `concept_type`.
 3. **`kern`-wrapper omvat de drie "wat-is-dit"-claims** — `inhoud.kern.{definitie?, substantie?, rationale?}`. Idem voor elk `element` (fractale recursie).
-4. **Confidence-iconen per claim** — elke claim heeft `grondslag.confidence ∈ {geciteerd, afgeleid, verondersteld, betwijfeld, weerlegd}`. Render moet icoon tonen: 📖 / 🔗 / 🤖 / ❓ / ❌.
+4. **Confidence-iconen per claim** — elke claim heeft `grondslag.confidence ∈ {geciteerd, afgeleid, verondersteld, betwijfeld, weerlegd}`. Render toont icoon: 📖 / 🔗 / 🤖 / ❓ / ❌.
 5. **`relaties` op top-level**, niet in `inhoud`. Render bouwt cross-link-pagina's.
-6. **Operations-model**: `metadata.changelog[]` toont welke operaties zijn uitgevoerd (`beschrijven`, `claims_checken`, `relaties_aanvullen`, `accountant_perspectief`, `didactisch_verrijken`, `kandidaat_review`, `leespad_aanvullen`). Render kan een "kwaliteits-meter" tonen.
-7. **Drie nieuwe didactische arrays op concept-niveau**: `valkuilen[]`, `speelruimtes[]`, `syntheses[]`.
+6. **Operations-model**: `metadata.changelog[]` toont welke operaties zijn uitgevoerd. Render kan kwaliteits-meter tonen.
+7. **Drie didactische arrays op concept-niveau**: `valkuilen[]`, `speelruimtes[]`, `syntheses[]`.
 
 ---
 
@@ -288,11 +289,10 @@ Praktische gevolgen voor render:
 
 ---
 
-## Records-inventaris (396 stuks, 23 mei na migratie)
+## Render-test-set
 
-Na user-merge van de parallelle migratie-agent zijn alle **396 records** in v1.5-shape gemigreerd. Concept-types-verdeling onveranderd t.o.v. 22 mei (kapitaalvermindering blijft de meest complete referentie-record voor multi-pass-historiek).
+Eén record per `concept_type` voor template-coverage:
 
-**Aanbevolen render-test-set** (1 per concept_type voor render-template-coverage):
 - `kapitaalvermindering` (verrichting, multi-pass-rijk — happy path)
 - `aangifte-pb` (procedure, 7 stappen)
 - `algemene-vergadering` (kader, met synthese/keuzekader)
@@ -304,7 +304,7 @@ Na user-merge van de parallelle migratie-agent zijn alle **396 records** in v1.5
 
 ## Wat is bevroren, wat verandert nog
 
-**Bevroren** (schema 2.1 v1.5 — 23 mei):
+**Bevroren** (schema 2.1 v1.5 — 23 mei 2026):
 - Top-level 4-zone-structuur (id/naam/concept_type/schema_version + metadata/inhoud/relaties)
 - `inhoud.kern`-wrapper met definitie/substantie/rationale
 - Fractale recursie van `element` (gelijke shape als concept-niveau-inhoud)
@@ -321,32 +321,13 @@ Na user-merge van de parallelle migratie-agent zijn alle **396 records** in v1.5
 
 ---
 
-## Bestanden voor de render-sessie
+## Bestanden voor de render-laag
 
 | Pad | Wat |
 |---|---|
 | `data/concepten/schema-2.1.schema.json` | **Bron-van-waarheid schema** (v1.5) |
 | `docs/schema-v15-besluit.md` | **Canonieke spec v1.5** — alle 21 besluiten + finale structuur |
 | `docs/adr/ADR-029-schema-21-operaties-model.md` | Design-rationale + changelog v1.0 → v1.5 |
-| `data/concepten/records/kapitaalvermindering.json` | **Meest complete record** voor render-test |
-| `data/concepten/records/algemene-vergadering.json` | Kader met synthese voor template-test |
-| `data/concepten/records/current-ratio.json` | Ratio voor formule-render-test |
-| `data/concepten/records-index.compact.txt` | Plat overzicht alle 396 IDs per type |
+| `data/concepten/records/*.json` | 396 records in v1.5-shape |
 | `tools/leermateriaal/render_concept_fiche.py` | **Legacy** render-script voor schema 2.0 — niet gebruiken; herschrijven |
-| `content/concepten/*.md` | **Legacy** Quartz-rendered records (635 markdown-files, schema 2.0) |
-
----
-
-## Voorgeschiedenis — wat is er gebeurd 22-23 mei
-
-1. **Wave-1**: 6 records geschreven in schema 2.0 — meer schema-drift dan kwaliteit
-2. **Schema 2.1 ontwerp**: na ~10 ronde iteratie naar abstractere keys + 4-zone-structuur + JSON Schema 2020-12
-3. **A/B-test**: agent met JSON Schema in prompt → 0 schema-errors, agent zonder → 106 errors. Schema-prompt bewezen.
-4. **Multi-pass benchmark op `kapitaalvermindering`**: 5 runs in 20 min, 5 inhoudelijke fouten gecorrigeerd door factcheck
-5. **Opus vs Sonnet** (4 paren): Opus lichtjes accurater wetgevingsdetail maar **niet gefactcheckt = mogelijk hallucinatie**. Cost ~6.5× hoger. **Sonnet gekozen**.
-6. **Schaal-test 12 parallel**: ~3 min wall-clock voor 12 records. Voorspelling 396 records: ~1.5u
-7. **Operaties-model**: vervangt sequentiële runs (zie ADR-029)
-8. **Schema v1.4 → v1.5 (23 mei)**: 9 velden gedropt, 4 hernoemd, `kern`-wrapper toegevoegd, fractale recursie als principe, trim enums (12 inhoud_types + 11 weergave_types), 3 nieuwe didactische arrays (`valkuilen`, `speelruimtes`, `syntheses`). Geconsolideerd in `docs/schema-v15-besluit.md`.
-9. **Migratie 396 records v1.4 → v1.5**: gedraaid door parallelle agent, gemerged door user.
-
-Veel succes met de render-laag — als je vragen hebt over de data-laag, **terug naar deze chat** (Claude-sessie) of consult `docs/schema-v15-besluit.md` + ADR-029.
+| `content/concepten/*.md` | **Legacy** Quartz-rendered records (schema 2.0) |

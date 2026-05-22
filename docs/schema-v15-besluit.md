@@ -1,7 +1,7 @@
 # Schema 2.1 → v1.5 — besluit-document (23 mei 2026)
 
 **Status**: 21 besluiten, 1 uitgesteld. Klaar voor implementatie.
-**Voorgeschiedenis-tracker**: [`docs/schema-feedback-22mei.md`](schema-feedback-22mei.md) — volledige discussie + iteraties
+**Voorgeschiedenis-tracker**: [`docs/adr/archive/schema-feedback-22mei.md`](adr/archive/schema-feedback-22mei.md) — volledige discussie + iteraties (gearchiveerd)
 **Vorige spec**: schema 2.1 v1.4 — frozen in `data/concepten/schema-2.1.schema.json`. 396 records valideren tegen v1.4.
 
 ---
@@ -256,8 +256,8 @@ bevat · valt_onder · triggert · beinvloed_door · vereist · is_uitzondering_
 | `prompts/multipass/run-1-draft.md` | Beschrijven-prompt | Update naar nieuwe schema-structuur |
 | `prompts/multipass/run-{2,3,4,5}-*.md` | Andere operatie-prompts | Update |
 | `docs/adr/ADR-029-schema-21-operaties-model.md` | Operaties-model ADR | Update voor v1.5 |
-| `docs/handoff-render-sessie.md` | Render-sessie handoff | Update voor v1.5 |
-| `docs/schema-feedback-22mei.md` | Discussietracker | Bevroren (historisch) |
+| `docs/render-laag.md` | Render-laag spec | Werkpakket Fase 7 |
+| `docs/adr/archive/schema-feedback-22mei.md` | Discussietracker | Bevroren (historisch) |
 | `data/concepten/_archive/v2.0-pre-schema-2.1-…` | Legacy v2.0 records | Bewaard |
 
 ---
@@ -297,7 +297,7 @@ E3 (rol-element sturing) is op 2026-05-23 gepromoveerd van "uitgesteld / light-t
 ## Wat na schema v1.5-implementatie
 
 - **Wave-2 start**: 371 lege records via 12-parallel `beschrijven`-operatie (~1.5u wall-clock geschat)
-- **Render-sessie**: aparte chat met [`docs/handoff-render-sessie.md`](handoff-render-sessie.md) (te updaten)
+- **Render-sessie**: aparte chat met [`docs/render-laag.md`](render-laag.md) als werkpakket-spec
 - **Operaties uitbouwen**: `claims_checken` met RAG, dan `relaties_aanvullen`, `accountant_perspectief`, etc.
 - **Examen-deadline**: ca. 2026-05-30 (~7 dagen)
 

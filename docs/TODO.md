@@ -4,7 +4,7 @@ _Centrale inhoudsopgave van openstaand werk, geordend per afhankelijkheid._
 _Voor de gedetailleerde issues: zie de gelinkte bronbestanden — dit document
 houdt het overzicht, geen content-duplicatie._
 
-**Laatste update**: 2026-05-18 (laat — Fase 6 leermateriaal-laag volledig af, schema 1.6, sub_vragen-splitter)
+**Laatste update**: 2026-05-23 (Fase 7 toegevoegd — schema 2.1 v1.5 + extractie v6 + render-laag)
 
 ## Logica van de volgorde
 
@@ -13,13 +13,15 @@ houdt het overzicht, geen content-duplicatie._
    ↓
 2. Schema 1.5 + EXTRACT v4-prompt                                [klaar]
    ↓
-3. PO 1.x content-review via EXTRACT v4 + VERIFY-feedback-loop  [in uitvoering: PO 1.5 wave 1]
+3. PO 1.x content-review via EXTRACT v4 + VERIFY-feedback-loop  [klaar — 2026-05-19]
    ↓
 4. Bronnen-laag uitbreiden (1.1 ETL-fix + 1.2 fiscale gidsen)   [pending]
    ↓
 5. Andere PO's uitrollen (3.0, 4.0, 2.x)                         [pending]
    ↓
-6. Render-laag-revisie (ADR-010): minicursus als primair         [klaar]
+6. Render-laag-revisie (ADR-010): minicursus als primair         [klaar — 2026-05-18]
+   ↓
+7. Schema 2.1 v1.5 + extractie v6 (multipass-operaties) + render-laag-revisie  [in uitvoering]
 ```
 
 ---
@@ -197,6 +199,64 @@ Ontwerp vastgelegd én code-werk uitgevoerd in één werkdag. Heuristiek: concep
 1. **Curator-pass §6.5-output op 7 minicursussen** (1.1, 1.2, 1.3, 1.6, 1.7, 1.8, 1.9). Die hebben ingevulde glue maar missen oriëntatie + taak-markers + dashboard (glue dateert van vóór §6.5 in template). Per PO kiezen: A. forceer-rerender + glue v3 opnieuw vullen, of B. handmatige injectie van §6.5-blocks zonder glue te raken. PO 1.4 wacht ook (glue verloren door pilot --forceer).
 2. **Tweede pilot op andere PO** (bv. 1.4 of 1.7) om de render-pipeline op een ander niveau-type te valideren.
 3. **v1.0-tag** wanneer PO 1.x volledig is — diff-changelog kan dan default werken zonder `--basis-tag`.
+
+---
+
+## Fase 7 — Schema 2.1 v1.5 + extractie v6 + render-laag (in uitvoering)
+
+**Doel**: nieuwe data-laag (schema 2.1 v1.5) + multipass-operaties-pipeline (extractie v6) + render-laag-revisie. Vervangt schema 2.0 + EXTRACT v5.
+
+**Canonieke documenten**:
+- [`docs/adr/ADR-029-schema-21-operaties-model.md`](adr/ADR-029-schema-21-operaties-model.md) — design-rationale + operations-model + v1.0 → v1.5 changelog
+- [`docs/schema-v15-besluit.md`](schema-v15-besluit.md) — geconsolideerde spec (21 besluiten + finale structuur)
+- [`data/concepten/schema-2.1.schema.json`](../data/concepten/schema-2.1.schema.json) — bron-van-waarheid
+- [`docs/render-laag.md`](render-laag.md) — render-laag werkpakket-spec
+- [`prompts/multipass/`](../prompts/multipass/) — 5 operatie-prompts (run-1 t/m run-5 = `beschrijven`, `rollen`, `voorbeelden`, `relaties`, `factcheck`)
+
+### 7.1 — Schema + migratie (klaar — 2026-05-23)
+
+- ✅ Schema v1.4 → v1.5 in `data/concepten/schema-2.1.schema.json`
+- ✅ Migratie 396 records v1.4 → v1.5 via `tools/extractie/migrate_records_to_v15.py`
+- ✅ Plaatsingsregel "wat-is-het" vs "wat-doet-de-accountant" (E3) geformaliseerd in schema + prompts (ADR-029 §E3)
+
+### 7.2 — Wave-2 beschrijven-operatie (open)
+
+371 lege records vullen via 12-parallel Sonnet `beschrijven`-operatie (~1.5u wall-clock geschat). Alleen `verondersteld`/`betwijfeld` confidence — upgrade volgt in `claims_checken`-pass.
+
+- Status: voorbereiding klaar, wave-2 nog niet gestart
+- Prompt: `prompts/multipass/run-1-draft.md`
+
+### 7.3 — Render-laag-revisie (open)
+
+Render-template + script herschrijven voor schema 2.1 v1.5. Detail in [`docs/render-laag.md`](render-laag.md) §Render-todos. Hoofdtaken:
+
+- **A. Template-update** (5 sub-taken): `ConceptFiche.tsx` rebuild, label-mapping per `concept_type`, `kern`-wrapper rendering, confidence-iconen per claim, conditional rendering
+- **B. Concept-specifieke views** (6 sub-taken): fractale `elementen` recursie, `weergaven` type-specifiek, `accountant_perspectieven` matrix, `voorbeelden` walkthrough, `valkuilen`/`speelruimtes` blokken, `syntheses` per type
+- **C. Cross-record navigatie** (2 sub-taken): `relaties` backlinks-pagina, `vergelijkbaar_met` 2-kolom-tabel
+- **D. Status + operatie-tracking** (2 sub-taken): operaties-historiek-balk, status-badge afgeleid uit `metadata.changelog[]`
+- **E. Markdown-bridge** (1 sub-taak): nieuw JSON → markdown render-script (legacy `render_concept_fiche.py` is voor schema 2.0)
+
+Open beslispunten (7 stuks): zie [`docs/render-laag.md`](render-laag.md) §Open beslispunten.
+
+### 7.4 — Overige operaties uitbouwen (roadmap, post wave-2)
+
+In ADR-029 §Operaties-model gedefinieerde maar nog niet uitgevoerde operaties:
+
+- `claims_checken` — RAG-validatie, upgrade `verondersteld` → `geciteerd`/`afgeleid` of flag `weerlegd`
+- `relaties_aanvullen` — `vergelijkbaar_met` + bevat-edges rijk maken
+- `accountant_perspectief` — `accountant_perspectieven[]` per actor invullen
+- `didactisch_verrijken` — `valkuilen[]`/`speelruimtes[]`/`voorbeelden[]` toevoegen
+- `kandidaat_review` — proeflezen studentbril
+- `leespad_aanvullen` — `inhoud.voorkennis_leespad` op basis van ankers + vereist-relaties
+
+Niet prioritair voor wave-2 (per ADR-029): `cijfer_validatie`, `examenvragen_aansluiting`, `consistentie_check`, `volledigheid_check`.
+
+### 7.5 — Schema 2.0 → archive (parallel opkuiswerk)
+
+- Legacy v2.0 records bewaard in `data/concepten/_archive/v2.0-pre-schema-2.1-...`
+- ADR-025 (schema 2.0) → `docs/adr/archive/` zodra wave-2 gedraaid is
+- `prompts/concept-extractie-v5.md` + `v5-bundle.md` → verwijderen na wave-2
+- `docs/pilot-fase2-pipeline.md` → verwijderen (info verwerkt in ADR-029)
 
 ---
 

@@ -6,7 +6,7 @@
 
 **Canonieke spec v1.5**: [`docs/schema-v15-besluit.md`](../schema-v15-besluit.md) — geconsolideerd referentie-document met alle 21 v1.5-besluiten + finale schema-structuur + operations-model. Lees dat document als bron-van-waarheid voor de actuele structuur; deze ADR documenteert de ontwerpredenering en evolutie.
 
-**Voorgeschiedenis-tracker**: [`docs/schema-feedback-22mei.md`](../schema-feedback-22mei.md) — discussie + iteraties tussen v1.4 en v1.5.
+**Voorgeschiedenis-tracker**: [`docs/adr/archive/schema-feedback-22mei.md`](archive/schema-feedback-22mei.md) — discussie + iteraties tussen v1.4 en v1.5 (gearchiveerd).
 
 ## Beslissing
 
@@ -18,7 +18,7 @@ Schema voor concept-records gaat van versie **2.0 → 2.1**, met:
 - Verplichte `grondslag` per claim met ≥1 bron (incl. `ai_model`/`mens` als bron-types)
 - Render-laag bepaalt labels (geen NL-zinnen in keys)
 
-**Bron-van-waarheid**: `data/concepten/schema-2.1.schema.json` (JSON Schema 2020-12). Geen aparte spec-markdown — schema heeft `$comment`/`description` voor mens-leesbare uitleg. Eerdere `docs/schema-2.0-canonical-spec.md` en `docs/schema-2.1-canonical-spec.md` zijn gearchiveerd onder `docs/_archive/`.
+**Bron-van-waarheid**: `data/concepten/schema-2.1.schema.json` (JSON Schema 2020-12). Mens-leesbare uitleg in `$comment`/`description` per def. Voorganger-specs (`schema-2.0-canonical-spec.md`, `schema-2.1-canonical-spec.md` als markdown) zijn verwijderd; alle ontwerpredenering leeft in deze ADR + `docs/schema-v15-besluit.md`.
 
 ## Operaties-model (vervangt sequentiële runs)
 
@@ -115,7 +115,7 @@ Voor de 396 nieuwe skelet-records: born-on-2.1, geen migratie.
 
 ## Update v1.5 (2026-05-23) — finale structuur en operations-model
 
-Na ~10 iteratie-rondes (gedocumenteerd in `docs/schema-feedback-22mei.md`) is schema 2.1 geconvergeerd op **v1.5**. Alle 21 besluiten en de finale shape leven in [`docs/schema-v15-besluit.md`](../schema-v15-besluit.md); hieronder enkel de samenvatting van wat ten opzichte van v1.4 verandert en waarom.
+Na ~10 iteratie-rondes (gedocumenteerd in `docs/adr/archive/schema-feedback-22mei.md`) is schema 2.1 geconvergeerd op **v1.5**. Alle 21 besluiten en de finale shape leven in [`docs/schema-v15-besluit.md`](../schema-v15-besluit.md); hieronder enkel de samenvatting van wat ten opzichte van v1.4 verandert en waarom.
 
 ### Velden gedropt
 
