@@ -46,6 +46,7 @@ Regel 9 ("geen leftovers") geldt voor docs evenzeer als voor code: superseded AD
 | **MCP-server `certificaid-tarieven`** (tarief-records) | [`tools/tarieven/mcp_server/`](tools/tarieven/mcp_server/) — `lijst_tabellen` · `zoek_tabellen` · `lees_tabel` · `query_tabel`. ADR-026. |
 | Bronnen-overzicht (type + trust-status per bron) | [`resources/bronnen/INDEX.md`](resources/bronnen/INDEX.md) — auto-gegenereerd; machine-leesbaar in `data/bronnen-index.json` |
 | Bron als trusted markeren + RAG verversen | `python3 -m tools.etl.mark_trusted --refresh` (ADR-005 §9) |
+| Worktree-status / opkuis (stale agent-worktrees voorkomen) | `tools/worktree_status.sh` (lijst) · `tools/worktree_status.sh --prune-safe` (verwijdert MERGED zonder uncommitted + broken). Categorieën: MERGED · AHEAD=N (commits niet in main — handmatig nakijken) · BROKEN. |
 | Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
 | **Examenvragen indexeren / zoeken** | `python3 -m tools.rag.rag_index --add-vragen` · MCP-tool `zoek_vragen` (args: `query`, `top_k=5`, optioneel `programmaonderdeel_id`) |
 | **Render leermateriaal** (fiches + minicursus) | `tools/leermateriaal/` — ADR-007, ADR-010 *(schema 2.0; render-laag voor schema 2.1 v1.5 in [`docs/render-laag.md`](docs/render-laag.md))* |
