@@ -64,7 +64,7 @@ PNGs **niet in git** standaard (gitignore `_segmenten/**/*.png`); regenereerbaar
 
 ### 3. Vraag-interpretatie-schema v1.2 (LLM, lokaal subagent)
 
-Permanent artefact: `prompts/vraag-interpretatie-v1.md` (v1.1 schema-shape, 2026-05-21 — POC-feedback verwerkt). Schema-bump v1.1 → v1.2 (2026-05-21) is additief: één nieuw veld `programmaonderdeel_ids: [string]` (1, max 2 PO-codes) op interpretatie-niveau, ingevuld via aparte classificatie-pass (`prompts/po-classificatie-v1.md`).
+Permanent artefact: `prompts/vraag-interpretatie-v1.md` (v1.1 schema-shape, 2026-05-21 — POC-feedback verwerkt). Schema-bump v1.1 → v1.2 (2026-05-21) is additief: één nieuw veld `programmaonderdeel_ids: [string]` (1, max 2 PO-codes) op interpretatie-niveau, ingevuld via aparte classificatie-pass (`docs/adr/archive/po-classificatie-v1.md` — gearchiveerd, historisch).
 
 **Conceptueel model**:
 - Top-niveau is **één PDF-vraag-eenheid** (zoals "Vraag 3 / 8 punten" — wat ITAA waardeert). Houdt `vraag_id`.

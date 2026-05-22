@@ -104,7 +104,6 @@ certificaid/
 │   ├── render-laag.md           # Werkpakket-spec render-laag (Fase 7)
 │   ├── concept-schrijfregels.md       # Inhoudelijke conventies concept- en competentie-records
 │   ├── studiemateriaal-schrijfregels.md
-│   └── examenpatronen-ontwerp.md
 ├── prompts/                     # Uitvoeringsinstructies voor agents (één canonieke versie per type)
 │   ├── multipass/               # Schema 2.1 v1.5 operatie-prompts (extractie v6)
 │   ├── concept-extractie-v4.md  # Legacy schema 1.6
