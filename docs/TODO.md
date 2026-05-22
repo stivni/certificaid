@@ -251,12 +251,12 @@ In ADR-029 §Operaties-model gedefinieerde maar nog niet uitgevoerde operaties:
 
 Niet prioritair voor wave-2 (per ADR-029): `cijfer_validatie`, `examenvragen_aansluiting`, `consistentie_check`, `volledigheid_check`.
 
-### 7.5 — Schema 2.0 → archive (parallel opkuiswerk)
+### 7.5 — Schema 2.0 → archive (klaar — 2026-05-23)
 
-- Legacy v2.0 records bewaard in `data/concepten/_archive/v2.0-pre-schema-2.1-...`
-- ADR-025 (schema 2.0) → `docs/adr/archive/` zodra wave-2 gedraaid is
-- `prompts/concept-extractie-v5.md` + `v5-bundle.md` → verwijderen na wave-2
-- `docs/pilot-fase2-pipeline.md` → verwijderen (info verwerkt in ADR-029)
+- ✅ Legacy v2.0 records bewaard in `data/concepten/_archive/v2.0-pre-schema-2.1-...`
+- ✅ ADR-025 verplaatst naar `docs/adr/archive/`
+- ✅ `prompts/concept-extractie-v5.md` + `v5-bundle.md` verwijderd
+- ✅ `docs/pilot-fase2-pipeline.md` + `sessie-2026-05-21-schema-20-handoff.md` verwijderd (info in ADR-029 + git-history)
 
 ---
 

@@ -36,7 +36,6 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | **Render leermateriaal** (concept-fiches, competentie-fiches, minicursus) | `tools/leermateriaal/` — ADR-007 schema 1.3, ADR-008 Fase D+E, ADR-010 §drie-lagen |
 | Concept- of competentie-record schrijven | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) — taxonomie, granulariteit, edges, taal, afkortingen *(v1.5/1.6 — wordt herzien voor 2.0)* |
 | Programmaonderdeel-build *(legacy)* | [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
-| **Schema 2.0 concept-record schrijven** *(legacy, supersede door 2.1)* | [ADR-025](docs/adr/ADR-025-schema-20-didactische-conceptlaag.md) + [`prompts/concept-extractie-v5.md`](prompts/concept-extractie-v5.md). Referentie: [`content/experiment/obligatielening-v7.md`](content/experiment/obligatielening-v7.md) |
 | **Schema 2.1 v1.5 concept-record schrijven** | [ADR-029](docs/adr/ADR-029-schema-21-operaties-model.md) + canonieke spec [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md) + schema [`data/concepten/schema-2.1.schema.json`](data/concepten/schema-2.1.schema.json). Velden: `ankers` (was `linked_anchors`), `tekst` (was `text`), `inhoud.kern.{definitie,substantie,rationale}`, `accountant_perspectieven`, `valkuilen[]`, `speelruimtes[]`, `syntheses[]`. |
 | **Operatie toepassen op schema 2.1-record** | ADR-029 §Operaties-model — 7 operaties: `beschrijven` · `claims_checken` · `relaties_aanvullen` · `accountant_perspectief` · `didactisch_verrijken` · `kandidaat_review` · `leespad_aanvullen`. Prompts: [`prompts/multipass/`](prompts/multipass/) (in update voor v1.5). |
 | **Render-laag schema 2.1 v1.5** | [`docs/render-laag.md`](docs/render-laag.md) — render-todos, label-mapping per `concept_type`, confidence-iconen, fractale element-recursie. |
@@ -47,8 +46,6 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | **Tarief-extractie pipeline** (vision-extract van tabel-zware PDF naar JSON) | Chunker: `python3 -m tools.tarieven.chunk_pdf <bron-id>`. Extract-prompt: [`prompts/tarief-extractie-v1.md`](prompts/tarief-extractie-v1.md). Verify-prompt: [`prompts/tarief-verify-v1.md`](prompts/tarief-verify-v1.md). ADR-026 §3. |
 | **Aangifte-walkthrough bron schrijven** (PB-vakken, VenB) | Vision-handcrafted-extract via Sonnet-subagent met **twee bron-PDFs**: voorbereiding (codes) + toelichting (didactische blockquotes). Prompt: [`prompts/aangifte-handcrafted-v1.md`](prompts/aangifte-handcrafted-v1.md). **Belangrijk**: codes uitsluitend uit voorbereiding-PNG — geen training-kennis. Stijl-canonical: [`resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md`](resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md). |
 | **Archiveren v1.x records vóór 2.0-herextract** | `python3 -m tools.extractie.archive_voor_migratie --anchor-prefix <PO>` |
-| **Sessie-handoff Schema 2.0** | [`docs/sessie-2026-05-21-schema-20-handoff.md`](docs/sessie-2026-05-21-schema-20-handoff.md) — volledig overzicht voor nieuwe sessie |
-| Fase 2 herextract-pipeline | [`docs/pilot-fase2-pipeline.md`](docs/pilot-fase2-pipeline.md) |
 
 ---
 
