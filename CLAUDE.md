@@ -26,7 +26,6 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | EXTRACT v4-werk (concept-extractie) | Laad [`prompts/concept-extractie-v4.md`](prompts/concept-extractie-v4.md) in Opus-subagent + initial-ctx (anchor + records + bundle uit matches.sqlite3 + chunks) |
 | Daemon-status / restart | `curl localhost:8765/health` · `launchctl kickstart -k gui/$(id -u)/com.certificaid.embedding-daemon` |
 | Architectuurbeslissing opzoeken of toevoegen | [`docs/adr/INDEX.md`](docs/adr/INDEX.md) |
-| Bron toevoegen of verwerken | [`docs/bronnen-pipeline.md`](docs/bronnen-pipeline.md) *(legacy; ADR-005 bij Fase 1)* |
 | Bronnen-overzicht (type + trust-status per bron) | [`resources/bronnen/INDEX.md`](resources/bronnen/INDEX.md) — auto-gegenereerd via `python3 tools/lib/bronnen_index.py --force`; machine-leesbaar in `data/bronnen-index.json` |
 | Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
 | Trust-status zetten + index/bundles in één klap verversen | `tools/etl/mark_trusted.py --refresh` (of direct `python3 -m tools.etl.refresh_rag_and_matches`) — ADR-005 §9 |
@@ -35,7 +34,6 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | **Examenvragen semantisch zoeken** | MCP-tool `zoek_vragen` in `certificaid-rag` — args: `query`, `top_k=5`, optioneel `programmaonderdeel_id`, `vraag_herkomst` |
 | **Render leermateriaal** (concept-fiches, competentie-fiches, minicursus) | `tools/leermateriaal/` — ADR-007 schema 1.3, ADR-008 Fase D+E, ADR-010 §drie-lagen |
 | Concept- of competentie-record schrijven | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) — taxonomie, granulariteit, edges, taal, afkortingen *(v1.5/1.6 — wordt herzien voor 2.0)* |
-| Programmaonderdeel-build *(legacy)* | [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
 | **Schema 2.1 v1.5 concept-record schrijven** | [ADR-029](docs/adr/ADR-029-schema-21-operaties-model.md) + canonieke spec [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md) + schema [`data/concepten/schema-2.1.schema.json`](data/concepten/schema-2.1.schema.json). Velden: `ankers` (was `linked_anchors`), `tekst` (was `text`), `inhoud.kern.{definitie,substantie,rationale}`, `accountant_perspectieven`, `valkuilen[]`, `speelruimtes[]`, `syntheses[]`. |
 | **Operatie toepassen op schema 2.1-record** | ADR-029 §Operaties-model — 7 operaties: `beschrijven` · `claims_checken` · `relaties_aanvullen` · `accountant_perspectief` · `didactisch_verrijken` · `kandidaat_review` · `leespad_aanvullen`. Prompts: [`prompts/multipass/`](prompts/multipass/) (in update voor v1.5). |
 | **Render-laag schema 2.1 v1.5** | [`docs/render-laag.md`](docs/render-laag.md) — render-todos, label-mapping per `concept_type`, confidence-iconen, fractale element-recursie. |
@@ -88,8 +86,6 @@ certificaid/
 ├── CLAUDE.md                    # Deze wegwijzer
 ├── docs/
 │   ├── concept-schrijfregels.md  # Inhoudelijke conventies voor concept- en competentie-records
-│   ├── po-builder.md           # Programmaonderdeel-build procesflow (legacy)
-│   ├── bronnen-pipeline.md     # Bronnen toevoegen en verwerken
 │   └── adr/                    # Architecture Decision Records
 ├── content/
 │   ├── programmaonderdelen/    # Programmaonderdeel-fiches (catalogus per vak, legacy)

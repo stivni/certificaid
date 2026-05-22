@@ -285,6 +285,12 @@ Eenvormig extract-schema. Backlog: 104 bronnen. Long-running achtergrond.
 ### Backup-tags archeology (8+ tags)
 Plus nieuwe: `backup/pre-schema-1.5-migration-2026-05-18`. Bij geen issue gedurende 30 dagen: tags verwijderbaar.
 
+### Dode code daemon (uit avond-handoff 2026-05-21)
+- `_bronnen_rerank()` in `tools/extractie/embedding_daemon.py:548` is dode code sinds rerank verplaatst werd naar MCP-server in-process. Verwijderen na verificatie geen call-sites.
+
+### Aandelen-fiche concept-record (uit avond-handoff 2026-05-21)
+- Structurele asymmetrie tussen obligatielening (compleet) en aandelen (geen record). Onder Fase 7 wave-2-beschrijven mee te nemen.
+
 ---
 
 ## Open ADR-punten
