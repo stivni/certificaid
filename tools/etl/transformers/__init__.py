@@ -53,10 +53,13 @@ from tools.etl.transformers.reorder_heading_cluster import reorder_heading_clust
 from tools.etl.transformers.split_long_art_heading import split_long_art_heading
 from tools.etl.transformers.strip_isa_page_footers import strip_isa_page_footers
 from tools.etl.transformers.inject_headings_isa import inject_headings_isa
-from tools.etl.transformers.merge_eu_reflow_word_splits import merge_eu_reflow_word_splits
-from tools.etl.transformers.promote_eu_structural_labels import promote_eu_structural_labels
-from tools.etl.transformers.strip_letter_spaced_page_headers import strip_letter_spaced_page_headers
-from tools.etl.transformers.strip_trailing_french_section import strip_trailing_french_section
+# Pre-existing breakage: commit 0c77206e (2026-05-19) voegde deze 4 imports toe maar de
+# bronfiles zijn nooit meegecommit. Tijdelijk uitgecommentarieerd om pytest-collectie te
+# laten slagen. ETL-laag herstel is een separate werkstroom.
+# from tools.etl.transformers.merge_eu_reflow_word_splits import merge_eu_reflow_word_splits
+# from tools.etl.transformers.promote_eu_structural_labels import promote_eu_structural_labels
+# from tools.etl.transformers.strip_letter_spaced_page_headers import strip_letter_spaced_page_headers
+# from tools.etl.transformers.strip_trailing_french_section import strip_trailing_french_section
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -102,10 +105,11 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "split_long_art_heading": split_long_art_heading,
     "strip_isa_page_footers": strip_isa_page_footers,
     "inject_headings_isa": inject_headings_isa,
-    "merge_eu_reflow_word_splits": merge_eu_reflow_word_splits,
-    "promote_eu_structural_labels": promote_eu_structural_labels,
-    "strip_letter_spaced_page_headers": strip_letter_spaced_page_headers,
-    "strip_trailing_french_section": strip_trailing_french_section,
+    # Zie commentaar bovenaan; 4 entries uitgecommentarieerd tot bronfiles landen.
+    # "merge_eu_reflow_word_splits": merge_eu_reflow_word_splits,
+    # "promote_eu_structural_labels": promote_eu_structural_labels,
+    # "strip_letter_spaced_page_headers": strip_letter_spaced_page_headers,
+    # "strip_trailing_french_section": strip_trailing_french_section,
 }
 
 
