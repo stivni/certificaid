@@ -47,7 +47,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 SCHEMA_PATH = REPO_ROOT / "data" / "concepten" / "schema-2.1.schema.json"
 RECORDS_DIR = REPO_ROOT / "data" / "concepten" / "records"
 TMP_DIR = Path("/tmp")
-PROMPT_DIR = REPO_ROOT / "prompts" / "multipass"
+PROMPT_DIR = REPO_ROOT / "prompts" / "operaties"
 INDEX_PATH = REPO_ROOT / "data" / "concepten" / "records-index.compact.txt"
 
 
@@ -411,24 +411,121 @@ def _drop_legacy_metadata(metadata: dict) -> list[str]:
     return fixes
 
 
-def _verplaats_schema_version_top_level(rec: dict) -> list[str]:
-    """v1.4 had `metadata.schema_version`; v1.5 zet het top-level."""
+def _verplaats_schema_version_metadata(rec: dict) -> list[str]:
+    """Schema 2.1 vereist `metadata.schema_version = "2.1"` (NIET top-level).
+
+    Fixt LLM-bug: agenten zetten het soms per ongeluk top-level. Default naar metadata bij missende waarde.
+    """
     fixes: list[str] = []
-    metadata = rec.get("metadata")
-    if isinstance(metadata, dict) and "schema_version" in metadata:
-        if "schema_version" not in rec:
-            rec["schema_version"] = metadata.pop("schema_version")
-            fixes.append("metadata.schema_version → top-level")
+    metadata = rec.setdefault("metadata", {})
+    if "schema_version" in rec:
+        # LLM-bug: top-level → metadata
+        val = rec.pop("schema_version")
+        if "schema_version" not in metadata:
+            metadata["schema_version"] = val
+            fixes.append("schema_version: top-level → metadata.schema_version")
         else:
-            metadata.pop("schema_version")
-    if "schema_version" not in rec:
-        # Default voor v1.5
-        rec["schema_version"] = "2.1"
+            # Beide aanwezig; metadata is canoniek, top-level weg
+            fixes.append("schema_version (dubbel): top-level verwijderd")
+    if not metadata.get("schema_version"):
+        metadata["schema_version"] = "2.1"
     return fixes
 
 
-def auto_fix_common_bugs(rec: dict) -> tuple[dict, list[str]]:
+_UNICODE_NAAR_ASCII = str.maketrans({
+    "à":"a","á":"a","â":"a","ä":"a","ã":"a","å":"a",
+    "è":"e","é":"e","ê":"e","ë":"e",
+    "ì":"i","í":"i","î":"i","ï":"i",
+    "ò":"o","ó":"o","ô":"o","ö":"o","õ":"o",
+    "ù":"u","ú":"u","û":"u","ü":"u",
+    "ç":"c","ñ":"n","ý":"y","ÿ":"y","ß":"ss",
+})
+
+
+def _slugify_id(value: str) -> str:
+    """Lowercase + unicode-strip + non-alnum→koppelteken; pattern '^[a-z0-9][a-z0-9-]*[a-z0-9]$'."""
+    import re
+    if not isinstance(value, str):
+        return value
+    v = value.lower().translate(_UNICODE_NAAR_ASCII)
+    v = re.sub(r"[^a-z0-9-]+", "-", v).strip("-")
+    v = re.sub(r"-{2,}", "-", v)
+    return v
+
+
+def _fix_id_patterns(obj, path: str = "") -> list[str]:
+    """Slugify alle 'id'-velden die niet aan schema-pattern voldoen.
+
+    Schema-pattern: '^[a-z0-9][a-z0-9-]*[a-z0-9]$' (ASCII-kebab). Werkt op alle nesting-niveaus.
+    """
+    import re
+    pattern = re.compile(r"^[a-z0-9][a-z0-9-]*[a-z0-9]$")
+    fixes: list[str] = []
+    if isinstance(obj, dict):
+        oud = obj.get("id")
+        if isinstance(oud, str) and not pattern.match(oud):
+            nieuw = _slugify_id(oud)
+            if nieuw and pattern.match(nieuw):
+                obj["id"] = nieuw
+                fixes.append(f"id slugified: {oud!r} → {nieuw!r}")
+        for k, v in obj.items():
+            fixes.extend(_fix_id_patterns(v, f"{path}.{k}"))
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            fixes.extend(_fix_id_patterns(v, f"{path}[{i}]"))
+    return fixes
+
+
+def _fix_relatie_veldnamen(obj) -> int:
+    """Hernoem LLM-bug-veldnamen in relaties recursief.
+
+    `relaties[].naar` → `target` (v1.5-schema vereist `target`; LLM kiest soms `naar`).
+    `relaties[].naar_concept` → `target` (alternatief LLM-foutpatroon).
+    Werkt op top-level `relaties[]` én op inline `tekst.relaties[]`.
+
+    Return: aantal hernoemingen.
+    """
+    count = 0
+    if isinstance(obj, dict):
+        rels = obj.get("relaties")
+        if isinstance(rels, list):
+            for rel in rels:
+                if isinstance(rel, dict) and "target" not in rel:
+                    for alias in ("naar", "naar_concept", "naar_id"):
+                        if alias in rel:
+                            rel["target"] = rel.pop(alias)
+                            count += 1
+                            break
+        for v in obj.values():
+            count += _fix_relatie_veldnamen(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            count += _fix_relatie_veldnamen(v)
+    return count
+
+
+def _herstel_identiteit(rec: dict, origineel: dict | None) -> list[str]:
+    """Herstel ontbrekende top-level identiteit-velden uit origineel.
+
+    Velden: id, naam, concept_type. Als geen origineel meegegeven: waarschuw alleen.
+    """
+    meldingen: list[str] = []
+    for veld in ("id", "naam", "concept_type"):
+        if veld in rec and rec.get(veld) not in (None, "", {}):
+            continue
+        if origineel and origineel.get(veld) not in (None, "", {}):
+            rec[veld] = origineel[veld]
+            meldingen.append(f"identiteit hersteld: '{veld}' uit origineel")
+        else:
+            meldingen.append(f"⚠️ top-level '{veld}' ontbreekt — geen origineel om uit te herstellen")
+    return meldingen
+
+
+def auto_fix_common_bugs(rec: dict, origineel: dict | None = None) -> tuple[dict, list[str]]:
     """Deterministische auto-fixes voor common LLM-fouten + v1.4→v1.5-migratie.
+
+    Optionele `origineel`: pre-state record (uit data/concepten/records/) — gebruikt om
+    door LLM gewiste top-level identiteit-velden (id/naam/concept_type) te herstellen.
 
     Idempotent — meermaals draaien levert dezelfde output op.
 
@@ -442,12 +539,17 @@ def auto_fix_common_bugs(rec: dict) -> tuple[dict, list[str]]:
     - `inhoud.voorbeelden.{cases,inline}` → `inhoud.voorbeelden[]` (unified).
     - `inhoud.keuzekader` → `inhoud.syntheses[type=keuzekader]`.
     - `relaties` binnen `inhoud` → top-level (LLM-bug, ook in v1.4 al).
+    - `relaties[].naar`/`naar_concept`/`naar_id` → `target` (LLM-veldnaam-bug).
     - `gebruikscontext`-paargroepen platslaan (LLM-bug, ook in v1.4 al).
+    - Waarschuwing bij ontbrekende top-level identiteit (id/naam/concept_type).
     """
     fixes: list[str] = []
 
-    # 1. Top-level: schema_version
-    fixes.extend(_verplaats_schema_version_top_level(rec))
+    # 0. Herstel ontbrekende identiteit uit origineel (of waarschuw)
+    fixes.extend(_herstel_identiteit(rec, origineel))
+
+    # 1. schema_version: garandeer in metadata (niet top-level — LLM-bug)
+    fixes.extend(_verplaats_schema_version_metadata(rec))
 
     # 2. Metadata: ankers-unification + drop legacy
     metadata = rec.get("metadata")
@@ -521,6 +623,14 @@ def auto_fix_common_bugs(rec: dict) -> tuple[dict, list[str]]:
     text_renames = _rename_text_naar_tekst(rec)
     if text_renames:
         fixes.append(f"text → tekst ({text_renames} keer)")
+
+    # 5. Recursief: relaties[].naar/naar_concept/naar_id → target
+    relatie_renames = _fix_relatie_veldnamen(rec)
+    if relatie_renames:
+        fixes.append(f"relaties[].naar → target ({relatie_renames} keer)")
+
+    # 6. Recursief: id-patterns slugify (unicode, spaties, etc.)
+    fixes.extend(_fix_id_patterns(rec))
 
     return rec, fixes
 
@@ -645,7 +755,7 @@ def cmd_dump_batch_prompts(args: argparse.Namespace) -> int:
     Output formaat: per fiche een [BATCH-PROMPT <id>] blok + lege regels.
     Caller (mens of orchestrator) kopieert in Agent-tool spawn.
     """
-    template_pad = PROMPT_DIR / f"run-{args.run}-{TEMPLATE_BY_RUN[args.run]}.md"
+    template_pad = PROMPT_DIR / f"{TEMPLATE_BY_RUN[args.run]}.md"
     template = template_pad.read_text()  # noqa: F841 — used for existence-check
     abs_template = template_pad.resolve()
     abs_schema = SCHEMA_PATH.resolve()
@@ -690,11 +800,11 @@ def cmd_dump_batch_prompts(args: argparse.Namespace) -> int:
 
 
 TEMPLATE_BY_RUN = {
-    1: "draft",
-    2: "rollen",
-    3: "voorbeelden",
-    4: "relaties",
-    5: "factcheck",
+    1: "beschrijven",
+    2: "accountant_perspectief",
+    3: "didactisch_verrijken",
+    4: "relaties_aanvullen",
+    5: "claims_checken",
 }
 
 

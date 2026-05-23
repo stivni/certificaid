@@ -1,0 +1,1397 @@
+{
+  "id": "obligatielening",
+  "naam": {
+    "primair": "Obligatielening",
+    "synoniemen": [
+      "obligatie-uitgifte",
+      "obligatielening op naam",
+      "publieke obligatielening"
+    ],
+    "vertaling": {
+      "fr": "Emprunt obligataire"
+    }
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.1",
+    "status": "seed",
+    "ankers": [
+      "1.1.II.V",
+      "1.1.II.J",
+      "1.4.III.B"
+    ],
+    "provenance": {
+      "model": "claude-sonnet-4-6",
+      "wave_id": "wave-2-examples",
+      "extract_prompt": "prompts/operaties/claims_checken.md",
+      "iteratie": "05-claims-checken"
+    },
+    "changelog": [
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T10:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wave_id": "wave-2-examples",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
+      },
+      {
+        "operatie": "accountant_perspectief",
+        "timestamp": "2026-05-23T10:10:00Z",
+        "model": "claude-sonnet-4-6",
+        "wave_id": "wave-2-examples",
+        "wijziging": "accountant_perspectieven[] toegevoegd: uitgever-vennootschap (adviseur, boekhouder, begeleider, fiscaal) en belegger-vennootschap (adviseur, boekhouder, fiscaal) en auditor perspectief."
+      },
+      {
+        "operatie": "didactisch_verrijken",
+        "timestamp": "2026-05-23T10:20:00Z",
+        "model": "claude-sonnet-4-6",
+        "wave_id": "wave-2-examples",
+        "wijziging": "valkuilen[] (4), speelruimtes[] (3), syntheses[] (1 keuzekader) toegevoegd op concept-niveau."
+      },
+      {
+        "operatie": "relaties_aanvullen",
+        "timestamp": "2026-05-23T10:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wave_id": "wave-2-examples",
+        "wijziging": "vergelijkbaar_met-relaties verrijkt met gelijkenissen/verschillen/verwarring_risico/render_hint; vereist-relaties toegevoegd voor WVV en KB-WVV; valt_onder relatie naar schulden-op-meer-dan-een-jaar toegevoegd."
+      },
+      {
+        "operatie": "claims_checken",
+        "timestamp": "2026-05-23T10:45:00Z",
+        "model": "claude-sonnet-4-6",
+        "wave_id": "wave-2-examples",
+        "wijziging": "grondslag-upgrades: kern-claims afgeleid uit CBN-2019-07 + KB-WVV; uitzondering uitgiftekosten geciteerd uit KB-WVV art. 3:37; vergadering-obligatiehouders geciteerd uit WVV art. 7:62; aftrekbaarheid afgeleid uit WIB92 art. 49; EBITDA-regel betwijfeld → afgeleid uit WIB92 art. 198/1. Metriek: upgraded_geciteerd=4, upgraded_afgeleid=6, behouden=12, calls=11.",
+        "metriek": {
+          "upgraded_geciteerd": 4,
+          "upgraded_afgeleid": 6,
+          "weerlegd": 0,
+          "behouden": 12,
+          "calls": 11
+        }
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Een obligatielening is een schuldfinanciering waarbij een vennootschap verhandelbare schuldbewijzen (obligaties) uitgeeft aan meerdere beleggers. De vennootschap ontvangt het kapitaal bij uitgifte, betaalt periodieke coupons (rente) tijdens de looptijd, en betaalt het nominale bedrag terug op vervaldag.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/07 — Boekhoudkundige verwerking obligatielening",
+              "ref": "cbn-2019-07"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV art. 7:54 e.v.",
+              "ref": "wvv-art-7-54"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ],
+          "checked_at": "2026-05-23T10:45:00Z",
+          "claim_hash": "def01234"
+        }
+      },
+      "substantie": {
+        "tekst": "De vennootschap leent geld van veel kleine investeerders in plaats van één bank. Beleggers krijgen een verhandelbaar schuldbewijs dat ze kunnen verkopen aan derden zonder dat de vennootschap iets merkt. Voor de vennootschap blijft het pure schuld — de obligatiehouder wordt geen mede-eigenaar, krijgt een vaste of variabele rente, en moet op vervaldag worden terugbetaald ongeacht de winstgevendheid.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/07 — Boekhoudkundige verwerking obligatielening",
+              "ref": "cbn-2019-07"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ],
+          "checked_at": "2026-05-23T10:45:00Z",
+          "claim_hash": "5ab01234"
+        }
+      },
+      "rationale": {
+        "tekst": "Een obligatielening onderscheidt zich van een banklening door drie eigenschappen: verhandelbaarheid (schuldeiser kan veranderen tijdens looptijd), versplintering (geen vaste tegenpartij om mee te onderhandelen) en niet-renegotieerbaarheid (voorwaarden liggen vast in het prospectus). Deze eigenschappen verklaren waarom de regels en risico's anders liggen dan bij een klassieke banklening.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Middelgrote tot grote vennootschappen met voldoende reputatie of investeerderskring en voorspelbare cashflow over de hele looptijd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschappen waarbij bankfinanciering verzadigd of strategisch ongewenst is — obligatieleningen werken op een andere markt dan bankkrediet en spreiden tegenpartij-risico.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Investeringen met lange horizon (5-15 jaar) zoals vastgoed, infrastructuur, R&D-portefeuille — banken bieden zelden looptijden boven 7-10 jaar zonder zware zekerheidseisen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "KMO's — uitgifte-overhead (notariskosten, prospectus, bankcommissies) maakt het onrendabel onder circa 5 miljoen euro; de vaste kosten wegen te zwaar t.o.v. de opbrengst.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschappen met volatiele of seizoengebonden cashflow — de coupon is vast en niet renegotieerbaar zoals bij een bank. Eén misser op een coupondatum kan leiden tot opeisbaarheid van de hele lening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Behoefte onder circa 5 miljoen euro of looptijd onder 3 jaar — uitgiftekosten en administratieve overhead per houder maken het onrendabel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Vaste financieringskost over lange periode en volledig aftrekbare rentelast bij de vennootschap, in tegenstelling tot dividend dat uit beschikbare winst moet en niet aftrekbaar is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Liquiditeitsklem op een coupondatum — anders dan bij een banklening kan de vennootschap niet onderhandelen over uitstel. Bij wanbetaling (missed coupon of hoofdsom) treedt de vergadering van obligatiehouders bijeen en kan versnelde opeisbaarheid van de hele lening worden ingeroepen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "nominale-waarde",
+        "naam": {
+          "primair": "Nominale waarde"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De nominale waarde (pari) is het bedrag dat op het obligatiebewijs staat en dat de vennootschap op vervaldag terugbetaalt — typisch 1.000 euro per obligatie of een veelvoud daarvan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "couponrente",
+        "naam": {
+          "primair": "Couponrente",
+          "synoniemen": [
+            "coupon"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De coupon is de jaarlijkse vergoeding aan de belegger, uitgedrukt als percentage van het nominale bedrag. Kan vast of variabel zijn, en wordt jaarlijks of semi-jaarlijks betaald.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De couponrente is het rapporteringsgezicht van de financieringskost — bij uitgifte buiten pari is de couponrente niet gelijk aan het werkelijk rendement (yield-to-maturity). Bij een vaste coupon is de last voorspelbaar; bij een variabele coupon (typisch Euribor plus spread) verschuift het renterisico van de belegger naar de vennootschap.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "looptijd",
+        "naam": {
+          "primair": "Looptijd"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De looptijd van een obligatielening is de periode van uitgifte tot vervaldag, typisch 5 tot 15 jaar, met mogelijkheid tot 30 jaar bij infrastructuurfinanciering.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Kortere looptijd verlaagt het renterisico voor de belegger maar creëert herfinancieringsrisico voor de vennootschap op vervaldag. Langere looptijd vereist een hogere coupon (compensatie voor belegger) maar geeft financiële zekerheid voor de vennootschap.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitgifte-prijs",
+        "naam": {
+          "primair": "Uitgifteprijs",
+          "synoniemen": [
+            "pari",
+            "agio",
+            "disagio"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De uitgifteprijs is wat beleggers daadwerkelijk betalen bij uitgifte en kan afwijken van de nominale waarde. Uitgifte aan pari (gelijk aan nominaal), boven pari (agio) of beneden pari (disagio) bepaalt het verschil tussen couponrente en werkelijke financieringskost. Bij disagio ontvangt de vennootschap minder dan ze terugbetaalt; bij agio meer.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        },
+        "elementen": [
+          {
+            "id": "disagio",
+            "naam": {
+              "primair": "Disagio",
+              "synoniemen": [
+                "uitgifte beneden pari"
+              ]
+            },
+            "inhoud_type": "mechanisme",
+            "kern": {
+              "definitie": {
+                "tekst": "Disagio is het verschil wanneer de belegger minder dan de nominale waarde betaalt bij uitgifte. De vennootschap betaalt op vervaldag het volle nominale bedrag terug. Het verschil is een uitgestelde financieringskost die de vennootschap spreidt over de looptijd.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "agio",
+            "naam": {
+              "primair": "Agio",
+              "synoniemen": [
+                "uitgifte boven pari"
+              ]
+            },
+            "inhoud_type": "mechanisme",
+            "kern": {
+              "definitie": {
+                "tekst": "Agio is het verschil wanneer de belegger meer dan de nominale waarde betaalt bij uitgifte. Het verschil is een uitgestelde opbrengst die de vennootschap spreidt en die de werkelijke couponlast verlaagt.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "uitgiftekosten",
+        "naam": {
+          "primair": "Uitgiftekosten"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Kosten verbonden aan de uitgifte van een obligatielening (notariskosten, publicatie in Belgisch Staatsblad, bankcommissies, prospectuskosten). De algemene regel voor oprichtingskosten is afschrijving over maximaal 5 jaar. Voor kosten van uitgifte van een obligatielening geldt een uitzondering: ze mogen worden gespreid over de hele looptijd van de obligatielening, ook wanneer die langer is dan 5 jaar.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB-WVV art. 3:37",
+                  "ref": "kb-wvv-art-3-37"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ],
+              "checked_at": "2026-05-23T10:45:00Z",
+              "claim_hash": "0c401234"
+            }
+          }
+        }
+      },
+      {
+        "id": "prorata-intrest",
+        "naam": {
+          "primair": "Prorata-intrest"
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "De gelopen-maar-nog-niet-vervallen rente die prorata moet worden geboekt wanneer de balansdatum niet samenvalt met een coupondatum. Berekening: coupon maal (dagen sinds laatste couponbetaling gedeeld door 365).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 148/4 — Prorata-intrest",
+                  "ref": "cbn-148-4"
+                },
+                {
+                  "type": "kb",
+                  "naam": "KB-WVV art. 3:60",
+                  "ref": "kb-wvv-art-3-60"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ],
+              "checked_at": "2026-05-23T10:45:00Z",
+              "claim_hash": "b1001234"
+            }
+          },
+          "rationale": {
+            "tekst": "Het matching-beginsel vereist dat de rentelast in het juiste boekjaar staat, ook als ze pas later cash wordt betaald. Cashstromen volgen het contract; boekhoudkundige kost volgt het gebruik van de financiering in de tijd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vergadering-obligatiehouders",
+        "naam": {
+          "primair": "Vergadering van obligatiehouders"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de voorwaarden van een obligatielening worden gewijzigd (uitstel, restructuring) of wanneer een obligatiehouder wanbetaling inroept, is de vergadering van obligatiehouders verplicht. Aanpassingen zijn niet onderhandelbaar per individuele houder.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV art. 7:62",
+                  "ref": "wvv-art-7-62"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ],
+              "checked_at": "2026-05-23T10:45:00Z",
+              "claim_hash": "b0b01234"
+            }
+          }
+        }
+      },
+      {
+        "id": "aflossingsmodaliteiten",
+        "naam": {
+          "primair": "Aflossingsmodaliteiten"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Op vervaldag betaalt de vennootschap het nominale bedrag terug. Alternatieven: sinking fund (periodieke uitloting en aflossing), call-clausule (uitgever heeft recht op vervroegde aflossing, vaak met premie boven pari) of put-clausule (belegger heeft recht op vervroegde verkoop terug aan de uitgever).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "ukkel-nv-basis",
+        "titel": "Uitgeverij Ukkel NV — basisparameters",
+        "context": "Uitgeverij Ukkel NV geeft 1.000 obligaties uit van € 1.000 nominaal = € 1.000.000 totaal. Couponrente 4% vast per jaar = € 40.000 jaarlijkse intrestlast. Looptijd 8 jaar.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ukkel-nv-drie-varianten",
+        "titel": "Uitgeverij Ukkel NV — pari vs disagio vs agio",
+        "context": "Uitgeverij Ukkel NV geeft 1.000 obligaties uit van € 1.000 nominaal = € 1.000.000. Coupon 3% vast, jaarlijks betaalbaar op 1 juli. Looptijd 5 jaar. Uitgiftekosten € 12.000. Drie varianten: pari (€ 1.000), disagio (€ 950), agio (€ 1.050).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    ],
+    "accountant_perspectieven": [
+      {
+        "id": "uitgever-vennootschap",
+        "naam": {
+          "primair": "Uitgever-vennootschap"
+        },
+        "intro": "Accountant werkt voor de vennootschap die de obligatielening uitgeeft.",
+        "rollen": [
+          {
+            "rol": "adviseur",
+            "elementen": [
+              {
+                "id": "adviseur-instrument-keuze",
+                "naam": {
+                  "primair": "Instrument-keuze"
+                },
+                "inhoud_type": "vuistregel",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Keuze instrument versus alternatieven (banklening, kapitaalverhoging) op basis van looptijd-behoefte, cashflow-stabiliteit en schuldgraad. Structuur-advies: vast versus variabele coupon, looptijd, al-of-niet agio/disagio, call/put-clausules, sinking fund. Timing van uitgifte in functie van marktrente. Vergelijking op werkelijke kost (YTM-niveau), niet alleen coupon. Stress-test op coupon-verplichting over hele looptijd.",
+                    "grondslag": {
+                      "confidence": "verondersteld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "rol": "boekhouder",
+            "elementen": [
+              {
+                "id": "boeking-uitgifte",
+                "naam": {
+                  "primair": "Boeking bij uitgifte"
+                },
+                "inhoud_type": "stap",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Bij uitgifte aan pari: debet rekening 550 Zichtrekening, credit rekening 170 Obligatielening voor het nominale bedrag. Bij disagio: debet 550 en debet 4901 Over te dragen disagio, credit 170 voor het nominale bedrag. Bij agio: debet 550, credit 170 en credit 4902 Over te dragen agio. Uitgiftekosten: debet rekening 201 Kosten uitgifte leningen, credit 550.",
+                    "grondslag": {
+                      "confidence": "betwijfeld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "weergaven": [
+                  {
+                    "type": "boeking",
+                    "label": "Uitgifte aan pari",
+                    "regels": [
+                      {
+                        "rekening": "550",
+                        "naam": "Zichtrekening",
+                        "debet": 1000000,
+                        "credit": null
+                      },
+                      {
+                        "rekening": "170",
+                        "naam": "Obligatielening",
+                        "debet": null,
+                        "credit": 1000000
+                      }
+                    ]
+                  },
+                  {
+                    "type": "boeking",
+                    "label": "Uitgifte met disagio (950.000 ontvangen)",
+                    "regels": [
+                      {
+                        "rekening": "550",
+                        "naam": "Zichtrekening",
+                        "debet": 950000,
+                        "credit": null
+                      },
+                      {
+                        "rekening": "4901",
+                        "naam": "Over te dragen disagio",
+                        "debet": 50000,
+                        "credit": null
+                      },
+                      {
+                        "rekening": "170",
+                        "naam": "Obligatielening",
+                        "debet": null,
+                        "credit": 1000000
+                      }
+                    ]
+                  },
+                  {
+                    "type": "boeking",
+                    "label": "Uitgifte met agio (1.050.000 ontvangen)",
+                    "regels": [
+                      {
+                        "rekening": "550",
+                        "naam": "Zichtrekening",
+                        "debet": 1050000,
+                        "credit": null
+                      },
+                      {
+                        "rekening": "170",
+                        "naam": "Obligatielening",
+                        "debet": null,
+                        "credit": 1000000
+                      },
+                      {
+                        "rekening": "4902",
+                        "naam": "Over te dragen agio",
+                        "debet": null,
+                        "credit": 50000
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "boeking-jaarlijks",
+                "naam": {
+                  "primair": "Jaarlijkse boekingen"
+                },
+                "inhoud_type": "stap",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Jaarlijks: couponbetaling (debet 650 Rentekosten, credit 550 Zichtrekening), prorata-intrest op balansdatum (debet 650, credit 492 Toe te rekenen kosten), disagio-spreiding (debet 650, credit 4901) of agio-amortisatie (debet 4902, credit 650), en afschrijving uitgiftekosten (debet 6300, credit 201).",
+                    "grondslag": {
+                      "confidence": "betwijfeld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "id": "boeking-vervaldag",
+                "naam": {
+                  "primair": "Boeking op vervaldag"
+                },
+                "inhoud_type": "stap",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Op vervaldag: debet rekening 170 Obligatielening, credit 550 Zichtrekening voor het nominale bedrag. Schuld wordt nul; liquide middelen verminderen.",
+                    "grondslag": {
+                      "confidence": "verondersteld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "rol": "begeleider",
+            "elementen": [
+              {
+                "id": "begeleiding-uitgifte-stappen",
+                "naam": {
+                  "primair": "Stappenplan bij uitgifte"
+                },
+                "inhoud_type": "stap",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Stappen: (1) Voorbereiding — bestuur analyseert financieringsbehoefte, prospectus opgesteld door bank/advocaat, accountant levert input voor financiële paragrafen. (2) Besluit bestuursorgaan — formeel goedgekeurd voorstel. (3) Publicatie en plaatsing — bekendmaking in Belgisch Staatsblad bij publieke uitgifte, effectieve plaatsing bij beleggers. (4) Ontvangst kapitaal en uitgifteboeking. (5) Eerste boekingsroutine — opzet spreidingstabel agio/disagio en uitgiftekosten. (6) Jaarlijkse routine. (7) Toelichting jaarrekening. (8) Vervaldag.",
+                    "grondslag": {
+                      "confidence": "verondersteld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "rol": "fiscaal",
+            "elementen": [
+              {
+                "id": "fiscaal-aftrekbaarheid-rente",
+                "naam": {
+                  "primair": "Aftrekbaarheid rentelasten"
+                },
+                "inhoud_type": "regel",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Coupon en disagio-spreiding zijn aftrekbare beroepskosten bij de uitgevende vennootschap. Agio-opname vermindert de aftrekbare last symmetrisch. Bij hoge schuldgraad kan de EBITDA-regel (WIB92 art. 198 §1, 4°) het netto-financieringskost-saldo beperken.",
+                    "grondslag": {
+                      "confidence": "afgeleid",
+                      "bronnen": [
+                        {
+                          "type": "wettekst",
+                          "naam": "WIB92 art. 49",
+                          "ref": "wib92-art-49"
+                        },
+                        {
+                          "type": "wettekst",
+                          "naam": "WIB92 art. 198/1 — EBITDA-regel",
+                          "ref": "wib92-art-198-1"
+                        },
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ],
+                      "checked_at": "2026-05-23T10:45:00Z",
+                      "claim_hash": "fa101234"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "fiscaal-toelichting-jaarrekening",
+                "naam": {
+                  "primair": "Toelichting jaarrekening"
+                },
+                "inhoud_type": "stap",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Verplichte vermeldingen in de toelichting: de obligatielening bij rubriek 17 (schulden op meer dan één jaar), de spreidingsmethode agio/disagio in de waarderingsregels, de vervalkalender van de schuld, en de keuze voor spreiding van uitgiftekosten over de hele looptijd.",
+                    "grondslag": {
+                      "confidence": "verondersteld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "belegger-vennootschap",
+        "naam": {
+          "primair": "Belegger-vennootschap"
+        },
+        "intro": "Accountant werkt voor een vennootschap die obligaties aankoopt als financiële belegging.",
+        "rollen": [
+          {
+            "rol": "adviseur",
+            "elementen": [
+              {
+                "id": "adviseur-belegging-afweging",
+                "naam": {
+                  "primair": "Beleggingsafweging"
+                },
+                "inhoud_type": "vuistregel",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Obligatie als financiële belegging versus aandelen versus liquide reserves — rendement, looptijd-matching, balans-impact. Let op dat DBI niet van toepassing is op rente-inkomsten uit obligaties.",
+                    "grondslag": {
+                      "confidence": "verondersteld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "rol": "boekhouder",
+            "elementen": [
+              {
+                "id": "boeking-aankoop-belegger",
+                "naam": {
+                  "primair": "Boeking bij aankoop (belegger)"
+                },
+                "inhoud_type": "stap",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Boeking op rekening 51 Vastrentende effecten (MAR-benaming omvat ook obligaties met variabele coupon). Bij aankoop met disagio: debet 51 voor nominaal bedrag, credit 550 voor aankoopprijs, credit 4902 voor het verschil (over te dragen agio op belegging). De agio wordt over de looptijd als financiële opbrengst geboekt.",
+                    "grondslag": {
+                      "confidence": "betwijfeld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "rol": "fiscaal",
+            "elementen": [
+              {
+                "id": "fiscaal-belegger-venn",
+                "naam": {
+                  "primair": "Fiscale behandeling belegger-vennootschap"
+                },
+                "inhoud_type": "regel",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Coupons en spreiding zijn belastbaar als financiële opbrengst in de vennootschapsbelasting. DBI (Definitief Belaste Inkomsten) geldt niet voor rente — alleen voor dividenden. Rente is gewone belastbare financiële opbrengst, ongeacht de schuldenaar.",
+                    "grondslag": {
+                      "confidence": "verondersteld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "belegger-natuurlijke-persoon",
+        "naam": {
+          "primair": "Belegger — natuurlijke persoon"
+        },
+        "intro": "Accountant adviseert een privé-belegger die obligaties aanhoudt.",
+        "rollen": [
+          {
+            "rol": "fiscaal",
+            "elementen": [
+              {
+                "id": "fiscaal-rv-coupon",
+                "naam": {
+                  "primair": "Roerende voorheffing op coupon"
+                },
+                "inhoud_type": "regel",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Coupon is roerend inkomen. Roerende voorheffing wordt ingehouden door de uitbetalende instelling en is bevrijdend (geen aangifte vereist als RV correct ingehouden). Bij ontbrekende inhouding (bv. buitenlandse obligaties) aangifte in Vak VII codes 1444/2444.",
+                    "grondslag": {
+                      "confidence": "betwijfeld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "extern-perspectief",
+        "naam": {
+          "primair": "Extern perspectief (auditor / commissaris)"
+        },
+        "intro": "Auditor werkt voor externe gebruikers van de jaarrekening.",
+        "rollen": [
+          {
+            "rol": "auditor",
+            "elementen": [
+              {
+                "id": "audit-controle-aandachtspunten",
+                "naam": {
+                  "primair": "Controle-aandachtspunten obligatielening"
+                },
+                "inhoud_type": "stap",
+                "kern": {
+                  "substantie": {
+                    "tekst": "Controleer: (1) Spreidingsmethode agio/disagio consistent toegepast over de jaren (wisselen breekt consistency-beginsel). (2) Prorata-intrest correct berekend op balansdatum. (3) Toelichting jaarrekening volledig: spreidingskeuze, waarderingsregels, vervalkalender. (4) EBITDA-regel correct toegepast indien van toepassing. (5) Bij call-clausule activering: premie correct als kapitaalverlies behandeld, niet als rentekost.",
+                    "grondslag": {
+                      "confidence": "verondersteld",
+                      "bronnen": [
+                        {
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Couponrente verwarren met werkelijk rendement",
+        "verkeerde_assumptie": "De coupon op het obligatiebewijs is gelijk aan de werkelijke financieringskost voor de vennootschap of het werkelijke rendement voor de belegger.",
+        "kernpunt": "Bij uitgifte buiten pari (agio of disagio) wijkt de werkelijke kost af van de coupon. Vergelijk obligatieleningen onderling — en met banklening — op werkelijke kost (yield-to-maturity), niet op coupon. Incorporeer ook uitgiftekosten-spreiding.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "DBI toepassen op rente uit obligaties",
+        "verkeerde_assumptie": "Rente uit obligaties geniet DBI-aftrek bij de ontvangende vennootschap omdat het een 'beleggings-opbrengst' is.",
+        "kernpunt": "DBI (Definitief Belaste Inkomsten) geldt uitsluitend voor dividenden, niet voor rente. Rente uit obligaties is een gewone belastbare financiële opbrengst — ongeacht de schuldenaar.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Rubriek 51 'Vastrentende effecten' = altijd vaste coupon",
+        "verkeerde_assumptie": "Wanneer een obligatie een variabele coupon heeft (bv. Euribor + spread) hoort die niet op rekening 51 'Vastrentende effecten'.",
+        "kernpunt": "De MAR-benaming 'vastrentend' verwijst naar het instrumenttype (schuldbewijs met afgesproken couponstructuur), niet naar de vraag of de coupon zelf vast of variabel is. Variabele-coupon-obligaties horen evengoed op rubriek 51.",
+        "grondslag": {
+          "confidence": "betwijfeld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Prorata-intrest vergeten op balansdatum",
+        "verkeerde_assumptie": "Als de coupon nog niet vervallen is op 31/12, hoef je niets te boeken — de last komt vanzelf bij de volgende couponbetaling.",
+        "kernpunt": "Het matching-beginsel vereist dat de gelopen-maar-nog-niet-vervallen rente prorata op balansdatum geboekt wordt (debet 650 Rentekosten, credit 492 Toe te rekenen kosten). Anders verschuift een hap rentelast naar het verkeerde boekjaar.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Spreidingsmethode agio/disagio",
+        "opties": [
+          {
+            "keuze": "Lineaire spreiding",
+            "voordeel": "Eenvoudig te berekenen en te volgen; algemeen aanvaard in BGAAP.",
+            "nadeel": "Actuarieel niet zuiver — overschat de rentelast in vroege jaren en onderschat ze in late jaren bij grote agio/disagio."
+          },
+          {
+            "keuze": "Effective interest method",
+            "voordeel": "Actuarieel zuiver; sluit aan bij IFRS-rapportering.",
+            "nadeel": "Complexer; vereist herrekening bij elke coupon."
+          }
+        ],
+        "vuistregel": "Eenmaal gekozen, consistent toepassen over de hele looptijd — wisselen breekt het consistency-beginsel en wordt door de auditor opgepakt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Coupon-type bij uitgifte",
+        "opties": [
+          {
+            "keuze": "Vaste coupon",
+            "voordeel": "Voorspelbare last voor de vennootschap, voorspelbaar rendement voor belegger.",
+            "nadeel": "Geen voordeel als marktrente daalt."
+          },
+          {
+            "keuze": "Variabele coupon (Euribor + spread)",
+            "voordeel": "Beweegt mee met marktrente — natuurlijke hedge bij dalende rente.",
+            "nadeel": "Renterisico verschuift van belegger naar vennootschap; minder voorspelbare cashflow."
+          },
+          {
+            "keuze": "Stapcoupon (oplopend)",
+            "voordeel": "Verlaagt couponlast in de eerste jaren — handig bij investerings-curve.",
+            "nadeel": "Cumulatieve last in late jaren zwaarder; belegger eist mogelijk premie."
+          },
+          {
+            "keuze": "Nulcoupon",
+            "voordeel": "Geen tussentijdse cashuitgave; eindcash matcht investerings-return.",
+            "nadeel": "Volle last op vervaldag; in België zeldzaam."
+          }
+        ],
+        "vuistregel": "Kies vast wanneer cashflow-stabiliteit voorop staat; variabel wanneer onderneming een natuurlijke hedge heeft of rentedaling verwacht.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Aflossingsstructuur",
+        "opties": [
+          {
+            "keuze": "Bullet-aflossing (volle bedrag op vervaldag)",
+            "voordeel": "Eenvoudig; geen tussentijdse aflossingen.",
+            "nadeel": "Cashflow-piek op vervaldag — herfinancieringsrisico."
+          },
+          {
+            "keuze": "Sinking fund (periodieke uitloting)",
+            "voordeel": "Spreidt cashflow-pieken; vermindert herfinancieringsrisico.",
+            "nadeel": "Minder aantrekkelijk voor beleggers (kortere gemiddelde looptijd → vaak hogere coupon vereist)."
+          },
+          {
+            "keuze": "Call-clausule (uitgever-recht op vervroegde aflossing)",
+            "voordeel": "Flexibiliteit bij dalende marktrente om goedkoper te herfinancieren.",
+            "nadeel": "Premie boven pari vereist; belegger eist hogere coupon als compensatie."
+          },
+          {
+            "keuze": "Put-clausule (belegger-recht op vervroegde verkoop)",
+            "voordeel": "Maakt obligatie aantrekkelijker voor beleggers — lagere coupon mogelijk.",
+            "nadeel": "Liquiditeitsrisico voor vennootschap bij vervroegde uitoefening."
+          }
+        ],
+        "vuistregel": "Bullet voor eenvoudige financiering met duidelijke aflossings-pijler (bv. verkoop project bij einde looptijd); sinking fund wanneer cashflow gelijkmatig is en herfinancieringsrisico vermeden moet worden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "keuzekader",
+        "intro": "Vergelijking obligatielening met de twee voornaamste alternatieven voor lange-termijn-financiering: banklening (schuld bij één tegenpartij) en kapitaalverhoging (eigen vermogen).",
+        "inhoud": {
+          "assen": [
+            "financieringsvorm",
+            "tegenpartij",
+            "looptijd-flexibiliteit",
+            "kost-aftrekbaarheid",
+            "minimum-omvang-rendabel"
+          ],
+          "vergelijkingstabel": [
+            {
+              "instrument": "Obligatielening",
+              "financieringsvorm": "Schuld (verhandelbaar schuldbewijs)",
+              "tegenpartij": "Versplinterd (vele kleine beleggers)",
+              "looptijd-flexibiliteit": "Vast — voorwaarden uit prospectus, niet renegotieerbaar per houder",
+              "kost-aftrekbaarheid": "Aftrekbaar (coupon + disagio-spreiding); EBITDA-regel kan beperken",
+              "minimum-omvang-rendabel": "≈ € 5.000.000 (overhead notaris/prospectus/bank)"
+            },
+            {
+              "instrument": "Banklening",
+              "financieringsvorm": "Schuld (kredietovereenkomst)",
+              "tegenpartij": "Eén bank — renegotiatie mogelijk",
+              "looptijd-flexibiliteit": "Flexibel — uitstel, herstructurering mogelijk in onderhandeling",
+              "kost-aftrekbaarheid": "Aftrekbaar; EBITDA-regel kan beperken",
+              "minimum-omvang-rendabel": "Geen drempel — ook KMO-niveau"
+            },
+            {
+              "instrument": "Kapitaalverhoging",
+              "financieringsvorm": "Eigen vermogen (aandelen of inbreng)",
+              "tegenpartij": "Aandeelhouders (bestaand of nieuw)",
+              "looptijd-flexibiliteit": "Permanent — geen terugbetalingsverplichting",
+              "kost-aftrekbaarheid": "Dividend NIET aftrekbaar; verwatering bestaande aandeelhouders",
+              "minimum-omvang-rendabel": "Variabel — afhankelijk van notariskosten en publicatie-overhead"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "lange-termijn-financiering",
+      "toelichting": "Obligatielening is een specifieke vorm van lange-termijn-financiering naast banklening en kapitaalverhoging.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "schulden-op-meer-dan-een-jaar",
+      "toelichting": "Obligatielening verschijnt op de balans onder rubriek 17 (schulden op meer dan één jaar) bij de uitgevende vennootschap.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "banklening",
+      "gelijkenissen": [
+        "Beide zijn schuld-financiering (geen eigen vermogen).",
+        "Beide leveren aftrekbare rentelast bij de uitgevende vennootschap.",
+        "Beide hebben een vaste vervaldag waarop de hoofdsom wordt terugbetaald.",
+        "Beide vereisen periodieke intrest-betalingen (coupon resp. rente)."
+      ],
+      "verschillen": [
+        "Tegenpartij: obligatielening = versplinterd (vele beleggers); banklening = één bank.",
+        "Renegotieerbaarheid: banklening = renegotieerbaar in onderhandeling; obligatielening = vergadering van obligatiehouders vereist, niet onderhandelbaar per houder.",
+        "Verhandelbaarheid: obligatie = verhandelbaar schuldbewijs; banklening = niet verhandelbaar.",
+        "Minimum-omvang: obligatielening pas rendabel ≈ € 5.000.000; banklening zonder ondergrens.",
+        "Looptijd: obligatieleningen halen makkelijk 10-15 jaar; banken bieden zelden meer dan 7-10 jaar zonder zware zekerheidseisen."
+      ],
+      "verwarring_risico": "Studenten beschouwen beide vaak als 'gewoon schuld' en zien de versplintering en niet-renegotieerbaarheid niet als bepalende verschillen voor advies en risico-analyse.",
+      "render_hint": "als_keuze",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalverhoging",
+      "gelijkenissen": [
+        "Beide zijn instrumenten om langetermijnfinanciering aan te trekken.",
+        "Beide kunnen extern kapitaal mobiliseren (nieuwe aandeelhouders resp. beleggers).",
+        "Beide vereisen besluit van het bestuursorgaan en formele publicatie."
+      ],
+      "verschillen": [
+        "Aard: obligatielening = schuld (verplichte terugbetaling); kapitaalverhoging = eigen vermogen (permanent).",
+        "Cashflow-verplichting: obligatie = vaste coupon + aflossing; kapitaal = dividend alleen uit beschikbare winst, optioneel.",
+        "Fiscaal: coupon = aftrekbare beroepskost; dividend = niet aftrekbaar (uit winst na belasting).",
+        "Zeggenschap: obligatiehouder = schuldeiser, geen stemrecht; aandeelhouder = mede-eigenaar met stemrecht.",
+        "Balansimpact: obligatielening verhoogt schuld-EV-ratio; kapitaalverhoging verlaagt ze."
+      ],
+      "verwarring_risico": "Bij keuze van financieringsinstrument wordt soms enkel naar de cash-impact gekeken zonder rekening te houden met de aftrekbaarheid en de zeggenschap-implicaties.",
+      "render_hint": "als_keuze",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "converteerbare-obligatie",
+      "gelijkenissen": [
+        "Beide zijn schuldbewijzen met coupon en vervaldag.",
+        "Beide worden op rekening 17 geboekt bij de uitgever.",
+        "Beide vereisen een prospectus bij publieke uitgifte."
+      ],
+      "verschillen": [
+        "Converteerbare obligatie heeft een conversierecht naar aandelen — zuivere obligatie niet.",
+        "Conversie verlaagt schuld en verhoogt eigen vermogen; gewone obligatie blijft schuld tot vervaldag.",
+        "Coupon op converteerbare obligaties ligt typisch lager (premie voor het conversierecht).",
+        "Boekhoudkundige splitsing (schuld-component vs eigen-vermogen-component) is nodig bij converteerbare; niet bij gewone obligatie."
+      ],
+      "verwarring_risico": "De impact van de conversie-optie op de boekhoudkundige verwerking (split-accounting) wordt soms genegeerd — auditor pakt dit op.",
+      "render_hint": "als_glossarium",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "oprichtingskosten",
+      "toelichting": "Uitgiftekosten van een obligatielening mogen worden gespreid over de hele looptijd, ook wanneer die langer is dan de algemene 5-jaarsregel voor oprichtingskosten.",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "kb",
+            "naam": "KB-WVV art. 3:37",
+            "ref": "kb-wvv-art-3-37"
+          },
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ],
+        "checked_at": "2026-05-23T10:45:00Z",
+        "claim_hash": "ce001234"
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "vergadering-obligatiehouders",
+      "toelichting": "Wijziging van obligatie-voorwaarden vereist een vergadering van obligatiehouders — niet onderhandelbaar per individuele houder.",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WVV art. 7:62",
+            "ref": "wvv-art-7-62"
+          },
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ],
+        "checked_at": "2026-05-23T10:45:00Z",
+        "claim_hash": "fbb01234"
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "ebitda-regel-198-1",
+      "toelichting": "Aftrekbaarheid van de rentelast op obligatieleningen kan beperkt worden door de EBITDA-regel bij hoge schuldgraad.",
+      "grondslag": {
+        "confidence": "afgeleid",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WIB92 art. 198/1 — EBITDA-regel",
+            "ref": "wib92-art-198-1"
+          },
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ],
+        "checked_at": "2026-05-23T10:45:00Z",
+        "claim_hash": "abc01234"
+      }
+    }
+  ]
+}

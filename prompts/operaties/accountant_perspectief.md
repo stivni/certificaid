@@ -59,16 +59,17 @@ Gebruik uitsluitend: `adviseur` · `boekhouder` · `begeleider` · `fiscaal` · 
 
 1. Lees `data/concepten/records/<fiche-id>.json` (na `beschrijven`).
 2. Lees `data/concepten/schema-2.1.schema.json` `$defs/perspectief` en `$defs/element` voor structuur.
-3. Identificeer klant-perspectieven uit `inhoud.elementen` + `concept_type`:
+3. Lees `data/concepten/casts/globaal.yaml` — gebruik cast-namen + scenario-archetype als rol-elementen voorbeeld-context bevatten (bv. `auditor` met casus "Wolters & Partners CVBA bij Rotex Roeselare NV"). Bedragen `€ + duizendtal-punt`.
+4. Identificeer klant-perspectieven uit `inhoud.elementen` + `concept_type`:
    - instrument/regime → uitgever vs ontvanger vs belegger
    - verrichting → initiator vs ontvanger vs toezichthouder
    - procedure → actor-per-fase
    - ratio/balanspost → opsteller vs gebruiker/analist
-4. Per perspectief: selecteer welke rollen echt iets te zeggen hebben — **geen lege rollen**.
-5. Per rol: 1-3 elementen (kerntaak, niet alles). Element-shape = identiek aan top-level element (schema `$defs/element`).
-6. Self-check (zie CRITICAL hieronder).
-7. Schrijf record naar `data/concepten/records/<fiche-id>.json`.
-8. Voeg changelog-entry toe: `{"operatie": "accountant_perspectief", "timestamp": "<ISO>", "model": "<jouw-model>"}`.
+5. Per perspectief: selecteer welke rollen echt iets te zeggen hebben — **geen lege rollen**.
+6. Per rol: 1-3 elementen (kerntaak, niet alles). Element-shape = identiek aan top-level element (schema `$defs/element`).
+7. Self-check (zie CRITICAL hieronder).
+8. Schrijf record naar `data/concepten/records/<fiche-id>.json`.
+9. Voeg changelog-entry toe: `{"operatie": "accountant_perspectief", "timestamp": "<ISO>", "model": "<jouw-model>"}`.
 
 ---
 

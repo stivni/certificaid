@@ -43,7 +43,8 @@ Referentie-record dat de uitvoer van deze operatie illustreert:
 ## Werkwijze
 
 1. Lees `data/concepten/records/<fiche-id>.json`.
-2. Lees `data/concepten/schema-2.1.schema.json` `$defs/voorbeeld`, `$defs/valkuil`, `$defs/speelruimte`, `$defs/synthese` voor structuur.
+2. Lees `data/concepten/casts/globaal.yaml` — gebruik stabiele Vlaamse cast-namen in voorbeelden (NIET "NV ABC" / "M/D1"). Zoek scenario-archetype dat past bij concept_type. Bedragen volgens `formatting`-conventie (`€` + duizendtal-punt: `€ 1.000.000`).
+3. Lees `data/concepten/schema-2.1.schema.json` `$defs/voorbeeld`, `$defs/valkuil`, `$defs/speelruimte`, `$defs/synthese` voor structuur.
 3. **Voorbeelden**: bepaal of zinvolle walkthrough-cases bestaan. Schrijf 1-2 die de hele cyclus tonen.
 4. **Valkuilen** (2-5): wat denken studenten typisch verkeerd? Welke fout maken practitioners?
 5. **Speelruimtes** (1-4): wat zijn de echte beleidskeuzes binnen de wet? Sla over als er geen zijn.

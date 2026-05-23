@@ -57,6 +57,7 @@ Litmus: "gebeurt dit ongeacht of er een accountant bij betrokken is?"
 1. Lees `data/concepten/records/<fiche-id>.json` (skelet).
 2. Lees `data/concepten/schema-2.1.schema.json` — `$comment`/`description` per `$def` is bron-van-waarheid voor veldnamen, enums en shapes.
 3. Lees `data/concepten/records-index.compact.txt` (scope-anker: vermijd duplicatie, suggereer relaties).
+4. Lees `data/concepten/casts/globaal.yaml` — gebruik stabiele Vlaamse cast-namen in voorbeelden (`Uitgeverij Ukkel NV`, niet "NV ABC"); zoek scenario-archetype dat past bij dit concept_type. Bedragen `€ + duizendtal-punt` (`€ 1.000.000`).
 4. Schrijf `inhoud.kern` (≥ 1 van `definitie`/`substantie`/`rationale`).
 5. Bouw `inhoud.elementen[]` (5-8 stuks, elk met `kern` gevuld, geen lege schalen).
 6. Vul `inhoud.gebruikscontext` (alle sub-velden zijn arrays).
