@@ -49,7 +49,7 @@ gerelateerde_concepten:
 - toepassen-faillissement-predictiemodellen
 - verticale-analyse-jaarrekening
 - werkkapitaal
-gegenereerd_op: '2026-05-21'
+gegenereerd_op: '2026-05-18'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -78,21 +78,21 @@ gegenereerd_op: '2026-05-21'
 
 ## Leesgids
 
-<!-- TODO: Opus-glue leesgids -->
+Deze minicursus bouwt op van perspectief naar techniek naar oordeel: je begint bij de gebruiker en de scoping, herwerkt vervolgens balans en resultatenrekening tot analytische schema's, voegt cashflow en mutaties toe, en zet dan de ratio-set in voor liquiditeit, solvabiliteit en rentabiliteit. De laatste blokken kantelen naar diagnose — falen-signalen, kwantitatieve voorspellingsmodellen, en de IT-tools die in de praktijk de berekeningen leveren. De competenties zijn de actie-momenten waar je technieken samen inzet; de synthese aan het einde rijgt alles aan elkaar tot één werkschema.
 
 ## Waarom dit programmaonderdeel telt
 
-<!-- TODO: Opus-glue waarom_po -->
+Een gecertificeerd accountant moet een onderneming kunnen lezen voorbij haar cijfers: detecteren waar continuïteit onder druk staat, of de financieringsstructuur houdbaar blijft, en welke aanbevelingen het management nodig heeft. Financiële analyse is daarom geen rekenkundige oefening maar het scharnier tussen [[jaarrekening-als-studieobject|jaarrekening]] en strategie — wat de [[doelstellingen-financiele-analyse|gebruiker]] wil weten bepaalt welke ratio's je kiest. Op examen-niveau betekent dat: je herkent welke vraag voorligt, welk ratio-cluster antwoord geeft, en hoe je het cijfer kantelt tegen sector, trend en context. De [[risicoparagraaf-bestuursverslag|risicoparagraaf]] en de [[cijferanalyses-controle-norm|cijferanalyse-controlenorm]] tonen dat de wetgever én de beroepsnormen deze diagnostische taak verankerd hebben. Tot slot moet je deze concepten samen kunnen inzetten in een complexe casus — wat de essentie van [[stellen-bekwaamheid-financiele-diagnose|integratie-niveau]] is.
 
 ## Van toelating naar bekwaamheid: wat verdiept PO 1.9 boven PO 1.3?
 
-<!-- TODO: Opus-glue oriëntatie -->
+Op toelating leerde je de [[analytische-balans|analytische balans]] mechanisch herwerken en losse ratio's berekenen — input en output. Op bekwaamheidsniveau kantelt de focus naar [[interpretatie-financiele-ratios|interpretatie]]: trend, sector, contextuele weging, en de keuze welke ratio's überhaupt relevant zijn voor de [[doelstellingen-financiele-analyse|analyse-vraag]]. Je leert deze concepten samen inzetten om tot een coherent oordeel te komen, inclusief de [[kwantitatieve-financiele-diagnose|kwantitatieve modellen]] die ratio-analyse aanvullen en de aanbevelingen die uit de [[stellen-bekwaamheid-financiele-diagnose|diagnose]] volgen.
 
 ## Wie leest de jaarrekening en met welk doel? — gebruikersperspectief en scoping
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+Elke analyse begint met de vraag wiens informatiebehoefte je bedient — een [[gebruikers-jaarrekening|kredietverstrekker]] leest met andere ogen dan een aandeelhouder of de ondernemingsrechtbank. Die scoping bepaalt welke ratio's relevant zijn en hoe je de [[intake-financiele-analyse|intake]] structureert. Het [[bestuursverslag|bestuursverslag]] vult de cijfers aan met de kwalitatieve context die de [[getrouw-beeld-jaarrekening|getrouw-beeld]]-norm soms vereist.
 
 - [[doelstellingen-financiele-analyse|Doelstellingen van financiële analyse]] · `begrip`
 - [[gebruikers-jaarrekening|Gebruikers van de jaarrekening]] · `begrip`
@@ -105,7 +105,7 @@ gegenereerd_op: '2026-05-21'
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+De [[analytische-balans|analytische balans]] is de meetlat: je hergroepeert de wettelijke posten in vlottend en vast, lang en kort, en bedrijfsgebonden versus extern, zodat ratio's ondubbelzinnig leesbaar worden. Op bekwaamheidsniveau is dit geen rekenoefening meer — je weet welke herklasseringen het meeste impact hebben op solvabiliteits- en liquiditeitsmaten, en motiveert je keuzes.
 
 - [[analytische-balans|Analytische balans (herstructureringsschema)]] · `cluster`
 
@@ -113,7 +113,7 @@ gegenereerd_op: '2026-05-21'
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+De [[herstructurering-resultatenrekening|herstructurering van de resultatenrekening]] zet de wettelijke vier-blokken-indeling om in een functionele groepering die de marges per niveau zichtbaar maakt. Het isoleren van de [[toegevoegde-waarde-financiele-analyse|toegevoegde waarde]] toont wat de onderneming bovenop haar externe aankopen heeft gecreëerd — de basis voor productiviteits- en marge-analyse.
 
 - [[herstructurering-resultatenrekening|Herstructurering van de resultatenrekening]] · `cluster`
 - [[toegevoegde-waarde-financiele-analyse|Toegevoegde waarde (economische maatstaf in financiële analyse)]] · `cluster`
@@ -122,7 +122,7 @@ gegenereerd_op: '2026-05-21'
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue competentie-intro -->
+Stap voor stap doorloop je de identificatie van het schema (volledig, verkort, micro), de herklassering naar analytische groepen, en het isoleren van de toegevoegde waarde.
 
 [[competenties/herstructureren-resultatenrekening-en-toegevoegde-waarde|→ Volledige procedure]]
 
@@ -130,7 +130,7 @@ gegenereerd_op: '2026-05-21'
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+Naast de statische balans heb je een dynamische lezing nodig: de [[cashflow-analyse|cashflow]] benadert wat de exploitatie genereert vóór investeringen, en de [[tabel-waardemutaties|mutatietabel]] traceert welke vaste activa erbij kwamen of werden afgestoten. De vermogensbronnen splitsen in [[financiering-met-eigen-vermogen|eigen vermogen]] en [[financiering-met-derdenkapitaal|derdenkapitaal]] vertelt welk type kapitaal de groei droeg en is daarmee de bouwsteen voor solvabiliteits- en kasstroomanalyse.
 
 - [[cashflow-analyse|Cashflow (bedrijfscashflow)]] · `begrip`
 - [[tabel-waardemutaties|Tabel van waardemutaties (mutatietabel vaste activa)]] · `cluster`
@@ -142,7 +142,7 @@ gegenereerd_op: '2026-05-21'
 Het kasstroomoverzicht ontleedt de kasevolutie in drie segmenten: operationele kasstroom (CFO — uit exploitatie), investeringskasstroom (CFI — vaste activa) en financieringskasstroom (CFF — eigen vermogen en schulden). Sluit aan op de balans-evolutie van liquide middelen en is dé synthese die rentabiliteit (resultatenrekening) en vermogen (balans) verbindt met effectieve cash. Niet-verplicht voor verkort/microschema — moet gereconstrueerd worden uit balans, resultatenrekening en toelichtingsstaten.
 
 
-<!-- TODO: Opus-glue synthese-intro -->
+Hier komen de losse onderdelen samen: de [[cashflow-analyse|cashflow]] uit de exploitatie wordt gecorrigeerd voor de [[behoefte-aan-bedrijfskapitaal|BBK-evolutie]], gekoppeld aan investeringen en gefinancierd via eigen of vreemd vermogen. Het overzicht leert je waar liquiditeitsdruk vandaan komt, ook als de winst er gezond uitziet.
 
 | Segment | Wat zit erin? | Indirecte methode (vertrekpunt) | Wat zegt het over de onderneming? |
 |---|---|---|---|
@@ -168,7 +168,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je werkt een casus uit waarbij je vertrekt vanuit de operationele kasstroom (CFO), via investeringen (CFI) naar financiering (CFF), met de [[tabel-waardemutaties|mutatietabel]] als bron voor de niet-kas-componenten.
 
 [[competenties/opstellen-driesegmenten-kasstroomoverzicht|→ Volledige procedure]]
 
@@ -176,7 +176,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+Let op het verschil tussen [[werkkapitaal|werkkapitaal]] — de absolute buffer uit de balansstructuur — en de [[behoefte-aan-bedrijfskapitaal|behoefte aan bedrijfskapitaal]] die de exploitatiecyclus oplegt. Wanneer de behoefte groter is dan de buffer, ontstaat een nettokas-tekort dat met korte-termijn-financiering of structurele herfinanciering moet worden opgevangen.
 
 - [[werkkapitaal|Werkkapitaal (working capital)]] · `begrip`
 - [[behoefte-aan-bedrijfskapitaal|Behoefte aan bedrijfskapitaal (BBK)]] · `begrip`
@@ -185,7 +185,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue competentie-intro -->
+Stap voor stap identificeer je de exploitatiecyclus-rubrieken, bereken je de [[behoefte-aan-bedrijfskapitaal|BBK]], vergelijk je met het [[werkkapitaal|werkkapitaal]] en kom je tot de nettokas-positie die de financieringsbehoefte op korte termijn vastlegt.
 
 [[competenties/bepalen-behoefte-aan-bedrijfskapitaal|→ Volledige procedure]]
 
@@ -193,7 +193,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+De [[ratio-vier-doelen-vergelijking|vier analyse-doelen]] — liquiditeit, solvabiliteit, rentabiliteit en activiteit — bepalen welk ratio-cluster je inzet. Voor liquiditeit kies je tussen [[current-ratio|current]] en [[quick-ratio|quick ratio]] via de [[liquiditeitstoets-beslisboom|beslisboom]]; voor solvabiliteit zet je [[solvabiliteitsratio|solvabiliteit]] naast [[debt-equity-ratio|debt-equity]]; voor rentabiliteit splits je [[rentabiliteit-totaal-activa-roa|ROA]] (economisch) van [[rentabiliteit-eigen-vermogen-roe|ROE]] (aandeelhouders).
 
 - [[ratio-vier-doelen-vergelijking|De vier analyse-doelen en hun ratio's — overzicht]] · `synthese`
 - [[liquiditeitsratio|Liquiditeitsratio (begrip)]] · `begrip`
@@ -209,7 +209,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+Een ratio op één boekjaar zegt weinig — de [[interpretatie-financiele-ratios|interpretatie]] vraagt dat je het cijfer kantelt tegen de [[horizontale-analyse-jaarrekening|evolutie]] over meerdere jaren, de [[verticale-analyse-jaarrekening|interne samenstelling]] en de [[sectorvergelijking-financiele-analyse|sectorbenchmark]]. Wanneer twijfel ontstaat over de richting van het oordeel, triangulair lezen: trend, sector en contextuele weging samen.
 
 - [[interpretatie-financiele-ratios|Interpretatie en evaluatie van financiële ratio's (bekwaamheid)]] · `cluster`
 - [[horizontale-analyse-jaarrekening|Horizontale analyse (evolutie-analyse)]] · `cluster`
@@ -221,7 +221,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+[[falen-van-de-onderneming|Falen]] kondigt zich vrijwel altijd geleidelijk aan in de cijfers — verslechterende rentabiliteit, krimpende liquiditeit, oplopende schuldgraad. De [[risicoparagraaf-bestuursverslag|risicoparagraaf]] in het bestuursverslag, contractuele [[ratio-covenants|ratiocovenants]] en de [[cijferanalyses-controle-norm|cijferanalyse-controlenorm]] zijn de signaalkanalen die het juridisch en professioneel kader installeert om die verslechtering tijdig op te pikken.
 
 - [[falen-van-de-onderneming|Falen van de onderneming (financiële diagnose)]] · `cluster`
 - [[risicoparagraaf-bestuursverslag|Risicoparagraaf in het bestuursverslag]] · `regel`
@@ -232,7 +232,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+Naast klassieke ratio-analyse beschik je over kwantitatieve toetsen die meerdere ratio's tot één indicator combineren: de [[altman-z-score|Altman Z-score]] positioneert je in een zone, de [[ohlson-o-score|Ohlson O-score]] levert een kansprobabiliteit. Beide zijn vakdoctrine — geen wettelijke verplichting — maar geven een tweede, onafhankelijke weging van je signaal.
 
 - [[altman-z-score|Altman Z-score (faillissement-predictiemodel)]] · `cluster`
 - [[ohlson-o-score|Ohlson O-score (faillissement-predictiemodel via logit)]] · `cluster`
@@ -241,7 +241,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue competentie-intro -->
+Stap voor stap verzamel je de input-ratio's, bereken je de [[altman-z-score|Z-score]] en de [[ohlson-o-score|O-score]], en weeg je de uitkomsten samen met je kwalitatieve [[interpretatie-financiele-ratios|interpretatie]].
 
 [[competenties/toepassen-faillissement-predictiemodellen|→ Volledige procedure]]
 
@@ -250,7 +250,7 @@ _Bouwt op_: [[cashflow-analyse]] · [[behoefte-aan-bedrijfskapitaal]] · [[finan
 Overzicht-fiche: welke kwantitatieve modellen kan de stagiair inzetten naast klassieke ratio-analyse om falen te voorspellen? Altman Z (discriminantmodel, score-zones, 2-jaarshorizon), Ohlson O (logistische regressie, kansprobabiliteit), aangevuld met sector- en evolutiebenchmarks. Geen vervanging voor inhoudelijk oordeel — wel een tweede toets om signaalsterkte te wegen.
 
 
-<!-- TODO: Opus-glue synthese-intro -->
+Je vraag bepaalt het model: wil je weten in welke zone de onderneming zich bevindt, of wil je een kans op falen uitdrukken? De keuze blijft een hulpmiddel binnen je bredere [[stellen-bekwaamheid-financiele-diagnose|diagnose]] — geen op zichzelf staand verdict.
 
 | Model | Techniek | Aantal variabelen | Output | Interpretatie hoog | Interpretatie laag |
 |---|---|---|---|---|---|
@@ -278,7 +278,7 @@ _Bouwt op_: [[altman-z-score]] · [[ohlson-o-score]] · [[falen-van-de-ondernemi
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue thematisch-intro -->
+[[financiele-analyse-software|Financiële-analyse-software]] importeert jaarrekening-data, berekent automatisch de ratio-set en levert sector-benchmarks — een efficiëntiehefboom, geen oordeelsvervanger. Op bekwaamheidsniveau moet je weten welke tool welk soort vraag bedient en hoe je de output kritisch valideert tegen je eigen herwerking.
 
 - [[financiele-analyse-software|Financiële-analyse-software (IT-tools)]] · `begrip`
 
@@ -286,7 +286,7 @@ _Bouwt op_: [[altman-z-score]] · [[ohlson-o-score]] · [[falen-van-de-ondernemi
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je leert een gepaste tool kiezen voor de analyse-vraag, de output kritisch lezen en de [[sectorvergelijking-financiele-analyse|sector-benchmark]] op zijn waarde inschatten.
 
 [[competenties/gebruiken-financiele-analyse-software|→ Volledige procedure]]
 
@@ -294,18 +294,18 @@ _Bouwt op_: [[altman-z-score]] · [[ohlson-o-score]] · [[falen-van-de-ondernemi
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-<!-- TODO: Opus-glue competentie-intro -->
+In een complexe casus moet je elke ratio plaatsen in zijn doel-categorie, signalen van [[falen-van-de-onderneming|falen]] wegen, [[kwantitatieve-financiele-diagnose|kwantitatieve modellen]] inzetten als triangulatie, en eindigen met aanbevelingen die het management kan uitvoeren.
 
 [[competenties/stellen-bekwaamheid-financiele-diagnose|→ Volledige procedure]]
 
 ## Grenzen van kwantitatieve modellen: wat een diagnose NIET kan zeggen
 
-<!-- TODO: Opus-glue oriëntatie -->
+Ratio's en scoringmodellen meten wat in de cijfers staat — niet wat erbuiten valt. Een [[altman-z-score|Z-score]] in de safe zone garandeert geen continuïteit als de markt instort of een sleutelklant wegvalt, en een hoge [[ohlson-o-score|O-score]] kan misleiden bij sector-atypische ondernemingen. Op bekwaamheidsniveau bouw je je oordeel op uit cijferanalyse én kwalitatieve elementen uit het [[bestuursverslag|bestuursverslag]] en de [[risicoparagraaf-bestuursverslag|risicoparagraaf]] — modellen zijn een hulpmiddel, geen verdict.
 
 
 ## Synthese-stappenplan
 
-<!-- TODO: Opus-glue synthese -->
+Begin altijd bij de [[intake-financiele-analyse|intake]]: wie is de [[gebruikers-jaarrekening|gebruiker]], welke vraag ligt voor, welke boekjaren bekijk je? Herwerk vervolgens balans en resultatenrekening tot een [[analytische-balans|analytisch schema]] en isoleer de [[toegevoegde-waarde-financiele-analyse|toegevoegde waarde]] uit de [[herstructurering-resultatenrekening|herstructurering]]. Bouw dan de dynamische lezing op: bereken de [[cashflow-analyse|cashflow]], stel het [[kasstroomoverzicht-drie-segmenten|drie-segmenten-kasstroomoverzicht]] op en confronteer [[werkkapitaal|werkkapitaal]] met [[behoefte-aan-bedrijfskapitaal|BBK]]. Pas vervolgens de [[ratio-vier-doelen-vergelijking|vier-doelen-ratio-set]] toe — liquiditeit, solvabiliteit, rentabiliteit, activiteit — en kantel elk cijfer tegen [[horizontale-analyse-jaarrekening|trend]] en [[sectorvergelijking-financiele-analyse|sector]]. Toets falensignalen tegen de [[risicoparagraaf-bestuursverslag|risicoparagraaf]], eventuele [[ratio-covenants|ratiocovenants]] en de [[kwantitatieve-financiele-diagnose|kwantitatieve modellen]] (Altman Z, Ohlson O) als triangulatie. Eindig met een [[stellen-bekwaamheid-financiele-diagnose|coherente diagnose]] en concrete aanbevelingen aan het management — niet alleen wat de cijfers zeggen, ook wat ze in de strategische context betekenen.
 
 ## Cheatsheet
 
@@ -354,142 +354,45 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-<!-- TODO: Opus-glue examenfocus -->
+Het examen toetst of je ratio's correct uit de balans en resultatenrekening kan afleiden, of je weet welke ratio de gestelde vraag bedient, en of je een uitkomst in cashflow- of investeringsbeslissingen kan vertalen. Verwacht numerieke casussen waar je [[werkkapitaal|werkkapitaal]], liquiditeit en solvabiliteit naast elkaar moet leggen, en kwalitatieve vragen die de [[behoefte-aan-bedrijfskapitaal|BBK]] of [[cashflow-analyse|cashflow]] interpreteren.
 
-> [!question]- Financieel beheer: berekening liquiditeits- en solvabiliteitsratio's
-> *Examen 2003-bibf · PO 1.9*
->
-> **Balans**
->
-> **Actief**
->
-> | Rubriek | Bedrag (EUR) |
-> | --- | --- |
-> | Vaste activa | 150.040,00 |
-> | Voorraden | 41.000,00 |
-> | Vorderingen op < 1 jaar | 42.700,00 |
-> | Geldbeleggingen | 10.000,00 |
-> | Liquide middelen | 37.500,00 |
-> | TOTAAL ACTIVA | 281.240,00 |
->
-> **Passief**
->
-> | Rubriek | Bedrag (EUR) |
-> | --- | --- |
-> | Kapitaal | 100.000,00 |
-> | Reserves | 50.400,00 |
-> | Overgedragen winst | 2.750,00 |
-> | Schulden op > 1 jaar | 51.000,00 |
-> | Schulden op < 1 jaar | 77.090,00 |
-> | TOTAAL PASSIVA | 281.240,00 |
->
-> Bereken het netto bedrijfskapitaal.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Bereken de ruime liquiditeitsratio (current ratio).
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Bereken de beperkte liquiditeitsratio (acid test).
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Bereken de solvabiliteitsratio.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+### C. Algemene beginselen van het financieel beheer 📃
 
-> [!question]- Berekening van de operationele cash-flow
-> *Examen 2003-bibf · PO 1.9*
->
-> > Naast de balans van C.1 blijken volgende cijfers uit de resultatenrekening.
->
-> **Resultatenrekening (relevante posten)**
->
-> | Label | Bedrag |
-> | --- | --- |
-> | Winst van het boekjaar | 2.750 |
-> | Afschrijvingen | 12.100 |
-> | Toevoegingen aan voorzieningen | 6.300 |
-> | Bestedingen van voorzieningen | -1.650 |
-> | Toevoegingen aan waardeverminderingen | 780 |
->
-> Bereken de operationele cash-flow.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+> [!question]- ITAA 2003-bibf vraag C.1 (tier C)
+> C.1. Op de balans staan volgende bedragen: … 4 PUNTEN ACTIVA Vaste activa 150.040,00 Vlottende activa Voorraden 41.000,00 Vorderingen op -1 jaar 42.700,00 Geldbeleggingen 10.000,00 Liquide middelen 37.500,00 281.240,00 PASSIVA Kapitaal 100.000,00 Reserves 50.400,00 Overgedragen winst 2.750,00 Schulden op + 1 jaar 51.000,00 Schulden op - 1 jaar 77.090,00 281.240,00 Vraag: Bereken uit deze cijfers
+> 
+> a. het netto bedrijfskapitaal
+> 
+> b. de ruime liquiditeitsratio (current ratio)
+> 
+> c. de beperkte liquiditeitsratio (acid test)
+> 
+> d. de solvabiliteitsratio.
 
-> [!question]- Behoefte aan bedrijfskapitaal: definitie, berekening en reductiemaatregelen
-> *Examen 2008-bibf · PO 1.9*
->
-> Wat verstaat men met 'behoefte aan bedrijfskapitaal'?
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Hoe wordt de behoefte aan bedrijfskapitaal berekend?
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Vanuit het oogpunt van financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
 
-> [!question]- Haalbaarheid van een investeringskrediet gezien cashflow en aflossingscapaciteit
-> *Examen 2008-bibf · PO 1.9*
->
-> > Een vennootschap heeft jaarlijks ongeveer 30.000,00 EUR cashflow. Ze betaalt jaarlijks 12.000,00 EUR kapitaalaflossingen op bestaande leningen. Voor een nieuwe investering van 100.000,00 EUR wenst ze van de bank een investeringskrediet te bekomen voor het volledige bedrag. De rentevoet bedraagt 5% per jaar. Ze wenst de nieuwe lening in 5 jaarlijkse gelijke schijven af te lossen.
->
-> Wat is uw mening over de haalbaarheid van dit investeringskrediet?
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+### C. Algemene beginselen van het financieel beheer 📃
 
-> [!question]- Definities van financiële begrippen
-> *Examen 2013-1 · PO 1.9*
->
-> > Omschrijf de volgende begrippen:
->
-> Omschrijf het begrip 'intrinsieke waarde'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Omschrijf het begrip 'fractiewaarde'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Omschrijf het begrip 'netto rendabiliteit van de bedrijfsactiva'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Omschrijf het begrip 'algemene schuldgraad'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Omschrijf het begrip 'operationele cash flow voor belastingen'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+> [!question]- ITAA 2003-bibf vraag C.2 (tier C)
+> C.2. Naast de balans hierboven blijken volgende cijfers uit de resultatenrekening 1 PUNT - winst van het boekjaar 2.750,00 - afschrijvingen 12.100,00 - toevoegingen aan voorzieningen 6.300,00 - bestedingen van voorzieningen 1.650,00 - toevoegingen aan waardeverminderingen 780,00 Vraag: Bereken de operationele cash-flow.
 
-> [!question]- Netto bedrijfskapitaal: manieren om het te verhogen
-> *Examen 2013-2 · PO 1.9*
+
+### C. Algemene beginselen van het financieel beheer 📃
+
+> [!question]- ITAA 2008-bibf vraag C.1 (tier C)
+> C.1 Wat verstaat men met “behoefte aan bedrijfskapitaal”? Hoe wordt het berekend? Van uit het oogpunt financieel beheer, wat kan worden ondernomen om de behoefte aan bedrijfskapitaal te verminderen?
 >
-> > Bij de bespreking van de jaarrekening deelt u aan uw cliënt mede dat het netto bedrijfskapitaal van zijn vennootschap zeer laag is. Hij vraagt u hoe hij het netto bedrijfskapitaal kan verhogen.
+> > [!success]- Antwoord-motivering
+> > De behoefte aan bedrijfskapitaal is het netto verschil tussen de bedrijfsbronnen en bedrijfsaanwendingen. Het wordt berekend als verschil tussen enerzijds de niet financiële beperkte vlottende activa en, anderzijds, de niet financiële schulden op ten hoogste één jaar. (3 + 40/41 + 49 van het actief) – (42 + 44 tot 48 + 49 van het passief) Om behoefte aan bedrijfskapitaal te verminderen, moet de omvang van de voorraden en / of vorderingen verminderen. Betalingstermijnen leverancier uitbreiden.
+
+
+### C. Algemene beginselen van het financieel beheer 📃
+
+> [!question]- ITAA 2008-bibf vraag C.2 (tier C)
+> C.2 Een vennootschap heeft jaarlijks ongeveer 30.000,00 EUR cashflow. Ze betaalt jaarlijks 12.000,00 EUR kapitaalaflossingen op bestaande leningen. Voor een nieuwe investering van 100.000,00 EUR, wenst ze van de bank een investeringskrediet te bekomen om het volledig bedrag van de aankoop te financieren. De rentevoet bedraagt 5 % per jaar. Ze wenst de nieuwe lening in 5 jaarlijkse gelijke schijven af te lossen. Wat is uw mening?
 >
-> Geef drie voorbeelden van maatregelen om het netto bedrijfskapitaal te verhogen.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+> > [!success]- Antwoord-motivering
+> > De nieuwe lening zal het eerste jaar een intrestkost van 5.000,00 EUR veroorzaken. De cashflow vermindert zodoende tot 25.000,00 EUR. Rekening houdend met terugbetalingen van 12.000,00 EUR op de bestaande leningen blijft er slechts een vrije cashflow van 13.000,00 EUR over. Indien de nieuwe lening over 5 jaar wordt terugbetaald moet jaarlijks aan kapitaalaflossingen 20.000,00 EUR worden betaald. De vrije cashflow bedraagt slechts 13.000,00 EUR; bijgevolg moet overwogen worden om de lening over een langere periode af te lossen (8 jaar of meer).
+
 
 
 ## Competentie-index

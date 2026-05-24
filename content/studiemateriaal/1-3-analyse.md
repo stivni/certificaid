@@ -34,7 +34,6 @@ gerelateerde_concepten:
 - liquiditeitsratio
 - liquiditeitstoets-beslisboom
 - materieel-belang-jaarrekening
-- meldingsplicht-accountant-continuiteit
 - niet-in-balans-opgenomen-rechten-verplichtingen
 - ondernemingsraad-sociaal-economische-info
 - opstellen-analytische-balans
@@ -52,7 +51,7 @@ gerelateerde_concepten:
 - voorbereiden-financiele-analyse
 - werkkapitaal
 - werkkapitaalbehoefte
-gegenereerd_op: '2026-05-21'
+gegenereerd_op: '2026-05-18'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -72,21 +71,21 @@ gegenereerd_op: '2026-05-21'
 
 ## Leesgids
 
-<!-- TODO: Opus-glue leesgids -->
+De minicursus loopt van fundament naar oordeel: eerst [[doelstellingen-financiele-analyse|waarom]] en voor wie je een [[jaarrekening-als-studieobject|jaarrekening]] leest, dan hoe je ze klaarzet via een [[analytische-balans|analytische balans]], en pas dan de vier ratio-families. Twee synthese-secties verbinden losse ratio's met een keuze-logica die je in een casus echt gebruikt. Tijds-, sector- en toezichts-as ([[historische-evolutie-financiele-analyse|trend]], [[sectorvergelijking-financiele-analyse|benchmark]], [[commissaris-toezicht-jaarrekening|commissaris]]) komen op het einde samen tot een geïntegreerde diagnose.
 
 ## Waarom dit programmaonderdeel telt
 
-<!-- TODO: Opus-glue waarom_po -->
+Het [[getrouw-beeld-jaarrekening|getrouw beeld]] is geen boekhoudkundig eindpunt maar het vertrekpunt van elk economisch oordeel. Klant, bank, vennoten en overheid lezen dezelfde cijfers met een eigen bril ([[gebruikers-jaarrekening]]); jij vertaalt hun vragen naar de juiste ratio's en plaatst de uitkomsten tegen sector en historiek. Liquiditeit zegt iets anders dan solvabiliteit, en rentabiliteit alléén misleidt zodra het hefboomeffect onbesproken blijft — formules kennen is een minimum, het combineren de kern. Via [[cijferanalyses-controle-norm|cijferanalyses]] krijg je tegelijk een controle-instrument: onverwachte afwijkingen zijn risico- of fout-signalen.
 
 ## Waarom analyseer je een jaarrekening? Doelstellingen, gebruikers en getrouw beeld
 
-<!-- TODO: Opus-glue oriëntatie -->
+Begin niet bij de balans maar bij de vraag: wie wil wat weten? De vier [[doelstellingen-financiele-analyse|analyse-doelen]] krijgen pas relevantie vanuit het perspectief van een concrete [[gebruikers-jaarrekening|gebruiker]]. De cijfers zelf zijn gebonden aan het [[getrouw-beeld-jaarrekening|getrouw beeld]] en aan [[materieel-belang-jaarrekening|materieel belang]] — een afwijking is pas analyse-waardig als ze het oordeel zou kunnen kantelen.
 
 ## De jaarrekening als studieobject: structuur en aangrijpingspunten
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue thematisch-intro -->
+Deze concepten zetten samen het werkterrein neer waarop alle latere ratio- en evolutie-analyses staan. De [[jaarrekening-als-studieobject|jaarrekening]] is het onderzochte object; [[getrouw-beeld-jaarrekening|getrouw beeld]] en [[materieel-belang-jaarrekening|materialiteit]] bepalen wanneer een afwijking telt, en de [[doelstellingen-financiele-analyse|doelstellingen]] van de analyse moeten gekoppeld worden aan de juiste [[gebruikers-jaarrekening|gebruiker]] voor je een formule opent.
 
 - [[jaarrekening-als-studieobject|Jaarrekening als studieobject van financiële analyse]] · `begrip`
 - [[getrouw-beeld-jaarrekening|Getrouw beeld van de jaarrekening]] · `regel`
@@ -99,7 +98,7 @@ gegenereerd_op: '2026-05-21'
 Synthese-overzicht dat de vier klassieke doelen van financiële analyse (liquiditeit, solvabiliteit, rentabiliteit, werkkapitaal/cashflow) koppelt aan hun ratio's, zodat de stagiair in één oogopslag ziet welke ratio bij welk doel hoort en hoe ze elkaar aanvullen.
 
 
-<!-- TODO: Opus-glue synthese-intro -->
+De scharnier hier is dat een gebruikersvraag het analyse-doel kiest, en pas dán het ratio. Wie [[liquiditeitsratio|liquiditeit]] en [[solvabiliteitsratio|solvabiliteit]] tegen elkaar uitspeelt, of [[rentabiliteit-eigen-vermogen-roe|ROE]] zonder [[rentabiliteit-totaal-activa-roa|ROA]] interpreteert, mist de helft van het beeld — beide assen lees je in een complexe casus altijd samen.
 
 | Analyse-doel | Kernvraag | Belangrijkste ratio's | Bron-component balans/RR | Typische gebruiker |
 |---|---|---|---|---|
@@ -154,7 +153,7 @@ _Bouwt op_: [[doelstellingen-financiele-analyse]] · [[liquiditeitsratio]] · [[
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je leert de opdracht scopen vóór één cijfer wordt aangeraakt: doel en [[gebruikers-jaarrekening|gebruiker]] definiëren, boekjaren ophalen, bijzondere posten flaggen via een [[intake-financiele-analyse|intake]]. Die voorbereiding bepaalt of je tot een coherent oordeel komt of in losse ratio's blijft hangen.
 
 [[competenties/voorbereiden-financiele-analyse|→ Volledige procedure]]
 
@@ -162,7 +161,7 @@ _Bouwt op_: [[doelstellingen-financiele-analyse]] · [[liquiditeitsratio]] · [[
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je herwerkt het wettelijke balansschema tot een [[analytische-balans|analytische balans]] die de bouwstenen voor elke ratio levert: herklassificeren naar liquiditeit en opeisbaarheid, [[niet-in-balans-opgenomen-rechten-verplichtingen|off-balance]] integreren waar materieel, normaliseren waar éénmalige posten het beeld vertekenen. Zonder deze herstructurering staan je ratio's op verkeerde nominale.
 
 [[competenties/opstellen-analytische-balans|→ Volledige procedure]]
 
@@ -170,7 +169,7 @@ _Bouwt op_: [[doelstellingen-financiele-analyse]] · [[liquiditeitsratio]] · [[
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je werkt een casus uit waarbij je [[current-ratio]] en [[quick-ratio]] samen leest, met [[werkkapitaal]] als absolute tegenhanger. De interpretatie staat of valt met benchmarking tegen sector en historiek ([[sectorvergelijking-financiele-analyse]]) — voor voorraad-intensieve activiteiten is de spreiding tussen current en quick het diagnostisch interessantste gegeven.
 
 [[competenties/berekenen-interpreteren-liquiditeitsratios|→ Volledige procedure]]
 
@@ -178,7 +177,7 @@ _Bouwt op_: [[doelstellingen-financiele-analyse]] · [[liquiditeitsratio]] · [[
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue thematisch-intro -->
+Wanneer current en quick onvoldoende uitsluitsel geven, schakel je naar twee verfijningen die dieper in de cyclus kijken. De [[cash-ratio]] is de strengste toets en is relevant bij acute stress; de [[werkkapitaalbehoefte]] confronteert het beschikbare [[werkkapitaal]] met wat de operationele cyclus daadwerkelijk vraagt — een onderneming kan formeel werkkapitaal hebben en toch structureel cash tekort komen.
 
 - [[cash-ratio|Cash ratio (liquiditeit in strenge zin)]] · `cluster`
 - [[werkkapitaalbehoefte|Werkkapitaalbehoefte (besoin en fonds de roulement, BFR)]] · `begrip`
@@ -188,7 +187,7 @@ _Bouwt op_: [[doelstellingen-financiele-analyse]] · [[liquiditeitsratio]] · [[
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je zet [[solvabiliteitsratio]] en [[debt-equity-ratio]] naast elkaar in om de structurele veerkracht te beoordelen, met de uitkomst altijd tegen de sectormediaan. Onderzoek bij kredietdossiers ook of er [[ratio-covenants|ratio-covenants]] meelopen — een contractuele drempel kan een "event of default" triggeren lang vóór de wettelijke alarmbel.
 
 [[competenties/berekenen-interpreteren-solvabiliteitsratios|→ Volledige procedure]]
 
@@ -196,7 +195,7 @@ _Bouwt op_: [[doelstellingen-financiele-analyse]] · [[liquiditeitsratio]] · [[
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Bouw je oordeel op door [[rentabiliteit-eigen-vermogen-roe|ROE]] en [[rentabiliteit-totaal-activa-roa|ROA]] systematisch samen te lezen — het gat tussen beide leest het hefboomeffect af. Met de bruto-varianten op [[cashflow-analyse|cashflow]] filter je niet-kaskosten weg, wat in waarderings- en kredietdossiers vaak een eerlijker beeld geeft.
 
 [[competenties/berekenen-interpreteren-rentabiliteitsratios|→ Volledige procedure]]
 
@@ -205,7 +204,7 @@ _Bouwt op_: [[doelstellingen-financiele-analyse]] · [[liquiditeitsratio]] · [[
 Hulpstructuur voor de stagiair: welke liquiditeitsmaat is in welke context de juiste — current ratio voor algemene liquiditeit, quick ratio voor verfijnde toets bij voorraadintensieve sectoren, werkkapitaal als absolute aanvulling, cash ratio in stress-scenario's. De beslisboom maakt zichtbaar waarom één ratio nooit volstaat.
 
 
-<!-- TODO: Opus-glue synthese-intro -->
+Bij liquiditeitsdiagnose vraagt het examen typisch om de juiste toets bij de juiste context te kiezen — niet om elke ratio te berekenen. De scharnier hier is dus de keuze-logica: brede screening, strenge stresstest, absolute buffer of kasgeneratie. Een coherent oordeel combineert minstens twee perspectieven.
 
 | Toets | Wat meet ze? | Formule | Sterkte | Zwakte / valkuil |
 |---|---|---|---|---|
@@ -260,7 +259,7 @@ _Bouwt op_: [[liquiditeitsratio]] · [[current-ratio]] · [[quick-ratio]] · [[w
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je zet beide assen samen in: [[horizontale-analyse-jaarrekening|horizontaal]] toont de trend over boekjaren, [[verticale-analyse-jaarrekening|verticaal]] de samenstelling binnen één boekjaar. De afwijkingen tussen die twee perspectieven — bijvoorbeeld dalende omzet bij stijgend voorraadaandeel — wijzen vaak naar dieperliggende problemen.
 
 [[competenties/uitvoeren-horizontale-verticale-analyse|→ Volledige procedure]]
 
@@ -268,7 +267,7 @@ _Bouwt op_: [[liquiditeitsratio]] · [[current-ratio]] · [[quick-ratio]] · [[w
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je bouwt een oordeel op uit [[werkkapitaal]] (balans-kant) en [[cashflow-analyse|cashflow]] (resultaten-kant) samen — de eerste toont de structurele buffer, de tweede de jaarlijkse kasgeneratie. Pas wanneer beide consistent zijn, kun je iets zinnigs zeggen over terugbetalingscapaciteit en investeringsruimte.
 
 [[competenties/beoordelen-werkkapitaal-en-kasstroom|→ Volledige procedure]]
 
@@ -276,7 +275,7 @@ _Bouwt op_: [[liquiditeitsratio]] · [[current-ratio]] · [[quick-ratio]] · [[w
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Een analyse die stopt bij de balanscijfers mist de [[niet-in-balans-opgenomen-rechten-verplichtingen|verplichtingen buiten balans]] — borgstellingen, leasing-engagementen, geschillen — die nochtans materieel kunnen wegen. Je leert die elementen uit de toelichting en [[klasse-0-niet-in-balans|klasse 0]] systematisch confronteren met de ratio's: een gezonde solvabiliteit kan illusoir blijken zodra je significante off-balance-engagementen meetelt.
 
 [[competenties/confronteren-toelichting-en-off-balance|→ Volledige procedure]]
 
@@ -284,7 +283,7 @@ _Bouwt op_: [[liquiditeitsratio]] · [[current-ratio]] · [[quick-ratio]] · [[w
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Het [[bestuursverslag]] is een verbaal overzicht van ontwikkeling, resultaten en positie dat evenwichtig moet zijn ten opzichte van de cijfers. Lees de [[risicoparagraaf-bestuursverslag|risicoparagraaf]] en, waar van toepassing, de [[corporate-governance-verklaring]] kritisch: signaleren ze dezelfde risico's als wat uit jouw cijferanalyse blijkt? Discordantie tussen verbale en cijfermatige boodschap is op zichzelf een diagnostisch signaal.
 
 [[competenties/beoordelen-bestuursverslag-en-niet-financiele-info|→ Volledige procedure]]
 
@@ -292,7 +291,7 @@ _Bouwt op_: [[liquiditeitsratio]] · [[current-ratio]] · [[quick-ratio]] · [[w
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue thematisch-intro -->
+Een ratio krijgt pas betekenis tegenover een referentiekader: de [[historische-evolutie-financiele-analyse|tijdsas]] toont de richting binnen één onderneming, de [[sectorvergelijking-financiele-analyse|sector-as]] de positie tussen ondernemingen. De norm [[cijferanalyses-controle-norm|cijferanalyses (KMO)]] voegt in controle-opdrachten een derde dimensie toe: afwijkingen als risico-signaal en als afsluitende redelijkheidstest.
 
 - [[historische-evolutie-financiele-analyse|Historische evolutie in financiële analyse]] · `cluster`
 - [[sectorvergelijking-financiele-analyse|Sectorvergelijking (benchmarking)]] · `cluster`
@@ -302,7 +301,7 @@ _Bouwt op_: [[liquiditeitsratio]] · [[current-ratio]] · [[quick-ratio]] · [[w
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Hier komen alle voorgaande deelanalyses samen in één coherent oordeel met concrete verbeteradviezen. Bij opgestapelde signalen weeg je continuïteit en de mogelijke signalering naar de [[kamer-ondernemingen-in-moeilijkheden|kamer voor ondernemingen in moeilijkheden]] of het uitlokken van [[ratio-covenants|ratio-covenants]].
 
 [[competenties/formuleren-financiele-diagnose-en-adviezen|→ Volledige procedure]]
 
@@ -310,18 +309,18 @@ _Bouwt op_: [[liquiditeitsratio]] · [[current-ratio]] · [[quick-ratio]] · [[w
 
 > [!info] Hoort bij taak: Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen,…
 
-<!-- TODO: Opus-glue competentie-intro -->
+Je moet weten welk orgaan welke vraag stelt: de [[algemene-vergadering-toezichtsfunctie|algemene vergadering]] beslist over goedkeuring en kwijting, de [[commissaris-toezicht-jaarrekening|commissaris]] geeft de externe verklaring, de [[ondernemingsraad-sociaal-economische-info|ondernemingsraad]] krijgt sociaal-economische informatie, en de [[kamer-ondernemingen-in-moeilijkheden|kamer voor ondernemingen in moeilijkheden]] schakelt in bij knipperlichten. Samen vormen ze het governance-landschap rond de jaarrekening.
 
 [[competenties/positioneren-toezichtsorganen-rond-jaarrekening|→ Volledige procedure]]
 
 ## Kritische blik: wat zegt een financiële analyse NIET?
 
-<!-- TODO: Opus-glue oriëntatie -->
+Een financiële analyse is een retrospectieve lezing op cijfers binnen het [[materieel-belang-jaarrekening|materialiteitskader]] — ze meet niet wat buiten dat raster valt. Niet-gekwantificeerde [[niet-in-balans-opgenomen-rechten-verplichtingen|verplichtingen]], strategische positie, kwaliteit van het management of toekomstige marktshocks lees je niet rechtstreeks van een ratio af. Confronteer daarom altijd met [[bestuursverslag]] en sector- en evolutie-context vóór je een coherent oordeel velt.
 
 
 ## Synthese-stappenplan
 
-<!-- TODO: Opus-glue synthese -->
+In een examencasus pak je een financiële analyse zo aan. Scope eerst de opdracht via een [[intake-financiele-analyse|intake]]: gebruiker, [[doelstellingen-financiele-analyse|doelstelling]], boekjaren, bijzondere posten. Herwerk de jaarrekening tot een [[analytische-balans|analytische balans]] met [[niet-in-balans-opgenomen-rechten-verplichtingen|off-balance]] geïntegreerd. Reken dan per doel de ratio's — [[liquiditeitsratio|liquiditeit]], [[solvabiliteitsratio|solvabiliteit]], rentabiliteit ([[rentabiliteit-eigen-vermogen-roe|ROE]] én [[rentabiliteit-totaal-activa-roa|ROA]] samen), [[werkkapitaal]] versus [[cashflow-analyse|cashflow]]. Plaats elke uitkomst tegen [[historische-evolutie-financiele-analyse|tijdsas]] en [[sectorvergelijking-financiele-analyse|sector-benchmark]] — een ratio zonder context is geen oordeel. Confronteer met toelichting en [[bestuursverslag]]; discordantie is op zich een signaal. Synthetiseer tot één coherente diagnose en concrete adviezen ([[formuleren-financiele-diagnose-en-adviezen]]). Toets ten slotte continuïteit en eventuele [[ratio-covenants|ratio-covenants]], en positioneer je bevindingen tegenover de juiste toezichtsorganen.
 
 ## Cheatsheet
 
@@ -359,311 +358,297 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-<!-- TODO: Opus-glue examenfocus -->
+Het examen toetst het combineren van ratio's en interpretatie tot een coherent oordeel — niet het opdreunen van formules. Verwacht meerkeuzevragen die je dwingen het juiste cijfer uit balans en resultatenrekening te halen, en open vragen waar je begrippen ([[werkkapitaal]], [[liquiditeitsratio]]) zelf moet definiëren en toepassen. Let op camouflage: ruim versus eng, structureel versus operationeel, absoluut versus relatief.
 
-> [!question]- Berekening van financiële ratio's op basis van de jaarrekening
-> *Examen 2013-1 · PO 1.3*
->
-> > In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Bereken de gevraagde ratio's telkens voor het BOEKJAAR. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord. U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.
->
-> **Bijkomende informatie uit toelichting**
->
-> | Label | Bedrag |
-> | --- | --- |
-> | Investeringen in materiële vaste activa tijdens het boekjaar | 451.692,38 |
-> | Kapitaalsubsidies aangerekend op de resultatenrekening | 56.498,19 |
-> | Andere exploitatiesubsidies ontvangen | 0 |
->
-> Bereken het nettobedrijfskapitaal voor het boekjaar.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Bereken de brutoverkoopmarge (in %) voor het boekjaar.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Bereken de personeelskosten ten opzichte van de toegevoegde waarde (in %) voor het boekjaar.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+### Analyse en kritische beoordeling jaarrekening 📃
 
-> [!question]- Ratio-analyse: brutoverkoopmarge, nettorentabiliteit en liquiditeit
-> *Examen 2013-2 · PO 1.3*
->
-> > In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt.
-> > 
-> > Bereken de gevraagde ratio's telkens voor het BOEKJAAR.
-> > U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord.
-> > U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.
-> > 
-> > Uit de toelichting tot de jaarrekening blijkt o.a. dat:
-> > 1) Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361.869,98 euro;
-> > 2) Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415 euro;
-> > 3) Er geen intrestsubsidies zijn;
-> > 4) Er werd geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt;
-> > 5) Er werden geen belastingen geboekt op het resultaat van vorige boekjaren;
-> > 6) De te bestemmen winst van het boekjaar integraal gereserveerd werd.
->
-> Bereken de brutoverkoopmarge (%).
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Bereken de nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%).
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Bereken de liquiditeit in ruime zin.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+> [!question]- ITAA 2024-1 vraag 10.A · open (tier A)
+> Stellingen ivm financiële onafhankelijkheid
 
-> [!question]- Liquiditeitsratio's: betekenis en onderscheid ruime vs. enge zin
-> *Examen 2013-2 · PO 1.3*
->
-> Wat komt een bedrijfsleider te weten door de liquiditeitsratio's te berekenen?
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Met welke elementen houdt men geen rekening bij de berekening van de liquiditeit in enge zin en wel bij de berekening van de liquiditeit in ruime zin?
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Verklaar uw antwoord aangaande punt b.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+> [!question]- ITAA 2024-1 vraag 10.B · open (tier A)
+> Welke ratio kan je niet berekenen op basis van een verkort schema n- dagen klanten krediet
 
-> [!question]- Financiële ratio's berekenen op basis van jaarrekening — toegevoegde waarde, nettobedrijfskapitaal, rentabiliteit, liquiditeit
-> *Examen 2014-1 · PO 1.3*
->
-> > In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Kruis het juiste antwoord aan voor de ratio's van het boekjaar. Uit de toelichting tot de jaarrekening blijkt o.a. dat: (1) er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361.869,98 EUR; (2) er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415,00 EUR; (3) er intrestsubsidies werden aangerekend op de resultatenrekening voor een bedrag van 6.000,00 EUR; (4) er geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt werd; (5) er gemiddeld 38,20 werknemers (voltijds equivalent) tewerkgesteld waren; (6) de te bestemmen winst van het boekjaar integraal gereserveerd werd.
->
-> Bruto toegevoegde waarde per werknemer
->
-> - **a)** (7.441.663 – 3.185.295 – 1.192.317) : 38,20 = 80.210,76
-> - **b)** (7.441.663 – 415 – 3.185.295 – 1.192.317) : 38,20 = 80.199,90
-> - **c)** (7.441.663 – 3.185.295 – 1.192.317 – 1.548.647) : 38,20 = 39.670,26
-> - **d)** (7.441.663 – 3.185.295 – 1.192.317 – 436.469 – 879) : 38,20 = 68.761,86
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Nettobedrijfskapitaal
->
-> - **a)** 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 – 1.210.536 = 6.648.695
-> - **b)** 120.000 + 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 – 1.210.536 = 6.768.695
-> - **c)** 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704 – 1.210.536 – 39.932 = 6.611.467
-> - **d)** 120.000 + 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704 – 1.210.536 – 39.932 = 6.731.467
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten
->
-> - **a)** ((877.279 + 46.934 + 211.950 – 6.000) : 9.081.054) % = 12,45
-> - **b)** ((577.279 + 109.642 + 185.720 – 6.000) : 9.081.054) % = 9,54
-> - **c)** ((877.279 + 46.934 + 211.950) : 9.081.054) % = 12,51
-> - **d)** ((577.279 + 109.642 + 211.950 – 6.000) : 9.081.054) % = 9,83
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Liquiditeit in enge zin
->
-> - **a)** (1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704) : (1.210.536 + 39.932) = 6,29
-> - **b)** (1.739.806 + 2.200.000 + 2.548.415) : 1.210.536 = 5,36
-> - **c)** (1.371.010 + 1.739.806 + 2.200.000 + 2.548.415) : 1.210.536 = 6,49
-> - **d)** (1.739.806 + 2.200.000 + 2.548.415 + 2.704) : (1.210.536 + 39.932) = 5,19
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+> [!question]- ITAA 2024-1 vraag 10.C · open (tier A)
+> In welke volgorde zijn rubrieken op Passief van de Balans gerangschikt? Toenemende eisbaarheid
 
-> [!question]- Nettothesaurie — begrip omschrijven en positief saldo interpreteren
-> *Examen 2014-1 · PO 1.3*
->
-> Omschrijf het begrip 'nettothesaurie'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan?
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
+> [!question]- ITAA 2024-1 vraag 10.D · open (tier A)
+> JR kort model NBB voor kapitaal vennootschap wordt EV als volgt berekend:
 
-> [!question]- Behoefte aan werkkapitaal: selectie van balansposten
-> *Examen 2015-1 · PO 1.3*
->
-> > Vraag 3 van de sectie 'Analyse en kritische beoordeling van de jaarrekening'. Bij elk foutief of ontbrekend antwoord wordt 1 punt afgetrokken.
->
-> **Balansposten te beoordelen voor behoefte aan werkkapitaal**
->
-> | Label | Bedrag |
-> | --- | --- |
-> | Materiële vaste activa (22/27) |   |
-> | Financiële vaste activa (28) |   |
-> | Vorderingen op meer dan één jaar (29) |   |
-> | Voorraden (30/36) |   |
-> | Bestellingen in uitvoering (37) |   |
-> | Handelsvorderingen (40) |   |
-> | Overige vorderingen (41) |   |
-> | Geldbeleggingen (50/53) |   |
-> | Liquide middelen (54/58) |   |
-> | Overlopende rekeningen van het actief (490/1) |   |
-> | Eigen vermogen (10/15) |   |
-> | Voorzieningen en uitgestelde belastingen (16) |   |
-> | Schulden op meer dan één jaar (17) |   |
-> | Schulden op meer dan één jaar die binnen het jaar vervallen (42) |   |
-> | Financiële schulden (43) |   |
-> | Handelsschulden (44) |   |
-> | Ontvangen vooruitbetalingen (46) |   |
-> | Schulden m.b.t. belastingen, bezoldigingen en sociale lasten (45) |   |
-> | Overige schulden (47/48) |   |
-> | Overlopende rekeningen van het passief (492/3) |   |
->
-> Welke van de onderstaande balansposten (met code) neemt u op in de berekening 'behoefte aan werkkapitaal (of bedrijfskapitaal)'? Duid bij elke code 'ja of nee' aan.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
-
-> [!question]- Berekening financiële ratio's op basis van jaarrekening
-> *Examen 2015-1 · PO 1.3*
->
-> > Op basis van de balans na winstverdeling en de resultatenrekening van een cliënt (zie bijlage). Uit de toelichting: (1) investeringen materiële vaste activa 452.835 EUR; (2) exploitatiesubsidies 1.288 EUR; (3) intrestsubsidies 14.214 EUR; (4) geen disconto ten laste; (5) gemiddeld 38,20 werknemers (VTE); (6) voorziening pensioenen teruggenomen voor 1.665 EUR; (7) te bestemmen winst integraal gereserveerd.
->
-> Brutoverkoopmarge: welke berekening is correct?
->
-> - **a)** (1.479.283 + 425.554 + 804) x 100 / (8.034.747 + 344.153) = 22,74
-> - **b)** (1.417.747 + 425.554 + 804) x 100 / (8.365.788 - 1.600.244) = 27,26
-> - **c)** (1.479.283 + 425.554 + 804 – 1.665) x 100 / (8.034.747 + 344.153 – 1.288) = 22,73
-> - **d)** (968.829 + 425.554 + 804 – 1.665) x 100 / (8.365.788 – 1.288) = 16,66
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Personeelskosten ten opzichte van toegevoegde waarde: welke berekening is correct?
->
-> - **a)** (1.600.244 – 1.665) X 100 / (8.365.788 - 1.288 – 3.457.309 – 1.398.278) = 45,56
-> - **b)** 1.600.244 x 100 / (8.365.788 – 3.457.309 – 1.398.278) = 45,59
-> - **c)** 1.600.244 x 100 / 1.479.283 = 108,18
-> - **d)** (1.600.244 – 1.665) x 100 / (8.034.747 – 13.112 - 3.457.309 – 1.398.278 – 1.288) = 50,51
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Nettorentabiliteit van het eigen vermogen na belastingen: welke berekening is correct?
->
-> - **a)** 968.829 x 100 / 10.274.463 = 9,43
-> - **b)** 968.829 x 100 / 8.177.941 = 11,85
-> - **c)** 1.417.747 x 100 / 10.274.463 = 13,80
-> - **d)** 1.479.283 x 100 / 8.177.941 = 18,09
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen: welke berekening is correct?
->
-> - **a)** 3.444.161 / 530.373 = 6,49
-> - **b)** 3.457.309 / 530.373 = 6,52
-> - **c)** 3.457.309 / 1.344.750 = 2,57
-> - **d)** 3.444.161 / 1.344.750 = 2,56
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
-
-> [!question]- Begripsomschrijving financiële analyse: intrinsieke waarde, fractiewaarde, rendabiliteit, schuldgraad, operationele cash flow
-> *Examen 2015-1 · PO 1.3*
->
-> Omschrijf het begrip 'intrinsieke waarde'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Omschrijf het begrip 'fractiewaarde'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Omschrijf het begrip 'netto rendabiliteit van de bedrijfsactiva'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Omschrijf het begrip 'algemene schuldgraad'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
->
-> Omschrijf het begrip 'operationele cash flow voor belastingen'.
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Antwoord wacht op concept-laag._
-
-> [!question]- Analyse en kritische beoordeling van de jaarrekening
-> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
->
-> > Onderdeel '10 Analyse en kritische beoordeling van de jaarrekening' uit het schriftelijk bekwaamheidsexamen ITAA 2024 — herinnerings-fragment met vijf deelvragen.
->
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Stellingen ivm financiële onafhankelijkheid
->
-> > [!success]- Antwoord (klik om te openen)
-> > _Vraag-inhoud niet gereconstrueerd (topic-only). Wacht op vraag-generatie._
->
-> Welke ratio kan je niet berekenen op basis van een verkort schema? (n-dagen klantenkrediet)
->
-> > [!success]- Antwoord (klik om te openen)
-> > **_Het aantal dagen klantenkrediet (DSO - Days Sales Outstanding) kan niet worden berekend op basis van een verkort schema, omdat het netto-omzetcijfer (rekening 70) niet afzonderlijk wordt gepubliceerd in het verkort schema. Op het verkort schema staan enkel geaggregeerde bedrijfsopbrengsten - zonder een aparte omzetregel kan de noemer (omzet incl. BTW) van de DSO-formule niet bepaald worden._** 🤖
-> > 
-> > Formule klantenkrediet: (Handelsvorderingen + ontvangen wissels) / (Omzet incl. BTW) x 365. De handelsvorderingen (rekening 40) staan wel op het verkort balansschema, maar de omzet (rekening 70) ontbreekt op de verkorte resultatenrekening (de rubriek 'bedrijfsopbrengsten' is geaggregeerd). Andere ratio's die hierdoor evenmin berekenbaar zijn op een verkort schema: leverancierskrediet (vereist aankopen), bruto verkoopmarge (vereist omzet en aankopen), rotatiesnelheid voorraden (vereist omzet of kostprijs verkopen). ⚠️ te verifiëren - exacte rubriek-aggregatie van het verkort schema NBB-publicatieschema te valideren tegen actuele KB-bijlage WVV. 🤖
->
-> In welke volgorde zijn rubrieken op het Passief van de Balans gerangschikt?
->
-> > [!success]- Antwoord (klik om te openen)
-> > **_De rubrieken op het passief van de balans zijn gerangschikt in volgorde van toenemende eisbaarheid - d.w.z. van de minst eisbare verplichtingen (eigen vermogen) bovenaan, naar de meest eisbare (schulden op korte termijn) onderaan. De antwoord-hint 'Toenemende eisbaarheid' is dus correct._** 🤖
-> > 
-> > - I. Kapitaal / Inbreng (minst eisbaar - eigen vermogen)
-> > - II. Uitgiftepremies
-> > - III. Herwaarderingsmeerwaarden
-> > - IV. Reserves
-> > - V. Overgedragen winst (verlies)
-> > - VI. Kapitaalsubsidies
-> > - VII. Voorzieningen en uitgestelde belastingen
-> > - VIII. Schulden op meer dan een jaar
-> > - IX. Schulden op ten hoogste een jaar (meest eisbaar)
-> > - X. Overlopende rekeningen 🤖
-> > 
-> > Het Belgisch jaarrekeningschema rangschikt de passiefzijde volgens dit ordenend beginsel, analoog aan de actiefzijde die wordt gerangschikt volgens toenemende liquiditeit. Eigen vermogen (rubrieken I tot VI) heeft geen of een onbepaalde vervaldag en staat bovenaan; schulden op korte termijn (rubriek IX) zijn binnen het jaar opeisbaar en staan onderaan. Validatie van de antwoord-hint van de stagiair: 'Toenemende eisbaarheid' is een correcte beknopte formulering van dit ordeningsbeginsel. ⚠️ te verifiëren - exacte rubricering en nummering tegen KB WVV bijlage / volledig schema MAR. 🤖
->
-> JR kort model NBB voor kapitaalvennootschap: hoe wordt EV berekend?
->
-> > [!success]- Antwoord (klik om te openen)
-> > **Eigen vermogen in het verkort jaarrekeningmodel NBB voor een kapitaalvennootschap**: Som van de eigenvermogensrubrieken op de passiefzijde van het verkort balansschema, namelijk: I. Kapitaal / Inbreng (volstort + niet-opgevraagd, voor de BV onbeschikbare en beschikbare inbreng) + II. Uitgiftepremies + III. Herwaarderingsmeerwaarden + IV. Reserves (wettelijke, onbeschikbare, beschikbare) + V. Overgedragen winst of verlies + VI. Kapitaalsubsidies. 🤖
-> > 
-> > Formule kort-model NBB voor kapitaalvennootschap (BV/NV): EV = I (Inbreng) + II (Uitgiftepremies) + III (Herwaarderingsmeerwaarden) + IV (Reserves) + V (Overgedragen winst/verlies) + VI (Kapitaalsubsidies). In het verkort schema worden deze posten geaggregeerd gepresenteerd, maar de samenstelling blijft identiek aan het volledig schema. Voor de BV (sinds WVV) is het concept 'kapitaal' vervangen door 'inbreng' (rubriek I = bijdragen door aandeelhouders), opgesplitst in onbeschikbaar (oud kapitaal) en beschikbaar. ⚠️ te verifiëren - exacte rubrieken verkort schema NBB-publicatieformulier C/VKT versie 2024 tegen KB WVV bijlage 1. 🤖
->
+> [!question]- ITAA 2024-1 vraag 10.E · meerkeuze (tier A)
 > Alfa is verlieslatend. Verhoging van de afschrijving op gebouwen door verkorting van de verwachte levensduur heeft het volgende effect op de bruto verkoopmarge:
 >
-> - **a)** Stijging
-> - **b)** Daling
-> - **c)** Geen
-> - **d)** Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt
+> - Stijging
+> - Daling
+> - Geen
+> - Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2013-1 vraag 1 (tier B)
+> Vraag 1 … / 9 punten In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Bereken de gevraagde ratio’s telkens voor het BOEKJAAR. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord. U dient uw antwoord uit te drukken tot TWEE cijfers na de komma. Uit de toelichting tot de jaarrekening blijkt o.a. dat :
+> 
+> 1. Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 451 692,38 euro;
+> 
+> 2. Er kapitaalsubsidies werden aangerekend op de resultatenrekening voor 56 498,19 euro;
+> 
+> 3. Er geen andere exploitatiesubsidies werden ontvangen;
+> 
+> 4. De te bestemmen winst van het boekjaar integraal gereserveerd werd.
+> 
+> a) Nettobedrijfskapitaal Antwoord
+> 
+> b) Brutoverkoopmarge (in %) Antwoord
+> 
+> c) Personeelskosten ten opzichte van de toegevoegde waarde (in %) Antwoord
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2013-1 vraag 2 (tier B)
+> Vraag 2 … / 10 punten Omschrijf de volgende begrippen :
+> 
+> a) Intrinsieke waarde Antwoord
+> 
+> b) Fractiewaarde Antwoord
+> 
+> c) Netto rendabiliteit van de bedrijfsactiva Antwoord
+> 
+> d) Algemene schuldgraad Antwoord
+> 
+> e) Operationele cash flow voor belastingen Antwoord
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2013-2 vraag 1 (tier B)
+> Vraag 1 … / 6 punten In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Bereken de gevraagde ratio’s telkens voor het BOEKJAAR. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord. U dient uw antwoord uit te drukken tot TWEE cijfers na de komma. Uit de toelichting tot de jaarrekening blijkt o.a. dat :
+> 
+> 1) Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361 869,98 euro;
+> 
+> 2) Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415 euro;
+> 
+> 3) Er geen intrestsubsidies zijn;
+> 
+> 4) Er werd geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt;
+> 
+> 5) Er werden geen belastingen geboekt op het resultaat van vorige boekjaren;
+> 
+> 6) De te bestemmen winst van het boekjaar integraal gereserveerd werd.
+> 
+> a) Brutoverkoopmarge (%) Antwoord … / 2 punten
+> 
+> b) Nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%) Antwoord … / 2 punten
+> 
+> c) Liquiditeit in ruime zin Antwoord … / 2 punten
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2013-2 vraag 2 (tier B)
+> Vraag 2 … / 3 punten Bij de bespreking van de jaarrekening deelt U aan uw cliënt mede dat het netto bedrijfskapitaal van zijn vennootschap zeer laag is. Hij vraagt U hoe hij het netto bedrijfskapitaal kan verhogen. Geef drie voorbeelden. Antwoord
 >
-> > [!success]- Antwoord (klik om te openen)
-> > **Antwoord: c**
+> > [!success]- Antwoord-motivering
+> > Netto bedrijfskapitaal = vlottende activa − kortlopende schulden (zie [[werkkapitaal]]). Verhogen kan via twee assen: vlottende activa verhogen ÉN kortlopende schulden verlagen. Concreet drie maatregelen:
+> > 
+> > 1. **Lange-termijn financiering aantrekken om kortlopende schulden te herfinancieren** — een nieuwe lange-termijn-lening of kapitaalverhoging stort kasmiddelen (vlottend actief) en kan worden gebruikt om kortlopende schulden af te lossen. Effect: vlottende activa stabiel of stijgend, kortlopende schulden dalend → werkkapitaal stijgt. 🤖
+> > 2. **Operationele winst gebruiken om winstreservering toe te wijzen** in plaats van uit te keren als dividend — winstaccumulatie verhoogt het eigen vermogen en typisch ook de vlottende activa (kas, vorderingen) zonder de kortlopende schulden te raken. Werkkapitaal stijgt. 🤖
+> > 3. **Niet-essentiële vaste activa verkopen** (bv. overtollig vastgoed, oude machines) → kasmiddelen stijgen (vlottend actief) zonder de kortlopende schulden te raken. Werkkapitaal stijgt. 🤖
+> > 
+> > Andere mogelijke maatregelen (niet in opsomming): voorraadbeheer optimaliseren (just-in-time → lager voorraadbeslag, maar dat verlaagt werkkapitaal-component voorraden zonder de eindwaarde te raken — neutraal effect), klantenkrediet verkorten (DSO verlagen → kas in plaats van vorderingen, neutraal effect op werkkapitaal-som).
+> > 
+> > _Grondslag: [[werkkapitaal]] §Bouwstenen — Absolute tegenhanger van current ratio; bedrijfseconomische standaard-doctrine (klassiek Brealey/Myers, ook in Belgische ratio-analyse-handboeken)._
+> > 
+> > ⚠️ Onderscheid: 'werkkapitaal verhogen' (de balanspost) is iets anders dan 'werkkapitaalbehoefte verlagen' (de operationele cyclus optimaliseren). De vraag spreekt over de eerste. Maatregelen die alleen voorraad of klantenkrediet roteren raken de werkkapitaal-som niet (alleen de samenstelling).
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2013-2 vraag 3 (tier B)
+> Vraag 3 … / 6 punten
+> 
+> a) Wat komt een bedrijfsleider te weten door de liquiditeitsratio’s te berekenen ? Antwoord … / 2 punten
+> 
+> b) Met welke elementen houdt men geen rekening bij de berekening van de liquiditeit in enge zin en wel bij de berekening van de liquiditeit in ruime zin? Antwoord … / 2 punten
+> 
+> c) Verklaar uw antwoord aangaande punt b. Antwoord … / 2 punten
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2014-1 vraag 1 (tier B)
+> Vraag 1 … / 8 punten In bijlage vindt U de balans na winstverdeling en de resultatenrekening van een cliënt. Kruis het juiste antwoord aan voor de ratio’s van het BOEKJAAR. Uit de toelichting tot de jaarrekening blijkt o.a. dat :
+> 
+> 1. Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361 869,98 EUR;
+> 
+> 2. Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415,00 EUR;
+> 
+> 3. Er intrestsubsidies werden aangerekend op de resultatenrekening voor een bedrag van 6 000,00 EUR;
+> 
+> 4. Er geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt werd;
+> 
+> 5. Er gemiddeld 38,20 werknemers (voltijds equivalent) tewerkgesteld waren;
+> 
+> 6. De te bestemmen winst van het boekjaar integraal gereserveerd werd.
+> 
+> a) Bruto toegevoegde waarde per werknemer Antwoord  (7 441 663 – 3 185 295 – 1 192 317) : 38,20 = 80 210,76  (7 441 663 – 415 – 3 185 295 – 1 192 317) : 38,20 = 80 199,90  (7 441 663 – 3 185 295 – 1 192 317 – 1 548 647) : 38,20 = 39 670,26  (7 441 663 – 3 185 295 – 1 192 317 – 436 469 – 879) : 38,20 = 68 761,86
+> 
+> b) Nettobedrijfskapitaal Antwoord  1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 – 1 210 536 = 6 648 695  120 000 + 1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 – 1 210 536 = 6 768 695  1 371 010 + 1 739 806 +2 200 000 + 2 548 415 + 2 704 – 1 210 536 – 39 932 = 6 611 467  120 000 + 1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 + 2 704 – 1 210 536 – 39 932 = 6 731 467
+> 
+> c) Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten Antwoord  ((877 279 + 46 934 + 211 950 – 6 000) : 9 081 054) % = 12,45  ((577 279 + 109 642 + 185 720 – 6 000) : 9 081 054) % = 9,54  ((877 279 + 46 934 + 211 950) : 9 081 054) % = 12,51  ((577 279 + 109 642 + 211 950 – 6 000) : 9 081 054) % = 9,83
+> 
+> d) Liquiditeit in enge zin Antwoord  (1 371 010 + 1 739 806 + 2 200 000 + 2 548 415 + 2 704) : (1 210 536 + 39 932) = 6,29  (1 739 806 + 2 200 000 + 2 548 415) : 1 210 536 = 5,36  (1 371 010 + 1 739 806 + 2 200 000 + 2 548 415) : 1 210 536 = 6, 49  (1 739 806 + 2 200 000 + 2 548 415 + 2 704) : (1 210 536 + 39 932) = 5,19
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2014-1 vraag 2 (tier B)
+> Vraag 2 … / 5 punten
+> 
+> a) Omschrijf het begrip “nettothesaurie”. Antwoord
+> 
+> b) Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan ? Antwoord
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2015-1 vraag 3 (tier B)
+> Vraag 3 … / 6 punten
+> Welke van de onderstaande elementen neemt U op in de berekening “behoefte aan
+> werkkapitaal (of bedrijfskapitaal)”?
+> Duid bij elke code “ja of nee” aan. Bij elk foutief antwoord of ontbrekend antwoord, wordt er
+> één punt afgetrokken.
+> 
+> Antwoord … / punten
+> 
+> |  | Code | Ja | Neen |
+> |---|---|---|---|
+> | Materiële vaste activa | 22/27 |  |  |
+> | Financiële vaste activa | 28 |  |  |
+> | Vorderingen op meer dan één jaar | 29 |  |  |
+> | Voorraden | 30/36 |  |  |
+> | Bestellingen in uitvoering | 37 |  |  |
+> | Handelsvorderingen | 40 |  |  |
+> | Overige vorderingen | 41 |  |  |
+> | Geldbeleggingen | 50/53 |  |  |
+> | Liquide middelen | 54/58 |  |  |
+> | Overlopende rekeningen van het actief | 490/1 |  |  |
+> | Eigen vermogen | 10/15 |  |  |
+> | Voorzieningen en uitgestelde belastingen | 16 |  |  |
+> | Schulden op meer dan één jaar | 17 |  |  |
+> | Schulden op meer dan één jaar die binnen het jaar
+> vervallen | 42 |  |  |
+> | Financiële schulden | 43 |  |  |
+> | Handelsschulden | 44 |  |  |
+> | Ontvangen vooruitbetalingen | 46 |  |  |
+> | Schulden m.b.t. belastingen, bezoldigingen en sociale
+> lasten | 45 |  |  |
+> | Overige schulden | 47/48 |  |  |
+> | Overlopende rekeningen van het passief | 492/3 |  |  |
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2015-1 vraag 1.A · open (tier B)
+> (1 479 283 + 425 554 + 804) x 100 / (8 034 747 + 344 153) = 22,74
+
+> [!question]- ITAA 2015-1 vraag 1.B · open (tier B)
+> (1 417 747 + 425 554 + 804) x 100 / (8 365 788 - 1 600 244) = 27,26
+
+> [!question]- ITAA 2015-1 vraag 1.C · open (tier B)
+> (1 479 283 + 425 554 + 804 – 1 665) x 100 / (8 034 747 + 344 153 – 1 288) = 22,73
+
+> [!question]- ITAA 2015-1 vraag 1.D · meerkeuze (tier B)
+> (968 829 + 425 554 + 804 – 1 665) x 100 / (8 365 788 – 1 288) = 16,66
+>
+> - Personeelskosten ten opzichte van toegevoegde waarde
+> - (1 600 244 – 1 665) X 100 / (8 365 788 - 1 288 – 3 457 309 – 1 398 278) = 45,56
+> - 1 600 244 x 100 / (8 365 788 – 3 457 309 – 1 398 278) = 45,59
+> - 1 600 244 x 100 / 1 479 283 = 108,18
+
+> [!question]- ITAA 2015-1 vraag 1.D · meerkeuze (tier B)
+> (1 600 244 – 1 665) x 100 / (8 034 747 – 13 112 - 3 457 309 – 1 398 278 – 1 288) = 50,51
+>
+> - Nettorentabiliteit van het eigen vermogen na belastingen
+> - 968 829 x 100 / 10 274 463 = 9,43
+> - 968 829 x 100 / 8 177 941 = 11,85
+> - 1 417 747 x 100 / 10 274 463 = 13,80
+
+> [!question]- ITAA 2015-1 vraag 1.D · meerkeuze (tier B)
+> 1 479 283 x 100 / 8 177 941 = 18,09
+>
+> - Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen
+> - 3 444 161 / 530 373 = 6,49
+> - 3 457 309 / 530 373 = 6,52
+> - 3 457 309 / 1 344 750 = 2,57
+> - 3 444 161 / 1 344 750 = 2,56
+
+
+### Analyse en kritische beoordeling van de jaarrekening 📃
+
+> [!question]- ITAA 2015-1 vraag 2 (tier B)
+> Vraag 2 … / 5 punten Omschrijf de volgende begrippen :
+> 
+> a) Intrinsieke waarde Antwoord … / 1 punt
+> 
+> b) Fractiewaarde Antwoord … / 1 punt
+> 
+> c) Netto rendabiliteit van de bedrijfsactiva Antwoord … / 1 punt
+> 
+> d) Algemene schuldgraad Antwoord … / 1 punt
+> 
+> e) Operationele cash flow voor belastingen Antwoord … / 1 punt
+
+
+### Wetgeving inzake de jaarrekening 📃
+
+> [!question]- ITAA 2013-1 vraag 1 (tier B)
+> Vraag 1 … / 4 punten
+> De besloten vennootschap met beperkte aansprakelijkheid XYZ heeft de volgende balans- en
+> resultatenrekening.
+> 
+> | ACTIEF | JAAR
+> 2012 | JAAR
+> 2011 | PASSIEF | JAAR
+> 2012 | JAAR
+> 2011 |
+> |---|---|---|---|---|---|
+> | Materiële vaste activa | 105.000 | 100.000 | Kapitaal | 65.000 | 65.000 |
+> | Vorderingen < jaar | 45.000 | 40.000 | Reserves | 15.000 | 15.000 |
+> | Liquide middelen | 25.000 | 30.000 | Overgedragen
+> resultaat | 5.000 | 10.000 |
+> |  |  |  | Schulden >
+> jaar | 50.000 | 50.000 |
+> |  |  |  | Schulden <
+> jaar | 40.000 | 30.000 |
+> | TOTAAL | 175.000 | 170.000 | TOTAAL | 175.000 | 170.000 |
+> |  |  |  |  |  |  |
+> | RESULTATENREKENING |  |  |  |  |  |
+> | Te bestemmen
+> winst/verlies |  |  |  | -5.000 | 15.000 |
+> |  |  |  |  |  |  |
+> 
+> Resultaatverwerking Jaar 2011:
+> Te bestemmen winst van het boekjaar 15.000
+> Overgedragen verlies vorig boekjaar -5.000
+> Over te dragen winst 10.000
+> Resultaatverwerking Jaar 2012:
+> Te bestemmen verlies van het boekjaar -5.000
+> Overgedragen winst vorig boekjaar 10.000
+> Over te dragen winst 5.000
+> a) Dient deze vennootschap haar waarderingsregels te verantwoorden in haar
+> jaarverslag, en indien zij geen jaarverslag dient op te stellen in haar jaarrekening in
+> het jaar 2012?
+> Antwoord
+> b) Motiveer uw antwoord.
+> Antwoord
+
 
 
 ## Competentie-index
 
 <div class="two-column-list">
 
-- [[competenties/begeleiden-waardering-onderneming-bij-overdracht|Begeleiden van de waardering van een onderneming bij overdracht]]
 - [[competenties/beoordelen-bestuursverslag-en-niet-financiele-info|Beoordelen van het bestuursverslag en de niet-financiële informatie]]
 - [[competenties/beoordelen-werkkapitaal-en-kasstroom|Beoordelen van het werkkapitaal en de kasstroom van een onderneming]]
 - [[competenties/berekenen-interpreteren-liquiditeitsratios|Berekenen en interpreteren van de liquiditeitsratio's]]
@@ -711,7 +696,6 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 - [[klasse-0-niet-in-balans|Klasse 0 — niet in de balans opgenomen rekeningen]] · `begrip`
 - [[liquiditeitsratio|Liquiditeitsratio (begrip)]] · `begrip`
 - [[materieel-belang-jaarrekening|Materieel belang (materiality)]] · `regel`
-- [[meldingsplicht-accountant-continuiteit|Meldingsplicht accountant bij bedreigde continuïteit]] · `regel`
 - [[niet-in-balans-opgenomen-rechten-verplichtingen|Niet in de balans opgenomen rechten en verplichtingen]] · `regel`
 - [[ondernemingsraad-sociaal-economische-info|Ondernemingsraad — sociaal-economische informatie]] · `autoriteit`
 - [[opstellen-analytische-balans|Opstellen van een analytische balans voor een vennootschap]] · `competentie`

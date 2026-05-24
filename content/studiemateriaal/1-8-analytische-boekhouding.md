@@ -58,7 +58,7 @@ gerelateerde_concepten:
 - voorbepaalde-kosten
 - voorraadwaardering
 - werkelijke-kostencalculatie
-gegenereerd_op: '2026-05-21'
+gegenereerd_op: '2026-05-18'
 ---
 ## Wat verwacht het examen van jou?
 
@@ -87,21 +87,19 @@ gegenereerd_op: '2026-05-21'
 
 ## Leesgids
 
-<!-- TODO: Opus-glue leesgids -->
+Deze minicursus bouwt op van bouwstenen naar beslissingen: eerst de architectuur van een [[analytische-boekhouding]], dan kostencomponenten en de wettelijke [[vervaardigingsprijs]], vervolgens kostencalculatiemethoden. Tussen de thematische blokken staan competentie-secties om de stof procedureel te oefenen. Het sluitstuk is de [[budget-cyclus|budgetcyclus]] met [[verschillenboekhouding]] — dezelfde concepten, nu vooruitkijkend. Volg de volgorde lineair.
 
 ## Waarom dit programmaonderdeel telt
 
-<!-- TODO: Opus-glue waarom_po -->
+De [[algemene-boekhouding]] beantwoordt externe vragen per kostensoort; voor interne sturing volstaat dat niet. De [[analytische-boekhouding]] herverdeelt diezelfde kosten over dragers en centra en dient de [[doelstellingen-analytische-boekhouding|vier doelstellingen]]: kostprijs, winstgevendheid, opvolging en beslissings-input. Het examen toetst op integratie: meerdere kostenelementen, een methode-keuze die je moet verantwoorden en een management-advies dat eruit volgt. Wettelijk raakt dit vakgebied vooral de [[vervaardigingsprijs]] voor voorraadwaardering en de vrije inrichting van klasse 9 in het MAR.
 
 ## Waarom een tweede boekhouding? Van financieel verslag naar interne sturing
 
-<!-- TODO: Opus-glue oriëntatie -->
+De [[algemene-boekhouding]] groepeert kosten per economische aard voor buitenstaanders; voor een bedrijfsleider is dat te grofkorrelig — een totale loonpost verbergt waar het verlies zit. De [[analytische-boekhouding]] herverdeelt diezelfde kosten over [[kostendrager|kostendragers]] en [[kostencentrum|kostencentra]], en sluit aan via een [[registratiesysteem-waarderingsneutraal|waarderingsneutraal registratiesysteem]].
 
 ## Doelstellingen en bouwstenen van het analytisch rekeningenstelsel
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+De [[doelstellingen-analytische-boekhouding]] sturen de inrichting: een product-georiënteerde onderneming kiest andere dragers dan een dienstverlener. Drie assen vormen het skelet — [[kostensoort|kostensoorten]], [[kostencentrum|kostencentra]] en [[kostendrager|kostendragers]] — verbonden door [[verdeelsleutel|verdeelsleutels]] en geboekt in [[rekeningenstelsel-analytisch|klasse 9 van het MAR]].
 
 - [[doelstellingen-analytische-boekhouding|Doelstellingen van de analytische boekhouding]] · `cluster`
 - [[rekeningenstelsel-analytisch|Rekeningenstelsel voor analytische boekhouding (klasse 9)]] · `begrip`
@@ -112,9 +110,7 @@ gegenereerd_op: '2026-05-21'
 
 ## Registratiesystemen: koppeling tussen algemene en analytische boekhouding
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+Beide boekhoudingen moeten consistent blijven — anders ontstaan onverklaarbare verschillen met de jaarrekening. Het [[registratiesysteem-waarderingsneutraal|waarderingsneutrale systeem]] bewaakt dat; praktisch kies je tussen [[registratiesysteem-eenvoudige-integratie|eenvoudige]] of [[registratiesysteem-proportionele-integratie|proportionele integratie]]. De [[budgetboekhouding]] sluit aan zodat realisaties direct vergelijkbaar zijn met budget.
 
 - [[registratiesysteem-waarderingsneutraal|Waarderingsneutraal registratiesysteem]] · `cluster`
 - [[registratiesysteem-eenvoudige-integratie|Eenvoudige integratie (registratiesysteem)]] · `cluster`
@@ -123,17 +119,13 @@ gegenereerd_op: '2026-05-21'
 
 ## Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+Je leert deze stappen samen inzetten: vertrekken vanuit de informatie-behoeften, [[kostendrager|dragers]] en [[kostencentrum|centra]] afbakenen, kostensoorten koppelen en pas dan een [[registratiesysteem-waarderingsneutraal|registratiesysteem]] kiezen. De bedrijfsafhankelijke keuzes blijven, de logica is stabiel.
 
 [[competenties/opzetten-analytisch-rekeningenstelsel|→ Volledige procedure]]
 
 ## Kostencomponenten: typologie naar gedrag, herkomst en toewijsbaarheid
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+Kosten kennen twee onafhankelijke assen: gedrag ([[vaste-kosten|vast]] versus [[variabele-kosten|variabel]]) en toewijsbaarheid ([[directe-kosten|direct]] versus [[indirecte-kosten|indirect]]). De [[typologie-van-kosten]] toont dat die assen niet samenvallen — een veelvoorkomende examenvalkuil. Inhoudelijk splits je verder in [[materiaalkosten]], [[arbeidskosten]] en [[overige-kosten]].
 
 - [[typologie-van-kosten|Typologie van kosten]] · `synthese`
 - [[directe-kosten|Directe kosten]] · `begrip`
@@ -146,9 +138,7 @@ gegenereerd_op: '2026-05-21'
 
 ## Wettelijke vervaardigingsprijs en voorraadwaardering (KB 21.10.2018 + CBN 132/7)
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+Hier raakt de analytische boekhouding het externe verslag: de [[vervaardigingsprijs]] is wettelijk gedefinieerd en stuurt de [[voorraadwaardering]] van zelfvervaardigde producten. De [[kostprijs-per-eenheid]] die je berekent moet zowel intern bruikbaar als wettelijk verdedigbaar zijn — een dubbele toets die op het examen geregeld terugkomt.
 
 - [[vervaardigingsprijs|Vervaardigingsprijs]] · `regel`
 - [[voorraadwaardering|Voorraadwaardering (kostprijsmethoden)]] · `regel`
@@ -156,17 +146,13 @@ gegenereerd_op: '2026-05-21'
 
 ## Bepalen van de vervaardigingsprijs
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+De wettelijke samenstelling van de [[vervaardigingsprijs]] is het ankerpunt. Je leert dit toepassen: aanschaffingsprijs van [[materiaalkosten|grondstoffen]], [[directe-kosten|directe productiekosten]] en een evenredig deel [[indirecte-kosten|indirecte productiekosten]] via een causaal verantwoorde [[verdeelsleutel]].
 
 [[competenties/bepalen-vervaardigingsprijs|→ Volledige procedure]]
 
 ## Kostencalculatiemethoden in vogelvlucht: keuze, doel en draagwijdte
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+Geen methode dient alle doelen — de [[costing-methodes-vergelijking]] zet de keuzes tegen elkaar. Voor voorraadwaardering is [[volledige-kostencalculatie|full costing]] het wettelijke spoor, voor korte-termijn-beslissingen vaak [[direct-costing]]. Die keuze kruist met de tijds-as: [[werkelijke-kostencalculatie|werkelijk]] of [[voorbepaalde-kosten|standaard]]. Bij overhead-zware structuren biedt de [[abc-methode]] een fijnmaziger alternatief.
 
 - [[costing-methodes-vergelijking|Kostencalculatiemethoden vergeleken]] · `synthese`
 - [[volledige-kostencalculatie|Volledige kostencalculatie (full costing)]] · `cluster`
@@ -177,50 +163,38 @@ gegenereerd_op: '2026-05-21'
 
 ## Toepassen van de volledige kostencalculatie (full costing) op een productie-eenheid
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+Stap voor stap doorloop je: [[directe-kosten|directe versus indirecte]] kosten splitsen, indirecte via [[kostencentrum|kostencentra]] herverdelen met causale [[verdeelsleutel|verdeelsleutels]], en de [[kostprijs-per-eenheid]] consolideren. Voor voorraadwaardering sluit het resultaat aan op de wettelijke [[vervaardigingsprijs]].
 
 [[competenties/toepassen-volledige-kostencalculatie|→ Volledige procedure]]
 
 ## Toepassen van direct costing en contributiemarge-analyse
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+Voor korte-termijn-beslissingen — extra-order, productmix, prijszetting onder druk — verschuift het zwaartepunt naar [[direct-costing]] en [[contributiemarge|contributiemarge-analyse]]. Je splitst eerst kosten in [[variabele-kosten|variabel]] en [[vaste-kosten|vast]], berekent dan per eenheid en in totaal de contributiemarge, en kiest in een complexe casus tussen marginale en volledige kost als beslissingsbasis.
 
 [[competenties/toepassen-direct-costing-en-contributiemarge|→ Volledige procedure]]
 
 ## Contributiemarge en break-even: de hefboom tussen vaste en variabele kosten
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+De [[contributiemarge]] is wat van de verkoopprijs overblijft na aftrek van de variabele kost — dat saldo dekt eerst de vaste kosten en daarna winst. De [[break-even-analyse]] bouwt daarop verder: hoeveel eenheden of welke omzet zijn nodig om uit het rood te komen. Eenmaal je die hefboom bezit, integreer je vragen over prijs, kostenstructuur en veiligheidsmarge tot één oordeel.
 
 - [[contributiemarge|Contributiemarge]] · `begrip`
 - [[break-even-analyse|Break-even-analyse]] · `cluster`
 
 ## Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+Stap voor stap inventariseer je [[vaste-kosten]] en [[variabele-kosten]], bereken je de [[contributiemarge]] per eenheid en zet je die om in een break-even-volume of -omzet. Het besluit gaat verder dan het cijfer: weeg ook de gevoeligheid voor prijs- en kostenwijzigingen.
 
 [[competenties/uitvoeren-break-even-analyse|→ Volledige procedure]]
 
 ## Toepassen van de ABC-methode (Activity Based Costing) op een productlijn
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+Wanneer overhead het kostengedrag domineert en de klassieke uur-sleutel het slecht ondervangt, verschuif je naar de [[abc-methode]]. Je identificeert activiteiten, koppelt kost-drivers en sluist kosten via activiteiten naar [[kostendrager|kostendragers]]. ABC toont vaak hoe complexe orders winstgevendheid uithollen die onder volume-gemiddelden verborgen blijft.
 
 [[competenties/toepassen-abc-methode-op-productlijn|→ Volledige procedure]]
 
 ## Beslissingsrelevante kosten: marginaal, opportuniteit en sunk
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+Niet elke kost telt voor een toekomstige beslissing, en niet elke relevante kost staat in de boekhouding. De [[marginale-kostprijs]] geeft de incrementele kost, de [[opportuniteitskost]] het opgegeven alternatief, en de [[sunk-cost]] streep je expliciet weg. Tegenover die lens staat de [[gemiddelde-kostprijs]] voor lange-termijn-richtprijzen — gebundeld in elke [[kostenanalyse-make-or-buy|make-or-buy-afweging]].
 
 - [[marginale-kostprijs|Marginale kostprijs]] · `begrip`
 - [[opportuniteitskost|Opportuniteitskost]] · `begrip`
@@ -230,17 +204,13 @@ gegenereerd_op: '2026-05-21'
 
 ## Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+Een [[kostenanalyse-make-or-buy|make-or-buy-vraag]] integreert vorige concepten: vermijdbare kosten tegenover aankoopprijs, [[opportuniteitskost|opportuniteitskosten]] meewegen, [[sunk-cost|sunk costs]] negeren. In een complexe casus weeg je daarna kwalitatieve factoren — leveringszekerheid, kennis-behoud — mee in het advies.
 
 [[competenties/uitvoeren-make-or-buy-beslissing|→ Volledige procedure]]
 
 ## Budgetcyclus: van plan naar opvolging en bijsturing
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+Tot hier keek je achteruit; vanaf hier kijkt de boekhouding vooruit. De [[budget-cyclus]] structureert die blik, [[budgetbeheer]] is het proces, [[budgetprocedure]] beschrijft de fasering, en het [[master-budget]] consolideert deelbudgetten tot pro-forma-overzichten. Onderscheid scherp tussen [[statisch-budget|statisch]] (ongewijzigd) en [[flexibel-budget|flexibel]] (herrekend naar werkelijk volume) — alleen het laatste laat een eerlijke afwijkings-analyse toe.
 
 - [[budget-cyclus|Budgetcyclus]] · `synthese`
 - [[budgetbeheer|Budgetbeheer]] · `cluster`
@@ -251,37 +221,31 @@ gegenereerd_op: '2026-05-21'
 
 ## Opstellen van een master-budget (operationeel + financieel)
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+Het [[master-budget]] bouw je op uit een vaste sequentie: verkopen sturen productie, productie stuurt aankoop en kosten, en die leiden tot pro-forma resultatenrekening, balans en kasstroom. Je leert deze stappen inzetten binnen de [[budgetprocedure]] — in een complexe casus trek je de verbanden tussen deelbudgetten consistent door.
 
 [[competenties/opstellen-master-budget|→ Volledige procedure]]
 
 ## Verschillenboekhouding: standaard versus realisatie
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue thematisch-intro -->
+De [[verschillenboekhouding]] confronteert [[voorbepaalde-kosten|standaardkosten]] met [[werkelijke-kostencalculatie|werkelijke kosten]] en splitst het totaalverschil in oorzaken met elk een eigen verantwoordelijke. Voor arbeid scheidt het [[prijsverschil-arbeid|tariefverschil en efficiëntieverschil]] een loon-oorzaak van een productiviteits-oorzaak — dezelfde structuur werkt voor materiaal en overhead.
 
 - [[verschillenboekhouding|Verschillenboekhouding]] · `cluster`
 - [[prijsverschil-arbeid|Tariefverschil en efficiëntieverschil bij arbeid]] · `begrip`
 
 ## Berekenen en interpreteren van budgetverschillen (verschillenboekhouding)
 
-> [!info] Hoort bij taak: Analyseren van de financiële situatie van een onderneming
-
-<!-- TODO: Opus-glue competentie-intro -->
+Stap voor stap bereid je de vergelijkingsbasis voor met een [[flexibel-budget]], splits je in prijs- en hoeveelheidscomponenten en bouw je het oordeel op uit de oorzaken. Wanneer twijfel ontstaat tussen volume-effect en inefficiëntie, geeft het flexibel budget de scheidslijn.
 
 [[competenties/berekenen-interpreteren-budgetverschillen|→ Volledige procedure]]
 
 ## Grenzen van kostencalculatie en brug naar de financiële analyse
 
-<!-- TODO: Opus-glue oriëntatie -->
+Elke kostprijs draagt aannames: verdeelsleutel, capaciteitsniveau, afbakening direct/indirect. Verschillende methoden geven verschillende cijfers voor dezelfde realiteit — elk dient een eigen doel zoals de [[costing-methodes-vergelijking]] toont. De brug naar de financiële analyse loopt langs de [[vervaardigingsprijs]] (balans) en het [[master-budget]] (vooruitzicht).
 
 
 ## Synthese-stappenplan
 
-<!-- TODO: Opus-glue synthese -->
+Bij een geïntegreerde casus volg je deze gedachtelijn. Stel eerst vast welk doel de kostprijs dient — dat bepaalt of [[volledige-kostencalculatie|full costing]], [[direct-costing]] of een ander spoor de juiste lens is. Ontleed dan de kostenstructuur volgens [[typologie-van-kosten|de typologie]] en wijs toe: direct naar [[kostendrager|dragers]], indirect via [[kostencentrum|centra]] en [[verdeelsleutel|verdeelsleutels]]; bij overhead-zware structuren overweeg je de [[abc-methode]]. Voor balans-objecten toets je tegen de wettelijke [[vervaardigingsprijs]]; voor toekomstige beslissingen verschuif je naar [[marginale-kostprijs|marginale]] en [[opportuniteitskost|opportuniteitskosten]] en negeer je [[sunk-cost|sunk costs]]. Voor planning leg je een [[master-budget]] en haal je via [[flexibel-budget]] en [[verschillenboekhouding]] de oorzaken van afwijkingen boven. Sluit altijd af met een leesbaar oordeel — welk advies volgt uit de cijfers, en met welk voorbehoud.
 
 ## Cheatsheet
 
@@ -321,9 +285,9 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-<!-- TODO: Opus-glue examenfocus -->
+Examenvragen op dit programmaonderdeel toetsen niet één formule maar een redeneerlijn: welke methode past bij welk doel, welke kost is wel of niet relevant, en hoe leid je daar een management-advies uit af. Let vooral op de scheidslijnen die de cheatsheet aanstipt — direct versus variabel, full costing versus direct costing, statisch versus flexibel budget. Wie die onderscheiden mechanisch herkent, lost ook samengestelde casussen op.
 
-<!-- Geen examenvragen geclassificeerd voor dit programmaonderdeel (schema 4.0). -->
+<!-- TODO: geen examenfocus--*.json voor dit PO; genereer via tools/examen/genereer_examenfocus_uit_classificatie.py of laat een agent examenfocus-objecten curateren -->
 
 
 ## Competentie-index
