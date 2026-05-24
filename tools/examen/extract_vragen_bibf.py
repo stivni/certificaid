@@ -29,7 +29,7 @@ from tools.examen._vraagtekst_normalisatie import normaliseer as normaliseer_vra
 
 TOOL_ID = "vragen-extractie-v1-bibf"
 PDF_LIB = "pdfplumber"
-BASE_DIR = Path("/Users/stivni/Documents/ITAA/certificaid")
+BASE_DIR = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = BASE_DIR / "data" / "programma" / "examen_vragen"
 PDF_DIR = BASE_DIR / "resources" / "raw" / "voorbeeldexamens"
 
