@@ -3,7 +3,7 @@ title: Voorbeeldexamens
 description: Overzicht van alle voorbeeldexamens met examenvragen (schema 4.0, ADR-024).
 tags: [examen, voorbeeldvragen, overzicht]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-21
+gegenereerd_op: 2026-05-25
 ---
 
 # Voorbeeldexamens
