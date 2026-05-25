@@ -4,31 +4,17 @@
 
 - Schema 2.1 v1.5 live. Canonieke spec: `docs/schema-v15-besluit.md`. JSON Schema: `data/concepten/schema-2.1.schema.json`.
 - 396 records in `data/concepten/records/`. Alle records hebben minstens `inhoud.kern`.
-- 371 records zijn **placeholders**: bevatten `inhoud.kern` maar **geen `inhoud.elementen[]`**. Dit zijn de doelrecords voor wave-2.
-- 25 records zijn al gevuld (gemigreerd vanuit schema 2.0, hebben `inhoud.elementen[]`). Sla die over.
-- 0 records hebben `beschrijven` in `metadata.changelog` — wave-2 is de eerste operatie-batch.
-- 1 record heeft `inhoud.accountant_perspectieven` — alle overige 395 wacht op Pass 2.
+- 371 records zijn **placeholders** (`inhoud.kern.definitie.tekst == naam.primair`, geen `elementen[]`).
+- 25 records zijn al gevuld (gemigreerd vanuit schema 2.0).
 - **CLAUDE.md regel 3**: geen `anthropic.Anthropic()`-calls vanuit scripts. Alle LLM-werk uitsluitend via Agent-tool in Claude Code.
-
-### Concept-type verdeling van de 371 placeholders
-
-| concept_type | count |
-|---|---|
-| kader | 158 |
-| procedure | 78 |
-| regime | 73 |
-| instrument | 23 |
-| verrichting | 15 |
-| ratio | 14 |
-| balanspost | 10 |
 
 ---
 
 ## Doel
 
-**Pass 1 (verplicht)**: `beschrijven` op alle 371 placeholders. Vult `inhoud.kern`, `inhoud.elementen[]` en `inhoud.gebruikscontext` vanuit training-data. Geen RAG, geen MCP-calls. Confidence uitsluitend `verondersteld` of `betwijfeld`.
+**Pass 1 (verplicht)**: `beschrijven` op **alle 396 records — aanvullend**. Voor placeholders = cold-start (vul kern + elementen + gebruikscontext). Voor al-gevulde records = augment: verrijk waar dunner, herschrijf niet als bestaande inhoud klopt, voeg ontbrekende elementen toe. Confidence uitsluitend `verondersteld` of `betwijfeld`.
 
-**Pass 2 (selectief)**: `accountant_perspectief` op records waar beroepsrol-werk zinvol is. Vuistregel: vul voor `instrument`, `procedure`, `regime`, `verrichting`, `balanspost` en inhoudelijke `kader`-records. Sla over voor `ratio`-records en abstracte kaders zonder handelingsdimensie. Schatting: 60-70% van de 371 records (~220-260).
+**Pass 2 (selectief)**: `accountant_perspectief` op records waar beroepsrol-werk zinvol is. Vuistregel: vul voor `instrument`, `procedure`, `regime`, `verrichting`, `balanspost` en inhoudelijke `kader`-records. Sla over voor `ratio`-records en abstracte kaders zonder handelingsdimensie. Schatting: 60-70% van 396 (~240-280).
 
 ### Open beslispunt voor uitvoerende sessie
 
@@ -62,31 +48,41 @@ Kies voor aanvang. Dit document beschrijft de 2-passes-aanpak als default.
    ls data/concepten/examples/obligatielening-01-beschrijven.json
    ```
 
-4. Bouw de queue van 371 fiche-ids:
+4. Bouw de queue van alle 396 fiche-ids (placeholders + al-gevulde):
 
    ```bash
-   python3 << 'EOF'
-   import json, pathlib
-   d = pathlib.Path('data/concepten/records')
-   ids = [r.stem for r in sorted(d.glob('*.json'))
-          if not json.loads(r.read_text()).get('inhoud', {}).get('elementen')]
+   python3 -c "
+   import pathlib
+   ids = [p.stem for p in sorted(pathlib.Path('data/concepten/records').glob('*.json'))]
    print('\n'.join(ids))
-   print(f'\n# totaal: {len(ids)}')
-   EOF
+   print(f'# totaal: {len(ids)}')
+   "
    ```
 
-5. Start eerste batch van 12 via Agent-tool (zie spawn-template hieronder).
+5. Start de **rolling pool** van 12 via Agent-tool (zie spawn-template hieronder).
 
 ---
 
-## Workflow — rolling 12-parallel direct-flow
+## Workflow — **rolling** 12-parallel, direct-flow, aanvullend
 
-- Geen `/tmp` staging. Sub-agent schrijft direct naar `data/concepten/records/<fiche-id>.json`.
-- Sub-agent-spawning uitsluitend via **Agent-tool in Claude Code** — geen Python-scripts met Anthropic API.
-- Queue beheer in orchestrator-hoofd (jij, Opus): Python-lijst van 371 ids, verwerk in batches van 12 parallel.
-- Per batch: spawn 12 agents tegelijk, wacht tot alle 12 klaar zijn, voer dan auto-fix + validate uit per record, log failures, spawn volgende batch.
-- Commits: na elke batch van 12 (of maximaal elke 25 records) een `git commit`.
-- Steeds 12 agents in flight tot queue leeg.
+**Rolling = NIET batch**. Niet "spawn 12, wacht op alle 12, spawn volgende 12". Wel:
+
+1. Initialiseer queue = lijst van 396 fiche-ids.
+2. Spawn de eerste 12 agents (één per fiche). Markeer "in-flight: 12".
+3. **Bij elke notification dat één sub-agent klaar is**:
+   - Run auto-fix + validate op die record (zie sequentie hieronder)
+   - Log resultaat (success / fix-list / error)
+   - **Direct** pop de volgende fiche-id uit de queue en spawn een nieuwe agent
+   - In-flight blijft 12 (tot queue leeg is)
+4. Wanneer queue empty + alle in-flight klaar: einde.
+
+Voordelen rolling boven batch: snelle agents wachten niet op trage; volledige throughput; minder dode tijd.
+
+**Direct-flow**: sub-agent schrijft direct naar `data/concepten/records/<fiche-id>.json`. Geen `/tmp` staging.
+
+**Aanvullend (additive)**: voor records die al gevuld zijn (heeft `inhoud.elementen[]` met content), behoud bestaande inhoud waar correct; alleen aanvullen waar dun, ontbrekende elementen toevoegen, gebruikscontext-arrays uitbreiden. Niet overschrijven, niet zonder reden herschrijven.
+
+**Spawning uitsluitend via Agent-tool**, geen Python-script met Anthropic API (cf. CLAUDE.md regel 3).
 
 ---
 
@@ -106,10 +102,15 @@ Je bent een Certificaid draft-agent — operatie `beschrijven` (schema 2.1 v1.5)
 3. `data/concepten/records-index.compact.txt` — scope-anker (vermijd duplicatie, suggereer relaties)
 4. `data/concepten/examples/obligatielening-01-beschrijven.json` — shape-referentie
 
+**MODUS — aanvullend** (additive):
+- Als record al `inhoud.elementen[]` met content heeft: BEHOUD bestaande items. Vul aan waar dun, voeg ontbrekende toe. Niet zonder reden herschrijven.
+- Als record placeholder is (geen `elementen[]`): cold-start vullen.
+- Vergelijk bestaande inhoud met je gegenereerde inhoud — bij overlap: keep de bestaande (heeft mogelijk wettekst-bronnen die je nu niet kan reproduceren).
+
 **VERBODEN**:
 - Geen MCP-calls (`zoek_bronnen`, `lees_record`, etc.) — uitsluitend training-data
-- Geen /tmp schrijven — direct naar `data/concepten/records/<FICHE-ID>.json`
-- Confidence `geciteerd`/`afgeleid`/`weerlegd` — alleen `verondersteld` of `betwijfeld`
+- Geen `/tmp` schrijven — direct naar `data/concepten/records/<FICHE-ID>.json`
+- Confidence `geciteerd`/`afgeleid`/`weerlegd` — alleen `verondersteld` of `betwijfeld` (downgrade bestaande `geciteerd`/`afgeleid` NIET; laat staan)
 
 **CRITICAL structuur (v1.5)**:
 - `id`, `naam`, `concept_type`, `schema_version`, `metadata`, `inhoud`, `relaties` zijn top-level
@@ -156,33 +157,30 @@ def fix_en_validate(fiche_id: str) -> tuple[bool, list[str]]:
 
 ---
 
-## Commit-ritme
+## Files op disk, geen git-commits
 
-Na elke batch van 12:
-
-```bash
-git add data/concepten/records/
-git commit -m "wave-2 beschrijven: batch <N> (<X>/<Y> records klaar)"
-```
+- Sub-agenten **schrijven direct naar `data/concepten/records/<fiche-id>.json`** — de wijzigingen zijn meteen zichtbaar op het filesystem (Finder, editor, `cat`, etc.). Geen `/tmp`-staging.
+- **Niet `git commit` draaien tijdens de run.** Files blijven als "modified / unstaged" in `git status` tot wave-2 klaar is en de gebruiker beslist over commit-strategie.
+- Bij abort: bestanden blijven staan zoals laatst geschreven; gebruiker beslist over `git restore` (rollback) of `git add` + commit (behoud).
 
 ---
 
 ## Stopcriteria
 
 - **Queue empty** — normaal einde.
-- **Schema-failure-rate > 20% na auto-fix** over een batch van 24 records — stop, analyseer root cause, pas spawn-template of prompt aan voor verdere batches.
-- **Gebruiker breekt af** — commit wat klaar is.
+- **Schema-failure-rate > 20% na auto-fix** over een loop van 24 opeenvolgende afgeronde records — stop, analyseer root cause, pas spawn-template of prompt aan voor verdere records.
+- **Gebruiker breekt af** — stop rolling, laat in-flight afronden, dan rapport.
 
 ---
 
 ## Rapportage tussendoor
 
-Elke 25 afgeronde records:
+Elke 25 afgeronde records (geteld over rolling completion-stream):
 
 ```
 === Wave-2 voortgang ===
-Pass 1 beschrijven: X/371 klaar | queue: Y | failures: Z
-Auto-fixes deze batch top-3: [...]
+Pass 1 beschrijven: X/396 klaar | in-flight: 12 | queue: Y | failures: Z
+Auto-fixes recent top-3: [...]
 ```
 
 Bij failure: log fiche-id + de eerste 3 error-paden.
@@ -205,14 +203,13 @@ Geef aan het einde van Pass 1 (en opnieuw na Pass 2):
 
 ## Verwacht looptijd
 
-- Pass 1 (371 records, 12-parallel, 1-3 min/record): ~1.5-2u
-- Pass 2 (~230 records, 12-parallel, 1-2 min/record): ~30-45 min
+- Pass 1 rolling (396 records, 12-parallel, ~2-3 min effectief/record): **~1.5-2u** continu rolling
+- Pass 2 (~250 records, 12-parallel): **~30-45 min**
 
 ---
 
 ## Aannames in dit document
 
-- `obligatielening-02-accountant_perspectief.json` bestaat mogelijk niet op disk — controleer bij aanvang van Pass 2.
 - De Agent-tool-syntax in de spawn-template is de standaard Claude Code syntax. Pas aan als de actieve sessie een afwijkende syntax gebruikt.
-- `is_skelet()` in `multi_pass_extract.py` detecteert `inhoud == {}`. De 371 placeholders in wave-2 zijn NIET skelet in die zin — ze hebben `inhoud.kern` maar geen `inhoud.elementen`. De `progress`-output toont ze als "Gevuld". Gebruik de queue-query hierboven (filtert op `elementen`) om de echte placeholder-lijst te bouwen.
-- De 25 gemigreerde records (met `inhoud.elementen`) staan niet in de queue als je de query correct gebruikt.
+- `is_skelet()` in `multi_pass_extract.py` detecteert `inhoud == {}` — niet bruikbaar voor onze placeholder-detectie (de 371 hebben `inhoud.kern`). Geen filter nodig: de queue bevat ALLE 396, prompts hanteren aanvullend-modus.
+- Voor Pass 2: gebruik `data/concepten/examples/obligatielening-02-accountant_perspectief.json` als shape-referentie.
