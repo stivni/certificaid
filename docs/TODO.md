@@ -2,7 +2,7 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-05-23 (na project-opkuis: roadmap.md gemerged in dit document; voltooide Fase 1-3 + 6 verwijderd)
+**Laatste update**: 2026-05-26 (controle-opdracht-cluster afgewerkt in granulariteit-skelet; PO 1.6 in droogdok)
 
 ---
 
@@ -23,6 +23,7 @@ Deze gelden bij elke keuze:
 - **Voorbeeldexamens-corpus** — vroeg ingelezen en gestructureerd; ground truth voor concepten én patronen. Nooit geforceerd ("dit examen vraagt X dus we maken concept X" is verboden — zie [ADR-008](adr/ADR-008-concept-extractie.md)).
 - **Examenpatronen-laag** — bouwt parallel aan concept-extractie. Drie functies: lens bij extractie, validator van conceptenset, generator van oefenvragen. ([ADR-009](adr/ADR-009-examenpatronen.md))
 - **Reprocessing-strategie** — input verandert → stale-cascade, geen auto-regen. Mens kiest of/wanneer. ([ADR-003](adr/ADR-003-reprocessing-evaluatie.md))
+- **Granulariteit-skelet** — concept-tree-opbouw per cluster ([`docs/granulariteit-skelet.md`](granulariteit-skelet.md) + [ADR-030](adr/ADR-030-granulariteit-typologie.md)). Sparring-werk dat vooraf gaat aan record-herstructurering. **Voltooid**: mobiliteit · kapitaalstructuur · werknemers-vergoedingen · overdracht-onderneming · schuldfinanciering · controle-opdracht (laag-2 sub-Kader audit-en-assurance, 2026-05-26). **Open clusters**: winstuitkering · reorganisatie · fiscale-voordelen-vennootschap · anti-misbruik · insolventie · beroepsbeoefening · loon-en-payroll (K-techniek) · vennootschap-typologie (incl. `vennootschap-groottecategorieen` — OP-EC.7). **Per voltooide cluster**: test-case-validatie via examen-vragen (zoals 6-vragen-check op controle-opdracht 2026-05-26) bevestigt tree-dekking vóór mapping-fase. **Mapping-fase** (post-skelet): bestaande 396 records herstructureren naar skelet — incl. audit-perspectief op 8 Gebeurtenis-records voor bijzondere revisor-verslagen (zie controle-opdracht-cluster OP-EC.E).
 
 ---
 
