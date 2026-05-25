@@ -1,11 +1,24 @@
 {
   "id": "gerechtelijke-fase-fiscaal",
   "naam": {
-    "primair": "Gerechtelijke fase fiscaal"
+    "primair": "Gerechtelijke fase fiscaal",
+    "synoniemen": [
+      "fiscale rechtszaak",
+      "belastinggeschil voor de rechter",
+      "fiscale procedure voor de rechter"
+    ],
+    "vertaling": {
+      "fr": "Phase judiciaire fiscale"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.5.VI",
+      "2.5.taak.4"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +37,491 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.5.VI",
-      "2.5.taak.4"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Gerechtelijke fase fiscaal",
+        "tekst": "De **gerechtelijke fase fiscaal** is de rechterlijke fase van een fiscaal geschil: de belastingplichtige daagt de Belgische Staat voor de **rechtbank van eerste aanleg** nadat de administratieve fase (bezwaar bij de gewestelijke directeur of de FOD Financiën) geen afdoende uitkomst heeft gebracht. De rechtbank toetst de aanslag zowel op **procedure-fouten** als op de **grond** (belastbare basis, tarief, feitelijke elementen).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Wanneer de bezwaarprocedure eindigt met een ongunstige beslissing (of wanneer de administratie de decisietermijn overschrijdt), kan de belastingplichtige de zaak voor de **rechtbank van eerste aanleg** brengen. Die rechter is de **eerste neutrale partij** in de keten: hij is niet gebonden aan de beslissing van de gewestelijke directeur en kan de aanslag volledig ongedaan maken, wijzigen of bevestigen.\n\nDe gerechtelijke fase kent drie structurele kenmerken:\n- **Definitieve verjaringstermijn**: eenmaal de aanslag definitief en onbetwistbaar, is terugkeer onmogelijk\n- **Schorsende werking**: het aanhangig maken bij de rechtbank schorst in principe de invordering niet automatisch — de belastingplichtige moet apart om schorsing vragen\n- **Hoger beroep mogelijk**: ongunstige uitspraken van de rechtbank van eerste aanleg kunnen worden aangevochten bij het hof van beroep, en daarna bij het Hof van Cassatie op louter rechtsvragen",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De gerechtelijke fase bestaat omdat de bezwaarprocedure een **intra-administratief** mechanisme is: de gewestelijke directeur (of zijn gedelegeerde) beoordeelt de aanslag, maar hij is zelf onderdeel van de belastingadministratie. Pas de rechter biedt een **echte, onafhankelijke beoordeling** — een grondwettelijk vereiste voor de eerbiediging van het recht op een eerlijk proces. De gerechtelijke fase is bijgevolg de enige fase waarin het beginsel van de **wapensgelijkheid** volledig operationeel is.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belastingplichtigen voor wie de bezwaarprocedure ongunstig is afgesloten (directie-beslissing) en die de aanslag nog steeds betwisten op inhoudelijke of procedurele gronden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waar de administratie de decisietermijn van **6 maanden** (voor directe belastingen) of een andere toepasselijke termijn heeft overschreden zonder uitspraak — de belastingplichtige kan dan **rechtstreeks** naar de rechtbank zonder te wachten op een expliciete beslissing.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Geschillen over principiële rechtsvragen (bv. grondwettigheid van een heffing, verdragsinterpretatie) waar de rechtbank of het hof van beroep via prejudiciële vragen verdere klaarheid kan scheppen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Geschillen waarbij de administratieve fase nog niet volledig is doorlopen: de belastingplichtige die nog geen bezwaar heeft ingediend of wiens bezwaar nog behandeld wordt, kan **niet rechtstreeks** naar de rechtbank.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Aanvechten van louter **uitvoeringsdaden** van de invordering (bv. beslag) — daarvoor bestaat een aparte stakingsprocedure bij de beslagrechter, niet de procedure bij de rechtbank van eerste aanleg.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "**Ongunstige directie-beslissing** (afwijzing bezwaar, gehele of gedeeltelijke) — de belastingplichtige heeft een wettelijke termijn om te dagvaarden, te rekenen vanaf de betekening van de beslissing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Stilzwijgen van de administratie** na het verstrijken van de decisietermijn — de belastingplichtige kan dan kiezen om te dagvaarden alsof de beslissing ongunstig was.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "**Vonnis van de rechtbank van eerste aanleg** — dit beëindigt de procedure in eerste aanleg. Verdere rechtsmiddelen (hoger beroep, cassatie) starten een nieuwe fase.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Schikking of intrekking** — de belastingplichtige en de administratie kunnen op elk moment een akkoord bereiken en de procedure beëindigen vóór het vonnis.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Kostenrisico** — de verliezende partij draagt doorgaans de gerechtskosten (rolrecht, uitvoeringskosten). Bij grote aanslagnota's kunnen de gerechtskosten en advocatenhonoraria aanzienlijk zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Vertraging invordering vs. belastingdruk** — een procedure kan jaren duren; ondertussen lopen **nalatigheidsintresten** door op de betwiste aanslag, zodat een uiteindelijke veroordeling zwaarder uitvalt dan de oorspronkelijke aanslag.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "bevoegde-rechtbank",
+        "naam": {
+          "primair": "Bevoegde rechtbank",
+          "synoniemen": [
+            "rechtbank van eerste aanleg",
+            "fiscale kamer"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor directe belastingen (PB, VenB, BNI) en btw-geschillen is de **rechtbank van eerste aanleg** (afdeling fiscale zaken) territoriaal bevoegd. De bevoegdheid wordt in beginsel bepaald door de woonplaats of de maatschappelijke zetel van de belastingplichtige. Het gaat om een materie van **openbare orde** — de bevoegdheidsregel kan niet contractueel worden afgeweken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "dagvaardingstermijn",
+        "naam": {
+          "primair": "Dagvaardingstermijn",
+          "synoniemen": [
+            "vervaltermijn voor dagvaarding",
+            "beroepstermijn rechtbank"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige moet dagvaarden **binnen 3 maanden** (voor directe belastingen) na de betekening van de directie-beslissing. Deze termijn is een **vervaltermijn** (geen verjaringstermijn): eenmaal verstreken, vervalt het recht om die aanslag voor de rechtbank te betwisten — de aanslag wordt definitief.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid vervaltermijn vs. verjaringstermijn is cruciaal: een verjaringstermijn kan worden gestuit of geschorst; een vervaltermijn niet. Na de termijn is er geen rechtsmiddel meer mogelijk voor de betreffende aanslag."
+          }
+        }
+      },
+      {
+        "id": "dagvaarding",
+        "naam": {
+          "primair": "Dagvaarding",
+          "synoniemen": [
+            "inleidend exploot",
+            "aanvang gerechtelijke procedure"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De procedure start met een **dagvaarding** door een gerechtsdeurwaarder — een formeel exploot waarbij de Belgische Staat (FOD Financiën, vertegenwoordigd door de bevoegde ontvanger of inspecteur) wordt opgeroepen voor de rechtbank. De dagvaarding vermeldt het **betwiste aanslag-kohier**, de gronden van de betwisting en het gevorderde.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schriftelijke-uitwisseling",
+        "naam": {
+          "primair": "Schriftelijke uitwisseling (conclusies)",
+          "synoniemen": [
+            "conclusietermijnen",
+            "schriftelijk debat"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "Na de dagvaarding volgt een schriftelijk debat waarbij beide partijen **conclusies** uitwisselen:\n1. **Syntheseconclusie belastingplichtige** — volledige uiteenzetting van de feitelijke en juridische argumenten\n2. **Conclusie administratie** — verweer van de FOD Financiën\n3. **Wederantwoord** belastingplichtige (facultatief)\n\nDe rechtbank stelt **termijnen** voor de uitwisseling. Het overschrijden van een toegewezen termijn kan leiden tot verval van het recht om die conclusie neer te leggen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toetsing-door-rechter",
+        "naam": {
+          "primair": "Toetsing door de rechter",
+          "synoniemen": [
+            "rechterlijke controle",
+            "volle jurisdictie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De rechtbank van eerste aanleg heeft **volle jurisdictie** — zij toetst zowel de feitelijke elementen als de juridische kwalificatie, en is **niet gebonden** aan het oordeel van de gewestelijke directeur. De rechter kan:\n- De aanslag **volledig vernietigen** (procedure-fout of onterechte belastbaarheid)\n- De aanslag **gedeeltelijk verminderen** (belastbare basis of tarief onjuist)\n- De aanslag **bevestigen** (bezwaar ongegrond)\n- De zaak **verwijzen** voor aanvullend onderzoek (deskundige-aanstelling)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "nalatigheidsintresten",
+        "naam": {
+          "primair": "Nalatigheidsintresten",
+          "synoniemen": [
+            "moratoriumrente",
+            "intresten op betwiste belasting"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Tijdens de gerechtelijke procedure blijven **nalatigheidsintresten** lopen op het betwiste bedrag. Als de belastingplichtige uiteindelijk verliest, is hij niet alleen de aanslag verschuldigd maar ook de intresten die zijn opgelopen gedurende de volledige procedureduur — ook als die procedure meerdere jaren duurde.\n\nOmgekeerd: als de belastingplichtige wint en het reeds betaalde bedrag wordt teruggestort, heeft hij recht op **moratoriumrente** (terug te betalen door de Staat) vanaf de datum van de betaling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hogere-rechtsmiddelen",
+        "naam": {
+          "primair": "Hogere rechtsmiddelen",
+          "synoniemen": [
+            "hoger beroep",
+            "cassatieberoep",
+            "prejudiciele vraag"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Een ongunstig vonnis van de rechtbank van eerste aanleg kan worden bestreden via:\n- **Hoger beroep** bij het **hof van beroep** (feiten + recht): termijn doorgaans **1 maand** na de betekening van het vonnis\n- **Cassatieberoep** bij het **Hof van Cassatie** (louter rechtsvragen, geen nieuwe feiten): na het arrest van het hof van beroep\n- **Prejudiciële vraag** aan het **Grondwettelijk Hof** (grondwettigheid van een bepaling) of het **Europees Hof van Justitie** (EU-rechtsvraag): de rechtbank of het hof kan dit ambtshalve of op verzoek stellen",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure-belastingplichtige",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De gerechtelijke fase is de derde fase in de fiscale procedure (na aanslag en bezwaar)."
+    },
+    {
+      "type": "vereist",
+      "target": "bezwaarprocedure-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De gerechtelijke fase veronderstelt dat de administratieve fase (bezwaar) volledig is doorlopen of dat de decisietermijn is verstreken."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aanslagtermijnen-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De geldigheid van de bestreden aanslag en de toepasselijke termijnen bepalen mee de slaagkansen in de gerechtelijke fase."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-bemiddelingsprocedure",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Alternatief niet-rechterlijk geschillenbeslechtingsmechanisme; kan voorafgaan aan of parallel lopen met de gerechtelijke fase.",
+      "gelijkenissen": [
+        "Beide richten zich op het beëindigen van een fiscaal geschil"
+      ],
+      "verschillen": [
+        "Bemiddeling is niet-bindend en informeel; gerechtelijke procedure leidt tot een bindend vonnis",
+        "Bemiddeling stopt de dagvaardingstermijnen niet automatisch"
+      ],
+      "verwarring_risico": "Sommige belastingplichtigen denken dat bemiddeling de gerechtelijke termijn stuit — dat is niet het geval."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "map",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "MAP (wederzijdse akkoordprocedure) is het internationale equivalent voor grensoverschrijdende geschillen: geschillenbeslechting tussen belastingadministraties, los van de nationale rechter.",
+      "gelijkenissen": [
+        "Beide richten zich op het rechtzetten van een (beweerde) onjuiste belastingheffing"
+      ],
+      "verschillen": [
+        "MAP verloopt tussen overheden, niet voor de rechter",
+        "MAP is enkel voor internationale geschillen (verdragstoepassing)",
+        "MAP en gerechtelijke procedure kunnen parallel lopen maar leiden tot aparte uitkomsten"
+      ],
+      "verwarring_risico": "MAP sluit de gerechtelijke fase niet uit maar vereist afstemming om conflicterende uitkomsten te vermijden."
+    }
+  ]
 }

@@ -1,8 +1,14 @@
 {
   "id": "meerwaarde-aandelen-venb",
   "naam": {
-    "primair": "Meerwaarde aandelen venb"
+    "primair": "Meerwaarde op aandelen (vennootschapsbelasting)",
+    "synoniemen": [
+      "meerwaarde op aandelen VenB",
+      "capital gain op aandelen vennootschap",
+      "vrijstelling meerwaarden op aandelen"
+    ]
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +30,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-opus-4-7",
+        "wijziging": "Kern, gebruikscontext, elementen en top-level relaties ingevuld vanuit training-data (aanvullend op skelet)."
       }
     ],
     "ankers": [
@@ -35,20 +47,559 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Meerwaarde aandelen venb",
+        "tekst": "Een **meerwaarde op aandelen in de vennootschapsbelasting** is het positieve verschil tussen de **realisatiewaarde** (verkoopprijs of inbrengwaarde) en de **fiscale boekwaarde** van aandelen die een vennootschap aanhoudt als financieel vast actief of geldbelegging. Het Belgische regime voorziet onder strikte voorwaarden in een **volledige vrijstelling** van deze meerwaarde — een afwijking van het algemene principe dat alle bedrijfswinsten in de VenB worden belast.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-23"
             }
           ]
         }
+      },
+      "substantie": {
+        "tekst": "Het regime weerspiegelt een fiscaal-economische keuze: winsten van een dochter zijn al belast op haar eigen niveau, dus belastingheffing van de meerwaarde bij de moeder zou neerkomen op **economische dubbele belasting**. Daarom geldt een vrijstelling — maar enkel voor 'serieuze' deelnemingen, niet voor speculatieve trading-posities.\n\nDe vrijstelling staat of valt met drie cumulatieve voorwaarden:\n- **Taxatie-voorwaarde** — de uitkerende dochter is onderworpen aan een normaal belastingregime (de 'DBI-taxatie-test')\n- **Participatie-voorwaarde** — minimumdeelneming van **10 %** of aanschaffingswaarde ≥ **€ 2.500.000**\n- **Permanentie-voorwaarde** — ononderbroken bezit gedurende ≥ **1 jaar in volle eigendom**\n\nVoldoet één voorwaarde niet, dan wordt de meerwaarde belast aan het gewone VenB-tarief van **25 %** (of in sommige gevallen aan een afzonderlijk tarief).",
+        "grondslag": {
+          "confidence": "betwijfeld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Drempels en tarief te verifiëren tegen WIB92 art. 192 + art. 217 + recente programmawetten (drempels zijn meermaals gewijzigd sinds 2013)."
+      },
+      "rationale": {
+        "tekst": "Het regime is de symmetrische tegenhanger van het **DBI-stelsel** (Definitief Belaste Inkomsten): wat in dividend-vorm via DBI ontsnapt aan dubbele belasting, ontsnapt in meerwaarde-vorm via deze vrijstelling. Beide regimes hanteren dezelfde drie voorwaarden (taxatie, participatie, permanentie) — wie de DBI-aftrek begrijpt, begrijpt automatisch de meerwaardevrijstelling.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het verband DBI ↔ meerwaardevrijstelling is de didactische sleutel: de meerwaarde bij verkoop is economisch een verdisconteerde dividend-stroom; vrijstelling op de ene impliceert vrijstelling op de andere."
+      }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vennootschappen die **deelnemingen in dochters** aanhouden onder het financieel vast actief — typisch holdings, KMO-moedervennootschappen en patrimoniumvennootschappen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het regime is per definitie gericht op deelnemingsrelaties — bij geldbeleggingen (trading-portefeuilles) gelden andere regels."
+        },
+        {
+          "tekst": "**Reorganisaties en exits**: verkoop van een dochter, fusie waarbij aandelen worden geruild, inbreng in een holding.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Deze transactiemomenten realiseren de meerwaarde en triggeren de vrijstellingstest — dé situaties waar de adviseur de drie voorwaarden moet controleren."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Trading-portefeuilles** en kortlopende aandelenbeleggingen waarbij de **permanentie-voorwaarde** (≥ 1 jaar volle eigendom) niet wordt gehaald.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het regime wil deelnemingsrelaties beschermen, geen speculatieve winsten. Wie binnen het jaar verkoopt, valt sowieso buiten de vrijstelling."
+        },
+        {
+          "tekst": "Aandelen in vennootschappen gevestigd in **belastingparadijzen** of niet onderworpen aan een normaal belastingregime — de taxatie-voorwaarde sluit deze uit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Vrijstelling van dubbele belasting heeft geen zin als de winst nergens belast is geweest — dat zou nul-belasting opleveren in plaats van enkele belasting."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Taxatie-voorwaarde**: de vennootschap waarvan de aandelen worden verkocht is onderworpen aan een belastingregime vergelijkbaar met de Belgische vennootschapsbelasting (niet 'aanzienlijk gunstiger').",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De precieze formulering van de taxatie-voorwaarde (art. 203 WIB92) moet tegen de wettekst geverifieerd worden — er zijn meerdere uitsluitingscategorieën."
+        },
+        {
+          "tekst": "**Participatie-voorwaarde**: minstens **10 %** van het kapitaal of een aanschaffingswaarde van minstens **€ 2.500.000**.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Drempels expliciet verifiëren tegen actuele WIB92 — sinds 2013 meermaals aangepast."
+        },
+        {
+          "tekst": "**Permanentie-voorwaarde**: ononderbroken bezit in **volle eigendom** gedurende minstens **1 jaar**.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "'Volle eigendom' sluit vruchtgebruik en blote eigendom uit — exacte modaliteiten checken in art. 192 WIB92."
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "Aandelen geboekt onder **geldbeleggingen** (rubriek 51) — meestal trading-portefeuille zonder duurzaam karakter.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Geldbeleggingen impliceren typisch korte horizon → permanentie-voorwaarde niet gehaald."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Volledige vrijstelling** van de meerwaarde — geen vennootschapsbelasting op het verschil tussen realisatieprijs en boekwaarde, mits aan alle drie de voorwaarden is voldaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Voorkomt economische dubbele belasting: de winst is al belast op niveau van de dochter; belastingheffing op het meerwaarde-niveau zou dezelfde economische winst tweemaal raken."
+        },
+        {
+          "tekst": "**Cashflow-vriendelijk bij exit**: de volledige verkoopprijs minus boekwaarde komt fiscaal vrij vrij beschikbaar bij de moeder voor herinvestering of latere uitkering.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Belangrijk argument bij holding-structurering: vergelijk de meerwaarde-route (vrijgesteld) met de dividend-route (DBI of bronheffing) bij groepsherstructureringen."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Voorwaardenfaling**: één voorwaarde niet voldaan = **volledige belasting** aan 25 % (tegen 0 %). Risico vooral bij participaties net onder de 10 %-drempel of bij verkopen vóór het 1-jaarspunt.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het regime is **alles-of-niets** — geen pro rata. Een paar dagen te vroeg verkopen vernietigt de hele vrijstelling. Tarief 25 % verifiëren (kan voor sommige gevallen afzonderlijk tarief zijn)."
+        },
+        {
+          "tekst": "**Minderwaarden zijn niet aftrekbaar** wanneer aan dezelfde voorwaarden zou zijn voldaan — fiscale symmetrie tussen vrijstelling van meerwaarden en niet-aftrekbaarheid van minderwaarden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Wie van vrijstelling op winsten geniet, moet ook de keerzijde dragen: verlies-aftrek is niet toegestaan op dezelfde categorie deelnemingen."
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Aandelen geboekt onder **financiële vaste activa** (rubriek 28 in het MAR) en aangehouden in het kader van een duurzame deelnemingsrelatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De boekhoudkundige rubricering is een sterke indicator: wat als FVA staat wordt typisch als deelneming beschouwd."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "taxatie-voorwaarde",
+        "naam": {
+          "primair": "Taxatie-voorwaarde",
+          "synoniemen": [
+            "DBI-taxatie-test",
+            "subject-to-tax test"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De vennootschap waarvan de aandelen worden verkocht moet onderworpen zijn aan de vennootschapsbelasting of aan een **buitenlandse belasting van gelijkaardige aard** die niet 'aanzienlijk gunstiger' is dan de Belgische. Vennootschappen gevestigd in **belastingparadijzen** of die genieten van een **afwijkend gunstig regime** vallen uit.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte uitsluitingscategorieën (art. 203 WIB92) moeten geverifieerd worden — er bestaan limitatieve lijsten van uitgesloten staten en regimes."
+          }
+        }
+      },
+      {
+        "id": "participatie-voorwaarde",
+        "naam": {
+          "primair": "Participatie-voorwaarde",
+          "synoniemen": [
+            "minimumdeelneming",
+            "10%-of-2.5-mio-drempel"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De deelneming moet **minstens 10 % van het kapitaal** vertegenwoordigen, **OF** een **aanschaffingswaarde** hebben van minstens **€ 2.500.000**. De voorwaarden zijn alternatief — één van beide volstaat.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Drempels zijn meermaals gewijzigd; voor recente verkopen actuele wettekst raadplegen. De alternatieve formulering (10 % OF € 2,5 mio) maakt het regime toegankelijk voor zowel KMO-holdings (lage deelnemingen in grote bedrijven) als deelnemingen onder de 10 % maar met substantiële investering."
+          }
+        }
+      },
+      {
+        "id": "permanentie-voorwaarde",
+        "naam": {
+          "primair": "Permanentie-voorwaarde",
+          "synoniemen": [
+            "1-jaar volle eigendom",
+            "houdperiode"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De aandelen moeten gedurende een **ononderbroken periode van minstens 1 jaar in volle eigendom** worden aangehouden vóór de realisatie van de meerwaarde. **Vruchtgebruik** of **blote eigendom** voldoen niet.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Deze voorwaarde filtert speculatieve trading uit. De vereiste van volle eigendom blokkeert constructies waarbij vruchtgebruik tijdelijk wordt afgesplitst om belasting te vermijden."
+          }
+        }
+      },
+      {
+        "id": "berekening-meerwaarde",
+        "naam": {
+          "primair": "Berekening van de meerwaarde"
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "**Meerwaarde = realisatiewaarde − fiscale boekwaarde**\n\nDe **realisatiewaarde** is de werkelijke ontvangen prijs (cash + eventuele andere tegenprestaties). De **fiscale boekwaarde** is de aanschaffingswaarde verminderd met eerder fiscaal aanvaarde waardeverminderingen die zijn aangenomen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Wanneer eerder waardeverminderingen werden geboekt (en fiscaal aanvaard), worden die typisch teruggenomen via de fiscale berekening — dit kan een **belastbaar onderdeel** opleveren naast de vrijgestelde meerwaarde.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-symmetrie-minderwaarden",
+        "naam": {
+          "primair": "Niet-aftrekbaarheid van minderwaarden",
+          "synoniemen": [
+            "fiscale symmetrie"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien de drie voorwaarden voldaan zouden zijn voor een meerwaarde, dan zijn **minderwaarden** op diezelfde categorie aandelen **niet fiscaal aftrekbaar**. Uitzondering: minderwaarden bij **liquidatie van de dochter** ten belope van het verlies aan kapitaal blijven aftrekbaar onder bepaalde voorwaarden.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Symmetrie-principe: wie geniet van vrijstelling op winsten draagt ook de niet-aftrekbaarheid op verliezen. De liquidatie-uitzondering verifiëren tegen WIB92."
+          }
+        }
+      },
+      {
+        "id": "verhouding-met-dbi",
+        "naam": {
+          "primair": "Verhouding met het DBI-stelsel"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De vrijstelling op meerwaarden hanteert **dezelfde drie voorwaarden** als de DBI-aftrek (Definitief Belaste Inkomsten op dividenden uit dochters):\n- Taxatie-voorwaarde\n- Participatie-voorwaarde (10 % of € 2.500.000)\n- Permanentie-voorwaarde (1 jaar volle eigendom)\n\nDit is geen toeval: economisch is een meerwaarde bij verkoop de **gekapitaliseerde waarde** van toekomstige dividenden. De fiscale behandeling moet daarom symmetrisch zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Wie het ene begrijpt, begrijpt het andere: zelfde drempels, zelfde test-logica, zelfde economische rationale (vermijden van economische dubbele belasting binnen groepsstructuren)."
+          }
+        }
+      },
+      {
+        "id": "alles-of-niets-karakter",
+        "naam": {
+          "primair": "Alles-of-niets-karakter"
+        },
+        "inhoud_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het regime kent **geen pro rata**: ofwel zijn alle drie de voorwaarden voldaan en is de **volledige meerwaarde vrijgesteld** (0 %), ofwel is één voorwaarde niet voldaan en is de **volledige meerwaarde belast** aan het gewone VenB-tarief (25 %).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Deze binariteit maakt timing **kritiek bij exits**: één dag te vroeg verkopen (vóór 1-jaarsgrens) of net onder de 10 %-drempel zitten vernietigt de hele vrijstelling. Tarief 25 % verifiëren — voor sommige gevallen kan afzonderlijk tarief gelden."
+          }
+        }
+      },
+      {
+        "id": "afwijkend-tarief-bij-falen",
+        "naam": {
+          "primair": "Belasting bij niet-voldoen aan voorwaarden"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de voorwaarden niet voldaan zijn, wordt de meerwaarde belast. Het toepasselijke tarief hangt af van **welke** voorwaarde faalt: in de meeste gevallen het **gewone VenB-tarief (25 %)**, maar voor sommige situaties (bv. permanentie-voorwaarde niet gehaald maar wel taxatie-voorwaarde) kan een **afzonderlijk tarief** gelden.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte tarieftabel (welke voorwaarde-faling welk tarief triggert) moet tegen WIB92 art. 217 worden geverifieerd — historisch waren er afzonderlijke tarieven van 0,4 % en 25,75 %."
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "dbi-aftrek",
+      "toelichting": "Spiegelregime: vrijstelling op meerwaarden hanteert dezelfde drie voorwaarden (taxatie, participatie, permanentie) als de DBI-aftrek op dividenden.",
+      "gelijkenissen": [
+        "Drie cumulatieve voorwaarden identiek",
+        "Beide vermijden economische dubbele belasting binnen groepsstructuren",
+        "Beide gelden voor deelnemingsrelaties tussen Belgische vennootschappen"
+      ],
+      "verschillen": [
+        "DBI = vrijstelling op dividenden (terugkerend); meerwaardenregime = vrijstelling bij realisatie (eenmalig)",
+        "DBI wordt verwerkt via aftrekbeweging in aangifte; meerwaarde via volledige uitsluiting uit belastbare basis"
+      ],
+      "verwarring_risico": "Beide regimes worden vaak verward; de drie voorwaarden zijn identiek maar de fiscale techniek verschilt.",
+      "render_hint": "als_glossarium",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-opus-4-7",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-opus-4-7",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "belastbare-winst-venb",
+      "toelichting": "Algemeen principe: alle bedrijfswinsten zijn belast in de VenB. De vrijstelling op meerwaarden op aandelen is een wettelijke uitzondering op dat principe om economische dubbele belasting te vermijden.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-opus-4-7",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "financieel-vast-actief",
+      "toelichting": "De aandelen moeten typisch als financieel vast actief (rubriek 28) worden aangehouden om aan de permanentie-voorwaarde te voldoen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-opus-4-7",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "waardeverminderingen-financiele-vaste-activa",
+      "toelichting": "Eerder geboekte waardeverminderingen beïnvloeden de fiscale boekwaarde en dus de berekening van de meerwaarde; teruggenomen waardeverminderingen kunnen een belastbaar onderdeel vormen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-opus-4-7",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "aangifte-vennootschapsbelasting",
+      "toelichting": "Realisatie van de meerwaarde moet worden gerapporteerd in de aangifte VenB, ook (en juist) wanneer ze vrijgesteld is — via de daarvoor voorziene codes.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-opus-4-7",
+            "datum": "2026-05-23"
+          }
+        ]
       }
     }
-  },
-  "relaties": [],
-  "concept_type": "regime"
+  ]
 }

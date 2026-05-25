@@ -11,9 +11,14 @@
       "nl": "Aftrekbare bestedingen in de personenbelasting"
     }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.2.XI",
+      "2.2.XVI"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -32,14 +37,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 17)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende modus: gebruikscontext indicaties/uitsluitingen/contra_indicaties toegevoegd; elementen aangerijkt met substantie/rationale; bewijslast-element uitgebreid."
       }
-    ],
-    "ankers": [
-      "2.2.XI",
-      "2.2.XVI"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Aftrekbare bestedingen zijn een limitatieve categorie van particuliere uitgaven die in de personenbelasting in mindering worden gebracht op het totale netto-inkomen, vóór de toepassing van de belastingvrije som en de belastingberekening. Het gaat om uitgaven die de wetgever beleidsmatig fiscaal wil aanmoedigen, zoals giften, onderhoudsuitkeringen en kinderopvang.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Door aftrekbare bestedingen af te trekken van het totale netto-inkomen daalt de belastbare basis vóór de progressieve tarieven worden toegepast, waardoor de belastingdruk op het netto-inkomen vermindert. Het voordeel is progressief: hoe hoger het inkomen (en dus het marginaal tarief), hoe groter het fiscale voordeel van elke euro aftrek. Dit onderscheidt aftrekbare bestedingen van belastingverminderingen, die een vast procentueel voordeel geven ongeacht het inkomensniveau.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever wil bepaald maatschappelijk gewenst gedrag fiscaal stimuleren — giften aan erkende instellingen, het betalen van onderhoudsgeld, en kinderopvang — zonder die te laten kwalificeren als beroepskosten. Door ze als aparte categorie te plaatsen ná de berekening van de vier netto-inkomens maar vóór de belastingberekening, geldt de aftrek over het gezamenlijk belastbare inkomen en niet per inkomensstroom afzonderlijk. Dit maakt het systeem eenvoudiger te beheren maar beperkt tegelijk de aftrek tot effectief betaalde en bewezen bedragen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "personenbelasting",
@@ -56,6 +104,7 @@
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Elke belastingplichtige in de personenbelasting die in het belastbaar tijdperk erkende giften heeft gedaan, onderhoudsuitkeringen heeft betaald of kosten voor kinderopvang heeft gedragen.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -65,12 +114,25 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Elke belastingplichtige in de personenbelasting die in het belastbaar tijdperk erkende giften heeft gedaan, onderhoudsuitkeringen heeft betaald of kosten voor kinderopvang heeft gedragen."
+          }
+        },
+        {
+          "tekst": "Belastingplichtigen met hogere inkomens die in een hoge marginale belastingschijf vallen — voor hen levert elke euro aftrekbare besteding meer belastingvoordeel op dan een equivalente belastingvermindering aan het basispercentage.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "niet_voor": [
         {
+          "tekst": "Beroepskosten komen niet in aanmerking als aftrekbare besteding: die worden afgetrokken van het beroepsinkomen zelf, vóór de berekening van het netto beroepsinkomen.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -80,42 +142,25 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Beroepskosten komen niet in aanmerking als aftrekbare besteding: die worden afgetrokken van het beroepsinkomen zelf, vóór de berekening van het netto beroepsinkomen."
-        }
-      ],
-      "voordeel": [
+          }
+        },
         {
+          "tekst": "Uitgaven die niet tot de wettelijke limitatieve categorieën behoren — zoals vrije-tijdsuitgaven, persoonlijke verzorging of niet-erkende liefdadigheidsinstellingen — komen nooit in aanmerking, ongeacht hun maatschappelijk nut.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Vermindering van de belastbare basis vóór de progressieve tarieven worden toegepast, zodat elke euro aftrek meer belastingvoordeel oplevert naarmate het inkomen in een hogere schijf valt."
-        }
-      ],
-      "risico": [
-        {
-          "grondslag": {
-            "confidence": "verondersteld",
-            "bronnen": [
-              {
-                "type": "ai_model",
-                "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
-              }
-            ]
-          },
-          "tekst": "Onterechte aftrek (onvoldoende bewijs, niet-erkende instelling, overschrijding plafonds) leidt tot belastingverhoging en nalatigheidsintresten; bij opzet riskeert men fiscale strafrechtelijke sancties."
+          }
         }
       ],
       "voorwaarden": [
         {
+          "tekst": "Het regime is toepasselijk op rijksinwoners (en daarmee gelijkgestelde niet-inwoners) die in de aangifte personenbelasting een of meer van de wettelijke categorieën aftrekbare bestedingen vermelden.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -125,8 +170,160 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Het regime is toepasselijk op rijksinwoners (en daarmee gelijkgestelde niet-inwoners) die in de aangifte personenbelasting een of meer van de wettelijke categorieën aftrekbare bestedingen vermelden."
+          }
+        },
+        {
+          "tekst": "De uitgave moet effectief betaald zijn in het belastbaar tijdperk: een toezegging of schuld volstaat niet. Bovendien moet de belastingplichtige beschikken over een geldig fiscaal attest of gerechtelijk stuk als bewijs.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Giften aan instellingen die niet door de FOD Financiën zijn erkend, zijn uitgesloten — ook al dragen ze bij aan maatschappelijk waardevolle doelen. De erkenning is een formele vereiste die niet retroactief werkt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Giften in natura (goederen, diensten) zijn in beginsel uitgesloten — alleen giften in geld komen in aanmerking voor de aftrek als besteding.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Onderhoudsuitkeringen betaald aan een persoon die deel uitmaakt van het gezin van de belastingplichtige zijn uitgesloten: de 80 %-aftrek geldt alleen voor betalingen aan personen buiten het gezin.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "De belastingplichtige heeft geen van de drie wettelijke categorieën (giften, onderhoudsuitkeringen, kinderopvang) betaald in het belastbaar tijdperk — aftrekbare bestedingen zijn dan nihil en hoeven niet te worden aangegeven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het totale netto-inkomen van de belastingplichtige is nul of negatief na toepassing van de verliesverrekening — in dat geval is er geen belastbare basis meer waarop de aftrekbare bestedingen effect kunnen hebben.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Vermindering van de belastbare basis vóór de progressieve tarieven worden toegepast, zodat elke euro aftrek meer belastingvoordeel oplevert naarmate het inkomen in een hogere schijf valt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Onterechte aftrek (onvoldoende bewijs, niet-erkende instelling, overschrijding plafonds) leidt tot belastingverhoging en nalatigheidsintresten; bij opzet riskeert men fiscale strafrechtelijke sancties.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De belastingplichtige ontvangt een fiscaal attest van een erkende instelling voor een gift gedaan in het belastbaar tijdperk — dit is het directe signaal om de aftrek toe te passen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De belastingplichtige betaalt onderhoudsuitkeringen op grond van een rechterlijke beslissing of notariële overeenkomst aan een persoon buiten het gezin.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De belastingplichtige heeft facturen of ontvangstbewijzen van een erkende kinderopvangplaats voor een kind jonger dan 14 jaar (of 21 jaar bij handicap).",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ]
     },
@@ -157,6 +354,19 @@
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
                   "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De erkenning door de FOD Financiën is een strikt formele vereiste: een gift aan een feitelijke vereniging of buitenlandse instelling zonder Belgische erkenning is nooit aftrekbaar, ongeacht het maatschappelijk belang. Het minimumbedrag per gift is eveneens wettelijk bepaald en jaarlijks geïndexeerd — kleine giften worden geaggregeerd per instelling over het belastbaar tijdperk.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -192,6 +402,19 @@
                 }
               ]
             }
+          },
+          "rationale": {
+            "tekst": "De 80 %-beperking dient als correctie voor de asymmetrie in het systeem: de ontvanger moet 100 % van de alimentatie aangeven als belastbaar inkomen, terwijl de betaler maar 80 % mag aftrekken. Zo draagt de betaler gedeeltelijk de fiscale last mee, wat de overheid beschermt tegen misbruik via kunstmatige onderhoudsafspraken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       },
@@ -221,6 +444,19 @@
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
                   "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Kinderopvangkosten kennen een dubbele route: als aftrekbare besteding (vermindering van de grondslag) of als belastingvermindering. De keuze is afhankelijk van het marginaal tarief van de belastingplichtige — bij hoog inkomen is de aftrek als besteding voordeliger. Verificatie van de exacte drempelwaarden en leeftijdsgrens bij aangifte is aangewezen.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -256,6 +492,19 @@
                 }
               ]
             }
+          },
+          "substantie": {
+            "tekst": "De combinatie van een relatief plafond (% van netto-inkomen) en een absoluut plafond (geïndexeerd bedrag) betekent dat de minst beperkende van beide grenzen geldt. Voor belastingplichtigen met een laag inkomen is het procentuele plafond doorgaans de bindende beperking; voor hogere inkomens is dat eerder het absolute bedrag. Bedragen uit het Cijferzakboekje opzoeken voor het concrete aanslagjaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       },
@@ -285,6 +534,19 @@
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
                   "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Per categorie geldt een ander bewijsdocument: giften worden gestaafd door het fiscaal attest van de erkende instelling (vermelding erkenningsnummer, bedrag en datum); onderhoudsuitkeringen door de rechterlijke beslissing of overeenkomst plus betaalbewijzen; kinderopvang door facturen van de erkende opvangplaats. De fiscus kan deze documenten opvragen tot het einde van de normale aanslagtermijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -320,6 +582,19 @@
                 }
               ]
             }
+          },
+          "rationale": {
+            "tekst": "De positie vóór de progressieve tarieven verklaart waarom het voordeel inkomensafhankelijk is: bij een marginaal tarief van 50 % levert € 1.000 aftrekbare besteding een belastingbesparing van € 500; bij een marginaal tarief van 25 % slechts € 250. Dit is het kernverschil met belastingverminderingen, die een vast voordeel geven (bv. 30 % of 45 % van de uitgave) ongeacht het inkomen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       },
@@ -352,51 +627,71 @@
                 }
               ]
             }
+          },
+          "substantie": {
+            "tekst": "Concreet verschil: Transporteur Uccle BV betaalt € 1.000 aan een erkende instelling. Als aftrekbare besteding bij een marginaal tarief van 50 %: besparing = € 500. Als het systeem een belastingvermindering van 45 % zou zijn: besparing = € 450. Bij kinderopvang bestaat de keuze expliciet — de belastingplichtige kiest de route die het meeste oplevert. Voor giften en onderhoudsuitkeringen is alleen de aftrek als besteding beschikbaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "limitatieve-opsomming",
+        "naam": {
+          "primair": "Limitatieve aard van de categorie",
+          "synoniemen": [
+            "gesloten lijst aftrekbare bestedingen"
+          ]
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De wettelijke categorieën van aftrekbare bestedingen vormen een limitatieve (gesloten) opsomming: buiten de drie erkende categorieën (giften, onderhoudsuitkeringen, kinderopvangkosten) bestaan er geen andere aftrekbare bestedingen in de personenbelasting. Analogieredenering of extensieve interpretatie is niet toegestaan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Fiscale aftrekposten worden strikt geïnterpreteerd: de belastingplichtige moet zich kunnen beroepen op een expliciete wettelijke bepaling. Het gesloten karakter van de lijst vermijdt dat elke maatschappelijk wenselijke uitgave automatisch aftrekbaar wordt, wat de budgettaire kostprijs onbeheersbaar zou maken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Aftrekbare bestedingen zijn een limitatieve categorie van particuliere uitgaven die in de personenbelasting in mindering worden gebracht op het totale netto-inkomen, vóór de toepassing van de belastingvrije som en de belastingberekening. Het gaat om uitgaven die de wetgever beleidsmatig fiscaal wil aanmoedigen, zoals giften, onderhoudsuitkeringen en kinderopvang."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Door aftrekbare bestedingen af te trekken van het totale netto-inkomen daalt de belastbare basis vóór de progressieve tarieven worden toegepast, waardoor de belastingdruk op het netto-inkomen vermindert."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De wetgever wil bepaald maatschappelijk gewenst gedrag fiscaal stimuleren — giften aan erkende instellingen, het betalen van onderhoudsgeld, en kinderopvang — zonder die te laten kwalificeren als beroepskosten. Door ze als aparte categorie te plaatsen ná de berekening van de vier netto-inkomens maar vóór de belastingberekening, geldt de aftrek over het gezamenlijk belastbare inkomen en niet per inkomensstroom afzonderlijk. Dit maakt het systeem eenvoudiger te beheren maar beperkt tegelijk de aftrek tot effectief betaalde en bewezen bedragen."
-      }
-    }
+    ]
   },
   "relaties": [
     {
@@ -488,7 +783,21 @@
           }
         ]
       }
+    },
+    {
+      "type": "vereist",
+      "target": "belastingberekening-pb",
+      "toelichting": "Om de positie van aftrekbare bestedingen in de berekeningsvolgorde te begrijpen, is kennis van de volledige belastingberekening-pb vereist.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "regime"
+  ]
 }

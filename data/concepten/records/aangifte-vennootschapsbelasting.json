@@ -3,14 +3,24 @@
   "naam": {
     "primair": "Aangifte vennootschapsbelasting",
     "afkorting": "aangifte VenB",
+    "synoniemen": [
+      "aangifte in de vennootschapsbelasting",
+      "VenB-aangifte"
+    ],
     "vertaling": {
       "fr": "Déclaration à l'impôt des sociétés",
       "en": "Corporate income tax return"
     }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.3.II",
+      "2.3.taak.4",
+      "2.5.III"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -30,16 +40,145 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 22)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullend beschrijven: gebruikscontext voor/niet_voor/voordeel aangevuld, stap-3-substantie toegevoegd, 2 nieuwe elementen (fiscale-correctieronde, aangiftestructuur-en-vakken) toegevoegd."
       }
-    ],
-    "ankers": [
-      "2.3.II",
-      "2.3.taak.4",
-      "2.5.III"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De aangifte vennootschapsbelasting is de jaarlijkse verplichte fiscale opgave waarmee een aan vennootschapsbelasting onderworpen rechtspersoon zijn belastbare grondslag, aftrekken en verschuldigde belasting voor een aanslagjaar aan de administratie meedeelt. In België gebeurt dit elektronisch via het platform Biztax."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Door de aangifte in te dienen geeft de vennootschap de belastingadministratie alle informatie die nodig is om de definitieve aanslag te vestigen of te controleren; de aangifte is ook het formele startpunt voor de aanslag-cyclus en de basis voor eventuele bezwaar- en taxatieprocedures."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De wetgever legt de bewijslast principieel bij de belastingplichtige: de vennootschap geeft zelf haar belastbaar inkomen aan, past haar aftrekken toe (overgedragen verliezen, aftrek voor innovatie-inkomsten, investeringsaftrek, notionele interestaftrek, dividendbelastingvrijstelling, …) en berekent zo haar belastbare grondslag. De administratie controleert achteraf. Dit systeem dwingt de accountant/fiscalist om elk jaar de volledige fiscale positie te inventariseren — het is tegelijk een compliance-verplichting en een adviesmoment (optimalisatie van aftrekken, tijdige voorafbetalingen om vermeerdering te vermijden)."
+      }
+    },
     "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke **binnenlandse vennootschap** (NV, BV, CV, …) die onderworpen is aan de vennootschapsbelasting en waarvan het boekjaar is afgesloten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De aangifte is een universele jaarlijkse verplichting voor alle binnenlandse vennootschappen, ongeacht grootte of winstgevendheid."
+        },
+        {
+          "tekst": "**Buitenlandse vennootschappen** met een Belgische vaste inrichting of Belgische inkomsten die onderworpen zijn aan de belasting van niet-inwoners-vennootschappen (BNI-ven).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Eenmanszaken en vrije beroepen** als natuurlijk persoon — die dienen een personenbelastingaangifte (Tax-on-web) in, niet een Biztax-aangifte.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Dé klassieke verwarring bij starters: de vennootschapsvorm is bepalend, niet de aard van de activiteit."
+        },
+        {
+          "tekst": "**Rechtspersonen die onderworpen zijn aan de rechtspersonenbelasting** (RPB) — bv. vzw's zonder winstoogmerk die geen nijverheids-, handels- of landbouwactiviteiten uitoefenen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "De aangifte laat de vennootschap toe haar **fiscale aftrekken in de juiste volgorde** te optimaliseren (overgedragen verliezen, DBI, investeringsaftrek, notionele interestaftrek) zodat de belastbare grondslag zo laag mogelijk gehouden wordt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De aangifte is niet louter compliance maar ook het centrale adviesmoment voor fiscale planning op jaarbasis."
+        },
+        {
+          "tekst": "Via tijdige **voorafbetalingen** in de aangifte verrekend te zijn, vermijdt de vennootschap de belastingvermeerdering wegens onvoldoende voorafbetaling — een concrete kostenbesparing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
       "trigger_start": [
         {
           "grondslag": {
@@ -220,6 +359,19 @@
               ]
             },
             "tekst": "Bijtellingen die geen verworpen uitgaven zijn maar fiscaal het resultaat verhogen: o.a. abnormale of goedgunstige voordelen toegekend aan verbonden partijen, verborgen winsten, geheime commissielonen."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Categorieën van positieve correcties naast verworpen uitgaven:\n- **Abnormale of goedgunstige voordelen** — voordelen toegekend aan verbonden partijen boven marktprijs worden als verborgen winst bijgeteld\n- **Verborgen winsten** — inkomsten die boekhoudkundig niet als opbrengst zijn verwerkt maar fiscaalrechtelijk wel belastbaar zijn\n- **Geheime commissielonen** — bedragen waarvoor geen fiscale fiche is opgesteld, kunnen aanleiding geven tot een bijzondere aanslag én bijtelling"
           }
         }
       },
@@ -335,7 +487,7 @@
                 }
               ]
             },
-            "tekst": "De volledig uitgewerkte aangifte wordt elektronisch ingediend via Biztax; de indieningtermijn verschilt naargelang het boekjaar samenvalt met het kalenderjaar dan wel een afwijkend boekjaar heeft, en is verlengbaar via mandaat van een erkend belastingconsulent of accountant."
+            "tekst": "De volledig uitgewerkte aangifte wordt elektronisch ingediend via Biztax; de indieningstermijn verschilt naargelang het boekjaar samenvalt met het kalenderjaar dan wel een afwijkend boekjaar heeft, en is verlengbaar via mandaat van een erkend belastingconsulent of accountant."
           },
           "substantie": {
             "grondslag": {
@@ -348,52 +500,90 @@
                 }
               ]
             },
-            "tekst": "Na indiening kan de administratie een bericht van wijziging sturen (art. 346 WIB92) waartegen bezwaar mogelijk is; de accountant bewaakt ook of de aangifte aanleiding geeft tot een fiscale controle en bereidt het dossier voor op mogelijke verificatie."
+            "tekst": "Na indiening kan de administratie een bericht van wijziging sturen waartegen bezwaar mogelijk is; de accountant bewaakt ook of de aangifte aanleiding geeft tot een fiscale controle en bereidt het dossier voor op mogelijke verificatie."
+          }
+        }
+      },
+      {
+        "id": "fiscale-correctieronde",
+        "naam": {
+          "primair": "Fiscale correctieronde",
+          "synoniemen": [
+            "fiscale bewerkingen",
+            "overgang boekhoudresultaat naar belastbaar inkomen"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De fiscale correctieronde is het geheel van bewerkingen waarmee het **boekhoudkundig resultaat** (BGAAP) wordt omgezet naar de **belastbare grondslag** (fiscaal). Het is geen herboekhouding maar een reeks plus- en minsposten die de afwijkingen tussen boekhoudrecht en fiscaalrecht neutraliseren."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Structuur van de correctieronde:\n- **Plus**: verworpen uitgaven + abnormale voordelen + geheime commissielonen + verborgen winsten\n- **Min**: vrijgestelde reserves + DBI + aftrek voor innovatie-inkomsten + investeringsaftrek + overgedragen verliezen + notionele interestaftrek\n\nDe volgorde van de min-posten is wettelijk vastgelegd en niet naar keuze — dit heeft impact op overdraagbaarheid van aftrekken."
+          }
+        }
+      },
+      {
+        "id": "aangiftestructuur-en-vakken",
+        "naam": {
+          "primair": "Aangiftestructuur en vakken (Biztax)",
+          "synoniemen": [
+            "aangifte-codes VenB",
+            "codes vennootschapsbelasting"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De Biztax-aangifte is opgebouwd uit genummerde vakken die overeenstemmen met de fiscale correctieronde: **Vak I** (identiteitsgegevens en kenmerken) · **Vak II** (winst vóór correcties) · **Vak III** (verworpen uitgaven) · **Vak IV** (andere positieve correcties) · **Vak V–VII** (vrijgestelde elementen en reserves) · **Vak VIII** (aftrekken in volgorde) · **Vak IX** (belastbare grondslag en belastingberekening) · **Vak X** (voorheffingen en voorafbetalingen)."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23",
+                  "context": "Exacte vakindeling en nummering te verifiëren tegen het actuele Biztax-aangifteformulier. Indeling kan jaarlijks wijzigen."
+                }
+              ]
+            },
+            "tekst": "De vakkenstructuur weerspiegelt de fiscale correctieronde: elk vak heeft eigen **aangiftecodes** (4- of 5-cijferige codes) die de belastingadministratie toelaat geautomatiseerde risicoanalyse te doen. Foute vakindeling of vergeten code kan leiden tot een bericht van wijziging of een onderzoek."
           }
         }
       }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aangifte vennootschapsbelasting is de jaarlijkse verplichte fiscale opgave waarmee een aan vennootschapsbelasting onderworpen rechtspersoon zijn belastbare grondslag, aftrekken en verschuldigde belasting voor een aanslagjaar aan de administratie meedeelt. In België gebeurt dit elektronisch via het platform Biztax."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Door de aangifte in te dienen geeft de vennootschap de belastingadministratie alle informatie die nodig is om de definitieve aanslag te vestigen of te controleren; de aangifte is ook het formele startpunt voor de aanslag-cyclus en de basis voor eventuele bezwaar- en taxatieprocedures."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De wetgever legt de bewijslast principieel bij de belastingplichtige: de vennootschap geeft zelf haar belastbaar inkomen aan, toepast haar aftrekken (overgedragen verliezen, aftrek voor innovatie-inkomsten, investeringsaftrek, notionele interestaftrek, dividendbelastingvrijstelling, …) en berekent zo haar belastbare grondslag. De administratie controleert achteraf. Dit systeem dwingt de accountant/fiscalist om elk jaar de volledige fiscale positie te inventariseren — het is tegelijk een compliance-verplichting en een adviesmoment (optimalisatie van aftrekken, tijdige voorafbetalingen om vermeerdering te vermijden)."
-      }
-    }
+    ]
   },
   "relaties": [
     {
@@ -526,7 +716,36 @@
           }
         ]
       }
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudkundig-fiscaal-attachment",
+      "toelichting": "De aangifte vertrekt altijd van het boekhoudkundig resultaat — de koppeling boekhoudrecht-fiscaalrecht is de conceptuele basis van de correctieronde.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "aangifteplicht-fiscaal",
+      "toelichting": "De VenB-aangifte is de concretisering van de algemene fiscale aangifteplicht voor vennootschappen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "procedure"
+  ]
 }

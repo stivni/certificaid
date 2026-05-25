@@ -1,8 +1,15 @@
 {
   "id": "integrale-consolidatie",
   "naam": {
-    "primair": "Integrale consolidatie"
+    "primair": "Integrale consolidatie",
+    "synoniemen": [
+      "volledige consolidatie"
+    ],
+    "vertaling": {
+      "fr": "Consolidation intégrale"
+    }
   },
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +31,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -35,20 +48,474 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Integrale consolidatie",
+        "tekst": "**Integrale consolidatie** is de consolidatiemethode waarbij een moedervennootschap de **volledige activa, passiva, opbrengsten en kosten** van een dochteronderneming lijn voor lijn optelt in de geconsolideerde jaarrekening, ongeacht het feitelijke eigendomspercentage. Het gedeelte dat niet toebehoort aan de moeder wordt apart zichtbaar gemaakt als **minderheidsbelang** (of niet-controlerende belangen) in het eigen vermogen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De economische logica van integrale consolidatie: een moeder die **controle** uitoefent over een dochter beschikt economisch over **alle** middelen van die dochter — ook het deel dat formeel aan minderheidsaandeelhouders toebehoort. De geconsolideerde jaarrekening weerspiegelt dit door de volledige omvang van de activiteiten te tonen.\n\nHet minderheidsbelang is geen schuld maar een **afzonderlijke categorie eigen vermogen**: de derde-aandeelhouders participeren in winst en verlies van de dochter via hun aandeel, maar de moeder consolideert wel 100%.\n\nVerschil met de twee andere methoden:\n- **Evenredige consolidatie** — alleen het proportionele aandeel, geen minderheidsbelang (toegestaan voor gezamenlijke leiding, wettelijk verplicht voor sommige joint ventures)\n- **Vermogensmutatiemethode** — niet lijn-voor-lijn, alleen netto-boekwaarde en resultaatdeel (toegepast bij geassocieerde deelnemingen)",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Integrale consolidatie is de standaardmethode voor **dochtervennootschappen** omdat het controlecriterium centraal staat: wie de strategie en het beleid bepaalt, wordt economisch geacht het geheel te besturen. De volledige consolidatie toont buitenstaanders (crediteuren, investeerders) het werkelijke middelen-appel van de groep, ook wanneer formeel slechts een meerderheidsbelang bestaat.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "controlecriterium",
+        "naam": {
+          "primair": "Controlecriterium",
+          "synoniemen": [
+            "controlebegrip",
+            "doorslaggevende zeggenschap"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Integrale consolidatie is verplicht voor elke entiteit waarover de moeder **controle** uitoefent. Controle = de bevoegdheid om het financiële en operationele beleid te bepalen teneinde er economisch voordeel uit te trekken. Dit is een **economisch-functioneel begrip**, niet louter een eigendomspercentage: ook bij minder dan 50% van de stemrechten kan er controle zijn via contractuele afspraken of feitelijke dominantie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het controlecriterium is de scheidslijn tussen integrale en evenredige consolidatie (gezamenlijke leiding) of vermogensmutatiemethode (significante invloed zonder controle). De methode-keuze bepaalt de omvang van de geconsolideerde jaarrekening."
+          }
+        }
+      },
+      {
+        "id": "lijn-voor-lijn-optelling",
+        "naam": {
+          "primair": "Lijn-voor-lijn optelling"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De technische kern van integrale consolidatie: alle balansposten (activa en passiva) en resultatenrekening-posten (opbrengsten en kosten) van de dochter worden **volledig opgeteld** bij die van de moeder, waarna:\n1. **Intercompany-eliminaties** worden doorgevoerd (wederzijdse vorderingen/schulden, intercompany-transacties, intercompany-winsten in voorraden of vaste activa)\n2. De **investeringspost** van de moeder (deelneming) wordt geëlimineerd tegen het **netto actief** van de dochter\n3. Het **consolidatieverschil** (goodwill of badwill) wordt apart geboekt\n4. Het aandeel van **minderheidsbelangen** wordt afgesplitst",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "minderheidsbelang",
+        "naam": {
+          "primair": "Minderheidsbelang",
+          "synoniemen": [
+            "niet-controlerende belangen",
+            "derden-belangen"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **minderheidsbelang** (niet-controlerende belangen) is het gedeelte van het netto actief en het resultaat van de dochter dat toebehoort aan externe aandeelhouders — aandeelhouders die geen deel uitmaken van de consoliderende groep. Het wordt **apart gepresenteerd** in het geconsolideerde eigen vermogen (niet als schuld) en in de geconsolideerde resultatenrekening.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De afzonderlijke presentatie van minderheidsbelangen maakt zichtbaar welk deel van de groepswinst niet vrij beschikbaar is voor de moeder. Dit is cruciaal voor jaarrekeninganalyse: de geconsolideerde winst is niet volledig toe te rekenen aan de aandeelhouders van de moeder."
+          }
+        }
+      },
+      {
+        "id": "uniforme-waarderingsregels",
+        "naam": {
+          "primair": "Uniforme waarderingsregels"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vóór de consolidatie worden de waarderingsregels van alle te consolideren entiteiten **geharmoniseerd**: de dochter past dezelfde grondslagen toe als de moeder, of de moeder past de cijfers van de dochter aan. Zonder uniformisering zouden gelijksoortige activa op inconsistente wijze worden gewaardeerd, wat de vergelijkbaarheid van de geconsolideerde jaarrekening ondermijnt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "eerste-consolidatiedatum",
+        "naam": {
+          "primair": "Eerste consolidatiedatum",
+          "synoniemen": [
+            "datum van eerste consolidatie"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **eerste consolidatiedatum** is het tijdstip waarop een entiteit voor het eerst in de consolidatiekring wordt opgenomen — normaal het moment waarop de moeder controle verwerft. Vanaf die datum worden activa en passiva van de dochter gewaardeerd aan **reële waarde** voor de berekening van het **consolidatieverschil** (goodwill of badwill).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "consolidatieverschil",
+        "naam": {
+          "primair": "Consolidatieverschil",
+          "synoniemen": [
+            "goodwill bij consolidatie",
+            "badwill"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Bij eerste consolidatie: het verschil tussen de **aankoopprijs van de deelneming** en de **reële waarde van het netto actief** van de dochter, toegewezen aan de moeder.\n\n- **Goodwill** (positief verschil): aankoopprijs > reële waarde netto actief → geactiveerd als immaterieel vast actief en afgeschreven\n- **Badwill** (negatief verschil): aankoopprijs < reële waarde netto actief → via resultaat of als negatief immaterieel actief\n\nVervolgjaren: de **investeringseliminatie** wordt herhaald op basis van het eigen vermogen bij eerste consolidatiedatum, zodat het consolidatieverschil constant blijft (de afschrijvingen lopen via de resultatenrekening).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het consolidatieverschil is economisch de prijs betaald voor synergievoordelen, marktpositie of latente waarden niet zichtbaar in de boeken. De afschrijving ervan drukt op het geconsolideerde resultaat en is een beslissingsvariabele voor de opstellers van de geconsolideerde jaarrekening."
+          }
+        }
+      },
+      {
+        "id": "eliminatie-intercompany-transacties",
+        "naam": {
+          "primair": "Eliminatie van intercompany-transacties",
+          "synoniemen": [
+            "intercompany-eliminatie"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "Transacties **binnen de consolidatiekring** (moeder ↔ dochter, dochter ↔ dochter) worden volledig geëlimineerd om dubbeltellingen te vermijden:\n- **Wederzijdse vorderingen en schulden** worden gesaldeerd\n- **Intercompany-omzet en -aankopen** worden geëlimineerd\n- **Intercompany-winsten** ingesloten in voorraden of vaste activa worden geëlimineerd\n- **Intercompany-dividenden** worden geëlimineerd\n\nNa eliminatie toont de geconsolideerde jaarrekening enkel de transacties met **derden buiten de groep**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke **dochtervennootschap** waarover de moeder controle uitoefent — standaardgeval in de geconsolideerde jaarrekening van een Belgische groep.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Entiteiten waarbij controle bestaat via **stemrechtmeerderheid** (> 50%) of via **contractuele of feitelijke dominantie** bij een lager percentage.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Geassocieerde deelnemingen** (significante invloed zonder controle, doorgaans 20–50% stemrechten) — daar is de **vermogensmutatiemethode** van toepassing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Joint ventures** met gezamenlijke leiding — daar is de **evenredige consolidatie** of vermogensmutatiemethode van toepassing (afhankelijk van het toepasselijke referentiestelsel).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Entiteiten die **tijdelijk** worden aangehouden (bedoeld voor wederverkoop op korte termijn) of waarover controle ernstig en duurzaam beperkt is — wettelijk voorziene **uitsluitingsgronden** van de consolidatiekring.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De moeder oefent **controle** uit over de dochter — dit is de noodzakelijke en voldoende voorwaarde voor integrale consolidatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De entiteit behoort tot de **consolidatiekring** (niet uitgesloten op grond van wettelijke uitzonderingen of drempelwaarden voor groepsomvang).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verkeerde methodekeuze** — een entiteit die geconsolideerd wordt als dochter (integraal) terwijl er slechts significante invloed bestaat, overschat de omvang van de groep en verstoort de ratio-analyse.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onvolledige eliminatie** van intercompany-transacties leidt tot kunstmatig opgeblazen omzet, winst of balanstotaal.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "verrichting"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "consolidatiemethoden",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Integrale consolidatie is de hoofdmethode binnen het kader van consolidatiemethoden."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "evenredige-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide verwerken gegevens van de deelneming lijn voor lijn in de geconsolideerde jaarrekening",
+        "Beide vereisen intercompany-eliminaties"
+      ],
+      "verschillen": [
+        "Integrale consolidatie consolideert 100%; evenredige consolidatie consolideert alleen het proportionele aandeel",
+        "Integrale consolidatie erkent minderheidsbelangen; evenredige consolidatie niet",
+        "Integrale consolidatie geldt bij controle; evenredige consolidatie bij gezamenlijke leiding"
+      ],
+      "verwarring_risico": "Studenten verwarren de methode met het eigendomspercentage: ook bij 55% eigendom wordt 100% geconsolideerd, niet 55%.",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vermogensmutatiemethode",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide verwerken de deelneming in de geconsolideerde jaarrekening",
+        "Beide erkennen de economische relatie tussen moeder en gelieerde entiteit"
+      ],
+      "verschillen": [
+        "Integrale consolidatie werkt lijn-voor-lijn; vermogensmutatiemethode toont enkel de netto-boekwaarde",
+        "Integrale consolidatie geldt bij controle; vermogensmutatiemethode bij significante invloed",
+        "Bij vermogensmutatiemethode geen omzet/kosten van de deelneming zichtbaar"
+      ],
+      "verwarring_risico": "Bij een tussenpositie (45% eigendom) kan zowel significante invloed als controle aan de orde zijn — de feiten bepalen welke methode van toepassing is."
+    },
+    {
+      "type": "vereist",
+      "target": "eerste-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Integrale consolidatie veronderstelt dat de eerste consolidatieberekening (reële waarde netto actief, goodwill/badwill) is doorgevoerd als startpunt."
+    },
+    {
+      "type": "vereist",
+      "target": "eliminatie-intercompany",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Elke integrale consolidatieronde vereist de eliminatie van intercompany-transacties om dubbeltellingen te vermijden."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "consolidatiekring",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De afbakening van de consolidatiekring bepaalt welke entiteiten integraal worden geconsolideerd."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "minderheidsbelangen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De presentatie van minderheidsbelangen is een directe consequentie van de integrale consolidatiemethode."
+    }
+  ]
 }

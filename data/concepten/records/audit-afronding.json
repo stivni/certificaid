@@ -1,17 +1,27 @@
 {
   "id": "audit-afronding",
   "naam": {
-    "primair": "Audit afronding"
+    "primair": "Audit afronding",
+    "synoniemen": [
+      "afsluitingsfase audit",
+      "audit completion",
+      "afrondingswerkzaamheden audit"
+    ]
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
     "provenance": {
-      "model": "skeleton-from-candidate",
-      "wave_id": "skeleton-dump",
-      "extract_prompt": "tools.extractie.skeleton_from_candidate",
-      "iteratie": "v0"
+      "model": "claude-sonnet-4-6",
+      "wave_id": "wave-2-beschrijven",
+      "extract_prompt": "prompts/operaties/beschrijven.md",
+      "iteratie": "01-beschrijven"
     },
+    "ankers": [
+      "1.6.IV.A",
+      "1.6.III.D"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,30 +34,539 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.6.IV.A",
-      "1.6.III.D"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Audit afronding",
+        "tekst": "De **audit afronding** is de sluitende fase van een controleopdracht waarin de auditor alle verzamelde audit-aanwijzingen synthetiseert, een finaal oordeel vormt over de jaarrekening als geheel en dit oordeel communiceert via een **controleverklaring**. De fase loopt van de evaluatie van bevindingen na het veldwerk tot en met de ondertekening en neerlegging van de controleverklaring.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
+        },
+        "rationale": "De afronding is de fase die het auditproces sluit: alle eerder verzamelde aanwijzingen worden samengebracht tot één uitgesproken oordeel. Zonder deze fase is een audit een onafgemaakt geheel."
+      },
+      "substantie": {
+        "tekst": "De afronding onderscheidt zich van de eerdere controle-werkzaamheden doordat ze **synthese** is in plaats van verzameling. De auditor heeft in vorige fasen aanwijzingen verzameld per deelgebied (cyclussen, saldi, transacties). In de afrondingsfase beantwoordt hij drie vragen:\n\n1. **Zijn de resterende onzekerheid en het niet-gecorrigeerde saldo materieel?** — evaluatie van niet-gecorrigeerde afwijkingen.\n2. **Zijn er gebeurtenissen na balansdatum** die de jaarrekening beïnvloeden?\n3. **Is de jaarrekening als geheel vrij van materiële afwijkingen?** — algeheel bewijsoordeel.\n\nBij een negatief antwoord op vraag 3 volgt een afwijkend oordeel. De auditor legt zijn conclusie vast in de **controleverklaring** en communiceert met de governance-organen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De drie vragen structureren de afrondingsfase logisch en sluiten aan bij de ISA-standaarden (ISA 450, ISA 560, ISA 700-serie). Ze dwingen de auditor tot een expliciet algeheel oordeel in plaats van een optelsom van deelconclusies."
+      },
+      "rationale": {
+        "tekst": "De audit afronding is wettelijk en normatief verplicht: de commissaris moet een **controleverklaring** uitbrengen (WVV art. 3:75). De afronding is het enige moment waarop de auditor het gehele audit-dossier overziet en het cumulatieve effect van alle individuele bevindingen beoordeelt. Een afwijking die per deelgebied aanvaardbaar is, kan samen met andere afwijkingen de materialiteitsdrempel overschrijden — dit is alleen zichtbaar in de afrondingsfase.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De normatieve grondslag (ISA 700-serie + WVV) maakt de afronding niet optioneel maar verplicht met wettelijke consequenties bij niet-naleving."
+      }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke **wettelijke controleopdracht** (commissarismandaat) en elke **vrijwillige controleopdracht** zodra het veldwerk is afgerond en de conceptjaarrekening definitief is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De afrondingsfase is niet optioneel — ze sluit elke controleopdracht af ongeacht omvang of type. Zelfs bij een beperktere opdracht (ISRS 4410 of ISRE 2400) bestaat een analoge afrondingslogica."
+        },
+        {
+          "tekst": "Situaties waarbij **significante bevindingen** zijn vastgesteld tijdens het veldwerk en waarbij de auditor moet beoordelen of ze, cumulatief, leiden tot een aangepast oordeel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij een schone jaarrekening verloopt de afronding gestroomlijnd; bij significante bevindingen is de afrondingsfase het moment waarop de auditor zijn oordeel moet afwegen en motiveren."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Interim-controlewerkzaamheden** of **voorlopige audits** die nog niet zijn afgerond tot het eindstadium — de afrondingsprocedures zijn pas van toepassing wanneer alle geplande werkzaamheden zijn uitgevoerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De afrondingsfase vereist een definitieve (concept)jaarrekening als vertrekpunt. Tussentijdse werkzaamheden vormen geen input voor de controleverklaring."
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De conceptjaarrekening is **definitief goedgekeurd door het bestuursorgaan** en overgemaakt aan de auditor voor de eindecontrole.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De auditor kan pas een oordeel uitbrengen over de definitieve jaarrekening — niet over tussentijdse versies die nog kunnen wijzigen."
+        },
+        {
+          "tekst": "De **substantiële controletests** (deelgebied-controles) zijn afgerond en de resultaten zijn gedocumenteerd in het werkdossier.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De afrondingsfase synthetiseert de resultaten van de deelgebied-controles. Zonder voltooide deelgebied-controles ontbreekt de input voor de synthese."
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De **controleverklaring is ondertekend en overgemaakt** aan het bestuursorgaan, en het werkdossier is voltooid en bewaard conform de bewaarplicht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De ondertekende controleverklaring is het formele sluitpunt van de opdracht. Het bewaren van het dossier is een nakomende administratieve plicht, maar de opdracht als zodanig sluit bij ondertekening."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Niet-gecorrigeerde afwijkingen onvoldoende bewaken**: het cumulatieve effect van individueel aanvaardbare afwijkingen kan de materialiteitsdrempel overschrijden als ze niet worden samengevoegd en geëvalueerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Dit is een structureel risico van de audit afronding: deelgebied-auditors kennen hun eigen bevindingen, maar alleen de eindreview van de opdrachtpartner overziet het geheel."
+        },
+        {
+          "tekst": "**Tijdsdruk na balansdatum**: de afrondingsfase valt samen met de drukste periode bij de cliënt (jaarafsluiting, belastingaangiften). Tijdsdruk vergroot het risico dat achtereenvolgende-gebeurtenis-procedures te beperkt worden uitgevoerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "ISA 560 vereist dat de auditor actief zoekt naar gebeurtenissen na balansdatum tot op de datum van de controleverklaring. Tijdsdruk leidt tot het risico van onvoldoende aandacht voor recente ontwikkelingen."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "evaluatie-niet-gecorrigeerde-afwijkingen",
+        "naam": {
+          "primair": "Evaluatie van niet-gecorrigeerde afwijkingen",
+          "synoniemen": [
+            "ISA 450 evaluatie",
+            "resterende afwijkingen"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De auditor brengt alle **niet-gecorrigeerde afwijkingen** (die het management weigerde te corrigeren of die te klein werden geacht om individueel te communiceren) samen en beoordeelt of hun **cumulatief effect** materieel is voor de jaarrekening als geheel.\n\nHieronder valt zowel het **kwantitatieve** effect (bedrag t.o.v. de materialiteitsdrempel) als het **kwalitatieve** effect (afwijkingen die bepaalde gebruikersgroepen kunnen misleiden, ook als het bedrag klein is).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "ISA 450 verplicht de auditor tot een cumulatieve evaluatie. Het is mogelijk dat individueel aanvaardbare afwijkingen samen de materialiteitsdrempel overschrijden — dit is een typisch afrondings-inzicht dat niet eerder in het auditproces beschikbaar is."
+          }
+        }
+      },
+      {
+        "id": "gebeurtenissen-na-balansdatum",
+        "naam": {
+          "primair": "Procedures voor gebeurtenissen na balansdatum",
+          "synoniemen": [
+            "subsequent events",
+            "ISA 560 procedures"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De auditor voert gerichte procedures uit om **gebeurtenissen na balansdatum** op te sporen die de jaarrekening of de controleverklaring kunnen beïnvloeden. De procedures lopen tot op de **datum van de controleverklaring**.\n\nTwee categorieën:\n- **Adjusting events** (corrigerende gebeurtenissen) — gebeurtenissen die informatie geven over een toestand die al bestond op balansdatum. Vereisen aanpassing van de jaarrekening.\n- **Non-adjusting events** (niet-corrigerende gebeurtenissen) — nieuwe feiten na balansdatum. Vereisen enkel toelichting indien materieel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid tussen adjusting en non-adjusting events bepaalt of de jaarrekening zelf moet worden aangepast of enkel de toelichting. Een fout in dit onderscheid leidt tot een onjuiste jaarrekening."
+          }
+        }
+      },
+      {
+        "id": "going-concern-eindevaluatie",
+        "naam": {
+          "primair": "Eindevaluatie going concern",
+          "synoniemen": [
+            "continuiteitstoets afronding",
+            "ISA 570 afronding"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Op het einde van het auditproces herbeoordeelt de auditor of het **going-concern-veronderstelling** nog steeds geldig is, rekening houdend met alle informatie die tijdens de opdracht is verzameld — inclusief informatie verkregen in de afrondingsfase (bijv. nieuwe schulden, verlies van een grote klant na balansdatum).\n\nBij gegronde twijfel over continuïteit moet de controleverklaring een **afwijkend oordeel** of een **toelichtingsparagraaf** bevatten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Going concern is geen eenmalige beoordeling bij de planningsfase — nieuwe informatie verkregen tot aan de datum van de controleverklaring kan de beoordeling wijzigen. De afrondingsfase is het laatste moment om dit te herzien."
+          }
+        }
+      },
+      {
+        "id": "schriftelijke-bevestiging-management",
+        "naam": {
+          "primair": "Schriftelijke bevestiging van het management",
+          "synoniemen": [
+            "management representations",
+            "ISA 580 verklaring",
+            "representatieverklaring"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De auditor vraagt het **bestuursorgaan** (en desgevallend het management) een **schriftelijke bevestiging** dat:\n- de jaarrekening is opgesteld conform het toepasselijke referentiestelsel,\n- alle informatie en toegang zijn verstrekt die de auditor heeft gevraagd,\n- alle bekende schendingen van wet en regelgeving zijn meegedeeld.\n\nDe verklaring is een audit-aanwijzing, geen substituut voor andere controles. Ze ontslaat de auditor niet van de plicht om aanvullend bewijs te verzamelen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "ISA 580 maakt de schriftelijke bevestiging verplicht. Ze dient twee doelen: ze versterkt de audit-aanwijzingen voor beweringen die niet anders verifieerbaar zijn (bv. volledigheid van alle claims), en ze legt de verantwoordelijkheid formeel bij het management."
+          }
+        }
+      },
+      {
+        "id": "algehele-evaluatie-jaarrekening",
+        "naam": {
+          "primair": "Algehele evaluatie van de jaarrekening",
+          "synoniemen": [
+            "overall review",
+            "ISA 520 algeheel",
+            "analytische procedures afronding"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De auditor voert **analytische procedures** uit op de definitieve jaarrekening als geheel om te beoordelen of de jaarrekening consistent is met zijn kennis van de entiteit en met de tijdens de audit verzamelde aanwijzingen.\n\nDoel: ontdekken van afwijkingen of inconsistenties die in de deelgebied-controles niet zijn opgevangen — een laatste vangnet vóór de controleverklaring.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "ISA 520 vereist analytische procedures bij de afronding. Ze functioneren als een 'sanity check' op de gehele jaarrekening: onverwachte relaties tussen cijfers kunnen wijzen op een niet-ontdekte materiële afwijking."
+          }
+        }
+      },
+      {
+        "id": "controleverklaring-oordeel",
+        "naam": {
+          "primair": "Controleverklaring en oordeel",
+          "synoniemen": [
+            "audit opinion",
+            "verklaring commissaris",
+            "ISA 700 verklaring"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **controleverklaring** is het formele document waarmee de auditor zijn oordeel communiceert over de vraag of de jaarrekening een **getrouw beeld** geeft overeenkomstig het toepasselijke referentiestelsel.\n\nVier oordeel-types:\n- **Goedkeurend oordeel** — jaarrekening geeft in alle materiële opzichten een getrouw beeld.\n- **Oordeel met voorbehoud** — materiële afwijking maar niet doordringend; of beperking van de reikwijdte.\n- **Afwijkend oordeel** (adverse) — materiële afwijking die doordringend is.\n- **Oordeelonthouding** (disclaimer) — beperking van de reikwijdte die doordringend is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid tussen de vier oordeel-types is gebaseerd op twee assen: (1) aard van de kwestie (afwijking vs. reikwijdte-beperking) en (2) ernst (materieel-maar-niet-doordringend vs. doordringend). Dit onderscheid is fundamenteel voor elke auditor en toetsbaar op het examen."
+          },
+          "substantie": {
+            "tekst": "De controleverklaring bevat naast het oordeel ook verplichte elementen:\n- **Paragrafen over kernpunten van de controle** (Key Audit Matters, KAM) — bij vennootschappen van openbaar belang (VOB) verplicht; bij anderen optioneel.\n- **Continuïteitsparagraaf** — bij materiële onzekerheid over going concern.\n- **Toelichtingsparagraaf** — bij niet-corrigerende gebeurtenissen of andere aandachtspunten die de gebruiker moet kennen zonder het oordeel aan te tasten.\n- **Verslag aan het auditcomité** — bij VOB's een apart document naast de publieke controleverklaring.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De structuur van de controleverklaring is gestandaardiseerd door ISA 700-serie om vergelijkbaarheid en leesbaarheid te garanderen. De KAM-paragraaf (ISA 701) voegt transparantie toe over de audit zelf — niet alleen over de jaarrekening."
+          }
+        }
+      },
+      {
+        "id": "communicatie-met-governance",
+        "naam": {
+          "primair": "Communicatie met governance",
+          "synoniemen": [
+            "TCWG communicatie",
+            "ISA 260 communicatie",
+            "communicatie met belast met governance"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De auditor communiceert zijn **bevindingen en conclusies** aan de **personen belast met governance** (TCWG — typically: raad van bestuur, auditcomité). Dit omvat:\n- De algehele audit-aanpak en eventuele wijzigingen.\n- Significante bevindingen, inclusief moeilijkheden tijdens de audit.\n- Niet-gecorrigeerde afwijkingen en hun potentieel effect.\n- Vraagstukken rondom continuïteit.\n- Het beoogde oordeel (vóór ondertekening, zodat governance kan reageren).\n\nDeze communicatie is **tweezijdig**: de auditor ontvangt ook informatie van governance die relevant is voor de audit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "ISA 260 maakt communicatie met governance verplicht. De dialoog versterkt de onafhankelijkheid (auditor communiceert rechtstreeks met governance, niet alleen met management) en geeft governance de kans om fouten te corrigeren vóór de verklaring wordt ondertekend."
+          }
+        }
+      },
+      {
+        "id": "afsluiting-werkdossier",
+        "naam": {
+          "primair": "Afsluiting werkdossier",
+          "synoniemen": [
+            "archivering auditdossier",
+            "ISQM bewaarplicht",
+            "auditfile afsluiting"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Na ondertekening van de controleverklaring wordt het **werkdossier definitief gesloten** en bewaard. Wijzigingen na de afsluitingsdatum zijn alleen toegestaan via een formeel gedocumenteerde uitzonderingsprocedure.\n\n**Bewaarperiode**: minimaal **5 jaar** na datum controleverklaring (ISQM 1 / vroeger ISQC 1), maar langer voor sommige opdrachten of jurisdicties.\n\nNa de afsluiting voert de **opdrachtpartner** een finale kwaliteitsreview uit op het dossier voordat het wordt gearchiveerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De bewaarplicht dient meerdere doelen: transparantie bij kwaliteitstoetsing, bewijskracht bij beroepsprocedures, en continuïteit bij partners-wissel. Wijzigingen na afsluiting zijn een kwaliteits- en integriteitsrisico."
+          }
         }
       }
-    }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht-cyclus",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "normenkader-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "audit-bewijs-verzamelen",
+      "toelichting": "De afrondingsfase kan pas starten nadat alle geplande audit-aanwijzingen zijn verzameld en gedocumenteerd.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "communicatie-met-governance",
+      "toelichting": "Communicatie met governance is een zelfstandig concept én een intrinsieke stap van de audit afronding.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "schriftelijke-bevestiging-management",
+      "toelichting": "Schriftelijke bevestiging is een zelfstandig concept én een verplichte activiteit binnen de audit afronding.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "controleverklaring",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "materialiteit-audit",
+      "toelichting": "De evaluatie van niet-gecorrigeerde afwijkingen en het algehele oordeel in de afrondingsfase worden bepaald door de vastgestelde materialiteitsdrempelwaarden.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "continuiteit-going-concern",
+      "toelichting": "De eindevaluatie van going concern in de afrondingsfase kan de aard van de controleverklaring wijzigen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -17,10 +17,15 @@
     "status": "seed",
     "provenance": {
       "model": "claude-sonnet-4-6",
-      "wave_id": "quick-pass-run1-20260522",
-      "extract_prompt": "prompts/multipass/run-1-draft.md",
-      "iteratie": "v1"
+      "wave_id": "wave-2-launch",
+      "extract_prompt": "prompts/operaties/beschrijven.md",
+      "iteratie": "02-beschrijven"
     },
+    "ankers": [
+      "2.3.II.C",
+      "2.3.III",
+      "2.8.XVII"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -33,15 +38,58 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 16)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wave_id": "wave-2-launch",
+        "wijziging": "Aanvulling modus: kern volledig, gebruikscontext uitgebreid (niet_voor + voorwaarden + trigger_start toegevoegd), elementen behouden."
       }
-    ],
-    "ankers": [
-      "2.3.II.C",
-      "2.3.III",
-      "2.8.XVII"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Abnormale of goedgunstige voordelen zijn voordelen die een Belgische vennootschap toekent aan een verbonden onderneming (of aan een entiteit waarmee een bijzondere band bestaat) zonder daarvoor een marktconforme tegenprestatie te ontvangen, waardoor de Belgische belastbare basis kunstmatig wordt verminderd. De Belgische fiscale wet (artikel 26 WIB 1992) bepaalt dat dergelijke voordelen terug worden toegevoegd aan de winst van de toekennende vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een Belgische vennootschap die aan een gelieerde partij een prijs aanrekent onder de marktwaarde (of gratis presteert) ziet het verschil tussen de marktprijs en de werkelijke prijs fiscaal bij haar belastbare winst gevoegd. Het mechanisme werkt uitsluitend opwaarts bij de toekennende partij: de correctie vergroot de Belgische belastbare grondslag zonder dat de begunstigde buitenlandse entiteit een symmetrische neerwaartse correctie ontvangt (tenzij een afzonderlijk verdragsmechanisme — MAP — dit toelaat).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Gelieerde ondernemingen kunnen via kunstmatige prijszetting winst verschuiven naar het land met de laagste belastingdruk — de Belgische staat zou zo belastbare basis verliezen. Artikel 26 WIB 1992 herstelt die basis door het voordeel te 'spiegelen' in de balans van de Belgische entiteit: wat zij gratis weggaf of te goedkoop verkocht, wordt toch als winst behandeld. Dat mechanisme is complementair aan de transfer-pricing-regels (artikel 185 §2 WIB 1992), maar heeft een bredere toepassingssfeer — ook niet-verbonden begunstigden vallen er onder indien de fiscus een 'bijzondere band' aantoont.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "vennootschapsbelasting",
@@ -57,86 +105,222 @@
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Fiscale controle op grensoverschrijdende of intra-groepsverrichtingen waarbij Belgische winst lijkt weggegeven.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Fiscale controle op grensoverschrijdende of intra-groepsverrichtingen waarbij Belgische winst lijkt weggegeven."
+          }
         },
         {
+          "tekst": "Advies bij het structureren van dienstverlenings- of financieringsovereenkomsten tussen gelieerde entiteiten.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Advies bij het structureren van dienstverlenings- of financieringsovereenkomsten tussen gelieerde entiteiten."
+          }
+        },
+        {
+          "tekst": "Renteloze of laagrentende leningen, managementfees of royalty-stromen binnen een Belgische groepsstructuur die niet op armslengtevoorwaarden zijn afgestemd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Transacties tussen volledig onafhankelijke derden zonder enige feitelijke of juridische band — artikel 26 WIB 1992 vereist steeds een bijzondere band of verbondenheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waar de begunstigde het voordeel reeds als belastbaar inkomen heeft geboekt en belast — de correctie bij de toekennende vennootschap vervalt dan (anti-dubbelbelasting-uitzondering).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Er moet sprake zijn van een voordeel — een positieve vermogensovergang of bespaarde kost ten gunste van de begunstigde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het voordeel moet abnormaal zijn (afwijkend van marktgebruiken) of goedgunstig (zonder tegenprestatie) — beide alternatieven volstaan elk afzonderlijk.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De toekennende partij is een Belgische vennootschap onderworpen aan de vennootschapsbelasting of belasting der niet-inwoners.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De begunstigde is een verbonden onderneming (artikel 11 WVV) of een derde waarmee een bijzondere feitelijke of juridische band bestaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De fiscale correctie wordt getriggerd op het moment dat de Belgische administratie bij een controle vaststelt dat een intercompany-transactie niet marktconform is — dat kan zowel bij een aangifte-controle als bij een boekenonderzoek ter plaatse.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Spontane correctie door de belastingplichtige zelf is ook mogelijk: bij het indienen van de aangifte vennootschapsbelasting kan de vennootschap het voordeel als verworpen uitgave of toevoeging aan de fiscale winst opnemen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "De fiscus kan de correctie spontaan doorvoeren bij controle, inclusief belastingverhogingen en nalatigheidsintresten; bij kwade trouw riskeert de vennootschap strafrechtelijke sancties wegens belastingontduiking.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "De fiscus kan de correctie spontaan doorvoeren bij controle, inclusief belastingverhogingen en nalatigheidsintresten; bij kwade trouw riskeert de vennootschap strafrechtelijke sancties wegens belastingontduiking."
+          }
+        },
+        {
+          "tekst": "Economische dubbele belasting is reëel: de Belgische entiteit wordt belast op het voordeel dat zij heeft 'weggegeven', terwijl de buitenlandse begunstigde op hetzelfde bedrag belast kan worden in zijn woonstaat — zonder dat een corresponderende aanpassing via MAP gegarandeerd is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "indicaties": [
         {
+          "tekst": "Transacties waarbij een Belgische vennootschap diensten of goederen levert aan een buitenlandse groepsvennootschap voor een prijs die aantoonbaar lager ligt dan de armslengteprijs.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Transacties waarbij een Belgische vennootschap diensten of goederen levert aan een buitenlandse groepsvennootschap voor een prijs die aantoonbaar lager ligt dan de armslengteprijs."
+          }
         },
         {
+          "tekst": "Renteloze of laagrentende leningen door een Belgische vennootschap aan een gelieerde entiteit.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Renteloze of laagrentende leningen door een Belgische vennootschap aan een gelieerde entiteit."
+          }
         },
         {
+          "tekst": "Kostenopname in de Belgische entiteit voor prestaties die in hoofdzaak ten goede komen aan buitenlandse groepsvennootschappen (kosten-doorrekening-problematiek).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Kostenopname in de Belgische entiteit voor prestaties die in hoofdzaak ten goede komen aan buitenlandse groepsvennootschappen (kosten-doorrekening-problematiek)."
+          }
         }
       ]
     },
@@ -153,7 +337,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -166,7 +350,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -187,7 +371,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             },
@@ -209,7 +393,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             },
@@ -229,7 +413,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -242,7 +426,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -261,7 +445,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -274,7 +458,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -293,7 +477,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -306,7 +490,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -325,7 +509,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -338,7 +522,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -357,7 +541,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -370,55 +554,14 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
           }
         }
       }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Abnormale of goedgunstige voordelen zijn voordelen die een Belgische vennootschap toekent aan een verbonden onderneming (of aan een entiteit waarmee een bijzondere band bestaat) zonder daarvoor een marktconforme tegenprestatie te ontvangen, waardoor de Belgische belastbare basis kunstmatig wordt verminderd. De Belgische fiscale wet (artikel 26 WIB 1992) bepaalt dat dergelijke voordelen terug worden toegevoegd aan de winst van de toekennende vennootschap."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Een Belgische vennootschap die aan een gelieerde partij een prijs aanrekent onder de marktwaarde (of gratis presteert) ziet het verschil tussen de marktprijs en de werkelijke prijs fiscaal bij haar belastbare winst gevoegd."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Gelieerde ondernemingen kunnen via kunstmatige prijszetting winst verschuiven naar het land met de laagste belastingdruk — de Belgische staat zou zo belastbare basis verliezen. Artikel 26 WIB 1992 herstelt die basis door het voordeel te 'spiegelen' in de balans van de Belgische entiteit: wat zij gratis weggaf of te goedkoop verkocht, wordt toch als winst behandeld. Dat mechanisme is complementair aan de transfer-pricing-regels (artikel 185 §2 WIB 1992), maar heeft een bredere toepassingssfeer — ook niet-verbonden begunstigden vallen er onder indien de fiscus een 'bijzondere band' aantoont."
-      }
-    }
+    ]
   },
   "relaties": [
     {

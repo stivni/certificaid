@@ -1,8 +1,18 @@
 {
   "id": "belasting-definitie-en-functies",
   "naam": {
-    "primair": "Belasting definitie en functies"
+    "primair": "Belasting definitie en functies",
+    "synoniemen": [
+      "belasting",
+      "heffing",
+      "fiscale last",
+      "belasting in de brede zin"
+    ],
+    "vertaling": {
+      "fr": "Impôt — définition et fonctions"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +34,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relatie-suggesties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -34,20 +50,400 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Belasting definitie en functies",
+        "tekst": "Een **belasting** is een door de overheid verplicht opgelegde geldprestatie — zonder specifieke tegenprestatie voor de belastingplichtige — die dient om de openbare uitgaven te financieren. Ze onderscheidt zich van retributies (specifieke vergoeding voor geleverde dienst) en van sociale bijdragen (gekoppeld aan sociaal risico). Drie constitutieve elementen zijn vereist: (1) een **wettelijke grondslag** (legaliteitsbeginsel), (2) een **verplicht karakter** (geen contractuele basis), en (3) de **afwezigheid van individuele tegenprestatie**.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het begrip 'belasting' heeft in de Belgische fiscale doctrine een **functionele** en een **structurele** dimensie. Functioneel: belastingen zijn het belangrijkste instrument waarmee de overheid haar activiteiten bekostigt (budgettaire functie). Structureel: de regels over wie belast wordt, op welke grondslag en tegen welk tarief, vormen samen het **fiscaal stelsel**. Dit kader — met zijn beginselen, actoren en procedures — is de vertrekbasis voor het begrip van elk afzonderlijk belastingtype (personenbelasting, vennootschapsbelasting, btw, enz.).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het onderscheid belasting vs. retributie vs. sociale bijdrage is **niet louter academisch**: het bepaalt de toepasselijke rechtsregels (grondwettelijk vs. sociaalrechtelijk), de bevoegde rechtbank (belastingrechter vs. arbeidsrechtbank) en de beschikbare rechtsmiddelen. Voor de accountant-adviseur is het ook relevant bij de **kwalificatie van overheidsheffingen** in de boekhouding (kostenpost vs. schuld) en bij de analyse van de **fiscale last** van een onderneming.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "constitutieve-elementen-belasting",
+        "naam": {
+          "primair": "Constitutieve elementen van een belasting"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie elementen zijn **cumulatief vereist** voor een heffing om als belasting te kwalificeren:\n1. **Wettelijke grondslag** — de belasting moet bij wet (of decreet) zijn vastgesteld (legaliteitsbeginsel, art. 170 Grondwet).\n2. **Verplicht karakter** — de belastingplichtige kan de betaling niet weigeren; de verplichting vloeit niet voort uit een contract.\n3. **Geen individuele tegenprestatie** — de overheid levert geen specifieke dienst aan de belastingplichtige in ruil voor de betaling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belasting-vs-retributie",
+        "naam": {
+          "primair": "Belasting versus retributie",
+          "synoniemen": [
+            "retributie",
+            "heffing met tegenprestatie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Een **retributie** is een vergoeding die de overheid vraagt voor een **specifieke dienst of voordeel** aan de belastingplichtige (bv. parkeerretributie, legesgeld, dokterskosten in een ziekenhuis). Kenmerkend onderscheid:\n- **Belasting**: geen individuele tegenprestatie, wettelijke grondslag, verplicht.\n- **Retributie**: specifieke vergoeding, mag de kostprijs van de dienst benaderen maar niet ver overschrijden, discretionair wanneer de dienst niet afgenomen wordt.\n\nDe kwalificatie is niet vrij te kiezen: een overheid kan een belasting niet vermommen als retributie om het legaliteitsbeginsel te omzeilen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belasting-vs-sociale-bijdrage",
+        "naam": {
+          "primair": "Belasting versus sociale bijdrage"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**Sociale bijdragen** (RSZ-bijdragen van werknemer en werkgever) zijn verplichte betalingen aan de sociale zekerheid, gekoppeld aan een **sociaal risico** (ziekte, invaliditeit, werkloosheid, pensioen). Onderscheid:\n- **Belasting**: gaat naar de algemene staatsmiddelen, geen specifieke bestemmeling.\n- **Sociale bijdrage**: gaat naar de sociale zekerheidsinstelling, geeft recht op specifieke socialezekerheidsvoordelen (indirect tegenprestatie-karakter).\n\nSociale bijdragen vallen onder het sociaal recht en zijn niet onderworpen aan het fiscale legaliteitsbeginsel op dezelfde wijze. De behandeling in de boekhouding (rubriek 62 vs. rubriek 640) verschilt dienovereenkomstig.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "functies-van-de-belasting",
+        "naam": {
+          "primair": "Functies van de belasting"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "Belastingen vervullen in moderne rechtsstaten meerdere, deels overlappende functies:\n\n1. **Budgettaire functie** (primaire functie) — financiering van overheidsuitgaven (onderwijs, infrastructuur, defensie, sociale zekerheid). Dit is de historisch oorspronkelijke en kwantitatief dominante functie.\n\n2. **Herverdelende functie** — beperking van inkomens- en vermogensongelijkheid via progressieve tarieven (personenbelasting) en belastingvrije sommen.\n\n3. **Sturende / allocatieve functie** — gedragsbeïnvloeding via fiscale incentives (investeringsaftrek, groene fiscaliteit, belasting op tabak/alcohol) of ontmoediging (accijnzen, milieubelastingen).\n\n4. **Stabiliserende functie** — de belastinginkomsten dalen automatisch bij economische neergang (minder winst, minder inkomen) en stijgen bij expansie — zogeheten **automatische stabilisatoren**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "legaliteitsbeginsel-belasting",
+        "naam": {
+          "primair": "Legaliteitsbeginsel (art. 170 Grondwet)",
+          "synoniemen": [
+            "nullum tributum sine lege"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "**Geen belasting kan worden geheven zonder wet.** Het legaliteitsbeginsel — in België vastgelegd in art. 170 van de Grondwet — vereist dat de **essentiële elementen** van een belasting (belastbaar feit, grondslag, tarief, belastingplichtige) bij wet of decreet worden vastgesteld. De uitvoerende macht kan uitvoeringsbepalingen invullen maar kan de essentiële elementen niet zelf bepalen.\n\nGevolgen voor de rechtszoekende:\n- Een belasting zonder wettelijke grondslag is nietig.\n- Analogische interpretatie **ten nadele** van de belastingplichtige is verboden.\n- Fiscale wetten worden strikt geïnterpreteerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "indeling-belastingen-directe-indirecte",
+        "naam": {
+          "primair": "Indeling directe vs. indirecte belastingen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De klassieke tweedeling:\n\n| Kenmerk | Directe belasting | Indirecte belasting |\n|---|---|---|\n| **Drager** | Belastingplichtige = economische drager | Belastingplichtige (= schuldenaar) verhaalt kost op eindverbruiker |\n| **Grondslag** | Inkomen, vermogen | Consumptie, transactie, invoer |\n| **Voorbeelden** | PB, VenB, onroerende voorheffing | Btw, accijnzen, registratiebelasting |\n| **Progressiviteit** | Vaak progressief (PB) | Vaak proportioneel of forfaitair |\n\nVoor de accountant is de tweedeling relevant bij de **kwalificatie van kosten** (directe belastingen → rubriek 640; indirecte belastingen die niet terugvorderbaar zijn → in de kostprijs of als aparte post) en bij de analyse van de fiscale druk van een onderneming.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "structuur-belgisch-belastingstelsel",
+        "naam": {
+          "primair": "Structuur van het Belgische belastingstelsel"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "België heeft een **meerlaagsig belastingstelsel** door de staatshervorming:\n\n1. **Federale belastingen** — PB, VenB, RV, btw, accijnzen, douane. Wetgeving bij federale wet (WIB92, WBTW, …).\n2. **Gewestelijke belastingen** — registratiebelasting, erfbelasting, onroerende voorheffing, verkeersbelasting, kadastraal inkomen. Bevoegdheid geregeld in de Bijzondere Financieringswet.\n3. **Gemeentelijke/provinciale belastingen** — aanvullende gemeentebelasting op PB (opcentiemen), autonome gemeentebelastingen (bv. drijfkracht, reclame). Gewestelijk kader bepaalt autonomiemarge.\n\nDe bevoegdheidsverdeling is **niet vrij** voor de belastingplichtige of de overheid: een gemeente kan geen belasting heffen op een grondslag die federaal belast is, tenzij de federale overheid dit toelaat.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Begripsomkadering als **vertrekpunt voor alle andere fiscale concepten**: definitie, beginselen en functies gelden voor elk type belasting (PB, VenB, btw, …).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Kwalificatie van een heffing**: wanneer de vraag rijst of een overheidsopgelegde betaling een belasting, retributie of sociale bijdrage is — voor boekhoudkundige rubriekering of rechtsmiddelkeuze.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Analyse van de totale fiscale druk** van een onderneming: enkel door alle lagen (federaal, gewestelijk, gemeentelijk) en types (direct, indirect) in kaart te brengen, is de werkelijke last zichtbaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "De berekening van een concrete belastingschuld (bv. verschuldigde VenB of btw): daarvoor zijn de specifieke belasting-records (vennootschapsbelasting, btw-stelsel, …) het juiste kader.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Fundament voor **fiscale redenering**: beginselen zoals legaliteit, non-retroactiviteit en gelijkheid zijn pas toepasbaar als het concept 'belasting' zelf scherp is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Examencontext waarbij gevraagd wordt **belastingen te onderscheiden van retributies of sociale bijdragen**, of waarbij het legaliteitsbeginsel relevant is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vragen over de **functies van belastingen** of de maatschappelijke ratio van het belastingstelsel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "indeling-belastingen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De indeling van belastingen (direct/indirect, naar grondslag, naar belastingplichtige) is een verdere uitwerking van dit kader."
+    },
+    {
+      "type": "bevat",
+      "target": "fiscale-beginselen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Legaliteit, gelijkheid, non-retroactiviteit en draagkrachtbeginsel zijn constitutieve beginselen die op het belastingbegrip voortbouwen."
+    },
+    {
+      "type": "bevat",
+      "target": "toepassingsgebied-belasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het toepassingsgebied (wie is belastingplichtige, wat is het belastbare feit) is de concrete invulling van de abstracte belastingsdefinitie."
+    },
+    {
+      "type": "bevat",
+      "target": "fiscale-actoren",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De actoren in het fiscaal stelsel (belastingadministratie, belastingplichtige, rechter) zijn uitvloeisels van het belastingkader."
+    },
+    {
+      "type": "valt_onder",
+      "target": "fiscale-beginselen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De definitie van belasting is gestoeld op de grondwettelijke en fiscaalrechtelijke beginselen."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gewestelijke-en-lokale-fiscaliteit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De gewestelijke en lokale belastingen gelden dezelfde constitutieve elementen als federale belastingen, maar met een andere bevoegdheidsgrondslag."
+    }
+  ]
 }

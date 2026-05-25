@@ -1,8 +1,17 @@
 {
   "id": "inbreng-onroerend-in-vennootschap",
   "naam": {
-    "primair": "Inbreng onroerend in vennootschap"
+    "primair": "Inbreng onroerend in vennootschap",
+    "synoniemen": [
+      "inbreng in natura onroerend goed",
+      "apport immeuble",
+      "inbreng vastgoed"
+    ],
+    "vertaling": {
+      "fr": "Apport d'un bien immobilier en société"
+    }
   },
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +33,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data. Modus: aanvullend."
       }
     ],
     "ankers": [
@@ -34,20 +49,481 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Inbreng onroerend in vennootschap",
+        "tekst": "De **inbreng van een onroerend goed in een vennootschap** is een verrichting waarbij een natuurlijk persoon of rechtspersoon een onroerend goed — grond, gebouw of zakelijk recht op vastgoed — als bijdrage inbrengt in ruil voor aandelen of een verhoging van zijn deelneming in de vennootschap. Het onroerend goed wordt eigendom van de vennootschap; de inbrenger ontvangt nieuwe of bijkomende aandelen als tegenprestatie.\n\nDeze verrichting verschilt fundamenteel van een **verkoop** (waarbij de inbrenger een geldprijs ontvangt) en van een **verhuur** (waarbij de inbrenger eigenaar blijft). Bij een inbreng is de tegenprestatie altijd aandelen — nooit geld.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een inbreng van een onroerend goed in een vennootschap heeft **drie simultane dimensies** die elk hun eigen aandachtspunten meebrengen:\n\n1. **Vennootschapsrechtelijk** — de verrichting is een inbreng in natura. Zij vereist een waarderingsverslag van een bedrijfsrevisor (of commissaris indien aangesteld), een bijzonder verslag van het bestuursorgaan, en neerlegging bij de griffie. Bij een BV zijn de formaliteiten minder zwaar dan bij een NV.\n\n2. **Fiscaal** — voor de inbrenger rijzen vragen over meerwaarden op het ingebrachte goed (in de personenbelasting: stopzettingsmeerwaarden of privé-meerwaarden op onroerende goederen; in de vennootschapsbelasting: belaste meerwaarden). De vennootschap die ontvangt, neemt de goederen op aan de door de inbrenger opgegeven en door de revisor gewaardeerde waarde.\n\n3. **Registratiebelasting** — de inbreng van een onroerend goed in een Belgische vennootschap is in beginsel onderworpen aan een **vast recht van € 50** (geen evenredig recht). Dit maakt de inbreng fiscaal gunstiger dan een verkoop (verkooprecht van 3% of 12,5%).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De **ratio van de inbreng** ligt in de combinatie van vermogensbeschermende en fiscale voordelen: de inbrenger behoudt via zijn aandeelhouderschap economisch belang in het vastgoed, maar de eigendom van het goed is nu vennootschapseigendom. Dit maakt het mogelijk om:\n- het vastgoed te beschermen tegen persoonlijke schuldeisers van de aandeelhouder;\n- de exploitatie en het beheer te centraliseren in de vennootschap;\n- toekomstige overdrachten soepeler te laten verlopen via aandelenverkoop in plaats van onroerend goed-overdracht.\n\nHet registratierecht-verschil (vast recht bij inbreng vs. evenredig recht bij verkoop) is de voornaamste fiscale drijfveer voor de keuze van de inbreng boven de verkoop.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "inbreng-in-natura-kwalificatie",
+        "naam": {
+          "primair": "Inbreng in natura",
+          "synoniemen": [
+            "apport en nature"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een inbreng in een vennootschap wordt als **inbreng in natura** gekwalificeerd wanneer de bijdrage niet bestaat uit geld maar uit een goed met een vermogenswaarde — zoals een onroerend goed, een handelszaak of een schuldvordering. De tegenprestatie is steeds de uitgifte van nieuwe aandelen of de verhoging van de deelneming van de inbrenger.\n\nDe kwalificatie als inbreng in natura heeft vennootschapsrechtelijk directe gevolgen: waarderingsverslag, bijzonder verslag en neerleggingsplicht zijn wettelijk verplicht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "revisorverslag-waardering",
+        "naam": {
+          "primair": "Waarderingsverslag bedrijfsrevisor",
+          "synoniemen": [
+            "revisorverslag inbreng in natura"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een inbreng in natura is een **waarderingsverslag van een bedrijfsrevisor** (of de commissaris indien aangesteld) wettelijk verplicht. De revisor oordeelt of de waarde van het ingebrachte goed ten minste gelijk is aan de nominale waarde van de uit te geven aandelen, vermeerderd met eventueel uitgiftepremie.\n\nZonder dit verslag is de inbreng in natura nietig of onafdwingbaar. Het verslag wordt neergelegd bij de griffie van de ondernemingsrechtbank en gepubliceerd in de Bijlagen bij het Belgisch Staatsblad.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "registratierecht-vast-recht",
+        "naam": {
+          "primair": "Vast registratierecht bij inbreng",
+          "synoniemen": [
+            "vast recht",
+            "recht van € 50"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De inbreng van een onroerend goed in een **Belgische vennootschap** is in beginsel onderworpen aan het **vaste registratierecht** (historisch € 50, te verifiëren op actueel tarief), in tegenstelling tot een gewone verkoop die het verkooprecht van **3% (Brussel/Wallonië) of 12,5% (Vlaanderen)** verschuldigd is.\n\nHet vaste recht geldt voor zover de inbreng wordt vergoed door aandelen. Een gemengde inbreng (deels aandelen, deels geld) roept vragen op over de opsplitsing.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "meerwaarde-inbrenger",
+        "naam": {
+          "primair": "Meerwaarde bij de inbrenger",
+          "synoniemen": [
+            "realisatie meerwaarde onroerend goed"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De inbreng van een onroerend goed is een **belastbare realisatie** vanuit het standpunt van de inbrenger wanneer de inbrengwaarde hoger is dan de fiscale boekwaarde of aanschaffingsprijs. Het belastingregime hangt af van de hoedanigheid van de inbrenger:\n\n- **Inbrenger = natuurlijk persoon (privé)**: meerwaarden op ongebouwde percelen gerealiseerd binnen 5 jaar zijn belastbaar als divers inkomen (33%). Meerwaarden op gebouwen binnen 5 jaar: 16,5%. Na 5 jaar in principe vrijgesteld. Inbreng in de beroepssfeer (bv. vastgoed in de handelszaak): stopzettingsmeerwaarde.\n- **Inbrenger = vennootschap**: de meerwaarde is in beginsel belastbaar in de vennootschapsbelasting tenzij een vrijstellings- of neutraliteitsregime van toepassing is (bv. artikel 46 WIB92 bij inbreng van een bedrijfstak).\n\nVoor particuliere inbrengers is de timing cruciaal: naarmate de bezitsduur langer is, neemt het risico op belastbare meerwaarden af.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kadastraal-inkomen-verschuiving",
+        "naam": {
+          "primair": "Verschuiving kadastraal inkomen",
+          "synoniemen": [
+            "KI-verschuiving"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Na de inbreng is het onroerend goed eigendom van de **vennootschap** — het kadastraal inkomen (KI) verschuift mee. Dit heeft gevolgen voor:\n- De **onroerende voorheffing**: voortaan te betalen door de vennootschap als eigenaar.\n- De **onroerende inkomsten in de personenbelasting** van de voormalige eigenaar-inbrenger: verdwijnen (geen eigendom meer).\n- De **inkomsten voor de vennootschap**: het onroerend goed genereert voortaan huur (indien verhuurd) of wordt bedrijfsmatig gebruikt. De vennootschap is belastbaar op de opbrengsten.\n\nDe verschuiving van KI heeft ook gevolgen voor de mogelijkheid van de inbrenger om te genieten van de eigen woning-aftrek voor andere onroerende goederen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-aspecten-inbreng",
+        "naam": {
+          "primair": "BTW-aspecten bij inbreng onroerend goed"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De BTW-behandeling van een inbreng van een onroerend goed hangt af van de aard van het goed en de hoedanigheid van de partijen:\n\n- **Nieuw gebouw** (eerste ingebruikname minder dan 2 jaar geleden): de inbreng is principieel BTW-plichtig (21%), tenzij vrijstelling of de regeling inzake overdracht van algemeenheid van toepassing is.\n- **Oud gebouw**: principieel vrijgesteld van BTW, maar optie voor BTW-belasting mogelijk (in bepaalde gevallen).\n- **Inbreng van een algemeenheid of bedrijfstak**: de BTW-vrijstelling van overdracht van een algemeenheid (art. 11 WBTW) kan van toepassing zijn — dan geen BTW verschuldigd.\n\nDe BTW-herziening van eventuele aftrekken bij de inbrenger dient te worden nagekeken wanneer het goed eerder voor BTW-belaste activiteiten werd gebruikt.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "inbrengwaarde-en-fiscale-boekwaarde",
+        "naam": {
+          "primair": "Inbrengwaarde en fiscale boekwaarde",
+          "synoniemen": [
+            "aanvangsfiscale boekwaarde vennootschap"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De vennootschap neemt het onroerend goed in haar activa op aan de **inbrengwaarde** zoals vastgesteld in het waarderingsverslag van de revisor. Dit wordt de **boekhoudkundige aanschaffingswaarde** voor de vennootschap.\n\nFiscaal is de situatie complexer:\n- De **fiscale boekwaarde** bij de vennootschap is in principe gelijk aan de inbrengwaarde (tenzij een neutraliteitsregime van toepassing is, zoals bij artikel 46 WIB92).\n- Wanneer de inbrenger een **meerwaarde realiseerde** die belast werd, kan de vennootschap starten met een hogere fiscale boekwaarde.\n- Wanneer een **neutraliteitsregime** van toepassing is (continuïteit), neemt de vennootschap de historische boekwaarde van de inbrenger over — geen step-up.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Zelfstandigen of vennootschappen die **beroepsvastgoed** dat zij al bezitten wensen onder te brengen in een exploitatievennootschap of holdingstructuur.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De inbreng laat toe het vastgoed te centraliseren in de rechtspersoon, met voordelen inzake aansprakelijkheidsafscherming en successieplanning."
+        },
+        {
+          "tekst": "Oprichting van een **patrimoniumvennootschap** waarbij de oprichter zijn privévastgoed inbrengt als stortingswijze van het maatschappelijk kapitaal.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De inbrenger vermijdt het evenredig registratierecht van een verkoop en behoudt zijn economisch belang via de aandelen."
+        },
+        {
+          "tekst": "Situaties waar de bezitsduur van het onroerend goed bij de inbrenger lang genoeg is zodat er **geen of beperkte belastbare meerwaarde** ontstaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Een inbreng kort na de verwerving kan een aanzienlijke belastingkost veroorzaken bij de inbrenger — de timing is dus cruciaal."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Situaties waar de inbrenger **liquiditeit nodig heeft** — bij een inbreng ontvangt men aandelen, geen cash.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Wanneer de eigenaar cash wil realiseren, is een verkoop het aangewezen instrument. De inbreng levert geen directe liquiditeit op."
+        },
+        {
+          "tekst": "Onroerend goed waarop **hypotheek of andere zakelijke zekerheid** rust die de vrije overdracht verhindert, tenzij de schuldeiser akkoord gaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Hypotheekhouders moeten in beginsel instemmen met een eigendomsoverdracht. Een inbreng zonder akkoord van de hypotheekhouder is juridisch heikel."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De **inbrenger is eigenaar** (of zakelijk gerechtigde) van het onroerend goed en kan vrij beschikken over het goed.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een **waarderingsverslag van een bedrijfsrevisor** (of commissaris) is opgesteld vóór de inbreng en beschikbaar gesteld aan de aandeelhouders.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De **notariële akte** van inbreng is verleden — een inbreng van onroerend goed vereist authenticiteit omdat een eigendomsoverdracht van een onroerend goed in België enkel bij notariële akte kan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Belastbare meerwaarde bij de inbrenger** wanneer de inbrengwaarde de fiscale aanschaffingsprijs overstijgt en de bezitsduur te kort is voor vrijstelling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**BTW-herziening** bij de inbrenger wanneer het onroerend goed eerder werd gebruikt voor BTW-belaste activiteiten en de herzieningstermijn nog loopt.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verlies van fiscale voordelen** verbonden aan de eigen woning-aftrek of woonbonus wanneer de inbrenger voordien in het ingebrachte pand woonde of er fiscaal voordeel uit haalde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "verrichting"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "financiele-verrichtingen-categorie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "kapitaalverhoging",
+      "toelichting": "Een inbreng van onroerend goed gaat vrijwel altijd gepaard met een kapitaalverhoging (of de oprichting) van de vennootschap — de inbreng is de stortingswijze van het bijkomend kapitaal.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "quasi-inbreng",
+      "toelichting": "De quasi-inbreng is een aankoop door de vennootschap van een goed van een oprichter/aandeelhouder binnen twee jaar na oprichting, met vergelijkbare formaliteiten als een inbreng in natura.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "registratiebelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-vastgoed",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-van-bedrijfstak-of-algemeenheid",
+      "toelichting": "Wanneer het onroerend goed deel uitmaakt van een algemeenheid of bedrijfstak, zijn de regels van de inbreng van bedrijfstak (art. 46 WIB92) mogelijk van toepassing en kan een neutraliteitsregime gelden.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "patrimoniumvennootschap",
+      "toelichting": "De inbreng van onroerend goed is de typische oprichtings- of kapitaalverhogingsverrichting bij een patrimoniumvennootschap.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

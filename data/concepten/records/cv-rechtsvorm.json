@@ -1,11 +1,25 @@
 {
   "id": "cv-rechtsvorm",
   "naam": {
-    "primair": "Cv rechtsvorm"
+    "primair": "Coöperatieve vennootschap",
+    "afkorting": "CV",
+    "synoniemen": [
+      "coöperatie",
+      "coöperatieve"
+    ],
+    "vertaling": {
+      "fr": "Société coopérative",
+      "en": "Cooperative company"
+    }
   },
+  "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "3.0.I.B",
+      "3.0.I.C"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,484 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "3.0.I.B",
-      "3.0.I.C"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Cv rechtsvorm",
+        "tekst": "De **coöperatieve vennootschap (CV)** is een vennootschapsvorm met veranderlijk kapitaal en veranderlijk ledenbestand, waarbij de vennoten in beginsel slechts aansprakelijk zijn tot het bedrag van hun inbreng. Ze is gericht op de bevrediging van de behoeften en/of de ontwikkeling van de economische en/of sociale activiteiten van haar vennoten, of van derden waarvoor ze een sociaal doel nastreeft.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De CV verschilt fundamenteel van de BV en NV door drie structurele kenmerken:\n\n- **Variabel kapitaal en leden**: vennoten kunnen toe- en uittreden zonder statutenwijziging, binnen de grenzen bepaald in de statuten. Dit maakt de CV flexibel in ledenbestand.\n- **Coöperatief doel**: de CV is gericht op de bevrediging van de belangen van haar leden (of van derden), niet louter op winstmaximalisatie. Dit onderscheidt haar van de BV/NV.\n- **Erkende coöperaties**: een CV kan erkenning aanvragen bij de Nationale Raad voor de Coöperatie (NRC), wat fiscale en sociale voordelen oplevert maar bijkomende governance-vereisten meebrengt.\n\nSinds het WVV (2019) is de CV gereserveerd voor echte coöperatieve activiteiten. Entiteiten die vroeger een CVBA utiliseerden louter voor de organisatievrijheid, moeten nu doorgaans naar de BV.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Deze drie kenmerken verklaren waarom de CV in specifieke sectoren (landbouwcoöperaties, sociale economie, werknemersparticipatie) dominant is, maar voor algemene KMO-activiteiten minder geschikt is dan de BV."
+      },
+      "rationale": {
+        "tekst": "De coöperatieve rechtsvorm is historisch ontstaan als antwoord op de machtsongelijkheid tussen kleine producenten/afnemers en grote marktspelers. De wettelijke structuur (variabel ledenbestand, stemrecht doorgaans per hoofd of beperkt gewogen, verbod op louter kapitalistisch doel) vertaalt dit in een juridisch kader dat samenwerking en gedeeld belang centraal stelt in plaats van kapitaalrendement.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Groepen van personen of ondernemingen die samen een **gemeenschappelijk economisch of sociaal doel** nastreven, waarbij het ledenbestand evolueert in de tijd (landbouwcoöperaties, winkelcoöperaties, producenten-coöperaties).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het variabele ledenbestand is het kernvoordeel: geen notariële akte vereist bij toe- of uittreding van leden."
+        },
+        {
+          "tekst": "**Werknemersparticipatie-structuren** waarbij medewerkers geleidelijk aandelen verwerven en het ledenbestand mee evolueert.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het toe- en uittreden zonder statutenwijziging laat toe dat nieuwe werknemers-aandeelhouders toetreden zonder dure notariële formaliteiten."
+        },
+        {
+          "tekst": "Entiteiten die **erkenning als sociale onderneming** nastreven of die actief zijn in de sociale economie (beschutte werkplaatsen, sociale inschakelingsbedrijven).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Klassieke KMO's** zonder coöperatief karakter die enkel de organisatievrijheid van de vroegere CVBA zochten — die moeten nu de BV kiezen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Sinds het WVV (2019) vereist de CV een authentiek coöperatief karakter. De CV zonder coöperatief doel kan worden omgezet door de rechter of ontbonden."
+        },
+        {
+          "tekst": "Structuren waarbij kapitaalrendement het **primaire** doel is en waarbij een stabiel aandeelhoudersregister wenselijk is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De NV is beter geschikt voor kapitaalintensieve structuren met stabiel aandeelhoudersbestand en focus op rendement."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Variabel ledenbestand** zonder notariële akte: toe- en uittreding van leden kan worden geregeld via de statuten zonder elke keer een statutenwijziging te vereisen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Beperkte aansprakelijkheid** van de vennoten (tot beloop van hun inbreng), gecombineerd met coöperatieve governance.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Erkende coöperatie** (NRC-erkenning): toegang tot fiscale voordelen (vrijstelling RV op dividenden aan leden tot plafond) en erkenning als sociale onderneming.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bedragen en plafonds van de RV-vrijstelling dienen geverifieerd te worden in het WIB92 en de jaarbedragen — betwijfeld want tariefafhankelijk."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Kwalificatierisico**: een CV zonder authentiek coöperatief karakter riskeert gedwongen omzetting of ontbinding. De rechter kan op vordering van het openbaar ministerie of van een belanghebbende de ontbinding uitspreken.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "variabel-kapitaal",
+        "naam": {
+          "primair": "Variabel kapitaal"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het kapitaal van de CV is van rechtswege variabel: het stijgt door toetredingen en daalt door uittredingen of uitsluitingen van vennoten, zonder dat daarvoor een statutenwijziging of notariële akte vereist is. De statuten bepalen het minimumbedrag van het kapitaal dat niet door uittredingen mag worden aangetast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit mechanisme is het fundamentele verschil met de BV en NV, waar elke wijziging van het aandelenbestand een notariële akte vereist. Het maakt de CV geschikt voor dynamische ledengroepen."
+          }
+        }
+      },
+      {
+        "id": "cooperatief-doel",
+        "naam": {
+          "primair": "Coöperatief doel (authentiek karakter)"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds het WVV (2019) moet de CV een **authentiek coöperatief doel** nastreven: de bevrediging van de behoeften en/of de ontwikkeling van de economische en/of sociale activiteiten van haar vennoten, of van derden in een sociaal doel. Louter kapitalistisch doel (winstmaximalisatie voor aandeelhouders) is onvoldoende — dan hoort de BV of NV.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het WVV heeft de CV herdacht als een écht coöperatief instrument, waardoor de vroegere CVBA (die puur om flexibiliteit werd gekozen) verdween. Entiteiten zonder coöperatief karakter moeten omzetten."
+          }
+        }
+      },
+      {
+        "id": "toetreding-uittreding",
+        "naam": {
+          "primair": "Toe- en uittreding van vennoten"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Vennoten kunnen toetreden en uittreden op de wijze bepaald in de statuten, zonder dat dit een statutenwijziging vereist. De statuten regelen:\n- **Toetredingsvoorwaarden** (bv. aanvaarding door het bestuur, minimuminbreng)\n- **Uittredingsrecht** (bv. op elk einde van boekjaar, met opzegtermijn)\n- **Uitsluitingsgronden** (bv. bij wangedrag of schending van de statuten)\n- **Teruggave van inbreng** bij uittreding (doorgaans de boekwaarde, niet de marktwaarde)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De teruggave van inbreng bij uittreding is een kritiek punt: de uittredende vennoot heeft recht op zijn inbreng maar niet op de stille reserves — dit verschilt fundamenteel van de aandelenverkoop in een BV/NV."
+          }
+        }
+      },
+      {
+        "id": "bestuur-cv",
+        "naam": {
+          "primair": "Bestuur van de CV"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De CV wordt bestuurd door één of meer bestuurders (natuurlijke of rechtspersonen), benoemd door de algemene vergadering. In tegenstelling tot de NV is een raad van bestuur met meerdere leden niet verplicht — één bestuurder volstaat. De algemene vergadering van vennoten oefent de niet aan de bestuurders toegewezen bevoegdheden uit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stemrecht-av-cv",
+        "naam": {
+          "primair": "Stemrecht in de algemene vergadering"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In de algemene vergadering van een CV geldt het **één vennoot, één stem**-principe als basisregel, tenzij de statuten gewogen stemrecht toestaan. Gewogen stemrecht is echter begrensd: geen enkele vennoot mag meer dan een vijfde (20%) van de totale stemmen bezitten.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De 20%-drempel is indicatief — dient geverifieerd in WVV. Het principe van beperking van stemconcentratie is typisch voor coöperaties en onderscheidt hen van de NV/BV waar stemmen proportioneel zijn aan kapitaalinbreng."
+          }
+        }
+      },
+      {
+        "id": "erkende-cooperatie",
+        "naam": {
+          "primair": "Erkende coöperatie (NRC-erkenning)"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Een CV kan erkenning aanvragen bij de **Nationale Raad voor de Coöperatie (NRC)**. De erkende coöperatie moet voldoen aan de coöperatieve principes (o.a. open en vrijwillig lidmaatschap, democratische controle, economische participatie van de leden) en krijgt in ruil toegang tot bepaalde fiscale voordelen, waaronder een vrijstelling van roerende voorheffing op dividenden uitbetaald aan vennoten tot een bepaald plafond.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De erkenning is vrijwillig maar fiscaal aantrekkelijk. De precieze hoogte van de RV-vrijstelling en het plafond dienen geverifieerd te worden in het WIB92 en actuele tariefbesluiten."
+          }
+        }
+      },
+      {
+        "id": "minimumkapitaal-cv",
+        "naam": {
+          "primair": "Minimumkapitaal en volstorting"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De CV heeft een **wettelijk minimumkapitaal** (te verifiëren bedrag in WVV). Bij oprichting moeten de inbrengen voldoende zijn om de activiteit te financieren — de financiële plan-verplichting geldt ook voor de CV. Aandelen kunnen worden uitgegeven met een minimumvolstortingspercentage bepaald in de statuten.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het exacte minimumkapitaalbedrag voor de CV is onderwerp van de wettekst (WVV) — betwijfeld omdat het bedrag actueel dient gecontroleerd in de bron."
+          }
+        }
+      },
+      {
+        "id": "cvba-omzetting",
+        "naam": {
+          "primair": "Omzetting van CVBA naar CV of BV"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De vroegere **CVBA (coöperatieve vennootschap met beperkte aansprakelijkheid)** bestaat niet meer als rechtsvorm. Entiteiten opgericht als CVBA moesten vóór 1 januari 2024 hun statuten aanpassen:\n- **CV** als ze een authentiek coöperatief karakter hebben\n- **BV** als ze de flexibiliteit zochten maar geen coöperatief karakter hebben\n\nEntiteiten die na de deadline geen keuze maakten, worden automatisch geacht te voldoen aan de CV-vereisten — met risico op gedwongen ontbinding bij ontbreken van coöperatief doel.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De overgangsperiode en exacte datum dienen geverifieerd. De omzettingsverplichting is een kritiek punt voor accountants die klanten begeleiden met een CVBA in hun portefeuille."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "instrument"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "rechtsvormen-belgie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "bv-rechtsvorm",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "beperkte aansprakelijkheid vennoten",
+        "flexibel bestuur"
+      ],
+      "verschillen": [
+        "CV heeft variabel kapitaal en authentiek coöperatief doel vereist; BV is kapitaalsvrij maar stabiel aandeelhoudersregister"
+      ],
+      "verwarring_risico": "Vroegere CVBA werd vaak als BV-equivalent gebruikt; na WVV 2019 is de scheiding strenger."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "nv-rechtsvorm",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "rechtspersoonlijkheid",
+        "beperkte aansprakelijkheid"
+      ],
+      "verschillen": [
+        "NV is kapitaalintensief en gericht op aandeelhouderrendement; CV is coöperatief van aard met variabel ledenbestand"
+      ],
+      "verwarring_risico": "Beide hebben een algemene vergadering en bestuur, maar de governance-logica (kapitaal vs. leden) verschilt fundamenteel."
+    },
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrechtelijk-kader-wvv",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "keuze-rechtsvorm-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vzw-rechtsvorm",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "beide kunnen sociaal doel nastreven",
+        "beiden kennen leden-governance"
+      ],
+      "verschillen": [
+        "CV heeft rechtspersoonlijkheid met winstverdeling mogelijk; VZW mag geen winst uitkeren"
+      ],
+      "verwarring_risico": "Sociale ondernemingen kiezen soms tussen CV en VZW — de CV laat winstdeling toe (binnen coöperatief kader), de VZW niet."
+    }
+  ]
 }

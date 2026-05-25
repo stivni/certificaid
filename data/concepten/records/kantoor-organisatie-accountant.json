@@ -1,8 +1,17 @@
 {
   "id": "kantoor-organisatie-accountant",
   "naam": {
-    "primair": "Kantoor organisatie accountant"
+    "primair": "Kantoor organisatie accountant",
+    "synoniemen": [
+      "praktijkorganisatie accountant",
+      "kantoorinrichting",
+      "kantoormanagement accountant"
+    ],
+    "vertaling": {
+      "fr": "Organisation du cabinet comptable"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +21,10 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "4.0.taak.4",
+      "4.0.taak.5"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,30 +37,439 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6"
       }
-    ],
-    "ankers": [
-      "4.0.taak.4",
-      "4.0.taak.5"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Kantoor organisatie accountant",
+        "tekst": "De **kantoororganisatie van een accountant** omvat het geheel van interne structuren, processen en systemen waarmee een accountantskantoor zijn dienstverlening organiseert: aanvaarding en opvolging van opdrachten, dossierbeheer, personeels- en taakbeheer, kwaliteitsbeheersing, facturatie en kantooradministratie. Het is het normatieve kader dat bepaalt hoe een kantoor intern functioneert als professionele organisatie — los van de inhoudelijke uitvoering van individuele opdrachten.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een goed georganiseerd accountantskantoor combineert twee dimensies:\n\n- **Interne organisatie** — dossier- en taakbeheer, taakverdeling en supervisie, administratie, tijdregistratie, facturatie en communicatie met cliënten\n- **Kwaliteitsbeheersing** — opdrachtaanvaarding, continuïteitscontrole (jaarlijkse herbevestiging), interne review, permanente vorming en compliance met ITAA-normen\n\nDeze twee dimensies zijn onlosmakelijk verbonden: een kantoor dat inzet op kwaliteitsbeheersing (ISQM 1/ISQM 2) heeft ook een robuuste operationele organisatie nodig om dat beleid te kunnen uitvoeren.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De kantoororganisatie is geen bijkomstigheid maar een deontologische en wettelijke verplichting. De ITAA-wetgeving verplicht kantoren tot interne kwaliteitsbeheersing (ISQM 1), opdrachtaanvaarding en -continuïteit te bewaken (ISQM 1 §26–47), en jaarlijkse kwaliteitstoetsing te ondergaan. Zonder structurele kantoororganisatie is het onmogelijk om te voldoen aan die normen — ze zijn de infrastructuur waarop de professionele dienstverlening rust.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elk erkend ITAA-kantoor, ongeacht omvang — van eenmanspraktijk tot groot vennootschappelijk kantoor.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De ITAA-normen voor kwaliteitsbeheersing gelden naar beginsel voor alle erkende accountants, ook al is de schaal van implementatie anders voor een eenmanspraktijk dan voor een groot kantoor."
+        },
+        {
+          "tekst": "Situaties van opschaling: kantoor groeit van solo-accountant naar meerdere medewerkers en/of vennoten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij opschaling ontstaan nieuwe organisatievragen (taakverdeling, supervisie, dossierverantwoordelijkheid) die proactief moeten worden aangepakt vóór kwaliteitsproblemen optreden."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "De concrete inhoud van een individuele opdracht (boekhoudkundige verwerking, auditrisicoanalyse, aangifte) — die hoort in de opdracht-specifieke concepten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Reputatie- en aansprakelijkheidsrisico** bij onvoldoende kwaliteitsbeheersing: een kantoor zonder geformaliseerde review- en supervisieprocessen vergroot de kans op fouten die niet worden gevangen voor het dossier de cliënt bereikt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Tuchtrechtelijk risico** bij ITAA-kwaliteitstoetsing: kantoren zonder intern kwaliteitssysteem of met lacunes in opdrachtaanvaardingsprocedures lopen een verhoogd risico op negatief toetsingsresultaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "opdrachtaanvaarding",
+        "naam": {
+          "primair": "Opdrachtaanvaarding",
+          "synoniemen": [
+            "client acceptance",
+            "aanvaarding nieuwe opdracht"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vóór aanvaarding van een nieuwe cliënt of opdracht voert het kantoor een gestructureerde beoordeling uit: identiteitscontrole (UBO-register, antiwitwas), reputatiecontrole, beoordeling van de eigen competentie en beschikbare capaciteit, en inschatting van integriteits- en onafhankelijkheidsrisico's. Aanvaarding vereist expliciete beslissing door de verantwoordelijke accountant.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "ISQM 1 §26–47 verplicht kantoren tot een formeel aanvaardingsproces. De antiwitwasplicht (AWW) verplicht daarbovenop tot cliëntenonderzoek vóór aanvang van de samenwerking."
+          }
+        }
+      },
+      {
+        "id": "opdrachtbrief",
+        "naam": {
+          "primair": "Opdrachtbrief",
+          "synoniemen": [
+            "engagement letter",
+            "overeenkomst met cliënt"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **opdrachtbrief** (of overeenkomst) legt de wederzijdse rechten en verplichtingen van accountant en cliënt schriftelijk vast: omschrijving van de opdracht, honorarium en betalingsmodaliteiten, aansprakelijkheidsbeperkingen, en de toepasselijke deontologische normen. De opdrachtbrief wordt jaarlijks bevestigd of herzien bij gewijzigde omstandigheden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "dossierbeheer",
+        "naam": {
+          "primair": "Dossierbeheer",
+          "synoniemen": [
+            "dossierorganisatie",
+            "werkdossier"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Gestructureerde organisatie van alle informatie per cliënt en opdracht: permanent dossier (opdrachtbrief, identificatie, jaarrekeningen, statuten) en jaardossier (werkprogramma, documentatie van uitgevoerde werkzaamheden, conclusies en verklaringen). Digitale dossieroplossingen vereisen aandacht voor toegangsbeheer, back-up en bewaarplicht (minstens 7 jaar voor boekhoudkundige documenten).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Een goed dossierbeheer is zowel een kwaliteitsvereiste (reproduceerbaarheid van het oordeel) als een wettelijke verplichting (bewijsvoering bij aansprakelijkheidsvorderingen, fiscale controle)."
+          }
+        }
+      },
+      {
+        "id": "taakverdeling-en-supervisie",
+        "naam": {
+          "primair": "Taakverdeling en supervisie",
+          "synoniemen": [
+            "delegatie en supervisie",
+            "hiërarchisch toezicht"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Taken worden gedelegeerd aan medewerkers op basis van competentie en ervaringsniveau; de verantwoordelijke accountant oefent actief supervisie uit en eindigt het dossier pas na inhoudelijke review. De verantwoordelijke accountant blijft persoonlijk aansprakelijk, ook voor werk van medewerkers — delegatie vermindert de last, niet de verantwoordelijkheid.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tijdregistratie-en-facturatie",
+        "naam": {
+          "primair": "Tijdregistratie en facturatie",
+          "synoniemen": [
+            "urenregistratie",
+            "honorariumberekening"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Systematische registratie van gepresteerde uren per dossier, medewerker en activiteitstype is de basis voor correcte facturatie en rentabiliteitsanalyse per cliënt. Facturatiemodaliteiten (uur-tarief, forfait, abonnement) worden vastgelegd in de opdrachtbrief. Een kantoor zonder betrouwbare tijdregistratie heeft geen zicht op de werkelijke kostprijs van zijn dienstverlening.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "intern-kwaliteitsbeheerssysteem",
+        "naam": {
+          "primair": "Intern kwaliteitsbeheersysteem",
+          "afkorting": "ISQM",
+          "synoniemen": [
+            "kwaliteitsmanagement kantoor",
+            "ISQM 1"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **intern kwaliteitsbeheersysteem** (ISQM 1) omvat alle beleidslijnen en procedures die een kantoor invoert om redelijke zekerheid te geven dat zijn opdrachten worden uitgevoerd in overeenstemming met de professionele normen. Kern-componenten: leiderschap en cultuur, ethische vereisten, aanvaarding/continuïteit, menselijke middelen, uitvoering van opdrachten, en informatie/communicatie. Jaarlijkse evaluatie van het systeem is verplicht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "norm",
+                  "naam": "ISQM 1",
+                  "ref": "isqm-1"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "permanente-vorming",
+        "naam": {
+          "primair": "Permanente vorming",
+          "synoniemen": [
+            "bijscholing",
+            "CPE — Continuing Professional Education"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Erkende ITAA-leden zijn verplicht jaarlijks een minimumaantal uren permanente vorming te volgen. De vorming omvat zowel technische (boekhoudkundige, fiscale, juridische) als kantoorinterne (kwaliteitssystemen, deontologie) modules. Het kantoor draagt de verantwoordelijkheid om te zorgen dat alle medewerkers-accountants aan deze verplichting voldoen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "digitalisering-en-software",
+        "naam": {
+          "primair": "Digitalisering en kantoor-software",
+          "synoniemen": [
+            "kantoorautomatisering",
+            "boekhoud-software",
+            "portaal cliënt"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Moderne kantoororganisatie is onlosmakelijk verbonden met digitale hulpmiddelen: boekhoud- en aangifte-software, dossiermanagementsystemen, cliëntenportalen voor documentuitwisseling, en elektronische handtekening voor opdrachtbrieven. De keuze en implementatie van software zijn een organisatievraag — niet louter een IT-vraag — omdat ze de werkstromen, de toegangsrechten en de bewaarverplichtingen mede bepalen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "itaa-beroepsorganisatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Kantoororganisatie is een verplichting die voortvloeit uit het ITAA-lidmaatschap en de bijhorende normen."
+    },
+    {
+      "type": "bevat",
+      "target": "kwaliteitsmanagement-opdracht",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Kwaliteitsmanagement op opdrachtniveau (ISQM 2) is een onderdeel van de bredere kantoororganisatie."
+    },
+    {
+      "type": "vereist",
+      "target": "opdrachtaanvaarding-en-opdrachtbrief",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "deontologie-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De kantoororganisatie is de infrastructuur waarbinnen de deontologische verplichtingen worden nagekomen."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "digitalisering-accountantskantoor",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "kwaliteitstoetsing-itaa",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het intern kwaliteitsbeheersysteem wordt periodiek extern getoetst door ITAA."
+    }
+  ]
 }

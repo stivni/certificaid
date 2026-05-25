@@ -1,11 +1,26 @@
 {
   "id": "controlemaatregelen",
   "naam": {
-    "primair": "Controlemaatregelen"
+    "primair": "Controlemaatregelen",
+    "synoniemen": [
+      "beheersingmaatregelen",
+      "control activities",
+      "controlactiviteiten"
+    ],
+    "vertaling": {
+      "fr": "Activités de contrôle",
+      "en": "Control activities"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.7.II.E",
+      "1.7.III.A",
+      "1.7.VIII.D"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +39,520 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.7.II.E",
-      "1.7.III.A",
-      "1.7.VIII.D"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Controlemaatregelen",
+        "tekst": "**Controlemaatregelen** (ook: beheersingmaatregelen of control activities) zijn de beleidslijnen en procedures die een organisatie instelt om er zeker van te zijn dat de reacties van het management op risico's worden uitgevoerd. Ze vormen de derde component van het COSO-intern-controle-kader en zijn de concrete vertaling van het risicobeleid naar dagelijkse activiteiten.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Controlemaatregelen zijn de tastbare, operationele laag van het intern-controle-systeem. Ze kunnen voorkómend (**preventief**), opspórend (**detectief**) of herstellend (**correctief**) zijn. Elke maatregel is gericht op één of meer specifieke risico's die het management eerder heeft geïdentificeerd en gewaardeerd.\n\nDe kernlogica: niet elk risico rechtvaardigt dezelfde controlemaatregel. De keuze hangt af van:\n- De aard van het risico (fraude vs. fouten vs. inefficiëntie)\n- De kost-batenverhouding van de maatregel\n- De positie in de bedrijfsprocessen (upstream vs. downstream)\n- De betrouwbaarheid van de IT-omgeving\n\nControlemaatregelen werken nooit op zichzelf — ze zijn effectief dankzij de dragende componenten: controle-omgeving (tone at the top), risicoanalyse, informatie en communicatie, en monitoring.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De indeling in preventief/detectief/correctief helpt studenten begrijpen wat een maatregel effectief doet: voorkomen dat een fout ontstaat, signaleren dat een fout al bestaat, of corrigeren wat fout gegaan is. Dit onderscheid is examineerwaardig."
+      },
+      "rationale": {
+        "tekst": "Controlemaatregelen bestaan omdat het louter identificeren van risico's niets oplost. De organisatie heeft concrete acties nodig die de kans op of het gevolg van een risico beperken. COSO plaatst ze als schakel drie in een keten: **doelstellingen → risico's → maatregelen → informatie → monitoring**. Zonder controlemaatregelen blijft het risicobeleid papieren architectuur.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke organisatie die risico's heeft geïdentificeerd en wil waarborgen dat het management op die risico's reageert — ongeacht omvang of sector.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Controlemaatregelen zijn universeel: zodra er risico-inschatting is, zijn maatregelen de operationele respons."
+        },
+        {
+          "tekst": "Ontwerp of evaluatie van een intern-controle-systeem: wanneer processen worden beschreven, rollen worden verdeeld of IT-systemen worden ingericht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Auditrisicomodel: de auditor beoordeelt of controlemaatregelen bestaan én effectief zijn — dit bepaalt het controlerisico en beïnvloedt de aard en omvang van de audit-werkzaamheden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Eenmalige transacties of beslissingen waarvoor geen herhaald risico bestaat — controlemaatregelen zijn structureel, niet ad hoc.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Risico's waarvoor de kost van de maatregel groter is dan de verwachte schade — de kost-batentoets weert overtollige controls.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Schijndekking**: controlemaatregelen bestaan op papier maar worden in de praktijk niet nageleefd of omzeild — de effectiviteitstoets (operating effectiveness) kan dit alleen aantonen door testen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Collusie**: functiescheiding als controlemaatregel verliest haar werking wanneer twee of meer personen samenspannen om de controle te omzeilen — dit is een inherente beperking van mensgedreven controls.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De organisatie heeft een risicoanalyse (COSO-component 2) uitgevoerd: risico's zijn geïdentificeerd, gewaardeerd op kans en impact, en geprioriteerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Controlemaatregelen zijn per definitie een respons op eerder geïdentificeerde risico's — ze verschijnen pas als stap na de risicoanalyse."
+        },
+        {
+          "tekst": "Er worden herhalende processen uitgevoerd (aankopen, betalingen, voorraad, personeelsadministratie) waarbij fouten of fraude aanzienlijke schade kunnen veroorzaken.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "preventieve-controlemaatregelen",
+        "naam": {
+          "primair": "Preventieve controlemaatregelen",
+          "synoniemen": [
+            "preventive controls"
+          ],
+          "vertaling": {
+            "en": "Preventive controls"
+          }
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**Preventieve** controlemaatregelen zijn bedoeld om fouten of onregelmatigheden te voorkomen vóórdat ze optreden. Ze werken proactief en zijn ingebouwd in het proces zelf.\n\nVoorbeelden: autorisatielimiet voor betalingen, functiescheiding, verplichte dubbele handtekening boven een drempel, toegangsbeheer tot systemen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Preventieve controls zijn de eerste verdedigingslinie: ze voorkomen dat het risico zich materialiseert. Ze zijn doorgaans efficiënter dan detectieve controls omdat herstel achteraf duurder is dan voorkoming."
+          }
+        }
+      },
+      {
+        "id": "detectieve-controlemaatregelen",
+        "naam": {
+          "primair": "Detectieve controlemaatregelen",
+          "synoniemen": [
+            "detective controls"
+          ],
+          "vertaling": {
+            "en": "Detective controls"
+          }
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**Detectieve** controlemaatregelen zijn bedoeld om fouten of onregelmatigheden op te sporen nadat ze zijn opgetreden. Ze werken reactief en bieden een tweede vangnet.\n\nVoorbeelden: bankafstemmingen, inventaristellingen, periodieke rapportages met afwijkingsanalyse, interne-auditreviews, vier-ogenprincipe bij goedkeuring.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Detectieve controls zijn onmisbaar als aanvulling op preventieve: geen enkel preventief systeem is onfeilbaar. Ze leggen ook de basis voor corrigerende maatregelen."
+          }
+        }
+      },
+      {
+        "id": "correctieve-controlemaatregelen",
+        "naam": {
+          "primair": "Correctieve controlemaatregelen",
+          "synoniemen": [
+            "corrective controls"
+          ],
+          "vertaling": {
+            "en": "Corrective controls"
+          }
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**Correctieve** controlemaatregelen zijn gericht op het herstellen van een situatie nadat een fout of onregelmatigheid is vastgesteld. Ze sluiten de cyclus van detectie af met een herstelactie.\n\nVoorbeelden: creditnota's voor factuurfouten, procedurele aanpassingen na audit-bevinding, disciplinaire maatregelen na fraude, systeemcorrecties na data-integriteitsfouten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "functiescheiding",
+        "naam": {
+          "primair": "Functiescheiding",
+          "synoniemen": [
+            "segregatie van functies",
+            "segregation of duties",
+            "SoD"
+          ],
+          "vertaling": {
+            "en": "Segregation of duties",
+            "fr": "Séparation des fonctions"
+          }
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "**Functiescheiding** is het principe dat onverenigbare functies niet door dezelfde persoon mogen worden uitgeoefend. De vier klassieke functies die worden gescheiden zijn: **autorisatie** (goedkeuring van transacties), **uitvoering** (feitelijke handeling), **bewaring** (beheer van activa) en **registratie** (boekhoudkundige vastlegging).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Wanneer één persoon twee of meer van deze functies combineert, heeft diegene de gelegenheid én de mogelijkheid om een onregelmatigheid te plegen én te verbergen. Functiescheiding elimineert die combinatie."
+          }
+        }
+      },
+      {
+        "id": "it-controls",
+        "naam": {
+          "primair": "IT-controls",
+          "synoniemen": [
+            "geautomatiseerde controls",
+            "application controls",
+            "IT-algemene beheersingsmaatregelen"
+          ],
+          "vertaling": {
+            "en": "IT controls"
+          }
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "IT-controls zijn controlemaatregelen die zijn ingebouwd in of afhankelijk zijn van informatietechnologie. Ze vallen in twee categorieën:\n\n- **Applicatiecontroles** (application controls): controles die rechtstreeks in een softwaresysteem zijn ingebouwd en transacties op individueel niveau verwerken — bv. verplichte velden, validatieregels, geautomatiseerde goedkeuringsdrempels.\n- **IT-algemene beheersingsmaatregelen** (ITGC — IT General Controls): overkoepelende controls die de betrouwbaarheid van alle applicaties waarborgen — bv. toegangsbeheer, change management, back-upprocedures, incidentbeheer.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "IT-controls zijn steeds kritischer naarmate meer processen worden gedigitaliseerd. De effectiviteit van applicatiecontroles staat of valt met de kwaliteit van de onderliggende ITGC's."
+          }
+        }
+      },
+      {
+        "id": "autorisatieprocedure",
+        "naam": {
+          "primair": "Autorisatieprocedure",
+          "synoniemen": [
+            "goedkeuringsprocedure",
+            "authorization procedure"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **autorisatieprocedure** is een controlemaatregel waarbij transacties of handelingen enkel worden uitgevoerd na expliciete goedkeuring door een daartoe bevoegde persoon of systeem. Autorisatie kan **algemeen** (bv. standaardbetalingen binnen een bepaalde drempel automatisch goedgekeurd) of **specifiek** (bv. individuele goedkeuring boven de drempel) zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verzoening-en-afstemming",
+        "naam": {
+          "primair": "Verzoening en afstemming",
+          "synoniemen": [
+            "reconciliatie",
+            "bankafstemming",
+            "reconciliation"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Verzoening en afstemming** zijn detectieve controlemaatregelen waarbij twee onafhankelijke gegevensbronnen worden vergeleken om afwijkingen te identificeren. De klassieke vorm is de **bankafstemming**: het saldo op het bankafschrift wordt vergeleken met de bankrekening in de boekhouding; alle verschillen worden verklaard en gecorrigeerd.\n\nVormen:\n- Bank versus boekhouding\n- Leveranciersoverzicht versus crediteurenrekening\n- Inventarislijst versus voorraadrekening\n- Intercompany-saldi versus bij moeder en dochter",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "inherente-beperkingen-controls",
+        "naam": {
+          "primair": "Inherente beperkingen van controlemaatregelen"
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "substantie": {
+            "tekst": "Geen enkel stelsel van controlemaatregelen biedt absolute zekerheid. De voornaamste inherente beperkingen zijn:\n\n1. **Menselijk falen** — vergissingen bij de toepassing van controls (bv. goedkeuring zonder zorgvuldige controle)\n2. **Collusie** — twee of meer personen omzeilen samen de functiescheiding\n3. **Managementoverride** — het management omzeilt controls die van toepassing zijn op gewone medewerkers\n4. **Kost-batengrens** — sommige controls zijn te duur in verhouding tot het risico dat ze beheersen\n5. **Veroudering** — controls die bij inrichting adequaat waren, verliezen hun werking als de bedrijfsomgeving verandert",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Deze beperkingen zijn het fundament van de audit-logica: net omdat interne controle nooit 100% zekerheid geeft, is een onafhankelijke externe controle nodig."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle-coso",
+      "toelichting": "Controlemaatregelen zijn de derde van de vijf COSO-componenten van intern controle.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "risico-inschatting-coso",
+      "toelichting": "Controlemaatregelen zijn een directe respons op de risico's die worden geïdentificeerd in de risicoanalyse-component van COSO.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "controle-omgeving-coso",
+      "toelichting": "De effectiviteit van controlemaatregelen wordt mede bepaald door de controle-omgeving (tone at the top, integriteit, ethische waarden).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "monitoring-coso",
+      "toelichting": "De COSO-monitoring-component bewaakt of controlemaatregelen in de praktijk effectief zijn en tijdig worden bijgestuurd.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "auditrisicomodel",
+      "toelichting": "De auditor's beoordeling van de werking van controlemaatregelen beïnvloedt het interne-controlerisico en daarmee de audit-aanpak.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "audit-it-omgeving",
+      "toelichting": "IT-controls zijn een substantieel deel van het controlemaatregelen-kader; de beoordeling ervan vereist inzicht in de IT-omgeving.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "controle-activiteiten-coso",
+      "toelichting": "In sommige bronnen worden controlemaatregelen en controle-activiteiten als synoniemen gebruikt; in de strikte COSO-terminologie zijn controle-activiteiten de bredere term.",
+      "grondslag": {
+        "confidence": "betwijfeld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

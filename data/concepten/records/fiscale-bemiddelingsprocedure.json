@@ -1,8 +1,13 @@
 {
   "id": "fiscale-bemiddelingsprocedure",
   "naam": {
-    "primair": "Fiscale bemiddelingsprocedure"
+    "primair": "Fiscale bemiddelingsprocedure",
+    "synoniemen": [
+      "fiscale bemiddelaar",
+      "bemiddeling fiscus"
+    ]
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +17,10 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.5.VII",
+      "2.5.taak.4"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,30 +33,479 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.5.VII",
-      "2.5.taak.4"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Fiscale bemiddelingsprocedure",
+        "tekst": "De **fiscale bemiddelingsprocedure** is een administratieve procedure waarbij een belastingplichtige na een ontvangen aanslagbiljet — maar vóór of tijdens de bezwaarprocedure — een beroep doet op de **Fiscale bemiddelingsdienst** (FBD) als onafhankelijke tussenpersoon om een minnelijke oplossing te vinden met de belastingadministratie. De FBD is geen rechterlijke instantie en spreekt geen uitspraken uit; hij faciliteert het overleg en formuleert aanbevelingen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De fiscale bemiddelingsprocedure biedt een **alternatieve, niet-bindende weg** naast de klassieke bezwaar- en gerechtelijke weg. De belastingplichtige (of zijn vertegenwoordiger) wendt zich tot de FBD wanneer de reguliere communicatie met de belastingadministratie is vastgelopen — bijvoorbeeld bij een geschil over feitelijke elementen, een procedurele klacht of een verzoek om redelijkheidsmarge.\n\nDe FBD onderzoekt het dossier en treedt op als facilitator: hij neemt contact op met de betrokken administratie, vraagt toelichtingen en zoekt naar een voor beide partijen aanvaardbare uitkomst. Zijn bevindingen worden opgenomen in een **bemiddelingsverslag**; de aanbevelingen zijn **niet bindend** voor de administratie maar hebben in de praktijk een reële morele slagkracht.\n\nDe procedure **schorst de bezwaartermijn niet** van rechtswege; de belastingplichtige moet de reguliere termijnen bewaken.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De FBD is ingesteld om de rechten van de belastingplichtige te versterken tegenover de belastingadministratie, zonder dat hiervoor een gerechtelijke procedure nodig is. Dit sluit aan bij het beginsel van behoorlijk bestuur: de overheid moet redelijk en proportioneel optreden. De bemiddelingsprocedure geeft de administratie de kans om een fout of rigiditeit te corrigeren **zonder gezichtsverlies** via rechterlijke veroordeling.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belastingplichtigen die **vastlopen in de communicatie** met de belastingadministratie na ontvangst van een aanslagbiljet of na een controle.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De FBD treedt op als facilitator wanneer rechtstreeks overleg met de administratie niet meer werkt."
+        },
+        {
+          "tekst": "Situaties met een **geschil over feitelijke elementen** (bv. taxatiegrondslag, kwalificatie van kosten) waarbij geen precedent nodig is, maar een pragmatische oplossing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De FBD is het meest effectief bij feitelijke beoordelingsruimte; bij zuivere rechtskwesties is de rechter geschikter."
+        },
+        {
+          "tekst": "Als **aanvulling op of voorbereiding van een bezwaarprocedure**, niet als vervanging.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Situaties waarbij de **bezwaartermijn al verlopen** is en er geen geldige bezwaaraanvraag meer mogelijk is — de FBD is geen herstelmiddel voor gemiste termijnen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Geschillen waarbij een **bindende uitspraak of precedent** nodig is — de FBD geeft niet-bindende aanbevelingen; voor rechtszekerheid is de rechtbank van eerste aanleg de aangewezen weg.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Ontvangst van een **aanslagbiljet** of een beslissing van de belastingadministratie waartegen de belastingplichtige bezwaar heeft en waarbij de reguliere communicatie niet tot resultaat leidt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De FBD rondt de procedure af met een **bemiddelingsverslag** — ofwel een overeengekomen oplossing, ofwel een vaststelling dat bemiddeling mislukt is. Daarna staat de gerechtelijke weg opnieuw volledig open.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Informeel en snel** — geen gerechtelijke kosten, geen advocaatverplichting, kortere doorlooptijd dan rechtbank.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Behoud van relatie** — de bemiddelingsdienst creëert geen win-verlies-dynamiek; een akkoord behoudt de werkrelatie met de administratie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Termijnen lopen door** — de bemiddelingsprocedure schorst de bezwaar- en beroepstermijnen niet van rechtswege; wie te lang wacht verliest zijn rechtsmiddelen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Aanbeveling niet bindend** — de administratie kan de aanbeveling van de FBD naast zich neerleggen, waarna de belastingplichtige alsnog naar de rechter moet.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De belastingadministratie reageert niet of onvoldoende op schriftelijke vragen of bezwaren van de belastingplichtige.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Er is ruimte voor feitelijke nuance of beoordeling in het dossier die de administratie niet lijkt te nemen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "fiscale-bemiddelingsdienst",
+        "naam": {
+          "primair": "Fiscale bemiddelingsdienst",
+          "afkorting": "FBD",
+          "synoniemen": [
+            "Service de Conciliation Fiscale"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **Fiscale bemiddelingsdienst (FBD)** is een federale overheidsdienst die functioneel onafhankelijk opereert van de belastingadministraties (FOD Financiën, gewestelijke belastingdiensten). Hij heeft als wettelijke taak om **geschillen tussen belastingplichtigen en de belastingadministratie te bemiddelen** via een minnelijke procedure, met behoud van ieders rechten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-indiening-verzoek",
+        "naam": {
+          "primair": "Indiening van het bemiddelingsverzoek"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige (of zijn vertegenwoordiger — accountant, advocaat) dient een **schriftelijk verzoekschrift** in bij de FBD. Het verzoek beschrijft het geschil, de pogingen tot rechtstreeks overleg en de gewenste uitkomst. De FBD beoordeelt ontvankelijkheid en bevestigt aanvaarding.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-onderzoek-en-overleg",
+        "naam": {
+          "primair": "Onderzoek en overleg door de FBD"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De FBD neemt contact op met de bevoegde belastingadministratie, vraagt het dossier op, hoort desgewenst beide partijen en zoekt naar een **feitelijk of procedureel aanknopingspunt** voor een minnelijke regeling. Hij kan vergaderingen organiseren met beide partijen tegelijk of afzonderlijk.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bemiddelingsverslag",
+        "naam": {
+          "primair": "Bemiddelingsverslag"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **bemiddelingsverslag** is het eindproduct van de procedure. Het bevat de vaststellingen van de FBD, een beschrijving van het verloop van het overleg en eventuele **aanbevelingen** aan de belastingadministratie. Het verslag is **niet bindend**: de administratie is juridisch niet verplicht de aanbevelingen te volgen, maar moet afwijking motiveren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verhouding-tot-bezwaarprocedure",
+        "naam": {
+          "primair": "Verhouding tot de bezwaarprocedure"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "De fiscale bemiddelingsprocedure en de bezwaarprocedure zijn **parallel lopende** wegen die elkaar niet uitsluiten. De bemiddelingsprocedure schorst de bezwaar- en beroepstermijnen **niet van rechtswege**. De belastingplichtige moet:\n- **Bezwaartermijn bewaken** (normaal 6 maanden vanaf aanslagbiljet voor directe belastingen) — ook terwijl de FBD bezig is\n- De FBD kan **na** de bezwaarbeslissing worden ingeschakeld, maar **vóór** het instellen van een beroep bij de rechtbank\n\nBeide procedures kunnen **gelijktijdig** lopen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toepassingsgebied",
+        "naam": {
+          "primair": "Toepassingsgebied van de FBD"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De FBD is bevoegd voor geschillen met de **federale belastingadministratie** (FOD Financiën): personenbelasting, vennootschapsbelasting, BTW, diverse rechten en taksen. Voor **gewestelijke belastingen** (registratie- en successierechten in het Vlaamse Gewest, Vlaams Belastingkantoor) bestaat een afzonderlijke gewestelijke bemiddelingsinstantie.\n\nDe FBD behandelt geen aanklachten van strafrechtelijke aard en is niet bevoegd voor geschillen die al het voorwerp zijn van een gerechtelijke procedure.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ontvankelijkheidsvoorwaarden",
+        "naam": {
+          "primair": "Ontvankelijkheidsvoorwaarden"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Om ontvankelijk te zijn moet het bemiddelingsverzoek voldoen aan: (1) er bestaat een **reëel geschil** met de belastingadministratie (niet louter een informatievraag); (2) de belastingplichtige heeft **rechtstreeks overleg** al geprobeerd of dit was manifest zinloos; (3) de zaak is **nog niet aanhangig** bij de rechter; (4) de belastingplichtige is **partij** in het geschil (niet een derde).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure-belastingplichtige",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "bezwaarprocedure-fiscaal",
+      "toelichting": "Beide zijn wegen na een aanslagbiljet, maar de bezwaarprocedure is formeel-juridisch en bindend; de bemiddelingsprocedure is informeel en niet-bindend.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gerechtelijke-fase-fiscaal",
+      "toelichting": "De bemiddelingsprocedure is een alternatief voor de gerechtelijke weg, maar zonder bindende uitspraak.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "map",
+      "toelichting": "Beide zijn informele, niet-bindende overlegprocedures ter oplossing van fiscale geschillen. MAP is internationaal (verdrag), FBD is intern-Belgisch.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beginselen-behoorlijk-bestuur-fiscaal",
+      "toelichting": "De FBD handelt vanuit de beginselen van behoorlijk bestuur — redelijkheid, proportionaliteit, zorgvuldigheid — die de belastingadministratie binden.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

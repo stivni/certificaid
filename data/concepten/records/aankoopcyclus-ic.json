@@ -36,6 +36,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 24)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende beschrijven-pass: gebruikscontext uitgebreid (niet_voor, voorwaarden, indicaties), element ic-maatregelenset toegevoegd, spelfout aankoopauthorisatie gecorrigeerd, relaties hr-cyclus-ic en governance-actoren-ic toegevoegd."
       }
     ],
     "ankers": [
@@ -132,6 +138,62 @@
           "tekst": "Fraudepreventieadvies aan kleine en middelgrote ondernemingen (KMO) bij opstart of herstructurering."
         }
       ],
+      "niet_voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Interne transacties tussen entiteiten van dezelfde groep: groepsinterne aankopen vallen buiten de klassieke aankoopcyclus-IC en worden beheerst via intercompany-procedures en consolidatie-eliminatie."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Eenmalige of uitzonderlijke investeringstransacties (bv. overname van een vennootschap): die vallen onder de due-diligence-procedure en het bijzondere-verslagen-regime, niet onder de routinematige aankoopcyclus-controls."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Effectieve aankoopcyclus-IC vereist een gedocumenteerde bevoegdheidsmatrix (wie mag welk bedrag autoriseren) en een bijgehouden leveranciersbestand — zonder deze twee basisvereisten zijn drieweg-matching en functiescheiding organisatorisch niet afdwingbaar."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Minimale personeelsbezetting: functiescheiding is pas uitvoerbaar wanneer de functies aanvragen, ontvangen en betalen door verschillende personen worden ingevuld — bij zeer kleine ondernemingen (eénpersoonszaak) is dit structureel niet realiseerbaar en worden compenserende controles (bv. externe review) ingezet."
+        }
+      ],
       "risico": [
         {
           "grondslag": {
@@ -146,13 +208,41 @@
           },
           "tekst": "Bij onvoldoende functiescheiding of ontbrekende drieweg-matching (bestelling–ontvangstbon–factuur) is het risico op betaling van fictieve of onjuiste facturen hoog; dit is een klassiek fraudepad."
         }
+      ],
+      "indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Significante stijging van aankoopkosten of leveranciersschulden zonder overeenkomstige operationele verklaring: signaal dat de IC op de aankoopcyclus tekortschiet of dat fraude plaatsvindt."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Aanwezigheid van leveranciers zonder historiek in het goedgekeurde leveranciersbestand, of betalingen aan leveranciers zonder bijbehorende ontvangstbon: beide zijn rode vlaggen voor gebrekkige aankoopcyclus-controls."
+        }
       ]
     },
     "elementen": [
       {
         "id": "behoeftebepaling-en-autorisatie",
         "naam": {
-          "primair": "Behoeftebepaling en aankoopauthorisatie"
+          "primair": "Behoeftebepaling en aankoopautonomisatie"
         },
         "inhoud_type": "stap",
         "grondslag": {
@@ -180,7 +270,7 @@
             "tekst": "Het inkoopverzoek legt vast wie wat nodig heeft, waarom en voor welk bedrag; de autorisatie zorgt dat aankopen passen binnen het goedgekeurde budget en de bevoegdheidsmatrix van de onderneming."
           },
           "definitie": {
-            "tekst": "Een geïdentificeerde behoefte wordt vastgelegd in een inkoopverzoek (purchase requisition) en goedgekeurd door een bevoegde persoon (budget-houder of leidinggevende) voordat de bestelling wordt geplaatst.",
+            "tekst": "Een geïdentificeerde behoefte wordt vastgelegd in een inkoopverzoek (purchase requisition) en goedgekeurd door een bevoegde persoon (budgethouder of leidinggevende) voordat de bestelling wordt geplaatst.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -225,7 +315,7 @@
             "tekst": "Een goedgekeurde (gewhiteliste) leverancierslijst en vaste drempelwaarden voor offerteaanvragen zijn basiscontroles die verhinderen dat medewerkers ongecontroleerd nieuwe leveranciers aanmaken — een frequent fraudepad."
           },
           "definitie": {
-            "tekst": "Op basis van het goedgekeurde inkoopverzoek wordt een leverancier geselecteerd — eventueel na aanvraag van offertes — en worden de prijs- en leveringsvoorwaarden contractueel vastgelegd of hervestigd via een goedgekeurde leverancierslijst.",
+            "tekst": "Op basis van het goedgekeurde inkoopverzoek wordt een leverancier geselecteerd — eventueel na aanvraag van offertes — en worden de prijs- en leveringsvoorwaarden contractueel vastgelegd of bevestigd via een goedgekeurde leverancierslijst.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -498,6 +588,51 @@
             }
           }
         }
+      },
+      {
+        "id": "ic-maatregelenset-aankoopcyclus",
+        "naam": {
+          "primair": "Interne controlemaatregelenset aankoopcyclus"
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De aankoopcyclus omvat vier klassieke interne controlemaatregelen die samen de volledige cyclus afdekken: (1) bevoegdheidsmatrix en drempelwaarden voor aankoopgoedkeuring, (2) goedgekeurde leverancierslijst, (3) drieweg-matching (PO + GRN + factuur), en (4) vier-ogen-principe bij betalingsopdrachten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Elke van de vier maatregelen dekt een specifiek risico in de cyclus: de bevoegdheidsmatrix verhindert ongeautoriseerde aankopen, de leverancierslijst blokkeert fictieve leveranciers, drieweg-matching detecteert fictieve of onjuiste facturen, en het vier-ogen-principe voorkomt ongecontroleerde betalingen. Samen sluiten zij het voornaamste fraudepad in de aankoopcyclus af: bestelling → fictieve levering → betaling aan gelieerde leverancier.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
       }
     ],
     "kern": {
@@ -579,7 +714,7 @@
       "toelichting": "Spiegelproces: verkoopcyclus beheert de uitstroom van goederen en ontvangst van klantbetalingen; aankoopcyclus de instroom van goederen en betaling aan leveranciers.",
       "gelijkenissen": [
         "Beide cyclussen gebruiken documentstroom en drieweg-matching (bestelling / levering / factuur)",
-        "Functiescheiding is in beide cyclussen de primaire controlespillar",
+        "Functiescheiding is in beide cyclussen de primaire controlespilaar",
         "Beide worden door de auditor getest op volledigheid en nauwkeurigheid van de balansposities"
       ],
       "verschillen": [
@@ -660,6 +795,44 @@
             "type": "ai_model",
             "naam": "claude-sonnet-4-6",
             "datum": "2026-05-22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "hr-cyclus-ic",
+      "toelichting": "De HR-cyclus is structureel verwant aan de aankoopcyclus: beide beheersen een uitbetalingsproces (respectievelijk aan leveranciers en aan personeel) via autorisatie, verificatie en functiescheiding.",
+      "gelijkenissen": [
+        "Beide cyclussen vereisen autorisatie vóór betaling en functiescheiding tussen aanvragen, goedkeuren en uitbetalen",
+        "Fictieve leveranciers (aankoopcyclus) en fictieve werknemers (HR-cyclus) zijn analoge fraudepatronen"
+      ],
+      "verschillen": [
+        "HR-cyclus: primair risico op payroll-fraude (fictieve of onjuist vergoed personeel); aankoopcyclus: primair risico op leveranciersfraude",
+        "HR-cyclus: afdwingbare tijdsregistratie als controlemoment; aankoopcyclus: ontvangstbon en drieweg-matching"
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "governance-actoren-ic",
+      "toelichting": "De aankoopcyclus is één van de bedrijfscyclussen die door de governance-actoren (bestuur, management, interne audit) worden bewaakt als onderdeel van het totale IC-stelsel.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
         ]
       }

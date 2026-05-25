@@ -1,11 +1,25 @@
 {
   "id": "interpretatie-fiscale-wet",
   "naam": {
-    "primair": "Interpretatie fiscale wet"
+    "primair": "Interpretatie fiscale wet",
+    "synoniemen": [
+      "wetsinterpretatie fiscaal recht",
+      "uitlegging fiscale wetgeving"
+    ],
+    "vertaling": {
+      "fr": "Interprétation de la loi fiscale"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.1.III",
+      "2.1.VII.A",
+      "2.1.taak.1",
+      "2.1.IX.B"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,32 +38,516 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T10:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.1.III",
-      "2.1.VII.A",
-      "2.1.taak.1",
-      "2.1.IX.B"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Interpretatie fiscale wet",
+        "tekst": "Het **kader van interpretatie van de fiscale wet** omvat de methoden en beginselen waarmee rechters, de belastingadministratie en belastingplichtigen de betekenis van wetteksten vaststellen wanneer de tekst onduidelijk, lacuneus of voor meerdere uitleg vatbaar is. Het vormt het normatieve raamwerk dat bepaalt welke uitleggingstechniek in welke volgorde wordt toegepast.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Fiscale wet wordt strikt geïnterpreteerd: de belastingadministratie kan **geen belasting heffen waarvoor geen uitdrukkelijke wettelijke grondslag** bestaat (legaliteitsbeginsel); de belastingplichtige kan **geen vrijstelling claimen zonder wettelijke grondslag**. Beide richtingen — pro fisco en pro contribuente — zijn even gebonden aan de tekst.\n\nHet kader is relevant omdat fiscale wetteksten:\n- technisch zijn en snel verouderen ten opzichte van economische realiteit\n- in twee talen bestaan (NL/FR) die niet altijd perfect overeenkomen\n- door de administratie circulaires worden verduidelijkt die geen wetskracht hebben\n- door het Grondwettelijk Hof en het Hof van Cassatie worden uitgelegd met bindende gevolgen",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het legaliteitsbeginsel (art. 170 Grondwet) maakt interpretatie tegelijk cruciaal en gebonden: de wetgever heeft het monopolie op de heffingsgrondslag, maar wetten kunnen niet elke situatie voorzien. Interpretatie overbrugt de kloof tussen een statische tekst en een dynamische economische werkelijkheid — maar mag die kloof niet zo ver overbruggen dat de rechter of administratie feitelijk als belastingwetgever optreedt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Situaties waarbij de wettekst **meerdere betekenissen** toelaat en de toepassing op een concrete feitensituatie niet eenduidig uit de tekst volgt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waarbij **nieuwe economische verschijnselen** (bv. cryptoactiva, platformeconomie) niet expliciet in de wettekst zijn opgenomen maar fiscale gevolgen hebben.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Beoordeling van de juridische kwalificatie van een transactie door de belastingadministratie en de mogelijkheden van de belastingplichtige om een andere kwalificatie te verdedigen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Situaties waarbij de wettekst **ondubbelzinnig** is — duidelijke wettekst wordt toegepast zoals geschreven, zonder interpretatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Interpretatie is pas aan de orde wanneer de tekst voor meerdere lezingen vatbaar is — in claris non fit interpretatio is weliswaar een betwist adagium, maar het beginsel dat een duidelijke tekst wordt gevolgd is breed aanvaard."
+        },
+        {
+          "tekst": "Creëren van een **nieuwe heffingsgrondslag** die niet in de wet staat — dat is contra legem en buiten het bereik van elke interpretatiemethode.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Analogische interpretatie ten nadele van de belastingplichtige** — de administratie past een bepaling toe op gevallen die de wet niet bedoelde te treffen. Dit is grondwettelijk niet toegestaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Verwarring tussen **wetsinterpretatie** (vaststellen van de zin van de wet) en **wetsontduiking** (simulatie of misbruik) — de administratie kan de fiscale herkwalificatie toepassen via de algemene anti-misbruikbepaling, wat een ander regime is dan louter interpretatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De wettekst gebruikt termen die in de wet zelf niet worden gedefinieerd — bv. 'beroepsinkomsten', 'economische werkelijkheid', 'normale waarde'.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De Nederlandstalige en Franstalige versie van de wettekst **divergeren** in betekenis of toepassingsbereik.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een administratieve **circulaire of ruling** wijkt af van wat de belastingplichtige uit de wettekst afleidt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "legaliteitsbeginsel-fiscaal",
+        "naam": {
+          "primair": "Legaliteitsbeginsel (fiscaal)",
+          "synoniemen": [
+            "nullum tributum sine lege"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Geen belasting kan worden geheven zonder een **uitdrukkelijke wettelijke grondslag**. Dit grondwettelijk verankerd beginsel begrenst de interpretatie: de rechter of administratie kan de draagwijdte van een belasting niet uitbreiden buiten wat de wet uitdrukkelijk bepaalt, ook niet via analogie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "Grondwet art. 170",
+                  "ref": "grondwet-art-170"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "grammaticale-interpretatie",
+        "naam": {
+          "primair": "Grammaticale interpretatie",
+          "synoniemen": [
+            "tekstuele interpretatie",
+            "letterlijke interpretatie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Uitgangspunt bij fiscale wetsinterpretatie: de **gewone betekenis van de woorden** zoals gebruikt in de wettekst is bepalend. Wanneer de wetgever een begrip een specifieke juridische of technische betekenis heeft gegeven, primeert die boven de alledaagse betekenis.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "In de Belgische rechtspraktijk geldt dat wanneer de fiscale wet begrippen gebruikt uit het burgerlijk recht of het vennootschapsrecht **zonder zelf te definiëren**, die begrippen hun civielrechtelijke betekenis behouden — tenzij de fiscale wet uitdrukkelijk afwijkt. Dit wordt de **autonomie van het fiscaal recht** versus de **verwijzing naar het privaatrecht** genoemd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "teleologische-interpretatie",
+        "naam": {
+          "primair": "Teleologische interpretatie",
+          "synoniemen": [
+            "doelmatige interpretatie",
+            "ratio legis"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Interpretatiemethode waarbij het **doel en de ratio** van de wettelijke bepaling centraal staan. Wanneer de letterlijke tekst meerdere uitleggen toelaat, wordt gekozen voor de interpretatie die het door de wetgever beoogde doel het beste realiseert.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De parlementaire voorbereiding (memorie van toelichting, parlementaire debatten) is het voornaamste instrument om de wil van de wetgever te achterhalen. Het Hof van Cassatie aanvaardt teleologische interpretatie maar bewaakt dat ze niet leidt tot contra-legem-toepassing. **Rulingpraktijk**: de Dienst Voorafgaande Beslissingen (DVB) past teleologische redenering toe bij de beoordeling van nieuwe structuren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "systematische-interpretatie",
+        "naam": {
+          "primair": "Systematische interpretatie",
+          "synoniemen": [
+            "contextuele interpretatie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een wettelijke bepaling wordt uitgelegd in het licht van **de andere bepalingen van dezelfde wet** en, ruimer, van het fiscale wetsstelsel als geheel. Een begrip dat in meerdere belastingwetten voorkomt krijgt bij voorkeur dezelfde betekenis tenzij de context van elke wet een afwijkende betekenis vereist.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "analogie-verbod",
+        "naam": {
+          "primair": "Verbod op belastingcreërende analogie"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscale wet mag **niet analogisch worden uitgebreid** om nieuwe belastbare feiten te creëren of de belastbare grondslag te verruimen. Analogie is enkel toegelaten wanneer ze de belastingplichtige **niet benadeelt** (bv. uitbreiding van een vrijstelling of aftrek bij vergelijkbare situaties).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Dit onderscheidt het fiscale recht van het burgerlijk recht, waar analogie ruimer toegestaan is. In het fiscale recht geldt:\n- Analogie **pro fisco** (belastingverhoging): **verboden**\n- Analogie **pro contribuente** (vrijstelling, aftrek): toegestaan mits de wet er niet uitdrukkelijk een gesloten lijst van maakt",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tweetaligheid-wettekst",
+        "naam": {
+          "primair": "Tweetaligheid van de wettekst"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Belgische federale fiscale wetten worden in twee authentieke versies gepubliceerd — **Nederlands en Frans**. Wanneer beide versies divergeren, moeten ze in hun onderlinge samenhang worden gelezen; geen versie heeft formele voorrang. Het Hof van Cassatie beslist welke lezing prevaleert op basis van de ratio legis.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "circulaire-en-administratieve-commentaar",
+        "naam": {
+          "primair": "Circulaire en administratieve commentaar",
+          "synoniemen": [
+            "administratieve ruling",
+            "Com. IB"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingadministratie geeft **circulaires en commentaren** uit (bv. Commentaar op het WIB92) die haar interpretatie van de wet uiteenzetten. Deze hebben **geen wettelijke bindende kracht** — ze binden alleen de administratie zelf op grond van het vertrouwensbeginsel, niet de rechter.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Het onderscheid is praktisch cruciaal:\n- Een circulaire die **in het voordeel** van de belastingplichtige is → de belastingplichtige kan zich erop beroepen (vertrouwensbeginsel)\n- Een circulaire die **in het nadeel** is → de rechter toetst onafhankelijk aan de wettekst; de circulaire bindt hem niet\n- Commentaar Com.IB → gezaghebbend maar niet bindend; rechter kan ervan afwijken",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-beginselen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beginselen-behoorlijk-bestuur-fiscaal",
+      "toelichting": "Beginselen zoals vertrouwensbeginsel en rechtszekerheidsbeginsel bepalen mee hoe de administratieve interpretatie (circulaires, rulings) de belastingplichtige bindt.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-bewijsmiddelen",
+      "toelichting": "De kwalificatie van een feit (en dus de interpretatie van de toepasselijke bepaling) hangt af van het bewijs van dat feit — interpretatie en bewijslast zijn onlosmakelijk verbonden.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "algemene-anti-misbruik-bepaling",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide gaan over de fiscale kwalificatie van een feitensituatie"
+      ],
+      "verschillen": [
+        "Interpretatie stelt vast wat de wet betekent; anti-misbruik herkwalificeert een rechtshandeling waarvan de fiscale gevolgen in strijd zijn met de doelstellingen van de wet",
+        "Interpretatie is een neutrale techniek; anti-misbruik is een bijzonder verweermiddel van de administratie"
+      ],
+      "verwarring_risico": "Interpretatie en anti-misbruik worden soms verward: een brede interpretatie pro fisco is geen anti-misbruikmaatregel."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscaal-rechtelijk",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide behandelen de verhouding tussen fiscaal recht en andere rechtstakken"
+      ],
+      "verschillen": [
+        "Interpretatie-fiscale-wet richt zich op de techniek van uitlegging; fiscaal-rechtelijk beschrijft de autonomie en de bronnen van het fiscale recht als systeem"
+      ]
+    }
+  ]
 }

@@ -1,11 +1,24 @@
 {
   "id": "internationaal-onroerend-goed",
   "naam": {
-    "primair": "Internationaal onroerend goed"
+    "primair": "Internationaal onroerend goed",
+    "synoniemen": [
+      "buitenlands onroerend goed",
+      "onroerend goed in het buitenland"
+    ],
+    "vertaling": {
+      "fr": "Immeuble à l'étranger",
+      "en": "Foreign real property"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.8.XI",
+      "2.8.IX"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +37,519 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T10:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data (modus aanvullend)."
       }
-    ],
-    "ankers": [
-      "2.8.XI",
-      "2.8.IX"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Internationaal onroerend goed",
+        "tekst": "Het regime **internationaal onroerend goed** regelt hoe België als woonstaat omgaat met inkomsten die een Belgisch rijksinwoner haalt uit onroerend goed dat **gelegen is in het buitenland**. De kern van het regime: het heffingsrecht over onroerend goed behoort doorgaans exclusief toe aan de **liggingsstaat** (de staat waar het goed gelegen is), maar België moet toch een **belastbare grondslag** bepalen om het progressievoorbehoud te kunnen toepassen of — bij afwezigheid van een verdrag — om de inkomsten rechtstreeks te belasten.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor Belgisch rijksinwoners met onroerend goed in het buitenland speelt de regeling op twee assen:\n\n**As 1 — Verdragssituatie (dubbel-belastingverdrag aanwezig)**\nBelgië ziet af van zijn heffingsrecht ten voordele van de liggingsstaat. De buitenlandse inkomsten worden vrijgesteld maar zijn niet belastingvrij: ze tellen mee voor de **progressievoorbehoud-berekening** (het tarief op de overige inkomsten wordt bepaald alsof de vrijgestelde inkomsten er ook bij zijn).\n\n**As 2 — Geen verdrag**\nBelgië belast de inkomsten, maar verleent een **belastingvermindering van 50%** op de Belgische belasting die betrekking heeft op die inkomsten, om dubbele belasting te milderen.\n\n**De Belgische grondslag — het kadastraal inkomen-equivalent**\nBelgië bepaalt de belastbare grondslag voor buitenlands onroerend goed niet op basis van de werkelijke huurinkomsten (zoals de liggingsstaat doet), maar op basis van een **forfaitair kadastraal inkomen** dat wordt toegekend via een omrekeningsmethode op de buitenlandse huurwaarde of aankoopprijs. Dit forfait geldt ook wanneer het goed niet verhuurd is maar louter voor eigen gebruik dient.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De combinatie van KI-forfait en progressievoorbehoud maakt dat buitenlands onroerend goed in de praktijk zelden tot nul Belgische belasting leidt — zelfs volledig vrijgesteld onroerend goed beïnvloedt het tarief op Belgische inkomsten."
+      },
+      "rationale": {
+        "tekst": "Het regime is de Belgische implementatie van het bronstaatbeginsel voor onroerend goed, zoals gecodificeerd in artikel 6 van het OESO-Modelverdrag. Het KI-forfait voor buitenlands goed is ingevoerd nadat het Europees Hof van Justitie (arresten Lenz en Verkooijen) oordeelde dat een minder gunstige behandeling van buitenlands onroerend goed dan Belgisch onroerend goed strijdig is met het vrij verkeer van kapitaal. De huidige regeling tracht dit gebrek weg te werken door ook voor buitenlands goed een forfaitair KI toe te kennen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "bronstaatbeginsel-onroerend-goed",
+        "naam": {
+          "primair": "Bronstaatbeginsel voor onroerend goed"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Onroerend goed wordt belast in de staat waar het goed **gelegen is** (bronstaat = liggingsstaat), ongeacht de woonstaat van de eigenaar. Dit principe is opgenomen in artikel 6 van het OESO-Modelverdrag en overgenomen in vrijwel alle dubbelbelastingverdragen die België heeft afgesloten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het bronstaatbeginsel voor onroerend goed geldt als een van de hardste regels in internationaal belastingrecht — er is nauwelijks ruimte voor verdragsonderhandeling. De liggingsstaat heeft in de praktijk altijd exclusief heffingsrecht."
+          }
+        }
+      },
+      {
+        "id": "vrijstelling-met-progressievoorbehoud-mechanisme",
+        "naam": {
+          "primair": "Vrijstelling met progressievoorbehoud",
+          "synoniemen": [
+            "exemption with progression"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een dubbelbelastingverdrag stelt België de buitenlandse onroerende inkomsten **vrij van Belgische belasting**, maar de vrijgestelde inkomsten worden **meegeteld bij de grondslag** om het belastingtarief op de overige Belgische inkomsten te bepalen. Hierdoor betaalt de belastingplichtige een **hoger marginaal tarief** op zijn Belgische inkomsten dan wanneer hij het buitenlandse goed niet had.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het progressievoorbehoud voorkomt dat Belgische rijksinwoners door buitenlandse (verdragsvrijgestelde) inkomsten in een lagere belastingschijf terechtkomen op hun Belgische inkomsten. Het wordt berekend via de zogenaamde breukvermindering: belasting × (Belgische inkomsten / totaal wereldinkomen)."
+          }
+        }
+      },
+      {
+        "id": "belastingvermindering-zonder-verdrag",
+        "naam": {
+          "primair": "Belastingvermindering bij afwezigheid verdrag"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer er geen dubbelbelastingverdrag bestaat met de liggingsstaat, belast België de buitenlandse onroerende inkomsten wel, maar verleent het een **vermindering van 50%** op het Belgische belastingdeel dat toe te rekenen is aan die inkomsten. Dit is geen vrijstelling maar een partiële dubbele-belastingontlasting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kadastraal-inkomen-buitenlands-goed",
+        "naam": {
+          "primair": "Kadastraal inkomen voor buitenlands goed",
+          "synoniemen": [
+            "buitenlands KI",
+            "forfaitair KI buitenland"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor onroerend goed in het buitenland bepaalt België een **forfaitair kadastraal inkomen** om de Belgische belastbare grondslag te berekenen. Dit KI wordt afgeleid van de **normale huurwaarde** van het goed (niet de werkelijke huurprijs), omgerekend naar Belgische maatstaven. Het KI geldt ongeacht of het goed verhuurd wordt of niet.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De invoering van het KI-forfait voor buitenlands onroerend goed was een gevolg van Europese rechtspraak (HvJ). Vóór de wetswijziging werd buitenlands onroerend goed belast op werkelijke huurwaarde terwijl Belgisch onroerend goed het gunstigere KI-forfait genoot — een verboden discriminatie."
+          }
+        }
+      },
+      {
+        "id": "niet-verhuurd-buitenlands-goed",
+        "naam": {
+          "primair": "Niet-verhuurd buitenlands goed (eigen gebruik)"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Onroerend goed in het buitenland dat de Belgische rijksinwoner zelf gebruikt (vakantiewoning, tweede verblijf) of leeg laat staan, genereert toch een **belastbare grondslag in België** op basis van het forfaitair KI. Dit is anders dan bij de eigen woning in België, die geheel vrijgesteld is van onroerende inkomsten. De **eigen woning-vrijstelling geldt niet voor buitenlands onroerend goed**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De Belgische eigen-woning-vrijstelling (nultarief onroerend inkomen voor de hoofdverblijfplaats) is een federale belastingvermindering gekoppeld aan de Belgische woning. Buitenlandse eigendommen kunnen hier niet van genieten, tenzij het gaat om de enige woning van de belastingplichtige en die tevens als hoofdverblijfplaats dient in het buitenland — maar zelfs dan blijft de Belgische aangifte verplicht."
+          }
+        }
+      },
+      {
+        "id": "verhuurd-buitenlands-goed",
+        "naam": {
+          "primair": "Verhuurd buitenlands goed — inkomensbegrip"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Wanneer buitenlands onroerend goed verhuurd wordt, geldt de volgende behandeling:\n\n- **Verhuur aan particulier**: belastbare grondslag = **KI × 1,4** (indexering + 40%-correctie), analoog aan de Belgische regeling voor verhuur aan niet-beroepsmatig gebruik.\n- **Verhuur aan vennootschap of beroepsdoeleinden**: belastbare grondslag = **werkelijke huurinkomsten minus werkelijke kosten** (benadering werkelijk inkomen), gecorrigeerd met een minimum van KI × 1,4.\n\nDe liggingsstaat belast de huurinkomsten op eigen wijze; België bepaalt de grondslag zelfstandig op bovenstaande forfaitaire wijze.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte berekeningswijze (KI-factor bij buitenlandse verhuur) is onderhevig aan specifieke wettelijke bepalingen die kunnen afwijken van de binnenlandse regeling — verificatie met de actuele WIB92-tekst is aangewezen."
+          }
+        }
+      },
+      {
+        "id": "aangifte-verplichting-buitenlands-goed",
+        "naam": {
+          "primair": "Aangifteplicht buitenlands onroerend goed"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een Belgisch rijksinwoner die onroerend goed bezit in het buitenland is **verplicht dit te vermelden in zijn Belgische personenbelastingaangifte**, ook wanneer de inkomsten volledig vrijgesteld zijn door een dubbelbelastingverdrag. De aangifte is nodig voor de berekening van het progressievoorbehoud en voor de toewijzing van de belastingverminderingen. Niet-aangifte kan leiden tot fiscale sancties.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "meerwaarde-buitenlands-onroerend-goed",
+        "naam": {
+          "primair": "Meerwaarde bij vervreemding buitenlands goed"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij verkoop van buitenlands onroerend goed binnen een bepaalde termijn (analogie met de binnenlandse regels: 5 jaar voor bebouwde onroerende goederen, 8 jaar voor gronden) kan een **belastbare meerwaarde** ontstaan als divers inkomen. Het heffingsrecht over vermogenswinsten op onroerend goed behoort verdragsrechtelijk ook toe aan de liggingsstaat, zodat België deze meerwaarden doorgaans vrijstelt (met progressievoorbehoud). Buiten de verdragssfeer belast België ze wél.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De verdragsrechtelijke behandeling van meerwaarden op onroerend goed volgt in OESO-verdragen artikel 13 — ook daar heeft de liggingsstaat exclusief heffingsrecht. Verificatie van de exacte termijnen en drempels in WIB92 is aangewezen."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belgische rijksinwoners die eigenaar zijn van onroerend goed in het buitenland — of zij het verhuren, zelf gebruiken of leeg laten staan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Belastingplichtigen die buitenlands onroerend goed erven of als schenking ontvangen en de fiscale gevolgen willen inschatten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Expatriates of grenswerkers die tijdelijk of permanent onroerend goed in het buitenland aanhouden terwijl ze Belgisch rijksinwoner blijven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Niet-rijksinwoners van België (buitenlanders): de inkomsten uit onroerend goed gelegen in België vallen onder de **belasting der niet-inwoners**, niet onder dit regime.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Onroerend goed in België van een Belgisch rijksinwoner: dat valt onder de gewone binnenlandse personenbelasting (kadastraal inkomen, eigen-woning-vrijstelling, etc.) — niet onder het internationaal regime.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De belastingplichtige is **fiscaal inwoner van België** (rijksinwoner) op het moment van het inkomstenjaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het onroerend goed is **gelegen buiten België** (buitenlands onroerend goed in de zin van WIB92).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Niet-aangifte**: buitenlands onroerend goed niet vermelden omdat de inkomsten verdragsvrijgesteld zijn — maar het progressievoorbehoud vereist toch aangifte, en niet-aangifte leidt tot fiscale sancties.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Dubbele belasting bij afwezigheid verdrag**: de 50%-vermindering compenseert niet volledig voor dubbele belasting — de belastingplichtige betaalt in beide landen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Belastingplichtige bezit een **vakantiewoning, appartement of grond** in het buitenland.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Belastingplichtige heeft **buitenlandse huurinkomsten** ontvangen en vraagt zich af hoe die in de Belgische aangifte moeten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De Belgische aangifte heeft een rubriek voor **buitenlandse onroerende goederen** — invullen van die rubriek activeert het regime.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "onroerend-inkomen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "dubbelbelastingverdrag",
+      "toelichting": "De verdragsvrijstelling met progressievoorbehoud is alleen van toepassing wanneer een dubbelbelastingverdrag bestaat met de liggingsstaat.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "oeso-modelverdrag",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vrijstelling-met-progressievoorbehoud",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "roerend-inkomen-internationaal",
+      "toelichting": "Analoog regime maar voor roerende inkomsten uit buitenlandse bronnen — het onderscheid is het type activum (onroerend vs. roerend) en de verdragsartikel-grondslag (art. 6 vs. art. 10/11/12).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "kadastraal-inkomen",
+      "toelichting": "Het forfaitair kadastraal inkomen voor buitenlands goed is de Belgische grondslag voor de aangifte, analoog aan het binnenlandse KI-systeem.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -13,6 +13,7 @@
       "nl": "Aangifte personenbelasting"
     }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -35,6 +36,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 21)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende pass: niet_voor + voordeel in gebruikscontext; 3 nieuwe elementen (aanslagjaar-vs-inkomstenjaar, belastingberekening-mechanisme, gemeenschappelijke-aanslag)."
       }
     ],
     "ankers": [
@@ -48,6 +55,47 @@
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De aangifte personenbelasting is het wettelijk verplichte document waarmee een rijksinwoner jaarlijks zijn wereldwijd inkomen en aftrekposten aangeeft bij de Belgische belastingadministratie, zodat de verschuldigde personenbelasting kan worden berekend. Het formulier (model 1) dekt alle inkomenscategorieën: onroerende inkomsten, roerende inkomsten, beroepsinkomsten en diverse inkomsten."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De belastingplichtige (of zijn mandataris) vertaalt alle belastbare inkomsten van het afgelopen inkomstenjaar naar de wettelijk voorgeschreven aangiftevakken, waarna de belastingadministratie op basis van die vakken de eindbelasting berekent, vermindert met voorheffingen en voorafbetalingen, en hetzij een aanslagbiljet met aanvullende belasting of een teruggavecrédiet stuurt."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "België hanteert een aangiftestelsel waarbij de belastingplichtige zijn eigen belastinggrondslag aangeeft — de administratie vertrouwt initieel op de correctheid van de aangifte en toetst achteraf. Dat systeem plaatst de accountant/adviseur in een cruciale rol: fouten of weglatingsverzuimen leiden tot nalatigheidsintresten (momenteel 4% per jaar), belastingverhogingen (10%-200% naargelang de ernst), en in ernstige gevallen strafrechtelijke vervolging. Een tijdige en correcte aangifte is bovendien de basis voor alle latere fiscale rechten: bezwaar, ambtshalve ontheffing en verjaringstermijnen lopen vanaf de aanslag die volgt op de aangifte. Een accountant die een cliënt begeleidt, moet de volledige aangiftecyclus beheersen — van inzamelen van documenten tot indienen en opvolgen van het aanslagbiljet."
+      }
+    },
     "gebruikscontext": {
       "trigger_start": [
         {
@@ -107,6 +155,34 @@
           "tekst": "Zelfstandigen, bedrijfsleiders, vrije beroepers en werknemers met meerdere inkomstenbronnen of aftrekposten die de administratie niet automatisch kent."
         }
       ],
+      "niet_voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Vennootschappen, vzw's en andere rechtspersonen — zij dienen respectievelijk een aangifte vennootschapsbelasting, rechtspersonenbelasting of belasting op niet-inwoners in. De aangifte PB is uitsluitend voor natuurlijke personen die als rijksinwoner kwalificeren."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Niet-inwoners van België: zij vallen onder de belasting op niet-inwoners (BNI/natuurlijke personen) en dienen een afzonderlijk aangifteformulier in. Een persoon die gedurende het inkomstenjaar België verlaat, dient in het aanslagjaar nog een aangifte PB in als hij op 1 januari van het inkomstenjaar rijksinwoner was."
+        }
+      ],
       "voorwaarden": [
         {
           "grondslag": {
@@ -148,6 +224,34 @@
             ]
           },
           "tekst": "Laattijdige indiening leidt tot een ambtshalve aanslag door de administratie, verlies van bepaalde aftrekrechten (o.a. verliescompensatie voor zelfstandigen) en activering van verlengde aanslagtermijnen (drie jaar bij geen aangifte, zeven jaar bij fraude)."
+        }
+      ],
+      "voordeel": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Tijdige en correcte indiening opent de volledige set van fiscale rechten: recht op bezwaar (6 maanden na aanslag), ambtshalve ontheffing (5 jaar) en teruggave van te veel ingehouden voorheffingen. Bij onvolledige inhouding aan de bron is de aangifte ook het enige instrument om de uiteindelijke belasting te beperken via aftrekken en verminderingen."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Voor cliënten met meerdere inkomstenbronnen of bijzondere situaties (buitenlandse inkomsten, vastgoedinkomsten, auteursrechten) is de aangifte het enige instrument waarmee de totale belastingdruk correct en geoptimaliseerd wordt berekend — Tax-on-Web doet dit niet automatisch voor complexe dossiers."
         }
       ]
     },
@@ -466,49 +570,155 @@
             "tekst": "De adviseur controleert het aanslagbiljet op rekenfouten, niet-verrekende voorheffingen, onjuiste gezinssituatie of verkeerd toegepaste aftrekken; bij vergissing wordt een bezwaarschrift ingediend bij de gewestelijke directeur (of later een beroep bij de rechtbank van eerste aanleg). De betalingstermijn voor het saldo bedraagt twee maanden na de aanslag (nalatigheidsintresten starten daarna)."
           }
         }
-      }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aangifte personenbelasting is het wettelijk verplichte document waarmee een rijksinwoner jaarlijks zijn wereldwijd inkomen en aftrekposten aangeeft bij de Belgische belastingadministratie, zodat de verschuldigde personenbelasting kan worden berekend. Het formulier (model 1) dekt alle inkomenscategorieën: onroerende inkomsten, roerende inkomsten, beroepsinkomsten en diverse inkomsten."
       },
-      "substantie": {
+      {
+        "id": "aanslagjaar-vs-inkomstenjaar",
+        "naam": {
+          "primair": "Aanslagjaar versus inkomstenjaar",
+          "synoniemen": [
+            "belastbaar tijdperk",
+            "referentiejaar"
+          ]
+        },
+        "inhoud_type": "begrip",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
-        "tekst": "De belastingplichtige (of zijn mandataris) vertaalt alle belastbare inkomsten van het afgelopen inkomstenjaar naar de wettelijk voorgeschreven aangiftevakken, waarna de belastingadministratie op basis van die vakken de eindbelasting berekent, vermindert met voorheffingen en voorafbetalingen, en hetzij een aanslagbiljet met aanvullende belasting of een teruggavecrédiet stuurt."
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Het inkomstenjaar (= belastbaar tijdperk) is het kalenderjaar waarin de inkomsten zijn behaald of verkregen (bv. 2024). Het aanslagjaar is het jaar daarop (bv. 2025) — het jaar waarin de aangifte wordt ingediend en de aanslag wordt gevestigd. Alle bedragen, tarieven en plafonds in de wet worden vermeld per aanslagjaar."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Het onderscheid is cruciaal voor situaties die worden bepaald op 1 januari van het aanslagjaar: de gezinssituatie (kinderen ten laste, huwelijksstatus), de gewestelijke bevoegdheid (woonplaats bepaalt welk gewest de belasting ontvangt) en de belastingvrije som-verhogingen. Een kind geboren op 15 december van het inkomstenjaar telt mee voor het aanslagjaar; een belastingplichtige die op 31 december van het inkomstenjaar overlijdt levert ook een aangifte op voor het aanslagjaar."
+          }
+        }
       },
-      "rationale": {
+      {
+        "id": "belastingberekening-mechanisme",
+        "naam": {
+          "primair": "Belastingberekening — progressieve tarieven en globalisatie",
+          "synoniemen": [
+            "schijvenbelasting",
+            "progressieve belasting"
+          ]
+        },
+        "inhoud_type": "mechanisme",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
-        "tekst": "België hanteert een aangiftestelsel waarbij de belastingplichtige zijn eigen belastinggrondslag aangeeft — de administratie vertrouwt initieel op de correctheid van de aangifte en toetst achteraf. Dat systeem plaatst de accountant/adviseur in een cruciale rol: fouten of weglatingsverzuimen leiden tot nalatigheidsintresten (momenteel 4% per jaar), belastingverhogingen (10%-200% naargelang de ernst), en in ernstige gevallen strafrechtelijke vervolging. Een tijdige en correcte aangifte is bovendien de basis voor alle latere fiscale rechten: bezwaar, ambtshalve ontheffing en verjaringstermijnen lopen vanaf de aanslag die volgt op de aangifte. Een accountant die een cliënt begeleidt, moet de volledige aangiftecyclus beheersen — van inzamelen van documenten tot indienen en opvolgen van het aanslagbiljet."
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De personenbelasting wordt berekend op het globaal belastbaar inkomen via progressieve schijven (25%, 40%, 45%, 50%); bepaalde inkomsten worden echter afzonderlijk belast (roerende inkomsten, sommige meerwaarden, sommige stopzettingsvergoedingen) en worden niet geglobaliseerd. De belastingberekening verloopt in drie fasen: (1) berekening per belastingplichtige op het globale inkomen, (2) aftrek van belastingvrije som, (3) aftrek van belastingverminderingen."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De opdeling globaal vs. afzonderlijk belastbaar is concept-intrinsiek: inkomsten die afzonderlijk worden belast, ondergaan een vast tarief (bv. roerende inkomsten aan 30% roerende voorheffing die bevrijdend werkt) en komen niet in de progressieve grondslag terecht. Dit verlaagt de grondslag waarop de gemeentebelasting en provinciebelasting worden berekend. Gemeentebelasting (aanvullende gemeentebelasting) slaat enkel op de grondslag die aan het progressief tarief is onderworpen."
+          }
+        }
+      },
+      {
+        "id": "gemeenschappelijke-aanslag",
+        "naam": {
+          "primair": "Gemeenschappelijke aanslag",
+          "synoniemen": [
+            "gezamenlijke aangifte",
+            "aanslag per echtgenoten"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Gehuwden en wettelijk samenwonenden dienen één gemeenschappelijke aangifte in (één formulier, beiden ondertekend), maar worden voor de berekening van de belasting afzonderlijk belast. De aangifte is gezamenlijk; de aanslag is individueel per partner."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De gezamenlijke indiening maakt twee optimalisaties mogelijk: (1) het huwelijksquotiënt — wanneer één partner geen of beperkte beroepsinkomsten heeft, worden inkomsten van de andere partner tot 30% (maximaal een wettelijk plafond per aanslagjaar) toegerekend aan de minst verdienende partner, wat de progressiviteit verlaagt; (2) overdracht van de belastingvrije som-verhoging voor kinderen ten laste aan de meest belaste partner. Afzonderlijk belastbare inkomsten en roerende inkomsten worden NIET overgedragen via huwelijksquotiënt."
+          }
+        }
       }
-    }
+    ]
   },
   "relaties": [
     {
@@ -656,7 +866,36 @@
           }
         ]
       }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "huwelijksquotient",
+      "toelichting": "Het huwelijksquotiënt beïnvloedt de berekening bij gemeenschappelijke aanslag en verlaagt de progressiviteitsimpact bij partnerschapen met ongelijke inkomens.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "gezinssituatie-pb",
+      "toelichting": "De gezinssituatie op 1 januari van het aanslagjaar is bepalend voor de belastingvrije som, het huwelijksquotiënt en de gewestelijke bevoegdheid.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "procedure"
+  ]
 }

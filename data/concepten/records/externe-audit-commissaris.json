@@ -1,11 +1,25 @@
 {
   "id": "externe-audit-commissaris",
   "naam": {
-    "primair": "Externe audit commissaris"
+    "primair": "Externe audit commissaris",
+    "synoniemen": [
+      "wettelijke controle",
+      "externe controle",
+      "bedrijfsrevisor-als-commissaris"
+    ],
+    "vertaling": {
+      "fr": "commissaire aux comptes (audit externe)"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.7.I.B",
+      "1.7.V.C",
+      "1.7.XII.B"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +38,453 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T14:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data (PO 1.7 perspectief: externe audit als actor in governance en interne controle)."
       }
-    ],
-    "ankers": [
-      "1.7.I.B",
-      "1.7.V.C",
-      "1.7.XII.B"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Externe audit commissaris",
+        "tekst": "De **externe audit commissaris** is de bedrijfsrevisor die belast is met de **wettelijke controle** van de jaarrekening van een vennootschap of vereniging. Vanuit PO 1.7-perspectief (interne controle) is de commissaris een **externe actor** die het interne-controlekader evalueert, onafhankelijk rapporteert aan de algemene vergadering en daarmee een fundamenteel andere positie inneemt dan de interne audit of het management.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De commissaris functioneert als een **onafhankelijke buitenstaander** die het betrouwbaarheidsframe van de jaarrekening en van het interne-beheersingsysteem bewaakt. Zijn positie in de governance-architectuur kenmerkt zich door drie structurele eigenschappen:\n\n1. **Mandaatgebonden onafhankelijkheid** — benoemd door de AV, ontslagbaar alleen door AV of rechter om wettige reden. Betaald via honorarium vastgesteld door AV, niet door bestuur.\n2. **Onbeperkt onderzoeksrecht** — toegang tot alle boeken, bescheiden, activa en informatie op elk moment. Bestuurders zijn verplicht mee te werken.\n3. **Dubbele rapporteringslijn** — het controleverslag gaat naar de AV (aandeelhouders/leden). Het auditcomité ontvangt een afzonderlijk verslag over IC-bevindingen en sleutelpunten van de controle.\n\nDit onderscheidt de commissaris fundamenteel van interne audit: de commissaris rapporteert aan de eigenaars (AV), de interne auditor aan de directie of het auditcomité.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De commissaris bestaat als institutie omdat **informatie-asymmetrie** onvermijdelijk is: aandeelhouders, schuldeisers en het publiek kunnen de jaarrekening niet zelf controleren. De wettelijke controle maakt de jaarrekening **maatschappelijk betrouwbaar**. Vanuit IC-perspectief (PO 1.7) heeft de commissaris een bijzondere functie: hij is de enige actor die het IC-systeem *van buitenaf* evalueert en zijn bevindingen rapporteert aan de eigenaars — niet aan diegenen die het IC zelf beheren.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vennootschappen of verenigingen die de **wettelijke drempels voor commissaris-verplichting** overschrijden of die vrijwillig een commissaris aanstellen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Beneden de drempels is de commissaris optioneel. Boven de drempels is aanstelling verplicht; zonder commissaris riskeren bestuurders persoonlijke aansprakelijkheid."
+        },
+        {
+          "tekst": "Iedere organisatie waarbij **stakeholders buiten de vennootschap** (aandeelhouders, schuldeisers, banken, overheid) onafhankelijke bevestiging van de jaarrekening nodig hebben.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Kleine vennootschappen** die onder alle drie drempelcriteria blijven (balanstotaal, omzet, personeel) tenzij zij vrijwillig kiezen voor een commissaris.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "WVV laat kleine vennootschappen zonder commissaris-verplichting. Zij kunnen kiezen voor een rekeningcommissaris of voor vrijwillig commissaris."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Verhoogd vertrouwen** bij externe stakeholders: banken, beleggers en leveranciers hanteren voor gecontroleerde jaarrekeningen lagere risicopslagen dan voor niet-gecontroleerde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**IC-kwaliteitsverbeteringen** via de managementletter: de commissaris rapporteert zwakheden in het interne-beheersingsysteem die hij bij de controle aantreft — dit is een gratis advieskanaal.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Zelfcontrole-bedreiging** bij te innige band tussen commissaris en management: de commissaris verliest feitelijke onafhankelijkheid zonder formeel zijn mandaat te verliezen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De deontologische regels (IBR-circulaires, IAASB-standaarden) proberen dit te ondervangen via rotatie, verbod op niet-auditdiensten en verplichte schriftelijke bevestiging van onafhankelijkheid."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "benoemingsprocedure",
+        "naam": {
+          "primair": "Benoemingsprocedure commissaris",
+          "synoniemen": [
+            "aanstelling commissaris"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De commissaris wordt **benoemd door de algemene vergadering** voor een hernieuwbaar mandaat van **3 jaar**. Alleen een erkend bedrijfsrevisor (lid IBR) mag dit mandaat bekleden. Bij vennootschappen met auditcomité heeft dit comité een voordrachtsrecht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ontslagbescherming",
+        "naam": {
+          "primair": "Ontslagbescherming commissaris"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De vennootschap kan de commissaris **niet eenzijdig ontslaan** tijdens het mandaat. Ontslag is alleen mogelijk door de AV op voorstel van het auditcomité of op vordering van het IBR, en uitsluitend om **wettige reden** (geen opportuniteitsbeslissing). De commissaris kan zelf ontslag nemen mits schadeloosstelling en motivering.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder deze bescherming zou een kritische commissaris eenvoudig vervangen worden door een volgzamere — de onafhankelijkheid zou dan louter formeel zijn."
+          }
+        }
+      },
+      {
+        "id": "verplichting-drempels",
+        "naam": {
+          "primair": "Drempelcriteria voor commissaris-verplichting",
+          "synoniemen": [
+            "kleine-vennootschap-uitzondering"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vennootschap is **verplicht een commissaris aan te stellen** wanneer zij op de balansdatum van het laatste afgesloten boekjaar meer dan één van de drie groottecriteria overschrijdt:\n- balanstotaal: € 4.500.000\n- netto-jaaromzet: € 9.000.000\n- gemiddeld personeelsbestand: 50 werknemers op jaarbasis\n\nBovendien zijn vennootschappen die een **auditcomité** verplicht hebben, sowieso verplicht een commissaris aan te stellen.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Bedragen te verifiëren in WVV en KB; drempels worden periodiek geïndexeerd. Twee van drie criteria overschreden = verplicht."
+          }
+        }
+      },
+      {
+        "id": "onderzoeksrecht",
+        "naam": {
+          "primair": "Onbeperkt onderzoeksrecht commissaris"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De commissaris heeft **te allen tijde** recht op inzage in alle boeken, bescheiden, briefwisseling en activa van de vennootschap en van haar dochtervennootschappen waarvoor hij ook commissaris is. Bestuurders en aangestelden zijn verplicht alle gevraagde inlichtingen en toelichtingen te verstrekken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderzoeksrecht is onbegrensd qua timing en scope — de commissaris hoeft niet te wachten op het jaareinde of een formeel verzoek. Dit maakt permanente aandacht voor lopende feiten mogelijk."
+          }
+        }
+      },
+      {
+        "id": "controleverslag",
+        "naam": {
+          "primair": "Controleverslag commissaris",
+          "synoniemen": [
+            "revisieVerslag",
+            "auditverslag"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **controleverslag** is de formele mededeling van de commissaris aan de AV over zijn bevindingen bij de controle van de jaarrekening. Het verslag bevat minimaal: de conclusie (goedkeurend, met voorbehoud, onthoudend of afkeurend), eventuele nadrukparagrafen, en bevindingen over de naleving van wettelijke verplichtingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verhouding-tot-interne-audit",
+        "naam": {
+          "primair": "Verhouding externe audit tot interne audit"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Externe audit (commissaris) en interne audit zijn **complementair maar fundamenteel verschillend**:\n\n| | Externe audit | Interne audit |\n|---|---|---|\n| **Rapporteert aan** | AV (aandeelhouders) | Auditcomité / directie |\n| **Primair doel** | Getrouwheidsverklaring jaarrekening | Verbetering IC en risicobeheersing |\n| **Onafhankelijkheid** | Wettelijk gewaarborgd mandaat | Functioneel — hangt af van organisatiemodel |\n| **Scope** | Financiële overzichten en naleving wetten | Alle processen, risico's, IC-systemen |\n| **Frequentie** | Jaarlijks (jaareinde-focus) | Doorlopend |\n\nDe commissaris kan gebruik maken van het werk van de interne audit (ISA 610) maar behoudt volledige eigen verantwoordelijkheid voor zijn oordeel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid is essentieel voor de examen-doelstelling: kandidaten moeten begrijpen waarom 'interne controle evalueren' iets anders is als het de commissaris of de interne auditor doet."
+          }
+        }
+      },
+      {
+        "id": "verhouding-tot-auditcomite",
+        "naam": {
+          "primair": "Verhouding externe audit tot auditcomité"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "In vennootschappen met een **auditcomité** (verplicht voor grote beursgenoteerde vennootschappen) zijn er formele interactieverplichtingen:\n- De commissaris rapporteert zijn controlestrategie en sleutelpunten vóór de jaarafsluiting aan het auditcomité.\n- Het auditcomité bewaakt de onafhankelijkheid van de commissaris en heeft een adviserende rol bij zijn benoeming.\n- De commissaris meldt aan het auditcomité: materiële IC-zwakheden, fraude-indicaties, en meningsverschillen met management over accounting-keuzes.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "managementletter",
+        "naam": {
+          "primair": "Managementletter",
+          "synoniemen": [
+            "aanbevelingenbrief"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **managementletter** (ook: aanbevelingenbrief) is een niet-verplicht maar in de praktijk standaard document waarbij de commissaris het management informeert over **IC-zwakheden en verbeterpunten** die hij tijdens de controle heeft aangetroffen. De managementletter maakt geen deel uit van het formele controleverslag maar is een constructief communicatie-instrument tussen commissaris en management.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De managementletter is het interface tussen externe audit en IC-verbetering: de commissaris constateert IC-zwakheden als bijproduct van zijn controle en geeft dat terug aan de organisatie. Het bestuur is niet verplicht de aanbevelingen op te volgen, maar afwijken vraagt om motivering."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "normenkader-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Externe audit wordt uitgevoerd conform de ISA-standaarden en de IBR-normen."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "interne-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beide doen assurance-werk maar met fundamenteel verschillende rapporteringslijn, scope en wettelijke basis.",
+      "gelijkenissen": [
+        "Beide evalueren de effectiviteit van het interne-beheersingsysteem",
+        "Beide rapporteren bevindingen aan governance-organen"
+      ],
+      "verschillen": [
+        "Externe audit rapporteert aan AV; interne audit aan auditcomité of directie",
+        "Externe audit heeft wettelijk gewaarborgde onafhankelijkheid; interne audit is functioneel onafhankelijk",
+        "Externe audit heeft als primair doel de getrouwheidsverklaring; interne audit richt zich op IC-verbetering"
+      ],
+      "verwarring_risico": "Studenten verwarren regelmatig de rapporteringslijn: de commissaris werkt NIET voor het management maar voor de aandeelhouders.",
+      "render_hint": "als_waarschuwing"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "commissaris-mandaat-en-statuut",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "commissaris-mandaat-en-statuut behandelt de juridische positie (PO 1.6); dit concept benadert de commissaris vanuit IC- en governance-perspectief (PO 1.7).",
+      "gelijkenissen": [
+        "Beide beschrijven de commissaris als bedrijfsrevisor met wettelijke controleopdracht"
+      ],
+      "verschillen": [
+        "commissaris-mandaat-en-statuut focust op mandaat, statuut en aansprakelijkheid (PO 1.6)",
+        "externe-audit-commissaris focust op de verhouding commissaris / IC / auditcomité / interne audit (PO 1.7)"
+      ]
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "auditcomite",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het auditcomité bewaakt de onafhankelijkheid van de commissaris en heeft een formele rol bij zijn benoeming en bij de communicatie over sleutelpunten van de controle."
+    },
+    {
+      "type": "vereist",
+      "target": "onafhankelijkheid",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het vertrouwen in de controleverklaring rust volledig op de onafhankelijkheid van de commissaris — zonder die onafhankelijkheid verliest de verklaring haar maatschappelijke waarde."
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "controleverklaring",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het eindproduct van de externe audit commissaris is de controleverklaring (formeel rapport aan de AV)."
+    }
+  ]
 }

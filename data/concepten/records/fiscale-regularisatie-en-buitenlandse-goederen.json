@@ -1,11 +1,23 @@
 {
   "id": "fiscale-regularisatie-en-buitenlandse-goederen",
   "naam": {
-    "primair": "Fiscale regularisatie en buitenlandse goederen"
+    "primair": "Fiscale regularisatie en buitenlandse goederen",
+    "synoniemen": [
+      "fiscale regularisatie buitenlandse kapitalen",
+      "penale fiscale regularisatie",
+      "EBA-regularisatie"
+    ],
+    "vertaling": {
+      "fr": "Régularisation fiscale et avoirs étrangers"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.8.XVII"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +36,514 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T10:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.8.XVII"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Fiscale regularisatie en buitenlandse goederen",
+        "tekst": "**Fiscale regularisatie van buitenlandse goederen** is een wettelijk regime waarbinnen belastingplichtigen hun niet-aangegeven buitenlandse kapitalen, inkomsten of goederen vrijwillig kunnen rechtzetten tegenover de Belgische fiscus, mits betaling van een heffing (regularisatieheffing) — en daarmee strafrechtelijke en fiscale vervolging voor het verleden afwenden.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het regime beoogt een **vrijwillige regularisatie** van verborgen buitenlands vermogen: de belastingplichtige geeft uit eigen beweging aan wat in het verleden niet aangegeven werd — buitenlandse bankrekeningen, beleggingen, onroerende goederen, buitenlandse erfenissen, kapitalen via buitenlandse vennootschappen — en betaalt een forfaitaire regularisatieheffing bovenop de verschuldigde belasting.\n\nDe **centrale mechaniek** is een ruilprincipe: volledige vrijwaring van straf (fiscale boetes, nalatigheidsinteresten, en strafrechtelijke vervolging inclusief witwas) in ruil voor transparantie en betaling. Dit is fundamenteel anders dan een gewone belastingaangifte: het is een eenmalige bekentenis met amnestie-effect.\n\nBelgië heeft meerdere regularisatierondes doorgevoerd (2004, 2006, 2013, en een permanente doorlopende regeling vanaf 2016 — de **permanente fiscale regularisatie**). De permanente regeling kent geen eindtermijn maar de heffingspercentages nemen progressief toe naargelang het tijdstip van regularisatie, waardoor uitstel steeds duurder wordt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het regime bestaat omdat de overheid buitenlands verborgen vermogen fiscaal wil repatriëren zonder de gerechtelijke keten te overbelasten. Een gewone fiscale controle bereikt buitenlandse activa moeilijk — door vrijwilligheid te stimuleren met amnestie verhoogt de staat zijn inkomsten en verkrijgt het administratieve informatie over buitenlandse structuren.\n\nVanuit het standpunt van de belastingplichtige is het regime een rationele keuze wanneer: (1) internationale informatie-uitwisseling (CRS/FATCA) de ontdekking onvermijdelijk maakt, (2) de kostprijs van de regularisatieheffing lager is dan de gecumuleerde risico's van niet-aangifte (boetes, nalatigheidsinteresten, strafrechtelijke vervolging), en (3) de belastingplichtige zekerheid over het verleden wil herstellen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belastingplichtigen met **buitenlandse niet-aangegeven activa** (rekeningen, beleggingen, onroerend goed, kapitalen in buitenlandse structuren) die de fiscale situatie willen rechtzetten vóór ontdekking door de administratie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het regime biedt amnestie precies voor wie vrijwillig aangeeft — wie wacht op een controle verliest het voordeel."
+        },
+        {
+          "tekst": "Situaties waarbij **internationale automatische gegevensuitwisseling** (CRS/FATCA) de kans op ontdekking reëel maakt en het risico op strafrechtelijke vervolging wegens witwas concurrerend is met de regularisatiekost.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Erfgenamen** die buitenlandse activa erven die in het verleden door de erflater niet werden aangegeven en die de erfenis fiscaal willen regulariseren alvorens deze aan te geven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Belastingplichtigen waarbij de **fiscus al een onderzoek heeft ingesteld** of een proces-verbaal is opgemaakt met betrekking tot de te regulariseren kapitalen — de vrijwilligheidsvoorwaarde is dan niet meer vervuld.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Kapitalen die **louter van criminele origine** zijn (drugs, mensenhandel, corruptie) — alleen de fiscale component van witwas kan geregulariseerd worden, niet het misdrijf zelf.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De regularisatie moet **vrijwillig** zijn: op het moment van de aangifte bij het Contactpunt Regularisaties (CPR) mag er geen fiscaal of strafrechtelijk onderzoek lopen met betrekking tot de betrokken kapitalen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De aangifte moet **volledig** zijn: alle niet-aangegeven elementen van de fiscale situatie die regulariseerbaar zijn moeten worden opgegeven — gedeeltelijke regularisatie is niet toegestaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De **regularisatieheffing** moet volledig betaald worden — zonder betaling geen vrijwaring.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Vrijwillige indiening van een **regularisatieaangifte** bij het Contactpunt Regularisaties van de FOD Financiën.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "**Betaling van de regularisatieheffing** en ontvangst van het attest van regularisatie van het CPR — waarna de fiscale en strafrechtelijke immuniteit ingaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verlies van amnestie-effect** wanneer de fiscus of het parket reeds een onderzoek heeft ingesteld op het moment van indiening — de aangifte wordt dan gebruikt als bewijs.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "contactpunt-regularisaties",
+        "naam": {
+          "primair": "Contactpunt Regularisaties",
+          "afkorting": "CPR",
+          "synoniemen": [
+            "CPR",
+            "regularisatiedienst FOD Financiën"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **Contactpunt Regularisaties (CPR)** is de bevoegde dienst binnen de FOD Financiën waar de belastingplichtige zijn regularisatieaangifte indient. Het CPR berekent de heffing, vraagt de nodige stukken op, en levert het **regularisatieattest** af na betaling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regularisatieheffing",
+        "naam": {
+          "primair": "Regularisatieheffing",
+          "synoniemen": [
+            "eenmalige heffing regularisatie",
+            "regularisatiebelasting"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De **regularisatieheffing** is de totale kost die de belastingplichtige betaalt bij regularisatie. Ze bestaat uit twee componenten:\n1. **Normale belasting** — het bedrag dat oorspronkelijk verschuldigd was (inclusief de toepasbare tarieven voor roerend inkomen, diverse inkomsten, erfbelasting, etc.)\n2. **Penale boete** — een forfaitaire toeslag bovenop de normale belasting als vergoeding voor de amnestie. De boete stijgt progressief naargelang het tijdstip van regularisatie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De stijgende boete creëert een tijdsdruk — hoe langer men wacht, hoe hoger de totale kost. Dit is een bewuste beleidskeuze om uitstelgedrag te ontmoedigen."
+          }
+        }
+      },
+      {
+        "id": "regulariseerbare-kapitalen",
+        "naam": {
+          "primair": "Regulariseerbare kapitalen en inkomsten",
+          "synoniemen": [
+            "te regulariseren elementen"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "Niet alle buitenlandse activa zijn op dezelfde manier regulariseerbaar. De categorisering bepaalt de toepasselijke heffingsgrondslag:\n\n- **Fiscaal verjaarde kapitalen** — kapitalen waarvan de belasting verjaard is maar die fiscaal toch aangegeven moeten worden (bv. niet-aangegeven buitenlandse rekening waarvan het inkomstenaspect verjaard is). Heffing uitsluitend op de penale boete.\n- **Niet-verjaard roerend inkomen** — dividenden, interesten, meerwaarden op buitenlandse beleggingen. Heffing = normale roerende voorheffing + penale boete.\n- **Beroepsinkomsten** — verborgen winsten, commissies via buitenlandse rekeningen. Heffing = progressief tarief + penale boete.\n- **Buitenlandse erfenissen** — buitenlands vermogen verkregen via nalatenschap dat niet werd aangegeven. Regularisatie via erfbelasting-regime.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "penale-boete",
+        "naam": {
+          "primair": "Penale boete",
+          "synoniemen": [
+            "amnestietoeslag",
+            "regularisatietoeslag"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De **penale boete** is de forfaitaire toeslag bovenop de normale belasting. Onder de permanente regularisatieregeling (vanaf 2016) bedraagt de boete een vast percentage bovenop het normale belastingtarief. Dit percentage stijgt progressief naargelang het tijdstip van regularisatie — bij de invoering bedroeg het 20 procentpunt extra, maar dit is nadien verhoogd.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte percentages zijn wettelijk vastgelegd maar wijzigen bij elke nieuwe regularisatieronde. Verificatie van actuele tarieven in ITAA-LEX is vereist vóór advies."
+          }
+        }
+      },
+      {
+        "id": "regularisatieattest",
+        "naam": {
+          "primair": "Regularisatieattest",
+          "synoniemen": [
+            "attest van regularisatie"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **regularisatieattest** is het document dat het CPR aflevert na ontvangst van de aangifte en betaling van de heffing. Dit attest vormt het **bewijs van de verkregen immuniteit**: de geregulariseerde kapitalen en inkomsten kunnen nadien niet meer fiscaal of strafrechtelijk vervolgd worden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-verjaring-regularisatie",
+        "naam": {
+          "primair": "Fiscale verjaring in regularisatiecontext",
+          "synoniemen": [
+            "verjaarde kapitalen"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "De fiscale verjaringstermijnen spelen een cruciale rol in de kostprijsbepaling van de regularisatie:\n\n- Voor **fiscaal verjaarde inkomsten** geldt dat de normale belasting niet meer verschuldigd is — alleen de penale boete blijft.\n- De belastingadministratie kan niet-aangegeven inkomsten slechts taxeren binnen de normale aanslagtermijnen (gewoonlijk 3 jaar, verlengd tot 5 jaar bij laattijdige aangifte, 10 jaar bij fraude).\n- In de **regularisatiecontext** worden ook verjaarde kapitalen opgenomen in de aangifte om de volledigheid te waarborgen — zij het alleen met de penale boete als kost.\n\nDit maakt de verjaring-analyse cruciaal: de totale regularisatiekost hangt sterk af van welke inkomsten nog fiscaal aanslagbaar zijn.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "strafrechtelijke-immuniteit",
+        "naam": {
+          "primair": "Strafrechtelijke immuniteit",
+          "synoniemen": [
+            "vrijwaring van vervolging",
+            "penale vrijstelling"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Na aflevering van het regularisatieattest is de belastingplichtige gevrijwaard van strafrechtelijke vervolging voor **fiscale fraude en het daaraan verbonden witwasmisdrijf**. Dit is de meest waardevolle component van het regime: zonder regularisatie dreigen criminalisering van het vermogen en mogelijke verbeurdverklaring.\n\n**Grens**: de vrijwaring geldt alleen voor de geregulariseerde feiten en alleen voor het fiscale aspect van de witwas. Andere misdrijven (corruptie, drugs) blijven vervolgbaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "crs-fatca-internationale-uitwisseling",
+        "naam": {
+          "primair": "CRS/FATCA en internationale gegevensuitwisseling",
+          "synoniemen": [
+            "Common Reporting Standard",
+            "automatische gegevensuitwisseling"
+          ]
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "substantie": {
+            "tekst": "De **Common Reporting Standard (CRS)** en **FATCA** zijn internationale akkoorden waarbij financiële instellingen automatisch rekeninggegevens uitwisselen met de fiscus van het land van de rekeninghouder. Dit heeft de kans op ontdekking van buitenlands niet-aangegeven vermogen sterk verhoogd.\n\nVoor de regularisatiepraktijk betekent dit:\n- Buitenlandse banken rapporteren automatisch aan de Belgische fiscus\n- Het risico van spontane ontdekking is reëel en toenemend\n- Wanneer de fiscus de gegevens al heeft ontvangen vóór de regularisatieaangifte, is de vrijwilligheidsvoorwaarde niet meer vervuld\n\nDit maakt timing een kritieke factor: regulariseer vóór de CRS-informatie arriveert, of het voordeel vervalt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aanslagtermijnen-fiscaal",
+      "toelichting": "De fiscale verjaringstermijnen bepalen welke inkomsten bij regularisatie nog normaal belastbaar zijn versus slechts met penale boete.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-procedure-belastingplichtige",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "roerend-inkomen-internationaal",
+      "toelichting": "Buitenlandse roerende inkomsten (dividenden, interesten) vormen een belangrijke categorie van te regulariseren elementen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "antiwitwas-verplichtingen-accountant",
+      "toelichting": "De accountant die regularisatiedossiers begeleidt moet zijn eigen antiwitwasmeldingsplicht afstemmen op het regularisatieproces — dit levert een professionele spanning op.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-bewijsmiddelen",
+      "toelichting": "Een volledige regularisatieaangifte vereist documentatie van de herkomst en omvang van de buitenlandse activa — sterk bewijs van herkomst is noodzakelijk.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

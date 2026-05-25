@@ -1,7 +1,16 @@
 {
   "id": "evaluatie-interne-controle",
   "naam": {
-    "primair": "Evaluatie interne controle"
+    "primair": "Evaluatie interne controle",
+    "synoniemen": [
+      "beoordeling interne controle",
+      "toetsing interne controle",
+      "IC-evaluatie"
+    ],
+    "vertaling": {
+      "fr": "Évaluation du contrôle interne",
+      "en": "Evaluation of internal control"
+    }
   },
   "metadata": {
     "schema_version": "2.1",
@@ -24,6 +33,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7 stuks), gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -35,20 +50,405 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Evaluatie interne controle",
+        "tekst": "De **evaluatie van de interne controle** is het gestructureerde oordeel van de auditor of controller over de vraag of het interne-controlesysteem van een organisatie voldoende is opgezet en effectief werkt om de beoogde doelstellingen te bereiken. Het resultaat is een conclusie over de **betrouwbaarheid** van de interne controle — en bepaalt in welke mate de auditor hierop kan steunen bij zijn verdere werkzaamheden.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De evaluatie verloopt in twee stappen die conceptueel onderscheiden zijn:\n\n1. **Opzet-evaluatie** — zijn de beheersmaatregelen adequaat ontworpen om de relevante risico's te beheersen? Dit is een documentatie- en designbeoordeling.\n2. **Werking-evaluatie** — worden die maatregelen ook daadwerkelijk en consistent toegepast? Dit vereist bewijsverzameling via control tests.\n\nHet onderscheid is cruciaal: een goed ontworpen maar slecht werkende controle biedt geen betrouwbaarheid. De evaluatie loopt parallel aan en interageert met de **risicoanalyse**: een zwakke interne controle verhoogt het ingeschatte controlerisico en dwingt de auditor tot meer substantieve procedures.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De evaluatie van de interne controle is geen doel op zich maar een **risicobeheersings-instrument**: door te steunen op een betrouwbaar interne-controlesysteem kan de auditor het omvang van zijn eigen substantieve controles beperken (efficiëntie) zonder de zekerheidsgraad te verlagen (effectiviteit). Omgekeerd: wanneer interne controle onvoldoende blijkt, is compenserende controle via substantieve procedures vereist.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Omgevingen met een **betekenisvol interne-controlesysteem** — middelgrote tot grote organisaties waar processen geformaliseerd zijn en functiescheiding aanwezig is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij een sterk IC-systeem levert de evaluatie een efficient alternatief voor uitgebreide substantieve controles."
+        },
+        {
+          "tekst": "Jaarlijkse **wettelijke controle** van een vennootschap waarbij de commissaris de betrouwbaarheid van de financiële rapportering wil ondersteunen via control reliance.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Interne-auditopdrachten** waarbij het management een onafhankelijk oordeel wil over de doeltreffendheid van het IC-systeem, los van de externe audit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Zeer kleine entiteiten** (eenmanszaak, micro-vennootschap) met nauwelijks formele procedures — hier is IC-evaluatie zelden zinvol, omdat de controlemaatregelen afwezig of beperkt zijn tot persoonlijk toezicht door de eigenaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De **risicoanalyse-fase** van de audit: zodra de auditor het entity-level risico en de relevante controledoelstellingen heeft geïdentificeerd, start de IC-evaluatie om te beslissen of control reliance haalbaar is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De evaluatie eindigt met een **gedocumenteerde conclusie** over opzet en werking per relevante controlecyclus. Deze conclusie voedt het auditrisicomodel en bepaalt de omvang van de substantieve procedures.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Over-reliance** op interne controle: de auditor reduceert substantieve procedures op basis van een gunstige IC-evaluatie, maar de IC bleek tijdens de controleperiode slechts **sporadisch** te werken — het controlerisico is dan onderschat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Bevraging als enige techniek**: louter navraag bij personeel is onvoldoende om werking aan te tonen — er is altijd aanvullend bewijs (observatie, heruitvoering, inspectie van documenten) vereist.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "opzet-beoordeling",
+        "naam": {
+          "primair": "Opzet-beoordeling",
+          "synoniemen": [
+            "design-evaluatie"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Beoordeling of de geïmplementeerde controlemaatregelen **adequaat ontworpen** zijn om de relevante risico's te beheersen. De auditor analyseert de beschreven procedures en beoordeelt of ze, als ze correct worden toegepast, de beoogde zekerheid zouden bieden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Een slecht ontworpen maatregel kan nooit effectief zijn, ongeacht hoe strikt ze wordt toegepast. Opzet-evaluatie is daarmee een noodzakelijke eerste filter."
+          }
+        }
+      },
+      {
+        "id": "werking-evaluatie",
+        "naam": {
+          "primair": "Werking-evaluatie",
+          "synoniemen": [
+            "operating effectiveness",
+            "control testing"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Toetsing of de controlemaatregelen gedurende de **gehele controleperiode** consistent en correct zijn toegepast. Dit vereist actieve bewijsverzameling — bevraging alleen is nooit voldoende.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "control-test-technieken",
+        "naam": {
+          "primair": "Technieken voor control testing"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Vier erkende technieken voor het testen van werking:\n- **Bevraging** (inquiry) — navraag bij medewerkers; zwakste bewijs, nooit op zichzelf voldoende\n- **Observatie** — auditor ziet de maatregel live plaatsvinden; sterk maar beperkt in tijd\n- **Inspectie van documenten** — visuele verificatie van bestaan en autorisatie (handtekeningen, stempels)\n- **Heruitvoering** (re-performance) — auditor voert de maatregel zelf opnieuw uit; sterkste bewijs",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De combinatie van technieken bepaalt de kwaliteit van het bewijs. Bevraging + heruitvoering geeft een sterkere basis dan bevraging + observatie."
+          }
+        }
+      },
+      {
+        "id": "controlerisico-koppeling",
+        "naam": {
+          "primair": "Koppeling aan controlerisico"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het resultaat van de IC-evaluatie voedt rechtstreeks het **auditrisicomodel**:\n\n- **Sterk IC** → laag controlerisico → auditor kan omvang substantieve procedures reduceren (control reliance)\n- **Zwak IC** → hoog controlerisico → compenserende substantieve procedures vereist\n\nDe samenhang: Audit Risk = Inherent Risk × Control Risk × Detection Risk. De auditor stuurt op Detection Risk via de keuze en omvang van zijn procedures.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "zwakheid-melding",
+        "naam": {
+          "primair": "Zwakheid en significante zwakheid"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **zwakheid** is een tekortkoming in het interne-controlesysteem waarbij een maatregel ontbreekt, slecht ontworpen of niet effectief is. Een **significante zwakheid** is een zwakheid die — alleen of samen met andere — een reële mogelijkheid geeft dat een materiële fout in de financiële rapportering niet tijdig wordt voorkomen of gedetecteerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De drempel 'significante zwakheid' bepaalt wanneer de auditor verplicht is te rapporteren aan de governance (auditcomite, raad van bestuur) — en in sommige context publiek te maken."
+          }
+        }
+      },
+      {
+        "id": "steekproefomvang-control-tests",
+        "naam": {
+          "primair": "Steekproefomvang bij control testing"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De omvang van de steekproef bij werking-evaluatie is afhankelijk van de **frequentie** van de controlemaatregelen en de gewenste zekerheidsgraad:\n- Maatregel die continu werkt (bv. IT-controle) → kleinere steekproef volstaat\n- Maatregel die periodiek werkt (bv. maandelijkse reconciliatie) → steekproef per periode\n- Hoog frequente maatregel (bv. dagelijkse kascontrole) → grotere steekproef vereist",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rapportering-ic-bevindingen",
+        "naam": {
+          "primair": "Rapportering van IC-bevindingen"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Na de evaluatie documenteert de auditor zijn bevindingen in een **management letter** of intern memo. De rapportering omvat:\n- Geïdentificeerde zwakheden en significante zwakheden\n- Impact op de controleaanpak (aangepaste substantieve procedures)\n- Aanbevelingen voor verbetering\n\nBij significante zwakheden is rapportering aan het governance-orgaan verplicht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De evaluatie past de COSO-principes toe als referentiekader voor beoordeling van opzet en werking."
+    },
+    {
+      "type": "vereist",
+      "target": "risicoanalyse-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Zonder voorafgaande risicoanalyse weet de auditor niet welke controlemaatregelen relevant zijn om te evalueren."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "auditrisicomodel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het controlerisico in het auditrisicomodel wordt rechtstreeks gevoed door de uitkomst van de IC-evaluatie."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "ontwerp-interne-controle",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Ontwerp betreft de ontwerpfase; evaluatie betreft de toetsingsfase — complementaire procedures in de IC-cyclus."
+    },
+    {
+      "type": "vereist",
+      "target": "steekproef-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Werking-evaluatie van IC-maatregelen steunt op steekproeftechnieken voor control testing."
+    }
+  ],
   "concept_type": "procedure"
 }

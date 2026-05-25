@@ -12,6 +12,7 @@
       "nl": "Kapitaalvermindering"
     }
   },
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -22,6 +23,10 @@
       "iteratie": "v1",
       "mcp_calls": 10
     },
+    "ankers": [
+      "1.1.II.T",
+      "3.0.IV"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -34,14 +39,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 46)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende beschrijven-operatie: confidence gedowngraded (geciteerd/afgeleid/weerlegd → verondersteld/betwijfeld), ai_model-bronnen gezet, indicaties toegevoegd aan gebruikscontext, elementen met ontbrekende kern aangevuld."
       }
-    ],
-    "ankers": [
-      "1.1.II.T",
-      "3.0.IV"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Een **kapitaalvermindering** is een vennootschapsrechtelijke verrichting waarbij het geplaatst kapitaal van een vennootschap wordt verminderd, hetzij door **terugbetaling aan de aandeelhouders**, hetzij door **aanwending van het kapitaal ter aanzuivering van geleden verliezen**. De verrichting vereist een beslissing van de buitengewone algemene vergadering en is onderworpen aan de wettelijke procedure voor bescherming van schuldeisers.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bij een kapitaalvermindering met **terugbetaling** verlaat vermogen de vennootschap richting aandeelhouders — het geplaatst kapitaal (rekening 100) daalt en liquide middelen stromen uit. Bij een kapitaalvermindering ter **aanzuivering van verliezen** verdwijnt het boekhoudkundig tekort uit de balans zonder dat middelen de vennootschap verlaten: het is een zuiver boekhoudkundige operatie.\n\nDe twee vormen onderscheiden zich op drie assen:\n- **Kasuitstroom** — wel (terugbetaling) vs. niet (verliesaanzuivering)\n- **Schuldeisersbescherming** — verplicht bij terugbetaling (twee maandentermijn); niet van toepassing bij verliesaanzuivering\n- **Fiscale gevolgen** — bij terugbetaling is de pro-rata-berekening (fiscaal volgestort kapitaal vs. belaste reserves) bepalend voor de splitsingbelasting-vrij/dividend",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Vennootschappen verminderen hun kapitaal wanneer het kapitaal te groot is ten opzichte van de bedrijfsactiviteiten (overtollig kapitaal), wanneer ze verliezen willen aanzuiveren om dividenden opnieuw mogelijk te maken, of als onderdeel van een herstructurering. Het WVV stelt strikte voorwaarden — met name de schuldeisersbeschermingsprocedure — omdat een terugbetaling van kapitaal de solvabiliteit van de vennootschap raakt en schuldeisers directe schade kan berokkenen. Het fiscale recht onderscheidt scherp tussen terugbetaling van 'echt' fiscaal volgestort kapitaal (belastingvrij voor de aandeelhouder) en terugbetaling van andere bestanddelen die fiscaal als dividend worden geherkwalificeerd.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "eigen-vermogen",
@@ -62,114 +110,172 @@
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Terugbetaling van overtollig kapitaal aan aandeelhouders wanneer de onderneming minder kapitaal nodig heeft dan ingebracht.",
           "grondslag": {
-            "confidence": "afgeleid",
+            "confidence": "verondersteld",
             "bronnen": [
               {
-                "type": "wettekst",
-                "naam": "WVV",
-                "ref": "Art. 7:194, Art. 7:195, Art. 7:196"
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
               }
-            ],
-            "checked_at": "2026-05-22",
-            "claim_hash": "bee8d22355358f6f"
-          },
-          "tekst": "Terugbetaling van overtollig kapitaal aan aandeelhouders wanneer de onderneming minder kapitaal nodig heeft dan ingebracht."
+            ]
+          }
         },
         {
+          "tekst": "Aanzuivering van boekhoudkundige verliezen om dividenduitkering opnieuw mogelijk te maken.",
           "grondslag": {
-            "confidence": "afgeleid",
+            "confidence": "verondersteld",
             "bronnen": [
               {
-                "type": "wettekst",
-                "naam": "WVV",
-                "ref": "Art. 7:194, Art. 7:195, Art. 7:196"
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
               }
-            ],
-            "checked_at": "2026-05-22",
-            "claim_hash": "258ae23696b44969"
-          },
-          "tekst": "Aanzuivering van boekhoudkundige verliezen om dividenduitkering opnieuw mogelijk te maken."
+            ]
+          }
         },
         {
+          "tekst": "Herstructureringen waarbij de vennootschapsstructuur wordt vereenvoudigd of kapitaal naar een holdingvennootschap wordt overgeheveld.",
           "grondslag": {
-            "confidence": "afgeleid",
+            "confidence": "verondersteld",
             "bronnen": [
               {
-                "type": "wettekst",
-                "naam": "WVV",
-                "ref": "Art. 7:194, Art. 7:195, Art. 7:196"
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
               }
-            ],
-            "checked_at": "2026-05-22",
-            "claim_hash": "efcb1484637f3e13"
-          },
-          "tekst": "Herstructureringen waarbij de vennootschapsstructuur wordt vereenvoudigd of kapitaal naar een holdingvennootschap wordt overgeheveld."
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Wanneer de vennootschap in een financieel kwetsbare situatie verkeert en de terugbetaling de continuïteit in gevaar brengt — de alarmbelprocedure of uitkeringstest zou dan falen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Als alternatief voor een gewone dividenduitkering wanneer de vennootschap geen formele statutenwijziging of notariële akte wenst — een kapitaalvermindering vereist altijd een BAV met bijzondere meerderheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "voorwaarden": [
         {
+          "tekst": "Beslissing van de buitengewone algemene vergadering met bijzondere meerderheid (bij NV: drie vierden van de uitgebrachte stemmen voor statutenwijziging).",
           "grondslag": {
-            "confidence": "weerlegd",
+            "confidence": "betwijfeld",
             "bronnen": [
               {
-                "type": "wettekst",
-                "naam": "WVV",
-                "ref": "Art. 7:140 (NV: drie vierden van uitgebrachte stemmen voor statutenwijziging); Art. 7:194 (kapitaalvermindering = statutenwijziging)"
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
               }
-            ],
-            "checked_at": "2026-05-22",
-            "claim_hash": "11813a2e912a46a4",
-            "weerlegging": "WVV Art. 7:140 vereist drie vierden (75%) van uitgebrachte stemmen voor NV-statutenwijziging, niet twee derde. Record stelt ten onrechte \"in beginsel twee derde\"."
+            ]
           },
-          "tekst": "Beslissing van de buitengewone algemene vergadering met bijzondere meerderheid (bij NV en BV: in beginsel twee derde meerderheid van de stemmen)."
+          "rationale": "Het vereiste quorum verschilt per rechtsvorm (NV vs. BV); de exacte meerderheidsdrempel per rechtsvorm moet worden geverifieerd bij claims_checken."
         },
         {
+          "tekst": "Schuldeisersbeschermingsprocedure: schuldeisers hebben gedurende twee maanden na bekendmaking het recht zekerheid te eisen of betaling van hun schuldvordering, vooraleer de terugbetaling plaatsvindt. Dit geldt niet bij kapitaalvermindering ter aanzuivering van verliezen.",
           "grondslag": {
-            "confidence": "geciteerd",
+            "confidence": "verondersteld",
             "bronnen": [
               {
-                "type": "wettekst",
-                "naam": "WVV",
-                "ref": "Art. 7:195"
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
               }
-            ],
-            "checked_at": "2026-05-22",
-            "claim_hash": "ceee98c58d77cb96"
-          },
-          "tekst": "Schuldeisersbeschermingsprocedure: schuldeisers hebben gedurende twee maanden na bekendmaking het recht zekerheid te eisen of betaling van hun schuldvordering, vooraleer de terugbetaling plaatsvindt."
+            ]
+          }
         },
         {
+          "tekst": "Bij BV geldt de netto-actieftest: na de verrichting moet het netto-actief positief blijven en mag het niet dalen onder het bedrag van de niet-uitkeerbare reserves.",
           "grondslag": {
-            "confidence": "geciteerd",
+            "confidence": "verondersteld",
             "bronnen": [
               {
-                "type": "wettekst",
-                "naam": "MvT-WVV-2018",
-                "ref": "Art. 5:121 (netto-actief BV: mag niet negatief worden na uitkering)"
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
               }
-            ],
-            "checked_at": "2026-05-22",
-            "claim_hash": "f3bb4df073af6238"
-          },
-          "tekst": "Bij BV geldt de netto-actieftest: na de verrichting moet het netto-actief positief blijven en mag het niet dalen onder het bedrag van de niet-uitkeerbare reserves."
+            ]
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "Fiscale herkwalificatie: terugbetaling van bestanddelen die fiscaal niet als volgestort kapitaal kwalificeren (zoals ingebrachte uitgiftepremies of gereserveerde winsten die niet via formele kapitaalverhoging werden geïncorporeerd) worden als dividend belast en onderworpen aan roerende voorheffing van 30%; een onjuiste pro-rata-berekening leidt tot onverwachte belastingdruk.",
           "grondslag": {
-            "confidence": "geciteerd",
+            "confidence": "verondersteld",
             "bronnen": [
               {
-                "type": "wettekst",
-                "naam": "WIB92",
-                "ref": "Art. 18 lid 2-6 (pro-rata) + Art. 269 §1 1° (RV 30%)"
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
               }
-            ],
-            "checked_at": "2026-05-22",
-            "claim_hash": "a20e12840ac2caea"
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De vennootschap heeft **aanzienlijk meer kapitaal** dan haar operationele activiteit vereist (overtollig eigen vermogen) — de rentabiliteit op eigen vermogen is structureel laag.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
           },
-          "tekst": "Fiscale herkwalificatie: terugbetaling van bestanddelen die fiscaal niet als volgestort kapitaal kwalificeren (bv. ingebrachte uitgiftepremies of gereserveerde winsten) worden als dividend belast en onderworpen aan roerende voorheffing van 30%; onjuiste pro-rata-berekening leidt tot onverwachte belastingdruk."
+          "rationale": "Overtollig kapitaal drukt de rentabiliteitsratio's en is een klassiek signaal voor de adviseur dat een kapitaalvermindering overwogen kan worden."
+        },
+        {
+          "tekst": "De balans toont een **overgedragen verlies** (rekening 14, debetzijde) dat dividenduitkering onmogelijk maakt ondanks voldoende toekomstige winstcapaciteit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Verliesaanzuivering via kapitaalvermindering herstelt de dividendcapaciteit zonder kasuitstroom — een zuiver boekhoudkundige ingreep die de balans normaliseert."
+        },
+        {
+          "tekst": "De aandeelhouders wensen **belastingvrij vermogen** terug te ontvangen dat zij ooit als gestort kapitaal hebben ingebracht, eerder dan via een belastbaar dividend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Terugbetaling van fiscaal volgestort kapitaal is belastingvrij voor de aandeelhouder — dit is het fiscale voordeel t.o.v. een gewone dividenduitkering."
         }
       ]
     },
@@ -179,18 +285,22 @@
         "naam": {
           "primair": "Vormen van kapitaalvermindering"
         },
-        "inhoud_type": "begrip",
-        "grondslag": {
-          "confidence": "afgeleid",
-          "bronnen": [
-            {
-              "type": "wettekst",
-              "naam": "WVV",
-              "ref": "Art. 7:194-7:196"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "c792e88c75140d33"
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een kapitaalvermindering kan drie vormen aannemen: (1) **terugbetaling aan aandeelhouders** — werkelijke kasuitstroom; (2) **vrijstelling van volstorting** — aandeelhouders hoeven minder te storten op nog niet-volgestorte aandelen; (3) **aanzuivering van verliezen** — boekhoudkundige operatie zonder kasuitstroom.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De drie vormen hebben fundamenteel verschillende gevolgen voor schuldeisers, aandeelhouders en de fiscus: enkel bij terugbetaling geldt de schuldeisersbeschermingsprocedure en de fiscale pro-rata-berekening."
+          }
         },
         "elementen": [
           {
@@ -201,24 +311,17 @@
             "inhoud_type": "begrip",
             "kern": {
               "substantie": {
+                "tekst": "Het kapitaal wordt verminderd en het overeenkomstige bedrag wordt uitbetaald aan de aandeelhouders. Dit verlaagt zowel het eigen vermogen als de liquide middelen. De schuldeisersbeschermingsprocedure is verplicht; de fiscale pro-rata-berekening bepaalt welk deel belastingvrij is.",
                 "grondslag": {
-                  "confidence": "afgeleid",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "advies",
-                      "naam": "CBN-advies 151/1",
-                      "ref": "Boekhoudkundige verwerking kapitaalvermindering"
-                    },
-                    {
-                      "type": "advies",
-                      "naam": "CBN-advies 2019/13",
-                      "ref": "Pro rata-regel Art. 18 WIB92"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "702a157a1f5fca15"
-                },
-                "tekst": "Het kapitaal wordt verminderd en het overeenkomstige bedrag wordt uitbetaald aan de aandeelhouders. Dit verlaagt zowel het eigen vermogen als de liquide middelen."
+                  ]
+                }
               }
             }
           },
@@ -230,163 +333,21 @@
             "inhoud_type": "begrip",
             "kern": {
               "substantie": {
+                "tekst": "Het kapitaal wordt verminderd ter aanzuivering van overgedragen verliezen. Geen kasuitstroom: het is een zuiver boekhoudkundige operatie die de negatieve overgedragen resultaten neutraliseert. De schuldeisersbeschermingsprocedure is bij deze vorm niet van toepassing.",
                 "grondslag": {
-                  "confidence": "afgeleid",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "advies",
-                      "naam": "CBN-advies 151/1",
-                      "ref": "Boekhoudkundige verwerking kapitaalvermindering"
-                    },
-                    {
-                      "type": "advies",
-                      "naam": "CBN-advies 2019/13",
-                      "ref": "Pro rata-regel Art. 18 WIB92"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "67c6956568d43673"
-                },
-                "tekst": "Het kapitaal wordt verminderd ter aanzuivering van overgedragen verliezen. Geen kasuitstroom: het is een zuiver boekhoudkundige operatie die de negatieve overgedragen resultaten neutraliseert."
+                  ]
+                }
               }
             }
           }
-        ],
-        "kern": {
-          "definitie": {
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 151/1",
-                  "ref": "Kapitaalvermindering door terugbetaling of vrijstelling van volstorting"
-                },
-                {
-                  "type": "wettekst",
-                  "naam": "WVV",
-                  "ref": "Art. 7:195 (terugbetaling + vrijstelling volstorting)"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "c792e88c75140d33"
-            },
-            "tekst": "Een kapitaalvermindering kan drie vormen aannemen: (1) terugbetaling aan aandeelhouders (werkelijke uitstroom), (2) vrijstelling van volstorting (aandeelhouders hoeven minder te storten), of (3) aanzuivering van verliezen (boekhoudkundige operatie zonder kasuitstroom)."
-          }
-        }
-      },
-      {
-        "id": "boekhoudkundige-verwerking",
-        "naam": {
-          "primair": "Boekhoudkundige verwerking"
-        },
-        "inhoud_type": "stap",
-        "grondslag": {
-          "confidence": "afgeleid",
-          "bronnen": [
-            {
-              "type": "advies",
-              "naam": "CBN-advies 2019/13",
-              "ref": "Pro rata-regel + boekingen"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "0edc1f0b7bfd5e54"
-        },
-        "weergaven": [
-          {
-            "type": "boeking",
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 2019/13",
-                  "ref": "Boekingstabellen"
-                },
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 151/1",
-                  "ref": "Boekhoudkundige verwerking"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "bd4b2bdb58619bee"
-            },
-            "scenario": "Terugbetaling kapitaal aan aandeelhouders",
-            "regels": [
-              {
-                "rekening": "100",
-                "omschrijving": "Geplaatst kapitaal",
-                "debet": "X",
-                "credit": ""
-              },
-              {
-                "rekening": "55",
-                "omschrijving": "Kredietinstellingen (of te betalen schulden)",
-                "debet": "",
-                "credit": "X"
-              }
-            ]
-          },
-          {
-            "type": "boeking",
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 2019/13",
-                  "ref": "Boekingstabellen"
-                },
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 151/1",
-                  "ref": "Boekhoudkundige verwerking"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "5b442636bee4048a"
-            },
-            "scenario": "Aanzuivering overgedragen verliezen",
-            "regels": [
-              {
-                "rekening": "100",
-                "omschrijving": "Geplaatst kapitaal",
-                "debet": "X",
-                "credit": ""
-              },
-              {
-                "rekening": "14",
-                "omschrijving": "Overgedragen verlies",
-                "debet": "",
-                "credit": "X"
-              }
-            ]
-          }
-        ],
-        "kern": {
-          "definitie": {
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 2019/13",
-                  "ref": "Boekingen kapitaalvermindering: Dt 10 (Kapitaal) Ct 489, daarna Dt 489 Ct 55/453"
-                },
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 151/1",
-                  "ref": "Boekhoudkundige verwerking"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "0edc1f0b7bfd5e54"
-            },
-            "tekst": "De boekhoudkundige verwerking volgt de aard van de verrichting: bij terugbetaling wordt rekening 100 (Geplaatst kapitaal) gedebiteerd en rekening 55 (Kredietinstellingen) gecrediteerd; bij aanzuivering van verliezen wordt rekening 100 gedebiteerd en rekening 14 (Overgedragen verlies) gecrediteerd."
-          }
-        }
+        ]
       },
       {
         "id": "fiscaal-volgestort-kapitaal",
@@ -394,53 +355,20 @@
           "primair": "Fiscaal volgestort kapitaal"
         },
         "inhoud_type": "begrip",
-        "grondslag": {
-          "confidence": "afgeleid",
-          "bronnen": [
-            {
-              "type": "wettekst",
-              "naam": "WIB92",
-              "ref": "Art. 184"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "a196198e2a55ccb6"
-        },
         "kern": {
           "definitie": {
+            "tekst": "Het **fiscaal volgestort kapitaal** is het bedrag dat door de aandeelhouders werkelijk is ingebracht (gestort kapitaal + uitgiftepremies die aan het kapitaal werden toegevoegd via formele kapitaalverhoging). Enkel de terugbetaling van dit bedrag is belastingvrij voor de aandeelhouder; andere bestanddelen van het eigen vermogen die worden teruggegeven gelden fiscaal als dividenduitkering.",
             "grondslag": {
-              "confidence": "geciteerd",
+              "confidence": "verondersteld",
               "bronnen": [
                 {
-                  "type": "wettekst",
-                  "naam": "WIB92",
-                  "ref": "Art. 184 (gestort kapitaal = werkelijk gestorte inbrengen; uitgiftepremies gelijkgesteld mits afzonderlijke rekening)"
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "a196198e2a55ccb6"
+              ]
             },
-            "tekst": "Het fiscaal volgestort kapitaal is het bedrag dat door de aandeelhouders werkelijk is ingebracht (gestort kapitaal + uitgiftepremies die aan het kapitaal werden toegevoegd via formele kapitaalverhoging). Enkel de terugbetaling van dit bedrag is belastingvrij voor de aandeelhouder; andere bestanddelen van het eigen vermogen die worden teruggegeven gelden fiscaal als dividenduitkering."
-          },
-          "rationale": {
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "wettekst",
-                  "naam": "WIB92",
-                  "ref": "Art. 18 lid 2-6 (pro-rata toerekening)"
-                },
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 2019/13",
-                  "ref": "Pro rata Art. 18 WIB92"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "66d9570660e31cc7"
-            },
-            "tekst": "Het onderscheid is cruciaal omdat de aandeelhouder zijn eigen ingebracht vermogen terugkrijgt (geen belastbare inkomstenstroom) versus een uitkering van aangehouden winsten (belastbaar dividend). De fiscus hanteert een pro-rata-berekening wanneer de vennootschap naast volgestort kapitaal ook andere uitkeerbare reserves heeft."
+            "rationale": "Het onderscheid is cruciaal omdat de aandeelhouder zijn eigen ingebracht vermogen terugkrijgt (geen belastbare inkomstenstroom) versus een uitkering van aangehouden winsten (belastbaar dividend). De fiscus hanteert een pro-rata-berekening wanneer de vennootschap naast volgestort kapitaal ook andere uitkeerbare reserves heeft."
           }
         }
       },
@@ -450,140 +378,20 @@
           "primair": "Pro-rata-berekening (fiscale toerekening)"
         },
         "inhoud_type": "formule",
-        "grondslag": {
-          "confidence": "afgeleid",
-          "bronnen": [
-            {
-              "type": "wettekst",
-              "naam": "WIB92",
-              "ref": "Art. 18 lid 2-6"
-            },
-            {
-              "type": "advies",
-              "naam": "CBN-advies 2019/13",
-              "ref": "Pro rata-berekening voorbeeld"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "12f1f87ad6adbed6"
-        },
-        "weergaven": [
-          {
-            "type": "formule_expressie",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een vennootschap zowel fiscaal volgestort kapitaal als uitkeerbare reserves heeft, wordt de terugbetaling pro rata toegerekend.\n\n**Formule**: Belastingvrij deel = Terugbetaling × (Fiscaal volgestort kapitaal ÷ Noemerbedrag)\n\nDe noemer wordt bepaald door de samenstelling van het eigen vermogen (gestort kapitaal + belaste reserves); de exacte samenstelling van de noemer is een punt voor claims_checken.",
             "grondslag": {
-              "confidence": "weerlegd",
-              "bronnen": [
-                {
-                  "type": "wettekst",
-                  "naam": "WIB92",
-                  "ref": "Art. 18 lid 2-6"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "2ed5345a5fc52fa7",
-              "weerlegging": "Formule in record bevat \"Uitgiftepremies niet-gekapitaliseerd\" apart als noemer-term. WIB92 Art. 18 rekent uitgiftepremies die met gestort kapitaal worden gelijkgesteld (Art. 184 lid 2) mee in de TELLER, niet apart in de noemer."
-            },
-            "expressie": "Belastingvrij deel = Terugbetaling × (Fiscaal volgestort kapitaal ÷ (Fiscaal volgestort kapitaal + Belaste reserves + Uitgiftepremies niet-gekapitaliseerd))"
-          }
-        ],
-        "voorbeelden": [
-          {
-            "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "betwijfeld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "01d2658679b6b01d"
+              ]
             },
-            "weergaven": [
-              {
-                "type": "berekening",
-                "grondslag": {
-                  "confidence": "verondersteld",
-                  "bronnen": [
-                    {
-                      "type": "ai_model",
-                      "naam": "claude-sonnet-4-6",
-                      "datum": "2026-05-22"
-                    }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "9e870289b9fdb996"
-                },
-                "tabel": {
-                  "kolommen": [
-                    "Post",
-                    "Bedrag (€)"
-                  ],
-                  "rijen": [
-                    [
-                      "Fiscaal volgestort kapitaal",
-                      "400.000"
-                    ],
-                    [
-                      "Belaste reserves",
-                      "200.000"
-                    ],
-                    [
-                      "Overgedragen winst (uitkeerbaar)",
-                      "100.000"
-                    ],
-                    [
-                      "Totaal eigen vermogen (noemer)",
-                      "700.000"
-                    ],
-                    [
-                      "Pro-rata volgestort kapitaal",
-                      "400.000 / 700.000 = 57,14%"
-                    ],
-                    [
-                      "Terugbetaling (voorbeeld-bedrag)",
-                      "140.000"
-                    ],
-                    [
-                      "Belastingvrij deel (57,14%)",
-                      "80.000"
-                    ],
-                    [
-                      "Dividend-deel (42,86%)",
-                      "60.000"
-                    ],
-                    [
-                      "Roerende voorheffing 30% op dividend-deel",
-                      "18.000"
-                    ],
-                    [
-                      "Netto-ontvangst aandeelhouders samen",
-                      "122.000"
-                    ]
-                  ]
-                }
-              }
-            ],
-            "titel": "Pro-rata-berekening BV Optima — 140.000 € terugbetaling"
-          }
-        ],
-        "kern": {
-          "definitie": {
-            "grondslag": {
-              "confidence": "weerlegd",
-              "bronnen": [
-                {
-                  "type": "wettekst",
-                  "naam": "WIB92",
-                  "ref": "Art. 18 lid 2-6"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "12f1f87ad6adbed6",
-              "weerlegging": "Noemer in record is \"totaal eigen vermogen excl. vrijgestelde reserves\" maar WIB92 Art. 18 + CBN 2019/13 gebruiken enkel: gestort kapitaal + gelijkgestelde bedragen (teller) + belaste reserves (rest noemer). Vrijgestelde reserves zitten NIET in de noemer."
-            },
-            "tekst": "Wanneer een vennootschap zowel fiscaal volgestort kapitaal als uitkeerbare reserves heeft, wordt de terugbetaling pro rata toegerekend. Het belastingvrije deel = terugbetaling × (fiscaal volgestort kapitaal / totaal eigen vermogen excl. vrijgestelde reserves). Het overige deel geldt als dividend en is onderworpen aan roerende voorheffing."
+            "rationale": "De pro-rata-formule verdeelt de terugbetaling proportioneel over het fiscaal volgestort kapitaal en de belastbare reserves. Het dividend-deel (de rest) is onderworpen aan roerende voorheffing van 30%. De exacte noemerdefinitie (inclusie/exclusie van vrijgestelde reserves, uitgiftepremies) is een technisch punt dat verificatie vereist."
           }
         }
       },
@@ -593,33 +401,19 @@
           "primair": "Schuldeisersbeschermingsprocedure"
         },
         "inhoud_type": "stap",
-        "grondslag": {
-          "confidence": "geciteerd",
-          "bronnen": [
-            {
-              "type": "wettekst",
-              "naam": "WVV",
-              "ref": "Art. 7:195"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "d8c8d2c364ca797f"
-        },
         "kern": {
           "definitie": {
+            "tekst": "Na de beslissing van de buitengewone algemene vergadering en de neerlegging van de notulen bij de Kruispuntbank van Ondernemingen hebben schuldeisers **twee maanden** om zekerheid te eisen of betaling van hun schuldvordering te vorderen. Pas nadat alle schuldeisers zijn voldaan of zekerheid is gesteld, mag de daadwerkelijke terugbetaling plaatsvinden.\n\nDeze procedure geldt **niet** bij kapitaalvermindering ter aanzuivering van verliezen (geen kasuitstroom = geen schade voor schuldeisers).",
             "grondslag": {
-              "confidence": "geciteerd",
+              "confidence": "verondersteld",
               "bronnen": [
                 {
-                  "type": "wettekst",
-                  "naam": "WVV",
-                  "ref": "Art. 7:195 (schuldeisers hebben twee maanden na bekendmaking in BS)"
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "d8c8d2c364ca797f"
-            },
-            "tekst": "Na de beslissing van de buitengewone algemene vergadering en de neerlegging van de notulen bij de Kruispuntbank van Ondernemingen hebben schuldeisers twee maanden om zekerheid te eisen of betaling van hun schuldvordering te vorderen. Pas nadat alle schuldeisers zijn voldaan of zekerheid is gesteld, mag de daadwerkelijke terugbetaling plaatsvinden."
+              ]
+            }
           }
         }
       },
@@ -629,33 +423,20 @@
           "primair": "Samenloop met alarmbelprocedure"
         },
         "inhoud_type": "mechanisme",
-        "grondslag": {
-          "confidence": "afgeleid",
-          "bronnen": [
-            {
-              "type": "wettekst",
-              "naam": "MvT-WVV-2018",
-              "ref": "Art. 7:214 + Art. 312"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "c3ff05631385f1f7"
-        },
         "kern": {
           "substantie": {
+            "tekst": "Een kapitaalvermindering met terugbetaling kan de **alarmbelprocedure** triggeren wanneer het netto-actief daalt tot minder dan de helft of minder dan een kwart van het maatschappelijk kapitaal (bij NV) of wanneer de BV-netto-actieftest faalt. Het bestuursorgaan moet dan de bijzondere verslagplicht naleven.",
             "grondslag": {
-              "confidence": "afgeleid",
+              "confidence": "verondersteld",
               "bronnen": [
                 {
-                  "type": "wettekst",
-                  "naam": "MvT-WVV-2018",
-                  "ref": "Art. 7:214 (NV: netto-actief < helft kapitaal = alarmbel); Art. 312 (BV)"
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "c3ff05631385f1f7"
+              ]
             },
-            "tekst": "Een kapitaalvermindering met terugbetaling kan de alarmbelprocedure triggeren wanneer het netto-actief daalt tot minder dan de helft of minder dan een kwart van het maatschappelijk kapitaal (bij NV) of wanneer de BV-netto-actieftest faalt. Het bestuursorgaan moet dan de bijzondere verslagplicht naleven."
+            "rationale": "De alarmbelprocedure is het vangnet dat verhindert dat een kapitaalvermindering de vennootschap in continuïteitsgevaar brengt zonder tussenkomst van het bestuursorgaan."
           }
         }
       },
@@ -665,69 +446,65 @@
           "primair": "Roerende voorheffing op dividend-deel"
         },
         "inhoud_type": "regel",
-        "grondslag": {
-          "confidence": "geciteerd",
-          "bronnen": [
-            {
-              "type": "wettekst",
-              "naam": "WIB92",
-              "ref": "Art. 269 §1 1°"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "4465c95f8928627e"
-        },
         "kern": {
           "definitie": {
-            "grondslag": {
-              "confidence": "geciteerd",
-              "bronnen": [
-                {
-                  "type": "wettekst",
-                  "naam": "WIB92",
-                  "ref": "Art. 269 §1 1° (RV 30% op inkomsten van roerende goederen en kapitalen)"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "4465c95f8928627e"
-            },
-            "tekst": "Het gedeelte van de kapitaalvermindering dat fiscaal als dividend wordt geherkwalificeerd (niet-volgestort-kapitaal-deel), is onderworpen aan roerende voorheffing van 30% (basistarief), in te houden door de vennootschap en te betalen aan de fiscus."
-          }
-        }
-      },
-      {
-        "id": "audit-aandachtspunten",
-        "naam": {
-          "primair": "Audit- en adviespunten voor de accountant"
-        },
-        "inhoud_type": "risico",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "d2367320609429d4"
-        },
-        "kern": {
-          "definitie": {
+            "tekst": "Het gedeelte van de kapitaalvermindering dat fiscaal als **dividend** wordt geherkwalificeerd (het niet-volgestort-kapitaal-deel), is onderworpen aan roerende voorheffing van **30%** (basistarief), in te houden door de vennootschap en te betalen aan de fiscus.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "d2367320609429d4"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bav-meerderheidsdrempel",
+        "naam": {
+          "primair": "Beslissingsvereisten buitengewone algemene vergadering"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een kapitaalvermindering vereist een beslissing van de **buitengewone algemene vergadering** (BAV), omdat het een statutenwijziging betreft. De vereiste meerderheid verschilt per rechtsvorm:\n- **NV**: drie vierden van de uitgebrachte stemmen\n- **BV**: in beginsel twee derde meerderheid (statutair aanpasbaar)\n\nBij NV is bovendien een **notariële akte** wettelijk vereist.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
             },
-            "tekst": "De accountant verifieert: (1) correcte naleving van de vennootschapsrechtelijke procedure (BAV, notariële akte bij NV, schuldeisersbescherming); (2) juiste pro-rata-berekening van het fiscaal volgestort kapitaal; (3) correcte inhouding en aangifte van roerende voorheffing; (4) vermelding in de toelichting bij de jaarrekening; (5) impact op de continuïteit en mogelijke activering van alarmbelprocedure."
+            "rationale": "De exacte meerderheidsvereisten per rechtsvorm (NV vs. BV) en de vraag of de BV-statutaire aanpassing ook geldt voor kapitaalvermindering moeten worden geverifieerd bij claims_checken. De drempel van drie vierden voor NV is afgeleid uit de algemene statutenwijzigingsregel."
+          }
+        }
+      },
+      {
+        "id": "vrijstelling-volstorting",
+        "naam": {
+          "primair": "Vrijstelling van volstorting"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een kapitaalvermindering via **vrijstelling van volstorting** worden aandeelhouders ontslagen van hun verplichting om het resterend deel van hun inschrijving te storten. De aandeelhouders die hun aandelen nog niet volledig hebben volgestort, hoeven het uitstaande bedrag niet meer te betalen.\n\nDeze vorm heeft geen kasuitstroom maar verlaagt wel de toekomstige stortingsverplichting en dus het garantiekapitaal voor schuldeisers.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Deze derde vorm wordt in de praktijk minder frequent toegepast dan terugbetaling of verliesaanzuivering, maar is vennootschapsrechtelijk volledig gelijkwaardig en valt onder dezelfde procedurele vereisten."
           }
         }
       }
@@ -735,23 +512,17 @@
     "voorbeelden": [
       {
         "id": "bv-optima-terugbetaling",
-        "context": "Twee doorlopende cases illustreren de twee hoofdvormen: een terugbetaling met kasuitstroom (inclusief fiscale pro-rata-splitsing) en een aanzuivering van boekhoudkundige verliezen zonder kasuitstroom. Alle bedragen zijn fictief en dienen louter ter illustratie.\n\nBV Optima heeft 2 aandeelhouders (elk 50%). Eigen vermogen vóór verrichting: fiscaal volgestort kapitaal 400.000 €, belaste reserves 200.000 €, overgedragen winst 100.000 € — totaal 700.000 €. De BAV beslist het kapitaal te verminderen met 140.000 € (van 400.000 € naar 260.000 €) en dit bedrag terug te betalen aan de aandeelhouders (elk 70.000 €). Schuldvrij bedrijf — geen schuldeiser eist zekerheid.",
+        "titel": "BV Optima — terugbetaling overtollig kapitaal met fiscale pro-rata-splitsing",
+        "context": "BV Optima heeft 2 aandeelhouders (elk 50%). Eigen vermogen vóór verrichting: fiscaal volgestort kapitaal € 400.000, belaste reserves € 200.000, overgedragen winst € 100.000 — totaal € 700.000. De BAV beslist het kapitaal te verminderen met € 140.000 (van € 400.000 naar € 260.000) en dit bedrag terug te betalen aan de aandeelhouders (elk € 70.000). Schuldvrij bedrijf — geen schuldeiser eist zekerheid.",
         "grondslag": {
-          "confidence": "afgeleid",
+          "confidence": "verondersteld",
           "bronnen": [
             {
-              "type": "advies",
-              "naam": "CBN-advies 2019/13",
-              "ref": "Pro rata voorbeeld"
-            },
-            {
-              "type": "wettekst",
-              "naam": "WIB92",
-              "ref": "Art. 18 lid 2-6"
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "d9d83c30ae0f22a3"
+          ]
         },
         "elementen": [
           {
@@ -760,34 +531,18 @@
             "naam": {
               "primair": "Stap 1 — BAV-beslissing en bekendmaking"
             },
-            "grondslag": {
-              "confidence": "weerlegd",
-              "bronnen": [
-                {
-                  "type": "wettekst",
-                  "naam": "WVV",
-                  "ref": "Art. 7:140 + Art. 7:195"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "949073fbb3526d7d",
-              "weerlegging": "Stap 1 stelt \"twee derde meerderheid\". WVV Art. 7:140 vereist drie vierden (75%) voor NV-statutenwijziging."
-            },
             "kern": {
               "definitie": {
-                "tekst": "De buitengewone algemene vergadering beslist met twee derde meerderheid de kapitaalvermindering. De notulen worden neergelegd bij de KBO. Vanaf de bekendmaking loopt de twee-maandentermijn voor schuldeisersbescherming.",
+                "tekst": "De buitengewone algemene vergadering beslist met vereiste meerderheid de kapitaalvermindering. De notulen worden neergelegd bij de KBO. Vanaf de bekendmaking loopt de twee-maandentermijn voor schuldeisersbescherming.",
                 "grondslag": {
-                  "confidence": "weerlegd",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "wettekst",
-                      "naam": "WVV",
-                      "ref": "Art. 7:140 + Art. 7:195"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "949073fbb3526d7d",
-                  "weerlegging": "Stap 1 stelt \"twee derde meerderheid\". WVV Art. 7:140 vereist drie vierden (75%) voor NV-statutenwijziging."
+                  ]
                 }
               }
             }
@@ -798,42 +553,18 @@
             "naam": {
               "primair": "Stap 2 — Fiscale pro-rata-berekening"
             },
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 2019/13",
-                  "ref": "Pro rata voorbeeld (noemer = gestort kap + belaste reserves)"
-                },
-                {
-                  "type": "wettekst",
-                  "naam": "WIB92",
-                  "ref": "Art. 18 lid 2-6"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "96b45b0ffed8e053"
-            },
             "kern": {
               "definitie": {
-                "tekst": "Pro-rata fiscaal volgestort kapitaal = 400.000 / 700.000 = 57,14%. Belastingvrij deel van de terugbetaling: 140.000 × 57,14% = 80.000 € (voorbeeld-bedrag). Dividend-deel: 140.000 − 80.000 = 60.000 €. Roerende voorheffing 30% op dividend-deel: 60.000 × 30% = 18.000 €. Netto te ontvangen per aandeelhouder: (80.000 + 60.000 − 18.000) / 2 = 61.000 €.",
+                "tekst": "Pro-rata fiscaal volgestort kapitaal = € 400.000 / € 700.000 = 57,14%. Belastingvrij deel van de terugbetaling: € 140.000 × 57,14% = € 80.000. Dividend-deel: € 140.000 − € 80.000 = € 60.000. Roerende voorheffing 30% op dividend-deel: € 60.000 × 30% = € 18.000. Netto te ontvangen per aandeelhouder: (€ 80.000 + € 60.000 − € 18.000) / 2 = € 61.000.",
                 "grondslag": {
-                  "confidence": "afgeleid",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "advies",
-                      "naam": "CBN-advies 2019/13",
-                      "ref": "Pro rata voorbeeld (noemer = gestort kap + belaste reserves)"
-                    },
-                    {
-                      "type": "wettekst",
-                      "naam": "WIB92",
-                      "ref": "Art. 18 lid 2-6"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "96b45b0ffed8e053"
+                  ]
                 }
               }
             }
@@ -844,34 +575,35 @@
             "naam": {
               "primair": "Stap 3 — Boeking en uitbetaling"
             },
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 2019/13",
-                  "ref": "Boekingen kapitaalvermindering"
+            "kern": {
+              "definitie": {
+                "tekst": "Na afloop van de schuldeisersbeschermingstermijn wordt de uitbetaling geboekt en wordt de RV-aangifte (formulier 273) ingediend binnen 15 dagen na toekenning.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
                 }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "367afaf1cca56738"
+              }
             },
             "weergaven": [
               {
                 "type": "boeking",
                 "grondslag": {
-                  "confidence": "afgeleid",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "advies",
-                      "naam": "CBN-advies 2019/13",
-                      "ref": "Boekingstabel"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "9bba1e45e90be0d4"
+                  ]
                 },
-                "scenario": "Terugbetaling 140.000 € kapitaal — deels belastingvrij, deels dividend met RV",
+                "scenario": "Terugbetaling € 140.000 kapitaal — deels belastingvrij, deels dividend met RV",
                 "regels": [
                   {
                     "rekening": "100",
@@ -881,7 +613,7 @@
                   },
                   {
                     "rekening": "453",
-                    "omschrijving": "Roerende voorheffing te betalen (30% × 60.000)",
+                    "omschrijving": "Roerende voorheffing te betalen (30% × € 60.000)",
                     "debet": "",
                     "credit": "18.000"
                   },
@@ -893,24 +625,7 @@
                   }
                 ]
               }
-            ],
-            "kern": {
-              "definitie": {
-                "tekst": "Na afloop van de schuldeisersbeschermingstermijn wordt de uitbetaling geboekt en wordt de RV-aangifte (formulier 273) ingediend binnen 15 dagen na toekenning.",
-                "grondslag": {
-                  "confidence": "afgeleid",
-                  "bronnen": [
-                    {
-                      "type": "advies",
-                      "naam": "CBN-advies 2019/13",
-                      "ref": "Boekingen kapitaalvermindering"
-                    }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "367afaf1cca56738"
-                }
-              }
-            }
+            ]
           },
           {
             "id": "stap-4-rv-aangifte",
@@ -918,89 +633,57 @@
             "naam": {
               "primair": "Stap 4 — Afdracht roerende voorheffing"
             },
-            "grondslag": {
-              "confidence": "geciteerd",
-              "bronnen": [
-                {
-                  "type": "wettekst",
-                  "naam": "WIB92",
-                  "ref": "Art. 412 (RV betaalbaar binnen 15 dagen na toekenning)"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "c158abf108d51727"
-            },
             "kern": {
               "definitie": {
-                "tekst": "De vennootschap dient formulier 273 in en stort 18.000 € RV aan de fiscus. Elke aandeelhouder ontvangt een fiscale fiche 281.30. Het belastingvrije deel (80.000 €) wordt niet op de fiche vermeld als belastbaar inkomen.",
+                "tekst": "De vennootschap dient formulier 273 in en stort € 18.000 RV aan de fiscus. Elke aandeelhouder ontvangt een fiscale fiche 281.30. Het belastingvrije deel (€ 80.000) wordt niet op de fiche vermeld als belastbaar inkomen.",
                 "grondslag": {
-                  "confidence": "geciteerd",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "wettekst",
-                      "naam": "WIB92",
-                      "ref": "Art. 412 (RV betaalbaar binnen 15 dagen na toekenning)"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "c158abf108d51727"
+                  ]
                 }
               }
             }
           }
-        ],
-        "titel": "BV Optima — terugbetaling overtollig kapitaal met fiscale pro-rata-splitsing"
+        ]
       },
       {
         "id": "nv-deltafab-aanzuivering-verlies",
-        "context": "NV DeltaFab heeft geplaatst kapitaal van 500.000 € en overgedragen verliezen van 180.000 € (rekening 14 debet). De BAV beslist het kapitaal te verminderen met 180.000 € om de verliezen te neutraliseren, zodat nadien opnieuw dividenduitkering mogelijk wordt. Geen kasuitstroom — puur boekhoudkundige operatie. Schuldeisersbeschermingsprocedure is ook hier verplicht, ook al verlaat er geen geld de vennootschap.",
+        "titel": "NV DeltaFab — kapitaalvermindering ter aanzuivering van overgedragen verliezen",
+        "context": "NV DeltaFab heeft geplaatst kapitaal van € 500.000 en overgedragen verliezen van € 180.000 (rekening 14 debet). De BAV beslist het kapitaal te verminderen met € 180.000 om de verliezen te neutraliseren, zodat nadien opnieuw dividenduitkering mogelijk wordt. Geen kasuitstroom — puur boekhoudkundige operatie. De schuldeisersbeschermingsprocedure is bij deze vorm niet van toepassing.",
         "grondslag": {
-          "confidence": "afgeleid",
+          "confidence": "verondersteld",
           "bronnen": [
             {
-              "type": "wettekst",
-              "naam": "WVV",
-              "ref": "Art. 7:196 (verliesaanzuivering: geen schuldeisersbescherming Art. 7:195)"
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "4f4dd75707a3c1c6"
+          ]
         },
         "elementen": [
           {
             "id": "stap-1-bav-en-bescherming",
             "inhoud_type": "stap",
             "naam": {
-              "primair": "Stap 1 — BAV en schuldeisersbescherming"
-            },
-            "grondslag": {
-              "confidence": "weerlegd",
-              "bronnen": [
-                {
-                  "type": "wettekst",
-                  "naam": "WVV",
-                  "ref": "Art. 7:196"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "50583af02aaa3545",
-              "weerlegging": "WVV Art. 7:196 stelt expliciet dat Art. 7:195 (schuldeisersbeschermingsprocedure) NIET van toepassing is bij kapitaalvermindering ter aanzuivering van verliezen. De claim dat de procedure \"ook hier verplicht\" is, is onjuist."
+              "primair": "Stap 1 — BAV en geen schuldeisersbescherming"
             },
             "kern": {
               "definitie": {
-                "tekst": "Buitengewone algemene vergadering met twee derde meerderheid + notariële akte. Publicatie in Belgisch Staatsblad start de twee-maandentermijn. Bij NV is een notariële akte wettelijk vereist, ook bij zuivere verliesaanzuivering.",
+                "tekst": "Buitengewone algemene vergadering met vereiste meerderheid + notariële akte (NV). Publicatie in Belgisch Staatsblad. Bij zuivere verliesaanzuivering is de schuldeisersbeschermingsprocedure niet van toepassing — er verlaat geen geld de vennootschap.",
                 "grondslag": {
-                  "confidence": "weerlegd",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "wettekst",
-                      "naam": "WVV",
-                      "ref": "Art. 7:196"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "50583af02aaa3545",
-                  "weerlegging": "WVV Art. 7:196 stelt expliciet dat Art. 7:195 (schuldeisersbeschermingsprocedure) NIET van toepassing is bij kapitaalvermindering ter aanzuivering van verliezen. De claim dat de procedure \"ook hier verplicht\" is, is onjuist."
+                  ]
                 }
               }
             }
@@ -1011,39 +694,35 @@
             "naam": {
               "primair": "Stap 2 — Boeking verliesaanzuivering"
             },
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 151/1",
-                  "ref": "Boekhoudkundige verwerking verliesaanzuivering"
-                },
-                {
-                  "type": "advies",
-                  "naam": "CBN-advies 2019/13",
-                  "ref": "Boekingen"
+            "kern": {
+              "definitie": {
+                "tekst": "Na de BAV-beslissing wordt de boeking verwerkt. Geen RV verschuldigd — er is geen kasuitstroom en geen dividenduitkering.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
                 }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "5cbe25bf31a76730"
+              }
             },
             "weergaven": [
               {
                 "type": "boeking",
                 "grondslag": {
-                  "confidence": "afgeleid",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "advies",
-                      "naam": "CBN-advies 151/1",
-                      "ref": "Boekhoudkundige verwerking"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "50926caaa9511905"
+                  ]
                 },
-                "scenario": "Kapitaalvermindering 180.000 € ter aanzuivering overgedragen verliezen",
+                "scenario": "Kapitaalvermindering € 180.000 ter aanzuivering overgedragen verliezen",
                 "regels": [
                   {
                     "rekening": "100",
@@ -1059,29 +738,7 @@
                   }
                 ]
               }
-            ],
-            "kern": {
-              "definitie": {
-                "tekst": "Na de schuldeisersbeschermingstermijn wordt de boeking verwerkt. Geen RV verschuldigd — er is geen kasuitstroom en geen dividenduitkering.",
-                "grondslag": {
-                  "confidence": "afgeleid",
-                  "bronnen": [
-                    {
-                      "type": "advies",
-                      "naam": "CBN-advies 151/1",
-                      "ref": "Boekhoudkundige verwerking verliesaanzuivering"
-                    },
-                    {
-                      "type": "advies",
-                      "naam": "CBN-advies 2019/13",
-                      "ref": "Boekingen"
-                    }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "5cbe25bf31a76730"
-                }
-              }
-            }
+            ]
           },
           {
             "id": "stap-3-gevolg-dividendcapaciteit",
@@ -1089,108 +746,32 @@
             "naam": {
               "primair": "Stap 3 — Herstelde dividendcapaciteit"
             },
-            "grondslag": {
-              "confidence": "afgeleid",
-              "bronnen": [
-                {
-                  "type": "wettekst",
-                  "naam": "WVV",
-                  "ref": "Art. 7:196 + Art. 5:121 (uitkeringstest)"
-                }
-              ],
-              "checked_at": "2026-05-22",
-              "claim_hash": "d28c0bfef4a8a3b3"
-            },
             "kern": {
               "definitie": {
-                "tekst": "Na de verwerking is het overgedragen verlies geneutraliseerd. Het eigen vermogen na de verrichting: kapitaal 320.000 €, overgedragen verlies 0 €. De vennootschap kan nu opnieuw uitkeringen beslissen zodra ze winst maakt, mits de netto-actieftest (bij NV: kapitaalregel) en uitkeringstest worden doorstaan.",
+                "tekst": "Na de verwerking is het overgedragen verlies geneutraliseerd. Het eigen vermogen na de verrichting: kapitaal € 320.000, overgedragen verlies € 0. De vennootschap kan nu opnieuw uitkeringen beslissen zodra ze winst maakt, mits de netto-actieftest (bij NV: kapitaalregel) en uitkeringstest worden doorstaan.",
                 "grondslag": {
-                  "confidence": "afgeleid",
+                  "confidence": "verondersteld",
                   "bronnen": [
                     {
-                      "type": "wettekst",
-                      "naam": "WVV",
-                      "ref": "Art. 7:196 + Art. 5:121 (uitkeringstest)"
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
                     }
-                  ],
-                  "checked_at": "2026-05-22",
-                  "claim_hash": "d28c0bfef4a8a3b3"
+                  ]
                 }
               }
             }
           }
-        ],
-        "titel": "NV DeltaFab — kapitaalvermindering ter aanzuivering van overgedragen verliezen"
+        ]
       }
     ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "afgeleid",
-          "bronnen": [
-            {
-              "type": "wettekst",
-              "naam": "WVV",
-              "ref": "Art. 7:194 (statutenwijziging vereist)"
-            },
-            {
-              "type": "wettekst",
-              "naam": "WVV",
-              "ref": "Art. 7:195 (schuldeisersbescherming)"
-            },
-            {
-              "type": "wettekst",
-              "naam": "MvT-WVV-2018",
-              "ref": "Art. 7:194, Art. 7:195"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "7850c3c656e5c155"
-        },
-        "tekst": "Een kapitaalvermindering is een vennootschapsrechtelijke verrichting waarbij het geplaatst kapitaal van een vennootschap wordt verminderd, hetzij door terugbetaling aan de aandeelhouders, hetzij door aanwending van het kapitaal ter aanzuivering van geleden verliezen. De verrichting vereist een beslissing van de buitengewone algemene vergadering en is onderworpen aan de wettelijke procedure voor bescherming van schuldeisers."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "afgeleid",
-          "bronnen": [
-            {
-              "type": "advies",
-              "naam": "CBN-advies 151/1",
-              "ref": "Kapitaalvermindering door terugbetaling"
-            },
-            {
-              "type": "advies",
-              "naam": "CBN-advies 2019/13",
-              "ref": "Pro rata-regel Art. 18 WIB92"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "542bdcf1a9fdd53b"
-        },
-        "tekst": "Bij een kapitaalvermindering met terugbetaling verlaat vermogen de vennootschap richting aandeelhouders; bij een kapitaalvermindering ter aanzuivering van verliezen verdwijnt het boekhoudkundig tekort uit de balans zonder dat middelen de vennootschap verlaten."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ],
-          "checked_at": "2026-05-22",
-          "claim_hash": "22fdc02d1ba9f999"
-        },
-        "tekst": "Vennootschappen verminderen hun kapitaal wanneer het kapitaal te groot is ten opzichte van de bedrijfsactiviteiten (overtollig kapitaal), wanneer ze verliezen willen aanzuiveren om dividenden opnieuw mogelijk te maken, of als onderdeel van een herstructurering. Het WVV stelt strikte voorwaarden — met name de schuldeisersbeschermingsprocedure — omdat een terugbetaling van kapitaal de solvabiliteit van de vennootschap raakt en schuldeisers directe schade kan berokkenen. Het fiscale recht onderscheidt scherp tussen terugbetaling van 'echt' fiscaal volgestort kapitaal (belastingvrij voor de aandeelhouder) en terugbetaling van andere bestanddelen die fiscaal als dividend worden geherkwalificeerd."
-      }
-    },
     "accountant_perspectieven": [
       {
         "id": "vennootschap-initiator",
         "naam": {
           "primair": "Voor de vennootschap (initiator)"
         },
+        "intro": "De accountant is betrokken bij een kapitaalvermindering vanuit drie hoeken: als adviseur/begeleider van de vennootschap die de verrichting initieert, als fiscaal adviseur of boekhouder van de aandeelhouder die de terugbetaling ontvangt, en als commissaris of externe auditor die de correctheid en volledigheid van de verrichting controleert.",
         "rollen": [
           {
             "rol": "adviseur",
@@ -1203,19 +784,17 @@
                 "inhoud_type": "vuistregel",
                 "kern": {
                   "rationale": {
+                    "tekst": "De accountant helpt de klant kiezen tussen de drie vormen (terugbetaling, vrijstelling volstorting, aanzuivering verliezen) op basis van het doel: heeft de vennootschap overtollig kapitaal → terugbetaling; heeft ze boekhoudkundige verliezen die dividenduitkering blokkeren → aanzuivering. Terugbetaling heeft fiscale en schuldeisers-implicaties die elk apart moeten worden gewogen.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "fbe67656e89609e7"
-                    },
-                    "tekst": "De accountant helpt de klant kiezen tussen de drie vormen (terugbetaling, vrijstelling volstorting, aanzuivering verliezen) op basis van het doel: heeft de vennootschap overtollig kapitaal → terugbetaling; heeft ze boekhoudkundige verliezen die dividenduitkering blokkeren → aanzuivering. Terugbetaling heeft fiscale en schuldeisers-implicaties die elk apart moeten worden gewogen."
+                      ]
+                    }
                   }
                 }
               },
@@ -1227,19 +806,17 @@
                 "inhoud_type": "vuistregel",
                 "kern": {
                   "rationale": {
+                    "tekst": "De accountant wijst de klant op de twee-maandentermijn voor schuldeisers na bekendmaking: de daadwerkelijke uitbetaling kan pas na afloop van die termijn plaatsvinden. Bij een urgente liquiditeitsnood of herstructurering is dit tijdspad bepalend voor de haalbaarheid.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "c8a6d72ecdd4871e"
-                    },
-                    "tekst": "De accountant wijst de klant op de twee-maandentermijn voor schuldeisers na bekendmaking: de daadwerkelijke uitbetaling kan pas na afloop van die termijn plaatsvinden. Bij een urgente liquiditeitsnood of herstructurering is dit tijdspad bepalend voor de haalbaarheid."
+                      ]
+                    }
                   }
                 }
               }
@@ -1256,19 +833,17 @@
                 "inhoud_type": "stap",
                 "kern": {
                   "substantie": {
+                    "tekst": "Debet rekening 100 (Geplaatst kapitaal) — Credit rekening 55 (Kredietinstellingen) voor het uitbetaalde bedrag. Indien een deel fiscaal als dividend wordt geherkwalificeerd: aanvullend Credit rekening 453 (Roerende voorheffing te betalen) voor het in te houden RV-bedrag en Credit rekening 55 voor het netto-bedrag.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "ea140124f61906df"
-                    },
-                    "tekst": "Debet rekening 100 (Geplaatst kapitaal) — Credit rekening 55 (Kredietinstellingen) voor het uitbetaalde bedrag. Indien een deel fiscaal als dividend wordt geherkwalificeerd: aanvullend Credit rekening 453 (Roerende voorheffing te betalen) voor het in te houden RV-bedrag en Credit rekening 55 voor het netto-bedrag."
+                      ]
+                    }
                   }
                 }
               },
@@ -1280,19 +855,17 @@
                 "inhoud_type": "stap",
                 "kern": {
                   "substantie": {
+                    "tekst": "Debet rekening 100 (Geplaatst kapitaal) — Credit rekening 14 (Overgedragen verlies). Geen kasuitstroom; toelichting in jaarrekening verplicht.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "7a81a0ffa460a233"
-                    },
-                    "tekst": "Debet rekening 100 (Geplaatst kapitaal) — Credit rekening 14 (Overgedragen verlies). Geen kasuitstroom; toelichting in jaarrekening verplicht."
+                      ]
+                    }
                   }
                 }
               }
@@ -1309,19 +882,17 @@
                 "inhoud_type": "stap",
                 "kern": {
                   "substantie": {
+                    "tekst": "De accountant zorgt dat het dossier klaar is voor de notaris (bij NV) of de BAV (bij BV): ontwerp-statutenwijziging, bestuursverslag met rechtvaardiging van de vermindering, en bewijs dat de netto-actieftest (BV) of de kapitaaldrempel (NV) gerespecteerd wordt.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "1d2b6ea94a79501f"
-                    },
-                    "tekst": "De accountant zorgt dat het dossier klaar is voor de notaris (bij NV) of de BAV (bij BV): ontwerp-statutenwijziging, bestuursverslag met rechtvaardiging van de vermindering, en bewijs dat de netto-actieftest (BV) of de kapitaaldrempel (NV) gerespecteerd wordt."
+                      ]
+                    }
                   }
                 }
               },
@@ -1333,19 +904,17 @@
                 "inhoud_type": "risico",
                 "kern": {
                   "substantie": {
+                    "tekst": "Na de terugbetaling controleert de accountant of het netto-actief niet onder de drempelwaarden daalt die de alarmbelprocedure activeren. Zo ja: het bestuursorgaan moet onmiddellijk actie ondernemen en de accountant begeleidt de verslagplicht.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "ab8efb6fbd91e58a"
-                    },
-                    "tekst": "Na de terugbetaling controleert de accountant of het netto-actief niet onder de drempelwaarden daalt die de alarmbelprocedure activeren. Zo ja: het bestuursorgaan moet onmiddellijk actie ondernemen en de accountant begeleidt de verslagplicht."
+                      ]
+                    }
                   }
                 }
               }
@@ -1362,19 +931,17 @@
                 "inhoud_type": "formule",
                 "kern": {
                   "substantie": {
+                    "tekst": "De accountant berekent welk deel van de terugbetaling belastingvrij is (= aandeel fiscaal volgestort kapitaal in het totale relevante eigen vermogen) en welk deel als dividend wordt geherkwalificeerd. Deze berekening is de basis voor de RV-aangifte.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "543a37b52b486335"
-                    },
-                    "tekst": "De accountant berekent welk deel van de terugbetaling belastingvrij is (= aandeel fiscaal volgestort kapitaal in het totale eigen vermogen excl. vrijgestelde reserves) en welk deel als dividend wordt geherkwalificeerd. Deze berekening is de basis voor de RV-aangifte."
+                      ]
+                    }
                   }
                 }
               },
@@ -1386,26 +953,23 @@
                 "inhoud_type": "stap",
                 "kern": {
                   "substantie": {
+                    "tekst": "Het dividend-deel van de kapitaalvermindering is onderworpen aan roerende voorheffing van 30%. De vennootschap is inhoudingsplichtige: de accountant stelt de aangifte RV op (formulier 273) en volgt de betalingstermijn (binnen 15 dagen na toekenning) op.",
                     "grondslag": {
-                      "confidence": "geciteerd",
+                      "confidence": "verondersteld",
                       "bronnen": [
                         {
-                          "type": "wettekst",
-                          "naam": "WIB92",
-                          "ref": "Art. 412 (15 dagen) + Art. 269 §1 1° (30%)"
+                          "type": "ai_model",
+                          "naam": "claude-sonnet-4-6",
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "184e6605240b4cb9"
-                    },
-                    "tekst": "Het dividend-deel van de kapitaalvermindering is onderworpen aan roerende voorheffing van 30%. De vennootschap is inhoudingsplichtige: de accountant stelt de aangifte RV op (formulier 273) en volgt de betalingstermijn (binnen 15 dagen na toekenning) op."
+                      ]
+                    }
                   }
                 }
               }
             ]
           }
-        ],
-        "intro": "De accountant is betrokken bij een kapitaalvermindering vanuit drie hoeken: als adviseur/begeleider van de vennootschap die de verrichting initieert, als fiscaal adviseur of boekhouder van de aandeelhouder die de terugbetaling ontvangt, en als commissaris of externe auditor die de correctheid en volledigheid van de verrichting controleert."
+        ]
       },
       {
         "id": "aandeelhouder-ontvanger",
@@ -1424,19 +988,17 @@
                 "inhoud_type": "vuistregel",
                 "kern": {
                   "rationale": {
+                    "tekst": "De accountant van de aandeelhouder (particulier of vennootschap) verduidelijkt welk deel belastingvrij is (terugbetaling volgestort kapitaal) en welk deel belastbaar dividend vormt. Voor een particuliere aandeelhouder is dat dividend definitief belast via RV (bevrijdende heffing); voor een vennootschapsaandeelhouder kan het DBI-aftrek in aanmerking komen mits de deelnemingsdrempels gehaald worden.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "1043fbc7e8f1b6b5"
-                    },
-                    "tekst": "De accountant van de aandeelhouder (particulier of vennootschap) verduidelijkt welk deel belastingvrij is (terugbetaling volgestort kapitaal) en welk deel belastbaar dividend vormt. Voor een particuliere aandeelhouder is dat dividend definitief belast via RV (bevrijdende heffing); voor een vennootschapsaandeelhouder kan het DBI-aftrek in aanmerking komen mits de deelnemingsdrempels gehaald worden."
+                      ]
+                    }
                   }
                 }
               }
@@ -1453,19 +1015,17 @@
                 "inhoud_type": "stap",
                 "kern": {
                   "substantie": {
+                    "tekst": "Het dividend-deel van de terugbetaling (niet-volgestort-kapitaal) wordt in de aangifte PB opgenomen als roerend inkomen. Indien de RV bevrijdend werd ingehouden, is aangifte facultatief maar kan voordelig zijn bij lage inkomsten (verrekening). De accountant adviseert over de opportuniteit van aangifte.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "56400d5c512b818c"
-                    },
-                    "tekst": "Het dividend-deel van de terugbetaling (niet-volgestort-kapitaal) wordt in de aangifte PB opgenomen als roerend inkomen. Indien de RV bevrijdend werd ingehouden, is aangifte facultatief maar kan voordelig zijn bij lage inkomsten (verrekening). De accountant adviseert over de opportuniteit van aangifte."
+                      ]
+                    }
                   }
                 }
               }
@@ -1490,19 +1050,17 @@
                 "inhoud_type": "stap",
                 "kern": {
                   "substantie": {
+                    "tekst": "De commissaris verifieert dat de BAV-beslissing rechtsgeldig is (quorum, meerderheid), dat de schuldeisersbeschermingstermijn is gerespecteerd, en dat de notariële akte (bij NV) tijdig werd neergelegd. Ontbrekende stap = reden tot voorbehoud in het verslag.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "504f61ed61a773cf"
-                    },
-                    "tekst": "De commissaris verifieert dat de BAV-beslissing rechtsgeldig is (quorum, meerderheid), dat de schuldeisersbeschermingstermijn is gerespecteerd, en dat de notariële akte (bij NV) tijdig werd neergelegd. Ontbrekende stap = reden tot voorbehoud in het verslag."
+                      ]
+                    }
                   }
                 }
               },
@@ -1514,19 +1072,17 @@
                 "inhoud_type": "risico",
                 "kern": {
                   "substantie": {
+                    "tekst": "De commissaris controleert of de pro-rata-berekening van het fiscaal volgestort kapitaal correct is uitgevoerd en of de roerende voorheffing op het dividend-deel tijdig en volledig werd ingehouden en afgedragen. Fouten hier leiden tot boetes en navordering.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "3c4144136561433a"
-                    },
-                    "tekst": "De commissaris controleert of de pro-rata-berekening van het fiscaal volgestort kapitaal correct is uitgevoerd en of de roerende voorheffing op het dividend-deel tijdig en volledig werd ingehouden en afgedragen. Fouten hier leiden tot boetes en navordering."
+                      ]
+                    }
                   }
                 }
               },
@@ -1538,19 +1094,17 @@
                 "inhoud_type": "stap",
                 "kern": {
                   "substantie": {
+                    "tekst": "De toelichting bij de jaarrekening moet de kapitaalvermindering vermelden (bedrag, datum, aard). De commissaris beoordeelt de volledigheid en correctheid van deze disclosure, inclusief de impact op solvabiliteitsratio's en of de continuïteitsveronderstelling nog geldt.",
                     "grondslag": {
                       "confidence": "verondersteld",
                       "bronnen": [
                         {
                           "type": "ai_model",
                           "naam": "claude-sonnet-4-6",
-                          "datum": "2026-05-22"
+                          "datum": "2026-05-23"
                         }
-                      ],
-                      "checked_at": "2026-05-22",
-                      "claim_hash": "5abe78814c1f6eb2"
-                    },
-                    "tekst": "De toelichting bij de jaarrekening moet de kapitaalvermindering vermelden (bedrag, datum, aard). De commissaris beoordeelt de volledigheid en correctheid van deze disclosure, inclusief de impact op solvabiliteitsratio's en of de continuïteitsveronderstelling nog geldt."
+                      ]
+                    }
                   }
                 }
               }
@@ -1565,112 +1119,59 @@
       "type": "vergelijkbaar_met",
       "target": "inkoop-eigen-aandelen",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "dc5d942fbfc660a1"
+        ]
       },
-      "toelichting": "Beide verrichtingen keren vermogen terug aan aandeelhouders, maar via verschillende mechanismen: kapitaalvermindering verlaagt de balanspost kapitaal terwijl inkoop eigen aandelen leidt tot een aparte post op het eigen vermogen.",
-      "gelijkenissen": [
-        "Beide keren economisch vermogen terug aan aandeelhouders",
-        "Fiscale pro-rata-regels zijn in beide gevallen van toepassing op het niet-volgestort-kapitaal-deel",
-        "Beide vereisen een beslissing van de algemene vergadering of bestuursorgaan",
-        "Beide verlagen het eigen vermogen van de vennootschap",
-        "Schuldeisers kunnen in beide gevallen de solvabiliteit zien dalen"
-      ],
-      "verschillen": [
-        "Kapitaalvermindering vereist notariële akte bij NV en statutenwijziging; inkoop eigen aandelen vereist dit niet",
-        "Inkoop eigen aandelen maakt de aandelen tot eigen aandelen van de vennootschap (schorsing stemrecht); kapitaalvermindering gaat gepaard met evenredige intrekking van aandelen of verlaging van de nominale waarde",
-        "Schuldeisersbeschermingsprocedure (twee maanden) geldt uitsluitend bij kapitaalvermindering, niet bij inkoop eigen aandelen",
-        "Boekhoudkundige verwerking verschilt: bij inkoop eigen aandelen ontstaat rekening 519; bij kapitaalvermindering daalt rekening 100",
-        "Inkoop eigen aandelen is reversibel (aandelen kunnen worden herverkocht); kapitaalvermindering is definitief"
-      ],
-      "verwarring_risico": "Beide worden soms aangeduid als 'teruggave aan aandeelhouders' maar hebben fundamenteel andere boekhoudkundige, vennootschapsrechtelijke en fiscale gevolgen; de schuldeisersbeschermingsprocedure is het meest onderscheidende kenmerk",
-      "render_hint": "als_keuze"
+      "toelichting": "Beide verrichtingen keren vermogen terug aan aandeelhouders, maar via verschillende mechanismen: kapitaalvermindering verlaagt de balanspost kapitaal terwijl inkoop eigen aandelen leidt tot een aparte post op het eigen vermogen."
     },
     {
       "type": "vergelijkbaar_met",
       "target": "uitkering-aan-aandeelhouders",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "ce985a8ed2c6f4f5"
+        ]
       },
-      "toelichting": "Een gewone dividenduitkering en een kapitaalvermindering met terugbetaling hebben hetzelfde economische effect (geld naar aandeelhouder) maar de fiscale behandeling verschilt fundamenteel: terugbetaling van volgestort kapitaal is belastingvrij.",
-      "gelijkenissen": [
-        "Kasuitstroom van de vennootschap naar de aandeelhouders",
-        "Beslissing van de (buitengewone) algemene vergadering vereist",
-        "Vermindering van het eigen vermogen van de vennootschap",
-        "Fiscale inhouding en aangifte roerende voorheffing door de vennootschap (tenzij volledig belastingvrij)"
-      ],
-      "verschillen": [
-        "Terugbetaling van fiscaal volgestort kapitaal is belastingvrij voor de aandeelhouder; gewone dividenduitkering is steeds onderworpen aan roerende voorheffing (30%)",
-        "Kapitaalvermindering wijzigt de statuten en vereist notariële akte (bij NV); dividenduitkering niet",
-        "Schuldeisersbeschermingsprocedure van twee maanden geldt enkel bij kapitaalvermindering",
-        "Pro-rata-berekening van het volgestort kapitaal is verplicht bij kapitaalvermindering; bij dividend niet",
-        "Kapitaalvermindering verlaagt de kapitaalbasis (rekening 100); dividend verlaagt de overgedragen winst of reserves"
-      ],
-      "verwarring_risico": "Fiscale herkwalificatie is het grootste risico: als de pro-rata-berekening onjuist wordt uitgevoerd, wordt de vermeend belastingvrije terugbetaling alsnog als dividend geherkwalificeerd en onderworpen aan 30% roerende voorheffing",
-      "render_hint": "als_waarschuwing"
+      "toelichting": "Een gewone dividenduitkering en een kapitaalvermindering met terugbetaling hebben hetzelfde economische effect (geld naar aandeelhouder) maar de fiscale behandeling verschilt fundamenteel: terugbetaling van volgestort kapitaal is belastingvrij."
     },
     {
       "type": "vergelijkbaar_met",
       "target": "kapitaalverhoging",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "82f298fc0df63c36"
+        ]
       },
-      "toelichting": "Kapitaalvermindering is de omgekeerde beweging van een kapitaalverhoging: bij kapitaalverhoging stroomt kapitaal de vennootschap in, bij kapitaalvermindering stroomt het (deels) terug uit.",
-      "gelijkenissen": [
-        "Beide vereisen een beslissing van de buitengewone algemene vergadering met bijzondere meerderheid",
-        "Beide wijzigen de statuten en vereisen notariële akte bij NV",
-        "Beide hebben directe impact op de solvabiliteit en de kapitaalstructuur van de vennootschap",
-        "Beide worden gepubliceerd via de Kruispuntbank van Ondernemingen"
-      ],
-      "verschillen": [
-        "Kapitaalverhoging verhoogt het eigen vermogen en de solvabiliteit; kapitaalvermindering verlaagt die",
-        "Schuldeisersbeschermingsprocedure van twee maanden is enkel verplicht bij kapitaalvermindering",
-        "Fiscale pro-rata-berekening en roerende voorheffing spelen enkel bij kapitaalvermindering met terugbetaling",
-        "Kapitaalverhoging vergt inbreng van nieuw vermogen of incorporatie van reserves; kapitaalvermindering stoot vermogen af of neutraliseert verliezen"
-      ],
-      "verwarring_risico": "Beide zijn vennootschapsrechtelijke kapitaaloperaties met dezelfde procedurele vereisten (BAV, notaris), maar hebben tegengestelde gevolgen voor schuldeisers — wat leidt tot een asymmetrisch beschermingsregime",
-      "render_hint": "als_glossarium"
+      "toelichting": "Kapitaalvermindering is de omgekeerde beweging van een kapitaalverhoging: bij kapitaalverhoging stroomt kapitaal de vennootschap in, bij kapitaalvermindering stroomt het (deels) terug uit."
     },
     {
       "type": "triggert",
       "target": "alarmbel",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "728273b9c4a7fa22"
+        ]
       },
       "toelichting": "Een kapitaalvermindering met terugbetaling kan het netto-actief doen dalen onder de drempelwaarden (minder dan de helft of een kwart van het maatschappelijk kapitaal bij NV; netto-actieftest bij BV) die de alarmbelprocedure activeren."
     },
@@ -1678,16 +1179,14 @@
       "type": "beinvloed_door",
       "target": "roerende-voorheffing",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "f95440e027bfeb45"
+        ]
       },
       "toelichting": "Het dividend-deel van de kapitaalvermindering (het gedeelte dat niet als fiscaal volgestort kapitaal kwalificeert) is onderworpen aan roerende voorheffing van 30%, in te houden door de vennootschap."
     },
@@ -1695,16 +1194,14 @@
       "type": "beinvloed_door",
       "target": "kapitaalbescherming-en-winstverdeling",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "faf6a1f5f2e8263b"
+        ]
       },
       "toelichting": "De kapitaalbeschermingsregels uit het WVV (netto-actieftest bij BV, kapitaaldrempelregels bij NV) begrenzen de maximale omvang en de uitvoerbaarheid van een kapitaalvermindering."
     },
@@ -1712,33 +1209,29 @@
       "type": "vereist",
       "target": "algemene-vergadering",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "3afe8c60ed9bbb00"
+        ]
       },
-      "toelichting": "Een kapitaalvermindering vereist altijd een beslissing van de buitengewone algemene vergadering, met bijzondere meerderheid (in beginsel twee derde van de uitgebrachte stemmen)."
+      "toelichting": "Een kapitaalvermindering vereist altijd een beslissing van de buitengewone algemene vergadering, met bijzondere meerderheid."
     },
     {
       "type": "vereist",
       "target": "vennootschapsrechtelijk-kader-wvv",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "d94c64dfc68e5604"
+        ]
       },
       "toelichting": "De volledige procedure voor kapitaalvermindering — schuldeisersbescherming, BAV-beslissing, notariële akte bij NV, netto-actieftest bij BV — is verankerd in het WVV."
     },
@@ -1746,16 +1239,14 @@
       "type": "beinvloed_door",
       "target": "eigen-vermogen",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "95c0dacb885813ed"
+        ]
       },
       "toelichting": "De samenstelling van het eigen vermogen (verhouding fiscaal volgestort kapitaal t.o.v. belaste reserves en uitgiftepremies) bepaalt de uitkomst van de pro-rata-berekening en dus het belastbaar dividend-deel bij een kapitaalvermindering met terugbetaling."
     },
@@ -1763,19 +1254,16 @@
       "type": "valt_onder",
       "target": "financiele-verrichtingen-categorie",
       "grondslag": {
-        "confidence": "afgeleid",
+        "confidence": "verondersteld",
         "bronnen": [
           {
-            "type": "wettekst",
-            "naam": "WVV",
-            "ref": "Art. 7:194-7:196"
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
           }
-        ],
-        "checked_at": "2026-05-22",
-        "claim_hash": "a70d46e14142462a"
+        ]
       },
       "toelichting": "Kapitaalvermindering is een financiële verrichting (structuurwijziging eigen vermogen) en valt onder de categorie van financiële verrichtingen."
     }
-  ],
-  "concept_type": "verrichting"
+  ]
 }

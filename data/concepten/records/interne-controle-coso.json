@@ -1,11 +1,39 @@
 {
   "id": "interne-controle-coso",
   "naam": {
-    "primair": "Interne controle coso"
+    "primair": "Interne controle (COSO)",
+    "afkorting": "IC/COSO",
+    "synoniemen": [
+      "intern controlesysteem",
+      "interne beheersing",
+      "internal control",
+      "COSO-raamwerk"
+    ],
+    "vertaling": {
+      "fr": "Contrôle interne (COSO)",
+      "en": "Internal Control — Integrated Framework (COSO)"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.7.I",
+      "1.7.I.A",
+      "1.7.II.E",
+      "1.7.II.F",
+      "1.7.III",
+      "1.7.III.A",
+      "1.7.III.B",
+      "1.7.IV",
+      "1.7.XII",
+      "1.7.XII.D",
+      "1.7.XII.E",
+      "1.6.II.B",
+      "1.6.II.D",
+      "1.6.III.E"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,42 +52,450 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T14:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende pass (modus aanvullend): indicaties en voorwaarden toegevoegd aan gebruikscontext."
       }
-    ],
-    "ankers": [
-      "1.7.I",
-      "1.7.I.A",
-      "1.7.II.E",
-      "1.7.II.F",
-      "1.7.III",
-      "1.7.III.A",
-      "1.7.III.B",
-      "1.7.IV",
-      "1.7.XII",
-      "1.7.XII.D",
-      "1.7.XII.E",
-      "1.6.II.B",
-      "1.6.II.D",
-      "1.6.III.E"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Interne controle coso",
+        "tekst": "**Interne controle** is een **door het bestuur en management opgezet en uitgevoerd proces** dat redelijke zekerheid biedt over het bereiken van doelstellingen op het gebied van **operationele doeltreffendheid**, **betrouwbaarheid van financiële rapportering** en **naleving van wet- en regelgeving**.\n\nHet **COSO-raamwerk** (Committee of Sponsoring Organizations of the Treadway Commission, 1992; herzien 2013) is het meest gebruikte referentiekader voor de inrichting, beoordeling en verbetering van interne controle. Het structureert interne controle langs **vijf componenten** (controle-omgeving, risico-inschatting, controle-activiteiten, informatie en communicatie, monitoring) en **drie doelstellingscategorieën**.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
+            {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Interne controle is **geen éénmalige maatregel** maar een doorlopend stelsel van maatregelen dat door alle niveaus van de organisatie wordt gedragen. De term omvat:\n\n- **Harde controles** — procedures, autorisaties, functiescheidingen (detecteerbaar, toetsbaar)\n- **Zachte controles** — organisatiecultuur, ethische normen, competentie (minder meetbaar, maar meest bepalend voor de toon)\n\nHet COSO-raamwerk wordt in de praktijk voorgesteld als een **kubus**: op de drie assen staan respectievelijk de vijf componenten, de drie doelstellingen, en de eenheden/activiteiten van de organisatie. Dit maakt zichtbaar dat elke component voor elke doelstelling in elke entiteitslaag aanwezig moet zijn.\n\nBelangrijkste praktische consequentie: **geen component is optioneel** — een zwakke controle-omgeving kan sterke controle-activiteiten ondermijnen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het COSO-raamwerk heeft normatieve kracht in de Belgische accountancy- en auditwereld om twee redenen:\n\n1. **ISA 315** (identificatie en inschatting van risico's op afwijkingen van materieel belang) verplicht de auditor om de interne controle van de entiteit te begrijpen — en refereert impliciet aan de COSO-componenten als structuur voor dat begrip.\n2. **Bestuurders** zijn verantwoordelijk voor het opzetten en onderhouden van een adequaat intern controlesysteem; het COSO-raamwerk biedt de taal waarmee die verantwoordelijkheid wordt geconcretiseerd.\n\nDe **beperkte zekerheid** (geen absolute zekerheid) is inherent aan het concept: menselijke oordeelsvorming, samenspanning en kosten-batenafwegingen verhinderen een perfect systeem.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Organisaties die hun **risicobeheer en beheersingsmaatregelen** systematisch willen inrichten, beoordelen of verbeteren — ongeacht sector of rechtsvorm.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          },
+          "rationale": "COSO werd ontworpen als universeel raamwerk, toepasbaar op profit, non-profit en overheid."
+        },
+        {
+          "tekst": "**Auditcontext** — de auditor gebruikt COSO-componenten als structuur om de relevante interne controles te identificeren en te toetsen die zijn risico-inschatting beïnvloeden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          },
+          "rationale": "ISA 315 structureert het begrip van interne controle langs de COSO-componenten; de auditor beoordeelt het ontwerp en de implementatie per component."
+        },
+        {
+          "tekst": "**Advies- en begeleidingsopdrachten** waarbij de accountant het intern controlesysteem van een cliënt beoordeelt of helpt verbeteren (bv. na een fraudegeval of bij groeipijnen).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Vervanging van risicomanagement op strategisch niveau** — COSO-IC richt zich op beheersingszekerheid; het afzonderlijke COSO ERM-raamwerk dekt strategische risicobereidheid en doelstellingsformulering.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        },
+        {
+          "tekst": "**Absolute zekerheid garanderen** — het raamwerk biedt per definitie slechts *redelijke* zekerheid. Wie stelt dat een intern controlesysteem fraude volledig uitsluit, past het concept verkeerd toe.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "COSO is in België **geen wettelijk verplicht raamwerk** — het is een vrijwillig referentiekader dat in de praktijk de norm is. Wettelijke verplichting bestaat enkel wanneer een entiteit er contractueel of via beursreglement aan gebonden is (bv. vennootschappen genoteerd op een Amerikaans beursplatform vallen onder Sarbanes-Oxley, dat COSO of een gelijkwaardig raamwerk vereist voor de interne controle over financiële rapportering).",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          },
+          "rationale": "Het onderscheid 'vrijwillig vs. verplicht' is examensrelevant: de auditor past COSO toe als structuur voor zijn begrip van interne controle, maar de entiteit zelf is niet verplicht het formeel te documenteren als COSO-conforme implementatie."
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De **auditor** staat voor de taak de interne controle van een entiteit te begrijpen in het kader van een wettelijke controlopdracht — de COSO-vijf-componenten bieden de structuur voor dat begrip en de documentatie ervan in het auditdossier.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          },
+          "rationale": "ISA 315 verplicht de auditor de interne controle te begrijpen; COSO-componenten zijn de praktische structuur voor dat begrip."
+        },
+        {
+          "tekst": "Een **organisatie heeft een fraudegeval, materiële fout of interne-controlefout vastgesteld** — de COSO-kubus maakt het mogelijk de leemte te lokaliseren: welke component, voor welke doelstelling, in welke entiteitslaag heeft gefaald.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        },
+        {
+          "tekst": "Een **accountant-adviseur** krijgt de opdracht het intern controlesysteem van een groeiende onderneming te beoordelen of te ontwerpen — COSO biedt de gedeelde taal tussen adviseur, management, interne audit en externe auditor.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Gemeenschappelijke taal** tussen management, interne audit, externe auditor en toezichthouder — het vijf-componentenmodel maakt communicatie over controlegebreken preciezer.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        },
+        {
+          "tekst": "**Gestructureerde gap-analyse** — de kubus-structuur laat toe om per component, per doelstelling, per entiteitslaag na te gaan of beheersingsmaatregelen aanwezig en effectief zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Overschatting van papieren controles** — een gedocumenteerde procedure die niet werkelijk wordt nageleefd biedt geen beheersing. COSO toetst ontwerp én effectieve werking, niet enkel het bestaan van procedures.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        },
+        {
+          "tekst": "**Management override** — het topmanagement kan beheersingsmaatregelen omzeilen (bv. door autorisatiegrenzen te negeren). Dit is een inherente beperking van elk intern controlesysteem, ook COSO.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "drie-doelstellingscategorieen",
+        "naam": {
+          "primair": "Drie doelstellingscategorieën",
+          "synoniemen": ["COSO-doelstellingen", "objectives"]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "COSO onderscheidt drie categorieën van doelstellingen waarvoor interne controle redelijke zekerheid moet bieden:\n\n1. **Operationeel** — doeltreffend en doelmatig gebruik van middelen (resultaten, rendement, bescherming van activa)\n2. **Rapportering** — betrouwbaarheid van financiële en niet-financiële informatie, intern en extern\n3. **Naleving** — conformiteit met toepasselijke wet- en regelgeving\n\nDe drie categorieën zijn de **horizontale as** van de COSO-kubus.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+              ]
+            },
+            "rationale": "De categorisering bepaalt wie de primaire verantwoordelijkheid draagt en welke rapporteringsvereisten van toepassing zijn: de rapporteringsdoelstelling raakt direct de accountant-auditor; naleving raakt compliance; operationeel is primair management-verantwoordelijkheid."
+          }
+        }
+      },
+      {
+        "id": "vijf-componenten",
+        "naam": {
+          "primair": "Vijf componenten van interne controle",
+          "synoniemen": ["COSO-componenten", "vijf pijlers"]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "COSO structureert interne controle langs vijf onderling verbonden componenten — de **verticale as** van de kubus:\n\n1. **Controle-omgeving** (*Control Environment*) — de toon van de organisatie: ethische waarden, bevoegdheden, verantwoordelijkheden, HR-beleid. Fundament voor alle andere componenten.\n2. **Risico-inschatting** (*Risk Assessment*) — het identificeren en analyseren van risico's die het bereiken van doelstellingen bedreigen, inclusief het risico op fraude.\n3. **Controle-activiteiten** (*Control Activities*) — de specifieke beheersingsmaatregelen: autorisaties, verificaties, afstemmingen, functiescheiding, IT-controles.\n4. **Informatie en communicatie** (*Information & Communication*) — systemen die relevante informatie identificeren, vastleggen en tijdig communiceren aan wie ze nodig heeft.\n5. **Monitoring** — voortdurende bewaking en periodieke evaluatie van de kwaliteit van de interne controle; correctie van gebreken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+              ]
+            },
+            "rationale": "De vijf componenten zijn niet hiërarchisch maar **onderling afhankelijk**: een sterke controle-omgeving maakt risico-inschatting geloofwaardig; zonder monitoring degraderen controle-activiteiten tot papieren procedures."
+          }
+        }
+      },
+      {
+        "id": "redelijke-zekerheid",
+        "naam": {
+          "primair": "Redelijke zekerheid",
+          "synoniemen": ["reasonable assurance", "beperkte zekerheid"]
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "Interne controle kan slechts **redelijke**, niet **absolute** zekerheid bieden. Vier inherente beperkingen verklaren dit:\n\n1. **Menselijke oordeelsvorming** — beheersingsmaatregelen worden door mensen ontworpen en uitgevoerd; mensen maken fouten\n2. **Kosten-batenafweging** — niet elke maatregel is economisch verantwoord; bestuur maakt een expliciete afweging\n3. **Samenspanning** (*collusion*) — twee of meer medewerkers kunnen bewust functiescheidingen omzeilen\n4. **Management override** — topmanagement kan beheersingsmaatregelen buiten werking stellen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+              ]
+            },
+            "rationale": "De beperking tot redelijke zekerheid is geen tekortkoming van COSO maar een realistische afbakening van wat een intern systeem kan bereiken — de externe audit levert aanvullende (maar ook beperkte) zekerheid."
+          }
+        }
+      },
+      {
+        "id": "kosten-batenafweging",
+        "naam": {
+          "primair": "Kosten-batenafweging bij interne controle"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij het ontwerpen van beheersingsmaatregelen weegt het bestuur af of de **kost** van de maatregel in verhouding staat tot het **beheerste risico**. Een maatregel is niet vereist als de kost ervan het potentieel verlies overstijgt.\n\nDit principe verklaart waarom kleine organisaties minder uitgebreide controles hebben en waarom auditoren rekening houden met materialiteit bij de beoordeling van het intern controlesysteem.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "coso-kubus",
+        "naam": {
+          "primair": "COSO-kubus",
+          "synoniemen": ["COSO-cube", "driedimensionele structuur"]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het COSO-raamwerk wordt visueel voorgesteld als een **driedimensionale kubus** met drie assen:\n\n- **As 1 (diepte)**: vijf componenten (controle-omgeving → risico-inschatting → controle-activiteiten → informatie & communicatie → monitoring)\n- **As 2 (breedte)**: drie doelstellingscategorieën (operationeel · rapportering · naleving)\n- **As 3 (hoogte)**: organisatie-eenheden of -lagen (entiteit · divisie · bedrijfseenheid · dochter)\n\nDe kubus toont dat **elke component aanwezig moet zijn voor elke doelstelling in elke organisatielaag**. Een gat in één cel (bv. zwakke monitoring voor de naleving-doelstelling in een specifieke divisie) is een controleleemte.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+              ]
+            },
+            "rationale": "De kubus-visualisatie is pedagogisch krachtig omdat ze de volledigheidseis zichtbaar maakt: interne controle is geen checklist maar een stelsel waarbij alle dimensies tegelijk aanwezig moeten zijn."
+          }
+        }
+      },
+      {
+        "id": "ontwerp-vs-effectieve-werking",
+        "naam": {
+          "primair": "Ontwerp versus effectieve werking"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de beoordeling van interne controle worden twee aspecten onderscheiden:\n\n- **Ontwerp** (*design*) — is de maatregel, als hij correct wordt uitgevoerd, in staat het risico te beheersen?\n- **Effectieve werking** (*operating effectiveness*) — wordt de maatregel consistent en correct uitgevoerd gedurende de beoordelingsperiode?\n\nEen correct ontworpen maatregel die niet consequent wordt toegepast biedt geen beheersing. De auditor test beide aspecten, maar hoeft de effectieve werking alleen te testen indien hij wil steunen op de interne controle (verlaagd gegevensgerichte werk).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "interne-vs-externe-controle",
+        "naam": {
+          "primair": "Interne versus externe controle"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Interne controle en externe controle (audit) zijn **complementair** maar fundamenteel verschillend:\n\n| | Interne controle (COSO) | Externe audit |\n|---|---|---|\n| **Wie** | Management, medewerkers | Onafhankelijke auditor |\n| **Doel** | Zekerheid over doelstellingen bereiken | Zekerheid over financiële overzichten |\n| **Continuïteit** | Doorlopend | Periodiek (per boekjaar) |\n| **Zekerheid** | Redelijk (voor bestuur) | Redelijk (voor gebruikers jaarrekening) |\n\nDe externe auditor **steunt op** en **beoordeelt** de interne controle, maar vervangt ze niet. Sterke interne controle laat de auditor toe minder gegevensgerichte controles uit te voeren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "coso-2013-herziening",
+        "naam": {
+          "primair": "COSO 2013 — herziening en 17 principes"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "In 2013 herzag COSO het originele raamwerk van 1992. De kernstructuur (vijf componenten, drie doelstellingen) bleef behouden, maar werd **aangevuld met 17 principes** — één tot meerdere per component — die samen de **noodzakelijke criteria** vormen voor een werkend intern controlesysteem.\n\nDe 17 principes fungeren als **toetssteen**: een entiteit die een principe niet naleeft, heeft een gebrekkig systeem van interne controle, ongeacht hoe sterk de andere principes zijn nageleefd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+              ]
+            },
+            "rationale": "De 17 principes maken de beoordeling objectiever: vóór 2013 was het oordeel of een systeem 'effectief' was sterk afhankelijk van subjectieve interpretatie; de principes geven een toetsbaar kader."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "controle-omgeving-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "Controle-omgeving is de eerste van de vijf COSO-componenten."
+    },
+    {
+      "type": "bevat",
+      "target": "risico-inschatting-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "Risico-inschatting is de tweede van de vijf COSO-componenten."
+    },
+    {
+      "type": "bevat",
+      "target": "controle-activiteiten-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "Controle-activiteiten zijn de derde van de vijf COSO-componenten."
+    },
+    {
+      "type": "bevat",
+      "target": "informatie-communicatie-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "Informatie en communicatie is de vierde van de vijf COSO-componenten."
+    },
+    {
+      "type": "bevat",
+      "target": "monitoring-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "Monitoring is de vijfde van de vijf COSO-componenten."
+    },
+    {
+      "type": "valt_onder",
+      "target": "referentiestelsels-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "COSO is het meest gebruikte referentiestelsel voor interne controle; andere zijn bv. COBIT (IT-focus) en CoCo."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "governance-actoren-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "De inrichting en werking van het intern controlesysteem wordt bepaald door en voor de governance-actoren: raad van bestuur, auditcomité, management en interne audit."
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "interne-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "Interne audit is een kernmechanisme voor monitoring van het intern controlesysteem — de derde verdedigingslinie."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "auditrisicomodel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+        ]
+      },
+      "toelichting": "Het auditrisicomodel (inherent risico × controlerisico × detectierisico) is het auditor-perspectief op dezelfde beheersingsmaatregelen die COSO structureert.",
+      "gelijkenissen": [
+        "Beide structureren risico's en beheersingsmaatregelen in een organisatie",
+        "Beide leiden tot een oordeel over de adequaatheid van het systeem"
+      ],
+      "verschillen": [
+        "COSO = management-perspectief (zekerheid voor bestuur); auditrisicomodel = auditor-perspectief (risico op materiële afwijking)",
+        "COSO is breder (drie doelstellingscategorieën); auditrisicomodel focust op rapporteringsdoelstelling",
+        "COSO is permanent aanwezig; auditrisicomodel is een periodiek audit-instrument"
+      ],
+      "verwarring_risico": "Stagiairs gebruiken soms COSO-componenten en auditrisicomodel door elkaar als synoniemen voor hetzelfde begrip — beide zijn gerelateerd maar conceptueel onderscheiden."
+    }
+  ]
 }

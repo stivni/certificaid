@@ -1,11 +1,27 @@
 {
   "id": "interne-audit",
   "naam": {
-    "primair": "Interne audit"
+    "primair": "Interne audit",
+    "afkorting": "IA",
+    "synoniemen": [
+      "internal audit",
+      "interne-auditfunctie",
+      "interne controle en audit"
+    ],
+    "vertaling": {
+      "fr": "Audit interne",
+      "en": "Internal audit"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.7.I.D",
+      "1.7.V.A",
+      "1.7.V.B"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +40,463 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.7.I.D",
-      "1.7.V.A",
-      "1.7.V.B"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Interne audit",
+        "tekst": "**Interne audit** is een onafhankelijke, objectieve zekerheids- en adviesactiviteit die ontworpen is om waarde toe te voegen en de werking van een organisatie te verbeteren. Ze helpt een organisatie haar doelstellingen te bereiken door een systematische, gedisciplineerde aanpak te hanteren voor de beoordeling en verbetering van de doeltreffendheid van risicobeheer, interne controle en governance.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De IIA-definitie (Institute of Internal Auditors) is de internationaal aanvaarde referentie. Ze combineert twee opdrachten: zekerheid geven (assurance) over bestaande processen én advies verlenen voor verbetering — wat interne audit structureel onderscheidt van zuivere compliance-controle."
+      },
+      "substantie": {
+        "tekst": "In de praktijk voert de interne-auditfunctie drie soorten werkzaamheden uit:\n\n1. **Assurance-opdrachten** — objectieve beoordeling van bewijs om een onafhankelijk oordeel te vormen over risicobeheer, interne controle of governance (bv. effectiviteitsreview van een intern-controlesysteem).\n2. **Adviesopdrachten** — adviesdiensten op vraag van het management, waarbij de interne auditor aanbevelingen formuleert zonder operationele verantwoordelijkheid te nemen (bv. begeleiding bij de opzet van een nieuw controleproces).\n3. **Gecombineerde opdrachten** — combinatie van beide, frequent bij kleinere organisaties.\n\nHet kenmerkende verschil met de **externe audit** is de ingebedde positie: de interne auditor is deel van de organisatie, rapporteert functioneel aan het auditcomité en hiërarchisch aan het topmanagement, en werkt proactief en continu — niet eenmalig per jaar zoals de commissaris.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De interne-auditfunctie bestaat omdat **geen enkel intern-controlesysteem zichzelf bewaakt**. Het management dat een systeem ontwerpt en uitvoert kan de effectiviteit ervan niet neutraal beoordelen. Interne audit vult die leemte door onafhankelijk en systematisch te toetsen of het systeem werkt zoals bedoeld — en door het management tijdig te informeren over zwakheden vóórdat ze leiden tot externe fouten, fraude of non-conformiteit.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Middelgrote tot grote organisaties waarbij het topmanagement niet rechtstreeks alle operationele processen kan overzien — productiebedrijven, financiële instellingen, overheidsinstellingen en beursgenoteerde vennootschappen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Interne audit compenseert de informatieachterstand van het topmanagement t.o.v. de operationele lagen — hoe groter de organisatie, hoe relevanter de functie."
+        },
+        {
+          "tekst": "Organisaties met **wettelijke verplichting tot een auditcomité** (grote genoteerde vennootschappen, kredietinstellingen, verzekeringsmaatschappijen) waarbij het auditcomité de interne-auditfunctie als zijn primaire toezichtsinstrument gebruikt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Organisaties in sectoren met hoge **compliance-druk** (financiële sector, farma, chemie, overheidscontractanten) waarbij het management zekerheid wil over naleving van interne procedures en externe regelgeving vóórdat de externe toezichthouder of commissaris controleert.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Kleine vennootschappen** waarbij de directeur-eigenaar zelf alle processen overziet en controls. Een formele interne-auditfunctie weegt dan zwaarder dan de toegevoegde waarde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Als **vervanging van de externe audit of commissarisopdracht** — interne audit geeft geen publieke zekerheid, is niet onafhankelijk van de organisatie in de zin van een externe partij, en vervangt de wettelijke controleopdracht niet.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De interne-auditfunctie moet **organisatorisch onafhankelijk** zijn van de lijnactiviteiten die ze beoordeelt. De interne auditor mag geen operationele verantwoordelijkheid dragen voor de processen die hij controleert.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vereist een **interne-auditcharter** (charter of audit) dat de missie, bevoegdheden, rapporteringslijnen en onafhankelijkheidswaarborgen formeel vastlegt en goedgekeurd is door het auditcomité of bestuur.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Schijnonafhankelijkheid** — wanneer de interne auditor hiërarchisch rapporteert aan het management dat hij controleert (CFO of CEO) en functioneel onvoldoende toegang heeft tot het auditcomité, verliest de functie haar geloofwaardigheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Scope-beperking** — wanneer het management bepaalde processen of entiteiten uitsluit van de auditscope, of wanneer de interne auditor onvoldoende toegang krijgt tot informatie en medewerkers, heeft de auditfunctie geen werkelijke meerwaarde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "iia-standaarden",
+        "naam": {
+          "primair": "IIA-standaarden",
+          "synoniemen": [
+            "IPPF",
+            "International Professional Practices Framework",
+            "IIA-normen"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **International Professional Practices Framework (IPPF)** van het Institute of Internal Auditors (IIA) is het wereldwijd aanvaarde normenkader voor de interne-auditpraktijk. Het omvat: (1) de **IIA-definitie** van interne audit, (2) de **Code of Ethics** (integriteit, objectiviteit, vertrouwelijkheid, vakbekwaamheid), en (3) de **International Standards** (kwaliteitsstandaarden voor de uitvoering van audits).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het IPPF speelt voor de interne auditor dezelfde rol als de ISA-normen voor de externe auditor: het definieert de minimumeisen waaraan de functie moet voldoen om haar onafhankelijkheidsclaim geloofwaardig te maken."
+          }
+        }
+      },
+      {
+        "id": "onafhankelijkheid-en-objectiviteit",
+        "naam": {
+          "primair": "Onafhankelijkheid en objectiviteit"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De interne-auditfunctie moet **organisatorisch onafhankelijk** zijn (geen operationele verantwoordelijkheid, rapportering aan het auditcomité) én moet elke individuele auditor **objectief** zijn (vrij van belangen of vooroordelen die het oordeel zouden kleuren).\n\nTwee niveaus zijn te onderscheiden:\n- **Organisatorische onafhankelijkheid** — de functie als geheel is structureel onafhankelijk van de activiteiten die ze beoordeelt\n- **Individuele objectiviteit** — de auditor kan niet deelnemen aan de audit van een activiteit waarvoor hij/zij eerder verantwoordelijk was (cooling-off-periode van minstens 1 jaar is gangbare praktijk)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rapporteringslijn",
+        "naam": {
+          "primair": "Rapporteringslijn",
+          "synoniemen": [
+            "dual reporting",
+            "dubbele rapporteringslijn"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De interne-auditfunctie heeft een **dubbele rapporteringslijn**:\n\n- **Hiërarchisch** (administratief) → aan het topmanagement (CEO of CFO): budgetten, personeelsbeheer, dagelijkse sturing\n- **Functioneel** (inhoudelijk) → aan het **auditcomité** (of de raad van bestuur bij afwezigheid van auditcomité): auditplan, auditresultaten, bevindingen over management\n\nDe functionele lijn naar het auditcomité is essentieel voor de geloofwaardigheid van de functie: zo kan de interne auditor bevindingen rapporteren over het management zonder dat het management die kan blokkeren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder directe toegang tot het auditcomité kan de interne-auditfunctie niet onafhankelijk rapporteren over eventuele fraude of wezenlijke zwakheden op managementniveau."
+          }
+        }
+      },
+      {
+        "id": "auditplan",
+        "naam": {
+          "primair": "Auditplan",
+          "synoniemen": [
+            "jaarlijks auditplan",
+            "risicogebaseerd auditplan"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **auditplan** is het jaarlijkse werkplan van de interne-auditfunctie. Het beschrijft welke processen, entiteiten of risico's in het komende jaar worden geauditeerd, op basis van een **risicogebaseerde prioritering**.\n\nOpbouw:\n1. **Risicoanalyse** — inventarisatie van het universum van auditeerbare eenheden + risico-inschatting\n2. **Prioritering** — keuze van hoog-risico-domeinen als focus van het auditwerk\n3. **Capaciteitsplanning** — omzetting van prioriteiten naar concrete auditmissies met timing en middelen\n4. **Goedkeuring** door het auditcomité",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "auditrapport",
+        "naam": {
+          "primair": "Auditrapport",
+          "synoniemen": [
+            "audit report",
+            "verslag van bevindingen"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **auditrapport** is de formele communicatie van de bevindingen van een afzonderlijke auditmissie aan het management en het auditcomité. Het bevat standaard:\n\n- **Doel en scope** van de audit\n- **Bevindingen** — afwijkingen, zwakheden of goede praktijken vastgesteld tijdens de audit\n- **Risicoclassificatie** per bevinding (hoog / medium / laag)\n- **Aanbevelingen** — concrete acties voor verbetering\n- **Managementrespons** — de reactie en engagementen van het management\n- **Actieplan** — wie doet wat tegen wanneer",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "assurance-versus-advies",
+        "naam": {
+          "primair": "Assurance- versus adviesopdracht"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De interne-auditfunctie heeft twee fundamenteel verschillende soorten opdrachten:\n\n| Kenmerk | Assurance | Advies |\n|---|---|---|\n| **Initiatief** | Interne auditor (op basis van auditplan) | Management (op vraag) |\n| **Doel** | Onafhankelijk oordeel geven | Aanbevelingen formuleren |\n| **Verhouding tot management** | Beoordelaar | Partner / adviseur |\n| **Rapportering** | Aan auditcomité + management | Primair aan opdrachtgever (management) |\n| **Aard van output** | Bevindingen + oordeel | Adviesnota + aanbevelingen |\n\n**Kritisch onderscheid**: bij adviesopdrachten mag de interne auditor **geen operationele beslissingen nemen of uitvoeringsverantwoordelijkheid opnemen** — anders verliest hij/zij de onafhankelijkheid voor toekomstige assurance over datzelfde domein.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "three-lines-model",
+        "naam": {
+          "primair": "Three-lines-model",
+          "synoniemen": [
+            "drie-lijnen-model",
+            "three lines of defense"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **three-lines-model** (IIA, 2020) plaatst de interne-auditfunctie als de **derde lijn** in een gelaagd verdedigingsmodel:\n\n- **Eerste lijn** — operationeel management: eigenaar van risico's en controles in de dagelijkse werking\n- **Tweede lijn** — risicobeheer- en compliancefuncties: bieden kaders, methodologieën en toezicht op de eerste lijn\n- **Derde lijn** — interne audit: geeft onafhankelijke zekerheid aan het bestuur en het topmanagement over de effectiviteit van de eerste en tweede lijn",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het three-lines-model verduidelijkt waarom interne audit geen dubbele controle is van de tweede lijn, maar een fundamenteel ander soort toezicht levert: onafhankelijke zekerheid aan het governance-niveau (bestuur) in plaats van ondersteuning aan het management."
+          }
+        }
+      },
+      {
+        "id": "kwaliteitsborging-interne-audit",
+        "naam": {
+          "primair": "Kwaliteitsborging",
+          "synoniemen": [
+            "quality assurance",
+            "kwaliteitstoetsing interne audit"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De IIA-standaarden vereisen dat de interne-auditfunctie een **kwaliteitsborgings- en verbeteringsprogramma** opzet en onderhoudt. Dit omvat:\n\n- **Interne beoordelingen** — doorlopende monitoring + periodieke zelfevaluaties\n- **Externe beoordeling** — peer review of onafhankelijke toetsing door een externe partij, ten minste elke **vijf jaar**\n\nDe externe beoordeling toetst of de interne-auditfunctie conform de IIA-standaarden werkt en rapporteert hierover aan het auditcomité.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Interne audit is één van de mechanismen binnen het bredere interne-controle-kader (COSO): het levert onafhankelijke zekerheid over het geheel van het intern-controlesysteem."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "externe-audit-commissaris",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beiden leveren zekerheid over de betrouwbaarheid van interne controles en financiële informatie.",
+        "Beiden werken op basis van professionele standaarden (IIA resp. ISA) en vereisen onafhankelijkheid."
+      ],
+      "verschillen": [
+        "Interne auditor is ingebed in de organisatie; de commissaris is extern en volledig onafhankelijk.",
+        "Interne audit rapporteert intern (auditcomité + management); commissaris rapporteert publiek (jaarrekening + aandeelhouders).",
+        "Interne audit is continu en proactief; de commissariscontrole is jaarlijks en retrospectief.",
+        "Interne audit dekt governance, risico en controles breed; de commissaris focust op de wettelijke jaarrekeningcontrole."
+      ],
+      "verwarring_risico": "Studenten verwarren de beide functies — interne audit vervangt de commissaris niet en andersom; ze zijn complementair in het governance-landschap."
+    },
+    {
+      "type": "vereist",
+      "target": "auditcomite",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Interne audit functioneert pas effectief wanneer er een auditcomité (of raad van bestuur) is dat de functionele rapporteringslijn opneemt en de onafhankelijkheid van de interne-auditfunctie bewaakt."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "governance-actoren-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De inrichting, scope en effectiviteit van de interne-auditfunctie worden sterk bepaald door de governance-structuur en de bereidheid van het bestuur om een echte onafhankelijke controlelijn te ondersteunen."
+    }
+  ]
 }

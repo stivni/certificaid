@@ -1,8 +1,20 @@
 {
   "id": "algemene-anti-misbruik-bepaling",
   "naam": {
-    "primair": "Algemene anti misbruik bepaling"
+    "primair": "Algemene anti-misbruikbepaling",
+    "afkorting": "GAAR",
+    "synoniemen": [
+      "algemene anti-misbruikbepaling",
+      "fiscaal misbruik",
+      "anti-abusbepaling",
+      "substance over form"
+    ],
+    "vertaling": {
+      "fr": "disposition générale anti-abus",
+      "nl": "algemene anti-misbruikbepaling"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +24,11 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.1.IX.B",
+      "2.1.taak.1",
+      "2.8.XVI"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +41,498 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6"
       }
-    ],
-    "ankers": [
-      "2.1.IX.B",
-      "2.1.taak.1",
-      "2.8.XVI"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Algemene anti misbruik bepaling",
+        "tekst": "De **algemene anti-misbruikbepaling** (GAAR) laat de belastingadministratie toe om rechtshandelingen die **louter fiscaal gemotiveerd** zijn en die **in strijd zijn met de doelstelling van een belastingwet**, te **herdefiniëren** alsof de belastingplichtige een normale, niet-misbruikende weg had gekozen. De administratie herstelt dan de belastingheffing die zou gelden zonder het misbruik — terwijl de civiele geldigheid van de rechtshandeling intact blijft.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De GAAR werkt als **vangnet** achter alle specifieke anti-misbruikbepalingen: waar de wetgever een concrete constructie niet voorzag, kan de GAAR die alsnog aanpakken. Ze grijpt in op **fiscale constructies** — niet op civielrechtelijke keuzes als dusdanig.\n\nHet mechanisme in twee stappen:\n1. **Administratie bewijst** dat de constructie fiscaal misbruik uitmaakt (geen economische motieven; in strijd met doel en strekking van de fiscale wet).\n2. **Belastingplichtige kan tegenbewijs leveren**: als hij aantoont dat er een niet-fiscale motieven aan de grondslag liggen, wordt de GAAR niet toegepast.\n\nDit onderscheidt de GAAR fundamenteel van een eenvoudige simulatieleer: simulatie vereist bedrog ten aanzien van derden; de GAAR niet.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De GAAR bestaat omdat **fiscale wetgeving altijd lacunes heeft**: een specifieke anti-misbruikbepaling kan alleen aanpakken wat de wetgever voorzag. Nieuwe constructies glippen er telkens doorheen totdat een specifieke bepaling volgt. De GAAR vult die lacune structureel op zonder elke constructie afzonderlijk te verbieden — maar met het risico van **rechtsonzekerheid** omdat de grens tussen belastingplanning en misbruik niet altijd scherp is.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Constructies waarbij de belastingplichtige **meerdere opeenvolgende rechtshandelingen** koppelt die elk op zichzelf geldig zijn maar samen een fiscale besparing realiseren die de wetgever niet bedoelde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Typisch voorbeeld: verkoop gevolgd door onmiddellijke terugkoop om een verlies te realiseren; of tussenschakeling van een vennootschap uitsluitend om een vrijstelling te genereren."
+        },
+        {
+          "tekst": "Transacties waarbij de **keuze voor een welbepaalde rechtsvorm** uitsluitend dient om een fiscaal voordeel te behalen dat manifest in strijd is met de ratio legis van de gebruikte bepaling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Legale belastingplanning** waarbij de belastingplichtige bewust kiest voor de fiscaal voordeligste weg van twee gelijkwaardige opties die de wet hem aanbiedt — ook wanneer die keuze de belasting verlaagt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De belastingplichtige heeft het recht te kiezen voor de minst belaste weg (principe van de minst belaste weg). De GAAR treft alleen gevallen die de doelstelling van de belastingwet schenden — niet elke fiscaal gemotiveerde keuze."
+        },
+        {
+          "tekst": "Constructies die onder een **specifieke anti-misbruikbepaling** vallen: die specifieke bepaling gaat voor.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Administratie moet bewijzen** (1) dat de constructie valt onder de wettelijke definitie van fiscaal misbruik en (2) dat de constructie in strijd is met de doelstelling van de betrokken belastingwet. De bewijslast ligt initieel bij de belastingadministratie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Belastingplichtige kan tegenbewijs leveren** door aan te tonen dat de constructie ook niet-fiscale (economische, familiale of andere) motieven heeft die haar verantwoorden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "De transactie heeft een **duidelijk economisch of zakelijk doel** dat ook zonder fiscaal voordeel afdoende verantwoording biedt voor de gekozen structuur.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Rechtsonzekerheid**: de grens tussen legale planning en misbruik is niet altijd scherp, wat leidt tot onvoorspelbare kwalificaties door de administratie of rechtbanken.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De constructie heeft **geen economische substant** buiten het fiscale voordeel: partijen handelen uitsluitend om de belasting te verminderen, de looptijd is minimaal, de risico-overdracht is beperkt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De **stappen van de constructie zijn artificieel samengesteld**: elke stap is juridisch geldig maar samen vormen ze een keten die enkel zinvol is als fiscaal vehikel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "definitie-fiscaal-misbruik",
+        "naam": {
+          "primair": "Definitie fiscaal misbruik",
+          "synoniemen": [
+            "fiscaal misbruik",
+            "belastingmisbruik"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Fiscaal misbruik** is een situatie waarbij de belastingplichtige een **rechtshandeling of een geheel van rechtshandelingen** stelt die:\n1. in strijd zijn met de **doelstelling** van een bepaling van het belastingwetboek of zijn uitvoeringsbesluiten, en\n2. **hoofdzakelijk fiscaal gemotiveerd** zijn — met andere woorden: geen niet-fiscale motieven hebben die de constructie kunnen verantwoorden.\n\nDe civielrechtelijke geldigheid van de handeling blijft intact — enkel de fiscale gevolgen worden gecorrigeerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92 art. 344 §1",
+                  "ref": "wib92-art-344"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijs-last-verdeling",
+        "naam": {
+          "primair": "Bewijslast-verdeling",
+          "synoniemen": [
+            "bewijslastverdeling GAAR"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "De bewijslast is **tweeledig** en wisselt van partij:\n\n**Stap 1 — Administratie bewijst:**\nDe fiscus toont aan dat de gekozen constructie in strijd is met de doelstelling van de belastingwet en dat ze uitsluitend of hoofdzakelijk fiscaal gemotiveerd is.\n\n**Stap 2 — Belastingplichtige levert tegenbewijs:**\nZodra de administratie haar bewijs levert, verschuift de bewijslast. De belastingplichtige kan aantonen dat de constructie ook niet-fiscale motieven had (economisch, zakelijk, familiale planning). Slaagt hij daarin, dan valt de GAAR weg.\n\nAls het tegenbewijs faalt: de administratie herdefineert de rechtshandeling en heft belasting alsof de belastingplichtige de 'normale' weg had gekozen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De initiële bewijslast bij de fiscus is een waarborg tegen willekeurige toepassing: de GAAR is geen vrijgeleide om elke fiscale optimalisatie aan te vallen — ze vereist gemotiveerde rechtvaardiging."
+          }
+        }
+      },
+      {
+        "id": "herdefinitie-gevolg",
+        "naam": {
+          "primair": "Herdefinitie als rechtsgevolg",
+          "synoniemen": [
+            "fiscale herdefinitie",
+            "tegenstelbaarheid niet-toepasselijkheid"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Wanneer misbruik vaststaat en het tegenbewijs faalt, **herdefinieert de administratie** de rechtshandeling(en): ze worden fiscaal behandeld als de rechtshandeling(en) die de belastingplichtige had gesteld indien hij de 'normale' weg had gekozen — de weg die niet tot misbruik leidt.\n\nConcreet resultaat:\n- De **civielrechtelijke geldigheid** blijft intact: de rechtshandeling zelf is niet nietig\n- De **fiscale gevolgen** worden gecorrigeerd: belasting wordt geheven alsof de misbruik-constructie niet bestond\n- **Bijkomende belasting + belastingverhoging** kunnen worden opgelegd",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toepassingsgebied-belastingsoorten",
+        "naam": {
+          "primair": "Toepassingsgebied per belastingsoort",
+          "synoniemen": [
+            "GAAR inkomstenbelasting",
+            "GAAR registratierechten",
+            "GAAR BTW"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "De GAAR bestaat in **meerdere varianten** voor de verschillende belastingstelsels:\n\n- **Inkomstenbelasting** (WIB92): de algemene anti-misbruikbepaling is opgenomen in het WIB92 en geldt voor alle inkomstenbelastingen (PB, VenB, BNI, RPB)\n- **BTW**: een gelijkaardige GAAR-logica is verankerd in het BTW-wetboek, geïnspireerd door de Europese rechtspraak (met name het arrest Halifax van het Europees Hof van Justitie)\n- **Registratie- en successierechten**: analogische anti-misbruikbepalingen gelden ook voor de registratierechten en de erfbelasting in de gewesten\n\nDe werking en bewijslastverdeling zijn vergelijkbaar maar de juridische grondslagen zijn gescheiden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderscheid-simulatie",
+        "naam": {
+          "primair": "Onderscheid met simulatie",
+          "synoniemen": [
+            "simulatie vs. misbruik"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**Simulatie** (civielrechtelijk) en **fiscaal misbruik** (GAAR) zijn fundamenteel verschillend:\n\n| | Simulatie | Fiscaal misbruik |\n|---|---|---|\n| **Kern** | Partijen doen alsof iets anders dan wat echt bedoeld is; er is bewust bedrog t.a.v. derden | De constructie is echt bedoeld maar dient hoofdzakelijk een fiscaal doel |\n| **Civielrechtelijke geldigheid** | Wordt verworpen (gesimuleerde handeling is nietig t.a.v. fiscus) | Blijft intact — alleen fiscale gevolgen worden gecorrigeerd |\n| **Bewijslast** | Bij de fiscus (absolute bewijslast) | Gedeeld: fiscus initieel, belastingplichtige tegenbewijs |\n| **Historisch** | Langer erkend in Belgisch fiscaal recht | Ingevoerd door wet van 29 maart 2012 |",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid is examen-kritisch: bij simulatie wordt de schijnhandeling verworpen en de echte handeling belast; bij GAAR blijft de handeling civielrechtelijk geldig maar worden de fiscale effecten geneutraliseerd."
+          }
+        }
+      },
+      {
+        "id": "niet-fiscale-motieven-tegenbewijs",
+        "naam": {
+          "primair": "Niet-fiscale motieven als tegenbewijs",
+          "synoniemen": [
+            "zakelijke motieven",
+            "economische motieven"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige ontsnapt aan de GAAR als hij aantoont dat zijn constructie ook **niet-fiscale motieven** heeft die de keuze verklaren. Dit mogen zijn:\n- **Economische motieven**: synergieën, risicobeperking, operationele efficiëntie\n- **Familiale motieven**: successieplanning, samenwerkingsstructuur\n- **Zakelijke of organisatorische motieven**: corporate governance, aansprakelijkheidsbeperking\n\nDe motieven hoeven niet de **enige** reden te zijn — ze moeten alleen **substantieel** genoeg zijn om de constructie mede te verklaren naast het fiscale voordeel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verhouding-specifieke-antimisbruikbepalingen",
+        "naam": {
+          "primair": "Verhouding tot specifieke anti-misbruikbepalingen",
+          "synoniemen": [
+            "lex specialis",
+            "samenloop anti-misbruikbepalingen"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De GAAR is een **subsidiaire bepaling**: wanneer een **specifieke anti-misbruikbepaling** op dezelfde constructie van toepassing is, gaat die voor (lex specialis derogat legi generali). Voorbeelden van specifieke bepalingen die voor de GAAR gaan:\n- Thin capitalisation-regels (ebitda-aftrekbeperking)\n- Bepalingen inzake abnormale of goedgunstige voordelen\n- CFC-regels (gecontroleerde buitenlandse vennootschappen)\n\nDe GAAR wordt dan enkel ingeroepen voor constructies die niet onder een specifieke bepaling vallen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-beginselen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De GAAR is een uitwerking van het beginsel dat fiscale wetgeving moet worden geïnterpreteerd conform haar doel en strekking."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "abnormale-goedgunstige-voordelen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide zijn anti-misbruikinstrumenten die de fiscus toelaat in te grijpen in situaties die de wet niet letterlijk verbiedt",
+        "Beide vereisen actie van de administratie en laten tegenbewijs toe"
+      ],
+      "verschillen": [
+        "Abnormale/goedgunstige voordelen: gericht op intercompany-transacties die niet at arm's length zijn",
+        "GAAR: gericht op constructies die hoofdzakelijk fiscaal gemotiveerd zijn, ongeacht de partijrelatie"
+      ],
+      "verwarring_risico": "Beide bepalingen kunnen worden ingeroepen bij intercompany-constructies met fiscaal voordeel — de juiste grondslag bepaalt de bewijslast en het rechtsgevolg."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beps-actieplan",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het BEPS-actieplan (OESO) heeft de internationale druk voor effectieve GAAR-bepalingen versterkt; de ATAD-richtlijn verplicht EU-lidstaten tot een GAAR voor grensoverschrijdende constructies."
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "fiscale-beginselen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De GAAR staat op gespannen voet met het principe van de minst belaste weg: de belastingplichtige mag kiezen, maar alleen als de keuze niet in strijd is met de ratio legis van de fiscale bepaling."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "atad-richtlijn",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De ATAD-richtlijn (EU) legt een minimumstandaard voor een GAAR op voor alle EU-lidstaten inzake vennootschapsbelasting. De Belgische GAAR voldoet aan deze vereiste."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "transfer-pricing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide correctie-mechanismen grijpen in op intercompany-transacties of -structuren met fiscale impact"
+      ],
+      "verschillen": [
+        "Transfer pricing: correctie op prijzen bij gelieerde partijen (arm's length beginsel)",
+        "GAAR: correctie op de keuze van de constructie zelf (ongeacht de prijs)"
+      ],
+      "verwarring_risico": "Bij intercompany-structuren kunnen beide bepalingen tegelijk spelen — de administratie kiest in de praktijk de meest effectieve grondslag."
+    }
+  ]
 }

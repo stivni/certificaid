@@ -1,8 +1,17 @@
 {
   "id": "groottecategorie-vennootschap",
   "naam": {
-    "primair": "Groottecategorie vennootschap"
+    "primair": "Groottecategorie vennootschap",
+    "synoniemen": [
+      "grootteklasse",
+      "vennootschapsgrootte",
+      "omvangscriterium vennootschap"
+    ],
+    "vertaling": {
+      "fr": "Catégorie de taille de société"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +21,11 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "1.2.IV.B",
+      "2.3.II.H",
+      "3.0.I.A"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +38,437 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.2.IV.B",
-      "2.3.II.H",
-      "3.0.I.A"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Groottecategorie vennootschap",
+        "tekst": "De **groottecategorie van een vennootschap** is de wettelijke indeling van vennootschappen in drie klassen — **micro**, **klein** en **groot** — op basis van drempelwaarden voor balanstotaal, netto-omzet en gemiddeld personeelsbestand. De indeling bepaalt welke **verslaggevingsverplichtingen, controleverplichting en boekhoudregelgeving** van toepassing zijn.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De groottecategorisering werkt met drie **cumulatieve criteria** die elk op zichzelf gemeten worden op balansdatum: balanstotaal, netto-omzet en gemiddeld personeelsbestand. Een vennootschap valt in een hogere categorie wanneer ze **twee van de drie drempelwaarden** overschrijdt over twee opeenvolgende boekjaren. Het omgekeerde geldt bij daling.\n\nDit kader is geen louter administratieve indeling: de categorie bepaalt rechtstreeks:\n- **Publicatieplicht** — volledige vs. verkorte jaarrekening\n- **Controleverplichting** — al dan niet verplicht commissaris benoemen\n- **Boekhoudregels** — welk schema (volledig vs. verkort) en welke waarderingsregels",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De categorisering beantwoordt aan het **proportionaliteitsbeginsel**: hoe groter en complexer een vennootschap, hoe zwaarder de informatieplichten tegenover aandeelhouders, schuldeisers en de maatschappij. Kleine entiteiten zouden onevenredig belast worden door de rapporteringsverplichtingen die voor grote ondernemingen met duizenden stakeholders verantwoord zijn.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Bepalen welke **jaarrekening-schema** een vennootschap moet opmaken (volledig of verkort).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Beoordelen of een vennootschap **verplicht een commissaris** moet benoemen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Nagaan of een vennootschap in aanmerking komt voor **verlaagd tarief vennootschapsbelasting** of andere fiscale voordelen gekoppeld aan de kleinevennootschapsstatus.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Eenmanszaken en vrije beroepen** — de WVV-groottecriteria gelden uitsluitend voor vennootschappen met rechtspersoonlijkheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Consolidatiekring bepalen** — daarvoor gelden aparte groottecriteria voor groepen (moedervennootschapstoets op geconsolideerde basis).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De categorie wordt vastgesteld op basis van de **cijfers van het afgesloten boekjaar** en treedt in werking voor het **volgende boekjaar**. Een éénmalige overschrijding of daling volstaat niet — de drempel moet twee opeenvolgende boekjaren overschreden of onderschreden zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "**Beursgenoteerde vennootschappen** worden voor bepaalde verplichtingen (bv. IFRS-verplichting) niet beoordeeld via de WVV-groottecriteria maar via EU-verordeningen die rechtstreeks van toepassing zijn.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "drie-categorieen",
+        "naam": {
+          "primair": "Drie groottecategorieën",
+          "synoniemen": [
+            "micro",
+            "klein",
+            "groot"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het WVV onderscheidt drie categorieën: **micro-vennootschap**, **kleine vennootschap** en **grote vennootschap**. De micro-vennootschap is een bijzondere subcategorie van de kleine vennootschap. Wie niet kwalificeert als klein, is automatisch groot.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drie-criteria",
+        "naam": {
+          "primair": "Drie meetcriteria"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De indeling steunt op drie criteria, afzonderlijk gemeten op balansdatum:\n1. **Balanstotaal** — totaal der activa\n2. **Netto-omzet** — omzet na kortingen en btw\n3. **Gemiddeld personeelsbestand** — voltijdse equivalenten over het boekjaar\n\nEen vennootschap valt in een hogere categorie wanneer ze **meer dan één criterium** overschrijdt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "twee-van-drie-drempel",
+        "naam": {
+          "primair": "Twee-van-drie-drempel"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vennootschap wijzigt van categorie wanneer ze **minstens twee van de drie criteria** overschrijdt of onderschrijdt gedurende **twee opeenvolgende boekjaren**. Bij het eerste boekjaar na oprichting geldt de toestand op het einde van dat boekjaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De **twee-van-drie-regel** en het **twee-boekjaren-principe** samen zorgen voor **stabiliteit**: een vennootschap die één exceptioneel jaar heeft springt niet onmiddellijk naar een andere categorie met zwaardere verplichtingen. Dit voorkomt regelstress bij tijdelijke schommelingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempelwaarden-klein",
+        "naam": {
+          "primair": "Drempelwaarden kleine vennootschap"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vennootschap is **klein** als ze op balansdatum van het laatste afgesloten boekjaar niet meer dan één van de volgende criteria overschrijdt:\n- Balanstotaal: **€ 4.500.000**\n- Netto-omzet: **€ 9.000.000**\n- Gemiddeld personeelsbestand: **50 voltijdse equivalenten**\n\nDeze bedragen zijn indicatief — de exacte actuele bedragen staan in het KB en kunnen via indexering gewijzigd zijn.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempelwaarden-micro",
+        "naam": {
+          "primair": "Drempelwaarden micro-vennootschap"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vennootschap is **micro** als ze op balansdatum van het laatste afgesloten boekjaar niet meer dan één van de volgende criteria overschrijdt:\n- Balanstotaal: **€ 350.000**\n- Netto-omzet: **€ 700.000**\n- Gemiddeld personeelsbestand: **10 voltijdse equivalenten**\n\nDeze bedragen zijn indicatief — de exacte actuele bedragen staan in het KB en kunnen via indexering gewijzigd zijn.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gevolgen-per-categorie",
+        "naam": {
+          "primair": "Gevolgen per categorie"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De categorie heeft directe rechtsgevolgen op meerdere domeinen:\n\n**Micro-vennootschap**\n- Meest beperkt schema jaarrekening (sterk vereenvoudigd)\n- Geen verplichte commissaris\n- Vrijgesteld van bepaalde toelichtingsvereisten\n\n**Kleine vennootschap**\n- Verkort schema jaarrekening (maar uitgebreider dan micro)\n- Geen verplichte commissaris (tenzij 3/3-criterium)\n- Verlaagd VenB-tarief toepasbaar bij kwalificatie\n\n**Grote vennootschap**\n- Volledig schema jaarrekening verplicht\n- Commissaris verplicht te benoemen\n- Uitgebreide toelichtingsverplichting\n- Sociale balans verplicht (bij ≥ 20 werknemers)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "commissaris-drempel",
+        "naam": {
+          "primair": "Commissarisdrempel (3/3-criterium)"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Kleine vennootschappen zijn in principe vrijgesteld van de verplichting een commissaris te benoemen. Een **uitzondering** geldt wanneer een kleine vennootschap de volgende drie criteria **alle drie** overschrijdt gedurende twee opeenvolgende boekjaren:\n- Balanstotaal: **€ 4.500.000**\n- Netto-omzet: **€ 9.000.000**\n- Gemiddeld personeelsbestand: **50**\n\nIn dat geval is de commissarisbenoeming alsnog verplicht, ook al blijft de vennootschap 'klein' op basis van de twee-van-drie-regel.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "oprichtingsjaar-uitzondering",
+        "naam": {
+          "primair": "Oprichtingsjaar — bijzondere regel"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "In het **eerste boekjaar** na oprichting is er nog geen vergelijkingsjaar. De categorie wordt dan bepaald op basis van de **toestand op het einde van het eerste boekjaar** zelf — de twee-boekjaren-regel is niet van toepassing.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrechtelijk-kader-wvv",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "jaarrekening",
+      "toelichting": "De groottecategorie bepaalt welk jaarrekening-schema (volledig of verkort) verplicht is.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "externe-audit-commissaris",
+      "toelichting": "Grote vennootschappen zijn verplicht een commissaris te benoemen; kleine vennootschappen enkel bij overschrijding van het 3/3-criterium.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "groottecategorie-vereniging",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide gebruiken vergelijkbare drie-criteria-methodiek (balanstotaal, omzet, personeel)",
+        "Beide bepalen publicatie- en controleverplichtingen"
+      ],
+      "verschillen": [
+        "Drempelwaarden voor verenigingen liggen anders dan voor vennootschappen",
+        "Toepasbare wetgeving verschilt (WVV vs. specifieke VZW-regels)"
+      ],
+      "verwarring_risico": "Studenten passen soms vennootschapsdrempels toe op vzw's of omgekeerd"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "verlaagd-tarief-kleine-vennootschap",
+      "toelichting": "De kwalificatie als kleine vennootschap is een van de voorwaarden voor het verlaagd VenB-tarief.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,8 +1,20 @@
 {
   "id": "masterbudget",
   "naam": {
-    "primair": "Masterbudget"
+    "primair": "Masterbudget",
+    "synoniemen": [
+      "geïntegreerd budget",
+      "geconsolideerd budget",
+      "budgetsynthese",
+      "geprojecteerde jaarrekening",
+      "pro forma financial statements"
+    ],
+    "vertaling": {
+      "fr": "budget maître",
+      "en": "master budget"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +36,18 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relatie-suggesties ingevuld vanuit training-data."
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T08:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende pass: typefout 'bevoorradins' → 'bevoorrading' gecorrigeerd in kern.definitie. Schema-conformiteit geverifieerd: alle inhoud_type-waarden geldig, alle confidence-labels verondersteld, relaties-veld op top-level."
       }
     ],
     "ankers": [
@@ -33,20 +57,473 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Masterbudget",
+        "tekst": "Het **masterbudget** is het geïntegreerde geheel van alle functionele deelbudgetten (commercieel, productie, investering, bevoorrading, administratie, kas) samengebracht in een **geprojecteerde resultatenrekening, balans en kasstroomoverzicht**. Het vormt het eindpunt van de jaarlijkse budgetcyclus en maakt zichtbaar of de afzonderlijke plannen samen leiden tot de gewenste financiële uitkomst.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het masterbudget **consolideert** alle deelbudgetten en detecteert onderlinge inconsistenties: wanneer een verkoopbudget een hogere omzet plant dan het productiebudget kan leveren, of wanneer het kasbudget een tekort toont dat niet gedekt is door de financieringsplannen. Het antwoord op deze spanning is het **iteratieve herschrijven** van deelbudgetten totdat het geïntegreerde geheel intern consistent is.\n\nHet masterbudget bestaat typisch uit drie geprojecteerde overzichten:\n- **Pro forma resultatenrekening** — verwachte omzet minus kosten geeft het gebudgetteerde nettoresultaat\n- **Pro forma balans** — verwachte vermogensstructuur aan het einde van de budgetperiode\n- **Pro forma kasstroomoverzicht** — verwachte liquiditeitspositie per periode",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het masterbudget bestaat als apart concept naast de deelbudgetten omdat **integratie méér is dan optelling**. Deelbudgetten kunnen elk intern consistent zijn maar toch samen onhaalbaar zijn. De synthese dwingt afdelingen om hun aannames te confronteren en creëert een gedeeld beeld van de gewenste toekomstige financiële positie — die dan als benchmark dient voor de verschillenanalyse gedurende het jaar.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Alle organisaties met een **jaarlijkse budgetcyclus** waarbij meerdere functionele afdelingen elk een deelbudget opmaken.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Als **stuurinstrument** voor het management: de periodieke vergelijking van realisaties met het masterbudget genereert de basis voor de verschillenanalyse en bijsturing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Als **communicatie-instrument** naar externe stakeholders (bank, investeerders, raad van bestuur) om de financiële planning te verantwoorden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Projectmatige organisaties** zonder stabiele functionele structuur — voor hen is een projectbudget per opdracht relevanter dan een integraal masterbudget.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties van **extreme onzekerheid** — in dat geval vervangt een rolling forecast (meerdere scenario's, voortdurend bijgewerkt) het statisch masterbudget.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Start van de **jaarlijkse budgetcyclus**: zodra alle deelbudgetten zijn opgemaakt en goedgekeurd, begint de consolidatiestap naar het masterbudget.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Het masterbudget is afgerond wanneer de drie pro forma overzichten intern consistent zijn en door het bevoegd orgaan (directie, raad van bestuur) zijn **goedgekeurd**.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Maakt **interne inconsistenties** tussen deelbudgetten zichtbaar vóór de uitvoering begint — bijv. een verkoopbudget dat hogere omzet plant dan de productiecapaciteit toelaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Schept een **gedeeld referentiekader** voor de hele organisatie: iedereen werkt naar dezelfde financiële doelstellingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Budgetary slack** — afdelingsmanagers bouwen bewust speling in hun deelbudget in zodat ze de doelen gemakkelijker halen. Het masterbudget absorbeert deze vertekening en overschat kosten of onderschat opbrengsten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Starre sturing** — wanneer het masterbudget als enige benchmark wordt gebruikt zonder rolling forecast, verliest het snel aan relevantie bij gewijzigde omstandigheden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "deelbudgetten",
+        "naam": {
+          "primair": "Deelbudgetten",
+          "synoniemen": [
+            "functionele budgetten",
+            "subbudgetten",
+            "operationele budgetten"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Deelbudgetten zijn de **functionele bouwstenen** van het masterbudget. Elk deelbudget vertaalt de doelstellingen van één afdeling of functie in kwantitatieve termen. De zes klassieke deelbudgetten zijn: commercieel budget (verkoopvolumes en -prijzen), productiebudget (te produceren eenheden), bevoorradingsbudget (aan te kopen grondstoffen), administratiebudget (overheadkosten), investeringsbudget (capex) en kasbudget (liquiditeitsplanning).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "volgorde-deelbudgetten",
+        "naam": {
+          "primair": "Volgorde van deelbudgetten",
+          "synoniemen": [
+            "budgetketen",
+            "afhankelijkheidsketen"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De deelbudgetten zijn onderling **afhankelijk** en worden in een logische volgorde opgesteld. Het **verkoopbudget** is het vertrekpunt — het bepaalt de verwachte vraag. Vervolgens leidt het productiebudget hieruit de te produceren aantallen af (rekening houdend met gewenste voorraadniveaus). Het bevoorradingsbudget berekent de benodigde grondstoffen. Pas daarna worden de kostgerelateerde budgetten (administratie, investeringen) afgestemd en wordt het kasbudget berekend op basis van alle inkomsten- en uitgavenstromingen met hun betalingstermijnen.\n\nVereenvoudigd schema:\nVerkoopbudget → Productiebudget → Bevoorradingsbudget → Administratiebudget + Investeringsbudget → Kasbudget → Masterbudget",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "pro-forma-resultatenrekening",
+        "naam": {
+          "primair": "Pro forma resultatenrekening",
+          "synoniemen": [
+            "geprojecteerde resultatenrekening",
+            "gebudgetteerde resultatenrekening"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **pro forma resultatenrekening** is het geprojecteerde resultatenrekening dat volgt uit de samenvoeging van alle deelbudgetten. Ze toont de verwachte omzet, kosten per categorie (grondstoffen, arbeid, overheadkosten, afschrijvingen op geplande investeringen) en het gebudgetteerde nettoresultaat voor de budgetperiode.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "pro-forma-balans",
+        "naam": {
+          "primair": "Pro forma balans",
+          "synoniemen": [
+            "geprojecteerde balans",
+            "gebudgetteerde balans"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **pro forma balans** is de verwachte vermogensstructuur aan het einde van de budgetperiode. Ze integreert de effecten van het investeringsbudget (nieuwe activa), het kasbudget (liquiditeitsbeweging), het geplande resultaat (wijziging eigen vermogen) en de verwachte schuldenstructuur (financieringsbehoeften).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kasbudget",
+        "naam": {
+          "primair": "Kasbudget",
+          "synoniemen": [
+            "cash budget",
+            "liquiditeitsplanning",
+            "kasstroombudget",
+            "treasurybudget"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **kasbudget** projecteert per periode (maand, kwartaal) de verwachte ontvangsten en uitgaven, gecorrigeerd voor **betalingstermijnen**. Het vertaalt de andere deelbudgetten naar effectieve kasstromen en detecteert tijdelijke liquiditeitspieken of -tekorten. Verschil met de pro forma resultatenrekening: kosten/opbrengsten volgen boekhoudkundige timing; kas volgt effectieve betaling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "iteratief-budgetproces",
+        "naam": {
+          "primair": "Iteratief budgetproces",
+          "synoniemen": [
+            "budgetonderhandeling",
+            "budgetcyclus"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het masterbudget komt zelden in één ronde tot stand. Wanneer de eerste consolidatie een onaanvaardbaar resultaat oplevert (te hoog tekort, negatieve liquiditeit, te lage winstmarge), worden **deelbudgetten herzien** en opnieuw gesynthetiseerd. Dit iteratieve proces gaat door totdat het geïntegreerde budget voldoet aan de financiële doelstellingen.\n\nIn de praktijk onderscheidt men twee benaderingen:\n- **Top-down**: directie geeft financiële doelstellingen op; afdelingen passen hun deelbudget aan\n- **Bottom-up**: afdelingen dienen budgetverzoeken in; directie consolideert en knipt bij tekort",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rolling-forecast",
+        "naam": {
+          "primair": "Rolling forecast",
+          "synoniemen": [
+            "voortschrijdende prognose",
+            "rolling budget"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **rolling forecast** is een dynamisch alternatief voor het statisch masterbudget: in plaats van één vaste jaarplanning die nooit wijzigt, wordt de prognose maandelijks of per kwartaal vernieuwd voor een vaste horizon (bijv. altijd de komende 12 maanden). Voordeel: altijd actuele stuurinformatie. Nadeel: geen stabiele benchmark meer voor de jaarlijkse verschillenanalyse.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "budgetbeheer",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Budgetbeheer is het overkoepelende kader; het masterbudget is het centrale instrument voor de planningsfase."
+    },
+    {
+      "type": "bevat",
+      "target": "kasstroom-analyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het kasbudget is een integraal onderdeel van het masterbudget."
+    },
+    {
+      "type": "triggert",
+      "target": "variantieanalyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het goedgekeurde masterbudget vormt de norm waartegen realisaties worden vergeleken in de variantieanalyse."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "managementcontrole-fiche",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Managementcontrole omvat budgettering als kerncomponent, maar is breder (KPI-rapportering, balanced scorecard, etc.).",
+      "gelijkenissen": [
+        "Beide zijn sturingsinstrumenten voor het management",
+        "Beide vertrekken van strategische doelstellingen"
+      ],
+      "verschillen": [
+        "Masterbudget is een kwantitatief plan; managementcontrole is het geheel van opvolgingsprocessen",
+        "Masterbudget heeft een vaste periode; managementcontrole is continu"
+      ]
+    },
+    {
+      "type": "vereist",
+      "target": "analytische-boekhouding",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Voor het opstellen van deelbudgetten per kostenplaats of product is een analytische boekhouding (kostenstructuur per activiteit) noodzakelijk."
+    }
+  ]
 }

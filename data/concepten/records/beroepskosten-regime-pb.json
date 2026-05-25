@@ -1,11 +1,26 @@
 {
   "id": "beroepskosten-regime-pb",
   "naam": {
-    "primair": "Beroepskosten regime pb"
+    "primair": "Beroepskosten regime pb",
+    "synoniemen": [
+      "aftrek beroepskosten",
+      "beroepskosten personenbelasting",
+      "professionele kosten pb"
+    ],
+    "vertaling": {
+      "fr": "Frais professionnels régime IPP"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.2.VI",
+      "2.2.VI.B",
+      "2.2.taak.3",
+      "2.2.taak.4"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,32 +39,496 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern (definitie/substantie/rationale), elementen (7), gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.2.VI",
-      "2.2.VI.B",
-      "2.2.taak.3",
-      "2.2.taak.4"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Beroepskosten regime pb",
+        "tekst": "Het **beroepskosten-regime** in de personenbelasting omvat de regels die bepalen welke kosten een belastingplichtige mag aftrekken van zijn beroepsinkomsten, en op welke manier. De fundamentele keuze is die tussen het **wettelijk forfait** (een percentage van het bruto-beroepsinkomen, geplafonneerd) en de **werkelijke beroepskosten** (bewijs-aangifte van alle gedane kosten). Het kader geldt voor alle categorieën van beroepsinkomsten: bezoldigingen, winsten, baten en bezoldigingen van bedrijfsleiders.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de praktijk staan belastingplichtigen elk jaar voor de keuze tussen twee benaderingen:\n\n**Forfait**: de administratie past automatisch een percentage toe op het bruto-beroepsinkomen, met een wettelijk vastgesteld plafond. Geen bewijslast, geen boekhouding vereist.\n\n**Werkelijke kosten**: de belastingplichtige declareert en bewijst alle gedane beroepskosten. Meer werk, maar potentieel hogere aftrek dan het forfait — zeker voor zelfstandige beroepen met hoge kosten (auto, kantoor, IT, opleidingen).\n\nBelangrijke beperking: gemengde kosten (privé- én beroepsgebruik) mogen slechts proportioneel worden afgetrokken. De beroepsverhouding moet aannemelijk worden gemaakt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het forfait vermindert de administratieve last voor werknemers en kleine beroepen — de meerderheid heeft sowieso geen hogere kosten dan het forfait. Wie wél hogere kosten heeft (bv. een accountant met hoge kantoor- en autokosten, een vrij beroep met dure beroepsaansprakelijkheidsverzekering) kiest werkelijke kosten. De wet legt de bewijslast bij de belastingplichtige — de fiscus aanvaardt een aftrek alleen voor kosten die in verband staan met het uitoefenen van het beroep en die gedaan zijn om belastbaar inkomen te verwerven of te behouden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belastingplichtigen met **hoge beroepsgebonden kosten** die het wettelijk forfait overstijgen — typisch zelfstandigen met hoge autokosten, kantoorkosten of beroepsaansprakelijkheidsverzekeringen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De werkelijke kostenmethode is alleen fiscaal interessant als de som van werkelijke kosten hoger uitvalt dan het forfaitair berekende bedrag."
+        },
+        {
+          "tekst": "Vrije beroepen en zelfstandigen in de categorie **winsten en baten** — zij kunnen nooit het forfait toepassen voor alle kostenposten, en werkelijke kosten is voor hen de standaard.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Voor winsten en baten geldt een specifiek forfait, maar de bewijslast-benadering van werkelijke kosten sluit nauwer aan bij de realiteit van een zelfstandig beroep met divers kostenpatroon."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Werknemers met een **standaard kostenpatroon** zonder uitzonderlijke beroepskosten — voor hen is het automatisch toegepaste forfait bijna altijd hoger dan hun werkelijke kosten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De forfaitaire aftrek is zo berekend dat ze voor de gemiddelde werknemer gunstiger is dan een gedetailleerde opgave van werkelijke kosten; het aanvragen van werkelijke kosten levert dan een lagere aftrek op."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Een kost is aftrekbaar als beroepskost als hij **in verband staat met de uitoefening van het beroep**, **gedaan is om belastbaar inkomen te verwerven of te behouden**, en **verantwoord is door middel van bewijsstukken** (facturen, bonnen, bankuittreksels).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij keuze voor werkelijke kosten: de **bewijslast rust volledig bij de belastingplichtige**. De administratie aanvaardt geen aftrek zonder voldoende verantwoording.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "**Kosten met een privé-karakter** zijn niet aftrekbaar, ook niet als ze gedeeltelijk beroepsmatig zijn — enkel het beroepsgedeelte is aftrekbaar (gemengde kosten).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Kosten die **wettelijk als niet-aftrekbaar zijn aangemerkt** (bv. bepaalde boetes, extralegale pensioenkosten boven plafonds) kunnen nooit als beroepskost worden afgetrokken, ook niet bij de werkelijke kostenmethode.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Overschatting van de beroepsverhouding** bij gemengde kosten — een te hoog beroepspercentage voor een auto of woning leidt tot belastingverhoging en eventuele nalatigheidsinteresten bij controle.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "wettelijk-forfait",
+        "naam": {
+          "primair": "Wettelijk forfait",
+          "synoniemen": [
+            "forfaitaire beroepskosten",
+            "standaard beroepskosten"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **wettelijk forfait** is een percentage dat de fiscus automatisch toepast op het bruto-beroepsinkomen om de aftrekbare beroepskosten te bepalen, zonder dat de belastingplichtige kosten moet bewijzen. Het forfait is geplafonneerd (wettelijk maximumbedrag) en varieert naar gelang de categorie van beroepsinkomen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Voor **werknemers en bedrijfsleiders** bedraagt het forfait een wettelijk percentage van het bruto-beroepsinkomen (het exacte percentage en plafond worden jaarlijks geïndexeerd). Voor **winsten en baten** (zelfstandigen) bestaat een afzonderlijk — en lager — forfait, of wordt geopteerd voor werkelijke kosten.\n\nKenmerken van het forfait:\n- Geen bewijsstukken vereist\n- Automatisch toegepast tenzij de belastingplichtige werkelijke kosten aanvraagt\n- Geplafonneerd: boven een bepaald inkomen stijgt de forfaitaire aftrek niet meer\n- Kan niet gecombineerd worden met werkelijke kosten binnen dezelfde categorie",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte percentages en plafonds worden jaarlijks geïndexeerd — de stagiair moet deze kennen via het Cijferzakboekje bij het examen, niet uit het hoofd."
+          }
+        }
+      },
+      {
+        "id": "werkelijke-beroepskosten",
+        "naam": {
+          "primair": "Werkelijke beroepskosten",
+          "synoniemen": [
+            "aftrek werkelijke kosten",
+            "bewijs werkelijke kosten"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Werkelijke beroepskosten** zijn de effectief gemaakte kosten die de belastingplichtige bewijst en declareert in plaats van het wettelijk forfait toe te passen. De keuze voor werkelijke kosten geldt voor de gehele categorie van beroepsinkomen — men kan niet voor bepaalde kosten het forfait en voor andere kosten de werkelijke methode kiezen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Typische werkelijke beroepskosten:\n- **Autokosten** — aankoop of leasing, brandstof, verzekering, onderhoud (pro rata beroepsgebruik)\n- **Kantoorkosten** — huur, energie, kantoormateriaal (pro rata beroepsgedeelte van de woning)\n- **Beroepsaansprakelijkheidsverzekering** — 100% beroepsmatig voor vrije beroepen\n- **Beroepsopleiding** — studiegeld, handboeken, congressen\n- **Informaticamateriaal** — pro rata beroepsgebruik\n- **Telecommunicatie** — telefoon, internet (pro rata beroepsgedeelte)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "beroepsmatig-verband",
+        "naam": {
+          "primair": "Beroepsmatig verband",
+          "synoniemen": [
+            "causaliteitscriterium",
+            "beroepsgebonden karakter"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Om aftrekbaar te zijn als beroepskost moet een uitgave voldoen aan drie cumulatieve voorwaarden: (1) de kost moet **gedaan zijn met het oog op het verwerven of behouden van belastbaar inkomen**, (2) de kost moet **in verband staan met de uitoefening van het beroep**, en (3) de kost moet **verantwoord zijn door bewijsstukken** (facturen, bonnen). Deze drievoudige voorwaarde vormt het kern-criterium dat de fiscus hanteert bij controle.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gemengde-kosten",
+        "naam": {
+          "primair": "Gemengde kosten",
+          "synoniemen": [
+            "kosten met gemengd gebruik",
+            "pro rata aftrek"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Gemengde kosten** zijn kosten die zowel voor beroeps- als privédoeleinden worden gemaakt. Slechts het **beroepsgedeelte** is aftrekbaar. De beroepsverhouding moet door de belastingplichtige worden aangetoond en aannemelijk worden gemaakt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Voorbeelden van bepaling van de beroepsverhouding:\n- **Auto**: beroepskilometers / totale kilometers (ritten-dagboek of forfait voor woon-werkverkeer)\n- **Woning/kantoor**: beroepsoppervlakte / totale oppervlakte × procentuele kostenaandelen (huur, energie, verzekering)\n- **Telefoon/internet**: schatting beroepsgebruik (bv. 60% beroepsmatig op basis van tijdregistratie of abonnementsverdeling)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De fiscus controleert de aannemelijkheid van de beroepsverhouding. Een te hoog percentage zonder onderbouwing leidt tot verwerping van het privégedeelte en eventuele belastingverhoging."
+          }
+        }
+      },
+      {
+        "id": "categorie-specifieke-regels",
+        "naam": {
+          "primair": "Categorie-specifieke regels",
+          "synoniemen": [
+            "inkomstencategorie beroepskosten"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het beroepskosten-regime verschilt naargelang de **categorie van beroepsinkomen**:\n\n- **Bezoldigingen van werknemers**: wettelijk forfait (hoog percentage, geplafonneerd) — de meeste werknemers nemen het forfait\n- **Bezoldigingen van bedrijfsleiders**: zelfde logica als werknemers, maar vaak kiezen bedrijfsleiders voor werkelijke kosten\n- **Winsten** (handelaars, nijveraars): werkelijke kosten zijn de norm; apart — lager — forfait beschikbaar\n- **Baten** (vrije beroepen, zelfstandigen): werkelijke kosten zijn standaard; forfait beschikbaar maar lager dan bij bezoldigingen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "niet-aftrekbare-kosten",
+        "naam": {
+          "primair": "Niet-aftrekbare beroepskosten",
+          "synoniemen": [
+            "verworpen beroepskosten pb",
+            "wettelijk uitgesloten kosten"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bepaalde kosten zijn wettelijk uitgesloten van aftrek als beroepskost in de personenbelasting, zelfs als ze beroepsmatig zijn. Voorbeelden: **boetes en strafsancties** opgelegd door een overheid, kosten van **beroepskleding met privékarakter**, en kosten die de wet uitdrukkelijk uitsluit. Deze lijst overlapt deels met de verworpen uitgaven in de vennootschapsbelasting, maar is niet identiek.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijsmiddelenplicht",
+        "naam": {
+          "primair": "Bewijsmiddelenplicht",
+          "synoniemen": [
+            "bewijslast beroepskosten",
+            "verantwoordingsstukken"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij keuze voor werkelijke beroepskosten draagt de belastingplichtige de **volledige bewijslast**: elke aftrekgeplaatste kost moet kunnen worden aangetoond aan de hand van **facturen, bonnen, bankafschriften of andere bewijsstukken**. De fiscus kan deze stukken opvragen, zowel bij aangifte als bij controle nadien. Stukken moeten worden bewaard gedurende de wettelijke bewaringstermijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "inkomstencategorieen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beroepsinkomen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "aftrekbare-beroepskosten-venb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "In de vennootschapsbelasting gelden gelijkaardige principes voor aftrekbaarheid van beroepskosten, maar de categorie-indeling en specifieke aftrekregimes verschillen.",
+      "gelijkenissen": [
+        "causaliteitscriterium (kost in verband met beroep)",
+        "bewijsplicht bij de belastingplichtige"
+      ],
+      "verschillen": [
+        "geen forfait-keuze in VenB",
+        "verworpen uitgaven-systeem in VenB verschilt van pb-uitsluitingen"
+      ],
+      "verwarring_risico": "Studenten verwarren soms de forfait-logica (typisch pb) met de volledig-aftrekbaar-tenzij-verworpen-logica (typisch VenB).",
+      "render_hint": "als_waarschuwing"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "winst-baten-zelfstandige-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "werknemersbezoldiging-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,11 +1,25 @@
 {
   "id": "investeringsaftrek",
   "naam": {
-    "primair": "Investeringsaftrek"
+    "primair": "Investeringsaftrek",
+    "afkorting": "IA",
+    "synoniemen": [
+      "gewone investeringsaftrek",
+      "verhoogde investeringsaftrek",
+      "gespreide investeringsaftrek"
+    ],
+    "vertaling": {
+      "fr": "Déduction pour investissement"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.3.II.B",
+      "2.3.taak.3"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,515 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6"
       }
-    ],
-    "ankers": [
-      "2.3.II.B",
-      "2.3.taak.3"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Investeringsaftrek",
+        "tekst": "De **investeringsaftrek** is een fiscaal regime waarbij een vennootschap of zelfstandige een percentage van de aanschaffings- of beleggingswaarde van **nieuwe, afschrijfbare vaste activa** in mindering mag brengen van de **belastbare grondslag** — bovenop de normale afschrijving. De aftrek verlaagt dus de te belasten winst in het jaar van investering (of gespreid over de afschrijvingsduur).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De investeringsaftrek is een **eenmalige extra aftrek** die de fiscale kost van een investering verhoogt ten opzichte van de boekhoudkundige afschrijving. Economisch gezien is het een **belastingvrije reserve** die niet op de balans verschijnt maar enkel de belastbare grondslag verlaagt.\n\nHet mechanisme: de vennootschap koopt een actief, boekt de gewone afschrijving, en mag daarbóvenop een percentage van de aanschaffingswaarde aftrekken van de belastbare winst. Dit is **geen subsidie** — er is geen cashuitkering van de overheid — maar een **tijdsvoordeel**: de belasting op de investeringswinst verschuift naar later of valt gedeeltelijk weg.\n\nDrie varianten:\n- **Gewone IA** — eenmalig in het jaar van investering, lager percentage\n- **Verhoogde IA** — voor specifieke categorieën (octrooien, energiezuinige investeringen, milieu, …), hogere percentages\n- **Gespreide IA** — gespreid over de afschrijvingsduur, hogere totale aftrek dan eenmalig\n\nDe keuze voor **gespreide vs eenmalige** IA is een speelruimte die de belastingplichtige per investering mag maken.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De investeringsaftrek is een **investeringsstimulans** van de wetgever: door de belastingdruk te verlagen op het moment van investering worden vennootschappen gestimuleerd om te investeren in productiecapaciteit, innovatie en verduurzaming. De hogere percentages voor specifieke categorieën (milieu, O&O, energie) reflecteren beleidsprioriteiten. Het regime is bewust eenvoudiger dan subsidies: geen aanvraag, geen controlling-instantie — de belastingplichtige past het toe in de aangifte.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vennootschappen en **zelfstandigen** (winst- en batengenieters) die nieuwe, afschrijfbare vaste activa aanschaffen of tot stand brengen voor gebruik in België.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zowel vennootschapsbelasting (VenB) als personenbelasting (PB — beroepsinkomsten) kennen een investeringsaftrek, met eigen percentages en modaliteiten."
+        },
+        {
+          "tekst": "Investeringen in **categorieën met verhoogde percentages**: octrooien, milieuvriendelijke investeringen, energiezuinige investeringen, O&O, beveiliging.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De verhoogde percentages maken de investeringsaftrek fiscaal materieel interessanter voor deze categorieën dan voor gewone bedrijfsmiddelen."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Niet-afschrijfbare** activa (gronden, kunstwerken, voorraden).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De investeringsaftrek koppelt aan de afschrijvingsbasis. Activa die niet afschrijven, vallen buiten het toepassingsgebied."
+        },
+        {
+          "tekst": "Activa die **niet uitsluitend beroepsmatig** worden gebruikt (privégebruik sluit IA uit op het privégedeelte).",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Gemengd gebruik leidt tot proportionele uitsluiting; de exacte modaliteiten vereisen bronverificatie."
+        },
+        {
+          "tekst": "**Tweedehands** activa — de gewone investeringsaftrek is in principe beperkt tot nieuwe activa.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De exacte afbakening 'nieuw' vs 'tweedehands' en eventuele uitzonderingen voor zelfstandigen vereisen bronverificatie."
+        },
+        {
+          "tekst": "Vennootschappen die **financiering verlenen of vastgoed verhuren** als kernactiviteit — specifieke uitsluitingen gelden.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bepaalde sectoren zijn uitgesloten van de gewone investeringsaftrek; details vereisen bronverificatie."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het actief moet **nieuw** zijn (niet tweedehands) en **afschrijfbaar** over meer dan één jaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het actief moet worden aangewend voor de **uitoefening van een beroepswerkzaamheid** in België.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De aftrek mag niet **meer dan 100% van de belastbare winst** bedragen — het overschot is in principe overdraagbaar (overdraagbare IA).",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De overdraagbaarheid is een essentieel kenmerk maar de exacte regels (termijn, volgorde) vereisen bronverificatie."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Directe verlaging van de belastbare grondslag** bovenop de normale afschrijving — effectief lagere belastingdruk in het jaar van investering.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Geen aanvraagprocedure** — het regime wordt toegepast in de aangifte zelf, zonder voorafgaand dossier of goedkeuring.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Overdraagbaar** wanneer de winst onvoldoende is — het voordeel gaat niet verloren maar schuift door naar een volgend belastbaar tijdperk.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Terugname-risico** bij vervreemding vóór het einde van de afschrijvingsduur — de investeringsaftrek kan geheel of gedeeltelijk worden teruggenomen als belastbaar inkomen.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De terugname-modaliteiten (wanneer, hoeveel) vereisen bronverificatie. Dit is een kritiek risico bij asset-deals en herstructureringen."
+        },
+        {
+          "tekst": "**Incompatibiliteit** met bepaalde andere regimes — de investeringsaftrek kan niet worden gecombineerd met de aftrek voor octrooi-inkomsten of met belastingkredieten voor hetzelfde actief.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "gewone-investeringsaftrek",
+        "naam": {
+          "primair": "Gewone investeringsaftrek",
+          "synoniemen": [
+            "standaard investeringsaftrek"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **gewone investeringsaftrek** is de basisvariant: een **eenmalige aftrek** van een percentage van de aanschaffings- of beleggingswaarde van het nieuwe afschrijfbare actief, toe te passen in het belastbaar tijdperk van investering. Het percentage verschilt voor zelfstandigen (PB) en vennootschappen (VenB) en wordt periodiek door de wetgever aangepast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verhoogde-investeringsaftrek",
+        "naam": {
+          "primair": "Verhoogde investeringsaftrek",
+          "synoniemen": [
+            "thematische investeringsaftrek"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "Voor specifieke categorieën gelden hogere percentages dan de gewone IA. Categorieën zijn beleidsgestuurd en omvatten typisch:\n- **Octrooien en O&O-investeringen**\n- **Energiezuinige investeringen** en investeringen in hernieuwbare energie\n- **Milieuvriendelijke investeringen**\n- **Beveiliging**\n\nHet percentage voor de verhoogde IA kan oplopen tot 20–25% of meer (betwijfeld — exacte percentages wisselen met jaarlijkse aanpassingen).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De verhoogde percentages zijn een directe subsidie-substituut: in plaats van subsidiestromen gebruikt de overheid de belastingfactuur als hefboom voor investeringen in prioritaire categorieën."
+          }
+        }
+      },
+      {
+        "id": "gespreide-investeringsaftrek",
+        "naam": {
+          "primair": "Gespreide investeringsaftrek"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De belastingplichtige kan **kiezen** voor gespreide aftrek: in plaats van een eenmalige aftrek in het jaar van investering, wordt een percentage van de **resterende afschrijvingsbasis** elk jaar afgetrokken, parallel aan de gewone afschrijving. De totale cumulatieve aftrek over de gehele looptijd is **hoger** dan bij eenmalige IA.\n\nKeuze-moment: de keuze eenmalig vs gespreid moet worden gemaakt in het eerste belastbaar tijdperk — teruggaan is niet mogelijk.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Gespreide IA is voordeliger voor vennootschappen met een stabiele belastbare grondslag over meerdere jaren (totaal meer aftrek). Eenmalige IA is voordeliger wanneer de winst in het jaar van investering hoog is (timing-voordeel)."
+          }
+        }
+      },
+      {
+        "id": "investeringsaftrek-grondslag",
+        "naam": {
+          "primair": "Berekeningsgrondslag investeringsaftrek",
+          "synoniemen": [
+            "aanschaffings- of beleggingswaarde"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "De investeringsaftrek wordt berekend op de **aanschaffings- of beleggingswaarde** van het actief (exclusief BTW wanneer BTW aftrekbaar is):\n\n**IA = aanschaffings- of beleggingswaarde × toepasselijk percentage**\n\nBij gedeeltelijk beroepsgebruik wordt de grondslag beperkt tot het beroepsmatig deel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "overdraagbare-investeringsaftrek",
+        "naam": {
+          "primair": "Overdraagbare investeringsaftrek"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de investeringsaftrek de **belastbare winst van het betrokken tijdperk** overschrijdt, is het overschot **overdraagbaar** naar volgende belastbare tijdperken. De overdraagbare IA wordt verrekend voor de overige aftrekken in de volgorde van de aftrekketen.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De overdraagbaarheid vermijdt dat een verliesjaar het voordeel definitief teniet doet. De precieze verhouding tot andere overdraagbare aftrekken (zoals overgedragen verliezen) in de aftrekketen vereist bronverificatie."
+          }
+        }
+      },
+      {
+        "id": "herneming-investeringsaftrek",
+        "naam": {
+          "primair": "Herneming investeringsaftrek",
+          "synoniemen": [
+            "terugname investeringsaftrek"
+          ]
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een actief waarvoor investeringsaftrek werd genoten wordt **vervreemd vóór het einde van de afschrijvingsduur**, wordt de genoten aftrek (of een deel ervan) **teruggenomen als belastbaar inkomen** van het tijdperk van vervreemding. Dit risico geldt evenzeer bij inbreng van het actief in een andere vennootschap of bij herstructurering.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De herneming is de tegenhanger van het fiscale voordeel: de wetgever wil vermijden dat activa snel worden vervreemd louter om de IA te verzilveren en vervolgens het actief tweedehands terug te kopen."
+          }
+        }
+      },
+      {
+        "id": "positie-in-aftrekketen",
+        "naam": {
+          "primair": "Positie investeringsaftrek in de aftrekketen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De investeringsaftrek heeft een **vaste positie** in de opeenvolgende aftrekken bij de berekening van de belastbare grondslag voor vennootschapsbelasting. Ze wordt verrekend ná de DBI-aftrek en innovatie-aftrek maar vóór de aftrek van overgedragen verliezen (of in een andere volgorde — betwijfeld).\n\nDe positie in de keten bepaalt mee hoeveel winst er beschikbaar is om de IA te absorberen, en dus of er al dan niet een overdraagbaar saldo ontstaat.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De precieze volgorde in de aftrekketen is wettelijk vastgelegd en bepaalt in de praktijk de optimale strategie (wanneer kiezen voor IA vs notionele interestaftrek vs overdragen van verliezen)."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "belastbare-grondslag-vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De investeringsaftrek verlaagt de belastbare grondslag en is onderdeel van de VenB-aftrekketen."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "notionele-interestaftrek",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide verlagen de belastbare grondslag bovenop de normale kostenaftrek",
+        "Beide zijn keuze-regimes in de aangifte (geen voorafgaand verzoek vereist)"
+      ],
+      "verschillen": [
+        "Notionele interestaftrek is gebaseerd op eigen vermogen; IA op investeringen in activa",
+        "IA is investeringsgebonden; NIA is structureel (elke periode, ook zonder nieuwe investeringen)"
+      ],
+      "verwarring_risico": "Studenten verwarren soms welk regime prioriteit heeft in de aftrekketen en wanneer de keuze voor één regime het andere uitsluit."
+    },
+    {
+      "type": "valt_onder",
+      "target": "aftrekbare-beroepskosten-venb",
+      "grondslag": {
+        "confidence": "betwijfeld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De IA is technisch geen beroepskost maar een specifieke aftrek — de relatie met het aftrekbare-beroepskosten-kader vereist verfijning in relaties_aanvullen."
+    },
+    {
+      "type": "vereist",
+      "target": "materiele-vaste-activa",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De IA vereist de aanschaf van een nieuw afschrijfbaar actief — materieel of immaterieel vast actief."
+    },
+    {
+      "type": "niet_combineerbaar_met",
+      "target": "overgedragen-verliezen",
+      "grondslag": {
+        "confidence": "betwijfeld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De interactie tussen overdraagbare IA en overgedragen verliezen in de aftrekketen — de precieze samenloop vereist bronverificatie."
+    }
+  ]
 }

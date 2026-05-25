@@ -1,11 +1,27 @@
 {
   "id": "atad-richtlijn",
   "naam": {
-    "primair": "Atad richtlijn"
+    "primair": "ATAD-richtlijn",
+    "afkorting": "ATAD",
+    "synoniemen": [
+      "Anti-Tax Avoidance Directive",
+      "EU-richtlijn 2016/1164",
+      "ATAD 1",
+      "ATAD 2"
+    ],
+    "vertaling": {
+      "fr": "Directive anti-évasion fiscale",
+      "en": "Anti-Tax Avoidance Directive"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.8.XVI",
+      "2.8.XVII"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +40,546 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.8.XVI",
-      "2.8.XVII"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Atad richtlijn",
+        "tekst": "De **ATAD-richtlijn** (Anti-Tax Avoidance Directive, EU Richtlijn 2016/1164) is een Europees normatief kader dat lidstaten verplicht een minimumset van antimisbruikmaatregelen in hun nationale vennootschapsbelasting te implementeren. ATAD 1 (2016) legde vijf verplichte instrumenten vast: (1) earningsstrippingregels, (2) exitbelasting, (3) algemene antimisbruikbepaling (GAAR), (4) CFC-regels (gecontroleerde buitenlandse vennootschappen) en (5) regels tegen hybride mismatch-structuren. ATAD 2 (2017) breidde de hybride mismatch-regels uit naar derde-landen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "EU Richtlijn 2016/1164 (ATAD 1)",
+              "ref": "eu-richtlijn-2016-1164"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "ATAD vertaalt de OESO BEPS-aanbevelingen (met name Actiepunten 2, 3, 4 en 7) in bindend EU-recht. Waar BEPS soft law is, creëert ATAD een juridisch afdwingbare bodem: elke EU-lidstaat moet de vijf instrumenten omzetten, maar mag strengere regels handhaven of invoeren. België heeft ATAD geïmplementeerd via aanpassingen aan het WIB 1992, onder meer de ebitda-aftrekbeperking (earningsstripping) en de CFC-wetgeving.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het onderscheid ATAD/BEPS is examensgewijs relevant: BEPS is vrijwillig (soft law via de OESO), ATAD is verplicht EU-recht met implementatiedeadlines en inbreukprocedures als lidstaten niet omzetten."
+      },
+      "rationale": {
+        "tekst": "De richtlijn berust op de vastelling dat vennootschappen door grensoverschrijdende structuren belasting kunnen verschuiven naar lage-belastinglanden (winstverschuiving) of kunstmatig belastingvoordelen kunnen cumuleren via hybride instrumenten en mismatches. ATAD stelt een geharmoniseerde minimumdrempel vast zodat geen enkele lidstaat kan worden uitgespeeld als tax haven binnen de interne markt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Internationale vennootschapsgroepen met intragroepsfinancieringen, royalty-stromen of IP-structuren waarbij rente-aftrekbeperkingen of earningsstripping-regels relevant zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De earningsstripping-regel (art. 4 ATAD, in België de ebitda-aftrekbeperking) beperkt de netto-renteaftrek tot 30% van de ebitda — primair van belang voor sterk gefinancierde groepen."
+        },
+        {
+          "tekst": "Vennootschappen die zetel of vermogensbestanddelen overbrengen naar buiten de EU (exitbelasting-analyse).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij exit wordt de latente meerwaarde in aanmerking genomen alsof de activa werden gerealiseerd — ATAD verplicht dit voor alle EU-lidstaten."
+        },
+        {
+          "tekst": "Structuren waarbij gebruik wordt gemaakt van hybride instrumenten of hybride entiteiten die in twee lidstaten verschillend worden behandeld (mismatch-analyse).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Louter Belgische structuren zonder internationale dimensie — de ATAD-maatregelen mikken op grensoverschrijdende belastingontwijking.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zuiver binnenlandse situaties kennen eigen antimisbruikbepalingen (bijv. algemene antimisbruikbepaling art. 344 WIB 1992) die los staan van ATAD."
+        },
+        {
+          "tekst": "Personenbelasting — ATAD richt zich exclusief op de vennootschapsbelasting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-implementatie of gebrekkige implementatie van een ATAD-maatregel door een lidstaat kan aanleiding geven tot inbreukprocedures door de Europese Commissie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Belastingplichtige die onterecht rente aftrekt boven de ebitda-drempel riskeert correctie + belastingvermeerdering bij controle.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Aanwezigheid van intercompany-leningen of royalty-betalingen aan gelieerde buitenlandse entiteiten (earningsstripping-drempel mogelijk bereikt).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Herstructurering waarbij activiteiten of activa worden overgebracht buiten de EU (exitbelasting-trigger).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Gebruik van hybride instrumenten (bv. instrument dat in land A als schuld wordt gezien maar in land B als eigen vermogen) — typisch voor deelnemingen met winstdelende leningen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "earningsstripping",
+        "naam": {
+          "primair": "Earningsstripping-regel",
+          "afkorting": "EBITDA-regel",
+          "synoniemen": [
+            "rente-aftrekbeperking",
+            "art. 4 ATAD",
+            "ebitda-aftrekbeperking"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De earningsstripping-regel beperkt de aftrekbaarheid van **netto-rentelasten** (betaalde rente min ontvangen rente) tot maximaal **30% van de ebitda** (earnings before interest, taxes, depreciation and amortisation). Het niet-aftrekbare deel kan worden overgedragen naar volgende belastbare tijdperken. Een absolute drempel van **€ 3 miljoen** netto-rentelast garandeert dat kleine ondernemingen buiten schot blijven.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "EU Richtlijn 2016/1164 art. 4",
+                  "ref": "eu-richtlijn-2016-1164-art-4"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Netto-rentelasten boven 30% ebitda worden geacht buitensporig te zijn en belastingontwijking te faciliteren. De € 3 miljoen-drempel verhindert dat de regel KMO's met normale financieringslasten treft."
+          }
+        }
+      },
+      {
+        "id": "exitbelasting",
+        "naam": {
+          "primair": "Exitbelasting",
+          "synoniemen": [
+            "exit tax",
+            "art. 5 ATAD",
+            "belasting bij zetelverplaatsing"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij overbrenging van activa, een vaste inrichting of de fiscale zetel naar buiten de lidstaat wordt een **fictieve vervreemding** aangenomen: de latente meerwaarde (verschil tussen marktwaarde en fiscale boekwaarde) wordt belastbaar alsof de activa werden gerealiseerd. Bij overbrenging naar een andere EU-lidstaat of EER-land mag de belasting worden **gespreid over vijf jaar**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "EU Richtlijn 2016/1164 art. 5",
+                  "ref": "eu-richtlijn-2016-1164-art-5"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gaar-atad",
+        "naam": {
+          "primair": "Algemene antimisbruikbepaling (GAAR)",
+          "afkorting": "GAAR",
+          "synoniemen": [
+            "general anti-avoidance rule",
+            "art. 6 ATAD"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Lidstaten moeten een **algemene antimisbruikbepaling** invoeren die kunstmatige constructies of reeksen van constructies negeert voor fiscale doeleinden wanneer ze niet zijn opgezet om geldige zakelijke redenen die de economische realiteit weerspiegelen. De maatstaf is de **hoofddoeltoets**: is de belastingbesparing de voornaamste reden voor de constructie?",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "EU Richtlijn 2016/1164 art. 6",
+                  "ref": "eu-richtlijn-2016-1164-art-6"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "België kende vóór ATAD reeds art. 344 §1 WIB 1992 als algemene antimisbruikbepaling; ATAD harmoniseert de minimumnorm EU-breed."
+          }
+        }
+      },
+      {
+        "id": "cfc-regels",
+        "naam": {
+          "primair": "CFC-regels",
+          "afkorting": "CFC",
+          "synoniemen": [
+            "gecontroleerde buitenlandse vennootschappen",
+            "controlled foreign corporation",
+            "art. 7-8 ATAD"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De **CFC-regels** (controlled foreign corporation) verplichten een moedervennootschap om niet-uitgekeerde winsten van een laag belaste gecontroleerde buitenlandse dochter toe te rekenen aan haar belastbaar inkomen. Een entiteit is 'gecontroleerd' wanneer de moeder (rechtstreeks of onrechtstreeks) meer dan 50% van de stemrechten, het kapitaal of de winst aanhoudt. 'Laag belast' betekent doorgaans een effectieve belastingdruk van minder dan de helft van wat in de lidstaat van de moeder zou worden betaald.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "EU Richtlijn 2016/1164 art. 7-8",
+                  "ref": "eu-richtlijn-2016-1164-art-7-8"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "ATAD biedt twee benaderingen voor CFC:\n- **Benadering A**: toerekening van specifieke passieve inkomsten (rente, royalty's, dividenden) van de CFC aan de moeder.\n- **Benadering B**: toerekening op basis van de niet-marktconforme winsten die voortkomen uit relaties met de moeder.\n\nBelgische implementatie kiest primair voor Benadering A met een drempel van effectieve belastingdruk < 12,5% (betwijfeld: percentage verifiëren in WIB 1992).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hybride-mismatch",
+        "naam": {
+          "primair": "Hybride mismatch-regels",
+          "synoniemen": [
+            "art. 9-9b ATAD",
+            "ATAD 2",
+            "hybride entiteiten",
+            "hybride instrumenten"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **hybride mismatch** ontstaat wanneer een instrument of entiteit in twee verschillende landen fiscaal anders wordt behandeld, waardoor:\n- **Dubbele aftrek** mogelijk is (betaling is in beide landen aftrekbaar), of\n- **Aftrek zonder opname** (betaling is in land A aftrekbaar maar niet belastbaar in land B).\n\nATAD 1 art. 9 vereist dat lidstaten de dubbele aftrek of aftrek-zonder-opname neutraliseren. ATAD 2 breidde deze regels uit naar situaties met derde landen (buiten EU).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "EU Richtlijn 2016/1164 art. 9 + EU Richtlijn 2017/952 (ATAD 2)",
+                  "ref": "eu-richtlijn-2016-1164-art-9"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Hybride structuren waren vóór ATAD 2 een populaire vorm van internationale belastingplanning: door gebruik van instrumenten die in land A als schuld gelden (renteaftrek) maar in land B als eigen vermogen (dividendvrijstelling) kon een aftrek worden gecreëerd zonder corresponderende belastbare opname."
+          }
+        }
+      },
+      {
+        "id": "atad-en-beps",
+        "naam": {
+          "primair": "ATAD als bindende BEPS-omzetting",
+          "synoniemen": [
+            "ATAD-BEPS relatie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De vijf ATAD-maatregelen corresponderen met specifieke OESO BEPS-actiepunten:\n- **Earningsstripping** → BEPS Actiepunt 4 (renteaftrekbeperking)\n- **Exitbelasting** → BEPS Actiepunt 7 + Transfer Pricing regels\n- **GAAR** → BEPS Actiepunt 6 (treaty abuse)\n- **CFC-regels** → BEPS Actiepunt 3\n- **Hybride mismatch** → BEPS Actiepunt 2\n\nHet verschil: BEPS-aanbevelingen zijn vrijwillig (soft law); ATAD-implementatie is verplicht voor EU-lidstaten met bindende implementatiedeadlines.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "minimumstandaard-vs-hogere-normen",
+        "naam": {
+          "primair": "Minimumstandaard-karakter van ATAD",
+          "synoniemen": [
+            "ATAD minimumharmonisatie"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "ATAD is een **minimumharmonisatierichtlijn**: lidstaten moeten de vijf maatregelen implementeren maar mogen **strengere regels** handhaven of invoeren. Bestaande strengere nationale regels moeten niet worden afgezwakt om te voldoen aan de richtlijn. Dit betekent dat de daadwerkelijk toepasselijke regels in een lidstaat strenger kunnen zijn dan de ATAD-minimumdrempels.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "EU Richtlijn 2016/1164 overweging 3 + art. 3",
+                  "ref": "eu-richtlijn-2016-1164-art-3"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "eu-fiscale-richtlijnen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beps-actieplan",
+      "toelichting": "ATAD vertaalt OESO BEPS-aanbevelingen (AP 2, 3, 4, 6, 7) in bindend EU-recht.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "oeso-modelverdrag",
+      "toelichting": "ATAD GAAR-bepaling sluit aan bij de principale doeltoets (PPT) van het OESO-modelverdrag.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "ebitda-aftrekbeperking",
+      "toelichting": "Art. 4 ATAD is de Europese grondslag voor de Belgische ebitda-aftrekbeperking in de VenB.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "exit-belasting",
+      "toelichting": "Art. 5 ATAD verplicht lidstaten een exitbelasting te voorzien bij overbrenging van activa of zetel.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "algemene-anti-misbruik-bepaling",
+      "toelichting": "ATAD art. 6 GAAR naast de Belgische art. 344 WIB 1992 — zelfde ratio, maar ATAD normeert het EU-brede minimum.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

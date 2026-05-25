@@ -1,8 +1,16 @@
 {
   "id": "deontologie-accountant",
   "naam": {
-    "primair": "Deontologie accountant"
+    "primair": "Deontologie accountant",
+    "synoniemen": [
+      "beroepsethiek accountant",
+      "deontologische verplichtingen accountant"
+    ],
+    "vertaling": {
+      "fr": "Déontologie de l'expert-comptable"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +32,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relatie-suggesties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -37,20 +51,499 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Deontologie accountant",
+        "tekst": "De **deontologie van de accountant** is het geheel van normatieve gedragsregels dat de uitoefening van het beroep van gecertificeerd accountant en gecertificeerde belastingadviseur (GA/GBA) reglementeert. Het omvat de **fundamentele beginselen** (integriteit, objectiviteit, professionele bekwaamheid, vertrouwelijkheid, professioneel gedrag), de **specifieke verbodsbepalingen** (onafhankelijkheidsregels, verbod op nevenberoepen, reclameverbod) en de **sanctiemechanismen** via het tuchtrecht van het ITAA.\n\nDe deontologische regels zijn vastgelegd in het **Koninklijk Besluit van 1 maart 1998** houdende het reglement van plichtenleer voor externe accountants en belastingadviseurs, aangevuld door ITAA-circulaires en -adviezen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De deontologie functioneert als het **scharnier tussen de publieke opdracht en de private dienstverlening** van de accountant. De accountant is enerzijds dienstverlener aan zijn cliënt, maar anderzijds houder van een publieke opdracht die het vertrouwen van derden (belastingadministratie, kredietverstrekkers, handelspartners) vereist. Dit tweeledige karakter verklaart waarom deontologische regels strenger zijn dan louter contractuele verplichtingen.\n\nDe vijf fundamentele beginselen (IESBA-taxonomie, overgenomen door ITAA) vormen de basisarchitectuur:\n- **Integriteit** — eerlijk en rechtschapen handelen, ook onder druk van cliënten\n- **Objectiviteit** — geen bedreigingen laten spelen die het professioneel oordeel kleuren\n- **Professionele bekwaamheid en zorgvuldigheid** — kennis actueel houden, zorgvuldig uitvoeren\n- **Vertrouwelijkheid** — beroepsgeheim, ook na stopzetting van de opdracht\n- **Professioneel gedrag** — reputatie van het beroep beschermen, regelgeving naleven",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De deontologische verplichting is geen vrijwillige gedragscode maar een **wettelijk bindend stelsel met tuchtrechtelijke sancties**. Het ITAA kan bij inbreuk een vermaning, blaam, schorsing of schrapping van de tableau opleggen. De ratio is dat de maatschappij de accountant de monopoliepositie op bepaalde opdrachten toekent (wettelijke controle, fiscale vertegenwoordiging) in ruil voor garanties van onafhankelijkheid en vakbekwaamheid die de markt alleen niet kan afdwingen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Alle situaties waarbij een gecertificeerd accountant of gecertificeerd belastingadviseur een professionele opdracht uitvoert, ongeacht de aard van de opdracht — boekhoudkundig, fiscaal, adviserend of assurance-gerelateerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De deontologische normen gelden continu — niet enkel bij geformaliseerde opdrachten. Ook informeel advies aan een cliënt valt onder de beroepsregels."
+        },
+        {
+          "tekst": "Evaluatie van **conflictsituaties**: nevenberoepen, dubbele mandaten, cliënten-eigenbelang, druk van derden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "In de praktijk rijzen deontologische vragen het vaakst bij potentiële conflictsituaties — de beginselen bieden het analyseframework."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Stagiairs in de ITAA-stage zijn **nog niet volledig gebonden** aan het stelsel voor externe accountants — zij vallen onder een eigen statuut en moeten werkzaam zijn onder supervisie van een externe accountant.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Te verifiëren: de exacte toepassingsomvang van het deontologisch reglement voor stagiairs vs. volledig ingeschrevenen op de tableau."
+        },
+        {
+          "tekst": "Louter **interne medewerkers** van een bedrijf die boekhoudkundige taken uitvoeren maar niet ingeschreven zijn op het ITAA-tableau — zij vallen niet onder de externe-accountant-deontologie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Tuchtrechtelijke sanctie** (schorsing, schrapping) bij ernstige inbreuk, waardoor de accountant zijn beroepsactiviteit tijdelijk of definitief verliest.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Burgerrechtelijke aansprakelijkheid**: inbreuk op deontologische normen kan ook aanleiding geven tot een schadevergoedingsvordering van de cliënt of een derde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "**Tegenstrijdige belangen** van cliënt en derden zijn zichtbaar — de deontologische beginselen bepalen wat de accountant wel en niet mag in zijn advies.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een cliënt vraagt de accountant iets te bevestigen of te ondertekenen dat de accountant twijfelachtig acht — professioneel scepticisme en integriteit moeten prevaleren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "vijf-fundamentele-beginselen",
+        "naam": {
+          "primair": "Vijf fundamentele beginselen",
+          "synoniemen": [
+            "fundamentele principes deontologie",
+            "IESBA-beginselen"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De deontologische architectuur rust op **vijf fundamentele beginselen** die cumulatief en continu gelden:\n\n1. **Integriteit** — eerlijk, correct en openhartig handelen in alle professionele relaties\n2. **Objectiviteit** — oordeel niet laten beinvloeden door vooroordelen, conflicten of druk van derden\n3. **Professionele bekwaamheid en zorgvuldigheid** — kennis en vaardigheden op peil houden; opdrachten zorgvuldig uitvoeren conform actuele professionele normen\n4. **Vertrouwelijkheid** — informatie die tijdens de opdracht wordt verkregen niet openbaar maken of voor eigen voordeel gebruiken, ook na beëindiging van de opdracht\n5. **Professioneel gedrag** — regelgeving naleven en elke handeling vermijden die de reputatie van het beroep schaadt",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De vijf beginselen zijn afkomstig uit de IESBA Code of Ethics (International Ethics Standards Board for Accountants) en zijn door het ITAA overgenomen. Ze vormen de primaire toetssteen voor elk deontologisch oordeel — specifieke regels zijn veelal uitwerkingen van één of meerdere van deze beginselen."
+          }
+        }
+      },
+      {
+        "id": "bedreigingsmodel",
+        "naam": {
+          "primair": "Bedreigingsmodel",
+          "synoniemen": [
+            "threat-safeguard model",
+            "bedreigingen en waarborgen"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De IESBA-aanpak hanteert een **conceptueel raamwerk** in plaats van een regels-lijst: de accountant identificeert bedreigingen voor de fundamentele beginselen en beoordeelt of waarborgen die bedreigingen tot een aanvaardbaar niveau reduceren.\n\n**Vijf bedreigingscategorieën**:\n- **Eigenbelang** (self-interest) — financieel of ander belang bij de uitkomst van de opdracht\n- **Zelfrevisie** (self-review) — eigen vroeger werk beoordelen\n- **Pleitbezorging** (advocacy) — zo sterk voor de cliënt opkomen dat objectiviteit verloren gaat\n- **Vertrouwdheid** (familiarity) — door lange relatie te weinig kritisch zijn\n- **Intimidatie** (intimidation) — druk van cliënt of derde die het oordeel beinvloedt\n\n**Waarborgen** kunnen professioneel zijn (opleiding, normen, toezicht) of omgevingsgebonden (interne review, roulatie, second opinion).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het bedreigingsmodel maakt deontologie responsief: in plaats van een exhaustieve regellijst te volgen, analyseert de accountant de concrete situatie en beoordeelt welke bedreigingen aanwezig zijn en welke waarborgen nodig zijn. Dit is het basisanalytisch instrument bij elke deontologische vraag."
+          }
+        }
+      },
+      {
+        "id": "onafhankelijkheid-deontologisch",
+        "naam": {
+          "primair": "Onafhankelijkheid (deontologisch)",
+          "synoniemen": [
+            "onafhankelijkheid van geest",
+            "onafhankelijkheid in schijn"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Onafhankelijkheid kent twee complementaire dimensies:\n- **Onafhankelijkheid van geest** (*in mind*): het feitelijk vrij kunnen oordelen zonder externe druk — de accountant komt tot een conclusie zonder beïnvloeding\n- **Onafhankelijkheid in schijn** (*in appearance*): een informeerde derde zou, op basis van de feiten, geen reden hebben om de onafhankelijkheid in twijfel te trekken\n\nVoor **assurance-opdrachten** (o.a. commissarismandaat) is onafhankelijkheid in beide dimensies vereist. Voor **niet-assurance-opdrachten** (boekhouding, belastingadvies) volstaat objectiviteit maar gelden er specifieke verboden die de schijn van afhankelijkheid vermijden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "beroepsgeheim-deontologisch",
+        "naam": {
+          "primair": "Beroepsgeheim (deontologisch)",
+          "synoniemen": [
+            "vertrouwelijkheidsplicht",
+            "geheimhoudingsplicht"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De accountant is gehouden aan het **beroepsgeheim** voor alle informatie die hij in de uitoefening van zijn beroep vernomen heeft. Dit omvat:\n- Financiële, commerciële en persoonlijke informatie van cliënten\n- Informatie over derden verkregen in het kader van een opdracht\n\n**Uitzonderingen** op het beroepsgeheim:\n- Wettelijke mededelingsplicht (bv. antiwitwas-meldingsplicht aan CFI)\n- Opdracht van de rechter in een strafrechtelijke procedure\n- Expliciete toestemming van de betrokkene\n\nHet beroepsgeheim geldt ook **na beëindiging van de opdracht** en geldt ten aanzien van derden, andere cliënten en zelfs overheidsinstanties (met de hiervoor genoemde uitzonderingen).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het beroepsgeheim is geen louter ethische keuze maar een wettelijk verankerde plicht — schending is strafbaar. Tegelijk staat het in spanning met de antiwitwas-meldingsplicht, die juist een doorbreking van het beroepsgeheim vereist bij verdachte transacties."
+          }
+        }
+      },
+      {
+        "id": "permanente-vorming-deontologie",
+        "naam": {
+          "primair": "Permanente vorming (deontologische plicht)",
+          "synoniemen": [
+            "bijscholingsplicht",
+            "CPE"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De gecertificeerd accountant is verplicht zijn kennis en vaardigheden op peil te houden via **permanente vorming**. Het ITAA legt een minimum aantal uren permanente vorming per jaar op. De inhoud moet beroepsrelevant zijn (fiscaal, boekhoudkundig, deontologisch, digitaal). De accountant houdt een **vormingsdossier** bij dat bij een kwaliteitstoetsing door het ITAA kan worden gevraagd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Permanente vorming is de praktische invulling van het beginsel van professionele bekwaamheid en zorgvuldigheid: kennis veroudert door wetswijzigingen, nieuwe normen en technologische evolutie. De cliënt mag verwachten dat de accountant actuele kennis inzet."
+          }
+        }
+      },
+      {
+        "id": "verboden-nevenberoepen",
+        "naam": {
+          "primair": "Verboden nevenberoepen en onverenigbaarheden",
+          "synoniemen": [
+            "onverenigbaarheid beroepsactiviteit",
+            "nevenactiviteiten accountant"
+          ]
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "De accountant mag **bepaalde nevenactiviteiten niet uitoefenen** die de onafhankelijkheid, objectiviteit of het aanzien van het beroep in gevaar brengen. Klassieke onverenigbaarheden:\n- Handelsactiviteiten in eigen naam (behoudens uitzonderingen voor bijkomende activiteiten)\n- Bezoldigd dienstverband bij een cliënt waarvoor ook assurance-opdrachten worden uitgevoerd\n- Mandaten die structurele eigenbelang-bedreigingen creëren\n\nActiviteiten die **niet verboden** maar deontologisch te beheren zijn:\n- Meerdere cliënten met tegenstrijdige belangen — vereist expliciete beheersmaatregel (roulatie, chinese muren, opdrachtweigering).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tuchtrechtelijk-sanctiestelsel",
+        "naam": {
+          "primair": "Tuchtrechtelijk sanctiestelsel",
+          "synoniemen": [
+            "tuchtprocedure ITAA",
+            "deontologische sancties"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Bij inbreuk op de deontologische regels kan het ITAA via zijn tuchtorganen (Raad van beroep, Uitvoerend comité) de volgende sancties opleggen in oplopende zwaarte:\n\n1. **Vermaning** — lichtste sanctie; wordt niet gepubliceerd\n2. **Blaam** — officiële berisping; wordt niet gepubliceerd\n3. **Schorsing** — tijdelijke uitoefenverbod van het beroep (duur variabel)\n4. **Schrapping** — definitieve doorhaling op de tableau; zwaarste sanctie\n\nEen tuchtprocedure kan worden ingeleid door klacht van een cliënt, een derde, het ITAA-bestuur of de fiscale/gerechtelijke autoriteiten. De accountant heeft recht op verhoor en verweer.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het tuchtrecht is complementair aan het strafrecht: een strafrechtelijke veroordeling (bv. wegens beroepsgeheimschending) sluit een tuchtrechtelijke sanctie niet uit — het zijn autonome procedures met andere doelstellingen (bescherming van het publiek vs. bestraffing van een strafbaar feit)."
+          }
+        }
+      },
+      {
+        "id": "antiwitwas-spanning-beroepsgeheim",
+        "naam": {
+          "primair": "Spanning antiwitwas vs. beroepsgeheim",
+          "synoniemen": [
+            "doorbreking beroepsgeheim AWW",
+            "CFI-melding vs. vertrouwelijkheid"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De antiwitwas-wetgeving verplicht de accountant om **verdachte transacties** te melden aan de Cel voor Financiële Informatieverwerking (CFI), ook al impliceert dit een doorbreking van het beroepsgeheim ten aanzien van de cliënt.\n\nDeze melding moet **vertrouwelijk** gebeuren — de accountant mag de cliënt niet informeren over de melding (**tipping-off verbod**). Dit creëert een bijzondere deontologische spanning:\n- Enerzijds vertrouwelijkheidsplicht ten aanzien van de cliënt\n- Anderzijds wettelijke meldingsplicht aan CFI die vertrouwelijkheid ten aanzien van de cliënt verbiedt\n\nDe wetgeving lost dit op door de meldingsplicht als **wettelijke uitzondering** op het beroepsgeheim te kwalificeren, zodat de accountant die meldt niet deontologisch gesanctioneerd kan worden voor de schending van het beroepsgeheim.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De antiwitwas-spanning is een centraal examenpunt: studenten moeten begrijpen dat de meldingsplicht deontologisch gelegitimeerd is door de wettelijke uitzondering, maar tegelijk dat het tipping-off verbod een bijkomende deontologische verplichting is die de cliënt niet mag weten van de melding."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "beroepsgeheim-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beroepsgeheim is één van de fundamentele deontologische verplichtingen en uitwerking van het beginsel vertrouwelijkheid."
+    },
+    {
+      "type": "bevat",
+      "target": "onafhankelijkheid",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Onafhankelijkheid is uitwerking van het beginsel objectiviteit binnen het deontologisch kader."
+    },
+    {
+      "type": "bevat",
+      "target": "antiwitwas-verplichtingen-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Antiwitwas-verplichtingen zijn een wettelijk opgelegde doorbreking van de deontologische vertrouwelijkheidsplicht en daarmee onderdeel van het deontologisch kader."
+    },
+    {
+      "type": "bevat",
+      "target": "permanente-vorming-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Permanente vorming is uitwerking van het beginsel professionele bekwaamheid en zorgvuldigheid."
+    },
+    {
+      "type": "triggert",
+      "target": "tuchtprocedure-itaa",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Inbreuk op deontologische normen triggert de tuchtprocedure bij het ITAA."
+    },
+    {
+      "type": "valt_onder",
+      "target": "itaa-beroepsorganisatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De deontologische normen worden vastgesteld en gehandhaafd door het ITAA als beroepsorganisatie."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aansprakelijkheid-accountant-revisor",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Deontologische inbreuken kunnen aanleiding geven tot burgerrechtelijke aansprakelijkheid — de twee stelsels zijn verbonden maar autonoom."
+    },
+    {
+      "type": "vereist",
+      "target": "professionele-oordeelsvorming-en-skepticism",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De toepassing van het bedreigingsmodel vereist professioneel oordeel en scepticisme — het zijn complementaire competenties."
+    }
+  ]
 }

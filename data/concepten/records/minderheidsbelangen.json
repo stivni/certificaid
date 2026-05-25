@@ -1,11 +1,25 @@
 {
   "id": "minderheidsbelangen",
   "naam": {
-    "primair": "Minderheidsbelangen"
+    "primair": "Minderheidsbelangen",
+    "afkorting": "MB",
+    "synoniemen": [
+      "belangen van derden",
+      "niet-controlerende belangen"
+    ],
+    "vertaling": {
+      "fr": "Intérêts minoritaires",
+      "en": "Non-controlling interests"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.4.I.D",
+      "1.4.II.C"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,442 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data (aanvullende modus)."
       }
-    ],
-    "ankers": [
-      "1.4.I.D",
-      "1.4.II.C"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Minderheidsbelangen",
+        "tekst": "**Minderheidsbelangen** (ook: belangen van derden of niet-controlerende belangen) zijn het deel van het **eigen vermogen en resultaat van een volledig geconsolideerde dochteronderneming** dat **niet toebehoort aan de moedervennootschap of haar consolidatiekring**. Ze verschijnen in de geconsolideerde jaarrekening als een **afzonderlijk onderdeel van het eigen vermogen** van de groep — niet als schuld.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bij **integrale consolidatie** worden alle activa, passiva, opbrengsten en kosten van de dochter voor 100% opgenomen in de geconsolideerde jaarrekening — ook al bezit de moeder slechts 75% of 60%. Dat is correct omdat de moeder de **economische controle** uitoefent over het geheel.\n\nMaar dan rijst de vraag: van wie is de andere 25% of 40%? Die toebehorende fractie aan externe aandeelhouders — de minderheidsaandeelhouders — moet **zichtbaar worden gemaakt** en apart worden getoond. Minderheidsbelangen zijn het mechanisme daarvoor.\n\nBij geconsolideerde **BGAAP** staan minderheidsbelangen doorgaans als afzonderlijke rubriek binnen het eigen vermogen of als tussenpositie vóór de langlopende schulden. Bij **IAS 27 / IFRS 10** zijn ze verplicht in het eigen vermogen — expliciet afgezonderd van de aandeelhouders van de moeder.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het onderscheid tussen minderheidsbelangen (eigen vermogen van externen) en schulden is fundamenteel: minderheidsaandeelhouders zijn mede-eigenaars van de dochter, geen crediteuren. Ze dragen resultaat mee — positief én negatief."
+      },
+      "rationale": {
+        "tekst": "Minderheidsbelangen zijn de **tegenboeking van integrale consolidatie**: als je 100% consolideert terwijl je slechts 70% bezit, moet je de resterende 30% aan externen **zichtbaar en eerlijk toeschrijven** in de geconsolideerde jaarrekening. Zonder dit mechanisme zou het geconsolideerde eigen vermogen worden overschat (want 30% hoort niet aan de groep) en zouden de externe aandeelhouders onzichtbaar blijven voor lezers van de rekeningen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Geconsolideerde jaarrekeningen van groepen waarbij de moeder **niet 100% bezit** in één of meer volledig geconsolideerde dochters.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zonder externe aandeelhouders in de dochter zijn er geen minderheidsbelangen: het concept is per definitie afwezig bij 100%-dochters."
+        },
+        {
+          "tekst": "Berekening van het **geconsolideerde eigen vermogen** toewijsbaar aan de aandeelhouders van de moeder (geconsolideerd eigen vermogen minus minderheidsbelangen).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Opmaak van de **geconsolideerde resultatenrekening**: het groepsresultaat wordt gesplitst in 'toewijsbaar aan aandeelhouders moeder' en 'toewijsbaar aan minderheidsbelangen'.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Evenredige consolidatie** (joint ventures BGAAP): daarin worden alleen de fracties opgenomen die aan de groep toebehoren — er is geen 100%-integratie en dus geen minderheidsbelang.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Vermogensmutatiemethode** (geassocieerde ondernemingen): hier wordt alleen de aandelen-lijn in de geconsolideerde balans gecorrigeerd — geen integrale opname, geen minderheidsbelang.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Enkelvoudige jaarrekening** van de moedervennootschap: die toont alleen de deelneming als financieel vast actief — minderheidsbelangen zijn een geconsolideerd begrip.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De dochter wordt via **integrale consolidatie** opgenomen (controle-criterium: beslissende invloed).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De moedervennootschap bezit **minder dan 100%** van de aandelen of stemrechten in de dochter.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Negatief minderheidsbelang** (omgekeerde minderheidsbelangen): als de dochter cumulatieve verliezen lijdt die groter zijn dan het aandeel van de minderheid, dreigt het minderheidsbelang negatief te worden — BGAAP en IFRS behandelen dit anders.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Onder BGAAP werd het verlies traditioneel beperkt tot het positieve saldo van het minderheidsbelang; het meerdere werd voor rekening van de groep gelaten. Onder IFRS 10 draagt de minderheid ook haar aandeel in de verliezen, ook al is dat negatief. Te verifiëren bij claims_checken."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "berekening-minderheidsbelang",
+        "naam": {
+          "primair": "Berekening van het minderheidsbelang bij eerste consolidatie"
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de **eerste consolidatie** wordt het minderheidsbelang berekend als:\n\n**Minderheidsbelang (eigen vermogen) = % minderheid × eigen vermogen dochter op overnamedatum**\n\nEn het **aandeel in resultaat** per periode:\n\n**Minderheidsbelang (resultaat) = % minderheid × nettowinst (of -verlies) dochter**\n\nIn BGAAP is de grondslag het **gecorrigeerde eigen vermogen** van de dochter na uniforme waardering — de dochter wordt geherwaardeerd naar de grondslagen van de groep vóór de verdeling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Aurelia Holding NV bezit 70% van Brugse Brouwerij BV. Eigen vermogen Brugse Brouwerij BV op overnamedatum: € 1.400.000. Minderheidsbelang bij eerste consolidatie: 30% × € 1.400.000 = € 420.000. Als Brugse Brouwerij BV dat jaar een nettowinst boekt van € 200.000: minderheidsaandeel in resultaat = 30% × € 200.000 = € 60.000."
+          }
+        }
+      },
+      {
+        "id": "presentatie-geconsolideerde-balans",
+        "naam": {
+          "primair": "Presentatie in de geconsolideerde balans"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In de **geconsolideerde balans** (BGAAP) worden minderheidsbelangen gepresenteerd als een **afzonderlijke rubriek** binnen of direct na het eigen vermogen van de groep — **niet als schuld**.\n\nTwee posities zijn gangbaar:\n1. Als **laatste rubriek van het eigen vermogen** (meest correct naar economische aard: de minderheid is mede-eigenaar, geen crediteur)\n2. Als **tussenpositie** tussen eigen vermogen en vreemde middelen (soms toegestaan onder BGAAP bij oudere schema's)\n\nOnder **IFRS 10** is de positie in eigen vermogen verplicht en worden minderheidsbelangen uitdrukkelijk afgezonderd van 'eigen vermogen toewijsbaar aan aandeelhouders van de moeder'.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "resultaattoewijzing",
+        "naam": {
+          "primair": "Resultaattoewijzing aan minderheidsbelangen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "In de **geconsolideerde resultatenrekening** wordt het groepsresultaat onderaan **gesplitst** in twee regels:\n- **Resultaat toewijsbaar aan aandeelhouders van de moeder** (= groepsresultaat na aftrek minderheidsaandeel)\n- **Resultaat toewijsbaar aan minderheidsbelangen** (= aandeel minderheid in nettowinst of -verlies dochter)\n\nDeze splitsing is verplicht en informatief: lezers zien hoeveel resultaat de groep effectief 'toegewezen' krijgt versus hoeveel buiten de groep vloeit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewegingen-in-minderheidsbelang",
+        "naam": {
+          "primair": "Bewegingen in het minderheidsbelang"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het saldo van minderheidsbelangen in de geconsolideerde balans evolueert door vier soorten bewegingen:\n\n1. **Aandeel in resultaat** — jaarlijkse toewijzing van de nettowinst of het -verlies\n2. **Dividendbetaling door de dochter** — vermindert het minderheidsbelang (minderheid ontvangt haar deel)\n3. **Kapitaalwijzigingen in de dochter** — kapitaalverhoging of -vermindering in de dochter raken de absolute bedragen\n4. **Wijziging participatiepercentage** — als de moeder bijkoopt of verkoopt (zonder controleverlies), verschuift de verdeling tussen groepsaandeel en minderheidsbelang",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Een goede lezer van de geconsolideerde jaarrekening volgt het minderheidsbelang via de mutatietabel in de toelichting — niet alleen via het slotbedrag op de balans."
+          }
+        }
+      },
+      {
+        "id": "verband-met-consolidatieverschil",
+        "naam": {
+          "primair": "Verband met consolidatieverschil en goodwill"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de **eerste consolidatie** wordt het consolidatieverschil berekend als het verschil tussen de **aanschaffingsprijs van de participatie** en het **aandeel van de moeder in het eigen vermogen van de dochter op overnamedatum**.\n\nAlleen het **aandeel van de moeder** is relevant voor de goodwill-berekening — het minderheidsbelang wordt apart gezet en raakt de goodwill niet (BGAAP-benadering: 'partial goodwill').\n\nOnder **IFRS 3** bestaat ook de 'full goodwill'-methode waarbij goodwill op het volledige overgenomen eigen vermogen (inclusief minderheidsbelang) wordt berekend — dit is een keuze per overname.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "intercompany-eliminatie-en-minderheid",
+        "naam": {
+          "primair": "Intercompany-eliminatie en aandeel minderheid"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Intercompany-transacties (intragroepverkopen, leningen, dividenden) worden volledig geëlimineerd in de geconsolideerde jaarrekening. Niet-gerealiseerde winsten op voorraden of vaste activa die nog in de groep aanwezig zijn worden **volledig geëlimineerd** — ook het deel dat toerekenbaar is aan de minderheidsaandeelhouders.\n\nDit kan onlogisch lijken (de minderheid draagt een eliminatie die 'haar' winst betreft), maar het is de gangbare BGAAP-methode. De BGAAP-grondbeginselen voorzien in principe in volledige eliminatie van intercompany-winsten.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wijziging-participatiepercentage",
+        "naam": {
+          "primair": "Wijziging participatiepercentage na eerste consolidatie"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Wanneer de moeder **bijkoopt** van de minderheidsaandeelhouders (van 70% naar 90%), daalt het minderheidsbelang van 30% naar 10%:\n- Geen nieuwe goodwill-berekening (de controle bestond al)\n- Het verschil tussen aankoopprijs en geherclassificeerd eigen-vermogensaandeel is in **BGAAP** en **IFRS 10** een kapitaaltransactie binnen het eigen vermogen — geen resultaateffect\n\nWanneer de moeder **verkoopt zonder controle te verliezen** (van 90% naar 70%): spiegelbeeldig, ook een eigen-vermogenstransactie.\n\nWanneer de moeder **controle verliest** (van 70% naar 30%): de dochter verlaat de integrale consolidatiekring — dit is een verkoop voor consolidatiedoeleinden met mogelijk resultaateffect.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "integrale-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Minderheidsbelangen zijn een direct gevolg van integrale consolidatie bij niet-100%-participaties."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "eerste-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De initiële omvang van het minderheidsbelang wordt bepaald bij de eerste consolidatie op overnamedatum."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "consolidatieverschil-goodwill",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De goodwill-berekening (partial vs. full goodwill) bepaalt of minderheidsbelangen al dan niet hun aandeel in de goodwill opnemen."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "evenredige-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Evenredige consolidatie kent geen minderheidsbelangen omdat de integratie al pro-rata verloopt — het contrast illustreert waarom minderheidsbelangen nodig zijn bij integrale consolidatie.",
+      "gelijkenissen": [
+        "Beide corrigeren voor niet-100%-eigendom van de geconsolideerde entiteit"
+      ],
+      "verschillen": [
+        "Evenredige consolidatie integreert enkel het aandeel van de groep; integrale consolidatie neemt 100% op en corrigeert achteraf via minderheidsbelangen"
+      ]
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "wijziging-consolidatiekring",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Een wijziging in het participatiepercentage (bij- of verkoop zonder verlies van controle) verschuift de verdeling tussen groepsaandeel en minderheidsbelang."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "toelichting-belangen-in-andere-entiteiten",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De toelichting bij de geconsolideerde jaarrekening moet de aard en omvang van minderheidsbelangen per dochter toelichten."
+    }
+  ]
 }

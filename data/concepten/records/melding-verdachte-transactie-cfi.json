@@ -1,16 +1,31 @@
 {
   "id": "melding-verdachte-transactie-cfi",
   "naam": {
-    "primair": "Melding verdachte transactie cfi"
+    "primair": "Melding verdachte transactie aan de CFI",
+    "afkorting": "SAR",
+    "synoniemen": [
+      "suspicious activity report",
+      "melding verdachte transactie",
+      "AWW-melding",
+      "melding aan de Cel voor Financiële Informatieverwerking"
+    ],
+    "vertaling": {
+      "fr": "Déclaration de transaction suspecte à la CTIF"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "4.0.I.D",
+      "4.0.taak.2"
+    ],
     "provenance": {
-      "model": "skeleton-from-candidate",
-      "wave_id": "skeleton-dump",
-      "extract_prompt": "tools.extractie.skeleton_from_candidate",
-      "iteratie": "v0"
+      "model": "claude-sonnet-4-6",
+      "wave_id": "wave-2-beschrijven",
+      "extract_prompt": "prompts/operaties/beschrijven.md",
+      "iteratie": "01-beschrijven"
     },
     "changelog": [
       {
@@ -24,30 +39,447 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T14:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, gebruikscontext, elementen en relatie-suggesties ingevuld vanuit training-data (beschrijven-operatie, modus aanvullend)."
       }
-    ],
-    "ankers": [
-      "4.0.I.D",
-      "4.0.taak.2"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Melding verdachte transactie cfi",
+        "tekst": "De **melding verdachte transactie aan de CFI** is de wettelijke verplichting voor accountants en belastingadviseurs om bij een **vermoeden** van witwassen of financiering van terrorisme een rapport in te dienen bij de **Cel voor Financiële Informatieverwerking (CFI)**. De drempelwaarde is een vermoeden — geen bewijs of zekerheid. De melding is een kernonderdeel van de antiwitwasverplichtingen van onderworpen entiteiten.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De meldingsplicht werkt als volgt: zodra de accountant — op basis van zijn cliëntenonderzoek, doorlopende monitoring of een specifieke transactie — **redelijke gronden heeft om te vermoeden** dat fondsen verband houden met witwassen of terrorisme-financiering, is hij verplicht de CFI te informeren.\n\nEssentiële mechanismen:\n- **Drempel = vermoeden**, niet zekerheid of bewijs — de accountant is geen rechter\n- **Tijdstip**: bij voorkeur **vóór** de uitvoering van de verdachte transactie, waar mogelijk\n- **Opdracht staken**: na de melding mag de accountant zijn dienstverlening in principe **niet verderzetten** tenzij de CFI toestemming geeft\n- **Tipping-off verbod**: de accountant mag de betrokken cliënt of derden **niet informeren** dat er een melding is gedaan of overweging bestaat\n- **Bescherming**: een melding te goeder trouw biedt volledige immuniteit tegen civiele, strafrechtelijke en tuchtrechtelijke aansprakelijkheid\n\nDe CFI analyseert de melding en beslist al dan niet over te maken aan gerechtelijke instanties of het Parket. De accountant heeft geen verdere rol in dit traject.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De meldingsplicht vloeit voort uit de rol van de accountant als **poortwachter** van de legale economie. Criminelen proberen illegale fondsen te integreren via legitieme transacties waarbij professionele dienstverleners betrokken zijn. De accountant heeft een bevoorrecht informatiepositie — hij kent de financiële realiteit van zijn cliënt en kan abnormale patronen herkennen die voor anderen onzichtbaar blijven. Door de meldingsplicht in te voeren legt de wetgever deze positie in dienst van de collectieve veiligheid, waarbij de bescherming bij goede-trouw-melding de drempel verlaagt om daadwerkelijk te melden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "trigger_start": [
+        {
+          "tekst": "De accountant verkrijgt kennis of heeft **redelijke gronden voor een vermoeden** dat fondsen of transacties verband houden met witwassen of financiering van terrorisme — ongeacht de fase van zijn opdracht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een cliënt vraagt een transactie uit te voeren die niet past bij het gekende economische profiel, waarbij de accountant geen aannemelijke verklaring vindt na navraag.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De melding is bij de CFI ingediend en de accountant heeft zijn dienstverlening gestaakt of de CFI heeft toestemming verleend om de opdracht voort te zetten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voor": [
+        {
+          "tekst": "Elke accountant of belastingadviseur die activiteiten uitoefent die vallen onder de Antiwitwaswet — fiscale adviezen, boekhouding, jaarrekening, vennootschapsrechtelijk advies, begeleiden van transacties, oprichting van rechtspersonen — ongeacht de omvang van het kantoor.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De meldingsplicht koppelt aan de aard van de activiteit, niet aan de rechtsvorm of het statuut van de accountant."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Situaties waarbij de accountant **geen redelijke gronden voor een vermoeden** heeft — het loutere onbehagen of onzekerheid over een cliënt volstaat niet; de wet vereist een objectief anker voor het vermoeden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Informatie verkregen in het kader van **wettelijke controle** van de jaarrekening — deze opdracht heeft een apart juridisch kader met eigen regels voor communicatie van onregelmatigheden.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De exacte verhouding tussen de AWW-meldingsplicht en de controleopdracht is een technisch punt dat verificatie vereist."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Niet melden bij een vermoeden** is een inbreuk op de Antiwitwaswet en kan leiden tot tuchtrechtelijke sancties, strafrechtelijke vervolging en administratieve boetes.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Schending van het tipping-off verbod** — de cliënt informeren dat er een melding is gedaan of overwogen wordt — is op zich een strafbaar feit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Een melding **te goeder trouw** bij de CFI biedt de accountant volledige immuniteit: geen civiele, strafrechtelijke of tuchtrechtelijke aansprakelijkheid — ook niet als het vermoeden achteraf ongegrond blijkt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "drempel-vermoeden",
+        "naam": {
+          "primair": "Drempel: vermoeden",
+          "synoniemen": [
+            "redelijke gronden voor vermoeden"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De meldingsplicht is niet gebonden aan **bewijs** of **zekerheid**, maar aan een **vermoeden** — de accountant moet **redelijke gronden** hebben om te vermoeden dat fondsen verband houden met witwassen of terrorisme-financiering. Dit is bewust laag gehouden: de wetgever wil dat vermoedens worden gemeld zodat de CFI kan analyseren, niet dat de accountant zelf een bewijsstandaard hanteert.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Als de drempel bewijszekerheid zou vereisen, zou de meldingsplicht illusoir worden — accountants hebben geen onderzoeksbevoegdheden. De lage drempel verschuift de analyselast naar de CFI."
+          }
+        }
+      },
+      {
+        "id": "tijdstip-melding",
+        "naam": {
+          "primair": "Tijdstip van de melding"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De melding moet worden gedaan **vóór de uitvoering** van de verdachte transactie, voor zover dat mogelijk is. Wanneer de transactie onvermijdelijk was of al heeft plaatsgevonden voor het vermoeden rees, moet de melding zo snel mogelijk achteraf plaatsvinden. De accountant mag de transactie niet uitvoeren als dit de melding zou frustreren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "staken-dienstverlening",
+        "naam": {
+          "primair": "Staken van de dienstverlening na melding"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Na het indienen van een melding bij de CFI mag de accountant zijn dienstverlening **in principe niet verderzetten** — hij moet zijn opdracht staken totdat de CFI haar analyse heeft afgerond of toestemming verleent. Dit voorkomt dat de accountant onbewust bijdraagt aan het verder uitvoeren van de verdachte transactie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tipping-off-verbod-element",
+        "naam": {
+          "primair": "Tipping-off verbod",
+          "synoniemen": [
+            "verbod op bekendmaking",
+            "geheimhoudingsplicht AWW-melding"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **tipping-off verbod** verbiedt de accountant om aan de betrokken cliënt of aan derden mee te delen dat (a) een melding bij de CFI is gedaan, (b) er een onderzoek loopt, of (c) hij overweegt een melding te doen. Het verbod is absoluut — ook indirecte hints of gedragsveranderingen die de cliënt op het spoor kunnen zetten, zijn verboden. Overtreding is op zich een strafbaar feit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Als de verdachte weet dat hij gesignaleerd is, kan hij bewijsmateriaal vernietigen, fondsen versluizen of vluchten. Het verbod beschermt de effectiviteit van het opsporingsonderzoek."
+          }
+        }
+      },
+      {
+        "id": "goede-trouw-bescherming",
+        "naam": {
+          "primair": "Bescherming bij melding te goeder trouw"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een accountant die **te goeder trouw** een melding doet bij de CFI is volledig **gevrijwaard van civiele, strafrechtelijke en tuchtrechtelijke aansprakelijkheid** voor die melding — ook als het vermoeden achteraf ongegrond blijkt, of als de gemelde transactie reeds was uitgevoerd. De goede trouw wordt vermoed aanwezig te zijn; enkel kwade trouw of grove nalatigheid heft de bescherming op.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder immuniteit zouden accountants de melding uitstellen uit angst voor rechtszaken van cliënten. De bescherming verlaagt de drempel om te melden en maakt het meldingssysteem effectief."
+          }
+        }
+      },
+      {
+        "id": "rol-cfi",
+        "naam": {
+          "primair": "Rol van de CFI",
+          "synoniemen": [
+            "Cel voor Financiële Informatieverwerking",
+            "CTIF"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **Cel voor Financiële Informatieverwerking (CFI)** is de Belgische Financial Intelligence Unit (FIU): een autonome administratieve autoriteit die meldingen van verdachte transacties ontvangt, analyseert en, indien zij ernstige aanwijzingen van witwassen of terrorisme-financiering vaststelt, doorsturt naar het Parket of de gerechtelijke instanties. De CFI heeft geen opsporingsbevoegdheid — ze analyseert en doorverwijst.\n\nNa ontvangst van een melding beslist de CFI over de verdere behandeling. De accountant speelt geen verdere rol in dit traject en ontvangt in beginsel geen terugkoppeling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "signalen-vermoeden",
+        "naam": {
+          "primair": "Signalen die een vermoeden ondersteunen"
+        },
+        "inhoud_type": "vuistregel",
+        "kern": {
+          "substantie": {
+            "tekst": "Typische signalen die een vermoeden van witwassen kunnen rechtvaardigen:\n- **Transacties die niet stroken met het economische profiel** van de cliënt (bv. grootschalige cashstortingen bij een kleine dienstverlenende BV)\n- **Complexe of onnodige structuren** zonder aantoonbaar economisch doel — trusts, offshores, cascade van vennootschappen\n- **Ongebruikelijke betalingsmodaliteiten**: cash, derde-betalers, omweg via meerdere rekeningen\n- **Inconsistenties** tussen de verklaring van de cliënt en objectieve informatie (jaarrekening, omzet, patrimonium)\n- **Terughoudendheid** bij het identificatieproces of weigering om UBO te onthullen\n- **Snelle opeenvolging** van oprichting, inbreng, overdracht en liquidatie zonder economische ratio",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit zijn typologieën die in de praktijk en in CFI-richtlijnen worden beschreven — ze zijn indicatief, niet limitatief. De accountant weegt ze in context."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "antiwitwas-verplichtingen-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De melding verdachte transactie is de concrete uitingsvorm van de meldingspijler binnen het bredere AWW-regime voor accountants."
+    },
+    {
+      "type": "vereist",
+      "target": "clientenonderzoek-aww",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het vermoeden dat een melding vereist is steeds gebaseerd op informatie verzameld via het cliëntenonderzoek en de doorlopende monitoring."
+    },
+    {
+      "type": "niet_combineerbaar_met",
+      "target": "beroepsgeheim-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De meldingsplicht doorbreekt het beroepsgeheim — de Antiwitwaswet schept een expliciete uitzondering als lex specialis; het beroepsgeheim kan de melding niet blokkeren."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "risicogebaseerde-benadering-aww",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De risicogebaseerde aanpak bepaalt welke signalen zwaarder wegen en hoe de accountant zijn vermoeden-beoordeling structureert."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "niet-naleving-wet-regelgeving-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide verplichten de professional tot rapportering van vastgestelde of vermoede onregelmatigheden",
+        "Beide raken aan de spanning tussen discretie tegenover de cliënt en bescherming van het publieke belang"
+      ],
+      "verschillen": [
+        "AWW-melding gaat aan externe autoriteit (CFI); NOCLAR-communicatie primair intern of aan toezichthoudende instantie van de entiteit",
+        "AWW-melding is verplicht bij vermoeden; NOCLAR-escalatie volgt een trapsgewijze procedure",
+        "Tipping-off verbod bestaat enkel in AWW-context, niet in NOCLAR-kader"
+      ],
+      "verwarring_risico": "Studenten verwarren de AWW-meldingsplicht en NOCLAR-procedure — de toepassingsgrond en het adressaat zijn fundamenteel anders.",
+      "render_hint": "als_waarschuwing"
+    }
+  ]
 }

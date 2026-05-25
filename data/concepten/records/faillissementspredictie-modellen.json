@@ -1,11 +1,27 @@
 {
   "id": "faillissementspredictie-modellen",
   "naam": {
-    "primair": "Faillissementspredictie modellen"
+    "primair": "Faillissementspredictie modellen",
+    "synoniemen": [
+      "falingsmodellen",
+      "kwantitatieve falingsmodellen",
+      "distress-modellen",
+      "failure prediction models"
+    ],
+    "vertaling": {
+      "fr": "Modèles de prédiction de faillite",
+      "en": "Bankruptcy prediction models"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.9.VI",
+      "1.9.VI.A",
+      "1.9.VI.B"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +40,479 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern (definitie/substantie/rationale), elementen, gebruikscontext en relatie-suggesties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.9.VI",
-      "1.9.VI.A",
-      "1.9.VI.B"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Faillissementspredictie modellen",
+        "tekst": "**Faillissementspredictie modellen** zijn kwantitatieve statistische instrumenten die — op basis van een combinatie van financiële ratio's en andere variabelen — een **score of waarschijnlijkheid** berekenen voor het financieel falen of faillissement van een onderneming binnen een bepaalde horizon (doorgaans 1 tot 3 jaar). Ze vertalen meervoudige financiële signalen in één geaggregeerde uitkomst.\n\nBelangrijkste modelfamilies:\n- **Discriminantanalyse-modellen** (bv. Altman Z-score): lineaire gewogen som van ratio's die een grenswaarde oplevert (bv. Z < 1,81 = distress-zone).\n- **Logistische regressiemodellen** (bv. Ohlson O-score): transformeert de uitkomst naar een kans tussen 0 en 1 op faillissement.\n- **Hazard- en survival-modellen**: modelleren het tijdstip van faling, niet enkel de binaire uitkomst.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de praktijk worden faillissementspredictie modellen gebruikt als **gestructureerde vroegwaarschuwing** bovenop de kwalitatieve diagnose. Een accountant die louter ratio's beoordeelt, doet aan enkelvoudige signaallezing; een predictiemodel combineert meerdere ratio's tegelijk en weegt ze op basis van empirische kalibratie.\n\nDe waarde van het model schuilt niet in de absolute score maar in drie functies:\n1. **Aggregatie** — één uitkomst vat meerdere dimensies samen (liquiditeit, rentabiliteit, solvabiliteit, activiteit)\n2. **Vergelijking** — de score is sectoronafhankelijk kalibreerbaar en laat trending over meerdere jaren toe\n3. **Objectivering** — de modeluitkomst geeft een gedeelde taal voor kredietverleners, bestuurders en adviseurs",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Individuele ratio's zijn monolineair: een dalende current ratio signaleert liquiditeitsdruk, maar zegt niets over de solvabiliteit of rentabiliteit. Faillissementspredictie modellen zijn ontwikkeld om dit **enkelvoudigheids-probleem** te omzeilen door ratio's empirisch te combineren. De gewichten zijn bepaald op historische datasets van gezonde vs. failliete ondernemingen. De modellen zijn daarmee geen theorie maar een **empirische constructie** — ze beschrijven statistische patronen, geen causale mechanismen. Dit maakt beperkingen onvermijdelijk: ze zijn gevoelig voor sectorverschillen, boekhoudkeuzes en macro-economische context.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "altman-z-score",
+        "naam": {
+          "primair": "Altman Z-score",
+          "synoniemen": [
+            "Z-score",
+            "Altman-model"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **Altman Z-score model** (1968) is het meest bekende discriminantanalyse-model voor faillissementspredictie. De formule combineert vijf ratio's tot één gewogen score:\n\n**Z = 1,2·X₁ + 1,4·X₂ + 3,3·X₃ + 0,6·X₄ + 1,0·X₅**\n\nWaar:\n- X₁ = Werkkapitaal / Totaal actief (liquiditeits-positie)\n- X₂ = Ingehouden winsten / Totaal actief (langetermijn-rentabiliteit)\n- X₃ = EBIT / Totaal actief (operationele rentabiliteit)\n- X₄ = Marktwaarde eigen vermogen / Boekwaarde totaal vreemd vermogen (solvabiliteit via markt)\n- X₅ = Omzet / Totaal actief (activiteits-efficiëntie)\n\n**Grenswaarden** (oorspronkelijk voor beursgenoteerde industriële bedrijven): Z > 2,99 = veilige zone · 1,81 ≤ Z ≤ 2,99 = grijze zone · Z < 1,81 = distress-zone",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De vijf ratio's dekken de vijf centrale dimensies van financiële gezondheid: liquiditeit, langetermijn-rentabiliteit, operationele rentabiliteit, solvabiliteit en activiteitsgraad. De gewichten zijn empirisch bepaald op basis van een steekproef van 66 Amerikaanse industriële bedrijven (33 failliete, 33 gezonde) in de periode 1946–1965."
+          }
+        }
+      },
+      {
+        "id": "z-score-varianten",
+        "naam": {
+          "primair": "Z-score varianten voor niet-beursgenoteerde en dienstensector",
+          "synoniemen": [
+            "Z'-score",
+            "Z''-score",
+            "Altman Z-prime"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "Het oorspronkelijke Altman-model is gekalibreerd op **beursgenoteerde industriële bedrijven**. Twee aangepaste versies zijn beschikbaar voor andere contexten:\n\n**Z'-score** (voor niet-beursgenoteerde bedrijven): X₄ wordt vervangen door boekwaarde eigen vermogen / boekwaarde totaal vreemd vermogen. Grenswaarden verschuiven: > 2,9 = veilig · 1,23–2,9 = grijs · < 1,23 = distress.\n\n**Z''-score** (voor dienstensector en niet-industrieel): X₅ (omzetrotatie) wordt geëlimineerd om sector-bias te vermijden. Grenswaarden opnieuw aangepast.\n\nDe keuze van de correcte variant is de **eerste verantwoordelijkheid** van de analist.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Toepassing van de Z-score op een niet-beursgenoteerd bedrijf zonder aanpassing geeft een vertekend resultaat: X₄ met marktwaarde EV is simpelweg niet berekeningen zonder beurskoers. Dit is een klassieke toepassingsfout."
+          }
+        }
+      },
+      {
+        "id": "ohlson-o-score",
+        "naam": {
+          "primair": "Ohlson O-score",
+          "synoniemen": [
+            "O-score",
+            "logistisch regressiemodel Ohlson"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **Ohlson O-score model** (1980) past logistische regressie toe: de output is een **kans op faillissement** (0 tot 1) in plaats van een arbitraire score. Negen variabelen worden gecombineerd, waaronder omvang (log totaal actief), solvabiliteitsratio's, winstgevendheid, recente verliesontwikkeling en liquiditeitsdruk.\n\n**Voordeel** t.o.v. discriminantanalyse: de output is direct interpreteerbaar als probabiliteit en vereist geen drempel-kalibratie per sector. P(faillissement) > 0,5 is de gebruikelijke beslissingsregel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "grijze-zone",
+        "naam": {
+          "primair": "Grijze zone",
+          "synoniemen": [
+            "zone of ignorance",
+            "distress-zone overgang"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De **grijze zone** is het interval tussen de drempelscore voor 'distress' en de drempelscore voor 'gezond' waarin het model **geen betrouwbare classificatie** geeft. Bij het Altman Z-score model loopt deze zone van 1,81 tot 2,99. Bedrijven in de grijze zone vereisen bijkomende kwalitatieve analyse — het model geeft geen uitsluitsel.\n\nIn de praktijk zijn het de bedrijven in de grijze zone die het hoogste analyse-werk vergen, omdat kleine parameterverschillen de classificatie kantelen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "sectorspecificiteit",
+        "naam": {
+          "primair": "Sectorspecificiteit en kalibratie",
+          "synoniemen": [
+            "sector-bias",
+            "sector-aanpassing model"
+          ]
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "substantie": {
+            "tekst": "Faillissementspredictie modellen zijn **op een specifieke dataset** gekalibreerd: een bepaald land, tijdvak, sector en boekhoudstandaard. Het rechtstreeks overbrengen naar een andere context introduceert kalibratie-bias.\n\nConcreet: de Altman Z-score (1968, VS, industrieel, US GAAP) is niet zomaar toe te passen op een Belgisch dienstenbedrijf dat BE-GAAP volgt. Problemen:\n- Omzetrotatie (X₅) varieert sterk per sector (handel vs. vastgoed)\n- Belgische boekhoudconventies kunnen balansverhoudingen anders inrichten dan US GAAP\n- Grenswaarden zijn empirisch bepaald in een andere macro-omgeving\n\nDe analist moet **altijd** de kalibratie-context van het gebruikte model kennen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-vertekening",
+        "naam": {
+          "primair": "Boekhoudkundige vertekening",
+          "synoniemen": [
+            "earnings management bias",
+            "window dressing effect"
+          ]
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "substantie": {
+            "tekst": "Faillissementspredictie modellen werken op **gerapporteerde boekhoudbedragen**. Dit maakt ze gevoelig voor:\n- **Boekhoudkeuzes** die ratio's systematisch beïnvloeden (bv. activering van kosten verhoogt totaal actief en verlaagt X₃)\n- **Earnings management** in de aanloop naar faillissement: bedrijven sturen de balans actief bij om distress-signalen te maskeren\n- **Herwaarderingen** die boekwaarden losmaken van de economische realiteit\n\nEen model-uitkomst in de veilige zone bij een bedrijf dat actief window-dressing toepast, geeft een **vals geruststellend signaal**. De analist combineert modeluitkomst altijd met kasstroomanalyse en kwalitatieve diagnose.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "type-i-type-ii-fouten",
+        "naam": {
+          "primair": "Type I- en Type II-fouten",
+          "synoniemen": [
+            "classificatiefout",
+            "vals positief",
+            "vals negatief"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de evaluatie van faillissementspredictie modellen worden twee soorten classificatiefouten onderscheiden:\n\n- **Type I-fout** (vals negatief): een bedrijf dat effectief failliet gaat wordt door het model als 'gezond' geclassificeerd. Dit is de **duurste fout** voor een kredietverlener of auditor: het risico werd over het hoofd gezien.\n- **Type II-fout** (vals positief): een gezond bedrijf wordt door het model als 'distress' aangemerkt. Dit leidt tot onterechte alarmbel-situaties of kredietweigeringen.\n\nModellen worden geoptimaliseerd met een afweging tussen beide fouttypen — afhankelijk van het gebruik (krediet vs. vroeg-waarschuwing vs. auditorscepsis) kan een andere drempelwaarde wenselijk zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De keuze van drempelwaarde bepaalt de verhouding Type I / Type II. Een lagere drempel verlaagt Type I-fouten (minder gemiste faillieten) maar verhoogt Type II-fouten (meer onterechte distress-signalen). In audit-context weegt Type I-fout zwaarder."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "**Kredietanalyse en monitoring**: lenders en factoring-bedrijven gebruiken predictiemodellen als gestandaardiseerde vroegwaarschuwing naast de kwalitatieve beoordelingscyclus.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Trendanalyse over meerdere jaren**: de Z-score berekend over 3–5 opeenvolgende boekjaren laat toe om de **richting** van de financiële gezondheid te volgen, ook als de absolute waarde in de grijze zone blijft.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Aanvullende input bij continuïteitsbeoordeling** (going concern): de accountant gebruikt de modeluitkomst als één van de objectiveerbare signalen naast kasstroomprognoses en bestuursinformatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Due diligence bij overnames en herstructurering**: een snelle Z-score-berekening geeft de adviseur een eerste objectieve reading van de financiële positie van de doelvennootschap.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Alleenstaande beslissingsgrond** zonder kwalitatieve diagnose: het model geeft een signaal, geen verdict. Een score in de veilige zone sluit financial distress niet uit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Financiële instellingen, vastgoedbedrijven en startups**: het oorspronkelijke Altman-model is ongeschikt voor sterk gereguleerde sectoren (banken, verzekeringen) en voor ondernemingen zonder trackrecord.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "**Snel groeiende ondernemingen** met bewuste investeringscyclus: hoge schuld en lage korte-termijn-rentabiliteit zijn structureel en vertegenwoordigen geen distress-signaal in de gebruikelijke zin.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Mechanische toepassing zonder sectoraanpassing**: het verkeerde model-variant gebruiken (bv. standaard Z-score voor een niet-beursgenoteerd bedrijf) leidt tot systematisch vertekende uitkomsten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "**Dalende Z-score over meerdere jaren**, ook als de absolute score nog in de grijze of veilige zone ligt — de trend is informatief.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Z-score in de distress-zone** (Z < 1,81 voor het standaard Altman-model) is een materieel signaal voor verdere diepgaande analyse van kasstromen, betalingsuitstel en bestuursinformatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Faillissementspredictie modellen zijn een gespecialiseerde toepassing binnen de bredere jaarrekeninganalyse — ze aggregeren ratio's tot een samengestelde gezondheidscore."
+    },
+    {
+      "type": "vereist",
+      "target": "financiele-diagnose",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De modeluitkomst vervangt de kwalitatieve financiële diagnose niet maar vereist ze als aanvulling — met name voor bedrijven in de grijze zone."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "continuiteit-going-concern",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De conclusie over going concern beïnvloedt de relevantie van predictiemodellen: bij een reeds vastgesteld continuïteitsprobleem dienen de modellen eerder als kwantificering dan als signalering."
+    },
+    {
+      "type": "vereist",
+      "target": "schuldgraad",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De solvabiliteits-component van de meeste predictiemodellen steunt op de schuldgraad of verwante solvabiliteitsratio's."
+    },
+    {
+      "type": "vereist",
+      "target": "kasstroom-analyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Kasstroomanalyse is de kwalitatieve aanvulling die de boekhoudkundige vertekening in predictiemodellen corrigeert."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "auditrisicomodel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beide kaders aggregeren signalen tot een gestructureerd oordeel over risico; het auditrisicomodel is procedure-gedreven, het predictiemodel kwantitatief-statistisch."
+    }
+  ]
 }

@@ -1,8 +1,14 @@
 {
   "id": "hr-cyclus-ic",
   "naam": {
-    "primair": "Hr cyclus ic"
+    "primair": "Hr cyclus ic",
+    "synoniemen": [
+      "personeelscyclus interne controle",
+      "HR-cyclus",
+      "loon- en personeelscyclus IC"
+    ]
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +18,9 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "1.7.IX.D"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,29 +33,396 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.7.IX.D"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Hr cyclus ic",
+        "tekst": "De **HR-cyclus interne controle** is de gestructureerde reeks beheers- en controlemaatregelen die een organisatie inricht rond het personeel: van aanwerving en indiensttreding, over verloning en aanwezigheidsbeheer, tot uitdiensttreding. Het gaat om de interne-controledimensie van alle personeelsgerelateerde processen — niet om de HR-processen zelf, maar om de vraag hoe een organisatie ervoor zorgt dat die processen **volledig, nauwkeurig, tijdig en geautoriseerd** verlopen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De HR-cyclus is vanuit IC-perspectief een **hoog-risico-cyclus**: personeelskosten zijn doorgaans de grootste kostenpost, de kans op fraude (spookwerknemers, niet-geautoriseerde loonsverhogingen) is reëel, en fouten in loonberekening hebben directe juridische en sociale gevolgen.\n\nDe cyclus omvat drie grote deelprocessen:\n- **Indiensttreding** — aanwerving, contractopmaak, registratie in loonadministratie, onboarding-autorisatie\n- **Verloning en aanwezigheid** — tijdsregistratie, loonberekening, uitbetalingsautorisatie, afdrachten RSZ en bedrijfsvoorheffing\n- **Uitdiensttreding** — contract-beëindiging, eindafrekening, deactivering van toegangsrechten\n\nDe centrale IC-doelstelling is voorkomen dat **niet-bestaande** of **niet-bevoegde** personen worden betaald, en dat **bestaande** personeelsleden correct en tijdig worden betaald.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De drie deelprocessen corresponderen met de drie risico-momenten in de cyclus: instroom (bestaat de werknemer echt?), verwerking (klopt het bedrag?) en uitstroom (worden rechten tijdig ingetrokken?)."
+      },
+      "rationale": {
+        "tekst": "De HR-cyclus wordt afzonderlijk behandeld in COSO-raamwerken en interne-controle-methodologieën omdat **personeelskosten** en de daarbijhorende sociale en fiscale afdrachten bijzondere risicoprofielen kennen: ze zijn vaak herhalend (maandelijks), moeilijk te herzien achteraf en raken meerdere verantwoordingslijnen tegelijk (HR, boekhouding, management). **Functiescheiding** is structureel moeilijker bij kleine organisaties waar één persoon zowel HR als payroll beheert.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke organisatie met **personeel in loondienst** — ongeacht grootte — heeft een HR-cyclus en bijhorende IC-risico's. De complexiteit neemt toe met het aantal werknemers en de diversiteit van verloning (variabele bezoldiging, extra-legale voordelen, deeltijds).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zelfs bij één werknemer zijn de IC-aandachtspunten aanwezig: is de loonberekening correct, zijn de afdrachten tijdig, is er een arbeidsovereenkomst?"
+        },
+        {
+          "tekst": "Bijzondere aandacht is vereist bij organisaties met **hoge personeelsomloopsnelheid** (horeca, retail, uitzendbureau-achtige structuren) en bij organisaties met **complexe loonstructuren** (variabel loon, commissies, bonussen, aanvullende pensioenen).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Zelfstandige medewerkers (**freelancers**) vallen buiten de HR-cyclus in de klassieke zin: er is geen RSZ-aangifte en geen loonfiche. Ze worden verwerkt via de aankoopboekhouding. Misclassificatie (werknemer als zelfstandige) is zelf echter een IC-risico.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Spookwerknemers** (fictieve personen op de loonlijst) zijn het meest klassieke fraude-risico in de HR-cyclus. Ze worden gedetecteerd via periodieke afstemming van de personeelsregistratie met uitbetalingen en via functiescheiding tussen HR-registratie en loonautorisatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Niet-tijdige deactivering** bij uitdiensttreding — een vertrokken medewerker blijft op de loonlijst of behoudt toegangsrechten tot IT-systemen — is een frequent gevonden zwakte bij controles van kleinere organisaties.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De IC-evaluatie van de HR-cyclus start bij een **risicoanalyse-audit** of bij **interne-controle-ontwerp** voor een nieuwe organisatie of een wezenlijk gewijzigde organisatiestructuur.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De IC-cyclus rond personeelsbeheer is **continu** — ze eindigt niet tenzij de organisatie geen personeel meer heeft. Per controleperiode (jaarlijks of ad hoc) levert de evaluatie een oordeel op over de opzet en werking van de beheersmaatregelen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "indiensttreding-controles",
+        "naam": {
+          "primair": "Controlemaatregelen bij indiensttreding"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De indiensttreding-fase omvat de IC-maatregelen die garanderen dat enkel **bevoegd aangeworven** en **correct geregistreerde** personen op de loonlijst verschijnen:\n- Formele aanwervingsautorisatie door bevoegd management (voorafgaand aan indiensttreding)\n- Ondertekening arbeidsovereenkomst vóór eerste werkdag\n- Dimona-aangifte bij RSZ binnen wettelijke termijn\n- Registratie in HR-systeem met aanmaakdatum en autorisatiespoor",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder formele autorisatie vóór indiensttreding is er geen betrouwbaar spoor om te onderscheiden wie bevoegdheid had om een nieuwe werknemer toe te voegen aan de loonlijst — de kernvraag bij detectie van spookwerknemers."
+          }
+        }
+      },
+      {
+        "id": "tijdregistratie-en-aanwezigheid",
+        "naam": {
+          "primair": "Tijdregistratie en aanwezigheidsbeheer"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De basis voor correcte loonberekening is een betrouwbaar **aanwezigheidsregister**: wie was wanneer aanwezig, hoeveel uren werden gepresteerd, welke afwezigheidsgronden gelden?\n\nIC-maatregelen zijn:\n- **Automatische tijdregistratie** (badge, tijdklok, projectsoftware) vermindert manuele fouten en manipulatiekansen\n- **Supervisorgoedkeuring** van gepresteerde uren vóór loonverwerking\n- **Periodieke afstemming** van aanwezigheidsdata met loonslips\n\nZonder betrouwbare tijdregistratie is de loonberekening oncontroleerbaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "loonberekening-en-autorisatie",
+        "naam": {
+          "primair": "Loonberekening en uitbetalingsautorisatie"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De loonberekening en uitbetaling moeten voldoen aan drie cumulatieve IC-voorwaarden:\n1. **Correctheid** — loon berekend op basis van goedgekeurde parameters (barema, variabel loon, inhoudingen)\n2. **Autorisatie** — bevoegd persoon keurt de loonlijn goed vóór uitbetaling; bij geautomatiseerde payroll: goedkeuring totaallijst\n3. **Scheiding** — de persoon die de loonberekening maakt mag **niet** tegelijk de uitbetaling verwerken (klassieke functiescheiding)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Functiescheiding tussen berekening en uitbetaling is de primaire preventiemaatregel tegen loonsfraude. Wanneer één persoon beide functies combineert, is detectie van manipulatie enkel mogelijk via externe controle."
+          }
+        }
+      },
+      {
+        "id": "rsz-en-fiscale-afdrachten",
+        "naam": {
+          "primair": "RSZ-aangifte en fiscale afdrachten"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Naast de correcte uitbetaling aan de werknemer moet de organisatie tijdig en correct:\n- **RSZ-kwartaalaangifte** (DmfA) indienen met de juiste looncomponenten\n- **Bedrijfsvoorheffing** inhouden op het loon en afdragen aan de FOD Financiën\n- **Individuele fiches** (281.10 of 281.20) opmaken voor elk personeelslid\n\nIC-maatregel: afstemming van de DmfA met de boekhouding (personeelskosten op resultatenrekening vs. aangegeven loonmassa).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitdiensttreding-controles",
+        "naam": {
+          "primair": "Controlemaatregelen bij uitdiensttreding"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij het einde van een arbeidsrelatie moeten IC-maatregelen garanderen dat de betaling stopt en dat de vertrokken werknemer geen toegang meer heeft:\n- Formele beëindigingsautorisatie door bevoegd management\n- Eindafrekening (opzeggingsvergoeding, vakantiegeld) berekend en goedgekeurd\n- Deactivering in HR-systeem **op de laatste werkdag** (niet achteraf)\n- Intrekking van IT-toegangsrechten, badges en bedrijfsmiddelen\n- Dimona-uitschrijving bij RSZ",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Vertraagde deactivering is de meest voorkomende zwakte bij uitdiensttreding — zowel op loonlijst blijven als behoud van IT-toegang zijn risico's die in de praktijk frequent voorkomen maar eenvoudig te mitigeren zijn via een gestructureerde offboarding-checklist."
+          }
+        }
+      },
+      {
+        "id": "functiescheiding-hr-cyclus",
+        "naam": {
+          "primair": "Functiescheiding in de HR-cyclus"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Functiescheiding in de HR-cyclus vereist dat de volgende functies niet door dezelfde persoon worden uitgeoefend:\n- HR-registratie (wie staat op de loonlijst) ≠ loonberekening\n- Loonberekening ≠ betalingsopdracht uitvoeren\n- HR-registratie ≠ betalingsopdracht uitvoeren\n\nIn een kleine organisatie is volledige functiescheiding structureel onmogelijk. Dan zijn **compenserende controles** vereist: directie-goedkeuring van de totale loonlast, externe payroll-partner, steekproefcontroles door een onafhankelijke partij.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Functiescheiding is de meest fundamentele maatregel in de HR-cyclus, maar de minst haalbare in KMO-context. De IC-evaluatie moet expliciet nagaan of compenserende maatregelen de afwezigheid van functiescheiding adequaat opvangen."
+          }
+        }
+      },
+      {
+        "id": "periodieke-afstemming-personeelsregister",
+        "naam": {
+          "primair": "Periodieke afstemming personeelsregister"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De periodieke afstemming tussen het **personeelsregister** (wie is contractueel in dienst) en de **loonlijst** (wie wordt effectief betaald) is de primaire detective controle tegen spookwerknemers:\n\n- Frequentie: minimaal maandelijks (bij loonverwerking) + jaarlijks volledige audit\n- Scope: naam, functie, verloningsparameters, datum indiensttreding/uitdiensttreding\n- Verantwoordelijke: onafhankelijk van de persoon die lonen verwerkt\n\nDivergentie tussen de twee registers is een **direct signaal** van een IC-zwakte die diepgaand onderzoek vereist.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De HR-cyclus IC is één van de operationele cycli die worden geëvalueerd binnen een COSO-raamwerk voor interne controle."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "aankoopcyclus-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "verkoopcyclus-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "functiescheiding",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Functiescheiding is de centrale preventiemaatregel in de HR-cyclus; zonder functiescheiding zijn compenserende detectieve controles vereist."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "bedrijfsvoorheffing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De correcte berekening en afdracht van bedrijfsvoorheffing is een integraal onderdeel van de loonverwerking in de HR-cyclus."
+    }
+  ]
 }

@@ -1,8 +1,16 @@
 {
   "id": "fiscale-procedure-belastingplichtige",
   "naam": {
-    "primair": "Fiscale procedure belastingplichtige"
+    "primair": "Fiscale procedure belastingplichtige",
+    "synoniemen": [
+      "procedurele rechten belastingplichtige",
+      "fiscale rechtspositie belastingplichtige"
+    ],
+    "vertaling": {
+      "fr": "Procédure fiscale du contribuable"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +20,12 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.3.III",
+      "2.3.taak.5",
+      "2.5.taak.2",
+      "2.5.taak.4"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,32 +38,475 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6"
       }
-    ],
-    "ankers": [
-      "2.3.III",
-      "2.3.taak.5",
-      "2.5.taak.2",
-      "2.5.taak.4"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Fiscale procedure belastingplichtige",
+        "tekst": "Het **kader fiscale procedure belastingplichtige** omvat het geheel van procedurele rechten en verplichtingen waarover een belastingplichtige beschikt in zijn verhouding met de Belgische belastingadministratie — van de eerste aangifte tot en met de gerechtelijke fase. Het kader omspant drie grote assen: de **medewerkingsplicht** (aangifteplicht, antwoordplicht bij onderzoek), de **bescherming bij controle** (termijnen, formaliteiten, bewijslast) en de **rechtsmiddelen** (bezwaar, bemiddeling, beroep bij rechtbank).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de Belgische fiscale procedure staat de **belastingplichtige niet als passief subject** tegenover de administratie: hij heeft zowel verplichtingen (aangifte, medewerking aan onderzoek, antwoord binnen termijn) als **actieve rechten** (recht op verdediging, recht op aanslagtermijn-bescherming, recht op bezwaar en beroep).\n\nDrie structurele spanning zijn kenmerkend voor dit kader:\n- **Medewerking vs. zwijgrecht**: de belastingplichtige moet inlichtingen verstrekken, maar mag niet gedwongen worden tot zelfincriminatie in een strafrechtelijke context\n- **Bewijslast**: in principe draagt de administratie de bewijslast voor afwijking van de aangifte; bij indiciaire taxatie verschuift de last\n- **Termijnen**: de aanslagtermijnen beschermen de belastingplichtige tegen onbeperkte controle achteraf; buitengewone termijnen bij fraude of buitenlandse constructies zijn de voornaamste uitzondering",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het kader bestaat omdat de belastingadministratie met eenzijdig opgelegde aanslagen en verregaande onderzoeksbevoegdheden een structurele machtspositie heeft. Procedurele regels zijn de contramacht: ze beschermen de belastingplichtige tegen willekeur, zorgen voor rechtszekerheid (definitieve aanslagen na verloop van termijnen) en waarborgen het recht op tegenspraak (hoorrecht, bezwaarrecht). Voor de accountant die cliënten begeleidt, is dit kader de kaart waarbinnen alle fiscale interventies — van aangifte tot rechtbank — hun juridische thuis vinden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke belastingplichtige (natuurlijke persoon of vennootschap) die onderworpen is aan een Belgische belasting en geconfronteerd wordt met een controle, een wijziging van aangifte, een ambtshalve aanslag of een betwisting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waarbij de accountant als mandataris optreedt voor de cliënt-belastingplichtige in contact met de belastingadministratie — van het indienen van de aangifte tot het voeren van een bezwaarprocedure.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Specifieke procedures voor btw-controle of btw-bezwaar — die volgen een eigen wettelijke regeling met afwijkende termijnen en bevoegde instanties.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Gewestelijke belastingen (verkeers- en registratiebelastingen, erfbelasting) — die kennen een aparte procedurele regeling per gewest.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Indiening van de aangifte: het eerste procedurele moment waarbij de belastingplichtige zijn informatieplicht vervult en de aanslagtermijn begint te lopen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Ontvangst van een verzoek om inlichtingen of een vraag tot onderzoek door de administratie — triggert de verplichting tot medewerking en de rechten van verdediging.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Definitief worden van de aanslag na het verstrijken van de bezwaartermijn zonder bezwaar, of na uitputting van alle rechtsmiddelen (cassatie of definitief arrest).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Termijnverzuim** — te laat bezwaar indienen of te laat antwoorden op een vraag om inlichtingen kan leiden tot verval van procedurele rechten (ambtshalve aanslag, niet-ontvankelijk bezwaar).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Passieve houding tijdens onderzoek** — niet of onvolledig antwoorden op vragen van de administratie kan leiden tot verschuiving van de bewijslast of aanleiding geven tot indiciaire taxatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "aangifteplicht",
+        "naam": {
+          "primair": "Aangifteplicht",
+          "synoniemen": [
+            "informatieverplichting belastingplichtige"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige is verplicht een aangifte in te dienen binnen de wettelijk bepaalde termijn. Niet-aangifte of laattijdige aangifte geeft de administratie het recht een aanslag ambtshalve te vestigen op basis van de haar bekende gegevens en vermoedingen. De aangifteplicht is het fundament van het Belgische fiscale systeem — de belastingplichtige draagt zelf de feiten aan die als grondslag dienen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "medewerking-aan-onderzoek",
+        "naam": {
+          "primair": "Medewerking aan fiscaal onderzoek",
+          "synoniemen": [
+            "antwoordplicht",
+            "inlichtingenplicht"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige is verplicht te antwoorden op schriftelijke vragen van de administratie om inlichtingen en documenten te verstrekken. De antwoordtermijn bedraagt in principe één maand en kan worden verlengd op gemotiveerd verzoek. Weigering om te antwoorden of onvolledig antwoord kan aanleiding geven tot een indiciaire taxatie of tot toepassing van de bewijsvermoeden-regels.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hoorrecht",
+        "naam": {
+          "primair": "Hoorrecht",
+          "synoniemen": [
+            "recht op tegenspraak",
+            "contradictoir debat"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Vóór het vestigen van een aanslag die afwijkt van de aangifte of een ambtshalve aanslag, moet de administratie de belastingplichtige in kennis stellen van haar voornemen (bericht van wijziging of bericht van ambtshalve aanslag) en hem de kans geven te antwoorden. Dit contradictoir debat is een fundamentele procedurele bescherming — een aanslag gevestigd zonder het hoorrecht te respecteren kan worden vernietigd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanslagtermijnen-bescherming",
+        "naam": {
+          "primair": "Bescherming door aanslagtermijnen",
+          "synoniemen": [
+            "verjaringstermijn aanslag",
+            "aanslagtermijn als recht"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De aanslagtermijnen vormen de kernbescherming van de belastingplichtige: na verloop van de termijn kan de administratie geen aanslag meer vestigen of een bestaande aanslag niet meer wijzigen. De gewone aanslagtermijn is drie jaar na het tijdstip waarop de belasting verschuldigd is. Verlengde termijnen van zeven jaar gelden bij aanwijzingen van fraude of bij buitenlandse constructies — maar de administratie moet deze langere termijn door feiten staven.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De termijnen zijn zowel in het WIB92 als in het Wetboek Diverse Rechten en Taksen opgenomen; de exacte duur per belasting en per situatie vereist verificatie aan de hand van de actuele wetgeving."
+          }
+        }
+      },
+      {
+        "id": "bewijslast",
+        "naam": {
+          "primair": "Bewijslast in de fiscale procedure",
+          "synoniemen": [
+            "onus probandi fiscaal"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "In de Belgische fiscale procedure draagt de administratie in beginsel de bewijslast wanneer zij afwijkt van de aangifte: zij moet de feitelijke grondslag van haar taxatie bewijzen. De belastingplichtige draagt de bewijslast voor aftrekbare kosten en vrijstellingen waarop hij een beroep doet. Bij een indiciaire taxatie of taxatie op tekenen en indiciën draagt de administratie het bewijs van de tekenen (uiterlijke welstandstekens), waarna de belastingplichtige de herkomst van de middelen aannemelijk moet maken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bezwaarprocedure-recht",
+        "naam": {
+          "primair": "Recht op bezwaar",
+          "synoniemen": [
+            "bezwaarrecht",
+            "administratief beroep"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Na ontvangst van het aanslagbiljet beschikt de belastingplichtige over een termijn om bezwaar in te dienen bij de bevoegde adviseur-generaal van de administratie. Bezwaar is de eerste en verplichte trap in de rechtsmiddelenladder — een rechtstreeks beroep bij de rechtbank zonder voorafgaand bezwaar is in principe onontvankelijk. Het bezwaar schorst de invorderbaarheid niet automatisch; daarvoor is een afzonderlijk verzoek tot uitstel van betaling nodig.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte bezwaartermijn (zes of drie maanden afhankelijk van het type belasting en tijdstip van aanslagbiljet) vereist verificatie aan de actuele wetgeving."
+          }
+        }
+      },
+      {
+        "id": "rechtsmiddelenladder",
+        "naam": {
+          "primair": "Rechtsmiddelenladder",
+          "synoniemen": [
+            "fiscale rechtsgang",
+            "rechtsbeschermingstrap"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "De rechtsmiddelenladder in de Belgische fiscale procedure bestaat uit opeenvolgende trappen:\n1. **Bezwaar** (administratieve fase) — bij de adviseur-generaal\n2. **Fiscale bemiddeling** (optioneel) — bij de Fiscale bemiddelingsdienst, kan na bezwaar maar vóór beroep\n3. **Beroep bij de rechtbank van eerste aanleg** (gerechtelijke fase) — na ontvangst van de beslissing over het bezwaar of na stilzwijgen van de administratie\n4. **Hoger beroep** bij het hof van beroep\n5. **Cassatie** bij het Hof van Cassatie (zuiver rechtsvraag)\n\nElke trap heeft eigen ontvankelijkheidsvoorwaarden en termijnen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "bezwaarprocedure-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De bezwaarprocedure is de eerste administratieve rechtstrap en maakt integraal deel uit van dit kader."
+    },
+    {
+      "type": "bevat",
+      "target": "gerechtelijke-fase-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De gerechtelijke fase (beroep na bezwaar) is het verlengde van dit kader wanneer de administratieve weg is uitgeput."
+    },
+    {
+      "type": "bevat",
+      "target": "fiscale-bemiddelingsprocedure",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Fiscale bemiddeling is een optionele tussenlaag in de rechtsmiddelenladder die binnen dit kader valt."
+    },
+    {
+      "type": "vereist",
+      "target": "aanslagtermijnen-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Begrip van de aanslagtermijnen is noodzakelijk om de beschermingsomvang van dit kader te begrijpen."
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-bewijsmiddelen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Bewijsmiddelenregels zijn intrinsiek aan de procedurele positie van de belastingplichtige."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fiscale-sancties",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Niet-naleving van procedurele verplichtingen (aangifte, medewerking) resulteert in sancties die de positie van de belastingplichtige verzwaren."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-procedure-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De fiscale procedure PB is een belasting-specifieke invulling; dit kader biedt de overkoepelende procedurele principes."
+    }
+  ]
 }

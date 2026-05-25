@@ -1,17 +1,31 @@
 {
   "id": "eindejaarsverrichtingen",
   "naam": {
-    "primair": "Eindejaarsverrichtingen"
+    "primair": "Eindejaarsverrichtingen",
+    "synoniemen": [
+      "afsluiting boekjaar",
+      "jaarafsluiting",
+      "clôture de l'exercice"
+    ],
+    "vertaling": {
+      "fr": "Opérations de clôture"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
     "provenance": {
-      "model": "skeleton-from-candidate",
-      "wave_id": "skeleton-dump",
-      "extract_prompt": "tools.extractie.skeleton_from_candidate",
-      "iteratie": "v0"
+      "model": "claude-sonnet-4-6",
+      "wave_id": "wave-2-beschrijven",
+      "extract_prompt": "prompts/operaties/beschrijven.md",
+      "iteratie": "01-beschrijven"
     },
+    "ankers": [
+      "1.1.taak.1",
+      "1.1.II.L",
+      "1.1.II.Q"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +38,445 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relatie-suggesties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.1.taak.1",
-      "1.1.II.L",
-      "1.1.II.Q"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Eindejaarsverrichtingen",
+        "tekst": "**Eindejaarsverrichtingen** zijn de gestructureerde boekhoudkundige aanpassingen die een onderneming doorvoert op het moment van de **jaarafsluiting** — wanneer het boekjaar eindigt en vóór de opmaak van de jaarrekening. Ze zorgen ervoor dat de jaarrekening een **getrouw beeld** geeft van het vermogen, de financiële positie en het resultaat van de onderneming op balansdatum.\n\nHet betreft aanpassingen die **niet automatisch uit de lopende boekhouding voortvloeien**: waardeverminderingen, afschrijvingen, overlopende rekeningen, voorzieningen, herwaarderingen en inventarisaanpassingen worden manueel of semi-automatisch berekend en geboekt bij de afsluiting.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Eindejaarsverrichtingen overbruggen de kloof tussen de **lopende boekhouding** (die transactie-gericht werkt) en de **jaarrekening** (die periodegebonden resultaten en vermogen toont). De meeste lopende boekingen volgen het moment van de transactie; eindejaarsverrichtingen corrigeren dit naar het **matching-beginsel** (kosten en opbrengsten in het juiste boekjaar) en het **voorzichtigheidsbeginsel** (latente verliezen erkennen, latente winsten niet).\n\nDe procedure is **verplicht** voor alle boekhoudplichtige ondernemingen: de Belgische boekhoudwetgeving vereist dat de jaarrekening een getrouw beeld geeft, wat zonder eindejaarsaanpassingen onmogelijk is wanneer er niet-afgeschreven activa, niet-vervallen verplichtingen of niet-gerealiseerde waardeverminderingen bestaan.\n\nDe eindejaarsverrichtingen worden vastgelegd in een **inventaris**: een periodieke opname van alle activa en passiva per balansdatum, inclusief de berekeningen die de eindejaarsboekingen onderbouwen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het **getrouwbeeldbeginsel** (true and fair view) vereist dat de jaarrekening de werkelijke economische toestand van de onderneming weergeeft. Dat kan alleen als:\n1. **Kosten in het juiste jaar staan** — het matching-beginsel verdeelt kosten over de perioden waarop ze betrekking hebben, niet alleen wanneer ze betaald worden.\n2. **Waardeverliezen erkend worden** — het voorzichtigheidsbeginsel verplicht tot het boeken van waardeverminderingen zodra die voorzienbaar of vaststaand zijn, ook vóór realisatie.\n3. **Overlopende posten gecorrigeerd worden** — betalingen die perioden overspannen (vooruitbetaalde kosten, nog te ontvangen opbrengsten) moeten worden toegerekend aan het juiste boekjaar.\n\nZonder eindejaarsverrichtingen zou de jaarrekening een **vertekend beeld** geven: activa overgewaardeerd, kosten in het verkeerde jaar, verborgen risico's. Dit is de grondslag waarop het externe toezicht (commissaris) zijn controle inricht.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "**Alle boekhoudplichtige ondernemingen** met vaste activa, voorraden, vorderingen, schulden of contracten die de balansdatum overspannen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Elke onderneming heeft minstens overlopende rekeningen (huur, verzekering, intrest) die aanpassing vereisen."
+        },
+        {
+          "tekst": "**Eenmalig per boekjaar**, typisch in de weken volgend op het einde van het boekjaar (31/12 voor kalenderjaarondernemingen), vóór de opmaak van de jaarrekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Het **afsluiten van het boekjaar** (balansdatum): alle transacties van het boekjaar zijn verwerkt, de definitieve inventaris is opgemaakt, en de procedure om de jaarrekening voor te bereiden kan starten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De eindejaarsverrichtingen zijn afgerond wanneer alle aanpassingen zijn geboekt, de **proef- en saldibalans na afsluiting** klopt, en de jaarrekening kan worden opgemaakt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Onvolledige eindejaarsverrichtingen** leiden tot een vertekend beeld in de jaarrekening: overgewaardeerde activa, niet-geboekte verplichtingen, verkeerde winst- of verliesbepaling. Dit kan leiden tot een negatieve **commissarisverklaring** of herziening van de jaarrekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "inventaris-opname",
+        "naam": {
+          "primair": "Jaarlijkse inventaris"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De **jaarlijkse inventaris** is de periodieke opname van alle bezittingen, schulden en verplichtingen van de onderneming per balansdatum. Ze vormt de **feitelijke grondslag** voor de eindejaarsboekingen: elk actiefbestanddeel wordt geteld, gewogen of berekend en gewaardeerd.\n\nDe inventaris omvat: fysieke telling van voorraden, opname van liquide middelen en banktegoeden, bevestiging van openstaande vorderingen en schulden, en verificatie van de boekwaarden van vaste activa.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afschrijvingen",
+        "naam": {
+          "primair": "Afschrijvingen op vaste activa"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Afschrijvingen** zijn de stelselmatige spreiding van de aanschaffingswaarde van een vast actief over zijn **economische gebruiksduur**. Ze worden eenmaal per jaar geboekt bij de jaarafsluiting.\n\nBijzonder: afschrijvingen beginnen te lopen **vanaf het moment van gebruik** (niet van aankoop). In het jaar van aanschaf wordt pro-rata afgeschreven wanneer het actief niet het gehele boekjaar in gebruik was.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Afschrijvingen zijn het mechanisme waarmee het matching-beginsel wordt toegepast op vaste activa: de kost van het actief wordt toegerekend aan de jaren waarin het gebruikt wordt, niet aan het jaar van aankoop."
+          }
+        }
+      },
+      {
+        "id": "waardeverminderingen",
+        "naam": {
+          "primair": "Waardeverminderingen",
+          "synoniemen": [
+            "bijzondere waardevermindering",
+            "duurzame waardevermindering"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Waardeverminderingen** worden geboekt wanneer de boekwaarde van een actief (na afschrijving) hoger is dan de **realiseerbare waarde** — d.w.z. wanneer er een duurzame ontwaarding is die de normale afschrijving overstijgt.\n\nToepassing: op financiële activa (vorderingen, deelnemingen) en op materiële vaste activa bij structurele ontwaarding. Het voorzichtigheidsbeginsel vereist dat latente verliezen worden erkend.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Verschil met afschrijving:\n- **Afschrijving** = verwachte slijtage over de gebruiksduur, planmatig en jaarlijks.\n- **Waardevermindering** = onverwacht verlies dat de normale afschrijving overstijgt, situatiegebonden.\n\nWaardeverminderingen kunnen worden **teruggenomen** wanneer de reden voor de ontwaarding wegvalt — in tegenstelling tot afschrijvingen die onomkeerbaar zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorzieningen",
+        "naam": {
+          "primair": "Voorzieningen voor risico's en kosten",
+          "synoniemen": [
+            "provisions"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Voorzieningen** zijn passief-posten die worden aangelegd voor **voorzienbare verplichtingen of risico's** die op balansdatum bestaan, maar waarvan het exacte bedrag of tijdstip nog onzeker is. Ze worden jaarlijks beoordeeld en bijgesteld.\n\nTypische aanleiding: lopende rechtszaken, garantieverplichtingen, milieuverplichtingen, pensioenverplichtingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het voorzichtigheidsbeginsel verplicht tot erkenning van voorzienbare verliezen zodra ze waarschijnlijk zijn. Een onderneming die een bestaande rechtszaak niet voorziet in de jaarrekening, geeft een onvolledig beeld van haar verplichtingen."
+          }
+        }
+      },
+      {
+        "id": "overlopende-rekeningen-verrichtingen",
+        "naam": {
+          "primair": "Overlopende rekeningen",
+          "synoniemen": [
+            "transitorische posten",
+            "regularisatierekeningen"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Overlopende rekeningen** corrigeren het tijdsverschil tussen de **kassastroom** en de **economische periode** waarop een kost of opbrengst betrekking heeft. Er zijn vier varianten:\n\n1. **Vooruitbetaalde kosten** — kosten betaald in jaar N die betrekking hebben op jaar N+1 (bv. jaarlijkse verzekeringspremie betaald in december)\n2. **Nog te ontvangen opbrengsten** — opbrengsten die economisch tot jaar N behoren maar pas in N+1 ontvangen worden\n3. **Vooruitontvangen opbrengsten** — ontvangsten in jaar N die economisch tot jaar N+1 behoren\n4. **Nog te betalen kosten** — kosten die economisch tot jaar N behoren maar pas in N+1 betaald worden (bv. intrest die per kwartaal betaald wordt)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder overlopende rekeningen zou de winst van een jaar afhangen van het toevallige betaalmoment van kosten en opbrengsten, niet van de periode waarop ze betrekking hebben. Dit zou de vergelijkbaarheid van jaarrekeningen ondermijnen."
+          }
+        }
+      },
+      {
+        "id": "voorraadwaardering-afsluiting",
+        "naam": {
+          "primair": "Voorraadwaardering bij afsluiting"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de jaarafsluiting wordt de **eindvoorraad** bepaald op basis van de inventaris en gewaardeerd. De waardering beïnvloedt direct de **kostprijs van verkopen** en daarmee het resultaat:\n\n- **Hogere eindvoorraad** → lagere kostprijs van verkopen → hogere winst\n- **Lagere eindvoorraad** → hogere kostprijs van verkopen → lagere winst\n\nHet laagste-van-kostprijs-of-marktwaarde-principe vereist dat voorraden die in waarde gedaald zijn (door bederf, veroudering, marktdaling) worden afgewaardeerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "omzetting-en-resultaatverwerking",
+        "naam": {
+          "primair": "Resultaatverwerking bij afsluiting"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Na alle eindejaarsaanpassingen wordt het **resultaat van het boekjaar** definitief vastgesteld als het saldo van alle opbrengsten en kosten. Dit resultaat verschijnt op de resultatenrekening en wordt vervolgens verwerkt:\n\n- **Winst**: kan worden gereserveerd (wettelijke reserve, beschikbare reserve), overgedragen naar het volgend jaar, of uitgekeerd als dividend (na uitkeringsbeslissing door de algemene vergadering).\n- **Verlies**: wordt ten laste gelegd van de reserves of overgedragen als negatief saldo.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "triggert",
+      "target": "jaarrekening",
+      "toelichting": "Eindejaarsverrichtingen zijn de directe voorbereiding op de opmaak van de jaarrekening; ze zijn een noodzakelijke voorwaarde.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "jaarlijkse-inventaris",
+      "toelichting": "De inventarisopname per balansdatum is de feitelijke grondslag voor de meeste eindejaarsboekingen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "boekhoudbeginselen",
+      "toelichting": "Eindejaarsverrichtingen zijn de operationele toepassing van het matching-beginsel, het voorzichtigheidsbeginsel en het getrouwbeeldbeginsel.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "dubbele-boekhouding",
+      "toelichting": "Eindejaarsverrichtingen zijn een afsluiting-cyclus binnen het systeem van de dubbele boekhouding.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "overlopende-rekeningen",
+      "toelichting": "Overlopende rekeningen zijn een van de hoofdcategorieën van eindejaarsverrichtingen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "voorzieningen-en-uitgestelde-belastingen",
+      "toelichting": "Aanleg en aanpassing van voorzieningen is een verplichte eindejaarsverrichting.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "vaste-activa",
+      "toelichting": "Afschrijvingen en waardeverminderingen op vaste activa zijn kernverrichtingen bij de jaarafsluiting.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "resultaatverwerking",
+      "toelichting": "Resultaatverwerking volgt direct na de eindejaarsverrichtingen en sluit de jaarafsluiting-cyclus af.",
+      "gelijkenissen": [
+        "Beide horen bij de jaarafsluiting",
+        "Beide vereisen beslissingen van het bestuursorgaan"
+      ],
+      "verschillen": [
+        "Eindejaarsverrichtingen bepalen het resultaat; resultaatverwerking verdeelt het",
+        "Eindejaarsverrichtingen zijn boekhoudkundig verplicht; resultaatverwerking is een vennootschapsrechtelijk beslissingsmoment"
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

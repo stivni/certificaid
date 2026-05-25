@@ -1,11 +1,24 @@
 {
   "id": "gemeentebelastingen-sui-generis",
   "naam": {
-    "primair": "Gemeentebelastingen sui generis"
+    "primair": "Gemeentebelastingen sui generis",
+    "synoniemen": [
+      "specifieke gemeentebelastingen",
+      "autonome gemeentebelastingen",
+      "belastingen van eigen aard"
+    ],
+    "vertaling": {
+      "fr": "Taxes communales sui generis"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.7.II.B",
+      "2.7.taak.2"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +37,414 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T10:30:00Z",
+        "model": "claude-sonnet-4-6"
       }
-    ],
-    "ankers": [
-      "2.7.II.B",
-      "2.7.taak.2"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Gemeentebelastingen sui generis",
+        "tekst": "**Gemeentebelastingen sui generis** zijn belastingen die gemeenten op eigen initiatief en met eigen tarieven instellen op basis van hun **fiscale autonomie**, los van de aanvullende belastingen op federale heffingen (opcentiemen en aanvullende personenbelasting). Het begrip 'sui generis' verwijst naar het eigensoortige karakter: elke gemeente bepaalt zelfstandig het belastbaar feit, de belastbare grondslag, de tarieven en de vrijstellingen, mits het belastingreglement voldoet aan de algemene wettelijke vereisten.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Gemeenten beschikken over twee hoofdtypes fiscale inkomsten: (1) **aanvullende belastingen** op federale heffingen (opcentiemen op onroerende voorheffing, aanvullende personenbelasting), en (2) **sui generis-belastingen** — belastingen die de gemeente volledig autonoom creëert op een belastbaar feit dat zij zelf kiest.\n\nTypische voorbeelden van sui generis-belastingen zijn:\n- belasting op **drijfkracht** (gebruik van motoren in de onderneming)\n- belasting op **stortplaatsen**, leegstaande bedrijfspanden of verwaarloosde gebouwen\n- belasting op **terrassen**, automaten, parkeerplaatsen\n- **milieubelastingen** op specifieke activiteiten\n- belasting op het **aantal werknemers** of op nachtarbeid\n\nHet onderscheid met opcentiemen is cruciaal: opcentiemen volgen de federale belastbare grondslag automatisch; sui generis-belastingen hebben een **zelfstandige belastbare grondslag** die volledig door de gemeente wordt bepaald.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De sui generis-belastingbevoegdheid vloeit voort uit de **grondwettelijk gewaarborgde gemeentelijke autonomie**. Gemeenten mogen in principe alles belasten wat niet door een hogere overheid is uitgesloten of al belast wordt op een wijze die gemeentelijk optreden verhindert (non bis in idem bij dubbele heffing). De ratio is dat gemeenten hun lokale beleidskeuzen — milieu, leegstand, economische activiteit — kunnen ondersteunen met een financieel instrument dat zij zelf kalibreren op de lokale situatie.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Ondernemingen met een **vestiging in een gemeente** die sui generis-belastingen heft op bedrijfskenmerken (drijfkracht, werknemers, terras, automaten, stortplaatsen) — de belastingplicht bestaat ongeacht het fiscaal regime op federaal of gewestelijk niveau.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Startsituaties en verplaatsingen** van ondernemingen: de keuze van vestigingsgemeente bepaalt mede de lokale belastingdruk via het lokale belastingreglement, dat per gemeente sterk kan verschillen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Compliance-check bij de jaarlijkse aangifte** van lokale belastingen: veel gemeenten verplichten aangifte van de belastbare grondslag (bijv. aantal kW drijfkracht, aantal werknemers) via een jaarlijks aangifteformulier met eigen deadline.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Aanvullende gemeentebelasting op de personenbelasting (ACB)** — dat is een procentuele opslag op de federale PB-belasting, geen sui generis-belasting. De ACB volgt de federale belastbare grondslag en wordt berekend door de federale overheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Gemeentelijke opcentiemen op de onroerende voorheffing** — dat zijn evenmin sui generis; ze zijn een percentage op de federaal berekende onroerende voorheffing, niet een zelfstandige heffing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Dubbele heffing-risico**: een gemeente kan niet hetzelfde belastbare feit belasten als een hogere overheid al exclusief belast. Als een gemeente toch een sui generis-belasting invoert op een federaal of gewestelijk belastbaar feit, is het reglement vernietigbaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Wijzigingsrisico**: gemeenten kunnen hun belastingreglement aanpassen bij elke gemeenteraadsbeslissing. Een onderneming die haar vestigingskeuze maakte op basis van een gunstig lokaal klimaat, heeft geen garantie dat dit stabiel blijft.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "fiscale-autonomie-gemeenten",
+        "naam": {
+          "primair": "Fiscale autonomie van gemeenten"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Gemeenten mogen in principe alles belasten, tenzij een hogere overheid dit uitdrukkelijk verbiedt of een belasting al dusdanig exclusief is dat gemeentelijk optreden strijdig zou zijn met het non bis in idem-beginsel. Deze bevoegdheid is grondwettelijk verankerd en vormt de juridische grondslag voor alle sui generis-belastingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belastingreglement",
+        "naam": {
+          "primair": "Gemeentelijk belastingreglement"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke sui generis-gemeentebelasting moet worden vastgesteld via een **belastingreglement** dat door de gemeenteraad is goedgekeurd. Het reglement bepaalt verplicht: (1) het belastbaar feit, (2) de belastingplichtige persoon, (3) de belastbare grondslag, (4) het tarief of de tariefstructuur, (5) de vrijstellingen en verminderingen, en (6) de aangifte- en betalingsmodaliteiten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belastbaar-feit-sui-generis",
+        "naam": {
+          "primair": "Belastbaar feit bij sui generis-belastingen"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "substantie": {
+            "tekst": "Het belastbare feit is de situatie of handeling die de belastingschuld doet ontstaan. Bij sui generis-belastingen kiest de gemeente dit zelf: het kan gaan om een **toestand** (vestiging van een handelszaak, leegstaand pand), een **bezit** (terras, automaten, voertuigen) of een **activiteit** (storten van afval, gebruik van drijfkracht). De gemeente bepaalt ook de **peildatum** voor de belastbare toestand.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "typische-sui-generis-belastingen",
+        "naam": {
+          "primair": "Typische sui generis-belastingen"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "Veelvoorkomende sui generis-belastingen in Belgische gemeenten:\n\n- **Drijfkrachtbelasting**: heffing per kW geïnstalleerde motorvermogen in de onderneming — treffen de industriële activiteit.\n- **Bedrijfsbelasting op werknemers**: heffing per tewerkgestelde werknemer — kan per voltijdsequivalent of per hoofd zijn.\n- **Terrassen- en standplaatsenbelasting**: heffing op tijdelijke of permanente inname van openbare ruimte.\n- **Belasting op automaten en toestellen**: gokautomaten, fotokabines, parkeermeters.\n- **Leegstandsbelasting op bedrijfsruimten**: heffing op langdurig ongebruikte industriële of commerciële panden — instrument om speculatieve leegstand tegen te gaan.\n- **Milieubelastingen**: heffingen op activiteiten met milieu-impact die niet door het gewest worden belast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verhouding-tot-hogere-overheid",
+        "naam": {
+          "primair": "Verhouding tot hogere overheden en dubbele heffing"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een gemeente kan geen sui generis-belasting instellen op een belastbaar feit dat al **exclusief is voorbehouden** door een hogere overheid of dat al zodanig volledig wordt belast dat gemeentelijke aanvulling strijdig is met het non bis in idem-beginsel. Het Grondwettelijk Hof en de Raad van State bewaken de grenzen. De gemeente moet ook het **gelijkheidsbeginsel** en het **verbod van discriminatie** respecteren bij het afbakenen van de belastingplichtige categorieën.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aangifte-en-inkohiering",
+        "naam": {
+          "primair": "Aangifte en inkohiering"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De inning van sui generis-gemeentebelastingen verloopt via twee mechanismen:\n\n1. **Kohierbelasting**: de gemeente stelt een belastingkohier op (vergelijkbaar met de federale belastingaanslag). De belastingplichtige ontvangt een aanslagbiljet en beschikt over een bezwaartermijn. Geschillen gaan naar de rechtbank van eerste aanleg.\n\n2. **Contante belasting**: de belasting wordt direct geïnd op het moment van de handeling (bv. parkeerbelasting) — geen kohier, geen bezwaar via fiscale weg.\n\nVeel gemeenten combineren een aangifteplicht (belastingplichtige geeft de belastbare grondslag aan) met de kohierprocedure voor de aanslagberekening.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bezwaar-en-beroep-lokale-belastingen",
+        "naam": {
+          "primair": "Bezwaar en beroep bij lokale belastingen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij kohierbelastingen heeft de belastingplichtige het recht om bezwaar in te dienen bij het **college van burgemeester en schepenen** (of het door de gemeente aangewezen orgaan), doorgaans binnen een termijn van drie maanden na verzending van het aanslagbiljet. Bij niet-akkoord met de bezwaarbeslissing is beroep mogelijk bij de **rechtbank van eerste aanleg** — niet bij de fiscale rechtbanken die bevoegd zijn voor federale belastingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "lokale-fiscale-autonomie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "gewestelijke-en-lokale-fiscaliteit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "aanvullende-gemeentebelasting-pb",
+      "toelichting": "Beide zijn gemeentelijke heffingen, maar aanvullende gemeentebelasting is een procentuele opslag op de federale PB; sui generis-belastingen hebben een autonome grondslag.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gemeentelijke-opcentiemen-onroerende-voorheffing",
+      "toelichting": "Beide zijn gemeentelijke heffingen; opcentiemen volgen de federale belastbare grondslag automatisch, sui generis-belastingen hebben een zelfstandige grondslag.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "gewestelijke-fiscale-autonomie",
+      "toelichting": "De grenzen van gemeentelijke sui generis-bevoegdheid worden deels bepaald door gewestelijke heffingen die gemeentelijk optreden kunnen uitsluiten.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "lokale-belasting-reglement",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "vertegenwoordiging-bij-gewestelijke-en-lokale-fiscus",
+      "toelichting": "Bezwaar en vertegenwoordiging bij lokale belastingen vereisen kennis van de sui generis-belastingprocedure.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

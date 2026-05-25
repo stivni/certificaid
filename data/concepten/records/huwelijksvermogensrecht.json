@@ -1,8 +1,16 @@
 {
   "id": "huwelijksvermogensrecht",
   "naam": {
-    "primair": "Huwelijksvermogensrecht"
+    "primair": "Huwelijksvermogensrecht",
+    "synoniemen": [
+      "huwelijksvermogensstelsel",
+      "matrimoniaal vermogensrecht"
+    ],
+    "vertaling": {
+      "fr": "Droit patrimonial de mariage"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +20,9 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.6.VI.A"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,29 +35,445 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.6.VI.A"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Huwelijksvermogensrecht",
+        "tekst": "Het **huwelijksvermogensrecht** is het geheel van wettelijke regels dat de vermogensrelaties tussen echtgenoten onderling en ten aanzien van derden (schuldeisers, erfgenamen) bepaalt. Het regelt welk vermogen van wie is (eigendom), wie schulden kan aangaan die de andere echtgenoot binden (bestuur), en hoe vermogen wordt verdeeld bij scheiding of overlijden (vereffening-verdeling).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het huwelijksvermogensrecht draait om drie kernvragen:\n\n1. **Eigendom** — behoort een goed of schuld toe aan één echtgenoot (eigen vermogen) of aan beiden samen (gemeenschappelijk vermogen)?\n2. **Bestuur** — wie mag rechtshandelingen stellen die dit goed of deze schuld binden?\n3. **Vereffening** — hoe wordt het vermogen verdeeld als het stelsel eindigt?\n\nEchtgenoten kiezen hun stelsel via een **huwelijkscontract** vóór of tijdens het huwelijk. Zonder contract geldt van rechtswege het **wettelijk stelsel** (gemeenschap van aanwinsten).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het huwelijksvermogensrecht bestaat omdat echtgenoten een duurzame economische gemeenschap vormen — hun financiële belangen zijn verstrengeld op een manier die vreemden niet zijn. Zonder duidelijke regels ontstaan geschillen over wie wat bezit, wie schulden kan maken die de ander binden, en hoe vermogen na scheiding of overlijden toekomt. Voor de accountant is het kader cruciaal omdat het beïnvloedt welke goederen en schulden bij een cliënt in aanmerking komen voor successieplanning, welk vermogen ingebracht kan worden in een vennootschap, en hoe vermogens worden afgeschermd van schuldeisers.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "wettelijk-stelsel",
+        "naam": {
+          "primair": "Wettelijk stelsel (gemeenschap van aanwinsten)",
+          "synoniemen": [
+            "gemeenschap van aanwinsten",
+            "wettelijk huwelijksvermogensstelsel"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **wettelijk stelsel** is het huwelijksvermogensstelsel dat van rechtswege geldt wanneer echtgenoten geen huwelijkscontract sluiten. Het omvat drie vermogens: het **eigen vermogen** van elke echtgenoot (goederen verkregen vóór het huwelijk of via erfenis/schenking) en het **gemeenschappelijk vermogen** (alle aanwinsten tijdens het huwelijk, dus beroepsinkomsten en goederen daarmee verworven).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De gemeenschap van aanwinsten is de gulden middenweg: wat vóór het huwelijk individueel opgebouwd werd, blijft eigen; wat tijdens het huwelijk samen verworven werd (door arbeid), is gemeenschappelijk. Dit weerspiegelt de economische solidariteit van het huwelijk zonder vroegere individuele opbouw te vermengen."
+          }
+        }
+      },
+      {
+        "id": "scheiding-van-goederen",
+        "naam": {
+          "primair": "Scheiding van goederen",
+          "synoniemen": [
+            "zuivere scheiding van goederen",
+            "stelsel van scheiding van goederen"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij het stelsel van **scheiding van goederen** heeft elke echtgenoot uitsluitend eigen vermogen — er is geen gemeenschappelijk vermogen. Alle goederen en schulden zijn ofwel eigendom van echtgenoot A ofwel van echtgenoot B. Bij vereffening-verdeling valt er niets te verdelen tussen de echtgenoten onderling (elk houdt zijn eigen vermogen).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Scheiding van goederen biedt maximale bescherming van het eigen vermogen tegen schulden van de andere echtgenoot — relevant voor zelfstandige ondernemers of bestuurders met professioneel aansprakelijkheidsrisico."
+          }
+        }
+      },
+      {
+        "id": "algehele-gemeenschap",
+        "naam": {
+          "primair": "Algehele gemeenschap",
+          "synoniemen": [
+            "gemeenschap van alle goederen"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de **algehele gemeenschap** is in principe al het vermogen van beide echtgenoten — zowel het vóór het huwelijk bestaande als het tijdens het huwelijk verworven — gemeenschappelijk. Uitzonderingen gelden voor strikt persoonlijke goederen (bv. vergoeding voor morele schade). Dit stelsel kan enkel via huwelijkscontract worden bedongen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "huwelijkscontract",
+        "naam": {
+          "primair": "Huwelijkscontract",
+          "synoniemen": [
+            "huwelijkse voorwaarden",
+            "huwelijksakte"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **huwelijkscontract** is de notariële overeenkomst waarmee aanstaande of huidige echtgenoten hun huwelijksvermogensstelsel bepalen of wijzigen. Verplicht in authentieke vorm (notarisakte). Kan worden opgesteld vóór het huwelijk of — met rechterlijke homologatie — tijdens het huwelijk. Inhoud: keuze van stelsel, specifieke bedingen (bv. keuzebeding, inbreng), en eventuele erfrechtsclausules.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bestuur-gemeenschappelijk-vermogen",
+        "naam": {
+          "primair": "Bestuur van het gemeenschappelijk vermogen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke echtgenoot kan in het wettelijk stelsel de goederen van het gemeenschappelijk vermogen **zelfstandig** besturen voor daden van gewoon beheer en beschikking. Voor **buitengewone** daden die de woonplaats van het gezin of de exploitatie van een beroep betreffen, is de **instemming van beide echtgenoten** vereist. De andere echtgenoot kan echter de handeling bekrachtigen of aanvechten naargelang zijn belang.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het bestuursprincipe beschermt de gezinswoning en het familiebedrijf: de ene echtgenoot kan ze niet zonder meer verkopen of bezwaren zonder toestemming van de andere."
+          }
+        }
+      },
+      {
+        "id": "verrekenbeding",
+        "naam": {
+          "primair": "Verrekenbeding",
+          "synoniemen": [
+            "finaal verrekenbeding",
+            "periodiek verrekenbeding"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **verrekenbeding** is een contractuele clausule in het huwelijkscontract die bij scheiding van goederen een compenserende verrekeningsverplichting toevoegt: de echtgenoot met het groter vermogen is een bedrag verschuldigd aan de andere, berekend op basis van aanwinsten tijdens het huwelijk. Zo combineert het de vermogensbescherming van scheiding van goederen met de solidariteitsgedachte van het wettelijk stelsel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "keuzebeding",
+        "naam": {
+          "primair": "Keuzebeding",
+          "synoniemen": [
+            "langst-leeft-al-beding",
+            "optioneel beding"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **keuzebeding** is een huwelijkscontractuele clausule die aan de langstlevende echtgenoot het recht geeft om bij overlijden van de andere echtgenoot te kiezen welke goederen uit het gemeenschappelijk vermogen hij of zij wil overnemen (bv. alle goederen, alleen de woning, of een bepaald gedeelte). De langstlevende kiest de meest voordelige optie — vandaar de naam 'keuze'-beding.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het keuzebeding biedt flexibele successieplanning: de langstlevende past zijn keuze aan aan de concrete fiscale en familiale situatie op het moment van overlijden, zonder dat dit vooraf volledig vastgelegd moet zijn."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Analyse van het vermogen van een gehuwde cliënt in het kader van **successieplanning** — welke goederen komen toe aan de langstlevende, welke vallen in de nalatenschap.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Beoordelen welke goederen ingebracht kunnen worden in een **vennootschap** (eigen vermogen van de echtgenoot versus gemeenschappelijk vermogen dat medewerking van de andere echtgenoot vereist).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Beoordelen van **schuldeisers-risico** bij een ondernemer: welk stelsel beschermt het privévermogen van de echtgenoot het best bij faillissement of aansprakelijkstelling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Wettelijk samenwonenden — zij vallen **niet** onder het huwelijksvermogensrecht maar onder een eigen wettelijk kader (geen gemeenschap van aanwinsten van rechtswege).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Feitelijk samenwonenden — zij hebben geen wettelijk beschermd huwelijksvermogensrecht; hun vermogensrelaties worden beheerd door het gemeen recht (eigendom, aansprakelijkheid).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het huwelijksvermogensrecht is uitsluitend van toepassing op **gehuwde** personen (huwelijksvoltrekking vereist, niet enkel feitelijk of wettelijk samenwonen).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Het **wettelijk stelsel zonder huwelijkscontract** laat toe dat schuldeisers van één echtgenoot het gemeenschappelijk vermogen aanspreken voor beroepsschulden — behalve wanneer de schuld aantoonbaar enkel de andere echtgenoot persoonlijk bindt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Cliënt is gehuwd, heeft geen huwelijkscontract → **wettelijk stelsel** (gemeenschap van aanwinsten) is van toepassing — beroepsinkomsten en aangekochte goederen zijn automatisch gemeenschappelijk.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Cliënt is zelfstandig ondernemer of bestuurder met aansprakelijkheidsrisico → advies **scheiding van goederen** of aanpassing huwelijkscontract ter bescherming privévermogen van echtgenoot.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "erfrecht",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het huwelijksvermogensrecht en het erfrecht zijn nauw verweven: de vereffening-verdeling van het huwelijksvermogen is de eerste stap vóór de erfopvolging. Wat gemeenschappelijk vermogen is, valt maar voor de helft in de nalatenschap."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "successieplanning",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Successieplanning voor gehuwde cliënten vertrekt altijd vanuit het toepasselijke huwelijksvermogensstelsel — het bepaalt hoeveel vermogen in de nalatenschap valt en welke instrumenten (keuzebeding, inbreng, verrekenbeding) beschikbaar zijn."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "erfbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De omvang van de nalatenschap — en dus de erfbelasting — hangt af van welk deel van het vermogen gemeenschappelijk is (valt voor de helft in nalatenschap) versus eigen (valt volledig in nalatenschap)."
+    },
+    {
+      "type": "valt_onder",
+      "target": "rechtsvormen-belgie",
+      "grondslag": {
+        "confidence": "betwijfeld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Huwelijksvermogensrecht is een deeldomein van het burgerlijk recht, niet van vennootschapsrecht. Relatie met rechtsvormen-belgie is indirect."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "opsplitsing-eigendom",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beide kaders splitsen eigendom tussen meerdere personen met verschillende rechten. Huwelijksvermogensrecht doet dit tussen echtgenoten; vruchtgebruik/blote eigendom doet dit tussen generaties."
+    }
+  ]
 }

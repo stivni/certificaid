@@ -1,11 +1,28 @@
 {
   "id": "eu-fiscale-richtlijnen",
   "naam": {
-    "primair": "Eu fiscale richtlijnen"
+    "primair": "EU-fiscale richtlijnen",
+    "afkorting": "EU-RL",
+    "synoniemen": [
+      "Europese fiscale richtlijnen",
+      "EU tax directives",
+      "EU fiscaal kader"
+    ],
+    "vertaling": {
+      "fr": "Directives fiscales européennes",
+      "en": "EU fiscal directives"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.8.IV",
+      "2.8.XII",
+      "2.8.XV",
+      "2.8.XVI"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,32 +41,581 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.8.IV",
-      "2.8.XII",
-      "2.8.XV",
-      "2.8.XVI"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Eu fiscale richtlijnen",
+        "tekst": "**EU-fiscale richtlijnen** vormen het normatief kader van bindende Europese wetgeving die lidstaten verplicht hun nationale belastingwetgeving op bepaalde punten te harmoniseren of te coördineren. Een richtlijn bindt lidstaten wat betreft het te bereiken resultaat, maar laat de nationale wetgever vrij in de keuze van vorm en middelen voor de omzetting.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Op het vlak van directe belastingen heeft de EU beperkte bevoegdheid — lidstaten behouden hun soevereiniteit, maar unanimiteit in de Raad kan richtlijnen opleggen. De bekendste EU-fiscale richtlijnen voor de Belgische praktijk zijn:\n\n- **Moeder-dochterrichtlijn** — elimineert dubbele belasting op dividenden binnen groepen\n- **Interest- en royaltyrichtlijn** — grensoverschrijdende rente en royalties vrijgesteld van bronheffing\n- **Fiscale fusierichtlijn** — belastingvrije herstructureringen over grenzen\n- **ATAD I en II** — anti-belastingontwijkingsregels (rentebeperking, CFC, exit-belasting, hybride mismatches)\n- **Administratieve samenwerkingsrichtlijn (DAC)** — automatische uitwisseling van belastinggegevens\n- **Pilaar 2-richtlijn** — mondiale minimumbelasting 15% voor grote groepen\n\nOp btw-vlak heeft de EU ruimere bevoegdheid: de btw-richtlijn 2006/112/EG is het fundament van het geharmoniseerde btw-stelsel.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De EU-fiscale richtlijnen bestaan omdat de interne markt — vrij verkeer van goederen, diensten, kapitaal en personen — verstoord wordt door incongruente nationale belastingstelsels. Zonder harmonisatie leidt elke grensoverschrijdende transactie tot dubbele belasting (of tot belastingvrije gaten door mismatches). De richtlijnen lossen dit op door minimumstandaarden op te leggen, terwijl lidstaten hun nationale stelsel overigens integraal kunnen bewaren.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Analyse van grensoverschrijdende transacties binnen de EU waarbij dividenden, rente, royalties of meerwaarden worden betaald tussen verbonden vennootschappen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Dit zijn precies de situaties waar de Moeder-dochterrichtlijn, Interest- en Royaltyrichtlijn en Fusierichtlijn van toepassing zijn en dubbele belasting elimineren."
+        },
+        {
+          "tekst": "Beoordeling van herstructureringsverrichtingen (fusie, splitsing, inbreng van algemeenheid) met grensoverschrijdende elementen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De Fusierichtlijn maakt belastingneutrale herstructureringen mogelijk over EU-grenzen heen — zonder richtlijn zou elk grensoverschrijdend equivalent van een fusie een belastbare vervreemding zijn."
+        },
+        {
+          "tekst": "Toetsing of een Belgische vennootschap deel uitmaakt van een groep die onder de Pilaar 2-minimumbelasting valt (geconsolideerde omzet ≥ € 750 miljoen).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Zuiver interne Belgische situaties zonder grensoverschrijdend element — daar zijn de EU-richtlijnen niet van toepassing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Richtlijnen harmoniseren de interne markt en vereisen een grensoverschrijdende dimensie. Voor zuiver Belgische situaties gelden de nationale regels die (los van richtlijn-omzetting) van toepassing zijn."
+        },
+        {
+          "tekst": "Relaties met landen buiten de EU — daarvoor zijn dubbelbelastingverdragen (OESO-model / MLI) en niet de EU-richtlijnen het relevante kader.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Een richtlijn is slechts afdwingbaar nadat de omzettingstermijn is verstreken én de lidstaat heeft omgezet. Niet-omgezette richtlijnen kunnen bij voldoende duidelijkheid en onvoorwaardelijkheid rechtstreekse werking hebben tegen de staat (verticale werking), maar niet automatisch tussen particulieren (horizontale werking).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Aanwezigheid van een moeder- of dochteronderneming in een andere EU-lidstaat, aandeelhoudersdividend of groepslening met grensoverschrijdend karakter.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Herstructureringsverrichting waarbij minstens één betrokken entiteit in een andere EU-lidstaat gevestigd is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "richtlijn-als-rechtsbron",
+        "naam": {
+          "primair": "Richtlijn als rechtsbron"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een EU-richtlijn is een secundaire rechtsbron die **bindend is wat het resultaat betreft** maar de lidstaat vrij laat in de keuze van vorm en middelen. De richtlijn werkt niet rechtstreeks — zij moet worden omgezet in nationaal recht binnen de vastgestelde omzettingstermijn. Na omzetting is de nationale wet (niet de richtlijn) de afdwingbare norm; de richtlijn dient als interpretatiebron.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "moeder-dochterrichtlijn",
+        "naam": {
+          "primair": "Moeder-dochterrichtlijn",
+          "synoniemen": [
+            "Parent-Subsidiary Directive",
+            "PSD"
+          ],
+          "afkorting": "MDR"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **Moeder-dochterrichtlijn** elimineert economische dubbele belasting op dividenden uitgekeerd door een dochter in EU-lidstaat A aan haar moeder in EU-lidstaat B. Twee mechanismen: (1) **vrijstelling** van bronbelasting bij de dochter, of (2) **verrekening of vrijstelling** bij de moeder. Drempelvoorwaarde: deelneming van minimaal 10% in het kapitaal (betwijfeld — verifieer nationale omzettingsdrempel).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2011/96/EU",
+                  "ref": "richtlijn-2011-96-eu"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "interest-royalty-richtlijn",
+        "naam": {
+          "primair": "Interest- en royaltyrichtlijn",
+          "synoniemen": [
+            "IRR",
+            "Interest & Royalties Directive"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **Interest- en royaltyrichtlijn** stelt grensoverschrijdende betalingen van rente en royalties tussen **verbonden vennootschappen** binnen de EU vrij van bronbelasting in de bronstaat. Doel: identieke behandeling als puur interne betalingen. Verbondenheid: minimaal 25% kapitaaldeelneming (betwijfeld).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2003/49/EG",
+                  "ref": "richtlijn-2003-49-eg"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-fusierichtlijn",
+        "naam": {
+          "primair": "Fiscale fusierichtlijn",
+          "synoniemen": [
+            "Merger Directive",
+            "reorganisatierichtlijn"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **Fiscale fusierichtlijn** maakt het mogelijk dat grensoverschrijdende herstructureringen binnen de EU (fusie, splitsing, gedeeltelijke splitsing, inbreng van activa, aandelenruil) belastingneutraal plaatsvinden: de meerwaarden worden niet onmiddellijk belast maar **doorgeschoven** naar de overnemende vennootschap. Voorwaarde: de verrichting moet een **geldige economische reden** hebben — louter belastingontwijking komt niet in aanmerking.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2009/133/EG",
+                  "ref": "richtlijn-2009-133-eg"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "atad-richtlijnen",
+        "naam": {
+          "primair": "ATAD I en II",
+          "synoniemen": [
+            "Anti-Tax Avoidance Directive",
+            "anti-belastingontwijkingsrichtlijn"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**ATAD I** (2016) legt vijf minimumstandaarden op ter bestrijding van belastingontwijking: (1) renteaftrekbeperking (EBITDA-regel), (2) CFC-regels (gecontroleerde buitenlandse vennootschappen), (3) exit-belasting bij zetelverplaatsing, (4) algemene anti-misbruikbepaling (GAAR), (5) hybride mismatches binnen de EU. **ATAD II** (2017) breidt de hybride mismatch-regels uit tot situaties met derde landen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2016/1164/EU (ATAD I)",
+                  "ref": "richtlijn-2016-1164-eu"
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2017/952/EU (ATAD II)",
+                  "ref": "richtlijn-2017-952-eu"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "dac-richtlijnen",
+        "naam": {
+          "primair": "DAC — Administratieve samenwerking",
+          "synoniemen": [
+            "Directive on Administrative Cooperation",
+            "DAC1 t/m DAC8"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **DAC-richtlijnen** regelen de automatische uitwisseling van belastinggegevens tussen EU-lidstaten. Opeenvolgende versies breiden de scope uit: financiële rekeningen (DAC2/CRS), rulings en verrekenprijsrapportages (DAC3), country-by-country reporting (DAC4), eigendomsgegevens (DAC5), grensoverschrijdende constructies — meldingsplicht voor intermediairs (DAC6), en platformeconomie (DAC7), crypto-assets (DAC8).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2011/16/EU en wijzigingen",
+                  "ref": "richtlijn-2011-16-eu"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "pilaar-2-richtlijn",
+        "naam": {
+          "primair": "Pilaar 2-richtlijn",
+          "synoniemen": [
+            "GloBE-richtlijn",
+            "minimumbelastingrichtlijn",
+            "Richtlijn 2022/2523/EU"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **Pilaar 2-richtlijn** verplicht EU-lidstaten om voor grote multinationale groepen (geconsolideerde omzet ≥ € 750 miljoen) een **effectief minimumtarief van 15%** te garanderen via het GloBE-raamwerk. Twee mechanismen: (1) de **Income Inclusion Rule (IIR)** — de moeder belast laagbelaste winst van dochters bij; (2) de **Undertaxed Profit Rule (UTPR)** — andere landen heffen bij als de moederstaat faalt. In België omgezet via de wet van 19 december 2023.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2022/2523/EU",
+                  "ref": "richtlijn-2022-2523-eu"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-richtlijn",
+        "naam": {
+          "primair": "Btw-richtlijn",
+          "synoniemen": [
+            "Richtlijn 2006/112/EG",
+            "PVD — Principal VAT Directive"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **btw-richtlijn 2006/112/EG** is het geharmoniseerde fundament van het btw-stelsel in alle EU-lidstaten. Anders dan bij directe belastingen heeft de EU op btw-vlak uitgebreide bevoegdheid: structuur, tariefbanden (minimumtarief 15%), vrijstellingen en de mechanismen voor grensoverschrijdende leveringen zijn in de richtlijn bepaald. Lidstaten mogen uitsluitend afwijken waar de richtlijn dit expliciet toelaat.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2006/112/EG",
+                  "ref": "richtlijn-2006-112-eg"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "anti-misbruikclausule-richtlijnen",
+        "naam": {
+          "primair": "Anti-misbruikclausule in EU-richtlijnen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Alle grote EU-fiscale richtlijnen bevatten een **algemene anti-misbruikbepaling**: voordelen worden geweigerd wanneer de constructie geen **authentieke economische activiteit** weerspiegelt en de voornaamste doelstelling of een van de voornaamste doelstellingen is het verkrijgen van het richtlijnvoordeel. De toets is objectief — de aanwezigheid van echt economisch gewicht (personeel, gebouwen, beleidsbeslissingen ter plaatse) is doorslaggevend.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "moeder-dochterrichtlijn",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Moeder-dochterrichtlijn is de meest gebruikte EU-fiscale richtlijn in de dagelijkse praktijk — staat los als eigen concept in de index."
+    },
+    {
+      "type": "bevat",
+      "target": "interest-royalty-richtlijn",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "fiscale-fusierichtlijn",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "atad-richtlijn",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "ATAD I en II hebben aparte records in de index."
+    },
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "dubbelbelastingverdrag",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide beperken dubbele belasting op grensoverschrijdende inkomsten",
+        "Beide vereisen een grensoverschrijdend element om van toepassing te zijn"
+      ],
+      "verschillen": [
+        "EU-richtlijnen zijn bindend voor alle lidstaten en werken via nationale omzetting; DBV's zijn bilaterale verdragen",
+        "EU-richtlijnen zijn breed sectoraal (intern EU); DBV's gelden voor specifiek landenpaar inclusief derde landen",
+        "EU-richtlijnen worden geïnterpreteerd door het Hof van Justitie EU; DBV's door nationale rechters en in OESO-kader"
+      ],
+      "verwarring_risico": "In een intra-EU situatie overlappen richtlijn en DBV — de richtlijn biedt doorgaans ruimere vrijstelling dan het DBV, maar het DBV kan aanvullend worden toegepast.",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "beps-actieplan",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide bestrijden belastingontwijking en erosie van belastinggrondslag",
+        "ATAD I/II zijn de EU-omzetting van BEPS-actiepunten"
+      ],
+      "verschillen": [
+        "BEPS-actieplan is een OESO-initiatief zonder bindende kracht; EU-richtlijnen zijn bindend voor lidstaten",
+        "EU-richtlijnen gelden enkel binnen de EU; BEPS heeft wereldwijke draagwijdte"
+      ],
+      "verwarring_risico": "ATAD is de EU-implementatie van selecte BEPS-actiepunten — BEPS is breder en bevat ook niet-geharmoniseerde aanbevelingen.",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "oeso-modelverdrag",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "EU-richtlijnen worden ontworpen in aansluiting met het OESO-raamwerk en BEPS — met name ATAD en de Pilaar 2-richtlijn zijn directe EU-vertalingen van OESO-standaarden."
+    }
+  ]
 }

@@ -1,11 +1,28 @@
 {
   "id": "fusie",
   "naam": {
-    "primair": "Fusie"
+    "primair": "Fusie",
+    "synoniemen": [
+      "fusie door overneming",
+      "fusie door oprichting",
+      "juridische fusie"
+    ],
+    "vertaling": {
+      "fr": "Fusion"
+    }
   },
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.1.II.T",
+      "2.3.III.B",
+      "3.0.taak.2",
+      "3.0.taak.3",
+      "1.4.II.A",
+      "1.4.II.D"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,34 +41,508 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.1.II.T",
-      "2.3.III.B",
-      "3.0.taak.2",
-      "3.0.taak.3",
-      "1.4.II.A",
-      "1.4.II.D"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Fusie",
+        "tekst": "Een **fusie** is een vennootschapsrechtelijke verrichting waarbij twee of meer vennootschappen samensmelten tot één vennootschap, waarbij het volledige vermogen (activa en passiva) van de overgenomen vennootschap(pen) van rechtswege overgaat op de overnemende of nieuw opgerichte vennootschap, en de aandeelhouders van de verdwijnende vennootschap(pen) aandelen ontvangen in de overnemende vennootschap — **zonder liquidatie**.\n\nHet WVV onderscheidt drie basisvormen:\n- **Fusie door overneming** — één bestaande vennootschap neemt het vermogen van (een) andere over; de overgenomen vennootschap(pen) houden op te bestaan\n- **Fusie door oprichting** — alle fuserende vennootschappen gaan op in een nieuw opgerichte vennootschap; geen van de deelnemers overleeft\n- **Vereenvoudigde fusie** — bijzondere vorm wanneer de overnemende vennootschap (nagenoeg) alle aandelen van de over te nemen vennootschap bezit (90%-drempel)",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een fusie is economisch een **eigendomsoverdracht van de hele onderneming**, maar technisch-juridisch een **universele vermogensoverdracht van rechtswege**: contracten, licenties, vergunningen, schulden en personeel gaan automatisch mee zonder afzonderlijke akte of toestemming van elke wederpartij (tenzij contractueel of wettelijk anders bepaald).\n\nDit onderscheidt een fusie fundamenteel van een gewone **overdracht van activa** (asset deal): bij een asset deal gaat elk activum apart over en moet de koper alle schulden expliciet overnemen; bij een fusie is er één universele overgang zonder inventarisatie per post.\n\nVoor de aandeelhouders is het een **gedwongen aandelenruil**: ze geven hun aandelen in de verdwijnende vennootschap in en krijgen aandelen in de overnemende terug, op basis van een **ruilverhouding** bepaald door de vermogenswaarden. Een beperkte **opleg in geld** (≤ 10% van nominale waarde) is toegestaan maar geen echte uitkering.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De juridische constructie van de universele vermogensoverdracht van rechtswege heeft een economische rationale: ze vermijdt de transactiekosten en risico's van een stuk-voor-stuk overdracht van honderden contracten, licenties en activa. De continuïteitsgedachte — alle rechten en verplichtingen gaan ongewijzigd mee — beschermt zowel schuldeisers (hun vordering blijft bestaan, gericht tegen de overnemende vennootschap) als werknemers (arbeidscontracten lopen door). De regeling van schuldeisersbescherming (verzet) bestaat precies omdat schuldeisers hun schuldenaar zien veranderen zonder dat ze daarvoor toestemming gaven.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Groepsstructurering waarbij twee actieve vennootschappen worden samengebracht tot één operationele entiteit om duplicaat-overhead (bestuur, boekhouding, btw-aangifte) te elimineren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Één vennootschap heeft één bestuur, één jaarrekening, één belastingaangifte — de administratieve winst is direct en herhaalbaar."
+        },
+        {
+          "tekst": "Overname waarbij de koper het volledige vermogen en alle lopende contracten van de doelwit-vennootschap wil overnemen zonder afzonderlijke contractuele cessies — typisch wanneer de target strategische licenties, huurcontracten of klantenrelaties heeft die moeilijk individueel over te dragen zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De universele vermogensoverdracht van rechtswege elimineert het probleem van contractuele overdrachtsverboden (anti-assignment clausules) — tenzij het contract expliciet de fusie-overgang uitsluit."
+        },
+        {
+          "tekst": "Intra-groep vereenvoudiging waarbij een 100%-dochter wordt opgeslorpt door de moeder (**vereenvoudigde fusie**), bijv. na een eerdere share deal of om een lege holdinglaag op te ruimen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij 100%-deelneming vallen de verplichte verslagen van de revisor en de ruilverhouding-bepaling weg — de administratieve last is minimal."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Gevallen waarbij de koper slechts een deel van de activiteiten of activa wil overnemen — een fusie pakt alles (met alle schulden en risico's); een gedeeltelijke overdracht vereist een **partiële splitsing** of een gewone activa-overdracht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waarbij de koper **verborgen aansprakelijkheden** (fiscale of sociale schulden, hangende rechtszaken) van de over te nemen vennootschap wil isoleren — bij een fusie komen die automatisch mee; een share deal met garanties of een asset deal laat meer selectiviteit toe.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Beide (of alle) fuserende vennootschappen moeten een **rechtsgeldig besluit** nemen in de respectieve algemene vergaderingen, doorgaans met een **drievoudige meerderheid** (3/4 van de aanwezige stemmen, mits quorum van helft van het kapitaal aanwezig is).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een **fusievoorstel** moet worden opgesteld, neergelegd bij de griffie van de ondernemingsrechtbank en bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad, **minstens 6 weken** vóór de beslissende algemene vergadering.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Termijn voor verificatie: WVV art. 12:24 e.v. — betwijfeld want precieze termijn moet getoetst worden aan de wettekst."
+        },
+        {
+          "tekst": "Het **verzetsrecht van schuldeisers**: schuldeisers met een vordering vóór de neerlegging van het fusievoorstel kunnen **verzet aantekenen** binnen 2 maanden na bekendmaking; het verzet schorst de fusie-effecten voor die schuldeiser totdat zekerheid is gesteld of de rechter het verzet ongegrond verklaart.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verborgen aansprakelijkheden** (fiscale naorderingen, sociale schulden, milieuverantwoordelijkheden) gaan automatisch mee via de universele vermogensoverdracht — due diligence vóór de fusie is essentieel maar elimineert het risico nooit volledig.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Fusie-neutraliteit is niet automatisch**: de fiscale fusie-vrijstelling (geen onmiddellijke belastbaarheid van meerwaarden) vereist dat de fusie plaatsvindt om **zakelijke overwegingen** en niet uitsluitend of hoofdzakelijk om belastingontwijking — de fiscus beoordeelt dit achteraf.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "fusievormen",
+        "naam": {
+          "primair": "Fusievormen",
+          "synoniemen": [
+            "fusie door overneming",
+            "fusie door oprichting",
+            "vereenvoudigde fusie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het WVV onderscheidt drie fusievormen met verschillende gevolgen voor de betrokken vennootschappen:\n\n**Fusie door overneming**: één overnemende vennootschap (A) neemt het volledige vermogen van één of meer overgenomen vennootschappen (B, C) over. B en C houden op te bestaan; A blijft voortbestaan met uitgebreid vermogen. De aandeelhouders van B en C ontvangen aandelen in A.\n\n**Fusie door oprichting**: alle deelnemende vennootschappen gaan op in een **nieuw opgerichte** vennootschap (N). Alle bestaande vennootschappen houden op te bestaan. Alle aandeelhouders worden aandeelhouder in N.\n\n**Vereenvoudigde fusie** (ook: fusie door overneming van een dochter): wanneer de overnemende vennootschap 90% of meer van de aandelen van de over te nemen vennootschap houdt, vervallen een reeks formaliteiten (geen ruilverhouding, geen verslag revisor over ruilverhouding). Bij 100%-deelneming vervallen bovendien het bijzonder verslag van het bestuursorgaan en de buitengewone algemene vergadering van de dochter.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "universele-vermogensoverdracht",
+        "naam": {
+          "primair": "Universele vermogensoverdracht van rechtswege"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een fusie gaat het **volledige vermogen** — alle activa, passiva, rechten en verplichtingen — van de verdwijnende vennootschap **automatisch en van rechtswege** over op de overnemende vennootschap, op het moment dat de fusie van kracht wordt (datum authentieke akte). Er is geen afzonderlijke akte, levering of toestemming vereist per individuele post.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit onderscheidt de fusie van een activa-overdracht (asset deal) waarbij elk activum apart wordt overgedragen. De universele overdracht is zowel voordeel (eenvoud) als risico (verborgen schulden gaan mee)."
+          }
+        }
+      },
+      {
+        "id": "ruilverhouding",
+        "naam": {
+          "primair": "Ruilverhouding",
+          "synoniemen": [
+            "exchange ratio"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **ruilverhouding** bepaalt hoeveel aandelen in de overnemende (of nieuwe) vennootschap elke aandeelhouder van de verdwijnende vennootschap ontvangt per ingeleverd aandeel. Ze wordt berekend op basis van de relatieve waarden van de vennootschappen, vastgesteld via een waardering (DCF, comparable transactions, netto-activa-waarde of combinatie).\n\nFormule: ruilverhouding = waarde per aandeel verdwijnende vennootschap / waarde per aandeel overnemende vennootschap\n\nEen **opleg in geld** (≤ 10% van de nominale waarde van de uitgereikte aandelen) is toegestaan als afronding om een exacte ruilverhouding te bereiken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De ruilverhouding is het centrale spanningspunt voor minderheidsaandeelhouders: een te lage verhouding is een vermogensoverdracht ten voordele van de meerderheidsaandeelhouder. Het verslag van de bedrijfsrevisor over de ruilverhouding dient als objectieve controle."
+          }
+        }
+      },
+      {
+        "id": "fusieprocedure-stappen",
+        "naam": {
+          "primair": "Fusieprocedure — wettelijke stappen"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "De wettelijke fusieprocedure omvat de volgende hoofdstappen (volgorde is dwingend):\n\n1. **Fusievoorstel** — besturen stellen gezamenlijk een fusievoorstel op met verplichte vermeldingen (beschrijving vermogen, ruilverhouding, rechten van houders bijzondere aandelen, bijzondere voordelen voor bestuurders, datum inbreng voor boekhoudkundige doeleinden)\n2. **Neerlegging en bekendmaking** — neerlegging bij griffie ondernemingsrechtbank + bekendmaking in Bijlagen Belgisch Staatsblad; vertrekpunt van de 6-wekenperiode (termijn betwijfeld — te verifiëren aan WVV)\n3. **Verslagen** — verslag bestuursorgan over de fusie + (normaal) verslag bedrijfsrevisor over de ruilverhouding; vallen weg bij vereenvoudigde fusie\n4. **Schuldeisersbescherming** — verzetsrecht open gedurende 2 maanden na bekendmaking\n5. **Beslissing algemene vergadering(en)** — drievoudige meerderheid vereist (of unanimiteit in sommige gevallen bij BV)\n6. **Authentieke akte** — notariële akte van fusie; fusie wordt van kracht op datum akte\n7. **Bekendmaking effectuering** — neerlegging en bekendmaking van de definitieve akten",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schuldeisersbescherming",
+        "naam": {
+          "primair": "Schuldeisersbescherming bij fusie",
+          "synoniemen": [
+            "verzetsrecht",
+            "verzet schuldeisers"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Schuldeisers van de fuserende vennootschappen die een **vordering hadden vóór de neerlegging van het fusievoorstel** kunnen **verzet aantekenen** bij de rechtbank van koophandel. Het verzet **schorst de fusie-effecten** voor de schuldeiser die verzet aantekende, totdat:\n- voldoende zekerheid is gesteld (borgstelling, pandrecht, …), of\n- de rechter het verzet ongegrond verklaart, of\n- de schuld is voldaan.\n\nDe overige schuldeisers (zonder verzet) zijn gebonden aan de fusie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De schuldeiser heeft zijn contractspartij gekozen op basis van de solvabiliteit van de vennootschap waarmee hij contracteerde. Een fusie wijzigt zijn schuldenaar zonder zijn toestemming — het verzetsrecht compenseert dit door hem de mogelijkheid te geven aanvullende zekerheid te eisen."
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-datum-inbreng",
+        "naam": {
+          "primair": "Boekhoudkundige datum van inbreng",
+          "synoniemen": [
+            "retroactiviteitsdatum",
+            "datum boekhoudkundige werking"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het fusievoorstel vermeldt de **datum met ingang waarvan de verrichtingen van de overgenomen vennootschap boekhoudkundig worden geacht voor rekening van de overnemende vennootschap te zijn verricht**. Deze datum (retroactiviteitsdatum) kan **liggen vóór de datum van de authentieke akte** — vaak is dit 1 januari van het lopende boekjaar. De fiscale werking treedt pas in op de datum van de authentieke akte.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De retroactiviteitsdatum vereenvoudigt de boekhouding: de overgenomen vennootschap hoeft geen afzonderlijk tussentijds jaarverslag op te maken voor de periode vóór de eigenlijke akte. Ze creëert echter een tijdsverschil tussen boekhoudkundige en juridische/fiscale werking — beide moeten worden gevolgd."
+          }
+        }
+      },
+      {
+        "id": "fiscale-fusie-neutraliteit",
+        "naam": {
+          "primair": "Fiscale fusie-neutraliteit",
+          "synoniemen": [
+            "fiscaal neutrale fusie",
+            "fusievrijstelling"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Fusies kunnen **fiscaal neutraal** verlopen: de meerwaarden op de ingebrachte activa worden **niet onmiddellijk belast** bij de verdwijnende vennootschap en de stille reserves worden overgedragen aan de overnemende vennootschap op de fiscale boekwaarden. De overnemende vennootschap zet de fiscale loopbaan van de activa verder (zelfde afschrijvingstermijnen, zelfde fiscale waarden).\n\nDe neutraliteit geldt **niet automatisch** — ze vereist dat de fusie plaatsvindt om **zakelijke overwegingen** (geen belastingontwijking als voornaamste motief). De fiscus kan de neutraliteit weigeren als het zakelijk motief ontbreekt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fusie-consolidatie-effect",
+        "naam": {
+          "primair": "Fusie-effect op geconsolideerde jaarrekening"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Wanneer twee vennootschappen die vóór de fusie in dezelfde consolidatiekring zaten fuseren, **verdwijnt de onderlinge verhouding** uit de consolidatiekring: de interne eliminaties (deelneming moeder/dochter, intercompany vorderingen en schulden) vallen weg omdat er nog maar één entiteit is. De geconsolideerde jaarrekening van de groep wordt eenvoudiger: één minder entiteit, geen intercompany-eliminatie meer voor de gefuseerde paren.\n\nWanneer een **externe** vennootschap wordt overgenomen via fusie (geen groepsentiteit vóór de fusie) en de overnemende vennootschap is een dochtervennootschap, wijzigt ook de consolidatiekring van de moeder.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "verrichting"
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "splitsing",
+      "toelichting": "Spiegeling van de fusie: bij splitsing splitst één vennootschap haar vermogen over twee of meer bestaande of nieuwe vennootschappen; bij fusie gaan meerdere vennootschappen op in één.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-van-bedrijfstak-of-algemeenheid",
+      "toelichting": "Beide verrichtingen brengen een geheel van activa en passiva over, maar bij een inbreng van algemeenheid blijft de inbrengende vennootschap bestaan en ontvangt ze aandelen; bij fusie houdt ze op te bestaan en krijgen haar aandeelhouders de aandelen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fiscale-fusie-splitsing",
+      "toelichting": "De fiscale neutraliteit van de fusie wordt beheerst door het regime van de fiscale fusie-splitsing (WIB92 en fiscale fusierichtlijn); de boekhoudkundige verrichting en de fiscale behandeling zijn niet automatisch identiek.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "bijzondere-verslagen-vennootschapsverrichtingen",
+      "toelichting": "De standaardfusie-procedure vereist een verslag van het bestuursorgaan en een verslag van de bedrijfsrevisor over de ruilverhouding; beide vallen (deels) weg bij een vereenvoudigde fusie.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fiscale-fusierichtlijn",
+      "toelichting": "De Europese fusierichtlijn vormt de grondslag voor de fiscale neutraliteit bij grensoverschrijdende fusies; voor binnenlandse fusies is de nationale uitvoering in WIB92 bepalend.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrechtelijk-kader-wvv",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "wijziging-consolidatiekring",
+      "toelichting": "Een fusie waarbij een groepsexterne of groepsinterne vennootschap betrokken is, leidt tot een wijziging van de consolidatiekring (verdwijnen of toevoegen van een entiteit).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

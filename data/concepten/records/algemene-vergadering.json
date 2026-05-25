@@ -30,6 +30,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 31)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende beschrijven-operatie: kern.substantie toegevoegd, gebruikscontext ingevuld (voor/niet_voor/trigger_start/trigger_einde/risico), elementen kern.substantie aangevuld waar zinvol."
       }
     ],
     "ankers": [
@@ -41,6 +47,47 @@
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De algemene vergadering is het hoogste beslissingsorgaan van een vennootschap, samengesteld uit alle aandeelhouders of vennoten, dat de bevoegdheid heeft over fundamentele beslissingen zoals statutenwijziging, winstbestemming, benoeming en ontslag van bestuurders en commissarissen, en ontbinding van de vennootschap. Zij vergadert minstens één keer per jaar (de gewone jaarvergadering) om de jaarrekening goed te keuren.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De algemene vergadering is in wezen het **democratisch forum van de aandeelhouders**: wie kapitaal heeft ingebracht en het ondernemingsrisico draagt, beslist over de fundamentele koers en verantwoordt de bestuurders. Drie mechanismen maken dit orgaan bijzonder:\n\n- **Exclusiviteitsregel** — een aantal bevoegdheden kan niet worden gedelegeerd aan het bestuursorgaan. Wat de AV beslist, kan het bestuur niet op eigen houtje terugdraaien.\n- **Quorum-cascade** — voor gewone beslissingen is elke aanwezige meerderheid voldoende; voor ingrijpende wijzigingen (statuten, ontbinding) eist de wet een aanwezigheidsquorum én een bijzondere driekwartsmeerderheid.\n- **Formaliteits-piramide** — een gewone AV volstaat voor dagelijkse beslissingen; een buitengewone AV met notariële akte is verplicht voor elke statutenwijziging.\n\nVoor een accountant is de AV het moment waarop de jaarrekening formeel wordt goedgekeurd, de resultaatsbestemming vaststaat, kwijting wordt verleend en de commissaris eventueel zijn verslag uitbrengt of zijn mandaat wordt hernieuwd.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De algemene vergadering belichaamt het eigendomsrecht van aandeelhouders: zij verschaffen kapitaal en dragen ondernemingsrisico, en hebben daarom inspraak in de meest fundamentele beslissingen. De wet (WVV) stelt een minimumkader vast van exclusieve bevoegdheden om de aandeelhouders te beschermen tegen beslissingen die hun vermogenspositie of zeggenschap fundamenteel wijzigen zonder hun toestemming. Voor een accountant-adviseur is de algemene vergadering het moment waarop de jaarrekening formeel wordt goedgekeurd, de resultaatsbestemming vaststaat, en eventueel de commissaris-revisor wordt benoemd of zijn verslag uitbrengt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "vennootschapsrechtelijk-kader-wvv",
@@ -56,6 +103,161 @@
         "resultaatverwerking",
         "alarmbel",
         "bijzondere-verslagen-vennootschapsverrichtingen"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke vennootschap die valt onder het WVV (NV, BV, CV, VOF, CommV) — de AV is een verplicht wettelijk orgaan dat minstens jaarlijks bijeenkomt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Wanneer een vennootschapsrechtelijke beslissing genomen moet worden die niet gedelegeerd kan worden aan het bestuursorgaan: jaarrekening goedkeuren, winstbestemming vaststellen, bestuurders benoemen of ontslaan, statutenwijziging, vrijwillige ontbinding.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Wanneer de alarmbelprocedure wordt getriggerd (netto-actief onder helft of kwart van het maatschappelijk kapitaal): het bestuursorgaan is verplicht een buitengewone AV bijeen te roepen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Dagelijkse bestuursbeslissingen en operationeel beheer — die behoren tot de bevoegdheid van het bestuursorgaan of de gedelegeerd bestuurder, niet van de AV.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Beslissingen in eenmansvennootschappen of maatschappen zonder formele AV-structuur — daar neemt de enige aandeelhouder beslissingen via schriftelijk besluit zonder bijeenroepingsformaliteiten.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Het bijeenroepen door het bestuursorgaan (gewone AV: verplicht binnen 6 maanden na afsluiting boekjaar; buitengewone AV: bij vastgestelde noodzaak of op verzoek van aandeelhouders met minstens één tiende van de aandelen).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Verzoek van aandeelhouders die minstens één tiende van de aandelen bezitten of — voor NV's en grote BV's — op verzoek van de commissaris.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Het sluiten van de vergadering door de voorzitter nadat alle agendapunten zijn behandeld en de besluiten zijn vastgesteld. De notulen worden nadien opgemaakt en ondertekend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Quorum niet bereikt bij buitengewone AV (eerste bijeenroeping)** — wanneer minder dan de helft van het kapitaal vertegenwoordigd is, kan er niet geldig worden beslist en moet een tweede vergadering worden bijeengeroepen zonder quorumvereiste maar met behoud van de driekwartsmeerderheid.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Nietigheid van besluiten** wegens procedurefouten (onvoldoende oproepingstermijn, ontbrekende agendapunten, afwezigheid van vereiste verslagen bij buitengewone verrichtingen) — nietige besluiten kunnen worden aangevochten door elke aandeelhouder of het openbaar ministerie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Kwijting zonder volledige informatie** — de kwijting ontslaat bestuurders en commissarissen alleen voor feiten die aan de vergadering bekend waren; verzwegen of niet-gerapporteerde feiten vallen er niet onder.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
       ]
     },
     "elementen": [
@@ -74,6 +276,34 @@
               "datum": "2026-05-22"
             }
           ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Het WVV onderscheidt drie soorten: de gewone (jaarvergadering), de buitengewone en de bijzondere algemene vergadering.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De drie soorten verschillen in bevoegdheid, quorum en formaliteiten. De gewone AV is de jaarlijkse verplichte vergadering voor goedkeuring van de jaarrekening en kwijting. De buitengewone AV is de zwaardere variant voor structuurwijzigingen, met hogere quorum- en meerderheidsvereisten. De bijzondere AV beschermt houders van specifieke aandelencategorieën wanneer hun rechten worden geraakt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
         },
         "elementen": [
           {
@@ -142,22 +372,7 @@
               }
             }
           }
-        ],
-        "kern": {
-          "definitie": {
-            "tekst": "Het WVV onderscheidt drie soorten: de gewone (jaarvergadering), de buitengewone en de bijzondere algemene vergadering.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
-                }
-              ]
-            }
-          }
-        }
+        ]
       },
       {
         "id": "exclusieve-bevoegdheden",
@@ -174,6 +389,34 @@
               "datum": "2026-05-22"
             }
           ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Het WVV reserveert een aantal beslissingen voor de algemene vergadering die niet aan het bestuursorgaan kunnen worden gedelegeerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De exclusiviteitsregel is de kern van de aandeelhoudersbescherming: beslissingen die de vermogenspositie of de zeggenschapsstructuur fundamenteel raken, kunnen niet worden uitbesteed aan de mensen die zij moeten controleren. De niet-delegeerbare bevoegdheden zijn: (1) goedkeuring jaarrekening en resultaatsbestemming, (2) benoeming en ontslag bestuurders/commissarissen, (3) kwijting, (4) elke statutenwijziging, (5) vrijwillige ontbinding.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
         },
         "elementen": [
           {
@@ -336,22 +579,7 @@
               }
             }
           }
-        ],
-        "kern": {
-          "definitie": {
-            "tekst": "Het WVV reserveert een aantal beslissingen voor de algemene vergadering die niet aan het bestuursorgaan kunnen worden gedelegeerd.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
-                }
-              ]
-            }
-          }
-        }
+        ]
       },
       {
         "id": "quorum-en-meerderheden",
@@ -368,6 +596,34 @@
               "datum": "2026-05-22"
             }
           ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Voor de gewone AV geldt geen aanwezigheidsquorum en volstaat een gewone meerderheid (meer dan 50% van de uitgebrachte stemmen). Voor de buitengewone AV is een aanwezigheidsquorum van minstens de helft van het kapitaal (of de aandelen) vereist, en moet het besluit worden aangenomen met minstens drie kwart van de uitgebrachte stemmen.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De quorum-cascade werkt als volgt: bij de gewone AV volstaat elke meerderheid van aanwezigen, zonder minimumdrempel voor aanwezigheid. Bij de buitengewone AV: (1e bijeenroeping) minstens de helft van het kapitaal aanwezig én driekwartsmeerderheid vereist. Wordt het quorum niet bereikt, dan kan een 2e vergadering worden bijeengeroepen zonder quorumvereiste maar met behoud van de driekwartsmeerderheid — dit is de veiligheidsklep die besluitvorming bij lage opkomst toch mogelijk maakt.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
         },
         "elementen": [
           {
@@ -466,22 +722,7 @@
               }
             }
           }
-        ],
-        "kern": {
-          "definitie": {
-            "tekst": "Quorum en meerderheidsvereisten",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
-                }
-              ]
-            }
-          }
-        }
+        ]
       },
       {
         "id": "bijeenroeping",
@@ -498,6 +739,21 @@
               "datum": "2026-05-22"
             }
           ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De bijeenroeping omvat alle formaliteiten die vóór de vergadering moeten worden vervuld: wie kan oproepen, aan wie, op welke wijze, binnen welke termijn en met vermelding van welke agenda.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
         },
         "elementen": [
           {
@@ -596,22 +852,7 @@
               }
             }
           }
-        ],
-        "kern": {
-          "definitie": {
-            "tekst": "Bijeenroeping",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
-                }
-              ]
-            }
-          }
-        }
+        ]
       },
       {
         "id": "notulen-en-publicatie",
@@ -671,6 +912,19 @@
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
                   "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De alarmbelprocedure fungeert als noodrem: wanneer het vermogen dermate is aangetast dat de continuïteit van de vennootschap in het gedrang komt, worden de aandeelhouders verplicht bijeengeroepen om te beslissen over het lot van de vennootschap. Het bestuursorgaan dat nalaat deze vergadering bijeen te roepen, riskeert persoonlijke aansprakelijkheid.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -742,34 +996,6 @@
         }
       }
     ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De algemene vergadering is het hoogste beslissingsorgaan van een vennootschap, samengesteld uit alle aandeelhouders of vennoten, dat de bevoegdheid heeft over fundamentele beslissingen zoals statutenwijziging, winstbestemming, benoeming en ontslag van bestuurders en commissarissen, en ontbinding van de vennootschap. Zij vergadert minstens één keer per jaar (de gewone jaarvergadering) om de jaarrekening goed te keuren."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De algemene vergadering belichaamt het eigendomsrecht van aandeelhouders: zij verschaffen kapitaal en dragen ondernemingsrisico, en hebben daarom inspraak in de meest fundamentele beslissingen. De wet (WVV) stelt een minimumkader vast van exclusieve bevoegdheden om de aandeelhouders te beschermen tegen beslissingen die hun vermogenspositie of zeggenschap fundamenteel wijzigen zonder hun toestemming. Voor een accountant-adviseur is de algemene vergadering het moment waarop de jaarrekening formeel wordt goedgekeurd, de resultaatsbestemming vaststaat, en eventueel de commissaris-revisor wordt benoemd of zijn verslag uitbrengt."
-      }
-    },
     "syntheses": [
       {
         "type": "keuzekader",

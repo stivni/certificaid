@@ -1,8 +1,20 @@
 {
   "id": "communicatie-met-governance",
   "naam": {
-    "primair": "Communicatie met governance"
+    "primair": "Communicatie met governance",
+    "afkorting": "ISA 260",
+    "synoniemen": [
+      "communicatie met de met governance belaste personen",
+      "communication with those charged with governance",
+      "auditcommunicatie governance",
+      "interactie met directie en bestuur"
+    ],
+    "vertaling": {
+      "fr": "Communication avec les responsables de la gouvernance",
+      "en": "Communication with those charged with governance"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +36,11 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6"
       }
     ],
     "ankers": [
@@ -33,20 +50,489 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Communicatie met governance",
+        "tekst": "**Communicatie met governance** is de gestructureerde, tweerichtingsdialoog die de externe auditor verplicht onderhoudt met de **met governance belaste personen** (raad van bestuur, auditcomité, of equivalent orgaan) van de gecontroleerde entiteit — gedurende de hele controleopdracht en in het bijzonder bij de afronding. De verplichting vloeit voort uit ISA 260 en dekt zowel de **onderwerpen die verplicht gecommuniceerd moeten worden** als de **vorm en timing** van die communicatie.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "norm",
+              "naam": "ISA 260",
+              "ref": "ISA-260"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De auditor communiceert niet alleen het eindoordeel (de controleverklaring) — hij is tijdens de opdracht verplicht te rapporteren over significante bevindingen, kernpunten van de controle, materiële zwakheden in de interne beheersing, en zijn onafhankelijkheidspositie.\n\nDe communicatie-plicht dient twee doelen:\n1. **Kwaliteitsbewaking** — governance-actoren kunnen de auditor bijsturen of aanvullende informatie aanleveren\n2. **Wederzijds begrip** — governance weet welke risico's de auditor als significant beschouwt; de auditor weet welke beslissingen governance heeft genomen\n\nBelangrijkste onderscheid: governance ≠ management. Management voert uit; governance houdt toezicht. De auditor communiceert met **beide** maar via **afzonderlijke kanalen en met afzonderlijke inhoud**.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Zonder gestructureerde governance-communicatie zou de auditor een zuiver technische rol spelen — controleren en verklaren — zonder dat de verantwoordelijken voor het toezicht weten **welke risico's de auditor heeft gevonden en hoe hij daarmee is omgegaan**. ISA 260 verplicht de auditor zijn significante bevindingen proactief te delen met het governance-orgaan, zodat dat orgaan zijn toezichthoudende rol effectief kan uitoefenen. De communicatie beschermt ook de auditor: gedocumenteerde dialoog toont aan dat hij governance tijdig heeft geïnformeerd.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke **wettelijke controleopdracht** (commissariaat) waarbij een auditcomité of raad van bestuur als governance-orgaan fungeert.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "ISA 260 is van toepassing op alle wettelijke controles; de verplichting geldt ongeacht de grootte van de entiteit."
+        },
+        {
+          "tekst": "Bij **vrijwillige controleopdrachten** waarbij de opdrachtbrief ISA-naleving vereist.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Samenstellingsopdrachten** (ISRS 4410) en **beoordelingsopdrachten** (ISRE 2400) — die vallen niet onder de ISA 260-verplichting, al is proactieve communicatie steeds goede praktijk.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "**Aanvaarding van de controleopdracht** — reeds in de opdrachtaanvaardingsfase communiceert de auditor over de verwachte omvang en aanpak van de controle.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Significante bevinding tijdens de controle** — zodra een significante kwestie opduikt (fraude-indicatie, mogelijke fout in jaarrekening, niet-naleving) moet de auditor governance niet afwachten tot het einde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "**Neerlegging van de controleverklaring** — de formele communicatiecyclus sluit af bij de goedkeuring van de jaarrekening door de algemene vergadering.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Communicatie-gap**: auditor communiceert alleen schriftelijk op het einde, waardoor governance significante risico's te laat verneemt om nog bij te sturen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Vermenging management/governance**: auditor communiceert bevindingen uitsluitend aan de CEO (management) en nooit rechtstreeks aan het auditcomité (governance) — dit ondermijnt de onafhankelijke toezichtsfunctie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "governance-orgaan",
+        "naam": {
+          "primair": "Governance-orgaan",
+          "synoniemen": [
+            "met governance belaste personen",
+            "those charged with governance",
+            "TCWG"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **met governance belaste personen** zijn de persoon of de personen of organisaties (bv. een trustee) die verantwoordelijk zijn voor het toezicht op de strategische richting van de entiteit en op de nakoming van haar verantwoordingsplicht. In Belgische vennootschappen is dit typisch de **raad van bestuur** of, waar aanwezig, het **auditcomité**.\n\nBij kleinere entiteiten zonder formeel bestuur kan de eigenaar-bestuurder zowel governance als management zijn — de auditor past zijn communicatieaanpak dan aan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "norm",
+                  "naam": "ISA 260",
+                  "ref": "ISA-260"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "ISA 260 definieert 'governance' functioneel, niet structureel — het gaat om de toezichtsrol, niet om de rechtsvorm van het orgaan."
+          }
+        }
+      },
+      {
+        "id": "governance-versus-management",
+        "naam": {
+          "primair": "Governance versus management",
+          "synoniemen": [
+            "onderscheid governance/management"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Governance en management zijn **functioneel onderscheiden** — ook wanneer ze in dezelfde personen samenvallen:\n\n| | Management | Governance |\n|---|---|---|\n| **Rol** | Operationele leiding: beslissen + uitvoeren | Toezicht: controleren + verantwoording eisen |\n| **Voorbeeld** | CEO, CFO | Raad van bestuur, auditcomité |\n| **Informatie van auditor** | Bevindingen + aanbevelingen voor correctie | Significante risico's + auditoroordeel over kwaliteit jaarrekening |\n| **Timing** | Doorlopend tijdens controle | Formeel bij afronding + ad hoc bij urgente kwesties |\n\nWhen management en governance samenvallen (eigenaar-bestuurder), communiceert de auditor op één moment maar documenteert **in welke hoedanigheid** hij communiceert.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verplichte-onderwerpen",
+        "naam": {
+          "primair": "Verplichte communicatie-onderwerpen",
+          "synoniemen": [
+            "required communications",
+            "ISA 260 verplichte items"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "ISA 260 verplicht de auditor ten minste de volgende onderwerpen aan governance te communiceren:\n\n1. **Verantwoordelijkheden van de auditor** — scope en beperkingen van de controle\n2. **Geplande aanpak en timing** — risicogebieden, materialiteitsdrempel, gebruik van specialisten\n3. **Significante bevindingen** — kwalitatieve aspecten van de financiële verslaggeving, significante moeilijkheden tijdens de controle, significante aandachtspunten (key audit matters)\n4. **Materiële zwakheden in interne beheersing** — via management letter of equivalent\n5. **Onafhankelijkheid** — bevestiging van onafhankelijkheid en mededeling van bedreigingen en waarborgen\n6. **Continuïteit** — materiële onzekerheid over going concern indien van toepassing",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "norm",
+                  "naam": "ISA 260",
+                  "ref": "ISA-260"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De lijst is niet exhaustief — de auditor communiceert ook andere zaken die hij relevant acht voor zijn governance-verantwoordelijkheid. ISA 260 legt een bodem vast, geen plafond."
+          }
+        }
+      },
+      {
+        "id": "vorm-en-timing",
+        "naam": {
+          "primair": "Vorm en timing van communicatie",
+          "synoniemen": [
+            "schriftelijk vs mondeling",
+            "timing governance-communicatie"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "ISA 260 laat de auditor keuze tussen schriftelijke en mondelinge communicatie, maar stelt wel minimale vereisten:\n\n- **Schriftelijk verplicht** voor: significante bevindingen die de controleverklaring beïnvloeden; materiële zwakheden in interne beheersing; onafhankelijkheidsbevestiging\n- **Mondeling toegestaan** voor minder significante bevindingen, maar dan **gedocumenteerd** in het werkdossier\n- **Tijdigheid**: significante kwesties worden gecommuniceerd **zodra ze gekend zijn**, niet afgewacht tot het formele governance-overleg bij de afronding\n- **Documentatie**: elke communicatie — mondeling of schriftelijk — wordt gedocumenteerd (datum, aanwezigen, kern-inhoud)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "norm",
+                  "naam": "ISA 260",
+                  "ref": "ISA-260"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tweerichtingscommunicatie",
+        "naam": {
+          "primair": "Tweerichtingscommunicatie",
+          "synoniemen": [
+            "two-way communication",
+            "dialoog met governance"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "ISA 260 benadrukt expliciet dat communicatie met governance **tweerichtingsverkeer** is: de auditor informeert governance, maar governance informeert ook de auditor. Governance-informatie die relevant is voor de controle — bv. governance-beslissingen over niet-naleving, fraudemeldingen, of significante wijzigingen in de entiteit — moet door de auditor worden meegenomen in zijn risicobeoordeling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "norm",
+                  "naam": "ISA 260",
+                  "ref": "ISA-260"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Eénrichtingscommunicatie (auditor → governance) volstaat niet. Governance kan informatie hebben over fraude, niet-naleving of intenties die het controle-oordeel beïnvloeden en die management niet spontaan deelt."
+          }
+        }
+      },
+      {
+        "id": "communicatie-interne-actoren",
+        "naam": {
+          "primair": "Communicatie met interne actoren",
+          "synoniemen": [
+            "interne relaties auditor",
+            "boekhouddienst interne controle contact"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "Naast het governance-orgaan communiceert de auditor doorlopend met **drie interne actoren**:\n\n**1. Boekhouddienst** — de dagelijkse gesprekspartner voor cijfers, toelichting bij ongebruikelijke posten en doorvoering van correcties. De auditor waakt over zijn onafhankelijkheid: hij neemt geen boekhoudbeslissingen voor de cliënt over.\n\n**2. Interne controle / internal audit** — bij entiteiten met een eigen auditfunctie beoordeelt de externe auditor de objectiviteit en bekwaamheid van die functie. Vervolgens beslist hij in welke mate hij op hun werk kan steunen (ISA 610). De eindverantwoordelijkheid blijft bij de externe auditor.\n\n**3. Ondernemingsraad** — ontvangt economische en financiële informatie ten behoeve van het personeel; de communicatie verloopt via formele kanalen en is gebonden aan beroepsgeheim.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "communicatie-externe-actoren",
+        "naam": {
+          "primair": "Communicatie met externe actoren",
+          "synoniemen": [
+            "externe bevestigingen",
+            "communicatie toezichthouders",
+            "external parties"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "De auditor communiceert ook met **externe partijen** die belang hebben bij of toezicht houden op de financiële verslaggeving:\n\n- **Fiscale administratie** — via bevestigingsbrieven, vragenlijsten of bij fiscale controle-procedures\n- **Banken** — bevestigingsbrieven over saldi en convenanten (ISA 505)\n- **Advocaten** — bevestigingsbrief over geschillen en voorzieningen\n- **Sectortoezichthouders** — bv. FSMA, NBB bij gereguleerde entiteiten\n- **CFI** (cel financiële informatieverwerking) — bij meldingsplicht in het kader van AWW\n\nAlle externe communicatie is gebonden aan **beroepsgeheim** en verloopt via formele kanalen. De auditor documenteert elke externe communicatie in het dossier.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht-cyclus",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Communicatie met governance is een verplicht onderdeel van elke controleopdracht-cyclus."
+    },
+    {
+      "type": "valt_onder",
+      "target": "normenkader-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "ISA 260 is onderdeel van het ISA-normenkader dat de externe audit regelt."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "auditcomite",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Aanwezigheid van een auditcomité bepaalt de vorm en het governance-kanaal van de communicatie."
+    },
+    {
+      "type": "vereist",
+      "target": "onafhankelijkheid",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "ISA 260 verplicht de auditor zijn onafhankelijkheidspositie aan governance te bevestigen."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "communicatie-met-stakeholders",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide betreffen gestructureerde informatie-uitwisseling door de accountant",
+        "Documentatie-verplichting in beide gevallen"
+      ],
+      "verschillen": [
+        "Communicatie met governance is ISA-verplicht en specifiek gericht op het toezichtsorgaan",
+        "Communicatie met stakeholders is breder en omvat ook externe partijen buiten de entiteit"
+      ],
+      "verwarring_risico": "Studenten verwarren 'governance' (toezichtsorgaan) met 'alle stakeholders' — ISA 260 is specifiek voor het intern toezichtsorgaan."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fouten-en-fraude-cluster",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Fraude-indicaties of ontdekte fouten activeren de verplichting om governance onmiddellijk te informeren, los van de reguliere communicatiecyclus."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "niet-naleving-wet-regelgeving-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Vastgestelde niet-naleving van wetten of regelgeving activeert specifieke communicatieplichten naar governance en eventueel externe toezichthouders."
+    }
+  ]
 }

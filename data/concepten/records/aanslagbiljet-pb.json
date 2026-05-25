@@ -4,16 +4,23 @@
     "primair": "Aanslagbiljet pb",
     "synoniemen": [
       "aanslagkohier PB",
-      "belastingafrekening personenbelasting"
+      "belastingafrekening personenbelasting",
+      "avertissement-extrait de rôle"
     ],
     "vertaling": {
       "fr": "Avertissement-extrait de rôle IPP",
       "en": "Tax assessment notice personal income tax"
     }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.2.XVII",
+      "2.2.taak.4",
+      "2.2.taak.5"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -32,15 +39,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 21)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende pass: gebruikscontext uitgebreid (niet_voor, indicaties), element kohier-en-inschrijving toegevoegd, synoniemen aangevuld."
       }
-    ],
-    "ankers": [
-      "2.2.XVII",
-      "2.2.taak.4",
-      "2.2.taak.5"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Het aanslagbiljet voor de personenbelasting (ook: avertissement-extrait de rôle) is het officieel document waarmee de FOD Financiën de belastingplichtige in kennis stelt van de berekende personenbelasting voor een bepaald aanslagjaar, inclusief het te betalen saldo of terug te ontvangen bedrag. Het document vermeldt ook de uiterste betaaldatum en de rechtsmiddelen die openstaan tegen de aanslag.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Na verwerking van de ingediende aangifte (of ambtshalve aanslag) berekent de fiscus het nettobedrag aan verschuldigde personenbelasting, trekt alle voorheffingen en verrekeningen af en stuurt het resultaat als formeel aanslagbiljet naar de belastingplichtige. Het aanslagbiljet is een uittreksel uit het kohier — het registers waarin alle aanslagen worden ingeschreven. Inschrijving in het kohier is het rechtsmoment van de aanslag; het biljet is de mededeling ervan aan de belastingplichtige.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het aanslagbiljet sluit de fiscale cyclus van een aanslagjaar af: de aangifte is de input van de belastingplichtige, de berekening is het werk van de administratie, en het aanslagbiljet is het formele resultaat. Het document is tegelijkertijd een informatiedocument (hoeveel belasting, hoe berekend) en een rechtsdocument (het opent de termijn voor bezwaar en is de titel voor invordering). Voor de belastingplichtige en zijn accountant markeert de ontvangst ervan het moment waarop de aanslag 'opeisbaar' wordt en de termijn voor bezwaar begint te lopen — in de regel drie maanden na verzending.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "aangifte-pb",
@@ -60,6 +109,7 @@
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Belastingplichtigen die aangifte personenbelasting hebben ingediend en het resultaat willen begrijpen en controleren.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -69,10 +119,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Belastingplichtigen die aangifte personenbelasting hebben ingediend en het resultaat willen begrijpen en controleren."
+          }
         },
         {
+          "tekst": "Accountants die cliënten begeleiden bij controle van de aanslag, beoordeling van het saldo en eventueel bezwaar.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -82,12 +132,40 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Accountants die cliënten begeleiden bij controle van de aanslag, beoordeling van het saldo en eventueel bezwaar."
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Vennootschappen en rechtspersonen — zij ontvangen een aanslagbiljet vennootschapsbelasting of rechtspersonenbelasting, niet het PB-aanslagbiljet.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waarin nog geen aanslag gevestigd is (aangifte ingediend maar kohier nog niet afgesloten) — dan is het aanslagbiljet er simpelweg nog niet; de bezwaartermijn loopt dan ook nog niet.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "trigger_start": [
         {
+          "tekst": "Verzending van het aanslagbiljet door de FOD Financiën (doorgaans juni–november van het aanslagjaar + 1, afhankelijk van de complexiteit van het dossier).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -97,12 +175,12 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Verzending van het aanslagbiljet door de FOD Financiën (doorgaans juni–november van het aanslagjaar + 1, afhankelijk van de complexiteit van het dossier)."
+          }
         }
       ],
       "trigger_einde": [
         {
+          "tekst": "Betaling van het saldo vóór de uiterste betaaldatum, of ontvangst van de teruggave; daarna sluit het aanslagjaar tenzij bezwaar of ambtshalve ontheffing loopt.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -112,12 +190,12 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Betaling van het saldo vóór de uiterste betaaldatum, of ontvangst van de teruggave; daarna sluit het aanslagjaar tenzij bezwaar of ambtshalve ontheffing loopt."
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "Laattijdige betaling leidt tot nalatigheidsinterest (momenteel 4% per jaar); een onopgemerkte fout in het aanslagbiljet die niet tijdig via bezwaar wordt aangevochten, wordt definitief.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -127,12 +205,71 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Laattijdige betaling leidt tot nalatigheidsinterest (momenteel 4% per jaar); een onopgemerkte fout in het aanslagbiljet die niet tijdig via bezwaar wordt aangevochten, wordt definitief."
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Ontvangst van een document van FOD Financiën met vermelding van 'kohiernummer', 'aanslagjaar' en een 'uiterste betaaldatum' of 'te ontvangen bedrag' — dit is een aanslagbiljet.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een cliënt meldt dat hij 'zijn belastingbrief' heeft ontvangen — doorgaans is dit het aanslagbiljet (niet de aangifte, die stuurt de belastingplichtige zelf naar de fiscus).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ]
     },
     "elementen": [
+      {
+        "id": "kohier-en-inschrijving",
+        "naam": {
+          "primair": "Kohier en inschrijving"
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Het kohier is het register waarin de belastingadministratie alle gevestigde aanslagen inschrijft. Het aanslagbiljet is juridisch gezien een uittreksel uit het kohier — het is de mededeling aan de belastingplichtige van de aanslag die al 'bestaat' zodra ze in het kohier is ingeschreven. De inschrijving in het kohier, niet de verzending van het biljet, is het rechtsmoment waarop de aanslag tot stand komt en de aanslagtermijn stopt. De verzending zet wel de bezwaartermijn in gang.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
       {
         "id": "identificatiegegevens",
         "naam": {
@@ -357,48 +494,7 @@
           }
         }
       }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Het aanslagbiljet voor de personenbelasting (ook: avertissement-extrait de rôle) is het officieel document waarmee de FOD Financiën de belastingplichtige in kennis stelt van de berekende personenbelasting voor een bepaald aanslagjaar, inclusief het te betalen saldo of terug te ontvangen bedrag. Het document vermeldt ook de uiterste betaaldatum en de rechtsmiddelen die openstaan tegen de aanslag."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Na verwerking van de ingediende aangifte (of ambtshalve aanslag) berekent de fiscus het nettobedrag aan verschuldigde personenbelasting, trekt alle voorheffingen en verrekeningen af en stuurt het resultaat als formeel aanslagbiljet naar de belastingplichtige."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Het aanslagbiljet sluit de fiscale cyclus van een aanslagjaar af: de aangifte is de input van de belastingplichtige, de berekening is het werk van de administratie, en het aanslagbiljet is het formele resultaat. Het document is tegelijkertijd een informatiedocument (hoeveel belasting, hoe berekend) en een rechtsdocument (het opent de termijn voor bezwaar en is de titel voor invordering). Voor de belastingplichtige en zijn accountant markeert de ontvangst ervan het moment waarop de aanslag 'opeisbaar' wordt en de termijn voor bezwaar begint te lopen — in de regel drie maanden na verzending."
-      }
-    }
+    ]
   },
   "relaties": [
     {
@@ -449,7 +545,11 @@
         "PB-aanslag is persoonlijk; VenB-aanslag is op naam van de rechtspersoon"
       ],
       "verwarring_risico": "Studenten verwarren soms de aanslagtermijnen PB met die van VenB — de basisregels zijn gelijk maar de bijzondere verlengde termijnen kunnen afwijken."
+    },
+    {
+      "type": "vereist",
+      "target": "voorafbetalingen-pb",
+      "toelichting": "Onvoldoende voorafbetalingen leiden tot een vermeerdering op het aanslagbiljet; het biljet toont het resultaat van de voorafbetalingen-berekening."
     }
-  ],
-  "concept_type": "procedure"
+  ]
 }

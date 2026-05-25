@@ -1,8 +1,16 @@
 {
   "id": "bedrijfskosten-en-bedrijfsopbrengsten",
   "naam": {
-    "primair": "Bedrijfskosten en bedrijfsopbrengsten"
+    "primair": "Bedrijfskosten en bedrijfsopbrengsten",
+    "synoniemen": [
+      "exploitatiekosten en -opbrengsten",
+      "bedrijfsresultaat-componenten"
+    ],
+    "vertaling": {
+      "fr": "Charges et produits d'exploitation"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +20,10 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "1.1.II.M",
+      "1.1.II.N"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,30 +36,481 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7 stuks), gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.1.II.M",
-      "1.1.II.N"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Bedrijfskosten en bedrijfsopbrengsten",
+        "tekst": "**Bedrijfskosten en bedrijfsopbrengsten** zijn de kosten en opbrengsten die voortvloeien uit de **gewone exploitatieactiviteit** van een onderneming — de kern van wat ze doet. Ze vormen samen het **bedrijfsresultaat** (EBIT: Earnings Before Interest and Taxes) in de resultatenrekening.\n\nBedrijfsopbrengsten zijn de baten die direct samenhangen met de reguliere bedrijfsuitoefening: omzet, wijziging in de voorraden gereed product en bestellingen in uitvoering, geproduceerde vaste activa en andere bedrijfsopbrengsten. Bedrijfskosten zijn de lasten die daartegen over staan: aankopen van handelsgoederen en grondstoffen, wijziging in voorraden, diensten en diverse goederen, personeelskosten, afschrijvingen en waardeverminderingen, en andere bedrijfskosten.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De **resultatenrekening** van een Belgische vennootschap is opgebouwd in een gelaagde structuur. Het eerste luik — bedrijfskosten en -opbrengsten — weerspiegelt de operationele prestatie en is de focus van dit kader.\n\nHet verschil tussen bedrijfsopbrengsten en bedrijfskosten = het **bedrijfsresultaat**. Dat is het vertrekpunt voor de financiële resultaten (rente, wisselkoersresultaten), belastingen en resultaatverwerking.\n\nDe indeling volgt **twee benaderingen** die naast elkaar bestaan in BE-GAAP:\n- **Aard-indeling** (standaard): kosten worden uitgesplitst naar economische aard (grondstoffen, lonen, afschrijvingen…)\n- **Functie-indeling** (toegelaten alternatief): kosten worden gegroepeerd naar functie (productie, distributie, algemeen beheer) — meer in lijn met IFRS IAS 1",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De afbakening van bedrijfskosten en -opbrengsten ten opzichte van financiële kosten en -opbrengsten is normatief gestuurd: rente, wisselkoersverschillen en dividenden op deelnemingen horen in het financieel resultaat. Dit onderscheid heeft drie functies:\n1. **Transparantie** — externe stakeholders zien de operationele prestatie los van de financieringsstructuur\n2. **Vergelijkbaarheid** — het bedrijfsresultaat is de standaard-benchmark voor sectorvergelijking\n3. **Fiscale basis** — het bedrijfsresultaat is het vertrekpunt voor de berekening van de belastbare grondslag in de vennootschapsbelasting",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Analyse van de **operationele winstgevendheid** van een vennootschap, los van haar financieringsstructuur en belastingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het bedrijfsresultaat maakt vergelijking mogelijk tussen ondernemingen met verschillende schuldgraad of belastingdruk."
+        },
+        {
+          "tekst": "**Opmaak en beoordeling van de resultatenrekening** van alle boekhoudplichtige ondernemingen die het volledig of verkort schema toepassen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Kostprijsanalyse, budgetbeheer en managementcontrole**: het kader structureert welke kosten tot de exploitatie behoren en daarmee meetbaar zijn per product, afdeling of periode.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Financiële kosten en opbrengsten** (rente, wisselkoersverschillen, dividenden ontvangen op deelnemingen) — die horen in het financieel resultaat, niet hier.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Vermenging van bedrijfs- en financieel resultaat geeft een vertekend beeld van de operationele prestatie."
+        },
+        {
+          "tekst": "**Uitzonderlijke resultaten** (niet-recurrente verrichtingen zoals verkoop van een productiesite of afboeking na brand) — die staan in het uitzonderlijk resultaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "De **aard-indeling** (standaard in BE-GAAP) geeft een gedetailleerd zicht op de kostenstructuur per economische categorie — nuttig voor kostenbeheersing en vergelijking over de tijd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verkeerde indeling** van kosten of opbrengsten (bv. rente als bedrijfskost, meerwaarde op vaste activa als bedrijfsopbrengst) geeft een misleidend bedrijfsresultaat en verstoort ratio-analyse.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De onderneming oefent **gewone bedrijfsactiviteit** uit en verantwoordt daar kosten en opbrengsten voor in haar resultatenrekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Er is een vraag naar **omzetanalyse, bruto-marge of bedrijfsresultaat** als prestatie-indicator — dit kader bepaalt de samenstelling van die grootheden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "omzet",
+        "naam": {
+          "primair": "Omzet",
+          "synoniemen": [
+            "netto-omzet",
+            "bedrijfsopbrengsten uit omzet"
+          ],
+          "vertaling": {
+            "fr": "Chiffre d'affaires"
+          }
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Omzet** is de vergoeding voor de geleverde goederen en diensten die tot de gewone bedrijfsactiviteit horen, na aftrek van kortingen en btw. Het is de eerste en meest zichtbare bedrijfsopbrengst.\n\nIn de resultatenrekening staat de omzet als **post I** bij de bedrijfsopbrengsten. Opbrengstverantwoording volgt het **realisatiebeginsel**: omzet wordt geboekt op het moment van levering (goederen) of uitvoering (diensten), niet bij ontvangst van de betaling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Omzet is de primaire graadmeter voor de bedrijfsgrootte en de basis voor ratio's zoals bruto-marge en omzetrentabiliteit."
+          }
+        }
+      },
+      {
+        "id": "wijziging-voorraden-gereed-product",
+        "naam": {
+          "primair": "Wijziging in voorraden gereed product en bestellingen in uitvoering",
+          "synoniemen": [
+            "voorraadwijziging",
+            "bestellingen in uitvoering"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Post **II** bij de bedrijfsopbrengsten. Wanneer een vennootschap meer produceert dan ze verkoopt, stijgt de voorraad gereed product — dat verschil is een **opbrengst** (activering van productie). Omgekeerd is het een **kost** wanneer de voorraad daalt.\n\n- **Toename** van voorraad gereed product → positieve bedrijfsopbrengst (gecreëerde maar nog niet verkochte waarde)\n- **Afname** van voorraad gereed product → negatieve bedrijfsopbrengst (of positieve bedrijfskost, afhankelijk van presentatie)\n\nDeze post verbindt de **productiekosten** (als bedrijfskost reeds geboekt) met de **omzet** (nog niet gerealiseerd) via de balanspost voorraden. Ze is relevant voor **productiebedrijven** en voor onderhanden werken in aannemingsbedrijven.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder deze post zouden alle productiekosten als verlies verschijnen in het boekjaar, ook al is de productie op voorraad en zal ze later omzet genereren. Het matching-beginsel vereist de koppeling van kost aan de periode van opbrengst."
+          }
+        }
+      },
+      {
+        "id": "geproduceerde-vaste-activa",
+        "naam": {
+          "primair": "Geproduceerde vaste activa"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Post **III** bij de bedrijfsopbrengsten. Wanneer een onderneming voor **eigen rekening** vaste activa produceert of bouwt (eigen bouw van een machine, interne IT-ontwikkeling), worden de gemaakte kosten geactiveerd als bedrijfsopbrengst.\n\nHet bedrag van de geproduceerde vaste activa compenseert de kosten (materialen, uren personeel) die als bedrijfskost werden geboekt. Het netto-effect is nul op het bedrijfsresultaat: de waarde verschijnt als **activum** op de balans.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aankopen-en-wijziging-voorraden-grondstoffen",
+        "naam": {
+          "primair": "Aankopen en wijziging in voorraden grondstoffen",
+          "synoniemen": [
+            "handelskosten",
+            "inkoopkosten",
+            "kostprijs van de omzet (gedeeltelijk)"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **kosten van handelsgoederen, grondstoffen en hulpstoffen** die verbruikt worden in de exploitatie — de eerste post aan de kostenzijde.\n\nDe boekhoudkundige verwerking is:\n- **Aankopen** van grondstoffen worden als kost geboekt op het moment van ontvangst\n- **Wijziging in voorraad** corrigeert voor de niet-verbruikte grondstoffen (toename voorraad = negatieve kost; afname = extra kost)\n\nResultaat: de netto **verbruikte** hoeveelheid grondstoffen als bedrijfskost.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De bruto-marge (omzet minus aankopen en wijziging voorraden) is de eerste belangrijke tussengrootheid in de resultatenrekening en de basis voor margeverbetering."
+          }
+        }
+      },
+      {
+        "id": "diensten-en-diverse-goederen",
+        "naam": {
+          "primair": "Diensten en diverse goederen",
+          "synoniemen": [
+            "DDG",
+            "overheadkosten (gedeeltelijk)"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De post **diensten en diverse goederen** bundelt de kosten van extern ingekochte diensten en goederen die niet als handelsgoed of grondstof worden verwerkt: huur, energie, onderhoud, verzekeringen, publiciteit, telefoon, IT-licenties, accountantskosten, consultancy…\n\nHet is doorgaans de **meest heterogene** kostenpost en bevat zowel vaste als variabele componenten. Voor kostenbeheersing is verfijning via analytische boekhouding of budgetopvolging vereist.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "personeelskosten",
+        "naam": {
+          "primair": "Personeelskosten",
+          "synoniemen": [
+            "loonkosten",
+            "arbeidskosten"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De personeelskosten omvatten:\n- **Bezoldigingen** (bruto loon, wedde)\n- **Sociale bijdragen werkgever** (RSZ-bijdragen, vakantiegeld werkgever, eindejaarspremie)\n- **Andere personeelskosten** (maaltijdcheques, hospitalisatieverzekering, personeelsfeest…)\n\nPersoneelskosten zijn doorgaans de **grootste kostencategorie** voor dienstverlenende ondernemingen. Ze zijn grotendeels **vast** op korte termijn (de meeste zijn contractueel), wat het break-even-punt significant beïnvloedt.\n\nIn de resultatenrekening (post **62**) zijn ze uitgesplitst naar werknemers vs. zelfstandige medewerkers (sociale balans als toelichting).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afschrijvingen-en-waardeverminderingen-op-vaste-activa",
+        "naam": {
+          "primair": "Afschrijvingen en waardeverminderingen op vaste activa",
+          "synoniemen": [
+            "afschrijvingslast",
+            "niet-kascost"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Afschrijvingen zijn de **systematische spreiding van de aanschaffingswaarde** van vaste activa over hun gebruiksduur. Ze zijn een **niet-kascost**: ze verminderen het bedrijfsresultaat zonder dat er effectief cash uitstroomt in het boekjaar.\n\nWaardeverminderingen zijn **incidentele correcties** wanneer de boekwaarde hoger is dan de realiseerbare waarde (bv. duurzame waardedaling van een machine door technologische veroudering).\n\n**Belang voor analyse**: het bedrijfsresultaat vóór afschrijvingen (EBITDA = EBIT + afschrijvingen + waardeverminderingen) is een maatstaf voor de cashgenererende capaciteit van de exploitatie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Afschrijvingen vormen de verbindende schakel tussen de balans (geactiveerde investering) en de resultatenrekening (jaarlijkse last). De keuze van afschrijvingsmethode (lineair vs. degressief) en -duur beïnvloedt het bedrijfsresultaat structureel."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "personeelskosten",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Personeelskosten zijn een van de kerncomponenten van de bedrijfskosten en bestaan als apart concept."
+    },
+    {
+      "type": "valt_onder",
+      "target": "jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Bedrijfskosten en -opbrengsten zijn een gestructureerd onderdeel van de resultatenrekening, die op haar beurt deel uitmaakt van de jaarrekening."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "analytische-boekhouding",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De analytische boekhouding verfijnt de aard-indeling van bedrijfskosten naar functies, kostenplaatsen en dragers — aanvullend op de wettelijke resultatenrekening.",
+      "gelijkenissen": [
+        "Beide werken met dezelfde kostenposten (lonen, grondstoffen, DDG...)"
+      ],
+      "verschillen": [
+        "Wettelijke resultatenrekening: aard-indeling verplicht. Analytische boekhouding: functie-indeling per product/afdeling, niet wettelijk verplicht maar operationeel essentieel."
+      ],
+      "verwarring_risico": "Studenten verwarren soms de totalen in de wettelijke rekening met de analytische verdeelsleutels — het zijn twee verschillende lagen van dezelfde kosten."
+    },
+    {
+      "type": "vereist",
+      "target": "opbrengstverantwoording",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het correct bepalen van de bedrijfsopbrengsten in het juiste boekjaar vereist toepassing van de regels voor opbrengstverantwoording (realisatiebeginsel, onderhanden werken)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "boekhoudbeginselen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De indeling en periodetoerekening van bedrijfskosten en -opbrengsten worden bepaald door de boekhoudbeginselen: matching-beginsel, realisatiebeginsel, voorzichtigheidsbeginsel."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kostentypologie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Kostentypologie (vaste vs. variabele, directe vs. indirecte kosten) is een analytische laag die dwars over de wettelijke aard-categorieën van bedrijfskosten loopt.",
+      "gelijkenissen": [
+        "Beide beschrijven dezelfde economische kosten van de exploitatie"
+      ],
+      "verschillen": [
+        "Aard-indeling (wettelijk): grondstoffen / DDG / personeel / afschrijvingen. Kostentypologie (analytisch): vast vs. variabel, direct vs. indirect — andere indelingscriteria."
+      ],
+      "verwarring_risico": "De aard-post 'diensten en diverse goederen' bevat zowel vaste (huur) als variabele (energie) kosten — de wettelijke indeling zegt niets over het kostengedrag."
+    }
+  ]
 }

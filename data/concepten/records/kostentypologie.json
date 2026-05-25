@@ -1,11 +1,24 @@
 {
   "id": "kostentypologie",
   "naam": {
-    "primair": "Kostentypologie"
+    "primair": "Kostentypologie",
+    "synoniemen": [
+      "kostenclassificatie",
+      "kostensoorten",
+      "kostenindeling"
+    ],
+    "vertaling": {
+      "fr": "Typologie des coûts"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.8.I.B",
+      "1.8.II.A"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +37,507 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.8.I.B",
-      "1.8.II.A"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Kostentypologie",
+        "tekst": "**Kostentypologie** is het analytisch kader waarmee kosten worden ingedeeld in categorieën op basis van hun gedrag, herleidbaarheid of aard. De indeling bepaalt hoe kosten worden toegewezen aan producten, diensten of beslissingen — en dus hoe de kostprijs wordt berekend en hoe interne sturing mogelijk is.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Eén en dezelfde kost kan naargelang de invalshoek anders worden geclassificeerd:\n- **Naar gedrag t.o.v. volume** — vaste vs. variabele kosten (relevant voor break-even en marginale analyse)\n- **Naar herleidbaarheid** — directe vs. indirecte kosten (relevant voor kostprijsberekening)\n- **Naar aard/soort** — loonkosten, grondstoffenkosten, afschrijvingen, … (relevant voor externe rapportering en budgetbeheer)\n- **Naar relevantie voor beslissingen** — relevante vs. niet-relevante kosten (relevant voor marginale analyse en make-or-buy)\n\nDe typologiekeuze is niet neutraal: ze stuurt welke kosten in de kostprijs terechtkomen, hoe managers worden beoordeeld, en welke beslissingen als winstgevend worden beschouwd.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Zonder expliciete kostentypologie bestaat het risico dat vaste kosten worden meegenomen in beslissingen waar ze niet relevant zijn (bv. bij bijkomende orders), of dat indirecte kosten willekeurig worden verdeeld. De typologie dwingt de manager en de accountant om bewust te kiezen welke kosten ze toewijzen en hoe — wat leidt tot betere beslissingen en betere kostprijzen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "vaste-kosten",
+        "naam": {
+          "primair": "Vaste kosten",
+          "synoniemen": [
+            "vaste lasten",
+            "fixed costs"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Vaste kosten** zijn kosten die binnen een relevante activiteitenzone en tijdsperiode niet variëren met het productievolume. Ze worden gedragen ongeacht of er één of duizend eenheden worden gemaakt.\n\nVoorbeelden: huur van de productiehal, afschrijvingen op machines, vaste salarissen van leidinggevenden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De 'relevante activiteitenzone' is essentieel: bij een drastische uitbreiding van de capaciteit kunnen vaste kosten springen (bv. extra hal huren). Ze zijn dus vast per tijdseenheid en per capaciteitsrange, niet absoluut."
+          }
+        }
+      },
+      {
+        "id": "variabele-kosten",
+        "naam": {
+          "primair": "Variabele kosten",
+          "synoniemen": [
+            "variable costs"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Variabele kosten** zijn kosten die evenredig (proportioneel) of meer/minder dan evenredig meebewegen met het productievolume.\n\n- **Proportioneel variabel**: grondstoffenverbruik (× 2 stuks = × 2 kost)\n- **Degressief variabel**: kosten dalen per eenheid bij schaalvergroting (bv. volume-korting grondstoffen)\n- **Progressief variabel**: kosten stijgen per eenheid bij overproductie (bv. overuren aan verhoogd tarief)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "In de praktijk wordt proportioneel variabel als standaard aangenomen, tenzij het model expliciet degressiviteit of progressiviteit opneemt."
+          }
+        }
+      },
+      {
+        "id": "gemengde-kosten",
+        "naam": {
+          "primair": "Gemengde kosten",
+          "synoniemen": [
+            "semi-variabele kosten",
+            "half-vaste kosten",
+            "mixed costs"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**Gemengde kosten** bevatten een vaste component (ongeacht volume) én een variabele component (evenredig met volume). Ze worden gesplitst via de formule:\n\n`Totale kost = Vaste component + Variabele component per eenheid × Volume`\n\nVoorbeelden: elektriciteitsrekening (basisabonnement + kWh-verbruik), huur van een voertuig (vaste huurprijs + km-vergoeding).\n\nOpsplitsingstechnieken: **hoogste-laagste methode** (twee extreme punten) of **regressieanalyse** (statistische fitting op historische data).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De opsplitsing is nodig om break-even en marginale bijdrage correct te berekenen. Gemengde kosten die niet worden gesplitst, verstoren de beslissingsanalyse."
+          }
+        }
+      },
+      {
+        "id": "directe-kosten",
+        "naam": {
+          "primair": "Directe kosten",
+          "synoniemen": [
+            "rechtstreeks toerekenbare kosten"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Directe kosten** zijn kosten die rechtstreeks en objectief herleidbaar zijn tot één specifiek product, dienst, project of kostenobject — zonder dat een verdeelsleutel nodig is.\n\nVoorbeelden: de hoeveelheid stof voor een kledingstuk bij Naaiatelier Ninove BV, het directe loon van een medewerker die uitsluitend op één product werkt, specifieke verpakkingskosten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "indirecte-kosten",
+        "naam": {
+          "primair": "Indirecte kosten",
+          "synoniemen": [
+            "gemeenschappelijke kosten",
+            "overheadkosten",
+            "indirect costs"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Indirecte kosten** (overhead) zijn kosten die niet rechtstreeks herleidbaar zijn tot één kostenobject en bijgevolg via een **verdeelsleutel** worden toegerekend.\n\nVoorbeelden: huur van het fabrieksgebouw, afschrijvingen op gedeelde machines, kosten van de productiechef die meerdere producten begeleidt.\n\nDe keuze van de verdeelsleutel (machineuren, directe loonuren, vloeroppervlak, …) beïnvloedt de kostprijs per product — wat leidt tot andere prijsstelling en andere winstbeelden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De verdeelsleutelkeuze is een bedrijfspolitieke beslissing, geen objectieve meting. Verschillende sleutels leiden tot systematisch andere kostprijzen — wat cross-subsidies tussen producten kan veroorzaken."
+          }
+        }
+      },
+      {
+        "id": "relevante-kosten",
+        "naam": {
+          "primair": "Relevante kosten",
+          "synoniemen": [
+            "beslissingsrelevante kosten",
+            "marginale kosten"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Relevante kosten** zijn kosten die veranderen als gevolg van een specifieke beslissing en die in de toekomst worden gemaakt. Kosten die identiek zijn ongeacht de beslissing zijn **niet relevant** en mogen de beslissing niet beïnvloeden.\n\nKenmerken: (1) toekomstig (geen verzonken kosten), (2) differentieel (verschilt per alternatief).\n\nVoorbeelden: bij de vraag of een extra bestelling van Yperse Werkplaats BV wordt aanvaard, zijn vaste overheadkosten die sowieso worden gemaakt **niet relevant** voor de beslissing — enkel de variabele kosten van de extra bestelling tellen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Beslissingen op basis van vollekostprijs (inclusief niet-relevante vaste kosten) leiden systematisch tot foutieve conclusies bij marginale analyse."
+          }
+        }
+      },
+      {
+        "id": "verzonken-kosten",
+        "naam": {
+          "primair": "Verzonken kosten",
+          "synoniemen": [
+            "sunk costs",
+            "historische kosten"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Verzonken kosten** zijn kosten die in het verleden zijn gemaakt en niet meer ongedaan kunnen worden gemaakt, ongeacht de beslissing. Ze zijn **nooit relevant** voor toekomstige beslissingen.\n\nVoorbeeld: Yperse Werkplaats BV heeft € 200.000 geïnvesteerd in een gespecialiseerde machine die nu nauwelijks bruikbaar is. Die € 200.000 mogen de beslissing om de machine te behouden of af te schrijven niet sturen — enkel de toekomstige opbrengsten en kosten tellen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het negeren van verzonken kosten is een van de moeilijkste gedragsregel in management. Het menselijk brein ervaart verzonken kosten als een reden om door te gaan — dit heet de sunk cost fallacy."
+          }
+        }
+      },
+      {
+        "id": "opportuniteitskost",
+        "naam": {
+          "primair": "Opportuniteitskost",
+          "synoniemen": [
+            "alternatieve kost",
+            "opportunity cost"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **opportuniteitskost** is de waarde van het beste alternatief dat wordt opgegeven wanneer een keuze wordt gemaakt. Ze verschijnen nooit in de boekhouding maar zijn wel relevant voor beslissingsanalyse.\n\nVoorbeeld: als Yperse Werkplaats BV een machine inzet voor product A, is de opportuniteitskost de marge die verloren gaat door product B niet te kunnen produceren op diezelfde machine.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Opportuniteitskosten zijn essentieel bij schaarse middelen (machine-uren, arbeid, vloerruimte). Zonder ze in de analyse op te nemen, onderschat men de werkelijke kost van een keuze."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Analyse van de **kostprijsstructuur** van producten of diensten — welke kosten worden opgenomen in de kostprijs en hoe.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Marginale analyse en beslissingsondersteuning**: extra bestelling aannemen, outsourcen, product stopzetten — enkel relevante en variabele kosten tellen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Break-even analyse** — voor het berekenen van het kritische volume moeten vaste en variabele kosten strikt gescheiden zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Keuze van kostprijsmethode** — full-costing neemt alle kosten (vast + variabel) op; direct-costing neemt enkel variabele kosten op.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "De kostentypologie is **geen boekhoudkundig classificatiesysteem** in de zin van de MAR — ze is intern analysetools en verschijnt niet als zodanig in de wettelijke jaarrekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "Bij **fiscale aftrekbaarheid** van kosten geldt een ander classificatiecriterium (beroepskost / niet-beroepskost in de zin van WIB92) — de managementaccounting-typologie is hier niet leidend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De vraag luidt 'hoeveel kost het ons om één extra eenheid te produceren?' → **variabele kosten** zijn de ingang.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De vraag luidt 'moeten we product X stopzetten?' → **relevante kosten** inclusief opportuniteitskosten zijn de ingang.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De vraag luidt 'wat is de volledige kostprijs per product voor stockwaardering?' → **full-costing** (vast + variabel, direct + indirect via verdeelsleutel) is de ingang.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "kostencomponenten",
+      "toelichting": "Kostencomponenten (loonkosten, grondstoffen, afschrijvingen, …) zijn de bouwstenen die worden geclassificeerd via de kostentypologie.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "kostprijsmethoden",
+      "toelichting": "De keuze voor full-costing of direct-costing is pas zinvol als de onderscheiden kostentypes (vast/variabel, direct/indirect) correct zijn geïdentificeerd.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "break-even-analyse",
+      "toelichting": "Break-even analyse vereist een strikte scheiding tussen vaste en variabele kosten.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "direct-costing",
+      "toelichting": "Direct costing selecteert enkel variabele kosten voor de kostprijs — een directe toepassing van de vast/variabel-indeling.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "full-costing",
+      "toelichting": "Full costing integreert zowel vaste als variabele, zowel directe als indirecte kosten — alle typologie-assen komen samen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "analytische-boekhouding",
+      "toelichting": "Kostentypologie is het conceptueel fundament van de analytische boekhouding.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "managementcontrole-fiche",
+      "toelichting": "Managementcontrolesystemen sturen hoe kosten worden toegerekend aan centra en verantwoordelijken — de typologiekeuze beïnvloedt het sturingssignaal.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

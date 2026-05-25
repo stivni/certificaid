@@ -1,8 +1,20 @@
 {
   "id": "analytische-boekhouding",
   "naam": {
-    "primair": "Analytische boekhouding"
+    "primair": "Analytische boekhouding",
+    "afkorting": "AB",
+    "synoniemen": [
+      "beheerboekhouding",
+      "kostenboekhouding",
+      "interne boekhouding",
+      "management accounting"
+    ],
+    "vertaling": {
+      "fr": "comptabilité analytique",
+      "en": "management accounting"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +36,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -39,20 +57,471 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Analytische boekhouding",
+        "tekst": "De **analytische boekhouding** (ook: beheerboekhouding of management accounting) is een intern informatie- en beslissingsondersteunend systeem dat de kosten en opbrengsten van een onderneming opsplitst en toewijst aan **activiteiten, producten, diensten of afdelingen** — met het oog op sturing, planning en evaluatie. Ze is niet wettelijk verplicht en niet openbaar; de inhoud en opzet worden vrij bepaald door de onderneming zelf.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Terwijl de **algemene (externe) boekhouding** perioderesultaten en balansstanden rapporteert aan externe stakeholders (aandeelhouders, fiscus, crediteuren), beantwoordt de analytische boekhouding interne vragen:\n- Wat kost het om product X te maken?\n- Welke afdeling is rendabel en welke niet?\n- Welk verkoopvolume dekt mijn vaste kosten (break-even)?\n- Wat is de marge als ik één extra eenheid produceer?\n\nHet systeem bouwt voort op de gegevens uit de algemene boekhouding maar hergroepeert ze via **kostenplaatsen**, **kostendragers** en **kostentypes** in een voor de interne beslissing relevante structuur.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De analytische boekhouding bestaat omdat de **externe boekhouding onvoldoende granulariteit** biedt voor interne beslissingen. Een globale winst- en verliesrekening zegt een bestuurder niet welk product winstgevend is, welke klant geld kost of waar productiviteitswinsten te behalen zijn. De opsplitsing naar object maakt **vergelijken, sturen en bijsturen** mogelijk.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "kostentype",
+        "naam": {
+          "primair": "Kostentype",
+          "synoniemen": [
+            "kostensoort"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **kostentype** is de eerste dimensie van kostenclassificatie: de aard van de kost. De meest fundamentele opdeling is:\n- **Vaste kosten** — onafhankelijk van het productievolume (huur, afschrijvingen, basislonen)\n- **Variabele kosten** — evenredig met het productievolume (grondstoffen, verpakking, energieverbruik)\n- **Semi-vaste kosten** — trapsgewijs vast (bv. extra machine-uur bij overschrijden capaciteitsgrens)\n\nDeze opdeling is het fundament van direct costing, break-even-analyse en marginale analyse.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kostenplaats",
+        "naam": {
+          "primair": "Kostenplaats",
+          "synoniemen": [
+            "cost centre",
+            "kostencentrum"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **kostenplaats** is een organisatorische eenheid waaraan kosten worden toegerekend — de *waar*-vraag van kostentoewijzing. Typische voorbeelden: een productieafdeling (Spinnerij, Weverij), een ondersteunende afdeling (HR, onderhoud) of een geografische vestiging.\n\nKostenplaatsen worden onderscheiden in:\n- **Primaire kostenplaatsen** — kosten die rechtstreeks aan de eindproducten worden doorgerekend\n- **Secundaire kostenplaatsen** — ondersteunende afdelingen waarvan de kosten eerst naar primaire kostenplaatsen worden doorbelast (via interne verrekening)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kostendrager",
+        "naam": {
+          "primair": "Kostendrager",
+          "synoniemen": [
+            "cost object",
+            "calculatie-object"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **kostendrager** is het object waaraan kosten uiteindelijk worden toegerekend — de *waarvoor*-vraag. Dat kan een product, een dienst, een project, een klant of een opdracht zijn. De kostendrager is het eindpunt van de kostencalculatie: welk object 'draagt' de last?",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "directe-vs-indirecte-kosten",
+        "naam": {
+          "primair": "Directe vs. indirecte kosten",
+          "synoniemen": [
+            "directe kosten",
+            "indirecte kosten",
+            "overheadkosten"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**Directe kosten** zijn eenduidig en economisch verantwoord toewijsbaar aan één kostendrager (grondstoffen voor product X, directe arbeid aan project Y). **Indirecte kosten** (overhead) zijn gedeeld door meerdere kostendragers en vereisen een verdeelsleutel voor toerekening.\n\nDe keuze van verdeelsleutel is een bedrijfsbeleidskeuze:\n- Machine-uren (bij kapitaalintensieve processen)\n- Directe loonkosten (bij arbeidsintensieve processen)\n- Omzet of aantal transacties (bij handelsbedrijven)\n- ABC-analyse (activity-based costing) wanneer overhead dominant is\n\nDe verdeelsleutel heeft directe impact op de kostprijs per product en daarmee op prijszetting en winstgevendheidsanalyse.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kostencalculatiemethode",
+        "naam": {
+          "primair": "Kostencalculatiemethode",
+          "synoniemen": [
+            "calculatiemethode",
+            "kostprijsmethode"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "De kostencalculatiemethode bepaalt welke kosten in de kostprijs van een product of dienst worden opgenomen. De drie hoofdmethoden zijn:\n\n| Methode | Wat zit in de kostprijs? | Gebruik |\n|---|---|---|\n| **Direct costing** | Enkel variabele kosten | Interne beslissingen (bijdragemarge, break-even) |\n| **Full costing** | Variabele + vaste productiekosten | Externe rapportering, voorraden |\n| **ABC** (Activity-Based Costing) | Kosten per activiteit → per product | Complexe productmix, indirecte kosten dominant |\n\nElk leidt tot een andere kostprijs per eenheid, en daarmee tot andere prijs- en productiebeslissingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bijdragemarge",
+        "naam": {
+          "primair": "Bijdragemarge",
+          "synoniemen": [
+            "contribution margin",
+            "dekkingsbijdrage"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "De **bijdragemarge** (ook: dekkingsbijdrage of contribution margin) is het verschil tussen de verkoopprijs en de variabele kosten per eenheid.\n\n**Formule per eenheid**: bijdragemarge = verkoopprijs − variabele kosten per eenheid\n\n**Globale bijdragemarge** = totale omzet − totale variabele kosten\n\nDe globale bijdragemarge moet de vaste kosten overtreffen voordat de onderneming in de winst geraakt (break-even).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "relatie-externe-interne-boekhouding",
+        "naam": {
+          "primair": "Relatie externe en interne boekhouding"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De analytische boekhouding is **geen vervanging** van de externe (algemene) boekhouding maar een aanvulling. De externe boekhouding is wettelijk verplicht, openbaar en gericht op externe stakeholders. De interne boekhouding is:\n- **Niet verplicht** (Belgisch recht schrijft geen specifieke methode voor)\n- **Vertrouwelijk** — interne sturingsinformatie voor het management\n- **Flexibel qua periodiciteit** — maandelijks, wekelijks, per opdracht — naar behoeften\n- **Gebaseerd op** de gegevens uit de externe boekhouding, maar via hergroepering en toewijzing\n\nIn de praktijk werken veel ondernemingen met een **rekeningstelsel 6** dat via tegenboekingen de kosten ook analytisch splitst (klasse 9 in het MAR).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Ondernemingen met een **divers producten- of dienstenaanbod** waar de winstgevendheid per product sterk verschilt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zonder analytische opsplitsing is de globale winst een gemiddelde die verbergt welke producten cross-subsidie ontvangen van winstgevende lijnen."
+        },
+        {
+          "tekst": "Ondernemingen met **significante indirecte (overhead)kosten** die via verdeelsleutels worden toegewezen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Hoe groter de overhead in verhouding tot directe kosten, hoe meer de kostprijs afhangt van de verdeelsleutelkeuze — en hoe meer inzicht de analytische boekhouding toevoegt."
+        },
+        {
+          "tekst": "Budgettering, **make-or-buy-beslissingen** en prijszettingstrajecten waarbij inzicht in marginale kosten vereist is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Externe financiële rapportering** aan aandeelhouders, fiscus of derden — daarvoor geldt de externe boekhouding (BE-GAAP of IFRS).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De analytische boekhouding heeft geen wettelijke grondslag voor externe verslaggeving en kan door de onderneming vrij worden ingericht — ze is per definitie intern."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Winstgevendheidsanalyse** per product, klant, afdeling of project — granulairder dan de externe boekhouding.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Ondersteuning van beslissingen** over prijszetting, productmix, uitbestedingskeuze en capaciteitsplanning.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verdeelsleutelproblematiek**: een verkeerde of arbitraire verdeling van indirecte kosten leidt tot onjuiste kostprijzen en foutieve beslissingen (bv. onterechte stopzetting van een winstgevend product).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Administratieve last**: hoe gedetailleerder de analytische structuur (kostenplaatsen, kostendragers), hoe zwaarder de registratie- en verwerkingslast.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "managementcontrole-fiche",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Analytische boekhouding is een instrument binnen het ruimere managementcontrolekader."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "dubbele-boekhouding",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beide zijn boekhoudkundige informatiesystemen, maar de externe boekhouding is gericht op externe stakeholders en wettelijk verplicht; de analytische boekhouding is intern en vrij in te richten."
+    },
+    {
+      "type": "bevat",
+      "target": "kostprijsmethoden",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "break-even-analyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "variantieanalyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "direct-costing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "full-costing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "abc-methode",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "budgetbeheer",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,11 +1,24 @@
 {
   "id": "consolidatiekring",
   "naam": {
-    "primair": "Consolidatiekring"
+    "primair": "Consolidatiekring",
+    "synoniemen": [
+      "kring van te consolideren ondernemingen",
+      "consolidatieperimeter"
+    ],
+    "vertaling": {
+      "fr": "Périmètre de consolidation"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.4.I.C",
+      "1.4.II.B",
+      "1.9.taak.1"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +37,501 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.4.I.C",
-      "1.4.II.B",
-      "1.9.taak.1"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Consolidatiekring",
+        "tekst": "De **consolidatiekring** (ook: consolidatieperimeter) is de verzameling van ondernemingen waarvan de financiële gegevens worden samengevoegd in de **geconsolideerde jaarrekening** van de moedervennootschap. De kring omvat de moeder plus alle entiteiten waarover zij — direct of indirect — **controle**, **gezamenlijke controle** of **invloed van betekenis** uitoefent.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De consolidatiekring bepaalt **wie in het geconsolideerde plaatje zit**. Een entiteit behoort tot de kring wanneer aan de controlevereiste is voldaan; zij valt buiten de kring (of wordt anders verwerkt) wanneer die vereiste niet aanwezig is of wanneer een vrijstellingsgrond speelt.\n\nDrie lagen in één perimeter:\n- **Volle consolidatie** — dochterondernemingen waarover exclusieve controle (>50% stemrechten of feitelijke controle)\n- **Proportionele consolidatie / evenredige consolidatie** — gezamenlijk gecontroleerde entiteiten (joint ventures) — methode toegestaan onder B‑GAAP\n- **Vermogensmutatiemethode** — geassocieerde ondernemingen (invloed van betekenis, typisch 20–50%)\n\nEntiteiten die aan géén van deze drie criteria voldoen, worden **niet** in de consolidatiekring opgenomen — zij staan als gewone financiële vaste activa of geldbeleggingen op de balans van de moeder.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De consolidatiekring is het fundament van de geconsolideerde rapportering: zonder heldere afbakening is niet duidelijk wélke middelen, verplichtingen en resultaten als groep worden gepresenteerd. De kring vertaalt economische controle in boekhoudkundige consolidatieplicht en bepaalt zo wat beleggers, crediteuren en regelgevers als 'de groep' beschouwen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Groepen van vennootschappen waarbij de moeder een **consolidatieplicht** heeft onder B‑GAAP (WVV) of IFRS, en elk jaar de geconsolideerde jaarrekening opstelt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Consolidatiekring is per definitie pas relevant zodra er een consolidatieplicht of -keuze is."
+        },
+        {
+          "tekst": "Situaties waarbij de groepsstructuur **wijzigt**: verwerving, vervreemding, omvorming van control-type (exclusief → gezamenlijk) of verschuiving van invloed van betekenis.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Elke wijziging in de consolidatiekring triggert specifieke verrichtingen (eerste consolidatie, wijziging consolidatiekring) met directe impact op de geconsolideerde jaarrekening."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Vennootschappen die **vrijgesteld** zijn van consolidatieplicht (groep van beperkte omvang, subconsolidatievrijstelling).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij vrijstelling wordt geen geconsolideerde jaarrekening opgesteld, zodat de kring niet operationeel is — al moet de vrijstelling zelf wel worden beoordeeld."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Een entiteit behoort tot de consolidatiekring wanneer de moeder **controle** uitoefent (exclusieve of gezamenlijke) of **invloed van betekenis** heeft, en wanneer geen uitsluitingsgrond van toepassing is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "**Entiteiten bestemd voor doorverkoop**: dochterondernemingen die exclusief met het oog op vervreemding worden aangehouden mogen tijdelijk buiten de volledige consolidatie worden gelaten.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Te verifiëren: de exacte uitsluitingsgrond en de precieze formulering zijn B‑GAAP/WVV-specifiek en moeten bij claims_checken worden bevestigd."
+        },
+        {
+          "tekst": "**Onbetekenende entiteiten**: een dochteronderneming mag buiten de kring worden gelaten wanneer haar opname het getrouwe beeld van de groep niet wezenlijk beïnvloedt (materialiteitsgrens).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Te enge of te ruime perimeter**: een foutief afgebakende kring leidt tot een geconsolideerde jaarrekening die geen getrouw beeld geeft — een materieel auditrisico.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Wijziging consolidatiekring zonder adequate toelichting**: wanneer de kring verandert (verwerving, vervreemding) zonder vergelijkende cijfers aan te passen, worden de geconsolideerde cijfers niet vergelijkbaar en misleidend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "exclusieve-controle",
+        "naam": {
+          "primair": "Exclusieve controle",
+          "synoniemen": [
+            "volledige controle",
+            "overwegende invloed"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Exclusieve controle** bestaat wanneer de moedervennootschap de **beslissende macht** heeft over het financieel en operationeel beleid van een entiteit teneinde er voordelen uit te halen. Dit wordt vermoed bij **meer dan 50% van de stemrechten**, maar kan ook op feitelijke gronden bestaan (minderheidsblokken, contractuele rechten, enz.).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Exclusieve controle is de drempelcriteria voor opname via integrale consolidatie — de meest volledige methode waarbij 100% van activa, passiva, opbrengsten en kosten worden samengevoegd."
+          }
+        }
+      },
+      {
+        "id": "gezamenlijke-controle",
+        "naam": {
+          "primair": "Gezamenlijke controle",
+          "synoniemen": [
+            "joint control"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Gezamenlijke controle** bestaat wanneer twee of meer partijen **contractueel overeenkomen** de controle over een entiteit te delen, waarbij beslissingen unanimiteit of een vast quorum vereisen. De moeder heeft niet alleen de beslissende macht — zij moet samenwerken met de andere aandeelhouder(s).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Gezamenlijke controle onderscheidt de joint venture van de gewone geassocieerde onderneming: bij een joint venture is het veto over strategische beslissingen contractueel verankerd."
+          }
+        }
+      },
+      {
+        "id": "invloed-van-betekenis",
+        "naam": {
+          "primair": "Invloed van betekenis",
+          "synoniemen": [
+            "significante invloed"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Invloed van betekenis** is de macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een entiteit, zonder controle of gezamenlijke controle. Typisch aanwezig bij een participatie van **20–50%** van de stemrechten, maar ook lager mogelijk bij bestuurszetels, wezenlijke transacties of toegang tot technische informatie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Invloed van betekenis (zonder controle) rechtvaardigt de vermogensmutatiemethode: de investeerder deelt in de resultaten maar neemt niet de volledige activa/passiva over."
+          }
+        }
+      },
+      {
+        "id": "consolidatiemethode-koppeling",
+        "naam": {
+          "primair": "Koppeling controle-type aan consolidatiemethode"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het type controle bepaalt de toe te passen consolidatiemethode:\n\n| Controle-type | Consolidatiemethode |\n|---|---|\n| Exclusieve controle | Integrale consolidatie (100%) |\n| Gezamenlijke controle | Evenredige consolidatie (pro rata) of vermogensmutatiemethode |\n| Invloed van betekenis | Vermogensmutatiemethode |\n| Geen controle / invloed | Niet opgenomen in kring (financieel vast actief) |",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De koppeling is conceptueel direct: meer controle → meer elementen worden 'rechtstreeks' in de geconsolideerde cijfers opgenomen."
+          }
+        }
+      },
+      {
+        "id": "directe-en-indirecte-participaties",
+        "naam": {
+          "primair": "Directe en indirecte participaties"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De consolidatiekring omvat niet alleen **directe** dochterondernemingen (moeder → dochter), maar ook **indirecte** participaties via tussenvennootschappen (moeder → tussenmoeder → kleindochter). De stemrechtenketen wordt berekend langs de keten van entiteiten.\n\n**Voorbeeld**: Aurelia Holding NV bezit 80% van Brugse Brouwerij BV; Brugse Brouwerij BV bezit 70% van Drukkerij Dendermonde BV. Aurelia heeft **indirecte controle** over Drukkerij Dendermonde BV (80% × 70% = 56% economisch belang — maar voor de controlekwalificatie telt de feitelijke controlemacht langs de keten, niet het rekenkundig product).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Indirecte participaties vergroten de kring aanzienlijk t.o.v. wat een eenvoudige aandeelhouderslijst zou suggereren. De accountant moet de volledige participatieketen traceren."
+          }
+        }
+      },
+      {
+        "id": "uitsluitingsgronden",
+        "naam": {
+          "primair": "Uitsluitingsgronden",
+          "synoniemen": [
+            "optionele uitsluitingen",
+            "verplichte uitsluitingen"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Bepaalde entiteiten mogen of moeten — ondanks aanwezige controle — uit de consolidatiekring worden gelaten:\n\n- **Onbetekenend** (optioneel): opname heeft geen wezenlijke invloed op het getrouwe beeld van de groep\n- **Ernstige langdurige beperkingen** (verplicht): de moeder kan haar rechten niet daadwerkelijk uitoefenen (bv. bezetting, blokkering door overheid)\n- **Bestemd voor doorverkoop** (betwijfeld — te verifiëren bij claims_checken): entiteit wordt uitsluitend aangehouden met het oog op snelle vervreemding",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Uitsluitingsgronden zijn uitzonderingen op de algemene inclusieregel; ze moeten in de toelichting worden vermeld met vermelding van de reden."
+          }
+        }
+      },
+      {
+        "id": "vrijstelling-groep-beperkte-omvang",
+        "naam": {
+          "primair": "Vrijstelling groep van beperkte omvang",
+          "synoniemen": [
+            "kleine groepsvrijstelling"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een moedervennootschap is **vrijgesteld van de consolidatieplicht** wanneer de groep op geconsolideerde basis twee van de drie drempelwaarden niet overschrijdt (balanstotaal, netto-omzet, gemiddeld personeelsbestand). Deze vrijstelling geldt voor twee opeenvolgende boekjaren.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte drempelwaarden (balanstotaal, omzet, personeel) zijn tariefgevoelig en staan in het KB/WVV — te verifiëren via claims_checken. Principe is correct: twee-op-drie-test voor twee opeenvolgende boekjaren."
+          }
+        }
+      },
+      {
+        "id": "subconsolidatievrijstelling",
+        "naam": {
+          "primair": "Subconsolidatievrijstelling",
+          "synoniemen": [
+            "tussenmoeder-vrijstelling"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **tussenmoeder** (= vennootschap die zelf dochter is van een hogere moeder) is vrijgesteld van de consolidatieplicht wanneer haar moeder reeds een geconsolideerde jaarrekening opstelt die beschikbaar is in België en de tussenmoeder geen beursgenoteerde effecten heeft uitstaan.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Te verifiëren: de exacte voorwaarden (beschikbaarheid, beursnotering, nationaliteitsvereisten) zijn WVV-specifiek en relevant voor het examen. Principe is correct."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "consolidatiemethoden",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De consolidatiekring bepaalt welke methode per entiteit van toepassing is; de methoden zijn onderdeel van het kader."
+    },
+    {
+      "type": "triggert",
+      "target": "geconsolideerde-jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De vastgestelde kring is de directe input voor het opmaken van de geconsolideerde jaarrekening."
+    },
+    {
+      "type": "triggert",
+      "target": "wijziging-consolidatiekring",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Elke wijziging in de samenstelling van de kring (in- of uittreding) triggert de verrichting 'wijziging consolidatiekring'."
+    },
+    {
+      "type": "vereist",
+      "target": "eerste-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Een nieuwe entiteit in de kring ondergaat de eerste-consolidatie-verrichting."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "groottecategorie-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De groottecriteria (geconsolideerd) bepalen of de groep aan de vrijstellingsdrempels voldoet."
+    },
+    {
+      "type": "bevat",
+      "target": "integrale-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "evenredige-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "vermogensmutatiemethode",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

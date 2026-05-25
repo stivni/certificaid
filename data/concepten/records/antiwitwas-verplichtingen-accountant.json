@@ -1,11 +1,27 @@
 {
   "id": "antiwitwas-verplichtingen-accountant",
   "naam": {
-    "primair": "Antiwitwas verplichtingen accountant"
+    "primair": "Antiwitwasverplichtingen van de accountant",
+    "afkorting": "AWW",
+    "synoniemen": [
+      "antiwitwaswet verplichtingen",
+      "AML-verplichtingen accountant",
+      "plichten onderworpen entiteit AMLCFT"
+    ],
+    "vertaling": {
+      "fr": "Obligations anti-blanchiment du comptable"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.7.VI.B",
+      "1.7.XII.A",
+      "4.0.I.D",
+      "4.0.taak.1"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,32 +40,474 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, gebruikscontext, elementen en relatie-suggesties ingevuld vanuit training-data (beschrijven-operatie, MODUS aanvullend)."
       }
-    ],
-    "ankers": [
-      "1.7.VI.B",
-      "1.7.XII.A",
-      "4.0.I.D",
-      "4.0.taak.1"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Antiwitwas verplichtingen accountant",
+        "tekst": "De **antiwitwasverplichtingen van de accountant** zijn het geheel van wettelijke verplichtingen dat rust op accountants en belastingadviseurs als **onderworpen entiteit** in de zin van de Antiwitwaswet van 18 september 2017. Ze omvatten drie pijlers: (1) een **waakzaamheidsplicht** (cliëntenonderzoek en doorlopende monitoring), (2) een **meldingsplicht** bij vermoedens van witwassen of financiering van terrorisme aan de CFI, en (3) een **organisatorische plicht** (interne procedures, opleiding en risicogebaseerde aanpak).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De accountant is geen opsporingsambtenaar, maar de wet maakt hem tot **poortwachter**: hij moet actief informatie verzamelen over wie zijn cliënt is, wat diens activiteiten zijn en of de transacties daarmee overeenstemmen. Wanneer er een **vermoeden** rijst — niet een zekerheid — van witwassen of financiering van terrorisme, is hij verplicht dit te melden aan de **Cel voor Financiële Informatieverwerking (CFI)** en mag hij de betrokkene niet verwittigen (**tipping-off verbod**).\n\nDe verplichtingen gelden ongeacht of de accountant een opdracht uitvoert die wettelijk voorbehouden is of niet. Ze zijn van toepassing zodra hij activiteiten uitoefent die in de wet zijn opgesomd: fiscale adviezen, boekhouding en jaarrekening, vennootschapsrechtelijk advies, onroerend-goed-transacties, oprichting van rechtspersonen, enz.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is tweeledig: (1) criminele geldstromen moeten de legale economie zo moeilijk mogelijk kunnen binnendringen via professionele dienstverleners, en (2) accountants zijn bij uitstek geplaatst om abnormale patronen te herkennen omdat ze inzicht hebben in de financiële realiteit van hun cliënten. De wet kiest daarvoor een **risicogebaseerde aanpak**: de intensiteit van de verplichtingen is evenredig met het ingeschatte witwasrisico.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke accountant of belastingadviseur die activiteiten uitoefent die onder de Antiwitwaswet vallen: fiscaal advies, boekhouding, opmaak jaarrekening, vennootschapsrecht, trust- en vennootschapsdiensten, vastgoedtransacties, begeleiden oprichting vennootschappen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het toepassingsgebied wordt bepaald door de aard van de activiteit, niet door het statuut van de beroepsbeoefenaar."
+        },
+        {
+          "tekst": "Situaties waarbij een nieuwe cliëntenrelatie wordt aangegaan, een eenmalige transactie boven drempel wordt uitgevoerd, of eerder verzamelde informatie niet meer up-to-date is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Activiteiten die louter interne bedrijfsvoering betreffen en niet de opgesomde categorieën dekken — bv. puur administratief secretariaat zonder financieel-juridische dimensie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Informatie die de accountant heeft verkregen in het kader van **wettelijke controle** van de jaarrekening valt in beginsel buiten de meldingsplicht — de controleopdracht heeft een apart juridisch kader met eigen meldingsregels.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De exacte afbakening tussen de wettelijke controleopdracht en de AWW-meldingsplicht is een technisch punt dat verificatie vereist."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De accountant oefent activiteiten uit die vallen onder het toepassingsgebied van de Antiwitwaswet — de wet somt de activiteiten limitatief op.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De verplichtingen gelden ook voor **zelfstandige accountants** en **kleine kantoren** — er is geen vrijstelling op basis van omvang.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-naleving leidt tot **tuchtrechtelijke en strafrechtelijke sancties**: schorsing of schrapping door ITAA, strafrechtelijke vervolging, en administratieve boetes.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het **tipping-off verbod** is een ernstig risico: de accountant die zijn cliënt informeert dat er een melding is gedaan of een onderzoek loopt, begaat een strafbaar feit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Een goed opgezet AWW-systeem beschermt de accountant zelf: bij een melding in goede trouw is hij **beschermd tegen aansprakelijkheid** — zelfs als het vermoeden later ongegrond blijkt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "risicogebaseerde-aanpak",
+        "naam": {
+          "primair": "Risicogebaseerde aanpak",
+          "synoniemen": [
+            "risk-based approach",
+            "RBA"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De **risicogebaseerde aanpak** is het centrale principe van de Antiwitwaswet: de omvang en intensiteit van de waakzaamheidsmaatregelen moeten in verhouding staan tot het ingeschatte witwasrisico. De accountant stelt een **risicoanalyse** op per cliënt en per transactie, en past zijn maatregelen daarop af.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Een uniforme toepassing van maximale waakzaamheid op alle cliënten is noch efficiënt noch proportioneel — de wetgever kiest voor maatwerk: hoog risico → verscherpte waakzaamheid, laag risico → vereenvoudigde waakzaamheid."
+          }
+        }
+      },
+      {
+        "id": "clientenonderzoek",
+        "naam": {
+          "primair": "Cliëntenonderzoek",
+          "synoniemen": [
+            "customer due diligence",
+            "CDD",
+            "waakzaamheidsplicht"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **cliëntenonderzoek** omvat de identificatie en verificatie van de cliënt en de uiteindelijke begunstigde (UBO), het begrijpen van de aard en het doel van de zakenrelatie, en de doorlopende monitoring van transacties.\n\nDrie niveaus:\n- **Standaard waakzaamheid** — de basisvorm, toepasselijk op de meeste cliënten\n- **Vereenvoudigde waakzaamheid** — voor laag-risico-cliënten (bv. beursgenoteerde vennootschappen)\n- **Verscherpte waakzaamheid** — verplicht voor hoog-risico-situaties (bv. politiek prominente personen, risicolanden, complexe structuren)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uiteindelijke-begunstigde",
+        "naam": {
+          "primair": "Uiteindelijke begunstigde",
+          "synoniemen": [
+            "UBO",
+            "ultimate beneficial owner"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **uiteindelijke begunstigde (UBO)** is de natuurlijke persoon die in laatste instantie eigenaar is van of zeggenschap uitoefent over een juridische entiteit of over een trustrelatie — ook als die controle indirect via tussenpersonen of aandeelhouderstructuren verloopt.\n\nDrempel: een natuurlijk persoon die direct of indirect meer dan **25% van de aandelen of stemrechten** houdt, geldt als UBO bij een vennootschap.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De UBO-identificatie doorbreekt anonimiteitslagen die criminelen gebruiken om de herkomst van gelden te verhullen. Zonder dit element zou een complexe structuur van vennootschappen de échte eigenaar verbergen."
+          }
+        }
+      },
+      {
+        "id": "meldingsplicht-cfi",
+        "naam": {
+          "primair": "Meldingsplicht aan de CFI",
+          "synoniemen": [
+            "SAR",
+            "suspicious activity report",
+            "melding verdachte transactie"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de accountant weet of **vermoedt** dat fondsen verband houden met witwassen of de financiering van terrorisme, is hij **verplicht** dit te melden aan de **Cel voor Financiële Informatieverwerking (CFI)**. De drempel is een **vermoeden** — geen bewijs of zekerheid.\n\nDe melding is verplicht vóór de transactie wordt uitgevoerd, voor zover dat mogelijk is. Na de melding mag de accountant **de opdracht niet verderzetten** tenzij de CFI daarvoor toestemming geeft.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tipping-off-verbod",
+        "naam": {
+          "primair": "Tipping-off verbod",
+          "synoniemen": [
+            "verbod op bekendmaking",
+            "geheimhoudingsplicht AWW"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **tipping-off verbod** verbiedt de accountant om aan de betrokken cliënt of aan derden mee te delen dat een melding aan de CFI is gedaan, dat een onderzoek loopt, of dat de accountant overweegt een melding te doen. Het verbod geldt zowel direct als indirect — ook hints of gedragsveranderingen die de cliënt op het spoor kunnen zetten, zijn verboden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Als de verdachte weet dat hij gesignaleerd is, kan hij bewijsmateriaal vernietigen of fondsen versluizen. Het verbod beschermt de effectiviteit van het opsporingsonderzoek."
+          }
+        }
+      },
+      {
+        "id": "interne-procedures-aww",
+        "naam": {
+          "primair": "Interne AWW-procedures",
+          "synoniemen": [
+            "AWW-compliance systeem",
+            "intern beleid antiwitwas"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "De accountant (of het kantoor) moet **interne procedures** opstellen en documenteren die beschrijven hoe de AWW-verplichtingen worden nageleefd. Dit omvat minimaal:\n- Een **risicoanalyse** op kantoor- en cliëntniveau\n- Procedures voor cliëntenonderzoek en identificatie\n- Procedures voor melding en escalatie\n- **Opleiding** van medewerkers\n- Aanwijzing van een **verantwoordelijke** voor AWW-naleving (voor grotere kantoren)\n- Bewaring van documenten gedurende **5 jaar** na beëindiging van de zakenrelatie",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bescherming-te-goeder-trouw",
+        "naam": {
+          "primair": "Bescherming bij melding te goeder trouw"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een accountant die **te goeder trouw** een melding doet bij de CFI is **gevrijwaard van elke civiele, strafrechtelijke of tuchtrechtelijke aansprakelijkheid** voor die melding — ook als het vermoeden achteraf ongegrond blijkt of als de gemelde transactie werd uitgevoerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder deze bescherming zouden accountants terughoudend zijn om te melden uit angst voor rechtszaken van cliënten — de bescherming is noodzakelijk om de effectiviteit van het meldingssysteem te garanderen."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "risicogebaseerde-benadering-aww",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De antiwitwasverplichtingen zijn de concrete uitwerking van de risicogebaseerde benadering in het AWW-kader."
+    },
+    {
+      "type": "bevat",
+      "target": "clientenonderzoek-aww",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "melding-verdachte-transactie-cfi",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "ubo-register",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "UBO-identificatie is een kernonderdeel van het cliëntenonderzoek — de accountant raadpleegt het UBO-register als verificatiebron."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "deontologie-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De AWW-verplichtingen staan in spanning met het beroepsgeheim van de accountant — de wet creëert een expliciete uitzondering op het beroepsgeheim voor AWW-meldingen."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "beroepsgeheim-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "AWW-meldingsplicht en beroepsgeheim zijn twee conflicterende normen — de Antiwitwaswet primeert als lex specialis voor de opgesomde activiteiten.",
+      "gelijkenissen": [
+        "Beide zijn dwingende gedragsregels voor de accountant als professional",
+        "Beide beschermen een publiek belang (respectievelijk financiële integriteit en vertrouwensrelatie met cliënt)"
+      ],
+      "verschillen": [
+        "Beroepsgeheim verbiedt informatie te delen; meldingsplicht verplicht tot delen met CFI",
+        "Bij conflict primeert de Antiwitwaswet als lex specialis voor de opgesomde activiteiten",
+        "Tipping-off verbod verbiedt zelfs te zeggen dat er een melding is gedaan"
+      ],
+      "verwarring_risico": "Accountants kunnen denken dat het beroepsgeheim een vrijstelling biedt van de meldingsplicht — dat is onjuist.",
+      "render_hint": "als_waarschuwing"
+    }
+  ]
 }

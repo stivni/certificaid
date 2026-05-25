@@ -1,8 +1,17 @@
 {
   "id": "inbreng-van-bedrijfstak-of-algemeenheid",
   "naam": {
-    "primair": "Inbreng van bedrijfstak of algemeenheid"
+    "primair": "Inbreng van bedrijfstak of algemeenheid",
+    "synoniemen": [
+      "partiële inbreng",
+      "inbreng van een tak van werkzaamheid",
+      "inbreng van de totaliteit van de activa en passiva"
+    ],
+    "vertaling": {
+      "fr": "Apport de branche d'activité ou d'universalité"
+    }
   },
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +21,11 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "1.1.II.T",
+      "2.4.taak.2",
+      "3.0.V.B"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +38,543 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7), gebruikscontext en relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.1.II.T",
-      "2.4.taak.2",
-      "3.0.V.B"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Inbreng van bedrijfstak of algemeenheid",
+        "tekst": "Een **inbreng van bedrijfstak of algemeenheid** is een herstructureringstransactie waarbij een vennootschap (de **inbrenger**) een geheel van activa en passiva dat een **zelfstandige economische activiteit** vormt — een bedrijfstak — of het **volledige vermogen** (algemeenheid) overdraagt aan een andere vennootschap (de **verkrijger**), in ruil voor **nieuwe aandelen** van de verkrijger. De overdracht verloopt van rechtswege: schuldeisers en contracten gaan mee over zonder dat elk afzonderlijk contract opnieuw hoeft te worden gesloten.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De inbreng van bedrijfstak of algemeenheid is economisch een **gedeeltelijke of volledige herstructurering van activiteit** zonder kasoverdrachtgedrag: de inbrenger ontvangt geen geld maar aandelen. Ze fungeert als alternatief voor:\n- Een **gewone activaoverdracht** (asset deal) — maar dan zonder de universele overdracht van rechtswege en met potentieel hogere transactiekosten per actief\n- Een **fusie** — maar waarbij de inbrengende vennootschap **blijft bestaan** (ze verdwijnt niet in de verkrijger)\n\nDe twee kernvarianten:\n1. **Inbreng van een bedrijfstak** — enkel het operationele geheel dat een autonome activiteit vormt gaat over; de inbrenger behoudt de rest van haar vermogen\n2. **Inbreng van de algemeenheid** — het volledige actief en passief gaat over; de inbrenger wordt een (lege) holdingvennootschap die enkel aandelen in de verkrijger bezit\n\nVoor beide varianten kan de **bijzondere fiscale neutraliteit** (uitgestelde belasting op meerwaarden) worden gevraagd via de procedure van art. 46 §1, 2° WIB92, mits de verrichting gesteld wordt in het kader van zakelijke behoeften.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever heeft de inbreng van bedrijfstak of algemeenheid als aparte techniek ingevoerd om **herstructureringen vlot te laten verlopen** zonder dat elke contractuele relatie individueel opnieuw hoeft te worden onderhandeld (universaliteitswerking). De tegenhanger in het fiscale recht (art. 46 §1, 2° WIB92) zorgt ervoor dat de belasting op meerwaarden bij de overgedragen activa **niet onmiddellijk verschuldigd** is — de fiscale kost wordt doorgeschoven naar de verkrijger die de waarden aan de inbrengwaarden overneemt. Zonder die fiscale neutraliteit zouden herstructureringen ontmoedigd worden door de directe belastingdruk op de latente meerwaarden in de ingebrachte activa.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "zelfstandige-economische-activiteit",
+        "naam": {
+          "primair": "Zelfstandige economische activiteit",
+          "synoniemen": [
+            "autonoom geheel",
+            "tak van werkzaamheid"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **bedrijfstak** is een geheel van activa en passiva — materieel, immaterieel en personeel — dat **technisch en organiek** in staat is zelfstandig te functioneren, dus zonder extra inbreng van de achterblijvende structuur. Dit vereist dat de bedrijfstak bij de inbrenger reeds als afzonderlijk identificeerbaar was. Losse activa die samen geen zelfstandige activiteit vormen, kwalificeren niet als bedrijfstak.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit kwalificatievereiste is cruciaal: zonder zelfstandigheid is geen sprake van een bedrijfstak maar van een gewone activaoverdracht, met andere fiscale en vennootschapsrechtelijke gevolgen."
+          }
+        }
+      },
+      {
+        "id": "universele-overdracht-van-rechtswege",
+        "naam": {
+          "primair": "Universele overdracht van rechtswege"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Bij een correct gekwalificeerde inbreng van bedrijfstak of algemeenheid gaan alle activa, passiva, rechten en verplichtingen die tot het ingebrachte geheel behoren **automatisch** over op de verkrijger — zonder dat:\n- elke schuldeiser afzonderlijk toestemming moet geven\n- elk contract opnieuw hoeft te worden gesloten\n- elke registratie van individuele goederen nodig is\n\nDit onderscheidt de techniek fundamenteel van een gewone **asset deal** waarbij elk actief en elke schuldovername apart wordt geregeld. Schuldeisers behouden wel het recht op **tegensprekelijke procedure** wanneer de overgang hun belangen schaadt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De universele overdracht verlaagt transactiekosten drastisch bij complexe portefeuilles van contracten, medewerkers en activa — dit is het belangrijkste praktische voordeel boven een asset deal."
+          }
+        }
+      },
+      {
+        "id": "tegenprestatie-in-aandelen",
+        "naam": {
+          "primair": "Tegenprestatie in aandelen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De inbrenger ontvangt als tegenprestatie uitsluitend **nieuw uitgegeven aandelen** van de verkrijgende vennootschap. Er is geen kascomponent toegelaten die de neutraliteit doorbreekt. Dit onderscheidt de verrichting van een verkoop (asset deal of aandelenoverdracht), waarbij de tegenprestatie in geld bestaat.\n\nDe **inbrengwaarde** van de overgedragen activa en passiva dient als basis voor de kapitaalverhoging bij de verkrijger en bepaalt hoeveel aandelen worden uitgegeven.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-neutraliteit",
+        "naam": {
+          "primair": "Fiscale neutraliteit",
+          "synoniemen": [
+            "uitgestelde belasting",
+            "fiscale continuïteit bij inbreng"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Wanneer de inbreng kadert in **zakelijke behoeften** (economische motieven, geen louter fiscale optimalisatie), kan de inbrenger de **belasting op meerwaarden** op de overgedragen activa **uitstellen**: de verkrijger neemt de fiscale waarden over (continuïteit van de boekwaarden bij de inbrenger) en wordt belastingplichtig zodra hij de activa later vervreemdt.\n\nDeze neutraliteit geldt niet automatisch — ze vereist een **bewuste keuze** en hangt af van de motivering. Wanneer de verrichting hoofdzakelijk is ingegeven door fiscale ontwijking, kan de belastingadministratie de neutraliteit weigeren.\n\nTwee niveaus:\n- **Inkomstenbelasting**: neutraliteit op basis van art. 46 §1, 2° WIB92\n- **BTW**: overdracht van algemeenheid is vrijgesteld op basis van het BTW-regime voor de overdracht van een algemeenheid (art. 11 WBTW)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De neutraliteit is een beleidsmatige keuze van de wetgever om economisch gewenste herstructureringen niet fiscaal te blokkeren. Ze is niet absoluut: de anti-misbruikbepaling kan ingrijpen wanneer de zakelijke motivering ontbreekt."
+          }
+        }
+      },
+      {
+        "id": "verschil-bedrijfstak-versus-algemeenheid",
+        "naam": {
+          "primair": "Bedrijfstak versus algemeenheid",
+          "synoniemen": [
+            "partiële inbreng versus volledige inbreng"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "**Inbreng van bedrijfstak**: de inbrenger draagt één of meer afgebakende operationele eenheden over maar **blijft bestaan** als actieve vennootschap met de resterende activiteiten.\n\n**Inbreng van algemeenheid**: de inbrenger draagt haar **volledig vermogen** (alle activa en passiva) over en wordt daarna een **lege holdingvennootschap** die enkel aandelen in de verkrijger bezit. De inbrenger is na de verrichting een zuivere financiële holding.\n\nPraktisch gevolg van dit onderscheid:\n- Bij bedrijfstak: de inbrenger moet het overgedragen geheel correct **afbakenen** (welke activa/passiva horen tot de bedrijfstak?) — dit vereist nauwkeurige administratieve scheiding\n- Bij algemeenheid: geen afbakeningsprobleem maar de inbrenger heeft daarna geen operationele activiteit meer",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bescherming-schuldeisers",
+        "naam": {
+          "primair": "Bescherming van schuldeisers"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Schuldeisers van de inbrenger wiens schuldvordering vóór de inbreng is ontstaan en die door de inbreng benadeeld worden (bv. omdat het resterende vermogen van de inbrenger na de inbreng van bedrijfstak onvoldoende solvabel is), kunnen **bezwaar aantekenen** binnen een bepaalde termijn na bekendmaking. Dit bezwaarrecht beschermt schuldeisers die door de transactie hun verhaal verliezen.\n\nBij de inbreng van algemeenheid worden alle schuldeisers meegedragen naar de verkrijger — de beschermingsprocedure heeft dan een andere invulling.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Schuldeisers-bescherming is een kernmechanisme bij elke verrichting die het vermogen van hun debiteur herstructureert — te verifiëren op precieze termijnen en procedure via WVV."
+          }
+        }
+      },
+      {
+        "id": "verslag-en-controleplicht",
+        "naam": {
+          "primair": "Verslag en controleplicht bij inbreng",
+          "synoniemen": [
+            "inbrengverslag commissaris",
+            "bijzonder verslag bestuur"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke inbreng van bedrijfstak of algemeenheid vereist:\n1. Een **bijzonder verslag** van het bestuursorgaan van de verkrijger over de waarde van de inbreng en de bepaling van het ruilverhouding (aantal uit te geven aandelen per ingebrachte waarde)\n2. Een **verslag van de commissaris** (of een onafhankelijk revisor indien geen commissaris aangesteld is) die de inbrengwaarden beoordeelt en controleert of de vergoeding in aandelen billijk is\n3. **Neerlegging** van het herstructureringsvoorstel en de verslagen bij de Nationale Bank + bekendmaking in het Belgisch Staatsblad\n\nDeze formele stappen zijn verplicht vóór de definitieve beslissing van de algemene vergadering.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De verslagverplichtingen waarborgen transparantie en aandeelhouderscontrole over een transactie die de vermogenspositie van beide vennootschappen wezenlijk wijzigt. Te verifiëren: exacte artikels WVV per rechtsvorm (NV/BV/CV)."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vennootschappen die één activiteit willen **afsplitsen in een aparte rechtspersoon** (operationele risicospreiding, joint venture met partner, voorbereiding op gedeeltelijke verkoop van een divisie).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschappen die een **holdingstructuur** willen opbouwen zonder de huidige operationele entiteit te ontbinden — de algemeenheid gaat over naar een werkmaatschappij; de inbrenger wordt holding.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Groepen die een **overname voorbereiden**: de te verkopen activiteit wordt eerst als bedrijfstak ingebracht in een NewCo, waarna de aandelen van de NewCo verkocht worden aan de koper (fiscaal gunstiger dan een asset deal).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Overdracht van **losse activa** die samen geen zelfstandige activiteit vormen — die kwalificeren niet als bedrijfstak en moeten via een gewone verkoop of activaoverdracht verlopen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waar de inbrenger **cash wenst te ontvangen** als tegenprestatie — de inbreng levert enkel aandelen op. Voor een kasvergoeding moet een gewone verkoop (asset deal of aandelenoverdracht) worden gebruikt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Herstructureringen met als **enige doel fiscale optimalisatie** zonder zakelijke economische motivering — de belastingadministratie kan dan de fiscale neutraliteit weigeren op basis van de anti-misbruikbepaling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Fiscale neutraliteit** op de meerwaarden bij de inbrenger — geen directe belasting op de overdracht, enkel uitgestelde belasting bij de verkrijger.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Universele overdracht van rechtswege** — contracten, schulden en rechten gaan automatisch mee zonder individuele toestemming van elke contractpartij.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De **inbrenger blijft bestaan** (bij inbreng van bedrijfstak): continuïteit van de rechtspersoon, bestaande licenties, vergunningen en contracten bij de inbrenger blijven onberoerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Kwalificatierisico**: als de belastingadministratie of de rechter oordeelt dat de overgedragen activa geen zelfstandige economische activiteit vormen, valt de fiscale neutraliteit weg en worden de meerwaarden alsnog belast bij de inbrenger.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Anti-misbruikrisico**: de belastingadministratie kan de fiscale neutraliteit weigeren wanneer de zakelijke motivering van de herstructurering onvoldoende is gedocumenteerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Waarderingsrisico**: de inbrengwaarden van activa en passiva zijn niet altijd eenduidig; een te hoge waardering leidt tot uitgeven van te veel aandelen (verwatering bestaande aandeelhouders van de verkrijger); een te lage waardering schaadt de inbrenger.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Vennootschap heeft twee of meer **duidelijk onderscheidbare activiteiten** die op eigen kracht levensvatbaar zijn — typisch kandidaat voor opsplitsing via bedrijfstak-inbreng.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Aandeelhouder wenst **successieplanning** te doen via holding-constructie: inbreng van algemeenheid zet de vennootschap om naar werkmaatschappij + lege holding, waarna de aandelen van de holding makkelijker worden geschonken of overgedragen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "verrichting"
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fusie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Universele overdracht van vermogen van rechtswege",
+        "Verkrijger geeft nieuwe aandelen uit als vergoeding",
+        "Fiscale neutraliteit op meerwaarden mogelijk"
+      ],
+      "verschillen": [
+        "Bij fusie verdwijnt de inbrenger; bij inbreng van bedrijfstak/algemeenheid blijft de inbrenger bestaan",
+        "Fusie vereist ontbinding en verdwijning van de overgenomen vennootschap; inbreng niet"
+      ],
+      "verwarring_risico": "Studenten verwarren inbreng van algemeenheid met fusie — het onderscheid is dat de inbrenger bij inbreng van algemeenheid blijft bestaan als holding, terwijl ze bij een fusie ophoudt te bestaan."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "splitsing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Bedrijfsactiviteit wordt over meerdere entiteiten verdeeld",
+        "Universele overdracht van activa en passiva van rechtswege"
+      ],
+      "verschillen": [
+        "Bij splitsing verdwijnt de gesplitste vennootschap (volledig); bij inbreng van bedrijfstak blijft de inbrenger bestaan",
+        "Splitsing verdeelt vermogen over twee of meer verkrijgers tegelijk; inbreng gaat naar één verkrijger"
+      ],
+      "verwarring_risico": "Partiële inbreng van bedrijfstak lijkt op afsplitsing maar is het niet — de inbrenger blijft actief en ontvangt aandelen."
+    },
+    {
+      "type": "vereist",
+      "target": "kapitaalverhoging",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De verkrijger vergoedt de inbreng met nieuw uitgegeven aandelen — dit vereist per definitie een kapitaalverhoging (of equivalent in een BV: uitgifte van nieuwe aandelen ten belope van de inbrengwaarde)."
+    },
+    {
+      "type": "valt_onder",
+      "target": "fiscale-fusie-splitsing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het fiscale neutraliteitsregime voor inbreng van bedrijfstak of algemeenheid maakt deel uit van het bredere kader van fiscaal neutrale herstructureringen (fusies, splitsingen en inbrengen), geregeld in WIB92 art. 46 §1, 2° en de fiscale fusierichtlijn."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-onroerend-in-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide zijn inbreng in natura in ruil voor aandelen",
+        "Beide vereisen verslag van commissaris of revisor over de inbrengwaarde"
+      ],
+      "verschillen": [
+        "Inbreng van onroerend goed betreft één afzonderlijk actief; inbreng van bedrijfstak betreft een heel economisch geheel",
+        "Universele overdracht van rechtswege geldt enkel bij bedrijfstak/algemeenheid, niet bij losse activainbreng"
+      ],
+      "verwarring_risico": "Beide betreffen een 'inbreng in natura' maar de vennootschapsrechtelijke en fiscale gevolgen verschillen sterk."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "overdracht-algemeenheid-btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De BTW-behandeling van de inbreng — vrijstelling op basis van de algemeenheids- of bedrijfstak-overdracht — is een aparte dimensie naast de inkomstenbelasting-neutraliteit."
+    }
+  ]
 }

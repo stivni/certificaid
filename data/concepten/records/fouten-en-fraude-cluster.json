@@ -1,8 +1,14 @@
 {
   "id": "fouten-en-fraude-cluster",
   "naam": {
-    "primair": "Fouten en fraude cluster"
+    "primair": "Fouten en fraude cluster",
+    "synoniemen": [
+      "misstatements",
+      "materiële onjuistheden",
+      "intentionele versus niet-intentionele afwijkingen"
+    ]
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +30,11 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6"
       }
     ],
     "ankers": [
@@ -36,20 +47,455 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Fouten en fraude cluster",
+        "tekst": "Het **fouten-en-fraude-cluster** is het normatief kader dat beschrijft hoe afwijkingen in financiële overzichten worden geclassificeerd, hoe hun risico wordt ingeschat en hoe de auditor hierop reageert. De centrale opdeling: **fouten** (onopzettelijke afwijkingen door vergissingen, rekenfouten of miskenning van feiten) versus **fraude** (opzettelijke afwijkingen met bedrieglijk oogmerk — ofwel frauduleuze financiële verslaggeving, ofwel verduistering van activa).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de audit-context is het onderscheid fout/fraude bepalend voor:\n- de **ingeschatte risicovereisten** (fraude-risico vereist bijzondere aandacht en specifieke responsen)\n- de **rapporteringsplichten** (fraude communiceert de auditor anders dan een fout)\n- de **verantwoordelijkheidsverdeling** (inherent hoger risico dat fraude ondetected blijft — opzettelijke misleiding omzeilt controles)\n\nHet kader omvat drie lagen: (1) conceptuele taxonomie (wat is een fout vs fraude), (2) risico-inschatting (hoe herkent de auditor frauderisico-indicatoren), (3) respons (hoe past de auditor zijn aanpak aan wanneer fraude-risico aanwezig is).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De drie lagen zijn niet louter beschrijvend maar normatief: de auditstandaarden (ISA 240) leggen specifieke verplichtingen op per laag. Een auditor die fraude-indicatoren niet herkent of niet adequaat op reageert, handelt in strijd met de standaard."
+      },
+      "rationale": {
+        "tekst": "Fouten en fraude veroorzaken beide **materiële onjuistheden** in de jaarrekening, maar de opzet bepaalt de aanpak fundamenteel. Fraude is per definitie moeilijker te detecteren: de pleger handelt om ontdekking te vermijden, terwijl een fout toevallig is. Dit asymmetrisch detectierisico rechtvaardigt een apart normatief kader met hogere alertheid, bredere skeptische houding en specifieke rapporteringsplichten voor de auditor.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "taxonomie-fout-vs-fraude",
+        "naam": {
+          "primair": "Taxonomie: fout versus fraude"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **fout** is een onopzettelijke afwijking in de financiële overzichten: rekenfouten, toepassingsfouten van boekhoudprincipes, of het over het hoofd zien van feiten. Een **fraude** is een opzettelijke handeling door één of meer personen (bestuur, leidinggevenden, werknemers of derden) met als doel de financiële overzichten te manipuleren of activa te ontvreemden. Opzet is het sleutelcriterium.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De definitie van fraude in ISA 240 vereist opzet én een gevolg (materiële onjuistheid). Fouten en fraude zijn niet schaalbaar naar elkaar: een grote fout wordt geen fraude bij herhaling, tenzij opzet aangetoond is."
+          }
+        }
+      },
+      {
+        "id": "frauduleuze-financiele-verslaggeving",
+        "naam": {
+          "primair": "Frauduleuze financiële verslaggeving",
+          "synoniemen": [
+            "earnings management",
+            "window dressing"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**Frauduleuze financiële verslaggeving** is een fraudesubtype waarbij de financiële overzichten opzettelijk worden gemanipuleerd om gebruikers te misleiden over de financiële positie of prestaties van de entiteit. Voorbeelden: fictieve omzet boeken, schulden weglaten, waarderingen manipuleren, periodegrenzen verschuiven.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit subtype is het meest relevant voor de wettelijke controle: het treft de jaarrekening rechtstreeks en is bedoeld om de externe gebruiker te misleiden. Typisch door het bestuur, niet door werknemers op uitvoerend niveau."
+          }
+        }
+      },
+      {
+        "id": "verduistering-van-activa",
+        "naam": {
+          "primair": "Verduistering van activa",
+          "synoniemen": [
+            "ontvreemding",
+            "misappropriation of assets"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**Verduistering van activa** is een fraudesubtype waarbij een werknemer of derde op onrechtmatige wijze activa van de entiteit toe-eigent — kasgelden stelen, fictieve leveranciers aanmaken, voorraden ontvreemden. Dit leidt ook tot onjuistheden in de jaarrekening, maar de primaire schade is de ontvreemding zelf.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Verduistering raakt typisch de balans (kas, voorraden, vorderingen) en resultatenrekening (fictieve kosten). Het onderscheid met frauduleuze verslaggeving is de intentie: ontvreemding vs. misleiding van verslaggeving-gebruikers."
+          }
+        }
+      },
+      {
+        "id": "fraudedriehoek",
+        "naam": {
+          "primair": "Fraudedriehoek",
+          "synoniemen": [
+            "fraud triangle",
+            "Cressey-model"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **Cressey-model (fraudedriehoek)** beschrijft drie factoren die samen fraude mogelijk maken en motiveren:\n1. **Druk/motivatie** — financiële nood, bonusdoelstellingen, schulden\n2. **Gelegenheid** — zwakke interne controle, gebrek aan functiescheiding, toegang tot activa\n3. **Rationalisatie** — zelfrechtvaardiging ('ik leen het alleen maar', 'ik word onderbetaald')\n\nAlle drie moeten aanwezig zijn voor fraude. Dit model stuurt de auditor naar de juiste frauderisico-indicatoren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De fraudedriehoek vertaalt de abstracte definitie van fraude in waarneembare signalen: de auditor zoekt naar omstandigheden die druk, gelegenheid of rationalisatie creëren. Het is een analytisch hulpmiddel, geen checklist."
+          }
+        }
+      },
+      {
+        "id": "frauderisico-indicatoren",
+        "naam": {
+          "primair": "Frauderisico-indicatoren",
+          "synoniemen": [
+            "red flags",
+            "fraud risk factors"
+          ]
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "**Frauderisico-indicatoren** zijn omstandigheden die — individueel of gecombineerd — de kans op fraude verhogen of signaleren. Voorbeelden:\n- **Druk-indicatoren**: hoge schuldratio, bonussystemen gekoppeld aan resultaten, familiaire druk op bestuurder\n- **Gelegenheids-indicatoren**: dominante CEO zonder tegengewicht, zwakke IT-toegangscontrole, geen functiescheiding bij kasverrichtingen\n- **Rationalisatie-indicatoren**: bestuur dat compliance minimaliseert, eerder vastgesteld onethisch gedrag, conflicterende belangen\n\nDe aanwezigheid van indicatoren verhoogt het ingeschat risico maar bewijst geen fraude.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "inherent-detectiebeperkingen",
+        "naam": {
+          "primair": "Inherente beperkingen bij fraude-detectie"
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "Fraude is **inherent moeilijker te detecteren** dan fouten omdat de pleger actief misleiding toepast: vervalste documenten, samenspanning, opzettelijke onjuiste voorstelling aan de auditor. Zelfs een goed uitgevoerde audit biedt geen absolute zekerheid dat fraude wordt ontdekt. Dit is een **inherente beperking** van de wettelijke controle, niet een tekortkoming van de auditor.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Deze beperking is fundamenteel voor de aansprakelijkheid van de auditor: hij is niet verantwoordelijk voor het ontdekken van alle fraude, maar wel voor het handhaven van professionele scepsis en het uitvoeren van adequate controlewerkzaamheden."
+          }
+        }
+      },
+      {
+        "id": "professionele-scepsis-fraude",
+        "naam": {
+          "primair": "Professionele scepsis bij fraude-risico"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "substantie": {
+            "tekst": "Bij fraude-risico geldt een **verhoogde professionele scepsis**: de auditor stelt zijn aannames kritischer in vraag, accepteert minder snel verklaringen van het management, en is alert op tegenstrijdige informatie. Specifieke manifestaties:\n- Management-beweringen worden niet automatisch als bewijs aanvaard\n- Ongebruikelijke transacties of journaalposten worden dieper onderzocht\n- Overeenstemming tussen documenten bewijst niet de echtheid van die documenten bij samenspanning",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Professionele scepsis is geen houding van wantrouwen, maar van alertheid. De auditor gaat ervan uit dat fraude mogelijk is en dat management niet per definitie integer handelt — zonder dit te bewijzen hoeft."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke **wettelijke controleopdracht** waarbij ISA-standaarden van toepassing zijn — de auditor is verplicht frauderisico's in te schatten en te reageren, ook als er geen concrete aanwijzingen zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Risicoanalyse-fase** van de audit (planningsfase): het team bespreekt frauderisico's, identificeert risico-indicatoren en documenteert de bevindingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Rapportering aan governance** (commissaris, auditcomité): wanneer aanwijzingen van fraude zijn vastgesteld, heeft de auditor specifieke communicatieverplichtingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Samenstellingsopdrachten** (compilatie) — de accountant stelt samen op basis van informatie van de cliënt en voert geen controle-werkzaamheden uit. Fraude-detectieplichten zijn fundamenteel anders.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Management override van interne controles**: bestuurders kunnen procedures omzeilen die voor andere medewerkers gelden — dit is het moeilijkst te detecteren fraudepatroon en vormt een standaard verplicht te beoordelen risico in elke audit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Samenspanning**: wanneer meerdere personen samenwerken om fraude te plegen, wordt functiescheiding als controleMaatregel effectief uitgeschakeld.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "**Dominante CEO of eigenaar-bestuurder** zonder effectief tegengewicht in het bestuur.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Ongewone of complexe transacties** aan het einde van het boekjaar die resultaten net boven een drempel duwen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Inconsistentie tussen analytische indicatoren** (bv. omzetgroei zonder bijbehorende kasstroomgroei, oplopende debiteurendagen zonder verklaring).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Hoog verloop bij financieel personeel** of ongewenste toegang tot financiële systemen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "auditrisicomodel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Fraude-risico is een component van het inherent risico binnen het auditrisicomodel."
+    },
+    {
+      "type": "bevat",
+      "target": "fraude",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het cluster omvat het zelfstandige fraude-concept als subcategorie naast fouten."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "professionele-oordeelsvorming-en-skepticism",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Fraude-risico vereist een verhoogde mate van professionele scepsis."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "interne-controle-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Sterke interne controle verlaagt de gelegenheids-component van de fraudedriehoek."
+    },
+    {
+      "type": "vereist",
+      "target": "risico-inschatting-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Frauderisico-inschatting is een verplicht onderdeel van de audit-risicoanalyse."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "niet-naleving-wet-regelgeving-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Zowel fraude als niet-naleving van wet- en regelgeving activeren bijzondere rapporterings- en communicatieverplichtingen voor de auditor."
+    }
+  ]
 }

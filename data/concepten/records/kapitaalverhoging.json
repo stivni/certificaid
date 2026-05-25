@@ -1,17 +1,32 @@
 {
   "id": "kapitaalverhoging",
   "naam": {
-    "primair": "Kapitaalverhoging"
+    "primair": "Kapitaalverhoging",
+    "synoniemen": [
+      "kapitaalsverhoging",
+      "verhoging van het kapitaal",
+      "capital increase"
+    ],
+    "vertaling": {
+      "fr": "Augmentation de capital"
+    }
   },
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
     "provenance": {
-      "model": "skeleton-from-candidate",
-      "wave_id": "skeleton-dump",
-      "extract_prompt": "tools.extractie.skeleton_from_candidate",
-      "iteratie": "v0"
+      "model": "claude-sonnet-4-6",
+      "wave_id": "wave-2-beschrijven",
+      "extract_prompt": "prompts/operaties/beschrijven.md",
+      "iteratie": "01-beschrijven",
+      "mcp_calls": 0
     },
+    "ankers": [
+      "1.1.II.A",
+      "1.1.II.T",
+      "3.0.taak.3"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +39,469 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7 stuks), gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.1.II.A",
-      "1.1.II.T",
-      "3.0.taak.3"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Kapitaalverhoging",
+        "tekst": "Een **kapitaalverhoging** is een vennootschapsverrichting waarbij het **maatschappelijk kapitaal** wordt verhoogd door inbreng van nieuwe middelen (inbreng in geld of in natura) of door boekhoudkundige omzetting van bestaande bestanddelen van het eigen vermogen (incorporatie van reserves of overgedragen winst). Na de verrichting zijn de aandeelhouders geconfronteerd met een groter eigen-vermogensmassa of een gewijzigde aandeelhoudersstructuur.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een kapitaalverhoging brengt **nieuw eigenaarsvermogen** naar de vennootschap — in tegenstelling tot een lening, die schuld creëert. De verrichting kan twee fundamenteel verschillende doelen dienen:\n\n1. **Externe financiering** — nieuwe aandeelhouders of bestaande aandeelhouders storten cash (of brengen activa in), waardoor de vennootschap extra middelen ontvangt en de aandelenstructuur wijzigt.\n2. **Interne herschikking** — reserves of overgedragen winst worden omgezet in vast kapitaal (incorporatie), zonder dat er nieuwe middelen binnenstromen. Het eigen vermogen als totaal verandert niet, alleen de samenstelling.\n\nVoor de **BV** geldt geen minimumkapitaal-vereiste (het concept van *vast kapitaal* bestaat niet meer), maar de vennootschap moet beschikken over **toereikende netto-activa** conform de financiële test (toets op uitkeringsruimte). Voor de **NV** geldt een wettelijk minimumkapitaal van **€ 61.500**.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het onderscheid externe financiering vs. interne herschikking is cruciaal voor de accountant: bij externe financiering vloeien middelen in, bij incorporatie is de verrichting boekhoudkundig neutraal voor het totale eigen vermogen maar wijzigt de bescherming van schuldeisers."
+      },
+      "rationale": {
+        "tekst": "Kapitaalverhoging is het primaire instrument voor **eigen-vermogensfinanciering** bij vennootschappen. Het onderscheidt zich van schuldfinanciering doordat:\n- de verstrekte middelen **niet terugbetaald** moeten worden (geen vervaldatum, geen rente)\n- de inbrenger **aandeelhouder** wordt (mede-eigenaar) en deelt in winst én verlies\n- het de **solvabiliteit** van de vennootschap versterkt (meer buffer voor schuldeisers)\n\nDit heeft directe gevolgen voor de belastbaarheid (geen aftrekbare rente), de controlestructuur (nieuwe aandeelhouders krijgen stemrechten) en de toekomstige uitkeringsruimte.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vennootschappen die **groei willen financieren** (nieuwe activa, overname, expansie) zonder bijkomende schulden aan te gaan — omwille van al hoge schuldgraad of beperkte leencapaciteit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Eigen-vermogensfinanciering verbetert de solvabiliteitsratio's en vergroot de schuldendienstcapaciteit voor toekomstige leningen."
+        },
+        {
+          "tekst": "Vennootschappen die reserves of overgedragen winst willen **verstevigen als vast kapitaal** (incorporatie) om de uitkeringsruimte structureel te beperken — bv. als signaal naar kredietverstrekkers.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Incorporatie van reserves vergroot het geblokkeerd eigen vermogen en beperkt de uitkeringsruimte voor toekomstige dividenden — een geloofwaardigheidssignaal naar banken."
+        },
+        {
+          "tekst": "Vennootschappen in **financiële moeilijkheden** waarbij de netto-actieftest niet meer voldaan is en externe kapitaalinjectie noodzakelijk is om de alarmbel-procedure te vermijden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Wanneer het netto-actief daalt onder de helft van het eigen vermogen (BV) of het minimumkapitaal (NV), verplicht de alarmbel-procedure het bestuursorgaan tot actie — kapitaalverhoging is een gebruikelijk herstelplan."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Situaties waar de behoefte **tijdelijk** is — een rekening-courant met een aandeelhouder of een banklening zijn dan goedkoper en flexibeler (geen notariskosten, geen statutenwijziging, geen publicatie).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Kapitaalverhoging brengt vaste transactiekosten (notaris, publicatie Belgisch Staatsblad) en formele vereisten mee die bij kortlopende financieringsbehoeften niet opwegen."
+        },
+        {
+          "tekst": "Bestaande aandeelhouders die hun **controlepercentage** niet willen verwateren en waarbij externe investeerders niet gewenst zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij uitgifte van nieuwe aandelen aan derden verwateren de stemrechten van de bestaande aandeelhouders — het voorkeurrecht beschermt hen maar kan worden opgeheven door de algemene vergadering."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Geen terugbetalingsverplichting en geen rentekost** — het ingébrachte kapitaal versterkt de netto-activa structureel en verbetert de balansstructuur.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "In tegenstelling tot een lening belast eigen vermogen de cashflow niet met vaste rente- en aflossingslast — het geeft de vennootschap meer ademruimte."
+        },
+        {
+          "tekst": "**Versterking van de solvabiliteit** — hogere eigen-vermogensratio verlaagt het financieel risico voor schuldeisers en kan herfinanciering van bestaande schuld vergemakkelijken.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verwatering van bestaande aandeelhouders** bij uitgifte aan derden — stemrechten en winstgerechtigdheid worden gedeeld met nieuwe aandeelhouders tenzij het voorkeurrecht is ingebouwd en uitgeoefend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Verwatering is niet alleen een economisch nadeel (minder winst per aandeel) maar ook een governance-risico: nieuwe aandeelhouders kunnen de controleverhouding doorbreken."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "modaliteiten-kapitaalverhoging",
+        "naam": {
+          "primair": "Modaliteiten van kapitaalverhoging",
+          "synoniemen": [
+            "vormen van kapitaalverhoging"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Er zijn drie fundamenteel verschillende modaliteiten:\n\n1. **Inbreng in geld** — nieuwe aandeelhouders of bestaande aandeelhouders storten cash. Meest voorkomende vorm. Nieuwe aandelen worden uitgegeven.\n2. **Inbreng in natura** — een aandeelhouder brengt een activum in (onroerend goed, handelszaak, octrooirechten, deelneming). Vereist waardering door een bedrijfsrevisor.\n3. **Incorporatie van reserves of overgedragen winst** — bestaande eigen-vermogensbestanddelen worden omgezet in kapitaal. Geen nieuwe middelen; uitsluitend boekhoudkundige herschikking.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De modaliteit bepaalt de procedurevereisten (o.a. revisorverslag bij inbreng in natura), de boekhoudkundige impact en het fiscale regime."
+          }
+        }
+      },
+      {
+        "id": "voorkeurrecht",
+        "naam": {
+          "primair": "Voorkeurrecht",
+          "synoniemen": [
+            "voorkeursrecht",
+            "droit de préférence"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een kapitaalverhoging in geld hebben bestaande aandeelhouders het **voorkeurrecht** om als eersten nieuwe aandelen te nemen, naar evenredigheid van hun bestaand aandelenbelang. Dit recht beschermt hen tegen ongewenste verwatering.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het voorkeurrecht is een wettelijk beschermingsmechanisme. Bij opheffing of beperking ervan is een bijzonder verslag van het bestuursorgaan vereist, met verantwoording van de uitgifteprijs."
+          }
+        }
+      },
+      {
+        "id": "uitgifteprijs-nieuwe-aandelen",
+        "naam": {
+          "primair": "Uitgifteprijs van nieuwe aandelen",
+          "synoniemen": [
+            "inbrengprijs"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De uitgifteprijs is het bedrag dat elke nieuwe aandeelhouder per aandeel betaalt. Bij een **NV** met vast kapitaal bestaat de uitgifteprijs uit:\n- **Nominale waarde** (of fractiewaarde) — gaat naar het maatschappelijk kapitaal\n- **Uitgiftepremie (agio)** — het surplus boven de fractiewaarde, geboekt als een beschikbare reserve\n\nVoor de **BV** (zonder vast-kapitaalconcept) bepaalt de statuten of de uitgifte-beslissing vrij de inbreng per aandeel — er is geen nominale waarde.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De uitgiftepremie beschermt bestaande aandeelhouders: ze vertegenwoordigen de ingebouwde waarde van de vennootschap die de nieuwe aandeelhouder mee-vergoed via de premie, boven op de nominale inleg."
+          }
+        }
+      },
+      {
+        "id": "inbreng-in-natura-revisorverslag",
+        "naam": {
+          "primair": "Revisorverslag bij inbreng in natura"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de kapitaalverhoging via inbreng in natura plaatsvindt, is een **verslag van een bedrijfsrevisor** wettelijk vereist. De revisor oordeelt of de waarde van het ingebrachte activum minstens gelijk is aan de uitgifteprijs van de nieuwe aandelen. Zonder dit verslag is de inbreng nietig.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het revisorverslag beschermt schuldeisers en bestaande aandeelhouders tegen overwaardering van ingebrachte activa — een klassiek risico bij inbreng in natura waarbij de inbrenger en de vennootschap een gemeenschappelijk belang hebben."
+          }
+        }
+      },
+      {
+        "id": "incorporatie-reserves",
+        "naam": {
+          "primair": "Incorporatie van reserves",
+          "synoniemen": [
+            "incorporatie van winst",
+            "kapitalisatie van reserves"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij incorporatie worden **beschikbare reserves, overgedragen winst of uitgiftepremies** omgezet in vast kapitaal (bij de NV) of in het interne kapitaalfonds (bij de BV). Er vloeien geen nieuwe middelen in — de verrichting is boekhoudkundig neutraal voor het totale eigen vermogen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Incorporatie blokkeert reserves: ze kunnen niet meer vrij worden uitgekeerd als dividend. Dit versterkt de financiële buffer voor schuldeisers en wordt soms gebruikt als geloofwaardigheidssignaal."
+          }
+        }
+      },
+      {
+        "id": "bevoegdheid-beslissing",
+        "naam": {
+          "primair": "Bevoegdheid voor de beslissing",
+          "synoniemen": [
+            "beslissingsorgaan kapitaalverhoging"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De beslissing tot kapitaalverhoging behoort in beginsel tot de bevoegdheid van de **algemene vergadering** (met bijzondere meerderheid — doorgaans drie vierden van de stemmen). Uitzondering: wanneer de statuten een **toegestaan kapitaal** of **machtiging tot uitgifte** verlenen aan het bestuursorgaan, kan het bestuursorgaan binnen de vastgestelde grenzen en termijn zelfstandig beslissen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De eis van een bijzondere meerderheid beschermt minderheidsaandeelhouders tegen een door de meerderheid gedwongen verwatering. Het toegestaan kapitaal versnelt het proces bij tijdsgevoelige transacties (bv. overname-financiering)."
+          }
+        }
+      },
+      {
+        "id": "netto-actieftest-financiele-test",
+        "naam": {
+          "primair": "Netto-actieftest en financiële test",
+          "synoniemen": [
+            "vermogenstest",
+            "uitkeringstest bij kapitaalverhoging"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de **BV** (en in mindere mate bij de NV) moet het bestuursorgaan vóór elke kapitaalverhoging-incorporatie bevestigen dat na de verrichting de netto-activa niet dalen onder nul en de vennootschap gedurende ten minste twaalf maanden haar opeisbare schulden kan voldoen (**liquiditeitstest**). Bij een inbreng van nieuwe middelen is deze test minder kritisch — maar bij incorporatie (herschikking) moet het bestuursorgaan bevestigen dat de te incorporeren reserves werkelijk aanwezig en uitkeerbaar zijn.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Bij de BV heeft het WVV de kapitaalbescherming vervangen door twee functionele tests (netto-actieftest + liquiditeitstest). De exacte toepassingsvereisten per modaliteit van kapitaalverhoging verdienen verificatie in de wettekst."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "verrichting"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "eigen-vermogen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "kapitaalbescherming-en-winstverdeling",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalvermindering",
+      "toelichting": "Spiegelverrichting: kapitaalvermindering verlaagt het eigen vermogen via inkrimping van het kapitaal of terugbetaling aan aandeelhouders; kapitaalverhoging vergroot het.",
+      "gelijkenissen": [
+        "Beide zijn vennootschapsverrichtingen die het eigen vermogen structureel wijzigen",
+        "Beide vereisen een beslissing van de algemene vergadering (tenzij gedelegeerd)"
+      ],
+      "verschillen": [
+        "Kapitaalverhoging brengt middelen in of herschikt reserves omhoog; kapitaalvermindering keert terug of schrijft af",
+        "Kapitaalvermindering vereist schuldeisersbescherming-procedure; kapitaalverhoging niet"
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "obligatielening",
+      "toelichting": "Alternatieve financieringsbron: obligatielening is schuld (terugbetalingsverplichting + rente); kapitaalverhoging is eigen vermogen (geen terugbetaling, geen rente, wel verwatering).",
+      "gelijkenissen": [
+        "Beide brengen externe middelen naar de vennootschap",
+        "Beide zijn instrumenten voor langetermijnfinanciering"
+      ],
+      "verschillen": [
+        "Obligatielening creëert schuld; kapitaalverhoging creëert eigen vermogen",
+        "Rente op obligatielening is fiscaal aftrekbaar; dividend op nieuwe aandelen niet",
+        "Obligatiehouders worden geen mede-eigenaar; nieuwe aandeelhouders wel"
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "bijzondere-verslagen-vennootschapsverrichtingen",
+      "toelichting": "Kapitaalverhoging met opheffing van het voorkeurrecht, of inbreng in natura, vereist een bijzonder verslag van het bestuursorgaan en/of commissaris.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "algemene-vergadering",
+      "toelichting": "De beslissing tot kapitaalverhoging behoort in beginsel tot de bevoegdheid van de algemene vergadering, tenzij er een machtiging tot uitgifte of toegestaan kapitaal bestaat.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

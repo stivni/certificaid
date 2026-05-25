@@ -1,11 +1,25 @@
 {
   "id": "consolidatieverplichting-bgaap",
   "naam": {
-    "primair": "Consolidatieverplichting bgaap"
+    "primair": "Consolidatieverplichting (Belgisch GAAP)",
+    "afkorting": "consolidatieverplichting",
+    "synoniemen": [
+      "verplichting tot geconsolideerde jaarrekening",
+      "consolidatieplicht",
+      "verplichte consolidatie"
+    ],
+    "vertaling": {
+      "fr": "obligation de consolidation (BGAAP)"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.4.I.C",
+      "1.4.II.B"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,475 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, gebruikscontext, elementen en relaties ingevuld vanuit training-data. MODUS aanvullend."
       }
-    ],
-    "ankers": [
-      "1.4.I.C",
-      "1.4.II.B"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Consolidatieverplichting bgaap",
+        "tekst": "De **consolidatieverplichting** is het Belgisch-wettelijk regime dat bepaalt **welke moedervennootschappen verplicht zijn een geconsolideerde jaarrekening op te stellen** op basis van Belgisch GAAP (KB/W.Venn. en WVV). De verplichting geldt wanneer een moedervennootschap de **zeggenschap** heeft over één of meer dochtervennootschappen — en er geen vrijstelling van toepassing is op basis van grootte (kleine groep) of structuur (sub-groep).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De consolidatieverplichting werkt op twee niveaus:\n\n1. **Drempel-toets** — moet de groep überhaupt consolideren? Kleine groepen zijn vrijgesteld als ze twee van drie groottecriteria niet overschrijden (personeelsleden, jaaromzet, balanstotaal). Middelgrote en grote groepen moeten altijd consolideren.\n\n2. **Perimeterbepaling** — welke entiteiten vallen binnen de consolidatiekring? Dochters (zeggenschap), geassocieerde deelnemingen (invloed van betekenis) en gezamenlijke regelingen worden elk op een andere manier opgenomen.\n\nHet resultaat van de verplichting is een **geconsolideerde jaarrekening** die de groep als economische eenheid presenteert — de interne vorderingen, schulden, opbrengsten en kosten worden geëlimineerd.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De verplichting bestaat omdat de **enkelvoudige jaarrekening van de moeder** een onvolledig beeld geeft: de economische realiteit van een groep kan alleen worden begrepen door de financiële stromen van alle entiteiten samen te lezen. Crediteuren, aandeelhouders en toezichthouders hebben behoefte aan een geconsolideerd beeld om de werkelijke schuldengraad, winstgevendheid en vermogenspositie van de groep te beoordelen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vennootschappen die de **zeggenschap** uitoefenen over één of meer dochtervennootschappen en die de groottegrenzen voor kleine groep overschrijden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Tussenholdings** in een groep die zelf dochtervennootschappen controleren — zelfs als ze zelf kind zijn van een grotere moeder — tenzij de sub-groepsvrijstelling van toepassing is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Kleine groepen** — groepen die twee van drie groottecriteria niet overschrijden — zijn vrijgesteld van consolidatieverplichting onder Belgisch GAAP.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Tussenholdings in een sub-groep** waarvan de moeder een geconsolideerde jaarrekening naar Belgisch of EU-conform recht publiceert: zij genieten van de sub-groepsvrijstelling, mits aan de voorwaarden is voldaan (openbaarmaking, geen bezwaar minderheidsaandeelhouders).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De moedervennootschap oefent **zeggenschap** (controle) uit over de dochtervennootschap — d.w.z. de macht om het financieel en operationeel beleid te sturen om economisch voordeel te verwerven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De groep overschrijdt de **groottegrenzen voor kleine groep** (twee van drie criteria op geconsolideerde basis): meer dan 250 personeelsleden, jaaromzet meer dan € 34.000.000 of balanstotaal meer dan € 17.000.000.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Concrete drempelbedragen zijn door WVV of KB aanpasbaar; verificatie vereist tegen actuele wettekst."
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "**Geassocieerde deelnemingen** (invloed van betekenis, geen zeggenschap) vallen niet onder de consolidatieverplichting als zodanig — zij worden opgenomen via de **vermogensmutatiemethode**, niet via integrale consolidatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Dochters die **tijdelijk aangehouden** worden met oog op vervreemding op korte termijn kunnen worden uitgesloten van de consolidatiekring.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Niet of laattijdig consolideren** wanneer de verplichting wel geldt, leidt tot een onvolledig of misleidend financieel beeld en kan leiden tot aansprakelijkheid van het bestuursorgaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verkeerde toepassing van groottecriteria** (enkelvoudig in plaats van geconsolideerd berekend) leidt tot onterechte vrijstelling of ten onrechte aangenomen verplichting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "zeggenschapscriterium",
+        "naam": {
+          "primair": "Zeggenschapscriterium",
+          "synoniemen": [
+            "controlecriterium",
+            "criterium zeggenschap"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vennootschap valt binnen de **consolidatieverplichting** als moedervennootschap wanneer zij **zeggenschap** uitoefent over een andere vennootschap. Zeggenschap bestaat wanneer de moeder beschikt over de meerderheid van de stemrechten, het recht heeft om de meerderheid van de bestuurders te benoemen of te ontslaan, of feitelijk de beslissende invloed uitoefent op het beleid. **Eigendomspercentage is niet doorslaggevend** — zeggenschap kan ook bij minder dan 50% bezit bestaan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kleine-groep-vrijstelling",
+        "naam": {
+          "primair": "Kleine-groepsvrijstelling",
+          "synoniemen": [
+            "vrijstelling kleine groep",
+            "groottevrijstelling consolidatie"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Groepen die **twee van drie groottecriteria** op geconsolideerde basis niet overschrijden, zijn vrijgesteld van de consolidatieverplichting. De drie criteria zijn (op geconsolideerde basis):\n- Aantal werknemers (drempel: 250 voltijdsequivalenten)\n- Jaaromzet (drempel: betwijfeld — verificatie vereist)\n- Balanstotaal (drempel: betwijfeld — verificatie vereist)\n\nDe groottecriteria worden op **geconsolideerde basis** berekend — niet op enkelvoudige basis van de moedervennootschap.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Concrete bedragen (omzet en balanstotaal) zijn door KB aanpasbaar; drempelwaarden moeten worden geverifieerd in actuele wettekst."
+          }
+        }
+      },
+      {
+        "id": "sub-groepsvrijstelling",
+        "naam": {
+          "primair": "Sub-groepsvrijstelling",
+          "synoniemen": [
+            "tussenholding vrijstelling",
+            "vrijstelling tussenmoeder"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **tussenholding** (vennootschap die zelf moedervennootschap is en tegelijk dochtervennootschap van een hogere moeder) is **vrijgesteld van de consolidatieverplichting** op sub-groep-niveau wanneer:\n1. De hogere moeder zelf een geconsolideerde jaarrekening opstelt conform Belgisch of gelijkwaardig EU-recht,\n2. Die geconsolideerde jaarrekening de betrokken sub-groep omvat,\n3. De geconsolideerde jaarrekening van de hogere moeder openbaar is gemaakt overeenkomstig de toepasselijke wetgeving, en\n4. Geen minderheidsaandeelhouders (boven een bepaalde drempel) bezwaar hebben gemaakt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "geconsolideerde-groottecriteria",
+        "naam": {
+          "primair": "Geconsolideerde groottecriteria",
+          "synoniemen": [
+            "gecombineerde groottebeoordeling"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Bij de beoordeling of de kleine-groepsvrijstelling van toepassing is, worden de drie criteria **op geconsolideerde basis** berekend. Dit betekent dat de cijfers van alle groepsentiteiten (inclusief dochters die zelf zouden worden geconsolideerd) worden gecombineerd — met eliminatie van interne transacties — vóór ze aan de drempelwaarden worden getoetst.\n\nEen groep waarbij de moeder zelf een kleine onderneming is maar dochtervennootschappen heeft die samen de drempelwaarden overschrijden, **is niet vrijgesteld** van de consolidatieverplichting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "consolidatiekring-bepaling",
+        "naam": {
+          "primair": "Bepaling van de consolidatiekring"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "De consolidatieverplichting impliceert ook de plicht om de **consolidatiekring correct af te bakenen**. Dit behelst drie categorieën:\n\n- **Integrale consolidatie** — dochtervennootschappen (zeggenschap): volledig opgenomen, interne transacties geëlimineerd, minderheidsbelangen apart gepresenteerd\n- **Vermogensmutatiemethode** — geassocieerde deelnemingen (invloed van betekenis, doorgaans 20–50% stemrecht): opgenomen à rato van nettovermogen, niet lijn per lijn geconsolideerd\n- **Evenredige consolidatie of vermogensmutatiemethode** — gezamenlijke regelingen: afhankelijk van type (joint operation vs joint venture)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "openbaarmaking-geconsolideerde-jaarrekening",
+        "naam": {
+          "primair": "Openbaarmaking geconsolideerde jaarrekening"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De vennootschappen die verplicht consolideren, moeten de geconsolideerde jaarrekening **neerleggen bij de Nationale Bank van België** (NBB) voor openbaarmaking. De neerleggingstermijn verschilt van de enkelvoudige jaarrekening: de geconsolideerde jaarrekening moet worden neergelegd **binnen 6 maanden na het afsluiten van het boekjaar**, goedgekeurd door de algemene vergadering.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte termijn is te verifiëren in het WVV; de 6-maanden-grens is de gebruikelijke vuistregel voor de goedkeuring door de algemene vergadering."
+          }
+        }
+      },
+      {
+        "id": "controle-geconsolideerde-jaarrekening",
+        "naam": {
+          "primair": "Controle van de geconsolideerde jaarrekening"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de consolidatieverplichting geldt, moet de geconsolideerde jaarrekening worden gecontroleerd door een **bedrijfsrevisor** (commissaris op groepsniveau). De consoliderende moedervennootschap moet in de regel een commissaris hebben die bevoegd is voor de hele groep. De enkelvoudige jaarrekeningen van de dochtervennootschappen worden afzonderlijk gecontroleerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "bgaap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De consolidatieverplichting is een regime dat in het Belgisch boekhoudrecht (BE-GAAP) is vastgelegd."
+    },
+    {
+      "type": "triggert",
+      "target": "geconsolideerde-jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "consolidatiekring",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "groottecategorie-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De beoordeling of de kleine-groepsvrijstelling van toepassing is, vereist kennis van de groottecategorieën op geconsolideerde basis."
+    },
+    {
+      "type": "triggert",
+      "target": "eerste-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Wanneer de verplichting voor het eerst optreedt (bv. door overschrijding groottegrenzen of nieuwe dochterverwerving), triggert dit een eerste consolidatie."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "consolidatiemethoden",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "opmaak-geconsolideerde-jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

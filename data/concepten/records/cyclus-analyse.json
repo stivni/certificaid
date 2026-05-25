@@ -1,8 +1,14 @@
 {
   "id": "cyclus-analyse",
   "naam": {
-    "primair": "Cyclus analyse"
+    "primair": "Cyclus analyse",
+    "synoniemen": [
+      "transactiecyclus-analyse",
+      "procesgerichte interne controle",
+      "cycle-based internal control"
+    ]
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +30,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -39,20 +51,478 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Cyclus analyse",
+        "tekst": "**Cyclus analyse** is een methode om de interne controle van een organisatie te structureren door gelijksoortige transacties te groeperen in **bedrijfsprocessen (cycli)** — zoals de aankoopcyclus, verkoopcyclus, voorraadbeheer of personeelsbeheer — en per cyclus de relevante risico's, beheersmaatregelen en controleprocedures te identificeren. Het is het organisatorische kader dat bepaalt *langs welke snijlijnen* een interne-controleonderzoek of een audit wordt opgedeeld.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de praktijk wordt een onderneming niet als één grote structuur geauditeerd, maar opgedeeld in transactiestromen die van begin tot einde een logische keten vormen:\n- **Aankoopcyclus** — van bestelling bij leverancier tot betaling van de factuur\n- **Verkoopcyclus** — van klantenorder tot inning van de vordering\n- **Voorraadbeheer** — van ontvangst goederen tot verwerking in kostprijs\n- **Personeelsbeheer / loonverwerking** — van aanwerving tot uitbetaling van lonen\n- **Vastgoedbeheer** — van investering tot afschrijving en desinvestering\n\nElke cyclus heeft zijn eigen risicogebieden, typische fraudeschema's en passende controleprocedures. Door de analyse cyclus per cyclus te doen, kan de accountant of interne controleur gericht testen en gestructureerd rapporteren over de beheersing van elk afzonderlijk proces.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De cyclus-aanpak vermijdt dat een controleur zich verliest in een ad-hoc-benadering: elke cyclus heeft een afgebakende reikwijdte, een herkenbare risicoprofiel en een standaard-set beheersmaatregelen die getoetst kunnen worden."
+      },
+      "rationale": {
+        "tekst": "De cyclus-analyse is het organisatorische basisprincipe achter zowel interne controle als externe audit: door transacties te groeperen naar hun economische logica (inkoopstroom vs. verkoopstroom vs. loonstroom) wordt de koppeling van **risico's, beheersmaatregelen en controletests** werkbaar. Zonder cyclus-afbakening is het onmogelijk om te bepalen of de controlemaatregelen van een onderneming 'de goede dingen controleren op de goede plek'.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Organisaties met **meerdere terugkerende transactiestromen** (aankopen, verkopen, lonen, investeringen) waarbij de beheersing van elk afzonderlijk proces relevante risico's draagt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij eenvoudige one-man-businesses is de cyclus-benadering minder zinvol; bij middelgrote tot grote vennootschappen is het het standaard-organiserend kader."
+        },
+        {
+          "tekst": "Opmaak of beoordeling van een **intern-controle-systeem** waarbij per bedrijfsproces bepaald wordt welke risico's beheersmaatregelen vereisen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Planningsfase van een controleopdracht**: de auditor gebruikt cycli om het werkprogramma te structureren en de bijbehorende risico-inschatting per cyclus te documenteren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Eenmalige of uitzonderingstransacties** (fusie, vereffening, kapitaalverlaging): die worden niet via de standaard cyclus-aanpak geanalyseerd maar apart als bijzondere verrichting behandeld.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Risicoanalyse op entiteitsniveau** (bijv. fraude-cultuur, bestuursstructuur, continuïteitsrisico's): dit valt onder de controlegomgeving (COSO-component 1) en wordt niet via cyclus-analyse benaderd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Ontbrekende cyclus**: wanneer een relevante transactiestroom (bijv. IT-inkoop als eigen cyclus bij software-ondernemingen) niet als aparte cyclus wordt afgebakend, vallen bijhorende risico's buiten het analysekader en worden ze niet systematisch beheerst.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Tunnelvisie per cyclus**: als elke cyclus volledig geïsoleerd wordt geanalyseerd, kunnen **grensoverschrijdende risico's** (bijv. samenspanning tussen aankoop- en loonverwerkingscyclus) over het hoofd worden gezien.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De controleur of interne auditor werkt met een **werkprogramma dat per cyclus is opgedeeld** en per cyclus controle-doelstellingen (volledigheid, bestaan, nauwkeurigheid, afsnijding, waardering) identificeert.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "aankoopcyclus",
+        "naam": {
+          "primair": "Aankoopcyclus",
+          "synoniemen": [
+            "purchase cycle",
+            "inkoopproces"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **aankoopcyclus** omvat alle transacties van behoeftestelling en bestelorder tot factuurgoedkeuring en betalingsopdracht aan leveranciers. Typische controlestappen: vergelijking bestelbon–leveringsbon–factuur (**driewegmatch**), goedkeuringslimieten per orderbedrag, en segregatie van bestellen, ontvangen en betalen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verkoopcyclus",
+        "naam": {
+          "primair": "Verkoopcyclus",
+          "synoniemen": [
+            "sales cycle",
+            "debiteurenbeheer"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **verkoopcyclus** loopt van klantenorder (aanvaarding van kredietrisico) tot factuuruitreiking en inning van de vordering. Kritieke beheersmaatregel: de facturatie mag pas opstarten nadat de levering of dienstprestatie is bevestigd (**leveringsdocument als trigger**). Vorderingenbeheer en oninbare-schulden-provisie sluiten de cyclus af.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorraadbeheer-cyclus",
+        "naam": {
+          "primair": "Voorraadbeheer",
+          "synoniemen": [
+            "voorraadcyclus",
+            "inventory cycle"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **voorraadbeheer-cyclus** omvat de ontvangst, opslag, verwerking en vrijgave van goederen. Sleutelbeheersmaatregel: ontvangstbevestiging is gescheiden van bestelling (mét fysieke controle op hoeveelheid en kwaliteit) én van boekhoudkundige verwerking. Inventaristelling sluit de cyclus af door reële voorraad met administratieve stand te vergelijken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "personeelsbeheer-cyclus",
+        "naam": {
+          "primair": "Personeelsbeheer / loonverwerking",
+          "synoniemen": [
+            "loonverwerkingscyclus",
+            "payroll cycle",
+            "HR-cyclus"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **personeelsbeheer-cyclus** loopt van aanwerving en contractbeheer tot tijdsregistratie, loonberekening en betaalrun. Kritieke beheersmaatregel: de afdeling die de lonen berekent mag geen toegang hebben tot de masterfil van werknemers (scheiding van gegevensbeheer en verwerking). Aansluiting van de loonaangifte met de boekhoudkundige loonlast sluit de cyclus af.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vaste-activa-cyclus",
+        "naam": {
+          "primair": "Vaste-activa-cyclus",
+          "synoniemen": [
+            "investerings-cyclus",
+            "fixed assets cycle"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **vaste-activa-cyclus** beslaat investering (activering), periodieke afschrijving, eventuele bijzondere waardevermindering en definitieve desinvestering. Sleutelpunt: investeringen moeten zijn goedgekeurd door een bevoegde entiteit (raad van bestuur of gedelegeerde), en activering vs. onmiddellijk-in-kosten-nemen is een beoordelingsgrens die de controleur jaarlijks toetst.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "controle-doelstellingen-per-cyclus",
+        "naam": {
+          "primair": "Controle-doelstellingen per cyclus",
+          "synoniemen": [
+            "audit assertions per cycle",
+            "beheers-doelstellingen"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke cyclus wordt beoordeeld op dezelfde set **controle-doelstellingen** die samen de volledigheid en juistheid van de financiële verwerking waarborgen:\n- **Bestaan/Optreden** — zijn de geboekte transacties reëel?\n- **Volledigheid** — zijn alle reële transacties geboekt?\n- **Nauwkeurigheid** — zijn bedragen correct berekend?\n- **Afsnijding** — zijn transacties in de juiste periode geboekt?\n- **Waardering** — zijn activa en passiva correct gewaardeerd?\n- **Classificatie** — zijn posten in de juiste rekeningen geboekt?\n\nDeze doelstellingen corresponderen met de IAASB-audit-assertions en vormen de rode draad door alle cyclus-analyses.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "functiescheiding-als-kernmaatregel",
+        "naam": {
+          "primair": "Functiescheiding als kernmaatregel",
+          "synoniemen": [
+            "segregation of duties",
+            "SOD"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij elke cyclus is **functiescheiding** de meest fundamentele preventieve beheersmaatregel: de functies **autoriseren, registreren en bewaren** moeten door verschillende personen worden uitgeoefend. Wanneer één persoon twee of drie van deze functies combineert, is de kans op fraude of fout zonder detectie significant verhoogd. In kleine organisaties compenseert de eigenaar-manager zijn afwezigheid vaak via **compenserende controles** (bijv. persoonlijke review van bankafschriften).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Cyclus-analyse is het organisatorische kader waarbinnen controle-activiteiten (COSO-component 4) per transactiestroom worden geïdentificeerd en getoetst."
+    },
+    {
+      "type": "bevat",
+      "target": "aankoopcyclus-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "verkoopcyclus-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "voorraadcyclus-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "hr-cyclus-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "functiescheiding",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Functiescheiding is de meest fundamentele beheersmaatregel die in elke cyclus geïdentificeerd en getoetst wordt."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "risico-inschatting-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De reikwijdte en diepte van de cyclus-analyse wordt bepaald door de risico-inschatting: hogere inherente risico's leiden tot uitgebreidere cyclus-analyse en meer controle-procedures."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "auditrisicomodel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beide bieden een structurerend kader voor de audit; het auditrisicomodel werkt op entiteitsniveau, cyclus-analyse werkt op transactiestroom-niveau."
+    },
+    {
+      "type": "vereist",
+      "target": "controleopdracht-cyclus",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De controleopdracht-cyclus bepaalt het moment waarop de cyclus-analyse wordt uitgevoerd (planningsfase) en de bevindingen worden gerapporteerd (afrondingsfase)."
+    }
+  ]
 }
