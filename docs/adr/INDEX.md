@@ -36,6 +36,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-026](ADR-026-tarief-records-vision-extractie.md) | Tarief-records via vision-extractie + MCP-lookup | Draft |
 | [ADR-027](ADR-027-bundle-aware-extract-architectuur.md) | Bundle-aware extract (2-pass) + daemon v2.0 (batching, gating, concurrent index) | Accepted — bundle-prompt verplaatst naar `prompts/operaties/` (zie ADR-029) |
 | [ADR-029](ADR-029-schema-21-operaties-model.md) | Schema 2.1 (v1.5) — didactische conceptlaag + operations-model (`beschrijven`, `claims_checken`, `relaties_aanvullen`, `accountant_perspectief`, `didactisch_verrijken`, `kandidaat_review`, `leespad_aanvullen`) | Draft |
+| [ADR-030](ADR-030-granulariteit-typologie.md) | Granulariteit-typologie voor concept-records — 4 super-categorieën + werkingsregels A-J (incl. Regel J geïntegreerde Regeling: één fenomeen × N dimensies = één record) + bundel-concept-patroon + `#anchor`-relaties. Vervangt 10 `concept_type`-waarden uit ADR-029. | Draft |
 
 ## Roadmap
 
