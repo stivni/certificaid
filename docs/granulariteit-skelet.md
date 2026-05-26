@@ -31,7 +31,7 @@ beroep-en-deontologie                    [K]
 bedrijfseconomie-en-management           [K]
 ```
 
-**Cross-cutting clusters (per thema)**
+**Uitgewerkte clusters**
 
 ```
 mobiliteit                               [Σ-cluster, 4 records]
@@ -133,11 +133,7 @@ beroepsbeoefening                        [⏳]
 ├── opdrachtbrief                        ⏳
 ├── onafhankelijkheid                    ⏳
 └── archiefplicht                        ⏳
-```
 
-**Discipline-cluster-uitwerkingen** (laag-2 sub-Kaders)
-
-```
 controle-opdracht                        [sub-Kader `controle`, 7 records — PO 1.6]
 ├── controleopdracht                     [K-techniek-Σ]    ▸ 4 fases (aanvaarden→plannen→bewijswerk→afronden+oordeel) ▸ prof skepticism ▸ delegatie-en-supervisie
 ├── opdracht-types                       [Σ]               4 types: controle · beoordeling · samenstelling · AUP  ▸ normenkader-piramide
@@ -166,15 +162,17 @@ Shared records (thema's `controle-opdracht` + `interne-controle`)
 
 ### Uitgewerkte clusters — navigatie
 
-| Cluster | Type | Records | Sectie |
+| Cluster | Records | PO-aanknoping | Sectie |
 |---|---|---|---|
-| mobiliteit | cross-cutting thema | 4 | [§Mobiliteit-cluster](#mobiliteit-cluster) |
-| kapitaalstructuur | cross-cutting thema | 16 | [§Kapitaalstructuur-cluster](#kapitaalstructuur-cluster) |
-| werknemers-vergoedingen | cross-cutting thema | 15 | [§Werknemers-vergoedingen-cluster](#werknemers-vergoedingen-cluster) |
-| overdracht-onderneming | cross-cutting thema | 2 | [§Overdracht-onderneming-cluster](#overdracht-onderneming-cluster) |
-| schuldfinanciering | cross-cutting thema | 4 | [§Schuldfinanciering-cluster](#schuldfinanciering-cluster) |
-| controle-opdracht | laag-2 discipline (sub-Kader `controle`) | 7 | [§Controle-opdracht-cluster](#controle-opdracht-cluster) |
-| **interne-controle** | **laag-2 discipline** (sub-Kader `controle`) | **7 + 3 shared** | [**§Interne-controle-cluster**](#interne-controle-cluster) |
+| mobiliteit | 4 | PO 2.1 (PB) · PO 1.1 (boekhouding) · PO 1.5 (jaarrekening-toelichting) | [§Mobiliteit-cluster](#mobiliteit-cluster) |
+| kapitaalstructuur | 16 | PO 3.0 (WVV) · PO 1.1 (boekhouding) · PO 2.3 (VenB) | [§Kapitaalstructuur-cluster](#kapitaalstructuur-cluster) |
+| werknemers-vergoedingen | 15 | PO 2.1 (PB-bezoldigingen) · PO 2.3 (VenB-aftrekbaarheid) · PO 1.1 (boekhouding) | [§Werknemers-vergoedingen-cluster](#werknemers-vergoedingen-cluster) |
+| overdracht-onderneming | 2 | PO 3.0 (WVV) · PO 2.3 (VenB) · PO 2.7 (BTW) | [§Overdracht-onderneming-cluster](#overdracht-onderneming-cluster) |
+| schuldfinanciering | 4 | PO 1.1 (boekhouding) · PO 3.0 (WVV-obligaties) · PO 2.3 (VenB-interest) | [§Schuldfinanciering-cluster](#schuldfinanciering-cluster) |
+| controle-opdracht | 7 | PO 1.6 | [§Controle-opdracht-cluster](#controle-opdracht-cluster) |
+| **interne-controle** | **7 + 3 shared** | **PO 1.7** | [**§Interne-controle-cluster**](#interne-controle-cluster) |
+
+*PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
 Cross-cutting flags (records met cluster-thuis nog te bepalen): `vennootschap-groottecategorieen` ([§flag](#vennootschap-groottecategorieen-cross-cutting-flag)).
 
@@ -280,7 +278,7 @@ Cross-cutting (eigen stammen, niet onder een discipline)
 └── Regelingen           — alle Regeling-records (geen "die niet aan één discipline vasthangen"-onderscheid; alle Regelingen zijn cross-cutting via perspectieven)
 ```
 
-**Belangrijke simplificatie (2026-05-23)**: de discipline-stam bevat **alleen Kader-records** (disciplines, sub-disciplines, technieken, principes). Alle Regelingen + Entiteiten + Gebeurtenissen leven in de cross-cutting stammen. Discipline-binding gebeurt via `accountant_perspectieven[]` en `relaties[]`. Eén record hangt op één plek; kruisverbindingen via perspectieven en relaties. Zie rationale-log.
+**Belangrijke simplificatie (2026-05-23, versoepeld 2026-05-26)**: laag-1 disciplines + sub-Kaders zijn primair Kader-records. **Versoepeling**: laag-2 cluster-uitwerkingen onder een sub-Kader (zoals `controle-opdracht`, `interne-controle`) mogen records van alle categorieën (K, E, G, R, Σ) bevatten zolang die conceptueel bij dat sub-Kader horen. Discipline-binding gebeurt via `accountant_perspectieven[]` en `relaties[]`. Eén record hangt op één plek; kruisverbindingen via perspectieven en relaties + thema-tags. *Originele formulering was "discipline-stam = alleen Kader-records, alle E/G/R cross-cutting" — bleek te restrictief bij confrontatie met PO 1.6 + 1.7 (revisiedossier = E in controle-opdracht-cluster; interne-audit = E+K in interne-controle-cluster).*
 
 ### Thema's — orthogonale tagging
 
@@ -1131,3 +1129,4 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | **Anti-versnippering toegepast op PO 1.7**: 6 COSO-component-records → 1 shared `coso-framework` K-techniek met 5+1 sub-secties; 6 cyclus-records → 1 shared `cyclus-analyse` Σ met 5 sub-secties; cluster-eigen records ~7 (28 → 7 cluster + 3 nieuwe shared + 5 verhuizingen + 13 absorpties) | Behoud 28 aparte records of pas alleen kleinere consolidaties toe | Past entry "anti-preventieve-versnippering" toe op concreet werk. PO 1.7.XII.D zegt expliciet "5 geïntegreerde componenten" → bundelen volgt PO-structuur. Cycli zijn klassiek Σ-pattern (5 alternatieven met vergelijkings-/keuze-vraag). User-feedback "veel veel veel logischer": consolidatie werkt. Latere splits per COSO-component of per cyclus blijven mogelijk op didactische gronden. | Voor PO 1.7 specifiek: latere splits-kandidaten zijn `coso-framework#risico-inschatting` (zwaar onderwerp, ook aparte ISO 31000-context) en `cyclus-analyse#hr-cyclus` (overlap payroll-K-techniek bij werknemers-vergoedingen-cluster). Beslissen tijdens content-uitwerking. |
 | 2026-05-26 | `-cluster`-suffix in record-naam = **smell** (schema-artefact, geen conceptnaam). Vermijden in record-id; gebruik thema-tag of skelet-cluster-positionering | Behoud `fouten-en-fraude-cluster`, `it-controles-cluster`, `*-cluster` als record-namen | Record-id moet conceptnaam zijn (`fouten-en-fraude`, `it-controles`), niet duiden op verzamel-aard (`-cluster` doet dat). Verzamel-aard wordt gedragen via tags `[Σ]` of `[K-techniek]` of via cluster-positionering in skelet-doc — niet via record-naam. Naam-smell scan tijdens mapping-fase. | Mapping-actie: scan bestaande 396 records op `-cluster`/`-cluster.json` suffix; hernoemen via `tools/lib/records_api.py rename_record`. |
 | 2026-05-26 | `managementcontrole` verhuist naar `bedrijfseconomie-en-management`-discipline (niet onder `controle`); PO 1.7.I.C contrasteert IC met managementcontrole en plaatst MC pedagogisch in IC-context, maar inhoudelijk is MC sturingsgericht (budget/KPI) ≠ beheersingsgericht (IC) | Behoud `managementcontrole` in interne-controle-cluster (volgt PO 1.7-presentatie) | PO 1.7.I.C is **afbakeningsanchor** ("MC is wat anders dan IC"), geen inhoudelijk MC-anchor. Inhoudelijke MC-stof (budget, kpi, variance, balanced scorecard) hoort in `bedrijfseconomie-en-management`-discipline (laag-1 ⏳). Afbakening blijft als sub-sectie `interne-controle#afbakening` met cross-link. | Analoog: `interne-audit` blijft wel in IC-cluster (anders dan MC) want het is structureel onderdeel van het IC-ecosysteem (3rd line of defense — PO 1.7.IV+V). Afbakening ≠ wegverhuizen. |
+| 2026-05-26 | **Cluster-typen-onderscheid geschrapt** (cross-cutting thema-cluster vs discipline-cluster). Alle uitgewerkte clusters zijn voortaan "clusters" — verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Regel mei 2026 "discipline-stam = alleen Kader-records, alle E/G/R cross-cutting" **versoepeld**: cluster-uitwerkingen mogen K + E + G + R + Σ bevatten zolang conceptueel coherent. | (a) Behoud 2 sub-blokken in snapshot met PO-mapping-rationale; (b) Originele restrictieve regel handhaven en E/G/R uit discipline-clusters eruit halen (zou clusters breken — `revisiedossier` E in controle-opdracht; `interne-audit` E+K in interne-controle; etc.) | User-observatie 2026-05-26: "waarom maak jij een verschil tussen Cross-cutting clusters (per thema) en de Discipline-cluster-uitwerkingen (laag-2 sub-Kaders)?" Onderscheid was artefact van eerdere ontstaansgeschiedenis (eerst werkten we thema-clusters uit, daarna PO-gebaseerde clusters) + originele restrictieve regel die niet stand hield bij PO 1.6 + 1.7 (revisiedossier, controleverklaring, interne-audit, auditcomite zijn E maar horen conceptueel in hun cluster). Versimpeling: één cluster-begrip; PO-mapping als metadata-kolom in navigatie-tabel. | Toekomst: alle volgende clusters volgen één model; geen distinction nodig. ADR-030 dienovereenkomstig bij te werken (Regel-bepaling over disciplinestam vs cross-cutting moet weg of versoepeld). Eerdere rationale-log-entries 2026-05-23 over "Entiteiten + Gebeurtenissen cross-cutting (eigen stammen)" + "alle Regelingen leven cross-cutting" + "discipline-stam = alleen Kader" blijven gelden voor laag-1 (top-disciplines mogen alleen Kader zijn) — versoepeling alleen voor laag-2 cluster-uitwerkingen. |
