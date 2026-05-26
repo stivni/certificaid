@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -74,15 +75,26 @@ def _discover_alle_interpretaties() -> list[dict[str, Any]]:
     return entries
 
 
+def _natural_sort_key(vraag_id: str) -> list:
+    """Natural-sort key voor vraag-ids: '...vr2E' < '...vr10A' < '...vr10B'.
+
+    Lexicografisch zou 'vr10A' < 'vr2E' geven (wat fout is). Door numerieke
+    delen apart te tellen krijgen we de menselijk-natuurlijke volgorde —
+    nodig voor 2024-1 IDs als 'vr1A..vr11E' (zie ADR-031 §2) en wenselijk
+    voor andere examens (vr1..vr29 staat lexicografisch ook door elkaar).
+    """
+    return [int(s) if s.isdigit() else s for s in re.split(r"(\d+)", vraag_id)]
+
+
 def _groepeer_per_examen(
     selectie: list[dict[str, Any]],
 ) -> dict[str, list[dict[str, Any]]]:
     per_examen: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for entry in selectie:
         per_examen[entry["examen_id"]].append(entry)
-    # deterministische volgorde per vraag-id
+    # deterministische volgorde per vraag-id (natural-sort: vr2 < vr10)
     for examen_id, entries in per_examen.items():
-        entries.sort(key=lambda e: e["vraag_id"])
+        entries.sort(key=lambda e: _natural_sort_key(e["vraag_id"]))
     return dict(per_examen)
 
 

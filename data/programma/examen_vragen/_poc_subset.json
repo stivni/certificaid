@@ -35,19 +35,19 @@
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr1",
+      "vraag_id": "2024-1-vr1A",
       "pagina_van": 1,
       "pagina_tot": 1,
-      "karakter": "herinnering, fragment met subvragen",
-      "rationale": "herinnering-flow + subvraag-isolatie"
+      "karakter": "herinnering, enkelvoudige open vraag (vak 1 vraag A na ADR-031)",
+      "rationale": "herinnering-flow basis-case na vak-blok-splitsing (ADR-031). Was 2024-1-vr1 vóór parser-fix."
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr10",
+      "vraag_id": "2024-1-vr10A",
       "pagina_van": 5,
       "pagina_tot": 5,
-      "karakter": "herinnering, sub-A topic_only",
-      "rationale": "topic-syllabus-pad voor fragment zonder echte vraag"
+      "karakter": "herinnering, topic_only stellingen-set",
+      "rationale": "topic_only pad voor fragment zonder bewaarde stellingen (financiële onafhankelijkheid). Was 2024-1-vr10 sub-A vóór ADR-031."
     }
   ]
 }

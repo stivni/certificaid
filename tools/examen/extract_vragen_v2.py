@@ -595,17 +595,16 @@ def _wrap_vraagtekst_als_tekst_blok(vraagtekst: str) -> list[dict]:
 def _extract_examen_v2_itaa_2024(examen_id: str, config: dict[str, Any]) -> dict:
     """V2-extractie voor 2024-1: gebruikt parse_2024_1 + wrap als tekst-blok.
 
-    De 2024-1 PDF heeft vraag-headers in een ander formaat ("1 Vennootschapsrecht"
-    i.p.v. "Vraag 1"). Tabel-detectie wordt niet toegepast — vraagteksten zijn
-    overwegend zuiver tekstueel.
+    2024-1 is een herinnering-stijl PDF met vak-blokken ("1 Vennootschapsrecht",
+    "7 IFRS", ...) waarin meerdere zelfstandige hoofdvragen (A/B/C/D/E) zitten.
+    Tabel-detectie wordt niet toegepast — vraagteksten zijn overwegend
+    tekstueel. parse_2024_1 levert ~49 vragen (4-5 per vak × 11 vakken) via
+    woord-bbox-indent-detectie (ADR-031).
     """
     pdf_path = PDF_DIR / config["pdf_bestand"]
-    pagina_teksten: list[str] = []
     with pdfplumber.open(pdf_path) as pdf:
         n_pages = len(pdf.pages)
-        for page in pdf.pages:
-            pagina_teksten.append(page.extract_text() or "")
-    vragen_v1 = parse_2024_1(pagina_teksten)
+    vragen_v1 = parse_2024_1(pdf_path)
     vragen_records: list[dict] = []
     for v in vragen_v1:
         blokken = _wrap_vraagtekst_als_tekst_blok(v["vraagtekst"])

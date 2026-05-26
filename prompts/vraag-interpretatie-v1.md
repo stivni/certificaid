@@ -1,7 +1,8 @@
 # Prompt: Examenvraag-interpretatie — INTERPRETATIE v1.1
 
 **Status**: permanent prompt-artefact
-**Schema-versie output**: 1.1 (2026-05-21 — POC-feedback verwerkt: vragen[] i.p.v. items, vraagtype-reductie, motivatie_verwacht orthogonaal, topic_only is een per-deelvraag-flag)
+**Schema-versie output**: 1.2 (2026-05-21 — additief: `programmaonderdeel_ids` toegevoegd t.o.v. v1.1)
+**Canonieke schema-spec**: [`data/programma/examen_vragen/interpretatie-1.2.schema.json`](../data/programma/examen_vragen/interpretatie-1.2.schema.json) — bij conflict tussen onderstaande inline-shape en het JSON-Schema wint het schema-bestand
 **Output-locatie**: `data/programma/examen_vragen/_interpretaties/<examen_id>/<vraag_id>.json`
 **Spec-referentie**: ADR-024 §3
 **Model**: subagent (lokaal Claude Code) — Opus voor pilot. **Geen** `anthropic.Anthropic()`-call (CLAUDE.md regel 3).
@@ -33,7 +34,7 @@ Schrijf met `Path.write_text(json.dumps(record, ensure_ascii=False, indent=2), e
 
 ```json
 {
-  "schema_versie": "1.1",
+  "schema_versie": "1.2",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr10",
   "interpretatie_datum": "2026-05-21T12:34:56Z",
@@ -41,6 +42,7 @@ Schrijf met `Path.write_text(json.dumps(record, ensure_ascii=False, indent=2), e
 
   "vraag_herkomst": "officieel | herinnering | hybride",
   "vraag_onderwerp": "Analyse en kritische beoordeling van de jaarrekening",
+  "programmaonderdeel_ids": ["1.3"],
   "themas": ["financiële onafhankelijkheid", "balansrubrieken", "afschrijvingen"],
 
   "context_blokken": [
@@ -219,7 +221,7 @@ Default = `officieel`. `herinnering` alleen bij duidelijke indicatoren. `hybride
 
 ## 8. Verificatie vóór afsluiten
 
-- Alle verplichte top-velden: `schema_versie`, `examen_id`, `vraag_id`, `interpretatie_datum`, `vraag_herkomst`, `vraag_onderwerp`, `themas`, `context_blokken`, `vragen`, `herinterpretatie_motivering`, `kwaliteits_flags`.
+- Alle verplichte top-velden: `schema_versie`, `examen_id`, `vraag_id`, `interpretatie_datum`, `vraag_herkomst`, `vraag_onderwerp`, `programmaonderdeel_ids`, `themas`, `context_blokken`, `vragen`, `herinterpretatie_motivering`, `kwaliteits_flags`. (`programmaonderdeel_ids`: 1–2 PO-codes; mag door classificatie-pass worden ingevuld, maar moet aanwezig zijn voor het artefact het schema passeert.)
 - `vragen[]` is niet leeg.
 - Elke deelvraag heeft `id`, `vraagtype`, `motivatie_verwacht`, `volledigheid`.
 - Bij `vraagtype: mc_keuze`: `opties[]` aanwezig met ≥ 2 entries.

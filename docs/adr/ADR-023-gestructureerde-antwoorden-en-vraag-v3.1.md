@@ -1,6 +1,6 @@
 # ADR-023: Gestructureerde antwoorden (`correct_antwoord_blokken[]`) + vraag-cleanup v3.1/v3.2
 
-**Status**: Draft (v1.1 — 2026-05-20)
+**Status**: Draft (v1.1 — 2026-05-20) · Deels superseded door ADR-024 (per-vraag artefact-architectuur). Verwijzingen naar `tools/examen/render_alle_vragen.py` en `content/voorbeeldexamens/alle-vragen.md` zijn historisch — beide bestanden zijn verwijderd op 2026-05-26 (per-examen render onder ADR-024 is canoniek geworden).
 **Datum**: 2026-05-20
 **Pilot-scope**: alle 7 voorbeeldexamen-bestanden — 253 vragen, 99 + 13 = 112 modelantwoorden, 49+ subvragen die nog op modelantwoord wachten.
 

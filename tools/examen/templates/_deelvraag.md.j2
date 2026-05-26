@@ -20,7 +20,7 @@
    Alternatieven: genummerd, inline, andere brackets #}
 {% if vraagtype == "mc_keuze" and opties %}
 {% for optie in opties %}
-- **{{ optie.id }})** {{ optie.tekst }}
+- **{{ optie.id }}** {{ optie.tekst }}
 {% endfor %}
 
 {% endif %}

@@ -1,0 +1,11 @@
+{
+  "bbox_hint": null,
+  "examen_id": "2024-1",
+  "karakter": "herinnering, enkelvoudige open vraag (vak 1 vraag A na ADR-031)",
+  "pagina_nummers": [
+    1
+  ],
+  "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+  "rationale": "herinnering-flow basis-case na vak-blok-splitsing (ADR-031). Was 2024-1-vr1 vóór parser-fix.",
+  "vraag_id": "2024-1-vr1A"
+}

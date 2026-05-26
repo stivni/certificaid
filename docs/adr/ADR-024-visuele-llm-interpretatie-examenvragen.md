@@ -49,6 +49,8 @@ Drie consequenties:
 
 ### 2. Vraag-isolatie (deterministisch, geen LLM)
 
+> **Update 2026-05-26**: Voor herinnering-stijl PDFs (zoals 2024-1) bleek de upstream regex-parser (`parse_2024_1`) vak-blokken te interpreteren als hoofdvragen — 11 vakken werden zo 11 "vragen", terwijl er 49 echte hoofdvragen in de PDF stonden. Fix: woord-bbox-indent-detectie. Zie **[ADR-031](ADR-031-herinnering-pdf-vraag-isolatie-bbox-indent.md)** voor de beslissing + implementatieplan.
+
 Per examen-PDF wordt elke vraag in twee vormen geïsoleerd:
 
 **Tekst-segment** (`tekst.txt`)
@@ -64,7 +66,9 @@ PNGs **niet in git** standaard (gitignore `_segmenten/**/*.png`); regenereerbaar
 
 ### 3. Vraag-interpretatie-schema v1.2 (LLM, lokaal subagent)
 
-Permanent artefact: `prompts/vraag-interpretatie-v1.md` (v1.1 schema-shape, 2026-05-21 — POC-feedback verwerkt). Schema-bump v1.1 → v1.2 (2026-05-21) is additief: één nieuw veld `programmaonderdeel_ids: [string]` (1, max 2 PO-codes) op interpretatie-niveau, ingevuld via aparte classificatie-pass (`docs/adr/archive/po-classificatie-v1.md` — gearchiveerd, historisch).
+**Canonieke spec**: [`data/programma/examen_vragen/interpretatie-1.2.schema.json`](../../data/programma/examen_vragen/interpretatie-1.2.schema.json) — JSON-Schema (draft 2020-12), bron-van-waarheid voor agent, renderer, validator en [`tests/test_interpretatie_schema.py`](../../tests/test_interpretatie_schema.py). De inline JSON-shape in deze sectie is een illustratie; bij conflict wint het schema-bestand.
+
+Permanent prompt-artefact: `prompts/vraag-interpretatie-v1.md`. Schema-bump v1.1 → v1.2 (2026-05-21) is additief: één nieuw veld `programmaonderdeel_ids: [string]` (1, max 2 PO-codes) op interpretatie-niveau, ingevuld via aparte classificatie-pass (`docs/adr/archive/po-classificatie-v1.md` — gearchiveerd, historisch).
 
 **Conceptueel model**:
 - Top-niveau is **één PDF-vraag-eenheid** (zoals "Vraag 3 / 8 punten" — wat ITAA waardeert). Houdt `vraag_id`.

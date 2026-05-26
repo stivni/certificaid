@@ -1,0 +1,11 @@
+{
+  "bbox_hint": null,
+  "examen_id": "2024-1",
+  "karakter": "herinnering, topic_only stellingen-set",
+  "pagina_nummers": [
+    5
+  ],
+  "pdf_bestand": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
+  "rationale": "topic_only pad voor fragment zonder bewaarde stellingen (financiële onafhankelijkheid). Was 2024-1-vr10 sub-A vóór ADR-031.",
+  "vraag_id": "2024-1-vr10A"
+}

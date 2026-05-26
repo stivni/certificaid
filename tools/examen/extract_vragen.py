@@ -491,74 +491,156 @@ def parse_standaard_examen(pages: list[str], examen_id: str) -> list[dict]:
     return alle_vragen
 
 
-def parse_2024_1(pages: list[str]) -> list[dict]:
-    vragen = []
+# 2024-1 vak-mapping: vak_nr → (PO-code, vak-naam).
+# Vakken zijn PO-categorisaties; elk vak bevat meerdere zelfstandige hoofdvragen
+# (A/B/C/D/E). Zie ADR-031 voor de scope-beslissing.
+_PARSE_2024_1_VAK_MAPPING: dict[str, tuple[str, str]] = {
+    "1":  ("3.1",                   "Vennootschapsrecht"),
+    "2":  ("1.3 Externe controle",  "Externe controle / accountantsonderzoek"),
+    "3":  ("1.3 Interne controle",  "Interne controle"),
+    "4":  ("3.2",                   "Bijzondere mandaten — ontbinding/omzetting"),
+    "5":  ("2.1",                   "Personenbelasting"),
+    "6":  ("4.0",                   "Deontologie en AWW"),
+    "7":  ("1.1/IFRS",              "Wetgeving jaarrekening + IFRS"),
+    "8":  ("2.2",                   "Vennootschapsbelasting"),
+    "9":  ("2.7",                   "Fiscale procedure"),
+    "10": ("1.2",                   "Analyse en kritische beoordeling jaarrekening"),
+    "11": ("2.3",                   "BTW"),
+}
+
+# Drempel voor woord-x0-coordinaat (PDF-punten). Top-letter-koppen staan op
+# x0 ≈ 72pt; sub-stellingen op x0 ≈ 90pt. Empirisch gevalideerd op alle 6
+# pagina's van 2024-1 (49/49 top-vragen correct, 0 fouten). Zie ADR-031 §1.
+_PARSE_2024_1_TOP_X_MAX: float = 80.0
+
+# Pattern: één hoofdletter gevolgd door een punt (bv. "A.", "B."). Wordt
+# gecombineerd met x0-drempel om top-letters van sub-stellingen te scheiden.
+_LETTER_KOP_PAT = re.compile(r"^[A-Z]\.$")
+
+
+def parse_2024_1(pdf_pad: Path) -> list[dict]:
+    """Parser voor de 2024-1 herinnering-PDF (vak-blok + letter-vraag structuur).
+
+    ADR-031 §1: top-letter-vragen worden gedetecteerd via woord-bbox x0-indent
+    (top-letters x0 ≤ _PARSE_2024_1_TOP_X_MAX, sub-stellingen daarboven).
+    Tekst-regex alleen zou niet onderscheiden tussen een top-vraag "A. Onder
+    IAS/IFRS ..." en een sub-stelling "A. Fifo, Lifo, ..." binnen een
+    juist/fout-set.
+
+    Vak-koppen ("1 Vennootschapsrecht", "7 IFRS", ...) worden via flat-text
+    regex gevonden en daarna naar woord-positie geprojecteerd.
+
+    ID-conventie: {examen_id}-vr{vak_nr}{letter}, bv. "2024-1-vr7A".
+    vraag_nr = samengestelde string ("7A").
+
+    Args:
+        pdf_pad: pad naar de 2024-1 PDF.
+
+    Returns:
+        Lijst van vraag-dicts in dezelfde shape als parse_standaard_examen
+        (id, vraag_nr, vak_code_in_pdf, vraagtekst, themas, ...). 49 vragen
+        verwacht (4-5 per vak × 11 vakken).
+    """
     examen_id = "2024-1"
 
-    vraag_vak_mapping = {
-        "1":  ("3.1",                   "Vennootschapsrecht"),
-        "2":  ("1.3 Externe controle",  "Externe controle / accountantsonderzoek"),
-        "3":  ("1.3 Interne controle",  "Interne controle"),
-        "4":  ("3.2",                   "Bijzondere mandaten — ontbinding/omzetting"),
-        "5":  ("2.1",                   "Personenbelasting"),
-        "6":  ("4.0",                   "Deontologie en AWW"),
-        "7":  ("1.1/IFRS",              "Wetgeving jaarrekening + IFRS"),
-        "8":  ("2.2",                   "Vennootschapsbelasting"),
-        "9":  ("2.7",                   "Fiscale procedure"),
-        "10": ("1.2",                   "Analyse en kritische beoordeling jaarrekening"),
-        "11": ("2.3",                   "BTW"),
-    }
+    with pdfplumber.open(pdf_pad) as pdf:
+        pages_text = [p.extract_text() or "" for p in pdf.pages]
+        pages_words = [p.extract_words() for p in pdf.pages]
 
-    volledige_tekst = strip_studocu("\n".join(pages))
+    # Flat lijst van alle woorden met pagina-info, in reading-order.
+    # extract_words() sorteert al op (top, x0) binnen een pagina.
+    alle_woorden: list[tuple[int, dict]] = []
+    for pi, words in enumerate(pages_words):
+        for w in words:
+            alle_woorden.append((pi, w))
 
-    # 2024-1: Hoofdvragen "1 Vennootschapsrecht", "2 Externe controle" etc.
-    patroon = re.compile(r"(?:^|\n)(\d{1,2})\s+([A-Z][^\n]+)", re.MULTILINE)
-    matches = list(patroon.finditer(volledige_tekst))
+    # Vak-koppen detect via flat-text regex (zoals voorheen — werkt).
+    volledige_tekst = strip_studocu("\n".join(pages_text))
+    vak_pat = re.compile(r"(?:^|\n)(\d{1,2})\s+([A-Z][^\n]+)", re.MULTILINE)
+    vak_text_matches = list(vak_pat.finditer(volledige_tekst))
 
-    vr_counter = 0
-    for i, m in enumerate(matches):
-        nr = m.group(1)
-        if nr not in vraag_vak_mapping:
+    # Voor elke vak-kop: lokaliseer het corresponderende vak-kop-woord in
+    # alle_woorden. Een vak-kop is een nummer-woord gevolgd (binnen 5 woorden)
+    # door het eerste woord van de vak-titel.
+    vak_woord_markers: list[tuple[int, str]] = []  # (woord_idx, vak_nr)
+    laatst_gebruikt = -1
+    for vm in vak_text_matches:
+        nr = vm.group(1)
+        if nr not in _PARSE_2024_1_VAK_MAPPING:
             continue
-        vak_code, vak_naam = vraag_vak_mapping[nr]
-        start = m.start()
-        eind = matches[i + 1].start() if i + 1 < len(matches) else len(volledige_tekst)
-        blok = volledige_tekst[start:eind].strip()
-
-        pdf_pagina = 1
-        for pag_nr, p in enumerate(pages, start=1):
-            if re.search(rf"^{re.escape(nr)}\s+[A-Z]", p, re.MULTILINE):
-                pdf_pagina = pag_nr
+        titel_eerste = vm.group(2).strip().split()[0][:6]
+        for idx in range(laatst_gebruikt + 1, len(alle_woorden)):
+            _, w = alle_woorden[idx]
+            if w["text"] != nr:
+                continue
+            volgende = [
+                alle_woorden[j][1]["text"]
+                for j in range(idx + 1, min(idx + 6, len(alle_woorden)))
+            ]
+            if any(t.startswith(titel_eerste) for t in volgende):
+                vak_woord_markers.append((idx, nr))
+                laatst_gebruikt = idx
                 break
 
-        opties = parse_opties(blok)
-        subvragen = parse_subvragen(blok)
-        vraagtype = detect_vraagtype(blok, opties)
-        themas = extract_themas(blok)
-        wets_refs = extract_wetsrefs(blok)
+    # Per vak: vind top-letter-vragen via bbox-indent en bouw vraag-records.
+    vragen: list[dict] = []
+    for vk_i, (vak_idx, nr) in enumerate(vak_woord_markers):
+        vak_code, vak_naam = _PARSE_2024_1_VAK_MAPPING[nr]
+        vak_eind_idx = (
+            vak_woord_markers[vk_i + 1][0]
+            if vk_i + 1 < len(vak_woord_markers)
+            else len(alle_woorden)
+        )
 
-        vr_counter += 1
-        norm_vraagtekst = normaliseer_vraagtekst(blok[:2000])
-        vraag: dict = {
-            "id": f"{examen_id}-vr{vr_counter}",
-            "vraag_nr": nr,
-            "punten": None,
-            "pdf_pagina": pdf_pagina,
-            "vak_code_in_pdf": vak_code,
-            "vak_naam_in_pdf": vak_naam,
-            "vraagtype": vraagtype,
-            "vraagtekst": norm_vraagtekst,
-            "sub_vragen": splits_in_sub_vragen(norm_vraagtekst),
-            "correct_antwoord": None,
-            "antwoord_motivering": None,
-            "themas": themas,
-            "wets_verwijzingen": wets_refs,
-        }
-        if opties:
-            vraag["opties"] = opties
-        if subvragen:
-            vraag["subvragen"] = subvragen
-        vragen.append(vraag)
+        # Top-letter-posities (woorden matchend "X." met x0 ≤ drempel).
+        top_pos: list[int] = []
+        for idx in range(vak_idx + 1, vak_eind_idx):
+            _, w = alle_woorden[idx]
+            if _LETTER_KOP_PAT.match(w["text"]) and w["x0"] <= _PARSE_2024_1_TOP_X_MAX:
+                top_pos.append(idx)
+
+        for tl_i, tl_idx in enumerate(top_pos):
+            _, tl_word = alle_woorden[tl_idx]
+            letter = tl_word["text"][0]
+            blok_eind = top_pos[tl_i + 1] if tl_i + 1 < len(top_pos) else vak_eind_idx
+
+            # Reconstrueer tekst (skip de top-letter-marker zelf, tl_idx+1).
+            tekst_woorden = [
+                alle_woorden[i][1]["text"]
+                for i in range(tl_idx + 1, blok_eind)
+            ]
+            blok_tekst = normaliseer_vraagtekst(" ".join(tekst_woorden))[:2000]
+
+            pdf_pagina = alle_woorden[tl_idx][0] + 1  # 1-indexed
+            opties = parse_opties(blok_tekst)
+            subvragen = parse_subvragen(blok_tekst)
+            vraagtype = detect_vraagtype(blok_tekst, opties)
+            themas = extract_themas(blok_tekst)
+            wets_refs = extract_wetsrefs(blok_tekst)
+
+            vraag: dict = {
+                "id": f"{examen_id}-vr{nr}{letter}",
+                "vraag_nr": f"{nr}{letter}",
+                "punten": None,
+                "pdf_pagina": pdf_pagina,
+                "vak_code_in_pdf": vak_code,
+                "vak_naam_in_pdf": vak_naam,
+                "vraagtype": vraagtype,
+                "vraagtekst": blok_tekst,
+                # sub_vragen blijft leeg: juist_fout-stellingen-sets worden door
+                # de interpretatie-laag opgesplitst (ADR-024 §3 prompt §3
+                # vraagtype-tabel). Geen dubbele structurering hier.
+                "sub_vragen": [],
+                "correct_antwoord": None,
+                "antwoord_motivering": None,
+                "themas": themas,
+                "wets_verwijzingen": wets_refs,
+            }
+            if opties:
+                vraag["opties"] = opties
+            if subvragen:
+                vraag["subvragen"] = subvragen
+            vragen.append(vraag)
 
     return vragen
 
@@ -573,7 +655,7 @@ def run_extractie():
         pages, n_pages = extract_pdf_pages(pdf_path)
 
         if examen_id == "2024-1":
-            vragen = parse_2024_1(pages)
+            vragen = parse_2024_1(pdf_path)
         else:
             vragen = parse_standaard_examen(pages, examen_id)
 

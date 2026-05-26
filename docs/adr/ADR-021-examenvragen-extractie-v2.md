@@ -236,4 +236,4 @@ Nieuwe `tools/examen/validate_examen_v2.py`:
 
   Nieuwe artefacten: `tools/examen/extract_vragen_v3.py`, `tools/examen/migrate_to_v3.py`, `tools/examen/validate_examen_v3.py`, `tests/test_extract_vragen_v3.py`, `tests/test_examen_v3_schema.py`, `tests/test_migrate_to_v3.py`.
 
-  Consumers: `tools/examen/render_alle_vragen.py` rendert per blok-type (markdown-tabel voor `proef_saldibalans` etc., quote-blok voor `casus_context`, bold-paragraph voor `vraag_instructie`). `tools/examen/normalize_vraagteksten.py` verwacht drastische daling van `broken_table` / `loose_caps` flags omdat structuur niet meer in platte tekst zit.
+  Consumers: per-examen renderer `tools/examen/render_merged_v4.py` rendert per blok-type (markdown-tabel voor `proef_saldibalans` etc., quote-blok voor `casus_context`, bold-paragraph voor `vraag_instructie`). `tools/examen/normalize_vraagteksten.py` verwacht drastische daling van `broken_table` / `loose_caps` flags omdat structuur niet meer in platte tekst zit. *(Update 2026-05-26: vroegere `tools/examen/render_alle_vragen.py` + `content/voorbeeldexamens/alle-vragen.md` zijn verwijderd; per-examen render onder ADR-024 is canoniek.)*
