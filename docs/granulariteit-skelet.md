@@ -143,6 +143,17 @@ controle-opdracht                        [sub-Kader `controle`, 7 records — PO
 ├── audit-afronding                      [K-techniek]      ▸ subsequent events ▸ misstatements ▸ analytical review ▸ communicatie governance + management letter
 └── controleverklaring                   [E-instr, Σ]      4 oordelen (zonder voorbehoud · met voorbehoud · afkeurend · onthouding) ▸ verslag-componenten ▸ KAM ▸ andere-verslagstypes
 
+ondernemingsvormen                       [thema-cluster vennootschapsrecht, 9 records — PO 3.0.I + taak.1]
+├── ondernemingsvormen                   [E-bundel + Σ]    overzicht + vergelijkingsmatrix + WVV-systematiek + fiscale-keuze (perspectief)
+├── besloten-vennootschap                [E-instrument]    (BV/BVBA/SRL) — default WVV-vorm sinds 2019; flexibel statutair
+├── naamloze-vennootschap                [E-instrument]    (NV/SA) — beursgenoteerd-vriendelijk; rigide bestuur
+├── cooperatieve-vennootschap            [E-instrument]    (CV/SC) — coöperatief-doel; uittredingsregime
+├── vennootschap-onder-firma             [E-instrument]    (VOF/SNC) — volle aansprakelijkheid alle vennoten
+├── commanditaire-vennootschap           [E-instrument]    (CommV/SComm) — gecommanditeerden + commandités
+├── maatschap                            [E-instrument]    geen rechtspersoonlijkheid; fiscaal-transparant
+├── vereniging-zonder-winstoogmerk       [E-instrument]    (VZW/ASBL) — zonder winstoogmerk; WVV boek 9-11
+└── vennootschap-groottecategorieen      [E + R]           drempels art 1:24-1:27 WVV + cascade van gevolgen
+
 interne-controle                         [sub-Kader `controle`, 7 records + 3 shared — PO 1.7]
 ├── interne-controle                     [K-techniek]      ▸ definitie ▸ 4 doelstellingen ▸ dubbele dimensie ▸ 3 lines of defense ▸ referentiekaders ▸ afbakening
 ├── ontwerp-interne-controle             [K-techniek]      proces-mapping → risico-identificatie → controle-selectie → documentatie → uitrol
@@ -170,11 +181,10 @@ Shared records (thema's `controle-opdracht` + `interne-controle`)
 | overdracht-onderneming | 2 | PO 3.0 (WVV) · PO 2.3 (VenB) · PO 2.7 (BTW) | [§Overdracht-onderneming-cluster](#overdracht-onderneming-cluster) |
 | schuldfinanciering | 4 | PO 1.1 (boekhouding) · PO 3.0 (WVV-obligaties) · PO 2.3 (VenB-interest) | [§Schuldfinanciering-cluster](#schuldfinanciering-cluster) |
 | controle-opdracht | 7 | PO 1.6 | [§Controle-opdracht-cluster](#controle-opdracht-cluster) |
-| **interne-controle** | **7 + 3 shared** | **PO 1.7** | [**§Interne-controle-cluster**](#interne-controle-cluster) |
+| interne-controle | 7 + 3 shared | PO 1.7 | [§Interne-controle-cluster](#interne-controle-cluster) |
+| **ondernemingsvormen** | **9** | **PO 3.0.I + taak.1 + cross PO 1.1 + 2.3** | [**§Ondernemingsvormen-cluster**](#ondernemingsvormen-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
-
-Cross-cutting flags (records met cluster-thuis nog te bepalen): `vennootschap-groottecategorieen` ([§flag](#vennootschap-groottecategorieen-cross-cutting-flag)).
 
 **Shared records** (leven met meerdere thema's, zichtbaar in meerdere clusters):
 - `coso-framework` [K-techniek] — thema's: `controle-opdracht` + `interne-controle` (audit-perspectief = ISA 315 controle-risico-inschatting; advies-perspectief = IC-design KMO)
@@ -357,30 +367,6 @@ Voorbeelden:
 ### vennootschapsbelasting (sub-discipline onder fiscaliteit)
 
 Te ontwikkelen. Vertrekpunt: PO 2.3 (21 anchors in `data/programma/anchors.json`) + bestaande VenB-records + pilot-rapport (`granulariteit-pilot-venb-draft.md`).
-
-### Vennootschap-groottecategorieen (cross-cutting flag)
-
-*Cross-cutting Entiteit+Regeling-hybride record. Identificatie + eerste contour vastgelegd 2026-05-26 bij `controle-opdracht`-cluster-sparring (vervangt geschrapte `wettelijke-controle-jaarrekening`). Primair thema-cluster: **OP-EC.7** — open beslissing.*
-
-**`vennootschap-groottecategorieen`** [E + R, hybride]
-- inhoud: 4 grootte-categorieën onder WVV — **micro** · **klein** · **middelgroot** · **groot** — gedefinieerd door drempels balans/omzet/personeel (art 1:24-1:27 WVV ⚠️) met 2-jaar-overschrijdings-regel; bij groepen op geconsolideerd niveau. Eén fenomeen met **cascade van gevolgen**:
-    - `#jaarrekening-schema` — micro/verkort/volledig (boekhouding-perspectief)
-    - `#commissaris-verplicht` — vanaf middelgroot (audit-perspectief; trigger voor wettelijke controle)
-    - `#consolidatieplicht` — groot-criterium op groepsbasis (boekhouding-perspectief)
-    - `#publicatieformaliteiten` — verkort vs volledig neerleggen (boekhouding-perspectief)
-    - `#kmo-controlenorm-toepasselijkheid` — voor controle/beoordeling KMO's vs algemene controlenorm (audit-perspectief)
-    - `#fiscaal-kmo-flag` ⚠️ — fiscale KMO-criteria (art 1:24-1:25 WIB) zijn **niet identiek** met WVV-criteria; aparte sectie of cross-link naar relevante fiscale records (kmo-tarief-vennootschapsbelasting)
-- perspectieven: `boekhouding` (schema-keuze, publicatie, consolidatie) · `audit` (commissaris-trigger, KMO-norm-toepasselijkheid) · `advies` (drempel-management, groei-overweging, structurering)
-- naam_officieel: vennootschapsgrootte-categorieën (art 1:24-1:27 WVV) · synoniemen: KMO-criteria, grootte-criteria vennootschap, art 1:24 WVV-drempels, klein vs middelgroot vs groot
-- relaties: `jaarrekening`, `commissaris` (audit-cluster), `controleopdracht`, `opdracht-types` (controle vs beoordeling KMO-context), `consolidatie` (⏳), `kmo-tarief-vennootschapsbelasting` (cross fiscaal — aparte criteria-set)
-- bron-pin: WVV art 1:24-1:27 + (cross-flag) WIB art 1:24-1:25 voor fiscaal-KMO
-
-**Open punt OP-EC.7**: thema-cluster-positionering. Kandidaten:
-- (a) eigen kandidaat-cluster `vennootschap-typologie` (samen met `ondernemingsvormen` E-bundel + `financieel-plan` E)
-- (b) opnemen in `kapitaalstructuur`-cluster (drempels raken balans+kapitaal; samenhang met oprichting+kapitaalverhoging)
-- (c) cross-cutting zonder primair-thema (zuiver via `accountant_perspectieven[]` + `relaties[]`)
-
-Beslissing volgt bij volgende thema-cluster-sparring waar dit fundament aan bod komt (waarschijnlijk bij PO 1.1 boekhouding-cluster of bij `ondernemingsvormen`-uitwerking).
 
 ### Overdracht-onderneming-cluster
 
@@ -743,6 +729,139 @@ kapitaalstructuur
 - 4 records toegevoegd na triangulatie: `inkoop-eigen-aandelen` (bestaand, PO 3.0.IV.C), `algemene-vergadering` (bestaand, PO 3.0.III), `aandeelhoudersovereenkomsten` (nieuw, PO 3.0.VI), `kapitaalbescherming` (herpositionering bestaand)
 - 3 verschoven naar andere clusters: `obligatielening` → schuldfinanciering · `overdracht-onderneming` → eigen cluster · `tussentijdse-dividenden` → winstuitkering
 - 2 absorbed: `oprichtingskosten` → sub-sectie van `oprichting-vennootschap` · `inbreng-onroerend` → sub-sectie van `kapitaalverhoging-in-natura`
+
+**Mapping-actie 2026-05-26**: `oprichting-vennootschap` krijgt nieuwe sub-sectie `#initiele-inbreng` — modaliteiten (geld/natura) · revisorverslag bij natura · min-storting bij authentieke akte (BV/NV) · volstortings-eisen · cross-relatie naar `kapitaalverhoging-in-natura` (analoge mechaniek). Beslissing genomen bij ondernemingsvormen-cluster-sparring: initiële inbreng = sub-aspect van oprichting (gelijktijdig + geen aparte gebeurtenis), niet aparte Gebeurtenis-record.
+
+### Ondernemingsvormen-cluster
+
+Thema: `ondernemingsvormen`. *Thema-cluster onder `vennootschapsrecht`-discipline. Eerste cluster uit PO 3.0-werk (2026-05-26). Lost gelijktijdig OP-EC.7 op (vennootschap-groottecategorieen krijgt thuis hier) en absorbeert bestaand kader-record vennootschapsrechtelijk-kader-wvv + bestaand kader-record keuze-rechtsvorm-fiscaal (= perspectief, geen apart record).*
+
+```
+ondernemingsvormen                            [thema-cluster vennootschapsrecht]
+├── ondernemingsvormen                        [E-bundel + Σ, hoofdrecord]
+│   ▸ overzicht WVV-vormen + niet-WVV-vormen
+│   ▸ vergelijkingsmatrix: kapitaal · aansprakelijkheid · beheer · winstdeling · fiscale-aanknoping
+│   ▸ wanneer welke vorm? (3.0.I.C)
+│   ▸ #wvv-systematiek (absorbeert `vennootschapsrechtelijk-kader-wvv`: WVV boek 1-7 + boek 9-11 vzw)
+│   ▸ #fiscale-keuze (absorbeert `keuze-rechtsvorm-fiscaal`: eenmanszaak/PB vs vennootschap/VenB, KMO-tarief, afschrijvingsregimes)
+├── besloten-vennootschap                     [E-instrument]   (BV) — default WVV-vorm sinds 2019; flexibel statutair
+├── naamloze-vennootschap                     [E-instrument]   (NV) — beursgenoteerd-vriendelijk; rigide bestuur
+├── cooperatieve-vennootschap                 [E-instrument]   (CV) — coöperatief-doel; uittredingsregime
+├── vennootschap-onder-firma                  [E-instrument]   (VOF) — volle aansprakelijkheid alle vennoten
+├── commanditaire-vennootschap                [E-instrument]   (CommV) — 2 vennoten-typen
+├── maatschap                                 [E-instrument]   geen rechtspersoonlijkheid; fiscaal-transparant
+├── vereniging-zonder-winstoogmerk            [E-instrument]   (VZW) — zonder winstoogmerk; WVV boek 9-11
+└── vennootschap-groottecategorieen           [E + R]          drempels art 1:24-1:27 WVV + cascade van gevolgen
+```
+
+**Schrappen als zelfstandig record / herleiden tot sub-sectie**:
+- `vennootschapsrechtelijk-kader-wvv` → sub-sectie `#wvv-systematiek` in `ondernemingsvormen` (overkoepelend WVV-kader heeft zelfstandig weinig waarde zonder vormen-context)
+- `keuze-rechtsvorm-fiscaal` → perspectief `advies` + `fiscaal-PB/VenB` op `ondernemingsvormen`-record (= twee perspectieven op zelfde fenomeen, geen aparte as)
+- `groottecategorie-vennootschap` → hernoemd `vennootschap-groottecategorieen` (meervoud = klopt; 4 categorieën: micro/klein/middelgroot/groot)
+- `bv-rechtsvorm` → hernoemd `besloten-vennootschap` (`-rechtsvorm`-suffix-smell weg)
+- `nv-rechtsvorm` → hernoemd `naamloze-vennootschap`
+- `cv-rechtsvorm` → hernoemd `cooperatieve-vennootschap`
+- `vof-commv-rechtsvorm` → **gesplitst** in `vennootschap-onder-firma` + `commanditaire-vennootschap` (2 verschillende fenomenen — VOF heeft alleen volle aansprakelijkheid, CommV heeft 2 vennoten-typen met verschillende aansprakelijkheid)
+- `maatschap-rechtsvorm` → hernoemd `maatschap`
+- `vzw-rechtsvorm` → hernoemd `vereniging-zonder-winstoogmerk`
+
+**Cross-cluster** (eigen plek elders, relaties hierheen):
+- `oprichting-vennootschap` [G+R] — blijft in `kapitaalstructuur`-cluster (oprichting = kapitaal-relevant moment + initiële vermogenscomponent; vorm-keuze precedeert). Cross-relatie hierheen + nieuwe sub-sectie `#initiele-inbreng` (zie mapping-actie hierboven).
+- `aansprakelijkheid-oprichters-bestuurders` → toekomstig `bestuur-en-aansprakelijkheid`-cluster (PO 3.0.VII ⏳). Cross-relatie hier (vorm bepaalt aansprakelijkheidsregime).
+- `financieel-plan` [E, in kapitaalstructuur] — verplicht bij BV/NV/CV. Cross-relatie naar vorm-records.
+
+**Triangulatie-resultaten ondernemingsvormen** (2026-05-26):
+- ~13 PO 3.0.I + 3.0.taak.1-anchors → **0 PO-only gaps**
+- 11 bestaande records met relevante PO 3.0-anker → **9 cluster-eigen records** (1 Σ + 7 vormen + groottecategorieen) + 2 absorpties (vennootschapsrechtelijk-kader-wvv, keuze-rechtsvorm-fiscaal) + 1 split (vof-commv → 2)
+- 12 kandidaten in DB voor dit blok (alle `gerealiseerd: 0` voor de hernoemde — markering-backlog)
+- Belangrijkste smell-oplossing: `-rechtsvorm`-suffix als schema-artefact (analoog aan `-cluster`-smell uit PO 1.7); 6 records hernoemd
+
+**Bronnen-pin voor cluster**:
+- ✅ **WVV** (Wetboek Vennootschappen en Verenigingen, 2019) — primaire bron voor BV/NV/CV/VOF/CommV/maatschap + boek 9-11 VZW. ITAA-LEX bevat WVV — check `resources/bronnen/wetteksten/`.
+- ✅ `MvT-WVV-2018` (Memorie van Toelichting) — interpretatieve bron, untracked in resources
+- ⏳ ITAA-norm-omzetting-vennootschap (al trusted) — bij vorm-wissel; cross-relatie naar `omzetting-vennootschap`-record
+- ⏳ CBN-adviezen over jaarrekening-schema per vorm — voor `vennootschap-groottecategorieen` cascade
+
+**Details per record** (hints voor extractie):
+
+**`ondernemingsvormen`** [E-bundel + Σ]
+- inhoud: overkoepelend record voor de keuze + vergelijking van rechtsvormen. **Vergelijkingsmatrix** met 5 dimensies: (a) **kapitaal** — min-storting bij oprichting + statutaire vrijheid + soort effecten; (b) **aansprakelijkheid** — beperkt tot inbreng (BV/NV/CV) vs volle aansprakelijkheid (VOF) vs gemengd (CommV) vs natuurlijk persoon (maatschap); (c) **beheer** — wie bestuurt + welke organen + welke meerderheden; (d) **winstdeling** — vrij statutair (BV) vs evenredig aandeelhoudersschap (NV) vs coöperatief (CV); (e) **fiscale-aanknoping** — vennootschap (VenB) vs fiscaal-transparant (maatschap) vs eenmanszaak (PB). Sub-sectie `#wanneer-welke-vorm` (3.0.I.C): keuze-criteria voor stagiair (omvang + risico + vermogensplanning + bestuursvormen + fiscaal). Sub-sectie `#wvv-systematiek`: WVV-boekstructuur (boek 1 algemeen · 2-7 vennootschappen · 9-11 verenigingen) + relatie WVV ↔ vroegere wetboeken (W.Venn., wet 27 juni 1921 voor VZW). Sub-sectie `#fiscale-keuze`: vergelijking eenmanszaak/PB vs vennootschap/VenB (KMO-tarief 20% op eerste 100k mits bezoldigingsregel, anders 25%); afschrijvingsregimes; sociale bijdragen; uittredings-fiscaliteit; "wanneer kantelen?" criterium ⚠️.
+- perspectieven: `advies` (vorm-keuze + planning, omvorming-advies) · `fiscaal-VenB` (KMO-tarief-context per vorm) · `fiscaal-PB` (eenmanszaak vs vennootschap) · `boekhouding` (jaarrekening-schema afhankelijk van vorm + grootte)
+- naam_officieel: ondernemingsvormen / vennootschapsvormen · synoniemen: rechtsvormen, juridische ondernemingsvormen, business entity types, company forms
+- relaties: alle 7 vorm-records, `vennootschap-groottecategorieen` (cascade van gevolgen per vorm), `oprichting-vennootschap` (kapitaalstructuur — oprichtingsketen), `omzetting-vennootschap` (vorm-wissel), `aansprakelijkheid-oprichters-bestuurders` (vorm bepaalt regime)
+
+**`besloten-vennootschap`** [E-instrument] — *(was `bv-rechtsvorm`)*
+- inhoud: meest gebruikte vennootschapsvorm sinds WVV (2019). **Geen minimumkapitaal** meer (vóór 2019 was dit 18.550€ voor BVBA); **toereikend aanvangsvermogen** vereist (financieel-plan-toets). **Aandelen**: vrij overdraagbaar (kan statutair beperkt); geen nominale waarde verplicht. **Bestuur**: één of meerdere zaakvoerders (statutair vrij); college mogelijk; raad van bestuur niet verplicht (kan statutair); dagelijks bestuur facultatief. **AV**: gewone meerderheid voor standaardbeslissingen; bijzondere meerderheid (3/4) voor statutenwijziging. **Kapitaalbescherming strenger**: dubbele test (netto-actief-test + uitkeringstest, 12-maand-liquiditeits-prognose ⚠️). **Statutaire vrijheid**: één van WVV's grote vernieuwingen — veel zaken zijn aanvullend recht. **Alarmbel**: aangepast aan kapitaal-loos systeem (netto-actief-criterium).
+- perspectieven: `vennootschapsrecht`-inhoud (statuten + bestuur + AV-procedures) · `boekhouding` (jaarrekening-schema volgens grootte) · `fiscaal-VenB` (KMO-tarief mits voorwaarden) · `advies` (vorm-keuze + statutair maatwerk)
+- naam_officieel: besloten vennootschap · synoniemen: BV, BVBA (pre-WVV), besloten venootschap met beperkte aansprakelijkheid (BVBA), SRL (Frans: société à responsabilité limitée), private limited company
+- relaties: `ondernemingsvormen` (parent-Σ), `oprichting-vennootschap`, `kapitaalstructuur` (eigen-vermogen, kapitaalverhoging), `kapitaalbescherming`, `alarmbel-procedure`, `financieel-plan`, `vennootschap-groottecategorieen`
+
+**`naamloze-vennootschap`** [E-instrument] — *(was `nv-rechtsvorm`)*
+- inhoud: traditioneel "grote vennootschap"-vorm; **min-kapitaal 61.500€** ⚠️ blijft (anders dan BV); **min-storting 25% bij oprichting** (volstortingsplicht voor rest). **Aandelen**: vrij overdraagbaar (kan statutair beperkt, bv. goedkeuringsclausule); nominale waarde of fractiewaarde; effecten aan toonder uitgedoofd, alleen op naam of gedematerialiseerd. **Bestuur**: 3 modaliteiten — (a) raad van bestuur (min 3 leden, of 2 indien max 2 aandeelhouders); (b) enige bestuurder; (c) duaal bestuur (raad van toezicht + directieraad — eerder uitzonderlijk). **AV**: aanwezigheids-quorum + meerderheidsregels per type beslissing. **Beursgenoteerd-vriendelijk**: emissieprospectus-regime, KAM, externe audit verplicht. Rigider dan BV qua statutaire vrijheid.
+- perspectieven: `vennootschapsrecht`-inhoud · `boekhouding` (jaarrekening verplicht volledig schema bij beursgenoteerd) · `fiscaal-VenB` · `audit` (commissaris-verplicht boven grootte-drempels, soms statutair eerder)
+- naam_officieel: naamloze vennootschap · synoniemen: NV, SA (Frans: société anonyme), public limited company, joint-stock company
+- relaties: `ondernemingsvormen`, `oprichting-vennootschap`, `kapitaalstructuur` (kapitaal-mechanismen), `commissaris` (beroepsbeoefening — vaak verplicht), `kapitaalbescherming`
+
+**`cooperatieve-vennootschap`** [E-instrument] — *(was `cv-rechtsvorm`)*
+- inhoud: **coöperatief-doel verplicht** sinds WVV (2019) — bevrediging van behoeften van vennoten (consumeren, produceren, financieren samen) ⚠️ ; loutere belegging in CV is uitgesloten. **Variabel kapitaal**: vennoten kunnen toetreden + uittreden zonder statutenwijziging; gevolg is variabele samenstelling. **Erkende coöperatie**: optioneel statuut met fiscale voordelen (vrijstelling van interest tot bedrag op spaarboekjes-niveau ⚠️). **Bestuur**: één of meerdere bestuurders. **Uittreding**: vennoot heeft uittredingsrecht (statutair geregeld) — vertrek met scheidingsaandeel.
+- perspectieven: `vennootschapsrecht`-inhoud · `fiscaal-VenB` (erkende-CV-regime) · `advies` (geschikt voor coöperatie-projecten, niet voor klassieke onderneming)
+- naam_officieel: coöperatieve vennootschap · synoniemen: CV, SC (Frans: société coopérative), cooperative society
+- relaties: `ondernemingsvormen`, `oprichting-vennootschap`
+
+**`vennootschap-onder-firma`** [E-instrument] — *(was `vof-commv-rechtsvorm`, gesplitst — OP-VOV.F)*
+- inhoud: **personenvennootschap met rechtspersoonlijkheid**. **Volle, onbeperkte en hoofdelijke aansprakelijkheid** van alle vennoten voor schulden van de vennootschap ⚠️ — verschilt fundamenteel met BV/NV. **Geen minimumkapitaal**. **Bestuur**: vennoten zijn van rechtswege bestuurder tenzij statutair anders. **Beslissingen**: bij eenparigheid tenzij statutair anders. Wordt gebruikt bij kleine ondernemingen + vrije beroepen + family business waar vertrouwen tussen partijen hoog is.
+- perspectieven: `vennootschapsrecht`-inhoud · `fiscaal-VenB` · `advies` (afgeraden bij significant risico — volle aansprakelijkheid)
+- naam_officieel: vennootschap onder firma · synoniemen: VOF, SNC (Frans: société en nom collectif), general partnership
+- relaties: `ondernemingsvormen`, `commanditaire-vennootschap` (verwante vorm), `aansprakelijkheid-oprichters-bestuurders`
+
+**`commanditaire-vennootschap`** [E-instrument] — *(was `vof-commv-rechtsvorm`, gesplitst — OP-VOV.F)*
+- inhoud: **personenvennootschap met 2 typen vennoten** — (a) **gecommanditeerden** (beherende vennoten): volle aansprakelijkheid + besturen actief; (b) **commandités** (stille vennoten): aansprakelijkheid beperkt tot inbreng + mogen niet besturen ⚠️ (verboden om risico stille-vennoot-statuut te verliezen). Geen minimumkapitaal. Gebruikt bij familie-vermogensplanning (oudere generatie als commandité, jongere als gecommanditeerde) of bij investeringsfondsen-structuren.
+- perspectieven: `vennootschapsrecht`-inhoud · `fiscaal-VenB` · `advies` (vermogensplanning + investeringsstructuren) · `fiscaal-PB` (cross — successie/schenking-impact)
+- naam_officieel: commanditaire vennootschap · synoniemen: CommV, SComm (Frans: société en commandite), limited partnership
+- relaties: `ondernemingsvormen`, `vennootschap-onder-firma` (verwante vorm), `aansprakelijkheid-oprichters-bestuurders`
+
+**`maatschap`** [E-instrument] — *(was `maatschap-rechtsvorm`)*
+- inhoud: **vennootschap zonder rechtspersoonlijkheid** ⚠️ — meest fundamentele afwijking. Geen RPR-inschrijving, geen jaarrekening-publicatieplicht. **Fiscaal-transparant**: geen VenB; inkomsten worden rechtstreeks belast bij vennoten (PB) volgens hun inbreng-aandeel. **Aansprakelijkheid**: vennoten persoonlijk aansprakelijk voor maatschappelijke verbintenissen (mate afhankelijk statuten). **Bestuur**: vennoten besturen samen tenzij statutair anders. **Populair bij vermogensplanning**: ouders brengen aandelen in maatschap, schenken delen aan kinderen (controle behouden via maatschapsstatuten). Sinds 2019 verplichte inschrijving in KBO + UBO-register (sinds 2019 wet AML).
+- perspectieven: `vennootschapsrecht`-inhoud · `fiscaal-PB` (transparant doorrekening) · `advies` (vermogensplanning + estate planning) · `beroep-en-deontologie` (UBO-register-discipline)
+- naam_officieel: maatschap · synoniemen: société simple (Frans), simple partnership, vennootschap van gemeen recht (oude term pre-WVV)
+- relaties: `ondernemingsvormen`, `aansprakelijkheid-oprichters-bestuurders` (vennoten persoonlijk), `erfrecht`/`huwelijksvermogensrecht` (vermogensplanning-context)
+
+**`vereniging-zonder-winstoogmerk`** [E-instrument] — *(was `vzw-rechtsvorm`)*
+- inhoud: rechtspersoon **zonder winstoogmerk** — winst mag bestaan maar mag niet uitgekeerd worden aan leden. WVV boek 9-11 (sinds 2019; vroeger eigen wet 27 juni 1921). **Bestuur**: algemene vergadering van leden + bestuursorgaan (min 3 bestuurders, of 2 indien max 3 leden). **Doelstelling**: niet-economische of belangeloze activiteit; "secundaire" economische activiteiten mogen mits ondergeschikt aan doel. **Aansprakelijkheid**: VZW heeft eigen rechtspersoonlijkheid, leden in principe niet persoonlijk aansprakelijk; bestuurders wel bij fout-aansprakelijkheid. **Jaarrekening**: vereenvoudigd of dubbel volgens grootte (eigen drempels art 3:47 WVV).
+- perspectieven: `vennootschapsrecht`-inhoud (WVV boek 9-11) · `boekhouding` (eigen schema vereenvoudigd vs dubbel) · `fiscaal-VenB` (rechtspersonenbelasting RPB tenzij commerciële activiteit, dan VenB) · `advies` (vorm voor non-profit, sport, cultuur, beroepsfederaties)
+- naam_officieel: vereniging zonder winstoogmerk · synoniemen: VZW, ASBL (Frans: association sans but lucratif), non-profit organization, NPO
+- relaties: `ondernemingsvormen`, `vennootschap-groottecategorieen` (eigen drempels voor VZW), `aansprakelijkheid-oprichters-bestuurders` (bestuurders-aansprakelijkheid bij VZW)
+
+**`vennootschap-groottecategorieen`** [E + R, hybride] — *(was `groottecategorie-vennootschap` — hernoemd naar meervoud)*
+- inhoud: 4 grootte-categorieën onder WVV — **micro** · **klein** · **middelgroot** · **groot** — gedefinieerd door drempels balans/omzet/personeel (art 1:24-1:27 WVV ⚠️) met 2-jaar-overschrijdings-regel; bij groepen op geconsolideerd niveau. **Cascade van gevolgen**: (a) `#jaarrekening-schema` — micro/verkort/volledig (boekhouding-perspectief); (b) `#commissaris-verplicht` — vanaf middelgroot (audit-perspectief; trigger voor wettelijke controle); (c) `#consolidatieplicht` — groot-criterium op groepsbasis (boekhouding-perspectief); (d) `#publicatieformaliteiten` — verkort vs volledig neerleggen; (e) `#kmo-controlenorm-toepasselijkheid` — voor controle/beoordeling KMO's vs algemene controlenorm (audit-perspectief); (f) `#fiscaal-kmo-flag` ⚠️ — fiscale KMO-criteria (art 1:24-1:25 WIB) **niet identiek** met WVV-criteria, aparte sectie of cross-link naar `kmo-tarief-vennootschapsbelasting`.
+- perspectieven: `boekhouding` (schema-keuze, publicatie, consolidatie) · `audit` (commissaris-trigger, KMO-norm-toepasselijkheid) · `advies` (drempel-management, groei-overweging, structurering)
+- naam_officieel: grootte-categorieën van vennootschappen (art 1:24-1:27 WVV) · synoniemen: KMO-criteria, grootte-criteria vennootschap, art 1:24 WVV-drempels, klein vs middelgroot vs groot, micro-onderneming
+- relaties: `ondernemingsvormen` (parent), `jaarrekening`, `commissaris` (audit-cluster), `controleopdracht`, `opdracht-types` (controle vs beoordeling KMO-context), `kmo-tarief-vennootschapsbelasting` (cross fiscaal — aparte criteria-set)
+
+**Open punten ondernemingsvormen-cluster**:
+- **OP-VOV.A** ✅ **Beslist**: cluster-naam `ondernemingsvormen` (breedst — omvat ook VZW + maatschap die geen "vennootschap" stricto sensu zijn).
+- **OP-VOV.B** ✅ **Beslist**: hernoemen `groottecategorie-vennootschap` → `vennootschap-groottecategorieen` (meervoud klopt voor 4 categorieën). Mapping-actie.
+- **OP-VOV.C** ✅ **Beslist**: `vennootschapsrechtelijk-kader-wvv` absorberen als sub-sectie `#wvv-systematiek` in `ondernemingsvormen` (overkoepelend WVV-kader heeft zelfstandig weinig waarde zonder vormen-context).
+- **OP-VOV.D** ✅ **Beslist**: `keuze-rechtsvorm-fiscaal` schrappen als eigen record; wordt perspectief `advies` + `fiscaal-VenB`/`fiscaal-PB` op `ondernemingsvormen`-record. User-feedback: "zijn dat niet net twee verschillende perspectieven over dezelfde concepten?" — ja.
+- **OP-VOV.E** ✅ **Beslist**: `oprichting-vennootschap` blijft in `kapitaalstructuur`-cluster met nieuwe sub-sectie `#initiele-inbreng` (niet eigen record). Initiële inbreng = sub-aspect van oprichting (gelijktijdig + geen aparte gebeurtenis).
+- **OP-VOV.F** ✅ **Beslist** (user 2026-05-26): `vof-commv-rechtsvorm` **splitsen** in `vennootschap-onder-firma` + `commanditaire-vennootschap` — 2 verschillende fenomenen onder 1 oude record-naam (VOF heeft alleen volle aansprakelijkheid; CommV heeft 2 vennoten-typen met verschillende aansprakelijkheidsregimes). `en`-smell-pattern uit rationale-log 2026-05-24 bevestigd.
+- **OP-VOV.G** ⏳ **Naam-smell-scan-actie uitbreiden**: `-rechtsvorm`-suffix toevoegen aan bestaande `-cluster`-suffix-scan voor mapping-fase. Algemene regel: record-id = conceptnaam, geen schema-categorie-marker als suffix.
+- **OP-VOV.H** ⏳ Cross-relatie naar PO 1.1-bedrijfsvorm-keuze-financiering (boekhouding-context) — uit te werken bij PO 1.1-cluster.
+
+**Test-case-validatie** (2026-05-26): 6 representatieve PO 3.0-examen-vragen rond vorm + oprichting:
+
+| Vraag | Concept | Tree-pad | Resultaat |
+|---|---|---|---|
+| 2003-bibf-vrI2 | Omzetting eenmanszaak → BVBA | `ondernemingsvormen#wanneer-welke-vorm` + `besloten-vennootschap` + cross `omzetting-vennootschap` (G) | ✅ |
+| 2008-bibf-vrI2 | Financieel plan bij oprichting | `financieel-plan` (kapitaalstructuur) + `oprichting-vennootschap#initiele-inbreng` (nieuwe sub-sectie) + relatie naar BV/NV/CV (verplicht) | ✅ (mits sub-sectie #initiele-inbreng wordt toegevoegd) |
+| 2008-bibf-vrI5 | Oprichtersaansprakelijkheid BVBA vs NV | `besloten-vennootschap` + `naamloze-vennootschap` (vergelijking) + cross `aansprakelijkheid-oprichters-bestuurders` (PO 3.0.VII ⏳) | ✅ |
+| 2013-1-vr14 | Aandeelhouderschap BVBA bij overlijden vennoot | `besloten-vennootschap#statutaire-flexibiliteit` + `aandeel` (kapitaalstructuur) + cross erfrecht | ✅ |
+| 2013-2-vr15 | Alarmbelprocedure bij BVBA met overgedragen verlies | `besloten-vennootschap` + cross `alarmbel-procedure` + `kapitaalbescherming` (kapitaalstructuur) | ✅ |
+| 2013-2-vr16 | Toegestaan kapitaal + oprichtersaansprakelijkheid NV | `naamloze-vennootschap` + cross `kapitaalverhoging#toegestaan-kapitaal` + cross `aansprakelijkheid-oprichters-bestuurders` | ✅ |
+
+Alle 6 vragen passen door de tree. **Bevestigingen**: (a) splits VOF/CommV bevestigd door geen specifieke testvraag op CommV-only — beide bestaan apart maar worden hier niet getest; (b) `#initiele-inbreng` sub-sectie in `oprichting-vennootschap` is concreet nodig (vr 2008-bibf-vrI2); (c) cross-relaties naar `aansprakelijkheid-oprichters-bestuurders` bevestigen dat dit cluster nodig wordt (PO 3.0.VII open punt).
+
+---
 
 ### Controle-opdracht-cluster
 
@@ -1130,3 +1249,7 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | `-cluster`-suffix in record-naam = **smell** (schema-artefact, geen conceptnaam). Vermijden in record-id; gebruik thema-tag of skelet-cluster-positionering | Behoud `fouten-en-fraude-cluster`, `it-controles-cluster`, `*-cluster` als record-namen | Record-id moet conceptnaam zijn (`fouten-en-fraude`, `it-controles`), niet duiden op verzamel-aard (`-cluster` doet dat). Verzamel-aard wordt gedragen via tags `[Σ]` of `[K-techniek]` of via cluster-positionering in skelet-doc — niet via record-naam. Naam-smell scan tijdens mapping-fase. | Mapping-actie: scan bestaande 396 records op `-cluster`/`-cluster.json` suffix; hernoemen via `tools/lib/records_api.py rename_record`. |
 | 2026-05-26 | `managementcontrole` verhuist naar `bedrijfseconomie-en-management`-discipline (niet onder `controle`); PO 1.7.I.C contrasteert IC met managementcontrole en plaatst MC pedagogisch in IC-context, maar inhoudelijk is MC sturingsgericht (budget/KPI) ≠ beheersingsgericht (IC) | Behoud `managementcontrole` in interne-controle-cluster (volgt PO 1.7-presentatie) | PO 1.7.I.C is **afbakeningsanchor** ("MC is wat anders dan IC"), geen inhoudelijk MC-anchor. Inhoudelijke MC-stof (budget, kpi, variance, balanced scorecard) hoort in `bedrijfseconomie-en-management`-discipline (laag-1 ⏳). Afbakening blijft als sub-sectie `interne-controle#afbakening` met cross-link. | Analoog: `interne-audit` blijft wel in IC-cluster (anders dan MC) want het is structureel onderdeel van het IC-ecosysteem (3rd line of defense — PO 1.7.IV+V). Afbakening ≠ wegverhuizen. |
 | 2026-05-26 | **Cluster-typen-onderscheid geschrapt** (cross-cutting thema-cluster vs discipline-cluster). Alle uitgewerkte clusters zijn voortaan "clusters" — verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Regel mei 2026 "discipline-stam = alleen Kader-records, alle E/G/R cross-cutting" **versoepeld**: cluster-uitwerkingen mogen K + E + G + R + Σ bevatten zolang conceptueel coherent. | (a) Behoud 2 sub-blokken in snapshot met PO-mapping-rationale; (b) Originele restrictieve regel handhaven en E/G/R uit discipline-clusters eruit halen (zou clusters breken — `revisiedossier` E in controle-opdracht; `interne-audit` E+K in interne-controle; etc.) | User-observatie 2026-05-26: "waarom maak jij een verschil tussen Cross-cutting clusters (per thema) en de Discipline-cluster-uitwerkingen (laag-2 sub-Kaders)?" Onderscheid was artefact van eerdere ontstaansgeschiedenis (eerst werkten we thema-clusters uit, daarna PO-gebaseerde clusters) + originele restrictieve regel die niet stand hield bij PO 1.6 + 1.7 (revisiedossier, controleverklaring, interne-audit, auditcomite zijn E maar horen conceptueel in hun cluster). Versimpeling: één cluster-begrip; PO-mapping als metadata-kolom in navigatie-tabel. | Toekomst: alle volgende clusters volgen één model; geen distinction nodig. ADR-030 dienovereenkomstig bij te werken (Regel-bepaling over disciplinestam vs cross-cutting moet weg of versoepeld). Eerdere rationale-log-entries 2026-05-23 over "Entiteiten + Gebeurtenissen cross-cutting (eigen stammen)" + "alle Regelingen leven cross-cutting" + "discipline-stam = alleen Kader" blijven gelden voor laag-1 (top-disciplines mogen alleen Kader zijn) — versoepeling alleen voor laag-2 cluster-uitwerkingen. |
+| 2026-05-26 | **`-rechtsvorm`-suffix als naam-smell** (analoog aan `-cluster`-smell uit PO 1.7). Record-id = conceptnaam, geen schema-categorie-marker als suffix. Hernoemen: `bv-rechtsvorm` → `besloten-vennootschap`, `nv-rechtsvorm` → `naamloze-vennootschap`, etc. Volledige naam in id, afkorting in synoniemen[] (regel 8 CLAUDE.md). | Behoud `-rechtsvorm`-suffix (duidt schema-categorie) of gebruik korte afkortingen als id (`bv`, `nv`) | User-vraag 2026-05-26: "heeft elke vorm wel een aparte fiche nodig? gingen we niet wegblijven van suffixen?". Suffix verwijst naar schema-functie (= rechtsvorm-type) niet conceptnaam — geen toegevoegde info. Afkortingen als id botsen met CLAUDE.md regel 8 ("geen afkortingen in code/docs/schema's"). Volledige naam + synoniemen-lijst is consistent met `cash-for-car`-pattern (id = praktijk, synoniemen = officieel + afkortingen). | Naam-smell-scan-actie uitgebreid: suffixen `-rechtsvorm`, `-cluster`, `-ic` (zoals `aankoopcyclus-ic`) toevoegen aan scan-lijst voor mapping-fase. Algemene regel: scan alle 396 records op suffix-patroon dat schema-categorie aanduidt zonder conceptuele waarde. |
+| 2026-05-26 | `vof-commv-rechtsvorm` **splitsen** in `vennootschap-onder-firma` (VOF) + `commanditaire-vennootschap` (CommV) — 2 verschillende fenomenen onder 1 oude record-naam | Behoud `vof-commv` als 1 record (volgt WVV-boek-4 dat beide samen behandelt) | User-keuze 2026-05-26 + rationale-log 2026-05-24 `en`-smell-pattern: VOF heeft alleen volle aansprakelijkheid; CommV heeft 2 vennoten-typen met verschillende aansprakelijkheidsregimes (gecommanditeerden vol + commandités beperkt). Gedeelde context (personenvennootschap) blijft via `ondernemingsvormen`-vergelijkingsmatrix; sub-secties per vorm zouden inconsistent zijn met BV/NV/CV-aparte-records-patroon. | Analoog: andere `en`-namen bij vorm/categorisering opnieuw bekijken bij mapping-fase. Voor PO 3.0 nog: `aansprakelijkheid-oprichters-bestuurders` — zit dit goed als 1 record of moeten oprichters + bestuurders apart (verschillende personen, verschillende aansprakelijkheidsregimes)? Te beslissen bij `bestuur-en-aansprakelijkheid`-cluster. |
+| 2026-05-26 | `keuze-rechtsvorm-fiscaal` schrappen als eigen record; wordt **perspectief** `advies` + `fiscaal-VenB/PB` op `ondernemingsvormen`-Σ-record | Behoud `keuze-rechtsvorm-fiscaal` als eigen record (fiscale keuze ≠ juridische keuze) | User-observatie 2026-05-26: "zijn dat niet net twee verschillende perspectieven over dezelfde concepten?" — ja. Fenomeen = vormkeuze; perspectieven = juridisch (record-inhoud) + fiscaal (perspectief). Aparte records voor "juridische versie" + "fiscale versie" van zelfde keuze = duplicatie. Dit is precies wat `accountant_perspectieven[]` doet — zelfde fenomeen, andere werk-as. | **Algemeen principe formaliseren**: 2 perspectieven op zelfde fenomeen ≠ 2 records. Alleen apart record als 2 verschillende fenomenen of substantieel-andere kennisbron. Smell: "X-fiscaal" / "X-juridisch" / "X-boekhoudkundig" record-namen = perspectief-vermomming-smell. Toekomst: scan op deze namen tijdens mapping-fase. |
+| 2026-05-26 | Initiële inbreng = **sub-sectie van `oprichting-vennootschap`**, geen aparte Gebeurtenis-record | Eigen Gebeurtenis-record `initiele-inbreng` als pendant van `kapitaalverhoging` (= latere inbreng) | User-vraag 2026-05-26: "misschien gebeurtenis opsplitsen in oprichting en initiële inbreng?". Praktisch: gelijktijdig (initiële inbreng vóór notariële akte als bewijs van volstorting). Geen aparte vragen rond elk — initiële inbreng is sub-thema van oprichting. Geen symmetrie met `kapitaalverhoging` (=latere fase met eigen context). Volgt rationale-log 2026-05-23 `pro-rata-toerekening`-pattern: sub-aspect ≠ eigen record. | Sub-sectie `#initiele-inbreng` in `oprichting-vennootschap` (kapitaalstructuur-cluster): modaliteiten (geld/natura/arbeid voor CV) · revisorverslag bij natura · min-storting bij authentieke akte (BV/NV) · volstortings-eisen · cross-relatie naar `kapitaalverhoging-in-natura` (analoge mechaniek). Mapping-actie. |
