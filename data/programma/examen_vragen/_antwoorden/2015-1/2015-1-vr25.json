@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr25",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De externe accountant (of bedrijfsrevisor) brengt verslag uit over de **staat van activa en passiva** die het bestuursorgaan opstelt voorafgaand aan de omzetting, en vermeldt **inzonderheid of het nettoactief is overgewaardeerd**. De kern-doelstelling is bescherming van schuldeisers en vennoten tegen een verbloemde vermogenstoestand bij wijziging van rechtsvorm. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Doelstellingen van de opdracht** (beoordelingsopdracht met beperkte mate van zekerheid):\n\n- **Beoordeling van de staat van activa en passiva** die niet meer dan drie maanden oud mag zijn op de dag van de algemene vergadering die over de omzetting beslist (vier maanden bij grensoverschrijdende omzetting). 📖\n- **Vermelden of het nettoactief is overgewaardeerd** in alle van materieel belang zijnde opzichten — dat is de wettelijk uitdrukkelijk voorgeschreven kern-verklaring (art. 14:4 WVV). 📖\n- **In voorkomend geval melden of het nettoactief kleiner is dan het in de staat opgenomen kapitaal** (of, bij kapitaalloze vennootschap, het eigen vermogen): het verslag besluit dan met vermelding van het verschil (art. 14:3, tweede lid junctis art. 14:4 WVV). 📖\n- **Toezicht op de toepassing van het boekhoudkundig referentiestelsel**: de staat moet zijn opgesteld volgens art. 3:1, § 1, eerste lid WVV — de accountant verifieert die conformiteit. 🔗\n- **Informatieverstrekking aan de algemene vergadering**: het verslag wordt samen met het bestuursverslag (art. 14:3 WVV) ter beschikking gesteld van de vennoten, zodat zij met kennis van zaken kunnen beslissen over de omzetting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het is een **beoordelingsopdracht** (review, beperkte zekerheid — ISRE-model), géén controleopdracht met redelijke mate van zekerheid. De beoordeling **ontslaat het bestuursorgaan niet** van zijn verantwoordelijkheid voor de juistheid van de staat van activa en passiva. Bovendien blijven oprichters/bestuurders bij omzetting hoofdelijk gehouden tot vergoeding van het verschil bij **overwaardering van het netto-actief** (art. 14:12 WVV) — wat de waarde van een degelijk verslag voor de aansprakelijkheid van de betrokken partijen verklaart. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 14:3 WVV**: het bestuursorgaan stelt een staat van activa en passiva op die niet meer dan drie maanden oud is. **Art. 14:4 WVV**: de commissaris of, bij gebreke daaraan, een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant brengt over die staat verslag uit en **vermeldt inzonderheid of er overwaardering van het nettoactief heeft plaatsgehad**; indien het nettoactief kleiner is dan het kapitaal (of eigen vermogen), besluit het verslag met vermelding van het verschil. Voor grensoverschrijdende omzetting: art. 14:21 WVV (zelfde principe, vier maanden). De uitvoeringsmodaliteiten zijn vastgelegd in de **ITAA-norm omzetting van een vennootschap** (modelverslagen in bijlage). 📖",
+          "wetsref": "Art. 14:3-14:4 WVV; art. 14:21 WVV (grensoverschrijdend); ITAA-norm omzetting van een vennootschap",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

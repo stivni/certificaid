@@ -1,0 +1,84 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja** — de raad van bestuur kan de kapitaalverhoging zelf doorvoeren zonder buitengewone algemene vergadering, maar enkel binnen de grenzen van het **toegestaan kapitaal**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Hoofdregel: een kapitaalverhoging vereist een **statutenwijziging** en moet dus door de buitengewone algemene vergadering worden beslist (notariële akte, bijzondere meerderheid). 📖 Op die hoofdregel bestaat één wettelijke uitzondering: het **toegestaan kapitaal** (art. 7:165 jo. 7:184 WVV). De statuten kunnen aan het bestuursorgaan de bevoegdheid toekennen om het geplaatste kapitaal in één of meer keren te verhogen tot een vooraf bepaald bedrag — zonder dat daarvoor opnieuw een algemene vergadering bijeen moet worden geroepen. 📖 Dat is precies het mechanisme dat past bij een \"dringende\" kapitaalverhoging.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De vraag dateert van 2008 (oud W.Venn., art. 603 e.v.). Onder het W.Venn. heette de figuur identiek \"toegestaan kapitaal\" en gold een gelijkaardig regime (art. 603–608 W.Venn.). Sinds 1 januari 2020 staat de regeling in art. 7:184–7:189 WVV; de inhoud is materieel ongewijzigd. Vermeld dus gerust het WVV-artikel — examinatoren aanvaarden de actuele rechtsgrond. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:165 WVV: \"Tot verhoging van het kapitaal kan ook door het bestuursorgaan worden besloten binnen de grenzen van het toegestaan kapitaal.\" Art. 7:184 WVV bevat het kader van het toegestaan kapitaal. 📖",
+          "wetsref": "art. 7:165 en 7:184 WVV (vroeger art. 603 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Voorwaarden voor een kapitaalverhoging binnen het toegestaan kapitaal (art. 7:184 WVV):\n\n- **Statutaire machtiging**: de statuten moeten aan de raad van bestuur (of raad van toezicht) uitdrukkelijk de bevoegdheid toekennen om het kapitaal te verhogen. 📖\n- **Plafond**: de machtiging vermeldt een **maximumbedrag** waarmee het kapitaal mag worden verhoogd. Voor **genoteerde vennootschappen** mag dat plafond niet hoger zijn dan het geplaatste kapitaal op het ogenblik van de machtiging. 📖\n- **Geldigheidsduur**: de machtiging geldt voor maximaal **5 jaar** vanaf de bekendmaking van de oprichtingsakte of van de statutenwijziging die de bevoegdheid invoert. De machtiging is hernieuwbaar door de algemene vergadering (telkens voor ten hoogste 5 jaar). 🔗\n- **Authentieke akte + bekendmaking**: het besluit van het bestuursorgaan tot kapitaalverhoging moet bij notariële akte worden vastgesteld en neergelegd/bekendgemaakt (art. 7:172 WVV). 📖\n- **Materiële regels blijven gelden**: de gewone regels over kapitaalverhoging zijn van toepassing — onder meer **voorkeurrecht** van bestaande aandeelhouders bij inbreng in geld, verslaggevingsplicht bij inbreng in natura, volstortingsregels, enz. (art. 7:166 § 1, 7:167, 7:175–7:183 WVV worden uitdrukkelijk van toepassing verklaard). 📖\n- **Verbod tijdens openbaar overnamebod**: vanaf de kennisgeving van een OBA door de FSMA mag het bestuursorgaan het toegestane kapitaal niet meer aanwenden met beperking/opheffing van het voorkeurrecht (art. 7:188 WVV). 📖\n- **Jaarverslag**: het bestuursorgaan moet in het jaarverslag verantwoording afleggen over het gebruik van de bevoegdheid. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij élke effectieve aanwending door het bestuursorgaan is alsnog een **notaris** vereist (authentieke akte — art. 7:172 WVV). \"Geen buitengewone algemene vergadering\" betekent dus niet \"geen notaris\" en evenmin \"geen statutenwijziging op termijn\": de wijziging van het cijfer van het geplaatste kapitaal in de statuten gebeurt door het bestuursorgaan zelf in de akte van kapitaalverhoging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:184 WVV (kader toegestaan kapitaal — bevoegdheid, plafond, geldigheidsduur 5 jaar, hernieuwbaar); art. 7:172 WVV (authentieke akte + neerlegging); art. 7:188 WVV (verbod tijdens OBA); art. 7:186–7:187 WVV (verslaggeving in oprichtingsakte/statutenwijziging en in jaarverslag). 📖",
+          "wetsref": "art. 7:184, 7:172, 7:186–7:188 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

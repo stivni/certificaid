@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrI4",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het belangrijkste rechtsgevolg is de **gerechtelijke ontbinding** van de vennootschap door de ondernemingsrechtbank. Daarnaast lopen bestuurders **burgerlijke aansprakelijkheid** op (vermoeden van schade voor derden) en kan een **administratieve boete** worden opgelegd; bovendien wordt de jaarrekening pas tegenwerpelijk aan derden na regelmatige neerlegging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Mogelijke gevolgen voor de vennootschap die haar jaarrekening niet neerlegt bij de Nationale Bank van België:\n\n- **Gerechtelijke ontbinding** — de ondernemingsrechtbank kan op vraag van iedere belanghebbende, het openbaar ministerie of na mededeling door de kamer voor ondernemingen in moeilijkheden de ontbinding uitspreken. De rechtbank kent doorgaans eerst een **regularisatietermijn** toe; pas als de ontbrekende jaarrekeningen niet vóór de sluiting van de debatten worden neergelegd, volgt de effectieve ontbinding. 📖\n- **Burgerlijke aansprakelijkheid van bestuurders** — bij niet-neerlegging binnen de wettelijke termijn (zeven maanden na afsluiting boekjaar) geldt een **wettelijk vermoeden** dat de door derden geleden schade voortvloeit uit dit verzuim; de bestuurders dragen de bewijslast om dit vermoeden om te keren. 🔗\n- **Administratieve geldboete / tariefverhoging** — de NBB rekent een **tariefverhoging** aan voor laattijdige neerlegging (oplopend naargelang de vertraging) bovenop de gewone neerleggingskosten. 🤖\n- **Niet-tegenwerpelijkheid** — zolang de jaarrekening niet is openbaar gemaakt, kan ze niet aan derden worden tegengeworpen (publicatieplicht art. 2:14 WVV / oud art. 76 W.Venn.). 🔗\n- **Strafrechtelijke sanctie** — opzettelijke niet-neerlegging kan strafrechtelijk worden vervolgd (geldboete; in zwaarwichtige gevallen verzwaard). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De vraag dateert van **2003** en verwijst impliciet naar het toenmalige **art. 182 W.Venn.**, dat uitdrukkelijk de gerechtelijke ontbinding koppelde aan **drie opeenvolgende boekjaren** zonder neerlegging. Dit drie-boekjaren-criterium is **afgeschaft** door de wet van 17 mei 2017 en niet hernomen in het WVV: onder **art. 2:74, § 1 WVV** volstaat **één** niet-neergelegde jaarrekening, mits de vordering pas wordt ingesteld na verloop van **zeven maanden** vanaf afsluiting boekjaar. Voor een examen anno 2026 is dus de WVV-regel het juiste referentiekader; de drie-boekjaren-formule uit de vraagstelling is historisch achterhaald. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 2:74, § 1 WVV** — gerechtelijke ontbinding wegens niet-neerlegging jaarrekening (art. 3:10 en 3:12 WVV); vordering instelbaar na zeven maanden vanaf afsluiting boekjaar; rechtbank kent regularisatietermijn toe. **Art. 2:14 WVV** — openbaarmakingsplicht en tegenwerpelijkheid aan derden. **Oud art. 182 W.Venn.** (gewijzigd door wet 17 mei 2017, BS 12 juni 2017) — historisch drie-boekjaren-criterium, nu afgeschaft. CBN-advies 2022/04 bevestigt expliciet dat dit criterium niet meer bestaat. 📖",
+          "wetsref": "art. 2:74, § 1 WVV; art. 2:14 WVV; oud art. 182 W.Venn.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr1D",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — **BV en CV**. Alleen bij de BV en de CV voorziet het WVV een regeling van uittreding en uitsluiting van een aandeelhouder ten laste van het vennootschapsvermogen, waarvan de modaliteiten statutair kunnen worden uitgewerkt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-02-uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per rechtsvorm:\n\n- **BV** (art. 5:154-5:155 WVV) — uittreding en uitsluiting ten laste van het vennootschapsvermogen zijn **facultatief**: ze zijn slechts mogelijk indien de statuten dit expliciet voorzien. Wanneer de statuten zwijgen, geldt geen uittredingsrecht. 📖\n- **CV** (art. 6:120-6:123 WVV) — uittredings- en uitsluitingsmogelijkheid lastens het vennootschapsvermogen is van **dwingend recht** (eigen aan de veranderlijkheid van het aandeelhoudersbestand), maar binnen dat kader kunnen de modaliteiten (termijnen, scheidingsaandeel, bijkomende uitsluitingsgronden) statutair worden geregeld; de WVV-regeling is een default. 📖\n- **NV** — het WVV voorziet **geen** regeling voor uittreding/uitsluiting van een aandeelhouder ten laste van het vennootschapsvermogen. Een aandeelhouder verlaat de NV via overdracht van zijn aandelen, niet door een uitkering uit het vermogen. 🔗\n\n**Per optie**:\n- **a** (BV en CV) → JUIST — exact de twee rechtsvormen waarvoor het WVV een statutair (facultatief of modaliteit-aanvullend) regime voorziet. 🔗\n- **b** (Alle behalve NV) — FOUT — \"alle behalve NV\" sluit ook de VOF, CommV en maatschap in, die geen WVV-regeling voor uittreding/uitsluiting ten laste van het vennootschapsvermogen kennen vergelijkbaar met BV/CV. 🤖\n- **c** (Alle behalve NV en BV) — FOUT — sluit de BV ten onrechte uit; net de BV heeft een uitdrukkelijke statutaire regeling (art. 5:154-5:155). 🔗\n- **d** (NV, BV en CV) — FOUT — bevat de NV, waarvoor géén statutaire uittredings-/uitsluitingsregeling lastens het vennootschapsvermogen bestaat. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-02-uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Belangrijk verschil BV ↔ CV: bij de **CV** is het uittredings-/uitsluitingsrecht **van dwingend recht** — zelfs als de statuten dit zouden verbieden, behouden aandeelhouders dit recht. Bij de **BV** is het omgekeerd: zonder uitdrukkelijke statutaire clausule is uittreding of uitsluiting lastens het vennootschapsvermogen niet mogelijk. \"Statutair regelen\" betekent dus iets anders per rechtsvorm: bij de BV is de statutaire clausule **constitutief**, bij de CV is ze **modaliteit-bepalend** binnen een dwingend wettelijk kader. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-02-uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "BV: art. 5:154 WVV (uittreding) en art. 5:155 WVV (uitsluiting) — facultatief regime, statuten moeten het expliciet voorzien. CV: art. 6:120-6:123 WVV — dwingend recht, met statutair invulbare modaliteiten. CBN-advies 2022/02 bevestigt dat de WVV-regeling enkel voor BV en CV een uittreding/uitsluiting lastens het vennootschapsvermogen kent. Voor de NV bestaat dit regime niet. 📖",
+          "wetsref": "art. 5:154-5:155 WVV (BV); art. 6:120-6:123 WVV (CV); CBN-advies 2022/02",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-02-uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

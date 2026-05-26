@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr24",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — bij een kapitaalverhoging in een bvba door inbreng in natura is, naast het bijzonder verslag van het bestuursorgaan, een verslag van een bedrijfsrevisor (door het bestuursorgaan aangesteld bij afwezigheid van commissaris) verplicht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** (verrichting kan niet doorgaan) → FOUT — de inbreng van aandelen is perfect mogelijk; aandelen zijn een economisch waardeerbaar onlichamelijk goed (art. 1:8 WVV, voorheen art. 19 W.Venn.). Er is geen wettelijk beletsel, enkel een procedure. 🔗\n- **b** (verslag bedrijfsrevisor verplicht bij afwezigheid commissaris, met beschrijving, eigenaar, tegenprestatie, waarderingsmethoden en oordeel of de waardering ten minste gelijk is aan de tegenprestatie) → JUIST — dit is exact de inhoud die de wet voorschrijft voor het revisoraal verslag bij inbreng in natura in een bvba (art. 313 W.Venn., thans art. 5:7 / 5:112 WVV). 📖\n- **c** (FSMA-attest) → FOUT — de FSMA heeft geen rol in de waardering van een inbreng in natura; verzonnen procedure. 🤖\n- **d** (loutere verklaring + attest \"geen nieuwe omstandigheden\") → FOUT — dit beschrijft de uitzondering op het revisoraal verslag voor effecten met een marktwaarde of recent revisoraal gewaardeerde activa (art. 7:8/7:9 WVV voor NV), die in een bvba niet als zodanig bestaat; bovendien werden de aandelen 2 weken eerder verkregen zonder herwaardering — geen voorafgaande revisorale waardering. 🔗\n- **e** (bestuursverslag alleen volstaat) → FOUT — het bestuursverslag is verplicht maar volstaat niet; het revisoraal verslag is een onafhankelijke, daarbovenop komende vereiste. Art. 75 W.Venn. (vermeld in de optie) regelt de neerlegging/publicatie, niet de inbrengprocedure. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Quasi-inbreng niet verwarren met inbreng in natura.** Hier gaat het om een kapitaalverhoging door inbreng (de aandelen worden ingebracht tegen uitgifte van nieuwe aandelen) — niet om een verkrijging tegen geld binnen 2 jaar (quasi-inbreng, art. 220-222 W.Venn. / art. 7:8 WVV, die overigens alleen voor NV bestond/bestaat — voor bvba gold die regel niet meer sinds 2010 en is in WVV definitief afgeschaft). De korte termijn van 2 weken tussen verwerving en inbreng is dus irrelevant voor de procedure, maar wel een aandachtspunt voor de waardering (geen \"herwaardering\" gebeurd → revisor moet de aankoopprijs kritisch beoordelen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Op datum van het examen (2015): **art. 313 W.Venn.** — bij kapitaalverhoging in een bvba door inbreng in natura stelt het bestuursorgaan een bijzonder verslag op en wijst, bij gebrek aan commissaris, een bedrijfsrevisor aan die een verslag opmaakt over de beschrijving, de waardering en de toegepaste methoden, en verklaart of de waardering ten minste overeenkomt met de tegenprestatie. Sinds WVV (2019): inhoudelijk hernomen in **art. 5:7 WVV** (oprichting) en **art. 5:133 / 5:101+5:112 WVV** (kapitaalverhoging in BV). 📖",
+          "wetsref": "Art. 313 W.Venn. (2015) → art. 5:7 + 5:112 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

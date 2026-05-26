@@ -1,0 +1,281 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr27",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "JUIST. De externe accountant moet de identiteit van de bestuurders (en uiteindelijke begunstigden) vaststellen vóór hij de opdracht aanvangt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Identificatie van het bestuursorgaan en de UBO's is een **cliëntacceptatie-verplichting** uit de antiwitwaswetgeving (Wet 18/09/2017) en uit de ITAA-norm inzake cliëntaanvaarding. 🔗 De beoordelingsopdracht bij omzetting valt onder de wettelijk voorbehouden opdrachten van de gecertificeerd accountant en vereist een opdrachtbrief met geïdentificeerde opdrachtgever. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Antiwitwaswet 18/09/2017 — cliëntonderzoek (art. 19-26); ITAA-norm omzetting van vennootschap; Wet 17/03/2019 (beroepsorganisatie ITAA). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "ONJUIST. Het verslag bij omzetting bevat geen verplichte beoordeling van de administratieve en boekhoudkundige organisatie (AO/IC). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het verslag focust op één wettelijk vereist oordeel: of de **staat van activa en passiva** geen overwaardering van het nettoactief bevat (art. 14:4 WVV). 📖 Een beoordeling van de AO/IC hoort bij de **commissaris-opdracht** (controleverslag bij de jaarrekening), niet bij deze beoordelingsopdracht met beperkte zekerheid. 🔗 De ITAA-modelverslagen (bijlage 3) vermelden geen AO/IC-oordeel. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:4 WVV (verslag externe accountant bij nationale omzetting — vermeldt inzonderheid of het nettoactief is overgewaardeerd); ITAA-norm omzetting van vennootschap, bijlage 3 (modelverslagen). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "JUIST. Een risico-inschatting van de interne procedures is een normale stap in de werkzaamheden van de externe accountant. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Hoewel het verslag zelf geen AO/IC-oordeel vermeldt (zie b), gebruikt de accountant wél een **risico-georiënteerde aanpak** om te bepalen waar zijn werkzaamheden zich moeten concentreren — zwakke punten in de interne procedures verhogen het risico op overwaardering van het nettoactief. 🔗 Dit volgt de logica van ISRE 2400 (beoordelingsopdrachten) zoals omarmd door de ITAA-norm. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting van vennootschap (risico-georiënteerde werkzaamheden ter onderbouwing van het oordeel over het nettoactief); ISRE 2400 als referentiekader voor beoordelingsopdrachten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "ONJUIST. Het werkdossier blijft **eigendom en verantwoordelijkheid van de externe accountant** en wordt niet door het bestuur ondertekend. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het werkdossier (audit working papers) is een vertrouwelijk intern document dat de accountant bewaart als onderbouwing van zijn verslag — onder zijn beroepsgeheim. 🔗 Wat het bestuursorgaan wél ondertekent: de **staat van activa en passiva** zelf (als opsteller) en in voorkomend geval de bevestigingsbrief (representation letter). Het werkdossier is geen contractueel of publiek stuk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Beroepsgeheim en dossierplicht ITAA-stagiair/lid (art. 56-58 Wet 17/03/2019); ISRE 2400 §A146-A150 (documentatie blijft bij de beroepsbeoefenaar). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "ONJUIST. De staat van activa en passiva wordt **opgesteld door het bestuursorgaan**; de accountant beoordeelt ze, herwerkt ze niet. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 14:4 WVV bepaalt dat de staat door het **bestuursorgaan** wordt opgesteld; de accountant brengt over die staat verslag uit en vermeldt eventuele overwaardering van het nettoactief. 📖 Bij gebreken signaleert de accountant deze in zijn verslag (voorbehoud, afkeurend oordeel of onthouding) — het bestuursorgaan moet de staat dan zelf corrigeren. De rolverdeling opsteller/beoordelaar is strikt; herwerking door de accountant zou zijn onafhankelijkheid schenden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — De staat van activa en passiva mag op het ogenblik van de algemene vergadering die over de omzetting beslist, niet ouder zijn dan **drie maanden** (nationale omzetting, art. 14:3 WVV) — bij grensoverschrijdende omzetting geldt vier maanden. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:3 WVV (staat door bestuursorgaan, max. drie maanden oud); art. 14:4 WVV (verslag door commissaris, bedrijfsrevisor of gecertificeerd accountant). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "ONJUIST. De externe accountant heeft een **doorlopende beroepsaansprakelijkheidsverzekering** via ITAA; geen aparte opdracht-specifieke polis vereist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Elk ITAA-lid moet verplicht een beroepsaansprakelijkheidsverzekering aanhouden die alle beroepsactiviteiten dekt, inclusief wettelijk voorbehouden opdrachten zoals het verslag bij omzetting. 🔗 Een bijkomende polis per opdracht is niet wettelijk vereist en zou voor een KMO-opdracht ook economisch onhaalbaar zijn. Wel kan de accountant zijn dekking laten verifiëren bij grote opdrachten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wet 17/03/2019 (beroepsorganisatie ITAA) — verplichte beroepsverzekering voor leden; ITAA-deontologische code. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "JUIST. Nazicht van de **waarderingsregels** en hun consistente toepassing is een kernstap om het nettoactief te beoordelen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het verslag moet expliciet de **gehanteerde waarderingsregels** vermelden en beoordelen of zij in overeenstemming zijn met het van toepassing zijnde boekhoudkundig referentiestelsel (KB/WVV 2019 + BBR). 📖 Een overwaardering van het nettoactief vloeit immers meestal voort uit ongepaste waarderingsregels of inconsistente toepassing — de bijgevoegde staat moet de waarderingsregels integraal omvatten. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting van vennootschap, bijlage 3 (modelverslagen vermelden expliciet waarderingsregels); art. 14:4 WVV (beoordeling overwaardering nettoactief). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "ONJUIST. Het woord **\"altijd\"** maakt deze stelling te streng — alternatieve werkzaamheden kunnen voldoende zekerheid bieden zonder voorbehoud. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Wanneer klantenconfirmaties (externe bevestigingen) niet werden verstuurd, voert de accountant **alternatieve procedures** uit — bv. nazicht van betalingen na balansdatum, analyse van de leeftijdsbalans, contractanalyse. 🔗 Pas als ook de alternatieven onvoldoende geschikte assurance-informatie opleveren, is er sprake van een **scope-limitation** die leidt tot een voorbehoud of onthouding. 🔗 \"Altijd\" miskent deze graduele aanpak (ISA 505 / ISRE 2400). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — Examenstellingen met absolute kwantoren (\"altijd\", \"in alle gevallen\", \"nooit\") zijn doorgaans onjuist, behalve wanneer de wet zelf de absolutheid voorschrijft. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 (externe bevestigingen) en ISRE 2400 (beoordelingsopdrachten): alternatieve procedures bij ontbrekende confirmaties; voorbehoud enkel bij effectieve scope-limitation. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "ONJUIST. De externe accountant wordt **door het bestuursorgaan** aangesteld, niet door de aandeelhouders. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 14:4 WVV bepaalt dat bij afwezigheid van een commissaris de bedrijfsrevisor of gecertificeerd accountant wordt aangewezen **door het bestuursorgaan** — bij een VOF of CommV door de algemene vergadering, maar voor een NV (zoals in casus) duidelijk door het bestuur. 📖 De aandeelhouders beslissen pas later, op de buitengewone algemene vergadering, over de omzetting zelf op basis van het verslag. De opdracht kan dus aanvangen zonder voorafgaand akkoord van de aandeelhouders. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:4 WVV (aanwijzing door bestuursorgaan bij nationale omzetting NV → BV); ITAA-norm omzetting van vennootschap (opdrachtbrief tussen accountant en bestuursorgaan). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

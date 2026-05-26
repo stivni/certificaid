@@ -1,0 +1,191 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr4A",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Een vrijwillige ontbinding van een CV vereist géén gewone meerderheid, maar de **versterkte meerderheid voor statutenwijziging** — minstens **4/5 van de uitgebrachte stemmen** met aanwezigheidsquorum van de helft van de aandelen (art. 6:86 WVV jo. art. 2:71 WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De vrijwillige ontbinding kan op elk ogenblik door de AV worden besloten, **\"met inachtneming van de bij het WVV bepaalde vormvereisten, aanwezigheidsquorum en meerderheid\"** (CBN-advies 2022/04, parafrase van art. 2:71 WVV). 📖 Voor de CV verwijst dit naar art. 6:86 WVV (statutenwijziging in de CV): 4/5-meerderheid van de uitgebrachte stemmen, na aanwezigheidsquorum van de helft van het totaal aantal uitgegeven aandelen. 🔗 Een gewone meerderheid (50 % + 1) volstaat dus niet — net zoals dat ook in BV (art. 5:100) en NV (art. 7:153) niet zou volstaan.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar de **CV** (kapitaalloze vennootschap onder het WVV, art. 6:1 e.v.) niet met de oude coöperatieve vennootschap met beperkte aansprakelijkheid (CVBA) onder het W.Venn. De ontbindings-meerderheid is in beide gevallen de versterkte (statutenwijziging-)meerderheid — geen gewone meerderheid. 🔗 Statuten kunnen wél strengere voorwaarden opleggen, nooit soepelere.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 2:71 WVV** — vrijwillige ontbinding gebeurt door besluit van de AV met inachtneming van vormvereisten, quorum en meerderheid van het WVV. **Art. 6:86 WVV** — CV-statutenwijziging vereist 4/5 van de uitgebrachte stemmen en aanwezigheidsquorum van de helft van het aantal uitgegeven aandelen. **CBN-advies 2022/04** bevestigt deze koppeling expliciet voor BV, CV, NV, SE en SCE. 📖",
+          "wetsref": "Art. 2:71 + 6:86 WVV; CBN-advies 2022/04",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het verslag van de commissaris, bedrijfsrevisor of gecertificeerd accountant over de staat van activa en passiva is **altijd verplicht** bij een vrijwillige ontbinding van een BV — niet pas wanneer een meerderheid van de aandeelhouders het vraagt (art. 2:71, § 2, derde lid WVV). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wet legt drie cumulatieve documenten op bij vrijwillige ontbinding (art. 2:71, § 2 WVV): (1) een **verslag van het bestuursorgaan** dat het ontbindingsvoorstel toelicht; (2) een **staat van activa en passiva** van ten hoogste drie maanden oud, opgesteld volgens de waarderingsregels van het KB WVV; (3) een **verslag van de commissaris** of, bij ontstentenis, van een door het bestuursorgaan aangewezen **bedrijfsrevisor of gecertificeerd accountant** op die staat. 🔗 Het is dus een wettelijk voorbehouden controleopdracht, geen optionele dienst die afhankelijk is van een aandeelhoudersverzoek. De ITAA-norm Ontbinding-Vereffening werkt de uitvoering van dit verslag concreet uit (modelverslag in Bijlage 3). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met andere bijzondere opdrachten waar het verslag inderdaad door een meerderheid of minderheid kan worden gevorderd (bv. minderheidsvordering, art. 2:56 WVV). Bij de **vrijwillige ontbinding** is het verslag onvoorwaardelijk wettelijk vereist en de keuze gaat enkel over de **identiteit** van de beroepsbeoefenaar: commissaris als die er is, anders een bedrijfsrevisor óf een gecertificeerd accountant naar keuze van het bestuursorgaan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 2:71, § 2, eerste tot derde lid WVV** — verplicht verslag van het bestuursorgaan + staat van activa en passiva (max. 3 maanden oud, KB WVV-waarderingsregels) + verslag van commissaris/bedrijfsrevisor/gecertificeerd accountant op die staat. **ITAA-norm Ontbinding-Vereffening** — uitvoering en modelverslag (Bijlage 3). **CBN-advies 2022/04** — verslaggevingsplichten BV/CV/NV/SE/SCE. 📖",
+          "wetsref": "Art. 2:71, § 2 WVV; ITAA-norm Ontbinding-Vereffening; CBN-advies 2022/04",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** De algemene vergadering die de **ontbinding** van een BV beslist (en daarmee de vereffening opent), moet bij **notariële (authentieke) akte** worden vastgelegd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De vrijwillige ontbinding van een BV is een **statutenwijziging-handeling** in de zin van art. 2:71 WVV — zij vereist daarom dezelfde vorm als de statutenwijziging: een **authentieke akte** voor de notaris (art. 5:121 WVV voor de statutenwijziging in de BV, jo. de algemene regel dat statutenwijzigingen in BV/CV/NV bij notariële akte gebeuren). 🔗 De stelling spreekt over \"de algemene vergadering voor de vereffening\" — dit is de AV die de ontbinding besluit én daarmee de vereffeningsfase opent (art. 2:70 WVV: \"de ontbinding maakt een einde aan de normale werking en opent de vereffeningsfase\"). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De **uitzondering** geldt voor VOF en CommV: voor die vennootschapsvormen is een notariële akte niet vereist (zie art. 2:71, § 5 WVV jo. CBN-advies 2024/06). Voor **BV, CV, NV, SE en SCE** is de notariële akte voor de ontbindingsbeslissing wél altijd vereist — ongeacht of men daarna de klassieke vereffening of de procedure van art. 2:80 (één akte) volgt. ❓ Let op de exacte bewoording van de stelling: \"AV voor de vereffening\" is in deze stelling de openings-AV, niet de sluitings-AV (zie stelling D).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2024-06-openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 2:71 WVV** — vormvereisten vrijwillige ontbinding (verslag bestuursorgaan + staat activa/passiva + verslag beroepsbeoefenaar; akte voor notaris voor BV/CV/NV/SE/SCE). **Art. 5:121 WVV** — statutenwijziging BV bij notariële akte. **Art. 2:70 WVV** — ontbinding opent de vereffeningsfase, rechtspersoon blijft bestaan voor de vereffening. 📖",
+          "wetsref": "Art. 2:70 + 2:71 + 5:121 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De algemene vergadering die de **sluiting van de vereffening** van een BV uitspreekt (na de klassieke vereffeningsprocedure), vereist géén notariële akte — zij is een **gewone AV-beslissing**, neergelegd ter griffie en bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad (art. 2:100 WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij de **klassieke vereffeningsprocedure** zijn er twee aparte AV's met verschillende vormvereisten: (1) de **ontbindings-AV** opent de vereffening en moet bij notariële akte (stelling C — juist); (2) de **sluitings-AV** beëindigt de vereffening op basis van het cijfermatig verslag van de vereffenaar en de eventuele controle door de commissaris, en is een **onderhandse vennootschapsakte** (art. 2:100 WVV — neerlegging ter griffie + publicatie). 🔗 Pas bij die sluiting houdt de rechtspersoonlijkheid op te bestaan.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de **\"ontbinding en sluiting van de vereffening in één akte\"** (art. 2:80 WVV). Daar wordt de hele procedure in **één enkele notariële akte** afgewikkeld — maar dat is dan diezelfde unieke ontbindings-AV, niet een afzonderlijke sluitings-AV. Voor de klassieke (gespreide) vereffening blijft de sluitings-AV onderhands. 🔗 Stelling D spreekt expliciet over \"het sluiten van de vereffening\" — een afzonderlijke handeling die de klassieke procedure veronderstelt.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-06-verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 2:100 WVV** — sluiting van de vereffening wordt uitgesproken door de AV op basis van het cijfermatig verslag van de vereffenaar (en eventuele controle door commissaris); de beslissing wordt neergelegd ter griffie en bekendgemaakt. Geen notariële akte vereist. **Art. 2:80 WVV** — uitzondering: bij ontbinding en sluiting in één akte is wel een notariële akte vereist (CBN-advies 2022/06). 📖",
+          "wetsref": "Art. 2:100 WVV (klassieke sluiting); Art. 2:80 WVV (uitzondering één akte)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+            "resources/bronnen/adviezen/CBN-2022-06-verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

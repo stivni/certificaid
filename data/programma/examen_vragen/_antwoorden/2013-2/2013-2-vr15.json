@@ -1,0 +1,89 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr15",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, de alarmbelprocedure is van toepassing — eerste drempel (1/2).** Het netto-actief bedraagt 7.000,00 EUR en is gezakt onder de helft van het kapitaal (10.000,00 EUR), maar blijft boven 1/4 (5.000,00 EUR). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Netto-actief = totaal activa − schulden − voorzieningen − niet-afgeschreven oprichtings- en O&O-kosten.** 📖\n\n| Stap | Berekening | Bedrag |\n|---|---|---|\n| Totaal activa | | 13.500,00 |\n| − Handelsschulden | | −4.500,00 |\n| − Oprichtingskosten (nog niet afgeschreven) | | −2.000,00 |\n| **Netto-actief** | | **7.000,00** |\n\n**Vergelijking met het kapitaal (20.000,00):**\n- 1/2 van kapitaal = 10.000,00 → netto-actief 7.000 < 10.000 → **eerste drempel overschreden**. 🔗\n- 1/4 van kapitaal = 5.000,00 → netto-actief 7.000 > 5.000 → tweede drempel niet bereikt. 🔗\n\nHet niet-opgevraagd kapitaal (−12.000) staat in de Belgische balanspresentatie als negatieve component aan de passiefzijde en is dus al verrekend in het verschil tussen totaal activa en schulden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het niet-opgevraagd kapitaal staat hier aan de **passiefzijde** als correctie op het geplaatst kapitaal (Belgische schema-presentatie van vóór de WVV-hervorming). Reken het **niet** nogmaals af aan de actiefzijde — dat zou tot dubbeltelling leiden. Tweede klassieke valkuil: het bedrag van het kapitaal waartegen vergeleken wordt is het **geplaatst** (= maatschappelijk) kapitaal van 20.000,00, niet het netto-bedrag na aftrek van het niet-opgevraagd kapitaal. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Toepasselijk recht 2013**: art. 332 W.Venn. (BVBA): bij netto-actief gezakt onder 1/2 van het maatschappelijk kapitaal moet het bestuursorgaan binnen twee maanden de algemene vergadering bijeenroepen om te beraadslagen over ontbinding of herstelmaatregelen, op basis van een bijzonder verslag. CBN-advies 2021/14 (toepasselijk onder WVV, maar materieel identieke berekeningsmethode als onder W.Venn.) verduidelijkt: netto-actief = totaalbedrag activa, verminderd met voorzieningen, schulden en niet-afgeschreven oprichtings- en O&O-kosten. 📖",
+          "wetsref": "art. 332 W.Venn. (2013); cf. art. 7:228 WVV; CBN-advies 2021/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, de alarmbelprocedure is van toepassing — beide drempels (1/2 én 1/4).** Het netto-actief bedraagt 2.000,00 EUR en is gezakt onder 1/4 van het kapitaal (5.000,00 EUR). Een minderheid van 1/4 van de stemmen op de algemene vergadering kan dus de ontbinding eisen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Netto-actief = totaal activa − schulden − voorzieningen − niet-afgeschreven oprichtings- en O&O-kosten.** 📖\n\n| Stap | Berekening | Bedrag |\n|---|---|---|\n| Totaal activa | | 13.500,00 |\n| − Handelsschulden | | −9.500,00 |\n| − Oprichtingskosten (nog niet afgeschreven) | | −2.000,00 |\n| **Netto-actief** | | **2.000,00** |\n\n**Controle via eigen vermogen**: 20.000 (geplaatst) − 5.000 (niet-opgevraagd) + 3.000 (reserves) − 9.500 (overgedragen verlies) − 4.500 (resultaat periode) = 4.000,00 EUR; min 2.000 oprichtingskosten = 2.000,00 EUR. ✓ 🔗\n\n**Vergelijking met het kapitaal (20.000,00):**\n- 1/2 van kapitaal = 10.000,00 → netto-actief 2.000 < 10.000 → **eerste drempel overschreden**. 🔗\n- 1/4 van kapitaal = 5.000,00 → netto-actief 2.000 < 5.000 → **tweede drempel eveneens overschreden**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het rechtsgevolg verschilt tussen de twee drempels. Boven 1/4 (situatie 1) beslist de algemene vergadering met **gewone meerderheid** over ontbinding of voortzetting. Onder 1/4 (situatie 2) volstaat **1/4 van de uitgebrachte stemmen** om ontbinding af te dwingen — een minderheidsrecht dat schuldeisers beschermt tegen een meerderheid die een leeggelopen vennootschap kunstmatig wil voortzetten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Toepasselijk recht 2013**: art. 332 W.Venn. (BVBA) — twee drempels: bij netto-actief < 1/2 van het kapitaal is bijeenroeping van de algemene vergadering verplicht; bij netto-actief < 1/4 van het kapitaal kan ontbinding worden uitgesproken bij 1/4 van de stemmen. Daarnaast kan, indien netto-actief < het wettelijk minimumkapitaal (18.550 EUR voor BVBA onder W.Venn.), iedere belanghebbende of het openbaar ministerie de ontbinding voor de rechtbank vorderen. Berekeningsmethode netto-actief: CBN-advies 2021/14 (totaal activa minus voorzieningen, schulden en niet-afgeschreven oprichtings- en O&O-kosten). 📖",
+          "wetsref": "art. 332 W.Venn. (2013); cf. art. 7:228-7:229 WVV; CBN-advies 2021/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

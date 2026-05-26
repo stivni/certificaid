@@ -1,0 +1,263 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr14",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment `pagina_02.png` toont vraag 1 (vennootschap XYZ, balans/resultatenrekening 2011-2012) en NIET de casus 'bvba Avenir' uit deze interpretatie. tekst.txt komt wel overeen met de interpretatie (BVBA Avenir, Jean Y †, Cedric Y, oninvorderbare vordering, S-BVBA Renaissance). Vermoedelijke segmentatie-fout: vr14 hoort op een latere pagina van de PDF. Antwoord steunt op tekst.txt + interpretatie; tabel-inhoud (balans) is reeds in interpretatie overgenomen. Geen visuele claim in de feitenbasis is afhankelijk van een schema of figuur — risico op vr8-achtige vision-mismatch is dus laag.",
+  "_context_aanduiding": "Examen 2013-1: oude W.Venn. (BVBA, S-BVBA art. 211bis) was van toepassing. Sinds WVV (2019) is de BVBA vervangen door de BV en is de S-BVBA afgeschaft (alle BV's zijn kapitaalloos). Antwoorden refereren primair aan het huidige WVV (ITAA-LEX), met vermelding van het oude W.Venn.-regime omdat de casus daarin speelt.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De 45% aandelen (84 aandelen) van Jean Y gaan **van rechtswege** over op zijn enige erfgenaam Cedric Y via de erfopvolging — de **eigendom** wisselt automatisch bij overlijden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Aandelen zijn vermogensbestanddelen en vallen in de nalatenschap. Cedric verkrijgt ze als saisine-erfgenaam op het ogenblik van het overlijden (art. 4.1 ev. BW). De vennootschapsrechtelijke vraag of hij ook **aandeelhouder/vennoot** wordt — met stem- en winstrechten — is een afzonderlijke kwestie (zie deelvraag b): de BVBA is een besloten vennootschap, dus de toelating als vennoot is voorbehouden aan de medeaandeelhouders. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Erfrechtelijke overgang: art. 4.1 ev. BW (boek 4 Nalatenschappen). Vennootschapsrechtelijke overgang van aandelen ten gevolge van overlijden in de BV: art. 5:45 WVV (vroeger art. 252 W.Venn. voor de BVBA). De aandelen zijn in eigendom overgegaan; de toelating als vennoot volgt een aparte procedure. 📖",
+          "wetsref": "art. 4.1 BW; art. 5:45 WVV (oud: art. 252 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen**, niet automatisch. Cedric verkrijgt wel de aandelen in **eigendom**, maar wordt slechts volwaardig **vennoot** (met stem- en winstrechten) als de andere aandeelhouders hem aanvaarden — tenzij hij valt onder een uitzondering die de wet of de statuten kennen (echtgenoot, bloedverwant in rechte lijn, vooraf statutair aanvaarde persoon). De statuten van Avenir wijken niet af van het Wetboek. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De BVBA is een **besloten** vennootschap: het persoonlijk karakter (intuitu personae) primeert. Onder de oude W.Venn. (van toepassing in 2013) bepaalde art. 249 W.Venn. dat overgang bij overlijden onderworpen is aan de instemming van **ten minste de helft van de medevennoten die ten minste drie vierden van het kapitaal bezitten** (verminderd met de overgaande aandelen), met automatische uitzondering voor echtgenoot, bloed- en aanverwanten in rechte lijn en statutair toegelaten personen. Cedric is **zoon** van Jean → **bloedverwant in rechte lijn (eerste graad)** → hij is van rechtswege aanvaard en wordt dus **wél** automatisch vennoot. 🔗\n\nOnder het huidige WVV (art. 5:45) is de regel anders geformuleerd: de erfgenaam wordt aandeelhouder, tenzij de andere aandeelhouders de toelating weigeren — in welk geval zij verplicht zijn de aandelen tegen werkelijke waarde uit te kopen (afkoopplicht). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Het standaardantwoord \"niet automatisch\" geldt voor een willekeurige erfgenaam. In casu is Cedric **zoon** van de erflater → **bloedverwant in rechte lijn**, dus hij valt onder de **wettelijke uitzondering** (art. 249, 2° W.Venn. oud; voortbestaand als statutaire mogelijkheid onder WVV). Cedric wordt **wél** van rechtswege vennoot, zonder dat Paul X of Albert M zich kunnen verzetten. Wie blindelings \"neen, instemming nodig\" antwoordt, mist deze uitzondering en verliest punten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Oude W.Venn. (van toepassing in 2013): art. 249 W.Venn. — overdracht of overgang van aandelen BVBA aan derden vereist instemming van ten minste de helft van de vennoten met drie vierden van het kapitaal, met automatische uitzonderingen (1° aan een vennoot, 2° aan echtgenoot, 3° aan bloed- of aanverwanten in rechte lijn, 4° aan statutair toegelaten personen). Huidig WVV: art. 5:45 (overgang bij overlijden — afkoopplicht bij weigering) en art. 5:153 (overdracht onder levenden). 📖",
+          "wetsref": "art. 249 W.Venn. (oud); art. 5:45 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Voor een **overdracht onder levenden** geldt het besloten karakter: Cedric kan zijn aandelen slechts vrij overdragen aan een **medevennoot, zijn echtgenoot of een bloed-/aanverwant in rechte lijn**. Voor elke andere overnemer is **instemming vereist** van ten minste de **helft van de medevennoten die ten minste drie vierden van het kapitaal bezitten** (verminderd met de over te dragen aandelen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Concreet bij Avenir: Paul X (50%) en Albert M (5%) zijn de andere vennoten. Voor een overdracht aan een **derde** moet ten minste de helft van die twee (= ten minste 1 vennoot) instemmen én moet die ten minste 3/4 van het resterende kapitaal vertegenwoordigen. Paul X alleen voldoet aan beide drempels (50/55 ≈ 91% > 75%). Een overdracht aan **Paul X of Albert M zelf** (medevennoten) is daarentegen **vrij**. Een overdracht door miskenning van de regeling is niet tegenwerpelijk aan de vennootschap of derden (sanctie WVV art. 5:154 / oud art. 251 W.Venn.). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **overgang bij overlijden** (deelvraag b — automatische uitzondering voor zoon) niet met **overdracht onder levenden** (deelvraag c). Bij overdracht onder levenden geldt de uitzondering enkel als de overnemer een **medevennoot, echtgenoot of bloedverwant in rechte lijn van de overdrager (Cedric)** is — niet van wie de aandelen oorspronkelijk verwierf. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Oude W.Venn. (van toepassing in 2013): art. 249 W.Venn. — overdrachtsbeperking BVBA met dezelfde uitzonderingen als de overgang bij overlijden. Sanctie: art. 251 W.Venn. (oud) / art. 5:154 WVV — niet-tegenwerpbaarheid aan vennootschap en derden bij miskenning. Huidig WVV: art. 5:153 (overdracht onder levenden BV). 📖",
+          "wetsref": "art. 249, 251 W.Venn. (oud); art. 5:153, 5:154 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deel2",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De **jaarrekening per 31/12/2012 is materieel onjuist**: er had op de oninvorderbare vordering van 60.000 EUR een **waardevermindering (of definitieve afboeking als minderwaarde)** geboekt moeten worden, want de oninvorderbaarheid bestond reeds **vóór** de balansdatum. Juridisch moet de jaarrekening worden **gecorrigeerd** vóór goedkeuring door de algemene vergadering — of, indien reeds goedgekeurd, hersteld via een herstelbeslissing of via correctie in het lopende boekjaar (met toelichting). Bovendien moet onderzocht worden of **Jean Y als zaakvoerder bestuurdersaansprakelijk** was wegens nalatigheid in de invordering, en kan een vordering tegen zijn **nalatenschap** worden gericht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Juridisch te ondernemen stappen:\n\n1. **Boekhoudkundige correctie vóór AV**: vorderingen worden op balans opgenomen tegen nominale waarde, **onder voorbehoud van een waardevermindering wanneer er onzekerheid bestaat over de inning op vervaldag** (art. 3:46-47 KB WVV, vroeger art. 67-68 KB W.Venn. — CBN-advies 137/6 en 2011/15). Bij gekende oninvorderbaarheid vóór balansdatum: vordering afzonderen op 407 *Dubieuze debiteuren* en waardevermindering boeken via 6340, of bij definitieve oninvorderbaarheid (faillissement geverifieerd) rechtstreeks afboeken via 642 *Minderwaarden op realisatie van handelsvorderingen*. 🔗\n2. **Gebeurtenis na balansdatum?** Neen — de oninvorderbaarheid bestond **vóór** 31/12/2012, dus dit is geen *non-adjusting event* (IAS 10 / CBN-advies 2018/04) maar een **correctie** van een onjuiste balanspost. 🔗\n3. **Indien AV reeds gehouden** (jaarrekening al goedgekeurd): geen heropening van het afgesloten boekjaar — correctie via een **uitzonderlijke last in het lopende boekjaar 2013** met toelichting in de jaarrekening; in zware gevallen kan de AV een verbeterde jaarrekening goedkeuren (zeldzaam — vergt herneerlegging). 🔗\n4. **Bestuurdersaansprakelijkheid Jean Y**: nalatigheid in invordering kan kwalificeren als kennelijk grove fout (art. 2:56 WVV / oud art. 262 W.Venn.). Vordering wordt ingesteld tegen zijn **nalatenschap** (i.e. Cedric als enige erfgenaam, tenzij hij de nalatenschap verwerpt of aanvaardt onder voorrecht van boedelbeschrijving). 🔗\n5. **Externe accountant/commissaris**: indien aanwezig, melden in het verslag; eventuele alarmbelprocedure (art. 5:153 WVV) toetsen indien nettoactief in gedrang komt — in casu blijft nettoactief ruim positief (kapitaal 20.460 + overgedragen winst 44.540 = 65.000 EUR, een waardevermindering van 60.000 reduceert het tot 5.000 — boven kapitaal blijft het op het nippertje OK, maar geen alarmbel). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De vraag stelt expliciet \"vanuit **juridisch** standpunt\" — antwoord moet dus niet enkel de boekingsmechaniek zijn, maar ook (i) de **getrouwheidsverplichting** van de jaarrekening (art. 3:1 WVV / oud art. 24 KB W.Venn. — getrouw beeld), (ii) de **bestuurdersaansprakelijkheid** van Jean als zaakvoerder, en (iii) de **vraag naar erfopvolging** in die aansprakelijkheid (Cedric erft niet de persoonlijke fout, wel het vermogen waarop een eventueel vonnis verhaald kan worden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Waardering vorderingen: art. 3:46 KB WVV (oud art. 67 KB W.Venn.) — opname tegen nominale waarde behoudens waardevermindering bij onzekerheid. CBN-advies 137/6 (overdracht schuldvordering, nominale waarde, waardevermindering) en CBN-advies 2011/15 (waardeverminderingen op handelsvorderingen). Getrouw beeld: art. 3:1 WVV (oud art. 24 KB W.Venn.). Bestuurdersaansprakelijkheid zaakvoerder BVBA: art. 2:56 WVV (oud art. 262-263 W.Venn.). Gebeurtenissen na balansdatum: CBN-advies 2018/04. 📖",
+          "wetsref": "art. 3:46, 3:1, 2:56 WVV; CBN-advies 137/6, 2011/15, 2018/04",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja**, in 2013 was het plan in principe uitvoerbaar: de **S-BVBA (Starter-BVBA, art. 211bis W.Venn.)** kon worden opgericht met een geplaatst kapitaal van **minstens 1 EUR en hoogstens 18.550 EUR** (i.p.v. 18.550 EUR voor een gewone BVBA). Belangrijke voorwaarden: **uitsluitend natuurlijke personen** als oprichter, **maximaal 5 oprichters/aandeelhouders**, **geen oprichter mag aandelen bezitten die 5% of meer van het stemrecht in een andere BVBA vertegenwoordigen**, en de S-BVBA moet binnen **5 jaar** worden omgezet of haar kapitaal opbouwen tot 18.550 EUR. 🔗\n\n**Let op (anno 2026)**: de S-BVBA is sinds de WVV (2019) **afgeschaft**. Onder huidig recht is élke BV kapitaalloos (geen minimumkapitaal), maar wel met een **versterkt financieel plan** (art. 5:4 WVV) en **oprichtersaansprakelijkheid bij kennelijk ontoereikend aanvangsvermogen** (art. 5:15 WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Toetsing voorwaarden voor Albert M en zijn vriend:\n- **Twee natuurlijke personen** als oprichter → ✅ (≤ 5 toegestaan).\n- **Albert M houdt 5% van de aandelen van bvba Avenir** — dit is op het randje van de uitsluitingsregel. De wet vereist dat een S-BVBA-oprichter **geen aandelen houdt die 5% of meer van het stemrecht** in een andere BVBA vertegenwoordigen. Albert M zit **exact op 5%**, dus de regel wordt geactiveerd. **Hij voldoet bijgevolg NIET aan de voorwaarde** en kan in zijn huidige hoedanigheid **geen S-BVBA oprichten**. ❓\n- Oplossing: Albert M draagt eerst zijn aandelen Avenir over (of een fractie, zodat hij onder 5% zakt) — bv. door 1 aandeel over te dragen, zakt zijn belang onder 5%. Pas dan kan hij de S-BVBA oprichten met zijn vriend. 🔗\n- **Liquide middelen**: deze ontbreken bij oprichting, maar zijn niet vereist — kapitaal kan minimaal 1 EUR bedragen, en het ontbreken van werkkapitaal moet worden verantwoord in het **financieel plan** (art. 215 W.Venn., versterkte versie voor S-BVBA). De notaris kan oprichten met 1 EUR; ontbrekend werkkapitaal genereert wel een **verhoogd risico** op oprichtersaansprakelijkheid (zie e). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De vraag lijkt te suggereren dat \"geen liquide middelen\" het probleem is — dat is het juist **niet**: de S-BVBA is precies bedoeld om met minimaal kapitaal te starten. Het echte struikelblok is de **5%-regel** voor Albert M's bestaande aandelen in bvba Avenir. Wie alleen op de liquiditeit antwoordt en \"ja, want S-BVBA kan met 1 EUR\" zegt, mist de hoofdvalkuil van de vraag. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Oude W.Venn. (van toepassing in 2013): art. 211bis W.Venn. — S-BVBA — kapitaal 1 EUR tot 18.550 EUR, max. 5 natuurlijke personen, geen oprichter met ≥5% stemrechten in een andere BVBA, omzetting binnen 5 jaar of opbouw tot 18.550 EUR. Versterkt financieel plan: art. 215 W.Venn. Huidig recht: S-BVBA afgeschaft — alle BV's onder WVV zijn kapitaalloos (art. 5:1 WVV) met versterkt financieel plan (art. 5:4 WVV) en oprichtersaansprakelijkheid (art. 5:15 WVV). 📖",
+          "wetsref": "art. 211bis, 215 W.Venn. (oud); art. 5:1, 5:3, 5:4, 5:15 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De oprichters van een S-BVBA (en thans van elke BV) zijn **hoofdelijk aansprakelijk** voor alle verbintenissen van de vennootschap indien de S-BVBA/BV **binnen drie jaar na oprichting failliet** wordt verklaard en het **aanvangsvermogen kennelijk ontoereikend** blijkt voor de normale uitoefening van de voorgenomen activiteit gedurende **ten minste twee jaar**. Het financieel plan dat aan de notaris wordt overhandigd is dan **doorslaggevend bewijs**: een ondermaats plan = sterk vermoeden van oprichtersaansprakelijkheid. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Twee aansprakelijkheidsgronden zijn relevant:\n\n1. **Kapitaal/aanvangsvermogen-aansprakelijkheid** (art. 229, 5° W.Venn. oud / art. 5:15, 2° WVV) — bij faillissement binnen **3 jaar** en **kennelijk ontoereikend aanvangskapitaal**, hoofdelijk gehouden voor alle verbintenissen, naar verhouding vastgesteld door de rechter. De notaris bezorgt het financieel plan aan de rechtbank op verzoek van rechter-commissaris of procureur. 📖\n2. **Algemene oprichtersaansprakelijkheid** (art. 229, 1°-4° W.Venn. / art. 5:15, 1° WVV) — voor nietigheid van de vennootschap, ontbreken/onjuistheid van voorgeschreven vermeldingen in de oprichtingsakte, overwaardering van inbrengen in natura. 📖\n\nBijzonderheid S-BVBA: het **versterkt financieel plan** (art. 215 W.Venn. oud) vereist een verklaring van een externe accountant, bedrijfsrevisor of erkende boekhouder-fiscalist over de redelijkheid van het plan. Dit verhoogt de bewijslast die op de oprichters rust. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Voor Albert M en zijn vriend, die zonder eigen liquide middelen starten, is de aansprakelijkheid bij \"kennelijk ontoereikend aanvangsvermogen\" een **reëel risico**. Het financieel plan moet aantonen dat de S-BVBA/BV werkkapitaal heeft (krediet, achtergestelde leningen, klantvoorschotten, eigen arbeid) om twee jaar te overleven — louter \"we beginnen met 1 EUR en zien wel\" wordt door de rechter quasi-systematisch als ontoereikend gekwalificeerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Oude W.Venn. (van toepassing in 2013): art. 229 W.Venn. (oprichtersaansprakelijkheid BVBA, met §5° specifiek voor kennelijk ontoereikend kapitaal); art. 215 W.Venn. (financieel plan; versterkt voor S-BVBA). Huidig recht: art. 5:15 WVV (oprichtersaansprakelijkheid BV) en art. 5:4 WVV (versterkt financieel plan voor elke BV). De drie-jaar-termijn en het criterium \"kennelijk ontoereikend voor twee jaar normale bedrijvigheid\" zijn ongewijzigd overgenomen in het WVV. 📖",
+          "wetsref": "art. 229, 215 W.Venn. (oud); art. 5:15, 5:4 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

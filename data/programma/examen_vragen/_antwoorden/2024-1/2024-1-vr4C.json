@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr4C",
+  "antwoord_datum": "2026-05-26T15:32:37Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Herinnering-fragment: enkel de paraplu-titel \"Verschillende stellingen Juist of Fout ivm omzettingen\" is bewaard — de individuele stellingen ontbreken in zowel tekst.txt als de PNG (interpretatie-flag `subvraag_zonder_inhoud`, `volledigheid: topic_only`). Er is dus geen concrete claim om te beoordelen. Onderstaand antwoord vat in plaats daarvan de hoog-frequente J/F-kennispoints rond omzetting van vennootschappen samen die een stagiair op dit vraagstuk paraat moet hebben — als studie-anker, niet als reconstructie van de échte stellingen.",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "niet_beantwoordbaar",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Geen modelantwoord mogelijk: de concrete stellingen zijn niet bewaard in het herinnering-fragment (enkel de paraplu-titel). Hieronder de kerntoetspunten waarop een J/F-blok over **omzetting van vennootschappen** typisch mikt. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "opsomming",
+          "kop": "Hoog-frequente J/F-kennispoints — omzetting (Boek 14 WVV)",
+          "tekst": "- **Rechtspersoonlijkheid blijft behouden.** Omzetting wijzigt alleen het juridisch kleed (bv. BV → NV, CV → BV); de boekhouding, contracten en fiscale identiteit lopen ononderbroken door. 🔗\n- **Voorstel tot omzetting door het bestuursorgaan.** Vereiste stukken: (i) motivering keuze nieuwe rechtsvorm, (ii) staat van activa en passiva van maximaal **drie maanden** oud, (iii) verslag van het bestuursorgaan dat het voorstel toelicht, (iv) ontwerp van nieuwe statuten (art. 14:3 WVV). 📖\n- **Controleverslag verplicht bij elke omzetting.** Opgemaakt door de **commissaris**, of bij afwezigheid door een **bedrijfsrevisor of gecertificeerd accountant** aangewezen door het bestuursorgaan. Het is een **beoordelingsopdracht met beperkte mate van zekerheid** — geen volledige audit. 📖\n- **Conclusie van het controleverslag.** De beroepsbeoefenaar verklaart of het **nettoactief**, in alle van materieel belang zijnde opzichten, **niet overgewaardeerd** is — niet of de staat \"getrouw\" is in de zin van ISA 700. 📖\n- **Notariële tussenkomst.** De beslissing tot omzetting wordt vastgesteld bij **authentieke akte**, op straffe van nietigheid (art. 14:9 WVV). 🔗\n- **Stemmingsmeerderheid.** Omzetting vereist de meerderheid die voor statutenwijziging geldt (bijzondere meerderheid — bv. 4/5 in BV/NV), niet de gewone meerderheid. 🔗\n- **Hoofdelijke aansprakelijkheid bestuurders/oprichters bij omzetting** voor het eventuele verschil tussen het nettoactief ná omzetting en het wettelijk minimum, en voor onjuistheden in de stukken (art. 14:12 WVV). 📖\n- **Onderscheid met fusie/splitsing.** Bij omzetting is er géén overgang van vermogen naar een andere rechtspersoon — daarom géén ruilverhouding, géén partijverslag, géén art. 12:25 WVV-procedure. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **ontbinding/vereffening** (vraag 4A en 4B): die hebben hun eigen verslagregime (art. 2:71 / 2:80 WVV) en eindigen met het verdwijnen van de rechtspersoon. Omzetting daarentegen behoudt de rechtspersoon — \"vereffening\"-vocabularium hoort daar niet thuis. Een veelgemaakte fout is ook te denken dat **alleen de commissaris** het omzettingsverslag mag maken: bij afwezigheid van commissaris kan een **bedrijfsrevisor óf een gecertificeerd accountant** de opdracht uitvoeren — beide beroepen zijn wettelijk voorbehouden voor dit type beoordelingsopdracht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Boek 14 WVV** (art. 14:1 e.v.) regelt nationale omzetting (Hoofdstuk 2) en sinds 2023 ook grensoverschrijdende omzetting (Hoofdstuk 3). Kernartikelen: art. 14:3 (voorstel + staat A&P), art. 14:4 (controleverslag), art. 14:5 (toelichting bestuursorgaan), art. 14:9 (authentieke akte), art. 14:10 (vermeldingen akte), art. 14:12 (hoofdelijke aansprakelijkheid). De **ITAA-norm omzetting van een rechtsvorm van vennootschap** (modelverslagen — Bijlage 3) bevat de standaardformuleringen voor het verslag van de commissaris/bedrijfsrevisor/gecertificeerd accountant. 📖",
+          "wetsref": "Boek 14 WVV (art. 14:1 e.v.); ITAA-norm omzetting van een rechtsvorm",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

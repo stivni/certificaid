@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr17",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** — onder het destijds geldende art. 260 W.Venn. (BVBA, examen 2014) moest, wanneer de **enige zaakvoerder** tegelijk **enige vennoot** is en een tegenstrijdig vermogensrechtelijk belang heeft, een **lasthebber ad hoc** worden aangesteld die de verrichting verrichtte en daarover verslag uitbracht (vermelding dat de verrichting niet nadelig is voor het vennootschapsvermogen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Casus: dhr. LEVEQUE is **enig vennoot én enige zaakvoerder** van BVBA PETIT POIS en wil zelf een onroerend goed aan de vennootschap verkopen — klassiek **tegenstrijdig vermogensrechtelijk belang** (art. 259 W.Venn., destijds van toepassing). 🔗\n\n**Per optie**:\n- **a** (prijs verlagen tot onderhandse waarde) → FOUT. Het W.Venn. legt geen prijsplafond op; de prijs zelf moet via de tegenstrijdig-belangprocedure worden verantwoord, niet automatisch verlaagd. De accountant mag daar zijn mening over geven, maar wettelijk is dit niet de oplossing. 🔗\n- **b** (verrichting + verslag bij jaarrekening + aansprakelijkheid jegens derden) → FOUT. Dit beschrijft de gewone art. 259 W.Venn.-procedure (notulering + opname in jaarverslag/bij jaarrekening), maar die kan **niet door één enige zaakvoerder met tegenstrijdig belang alleen** worden gevolgd — art. 260 W.Venn. eiste een lasthebber ad hoc. De aansprakelijkheid jegens derden is geen toereikende waarborg. 🔗\n- **c** (gunstige verrichting, naar notaris) → FOUT. Negeert volledig de tegenstrijdig-belangprocedure en de overprijzing (680.000 EUR vs schattingswaarde 550.000 EUR). 🤖\n- **d** (lasthebber ad hoc met verslag) → JUIST. Art. 260 W.Venn. (BVBA, vóór WVV): als de enige zaakvoerder een tegenstrijdig belang heeft, wordt de verrichting verricht door een **lasthebber ad hoc** die in zijn verslag bevestigt dat de verrichting **niet nadelig is voor het vennootschapsvermogen**. 📖\n- **e** (verplicht bedrijfsrevisor) → FOUT. In een BVBA zonder commissaris is er geen wettelijke verplichting tot tussenkomst van een bedrijfsrevisor voor een verkoop tussen vennoot en vennootschap (de quasi-inbreng-revisorenverplichting van art. 220 W.Venn. geldt enkel binnen 2 jaar na oprichting, en de BVBA werd in 2009 opgericht — zie valkuil). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Deze vraag is **oud-recht** (2014, vóór WVV). Sinds de invoering van het WVV (1 mei 2019) is de **lasthebber ad hoc afgeschaft**: \"komaf gemaakt met de in artikel 260 W.Venn. bedoelde lasthebber ad hoc — heeft de enige bestuurder een belangenconflict, dan wordt de beslissing of de verrichting voorgelegd aan de **algemene vergadering**\" (MvT bij art. 5:76-5:77 WVV, herneemt oud art. 259-261 W.Venn.). 📖 Bij een eenpersoons-BV vandaag zou de enige bestuurder/vennoot het besluit zelf nemen mits onthoudingsplicht (art. 5:76 WVV) en opname in de notulen + bijzonder verslag dat samen met de jaarrekening wordt neergelegd. De **antwoordkeuze d blijft historisch correct** voor het examen 2014. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Oud recht (van toepassing in 2014)**: art. 259 W.Venn. (mededelings- en notuleringsplicht bij tegenstrijdig vermogensrechtelijk belang van een zaakvoerder in een BVBA) en art. 260 W.Venn. (lasthebber ad hoc wanneer de enige zaakvoerder een tegenstrijdig belang heeft — verslag aan de algemene vergadering met bevestiging dat de verrichting niet nadelig is voor het vermogen van de vennootschap). 🔗 **Huidig recht**: art. 5:76-5:77 WVV (onthoudingsplicht + voorlegging aan algemene vergadering bij enige bestuurder; lasthebber ad hoc afgeschaft). 📖",
+          "wetsref": "Art. 259-260 W.Venn. (oud, BVBA) — vervangen door art. 5:76-5:77 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

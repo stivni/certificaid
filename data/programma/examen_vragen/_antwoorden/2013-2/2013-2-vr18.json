@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr18",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Ja — dhr. en mevr. X kunnen een **minderheidsvordering** instellen tegen de twee zaakvoerders, namens en voor rekening van de bvba 'Invest Plan'. Met 11,3 % van de aandelen halen ze ruimschoots de wettelijke drempel, en doordat zij de kwijting niet hebben goedgekeurd is ook aan de tweede voorwaarde voldaan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Waarom dit het juiste middel is**:\n\n- De aansprakelijkheidsvordering tegen zaakvoerders behoort in beginsel toe aan de vennootschap zelf en wordt bij gewone meerderheid op de algemene vergadering beslist. 📖 Een minderheidsaandeelhouder kan daar normaal niet door, omdat de meerderheid (die de zaakvoerders heeft benoemd) doorgaans terughoudend is om hen te vervolgen.\n- De wet voorziet daarom een uitzondering: één of meer minderheidsaandeelhouders mogen de vordering **namens de vennootschap** instellen — de zogenaamde *minderheidsvordering* of *actio mandati minoritaire*. De eventuele schadevergoeding gaat naar de vennootschap, niet naar hen persoonlijk. 📖\n\n**Toepassingsvoorwaarden voor een bvba** (ten tijde van de vraag — art. 290-291 W.Venn., thans art. 2:56 juncto 5:104 WVV):\n\n1. **Aandelendrempel**: in een bvba volstond destijds 1 % van de stemmen of effecten met een waarde van ten minste €1.250.000 op de dag van de kwijtingsbeslissing. 🔗 Met 11,3 % zitten X en mevrouw daar ver boven.\n2. **Stemgedrag bij de kwijting**: de eisende aandeelhouder mag niet vóór de kwijting hebben gestemd; hij moet tegengestemd hebben, zich onthouden hebben of afwezig geweest zijn. 📖 Uit de casus blijkt dat X en mevrouw de kwijting *niet hebben goedgekeurd* — voorwaarde vervuld.\n3. **Bevoegde rechter**: de ondernemingsrechtbank van de zetel van de vennootschap.\n\nDe verduisteringen in de rekeningen zijn precies het soort bestuursfout dat tot persoonlijke aansprakelijkheid van de zaakvoerders kan leiden — de minderheidsvordering is daarvoor het op maat gesneden instrument. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Naast de minderheidsvordering hebben X en mevrouw nog twee aanvullende, minder ingrijpende middelen:\n\n- **Individuele onderzoeks- en controlebevoegdheid**: omdat de bvba geen commissaris heeft (te veronderstellen gezien de omvang), beschikt elke vennoot individueel over de onderzoeks- en controlebevoegdheid van een commissaris en mag hij zich daarbij laten bijstaan door een bedrijfsrevisor of (externe) accountant. 📖 Dit geeft hen rechtstreekse toegang tot de boeken om de verduisteringen te documenteren — vaak een nuttige *voorbereidende* stap vóór de eigenlijke aansprakelijkheidsvordering.\n- **Deskundigenonderzoek (expertise) via de rechter**: bij ernstige aanwijzingen van onregelmatigheden kan de rechter, op verzoek van een minderheidsaandeelhouder, één of meer deskundigen aanstellen om de boeken te onderzoeken (oude art. 168 W.Venn.; thans art. 3:99 WVV). De wettelijke drempel was 1 % van de stemmen of effecten ≥ €1.250.000 — eveneens vervuld.\n\nDeze drie middelen zijn cumuleerbaar: eerst de boeken laten onderzoeken (individueel of via gerechtelijke expertise), vervolgens de minderheidsvordering instellen op grond van de vastgestelde verduisteringen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Minderheidsvordering bvba**: ten tijde van het examen art. 290-291 W.Venn. (overgenomen in art. 2:56 juncto art. 5:104 WVV — bv. drempel 10 % in het huidige WVV, was 1 %/€1.250.000 onder W.Venn.). Voorwaarden: minderheidsaandeel + geen instemming met kwijting. Vordering wordt ingesteld namens en voor rekening van de vennootschap. 📖\n\n**Individuele onderzoeks- en controlebevoegdheid (geen commissaris)**: art. 3:96 WVV (voorheen art. 166 W.Venn. NV / art. 274 W.Venn. bvba). 📖\n\n**Gerechtelijk deskundigenonderzoek bij aanwijzingen van onregelmatigheden**: art. 3:99 WVV (voorheen art. 168 W.Venn.). 🔗",
+          "wetsref": "art. 290-291 W.Venn. (thans art. 2:56 + 5:104 WVV); art. 274 W.Venn. (thans art. 3:96 WVV); art. 168 W.Venn. (thans art. 3:99 WVV)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

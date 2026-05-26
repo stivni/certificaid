@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr21",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — een kapitaalverhoging in geld kan in dezelfde notariële akte gebeuren als de rechtsvormwijziging, zodat het minimumkapitaal van de NV (61.500 EUR) onmiddellijk bereikt wordt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het probleem: het eigen vermogen van de BVBA bedraagt 18.550 + 1.855 + 15.000 = **35.405 EUR**, ruim onder het NV-minimum van 61.500 EUR. Zonder kapitaalverhoging blokkeert de omzetting. 🔗\n\n**Per optie**:\n- **a** → JUIST. De notaris kan in één akte zowel de kapitaalverhoging in geld doorvoeren (om minstens tot 61.500 EUR te komen) als de rechtsvorm wijzigen. Dit is de standaard-aanpak en vereist enkel cash-storting door de zaakvoerder/aandeelhouder. 🔗\n- **b** → FOUT op de juiste reden — inbreng in natura van een schuldvordering uit rekening-courant kan principieel het kapitaal verhogen, maar vereist een verslag van een **bedrijfsrevisor** (niet \"de accountant\") naast het bestuursverslag. Het verslag is voorbehouden aan de bedrijfsrevisor wegens de waarderingscontrole bij inbreng in natura. 📖\n- **c** → FOUT. De accountant kan de **omzetting-staat van actief en passief** controleren en het omzettingsverslag opstellen (samen met de bedrijfsrevisor of commissaris als alternatief), maar de **notariële akte** is wettelijk verplicht en kan enkel door de notaris verleden worden. De accountant doet *niet* \"de gehele opdracht\". 🔗\n- **d** → FOUT. Naast de staat van actief en passief (max. 3 maanden oud) en het controleverslag zijn nog **andere stukken** vereist: het verslag van het bestuursorgaan met motivering van de omzetting, de ontwerp-statuten van de nieuwe rechtsvorm, en (bij kapitaalverhoging in natura) het bijzonder bestuursverslag plus revisorverslag over de inbreng. 🔗\n- **e** → FOUT. Het minimumkapitaal van 61.500 EUR moet ten belope van **1/4** volstort zijn (en elk aandeel ingebracht in natura volledig), niet 1/3. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Pas op met de verwarring **accountant ↔ bedrijfsrevisor**. Voor het **omzettingsverslag** (controle van de staat van actief en passief) konden onder W.Venn. de commissaris, een bedrijfsrevisor *of* een externe accountant optreden — vandaar dat optie b op het eerste gezicht plausibel lijkt. Maar bij **inbreng in natura** (zoals een schuldvordering uit rekening-courant omzetten in kapitaal) is enkel de **bedrijfsrevisor** bevoegd voor het waarderingsverslag (art. 444 / 313 W.Venn., nu art. 7:7 / 7:197 WVV). Onder het WVV (vanaf 2019) is deze tweespalt blijven bestaan: omzettingsverslag kan door accountant of revisor, maar inbreng-in-natura-verslag enkel door revisor. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Onder W.Venn. (versie 2015): art. 439 (minimum NV-kapitaal 61.500 EUR), art. 448 (volstorting 1/4), art. 776-781 (omzettingsprocedure: bestuursverslag + staat A&P max. 3 maanden oud + verslag commissaris/bedrijfsrevisor/externe accountant), art. 444 (verslag bedrijfsrevisor bij inbreng in natura bij oprichting NV), art. 602 (id. bij kapitaalverhoging in natura NV). Onder huidig WVV (2019): art. 7:2 (minimumvermogen NV 61.500 EUR), art. 7:13 (volstorting 1/4), Boek 14 (omzetting — art. 14:3 staat A&P, art. 14:4 verslagen), art. 7:197 (inbreng in natura). 📖",
+          "wetsref": "art. 439, 444, 448, 602, 776-781 W.Venn. (2015) // art. 7:2, 7:13, 7:197, 14:3-14:4 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

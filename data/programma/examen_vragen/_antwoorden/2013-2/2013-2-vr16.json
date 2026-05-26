@@ -1,0 +1,90 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr16",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De **raad van bestuur** kan de procedure van het toegestaan kapitaal opstarten, op basis van de statutaire machtiging die daartoe in de statuten van NV Vivant is opgenomen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het toegestaan kapitaal is een **statutaire machtiging** waarmee de algemene vergadering vooraf en voor een bepaalde periode (max. 5 jaar, hernieuwbaar) de bevoegdheid om het geplaatste kapitaal te verhogen, delegeert aan het bestuursorgaan. De raad van bestuur kan vervolgens — autonoom en zonder bijkomende AV-bijeenroeping of statutenwijziging — binnen het toegekende plafond (hier € 500.000) één of meerdere kapitaalverhogingen doorvoeren. 🔗 In een duaal bestuursmodel is het de **raad van toezicht** die deze bevoegdheid uitoefent. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij oprichting in 2012 gold nog art. 603 W.Venn. (oud). Het huidige WVV (boek 7) heeft de regeling materieel overgenomen in art. 7:184 — zelfde principe (statutaire delegatie aan bestuursorgaan), met als bijkomende beperking voor **genoteerde** NV's dat het toegestaan kapitaal niet hoger mag zijn dan het bestaande geplaatste kapitaal. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:184 WVV: \"De statuten kunnen aan de raad van bestuur of aan de raad van toezicht de bevoegdheid toekennen om het geplaatste kapitaal in één of meer malen tot een bepaald bedrag te verhogen.\" Samengelezen met art. 7:165 WVV: kapitaalverhoging vereist in beginsel een statutenwijziging via de AV, **behoudens binnen de grenzen van het toegestaan kapitaal** waar het bestuursorgaan beslist. Voor de feiten van 2012: art. 603 W.Venn. (oud). 📖",
+          "wetsref": "Art. 7:184 WVV (vroeger art. 603 W.Venn.); art. 7:165 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Binnen drie jaar** na de oprichting (verkrijging van rechtspersoonlijkheid) van de vennootschap. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De hoofdelijke oprichtersaansprakelijkheid wegens **kennelijk ontoereikend aanvangsvermogen** wordt enkel geactiveerd indien het faillissement wordt uitgesproken **binnen drie jaar** na de oprichting. Bovendien moet vaststaan dat het aanvangskapitaal kennelijk onvoldoende was voor de normale uitoefening van de voorgenomen bedrijvigheid over **ten minste twee jaar**, zoals dat in het **financieel plan** (art. 7:3 WVV) moest worden verantwoord. De rechter bepaalt vervolgens de verhouding waarin elke oprichter hoofdelijk gehouden is voor de verbintenissen van de vennootschap. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De driejaartermijn begint te lopen vanaf de **oprichting** (verkrijging van rechtspersoonlijkheid, dus neerlegging van het uittreksel van de oprichtingsakte), niet vanaf de start van de activiteit. Verwar deze grondslag ook niet met de **bestuurdersaansprakelijkheid wegens kennelijk grove fout** (art. XX.225 WER) — die is niet aan een driejaartermijn gebonden en treft bestuurders, niet de oprichters als zodanig. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:17, 2° WVV: \"voor de verbintenissen van de vennootschap, naar een verhouding die de rechter vaststelt, in geval van faillissement uitgesproken **binnen drie jaar na de oprichting**, indien het kapitaal bij de oprichting kennelijk ontoereikend was voor de normale uitoefening van de voorgenomen bedrijvigheid over ten minste twee jaar.\" Voor de feiten van 2012 gold het materieel identieke art. 456, 4° W.Venn. (oud). De notaris maakt op verzoek van de rechter-commissaris of de procureur des Konings het financieel plan over aan de rechtbank. 📖",
+          "wetsref": "Art. 7:17, 2° WVV (vroeger art. 456, 4° W.Venn.); art. 7:3 WVV (financieel plan)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

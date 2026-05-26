@@ -1,0 +1,58 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrJ2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De werkgever beëindigt de arbeidsovereenkomst van een bediende voor onbepaalde tijd door **kennisgeving van een opzegging**, op straffe van nietigheid **enkel** bij **ter post aangetekende brief** (uitwerking de derde werkdag na verzending) **of bij gerechtsdeurwaardersexploot**. De brief moet **het begin en de duur van de opzeggingstermijn** vermelden. De termijn begint te lopen op de **maandag** volgend op de week van kennisgeving en wordt sinds het Eenheidsstatuut (2014) berekend in **weken** volgens art. 37/2 e.v. van de Arbeidsovereenkomstenwet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Stappen in de ontslagprocedure (werkgever → bediende):**\n\n1. **Beslissing tot ontslag** — geen voorafgaande formaliteit verplicht, maar de werkgever moet kunnen aantonen dat hij geen **kennelijk onredelijk ontslag** geeft (CAO nr. 109). 🔗\n2. **Opstellen van de opzeggingsbrief** — moet op straffe van nietigheid **het begin en de duur van de opzeggingstermijn** bevatten (art. 37 §1, derde lid). 📖\n3. **Kennisgeving** — op straffe van nietigheid **uitsluitend** via:\n   - **ter post aangetekende brief** (uitwerking pas de **derde werkdag** na verzending), of\n   - **gerechtsdeurwaardersexploot** (onmiddellijke uitwerking). 📖\n   Een gewone brief, e-mail of mondelinge mededeling is **nietig**.\n4. **Aanvang van de opzeggingstermijn** — de **maandag** volgend op de week waarin de kennisgeving uitwerking heeft (art. 37/1). 🔗\n5. **Duur van de opzeggingstermijn** — sinds 1 januari 2014 uniform voor arbeiders én bedienden, in **weken**, volgens een wettelijk schema in **functie van de anciënniteit** (art. 37/2). Vóór 2014 gold voor bedienden de regel-Claeys / art. 82 oud (in maanden, vanaf 3 maanden per begonnen schijf van 5 jaar voor \"lagere\" bedienden; voor \"hogere\" bedienden bij overeenkomst of rechter te bepalen). 🔗\n6. **Uitvoering tijdens de opzegging** — de bediende blijft normaal werken; hij heeft recht op **sollicitatieverlof** (één à twee halve of hele dagen per week, art. 41). 📖 De werkgever kan de opzegging vervangen door een **verbrekingsvergoeding** gelijk aan het lopend loon over de niet-gepresteerde opzegtermijn (art. 39). 🔗\n7. **Einde** — op de laatste dag van de termijn worden C4, vakantieattest, individuele rekening en loonbrief afgeleverd. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Vormvereiste is absoluut**. Een opzegging per gewone brief, e-mail of mondeling is **nietig** — de werkgever wordt dan geacht de overeenkomst onregelmatig te hebben verbroken en is een **verbrekingsvergoeding** verschuldigd gelijk aan het loon over de volledige opzeggingstermijn (art. 39 §1). De **werknemer kan de nietigheid niet dekken** en zij wordt **ambtshalve** door de rechter opgeworpen (art. 37 §1). 📖 Tweede valkuil: de aangetekende brief heeft **pas uitwerking de derde werkdag na verzending** — datum van verzending ≠ datum van kennisgeving. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "**Tijdsverankering**. De vraag dateert van 2003, toen voor bedienden nog **art. 82 van de Arbeidsovereenkomstenwet** gold (onderscheid lagere/hogere bedienden, opzegtermijn in maanden, regel-Claeys voor hogere bedienden). Sinds het **Eenheidsstatuut** (Wet 26 december 2013, in werking 1 januari 2014) zijn art. 78 en art. 82 opgeheven en geldt **art. 37/2** met een uniform schema in weken voor arbeiders én bedienden. De **vormvereisten van art. 37 §1** (aangetekend of deurwaardersexploot, vermelding begin en duur) zijn ongewijzigd gebleven en golden ook in 2003. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wet 3 juli 1978 betreffende de arbeidsovereenkomsten**, art. 37 §1 (vormvereisten kennisgeving opzegging: aangetekende brief — uitwerking derde werkdag — of gerechtsdeurwaardersexploot; vermelding begin en duur op straffe van nietigheid); art. 37/1 (aanvang termijn op de maandag na de week van kennisgeving); art. 37/2 (uniforme opzegtermijnen in weken, sinds Eenheidsstatuut 2014); art. 39 (verbrekingsvergoeding bij onregelmatig ontslag); art. 41 (sollicitatieverlof tijdens opzegging). Aanvullend: **CAO nr. 109** van de NAR (kennelijk onredelijk ontslag) en art. 82 oud (regime van toepassing op het examenjaar 2003, opgeheven door W. 26 december 2013). 📖",
+          "wetsref": "art. 37, 37/1, 37/2, 39, 41 Arbeidsovereenkomstenwet 3 juli 1978; CAO nr. 109 NAR",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

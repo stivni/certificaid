@@ -1,0 +1,89 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI5",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De oprichters van een BV (vroeger BVBA) zijn niettegenstaande elk strijdig beding **hoofdelijk aansprakelijk** jegens belanghebbenden op twee gronden: (1) **oprichtingsgebreken** — nietigheid, ontbrekende of onjuiste akteverklaringen en kennelijke overwaardering van inbrengen in natura; (2) **kennelijk ontoereikend aanvangsvermogen** — als de vennootschap binnen **drie jaar** na de oprichting failliet wordt verklaard en het aanvangsvermogen kennelijk ontoereikend was voor de normale uitoefening van de voorgenomen bedrijvigheid over ten minste **twee jaar**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concreet — art. 5:15 WVV (vroeger art. 229 W.Venn. voor de BVBA):\n\n- **Oprichtingsgebreken** (1°): hoofdelijke aansprakelijkheid voor schade die het onmiddellijke gevolg is van (a) nietigheid van de vennootschap (art. 5:12), (b) ontbreken of onjuistheid van de in art. 5:11 voorgeschreven akteverklaringen, of (c) kennelijke overwaardering van inbrengen in natura. 📖\n- **Faillissement binnen drie jaar** (2°): voor de verbintenissen van de vennootschap, **naar een verhouding die de rechter vaststelt**, als de vennootschap binnen drie jaar na de oprichting failliet gaat én het aanvangsvermogen bij oprichting kennelijk ontoereikend was voor de normale uitoefening van de activiteit over minstens twee jaar. De notaris maakt dan op verzoek van de rechter-commissaris of het parket het **financieel plan** (art. 5:4) over aan de rechtbank. 📖\n- **Belanghebbenden** = de vennootschap zelf, aandeelhouders en schuldeisers. De vordering kan worden ingesteld door de curator namens de boedel. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De oprichtersaansprakelijkheid voor faillissement binnen drie jaar is **niet** automatisch — ze hangt af van de beoordeling door de rechter van het financieel plan: heeft de oprichter **redelijkerwijs** het aanvangsvermogen verantwoord? Een grondig, realistisch financieel plan met onderbouwde prognoses (omzet, kosten, financieringsbronnen) is dus het belangrijkste verweermiddel. Sinds WVV (2019) geldt deze aansprakelijkheid voor het volledige **aanvangsvermogen** (eigen vermogen + achtergestelde leningen), niet meer voor een minimumkapitaal — het beoordelingscriterium is verstrengd, niet verzwakt. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Vandaag**: art. 5:15 WVV (oprichtersaansprakelijkheid BV) jo. art. 5:4 WVV (verplicht financieel plan). **Ten tijde van het examen (2008)**: art. 229 W.Venn. (BVBA) jo. art. 215 W.Venn. (financieel plan). De inhoudelijke structuur — oprichtingsgebreken + faillissement binnen drie jaar bij ontoereikend (kapitaal/aanvangsvermogen) — is bij de overgang naar WVV ongewijzigd gebleven; alleen de term “kapitaal” werd vervangen door “aanvangsvermogen” omdat de BV kapitaalloos werd. 🔗",
+          "wetsref": "Art. 5:15 WVV (art. 229 W.Venn., vroegere BVBA)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De aansprakelijkheidsregeling is **structureel identiek** (zelfde twee gronden, zelfde driejarige termijn, zelfde tweejaarsmaatstaf voor het financieel plan) — art. 7:17 WVV voor de NV spiegelt art. 5:15 WVV voor de BV. De belangrijkste verschillen zitten in (1) **wie kwalificeert als oprichter** en (2) de **referentiemaatstaf** (kapitaal bij NV — minimum 61.500 EUR, volledig geplaatst en volgestort; aanvangsvermogen bij BV — geen minimum, maar moet “toereikend” zijn). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Verschillen tussen NV (art. 7:17 WVV / vroeger art. 456 W.Venn.) en BV (art. 5:15 WVV / vroeger art. 229 W.Venn.):\n\n- **Kring van oprichters**: bij de NV kunnen “loutere onderschrijvers” — aandeelhouders die zich niet als oprichter hebben gemanifesteerd in de akte — zich onttrekken aan de oprichtersaansprakelijkheid, op voorwaarde dat de oprichters samen **minstens een derde** van het kapitaal vertegenwoordigen (figuur van de “mede-onderschrijver”, art. 7:12 WVV / oud art. 450 W.Venn.). Bij de BV bestond deze splitsing niet — alle deelnemers aan de oprichtingsakte zijn in beginsel oprichter. 🤖\n- **Referentiemaatstaf voor faillissement-binnen-3-jaar**: NV — “het **kapitaal** kennelijk ontoereikend” (art. 7:17, 2°); BV — “het **aanvangsvermogen** kennelijk ontoereikend” (art. 5:15, 2°). Voor de NV blijft het wettelijk minimumkapitaal van **61.500 EUR** (volledig geplaatst en volgestort, art. 7:2 WVV) bestaan; voor de BV is sinds WVV elk minimumkapitaal afgeschaft. 📖\n- **Inhoud financieel plan**: art. 7:3 WVV (NV) en art. 5:4 WVV (BV) zijn quasi-identiek qua structuur — beide eisen voorgenomen bedrijvigheid, financieringsbronnen, openingsbalans + projecties op 12 en 24 maanden. Voor de NV verantwoordt het plan “het bedrag van het kapitaal”; voor de BV “het bedrag van het aanvangsvermogen”. 📖\n- **Quasi-inbreng**: bij de NV geldt een specifieke quasi-inbrengregeling (art. 7:8 WVV / oud art. 445 W.Venn.) voor verkrijgingen door de vennootschap binnen twee jaar na oprichting van een goed dat toebehoort aan een oprichter/bestuurder/aandeelhouder, met verslag van bedrijfsrevisor; bij de BV is dat regime vereenvoudigd. 🔗\n- **Onder W.Venn. (2008-context)**: minimumkapitaal BVBA = 18.550 EUR (waarvan minstens 6.200 EUR volgestort bij oprichting met meerdere vennoten, 12.400 EUR bij EBVBA); minimumkapitaal NV = 61.500 EUR volledig volgestort. Voor de NV kon “kennelijk ontoereikend” nooit onder dat wettelijk minimum zakken; voor de BVBA had de rechter meer bewegingsruimte. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De “kring van oprichters”-uitzondering bij de NV is praktisch belangrijk: in een NV met meerdere kapitaalverschaffers kan een **passieve investeerder** zich (mits aan de wettelijke voorwaarden voldaan, met name de derdebreukregel) beperken tot de rol van gewone aandeelhouder — die loopt dan alleen het kapitaalverliesrisico, niet de oprichtersaansprakelijkheid. In een BV is dat niet mogelijk: wie meeondertekent als oprichter, krijgt automatisch het volledige aansprakelijkheidsregime. Dit is voor de stagiair-accountant relevant bij het adviseren over rechtsvormkeuze en aandeelhoudersstructuur. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Vandaag**: art. 7:17 WVV (oprichtersaansprakelijkheid NV) jo. art. 7:3 WVV (financieel plan NV) jo. art. 7:12 WVV (mede-onderschrijvers / kring oprichters). **Ten tijde van het examen (2008)**: art. 456 W.Venn. (NV) jo. art. 440 W.Venn. (financieel plan NV) jo. art. 450 W.Venn. (mede-onderschrijvers). De verschillen BV/NV in de hedendaagse WVV-tekst weerspiegelen de oude verschillen BVBA/NV uit het W.Venn., met als grote breuk de afschaffing van het minimumkapitaal voor de BV (was BVBA: 18.550 EUR; is BV: geen). 🔗",
+          "wetsref": "Art. 7:17 WVV (art. 456 W.Venn., NV) vs. art. 5:15 WVV (art. 229 W.Venn., BVBA/BV)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

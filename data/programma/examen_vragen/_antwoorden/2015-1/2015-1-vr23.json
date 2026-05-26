@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr23",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — de jaarrekening moet binnen zes maanden na afsluiting van het boekjaar (dus uiterlijk 30 juni voor een boekjaar dat afsluit op 31/12) ter goedkeuring worden voorgelegd; bij laattijdigheid wordt de schade van derden, behoudens tegenbewijs, vermoed voort te vloeien uit dit verzuim, met aansprakelijkheid van de bestuurders als gevolg. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Beoordeling per optie:\n\n- **a** — FOUT. Het feit dat de jaarrekening *uiteindelijk* wordt goedgekeurd, heelt de overtreding van de zesmaandentermijn niet. De wet koppelt aan de laattijdigheid een **weerlegbaar vermoeden** van causaal verband met door derden geleden schade — dat vermoeden ontstaat onafhankelijk van de latere goedkeuring. 🔗\n- **b** — JUIST. Reproduceert de wettelijke regel: termijn van zes maanden + vermoeden van oorzakelijk verband met schade van derden, behoudens tegenbewijs. 📖\n- **c** — FOUT. Het niet tijdig afwerken van de jaarrekening is precies het verzuim waarvoor de bestuurders aansprakelijk kunnen worden gesteld; het is geen rechtvaardigingsgrond maar de fout zelf. Het bestuursorgaan moet de jaarrekening tijdig opmaken én ter goedkeuring voorleggen. 🔗\n- **d** — FOUT. De NBB legt geen boete op voor laattijdige *bijeenroeping* van de algemene vergadering. De NBB int wel een bijdrage voor laattijdige *neerlegging* van de jaarrekening (art. 3:13 WVV, vroeger art. 101 W.Venn.) — dat is iets anders (verschoven termijn van zeven maanden, sanctie op neerlegging, niet op bijeenroeping). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren: **zes maanden** = termijn waarbinnen de algemene vergadering de jaarrekening moet goedkeuren (art. 3:1, § 1, tweede lid WVV; in 2014 nog art. 92 W.Venn.). **Zeven maanden** = uiterste termijn voor *neerlegging* bij de Balanscentrale van de NBB (art. 3:10 WVV; vroeger art. 98 W.Venn.). Overschrijding van de zes maanden raakt de bestuurdersaansprakelijkheid (vermoeden van schade); overschrijding van de zeven maanden triggert daarnaast de financiële bijdrage van art. 3:13 WVV aan de NBB. Een laattijdige bijeenroeping op 20/07/2014 voor boekjaar 2013 overschrijdt sowieso ook de neerleggingsdeadline van 31/07. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Op het ogenblik van de feiten (2014): **art. 92, § 1 W.Venn.** schreef voor dat de jaarrekening binnen zes maanden na afsluiting van het boekjaar aan de algemene vergadering werd voorgelegd; bij verzuim werd de door derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim. Huidige tegenhanger: **art. 3:1, § 1, tweede lid WVV** (zesmaandentermijn) gekoppeld aan de algemene bestuurdersaansprakelijkheid van **art. 2:56 WVV**. CBN-advies 2020/08 bevestigt expliciet dat overschrijding van de zesmaandentermijn de aansprakelijkheid van het bestuursorgaan in het gedrang brengt. 📖",
+          "wetsref": "Art. 3:1, § 1, tweede lid WVV (in 2014: art. 92, § 1 W.Venn.); art. 2:56 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

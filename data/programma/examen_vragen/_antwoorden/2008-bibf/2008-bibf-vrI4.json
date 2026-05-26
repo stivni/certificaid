@@ -1,0 +1,46 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI4",
+  "antwoord_datum": "2026-05-26T15:31:10Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — in 2008 kon een burgerlijke vennootschap met handelsvorm (bv. een NV/BVBA met een burgerlijk doel zoals een vrij beroep, landbouw of vastgoed-beheer) geen gerechtelijk akkoord bekomen, omdat de Wet van 17 juli 1997 op het gerechtelijk akkoord enkel openstond voor **kooplieden** in de zin van art. 1 Wetboek van Koophandel, en het aannemen van een handelsvorm volstaat niet om die hoedanigheid te verkrijgen — het maatschappelijk doel blijft beslissend. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Redenering in drie stappen:\n\n1. **Toepassingsgebied Wet 17 juli 1997 (WGA)** — art. 3 WGA opende de procedure enkel voor *kooplieden* (en bij uitbreiding handelsvennootschappen die effectief koopman-daden stellen). 🔗\n2. **Koopman-hoedanigheid is doel-gebonden, niet vorm-gebonden** — vaste rechtspraak (o.m. Cass. 19 januari 1973) en heersende leer: een vennootschap is koopman wanneer haar *werkelijke maatschappelijk doel* in daden van koophandel (art. 2-3 W.Kh.) bestaat. Het loutere aannemen van een handelsvorm (NV, BVBA, Comm.V., ...) heeft een burgerlijke vennootschap niet tot koopman gemaakt. 🔗\n3. **Gevolg** — de burgerlijke vennootschap met handelsvorm viel **noch** onder de WGA, **noch** onder het faillissementsrecht (Faill.W. 1997 vereiste eveneens koopman-hoedanigheid). Zij was aangewezen op het gemeen recht (ontbinding-vereffening, individuele uitvoeringsmaatregelen door schuldeisers). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Deze beperking is sindsdien **opgeheven**. De Wet Continuïteit Ondernemingen (WCO, 31 januari 2009, in werking 1 april 2009) verving de WGA en breidde het toepassingsgebied uit; het huidige **Boek XX WER** (in werking 1 mei 2018, herzien 1 september 2023) hanteert het ruime begrip *onderneming* uit art. I.1, 1° WER — elke natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel nastreeft, met inbegrip van burgerlijke vennootschappen, vrije beroepers en VZW's. De vraag uit 2008 heeft dus enkel historische waarde: vandaag zou het antwoord **ja** zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wetboek-van-Economisch-Recht.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Toen geldend recht (2008): art. 3 Wet 17 juli 1997 betreffende het gerechtelijk akkoord (koopman-vereiste); art. 1-3 Wetboek van Koophandel (definitie koopman en daden van koophandel); Cass. 19 januari 1973 (doel-criterium voor koopman-hoedanigheid van vennootschap met handelsvorm). 🤖 Vandaag (sinds 1 mei 2018, herziening 1 september 2023): art. XX.45 WER (gerechtelijke reorganisatie) gelezen met art. I.1, 1° WER (ruim ondernemingsbegrip — omvat ook burgerlijke vennootschappen). 🔗",
+          "wetsref": "Art. 3 Wet 17 juli 1997 GA (historisch) — vandaag art. XX.45 + art. I.1, 1° WER",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wetboek-van-Economisch-Recht.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

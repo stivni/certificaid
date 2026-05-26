@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr1B",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een quasi-inbreng in een NV kan gebeuren door een **oprichter** (persoon door of namens wie de oprichtingsakte of ontwerp-oprichtingsakte is ondertekend), een **bestuurder** of een **aandeelhouder** van de vennootschap. De regeling vangt ook de **stroman** op: wie in eigen naam maar voor rekening van zo'n persoon overdraagt, valt eveneens onder het regime. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Quasi-inbreng is een verkrijging door de NV van een vermogensbestanddeel dat aan een van de hierboven genoemde personen toebehoort, **binnen twee jaar na het verkrijgen van de rechtspersoonlijkheid**, voor een vergoeding van **ten minste 10 % van het geplaatste kapitaal**. 🔗 De wet wil vermijden dat de strenge inbreng-in-natura-regels (revisorenverslag, waarderingscontrole) worden omzeild door eerst in geld op te richten en kort daarna activa van een insider aan te kopen. 🔗 Daarom worden alleen die personen geviseerd die bij de oprichting een informatievoorsprong of invloed hadden of hebben: oprichters, bestuurders en aandeelhouders — plus hun stromannen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het quasi-inbreng-regime geldt **alleen in de NV** (art. 7:8 WVV). Sinds het WVV (2019) is er **geen quasi-inbreng meer in de BV en de CV** — daar bestaat de figuur niet langer. Vergeet ook niet de stroman-uitbreiding: de wet treft niet enkel de rechtstreekse overdracht door een oprichter/bestuurder/aandeelhouder, maar ook de overdracht door een tussenpersoon die voor hun rekening handelt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:8 WVV — een commissaris (of bij gebrek een door het bestuursorgaan aangewezen bedrijfsrevisor) stelt een verslag op over elk vermogensbestanddeel dat \"toebehoort aan een persoon door of namens wie de oprichtingsakte, de ontwerp-oprichtingsakte is ondertekend, aan een bestuurder of aan een aandeelhouder\" en dat de NV overweegt te verkrijgen binnen twee jaar na de oprichting tegen een vergoeding van ten minste 10 % van het geplaatste kapitaal. Het tweede lid breidt dit uit tot de overdracht door een persoon die in eigen naam, maar voor rekening van een hierboven bedoelde persoon handelt. 📖",
+          "wetsref": "Art. 7:8 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

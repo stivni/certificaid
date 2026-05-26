@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI3",
+  "antwoord_datum": "2026-05-26T15:31:33Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, een procedure is vereist** — maar in een zachte variant: de zaakvoerder mag de verrichting uitvoeren, op voorwaarde dat hij er een **bijzonder verslag** over opstelt dat samen met de jaarrekening wordt neergelegd (art. 261 W.Venn., examenjaar 2008). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Toepassing van art. 261 W.Venn. (pre-WVV, geldend in 2008) op deze casus:\n\n- De zaakvoerder van de BVBA heeft een **rechtstreeks belang van vermogensrechtelijke aard** dat strijdig is met dat van de vennootschap → het belangenconflictregime wordt geactiveerd. 🔗\n- Omdat de zaakvoerder **tevens de enige vennoot** is, valt de gewone procedure van art. 259 W.Venn. (mededeling aan medebestuurders, onthouding, beslissing door overigen) weg — er zijn geen andere bestuurders en geen andere vennoten die de beslissing kunnen overnemen. 🔗\n- Art. 261 W.Venn. voorziet in dat geval een **vereenvoudigd regime**: de zaakvoerder/enige vennoot mag de beslissing zelf uitvoeren, maar moet de verrichting **schriftelijk verantwoorden in een bijzonder verslag** dat **samen met de jaarrekening wordt neergelegd** bij de Nationale Bank. 📖\n- Doel: minimale transparantie naar derden (schuldeisers, fiscus) behouden, ook al ontbreken interne checks.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Sinds **1 januari 2020** (WVV) is de BVBA vervangen door de BV en is art. 261 W.Venn. opgeheven. De huidige tegenhanger is **art. 5:77 WVV** (eenpersoons-BV waarvan de enige bestuurder tevens de enige aandeelhouder is): hij neemt de beslissing en de gevolgen worden **vermeld in het stuk dat samen met de jaarrekening wordt neergelegd** (art. 5:23 WVV). De redenering is identiek aan 2008 — enkel de wetsverwijzing is geactualiseerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 261 W.Venn.** (Wetboek van Vennootschappen, versie 2008) — belangenconflictregime BVBA met enige vennoot-zaakvoerder: verrichting toegelaten, maar bijzonder verslag verplicht dat samen met de jaarrekening wordt neergelegd. De MvT bij het WVV bevestigt dat de huidige art. 5:76-5:77 WVV \"grotendeels de bestaande artikelen 259-261 W.Venn. hernemen\", met als wijziging dat de lasthebber ad hoc verdwijnt en de beslissing bij conflict van alle bestuurders wordt voorgelegd aan de algemene vergadering. 📖",
+          "wetsref": "Art. 261 W.Venn. (2008) / art. 5:77 WVV (vanaf 2020)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

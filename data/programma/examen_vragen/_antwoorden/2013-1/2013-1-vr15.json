@@ -1,0 +1,121 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr15",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Een fiscale ontradingstaks op de omzetting van effecten aan toonder** — 1 % bij omzetting in 2012, 2 % bij omzetting in 2013 (\"omzettingstaks\"). De houder kon — en moest, om de heffing te vermijden of beperken — zijn toondereffecten **vóór 31 december 2013 actief laten omzetten** in gedematerialiseerde effecten (inboeking op een effectenrekening bij een erkende rekeninghouder) of in effecten op naam (inschrijving in het register van de emittent). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wet van 14 december 2005 plande een geleidelijke uitfasering: geen nieuwe uitgiften meer sinds 1/1/2008, en omzettingsdeadline op 31/12/2013. Om houders aan te zetten tijdig om te zetten en zo de eindstand op 1/1/2014 te beperken, werd via de wet van 28 december 2011 (programmawet, art. 167–169 — invoeging in het Wetboek diverse rechten en taksen) een **degressief-stijgend tarief** ingevoerd op de omzettingsverrichting zelf: **1 % in 2012, 2 % in 2013**. 🔗 De taks werd ingehouden door de tussenpersoon (bank/emittent) op het moment van inboeking op de effectenrekening of inschrijving in het register. 🔗 De praktische actie van de houder: zijn fysieke effectenstukken aanbieden bij zijn bank of bij de emittent met opdracht tot dematerialisering of inschrijving op naam. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De tarief-opstap (1 % → 2 %) was bedoeld om uitstellen te bestraffen: hoe later de houder omzette, hoe duurder. Toch konden niet alle effecten tijdig omgezet worden — vandaar het van-rechtswege-mechanisme in deelvraag b. De omzettingstaks is een **eenmalige** verrichtingstaks, niet te verwarren met de latere jaarlijkse taks op effectenrekeningen (ingevoerd in 2018, opnieuw in 2021). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wet van 14 december 2005 houdende afschaffing van de effecten aan toonder (art. 7 — omzettingsverplichting tegen 31/12/2013). Wet van 28 december 2011 houdende diverse bepalingen (programmawet), art. 167–169 — invoeging van de omzettingstaks in het Wetboek diverse rechten en taksen: 1 % voor omzettingen in 2012, 2 % voor omzettingen in 2013. ❓ — exacte artikelverwijzing niet bevestigd in de RAG-bronnen die op dit punt geen specifieke chunk teruggaven; tarieven en jaartallen zijn vaste examen-doctrine.",
+          "wetsref": "Wet 14 december 2005, art. 7 · Wet 28 december 2011 (programmawet), art. 167–169",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Effecten die op 31 december 2013 niet vrijwillig omgezet waren, worden **op 1 januari 2014 van rechtswege omgezet** — in gedematerialiseerde effecten (als de emittent de nodige regelingen daartoe had getroffen) of anders in effecten op naam — en **ingeschreven op naam van de emittent zelf** op een effectenrekening of in het effectenregister. De rechten verbonden aan die effecten (stemrecht, dividend, deelname aan de algemene vergadering) zijn **opgeschort** zolang de oorspronkelijke rechthebbende zich niet bekendmaakt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Mechanisme volgens art. 9 van de wet van 14 december 2005: 📖\n\n- **Emittent had dematerialisering geregeld** → effecten van rechtswege omgezet in gedematerialiseerde effecten en ingeschreven op een effectenrekening op naam van de emittent. 📖\n- **Emittent had dematerialisering niet geregeld** → effecten van rechtswege omgezet in effecten op naam en ingeschreven in het effectenregister op naam van de emittent. 📖\n\nDe oorspronkelijke houder verliest **niet** zijn eigendomsrecht — de emittent houdt de effecten enkel \"in bewaring\". Wel zijn de eraan verbonden rechten **opgeschort tot de rechthebbende zich bekendmaakt** (door overlegging van het fysieke effect of bewijs van zijn recht). De omgezette effecten worden niet voorgelegd aan de algemene vergadering van 2014. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De omzetting van rechtswege is **geen onteigening**: de rechthebbende behoudt zijn eigendomsrecht en kan zich tot 30 november 2015 (in eerste instantie — later verlengd) komen aanmelden om de effecten op zijn naam te laten zetten. Pas vanaf 1/1/2015 worden de niet-opgeëiste effecten te koop aangeboden (zie deelvraag c). De CBN merkt op dat de van-rechtswege-omzetting voor de emittent een \"belangrijke gebeurtenis na balansdatum\" kan vormen die in het jaarverslag 2013 wordt vermeld (art. 96, § 1, 2° W.Venn., nu art. 3:6 WVV). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wet van 14 december 2005 houdende afschaffing van de effecten aan toonder, art. 9 — omzetting van rechtswege op 1/1/2014, inschrijving op naam van de emittent, opschorting van de rechten tot bekendmaking. Bevestigd en geduid in CBN-advies 2014/6. 📖",
+          "wetsref": "Wet 14 december 2005, art. 9 · CBN-advies 2014/6",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Vanaf 1 januari 2015 moet de emittent de effecten waarvan de rechthebbende zich niet bekendgemaakt heeft te koop aanbieden** — via **openbare veiling** of, als de effecten genoteerd zijn, **op de gereglementeerde markt** waarop ze noteren. De netto-opbrengst van de verkoop wordt **geconsigneerd bij de Deposito- en Consignatiekas** ten gunste van de oorspronkelijke rechthebbende; die kan ze nog gedurende een wettelijke termijn opvragen (mits bewijs van zijn recht), waarna zij **definitief aan de Belgische Staat toekomt** (verjaring ten gunste van de Schatkist). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Volgorde: 📖\n\n1. **Vanaf 1/1/2015**: de emittent biedt de niet-opgeëiste, op zijn naam ingeschreven effecten te koop aan — openbare veiling, of (bij beursnotering) op de gereglementeerde markt.\n2. De netto-opbrengst (verkoopprijs verminderd met de verkoopkosten) wordt **gedeponeerd bij de Deposito- en Consignatiekas** op naam van de oorspronkelijke (onbekende) rechthebbende.\n3. De rechthebbende die zich nadien aanmeldt en zijn recht bewijst, kan het bedrag opvragen — **mits inhouding van een boete van 10 % per begonnen jaar vertraging** vanaf 1/1/2016.\n4. Na het verstrijken van de wettelijke bewaarperiode komt het saldo aan de **Staat** toe. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Belangrijk onderscheid: de **effecten zelf** verdwijnen voor de rechthebbende vanaf de verkoop in 2015 (hij krijgt enkel nog de geldopbrengst), maar de **opbrengst** blijft daarna nog jaren opvraagbaar bij de Deposito- en Consignatiekas. De definitieve verjaring ten gunste van de Schatkist treedt pas véél later in. De examen-essentie: vanaf 2015 → te koop, opbrengst naar Deposito- en Consignatiekas, boete van 10 % per jaar vertraging bij latere opvraging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wet van 14 december 2005 houdende afschaffing van de effecten aan toonder, art. 11 (verkoop door de emittent vanaf 1/1/2015 via openbare veiling of gereglementeerde markt) en art. 12 (consignatie van de opbrengst bij de Deposito- en Consignatiekas, boete van 10 % per jaar bij laattijdige opvraging, finale toewijzing aan de Staat). Bevestigd in CBN-advies 2014/6. 📖",
+          "wetsref": "Wet 14 december 2005, art. 11–12 · CBN-advies 2014/6",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

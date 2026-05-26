@@ -1,0 +1,95 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr21",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment pagina_02.png toont in feite de coverpagina/Vraag 1 (PETRUS BVBA) — niet vr21. Auto-isolatie-artefact (segmenter wees pagina 2 toe terwijl vr21 op een latere pagina staat). tekst.txt bevat de OCR van de eigenlijke vr21-inhoud (VOF STORE) en die strookt volledig met de balans in de interpretatie (totaal actief 86.000, vordering NV TURF 12.000, aandelen NV TURF 24.000, definitief dividend 4.000 = 1/3). Antwoord is gebouwd op tekst.txt + interpretatie; geen PNG-detectie-mismatch op inhoud.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Besluit controleverslag (afkeurend / onthoudend)**: na de noodzakelijke waardecorrecties bedraagt het netto-actief **−6.000,00 EUR** (negatief). Het is dus *overgewaardeerd* in de door het bestuursorgaan voorgelegde staat van activa en passiva, en het ligt bovendien onder het wettelijk minimumkapitaal van de BVBA (18.550,00 EUR — art. 214 W.Venn. zoals van toepassing in 2013). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Te maken berekening — twee waardecorrecties op de Turf-posten**:\n\n- **Vordering NV TURF (28)**: nominaal 12.000,00 EUR; recupereerbaar via failliet-dividend 1/3 = 4.000,00 EUR → **waardevermindering 8.000,00 EUR**. 🔗\n- **Aandelen NV TURF (28)**: NV TURF is failliet en betaalt slechts 1/3 aan de schuldeisers — de aandeelhouders staan achter de schuldeisers in rang en krijgen niets → de aandelen zijn **waardeloos**, volledige waardevermindering **24.000,00 EUR**. 🔗\n\n**Netto-actief vóór correctie**: 10.000 + 1.000 + 15.000 = **26.000,00 EUR** (of: 86.000 totaal actief − 60.000 schulden).\n\n**Netto-actief ná correctie**: 26.000 − 8.000 − 24.000 = **−6.000,00 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "tabel",
+          "tekst": "**Gecorrigeerde balans VOF STORE per 31/12/2013** (na waardecorrectie Turf-posten):\n\n| Actief | Bedrag | | Passief | Bedrag |\n|---|---:|---|---|---:|\n| 23 Installaties en machines | 20.000,00 | | 10 Kapitaal | 10.000,00 |\n| 28 Aandelen NV TURF | 0,00 | | 13 Wettelijke reserves | 1.000,00 |\n| 28 Vordering NV TURF | 4.000,00 | | 13 Beschikbare reserves | 15.000,00 |\n| 34 Voorraad | 25.000,00 | | 14 Overgedragen verlies | −32.000,00 |\n| 55 Bank | 5.000,00 | | 17 Schulden LT | 15.000,00 |\n| | | | 42 Schulden KT | 5.000,00 |\n| | | | 44 Handelsschulden | 40.000,00 |\n| **Totaal actief** | **54.000,00** | | **Totaal passief** | **54.000,00** |\n\nEigen vermogen ná correctie: 10.000 + 1.000 + 15.000 − 32.000 = **−6.000,00 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De opdracht is een **beoordelingsopdracht met beperkte zekerheid** (geen audit): de beroepsbeoefenaar bevestigt dat het netto-actief, in alle van materieel belang zijnde opzichten, **niet overgewaardeerd is**. Bij een vastgestelde overwaardering — zoals hier — moet het besluit een **afkeurend oordeel** of een **onthouding van conclusie** bevatten met expliciete vermelding van de overwaardering. De ITAA-modelverslagen (Bijlage 3 bij de norm omzetting) voorzien daarvoor aangepaste tekstvarianten. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Boek 14 WVV (art. 14:3 e.v.) — voor 2013 art. 776-777 W.Venn.: bij omzetting stelt het bestuursorgaan een staat van activa en passiva op (max. drie maanden oud); de bedrijfsrevisor of (extern) accountant brengt verslag uit en vermeldt **inzonderheid of het netto-actief is overgewaardeerd**. ITAA-norm omzetting van een vennootschap (Bijlage 3) levert de modelverslagen. 📖",
+          "wetsref": "art. 776-777 W.Venn. (2013) / art. 14:3 e.v. WVV — ITAA-norm omzetting van een vennootschap",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen, de omzetting kan zo niet doorgaan.** Het gecorrigeerd netto-actief is **negatief (−6.000,00 EUR)** en ligt ver onder het minimumkapitaal van de BVBA (18.550,00 EUR — art. 214 W.Venn., 2013). Bovendien is bij een netto-actief onder de helft van het kapitaal de **alarmbelprocedure** sowieso vereist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee blokkerende redenen:\n\n1. **Geen netto-actief om in te brengen**: een omzetting naar BVBA vereist dat het bij de oprichting overeenstemmende minimumkapitaal (18.550,00 EUR, waarvan minimum 6.200,00 volstort) effectief gedekt is door netto-actief. Met −6.000,00 EUR is dat onmogelijk. 🔗\n2. **Hoofdelijke aansprakelijkheid vennoten + organen**: zou men de omzetting tóch laten passeren op basis van de niet-gecorrigeerde staat, dan zijn de vennoten van de VOF én het bestuursorgaan **hoofdelijk gehouden** (i) tot betaling van het verschil tot het wettelijk minimumkapitaal en (ii) voor de **overwaardering van het netto-actief** (art. 14:12 WVV / art. 785-786 W.Venn. 2013). 📖\n\n**Mogelijke oplossingen vóór omzetting**:\n- Bijkomende inbreng in geld of in natura door de broers om het netto-actief op minstens 18.550 EUR te brengen.\n- Eerst de Turf-aandelen en -vordering boekhoudkundig afwaarderen, schuldeisers raadplegen, en dan pas omzetten met de bijkomende inbreng. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **overwaardering netto-actief** (controle-bevinding, zegt iets over de staat van activa en passiva) niet met **ontoereikend kapitaal** (juridische voorwaarde voor de gekozen rechtsvorm). Beide zijn hier aan de orde: zelfs als het netto-actief positief zou zijn (bv. 10.000 EUR), zou de omzetting naar BVBA *nog steeds* niet kunnen omdat het minimumkapitaal van 18.550 EUR niet gehaald wordt. De controleverslag-opdracht stopt bij de overwaardering; de juridische haalbaarheid is een afzonderlijke afweging voor de notaris en het bestuursorgaan. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "art. 214 W.Venn. (2013): minimumkapitaal BVBA = 18.550,00 EUR, waarvan minimum 6.200,00 EUR volstort. art. 785-786 W.Venn. (2013) / art. 14:10 + 14:12 WVV: hoofdelijke aansprakelijkheid van bestuurders en vennoten voor het ontbrekend kapitaal en voor de overwaardering van het netto-actief bij omzetting. 📖",
+          "wetsref": "art. 214, 785-786 W.Venn. (2013) / art. 14:10, 14:12 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

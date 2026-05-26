@@ -1,0 +1,116 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrJ1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Uiterlijk woensdag 26 december 2007** moet het ontslag om dringende reden worden betekend. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Art. 35, derde lid Arbeidsovereenkomstenwet: het ontslag mag niet meer worden gegeven wanneer het feit ter rechtvaardiging sinds **ten minste drie werkdagen** bekend is aan de partij die zich erop beroept. 📖\n\n**Werkdagen** = alle dagen behalve zondagen en wettelijke feestdagen (zaterdag telt mee). De dag van de kennisname zelf telt niet mee.\n\nBart bekent op **vrijdag 21 december 2007** (dag 0 — kennisname):\n\n| Dag | Datum | Telt mee? |\n|---|---|---|\n| za | 22 dec | werkdag 1 |\n| zo | 23 dec | nee (zondag) |\n| ma | 24 dec | werkdag 2 |\n| di | 25 dec | nee (Kerstmis, feestdag) |\n| **wo** | **26 dec** | **werkdag 3 → uiterste betekening** |\n\nDe betekening moet ten laatste op de derde werkdag gebeuren, dus **woensdag 26 december 2007**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Zaterdag is een werkdag** voor de toepassing van art. 35 — dit wijkt af van het gerechtelijke begrip \"werkdag\" (waar zaterdag géén werkdag is). Het Hof van Cassatie heeft dit herhaaldelijk bevestigd. Wie zaterdag uitsluit, komt op donderdag 27 december uit en betekent één dag te laat — met als gevolg de opzegvergoeding van deelvraag c. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 35, derde lid Wet 3 juli 1978 betreffende de arbeidsovereenkomsten: \"Ontslag om een dringende reden mag niet meer zonder opzegging (...) worden gegeven, wanneer het feit ter rechtvaardiging ervan sedert ten minste drie werkdagen bekend is aan de partij die zich hierop beroept.\" 📖",
+          "wetsref": "art. 35, derde lid Wet 3 juli 1978",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Uiterlijk vrijdag 28 december 2007** moet de tweede, gemotiveerde aangetekende brief worden verstuurd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Art. 35, vierde lid Arbeidsovereenkomstenwet: \"Alleen de dringende reden waarvan kennis is gegeven **binnen drie werkdagen na het ontslag** kan worden aangevoerd ter rechtvaardiging van het ontslag.\" 📖\n\nOntslagbrief aangetekend verzonden op **maandag 24 december 2007** (dag 0 — datum ontslag):\n\n| Dag | Datum | Telt mee? |\n|---|---|---|\n| di | 25 dec | nee (Kerstmis, feestdag) |\n| wo | 26 dec | werkdag 1 |\n| do | 27 dec | werkdag 2 |\n| **vr** | **28 dec** | **werkdag 3 → uiterste verzending** |\n\nDe gemotiveerde brief moet ten laatste op de derde werkdag na het ontslag worden verstuurd, dus **vrijdag 28 december 2007**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 35, vierde lid Wet 3 juli 1978: kennisgeving van de dringende reden moet gebeuren binnen drie werkdagen na het ontslag, op straffe van nietigheid bij aangetekende brief of gerechtsdeurwaardersexploot (vijfde lid). 📖",
+          "wetsref": "art. 35, vierde en vijfde lid Wet 3 juli 1978",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Opzegvergoeding = 13.500 EUR bruto = 6 maanden brutoloon.** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Kwalificatie van Bart**: bediende, bruto jaarloon 27.000 EUR. De loondrempel voor \"hogere bediende\" bedroeg in 2007 **29.729 EUR**. Bart blijft eronder en is dus **gewone (lagere) bediende** — art. 82 §2 Wet 3 juli 1978 (versie vóór de Wet Eenheidsstatuut van 26 december 2013, die pas op 1 januari 2014 in werking trad). 🔗\n\n**Anciënniteit**: van 1 februari 2001 tot het ontslag eind december 2007 = **6 jaar en 11 maanden** → telt als zeven aangevangen jaren, dus **2 aangevangen schijven van vijf jaar**.\n\n**Formule art. 82 §2**: opzeggingstermijn werkgever = **3 maanden per aangevangen schijf van 5 jaar anciënniteit**, met een minimum van 3 maanden.\n\n→ 2 schijven × 3 maanden = **6 maanden opzeggingstermijn**.\n\n**Opzegvergoeding** (art. 39 §1 Wet 1978) = lopend loon dat overeenstemt met de duur van de opzeggingstermijn:\n\n- Maandloon = 27.000 / 12 = 2.250 EUR\n- Vergoeding = 6 × 2.250 = **13.500 EUR bruto**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Voor **hogere bedienden** (jaarloon > drempel) gold in 2007 de **formule-Claeys** of een rechterlijke beoordeling — niet de vaste 3-maanden-per-schijf-regel. Bart's loon (27.000 EUR) ligt onder de drempel van 29.729 EUR voor 2007, dus de wettelijke formule van art. 82 §2 is van toepassing. Sinds de Wet Eenheidsstatuut (1 januari 2014) zijn deze categorieën afgeschaft en geldt één progressieve regeling voor alle werknemers. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 39 §1 Wet 3 juli 1978 (opzegvergoeding = lopend loon overeenstemmend met de opzeggingstermijn) + art. 82 §2 Wet 3 juli 1978 in zijn versie van toepassing in 2007 (3 maanden opzeg per begonnen schijf van 5 jaar anciënniteit voor de gewone bediende, met minimum 3 maanden). 📖",
+          "wetsref": "art. 39 §1 + art. 82 §2 Wet 3 juli 1978 (versie 2007)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

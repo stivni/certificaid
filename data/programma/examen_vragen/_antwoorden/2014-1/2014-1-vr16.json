@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr16",
+  "antwoord_datum": "2026-05-26T15:31:53Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — \"In de huidige stand van zaken is de verrichting onmogelijk.\" De statutaire machtiging tot toegestaan kapitaal (art. 28 statuten) is sinds 1997 vervallen: de wettelijke maximumduur van **vijf jaar** vanaf bekendmaking van de oprichtingsakte (1992) is verstreken zonder hernieuwing door de algemene vergadering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Redenering**:\n\n- PILOTE is opgericht in **1992**; de statuten werden **nooit gewijzigd**. De machtiging \"toegestaan kapitaal\" in art. 28 dateert dus uit 1992.\n- Onder het ten tijde van het examen geldende recht (art. 603 W.Venn., nu art. **7:185 WVV**) mag de bevoegdheid van de raad van bestuur om binnen het toegestaan kapitaal het geplaatste kapitaal te verhogen **slechts gedurende vijf jaar** worden uitgeoefend, te rekenen van de bekendmaking van de oprichtingsakte of statuten. 📖\n- Verlenging is enkel mogelijk via een **AV-besluit met statutenwijzigingsmeerderheid** (notariële akte). 📖\n- Resultaat: sinds 1997 is de machtiging vervallen. De raad van bestuur kán de kapitaalverhoging door inlijving van de beschikbare reserves **niet** doorvoeren via de procedure van het toegestane kapitaal — ongeacht of het bedrag (5.000.000 EUR) binnen het oorspronkelijke maximum past. 🔗\n\n**Per optie**:\n- **a** JUIST — in de huidige stand van zaken is de verrichting onmogelijk; de statutaire machtiging is vervallen. 🔗\n- **b** FOUT — het maximumbedrag van het toegestaan kapitaal is in elk geval het bedrag van het geplaatst kapitaal (1.000.000 EUR) bij genoteerde NV's; maar dat argument is niet doorslaggevend hier — het probleem is dat de machtiging zelf niet meer bestaat. 🔗\n- **c** FOUT — de notaris kan niet tussenkomen op basis van een vervallen statutaire machtiging; eerst moet de AV een nieuwe machtiging verlenen via statutenwijziging. 🔗\n- **d** FOUT op zich — een bijzonder verslag van het bestuursorgaan is inderdaad vereist bij de uitoefening van toegestaan kapitaal (art. 7:179 / 7:185 WVV), maar dat is hier secundair: de bevoegdheid bestaat niet meer. Deze optie veronderstelt ten onrechte dat een verslag het probleem oplost. 🔗\n- **e** FOUT — de kern van het toegestaan kapitaal is precies dat de **raad van bestuur** beslist *zonder* AV. Een AV die \"akte neemt\" van een RvB-besluit binnen toegestaan kapitaal is geen wettelijke stap; de notariële vaststelling gebeurt door de RvB zelf binnen de machtiging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De aantrekkelijke afleider is optie **d**: \"er moet een verslag van de raad van bestuur zijn\". Dat klopt in abstracto (art. 7:179 j° 7:185 WVV vereist een bijzonder bestuurdersverslag bij elke kapitaalverhoging binnen toegestaan kapitaal), maar leidt hier tot het verkeerde antwoord — het verslag kan het verval van de **vijfjarige machtigingstermijn** niet helen. Eerste reflex bij \"opgericht in jaartal X, statuten nooit gewijzigd\": tel of de **5-jaarstermijn** van het toegestaan kapitaal nog loopt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 7:184 WVV** (vroeger art. 603 W.Venn.): de statuten kunnen aan de raad van bestuur de bevoegdheid toekennen het geplaatste kapitaal te verhogen tot een bepaald bedrag. **Art. 7:185, eerste lid WVV**: \"De bevoegdheid bedoeld in artikel 7:184 kan slechts worden uitgeoefend gedurende **vijf jaar**, te rekenen van de bekendmaking van de oprichtingsakte of van de statuten. De algemene vergadering kan haar echter, bij een besluit genomen volgens de regels die gelden voor de wijziging van de statuten, een of meer malen **hernieuwen** voor een termijn die niet langer mag zijn dan vijf jaar.\" Statuten van 1992 zonder enige hernieuwing → machtiging vervallen sinds 1997. 📖",
+          "wetsref": "Art. 7:184-7:185 WVV (ex art. 603 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

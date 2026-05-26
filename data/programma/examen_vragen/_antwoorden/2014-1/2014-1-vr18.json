@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr18",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG pagina_04 toont pagina 4 (Vennootschap Export / Vraag 4 onderaan), terwijl de MINCALOR-casus van vr18 zelf op een eerdere pagina staat. Tabellen van de casus zijn gereconstrueerd uit tekst.txt (interpretatie-velden); cijfers daar zijn intern consistent. Vraag-isolatie kan herzien worden, maar inhoudelijke analyse is niet afhankelijk van PNG-content voor deze MC-vraag.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** — KALO Ric moet wachten tot juli 2014. Een interimdividend kan ten vroegste worden uitgekeerd na het verstrijken van de eerste zes maanden van het lopende boekjaar (boekjaar 2014 start 1/1/2014, zes-maandentermijn loopt af op 30/6/2014). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-02-winstverdeling-binnen-de-nv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** (nettoactief in gevaar) — FOUT. De nettoactieftest is niet in het gedrang: na de AV van 20/02/2014 is van het resultaat 2013 al 500.000 EUR aan de overige reserves toegevoegd en 500.000 EUR uitgekeerd als gewoon dividend; in Q1 2014 is bovendien 300.000 EUR winst gerealiseerd. Het eigen vermogen bedraagt 1.000.000 (kapitaal) + 100.000 (wettelijke reserve) + 5.000.000 (beschikbare reserves) + 300.000 (periode-resultaat) = 6.400.000 EUR ruim boven het niet-uitkeerbaar deel. Dat is dus niet de blokkerende voorwaarde. 🔗\n- **b** (onmiddellijk, na laatste balans) — FOUT. De wet kent geen \"onmiddellijke\" uitkering na neerlegging van de balans; de zes-maandentermijn en de tussentijdse-staat-procedure moeten gerespecteerd worden. 🔗\n- **c** (wachten tot juli 2014) — JUIST. Onder art. 618 W.Venn. (2014-context, vóór WVV) mag geen interimdividend worden uitgekeerd vóór het verstrijken van de eerste zes maanden van het boekjaar — dus ten vroegste vanaf 1/7/2014. Bovendien moet de tussentijdse staat van activa en passiva minder dan twee maanden oud zijn op het moment van de beslissing — de 31/03/2014-staat is in juli al meer dan drie maanden oud en moet vernieuwd worden. 🔗\n- **d** (uitkering op basis van 31/03/2014 + verificatieverslag bedrijfsrevisor/externe accountant) — FOUT als geheel. Procedureel: de tussentijdse staat van 31/03/2014 mag enkel als referentie dienen als de beslissing binnen twee maanden volgt, maar de zes-maandentermijn van art. 618 W.Venn. is op 31/03/2014 nog niet verstreken. Wat het verificatieverslag betreft: onder oud art. 618 W.Venn. is dat enkel vereist als er een commissaris in functie is — die is hier afwezig — en is een vrijwillig verslag door een bedrijfsrevisor of externe accountant niet door de wet voorgeschreven. ❓\n- **e** (geen interimdividend mogelijk omdat AV 20/2 al uitkeerde) — FOUT. Het feit dat de AV reeds een gewoon dividend over boekjaar 2013 heeft toegekend, sluit een interimdividend uit het lopende boekjaar 2014 niet uit; beide zijn juridisch verschillende uitkeringen uit verschillende winsten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-02-winstverdeling-binnen-de-nv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Examen 2014 valt onder de **oude W.Venn.** (art. 617-618), niet het huidige WVV. Onder art. 618 W.Venn. gold een uitdrukkelijke wachttermijn van zes maanden na het begin van het lopende boekjaar én was het verificatieverslag enkel verplicht bij aanwezigheid van een commissaris. Het huidige art. 7:213 WVV (sinds 1/5/2019) heeft die zes-maandentermijn afgeschaft — daar volstaan statutaire machtiging + tussentijdse staat van activa en passiva (max. 2 maanden oud) + verificatie door commissaris indien aanwezig + nettoactief- en liquiditeitstest. Sinds WVV zou hetzelfde MC-antwoord dus anders luiden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-02-winstverdeling-binnen-de-nv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 618 W.Venn.** (versie 2014, vóór WVV): interimdividend in NV is enkel mogelijk (i) mits statutaire machtiging aan de raad van bestuur, (ii) op basis van een staat van activa en passiva niet ouder dan twee maanden, nagezien door de commissaris indien aanwezig, en (iii) **niet vóór het verstrijken van de eerste zes maanden van het boekjaar**. Onder het huidige WVV (art. 7:213) is de zes-maandentermijn niet meer aanwezig — CBN-advies 2021/02 bespreekt de actuele procedure. 📖",
+          "wetsref": "Art. 618 W.Venn. (2014); thans art. 7:213 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-02-winstverdeling-binnen-de-nv.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

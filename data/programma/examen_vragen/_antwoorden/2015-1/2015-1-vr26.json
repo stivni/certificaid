@@ -1,0 +1,232 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr26",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Examen 2015 — destijds van toepassing: IAB-norm controle bij voorstel tot ontbinding (6 dec 2002), inmiddels opgeheven en vervangen door de ITAA-norm ontbinding-en-vereffening. De materiële regels (staat ≤ 3 maand vóór AV, latente schulden, resultaat lopende periode, omgang met inbreuken op boekhoudreglementering, alarmbel-koppeling) zijn in essentie ongewijzigd; bronverwijzingen verwijzen naar de actuele ITAA-norm waarvan de inhoud zonder breuk de 2002-norm continueert.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het resultaat van de **lopende, nog niet afgesloten periode** (van begin van het lopende boekjaar tot de afsluitdatum van de staat) wordt **afzonderlijk vermeld** op de staat van activa en passiva, als afzonderlijke rubriek binnen het eigen vermogen (overgedragen resultaat van de lopende periode). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De staat dateert van maximaal drie maanden vóór de algemene vergadering (art. 2:71 §2 WVV; in 2015 art. 181 W.Venn.) en is dus per definitie een **tussentijdse balans** die binnen een lopend boekjaar wordt opgesteld. Een correcte afgrenzing veronderstelt dat álle aan die deelperiode gerelateerde kosten en opbrengsten worden erkend, zodat het resultaat van die lopende periode als afzonderlijke post zichtbaar is en het nettoactief getrouw weergeeft. 🔗 Dit is operationeel hetzelfde mechanisme als bij een tussentijdse staat in het kader van een omzetting (art. 14:3 WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:71 §2 WVV (vroeger art. 181 W.Venn.) — staat afgesloten ≤ 3 maanden vóór de AV. KB/WVV art. 3:6 §2 — opstelling in discontinuïteit (tenzij gemotiveerd anders). De ITAA-norm verlangt een controleprogramma dat de afgrenzing van de afsluitperiode dekt zodat het resultaat van de lopende periode correct kan worden vastgesteld. 📖",
+          "wetsref": "art. 2:71 §2 WVV; art. 3:6 §2 KB/WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De beroepsbeoefenaar moet de **motivatie van het bestuursorgaan voor de discontinuïteits­veronderstelling** kennisnemen en die met het bestuursorgaan bespreken; tevens inwint hij inlichtingen over gebeurtenissen of omstandigheden die de keuze voor discontinuïteit ondersteunen of in vraag stellen. Hij gaat ook na of de gevolgen van die veronderstelling correct in de waardering en in de toelichting bij de staat zijn doorgetrokken. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De norm voorziet de uitzonderingsregel uitdrukkelijk omgekeerd (voor het geval de staat in **continuïteit** wordt opgesteld in afwijking van KB/WVV art. 3:6 §2). 📖 Voor het hier gevraagde **regelgeval — opstelling in discontinuïteit** — moet de beroepsbeoefenaar in overweging nemen:\n\n- of de **waarderingsregels** consistent zijn aangepast aan de discontinuïteits­veronderstelling (vaste activa naar realisatiewaarde, voorzieningen voor sluitingskosten, herklassering LT-schulden naar KT); 🔗\n- of de vereiste **toelichtingen** bij de staat zijn opgenomen overeenkomstig art. 3:1 WVV en art. 3:6 §2 KB/WVV; 📖\n- of de **latente schulden** (sluitingskosten, vergoedingen wegens contractbreuk, sociaal passief, fiscale gevolgen van realisatie) volledig zijn opgenomen; 🔗\n- het materiële belang en het bestaan van significante onzekerheden die het nettoactief beïnvloeden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §II.1-II.2; KB/WVV art. 3:6 §2 (discontinuïteit als regel); art. 3:1 WVV (toelichtingsverplichting). 📖",
+          "wetsref": "ITAA-norm §II.1-II.2; art. 3:6 §2 KB/WVV; art. 3:1 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Latente schulden (bv. vergoeding wegens contractbreuk, sluitingsvergoedingen, fiscaal passief op latente meerwaarden) die niet in de staat zijn opgenomen, moeten in principe **alsnog in de staat worden opgenomen** (door correctie of voorziening). Weigert het bestuursorgaan dat, dan formuleert de beroepsbeoefenaar een **voorbehoud** (of, bij materieel belangrijke en wijdverspreide impact, een **afkeurend oordeel**) in zijn controleverslag. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij een staat in discontinuïteit moeten **alle voorzienbare verplichtingen die uit de ontbinding voortvloeien** worden opgenomen — net omdat de continuïteitsveronderstelling wordt verlaten en de vennootschap zal worden vereffend. Latente schulden zijn daarvan een typevoorbeeld: ze worden door de discontinuïteit reëel en moeten als voorziening of schuld in de staat worden geboekt. 🔗 Worden ze ondanks de opmerking van de beroepsbeoefenaar niet opgenomen, dan is de staat materieel afwijkend van het toepasselijke boekhoudkundige referentiestelsel — wat tot een **voorbehoud** wegens afwijking leidt (en niet tot een onthouding: het probleem ligt niet bij gebrek aan controle-informatie, maar bij een gekende, gekwantificeerde onjuistheid). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **niet in de balans opgenomen rechten en verplichtingen** in de zin van CBN-advies 2017/07: dat zijn écht voorwaardelijke rechten/verplichtingen die in de toelichting worden vermeld. Latente schulden bij ontbinding worden door de discontinuïteit zelf concreet en horen dus **in** de staat, niet in een loutere toelichting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §II.1 (controleprogramma met identificatie van bijzondere risico's) en §III (oordeel met voorbehoud bij materieel afwijkende staat); KB/WVV art. 3:6 §2 (waardering in discontinuïteit). 📖",
+          "wetsref": "ITAA-norm §II.1 en §III; art. 3:6 §2 KB/WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De termijn van drie maanden tussen de afsluitdatum van de staat en de algemene vergadering blijft **gelden t.o.v. de oorspronkelijke (eerste) algemene vergadering**: een tweede AV wegens niet-bereiken van het aanwezigheidsquorum heropent de driemaandstermijn **niet**. Wel staat de norm toe dat, bij niet-respecteren van de wettelijke termijnen om gegronde reden, de beroepsbeoefenaar dit in zijn verslag onder een **paragraaf 'Overige aangelegenheid'** vermeldt — voor zover hij zijn werkzaamheden heeft kunnen uitvoeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wet (art. 2:71 §2 WVV; in 2015 art. 181 W.Venn.) verbindt de driemaandstermijn aan de algemene vergadering die over het ontbindingsvoorstel beslist — niet aan elke opeenvolgende bijeenroeping. Bij een tweede AV wegens quorum-gebrek (NV: art. 7:128 WVV; in 2015 art. 558-559 W.Venn.) blijft het hetzelfde voorstel en hetzelfde verslag op tafel; er ontstaat geen nieuwe driemaandstermijn. De norm voorziet wel uitdrukkelijk dat het verslag een paragraaf 'Overige aangelegenheid' kan bevatten wanneer 'de wettelijke termijnen inzake het voorleggen van het verslag van het bestuursorgaan en van ons controleverslag niet gerespecteerd konden worden' (par. A44). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "In de praktijk wordt aanvaard dat een tweede AV korte tijd na de eerste plaatsvindt en dat de oorspronkelijke staat blijft gelden; loopt de tweede AV daarentegen ver buiten het driemaandsvenster, dan moet een **nieuwe (geactualiseerde) staat** worden opgesteld én opnieuw gecontroleerd — anders is de wettelijke voorwaarde geschonden. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:71 §2 WVV (driemaandstermijn vóór de AV die over het voorstel beslist); art. 7:128 WVV (tweede AV bij quorum-gebrek voor NV; vergelijkbaar voor BV/CV); ITAA-norm ontbinding-vereffening par. A44 + Bijlage 'Overige aangelegenheid' (toelichting bij niet-naleving van wettelijke termijnen). 📖",
+          "wetsref": "art. 2:71 §2 WVV; art. 7:128 WVV; ITAA-norm par. A44",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen, géén invloed op de driemaandstermijn van art. 2:71 §2 WVV.** Het feit dat de ontbinding voortvloeit uit de toepassing van de alarmbelprocedure (art. 7:228-229 WVV voor de NV; art. 5:153 voor de BV; art. 6:119 voor de CV) verandert niets aan de procedurele vereisten van het ontbindingsvoorstel: de staat moet nog steeds binnen drie maanden vóór de AV worden afgesloten en het controleverslag van de beroepsbeoefenaar moet voorhanden zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De alarmbelprocedure heeft haar **eigen** termijnen — het bestuursorgaan moet een AV binnen **twee maanden** na vaststelling van het probleem bijeenroepen (art. 7:228 §1 WVV; in 2015 art. 633 W.Venn.). Maar zodra die AV beslist over een ontbindingsvoorstel, gelden onverkort de gewone vereisten van art. 2:71 §2 WVV (staat ≤ 3 maanden, bijzonder verslag van het bestuursorgaan, controleverslag). De twee procedures lopen dus inhoudelijk in elkaar, maar de driemaandstermijn voor de staat blijft autonoom. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De alarmbelprocedure dwingt het bestuur enkel om de AV bijeen te roepen en maatregelen voor te stellen — ontbinding is daarvan slechts één optie naast herstelmaatregelen, kapitaalverhoging, gerichte uitkeringsstop, enz. Wanneer toch tot ontbinding wordt voorgesteld, vloeit dat voorstel volledig in de gewone art. 2:71-procedure. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:71 §2 WVV (driemaandstermijn voor de staat); art. 7:228-229 WVV voor NV / art. 5:153 WVV voor BV / art. 6:119 WVV voor CV (alarmbelprocedure, eigen tweemaandstermijn voor bijeenroeping AV). De alarmbel verkort noch verlengt de driemaandstermijn voor de staat van activa en passiva. 📖",
+          "wetsref": "art. 2:71 §2 WVV; art. 5:153, 6:119, 7:228 WVV (alarmbel)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De beroepsbeoefenaar moet de inbreuk eerst **bespreken met het bestuursorgaan** en aandringen op **correctie** van de boekhoudkundige staat. Wordt niet (of onvoldoende) gecorrigeerd, dan: bij een **kwantificeerbare materiële inbreuk** → **oordeel met voorbehoud** (afwijking); bij een inbreuk die zo doordringend is dat de staat zijn betekenis verliest → **afkeurend oordeel**; bij een **gebrek aan controle-informatie** (bv. boekhouding zo gebrekkig dat controle onmogelijk is) → **onthouding van oordeel**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De keuze tussen voorbehoud / afkeurend / onthouding volgt de klassieke ISA-700/705-logica die de ITAA-norm op het ontbindingsverslag toepast:\n\n- **Inbreuk = afwijking van het boekhoudkundig referentiestelsel** (overwaardering, niet-naleving van waarderingsregels, ontbrekende voorzieningen): de aard is een afwijking, niet een gebrek aan controle. Materieel maar niet doordringend → **voorbehoud wegens afwijking**. Materieel én doordringend → **afkeurend oordeel**. 🔗\n- **Onthouding** is enkel aan de orde wanneer de beroepsbeoefenaar geen voldoende en geschikte controle-informatie kan verkrijgen (bv. boekhouding is afwezig of zo gebrekkig dat geen controleprogramma kan worden uitgevoerd). 🔗\n\nIn 'normale' gevallen van een geïsoleerde inbreuk op de boekhoudreglementering die kwantificeerbaar is en niet gecorrigeerd wordt, is **voorbehoud** dus het passende oordeel — **niet** onthouding. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar 'voorbehoud' en 'onthouding' niet door elkaar te gebruiken. **Voorbehoud** = de beroepsbeoefenaar heeft een oordeel, maar wijst op een afwijking of beperking; **onthouding** = de beroepsbeoefenaar kán geen oordeel vellen. Een vastgestelde inbreuk op de boekhoudreglementering veronderstelt dat ze vastgesteld én gekwantificeerd is — dus is er informatie, en is voorbehoud (eventueel afkeurend) het juiste pad. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §III (oordeelsvorming en types oordeel: oordeel zonder voorbehoud, oordeel met voorbehoud, afkeurend oordeel, onthouding van oordeel). De norm verwijst voor de oordeelstypologie naar de geldende controle-standaarden (ISA 705-equivalent). 📖",
+          "wetsref": "ITAA-norm ontbinding-vereffening §III; ISA 705-logica",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

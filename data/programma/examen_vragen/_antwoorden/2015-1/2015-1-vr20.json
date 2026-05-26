@@ -1,0 +1,54 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr20",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **B** — de alarmbelprocedure (art. 332 W.Venn., destijds van toepassing op de BVBA) is getriggerd: de algemene vergadering moet binnen **twee maanden** na de vaststelling van het kapitaalverlies bijeenkomen om te beslissen over ontbinding of herstelmaatregelen. Vaststelling op 11 april 2015 → uiterlijk **11 juni 2015**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Netto-actief op 31/12/2014** = totaal activa − schulden − voorzieningen = 24.000 − 22.000 − 0 = **2.000 EUR**. (Of: eigen vermogen = kapitaal 6.000 + overgedragen verlies −4.000 = 2.000 EUR; de balans is na resultaatverwerking.) 🔗\n\n**Drempeltoets art. 332 W.Venn.** (kapitaal = 6.000 EUR):\n- Helft kapitaal = 3.000 EUR → netto-actief 2.000 < 3.000 → **eerste drempel overschreden** ✅\n- Kwart kapitaal = 1.500 EUR → netto-actief 2.000 > 1.500 → tweede drempel niet bereikt.\n- Absolute ondergrens BVBA (art. 333 W.Venn., 6.200 EUR): netto-actief 2.000 < 6.200 → iedere belanghebbende kan ook gerechtelijke ontbinding vorderen — maar dat is geen onmiddellijke volstortingsplicht. 🔗\n\n**Termijn**: vaststelling bij neerlegging jaarrekening op 11 april 2015 → AV uiterlijk 2 maanden later = **11 juni 2015**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- **A** (in orde, geen formaliteiten) → FOUT — de alarmbeldrempel is duidelijk overschreden, formaliteiten zijn dwingend. 🔗\n- **B** (AV bijeenroepen vóór 11 juni 2015) → JUIST — exacte toepassing van de 2-maanden-termijn van art. 332 W.Venn. vanaf vaststelling op 11/04/2015. 🔗\n- **C** (onmiddellijk volstorten tot 6.200 EUR) → FOUT — er is geen wettelijke verplichting tot onmiddellijke volstorting; bovendien is 6.200 EUR niet het BVBA-minimum (dat is 18.550 EUR — art. 214 W.Venn.). Wel kan elke belanghebbende ontbinding vorderen ex art. 333 W.Venn. wanneer netto-actief < 6.200 EUR, maar dat is een gerechtelijke vorderingsmogelijkheid, geen volstortingsplicht. 🔗\n- **D** (onmiddellijk volstorten tot 18.550 EUR) → FOUT — 18.550 EUR is wel het kapitaalminimum van een gewone BVBA (art. 214 W.Venn.), maar bestaande aandeelhouders zijn niet verplicht het kapitaal onmiddellijk te verhogen. De S-BVBA mocht juist starten met lager kapitaal en had 5 jaar de tijd om naar 18.550 EUR te groeien (art. 211bis W.Venn.). 🔗\n- **E** (AV vóór 31 juli 2015) → FOUT — termijn is 2 maanden (niet ~3,5 maand) na vaststelling. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **art. 332 W.Venn.** (procedurele alarmbel: AV binnen 2 maanden bij netto-actief < ½ kapitaal) niet met **art. 333 W.Venn.** (substantiële drempel: bij netto-actief < 6.200 EUR kan iedere belanghebbende ontbinding vorderen voor de rechtbank). Beide kunnen tegelijk spelen, maar enkel art. 332 legt een termijn op aan het bestuursorgaan zelf. De S-BVBA-status (lagere instapkapitaalvereiste) wijzigt het kapitaal-referentiebedrag niet — de drempeltoets gebeurt nog steeds tegen het werkelijke geplaatste kapitaal (hier 6.000 EUR). 🤖\n\n*Tijdsperspectief*: deze vraag dateert van vóór de inwerkingtreding van het WVV (1 mei 2019). Onder het huidige WVV is de BVBA omgevormd tot BV (kapitaalloos) en wordt de alarmbel daar getoetst aan het eigen vermogen bij aanvang van het boekjaar (art. 5:153 WVV) i.p.v. aan een vast kapitaalbedrag.",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 332 W.Venn.** (BVBA, versie 2015): wanneer het netto-actief ten gevolge van geleden verlies is gedaald tot minder dan de helft van het maatschappelijk kapitaal, moet de algemene vergadering bijeenkomen binnen een termijn van ten hoogste twee maanden na de datum waarop het verlies is vastgesteld (of had moeten zijn vastgesteld), om te beraadslagen en te besluiten over de ontbinding of over in de agenda aangekondigde maatregelen tot herstel. **Art. 333 W.Venn.**: bij netto-actief < 6.200 EUR kan elke belanghebbende de ontbinding voor de rechtbank vorderen. CBN-advies 2021/14 bevestigt de jaarrekeningrechtelijke berekeningswijze (netto-actief = totaal activa − voorzieningen − schulden) — analoog onder W.Venn. en WVV. 🔗",
+          "wetsref": "art. 332-333 W.Venn. (2015); thans art. 5:153 WVV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

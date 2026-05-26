@@ -1,0 +1,119 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr20",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het individueel controlerecht komt toe aan **elke** aandeelhouder (vennoot), ongeacht zijn participatie. Er bestaat geen 25%-drempel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Wanneer in een BV(BA) geen commissaris is benoemd, heeft **iedere aandeelhouder individueel** de onderzoeks- en controlebevoegdheid van een commissaris (art. 3:96 WVV; ten tijde van het examen 2013: art. 166 W.Venn.). De wet stelt geen minimumparticipatie. 📖 De 25%-drempel die de stelling suggereert verwart het individueel controlerecht met andere aandeelhoudersrechten (bv. minderheidsvordering art. 2:56 WVV / art. 561 W.Venn.). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het individueel controlerecht hangt af van de hoedanigheid van **aandeelhouder/vennoot**, niet van de nationaliteit of het ingezetenschap. Een Franse vennootschap-aandeelhouder kan het uitoefenen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 3:96 WVV (oud art. 166 W.Venn.) verleent het controlerecht aan \"iedere aandeelhouder\" — zonder nationaliteits- of woonplaatsvoorwaarde. 📖 Een buitenlandse rechtspersoon-aandeelhouder mag het recht zelf uitoefenen of zich laten vertegenwoordigen/bijstaan door een Belgische bedrijfsrevisor of (gecertificeerd) accountant. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het individueel controlerecht is een **permanent** recht; het is niet beperkt tot gevallen van betwisting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij gebreke van een commissaris beschikt elke aandeelhouder \"individueel over de onderzoeks- en controlebevoegdheid van een commissaris\" — dezelfde bevoegdheid als die van art. 3:65 WVV, te weten **op elk ogenblik** ter plaatse inzage nemen van boeken, brieven, notulen en alle stukken. 📖 Een voorafgaand geschil of betwisting is geen voorwaarde. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het controlerecht kan **op elk ogenblik** worden uitgeoefend, niet enkel in voorbereiding van de jaarvergadering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De aandeelhouder zonder commissaris heeft \"de onderzoeks- en controlebevoegdheid van een commissaris\" — en art. 3:65 §1 WVV bepaalt uitdrukkelijk dat die bevoegdheid \"op elk ogenblik\" geldt. 📖 Een koppeling aan de jaarvergadering bestaat enkel voor andere rechten (bv. vraagrecht op de algemene vergadering, art. 5:91 WVV). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De kosten van de bijstand door een beroepsbeoefenaar (bedrijfsrevisor, externe accountant, erkende boekhouder(-fiscalist)) komen ten laste van de **vennootschap**, mits de aandeelhouder de keuze van beroepsbeoefenaar vooraf meedeelt en de vennootschap zich daartegen niet rechtmatig verzet. De beroepsbeoefenaar heeft eenzelfde inzagerecht als de aandeelhouder zelf en is gebonden aan hetzelfde beroepsgeheim als een commissaris. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Algemene grondslag voor de vier stellingen: **art. 3:96 WVV** (Individuele onderzoeks- en controlebevoegdheid van aandeelhouders en leden) — \"Wordt geen commissaris benoemd, dan heeft, niettegenstaande enige andersluidende statutaire bepaling, iedere aandeelhouder individueel de onderzoeks- en controlebevoegdheid van een commissaris. Hij kan zich laten vertegenwoordigen of bijstaan door een bedrijfsrevisor, externe accountant, erkende boekhouder of erkende boekhouder-fiscalist.\" De inhoud van die bevoegdheid (\"op elk ogenblik ter plaatse inzage … van alle documenten\") staat in **art. 3:65 §1 WVV**. Ten tijde van het examen 2013 stond de regel in art. 166 W.Venn. 📖",
+          "wetsref": "Art. 3:96 WVV (oud art. 166 W.Venn.); art. 3:65 §1 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

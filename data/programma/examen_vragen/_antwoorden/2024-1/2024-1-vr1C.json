@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr1C",
+  "antwoord_datum": "2026-05-26T15:32:20Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** — een vennootschap verliest haar rechtspersoonlijkheid pas **bij de sluiting van de vereffening**. Tussen ontbinding en sluiting blijft zij \"in vereffening\" voortbestaan als rechtspersoon. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- **a** (Bij ontbinding) → FOUT — ontbinding opent enkel de vereffeningsfase; de vennootschap \"wordt geacht voort te bestaan voor haar vereffening tot aan de sluiting daarvan\". 📖\n- **b** (Bij publicatie van de ontbinding) → FOUT — de bekendmaking van de ontbinding heeft enkel publiciteitsfunctie (tegenwerpelijkheid t.a.v. derden); zij raakt de rechtspersoonlijkheid niet. 🔗\n- **c** (Bij de afsluit van de vereffening) → JUIST — pas op het ogenblik dat de algemene vergadering (of de rechtbank) de sluiting van de vereffening uitspreekt, houdt de vennootschap op te bestaan. 🔗\n- **d** (Bij akkoord van de vennoten) → FOUT — een akkoord van de vennoten is hooguit een ontbindingsgrond (vrijwillige ontbinding, art. 2:70 WVV), maar beëindigt de rechtspersoonlijkheid niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **ontbinding** niet met **verlies van rechtspersoonlijkheid**. Ontbinding is het *startpunt* van de vereffening; sluiting is het *eindpunt*. Tijdens de vereffening blijft de vennootschap volwaardig rechtspersoon — zij kan procederen, contracteren en activa beheren, zij het met een gewijzigd doel (te gelde maken van activa, betalen van schulden). Bij **onmiddellijke sluiting in één akte** (art. 2:80 WVV) vallen ontbinding en sluiting op hetzelfde moment samen — daar verdwijnt de rechtspersoonlijkheid dus wél onmiddellijk, maar het juridische aanknopingspunt blijft de sluiting, niet de ontbinding. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:76 WVV (oud art. 2:72 in de Memorie van toelichting): \"Een vennootschap wordt na ontbinding geacht voort te bestaan voor haar vereffening tot aan de sluiting daarvan. Alle stukken uitgaande van een ontbonden vennootschap vermelden dat zij in vereffening is.\" 📖 CBN-advies 2024/09 bevestigt expliciet dat na de sluiting van de vereffening \"de vennootschap in kwestie niet langer bestaat\". 📖 De sluiting wordt bekendgemaakt overeenkomstig art. 2:6 en 2:12 WVV (art. 2:92 WVV) — die bekendmaking is declaratief, niet constitutief voor het verlies van rechtspersoonlijkheid.",
+          "wetsref": "art. 2:76 WVV; art. 2:92 WVV; CBN-advies 2024/09",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2024-09-verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

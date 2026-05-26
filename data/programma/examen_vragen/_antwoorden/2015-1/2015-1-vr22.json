@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr22",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** — een bijzondere algemene vergadering bijeenroepen tegen 25 maart 2014 om te beraadslagen over de ontbinding en de te nemen maatregelen. De alarmbelprocedure is getriggerd (netto-actief = -8.370 EUR, ruim onder de helft van het kapitaal van 18.600 EUR) en de zaakvoerder heeft maximum twee maanden vanaf de vaststelling op 25 januari 2014. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Berekening netto-actief**: 18.600 (kapitaal) + 1.860 (wettelijke reserve) + 100.000 (beschikbare reserve) − 128.830 (overgedragen verlies) = **−8.370 EUR**. Het netto-actief is dus zelfs negatief — drempel \"minder dan de helft van het kapitaal\" (< 9.300 EUR) én drempel \"minder dan een kwart\" (< 4.650 EUR) zijn allebei overschreden. 🔗\n\n**Per optie**:\n- **a** (buitengewone algemene vergadering binnen de maand) → FOUT — terminologie en termijn kloppen niet. Het W.Venn. spreekt van een *bijzondere* AV met als termijn *maximum twee maanden*, niet één maand. 🔗\n- **b** (niets doen) → FOUT — passiviteit bij overschreden alarmbeldrempel is precies de gedraging die bestuurdersaansprakelijkheid creëert (art. 333 W.Venn.). 🔗\n- **c** (volgende gewone AV afwachten + invereffeningstelling voorstellen) → FOUT — de wet duldt geen uitstel tot de jaarvergadering; de zaakvoerder moet zelf binnen twee maanden een AV samenroepen. Bovendien is *ontbinding* slechts één van de mogelijkheden — de AV beraadslaagt evengoed over voortzetting met herstelmaatregelen. 🔗\n- **d** (bijzondere AV tegen 25 maart 2014, beraadslagen over ontbinding én andere maatregelen) → JUIST — 25 maart = exact 2 maanden na vaststelling op 25 januari, en de formulering \"ontbinding of andere maatregelen\" volgt letterlijk de wettekst. 📖\n- **e** (vennoten verplichten tot kapitaalverhoging in geld) → FOUT — de zaakvoerder heeft geen wettelijke bevoegdheid om vennoten te dwingen tot bijkomende inbreng. Een kapitaalverhoging is een mógelijke maatregel die de AV vrijwillig kan beslissen, geen verplichting die de zaakvoerder kan opleggen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Let op de tijdslijn van het examen: vaststelling op 25 januari 2014 betekent dat de wet van vóór de WVV (W.Venn. 1999) van toepassing is — voor de BVBA gold toen **art. 332 W.Venn.** (en art. 333 voor de bestuurdersaansprakelijkheid). Onder het huidige WVV (in werking sinds 1 mei 2019) is de BVBA omgevormd tot BV en geldt **art. 5:153 WVV** met een dubbele trigger: negatief eigen vermogen *of* dreigend liquiditeitsprobleem. De termijn van twee maanden bleef ongewijzigd. ❓ Het inhoudelijke antwoord op deze MC-vraag verandert niet door de wetsovergang. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Voor het BVBA-regime ten tijde van de vraag (2014): **art. 332 W.Venn.** — wanneer het netto-actief is gedaald tot minder dan de helft van het maatschappelijk kapitaal, roept de zaakvoerder de algemene vergadering bijeen binnen maximum twee maanden na de vaststelling, om te beraadslagen en te besluiten over de ontbinding of andere in de agenda aangekondigde maatregelen. De zaakvoerder verantwoordt de voorstellen in een bijzonder verslag. Bij gebreke hieraan ontstaat hoofdelijke bestuurdersaansprakelijkheid (art. 333 W.Venn.). De huidige equivalente bepaling is art. 5:153 WVV (BV); voor de NV: art. 7:228 WVV. 📖",
+          "wetsref": "Art. 332 W.Venn. (BVBA, 2014) / art. 5:153 WVV (BV, vanaf 2019)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

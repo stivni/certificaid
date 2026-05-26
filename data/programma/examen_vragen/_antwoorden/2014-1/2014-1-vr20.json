@@ -1,0 +1,348 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr20",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De opdracht is wettelijk voorbehouden aan de commissaris of, bij ontstentenis, aan een bedrijfsrevisor of gecertificeerd accountant. Een erkend boekhouder (BIBF/BIV in 2014, vandaag fiscaal accountant) mag deze controleopdracht **niet** uitvoeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 14:4 WVV (in 2014: art. 776 W.Venn.) wijst limitatief drie beroepscategorieën aan: commissaris, bedrijfsrevisor of gecertificeerd accountant. De erkend boekhouder valt buiten deze opsomming — zijn beroepsmandaat omvat geen wettelijk voorbehouden controleopdrachten met beperkte mate van zekerheid. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:4 WVV: \"De commissaris of, als er geen commissaris is, een door het bestuursorgaan ... aangewezen bedrijfsrevisor [of gecertificeerd accountant], brengt over deze staat verslag uit\". 📖",
+          "wetsref": "art. 14:4 WVV (in 2014: art. 776 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Bij vaststelling van continuïteitsproblemen moet de beroepsbeoefenaar het bestuursorgaan schriftelijk verwittigen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De omzettingscontrole gebeurt in continuïteitshypothese — als de continuïteit twijfelachtig is, raakt dat de waardering van de activa en passiva fundamenteel. De ITAA-norm verplicht de beroepsbeoefenaar om materiële onzekerheden m.b.t. de continuïteit schriftelijk aan het bestuursorgaan te melden en dit in het verslag te vermelden (alarmbel-logica, analoog aan art. 3:69 KB WVV en de waarschuwingsplicht van de commissaris). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting vennootschap (VI.3 Verslag) + deontologische verplichting tot schriftelijke kennisgeving van materiële onzekerheden over de going concern. 🔗",
+          "wetsref": "ITAA-norm omzetting vennootschap, VI.3",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Bij omzetting blijft de rechtspersoonlijkheid van de vennootschap ononderbroken voortbestaan in de nieuwe vorm. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Dat is precies wat een omzetting onderscheidt van een ontbinding-met-heroprichting: geen nieuwe juridische entiteit, geen onderbreking van contracten, fiscale identiteit blijft. Alleen het juridisch kleed wijzigt (NV → BV). De boekhouding loopt door, het ondernemingsnummer blijft. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:2 WVV (in 2014: art. 774 W.Venn.): \"Wanneer een vennootschap ... een andere van die rechtsvormen aanneemt, blijft haar rechtspersoonlijkheid onveranderd voortbestaan in de nieuwe vorm.\" 📖",
+          "wetsref": "art. 14:2 WVV (in 2014: art. 774 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Bij omzetting bestaat **geen** vrijstelling van de verslagen, zelfs niet bij unanimiteit van de aandeelhouders. Het ontbreken van de verslagen leidt zelfs tot nietigheid van het besluit. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **inbreng in natura** of **quasi-inbreng**: dáár kan onder WVV (sinds 2019) wél unanimiteits-vrijstelling worden verleend voor het revisoraal verslag (art. 5:7 §2 / 5:9 §2 WVV voor de BV; vergelijkbaar voor de NV). Bij **omzetting** geldt deze unanimiteits-uitzondering niet — de bescherming van schuldeisers en derden tegen overwaardering van het netto-actief is dwingend. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:7 WVV (in 2014: art. 778 W.Venn.): \"Wanneer de verslagen vereist door deze afdeling ontbreken, is het besluit van de algemene vergadering tot omzetting van de vennootschap nietig.\" 📖",
+          "wetsref": "art. 14:7 WVV (in 2014: art. 778 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** in de context van 2014. Onder het toenmalige W.Venn. (art. 774) viel de wijziging van een handels- naar een burgerlijke vennootschap (of omgekeerd) onder de bepalingen van omzetting en vereiste dus een controleverslag. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Sinds het WVV (2019) is het onderscheid burgerlijke vs. handelsvennootschap **afgeschaft** — alle vennootschappen worden door hun rechtsvorm gekwalificeerd, niet door hun (handels)voorwerp. De stelling is dus historisch correct (2014-context) maar **niet meer relevant** onder huidig recht. Voor de stagiair die vandaag studeert: deze wijziging is een non-issue geworden, alleen een wijziging van rechtsvorm triggert nog de omzettingsregels van Boek 14 WVV. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "In 2014: art. 774 W.Venn. (omzettingsregels van toepassing op alle vennootschappen met rechtspersoonlijkheid, incl. wijziging burgerlijk/handels-karakter). Vandaag: art. 14:2 e.v. WVV — onderscheid afgeschaft. 🔗",
+          "wetsref": "art. 774 W.Venn. (2014); thans irrelevant onder WVV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. De tussentijdse staat van activa en passiva moet worden opgesteld conform de waarderingsregels, met inbegrip van waardecorrecties, pro rata kosten en opbrengsten, afschrijvingen en voorraadwijzigingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De staat is een **tussentijdse balans** en geen ruwe proefsaldibalans: alle periode-einde-verrichtingen die ook bij een jaarafsluiting zouden gebeuren, moeten er in zitten — anders is het netto-actief niet betrouwbaar en kan een eventuele overwaardering niet vastgesteld worden. De staat wordt opgesteld op een datum maximum **drie maanden** vóór de algemene vergadering die over de omzetting beslist. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:3 WVV (in 2014: art. 776 W.Venn.) + KB WVV waarderingsregels (art. 3:6 e.v.). De ITAA-norm specificeert dat de tussentijdse staat conform het normale boekhoudkundig referentiestelsel wordt opgesteld. 📖",
+          "wetsref": "art. 14:3 WVV (in 2014: art. 776 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. De beroepsbeoefenaar moet voor de controle van de tussentijdse staat een werkprogramma hanteren waaruit zijn werkzaamheden blijken. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het werkprogramma is een standaardvereiste van elke beoordelingsopdracht: het documenteert welke procedures (analytische review, navraag, beperkte verificaties) zijn uitgevoerd en welk niveau van zekerheid daarmee bereikt wordt (beperkte mate van zekerheid bij deze opdracht). Zonder werkprogramma is het dossier niet auditerbaar door de toezichthouder (ITAA-kwaliteitstoezicht). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting vennootschap (uitvoering werkzaamheden + dossiervorming). ISRE 2400 (beoordelingsopdracht met beperkte mate van zekerheid) — toegepaste norm bij wettelijk voorbehouden beoordelingsopdrachten. 🔗",
+          "wetsref": "ITAA-norm omzetting vennootschap; ISRE 2400",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De controle richt zich inderdaad op een eventuele **overwaardering van het netto-actief**, maar het netto-actief omvat **veel meer** dan enkel kapitaal en reserves. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het netto-actief is wettelijk gedefinieerd als **het totaal van de activa, verminderd met de voorzieningen, de schulden en (in voorkomend geval) de niet-afgeschreven oprichtings- en herstructureringskosten en de niet-afgeschreven kosten van onderzoek en ontwikkeling**. Of equivalent: het volledige **eigen vermogen** = kapitaal + uitgiftepremies + herwaarderingsmeerwaarden + reserves (wettelijke, onbeschikbare, beschikbare) + overgedragen resultaat + kapitaalsubsidies, MIN eigen aandelen en niet-opgevraagd kapitaal. Reduceren tot \"kapitaal + reserves\" is dus inhoudelijk onjuist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De stelling is bewust een **half-correcte misleider**: het eerste deel (controle gericht op overwaardering) is juist, het tweede deel (definitie netto-actief) is onvolledig. Juist/fout-stellingen die uit twee zinnen bestaan moeten **in hun geheel** correct zijn — één onjuist element maakt de hele stelling fout. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 5:142 WVV (BV, netto-actief-test bij uitkering) en art. 7:212 WVV (NV) definiëren het netto-actief; analoog ook art. 14:4 WVV voor omzetting. KB WVV art. 3:89 (jaarrekeningschema eigen vermogen). 📖",
+          "wetsref": "art. 5:142 / 7:212 WVV; KB WVV art. 3:89",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Het opdrachtdossier moet een stuk of memorandum bevatten over de administratieve en boekhoudkundige organisatie van de vennootschap. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Inzicht in de administratieve en boekhoudkundige organisatie (AO/IC, processen, software, interne controle) is een vereiste om de betrouwbaarheid van de tussentijdse staat te kunnen beoordelen. Dit memorandum is een verplicht element van de planningsfase en wordt in het dossier opgenomen ter ondersteuning van de risico-inschatting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting vennootschap (dossiervorming + risico-inschatting). Algemene dossierplicht vloeit ook voort uit ISQM 1 / ISRE 2400. 🔗",
+          "wetsref": "ITAA-norm omzetting vennootschap; ISRE 2400; ISQM 1",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Een vordering op een vennoot (of aandeelhouder) wordt in mindering gebracht op het netto-actief bij de berekening die de beroepsbeoefenaar voor de omzetting maakt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een vordering op een vennoot wordt economisch behandeld als **niet-opgevraagd kapitaal**: het is geen werkelijk vermogen ten voordele van schuldeisers, want de inning ervan staat niet vast en bovendien zou het toelaten ervan in het netto-actief de schuldeisersbescherming (waarvoor de omzettingscontrole net is bedoeld) ondergraven. De voorzichtigheidsregel uit het boekhoudrecht (KB WVV) en de specifieke aandacht in de ITAA-norm vereisen dus een **correctie in min** op het berekende netto-actief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Dit is een klassieke valkuil-zone: in de balans kan zo'n vordering perfect onder \"vorderingen op ten hoogste één jaar\" of \"overige vorderingen\" geboekt staan, terwijl ze voor de netto-actief-berekening bij omzetting (en bij andere kapitaalbeschermingsoperaties zoals uitkering, kapitaalvermindering) als niet-opvraagbaar wordt beschouwd. Analoog aan de behandeling van **eigen aandelen** en **niet-opgevraagd kapitaal**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting vennootschap (correcties op netto-actief). KB WVV waarderingsregels — voorzichtigheidsbeginsel. 🔗",
+          "wetsref": "ITAA-norm omzetting vennootschap; KB WVV art. 3:6 e.v.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

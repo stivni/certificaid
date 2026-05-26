@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2008-bibf.pdf",
   "examen_id": "2008-bibf",
-  "merge_datum": "2026-05-26T15:29:22+00:00",
+  "merge_datum": "2026-05-26T15:37:26+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -2491,7 +2491,90 @@
       "vraag_id": "2008-bibf-vrH3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja** — de raad van bestuur kan de kapitaalverhoging zelf doorvoeren zonder buitengewone algemene vergadering, maar enkel binnen de grenzen van het **toegestaan kapitaal**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Hoofdregel: een kapitaalverhoging vereist een **statutenwijziging** en moet dus door de buitengewone algemene vergadering worden beslist (notariële akte, bijzondere meerderheid). 📖 Op die hoofdregel bestaat één wettelijke uitzondering: het **toegestaan kapitaal** (art. 7:165 jo. 7:184 WVV). De statuten kunnen aan het bestuursorgaan de bevoegdheid toekennen om het geplaatste kapitaal in één of meer keren te verhogen tot een vooraf bepaald bedrag — zonder dat daarvoor opnieuw een algemene vergadering bijeen moet worden geroepen. 📖 Dat is precies het mechanisme dat past bij een \"dringende\" kapitaalverhoging.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De vraag dateert van 2008 (oud W.Venn., art. 603 e.v.). Onder het W.Venn. heette de figuur identiek \"toegestaan kapitaal\" en gold een gelijkaardig regime (art. 603–608 W.Venn.). Sinds 1 januari 2020 staat de regeling in art. 7:184–7:189 WVV; de inhoud is materieel ongewijzigd. Vermeld dus gerust het WVV-artikel — examinatoren aanvaarden de actuele rechtsgrond. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 7:165 WVV: \"Tot verhoging van het kapitaal kan ook door het bestuursorgaan worden besloten binnen de grenzen van het toegestaan kapitaal.\" Art. 7:184 WVV bevat het kader van het toegestaan kapitaal. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 7:165 en 7:184 WVV (vroeger art. 603 W.Venn.)"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Voorwaarden voor een kapitaalverhoging binnen het toegestaan kapitaal (art. 7:184 WVV):\n\n- **Statutaire machtiging**: de statuten moeten aan de raad van bestuur (of raad van toezicht) uitdrukkelijk de bevoegdheid toekennen om het kapitaal te verhogen. 📖\n- **Plafond**: de machtiging vermeldt een **maximumbedrag** waarmee het kapitaal mag worden verhoogd. Voor **genoteerde vennootschappen** mag dat plafond niet hoger zijn dan het geplaatste kapitaal op het ogenblik van de machtiging. 📖\n- **Geldigheidsduur**: de machtiging geldt voor maximaal **5 jaar** vanaf de bekendmaking van de oprichtingsakte of van de statutenwijziging die de bevoegdheid invoert. De machtiging is hernieuwbaar door de algemene vergadering (telkens voor ten hoogste 5 jaar). 🔗\n- **Authentieke akte + bekendmaking**: het besluit van het bestuursorgaan tot kapitaalverhoging moet bij notariële akte worden vastgesteld en neergelegd/bekendgemaakt (art. 7:172 WVV). 📖\n- **Materiële regels blijven gelden**: de gewone regels over kapitaalverhoging zijn van toepassing — onder meer **voorkeurrecht** van bestaande aandeelhouders bij inbreng in geld, verslaggevingsplicht bij inbreng in natura, volstortingsregels, enz. (art. 7:166 § 1, 7:167, 7:175–7:183 WVV worden uitdrukkelijk van toepassing verklaard). 📖\n- **Verbod tijdens openbaar overnamebod**: vanaf de kennisgeving van een OBA door de FSMA mag het bestuursorgaan het toegestane kapitaal niet meer aanwenden met beperking/opheffing van het voorkeurrecht (art. 7:188 WVV). 📖\n- **Jaarverslag**: het bestuursorgaan moet in het jaarverslag verantwoording afleggen over het gebruik van de bevoegdheid. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Bij élke effectieve aanwending door het bestuursorgaan is alsnog een **notaris** vereist (authentieke akte — art. 7:172 WVV). \"Geen buitengewone algemene vergadering\" betekent dus niet \"geen notaris\" en evenmin \"geen statutenwijziging op termijn\": de wijziging van het cijfer van het geplaatste kapitaal in de statuten gebeurt door het bestuursorgaan zelf in de akte van kapitaalverhoging. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 7:184 WVV (kader toegestaan kapitaal — bevoegdheid, plafond, geldigheidsduur 5 jaar, hernieuwbaar); art. 7:172 WVV (authentieke akte + neerlegging); art. 7:188 WVV (verbod tijdens OBA); art. 7:186–7:187 WVV (verslaggeving in oprichtingsakte/statutenwijziging en in jaarverslag). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 7:184, 7:172, 7:186–7:188 WVV"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrI1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2553,7 +2636,127 @@
       "vraag_id": "2008-bibf-vrI1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Bij de oprichting van een **kapitaalvennootschap** — onder het huidige WVV zijn dat de **BV, CV en NV** — moeten de oprichters vóór het verlijden van de oprichtingsakte een financieel plan opstellen en aan de notaris overhandigen. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De verplichting geldt enkel bij **oprichting** (niet bij latere kapitaalverhogingen) en enkel voor vennootschappen waarvan de aandeelhouders een beperkte aansprakelijkheid genieten. Voor personenvennootschappen (VOF, CommV) en voor de vzw bestaat geen equivalente verplichting. 🔗\n\n**Historische context 2008** — Ten tijde van dit examen golden art. 215 W.Venn. (BVBA) en art. 440 W.Venn. (NV); de verplichting bestond toen reeds voor BVBA, CVBA en NV. Sinds het WVV (1 mei 2019) zijn dat art. 5:4 (BV), art. 6:5 (CV) en art. 7:3 (NV). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 5:4 §1 WVV (BV) en art. 7:3 §1 WVV (NV): \"Vóór de oprichting van de vennootschap overhandigen de oprichters aan de optredende notaris een financieel plan waarin zij het bedrag van het aanvangsvermogen [BV] / kapitaal [NV] verantwoorden in het licht van de voorgenomen bedrijvigheid van de vennootschap over een periode van ten minste twee jaar.\" Voor 2008: art. 215 en art. 440 W.Venn. (gelijkluidend qua principe). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 5:4 §1 WVV; art. 7:3 §1 WVV (2008: art. 215 / art. 440 W.Venn.)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Het financieel plan heeft een **dubbel doel**: (1) lichtzinnige oprichtingen voorkomen door de oprichters te dwingen op voorhand na te denken over de bedrijvigheid en de nodige middelen, en (2) een **objectieve toetssteen** leveren waarmee de rechter bij faillissement binnen drie jaar kan beoordelen of het aanvangsvermogen kennelijk ontoereikend was. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De Memorie van Toelichting stelt het zelf: \"Het financieel plan beoogt een dubbel doel. In de eerste plaats moet het lichtzinnige oprichtingen van vennootschappen beletten. (...) In de tweede plaats biedt het een bescherming van de oprichters omdat het de rechter in staat stelt de aansprakelijkheid van de oprichters wegens de oprichting van een vennootschap met ontoereikend kapitaal op een objectieve wijze te beoordelen.\" 📖\n\nConcreet werkt het plan dus zowel **preventief** (zelfdiscipline van de oprichters: een spreuk \"begint eer ge begint\") als **repressief / bewijsrechtelijk** (instrument voor de oprichtersaansprakelijkheid van art. 5:15, 6:17 en 7:18 WVV — oud: art. 229, 5° en art. 456, 4° W.Venn.). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het plan beschermt dus paradoxaal genoeg óók de oprichters zelf: zonder financieel plan zou de rechter louter ex post moeten oordelen of het aanvangsvermogen redelijk was; het plan geeft de oprichters de kans hun inschatting ex ante te documenteren en zo aansprakelijkheid af te wenden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Doel niet expliciet in de wetsbepaling, wel in de MvT bij art. 5:4 / 7:3 WVV en in de aansprakelijkheidsregel art. 5:15, 2° en art. 7:18, 2° WVV (faillissement binnen drie jaar + kennelijk ontoereikend aanvangsvermogen voor twee jaar bedrijvigheid). 2008: art. 229, 5° W.Venn. (BVBA) en art. 456, 4° W.Venn. (NV). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 5:15, 2° WVV; art. 7:18, 2° WVV (2008: art. 229, 5° / art. 456, 4° W.Venn.)"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Het financieel plan wordt overhandigd aan de **optredende notaris** vóór het verlijden van de oprichtingsakte. De notaris bewaart het stuk; het wordt **niet** neergelegd met de akte. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Het plan blijft dus **vertrouwelijk** in het dossier van de notaris en wordt niet publiek bekendgemaakt via de bijlagen bij het Belgisch Staatsblad. Enkel in geval van faillissement binnen drie jaar maakt de notaris het plan over aan de rechtbank, op verzoek van de **rechter-commissaris** of de **procureur des Konings** (art. 5:15, 2° / 7:18, 2° WVV in fine). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Het plan wordt **niet** overhandigd aan de aandeelhouders, niet aan de bedrijfsrevisor (er is geen revisorenverslag over het plan zelf) en niet aan een handelsregister of griffie. Enkel de notaris ontvangt en bewaart het. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 5:4 §1 in fine WVV / art. 7:3 §1 in fine WVV: \"Dit stuk wordt niet neergelegd met de akte, maar door de notaris bewaard.\" Voor 2008: art. 215, lid 1 W.Venn. (BVBA) en art. 440, lid 1 W.Venn. (NV) — zelfde regel. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 5:4 §1 WVV; art. 7:3 §1 WVV (2008: art. 215 / art. 440 W.Venn.)"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrI2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -2617,7 +2820,56 @@
       "vraag_id": "2008-bibf-vrI2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T15:31:33Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja, een procedure is vereist** — maar in een zachte variant: de zaakvoerder mag de verrichting uitvoeren, op voorwaarde dat hij er een **bijzonder verslag** over opstelt dat samen met de jaarrekening wordt neergelegd (art. 261 W.Venn., examenjaar 2008). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Toepassing van art. 261 W.Venn. (pre-WVV, geldend in 2008) op deze casus:\n\n- De zaakvoerder van de BVBA heeft een **rechtstreeks belang van vermogensrechtelijke aard** dat strijdig is met dat van de vennootschap → het belangenconflictregime wordt geactiveerd. 🔗\n- Omdat de zaakvoerder **tevens de enige vennoot** is, valt de gewone procedure van art. 259 W.Venn. (mededeling aan medebestuurders, onthouding, beslissing door overigen) weg — er zijn geen andere bestuurders en geen andere vennoten die de beslissing kunnen overnemen. 🔗\n- Art. 261 W.Venn. voorziet in dat geval een **vereenvoudigd regime**: de zaakvoerder/enige vennoot mag de beslissing zelf uitvoeren, maar moet de verrichting **schriftelijk verantwoorden in een bijzonder verslag** dat **samen met de jaarrekening wordt neergelegd** bij de Nationale Bank. 📖\n- Doel: minimale transparantie naar derden (schuldeisers, fiscus) behouden, ook al ontbreken interne checks.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Sinds **1 januari 2020** (WVV) is de BVBA vervangen door de BV en is art. 261 W.Venn. opgeheven. De huidige tegenhanger is **art. 5:77 WVV** (eenpersoons-BV waarvan de enige bestuurder tevens de enige aandeelhouder is): hij neemt de beslissing en de gevolgen worden **vermeld in het stuk dat samen met de jaarrekening wordt neergelegd** (art. 5:23 WVV). De redenering is identiek aan 2008 — enkel de wetsverwijzing is geactualiseerd. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 261 W.Venn.** (Wetboek van Vennootschappen, versie 2008) — belangenconflictregime BVBA met enige vennoot-zaakvoerder: verrichting toegelaten, maar bijzonder verslag verplicht dat samen met de jaarrekening wordt neergelegd. De MvT bij het WVV bevestigt dat de huidige art. 5:76-5:77 WVV \"grotendeels de bestaande artikelen 259-261 W.Venn. hernemen\", met als wijziging dat de lasthebber ad hoc verdwijnt en de beslissing bij conflict van alle bestuurders wordt voorgelegd aan de algemene vergadering. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 261 W.Venn. (2008) / art. 5:77 WVV (vanaf 2020)"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          }
+        ],
+        "vraag_id": "2008-bibf-vrI3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2673,7 +2925,52 @@
       "vraag_id": "2008-bibf-vrI3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T15:31:10Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — in 2008 kon een burgerlijke vennootschap met handelsvorm (bv. een NV/BVBA met een burgerlijk doel zoals een vrij beroep, landbouw of vastgoed-beheer) geen gerechtelijk akkoord bekomen, omdat de Wet van 17 juli 1997 op het gerechtelijk akkoord enkel openstond voor **kooplieden** in de zin van art. 1 Wetboek van Koophandel, en het aannemen van een handelsvorm volstaat niet om die hoedanigheid te verkrijgen — het maatschappelijk doel blijft beslissend. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Redenering in drie stappen:\n\n1. **Toepassingsgebied Wet 17 juli 1997 (WGA)** — art. 3 WGA opende de procedure enkel voor *kooplieden* (en bij uitbreiding handelsvennootschappen die effectief koopman-daden stellen). 🔗\n2. **Koopman-hoedanigheid is doel-gebonden, niet vorm-gebonden** — vaste rechtspraak (o.m. Cass. 19 januari 1973) en heersende leer: een vennootschap is koopman wanneer haar *werkelijke maatschappelijk doel* in daden van koophandel (art. 2-3 W.Kh.) bestaat. Het loutere aannemen van een handelsvorm (NV, BVBA, Comm.V., ...) heeft een burgerlijke vennootschap niet tot koopman gemaakt. 🔗\n3. **Gevolg** — de burgerlijke vennootschap met handelsvorm viel **noch** onder de WGA, **noch** onder het faillissementsrecht (Faill.W. 1997 vereiste eveneens koopman-hoedanigheid). Zij was aangewezen op het gemeen recht (ontbinding-vereffening, individuele uitvoeringsmaatregelen door schuldeisers). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wetboek-van-Economisch-Recht.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Deze beperking is sindsdien **opgeheven**. De Wet Continuïteit Ondernemingen (WCO, 31 januari 2009, in werking 1 april 2009) verving de WGA en breidde het toepassingsgebied uit; het huidige **Boek XX WER** (in werking 1 mei 2018, herzien 1 september 2023) hanteert het ruime begrip *onderneming* uit art. I.1, 1° WER — elke natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel nastreeft, met inbegrip van burgerlijke vennootschappen, vrije beroepers en VZW's. De vraag uit 2008 heeft dus enkel historische waarde: vandaag zou het antwoord **ja** zijn. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wetboek-van-Economisch-Recht.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Toen geldend recht (2008): art. 3 Wet 17 juli 1997 betreffende het gerechtelijk akkoord (koopman-vereiste); art. 1-3 Wetboek van Koophandel (definitie koopman en daden van koophandel); Cass. 19 januari 1973 (doel-criterium voor koopman-hoedanigheid van vennootschap met handelsvorm). 🤖 Vandaag (sinds 1 mei 2018, herziening 1 september 2023): art. XX.45 WER (gerechtelijke reorganisatie) gelezen met art. I.1, 1° WER (ruim ondernemingsbegrip — omvat ook burgerlijke vennootschappen). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 3 Wet 17 juli 1997 GA (historisch) — vandaag art. XX.45 + art. I.1, 1° WER"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2008-bibf-vrI4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -2722,7 +3019,95 @@
       "vraag_id": "2008-bibf-vrI4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De oprichters van een BV (vroeger BVBA) zijn niettegenstaande elk strijdig beding **hoofdelijk aansprakelijk** jegens belanghebbenden op twee gronden: (1) **oprichtingsgebreken** — nietigheid, ontbrekende of onjuiste akteverklaringen en kennelijke overwaardering van inbrengen in natura; (2) **kennelijk ontoereikend aanvangsvermogen** — als de vennootschap binnen **drie jaar** na de oprichting failliet wordt verklaard en het aanvangsvermogen kennelijk ontoereikend was voor de normale uitoefening van de voorgenomen bedrijvigheid over ten minste **twee jaar**. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Concreet — art. 5:15 WVV (vroeger art. 229 W.Venn. voor de BVBA):\n\n- **Oprichtingsgebreken** (1°): hoofdelijke aansprakelijkheid voor schade die het onmiddellijke gevolg is van (a) nietigheid van de vennootschap (art. 5:12), (b) ontbreken of onjuistheid van de in art. 5:11 voorgeschreven akteverklaringen, of (c) kennelijke overwaardering van inbrengen in natura. 📖\n- **Faillissement binnen drie jaar** (2°): voor de verbintenissen van de vennootschap, **naar een verhouding die de rechter vaststelt**, als de vennootschap binnen drie jaar na de oprichting failliet gaat én het aanvangsvermogen bij oprichting kennelijk ontoereikend was voor de normale uitoefening van de activiteit over minstens twee jaar. De notaris maakt dan op verzoek van de rechter-commissaris of het parket het **financieel plan** (art. 5:4) over aan de rechtbank. 📖\n- **Belanghebbenden** = de vennootschap zelf, aandeelhouders en schuldeisers. De vordering kan worden ingesteld door de curator namens de boedel. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "De oprichtersaansprakelijkheid voor faillissement binnen drie jaar is **niet** automatisch — ze hangt af van de beoordeling door de rechter van het financieel plan: heeft de oprichter **redelijkerwijs** het aanvangsvermogen verantwoord? Een grondig, realistisch financieel plan met onderbouwde prognoses (omzet, kosten, financieringsbronnen) is dus het belangrijkste verweermiddel. Sinds WVV (2019) geldt deze aansprakelijkheid voor het volledige **aanvangsvermogen** (eigen vermogen + achtergestelde leningen), niet meer voor een minimumkapitaal — het beoordelingscriterium is verstrengd, niet verzwakt. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vandaag**: art. 5:15 WVV (oprichtersaansprakelijkheid BV) jo. art. 5:4 WVV (verplicht financieel plan). **Ten tijde van het examen (2008)**: art. 229 W.Venn. (BVBA) jo. art. 215 W.Venn. (financieel plan). De inhoudelijke structuur — oprichtingsgebreken + faillissement binnen drie jaar bij ontoereikend (kapitaal/aanvangsvermogen) — is bij de overgang naar WVV ongewijzigd gebleven; alleen de term “kapitaal” werd vervangen door “aanvangsvermogen” omdat de BV kapitaalloos werd. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 5:15 WVV (art. 229 W.Venn., vroegere BVBA)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De aansprakelijkheidsregeling is **structureel identiek** (zelfde twee gronden, zelfde driejarige termijn, zelfde tweejaarsmaatstaf voor het financieel plan) — art. 7:17 WVV voor de NV spiegelt art. 5:15 WVV voor de BV. De belangrijkste verschillen zitten in (1) **wie kwalificeert als oprichter** en (2) de **referentiemaatstaf** (kapitaal bij NV — minimum 61.500 EUR, volledig geplaatst en volgestort; aanvangsvermogen bij BV — geen minimum, maar moet “toereikend” zijn). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Verschillen tussen NV (art. 7:17 WVV / vroeger art. 456 W.Venn.) en BV (art. 5:15 WVV / vroeger art. 229 W.Venn.):\n\n- **Kring van oprichters**: bij de NV kunnen “loutere onderschrijvers” — aandeelhouders die zich niet als oprichter hebben gemanifesteerd in de akte — zich onttrekken aan de oprichtersaansprakelijkheid, op voorwaarde dat de oprichters samen **minstens een derde** van het kapitaal vertegenwoordigen (figuur van de “mede-onderschrijver”, art. 7:12 WVV / oud art. 450 W.Venn.). Bij de BV bestond deze splitsing niet — alle deelnemers aan de oprichtingsakte zijn in beginsel oprichter. 🤖\n- **Referentiemaatstaf voor faillissement-binnen-3-jaar**: NV — “het **kapitaal** kennelijk ontoereikend” (art. 7:17, 2°); BV — “het **aanvangsvermogen** kennelijk ontoereikend” (art. 5:15, 2°). Voor de NV blijft het wettelijk minimumkapitaal van **61.500 EUR** (volledig geplaatst en volgestort, art. 7:2 WVV) bestaan; voor de BV is sinds WVV elk minimumkapitaal afgeschaft. 📖\n- **Inhoud financieel plan**: art. 7:3 WVV (NV) en art. 5:4 WVV (BV) zijn quasi-identiek qua structuur — beide eisen voorgenomen bedrijvigheid, financieringsbronnen, openingsbalans + projecties op 12 en 24 maanden. Voor de NV verantwoordt het plan “het bedrag van het kapitaal”; voor de BV “het bedrag van het aanvangsvermogen”. 📖\n- **Quasi-inbreng**: bij de NV geldt een specifieke quasi-inbrengregeling (art. 7:8 WVV / oud art. 445 W.Venn.) voor verkrijgingen door de vennootschap binnen twee jaar na oprichting van een goed dat toebehoort aan een oprichter/bestuurder/aandeelhouder, met verslag van bedrijfsrevisor; bij de BV is dat regime vereenvoudigd. 🔗\n- **Onder W.Venn. (2008-context)**: minimumkapitaal BVBA = 18.550 EUR (waarvan minstens 6.200 EUR volgestort bij oprichting met meerdere vennoten, 12.400 EUR bij EBVBA); minimumkapitaal NV = 61.500 EUR volledig volgestort. Voor de NV kon “kennelijk ontoereikend” nooit onder dat wettelijk minimum zakken; voor de BVBA had de rechter meer bewegingsruimte. 🤖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De “kring van oprichters”-uitzondering bij de NV is praktisch belangrijk: in een NV met meerdere kapitaalverschaffers kan een **passieve investeerder** zich (mits aan de wettelijke voorwaarden voldaan, met name de derdebreukregel) beperken tot de rol van gewone aandeelhouder — die loopt dan alleen het kapitaalverliesrisico, niet de oprichtersaansprakelijkheid. In een BV is dat niet mogelijk: wie meeondertekent als oprichter, krijgt automatisch het volledige aansprakelijkheidsregime. Dit is voor de stagiair-accountant relevant bij het adviseren over rechtsvormkeuze en aandeelhoudersstructuur. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vandaag**: art. 7:17 WVV (oprichtersaansprakelijkheid NV) jo. art. 7:3 WVV (financieel plan NV) jo. art. 7:12 WVV (mede-onderschrijvers / kring oprichters). **Ten tijde van het examen (2008)**: art. 456 W.Venn. (NV) jo. art. 440 W.Venn. (financieel plan NV) jo. art. 450 W.Venn. (mede-onderschrijvers). De verschillen BV/NV in de hedendaagse WVV-tekst weerspiegelen de oude verschillen BVBA/NV uit het W.Venn., met als grote breuk de afschaffing van het minimumkapitaal voor de BV (was BVBA: 18.550 EUR; is BV: geen). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 7:17 WVV (art. 456 W.Venn., NV) vs. art. 5:15 WVV (art. 229 W.Venn., BVBA/BV)"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrI5"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -2780,7 +3165,122 @@
       "vraag_id": "2008-bibf-vrI5"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Uiterlijk woensdag 26 december 2007** moet het ontslag om dringende reden worden betekend. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 35, derde lid Arbeidsovereenkomstenwet: het ontslag mag niet meer worden gegeven wanneer het feit ter rechtvaardiging sinds **ten minste drie werkdagen** bekend is aan de partij die zich erop beroept. 📖\n\n**Werkdagen** = alle dagen behalve zondagen en wettelijke feestdagen (zaterdag telt mee). De dag van de kennisname zelf telt niet mee.\n\nBart bekent op **vrijdag 21 december 2007** (dag 0 — kennisname):\n\n| Dag | Datum | Telt mee? |\n|---|---|---|\n| za | 22 dec | werkdag 1 |\n| zo | 23 dec | nee (zondag) |\n| ma | 24 dec | werkdag 2 |\n| di | 25 dec | nee (Kerstmis, feestdag) |\n| **wo** | **26 dec** | **werkdag 3 → uiterste betekening** |\n\nDe betekening moet ten laatste op de derde werkdag gebeuren, dus **woensdag 26 december 2007**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "**Zaterdag is een werkdag** voor de toepassing van art. 35 — dit wijkt af van het gerechtelijke begrip \"werkdag\" (waar zaterdag géén werkdag is). Het Hof van Cassatie heeft dit herhaaldelijk bevestigd. Wie zaterdag uitsluit, komt op donderdag 27 december uit en betekent één dag te laat — met als gevolg de opzegvergoeding van deelvraag c. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 35, derde lid Wet 3 juli 1978 betreffende de arbeidsovereenkomsten: \"Ontslag om een dringende reden mag niet meer zonder opzegging (...) worden gegeven, wanneer het feit ter rechtvaardiging ervan sedert ten minste drie werkdagen bekend is aan de partij die zich hierop beroept.\" 📖",
+                "type": "grondslag",
+                "wetsref": "art. 35, derde lid Wet 3 juli 1978"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Uiterlijk vrijdag 28 december 2007** moet de tweede, gemotiveerde aangetekende brief worden verstuurd. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 35, vierde lid Arbeidsovereenkomstenwet: \"Alleen de dringende reden waarvan kennis is gegeven **binnen drie werkdagen na het ontslag** kan worden aangevoerd ter rechtvaardiging van het ontslag.\" 📖\n\nOntslagbrief aangetekend verzonden op **maandag 24 december 2007** (dag 0 — datum ontslag):\n\n| Dag | Datum | Telt mee? |\n|---|---|---|\n| di | 25 dec | nee (Kerstmis, feestdag) |\n| wo | 26 dec | werkdag 1 |\n| do | 27 dec | werkdag 2 |\n| **vr** | **28 dec** | **werkdag 3 → uiterste verzending** |\n\nDe gemotiveerde brief moet ten laatste op de derde werkdag na het ontslag worden verstuurd, dus **vrijdag 28 december 2007**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 35, vierde lid Wet 3 juli 1978: kennisgeving van de dringende reden moet gebeuren binnen drie werkdagen na het ontslag, op straffe van nietigheid bij aangetekende brief of gerechtsdeurwaardersexploot (vijfde lid). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 35, vierde en vijfde lid Wet 3 juli 1978"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Opzegvergoeding = 13.500 EUR bruto = 6 maanden brutoloon.** 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Kwalificatie van Bart**: bediende, bruto jaarloon 27.000 EUR. De loondrempel voor \"hogere bediende\" bedroeg in 2007 **29.729 EUR**. Bart blijft eronder en is dus **gewone (lagere) bediende** — art. 82 §2 Wet 3 juli 1978 (versie vóór de Wet Eenheidsstatuut van 26 december 2013, die pas op 1 januari 2014 in werking trad). 🔗\n\n**Anciënniteit**: van 1 februari 2001 tot het ontslag eind december 2007 = **6 jaar en 11 maanden** → telt als zeven aangevangen jaren, dus **2 aangevangen schijven van vijf jaar**.\n\n**Formule art. 82 §2**: opzeggingstermijn werkgever = **3 maanden per aangevangen schijf van 5 jaar anciënniteit**, met een minimum van 3 maanden.\n\n→ 2 schijven × 3 maanden = **6 maanden opzeggingstermijn**.\n\n**Opzegvergoeding** (art. 39 §1 Wet 1978) = lopend loon dat overeenstemt met de duur van de opzeggingstermijn:\n\n- Maandloon = 27.000 / 12 = 2.250 EUR\n- Vergoeding = 6 × 2.250 = **13.500 EUR bruto**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Voor **hogere bedienden** (jaarloon > drempel) gold in 2007 de **formule-Claeys** of een rechterlijke beoordeling — niet de vaste 3-maanden-per-schijf-regel. Bart's loon (27.000 EUR) ligt onder de drempel van 29.729 EUR voor 2007, dus de wettelijke formule van art. 82 §2 is van toepassing. Sinds de Wet Eenheidsstatuut (1 januari 2014) zijn deze categorieën afgeschaft en geldt één progressieve regeling voor alle werknemers. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 39 §1 Wet 3 juli 1978 (opzegvergoeding = lopend loon overeenstemmend met de opzeggingstermijn) + art. 82 §2 Wet 3 juli 1978 in zijn versie van toepassing in 2007 (3 maanden opzeg per begonnen schijf van 5 jaar anciënniteit voor de gewone bediende, met minimum 3 maanden). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 39 §1 + art. 82 §2 Wet 3 juli 1978 (versie 2007)"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrJ1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": {
           "deelvraag_id": "alle",

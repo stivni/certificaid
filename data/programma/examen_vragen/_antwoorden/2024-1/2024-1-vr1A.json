@@ -1,0 +1,62 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr1A",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Nee** op beide. De aandeelhouder blijft volstortingsplichtig voor het niet-volstorte gedeelte — het wordt van rechtswege omgezet naar *niet-opgevraagde andere onbeschikbare inbreng buiten kapitaal* (rek. 111901), maar de schuld tegenover de vennootschap blijft bestaan. Voor de loutere omvorming BVBA → BV is **geen liquiditeitstest** vereist; die test geldt enkel bij latere **uitkeringen** uit het eigen vermogen (art. 5:143 WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-14-van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Volstortingsverplichting",
+          "tekst": "Een op 1 mei 2019 bestaande BVBA wordt vanaf **1 januari 2020 van rechtswege en zonder enige formaliteit** onderworpen aan de WVV-regels: het **volstort gedeelte** van het kapitaal en de wettelijke reserve worden omgevormd tot een *statutair onbeschikbare eigen vermogensrekening* (rek. 1311). 📖 Het **niet-volstort gedeelte** (oude rek. 101 *Niet-opgevraagd kapitaal*) wordt omgeboekt naar rek. **111901 *Niet-opgevraagde andere onbeschikbare inbreng buiten kapitaal***, met als tegenrekening **1119 *Andere onbeschikbare inbreng buiten kapitaal***. 📖 De aandeelhouder is dus **niet bevrijd**: de schuld blijft staan en wordt bij opvraging geboekt via rek. 410 *Opgevraagd, niet gestort kapitaal of inbreng* tegen rek. 11901. 📖 Ook art. 5:46 WVV bevestigt dat overdrager én overnemer van een niet-volgestort aandeel hoofdelijk volstortingsplichtig blijven. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-14-van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Liquiditeitstest",
+          "tekst": "De overgang BVBA → BV per 1/1/2020 is **geen omzetting in de zin van Boek 14 WVV**, maar een automatische rechtsvormaanpassing van rechtswege — er is dus geen aparte omzettingsprocedure, geen staat van activa en passiva, en **geen liquiditeitstest** verbonden aan de overgang zelf. 🔗 De liquiditeitstest (art. 5:143 WVV) wordt door het bestuursorgaan uitgevoerd vóór een **uitkering** (dividend, tantième, inkoop eigen aandelen, terugbetaling van inbreng) en moet bewijzen dat de BV haar opeisbare schulden de eerstvolgende **12 maanden** kan blijven betalen. 🔗 Wil de aandeelhouder na de omvorming de inbreng (geheel of deels) terugkrijgen of de onbeschikbare reserves uitkeerbaar maken, dan zijn **statutenwijziging + nettoactief- én liquiditeitstest** wel vereist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-14-van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De afschaffing van het kapitaalbegrip betekent **niet** dat openstaande volstortingsverbintenissen vervallen — dat is de klassieke instinker. Het kapitaal verdwijnt boekhoudkundig (verschuift naar *inbreng*), maar de schuld van de aandeelhouder tegenover de vennootschap (en, bij overdracht, tegenover derden) blijft onverkort bestaan. 🔗 Tweede valkuil: \"omzetting\" in de vraag betekent hier de automatische omvorming krachtens de WVV-overgangsbepalingen — niet een vrijwillige omzetting onder Boek 14 WVV (waarvoor wél een staat van activa en passiva en een commissaris-/bedrijfsrevisorverslag nodig zijn, maar nog steeds geen liquiditeitstest).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-14-van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**CBN-advies 2019/14** *Van een kapitaalhoudende BVBA naar een kapitaalloze BV* (13/11/2019) — algemene regel + boekingen omvorming kapitaal en opvraging niet-gestorte inbreng. **Art. 5:46 WVV** — hoofdelijke volstortingsplicht bij overdracht van niet-volgestorte aandelen. **Art. 5:142–5:143 WVV** — nettoactief- en liquiditeitstest gelden bij **uitkeringen** uit het eigen vermogen van een BV, niet bij de loutere overgang van rechtswege. 📖",
+          "wetsref": "Art. 5:46, 5:142, 5:143 WVV; CBN-advies 2019/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-14-van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

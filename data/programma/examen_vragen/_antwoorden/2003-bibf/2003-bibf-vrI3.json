@@ -1,0 +1,67 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrI3",
+  "antwoord_datum": "2026-05-26T15:31:05Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De vraag combineert **twee onderscheiden verplichtingen** die in 2003 onder het W.Venn. golden:\n\n1. **Alarmbelprocedure** (art. 633 W.Venn. voor de NV; art. 332 W.Venn. voor de BVBA): wanneer uit de balans blijkt dat het netto-actief — onder andere door een overgedragen verlies — gedaald is tot **minder dan de helft** of **minder dan een vierde** van het maatschappelijk kapitaal, moet het bestuursorgaan binnen twee maanden de **bijzondere algemene vergadering** bijeenroepen om te beraadslagen over ontbinding of herstelmaatregelen, op basis van een **bijzonder bestuursverslag**. 🔗\n2. **Continuïteitsverantwoording in het jaarverslag** (art. 96 W.Venn., voortgezet in art. 3:6 WVV): wanneer uit de resultatenrekening **gedurende twee opeenvolgende boekjaren een verlies van het boekjaar** blijkt, moet het bestuursorgaan in zijn jaarverslag **uitdrukkelijk de toepassing van de waarderingsregels in continuïteit (going concern) verantwoorden**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Concrete verplichtingen bij overgedragen verlies (alarmbel)",
+          "tekst": "Wanneer het netto-actief gedaald is tot **minder dan de helft van het kapitaal** (eerste drempel — art. 633, eerste lid W.Venn. / art. 332, eerste lid W.Venn.):\n\n- Het bestuursorgaan roept de algemene vergadering bijeen **binnen twee maanden** na de datum waarop het verlies werd vastgesteld of had moeten vastgesteld zijn. 🔗\n- Het bestuursorgaan stelt een **bijzonder verslag** op dat de oorzaken van de toestand toelicht en de voorgestelde maatregelen tot herstel verantwoordt — of, in voorkomend geval, de ontbinding voorstelt. Het verslag wordt in de agenda aangekondigd en op de zetel ter beschikking gehouden van de vennoten. 🔗\n- De algemene vergadering beraadslaagt en beslist over **de ontbinding** van de vennootschap **of over de voorgestelde herstelmaatregelen**; ontbinding is niet de enige optie. De beslissing wordt genomen volgens de regels voor statutenwijziging (verzwaarde aanwezigheids- en meerderheidsvereisten). 🔗\n\nWanneer het netto-actief verder gedaald is tot **minder dan een vierde van het kapitaal** (tweede drempel — art. 633, tweede lid W.Venn. / art. 332, tweede lid W.Venn.):\n\n- Zelfde procedure (bijeenroeping AV + bijzonder verslag), maar de **ontbinding kan worden uitgesproken door een vierde van de op de AV uitgebrachte stemmen** — dus met een veel lagere meerderheidsvereiste. 🔗\n\nWanneer het netto-actief gedaald is tot **minder dan € 61.500** (= minimumkapitaal NV destijds; art. 634 W.Venn.):\n\n- **Iedere belanghebbende of het openbaar ministerie** kan de **ontbinding van de vennootschap voor de rechtbank vorderen**. De rechtbank kan een termijn toestaan om de toestand te regulariseren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Concrete verplichtingen bij twee opeenvolgende verliesboekjaren",
+          "tekst": "Wanneer uit de resultatenrekening blijkt dat er **gedurende twee opeenvolgende boekjaren een verlies van het boekjaar** is, moet het bestuursorgaan:\n\n- In het **jaarverslag** (art. 96 W.Venn., thans art. 3:6 WVV) **uitdrukkelijk verantwoorden** dat de boekhouding wordt gevoerd en de jaarrekening wordt opgemaakt **met toepassing van de waarderingsregels in de veronderstelling van continuïteit** (going concern). 🔗\n- De **going-concern-veronderstelling expliciet motiveren**: blijft de vennootschap een levensvatbare onderneming? Welke maatregelen worden genomen? Indien continuïteit niet langer aangenomen wordt, moeten de **waarderingsregels in discontinuïteit** worden toegepast (liquidatiewaarden). 🔗\n- De **commissaris** (indien aangesteld) toetst deze verantwoording in zijn controleverslag en signaleert eventuele continuïteits­onzekerheden. 🔗\n\nDeze verplichting geldt **onafhankelijk** van de alarmbeldrempel: ook als het netto-actief nog ruim boven de helft van het kapitaal staat, ontstaat er bij twee opeenvolgende verliesboekjaren een verantwoordingsplicht in het jaarverslag.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "**Sanctie bij niet-naleving van de alarmbel** (art. 633, laatste lid W.Venn., thans art. 2:52 WVV): wanneer de algemene vergadering niet wordt bijeengeroepen overeenkomstig de wet, wordt **vermoed dat de door derden geleden schade voortvloeit uit het ontbreken van de bijeenroeping**. Dit is een **omgekeerde bewijslast** — de bestuurders moeten aantonen dat de schade niet aan het verzuim te wijten is. Het gaat om een **weerlegbaar vermoeden**, maar het zwaartepunt van de aansprakelijkheid verschuift naar de bestuurder. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De twee triggers van de vraag (\"overgedragen verlies\" en \"twee opeenvolgende verliesboekjaren\") zijn **niet inwisselbaar**: het overgedragen verlies activeert de **alarmbel** (drempel netto-actief vs. kapitaal — art. 633/332 W.Venn.), terwijl twee opeenvolgende verliesboekjaren de **continuïteitsverantwoording in het jaarverslag** activeert (art. 96 W.Venn.). Vermijd de fout om alleen de alarmbel te beschrijven en de going-concern-verantwoording te vergeten — de vraagsteller test net dit onderscheid. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Toepasselijk recht in 2003 (W.Venn.)**:\n- **Art. 633 W.Venn.** (NV) en **art. 332 W.Venn.** (BVBA): alarmbelprocedure — bijeenroeping AV binnen twee maanden, bijzonder bestuursverslag, beslissing over ontbinding of herstel bij netto-actief < helft of < kwart van het kapitaal. 📖\n- **Art. 634 W.Venn.**: vordering tot ontbinding door iedere belanghebbende wanneer netto-actief < € 61.500. 📖\n- **Art. 96 W.Venn.**: jaarverslag — verantwoording van de toepassing van de waarderingsregels in continuïteit bij twee opeenvolgende verliesboekjaren. 📖\n\n**Huidige tegenhanger onder WVV (2019, voor referentie)**:\n- **Art. 7:228-7:229 WVV** (NV — drempels helft/vierde, vordering bij netto-actief < € 61.500); **art. 5:153 WVV** (BV — netto-actief negatief of dreigend negatief, kasstroomtoets); **art. 6:119 WVV** (CV).\n- **Art. 2:52 WVV**: omgekeerde bewijslast bij niet-bijeenroeping.\n- **Art. 3:6 WVV** (continuïteitsverantwoording in jaarverslag). 🔗",
+          "wetsref": "Art. 633 + 634 + 96 W.Venn. (2003); thans art. 7:228-7:229 + 2:52 + 3:6 WVV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md",
+            "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

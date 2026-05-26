@@ -1,0 +1,64 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr4B",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Herinnering met kwaliteits_flag 'subvraag_zonder_inhoud': enkel de paraplu 'verdere stellingen Juist of Fout ivm ontbinding en vereffening' is bewaard — concrete stellingen ontbreken. vr4A heeft de stellingen over (a) ontbindingsbesluit-meerderheid CV, (b) verslag externe accountant BV, (c) authentieke akte AV-ontbinding BV en (d) authentieke akte AV-sluiting BV reeds gedekt. Dit antwoord is daarom gemodelleerd als een framework-blok dat de overige typische J/F-stellingsthema's rond ontbinding-vereffening dekt (verslagplicht beroepsbeoefenaar, drie-maanden-staat, vereffenaar-benoeming/bevestiging rechtbank, vereffening-in-één-akte, sluiting-modaliteiten, voortbestaan rechtspersoonlijkheid). Geen 'oordeel'-veld omdat er geen concrete stelling is om te beoordelen.",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "framework_zonder_concrete_stellingen",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Beoordelingskader voor verdere stellingen over **ontbinding en vereffening** van een BV/CV/NV: een stelling is **juist** als ze aansluit bij (i) het driedelig ontbindingsschema van **art. 2:70 WVV** (vrijwillig — van rechtswege — gerechtelijk) 📖, (ii) de **verslagplicht** van het bestuursorgaan + beroepsbeoefenaar over de **staat van activa en passiva** (max. **drie maanden** oud) bij vrijwillige ontbinding (art. 2:71, §2 WVV) 📖, (iii) de **notariële-akte-vereiste** voor het ontbindingsbesluit van BV/CV/NV 📖, en (iv) het principe dat de vennootschap **als rechtspersoon blijft bestaan** tot de sluiting van de vereffening (art. 2:76 WVV) 📖. Een stelling is **fout** wanneer ze de drempels (drie-maanden-staat ↔ vier-maanden bij grensoverschrijdende omzetting), bevoegdheden (AV ↔ rechtbank) of procedures (klassieke vereffening ↔ vereffening-in-één-akte art. 2:80 WVV) verwart. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Zes pijlers waarop verdere J/F-stellingen worden gebouwd** (en wat de stagiair moet kunnen herkennen):\n\n1. **Drie ontbindingsgronden — art. 2:70 WVV** 📖. (a) Vrijwillig — besluit AV met versterkte meerderheid (4/5 uitgebrachte stemmen — art. 5:84 BV, 6:70 §2 CV, 7:132 NV); (b) van rechtswege (bv. statutaire ontbindende voorwaarde, afloop van de duur); (c) gerechtelijk (art. 2:74 e.v. — wettige redenen, sanctie, niet-neerlegging jaarrekening drie boekjaren). Stelling-valkuil: \"de rechter kan altijd een vennootschap ontbinden op vraag van één aandeelhouder\" → **FOUT** — vereist *wettige redenen* zoals duurzaam onenigheid die de werking onmogelijk maakt. 🔗\n\n2. **Staat van activa en passiva — max. drie maanden oud — art. 2:71, §2 WVV** 📖. Bij **vrijwillige ontbinding** moet het bestuursorgaan een verslag opmaken dat het voorstel toelicht, met een **staat van activa en passiva die niet meer dan drie maanden voorafgaand aan de AV** is vastgesteld, opgesteld conform de waarderingsregels van het KB/WVV. Deze staat moet **niet** worden neergelegd bij de NBB, wél bij het verslag van het bestuursorgaan gevoegd. 📖 Stelling-valkuil: \"de staat mag tot zes maanden oud zijn\" → **FOUT**. Niet verwarren met de **vier-maanden-staat** voor grensoverschrijdende omzetting (art. 14:21 WVV). 📖\n\n3. **Verslag beroepsbeoefenaar — art. 2:71, §2, derde lid WVV** 📖. De **commissaris** brengt verslag uit over de staat; is er geen commissaris, dan wordt door het bestuursorgaan **een bedrijfsrevisor of een externe gecertificeerd accountant** aangewezen. Het verslag vermeldt in het bijzonder of de staat een **getrouw beeld** geeft en signaleert eventuele **overwaardering van het nettoactief**. Het verslag is een door wet voorbehouden controleopdracht (ITAA-norm Ontbinding-Vereffening). 📖 Stelling-valkuil: \"elke externe accountant zonder certificering kan dit verslag opstellen\" → **FOUT** — moet GA of bedrijfsrevisor zijn.\n\n4. **Vereffenaar — benoeming en bevestiging door de voorzitter van de rechtbank — art. 2:76 WVV** 📖. Bij vrijwillige ontbinding wordt de vereffenaar benoemd door de statuten of door de AV. **MAAR**: indien uit de staat van activa en passiva een **tekort** blijkt waardoor niet alle schuldeisers volledig kunnen worden terugbetaald, moet de benoeming **ter bevestiging worden voorgelegd aan de voorzitter van de ondernemingsrechtbank** van het arrondissement waar de vennootschap haar zetel heeft. 📖 Stelling-valkuil: \"de rechtbank moet de vereffenaar altijd bevestigen\" → **FOUT** — enkel bij tekort. Bij **gerechtelijke ontbinding** kan de rechtbank ofwel een vereffenaar aanwijzen ofwel de **onmiddellijke sluiting** uitspreken (art. 2:71, §1 WVV bij gerechtelijke ontbinding zonder vereffenaar). 📖\n\n5. **Vereffening in één akte — art. 2:80 WVV** 📖. De ontbinding én de sluiting van de vereffening kunnen in **één notariële akte** worden samengebracht mits **drie cumulatieve voorwaarden**: (i) **geen vereffenaar wordt benoemd**, (ii) **alle schulden zijn betaald of de nodige gelden geconsigneerd**, en (iii) **alle aandeelhouders zijn aanwezig of vertegenwoordigd** op de AV en hebben schriftelijk ingestemd. De beroepsbeoefenaar **controleert** de betaling/consignatie van de schulden op de staat. 📖 Stelling-valkuil: \"bij vereffening in één akte volstaat een meerderheid van 4/5\" → **FOUT** — alle aandeelhouders moeten instemmen (unanimiteit).\n\n6. **Sluiting van de vereffening — art. 2:90 + 2:100/2:101 WVV** 📖. Bij **vrijwillige ontbinding** spreekt de **AV** de sluiting uit op basis van een **cijfermatig verslag** van de vereffenaar (in voorkomend geval gecontroleerd door de commissaris). Bij **gerechtelijke ontbinding** spreekt de **rechtbank** de sluiting uit. De vennootschap **houdt pas op te bestaan** als rechtspersoon op het ogenblik van de sluiting (niet bij het ontbindingsbesluit) — art. 2:76 WVV. De sluiting wordt **bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad**. 📖 Stelling-valkuil: \"de vennootschap verdwijnt als rechtspersoon zodra de AV de ontbinding heeft uitgesproken\" → **FOUT** — zij blijft bestaan *in vereffening* tot de sluiting.\n\n**Typische J/F-patronen voor 'verdere stellingen' (na vr4A-thema's CV-meerderheid + BV-akte-vereisten):**\n- ✔ \"De staat van activa en passiva mag maximum drie maanden oud zijn op de dag van de AV.\" → **JUIST** (art. 2:71, §2 WVV) 📖.\n- ✔ \"Bij vereffening in één akte is de instemming van álle aandeelhouders vereist.\" → **JUIST** (art. 2:80, 3° WVV) 📖.\n- ✔ \"De vennootschap blijft als rechtspersoon bestaan tot de sluiting van de vereffening.\" → **JUIST** (art. 2:76 WVV) 📖.\n- ✘ \"De voorzitter van de ondernemingsrechtbank moet de benoeming van élke vereffenaar bevestigen.\" → **FOUT** — enkel bij tekort op de staat 📖.\n- ✘ \"Een gewone meerderheid in de AV volstaat om een NV vrijwillig te ontbinden.\" → **FOUT** — 4/5 van de uitgebrachte stemmen + quorum (art. 7:132 NV) 🔗.\n- ✘ \"Het verslag over de staat van activa en passiva mag worden opgesteld door eender welke boekhouder.\" → **FOUT** — commissaris, bedrijfsrevisor of gecertificeerd accountant 📖.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "**Verschil 'vereffening in één akte' (art. 2:80) ↔ 'onmiddellijke sluiting' bij gerechtelijke ontbinding (art. 2:71, §1)**: beide leiden tot een vennootschap die niet door een klassieke vereffeningsfase gaat, maar de **rechtsgrond verschilt fundamenteel**. Art. 2:80 is een **vrijwillig** mechanisme dat unanimiteit van aandeelhouders + betaling/consignatie van alle schulden vereist; art. 2:71, §1 is een **gerechtelijke** beslissing waarbij de rechter bij de ontbindingsuitspraak meteen de sluiting uitspreekt indien geen vereffenaar nodig is (bv. lege vennootschap). Stellingen die deze twee verwarren — bv. \"de rechtbank kan ook in één akte ontbinden en sluiten op verzoek van de aandeelhouders\" — zijn **fout**: art. 2:80 is een notariële-akte-procedure, niet rechtbank-bevoegdheid. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**De 'drie-maanden-staat' is geen jaarrekening**. De staat van activa en passiva van art. 2:71, §2 WVV is een **specifieke financiële staat** opgesteld in functie van de ontbinding — niet de laatst neergelegde jaarrekening. Hij wordt **in principe in discontinuïteit** gewaardeerd (art. 3:6, §2 KB/WVV), tenzij het bestuursorgaan motiveert waarom continuïteit nog kan worden aangehouden (bv. omdat de activiteit door een andere entiteit wordt voortgezet) — in dat geval moet de beroepsbeoefenaar de motivatie kritisch beoordelen en bij twijfel over de continuïteit *significante onzekerheid* signaleren (ITAA-norm Ontbinding-Vereffening §32-33). Stellingen die \"de laatste jaarrekening volstaat\" of \"continuïteit is de default\" beweren, zijn **fout**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Kern-grondslagen** voor stellingen over ontbinding en vereffening van BV/CV/NV:\n- **Art. 2:70 WVV** — drie ontbindingsgronden (vrijwillig, van rechtswege, gerechtelijk).\n- **Art. 2:71 WVV** — bij vrijwillige ontbinding: verslag bestuursorgaan + staat van activa en passiva (max. 3 maanden oud, in discontinuïteit waarderen) + verslag commissaris/bedrijfsrevisor/GA over de staat (overwaardering nettoactief signaleren). §1 — bij gerechtelijke ontbinding kan de rechtbank de onmiddellijke sluiting uitspreken indien geen vereffenaar wordt aangewezen.\n- **Art. 2:74-2:75 WVV** — gerechtelijke ontbinding (wettige redenen, sanctie).\n- **Art. 2:76 WVV** — voortbestaan rechtspersoonlijkheid tijdens vereffening; benoeming vereffenaar door AV/statuten + bevestiging voorzitter ondernemingsrechtbank bij tekort op de staat.\n- **Art. 2:80 WVV** — vereffening in één akte (drie cumulatieve voorwaarden: geen vereffenaar, alle schulden betaald/geconsigneerd, alle aandeelhouders instemmen).\n- **Art. 2:90 + 2:100-2:101 WVV** — sluiting van de vereffening (AV bij vrijwillig, rechtbank bij gerechtelijk) + bekendmaking BS.\n- **Art. 5:84 BV / 6:70 §2 CV / 7:132 NV** — versterkte meerderheid 4/5 voor ontbindingsbesluit.\n- **Art. 3:6, §2 KB/WVV** — discontinuïteits-waardering van de staat (uitzondering: continuïteit mits motivering).\n- **ITAA-norm 'Het verslag bij de ontbinding en vereffening'** — uitvoeringsmodaliteiten van de wettelijke controleopdracht (incl. bijlage 3 modelverslag).\n- **CBN-advies 2022/04** — verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE (boekhoudkundige verwerking).",
+          "wetsref": "Art. 2:70, 2:71, 2:74-2:76, 2:80, 2:90, 2:100-2:101 WVV; art. 5:84 BV / 6:70 §2 CV / 7:132 NV; art. 3:6, §2 KB/WVV; ITAA-norm Ontbinding-Vereffening; CBN-advies 2022/04",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrI2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Bij de oprichting van een **kapitaalvennootschap** — onder het huidige WVV zijn dat de **BV, CV en NV** — moeten de oprichters vóór het verlijden van de oprichtingsakte een financieel plan opstellen en aan de notaris overhandigen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De verplichting geldt enkel bij **oprichting** (niet bij latere kapitaalverhogingen) en enkel voor vennootschappen waarvan de aandeelhouders een beperkte aansprakelijkheid genieten. Voor personenvennootschappen (VOF, CommV) en voor de vzw bestaat geen equivalente verplichting. 🔗\n\n**Historische context 2008** — Ten tijde van dit examen golden art. 215 W.Venn. (BVBA) en art. 440 W.Venn. (NV); de verplichting bestond toen reeds voor BVBA, CVBA en NV. Sinds het WVV (1 mei 2019) zijn dat art. 5:4 (BV), art. 6:5 (CV) en art. 7:3 (NV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 5:4 §1 WVV (BV) en art. 7:3 §1 WVV (NV): \"Vóór de oprichting van de vennootschap overhandigen de oprichters aan de optredende notaris een financieel plan waarin zij het bedrag van het aanvangsvermogen [BV] / kapitaal [NV] verantwoorden in het licht van de voorgenomen bedrijvigheid van de vennootschap over een periode van ten minste twee jaar.\" Voor 2008: art. 215 en art. 440 W.Venn. (gelijkluidend qua principe). 📖",
+          "wetsref": "art. 5:4 §1 WVV; art. 7:3 §1 WVV (2008: art. 215 / art. 440 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het financieel plan heeft een **dubbel doel**: (1) lichtzinnige oprichtingen voorkomen door de oprichters te dwingen op voorhand na te denken over de bedrijvigheid en de nodige middelen, en (2) een **objectieve toetssteen** leveren waarmee de rechter bij faillissement binnen drie jaar kan beoordelen of het aanvangsvermogen kennelijk ontoereikend was. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De Memorie van Toelichting stelt het zelf: \"Het financieel plan beoogt een dubbel doel. In de eerste plaats moet het lichtzinnige oprichtingen van vennootschappen beletten. (...) In de tweede plaats biedt het een bescherming van de oprichters omdat het de rechter in staat stelt de aansprakelijkheid van de oprichters wegens de oprichting van een vennootschap met ontoereikend kapitaal op een objectieve wijze te beoordelen.\" 📖\n\nConcreet werkt het plan dus zowel **preventief** (zelfdiscipline van de oprichters: een spreuk \"begint eer ge begint\") als **repressief / bewijsrechtelijk** (instrument voor de oprichtersaansprakelijkheid van art. 5:15, 6:17 en 7:18 WVV — oud: art. 229, 5° en art. 456, 4° W.Venn.). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het plan beschermt dus paradoxaal genoeg óók de oprichters zelf: zonder financieel plan zou de rechter louter ex post moeten oordelen of het aanvangsvermogen redelijk was; het plan geeft de oprichters de kans hun inschatting ex ante te documenteren en zo aansprakelijkheid af te wenden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Doel niet expliciet in de wetsbepaling, wel in de MvT bij art. 5:4 / 7:3 WVV en in de aansprakelijkheidsregel art. 5:15, 2° en art. 7:18, 2° WVV (faillissement binnen drie jaar + kennelijk ontoereikend aanvangsvermogen voor twee jaar bedrijvigheid). 2008: art. 229, 5° W.Venn. (BVBA) en art. 456, 4° W.Venn. (NV). 📖",
+          "wetsref": "art. 5:15, 2° WVV; art. 7:18, 2° WVV (2008: art. 229, 5° / art. 456, 4° W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het financieel plan wordt overhandigd aan de **optredende notaris** vóór het verlijden van de oprichtingsakte. De notaris bewaart het stuk; het wordt **niet** neergelegd met de akte. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het plan blijft dus **vertrouwelijk** in het dossier van de notaris en wordt niet publiek bekendgemaakt via de bijlagen bij het Belgisch Staatsblad. Enkel in geval van faillissement binnen drie jaar maakt de notaris het plan over aan de rechtbank, op verzoek van de **rechter-commissaris** of de **procureur des Konings** (art. 5:15, 2° / 7:18, 2° WVV in fine). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het plan wordt **niet** overhandigd aan de aandeelhouders, niet aan de bedrijfsrevisor (er is geen revisorenverslag over het plan zelf) en niet aan een handelsregister of griffie. Enkel de notaris ontvangt en bewaart het. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 5:4 §1 in fine WVV / art. 7:3 §1 in fine WVV: \"Dit stuk wordt niet neergelegd met de akte, maar door de notaris bewaard.\" Voor 2008: art. 215, lid 1 W.Venn. (BVBA) en art. 440, lid 1 W.Venn. (NV) — zelfde regel. 📖",
+          "wetsref": "art. 5:4 §1 WVV; art. 7:3 §1 WVV (2008: art. 215 / art. 440 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

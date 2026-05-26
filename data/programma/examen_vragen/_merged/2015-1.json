@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
   "examen_id": "2015-1",
-  "merge_datum": "2026-05-26T15:29:22+00:00",
+  "merge_datum": "2026-05-26T15:37:26+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -2935,7 +2935,60 @@
       "vraag_id": "2015-1-vr19"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Optie **B** — de alarmbelprocedure (art. 332 W.Venn., destijds van toepassing op de BVBA) is getriggerd: de algemene vergadering moet binnen **twee maanden** na de vaststelling van het kapitaalverlies bijeenkomen om te beslissen over ontbinding of herstelmaatregelen. Vaststelling op 11 april 2015 → uiterlijk **11 juni 2015**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Netto-actief op 31/12/2014** = totaal activa − schulden − voorzieningen = 24.000 − 22.000 − 0 = **2.000 EUR**. (Of: eigen vermogen = kapitaal 6.000 + overgedragen verlies −4.000 = 2.000 EUR; de balans is na resultaatverwerking.) 🔗\n\n**Drempeltoets art. 332 W.Venn.** (kapitaal = 6.000 EUR):\n- Helft kapitaal = 3.000 EUR → netto-actief 2.000 < 3.000 → **eerste drempel overschreden** ✅\n- Kwart kapitaal = 1.500 EUR → netto-actief 2.000 > 1.500 → tweede drempel niet bereikt.\n- Absolute ondergrens BVBA (art. 333 W.Venn., 6.200 EUR): netto-actief 2.000 < 6.200 → iedere belanghebbende kan ook gerechtelijke ontbinding vorderen — maar dat is geen onmiddellijke volstortingsplicht. 🔗\n\n**Termijn**: vaststelling bij neerlegging jaarrekening op 11 april 2015 → AV uiterlijk 2 maanden later = **11 juni 2015**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n- **A** (in orde, geen formaliteiten) → FOUT — de alarmbeldrempel is duidelijk overschreden, formaliteiten zijn dwingend. 🔗\n- **B** (AV bijeenroepen vóór 11 juni 2015) → JUIST — exacte toepassing van de 2-maanden-termijn van art. 332 W.Venn. vanaf vaststelling op 11/04/2015. 🔗\n- **C** (onmiddellijk volstorten tot 6.200 EUR) → FOUT — er is geen wettelijke verplichting tot onmiddellijke volstorting; bovendien is 6.200 EUR niet het BVBA-minimum (dat is 18.550 EUR — art. 214 W.Venn.). Wel kan elke belanghebbende ontbinding vorderen ex art. 333 W.Venn. wanneer netto-actief < 6.200 EUR, maar dat is een gerechtelijke vorderingsmogelijkheid, geen volstortingsplicht. 🔗\n- **D** (onmiddellijk volstorten tot 18.550 EUR) → FOUT — 18.550 EUR is wel het kapitaalminimum van een gewone BVBA (art. 214 W.Venn.), maar bestaande aandeelhouders zijn niet verplicht het kapitaal onmiddellijk te verhogen. De S-BVBA mocht juist starten met lager kapitaal en had 5 jaar de tijd om naar 18.550 EUR te groeien (art. 211bis W.Venn.). 🔗\n- **E** (AV vóór 31 juli 2015) → FOUT — termijn is 2 maanden (niet ~3,5 maand) na vaststelling. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Verwar **art. 332 W.Venn.** (procedurele alarmbel: AV binnen 2 maanden bij netto-actief < ½ kapitaal) niet met **art. 333 W.Venn.** (substantiële drempel: bij netto-actief < 6.200 EUR kan iedere belanghebbende ontbinding vorderen voor de rechtbank). Beide kunnen tegelijk spelen, maar enkel art. 332 legt een termijn op aan het bestuursorgaan zelf. De S-BVBA-status (lagere instapkapitaalvereiste) wijzigt het kapitaal-referentiebedrag niet — de drempeltoets gebeurt nog steeds tegen het werkelijke geplaatste kapitaal (hier 6.000 EUR). 🤖\n\n*Tijdsperspectief*: deze vraag dateert van vóór de inwerkingtreding van het WVV (1 mei 2019). Onder het huidige WVV is de BVBA omgevormd tot BV (kapitaalloos) en wordt de alarmbel daar getoetst aan het eigen vermogen bij aanvang van het boekjaar (art. 5:153 WVV) i.p.v. aan een vast kapitaalbedrag.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Art. 332 W.Venn.** (BVBA, versie 2015): wanneer het netto-actief ten gevolge van geleden verlies is gedaald tot minder dan de helft van het maatschappelijk kapitaal, moet de algemene vergadering bijeenkomen binnen een termijn van ten hoogste twee maanden na de datum waarop het verlies is vastgesteld (of had moeten zijn vastgesteld), om te beraadslagen en te besluiten over de ontbinding of over in de agenda aangekondigde maatregelen tot herstel. **Art. 333 W.Venn.**: bij netto-actief < 6.200 EUR kan elke belanghebbende de ontbinding voor de rechtbank vorderen. CBN-advies 2021/14 bevestigt de jaarrekeningrechtelijke berekeningswijze (netto-actief = totaal activa − voorzieningen − schulden) — analoog onder W.Venn. en WVV. 🔗",
+                "type": "grondslag",
+                "wetsref": "art. 332-333 W.Venn. (2015); thans art. 5:153 WVV"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr20"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -3124,7 +3177,58 @@
       "vraag_id": "2015-1-vr20"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **a** — een kapitaalverhoging in geld kan in dezelfde notariële akte gebeuren als de rechtsvormwijziging, zodat het minimumkapitaal van de NV (61.500 EUR) onmiddellijk bereikt wordt. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het probleem: het eigen vermogen van de BVBA bedraagt 18.550 + 1.855 + 15.000 = **35.405 EUR**, ruim onder het NV-minimum van 61.500 EUR. Zonder kapitaalverhoging blokkeert de omzetting. 🔗\n\n**Per optie**:\n- **a** → JUIST. De notaris kan in één akte zowel de kapitaalverhoging in geld doorvoeren (om minstens tot 61.500 EUR te komen) als de rechtsvorm wijzigen. Dit is de standaard-aanpak en vereist enkel cash-storting door de zaakvoerder/aandeelhouder. 🔗\n- **b** → FOUT op de juiste reden — inbreng in natura van een schuldvordering uit rekening-courant kan principieel het kapitaal verhogen, maar vereist een verslag van een **bedrijfsrevisor** (niet \"de accountant\") naast het bestuursverslag. Het verslag is voorbehouden aan de bedrijfsrevisor wegens de waarderingscontrole bij inbreng in natura. 📖\n- **c** → FOUT. De accountant kan de **omzetting-staat van actief en passief** controleren en het omzettingsverslag opstellen (samen met de bedrijfsrevisor of commissaris als alternatief), maar de **notariële akte** is wettelijk verplicht en kan enkel door de notaris verleden worden. De accountant doet *niet* \"de gehele opdracht\". 🔗\n- **d** → FOUT. Naast de staat van actief en passief (max. 3 maanden oud) en het controleverslag zijn nog **andere stukken** vereist: het verslag van het bestuursorgaan met motivering van de omzetting, de ontwerp-statuten van de nieuwe rechtsvorm, en (bij kapitaalverhoging in natura) het bijzonder bestuursverslag plus revisorverslag over de inbreng. 🔗\n- **e** → FOUT. Het minimumkapitaal van 61.500 EUR moet ten belope van **1/4** volstort zijn (en elk aandeel ingebracht in natura volledig), niet 1/3. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Pas op met de verwarring **accountant ↔ bedrijfsrevisor**. Voor het **omzettingsverslag** (controle van de staat van actief en passief) konden onder W.Venn. de commissaris, een bedrijfsrevisor *of* een externe accountant optreden — vandaar dat optie b op het eerste gezicht plausibel lijkt. Maar bij **inbreng in natura** (zoals een schuldvordering uit rekening-courant omzetten in kapitaal) is enkel de **bedrijfsrevisor** bevoegd voor het waarderingsverslag (art. 444 / 313 W.Venn., nu art. 7:7 / 7:197 WVV). Onder het WVV (vanaf 2019) is deze tweespalt blijven bestaan: omzettingsverslag kan door accountant of revisor, maar inbreng-in-natura-verslag enkel door revisor. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Onder W.Venn. (versie 2015): art. 439 (minimum NV-kapitaal 61.500 EUR), art. 448 (volstorting 1/4), art. 776-781 (omzettingsprocedure: bestuursverslag + staat A&P max. 3 maanden oud + verslag commissaris/bedrijfsrevisor/externe accountant), art. 444 (verslag bedrijfsrevisor bij inbreng in natura bij oprichting NV), art. 602 (id. bij kapitaalverhoging in natura NV). Onder huidig WVV (2019): art. 7:2 (minimumvermogen NV 61.500 EUR), art. 7:13 (volstorting 1/4), Boek 14 (omzetting — art. 14:3 staat A&P, art. 14:4 verslagen), art. 7:197 (inbreng in natura). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 439, 444, 448, 602, 776-781 W.Venn. (2015) // art. 7:2, 7:13, 7:197, 14:3-14:4 WVV"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr21"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -3201,7 +3305,56 @@
       "vraag_id": "2015-1-vr21"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **d** — een bijzondere algemene vergadering bijeenroepen tegen 25 maart 2014 om te beraadslagen over de ontbinding en de te nemen maatregelen. De alarmbelprocedure is getriggerd (netto-actief = -8.370 EUR, ruim onder de helft van het kapitaal van 18.600 EUR) en de zaakvoerder heeft maximum twee maanden vanaf de vaststelling op 25 januari 2014. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Berekening netto-actief**: 18.600 (kapitaal) + 1.860 (wettelijke reserve) + 100.000 (beschikbare reserve) − 128.830 (overgedragen verlies) = **−8.370 EUR**. Het netto-actief is dus zelfs negatief — drempel \"minder dan de helft van het kapitaal\" (< 9.300 EUR) én drempel \"minder dan een kwart\" (< 4.650 EUR) zijn allebei overschreden. 🔗\n\n**Per optie**:\n- **a** (buitengewone algemene vergadering binnen de maand) → FOUT — terminologie en termijn kloppen niet. Het W.Venn. spreekt van een *bijzondere* AV met als termijn *maximum twee maanden*, niet één maand. 🔗\n- **b** (niets doen) → FOUT — passiviteit bij overschreden alarmbeldrempel is precies de gedraging die bestuurdersaansprakelijkheid creëert (art. 333 W.Venn.). 🔗\n- **c** (volgende gewone AV afwachten + invereffeningstelling voorstellen) → FOUT — de wet duldt geen uitstel tot de jaarvergadering; de zaakvoerder moet zelf binnen twee maanden een AV samenroepen. Bovendien is *ontbinding* slechts één van de mogelijkheden — de AV beraadslaagt evengoed over voortzetting met herstelmaatregelen. 🔗\n- **d** (bijzondere AV tegen 25 maart 2014, beraadslagen over ontbinding én andere maatregelen) → JUIST — 25 maart = exact 2 maanden na vaststelling op 25 januari, en de formulering \"ontbinding of andere maatregelen\" volgt letterlijk de wettekst. 📖\n- **e** (vennoten verplichten tot kapitaalverhoging in geld) → FOUT — de zaakvoerder heeft geen wettelijke bevoegdheid om vennoten te dwingen tot bijkomende inbreng. Een kapitaalverhoging is een mógelijke maatregel die de AV vrijwillig kan beslissen, geen verplichting die de zaakvoerder kan opleggen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Let op de tijdslijn van het examen: vaststelling op 25 januari 2014 betekent dat de wet van vóór de WVV (W.Venn. 1999) van toepassing is — voor de BVBA gold toen **art. 332 W.Venn.** (en art. 333 voor de bestuurdersaansprakelijkheid). Onder het huidige WVV (in werking sinds 1 mei 2019) is de BVBA omgevormd tot BV en geldt **art. 5:153 WVV** met een dubbele trigger: negatief eigen vermogen *of* dreigend liquiditeitsprobleem. De termijn van twee maanden bleef ongewijzigd. ❓ Het inhoudelijke antwoord op deze MC-vraag verandert niet door de wetsovergang. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Voor het BVBA-regime ten tijde van de vraag (2014): **art. 332 W.Venn.** — wanneer het netto-actief is gedaald tot minder dan de helft van het maatschappelijk kapitaal, roept de zaakvoerder de algemene vergadering bijeen binnen maximum twee maanden na de vaststelling, om te beraadslagen en te besluiten over de ontbinding of andere in de agenda aangekondigde maatregelen. De zaakvoerder verantwoordt de voorstellen in een bijzonder verslag. Bij gebreke hieraan ontstaat hoofdelijke bestuurdersaansprakelijkheid (art. 333 W.Venn.). De huidige equivalente bepaling is art. 5:153 WVV (BV); voor de NV: art. 7:228 WVV. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 332 W.Venn. (BVBA, 2014) / art. 5:153 WVV (BV, vanaf 2019)"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr22"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -3278,7 +3431,56 @@
       "vraag_id": "2015-1-vr22"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** — de jaarrekening moet binnen zes maanden na afsluiting van het boekjaar (dus uiterlijk 30 juni voor een boekjaar dat afsluit op 31/12) ter goedkeuring worden voorgelegd; bij laattijdigheid wordt de schade van derden, behoudens tegenbewijs, vermoed voort te vloeien uit dit verzuim, met aansprakelijkheid van de bestuurders als gevolg. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Beoordeling per optie:\n\n- **a** — FOUT. Het feit dat de jaarrekening *uiteindelijk* wordt goedgekeurd, heelt de overtreding van de zesmaandentermijn niet. De wet koppelt aan de laattijdigheid een **weerlegbaar vermoeden** van causaal verband met door derden geleden schade — dat vermoeden ontstaat onafhankelijk van de latere goedkeuring. 🔗\n- **b** — JUIST. Reproduceert de wettelijke regel: termijn van zes maanden + vermoeden van oorzakelijk verband met schade van derden, behoudens tegenbewijs. 📖\n- **c** — FOUT. Het niet tijdig afwerken van de jaarrekening is precies het verzuim waarvoor de bestuurders aansprakelijk kunnen worden gesteld; het is geen rechtvaardigingsgrond maar de fout zelf. Het bestuursorgaan moet de jaarrekening tijdig opmaken én ter goedkeuring voorleggen. 🔗\n- **d** — FOUT. De NBB legt geen boete op voor laattijdige *bijeenroeping* van de algemene vergadering. De NBB int wel een bijdrage voor laattijdige *neerlegging* van de jaarrekening (art. 3:13 WVV, vroeger art. 101 W.Venn.) — dat is iets anders (verschoven termijn van zeven maanden, sanctie op neerlegging, niet op bijeenroeping). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren: **zes maanden** = termijn waarbinnen de algemene vergadering de jaarrekening moet goedkeuren (art. 3:1, § 1, tweede lid WVV; in 2014 nog art. 92 W.Venn.). **Zeven maanden** = uiterste termijn voor *neerlegging* bij de Balanscentrale van de NBB (art. 3:10 WVV; vroeger art. 98 W.Venn.). Overschrijding van de zes maanden raakt de bestuurdersaansprakelijkheid (vermoeden van schade); overschrijding van de zeven maanden triggert daarnaast de financiële bijdrage van art. 3:13 WVV aan de NBB. Een laattijdige bijeenroeping op 20/07/2014 voor boekjaar 2013 overschrijdt sowieso ook de neerleggingsdeadline van 31/07. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Op het ogenblik van de feiten (2014): **art. 92, § 1 W.Venn.** schreef voor dat de jaarrekening binnen zes maanden na afsluiting van het boekjaar aan de algemene vergadering werd voorgelegd; bij verzuim werd de door derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim. Huidige tegenhanger: **art. 3:1, § 1, tweede lid WVV** (zesmaandentermijn) gekoppeld aan de algemene bestuurdersaansprakelijkheid van **art. 2:56 WVV**. CBN-advies 2020/08 bevestigt expliciet dat overschrijding van de zesmaandentermijn de aansprakelijkheid van het bestuursorgaan in het gedrang brengt. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:1, § 1, tweede lid WVV (in 2014: art. 92, § 1 W.Venn.); art. 2:56 WVV"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr23"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -3350,7 +3552,56 @@
       "vraag_id": "2015-1-vr23"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** — bij een kapitaalverhoging in een bvba door inbreng in natura is, naast het bijzonder verslag van het bestuursorgaan, een verslag van een bedrijfsrevisor (door het bestuursorgaan aangesteld bij afwezigheid van commissaris) verplicht. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a** (verrichting kan niet doorgaan) → FOUT — de inbreng van aandelen is perfect mogelijk; aandelen zijn een economisch waardeerbaar onlichamelijk goed (art. 1:8 WVV, voorheen art. 19 W.Venn.). Er is geen wettelijk beletsel, enkel een procedure. 🔗\n- **b** (verslag bedrijfsrevisor verplicht bij afwezigheid commissaris, met beschrijving, eigenaar, tegenprestatie, waarderingsmethoden en oordeel of de waardering ten minste gelijk is aan de tegenprestatie) → JUIST — dit is exact de inhoud die de wet voorschrijft voor het revisoraal verslag bij inbreng in natura in een bvba (art. 313 W.Venn., thans art. 5:7 / 5:112 WVV). 📖\n- **c** (FSMA-attest) → FOUT — de FSMA heeft geen rol in de waardering van een inbreng in natura; verzonnen procedure. 🤖\n- **d** (loutere verklaring + attest \"geen nieuwe omstandigheden\") → FOUT — dit beschrijft de uitzondering op het revisoraal verslag voor effecten met een marktwaarde of recent revisoraal gewaardeerde activa (art. 7:8/7:9 WVV voor NV), die in een bvba niet als zodanig bestaat; bovendien werden de aandelen 2 weken eerder verkregen zonder herwaardering — geen voorafgaande revisorale waardering. 🔗\n- **e** (bestuursverslag alleen volstaat) → FOUT — het bestuursverslag is verplicht maar volstaat niet; het revisoraal verslag is een onafhankelijke, daarbovenop komende vereiste. Art. 75 W.Venn. (vermeld in de optie) regelt de neerlegging/publicatie, niet de inbrengprocedure. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "**Quasi-inbreng niet verwarren met inbreng in natura.** Hier gaat het om een kapitaalverhoging door inbreng (de aandelen worden ingebracht tegen uitgifte van nieuwe aandelen) — niet om een verkrijging tegen geld binnen 2 jaar (quasi-inbreng, art. 220-222 W.Venn. / art. 7:8 WVV, die overigens alleen voor NV bestond/bestaat — voor bvba gold die regel niet meer sinds 2010 en is in WVV definitief afgeschaft). De korte termijn van 2 weken tussen verwerving en inbreng is dus irrelevant voor de procedure, maar wel een aandachtspunt voor de waardering (geen \"herwaardering\" gebeurd → revisor moet de aankoopprijs kritisch beoordelen). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Op datum van het examen (2015): **art. 313 W.Venn.** — bij kapitaalverhoging in een bvba door inbreng in natura stelt het bestuursorgaan een bijzonder verslag op en wijst, bij gebrek aan commissaris, een bedrijfsrevisor aan die een verslag opmaakt over de beschrijving, de waardering en de toegepaste methoden, en verklaart of de waardering ten minste overeenkomt met de tegenprestatie. Sinds WVV (2019): inhoudelijk hernomen in **art. 5:7 WVV** (oprichting) en **art. 5:133 / 5:101+5:112 WVV** (kapitaalverhoging in BV). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 313 W.Venn. (2015) → art. 5:7 + 5:112 WVV"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr24"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -3427,7 +3678,59 @@
       "vraag_id": "2015-1-vr24"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De externe accountant (of bedrijfsrevisor) brengt verslag uit over de **staat van activa en passiva** die het bestuursorgaan opstelt voorafgaand aan de omzetting, en vermeldt **inzonderheid of het nettoactief is overgewaardeerd**. De kern-doelstelling is bescherming van schuldeisers en vennoten tegen een verbloemde vermogenstoestand bij wijziging van rechtsvorm. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Doelstellingen van de opdracht** (beoordelingsopdracht met beperkte mate van zekerheid):\n\n- **Beoordeling van de staat van activa en passiva** die niet meer dan drie maanden oud mag zijn op de dag van de algemene vergadering die over de omzetting beslist (vier maanden bij grensoverschrijdende omzetting). 📖\n- **Vermelden of het nettoactief is overgewaardeerd** in alle van materieel belang zijnde opzichten — dat is de wettelijk uitdrukkelijk voorgeschreven kern-verklaring (art. 14:4 WVV). 📖\n- **In voorkomend geval melden of het nettoactief kleiner is dan het in de staat opgenomen kapitaal** (of, bij kapitaalloze vennootschap, het eigen vermogen): het verslag besluit dan met vermelding van het verschil (art. 14:3, tweede lid junctis art. 14:4 WVV). 📖\n- **Toezicht op de toepassing van het boekhoudkundig referentiestelsel**: de staat moet zijn opgesteld volgens art. 3:1, § 1, eerste lid WVV — de accountant verifieert die conformiteit. 🔗\n- **Informatieverstrekking aan de algemene vergadering**: het verslag wordt samen met het bestuursverslag (art. 14:3 WVV) ter beschikking gesteld van de vennoten, zodat zij met kennis van zaken kunnen beslissen over de omzetting. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het is een **beoordelingsopdracht** (review, beperkte zekerheid — ISRE-model), géén controleopdracht met redelijke mate van zekerheid. De beoordeling **ontslaat het bestuursorgaan niet** van zijn verantwoordelijkheid voor de juistheid van de staat van activa en passiva. Bovendien blijven oprichters/bestuurders bij omzetting hoofdelijk gehouden tot vergoeding van het verschil bij **overwaardering van het netto-actief** (art. 14:12 WVV) — wat de waarde van een degelijk verslag voor de aansprakelijkheid van de betrokken partijen verklaart. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 14:3 WVV**: het bestuursorgaan stelt een staat van activa en passiva op die niet meer dan drie maanden oud is. **Art. 14:4 WVV**: de commissaris of, bij gebreke daaraan, een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant brengt over die staat verslag uit en **vermeldt inzonderheid of er overwaardering van het nettoactief heeft plaatsgehad**; indien het nettoactief kleiner is dan het kapitaal (of eigen vermogen), besluit het verslag met vermelding van het verschil. Voor grensoverschrijdende omzetting: art. 14:21 WVV (zelfde principe, vier maanden). De uitvoeringsmodaliteiten zijn vastgelegd in de **ITAA-norm omzetting van een vennootschap** (modelverslagen in bijlage). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 14:3-14:4 WVV; art. 14:21 WVV (grensoverschrijdend); ITAA-norm omzetting van een vennootschap"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr25"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -3476,7 +3779,238 @@
       "vraag_id": "2015-1-vr25"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Examen 2015 — destijds van toepassing: IAB-norm controle bij voorstel tot ontbinding (6 dec 2002), inmiddels opgeheven en vervangen door de ITAA-norm ontbinding-en-vereffening. De materiële regels (staat ≤ 3 maand vóór AV, latente schulden, resultaat lopende periode, omgang met inbreuken op boekhoudreglementering, alarmbel-koppeling) zijn in essentie ongewijzigd; bronverwijzingen verwijzen naar de actuele ITAA-norm waarvan de inhoud zonder breuk de 2002-norm continueert.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het resultaat van de **lopende, nog niet afgesloten periode** (van begin van het lopende boekjaar tot de afsluitdatum van de staat) wordt **afzonderlijk vermeld** op de staat van activa en passiva, als afzonderlijke rubriek binnen het eigen vermogen (overgedragen resultaat van de lopende periode). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De staat dateert van maximaal drie maanden vóór de algemene vergadering (art. 2:71 §2 WVV; in 2015 art. 181 W.Venn.) en is dus per definitie een **tussentijdse balans** die binnen een lopend boekjaar wordt opgesteld. Een correcte afgrenzing veronderstelt dat álle aan die deelperiode gerelateerde kosten en opbrengsten worden erkend, zodat het resultaat van die lopende periode als afzonderlijke post zichtbaar is en het nettoactief getrouw weergeeft. 🔗 Dit is operationeel hetzelfde mechanisme als bij een tussentijdse staat in het kader van een omzetting (art. 14:3 WVV). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2:71 §2 WVV (vroeger art. 181 W.Venn.) — staat afgesloten ≤ 3 maanden vóór de AV. KB/WVV art. 3:6 §2 — opstelling in discontinuïteit (tenzij gemotiveerd anders). De ITAA-norm verlangt een controleprogramma dat de afgrenzing van de afsluitperiode dekt zodat het resultaat van de lopende periode correct kan worden vastgesteld. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:71 §2 WVV; art. 3:6 §2 KB/WVV"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De beroepsbeoefenaar moet de **motivatie van het bestuursorgaan voor de discontinuïteits­veronderstelling** kennisnemen en die met het bestuursorgaan bespreken; tevens inwint hij inlichtingen over gebeurtenissen of omstandigheden die de keuze voor discontinuïteit ondersteunen of in vraag stellen. Hij gaat ook na of de gevolgen van die veronderstelling correct in de waardering en in de toelichting bij de staat zijn doorgetrokken. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De norm voorziet de uitzonderingsregel uitdrukkelijk omgekeerd (voor het geval de staat in **continuïteit** wordt opgesteld in afwijking van KB/WVV art. 3:6 §2). 📖 Voor het hier gevraagde **regelgeval — opstelling in discontinuïteit** — moet de beroepsbeoefenaar in overweging nemen:\n\n- of de **waarderingsregels** consistent zijn aangepast aan de discontinuïteits­veronderstelling (vaste activa naar realisatiewaarde, voorzieningen voor sluitingskosten, herklassering LT-schulden naar KT); 🔗\n- of de vereiste **toelichtingen** bij de staat zijn opgenomen overeenkomstig art. 3:1 WVV en art. 3:6 §2 KB/WVV; 📖\n- of de **latente schulden** (sluitingskosten, vergoedingen wegens contractbreuk, sociaal passief, fiscale gevolgen van realisatie) volledig zijn opgenomen; 🔗\n- het materiële belang en het bestaan van significante onzekerheden die het nettoactief beïnvloeden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-norm ontbinding-vereffening §II.1-II.2; KB/WVV art. 3:6 §2 (discontinuïteit als regel); art. 3:1 WVV (toelichtingsverplichting). 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA-norm §II.1-II.2; art. 3:6 §2 KB/WVV; art. 3:1 WVV"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Latente schulden (bv. vergoeding wegens contractbreuk, sluitingsvergoedingen, fiscaal passief op latente meerwaarden) die niet in de staat zijn opgenomen, moeten in principe **alsnog in de staat worden opgenomen** (door correctie of voorziening). Weigert het bestuursorgaan dat, dan formuleert de beroepsbeoefenaar een **voorbehoud** (of, bij materieel belangrijke en wijdverspreide impact, een **afkeurend oordeel**) in zijn controleverslag. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bij een staat in discontinuïteit moeten **alle voorzienbare verplichtingen die uit de ontbinding voortvloeien** worden opgenomen — net omdat de continuïteitsveronderstelling wordt verlaten en de vennootschap zal worden vereffend. Latente schulden zijn daarvan een typevoorbeeld: ze worden door de discontinuïteit reëel en moeten als voorziening of schuld in de staat worden geboekt. 🔗 Worden ze ondanks de opmerking van de beroepsbeoefenaar niet opgenomen, dan is de staat materieel afwijkend van het toepasselijke boekhoudkundige referentiestelsel — wat tot een **voorbehoud** wegens afwijking leidt (en niet tot een onthouding: het probleem ligt niet bij gebrek aan controle-informatie, maar bij een gekende, gekwantificeerde onjuistheid). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met **niet in de balans opgenomen rechten en verplichtingen** in de zin van CBN-advies 2017/07: dat zijn écht voorwaardelijke rechten/verplichtingen die in de toelichting worden vermeld. Latente schulden bij ontbinding worden door de discontinuïteit zelf concreet en horen dus **in** de staat, niet in een loutere toelichting. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-norm ontbinding-vereffening §II.1 (controleprogramma met identificatie van bijzondere risico's) en §III (oordeel met voorbehoud bij materieel afwijkende staat); KB/WVV art. 3:6 §2 (waardering in discontinuïteit). 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA-norm §II.1 en §III; art. 3:6 §2 KB/WVV"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De termijn van drie maanden tussen de afsluitdatum van de staat en de algemene vergadering blijft **gelden t.o.v. de oorspronkelijke (eerste) algemene vergadering**: een tweede AV wegens niet-bereiken van het aanwezigheidsquorum heropent de driemaandstermijn **niet**. Wel staat de norm toe dat, bij niet-respecteren van de wettelijke termijnen om gegronde reden, de beroepsbeoefenaar dit in zijn verslag onder een **paragraaf 'Overige aangelegenheid'** vermeldt — voor zover hij zijn werkzaamheden heeft kunnen uitvoeren. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De wet (art. 2:71 §2 WVV; in 2015 art. 181 W.Venn.) verbindt de driemaandstermijn aan de algemene vergadering die over het ontbindingsvoorstel beslist — niet aan elke opeenvolgende bijeenroeping. Bij een tweede AV wegens quorum-gebrek (NV: art. 7:128 WVV; in 2015 art. 558-559 W.Venn.) blijft het hetzelfde voorstel en hetzelfde verslag op tafel; er ontstaat geen nieuwe driemaandstermijn. De norm voorziet wel uitdrukkelijk dat het verslag een paragraaf 'Overige aangelegenheid' kan bevatten wanneer 'de wettelijke termijnen inzake het voorleggen van het verslag van het bestuursorgaan en van ons controleverslag niet gerespecteerd konden worden' (par. A44). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "kop": "Nuance",
+                "tekst": "In de praktijk wordt aanvaard dat een tweede AV korte tijd na de eerste plaatsvindt en dat de oorspronkelijke staat blijft gelden; loopt de tweede AV daarentegen ver buiten het driemaandsvenster, dan moet een **nieuwe (geactualiseerde) staat** worden opgesteld én opnieuw gecontroleerd — anders is de wettelijke voorwaarde geschonden. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2:71 §2 WVV (driemaandstermijn vóór de AV die over het voorstel beslist); art. 7:128 WVV (tweede AV bij quorum-gebrek voor NV; vergelijkbaar voor BV/CV); ITAA-norm ontbinding-vereffening par. A44 + Bijlage 'Overige aangelegenheid' (toelichting bij niet-naleving van wettelijke termijnen). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:71 §2 WVV; art. 7:128 WVV; ITAA-norm par. A44"
+              }
+            ],
+            "id": "d"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen, géén invloed op de driemaandstermijn van art. 2:71 §2 WVV.** Het feit dat de ontbinding voortvloeit uit de toepassing van de alarmbelprocedure (art. 7:228-229 WVV voor de NV; art. 5:153 voor de BV; art. 6:119 voor de CV) verandert niets aan de procedurele vereisten van het ontbindingsvoorstel: de staat moet nog steeds binnen drie maanden vóór de AV worden afgesloten en het controleverslag van de beroepsbeoefenaar moet voorhanden zijn. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De alarmbelprocedure heeft haar **eigen** termijnen — het bestuursorgaan moet een AV binnen **twee maanden** na vaststelling van het probleem bijeenroepen (art. 7:228 §1 WVV; in 2015 art. 633 W.Venn.). Maar zodra die AV beslist over een ontbindingsvoorstel, gelden onverkort de gewone vereisten van art. 2:71 §2 WVV (staat ≤ 3 maanden, bijzonder verslag van het bestuursorgaan, controleverslag). De twee procedures lopen dus inhoudelijk in elkaar, maar de driemaandstermijn voor de staat blijft autonoom. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De alarmbelprocedure dwingt het bestuur enkel om de AV bijeen te roepen en maatregelen voor te stellen — ontbinding is daarvan slechts één optie naast herstelmaatregelen, kapitaalverhoging, gerichte uitkeringsstop, enz. Wanneer toch tot ontbinding wordt voorgesteld, vloeit dat voorstel volledig in de gewone art. 2:71-procedure. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2:71 §2 WVV (driemaandstermijn voor de staat); art. 7:228-229 WVV voor NV / art. 5:153 WVV voor BV / art. 6:119 WVV voor CV (alarmbelprocedure, eigen tweemaandstermijn voor bijeenroeping AV). De alarmbel verkort noch verlengt de driemaandstermijn voor de staat van activa en passiva. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:71 §2 WVV; art. 5:153, 6:119, 7:228 WVV (alarmbel)"
+              }
+            ],
+            "id": "e"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De beroepsbeoefenaar moet de inbreuk eerst **bespreken met het bestuursorgaan** en aandringen op **correctie** van de boekhoudkundige staat. Wordt niet (of onvoldoende) gecorrigeerd, dan: bij een **kwantificeerbare materiële inbreuk** → **oordeel met voorbehoud** (afwijking); bij een inbreuk die zo doordringend is dat de staat zijn betekenis verliest → **afkeurend oordeel**; bij een **gebrek aan controle-informatie** (bv. boekhouding zo gebrekkig dat controle onmogelijk is) → **onthouding van oordeel**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De keuze tussen voorbehoud / afkeurend / onthouding volgt de klassieke ISA-700/705-logica die de ITAA-norm op het ontbindingsverslag toepast:\n\n- **Inbreuk = afwijking van het boekhoudkundig referentiestelsel** (overwaardering, niet-naleving van waarderingsregels, ontbrekende voorzieningen): de aard is een afwijking, niet een gebrek aan controle. Materieel maar niet doordringend → **voorbehoud wegens afwijking**. Materieel én doordringend → **afkeurend oordeel**. 🔗\n- **Onthouding** is enkel aan de orde wanneer de beroepsbeoefenaar geen voldoende en geschikte controle-informatie kan verkrijgen (bv. boekhouding is afwezig of zo gebrekkig dat geen controleprogramma kan worden uitgevoerd). 🔗\n\nIn 'normale' gevallen van een geïsoleerde inbreuk op de boekhoudreglementering die kwantificeerbaar is en niet gecorrigeerd wordt, is **voorbehoud** dus het passende oordeel — **niet** onthouding. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar 'voorbehoud' en 'onthouding' niet door elkaar te gebruiken. **Voorbehoud** = de beroepsbeoefenaar heeft een oordeel, maar wijst op een afwijking of beperking; **onthouding** = de beroepsbeoefenaar kán geen oordeel vellen. Een vastgestelde inbreuk op de boekhoudreglementering veronderstelt dat ze vastgesteld én gekwantificeerd is — dus is er informatie, en is voorbehoud (eventueel afkeurend) het juiste pad. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-norm ontbinding-vereffening §III (oordeelsvorming en types oordeel: oordeel zonder voorbehoud, oordeel met voorbehoud, afkeurend oordeel, onthouding van oordeel). De norm verwijst voor de oordeelstypologie naar de geldende controle-standaarden (ISA 705-equivalent). 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA-norm ontbinding-vereffening §III; ISA 705-logica"
+              }
+            ],
+            "id": "f"
+          }
+        ],
+        "vraag_id": "2015-1-vr26"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -3566,7 +4100,287 @@
       "vraag_id": "2015-1-vr26"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "JUIST. De externe accountant moet de identiteit van de bestuurders (en uiteindelijke begunstigden) vaststellen vóór hij de opdracht aanvangt. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Identificatie van het bestuursorgaan en de UBO's is een **cliëntacceptatie-verplichting** uit de antiwitwaswetgeving (Wet 18/09/2017) en uit de ITAA-norm inzake cliëntaanvaarding. 🔗 De beoordelingsopdracht bij omzetting valt onder de wettelijk voorbehouden opdrachten van de gecertificeerd accountant en vereist een opdrachtbrief met geïdentificeerde opdrachtgever. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Antiwitwaswet 18/09/2017 — cliëntonderzoek (art. 19-26); ITAA-norm omzetting van vennootschap; Wet 17/03/2019 (beroepsorganisatie ITAA). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "ONJUIST. Het verslag bij omzetting bevat geen verplichte beoordeling van de administratieve en boekhoudkundige organisatie (AO/IC). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het verslag focust op één wettelijk vereist oordeel: of de **staat van activa en passiva** geen overwaardering van het nettoactief bevat (art. 14:4 WVV). 📖 Een beoordeling van de AO/IC hoort bij de **commissaris-opdracht** (controleverslag bij de jaarrekening), niet bij deze beoordelingsopdracht met beperkte zekerheid. 🔗 De ITAA-modelverslagen (bijlage 3) vermelden geen AO/IC-oordeel. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:4 WVV (verslag externe accountant bij nationale omzetting — vermeldt inzonderheid of het nettoactief is overgewaardeerd); ITAA-norm omzetting van vennootschap, bijlage 3 (modelverslagen). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "JUIST. Een risico-inschatting van de interne procedures is een normale stap in de werkzaamheden van de externe accountant. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Hoewel het verslag zelf geen AO/IC-oordeel vermeldt (zie b), gebruikt de accountant wél een **risico-georiënteerde aanpak** om te bepalen waar zijn werkzaamheden zich moeten concentreren — zwakke punten in de interne procedures verhogen het risico op overwaardering van het nettoactief. 🔗 Dit volgt de logica van ISRE 2400 (beoordelingsopdrachten) zoals omarmd door de ITAA-norm. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "ITAA-norm omzetting van vennootschap (risico-georiënteerde werkzaamheden ter onderbouwing van het oordeel over het nettoactief); ISRE 2400 als referentiekader voor beoordelingsopdrachten. 🔗",
+                "type": "grondslag"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "ONJUIST. Het werkdossier blijft **eigendom en verantwoordelijkheid van de externe accountant** en wordt niet door het bestuur ondertekend. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Het werkdossier (audit working papers) is een vertrouwelijk intern document dat de accountant bewaart als onderbouwing van zijn verslag — onder zijn beroepsgeheim. 🔗 Wat het bestuursorgaan wél ondertekent: de **staat van activa en passiva** zelf (als opsteller) en in voorkomend geval de bevestigingsbrief (representation letter). Het werkdossier is geen contractueel of publiek stuk. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Beroepsgeheim en dossierplicht ITAA-stagiair/lid (art. 56-58 Wet 17/03/2019); ISRE 2400 §A146-A150 (documentatie blijft bij de beroepsbeoefenaar). 🔗",
+                "type": "grondslag"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ONJUIST. De staat van activa en passiva wordt **opgesteld door het bestuursorgaan**; de accountant beoordeelt ze, herwerkt ze niet. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 14:4 WVV bepaalt dat de staat door het **bestuursorgaan** wordt opgesteld; de accountant brengt over die staat verslag uit en vermeldt eventuele overwaardering van het nettoactief. 📖 Bij gebreken signaleert de accountant deze in zijn verslag (voorbehoud, afkeurend oordeel of onthouding) — het bestuursorgaan moet de staat dan zelf corrigeren. De rolverdeling opsteller/beoordelaar is strikt; herwerking door de accountant zou zijn onafhankelijkheid schenden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — De staat van activa en passiva mag op het ogenblik van de algemene vergadering die over de omzetting beslist, niet ouder zijn dan **drie maanden** (nationale omzetting, art. 14:3 WVV) — bij grensoverschrijdende omzetting geldt vier maanden. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:3 WVV (staat door bestuursorgaan, max. drie maanden oud); art. 14:4 WVV (verslag door commissaris, bedrijfsrevisor of gecertificeerd accountant). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "e",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "ONJUIST. De externe accountant heeft een **doorlopende beroepsaansprakelijkheidsverzekering** via ITAA; geen aparte opdracht-specifieke polis vereist. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Elk ITAA-lid moet verplicht een beroepsaansprakelijkheidsverzekering aanhouden die alle beroepsactiviteiten dekt, inclusief wettelijk voorbehouden opdrachten zoals het verslag bij omzetting. 🔗 Een bijkomende polis per opdracht is niet wettelijk vereist en zou voor een KMO-opdracht ook economisch onhaalbaar zijn. Wel kan de accountant zijn dekking laten verifiëren bij grote opdrachten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Wet 17/03/2019 (beroepsorganisatie ITAA) — verplichte beroepsverzekering voor leden; ITAA-deontologische code. 🔗",
+                "type": "grondslag"
+              }
+            ],
+            "id": "f",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "JUIST. Nazicht van de **waarderingsregels** en hun consistente toepassing is een kernstap om het nettoactief te beoordelen. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Het verslag moet expliciet de **gehanteerde waarderingsregels** vermelden en beoordelen of zij in overeenstemming zijn met het van toepassing zijnde boekhoudkundig referentiestelsel (KB/WVV 2019 + BBR). 📖 Een overwaardering van het nettoactief vloeit immers meestal voort uit ongepaste waarderingsregels of inconsistente toepassing — de bijgevoegde staat moet de waarderingsregels integraal omvatten. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-norm omzetting van vennootschap, bijlage 3 (modelverslagen vermelden expliciet waarderingsregels); art. 14:4 WVV (beoordeling overwaardering nettoactief). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "g",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "ONJUIST. Het woord **\"altijd\"** maakt deze stelling te streng — alternatieve werkzaamheden kunnen voldoende zekerheid bieden zonder voorbehoud. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Wanneer klantenconfirmaties (externe bevestigingen) niet werden verstuurd, voert de accountant **alternatieve procedures** uit — bv. nazicht van betalingen na balansdatum, analyse van de leeftijdsbalans, contractanalyse. 🔗 Pas als ook de alternatieven onvoldoende geschikte assurance-informatie opleveren, is er sprake van een **scope-limitation** die leidt tot een voorbehoud of onthouding. 🔗 \"Altijd\" miskent deze graduele aanpak (ISA 505 / ISRE 2400). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Valkuil** — Examenstellingen met absolute kwantoren (\"altijd\", \"in alle gevallen\", \"nooit\") zijn doorgaans onjuist, behalve wanneer de wet zelf de absolutheid voorschrijft. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "ISA 505 (externe bevestigingen) en ISRE 2400 (beoordelingsopdrachten): alternatieve procedures bij ontbrekende confirmaties; voorbehoud enkel bij effectieve scope-limitation. 🔗",
+                "type": "grondslag"
+              }
+            ],
+            "id": "h",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ONJUIST. De externe accountant wordt **door het bestuursorgaan** aangesteld, niet door de aandeelhouders. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 14:4 WVV bepaalt dat bij afwezigheid van een commissaris de bedrijfsrevisor of gecertificeerd accountant wordt aangewezen **door het bestuursorgaan** — bij een VOF of CommV door de algemene vergadering, maar voor een NV (zoals in casus) duidelijk door het bestuur. 📖 De aandeelhouders beslissen pas later, op de buitengewone algemene vergadering, over de omzetting zelf op basis van het verslag. De opdracht kan dus aanvangen zonder voorafgaand akkoord van de aandeelhouders. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:4 WVV (aanwijzing door bestuursorgaan bij nationale omzetting NV → BV); ITAA-norm omzetting van vennootschap (opdrachtbrief tussen accountant en bestuursorgaan). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "i",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2015-1-vr27"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

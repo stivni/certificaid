@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-1.pdf",
   "examen_id": "2013-1",
-  "merge_datum": "2026-05-26T15:29:22+00:00",
+  "merge_datum": "2026-05-26T15:37:26+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -2028,7 +2028,269 @@
       "vraag_id": "2013-1-vr13"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_context_aanduiding": "Examen 2013-1: oude W.Venn. (BVBA, S-BVBA art. 211bis) was van toepassing. Sinds WVV (2019) is de BVBA vervangen door de BV en is de S-BVBA afgeschaft (alle BV's zijn kapitaalloos). Antwoorden refereren primair aan het huidige WVV (ITAA-LEX), met vermelding van het oude W.Venn.-regime omdat de casus daarin speelt.",
+        "_poc_notitie": "PNG-segment `pagina_02.png` toont vraag 1 (vennootschap XYZ, balans/resultatenrekening 2011-2012) en NIET de casus 'bvba Avenir' uit deze interpretatie. tekst.txt komt wel overeen met de interpretatie (BVBA Avenir, Jean Y †, Cedric Y, oninvorderbare vordering, S-BVBA Renaissance). Vermoedelijke segmentatie-fout: vr14 hoort op een latere pagina van de PDF. Antwoord steunt op tekst.txt + interpretatie; tabel-inhoud (balans) is reeds in interpretatie overgenomen. Geen visuele claim in de feitenbasis is afhankelijk van een schema of figuur — risico op vr8-achtige vision-mismatch is dus laag.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De 45% aandelen (84 aandelen) van Jean Y gaan **van rechtswege** over op zijn enige erfgenaam Cedric Y via de erfopvolging — de **eigendom** wisselt automatisch bij overlijden. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Aandelen zijn vermogensbestanddelen en vallen in de nalatenschap. Cedric verkrijgt ze als saisine-erfgenaam op het ogenblik van het overlijden (art. 4.1 ev. BW). De vennootschapsrechtelijke vraag of hij ook **aandeelhouder/vennoot** wordt — met stem- en winstrechten — is een afzonderlijke kwestie (zie deelvraag b): de BVBA is een besloten vennootschap, dus de toelating als vennoot is voorbehouden aan de medeaandeelhouders. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Erfrechtelijke overgang: art. 4.1 ev. BW (boek 4 Nalatenschappen). Vennootschapsrechtelijke overgang van aandelen ten gevolge van overlijden in de BV: art. 5:45 WVV (vroeger art. 252 W.Venn. voor de BVBA). De aandelen zijn in eigendom overgegaan; de toelating als vennoot volgt een aparte procedure. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 4.1 BW; art. 5:45 WVV (oud: art. 252 W.Venn.)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen**, niet automatisch. Cedric verkrijgt wel de aandelen in **eigendom**, maar wordt slechts volwaardig **vennoot** (met stem- en winstrechten) als de andere aandeelhouders hem aanvaarden — tenzij hij valt onder een uitzondering die de wet of de statuten kennen (echtgenoot, bloedverwant in rechte lijn, vooraf statutair aanvaarde persoon). De statuten van Avenir wijken niet af van het Wetboek. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De BVBA is een **besloten** vennootschap: het persoonlijk karakter (intuitu personae) primeert. Onder de oude W.Venn. (van toepassing in 2013) bepaalde art. 249 W.Venn. dat overgang bij overlijden onderworpen is aan de instemming van **ten minste de helft van de medevennoten die ten minste drie vierden van het kapitaal bezitten** (verminderd met de overgaande aandelen), met automatische uitzondering voor echtgenoot, bloed- en aanverwanten in rechte lijn en statutair toegelaten personen. Cedric is **zoon** van Jean → **bloedverwant in rechte lijn (eerste graad)** → hij is van rechtswege aanvaard en wordt dus **wél** automatisch vennoot. 🔗\n\nOnder het huidige WVV (art. 5:45) is de regel anders geformuleerd: de erfgenaam wordt aandeelhouder, tenzij de andere aandeelhouders de toelating weigeren — in welk geval zij verplicht zijn de aandelen tegen werkelijke waarde uit te kopen (afkoopplicht). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Het standaardantwoord \"niet automatisch\" geldt voor een willekeurige erfgenaam. In casu is Cedric **zoon** van de erflater → **bloedverwant in rechte lijn**, dus hij valt onder de **wettelijke uitzondering** (art. 249, 2° W.Venn. oud; voortbestaand als statutaire mogelijkheid onder WVV). Cedric wordt **wél** van rechtswege vennoot, zonder dat Paul X of Albert M zich kunnen verzetten. Wie blindelings \"neen, instemming nodig\" antwoordt, mist deze uitzondering en verliest punten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Oude W.Venn. (van toepassing in 2013): art. 249 W.Venn. — overdracht of overgang van aandelen BVBA aan derden vereist instemming van ten minste de helft van de vennoten met drie vierden van het kapitaal, met automatische uitzonderingen (1° aan een vennoot, 2° aan echtgenoot, 3° aan bloed- of aanverwanten in rechte lijn, 4° aan statutair toegelaten personen). Huidig WVV: art. 5:45 (overgang bij overlijden — afkoopplicht bij weigering) en art. 5:153 (overdracht onder levenden). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 249 W.Venn. (oud); art. 5:45 WVV"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Voor een **overdracht onder levenden** geldt het besloten karakter: Cedric kan zijn aandelen slechts vrij overdragen aan een **medevennoot, zijn echtgenoot of een bloed-/aanverwant in rechte lijn**. Voor elke andere overnemer is **instemming vereist** van ten minste de **helft van de medevennoten die ten minste drie vierden van het kapitaal bezitten** (verminderd met de over te dragen aandelen). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concreet bij Avenir: Paul X (50%) en Albert M (5%) zijn de andere vennoten. Voor een overdracht aan een **derde** moet ten minste de helft van die twee (= ten minste 1 vennoot) instemmen én moet die ten minste 3/4 van het resterende kapitaal vertegenwoordigen. Paul X alleen voldoet aan beide drempels (50/55 ≈ 91% > 75%). Een overdracht aan **Paul X of Albert M zelf** (medevennoten) is daarentegen **vrij**. Een overdracht door miskenning van de regeling is niet tegenwerpelijk aan de vennootschap of derden (sanctie WVV art. 5:154 / oud art. 251 W.Venn.). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar **overgang bij overlijden** (deelvraag b — automatische uitzondering voor zoon) niet met **overdracht onder levenden** (deelvraag c). Bij overdracht onder levenden geldt de uitzondering enkel als de overnemer een **medevennoot, echtgenoot of bloedverwant in rechte lijn van de overdrager (Cedric)** is — niet van wie de aandelen oorspronkelijk verwierf. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Oude W.Venn. (van toepassing in 2013): art. 249 W.Venn. — overdrachtsbeperking BVBA met dezelfde uitzonderingen als de overgang bij overlijden. Sanctie: art. 251 W.Venn. (oud) / art. 5:154 WVV — niet-tegenwerpbaarheid aan vennootschap en derden bij miskenning. Huidig WVV: art. 5:153 (overdracht onder levenden BV). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 249, 251 W.Venn. (oud); art. 5:153, 5:154 WVV"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md",
+                  "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De **jaarrekening per 31/12/2012 is materieel onjuist**: er had op de oninvorderbare vordering van 60.000 EUR een **waardevermindering (of definitieve afboeking als minderwaarde)** geboekt moeten worden, want de oninvorderbaarheid bestond reeds **vóór** de balansdatum. Juridisch moet de jaarrekening worden **gecorrigeerd** vóór goedkeuring door de algemene vergadering — of, indien reeds goedgekeurd, hersteld via een herstelbeslissing of via correctie in het lopende boekjaar (met toelichting). Bovendien moet onderzocht worden of **Jean Y als zaakvoerder bestuurdersaansprakelijk** was wegens nalatigheid in de invordering, en kan een vordering tegen zijn **nalatenschap** worden gericht. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md",
+                  "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Juridisch te ondernemen stappen:\n\n1. **Boekhoudkundige correctie vóór AV**: vorderingen worden op balans opgenomen tegen nominale waarde, **onder voorbehoud van een waardevermindering wanneer er onzekerheid bestaat over de inning op vervaldag** (art. 3:46-47 KB WVV, vroeger art. 67-68 KB W.Venn. — CBN-advies 137/6 en 2011/15). Bij gekende oninvorderbaarheid vóór balansdatum: vordering afzonderen op 407 *Dubieuze debiteuren* en waardevermindering boeken via 6340, of bij definitieve oninvorderbaarheid (faillissement geverifieerd) rechtstreeks afboeken via 642 *Minderwaarden op realisatie van handelsvorderingen*. 🔗\n2. **Gebeurtenis na balansdatum?** Neen — de oninvorderbaarheid bestond **vóór** 31/12/2012, dus dit is geen *non-adjusting event* (IAS 10 / CBN-advies 2018/04) maar een **correctie** van een onjuiste balanspost. 🔗\n3. **Indien AV reeds gehouden** (jaarrekening al goedgekeurd): geen heropening van het afgesloten boekjaar — correctie via een **uitzonderlijke last in het lopende boekjaar 2013** met toelichting in de jaarrekening; in zware gevallen kan de AV een verbeterde jaarrekening goedkeuren (zeldzaam — vergt herneerlegging). 🔗\n4. **Bestuurdersaansprakelijkheid Jean Y**: nalatigheid in invordering kan kwalificeren als kennelijk grove fout (art. 2:56 WVV / oud art. 262 W.Venn.). Vordering wordt ingesteld tegen zijn **nalatenschap** (i.e. Cedric als enige erfgenaam, tenzij hij de nalatenschap verwerpt of aanvaardt onder voorrecht van boedelbeschrijving). 🔗\n5. **Externe accountant/commissaris**: indien aanwezig, melden in het verslag; eventuele alarmbelprocedure (art. 5:153 WVV) toetsen indien nettoactief in gedrang komt — in casu blijft nettoactief ruim positief (kapitaal 20.460 + overgedragen winst 44.540 = 65.000 EUR, een waardevermindering van 60.000 reduceert het tot 5.000 — boven kapitaal blijft het op het nippertje OK, maar geen alarmbel). 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De vraag stelt expliciet \"vanuit **juridisch** standpunt\" — antwoord moet dus niet enkel de boekingsmechaniek zijn, maar ook (i) de **getrouwheidsverplichting** van de jaarrekening (art. 3:1 WVV / oud art. 24 KB W.Venn. — getrouw beeld), (ii) de **bestuurdersaansprakelijkheid** van Jean als zaakvoerder, en (iii) de **vraag naar erfopvolging** in die aansprakelijkheid (Cedric erft niet de persoonlijke fout, wel het vermogen waarop een eventueel vonnis verhaald kan worden). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md",
+                  "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Waardering vorderingen: art. 3:46 KB WVV (oud art. 67 KB W.Venn.) — opname tegen nominale waarde behoudens waardevermindering bij onzekerheid. CBN-advies 137/6 (overdracht schuldvordering, nominale waarde, waardevermindering) en CBN-advies 2011/15 (waardeverminderingen op handelsvorderingen). Getrouw beeld: art. 3:1 WVV (oud art. 24 KB W.Venn.). Bestuurdersaansprakelijkheid zaakvoerder BVBA: art. 2:56 WVV (oud art. 262-263 W.Venn.). Gebeurtenissen na balansdatum: CBN-advies 2018/04. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 3:46, 3:1, 2:56 WVV; CBN-advies 137/6, 2011/15, 2018/04"
+              }
+            ],
+            "id": "deel2"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja**, in 2013 was het plan in principe uitvoerbaar: de **S-BVBA (Starter-BVBA, art. 211bis W.Venn.)** kon worden opgericht met een geplaatst kapitaal van **minstens 1 EUR en hoogstens 18.550 EUR** (i.p.v. 18.550 EUR voor een gewone BVBA). Belangrijke voorwaarden: **uitsluitend natuurlijke personen** als oprichter, **maximaal 5 oprichters/aandeelhouders**, **geen oprichter mag aandelen bezitten die 5% of meer van het stemrecht in een andere BVBA vertegenwoordigen**, en de S-BVBA moet binnen **5 jaar** worden omgezet of haar kapitaal opbouwen tot 18.550 EUR. 🔗\n\n**Let op (anno 2026)**: de S-BVBA is sinds de WVV (2019) **afgeschaft**. Onder huidig recht is élke BV kapitaalloos (geen minimumkapitaal), maar wel met een **versterkt financieel plan** (art. 5:4 WVV) en **oprichtersaansprakelijkheid bij kennelijk ontoereikend aanvangsvermogen** (art. 5:15 WVV). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Toetsing voorwaarden voor Albert M en zijn vriend:\n- **Twee natuurlijke personen** als oprichter → ✅ (≤ 5 toegestaan).\n- **Albert M houdt 5% van de aandelen van bvba Avenir** — dit is op het randje van de uitsluitingsregel. De wet vereist dat een S-BVBA-oprichter **geen aandelen houdt die 5% of meer van het stemrecht** in een andere BVBA vertegenwoordigen. Albert M zit **exact op 5%**, dus de regel wordt geactiveerd. **Hij voldoet bijgevolg NIET aan de voorwaarde** en kan in zijn huidige hoedanigheid **geen S-BVBA oprichten**. ❓\n- Oplossing: Albert M draagt eerst zijn aandelen Avenir over (of een fractie, zodat hij onder 5% zakt) — bv. door 1 aandeel over te dragen, zakt zijn belang onder 5%. Pas dan kan hij de S-BVBA oprichten met zijn vriend. 🔗\n- **Liquide middelen**: deze ontbreken bij oprichting, maar zijn niet vereist — kapitaal kan minimaal 1 EUR bedragen, en het ontbreken van werkkapitaal moet worden verantwoord in het **financieel plan** (art. 215 W.Venn., versterkte versie voor S-BVBA). De notaris kan oprichten met 1 EUR; ontbrekend werkkapitaal genereert wel een **verhoogd risico** op oprichtersaansprakelijkheid (zie e). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De vraag lijkt te suggereren dat \"geen liquide middelen\" het probleem is — dat is het juist **niet**: de S-BVBA is precies bedoeld om met minimaal kapitaal te starten. Het echte struikelblok is de **5%-regel** voor Albert M's bestaande aandelen in bvba Avenir. Wie alleen op de liquiditeit antwoordt en \"ja, want S-BVBA kan met 1 EUR\" zegt, mist de hoofdvalkuil van de vraag. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Oude W.Venn. (van toepassing in 2013): art. 211bis W.Venn. — S-BVBA — kapitaal 1 EUR tot 18.550 EUR, max. 5 natuurlijke personen, geen oprichter met ≥5% stemrechten in een andere BVBA, omzetting binnen 5 jaar of opbouw tot 18.550 EUR. Versterkt financieel plan: art. 215 W.Venn. Huidig recht: S-BVBA afgeschaft — alle BV's onder WVV zijn kapitaalloos (art. 5:1 WVV) met versterkt financieel plan (art. 5:4 WVV) en oprichtersaansprakelijkheid (art. 5:15 WVV). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 211bis, 215 W.Venn. (oud); art. 5:1, 5:3, 5:4, 5:15 WVV"
+              }
+            ],
+            "id": "d",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De oprichters van een S-BVBA (en thans van elke BV) zijn **hoofdelijk aansprakelijk** voor alle verbintenissen van de vennootschap indien de S-BVBA/BV **binnen drie jaar na oprichting failliet** wordt verklaard en het **aanvangsvermogen kennelijk ontoereikend** blijkt voor de normale uitoefening van de voorgenomen activiteit gedurende **ten minste twee jaar**. Het financieel plan dat aan de notaris wordt overhandigd is dan **doorslaggevend bewijs**: een ondermaats plan = sterk vermoeden van oprichtersaansprakelijkheid. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee aansprakelijkheidsgronden zijn relevant:\n\n1. **Kapitaal/aanvangsvermogen-aansprakelijkheid** (art. 229, 5° W.Venn. oud / art. 5:15, 2° WVV) — bij faillissement binnen **3 jaar** en **kennelijk ontoereikend aanvangskapitaal**, hoofdelijk gehouden voor alle verbintenissen, naar verhouding vastgesteld door de rechter. De notaris bezorgt het financieel plan aan de rechtbank op verzoek van rechter-commissaris of procureur. 📖\n2. **Algemene oprichtersaansprakelijkheid** (art. 229, 1°-4° W.Venn. / art. 5:15, 1° WVV) — voor nietigheid van de vennootschap, ontbreken/onjuistheid van voorgeschreven vermeldingen in de oprichtingsakte, overwaardering van inbrengen in natura. 📖\n\nBijzonderheid S-BVBA: het **versterkt financieel plan** (art. 215 W.Venn. oud) vereist een verklaring van een externe accountant, bedrijfsrevisor of erkende boekhouder-fiscalist over de redelijkheid van het plan. Dit verhoogt de bewijslast die op de oprichters rust. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Voor Albert M en zijn vriend, die zonder eigen liquide middelen starten, is de aansprakelijkheid bij \"kennelijk ontoereikend aanvangsvermogen\" een **reëel risico**. Het financieel plan moet aantonen dat de S-BVBA/BV werkkapitaal heeft (krediet, achtergestelde leningen, klantvoorschotten, eigen arbeid) om twee jaar te overleven — louter \"we beginnen met 1 EUR en zien wel\" wordt door de rechter quasi-systematisch als ontoereikend gekwalificeerd. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Oude W.Venn. (van toepassing in 2013): art. 229 W.Venn. (oprichtersaansprakelijkheid BVBA, met §5° specifiek voor kennelijk ontoereikend kapitaal); art. 215 W.Venn. (financieel plan; versterkt voor S-BVBA). Huidig recht: art. 5:15 WVV (oprichtersaansprakelijkheid BV) en art. 5:4 WVV (versterkt financieel plan voor elke BV). De drie-jaar-termijn en het criterium \"kennelijk ontoereikend voor twee jaar normale bedrijvigheid\" zijn ongewijzigd overgenomen in het WVV. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 229, 215 W.Venn. (oud); art. 5:15, 5:4 WVV"
+              }
+            ],
+            "id": "e"
+          }
+        ],
+        "vraag_id": "2013-1-vr14"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2205,7 +2467,127 @@
       "vraag_id": "2013-1-vr14"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Een fiscale ontradingstaks op de omzetting van effecten aan toonder** — 1 % bij omzetting in 2012, 2 % bij omzetting in 2013 (\"omzettingstaks\"). De houder kon — en moest, om de heffing te vermijden of beperken — zijn toondereffecten **vóór 31 december 2013 actief laten omzetten** in gedematerialiseerde effecten (inboeking op een effectenrekening bij een erkende rekeninghouder) of in effecten op naam (inschrijving in het register van de emittent). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "De wet van 14 december 2005 plande een geleidelijke uitfasering: geen nieuwe uitgiften meer sinds 1/1/2008, en omzettingsdeadline op 31/12/2013. Om houders aan te zetten tijdig om te zetten en zo de eindstand op 1/1/2014 te beperken, werd via de wet van 28 december 2011 (programmawet, art. 167–169 — invoeging in het Wetboek diverse rechten en taksen) een **degressief-stijgend tarief** ingevoerd op de omzettingsverrichting zelf: **1 % in 2012, 2 % in 2013**. 🔗 De taks werd ingehouden door de tussenpersoon (bank/emittent) op het moment van inboeking op de effectenrekening of inschrijving in het register. 🔗 De praktische actie van de houder: zijn fysieke effectenstukken aanbieden bij zijn bank of bij de emittent met opdracht tot dematerialisering of inschrijving op naam. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De tarief-opstap (1 % → 2 %) was bedoeld om uitstellen te bestraffen: hoe later de houder omzette, hoe duurder. Toch konden niet alle effecten tijdig omgezet worden — vandaar het van-rechtswege-mechanisme in deelvraag b. De omzettingstaks is een **eenmalige** verrichtingstaks, niet te verwarren met de latere jaarlijkse taks op effectenrekeningen (ingevoerd in 2018, opnieuw in 2021). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "tekst": "Wet van 14 december 2005 houdende afschaffing van de effecten aan toonder (art. 7 — omzettingsverplichting tegen 31/12/2013). Wet van 28 december 2011 houdende diverse bepalingen (programmawet), art. 167–169 — invoeging van de omzettingstaks in het Wetboek diverse rechten en taksen: 1 % voor omzettingen in 2012, 2 % voor omzettingen in 2013. ❓ — exacte artikelverwijzing niet bevestigd in de RAG-bronnen die op dit punt geen specifieke chunk teruggaven; tarieven en jaartallen zijn vaste examen-doctrine.",
+                "type": "grondslag",
+                "wetsref": "Wet 14 december 2005, art. 7 · Wet 28 december 2011 (programmawet), art. 167–169"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Effecten die op 31 december 2013 niet vrijwillig omgezet waren, worden **op 1 januari 2014 van rechtswege omgezet** — in gedematerialiseerde effecten (als de emittent de nodige regelingen daartoe had getroffen) of anders in effecten op naam — en **ingeschreven op naam van de emittent zelf** op een effectenrekening of in het effectenregister. De rechten verbonden aan die effecten (stemrecht, dividend, deelname aan de algemene vergadering) zijn **opgeschort** zolang de oorspronkelijke rechthebbende zich niet bekendmaakt. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Mechanisme volgens art. 9 van de wet van 14 december 2005: 📖\n\n- **Emittent had dematerialisering geregeld** → effecten van rechtswege omgezet in gedematerialiseerde effecten en ingeschreven op een effectenrekening op naam van de emittent. 📖\n- **Emittent had dematerialisering niet geregeld** → effecten van rechtswege omgezet in effecten op naam en ingeschreven in het effectenregister op naam van de emittent. 📖\n\nDe oorspronkelijke houder verliest **niet** zijn eigendomsrecht — de emittent houdt de effecten enkel \"in bewaring\". Wel zijn de eraan verbonden rechten **opgeschort tot de rechthebbende zich bekendmaakt** (door overlegging van het fysieke effect of bewijs van zijn recht). De omgezette effecten worden niet voorgelegd aan de algemene vergadering van 2014. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "De omzetting van rechtswege is **geen onteigening**: de rechthebbende behoudt zijn eigendomsrecht en kan zich tot 30 november 2015 (in eerste instantie — later verlengd) komen aanmelden om de effecten op zijn naam te laten zetten. Pas vanaf 1/1/2015 worden de niet-opgeëiste effecten te koop aangeboden (zie deelvraag c). De CBN merkt op dat de van-rechtswege-omzetting voor de emittent een \"belangrijke gebeurtenis na balansdatum\" kan vormen die in het jaarverslag 2013 wordt vermeld (art. 96, § 1, 2° W.Venn., nu art. 3:6 WVV). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Wet van 14 december 2005 houdende afschaffing van de effecten aan toonder, art. 9 — omzetting van rechtswege op 1/1/2014, inschrijving op naam van de emittent, opschorting van de rechten tot bekendmaking. Bevestigd en geduid in CBN-advies 2014/6. 📖",
+                "type": "grondslag",
+                "wetsref": "Wet 14 december 2005, art. 9 · CBN-advies 2014/6"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vanaf 1 januari 2015 moet de emittent de effecten waarvan de rechthebbende zich niet bekendgemaakt heeft te koop aanbieden** — via **openbare veiling** of, als de effecten genoteerd zijn, **op de gereglementeerde markt** waarop ze noteren. De netto-opbrengst van de verkoop wordt **geconsigneerd bij de Deposito- en Consignatiekas** ten gunste van de oorspronkelijke rechthebbende; die kan ze nog gedurende een wettelijke termijn opvragen (mits bewijs van zijn recht), waarna zij **definitief aan de Belgische Staat toekomt** (verjaring ten gunste van de Schatkist). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Volgorde: 📖\n\n1. **Vanaf 1/1/2015**: de emittent biedt de niet-opgeëiste, op zijn naam ingeschreven effecten te koop aan — openbare veiling, of (bij beursnotering) op de gereglementeerde markt.\n2. De netto-opbrengst (verkoopprijs verminderd met de verkoopkosten) wordt **gedeponeerd bij de Deposito- en Consignatiekas** op naam van de oorspronkelijke (onbekende) rechthebbende.\n3. De rechthebbende die zich nadien aanmeldt en zijn recht bewijst, kan het bedrag opvragen — **mits inhouding van een boete van 10 % per begonnen jaar vertraging** vanaf 1/1/2016.\n4. Na het verstrijken van de wettelijke bewaarperiode komt het saldo aan de **Staat** toe. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Belangrijk onderscheid: de **effecten zelf** verdwijnen voor de rechthebbende vanaf de verkoop in 2015 (hij krijgt enkel nog de geldopbrengst), maar de **opbrengst** blijft daarna nog jaren opvraagbaar bij de Deposito- en Consignatiekas. De definitieve verjaring ten gunste van de Schatkist treedt pas véél later in. De examen-essentie: vanaf 2015 → te koop, opbrengst naar Deposito- en Consignatiekas, boete van 10 % per jaar vertraging bij latere opvraging. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Wet van 14 december 2005 houdende afschaffing van de effecten aan toonder, art. 11 (verkoop door de emittent vanaf 1/1/2015 via openbare veiling of gereglementeerde markt) en art. 12 (consignatie van de opbrengst bij de Deposito- en Consignatiekas, boete van 10 % per jaar bij laattijdige opvraging, finale toewijzing aan de Staat). Bevestigd in CBN-advies 2014/6. 📖",
+                "type": "grondslag",
+                "wetsref": "Wet 14 december 2005, art. 11–12 · CBN-advies 2014/6"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-1-vr15"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2003-bibf.pdf",
   "examen_id": "2003-bibf",
-  "merge_datum": "2026-05-26T15:29:22+00:00",
+  "merge_datum": "2026-05-26T15:37:26+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -2193,7 +2193,88 @@
       "vraag_id": "2003-bibf-vrI1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Vraag dateert van 2003 — toen BVBA (W.Venn. art. 211 e.v.) en inbrengrecht 0,5%. Sinds 1.1.2006 is het inbrengrecht voor roerende goederen 0% (art. 115 W.Reg., huidige versie); sinds 1.5.2019 is BVBA vervangen door BV (boek 5 WVV). De berekening hieronder volgt het tarief- en vormregime zoals geldig in 2003 — de redeneer-structuur (gemengde inbreng, art. 115bis W.Reg., pro rata) blijft actueel.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vóór het verlijden van de oprichtingsakte**:\n\n- **Financieel plan** opstellen en aan de notaris overhandigen (verantwoording aanvangsvermogen voor minstens twee jaar bedrijvigheid). 📖\n- **Verslag van de oprichters** over de inbreng in natura (waardering en motivering van de vergoeding) + **inbrengverslag van een bedrijfsrevisor** dat de waardering controleert (verplicht bij elke inbreng in natura). 🔗\n- **Geblokkeerde rekening**: het ingebrachte geld (10.000 EUR cash) wordt op een speciale rekening op naam van de op te richten vennootschap gestort; de bank levert een **bankattest** af voor de notaris. 🔗\n- **Ontwerp van statuten** (kapitaal, zetel, doel, bestuur, aandeelhouders) klaar voor de notaris.\n\n**Bij het verlijden van de akte**:\n\n- **Notariële oprichtingsakte** (authentiek; verplicht voor BVBA — art. 66 W.Venn. zoals in 2003 / art. 5:11 WVV vandaag). 🔗\n- Ondertekening door alle oprichters; verklaring dat de inbrengverslagen voorliggen.\n\n**Na het verlijden van de akte**:\n\n- **Neerlegging** van een uittreksel ter griffie van de rechtbank van koophandel (heden: ondernemingsrechtbank) binnen **15 dagen** — rechtspersoonlijkheid ontstaat pas door deze neerlegging. 🔗\n- **Bekendmaking** in de Bijlagen tot het Belgisch Staatsblad (regelt de notaris). 🔗\n- **Inschrijving in de Kruispuntbank van Ondernemingen (KBO)** via een erkend ondernemingsloket — toekenning van het ondernemingsnummer. 🔗\n- **Btw-activatie** van het ondernemingsnummer bij de bevoegde btw-controle (formulier 604A) vóór aanvang van de activiteit. 🔗\n- **Aansluiting bij een sociaal verzekeringsfonds voor zelfstandigen** (voor de zaakvoerder, binnen 90 dagen na oprichting) — sociale bijdragen als zelfstandig bedrijfsleider. 🔗\n- **Aansluiting bij een sociaal secretariaat** als de vennootschap personeel zal tewerkstellen + RSZ-aansluiting via DIMONA bij eerste indienstneming. 🔗\n- **Aansluiting bij een verzekeringsmaatschappij** voor de wettelijk verplichte verzekeringen (BA-uitbating, arbeidsongevallenverzekering bij personeel, voertuig). 🔗\n- **Vergunningen** zo nodig (vestigingswet/handelsbekwaamheid, beroepskaart, specifieke sectorvergunningen) — voor een handelaar meestal reeds geregeld in de eenmanszaak en over te dragen / te hernieuwen op naam van de BVBA. 🤖\n- **Vennootschapsbelasting**: aangifte bij de bevoegde controle; de BVBA wordt automatisch ingeschreven via de KBO-flow. 🔗\n- **Boekhouding** openen: openingsbalans op datum van de inbreng, boekhoudsysteem inrichten, boekjaar vastleggen. 🔗\n- **Stopzetting van de eenmanszaak** registreren: schrapping/wijziging KBO, stopzettingsaangifte btw (formulier 604C), eindafrekening sociale bijdragen, stopzettingsmeerwaarden in de PB van het jaar van overdracht (art. 28 WIB92 — afzonderlijk tarief). 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Bij **omzetting van een eenmanszaak naar een vennootschap** gaat het juridisch niet om een \"omzetting\" in de zin van boek 14 WVV (die regelt alleen het wijzigen van rechtsvorm tussen vennootschappen). Het is een **oprichting van een nieuwe vennootschap met inbreng in natura** (van de handelszaak) gevolgd door de stopzetting van de eenmanszaak. De handelaar moet dus de volledige oprichtingsprocedure doorlopen én de fiscale stopzetting van zijn eenmanszaak in orde brengen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Oprichting BVBA (2003): art. 66, 211 e.v. W.Venn. — notariële akte, financieel plan, inbrengverslag bedrijfsrevisor, neerlegging ter griffie en bekendmaking in B.S. Vandaag: art. 2:1 e.v. + 5:1 e.v. WVV (boek 2 algemene oprichtings- en openbaarmakingsformaliteiten + boek 5 BV-specifieke regels, o.a. financieel plan art. 5:4). KBO-inschrijving: art. III.49 e.v. WER. Btw-activatie: art. 53 WBTW + KB nr. 10. Sociale aansluiting zelfstandigen: KB nr. 38 van 27.07.1967. 📖",
+                "type": "grondslag",
+                "wetsref": "W.Venn. art. 66, 211 e.v. (2003) — WVV art. 2:1 e.v., 5:1 e.v., 5:4 (heden)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Totaal registratierechten ≈ 3.778 EUR** (regime 2003): 1.000 EUR inbrengrecht (0,5 %) op de inbreng vergoed met aandelen + 2.778 EUR verkooprecht (12,5 %) op het deel van het gebouw dat geacht wordt vergoed te zijn met de rekening-courant. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — Kwalificatie van de inbreng**.\n\n| Goed | Waarde | Aard |\n|---|---:|---|\n| Gebouw (woon- en activiteitsgebouw) | 200.000 | onroerend |\n| Materieel, apparatuur, meubilair | 5.000 | roerend |\n| Bestelwagen | 10.000 | roerend |\n| Gereed geld | 10.000 | roerend |\n| **Totaal inbreng** | **225.000** | |\n\nVergoeding: 200.000 EUR kapitaalaandelen + 25.000 EUR op rekening-courant = **gemengde inbreng** (deels in aandelen, deels \"anders dan met aandelen\"). 🔗\n\n**Stap 2 — Inbreng vergoed met aandelen (200.000 EUR)**.\n\nIn 2003 is de zuivere inbreng (in geld én in natura) onderworpen aan het **inbrengrecht van 0,5 %** (art. 115 W.Reg., versie 2003):\n\n200.000 × 0,5 % = **1.000 EUR**. 🔗\n\n*(Sinds 1.1.2006 is dit tarief 0 % geworden voor roerende inbrengen — vandaag zou dit deel dus nul opleveren; voor onroerende inbrengen blijft het verkooprecht relevant via art. 115bis.)* 📖\n\n**Stap 3 — Inbreng vergoed met R/C (25.000 EUR) — toepassing art. 115bis W.Reg.**\n\nArt. 115bis W.Reg. (en vandaag art. 2.9.1.0.3 VCF / 2.10.1.0.3 VCF voor het verdeelrecht) bepaalt dat een inbreng van **onroerende goederen** die **anders dan met maatschappelijke rechten** wordt vergoed, onderworpen is aan het **verkooprecht (12,5 % in 2003, federaal)**. Bij een gemengde inbreng waarbij het onroerend goed met andere goederen wordt ingebracht, worden de \"andere lasten\" (= R/C) **pro rata** verdeeld over de ingebrachte goederen volgens hun waarde. 📖\n\nPro rata-deel R/C toegerekend aan elk goed = 25.000 × (waarde goed / 225.000):\n\n| Goed | Waarde | Pro rata R/C | Onderwerping |\n|---|---:|---:|---|\n| Gebouw | 200.000 | 22.222,22 | verkooprecht 12,5 % |\n| Materieel | 5.000 | 555,56 | inbrengrecht 0,5 % (roerend) |\n| Bestelwagen | 10.000 | 1.111,11 | inbrengrecht 0,5 % (roerend) |\n| Gereed geld | 10.000 | 1.111,11 | inbrengrecht 0,5 % (roerend) |\n| **Totaal** | **225.000** | **25.000,00** | |\n\nOp het pro rata aan het **gebouw** toegerekende R/C-deel (22.222,22 EUR) is het **verkooprecht** verschuldigd in plaats van het inbrengrecht:\n\n22.222,22 × 12,5 % = **2.777,78 EUR**. 🔗\n\nHet pro rata aan de **roerende goederen** toegerekende R/C-deel (2.777,78 EUR) blijft onderworpen aan het inbrengrecht van 0,5 % — dit zit al verrekend in stap 2 want het totale inbrengbedrag (225.000) wordt belast aan 0,5 %, ongeacht de vorm van de vergoeding. *(In de praktijk corrigeert de administratie dit door op het gebouw-R/C-deel het inbrengrecht 0,5 % NIET meer te heffen — dubbele belasting wordt vermeden. Voor de eenvoud aanvaarden wij hier de klassieke uitwerking van het BIBF-modelantwoord 2003.)* 🤖\n\n**Stap 4 — Totaal**.\n\n1.000 EUR (inbrengrecht stap 2) + 2.778 EUR (verkooprecht stap 3) = **≈ 3.778 EUR**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Twee klassieke fouten in deze vraag:\n\n1. **Pro rata toepassen op de hele R/C** in plaats van enkel op het onroerend-goed-aandeel. Art. 115bis verplicht de pro-rataverdeling expliciet (niettegenstaande elk strijdig beding) — je mag de R/C dus niet naar believen aan één goed toewijzen. 📖\n2. **Vergeten dat in 2003 het inbrengrecht 0,5 % bedroeg** — sinds 1.1.2006 is het 0 % voor zuivere roerende inbreng. Wie hetzelfde geval vandaag uitwerkt, komt op enkel het verkooprecht uit (≈ 2.778 EUR). Voor een BIBF-examen van 2003 is 0,5 % wél het geldige tarief. 🔗\n\n**Nuance — woon- en activiteitsgebouw**: als het gebouw gemengd gebruikt wordt (woon + activiteit), kan op het woninggedeelte een afwijkend tarief van toepassing zijn (in Vlaanderen vandaag: 3 % voor de enige eigen woning); in 2003 federaal evenwel uniform 12,5 %. Een opsplitsing volgens de KI-verhouding woon/activiteit was in 2003 niet relevant voor het tarief. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 115 W.Reg. (inbrengrecht — 0,5 % in 2003, 0 % sinds 1.1.2006 voor roerende inbreng). Art. 115bis W.Reg. (gemengde inbreng onroerend goed: verkooprecht op het deel anders vergoed dan met maatschappelijke rechten + pro-rataverdeling). Art. 44 W.Reg. (verkooprecht 12,5 % federaal, 2003). Vandaag voor Vlaamse onroerende goederen: art. 2.9.1.0.3 VCF (verkooprecht) en 2.10.1.0.3 VCF (verdeelrecht). 📖",
+                "type": "grondslag",
+                "wetsref": "W.Reg. art. 115, 115bis, 44 (2003 federaal) — VCF art. 2.9.1.0.3, 2.10.1.0.3 (heden Vlaanderen)"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrI2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2257,7 +2338,73 @@
       "vraag_id": "2003-bibf-vrI2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T15:31:05Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De vraag combineert **twee onderscheiden verplichtingen** die in 2003 onder het W.Venn. golden:\n\n1. **Alarmbelprocedure** (art. 633 W.Venn. voor de NV; art. 332 W.Venn. voor de BVBA): wanneer uit de balans blijkt dat het netto-actief — onder andere door een overgedragen verlies — gedaald is tot **minder dan de helft** of **minder dan een vierde** van het maatschappelijk kapitaal, moet het bestuursorgaan binnen twee maanden de **bijzondere algemene vergadering** bijeenroepen om te beraadslagen over ontbinding of herstelmaatregelen, op basis van een **bijzonder bestuursverslag**. 🔗\n2. **Continuïteitsverantwoording in het jaarverslag** (art. 96 W.Venn., voortgezet in art. 3:6 WVV): wanneer uit de resultatenrekening **gedurende twee opeenvolgende boekjaren een verlies van het boekjaar** blijkt, moet het bestuursorgaan in zijn jaarverslag **uitdrukkelijk de toepassing van de waarderingsregels in continuïteit (going concern) verantwoorden**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Concrete verplichtingen bij overgedragen verlies (alarmbel)",
+                "tekst": "Wanneer het netto-actief gedaald is tot **minder dan de helft van het kapitaal** (eerste drempel — art. 633, eerste lid W.Venn. / art. 332, eerste lid W.Venn.):\n\n- Het bestuursorgaan roept de algemene vergadering bijeen **binnen twee maanden** na de datum waarop het verlies werd vastgesteld of had moeten vastgesteld zijn. 🔗\n- Het bestuursorgaan stelt een **bijzonder verslag** op dat de oorzaken van de toestand toelicht en de voorgestelde maatregelen tot herstel verantwoordt — of, in voorkomend geval, de ontbinding voorstelt. Het verslag wordt in de agenda aangekondigd en op de zetel ter beschikking gehouden van de vennoten. 🔗\n- De algemene vergadering beraadslaagt en beslist over **de ontbinding** van de vennootschap **of over de voorgestelde herstelmaatregelen**; ontbinding is niet de enige optie. De beslissing wordt genomen volgens de regels voor statutenwijziging (verzwaarde aanwezigheids- en meerderheidsvereisten). 🔗\n\nWanneer het netto-actief verder gedaald is tot **minder dan een vierde van het kapitaal** (tweede drempel — art. 633, tweede lid W.Venn. / art. 332, tweede lid W.Venn.):\n\n- Zelfde procedure (bijeenroeping AV + bijzonder verslag), maar de **ontbinding kan worden uitgesproken door een vierde van de op de AV uitgebrachte stemmen** — dus met een veel lagere meerderheidsvereiste. 🔗\n\nWanneer het netto-actief gedaald is tot **minder dan € 61.500** (= minimumkapitaal NV destijds; art. 634 W.Venn.):\n\n- **Iedere belanghebbende of het openbaar ministerie** kan de **ontbinding van de vennootschap voor de rechtbank vorderen**. De rechtbank kan een termijn toestaan om de toestand te regulariseren. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Concrete verplichtingen bij twee opeenvolgende verliesboekjaren",
+                "tekst": "Wanneer uit de resultatenrekening blijkt dat er **gedurende twee opeenvolgende boekjaren een verlies van het boekjaar** is, moet het bestuursorgaan:\n\n- In het **jaarverslag** (art. 96 W.Venn., thans art. 3:6 WVV) **uitdrukkelijk verantwoorden** dat de boekhouding wordt gevoerd en de jaarrekening wordt opgemaakt **met toepassing van de waarderingsregels in de veronderstelling van continuïteit** (going concern). 🔗\n- De **going-concern-veronderstelling expliciet motiveren**: blijft de vennootschap een levensvatbare onderneming? Welke maatregelen worden genomen? Indien continuïteit niet langer aangenomen wordt, moeten de **waarderingsregels in discontinuïteit** worden toegepast (liquidatiewaarden). 🔗\n- De **commissaris** (indien aangesteld) toetst deze verantwoording in zijn controleverslag en signaleert eventuele continuïteits­onzekerheden. 🔗\n\nDeze verplichting geldt **onafhankelijk** van de alarmbeldrempel: ook als het netto-actief nog ruim boven de helft van het kapitaal staat, ontstaat er bij twee opeenvolgende verliesboekjaren een verantwoordingsplicht in het jaarverslag.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "**Sanctie bij niet-naleving van de alarmbel** (art. 633, laatste lid W.Venn., thans art. 2:52 WVV): wanneer de algemene vergadering niet wordt bijeengeroepen overeenkomstig de wet, wordt **vermoed dat de door derden geleden schade voortvloeit uit het ontbreken van de bijeenroeping**. Dit is een **omgekeerde bewijslast** — de bestuurders moeten aantonen dat de schade niet aan het verzuim te wijten is. Het gaat om een **weerlegbaar vermoeden**, maar het zwaartepunt van de aansprakelijkheid verschuift naar de bestuurder. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De twee triggers van de vraag (\"overgedragen verlies\" en \"twee opeenvolgende verliesboekjaren\") zijn **niet inwisselbaar**: het overgedragen verlies activeert de **alarmbel** (drempel netto-actief vs. kapitaal — art. 633/332 W.Venn.), terwijl twee opeenvolgende verliesboekjaren de **continuïteitsverantwoording in het jaarverslag** activeert (art. 96 W.Venn.). Vermijd de fout om alleen de alarmbel te beschrijven en de going-concern-verantwoording te vergeten — de vraagsteller test net dit onderscheid. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md",
+                  "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Toepasselijk recht in 2003 (W.Venn.)**:\n- **Art. 633 W.Venn.** (NV) en **art. 332 W.Venn.** (BVBA): alarmbelprocedure — bijeenroeping AV binnen twee maanden, bijzonder bestuursverslag, beslissing over ontbinding of herstel bij netto-actief < helft of < kwart van het kapitaal. 📖\n- **Art. 634 W.Venn.**: vordering tot ontbinding door iedere belanghebbende wanneer netto-actief < € 61.500. 📖\n- **Art. 96 W.Venn.**: jaarverslag — verantwoording van de toepassing van de waarderingsregels in continuïteit bij twee opeenvolgende verliesboekjaren. 📖\n\n**Huidige tegenhanger onder WVV (2019, voor referentie)**:\n- **Art. 7:228-7:229 WVV** (NV — drempels helft/vierde, vordering bij netto-actief < € 61.500); **art. 5:153 WVV** (BV — netto-actief negatief of dreigend negatief, kasstroomtoets); **art. 6:119 WVV** (CV).\n- **Art. 2:52 WVV**: omgekeerde bewijslast bij niet-bijeenroeping.\n- **Art. 3:6 WVV** (continuïteitsverantwoording in jaarverslag). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 633 + 634 + 96 W.Venn. (2003); thans art. 7:228-7:229 + 2:52 + 3:6 WVV"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrI3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -2305,7 +2452,55 @@
       "vraag_id": "2003-bibf-vrI3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het belangrijkste rechtsgevolg is de **gerechtelijke ontbinding** van de vennootschap door de ondernemingsrechtbank. Daarnaast lopen bestuurders **burgerlijke aansprakelijkheid** op (vermoeden van schade voor derden) en kan een **administratieve boete** worden opgelegd; bovendien wordt de jaarrekening pas tegenwerpelijk aan derden na regelmatige neerlegging. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Mogelijke gevolgen voor de vennootschap die haar jaarrekening niet neerlegt bij de Nationale Bank van België:\n\n- **Gerechtelijke ontbinding** — de ondernemingsrechtbank kan op vraag van iedere belanghebbende, het openbaar ministerie of na mededeling door de kamer voor ondernemingen in moeilijkheden de ontbinding uitspreken. De rechtbank kent doorgaans eerst een **regularisatietermijn** toe; pas als de ontbrekende jaarrekeningen niet vóór de sluiting van de debatten worden neergelegd, volgt de effectieve ontbinding. 📖\n- **Burgerlijke aansprakelijkheid van bestuurders** — bij niet-neerlegging binnen de wettelijke termijn (zeven maanden na afsluiting boekjaar) geldt een **wettelijk vermoeden** dat de door derden geleden schade voortvloeit uit dit verzuim; de bestuurders dragen de bewijslast om dit vermoeden om te keren. 🔗\n- **Administratieve geldboete / tariefverhoging** — de NBB rekent een **tariefverhoging** aan voor laattijdige neerlegging (oplopend naargelang de vertraging) bovenop de gewone neerleggingskosten. 🤖\n- **Niet-tegenwerpelijkheid** — zolang de jaarrekening niet is openbaar gemaakt, kan ze niet aan derden worden tegengeworpen (publicatieplicht art. 2:14 WVV / oud art. 76 W.Venn.). 🔗\n- **Strafrechtelijke sanctie** — opzettelijke niet-neerlegging kan strafrechtelijk worden vervolgd (geldboete; in zwaarwichtige gevallen verzwaard). 🤖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "De vraag dateert van **2003** en verwijst impliciet naar het toenmalige **art. 182 W.Venn.**, dat uitdrukkelijk de gerechtelijke ontbinding koppelde aan **drie opeenvolgende boekjaren** zonder neerlegging. Dit drie-boekjaren-criterium is **afgeschaft** door de wet van 17 mei 2017 en niet hernomen in het WVV: onder **art. 2:74, § 1 WVV** volstaat **één** niet-neergelegde jaarrekening, mits de vordering pas wordt ingesteld na verloop van **zeven maanden** vanaf afsluiting boekjaar. Voor een examen anno 2026 is dus de WVV-regel het juiste referentiekader; de drie-boekjaren-formule uit de vraagstelling is historisch achterhaald. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 2:74, § 1 WVV** — gerechtelijke ontbinding wegens niet-neerlegging jaarrekening (art. 3:10 en 3:12 WVV); vordering instelbaar na zeven maanden vanaf afsluiting boekjaar; rechtbank kent regularisatietermijn toe. **Art. 2:14 WVV** — openbaarmakingsplicht en tegenwerpelijkheid aan derden. **Oud art. 182 W.Venn.** (gewijzigd door wet 17 mei 2017, BS 12 juni 2017) — historisch drie-boekjaren-criterium, nu afgeschaft. CBN-advies 2022/04 bevestigt expliciet dat dit criterium niet meer bestaat. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:74, § 1 WVV; art. 2:14 WVV; oud art. 182 W.Venn."
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrI4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -2407,7 +2602,64 @@
       "vraag_id": "2003-bibf-vrJ1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De werkgever beëindigt de arbeidsovereenkomst van een bediende voor onbepaalde tijd door **kennisgeving van een opzegging**, op straffe van nietigheid **enkel** bij **ter post aangetekende brief** (uitwerking de derde werkdag na verzending) **of bij gerechtsdeurwaardersexploot**. De brief moet **het begin en de duur van de opzeggingstermijn** vermelden. De termijn begint te lopen op de **maandag** volgend op de week van kennisgeving en wordt sinds het Eenheidsstatuut (2014) berekend in **weken** volgens art. 37/2 e.v. van de Arbeidsovereenkomstenwet. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stappen in de ontslagprocedure (werkgever → bediende):**\n\n1. **Beslissing tot ontslag** — geen voorafgaande formaliteit verplicht, maar de werkgever moet kunnen aantonen dat hij geen **kennelijk onredelijk ontslag** geeft (CAO nr. 109). 🔗\n2. **Opstellen van de opzeggingsbrief** — moet op straffe van nietigheid **het begin en de duur van de opzeggingstermijn** bevatten (art. 37 §1, derde lid). 📖\n3. **Kennisgeving** — op straffe van nietigheid **uitsluitend** via:\n   - **ter post aangetekende brief** (uitwerking pas de **derde werkdag** na verzending), of\n   - **gerechtsdeurwaardersexploot** (onmiddellijke uitwerking). 📖\n   Een gewone brief, e-mail of mondelinge mededeling is **nietig**.\n4. **Aanvang van de opzeggingstermijn** — de **maandag** volgend op de week waarin de kennisgeving uitwerking heeft (art. 37/1). 🔗\n5. **Duur van de opzeggingstermijn** — sinds 1 januari 2014 uniform voor arbeiders én bedienden, in **weken**, volgens een wettelijk schema in **functie van de anciënniteit** (art. 37/2). Vóór 2014 gold voor bedienden de regel-Claeys / art. 82 oud (in maanden, vanaf 3 maanden per begonnen schijf van 5 jaar voor \"lagere\" bedienden; voor \"hogere\" bedienden bij overeenkomst of rechter te bepalen). 🔗\n6. **Uitvoering tijdens de opzegging** — de bediende blijft normaal werken; hij heeft recht op **sollicitatieverlof** (één à twee halve of hele dagen per week, art. 41). 📖 De werkgever kan de opzegging vervangen door een **verbrekingsvergoeding** gelijk aan het lopend loon over de niet-gepresteerde opzegtermijn (art. 39). 🔗\n7. **Einde** — op de laatste dag van de termijn worden C4, vakantieattest, individuele rekening en loonbrief afgeleverd. 🤖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "**Vormvereiste is absoluut**. Een opzegging per gewone brief, e-mail of mondeling is **nietig** — de werkgever wordt dan geacht de overeenkomst onregelmatig te hebben verbroken en is een **verbrekingsvergoeding** verschuldigd gelijk aan het loon over de volledige opzeggingstermijn (art. 39 §1). De **werknemer kan de nietigheid niet dekken** en zij wordt **ambtshalve** door de rechter opgeworpen (art. 37 §1). 📖 Tweede valkuil: de aangetekende brief heeft **pas uitwerking de derde werkdag na verzending** — datum van verzending ≠ datum van kennisgeving. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "**Tijdsverankering**. De vraag dateert van 2003, toen voor bedienden nog **art. 82 van de Arbeidsovereenkomstenwet** gold (onderscheid lagere/hogere bedienden, opzegtermijn in maanden, regel-Claeys voor hogere bedienden). Sinds het **Eenheidsstatuut** (Wet 26 december 2013, in werking 1 januari 2014) zijn art. 78 en art. 82 opgeheven en geldt **art. 37/2** met een uniform schema in weken voor arbeiders én bedienden. De **vormvereisten van art. 37 §1** (aangetekend of deurwaardersexploot, vermelding begin en duur) zijn ongewijzigd gebleven en golden ook in 2003. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Wet 3 juli 1978 betreffende de arbeidsovereenkomsten**, art. 37 §1 (vormvereisten kennisgeving opzegging: aangetekende brief — uitwerking derde werkdag — of gerechtsdeurwaardersexploot; vermelding begin en duur op straffe van nietigheid); art. 37/1 (aanvang termijn op de maandag na de week van kennisgeving); art. 37/2 (uniforme opzegtermijnen in weken, sinds Eenheidsstatuut 2014); art. 39 (verbrekingsvergoeding bij onregelmatig ontslag); art. 41 (sollicitatieverlof tijdens opzegging). Aanvullend: **CAO nr. 109** van de NAR (kennelijk onredelijk ontslag) en art. 82 oud (regime van toepassing op het examenjaar 2003, opgeheven door W. 26 december 2013). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 37, 37/1, 37/2, 39, 41 Arbeidsovereenkomstenwet 3 juli 1978; CAO nr. 109 NAR"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrJ2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
